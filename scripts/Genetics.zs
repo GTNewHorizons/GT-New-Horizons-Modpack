@@ -214,7 +214,7 @@ Assembler.addRecipe(<Genetics:misc:10>, [<gregtech:gt.metaitem.03:32106>, <ore:c
 
 
 // --- DNA Dey
-Mixer.addRecipe(<Genetics:misc:1>, null, [<gregtech:gt.metaitem.01:1810> * 4, <gregtech:gt.metaitem.01:1811> * 4, <gregtech:gt.metaitem.02:32418>, <gregtech:gt.metaitem.02:32419>], <liquid:molten.blaze> * 144, 100, 30);
+Mixer.addRecipe(<Genetics:misc:1>, null, [<minecraft:redstone>, <minecraft:glowstone_dust>, <gregtech:gt.metaitem.02:32418>, <gregtech:gt.metaitem.02:32419>], <liquid:molten.blaze> * 144, 100, 30);
 
 // --- Fluorescent Dey
-Mixer.addRecipe(<Genetics:misc:2>, null, [<gregtech:gt.metaitem.01:1811> * 4, <gregtech:gt.metaitem.01:1810> * 4, <gregtech:gt.metaitem.02:32428>, <gregtech:gt.metaitem.02:32425>], <liquid:molten.blaze> * 144, 100, 30);
+Mixer.addRecipe(<Genetics:misc:2>, null, [<minecraft:redstone>, <minecraft:glowstone_dust>, <gregtech:gt.metaitem.02:32428>, <gregtech:gt.metaitem.02:32425>], <liquid:molten.blaze> * 144, 100, 30);
