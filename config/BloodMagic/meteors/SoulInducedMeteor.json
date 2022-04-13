@@ -1,0 +1,12 @@
+{
+  "ores": [
+	"soulSand",
+    "1000"
+  ],
+  "radius": 16,
+  "cost": 5000000,
+  "focusModId": "minecraft",
+  "focusName": "soul_sand",
+  "focusMeta": 0
+}
+
