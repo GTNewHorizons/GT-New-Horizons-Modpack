@@ -8,6 +8,7 @@
 
 
 import mods.gregtech.Assembler;
+import mods.gregtech.CircuitAssembler;
 
 
 
@@ -303,6 +304,16 @@ mods.thaumcraft.Arcane.addShaped("thaumicenergistics.TESTORAGE", <thaumicenergis
 [<ore:circuitPrimitive>, <Thaumcraft:ItemResource:14>, <ore:circuitPrimitive>],
 [<Thaumcraft:ItemResource:14>, <dreamcraft:item.EngineeringProcessorEssentiaPulsatingCore>, <Thaumcraft:ItemResource:14>],
 [<ore:circuitPrimitive>, <Thaumcraft:ItemResource:14>, <ore:circuitPrimitive>]]);
+// - non-recursive
+CircuitAssembler.addRecipe(<thaumicenergistics:storage.component>,
+[<ore:circuitPrimitive> * 2, <Thaumcraft:ItemResource:14> * 2, <dreamcraft:item.EngineeringProcessorEssentiaPulsatingCore>, <gregtech:gt.metaitem.01:32710>, <gregtech:gt.integrated_circuit:1> * 0],
+<liquid:molten.solderingalloy> * 72, 200, 30);
+CircuitAssembler.addRecipe(<thaumicenergistics:storage.component>,
+[<ore:circuitPrimitive> * 2, <Thaumcraft:ItemResource:14> * 2, <dreamcraft:item.EngineeringProcessorEssentiaPulsatingCore>, <gregtech:gt.metaitem.01:32710>, <gregtech:gt.integrated_circuit:1> * 0],
+<liquid:molten.tin> * 144, 200, 30);
+CircuitAssembler.addRecipe(<thaumicenergistics:storage.component>,
+[<ore:circuitPrimitive> * 2, <Thaumcraft:ItemResource:14> * 2, <dreamcraft:item.EngineeringProcessorEssentiaPulsatingCore>, <gregtech:gt.metaitem.01:32710>, <gregtech:gt.integrated_circuit:1> * 0],
+<liquid:molten.lead> * 288, 200, 30);
 // -
 mods.thaumcraft.Research.addArcanePage("thaumicenergistics.TESTORAGE", <thaumicenergistics:storage.component>);
 
@@ -311,6 +322,16 @@ mods.thaumcraft.Arcane.addShaped("thaumicenergistics.TESTORAGE", <thaumicenergis
 [<ore:circuitBasic>, <thaumicenergistics:storage.component>, <ore:circuitBasic>],
 [<thaumicenergistics:storage.component>, <dreamcraft:item.EngineeringProcessorEssentiaPulsatingCore>, <thaumicenergistics:storage.component>],
 [<ore:circuitBasic>, <thaumicenergistics:storage.component>, <ore:circuitBasic>]]);
+// - non-recursive
+CircuitAssembler.addRecipe(<thaumicenergistics:storage.component:1>,
+[<ore:circuitBasic> * 4, <ore:circuitPrimitive> * 16, <dreamcraft:item.EngineeringProcessorEssentiaPulsatingCore>, <gregtech:gt.metaitem.03:32100>, <gregtech:gt.integrated_circuit:1> * 0],
+<liquid:molten.solderingalloy> * 72, 200, 30);
+CircuitAssembler.addRecipe(<thaumicenergistics:storage.component:1>,
+[<ore:circuitBasic> * 4, <ore:circuitPrimitive> * 16, <dreamcraft:item.EngineeringProcessorEssentiaPulsatingCore>, <gregtech:gt.metaitem.03:32100>, <gregtech:gt.integrated_circuit:1> * 0],
+<liquid:molten.tin> * 144, 200, 30);
+CircuitAssembler.addRecipe(<thaumicenergistics:storage.component:1>,
+[<ore:circuitBasic> * 4, <ore:circuitPrimitive> * 16, <dreamcraft:item.EngineeringProcessorEssentiaPulsatingCore>, <gregtech:gt.metaitem.03:32100>, <gregtech:gt.integrated_circuit:1> * 0],
+<liquid:molten.lead> * 288, 200, 30);
 // -
 mods.thaumcraft.Research.addArcanePage("thaumicenergistics.TESTORAGE", <thaumicenergistics:storage.component:1>);
 
@@ -319,6 +340,16 @@ mods.thaumcraft.Arcane.addShaped("thaumicenergistics.TESTORAGE", <thaumicenergis
 [<ore:circuitGood>, <thaumicenergistics:storage.component:1>, <ore:circuitGood>],
 [<thaumicenergistics:storage.component:1>, <dreamcraft:item.EngineeringProcessorEssentiaPulsatingCore>, <thaumicenergistics:storage.component:1>],
 [<ore:circuitGood>, <thaumicenergistics:storage.component:1>, <ore:circuitGood>]]);
+// - non-recursive
+CircuitAssembler.addRecipe(<thaumicenergistics:storage.component:2>,
+[<ore:circuitGood> * 4, <ore:circuitBasic> * 16, <dreamcraft:item.EngineeringProcessorEssentiaPulsatingCore>, <gregtech:gt.metaitem.03:32101>, <gregtech:gt.integrated_circuit:1> * 0],
+<liquid:molten.solderingalloy> * 72, 200, 120);
+CircuitAssembler.addRecipe(<thaumicenergistics:storage.component:2>,
+[<ore:circuitGood> * 4, <ore:circuitBasic> * 16, <dreamcraft:item.EngineeringProcessorEssentiaPulsatingCore>, <gregtech:gt.metaitem.03:32101>, <gregtech:gt.integrated_circuit:1> * 0],
+<liquid:molten.tin> * 144, 200, 120);
+CircuitAssembler.addRecipe(<thaumicenergistics:storage.component:2>,
+[<ore:circuitGood> * 4, <ore:circuitBasic> * 16, <dreamcraft:item.EngineeringProcessorEssentiaPulsatingCore>, <gregtech:gt.metaitem.03:32101>, <gregtech:gt.integrated_circuit:1> * 0],
+<liquid:molten.lead> * 288, 200, 120);
 // -
 mods.thaumcraft.Research.addArcanePage("thaumicenergistics.TESTORAGE", <thaumicenergistics:storage.component:2>);
 
@@ -327,6 +358,16 @@ mods.thaumcraft.Arcane.addShaped("thaumicenergistics.TESTORAGE", <thaumicenergis
 [<ore:circuitAdvanced>, <thaumicenergistics:storage.component:2>, <ore:circuitAdvanced>],
 [<thaumicenergistics:storage.component:2>, <dreamcraft:item.EngineeringProcessorEssentiaPulsatingCore>, <thaumicenergistics:storage.component:2>],
 [<ore:circuitAdvanced>, <thaumicenergistics:storage.component:2>, <ore:circuitAdvanced>]]);
+// - non-recursive
+CircuitAssembler.addRecipe(<thaumicenergistics:storage.component:3>,
+[<ore:circuitAdvanced> * 4, <ore:circuitGood> * 16, <dreamcraft:item.EngineeringProcessorEssentiaPulsatingCore>, <gregtech:gt.metaitem.03:32102>, <gregtech:gt.integrated_circuit:1> * 0],
+<liquid:molten.solderingalloy> * 72, 200, 480);
+CircuitAssembler.addRecipe(<thaumicenergistics:storage.component:3>,
+[<ore:circuitAdvanced> * 4, <ore:circuitGood> * 16, <dreamcraft:item.EngineeringProcessorEssentiaPulsatingCore>, <gregtech:gt.metaitem.03:32102>, <gregtech:gt.integrated_circuit:1> * 0],
+<liquid:molten.tin> * 144, 200, 480);
+CircuitAssembler.addRecipe(<thaumicenergistics:storage.component:3>,
+[<ore:circuitAdvanced> * 4, <ore:circuitGood> * 16, <dreamcraft:item.EngineeringProcessorEssentiaPulsatingCore>, <gregtech:gt.metaitem.03:32102>, <gregtech:gt.integrated_circuit:1> * 0],
+<liquid:molten.lead> * 288, 200, 480);
 // -
 mods.thaumcraft.Research.addArcanePage("thaumicenergistics.TESTORAGE", <thaumicenergistics:storage.component:3>);
 
