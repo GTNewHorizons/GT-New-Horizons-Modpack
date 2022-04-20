@@ -6,7 +6,6 @@
 
 
 import mods.gregtech.Assembler;
-import minetweaker.item.IItemStack;
 
 
 
@@ -81,40 +80,6 @@ val ClearPane = <TConstruct:GlassPane>;
 val Screwdriver = <ore:craftingToolScrewdriver>;
 val SHammer = <ore:craftingToolSoftHammer>;
 val HHammer = <ore:craftingToolHardHammer>;
-
-val disabledItems = [
-    FluidStorage1K,
-    FluidStorage4K,
-    FluidStorage16K,
-    FluidStorage64K,
-    FluidStorage256K,
-    FluidStorage1024K,
-    FluidStorage4096K,
-    FluidSComponent1K,
-    FluidSComponent4K,
-    FluidSComponent16K,
-    FluidSComponent64K,
-    FluidSComponent256K,
-    FluidSComponent1024K,
-    FluidSComponent4096K,
-    UFluidStorageHousing,
-    <extracells:fluidcrafter>, // ME Fluid Assembler
-    <extracells:ecbaseblock>, // ME Fluid Interface
-    <extracells:ecbaseblock:1>, // ME Fluid Auto Filler
-    <extracells:part.base>, // ME Fluid Export Bus
-    <extracells:part.base:1>, // ME Fluid Import Bus
-    <extracells:part.base:2>, // ME Fluid Storage Bus
-    <extracells:part.base:3>, // ME Fluid Terminal
-    <extracells:part.base:4>, // ME Fluid Level Emitter
-    <extracells:part.base:5>, // ME Fluid Annihilation Plane
-    <extracells:part.base:6>, // ME Fluid Formating Plane
-    <extracells:part.base:9>, // ME Fluid Interface
-    <extracells:part.base:10>, // Fluid Storage Monitor
-    <extracells:part.base:11>, // ME Fluid Conversion Monitor
-    <extracells:part.base:12>, // ME Ore Dictionary Bus
-    <extracells:pattern.fluid>, // ME Fluid Pattern
-    <extracells:terminal.fluid.wireless>, // Wireless Fluid ME Terminal
-] as IItemStack[];
 
 
 
@@ -486,11 +451,3 @@ Assembler.addRecipe(<appliedenergistics2:tile.BlockCraftingStorage:3>, <appliede
 
 
 // --- Hiding Stuff ---
-
-
-
-// --- Tooltips ---
-for i, disabledItem in disabledItems {
-    disabledItem.addTooltip(format.darkRed("Disabled because EC2 is buggy"));
-    disabledItem.addTooltip(format.darkRed("If you're still using this, we recommend migrating to other means"));
-}
