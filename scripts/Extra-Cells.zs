@@ -393,6 +393,176 @@ recipes.addShaped(UAdvStorageHousing, [
 [ChromePlate, ClearPane, ChromePlate],
 [CertusScrew, ChromePlate, HHammer]]);
 
+// --- Fluid Storage Cell - 1K
+recipes.addShaped(FluidStorage1K, [
+[HHammer, CertusPlate, CertusScrew],
+[TitaniumPlate, FluidSComponent1K, TitaniumPlate],
+[CertusScrew, TitaniumPlate, Screwdriver]]);
+// -
+recipes.addShaped(FluidStorage1K, [
+[Screwdriver, CertusPlate, CertusScrew],
+[TitaniumPlate, FluidSComponent1K, TitaniumPlate],
+[CertusScrew, TitaniumPlate, HHammer]]);
+
+recipes.addShapeless(<extracells:storage.fluid:0>, [<extracells:storage.component:4>, <extracells:storage.casing:1>]);
+
+// --- Fluid Storage Cell - 4K
+recipes.addShaped(FluidStorage4K, [
+[HHammer, CertusPlate, CertusScrew],
+[TitaniumPlate, FluidSComponent4K, TitaniumPlate],
+[CertusScrew, TitaniumPlate, Screwdriver]]);
+// -
+recipes.addShaped(FluidStorage4K, [
+[Screwdriver, CertusPlate, CertusScrew],
+[TitaniumPlate, FluidSComponent4K, TitaniumPlate],
+[CertusScrew, TitaniumPlate, HHammer]]);
+
+recipes.addShapeless(<extracells:storage.fluid:1>, [<extracells:storage.component:5>, <extracells:storage.casing:1>]);
+
+// --- Fluid Storage Cell - 16K
+recipes.addShaped(FluidStorage16K, [
+[HHammer, CertusPlate, CertusScrew],
+[TitaniumPlate, FluidSComponent16K, TitaniumPlate],
+[CertusScrew, TitaniumPlate, Screwdriver]]);
+// -
+recipes.addShaped(FluidStorage16K, [
+[Screwdriver, CertusPlate, CertusScrew],
+[TitaniumPlate, FluidSComponent16K, TitaniumPlate],
+[CertusScrew, TitaniumPlate, HHammer]]);
+
+recipes.addShapeless(<extracells:storage.fluid:2>, [<extracells:storage.component:6>, <extracells:storage.casing:1>]);
+
+// --- Fluid Storage Cell - 64K
+recipes.addShaped(FluidStorage64K, [
+[HHammer, CertusPlate, CertusScrew],
+[TitaniumPlate, FluidSComponent64K, TitaniumPlate],
+[CertusScrew, TitaniumPlate, Screwdriver]]);
+// -
+recipes.addShaped(FluidStorage64K, [
+[HHammer, CertusPlate, CertusScrew],
+[TitaniumPlate, FluidSComponent64K, TitaniumPlate],
+[CertusScrew, TitaniumPlate, Screwdriver]]);
+
+recipes.addShapeless(<extracells:storage.fluid:3>, [<extracells:storage.component:7>, <extracells:storage.casing:1>]);
+
+// --- Fluid Storage Cell - 256K
+recipes.addShaped(FluidStorage256K, [
+[HHammer, CertusPlate, CertusScrew],
+[TitaniumPlate, FluidSComponent256K, TitaniumPlate],
+[CertusScrew, TitaniumPlate, Screwdriver]]);
+// -
+recipes.addShaped(FluidStorage256K, [
+[HHammer, CertusPlate, CertusScrew],
+[TitaniumPlate, FluidSComponent256K, TitaniumPlate],
+[CertusScrew, TitaniumPlate, Screwdriver]]);
+
+recipes.addShapeless(<extracells:storage.fluid:4>, [<extracells:storage.component:8>, <extracells:storage.casing:1>]);
+
+// --- Fluid Storage Cell - 1024K
+recipes.addShaped(FluidStorage1024K, [
+[HHammer, CertusPlate, CertusScrew],
+[TitaniumPlate, FluidSComponent1024K, TitaniumPlate],
+[CertusScrew, TitaniumPlate, Screwdriver]]);
+// -
+recipes.addShaped(FluidStorage1024K, [
+[HHammer, CertusPlate, CertusScrew],
+[TitaniumPlate, FluidSComponent1024K, TitaniumPlate],
+[CertusScrew, TitaniumPlate, Screwdriver]]);
+
+recipes.addShapeless(<extracells:storage.fluid:5>, [<extracells:storage.component:9>, <extracells:storage.casing:1>]);
+
+// --- Fluid Storage Cell - 4096K
+recipes.addShaped(FluidStorage4096K, [
+[HHammer, CertusPlate, CertusScrew],
+[TitaniumPlate, FluidSComponent4096K, TitaniumPlate],
+[CertusScrew, TitaniumPlate, Screwdriver]]);
+// -
+recipes.addShaped(FluidStorage4096K, [
+[HHammer, CertusPlate, CertusScrew],
+[TitaniumPlate, FluidSComponent4096K, TitaniumPlate],
+[CertusScrew, TitaniumPlate, Screwdriver]]);
+
+recipes.addShapeless(<extracells:storage.fluid:6>, [<extracells:storage.component:10>, <extracells:storage.casing:1>]);
+
+// --- Fluid Storage Cell Component - 1K
+recipes.addShaped(FluidSComponent1K, [
+[PrimitiveCircuit, <appliedenergistics2:item.ItemMultiMaterial:8>, PrimitiveCircuit],
+[<appliedenergistics2:item.ItemMultiMaterial:8>, <dreamcraft:item.EngineeringProcessorFluidDiamondCore>, <appliedenergistics2:item.ItemMultiMaterial:8>],
+[PrimitiveCircuit, <appliedenergistics2:item.ItemMultiMaterial:8>, PrimitiveCircuit]]);
+
+// --- Fluid Storage Cell Component - 4K
+recipes.addShaped(FluidSComponent4K, [
+[BasicCircuit, FluidSComponent1K, BasicCircuit],
+[FluidSComponent1K, <dreamcraft:item.EngineeringProcessorFluidDiamondCore>, FluidSComponent1K],
+[BasicCircuit, FluidSComponent1K, BasicCircuit]]);
+
+// --- Fluid Storage Cell Component - 16K
+recipes.addShaped(FluidSComponent16K, [
+[GoodCircuit, FluidSComponent4K, GoodCircuit],
+[FluidSComponent4K, <dreamcraft:item.EngineeringProcessorFluidDiamondCore>, FluidSComponent4K],
+[GoodCircuit, FluidSComponent4K, GoodCircuit]]);
+
+// --- Fluid Storage Cell Component - 64K
+recipes.addShaped(FluidSComponent64K, [
+[AdvCircuit, FluidSComponent16K, AdvCircuit],
+[FluidSComponent16K, <dreamcraft:item.EngineeringProcessorFluidDiamondCore>, FluidSComponent16K],
+[AdvCircuit, FluidSComponent16K, AdvCircuit]]);
+
+// --- Fluid Storage Cell Component - 256K
+recipes.addShaped(FluidSComponent256K, [
+[DataCircuit, FluidSComponent64K, DataCircuit],
+[FluidSComponent64K, <dreamcraft:item.EngineeringProcessorFluidEmeraldCore>, FluidSComponent64K],
+[DataCircuit, FluidSComponent64K, DataCircuit]]);
+
+// --- Fluid Storage Cell Component - 1024K
+recipes.addShaped(FluidSComponent1024K, [
+[EliteCircuit, FluidSComponent256K, EliteCircuit],
+[FluidSComponent256K, <dreamcraft:item.EngineeringProcessorFluidEmeraldCore>, FluidSComponent256K],
+[EliteCircuit, FluidSComponent256K, EliteCircuit]]);
+
+// --- Fluid Storage Cell Component - 4096K
+recipes.addShaped(FluidSComponent4096K, [
+[MasterCircuit, FluidSComponent1024K, MasterCircuit],
+[FluidSComponent1024K, <dreamcraft:item.EngineeringProcessorFluidEmeraldCore>, FluidSComponent1024K],
+[MasterCircuit, FluidSComponent1024K, MasterCircuit]]);
+
+// --- Universal Fluid Storage Housing
+recipes.addShaped(UFluidStorageHousing, [
+[HHammer, CertusPlate, CertusScrew],
+[TitaniumPlate, ClearPane, TitaniumPlate],
+[CertusScrew, TitaniumPlate, Screwdriver]]);
+// -
+recipes.addShaped(UFluidStorageHousing, [
+[Screwdriver, CertusPlate, CertusScrew],
+[TitaniumPlate, ClearPane, TitaniumPlate],
+[CertusScrew, TitaniumPlate, HHammer]]);
+
+// --- ME Fluid Terminal
+recipes.addShaped(<extracells:part.base:3>, [
+[<ore:plateLapis>, <appliedenergistics2:item.ItemMultiPart:16>, <ore:plateLapis>],
+[<appliedenergistics2:item.ItemMultiMaterial:43>, <appliedenergistics2:item.ItemMultiPart:380>, <appliedenergistics2:item.ItemMultiMaterial:44>],
+[<ore:plateLapis>, <appliedenergistics2:item.ItemMultiPart:16>, <ore:plateLapis>]]);
+
+// --- ME Fluid Assembler
+recipes.addShaped(<extracells:fluidcrafter>, [
+[<ore:plateLapis>, <appliedenergistics2:item.ItemMultiPart:16>, <ore:plateLapis>],
+[<extracells:storage.component:4>, <appliedenergistics2:tile.BlockMolecularAssembler>, <extracells:storage.component:4>],
+[<ore:plateLapis>, <appliedenergistics2:item.ItemMultiPart:16>, <ore:plateLapis>]]);
+
+// --- ME Fluid Interface
+recipes.addShaped(<extracells:ecbaseblock>, [
+[<ore:plateLapis>, <appliedenergistics2:item.ItemMultiPart:16>, <ore:plateLapis>],
+[<extracells:storage.component:4>, <appliedenergistics2:tile.BlockInterface>, <extracells:storage.component:4>],
+[<ore:plateLapis>, <appliedenergistics2:item.ItemMultiPart:16>, <ore:plateLapis>]]);
+// -
+recipes.addShapeless(<extracells:ecbaseblock>, [<extracells:part.base:9>]);
+
+// --- ME Fluid Auto Filler
+recipes.addShaped(<extracells:ecbaseblock:1>, [
+[<ore:plateLapis>, <extracells:part.base:3>, <ore:plateLapis>],
+[<appliedenergistics2:item.ItemMultiPart:16>, <extracells:fluidcrafter>, <appliedenergistics2:item.ItemMultiPart:16>],
+[<ore:plateLapis>, <extracells:part.base:4>, <ore:plateLapis>]]);
+
 // --- Blast Resistance ME Drive
 recipes.addShaped(<extracells:hardmedrive>, [
 [<ore:plateDenseObsidian>, <appliedenergistics2:item.ItemMultiPart:76>, <ore:plateDenseObsidian>],
@@ -426,11 +596,41 @@ recipes.addShaped(<extracells:storage.fluid.portable>, [
 // --- Quartz Tank
 Assembler.addRecipe(<extracells:certustank>, <appliedenergistics2:tile.BlockQuartzGlass> * 8, <gregtech:gt.integrated_circuit:8> * 0, 800, 30);
 
+// --- ME Fluid Export Bus
+Assembler.addRecipe(<extracells:part.base>, <appliedenergistics2:item.ItemMultiPart:260>, <gregtech:gt.metaitem.01:17526> * 3, 300, 120);
+
+// --- ME Fluid Import Bus
+Assembler.addRecipe(<extracells:part.base:1>, <appliedenergistics2:item.ItemMultiPart:240>, <gregtech:gt.metaitem.01:17526> * 3, 300, 120);
+
+// --- ME Fluid Storage Bus
+Assembler.addRecipe(<extracells:part.base:2>, <appliedenergistics2:item.ItemMultiPart:220>, <gregtech:gt.metaitem.01:17526> * 3, 300, 120);
+
+// --- ME Fluid Level Emitter
+Assembler.addRecipe(<extracells:part.base:4>, <appliedenergistics2:item.ItemMultiPart:280>, <gregtech:gt.metaitem.01:17526>, 100, 120);
+
+// --- ME Fluid Annihilation Plane
+Assembler.addRecipe(<extracells:part.base:5>, <appliedenergistics2:item.ItemMultiPart:300>, <gregtech:gt.metaitem.01:17526> * 3, 300, 120);
+
+// --- ME Fluid Formating Plane
+Assembler.addRecipe(<extracells:part.base:6>, <appliedenergistics2:item.ItemMultiPart:320>, <gregtech:gt.metaitem.01:17526> * 3, 300, 120);
+
 // --- ME Drive Fixture
 Assembler.addRecipe(<extracells:part.base:7>, <appliedenergistics2:tile.BlockDrive>, <gregtech:gt.metaitem.01:17306> * 3, 300, 120);
 
 // --- ME Energy Cell Fixture
 Assembler.addRecipe(<extracells:part.base:8>, <appliedenergistics2:tile.BlockEnergyCell>, <gregtech:gt.metaitem.01:17306> * 3, 300, 120);
+
+// --- Fluid Storage Monitor
+Assembler.addRecipe(<extracells:part.base:10>, <appliedenergistics2:item.ItemMultiPart:400>, <gregtech:gt.metaitem.01:17526> * 3, 300, 120);
+
+// --- ME Fluid Conversion Monitor
+Assembler.addRecipe(<extracells:part.base:11>, <appliedenergistics2:item.ItemMultiPart:420>, <gregtech:gt.metaitem.01:17526> * 3, 300, 120);
+
+// --- ME Fluid Pattern
+Assembler.addRecipe(<extracells:pattern.fluid>, <extracells:storage.casing:1>, <minecraft:bucket>, 100, 120);
+
+// --- Wireless Fluid ME Terminal
+Assembler.addRecipe(<extracells:terminal.fluid.wireless>, <appliedenergistics2:item.ToolWirelessTerminal:*>, <extracells:part.base:3>, 600, 120);
 
 // --- Crafing Storage 256K
 Assembler.addRecipe(<extracells:craftingstorage>, <appliedenergistics2:tile.BlockCraftingUnit>, <extracells:storage.component>, 400, 1920);
