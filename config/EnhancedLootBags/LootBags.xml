@@ -829,9 +829,6 @@
         <Loot Identifier="fff5d6a0-005c-42e4-ad05-56a1e4245f8d" ItemName="minecraft:dragon_egg" Amount="1" NBTTag="" Chance="100" LimitedDropCount="1" RandomAmount="false"/>
         <Loot Identifier="3b573cf4-a704-4550-a9ed-c268c7851a53" ItemName="witchery:ingredient:129" Amount="1" NBTTag="" Chance="100" LimitedDropCount="1" RandomAmount="false"/>
         <Loot Identifier="42357855-68c6-4fa8-b1eb-d5b3a0f6fa3d" ItemName="DraconicEvolution:draconicPickaxe" Amount="1" NBTTag="{Energy:10000000}" Chance="100" LimitedDropCount="1" RandomAmount="false"/>
-        <Loot Identifier="8c91a693-a63c-4cc6-88a1-099b06b1d122" ItemName="thaumicbases:herobrinesScythe" Amount="1" NBTTag="" Chance="100" LimitedDropCount="1" RandomAmount="false"/>
-        <Loot Identifier="3807da4d-170f-4da8-b200-fa373ffe4b5c" ItemName="extracells:storage.physical:3" Amount="1" NBTTag="{upgrades:{},config:{}}" Chance="100" LimitedDropCount="1" RandomAmount="false"/>
-        <Loot Identifier="906ad40b-40b7-4046-a50c-0df5de7a044b" ItemName="extracells:storage.fluid:6" Amount="1" NBTTag="{}" Chance="100" LimitedDropCount="1" RandomAmount="false"/>
         <Loot Identifier="bd8a77f7-a4dd-4175-ac9c-d2cf6d4462f7" ItemName="gregtech:gt.metaitem.01:32598" Amount="1" NBTTag="{GT.ItemCharge:2000000000000L}" Chance="100" LimitedDropCount="1" RandomAmount="false"/>
         <Loot Identifier="657b8bbf-6707-46e9-8ac9-0410fb37f885" ItemName="GraviSuite:graviChestPlate:27" Amount="1" NBTTag="{toolXP:0.0d,charge:0,toolMode:0}" Chance="100" ItemGroup="" LimitedDropCount="1" RandomAmount="false"/>
     </LootGroup>
@@ -1659,8 +1656,8 @@
         <Loot Identifier="1852403a-c3a6-48ae-8891-63f6a02870db" ItemName="appliedenergistics2:item.ItemMultiMaterial:35" Amount="16" NBTTag="" Chance="35" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="08ed3463-16c6-4d75-895e-c089d4fad9a4" ItemName="appliedenergistics2:item.ItemMultiMaterial:36" Amount="4" NBTTag="" Chance="25" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="d08f1860-2ea1-4239-b97a-e95ee4ca9cad" ItemName="appliedenergistics2:item.ItemMultiPart:56" Amount="16" NBTTag="" Chance="65" LimitedDropCount="0" RandomAmount="true"/>
-        <Loot Identifier="cc9bffc6-cbf3-47b4-afef-f5422220c8fc" ItemName="extracells:storage.component:4" Amount="4" NBTTag="" Chance="30" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="a1726915-b196-4862-8984-86838eb398d5" ItemName="extracells:storage.component:5" Amount="2" NBTTag="" Chance="20" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="e2a52bfe-6325-424a-ac4b-e9477b493a5a" ItemName="appliedenergistics2:tile.BlockDrive" Amount="1" NBTTag="" Chance="20" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="2b32459d-5269-4b40-ad4a-27e7c1aae450" ItemName="appliedenergistics2:item.ItemMultiPart:36" Amount="32" NBTTag="" Chance="30" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
     <LootGroup GroupMetaID="38" GroupName="AE Good" Rarity="2" MinItems="2" MaxItems="4" CombineTrashGroup="true">
         <Loot Identifier="ada6363c-0ecd-4922-b623-568e588b06df" ItemName="appliedenergistics2:item.ItemBasicStorageCell.16k" Amount="4" NBTTag="{}" Chance="35" LimitedDropCount="0" RandomAmount="false"/>
@@ -1678,7 +1675,7 @@
         <Loot Identifier="4c61444e-0ee5-4a57-8a63-6ed94a73b485" ItemName="appliedenergistics2:tile.BlockQuantumRing" Amount="8" NBTTag="" Chance="10" ItemGroup="quantumchamber" LimitedDropCount="1" RandomAmount="false"/>
         <Loot Identifier="e8fa201b-04f5-4461-806b-9c23caa1709c" ItemName="appliedenergistics2:item.ItemMultiMaterial:37" Amount="8" NBTTag="" Chance="45" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="0af16d5e-ff58-422d-8197-3c0d405fde1e" ItemName="appliedenergistics2:item.ItemMultiPart:76" Amount="16" NBTTag="" Chance="45" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="5a6c6558-a909-4af0-a3f1-38cd04eea6bd" ItemName="extracells:storage.component:6" Amount="8" NBTTag="" Chance="55" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="16b1c838-2672-491f-9bca-e65feefff415" ItemName="appliedenergistics2:item.ItemMultiMaterial:54" Amount="4" NBTTag="" Chance="55" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
     <LootGroup GroupMetaID="39" GroupName="AE Advanced" Rarity="3" MinItems="1" MaxItems="2" CombineTrashGroup="false">
         <Loot Identifier="genericdrop_diamond" ItemName="minecraft:diamond" Amount="1" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="false"/>

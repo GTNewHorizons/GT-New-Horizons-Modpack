@@ -574,6 +574,12 @@ recipes.remove(<ExtraUtilities:temporalHoe>);
 // --- Unstable Ingot Block
 mods.tconstruct.Casting.removeBasinRecipe(<ExtraUtilities:decorativeBlock1:5>);
 
+// --- Unstable Ingot
+recipes.removeShaped(<ExtraUtilities:unstableingot>.withTag({Bug: 1 as byte}),[
+    [<minecraft:iron_ingot>],
+    [<ExtraUtilities:divisionSigil>.withTag({damage: 256})],
+    [<minecraft:diamond>]]);
+
 
 
 // --- Add Recipes ---
@@ -1060,6 +1066,12 @@ recipes.addShaped(<ExtraUtilities:temporalHoe>, [
 [<ore:ingotUnstable>, <ore:ingotUnstable>, null],
 [null, <RandomThings:ingredient:1>, null],
 [null, <RandomThings:ingredient:1>, null]]);
+
+// --- Unstable Ingot
+recipes.addShaped(<ExtraUtilities:unstableingot>,[
+    [<minecraft:iron_ingot>],
+    [<ExtraUtilities:divisionSigil>.withTag({damage: 256})],
+    [<minecraft:diamond>]]);
 
 
 
