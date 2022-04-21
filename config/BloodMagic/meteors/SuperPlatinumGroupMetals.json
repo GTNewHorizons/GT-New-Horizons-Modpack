@@ -1,11 +1,11 @@
 {
   "ores": [
 	"oreEndstonePlatinum",
-    "250",
+    "150",
 	"oreEndstoneIridium",
-    "100",
+    "75",
 	"oreEndstonePalladium",
-    "100",
+    "75",
 	"oreEndstoneOsmium",
     "50",
 	"oreCrudeRhodiumMetal",
@@ -15,8 +15,8 @@
 	"oreRarestMetalResidue",
     "100"
   ],
-  "radius": 18,
-  "cost": 30000000,
+  "radius": 16,
+  "cost": 25000000,
   "focusModId": "gregtech",
   "focusName": "gt.metaitem.01",
   "focusMeta": 32684

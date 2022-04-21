@@ -1,7 +1,7 @@
 {
   "ores": [
     "stoneGraniteBlack",
-    "299",
+    "499",
 	"oreBlackgraniteDiamond",
     "100",
 	"oreBlackgraniteEmerald",
@@ -38,15 +38,11 @@
     "50",
 	"oreBlackgraniteLazurite",
     "50",
-	"oreBlackgraniteGarnetRed",
-    "50",
-	"oreBlackgraniteGarnetYellow",
-    "50",
 	"oreBlackgraniteNetherStar",
     "1"
   ],
   "radius": 12,
-  "cost": 100000,
+  "cost": 500000,
   "focusModId": "gregtech",
   "focusName": "gt.metaitem.01",
   "focusMeta": 24347

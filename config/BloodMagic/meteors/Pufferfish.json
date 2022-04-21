@@ -1,0 +1,22 @@
+{
+  "ores": [
+	"oreBasaltSalt",
+    "75",
+	"oreBasaltRockSalt",
+    "75",
+	"oreBasaltSaltpeter",
+    "200",
+	"oreBasaltBasalticMineralSand",
+    "25",
+	"oreBasaltGraniticMineralSand",
+    "25",
+	"stoneBasalt",
+    "100"
+  ],
+  "radius": 16,
+  "cost": 6666666,
+  "focusModId": "minecraft",
+  "focusName": "fish",
+  "focusMeta": 3
+}
+
