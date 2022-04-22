@@ -12148,8 +12148,6 @@ gtnh.quest3035.desc=No Description
 gtnh.quest3036.name=Trigger:Naqline Skip
 gtnh.quest3036.desc=No Description
 
-<<<<<<< Updated upstream
-=======
 # Quest.3037 - Space Pumping
 gtnh.quest3037.name=Space Pumping
 gtnh.quest3037.desc=You might have already wondered: There are these enormous gas planets in the solar system - isn't there a way to "harvest" them? Indeed there is. By constructing the "Planetary Gas Siphon" multiblock, you are able to pump from the infinite supply of gas found on Jupiter, Saturn, Uranus and Neptune. You just need to build a space station around a gas planet to get near enough to be able to reach the gas without falling into it.%n%nBy pumping on different depths, you are able to extract different gases. The depth is controlled by a Programmed Circuit. You need to supply 64 * depth Mining Pipes to be able to rach the selected depth.%n%nWhile operational, the multiblock needs d*4^(t+2) EU/t (t is the space station's tier and d is the depth).%n%n%n§oJupiter§r%n1 Hydrogen - 15000 L/s%n2 Helium - 500 L/s%n3 Nitrogen - 300 L/s%n4 Oxygen - 200 L/s%n%n§oSaturn§r%n1 Hydrogen - 18000 L/s%n2 Helium - 800 L/s%n3 Oxygen - 500 L/s%n4 Liquid Oxygen - 150 L/s%n%n§oUranus§r%n1 Deuterium - 5000 L/s%n2 Neon - 450 L/s%n3 Argon - 250 L/s%n4 Krypton - 100 L/s%n%n§oNeptune§r%n1 Tritium - 3000 L/s%n2 Helium-3 - 500 L/s%n3 Ammonia - 400 L/s%n4 Xenon - 350 L/s
