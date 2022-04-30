@@ -490,7 +490,7 @@
         <Loot Identifier="b36bd382-2ee8-4dfd-ac6c-b41451457d41" ItemName="GalacticraftCore:item.oxygenMask" Amount="1" NBTTag="" Chance="35" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="eae8e24c-1146-47d7-9f3a-d953a9745fa3" ItemName="GalacticraftCore:item.oxygenTankLightFull" Amount="1" NBTTag="" Chance="35" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="010ed850-f409-4e02-a1f9-57dd77b6fc2d" ItemName="GalacticraftCore:tile.oxygenPipe" Amount="8" NBTTag="" Chance="35" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="d0702543-9ca3-468e-a269-3a43880f07e1" ItemName="minecraft:book" Amount="1" NBTTag="{ench:[0:{lvl:2s,id:78s}]}" Chance="45" LimitedDropCount="4" RandomAmount="false"/>
+        <Loot Identifier="d0702543-9ca3-468e-a269-3a43880f07e1" ItemName="minecraft:enchanted_book" Amount="1" NBTTag="{ench:[0:{lvl:2s,id:78s}]}" Chance="45" LimitedDropCount="4" RandomAmount="false"/>
         <Loot Identifier="34bca693-7712-4f09-99f8-32ce39754fed" ItemName="gregtech:gt.metaitem.01:32602" Amount="8" NBTTag="" Chance="65" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="8c550c87-b531-437e-834e-c83243c1b68f" ItemName="IC2:itemBatCrystal:1" Amount="1" NBTTag="{charge:1000000.0d}" Chance="45" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="ed00ed21-2574-489c-a08f-05b59a232bc4" ItemName="IronChest:goldDiamondUpgrade" Amount="1" NBTTag="" Chance="20" LimitedDropCount="0" RandomAmount="false"/>
