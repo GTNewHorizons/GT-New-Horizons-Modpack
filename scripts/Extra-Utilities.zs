@@ -177,7 +177,6 @@ val ARFeatheryWings = <ExtraUtilities:angelRing:1>;
 val ARFairyWings = <ExtraUtilities:angelRing:2>;
 val ARDragonWings = <ExtraUtilities:angelRing:3>;
 val ARGoldenWings = <ExtraUtilities:angelRing:4>;
-val AngelBlock = <ExtraUtilities:angelBlock>;
 val TravelWingsImage = <TConstruct:travelWings>;
 val TravelWings = <TConstruct:travelWings>.withTag({TinkerArmor: {BaseDurability: 1035, BaseDefense: 2.0, Built: 1 as byte, MaxDefense: 8.0, Damage: 0, BonusDurability: 0, Modifiers: 3, DamageReduction: 0.0, TotalDurability: 1035, ModDurability: 0.0 as float, Broken: 0 as byte}});
 val MagicalFeather = <miscutils:magicfeather>;
