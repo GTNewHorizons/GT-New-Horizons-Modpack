@@ -177,7 +177,6 @@ val ARFeatheryWings = <ExtraUtilities:angelRing:1>;
 val ARFairyWings = <ExtraUtilities:angelRing:2>;
 val ARDragonWings = <ExtraUtilities:angelRing:3>;
 val ARGoldenWings = <ExtraUtilities:angelRing:4>;
-val AngelBlock = <ExtraUtilities:angelBlock>;
 val TravelWingsImage = <TConstruct:travelWings>;
 val TravelWings = <TConstruct:travelWings>.withTag({TinkerArmor: {BaseDurability: 1035, BaseDefense: 2.0, Built: 1 as byte, MaxDefense: 8.0, Damage: 0, BonusDurability: 0, Modifiers: 3, DamageReduction: 0.0, TotalDurability: 1035, ModDurability: 0.0 as float, Broken: 0 as byte}});
 val MagicalFeather = <miscutils:magicfeather>;
@@ -1337,7 +1336,7 @@ Extractor.addRecipe(<ExtraUtilities:cobblestone_compressed:14> * 9, <ExtraUtilit
 
 // --- Angel Wing over Thaumcraft ---
 // --- ARInvisableWings
-Infusion.addRecipe("EXURINGS_CRAFTING", TravelWings, [EngravedGC, IridiumRing, AngelBlock, PrimalCharm, MagicalFeather, Netherstar, BigPearl, Netherstar, MagicalFeather, PrimalCharm, AngelBlock, IridiumRing], "praecantatio 200, volatus 200, tempestas 200, nebrisum 200, motus 200, terminus 200", ARInvisableWings, 100);
+Infusion.addRecipe("EXURINGS_CRAFTING", TravelWings, [EngravedGC, IridiumRing, AngelBlock, PrimalCharm, MagicalFeather, Netherstar, BigPearl, Netherstar, MagicalFeather, PrimalCharm, AngelBlock, IridiumRing], "praecantatio 200, volatus 200, tempestas 200, nebrisum 200, motus 200, terminus 200", ARInvisableWings, 30);
 
 // --- ARFeatheryWings
 Infusion.addRecipe("EXURINGS_CRAFTING", ARInvisableWings, [SalisMundus, FeatherFletching, FeatherFletching], "permutatio 50, volatus 50, aer 50", ARFeatheryWings, 4);
