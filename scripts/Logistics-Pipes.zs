@@ -52,7 +52,7 @@ Assembler.addRecipe(<LogisticsPipes:logisticsSolidBlock:1>, [<gregtech:gt.blockm
 // --- Unrouted Logistics Pipe
 Assembler.addRecipe(<LogisticsPipes:item.PipeItemsBasicTransport> * 4, [<ore:stickLongSteel> * 2, <bartworks:BWPumpParts>, <ore:wireFineGold> * 2, <gregtech:gt.integrated_circuit:18> * 0], null, 100, 30);
 Assembler.addRecipe(<LogisticsPipes:item.PipeItemsBasicTransport> * 16, [<ore:stickLongSteel> * 2, <ore:plateReinforcedGlass> * 8, <ore:wireFineGold> * 8, <gregtech:gt.integrated_circuit:18> * 0], null, 100, 30);
-Assembler.addRecipe(<LogisticsPipes:item.PipeItemsBasicTransport> * 32, [<ore:stickLongStainlessSteel> * 2, <ore:plateBorosilicateGlass> * 8, <ore:wireFineGold> * 16, <gregtech:gt.integrated_circuit:18> * 0], null, 100, 30);
+Assembler.addRecipe(<LogisticsPipes:item.PipeItemsBasicTransport> * 32, [<ore:stickLongAluminium> * 2, <ore:plateBorosilicateGlass> * 8, <ore:wireFineGold> * 16, <gregtech:gt.integrated_circuit:18> * 0], null, 100, 30);
 
 
 // --- Basic Logistics Pipe
@@ -143,24 +143,24 @@ Assembler.addRecipe(<LogisticsPipes:item.logisticsParts:5> * 2, [<BuildCraft|Sil
 Assembler.addRecipe(<LogisticsPipes:item.logisticsParts:5> * 2, [<BuildCraft|Silicon:redstoneChipset:2> * 2, <IC2:upgradeModule>, <ore:circuitGood>, <appliedenergistics2:item.ItemMultiMaterial:22>, <ore:boltBlackSteel> * 4, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.solderingalloy> * 36, 900, 120);
 
 // --- Diamond Upgrade Chip
-Assembler.addRecipe(<LogisticsPipes:item.logisticsParts:6> * 2, [<LogisticsPipes:item.logisticsParts:5>, <IC2:upgradeModule> * 4, <ore:circuitAdvanced> * 2, <appliedenergistics2:item.ItemMultiMaterial:24>, <ore:boltBlueSteel> * 4, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.lead> * 144, 900, 120);
-Assembler.addRecipe(<LogisticsPipes:item.logisticsParts:6> * 2, [<LogisticsPipes:item.logisticsParts:5>, <IC2:upgradeModule> * 4, <ore:circuitAdvanced> * 2, <appliedenergistics2:item.ItemMultiMaterial:24>, <ore:boltBlueSteel> * 4, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.tin> * 72, 900, 120);
-Assembler.addRecipe(<LogisticsPipes:item.logisticsParts:6> * 2, [<LogisticsPipes:item.logisticsParts:5>, <IC2:upgradeModule> * 4, <ore:circuitAdvanced> * 2, <appliedenergistics2:item.ItemMultiMaterial:24>, <ore:boltBlueSteel> * 4, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.solderingalloy> * 36, 900, 120);
+Assembler.addRecipe(<LogisticsPipes:item.logisticsParts:6> * 2, [<LogisticsPipes:item.logisticsParts:5>, <IC2:upgradeModule> * 4, <ore:circuitAdvanced> * 2, <appliedenergistics2:item.ItemMultiMaterial:24>, <ore:boltDiamond> * 4, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.lead> * 144, 900, 120);
+Assembler.addRecipe(<LogisticsPipes:item.logisticsParts:6> * 2, [<LogisticsPipes:item.logisticsParts:5>, <IC2:upgradeModule> * 4, <ore:circuitAdvanced> * 2, <appliedenergistics2:item.ItemMultiMaterial:24>, <ore:boltDiamond> * 4, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.tin> * 72, 900, 120);
+Assembler.addRecipe(<LogisticsPipes:item.logisticsParts:6> * 2, [<LogisticsPipes:item.logisticsParts:5>, <IC2:upgradeModule> * 4, <ore:circuitAdvanced> * 2, <appliedenergistics2:item.ItemMultiMaterial:24>, <ore:boltDiamond> * 4, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.solderingalloy> * 36, 900, 120);
 
 // --- Gold Crafting Upgrade Chip
-Assembler.addRecipe(<LogisticsPipes:item.logisticsParts:7>, [<LogisticsPipes:item.logisticsParts:5>, <dreamcraft:item.GoldCoreChip>, <gregtech:gt.metaitem.01:32652> * 2, <IC2:upgradeModule> * 2, <ore:boltRedSteel> * 16, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.lead> * 288, 900, 480);
-Assembler.addRecipe(<LogisticsPipes:item.logisticsParts:7>, [<LogisticsPipes:item.logisticsParts:5>, <dreamcraft:item.GoldCoreChip>, <gregtech:gt.metaitem.01:32652> * 2, <IC2:upgradeModule> * 2, <ore:boltRedSteel> * 16, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.tin> * 144, 900, 480);
-Assembler.addRecipe(<LogisticsPipes:item.logisticsParts:7>, [<LogisticsPipes:item.logisticsParts:5>, <dreamcraft:item.GoldCoreChip>, <gregtech:gt.metaitem.01:32652> * 2, <IC2:upgradeModule> * 2, <ore:boltRedSteel> * 16, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.solderingalloy> * 72, 900, 480);
+Assembler.addRecipe(<LogisticsPipes:item.logisticsParts:7>, [<LogisticsPipes:item.logisticsParts:5>, <dreamcraft:item.GoldCoreChip>, <gregtech:gt.metaitem.01:32651> * 2, <IC2:upgradeModule> * 2, <ore:boltRedSteel> * 16, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.lead> * 288, 900, 120);
+Assembler.addRecipe(<LogisticsPipes:item.logisticsParts:7>, [<LogisticsPipes:item.logisticsParts:5>, <dreamcraft:item.GoldCoreChip>, <gregtech:gt.metaitem.01:32651> * 2, <IC2:upgradeModule> * 2, <ore:boltRedSteel> * 16, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.tin> * 144, 900, 120);
+Assembler.addRecipe(<LogisticsPipes:item.logisticsParts:7>, [<LogisticsPipes:item.logisticsParts:5>, <dreamcraft:item.GoldCoreChip>, <gregtech:gt.metaitem.01:32651> * 2, <IC2:upgradeModule> * 2, <ore:boltRedSteel> * 16, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.solderingalloy> * 72, 900, 120);
 
 // --- Diamond Crafting Upgrade Chip
-Assembler.addRecipe(<LogisticsPipes:item.logisticsParts:8>, [<LogisticsPipes:item.logisticsParts:7>, <dreamcraft:item.DiamondCoreChip>, <gregtech:gt.metaitem.01:32653>, <IC2:upgradeModule> * 4, <ore:boltEndSteel> * 32, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.lead> * 576, 900, 480);
-Assembler.addRecipe(<LogisticsPipes:item.logisticsParts:8>, [<LogisticsPipes:item.logisticsParts:7>, <dreamcraft:item.DiamondCoreChip>, <gregtech:gt.metaitem.01:32653>, <IC2:upgradeModule> * 4, <ore:boltEndSteel> * 32, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.tin> * 288, 900, 480);
-Assembler.addRecipe(<LogisticsPipes:item.logisticsParts:8>, [<LogisticsPipes:item.logisticsParts:7>, <dreamcraft:item.DiamondCoreChip>, <gregtech:gt.metaitem.01:32653>, <IC2:upgradeModule> * 4, <ore:boltEndSteel> * 32, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.solderingalloy> * 144, 900, 480);
+Assembler.addRecipe(<LogisticsPipes:item.logisticsParts:8>, [<LogisticsPipes:item.logisticsParts:7>, <dreamcraft:item.DiamondCoreChip>, <gregtech:gt.metaitem.01:32652>, <IC2:upgradeModule> * 4, <ore:boltDiamond> * 32, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.lead> * 576, 900, 120);
+Assembler.addRecipe(<LogisticsPipes:item.logisticsParts:8>, [<LogisticsPipes:item.logisticsParts:7>, <dreamcraft:item.DiamondCoreChip>, <gregtech:gt.metaitem.01:32652>, <IC2:upgradeModule> * 4, <ore:boltDiamond> * 32, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.tin> * 288, 900, 120);
+Assembler.addRecipe(<LogisticsPipes:item.logisticsParts:8>, [<LogisticsPipes:item.logisticsParts:7>, <dreamcraft:item.DiamondCoreChip>, <gregtech:gt.metaitem.01:32652>, <IC2:upgradeModule> * 4, <ore:boltDiamond> * 32, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.solderingalloy> * 144, 900, 120);
 
 // - MV Tier
 // ||||| Blocks |||||
 // --- Request Table
-Assembler.addRecipe(<LogisticsPipes:item.PipeBlockRequestTable>, [<gregtech:gt.blockmachines:12>, <dreamcraft:item.Display>, <gregtech:gt.metaitem.01:32744>, <OpenComputers:keyboard>, <LogisticsPipes:item.PipeItemsRequestLogistics>, <ore:chestCopper>, <ore:circuitGood> * 2, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.plastic> * 576, 1600, 480);
+Assembler.addRecipe(<LogisticsPipes:item.PipeBlockRequestTable>, [<gregtech:gt.blockmachines:12>, <dreamcraft:item.Display>, <gregtech:gt.metaitem.01:32744>, <OpenComputers:keyboard>, <LogisticsPipes:item.PipeItemsRequestLogistics>, <ore:chestCopper>, <ore:circuitGood> * 2, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.plastic> * 576, 1600, 120);
 
 // ||||| Modules |||||
 // --- Quicksort Module
@@ -169,31 +169,31 @@ Assembler.addRecipe(<LogisticsPipes:item.itemModule:5>, [<LogisticsPipes:item.it
 Assembler.addRecipe(<LogisticsPipes:item.itemModule:5>, [<LogisticsPipes:item.itemModule:501>, <gregtech:gt.metaitem.01:32652>, <ore:circuitAdvanced>, <ore:plateLapis>, <ore:boltDiamond> * 8, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.solderingalloy> * 36, 900, 120);
 
 // --- CC Quicksort Module (Open Computers Quicksort) Don't ask me how it works
-FormingPress.addRecipe(<LogisticsPipes:item.itemModule:14>, <LogisticsPipes:item.itemModule:5>, <OpenComputers:item:70>, 600, 480);
+FormingPress.addRecipe(<LogisticsPipes:item.itemModule:14>, <LogisticsPipes:item.itemModule:5>, <OpenComputers:item:70>, 600, 120);
 
 // --- CC Itemsink Module (Open Computers Itemsink) Don't ask me how it works
-FormingPress.addRecipe(<LogisticsPipes:item.itemModule:15>, <LogisticsPipes:item.itemModule:1>, <OpenComputers:item:70>, 600, 480);
+FormingPress.addRecipe(<LogisticsPipes:item.itemModule:15>, <LogisticsPipes:item.itemModule:1>, <OpenComputers:item:70>, 600, 120);
 
 // - HV Tier
 // ||||| Blocks |||||
 // --- Security Station
-Assembler.addRecipe(<LogisticsPipes:logisticsSolidBlock:2>, [<gregtech:gt.blockmachines:13>, <LogisticsPipes:item.PipeItemsBasicLogistics> * 4, <ore:plateStainlessSteel> * 8, <ore:circuitAdvanced> * 2, <ore:cableGt08Electrum> * 4, <ore:boltBlueSteel> * 4, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.plastic> * 576, 1600, 480);
+Assembler.addRecipe(<LogisticsPipes:logisticsSolidBlock:2>, [<gregtech:gt.blockmachines:12>, <LogisticsPipes:item.PipeItemsBasicLogistics> * 4, <ore:plateAluminium> * 8, <ore:circuitAdvanced> * 2, <ore:cableGt08Copper> * 4, <ore:boltDiamond> * 4, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.plastic> * 576, 1600, 120);
 
 // --- Logistics Crafting Table
-Assembler.addRecipe(<LogisticsPipes:logisticsSolidBlock:3>, [<gregtech:gt.blockmachines:13>, <Forestry:factory2:2>, <gregtech:gt.metaitem.01:32652> * 2, <LogisticsPipes:item.PipeItemsBasicLogistics>, <LogisticsPipes:item.itemModule:600>, <ore:circuitAdvanced> * 2, <ore:cableGt08Electrum> * 2, <ore:boltBlueSteel> * 4, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.plastic> * 576, 900, 480);
-Assembler.addRecipe(<LogisticsPipes:logisticsSolidBlock:3>, [<gregtech:gt.blockmachines:13>, <ProjRed|Expansion:projectred.expansion.machine2:10>, <gregtech:gt.metaitem.01:32652> * 2, <LogisticsPipes:item.PipeItemsBasicLogistics>, <LogisticsPipes:item.itemModule:600>, <ore:circuitAdvanced> * 2, <ore:cableGt08Electrum> * 2, <ore:boltBlueSteel> * 4, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.plastic> * 576, 900, 480);
+Assembler.addRecipe(<LogisticsPipes:logisticsSolidBlock:3>, [<gregtech:gt.blockmachines:12>, <Forestry:factory2:2>, <gregtech:gt.metaitem.01:32651> * 2, <LogisticsPipes:item.PipeItemsBasicLogistics>, <LogisticsPipes:item.itemModule:600>, <ore:circuitAdvanced> * 2, <ore:cableGt08Copper> * 2, <ore:boltDiamond> * 4, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.plastic> * 576, 900, 120);
+Assembler.addRecipe(<LogisticsPipes:logisticsSolidBlock:3>, [<gregtech:gt.blockmachines:12>, <ProjRed|Expansion:projectred.expansion.machine2:10>, <gregtech:gt.metaitem.01:32651> * 2, <LogisticsPipes:item.PipeItemsBasicLogistics>, <LogisticsPipes:item.itemModule:600>, <ore:circuitAdvanced> * 2, <ore:cableGt08Copper> * 2, <ore:boltDiamond> * 4, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.plastic> * 576, 900, 120);
 
 // --- Logistics Fuzzy Crafting Table
-FormingPress.addRecipe(<LogisticsPipes:logisticsSolidBlock:4>, <LogisticsPipes:logisticsSolidBlock:3>, <LogisticsPipes:item.itemUpgrade:25>, 600, 480);
+FormingPress.addRecipe(<LogisticsPipes:logisticsSolidBlock:4>, <LogisticsPipes:logisticsSolidBlock:3>, <LogisticsPipes:item.itemUpgrade:25>, 600, 120);
 
 // --- Logistics Statistics Table
-Assembler.addRecipe(<LogisticsPipes:logisticsSolidBlock:5>, [<gregtech:gt.blockmachines:13>, <LogisticsPipes:item.PipeItemsBasicLogistics> * 4, <gregtech:gt.metaitem.01:32692>, <ore:plateStainlessSteel> * 8, <ore:circuitAdvanced> * 2, <ore:cableGt02Electrum> * 4, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.plastic> * 576, 1600, 480);
+Assembler.addRecipe(<LogisticsPipes:logisticsSolidBlock:5>, [<gregtech:gt.blockmachines:12>, <LogisticsPipes:item.PipeItemsBasicLogistics> * 4, <gregtech:gt.metaitem.01:32692>, <ore:plateAluminium> * 8, <ore:circuitAdvanced> * 2, <ore:cableGt02Copper> * 4, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.plastic> * 576, 1600, 120);
 
 // ||||| Modules |||||
 // --- Crafting Module MK 1
-Assembler.addRecipe(<LogisticsPipes:item.itemModule:600>, [<LogisticsPipes:item.itemModule:1>, <gregtech:gt.metaitem.01:32681>, <gregtech:gt.metaitem.01:32691>, <ore:circuitAdvanced>, <gregtech:gt.metaitem.01:32744>, <ProjRed|Core:projectred.core.part:30> * 2, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.lead> * 144, 1600, 480);
-Assembler.addRecipe(<LogisticsPipes:item.itemModule:600>, [<LogisticsPipes:item.itemModule:1>, <gregtech:gt.metaitem.01:32681>, <gregtech:gt.metaitem.01:32691>, <ore:circuitAdvanced>, <gregtech:gt.metaitem.01:32744>, <ProjRed|Core:projectred.core.part:30> * 2, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.tin> * 72, 1600, 480);
-Assembler.addRecipe(<LogisticsPipes:item.itemModule:600>, [<LogisticsPipes:item.itemModule:1>, <gregtech:gt.metaitem.01:32681>, <gregtech:gt.metaitem.01:32691>, <ore:circuitAdvanced>, <gregtech:gt.metaitem.01:32744>, <ProjRed|Core:projectred.core.part:30> * 2, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.solderingalloy> * 36, 1600, 480);
+Assembler.addRecipe(<LogisticsPipes:item.itemModule:600>, [<LogisticsPipes:item.itemModule:1>, <gregtech:gt.metaitem.01:32681>, <gregtech:gt.metaitem.01:32691>, <ore:circuitAdvanced>, <gregtech:gt.metaitem.01:32744>, <ProjRed|Core:projectred.core.part:30> * 2, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.lead> * 144, 1600, 120);
+Assembler.addRecipe(<LogisticsPipes:item.itemModule:600>, [<LogisticsPipes:item.itemModule:1>, <gregtech:gt.metaitem.01:32681>, <gregtech:gt.metaitem.01:32691>, <ore:circuitAdvanced>, <gregtech:gt.metaitem.01:32744>, <ProjRed|Core:projectred.core.part:30> * 2, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.tin> * 72, 1600, 120);
+Assembler.addRecipe(<LogisticsPipes:item.itemModule:600>, [<LogisticsPipes:item.itemModule:1>, <gregtech:gt.metaitem.01:32681>, <gregtech:gt.metaitem.01:32691>, <ore:circuitAdvanced>, <gregtech:gt.metaitem.01:32744>, <ProjRed|Core:projectred.core.part:30> * 2, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.solderingalloy> * 36, 1600, 120);
 // --- Crafting Module MK 2
 FormingPress.addRecipe(<LogisticsPipes:item.itemModule:601>, <LogisticsPipes:item.itemModule:600>, <LogisticsPipes:item.logisticsParts:7>, 1600, 1920);
 // --- Crafting Module MK 3
@@ -202,7 +202,7 @@ FormingPress.addRecipe(<LogisticsPipes:item.itemModule:602>, <LogisticsPipes:ite
 
 // ||||| Items |||||
 // --- Remote Orderer
-Assembler.addRecipe(<LogisticsPipes:item.remoteOrdererItem>, [<gregtech:gt.metaitem.01:32682>, <gregtech:gt.metaitem.01:32692>, <dreamcraft:item.Display>, <ore:plateStainlessSteel> * 4, <ore:circuitAdvanced>, <ore:wireGt01Silver> * 4, <ore:screwBlueSteel> * 4, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.plastic> * 144, 1600, 480);
+Assembler.addRecipe(<LogisticsPipes:item.remoteOrdererItem>, [<gregtech:gt.metaitem.01:32681>, <gregtech:gt.metaitem.01:32691>, <dreamcraft:item.Display>, <ore:plateAluminium> * 4, <ore:circuitAdvanced>, <ore:wireGt01Copper> * 4, <ore:screwDiamond> * 4, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.plastic> * 144, 1600, 120);
 // Clean
 ChemicalBath.addRecipe([<LogisticsPipes:item.remoteOrdererItem>], <LogisticsPipes:item.remoteOrdererItem:*>, <liquid:chlorine> * 1000, [10000], 1600, 30);
 // Black
@@ -246,7 +246,7 @@ Assembler.addRecipe(<LogisticsPipes:item.ItemPipeSignCreator>, [<dreamcraft:item
 
 // ---  HUD Glasses Parts
 Assembler.addRecipe(<LogisticsPipes:item.logisticsParts>, [<ore:boltDiamond>, <ore:stickLongDiamond>, <ore:chipsetDiamond> * 2, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.aluminium> * 144, 1600, 120);
-Assembler.addRecipe(<LogisticsPipes:item.logisticsParts:1>, [<GalacticraftCore:item.sensorLens>, <ore:ringStainlessSteel>, <dreamcraft:item.LogicProcessorItemGoldCore>, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.aluminium> * 144, 1600, 120);
+Assembler.addRecipe(<LogisticsPipes:item.logisticsParts:1>, [<GalacticraftCore:item.sensorLens>, <ore:ringAluminium>, <ore:circuitGood>, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.aluminium> * 144, 1600, 120);
 recipes.addShaped(<LogisticsPipes:item.logisticsParts:2>, [[<ore:boltDiamond>,<ore:stickDiamond>,<ore:boltDiamond>],[<ore:craftingToolFile>, <ore:screwTitanium>, <ore:craftingToolSoftHammer>],[null, <ore:craftingToolScrewdriver>, null]]);
 
 // ---  HUD Glasses
@@ -257,7 +257,7 @@ recipes.addShaped(<LogisticsPipes:item.itemDisk>, [[<ore:plateCarbon>, <ore:plat
 
 
 // --- BeeSink Module
-Assembler.addRecipe(<LogisticsPipes:item.itemModule:9>, [<LogisticsPipes:item.itemModule:1>, <Forestry:apicultureChest>, <Forestry:propolis> * 4, <dreamcraft:item.LogicProcessorItemGoldCore>, <gregtech:gt.integrated_circuit:18> * 0], <liquid:for.honey> * 1000, 1600, 120);
+Assembler.addRecipe(<LogisticsPipes:item.itemModule:9>, [<LogisticsPipes:item.itemModule:1>, <Forestry:apicultureChest>, <Forestry:propolis> * 4, <ore:circuitGood>, <gregtech:gt.integrated_circuit:18> * 0], <liquid:for.honey> * 1000, 1600, 120);
 
 // --- BeeSink Pipe
 Assembler.addRecipe(<LogisticsPipes:item.PipeItemsApiaristSink>, [<LogisticsPipes:item.PipeItemsBasicLogistics>, <LogisticsPipes:item.itemModule:9>, <gregtech:gt.integrated_circuit:18> * 0], null, 1600, 120);
@@ -266,14 +266,14 @@ Assembler.addRecipe(<LogisticsPipes:item.PipeItemsApiaristSink>, [<LogisticsPipe
 FormingPress.addRecipe(<LogisticsPipes:item.itemModule:11>, <LogisticsPipes:item.itemModule:9>, <ExtraUtilities:trashcan>, 1600, 120);
 
 // --- Apiary Refiller Module
-Assembler.addRecipe(<LogisticsPipes:item.itemModule:10>, [<LogisticsPipes:item.itemModule:9>, <gregtech:gt.metaitem.01:32652>, <gregtech:gt.metaitem.01:32632>, <gregtech:gt.metaitem.01:32692>, <gregtech:gt.metaitem.01:32682>, <dreamcraft:item.LogicProcessorItemGoldCore>, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.lead> * 144, 1600, 120);
-Assembler.addRecipe(<LogisticsPipes:item.itemModule:10>, [<LogisticsPipes:item.itemModule:9>, <gregtech:gt.metaitem.01:32652>, <gregtech:gt.metaitem.01:32632>, <gregtech:gt.metaitem.01:32692>, <gregtech:gt.metaitem.01:32682>, <dreamcraft:item.LogicProcessorItemGoldCore>, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.tin> * 72, 1600, 120);
-Assembler.addRecipe(<LogisticsPipes:item.itemModule:10>, [<LogisticsPipes:item.itemModule:9>, <gregtech:gt.metaitem.01:32652>, <gregtech:gt.metaitem.01:32632>, <gregtech:gt.metaitem.01:32692>, <gregtech:gt.metaitem.01:32682>, <dreamcraft:item.LogicProcessorItemGoldCore>, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.solderingalloy> * 36, 1600, 120);
+Assembler.addRecipe(<LogisticsPipes:item.itemModule:10>, [<LogisticsPipes:item.itemModule:9>, <gregtech:gt.metaitem.01:32652>, <gregtech:gt.metaitem.01:32632>, <gregtech:gt.metaitem.01:32692>, <gregtech:gt.metaitem.01:32682>, <ore:circuitGood>, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.lead> * 144, 1600, 120);
+Assembler.addRecipe(<LogisticsPipes:item.itemModule:10>, [<LogisticsPipes:item.itemModule:9>, <gregtech:gt.metaitem.01:32652>, <gregtech:gt.metaitem.01:32632>, <gregtech:gt.metaitem.01:32692>, <gregtech:gt.metaitem.01:32682>, <ore:circuitGood>, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.tin> * 72, 1600, 120);
+Assembler.addRecipe(<LogisticsPipes:item.itemModule:10>, [<LogisticsPipes:item.itemModule:9>, <gregtech:gt.metaitem.01:32652>, <gregtech:gt.metaitem.01:32632>, <gregtech:gt.metaitem.01:32692>, <gregtech:gt.metaitem.01:32682>, <ore:circuitGood>, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.solderingalloy> * 36, 1600, 120);
 
 // --- Bee Analyzer Module
-Assembler.addRecipe(<LogisticsPipes:item.itemModule:8>, [<LogisticsPipes:item.itemModule:9>, <GalacticraftCore:item.sensorLens>, <gregtech:gt.metaitem.01:32632>, <gregtech:gt.metaitem.01:32692>, <dreamcraft:item.LogicProcessorItemGoldCore>, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.lead> * 144, 1600, 120);
-Assembler.addRecipe(<LogisticsPipes:item.itemModule:8>, [<LogisticsPipes:item.itemModule:9>, <GalacticraftCore:item.sensorLens>, <gregtech:gt.metaitem.01:32632>, <gregtech:gt.metaitem.01:32692>, <dreamcraft:item.LogicProcessorItemGoldCore>, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.tin> * 72, 1600, 120);
-Assembler.addRecipe(<LogisticsPipes:item.itemModule:8>, [<LogisticsPipes:item.itemModule:9>, <GalacticraftCore:item.sensorLens>, <gregtech:gt.metaitem.01:32632>, <gregtech:gt.metaitem.01:32692>, <dreamcraft:item.LogicProcessorItemGoldCore>, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.solderingalloy> * 36, 1600, 120);
+Assembler.addRecipe(<LogisticsPipes:item.itemModule:8>, [<LogisticsPipes:item.itemModule:9>, <GalacticraftCore:item.sensorLens>, <gregtech:gt.metaitem.01:32632>, <gregtech:gt.metaitem.01:32692>, <ore:circuitGood>, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.lead> * 144, 1600, 120);
+Assembler.addRecipe(<LogisticsPipes:item.itemModule:8>, [<LogisticsPipes:item.itemModule:9>, <GalacticraftCore:item.sensorLens>, <gregtech:gt.metaitem.01:32632>, <gregtech:gt.metaitem.01:32692>, <ore:circuitGood>, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.tin> * 72, 1600, 120);
+Assembler.addRecipe(<LogisticsPipes:item.itemModule:8>, [<LogisticsPipes:item.itemModule:9>, <GalacticraftCore:item.sensorLens>, <gregtech:gt.metaitem.01:32632>, <gregtech:gt.metaitem.01:32692>, <ore:circuitGood>, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.solderingalloy> * 36, 1600, 120);
 
 // --- Bee Analyzer Pipe
 Assembler.addRecipe(<LogisticsPipes:item.PipeItemsApiaristAnalyser>, [<LogisticsPipes:item.PipeItemsBasicLogistics>, <LogisticsPipes:item.itemModule:8>, <gregtech:gt.integrated_circuit:18> * 0], null, 1600, 120);
@@ -308,7 +308,7 @@ Assembler.addRecipe(<LogisticsPipes:item.PipeItemsProviderLogisticsMk2>, [<Logis
 Assembler.addRecipe(<LogisticsPipes:item.PipeItemsSupplierLogistics>, [<LogisticsPipes:item.PipeItemsBasicLogistics>, <LogisticsPipes:item.itemModule:502>, <gregtech:gt.integrated_circuit:18> * 0], null, 600, 30);
 
 // --- Satellite Pipe
-Assembler.addRecipe(<LogisticsPipes:item.PipeItemsSatelliteLogistics>, [<LogisticsPipes:item.PipeItemsBasicLogistics>, <LogisticsPipes:item.itemModule>, <gregtech:gt.metaitem.01:32651>, <gregtech:gt.metaitem.01:32691>, <ore:plateEnderEye>, <gregtech:gt.integrated_circuit:18> * 0], null, 600, 30);
+Assembler.addRecipe(<LogisticsPipes:item.PipeItemsSatelliteLogistics>, [<LogisticsPipes:item.PipeItemsBasicLogistics>, <LogisticsPipes:item.itemModule>, <gregtech:gt.metaitem.01:32651>, <gregtech:gt.metaitem.01:32691>, <ore:plateEnderPearl>, <gregtech:gt.integrated_circuit:18> * 0], null, 600, 30);
 
 // --- Remote Orderer Logistics Pipe
 Assembler.addRecipe(<LogisticsPipes:item.PipeItemsRemoteOrdererLogistics>, [<LogisticsPipes:item.remoteOrdererItem:*> * 0, <LogisticsPipes:item.PipeItemsRequestLogistics>, <gregtech:gt.integrated_circuit:18> * 0], null, 600, 30);
@@ -347,7 +347,7 @@ Assembler.addRecipe(<LogisticsPipes:item.logisticsParts:4> * 4, [<ProjRed|Core:p
 Assembler.addRecipe(<LogisticsPipes:item.logisticsParts:4> * 4, [<ProjRed|Core:projectred.core.part> * 4, <ore:circuitPrimitive>, <ore:foilTin> * 4, <ore:wireFineAnyCopper> * 4, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.solderingalloy> * 36, 600, 30);
 
 // --- Upgrade Module Upgrade
-Assembler.addRecipe(<LogisticsPipes:item.itemUpgrade:44> * 2, [<LogisticsPipes:item.logisticsParts:4> * 2, <ore:circuitPrimitive>, <ore:chest>, <ProjRed|Core:projectred.core.part:34> * 2, <gregtech:gt.integrated_circuit:18> * 0], null, 1200, 480);
+Assembler.addRecipe(<LogisticsPipes:item.itemUpgrade:44> * 2, [<LogisticsPipes:item.logisticsParts:4> * 2, <ore:circuitPrimitive>, <ore:chest>, <ProjRed|Core:projectred.core.part:34> * 2, <gregtech:gt.integrated_circuit:18> * 0], null, 1200, 120);
 
 // --- Fuzzy Upgrade
 Assembler.addRecipe(<LogisticsPipes:item.itemUpgrade:25> * 2, [<LogisticsPipes:item.logisticsParts:4> * 2, <ore:blockWool>, <ore:foilSteel>, <ProjRed|Core:projectred.core.part:26> * 2, <gregtech:gt.integrated_circuit:18> * 0], null, 600, 30); //
@@ -365,16 +365,16 @@ Assembler.addRecipe(<LogisticsPipes:item.itemUpgrade:23> * 2, [<LogisticsPipes:i
 FormingPress.addRecipe(<LogisticsPipes:item.itemUpgrade:42> * 4, <LogisticsPipes:item.logisticsParts:4>, <ore:plateTin>, 600, 30);
 
 // --- Advanced Satellite Upgrade
-Assembler.addRecipe(<LogisticsPipes:item.itemUpgrade:21>, [<LogisticsPipes:item.logisticsParts:4>, <gregtech:gt.metaitem.01:32692>, <ore:chipsetGold>, <ProjRed|Core:projectred.core.part:23>, <gregtech:gt.integrated_circuit:18> * 0], null, 1200, 480);
+Assembler.addRecipe(<LogisticsPipes:item.itemUpgrade:21>, [<LogisticsPipes:item.logisticsParts:4>, <gregtech:gt.metaitem.01:32692>, <ore:chipsetGold>, <ProjRed|Core:projectred.core.part:23>, <gregtech:gt.integrated_circuit:18> * 0], null, 1200, 120);
 
 // --- Crafting Cleanup Upgrade
-Assembler.addRecipe(<LogisticsPipes:item.itemUpgrade:26>, [<LogisticsPipes:item.logisticsParts:4>, <LogisticsPipes:item.itemModule:207>, <ore:chipsetGold>, <ProjRed|Core:projectred.core.part:33>, <gregtech:gt.integrated_circuit:18> * 0], null, 1200, 480);
+Assembler.addRecipe(<LogisticsPipes:item.itemUpgrade:26>, [<LogisticsPipes:item.logisticsParts:4>, <LogisticsPipes:item.itemModule:207>, <ore:chipsetGold>, <ProjRed|Core:projectred.core.part:33>, <gregtech:gt.integrated_circuit:18> * 0], null, 1200, 120);
 
 // --- Crafting Monitoring Upgrade
-Assembler.addRecipe(<LogisticsPipes:item.itemUpgrade:41>, [<LogisticsPipes:item.logisticsParts:4>, <gregtech:gt.metaitem.01:32681>, <gregtech:gt.metaitem.01:32691>, <ore:chipsetDiamond>, <ProjRed|Core:projectred.core.part:24>, <gregtech:gt.integrated_circuit:18> * 0], null, 1200, 480);
+Assembler.addRecipe(<LogisticsPipes:item.itemUpgrade:41>, [<LogisticsPipes:item.logisticsParts:4>, <gregtech:gt.metaitem.01:32681>, <gregtech:gt.metaitem.01:32691>, <ore:chipsetDiamond>, <ProjRed|Core:projectred.core.part:24>, <gregtech:gt.integrated_circuit:18> * 0], null, 1200, 120);
 
 // --- CC Remote Control Upgrade
-Assembler.addRecipe(<LogisticsPipes:item.itemUpgrade:21>, [<LogisticsPipes:item.logisticsParts:4>, <gregtech:gt.metaitem.01:32692>, <gregtech:gt.metaitem.01:32682>, <ProjRed|Core:projectred.core.part:33>, <gregtech:gt.integrated_circuit:18> * 0], null, 1200, 480);
+Assembler.addRecipe(<LogisticsPipes:item.itemUpgrade:21>, [<LogisticsPipes:item.logisticsParts:4>, <gregtech:gt.metaitem.01:32692>, <gregtech:gt.metaitem.01:32682>, <ProjRed|Core:projectred.core.part:33>, <gregtech:gt.integrated_circuit:18> * 0], null, 1200, 120);
 
 // --- Sneaky Upgrade 
 Assembler.addRecipe(SneakyUp, [<LogisticsPipes:item.logisticsParts:4> * 4, <miscutils:MU-metaitem.01:32036>, <ore:foilBronze> * 2, <ProjRed|Core:projectred.core.part:33> * 4, <gregtech:gt.integrated_circuit:5> * 0], null, 600, 30);
@@ -741,7 +741,7 @@ Assembler.addRecipe(<LogisticsPipes:item.PipeFluidInsertion> * 2, [<LogisticsPip
 Assembler.addRecipe(<LogisticsPipes:item.PipeFluidRequestLogistics>, [<LogisticsPipes:item.PipeFluidBasic>, <LogisticsPipes:item.PipeItemsRequestLogistics>, <gregtech:gt.metaitem.01:32405>, <gregtech:gt.integrated_circuit:18> * 0], null, 600, 120);
 
 // --- Fluid Satellite Pipe
-Assembler.addRecipe(<LogisticsPipes:item.PipeFluidSatellite>, [<LogisticsPipes:item.PipeFluidBasic>, <LogisticsPipes:item.itemModule>, <gregtech:gt.metaitem.01:32652>, <gregtech:gt.metaitem.01:32692>, <ore:plateEnderEye>, <gregtech:gt.integrated_circuit:18> * 0], null, 600, 120);
+Assembler.addRecipe(<LogisticsPipes:item.PipeFluidSatellite>, [<LogisticsPipes:item.PipeFluidBasic>, <LogisticsPipes:item.itemModule>, <gregtech:gt.metaitem.01:32652>, <gregtech:gt.metaitem.01:32692>, <ore:plateEnderPearl>, <gregtech:gt.integrated_circuit:18> * 0], null, 600, 120);
 
 // --- Fluid Extractor Pipe
 Assembler.addRecipe(<LogisticsPipes:item.PipeFluidExtractor> * 3, [<LogisticsPipes:item.PipeFluidBasic> * 3, <LogisticsPipes:item.itemModule:3>, <gregtech:gt.metaitem.01:32405>, <gregtech:gt.integrated_circuit:18> * 0], null, 600, 120);
@@ -749,4 +749,4 @@ Assembler.addRecipe(<LogisticsPipes:item.PipeFluidExtractor> * 3, [<LogisticsPip
 
 // ||||| Fluid Upgrades |||||
 // --- Fluid Crafting Upgrade
-Assembler.addRecipe(<LogisticsPipes:item.itemUpgrade:22> * 2, [<LogisticsPipes:item.logisticsParts:4>, <LogisticsPipes:item.itemModule:600>, <gregtech:gt.metaitem.01:32405>, <gregtech:gt.integrated_circuit:18> * 0], null, 600, 480);
+Assembler.addRecipe(<LogisticsPipes:item.itemUpgrade:22> * 2, [<LogisticsPipes:item.logisticsParts:4>, <LogisticsPipes:item.itemModule:600>, <gregtech:gt.metaitem.01:32405>, <gregtech:gt.integrated_circuit:18> * 0], null, 600, 120);
