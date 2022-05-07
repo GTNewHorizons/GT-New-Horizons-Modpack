@@ -2,8 +2,7 @@
 <config>
     <lines at="topleft">
         <line>
-            <str>{pingicon}$6{username}$f </str>
-            <str>FPS: </str>
+            <str>{pingicon}{gold}{username} {white}FPS: </str>
             <op>
                 <str>gt</str>
                 <var>fps</var>
@@ -12,11 +11,11 @@
                 <num>30</num>
                 <num>15</num>
                 <num>0</num>
-                <str>$a</str>
-                <str>$e</str>
-                <str>$6</str>
-                <str>$c</str>
-                <str>$4</str>
+                <str>{green}</str>
+                <str>{yellow}</str>
+                <str>{gold}</str>
+                <str>{red}</str>
+                <str>{darkred}</str>
                 <str/>
             </op>
             <var>fps</var>
@@ -25,7 +24,7 @@
             <icon>
                 <str>minecraft:clock</str>
             </icon>
-            <str> $rMinecraft Year $3</str>
+            <str> Minecraft Year {darkaqua}</str>
             <add>
                 <round>
                     <div>
@@ -42,33 +41,30 @@
                 </round>
                 <num>1</num>
             </add>
-            <str> $rday $3</str>
+            <str> {white}Day {darkaqua}</str>
             <modi>
                 <var>day</var>
                 <num>365</num>
             </modi>
-            <str>$f, Time: </str>
-            <str>$6{mctime12} $r</str>
+            <str>{white} Time: {gold}{mctime12} </str>
             <if>
                 <var>daytime</var>
-                <str>$e(day)</str>
-                <str>$7(night)</str>
+                <str>{yellow}(day)</str>
+                <str>{gray}(night)</str>
             </if>
         </line>
         <line>
             <icon>
                 <str>HardcoreEnderExpansion:temple_end_portal</str>
             </icon>
-            <str> $rDimension: $6{dimension} ({dimensionid}) </str>
-            <str> $rChunks Loaded: $6{loadedchunks} </str>
+            <str> Dimension: {gold}{dimension} ({dimensionid}) {white}Chunks Loaded: {gold}{loadedchunks}</str>
         </line>
         <line>
             <icon>
                 <str>minecraft:sapling</str>
                 <num>4</num>
             </icon>
-            <str> Biome: $3{biome}$f</str>
-            <str> $6{temperature}$r°F $6</str>
+            <str> Biome: {darkaqua}{biome} {gold}{temperature}{white}°F {gold}</str>
             <round>
                 <div>
                     <sub>
@@ -79,7 +75,7 @@
                 </div>
                 <num>0</num>
             </round>
-            <str>$r°C $6</str>
+            <str>{white}°C {gold}</str>
             <round>
                 <add>
                     <div>
@@ -93,26 +89,25 @@
                 </add>
                 <num>0</num>
             </round>
-            <str>$rK</str>
-            <str>  $6{humidity}%$f humidity</str>
+            <str>{white}K</str>
+            <str> {gold}{humidity}{white}% Humidity</str>
         </line>
         <line>
             <icon>
                 <str>minecraft:skull</str>
                 <num>4</num>
             </icon>
-            <str> Entities: $6{entitiesrendered}$f rendered / $6{entitiestotal}$f loaded  </str>
+            <str> Entities: {gold}{entitiesrendered} {white}rendered / {gold}{entitiestotal} {white}loaded  </str>
         </line>
         <line>
             <icon>
                 <str>minecraft:compass</str>
                 <num>0</num>
             </icon>
-            <str> Chunk X:$6 {chunkx} $fZ:$6 {chunkz}$f Off: $3$6 {chunkoffsetx} $f:$6 {chunkoffsetz} $f</str>
-            <str> Y: $6{yfeeti}$f facing $6{finedirection}$f</str>
+            <str> Chunk X: {gold}{chunkx} {white}Z: {gold}{chunkz} {white}Off: {gold}{chunkoffsetx} {white}: {gold}{chunkoffsetz} {white}Y: {gold}{yfeeti} {white}Facing {gold}{finedirection}</str>
             <if>
                 <var>slimechunk</var>
-                <str> $6SlimeChunk$f</str>
+                <str> {gold}SlimeChunk{white}</str>
             </if>
         </line>
         <line>
@@ -123,39 +118,38 @@
             <max>
                 <var>light</var>
                 <num>7.5</num>
-                <str>$e</str>
-                <str>$c</str>
+                <str>{yellow}</str>
+                <str>{red}</str>
             </max>
             <var>light</var>
-            <str>$r (feet: </str>
+            <str> {white}(feet: </str>
             <max>
                 <var>lightfeet</var>
                 <num>7.5</num>
-                <str>$e</str>
-                <str>$c</str>
+                <str>{yellow}</str>
+                <str>{red}</str>
             </max>
             <var>lightfeet</var>
-            <str>$r)</str>
         </line>
         <line>
-            <str>$0</str>
+            <str>{black}</str>
         </line>
         <line>
             <if>
                 <var>snowing</var>
-                <str>  It is $2{underline}Snowing$r$2$r</str>
+                <str>  It is {darkgreen}{underline}Snowing{reset}</str>
             </if>
             <if>
                 <var>raining</var>
-                <str>   It is $2{underline}Raining$r$2$r</str>
+                <str>  It is {darkgreen}{underline}Raining{reset}</str>
             </if>
             <if>
                 <var>thundering</var>
-                <str> and $2{u}Thunderin$r$2g$f.</str>
+                <str> and {darkgreen}{underline}Thundering{reset}.</str>
             </if>
         </line>
         <line>
-            <str>$0</str>
+            <str>{black}</str>
         </line>
         <line>
             <if>
@@ -201,7 +195,7 @@
                         <num>16</num>
                         <num>16</num>
                     </icon>
-                    <str>  This is an $2{underline}ore$f chunk.</str>
+                    <str>  This is an {darkgreen}{underline}ore {white}chunk.</str>
                 </concat>
             </if>
         </line>
@@ -255,12 +249,12 @@
                         </and>
                         <str>      </str>
                     </if>
-                    <str>  You are at the $4center$f of the chunk.</str>
+                    <str>  You are at the {darkred}center {white}of the chunk.</str>
                 </concat>
             </if>
         </line>
         <line>
-            <str>$0</str>
+            <str>{black}</str>
         </line>
         <line>
             <if>
@@ -269,17 +263,17 @@
         </line>
         <line>
             <if>
-                <str>  1) $6{nearbyplayername0}$f({nearbyplayerdistance0}m)</str>
+                <str>  1) {gold}{nearbyplayername0}{white}({nearbyplayerdistance0}m)</str>
             </if>
         </line>
         <line>
             <if>
-                <str>  2) $6{nearbyplayername1}$f({nearbyplayerdistance1}m)</str>
+                <str>  2) {gold}{nearbyplayername1}{white}({nearbyplayerdistance1}m)</str>
             </if>
         </line>
         <line>
             <if>
-                <str>  2) $6{nearbyplayername2}$f({nearbyplayerdistance2}m)</str>
+                <str>  2) {gold}{nearbyplayername2}{white}({nearbyplayerdistance2}m)</str>
             </if>
         </line>
     </lines>
@@ -297,16 +291,16 @@
                 <num>20</num>
                 <num>10</num>
                 <num>0</num>
-                <str>$e</str>
-                <str>$6</str>
-                <str>$c</str>
-                <str>$4</str>
+                <str>{yellow}</str>
+                <str>{gold}</str>
+                <str>{red}</str>
+                <str>{darkred}</str>
                 <str/>
             </op>
             <max>
                 <var>equippeddamageleft</var>
                 <num>0.5</num>
-                <str>{equippeddamageleft}$f / $e{equippedmaxdamage}</str>
+                <str>{equippeddamageleft} {white}/ {yellow}{equippedmaxdamage}</str>
                 <var>equippedname</var>
             </max>
         </line>
@@ -322,15 +316,15 @@
                 <num>50</num>
                 <num>20</num>
                 <num>10</num>
-                <str>$e</str>
-                <str>$6</str>
-                <str>$c</str>
-                <str>$4</str>
+                <str>{yellow}</str>
+                <str>{gold}</str>
+                <str>{red}</str>
+                <str>{darkred}</str>
             </op>
             <max>
                 <var>helmetdamageleft</var>
                 <num>0.5</num>
-                <str>{helmetdamageleft}$f / $e{helmetmaxdamage}</str>
+                <str>{helmetdamageleft} {white}/ {yellow}{helmetmaxdamage}</str>
                 <str/>
             </max>
             <str> </str>
@@ -347,15 +341,15 @@
                 <num>50</num>
                 <num>20</num>
                 <num>10</num>
-                <str>$e</str>
-                <str>$6</str>
-                <str>$c</str>
-                <str>$4</str>
+                <str>{yellow}</str>
+                <str>{gold}</str>
+                <str>{red}</str>
+                <str>{darkred}</str>
             </op>
             <max>
                 <var>chestplatedamageleft</var>
                 <num>0.5</num>
-                <str>{chestplatedamageleft}$f / $e{chestplatemaxdamage}</str>
+                <str>{chestplatedamageleft} {white}/ {yellow}{chestplatemaxdamage}</str>
                 <str/>
             </max>
             <str> </str>
@@ -372,15 +366,15 @@
                 <num>50</num>
                 <num>20</num>
                 <num>10</num>
-                <str>$e</str>
-                <str>$6</str>
-                <str>$c</str>
-                <str>$4</str>
+                <str>{yellow}</str>
+                <str>{gold}</str>
+                <str>{red}</str>
+                <str>{darkred}</str>
             </op>
             <max>
                 <var>leggingsdamageleft</var>
                 <num>0.5</num>
-                <str>{leggingsdamageleft}$f / $e{leggingsmaxdamage}</str>
+                <str>{leggingsdamageleft} {white}/ {yellow}{leggingsmaxdamage}</str>
                 <str/>
             </max>
         </line>
@@ -396,15 +390,15 @@
                 <num>50</num>
                 <num>20</num>
                 <num>10</num>
-                <str>$e</str>
-                <str>$6</str>
-                <str>$c</str>
-                <str>$4</str>
+                <str>{yellow}</str>
+                <str>{gold}</str>
+                <str>{red}</str>
+                <str>{darkred}</str>
             </op>
             <max>
                 <var>bootsdamageleft</var>
                 <num>0.5</num>
-                <str>{bootsdamageleft}$f / $e{bootsmaxdamage}</str>
+                <str>{bootsdamageleft} {white}/ {yellow}{bootsmaxdamage}</str>
                 <str/>
             </max>
         </line>
