@@ -132,13 +132,6 @@
             <var>lightfeet</var>
         </line>
         <line>
-            <icon>
-             <str>Thaumcraft:ItemResource</str>
-             <num>11</num>
-            </icon>
-            <str> Warp: {gold}{tcwarptotal} {white}(Normal: {gold}{tcwarpsticky} {white}Permanent: {gold}{tcwarpperm} {white}Temporary: {gold}{tcwarptemp}{white})</str>
-        </line>
-        <line>
             <str>{black}</str>
         </line>
         <line>
