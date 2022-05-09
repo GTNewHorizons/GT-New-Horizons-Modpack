@@ -97,7 +97,7 @@
                 <str>minecraft:skull</str>
                 <num>4</num>
             </icon>
-            <str> Entities: {gold}{entitiesrendered} {white}rendered / {gold}{entitiestotal} {white}loaded  </str>
+            <str> Entities: {gold}{entitiesrendered} {white}Rendered / {gold}{entitiestotal} {white}Loaded  </str>
         </line>
         <line>
             <icon>
@@ -122,7 +122,7 @@
                 <str>{red}</str>
             </max>
             <var>light</var>
-            <str> {white}(feet: </str>
+            <str> {white}(Feet: </str>
             <max>
                 <var>lightfeet</var>
                 <num>7.5</num>
@@ -130,6 +130,7 @@
                 <str>{red}</str>
             </max>
             <var>lightfeet</var>
+            <str>{white})</str>
         </line>
         <line>
             <str>{black}</str>
