@@ -2386,13 +2386,13 @@ recipes.addShaped(<gregtech:gt.metaitem.01:2019>, [
 [null, null, null]]);
 
 // --- Obsidian Sticks
-recipes.addShapeless(<TConstruct:toolRod:6>, [<RandomThings:ingredient:1>]);
+recipes.addShapeless(<TConstruct:toolRod:6>, [<randomthings:ingredient:1>]);
 // -
-recipes.addShapeless(<RandomThings:ingredient:1>, [<TConstruct:toolRod:6>]);
+recipes.addShapeless(<randomthings:ingredient:1>, [<TConstruct:toolRod:6>]);
 // -
-recipes.addShapeless(<RandomThings:ingredient:1>, [<gregtech:gt.metaitem.01:23804>]);
+recipes.addShapeless(<randomthings:ingredient:1>, [<gregtech:gt.metaitem.01:23804>]);
 // -
-recipes.addShapeless(<gregtech:gt.metaitem.01:23804>, [<RandomThings:ingredient:1>]);
+recipes.addShapeless(<gregtech:gt.metaitem.01:23804>, [<randomthings:ingredient:1>]);
 // -
 recipes.addShapeless(<TConstruct:toolRod:6>, [<gregtech:gt.metaitem.01:23804>]);
 // -

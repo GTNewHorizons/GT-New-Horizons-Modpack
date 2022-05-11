@@ -512,9 +512,9 @@ recipes.addShaped(BCTank, [
 
 // --- Void Pipe
 recipes.addShaped(<BuildCraft|Transport:item.buildcraftPipe.pipeitemsvoid>, [
-[<RandomThings:ingredient:1>, ClearPane, <RandomThings:ingredient:1>],
+[<randomthings:ingredient:1>, ClearPane, <randomthings:ingredient:1>],
 [ClearPane, <ore:gemEnderPearl>, ClearPane],
-[<RandomThings:ingredient:1>, ClearPane, <RandomThings:ingredient:1>]]);
+[<randomthings:ingredient:1>, ClearPane, <randomthings:ingredient:1>]]);
 
 // --- Void Fluid Pipe
 recipes.addShaped(<BuildCraft|Transport:item.buildcraftPipe.pipefluidsvoid>, [

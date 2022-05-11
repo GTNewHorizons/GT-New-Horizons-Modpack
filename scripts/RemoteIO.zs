@@ -132,7 +132,7 @@ recipes.addShaped(RemoteInterface * 2, [
 [<ore:circuitElite>, TungstenCable, <ore:circuitElite>],
 [InsaneRegulator, EVEmitter, InsaneRegulator]]);
 // -
-recipes.addShapeless(<RIO:tile.remote_interface>, [<RandomThings:playerinterface>]);
+recipes.addShapeless(<RIO:tile.remote_interface>, [<randomthings:playerinterface>]);
 
 // --- Water Reservoir
 recipes.addShaped(Reservoir, [

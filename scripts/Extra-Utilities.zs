@@ -976,7 +976,7 @@ recipes.addShaped(<ExtraUtilities:enderCollector>, [
 [<ore:craftingToolHardHammer>, <ore:blockEnderObsidian>, <ore:craftingToolWrench>],
 [<ore:stoneObsidian>, <ore:stoneObsidian>, <ore:stoneObsidian>]]);
 // -
-recipes.addShapeless(<ExtraUtilities:enderCollector>, [<RandomThings:advancedItemCollector>]);
+recipes.addShapeless(<ExtraUtilities:enderCollector>, [<randomthings:advancedItemCollector>]);
 
 // --- Quiet Expencive Device QED
 recipes.addShaped(<ExtraUtilities:endConstructor>, [
@@ -1018,13 +1018,13 @@ recipes.addShaped(<ExtraUtilities:spike_base_diamond> * 2, [
 recipes.addShaped(<ExtraUtilities:builderswand>, [
 [null, null, <ore:ingotUnstable>],
 [null, <ore:ingotUnstable>, null],
-[<RandomThings:ingredient:1>, null, null]]);
+[<randomthings:ingredient:1>, null, null]]);
 
 // --- Super Builder Wand
 recipes.addShaped(<ExtraUtilities:creativebuilderswand>, [
 [null, <ore:ingotUnstable>, <ore:ingotUnstable>],
 [null, <ore:ingotUnstable>, <ore:ingotUnstable>],
-[<RandomThings:ingredient:1>, null, null]]);
+[<randomthings:ingredient:1>, null, null]]);
 
 // --- Precision Shears
 recipes.addShaped(<ExtraUtilities:shears>, [
@@ -1035,37 +1035,37 @@ recipes.addShaped(<ExtraUtilities:shears>, [
 recipes.addShaped(<ExtraUtilities:ethericsword>, [
 [null, <ore:ingotUnstable>, null],
 [null, <ore:ingotUnstable>, null],
-[null, <RandomThings:ingredient:1>, null]]);
+[null, <randomthings:ingredient:1>, null]]);
 
 // --- Kikoku
 recipes.addShaped(<ExtraUtilities:lawSword>, [
 [null, <TConstruct:largeSwordBlade:314>, null],
 [null, <ore:ingotUnstable>, null],
-[null, <RandomThings:ingredient:1>, null]]);
+[null, <randomthings:ingredient:1>, null]]);
 
 // --- Erosion Shovel
 recipes.addShaped(<ExtraUtilities:erosionShovel>, [
 [null, <ore:ingotUnstable>, null],
-[null, <RandomThings:ingredient:1>, null],
-[null, <RandomThings:ingredient:1>, null]]);
+[null, <randomthings:ingredient:1>, null],
+[null, <randomthings:ingredient:1>, null]]);
 
 // --- Destruction Pickaxe
 recipes.addShaped(<ExtraUtilities:destructionpickaxe>, [
 [<ore:ingotUnstable>, <ore:ingotUnstable>, <ore:ingotUnstable>],
-[null, <RandomThings:ingredient:1>, null],
-[null, <RandomThings:ingredient:1>, null]]);
+[null, <randomthings:ingredient:1>, null],
+[null, <randomthings:ingredient:1>, null]]);
 
 // --- Healing Axe
 recipes.addShaped(<ExtraUtilities:defoliageAxe>, [
 [<ore:ingotUnstable>, <ore:ingotUnstable>, null],
-[<ore:ingotUnstable>, <RandomThings:ingredient:1>, null],
-[null, <RandomThings:ingredient:1>, null]]);
+[<ore:ingotUnstable>, <randomthings:ingredient:1>, null],
+[null, <randomthings:ingredient:1>, null]]);
 
 // --- Reversing Hoe
 recipes.addShaped(<ExtraUtilities:temporalHoe>, [
 [<ore:ingotUnstable>, <ore:ingotUnstable>, null],
-[null, <RandomThings:ingredient:1>, null],
-[null, <RandomThings:ingredient:1>, null]]);
+[null, <randomthings:ingredient:1>, null],
+[null, <randomthings:ingredient:1>, null]]);
 
 // --- Unstable Ingot
 recipes.addShaped(<ExtraUtilities:unstableingot>,[

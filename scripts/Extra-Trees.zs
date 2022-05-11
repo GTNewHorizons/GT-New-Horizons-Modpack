@@ -169,7 +169,7 @@ recipes.addShaped(<ExtraTrees:hammer>, [
 // --- Master Capentry Hammer
 recipes.addShaped(<ExtraTrees:durableHammer>, [
 [<ore:plateObsidian>, <ore:plateObsidian>, null],
-[<ore:ingotGold>, <RandomThings:ingredient:1>, <ore:stickWood>],
+[<ore:ingotGold>, <randomthings:ingredient:1>, <ore:stickWood>],
 [<ore:plateObsidian>, <ore:plateObsidian>, null]]);
 
 // --- Wheat Grain - Removed by extra trees update

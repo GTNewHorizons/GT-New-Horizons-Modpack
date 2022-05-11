@@ -26,65 +26,62 @@ val CircuitGood = <ore:circuitGood>;
 // --- Remove Recipes
 
 // --- Online Detector
-recipes.remove(<RandomThings:onlineDetector>);
+recipes.remove(<randomthings:onlineDetector>);
 
 // --- Moon Sensor
-recipes.remove(<RandomThings:moonSensor>);
+recipes.remove(<randomthings:moonSensor>);
 
 // --- Blood Moon Sensor
-recipes.remove(<RandomThings:bloodMoonSensor>);
+recipes.remove(<randomthings:bloodMoonSensor>);
 
 // --- Lapis Lamp
-recipes.remove(<RandomThings:lapisLamp>);
+recipes.remove(<randomthings:lapisLamp>);
 
 // --- Imbuing Station
-recipes.remove(<RandomThings:imbuingStation>);
+recipes.remove(<randomthings:imbuingStation>);
 
 // --- Energy Distributer
-recipes.remove(<RandomThings:energyDistributor>);
+recipes.remove(<randomthings:energyDistributor>);
 
 // --- Ender Energy Distributer
-recipes.remove(<RandomThings:enderEnergyDistributor>);
+recipes.remove(<randomthings:enderEnergyDistributor>);
 
 // --- Item Collector
-recipes.remove(<RandomThings:itemCollector>);
+recipes.remove(<randomthings:itemCollector>);
 
 // --- Advanced Item Collector
-recipes.remove(<RandomThings:advancedItemCollector>);
+recipes.remove(<randomthings:advancedItemCollector>);
 
 // --- Dyeing Machine
-recipes.remove(<RandomThings:dyeingMachine>);
+recipes.remove(<randomthings:dyeingMachine>);
 
 
 // --- Player Interface
-recipes.remove(<RandomThings:playerinterface>);
+recipes.remove(<randomthings:playerinterface>);
 
 // --- All Filter
-recipes.remove(<RandomThings:filter:*>);
+recipes.remove(<randomthings:filter:*>);
 
 // --- All Ingredients
-recipes.remove(<RandomThings:ingredient:*>);
+recipes.remove(<randomthings:ingredient:*>);
 
 // --- Fertilized Dirt
-recipes.remove(<RandomThings:fertilizedDirt>);
+recipes.remove(<randomthings:fertilizedDirt>);
 
 // --- Fluid Display
-recipes.remove(<RandomThings:fluidDisplay>);
+recipes.remove(<randomthings:fluidDisplay>);
 
 // --- Advanecd Fluid Display
-recipes.remove(<RandomThings:advancedFluidDisplay>);
-
-// --- Wireless Lever
-recipes.remove(<RandomThings:wirelessLever>);
+recipes.remove(<randomthings:advancedFluidDisplay>);
 
 // --- Void Stone
-recipes.remove(<RandomThings:voidStone>);
+recipes.remove(<randomthings:voidStone>);
 
 // --- Void Filer
-recipes.remove(<RandomThings:dropFilter:1>);
+recipes.remove(<randomthings:dropFilter:1>);
 
 // --- Spectre Key
-recipes.remove(<RandomThings:spectreKey>);
+recipes.remove(<randomthings:spectreKey>);
 
 
 
@@ -93,70 +90,70 @@ recipes.remove(<RandomThings:spectreKey>);
 
 
 // --- Bloodmoon Sensor
-recipes.addShapedMirrored(<RandomThings:bloodMoonSensor>, [
+recipes.addShapedMirrored(<randomthings:bloodMoonSensor>, [
 [<minecraft:stained_glass_pane:14>, null],
 [<minecraft:daylight_detector>, null]]);
 
 // --- LapisLamp
-recipes.addShaped(<RandomThings:lapisLamp>, [
+recipes.addShaped(<randomthings:lapisLamp>, [
 [<chisel:iron_bars:2>, <Thaumcraft:ItemResource>, <chisel:iron_bars:2>],
 [<chisel:iron_bars:2>, <ProjRed|Illumination:projectred.illumination.lamp:27>, <chisel:iron_bars:2>],
 [<chisel:iron_bars:2>, <minecraft:redstone_torch>, <chisel:iron_bars:2>]]);
 
 // --- MoonSensor
-recipes.addShapedMirrored(<RandomThings:moonSensor>, [
+recipes.addShapedMirrored(<randomthings:moonSensor>, [
 [<minecraft:stained_glass_pane>, null],
 [<minecraft:daylight_detector>, null]]);
 
 // --- OnlineDetector
-recipes.addShaped(<RandomThings:onlineDetector>, [
+recipes.addShaped(<randomthings:onlineDetector>, [
 [<chisel:iron_bars:2>, SensorMV, <chisel:iron_bars:2>],
 [<chisel:iron_bars:2>, <ProjRed|Illumination:projectred.illumination.lamp:30>, <chisel:iron_bars:2>],
 [<chisel:iron_bars:2>, CircuitGood, <chisel:iron_bars:2>]]);
 // -
-recipes.addShaped(<RandomThings:onlineDetector>, [
+recipes.addShaped(<randomthings:onlineDetector>, [
 [<minecraft:iron_bars>, SensorMV, <minecraft:iron_bars>],
 [<minecraft:iron_bars>, <ProjRed|Illumination:projectred.illumination.lamp:30>, <minecraft:iron_bars>],
 [<minecraft:iron_bars>, CircuitGood, <minecraft:iron_bars>]]);
 
 // --- Imbuing Station
-recipes.addShaped(<RandomThings:imbuingStation>, [
+recipes.addShaped(<randomthings:imbuingStation>, [
 [<minecraft:vine>, <minecraft:brewing_stand>, <minecraft:vine>],
 [<minecraft:tallgrass:1>, <minecraft:stained_hardened_clay:5>, <minecraft:tallgrass:1>],
 [<minecraft:waterlily>, <ore:blockEmerald>, <minecraft:waterlily>]]);
 
 // --- Ender Energy Distributer
-recipes.addShaped(<RandomThings:enderEnergyDistributor>, [
-[<ore:plateEnderPearl>, <RandomThings:ingredient:6>, <ore:plateEnderPearl>],
-[<RandomThings:ingredient:6>, <RandomThings:energyDistributor>, <RandomThings:ingredient:6>],
+recipes.addShaped(<randomthings:enderEnergyDistributor>, [
+[<ore:plateEnderPearl>, <randomthings:ingredient:6>, <ore:plateEnderPearl>],
+[<randomthings:ingredient:6>, <randomthings:energyDistributor>, <randomthings:ingredient:6>],
 [<ore:plateEnderPearl>, <EnderIO:blockWirelessCharger>, <ore:plateEnderPearl>]]);
 
 // --- Energy Distributer
-recipes.addShaped(<RandomThings:energyDistributor>, [
+recipes.addShaped(<randomthings:energyDistributor>, [
 [<ore:blockRedstone>, <ProjRed|Integration:projectred.integration.gate:10>, <ore:blockRedstone>],
-[<EnderIO:itemPowerConduit>, <RandomThings:ingredient:7>, <EnderIO:itemPowerConduit>],
+[<EnderIO:itemPowerConduit>, <randomthings:ingredient:7>, <EnderIO:itemPowerConduit>],
 [<ore:plateBlackSteel>, <ProjRed|Integration:projectred.integration.gate:10>, <ore:plateBlackSteel>]]);
 
 // --- Item Collector
-recipes.addShaped(<RandomThings:itemCollector>, [
+recipes.addShaped(<randomthings:itemCollector>, [
 [null, <ore:gemDiamond>, null],
 [<gregtech:gt.metaitem.01:32650>, <ore:stickObsidian>, <ore:blockHopper>],
 [null, <ore:plateRedstone>, null]]);
 
 // --- Advanced Item Collector
-recipes.addShapeless(<RandomThings:advancedItemCollector>, [<ExtraUtilities:enderCollector>]);
+recipes.addShapeless(<randomthings:advancedItemCollector>, [<ExtraUtilities:enderCollector>]);
 
 // --- Dyeing Machine
-recipes.addShaped(<RandomThings:dyeingMachine>, [
+recipes.addShaped(<randomthings:dyeingMachine>, [
 [<gregtech:gt.metaitem.01:17809>, <minecraft:crafting_table>, <gregtech:gt.metaitem.01:17809>],
 [<gregtech:gt.metaitem.01:17809>, <gregtech:gt.blockmachines:11>, <gregtech:gt.metaitem.01:17809>],
 [<gregtech:gt.metaitem.01:17809>, <gregtech:gt.metaitem.01:17809>, <gregtech:gt.metaitem.01:17809>]]);
 
 // --- Player Interface
-recipes.addShapeless(<RandomThings:playerinterface>, [<RIO:tile.remote_interface>, <RandomThings:ingredient>]);
+recipes.addShapeless(<randomthings:playerinterface>, [<RIO:tile.remote_interface>, <randomthings:ingredient>]);
 
 // --- Void Stone
-recipes.addShapeless(<RandomThings:voidStone>, [<ExtraUtilities:trashcan>, <minecraft:ender_pearl>]);
+recipes.addShapeless(<randomthings:voidStone>, [<ExtraUtilities:trashcan>, <minecraft:ender_pearl>]);
 
 
 // --- Assembler Recipes ---
@@ -165,43 +162,40 @@ recipes.addShapeless(<RandomThings:voidStone>, [<ExtraUtilities:trashcan>, <mine
 
 
 // --- Transformation Core
-Assembler.addRecipe(<RandomThings:ingredient:5>, <minecraft:ender_pearl>, <minecraft:nether_wart>, 150, 120);
+Assembler.addRecipe(<randomthings:ingredient:5>, <minecraft:ender_pearl>, <minecraft:nether_wart>, 150, 120);
 
 // --- Player Core
-Assembler.addRecipe(<RandomThings:ingredient>, <minecraft:emerald>, <gregtech:gt.metaitem.01:17526> * 4, 250, 480);
+Assembler.addRecipe(<randomthings:ingredient>, <minecraft:emerald>, <gregtech:gt.metaitem.01:17526> * 4, 250, 480);
 
 // --- Fluid Display
-Assembler.addRecipe(<RandomThings:fluidDisplay> * 8, <TConstruct:GlassPane> * 16, <gregtech:gt.integrated_circuit:1> * 0, <liquid:refinedglue> * 72, 200, 30);
+Assembler.addRecipe(<randomthings:fluidDisplay> * 8, <TConstruct:GlassPane> * 16, <gregtech:gt.integrated_circuit:1> * 0, <liquid:refinedglue> * 72, 200, 30);
 
 // --- Advanecd Fluid Display
-Assembler.addRecipe(<RandomThings:advancedFluidDisplay>, <RandomThings:fluidDisplay>, <gregtech:gt.integrated_circuit:1> * 0, <liquid:refinedglue> * 144, 200, 30);
+Assembler.addRecipe(<randomthings:advancedFluidDisplay>, <randomthings:fluidDisplay>, <gregtech:gt.integrated_circuit:1> * 0, <liquid:refinedglue> * 144, 200, 30);
 
 // --- Block Filter
-Assembler.addRecipe(<RandomThings:filter>, <gregtech:gt.metaitem.01:32729>, <minecraft:stone>, 200, 30);
+Assembler.addRecipe(<randomthings:filter>, <gregtech:gt.metaitem.01:32729>, <minecraft:stone>, 200, 30);
 
 // --- Item Filter
-Assembler.addRecipe(<RandomThings:filter:1>, <gregtech:gt.metaitem.01:32729>, <minecraft:iron_ingot>, 200, 30);
+Assembler.addRecipe(<randomthings:filter:1>, <gregtech:gt.metaitem.01:32729>, <minecraft:iron_ingot>, 200, 30);
 
 // --- Entity Filter
-Assembler.addRecipe(<RandomThings:filter:2>, <gregtech:gt.metaitem.01:32729>, <minecraft:porkchop>, 200, 30);
+Assembler.addRecipe(<randomthings:filter:2>, <gregtech:gt.metaitem.01:32729>, <minecraft:porkchop>, 200, 30);
 
 // --- Position Filter
-Assembler.addRecipe(<RandomThings:filter:3>, <gregtech:gt.metaitem.01:32729>, <minecraft:ender_pearl>, 200, 120);
-
-// --- Wireless Lever
-Assembler.addRecipe(<RandomThings:wirelessLever>, <minecraft:lever>, <minecraft:redstone_block>, <liquid:ender> * 1000, 300, 30);
+Assembler.addRecipe(<randomthings:filter:3>, <gregtech:gt.metaitem.01:32729>, <minecraft:ender_pearl>, 200, 120);
 
 // --- Whitestone
-Assembler.addRecipe(<RandomThings:whitestone>, <TwilightForest:item.charmOfKeeping3> * 4, <gregtech:gt.integrated_circuit:4> * 0,  <liquid:ender> * 4000, 1200, 480);
+Assembler.addRecipe(<randomthings:whitestone>, <TwilightForest:item.charmOfKeeping3> * 4, <gregtech:gt.integrated_circuit:4> * 0,  <liquid:ender> * 4000, 1200, 480);
 
 // --- Bloodstone
-//Assembler.addRecipe(<RandomThings:bloodStone>, <Railcraft:firestone.refined>, <gregtech:gt.integrated_circuit:1> * 0,  <liquid:molten.blaze> * 1296, 1200, 30);
+//Assembler.addRecipe(<randomthings:bloodStone>, <Railcraft:firestone.refined>, <gregtech:gt.integrated_circuit:1> * 0,  <liquid:molten.blaze> * 1296, 1200, 30);
 
 // --- Void Filer
-Assembler.addRecipe(<RandomThings:dropFilter:1>, <ExtraUtilities:trashcan>, <gregtech:gt.integrated_circuit:1> * 0, <liquid:ender> * 250, 300, 30);
+Assembler.addRecipe(<randomthings:dropFilter:1>, <ExtraUtilities:trashcan>, <gregtech:gt.integrated_circuit:1> * 0, <liquid:ender> * 250, 300, 30);
 
 // --- Spectre Key
-Assembler.addRecipe(<RandomThings:spectreKey>, <RandomThings:ingredient:4>, <gregtech:gt.metaitem.01:23028>,  <liquid:bacterialsludge> * 1000, 600, 1024);
+Assembler.addRecipe(<randomthings:spectreKey>, <randomthings:ingredient:4>, <gregtech:gt.metaitem.01:23028>,  <liquid:bacterialsludge> * 1000, 600, 1024);
 
 
 
@@ -210,7 +204,7 @@ Assembler.addRecipe(<RandomThings:spectreKey>, <RandomThings:ingredient:4>, <gre
 
 
 // --- Spectre Iron
-BlastFurnace.addRecipe([<RandomThings:ingredient:4>], [<gregtech:gt.metaitem.01:2032>, <RandomThings:ingredient:3>], 1200, 480, 2500);
+BlastFurnace.addRecipe([<randomthings:ingredient:4>], [<gregtech:gt.metaitem.01:2032>, <randomthings:ingredient:3>], 1200, 480, 2500);
 
 
 
@@ -220,14 +214,14 @@ BlastFurnace.addRecipe([<RandomThings:ingredient:4>], [<gregtech:gt.metaitem.01:
 
 
 // --- Ender Diamond
-ChemicalReactor.addRecipe(<RandomThings:ingredient:6>, null, <minecraft:diamond>, <gregtech:gt.integrated_circuit:1> * 0, <liquid:ender> * 1000, 1200, 30);
+ChemicalReactor.addRecipe(<randomthings:ingredient:6>, null, <minecraft:diamond>, <gregtech:gt.integrated_circuit:1> * 0, <liquid:ender> * 1000, 1200, 30);
 
 // --- Fertilized Dirt
-ChemicalReactor.addRecipe(<RandomThings:fertilizedDirt>, null, <minecraft:dirt>, <minecraft:dye:15> * 4, <liquid:water> * 1000, 100, 30);
+ChemicalReactor.addRecipe(<randomthings:fertilizedDirt>, null, <minecraft:dirt>, <minecraft:dye:15> * 4, <liquid:water> * 1000, 100, 30);
 // -
-ChemicalReactor.addRecipe(<RandomThings:fertilizedDirt>, null, <minecraft:dirt>, <Forestry:fertilizerCompound> * 2, <liquid:water> * 1000, 100, 30);
+ChemicalReactor.addRecipe(<randomthings:fertilizedDirt>, null, <minecraft:dirt>, <Forestry:fertilizerCompound> * 2, <liquid:water> * 1000, 100, 30);
 // -
-ChemicalReactor.addRecipe(<RandomThings:fertilizedDirt>, null, <minecraft:dirt>, <IC2:itemFertilizer> * 2, <liquid:water> * 1000, 100, 30);
+ChemicalReactor.addRecipe(<randomthings:fertilizedDirt>, null, <minecraft:dirt>, <IC2:itemFertilizer> * 2, <liquid:water> * 1000, 100, 30);
 
 
 // --- Hiding Stuff ---

@@ -288,7 +288,7 @@ mods.thaumcraft.Research.setComplexity("ROD_blaze", 2);
 mods.thaumcraft.Research.addArcanePage("ROD_blaze", <Thaumcraft:WandCasting:24>.withTag({cap: "thaumium", rod: "blaze"}));
 
 // --- Obsidian Wand Core
-mods.thaumcraft.Infusion.addRecipe("ROD_obsidian", <RandomThings:ingredient:1>, 
+mods.thaumcraft.Infusion.addRecipe("ROD_obsidian", <randomthings:ingredient:1>, 
 [<Thaumcraft:ItemShard:6>, <Thaumcraft:blockCrystal:3>, <Thaumcraft:ItemShard:6>, <Thaumcraft:blockCrystal:3>], 
 " praecantatio 12, tenebrae 12, terra 24, vitreus 6", <Thaumcraft:WandRod:1>, 2);
 // -
