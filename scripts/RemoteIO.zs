@@ -162,6 +162,8 @@ recipes.addShaped(<RIO:intelligentWorkbench>, [
 // --- Items ---
 
 
+// --- Location Chip
+recipes.addShapeless(Location, [<RIO:item.chip.location>]);
 
 // --- IO Tool
 recipes.addShaped(IOTool, [
