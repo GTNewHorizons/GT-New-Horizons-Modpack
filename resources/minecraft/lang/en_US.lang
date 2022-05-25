@@ -282,7 +282,7 @@ gtnh.quest69.desc=Placing wires without insulation seems to be a bad idea. Now t
 
 # Quest.70 - §3§lSteam-a-licious!
 gtnh.quest70.name=§3§lSteam-a-licious!
-gtnh.quest70.desc=You've almost made it. One last crafting step is required in order to advance to Tier 1. Keep going!
+gtnh.quest70.desc=You've almost made it. One last crafting step is required in order to advance to Tier 1. Keep going!%n%nThis Steam Turbine generates electricity from Steam. The power source you've been using is the same, but from this point on you will generate EU, and bring it to your machines via cables, instead of bringing the Steam directly to them. Luckily, electric machines don't need an exhaust port, and they are considerably more efficient than Bronze machines.%n%nAt a later point, you will most likely switch from Steam to another fuel, though.
 
 # Quest.71 - §3§lBasic Crafting: Motors
 gtnh.quest71.name=§3§lBasic Crafting: Motors
@@ -358,7 +358,7 @@ gtnh.quest88.desc=Why, hello there! It seems you've made it into the electrical 
 
 # Quest.89 - §6§lMV Steam Turbine
 gtnh.quest89.name=§6§lMV Steam Turbine
-gtnh.quest89.desc=If you decide to use steam in MV tier then it's time to build a steam turbine.
+gtnh.quest89.desc=Having moved up to MV, you can continue using Steam. However, it's not a great idea to stay here, and other fuel types will be more useful to you instead. This is because Steam Turbine efficiency drops quickly with every tier (this one is only 75%), and the Steam itself needs big pipes to carry it around, compared to Benzene or Diesel.%n%nThat said, if you want to keep using this, then it's a good idea to build a Large Bronze Boiler or, later on, a Large Steel Boiler. You will need lots of solid fuel, probably Charcoal, so make sure you automate it! Definitely do not forget the water.
 
 # Quest.90 - §5§lDamn You, Wire Cutter!
 gtnh.quest90.name=§5§lDamn You, Wire Cutter!
@@ -5614,7 +5614,7 @@ gtnh.quest1402.desc=Chrome screws are nice, but they seem to break if too much v
 
 # Quest.1403 - §9§lHV Steam Turbine
 gtnh.quest1403.name=§9§lHV Steam Turbine
-gtnh.quest1403.desc=If you decide to use steam in HV tier then it's time to build a steam turbine.
+gtnh.quest1403.desc=Using Steam as your single power source in HV is pretty difficult. Your fuel automation will have to be very fast, your pipes will have to be very big and the final efficiency of HV Steam Turbines is 66%, much lower than the other generators' 85%. %n%nThis is best used with an efficient furnace, like the GT++ Advanced Furnaces, to power something specific like a farm. Powering your entire automation in your path to an EV, using only these, is a nightmare. If you want more efficiency out of your Steam, consider building a Large Steam Turbine.
 
 # Quest.1404 - §6§lMV Superconductors (128 EU/t)
 gtnh.quest1404.name=§6§lMV Superconductors (128 EU/t)
@@ -7622,7 +7622,7 @@ gtnh.quest1904.desc=Higher tier superconducting wires and energy hatches will re
 
 # Quest.1905 - §6§lLarge Heat Exchanger - Fermat's Last
 gtnh.quest1905.name=§6§lLarge Heat Exchanger - Fermat's Last
-gtnh.quest1905.desc=I have discovered truly remarkable instructions for this machine which this margin is too small to contain.%n%nInstead, goto https://tinyurl.com/GTNH-LHE and read it there.%n%nOr https://gtnh.miraheze.org/wiki/Fluid_Reactor for how to use it in a Fluid Reactor setup.
+gtnh.quest1905.desc=The Large Heat Exchanger is a powergen multi that accepts a non-direct fuel, and doesn't output EU. What is it for, then? §7§7§7To heat up water with hot liquids, that's what!§r§r§r%n%nEffectively, it's a Steam Boiler that uses fluids instead of solids, but it's more complicated. The two main sources of energy here are Lava and Hot Coolant, and the second is more powerful, but harder to get. Lava can be automated from Everburn Urns or a myriad of other option, while Hot Coolant usually requires a proper powergen setup.%n%nFor Lava, the LHE will output §d§d§d160 L of Steam for every 1 L of Lava, up to 1000 L/s of Lava input§r§r§r (§a§a§a4000 EU/t§r§r§r at 100% turbine efficiency). For Hot Coolant, the LHE will output §d§d§d400 L of Steam for every 1 L of Hot Coolant, up to 800 L/s of input§r§r§r (§a§a§a8000 EU/t§r§r§r at 100% turbine efficiency).%n%n§c§c§cIf you go above these input rates, the output becomes Superheated Steam, which needs to pass through a Large HP Steam Turbine before the regular Large Steam Turbine.§r§r§r The maximum input rate here is twice of what was before, the conversion is §d§d§d1:80 for Lava§r§r§r and §d§d§d1:200 for Hot Coolant§r§r§r, and the energy output at 100% turbine efficiency is §a§a§a12000 EU/t§r§r§r for Lava and §a§a§a24000 EU/t§r§r§r for Hot Coolant.%n%n§6§lVery powerful, but complicated, and needs turbines!§r§r§r%n%n§3For more information, go to §nhttps://tinyurl.com/GTNH-LHE§r§3 and read about it there, or to §nhttps://gtnh.miraheze.org/wiki/Fluid_Reactor§r §3for how to use it in a Fluid Reactor setup.
 
 # Quest.1906 - §9§lRecycle for the Environment
 gtnh.quest1906.name=§9§lRecycle for the Environment
@@ -8162,7 +8162,7 @@ gtnh.quest2039.desc=The Amazon Warehousing Depot is the ultimate for all your pa
 
 # Quest.2040 - Industrial Coke Oven
 gtnh.quest2040.name=Industrial Coke Oven
-gtnh.quest2040.desc=Swimming in logs? Turn those logs into clean burning charcoal!%n%n§3This multi is EV.%n%nAlso, sorta buggy sometimes.
+gtnh.quest2040.desc=Swimming in logs? Turn those logs into clean burning charcoal! The Industrial Coke Oven is a 3x3x3 multiblock that runs much faster than those gigangic Pyrolyse Ovens. With one of these, you can replace several of those, since it does up to 24x parallels.%n%nYou'll be able to effectively retire the Pyros from now on, unless there's some very fast recipe that they can keep up with. To turn Wood into Charcoal, for example, this ICO can keep up with an entire farm as long as you provide it enough Nitrogen for the job!%n%n§3This multi is EV and doesn't actually need the ABS.
 
 # Quest.2041 - Americium Doped Wafers
 gtnh.quest2041.name=Americium Doped Wafers
@@ -11066,7 +11066,7 @@ gtnh.quest2765.desc=The TFFT is very useful if you don't want to have a bunch of
 
 # Quest.2766 - Deep Earth Heating Pump
 gtnh.quest2766.name=Deep Earth Heating Pump
-gtnh.quest2766.desc=This allows you to skip the Fluid Reactor part of a FR setup, by heating the coolant with geothermal energy.%n%nIt's basically free power, but so is using an everburn urn with the LHE, so whatever.
+gtnh.quest2766.desc=This allows you to skip the Fluid Reactor part of a FR setup, by heating the coolant with geothermal energy.%n%nIt's basically free power, but so is using an everburn urn with the LHE, so whatever. This is insanely expensive, so keep that in mind!
 
 # Quest.2767 - Get it Together Bees!
 gtnh.quest2767.name=Get it Together Bees!
@@ -11170,11 +11170,11 @@ gtnh.quest2791.desc=This multi follows the same logic as the Large Combustion En
 
 # Quest.2792 - Acid Trip
 gtnh.quest2792.name=Acid Trip
-gtnh.quest2792.desc=This is the HV version. Will people really use this?
+gtnh.quest2792.desc=This is the HV version. Will people really use this? Each stack of Redstone Dust is worth around 580k EU, so look at your storage and see what you have.
 
 # Quest.2793 - Hallucinogenics Not Included
 gtnh.quest2793.name=Hallucinogenics Not Included
-gtnh.quest2793.desc=This is the EV version. I hope you're not using this for primary power gen?
+gtnh.quest2793.desc=This is the EV version. I hope you're not using this for primary power gen? At least, it has a pretty good efficiency of 88% for an EV singleblock, and it's better than voiding the fluids that can be used as fuel here.
 
 # Quest.2794 - Portable Clean Energy EV
 gtnh.quest2794.name=Portable Clean Energy EV
