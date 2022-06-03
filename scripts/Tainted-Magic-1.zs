@@ -932,7 +932,8 @@ mods.thaumcraft.Research.addPrereq("CAP_shadowmetal", "PRIMPEARL", false);
 mods.thaumcraft.Research.setConcealed("CAP_shadowmetal", true);
 game.setLocalization("tc.research_name.CAP_shadowmetal", "Shadowmetal Wand Caps");
 game.setLocalization("tc.research_text.CAP_shadowmetal", "What a drag");
-mods.thaumcraft.Research.addPage("CAP_shadowmetal", "With the discovery of Void Metal Wand Caps you wondered if you could improve their performance even further. You tested this theory by infusing the caps with some Shadowmetal, as well as the primal aspects of a primordial pearl. It proved very successful.<BR>The Shadowmetal Caps seem to be extremely efficient at channeling vis, and will grant a heavy discount of 30% for all primal aspects.");
+mods.thaumcraft.Research.addPage("CAP_shadowmetal", "tc.research_page.CAP_shadowmetal");
+game.setLocalization("tc.research_page.CAP_shadowmetal", "With the discovery of Void Metal Wand Caps you wondered if you could improve their performance even further. You tested this theory by infusing the caps with some Shadowmetal, as well as the primal aspects of a primordial pearl. It proved very successful.<BR>The Shadowmetal Caps seem to be extremely efficient at channeling vis, and will grant a heavy discount of 30% for all primal aspects.");
 mods.thaumcraft.Infusion.addRecipe("CAP_shadowmetal", <Thaumcraft:ItemEldritchObject:3>,
 [<Thaumcraft:WandCap:7>, <TaintedMagic:ItemMaterial:3>, <gregtech:gt.metaitem.01:20368>, <gregtech:gt.metaitem.01:22970>, <gregtech:gt.metaitem.01:20368>, <TaintedMagic:ItemMaterial:3>, <gregtech:gt.metaitem.02:30508>, <TaintedMagic:ItemMaterial:3>, <gregtech:gt.metaitem.01:20368>, <gregtech:gt.metaitem.01:22970>, <gregtech:gt.metaitem.01:20368>, <TaintedMagic:ItemMaterial:3>], 
 "alienis 96, praecantatio 96, tenebrae 84, metallum 72, vacuos 64, cognitio 68, lucrum 32, fames 32", <TaintedMagic:ItemWandCap>, 12);
