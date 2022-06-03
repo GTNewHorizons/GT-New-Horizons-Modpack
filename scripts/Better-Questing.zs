@@ -37,3 +37,9 @@ recipes.addShaped(<questbook:ItemQuestBook>, [
 [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],
 [<ore:stickWood>, <minecraft:book>, <ore:stickWood>],
 [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
+
+// --- Object Submission Station
+recipes.addShapeless(<betterquesting:submit_station>, [<betterquesting:observation_station>]);
+
+// --- Object Observation Station
+recipes.addShapeless(<betterquesting:observation_station>, [<betterquesting:submit_station>]);
