@@ -1910,7 +1910,7 @@ gtnh.quest476.desc=To process more advanced materials like naquadah alloy you ne
 
 # Quest.477 - §6§lNaquadah Alloy Coil Upgrade
 gtnh.quest477.name=§6§lNaquadah Alloy Coil Upgrade
-gtnh.quest477.desc=To process more advanced materials like...I dunno, you tell me. This one might be optional now. Anyways, you need more than 7200K. For Reasons. Upgrade your EBF to 8100k.
+gtnh.quest477.desc=This one is optional now. If you don't need the reward, you can just skip this.
 
 # Quest.478 - §3§lFlint and Steel
 gtnh.quest478.name=§3§lFlint and Steel
@@ -4234,7 +4234,7 @@ gtnh.quest1057.desc=Want some Modest Bees? Buy some!
 
 # Quest.1058 - Tropical Hive
 gtnh.quest1058.name=Tropical Hive
-gtnh.quest1058.desc=Want some Forest Bees? Buy some!
+gtnh.quest1058.desc=Want some Tropical Bees? Buy some!
 
 # Quest.1059 - Wintry Hive
 gtnh.quest1059.name=Wintry Hive
@@ -4338,7 +4338,7 @@ gtnh.quest1083.desc=Better machines need some better batteries. Lithium is the b
 
 # Quest.1084 - §5§lLubricant
 gtnh.quest1084.name=§5§lLubricant
-gtnh.quest1084.desc=Using lubricant instead of water or distilled water in your cutting machines will increase their speed.%n%nYou can make lubricant out of oil, seed oil, fish oil or creosote in a distillery (or distillation tower later on). If you're able to craft a brewery you can use talc or soapstone to get much more lubricant each cycle, but you can't use oil.%n%nLube cells are required to make low tier energy hatches, so stockpile a few cells and use the rest to make your cutting machine faster.
+gtnh.quest1084.desc=Using lubricant instead of water or distilled water in your cutting machines will increase their speed.%n%nYou can make lubricant out of oil, seed oil, fish oil or creosote in a distillery (or distillation tower later on). If you're able to craft a brewery you can use talc or soapstone to get much more lubricant each cycle.%n%nLube cells are required to make low tier energy hatches, so stockpile a few cells and use the rest to make your cutting machine faster.
 
 # Quest.1085 - §2§lMore Compact Storage
 gtnh.quest1085.name=§2§lMore Compact Storage
@@ -5682,7 +5682,7 @@ gtnh.quest1419.desc=...when it means you don't have to strip naked to recharge y
 
 # Quest.1420 - §9§lShake That Booty...
 gtnh.quest1420.name=§9§lShake That Booty...
-gtnh.quest1420.desc=...out of the purified ores. Anyways, a Large Sifter will increase your sifting rate significantly. What will you do with all these gems??%n%n§3You need one more casing if you don't want to use 2 energy hatches.
+gtnh.quest1420.desc=...out of the purified ores. Anyways, a Large Sifter will increase your sifting speed significantly. What will you do with all these gems??%n%n§3You need one more casing if you don't want to use 2 energy hatches.
 
 # Quest.1421 - Hulk Smash!
 gtnh.quest1421.name=Hulk Smash!
@@ -5874,7 +5874,7 @@ gtnh.quest1467.desc=The Oxygen Sealer is a machine that fills a room with oxygen
 
 # Quest.1468 - Large Oxygen Tanks
 gtnh.quest1468.name=Large Oxygen Tanks
-gtnh.quest1468.desc=The Heavy oxygen tank is an oxygen storage tank that can hold up to 3000 units of air.
+gtnh.quest1468.desc=The Heavy oxygen tank is an oxygen storage tank that can hold up to 4000 units of air.
 
 # Quest.1469 - Bacterial Sludge
 gtnh.quest1469.name=Bacterial Sludge
@@ -6182,7 +6182,7 @@ gtnh.quest1544.desc=Got Fish?%n%n§3There are rumors of a weird crop in the shap
 
 # Quest.1545 - §6§lTime to Drill For Ore!
 gtnh.quest1545.name=§6§lTime to Drill For Ore!
-gtnh.quest1545.desc=Auto Miners are nice but you're going to reach a point where you will want MOOOOOOOOOOOOORE ores. This multiblock will help with that.  It will also pre-macerate your ores and give you a little bonus crushed ores as well.%n%nHigher tiers of power will drill faster. You need to upgrade the energy hatch corresponding to the power tier. You will also need an energy hatch, an input hatch, and an output bus - at least MV but you can choose.%n%nLater you can upgrade the ore drilling plant so it extracts from more than a 48 block radius. If you don't want to mine that far away, adjust the range with a screwdriver. Each tier of the controller also gives 1 bonus fortune for small ores starting at 4. At tier 3 you'll want to spread the wealth to multiple compressed chests!%n%nThe multiblock miners have been upgraded so that they will chunkoad the area they dig in. They will NOT chunkload themselves however. They will dig §odown§r in the chunk they're in like normal, and then dig §oup§r one chunk at a time in other chunks within its range.%n%nYou need mining pipes in the controller and drilling fluid in the fluid hatch. You can also feed mining pipes into an input bus.%n%nYou'll need to make lots of Drilling Fluid. 64 is a tiny amount to get started with! Plan to make thousands of buckets - perhaps onsite, or pumped in via Long Distance Fluid Pipes. For this quest, you'll need to convert some IC2 cells to Universal Fluid Cells. Once the quest is done, you can convert them back.%n%nThese are GT machines, so remember to protect them (and their power sources!) from rain (and meteors!) on any side. And set a waypoint with Journeymap so you don't forget where you placed it!
+gtnh.quest1545.desc=Auto Miners are nice but you're going to reach a point where you will want MOOOOOOOOOOOOORE ores. This multiblock will help with that.  It will also pre-macerate your ores and give you a little bonus crushed ores as well.%n%nHigher tiers of power will drill faster. You need to upgrade the energy hatch corresponding to the power tier. You will also need an energy hatch, an input hatch, and an output bus - at least MV but you can choose.%n%nLater you can upgrade the ore drilling plant so it extracts from more than a 48 block radius. If you don't want to mine that far away, adjust the range with a screwdriver. Each tier of the controller also gives 1 bonus fortune for small ores starting at 4. At tier 3 you'll want to spread the wealth to multiple compressed chests!%n%nThe multiblock miners have been upgraded so that they will chunkoad the area they dig in. They will NOT chunkload themselves however. They will dig §odown§r in the chunk they're in like normal, and then dig §oup§r one chunk at a time in other chunks within its range.%n%nYou need mining pipes in the controller and drilling fluid in the fluid hatch. You can also feed mining pipes into an input bus.%n%nYou'll need to make lots of Drilling Fluid. 64 is a tiny amount to get started with! Plan to make thousands of buckets - perhaps onsite, or pumped in via Long Distance Fluid Pipes.%n%nThese are GT machines, so remember to protect them (and their power sources!) from rain (and meteors!) on any side. And set a waypoint with Journeymap so you don't forget where you placed it!
 
 # Quest.1546 - §2§lRare Ores
 gtnh.quest1546.name=§2§lRare Ores
@@ -7466,7 +7466,7 @@ gtnh.quest1865.desc=Need enderpearls? Getting them by killing endermen can be da
 
 # Quest.1866 - §2§lOptions For Finding Aluminium in This Tier
 gtnh.quest1866.name=§2§lOptions For Finding Aluminium in This Tier
-gtnh.quest1866.desc=It can be hard to find aluminium gravel ores on old servers, or unlucky world seeds.%n%nAlternatives to aluminium gravel ores are%n- Planting the Aluminium ore berries from the Smeltery quest%n- Searching for Aluminium bars in chests%n- XP buckets in a crafting table%n%nOnce you reach LV, you can electrolyze Sapphires and get tiny dusts from processing various ores. At MV you can use clay dust or red granite dust. Check NEI for more options.
+gtnh.quest1866.desc=It can be hard to find aluminium gravel ores on old servers, or unlucky world seeds.%n%nAlternatives to aluminium gravel ores are%n- Planting the Aluminium ore berries from the Smeltery quest%n- Searching for Aluminium bars in chests%n- XP buckets in a crafting table%n%nOnce you reach LV, you can get Alumina from processing various ores or EBFing Sapphire. At MV you can electrolyze clay dust or red granite dust. Check NEI for more options.
 
 # Quest.1867 - §6§lMV Motor
 gtnh.quest1867.name=§6§lMV Motor
@@ -7558,7 +7558,7 @@ gtnh.quest1888.desc=Be careful when wearing your hazmat suit all the time. The d
 
 # Quest.1889 - Healing Axe 2.0
 gtnh.quest1889.name=Healing Axe 2.0
-gtnh.quest1889.desc=After party loot was limited to one per party not everyone could get a healing axe for free. You can pay for another one though if you like.
+gtnh.quest1889.desc=What, you lost the axe? Well you can craft your own if you dip into Thaumcraft a bit, but if you hate magic, here's another.
 
 # Quest.1890 - §b§lIV Assembler
 gtnh.quest1890.name=§b§lIV Assembler
@@ -9598,7 +9598,7 @@ gtnh.quest2398.desc=You might notice once you get a wall of drawers that looking
 
 # Quest.2399 - §3§lI Know His Name!
 gtnh.quest2399.name=§3§lI Know His Name!
-gtnh.quest2399.desc=The Name Remover is a simple utility machine that can strip off incorrect or useless NBT data. Only works on GT items?%n%n§3Was more useful before NBT disassembly data was removed, but good riddance I (and basically everyone) say.
+gtnh.quest2399.desc=The Name Remover is a simple utility machine that can strip off incorrect or useless NBT data. Only works on GT items?%n%n§3Was more useful before NBT disassembly data was removed, but good riddance I (and basically everyone) say.%n%nLead is plenty on Twilight Forest. Or if you desperate, small ores can be found in Nether.
 
 # Quest.2400 - Steadfast Bees
 gtnh.quest2400.name=Steadfast Bees
@@ -9634,7 +9634,7 @@ gtnh.quest2407.desc=This backpack sacrifices some space to give you a portable c
 
 # Quest.2408 - §9§lControlling Your Drawers
 gtnh.quest2408.name=§9§lControlling Your Drawers
-gtnh.quest2408.desc=Now that you have MV Circuits and Stainless Steel, you can make the incredibly handy Drawer Controller. This block will make any drawers it connects to in a 12-block radius (including the y-axis) part of a multiblock that allows storage (and retrieval with the right setup) to any of the blocks that make it up. This will allow you to dump the contents of your mining trip into a storage system much easier. Just hold right click on the Controller front for a second or two, and any items that match what's already in the multiblock will be deposited, while your tools and such won't. Just make sure to place your Controller last so it registers all the drawers.%n%nYou can feed into the Controller (and thus the rest of the drawers) with any kind of piping or hopper equivalent. If using it as part of a Multifarm or Mob Farm, make sure to set the contents of the drawers, and lock them with a key so that it properly stores everything in an organized manner. If the drawers' contents aren't set, it will start filling starting from the ones closest. If you wish to have more than one drawer full of an item, put a void upgrade on the drawer further from the Controller, and it will fill the first one, then the second.%n%nIf you want to go around corners, use the Trim Drawers to extend the multiblock. If you want to have a second point to dump items into, use the Slave Controller (one per multiblock, automation only). Note that you can use a key on the Controller to affect all drawers at once.%n%nYou can also use it with ProjectRed, see the appropriate tab for details.%n%nOnce you have an ME Network, place a storage bus on the Controller, and the entire inventory will be accessible from the network, with both storage and retrieval. Just remember to set the priority higher than your ME Drives. If you haven't locked them yet expect all your drawers to fill with random items from your ME Network.%n%n§4Using the drawer controller with large amounts of I/O will tank TPS! If you're on a server, do not use drawer cubes, or expect the possibility of it being deleted or you getting banned.%n%nAdditionally, expect all non-backpack interactions to be DISABLED on the official servers. Congratulations, Drawer Cubists, you ruined it for everyone.
+gtnh.quest2408.desc=Now that you have MV Circuits and Stainless Steel, you can make the incredibly handy Drawer Controller. This block will make any drawers it connects to in a 4-block radius (including the y-axis) part of a multiblock that allows storage (and retrieval with the right setup) to any of the blocks that make it up. This will allow you to dump the contents of your mining trip into a storage system much easier. Just hold right click on the Controller front for a second or two, and any items that match what's already in the multiblock will be deposited, while your tools and such won't. Just make sure to place your Controller last so it registers all the drawers.%n%nYou can feed into the Controller (and thus the rest of the drawers) with any kind of piping or hopper equivalent. If using it as part of a Multifarm or Mob Farm, make sure to set the contents of the drawers, and lock them with a key so that it properly stores everything in an organized manner. If the drawers' contents aren't set, it will start filling starting from the ones closest. If you wish to have more than one drawer full of an item, put a void upgrade on the drawer further from the Controller, and it will fill the first one, then the second.%n%nIf you want to go around corners, use the Trim Drawers to extend the multiblock. If you want to have a second point to dump items into, use the Slave Controller (one per multiblock, automation only). Note that you can use a key on the Controller to affect all drawers at once.%n%nYou can also use it with ProjectRed, see the appropriate tab for details.%n%nOnce you have an ME Network, place a storage bus on the Controller, and the entire inventory will be accessible from the network, with both storage and retrieval. Just remember to set the priority higher than your ME Drives. If you haven't locked them yet expect all your drawers to fill with random items from your ME Network.%n%n§4Using the drawer controller with large amounts of I/O will tank TPS! If you're on a server, do not use drawer cubes, or expect the possibility of it being deleted or you getting banned.%n%nAdditionally, expect all non-backpack interactions to be DISABLED on the official servers. Congratulations, Drawer Cubists, you ruined it for everyone.
 
 # Quest.2409 - §6§lEven Rarer Earths
 gtnh.quest2409.name=§6§lEven Rarer Earths
@@ -10894,11 +10894,11 @@ gtnh.quest2722.desc=The Remote IO Water Reservoir works like the Everfull Urn in
 
 # Quest.2723 - Super Large Oxygen Tanks
 gtnh.quest2723.name=Super Large Oxygen Tanks
-gtnh.quest2723.desc=The Super Heavy oxygen tank is an oxygen storage tank that can hold up to 4000 units of air.
+gtnh.quest2723.desc=The Super Heavy oxygen tank is an oxygen storage tank that can hold up to 8000 units of air.
 
 # Quest.2724 - Ultra Large Oxygen Tanks
 gtnh.quest2724.name=Ultra Large Oxygen Tanks
-gtnh.quest2724.desc=The Ultra Heavy oxygen tank is an oxygen storage tank that can hold up to 5000 units of air.
+gtnh.quest2724.desc=The Ultra Heavy oxygen tank is an oxygen storage tank that can hold up to 16000 units of air.
 
 # Quest.2725 - Barley Time
 gtnh.quest2725.name=Barley Time
