@@ -12166,11 +12166,11 @@ gtnh.quest3040.desc=If you read the Dyson Swarm Ground Unit's tooltip carfeully 
 
 # Quest.3041 - Getting Muddy With Monazite
 gtnh.quest3041.name=Getting Muddy With Monazite
-gtnh.quest3041.desc=Pretty soon you're going to need lanthanide elements. A lot of them. %nThey're not that easy to separate, however...%n%nCraft up a Digester to unlock the questline in the IV tab.
+gtnh.quest3041.desc=Pretty soon you're going to need lanthanide elements. A lot of them. %nThey're not that easy to separate, however...%n%nCraft up a Digester to unlock the questline in the IV tab.%n%nNote: This multiblock will not function correctly without a muffler hatch
 
 # Quest.3042 - Dissolution Tank
 gtnh.quest3042.name=Dissolution Tank
-gtnh.quest3042.desc=Basically a mixing machine purposely made for dilution.%n%nIt's *supposed* to have a specific ratio mechanic but that isn't currently working :S%n%nAnyway, this plays a large part in the lanthanide line so craft it up.
+gtnh.quest3042.desc=Basically a mixing machine purposely made for dilution.%n%nYou'll need to take care in providing the inputs at the required ratios, else you'll get no output.%n%nAnyway, this plays a large part in the lanthanide line so craft it up.
 
 # Quest.3043 - Monazite
 gtnh.quest3043.name=Monazite
