@@ -179,6 +179,9 @@ mods.thaumcraft.Research.addArcanePage("ICHORIUM", <gregtech:gt.metaitem.01:1197
 mods.thaumcraft.Research.setAspects("ICHORIUM", "metallum 15, fabrico 15, instrumentum 12, praecantatio 9, lux 6, alienis 3");
 mods.thaumcraft.Research.setComplexity("ICHORIUM", 4);
 mods.thaumcraft.Warp.addToResearch("ICHORIUM", 2);
+// - Pre-req fix
+mods.thaumcraft.Research.clearPrereqs("ICHORIUM");
+mods.thaumcraft.Research.addPrereq("ICHORIUM", "ICHOR", true);
 
 // --- Ichorium Nuggets
 furnace.addRecipe(<gregtech:gt.metaitem.01:9978> * 9, <gregtech:gt.metaitem.01:11978>);
