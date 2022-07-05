@@ -33,7 +33,7 @@ val SuperconductingCoil = <gregtech:gt.blockcasings:15>;
 //NEI.hide(sgRingBlock);
 //NEI.hide(sgChevronBlock);
 //NEI.hide(sgBaseBlock);
-NEI.hide(sgDHD);
+//NEI.hide(sgDHD);
 //NEI.hide(sgNaquadahBlock);
 //NEI.hide(sgNaquadahOre);
 //NEI.hide(sgICPowerAcceptor);

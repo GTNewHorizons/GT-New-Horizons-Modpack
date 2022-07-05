@@ -181,7 +181,8 @@ val TravelWingsImage = <TConstruct:travelWings>;
 val TravelWings = <TConstruct:travelWings>.withTag({TinkerArmor: {BaseDurability: 1035, BaseDefense: 2.0, Built: 1 as byte, MaxDefense: 8.0, Damage: 0, BonusDurability: 0, Modifiers: 3, DamageReduction: 0.0, TotalDurability: 1035, ModDurability: 0.0 as float, Broken: 0 as byte}});
 val MagicalFeather = <miscutils:magicfeather>;
 val Netherstar = <minecraft:nether_star>;
-val IchoriumRing = <gregtech:gt.metaitem.01:28978>;
+val IridiumRing = <gregtech:gt.metaitem.01:28084>;
+
 val BigPearl = <Avaritia:big_pearl>;
 val PrimalCharm = <Thaumcraft:ItemResource:15>;
 val DragonEgg = <minecraft:dragon_egg>;
@@ -194,6 +195,7 @@ val EngravedGC = <dreamcraft:item.EngravedGoldChip>;
 val InfinityCatalyst = <Avaritia:Resource:5>;
 val SalisMundus = <Thaumcraft:ItemResource:14>;
 val TritScrew = <gregtech:gt.metaitem.01:27329>;
+
 
 // --- Removing Recipes ---
 
@@ -1337,7 +1339,7 @@ Extractor.addRecipe(<ExtraUtilities:cobblestone_compressed:14> * 9, <ExtraUtilit
 
 // --- Angel Wing over Thaumcraft ---
 // --- ARInvisableWings
-Infusion.addRecipe("EXURINGS_CRAFTING", TravelWings, [IchoriumRing, TritScrew, EngravedGC, AngelBlock, PrimalCharm, MagicalFeather, Netherstar, BigPearl, Netherstar, MagicalFeather, PrimalCharm, AngelBlock, EngravedGC, TritScrew], "praecantatio 200, volatus 200, tempestas 200, nebrisum 200, motus 200, terminus 200", ARInvisableWings, 30);
+Infusion.addRecipe("EXURINGS_CRAFTING", TravelWings, [IridiumRing, TritScrew, EngravedGC, AngelBlock, PrimalCharm, MagicalFeather, Netherstar, BigPearl, Netherstar, MagicalFeather, PrimalCharm, AngelBlock, EngravedGC, TritScrew], "praecantatio 200, volatus 200, tempestas 200, nebrisum 200, motus 200, terminus 200", ARInvisableWings, 30);
 
 // --- ARFeatheryWings
 Infusion.addRecipe("EXURINGS_CRAFTING", ARInvisableWings, [SalisMundus, FeatherFletching, FeatherFletching], "permutatio 50, volatus 50, aer 50", ARFeatheryWings, 4);
@@ -1362,6 +1364,7 @@ Research.addPage("EXURINGS", "tc.research_page.EXURINGS.1");
 game.setLocalization("en_US", "tc.research_page.EXURINGS.1", "Happy to have crafted or looted your first Copter Pack or in general having access to Jetpacks?<BR>Annoyed about the fact that you need some type of fuel or energy for your Jetpack to work?<BR>What would a Thaumaturge give to achieve the ability to fly without these restrictions?<BR>Maybe some §oWarp§r? Not at this point yet, maybe later?<BR>But what should you do now to achieve §oFreedom like a bird§r? Maybe you remember Icarus and what happened to him?");
 Research.addPage("EXURINGS", "tc.research_page.EXURINGS.2");
 game.setLocalization("en_US", "tc.research_page.EXURINGS.2", "If you remeber (well, let us say §othat§r you remember) then why not taking a look the §oTraveller's Wings§r§r? For me they could be the key for what you want to achieve but even if you own them, what should you do with them?<BR> I would like to ... try to infuse them with ... what items would you need you may ask and the final result will be ...?<BR>Pretty out of ideas I see so let us make some theoretical studies first:<BR>You want to fly like a bird? Try to get §oVolatus§r because it is referenced to flight. Another ingredient could be §oTempestas§r to withstand the harsh weather out there.");
+
 Research.addPage("EXURINGS", "tc.research_page.EXURINGS.3");
 game.setLocalization("en_US", "tc.research_page.EXURINGS.3", "The next as obvious would be §oPraecantatio§r as we are going to use magic after all to achieve your goal otherwise it wouldn't make sense, wouldn't it? Also §oMotus§r will be required.<BR>Well done, we got the §oMain Aspects§r but how can we get rid of requiring energy or fuel? I would suggest to get §oNebrisum§r the source of §oCheatines§r. Yes, you are right, we are going to cheat a little bit for your goal but don't blame me for that §oTerminus§r I couldn't withstand to use it.<BR>You should have a few Jars filled with §oVolatus, Tempestas, Praecantatio, Nebrisum, Motus§r and §oTerminus§r to be prepared.<LINE>");
 Research.addPage("EXURINGS", "tc.research_page.EXURINGS.4");

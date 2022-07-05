@@ -626,7 +626,6 @@
         <Loot Identifier="0ef801b1-1b39-4864-973f-4204f2955af8" ItemName="TConstruct:heartCanister:6" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="10" RandomAmount="false"/>
         <Loot Identifier="ff263b56-39cb-4dc6-aa40-389eb8d22b77" ItemName="gregtech:gt.metaitem.01:32714" Amount="3" NBTTag="" Chance="100" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="11de8e54-d5a1-4c9a-a70e-0acd87f2c357" ItemName="gregtech:gt.blockores:324" Amount="32" NBTTag="" Chance="80" LimitedDropCount="0" RandomAmount="true"/>
-        <Loot Identifier="2dea00b0-a44a-46a7-9fdf-e9262638ef28" ItemName="gregtech:gt.blockmachines:1150" Amount="1" NBTTag="" Chance="50" LimitedDropCount="4" RandomAmount="false"/>
         <Loot Identifier="b17218f9-6275-4de0-9b91-9a982b7adf91" ItemName="EnderIO:blockTransceiver" Amount="2" NBTTag="" Chance="50" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="3a6a65fc-d45e-4532-aa61-3b39de548f10" ItemName="EnderStorage:enderChest" Amount="2" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="a7bc9dcc-4f45-4c8b-b24c-c6e7ff34c23d" ItemName="EnderStorage:enderChest:4096" Amount="2" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
