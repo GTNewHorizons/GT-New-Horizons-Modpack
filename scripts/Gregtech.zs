@@ -26,7 +26,7 @@ import mods.gregtech.PrecisionLaser;
 import mods.gregtech.Pulverizer;
 import mods.gregtech.Wiremill;
 
-
+import mods.nei.NEI;
 
 // --- Variables ---
 
@@ -57,7 +57,11 @@ var plateAluminium = <gregtech:gt.metaitem.01:17019>;
 var shutterModule = <gregtech:gt.metaitem.01:32749>;
 val comb = <ore:beeComb>;
 
-
+// --- Hide items ---
+NEI.hide(<bartworks:gt.bwMetaGeneratedGTEnhancementcapsule:*>);
+NEI.hide(<bartworks:gt.bwMetaGeneratedGTEnhancementcapsuleMolten:*>);
+NEI.hide(<bartworks:gt.bwMetaGeneratedcapsuleMolten:*>);
+NEI.hide(<bartworks:gt.bwMetaGeneratedcapsule:*>);
 
 // ---Remove Recipes ---
 
