@@ -15,10 +15,10 @@
 	"oreEndstonePlutonium241",
     "1"
   ],
-  "radius": 9,
+  "radius": 12,
   "cost": 2500000,
   "focusModId": "gregtech",
-  "focusName": "gt.metaitem.01",
-  "focusMeta": 32674
+  "focusName": "gt.blockmachines",
+  "focusMeta": 465
 }
 
