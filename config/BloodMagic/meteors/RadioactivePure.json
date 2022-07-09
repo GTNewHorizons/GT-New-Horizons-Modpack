@@ -1,0 +1,24 @@
+{
+  "ores": [
+	"oreEndstoneUranium",
+    "40",
+	"oreEndstoneUranium235",
+    "10",
+	"oreEndstoneUranite",
+    "40",
+	"oreEndstonePitchblende",
+    "40",
+	"oreEndstoneThorium",
+    "100",
+	"oreEndstonePlutonium",
+    "15",
+	"oreEndstonePlutonium241",
+    "1"
+  ],
+  "radius": 9,
+  "cost": 2500000,
+  "focusModId": "gregtech",
+  "focusName": "gt.metaitem.01",
+  "focusMeta": 32674
+}
+
