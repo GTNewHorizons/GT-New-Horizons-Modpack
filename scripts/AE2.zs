@@ -965,29 +965,31 @@ recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:300>, [
 [<ore:gemFluix>, <ore:gemFluix>, <ore:gemFluix>]]);
 
 // --- Cable Anchor
-recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:120> * 2, [<ore:craftingToolKnife>, <ore:ingotIron>]);
+recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:120>, [[<ore:boltIron>, null], [null, <ore:boltIron>]]);
 // -
-recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:120> * 2, [<ore:craftingToolKnife>, <ore:ingotCopper>]);
+recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:120>, [[<ore:boltCopper>, null], [null, <ore:boltCopper>]]);
 // -
-recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:120> * 3, [<ore:craftingToolKnife>, <ore:ingotBronze>]);
+recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:120>, [[<ore:boltBronze>, null], [null, <ore:boltBronze>]]);
 // -
-recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:120> * 2, [<ore:craftingToolKnife>, <ore:ingotTin>]);
+recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:120>, [[<ore:boltTin>, null], [null, <ore:boltTin>]]);
 // -
-recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:120> * 2, [<ore:craftingToolKnife>, <ore:ingotIron>]);
+recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:120> * 2, [[<ore:boltSteel>, null], [null, <ore:boltSteel>]]);
 // -
-recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:120> * 4, [<ore:craftingToolKnife>, <ore:ingotSteel>]);
+recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:120> * 2, [[<ore:boltAluminium>, null], [null, <ore:boltAluminium>]]);
 // -
-recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:120> * 4, [<ore:craftingToolKnife>, <ore:ingotAluminium>]);
+recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:120>, [[<ore:boltLead>, null], [null, <ore:boltLead>]]);
 // -
-recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:120> * 2, [<ore:craftingToolKnife>, <ore:ingotLead>]);
+recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:120>, [[<ore:boltNickel>, null], [null, <ore:boltNickel>]]);
 // -
-recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:120> * 2, [<ore:craftingToolKnife>, <ore:ingotNickel>]);
+recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:120>, [[<ore:boltSilver>, null], [null, <ore:boltSilver>]]);
 // -
-recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:120> * 2, [<ore:craftingToolKnife>, <ore:ingotSilver>]);
+recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:120>, [[<ore:boltBrass>, null], [null, <ore:boltBrass>]]);
 // -
-recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:120> * 3, [<ore:craftingToolKnife>, <ore:ingotBrass>]);
+recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:120>, [[<ore:boltInvar>, null], [null, <ore:boltInvar>]]);
 // -
-recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:120> * 3, [<ore:craftingToolKnife>, <ore:ingotInvar>]);
+recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:120> * 3, [[<ore:boltStainlessSteel>, null], [null, <ore:boltStainlessSteel>]]);
+// -
+recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:120> * 4, [[<ore:boltTitanium>, null], [null, <ore:boltTitanium>]]);
 
 // --- ME Export Bus
 recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:260>, [
