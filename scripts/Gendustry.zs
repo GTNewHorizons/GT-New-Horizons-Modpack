@@ -273,18 +273,6 @@ mods.avaritia.ExtremeCrafting.addShaped(MutagenProducer, [
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
 
-// --- Industrial Apiary
-mods.avaritia.ExtremeCrafting.addShaped(IndustrialApiary, [
-[null, null, null, null, null, null, null, null, null],
-[null, null, null, null, null, null, null, null, null],
-[null, null,  <ore:gearTungstenSteel>, <Forestry:alveary:6>, <gregtech:gt.metaitem.01:32606>, <Forestry:alveary:6>,  <ore:gearTungstenSteel>, null, null],
-[null, null, <Forestry:alveary:5>, <Forestry:alveary>, <Forestry:alveary:7>, <Forestry:alveary>, <Forestry:alveary:4>, null, null],
-[null, null, <gregtech:gt.metaitem.01:32606>, <Forestry:alveary:2>, <Forestry:apiculture>, <Forestry:alveary:2>, <gregtech:gt.metaitem.01:32606>, null, null],
-[null, null, <Forestry:alveary:5>, <Forestry:alveary>, <Forestry:alveary:7>, <Forestry:alveary>, <Forestry:alveary:4>, null, null],
-[null, null, <ore:gearTungstenSteel>, <Forestry:alveary:3>, <gregtech:gt.metaitem.01:32675>, <Forestry:alveary:3>,  <ore:gearTungstenSteel>, null, null],
-[null, null, null, null, null, null, null, null, null],
-[null, null, null, null, null, null, null, null, null]]);
-
 // --- Mutatron
 mods.avaritia.ExtremeCrafting.addShaped(Mutatron, [
 [null, null, null, null, null, null, null, null, null],
