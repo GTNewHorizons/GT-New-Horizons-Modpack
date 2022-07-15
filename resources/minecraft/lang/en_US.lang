@@ -1046,15 +1046,15 @@ gtnh.quest260.desc=I have mastered the basics. Master warned me about forbidden 
 
 # Quest.261 - An Awesome Magic Conductor
 gtnh.quest261.name=An Awesome Magic Conductor
-gtnh.quest261.desc=These tears, WOW! I've never felt something so strong. Could it be? Could I use those to actually finalize my Silverwood wand?
+gtnh.quest261.desc=These tears, WOW! I've never felt something so strong. Could it be? Could I make an even more powerful wand with these?
 
 # Quest.262 - An Even Better Conductor?
 gtnh.quest262.name=An Even Better Conductor?
 gtnh.quest262.desc=More... I want MOOORE! There must be something even stronger than the hydra. Something older, more ancient.
 
-# Quest.263 - It Doesn't Work
-gtnh.quest263.name=It Doesn't Work
-gtnh.quest263.desc=I tried to combine the lich bones I had with this new wand rod. The result: A pile of ashes. It crumbled to dust within seconds. I need a better conductor. The hydra in the Twilight Forest has the ability to regrow an entire head! Her blood must contain a large amount of magic. I guess I need a bit of that for my next wand.
+# Quest.263 - A Silverwood Wand at Last
+gtnh.quest263.name=A Silverwood Wand at Last
+gtnh.quest263.desc=I tried to combine the lich bones I had with a silverwood rod. The result: A pile of ashes. It crumbled to dust within seconds. I need a better conductor. The hydra in the Twilight Forest has the ability to regrow an entire head! Her blood must contain a large amount of magic. I guess I need a bit of that to finally complete my silverwood wand.
 
 # Quest.264 - Obsidian Rod
 gtnh.quest264.name=Obsidian Rod
@@ -1064,9 +1064,9 @@ gtnh.quest264.desc=By using obsidian and some earth clusters, I'm able to create
 gtnh.quest265.name=Creating a Better Wand
 gtnh.quest265.desc=This greatwood wand is nice, but it can only store 50 vis. Not enough to move nodes. My attempts to use silverwood failed, but I've come across other mundane materials that I could use to make a new wand core.
 
-# Quest.266 - More Durable Screws
-gtnh.quest266.name=More Durable Screws
-gtnh.quest266.desc=Those stainless steel screws don't work on these rods. Due to the huge amounts of vis those wands can carry, the screws somehow "melt" away. I need a more durable material. I guess I'll try titanium next.
+# Quest.266 - More Energetic Screws
+gtnh.quest266.name=More Energetic Screws
+gtnh.quest266.desc=Those stainless steel screws don't work on these rods. Due to the huge amounts of vis those wands can carry, the screws somehow "melt" away. I need a material that can handle these energies. I should try energetic alloy next.
 
 # Quest.267 - Quartz Rod
 gtnh.quest267.name=Quartz Rod
@@ -5608,9 +5608,9 @@ gtnh.quest1400.desc=Wand Focus: Blink is a very powerful focus allowing to telep
 gtnh.quest1401.name=Infuse Your Focus
 gtnh.quest1401.desc=Try to add Potency to your Shock Focus. At Level 3 you can add Chain Lightning or Shock Wave.
 
-# Quest.1402 - Iridium Screws
-gtnh.quest1402.name=Iridium Screws
-gtnh.quest1402.desc=Chrome screws are nice, but they seem to break if too much vis channels through them. Get some Iridium screws.
+# Quest.1402 - Oriharukon Screws
+gtnh.quest1402.name=Oriharukon Screws
+gtnh.quest1402.desc=Enderium screws are nice, but they seem to break if too much vis channels through them. Get some Oriharukon screws.
 
 # Quest.1403 - §9§lHV Steam Turbine
 gtnh.quest1403.name=§9§lHV Steam Turbine
@@ -12150,7 +12150,7 @@ gtnh.quest3036.desc=No Description
 
 # Quest.3037 - Space Pumping
 gtnh.quest3037.name=Space Pumping
-gtnh.quest3037.desc=You might have already wondered: There are these enormous gas planets in the solar system - isn't there a way to "harvest" them? Indeed there is. By constructing the "Planetary Gas Siphon" multiblock, you are able to pump from the infinite supply of gas found on Jupiter, Saturn, Uranus and Neptune. You just need to build a space station around a gas planet to get near enough to be able to reach the gas without falling into it.%n%nBy pumping on different depths, you are able to extract different gases. The depth is controlled by a Programmed Circuit. You need to supply 64 * depth Mining Pipes to be able to rach the selected depth.%n%nWhile operational, the multiblock needs d*4^(t+2) EU/t (t is the space station's tier and d is the depth).%n%n%n§oJupiter§r%n1 Hydrogen - 15000 L/s%n2 Helium - 500 L/s%n3 Nitrogen - 300 L/s%n4 Oxygen - 200 L/s%n%n§oSaturn§r%n1 Hydrogen - 18000 L/s%n2 Helium - 800 L/s%n3 Oxygen - 500 L/s%n4 Liquid Oxygen - 150 L/s%n%n§oUranus§r%n1 Deuterium - 5000 L/s%n2 Neon - 450 L/s%n3 Argon - 250 L/s%n4 Krypton - 100 L/s%n%n§oNeptune§r%n1 Tritium - 3000 L/s%n2 Helium-3 - 500 L/s%n3 Ammonia - 400 L/s%n4 Xenon - 350 L/s
+gtnh.quest3037.desc=You might have already wondered: There are these enormous gas planets in the solar system - isn't there a way to "harvest" them? Indeed there is. By constructing the "Planetary Gas Siphon" multiblock, you are able to pump from the infinite supply of gas found on Jupiter, Saturn, Uranus and Neptune. You just need to build a space station around a gas planet to get near enough to be able to reach the gas without falling into it.%n%nBy pumping on different depths, you are able to extract different gases. The depth is controlled by a Programmed Circuit. You need to supply 64 * depth Mining Pipes to be able to rach the selected depth.%n%nWhile operational, the multiblock needs d*4^(t+2) EU/t (t is the space station's tier and d is the depth).%n%nYou can find an overview of what you can pump where in the Tips and Tricks chapter.
 
 # Quest.3038 - UHT Resistant Mesh
 gtnh.quest3038.name=UHT Resistant Mesh
@@ -12831,6 +12831,14 @@ gtnh.quest3206.desc=Fusion is the lategame. It is not the entire lategame, but s
 # Quest.3207 - A Second Reactor?
 gtnh.quest3207.name=A Second Reactor?
 gtnh.quest3207.desc=At this point, why not? You should be a in a better position to afford it, but there is the issue that t3 fusion unlocks an easier Americium recipe, which lets you craft a second t3 more easily. You might not want to wait that long, maybe you've been smelting a lot of ingots, or using World Accelerators?%n%nRegardless, two Helium Plasma reactors will surely suffice for whatever it is you're doing. Tin Plasma is worth using, of course, but the Molecular Transformer recipe to convert Silver to Tin isn't available in the singleblock anymore, so you might want the easier option, since you're rocking two reactors and all. With the 2x overclock they're still produce millions of EU/t with the right Plasma Turbines, assuming you have them ready.
+
+# Quest.3208 - Transmutative Rod
+gtnh.quest3208.name=Transmutative Rod
+gtnh.quest3208.desc=Combining Salis Mundis and some clusters, I can get upgrade a greatwood rod to a transmutative rod. Now that looks like a particularly interesting option!
+
+# Quest.3209 - Gas Planets
+gtnh.quest3209.name=Gas Planets
+gtnh.quest3209.desc=You probably also want a good overview of what you can get with your Gas Siphon. So here we go:%n%n%nJupiter§r%n1 Hydrogen - 15000 L/s%n2 Helium - 500 L/s%n3 Nitrogen - 300 L/s%n4 Oxygen - 200 L/s%n%n§oSaturn§r%n1 Hydrogen - 18000 L/s%n2 Helium - 800 L/s%n3 Oxygen - 500 L/s%n4 Liquid Oxygen - 150 L/s%n%n§oUranus§r%n1 Deuterium - 5000 L/s%n2 Neon - 450 L/s%n3 Argon - 250 L/s%n4 Krypton - 100 L/s%n%n§oNeptune§r%n1 Tritium - 3000 L/s%n2 Helium-3 - 500 L/s%n3 Ammonia - 400 L/s%n4 Xenon - 350 L/s
 
 ##################################Line##################################
 
