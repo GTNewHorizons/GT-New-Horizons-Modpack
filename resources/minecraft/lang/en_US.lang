@@ -7276,9 +7276,9 @@ gtnh.quest1817.desc=To process more advanced materials like Cosmic Neutronium, T
 gtnh.quest1818.name=§6§lLarge Essentia Generator
 gtnh.quest1818.desc=Having one Essentia Generator per Essentia type seeems unpracticable.... Better make a Large Essentia Generator and burn all this Essentia in parallel! As another Bonus, this Generator produces 20x the Energy a Single Block Machine will produce. You might need more Magic Containment Casings than this Quest asks for.%n%n§4PS: This is apparently super buggy and may or may not work.
 
-# Quest.1819 - §6§lCircuit Programmer
-gtnh.quest1819.name=§6§lCircuit Programmer
-gtnh.quest1819.desc=The Circuit Programmer is a useful tool that will enable you to program integrated circuits without having to deal with 24 different crafting recipes. Just charge it, put the Integrated Circuit in it and click on the Number you want it to be programmed to.
+# Quest.1819 - §6§l(no longer relevant) Circuit Programmer
+gtnh.quest1819.name=§6§l(no longer relevant) Circuit Programmer
+gtnh.quest1819.desc=The Circuit Programmer is a useful tool that will enable you to program integrated circuits without having to deal with 24 different crafting recipes. Just charge it, put the Integrated Circuit in it and click on the Number you want it to be programmed to.§c
 
 # Quest.1820 - §6§lLapotronic Energy Storage Unit
 gtnh.quest1820.name=§6§lLapotronic Energy Storage Unit
@@ -10414,7 +10414,7 @@ gtnh.quest2602.desc=Now that you've finally gotten all the materials to make you
 
 # Quest.2603 - §c§lFetching Tellurium
 gtnh.quest2603.name=§c§lFetching Tellurium
-gtnh.quest2603.desc=For Tellurium, you can do it these ways:%n%n1) EBF Crushed Lead Ore for 2 Tellurium Nuggets%n2) If you have old worldgen, you can get it from Temagamite practically anywhere (it was broken so it currently doesn't generate), or Mercury if it's been fixed%n3) Make Rare Earth (III) out of Rare Earth using the strongest of acids and get it from Alburnite%n4) Toxic Everglades again
+gtnh.quest2603.desc=For Tellurium, you can do it these ways:%n%n1) EBF Crushed Lead Ore for 2 Tellurium Nuggets%n2) If you have old worldgen, you can get it from Temagamite practically anywhere (it was broken so it currently doesn't generate), or Mercury if it's been fixed%n3) Make Rare Earth (III) out of Rare Earth using the strongest of acids and get it from Alburnite%n4) Toxic Everglades again%n5) Once you have a Void Miner, you can place it in the Overworld to obtain Tellurium.
 
 # Quest.2604 - §c§lFetching Cubic Zirconia
 gtnh.quest2604.name=§c§lFetching Cubic Zirconia
