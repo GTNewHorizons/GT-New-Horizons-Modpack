@@ -3270,7 +3270,7 @@ gtnh.quest816.desc=The Moon lander is required for a soft landing. You will need
 
 # Quest.817 - Buggy Seat
 gtnh.quest817.name=Buggy Seat
-gtnh.quest817.desc=The buggy seat is part of the Moon lander and the Moon buggy.
+gtnh.quest817.desc=The buggy seat is part of the Moon lander.
 
 # Quest.818 - Frequency Module
 gtnh.quest818.name=Frequency Module
@@ -6978,7 +6978,7 @@ gtnh.quest1743.desc=Mars is rich in Salt Water and Chlorobenzene. If you run low
 
 # Quest.1744 - §6§lChemical Lesson, Part Two
 gtnh.quest1744.name=§6§lChemical Lesson, Part Two
-gtnh.quest1744.desc=More advanced recipes need an MV chemical reactor.
+gtnh.quest1744.desc=More advanced recipes need an MV chemical reactor. It also speeds up your existing recipes.
 
 # Quest.1745 - Welcome to OpenComputers!
 gtnh.quest1745.name=Welcome to OpenComputers!
@@ -12839,6 +12839,10 @@ gtnh.quest3208.desc=Combining Salis Mundis and some clusters, I can get upgrade 
 # Quest.3209 - Gas Planets
 gtnh.quest3209.name=Gas Planets
 gtnh.quest3209.desc=You probably also want a good overview of what you can get with your Gas Siphon. So here we go:%n%n%nJupiter§r%n1 Hydrogen - 15000 L/s%n2 Helium - 500 L/s%n3 Nitrogen - 300 L/s%n4 Oxygen - 200 L/s%n%n§oSaturn§r%n1 Hydrogen - 18000 L/s%n2 Helium - 800 L/s%n3 Oxygen - 500 L/s%n4 Liquid Oxygen - 150 L/s%n%n§oUranus§r%n1 Deuterium - 5000 L/s%n2 Neon - 450 L/s%n3 Argon - 250 L/s%n4 Krypton - 100 L/s%n%n§oNeptune§r%n1 Tritium - 3000 L/s%n2 Helium-3 - 500 L/s%n3 Ammonia - 400 L/s%n4 Xenon - 350 L/s
+
+# Quest.3210 - Another Chemical Multiblock?
+gtnh.quest3210.name=Another Chemical Multiblock?
+gtnh.quest3210.desc=You probably have built a lot of Large Chemical Reactors by now. With the powerful 4/4 overclocking it is one of the strongest multiblocks there is. But what if even that is not enough to satisfy your chemical needs? You can't make it faster if the recipe time is already down to 1 tick (=0.05s).%n%nFear not, we have a solution for you: The Mega Chemical Reactor. It lets you do 256 parallels for your LCR recipes! And you can still overclock after that if you provide enough power.%n%nIt only unlocks in LuV as it needs 7 Fusion Coil Blocks. Check with your hologram projector to see how it is built and what you need.%n%nThe glass tier limits the energy hatch tier that you can use. You can even use multiamp hatches from TecTech! If you want to use laser hatches however you need at least UV glass.
 
 ##################################Line##################################
 
