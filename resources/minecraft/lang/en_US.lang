@@ -2398,7 +2398,7 @@ gtnh.quest598.desc=The most efficient way to get antimony for batteries is to ru
 
 # Quest.599 - §5§lThermal Centrifuge
 gtnh.quest599.name=§5§lThermal Centrifuge
-gtnh.quest599.desc=A machine to get different byproducts out of your crushed or purified ore dust. It's useful for getting tiny piles of Gallium out of crushed Zinc Ore for your Diodes needed in good circuits.%n%nWhen you have IC2 nuclear reactors and want to recycle your depleted fuel rods, it's the only way to do so.%n%nIf you can't produce the 2A of LV power for this machine right now, wait until you get to MV and use transformers to power an LV version.%n%n§4Sending MV power to an LV device, even if it uses more than 1A will cause an explosion, so don't do that.
+gtnh.quest599.desc=A machine to get different byproducts out of your crushed or purified ore dust. It's useful for getting a bit of Gallium out of crushed Zinc Ore for your Diodes needed in good circuits.%n%nWhen you have IC2 nuclear reactors and want to recycle your depleted fuel rods, it's the only way to do so.%n%nIf you can't produce the 2A of LV power for this machine right now, wait until you get to MV and use transformers to power an LV version.%n%nIn LV, you can obtain the same ore byproducts via different methods. The Thermal Centrifuge only becomes really important in HV when you can combine it with the HV macerator.%n%n§4Sending MV power to an LV device, even if it uses more than 1A will cause an explosion, so don't do that.
 
 # Quest.600 - Hunger No More
 gtnh.quest600.name=Hunger No More
@@ -2990,7 +2990,7 @@ gtnh.quest746.desc=Silicon is needed in all boule (and thus wafers, chips, and c
 
 # Quest.747 - §5§lDiodes
 gtnh.quest747.name=§5§lDiodes
-gtnh.quest747.desc=Good circuits need diodes. There are two main ways to craft them. Right now you have to use the Gallium Arsenide method with fine copper wires and molten glass. Later when you get an EBF you can use it to make silicon wafers to make even more. Note that the wafers are way easier to get than gallium, so even a reduced amount is still worth it.%n%nMake sure you check all the NEI recipes for advanced items instead of just using the first one you find. You can use annealed copper wires and polyethylene to increase your output even more. %n
+gtnh.quest747.desc=Good circuits need diodes. There are two main ways to craft them. You can crush your the Gallium Arsenide crystals to dust and combine that with fine copper wires and molten glass. If you have solar grade silicon you can use it to make silicon wafers in your EBF to make even more. Note that the wafers are much more efficient on gallium and arsenic, so even a reduced amount is still worth it.%n%nMake sure you check all the NEI recipes for advanced items instead of just using the first one you find. You can use annealed copper wires and polyethylene to increase your output even more. %n
 
 # Quest.748 - §5§lEmpty Circuit Board
 gtnh.quest748.name=§5§lEmpty Circuit Board
@@ -3130,7 +3130,7 @@ gtnh.quest781.desc=This oven is the best way to get charcoal and creosote (x50 f
 
 # Quest.782 - §6§lMonocrystalline Silicon Boules
 gtnh.quest782.name=§6§lMonocrystalline Silicon Boules
-gtnh.quest782.desc=To make wafers, you need to make monocrystalline silicon boules first. The process takes 450 seconds and requires silicon dust and gallium arsenide dust in the electric blast furnace. You can make 16 wafers out of every boule.
+gtnh.quest782.desc=To make wafers, you need to make monocrystalline silicon boules first. The process takes 450 seconds and requires solar grade silicon dust and a small gallium arsenide crystal in the electric blast furnace. You can make 16 wafers out of every boule.
 
 # Quest.783 - §6§lWe Need Big Toys
 gtnh.quest783.name=§6§lWe Need Big Toys
@@ -3344,9 +3344,9 @@ gtnh.quest834.desc=For every circuit you need a circuit board. Craft a coated ci
 gtnh.quest835.name=§5§4§3§lResistor
 gtnh.quest835.desc=Every basic circuit needs two resistors to work.%n%nThere are better versions you can make later.
 
-# Quest.836 - §5§lGallium Arsenide
-gtnh.quest836.name=§5§lGallium Arsenide
-gtnh.quest836.desc=The diode requires gallium arsenide, and you may be wondering how to get gallium or arsenic this early in the game.%n%nSphalerite and zinc are the primary sources of gallium at this tier.%n%nYou can find sphalerite in sulfur veins at Y 5-20, and the small zinc ores in the Overworld or the in the Nether at Y 80-210. You won't find much on the Overworld because of obvious reasons. To get additional zinc crushed ore drops, use a Tinker's Construct tool with the Luck (Fortune) enchant on it, probably the best use for all that lapis you got while looking for calcite. Or use a miner, if you don't mind how slow it is.%n%n- Sphalerite can be electrolyzed for a 25% chance of a tiny pile. It's not great, but it's easier to collect the ore. Make sure to go onto discord to complain about how you electrolyzed a stack to only get 3 tiny piles along with everyone else.%n- Zinc crushed ore can be washed and then thermal centrifuged or forge hammered and then centrifuged, both for tiny piles. But you don't always get the crushed ore as a drop, the impure dust doesn't give gallium.%n%nYou can get arsenic from realgar small ores in the Nether at Y 15-85. Centrifuge the dusts in a centrifuge.%n%nOther sources are Tinker's Construct cobalt ore in the nether and cobaltite ore in the Twilight Forest, but that requires you to have an EBF. You also need to level up your pickaxe to ardite or make an Ironwood Pickaxe or LV Miner to harvest cobalt ore.%n%nAnother way to get gallium and arsenic is with XP buckets in a crafting grid if you're really desperate.%n%nMix those two dusts in a mixer to get gallium arsenic dust.
+# Quest.836 - §5§lGallium Arsenide Crystal
+gtnh.quest836.name=§5§lGallium Arsenide Crystal
+gtnh.quest836.desc=The diode requires gallium arsenide, and you may be wondering how to get gallium or arsenic this early in the game.%n%nSphalerite and zinc are the primary sources of gallium at this tier.%n%nYou can find sphalerite in sulfur veins at Y 5-20, and the small zinc ores in the Overworld or the in the Nether at Y 80-210. You won't find much on the Overworld because of obvious reasons. To get additional zinc crushed ore drops, use a Tinker's Construct tool with the Luck (Fortune) enchant on it, probably the best use for all that lapis you got while looking for calcite. Or use a miner, if you don't mind how slow it is.%n%n- Sphalerite can be electrolyzed for a 25% chance of a tiny pile. It's not great, but it's easier to collect the ore. Make sure to go onto discord to complain about how you electrolyzed a stack to only get 3 tiny piles along with everyone else.%n- Zinc crushed ore can be washed and then thermal centrifuged or forge hammered and then centrifuged. But you don't always get the crushed ore as a drop, the impure dust doesn't give gallium.%n%nYou can get arsenic from realgar small ores in the Nether at Y 15-85. Centrifuge the dusts in a centrifuge.%n%nOther sources are Tinker's Construct cobalt ore in the nether and cobaltite ore in the Twilight Forest. You can use your EBF for that. You also need to level up your pickaxe to ardite or make an Ironwood Pickaxe or LV Miner to harvest cobalt ore.%n%nAnother way to get gallium and arsenic is with XP buckets in a crafting grid if you're really desperate.%n%nWith your EBF you can combine these two dust to make a Gallium Arsenide Crystal.
 
 # Quest.837 - §6§lILC and RAM
 gtnh.quest837.name=§6§lILC and RAM
@@ -4948,13 +4948,13 @@ gtnh.quest1235.desc=The Microprocessor is the highest tier version of the LV cir
 gtnh.quest1236.name=§9§lHV Cutting Machine
 gtnh.quest1236.desc=NOR, NAND and other high tier chips require an HV cutting machine.%n%n§3You'll soon find that everything you cut needs a cleanroom, so make sure you start on that.
 
-# Quest.1237 - §a§9§lGlowstone Doped Monocrystalline Silicon
-gtnh.quest1237.name=§a§9§lGlowstone Doped Monocrystalline Silicon
-gtnh.quest1237.desc=To make more advanced wafers, you need to make glowstone doped monocrystalline silicon first. The process takes a while, so make sure you have stable power.%n%nYou can also get more wafers, and thus more chips out of higher tier boules. You still need to make the lower tier ones sometimes though.
+# Quest.1237 - §a§9Phosphorus Doped Monocrystalline Silicon
+gtnh.quest1237.name=§a§9Phosphorus Doped Monocrystalline Silicon
+gtnh.quest1237.desc=To make more advanced wafers, you need to make phosphorus doped monocrystalline silicon first. The process takes a while, so make sure you have stable power.%n%nYou can also get more wafers, and thus more chips out of higher tier boules. You still need to make the lower tier ones sometimes though.
 
-# Quest.1238 - §9§lGlowstone Doped Wafer
-gtnh.quest1238.name=§9§lGlowstone Doped Wafer
-gtnh.quest1238.desc=To create some glowstone doped silicon wafers, cut them in a cutting machine. An HV version of the cutting machine is needed for future wafers and chips.
+# Quest.1238 - Phosphorus Doped Wafer
+gtnh.quest1238.name=Phosphorus Doped Wafer
+gtnh.quest1238.desc=To create some phosphorus doped silicon wafers, cut them in a cutting machine. An HV version of the cutting machine is needed for future wafers and chips.
 
 # Quest.1239 - §9§lNOR and NAND Chips
 gtnh.quest1239.name=§9§lNOR and NAND Chips
@@ -6682,7 +6682,7 @@ gtnh.quest1669.desc=The IV circuit assembler will let you make easier MV circuit
 
 # Quest.1670 - §b§lNaquadah Doped Monocrystalline Silicon
 gtnh.quest1670.name=§b§lNaquadah Doped Monocrystalline Silicon
-gtnh.quest1670.desc=To make more advanced wafers, you need to make the naquadah dopped monocrystalline silicon first. The process takes 750 seconds and requires silicon blocks and a naquadah ingot in the Electric Blast Furnace. You can make 64 wafers out of every boule.
+gtnh.quest1670.desc=To make more advanced wafers, you need to make the naquadah dopped monocrystalline silicon first. The process takes 750 seconds and requires silicon solar grade blocks, a naquadah ingot and a gallium arsenice crystal in the Electric Blast Furnace. You can make 64 wafers out of every boule.
 
 # Quest.1671 - §b§lNaquadah Doped Wafer
 gtnh.quest1671.name=§b§lNaquadah Doped Wafer
