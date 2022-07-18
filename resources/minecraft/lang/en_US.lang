@@ -2984,13 +2984,13 @@ gtnh.quest744.desc=By making an excavator you are now able to mine dirt in a 3x3
 gtnh.quest745.name=§5§lGlue
 gtnh.quest745.desc=If you centrifuge sticky resin, you get glue. Glue is very useful in the creation of good circuit boards.%n%n§3Note that this is GT glue, not TiC glue.
 
-# Quest.746 - §6§lSilicon
-gtnh.quest746.name=§6§lSilicon
-gtnh.quest746.desc=Silicon is needed in all boule (and thus wafers, chips, and circuits) creation. Silicon is therefore an §oincredibly important material§r.%n%nYou can get it any number of ways, like centrifuging or electrolyzing various useless materials such as sodalite. You'll probably want to pull apart redstone and clay anyways, but you can also get it from silicon dioxide from glass dust, sand or flint dust if you want a specific setup.%n%nYou can get it as a byproduct from asbestos or fullers earth processing too.%n%nThe electric blast furnace is needed to make ingots. One ingot requires 2000mb of Oxygen and a temperature of 1600 K for 80 seconds at 120 EU/t using raw silicon. §6Using silicon dioxide and carbon dust, you can get an ingot in 12 seconds!§r Another time when it's best to continue searching NEI and not stop on the first recipe.
+# Quest.746 - §6§lSolar Grade Ingots
+gtnh.quest746.name=§6§lSolar Grade Ingots
+gtnh.quest746.desc=To turn your solar grade dust into solar grade ingots you need to use an EBF with kanthal coils and then cool the resulting hot ingots in a chemical bath.
 
 # Quest.747 - §5§lDiodes
 gtnh.quest747.name=§5§lDiodes
-gtnh.quest747.desc=Good circuits need diodes. There are two main ways to craft them. You can crush your the Gallium Arsenide crystals to dust and combine that with fine copper wires and molten glass. If you have solar grade silicon you can use it to make silicon wafers in your EBF to make even more. Note that the wafers are much more efficient on gallium and arsenic, so even a reduced amount is still worth it.%n%nMake sure you check all the NEI recipes for advanced items instead of just using the first one you find. You can use annealed copper wires and polyethylene to increase your output even more. %n
+gtnh.quest747.desc=Good circuits need diodes. There are two main ways to craft them. You can crush your the Gallium Arsenide crystals to dust and combine that with fine copper wires and molten glass. Once you have solar grade silicon you can use it to make silicon wafers in your EBF to make even more. Note that the wafers are much more efficient on gallium and arsenic, so even a reduced amount is still worth it.%n%nMake sure you check all the NEI recipes for advanced items instead of just using the first one you find. You can use annealed copper wires and polyethylene to increase your output even more. %n
 
 # Quest.748 - §5§lEmpty Circuit Board
 gtnh.quest748.name=§5§lEmpty Circuit Board
@@ -3010,7 +3010,7 @@ gtnh.quest751.desc=MV Mixer is needed to progress toward HV. It also unlocks Die
 
 # Quest.752 - §6§lSilicon Plate
 gtnh.quest752.name=§6§lSilicon Plate
-gtnh.quest752.desc=Advanced circuits require transistors, which are made out of silicon plates, fine tin wire and molten polyethylene.
+gtnh.quest752.desc=Advanced circuits require transistors, which are made out of high grade silicon plates, fine tin wire and molten polyethylene.
 
 # Quest.753 - §6§lStainless Steel EBF processing
 gtnh.quest753.name=§6§lStainless Steel EBF processing
@@ -12843,6 +12843,22 @@ gtnh.quest3209.desc=You probably also want a good overview of what you can get w
 # Quest.3210 - Another Chemical Multiblock?
 gtnh.quest3210.name=Another Chemical Multiblock?
 gtnh.quest3210.desc=You probably have built a lot of Large Chemical Reactors by now. With the powerful 4/4 overclocking it is one of the strongest multiblocks there is. But what if even that is not enough to satisfy your chemical needs? You can't make it faster if the recipe time is already down to 1 tick (=0.05s).%n%nFear not, we have a solution for you: The Mega Chemical Reactor. It lets you do 256 parallels for your LCR recipes! And you can still overclock after that if you provide enough power.%n%nIt only unlocks in LuV as it needs 7 Fusion Coil Blocks. Check with your hologram projector to see how it is built and what you need.%n%nThe glass tier limits the energy hatch tier that you can use. You can even use multiamp hatches from TecTech! If you want to use laser hatches however you need at least UV glass.
+
+# Quest.3211 - §6§lRaw Silicon Dust
+gtnh.quest3211.name=§6§lRaw Silicon Dust
+gtnh.quest3211.desc=Silicon is needed in all boule (and thus wafers, chips, and circuits) creation. Silicon is therefore an §oincredibly important material§r.%n%nWith your new electrolyzer you can obtain raw silicon dust from many different sources. Alternatively, you can also centrifuge redstone or smelt down silicon dioxide in the EBF with carbon and crush the resulting ingots.
+
+# Quest.3212 - §6§lSilicon Tetrachloride
+gtnh.quest3212.name=§6§lSilicon Tetrachloride
+gtnh.quest3212.desc=However, the raw silicon dust you obtained is not pure enough! We will need to work on that. Don't worry, this is just a simple two step process. First let us start by reacting it with some chlorine in a chemical reactor.
+
+# Quest.3213 - §6§lSilicon Solar Grade
+gtnh.quest3213.name=§6§lSilicon Solar Grade
+gtnh.quest3213.desc=As a second step, we combine the tetrachloride with sodium. There we go, the silicon is now purified to solar grade!
+
+# Quest.3214 - §6§lSalty from all the silicon?
+gtnh.quest3214.name=§6§lSalty from all the silicon?
+gtnh.quest3214.desc=If you are salty about the ingredients needed to purify silicon, I got good news for you! You can recover all of the chlorine and sodium you used by electrolyzing the Salt you got.
 
 ##################################Line##################################
 
