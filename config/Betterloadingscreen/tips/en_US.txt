@@ -61,7 +61,7 @@ Steam in pipes or coming out of machines hurts!
 You can apply Fortune to brittle charcoal if using the Charcoal Pile Igniter
 Pay attention to Voltage and Amperage of cables and machines!
 Warp is no fun, got a wither in your base already?
-There are sixteen Voltage tiers: from ULV(8V) to MAX(2147483647V)
+There are fifteen Voltage tiers: from ULV(8V) to MAX(2147483647V)
 Going one Voltage tier up, means quadrupling Voltage requirements
 Ten first Voltage tiers are fully implemented
 Shift-click with a GT-Block on a cable/pipe/etc to auto-connect it
