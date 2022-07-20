@@ -824,8 +824,8 @@ gtnh.quest204.desc=What use has an automated rocket, if you can't load and unloa
 gtnh.quest205.name=Cargo Rocket: For the Fun
 gtnh.quest205.desc=No need to fly to distant planets on your own, just to grab ores.%n%n§3Usefulness level: Doubtful.
 
-# Quest.206 - §a§l[OUT OF DATE] Turning A Into B With C
-gtnh.quest206.name=§a§l[OUT OF DATE] Turning A Into B With C
+# Quest.206 - §c§l[OUTDATED]§r Turning A Into B With C
+gtnh.quest206.name=§c§l[OUTDATED]§r Turning A Into B With C
 gtnh.quest206.desc=Molecular transforming at its finest! The most important recipe here is sunnarium.%n%nThe useful recipes are:%nGlowstone -> Sunnarium Piece%nRedstone -> Ruby (for Chrome)%nCarbon -> Graphene%nNether Quartz -> Certus Quartz (if you need more for AE2)%nCheese -> Cheese Curd (for no-rocket runs to get the cheese ore for space plant)%nGold -> Platinum (if you want to void power, but still have it do something useful)%n%n§3C=EU, BTW.
 
 # Quest.207 - §a§lTurret Base Tier 4
@@ -3042,7 +3042,7 @@ gtnh.quest759.desc=Polyethylene is made out of ethylene and oxygen in a chemical
 
 # Quest.760 - §6§lClay Electrolyzing
 gtnh.quest760.name=§6§lClay Electrolyzing
-gtnh.quest760.desc=If you looked through NEI you may have found out that electrolyzing clay dust will give you Alumina, Silicon, Sodium, and Lithium dust. And water, but you're probably just voiding that already, right? There's plenty of stained clay blocks found in canyon, mesa, lush desert biomes or several to a couple dozen on mountains that can be pulverized to clay dust.%n%nThere's more ways to get alumina now that you're in MV, enough that it's basically worthless by the time you get to EV.
+gtnh.quest760.desc=If you looked through NEI you may have found out that electrolyzing clay dust will give you Alumina, Silicon Dioxide, Sodium, and Lithium dust. And water, but you're probably just voiding that already, right? There's plenty of stained clay blocks found in canyon, mesa, lush desert biomes or several to a couple dozen on mountains that can be pulverized to clay dust.%n%nThere's more ways to get alumina now that you're in MV, enough that it's basically worthless by the time you get to EV.
 
 # Quest.761 - §6§lPowderbarrels
 gtnh.quest761.name=§6§lPowderbarrels
@@ -6486,7 +6486,7 @@ gtnh.quest1620.desc=Putting Benzene and Ethylene in the Chemical Reactor gives y
 
 # Quest.1621 - §c§lFluid TP for Magic-Haters
 gtnh.quest1621.name=§c§lFluid TP for Magic-Haters
-gtnh.quest1621.desc=Hate magic, but still want to TP fluids? TT has your back with the much slower (but also less laggy, maybe) Ender Fluid Link Cover!%n%nPlace one on a tank and open the GUI.%nColor: Links to same color.%n%nPublic: Links to any of the same color not set to private. Use an internet program to find out what the numbers mean, and get colors you like.%nPrivate: Does not link to public version of that color. Meaningless in SP.%n%nImport: Exports from attached tank.%nExport: Send to attached tank.%n%nYou can use multiple as inputs and/or outputs. Currently runs at 400L/t, regardless of what the wiki or code variable name says.%n%nYou can send §ofrom§r an output hatch or §oto§r an input hatch for multis. Probably won't work well for anything with multiple I/O, like a SB Chemical Reactor.
+gtnh.quest1621.desc=Hate magic (and fluid P2P), but still want to TP fluids? TT has your back with the Ender Fluid Link Cover!%n%nPlace one on a tank and open the GUI.%nColor: Links to same color.%n%nPublic: Links to any of the same color not set to private. Use an internet program to find out what the numbers mean, and get colors you like.%nPrivate: Does not link to public version of that color. Meaningless in SP.%n%nImport: Exports from attached tank.%nExport: Send to attached tank.%n%nYou can use multiple as inputs and/or outputs. It runs at 8000L/t.%n%nYou can send §ofrom§r an output hatch or §oto§r an input hatch for multis. Probably won't work well for anything with multiple I/O, like a SB Chemical Reactor.
 
 # Quest.1622 - §9§lRaw Styrene-Butadiene Rubber
 gtnh.quest1622.name=§9§lRaw Styrene-Butadiene Rubber
@@ -7276,8 +7276,8 @@ gtnh.quest1817.desc=To process more advanced materials like Cosmic Neutronium, T
 gtnh.quest1818.name=§6§lLarge Essentia Generator
 gtnh.quest1818.desc=Having one Essentia Generator per Essentia type seeems unpracticable.... Better make a Large Essentia Generator and burn all this Essentia in parallel! As another Bonus, this Generator produces 20x the Energy a Single Block Machine will produce. You might need more Magic Containment Casings than this Quest asks for.%n%n§4PS: This is apparently super buggy and may or may not work.
 
-# Quest.1819 - §6§l(no longer relevant) Circuit Programmer
-gtnh.quest1819.name=§6§l(no longer relevant) Circuit Programmer
+# Quest.1819 - §c§l[OUTDATED]§r Circuit Programmer
+gtnh.quest1819.name=§c§l[OUTDATED]§r Circuit Programmer
 gtnh.quest1819.desc=The Circuit Programmer is a useful tool that will enable you to program integrated circuits without having to deal with 24 different crafting recipes. Just charge it, put the Integrated Circuit in it and click on the Number you want it to be programmed to.§c
 
 # Quest.1820 - §6§lLapotronic Energy Storage Unit
@@ -10668,8 +10668,8 @@ gtnh.quest2665.desc=You've done it! This is the final (normal) circuit in the ga
 gtnh.quest2666.name=§c§lMagneto Resonatic Circuits
 gtnh.quest2666.desc=So, you may have been looking through NEI and seen a line of purple circuits from BW and wondered 'What are these, and when can I make them?'. Well, I don't know why they exist, but you can make them starting now!%n%nThey all use Imprint Supporting Boards, a type of crystal (change the dust to crystal with Neon or Krypton in an Autoclave, and then move up tiers with the Precision Laser Engraver), SMDs, and a §3circuit of the previous tier.§r So the material cost increases rather dramatically. They're made at a power tier +1 of the circuit's tier, so IV ones are made with LuV voltage.%n%nYou can even make UHV circuits if you're crazy enough! The UIV CA has no recipe, so you can't make the UEV ones, unfortunately.
 
-# Quest.2667 - Moar Powa! §c(replaced by new quest)
-gtnh.quest2667.name=Moar Powa! §c(replaced by new quest)
+# Quest.2667 - §c§l[OUTDATED]§r Moar Powa!
+gtnh.quest2667.name=§c§l[OUTDATED]§r Moar Powa!
 gtnh.quest2667.desc=So Helium is great and all, but have you tried Tin? Bigger and better fusion means greater power demands, not to mention all your other devices, so it might be time to upgrade.%n%nGood turbine options at this point are: small Trinium (larger ones will produce too much and cause an explosion, explosions bad), large Draconium, large Neutronium, large Oriharukon, and large Ichorium.
 
 # Quest.2668 - §6§lSomething From Nothing
@@ -10688,8 +10688,8 @@ gtnh.quest2670.desc=If you haven't made one before, go check out the quest in MV
 gtnh.quest2671.name=Data Bank
 gtnh.quest2671.desc=By now you probably feel overwhelmed with the number of data sticks needed for your assembly line. TecTech has a solution for you: The Data Bank. It allows you to store more than just 16 data sticks and can be connected to multiple Assembling Lines at the same time.%n%nPlace the controller one block above the ground and use the Multiblock Structure Hologram Projector to see how it is built. You will need a Maintenance Hatch and at least an EV Energy Hatch, though the power requirements can be much higher if you use many Data Access Hatches and Data Bank Master Connectors, so you might as well go for an LuV energy hatch, which will power a maxed one. Trying to run the Data Bank and then scanning the controller will tell you how much eu/t is needed.%n%n§rYou will need more blocks then what is asked for in this quest, as the number of Data Access Hatches and Connectors is up to you. You can have a maximum of 15 combined.%n%nThe Assembly Line Slave Connector replaces your old Data Access Hatch on the Assembling Line. Connect it to a Master Connector on the Data Bank with Optical Fiber Cable and make sure to color the hatches and the cable.%n%n§3If you can't figure out what blocks to place, pay attention to the tooltip in the bottom-left when using the Multiblock Structure Hologram Projector. In this case the filler blocks are Computer Casing.
 
-# Quest.2672 - Unlimited Power§c(replaced by new quest)
-gtnh.quest2672.name=Unlimited Power§c(replaced by new quest)
+# Quest.2672 - §c§l[OUTDATED]§r Unlimited Power
+gtnh.quest2672.name=§c§l[OUTDATED]§r Unlimited Power
 gtnh.quest2672.desc=With this new fusion reactor your new power option is...wait, Tin? Still? Well, this is embarrasing. Still, you could try other stuff if you want I guess? Remember that the Plasma Generator runs on Plasma, so only fluids with it in the name will work, even if they're made in the Fusion Reactor.%n%nFor turbines, you could try large/huge Trinium or large/huge Cosmic Neutronium.
 
 # Quest.2673 - Neutrons From Space
@@ -10716,8 +10716,8 @@ gtnh.quest2677.desc=The Auto Maintenance Hatch will correct maintenance problems
 gtnh.quest2678.name=Paint-by-Numbers
 gtnh.quest2678.desc=If you want to color all those fancy cables and such, you'll want to use the humble Paintbrush. To uncolor them, use a bucket of water.%n%nAlternatively, you can also use the IC2 Painter, GT Spray Can, or the AE2 Color Applicator.
 
-# Quest.2679 - It Produces HOW Much Power?§c(replaced by new quest)
-gtnh.quest2679.name=It Produces HOW Much Power?§c(replaced by new quest)
+# Quest.2679 - §c§l[OUTDATED]§r It Produces HOW Much Power?
+gtnh.quest2679.name=§c§l[OUTDATED]§r It Produces HOW Much Power?
 gtnh.quest2679.desc=Still not enough power? Try making turbines out of Awakened Draconium, Infinity Catalyst, or Infinity.%n%n§3Don't blame me if it explodes, try it out in creative first.%n%nAlso note that the Dynamo on the right is actually UHV.
 
 # Quest.2680 - §c§lMutating Things is Cool
