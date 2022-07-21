@@ -7276,9 +7276,9 @@ gtnh.quest1817.desc=To process more advanced materials like Cosmic Neutronium, T
 gtnh.quest1818.name=§6§lLarge Essentia Generator
 gtnh.quest1818.desc=Having one Essentia Generator per Essentia type seeems unpracticable.... Better make a Large Essentia Generator and burn all this Essentia in parallel! As another Bonus, this Generator produces 20x the Energy a Single Block Machine will produce. You might need more Magic Containment Casings than this Quest asks for.%n%n§4PS: This is apparently super buggy and may or may not work.
 
-# Quest.1819 - §c§l[OUTDATED]§r Circuit Programmer
-gtnh.quest1819.name=§c§l[OUTDATED]§r Circuit Programmer
-gtnh.quest1819.desc=The Circuit Programmer is a useful tool that will enable you to program integrated circuits without having to deal with 24 different crafting recipes. Just charge it, put the Integrated Circuit in it and click on the Number you want it to be programmed to.§c
+# Quest.1819 - §6§lSilicon Dioxide
+gtnh.quest1819.name=§6§lSilicon Dioxide
+gtnh.quest1819.desc=Get yourself some Silicon Dioxide! Smelting it in your EBF with some carbon is the best way to obtain raw silicon ingots. It is used it a few places but most importantly you can macerate it back down to raw silicon dust. You can also turn the silicon dioxide into raw silicon dust via chemical processes using aluminium or magnesium.%n%nYou can get silicon dioxide easily by centrifuging glass dust or electrolyzing sand.%n%nIf you have raw silicon dust but want silicon dioxide for some reason, you can use an arc furnace or an autoclave.
 
 # Quest.1820 - §6§lLapotronic Energy Storage Unit
 gtnh.quest1820.name=§6§lLapotronic Energy Storage Unit
@@ -10668,9 +10668,9 @@ gtnh.quest2665.desc=You've done it! This is the final (normal) circuit in the ga
 gtnh.quest2666.name=§c§lMagneto Resonatic Circuits
 gtnh.quest2666.desc=So, you may have been looking through NEI and seen a line of purple circuits from BW and wondered 'What are these, and when can I make them?'. Well, I don't know why they exist, but you can make them starting now!%n%nThey all use Imprint Supporting Boards, a type of crystal (change the dust to crystal with Neon or Krypton in an Autoclave, and then move up tiers with the Precision Laser Engraver), SMDs, and a §3circuit of the previous tier.§r So the material cost increases rather dramatically. They're made at a power tier +1 of the circuit's tier, so IV ones are made with LuV voltage.%n%nYou can even make UHV circuits if you're crazy enough! The UIV CA has no recipe, so you can't make the UEV ones, unfortunately.
 
-# Quest.2667 - §c§l[OUTDATED]§r Moar Powa!
-gtnh.quest2667.name=§c§l[OUTDATED]§r Moar Powa!
-gtnh.quest2667.desc=So Helium is great and all, but have you tried Tin? Bigger and better fusion means greater power demands, not to mention all your other devices, so it might be time to upgrade.%n%nGood turbine options at this point are: small Trinium (larger ones will produce too much and cause an explosion, explosions bad), large Draconium, large Neutronium, large Oriharukon, and large Ichorium.
+# Quest.2667 - §b§lKeep Soldering On!
+gtnh.quest2667.name=§b§lKeep Soldering On!
+gtnh.quest2667.desc=You have been using a very basic soldering alloy for a while now. Time for an upgrade! You will need it in your Assembling Line.
 
 # Quest.2668 - §6§lSomething From Nothing
 gtnh.quest2668.name=§6§lSomething From Nothing
@@ -10716,9 +10716,9 @@ gtnh.quest2677.desc=The Auto Maintenance Hatch will correct maintenance problems
 gtnh.quest2678.name=Paint-by-Numbers
 gtnh.quest2678.desc=If you want to color all those fancy cables and such, you'll want to use the humble Paintbrush. To uncolor them, use a bucket of water.%n%nAlternatively, you can also use the IC2 Painter, GT Spray Can, or the AE2 Color Applicator.
 
-# Quest.2679 - §c§l[OUTDATED]§r It Produces HOW Much Power?
-gtnh.quest2679.name=§c§l[OUTDATED]§r It Produces HOW Much Power?
-gtnh.quest2679.desc=Still not enough power? Try making turbines out of Awakened Draconium, Infinity Catalyst, or Infinity.%n%n§3Don't blame me if it explodes, try it out in creative first.%n%nAlso note that the Dynamo on the right is actually UHV.
+# Quest.2679 - Outsourcing the Soldering
+gtnh.quest2679.name=Outsourcing the Soldering
+gtnh.quest2679.desc=Soldering some of your new advanced materials is difficult. But maybe the new bio-technology you have developed can help? You should create a living solder that can do it for you! It will adjust to any challenge and join your materials at an atomic level filling all the gaps!%n%nUse your Botmium Chemical Plant to make this Mutated Living Solder. The catalyst recipe requires infinity, so best upgrade your chemical plant to Tungstensteel Coils and at least Awakened Draconium Coils to remove the durability loss on the catalyst.
 
 # Quest.2680 - §c§lMutating Things is Cool
 gtnh.quest2680.name=§c§lMutating Things is Cool
@@ -10786,7 +10786,7 @@ gtnh.quest2695.desc=So if you thought 'hey, the purple stuff wasn't that bad, wh
 
 # Quest.2696 - Beyond the Limit
 gtnh.quest2696.name=Beyond the Limit
-gtnh.quest2696.desc=Rugged Botmium Casings are currently completely optional, as well as being hard to make. They also don't do anything, other than return the CP back to a reasonable color, since there's no T7 recipes.%n%nYou can certainly figure out the rest by now, but the Advanced Nitinol may confuse you. You make it out of blocks of Nitinol 60 with a Quantum Anomaly in a Laser Engraver. This means you need to make the Cyclotron, and hit 2 1% chances in a row, so good luck with that!
+gtnh.quest2696.desc=To make living solder for your UEV components or bio-circuits, you will need a chem plant with Rugged Botmium Casings. These are not easy to make!%n%nYou can certainly figure out the rest by now, but the Advanced Nitinol may confuse you. You make it out of blocks of Nitinol 60 with a Quantum Anomaly in a Laser Engraver. This means you need to make a UV Cyclotron, and hit several low chances in a row, so good luck with that!
 
 # Quest.2697 - §5§lChlorine, Your New Best Friend
 gtnh.quest2697.name=§5§lChlorine, Your New Best Friend
@@ -10922,7 +10922,7 @@ gtnh.quest2729.desc=There are 3 machines crucial to doing this. You'll also need
 
 # Quest.2730 - Lasers Solve Everything
 gtnh.quest2730.name=Lasers Solve Everything
-gtnh.quest2730.desc=Laser hatches are a high-end way of sending lots of amps of power, so much in fact, that it starts at 32A. This goes 32/64/96/128/256+ and continues from there. They're also so powerful that only a few machines support them outside of the ever §owonderful§r TecTech: LSC, MEBF, MVF. and PSS. (Might be added in the future!) Remember to color both the Laser Vacuum Pipes, and the Source and Target Hatches. Also, Source = Output, Target = Input.%n%nLaser Converters are basically: Laser Source (on machine) -> Vacuum Pipes -> LC -> 5x output split into X amps, 32 for the first. Make sure to put it into recieve mode. Or do it the other way around if you want to go up, it's basically a transformer that converts laser to/from cables. You can also use them to turn the lasers if you don't mind 3x the loss on device output (and not sending all the amps) compared to the Active Transformer (because of loss on each output). Just remember to put a battery buffer in between if you want it to work.%n%n§3You can use the Low Power Laser Pipes if using a 'Low Power' Hatch or Converter, but keep in mind you'll need to connect them with wire cutters yourself after coloring them.
+gtnh.quest2730.desc=Laser hatches are a high-end way of sending lots of amps of power, so much in fact, that it starts at 32A. This goes 32/64/96/128/256+ and continues from there. They're also so powerful that only a few machines support them outside of the ever §owonderful§r TecTech: LSC, MEBF, MVF. and PSS. (Might be added in the future!) Remember to color both the Laser Vacuum Pipes, and the Source and Target Hatches. Also, Source = Output, Target = Input.%n%nLaser Converters are basically: Laser Source (on machine) -> Vacuum Pipes -> LC -> 5x output split into X amps, 32 for the first. Make sure to put it into recieve mode. Or do it the other way around if you want to go up, it's basically a transformer that converts laser to/from cables. You can also use them to turn the lasers if you don't mind 3x the loss on device output (and not sending all the amps) compared to the Active Transformer (because of loss on each output). Just remember to put a battery buffer in between if you want it to work.%n%n§3You can use the Low Power Laser Pipes if using a 'Low Power' Hatch or Converter, but keep in mind you'll need to connect them with wire cutters yourself after coloring them.%n%n§cBe careful with using very high ampere hatches as every Laser Hatch has 1EU/t per max. ampere passive power loss.
 
 # Quest.2731 - Transform and...Stay Put Actually
 gtnh.quest2731.name=Transform and...Stay Put Actually
@@ -11046,7 +11046,7 @@ gtnh.quest2760.desc=In addition to being a dehydrator multi, it's also a Vacuum 
 
 # Quest.2761 - Do I Really Need to Make This?
 gtnh.quest2761.name=Do I Really Need to Make This?
-gtnh.quest2761.desc=No, you don't. The main thing you would probably get out of it is the Quantum Anomaly for Advanced Nitinol.%n%n§3This multi is LuV.
+gtnh.quest2761.desc=Oh wait, yes, you actually need this now! That was supposed to be a rhetorical question!%n%nThe main thing you will probably get out of it is the Quantum Anomaly for Advanced Nitinol.%n%n§3This multi is LuV. But you don't need it until around UHV.
 
 # Quest.2762 - This is Not How You Get Into Space
 gtnh.quest2762.name=This is Not How You Get Into Space
@@ -12846,7 +12846,7 @@ gtnh.quest3210.desc=You probably have built a lot of Large Chemical Reactors by 
 
 # Quest.3211 - §6§lRaw Silicon Dust
 gtnh.quest3211.name=§6§lRaw Silicon Dust
-gtnh.quest3211.desc=Silicon is needed in all boule (and thus wafers, chips, and circuits) creation. Silicon is therefore an §oincredibly important material§r.%n%nWith your new electrolyzer you can obtain raw silicon dust from many different sources. Alternatively, you can also centrifuge redstone.%n%nIf you have silicon dioxide you can also smelt that in an EBF with carbon and crush the resulting ingots. Or process the silicon dioxide chemically with magnesium or aluminium to obtain raw silicon dust. You can get silicon dioxide is easily from glass dust or sand.
+gtnh.quest3211.desc=Silicon is needed in all boule (and thus wafers, chips, and circuits) creation. Silicon is therefore an §oincredibly important material§r.%n%nWith your new electrolyzer you can obtain raw silicon dust from many different sources. Alternatively, you can also centrifuge redstone. Or, you can also get your raw silicon from silicon dioxide.
 
 # Quest.3212 - §6§lSilicon Tetrachloride
 gtnh.quest3212.name=§6§lSilicon Tetrachloride
