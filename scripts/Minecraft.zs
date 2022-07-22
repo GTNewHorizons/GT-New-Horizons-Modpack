@@ -3283,7 +3283,7 @@ furnace.setFuel(<minecraft:wooden_pressure_plate>, 75);
 
 
 // --- Compressed Meteoric Steel Plates
-NEI.overrideName(<GalacticraftCore:item.meteoricIronIngot:1>, "Compressed Meteoric Steel Plate");
+NEI.overrideName(<GalacticraftCore:item.meteoricIronIngot:1>, "Compressed Meteoric Iron Plate");
 
 // --- Compressed Copper Plate
 NEI.overrideName(<GalacticraftCore:item.basicItem:6>, "Compressed Copper Plate");
