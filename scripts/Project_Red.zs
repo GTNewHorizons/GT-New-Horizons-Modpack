@@ -1379,11 +1379,11 @@ Assembler.addRecipe(<ProjRed|Expansion:projectred.expansion.plan>, <gregtech:gt.
 
 
 // --- Null Logic Routing Chip
-CircuitAssembler.addRecipe(<ProjRed|Core:projectred.core.part:44> * 4, [<ProjRed|Core:projectred.core.part> * 4, <ore:circuitBasic>, <ore:wireGt01Gold> * 6], <liquid:molten.lead> * 144, 600, 30);
+CircuitAssembler.addRecipe(<ProjRed|Core:projectred.core.part:44> * 4, [<ProjRed|Core:projectred.core.part> * 4, <ore:circuitBasic>, <ore:wireGt01Gold> * 4], <liquid:molten.lead> * 144, 600, 30);
 // -
-CircuitAssembler.addRecipe(<ProjRed|Core:projectred.core.part:44> * 4, [<ProjRed|Core:projectred.core.part> * 4, <ore:circuitBasic>, <ore:wireGt01Gold> * 6], <liquid:molten.tin> * 72, 600, 30);
+CircuitAssembler.addRecipe(<ProjRed|Core:projectred.core.part:44> * 4, [<ProjRed|Core:projectred.core.part> * 4, <ore:circuitBasic>, <ore:wireGt01Gold> * 4], <liquid:molten.tin> * 72, 600, 30);
 // -
-CircuitAssembler.addRecipe(<ProjRed|Core:projectred.core.part:44> * 4, [<ProjRed|Core:projectred.core.part> * 4, <ore:circuitBasic>, <ore:wireGt01Gold> * 6], <liquid:molten.solderingalloy> * 36, 600, 30);
+CircuitAssembler.addRecipe(<ProjRed|Core:projectred.core.part:44> * 4, [<ProjRed|Core:projectred.core.part> * 4, <ore:circuitBasic>, <ore:wireGt01Gold> * 4], <liquid:molten.solderingalloy> * 36, 600, 30);
 
 // --- Item Responder Chip
 CircuitAssembler.addRecipe(<ProjRed|Transportation:projectred.transportation.routingchip>, [<ProjRed|Core:projectred.core.part:44>, <ore:circuitGood>, <ore:plateCopper>, <ore:wireGt01RedAlloy> * 2, <ProjRed|Core:projectred.core.part:20> * 2], <liquid:molten.lead> * 144, 900, 30);
