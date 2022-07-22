@@ -8442,7 +8442,7 @@ gtnh.quest2109.desc=This database tracks all your knowledge of butterflies.%n%nB
 
 # Quest.2110 - §6§lSpeeding Up Slow Machines
 gtnh.quest2110.name=§6§lSpeeding Up Slow Machines
-gtnh.quest2110.desc=Many mods don't have methods of speeding up their slow machines. For this, you'll need a GregTech World Accelerator. It guzzles amps though, so your power infrastructure better be ready for it. The tooltip will list the performance boost provided. For block-based acceleration, the WA will do an area around it. For TileEntities like most machines, it will only accelerate the blocks directly touching the WA, and will need to be reconfigured with a screwdriver. This uses twice the power though.%n%n§4This does not work with GregTech machines!§r For those, build more or higher tier ones.%n%nIf you want, you can change the level of acceleration by using a wrench on it. It will go back to the minimum, then increase one tier from there for every usage. It will use that tier's amount of power (and acceleration), increasing as per GT standard of 2x speed (acceleration) and 4x EU per tier.%n%n§3Even though it says 8A, this is just what it can accept, not what it uses. It's 3A in block mode, and 6A in TE mode.
+gtnh.quest2110.desc=Many mods don't have methods of speeding up their slow machines. For this, you'll need a GregTech World Accelerator. It guzzles amps though, so your power infrastructure better be ready for it. The tooltip will list the performance boost provided. For block-based acceleration, the WA will do an area around it. For TileEntities like most machines, it will only accelerate the blocks directly touching the WA, and will need to be reconfigured with a screwdriver. This uses twice the power though.%n%n§4This does not work with GregTech machines!§r For those, build more or higher tier ones.%n%nIf you want, you can change the level of acceleration by using a wrench on it. It will go back to the minimum, then increase one tier from there for every usage. It will use that tier's amount of power (and acceleration), increasing as per GT standard of 2x speed (acceleration) and 4x EU per tier.
 
 # Quest.2111 - Hail to the King
 gtnh.quest2111.name=Hail to the King
@@ -10406,7 +10406,7 @@ gtnh.quest2600.desc=To make the Circuit Assembly Line imprints you'll need a bun
 
 # Quest.2601 - §c§l§6§e§6§lCircuit Assembly Line
 gtnh.quest2601.name=§c§l§6§e§6§lCircuit Assembly Line
-gtnh.quest2601.desc=You'll need all of this to create 4 CALs, enough for a single series of circuits. If you only want one (for the microprocessors for example), just divide by 4.%n%nAssuming you got the necessary imprints on the LuV tab, you can now craft the CALs for the crystalprocessor series. We're starting with 4 since you'll need one per circuit, the imprint is not removable. And yes this means you need one for every circuit type you want to make with the CAL.%n%nAs an Assembly Line, it generally works like the normal one, with different items in each bus, but since it's only one item per CAL, it's far easier to use, and the recipe is cheaper too.%n%nThe CAL uses 'wraps' to make 16 of a circuit at a time (aside from ULV and LV circuits), saving you time, EU, and Soldering Alloy. You make the wraps in an Assembler with 16 of the item and Polyethylene.%n%n§3BTW you can change out the Input Hatch and the Energy Hatch, but the I/O busses need to be ULV.
+gtnh.quest2601.desc=You'll need all of this to create 4 CALs, enough for a single series of circuits. If you only want one (for the microprocessors for example), just divide by 4.%n%nAssuming you got the necessary imprints on the LuV tab, you can now craft the CALs for the crystalprocessor series. We're starting with 4 since you'll need one per circuit, the imprint is not removable. And yes this means you need one for every circuit type you want to make with the CAL.%n%nAs an Assembly Line, it generally works like the normal one, with different items in each bus, but since it's only one item per CAL, it's far easier to use, and the recipe is cheaper too.%n%nThe CAL uses 'wraps' to make 16 of a circuit at a time (aside from ULV and LV circuits), saving you time, EU, and Soldering Alloy. You make the wraps in an Assembler with 16 of the item and Polyethylene.%n%n§3BTW you can change out the Hatches and Busses for better ones, but you still need to keep ingredient order. Also CAL grants perfect overclock.
 
 # Quest.2602 - §c§lImprints, They're Important
 gtnh.quest2602.name=§c§lImprints, They're Important
@@ -10606,7 +10606,7 @@ gtnh.quest2650.desc=To make Wetware Circuits, you'll need to make a Wetware Life
 
 # Quest.2651 - This is Not How You Make Cheese
 gtnh.quest2651.name=This is Not How You Make Cheese
-gtnh.quest2651.desc=In order to make Wetware circuits, you'll need Sterilized Growth Medium and Stemcells, so let's get started on those, ok?%n%nTo get anywhere, first you need Bacteria. You can get this through the vat or the brewing machine. If you do it the vat way, you'll need to use Bismuth rods for the radiation, and have EV-tier glass. There are also 3 recipes, so you can use a higher tier one later if you like. You can also make liquid Growth Medium the same way. The vat way is more item-efficient, but more complicated.%n%nYou'll also need Mince Meat and Agar. You'll want a stable supply of meat, so something like the a fish farm, a standard animal farm, or IC2 Meatrose or Goldfish is probably best.%n%nAgar has a more complicated processing chain, but it's nothing compared to Platinum. You'll need even more meat for it.%n%nUse some of the Bacteria to create an Ova Evolutionis culture (15% chance), and then use that in the vat's controller to make Raw Growth Medium. You'll need IV-tier glass, and Uranium rods. There are also higher tier recipes.%n%n§3Cultures are not consumed when used in the vat.
+gtnh.quest2651.desc=In order to make Wetware circuits, you'll need Sterilized Growth Medium and Stemcells, so let's get started on those, ok?%n%nTo get anywhere, first you need Bacteria. You can get this through the vat or the brewing machine. Vat way is more efficient, but you need culture for it so you first need to do brewing way. Vat needs Bismuth rods for radiation and EV-tier glass. There are also 3 recipes, so you can use a higher tier one later if you like.%n%nYou'll also need Mince Meat and Agar. You'll want a stable supply of meat, so something like the a fish farm, a standard animal farm, or IC2 Meatrose or Goldfish is probably best.%n%nAgar has a more complicated processing chain, but it's nothing compared to Platinum. You'll need even more meat for it.%n%nUse some of the Bacteria to create an Ova Evolutionis culture (15% chance), and then use that in the vat's controller to make Raw Growth Medium. You'll need IV-tier glass, and Uranium rods. There are also higher tier recipes.%n%n§3Cultures are not consumed when used in the vat.
 
 # Quest.2652 - Intelligent Circuits
 gtnh.quest2652.name=Intelligent Circuits
@@ -11678,11 +11678,11 @@ gtnh.quest2918.desc=Like before, you're going to need better rods for your motor
 
 # Quest.2919 - Enriched Naquadah Ingot
 gtnh.quest2919.name=Enriched Naquadah Ingot
-gtnh.quest2919.desc=Ah, you made it.%n%nYou can choose to smelt it with zinc in EBF or electrolyze it. Of course I will electrolyze it because zinc is more useful than enriched naquadah if I were you.
+gtnh.quest2919.desc=Ah, you made it.%n%nYou can choose to smelt it with zinc in EBF or electrolyze it. Either is fine but you can fully recycle Zinc so EBF is better if you want ingot.
 
 # Quest.2920 - Enriched Naquadah Time
 gtnh.quest2920.name=Enriched Naquadah Time
-gtnh.quest2920.desc=Enriched naquadah line is much more shorter than naquadah line, and easier. Basically, the only use of enriched naquadah is for fuel, so if you don't want to build a line for it, just ignore this quest.
+gtnh.quest2920.desc=Enriched naquadah line is much more shorter than naquadah line, and easier. It's used for fuel or Neuro Processing Unit which is UV content, so if you don't want to build a line for it, just ignore this quest.
 
 # Quest.2921 - §c§lEther Strike!
 gtnh.quest2921.name=§c§lEther Strike!
@@ -11786,7 +11786,7 @@ gtnh.quest2945.desc=Now, let's neutralize the solution.
 
 # Quest.2946 - Recycle Trinium
 gtnh.quest2946.name=Recycle Trinium
-gtnh.quest2946.desc=I think you just yeet the enriched naquadah and keep the trinium. lol%n%nYou can get the trinium dust by reacting it with hydrogen in LCR or electrolyze it if you don't care the loss.
+gtnh.quest2946.desc=You can get the Trinium dust by reacting it with Hydrogen in LCR or electrolysis.
 
 # Quest.2947 - Linear Accelerator
 gtnh.quest2947.name=Linear Accelerator
@@ -12362,7 +12362,7 @@ gtnh.quest3089.desc=It's painful to carry all the tools in your inventory. You c
 
 # Quest.3090 - §6§lPrecise Assembler
 gtnh.quest3090.name=§6§lPrecise Assembler
-gtnh.quest3090.desc=Precise Assembler has two modes: Precise mode and Normal mode.%n%nPrecise mode is used to make some of the advanced components from Good Generator mod.%n%nNormal mode works as multiblock version of Assembler.
+gtnh.quest3090.desc=Precise Assembler has two modes: Precise mode and Normal mode.%n%nPrecise mode is used to make some of the advanced components from Good Generator mod.%n%nNormal mode works as multiblock version of Assembler.%n%n§3You can't skip tiers with this. You need singleblock Assembler or GT++ multi to make your first Energy Hatch, then you can use it for Precise Assembler.
 
 # Quest.3091 - §l§c§lSun Fusion
 gtnh.quest3091.name=§l§c§lSun Fusion
