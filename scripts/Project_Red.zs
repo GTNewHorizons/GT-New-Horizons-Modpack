@@ -1334,7 +1334,7 @@ Assembler.addRecipe(<ProjRed|Transportation:projectred.transportation.pipe>, <TC
 Assembler.addRecipe(<ProjRed|Transportation:projectred.transportation.pipe>, <minecraft:glass_pane>, <gregtech:gt.metaitem.02:22032> * 2, 100, 30);
 
 // --- Routed Junction Pipes
-Assembler.addRecipe(<ProjRed|Transportation:projectred.transportation.pipe:1> * 4, [<ProjRed|Transportation:projectred.transportation.pipe> * 4, <ProjRed|Core:projectred.core.part:13> * 2, <ore:plateAluminium>], null, 800, 30);
+Assembler.addRecipe(<ProjRed|Transportation:projectred.transportation.pipe:1> * 4, [<ProjRed|Transportation:projectred.transportation.pipe> * 4, <ProjRed|Core:projectred.core.part:13> * 2, <ore:boltAluminium> * 4], null, 800, 30);
 
 // --- Routed Interface Pipe
 Assembler.addRecipe(<ProjRed|Transportation:projectred.transportation.pipe:2>, <ProjRed|Transportation:projectred.transportation.pipe:1>, <gregtech:gt.metaitem.01:17086>, <liquid:molten.redstone> * 144, 400, 30);
