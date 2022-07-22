@@ -414,7 +414,7 @@ gtnh.quest102.desc=An absolutely mandatory machine to have. It will cut rods int
 
 # Quest.103 - §5§lGetting Ready for Tier 2, MV
 gtnh.quest103.name=§5§lGetting Ready for Tier 2, MV
-gtnh.quest103.desc=In order to proceed forward, you need to get aluminium. A lot of it. But for now, ten is enough to complete this quest. Probably the best source for alumina is clay or hardened clay from canyons, however you need an MV machine for that, so you need to find an alternative until you have enough dust for your initial setup. Check back in your Tier 0 quests for hints.%n%nYou'll need to do the EBF quest in Multiblock Goals to turn the dust into ingots. If you can't find how to get nickel, go visit the Twilight Forest, where Cryolite is found as well. Go and find a new Galena vein.%n%nBy the time you've completed this, you'll probably be done with most of the tab, but you'll still need Good (MV) circuits to actually open up the next tier if you haven't done that yet.%n%n§3Also check the Armor and Jetpacks tab for new unlocks.%nNote: If you were exploring Twilight Forest before 2.1.1.4 you won't find any cryolite in existing veins. You'll need to explore new chunks.%nCheck out the the Lead, Galena, Silver and Cryolite quest in the Novice Thaumaturgy Tab.
+gtnh.quest103.desc=In order to proceed forward, you need to get aluminium. A lot of it. But for now, 8 is enough to complete this quest.%n%nYour first option is alumina dust. Probably the best source for alumina is clay or hardened clay from canyons, however you need an MV machine for that, so you need to find an alternative until you have enough dust for your initial setup. For now, you can get it by centrifuging various impure piles from your ores or by smelting ruby, sapphire, or green sapphire in an EBF with carbon. Check the EBF quest in the Multiblock Goals.%n%nYou will also an EBF to turn the alumina into aluminium ingots. For that you also need cryolite. Go visit the Twilight Forest for that and find a Galena vein.%n%nYour second option is to use aluminium dust. However, you can not smelt that directly yet, even if you have an EBF. That will require higher heat levels. For now, you will have to either use a Tinker's Smeltery or a GT Compressor to turn the dust into raw aluminium which you can then smelt into ingots in the EBF. Check out the Tier 0 quest for some options to obtain the dust. %n%nBy the time you've completed this, you'll probably be done with most of the tab, but you'll still need Good Circuits (MV) to actually open up the next tier if you haven't done that yet.%n%n§3Also check the Armor and Jetpacks tab for new unlocks.%nNote: If you were exploring Twilight Forest before 2.1.1.4 you won't find any cryolite in existing veins. You'll need to explore new chunks.%nCheck out the the Lead, Galena, Silver and Cryolite quest in the Novice Thaumaturgy Tab.
 
 # Quest.104 - §5§lYour Magic Progression
 gtnh.quest104.name=§5§lYour Magic Progression
@@ -2202,7 +2202,7 @@ gtnh.quest549.desc=By adding hydrogen to sulfuric light fuel in a chemical react
 
 # Quest.550 - §5§lH for Hydrogen... the Rest of the Alphabet is Too Complicated...
 gtnh.quest550.name=§5§lH for Hydrogen... the Rest of the Alphabet is Too Complicated...
-gtnh.quest550.desc=Centrifuge some brown or yellow limonite dust, or use an Electrolyser with water to get some hydrogen.
+gtnh.quest550.desc=Centrifuge some brown or yellow limonite dust, or use an Electrolyser with water to get some hydrogen.%n%nThere are many other ways of obtaining hydrogen which you might want to look into. Some are only available much later.%n%nExamples are: chemical processing or electrolysis of methane obtained from organic sources, electrolysis of water or salt water, mixing sodium with water, or eventually siphoning hydrogen directly from a gas giant.
 
 # Quest.551 - §5§lHeavy Sulfuric Fuel
 gtnh.quest551.name=§5§lHeavy Sulfuric Fuel
@@ -3762,7 +3762,7 @@ gtnh.quest939.desc=Your hoe must be getting worn out by now. Why not craft an el
 
 # Quest.940 - §6§lCleanroom
 gtnh.quest940.name=§6§lCleanroom
-gtnh.quest940.desc=If you want to make more advanced (also cheaper!) circuits you'll need a cleanroom. The cleanroom is a multiblock between 3x4x3 and 15x15x15 (WxHxL) blocks. Besides plascrete blocks for all edges you'll need a controller in the top center, filter machine casings for the rest of the top except edges, an energy and maintenance hatch, a reinforced door (yes, this is always needed) and machine hulls if you want to automate. These are optional, for now, use them for power input, item input, and item output. Tier does not affect item transfer, so use the cheapest ones for that.%n%nLet's build a 5x5x5 room. Expanding it vertically is easy to do, or you can make it wider and longer, as long as both X and Z match and are odd. Up to 5% of the plascrete blocks can be replaced with Reinforced Glass to see into the cleanroom and check on machines.%n%nYou can pass materials through the walls using Machine Hulls. You can pass 1A of power using a Machine Hull as well, or you can use Diodes to pass multiple amps through.%n%nJust be really careful when upgrading your machines. Be sure to remove the machine hulls and diodes and replace them with the new power tier, or else you will be very sad. You don't need to do this for ones you only use to pass items through.%n%nIf the Cleanroom has maintenance issues, it will have a chance to void recipes needing a cleanroom (10% per maint issue!). Monitor your cleanroom with a Hand Scanner, Industrial Information Panel, or using a Needs Maintenance Cover and a Redstone Powered Light or Howler Alarm.%n%nAdditionally, the longer the door is open, the lower the efficiency will get, which has a direct correlation to recipe voiding. So open the door as little as possible! There are ways around this though, for example, with an elevator or travel anchor, you never actually need to open the door!%n%n§3Multiblocks such as the LCR, LPF, or PA count as cleanrooms, so you don't need to put them in one. You cannot use the bio lab in a PA, so you'll still need the cleanroom later on.%n%nOther helpful hints include: generating power inside the cleanroom, using a wireless connector for AE or a transvector interface to skip machine hulls, and that you can use higher tier energy hatches to reach 100% efficiency faster (does not use more power once at 100%).
+gtnh.quest940.desc=If you want to make more advanced (also cheaper!) circuits you'll need a cleanroom. The cleanroom is a multiblock between 3x4x3 and 15x15x15 (WxHxL) blocks. Besides plascrete blocks for all edges you'll need a controller in the top center, filter machine casings for the rest of the top except edges, an energy and maintenance hatch, a reinforced door (yes, this is always needed) and machine hulls if you want to automate. These are optional, for now, use them for power input, item input, and item output. Tier does not affect item transfer, so use the cheapest ones for that.%n%nLet's build a 5x5x5 room. Expanding it vertically is easy to do, or you can make it wider and longer, as long as both X and Z match and are odd. Up to 5% of the plascrete blocks can be replaced with Reinforced Glass to see into the cleanroom and check on machines.%n%nYou can pass materials through the walls using Machine Hulls. You can pass 1A of power using a Machine Hull as well, or you can use Diodes to pass multiple amps through.%n%nJust be really careful when upgrading your machines. Be sure to remove the machine hulls and diodes and replace them with the new power tier, or else you will be very sad. You don't need to do this for ones you only use to pass items through.%n%nIf the Cleanroom has maintenance issues, it will have a chance to void recipes needing a cleanroom (10% per maint issue!). Monitor your cleanroom with a Hand Scanner, Industrial Information Panel, or using a Needs Maintenance Cover and a Redstone Powered Light or Howler Alarm.%n%nAdditionally, the longer the door is open, the lower the efficiency will get, which has a direct correlation to recipe voiding. So open the door as little as possible! There are ways around this though, for example, with an elevator or travel anchor, you never actually need to open the door!%n%n§3Multiblocks such as the LCR, LPF, or PA count as cleanrooms, so you don't need to put them in one. You cannot use the bio lab in a PA, so you'll still need the cleanroom later on.%n%nOther helpful hints include: using a wireless connector for AE or a transvector interface to skip machine hulls, and that you can use higher tier energy hatches to reach 100% efficiency faster (does not use more power once at 100%).%n%n§cKeep in mind that you cannot use anything in the cleanroom that causes pollution or it will break down.
 
 # Quest.941 - §6§lA Very Useful Scanner
 gtnh.quest941.name=§6§lA Very Useful Scanner
@@ -4798,7 +4798,7 @@ gtnh.quest1198.desc=A mark II is nice, but why not make a mark III? %n%nIt will 
 
 # Quest.1199 - Making Americium
 gtnh.quest1199.name=Making Americium
-gtnh.quest1199.desc=Before you can upgrade your reactor, you will need to get some americium. The recipe will look pretty expensive, but once you made the next tier of reactor, you will unlock a simpler and cheaper one. You will need at least 128 plates for the reactor casings, 9 to scan for the recipe, and 4 to build one.
+gtnh.quest1199.desc=To upgrade your reactor further and to make UV motors, you will need to get some americium. The recipe is pretty expensive, but once you made the next tier of reactor, you will unlock a simpler and cheaper one. However, to get there you will need a lot of americium already, so better make sure you are producing enough lutetium.%n%nLet's start with just 48 ingots. Enough for a single UV motor.
 
 # Quest.1200 - §d§l§f§c§lMaking Power With Your Plasma
 gtnh.quest1200.name=§d§l§f§c§lMaking Power With Your Plasma
@@ -5650,7 +5650,7 @@ gtnh.quest1411.desc=Platinum, Palladium, Iridium and Osmium can be extracted wit
 
 # Quest.1412 - §6§lAssembling Line
 gtnh.quest1412.name=§6§lAssembling Line
-gtnh.quest1412.desc=The assembling line (or 'Assline') is an important machine for high tier components in LuV tier and above for making Motors, Pistons, Robot Arms, Pumps and many more.%n%nThe multiblock can be 5-16 blocks long. The minimum length required depends on the number of components and fluids required by the recipe it's crafting. A length of 11 blocks will fit 80 percent of all recipes in GTNH.%n%nThe bottom layer must have on one outer side all the Input Hatches for fluids (4), in the bottom middle layer Input Busses for items (10), and on the end 1 Output Bus. Also on the bottom outer layer must be one Maintainance Hatch. The rest is Solid Steel Machine Casings.%n%nThe second layer on the outer sides left and right are Reinforced Glass and in the middle center Assembling Line Casing.%n%nThe third layer has on the left and right Grate Machine Casings and in the middle Assembler Machine Casings (Note the name change!). The Assembling Line control block and Data Access Hatch are on the opposite edge from the Input Hatches - not at the end with the Output Bus.%n%nThe fourth layer is a single line of Solid Steel Machine Casings in the middle (11), with two Energy Hatches for power. Once you have it built, you can replace the two IV energy hatches with 1 LuV energy hatch.%n%nAutomating the assline is God tier GTNH endgame. While it can be done with EnderIO, it's easier to use SFM or OpenComputers.%n%nFor more details on using the Assembly Line, check out the wiki page https://tinyurl.com/GTNH-Assline%n%n§3BTW the input busses are ULV to help with your automating, if you don't want to automate it, you can use higher tier ones, unlike the CAL.
+gtnh.quest1412.desc=The Assembling Line (or 'Assline') is an important machine for high tier components in LuV tier and above for making Motors, Pistons, Robot Arms, Pumps and many more.%n%nThe multiblock can be 5-16 blocks long. The minimum length required depends on the number of components and fluids required by the recipe it's crafting. A length of 11 blocks will fit 80 percent of all recipes in GTNH.%n%nThe bottom layer must have on one outer side all the Input Hatches for fluids (4), in the bottom middle layer Input Busses for items (10), and on the end 1 Output Bus. Also on the bottom outer layer must be one Maintainance Hatch. The rest is Solid Steel Machine Casings.%n%nThe second layer on the outer sides left and right are Reinforced Glass and in the middle center Assembling Line Casing.%n%nThe third layer has on the left and right Grate Machine Casings and in the middle Assembler Machine Casings (Note the name change!). The Assembling Line control block and Data Access Hatch are on the opposite edge from the Input Hatches - not at the end with the Output Bus.%n%nThe fourth layer is a single line of Solid Steel Machine Casings in the middle (11), with two Energy Hatches for power. Once you have it built, you can replace the two IV energy hatches with 1 LuV energy hatch.%n%nAutomating the assline is a difficult challenge! You can used advanced tooles like SFM or OpenComputers, but maybe you can figure out how to do it with Enderio or just AE2.%n%nFor more details on using the Assembly Line, check out the wiki page https://tinyurl.com/GTNH-Assline%n%n§3BTW the input busses are ULV to help with your automating, if you don't want to automate it, you can use higher tier ones, unlike the CAL.%n%nYou can have up to 16 input busses. If you use the full 16 you should put the output bus to the side.
 
 # Quest.1413 - §b§lYou're Gonna Hate This 1-4 in IV
 gtnh.quest1413.name=§b§lYou're Gonna Hate This 1-4 in IV
@@ -10626,7 +10626,7 @@ gtnh.quest2655.desc=The Wetware Supercomputer is a UV Circuit.%n%nYou'll need a 
 
 # Quest.2656 - Wetware Mainframe
 gtnh.quest2656.name=Wetware Mainframe
-gtnh.quest2656.desc=The Wetware Mainframe is the final Wetware Circuit, and it is the first UHV Circuit you can get.%n%nIt's made in the Assembly Line, so there's no imprint.
+gtnh.quest2656.desc=The Wetware Mainframe is the final Wetware Circuit, and it is the first UHV Circuit you can get.%n%nIt's made in the Assembling Line, so there's no imprint.
 
 # Quest.2657 - It's Not Going Bad, I Swear!
 gtnh.quest2657.name=It's Not Going Bad, I Swear!
@@ -11678,19 +11678,19 @@ gtnh.quest2918.desc=Like before, you're going to need better rods for your motor
 
 # Quest.2919 - Enriched Naquadah Ingot
 gtnh.quest2919.name=Enriched Naquadah Ingot
-gtnh.quest2919.desc=Ah, you made it.%n%nYou can choose to smelt it with zinc in EBF or electrolyze it. Either is fine but you can fully recycle Zinc so EBF is better if you want ingot.
+gtnh.quest2919.desc=Ah, you made it.%n%nYou can choose to smelt it with zinc in an EBF or electrolyze it. Either is fine but you can fully recycle the zinc, so the EBF recipe is better if you want the ingot.
 
 # Quest.2920 - Enriched Naquadah Time
 gtnh.quest2920.name=Enriched Naquadah Time
-gtnh.quest2920.desc=Enriched naquadah line is much more shorter than naquadah line, and easier. It's used for fuel or Neuro Processing Unit which is UV content, so if you don't want to build a line for it, just ignore this quest.
+gtnh.quest2920.desc=The enriched naquadah line is much shorter than the naquadah line, and easier. It's used for fuel or Neuro Processing Units which are UV content, so if you don't want to build a line for it, just ignore these quests.
 
 # Quest.2921 - §c§lEther Strike!
 gtnh.quest2921.name=§c§lEther Strike!
-gtnh.quest2921.desc=The naquadah is so inert that most acid won't react with it, so you need a more powerful kind of acid to dissolve it.%n%nLet's prepare some necessary organic solvent to make the acid.
+gtnh.quest2921.desc=The naquadah is so inert that most acids won't react with it, so you need a more powerful kind of acid to dissolve it.%n%nLet's prepare some necessary organic solvent to make the acid.
 
-# Quest.2922 - §c§lAntimony And Chlorine
-gtnh.quest2922.name=§c§lAntimony And Chlorine
-gtnh.quest2922.desc=Now put the antimony, chlorine and ether in LCR to get antimony trichloride solution.
+# Quest.2922 - §c§lAntimony and Chlorine
+gtnh.quest2922.name=§c§lAntimony and Chlorine
+gtnh.quest2922.desc=Now put the antimony, chlorine and ether in a LCR to get antimony trichloride solution.
 
 # Quest.2923 - §c§lRecycle Fluorine
 gtnh.quest2923.name=§c§lRecycle Fluorine
@@ -11698,11 +11698,11 @@ gtnh.quest2923.desc=Fluorine is one of the most important resources. You can rec
 
 # Quest.2924 - §c§lMore Chlorine
 gtnh.quest2924.name=§c§lMore Chlorine
-gtnh.quest2924.desc=Oh god why I can't get it in one step.
+gtnh.quest2924.desc=Oh god, why can't I get it in one step.
 
 # Quest.2925 - §c§lSeparate Solvent
 gtnh.quest2925.name=§c§lSeparate Solvent
-gtnh.quest2925.desc=Distill the antimony pentachloride solution to get the pure antimony pentachloride liquid, and you can recycle §c§6ALL§r ether.
+gtnh.quest2925.desc=Distill the antimony pentachloride solution to get the pure antimony pentachloride liquid. You can recycle §c§6ALL§r of the ether.
 
 # Quest.2926 - §c§lFracture Chlorine
 gtnh.quest2926.name=§c§lFracture Chlorine
@@ -11710,7 +11710,7 @@ gtnh.quest2926.desc=The fluorine atom has higher electronegativity, so it will r
 
 # Quest.2927 - §c§lKing of Acid
 gtnh.quest2927.name=§c§lKing of Acid
-gtnh.quest2927.desc=This is the fluoroantimonic acid, the strongest acid in the world currently. It can dissolve almost everything on earth, so it is the best choice to dissolve our NOM dust.%n%nOf course there are something the fluoroantimonic acid can't deal with, like the "Empty Cell". x)
+gtnh.quest2927.desc=This is the fluoroantimonic acid, the strongest acid in the world currently. It can dissolve almost everything on earth, so it is the best choice to dissolve our NOM dust.%n%nOf course there are some things the fluoroantimonic acid can't deal with, like the "Empty Cell". x)
 
 # Quest.2928 - §c§lEBF Time
 gtnh.quest2928.name=§c§lEBF Time
@@ -11738,11 +11738,11 @@ gtnh.quest2933.desc=You have three choices to deal with it.%n%n1) Electrolyze it
 
 # Quest.2934 - §c§lAnother Solvent
 gtnh.quest2934.name=§c§lAnother Solvent
-gtnh.quest2934.desc=Why it needs seed oil?
+gtnh.quest2934.desc=Why does it need seed oil?
 
 # Quest.2935 - §c§lP-507
 gtnh.quest2935.name=§c§lP-507
-gtnh.quest2935.desc=This solvent can be 100% recycled in naquadah process line, so don't make a line for it.
+gtnh.quest2935.desc=This solvent can be 100% recycled in the naquadah process line, so don't make a line for it.
 
 # Quest.2936 - §6§lNeutron Activator
 gtnh.quest2936.name=§6§lNeutron Activator
@@ -11762,7 +11762,7 @@ gtnh.quest2939.desc=If you failed to meet the NKE as NEI requested, you can recy
 
 # Quest.2940 - §c§lSeparation
 gtnh.quest2940.name=§c§lSeparation
-gtnh.quest2940.desc=WHY IT COMES BACK AGAINNNNN? ! ! !
+gtnh.quest2940.desc=IT COMES BACK AGAINNNNN? ! ! !
 
 # Quest.2941 - §c§lAlmost Success
 gtnh.quest2941.name=§c§lAlmost Success
@@ -11770,7 +11770,7 @@ gtnh.quest2941.desc=Now you only have to subside the naquadah from the solution.
 
 # Quest.2942 - §c§lNaquadah Dust
 gtnh.quest2942.name=§c§lNaquadah Dust
-gtnh.quest2942.desc=You can directly get naquadah dust in chemical reactor.
+gtnh.quest2942.desc=You can directly get naquadah dust in a chemical reactor.
 
 # Quest.2943 - §c§lNaquadah Ingot
 gtnh.quest2943.name=§c§lNaquadah Ingot
@@ -11778,7 +11778,7 @@ gtnh.quest2943.desc=If you want ingots, you can smelt it in EBF with carbon.
 
 # Quest.2944 - §c§lSilicon Boule
 gtnh.quest2944.name=§c§lSilicon Boule
-gtnh.quest2944.desc=You can also use naquadahine dust directly make Silicon Boule in EBF, which takes less time than naquadah dust.
+gtnh.quest2944.desc=You can also use naquadahine dust directly to make a Silicon Boule in the EBF. It takes less time than with naquadah ingots.
 
 # Quest.2945 - Concentration
 gtnh.quest2945.name=Concentration
@@ -11786,7 +11786,7 @@ gtnh.quest2945.desc=Now, let's neutralize the solution.
 
 # Quest.2946 - Recycle Trinium
 gtnh.quest2946.name=Recycle Trinium
-gtnh.quest2946.desc=You can get the Trinium dust by reacting it with Hydrogen in LCR or electrolysis.
+gtnh.quest2946.desc=You can get the Trinium dust by reacting it with Hydrogen in LCR or from electrolysis.
 
 # Quest.2947 - Linear Accelerator
 gtnh.quest2947.name=Linear Accelerator
@@ -11802,7 +11802,7 @@ gtnh.quest2949.desc=So it is a circle?
 
 # Quest.2950 - N.N.Q.Q.N.Q.Q
 gtnh.quest2950.name=N.N.Q.Q.N.Q.Q
-gtnh.quest2950.desc=Do you wanna some naquadria?%n%nUnfortunately, the naquadria dust has become repulsive naquadria oxide mixture dust because of NERF. You have to build a line for it like the naquadah.
+gtnh.quest2950.desc=Do you want some naquadria?%n%nUnfortunately, the naquadria dust has become repulsive naquadria oxide mixture dust because of a NERF. You have to build a line for it, like the naquadah.
 
 # Quest.2951 - Purification
 gtnh.quest2951.name=Purification
@@ -11814,7 +11814,7 @@ gtnh.quest2952.desc=Free indium!%n%nYou have three choices to deal with it.%n%n1
 
 # Quest.2953 - Disproportionation
 gtnh.quest2953.name=Disproportionation
-gtnh.quest2953.desc=The chemical property of naquadria is a bit weird.%n%nThere's nothing known can precipitate it. the only way to get naquadria from the solution is to use high energy particle to bombard it.%n%nHowever, only part of output naquadria can be used for further process and you  have to re-purification the rest.
+gtnh.quest2953.desc=The chemical properties of naquadria are a bit weird.%n%nThere's nothing known that can precipitate it. The only way to get naquadria from the solution is to use high energy particle to bombard it.%n%nHowever, only a part of the output naquadria can be used for further processing and you have to re-purify the rest.
 
 # Quest.2954 - Once again
 gtnh.quest2954.name=Once again
@@ -11822,7 +11822,7 @@ gtnh.quest2954.desc=The miscibility of P-507 and naquadria is still very perfect
 
 # Quest.2955 - Naquadria Ingot
 gtnh.quest2955.name=Naquadria Ingot
-gtnh.quest2955.desc=Smelt it with magnesium dust in EBF.
+gtnh.quest2955.desc=Smelt it with magnesium dust in an EBF.
 
 # Quest.2956 - Nuclear Based Fuel (Th)
 gtnh.quest2956.name=Nuclear Based Fuel (Th)
@@ -12370,7 +12370,7 @@ gtnh.quest3091.desc=Alternative way to mass produce Sunnarium.
 
 # Quest.3092 - Renewable Energy
 gtnh.quest3092.name=Renewable Energy
-gtnh.quest3092.desc=Despite finding oil spouts in the wild, you might have thought about extending the source of power you have used to reach the age of electricity. Steam was your energy, and burnable items your source of that energy, with wood and charcoal being the most likely candidates for automating your first power generation steps. Steam itself, however, is not the best option for all progression tiers, so the question is: what else can that wood do? That is what this questline will explain.%n%nEach tier you reach will challenge you with bigger power needs. Not only do the energy tiers multiply by 4 every time you go up (32 EU/t for LV, 128 for MV, 512 for HV, etc.), but also the necessary growth of your setups, with more steps and each one becoming more complicated. To sustain all this, you might want a fully automated, infinite source of power and chemicals to handle this pack's progression. To achieve this, following the quests in chapter is sure to be helpful.%n%nAs a final note, the power outputs of a fully renewable powergen like this are not as efficient as oil, which is the price to pay for being renewable. You will need a bigger machine setup to achieve the same EU/t output, but it is still very viable and worth it if you are willing to make this compromise. On the other hand, building these wood-related setups will give you some interesting chemicals to use in later crafts, chemicals that oil cannot directly create. You can choose one or the other, or just follow both paths at the same time if you're curious. It's up to you.
+gtnh.quest3092.desc=Despite finding oil spouts in the wild, you might have thought about extending the source of power you have used to reach the age of electricity. Steam was your energy, and burnable items your source of that energy, with wood and charcoal being the most likely candidates for automating your first power generation steps. Steam itself, however, is not the best option for all progression tiers, so the question is: what else can that wood do? That is what this questline will explain.%n%nEach tier you reach will challenge you with bigger power needs. Not only do the energy tiers multiply by 4 every time you go up (32 EU/t for LV, 128 for MV, 512 for HV, etc.), but also the necessary growth of your setups, with more steps and each one becoming more complicated. To sustain all this, you might want a fully automated, infinite source of power and chemicals to handle this pack's progression. To achieve this, following the quests in this chapter is sure to be helpful.%n%nAs a final note, the power outputs of a fully renewable powergen like this are not as efficient as oil, which is the price to pay for being renewable. You will need a bigger machine setup to achieve the same EU/t output, but it is still very viable and worth it if you are willing to make this compromise. On the other hand, building these wood-related setups will give you some interesting chemicals to use in later crafts, chemicals that oil cannot directly create. You can choose one or the other, or just follow both paths at the same time if you're curious. It's up to you.
 
 # Quest.3093 - Carbon, Chemically
 gtnh.quest3093.name=Carbon, Chemically
@@ -12382,7 +12382,7 @@ gtnh.quest3094.desc=If you've automated Carbon Monoxide, you can now burn it dir
 
 # Quest.3095 - Sourcing Your Wood
 gtnh.quest3095.name=Sourcing Your Wood
-gtnh.quest3095.desc=When it comes to power from wood, your only options so far have been the wood itself and Charcoal. Both of these are low on energy per item, so you will need a lot of wood to have a decent EU/t output. How, then, can you easily get that much? There are two ways: the automated way, and the non-automated way.%n%nThe automated way can be done with one of several machines, but in LV you only have one option: the LV Crop Manager. It can automatically harvest crops in an area around it and, for this situation, the crop you want is one of several Bonsais. You can get them by planting saplings on cropsticks (there is a lot more information about how crops work in the Forestry and Multifarms page), and most types of saplings are equivalent to one another, although not all of them can be planted as crops. The ones that stand out are Spruce, which give a bit more wood than the others, and Oak, which give Apples alongside the usual wood and saplings, possibly useful for some chemistry later.%n%nThe non-automated way can be done earlier, and it only requires two things: an unbreakable Lumber Axe and trees with a lot of wood, like Sacred Oak or Redwood. This axe will chop down (most of) the trees and award you with stacks and stacks of wood, much faster than the automated way, but with more work. This process might be useful in the beginning, but you will have to automate the wood input at some point. %n%nComplete one of the tasks and get some wood to continue. 
+gtnh.quest3095.desc=When it comes to power from wood, your only options so far have been the wood itself and Charcoal. Both of these are low on energy per item, so you will need a lot of wood to have a decent EU/t output. How, then, can you easily get that much? There are two ways: the automated way, and the non-automated way.%n%nThe automated way can be done with one of several machines, but in LV you only have one option: the LV Crop Manager. It can automatically harvest crops in an area around it and, for this situation, the crop you want is one of several Bonsais. You can get them by planting saplings on cropsticks (there is a lot more information about how crops work in the Forestry and Multifarms page), and most types of saplings are equivalent to one another, although not all of them can be planted as crops. The ones that stand out are Spruce, which give a bit more wood than the others, and Oak, which give Apples alongside the usual wood and saplings, possibly useful for some chemistry later.%n%nThe non-automated way can be done earlier, and it only requires two things: an unbreakable Lumber Axe and trees with a lot of wood, like Sacred Oak, Redwood, or Rainforest Oak. This axe will chop down (most of) the trees and award you with stacks and stacks of wood, much faster than the automated way, but with more work. This process might be useful in the beginning, but you will have to automate the wood input at some point. %n%nComplete one of the tasks and get some wood to continue. 
 
 # Quest.3096 - Faster Charcoal
 gtnh.quest3096.name=Faster Charcoal
@@ -12418,7 +12418,7 @@ gtnh.quest3103.desc=Your power needs quadrupled since the last tier, and it's li
 
 # Quest.3104 - Pyrolyse Oven
 gtnh.quest3104.name=Pyrolyse Oven
-gtnh.quest3104.desc=Some setups really demand space in your base to work properly. You might have thought that, when you finished the Coke Oven automation, but there's also an option in this tier that respects that need for speed by just being a gigantic multiblock: the Pyrolyse Oven.%n%nIn essence, it's the original Gregtech large-scale wood processor. It is a massive structure, probably bigger than any other multi you've build before, but it uses simple materials like bronze and steel. If you're able to just throw stacks of those at a controller, you can put this behemoth together and enjoy an alternative to the Advanced Coke Oven that has some extra benefits. Unlike any of the other ovens, this one runs on EU, so you need to route your power back here to process the wood you're feeding it. %n%nWhat makes the Pyro valuable? It outputs a fluid alongside the Charcoal, which you can process for extra power and/or byproducts. Look at NEI to see all the alternatives available to you, this multi can usually output several different fluids, but only one at a time, decided by the circuit inside it. The one to choose at this time is Wood Tar, the same fluid you're extracting from the Charcoal. You get a small constant bonus from having built a Pyro, which is really nice.%n%nHowever, the Pyro uses coils in a similar way to the EBF, and those coils affect the time each recipe takes: if you're using Cupronickel Coils, the recipe time is actually 2x what NEI says! This might be too slow for your needs, so make sure you check how much Charcoal you're getting from here. Kanthal Coils are available in MV, using the IC2 Coolant instead of the Vacuum Freezer.
+gtnh.quest3104.desc=Some setups really demand space in your base to work properly. You might have thought that when you finished the Coke Oven automation, but there's also an option in this tier that respects that need for speed by just being a gigantic multiblock: the Pyrolyse Oven.%n%nIn essence, it's the original Gregtech large-scale wood processor. It is a massive structure, probably bigger than any other multi you've build before, but it uses simple materials like bronze and steel. If you're able to just throw stacks of those at a controller, you can put this behemoth together and enjoy an alternative to the Advanced Coke Oven that has some extra benefits. Unlike any of the other ovens, this one runs on EU, so you need to route your power back here to process the wood you're feeding it. %n%nWhat makes the Pyro valuable? It outputs a fluid alongside the Charcoal, which you can process for extra power and/or byproducts. Look at NEI to see all the alternatives available to you, this multi can usually output several different fluids, but only one at a time, decided by the circuit inside it. The one to choose at this time is Wood Tar, the same fluid you're extracting from the Charcoal. You get a small constant bonus from having built a Pyro, which is really nice.%n%nHowever, the Pyro uses coils in a similar way to the EBF, and those coils affect the time each recipe takes: if you're using Cupronickel Coils, the recipe time is actually 2x what NEI says! This might be too slow for your needs, so make sure you check how much Charcoal you're getting from here. Kanthal Coils are available in MV, using the IC2 Coolant instead of the Vacuum Freezer.%n%nYou can also boost your Pyro by providing Nitrogen. There are separate recipes for that in NEI.
 
 # Quest.3105 - Large Steel Boiler
 gtnh.quest3105.name=Large Steel Boiler
@@ -12426,7 +12426,7 @@ gtnh.quest3105.desc=Direct Charcoal consumption is also improved, if you want to
 
 # Quest.3106 - Wood Tar
 gtnh.quest3106.name=Wood Tar
-gtnh.quest3106.desc=Benzene cannot be extracted directly from Charcoal. To get to it, you need to process the extracted fluid, called Wood Tar. In the past, this was a very slow step, which forced players to spam Fluid Extractors to keep up with the other parts of their Benzene line, but it's a lot faster now. Regardless, you still need more than one Fluid Extractor per each machine used in the step after this one, if using LV machines here. %n%nSince it's an LV recipe, you can overclock it with an MV machine, but you'll waste some EU that way (each recipe will cost twice as much EU). To continue, craft either 2 LV Fluid Extractors or 1 MV one.
+gtnh.quest3106.desc=Benzene cannot be extracted directly from Charcoal. To get to it, you need to process the extracted fluid, called Wood Tar. In the past, this was a very slow step, which forced players to spam Fluid Extractors to keep up with the other parts of their Benzene line, but it's a lot faster now. Regardless, you still need more than one Fluid Extractor for each machine used in the step after this one, if you are using LV machines here. %n%nSince it's an LV recipe, you can overclock it with an MV machine, but you'll waste some EU that way (each recipe will cost twice as much EU). To continue, craft either 2 LV Fluid Extractors or 1 MV one.
 
 # Quest.3107 - The Most Powerful Biodiesel 
 gtnh.quest3107.name=The Most Powerful Biodiesel 
@@ -12450,7 +12450,7 @@ gtnh.quest3111.desc=Your old pal, Creosote Oil, is back in the game! That's righ
 
 # Quest.3112 - Phenol's Width
 gtnh.quest3112.name=Phenol's Width
-gtnh.quest3112.desc=This one is not as specialized as Toluene is. It's also more likely that you will be producing it in a Chemical Reactor, or working around it with recipes, if you choose not to use Oil or Benzene for some reason. You're here, though, so you have all of the possibilities, and all of the advantages of skipping through steps in several important chemical lines that accept Phenol, one of the first being epoxy resin. If you check JEI, you can more easily see where this chemical can come in handy.%n%nIt is true, though, that it isn't as required in HV as Toluene is. Since both of them are good power options alongside Benzene, it's preferable that you burn this one for power between the two, if you have to. In the best situation, you won't need to, but it's also acceptable to burn all of the Benzene and some Phenol, while the Toluene gets converted into its gelled form to make several stacks of TNT. Don't discredit the amount of power you can get from this.
+gtnh.quest3112.desc=This one is not as specialized as Toluene is. It's also more likely that you will be producing it in a Chemical Reactor, or working around it with recipes, if you choose not to use Oil or Benzene for some reason. You're here, though, so you have all of the possibilities, and all of the advantages of skipping through steps in several important chemical lines that accept Phenol, one of the first being epoxy resin. If you check NEI, you can more easily see where this chemical can come in handy.%n%nIt is true, though, that it isn't as required in HV as Toluene is. Since both of them are good power options alongside Benzene, it's preferable that you burn this one for power between the two, if you have to. In the best situation, you won't need to, but it's also acceptable to burn all of the Benzene and some Phenol, while the Toluene gets converted into its gelled form to make several stacks of TNT. Don't discredit the amount of power you can get from this.
 
 # Quest.3113 - Toluene's Power
 gtnh.quest3113.name=Toluene's Power
