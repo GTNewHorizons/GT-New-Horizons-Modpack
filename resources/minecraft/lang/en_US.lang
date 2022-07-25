@@ -4806,7 +4806,7 @@ gtnh.quest1200.desc=Now that you have a reactor, it's time to utilize it to crea
 
 # Quest.1201 - §a§b§c§d§e§f§d§l§l§c§lTurbine Time
 gtnh.quest1201.name=§a§b§c§d§e§f§d§l§l§c§lTurbine Time
-gtnh.quest1201.desc=Your fancy new Large Plasma Turbine will need a rotor to go inside of it. %n%nYou can make it out of any GT material, but the best right now is NORMAL Draconium. §4Always test in Creative first!§r%n%nWhen using turbines, be careful of flow rates. To find the optimal flow rate, you divide the optimal energy flow rate listed on the turbine, by the energy value for the plasma. You can also use the Large Turbine Calculator (there's a link on the main spreadsheet, which is linked to in discord), or scan the multiblock's controller while feeding it a minimal amount of plasma to see what the optimal flow is. Make sure to use a Fluid Regulator set to this flow rate for highest fuel efficiency, or go beyond it to get more EU/t at a cost to efficiency, with Plasma Turbines being the best at retaining efficiency beyond the optimal flow.%n%nIf you go beyond the optimal flow, you will get a higher EU/t value, but less fuel efficiency, and the maximum EU/t value depends on the turbine type and its Overflow Efficiency tier. For this type of turbine, tier 1 reaches the max at 250% of optimal flow to produce 158% of the EU/t, tier 2 reaches the max at 400% of optimal flow to produce 214% of the EU/t and tier 3 reaches the max at 550% of optimal flow to produce 301% of the EU/t. The closer you get to this maximum, the more fuel efficiency you're throwing away.%n%nThe choice is yours!%n%n§bFor a lot of extra information on fusion, check out the new quest line called Powerful Nuclear Physics.
+gtnh.quest1201.desc=Your fancy new Large Plasma Turbine will need a rotor to go inside of it. %n%nYou can make it out of any GT material, but the best right now is NORMAL Draconium. §4Always test in Creative first!§r%n%nWhen using turbines, be careful of flow rates. To find the optimal flow rate, you divide the optimal energy flow rate listed on the turbine, by the energy value for the plasma. You can also use the Large Turbine Calculator (there's a link on the main spreadsheet, which is linked to in discord), or scan the multiblock's controller while feeding it a minimal amount of plasma to see what the optimal flow is. Make sure to use a Fluid Regulator set to this flow rate for highest fuel efficiency, or go beyond it to get more EU/t at a cost to efficiency, with Plasma Turbines being the best at retaining efficiency beyond the optimal flow.%n%nIf you go beyond the optimal flow, you will get a higher EU/t value, but less fuel efficiency, and the maximum EU/t value depends on the turbine type and its Overflow Efficiency tier. For this type of turbine, tier 1 reaches the max at 250% of optimal flow to produce 158% of the EU/t, tier 2 reaches the max at 400% of optimal flow to produce 214% of the EU/t and tier 3 reaches the max at 550% of optimal flow to produce 301% of the EU/t. The closer you get to this maximum, the more fuel efficiency you're throwing away.%n%nThe choice is yours!%n%n§3For a lot of extra information on fusion, check out the new quest line called Powerful Nuclear Physics.
 
 # Quest.1202 - I Put Fusion in Your Fusion so you Can Fusion While You Fusion
 gtnh.quest1202.name=I Put Fusion in Your Fusion so you Can Fusion While You Fusion
@@ -5664,17 +5664,17 @@ gtnh.quest1414.desc=Some machines need emitters and sensors, like the analyzer o
 gtnh.quest1415.name=§a§lPure Uranium Ores
 gtnh.quest1415.desc=If you want pure uranium ores for your nuke, you'll need to visit Deimos or Phobos to fetch them. They're at Y 20-30.
 
-# Quest.1416 - §a§lMallard Rust Smelly
-gtnh.quest1416.name=§a§lMallard Rust Smelly
-gtnh.quest1416.desc=Or is it Alloy Blast Smelter? Well, that makes more sense. This multiblock creates the higher tier alloys needed for the more advanced GT++ multiblocks. It directly smelts into liquids. You can even melt down metals like Tungsten faster too! Until you get better coils for your EBF at least.
+# Quest.1416 - §b§lMallard Rust Smelly
+gtnh.quest1416.name=§b§lMallard Rust Smelly
+gtnh.quest1416.desc=Or is it Alloy Blast Smelter? Well, that makes more sense. This multiblock creates the higher tier alloys needed for the more advanced GT++ multiblocks and your soldering needs. It directly smelts ingredients into liquids. You can even melt down metals like Tungsten faster too! Until you get better coils for your EBF at least.%n%n§3Can only have one energy hatch.%n%nThe GT++ multiblocks you can now make are optional, but quite powerful upgrades to your current singleblock setups. Not only do they provide more speed, they also have a bit of advanced functionality: you can also electrolyze materials without using cells or use a single multiblock for many different extruder shapes. They also act as cleanrooms where needed.
 
 # Quest.1417 - §6§lCough Cough - Something Needs to Be Done About the Smell
 gtnh.quest1417.name=§6§lCough Cough - Something Needs to Be Done About the Smell
 gtnh.quest1417.desc=Birds falling out of the sky, fish dead and floating belly up in the rivers, acid rain melting the ground...Time to start picking up the trash and cleaning up the air. Small black steel turbines should be fine for now. You'll need two amps of steady power to keep the scrubber working.%n%nThe detector's setting can be changed by clicking on the +/- texture with a screwdriver. Also, in general, better (and larger) turbines work better at cleaning up pollution. The code is too complex to fully explain here, but that's basically it. More EU turbine = more pollution cleaning turbine.%n%n§4This quest covers one method of combating pollution - there are others, including not making as much to begin with.
 
-# Quest.1418 - §c§9§a§lEU packets flowing everywhere...
-gtnh.quest1418.name=§c§9§a§lEU packets flowing everywhere...
-gtnh.quest1418.desc=...in my dreams. What if instead of having battery packs on every generator, we could centralize all the generation in one location? Put it away from the well travelled parts of the the base? Out in the country somewhere?  Let the animals deal with the pollution.  Anyways, let's start working on a Power Sub-Station to store EU and deliver it to our base.%n%n§3This multi is IV.
+# Quest.1418 - §b§lEU packets flowing everywhere...
+gtnh.quest1418.name=§b§lEU packets flowing everywhere...
+gtnh.quest1418.desc=...in my dreams. What if instead of having battery packs on every generator, we could centralize all the generation in one location? Put it away from the well travelled parts of the the base? Out in the country somewhere?  Let the animals deal with the pollution.  Anyways, let's start working on a Power Sub-Station to store EU and deliver it to our base.
 
 # Quest.1419 - Who Cares About a Little Cancer...
 gtnh.quest1419.name=Who Cares About a Little Cancer...
@@ -12859,6 +12859,10 @@ gtnh.quest3213.desc=As a second step, we combine the tetrachloride with sodium.%
 # Quest.3214 - §6§lSalty from all the silicon?
 gtnh.quest3214.name=§6§lSalty from all the silicon?
 gtnh.quest3214.desc=If you are salty about the ingredients needed to purify silicon, I got good news for you! You can recover all of the chlorine and sodium you used by electrolyzing the salt you got!
+
+# Quest.3215 - Trigger: SMD Transistor Skip
+gtnh.quest3215.name=Trigger: SMD Transistor Skip
+gtnh.quest3215.desc=No Description
 
 ##################################Line##################################
 
