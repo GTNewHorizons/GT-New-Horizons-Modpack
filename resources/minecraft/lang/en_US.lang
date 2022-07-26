@@ -3310,7 +3310,7 @@ gtnh.quest826.desc=With iron tools, you are able to mine most of the Overworld o
 
 # Quest.827 - Rocket Fuel
 gtnh.quest827.name=Rocket Fuel
-gtnh.quest827.desc=For every flight the rocket needs some fuel. So refine some fuel for your rocket. %nYou can use use Cetane-Boosted Diesel for your T1/2 rockets, but you'll need something with more oomph for the later ones.%n%nFor the moon, a full rocket leaving from the OW should have enough fuel left to make it back. But you might want to take extra just in case.%n%nRocket Fuel usage is not based on either the destination or the type of fuel used, but instead the rocket itself, with higher tiers both storing more fuel, and consuming less. Also, the gravity of the planet affects how much fuel is used, with lower gravity locations using less fuel to launch.%n%n§4Keep in mind that there are new ones: LMP103S, Monomethylhydrazine Fuel Mix, and Unsymmetrical Dimethylhydrazine Fuel Mix. Try and figure out the recipes yourself for now.
+gtnh.quest827.desc=For every flight the rocket needs some fuel. So refine some fuel for your rocket. %nYou can use use Cetane-Boosted Diesel for your T1/2 rockets, but you'll need something with more oomph for the later ones.%n%nFor the moon, a full rocket leaving from the OW should have enough fuel left to make it back. But you might want to take extra just in case.%n%nRocket Fuel usage is not based on either the destination or the type of fuel used, but instead the rocket itself, with higher tiers both storing more fuel, and consuming less. Also, the gravity of the planet affects how much fuel is used, with lower gravity locations using less fuel to launch.
 
 # Quest.828 - Oxygen Collector
 gtnh.quest828.name=Oxygen Collector
@@ -9578,15 +9578,15 @@ gtnh.quest2393.desc=With a Chemical Reactor, you can make Fertilized Earth. It t
 
 # Quest.2394 - Hydrazine
 gtnh.quest2394.name=Hydrazine
-gtnh.quest2394.desc=Hydrazine is made from Ammonia and Hydrogen Peroxide.%n%n§4You also need hydrogen peroxide, but the BW one overrides the GT++ one. Use it as a fluid to proceed, don't put it in a cell.%n%nHydrazine also removed in case bot breaks that too.
+gtnh.quest2394.desc=Hydrazine is made from Ammonia and Hydrogen Peroxide.%n%n§4Hydrogen Peroxide Cell is overridden by BW one. Use tanks or Universal Cells or large cells to proceed, don't put it in a cell.
 
-# Quest.2395 - Formaldehyde Catalyst Dust
-gtnh.quest2395.name=Formaldehyde Catalyst Dust
-gtnh.quest2395.desc=Making Formaldehyde will require a catalyst. You can make this by mixing Iron and Vanadium.
+# Quest.2395 - Formaldehyde Catalyst
+gtnh.quest2395.name=Formaldehyde Catalyst
+gtnh.quest2395.desc=Making Formaldehyde will require a catalyst. You can make this by mixing Iron and Vanadium, and stuffing into carrior.
 
 # Quest.2396 - Hydrogen Peroxide
 gtnh.quest2396.name=Hydrogen Peroxide
-gtnh.quest2396.desc=To make Hydrogen Peroxide you combine Air, 2-Ethylanthrahydroquinone, and Anthracene in a Chemical Plant.
+gtnh.quest2396.desc=To make Hydrogen Peroxide you combine Air (or Oxygen), 2-Ethylanthrahydroquinone, and Anthracene in a Chemical Plant.%n%nYou can fully recycle 2-Ethylanthraquinone, so don't make bunch of them.
 
 # Quest.2397 - Playing With the Big Boys, Chemically
 gtnh.quest2397.name=Playing With the Big Boys, Chemically
@@ -10746,11 +10746,11 @@ gtnh.quest2685.desc=In order to distill Coal Tar, you need to get some first. To
 
 # Quest.2686 - Dense Hydrazine
 gtnh.quest2686.name=Dense Hydrazine
-gtnh.quest2686.desc=Dense Hydrazine is needed starting from rocket tier 3, so you should make some if you want to keep exploring space.%n%nIt's a T4 240 EU/t recipe, so you'll need to make the CP out of Titanium and HV Machine Casings.
+gtnh.quest2686.desc=Dense Hydrazine is needed starting from rocket tier 3, so you should make some if you want to keep exploring space.%n%nIt's a T4 240 EU/t recipe, so you'll need to build Chemical Plant out of Titanium and HV Machine Casings.
 
 # Quest.2687 - Monomethylhydrazine
 gtnh.quest2687.name=Monomethylhydrazine
-gtnh.quest2687.desc=You'll need this if you want to make CN3H7O3 (Purple) Rocket Fuel. It's also made in the Chemical Plant.
+gtnh.quest2687.desc=You'll need this if you want to make CN3H7O3 (Purple) Rocket Fuel. It's also made in the Chemical Plant.%n%n§3Look up recipe for CN3H7O3 to properly see recipe for Monomethylhydrazine.
 
 # Quest.2688 - CN3H7O3 (Purple) Rocket Fuel
 gtnh.quest2688.name=CN3H7O3 (Purple) Rocket Fuel
