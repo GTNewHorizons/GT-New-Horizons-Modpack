@@ -7274,7 +7274,7 @@ gtnh.quest1817.desc=To process more advanced materials like Cosmic Neutronium, T
 
 # Quest.1818 - §6§lLarge Essentia Generator
 gtnh.quest1818.name=§6§lLarge Essentia Generator
-gtnh.quest1818.desc=Having one Essentia Generator per Essentia type seeems unpracticable.... Better make a Large Essentia Generator and burn all this Essentia in parallel! As another Bonus, this Generator produces 20x the Energy a Single Block Machine will produce. You might need more Magic Containment Casings than this Quest asks for.%n%n§4PS: This is apparently super buggy and may or may not work.
+gtnh.quest1818.desc=Having one Essentia Generator per Essentia type seeems impractical... Better make a Large Essentia Generator and burn all the Essentia in parallel! As another bonus, this generator produces 20x the energy a single block machine will produce. You might need more Magic Containment Casings than this quest asks for.%n%n§4PS: This is apparently super buggy and may or may not work.
 
 # Quest.1819 - §6§lSilicon Dioxide
 gtnh.quest1819.name=§6§lSilicon Dioxide
@@ -10798,7 +10798,7 @@ gtnh.quest2698.desc=Any ore veins not on Mercury are on this planet for this tie
 
 # Quest.2699 - Play it Again, Sam
 gtnh.quest2699.name=Play it Again, Sam
-gtnh.quest2699.desc=So if you thought one Quantum Computer was cool, what about two? You can chain them to get more computing power for your research by connecting them with Optical Connectors the same way you connect to the Research Station. The original QC should have the slave to receive the data from the second one.%n%nOf course, this is kinda expensive, so there's actually another option, and that's to simply extend the first one. You can tear down the last two columns of blocks and then use an itemstack of two blueprints to see how a 4 computer rack one would be built. However, you'll need another UV or higher hatch to power it if you use 4 racks, since that will use 5A. You can do the same for up to a 12 stack for 24 computer racks if you want.%n%nIf you use 3 racks with 3 Crystalprocessor Mainframes and 1 Advanced Heat Vent each, you'll have enough for the UEV circuit, and it won't overheat either. If you use 7 racks and 14 UHV circuits (2 vents each), you'll be able to research anything less than the Piko and Quantum circuits without overheating.
+gtnh.quest2699.desc=So if you thought one Quantum Computer was cool, what about two? You can chain them to get more computing power for your research by connecting them with Optical Connectors the same way you connect to the Research Station. The original QC should have the slave to receive the data from the second one.%n%nOf course, this is kinda expensive, so there's actually another option, and that's to simply extend the first one. You can tear down the last two columns of blocks and then use an itemstack of two hologram projectors to see how a 4 computer rack one would be built. However, you'll need another UV or higher hatch to power it if you use 4 racks, since that will use 5A. You can do the same for up to a 12 stack for 24 computer racks if you want. Just add more of the middle slice, or let a larger stack of hologram projectors show you how it's done.%n%nIf you use 3 racks with 3 Crystalprocessor Mainframes and 1 Advanced Heat Vent each, you'll have enough for the UEV circuit, and it won't overheat either.%n%nA third option for higher computation needs is to finally go back and understand how the parametrizer works. With it you have a finer control over the maximum heat your QC reaches and get everything out of it.%n%nYou can also make the Parametrizer X now, but it's actually even more convoluted then the basic one and not recommended for the most part. Eventually you will unlock the Parametrizer tXt. With that you can finally just enter your parameters directly! %n%n%n§4Remember to let all the heat in your QCs dissipate before changing things.
 
 # Quest.2700 - LSC = MC^2
 gtnh.quest2700.name=LSC = MC^2
@@ -11584,9 +11584,9 @@ gtnh.quest2894.desc=It holds more than the previous tier, other than that there 
 gtnh.quest2895.name=Cooking for Blockheads
 gtnh.quest2895.desc=Say thanks to mitch for backporting this great mod. You can use it to help you craft new food items. All blocks connected to the kitchen floor (use it as walls too!) are considered part of the same multiblock. Countertops will search up two blocks for cabinets to include.%n%nItems stored in storages like the cabinet (or your inventory) can be used in recipes. All storage spaces for items are the same, so don't bother making a ton of fridges unless you really want to. Supply water to the sink to get water for recipes.%n%nYou can store some cooking tools in the oven. You can store the rest on tool racks to auto-use them all in recipes. This includes stuff like the GT soft mallet if you can't make all the Pam's tools yet.%n%nThe oven has 3 input slots and 3 output slots, and can work on 9 items at once. It's basically a furnace. You can request items be cooked from the cooking table too.%n%nThe Cooking Table will automatically show you all recipes that can be created with the existing ingredients, and you can click on them to craft them. Make all the food, and get all the hearts!%n%nYou can use dye to color the kitchen, except for the oven.%n%nNote that the implementation is not finished, so there are some problems. Upgrades like powering the oven with RF/EU are not in yet. And so on. But we finally have a toaster so you can make TOAST!%n%nPlease report any bugs/problems to the CFB-specific GTNH issue tracker at https://github.com/GTNewHorizons/CookingForBlockheads/issues%n%n§3There is no cow in a jar, it will not come back.
 
-# Quest.2896 - §6§lGimme My Stuff Back!
-gtnh.quest2896.name=§6§lGimme My Stuff Back!
-gtnh.quest2896.desc=At some point, you'll be all, 'Man, arc furnace-ing or macerating these things to recycle them blows, I barely get any of the materials I used back'. Well, there's a solution, the Disassembler.%n%nBasically, things go in, parts it's made of go out. It needs to be at the same tier or higher though.%n%nIt works on hand and assembler crafted items, but it doesn't work on assline stuff (LuV+), or non-GT items. However, for some reason on some items it fails for seemingly no reason. Ask bart why that happens. If there's an oredicted item like a circuit, it should return the least valuable one. You can now recyle your old coils, hatches, machines, etc with impunity!%n%n§3The % chance based on tier is gone now. Also, it's really fast!
+# Quest.2896 - §5§6§l§5§lGimme My Stuff Back!
+gtnh.quest2896.name=§5§6§l§5§lGimme My Stuff Back!
+gtnh.quest2896.desc=At some point, you'll be all, 'Man, arc furnacing or macerating these things to recycle them blows, I barely get any of the materials I used back'. Well, there's a solution, the Disassembler.%n%nBasically, things go in, parts it's made of go out. It needs to be at the same tier or higher though.%n%nIt works on hand and assembler crafted items, but it doesn't work on assline stuff (LuV+), or non-GT items. However, for some reason on some items it fails for seemingly no reason. Ask bart why that happens. If there's an oredicted item like a circuit, it should return the least valuable one. You can now recyle your old coils, hatches, machines, etc with impunity!%n%n§3The % chance based on tier is gone now. Also, it's really fast!
 
 # Quest.2897 - §2§lMaking a Rapier
 gtnh.quest2897.name=§2§lMaking a Rapier
@@ -11794,7 +11794,7 @@ gtnh.quest2947.desc=I think you should have known how to process it.%n%nSuitable
 
 # Quest.2948 - Large Naquadah Reactor
 gtnh.quest2948.name=Large Naquadah Reactor
-gtnh.quest2948.desc=The multi block version of naquadah reactor, but it is completely different from the single block ones.%n%nIt uses liquid naquadah or excited nuclear liquid as fuel, and output the depleted fuel. You can see the liquid fuel infomation in NEI.%n%nIt consumes 2400 L/s liquid air when running, otherwise it will keep consuming your fuel without outputing power.%n%n§4It will explode when more one types of fuel in its hatch.%n%n§rYou can input in coolant to increase efficiency.%nIC2 Coolant: 105%%nSuper Coolant: 150%%nCryotheum: 275%%n%nYou can also input molten metals to increase power.%nMolten Ccaesium: 2x%nMolten Uranium-235: 3x%nMolten Naquadah: 4x%nMolten Atomic Separation Catalyst: 16x%nNote: It will consume more fuel to match the output power, unlike coolant which directly increases the power. It works like add 'paralle' to reactor.%n%nIt also supports §9Tec§1Tech§r's Multi-Amp Dynamo hatches and laser hatches.%n%n§3PS: This generator has the highest output power in this pack currently, but it may get nerfed in future.
+gtnh.quest2948.desc=The multi block version of the naquadah reactor, but it is completely different from the single block ones.%n%nIt uses liquid naquadah or excited nuclear liquid as fuel, and outputs the depleted fuel. You can see the liquid fuel infomation in NEI.%n%nIt consumes 2400 L/s liquid air when running, otherwise it will keep consuming your fuel without outputing power.%n%n§4It will explode with more than one types of fuel in its hatches.%n%n§rYou can input in coolant to increase efficiency.%nIC2 Coolant: 1.05x%nSuper Coolant: 1.5x%nCryotheum: 2.75x%n%nYou can also input molten metals to increase power.%nMolten Caesium: 2x%nMolten Uranium-235: 3x%nMolten Naquadah: 4x%nMolten Atomic Separation Catalyst: 16x%nNote: It will consume more fuel to match the output power, unlike coolant which directly increases the power. The molten metal works like 'parallels' for your reactor.%n%nIt also supports §9Tec§1Tech§r's Multi-Amp Dynamo hatches and laser hatches.%n%n§3PS: This generator has the highest output power in this pack currently, but it may get nerfed in future.
 
 # Quest.2949 - Refining
 gtnh.quest2949.name=Refining
@@ -11826,19 +11826,19 @@ gtnh.quest2955.desc=Smelt it with magnesium dust in an EBF.
 
 # Quest.2956 - Nuclear Based Fuel (Th)
 gtnh.quest2956.name=Nuclear Based Fuel (Th)
-gtnh.quest2956.desc=Cheapest one, with 9 800EU/t output lasting 10s per mB.%n%nIt is also the source of praseodymium, which will be used for naquadah fuel.
+gtnh.quest2956.desc=Cheapest one, with 2,200EU/t output lasting 25s per mB.%n%nIt is also the source of praseodymium, which will be used for naquadah fuel.
 
 # Quest.2957 - Nuclear Based Fuel (U)
 gtnh.quest2957.name=Nuclear Based Fuel (U)
-gtnh.quest2957.desc=Provides 12 960EU/t output lasting 5s per mB.
+gtnh.quest2957.desc=Provides 12,960EU/t output lasting 5s per mB.
 
 # Quest.2958 - Nuclear Based Fuel (Pu)
 gtnh.quest2958.name=Nuclear Based Fuel (Pu)
-gtnh.quest2958.desc=Provides 32 400EU/t output lasting 7.5s per mB.
+gtnh.quest2958.desc=Provides 32,400EU/t output lasting 7.5s per mB.
 
 # Quest.2959 - Naquadah Fuel Refinery
 gtnh.quest2959.name=Naquadah Fuel Refinery
-gtnh.quest2959.desc=The insane machine is used for make MkIII and higher tier naquadah fuel.%n%nIt works like fusion that can't be overclocked by increasing the input voltage. The only way to overclock it is to use higher tier coil.%n%nIt also supports §9Tec§1Tech§r's Multi-Amp energy hatches and laser hatches.%n%ne.g. The MkIV fuel requires Teir 2 coil and the refinery is using Teir 3 coil. This allows a perfect overclock, using 2x power and 0.5x time.
+gtnh.quest2959.desc=This insane machine is used to make MkIII and higher tier naquadah fuel.%n%nIt can't be overclocked by increasing the input voltage. The only way to overclock it is to use higher tier coils.%n%nIt also supports §9Tec§1Tech§r's Multi-Amp energy hatches and laser hatches.%n%nExample: The MkIV fuel requires tier 2 coils and the refinery is using tier 3 coils. This gives an overclock similar to fusion, using 2x power and 0.5x time.
 
 # Quest.2960 - Tier 2 Coil
 gtnh.quest2960.name=Tier 2 Coil
@@ -11846,7 +11846,7 @@ gtnh.quest2960.desc=It will unlock MkIV and MkV fuel.
 
 # Quest.2961 - Naquadah Based Fuel MkI
 gtnh.quest2961.name=Naquadah Based Fuel MkI
-gtnh.quest2961.desc=220 000 EU/t lasting 1s per mB. Looks not very good.
+gtnh.quest2961.desc=220 000 EU/t lasting 1s per mB. Doesn't looks very good.
 
 # Quest.2962 - Naquadah Based Fuel MkII
 gtnh.quest2962.name=Naquadah Based Fuel MkII
@@ -11854,19 +11854,19 @@ gtnh.quest2962.desc=380 000 EU/t lasting 1s per mB. Still very limited.
 
 # Quest.2963 - Naquadah Based Fuel MkIII
 gtnh.quest2963.name=Naquadah Based Fuel MkIII
-gtnh.quest2963.desc=10.5M EU/t lasting 3s per mB. UEV @ 1.2A in other words.
+gtnh.quest2963.desc=9.5M EU/t lasting 4s per mB. UEV @ 1.1A in other words.
 
 # Quest.2964 - Naquadah Based Fuel MkIV
 gtnh.quest2964.name=Naquadah Based Fuel MkIV
-gtnh.quest2964.desc=138M EU/t lasting 7s per mB. It means its output power is over an Oct compressed solar in normal condition.
+gtnh.quest2964.desc=88.5M EU/t lasting 5s per mB.
 
 # Quest.2965 - Naquadah Based Fuel MkV
 gtnh.quest2965.name=Naquadah Based Fuel MkV
-gtnh.quest2965.desc=1B EU/t lasting 10s per mB. I must admit that it is a disaster. This power means that you can fill a UHV Lapotronic Capacitor with 43k MkV Fuel cells.
+gtnh.quest2965.desc=400M EU/t lasting 8s per mB. This power means that you can fill a UHV Lapotronic Capacitor with 145k MkV Fuel cells.
 
 # Quest.2966 - Tier 3 Coil
 gtnh.quest2966.name=Tier 3 Coil
-gtnh.quest2966.desc=For overclock. Wait, you are going to overclock a UXV recipe?
+gtnh.quest2966.desc=For an overclock. Wait, you are going to overclock a UXV recipe?
 
 # Quest.2967 - Incomplete Combustion
 gtnh.quest2967.name=Incomplete Combustion
