@@ -1,0 +1,20 @@
+{
+  "ores": [
+	"oreEndstoneLead",
+    "1000",
+	"oreEndstoneGalena",
+    "1600",
+	"oreEndstoneSilver",
+    "800",
+	"oreEndstoneSphalerite",
+    "800",
+	"oreEndstoneIndium",
+    "1"
+  ],
+  "radius": 14,
+  "cost": 50000000,
+  "focusModId": "gregtech",
+  "focusName": "gt.metaitem.03",
+  "focusMeta": 32094
+}
+

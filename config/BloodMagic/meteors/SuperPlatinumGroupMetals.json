@@ -15,10 +15,10 @@
 	"oreRarestMetalResidue",
     "100"
   ],
-  "radius": 16,
-  "cost": 25000000,
+  "radius": 14,
+  "cost": 12500000,
   "focusModId": "gregtech",
-  "focusName": "gt.metaitem.01",
-  "focusMeta": 32684
+  "focusName": "gt.blockmachines",
+  "focusMeta": 345
 }
 

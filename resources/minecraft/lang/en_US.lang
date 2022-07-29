@@ -414,7 +414,7 @@ gtnh.quest102.desc=An absolutely mandatory machine to have. It will cut rods int
 
 # Quest.103 - §5§lGetting Ready for Tier 2, MV
 gtnh.quest103.name=§5§lGetting Ready for Tier 2, MV
-gtnh.quest103.desc=In order to proceed forward, you need to get aluminium. A lot of it. But for now, ten is enough to complete this quest. Probably the best source for alumina is clay or hardened clay from canyons, however you need an MV machine for that, so you need to find an alternative until you have enough dust for your initial setup. Check back in your Tier 0 quests for hints.%n%nYou'll need to do the EBF quest in Multiblock Goals to turn the dust into ingots. If you can't find how to get nickel, go visit the Twilight Forest, where Cryolite is found as well. Go and find a new Galena vein.%n%nBy the time you've completed this, you'll probably be done with most of the tab, but you'll still need Good (MV) circuits to actually open up the next tier if you haven't done that yet.%n%n§3Also check the Armor and Jetpacks tab for new unlocks.%nNote: If you were exploring Twilight Forest before 2.1.1.4 you won't find any cryolite in existing veins. You'll need to explore new chunks.%nCheck out the the Lead, Galena, Silver and Cryolite quest in the Novice Thaumaturgy Tab.
+gtnh.quest103.desc=In order to proceed forward, you need to get aluminium. A lot of it. But for now, 8 is enough to complete this quest.%n%nYour first option is alumina dust. Probably the best source for alumina is clay or hardened clay from canyons, however you need an MV machine for that, so you need to find an alternative until you have enough dust for your initial setup. For now, you can get it by centrifuging various impure piles from your ores or by smelting ruby, sapphire, or green sapphire in an EBF with carbon. Check the EBF quest in the Multiblock Goals.%n%nYou will also an EBF to turn the alumina into aluminium ingots. For that you also need cryolite. Go visit the Twilight Forest for that and find a Galena vein.%n%nYour second option is to use aluminium dust. However, you can not smelt that directly yet, even if you have an EBF. That will require higher heat levels. For now, you will have to either use a Tinker's Smeltery or a GT Compressor to turn the dust into raw aluminium which you can then smelt into ingots in the EBF. Check out the Tier 0 quest for some options to obtain the dust. %n%nBy the time you've completed this, you'll probably be done with most of the tab, but you'll still need Good Circuits (MV) to actually open up the next tier if you haven't done that yet.%n%n§3Also check the Armor and Jetpacks tab for new unlocks.%nNote: If you were exploring Twilight Forest before 2.1.1.4 you won't find any cryolite in existing veins. You'll need to explore new chunks.%nCheck out the the Lead, Galena, Silver and Cryolite quest in the Novice Thaumaturgy Tab.
 
 # Quest.104 - §5§lYour Magic Progression
 gtnh.quest104.name=§5§lYour Magic Progression
@@ -824,8 +824,8 @@ gtnh.quest204.desc=What use has an automated rocket, if you can't load and unloa
 gtnh.quest205.name=Cargo Rocket: For the Fun
 gtnh.quest205.desc=No need to fly to distant planets on your own, just to grab ores.%n%n§3Usefulness level: Doubtful.
 
-# Quest.206 - §a§l[OUT OF DATE] Turning A Into B With C
-gtnh.quest206.name=§a§l[OUT OF DATE] Turning A Into B With C
+# Quest.206 - §c§l[OUTDATED]§r Turning A Into B With C
+gtnh.quest206.name=§c§l[OUTDATED]§r Turning A Into B With C
 gtnh.quest206.desc=Molecular transforming at its finest! The most important recipe here is sunnarium.%n%nThe useful recipes are:%nGlowstone -> Sunnarium Piece%nRedstone -> Ruby (for Chrome)%nCarbon -> Graphene%nNether Quartz -> Certus Quartz (if you need more for AE2)%nCheese -> Cheese Curd (for no-rocket runs to get the cheese ore for space plant)%nGold -> Platinum (if you want to void power, but still have it do something useful)%n%n§3C=EU, BTW.
 
 # Quest.207 - §a§lTurret Base Tier 4
@@ -870,7 +870,7 @@ gtnh.quest216.desc=This is the IV version.
 
 # Quest.217 - §b§lFinal choice: Personal Dimension
 gtnh.quest217.name=§b§lFinal choice: Personal Dimension
-gtnh.quest217.desc=Tired of mobs in your base? Want to build somewhere... different? Probably in a personal dimension? Then this is your chance. But choose wisely; You can only pick one option.%n%n§3PS: The Last Millenium is also a void dim, so you probably want the garden dim.%n%n§4If your garden or void world is buggy, too bad, we can't really do anything about it. BTW this includes BM not working, chunk resets, AE2 deleting or duping things, etc. This is mostly on servers/thermos servers though.
+gtnh.quest217.desc=Tired of mobs in your base? Want to build somewhere... different? Probably in a personal dimension? Then this is your chance. But choose wisely; You can only pick one option.%n%nWhen you first activate the portal, you can configure the world to your liking: it can be a void world, or any superflat world as long as it only consists of blocks such as grass, stone, cobblestone, bedrock, etc.%nBe careful! Once you configure the world, you can only change the cosmetic settings such as sky color by shift-right clicking the portal.%nEditing world generation settings after the world is created is only possible if a server administrator unlocks it for you via the /pspace allow-worldgen-change DIMID command.%n%n§3PS: The Last Millenium is also a void dim.%n%n§2If you're used to the buggy garden/void dimensions from UtilityWorlds, this is now a new mod that should resolve most of the previously known issues with blood magic, etc.
 
 # Quest.218 - §b§lFinal Choice: Loot
 gtnh.quest218.name=§b§lFinal Choice: Loot
@@ -1046,15 +1046,15 @@ gtnh.quest260.desc=I have mastered the basics. Master warned me about forbidden 
 
 # Quest.261 - An Awesome Magic Conductor
 gtnh.quest261.name=An Awesome Magic Conductor
-gtnh.quest261.desc=These tears, WOW! I've never felt something so strong. Could it be? Could I use those to actually finalize my Silverwood wand?
+gtnh.quest261.desc=These tears, WOW! I've never felt something so strong. Could it be? Could I make an even more powerful wand with these?
 
 # Quest.262 - An Even Better Conductor?
 gtnh.quest262.name=An Even Better Conductor?
 gtnh.quest262.desc=More... I want MOOORE! There must be something even stronger than the hydra. Something older, more ancient.
 
-# Quest.263 - It Doesn't Work
-gtnh.quest263.name=It Doesn't Work
-gtnh.quest263.desc=I tried to combine the lich bones I had with this new wand rod. The result: A pile of ashes. It crumbled to dust within seconds. I need a better conductor. The hydra in the Twilight Forest has the ability to regrow an entire head! Her blood must contain a large amount of magic. I guess I need a bit of that for my next wand.
+# Quest.263 - A Silverwood Wand at Last
+gtnh.quest263.name=A Silverwood Wand at Last
+gtnh.quest263.desc=I tried to combine the lich bones I had with a silverwood rod. The result: A pile of ashes. It crumbled to dust within seconds. I need a better conductor. The hydra in the Twilight Forest has the ability to regrow an entire head! Her blood must contain a large amount of magic. I guess I need a bit of that to finally complete my silverwood wand.
 
 # Quest.264 - Obsidian Rod
 gtnh.quest264.name=Obsidian Rod
@@ -1064,9 +1064,9 @@ gtnh.quest264.desc=By using obsidian and some earth clusters, I'm able to create
 gtnh.quest265.name=Creating a Better Wand
 gtnh.quest265.desc=This greatwood wand is nice, but it can only store 50 vis. Not enough to move nodes. My attempts to use silverwood failed, but I've come across other mundane materials that I could use to make a new wand core.
 
-# Quest.266 - More Durable Screws
-gtnh.quest266.name=More Durable Screws
-gtnh.quest266.desc=Those stainless steel screws don't work on these rods. Due to the huge amounts of vis those wands can carry, the screws somehow "melt" away. I need a more durable material. I guess I'll try titanium next.
+# Quest.266 - More Energetic Screws
+gtnh.quest266.name=More Energetic Screws
+gtnh.quest266.desc=Those stainless steel screws don't work on these rods. Due to the huge amounts of vis those wands can carry, the screws somehow "melt" away. I need a material that can handle these energies. I should try energetic alloy next.
 
 # Quest.267 - Quartz Rod
 gtnh.quest267.name=Quartz Rod
@@ -2202,7 +2202,7 @@ gtnh.quest549.desc=By adding hydrogen to sulfuric light fuel in a chemical react
 
 # Quest.550 - §5§lH for Hydrogen... the Rest of the Alphabet is Too Complicated...
 gtnh.quest550.name=§5§lH for Hydrogen... the Rest of the Alphabet is Too Complicated...
-gtnh.quest550.desc=Centrifuge some brown or yellow limonite dust, or use an Electrolyser with water to get some hydrogen.
+gtnh.quest550.desc=Centrifuge some brown or yellow limonite dust, or use an Electrolyser with water to get some hydrogen.%n%nThere are many other ways of obtaining hydrogen which you might want to look into. Some are only available much later.%n%nExamples are: chemical processing or electrolysis of methane obtained from organic sources, electrolysis of water or salt water, mixing sodium with water, or eventually siphoning hydrogen directly from a gas giant.
 
 # Quest.551 - §5§lHeavy Sulfuric Fuel
 gtnh.quest551.name=§5§lHeavy Sulfuric Fuel
@@ -2398,7 +2398,7 @@ gtnh.quest598.desc=The most efficient way to get antimony for batteries is to ru
 
 # Quest.599 - §5§lThermal Centrifuge
 gtnh.quest599.name=§5§lThermal Centrifuge
-gtnh.quest599.desc=A machine to get different byproducts out of your crushed or purified ore dust. It's useful for getting tiny piles of Gallium out of crushed Zinc Ore for your Diodes needed in good circuits.%n%nWhen you have IC2 nuclear reactors and want to recycle your depleted fuel rods, it's the only way to do so.%n%nIf you can't produce the 2A of LV power for this machine right now, wait until you get to MV and use transformers to power an LV version.%n%n§4Sending MV power to an LV device, even if it uses more than 1A will cause an explosion, so don't do that.
+gtnh.quest599.desc=A machine to get different byproducts out of your crushed or purified ore dust. It's useful for getting a bit of Gallium out of crushed Zinc Ore for your Diodes needed in good circuits.%n%nWhen you have IC2 nuclear reactors and want to recycle your depleted fuel rods, it's the only way to do so.%n%nIf you can't produce the 2A of LV power for this machine right now, wait until you get to MV and use transformers to power an LV version.%n%nIn LV, you can obtain the same ore byproducts via different methods. The Thermal Centrifuge only becomes really important in HV when you can combine it with the HV macerator.%n%n§4Sending MV power to an LV device, even if it uses more than 1A will cause an explosion, so don't do that.
 
 # Quest.600 - Hunger No More
 gtnh.quest600.name=Hunger No More
@@ -2984,13 +2984,13 @@ gtnh.quest744.desc=By making an excavator you are now able to mine dirt in a 3x3
 gtnh.quest745.name=§5§lGlue
 gtnh.quest745.desc=If you centrifuge sticky resin, you get glue. Glue is very useful in the creation of good circuit boards.%n%n§3Note that this is GT glue, not TiC glue.
 
-# Quest.746 - §6§lSilicon
-gtnh.quest746.name=§6§lSilicon
-gtnh.quest746.desc=Silicon is needed in all boule (and thus wafers, chips, and circuits) creation. Silicon is therefore an §oincredibly important material§r.%n%nYou can get it any number of ways, like centrifuging or electrolyzing various useless materials such as sodalite. You'll probably want to pull apart redstone and clay anyways, but you can also get it from silicon dioxide from glass dust, sand or flint dust if you want a specific setup.%n%nYou can get it as a byproduct from asbestos or fullers earth processing too.%n%nThe electric blast furnace is needed to make ingots. One ingot requires 2000mb of Oxygen and a temperature of 1600 K for 80 seconds at 120 EU/t using raw silicon. §6Using silicon dioxide and carbon dust, you can get an ingot in 12 seconds!§r Another time when it's best to continue searching NEI and not stop on the first recipe.
+# Quest.746 - §6§lSolar Grade Ingots
+gtnh.quest746.name=§6§lSolar Grade Ingots
+gtnh.quest746.desc=To turn your solar grade dust into solar grade ingots you need to use an EBF with kanthal coils and then cool the resulting hot ingots in a chemical bath.
 
 # Quest.747 - §5§lDiodes
 gtnh.quest747.name=§5§lDiodes
-gtnh.quest747.desc=Good circuits need diodes. There are two main ways to craft them. Right now you have to use the Gallium Arsenide method with fine copper wires and molten glass. Later when you get an EBF you can use it to make silicon wafers to make even more. Note that the wafers are way easier to get than gallium, so even a reduced amount is still worth it.%n%nMake sure you check all the NEI recipes for advanced items instead of just using the first one you find. You can use annealed copper wires and polyethylene to increase your output even more. %n
+gtnh.quest747.desc=Good circuits need diodes. There are two main ways to craft them. You can crush your the Gallium Arsenide crystals to dust and combine that with fine copper wires and molten glass. Once you have solar grade silicon you can use it to make silicon wafers in your EBF to make even more. Note that the wafers are much more efficient on gallium and arsenic, so even a reduced amount is still worth it.%n%nMake sure you check all the NEI recipes for advanced items instead of just using the first one you find. You can use annealed copper wires and polyethylene to increase your output even more. %n
 
 # Quest.748 - §5§lEmpty Circuit Board
 gtnh.quest748.name=§5§lEmpty Circuit Board
@@ -3010,7 +3010,7 @@ gtnh.quest751.desc=MV Mixer is needed to progress toward HV. It also unlocks Die
 
 # Quest.752 - §6§lSilicon Plate
 gtnh.quest752.name=§6§lSilicon Plate
-gtnh.quest752.desc=Advanced circuits require transistors, which are made out of silicon plates, fine tin wire and molten polyethylene.
+gtnh.quest752.desc=Advanced circuits require transistors, which are made out of high grade silicon plates, fine tin wire and molten polyethylene.
 
 # Quest.753 - §6§lStainless Steel EBF processing
 gtnh.quest753.name=§6§lStainless Steel EBF processing
@@ -3042,7 +3042,7 @@ gtnh.quest759.desc=Polyethylene is made out of ethylene and oxygen in a chemical
 
 # Quest.760 - §6§lClay Electrolyzing
 gtnh.quest760.name=§6§lClay Electrolyzing
-gtnh.quest760.desc=If you looked through NEI you may have found out that electrolyzing clay dust will give you Alumina, Silicon, Sodium, and Lithium dust. And water, but you're probably just voiding that already, right? There's plenty of stained clay blocks found in canyon, mesa, lush desert biomes or several to a couple dozen on mountains that can be pulverized to clay dust.%n%nThere's more ways to get alumina now that you're in MV, enough that it's basically worthless by the time you get to EV.
+gtnh.quest760.desc=If you looked through NEI you may have found out that electrolyzing clay dust will give you Alumina, Silicon Dioxide, Sodium, and Lithium dust. And water, but you're probably just voiding that already, right? There's plenty of stained clay blocks found in canyon, mesa, lush desert biomes or several to a couple dozen on mountains that can be pulverized to clay dust.%n%nThere's more ways to get alumina now that you're in MV, enough that it's basically worthless by the time you get to EV.
 
 # Quest.761 - §6§lPowderbarrels
 gtnh.quest761.name=§6§lPowderbarrels
@@ -3130,7 +3130,7 @@ gtnh.quest781.desc=This oven is the best way to get charcoal and creosote (x50 f
 
 # Quest.782 - §6§lMonocrystalline Silicon Boules
 gtnh.quest782.name=§6§lMonocrystalline Silicon Boules
-gtnh.quest782.desc=To make wafers, you need to make monocrystalline silicon boules first. The process takes 450 seconds and requires silicon dust and gallium arsenide dust in the electric blast furnace. You can make 16 wafers out of every boule.
+gtnh.quest782.desc=To make wafers, you need to make monocrystalline silicon boules first. The process takes 450 seconds and requires solar grade silicon dust and a small gallium arsenide crystal in the electric blast furnace. You can make 16 wafers out of every boule.
 
 # Quest.783 - §6§lWe Need Big Toys
 gtnh.quest783.name=§6§lWe Need Big Toys
@@ -3270,7 +3270,7 @@ gtnh.quest816.desc=The Moon lander is required for a soft landing. You will need
 
 # Quest.817 - Buggy Seat
 gtnh.quest817.name=Buggy Seat
-gtnh.quest817.desc=The buggy seat is part of the Moon lander and the Moon buggy.
+gtnh.quest817.desc=The buggy seat is part of the Moon lander.
 
 # Quest.818 - Frequency Module
 gtnh.quest818.name=Frequency Module
@@ -3310,7 +3310,7 @@ gtnh.quest826.desc=With iron tools, you are able to mine most of the Overworld o
 
 # Quest.827 - Rocket Fuel
 gtnh.quest827.name=Rocket Fuel
-gtnh.quest827.desc=For every flight the rocket needs some fuel. So refine some fuel for your rocket. %nYou can use use Cetane-Boosted Diesel for your T1/2 rockets, but you'll need something with more oomph for the later ones.%n%nFor the moon, a full rocket leaving from the OW should have enough fuel left to make it back. But you might want to take extra just in case.%n%nRocket Fuel usage is not based on either the destination or the type of fuel used, but instead the rocket itself, with higher tiers both storing more fuel, and consuming less. Also, the gravity of the planet affects how much fuel is used, with lower gravity locations using less fuel to launch.%n%n§4Keep in mind that there are new ones: LMP103S, Monomethylhydrazine Fuel Mix, and Unsymmetrical Dimethylhydrazine Fuel Mix. Try and figure out the recipes yourself for now.
+gtnh.quest827.desc=For every flight the rocket needs some fuel. So refine some fuel for your rocket. %nYou can use use Cetane-Boosted Diesel for your T1/2 rockets, but you'll need something with more oomph for the later ones.%n%nFor the moon, a full rocket leaving from the OW should have enough fuel left to make it back. But you might want to take extra just in case.%n%nRocket Fuel usage is not based on either the destination or the type of fuel used, but instead the rocket itself, with higher tiers both storing more fuel, and consuming less. Also, the gravity of the planet affects how much fuel is used, with lower gravity locations using less fuel to launch.
 
 # Quest.828 - Oxygen Collector
 gtnh.quest828.name=Oxygen Collector
@@ -3344,9 +3344,9 @@ gtnh.quest834.desc=For every circuit you need a circuit board. Craft a coated ci
 gtnh.quest835.name=§5§4§3§lResistor
 gtnh.quest835.desc=Every basic circuit needs two resistors to work.%n%nThere are better versions you can make later.
 
-# Quest.836 - §5§lGallium Arsenide
-gtnh.quest836.name=§5§lGallium Arsenide
-gtnh.quest836.desc=The diode requires gallium arsenide, and you may be wondering how to get gallium or arsenic this early in the game.%n%nSphalerite and zinc are the primary sources of gallium at this tier.%n%nYou can find sphalerite in sulfur veins at Y 5-20, and the small zinc ores in the Overworld or the in the Nether at Y 80-210. You won't find much on the Overworld because of obvious reasons. To get additional zinc crushed ore drops, use a Tinker's Construct tool with the Luck (Fortune) enchant on it, probably the best use for all that lapis you got while looking for calcite. Or use a miner, if you don't mind how slow it is.%n%n- Sphalerite can be electrolyzed for a 25% chance of a tiny pile. It's not great, but it's easier to collect the ore. Make sure to go onto discord to complain about how you electrolyzed a stack to only get 3 tiny piles along with everyone else.%n- Zinc crushed ore can be washed and then thermal centrifuged or forge hammered and then centrifuged, both for tiny piles. But you don't always get the crushed ore as a drop, the impure dust doesn't give gallium.%n%nYou can get arsenic from realgar small ores in the Nether at Y 15-85. Centrifuge the dusts in a centrifuge.%n%nOther sources are Tinker's Construct cobalt ore in the nether and cobaltite ore in the Twilight Forest, but that requires MV Voltage. You also need to level up your pickaxe to ardite or make an Ironwood Pickaxe or LV Miner to harvest cobalt ore.%n%nAnother way to get gallium and arsenic is with XP buckets in a crafting grid if you're really desperate.%n%nMix those two dusts in a mixer to get gallium arsenic dust.
+# Quest.836 - §5§lGallium Arsenide Crystal
+gtnh.quest836.name=§5§lGallium Arsenide Crystal
+gtnh.quest836.desc=The diode requires gallium arsenide, and you may be wondering how to get gallium or arsenic this early in the game.%n%nSphalerite and zinc are the primary sources of gallium at this tier.%n%nYou can find sphalerite in sulfur veins at Y 5-20, and the small zinc ores in the Overworld or the in the Nether at Y 80-210. You won't find much on the Overworld because of obvious reasons. To get additional zinc crushed ore drops, use a Tinker's Construct tool with the Luck (Fortune) enchant on it, probably the best use for all that lapis you got while looking for calcite. Or use a miner, if you don't mind how slow it is.%n%n- Sphalerite can be electrolyzed for a 25% chance of a tiny pile. It's not great, but it's easier to collect the ore. Make sure to go onto discord to complain about how you electrolyzed a stack to only get 3 tiny piles along with everyone else.%n- Zinc crushed ore can be washed and then thermal centrifuged or forge hammered and then centrifuged. But you don't always get the crushed ore as a drop, the impure dust doesn't give gallium.%n%nYou can get arsenic from realgar small ores in the Nether at Y 15-85. Centrifuge the dusts in a centrifuge.%n%nOther sources are Tinker's Construct cobalt ore in the nether and cobaltite ore in the Twilight Forest. You can use your EBF for that. You also need to level up your pickaxe to ardite or make an Ironwood Pickaxe or LV Miner to harvest cobalt ore.%n%nAnother way to get gallium and arsenic is with XP buckets in a crafting grid if you're really desperate.%n%nWith your EBF you can combine these two dusts to make a Gallium Arsenide Crystal.
 
 # Quest.837 - §6§lILC and RAM
 gtnh.quest837.name=§6§lILC and RAM
@@ -3762,7 +3762,7 @@ gtnh.quest939.desc=Your hoe must be getting worn out by now. Why not craft an el
 
 # Quest.940 - §6§lCleanroom
 gtnh.quest940.name=§6§lCleanroom
-gtnh.quest940.desc=If you want to make more advanced (also cheaper!) circuits you'll need a cleanroom. The cleanroom is a multiblock between 3x4x3 and 15x15x15 (WxHxL) blocks. Besides plascrete blocks for all edges you'll need a controller in the top center, filter machine casings for the rest of the top except edges, an energy and maintenance hatch, a reinforced door (yes, this is always needed) and machine hulls if you want to automate. These are optional, for now, use them for power input, item input, and item output. Tier does not affect item transfer, so use the cheapest ones for that.%n%nLet's build a 5x5x5 room. Expanding it vertically is easy to do, or you can make it wider and longer, as long as both X and Z match and are odd. Up to 5% of the plascrete blocks can be replaced with Reinforced Glass to see into the cleanroom and check on machines.%n%nYou can pass materials through the walls using Machine Hulls. You can pass 1A of power using a Machine Hull as well, or you can use Diodes to pass multiple amps through.%n%nJust be really careful when upgrading your machines. Be sure to remove the machine hulls and diodes and replace them with the new power tier, or else you will be very sad. You don't need to do this for ones you only use to pass items through.%n%nIf the Cleanroom has maintenance issues, it will have a chance to void recipes needing a cleanroom (10% per maint issue!). Monitor your cleanroom with a Hand Scanner, Industrial Information Panel, or using a Needs Maintenance Cover and a Redstone Powered Light or Howler Alarm.%n%nAdditionally, the longer the door is open, the lower the efficiency will get, which has a direct correlation to recipe voiding. So open the door as little as possible! There are ways around this though, for example, with an elevator or travel anchor, you never actually need to open the door!%n%n§3Multiblocks such as the LCR, LPF, or PA count as cleanrooms, so you don't need to put them in one. You cannot use the bio lab in a PA, so you'll still need the cleanroom later on.%n%nOther helpful hints include: generating power inside the cleanroom, using a wireless connector for AE or a transvector interface to skip machine hulls, and that you can use higher tier energy hatches to reach 100% efficiency faster (does not use more power once at 100%).
+gtnh.quest940.desc=If you want to make more advanced (also cheaper!) circuits you'll need a cleanroom. The cleanroom is a multiblock between 3x4x3 and 15x15x15 (WxHxL) blocks. Besides plascrete blocks for all edges you'll need a controller in the top center, filter machine casings for the rest of the top except edges, an energy and maintenance hatch, a reinforced door (yes, this is always needed) and machine hulls if you want to automate. These are optional, for now, use them for power input, item input, and item output. Tier does not affect item transfer, so use the cheapest ones for that.%n%nLet's build a 5x5x5 room. Expanding it vertically is easy to do, or you can make it wider and longer, as long as both X and Z match and are odd. Up to 5% of the plascrete blocks can be replaced with Reinforced Glass to see into the cleanroom and check on machines.%n%nYou can pass materials through the walls using Machine Hulls. You can pass 1A of power using a Machine Hull as well, or you can use Diodes to pass multiple amps through.%n%nJust be really careful when upgrading your machines. Be sure to remove the machine hulls and diodes and replace them with the new power tier, or else you will be very sad. You don't need to do this for ones you only use to pass items through.%n%nIf the Cleanroom has maintenance issues, it will have a chance to void recipes needing a cleanroom (10% per maint issue!). Monitor your cleanroom with a Hand Scanner, Industrial Information Panel, or using a Needs Maintenance Cover and a Redstone Powered Light or Howler Alarm.%n%nAdditionally, the longer the door is open, the lower the efficiency will get, which has a direct correlation to recipe voiding. So open the door as little as possible! There are ways around this though, for example, with an elevator or travel anchor, you never actually need to open the door!%n%n§3Multiblocks such as the LCR, LPF, or PA count as cleanrooms, so you don't need to put them in one. You cannot use the bio lab in a PA, so you'll still need the cleanroom later on.%n%nOther helpful hints include: using a wireless connector for AE or a transvector interface to skip machine hulls, and that you can use higher tier energy hatches to reach 100% efficiency faster (does not use more power once at 100%).%n%n§cKeep in mind that you cannot use anything in the cleanroom that causes pollution or it will break down.
 
 # Quest.941 - §6§lA Very Useful Scanner
 gtnh.quest941.name=§6§lA Very Useful Scanner
@@ -4798,7 +4798,7 @@ gtnh.quest1198.desc=A mark II is nice, but why not make a mark III? %n%nIt will 
 
 # Quest.1199 - Making Americium
 gtnh.quest1199.name=Making Americium
-gtnh.quest1199.desc=Before you can upgrade your reactor, you will need to get some americium. The recipe will look pretty expensive, but once you made the next tier of reactor, you will unlock a simpler and cheaper one. You will need at least 128 plates for the reactor casings, 9 to scan for the recipe, and 4 to build one.
+gtnh.quest1199.desc=To upgrade your reactor further and to make UV motors, you will need to get some americium. The recipe is pretty expensive, but once you made the next tier of reactor, you will unlock a simpler and cheaper one. However, to get there you will need a lot of americium already, so better make sure you are producing enough lutetium.%n%nLet's start with just 48 ingots. Enough for a single UV motor.
 
 # Quest.1200 - §d§l§f§c§lMaking Power With Your Plasma
 gtnh.quest1200.name=§d§l§f§c§lMaking Power With Your Plasma
@@ -4806,7 +4806,7 @@ gtnh.quest1200.desc=Now that you have a reactor, it's time to utilize it to crea
 
 # Quest.1201 - §a§b§c§d§e§f§d§l§l§c§lTurbine Time
 gtnh.quest1201.name=§a§b§c§d§e§f§d§l§l§c§lTurbine Time
-gtnh.quest1201.desc=Your fancy new Large Plasma Turbine will need a rotor to go inside of it. %n%nYou can make it out of any GT material, but the best right now is NORMAL Draconium. §4Always test in Creative first!§r%n%nWhen using turbines, be careful of flow rates. To find the optimal flow rate, you divide the optimal energy flow rate listed on the turbine, by the energy value for the plasma. You can also use the Large Turbine Calculator (there's a link on the main spreadsheet, which is linked to in discord), or scan the multiblock's controller while feeding it a minimal amount of plasma to see what the optimal flow is. Make sure to use a Fluid Regulator set to this flow rate for highest fuel efficiency, or go beyond it to get more EU/t at a cost to efficiency, with Plasma Turbines being the best at retaining efficiency beyond the optimal flow.%n%nIf you go beyond the optimal flow, you will get a higher EU/t value, but less fuel efficiency, and the maximum EU/t value depends on the turbine type and its Overflow Efficiency tier. For this type of turbine, tier 1 reaches the max at 250% of optimal flow to produce 158% of the EU/t, tier 2 reaches the max at 400% of optimal flow to produce 214% of the EU/t and tier 3 reaches the max at 550% of optimal flow to produce 301% of the EU/t. The closer you get to this maximum, the more fuel efficiency you're throwing away.%n%nThe choice is yours!
+gtnh.quest1201.desc=Your fancy new Large Plasma Turbine will need a rotor to go inside of it. %n%nYou can make it out of any GT material, but the best right now is NORMAL Draconium. §4Always test in Creative first!§r%n%nWhen using turbines, be careful of flow rates. To find the optimal flow rate, you divide the optimal energy flow rate listed on the turbine, by the energy value for the plasma. You can also use the Large Turbine Calculator (there's a link on the main spreadsheet, which is linked to in discord), or scan the multiblock's controller while feeding it a minimal amount of plasma to see what the optimal flow is. Make sure to use a Fluid Regulator set to this flow rate for highest fuel efficiency, or go beyond it to get more EU/t at a cost to efficiency, with Plasma Turbines being the best at retaining efficiency beyond the optimal flow.%n%nIf you go beyond the optimal flow, you will get a higher EU/t value, but less fuel efficiency, and the maximum EU/t value depends on the turbine type and its Overflow Efficiency tier. For this type of turbine, tier 1 reaches the max at 250% of optimal flow to produce 158% of the EU/t, tier 2 reaches the max at 400% of optimal flow to produce 214% of the EU/t and tier 3 reaches the max at 550% of optimal flow to produce 301% of the EU/t. The closer you get to this maximum, the more fuel efficiency you're throwing away.%n%nThe choice is yours!%n%n§3For a lot of extra information on fusion, check out the new quest line called Powerful Nuclear Physics.
 
 # Quest.1202 - I Put Fusion in Your Fusion so you Can Fusion While You Fusion
 gtnh.quest1202.name=I Put Fusion in Your Fusion so you Can Fusion While You Fusion
@@ -4948,13 +4948,13 @@ gtnh.quest1235.desc=The Microprocessor is the highest tier version of the LV cir
 gtnh.quest1236.name=§9§lHV Cutting Machine
 gtnh.quest1236.desc=NOR, NAND and other high tier chips require an HV cutting machine.%n%n§3You'll soon find that everything you cut needs a cleanroom, so make sure you start on that.
 
-# Quest.1237 - §a§9§lGlowstone Doped Monocrystalline Silicon
-gtnh.quest1237.name=§a§9§lGlowstone Doped Monocrystalline Silicon
-gtnh.quest1237.desc=To make more advanced wafers, you need to make glowstone doped monocrystalline silicon first. The process takes a while, so make sure you have stable power.%n%nYou can also get more wafers, and thus more chips out of higher tier boules. You still need to make the lower tier ones sometimes though.
+# Quest.1237 - §a§9Phosphorus Doped Monocrystalline Silicon
+gtnh.quest1237.name=§a§9Phosphorus Doped Monocrystalline Silicon
+gtnh.quest1237.desc=To make more advanced wafers, you need to make phosphorus doped monocrystalline silicon first. The process takes a while, so make sure you have stable power.%n%nYou can also get more wafers, and thus more chips out of higher tier boules. You still need to make the lower tier ones sometimes though.
 
-# Quest.1238 - §9§lGlowstone Doped Wafer
-gtnh.quest1238.name=§9§lGlowstone Doped Wafer
-gtnh.quest1238.desc=To create some glowstone doped silicon wafers, cut them in a cutting machine. An HV version of the cutting machine is needed for future wafers and chips.
+# Quest.1238 - Phosphorus Doped Wafer
+gtnh.quest1238.name=Phosphorus Doped Wafer
+gtnh.quest1238.desc=To create some phosphorus doped silicon wafers, cut them in a cutting machine. An HV version of the cutting machine is needed for future wafers and chips.
 
 # Quest.1239 - §9§lNOR and NAND Chips
 gtnh.quest1239.name=§9§lNOR and NAND Chips
@@ -5608,9 +5608,9 @@ gtnh.quest1400.desc=Wand Focus: Blink is a very powerful focus allowing to telep
 gtnh.quest1401.name=Infuse Your Focus
 gtnh.quest1401.desc=Try to add Potency to your Shock Focus. At Level 3 you can add Chain Lightning or Shock Wave.
 
-# Quest.1402 - Iridium Screws
-gtnh.quest1402.name=Iridium Screws
-gtnh.quest1402.desc=Chrome screws are nice, but they seem to break if too much vis channels through them. Get some Iridium screws.
+# Quest.1402 - Oriharukon Screws
+gtnh.quest1402.name=Oriharukon Screws
+gtnh.quest1402.desc=Enderium screws are nice, but they seem to break if too much vis channels through them. Get some Oriharukon screws.
 
 # Quest.1403 - §9§lHV Steam Turbine
 gtnh.quest1403.name=§9§lHV Steam Turbine
@@ -5650,7 +5650,7 @@ gtnh.quest1411.desc=Platinum, Palladium, Iridium and Osmium can be extracted wit
 
 # Quest.1412 - §6§lAssembling Line
 gtnh.quest1412.name=§6§lAssembling Line
-gtnh.quest1412.desc=The assembling line (or 'Assline') is an important machine for high tier components in LuV tier and above for making Motors, Pistons, Robot Arms, Pumps and many more.%n%nThe multiblock can be 5-16 blocks long. The minimum length required depends on the number of components and fluids required by the recipe it's crafting. A length of 11 blocks will fit 80 percent of all recipes in GTNH.%n%nThe bottom layer must have on one outer side all the Input Hatches for fluids (4), in the bottom middle layer Input Busses for items (10), and on the end 1 Output Bus. Also on the bottom outer layer must be one Maintainance Hatch. The rest is Solid Steel Machine Casings.%n%nThe second layer on the outer sides left and right are Reinforced Glass and in the middle center Assembling Line Casing.%n%nThe third layer has on the left and right Grate Machine Casings and in the middle Assembler Machine Casings (Note the name change!). The Assembling Line control block and Data Access Hatch are on the opposite edge from the Input Hatches - not at the end with the Output Bus.%n%nThe fourth layer is a single line of Solid Steel Machine Casings in the middle (11), with two Energy Hatches for power. Once you have it built, you can replace the two IV energy hatches with 1 LuV energy hatch.%n%nAutomating the assline is God tier GTNH endgame. While it can be done with EnderIO, it's easier to use SFM or OpenComputers.%n%nFor more details on using the Assembly Line, check out the wiki page https://tinyurl.com/GTNH-Assline%n%n§3BTW the input busses are ULV to help with your automating, if you don't want to automate it, you can use higher tier ones, unlike the CAL.
+gtnh.quest1412.desc=The Assembling Line (or 'Assline') is an important machine for high tier components in LuV tier and above for making Motors, Pistons, Robot Arms, Pumps and many more.%n%nThe multiblock can be 5-16 blocks long. The minimum length required depends on the number of components and fluids required by the recipe it's crafting. A length of 11 blocks will fit 80 percent of all recipes in GTNH.%n%nThe bottom layer must have on one outer side all the Input Hatches for fluids (4), in the bottom middle layer Input Busses for items (10), and on the end 1 Output Bus. Also on the bottom outer layer must be one Maintainance Hatch. The rest is Solid Steel Machine Casings.%n%nThe second layer on the outer sides left and right are Reinforced Glass and in the middle center Assembling Line Casing.%n%nThe third layer has on the left and right Grate Machine Casings and in the middle Assembler Machine Casings (Note the name change!). The Assembling Line control block and Data Access Hatch are on the opposite edge from the Input Hatches - not at the end with the Output Bus.%n%nThe fourth layer is a single line of Solid Steel Machine Casings in the middle (11), with two Energy Hatches for power. Once you have it built, you can replace the two IV energy hatches with 1 LuV energy hatch.%n%nAutomating the assline is a difficult challenge! You can used advanced tooles like SFM or OpenComputers, but maybe you can figure out how to do it with Enderio or just AE2.%n%nFor more details on using the Assembly Line, check out the wiki page https://tinyurl.com/GTNH-Assline%n%n§3BTW the input busses are ULV to help with your automating, if you don't want to automate it, you can use higher tier ones, unlike the CAL.%n%nYou can have up to 16 input busses. If you use the full 16 you should put the output bus to the side.
 
 # Quest.1413 - §b§lYou're Gonna Hate This 1-4 in IV
 gtnh.quest1413.name=§b§lYou're Gonna Hate This 1-4 in IV
@@ -5664,17 +5664,17 @@ gtnh.quest1414.desc=Some machines need emitters and sensors, like the analyzer o
 gtnh.quest1415.name=§a§lPure Uranium Ores
 gtnh.quest1415.desc=If you want pure uranium ores for your nuke, you'll need to visit Deimos or Phobos to fetch them. They're at Y 20-30.
 
-# Quest.1416 - §a§lMallard Rust Smelly
-gtnh.quest1416.name=§a§lMallard Rust Smelly
-gtnh.quest1416.desc=Or is it Alloy Blast Smelter? Well, that makes more sense. This multiblock creates the higher tier alloys needed for the more advanced GT++ multiblocks. It directly smelts into liquids. You can even melt down metals like Tungsten faster too! Until you get better coils for your EBF at least.
+# Quest.1416 - §b§lMallard Rust Smelly
+gtnh.quest1416.name=§b§lMallard Rust Smelly
+gtnh.quest1416.desc=Or is it Alloy Blast Smelter? Well, that makes more sense. This multiblock creates the higher tier alloys needed for the more advanced GT++ multiblocks and your soldering needs. It directly smelts ingredients into liquids. You can even melt down metals like Tungsten faster too! Until you get better coils for your EBF at least.%n%n§3Can only have one energy hatch.%n%nThe GT++ multiblocks you can now make are optional, but quite powerful upgrades to your current singleblock setups. Not only do they provide more speed, they also have a bit of advanced functionality: you can also electrolyze materials without using cells or use a single multiblock for many different extruder shapes. They also act as cleanrooms where needed.
 
 # Quest.1417 - §6§lCough Cough - Something Needs to Be Done About the Smell
 gtnh.quest1417.name=§6§lCough Cough - Something Needs to Be Done About the Smell
 gtnh.quest1417.desc=Birds falling out of the sky, fish dead and floating belly up in the rivers, acid rain melting the ground...Time to start picking up the trash and cleaning up the air. Small black steel turbines should be fine for now. You'll need two amps of steady power to keep the scrubber working.%n%nThe detector's setting can be changed by clicking on the +/- texture with a screwdriver. Also, in general, better (and larger) turbines work better at cleaning up pollution. The code is too complex to fully explain here, but that's basically it. More EU turbine = more pollution cleaning turbine.%n%n§4This quest covers one method of combating pollution - there are others, including not making as much to begin with.
 
-# Quest.1418 - §c§9§a§lEU packets flowing everywhere...
-gtnh.quest1418.name=§c§9§a§lEU packets flowing everywhere...
-gtnh.quest1418.desc=...in my dreams. What if instead of having battery packs on every generator, we could centralize all the generation in one location? Put it away from the well travelled parts of the the base? Out in the country somewhere?  Let the animals deal with the pollution.  Anyways, let's start working on a Power Sub-Station to store EU and deliver it to our base.%n%n§3This multi is IV.
+# Quest.1418 - §b§lEU packets flowing everywhere...
+gtnh.quest1418.name=§b§lEU packets flowing everywhere...
+gtnh.quest1418.desc=...in my dreams. What if instead of having battery packs on every generator, we could centralize all the generation in one location? Put it away from the well travelled parts of the the base? Out in the country somewhere?  Let the animals deal with the pollution.  Anyways, let's start working on a Power Sub-Station to store EU and deliver it to our base.
 
 # Quest.1419 - Who Cares About a Little Cancer...
 gtnh.quest1419.name=Who Cares About a Little Cancer...
@@ -5686,7 +5686,7 @@ gtnh.quest1420.desc=...out of the purified ores. Anyways, a Large Sifter will in
 
 # Quest.1421 - Hulk Smash!
 gtnh.quest1421.name=Hulk Smash!
-gtnh.quest1421.desc=Mass destruction! Or at least, lots and lots of crushed ores. Build a maceration statck to keep up with all the ores you are getting.%n%n§3This multi is IV, but uses a ZPM circuit. Also has 33% bonus output.
+gtnh.quest1421.desc=Mass destruction! Or at least, lots and lots of crushed ores. Build a maceration statck to keep up with all the ores you are getting.%n%n§3This multi is IV, but uses a ZPM circuit. Also has 33% bonus output on byproducts.
 
 # Quest.1422 - The rocks in the washer...
 gtnh.quest1422.name=The rocks in the washer...
@@ -6486,7 +6486,7 @@ gtnh.quest1620.desc=Putting Benzene and Ethylene in the Chemical Reactor gives y
 
 # Quest.1621 - §c§lFluid TP for Magic-Haters
 gtnh.quest1621.name=§c§lFluid TP for Magic-Haters
-gtnh.quest1621.desc=Hate magic, but still want to TP fluids? TT has your back with the much slower (but also less laggy, maybe) Ender Fluid Link Cover!%n%nPlace one on a tank and open the GUI.%nColor: Links to same color.%n%nPublic: Links to any of the same color not set to private. Use an internet program to find out what the numbers mean, and get colors you like.%nPrivate: Does not link to public version of that color. Meaningless in SP.%n%nImport: Exports from attached tank.%nExport: Send to attached tank.%n%nYou can use multiple as inputs and/or outputs. Currently runs at 400L/t, regardless of what the wiki or code variable name says.%n%nYou can send §ofrom§r an output hatch or §oto§r an input hatch for multis. Probably won't work well for anything with multiple I/O, like a SB Chemical Reactor.
+gtnh.quest1621.desc=Hate magic (and fluid P2P), but still want to TP fluids? TT has your back with the Ender Fluid Link Cover!%n%nPlace one on a tank and open the GUI.%nColor: Links to same color.%n%nPublic: Links to any of the same color not set to private. Use an internet program to find out what the numbers mean, and get colors you like.%nPrivate: Does not link to public version of that color. Meaningless in SP.%n%nImport: Exports from attached tank.%nExport: Send to attached tank.%n%nYou can use multiple as inputs and/or outputs. It runs at 8000L/t.%n%nYou can send §ofrom§r an output hatch or §oto§r an input hatch for multis. Probably won't work well for anything with multiple I/O, like a SB Chemical Reactor.
 
 # Quest.1622 - §9§lRaw Styrene-Butadiene Rubber
 gtnh.quest1622.name=§9§lRaw Styrene-Butadiene Rubber
@@ -6682,7 +6682,7 @@ gtnh.quest1669.desc=The IV circuit assembler will let you make easier MV circuit
 
 # Quest.1670 - §b§lNaquadah Doped Monocrystalline Silicon
 gtnh.quest1670.name=§b§lNaquadah Doped Monocrystalline Silicon
-gtnh.quest1670.desc=To make more advanced wafers, you need to make the naquadah dopped monocrystalline silicon first. The process takes 750 seconds and requires silicon blocks and a naquadah ingot in the Electric Blast Furnace. You can make 64 wafers out of every boule.
+gtnh.quest1670.desc=To make more advanced wafers, you need to make the naquadah dopped monocrystalline silicon first. The process takes 750 seconds and requires silicon solar grade blocks, a naquadah ingot and a gallium arsenice crystal in the Electric Blast Furnace. You can make 64 wafers out of every boule.
 
 # Quest.1671 - §b§lNaquadah Doped Wafer
 gtnh.quest1671.name=§b§lNaquadah Doped Wafer
@@ -6978,7 +6978,7 @@ gtnh.quest1743.desc=Mars is rich in Salt Water and Chlorobenzene. If you run low
 
 # Quest.1744 - §6§lChemical Lesson, Part Two
 gtnh.quest1744.name=§6§lChemical Lesson, Part Two
-gtnh.quest1744.desc=More advanced recipes need an MV chemical reactor.
+gtnh.quest1744.desc=More advanced recipes need an MV chemical reactor. It also speeds up your existing recipes.
 
 # Quest.1745 - Welcome to OpenComputers!
 gtnh.quest1745.name=Welcome to OpenComputers!
@@ -7046,7 +7046,7 @@ gtnh.quest1760.desc=This block allows our computer to interact with GT machines 
 
 # Quest.1761 - Hello World!
 gtnh.quest1761.name=Hello World!
-gtnh.quest1761.desc=First things first, let's install OpenOS to the computer so you don't always need disk in the drive. Type in 'install' and then type 'Y' when asked if you wish to install OpenOS.     %n%nWhen finished, remove the disk and toss it on your wall and reboot the computer.%n%nType 'df' to display all present file systems and mount points, you'll notice one named OpenOS; this is your hard drive's default name after installing the OS.%n%nLet's change it with 'label set -a OpenOS HDD', '-a' checks for names starting with what you type after it with that command. §3<-- part of this is apparently wrong? Thanks for the non-ticket explaining what part, guys.§r%n%nNow for fun, let's make your first program! How about something functional, make a with 'edit startup' this will bring you to an edit page for a new program called startup. Let's just have it do something simple, 'print("Hello World!")' Like that'll never get old.%n%nNow press Ctrl+S to save, and Ctrl+W to get out of that screen. Back in your home root let's now type startup and you'll see it display "Hello World!"  neat huh?%n%nLet's now make startup actually work on startup. Type 'edit .shrc' .shrc is a mystic file that runs shell commands when booting your PC. So in .shrc type 'startup' save and reboot the computer. Now it should say "Hello World!" upon starting. Double neat right?
+gtnh.quest1761.desc=First things first, let's install OpenOS to the computer so you don't always need disk in the drive. Type in 'install' and then type 'Y' when asked if you wish to install OpenOS.     %n%nWhen finished, remove the disk and toss it on your wall and reboot the computer.%n%nType 'df' to display all present file systems and mount points, you'll notice one named OpenOS; this is your hard drive's default name after installing the OS.%n%nLet's change it with 'label -a OpenOS HDD', '-a' checks for names starting with what you type after it with that command. §3<-- part of this is apparently wrong? Thanks for the non-ticket explaining what part, guys.§r%n%nNow for fun, let's make your first program! How about something functional, make a with 'edit startup' this will bring you to an edit page for a new program called startup. Let's just have it do something simple, 'print("Hello World!")' Like that'll never get old.%n%nNow press Ctrl+S to save, and Ctrl+W to get out of that screen. Back in your home root let's now type startup and you'll see it display "Hello World!"  neat huh?%n%nLet's now make startup actually work on startup. Type 'edit .shrc' .shrc is a mystic file that runs shell commands when booting your PC. So in .shrc type 'startup' save and reboot the computer. Now it should say "Hello World!" upon starting. Double neat right?
 
 # Quest.1762 - I Love Pressing the F5 Key.
 gtnh.quest1762.name=I Love Pressing the F5 Key.
@@ -7274,11 +7274,11 @@ gtnh.quest1817.desc=To process more advanced materials like Cosmic Neutronium, T
 
 # Quest.1818 - §6§lLarge Essentia Generator
 gtnh.quest1818.name=§6§lLarge Essentia Generator
-gtnh.quest1818.desc=Having one Essentia Generator per Essentia type seeems unpracticable.... Better make a Large Essentia Generator and burn all this Essentia in parallel! As another Bonus, this Generator produces 20x the Energy a Single Block Machine will produce. You might need more Magic Containment Casings than this Quest asks for.%n%n§4PS: This is apparently super buggy and may or may not work.
+gtnh.quest1818.desc=Having one Essentia Generator per Essentia type seeems impractical... Better make a Large Essentia Generator and burn all the Essentia in parallel! As another bonus, this generator produces 20x the energy a single block machine will produce. You might need more Magic Containment Casings than this quest asks for.%n%n§4PS: This is apparently super buggy and may or may not work.
 
-# Quest.1819 - §6§lCircuit Programmer
-gtnh.quest1819.name=§6§lCircuit Programmer
-gtnh.quest1819.desc=The Circuit Programmer is a useful tool that will enable you to program integrated circuits without having to deal with 24 different crafting recipes. Just charge it, put the Integrated Circuit in it and click on the Number you want it to be programmed to.
+# Quest.1819 - §6§lSilicon Dioxide
+gtnh.quest1819.name=§6§lSilicon Dioxide
+gtnh.quest1819.desc=Get yourself some Silicon Dioxide! Smelting it in your EBF with some carbon is the best way to obtain raw silicon ingots. It is used it a few places but most importantly you can macerate it back down to raw silicon dust. You can also turn the silicon dioxide into raw silicon dust via chemical processes using aluminium or magnesium.%n%nYou can get silicon dioxide easily by centrifuging glass dust or electrolyzing sand.%n%nIf you have raw silicon dust but want silicon dioxide for some reason, you can use an arc furnace or an autoclave.
 
 # Quest.1820 - §6§lLapotronic Energy Storage Unit
 gtnh.quest1820.name=§6§lLapotronic Energy Storage Unit
@@ -8030,7 +8030,7 @@ gtnh.quest2006.desc=Welcome to TecTech! The pinnacle of absolute high-tier machi
 
 # Quest.2007 - Quantum Computer
 gtnh.quest2007.name=Quantum Computer
-gtnh.quest2007.desc=One of the most incredibly complicated machines, this will serve as the main structure for your "Computation" generation for the Research Station. %n%nFirst, you'll need a few things: the Quantum Computer itself, The Uncertainty Resolver, some good circuits and the Computer Racks to hold them, and at least a UV energy hatch (UV 4A suggested). The QC will consume 1A of UV, and each CR will use one more. So another important factor is to ONLY turn on the Quantum Computer once you have the desired recipe for the Research Station ready to avoid excess energy loss. Remember to turn the QC on BEFORE the RS. In order for you to build this absolute monster, you'll need to place down the Quantum Computer at least 1 block above the surface/ground and use the Multiblock Structure Hologram Projector to see where to place everything. The blocks with no dots next to the vents indicate that that space must be empty.%n%nUncertainty Resolver:%nMuch like a puzzle-solving simulation, it is rather complicated to explain how to solve it, but it's often best just to retrace or undo certain actions and hope for the best. Sometimes, the Schrödinger Status will require some puzzle solving again after a period of time. This is random and incredibly frustrating, especially during operations being done between the Research Station and Quantum Computer(s), so it is important to constantly check the Uncertainty Resolver before you start operations on your Computer. If the puzzle looks too hard or you can't complete it, just remove it and the controller and re-place them to get a different puzzle.%n%nComputer Racks:%nThe main component within the multiblock to generate Computation. In order to achieve this, you will need to input some circuits and ic2 heat vents; Advanced Heat Vents work best. It is critical that you use Heat Vents to prevent the heat from reaching a catastrophic point, 55 percent or above should be avoided for safety reasons. Technically, you could achieve above 55 percent heat capacity or 5500 heat capacity, however the Computer Racks may melt or explode above 5600 or 6000 heat. You can see this for individual Racks by scanning them. You cannot remove or input components until the heat is gone. You can see the overall heat value in the controller's interface. And most importantly: DO NOT WRENCH THE COMPUTER RACKS IF THEY HAVE HEAT IN THEM. Otherwise, you're going to get an explosion.%n%nComputation:%nComputation is generated every second and is based on the tier of your circuit. There are, however, differences in between how much computation is generated, even with the same exact tier. For instance, you could use a Master Quantum Computer (Quantum Circuit Series / LuV) or a Wetwareprocessor (Wetware Circuit Series / LuV) which will give you more Computation even though they are of the same tier. If you wish to find out exactly how much Computation a circuit gives; place down a Computer Rack, put a circuit inside and scan it. You can also see the total computation in the controller.%n%nIt will include the following information.%nBase computation: %nAfter overclocking: <numbers, same as above unless you specially overclock it>%nHeat Accumulated: <numbers, based on circuits and heat vents, keep a watchful eye on this part as it's extremely important>%n%nUsing the Parametrizer you can overclock and overvolt, but you never need to, so you may or may not wish to try it.%n%nSending Computation to the Research Station:%nUse the Optical Master Connector in one of the variable spaces on the QC, and the Optical Slave Connector on the RS. Use Optical Fiber Cable to connect them, and make sure to paint all three.%n%nSuggested Build:%nNow that you've understood the concepts and safety of handling of the QC, what are the more optimal setups for your Quantum Computer? For now, I'll suggest 2 racks with 3 Ultimate Crystalcomputers each, and of course 1 Advanced Heat Vent. Do keep in mind that this 156 C/s setup can complete practically 3/4s of the recipes in the Research Station. This is a rather minimal setup compared to some of the more complicated setups.%n%nNow that you understand the QC, it's time to build it! You'll need to gather quite a lot of resources.
+gtnh.quest2007.desc=One of the most incredibly complicated machines, this will serve as the main structure for your Computation generation for the Research Station. %n%nFirst, you'll need a few things: the Quantum Computer itself, The Uncertainty Resolver, some good circuits and the Computer Racks to hold them, and at least a UV energy hatch (maybe start with a UV 4A energy hatch). The QC will consume 1A of UV, and each rack will use one more. So another important factor is to ONLY turn on the Quantum Computer once you have the desired recipe for the Research Station ready to avoid excess energy loss. Remember to turn the QC on BEFORE the RS. In order for you to build this absolute monster, you'll need to place down the Quantum Computer at least 1 block above the surface/ground and use the Multiblock Structure Hologram Projector to see where to place everything. The blocks with no dots next to the vents indicate that that space must be empty. Later you'll want to build a bigger QC. Use a stack of multiple Hologram Projectors to see how that is build. If at some point even a maximum size QC with 24 racks is no longer sufficient, you can also chain multiple QCs. For now, let us focus on a basic setup.%n%nUncertainty Resolver:%nA mini-game that might take you a bit to understand. Your goal is to balance the lights around the focal points. Sometimes, the Schrödinger Status will require some puzzle solving again after a period of time. This is random and incredibly frustrating, especially during operations being done between the Research Station and Quantum Computer(s), so it is important to constantly check the Uncertainty Resolver before you start operations on your Computer. If the puzzle looks too hard or you can't complete it, just remove it and the controller and re-place them to get a different puzzle.%n%nComputer Racks:%nThe main component within the multiblock to generate Computation. In order to achieve this, you will need to input some circuits and ic2 heat vents; Advanced Heat Vents work best. It is critical that you use Heat Vents to prevent the heat from reaching a catastrophic point. Computer Racks will always melt or explode about 9000 heat (also written as 90 percent, 10000 being 100 percent) but most circuits have much lower thresholds. For our example here we will use Ultimate Crystalcomputers. With these, any heat above 54 percent should be avoided for safety reasons! The maximum heat will be different for different circuits, even if they are of the same tier. You can see the heat for individual racks by scanning them. You cannot remove or insert components until the heat is gone. You can see the overall heat value in the controller's interface. And most importantly: DO NOT WRENCH THE COMPUTER RACKS IF THEY HAVE HEAT IN THEM. Otherwise, you're going to get an explosion.%n%nComputation:%nComputation is generated every second and is based on the tier of your circuit. There are, however, differences in between how much computation is generated, even with the same exact tier. For instance, you could use a Master Quantum Computer (Quantum Circuit Series / LuV) or a Wetwareprocessor (Wetware Circuit Series / LuV) which will give you more Computation even though they are of the same tier. If you wish to find out exactly how much Computation a circuit gives; place down a Computer Rack, put a circuit inside and scan it. You can also see the total computation in the controller.%n%nIt will include the following information.%nBase computation: %nAfter overclocking: <same as above unless you specially overclock it>%nHeat Accumulated: <based on circuits and heat vents, keep a watchful eye on this part as it's extremely important>%n%nYou can find an overview of circuits with their maximum heat and Computation generation on the GTNH wiki.%n%nUsing the Parametrizer you can overclock and overvolt the QC, but we won't do so for our example setup here.%n%nSending Computation to the Research Station:%nUse the Optical Master Connector in one of the variable spaces on the QC, and the Optical Slave Connector on the RS. Use Optical Fiber Cable to connect them, and make sure to paint all three.%n%nExample setup:%nNow that you've understood the concepts and safety of handling of the QC, what are the more optimal setups for your Quantum Computer? For now, we suggest 2 racks with 3 Ultimate Crystalcomputers each, and of course 1 Advanced Heat Vent. This gives you 156 C/s and will get you started with recipes in the Research Station. This is a rather minimal setup though, you should probably think about more optimized (or just larger) setups later!%n%nNow that you understand the QC, it's time to build it! You'll need to gather quite a lot of resources.
 
 # Quest.2008 - Research Station
 gtnh.quest2008.name=Research Station
@@ -8442,7 +8442,7 @@ gtnh.quest2109.desc=This database tracks all your knowledge of butterflies.%n%nB
 
 # Quest.2110 - §6§lSpeeding Up Slow Machines
 gtnh.quest2110.name=§6§lSpeeding Up Slow Machines
-gtnh.quest2110.desc=Many mods don't have methods of speeding up their slow machines. For this, you'll need a GregTech World Accelerator. It guzzles amps though, so your power infrastructure better be ready for it. The tooltip will list the performance boost provided. For block-based acceleration, the WA will do an area around it. For TileEntities like most machines, it will only accelerate the blocks directly touching the WA, and will need to be reconfigured with a screwdriver. This uses twice the power though.%n%n§4This does not work with GregTech machines!§r For those, build more or higher tier ones.%n%nIf you want, you can change the level of acceleration by using a wrench on it. It will go back to the minimum, then increase one tier from there for every usage. It will use that tier's amount of power (and acceleration), increasing as per GT standard of 2x speed (acceleration) and 4x EU per tier.%n%n§3Even though it says 8A, this is just what it can accept, not what it uses. It's 3A in block mode, and 6A in TE mode.
+gtnh.quest2110.desc=Many mods don't have methods of speeding up their slow machines. For this, you'll need a GregTech World Accelerator. It guzzles amps though, so your power infrastructure better be ready for it. The tooltip will list the performance boost provided. For block-based acceleration, the WA will do an area around it. For TileEntities like most machines, it will only accelerate the blocks directly touching the WA, and will need to be reconfigured with a screwdriver. This uses twice the power though.%n%n§4This does not work with GregTech machines!§r For those, build more or higher tier ones.%n%nIf you want, you can change the level of acceleration by using a wrench on it. It will go back to the minimum, then increase one tier from there for every usage. It will use that tier's amount of power (and acceleration), increasing as per GT standard of 2x speed (acceleration) and 4x EU per tier.
 
 # Quest.2111 - Hail to the King
 gtnh.quest2111.name=Hail to the King
@@ -9214,7 +9214,7 @@ gtnh.quest2302.desc=The Refined Platinum Salt can be heated to evaporate the las
 
 # Quest.2303 - §b§lPalladium Processing
 gtnh.quest2303.name=§b§lPalladium Processing
-gtnh.quest2303.desc=Palladium is a rather useful Platinum Group Metal, necessary to make all machines in LuV.%n%nThis questline will help you figure out how to process it properly.%n%nFirst, process s§h§some of your Palladium Enriched Ammonia to Palladium Salt Dust.
+gtnh.quest2303.desc=Palladium is a rather useful Platinum Group Metal, necessary to make all machines in LuV.%n%nThis questline will help you figure out how to process it properly.%n%nFirst, process some of your Palladium Enriched Ammonia to Palladium Salt Dust.
 
 # Quest.2304 - §b§lPlatinum Group Processing - All the Other Metals
 gtnh.quest2304.name=§b§lPlatinum Group Processing - All the Other Metals
@@ -9578,15 +9578,15 @@ gtnh.quest2393.desc=With a Chemical Reactor, you can make Fertilized Earth. It t
 
 # Quest.2394 - Hydrazine
 gtnh.quest2394.name=Hydrazine
-gtnh.quest2394.desc=Hydrazine is made from Ammonia and Hydrogen Peroxide.%n%n§4You also need hydrogen peroxide, but the BW one overrides the GT++ one. Use it as a fluid to proceed, don't put it in a cell.%n%nHydrazine also removed in case bot breaks that too.
+gtnh.quest2394.desc=Hydrazine is made from Ammonia and Hydrogen Peroxide.%n%n§4Hydrogen Peroxide Cell is overridden by BW one. Use tanks or Universal Cells or large cells to proceed, don't put it in a cell.
 
-# Quest.2395 - Formaldehyde Catalyst Dust
-gtnh.quest2395.name=Formaldehyde Catalyst Dust
-gtnh.quest2395.desc=Making Formaldehyde will require a catalyst. You can make this by mixing Iron and Vanadium.
+# Quest.2395 - Formaldehyde Catalyst
+gtnh.quest2395.name=Formaldehyde Catalyst
+gtnh.quest2395.desc=Making Formaldehyde will require a catalyst. You can make this by mixing Iron and Vanadium, and stuffing into carrior.
 
 # Quest.2396 - Hydrogen Peroxide
 gtnh.quest2396.name=Hydrogen Peroxide
-gtnh.quest2396.desc=To make Hydrogen Peroxide you combine Air, 2-Ethylanthrahydroquinone, and Anthracene in a Chemical Plant.
+gtnh.quest2396.desc=To make Hydrogen Peroxide you combine Air (or Oxygen), 2-Ethylanthrahydroquinone, and Anthracene in a Chemical Plant.%n%nYou can fully recycle 2-Ethylanthraquinone, so don't make bunch of them.
 
 # Quest.2397 - Playing With the Big Boys, Chemically
 gtnh.quest2397.name=Playing With the Big Boys, Chemically
@@ -10222,7 +10222,7 @@ gtnh.quest2554.desc=Bugs everywhere! These damned bastards! Better run away quic
 
 # Quest.2555 - Underground Fluids
 gtnh.quest2555.name=Underground Fluids
-gtnh.quest2555.desc=So you're probably wondering what all the underground fluids are, so here's a list. They're sorted by rocket tier and planet. Any Dims not listed have none.%n%n§cThis list is subject to change due to balancing at any time!§r%n%n§2Example:%n%nTier X:%nDimension/Planet%nFluid <Number that represents how likely it is for this fluid to show up> <Number that represents how much can be present in any 8x8 UF chunk. They are 0-# unless otherwise specified>%nOther fluid that is also present <same as above> <same as above>%nEtc§r%n%n%n§5Tier 0:§r%nOverworld%nNatural Gas 20 350%nOil 20 625%nRaw Oil 20 625%nLight Oil 20 625%nHeavy Oil 20 625%n%n%n§5Tier 1:§r%nMoon%nHelium-3 100 425%nSalt water 20 200%n%n%n§5Tier 2:§r%nMars%nChlorobenzene 100 400%nSalt Water 100 400%n%n%n§5Tier 3:§r%nCallisto%nLiquid Air 100 2-20%nOxygen 100 200%n%nEuropa%nDistilled Water 80 3500%nSalt Water 100 800%nVery Heavy Oil 20 200%n%nRoss128b%nDistilled Water 100 5000%nLava 5 820%nNatural Gas 65 625%nVery Heavy Oil 40 625%n%n%n§5Tier 4:§r%nIo%nCarbon Dioxide 80 750%nMolten Lead 20 650%nSulfuric Acid 80 350%n%nMercury%nHelium-3 100 800%nMolten Iron 30 400%n%nVenus%nCarbon Dioxide 100 1500%nMolten Lead 100 1600%nSulfuric Acid 100 250%n%n%n§5Tier 5:§r%nMiranda%nHydrogen Sulfide 100 900%n%nOberon%nCarbon Monoxide 100 2000%n%nRoss128ba%nHelium-3 60 1250%nSalt Water 40 1250%n%nTitan%nEthane 100 200%nMethane 100 800%n%n%n§5Tier 6:§r%nProteus%nDeuterium 100 700%n%nTriton%nEthylene 100 800%nNitrogen 100 800%n%n%n§5Tier 7:§r%nMakemake%nHydrofluoric Acid 80 300%n%nPluto%nFluorine 80 4-800%nLiquid Air 40 4-40%nNitrogen 100 800%nOxygen 100 800%n%n%n§5Tier 8:§r%nAlpha Centauri Bb%nMolten Copper 10 300%n%nBarnarda C%nDistilled Water 100 8000%nUnknown Water 100 300%nVery Heavy Oil 100 800%n%nBarnarda E%nLiquid Air 20 20%n%nBarnarda F%nMolten Tin 15 400%n%nTau Ceti E%nDistilled Water 100 10000%nHydrogen 50 700%nVery Heavy Oil 100 200
+gtnh.quest2555.desc=So you're probably wondering what all the underground fluids are, so here's a list. They're sorted by rocket tier and planet. Any Dims not listed have none.%n%n§cThis list is subject to change due to balancing at any time!§r%n%n§2Example:%n%nTier X:%nDimension/Planet%nFluid <Number that represents how likely it is for this fluid to show up> <Number that represents how much can be present in any 8x8 UF chunk. They are 0-# unless otherwise specified>%nOther fluid that is also present <same as above> <same as above>%nEtc§r%n%n%n§5Tier 0:§r%nOverworld%nNatural Gas 20 350%nOil 20 625%nRaw Oil 20 625%nLight Oil 20 625%nHeavy Oil 20 625%n%n%n§5Tier 1:§r%nMoon%nHelium-3 100 425%nSalt water 20 200%n%n%n§5Tier 2:§r%nMars%nChlorobenzene 100 400%nSalt Water 100 400%n%n%n§5Tier 3:§r%nCallisto%nLiquid Air 100 2-200%nOxygen 100 200%n%nEuropa%nDistilled Water 80 3500%nSalt Water 100 800%nVery Heavy Oil 20 200%n%nRoss128b%nDistilled Water 100 5000%nLava 5 820%nNatural Gas 65 625%nVery Heavy Oil 40 625%n%n%n§5Tier 4:§r%nIo%nCarbon Dioxide 80 750%nMolten Lead 20 650%nSulfuric Acid 80 350%n%nMercury%nHelium-3 100 800%nMolten Iron 30 400%n%nVenus%nCarbon Dioxide 100 1500%nMolten Lead 100 1600%nSulfuric Acid 100 250%n%n%n§5Tier 5:§r%nMiranda%nHydrogen Sulfide 100 900%n%nOberon%nCarbon Monoxide 100 2000%n%nRoss128ba%nHelium-3 60 1250%nSalt Water 40 1250%n%nTitan%nEthane 100 200%nMethane 100 800%n%n%n§5Tier 6:§r%nProteus%nDeuterium 100 700%n%nTriton%nEthylene 100 800%nNitrogen 100 800%n%n%n§5Tier 7:§r%nMakemake%nHydrofluoric Acid 80 300%n%nPluto%nFluorine 80 4-800%nLiquid Air 40 4-300%nNitrogen 100 800%nOxygen 100 800%n%n%n§5Tier 8:§r%nAlpha Centauri Bb%nMolten Copper 10 300%n%nBarnarda C%nDistilled Water 100 8000%nUnknown Water 100 300%nVery Heavy Oil 100 800%n%nBarnarda E%nLiquid Air 20 400%n%nBarnarda F%nMolten Tin 15 400%n%nTau Ceti E%nDistilled Water 100 10000%nHydrogen 50 700%nVery Heavy Oil 100 200
 
 # Quest.2556 - §6§lBetter Glass Upgrade, EV Glass
 gtnh.quest2556.name=§6§lBetter Glass Upgrade, EV Glass
@@ -10358,7 +10358,7 @@ gtnh.quest2588.desc=Eternal singularity, requires nearly every resource in GTNH 
 
 # Quest.2589 - Infinite Oxygen Tank
 gtnh.quest2589.name=Infinite Oxygen Tank
-gtnh.quest2589.desc=Provides infinite oxygen, can only be used to refill tanks and cannot be put into your primary oxygen slot unfortunately.
+gtnh.quest2589.desc=Provides infinite oxygen. In the past you could only use it to refill tanks. But now you can just put it in your oxygen slot!
 
 # Quest.2590 - You Know the Drill
 gtnh.quest2590.name=You Know the Drill
@@ -10372,9 +10372,9 @@ gtnh.quest2591.desc=BTW, it doesn't actually hold more, you can just I/O faster.
 gtnh.quest2592.name=Papaya
 gtnh.quest2592.desc=The Papaya tree produces Papayas, which produce the most Fruice Juice. Sluuuurp!%n%n§aPapaya and Fruit Juice Get!
 
-# Quest.2593 - Welcome to Hell
-gtnh.quest2593.name=Welcome to Hell
-gtnh.quest2593.desc=Congratulations, you've beaten the easy part of the pack. Time for some real challenges, show your certificate to me so we can proceed.
+# Quest.2593 - The Door to Heaven?
+gtnh.quest2593.name=The Door to Heaven?
+gtnh.quest2593.desc=Congratulations, you've beaten the most of the pack! If you show your certificate you may procede for one absolutely outrageous final challenge.
 
 # Quest.2594 - You'll Probably Need Quite a Few of These
 gtnh.quest2594.name=You'll Probably Need Quite a Few of These
@@ -10406,7 +10406,7 @@ gtnh.quest2600.desc=To make the Circuit Assembly Line imprints you'll need a bun
 
 # Quest.2601 - §c§l§6§e§6§lCircuit Assembly Line
 gtnh.quest2601.name=§c§l§6§e§6§lCircuit Assembly Line
-gtnh.quest2601.desc=You'll need all of this to create 4 CALs, enough for a single series of circuits. If you only want one (for the microprocessors for example), just divide by 4.%n%nAssuming you got the necessary imprints on the LuV tab, you can now craft the CALs for the crystalprocessor series. We're starting with 4 since you'll need one per circuit, the imprint is not removable. And yes this means you need one for every circuit type you want to make with the CAL.%n%nAs an Assembly Line, it generally works like the normal one, with different items in each bus, but since it's only one item per CAL, it's far easier to use, and the recipe is cheaper too.%n%nThe CAL uses 'wraps' to make 16 of a circuit at a time (aside from ULV and LV circuits), saving you time, EU, and Soldering Alloy. You make the wraps in an Assembler with 16 of the item and Polyethylene.%n%n§3BTW you can change out the Input Hatch and the Energy Hatch, but the I/O busses need to be ULV.
+gtnh.quest2601.desc=You'll need all of this to create 4 CALs, enough for a single series of circuits. If you only want one (for the microprocessors for example), just divide by 4.%n%nAssuming you got the necessary imprints on the LuV tab, you can now craft the CALs for the crystalprocessor series. We're starting with 4 since you'll need one per circuit, the imprint is not removable. And yes this means you need one for every circuit type you want to make with the CAL.%n%nAs an Assembly Line, it generally works like the normal one, with different items in each bus, but since it's only one item per CAL, it's far easier to use, and the recipe is cheaper too.%n%nThe CAL uses 'wraps' to make 16 of a circuit at a time (aside from ULV and LV circuits), saving you time, EU, and Soldering Alloy. You make the wraps in an Assembler with 16 of the item and Polyethylene.%n%n§3BTW you can change out the Hatches and Busses for better ones, but you still need to keep ingredient order. Also CAL grants perfect overclock.
 
 # Quest.2602 - §c§lImprints, They're Important
 gtnh.quest2602.name=§c§lImprints, They're Important
@@ -10414,7 +10414,7 @@ gtnh.quest2602.desc=Now that you've finally gotten all the materials to make you
 
 # Quest.2603 - §c§lFetching Tellurium
 gtnh.quest2603.name=§c§lFetching Tellurium
-gtnh.quest2603.desc=For Tellurium, you can do it these ways:%n%n1) EBF Crushed Lead Ore for 2 Tellurium Nuggets%n2) If you have old worldgen, you can get it from Temagamite practically anywhere (it was broken so it currently doesn't generate), or Mercury if it's been fixed%n3) Make Rare Earth (III) out of Rare Earth using the strongest of acids and get it from Alburnite%n4) Toxic Everglades again
+gtnh.quest2603.desc=For Tellurium, you can do it these ways:%n%n1) EBF Crushed Lead Ore for 2 Tellurium Nuggets%n2) If you have old worldgen, you can get it from Temagamite practically anywhere (it was broken so it currently doesn't generate), or Mercury if it's been fixed%n3) Make Rare Earth (III) out of Rare Earth using the strongest of acids and get it from Alburnite%n4) Toxic Everglades again%n5) Once you have a Void Miner, you can place it in the Overworld to obtain Tellurium.
 
 # Quest.2604 - §c§lFetching Cubic Zirconia
 gtnh.quest2604.name=§c§lFetching Cubic Zirconia
@@ -10606,7 +10606,7 @@ gtnh.quest2650.desc=To make Wetware Circuits, you'll need to make a Wetware Life
 
 # Quest.2651 - This is Not How You Make Cheese
 gtnh.quest2651.name=This is Not How You Make Cheese
-gtnh.quest2651.desc=In order to make Wetware circuits, you'll need Sterilized Growth Medium and Stemcells, so let's get started on those, ok?%n%nTo get anywhere, first you need Bacteria. You can get this through the vat or the brewing machine. If you do it the vat way, you'll need to use Bismuth rods for the radiation, and have EV-tier glass. There are also 3 recipes, so you can use a higher tier one later if you like. You can also make liquid Growth Medium the same way. The vat way is more item-efficient, but more complicated.%n%nYou'll also need Mince Meat and Agar. You'll want a stable supply of meat, so something like the a fish farm, a standard animal farm, or IC2 Meatrose or Goldfish is probably best.%n%nAgar has a more complicated processing chain, but it's nothing compared to Platinum. You'll need even more meat for it.%n%nUse some of the Bacteria to create an Ova Evolutionis culture (15% chance), and then use that in the vat's controller to make Raw Growth Medium. You'll need IV-tier glass, and Uranium rods. There are also higher tier recipes.%n%n§3Cultures are not consumed when used in the vat.
+gtnh.quest2651.desc=In order to make Wetware circuits, you'll need Sterilized Growth Medium and Stemcells, so let's get started on those, ok?%n%nTo get anywhere, first you need Bacteria. You can get this through the vat or the brewing machine. Vat way is more efficient, but you need culture for it so you first need to do brewing way. Vat needs Bismuth rods for radiation and EV-tier glass. There are also 3 recipes, so you can use a higher tier one later if you like.%n%nYou'll also need Mince Meat and Agar. You'll want a stable supply of meat, so something like the a fish farm, a standard animal farm, or IC2 Meatrose or Goldfish is probably best.%n%nAgar has a more complicated processing chain, but it's nothing compared to Platinum. You'll need even more meat for it.%n%nUse some of the Bacteria to create an Ova Evolutionis culture (15% chance), and then use that in the vat's controller to make Raw Growth Medium. You'll need IV-tier glass, and Uranium rods. There are also higher tier recipes.%n%n§3Cultures are not consumed when used in the vat.
 
 # Quest.2652 - Intelligent Circuits
 gtnh.quest2652.name=Intelligent Circuits
@@ -10626,7 +10626,7 @@ gtnh.quest2655.desc=The Wetware Supercomputer is a UV Circuit.%n%nYou'll need a 
 
 # Quest.2656 - Wetware Mainframe
 gtnh.quest2656.name=Wetware Mainframe
-gtnh.quest2656.desc=The Wetware Mainframe is the final Wetware Circuit, and it is the first UHV Circuit you can get.%n%nIt's made in the Assembly Line, so there's no imprint.
+gtnh.quest2656.desc=The Wetware Mainframe is the final Wetware Circuit, and it is the first UHV Circuit you can get.%n%nIt's made in the Assembling Line, so there's no imprint.
 
 # Quest.2657 - It's Not Going Bad, I Swear!
 gtnh.quest2657.name=It's Not Going Bad, I Swear!
@@ -10668,9 +10668,9 @@ gtnh.quest2665.desc=You've done it! This is the final (normal) circuit in the ga
 gtnh.quest2666.name=§c§lMagneto Resonatic Circuits
 gtnh.quest2666.desc=So, you may have been looking through NEI and seen a line of purple circuits from BW and wondered 'What are these, and when can I make them?'. Well, I don't know why they exist, but you can make them starting now!%n%nThey all use Imprint Supporting Boards, a type of crystal (change the dust to crystal with Neon or Krypton in an Autoclave, and then move up tiers with the Precision Laser Engraver), SMDs, and a §3circuit of the previous tier.§r So the material cost increases rather dramatically. They're made at a power tier +1 of the circuit's tier, so IV ones are made with LuV voltage.%n%nYou can even make UHV circuits if you're crazy enough! The UIV CA has no recipe, so you can't make the UEV ones, unfortunately.
 
-# Quest.2667 - Moar Powa!
-gtnh.quest2667.name=Moar Powa!
-gtnh.quest2667.desc=So Helium is great and all, but have you tried Tin? Bigger and better fusion means greater power demands, not to mention all your other devices, so it might be time to upgrade.%n%nGood turbine options at this point are: small Trinium (larger ones will produce too much and cause an explosion, explosions bad), large Draconium, large Neutronium, large Oriharukon, and large Ichorium.
+# Quest.2667 - §b§lKeep Soldering On!
+gtnh.quest2667.name=§b§lKeep Soldering On!
+gtnh.quest2667.desc=You have been using a very basic soldering alloy for a while now. Time for an upgrade! You will need it in your Assembling Line.
 
 # Quest.2668 - §6§lSomething From Nothing
 gtnh.quest2668.name=§6§lSomething From Nothing
@@ -10688,8 +10688,8 @@ gtnh.quest2670.desc=If you haven't made one before, go check out the quest in MV
 gtnh.quest2671.name=Data Bank
 gtnh.quest2671.desc=By now you probably feel overwhelmed with the number of data sticks needed for your assembly line. TecTech has a solution for you: The Data Bank. It allows you to store more than just 16 data sticks and can be connected to multiple Assembling Lines at the same time.%n%nPlace the controller one block above the ground and use the Multiblock Structure Hologram Projector to see how it is built. You will need a Maintenance Hatch and at least an EV Energy Hatch, though the power requirements can be much higher if you use many Data Access Hatches and Data Bank Master Connectors, so you might as well go for an LuV energy hatch, which will power a maxed one. Trying to run the Data Bank and then scanning the controller will tell you how much eu/t is needed.%n%n§rYou will need more blocks then what is asked for in this quest, as the number of Data Access Hatches and Connectors is up to you. You can have a maximum of 15 combined.%n%nThe Assembly Line Slave Connector replaces your old Data Access Hatch on the Assembling Line. Connect it to a Master Connector on the Data Bank with Optical Fiber Cable and make sure to color the hatches and the cable.%n%n§3If you can't figure out what blocks to place, pay attention to the tooltip in the bottom-left when using the Multiblock Structure Hologram Projector. In this case the filler blocks are Computer Casing.
 
-# Quest.2672 - Unlimited Power
-gtnh.quest2672.name=Unlimited Power
+# Quest.2672 - §c§l[OUTDATED]§r Unlimited Power
+gtnh.quest2672.name=§c§l[OUTDATED]§r Unlimited Power
 gtnh.quest2672.desc=With this new fusion reactor your new power option is...wait, Tin? Still? Well, this is embarrasing. Still, you could try other stuff if you want I guess? Remember that the Plasma Generator runs on Plasma, so only fluids with it in the name will work, even if they're made in the Fusion Reactor.%n%nFor turbines, you could try large/huge Trinium or large/huge Cosmic Neutronium.
 
 # Quest.2673 - Neutrons From Space
@@ -10716,9 +10716,9 @@ gtnh.quest2677.desc=The Auto Maintenance Hatch will correct maintenance problems
 gtnh.quest2678.name=Paint-by-Numbers
 gtnh.quest2678.desc=If you want to color all those fancy cables and such, you'll want to use the humble Paintbrush. To uncolor them, use a bucket of water.%n%nAlternatively, you can also use the IC2 Painter, GT Spray Can, or the AE2 Color Applicator.
 
-# Quest.2679 - It Produces HOW Much Power?
-gtnh.quest2679.name=It Produces HOW Much Power?
-gtnh.quest2679.desc=Still not enough power? Try making turbines out of Awakened Draconium, Infinity Catalyst, or Infinity.%n%n§3Don't blame me if it explodes, try it out in creative first.%n%nAlso note that the Dynamo on the right is actually UHV.
+# Quest.2679 - Outsourcing the Soldering
+gtnh.quest2679.name=Outsourcing the Soldering
+gtnh.quest2679.desc=Soldering some of your new advanced materials is difficult. But maybe the new bio-technology you have developed can help? You should create a living solder that can do it for you! It will adjust to any challenge and join your materials at an atomic level filling all the gaps!%n%nUse your Botmium Chemical Plant to make this Mutated Living Solder. The catalyst recipe requires infinity, so best upgrade your chemical plant to Tungstensteel Coils and at least Awakened Draconium Coils to remove the durability loss on the catalyst.
 
 # Quest.2680 - §c§lMutating Things is Cool
 gtnh.quest2680.name=§c§lMutating Things is Cool
@@ -10734,7 +10734,7 @@ gtnh.quest2682.desc=TecTech Multiblock Common Functionality%n%nMultiple Ampere a
 
 # Quest.2683 - Configuring TecTech Multiblocks
 gtnh.quest2683.name=Configuring TecTech Multiblocks
-gtnh.quest2683.desc=The Parametrizer allows you to configure TecTech multis by adjusting the numbers. There are 3 different versions. Don't ask me how the latter two work, I have no idea.%n%nIf there are lit up sections in the Parameters part of the multi interface (see the TecTech Multiblocks quest), you can configure the multi, otherwise the block does nothing.%n%nIf you want to understand how using the Parametrizer works, you'll need to understand how binary works a little, so go do that. We'll also be using the Quantum Computer for the example, since that's what you probably want it for.%n%nID:0:0:I  ID:0:1:I     ID:1:0:I  ID:1:1:I%nID:0:0:O  ID:0:1:O    ID:1:0:O  ID:1:1:O%n%nOn the example above, the 'block' is represented by the first number of each group. In the first, it is 0, in the second, unused one, it is 1.%n%nThe letter I in the top groupings indicates Input, something that is either set by the Parametrizer, or is the default.%n%nThe letter O (right below the I) in the bottom number groupings indicates Output, this is information that the machine sends to you, that indicates things. (like heat or computation power)%n%nThe middle number indicates if it's the first or second parameter.%n%n%nIn the Parametrizer's interface, you have 16 buttons. Ignore the bottom row, it's not useful here. The left and right sided ones are for +/- to a greater degree, but that's not really useful to us, so ignore them too.%n%nIt defaults to Parameters: -1, use the +/- with ID on them to change which 'block' of parameters you're adjusting. For the QC, there's only the 0 'block', so set it to that.%n%nThe Down Arrow indicates the current value of O numbers, and the Up Arrow indicates the current value of I numbers. Remember that you can change I numbers? Use the +/- buttons to change them. They will change either the 0 or 1 number, depending on the icon on the button.%n%nIf you change the 0 value, this will change the Overclock Ratio, and if you change the 1 value, this will change the Overvoltage Ratio. For the QC at least.
+gtnh.quest2683.desc=The Parametrizer allows you to configure TecTech multis by adjusting the numbers. There are 3 different versions. Let us focus on the basic one.%n%nIf there are lit up sections in the Parameters part of the multi interface (see the TecTech Multiblocks quest), you can configure the multi, otherwise the block does nothing.%n%nWe'll be using the Quantum Computer as our example, since that is what you probably want it for.%n%nFirst we need to understand the parameter naming, like ID:0:1:I. The first number represents the parameter block. For the QC only block 0 is used. Each such block can have up to 4 used parameters, 2 inputs and 2 outputs. The letter at the end specifies if a parameter is an input or output with I or O and the number in the middle distinguishes the 2 parameters of this kind in the block. It is either 0 or 1.%n%nInputs are something that is either set by the Parametrizer, or is a default. Outputs give information that the machine sends to you, that indicates things. (like heat or Computation)%n%nIn the Parametrizer's interface, the outputs are marked by a down arrow, while the inputs are indicated by an up arrow. Around that you can find 16 buttons. The outer 8 just change things by a larger quantity, as does shift clicking. So let us focus on the inner 8.%n%nIn the first row you can change the parameter block to look at or change. For the QC only block 0 is relevant, so change it to that.%n%nThe next two rows now allow us to change either the first or the second input parameter in this block by -1 or +1 per button press. You can see in the QC controller GUI that the first input parameter is the overclock ratio, while the second is the overvoltage ratio.%n%nThe bottom row is where the binary nature of the Parametrizer shows. It lets you multiply the parameters by 2 or divide them by 2. However: it changes both of them together! So if you want different values you will have to change things in the second and third row. Despite what the TecTech wiki claims, being able to divide by 2 also allows you to set non-integer values for your OC and OV ratio!
 
 # Quest.2684 - RP-1 Rocket Fuel
 gtnh.quest2684.name=RP-1 Rocket Fuel
@@ -10746,11 +10746,11 @@ gtnh.quest2685.desc=In order to distill Coal Tar, you need to get some first. To
 
 # Quest.2686 - Dense Hydrazine
 gtnh.quest2686.name=Dense Hydrazine
-gtnh.quest2686.desc=Dense Hydrazine is needed starting from rocket tier 3, so you should make some if you want to keep exploring space.%n%nIt's a T4 240 EU/t recipe, so you'll need to make the CP out of Titanium and HV Machine Casings.
+gtnh.quest2686.desc=Dense Hydrazine is needed starting from rocket tier 3, so you should make some if you want to keep exploring space.%n%nIt's a T4 240 EU/t recipe, so you'll need to build Chemical Plant out of Titanium and HV Machine Casings.
 
 # Quest.2687 - Monomethylhydrazine
 gtnh.quest2687.name=Monomethylhydrazine
-gtnh.quest2687.desc=You'll need this if you want to make CN3H7O3 (Purple) Rocket Fuel. It's also made in the Chemical Plant.
+gtnh.quest2687.desc=You'll need this if you want to make CN3H7O3 (Purple) Rocket Fuel. It's also made in the Chemical Plant.%n%n§3Look up recipe for CN3H7O3 to properly see recipe for Monomethylhydrazine.
 
 # Quest.2688 - CN3H7O3 (Purple) Rocket Fuel
 gtnh.quest2688.name=CN3H7O3 (Purple) Rocket Fuel
@@ -10786,7 +10786,7 @@ gtnh.quest2695.desc=So if you thought 'hey, the purple stuff wasn't that bad, wh
 
 # Quest.2696 - Beyond the Limit
 gtnh.quest2696.name=Beyond the Limit
-gtnh.quest2696.desc=Rugged Botmium Casings are currently completely optional, as well as being hard to make. They also don't do anything, other than return the CP back to a reasonable color, since there's no T7 recipes.%n%nYou can certainly figure out the rest by now, but the Advanced Nitinol may confuse you. You make it out of blocks of Nitinol 60 with a Quantum Anomaly in a Laser Engraver. This means you need to make the Cyclotron, and hit 2 1% chances in a row, so good luck with that!
+gtnh.quest2696.desc=To make living solder for your UEV components or bio-circuits, you will need a chem plant with Rugged Botmium Casings. These are not easy to make!%n%nYou can certainly figure out the rest by now, but the Advanced Nitinol may confuse you. You make it out of blocks of Nitinol 60 with a Quantum Anomaly in a Laser Engraver. This means you need to make a UV Cyclotron, and hit several low chances in a row, so good luck with that!
 
 # Quest.2697 - §5§lChlorine, Your New Best Friend
 gtnh.quest2697.name=§5§lChlorine, Your New Best Friend
@@ -10798,7 +10798,7 @@ gtnh.quest2698.desc=Any ore veins not on Mercury are on this planet for this tie
 
 # Quest.2699 - Play it Again, Sam
 gtnh.quest2699.name=Play it Again, Sam
-gtnh.quest2699.desc=So if you thought one Quantum Computer was cool, what about two? You can chain them to get more computing power for your research by connecting them with Optical Connectors the same way you connect to the Research Station. The original QC should have the slave to receive the data from the second one.%n%nOf course, this is kinda expensive, so there's actually another option, and that's to simply extend the first one. You can tear down the last two columns of blocks and then use an itemstack of two blueprints to see how a 4 computer rack one would be built. However, you'll need another UV or higher hatch to power it if you use 4 racks, since that will use 5A. You can do the same for up to a 12 stack for 24 computer racks if you want.%n%nIf you use 3 racks with 3 Crystalprocessor Mainframes and 1 Advanced Heat Vent each, you'll have enough for the UEV circuit, and it won't overheat either. If you use 7 racks and 14 UHV circuits (2 vents each), you'll be able to research anything less than the Piko and Quantum circuits without overheating.
+gtnh.quest2699.desc=So if you thought one Quantum Computer was cool, what about two? You can chain them to get more computing power for your research by connecting them with Optical Connectors the same way you connect to the Research Station. The original QC should have the slave to receive the data from the second one.%n%nOf course, this is kinda expensive, so there's actually another option, and that's to simply extend the first one. You can tear down the last two columns of blocks and then use an itemstack of two hologram projectors to see how a 4 computer rack one would be built. However, you'll need another UV or higher hatch to power it if you use 4 racks, since that will use 5A. You can do the same for up to a 12 stack for 24 computer racks if you want. Just add more of the middle slice, or let a larger stack of hologram projectors show you how it's done.%n%nIf you use 3 racks with 3 Crystalprocessor Mainframes and 1 Advanced Heat Vent each, you'll have enough for the UEV circuit, and it won't overheat either.%n%nA third option for higher computation needs is to finally go back and understand how the parametrizer works. With it you have a finer control over the maximum heat your QC reaches and get everything out of it.%n%nYou can also make the Parametrizer X now, but it's actually even more convoluted then the basic one and not recommended for the most part. Eventually you will unlock the Parametrizer tXt. With that you can finally just enter your parameters directly! %n%n%n§4Remember to let all the heat in your QCs dissipate before changing things.
 
 # Quest.2700 - LSC = MC^2
 gtnh.quest2700.name=LSC = MC^2
@@ -10868,9 +10868,9 @@ gtnh.quest2715.desc=So if you looked in NEI and tried to figure out how to make 
 gtnh.quest2716.name=Longbow of the Heavens
 gtnh.quest2716.desc=Weak compared to both weapons of it's tier, and the weapons it's made of, this bow doesn't use arrows, never breaks, does 10 damage, and has an AoE of 10 more arrows that do 10 damage each fly down each time it strikes.
 
-# Quest.2717 - The Ultimate Plastic
-gtnh.quest2717.name=The Ultimate Plastic
-gtnh.quest2717.desc=If you dare take up this monumental challenge, you need to get the Xenoxene Xenoxis culture first. The recipe is similar to the General Purpose one, so you can't figure it out from NEI. Remember that all recipes in this chain are low probablility recipes.%n%nYour first step is to make the Barnardafis culture, then the DNA Sample, and then the Data Orb. If you didn't grab the saplings and dirt previously (to grow more trees for logs), head back to Barnarda C.%n%nUse the same recipe as for the General Purpose one, but use the Data Orb for Barnardafis instead of Common Yeast. You should get the Barnardafis Plasmid.%n%nAgain, it's the same recipe for the next step, but with the TCetiEis Fucus Serratus culture and the Barnardafis Plasmid, this should produce the Xenoxene Xenoxis culture. It's about a 4% chance.%n%nYou should probably use the normal alternative recipe to make more cultures, since it's easy to fail copying it too.%n%nFrom this point, it's pretty easy to figure it out, but basically, only Super Light Radox and Diluted Xenoxene (so you can run it again) are useful from Distilling. All the other products are kinda useless.
+# Quest.2717 - Xenoxene Xenoxsis
+gtnh.quest2717.name=Xenoxene Xenoxsis
+gtnh.quest2717.desc=To make the next tier plastic, Radox, or the next tier of SMDs, you will need Xenoxene.%n%nGetting the the Xenoxene Xenoxsis culture is a bit tricky. The recipe is similar to the General Purpose one, so you can't figure it out from NEI. Remember that all recipes in this chain are low probablility recipes.%n%nYour first step is to make the Barnardafis culture, then the DNA Sample, and then the Data Orb. If you didn't grab the saplings and dirt previously (to grow more trees for logs), head back to Barnarda C.%n%nUse the same recipe as for the General Purpose one, but use the Data Orb for Barnardafis instead of Common Yeast. You should get the Barnardafis Plasmid.%n%nAgain, it's the same recipe for the next step, but with the TCetiEis Fucus Serratus culture and the Barnardafis Plasmid, this should produce the Xenoxene Xenoxis culture. It's about a 4% chance.%n%nYou should probably use the normal alternative recipe to make more cultures, since it's easy to fail copying it too.%n%nYou should be able to figure out yourself how to make Xenoxene once you have the culture.
 
 # Quest.2718 - Does Anyone Even Still Use These?
 gtnh.quest2718.name=Does Anyone Even Still Use These?
@@ -10922,7 +10922,7 @@ gtnh.quest2729.desc=There are 3 machines crucial to doing this. You'll also need
 
 # Quest.2730 - Lasers Solve Everything
 gtnh.quest2730.name=Lasers Solve Everything
-gtnh.quest2730.desc=Laser hatches are a high-end way of sending lots of amps of power, so much in fact, that it starts at 32A. This goes 32/64/96/128/256+ and continues from there. They're also so powerful that only a few machines support them outside of the ever §owonderful§r TecTech: LSC, MEBF, MVF. and PSS. (Might be added in the future!) Remember to color both the Laser Vacuum Pipes, and the Source and Target Hatches. Also, Source = Output, Target = Input.%n%nLaser Converters are basically: Laser Source (on machine) -> Vacuum Pipes -> LC -> 5x output split into X amps, 32 for the first. Make sure to put it into recieve mode. Or do it the other way around if you want to go up, it's basically a transformer that converts laser to/from cables. You can also use them to turn the lasers if you don't mind 3x the loss on device output (and not sending all the amps) compared to the Active Transformer (because of loss on each output). Just remember to put a battery buffer in between if you want it to work.%n%n§3You can use the Low Power Laser Pipes if using a 'Low Power' Hatch or Converter, but keep in mind you'll need to connect them with wire cutters yourself after coloring them.
+gtnh.quest2730.desc=Laser hatches are a high-end way of sending lots of amps of power, so much in fact, that it starts at 32A. This goes 32/64/96/128/256+ and continues from there. They're also so powerful that only a few machines support them outside of the ever §owonderful§r TecTech: LSC, MEBF, MVF. and PSS. (Might be added in the future!) Remember to color both the Laser Vacuum Pipes, and the Source and Target Hatches. Also, Source = Output, Target = Input.%n%nLaser Converters are basically: Laser Source (on machine) -> Vacuum Pipes -> LC -> 5x output split into X amps, 32 for the first. Make sure to put it into recieve mode. Or do it the other way around if you want to go up, it's basically a transformer that converts laser to/from cables. You can also use them to turn the lasers if you don't mind 3x the loss on device output (and not sending all the amps) compared to the Active Transformer (because of loss on each output). Just remember to put a battery buffer in between if you want it to work.%n%n§3You can use the Low Power Laser Pipes if using a 'Low Power' Hatch or Converter, but keep in mind you'll need to connect them with wire cutters yourself after coloring them.%n%n§cBe careful with using very high ampere hatches as every Laser Hatch has 1EU/t per max. ampere passive power loss.
 
 # Quest.2731 - Transform and...Stay Put Actually
 gtnh.quest2731.name=Transform and...Stay Put Actually
@@ -11046,7 +11046,7 @@ gtnh.quest2760.desc=In addition to being a dehydrator multi, it's also a Vacuum 
 
 # Quest.2761 - Do I Really Need to Make This?
 gtnh.quest2761.name=Do I Really Need to Make This?
-gtnh.quest2761.desc=No, you don't. The main thing you would probably get out of it is the Quantum Anomaly for Advanced Nitinol.%n%n§3This multi is LuV.
+gtnh.quest2761.desc=Oh wait, yes, you actually need this now! That was supposed to be a rhetorical question!%n%nThe main thing you will probably get out of it is the Quantum Anomaly for Advanced Nitinol.%n%n§3This multi is LuV. But you don't need it until around UHV.
 
 # Quest.2762 - This is Not How You Get Into Space
 gtnh.quest2762.name=This is Not How You Get Into Space
@@ -11584,9 +11584,9 @@ gtnh.quest2894.desc=It holds more than the previous tier, other than that there 
 gtnh.quest2895.name=Cooking for Blockheads
 gtnh.quest2895.desc=Say thanks to mitch for backporting this great mod. You can use it to help you craft new food items. All blocks connected to the kitchen floor (use it as walls too!) are considered part of the same multiblock. Countertops will search up two blocks for cabinets to include.%n%nItems stored in storages like the cabinet (or your inventory) can be used in recipes. All storage spaces for items are the same, so don't bother making a ton of fridges unless you really want to. Supply water to the sink to get water for recipes.%n%nYou can store some cooking tools in the oven. You can store the rest on tool racks to auto-use them all in recipes. This includes stuff like the GT soft mallet if you can't make all the Pam's tools yet.%n%nThe oven has 3 input slots and 3 output slots, and can work on 9 items at once. It's basically a furnace. You can request items be cooked from the cooking table too.%n%nThe Cooking Table will automatically show you all recipes that can be created with the existing ingredients, and you can click on them to craft them. Make all the food, and get all the hearts!%n%nYou can use dye to color the kitchen, except for the oven.%n%nNote that the implementation is not finished, so there are some problems. Upgrades like powering the oven with RF/EU are not in yet. And so on. But we finally have a toaster so you can make TOAST!%n%nPlease report any bugs/problems to the CFB-specific GTNH issue tracker at https://github.com/GTNewHorizons/CookingForBlockheads/issues%n%n§3There is no cow in a jar, it will not come back.
 
-# Quest.2896 - §6§lGimme My Stuff Back!
-gtnh.quest2896.name=§6§lGimme My Stuff Back!
-gtnh.quest2896.desc=At some point, you'll be all, 'Man, arc furnace-ing or macerating these things to recycle them blows, I barely get any of the materials I used back'. Well, there's a solution, the Disassembler.%n%nBasically, things go in, parts it's made of go out. It needs to be at the same tier or higher though.%n%nIt works on hand and assembler crafted items, but it doesn't work on assline stuff (LuV+), or non-GT items. However, for some reason on some items it fails for seemingly no reason. Ask bart why that happens. If there's an oredicted item like a circuit, it should return the least valuable one. You can now recyle your old coils, hatches, machines, etc with impunity!%n%n§3The % chance based on tier is gone now. Also, it's really fast!
+# Quest.2896 - §5§6§l§5§lGimme My Stuff Back!
+gtnh.quest2896.name=§5§6§l§5§lGimme My Stuff Back!
+gtnh.quest2896.desc=At some point, you'll be all, 'Man, arc furnacing or macerating these things to recycle them blows, I barely get any of the materials I used back'. Well, there's a solution, the Disassembler.%n%nBasically, things go in, parts it's made of go out. It needs to be at the same tier or higher though.%n%nIt works on hand and assembler crafted items, but it doesn't work on assline stuff (LuV+), or non-GT items. However, for some reason on some items it fails for seemingly no reason. Ask bart why that happens. If there's an oredicted item like a circuit, it should return the least valuable one. You can now recyle your old coils, hatches, machines, etc with impunity!%n%n§3The % chance based on tier is gone now. Also, it's really fast!
 
 # Quest.2897 - §2§lMaking a Rapier
 gtnh.quest2897.name=§2§lMaking a Rapier
@@ -11678,19 +11678,19 @@ gtnh.quest2918.desc=Like before, you're going to need better rods for your motor
 
 # Quest.2919 - Enriched Naquadah Ingot
 gtnh.quest2919.name=Enriched Naquadah Ingot
-gtnh.quest2919.desc=Ah, you made it.%n%nYou can choose to smelt it with zinc in EBF or electrolyze it. Of course I will electrolyze it because zinc is more useful than enriched naquadah if I were you.
+gtnh.quest2919.desc=Ah, you made it.%n%nYou can choose to smelt it with zinc in an EBF or electrolyze it. Either is fine but you can fully recycle the zinc, so the EBF recipe is better if you want the ingot.
 
 # Quest.2920 - Enriched Naquadah Time
 gtnh.quest2920.name=Enriched Naquadah Time
-gtnh.quest2920.desc=Enriched naquadah line is much more shorter than naquadah line, and easier. Basically, the only use of enriched naquadah is for fuel, so if you don't want to build a line for it, just ignore this quest.
+gtnh.quest2920.desc=The enriched naquadah line is much shorter than the naquadah line, and easier. It's used for fuel or Neuro Processing Units which are UV content, so if you don't want to build a line for it, just ignore these quests.
 
 # Quest.2921 - §c§lEther Strike!
 gtnh.quest2921.name=§c§lEther Strike!
-gtnh.quest2921.desc=The naquadah is so inert that most acid won't react with it, so you need a more powerful kind of acid to dissolve it.%n%nLet's prepare some necessary organic solvent to make the acid.
+gtnh.quest2921.desc=The naquadah is so inert that most acids won't react with it, so you need a more powerful kind of acid to dissolve it.%n%nLet's prepare some necessary organic solvent to make the acid.
 
-# Quest.2922 - §c§lAntimony And Chlorine
-gtnh.quest2922.name=§c§lAntimony And Chlorine
-gtnh.quest2922.desc=Now put the antimony, chlorine and ether in LCR to get antimony trichloride solution.
+# Quest.2922 - §c§lAntimony and Chlorine
+gtnh.quest2922.name=§c§lAntimony and Chlorine
+gtnh.quest2922.desc=Now put the antimony, chlorine and ether in a LCR to get antimony trichloride solution.
 
 # Quest.2923 - §c§lRecycle Fluorine
 gtnh.quest2923.name=§c§lRecycle Fluorine
@@ -11698,11 +11698,11 @@ gtnh.quest2923.desc=Fluorine is one of the most important resources. You can rec
 
 # Quest.2924 - §c§lMore Chlorine
 gtnh.quest2924.name=§c§lMore Chlorine
-gtnh.quest2924.desc=Oh god why I can't get it in one step.
+gtnh.quest2924.desc=Oh god, why can't I get it in one step.
 
 # Quest.2925 - §c§lSeparate Solvent
 gtnh.quest2925.name=§c§lSeparate Solvent
-gtnh.quest2925.desc=Distill the antimony pentachloride solution to get the pure antimony pentachloride liquid, and you can recycle §c§6ALL§r ether.
+gtnh.quest2925.desc=Distill the antimony pentachloride solution to get the pure antimony pentachloride liquid. You can recycle §c§6ALL§r of the ether.
 
 # Quest.2926 - §c§lFracture Chlorine
 gtnh.quest2926.name=§c§lFracture Chlorine
@@ -11710,7 +11710,7 @@ gtnh.quest2926.desc=The fluorine atom has higher electronegativity, so it will r
 
 # Quest.2927 - §c§lKing of Acid
 gtnh.quest2927.name=§c§lKing of Acid
-gtnh.quest2927.desc=This is the fluoroantimonic acid, the strongest acid in the world currently. It can dissolve almost everything on earth, so it is the best choice to dissolve our NOM dust.%n%nOf course there are something the fluoroantimonic acid can't deal with, like the "Empty Cell". x)
+gtnh.quest2927.desc=This is the fluoroantimonic acid, the strongest acid in the world currently. It can dissolve almost everything on earth, so it is the best choice to dissolve our NOM dust.%n%nOf course there are some things the fluoroantimonic acid can't deal with, like the "Empty Cell". x)
 
 # Quest.2928 - §c§lEBF Time
 gtnh.quest2928.name=§c§lEBF Time
@@ -11738,11 +11738,11 @@ gtnh.quest2933.desc=You have three choices to deal with it.%n%n1) Electrolyze it
 
 # Quest.2934 - §c§lAnother Solvent
 gtnh.quest2934.name=§c§lAnother Solvent
-gtnh.quest2934.desc=Why it needs seed oil?
+gtnh.quest2934.desc=Why does it need seed oil?
 
 # Quest.2935 - §c§lP-507
 gtnh.quest2935.name=§c§lP-507
-gtnh.quest2935.desc=This solvent can be 100% recycled in naquadah process line, so don't make a line for it.
+gtnh.quest2935.desc=This solvent can be 100% recycled in the naquadah process line, so don't make a line for it.
 
 # Quest.2936 - §6§lNeutron Activator
 gtnh.quest2936.name=§6§lNeutron Activator
@@ -11762,7 +11762,7 @@ gtnh.quest2939.desc=If you failed to meet the NKE as NEI requested, you can recy
 
 # Quest.2940 - §c§lSeparation
 gtnh.quest2940.name=§c§lSeparation
-gtnh.quest2940.desc=WHY IT COMES BACK AGAINNNNN? ! ! !
+gtnh.quest2940.desc=IT COMES BACK AGAINNNNN? ! ! !
 
 # Quest.2941 - §c§lAlmost Success
 gtnh.quest2941.name=§c§lAlmost Success
@@ -11770,7 +11770,7 @@ gtnh.quest2941.desc=Now you only have to subside the naquadah from the solution.
 
 # Quest.2942 - §c§lNaquadah Dust
 gtnh.quest2942.name=§c§lNaquadah Dust
-gtnh.quest2942.desc=You can directly get naquadah dust in chemical reactor.
+gtnh.quest2942.desc=You can directly get naquadah dust in a chemical reactor.
 
 # Quest.2943 - §c§lNaquadah Ingot
 gtnh.quest2943.name=§c§lNaquadah Ingot
@@ -11778,7 +11778,7 @@ gtnh.quest2943.desc=If you want ingots, you can smelt it in EBF with carbon.
 
 # Quest.2944 - §c§lSilicon Boule
 gtnh.quest2944.name=§c§lSilicon Boule
-gtnh.quest2944.desc=You can also use naquadahine dust directly make Silicon Boule in EBF, which takes less time than naquadah dust.
+gtnh.quest2944.desc=You can also use naquadahine dust directly to make a Silicon Boule in the EBF. It takes less time than with naquadah ingots.
 
 # Quest.2945 - Concentration
 gtnh.quest2945.name=Concentration
@@ -11786,7 +11786,7 @@ gtnh.quest2945.desc=Now, let's neutralize the solution.
 
 # Quest.2946 - Recycle Trinium
 gtnh.quest2946.name=Recycle Trinium
-gtnh.quest2946.desc=I think you just yeet the enriched naquadah and keep the trinium. lol%n%nYou can get the trinium dust by reacting it with hydrogen in LCR or electrolyze it if you don't care the loss.
+gtnh.quest2946.desc=You can get the Trinium dust by reacting it with Hydrogen in LCR or from electrolysis.
 
 # Quest.2947 - Linear Accelerator
 gtnh.quest2947.name=Linear Accelerator
@@ -11794,7 +11794,7 @@ gtnh.quest2947.desc=I think you should have known how to process it.%n%nSuitable
 
 # Quest.2948 - Large Naquadah Reactor
 gtnh.quest2948.name=Large Naquadah Reactor
-gtnh.quest2948.desc=The multi block version of naquadah reactor, but it is completely different from the single block ones.%n%nIt uses liquid naquadah or excited nuclear liquid as fuel, and output the depleted fuel. You can see the liquid fuel infomation in NEI.%n%nIt consumes 2400 L/s liquid air when running, otherwise it will keep consuming your fuel without outputing power.%n%n§4It will explode when more one types of fuel in its hatch.%n%n§rYou can input in coolant to increase efficiency.%nIC2 Coolant: 105%%nSuper Coolant: 150%%nCryotheum: 275%%n%nYou can also input molten metals to increase power.%nMolten Ccaesium: 2x%nMolten Uranium-235: 3x%nMolten Naquadah: 4x%nMolten Atomic Separation Catalyst: 16x%nNote: It will consume more fuel to match the output power, unlike coolant which directly increases the power. It works like add 'paralle' to reactor.%n%nIt also supports §9Tec§1Tech§r's Multi-Amp Dynamo hatches and laser hatches.%n%n§3PS: This generator has the highest output power in this pack currently, but it may get nerfed in future.
+gtnh.quest2948.desc=The multi block version of the naquadah reactor, but it is completely different from the single block ones.%n%nIt uses liquid naquadah or excited nuclear liquid as fuel, and outputs the depleted fuel. You can see the liquid fuel infomation in NEI.%n%nIt consumes 2400 L/s liquid air when running, otherwise it will keep consuming your fuel without outputing power.%n%n§4It will explode with more than one types of fuel in its hatches.%n%n§rYou can input in coolant to increase efficiency.%nIC2 Coolant: 1.05x%nSuper Coolant: 1.5x%nCryotheum: 2.75x%n%nYou can also input molten metals to increase power.%nMolten Caesium: 2x%nMolten Uranium-235: 3x%nMolten Naquadah: 4x%nMolten Atomic Separation Catalyst: 16x%nNote: It will consume more fuel to match the output power, unlike coolant which directly increases the power. The molten metal works like 'parallels' for your reactor.%n%nIt also supports §9Tec§1Tech§r's Multi-Amp Dynamo hatches and laser hatches.%n%n§3PS: This generator has the highest output power in this pack currently, but it may get nerfed in future.
 
 # Quest.2949 - Refining
 gtnh.quest2949.name=Refining
@@ -11802,7 +11802,7 @@ gtnh.quest2949.desc=So it is a circle?
 
 # Quest.2950 - N.N.Q.Q.N.Q.Q
 gtnh.quest2950.name=N.N.Q.Q.N.Q.Q
-gtnh.quest2950.desc=Do you wanna some naquadria?%n%nUnfortunately, the naquadria dust has become repulsive naquadria oxide mixture dust because of NERF. You have to build a line for it like the naquadah.
+gtnh.quest2950.desc=Do you want some naquadria?%n%nUnfortunately, the naquadria dust has become repulsive naquadria oxide mixture dust because of a NERF. You have to build a line for it, like the naquadah.
 
 # Quest.2951 - Purification
 gtnh.quest2951.name=Purification
@@ -11814,7 +11814,7 @@ gtnh.quest2952.desc=Free indium!%n%nYou have three choices to deal with it.%n%n1
 
 # Quest.2953 - Disproportionation
 gtnh.quest2953.name=Disproportionation
-gtnh.quest2953.desc=The chemical property of naquadria is a bit weird.%n%nThere's nothing known can precipitate it. the only way to get naquadria from the solution is to use high energy particle to bombard it.%n%nHowever, only part of output naquadria can be used for further process and you  have to re-purification the rest.
+gtnh.quest2953.desc=The chemical properties of naquadria are a bit weird.%n%nThere's nothing known that can precipitate it. The only way to get naquadria from the solution is to use high energy particle to bombard it.%n%nHowever, only a part of the output naquadria can be used for further processing and you have to re-purify the rest.
 
 # Quest.2954 - Once again
 gtnh.quest2954.name=Once again
@@ -11822,23 +11822,23 @@ gtnh.quest2954.desc=The miscibility of P-507 and naquadria is still very perfect
 
 # Quest.2955 - Naquadria Ingot
 gtnh.quest2955.name=Naquadria Ingot
-gtnh.quest2955.desc=Smelt it with magnesium dust in EBF.
+gtnh.quest2955.desc=Smelt it with magnesium dust in an EBF.
 
 # Quest.2956 - Nuclear Based Fuel (Th)
 gtnh.quest2956.name=Nuclear Based Fuel (Th)
-gtnh.quest2956.desc=Cheapest one, with 9 800EU/t output lasting 10s per mB.%n%nIt is also the source of praseodymium, which will be used for naquadah fuel.
+gtnh.quest2956.desc=Cheapest one, with 2,200EU/t output lasting 25s per mB.%n%nIt is also the source of praseodymium, which will be used for naquadah fuel.
 
 # Quest.2957 - Nuclear Based Fuel (U)
 gtnh.quest2957.name=Nuclear Based Fuel (U)
-gtnh.quest2957.desc=Provides 12 960EU/t output lasting 5s per mB.
+gtnh.quest2957.desc=Provides 12,960EU/t output lasting 5s per mB.
 
 # Quest.2958 - Nuclear Based Fuel (Pu)
 gtnh.quest2958.name=Nuclear Based Fuel (Pu)
-gtnh.quest2958.desc=Provides 32 400EU/t output lasting 7.5s per mB.
+gtnh.quest2958.desc=Provides 32,400EU/t output lasting 7.5s per mB.
 
 # Quest.2959 - Naquadah Fuel Refinery
 gtnh.quest2959.name=Naquadah Fuel Refinery
-gtnh.quest2959.desc=The insane machine is used for make MkIII and higher tier naquadah fuel.%n%nIt works like fusion that can't be overclocked by increasing the input voltage. The only way to overclock it is to use higher tier coil.%n%nIt also supports §9Tec§1Tech§r's Multi-Amp energy hatches and laser hatches.%n%ne.g. The MkIV fuel requires Teir 2 coil and the refinery is using Teir 3 coil. This allows a perfect overclock, using 2x power and 0.5x time.
+gtnh.quest2959.desc=This insane machine is used to make MkIII and higher tier naquadah fuel.%n%nIt can't be overclocked by increasing the input voltage. The only way to overclock it is to use higher tier coils.%n%nIt also supports §9Tec§1Tech§r's Multi-Amp energy hatches and laser hatches.%n%nExample: The MkIV fuel requires tier 2 coils and the refinery is using tier 3 coils. This gives an overclock similar to fusion, using 2x power and 0.5x time.
 
 # Quest.2960 - Tier 2 Coil
 gtnh.quest2960.name=Tier 2 Coil
@@ -11846,7 +11846,7 @@ gtnh.quest2960.desc=It will unlock MkIV and MkV fuel.
 
 # Quest.2961 - Naquadah Based Fuel MkI
 gtnh.quest2961.name=Naquadah Based Fuel MkI
-gtnh.quest2961.desc=220 000 EU/t lasting 1s per mB. Looks not very good.
+gtnh.quest2961.desc=220 000 EU/t lasting 1s per mB. Doesn't looks very good.
 
 # Quest.2962 - Naquadah Based Fuel MkII
 gtnh.quest2962.name=Naquadah Based Fuel MkII
@@ -11854,19 +11854,19 @@ gtnh.quest2962.desc=380 000 EU/t lasting 1s per mB. Still very limited.
 
 # Quest.2963 - Naquadah Based Fuel MkIII
 gtnh.quest2963.name=Naquadah Based Fuel MkIII
-gtnh.quest2963.desc=10.5M EU/t lasting 3s per mB. UEV @ 1.2A in other words.
+gtnh.quest2963.desc=9.5M EU/t lasting 4s per mB. UEV @ 1.1A in other words.
 
 # Quest.2964 - Naquadah Based Fuel MkIV
 gtnh.quest2964.name=Naquadah Based Fuel MkIV
-gtnh.quest2964.desc=138M EU/t lasting 7s per mB. It means its output power is over an Oct compressed solar in normal condition.
+gtnh.quest2964.desc=88.5M EU/t lasting 5s per mB.
 
 # Quest.2965 - Naquadah Based Fuel MkV
 gtnh.quest2965.name=Naquadah Based Fuel MkV
-gtnh.quest2965.desc=1B EU/t lasting 10s per mB. I must admit that it is a disaster. This power means that you can fill a UHV Lapotronic Capacitor with 43k MkV Fuel cells.
+gtnh.quest2965.desc=400M EU/t lasting 8s per mB. This power means that you can fill a UHV Lapotronic Capacitor with 145k MkV Fuel cells.
 
 # Quest.2966 - Tier 3 Coil
 gtnh.quest2966.name=Tier 3 Coil
-gtnh.quest2966.desc=For overclock. Wait, you are going to overclock a UXV recipe?
+gtnh.quest2966.desc=For an overclock. Wait, you are going to overclock a UXV recipe?
 
 # Quest.2967 - Incomplete Combustion
 gtnh.quest2967.name=Incomplete Combustion
@@ -12150,7 +12150,7 @@ gtnh.quest3036.desc=No Description
 
 # Quest.3037 - Space Pumping
 gtnh.quest3037.name=Space Pumping
-gtnh.quest3037.desc=You might have already wondered: There are these enormous gas planets in the solar system - isn't there a way to "harvest" them? Indeed there is. By constructing the "Planetary Gas Siphon" multiblock, you are able to pump from the infinite supply of gas found on Jupiter, Saturn, Uranus and Neptune. You just need to build a space station around a gas planet to get near enough to be able to reach the gas without falling into it.%n%nBy pumping on different depths, you are able to extract different gases. The depth is controlled by a Programmed Circuit. You need to supply 64 * depth Mining Pipes to be able to rach the selected depth.%n%nWhile operational, the multiblock needs d*4^(t+2) EU/t (t is the space station's tier and d is the depth).%n%n%n§oJupiter§r%n1 Hydrogen - 15000 L/s%n2 Helium - 500 L/s%n3 Nitrogen - 300 L/s%n4 Oxygen - 200 L/s%n%n§oSaturn§r%n1 Hydrogen - 18000 L/s%n2 Helium - 800 L/s%n3 Oxygen - 500 L/s%n4 Liquid Oxygen - 150 L/s%n%n§oUranus§r%n1 Deuterium - 5000 L/s%n2 Neon - 450 L/s%n3 Argon - 250 L/s%n4 Krypton - 100 L/s%n%n§oNeptune§r%n1 Tritium - 3000 L/s%n2 Helium-3 - 500 L/s%n3 Ammonia - 400 L/s%n4 Xenon - 350 L/s
+gtnh.quest3037.desc=You might have already wondered: There are these enormous gas planets in the solar system - isn't there a way to "harvest" them? Indeed there is. By constructing the "Planetary Gas Siphon" multiblock, you are able to pump from the infinite supply of gas found on Jupiter, Saturn, Uranus and Neptune. You just need to build a space station around a gas planet to get near enough to be able to reach the gas without falling into it.%n%nBy pumping on different depths, you are able to extract different gases. The depth is controlled by a Programmed Circuit. You need to supply 64 * depth Mining Pipes to be able to rach the selected depth.%n%nWhile operational, the multiblock needs d*4^(t+2) EU/t (t is the space station's tier and d is the depth).%n%nYou can find an overview of what you can pump where in the Tips and Tricks chapter.
 
 # Quest.3038 - UHT Resistant Mesh
 gtnh.quest3038.name=UHT Resistant Mesh
@@ -12294,7 +12294,7 @@ gtnh.quest3072.desc=You made your first Kanthal ingots. It's time to make some m
 
 # Quest.3073 - §6§lCoolant
 gtnh.quest3073.name=§6§lCoolant
-gtnh.quest3073.desc=Make your first coolant out of water or distilled water and lapis dust in an mv mixer.
+gtnh.quest3073.desc=Make your first coolant out of water or distilled water and lapis dust in an mv mixer.%n%nUsing distilled water lets you save on lapis while also speeding up the process by a lot.
 
 # Quest.3074 - §a§lPower of the Sun from Nuclear
 gtnh.quest3074.name=§a§lPower of the Sun from Nuclear
@@ -12346,7 +12346,7 @@ gtnh.quest3085.desc=You're nearly done!%n%nNow you need to mix with acetone.
 
 # Quest.3086 - Separate Those Last Specks
 gtnh.quest3086.name=Separate Those Last Specks
-gtnh.quest3086.desc=Now to centrifuge what remains. You get a little chlorobenzene back too, s what's not to like?
+gtnh.quest3086.desc=Now to centrifuge what remains. You get a little chlorobenzene back too, so what's not to like?
 
 # Quest.3087 - The Other Way
 gtnh.quest3087.name=The Other Way
@@ -12362,7 +12362,7 @@ gtnh.quest3089.desc=It's painful to carry all the tools in your inventory. You c
 
 # Quest.3090 - §6§lPrecise Assembler
 gtnh.quest3090.name=§6§lPrecise Assembler
-gtnh.quest3090.desc=Precise Assembler has two modes: Precise mode and Normal mode.%n%nPrecise mode is used to make some of the advanced components from Good Generator mod.%n%nNormal mode works as multiblock version of Assembler.
+gtnh.quest3090.desc=Precise Assembler has two modes: Precise mode and Normal mode.%n%nPrecise mode is used to make some of the advanced components from Good Generator mod.%n%nNormal mode works as multiblock version of Assembler.%n%n§3You can't skip tiers with this. You need singleblock Assembler or GT++ multi to make your first Energy Hatch, then you can use it for Precise Assembler.
 
 # Quest.3091 - §l§c§lSun Fusion
 gtnh.quest3091.name=§l§c§lSun Fusion
@@ -12370,7 +12370,7 @@ gtnh.quest3091.desc=Alternative way to mass produce Sunnarium.
 
 # Quest.3092 - Renewable Energy
 gtnh.quest3092.name=Renewable Energy
-gtnh.quest3092.desc=Despite finding oil spouts in the wild, you might have thought about extending the source of power you have used to reach the age of electricity. Steam was your energy, and burnable items your source of that energy, with wood and charcoal being the most likely candidates for automating your first power generation steps. Steam itself, however, is not the best option for all progression tiers, so the question is: what else can that wood do? That is what this questline will explain.%n%nEach tier you reach will challenge you with bigger power needs. Not only do the energy tiers multiply by 4 every time you go up (32 EU/t for LV, 128 for MV, 512 for HV, etc.), but also the necessary growth of your setups, with more steps and each one becoming more complicated. To sustain all this, you might want a fully automated, infinite source of power and chemicals to handle this pack's progression. To achieve this, following the quests in chapter is sure to be helpful.%n%nAs a final note, the power outputs of a fully renewable powergen like this are not as efficient as oil, which is the price to pay for being renewable. You will need a bigger machine setup to achieve the same EU/t output, but it is still very viable and worth it if you are willing to make this compromise. On the other hand, building these wood-related setups will give you some interesting chemicals to use in later crafts, chemicals that oil cannot directly create. You can choose one or the other, or just follow both paths at the same time if you're curious. It's up to you.
+gtnh.quest3092.desc=Despite finding oil spouts in the wild, you might have thought about extending the source of power you have used to reach the age of electricity. Steam was your energy, and burnable items your source of that energy, with wood and charcoal being the most likely candidates for automating your first power generation steps. Steam itself, however, is not the best option for all progression tiers, so the question is: what else can that wood do? That is what this questline will explain.%n%nEach tier you reach will challenge you with bigger power needs. Not only do the energy tiers multiply by 4 every time you go up (32 EU/t for LV, 128 for MV, 512 for HV, etc.), but also the necessary growth of your setups, with more steps and each one becoming more complicated. To sustain all this, you might want a fully automated, infinite source of power and chemicals to handle this pack's progression. To achieve this, following the quests in this chapter is sure to be helpful.%n%nAs a final note, the power outputs of a fully renewable powergen like this are not as efficient as oil, which is the price to pay for being renewable. You will need a bigger machine setup to achieve the same EU/t output, but it is still very viable and worth it if you are willing to make this compromise. On the other hand, building these wood-related setups will give you some interesting chemicals to use in later crafts, chemicals that oil cannot directly create. You can choose one or the other, or just follow both paths at the same time if you're curious. It's up to you.
 
 # Quest.3093 - Carbon, Chemically
 gtnh.quest3093.name=Carbon, Chemically
@@ -12382,7 +12382,7 @@ gtnh.quest3094.desc=If you've automated Carbon Monoxide, you can now burn it dir
 
 # Quest.3095 - Sourcing Your Wood
 gtnh.quest3095.name=Sourcing Your Wood
-gtnh.quest3095.desc=When it comes to power from wood, your only options so far have been the wood itself and Charcoal. Both of these are low on energy per item, so you will need a lot of wood to have a decent EU/t output. How, then, can you easily get that much? There are two ways: the automated way, and the non-automated way.%n%nThe automated way can be done with one of several machines, but in LV you only have one option: the LV Crop Manager. It can automatically harvest crops in an area around it and, for this situation, the crop you want is one of several Bonsais. You can get them by planting saplings on cropsticks (there is a lot more information about how crops work in the Forestry and Multifarms page), and most types of saplings are equivalent to one another, although not all of them can be planted as crops. The ones that stand out are Spruce, which give a bit more wood than the others, and Oak, which give Apples alongside the usual wood and saplings, possibly useful for some chemistry later.%n%nThe non-automated way can be done earlier, and it only requires two things: an unbreakable Lumber Axe and trees with a lot of wood, like Sacred Oak or Redwood. This axe will chop down (most of) the trees and award you with stacks and stacks of wood, much faster than the automated way, but with more work. This process might be useful in the beginning, but you will have to automate the wood input at some point. %n%nComplete one of the tasks and get some wood to continue. 
+gtnh.quest3095.desc=When it comes to power from wood, your only options so far have been the wood itself and Charcoal. Both of these are low on energy per item, so you will need a lot of wood to have a decent EU/t output. How, then, can you easily get that much? There are two ways: the automated way, and the non-automated way.%n%nThe automated way can be done with one of several machines, but in LV you only have one option: the LV Crop Manager. It can automatically harvest crops in an area around it and, for this situation, the crop you want is one of several Bonsais. You can get them by planting saplings on cropsticks (there is a lot more information about how crops work in the Forestry and Multifarms page), and most types of saplings are equivalent to one another, although not all of them can be planted as crops. The ones that stand out are Spruce, which give a bit more wood than the others, and Oak, which give Apples alongside the usual wood and saplings, possibly useful for some chemistry later.%n%nThe non-automated way can be done earlier, and it only requires two things: an unbreakable Lumber Axe and trees with a lot of wood, like Sacred Oak, Redwood, or Rainforest Oak. This axe will chop down (most of) the trees and award you with stacks and stacks of wood, much faster than the automated way, but with more work. This process might be useful in the beginning, but you will have to automate the wood input at some point. %n%nComplete one of the tasks and get some wood to continue. 
 
 # Quest.3096 - Faster Charcoal
 gtnh.quest3096.name=Faster Charcoal
@@ -12418,7 +12418,7 @@ gtnh.quest3103.desc=Your power needs quadrupled since the last tier, and it's li
 
 # Quest.3104 - Pyrolyse Oven
 gtnh.quest3104.name=Pyrolyse Oven
-gtnh.quest3104.desc=Some setups really demand space in your base to work properly. You might have thought that, when you finished the Coke Oven automation, but there's also an option in this tier that respects that need for speed by just being a gigantic multiblock: the Pyrolyse Oven.%n%nIn essence, it's the original Gregtech large-scale wood processor. It is a massive structure, probably bigger than any other multi you've build before, but it uses simple materials like bronze and steel. If you're able to just throw stacks of those at a controller, you can put this behemoth together and enjoy an alternative to the Advanced Coke Oven that has some extra benefits. Unlike any of the other ovens, this one runs on EU, so you need to route your power back here to process the wood you're feeding it. %n%nWhat makes the Pyro valuable? It outputs a fluid alongside the Charcoal, which you can process for extra power and/or byproducts. Look at NEI to see all the alternatives available to you, this multi can usually output several different fluids, but only one at a time, decided by the circuit inside it. The one to choose at this time is Wood Tar, the same fluid you're extracting from the Charcoal. You get a small constant bonus from having built a Pyro, which is really nice.%n%nHowever, the Pyro uses coils in a similar way to the EBF, and those coils affect the time each recipe takes: if you're using Cupronickel Coils, the recipe time is actually 2x what NEI says! This might be too slow for your needs, so make sure you check how much Charcoal you're getting from here. Kanthal Coils are available in MV, using the IC2 Coolant instead of the Vacuum Freezer.
+gtnh.quest3104.desc=Some setups really demand space in your base to work properly. You might have thought that when you finished the Coke Oven automation, but there's also an option in this tier that respects that need for speed by just being a gigantic multiblock: the Pyrolyse Oven.%n%nIn essence, it's the original Gregtech large-scale wood processor. It is a massive structure, probably bigger than any other multi you've build before, but it uses simple materials like bronze and steel. If you're able to just throw stacks of those at a controller, you can put this behemoth together and enjoy an alternative to the Advanced Coke Oven that has some extra benefits. Unlike any of the other ovens, this one runs on EU, so you need to route your power back here to process the wood you're feeding it. %n%nWhat makes the Pyro valuable? It outputs a fluid alongside the Charcoal, which you can process for extra power and/or byproducts. Look at NEI to see all the alternatives available to you, this multi can usually output several different fluids, but only one at a time, decided by the circuit inside it. The one to choose at this time is Wood Tar, the same fluid you're extracting from the Charcoal. You get a small constant bonus from having built a Pyro, which is really nice.%n%nHowever, the Pyro uses coils in a similar way to the EBF, and those coils affect the time each recipe takes: if you're using Cupronickel Coils, the recipe time is actually 2x what NEI says! This might be too slow for your needs, so make sure you check how much Charcoal you're getting from here. Kanthal Coils are available in MV, using the IC2 Coolant instead of the Vacuum Freezer.%n%nYou can also boost your Pyro by providing Nitrogen. There are separate recipes for that in NEI.
 
 # Quest.3105 - Large Steel Boiler
 gtnh.quest3105.name=Large Steel Boiler
@@ -12426,7 +12426,7 @@ gtnh.quest3105.desc=Direct Charcoal consumption is also improved, if you want to
 
 # Quest.3106 - Wood Tar
 gtnh.quest3106.name=Wood Tar
-gtnh.quest3106.desc=Benzene cannot be extracted directly from Charcoal. To get to it, you need to process the extracted fluid, called Wood Tar. In the past, this was a very slow step, which forced players to spam Fluid Extractors to keep up with the other parts of their Benzene line, but it's a lot faster now. Regardless, you still need more than one Fluid Extractor per each machine used in the step after this one, if using LV machines here. %n%nSince it's an LV recipe, you can overclock it with an MV machine, but you'll waste some EU that way (each recipe will cost twice as much EU). To continue, craft either 2 LV Fluid Extractors or 1 MV one.
+gtnh.quest3106.desc=Benzene cannot be extracted directly from Charcoal. To get to it, you need to process the extracted fluid, called Wood Tar. In the past, this was a very slow step, which forced players to spam Fluid Extractors to keep up with the other parts of their Benzene line, but it's a lot faster now. Regardless, you still need more than one Fluid Extractor for each machine used in the step after this one, if you are using LV machines here. %n%nSince it's an LV recipe, you can overclock it with an MV machine, but you'll waste some EU that way (each recipe will cost twice as much EU). To continue, craft either 2 LV Fluid Extractors or 1 MV one.
 
 # Quest.3107 - The Most Powerful Biodiesel 
 gtnh.quest3107.name=The Most Powerful Biodiesel 
@@ -12450,7 +12450,7 @@ gtnh.quest3111.desc=Your old pal, Creosote Oil, is back in the game! That's righ
 
 # Quest.3112 - Phenol's Width
 gtnh.quest3112.name=Phenol's Width
-gtnh.quest3112.desc=This one is not as specialized as Toluene is. It's also more likely that you will be producing it in a Chemical Reactor, or working around it with recipes, if you choose not to use Oil or Benzene for some reason. You're here, though, so you have all of the possibilities, and all of the advantages of skipping through steps in several important chemical lines that accept Phenol, one of the first being epoxy resin. If you check JEI, you can more easily see where this chemical can come in handy.%n%nIt is true, though, that it isn't as required in HV as Toluene is. Since both of them are good power options alongside Benzene, it's preferable that you burn this one for power between the two, if you have to. In the best situation, you won't need to, but it's also acceptable to burn all of the Benzene and some Phenol, while the Toluene gets converted into its gelled form to make several stacks of TNT. Don't discredit the amount of power you can get from this.
+gtnh.quest3112.desc=This one is not as specialized as Toluene is. It's also more likely that you will be producing it in a Chemical Reactor, or working around it with recipes, if you choose not to use Oil or Benzene for some reason. You're here, though, so you have all of the possibilities, and all of the advantages of skipping through steps in several important chemical lines that accept Phenol, one of the first being epoxy resin. If you check NEI, you can more easily see where this chemical can come in handy.%n%nIt is true, though, that it isn't as required in HV as Toluene is. Since both of them are good power options alongside Benzene, it's preferable that you burn this one for power between the two, if you have to. In the best situation, you won't need to, but it's also acceptable to burn all of the Benzene and some Phenol, while the Toluene gets converted into its gelled form to make several stacks of TNT. Don't discredit the amount of power you can get from this.
 
 # Quest.3113 - Toluene's Power
 gtnh.quest3113.name=Toluene's Power
@@ -12570,7 +12570,7 @@ gtnh.quest3141.desc=From Wood Tar, you can selectively filter out the energetic 
 
 # Quest.3142 - §6§lFaster Crops
 gtnh.quest3142.name=§6§lFaster Crops
-gtnh.quest3142.desc=§WWelcome to my ted talk, today we talk about the §6§lExtreme Industrial Greenhouse.%n§rIt is the most advanced and §l§nLAG FREE§r crop farm that will allow you to supply the amount of tea you need.%nThe machine starts at EV, but to farm IC2 crops you will need at least UV power.%nTo see the structure, place the controller on ground and use a structure hologram to build.%nThe glass tier limits the energy tier until UV. With UV glass you can have an energy tier as high as you want.%nShift click with screwdriver to change crop type (IC2/normal), sadly you can't farm both in one machine.%nThere are 3 modes to manage your crops (change with screwdriver):%n%n§lSetup mode (input):%n§rIn this mode you can plant your crops in the machine.%nJust put them in the input bus and enable the machine with a soft mallet.%nAdditionally, you need to insert block that is required for IC2 crop to grow (if any)%nWhen the bus is empty, just disable it and change the mode.%nKeep in mind that there is limited space of slots for your crops depending on the voltage.%nWith normal crops you start with 1 slot and get an additional 2 slots for every tier past EV, every slot can take 64 crops of the same type.%nWith IC2 crops you start with 4 slots and that multiplies by 4 every tier past UV, every slot can take only 1 crop.%n%n§lSetup mode (output):%n§rThis mode allows you to move your Greenhouse or upgrade your crops.%nWhen the machine is running in this mode it will output all planted crops in the output bus.%n%n§lNormal operation:%n§rWith normal crops it is a straightforward process. Base processing time is 5 seconds, at the end of operation all crops are grown and the outputs are added to the output bus. Additionally the time is lower every tier past EV (The time is divided by the number of tiers past HV, minimum 1 second. WOW) %n%nIC2 crops on the other hand, are not that easy. They are normally simulated, but accelerated 32 times. Process time is 5 seconds. You can check the progress of the growing process with a tricorder.%n%nAdditionally, all your crops need water to grow. Every single crop drinks 1000L per operation. So for example if you have planted 576 tea seeds at UV voltage you will need 576000 L per second.%n%n§lLast notes:%n§rThe animation can’t be disabled.%nYou can’t process primordial.%nThe lamps can be inverted.%nThe dirt must be tilled.%nIf you encounter any issue or have any suggestion please open an issue on github and ping §l@kuba6000§r.%nThis MB was created to farm tea because I wanted to.%n
+gtnh.quest3142.desc=§WWelcome to my ted talk, today we talk about the §6§lExtreme Industrial Greenhouse.%n§rIt is the most advanced and §l§nLAG FREE§r crop farm that will allow you to supply the amount of tea you need.%nThe machine starts at §5EV§r, but to farm IC2 crops you will need at least §dLuV§r power.%nTo see the structure, place the controller on ground and use a structure hologram to build.%nThe glass tier limits the energy tier until §3UV§r. With §3UV§r glass you can have an energy tier as high as you want.%nShift click with screwdriver to change crop type (IC2/normal), sadly you can't farm both in one machine.%nThere are 3 modes to manage your crops (change with screwdriver):%n%n§lSetup mode (input):%n§rIn this mode you can plant your crops in the machine.%nJust put them in the input bus and enable the machine with a soft mallet.%nAdditionally, you need to insert block that is required for IC2 crop to grow (if any)%nWhen the bus is empty, just disable it and change the mode.%nKeep in mind that there is limited space of slots for your crops depending on the voltage.%nWith normal crops you start with 1 slot and that multiplies by 2 every tier past §5EV§r, every slot can take 64 crops of the same type.%nWith IC2 crops you start with 4 slots and that multiplies by 4 every tier past §dLuV§r, every slot can take only 1 crop.%n%n§lSetup mode (output):%n§rThis mode allows you to move your Greenhouse or upgrade your crops.%nWhen the machine is running in this mode it will output all planted crops in the output bus.%n%n§lNormal operation:%n§rWith normal crops it is a straightforward process. Base processing time is 5 seconds, at the end of operation all crops are grown and the outputs are added to the output bus. Additionally the time is lower every tier past §5EV§r §o(The time is divided by the number of tiers past §6HV§r§o, minimum 1 second. WOW) §r%n%nIC2 crops on the other hand, are not that easy. They are normally simulated, but accelerated 32 times. Process time is 5 seconds. You can check the progress of the growing process with a tricorder.%n%nIf you want to grow your crops even faster, then you can use a fertilizer (up to §l400% more drops§r !). Machine will take fertilizer from the input busses on start of the operation and will be applied to that operation only. Each fetilizer gives +200% per crop in normal mode or +10% in IC2 mode. The bonus is applied evenly on crops. Examples:%nNormal mode, 3 wheat seeds, 1 tea seeds, you insert 1 fertilizer, you will get +150% wheat drops and +50% tea drops.%nIC2 mode, 16 melon seed bags, you insert 64 fetilizer, you will get +40% drops.%n%nAdditionally, all your crops need water to grow. Every single crop drinks 1000L per operation. So for example if you have planted 576 tea seeds at §3UV§r voltage you will need 576000 L per second.%n%n§lLast notes:%n§rThe animation can’t be disabled.%nYou can’t process primordial.%nThe lamps can be inverted.%nThe dirt must be tilled.%nIf you encounter any issue or have any suggestion please open an issue on github and ping §l@kuba6000§r.%nThis MB was created to farm tea because I wanted to.%n
 
 # Quest.3143 - Quantum Chestplate
 gtnh.quest3143.name=Quantum Chestplate
@@ -12594,7 +12594,7 @@ gtnh.quest3147.desc=The branch to the left and to the right are both about nucle
 
 # Quest.3148 - IC2 Nuke Variations
 gtnh.quest3148.name=IC2 Nuke Variations
-gtnh.quest3148.desc=No Description
+gtnh.quest3148.desc=This branch of the questline focuses on the IC2 nukes that work differently from the simple kind that is explored on the branch right next to this one. They are more powerful, but also require more setup.%n%nThe main two kinds are fluid nukes and vacuum nukes, which will be explained in the following quests. However, there are also other obscure types, such as wrench nukes, which might or might not work in the current version. Additionally, someone suggested you could disassemble a nuke to reset the heat amount?%n%nThose are memes, but if any new viable type of IC2 nuke is ever introduced, it will be explained in this section.
 
 # Quest.3149 - Build the Assembly Line First
 gtnh.quest3149.name=Build the Assembly Line First
@@ -12606,7 +12606,7 @@ gtnh.quest3150.desc=This branch starts at mid-IV. In this direction, you will fi
 
 # Quest.3151 - Thorium as Early Power
 gtnh.quest3151.name=Thorium as Early Power
-gtnh.quest3151.desc=The very first step into nuclear power is done with Thorium in an Industrialcraft2 nuke. This multiblock already has a good amount of information in the questbook, split between the EV and How to Generate Power pages, so you should look at those if you want even more information that might not be written here. For the sake of not repeating everything, this will be more of a summary.%n%nThorium nukes are better for creating other elements, specifically Lutetium, than for power. The best setup needs the maximum amount of chambers, 6, and a lot of components inside the reactor to burn 10 quad Thorium rods and generate 1920 EU/t, close to one EV amp. If you made 4 of these, you would get close to an IV amp, but this becomes very costly between the total 36 chambers and the recursive crafting of the components inside. The good news is that Thorium is a very cheap fuel, easily mined in the Nether, and recyclable in large amounts from depleted fuel rods.%n%nThis setup, and many others, can be found in the GTNH wiki in the "Nuclear Reactors" page. However, to display it here as best I can, this is the 1920 EU/t Thorium reactor:%n%nOPVOVOPPO%nEOOEOEOOE%nORRORORRO%nORRORORRO%nEOOEOEOOE%nOPPOVOVPO%n%nE -> Component Heat Exchanger (8 needed)%nV -> Component Heat Vent (4 needed)%nO -> Overclocked Heat Vent (26 needed)%nR -> Quad Fuel Rod of Thorium (10 needed)%nP -> Reactor Plating (6 needed)%n%nYou can make this setup, if you wish, but the only required task to continue to the next quest are the 40 single Thorium rods. 
+gtnh.quest3151.desc=The very first step into nuclear power is done with Thorium in an Industrialcraft2 nuke. This multiblock already has a good amount of information in the questbook, split between the EV and How to Generate Power pages, so you should look at those if you want even more information that might not be written here. For the sake of not repeating everything, this will be more of a summary.%n%nThorium nukes are better for creating other elements, specifically Lutetium, than for power. The best setup needs the maximum amount of chambers, 6, and a lot of components inside the reactor to burn 10 quad Thorium rods and generate 1920 EU/t, close to one EV amp. If you made 4 of these, you would get close to an IV amp, but this becomes very costly between the total 36 chambers and the recursive crafting of the components inside. The good news is that Thorium is a very cheap fuel, easily mined in the Nether, and recyclable in large amounts from depleted fuel rods.%n%nThis setup, and many others, can be found in the GTNH wiki in the "Nuclear Reactors" page. However, to display it here as best I can, this is the 1920 EU/t Thorium reactor:%n%nOPVOVOPPO%nEOOEOEOOE%nORRORORRO%nORRORORRO%nEOOEOEOOE%nOPPOVOVPO%n%nE -> Component Heat Exchanger (8 needed)%nV -> Component Heat Vent (4 needed)%nO -> Overclocked Heat Vent (26 needed)%nR -> Quad Fuel Rod of Thorium (10 needed)%nP -> Reactor Plating (6 needed)%n%nYou can make this setup, if you wish, but the only required task to continue to the next quest are 10 single Thorium rods. 
 
 # Quest.3152 - The Path of Fusion
 gtnh.quest3152.name=The Path of Fusion
@@ -12618,19 +12618,19 @@ gtnh.quest3153.desc=All the regular Fusion Reactors share the same structure. Th
 
 # Quest.3154 - Fluid Nukes
 gtnh.quest3154.name=Fluid Nukes
-gtnh.quest3154.desc=Eventually, the previous nukes will not be big enough. You can make more of them, to get more power, but it's clear that you need something bigger. Bigger, literally. The next step in nuclear fission starts with a bigger multiblock, built on top of the original nuke. By surrounding it with a 5x5x5 cube of Reactor Pressure Vessels, it will become a different type of multiblock, the fluid nuke.%n%nAfter doing this, there's no direct EU generation anymore. The main output of a working fluid nuke is Hot Coolant, a fluid that can be turned into Steam or Superheated Steam in another multi, the Large Heat Exchanger (LHE). Steam means power, as you already know, so the obvious chain of processes here is a fluid nuke into an LHE, and then into Steam Turbines. These added steps are required to make EU from a nuke of this type (or, at least, they're the most popular way of doing it), but this work is rewarded by the final EU/t output of the setup, which is much larger than a regular nuke's output with the same amount of fuel.%n%nThe difference exists because regular nukes actually have a 50% penalty to EU/t. It's such a big step-up that, in reality, one fluid nuke is enough for IV power, if it's powerful enough. The one in this quest, though, is not that one, because fluid nukes in general have some additional complications that will be harder to deal with it. In fact, for this, you have the option to use Thorium as fuel and still get a good amount of power! What you will need are the fluid nuke blocks, but there is an optional task for this setup that only needs one LHE and two Steam Turbines.
+gtnh.quest3154.desc=Eventually, the previous nukes will not be big enough. You can make more of them, to get more power, but it's clear that you need something bigger. Bigger, literally. The next step in nuclear fission starts with a bigger multiblock, built on top of the original nuke. By surrounding it with a 5x5x5 cube of Reactor Pressure Vessels, it will become a different type of multiblock, the fluid nuke.%n%nAfter doing this, there's no direct EU generation anymore. The main output of a working fluid nuke is Hot Coolant, a fluid that can be turned into Steam or Superheated Steam in another multi, the Large Heat Exchanger (LHE). Steam means power, as you already know, so the obvious chain of processes here is a fluid nuke into an LHE, and then into Steam Turbines. These added steps are required to make EU from a nuke of this type (or, at least, they're the most popular way of doing it), but this work is rewarded by the final EU/t output of the setup, which is much larger than a regular nuke's output with the same amount of fuel.%n%nThe difference exists because regular nukes actually have a 50% penalty to EU/t. It's such a big step-up that, in reality, one fluid nuke is enough for IV power, if it's powerful enough. The one in this quest, though, is not that one, because fluid nukes in general have some additional complications that will be harder to deal with it. In fact, for this, you have the option to use Thorium as fuel and still get a good amount of power! What you will need are the fluid nuke blocks, but there is an optional task for this setup that only needs some blocks from the setup.
 
 # Quest.3155 - Thorium as Breeding Fuel
 gtnh.quest3155.name=Thorium as Breeding Fuel
-gtnh.quest3155.desc=Alternatively, you might choose to only process Thorium for its main output, Lutetium. This is important because Lutetium is required to make Americium in a Fusion Reactor down the line, and that is a recipe you will need to do in order to progress. Your objective is to breed Thorium into Lutetium, which means you might want to focus on a breeder reactor.%n%nWhat is a breeder reactor? In this case, it's an IC2 nuke designed to consume as much Thorium as possible. The main cost here is the amount of chambers or nuke components you'll have to make. If you want to save on Overclocked Heat Vents, make a tower of 0-chamber nukes, each with the following setup:%n%nRPR%nORP%nRPR%nPRP%nRPR%nORP%n%nR -> Single Fuel Rod of Thorium (9 needed)%nO -> Overclocked Heat Vent (2 needed)%nP -> Reactor Plating (7 needed)%n%nOtherwise, if you have excess Overclocked Heat Vents and want to save up on chambers, turn to this setup:%n%nORORORO%nROEOEOR%nORORORO%nROROROR%nOPOPOPO%nROROROR%n%nE -> Heat Exchanger (2 needed)%nR -> Quad Fuel Rod of Thorium (16 needed)%nO -> Overclocked Heat Vent (21 needed)%nP -> Reactor Plating (3 needed)%n%n(Each of the latter is worth 7x the former in terms of breeding.)%n%nTo complete this quest, you'll need enough Lutetium to match one cycle of the second reactor setup. Which setup you choose is up to you, of course.
+gtnh.quest3155.desc=Alternatively, you might choose to only process Thorium for its main output, Lutetium. This is important because Lutetium is required to make Americium in a Fusion Reactor down the line, and that is a recipe you will need to do in order to progress. Your objective is to breed Thorium into Lutetium, which means you might want to focus on a breeder reactor.%n%nWhat is a breeder reactor? In this case, it's an IC2 nuke designed to consume as much Thorium as possible. The main cost here is the amount of chambers or nuke components you'll have to make. If you want to save on Overclocked Heat Vents, make a tower of 0-chamber nukes, each with the following setup:%n%nRPR%nORP%nRPR%nPRP%nRPR%nORP%n%nR -> Single Fuel Rod of Thorium (9 needed)%nO -> Overclocked Heat Vent (2 needed)%nP -> Reactor Plating (7 needed)%n%nOtherwise, if you have excess Overclocked Heat Vents and want to save up on chambers, turn to this setup:%n%nORORORO%nROEOEOR%nORORORO%nROROROR%nOPOPOPO%nROROROR%n%nE -> Heat Exchanger (2 needed)%nR -> Quad Fuel Rod of Thorium (16 needed)%nO -> Overclocked Heat Vent (21 needed)%nP -> Reactor Plating (3 needed)%n%n(Each of the latter is worth 7x the former in terms of breeding.)%n%nTo complete this quest, you'll need to get Lutetium from one cycle of the any reactor setup. Which setup you choose is up to you, of course.
 
 # Quest.3156 - Large Heat Infrastructure
 gtnh.quest3156.name=Large Heat Infrastructure
-gtnh.quest3156.desc=No Description
+gtnh.quest3156.desc=A required intermediate machine between your fluid nukes and your power is the Large Heat Exchanger (LHE). It takes in a hot fluid, in this case Hot Coolant, and transforms Distilled Water into Steam or Superheated Steam depending on how fast the hot fluid is coming in. It's important to only use Distilled Water here, because the Steam Turbines will output and recycle it back to the LHE.%n%nFor this purpose, you will need around one LHE per fluid nuke if you're doing one of the good setups from the wiki. None of them will reach the maximum flow one LHE can accept, but any setup above 800 HU will give you Superheated Steam, which is more efficient for EU and what you want to get.%n%nIf your setup does not match that 800 HU threshold, you can use a Hot Coolant buffer and set up a redstone latch so that the Hot Coolant flows in fast enough, until the buffer is almost empty. ProjectRed has a special block that acts as the latch, and you will then need two redstone signals that scale with the amount of fluid stored in your buffer tank. One of the signals should be normal, and the other reversed.%n%n
 
 # Quest.3157 - Fuel Input Automation
 gtnh.quest3157.name=Fuel Input Automation
-gtnh.quest3157.desc=No Description
+gtnh.quest3157.desc=Reactor Platings. These are very important for automation, although their supposed use is not this one. They serve to increase the maximum temperature of the reactor, but that is useless to you because you'll be using heat-neutral setups. Instead, they are simply the cheapest way to fill every slot of your nukes, except for those where fuel rods need to go.%n%nAs you know, the placement of each component is critical to keep the reactor safe. Fuel automation is as simple as just pushing fuel rods into the reactor, but you need to make it so the open slots are the only safe places for the rods. From there, you can extract with a filter set to the depleted version of the rods you are using. and the exchange will happen seamlessly.%n%nFrom there, you can turn the depleted rods into usable rods by putting them in the Thermal Centrifuge, adding back the fuel that wasn't recycled (each type of rod recycles different amounts of fuel) and the Empty Fuel Rods/Steel Rods.
 
 # Quest.3158 - Focus On Power Generation
 gtnh.quest3158.name=Focus On Power Generation
@@ -12662,11 +12662,11 @@ gtnh.quest3164.desc=Osmium - from Helium and Tungsten. Osmium from the platline 
 
 # Quest.3165 - UV Power Per Turbine
 gtnh.quest3165.name=UV Power Per Turbine
-gtnh.quest3165.desc=Once you progress enough in ZPM to make ZPM Dynamo Hatches, you can increase each turbine's output to 524,288 EU/t. At this number, you'll be a lot less limited by the turbine material, and it's possible to increase the total power output of one Fusion Reactor considerably. You can cover the total Helium Plasma output from one reactor with 3 Plasma Turbines, if you choose the right materials:%n%nLarge High Durability Compound Steel 230% 202,860 EU/t%nLarge Atomic Separation Catalyst 200% 399,672 EU/t%nLarge Adamantium 180% 170,010 EU/t%nLarge Draconium 170% 214,200 EU/t (durable)%nLarge Ichorium 170% 342,720 EU/t (very durable)%nLarge Neutronium 160% 241,920 EU/t (very durable)%n%nThe power output and final efficiency can vary a lot, based on which turbines you're using. Some of them, like Ichorium and Neutronium, last basically forever, while others will need to be replaced from time to time but offer higher efficiency. If you want to get more power per turbine, to reach closer to the dynamo's limit, you can increase the flow of plasma to the turbine, but be careful! You can't go beyond the dynamo's limit, and you will also lose efficiency as you increase the flow amount. More concrete values for efficiency loss can be found in the Plasma Turbine quest in the LuV page.
+gtnh.quest3165.desc=Once you progress enough in ZPM to make ZPM Dynamo Hatches, you can increase each turbine's output to 524,288 EU/t. At this number, you'll be a lot less limited by the turbine material, and it's possible to increase the total power output of one Fusion Reactor considerably. You can cover the total Helium Plasma output from one reactor with 3 Plasma Turbines, if you choose the right materials:%n%nLarge High Durability Compound Steel 230% 202,860 EU/t%nLarge Atomic Separation Catalyst 200% 399,672 EU/t%nLarge Adamantium 180% 170,010 EU/t%nLarge Draconium 170% 214,200 EU/t (durable)%nLarge Ichorium 170% 342,720 EU/t (very durable)%nLarge Neutronium 160% 241,920 EU/t (very durable)%n%nThe power output and final efficiency can vary a lot, based on which turbines you're using. Some of them, like Ichorium and Neutronium, last basically forever, while others will need to be replaced from time to time but offer higher efficiency. If you want to get more power per turbine, to reach closer to the dynamo's limit, you can increase the flow of plasma to the turbine, but be careful! You can't go beyond the dynamo's limit, and you will also lose efficiency as you increase the flow amount. More concrete values for efficiency loss can be found in the Plasma Turbine quest in the LuV page.%n%nMake a normal or buffered ZPM dynamo to complete the quest.
 
 # Quest.3166 - Powering-up Fluid Nukes
 gtnh.quest3166.name=Powering-up Fluid Nukes
-gtnh.quest3166.desc=The previous setup's EU/t might not have impressed you. You have enough materials to put together the fluid nuke structure, but you want something more than what you've seen before. What kind of setup is powerful enough to output several IV amps, and sustain a developed IP base on its own? That sort of setup is shown in this quest, but it requires more multiblocks, and therefore more expense than the previous quest's chain. The fuel is the same, Uranium, so at this point it's certainly the least of your worries, until you try to automate the fuel input, at least.%n%nThe components inside the nuke get more and more complicated, so at this point I'm going to ask you to look at the wiki, under the Nuclear Reactors page (https://gtnh.miraheze.org/wiki/Nuclear_Reactors), and scroll down to the fluid nuke setups, specifically the 1352 HU, 2 Quad Uranium and 1408, 3 Quad Uranium, 1 Dual Uranium ones. The main difference between these two setups is that the first needs Iridium Neutron Reflectors, which are quite expensive if you haven't done the platline yet, while the second doesn't use them but is harder to automate due to having more than one type of rod.%n%nWhat's the final EU/t output, at 150% turbine efficiency? 30240 and 31680 EU/t, respectively.%n%nAfter automating the nuke itself, there is still more to do, though. The LHE is required, as usual, but these setups cause something new to happen: the LHE starts outputting Superheated Steam, due to the high flow of hot coolant that it receives, which means that you need two sets of turbines instead of one. This type of steam must go into Large HP Steam Turbines, which use a good amount of Tungstensteel for the controller and stacks of Titanium for the casings. After those, it goes into the usual Large Steam Turbines, and the process is complete.%n%nThere is yet another new thing to worry about, in case all of this wasn't enough: the Steam flow is very high, higher than before, which means it's likely you will need 3 or more of each turbine type, further compounding on the costs you'll have here. Oriharukon is your best choice. Are you willing to tackle this setup?
+gtnh.quest3166.desc=The previous setup's EU/t might not have impressed you. You have enough materials to put together the fluid nuke structure, but you want something more than what you've seen before. What kind of setup is powerful enough to output several IV amps, and sustain a developed IV base on its own? That sort of setup is shown in this quest, but it requires more multiblocks, and therefore more expense than the previous quest's chain. The fuel is the same, Uranium, so at this point it's certainly the least of your worries, until you try to automate the fuel input, at least.%n%nThe components inside the nuke get more and more complicated, so at this point I'm going to ask you to look at the wiki, under the Nuclear Reactors page (https://gtnh.miraheze.org/wiki/Nuclear_Reactors), and scroll down to the fluid nuke setups, specifically the 1352 HU, 2 Quad Uranium and 1408, 3 Quad Uranium, 1 Dual Uranium ones. The main difference between these two setups is that the first needs Iridium Neutron Reflectors, which are quite expensive if you haven't done the platline yet, while the second doesn't use them but is harder to automate due to having more than one type of rod.%n%nWhat's the final EU/t output, at 150% turbine efficiency? 30240 and 31680 EU/t, respectively.%n%nAfter automating the nuke itself, there is still more to do, though. The LHE is required, as usual, but these setups cause something new to happen: the LHE starts outputting Superheated Steam, due to the high flow of hot coolant that it receives, which means that you need two sets of turbines instead of one. This type of steam must go into Large HP Steam Turbines, which use a good amount of Tungstensteel for the controller and stacks of Titanium for the casings. After those, it goes into the usual Large Steam Turbines, and the process is complete.%n%nThere is yet another new thing to worry about, in case all of this wasn't enough: the Steam flow is very high, higher than before, which means it's likely you will need 3 or more of each turbine type, further compounding on the costs you'll have here. Oriharukon and MAR-Ce-M200 are your best choices. Are you willing to tackle this setup?
 
 # Quest.3167 - Vacuum Nukes
 gtnh.quest3167.name=Vacuum Nukes
@@ -12698,11 +12698,11 @@ gtnh.quest3173.desc=This quest is after the vacuum nuke one because the fuel req
 
 # Quest.3174 - Nukes - Summarized
 gtnh.quest3174.name=Nukes - Summarized
-gtnh.quest3174.desc=No Description
+gtnh.quest3174.desc=IC2 nukes will fall off when you arrive at fusion energy, for the most part. Although the highest EU/t numbers obtained from these newer, more powerful cells haven't been calculated yet, it is more likely that you will be using them to process the excited materials instead of focusing your powergen on them. %n%nThat said, it is possible to push them very far by using a bigger Heat Exchanger (there are two kinds) and XL Turbines, if going fluid, or by putting together a lot of vacuum nukes. If you want to choose the latter ones, due to their direct EU/t, then there's one last step: The Core.%n%nThese are super-powerful fuel rods that can create UHV setups, as long as you cool them down with the most powerful coolant cells there are. A setup for this exists in the wiki, but the most difficult part will be the redstone automation. These babies will turn your base into a mini Sun, if you let them, so you best have practiced your redstone skills!
 
 # Quest.3175 - MOX Nukes
 gtnh.quest3175.name=MOX Nukes
-gtnh.quest3175.desc=Upon gathering more Plutonium, you can try building a MOX nuke, the most powerful of the basic nukes. It is a 6-chamber, like usual, and it takes U238 as before, but it outputs close to 6820 EU/t while only using 5 quad rods instead of 7. How is this possible? The answer is... MOX.%n%nMOX means mixed-oxide, which is the name given to the mix of Uranium and Plutonium. In here, rods with this fuel are special in the sense that they don't output a specific amount of EU/t from the usual nuke mechanics. On top of those, it also reacts to the heat of the reactor, generating more energy the hotter it is. To compensate, these rods last only half the time that the Uranium fuel rods do, but their total EU is higher if they are active in very hot reactors. This imposes an obvious problem - hot reactors are not good for your base.%n%nThere is one standardized way of dealing with this: heat-neutral reactors. What this means is that the reactor's temperature does not change while it's active, because the components inside are not interacting with the reactor's temperature value, only with the value of other components like the fuel rods themselves. This limits the type of components you can use, and you'll find that Advanced Heat Vents are now required (the overclocked ones interact with the reactor itself). However, at the same time, you can use any fuel rod to heat the reactor up to a high temperature and then activate a setup of this kind, which ensures safety and efficiency in MOX nukes.%n%nVAAV%nARRA%nVAAV%nVAAV%nARRA%nVAAV%n%nA - Advanced Heat Exchanger (12 needed)%nV - Component Heat Vent (8 needed)%nR - Dual Fuel Rod of MOX (4 needed)%n%n1200-2730 EU/t%n%n(This setup is the most efficient per MOX fuel rod, if you're short on fuel, which you shouldn't be if you're doing a MOX setup)%n%nAEAVPVAEA%nVARAVARAV%nAVAVAVAVA%nEAVARAVAE%nARAVAVARA%nVAEAVAEAV%n%nA - Advanced Heat Exchanger (26 needed)%nE - Component Heat Exchanger (6 needed)%nV - Component Heat Vent (16 needed)%nR - Quad Fuel Rod of MOX (5 needed)%nP - Reactor Plating (1 needed)%n%n3000-6825 EU/t%n%n(This setup is the most efficient per Advanced Heat Vent)%n
+gtnh.quest3175.desc=Upon gathering more Plutonium, you can try building a MOX nuke, the most powerful of the basic nukes. It is a 6-chamber, like usual, and it takes U238 as before, but it outputs close to 6820 EU/t while only using 5 quad rods instead of 7. How is this possible? The answer is... MOX.%n%nMOX means mixed-oxide, which is the name given to the mix of Uranium and Plutonium. In here, rods with this fuel are special in the sense that they don't output a specific amount of EU/t from the usual nuke mechanics. On top of those, it also reacts to the heat of the reactor, generating more energy the hotter it is. To compensate, these rods last only half the time that the Uranium fuel rods do, but their total EU is higher if they are active in very hot reactors. This imposes an obvious problem - hot reactors are not good for your base.%n%nThere is one standardized way of dealing with this: heat-neutral reactors. What this means is that the reactor's temperature does not change while it's active, because the components inside are not interacting with the reactor's temperature value, only with the value of other components like the fuel rods themselves. This limits the type of components you can use, and you'll find that Advanced Heat Vents are now required (the overclocked ones interact with the reactor itself). However, at the same time, you can use any fuel rod to heat the reactor up to a high temperature and then activate a setup of this kind, which ensures safety and efficiency in MOX nukes.%n%nVAAV%nARRA%nVAAV%nVAAV%nARRA%nVAAV%n%nA - Advanced Heat Exchanger (12 needed)%nV - Component Heat Vent (8 needed)%nR - Dual Fuel Rod of MOX (4 needed)%n%n1200-2730 EU/t%n%n(This setup is the most efficient per MOX fuel rod, if you're short on fuel, which you shouldn't be if you're doing a MOX setup)%n%nAEAVPVAEA%nVARAVARAV%nAVAVAVAVA%nEAVARAVAE%nARAVAVARA%nVAEAVAEAV%n%nA - Advanced Heat Vent (26 needed)%nE - Component Heat Exchanger (6 needed)%nV - Component Heat Vent (16 needed)%nR - Quad Fuel Rod of MOX (5 needed)%nP - Reactor Plating (1 needed)%n%n3000-6825 EU/t%n%n(This setup is the most efficient per Advanced Heat Vent)%n
 
 # Quest.3176 - Nuclear Fuel Processing
 gtnh.quest3176.name=Nuclear Fuel Processing
@@ -12750,11 +12750,11 @@ gtnh.quest3186.desc=Once you upgrade your Fusion Reactor to tier 2, you gain acc
 
 # Quest.3187 - Two Million Turbines
 gtnh.quest3187.name=Two Million Turbines
-gtnh.quest3187.desc=Hopefully, not more than a handful. The objective here is for each of them to output close to 2 million EU/t.%n%nHow can you get there? Look at the UV Dynamo Hatch's recipe and you have your new objective. When you arrive there, each turbine that is equipped with that impressive block will be able to output up to 2,097,152 EU/t, which again opens you up to new turbine opportunities. Some good choices at this point are as follows:%n%nLarge Cosmic Neutronium 220% 1,330,560 EU/t%nLarge Awakened Draconium 190% 478,800 EU/t%nLarge Trinium 180% 1,452,520 EU/t%n%nAt this point, you might consider building more t1 Fusion Reactors to process other materials. Even if you stop the reactor you're using to generate this plasma, the EU cost of restarting it is less than 1 bucket of plasma, so it's probably not that big of a deal.
+gtnh.quest3187.desc=Hopefully, not more than a handful. The objective here is for each of them to output close to 2 million EU/t.%n%nHow can you get there? Look at the UV Dynamo Hatch's recipe and you have your new objective. When you arrive there, each turbine that is equipped with that impressive block will be able to output up to 2,097,152 EU/t, which again opens you up to new turbine opportunities. Some good choices at this point are as follows:%n%nLarge Cosmic Neutronium 220% 1,330,560 EU/t%nLarge Awakened Draconium 190% 478,800 EU/t%nLarge Trinium 180% 1,452,520 EU/t%n%nAt this point, you might consider building more t1 Fusion Reactors to process other materials. Even if you stop the reactor you're using to generate this plasma, the EU cost of restarting it is less than 1 bucket of plasma, so it's probably not that big of a deal.%n%nMake a normal or buffered UV dynamo to complete the quest.
 
 # Quest.3188 - The Overclocking of the Ages
 gtnh.quest3188.name=The Overclocking of the Ages
-gtnh.quest3188.desc=Tin Plasma is more power-dense, but it's not a required upgrade. As you scale up, it's always worth it to look back at Helium Plasma for how renewable it is, something that Tin Plasma has unfortunately lost a bit of. It can be made renewable, but one of its strengths was in the Molecular Transformer recipe that transformed Tin, the output, into Silver, one of the inputs. Without this recipe, it's not as easy to keep feeding in the necessary materials, and Helium Plasma got more usage after t1 fusion.%n%nAs per usual, running a lower tier recipe awards you with an overclock. Unlike other GT machines, though, the Fusion Reactor's overclock doubles both speed and energy consumption, which maintains the energy consumption per recipe but gives only half of a speed boost that a perfect overclock (like the Large Chemical Reactor) would. This means that a t2 reactor can produce exactly twice as much power as a t1 in the form of plasma output, but the upgrade is bigger than that when taking better turbines into account.%n%nWhat comes next, then? Tier 3 is what is next. There is no new fuel to be used here, your options are either 4x speed on Helium or 2x speed on Tin. After getting the cheaper Americium recipe that's available on t3, you will be able to make more reactors at a cheaper cost, but this lack of fuel upgrade will still be problematic in your progression. You will have to find other ways to upgrade your power, which will be revealed after this.
+gtnh.quest3188.desc=Tin Plasma is more power-dense, but it's not a required upgrade. As you scale up, it's always worth it to look back at Helium Plasma for how renewable it is, something that Tin Plasma has unfortunately lost a bit of. It can be made renewable, but one of its strengths was in the Molecular Transformer recipe that transformed Tin, the output, into Silver, one of the inputs. This recipe is now in the new Molecular Transformer Multiblock and does not scale as well as before. Therefore it might be easier to use void miners for silver or to stick with Helium Plasma.%n%nAs per usual, running a lower tier recipe awards you with an overclock. Unlike other GT machines, though, the Fusion Reactor's overclock doubles both speed and energy consumption, which maintains the energy consumption per recipe but gives only half of a speed boost that a perfect overclock (like the Large Chemical Reactor) would. This means that a t2 reactor can produce exactly twice as much power as a t1 in the form of plasma output, but the upgrade is bigger than that when taking better turbines into account.%n%nWhat comes next, then? Tier 3 is what is next. There is no new fuel to be used here, your options are either 4x speed on Helium or 2x speed on Tin. After getting the cheaper Americium recipe that's available on t3, you will be able to make more reactors at a cheaper cost, but this lack of fuel upgrade will still be problematic in your progression. You will have to find other ways to upgrade your power, which will be revealed after this.
 
 # Quest.3189 - Fusing Americium and Tritanium
 gtnh.quest3189.name=Fusing Americium and Tritanium
@@ -12766,15 +12766,15 @@ gtnh.quest3190.desc=Who in their right mind would use a plasma to solder things 
 
 # Quest.3191 - Optional Tier 2 Fusion
 gtnh.quest3191.name=Optional Tier 2 Fusion
-gtnh.quest3191.desc=Indium - from Lithium + Silver. This is one of the most important optional fusion recipes, given how difficult Indium is to get. You either replicate it, or you make it with fusion here, those are the two main alternatives.%n%n(You can make Indium in other ways, of course, but this is a relatively popular, non-forced fusion recipe)%n%nUranium - from Gold + Aluminium or Magnesium + Mercury. You should have already left nuclear fission behind, but if you ever need Uranium, you can use this? You should have a lot of it already.%n%nPlutonium - from Helium + Uranium. A quick 1:1 conversion from U238 to P239, but you already have access to Plutonium Ore, so this is probably pointless.%n%nCalifornium - from Beryllium + Plutonium. Mostly used for Oganesson, not very useful for anything else, and you won't need a lot of this if replicating Oganesson is an option.%n%n(These 3 recipes makes a possible chain to Oganesson, which can be made in t3 fusion. Not that they are necessarily the best option to get it.)%n%nExcited Uranium Fuel - from Hydrogen and Uranium Liquid Fuel. This is for the Naquadah Generator, which is late ZPM, or possibly to use in IC2 nukes, although that's the worse option. Basically, it's accelerated nuclear fission, if you have interest in that.%n%nExcited Plutonium Fuel - from Hydrogen and Plutonium Liquid Fuel. Same as above, but from Plutonium. This means it's more expensive, but also more powerful, and can yield a lot of power in the Naquadah Generator with the right additives.
+gtnh.quest3191.desc=Uranium - from Gold + Aluminium or Magnesium + Mercury. You should have already left nuclear fission behind, but if you ever need Uranium, you can use this? You should have a lot of it already.%n%nPlutonium - from Helium + Uranium. A quick 1:1 conversion from U238 to P239, but you already have access to Plutonium Ore, so this is probably pointless.%n%nCalifornium - from Beryllium + Plutonium. Mostly used for Oganesson, not very useful for anything else, and you won't need a lot of this if replicating Oganesson is an option.%n%n(These 3 recipes makes a possible chain to Oganesson, which can be made in t3 fusion. Not that they are necessarily the best option to get it.)%n%nExcited Uranium Fuel - from Hydrogen and Uranium Liquid Fuel. This is for the Naquadah Generator, which is late ZPM, or possibly to use in IC2 nukes, although that's the worse option. Basically, it's accelerated nuclear fission, if you have interest in that.%n%nExcited Plutonium Fuel - from Hydrogen and Plutonium Liquid Fuel. Same as above, but from Plutonium. This means it's more expensive, but also more powerful, and can yield a lot of power in the Naquadah Generator with the right additives.
 
 # Quest.3192 - Infinite Turbines
 gtnh.quest3192.name=Infinite Turbines
-gtnh.quest3192.desc=Some turbine materials are not available for you, either because you don't have the material itself or because the Dynamo Hatch in the turbine cannot handle the power output from plasma. It will be a different story in UHV, when you can once again quadruple the max output of each turbine, and also unlock Infinity as an option for turbines.%n%nLarge Infinity 270% 4,354,560 EU/t%nLarge Infinity Catalyst 200% 806,400 EU/t%n%nYes, that's basically it. You can use any material from the previous turbine quests, but when you make the t8 rocket and can mine Infinity Catalyst, these are the two options. Obviously, Infinity is much better, but also much more expensive. If you stick with fusion, you will need several of those to push through the endgame. Remember that you can input plasma beyond the optimal flow, and get more out of each turbine at the cost of fuel efficiency.
+gtnh.quest3192.desc=Some turbine materials are not available for you, either because you don't have the material itself or because the Dynamo Hatch in the turbine cannot handle the power output from plasma. It will be a different story in UHV, when you can once again quadruple the max output of each turbine, and also unlock Infinity as an option for turbines.%n%nLarge Infinity 270% 4,354,560 EU/t%nLarge Infinity Catalyst 200% 806,400 EU/t%n%nYes, that's basically it. You can use any material from the previous turbine quests, but when you make the t8 rocket and can mine Infinity Catalyst, these are the two options. Obviously, Infinity is much better, but also much more expensive. If you stick with fusion, you will need several of those to push through the endgame. Remember that you can input plasma beyond the optimal flow, and get more out of each turbine at the cost of fuel efficiency.%n%nMake a normal or buffered UHV dynamo to complete the quest.
 
 # Quest.3193 - Optional Tier 3 Fusion
 gtnh.quest3193.name=Optional Tier 3 Fusion
-gtnh.quest3193.desc=Oganesson - from Calcium + Californium. This is the best noble gas of them all, and a very power-hungry recipe compared to most. However, Oganesson will save you power on EBF recipes, reducing recipe time more than any other fluid, and it also boosts Void Miners to their maximum speed. Replicating it, if possible, is easier than producing more through fusion.%n%nAmericium - from Hydrogen + Plutonium 241. This is the cheaper Americium recipe that was promised to you in t2, and it no longer needs Lutetium. You should be able to get both of the inputs very easily, so enjoy your cheaper Americium!%n%nNeutronium - from Naquadria + Americium. Neutronium fusion? You probably won't need to use this, but it is a source other than ores that you can try.
+gtnh.quest3193.desc=Indium - from Lithium + Silver. This is one of the most important optional fusion recipes, given how difficult Indium is to get. Your options are to either replicate it, make it with fusion, obtain it from the naquadria line, or obtain it from processing sphalerite ore.%n%n(You can make Indium in other ways, of course, but this is a relatively popular, non-forced fusion recipe)%n%nOganesson - from Calcium + Californium. This is the best noble gas of them all, and a very power-hungry recipe compared to most. However, Oganesson will save you power on EBF recipes, reducing recipe time more than any other fluid, and it also boosts Void Miners to their maximum speed. Replicating it, if possible, is easier than producing more through fusion.%n%nAmericium - from Hydrogen + Plutonium 241. This is the cheaper Americium recipe that was promised to you in t2, and it no longer needs Lutetium. You should be able to get both of the inputs very easily, so enjoy your cheaper Americium!%n%nNeutronium - from Naquadria + Americium. Neutronium fusion? You probably won't need to use this, but it is a source other than ores that you can try.
 
 # Quest.3194 - Smaller Fusion Is Bigger
 gtnh.quest3194.name=Smaller Fusion Is Bigger
@@ -12794,7 +12794,7 @@ gtnh.quest3197.desc=An LuV LFTR running on Fuel 3 outputs 4 LuV amps per tick, o
 
 # Quest.3198 - Radioactivity's Additives
 gtnh.quest3198.name=Radioactivity's Additives
-gtnh.quest3198.desc=No Description
+gtnh.quest3198.desc=The Naquadah Reactor has the potential to be an endgame power generator, but only if the right additives are used. These additives boost the EU/t output of the multi, but in different ways, and it's important to upgrade them as quickly as possible. However, going beyond the max output of the Dynamo Hatch is not a good idea!%n%nThere are two types of additives: the coolants and the fuel boosters. The coolants boost fuel efficiency, which means fuel consumption is the same, whereas the boosters increase the speed the multi burns the fuel, increasing the output at the same time.%n%nThere are three coolants, but the 275% efficiency boost by using Cryotheum should not be ignored. To automate it, you will need an automated source of Blaze Rods and Snowballs (Snow is made from Water). To this, you add Redstone and Saltpeter, and you're done.%n%nThe boosters are more difficult to choose from. Caesium should be ignored, Uranium 235 can be automated from Uranium 238 with magic at an almost 1:1 ratio, but Naquadah is what you probably have ready to use for this, which quadruples the speed of this reactor. However, if this is too slow, you can instead automate Atomic Separation Catalyst to get a 16x speed boost! There are many recipes for this, so choose your favorite.
 
 # Quest.3199 - Automation for Fluid Nukes
 gtnh.quest3199.name=Automation for Fluid Nukes
@@ -12802,11 +12802,11 @@ gtnh.quest3199.desc=If you've looked at the wiki setups, you might have seen som
 
 # Quest.3200 - EV vs. IV
 gtnh.quest3200.name=EV vs. IV
-gtnh.quest3200.desc=Your sourcing of Uranium is gonna be very small in EV, unless you use crops. Similarly, your ability to put together the multiblocks needed for the fluid nuke will be better in IV, since you can mine Small Titanium Ore directly, and use GT++ multis. %n%nAll in all, it becomes very worthwhile to rush the Tier 2 Rocket and land on Mars and Phobos to get Uranium and Tungstate/Scheelite, before you go much farther with IC2 nukes.
+gtnh.quest3200.desc=Your sourcing of Uranium is gonna be very small in EV, unless you use crops. Similarly, your ability to put together the multiblocks needed for the fluid nuke will be better in IV, since you can mine Small Titanium Ore directly, and use GT++ multis. %n%nAll in all, it becomes very worthwhile to rush the Tier 2 Rocket and land on Mars and Phobos to get Uranium and Tungstate/Scheelite, before you go much farther with IC2 nukes. In IV, fluid nukes are one of the best choices for efficient power without a lot of setup, although it's very viable to use Thorium and not just Uranium.%n%nEither way, it's recommended to have a multiblock Miner in either the Nether or Phobos, to source your Thorium or Uranium.
 
 # Quest.3201 - Thorium vs. Uranium
 gtnh.quest3201.name=Thorium vs. Uranium
-gtnh.quest3201.desc=No Description
+gtnh.quest3201.desc=Thorium and Uranium have a lot of differences, but also a lot of similarities.%n%nIn general, Uranium is a better fuel, but fluid nukes do not follow that general rule. Because they do not output any EU/t, and simply convert heat to Hot Coolant, the difference between the two fuels becomes minimal and Thorium stands out as being much easier to get and turn into fuel rods. The maximum amount of heat you can safely move around in a reactor limits the amount of Uranium Fuel Rods you can use, which means that your HU value will not be as high as you would have wanted.%n%nFor regular and vacuum IC2 nukes, however, Uranium has a big advantage. Especially in vacuum nukes, which are the most powerful, the efficient cooling through the cells makes it so a lot of Uranium can be processed at once, which returns incredible amounts of EU/t. The different conversion from fuel to energy between fluid and vacuum means that Thorium is very good for fluid nukes, whereas Uranium is very good for vacuum nukes.
 
 # Quest.3202 - Max Danger Nukes
 gtnh.quest3202.name=Max Danger Nukes
@@ -12831,6 +12831,42 @@ gtnh.quest3206.desc=Fusion is the lategame. It is not the entire lategame, but s
 # Quest.3207 - A Second Reactor?
 gtnh.quest3207.name=A Second Reactor?
 gtnh.quest3207.desc=At this point, why not? You should be a in a better position to afford it, but there is the issue that t3 fusion unlocks an easier Americium recipe, which lets you craft a second t3 more easily. You might not want to wait that long, maybe you've been smelting a lot of ingots, or using World Accelerators?%n%nRegardless, two Helium Plasma reactors will surely suffice for whatever it is you're doing. Tin Plasma is worth using, of course, but the Molecular Transformer recipe to convert Silver to Tin isn't available in the singleblock anymore, so you might want the easier option, since you're rocking two reactors and all. With the 2x overclock they're still produce millions of EU/t with the right Plasma Turbines, assuming you have them ready.
+
+# Quest.3208 - Transmutative Rod
+gtnh.quest3208.name=Transmutative Rod
+gtnh.quest3208.desc=Combining Salis Mundis and some clusters, I can get upgrade a greatwood rod to a transmutative rod. Now that looks like a particularly interesting option!
+
+# Quest.3209 - Gas Planets
+gtnh.quest3209.name=Gas Planets
+gtnh.quest3209.desc=You probably also want a good overview of what you can get with your Gas Siphon. So here we go:%n%n%nJupiter§r%n1 Hydrogen - 15000 L/s%n2 Helium - 500 L/s%n3 Nitrogen - 300 L/s%n4 Oxygen - 200 L/s%n%n§oSaturn§r%n1 Hydrogen - 18000 L/s%n2 Helium - 800 L/s%n3 Oxygen - 500 L/s%n4 Liquid Oxygen - 150 L/s%n%n§oUranus§r%n1 Deuterium - 5000 L/s%n2 Neon - 450 L/s%n3 Argon - 250 L/s%n4 Krypton - 100 L/s%n%n§oNeptune§r%n1 Tritium - 3000 L/s%n2 Helium-3 - 500 L/s%n3 Ammonia - 400 L/s%n4 Xenon - 350 L/s
+
+# Quest.3210 - Another Chemical Multiblock?
+gtnh.quest3210.name=Another Chemical Multiblock?
+gtnh.quest3210.desc=You probably have built a lot of Large Chemical Reactors by now. With the powerful 4/4 overclocking it is one of the strongest multiblocks there is. But what if even that is not enough to satisfy your chemical needs? You can't make it faster if the recipe time is already down to 1 tick (=0.05s).%n%nFear not, we have a solution for you: The Mega Chemical Reactor. It lets you do 256 parallels for your LCR recipes! And you can still overclock after that if you provide enough power.%n%nIt only unlocks in LuV as it needs 7 Fusion Coil Blocks. Check with your hologram projector to see how it is built and what you need.%n%nThe glass tier limits the energy hatch tier that you can use. You can even use multiamp hatches from TecTech! If you want to use laser hatches however you need at least UV glass.
+
+# Quest.3211 - §6§lRaw Silicon Dust
+gtnh.quest3211.name=§6§lRaw Silicon Dust
+gtnh.quest3211.desc=Silicon is needed in all boule (and thus wafers, chips, and circuits) creation. Silicon is therefore an §oincredibly important material§r.%n%nWith your new electrolyzer you can obtain raw silicon dust from many different sources. Alternatively, you can also centrifuge redstone. Or, you can also get your raw silicon from silicon dioxide.
+
+# Quest.3212 - §6§lSilicon Tetrachloride
+gtnh.quest3212.name=§6§lSilicon Tetrachloride
+gtnh.quest3212.desc=However, the raw silicon dust you obtained is not pure enough! We will need to work on that. Don't worry, this is just a simple two step process. First let us start by reacting it with some chlorine in a chemical reactor.
+
+# Quest.3213 - §6§lSilicon Solar Grade
+gtnh.quest3213.name=§6§lSilicon Solar Grade
+gtnh.quest3213.desc=As a second step, we combine the tetrachloride with sodium.%n%nThere we go! The silicon dust is now purified to solar grade!
+
+# Quest.3214 - §6§lSalty from all the silicon?
+gtnh.quest3214.name=§6§lSalty from all the silicon?
+gtnh.quest3214.desc=If you are salty about the ingredients needed to purify silicon, I got good news for you! You can recover all of the chlorine and sodium you used by electrolyzing the salt you got!
+
+# Quest.3215 - Trigger: SMD Transistor Skip
+gtnh.quest3215.name=Trigger: SMD Transistor Skip
+gtnh.quest3215.desc=No Description
+
+# Quest.3216 - Optical SMDs
+gtnh.quest3216.name=Optical SMDs
+gtnh.quest3216.desc=You can now make optical SMDs! They are required for all circuits beyond UEV.%n%nSome of the materials are made in the ABS. Maybe its time to add a few.%n%n§3If you have not gotten any strontium yet, you can obtain it from strontium oxide based on Rare Earth 3, from spessartine froth or from a Deep Dark void miner.
 
 ##################################Line##################################
 

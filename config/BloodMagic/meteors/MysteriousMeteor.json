@@ -1,0 +1,14 @@
+{
+  "ores": [
+	"rockEnceladus",
+    "600",
+	"oreEndstoneMysteriousCrystal",
+    "400"
+  ],
+  "radius": 16,
+  "cost": 44000000,
+  "focusModId": "gregtech",
+  "focusName": "gt.blockmachines",
+  "focusMeta": 10990
+}
+

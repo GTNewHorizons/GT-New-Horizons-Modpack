@@ -959,6 +959,9 @@ mods.bloodmagic.Altar.addRecipe(<dreamcraft:tile.BloodyVoid>, <thaumicbases:void
 // --- Blood Soaked Thaumium Block
 mods.bloodmagic.Altar.addRecipe(<dreamcraft:tile.BloodyIchorium>, <gregtech:gt.blockmetal8:13>, 5, 50000);
 
+// --- Bound Diamond
+mods.bloodmagic.Altar.addRecipe(<BloodArsenal:blood_infused_diamond_bound>, <BloodArsenal:blood_infused_diamond_active>, 5, 10000);
+
 
 
 

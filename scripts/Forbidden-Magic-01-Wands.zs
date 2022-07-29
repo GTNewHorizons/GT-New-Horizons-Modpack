@@ -30,11 +30,6 @@ Arcane.addShaped("ROD_witchwood_staff", <ForbiddenMagic:WandCores:10>, "aer 125,
 [<Thaumcraft:blockCrystal:2>, <ForbiddenMagic:WandCores:4>, <Thaumcraft:blockCrystal:3>],
 [<ForbiddenMagic:WandCores:4>, <Thaumcraft:blockCrystal:4>,<Thaumcraft:blockCrystal:5>]]);
 
-Arcane.addShaped("ROD_witchwood_staff", <ForbiddenMagic:WandCaps:10>, "aer 40, terra 40, ignis 40, aqua 40, ordo 40, perditio 40", [
-[<ore:screwTitanium>,<ore:foilVinteum>, <ore:screwTitanium>],
-[<ore:foilVinteum>, <ore:ringVinteum>, <ore:foilVinteum>],
-[<ore:screwTitanium>, <ore:foilVinteum>,<ore:screwTitanium>]]);
-
 // --- Crucible Recipes ---
 mods.thaumcraft.Crucible.addRecipe("VINTEUM", <gregtech:gt.metaitem.01:9529>, <gregtech:gt.metaitem.01:9330>, "permutatio 4, ordo 2, vitreus 2");
 

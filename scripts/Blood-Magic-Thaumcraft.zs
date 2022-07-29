@@ -561,7 +561,7 @@ game.setLocalization("tc.research_page.TRANSCENDENTORB.1", "This is where you st
 game.setLocalization("tc.research_page.TRANSCENDENTORB.2", "Slayer of demons, this tier 6 Blood Orb is your reward, holding as much as 30,000,000 LP before any Rune upgrades. Any and all sources of LP are now at your disposal, and your Sigil costs will disappear into the abyss.<BR><BR>The whole world is in the palm of your hand, and you only have to squeeze it shut into a fist. It will not shatter, it will only grow, transform into something bigger that is yours to take. The future is uncertain, but success is guaranteed.<BR><BR>If there is something out there that requires a truly powerful Blood Magic component, you are sure that you can produce it now. The only question is when.");
 mods.thaumcraft.Arcane.addShaped("TRANSCENDENTORB", <dreamcraft:item.TranscendentOrb>, "aer 150, aqua 150, ignis 150, terra 150, perditio 150, ordo 150", [
 [null, <AWWayofTime:blockCrystal>, null],
-[<BloodArsenal:sigil_of_lightning:1>, <dreamcraft:item.RawOrbTier6>, <BloodArsenal:sigil_of_lightning:1>],
+[<BloodArsenal:sigil_of_lightning>, <dreamcraft:item.RawOrbTier6>, <BloodArsenal:sigil_of_lightning>],
 [null, <AWWayofTime:blockCrystal>, null]]);
 mods.thaumcraft.Research.addArcanePage("TRANSCENDENTORB", <dreamcraft:item.TranscendentOrb>);
 mods.thaumcraft.Warp.addToResearch("TRANSCENDENTORB", 6);
