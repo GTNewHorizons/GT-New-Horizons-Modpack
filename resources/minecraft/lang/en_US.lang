@@ -10372,9 +10372,9 @@ gtnh.quest2591.desc=BTW, it doesn't actually hold more, you can just I/O faster.
 gtnh.quest2592.name=Papaya
 gtnh.quest2592.desc=The Papaya tree produces Papayas, which produce the most Fruice Juice. Sluuuurp!%n%n§aPapaya and Fruit Juice Get!
 
-# Quest.2593 - Welcome to Hell
-gtnh.quest2593.name=Welcome to Hell
-gtnh.quest2593.desc=Congratulations, you've beaten the easy part of the pack. Time for some real challenges, show your certificate to me so we can proceed.
+# Quest.2593 - The Door to Heaven?
+gtnh.quest2593.name=The Door to Heaven?
+gtnh.quest2593.desc=Congratulations, you've beaten the most of the pack! If you show your certificate you may procede for one absolutely outrageous final challenge.
 
 # Quest.2594 - You'll Probably Need Quite a Few of These
 gtnh.quest2594.name=You'll Probably Need Quite a Few of These
@@ -10868,9 +10868,9 @@ gtnh.quest2715.desc=So if you looked in NEI and tried to figure out how to make 
 gtnh.quest2716.name=Longbow of the Heavens
 gtnh.quest2716.desc=Weak compared to both weapons of it's tier, and the weapons it's made of, this bow doesn't use arrows, never breaks, does 10 damage, and has an AoE of 10 more arrows that do 10 damage each fly down each time it strikes.
 
-# Quest.2717 - The Ultimate Plastic
-gtnh.quest2717.name=The Ultimate Plastic
-gtnh.quest2717.desc=If you dare take up this monumental challenge, you need to get the Xenoxene Xenoxis culture first. The recipe is similar to the General Purpose one, so you can't figure it out from NEI. Remember that all recipes in this chain are low probablility recipes.%n%nYour first step is to make the Barnardafis culture, then the DNA Sample, and then the Data Orb. If you didn't grab the saplings and dirt previously (to grow more trees for logs), head back to Barnarda C.%n%nUse the same recipe as for the General Purpose one, but use the Data Orb for Barnardafis instead of Common Yeast. You should get the Barnardafis Plasmid.%n%nAgain, it's the same recipe for the next step, but with the TCetiEis Fucus Serratus culture and the Barnardafis Plasmid, this should produce the Xenoxene Xenoxis culture. It's about a 4% chance.%n%nYou should probably use the normal alternative recipe to make more cultures, since it's easy to fail copying it too.%n%nFrom this point, it's pretty easy to figure it out, but basically, only Super Light Radox and Diluted Xenoxene (so you can run it again) are useful from Distilling. All the other products are kinda useless.
+# Quest.2717 - Xenoxene Xenoxsis
+gtnh.quest2717.name=Xenoxene Xenoxsis
+gtnh.quest2717.desc=To make the next tier plastic, Radox, or the next tier of SMDs, you will need Xenoxene.%n%nGetting the the Xenoxene Xenoxsis culture is a bit tricky. The recipe is similar to the General Purpose one, so you can't figure it out from NEI. Remember that all recipes in this chain are low probablility recipes.%n%nYour first step is to make the Barnardafis culture, then the DNA Sample, and then the Data Orb. If you didn't grab the saplings and dirt previously (to grow more trees for logs), head back to Barnarda C.%n%nUse the same recipe as for the General Purpose one, but use the Data Orb for Barnardafis instead of Common Yeast. You should get the Barnardafis Plasmid.%n%nAgain, it's the same recipe for the next step, but with the TCetiEis Fucus Serratus culture and the Barnardafis Plasmid, this should produce the Xenoxene Xenoxis culture. It's about a 4% chance.%n%nYou should probably use the normal alternative recipe to make more cultures, since it's easy to fail copying it too.%n%nYou should be able to figure out yourself how to make Xenoxene once you have the culture.
 
 # Quest.2718 - Does Anyone Even Still Use These?
 gtnh.quest2718.name=Does Anyone Even Still Use These?
@@ -12863,6 +12863,10 @@ gtnh.quest3214.desc=If you are salty about the ingredients needed to purify sili
 # Quest.3215 - Trigger: SMD Transistor Skip
 gtnh.quest3215.name=Trigger: SMD Transistor Skip
 gtnh.quest3215.desc=No Description
+
+# Quest.3216 - Optical SMDs
+gtnh.quest3216.name=Optical SMDs
+gtnh.quest3216.desc=You can now make optical SMDs! They are required for all circuits beyond UEV.%n%nSome of the materials are made in the ABS. Maybe its time to add a few.%n%n§3If you have not gotten any strontium yet, you can obtain it from strontium oxide based on Rare Earth 3, from spessartine froth or from a Deep Dark void miner.
 
 ##################################Line##################################
 
