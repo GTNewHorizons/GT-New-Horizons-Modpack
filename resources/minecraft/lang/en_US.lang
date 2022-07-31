@@ -414,7 +414,7 @@ gtnh.quest102.desc=An absolutely mandatory machine to have. It will cut rods int
 
 # Quest.103 - §5§lGetting Ready for Tier 2, MV
 gtnh.quest103.name=§5§lGetting Ready for Tier 2, MV
-gtnh.quest103.desc=In order to proceed forward, you need to get aluminium. A lot of it. But for now, 8 is enough to complete this quest.%n%nYour first option is alumina dust. Probably the best source for alumina is clay or hardened clay from canyons, however you need an MV machine for that, so you need to find an alternative until you have enough dust for your initial setup. For now, you can get it by centrifuging various impure piles from your ores or by smelting ruby, sapphire, or green sapphire in an EBF with carbon. Check the EBF quest in the Multiblock Goals.%n%nYou will also an EBF to turn the alumina into aluminium ingots. For that you also need cryolite. Go visit the Twilight Forest for that and find a Galena vein.%n%nYour second option is to use aluminium dust. However, you can not smelt that directly yet, even if you have an EBF. That will require higher heat levels. For now, you will have to either use a Tinker's Smeltery or a GT Compressor to turn the dust into raw aluminium which you can then smelt into ingots in the EBF. Check out the Tier 0 quest for some options to obtain the dust. %n%nBy the time you've completed this, you'll probably be done with most of the tab, but you'll still need Good Circuits (MV) to actually open up the next tier if you haven't done that yet.%n%n§3Also check the Armor and Jetpacks tab for new unlocks.%nNote: If you were exploring Twilight Forest before 2.1.1.4 you won't find any cryolite in existing veins. You'll need to explore new chunks.%nCheck out the the Lead, Galena, Silver and Cryolite quest in the Novice Thaumaturgy Tab.
+gtnh.quest103.desc=In order to proceed forward, you need to get aluminium. A lot of it. But for now, 8 is enough to complete this quest.%n%nYour first option is alumina dust. Probably the best source for alumina is clay or hardened clay from canyons, however you need an MV machine for that, so you need to find an alternative until you have enough dust for your initial setup. For now, you can get it by centrifuging various impure piles from your ores or by smelting ruby, sapphire, or green sapphire in an EBF with carbon. Check the EBF quest in the Multiblock Goals.%n%nYou will also need an EBF to turn the alumina into aluminium ingots. For that you need cryolite. Go visit the Twilight Forest for that and find a Galena vein.%n%nYour second option is to use aluminium dust. However, you can not smelt that directly yet, even if you have an EBF. That will require higher heat levels. For now, you will have to either use a Tinker's Smeltery or a GT Compressor to turn the dust into raw aluminium which you can then smelt into ingots in the EBF. Check out the Tier 0 quest for some options to obtain the dust. %n%nBy the time you've completed this, you'll probably be done with most of the tab, but you'll still need Good Circuits (MV) to actually open up the next tier if you haven't done that yet.%n%n§3Also check the Armor and Jetpacks tab for new unlocks.%nNote: If you were exploring Twilight Forest before 2.1.1.4 you won't find any cryolite in existing veins. You'll need to explore new chunks.%nCheck out the the Lead, Galena, Silver and Cryolite quest in the Novice Thaumaturgy Tab.
 
 # Quest.104 - §5§lYour Magic Progression
 gtnh.quest104.name=§5§lYour Magic Progression
@@ -8358,7 +8358,7 @@ gtnh.quest2088.desc=This is a crafting machine that heats items and liquids to a
 
 # Quest.2089 - Bees By the Millions
 gtnh.quest2089.name=Bees By the Millions
-gtnh.quest2089.desc=If you need endgame high speed bee production, industrial apiaries are the path to follow. Industrial Apiaries take upgrade frames that never break. Production frames can be stacked up to 8 high. It also has many options for emulation, more pollen retrieval, and others.%n%nBy now I'm sure you can figure out how to use NEI, and can understand the tooltips on the upgrades for how they work, right?
+gtnh.quest2089.desc=If you need endgame high speed production, industrial apiaries are the way to go. Industrial Apiaries take upgrade frames that never break. Production frames can be stacked up to 8 high. It also has many options for emulation, more pollen retrieval, and others.%n%nThe Industrial Apiary is now a GT machine. It takes up to UV voltage and up to 4 amps but the base usage is just 37 eu/t. You can no longer use a World Accelerator and there is only the one machine, so no GT overclocking. Instead, there are new 'acceleration upgrades' that act similar to a World Accelerator but are directly integrated into the machine. You will want to use them, they increase the speed, productivity, and energy usage by a lot.%n%nBut I shouldn't drone on too long. Go make one and find out yourself.
 
 # Quest.2090 - Fastest Way to Get There
 gtnh.quest2090.name=Fastest Way to Get There
@@ -8374,7 +8374,7 @@ gtnh.quest2092.desc=These upgrades can significantly increase your production ra
 
 # Quest.2093 - A Stim a Day Keeps the Doctor Awake
 gtnh.quest2093.name=A Stim a Day Keeps the Doctor Awake
-gtnh.quest2093.desc=Supporting circuit boards that can hold 4 electron tubes, the Electrical Stimulator provides a variety of functions. All numbers are in percent:%n%nIron ET - Production: 150 (Max 500)%nDiamantine ET - Production: 250 (Max 1000)%nApatine ET - Pollination: 150 (Max 500)%nObsidian ET - Lifespan: 80 (Min 20)%nLapis ET - Lifespan: 150 (Max 500)%nBlazing ET - Simulates the Nether%nGolden ET - Mutation rate: 150 (Max 500)%nTin ET - Territory: 40 (Min 10) Prod: 90 (Min 50)%nBronze ET - Territory: 150 (Max 500)%n%nGenetic Decay is also increased by 50% for all of them. This affects how long until ignoble bees die off, so don't worry about it if your bees are pristine.
+gtnh.quest2093.desc=Supporting circuit boards that can hold 4 electron tubes, the Electrical Stimulator provides a variety of functions. All numbers are in percent:%n%nIron ET - Production: 150 (Max 500)%nDiamantine ET - Production: 250 (Max 1000)%nApatine ET - Pollination: 150 (Max 500)%nObsidian ET - Lifespan: 80 (Min 20)%nLapis ET - Lifespan: 150 (Max 500)%nBlazing ET - Simulates hellish temperature%nGolden ET - Mutation rate: 150 (Max 500)%nTin ET - Territory: 40 (Min 10) Prod: 90 (Min 50)%nBronze ET - Territory: 150 (Max 500)%n%nGenetic Decay is also increased by 50% for all of them. This affects how long until ignoble bees die off, so don't worry about it if your bees are pristine.
 
 # Quest.2094 - X-Men, or Should I Say X-Bee?
 gtnh.quest2094.name=X-Men, or Should I Say X-Bee?
@@ -10246,7 +10246,7 @@ gtnh.quest2560.desc=The next tier of Borosilicate glass is Osmium (8). Make it t
 
 # Quest.2561 - §6§lBacterial Vat
 gtnh.quest2561.name=§6§lBacterial Vat
-gtnh.quest2561.desc=The Bacterial Vat is a unique multiblock machine, it doesn't have a SB version.%n%nThe Vat isn't mandatory in this tier, but there are many useful recipes and you'll need it later on, so let's build one!%n%nAll recipes require a §cculture§r, some recipes require a specific §cGlass-Tier.%n%n§rThe culture is made in a BioLab and §lput in the controller.%n%n§l§rThe Glass-Tier is calculated as LV = Tier 1, so this quest requires you to make tier 3 glass.
+gtnh.quest2561.desc=The Bacterial Vat is a unique multiblock machine with its own recipes. But it also has advanced versions of many brewery recipes.%n%nThe Vat isn't mandatory in this tier, but there are many useful recipes and you'll need it later on, so let's build one!%n%nAll recipes require a §cculture§r, some recipes require a specific §cGlass-Tier.%n%n§rThe culture is made in a BioLab and §lput in the controller.%n%n§l§rThe Glass-Tier is calculated as LV = Tier 1, so this quest requires you to make tier 3 glass.
 
 # Quest.2562 - §2§1§3§4§3§4§3§b§lThe Clean Lab
 gtnh.quest2562.name=§2§1§3§4§3§4§3§b§lThe Clean Lab
@@ -10258,7 +10258,7 @@ gtnh.quest2563.desc=Some Vat recipes require a certain Sievert (radioactivity) v
 
 # Quest.2564 - §6§lMaking the Vat More Efficient!
 gtnh.quest2564.name=§6§lMaking the Vat More Efficient!
-gtnh.quest2564.desc=Looking at the Vat's recipes you are likely discouraged by the small amount of fluid being produced per recipe. Don't worry! Fluid consumption and production shown in NEI are just the baseline for the lowest efficiency. The efficiency of Vat depends on the amount of fluid in the Output Hatch.%n%nThe efficiency gradually increases as the output hatch fills up and reaches maximum efficiency when it is §cexactly half-filled§r. If the hatch fills even more, the efficiency goes down again, so try to keep it close to half! At maximum efficiency the amount of fluid consumed and produced per recipe is multiplied by 1000. The items and culture are not affected.%n%n§TThere are different means to keep it at half, including OC (not SFM, it doesn't like BW fluids), fluid detector+machine controller, or a fluid regulator, as well as more off the wall ones such as frames or block-sharing. If you choose the fluid detector route, remember that using a larger output hatch will make it easier to keep it close to half-filled.
+gtnh.quest2564.desc=Looking at the Vat's recipes you are likely discouraged by the small amount of fluid being produced per recipe. Don't worry! Fluid consumption and production shown in NEI are just the baseline for the lowest efficiency. The efficiency of Vat depends on the amount of fluid in the Output Hatch.%n%nThe efficiency gradually increases as the output hatch fills up and reaches maximum efficiency when it is §cexactly half-filled§r. If the hatch fills even more, the efficiency goes down again, so try to keep it close to half! At maximum efficiency the amount of fluid consumed and produced per recipe is multiplied by 1001. The items and culture are not affected.%n%n§TThere are different means to keep it at half, including OC (not SFM, it doesn't like BW fluids), fluid detector+machine controller, or a fluid regulator, as well as more off the wall ones such as frames or block-sharing. If you choose the fluid detector route, remember that using a larger output hatch will make it easier to keep it close to half-filled.
 
 # Quest.2565 - §1§2§3§4§5§6§7§8§9§lPolystyrene
 gtnh.quest2565.name=§1§2§3§4§5§6§7§8§9§lPolystyrene
@@ -10266,7 +10266,7 @@ gtnh.quest2565.desc=To make Polystyrene use the chemical reactor to combine oxyg
 
 # Quest.2566 - §9§lBio Lab
 gtnh.quest2566.name=§9§lBio Lab
-gtnh.quest2566.desc=The Bio Lab is a multi-use Bioengineering station. You can create bacterial cultures for use in the Bacterial Vat with it, as well as make DNA Samples and Data Orbs, and Plasmids to duplicate cultures and create new ones.%n%nThe Bacterial Vat can be found in the Multibock Goals tab.
+gtnh.quest2566.desc=The Bio Lab is a multi-use Bioengineering station. You can create bacterial cultures for use in the Bacterial Vat with it, as well as make DNA Samples and Data Orbs, and Plasmids to duplicate cultures and create new ones.%n%nThe Bacterial Vat can be found in the Multibock Goals tab. You can use it right now if you have any industrial brewing needs or wait until later when you need to get into bioengineering.%n%n§3If you are only doing this later you might as well make a higher tier Bio Lab. You only need one of them to complete the quest.
 
 # Quest.2567 - §9§lPetri Dishes, Not for Eating
 gtnh.quest2567.name=§9§lPetri Dishes, Not for Eating
@@ -10506,7 +10506,7 @@ gtnh.quest2625.desc=Like previous tiers, you need a same-tier assembler to make 
 
 # Quest.2626 - UV Assembling
 gtnh.quest2626.name=UV Assembling
-gtnh.quest2626.desc=Have you made the Large Scale Auto-Assembler yet? If you haven't, you'll have to make the Ultimate Assembly Constructor to progress. And to make the T6 Rocket. You'll also be able to make the second last tier of coils.
+gtnh.quest2626.desc=Have you made the Large Scale Auto-Assembler yet? If you haven't, you'll have to make the Ultimate Assembly Constructor to progress. And to make the T6 Rocket. You'll also be able to make the next tier of coils.
 
 # Quest.2627 - ZPM Energy Hatch
 gtnh.quest2627.name=ZPM Energy Hatch
@@ -11898,23 +11898,23 @@ gtnh.quest2973.desc=... can't hold it back anymore. It is time to collect the re
 
 # Quest.2974 - §6§lAluminium Hydroxide
 gtnh.quest2974.name=§6§lAluminium Hydroxide
-gtnh.quest2974.desc=To get ingots straight from aluminium dust you'll need higher temperatures then cupronickel coils can provide. Alternatively you can lower the required temperature by mixing aluminium dust with sodiumhydroxide to create aluminiumhydroxide dust. It can be processed to alumina. Cryolite can also lower the required temperature to smelt it to ingots.%n%n§d§6Check out NEI to find alternative recipes for aluminiumhydroxide.
+gtnh.quest2974.desc=To get ingots straight from aluminium dust you'll need higher temperatures then cupronickel coils can provide. One alternative route is to lower the required temperature by turning it into aluminiumhydroxide dust. It can be processed to alumina. You can also use it to make cryolite.
 
-# Quest.2975 - §6§lChemical cryolity production
-gtnh.quest2975.name=§6§lChemical cryolity production
-gtnh.quest2975.desc=Feeling too lazy to search for a cryolite vein to smelt all this alumina? You can always synthesize it with hydroflouric acid, salt water and aluminiumhydroxide.
+# Quest.2975 - §6§lChemical cryolite production
+gtnh.quest2975.name=§6§lChemical cryolite production
+gtnh.quest2975.desc=Feeling too lazy to search for a cryolite vein to smelt all this alumina? You can always synthesize it with hydroflouric acid, sodium hydroxide and aluminium hydroxide.
 
-# Quest.2976 - §9§lAdvanced aluminium production
-gtnh.quest2976.name=§9§lAdvanced aluminium production
-gtnh.quest2976.desc=After you have made a large chemical reactor you are able to recycle your aluminium dust to make sodium aluminate.%nIt will be even more rewarding after you find bauxite.%nIn this process you will also get a lot of hydrogen.
+# Quest.2976 - §6§lAdvanced aluminium production
+gtnh.quest2976.name=§6§lAdvanced aluminium production
+gtnh.quest2976.desc=After you have made an MV chemical reactor you are able to create some sodium aluminate. In this process you will also get a lot of hydrogen.
 
 # Quest.2977 - §9§lAdvanced alumina production
 gtnh.quest2977.name=§9§lAdvanced alumina production
-gtnh.quest2977.desc=You can smelt 24 sodium aluminate down into 24 alumina dust. Sodium carbonate will be left over.
+gtnh.quest2977.desc=You can smelt 24 sodium aluminate down into 15 alumina dust. Sodium carbonate will be left over.
 
 # Quest.2978 - §9§lRed Mud
 gtnh.quest2978.name=§9§lRed Mud
-gtnh.quest2978.desc=Red mud is a byproduct from sodium aluminate processing. You can get few useful materials out of it by centrifuging.
+gtnh.quest2978.desc=Red mud is a byproduct from bauxite processing. You can get few useful materials out of it by centrifuging.%n%n§3Unless you want the red mud specifically, you are probably better off processing your bauxite in a different way. Specifically electrolysis or mixing it with sodium hydroxide to make sodium aluminate.
 
 # Quest.2979 - §5§6§l§5§lAluminium Tank
 gtnh.quest2979.name=§5§6§l§5§lAluminium Tank
