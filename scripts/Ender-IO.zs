@@ -693,7 +693,7 @@ recipes.addShaped(<EnderIO:blockCrafter>, [
 [Circuit, MCasing, Circuit],
 [SteelCasing, <EnderIO:itemFrankenSkull:1>, SteelCasing]]);
 
-// --- Machine Casing
+// --- Machine Chassis
 recipes.addShaped(MCasing, [
 [SteelCasing, ESteelPlate, SteelCasing],
 [ESteelPlate, Capacitor, ESteelPlate],
@@ -1361,6 +1361,11 @@ Assembler.addRecipe(<EnderIO:itemSoulVessel>, <EnderIO:blockFusedQuartz> * 3, <g
 // --- Dark Clear Glass
 //Assembler.addRecipe(<EnderIO:blockFusedQuartz:5>, <minecraft:dye>, <EnderIO:blockFusedQuartz:1>, 100, 48);
 
+// --- Crafter
+Assembler.addRecipe(<EnderIO:blockCrafter>, <BuildCraft|Factory:autoWorkbenchBlock>, MCasing, <EnderIO:itemFrankenSkull:1>, Circuit, SteelCasing * 2, 200, 64);
+
+// --- Machine Chassis
+Assembler.addRecipe(MCasing, Capacitor, ESteelPlate * 2, SteelCasing * 2, 200, 64);
 
 
 // --- Chemical Bath

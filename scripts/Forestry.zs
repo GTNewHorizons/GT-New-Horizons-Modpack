@@ -61,7 +61,7 @@ recipes.remove(<Forestry:factory2>);
 // --- Rain Tank
 recipes.remove(<Forestry:factory2:1>);
 
-// --- Work Table
+// --- Worktable
 recipes.remove(<Forestry:factory2:2>);
 
 // --- Escritoire
@@ -551,7 +551,7 @@ recipes.addShaped(<Forestry:factory2:1>, [
 [<ore:plateIron>, <ore:craftingToolHardHammer>, <ore:plateIron>],
 [<ore:plateIron>, <ore:ringIron>, <ore:plateIron>]]);
 
-// --- Work Table
+// --- Worktable
 recipes.addShaped(<Forestry:factory2:2>, [
 [<ore:screwIron>, <minecraft:bookshelf>, <ore:screwIron>],
 [<ore:craftingToolSaw>, <minecraft:crafting_table>, <ore:craftingToolScrewdriver>],
@@ -2734,7 +2734,8 @@ Assembler.addRecipe(<Forestry:cart.beehouse>, <Forestry:apiculture:2>, <minecraf
 // --- Cart with Apiary
 Assembler.addRecipe(<Forestry:cart.beehouse:1>, <Forestry:apiculture>, <minecraft:minecart>, 200, 16);
 
-
+// --- Worktable
+Assembler.addRecipe(<Forestry:factory2:2>, <minecraft:book>, <minecraft:crafting_table>, <minecraft:chest>, <gregtech:gt.integrated_circuit:1> * 0, 200, 30);
 
 
 // --- Centrifuge Recipes ---
