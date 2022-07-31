@@ -275,6 +275,7 @@ mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:teleporterMKII>, [
 [null, null, null, <ore:plateDenseDraconium>, <ore:plateDenseDraconium>, <ore:plateDenseDraconium>, null, null, null]]);
 
 // --- Wyvern Core
+/*
 mods.avaritia.ExtremeCrafting.addShaped(WyvernCore, [
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null],
@@ -285,8 +286,10 @@ mods.avaritia.ExtremeCrafting.addShaped(WyvernCore, [
 [null, null, <ore:plateDraconium>, null, DraconicCore, null, <ore:plateDraconium>, null, null],
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
+*/
 
 // --- Wyvern Engergy Core
+/*
 mods.avaritia.ExtremeCrafting.addShaped(WyvernECore, [
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null],
@@ -297,6 +300,7 @@ mods.avaritia.ExtremeCrafting.addShaped(WyvernECore, [
 [null, null, <ore:plateDraconium>, null, <ore:plateRedstoneAlloy>, null, <ore:plateDraconium>, null, null],
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
+*/
 
 // --- Wyvern Flux Capacitor
 mods.avaritia.ExtremeCrafting.addShaped(WyvernFluxCapicator, [
@@ -407,6 +411,7 @@ mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:wyvernBoots>, [
 [null, null, null, null, null, null, null, null, null]]);
 
 // --- Awakened Core
+/*
 mods.avaritia.ExtremeCrafting.addShaped(AwakenedCore, [
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null],
@@ -417,8 +422,10 @@ mods.avaritia.ExtremeCrafting.addShaped(AwakenedCore, [
 [null, null, <ore:plateDraconiumAwakened>, null, WyvernCore, null, <ore:plateDraconiumAwakened>, null, null],
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
+*/
 
 // --- Draconic Energy Core
+/*
 mods.avaritia.ExtremeCrafting.addShaped(DraconicECore, [
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null],
@@ -429,6 +436,7 @@ mods.avaritia.ExtremeCrafting.addShaped(DraconicECore, [
 [null, null, <ore:plateDraconiumAwakened>, null, WyvernECore, null, <ore:plateDraconiumAwakened>, null, null],
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
+*/
 
 // --- Draconic Flux Capacitor
 mods.avaritia.ExtremeCrafting.addShaped(DraconicFluxCapacitor, [
@@ -575,6 +583,7 @@ mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:draconicDistructionSt
 [null, null, null, null, <ore:ingotDraconiumAwakened>, null, null, null, null]]);
 
 // --- Chaotic Core
+/*
 mods.avaritia.ExtremeCrafting.addShaped(ChaoticCore, [
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, <ore:plateDraconium>, null, null, null, null],
@@ -585,6 +594,7 @@ mods.avaritia.ExtremeCrafting.addShaped(ChaoticCore, [
 [null, null, <ore:plateDraconiumAwakened>, null, AwakenedCore, null, <ore:plateDraconiumAwakened>, null, null],
 [null, null, null, null, <ore:plateDraconium>, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
+*/
 
 // --- Energy Infuser
 mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:energyInfuser>, [
