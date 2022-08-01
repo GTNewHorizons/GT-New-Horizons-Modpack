@@ -412,6 +412,9 @@ recipes.remove(<GalacticraftMars:item.heavyNoseCone>);
 // --- Red Core
 recipes.remove(<GalacticraftMars:item.itemBasicAsteroids:8>);
 
+// --- Fluid Manipulator
+recipes.remove(<GalacticraftMars:item.null:6>);
+
 // --- Energy Beam Reflector
 recipes.remove(<GalacticraftMars:tile.beamReflector>);
 
@@ -1083,6 +1086,12 @@ recipes.addShaped(<GalacticraftMars:item.itemBasicAsteroids:8>, [
 [<ore:ringRedAlloy>, CompressedIron, <ore:ringRedAlloy>],
 [CompressedIron, <ore:lensDiamond>, CompressedIron],
 [<ore:ringRedAlloy>, CompressedIron, <ore:ringRedAlloy>]]);
+
+// --- Fluid Manipulator
+recipes.addShaped(<GalacticraftMars:item.null:6>, [
+[<gregtech:gt.metaitem.01:32612>, <gregtech:gt.blockmachines:5135>, <gregtech:gt.metaitem.01:32612>],
+[<gregtech:gt.blockmachines:5135>, <GalacticraftCore:item.oilCanisterPartial:1001>, <gregtech:gt.blockmachines:5135>],
+[<gregtech:gt.metaitem.01:32612>, <gregtech:gt.blockmachines:5135>, <gregtech:gt.metaitem.01:32612>]]);
 
 // --- Energy Beam Reflector
 recipes.addShaped(<GalacticraftMars:tile.beamReflector>, [
