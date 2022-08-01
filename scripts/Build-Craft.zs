@@ -692,7 +692,7 @@ Assembler.addRecipe(<BuildCraft|Transport:item.buildcraftPipe.pipeitemsemerald> 
 Assembler.addRecipe(<BuildCraft|Transport:item.buildcraftPipe.pipeitemsemerald> * 8, <ProjRed|Transportation:projectred.transportation.pipe> * 8, <gregtech:gt.metaitem.03:32082>, 400, 480);
 
 // --- Auto Workbench
-Assembler.addRecipe(AutoWorkB, <Forestry:factory2:2>, <ore:gearGtSmallAnyIron>, <ore:itemCasingAnyIron> * 2, <gregtech:gt.metaitem.01:32600>, 200, 30);
+Assembler.addRecipe(AutoWorkB, [<Forestry:factory2:2>, <ore:gearGtSmallAnyIron>, <ore:itemCasingAnyIron> * 2, <gregtech:gt.metaitem.01:32600>], null, 200, 30);
 
 
 

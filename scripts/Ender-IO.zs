@@ -1362,10 +1362,10 @@ Assembler.addRecipe(<EnderIO:itemSoulVessel>, <EnderIO:blockFusedQuartz> * 3, <g
 //Assembler.addRecipe(<EnderIO:blockFusedQuartz:5>, <minecraft:dye>, <EnderIO:blockFusedQuartz:1>, 100, 48);
 
 // --- Crafter
-Assembler.addRecipe(<EnderIO:blockCrafter>, <BuildCraft|Factory:autoWorkbenchBlock>, MCasing, <EnderIO:itemFrankenSkull:1>, Circuit, SteelCasing * 2, 200, 64);
+Assembler.addRecipe(<EnderIO:blockCrafter>, [<BuildCraft|Factory:autoWorkbenchBlock>, MCasing, <EnderIO:itemFrankenSkull:1>, Circuit, SteelCasing * 2], null, 200, 64);
 
 // --- Machine Chassis
-Assembler.addRecipe(MCasing, Capacitor, ESteelPlate * 2, SteelCasing * 2, 200, 64);
+Assembler.addRecipe(MCasing, [Capacitor, ESteelPlate * 2, SteelCasing * 2], null, 200, 64);
 
 
 // --- Chemical Bath

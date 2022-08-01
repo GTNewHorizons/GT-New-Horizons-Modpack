@@ -2735,7 +2735,7 @@ Assembler.addRecipe(<Forestry:cart.beehouse>, <Forestry:apiculture:2>, <minecraf
 Assembler.addRecipe(<Forestry:cart.beehouse:1>, <Forestry:apiculture>, <minecraft:minecart>, 200, 16);
 
 // --- Worktable
-Assembler.addRecipe(<Forestry:factory2:2>, <minecraft:book>, <minecraft:crafting_table>, <minecraft:chest>, <gregtech:gt.integrated_circuit:1> * 0, 200, 30);
+Assembler.addRecipe(<Forestry:factory2:2>, [<minecraft:book>, <minecraft:crafting_table>, <minecraft:chest>, <gregtech:gt.integrated_circuit:1> * 0], null, 200, 30);
 
 
 // --- Centrifuge Recipes ---
