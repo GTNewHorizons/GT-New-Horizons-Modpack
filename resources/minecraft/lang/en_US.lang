@@ -270,7 +270,7 @@ gtnh.quest66.desc=Good news! You are now able to advance to the next tier! Bad n
 
 # Quest.67 - §4§3§lWired, Weird?!
 gtnh.quest67.name=§4§3§lWired, Weird?!
-gtnh.quest67.desc=One of the very basic materials of machines is wires and cables. Basically you just cut a plate into a wire with your wire cutter. Not very efficient, but there will be a better way later.
+gtnh.quest67.desc=Two of the very basic materials for machines are wires and cables. For cables you can either use a rubber sheet in the crafting table or use rubber bars in the alloy smelter. Not very efficient, but there will be a better way later.
 
 # Quest.68 - §3§lYour First Electronic Circuit
 gtnh.quest68.name=§3§lYour First Electronic Circuit
@@ -278,7 +278,7 @@ gtnh.quest68.desc=Steam machines are quite stupid, they just do one thing over a
 
 # Quest.69 - §3§lWire-Wrap
 gtnh.quest69.name=§3§lWire-Wrap
-gtnh.quest69.desc=Placing wires without insulation seems to be a bad idea. Now that you have an extractor to extract raw rubber out of sticky resin and an alloy smelter to further process it using sulfur, you should work on getting some insulating rubber sheets.
+gtnh.quest69.desc=Placing wires without insulation seems to be a bad idea. Now that you have an extractor to extract raw rubber out of sticky resin and an alloy smelter to further process it using sulfur, you should work on getting some insulating rubber bars.
 
 # Quest.70 - §3§lSteam-a-licious!
 gtnh.quest70.name=§3§lSteam-a-licious!
@@ -2144,9 +2144,9 @@ gtnh.quest534.desc=If you are running your bricked blast furnace for a long time
 gtnh.quest535.name=§1§2§lRedstone, Early Game Processing
 gtnh.quest535.desc=Are you wondering how to process redstone without a macerator? Well you can mine it with a gregtech hammer (you can place the ore you got back down to do this) and get the crushed ore. Then use the hammer in the crafting table to get some impure redstone dust. After this, fill a cauldron with water and drop the dust in it - CTRL-Q drops a whole stack, which the cauldron can handle for the same amount of water. However, you will need a new iron bucket, as the fired clay bucket just isnt fit for the task. You will get pure redstone dust for your redstone needs.
 
-# Quest.536 - §3§lLow Tier Wires
-gtnh.quest536.name=§3§lLow Tier Wires
-gtnh.quest536.desc=Low tier wires like red alloy and tin can be made in a crafting table. Copper wire requires an alloy smelter. So let's make a mold for the rubber plates.
+# Quest.536 - §4§3§lRubber Sheets
+gtnh.quest536.name=§4§3§lRubber Sheets
+gtnh.quest536.desc=Let's make a mold for the rubber sheets. You can use them for cables. They are also needed for conveyors, a plunger, and some more recipes.
 
 # Quest.537 - Time to Kill (Witch)
 gtnh.quest537.name=Time to Kill (Witch)
@@ -4948,12 +4948,12 @@ gtnh.quest1235.desc=The Microprocessor is the highest tier version of the LV cir
 gtnh.quest1236.name=§9§lHV Cutting Machine
 gtnh.quest1236.desc=NOR, NAND and other high tier chips require an HV cutting machine.%n%n§3You'll soon find that everything you cut needs a cleanroom, so make sure you start on that.
 
-# Quest.1237 - §a§9Phosphorus Doped Monocrystalline Silicon
-gtnh.quest1237.name=§a§9Phosphorus Doped Monocrystalline Silicon
+# Quest.1237 - §9§lPhosphorus Doped Monocrystalline Silicon
+gtnh.quest1237.name=§9§lPhosphorus Doped Monocrystalline Silicon
 gtnh.quest1237.desc=To make more advanced wafers, you need to make phosphorus doped monocrystalline silicon first. The process takes a while, so make sure you have stable power.%n%nYou can also get more wafers, and thus more chips out of higher tier boules. You still need to make the lower tier ones sometimes though.
 
-# Quest.1238 - Phosphorus Doped Wafer
-gtnh.quest1238.name=Phosphorus Doped Wafer
+# Quest.1238 - §9§lPhosphorus Doped Wafer
+gtnh.quest1238.name=§9§lPhosphorus Doped Wafer
 gtnh.quest1238.desc=To create some phosphorus doped silicon wafers, cut them in a cutting machine. An HV version of the cutting machine is needed for future wafers and chips.
 
 # Quest.1239 - §9§lNOR and NAND Chips
@@ -10486,7 +10486,7 @@ gtnh.quest2620.desc=I wonder what temperature they start superconducting at?
 
 # Quest.2621 - UHV Superconductors at (2,097,152 EU/t)
 gtnh.quest2621.name=UHV Superconductors at (2,097,152 EU/t)
-gtnh.quest2621.desc=So above this is the UEV, UIV, UMV, UXV, and OpV wires. Only UEV and UIV have cable versions, and there are no superconductors. You can use UHV superconductors, or use a super cheap material and accept some losses to move your power around. Aside from other options like sending it through an AE tunnel or making power on site again.%n%nThe materials to make the higher tiers are currently Draconium, Nether Star, Quantium, Black Plutonium, and Awakened Draconium. Expect these to change if the tiers actually see use.%n%nWhat, the UHV superconductor? Didn't you already make that?%n%n§4If you forgot, you get a heat adjustment when using the EBF based on energy hatch tier. So you can smelt the Base UHV Ingot with Fluxed Coils and an UV hatch, since you get up to 10501K. And no, you can't use a Volcanus or MEBF.
+gtnh.quest2621.desc=Above this ther also are UEV, UIV, UMV, UXV, and MAX wires. UEV even has superconductors. You can use UHV superconductors, or use a super cheap material and accept some losses to move your power around. Aside from other options like sending it through an AE tunnel or making power on site again.%n%nWhat, the UHV superconductor? Didn't you already make that?%n%n§4If you forgot, you get a heat adjustment when using the EBF based on the energy tier. So you can smelt the Base UHV Ingot with Fluxed Coils and UV energy, since you then get 10501K. And no, you can't use a Volcanus.
 
 # Quest.2622 - ZPM Field Generator
 gtnh.quest2622.name=ZPM Field Generator
@@ -10688,9 +10688,9 @@ gtnh.quest2670.desc=If you haven't made one before, go check out the quest in MV
 gtnh.quest2671.name=Data Bank
 gtnh.quest2671.desc=By now you probably feel overwhelmed with the number of data sticks needed for your assembly line. TecTech has a solution for you: The Data Bank. It allows you to store more than just 16 data sticks and can be connected to multiple Assembling Lines at the same time.%n%nPlace the controller one block above the ground and use the Multiblock Structure Hologram Projector to see how it is built. You will need a Maintenance Hatch and at least an EV Energy Hatch, though the power requirements can be much higher if you use many Data Access Hatches and Data Bank Master Connectors, so you might as well go for an LuV energy hatch, which will power a maxed one. Trying to run the Data Bank and then scanning the controller will tell you how much eu/t is needed.%n%n§rYou will need more blocks then what is asked for in this quest, as the number of Data Access Hatches and Connectors is up to you. You can have a maximum of 15 combined.%n%nThe Assembly Line Slave Connector replaces your old Data Access Hatch on the Assembling Line. Connect it to a Master Connector on the Data Bank with Optical Fiber Cable and make sure to color the hatches and the cable.%n%n§3If you can't figure out what blocks to place, pay attention to the tooltip in the bottom-left when using the Multiblock Structure Hologram Projector. In this case the filler blocks are Computer Casing.
 
-# Quest.2672 - §c§l[OUTDATED]§r Unlimited Power
-gtnh.quest2672.name=§c§l[OUTDATED]§r Unlimited Power
-gtnh.quest2672.desc=With this new fusion reactor your new power option is...wait, Tin? Still? Well, this is embarrasing. Still, you could try other stuff if you want I guess? Remember that the Plasma Generator runs on Plasma, so only fluids with it in the name will work, even if they're made in the Fusion Reactor.%n%nFor turbines, you could try large/huge Trinium or large/huge Cosmic Neutronium.
+# Quest.2672 - §6§lHigher Precision
+gtnh.quest2672.name=§6§lHigher Precision
+gtnh.quest2672.desc=You can upgrade the precise casings to unlock more recipes in precise mode and gain more parallels in normal mode.%n%n§3To make orundum check out the recipe for the orundum plate.
 
 # Quest.2673 - Neutrons From Space
 gtnh.quest2673.name=Neutrons From Space
@@ -12164,116 +12164,116 @@ gtnh.quest3039.desc=The Dyson Swarm Ground Unit multiblock is basically a solar 
 gtnh.quest3040.name=Where Do I Build the Dyson Swarm?
 gtnh.quest3040.desc=If you read the Dyson Swarm Ground Unit's tooltip carfeully (which you should), you might have noticed, that it mentions a "dimension-dependent factor". The dimension you build the Dyson Swarm multiblock in can greatly affect the real power output.%n%n§lSorted by factor (descending):§r%n§a231% - Barnarda C%n228% - α Centauri Bb%n198% - Vega B%n194% - Venus Space Stations%n176% - Venus%n161% - Mercury%n141% - Barnarda E%n134% - T Ceti E%n126% - Barnarda F%n112% - Ross128b, Ross128ba%n110% - Earth Space Stations%n§6100% - Overworld, Moon%n§c89% - Mars Space Stations%n81% - Mars, Phobos, Deimos%n61% - Asteroids%n60% - Ceres%n48% - Jupiter Space Stations%n44% - Europa, Io, Ganymede%n36% - Saturn Space Stations%n32% - Enceladus, Titan, Callisto%n25% - Uranus Space Stations%n23% - Oberon, Proteus, Miranda%n20% - Neptune Space Stations%n18% - Triton%n16% - Pluto, Kuiper Belt%n15% - Makemake, Haumea%n1% - Garden, Mining and Void Worlds%n§40% - All other dimensions
 
-# Quest.3041 - Getting Muddy With Monazite
-gtnh.quest3041.name=Getting Muddy With Monazite
+# Quest.3041 - §6§lGetting Muddy With Monazite
+gtnh.quest3041.name=§6§lGetting Muddy With Monazite
 gtnh.quest3041.desc=Pretty soon you're going to need lanthanide elements. A lot of them. %nThey're not that easy to separate, however...%n%nCraft up a Digester to unlock the questline in the IV tab.%n%nNote: This multiblock will not function correctly without a muffler hatch
 
-# Quest.3042 - Dissolution Tank
-gtnh.quest3042.name=Dissolution Tank
+# Quest.3042 - §6§lDissolution Tank
+gtnh.quest3042.name=§6§lDissolution Tank
 gtnh.quest3042.desc=Basically a mixing machine purposely made for dilution.%n%nYou'll need to take care in providing the inputs at the required ratios, else you'll get no output.%n%nAnyway, this plays a large part in the lanthanide line so craft it up.
 
-# Quest.3043 - Monazite
-gtnh.quest3043.name=Monazite
+# Quest.3043 - §b§lMonazite
+gtnh.quest3043.name=§b§lMonazite
 gtnh.quest3043.desc=Welcome to lanthanide processing!%nIt'll be a fun journey, whether you like it or not :P%n%nFirst off get some monazite. This is only to get you started,%nas you're going to need a §oton§o§o§r to truly reap the rewards%nof this line.%n%nYou'll then need to combine it with nitric acid in the Digester multiblock,%nto get its mud form.%nYes, this is a §overy§r nitric acid hungry process!
 
-# Quest.3044 - Watery Mud
-gtnh.quest3044.name=Watery Mud
+# Quest.3044 - §b§lWatery Mud
+gtnh.quest3044.name=§b§lWatery Mud
 gtnh.quest3044.desc=That mud on its own is far too concentrated, so you'll need to dilute it with water in the Dissolution Tank.%n%nFun fact, the saltpeter in the recipe was only added due to a problem with recipe search!%n%nYou also get some Zirconium and Hafnium from this. You'll probably need both later on, so definitely don't void any.
 
-# Quest.3045 - Zirconia-Hafnia Blend
-gtnh.quest3045.name=Zirconia-Hafnia Blend
+# Quest.3045 - §b§lZirconia-Hafnia Blend
+gtnh.quest3045.name=§b§lZirconia-Hafnia Blend
 gtnh.quest3045.desc=This process is a little involved so I'll guide you through it. First, centrifuge the dust you got from the dissolution tank.%n%nBecause Hafnium and Zirconium are refractory metals, like Titanium and Zirconium,%nthey have very similar process to it and each other. %n
 
-# Quest.3046 - Sifting the Goodness Out
-gtnh.quest3046.name=Sifting the Goodness Out
+# Quest.3046 - §b§lSifting the Goodness Out
+gtnh.quest3046.name=§b§lSifting the Goodness Out
 gtnh.quest3046.desc=Yes, you're seeing right. A fluid sifting recipe! A lot of the materials here won't be good sources in any way, but they're literally better than nothing.%n%nMonazite Sulfate isn't a actual compound btw, just a term for a collection of rare earth sulfates and other things.%n%nI'll only ask for the primary output as who wants to worry about chances?
 
-# Quest.3047 - Hafnium Line
-gtnh.quest3047.name=Hafnium Line
+# Quest.3047 - §b§lHafnium Line
+gtnh.quest3047.name=§b§lHafnium Line
 gtnh.quest3047.desc=There is a key difference with hafnium here, however. Follow this miniline to hear more.%n%nFirst off you'll need to react your hafnia with some hydrochloric acid.%n%nAnd, like with zirconium, you'll need the solution rather than the dust.
 
-# Quest.3048 - Zirconium Line
-gtnh.quest3048.name=Zirconium Line
+# Quest.3048 - §b§lZirconium Line
+gtnh.quest3048.name=§b§lZirconium Line
 gtnh.quest3048.desc=To get started, react your zirconia with some hydrochloric acid.%n%nThe dust on its own is kinda useless, though... Make it into a solution instead.
 
-# Quest.3049 - EBF Time
-gtnh.quest3049.name=EBF Time
+# Quest.3049 - §b§lEBF Time
+gtnh.quest3049.name=§b§lEBF Time
 gtnh.quest3049.desc=For the next step in the process, just EBF your solution with some magnesium.
 
-# Quest.3050 - Zirconium Ingots
-gtnh.quest3050.name=Zirconium Ingots
+# Quest.3050 - §b§lZirconium Ingots
+gtnh.quest3050.name=§b§lZirconium Ingots
 gtnh.quest3050.desc=Just EBF your zirconium tetrachloride with some magnesium and you're done!
 
-# Quest.3051 - We Ain't Running a Farm!
-gtnh.quest3051.name=We Ain't Running a Farm!
+# Quest.3051 - §b§lWe Ain't Running a Farm!
+gtnh.quest3051.name=§b§lWe Ain't Running a Farm!
 gtnh.quest3051.desc=...What's this low-purity hafnium stuff?%n%nWell, because you of course want your hafnium to be of the highest quality, you're going to have to do a little more than just EBF it with a little magnesium.%n%nGo ahead and react it with some Iodine. If you're not too sure where to get Iodine, have a look at Seaweed Ash. (hint: you'll need to look at small piles)%n%nNote that both the liquid and dust forms of iodine are optional, so you can complete the quest with one. Or none!%n%n
 
-# Quest.3052 - Finally, Actual Hafnium
-gtnh.quest3052.name=Finally, Actual Hafnium
+# Quest.3052 - §b§lFinally, Actual Hafnium
+gtnh.quest3052.name=§b§lFinally, Actual Hafnium
 gtnh.quest3052.desc=Now that wasn't so hard, was it?%n%nYou also get half of your Iodine back with this. Also, keep the runoff. It might become useful later, especially if stuff's suggested §owink wink nudge nudge§r
 
-# Quest.3053 - Dilution, Yet Again
-gtnh.quest3053.name=Dilution, Yet Again
+# Quest.3053 - §b§lDilution, Yet Again
+gtnh.quest3053.name=§b§lDilution, Yet Again
 gtnh.quest3053.desc=Those sulfates aren't going to dilute themselves!%n%nYou get more fluid per piece of monazite, what's not to like?
 
-# Quest.3054 - Now for Nitration
-gtnh.quest3054.name=Now for Nitration
+# Quest.3054 - §b§lNow for Nitration
+gtnh.quest3054.name=§b§lNow for Nitration
 gtnh.quest3054.desc=For the next step you'll need ammonium nitrate (again with the nitric acid!) and your diluted monazite sulfate.%nYou'll need to do this in an LCR.%n%nThe resulting fluid simply vanishes into the void. Best not to worry about it.
 
-# Quest.3055 - A Little Bit of Sifting
-gtnh.quest3055.name=A Little Bit of Sifting
+# Quest.3055 - §b§lA Little Bit of Sifting
+gtnh.quest3055.name=§b§lA Little Bit of Sifting
 gtnh.quest3055.desc=Now you can sift some of the radioactive impurities out.
 
-# Quest.3056 - This Is Probably Not Worth It
-gtnh.quest3056.name=This Is Probably Not Worth It
+# Quest.3056 - §b§lThis Is Probably Not Worth It
+gtnh.quest3056.name=§b§lThis Is Probably Not Worth It
 gtnh.quest3056.desc=You can EBF that thorium-phosphate dust to continue that chain but the yield isn't too great in the end...%n%nStill, if you have the resources, why not?
 
-# Quest.3057 - Chemically Bathing!
-gtnh.quest3057.name=Chemically Bathing!
+# Quest.3057 - §b§lChemically Bathing!
+gtnh.quest3057.name=§b§lChemically Bathing!
 gtnh.quest3057.desc=Yep, this really is an all-rounder line. Again you'll need some ammonium nitrate. Just another reminder for those who are yet to make a dedicated nitric acid setup :P
 
-# Quest.3058 - Thorium and Phosphate
-gtnh.quest3058.name=Thorium and Phosphate
+# Quest.3058 - §b§lThorium and Phosphate
+gtnh.quest3058.name=§b§lThorium and Phosphate
 gtnh.quest3058.desc=Now you can thermal centrifuge the dust to get both thorium and phosphate out. Told you the yields weren't great...
 
-# Quest.3059 - To Sift, or Not to Sift?
-gtnh.quest3059.name=To Sift, or Not to Sift?
+# Quest.3059 - §b§lTo Sift, or Not to Sift?
+gtnh.quest3059.name=§b§lTo Sift, or Not to Sift?
 gtnh.quest3059.desc=The real question is, who came up with all these sifting recipes?%n%nYou can get some Uranium out of this so it's not all bad.
 
-# Quest.3060 - Uranium Filtrate
-gtnh.quest3060.name=Uranium Filtrate
+# Quest.3060 - §b§lUranium Filtrate
+gtnh.quest3060.name=§b§lUranium Filtrate
 gtnh.quest3060.desc=You can process this further with some hydrofluoric acid.
 
-# Quest.3061 - Uranium?
-gtnh.quest3061.name=Uranium?
+# Quest.3061 - §b§lUranium?
+gtnh.quest3061.name=§b§lUranium?
 gtnh.quest3061.desc=§o§r...And sift it to get the uranium. You §odo§o§r get some 235 out of it so time not entirely wasted, hopefully?
 
-# Quest.3062 - Dry It Real Good
-gtnh.quest3062.name=Dry It Real Good
+# Quest.3062 - §b§lDry It Real Good
+gtnh.quest3062.name=§b§lDry It Real Good
 gtnh.quest3062.desc=Your concentrate is far too damp! You'll need to dry it off in the EBF.%n%nThankfully the recipe is far from difficult.
 
-# Quest.3063 - Nitration Time... Again
-gtnh.quest3063.name=Nitration Time... Again
+# Quest.3063 - §b§lNitration Time... Again
+gtnh.quest3063.name=§b§lNitration Time... Again
 gtnh.quest3063.desc=You'll need to add even more nitric acid to be able to deal with the dust further. 
 
-# Quest.3064 - Leach The Concentrate
-gtnh.quest3064.name=Leach The Concentrate
+# Quest.3064 - §b§lLeach The Concentrate
+gtnh.quest3064.name=§b§lLeach The Concentrate
 gtnh.quest3064.desc=Here you have two options: Either you can mix some water with your nitrated mixture for relatively low yield, or you can mix it with the cerium-containing mixture you get from ores for double the amount.
 
-# Quest.3065 - A Sift, a Sift! My Kingdom for a Sift!
-gtnh.quest3065.name=A Sift, a Sift! My Kingdom for a Sift!
+# Quest.3065 - §b§lA Sift, a Sift! My Kingdom for a Sift!
+gtnh.quest3065.name=§b§lA Sift, a Sift! My Kingdom for a Sift!
 gtnh.quest3065.desc=Now to filter the leached concentrate in order to get the cerium out.
 
-# Quest.3066 - The Start of Cerium
-gtnh.quest3066.name=The Start of Cerium
+# Quest.3066 - §b§lThe Start of Cerium
+gtnh.quest3066.name=§b§lThe Start of Cerium
 gtnh.quest3066.desc=This line will guide you through obtaining elemental cerium.%n%nFirst, react your cerium dioxide with ammonium chloride for some cerium chloride.
 
-# Quest.3067 - Compounding With Oxalate
-gtnh.quest3067.name=Compounding With Oxalate
+# Quest.3067 - §b§lCompounding With Oxalate
+gtnh.quest3067.name=§b§lCompounding With Oxalate
 gtnh.quest3067.desc=Combining your cerium chloride with oxalate yields you cerium oxalate. This can then be heated (in your EBF(s), of course) to get §oanother §rcerium oxide.
 
-# Quest.3068 - Oxalate
-gtnh.quest3068.name=Oxalate
+# Quest.3068 - §b§lOxalate
+gtnh.quest3068.name=§b§lOxalate
 gtnh.quest3068.desc=Oxalate is really only useful for cerium processing. Go ahead and make a bit.%n%nThere are a couple options for this so just look through NEI and pick whichever is most suitable for you.
 
 # Quest.3069 - §6§lMake a better Distillery
@@ -12316,44 +12316,44 @@ gtnh.quest3077.desc=If you're reading this before LuV and want to know how to ma
 gtnh.quest3078.name=Trigger: Obtain Sunnarium
 gtnh.quest3078.desc=No Description
 
-# Quest.3079 - You Can't Be Cerious!
-gtnh.quest3079.name=You Can't Be Cerious!
+# Quest.3079 - §b§lYou Can't Be Cerious!
+gtnh.quest3079.name=§b§lYou Can't Be Cerious!
 gtnh.quest3079.desc=Punny, right?%n%nYou now can electrolyze the cerium oxide to get pure elemental cerium dust.%n%nOh, and oxygen, but who cares about that anymore?
 
-# Quest.3080 - Freezing Nitrates
-gtnh.quest3080.name=Freezing Nitrates
+# Quest.3080 - §b§lFreezing Nitrates
+gtnh.quest3080.name=§b§lFreezing Nitrates
 gtnh.quest3080.desc=Yep, you're seeing right: A line with a vacuum freezer!%n%nTo separate some of the more... tricky elements, extreme cold is needed.
 
-# Quest.3081 - Not Quite Ferromagnetic...
-gtnh.quest3081.name=Not Quite Ferromagnetic...
+# Quest.3081 - §b§lNot Quite Ferromagnetic...
+gtnh.quest3081.name=§b§lNot Quite Ferromagnetic...
 gtnh.quest3081.desc=...But it's enough to separate with the magnetic separator.%n%nNow you can get both Europium Oxide and some of the rarer rare earths.
 
-# Quest.3082 - EuO
-gtnh.quest3082.name=EuO
+# Quest.3082 - §b§lEuO
+gtnh.quest3082.name=§b§lEuO
 gtnh.quest3082.desc=Finally, somewhat close to monazite europium!%n%nUnfortunately you won't be able to process it until at least LuV/ZPM, which you may already be at, so just hold onto this for now.
 
-# Quest.3083 - Samarium, The Other Way
-gtnh.quest3083.name=Samarium, The Other Way
+# Quest.3083 - §b§lSamarium, The Other Way
+gtnh.quest3083.name=§b§lSamarium, The Other Way
 gtnh.quest3083.desc=Now to just centrifuge your samarium from all that other junk (gangue). You get a little thorianite too so, win.
 
-# Quest.3084 - The Other Part
-gtnh.quest3084.name=The Other Part
+# Quest.3084 - §b§lThe Other Part
+gtnh.quest3084.name=§b§lThe Other Part
 gtnh.quest3084.desc=Getting tired of all the names yet? Hope so.%n%nNow to chlorinate and heat, in order to separate the whole dust further.
 
-# Quest.3085 - Saturation Needed
-gtnh.quest3085.name=Saturation Needed
+# Quest.3085 - §b§lSaturation Needed
+gtnh.quest3085.name=§b§lSaturation Needed
 gtnh.quest3085.desc=You're nearly done!%n%nNow you need to mix with acetone.
 
-# Quest.3086 - Separate Those Last Specks
-gtnh.quest3086.name=Separate Those Last Specks
+# Quest.3086 - §b§lSeparate Those Last Specks
+gtnh.quest3086.name=§b§lSeparate Those Last Specks
 gtnh.quest3086.desc=Now to centrifuge what remains. You get a little chlorobenzene back too, so what's not to like?
 
-# Quest.3087 - The Other Way
-gtnh.quest3087.name=The Other Way
+# Quest.3087 - §b§lThe Other Way
+gtnh.quest3087.name=§b§lThe Other Way
 gtnh.quest3087.desc=When you inevitably get Samarium Ore, you'll end up getting a ton of this dust. There are a couple of options here: One includes the monazite line and has a higher yield, the other is simpler but has a poorer yield.%nWe'll look at the latter here.%n%nEventually you'll probably want to switch entirely to the monazite option, but for now, supplementing it with this can be a good idea.
 
-# Quest.3088 - Finally, Samarium!
-gtnh.quest3088.name=Finally, Samarium!
+# Quest.3088 - §b§lFinally, Samarium!
+gtnh.quest3088.name=§b§lFinally, Samarium!
 gtnh.quest3088.desc=(And Gadolinium)%n%nEasy, right? Not to worry, there's always the bastnasite line to stay your hunger for complex lines!
 
 # Quest.3089 - §6§lYour New Friend
@@ -12840,8 +12840,8 @@ gtnh.quest3208.desc=Combining Salis Mundis and some clusters, I can get upgrade 
 gtnh.quest3209.name=Gas Planets
 gtnh.quest3209.desc=You probably also want a good overview of what you can get with your Gas Siphon. So here we go:%n%n%nJupiter§r%n1 Hydrogen - 15000 L/s%n2 Helium - 500 L/s%n3 Nitrogen - 300 L/s%n4 Oxygen - 200 L/s%n%n§oSaturn§r%n1 Hydrogen - 18000 L/s%n2 Helium - 800 L/s%n3 Oxygen - 500 L/s%n4 Liquid Oxygen - 150 L/s%n%n§oUranus§r%n1 Deuterium - 5000 L/s%n2 Neon - 450 L/s%n3 Argon - 250 L/s%n4 Krypton - 100 L/s%n%n§oNeptune§r%n1 Tritium - 3000 L/s%n2 Helium-3 - 500 L/s%n3 Ammonia - 400 L/s%n4 Xenon - 350 L/s
 
-# Quest.3210 - Another Chemical Multiblock?
-gtnh.quest3210.name=Another Chemical Multiblock?
+# Quest.3210 - §6§lAnother Chemical Multiblock?
+gtnh.quest3210.name=§6§lAnother Chemical Multiblock?
 gtnh.quest3210.desc=You probably have built a lot of Large Chemical Reactors by now. With the powerful 4/4 overclocking it is one of the strongest multiblocks there is. But what if even that is not enough to satisfy your chemical needs? You can't make it faster if the recipe time is already down to 1 tick (=0.05s).%n%nFear not, we have a solution for you: The Mega Chemical Reactor. It lets you do 256 parallels for your LCR recipes! And you can still overclock after that if you provide enough power.%n%nIt only unlocks in LuV as it needs 7 Fusion Coil Blocks. Check with your hologram projector to see how it is built and what you need.%n%nThe glass tier limits the energy hatch tier that you can use. You can even use multiamp hatches from TecTech! If you want to use laser hatches however you need at least UV glass.
 
 # Quest.3211 - §6§lRaw Silicon Dust
@@ -12867,6 +12867,18 @@ gtnh.quest3215.desc=No Description
 # Quest.3216 - Optical SMDs
 gtnh.quest3216.name=Optical SMDs
 gtnh.quest3216.desc=You can now make optical SMDs! They are required for all circuits beyond UEV.%n%nSome of the materials are made in the ABS. Maybe its time to add a few.%n%n§3If you have not gotten any strontium yet, you can obtain it from strontium oxide based on Rare Earth 3, from spessartine froth or from a Deep Dark void miner.
+
+# Quest.3217 - §6§lInfinity Coil Upgrade
+gtnh.quest3217.name=§6§lInfinity Coil Upgrade
+gtnh.quest3217.desc=Provides 11701 heat. You should upgrade your EBF! You probably want to make a lot more for your MEBFs or your DTPF.
+
+# Quest.3218 - §6§lHypogen Coil Upgrade
+gtnh.quest3218.name=§6§lHypogen Coil Upgrade
+gtnh.quest3218.desc=12601K heat! The quest ask for 16 out of habit but really you want to upgrade your DTPF with these!
+
+# Quest.3219 - §6§lEternal Coil Upgrade
+gtnh.quest3219.name=§6§lEternal Coil Upgrade
+gtnh.quest3219.desc=Currently the final upgrade with 13501K. This really makes your DTPF shine!
 
 ##################################Line##################################
 
