@@ -303,7 +303,7 @@ mods.avaritia.ExtremeCrafting.addShaped(AdvMutatron, [
 [null, <gregtech:gt.metaitem.01:21070>, <gregtech:gt.metaitem.01:21070>, <gregtech:gt.metaitem.01:21070>, <gregtech:gt.metaitem.01:21070>, <gregtech:gt.metaitem.01:21070>, <gregtech:gt.metaitem.01:21070>, <gregtech:gt.metaitem.01:21070>, null],
 [null, <gregtech:gt.metaitem.01:21070>, <gendustry:Replicator>, <gregtech:gt.metaitem.01:21327>, <gregtech:gt.metaitem.01:21327>, <gregtech:gt.metaitem.01:21327>, <gendustry:Liquifier>, <gregtech:gt.metaitem.01:21070>, null],
 [null, <gregtech:gt.metaitem.01:21070>, Labware, GeneticsProcessor, <gregtech:gt.metaitem.01:32656>, GeneticsProcessor, Labware, <gregtech:gt.metaitem.01:21070>, null],
-[null, <gregtech:gt.metaitem.01:21070>, <gendustry:Sampler>, <gregtech:gt.comb:85>, <gendustry:MutatronAdv>, <gregtech:gt.comb:85>, <gendustry:Imprinter>, <gregtech:gt.metaitem.01:21070>, null],
+[null, <gregtech:gt.metaitem.01:21070>, <gendustry:Sampler>, <gregtech:gt.comb:85>, <Genetics:misc:11>, <gregtech:gt.comb:85>, <gendustry:Imprinter>, <gregtech:gt.metaitem.01:21070>, null],
 [null, <gregtech:gt.metaitem.01:21070>, Labware, GeneticsProcessor, <gregtech:gt.metaitem.01:32656>, GeneticsProcessor, Labware, <gregtech:gt.metaitem.01:21070>, null],
 [null, <gregtech:gt.metaitem.01:21070>, <gendustry:Transposer>, <gregtech:gt.metaitem.01:21327>, <gregtech:gt.metaitem.01:21327>, <gregtech:gt.metaitem.01:21327>, <gendustry:Extractor>, <gregtech:gt.metaitem.01:21070>, null],
 [null, <gregtech:gt.metaitem.01:21070>, <gregtech:gt.metaitem.01:21070>, <gregtech:gt.metaitem.01:21070>, <gregtech:gt.metaitem.01:21070>, <gregtech:gt.metaitem.01:21070>, <gregtech:gt.metaitem.01:21070>, <gregtech:gt.metaitem.01:21070>, null],
