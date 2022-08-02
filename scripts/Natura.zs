@@ -49,6 +49,9 @@ recipes.remove(<Natura:natura.stick:*>);
 // ---  Crafting Tables
 recipes.remove(<Natura:Natura.workbench:*>);
 
+// --- Flint and Blaze
+recipes.remove(<Natura:natura.flintandblaze>);
+
 // --- Book Shelf
 recipes.remove(<Natura:Natura.bookshelf:*>);
 
