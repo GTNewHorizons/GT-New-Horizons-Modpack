@@ -266,9 +266,9 @@ mods.avaritia.ExtremeCrafting.addShaped(MutagenProducer, [
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null],
 [null, null, MutagenTank, <ore:plateBlackPlutonium>, PowerModule, <ore:plateBlackPlutonium>, MutagenTank, null, null],
-[null, null, <gregtech:gt.metaitem.01:32617>, <gregtech:gt.metaitem.01:32657>, GeneticsProcessor, <gregtech:gt.metaitem.01:32657>, <gregtech:gt.metaitem.01:32617>, null, null],
+[null, null, <gregtech:gt.metaitem.01:32616>, <gregtech:gt.metaitem.01:32656>, GeneticsProcessor, <gregtech:gt.metaitem.01:32656>, <gregtech:gt.metaitem.01:32616>, null, null],
 [null, null, BeeReceptacle, OsmiumGear, HardCasing, OsmiumGear, BeeReceptacle, null, null],
-[null, null, <gregtech:gt.metaitem.01:32617>, <gregtech:gt.metaitem.01:32608>, GeneticsProcessor, <gregtech:gt.metaitem.01:32608>, <gregtech:gt.metaitem.01:32617>, null, null],
+[null, null, <gregtech:gt.metaitem.01:32616>, <gregtech:gt.metaitem.01:32607>, GeneticsProcessor, <gregtech:gt.metaitem.01:32607>, <gregtech:gt.metaitem.01:32616>, null, null],
 [null, null, MutagenTank, <ore:plateBlackPlutonium>, PowerModule, <ore:plateBlackPlutonium>, MutagenTank, null, null],
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
