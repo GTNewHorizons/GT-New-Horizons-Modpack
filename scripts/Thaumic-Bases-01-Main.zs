@@ -7,6 +7,7 @@ import mods.thaumcraft.Crucible;
 import mods.thaumcraft.Research;
 import mods.thaumcraft.Infusion;
 import mods.thaumcraft.Warp;
+import mods.ic2.Compressor;
 import mods.gregtech.CuttingSaw;
 
 
@@ -91,6 +92,9 @@ Arcane.removeRecipe(<thaumicbases:nodeLinker>);
 // --- Slabs
 recipes.removeShaped(<thaumicbases:crystalSlab:*>);
 recipes.removeShaped(<thaumicbases:genericSlab:*>);
+
+// --- Quicksilver Block
+recipes.remove(<thaumicbases:quicksilverBlock>);
 
 // --- Overenchanter
 mods.thaumcraft.Infusion.removeRecipe(<thaumicbases:overchanter>);
@@ -378,6 +382,9 @@ Crucible.addRecipe("TB.Amber", <Thaumcraft:ItemResource:6>, <minecraft:sapling:1
 
 // --- Quicksilver
 Crucible.addRecipe("TB.Quicksilver", <Thaumcraft:ItemResource:3>, <Thaumcraft:blockMagicalLog:1>, "ordo 1, venenum 1");
+
+// --- Quicksilver Block
+Compressor.addRecipe(<thaumicbases:quicksilverBlock>, <Thaumcraft:ItemResource:3> * 9);
 
 // --- Deco Blocks
 CuttingSaw.addRecipe([<thaumicbases:genericSlab:0> * 2], <thaumicbases:eldritchArk>, <liquid:water> * 32, 200, 30);
