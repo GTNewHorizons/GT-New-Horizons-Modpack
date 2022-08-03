@@ -382,9 +382,9 @@ recipes.addShaped(<gendustry:ApiaryUpgrade:5>, [
 
 // --- Automation Upgrade
 recipes.addShaped(<gendustry:ApiaryUpgrade:14>, [
-[PalladiumSmallGear, TitaniumGear, PalladiumSmallGear],
-[<minecraft:redstone_torch>, UpFrame, <minecraft:redstone_torch>],
-[OsmiumSmallGear, EVPiston, OsmiumSmallGear]]);
+[<gregtech:gt.metaitem.01:32640>, <Genetics:misc:10>, <gregtech:gt.metaitem.01:32640>],
+[<Genetics:misc:10>, UpFrame, <Genetics:misc:10>],
+[<gregtech:gt.metaitem.01:32650>, <Genetics:misc:10>, <gregtech:gt.metaitem.01:32650>]]);
 
 // --- Humidifier Upgrade
 recipes.addShaped(<gendustry:ApiaryUpgrade:4>, [
@@ -539,14 +539,7 @@ Assembler.addRecipe(EnviroProcessor, <dreamcraft:item.EnvironmentalCircuit>, <gr
 Assembler.addRecipe(EnviroProcessor, <dreamcraft:item.EnvironmentalCircuit>, <gregtech:gt.metaitem.03:32089>, <liquid:liquiddna> * 500, 400, 1920);
 
 // --- Upgrade Frame
-Assembler.addRecipe(UpFrame, <dreamcraft:item.IndustryFrame>, <gregtech:gt.metaitem.03:32087>, 400, 1920);
-// -
-Assembler.addRecipe(UpFrame, <dreamcraft:item.IndustryFrame>, <gregtech:gt.metaitem.03:32092>, 400, 1920);
-// -
-Assembler.addRecipe(UpFrame, <dreamcraft:item.IndustryFrame>, <gregtech:gt.metaitem.03:32096>, 400, 1920);
-// -
-Assembler.addRecipe(UpFrame, <dreamcraft:item.IndustryFrame>, <gregtech:gt.metaitem.01:32706>, 400, 1920);
-
+Assembler.addRecipe(UpFrame, <gregtech:gt.metaitem.03:32007>, <Genetics:misc:10>, 200, 24);
 
 // --- Item Ijector Cover
 Assembler.addRecipe(<gendustry:EjectCover>, <gregtech:gt.metaitem.01:17052>, <IC2:upgradeModule:3>, 200, 1920);
