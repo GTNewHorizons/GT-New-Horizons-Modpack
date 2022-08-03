@@ -12880,6 +12880,58 @@ gtnh.quest3218.desc=12601K heat! The quest ask for 16 out of habit but really yo
 gtnh.quest3219.name=§6§lEternal Coil Upgrade
 gtnh.quest3219.desc=Currently the final upgrade with 13501K. This really makes your DTPF shine!
 
+# Quest.3220 - The roots of magic
+gtnh.quest3220.name=The roots of magic
+gtnh.quest3220.desc=If you're familiar with Botania, you will notice that the overworld is noticeably void of magical flowers. Such pretty expressions of magic sadly require you to have leveled up on your magical skills. For now you will have to make do with what the world has to offer.%n%nLook in deep caves at low Y-levels for glimmering mushrooms. These are your starting ingredient and can be used instead of flower petals. Beware, unlike flowers you can't grow more just yet, so be careful what you use them for.
+
+# Quest.3221 - Flower grafting
+gtnh.quest3221.name=Flower grafting
+gtnh.quest3221.desc=The first item you want to make is the Petal Apothecary. A mushroom is needed to anoint it and give it its restorative properties.%n%nTo operate it, fill it with a bucket of water to keep the plants hydrated. After that you can add the ingredients by dropping them on top.%n%nEach craft requires some magical ingredients, but also one or more regular flowers from the world that can function as a stable base. Once you've added all the ingredients, finish the craft by adding a seed. Any vanilla seed will do.
+
+# Quest.3222 - Pure Daisy
+gtnh.quest3222.name=Pure Daisy
+gtnh.quest3222.desc=The first magical flower you are able to make is the Pure Daisy. This flower can slowly enchant nearby stone and logs into basic Botania ingredients.%n%nAfter placing the flower down, you can use put down stone and wood in the 8 tiles around it, and after a certain time they will be converted.
+
+# Quest.3223 - Your first mana pool
+gtnh.quest3223.name=Your first mana pool
+gtnh.quest3223.desc=Now that you have livingrock, create your first mana pool. Chop some pieces into slabs with a saw, to make the bottom and the 4 sides, then stick them together.%n%nYou lack the knowledge to make it effective, so sadly it won't be able to craft a lot as a result.
+
+# Quest.3224 - Upgrading your mana pool
+gtnh.quest3224.name=Upgrading your mana pool
+gtnh.quest3224.desc=Now that you have discovered the power of the magically enchanted crucible, you can use that technology to make a better mana pool.
+
+# Quest.3225 - Pollination buddies
+gtnh.quest3225.name=Pollination buddies
+gtnh.quest3225.desc=Some flowers are everywhere, and some are limited to specific biomes. If you don't want to walk long distances from home, you can call in some help.%n%nBees with the flower trait will slowly generate new flowers in its working are, including plenty that have been brought in from distant pastures.
+
+# Quest.3226 - Mana diamonds
+gtnh.quest3226.name=Mana diamonds
+gtnh.quest3226.desc=Mana diamonds are magically enhanced diamonds, and they require more or less energy depending on the quality of the gem you're trying to enchant.%n%nA completely full diluted pool is barely able to make a mana diamond out of an exquisite diamond. Once you upgrade the pool you can use regular diamonds - be it at a higher mana cost.
+
+# Quest.3227 - A glimpse into a watery future
+gtnh.quest3227.name=A glimpse into a watery future
+gtnh.quest3227.desc=The next step is to make some catalysts. The Alchemical catalyst can use mana to change one item or block into a related item or block.%n%nPut it under a filled mana pool, then try it out by making some prismarine.%n%nThe recipe will need to be researched in the Thaumonomicon.
+
+# Quest.3228 - Botanic infusion
+gtnh.quest3228.name=Botanic infusion
+gtnh.quest3228.desc=The infusion altar will allow you to make runes, which in turn gives you access to progressively more advanced flowers.%n%nTo operate the altar, drop the ingredients on top, whack it with a wand of the forest, and when it's done drop a livingrock block on top to complete the craft. You will additionally need a mana source, such as a mana spreader pointing at it.
+
+# Quest.3229 - Terrasteel
+gtnh.quest3229.name=Terrasteel
+gtnh.quest3229.desc=To get some advanced tools and equipment you will need some terrasteel. This is done using a dedicated machine.
+
+# Quest.3230 - Alfheim
+gtnh.quest3230.name=Alfheim
+gtnh.quest3230.desc=Legends speak of a portal to a different realm filled with green energy.
+
+# Quest.3231 - Round one... FIGHT!
+gtnh.quest3231.name=Round one... FIGHT!
+gtnh.quest3231.desc=Summon the gaia boss, then dispatch it to get to the Botania endgame.
+
+# Quest.3232 - Stonks
+gtnh.quest3232.name=Stonks
+gtnh.quest3232.desc=So the rumours about the elves were true. Well, *were* true. They're still mostly true. and what isn't true used to be true.%n%nTurns out they have since been talking to a person going by the name of Olafe, which has since sparked a industrial revolution in the Elven lands. That sadly means that they now insist on receiving the latest fashion in machinery to fuel their ever-expanding factories, in exchange for the elven materials that are now rapidly going out of fashion.%n%nSomeone needs to have a word with this guy...
+
 ##################################Line##################################
 
 # QuestLine.0 - And So, It Begins
@@ -12966,8 +13018,8 @@ gtnh.line19.desc=Breeding Bees for Better Bling (experimental, may cause honey l
 gtnh.line20.name=How to Be(e)
 gtnh.line20.desc=A non-tiered quest set that is meant as an in game, quest based tutorial and guide to bees. Since they are a really helpful tool to advance forward.
 
-# QuestLine.21 - Flower Power
-gtnh.line21.name=Flower Power
+# QuestLine.21 - Bio for the Masses
+gtnh.line21.name=Bio for the Masses
 gtnh.line21.desc=Questline about powergen that comes from plants and trees.
 
 # QuestLine.22 - Novice Thaumaturgy
@@ -13009,6 +13061,10 @@ gtnh.line30.desc=Congratulations, you've completed the platline, assline, CAL, �
 # QuestLine.31 - Advanced Automation
 gtnh.line31.name=Advanced Automation
 gtnh.line31.desc=SFM and OC have your back for assline automation! And automating other stuff too complex for AE2, like infusion or blood altars. You can do a lot of cool stuff with OC, feel free to give it a try.
+
+# QuestLine.32 - Flower Power
+gtnh.line32.name=Flower Power
+gtnh.line32.desc=A treatise on magical herbology and Botania
 
 # QuestLine.34 - Space Race
 gtnh.line34.name=Space Race
