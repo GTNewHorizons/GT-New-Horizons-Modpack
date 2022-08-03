@@ -570,16 +570,10 @@ recipes.addShaped(<gregtech:gt.metaitem.02:22532>, [[<ore:stickEnderPearl>, <ore
 recipes.addShaped(<gregtech:gt.metaitem.02:22533>, [[<ore:stickEnderEye>, <ore:craftingToolHardHammer>, <ore:stickEnderEye>]]);
 
 // --- Industrial Apiary
-mods.avaritia.ExtremeCrafting.addShaped(<gregtech:gt.blockmachines:9399>, [
-[null, null, null, null, null, null, null, null, null],
-[null, null, null, null, null, null, null, null, null],
-[null, null,  <ore:gearTungstenSteel>, <Forestry:alveary:6>, <gregtech:gt.metaitem.01:32604>, <Forestry:alveary:6>,  <ore:gearTungstenSteel>, null, null],
-[null, null, <Forestry:alveary:5>, <Forestry:alveary>, <Forestry:alveary:7>, <Forestry:alveary>, <Forestry:alveary:4>, null, null],
-[null, null, <gregtech:gt.metaitem.01:32604>, <Forestry:alveary:2>, <Forestry:apiculture>, <Forestry:alveary:2>, <gregtech:gt.metaitem.01:32604>, null, null],
-[null, null, <Forestry:alveary:5>, <Forestry:alveary>, <Forestry:alveary:7>, <Forestry:alveary>, <Forestry:alveary:4>, null, null],
-[null, null, <ore:gearTungstenSteel>, <Forestry:alveary:3>, <gregtech:gt.metaitem.01:32674>, <Forestry:alveary:3>,  <ore:gearTungstenSteel>, null, null],
-[null, null, null, null, null, null, null, null, null],
-[null, null, null, null, null, null, null, null, null]]);
+recipes.addShaped(<gregtech:gt.blockmachines:9399>, [
+[<ExtraBees:alveary:1>, <Forestry:chipsets:1>, <ExtraBees:alveary:1>],
+[<gregtech:gt.metaitem.01:32650>, <Forestry:sturdyMachine>, <gregtech:gt.metaitem.01:32650>],
+[<ExtraBees:alveary:3>, <Forestry:alveary:7>, <ExtraBees:alveary:3>]]);
 
 // --- Solar Panel LV 32 EU
 mods.avaritia.ExtremeCrafting.addShaped(<gregtech:gt.metaitem.01:32752>, [
