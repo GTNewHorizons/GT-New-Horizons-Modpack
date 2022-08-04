@@ -8,7 +8,7 @@ Version 2.1.2.4-25-pre is out 03.08.2022
 
 You are looking at a big progressive kitchensink pack for Minecraft 1.7.10 balanced around the mod GregTech.
 
-Over 7 years of development (and still going) have formed a balance and refinement that only a handful of packs can keep up with. We are talking about thousands of recipe tweaks, a massive questbook with a custom reward system, unique world generation, custom mods coded for the pack, custom Thaumonomicon pages, and many more.
+Over 7 years of development (and still going) have formed a balance and refinement that only a handful of packs can keep up with. We are talking about thousands of recipe tweaks, a massive questbook with over 3000 quests, unique world generation, custom mods coded for the pack, custom Thaumonomicon pages, and many more.
  
 The main intentions of the pack are a long-lasting experience and tying mods together in a progressive fashion, making it feel more like a single game than a compilation of mods thrown together.
 
