@@ -10328,9 +10328,9 @@ gtnh.quest2580.desc=Able to kill anything, in one hit except another player in f
 gtnh.quest2581.name=World Breaker
 gtnh.quest2581.desc=Infinity pickaxe, never breaks, able to break bedrock and capable of mining a 16x16x16 area instantly.
 
-# Quest.2582 - Infinity Blocks, Because Why Not?
-gtnh.quest2582.name=Infinity Blocks, Because Why Not?
-gtnh.quest2582.desc=I mean, if you really must...
+# Quest.2582 - Infinity Infrastructure
+gtnh.quest2582.name=Infinity Infrastructure
+gtnh.quest2582.desc=You will need a lot of infinity going forward. Be prepared for emotional trauma.
 
 # Quest.2583 - Galaxy in a Bottle...?
 gtnh.quest2583.name=Galaxy in a Bottle...?
@@ -10338,7 +10338,7 @@ gtnh.quest2583.desc=Good luck with this one, it is many many many times harder t
 
 # Quest.2584 - Hypogen
 gtnh.quest2584.name=Hypogen
-gtnh.quest2584.desc=I mean this doesn't really have any uses yet but if you must...%n%n§3Use the LPF to solidify it.
+gtnh.quest2584.desc=Use the large processing factory from GT++ to solidify it.
 
 # Quest.2585 - Infinite Vis Storage, kinda?
 gtnh.quest2585.name=Infinite Vis Storage, kinda?
@@ -10374,15 +10374,15 @@ gtnh.quest2592.desc=The Papaya tree produces Papayas, which produce the most Fru
 
 # Quest.2593 - The Door to Heaven?
 gtnh.quest2593.name=The Door to Heaven?
-gtnh.quest2593.desc=Congratulations, you've beaten the most of the pack! If you show your certificate you may procede for one absolutely outrageous final challenge.
+gtnh.quest2593.desc=Congratulations, you've beaten most of the pack! If you show your certificate you may procede for some absolutely outrageous final challenges.
 
 # Quest.2594 - You'll Probably Need Quite a Few of These
 gtnh.quest2594.name=You'll Probably Need Quite a Few of These
 gtnh.quest2594.desc=It may not actually store any energy but it'll still be useful for some other endgame items.
 
-# Quest.2595 - These Exist?
-gtnh.quest2595.name=These Exist?
-gtnh.quest2595.desc=Well yes technically, as of the current version these circuits are the highest in the game.
+# Quest.2595 - Misc Endgame Goals
+gtnh.quest2595.name=Misc Endgame Goals
+gtnh.quest2595.desc=These are various goals which are non-mandatory you can access at anytime.
 
 # Quest.2596 - Who Needs UV Solars When You Have Magic
 gtnh.quest2596.name=Who Needs UV Solars When You Have Magic
@@ -12932,6 +12932,58 @@ gtnh.quest3231.desc=Summon the gaia boss, then dispatch it to get to the Botania
 gtnh.quest3232.name=Stonks
 gtnh.quest3232.desc=So the rumours about the elves were true. Well, *were* true. They're still mostly true. and what isn't true used to be true.%n%nTurns out they have since been talking to a person going by the name of Olafe, which has since sparked a industrial revolution in the Elven lands. That sadly means that they now insist on receiving the latest fashion in machinery to fuel their ever-expanding factories, in exchange for the elven materials that are now rapidly going out of fashion.%n%nSomeone needs to have a word with this guy...
 
+# Quest.3233 - You are worthy
+gtnh.quest3233.name=You are worthy
+gtnh.quest3233.desc=Go no further if you value your sanity.
+
+# Quest.3234 - DTPF
+gtnh.quest3234.name=DTPF
+gtnh.quest3234.desc=Congratulations, you have reached the Dimensionally Transcendent Plasma Forge, one of the most lategame multiblocks in the pack. This monster will make a MEBF look like a toaster by comparison to the raw smelting power available here.%n%nThis multiblock has numerous powerful recipes at its disposal, including the ability to cook 4,096 neutronium in parallel for a reduced EU cost and the conversion of infinity catalyst directly into infinity at a 1:1 ratio. This comes at a great cost and will likely be a harsh test on your infrastructure.
+
+# Quest.3235 - Infinity Coils
+gtnh.quest3235.name=Infinity Coils
+gtnh.quest3235.desc=Smelting with the ferocity of the universe itself.
+
+# Quest.3236 - Nano Circuits
+gtnh.quest3236.name=Nano Circuits
+gtnh.quest3236.desc=Circuits required for UIV.
+
+# Quest.3237 - Nearly there...
+gtnh.quest3237.name=Nearly there...
+gtnh.quest3237.desc=So close.
+
+# Quest.3238 - Hypogen Coils
+gtnh.quest3238.name=Hypogen Coils
+gtnh.quest3238.desc=Finally a usage for this damned material.
+
+# Quest.3239 - Tesseract
+gtnh.quest3239.name=Tesseract
+gtnh.quest3239.desc=Engineering beyond your comprehension.
+
+# Quest.3240 - SpaceTime
+gtnh.quest3240.name=SpaceTime
+gtnh.quest3240.desc=Reality itself bends to your will.
+
+# Quest.3241 - Eternal Coil
+gtnh.quest3241.name=Eternal Coil
+gtnh.quest3241.desc=Currently the highest tier coil in the game. Enjoy the perfect OC.
+
+# Quest.3242 - UMV Circuits
+gtnh.quest3242.name=UMV Circuits
+gtnh.quest3242.desc=Circuits required for UMV tier.
+
+# Quest.3243 - Finally, you are here.
+gtnh.quest3243.name=Finally, you are here.
+gtnh.quest3243.desc=Well done, you have reached the highest craftable parts in the game.
+
+# Quest.3244 - UXV Circuits
+gtnh.quest3244.name=UXV Circuits
+gtnh.quest3244.desc=Circuits required for UXV.
+
+# Quest.3245 - Naquadah Fuel
+gtnh.quest3245.name=Naquadah Fuel
+gtnh.quest3245.desc=Endgame power source.
+
 ##################################Line##################################
 
 # QuestLine.0 - And So, It Begins
@@ -12946,28 +12998,28 @@ gtnh.line1.desc=This tab continues the basics until you make your first steam ma
 gtnh.line2.name=Tier 0.5 - Steam
 gtnh.line2.desc=Steam to electricity (EU) is the progression of this tab. Most of the machines you make in this tier you'll use the whole game, if in an upgraded form.
 
-# QuestLine.3 - Tier 1 - 32 EU (LV)
-gtnh.line3.name=Tier 1 - 32 EU (LV)
+# QuestLine.3 - Tier 1 - LV
+gtnh.line3.name=Tier 1 - LV
 gtnh.line3.desc=The first "voltage" tier of this pack. Things should be a little easier with some of the machines you can now make, and almost every type of machine is now available, try not to be overwhelmed. You can get away with using LV machines for automating processing of things like polyethylene or electrolyzing water the whole game, so consider setting that up when you need it.
 
-# QuestLine.4 - Tier 2 - 128 EU (MV)
-gtnh.line4.name=Tier 2 - 128 EU (MV)
+# QuestLine.4 - Tier 2 - MV
+gtnh.line4.name=Tier 2 - MV
 gtnh.line4.desc=Your second voltage tier. Don't mix different voltage levels, or you'll have a fancy new crater. Start thinking about how to expand your base. %n%nBTW, for OCing purposes, this counts as tier 2, ULV doesn't count.
 
-# QuestLine.5 - Tier 3 - 512 EU (HV)
-gtnh.line5.name=Tier 3 - 512 EU (HV)
+# QuestLine.5 - Tier 3 - HV
+gtnh.line5.name=Tier 3 - HV
 gtnh.line5.desc=Finally some real power to work with. This tier is all about getting to the moon to gather more rare resources to build even more advanced machines.
 
-# QuestLine.6 - Tier 4 - 2048 EU (EV)
-gtnh.line6.name=Tier 4 - 2048 EU (EV)
+# QuestLine.6 - Tier 4 - EV
+gtnh.line6.name=Tier 4 - EV
 gtnh.line6.desc=Welcome to EV! You have successfully gone to the moon and processed Titanium. You are now getting extreme levels of energy. In this tier you will unlock Nuclear energy, and Applied Energistics 2.
 
-# QuestLine.7 - Tier 5 - 8192 EU (IV)
-gtnh.line7.name=Tier 5 - 8192 EU (IV)
+# QuestLine.7 - Tier 5 - IV
+gtnh.line7.name=Tier 5 - IV
 gtnh.line7.desc=This tier is all about the platline, and making the assembly line. They're both super hard , but necessary. This is probably where most people drop out. Good luck!
 
-# QuestLine.8 - Tier 6 - 32768 EU (LuV)
-gtnh.line8.name=Tier 6 - 32768 EU (LuV)
+# QuestLine.8 - Tier 6 - LuV
+gtnh.line8.name=Tier 6 - LuV
 gtnh.line8.desc=If you have made it this far, you should walk with your head held high - you are at the start of the lategame. Endgame is still a long road ahead of you, but you are now an expert at GTNH and most of the mods it comes with. Congrats, and be proud of yourself.%n%nOnce you're done being proud, start making CALs for better circuits, and work towards making endgame power with the Fusion Reactor, you'll need it.
 
 # QuestLine.9 - How to Generate Power
@@ -13054,8 +13106,8 @@ gtnh.line28.desc=When regular magic just won't cover it, pay demons to do it for
 gtnh.line29.name=Endgame Goals
 gtnh.line29.desc=Collection of endgame objectives, good luck and thanks for playing so far.
 
-# QuestLine.30 - Tier 7 - 131072 EU (ZPM)
-gtnh.line30.name=Tier 7 - 131072 EU (ZPM)
+# QuestLine.30 - Tier 7 - ZPM
+gtnh.line30.name=Tier 7 - ZPM
 gtnh.line30.desc=Congratulations, you've completed the platline, assline, CAL, §oand§r fusion reactor and made it to the Zero Point Module tier. You're well into the late game now, but there's still a lot of stuff to do. Good luck!
 
 # QuestLine.31 - Advanced Automation
@@ -13094,11 +13146,11 @@ gtnh.line43.desc=Treasure of lands far beyond the vast sea of the Void and very 
 gtnh.line44.name=Tips and Tricks
 gtnh.line44.desc=All our collected wisdom, in one convenient place. Many Greggers died to bring you this knowledge.
 
-# QuestLine.45 - Tier 8 - 524288 EU (UV)
-gtnh.line45.name=Tier 8 - 524288 EU (UV)
+# QuestLine.45 - Tier 8 - UV
+gtnh.line45.name=Tier 8 - UV
 gtnh.line45.desc=Ultimate Voltage! This is the final tier in normal GregTech, but here in GregTech: New Horizons, we pierce the heavens to go beyond the limit! You have done something that only a few players are capable of doing. Welcome to the Endgame!
 
-# QuestLine.46 - Tier 9 - 2097152 EU (UHV)
-gtnh.line46.name=Tier 9 - 2097152 EU (UHV)
+# QuestLine.46 - Tier 9 - UHV
+gtnh.line46.name=Tier 9 - UHV
 gtnh.line46.desc=Uhh... hi? You really aren't supposed to be here, you know? We're still, you know, making this tier, right?
 
