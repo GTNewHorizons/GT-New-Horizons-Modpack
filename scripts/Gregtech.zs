@@ -572,7 +572,7 @@ recipes.addShaped(<gregtech:gt.metaitem.02:22533>, [[<ore:stickEnderEye>, <ore:c
 // --- Industrial Apiary
 recipes.addShaped(<gregtech:gt.blockmachines:9399>, [
 [<ExtraBees:alveary:1>, <Forestry:chipsets:1>, <ExtraBees:alveary:1>],
-[<gregtech:gt.metaitem.01:32650>, <Forestry:sturdyMachine>, <gregtech:gt.metaitem.01:32650>],
+[<gregtech:gt.metaitem.01:32652>, <Forestry:sturdyMachine>, <gregtech:gt.metaitem.01:32652>],
 [<ExtraBees:alveary:3>, <Forestry:alveary:7>, <ExtraBees:alveary:3>]]);
 
 // --- Solar Panel LV 32 EU
