@@ -8358,7 +8358,7 @@ gtnh.quest2088.desc=This is a crafting machine that heats items and liquids to a
 
 # Quest.2089 - Bees By the Millions
 gtnh.quest2089.name=Bees By the Millions
-gtnh.quest2089.desc=If you need endgame high speed production, industrial apiaries are the way to go. Industrial Apiaries take upgrade frames that never break. Production frames can be stacked up to 8 high. It also has many options for emulation, more pollen retrieval, and others.%n%nThe Industrial Apiary is now a GT machine. It takes up to UV voltage and up to 4 amps but the base usage is just 37 eu/t. You can no longer use a World Accelerator and there is only the one machine, so no GT overclocking. Instead, there are new 'acceleration upgrades' that act similar to a World Accelerator but are directly integrated into the machine. You will want to use them, they increase the speed, productivity, and energy usage by a lot.%n%nBut I shouldn't drone on too long. Go make one and find out yourself.
+gtnh.quest2089.desc=If you need endgame high speed production, industrial apiaries are the way to go. Industrial Apiaries take upgrade frames that never break. Production frames can be stacked up to 8 high. It also has many options for emulation, more pollen retrieval, and others.%n%nThe Industrial Apiary is now a GT machine. It takes up to UV voltage and up to 4 amps but the base usage is just 37 eu/t. You can no longer use a World Accelerator and there is only the one machine, so no GT overclocking. Instead, there are new §oacceleration upgrades§r that act similar to a World Accelerator but are directly integrated into the machine. You will want to use them, they increase the speed and energy usage by a lot. The final tier also increases productivity.%n%nBut I shouldn't drone on too long. Go make one and find out yourself.
 
 # Quest.2090 - Fastest Way to Get There
 gtnh.quest2090.name=Fastest Way to Get There
@@ -10288,8 +10288,8 @@ gtnh.quest2570.desc=This item has no special effects on its own but is required 
 gtnh.quest2571.name=Infinity Boots
 gtnh.quest2571.desc=Provides a permanent jump boost and increased running speed.
 
-# Quest.2572 - Building Block of the Stargate
-gtnh.quest2572.name=Building Block of the Stargate
+# Quest.2572 - The Door to Heaven?
+gtnh.quest2572.name=The Door to Heaven?
 gtnh.quest2572.desc=You'll need a lot of these to make a full stargate...
 
 # Quest.2573 - Stargate Ring Block
@@ -10372,9 +10372,9 @@ gtnh.quest2591.desc=BTW, it doesn't actually hold more, you can just I/O faster.
 gtnh.quest2592.name=Papaya
 gtnh.quest2592.desc=The Papaya tree produces Papayas, which produce the most Fruice Juice. Sluuuurp!%n%n§aPapaya and Fruit Juice Get!
 
-# Quest.2593 - The Door to Heaven?
-gtnh.quest2593.name=The Door to Heaven?
-gtnh.quest2593.desc=Congratulations, you've beaten most of the pack! If you show your certificate you may procede for some absolutely outrageous final challenges.
+# Quest.2593 - Welcome to Hell!
+gtnh.quest2593.name=Welcome to Hell!
+gtnh.quest2593.desc=Congratulations, you've beaten most of the pack! Here we have some absolutely outrageous final challenges for you. Maybe start by showing us your certificate.
 
 # Quest.2594 - You'll Probably Need Quite a Few of These
 gtnh.quest2594.name=You'll Probably Need Quite a Few of These
@@ -12870,11 +12870,11 @@ gtnh.quest3216.desc=You can now make optical SMDs! They are required for all cir
 
 # Quest.3217 - §6§lInfinity Coil Upgrade
 gtnh.quest3217.name=§6§lInfinity Coil Upgrade
-gtnh.quest3217.desc=Provides 11701 heat. You should upgrade your EBF! You probably want to make a lot more for your MEBFs or your DTPF.
+gtnh.quest3217.desc=Smelting with the ferocity of the universe itself.%n%nProvides 11701 heat. You could upgrade your EBF. Though at this I guess its more likely for your MEBFs or your DTPF.
 
 # Quest.3218 - §6§lHypogen Coil Upgrade
 gtnh.quest3218.name=§6§lHypogen Coil Upgrade
-gtnh.quest3218.desc=12601K heat! The quest ask for 16 out of habit but really you want to upgrade your DTPF with these!
+gtnh.quest3218.desc=Finally a usage for this damned material. Provides 12601K heat!
 
 # Quest.3219 - §6§lEternal Coil Upgrade
 gtnh.quest3219.name=§6§lEternal Coil Upgrade
@@ -12940,9 +12940,9 @@ gtnh.quest3233.desc=Go no further if you value your sanity.
 gtnh.quest3234.name=DTPF
 gtnh.quest3234.desc=Congratulations, you have reached the Dimensionally Transcendent Plasma Forge, one of the most lategame multiblocks in the pack. This monster will make a MEBF look like a toaster by comparison to the raw smelting power available here.%n%nThis multiblock has numerous powerful recipes at its disposal, including the ability to cook 4,096 neutronium in parallel for a reduced EU cost and the conversion of infinity catalyst directly into infinity at a 1:1 ratio. This comes at a great cost and will likely be a harsh test on your infrastructure.
 
-# Quest.3235 - Infinity Coils
-gtnh.quest3235.name=Infinity Coils
-gtnh.quest3235.desc=Smelting with the ferocity of the universe itself.
+# Quest.3235 - Power in the Ether
+gtnh.quest3235.name=Power in the Ether
+gtnh.quest3235.desc=These new hatches allow you to wirelessly send, store and receive energy from any location in any dimension. They can be placed in any existing multi block structure and will function as normal energy/dynamo hatches. A dynamo hatch will consume EU and store it in a global network linked to your user. The wireless network can store a total of 2^(2^31) EU, far exceeding even a max tier LSC.%n%nYou can share a wireless network with others by adding them to your network with /gt global_energy_join user1 user2. This will make user1 use user2's energy when interacting with the global network. You can leave a network at any time by doing /gt global_energy_join your_name your_name. %n%nYou cannot connect wires to these blocks. These are also designed to be highly lag efficient, meaning EU is added at large intervals to prevent needless calculations from occurring. This will also save you some TPS lag from vast wire networks.%n%n§3If your calculator is giving up, 2^(2^31) is a number with 646,456,994 digits.
 
 # Quest.3236 - Nano Circuits
 gtnh.quest3236.name=Nano Circuits
@@ -12952,10 +12952,6 @@ gtnh.quest3236.desc=Circuits required for UIV.
 gtnh.quest3237.name=Nearly there...
 gtnh.quest3237.desc=So close.
 
-# Quest.3238 - Hypogen Coils
-gtnh.quest3238.name=Hypogen Coils
-gtnh.quest3238.desc=Finally a usage for this damned material.
-
 # Quest.3239 - Tesseract
 gtnh.quest3239.name=Tesseract
 gtnh.quest3239.desc=Engineering beyond your comprehension.
@@ -12963,10 +12959,6 @@ gtnh.quest3239.desc=Engineering beyond your comprehension.
 # Quest.3240 - SpaceTime
 gtnh.quest3240.name=SpaceTime
 gtnh.quest3240.desc=Reality itself bends to your will.
-
-# Quest.3241 - Eternal Coil
-gtnh.quest3241.name=Eternal Coil
-gtnh.quest3241.desc=Currently the highest tier coil in the game. Enjoy the perfect OC.
 
 # Quest.3242 - UMV Circuits
 gtnh.quest3242.name=UMV Circuits
