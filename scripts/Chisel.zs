@@ -327,31 +327,30 @@ mods.chisel.Groups.addVariation("RCAbyssalBlock", <gregtech:gt.blockgranites:6>)
 // -
 mods.chisel.Groups.addVariation("RCAbyssalBlock", <gregtech:gt.blockgranites:7>);
 
-// --- Basalt
-mods.chisel.Groups.addGroup("basalt");
+// --- Basalts do not rename to basalt, causes conflict.
+mods.chisel.Groups.addGroup("basalts");
 // -
-mods.chisel.Groups.addVariation("basalt", <gregtech:gt.blockstones:8>);
+mods.chisel.Groups.addVariation("basalts", <gregtech:gt.blockstones:8>);
 // -
-mods.chisel.Groups.addVariation("basalt", <gregtech:gt.blockstones:9>);
+mods.chisel.Groups.addVariation("basalts", <gregtech:gt.blockstones:9>);
 // -
-mods.chisel.Groups.addVariation("basalt", <gregtech:gt.blockstones:10>);
+mods.chisel.Groups.addVariation("basalts", <gregtech:gt.blockstones:10>);
 // -
-mods.chisel.Groups.addVariation("basalt", <gregtech:gt.blockstones:11>);
+mods.chisel.Groups.addVariation("basalts", <gregtech:gt.blockstones:11>);
 // -
-mods.chisel.Groups.addVariation("basalt", <gregtech:gt.blockstones:12>);
+mods.chisel.Groups.addVariation("basalts", <gregtech:gt.blockstones:12>);
 // -
-mods.chisel.Groups.addVariation("basalt", <gregtech:gt.blockstones:13>);
+mods.chisel.Groups.addVariation("basalts", <gregtech:gt.blockstones:13>);
 // -
-mods.chisel.Groups.addVariation("basalt", <gregtech:gt.blockstones:14>);
+mods.chisel.Groups.addVariation("basalts", <gregtech:gt.blockstones:14>);
 // -
-mods.chisel.Groups.addVariation("basalt", <gregtech:gt.blockstones:15>);
+mods.chisel.Groups.addVariation("basalts", <gregtech:gt.blockstones:15>);
 // -
-mods.chisel.Groups.addVariation("basalt", <ProjRed|Exploration:projectred.exploration.stone:2>);
+mods.chisel.Groups.addVariation("basalts", <ProjRed|Exploration:projectred.exploration.stone:2>);
 // -
-mods.chisel.Groups.addVariation("basalt", <ProjRed|Exploration:projectred.exploration.stone:3>);
+mods.chisel.Groups.addVariation("basalts", <ProjRed|Exploration:projectred.exploration.stone:3>);
 // -
-mods.chisel.Groups.addVariation("basalt", <ProjRed|Exploration:projectred.exploration.stone:4>);
-
+mods.chisel.Groups.addVariation("basalts", <ProjRed|Exploration:projectred.exploration.stone:4>);
 
 
 // --- Red Granite
