@@ -1759,3 +1759,54 @@ mods.thaumcraft.Research.refreshResearchRecipe("RC_Crowbar_Void");
 
 // --- Tab Removal
 mods.thaumcraft.Research.removeTab("RAILCRAFT");
+
+// --- These shapeless recipes are to allow mixing of placed and non-placed tank blocks due to NBT data being kept when you remove a block ---
+// --- Railcraft Tank Blocks (Iron) ---
+recipes.addShapeless(<Railcraft:machine.beta>, [<Railcraft:machine.beta>]);
+recipes.addShapeless(<Railcraft:machine.beta:1>, [<Railcraft:machine.beta:1>]);
+recipes.addShapeless(<Railcraft:machine.beta:2>, [<Railcraft:machine.beta:2>]);
+
+// --- Railcraft Tank Blocks (Steel) ---
+recipes.addShapeless(<Railcraft:machine.beta:13>, [<Railcraft:machine.beta:13>]);
+recipes.addShapeless(<Railcraft:machine.beta:14>, [<Railcraft:machine.beta:14>]);
+recipes.addShapeless(<Railcraft:machine.beta:15>, [<Railcraft:machine.beta:15>]);
+
+// --- Railcraft Tank Blocks (Aluminium) ---
+recipes.addShapeless(<Railcraft:machine.zeta>, [<Railcraft:machine.zeta>]);
+recipes.addShapeless(<Railcraft:machine.zeta:1>, [<Railcraft:machine.zeta:1>]);
+recipes.addShapeless(<Railcraft:machine.zeta:2>, [<Railcraft:machine.zeta:2>]);
+
+// --- Railcraft Tank Blocks (Stainless Steel) ---
+recipes.addShapeless(<Railcraft:machine.zeta:3>, [<Railcraft:machine.zeta:3>]);
+recipes.addShapeless(<Railcraft:machine.zeta:4>, [<Railcraft:machine.zeta:4>]);
+recipes.addShapeless(<Railcraft:machine.zeta:5>, [<Railcraft:machine.zeta:5>]);
+
+// --- Railcraft Tank Blocks (Titanium) ---
+recipes.addShapeless(<Railcraft:machine.zeta:6>, [<Railcraft:machine.zeta:6>]);
+recipes.addShapeless(<Railcraft:machine.zeta:7>, [<Railcraft:machine.zeta:7>]);
+recipes.addShapeless(<Railcraft:machine.zeta:8>, [<Railcraft:machine.zeta:8>]);
+
+// --- Railcraft Tank Blocks (Tungstensteel) ---
+recipes.addShapeless(<Railcraft:machine.zeta:9>, [<Railcraft:machine.zeta:9>]);
+recipes.addShapeless(<Railcraft:machine.zeta:10>, [<Railcraft:machine.zeta:10>]);
+recipes.addShapeless(<Railcraft:machine.zeta:11>, [<Railcraft:machine.zeta:11>]);
+
+// --- Railcraft Tank Blocks (Palladium) ---
+recipes.addShapeless(<Railcraft:machine.zeta:12>, [<Railcraft:machine.zeta:12>]);
+recipes.addShapeless(<Railcraft:machine.zeta:13>, [<Railcraft:machine.zeta:13>]);
+recipes.addShapeless(<Railcraft:machine.zeta:14>, [<Railcraft:machine.zeta:14>]);
+
+// --- Railcraft Tank Blocks (Iridium) ---
+recipes.addShapeless(<Railcraft:machine.eta>, [<Railcraft:machine.eta>]);
+recipes.addShapeless(<Railcraft:machine.eta:1>, [<Railcraft:machine.eta:1>]);
+recipes.addShapeless(<Railcraft:machine.eta:2>, [<Railcraft:machine.eta:2>]);
+
+// --- Railcraft Tank Blocks (Osmium) ---
+recipes.addShapeless(<Railcraft:machine.eta:3>, [<Railcraft:machine.eta:3>]);
+recipes.addShapeless(<Railcraft:machine.eta:4>, [<Railcraft:machine.eta:4>]);
+recipes.addShapeless(<Railcraft:machine.eta:5>, [<Railcraft:machine.eta:5>]);
+
+// --- Railcraft Tank Blocks (Neutronium) ---
+recipes.addShapeless(<Railcraft:machine.eta:6>, [<Railcraft:machine.eta:6>]);
+recipes.addShapeless(<Railcraft:machine.eta:7>, [<Railcraft:machine.eta:7>]);
+recipes.addShapeless(<Railcraft:machine.eta:8>, [<Railcraft:machine.eta:8>]);
