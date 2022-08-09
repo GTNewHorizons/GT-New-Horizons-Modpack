@@ -10484,8 +10484,8 @@ gtnh.quest2619.desc=You can figure out how to make them yourself, right?
 gtnh.quest2620.name=UV Superconductors (524,288 EU/t)
 gtnh.quest2620.desc=I wonder what temperature they start superconducting at?
 
-# Quest.2621 - UHV Superconductors at (2,097,152 EU/t)
-gtnh.quest2621.name=UHV Superconductors at (2,097,152 EU/t)
+# Quest.2621 - UHV Superconductors (2,097,152 EU/t)
+gtnh.quest2621.name=UHV Superconductors (2,097,152 EU/t)
 gtnh.quest2621.desc=Above this ther also are UEV, UIV, UMV, UXV, and MAX wires. UEV even has superconductors. You can use UHV superconductors, or use a super cheap material and accept some losses to move your power around. Aside from other options like sending it through an AE tunnel or making power on site again.%n%nWhat, the UHV superconductor? Didn't you already make that?%n%n§4If you forgot, you get a heat adjustment when using the EBF based on the energy tier. So you can smelt the Base UHV Ingot with Fluxed Coils and UV energy, since you then get 10501K. And no, you can't use a Volcanus.
 
 # Quest.2622 - ZPM Field Generator
@@ -12926,7 +12926,7 @@ gtnh.quest3230.desc=Legends speak of a portal to a different realm filled with g
 
 # Quest.3231 - Round one... FIGHT!
 gtnh.quest3231.name=Round one... FIGHT!
-gtnh.quest3231.desc=Summon the gaia boss, then dispatch it to get to the Botania endgame.
+gtnh.quest3231.desc=Put the 4 pylons down and shift right click the terrasteel ingot on the beacon to summon the Gaia Guardian.
 
 # Quest.3232 - Stonks
 gtnh.quest3232.name=Stonks
@@ -12960,6 +12960,10 @@ gtnh.quest3239.desc=Engineering beyond your comprehension.
 gtnh.quest3240.name=SpaceTime
 gtnh.quest3240.desc=Reality itself bends to your will.
 
+# Quest.3241 - Round two... FIGHT!
+gtnh.quest3241.name=Round two... FIGHT!
+gtnh.quest3241.desc=Now craft a Gaia Sprit ingot with ur new Gaia Sprit from killing the Gaia guardian.%n%nPut the 4 pylons down and shift right click the Gaia Sprit ingot on the beacon to summon a harder version of Gaia Guardian.n
+
 # Quest.3242 - UMV Circuits
 gtnh.quest3242.name=UMV Circuits
 gtnh.quest3242.desc=Circuits required for UMV tier.
@@ -12975,6 +12979,10 @@ gtnh.quest3244.desc=Circuits required for UXV.
 # Quest.3245 - Naquadah Fuel
 gtnh.quest3245.name=Naquadah Fuel
 gtnh.quest3245.desc=Endgame power source.
+
+# Quest.3246 - Runes
+gtnh.quest3246.name=Runes
+gtnh.quest3246.desc=Craft some runes, Because why not?
 
 ##################################Line##################################
 
