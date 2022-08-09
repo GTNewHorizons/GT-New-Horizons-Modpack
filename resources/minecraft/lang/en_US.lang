@@ -302,7 +302,7 @@ gtnh.quest74.desc=No matter where you got this smeltry from, you have one now. T
 
 # Quest.75 - §6§lThe Water Dilemma
 gtnh.quest75.name=§6§lThe Water Dilemma
-gtnh.quest75.desc=Finite water is a problem. But fear not, there are solutions! I shall guide you to a steady supply of water. The Railcraft water siding tanks provides enough water to last the early game.%n%nThe humidity of a biome is very important and will increase the base fill rate.%n%nIf it is raining, the tank will fill much quicker.%n%nAt least one block of the water siding tank must see sky for the maximum output.%n%nThe best part is that you don't need a pump to extract water. Tanks and pipes placed next to it will be autofilled by the water siding tank.%n
+gtnh.quest75.desc=Finite water is a problem. But fear not, there are solutions! I shall guide you to a steady supply of water. The Railcraft water siding tanks provides enough water to last the early game.%n%nThe humidity of a biome is very important and will increase the base fill rate. If it is raining, the tank will fill much quicker. One block of the water siding tank must see sky for the maximum output. The best part is that you don't need a pump to extract water. Tanks and pipes placed next to it will be autofilled by the water siding tank.%n%n§3The block that cant be covered for maximum output is a specific one. Either try it out to find out which or just give the entire multiblcok sky access.
 
 # Quest.76 - §6§lTime to Get Some Steel
 gtnh.quest76.name=§6§lTime to Get Some Steel
@@ -4534,7 +4534,7 @@ gtnh.quest1132.desc=Your sword is too dull? Get some nether quartz to sharpen it
 
 # Quest.1133 - §3§lSubmission Station
 gtnh.quest1133.name=§3§lSubmission Station
-gtnh.quest1133.desc=Although many of the questing tasks can be submitted directly through your inventory (including liquids) sometimes you need a more automated solution. This is where the Object Submission Station (OSS) comes in handy. %n%nTasks supporting the OSS can be selected through the built in interface to enable its use. Once setup, liquids and items can be either piped in or dropped into the interface's input slot. It will not void items or liquids if no task is selected or if it has already been completed, however, making it relatively safe from accidental item/fluid deletion. Multiple OSS are also capable of taking on separate sub-tasks under the same quest simultaneously!%n%n§3PS: Only the last LESU quest needs this.
+gtnh.quest1133.desc=Although many of the questing tasks can be submitted directly through your inventory (including liquids) sometimes you need a more automated solution. This is where the Object Submission Station (OSS) comes in handy. %n%nTasks supporting the OSS can be selected through the built in interface to enable its use. Once setup, liquids and items can be either piped in or dropped into the interface's input slot. It will not void items or liquids if no task is selected or if it has already been completed, however, making it relatively safe from accidental item/fluid deletion. Multiple OSS are also capable of taking on separate sub-tasks under the same quest simultaneously!%n%n§3PS: No quests actually require this at the moment, so feel free to ignore it.
 
 # Quest.1134 - §5§lLV Advanced Steam Boiler
 gtnh.quest1134.name=§5§lLV Advanced Steam Boiler
@@ -5134,11 +5134,11 @@ gtnh.quest1282.desc=Stockpiling sugar might be a good idea if you have a sweet t
 
 # Quest.1283 - Honey for sugar.
 gtnh.quest1283.name=Honey for sugar.
-gtnh.quest1283.desc=Since honey contains a lot of sugar, it might be a good idea to get some honey.
+gtnh.quest1283.desc=Since honey contains a lot of sugar, it might be a good idea to get some honey.%n%n§3§3Just having the fluid in cells or buckets in your inventory lets the quest detect and consume it.
 
 # Quest.1284 - Wasps honey
 gtnh.quest1284.name=Wasps honey
-gtnh.quest1284.desc=Giant wasps can be found in the Nether. Quick! Sneak into their hive and steal some honey!
+gtnh.quest1284.desc=Giant wasps can be found in the Nether. Quick! Sneak into their hive and steal some honey!%n%n§3§3Just having the fluid in cells or buckets in your inventory lets the quest detect it.
 
 # Quest.1285 - §5§lDiamond Spikes
 gtnh.quest1285.name=§5§lDiamond Spikes
@@ -7152,8 +7152,8 @@ gtnh.quest1786.desc=Your shoes can be equipped with a few modifications like wat
 gtnh.quest1787.name=§6§lData Access Hatches
 gtnh.quest1787.desc=So, if you want to do more than one recipe in your Assline, you want a Data Access Hatch. There are 3+1 versions.%n%nData Access Hatch: It holds 4 data sticks, so 4 recipes.%n%nAdvanced Data Access Hatch: It holds 16 data sticks. Ironically, you can make this right away.%n%nAutomatable Data Access Hatch: It's UV, but it allows I/O of the sticks. Skip it.%n%nThe Data Bank Multi: Can be connected to multiple Asslines, and can contain more than 1 DAH. This is the best way, when you can do it. Look in ZPM for the quest.%n%n§3You only need to make one.
 
-# Quest.1788 - Trigger:Unlocking bee breeding lines (unlock)
-gtnh.quest1788.name=Trigger:Unlocking bee breeding lines (unlock)
+# Quest.1788 - §c§l[OUTDATED]§r Trigger:Unlocking bee breeding lines (unlock)
+gtnh.quest1788.name=§c§l[OUTDATED]§r Trigger:Unlocking bee breeding lines (unlock)
 gtnh.quest1788.desc=Finish cultivated bees quest
 
 # Quest.1789 - §3§lFactory Iron Door
@@ -7186,7 +7186,7 @@ gtnh.quest1795.desc=You can even create metals not found on Earth using crops! Y
 
 # Quest.1796 - §5§lBetter Gallium and Arsenic Sources
 gtnh.quest1796.name=§5§lBetter Gallium and Arsenic Sources
-gtnh.quest1796.desc=There are a couple of ways to increase your Gallium.%n%n1. Use IC2 crops under the Farming tab to get Galvania leaves, to 4x your zinc and sphalerite crushed ores to purified ores.%n%n2. Use the HV macerator on the centrifuged ores to get a 10 percent chance of a whole Gallium dust.%n%n3. Use plentiful Bauxite ores from the Moon.%n%n4. Kill Redcaps/Redcap Sappers in Twilight Forest. Also Kobolds drop Arsenic.%n%n5. Duplicate nugget with Thaumcraft. This requires §lTaboo§r researches, so you might not want to do this.%n%nFor Arsenic, Cobaltite ore in the Twilight Forest is a great source. It can be multiplied 4x by the IC2 crop Nickelback.
+gtnh.quest1796.desc=There are a couple of ways to increase your Gallium.%n%n1. Breed Zinc Bees and react the Gallium Combs with Hydrochloric Acid. The bee is not too deep in the breeding progression and the processing only requires LV.%n%n2. Use IC2 crops under the Farming tab to get Galvania leaves, to 4x your zinc and sphalerite crushed ores to purified ores.%n%n3. Use the HV macerator on the centrifuged ores to get a 10 percent chance of a whole Gallium dust.%n%n4. Use plentiful Bauxite ores from the Moon.%n%n5. Kill Redcaps/Redcap Sappers in Twilight Forest. Also Kobolds drop Arsenic.%n%n6. Duplicate nugget with Thaumcraft. This requires §lTaboo§r researches, so you might not want to do this.%n%nFor Arsenic, Cobaltite ore in the Twilight Forest is a great source. It can be multiplied 4x by the IC2 crop Nickelback.
 
 # Quest.1797 - New Threads
 gtnh.quest1797.name=New Threads
@@ -7318,11 +7318,11 @@ gtnh.quest1828.desc=Close to 8 Stacks of LESU Casings, this upgrade enables EV V
 
 # Quest.1829 - §6§lL.E.S.U. Upgrade - IV Tier
 gtnh.quest1829.name=§6§lL.E.S.U. Upgrade - IV Tier
-gtnh.quest1829.desc=24 Stacks of LESU Casings. These do fit in your Inventory, but crafting them is another problem.
+gtnh.quest1829.desc=24 Stacks of LESU Casings. These do fit in your Inventory, but crafting them is another problem.%n%n§3If you dont want to clear out your inventory, just check the box when you have enough.
 
 # Quest.1830 - §5§6§lL.E.S.U. Upgrade - LuV Tier
 gtnh.quest1830.name=§5§6§lL.E.S.U. Upgrade - LuV Tier
-gtnh.quest1830.desc=To reach the highest Voltage Tier the LESU can offer, you need to add an additional amount of LESU Casings. 8193 Casings in total (all upgrades below and these additional) enable the LuV Input Voltage. To submit these you'll need to use the Submit Station from the Steam Tab, since your inventory isnt big enough to hold 96 Stacks.
+gtnh.quest1830.desc=To reach the highest Voltage Tier the LESU can offer, you need to add an additional amount of LESU Casings. 8193 Casings in total (all upgrades below and these additional) enable the LuV Input Voltage. To submit these you'll need to use the Submit Station from the Steam Tab, since your inventory isnt big enough to hold 96 Stacks.%n%n§3I mean you could do that, but maybe just check the box once your autocrafting is done.
 
 # Quest.1831 - §2§lCircle Shapes Give Me Comfort
 gtnh.quest1831.name=§2§lCircle Shapes Give Me Comfort
@@ -7502,7 +7502,7 @@ gtnh.quest1874.desc=PVC Sheets make SMDs (make foils), plastic circuit boards, a
 
 # Quest.1875 - A Soul-ution For Warp
 gtnh.quest1875.name=A Soul-ution For Warp
-gtnh.quest1875.desc=The Soul Brazier from Thaumic Exploration will store your permanent warp. %n%nAs long as it has Ignis centi-vis and Mortuus essentia fed from underneath it will stay active, even while you are in other dimensions. Turning it off or running out of power will dump all that warp back into your body, so watch out.%n%nContaining warp does have a bit of a downside - taint. You'll need to figure out a way to stop that.%n%n§3The recipe is nerfed cuz it doesn't work right, and gets rid of warp permanently.
+gtnh.quest1875.desc=The Soul Brazier from Thaumic Exploration will store your permanent warp. %n%nAs long as it has Ignis centi-vis and Mortuus essentia fed from underneath it will stay active, even while you are in other dimensions. Turning it off or running out of power will dump all that warp back into your body, so watch out.%n%nContaining warp does have a bit of a downside - taint. You'll need to figure out a way to stop that.
 
 # Quest.1876 - §a§9§lAmplifying Your UUM Production
 gtnh.quest1876.name=§a§9§lAmplifying Your UUM Production
@@ -8636,9 +8636,9 @@ gtnh.quest2157.desc=Unweary bees are key to a couple of breeding lines. Breed th
 gtnh.quest2158.name=Growing
 gtnh.quest2158.desc=Growing bees are the start of the Fruity specific breeding tree.  Breed them from Forest and Diligent.
 
-# Quest.2159 - Bees Template - change to OR when copying, back to AND to hide
-gtnh.quest2159.name=Bees Template - change to OR when copying, back to AND to hide
-gtnh.quest2159.desc=Get the princess bee and reward bag in NEI first. %nDo Advanced and set the icon to the bee.%nDo Task, and select the stone, and replace it with the princess.%nBefore closing, select the ... next to the bee name and press Raw NBT%nGo into Tag, Genome, Chromosomes. The first one is the name and must stay. %nGo inside there and delete the first entry, keep both of the species so players%nmust have purebreeds.%nDelete the rest of the chromosomes.%nDelete the rest of the entries for Genome.%nRemove the Infinity unlock requirement.
+# Quest.2159 - Bees Template
+gtnh.quest2159.name=Bees Template
+gtnh.quest2159.desc=Get the princess bee and reward bag in NEI first.%nCopy this quest.%nPress Icon and set the icon to the bee.%nChange the name, decription, and rewards.%n%nPress Task, and select the stone, and replace it with the princess.%nBefore closing, select the ... next to the bee name and press Raw NBT%nGo into Tag, Genome, Chromosomes. The first one is the name and must stay. %nGo inside there and delete the first entry, keep both of the species so players%nmust have purebreeds.%nDelete the rest of the chromosomes.%nDelete the rest of the entries for Genome.%n%nPress Requirements. Remove the Infinity unlock requirement and select the required bee quests. Use the common bees quest if nothing applies.%n%nChange Show:Hidden to Show:Normal.%n%n§3You can change the visibility of requirements by pressing the eye symbol in that menu.
 
 # Quest.2160 - Carpenter's Blocks
 gtnh.quest2160.name=Carpenter's Blocks
@@ -8818,11 +8818,11 @@ gtnh.quest2203.desc=Platinum. Precious metal for the ages. You'll need a block o
 
 # Quest.2204 - Uranium
 gtnh.quest2204.name=Uranium
-gtnh.quest2204.desc=All that hatred had a purpose - to create this bee, capable of producing enormous power. As before, keep away from everything.  This bee will require a block of Uranium. Breed them from Avenging and Platinum.
+gtnh.quest2204.desc=All that hatred had a purpose - to create this bee, capable of producing enormous power. As before, keep away from everything.  This bee will require a block of Uranium. Breed them from Avenging and Platinum.%n%n§3You can now make climate control units for modules in your industrial apiary!
 
 # Quest.2205 - Plutonium
 gtnh.quest2205.name=Plutonium
-gtnh.quest2205.desc=A metal that represents the epitome of technology. Never existing in the universe before man. Destroying everything around it. This bee will require a block of Plutonium. Breed them from Uranium and Emerald.
+gtnh.quest2205.desc=A metal that represents the epitome of technology. Never existing in the universe before man. Destroying everything around it. This bee will require a block of Plutonium. Breed them from Uranium and Emerald.%n%n§3Plutonium Combs are also used in crafting!
 
 # Quest.2206 - Avenging
 gtnh.quest2206.name=Avenging
