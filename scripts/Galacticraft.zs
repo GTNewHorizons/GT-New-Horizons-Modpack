@@ -1090,7 +1090,7 @@ recipes.addShaped(<GalacticraftMars:item.itemBasicAsteroids:8>, [
 // --- Fluid Manipulator
 recipes.addShaped(<GalacticraftMars:item.null:6>, [
 [<gregtech:gt.metaitem.01:32612>, <gregtech:gt.blockmachines:5135>, <gregtech:gt.metaitem.01:32612>],
-[<gregtech:gt.blockmachines:5135>, <GalacticraftCore:item.oilCanisterPartial:1001>, <gregtech:gt.blockmachines:5135>],
+[<gregtech:gt.blockmachines:5135>, <IC2:itemCellEmpty>, <gregtech:gt.blockmachines:5135>],
 [<gregtech:gt.metaitem.01:32612>, <gregtech:gt.blockmachines:5135>, <gregtech:gt.metaitem.01:32612>]]);
 
 // --- Energy Beam Reflector
