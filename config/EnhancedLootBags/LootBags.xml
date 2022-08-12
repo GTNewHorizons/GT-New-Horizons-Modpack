@@ -1262,7 +1262,7 @@
         <Loot Identifier="c22c4948-5479-4b74-b284-42a488205b96" ItemName="gendustry:UpgradeFrame" Amount="1" NBTTag="" Chance="80" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="954c98d6-5bc3-4de9-a6a6-c7c9b0f0cae4" ItemName="gendustry:GeneTemplate" Amount="2" NBTTag="" Chance="70" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="0e2dff8b-087d-4ab3-a82b-81b85565d287" ItemName="Forestry:alveary:4" Amount="1" NBTTag="" Chance="33" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="029c7a6d-a9bd-4b16-96e4-146e23591798" ItemName="gendustry:IndustrialApiary" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="029c7a6d-a9bd-4b16-96e4-146e23591798" ItemName="gregtech:gt.blockmachines:9399" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="0821b5ca-56a7-45da-86ec-e16619a7fb8b" ItemName="gendustry:ApiaryUpgrade:17" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="00fe616c-6234-4353-bcf9-f3a87584ea57" ItemName="gendustry:ApiaryUpgrade:11" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="979bba4c-fbc6-4f74-80d9-7f87a66d9048" ItemName="gendustry:ApiaryUpgrade:2" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
