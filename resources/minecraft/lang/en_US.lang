@@ -1232,9 +1232,9 @@ gtnh.quest306.desc=Just like plants, there are trees that will attract various f
 gtnh.quest307.name=The Power of Gods
 gtnh.quest307.desc=The pearl you've found has some interesting effects on you. Not only are the voices almost gone, somehow it has also expanded your perception. You can "feel" the magic around you. This is definitely worth some further investigation.
 
-# Quest.308 - §c§l[OUTDATED]§r The Final Goal
-gtnh.quest308.name=§c§l[OUTDATED]§r The Final Goal
-gtnh.quest308.desc=Thanks to your help I have managed to create the ultimate energy source: An encased wormhole that drains energy from a synthesized pocket universe, to the point when it reaches heat death. I have no use for it, so you may have it. Thank you for making my dream come true!
+# Quest.308 - Barren
+gtnh.quest308.name=Barren
+gtnh.quest308.desc=The Barren Bee. Not much better.
 
 # Quest.309 - Shards of Opposite Worlds
 gtnh.quest309.name=Shards of Opposite Worlds
@@ -1402,19 +1402,19 @@ gtnh.quest349.desc=Sometimes it can be troublesome to get fancy clothing. Howeve
 
 # Quest.350 - Naquadria
 gtnh.quest350.name=Naquadria
-gtnh.quest350.desc=A naquadria bee.
+gtnh.quest350.desc=A naquadria bee. It's a bit tricky to obtain. And before you ask, yes you will still need the naquadria production line to refine it.
 
 # Quest.351 - Manganese
 gtnh.quest351.name=Manganese
-gtnh.quest351.desc=A manganese bee.
+gtnh.quest351.desc=A manganese bee. Not very useful but one step closer to some more interesting bees.
 
 # Quest.352 - Tungsten
 gtnh.quest352.name=Tungsten
-gtnh.quest352.desc=This is a tungsten bee.
+gtnh.quest352.desc=Lets breed a tungsten bee. It is particularly interesting because you can make pure tungsten from its combs and not just tungstate or scheelite.
 
 # Quest.353 - Iridium
 gtnh.quest353.name=Iridium
-gtnh.quest353.desc=An iridium bee.
+gtnh.quest353.desc=An iridium bee. You can actually get small amounts of pure osmium and iridium from its combs.%n%n%n§3With these combs and the uranium ones you can now make climate control units for modules in your industrial apiary!
 
 # Quest.354 - Enderium
 gtnh.quest354.name=Enderium
@@ -1422,39 +1422,39 @@ gtnh.quest354.desc=An enderium bee. In particuarly interesting for the blinding 
 
 # Quest.355 - Neutronium
 gtnh.quest355.name=Neutronium
-gtnh.quest355.desc=You might notice that there are few bees that dont have a quest on the way to the Neutronium Bee. But you should be able to figure it out.%n%nThe Neutronium Combs can not just lighten the burden on your smelting setup, you can also use them to make the Advanced Mutratron.
+gtnh.quest355.desc=You made it all the way to the Neutronium Bee! Wow!%n%nThe Neutronium Combs can not just lighten the burden on your smelting setup, you can also use them to finally make the Advanced Mutratron.
 
-# Quest.356 - §c§l[OUTDATED]§r Shiny!
-gtnh.quest356.name=§c§l[OUTDATED]§r Shiny!
-gtnh.quest356.desc=What in the world is this? This is amazing! I need more of these! They will be an amazing containment material for the wormhole!
+# Quest.356 - Arid
+gtnh.quest356.name=Arid
+gtnh.quest356.desc=The Arid Bee species. Useless you say?
 
-# Quest.357 - §c§l[OUTDATED]§r I'm Hungry
-gtnh.quest357.name=§c§l[OUTDATED]§r I'm Hungry
-gtnh.quest357.desc=What... I work a lot! So get me some food please.
+# Quest.357 - Thorium
+gtnh.quest357.name=Thorium
+gtnh.quest357.desc=A thorium bee.
 
 # Quest.358 - Naquadah
 gtnh.quest358.name=Naquadah
-gtnh.quest358.desc=A naquadah bee. If you have sufficient technology you can make a Mutatron now!
+gtnh.quest358.desc=A naquadah bee. It doesn't let you avoid the naquadah line, but if you have sufficient technology you can make a Mutatron now!
 
-# Quest.359 - §c§l[OUTDATED]§r Red and Blue
-gtnh.quest359.name=§c§l[OUTDATED]§r Red and Blue
-gtnh.quest359.desc=Really? A red and blue crystal? How awesome is that! I think I will need 8 of each color, just to be sure.
+# Quest.359 - Decaying
+gtnh.quest359.name=Decaying
+gtnh.quest359.desc=The Decaying Bee is not any more useful than the previous three. But now it should be clear, we are on our way to the Lutetium Bee!
 
-# Quest.360 - §c§l[OUTDATED]§r A Casing
-gtnh.quest360.name=§c§l[OUTDATED]§r A Casing
-gtnh.quest360.desc=I need something for the outer shell. Again, a crystal-based material would be best, because I like it shiny. I tested all crystals I know of and none of them met the requirements. I heard you have access to outer space? Can you try to find a suitable material while you're out there?
+# Quest.360 - Desolate
+gtnh.quest360.name=Desolate
+gtnh.quest360.desc=The Desolate species. Maybe you can see where this is going?
 
-# Quest.361 - §c§l[OUTDATED]§r Fancy!
-gtnh.quest361.name=§c§l[OUTDATED]§r Fancy!
-gtnh.quest361.desc=Yes. Yes! That's it! Bring me more of this stuff! I probably need a lot of it...
+# Quest.361 - Lutetium
+gtnh.quest361.name=Lutetium
+gtnh.quest361.desc=Lutetium is extremely useful if you are in ZPM. You will need quite a bit and bees can help you with that.
 
-# Quest.362 - §c§l[OUTDATED]§r Beyond imagination
-gtnh.quest362.name=§c§l[OUTDATED]§r Beyond imagination
-gtnh.quest362.desc=What is this? Draconium dust? I wonder if I could use this for something...
+# Quest.362 - Americium
+gtnh.quest362.name=Americium
+gtnh.quest362.desc=A remarkable bee. If you thought americium can only be obtained from fusion you would be wrong.
 
-# Quest.363 - §c§l[OUTDATED]§r The power of dragons
-gtnh.quest363.name=§c§l[OUTDATED]§r The power of dragons
-gtnh.quest363.desc=Hey my friend. I got your sample, and I have to say, I'm amazed. This material has a lot of potential, but it's useless at the moment. I have an idea how to turn this into something useful, but I need you to help me with a few problems first.%n%nI need a good handful of that stuff for my research. Please get me some.
+# Quest.363 - Gassy Bees
+gtnh.quest363.name=Gassy Bees
+gtnh.quest363.desc=There is whole swarm of gas producing bees. Let's breed just one of them here.%n%nYou will also need an End Dust Bee to do so.%n%n§3This is the starting point for many gas related bees. Maybe check out NEI to see what you can aim for.
 
 # Quest.364 - §c§l[OUTDATED]§r A hull
 gtnh.quest364.name=§c§l[OUTDATED]§r A hull
@@ -1554,7 +1554,7 @@ gtnh.quest387.desc=By a random guess of yours, you combined molten ender pearls 
 
 # Quest.388 - Draconic Evolution
 gtnh.quest388.name=Draconic Evolution
-gtnh.quest388.desc=You have tinkered long and hard to try to combine magic and technology. It looks like you finally found a way! With this new machine you can distill the power of a dragon into a small core.
+gtnh.quest388.desc=You have tinkered long and hard to try to combine magic and technology. It looks like you finally found a way! Combining your powers as a thaumaturge and blood mage with your UHV technology you have found a way to distill the power of a dragon into a small core.%n%nYou will also need the schematics for the recipes.%n%n§3Use a hologram projector to see how it is built. You can also upgrade your draconic cores but for that you need the higher tier schematics and you need to upgrade the multiblock.
 
 # Quest.389 - §c§l[OUTDATED]§r Draconic evolution
 gtnh.quest389.name=§c§l[OUTDATED]§r Draconic evolution
@@ -3310,7 +3310,7 @@ gtnh.quest826.desc=With iron tools, you are able to mine most of the Overworld o
 
 # Quest.827 - Rocket Fuel
 gtnh.quest827.name=Rocket Fuel
-gtnh.quest827.desc=For every flight the rocket needs some fuel. So refine some fuel for your rocket. %nYou can use use Cetane-Boosted Diesel for your T1/2 rockets, but you'll need something with more oomph for the later ones.%n%nFor the moon, a full rocket leaving from the OW should have enough fuel left to make it back. But you might want to take extra just in case.%n%nRocket Fuel usage is not based on either the destination or the type of fuel used, but instead the rocket itself, with higher tiers both storing more fuel, and consuming less. Also, the gravity of the planet affects how much fuel is used, with lower gravity locations using less fuel to launch.
+gtnh.quest827.desc=For every flight the rocket needs some fuel. So refine some fuel for your rocket.%n%nFor your T1/2 rockets you have 2 options. You can either use Cetane-Boosted Diesel or make RP-1 rocket fuel. We will have a look at RP-1 rocket fuel in the next quest.%n%nYou'll need something with more oomph for the later rockets.%n%nFor the moon, a full rocket leaving from the OW should have enough fuel left to make it back. But you might want to take extra just in case.%n%nRocket Fuel usage is not based on either the destination or the type of fuel used, but instead the rocket itself, with higher tiers both storing more fuel, and consuming less. Also, the gravity of the planet affects how much fuel is used, with lower gravity locations using less fuel to launch.
 
 # Quest.828 - Oxygen Collector
 gtnh.quest828.name=Oxygen Collector
@@ -5818,7 +5818,7 @@ gtnh.quest1453.desc=Rockets require heavy duty plates for the main hull. Let's c
 
 # Quest.1454 - Rocket Tier 3
 gtnh.quest1454.name=Rocket Tier 3
-gtnh.quest1454.desc=After days of hard work and a hundred tons of stacks of iTNT your third rocket is finally ready.%n%nYou need to use Dense Hydrazine Rocket Fuel/LMP103S or better to fuel it.
+gtnh.quest1454.desc=After days of hard work and a hundred tons of stacks of iTNT your third rocket is finally ready.%n%nYou need to use Dense Hydrazine Rocket Fuel or better to fuel it.%n%n§3If you started on an older version of GTNH and still have some LMP-103S, you can also use that as rocket fuel! But you can't make any more of it, so better look into Dense Hydrazine anyway.
 
 # Quest.1455 - Fluix Crystals
 gtnh.quest1455.name=Fluix Crystals
@@ -6142,7 +6142,7 @@ gtnh.quest1534.desc=Ledox is a material you need for Tier 4 Rockets which can be
 
 # Quest.1535 - Rocket Tier 4
 gtnh.quest1535.name=Rocket Tier 4
-gtnh.quest1535.desc=After weeks of hard work and a thousand stacks of iTNT your fourth rocket is finally ready.%n%nYou need to use Dense Hydrazine Rocket Fuel/LMP103S or better to fuel it.
+gtnh.quest1535.desc=After weeks of hard work and a thousand stacks of iTNT your fourth rocket is finally ready.%n%nYou need to use Dense Hydrazine Rocket Fuel.%n%n§3If you started on an older version of GTNH and still have some LMP-103S, you can also use that as rocket fuel! But you can't make any more of it, so better look into Dense Hydrazine anyway.
 
 # Quest.1536 - §3§lI Ain't Afraid of no Ghost!
 gtnh.quest1536.name=§3§lI Ain't Afraid of no Ghost!
@@ -6906,7 +6906,7 @@ gtnh.quest1725.desc=Each rocket needs a Control Computer, appropriate to the tie
 
 # Quest.1726 - Rocket Tier 5
 gtnh.quest1726.name=Rocket Tier 5
-gtnh.quest1726.desc=After a month of hard work and ten thousand stacks of iTNT your fifth rocket is finally ready.%n%nYou need to use CN3H7O3 (Purple) Rocket Fuel/Monomethylhydrazine Fuel Mix or better to fuel it.
+gtnh.quest1726.desc=After a month of hard work and ten thousand stacks of iTNT your fifth rocket is finally ready.%n%nYou need to use CN3H7O3 (Purple) Rocket Fuel or better to fuel it.%n%n§3If you started on an older version of GTNH and still have some Monomethylhydrazine Fuel Mix, you can also use that as rocket fuel! But you can't make any more of it, so better look into CN3H7O3 anyway.
 
 # Quest.1727 - Heavy Duty Nose Cone Tier 3
 gtnh.quest1727.name=Heavy Duty Nose Cone Tier 3
@@ -8818,7 +8818,7 @@ gtnh.quest2203.desc=Platinum. Precious metal for the ages. You'll need a block o
 
 # Quest.2204 - Uranium
 gtnh.quest2204.name=Uranium
-gtnh.quest2204.desc=All that hatred had a purpose - to create this bee, capable of producing enormous power. As before, keep away from everything.  This bee will require a block of Uranium. Breed them from Avenging and Platinum.%n%n§3You can now make climate control units for modules in your industrial apiary!
+gtnh.quest2204.desc=All that hatred had a purpose - to create this bee, capable of producing enormous power. As before, keep away from everything.  This bee will require a block of Uranium. Breed them from Avenging and Platinum.%n%nTo actually get the combs you need to either find a biome with cold temperature and normal humidity or emulated these conditions.%n%n§3With these combs and the iridium ones you can now make climate control units for modules in your industrial apiary!
 
 # Quest.2205 - Plutonium
 gtnh.quest2205.name=Plutonium
@@ -10562,7 +10562,7 @@ gtnh.quest2639.desc=Rockets require heavy duty plates for the main hull. Let's c
 
 # Quest.2640 - Rocket Tier 6
 gtnh.quest2640.name=Rocket Tier 6
-gtnh.quest2640.desc=After building this, you can visit more planets.%n%nYou need to use CN3H7O3 (Purple) Rocket Fuel/Monomethylhydrazine Fuel Mix or better to fuel it.%n%n§3If you want to make this in ZPM, you'll need to use the Assembler multi.
+gtnh.quest2640.desc=After building this, you can visit more planets.%n%nYou need to use CN3H7O3 (Purple) Rocket Fuel or better to fuel it.%n%n§3If you started on an older version of GTNH and still have some Monomethylhydrazine Fuel Mix, you can also use that as rocket fuel! But you can't make any more of it, so better look into CN3H7O3 anyway.%n%n§3If you want to make this rocket in ZPM, you'll need to use the GT++ Assembler multi.
 
 # Quest.2641 - Tier 7 Heavy Duty Plates
 gtnh.quest2641.name=Tier 7 Heavy Duty Plates
@@ -10570,7 +10570,7 @@ gtnh.quest2641.desc=Rockets require heavy duty plates for the main hull. Let's c
 
 # Quest.2642 - Rocket Tier 7
 gtnh.quest2642.name=Rocket Tier 7
-gtnh.quest2642.desc=You can now visit the planets on the edge of the solar system with this rocket.%n%nYou need to use H8N4C2O4 (Green) Rocket Fuel/Unsymmetrical Dimethylhydrazine Fuel Mix to fuel it.
+gtnh.quest2642.desc=You can now visit the planets on the edge of the solar system with this rocket.%n%nYou need to use H8N4C2O4 (Green) Rocket Fuel to fuel it.%n%n§3If you started on an older version of GTNH and still have some Unsymmetrical Dimethylhydrazine Fuel Mix, you can also use that as rocket fuel! But you can't make any more of it, so better look into H8N4C2O4 anyway.
 
 # Quest.2643 - Tier 8 Heavy Duty Plates
 gtnh.quest2643.name=Tier 8 Heavy Duty Plates
@@ -10578,7 +10578,7 @@ gtnh.quest2643.desc=Rockets require heavy duty plates for the main hull. Let's c
 
 # Quest.2644 - Rocket Tier 8
 gtnh.quest2644.name=Rocket Tier 8
-gtnh.quest2644.desc=You can travel to other solar systems with this, the final rocket.%n%nWhat, you visited other star systems before? There, was, uh, like, a nebula you couldn't go past to these ones. That makes sense, right?%n%nYou need to use H8N4C2O4 (Green) Rocket Fuel/Unsymmetrical Dimethylhydrazine Fuel Mix to fuel it.
+gtnh.quest2644.desc=You can travel to other solar systems with this, the final rocket.%n%nWhat, you visited other star systems before? There, was, uh, like, a nebula you couldn't go past to these ones. That makes sense, right?%n%nYou need to use H8N4C2O4 (Green) Rocket Fuel to fuel it.%n%n§3If you started on an older version of GTNH and still have some Unsymmetrical Dimethylhydrazine Fuel Mix, you can also use that as rocket fuel! But you can't make any more of it, so better look into H8N4C2O4 anyway.
 
 # Quest.2645 - §c§lFusion Rocketry
 gtnh.quest2645.name=§c§lFusion Rocketry
@@ -10738,7 +10738,7 @@ gtnh.quest2683.desc=The Parametrizer allows you to configure TecTech multis by a
 
 # Quest.2684 - RP-1 Rocket Fuel
 gtnh.quest2684.name=RP-1 Rocket Fuel
-gtnh.quest2684.desc=In order to properly fuel the T2 rocket, you'll need some RP-1 Rocket Fuel (or for now, just use CBD again). First, you'll need either Diesel (which you probably used to make the Cetane-Boosted Diesel for the T1), or Coal Tar. Coal Tar is the better option on the long run, since you'll need the other products of distilling it to make other rocket fuels, but for now you can use Diesel.§3%n%nIf you're using Diesel, you need 20 cells, if using Coal Tar, you need 30. Unless you use a DT, in which case it doesn't divide evenly anymore :(§r%n%nDistill it in the Distillery to get Kerosene, then distill it again to get RP-1. You'll need a Chemical Plant for the last step.%n%nRP-1 Rocket Fuel is a T3 240 EU/t recipe, so you'll need to make the CP out of Stainless Steel and HV Machine Casings.%n%nCombine Liquid Oxygen and RP-1 to make RP-1 Rocket Fuel. And no, I have no idea what the difference is.%n%n§3If you're confused about how to use/make the Chemical Plant, refer to the manual with the same name.%n%n§2PS: You can also use Rocket Fuels for power in Rocket Engines, or the Rocketdyne F-1A Engine multi.
+gtnh.quest2684.desc=One option to fuel your T1 and T2 rocket is RP-1 Rocket Fuel. First, you'll need either Diesel or Coal Tar. Coal Tar is the better option on the long run, since you'll need the other products of distilling it to make other rocket fuels, but for now you can use Diesel.§3%n%nIf you're using Diesel, you need 20 cells, if using Coal Tar, you need 30. Unless you use a DT, in which case it doesn't divide evenly anymore :(§r%n%nDistill it in the Distillery to get Kerosene, then distill it again to get RP-1. You'll need a Chemical Plant for the last step.%n%nRP-1 Rocket Fuel is a T3 240 EU/t recipe, so you'll need to make the CP out of Stainless Steel and HV Machine Casings.%n%nSince there is no oxygen in space, you will also need an oxidizer. But since the Galacticraft rocket can only take one fluid we have simplified that a bit. Just combine Liquid Oxygen and RP-1 to make the fully functional RP-1 Rocket Fuel.%n%n§3If you're confused about how to use/make the Chemical Plant, refer to the manual with the same name.%n%n§2PS: You can also use Rocket Fuels for power in Rocket Engines, or the Rocketdyne F-1A Engine multi.
 
 # Quest.2685 - Coal Tar Distilling
 gtnh.quest2685.name=Coal Tar Distilling
@@ -12954,7 +12954,7 @@ gtnh.quest3237.desc=So close.
 
 # Quest.3238 - Space
 gtnh.quest3238.name=Space
-gtnh.quest3238.desc=Breed an industrious with a heroic bee to obtain a space bee. You need the temperature to be icy for that. It is key to breed many space related bees.
+gtnh.quest3238.desc=Breed an industrious with a heroic bee to obtain a space bee. You need the temperature to be icy for that.%n%nJust one small step for you, but a giant leap for beekind.%n%n§3This is the starting point for many space related bees. Maybe check out NEI to see what you can aim for.
 
 # Quest.3239 - Tesseract
 gtnh.quest3239.name=Tesseract
