@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version 2.1.2.4-27-pre is out 16.08.2022
+Version 2.1.2.4-28-pre is out 17.08.2022
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -212,7 +212,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Avaritia](https://github.com/GTNewHorizons/Avaritia/) | 1.28 |
 | [Avaritiaddons](https://github.com/GTNewHorizons/Avaritiaddons/) | 1.5.4-GTNH |
 | [BackPack](https://github.com/runescapejon/Minecraft-Backpack-Mod) | 2.2.6-GTNH |
-| [Bartworks](https://github.com/GTNewHorizons/bartworks/) | 0.5.69-pre |
+| [Bartworks](https://github.com/GTNewHorizons/bartworks/) | 0.5.72-pre |
 | [Bee Better At Bees](https://www.curseforge.com/minecraft/mc-mods/beebetteratbees) | 0.3 |
 | [Better Archivements](https://www.curseforge.com/minecraft/mc-mods/betterachievements) | 0.1.0 |
 | [Better Builders Wands](https://www.curseforge.com/minecraft/mc-mods/better-builders-wands) | 0.9.3-GTNH |
@@ -251,7 +251,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Default Server List](https://github.com/GTNewHorizons/DefaultServerList) | 1.2 |
 | [Default World Generator](https://github.com/GTNewHorizons/DefaultWorldGenerator) | 0.1-b13 |
 | [Draconic Evolution](https://github.com/GTNewHorizons/Draconic-Evolution) | 1.1.5-GTNH |
-| [Electro Magic Tools](https://github.com/GTNewHorizons/Electro-Magic-Tools) | 1.2.8.11 |
+| [Electro Magic Tools](https://github.com/GTNewHorizons/Electro-Magic-Tools) | 1.2.8.13 |
 | [Ender IO](https://github.com/GTNewHorizons/EnderIO) | 2.3.1.42 |
 | [Ender Storage](https://github.com/GTNewHorizons/EnderStorage) | 1.4.12 |
 | [Ender Zoo](https://github.com/GTNewHorizons/EnderZoo) | 1.0.23 |
@@ -273,13 +273,13 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [GalactiGreg](https://github.com/GTNewHorizons/GalacticGregGT5) | 1.0.8 |
 | [Galaxy Space](http://jenkins.usrv.eu:8080/view/3rd%20Party%20Mods/job/Galaxy-Space/) | 1.1.16i-GTNH |
 | [Gendustry](https://github.com/GTNewHorizons/gendustry) | 1.6.5.4-GTNH |
-| [Good Generator](https://github.com/GTNewHorizons/GoodGenerator) | 0.4.14 |
+| [Good Generator](https://github.com/GTNewHorizons/GoodGenerator) | 0.4.16 |
 | [Gravitation Suite](Source hidden ask Namikon)| 2.0.68u |
-| [Gregtech](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.40.98-pre |
+| [Gregtech](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.40.100-pre |
 | [GT Scanner Mod](https://github.com/GTNewHorizons/DetravScannerMod) | 1.6.7 |
 | [GT Ore Nei Plugin](https://github.com/GTNewHorizons/GTNEIOrePlugin) | 1.0.15 |
-| [GT New Horizons Core Mod](https://github.com/GTNewHorizons/NewHorizonsCoreMod) | 1.9.44 |
-| [GT++](https://github.com/GTNewHorizons/GTPP) | 1.7.64-pre |
+| [GT New Horizons Core Mod](https://github.com/GTNewHorizons/NewHorizonsCoreMod) | 1.9.45 |
+| [GT++](https://github.com/GTNewHorizons/GTPP) | 1.7.66-pre |
 | [GTNH TC Wands](https://github.com/GTNewHorizons/GTNH-TC-Wands) | 1.2.6 |
 | [GTTweaker](https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon) | 1.7.5 |
 | [Hardcore Darkness](https://www.curseforge.com/minecraft/mc-mods/hardcore-darkness) | 1.7 |
@@ -304,9 +304,9 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [It's the little things](https://www.curseforge.com/minecraft/mc-mods/its-the-little-things/) | 1.0.3 |
 | [Jabba](https://github.com/GTNewHorizons/Jabba) | 1.2.17 |
 | [JourneyMap](https://www.curseforge.com/minecraft/mc-mods/journeymap) | 5.1.4p2 |
-| [Kekztech](https://github.com/GTNewHorizons/KekzTech) | 0.6.9-pre |
+| [Kekztech](https://github.com/GTNewHorizons/KekzTech) | 0.6.10-pre |
 | [KubaTech](https://github.com/GTNewHorizons/KubaTech) | 0.1.1 |
-| [Lanthanidesl](https://github.com/GTNewHorizons/GTNH-Lanthanides) | 0.9.9 |
+| [Lanthanidesl](https://github.com/GTNewHorizons/GTNH-Lanthanides) | 0.9.11 |
 | [Little Tiles](https://www.curseforge.com/minecraft/mc-mods/littletiles) | 1.2.3-GTNH |
 | [Logistic Pipes](https://github.com/GTNewHorizons/LogisticsPipes) | 0.9.4.5.7-GTNH |
 | [Lootgames](https://github.com/GTNewHorizons/LootGames) | 2.0.5 |
@@ -398,7 +398,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Waila Plugins](https://github.com/GTNewHorizons/WAILAPlugins) | 0.2.5 |
 | [Wawla](https://github.com/GTNewHorizons/WAWLA) | 1.1.3-GTNH |
 | [Warp Theory](https://github.com/GTNewHorizons/WarpTheory) | 1.2.6-GTNH |
-| [Wireless Redstone CBE](https://github.com/GTNewHorizons/WirelessRedstone) | 1.4.6 |
+| [Wireless Redstone CBE](https://github.com/GTNewHorizons/WirelessRedstone) | 1.4.7 |
 | [Witchery](https://github.com/GTNewHorizons/Witchery) | 0.24.1 |
 | [Witchery Extras](https://github.com/GTNewHorizons/WitcheryExtras) | 1.1.11 |
 | [Witching Gadgets](https://github.com/GTNewHorizons/WitchingGadgets) | 1.2.21-GTNH |
