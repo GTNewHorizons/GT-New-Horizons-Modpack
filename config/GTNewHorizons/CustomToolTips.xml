@@ -375,33 +375,33 @@
 	<ToolTip ItemName="Railcraft:machine.zeta:1" ToolTip="Has 64 buckets capacity per block"/>
 	<ToolTip ItemName="Railcraft:machine.zeta:2" ToolTip="Has 64 buckets capacity per block \nAuto-Output from bottom side \nAuto-Output rate is 1000L/t"/>
 //Stainless
-	<ToolTip ItemName="Railcraft:machine.zeta:3" ToolTip="Has 96 buckets capacity per block"/>
-	<ToolTip ItemName="Railcraft:machine.zeta:4" ToolTip="Has 96 buckets capacity per block"/>
-	<ToolTip ItemName="Railcraft:machine.zeta:5" ToolTip="Has 96 buckets capacity per block \nAuto-Output from bottom side \nAuto-Output rate is 1000L/t"/>
+	<ToolTip ItemName="Railcraft:machine.zeta:3" ToolTip="Has 128 buckets capacity per block"/>
+	<ToolTip ItemName="Railcraft:machine.zeta:4" ToolTip="Has 128 buckets capacity per block"/>
+	<ToolTip ItemName="Railcraft:machine.zeta:5" ToolTip="Has 128 buckets capacity per block \nAuto-Output from bottom side \nAuto-Output rate is 1000L/t"/>
 //Titanium
-	<ToolTip ItemName="Railcraft:machine.zeta:6" ToolTip="Has 128 buckets capacity per block"/>
-	<ToolTip ItemName="Railcraft:machine.zeta:7" ToolTip="Has 128 buckets capacity per block"/>
-	<ToolTip ItemName="Railcraft:machine.zeta:8" ToolTip="Has 128 buckets capacity per block \nAuto-Output from bottom side \nAuto-Output rate is 1000L/t"/>
+	<ToolTip ItemName="Railcraft:machine.zeta:6" ToolTip="Has 256 buckets capacity per block"/>
+	<ToolTip ItemName="Railcraft:machine.zeta:7" ToolTip="Has 256 buckets capacity per block"/>
+	<ToolTip ItemName="Railcraft:machine.zeta:8" ToolTip="Has 256 buckets capacity per block \nAuto-Output from bottom side \nAuto-Output rate is 1000L/t"/>
 //Tungstensteel
-	<ToolTip ItemName="Railcraft:machine.zeta:9" ToolTip="Has 160 buckets capacity per block"/>
-	<ToolTip ItemName="Railcraft:machine.zeta:10" ToolTip="Has 160 buckets capacity per block"/>
-	<ToolTip ItemName="Railcraft:machine.zeta:11" ToolTip="Has 160 buckets capacity per block \nAuto-Output from bottom side \nAuto-Output rate is 1000L/t"/>
+	<ToolTip ItemName="Railcraft:machine.zeta:9" ToolTip="Has 512 buckets capacity per block"/>
+	<ToolTip ItemName="Railcraft:machine.zeta:10" ToolTip="Has 512 buckets capacity per block"/>
+	<ToolTip ItemName="Railcraft:machine.zeta:11" ToolTip="Has 512 buckets capacity per block \nAuto-Output from bottom side \nAuto-Output rate is 1000L/t"/>
 //Palladium
-	<ToolTip ItemName="Railcraft:machine.zeta:12" ToolTip="Has 192 buckets capacity per block"/>
-	<ToolTip ItemName="Railcraft:machine.zeta:13" ToolTip="Has 192 buckets capacity per block"/>
-	<ToolTip ItemName="Railcraft:machine.zeta:14" ToolTip="Has 192 buckets capacity per block \nAuto-Output from bottom side \nAuto-Output rate is 1000L/t"/>
+	<ToolTip ItemName="Railcraft:machine.zeta:12" ToolTip="Has 1024 buckets capacity per block"/>
+	<ToolTip ItemName="Railcraft:machine.zeta:13" ToolTip="Has 1024 buckets capacity per block"/>
+	<ToolTip ItemName="Railcraft:machine.zeta:14" ToolTip="Has 1024 buckets capacity per block \nAuto-Output from bottom side \nAuto-Output rate is 1000L/t"/>
 //Iridium
-	<ToolTip ItemName="Railcraft:machine.eta" ToolTip="Has 256 buckets capacity per block"/>
-	<ToolTip ItemName="Railcraft:machine.eta:1" ToolTip="Has 256 buckets capacity per block"/>
-	<ToolTip ItemName="Railcraft:machine.eta:2" ToolTip="Has 256 buckets capacity per block \nAuto-Output from bottom side \nAuto-Output rate is 1000L/t"/>
+	<ToolTip ItemName="Railcraft:machine.eta" ToolTip="Has 1536 buckets capacity per block"/>
+	<ToolTip ItemName="Railcraft:machine.eta:1" ToolTip="Has 1536 buckets capacity per block"/>
+	<ToolTip ItemName="Railcraft:machine.eta:2" ToolTip="Has 1536 buckets capacity per block \nAuto-Output from bottom side \nAuto-Output rate is 1000L/t"/>
 //Osmium
-	<ToolTip ItemName="Railcraft:machine.eta:3" ToolTip= "Has 384 buckets capacity per block"/>
-	<ToolTip ItemName="Railcraft:machine.eta:4" ToolTip="Has 384 buckets capacity per block"/>
-	<ToolTip ItemName="Railcraft:machine.eta:5" ToolTip="Has 384 buckets capacity per block \nAuto-Output from bottom side \nAuto-Output rate is 1000L/t"/>
+	<ToolTip ItemName="Railcraft:machine.eta:3" ToolTip= "Has 2048 buckets capacity per block"/>
+	<ToolTip ItemName="Railcraft:machine.eta:4" ToolTip="Has 2048 buckets capacity per block"/>
+	<ToolTip ItemName="Railcraft:machine.eta:5" ToolTip="Has 2048 buckets capacity per block \nAuto-Output from bottom side \nAuto-Output rate is 1000L/t"/>
 //Neutronium
-	<ToolTip ItemName="Railcraft:machine.eta:6" ToolTip="Has 512 buckets capacity per block"/>
-	<ToolTip ItemName="Railcraft:machine.eta:7" ToolTip="Has 512 buckets capacity per block"/>
-	<ToolTip ItemName="Railcraft:machine.eta:8" ToolTip="Has 512 buckets capacity per block \nAuto-Output from bottom side \nAuto-Output rate is 1000L/t"/>
+	<ToolTip ItemName="Railcraft:machine.eta:6" ToolTip="Has 3072 buckets capacity per block"/>
+	<ToolTip ItemName="Railcraft:machine.eta:7" ToolTip="Has 3072 buckets capacity per block"/>
+	<ToolTip ItemName="Railcraft:machine.eta:8" ToolTip="Has 3072 buckets capacity per block \nAuto-Output from bottom side \nAuto-Output rate is 1000L/t"/>
 
 //Cubic Zirconia
     <ToolTip ItemName="bartworks:gt.bwMetaGenerateddust:4" ToolTip="§3Check Flawed Crystal recipe in EBF"/>
