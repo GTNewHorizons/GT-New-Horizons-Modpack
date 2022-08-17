@@ -1460,9 +1460,9 @@ gtnh.quest363.desc=There is whole swarm of gas producing bees. Let's breed just 
 gtnh.quest364.name=§c§l[OUTDATED]§r A hull
 gtnh.quest364.desc=First things first, we need a hull. I played around with your sample, and it seems that it reacts with every known material. It even attacks Iridium! It's completely harmless if it's in a box that is open, but as soon as I try to enclose it in something, poof. It breaks free. We need something stronger than iridium my friend.%n%nMaybe something from the core of a dead star....White dwarf won't be dense enough...Perhaps a Neutron Star? Hmmm...Yes, fetch me some ore from the core of a Neutron Star and we'll try some next steps.
 
-# Quest.365 - §c§l[OUTDATED]§r Dense, denser, Neutronium
-gtnh.quest365.name=§c§l[OUTDATED]§r Dense, denser, Neutronium
-gtnh.quest365.desc=Now look at this. This stuff is incredibly dense. Maybe this material will be sufficiently strong?%n%nThis looks promising. Send me some samples, and I will try my luck.
+# Quest.365 - Insurgence
+gtnh.quest365.name=Insurgence
+gtnh.quest365.desc=Is your infusion very slow? And, alas, to resolve that you need a world accelerator causing lag?%n%nWell no longer! Try out the new Infusion Interceptor. Read more about it on the Thaumic Insurgence page in your Thaumonomicon.
 
 # Quest.366 - §c§l[OUTDATED]§r Not a planet
 gtnh.quest366.name=§c§l[OUTDATED]§r Not a planet
@@ -2306,7 +2306,7 @@ gtnh.quest575.desc=Trade three Bees Advanced lootbags to get a better one: Bees 
 
 # Quest.576 - Working Table 2.0
 gtnh.quest576.name=Working Table 2.0
-gtnh.quest576.desc=A manual crafting table which remembers the last nine used recipes. Left click one of the recipes shown in the right-hand side to automatically fill in the crafting grid. Right-click to lock a memorized recipe and prevent a newer recipe from bumping it off.%n%nResources need to go into the internal inventory. The crafting matrix is only a visual representation.%n%nThe Forestry worktable is super-useful, and can reduce the tedium of many common jobs because you can click-drag across a row of items, and it will use tools in its own inventory to continue crafting.%n%nSpecifically:%nMaking <Item X> with <Bucket of Y> - Put all the ingredients into the table, and if the recipe is selected, shift click the result to craft them all at once (until you run out)%nMaking fresh water for Pam's - Same as above, but no second item%nMaking clay bricks - The wooden form is automatically reused%nMaking anything that uses a tool - Also automatically reused, while consuming durability
+gtnh.quest576.desc=A manual crafting table which remembers the last nine used recipes. Left click one of the recipes shown in the right-hand side to automatically fill in the crafting grid. Right-click to lock a memorized recipe and prevent a newer recipe from bumping it off.%n%nResources need to go into the internal inventory. The crafting matrix is only a visual representation.%n%nThe Forestry worktable is super-useful, and can reduce the tedium of many common jobs because you can click-drag across a row of items, and it will use tools in its own inventory to continue crafting.%n%nSpecifically:%nMaking <Item X> with <Bucket of Y> - Put all the ingredients into the table, and if the recipe is selected, shift click the result to craft them all at once (until you run out)%nMaking fresh water for Pam's - Same as above, but no second item%nMaking clay bricks - The wooden form is automatically reused%nMaking anything that uses a tool - Also automatically reused, while consuming durability%n%n§3For more forestry quests you need to go to the dedicated tab.
 
 # Quest.577 - Forestry core block
 gtnh.quest577.name=Forestry core block
@@ -8188,9 +8188,9 @@ gtnh.quest2045.desc=This mega vac freezer can handle up to 256 items.
 gtnh.quest2046.name=A Better Fluid Pipe
 gtnh.quest2046.desc=Now that you have lead you can convert your bronze pipes to potin pipes with higher capacities.
 
-# Quest.2047 - §6§lBulk Programming
-gtnh.quest2047.name=§6§lBulk Programming
-gtnh.quest2047.desc=Tired of having to use NEI to figure out how to program your circuits? This block will allow you to simply choose the circuit number. It can be automated.
+# Quest.2047 - §5§lCircuit Programming
+gtnh.quest2047.name=§5§lCircuit Programming
+gtnh.quest2047.desc=Some machines have many, many recipes. To avoid conflicts recipes include programmed circuits to choose the right one.%n%nYou have multiple options on how to do so:%n%n1) Every Gregtech singleblock machine now comes with a icon on the bottom right that represent a ghost circuit. Click it or scroll to choose the number you need. You don't have to insert a physical circuit in this case! However this is not possible for any multiblock machines.%n%nAlternatively you can turn an LV circuit into a programmed circuit in the crafting grid and then program it in various ways:%n%n2) Find the correct crafting recipe with a screwdriver in NEI and use that.%n%n3) Rightclick while holding the programmed circuit to open an easy menu. You still need to at least have the screwdriver in your inventory though or it won't work. Eventually you can also make an electric screwdriver.%n%n4) Use the BartWorks Circuit Programmer. It is only available in MV. But it does not use any durability and runs on EU.%n%n5) Use the GT++ Circuit Programmer block. It isn't portable and only available in MV. But it allows for automation.
 
 # Quest.2048 - Moss
 gtnh.quest2048.name=Moss
@@ -13056,7 +13056,7 @@ gtnh.line14.desc=Steve's Carts and ProjectRed automation, for your auto-farming 
 
 # QuestLine.15 - Working with Oil
 gtnh.line15.name=Working with Oil
-gtnh.line15.desc=No Description
+gtnh.line15.desc=A questline about oil refining, oil byproducts, and oil based power generation.
 
 # QuestLine.16 - Coins, Coins, Coins
 gtnh.line16.name=Coins, Coins, Coins
