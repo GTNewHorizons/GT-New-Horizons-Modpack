@@ -367,7 +367,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Tainted Magic](https://github.com/GTNewHorizons/Tainted-Magic) | r7.6 |
 | [TC Node Tracker](https://www.curseforge.com/minecraft/mc-mods/thaumcraft-node-tracker) | 1.1.6 |
 | [TC Inventoryscann](https://www.curseforge.com/minecraft/mc-mods/thaumcraft-inventory-scanning) | 1.0.12-GTNH |
-| [Tec Tech](https://github.com/GTNewHorizons/TecTech) | 5.0.17-pre |
+| [Tec Tech](https://github.com/GTNewHorizons/TecTech) | 5.0.21-pre |
 | [Thaumcraft](https://www.curseforge.com/minecraft/mc-mods/thaumcraft) | 4.2.3.5 |
 | [Thaumcraft Mob Aspects](http://jenkins.usrv.eu:8080/view/3rd%20Party%20Mods/job/ThaumcraftMobAspects/) | 1.0.0-GTNH |
 | [Thaumcraft-NEI-Additions](https://github.com/GTNewHorizons/TCNEIAdditions) | 1.1.0.10 |
