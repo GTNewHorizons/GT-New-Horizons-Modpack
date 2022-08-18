@@ -1454,47 +1454,47 @@ gtnh.quest362.desc=A remarkable bee. If you thought americium can only be obtain
 
 # Quest.363 - Gassy Bees
 gtnh.quest363.name=Gassy Bees
-gtnh.quest363.desc=There is whole swarm of gas producing bees. Let's breed just one of them here.%n%nYou will also need an End Dust Bee to do so.%n%n§3This is the starting point for many gas related bees. Maybe check out NEI to see what you can aim for.
+gtnh.quest363.desc=There is whole swarm of gas producing bees. Let's breed just one of them here.%n%n§3This is the starting point for many gas related bees. Maybe check out NEI to see what you can aim for.
 
-# Quest.364 - §c§l[OUTDATED]§r A hull
-gtnh.quest364.name=§c§l[OUTDATED]§r A hull
-gtnh.quest364.desc=First things first, we need a hull. I played around with your sample, and it seems that it reacts with every known material. It even attacks Iridium! It's completely harmless if it's in a box that is open, but as soon as I try to enclose it in something, poof. It breaks free. We need something stronger than iridium my friend.%n%nMaybe something from the core of a dead star....White dwarf won't be dense enough...Perhaps a Neutron Star? Hmmm...Yes, fetch me some ore from the core of a Neutron Star and we'll try some next steps.
+# Quest.364 - Naga
+gtnh.quest364.name=Naga
+gtnh.quest364.desc=You don't like fighting bosses or you play on peaceful for whatever reason? Well you can still get Naga drops with this bee!
 
 # Quest.365 - Insurgence
 gtnh.quest365.name=Insurgence
 gtnh.quest365.desc=Is your infusion very slow? And, alas, to resolve that you need a world accelerator causing lag?%n%nWell no longer! Try out the new Infusion Interceptor. Read more about it on the Thaumic Insurgence page in your Thaumonomicon.
 
-# Quest.366 - §c§l[OUTDATED]§r Not a planet
-gtnh.quest366.name=§c§l[OUTDATED]§r Not a planet
-gtnh.quest366.desc=This place is interesting. Maybe I should try to find new materials here...%n%nWhat's that? Scanning shows some kind of new radioactive ore. Go and check it out, maybe hold some - with proper protection of course.
+# Quest.366 - Lich
+gtnh.quest366.name=Lich
+gtnh.quest366.desc=Lich bones without a boss fight.
 
-# Quest.367 - §c§l[OUTDATED]§r Successful.. Or not?
-gtnh.quest367.name=§c§l[OUTDATED]§r Successful.. Or not?
-gtnh.quest367.desc=Heh, neutronium. I didn't even know such a thing really exists. Unfortunately, the draconium dust was enclosed for... 5 seconds? But, it was a small success. %n%nOk let's travel to some planets and moons and look for the new material. I think we have to fly very far away for it.%n%nSomeplace dark, on a planet near the Kuiper Belt.
+# Quest.367 - Hydra
+gtnh.quest367.name=Hydra
+gtnh.quest367.desc=These make fiery blood.
 
-# Quest.368 - §c§l[OUTDATED]§r Black Plutonium
-gtnh.quest368.name=§c§l[OUTDATED]§r Black Plutonium
-gtnh.quest368.desc=This doesn't seem to be dense, but it's a material you haven't seen before. Maybe this could be the solution?%n%nBlack what? Huh, interesting. Send me some samples, I want to analyse it.
+# Quest.368 - Ur-Ghast
+gtnh.quest368.name=Ur-Ghast
+gtnh.quest368.desc=Need a lot of magical wood? Well this bee produces carminite.
 
-# Quest.369 - §c§l[OUTDATED]§r We have a hull
-gtnh.quest369.name=§c§l[OUTDATED]§r We have a hull
-gtnh.quest369.desc=Surprisingly, this material is able to contain the draconium dust. It could be the radiation. Good job my friend!
+# Quest.369 - Snowqueen
+gtnh.quest369.name=Snowqueen
+gtnh.quest369.desc=I don't know why you would need a lot of snowqueen blood. But this is the way to do it.
 
-# Quest.370 - §c§l[OUTDATED]§r Draconium Dust core
-gtnh.quest370.name=§c§l[OUTDATED]§r Draconium Dust core
-gtnh.quest370.desc=I've created a first sample of what I shall call "Draconium Dust core". Not quite the result I expected to be honest, but see for yourself.
+# Quest.370 - Steel
+gtnh.quest370.name=Steel
+gtnh.quest370.desc=It's not much steel, but it doesn't cause pollution.
 
-# Quest.371 - §c§l[OUTDATED]§r We need to control it
-gtnh.quest371.name=§c§l[OUTDATED]§r We need to control it
-gtnh.quest371.desc=The problem is that the immense power of this dust is released all at once. We need something to control the vast amount of energies. I noticed that the dust starts to glow when it gets near an aura node. Maybe Thaumaturgy has the solution?
+# Quest.371 - Stainless Steel
+gtnh.quest371.name=Stainless Steel
+gtnh.quest371.desc=Not particularly strong to be honest.
 
-# Quest.372 - §c§l[OUTDATED]§r The power of primals
-gtnh.quest372.name=§c§l[OUTDATED]§r The power of primals
-gtnh.quest372.desc=What else could control energies better than a focus of crystallized primal energy? With this little item, it should be possible to control the energies released from the dust.
+# Quest.372 - End Dust
+gtnh.quest372.name=End Dust
+gtnh.quest372.desc=A bit of a misnamed bee. What it really gives you is Ender Goo and End Powder.
 
-# Quest.373 - §c§l[OUTDATED]§r Unforeseen consequences
-gtnh.quest373.name=§c§l[OUTDATED]§r Unforeseen consequences
-gtnh.quest373.desc=You haven't heard anything in a while from the technician. You have a feeling that something might have gone terrible wrong, so you went to his place to investigate. What you found was... nothing. A void. It seems that he tried to combine the pearl with the dust. What did he say? The dust reacts to aura nodes? Of course it does. It amplifies the energies by a thousand times. And giving it raw primal energy, good lord, what has he done. May he rest in peace...
+# Quest.373 - §6§lAn Industrial Mobfarm
+gtnh.quest373.name=§6§lAn Industrial Mobfarm
+gtnh.quest373.desc=I cannot in good faith recommend you to make this machine. It is quite brutal and ruthless. But if you §oreally§r need to kill a lot of mobs, then it is probably your best choice.
 
 # Quest.374 - §c§l[OUTDATED]§r I'm on my own now
 gtnh.quest374.name=§c§l[OUTDATED]§r I'm on my own now
@@ -1552,8 +1552,8 @@ gtnh.quest386.desc=These ghosts are weird beings. But, I found this ectoplasm, w
 gtnh.quest387.name=§c§l[OUTDATED]§r Activated teleport power
 gtnh.quest387.desc=By a random guess of yours, you combined molten ender pearls and a few more of these shards with an empty gem, and it turned blue. It is pulsating with power. You tried to use it on your containment device, and it seems to be able to bypass the force field, while keeping it intact that the same time. Sadly, it doesn't have enough power to let vis pass through. Maybe you can even further increase the gems power?
 
-# Quest.388 - Draconic Evolution
-gtnh.quest388.name=Draconic Evolution
+# Quest.388 - §6§lDraconic Evolution
+gtnh.quest388.name=§6§lDraconic Evolution
 gtnh.quest388.desc=You have tinkered long and hard to try to combine magic and technology. It looks like you finally found a way! Combining your powers as a thaumaturge and blood mage with your UHV technology you have found a way to distill the power of a dragon into a small core.%n%nYou will also need the schematics for the recipes.%n%n§3Use a hologram projector to see how it is built. You can also upgrade your draconic cores but for that you need the higher tier schematics and you need to upgrade the multiblock.
 
 # Quest.389 - §c§l[OUTDATED]§r Draconic evolution
@@ -8638,7 +8638,7 @@ gtnh.quest2158.desc=Growing bees are the start of the Fruity specific breeding t
 
 # Quest.2159 - Bees Template
 gtnh.quest2159.name=Bees Template
-gtnh.quest2159.desc=Get the princess bee and reward bag in NEI first.%nCopy this quest.%nPress Icon and set the icon to the bee.%nChange the name, decription, and rewards.%n%nPress Task, and select the stone, and replace it with the princess.%nBefore closing, select the ... next to the bee name and press Raw NBT%nGo into Tag, Genome, Chromosomes. The first one is the name and must stay. %nGo inside there and delete the first entry, keep both of the species so players%nmust have purebreeds.%nDelete the rest of the chromosomes.%nDelete the rest of the entries for Genome.%n%nPress Requirements. Remove the Infinity unlock requirement and select the required bee quests. Use the common bees quest if nothing applies.%n%nChange Show:Hidden to Show:Normal.%n%n§3You can change the visibility of requirements by pressing the eye symbol in that menu.
+gtnh.quest2159.desc=Get the princess bee and reward bag in NEI first.%nCopy this quest.%nPress Icon and set the icon to the bee.%nChange the name, decription, and rewards.%n%nPress Task, and select the stone, and replace it with the princess.%nBefore closing, select the ... next to the bee name and press Raw NBT%nGo into Tag, Genome, Chromosomes. The first one is the name and must stay. %nGo inside there and delete the first entry, keep both of the species so players%nmust have purebreeds.%nDelete the rest of the chromosomes.%nDelete the rest of the entries for Genome.%n%nPress Requirements. Remove the Infinity unlock requirement and select the required bee quests. Use the common bees quest if nothing applies.%n%nChange Show:Hidden to Show:Normal.%n%nTo reduce waste in the questbook file ideally you should also go into the advanced options, then press ... for the icon, and remove unnecessary NBT there as well. Just leave the species as above.%n%n%n§3You can change the visibility of requirements by pressing the eye symbol in the requirements menu.
 
 # Quest.2160 - Carpenter's Blocks
 gtnh.quest2160.name=Carpenter's Blocks
@@ -12952,8 +12952,8 @@ gtnh.quest3236.desc=Circuits required for UIV.
 gtnh.quest3237.name=Nearly there...
 gtnh.quest3237.desc=So close.
 
-# Quest.3238 - Space
-gtnh.quest3238.name=Space
+# Quest.3238 - Space Bees
+gtnh.quest3238.name=Space Bees
 gtnh.quest3238.desc=Breed an industrious with a heroic bee to obtain a space bee. You need the temperature to be icy for that.%n%nJust one small step for you, but a giant leap for beekind.%n%n§3This is the starting point for many space related bees. Maybe check out NEI to see what you can aim for.
 
 # Quest.3239 - Tesseract
