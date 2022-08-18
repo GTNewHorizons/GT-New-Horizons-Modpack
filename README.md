@@ -273,13 +273,13 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [GalactiGreg](https://github.com/GTNewHorizons/GalacticGregGT5) | 1.0.8 |
 | [Galaxy Space](http://jenkins.usrv.eu:8080/view/3rd%20Party%20Mods/job/Galaxy-Space/) | 1.1.16i-GTNH |
 | [Gendustry](https://github.com/GTNewHorizons/gendustry) | 1.6.5.4-GTNH |
-| [Good Generator](https://github.com/GTNewHorizons/GoodGenerator) | 0.4.16 |
+| [Good Generator](https://github.com/GTNewHorizons/GoodGenerator) | 0.4.17-pre |
 | [Gravitation Suite](Source hidden ask Namikon)| 2.0.68u |
 | [Gregtech](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.40.101-pre |
 | [GT Scanner Mod](https://github.com/GTNewHorizons/DetravScannerMod) | 1.6.7 |
 | [GT Ore Nei Plugin](https://github.com/GTNewHorizons/GTNEIOrePlugin) | 1.0.15 |
 | [GT New Horizons Core Mod](https://github.com/GTNewHorizons/NewHorizonsCoreMod) | 1.9.47 |
-| [GT++](https://github.com/GTNewHorizons/GTPP) | 1.7.68-pre |
+| [GT++](https://github.com/GTNewHorizons/GTPP) | 1.7.69-pre |
 | [GTNH TC Wands](https://github.com/GTNewHorizons/GTNH-TC-Wands) | 1.2.6 |
 | [GTTweaker](https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon) | 1.7.5 |
 | [Hardcore Darkness](https://www.curseforge.com/minecraft/mc-mods/hardcore-darkness) | 1.7 |
