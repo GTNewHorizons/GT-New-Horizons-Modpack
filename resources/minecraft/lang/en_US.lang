@@ -1462,7 +1462,7 @@ gtnh.quest364.desc=You don't like fighting bosses or you play on peaceful for wh
 
 # Quest.365 - Insurgence
 gtnh.quest365.name=Insurgence
-gtnh.quest365.desc=Is your infusion very slow? And, alas, to resolve that you need a world accelerator causing lag?%n%nWell no longer! Try out the new Infusion Interceptor. Read more about it on the Thaumic Insurgence page in your Thaumonomicon.
+gtnh.quest365.desc=Is your infusion very slow? And, alas, to resolve that you need a world accelerator. That probably causes a lot of lag.%n%nWell no longer! Try out the new Infusion Interceptor. Read more about it on the Thaumic Insurgence page in your Thaumonomicon.
 
 # Quest.366 - Lich
 gtnh.quest366.name=Lich
@@ -1864,17 +1864,17 @@ gtnh.quest464.desc=I will ask the technician about this stuff, but I need to rea
 gtnh.quest465.name=§c§l[OUTDATED]§r Trigger Neutronium
 gtnh.quest465.desc=Triggers if you get Neutronium Ore/ingot/dust.
 
-# Quest.466 - §c§l[OUTDATED]§r Trigger Black Plutonium
-gtnh.quest466.name=§c§l[OUTDATED]§r Trigger Black Plutonium
-gtnh.quest466.desc=Triggers if you find Black Plutonium ore/ingot/dust.
+# Quest.466 - Quantum Storage
+gtnh.quest466.name=Quantum Storage
+gtnh.quest466.desc=Now you §ocould§r connect Quantum Chests to your ME system with storage buses and maybe you are already doing that. But why not use all your new technology to make a Quantum storage cell?%n%nIt only takes a single item type, but you can store more than a billion items! That surely must be enough, right? RIGHT?
 
 # Quest.467 - §c§l[OUTDATED]§r Trigger Empty Void Capsule
 gtnh.quest467.name=§c§l[OUTDATED]§r Trigger Empty Void Capsule
 gtnh.quest467.desc=Triggers if you have a Void Capsule.
 
-# Quest.468 - §c§l[OUTDATED]§r Trigger Ichorium Ingot
-gtnh.quest468.name=§c§l[OUTDATED]§r Trigger Ichorium Ingot
-gtnh.quest468.desc=Triggers if you get Ichorium Ingot.
+# Quest.468 - A Digital Singularity
+gtnh.quest468.name=A Digital Singularity
+gtnh.quest468.desc=What? You filled up the Quantum storage cell? I hope with something better than Cobblestone. Anyway, you better make something EVEN bigger then.%n%nHmm, adding even more storage capacity to a single cell would result in something so dense in information that it would just collapse into a singularity. So why not be smart about it. Just use an already existing singularity! Build a sturdy casing around it and some connecting components and you should be good. Better use an eternal singularity though to make sure things remain stable.%n%n%n§3The Digital Singularity can store more than 4 quintillion items. If you manage to fill one up, please contact the dev team so that they can ban you for cheating, ... eh I mean §ocongratulate you on your achievement§r§3, of course!
 
 # Quest.469 - §1§lCollecting Some Berries
 gtnh.quest469.name=§1§lCollecting Some Berries
@@ -8942,7 +8942,7 @@ gtnh.quest2234.desc=Rejuvenating bees must be bred within 25m of a node.  They w
 
 # Quest.2235 - Empowering
 gtnh.quest2235.name=Empowering
-gtnh.quest2235.desc=The Empowering bee will randomly add aspects to nearby nodes, allowing enormous power to build up. The best chance to breed them is during the Full moon. Breed them from Rejuvenating and Vis.%n%n§3The maxiumum node size was capped for a few versions, but that cap is now removed.
+gtnh.quest2235.desc=The Empowering bee will randomly add aspects to nearby nodes, allowing enormous power to build up. The best chance to breed them is during the Full moon. Breed them from Rejuvenating and Vis.%n%n§3The maxiumum node size was capped for a few versions, but that cap is now removed! Maybe go on the GTNH discord and praise Runakai for that. :)
 
 # Quest.2236 - Edenic
 gtnh.quest2236.name=Edenic
@@ -9870,7 +9870,7 @@ gtnh.quest2466.desc=Also same as 256k.
 
 # Quest.2467 - 16384k Component
 gtnh.quest2467.name=16384k Component
-gtnh.quest2467.desc=The REAL final tier. Until someone adds more...
+gtnh.quest2467.desc=The REAL final tier. Until someone adds more...%n%n%n§3... ah well, looks like someone added more.
 
 # Quest.2468 - 256k Item Storage Cell
 gtnh.quest2468.name=256k Item Storage Cell
@@ -12966,7 +12966,7 @@ gtnh.quest3240.desc=Reality itself bends to your will.
 
 # Quest.3241 - Round two... FIGHT!
 gtnh.quest3241.name=Round two... FIGHT!
-gtnh.quest3241.desc=Now craft a Gaia Sprit ingot with ur new Gaia Sprit from killing the Gaia guardian.%n%nPut the 4 pylons down and shift right click the Gaia Sprit ingot on the beacon to summon a harder version of Gaia Guardian.n
+gtnh.quest3241.desc=Now craft a Gaia Sprit ingot with your new Gaia Sprit from killing the Gaia guardian.%n%nPut the 4 pylons down and shift right click the Gaia Sprit ingot on the beacon to summon a harder version of Gaia Guardian.
 
 # Quest.3242 - UMV Circuits
 gtnh.quest3242.name=UMV Circuits
@@ -12986,7 +12986,7 @@ gtnh.quest3245.desc=Endgame power source.
 
 # Quest.3246 - Runes
 gtnh.quest3246.name=Runes
-gtnh.quest3246.desc=Craft some runes, Because why not?
+gtnh.quest3246.desc=Craft some runes, because why not?
 
 # Quest.3247 - Tool: Never complete
 gtnh.quest3247.name=Tool: Never complete
