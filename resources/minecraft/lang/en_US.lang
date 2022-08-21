@@ -4050,7 +4050,7 @@ gtnh.quest1011.desc=The Bauxite vein contains two ores that get you Titanium, Ba
 
 # Quest.1012 - §9§lRutile
 gtnh.quest1012.name=§9§lRutile
-gtnh.quest1012.desc=You've gotten some Rutile as a byproduct by now, right? Or EBF'd some Ilmenite?%n%nRutile, Chlorine and Carbon makes Titaniumtetrachloride, and some CO. You can recycle this for Carbon if you want or void it.%n%nCombining TiCl4 with Magnesium in an HV EBF will give you a Hot Titanium ingot, and Magnesiumchloride. You can recyle this as well to get all the Magnesium and 3/4 of the Chlorine back using some Sodium.
+gtnh.quest1012.desc=You've gotten some Rutile as a byproduct by now, right? Or EBF'd some Ilmenite?%n%nRutile, Chlorine and Carbon makes Titaniumtetrachloride, and some CO. You can recycle this for Carbon if you want or void it.%n%nCombining TiCl4 with Magnesium in an HV EBF will give you a Hot Titanium ingot, and Magnesiumchloride. You can recyle this as well to get all the Magnesium and Chlorine back using some Sodium.
 
 # Quest.1013 - §9§lSMD Circuit Components
 gtnh.quest1013.name=§9§lSMD Circuit Components
@@ -7290,7 +7290,7 @@ gtnh.quest1821.desc=Sometimes you just need a Diode, either to prevent burning u
 
 # Quest.1822 - §6§lManual Transformer
 gtnh.quest1822.name=§6§lManual Transformer
-gtnh.quest1822.desc=Annoyed by building Chains of transformers? Dont want an Explosion Risk at your base? Want to use these fancy 64A Hatches and Dynamos from TecTech to convert your power? Make a Manual Dynamo and convert it all!%n%n§3Also needs a muffler, energy hatch, and dynamo. Not guaranteed to work at all, ask Bart.
+gtnh.quest1822.desc=Annoyed by building Chains of transformers? Dont want an Explosion Risk at your base? Want to use these fancy 64A Hatches and Dynamos from TecTech to convert your power? Make a Manual Dynamo and convert it all!%n%n§3Also needs a muffler, energy hatch, and dynamo. Not guaranteed to work, wishing you all the best though.
 
 # Quest.1823 - §6§lMobile Trash Can
 gtnh.quest1823.name=§6§lMobile Trash Can
@@ -12894,7 +12894,7 @@ gtnh.quest3222.desc=The first magical flower you are able to make is the Pure Da
 
 # Quest.3223 - Your first mana pool
 gtnh.quest3223.name=Your first mana pool
-gtnh.quest3223.desc=Now that you have livingrock, create your first mana pool. Chop some pieces into slabs with a saw, to make the bottom and the 4 sides, then stick them together.%n%nYou lack the knowledge to make it effective, so sadly it won't be able to craft a lot as a result.
+gtnh.quest3223.desc=Now that you have livingrock, create your first mana pool. Chop some pieces into slabs with a saw to make the bottom, then stick them together with plates for the sides.%n%nYou lack the knowledge to make it effective, so sadly it won't be able to craft a lot as a result.
 
 # Quest.3224 - Upgrading your mana pool
 gtnh.quest3224.name=Upgrading your mana pool
