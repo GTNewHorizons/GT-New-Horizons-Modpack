@@ -1554,7 +1554,7 @@ gtnh.quest387.desc=By a random guess of yours, you combined molten ender pearls 
 
 # Quest.388 - §6§lDraconic Evolution
 gtnh.quest388.name=§6§lDraconic Evolution
-gtnh.quest388.desc=You have tinkered long and hard to try to combine magic and technology. It looks like you finally found a way! Combining your powers as a thaumaturge and blood mage with your UHV technology you have found a way to distill the power of a dragon into a small core.%n%nYou will also need the schematics for the recipes.%n%n§3Use a hologram projector to see how it is built. You can also upgrade your draconic cores but for that you need the higher tier schematics and you need to upgrade the multiblock.
+gtnh.quest388.desc=You have tinkered long and hard to try to combine magic and technology. It looks like you finally found a way! Combining your powers as a thaumaturge and blood mage with your UHV technology you think you have found a way to distill the power of a dragon into a small core. This machine can do it, you are sure. If only you know how precisely to assembler such a core.%n%n%n§3Use a hologram projector to see how it is built. You can also upgrade your draconic cores but for that you need the higher tier schematics and you need to upgrade the multiblock.
 
 # Quest.389 - §c§l[OUTDATED]§r Draconic evolution
 gtnh.quest389.name=§c§l[OUTDATED]§r Draconic evolution
@@ -1848,29 +1848,29 @@ gtnh.quest460.desc=Triggers after you craft a Vortex.
 gtnh.quest461.name=§c§l[OUTDATED]§r Trigger The End Dim
 gtnh.quest461.desc=Triggers if you arrived at The End.
 
-# Quest.462 - §c§l[OUTDATED]§r Trigger Amorphic Catalyst
-gtnh.quest462.name=§c§l[OUTDATED]§r Trigger Amorphic Catalyst
-gtnh.quest462.desc=Triggers if you craft the Catalyst.
+# Quest.462 - Wyvern Core
+gtnh.quest462.name=Wyvern Core
+gtnh.quest462.desc=Wyverns are rare dragons that can walk on two legs. More powerful for sure. Researching your Draconic Core, you found a way to improve it. The Wyvern Core.
 
 # Quest.463 - Runes Tier 2
 gtnh.quest463.name=Runes Tier 2
 gtnh.quest463.desc=The speed rune is the only tier 2 rune. The speed rune does what its name implies, provides an additive 20% increase to the processing speed of the blood altar.%n%nHOWEVER, this makes it much more difficult to actually craft anything, so don't use them unless you're sure you can craft the item.
 
-# Quest.464 - §c§l[OUTDATED]§r The technician part 2
-gtnh.quest464.name=§c§l[OUTDATED]§r The technician part 2
-gtnh.quest464.desc=I will ask the technician about this stuff, but I need to reach a good reputation first. He is a busy man, and I don't want to be denied.
+# Quest.464 - Draconic Core
+gtnh.quest464.name=Draconic Core
+gtnh.quest464.desc=Yes, this schematic is perfect! Whatever alien civilization this belonged to, it is exactly what you needed. Lets make a Draconic Core.%n%n%n§3You can find the schematic in a Pluto dungeon.
 
-# Quest.465 - §c§l[OUTDATED]§r Trigger Neutronium
-gtnh.quest465.name=§c§l[OUTDATED]§r Trigger Neutronium
-gtnh.quest465.desc=Triggers if you get Neutronium Ore/ingot/dust.
+# Quest.465 - Chaotic Core
+gtnh.quest465.name=Chaotic Core
+gtnh.quest465.desc=In the darkest corners of the End you found a dragon that was different. Raw power streaming out in chaotic fashion, threatening to tear apart reality itself! But even that dragon you defeated. Concentrating that raw power within a core certainly isn't easy but it looks like you found a way.
 
 # Quest.466 - Quantum Storage
 gtnh.quest466.name=Quantum Storage
 gtnh.quest466.desc=Now you §ocould§r connect Quantum Chests to your ME system with storage buses and maybe you are already doing that. But why not use all your new technology to make a Quantum storage cell?%n%nIt only takes a single item type, but you can store more than a billion items! That surely must be enough, right? RIGHT?
 
-# Quest.467 - §c§l[OUTDATED]§r Trigger Empty Void Capsule
-gtnh.quest467.name=§c§l[OUTDATED]§r Trigger Empty Void Capsule
-gtnh.quest467.desc=Triggers if you have a Void Capsule.
+# Quest.467 - Awakened Core
+gtnh.quest467.name=Awakened Core
+gtnh.quest467.desc=There was something sleeping deep inside all the draconic material you have made and researched so far. It is time to AWAKE it!
 
 # Quest.468 - A Digital Singularity
 gtnh.quest468.name=A Digital Singularity
@@ -10338,7 +10338,7 @@ gtnh.quest2583.desc=Good luck with this one, it is many many many times harder t
 
 # Quest.2584 - Hypogen
 gtnh.quest2584.name=Hypogen
-gtnh.quest2584.desc=Use the large processing factory from GT++ to solidify it.
+gtnh.quest2584.desc=Here it is, the most high tier GT++ material. You will need UMV to process it. So for now that means you can only solidify it in a large processing factory from GT++.%n%n§3With your first ingot obtained, you can turn to the DTPF to make more. I think that recipe should be a lot better than the MK4 reactor.%n%nYou can also have this cake as a reward for coming this far.
 
 # Quest.2585 - Infinite Vis Storage, kinda?
 gtnh.quest2585.name=Infinite Vis Storage, kinda?
@@ -12958,7 +12958,7 @@ gtnh.quest3238.desc=Breed an industrious with a heroic bee to obtain a space bee
 
 # Quest.3239 - Tesseract
 gtnh.quest3239.name=Tesseract
-gtnh.quest3239.desc=Engineering beyond your comprehension.
+gtnh.quest3239.desc=Engineering beyond your comprehension. Destroying this strange higher dimensional object in a macerator is very easy though.
 
 # Quest.3240 - SpaceTime
 gtnh.quest3240.name=SpaceTime
@@ -12991,6 +12991,14 @@ gtnh.quest3246.desc=Craft some runes, because why not?
 # Quest.3247 - Tool: Never complete
 gtnh.quest3247.name=Tool: Never complete
 gtnh.quest3247.desc=This quest should never be complete which is useful to hide templates and other things.
+
+# Quest.3248 - Dragonblood
+gtnh.quest3248.name=Dragonblood
+gtnh.quest3248.desc=For your first batch of Hypogen you will need some Dragonblood. Maybe you already have some lying arond somewhere from killing the dragon a long time ago. You have 2 other options though. Bees and the DE Fusion Crafter.%n%nFor the bee path you have to go very deep into the breeding tree, but maybe you have already done that? Check the Bee Breeding tab either way.%n%nIn the DE Fusion Crafter you have 2 recipes. The better one uses an Infinity Egg from Witchery. Without any Witchery you can also just a normal dragon egg for the weaker recipe.%n%nOnce you have a bit of Hypogen you can then use that as a starting point to make more in your DTPF without any Dragonblood. I don't know why it works that way, complain to Colen.%n%nHowever, you will still need more Dragonblood eventually for UMV superconductors.%n%n%n§3There is actually another way to get Dragonblood which is similar to the DE Fusion Crafter recipes but in the mixer instead. Its even slower and less resource efficient. In particular, the dragon egg does not survive the process. So only use that if you are absolutely trying to avoid magic and bees.%n%nJust a reminder: a fluid task just needs you to have the fluid in some container in your inventory. (cell, universal cell, large cell, volumetric cell, etc.)
+
+# Quest.3249 - Wait, PBI wasn't the last plastic?
+gtnh.quest3249.name=Wait, PBI wasn't the last plastic?
+gtnh.quest3249.desc=Let's make a brand new plastic! The trees that you found on Barnada C have very interesting properties. Still, you can't just use the extracted radox substance raw. Some serious refining steps are in order!%n%n§6You'll need it for a ton of stuff like UIV and UMV superconductors, UEV+ hatches, or parts of the Dyson Swarm.§r%n%nCompared to the previous plastics, most of the steps required here are not chemical reactions. They are also very slow, so you might want to use a mega multiblock to help with that. This production line also underlines the necessity of large-scale plasma production. You will only need more going forward.%n%n§3The Heavy Radox you get as a byproduct can be used for MkV Naquadah Fuel.
 
 ##################################Line##################################
 
