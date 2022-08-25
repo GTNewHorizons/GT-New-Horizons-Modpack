@@ -58,7 +58,7 @@ gtnh.quest13.desc=Sleepy time, and the end of the tutorial. Congratulations, you
 
 # Quest.14 - §1§lWhat's That...?
 gtnh.quest14.name=§1§lWhat's That...?
-gtnh.quest14.desc=You've seen a lot of trees, but there are a few that look really special. You are sure that these trees are much more than just wood to build your home with or used to get charcoal. You're sure that these will be Very Important soon™.%n%nThe best place to find them is in a Magical Forest, but if you can't find one you can try a Garden or Cherry Wood Grove. Or just randomly everywhere.%n%nIf you have trouble finding them, you can build a special compass in LV to help you locate the biomes.
+gtnh.quest14.desc=You've seen a lot of trees, but there are a few that look really special. You are sure that these trees are much more than just wood to build your home with or used to get charcoal. You're sure that these will be Very Important soon™.%n%nThe best place to find them is in a Magical Forest, but if you can't find one you can try a Garden or Cherry Wood Grove. Or just randomly everywhere.%n%n§3If you have trouble finding them, you can go to "Coins, Coins, Coins" tab and buy them.
 
 # Quest.15 - §2§lReady, Set, Go!
 gtnh.quest15.name=§2§lReady, Set, Go!
@@ -76,8 +76,8 @@ gtnh.quest17.desc=In a strange vision you saw a big structure which would allow 
 gtnh.quest18.name=§2§lBasic Processing
 gtnh.quest18.desc=Most things are unavailable at the moment, so let's begin with something simple. Take some of your cobblestone and smelt it into regular stone. Since this modpack is evil, you'll need to use wood for that. How much fun is that?!
 
-# Quest.19 - §1§2§lMaceration v0.1 Alpha
-gtnh.quest19.name=§1§2§lMaceration v0.1 Alpha
+# Quest.19 - §1§2§lMacerator v0.1 Alpha
+gtnh.quest19.name=§1§2§lMacerator v0.1 Alpha
 gtnh.quest19.desc=This fancy little device works (almost...) like a macerator. Some people say it's even better, since it does not require power, yay! You only need to craft one for this quest, but you probably should make some more if you can...
 
 # Quest.20 - §2§lGravel: The Gathering
@@ -186,7 +186,7 @@ gtnh.quest45.desc=576 buckets of fluid, that should be enough to store all the c
 
 # Quest.46 - §3§lMore Advanced Alloys
 gtnh.quest46.name=§3§lMore Advanced Alloys
-gtnh.quest46.desc=Your smeltery does a great job mixing metals into alloys, but it's not very efficient, and limited in its complexity. You need something new, so why not put your steam to some use? The Alloy Smelter can make bronze for you directly, using ingots, dusts, or even nuggets. You can make a nugget mold as well to turn ingots into nuggets.%n%nIt might also come in handy when processing raw rubber. You should keep an eye on recipes to see when machines offer better options to make items...%n%n§4NOTE: Like all steam machines, the output port doubles as a steam outlet when recipes complete. It must not be blocked. Also, steam is hot, remember? Change the output side by whacking with a wrench. The 3x3 grid will show you which side the output will move to when you whack it.%n%nIf you try enabling item output, you'll see it comes out the same side as the steam outlet. How unfortunate! However you can still empty the machine by putting a hopper beneath it. %n%nWARNING: The Alloy Smelter recipes take a §llot§r of steam. Do them one by one until you understand how fast you use steam, and how much you will need buffered. Large pipes are a decent "poor mans" buffer, and the boiler can hold quite a bit of steam, as well as the machine itself. Once you get a little further along, make a larger steam buffer with an iron or steel railcraft tank.
+gtnh.quest46.desc=Your smeltery does a great job mixing metals into alloys, but it's not very efficient, and limited in its complexity. You need something new, so why not put your steam to some use? The Alloy Smelter can make bronze for you directly, using ingots, dusts, or even nuggets. You can make a nugget mold as well to turn ingots into nuggets if you have steel.%n%nIt might also come in handy when processing raw rubber. You should keep an eye on recipes to see when machines offer better options to make items...%n%n§4NOTE: Like all steam machines, the output port doubles as a steam outlet when recipes complete. It must not be blocked. Also, steam is hot, remember? Change the output side by whacking with a wrench. The 3x3 grid will show you which side the output will move to when you whack it.%n%nIf you try enabling item output, you'll see it comes out the same side as the steam outlet. How unfortunate! However you can still empty the machine by putting a hopper beneath it. %n%nWARNING: The Alloy Smelter recipes take a §llot§r of steam. Do them one by one until you understand how fast you use steam, and how much you will need buffered. Large pipes are a decent "poor mans" buffer, and the boiler can hold quite a bit of steam, as well as the machine itself. Once you get a little further along, make a larger steam buffer with an iron or steel railcraft tank.
 
 # Quest.47 - §3§lUpgrade: High Speed Alloys
 gtnh.quest47.name=§3§lUpgrade: High Speed Alloys
@@ -1566,7 +1566,7 @@ gtnh.quest390.desc=This new metal is quite expensive, and has an awesome hardnes
 
 # Quest.391 - §c§l[OUTDATED]§r Automated evolution
 gtnh.quest391.name=§c§l[OUTDATED]§r Automated evolution
-gtnh.quest391.desc=The machine is working pretty well, but it's tedious to fill in the reagents manually. But you have an idea, you could use a few basic components to fully automate the process.%n%nYou can use robot arms and conveyor belts to automate the input and output.%n%nObviously, you need to power the machines. A solar panel will do just fine.%n%nIn order to automate the catalyst, you need a few things. One golem will gather basic materials, while the second one will hunt creepers and ghasts for the more valuable ingredients.%n%nYou found a way to re-use the singularity, so you only need to get some sand. Luckily, the golem that works on the catalyst will be able to get glass too. He just needs a little additional motivation.%n%nYour golems need light, obviously. Also, it would be nice if there are some signal lamps that indicate the status of the process. Would it not?
+gtnh.quest391.desc=The machine is working pretty well, but it's tedious to fill in the reagents manually. But you have an idea, you could use a few basic components to fully automate the process.%n%nYou can use robot arms and conveyor modules to automate the input and output.%n%nObviously, you need to power the machines. A solar panel will do just fine.%n%nIn order to automate the catalyst, you need a few things. One golem will gather basic materials, while the second one will hunt creepers and ghasts for the more valuable ingredients.%n%nYou found a way to re-use the singularity, so you only need to get some sand. Luckily, the golem that works on the catalyst will be able to get glass too. He just needs a little additional motivation.%n%nYour golems need light, obviously. Also, it would be nice if there are some signal lamps that indicate the status of the process. Would it not?
 
 # Quest.392 - §c§l[OUTDATED]§r Activated teleport gem
 gtnh.quest392.name=§c§l[OUTDATED]§r Activated teleport gem
@@ -1942,7 +1942,7 @@ gtnh.quest484.desc=Tired of waiting since your carrots grow sooooo slow?%n%nWell
 
 # Quest.485 - §2§lYou Need MOOOOOOORE Wood
 gtnh.quest485.name=§2§lYou Need MOOOOOOORE Wood
-gtnh.quest485.desc=It's time to feed your new coke oven with some wood to get more charcoal. You're looking for the most efficient way to plant trees. Try to find some spruce saplings and some jungle saplings. Both can be planted in a 2x2 grid to get bigger trees.%n%n§3PS: I have no idea why this quest asks you for something, and then gives you a reward that makes it obselete immediately.
+gtnh.quest485.desc=It's time to feed your new coke oven with some wood to get more charcoal. You're looking for the most efficient way to plant trees. Try to find some spruce saplings and some jungle saplings. Both can be planted in a 2x2 grid to get bigger trees.%n%n§3PS: I have no idea why this quest asks you for something, and then gives you a reward that makes it obselete immediately.%n%nhint: you can buy them with coins.
 
 # Quest.486 - §2§lTanned Leather
 gtnh.quest486.name=§2§lTanned Leather
@@ -1972,8 +1972,8 @@ gtnh.quest491.desc=Carrying the bed with you all the time the looks very funny. 
 gtnh.quest492.name=§2§lSheep Hairdresser
 gtnh.quest492.desc=Killing sheep to get the wool is so inefficient. Making some shears would make sense if you need more wool.
 
-# Quest.493 - §3§lWire Cutter v.0.2alpha
-gtnh.quest493.name=§3§lWire Cutter v.0.2alpha
+# Quest.493 - §3§lWiremill v0.2 Alpha
+gtnh.quest493.name=§3§lWiremill v0.2 Alpha
 gtnh.quest493.desc=Small gears require a wire cutter to be made, so let's craft one.
 
 # Quest.494 - §2§lRedstone
@@ -2142,7 +2142,7 @@ gtnh.quest534.desc=If you are running your bricked blast furnace for a long time
 
 # Quest.535 - §1§2§lRedstone, Early Game Processing
 gtnh.quest535.name=§1§2§lRedstone, Early Game Processing
-gtnh.quest535.desc=Are you wondering how to process redstone without a macerator? Well you can mine it with a gregtech hammer (you can place the ore you got back down to do this) and get the crushed ore. Then use the hammer in the crafting table to get some impure redstone dust. After this, fill a cauldron with water and drop the dust in it - CTRL-Q drops a whole stack, which the cauldron can handle for the same amount of water. However, you will need a new iron bucket, as the fired clay bucket just isnt fit for the task. You will get pure redstone dust for your redstone needs.
+gtnh.quest535.desc=Are you wondering how to process redstone without a macerator? Well you can mine it with a gregtech hammer (you can place the ore you got back down to do this) and get the crushed ore. Then use the hammer in the crafting table to get some impure redstone dust. After this, fill a cauldron with water and drop the dust in it - CTRL-Q drops a whole stack, which the cauldron can handle for the same amount of water. You will get pure redstone dust for your redstone needs.
 
 # Quest.536 - §4§3§lRubber Sheets
 gtnh.quest536.name=§4§3§lRubber Sheets
@@ -2502,7 +2502,7 @@ gtnh.quest624.desc=The canning machine is used to fill batteries, fill cells wit
 
 # Quest.625 - §3§lMoving Your Tanks, Chests, and Barrels
 gtnh.quest625.name=§3§lMoving Your Tanks, Chests, and Barrels
-gtnh.quest625.desc=Want to move your chests and barrels without spilling all the things (buildcraft™)? No problem! Make a dolly and you can carry your full chests, barrels or storage drawers anywhere you want. But be warned, you will get a slowness debuff so hopefully you don't have to travel very far. Non-portable buildcraft and iron tanks can be moved without losing fluids too, but not GT tanks.%n%n§4PS: Later on you can fly or make a traveller's belt to get around the debuff.
+gtnh.quest625.desc=Want to move your chests and barrels without spilling all the things (buildcraft™)? No problem! Make a dolly and you can carry your full chests, barrels or storage drawers anywhere you want. But be warned, you will get a slowness debuff so hopefully you don't have to travel very far. Non-portable buildcraft and iron tanks can be moved without losing fluids too.%n%n§4PS: Later on you can fly or make a traveller's belt to get around the debuff.
 
 # Quest.626 - §5§lPortable Mob Spawners..? Cool!
 gtnh.quest626.name=§5§lPortable Mob Spawners..? Cool!
@@ -2706,7 +2706,7 @@ gtnh.quest675.desc=The switch lever is the manual version of the switch motor, r
 
 # Quest.676 - Crowbar
 gtnh.quest676.name=Crowbar
-gtnh.quest676.desc=The crowbar comes in a Railcraft (and thaumcraft versions of RC) and a gregtech variant. It is used to manipulate machines from railcraft, remove plates and any other covers (pumps, conveyor belts, etc.) from gregtech pipes and machines as well as breaking certain objects faster, such as tracks. This tool is also used to access certain inventories from Railcraft.%n%nHold a crowbar and shift + right click to attach carts. Click the starting cart then continue to click to add more carts to the link. Carts will act slower the more connections are made.%n%nThe crowbar can be used as a weapon, though it costs twice as much durability on attack (just like any other non weapon tool...).
+gtnh.quest676.desc=The crowbar comes in a Railcraft (and thaumcraft versions of RC) and a gregtech variant. It is used to manipulate machines from railcraft, remove plates and any other covers (pumps, conveyor modules, etc.) from gregtech pipes and machines as well as breaking certain objects faster, such as tracks. This tool is also used to access certain inventories from Railcraft.%n%nHold a crowbar and shift + right click to attach carts. Click the starting cart then continue to click to add more carts to the link. Carts will act slower the more connections are made.%n%nThe crowbar can be used as a weapon, though it costs twice as much durability on attack (just like any other non weapon tool...).
 
 # Quest.677 - Minecart
 gtnh.quest677.name=Minecart
@@ -2774,7 +2774,7 @@ gtnh.quest692.desc=Combining the strength of advanced alloy plates with the stee
 
 # Quest.693 - §2§lFallen From the Sky
 gtnh.quest693.name=§2§lFallen From the Sky
-gtnh.quest693.desc=You may have noticed big meteors everywhere, and maybe wondered if they're useful somehow? Well, they are, but not just yet. I'll give you a reward for collecting some now.%n%nInside the meteor you can find a skystone chest containing some processor press plates. Save them for later, you can't do AE2 without them. Though you can also just make them yourself in EV. Plus the chest is nice, and can be placed underneath blocks and still opened.%n%nHint: If all your surface meteors have been raided, put some skystone in your orefinder to find underground ones. Or wait until you can make the compass to find them.
+gtnh.quest693.desc=You may have noticed big meteors everywhere, and maybe wondered if they're useful somehow? Well, they are, but not just yet. I'll give you a reward for collecting some now.%n%nInside the meteor you can find a skystone chest containing some processor press plates. Save them for later, you can't do AE2 without them. Though you can also just make them yourself in EV. Plus the chest is nice, and can be placed underneath blocks and still opened.%n%nHint: If all your surface meteors have been raided, put some skystone in your Ore Finder to find underground ones. Or wait until you can make the compass to find them.
 
 # Quest.694 - §3§lOne Anvil... Better Make That Two!
 gtnh.quest694.name=§3§lOne Anvil... Better Make That Two!
@@ -2910,7 +2910,7 @@ gtnh.quest726.desc=A much more efficient way to make insulated cables is by maki
 
 # Quest.727 - §1§2§lBetter Than Barrels
 gtnh.quest727.name=§1§2§lBetter Than Barrels
-gtnh.quest727.desc=While barrels offer a slot for a single item, drawers can have up to 4 slots each (holding 16 stacks per slot). Once you reach HV you can combine them with some ProjectRed pipes to set up a "ghetto ME storage system" (Tec2k17).%n%nJust watch out, they do come with some downsides. You won't be able to make them point up or down, and you can only acces the contents from the front (automation can use any side). %n%n§4Also, if placed on top of a hopper, they can bug out and void items when the hopper is full. THIS WILL EAT BACKPACKS! If you plan on that, use barrels or chests instead.
+gtnh.quest727.desc=While barrels offer a slot for a single item, drawers can have up to 4 slots each (holding 16 stacks per slot).%n%nJust watch out, they do come with some downsides. You won't be able to make them point up or down, and you can only acces the contents from the front (automation can use any side). 
 
 # Quest.728 - §2§lCompact Drawers
 gtnh.quest728.name=§2§lCompact Drawers
@@ -2958,7 +2958,7 @@ gtnh.quest738.desc=There are six types of routed pipes: %n%n-Junction pipe is us
 
 # Quest.739 - Ghetto ME System
 gtnh.quest739.name=Ghetto ME System
-gtnh.quest739.desc=Now that you are familiar with the mod it's time to organize items in your base a bit. These are the things you need in order to get a basic extract/insert system.%n%nFirst of all you will need a drawer controller. You can pick it from here or craft it yourself and place it down. Next to it add as much drawers as you want, and make sure they are touching each other or the controller.%n%nThe next step is to connect a routed interface pipe to your drawer controller. Take the item responder chip and configure it to filter mode: blacklist (this will allow you to get any items from your system) and add the chip to the routed interface pipe by right clicking on it. Don't forget the dynamic item responder.%n%nIn order to allow your system to be able to see items you need to add the item broadcast chip TO THE SAME ROUTED INTERFACE PIPE WHICH IS CONNECTED TO THE DRAWER CONTROLLER.%n%nThe last step is to connect a routed request pipe IN THE SAME NETWORK AS THE ROUTED INTERFACE PIPE and right click it to access the GUI. You can only extract items from it. In order to insert items simply right click them on the drawer controller. %n%nYou can find more complex tutorials on youtube for autocrafting.%n%n§4Using the drawer controller with large amounts of I/O will tank TPS! If you're on a server, do not use drawer cubes, or expect the possibility of it being deleted or you getting banned.
+gtnh.quest739.desc=§4Using the drawer controller with large amounts of I/O will kill TPS! If you're on a server, do not use drawer cubes, or expect the possibility of it being deleted or you getting banned.§r%n%nNow that you are familiar with the mod it's time to organize items in your base a bit. These are the things you need in order to get a basic extract/insert system.%n%nFirst of all you will need a drawer controller. You can pick it from here or craft it yourself and place it down. Next to it add as much drawers as you want, and make sure they are touching each other or the controller.%n%nThe next step is to connect a routed interface pipe to your drawer controller. Take the item responder chip and configure it to filter mode: blacklist (this will allow you to get any items from your system) and add the chip to the routed interface pipe by right clicking on it. Don't forget the dynamic item responder.%n%nIn order to allow your system to be able to see items you need to add the item broadcast chip TO THE SAME ROUTED INTERFACE PIPE WHICH IS CONNECTED TO THE DRAWER CONTROLLER.%n%nThe last step is to connect a routed request pipe IN THE SAME NETWORK AS THE ROUTED INTERFACE PIPE and right click it to access the GUI. You can only extract items from it. In order to insert items simply right click them on the drawer controller. %n%nYou can find more complex tutorials on youtube for autocrafting.
 
 # Quest.740 - §6§lExtrude All the Things
 gtnh.quest740.name=§6§lExtrude All the Things
@@ -3782,7 +3782,7 @@ gtnh.quest944.desc=This tanks works the same as the smaller GT tanks, but holds 
 
 # Quest.945 - §2§lChad - A Better Way to Make Paper
 gtnh.quest945.name=§2§lChad - A Better Way to Make Paper
-gtnh.quest945.desc=Making paper out of wood pulp and water can be tedious and difficult. Why not use a mortar to grind the sugar cane in to chad and press it with two stone plates to paper? Later on you can use the chemical bath for a even better ratio.
+gtnh.quest945.desc=Making paper out of wood pulp and water can be tedious and difficult. Why not use a mortar to grind the sugar cane in to chad and press it with two stone slabs to paper? Later on you can use the chemical bath for a even better ratio.
 
 # Quest.946 - §1§lBamboo Fence
 gtnh.quest946.name=§1§lBamboo Fence
@@ -4422,7 +4422,7 @@ gtnh.quest1104.desc=Silky jewels add silk touch to your tinkers tool. They're ki
 
 # Quest.1105 - Stable Division Sigil
 gtnh.quest1105.name=Stable Division Sigil
-gtnh.quest1105.desc=The second ritual will not be as easy as the first one. After this ritual your sigil will be stable enough to make stable unstable ingots which will not explode, and will no longer take durability damage.%n%nThis ritual needs to be performed in The End dimension. The ritual is performed by placing a Beacon in the centre of a flat area of at least 11x11, not necessarily End Stone. Then place a chest in each of the cardinal directions leaving 4 spaces empty between the chest and the Beacon. In each chest insert these specific contents:%n%nNorth: iron ingot, gold ingot and the other things listed in the task.%nSouth: The different Ore Blocks and the other things listed in the task.%nEast: The potions.%nWest: The Music disks.%n%nA spiral pattern of Redstone and String is then laid out around the beacon. At any time, Shift+Right-clicking the Beacon with an Activated Division Sigil in hand will show the building progress of the ritual.%n%nFinally, kill an Iron Golem while it stands within the ritual area to activate the process. If it works, there will be an explosion that destroys the beacon and chests, while every Enderman in the End vanishes. During the ritual, throngs of aggresive mobs imbued with Haste will begin spawning and attacking the Player who needs to kill 100 of them to complete the ritual. If the Player dies or leaves the dimension, the ritual will fail and will have to be started over. Once enough mobs have been killed, the first activated Sigil in the inventory will stabilize. The Pseudo-Inversion Sigil can be used an unlimited number of times, and dividing an Iron Ingot by Diamond will produce Mobius "Unstable-Stable" Ingot which does not explode, can be produced in any crafting interface and will stack up to 64.
+gtnh.quest1105.desc=The second ritual will not be as easy as the first one. After this ritual your sigil will be stable enough to make stable unstable ingots which will not explode, and will no longer take durability damage.%n%nThis ritual needs to be performed in The End dimension. The ritual is performed by placing a Beacon in the center of a flat area of at least 11x11, not necessarily End Stone. Then place a chest in each of the cardinal directions leaving 4 spaces empty between the chest and the Beacon. In each chest insert these specific contents:%n%nNorth: iron ingot, gold ingot and the other things listed in the task.%nSouth: The different Ore Blocks and the other things listed in the task.%nEast: The potions.%nWest: The Music disks.%n%nA spiral pattern of Redstone and String is then laid out around the beacon. At any time, Shift+Right-clicking the Beacon with an Activated Division Sigil in hand will show the building progress of the ritual.%n%nFinally, kill an Iron Golem while it stands within the ritual area to activate the process. If it works, there will be an explosion that destroys the beacon and chests, while every Enderman in the End vanishes. During the ritual, throngs of aggresive mobs imbued with Haste will begin spawning and attacking the Player who needs to kill 100 of them to complete the ritual. If the Player dies or leaves the dimension, the ritual will fail and will have to be started over. Once enough mobs have been killed, the first activated Sigil in the inventory will stabilize. The Pseudo-Inversion Sigil can be used an unlimited number of times, and dividing an Iron Ingot by Diamond will produce Mobius "Unstable-Stable" Ingot which does not explode, can be produced in any crafting interface and will stack up to 64.
 
 # Quest.1106 - Blub Blub Blub.....
 gtnh.quest1106.name=Blub Blub Blub.....
@@ -4822,7 +4822,7 @@ gtnh.quest1204.desc=It's time to get yourself a 3x3 crafting area. Use your flin
 
 # Quest.1205 - §3§lHoppers
 gtnh.quest1205.name=§3§lHoppers
-gtnh.quest1205.desc=Hoppers come in handy when you want to automate your machines. You can input items via hoppers directly into GT pipes and you don't have to use a conveyor belt. However, the input rate is much slower, and the hopper must be beneath its source inventory.
+gtnh.quest1205.desc=Hoppers come in handy when you want to automate your machines. You can input items via hoppers directly into GT pipes and you don't have to use a conveyor module. However, the input rate is much slower, and the hopper must be beneath its source inventory.
 
 # Quest.1206 - Light Fuel
 gtnh.quest1206.name=Light Fuel
@@ -4926,7 +4926,7 @@ gtnh.quest1230.desc=To get Bisphenol A you need to combine Phenol, Acetone and H
 
 # Quest.1231 - §9§lYou're Gonna Hate This 1-4 in HV
 gtnh.quest1231.name=§9§lYou're Gonna Hate This 1-4 in HV
-gtnh.quest1231.desc=Pumps, pistons, conveyor belts and robot arms are the most needed machine parts in HV. Go and craft one of each.
+gtnh.quest1231.desc=Pumps, pistons, conveyor modules and robot arms are the most needed machine parts in HV. Go and craft one of each.
 
 # Quest.1232 - §9§lYou're Gonna Hate This 5 and 6 in HV
 gtnh.quest1232.name=§9§lYou're Gonna Hate This 5 and 6 in HV
@@ -4982,7 +4982,7 @@ gtnh.quest1244.desc=You can find several other ores on these planets (some of wh
 
 # Quest.1245 - §a§f§a§lYou're Gonna Hate This 1-4 in EV
 gtnh.quest1245.name=§a§f§a§lYou're Gonna Hate This 1-4 in EV
-gtnh.quest1245.desc=Pumps, pistons, conveyor belts and robot arms are the most needed machine parts in EV. Go and craft one of each.
+gtnh.quest1245.desc=Pumps, pistons, conveyor modules and robot arms are the most needed machine parts in EV. Go and craft one of each.
 
 # Quest.1246 - §a§lYou're Gonna Hate This 5 and 6 in EV
 gtnh.quest1246.name=§a§lYou're Gonna Hate This 5 and 6 in EV
@@ -5654,7 +5654,7 @@ gtnh.quest1412.desc=The Assembling Line (or 'Assline') is an important machine f
 
 # Quest.1413 - §b§lYou're Gonna Hate This 1-4 in IV
 gtnh.quest1413.name=§b§lYou're Gonna Hate This 1-4 in IV
-gtnh.quest1413.desc=Pumps, pistons, conveyor belts and robot arms are the most needed machine parts in IV. Go and craft one of each.
+gtnh.quest1413.desc=Pumps, pistons, conveyor modules and robot arms are the most needed machine parts in IV. Go and craft one of each.
 
 # Quest.1414 - §b§lYou're Gonna Hate This 5 and 6 in IV
 gtnh.quest1414.name=§b§lYou're Gonna Hate This 5 and 6 in IV
@@ -5958,7 +5958,7 @@ gtnh.quest1488.desc=In the last step you need to infuse your Marshmallow with so
 
 # Quest.1489 - §c§lNow You're Really Gonna Hate This 1-4 in LuV
 gtnh.quest1489.name=§c§lNow You're Really Gonna Hate This 1-4 in LuV
-gtnh.quest1489.desc=Pumps, pistons, conveyor belts and robot arms are the most needed machine parts in LuV. Go and craft one of each with your new Assembly Line.
+gtnh.quest1489.desc=Pumps, pistons, conveyor modules and robot arms are the most needed machine parts in LuV. Go and craft one of each with your new Assembly Line.
 
 # Quest.1490 - §c§lNow You're Really Gonna Hate This 5 and 6 in LuV
 gtnh.quest1490.name=§c§lNow You're Really Gonna Hate This 5 and 6 in LuV
@@ -6542,7 +6542,7 @@ gtnh.quest1634.desc=This pipe lets you request stuff from the system. It shows a
 
 # Quest.1635 - Simple Storage System
 gtnh.quest1635.name=Simple Storage System
-gtnh.quest1635.desc=Time to build a simple system to store your stuff. Place down the drawer controller and place the drawers around it. Connect the interface pipe to the drawer controller and put the dynamic item responder and broadcaster chips inside. Don't forget to set the broadcaster to transmit everything by leaving the filter empty and setting it to blacklist. Now you can request stuff from your storage and if you have a chest with a pipe and extractor chip everything you put inside will be sorted into the storage.%n%n§4Using the drawer controller with large amounts of I/O will tank TPS! If you're on a server, do not use drawer cubes, or expect the possibility of it being deleted or you getting banned.
+gtnh.quest1635.desc=§4Using the drawer controller with large amounts of I/O will tank TPS! If you're on a server, do not use drawer cubes, or expect the possibility of it being deleted or you getting banned.§r%n%nTime to build a simple system to store your stuff. Place down the drawer controller and place the drawers around it. Connect the interface pipe to the drawer controller and put the dynamic item responder and broadcaster chips inside. Don't forget to set the broadcaster to transmit everything by leaving the filter empty and setting it to blacklist. Now you can request stuff from your storage and if you have a chest with a pipe and extractor chip everything you put inside will be sorted into the storage.
 
 # Quest.1636 - Desulfurizing Oil Automation
 gtnh.quest1636.name=Desulfurizing Oil Automation
@@ -6954,7 +6954,7 @@ gtnh.quest1737.desc=When breeding together crops for an output crop, try to get 
 
 # Quest.1738 - §2§lWhen All You Have is a Hammer...
 gtnh.quest1738.name=§2§lWhen All You Have is a Hammer...
-gtnh.quest1738.desc=...the whole world looks like a nail.  When looking for good tool materials, look for the generic tool in NEI and use R to find the recipe. Then use U on the source materials you have to find out their durability options. Tool parts are normally not in NEI, like the drill bit. So use NEI U on plates etc to figure out their recipes. %n%nThe GT tools each have special uses.%n%nScrewdriver - Used on covers to change their behavior.%n%nWrench - Used to change the output direction on a GT machine, or to break it. Can also disconnect/connect pipes or enable their built in shutter.%n%nCrowbar - Remove covers from machines or pipes.%n%nWire cutters - Connecting/disconnecting wires/cables.%n%nSoft mallet - Turning machines on/off.%n%nHammer - Prospecting for ores in a limited way in front of you, and smashing ore blocks into crushed ores.%n%n§4Tin Pipes need a Steel Wrench to dismantle!!!
+gtnh.quest1738.desc=...the whole world looks like a nail.  When looking for good tool materials, see "GregTech Material Tools" tab in NEI. Remember NEI bookmark is your friend.%n%nThe GT tools each have special uses.%n%nScrewdriver - Used on covers to change their behavior.%n%nWrench - Used to change the output direction on a GT machine, or to break it. Can also disconnect/connect pipes or enable their built in shutter.%n%nCrowbar - Remove covers from machines or pipes.%n%nWire cutters - Connecting/disconnecting/breaking wires/cables.%n%nSoft mallet - Turning machines on/off.%n%nHammer - Prospecting for ores in a limited way in front of you, and smashing ore blocks into crushed ores.%n%n§4Tin Pipes need a Steel Wrench to dismantle!!!
 
 # Quest.1739 - §9§lFarming a Little Easier
 gtnh.quest1739.name=§9§lFarming a Little Easier
@@ -7422,7 +7422,7 @@ gtnh.quest1854.desc=Jelly sandwiches are a great food source with decent saturat
 
 # Quest.1855 - I Like Big Sandwiches
 gtnh.quest1855.name=I Like Big Sandwiches
-gtnh.quest1855.desc=Now that you have dough, there are several options for large sandwiches.  They offer great saturation restoration and are easy to make.%n%nThe veggie and cheese options aren't quite as good and need more work to produce.%n%nThere are also normal sized varieties of these sandwiches if you need more diet choices.
+gtnh.quest1855.desc=Now that you have dough, there are several options for large sandwiches. They offer great saturation restoration and are easy to make.%n%nThe veggie and cheese options aren't quite as good and need more work to produce.%n%nThere are also normal sized varieties of these sandwiches if you need more diet choices.
 
 # Quest.1856 - §1§lStaying Cool in the Heat
 gtnh.quest1856.name=§1§lStaying Cool in the Heat
@@ -7458,7 +7458,7 @@ gtnh.quest1863.desc=Already have barrels full of cobblestone? The voiding drop f
 
 # Quest.1864 - §2§lNo Self-Healing Tools Here...Yet
 gtnh.quest1864.name=§2§lNo Self-Healing Tools Here...Yet
-gtnh.quest1864.desc=Experienced players might be confused by finding the Tinker's Construct Ball of Moss in NEI without a recipe. %n%nIt is possible to craft it, but in this pack you have to first gain expertise in Thaumcraft. Go and become a dangerous wizard and you'll gain the power needed to craft the Ball of Moss and make your tools heal themselves. Of course, you need to get to the Twilight Forest and get some aluminium ingots before you can begin. The Ball of Moss is in the GTNH tab of the Thauminomicon, and requires infusion.%n%nIn general, if an item does not have a recipe, it might be gated by Thaumcraft. NEI will not show the recipe until you have unlocked it.%n%nHave a beer to prepare for your long journey.
+gtnh.quest1864.desc=Experienced players might be surprised by finding the Tinker's Construct Ball of Moss in NEI resulting in not showing required ingredients. %n%nIn this pack you have to first gain expertise in Thaumcraft to craft it. Go and become a dangerous wizard and you'll gain the power needed to craft the Ball of Moss and make your tools heal themselves. Of course, you need to get to the Twilight Forest and get some aluminium ingots before you can begin. The Ball of Moss is in the GTNH tab of the Thauminomicon, and requires infusion.%n%nHave a beer to prepare for your long journey.%n%n§3If you really want to see recipe now, you can go to Mod Options > Thamcraft NEI Additions > Config > general > showLockedRecipes and set to true. Note that this is disabled by default... for reasons.
 
 # Quest.1865 - §5§lEnderman Smelterman
 gtnh.quest1865.name=§5§lEnderman Smelterman
@@ -7946,7 +7946,7 @@ gtnh.quest1985.desc=Elevators are great for fast transportation vertically in yo
 
 # Quest.1986 - More Like Ouch-i-tect
 gtnh.quest1986.name=More Like Ouch-i-tect
-gtnh.quest1986.desc=The sawbench can turn most full cube blocks into amazing shapes of various kinds.%n%nRight-click with the hammer to rotate 90 degrees. Shift-right-click with the hammer to change the orientation of the "bottom" face.%n%nThe Chisel is used to alter the structure of blocks in various ways. Some blocks automatically form connections with adjacent blocks. These connections can be disabled and re-enabled by right-clicking with a chisel near the side that you want to change.%n%nSome blocks can have a secondary material applied to them. The secondary material can be removed by right-clicking on the centre of the block with a chisel.%n%nYou can also right-click on a vanilla Glass, Glass Pane, Glowstone or Ice block with a chisel to harvest the block without breaking it.
+gtnh.quest1986.desc=The sawbench can turn most full cube blocks into amazing shapes of various kinds.%n%nRight-click with the hammer to rotate 90 degrees. Shift-right-click with the hammer to change the orientation of the "bottom" face.%n%nThe Chisel is used to alter the structure of blocks in various ways. Some blocks automatically form connections with adjacent blocks. These connections can be disabled and re-enabled by right-clicking with a chisel near the side that you want to change.%n%nSome blocks can have a secondary material applied to them. The secondary material can be removed by right-clicking on the center of the block with a chisel.%n%nYou can also right-click on a vanilla Glass, Glass Pane, Glowstone or Ice block with a chisel to harvest the block without breaking it.
 
 # Quest.1987 - §3§lUpgrading Drawers
 gtnh.quest1987.name=§3§lUpgrading Drawers
@@ -8314,7 +8314,7 @@ gtnh.quest2077.desc=Sticky and bouncy! Now in many variations. Say hello to my l
 
 # Quest.2078 - Time to Kill (Silverfish)
 gtnh.quest2078.name=Time to Kill (Silverfish)
-gtnh.quest2078.desc=Be wary, they like to disguise and clone themselves in stone-related blocks! (Applies to Vanilla blocks only) Can be found within dungeons. Can also be found in Drowning Creeper spawned cobblestone blocks.
+gtnh.quest2078.desc=Be wary, they like to disguise and clone themselves in stone-related blocks! (Applies to Vanilla blocks only) Can be found within dungeons and hills. Can also be found in Drowning Creeper spawned cobblestone blocks.
 
 # Quest.2079 - Hey is That a Friendly Bumblebee?
 gtnh.quest2079.name=Hey is That a Friendly Bumblebee?
@@ -9158,7 +9158,7 @@ gtnh.quest2288.desc=Like most farmers, these bees seem to spend all their time c
 
 # Quest.2289 - Sandwich
 gtnh.quest2289.name=Sandwich
-gtnh.quest2289.desc=sudo make me a sandwich.  Or a bee that makes sandwich parts anyways. Breed them from Batty and Agrarian.
+gtnh.quest2289.desc=sudo make me a sandwich. Or a bee that makes sandwich parts anyways. Breed them from Batty and Agrarian.
 
 # Quest.2290 - Fertilizer
 gtnh.quest2290.name=Fertilizer
@@ -9634,7 +9634,7 @@ gtnh.quest2407.desc=This backpack sacrifices some space to give you a portable c
 
 # Quest.2408 - §9§lControlling Your Drawers
 gtnh.quest2408.name=§9§lControlling Your Drawers
-gtnh.quest2408.desc=Now that you have MV Circuits and Stainless Steel, you can make the incredibly handy Drawer Controller. This block will make any drawers it connects to in a 4-block radius (including the y-axis) part of a multiblock that allows storage (and retrieval with the right setup) to any of the blocks that make it up. This will allow you to dump the contents of your mining trip into a storage system much easier. Just hold right click on the Controller front for a second or two, and any items that match what's already in the multiblock will be deposited, while your tools and such won't. Just make sure to place your Controller last so it registers all the drawers.%n%nYou can feed into the Controller (and thus the rest of the drawers) with any kind of piping or hopper equivalent. If using it as part of a Multifarm or Mob Farm, make sure to set the contents of the drawers, and lock them with a key so that it properly stores everything in an organized manner. If the drawers' contents aren't set, it will start filling starting from the ones closest. If you wish to have more than one drawer full of an item, put a void upgrade on the drawer further from the Controller, and it will fill the first one, then the second.%n%nIf you want to go around corners, use the Trim Drawers to extend the multiblock. If you want to have a second point to dump items into, use the Slave Controller (one per multiblock, automation only). Note that you can use a key on the Controller to affect all drawers at once.%n%nYou can also use it with ProjectRed, see the appropriate tab for details.%n%nOnce you have an ME Network, place a storage bus on the Controller, and the entire inventory will be accessible from the network, with both storage and retrieval. Just remember to set the priority higher than your ME Drives. If you haven't locked them yet expect all your drawers to fill with random items from your ME Network.%n%n§4Using the drawer controller with large amounts of I/O will tank TPS! If you're on a server, do not use drawer cubes, or expect the possibility of it being deleted or you getting banned.%n%nAdditionally, expect all non-backpack interactions to be DISABLED on the official servers. Congratulations, Drawer Cubists, you ruined it for everyone.
+gtnh.quest2408.desc=Now that you have MV Circuits and Stainless Steel, you can make the incredibly handy Drawer Controller. This block will make any drawers it connects to in a 4-block radius (including the y-axis) and 50 blocks at maximum as part of a multiblock that allows storage (and retrieval with the right setup) to any of the blocks that make it up. This will allow you to dump the contents of your mining trip into a storage system much easier. Just hold right click on the Controller front for a second or two, and any items that match what's already in the multiblock will be deposited, while your tools and such won't. Just make sure to place your Controller last so it registers all the drawers.%n%nYou can feed into the Controller (and thus the rest of the drawers) with any kind of piping or hopper equivalent. If using it as part of a Multifarm or Mob Farm, make sure to set the contents of the drawers, and lock them with a key so that it properly stores everything in an organized manner. If the drawers' contents aren't set, it will start filling starting from the ones closest. If you wish to have more than one drawer full of an item, put a void upgrade on the drawer further from the Controller, and it will fill the first one, then the second.%n%nIf you want to go around corners, use the Trim Drawers to extend the multiblock. If you want to have a second point to dump items into, use the Controller Slave (one per multiblock, automation only). Note that you can use a key on the Controller to affect all drawers at once.%n%nOnce you have an ME Network, place a storage bus on the Controller, and the entire inventory will be accessible from the network, with both storage and retrieval. Just remember to set the priority higher than your ME Drives. If you haven't locked them yet expect all your drawers to fill with random items from your ME Network.%n%n§4Using the drawer controller with large amounts of I/O will tank TPS! If you're on a server, do not use drawer cubes, or expect the possibility of it being deleted or you getting banned.%n%nAdditionally, expect all non-backpack interactions to be DISABLED on the official servers. Congratulations, Drawer Cubists, you ruined it for everyone.
 
 # Quest.2409 - §6§lEven Rarer Earths
 gtnh.quest2409.name=§6§lEven Rarer Earths
@@ -12386,7 +12386,7 @@ gtnh.quest3095.desc=When it comes to power from wood, your only options so far h
 
 # Quest.3096 - Faster Charcoal
 gtnh.quest3096.name=Faster Charcoal
-gtnh.quest3096.desc=Even if you have more wood, this won't help your power issues that much. Using it directly as fuel isn't going to do much for you as you move forward, and turning it into Charcoal will be very important. You have already built a Coke Oven, maybe more than one, but each one takes 90 seconds to produce one Charcoal, an abysmal rate. Unfortunately, there isn't any faster option in this tier, so you will have to build more of these ovens. How many, exactly?%n%nThere are many different goals you might want to go for, but a good metric for your power needs is a setup with 24 Coke Ovens. This number will create both Charcoal and Creosote Oil at a rate that will run two max-sized LP (Low Pressure) Railcraft Boilers, one solid and one liquid, with the quest for those coming right after this one. If you automate this entire setup, it will produce around 2 amps of MV, which are equivalent to 8 amps of LV, plenty of power for this tier and enough to advance you to the next one.%n%nAfter building these Coke Ovens, you will need to automate them. There are a few ways to do this, but one of the cheapest ones is to use Item Pipes, made with Tin for example, with a Conveyor Belt in the wood chest/drawer to put the wood in the ovens, and then one Hopper below each oven, into more Item Pipes, to gather the Charcoal. The Creosote is a bit harder to extract, but you can do it with Tinkers' Faucets on the side of each Coke Oven, with a Wooden Fluid Pipe directly under the faucet. You will need to keep reactivating them with redstone, which means you'll also need a redstone clock (there's a block dedicated to this purpose, named Redstone Clock, from Extra Utilities).
+gtnh.quest3096.desc=Even if you have more wood, this won't help your power issues that much. Using it directly as fuel isn't going to do much for you as you move forward, and turning it into Charcoal will be very important. You have already built a Coke Oven, maybe more than one, but each one takes 90 seconds to produce one Charcoal, an abysmal rate. Unfortunately, there isn't any faster option in this tier, so you will have to build more of these ovens. How many, exactly?%n%nThere are many different goals you might want to go for, but a good metric for your power needs is a setup with 24 Coke Ovens. This number will create both Charcoal and Creosote Oil at a rate that will run two max-sized LP (Low Pressure) Railcraft Boilers, one solid and one liquid, with the quest for those coming right after this one. If you automate this entire setup, it will produce around 2 amps of MV, which are equivalent to 8 amps of LV, plenty of power for this tier and enough to advance you to the next one.%n%nAfter building these Coke Ovens, you will need to automate them. There are a few ways to do this, but one of the cheapest ones is to use Item Pipes, made with Tin for example, with a Conveyor Module in the wood chest/drawer to put the wood in the ovens, and then one Hopper below each oven, into more Item Pipes, to gather the Charcoal. The Creosote is a bit harder to extract, but you can do it with Tinkers' Faucets on the side of each Coke Oven, with a Wooden Fluid Pipe directly under the faucet. You will need to keep reactivating them with redstone, which means you'll also need a redstone clock (there's a block dedicated to this purpose, named Redstone Clock, from Extra Utilities).
 
 # Quest.3097 - Two Big Ovens
 gtnh.quest3097.name=Two Big Ovens
