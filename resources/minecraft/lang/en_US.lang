@@ -2250,7 +2250,7 @@ gtnh.quest561.desc=Cresosote oil into steam! After you make your first steel you
 
 # Quest.562 - §6§lHigh-Pressure Boiler Tank
 gtnh.quest562.name=§6§lHigh-Pressure Boiler Tank
-gtnh.quest562.desc=After you make steel you are able to craft a high pressure boiler tank. The upgraded version increases the temperature and produces more steam than the low pressure version. It will take longer to warm up, so make sure to keep it well fed!%n%nExtract steam by attaching a pipe to the boiler tank.%n%n§3PS: The HP one isn't always better, check the internet for details.
+gtnh.quest562.desc=After you make steel you are able to craft a high pressure boiler tank. The upgraded version increases the temperature and produces more steam than the low pressure version. It will take longer to warm up, so make sure to keep it well fed!%n%nExtract steam by attaching a pipe to the boiler tank.
 
 # Quest.563 - Time to Kill (Wither Skeleton)
 gtnh.quest563.name=Time to Kill (Wither Skeleton)
@@ -4406,7 +4406,7 @@ gtnh.quest1100.desc=Finally, with your new wand with 50 stored vis you're able t
 
 # Quest.1101 - Division Sigil
 gtnh.quest1101.name=Division Sigil
-gtnh.quest1101.desc=Find a sigil in a chest? Get one from the Wither? You've heard about a ritual to activate it.%n%nYou need an enchantment table, 8 redstone dust, a weapon, and an animal you want to sacrifice. Catching and holding it with a Golden Lasso would be the easiest way. Check in LV for the Golden Lasso quest if you haven't completed it yet.%n%nPlace your enchantment table on a grass field and surround it with redstone dust. At midnight, place the animal on or near the table and kill it. You can check with the sigil if it's time yet by right-clicking it on the enchantment table. Of course you also need to have your sigil on you.%n%nBeware! Your actions will have consequences.%n%n§3PS: The normal, explody, recipe doesn't work. Use the nugget one instead.
+gtnh.quest1101.desc=Find a sigil in a chest? Get one from the Wither? You've heard about a ritual to activate it.%n%nYou need an enchantment table, 8 redstone dust, a weapon, and an animal you want to sacrifice. Catching and holding it with a Golden Lasso would be the easiest way. Check in LV for the Golden Lasso quest if you haven't completed it yet.%n%nPlace your enchantment table on a grass field and surround it with redstone dust. At midnight, place the animal on or near the table and kill it. You can check with the sigil if it's time yet by right-clicking it on the enchantment table. Of course you also need to have your sigil on you.%n%nBeware! Your actions will have consequences.
 
 # Quest.1102 - Beacon
 gtnh.quest1102.name=Beacon
@@ -6966,7 +6966,7 @@ gtnh.quest1740.desc=Your old and trusty combustion engines don't quite cut it an
 
 # Quest.1741 - §3§lNice Nether Trees
 gtnh.quest1741.name=§3§lNice Nether Trees
-gtnh.quest1741.desc=There are a few very useful Nether trees out there which gives resources like Redstone, Gunpowder, Bonemeal or Fertilizer.%n%nGo and get a few trees like Bloodwood, Fusewood, Darkwood or Ghostwood out of the Nether.%n%nThese trees can be planted like normal trees, except for Bloodwood.  That has to planted on a ceiling and will grow down instead of up.
+gtnh.quest1741.desc=There are a few very useful Nether trees out there which gives resources like Redstone, Gunpowder, Bonemeal or Fertilizer.%n%nGo and get a few trees like Bloodwood, Fusewood, Darkwood or Ghostwood out of the Nether.%n%nThese trees can be planted like normal trees, except for Bloodwood. That has to planted on a ceiling and will grow down instead of up.
 
 # Quest.1742 - §6§lHelium 3 and Saltwater on Moon
 gtnh.quest1742.name=§6§lHelium 3 and Saltwater on Moon
@@ -11426,7 +11426,7 @@ gtnh.quest2855.desc=What if... you could send essentia from a different location
 
 # Quest.2856 - §6§lAdvanced MB Construction
 gtnh.quest2856.name=§6§lAdvanced MB Construction
-gtnh.quest2856.desc=The ability to rotate MBs and view a structure hologram has been sto-§oborrowed§r from §9Tec§1Tech§r, giving you greater freedom to build the way you want! §5(until we nerf wallsharing at least)§r%n%nUnlike TT, you can use a normal wrench for this, just aim at the front center of a controller (or one of the other sides if you want to. You just need to aim for the part of the grid with the mark) and right click or shift-right-click. The first rotates it clockwise, the latter flips it. Note that this §cwon't work on TecTech MBs§r. You need the scrench for that. If you want to change the facing of the controller itself, do that the normal way.%n%nUse a Multiblock Structure Hologram Projector or MSHP to visualize the strucure, pay attention to the bottom left for structure details.%n%n§3If you don't get it, try placing a controller, wrenching it, and using the MSHP on it.§r%n%nWhile it's now possible to build a sideways EBF, or even build one into the floor, not everything can be rotated. Exceptions include: GT add-on mods like KekzTech that haven't been updated, non-GT-based MBs (obviously), Charcoal Pile Igniters, BBFs, DTs, Miners, Bacterial Vats, DEHPs, Void Miners, the MVF can, but the MBF and MDT cannot.%n%n§3PS: We did get permission, that was just a little joke.
+gtnh.quest2856.desc=The ability to rotate MBs and view a structure hologram has been sto-§oborrowed§r from §9Tec§1Tech§r, giving you greater freedom to build the way you want! §5(until we nerf wallsharing at least)§r%n%nUnlike TT, you can use a normal wrench for this, just aim at the front center of a controller (or one of the other sides if you want to. You just need to aim for the part of the grid with the mark) and right click or shift-right-click. The first rotates it clockwise, the latter flips it. If you want to change the facing of the controller itself, do that the normal way.%n%nUse a Multiblock Structure Hologram Projector or MSHP to visualize the strucure, pay attention to the bottom left for structure details.%n%n§3If you don't get it, try placing a controller, wrenching it, and using the MSHP on it.§r%n%nWhile it's now possible to build a sideways EBF, or even build one into the floor, not everything can be rotated. Exceptions include: GT add-on mods like KekzTech that haven't been updated, non-GT-based MBs (obviously), Charcoal Pile Igniters, BBFs, DTs, Miners, Bacterial Vats, DEHPs, Void Miners, the MVF can, but the MBF and MDT cannot.%n%n§3PS: We did get permission, that was just a little joke.
 
 # Quest.2857 - Magic Mirror Glass?
 gtnh.quest2857.name=Magic Mirror Glass?
@@ -11942,7 +11942,7 @@ gtnh.quest2984.desc=As rich as Oil is, it's hardly useful for anything in this s
 
 # Quest.2985 - §6§6§a§9§8§7§6§5§4§3§2§1§0§3§f§k§f§l§6§lYou Are Not Prepared... But They Are
 gtnh.quest2985.name=§6§6§a§9§8§7§6§5§4§3§2§1§0§3§f§k§f§l§6§lYou Are Not Prepared... But They Are
-gtnh.quest2985.desc=Building a smeltery from ground up can be really tedious and time consuming. How about go borrow one from the locals? They will surely be happy to share it with an unfirendly adventurer that just dismantlled their bricked railway station.%n%nThe villager are too dumb that they spent all their seared bricks without adding a few key components like faucets or drains. You still need to craft some smeltry bricks yourselves... %n%nTotally not useful tip: if you hold off building this long enough, you will be able to break down seared brick blocks into seared brick items with a forge hammer or extractor.%n%n§3Unfortunately, going down this path means we will not give you quest rewards, since you are already getting this important multiblock for free. Check the checkbox to signify your consent.
+gtnh.quest2985.desc=Building a smeltery from ground up can be really tedious and time consuming. How about go borrow one from the locals? They will surely be happy to share it with an unfriendly adventurer that just dismantlled their bricked railway station.%n%nThe villager are too dumb that they spent all their seared bricks without adding a few key components like faucets or drains. You still need to craft some smeltry bricks yourselves... %n%nTotally not useful tip: if you hold off building this long enough, you will be able to break down seared brick blocks into seared brick items with a forge hammer or extractor.%n%n§3Unfortunately, going down this path means we will not give you quest rewards, since you are already getting this important multiblock for free. Check the checkbox to signify your consent.
 
 # Quest.2986 - Here's Some Oil
 gtnh.quest2986.name=Here's Some Oil
