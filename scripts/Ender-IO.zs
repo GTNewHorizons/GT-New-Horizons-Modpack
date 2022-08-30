@@ -1320,7 +1320,7 @@ Assembler.addRecipe(<EnderIO:itemLiquidConduit:6>, <gregtech:gt.blockmachines:52
 Assembler.addRecipe(<EnderIO:itemItemConduit>, <gregtech:gt.blockmachines:5611>, <gregtech:gt.metaitem.01:17378>, <liquid:molten.plastic> * 144, 100, 120);
 
 // --- ME Conduit
-Assembler.addRecipe(<EnderIO:itemMEConduit>, <appliedenergistics2:item.ItemMultiPart:16>, <gregtech:gt.metaitem.01:17020>, <liquid:molten.plastic> * 144, 100, 256);
+Assembler.addRecipe(<EnderIO:itemMEConduit>, <appliedenergistics2:item.ItemMultiPart:16>, <gregtech:gt.metaitem.01:17856>, <liquid:molten.plastic> * 144, 100, 256);
 
 // --- Dense ME Conduit
 Assembler.addRecipe(<EnderIO:itemMEConduit:1>, <EnderIO:itemMEConduit> * 4, <gregtech:gt.metaitem.01:17028>, <liquid:molten.plastic> * 144, 100, 480);
