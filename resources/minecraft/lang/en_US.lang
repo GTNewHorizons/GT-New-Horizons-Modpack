@@ -824,9 +824,9 @@ gtnh.quest204.desc=What use has an automated rocket, if you can't load and unloa
 gtnh.quest205.name=Cargo Rocket: For the Fun
 gtnh.quest205.desc=No need to fly to distant planets on your own, just to grab ores.%n%n§3Usefulness level: Doubtful.
 
-# Quest.206 - §c§l[OUTDATED]§r Turning A Into B With C
-gtnh.quest206.name=§c§l[OUTDATED]§r Turning A Into B With C
-gtnh.quest206.desc=Molecular transforming at its finest! The most important recipe here is sunnarium.%n%nThe useful recipes are:%nGlowstone -> Sunnarium Piece%nRedstone -> Ruby (for Chrome)%nCarbon -> Graphene%nNether Quartz -> Certus Quartz (if you need more for AE2)%nCheese -> Cheese Curd (for no-rocket runs to get the cheese ore for space plant)%nGold -> Platinum (if you want to void power, but still have it do something useful)%n%n§3C=EU, BTW.
+# Quest.206 - Venting the Heat
+gtnh.quest206.name=Venting the Heat
+gtnh.quest206.desc=A low tech method to cool down the hot coolant is to use vent covers. Just place the cover on any GregTech block which can contain IC2 coolant and place water in front. The easiest might be just a tank or pipe. This will help until you have access to a Large Heat Exchanger or a Vacuum Freezer.%n%nAn advanced or overclocked reactor vent is much faster than a basic heat vent but you can't make those yet. Those covers also work with a air in front, but the basic heat vent needs a water block in front. Obviously, all vent covers are faster with water in front than with just air.
 
 # Quest.207 - §a§lTurret Base Tier 4
 gtnh.quest207.name=§a§lTurret Base Tier 4
@@ -2974,7 +2974,7 @@ gtnh.quest742.desc=By making a hammer you are now able to mine a shaft of 3x3 bl
 
 # Quest.743 - §3§lCutting a Tree log by log is so Old School
 gtnh.quest743.name=§3§lCutting a Tree log by log is so Old School
-gtnh.quest743.desc=By making a lumber axe you are now able to cut down the entire tree in one hit. You can use iron, steel, or alumite poured from the Smeltery, it doesn't need to be steel. Higher tier metals require the MV extruder. Don't forget your backpack when you are cutting a sacred oak tree down.%n%n§6The quest should accept the tool whatever materials you used.%n%n§3Protip: Make one out of netherrack, the lower the durability, the less XP needed to level up. Use the modifier slots to add reinforced. Once you've got it leveled up enough, change the parts out for better (and faster) ones. You can't use auto-smelt, so don't bother with that.
+gtnh.quest743.desc=By making a lumber axe you are now able to cut down the entire tree in one hit. You can use iron, steel, or alumite poured from the Smeltery, it doesn't need to be steel. Higher tier metals require the MV extruder. Don't forget your backpack when you are cutting a sacred oak tree down.%n%n§6The quest should accept the tool whatever materials you used.%n%n§3Protip: Make one out of netherrack, the lower the mining speed, the less XP needed to level up. Use the modifier slots to add reinforced. Once you've got it leveled up enough, change the parts out for better (and faster) ones. You can't use auto-smelt, so don't bother with that.
 
 # Quest.744 - §3§lMining Dirt Block by Block is so Old School
 gtnh.quest744.name=§3§lMining Dirt Block by Block is so Old School
@@ -3778,7 +3778,7 @@ gtnh.quest943.desc=High tier chemical recipes like ammonia need an HV chemical r
 
 # Quest.944 - §6§lSuper Tank I
 gtnh.quest944.name=§6§lSuper Tank I
-gtnh.quest944.desc=This tanks works the same as the smaller GT tanks, but holds way more. Specifically, 4,000,000L. Only make this for things you need tons of, LV circuits are expensive after all.%n%nNow you can store the same amount of fluids a steel 5x5 Railcraft tank contains in a single block.
+gtnh.quest944.desc=This tanks works the same as the smaller GT tanks, but holds way more. Specifically, 4,000,000L. Only make this for things you need tons of, LV circuits are expensive after all.%n%nNow you can store the same amount of fluids a steel 5x5 Railcraft tank contains in a single block.%n%n§3%nA lot of nice functionality has been added to Super and Quantum tanks. You can now pick them up with a wrench without voiding the fluids! You will get heavy debuffs though, so better prepare some milk. If you actually want to void the fluids you can crouch while using the wrench.%n%nThey now also have optional automatic fluid output, fluid locking, overflow void mode, or full void mode. And all that with a nice and simple GUI. Quite the IMPACTful change I would say. 
 
 # Quest.945 - §2§lChad - A Better Way to Make Paper
 gtnh.quest945.name=§2§lChad - A Better Way to Make Paper
@@ -3962,7 +3962,7 @@ gtnh.quest989.desc=Vibrant alloy is a high tier EnderIO alloy made out of ender 
 
 # Quest.990 - §9§lEnergetic Alloy
 gtnh.quest990.name=§9§lEnergetic Alloy
-gtnh.quest990.desc=Energetic alloy is a new alloy from EnderIO made out of gold, conductive iron and black steel dust. Double-layer capacitors need it, as does the HV energy hatch.
+gtnh.quest990.desc=Energetic alloy is a new alloy from EnderIO made out of gold, conductive iron and black steel dust. Double-layer capacitors need it, as does the HV energy hatch.%n%n§3The direct mixer recipe has 7 ingredients, so you need an EV mixer or a multiblock to us it. You have to use the other one for now.
 
 # Quest.991 - Dark Steel Armor Basic Upgrades
 gtnh.quest991.name=Dark Steel Armor Basic Upgrades
@@ -12302,7 +12302,7 @@ gtnh.quest3075.desc=Why use plates when you can make your armor pieces out of mo
 
 # Quest.3076 - §b§lGlowing Matter
 gtnh.quest3076.name=§b§lGlowing Matter
-gtnh.quest3076.desc=Another way to get Sunnarium. Just throw stacks of Glowing Coral and tiny litre of UU-Matter in Autoclave and wish you luck.%n%nYou can also make full use of Coral to make some resources infinite, such as Glowstone, Gold, Redstone, Mercury, etc.%n%n§3Nine in One multi can greatly decrease power consumption, but is also rather expensive to make.
+gtnh.quest3076.desc=Another way to get Sunnarium! Just throw stacks of Glowing Coral and a tiny bit of UU-Matter in an autoclave and hope for the best.%n%nYou can either use an IC2 crop farm, or have any type of Glowstone farm and combine it with a GT++ Algae Farm.%n%nA farm for Glowing Coral or Glowstone should also help you mass produce other resources like Gold, Redstone, Mercury, etc.%n%n%n§3The Large Processing Factory can speed things up, but is also rather expensive to make.
 
 # Quest.3077 - §c§lMolecular Transformer, finally!
 gtnh.quest3077.name=§c§lMolecular Transformer, finally!

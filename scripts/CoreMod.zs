@@ -19,7 +19,6 @@ import mods.gregtech.ForgeHammer;
 import mods.gregtech.FormingPress;
 import mods.gregtech.Lathe;
 import mods.gregtech.Pulverizer;
-import mods.gregtech.Mixer;
 import mods.gregtech.PlateBender;
 import mods.gregtech.PrecisionLaser;
 import mods.gregtech.VacuumFreezer;
@@ -29,7 +28,6 @@ import mods.gregtech.Wiremill;
 
 // --- Variables ---
 
-val BlankPattern = <TConstruct:blankPattern>;
 val BlankCast = <TConstruct:blankPattern:1>;
 
 val SandstoneRod = <dreamcraft:item.SandStoneRod>;
@@ -45,7 +43,6 @@ val Saw = <ore:craftingToolSaw>;
 val Screwdriver = <ore:craftingToolScrewdriver>;
 val Mortar = <ore:craftingToolMortar>;
 val WireCutter = <ore:craftingToolWireCutter>;
-val WoodenBrickForm = <dreamcraft:item.WoodenBrickForm>.transformReplace(<dreamcraft:item.WoodenBrickForm>);
 
 val MagicalWood = <ExtraUtilities:decorativeBlock1:8>;
 val SilverwoodLog = <Thaumcraft:blockMagicalLog:1>;
@@ -859,10 +856,6 @@ recipes.addShaped(<dreamcraft:item.OvenGlove:1>.withTag({Durability: 1000}), [
 // -
 recipes.addShapeless(<dreamcraft:item.OvenGlove:1>.withTag({Durability: 1000}), [<dreamcraft:item.OvenGlove:1>, <ore:itemLeather>, <ore:itemLeather>, <ore:itemLeather>]);
 
-// --- Wooden Brick Form
-recipes.addShaped(<dreamcraft:item.WoodenBrickForm>, [
-[Knife, BlankPattern, null]]);
-
 // --- Coke Oven Bricks
 furnace.addRecipe(<dreamcraft:item.CokeOvenBrick>, <dreamcraft:item.UnfiredCokeOvenBrick>);
 
@@ -1456,20 +1449,6 @@ Pulverizer.addRecipe([<dreamcraft:item.ChargedCertusQuartzDust>], <dreamcraft:it
 // -
 Pulverizer.addRecipe([<dreamcraft:item.ChargedCertusQuartzDust>], <dreamcraft:item.ChargedCertusQuartzRod> * 2, [10000], 300, 2);
 
-
-
-
-
-// --- Mixer Recipes
-
-
-// --- Bio Ball
-Mixer.addRecipe(<dreamcraft:item.BioBall>, [<IC2:itemFuelPlantBall> * 16, <gregtech:gt.metaitem.01:2802> * 2], 200, 16);
-
-// --- Wet Tofu
-Mixer.addRecipe(<dreamcraft:item.WetTofu>, null, [<harvestcraft:soybeanItem>], <liquid:water> * 100, 600, 2);
-// -
-Mixer.addRecipe(<dreamcraft:item.WetTofu>, null, [<harvestcraft:soybeanItem>], <liquid:ic2distilledwater> * 50, 300, 4);
 
 
 
