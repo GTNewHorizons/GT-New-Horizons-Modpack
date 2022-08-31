@@ -9,7 +9,6 @@ import mods.gregtech.Autoclave;
 import mods.gregtech.Brewery;
 import mods.gregtech.Centrifuge;
 import mods.gregtech.ChemicalBath;
-import mods.gregtech.ChemicalReactor;
 import mods.ic2.Compressor;
 import mods.gregtech.CuttingSaw;
 import mods.gregtech.Distillery;
@@ -1099,15 +1098,6 @@ null, <gregtech:gt.metaitem.01:17526>, null,
 null, <minecraft:piston>, null,
 null, null, null],
 <Forestry:sturdyMachine>, <dreamcraft:item.EngineCore>);
-
-
-
-// --- Chemical Reactor Recipes ---
-
-
-
-// --- Potassium Hydroxide
-ChemicalReactor.addRecipe(<dreamcraft:item.PotassiumHydroxideDust> * 3, <liquid:hydrogen> * 1000, <gregtech:gt.metaitem.01:2025>, <gregtech:gt.integrated_circuit:1> * 0, <liquid:water> * 3000, 1200, 30);
 
 
 
