@@ -125,7 +125,6 @@ val RubberPlate = <ore:plateAnyRubber>;
 val CertusPlate = <gregtech:gt.metaitem.01:17516>;
 val NQuartzPlate = <gregtech:gt.metaitem.01:17522>;
 val QuartzitePlate = <gregtech:gt.metaitem.01:17523>;
-val SiliconPlate = <gregtech:gt.metaitem.01:17856>;
 val CertusRod = <ore:stickCertusQuartz>;
 val NQuartzRod = <ore:stickNetherQuartz>;
 val QuartziteScrew = <ore:screwQuartzite>;
