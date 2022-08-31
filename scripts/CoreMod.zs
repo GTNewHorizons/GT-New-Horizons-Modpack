@@ -30,7 +30,6 @@ import mods.gregtech.Wiremill;
 
 // --- Variables ---
 
-val BlankPattern = <TConstruct:blankPattern>;
 val BlankCast = <TConstruct:blankPattern:1>;
 
 val SandstoneRod = <dreamcraft:item.SandStoneRod>;
@@ -46,7 +45,6 @@ val Saw = <ore:craftingToolSaw>;
 val Screwdriver = <ore:craftingToolScrewdriver>;
 val Mortar = <ore:craftingToolMortar>;
 val WireCutter = <ore:craftingToolWireCutter>;
-val WoodenBrickForm = <dreamcraft:item.WoodenBrickForm>.transformReplace(<dreamcraft:item.WoodenBrickForm>);
 
 val MagicalWood = <ExtraUtilities:decorativeBlock1:8>;
 val SilverwoodLog = <Thaumcraft:blockMagicalLog:1>;
@@ -859,10 +857,6 @@ recipes.addShaped(<dreamcraft:item.OvenGlove:1>.withTag({Durability: 1000}), [
 [<minecraft:string>, <minecraft:string>, <minecraft:string>]]);
 // -
 recipes.addShapeless(<dreamcraft:item.OvenGlove:1>.withTag({Durability: 1000}), [<dreamcraft:item.OvenGlove:1>, <ore:itemLeather>, <ore:itemLeather>, <ore:itemLeather>]);
-
-// --- Wooden Brick Form
-recipes.addShaped(<dreamcraft:item.WoodenBrickForm>, [
-[Knife, BlankPattern, null]]);
 
 // --- Coke Oven Bricks
 furnace.addRecipe(<dreamcraft:item.CokeOvenBrick>, <dreamcraft:item.UnfiredCokeOvenBrick>);
