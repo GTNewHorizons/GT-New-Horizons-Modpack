@@ -9,7 +9,6 @@ import mods.gregtech.Autoclave;
 import mods.gregtech.Brewery;
 import mods.gregtech.Centrifuge;
 import mods.gregtech.ChemicalBath;
-import mods.gregtech.ChemicalReactor;
 import mods.ic2.Compressor;
 import mods.gregtech.CuttingSaw;
 import mods.gregtech.Distillery;
@@ -20,7 +19,6 @@ import mods.gregtech.ForgeHammer;
 import mods.gregtech.FormingPress;
 import mods.gregtech.Lathe;
 import mods.gregtech.Pulverizer;
-import mods.gregtech.Mixer;
 import mods.gregtech.PlateBender;
 import mods.gregtech.PrecisionLaser;
 import mods.gregtech.VacuumFreezer;
@@ -920,15 +918,6 @@ Assembler.addRecipe(<dreamcraft:item.BioChunk>, <gregtech:gt.blockgem3:4>, <drea
 // --- Diamond Frame Box
 Assembler.addRecipe(<dreamcraft:tile.DiamondFrameBox>, <gregtech:gt.metaitem.01:23500> * 4, <gregtech:gt.integrated_circuit:4> * 0, 64, 8);
 
-// --- 10k Cell
-Assembler.addRecipe(<dreamcraft:item.TenKCell>, <IC2:itemCellEmpty>, <gregtech:gt.metaitem.01:17057> * 4, 100, 30);
-
-// --- 30k Cell
-Assembler.addRecipe(<dreamcraft:item.ThirtyKCell>, <dreamcraft:item.TenKCell> * 3, <gregtech:gt.integrated_circuit:3> * 0, 300, 60);
-
-// --- 60k Cell
-Assembler.addRecipe(<dreamcraft:item.SixtyKCell>, <dreamcraft:item.ThirtyKCell> * 2, <gregtech:gt.integrated_circuit:2> * 0, 600, 90);
-
 // --- Compressed Graphite Block
 Assembler.addRecipe(<dreamcraft:tile.CompressedGraphite> * 2, <minecraft:stone> * 2, <gregtech:gt.metaitem.01:2865>, 100, 8);
 
@@ -1102,15 +1091,6 @@ null, <gregtech:gt.metaitem.01:17526>, null,
 null, <minecraft:piston>, null,
 null, null, null],
 <Forestry:sturdyMachine>, <dreamcraft:item.EngineCore>);
-
-
-
-// --- Chemical Reactor Recipes ---
-
-
-
-// --- Potassium Hydroxide
-ChemicalReactor.addRecipe(<dreamcraft:item.PotassiumHydroxideDust> * 3, <liquid:hydrogen> * 1000, <gregtech:gt.metaitem.01:2025>, <gregtech:gt.integrated_circuit:1> * 0, <liquid:water> * 3000, 1200, 30);
 
 
 
@@ -1468,21 +1448,6 @@ Pulverizer.addRecipe([<dreamcraft:item.ChargedCertusQuartzDust>], <appliedenergi
 Pulverizer.addRecipe([<dreamcraft:item.ChargedCertusQuartzDust>], <dreamcraft:item.ChargedCertusQuartzPlate>, [10000], 300, 2);
 // -
 Pulverizer.addRecipe([<dreamcraft:item.ChargedCertusQuartzDust>], <dreamcraft:item.ChargedCertusQuartzRod> * 2, [10000], 300, 2);
-
-
-
-
-
-// --- Mixer Recipes
-
-
-// --- Sodium potassium
-Mixer.addRecipe(null, <liquid:sodiumpotassium> * 1000, [<gregtech:gt.metaitem.01:2017> * 2, <gregtech:gt.metaitem.01:2025> * 3], null, 400, 30);
-
-// --- Wet Tofu
-Mixer.addRecipe(<dreamcraft:item.WetTofu>, null, [<harvestcraft:soybeanItem>], <liquid:water> * 100, 600, 2);
-// -
-Mixer.addRecipe(<dreamcraft:item.WetTofu>, null, [<harvestcraft:soybeanItem>], <liquid:ic2distilledwater> * 50, 300, 4);
 
 
 

@@ -15,7 +15,6 @@ import mods.gregtech.BlastFurnace;
 import mods.gregtech.ChemicalReactor;
 import mods.gregtech.Extruder;
 import mods.gregtech.FluidExtractor;
-import mods.gregtech.FluidCanner;
 import mods.gregtech.ForgeHammer;
 import mods.gregtech.FormingPress;
 import mods.ic2.Canner;
@@ -95,24 +94,6 @@ recipes.removeShapeless(<gregtech:gt.metaitem.01:2881>);
 
 // --- Netherstar Dust
 recipes.removeShapeless(<gregtech:gt.metaitem.01:2506>);
-
-// --- 60k Helium Cooling Cell
-recipes.remove(<gregtech:gt.60k_Helium_Coolantcell>);
-
-// --- 180k Helium Cooling Cell
-recipes.remove(<gregtech:gt.180k_Helium_Coolantcell>); 
-
-// --- 360k Helium Cooling Cell
-recipes.remove(<gregtech:gt.360k_Helium_Coolantcell>);
-
-// --- 60k NaK Cooling Cell
-recipes.remove(<gregtech:gt.60k_NaK_Coolantcell>);
-
-// --- 180k NaK Cooling Cell
-recipes.remove(<gregtech:gt.180k_NaK_Coolantcell>); 
-
-// --- 360k NaK Cooling Cell
-recipes.remove(<gregtech:gt.360k_NaK_Coolantcell>);
 
 // --- Iridium Dust
 recipes.removeShapeless(<gregtech:gt.metaitem.01:2084>);
@@ -979,31 +960,6 @@ Extruder.addRecipe(<TConstruct:BowLimbPart:11>, <gregtech:gt.metaitem.01:11382> 
 
 // --- Obsidian Plates
 Extruder.addRecipe(<gregtech:gt.metaitem.01:17804>, <TConstruct:materials:18>, <gregtech:gt.metaitem.01:32350> * 0, 20, 64);
-
-
-
-
-// --- Fluid Canner Recipes
-
-
-
-// --- 60k Helium Cooling Cell
-FluidCanner.addRecipe(<gregtech:gt.60k_Helium_Coolantcell>, <dreamcraft:item.TenKCell>, null, <liquid:helium> * 1000);
-
-// --- 180k Helium Cooling Cell
-FluidCanner.addRecipe(<gregtech:gt.180k_Helium_Coolantcell>, <dreamcraft:item.ThirtyKCell>, null, <liquid:helium> * 3000);
-
-// --- 360k Helium Cooling Cell
-FluidCanner.addRecipe(<gregtech:gt.360k_Helium_Coolantcell>, <dreamcraft:item.SixtyKCell>, null, <liquid:helium> * 6000);
-
-// --- 60k NaK Cooling Cell
-FluidCanner.addRecipe(<gregtech:gt.60k_NaK_Coolantcell>, <dreamcraft:item.TenKCell>, null, <liquid:sodiumpotassium> * 1000);
-
-// --- 180k NaK Cooling Cell
-FluidCanner.addRecipe(<gregtech:gt.180k_NaK_Coolantcell>, <dreamcraft:item.ThirtyKCell>, null, <liquid:sodiumpotassium> * 3000);
-
-// --- 360k NaK Cooling Cell
-FluidCanner.addRecipe(<gregtech:gt.360k_NaK_Coolantcell>, <dreamcraft:item.SixtyKCell>, null, <liquid:sodiumpotassium> * 6000);
 
 
 
