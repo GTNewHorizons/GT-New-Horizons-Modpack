@@ -798,7 +798,7 @@ gtnh.quest198.desc=They're the same as uranium but produce half as much heat. Gi
 
 # Quest.199 - §a§lQuit Exhaling Dusts
 gtnh.quest199.name=§a§lQuit Exhaling Dusts
-gtnh.quest199.desc=The QED is used to make only a few things, so I'll just list them here:%n%nMolecular Transformer: Transform stuff using energy.%nMagnum Torch: Prevent mob spawns.%nEnder Quarry, and the Ender-Markers that go with it: Quarry up the landscape, so you can get planet blocks, dirt, etc, unlike miners.%nEnder-Thermic Pump: For nether lava pumping with less lag.%nTransfer Node Energy/Hyper-Energy: Transfers RF, so. useless.
+gtnh.quest199.desc=The QED is used to make only a few things, so I'll just list them here:%n%nMagnum Torch: Prevent mob spawns.%nEnder Quarry, and the Ender-Markers that go with it: Quarry up the landscape, so you can get planet blocks, dirt, etc, unlike miners.%nEnder-Thermic Pump: For nether lava pumping with less lag.%nTransfer Node Energy/Hyper-Energy: Transfers RF, so. useless.
 
 # Quest.200 - §a§lAdvanced Mob Protection
 gtnh.quest200.name=§a§lAdvanced Mob Protection
@@ -2134,7 +2134,7 @@ gtnh.quest532.desc=The Combustion Generator produces EU from several fluids. Som
 
 # Quest.533 - §4§5§lHydrogen, Methane or Some Farts... (Natural gas) 
 gtnh.quest533.name=§4§5§lHydrogen, Methane or Some Farts... (Natural gas) 
-gtnh.quest533.desc=Some centrifugal processes leave gases behind like Hydrogen or Methane. Centrifuge some Brown and Yellow Limonite to get Hydrogen or dump your unused food in a Centrifuge to get Methane gas. Wood will even give 60 mb per log, and many other crops will also generate Methane this way.%n%nThe main powergen lines that use these generators are Oil and Benzene, mostly Benzene, but neither of those are really LV-tier. You can still use Charcoal to generate Carbon Dioxide and get power that way, if you don't want to deal with Steam.%n%n§3If you're dealing with fully renewable powergen, this is the type of generator you'll use the most.
+gtnh.quest533.desc=Some centrifugal processes leave gases behind like Hydrogen or Methane. Centrifuge some Brown and Yellow Limonite to get Hydrogen or dump your unused food in a Centrifuge to get Methane gas. Wood will even give 60 mb per log, and many other crops will also generate Methane this way.%n%nThe main powergen line that uses this generator is Benzene, but that needs MV tier.%n%n§3If you're dealing with fully renewable powergen, this is the type of generator you'll use the most.
 
 # Quest.534 - §4§3§lPollution What....?
 gtnh.quest534.name=§4§3§lPollution What....?
@@ -2998,7 +2998,7 @@ gtnh.quest748.desc=Good circuit boards require wooden pulp and refined glue to m
 
 # Quest.749 - §6§lAre You Prepared For HV?
 gtnh.quest749.name=§6§lAre You Prepared For HV?
-gtnh.quest749.desc=Stainless steel will be the tier material for HV. There are two ways to process it. Mixing it by hand makes 8 stainless steel dust, while a mixer produces 9.%n%nManganese can be acquired as ore byproducts from spessartine, pyrolusite and tantalite ore. You can also pull them apart to get even more. Alternatively you can take apart Red Garnet dusts. If you get desperate, you can buy some ore from the Coins tab.%n%nChrome can be centrifuged out of ruby dust. You can get ruby dust from redstone if the ruby in redstone veins isn't enough.
+gtnh.quest749.desc=Stainless steel will be the tier material for HV. Use a MV mixer to produce the dust.%n%nManganese can be acquired as ore byproducts from spessartine, pyrolusite and tantalite ore. You can also pull them apart to get even more. Alternatively you can take apart Red Garnet dusts. If you get desperate, you can buy some ore from the Coins tab.%n%nChrome can be centrifuged out of ruby dust. You can get ruby dust from redstone if the ruby in redstone veins isn't enough.
 
 # Quest.750 - §6§lMolten Plastic
 gtnh.quest750.name=§6§lMolten Plastic
@@ -3346,7 +3346,7 @@ gtnh.quest835.desc=Every basic circuit needs two resistors to work.%n%nThere are
 
 # Quest.836 - §5§lGallium Arsenide Crystal
 gtnh.quest836.name=§5§lGallium Arsenide Crystal
-gtnh.quest836.desc=The diode requires gallium arsenide, and you may be wondering how to get gallium or arsenic this early in the game.%n%nSphalerite and zinc are the primary sources of gallium at this tier.%n%nYou can find sphalerite in sulfur veins at Y 5-20, and the small zinc ores in the Overworld or the in the Nether at Y 80-210. You won't find much on the Overworld because of obvious reasons. To get additional zinc crushed ore drops, use a Tinker's Construct tool with the Luck (Fortune) enchant on it, probably the best use for all that lapis you got while looking for calcite. Or use a miner, if you don't mind how slow it is.%n%n- Sphalerite can be electrolyzed for a 25% chance of a tiny pile. It's not great, but it's easier to collect the ore. Make sure to go onto discord to complain about how you electrolyzed a stack to only get 3 tiny piles along with everyone else.%n- Zinc crushed ore can be washed and then thermal centrifuged or forge hammered and then centrifuged. But you don't always get the crushed ore as a drop, the impure dust doesn't give gallium.%n%nYou can get arsenic from realgar small ores in the Nether at Y 15-85. Centrifuge the dusts in a centrifuge.%n%nOther sources are Tinker's Construct cobalt ore in the nether and cobaltite ore in the Twilight Forest. You can use your EBF for that. You also need to level up your pickaxe to ardite or make an Ironwood Pickaxe or LV Miner to harvest cobalt ore.%n%nAnother way to get gallium and arsenic is with XP buckets in a crafting grid if you're really desperate.%n%nWith your EBF you can combine these two dusts to make a Gallium Arsenide Crystal.
+gtnh.quest836.desc=The diode requires gallium arsenide, and you may be wondering how to get gallium or arsenic this early in the game.%n%nSphalerite and zinc are the primary sources of gallium at this tier.%n%nYou can find sphalerite in sulfur veins at Y 5-20, and the small zinc ores in the Overworld or the in the Nether at Y 80-210. You won't find much on the Overworld because of obvious reasons. To get additional zinc crushed ore drops, use a Tinker's Construct tool with the Luck (Fortune) enchant on it, probably the best use for all that lapis you got while looking for calcite. Or use a miner, if you don't mind how slow it is.%n%n- Sphalerite can be electrolyzed for a small chance of a gallium dust. Better put in a lot or you might get unlucky.%n- Zinc crushed ore can be washed and then thermal centrifuged or forge hammered and then centrifuged. But you don't always get the crushed ore as a drop, the impure dust doesn't give gallium.%n%nYou can get arsenic from realgar small ores in the Nether at Y 15-85. Centrifuge the dusts in a centrifuge.%n%nOther sources are Tinker's Construct cobalt ore in the nether and cobaltite ore in the Twilight Forest. You can use your EBF for that. You also need to level up your pickaxe to ardite or make an Ironwood Pickaxe or LV Miner to harvest cobalt ore.%n%nAnother way to get gallium and arsenic is with XP buckets in a crafting grid if you're really desperate.%n%nWith your EBF you can combine these two dusts to make a Gallium Arsenide Crystal.
 
 # Quest.837 - §6§lILC and RAM
 gtnh.quest837.name=§6§lILC and RAM
@@ -5618,7 +5618,7 @@ gtnh.quest1403.desc=Using Steam as your single power source in HV is pretty diff
 
 # Quest.1404 - §6§lMV Superconductors (128 EU/t)
 gtnh.quest1404.name=§6§lMV Superconductors (128 EU/t)
-gtnh.quest1404.desc=How about lossless 128 EU Wires? Pentacadmiummagnesiumhexaoxide is a superconductor wire and will transfer your energy without any loss. Every Voltage going forward has a superconductor wire with 0 and a base wire with only a very small loss.%n%nMix Cadmium, Magnesium and Oxygen in an MV mixer. Next, the base dust needs an EBF with Kanthal Coils to be smelted. A vacuum freezer is also required to cool it down. Make some MV Superconductor Base Wires and use an Assembler to combine these wires with Helium, Stainless Steel pipes and HV pumps to get your 128 eu/t superconductor wires.%n%n§3Whether these are worth it to save a little power or not is up to you of course. Also note that although they're wires, you aren't hurt by coming into contact with them.
+gtnh.quest1404.desc=How about lossless 128 EU Wires? Pentacadmiummagnesiumhexaoxide is a superconductor wire and will transfer your energy without any loss. Every Voltage going forward has a superconductor wire with zero loss.%n%nMix Cadmium, Magnesium and Oxygen in an MV mixer. Next, the base dust needs an EBF with Kanthal Coils to be smelted. A vacuum freezer is also required to cool it down. Make some MV Superconductor Base Wires and use an Assembler to combine these wires with Helium, Stainless Steel pipes and HV pumps to get your 128 eu/t superconductor wires.%n%n§3Whether these are worth it to save a little power or not is up to you of course. Also note that although they're wires, you aren't hurt by coming into contact with them.
 
 # Quest.1405 - §9§lHV Superconductors (512 EU/t)
 gtnh.quest1405.name=§9§lHV Superconductors (512 EU/t)
@@ -5968,8 +5968,8 @@ gtnh.quest1490.desc=Some machines need emitters and sensors, like the analyzer o
 gtnh.quest1491.name=§b§lHSS-G
 gtnh.quest1491.desc=After you can make Tungstensteel and craft an IV assembler, upgrade your Electric Blast Furnace with new Coils out of HSS-G Ingots. This ingot becomes very important in LuV tier.
 
-# Quest.1492 - Plunger 2.0 The Hand Pump Replacement
-gtnh.quest1492.name=Plunger 2.0 The Hand Pump Replacement
+# Quest.1492 - §c§l[OUTDATED]§r Plunger 2.0 The Hand Pump Replacement
+gtnh.quest1492.name=§c§l[OUTDATED]§r Plunger 2.0 The Hand Pump Replacement
 gtnh.quest1492.desc=What? Lost your hand pump already? Well here's a replacement. Well sure, it costs a few coins too, don't be such a fumble fingers next time! What do you think I am, a hardware store?
 
 # Quest.1493 - §c§lTier 6 (LuV)
@@ -6196,8 +6196,8 @@ gtnh.quest1547.desc=With the MV forming press you can make aluminum iron plates 
 gtnh.quest1548.name=Input chest for Ghetto ME System
 gtnh.quest1548.desc=To be able to put items into the Ghetto ME system you need just a few additional pipes.%nThe Extraction pipe should be connected to the chest you want to take items from.%nInside the Extraction pipe you need to put the Item Extraction chip, and configure it to blacklist if you want it to take all items from the chest.%n%nThe Routed Junction pipe is needed so the items inside the pipes know which direction to take, without this they will just fly around inside the pipes without knowing where to go.%nYou might also need some additional item transport pipes depending on your setup.
 
-# Quest.1549 - §5§lPlunger 2.0 The Hand Pump
-gtnh.quest1549.name=§5§lPlunger 2.0 The Hand Pump
+# Quest.1549 - §c§l[OUTDATED]§r  Plunger 2.0 The Hand Pump
+gtnh.quest1549.name=§c§l[OUTDATED]§r  Plunger 2.0 The Hand Pump
 gtnh.quest1549.desc=The new hand pump can remove fluids out of your machine input slots. The old plunger removes the fluid - only the hand pump can store it and drain it to a tank.%n%nUse your items in an LV assembler to craft your pump token, and then again to make the hand pump.%n%nWhen you tier up your assembler, you can make better hand pumps, up to EV.%n%n§3This recipe requires Aluminium, which requires the EBF to make. But you can also find it in chests if you search around.
 
 # Quest.1550 - More Seed Types
@@ -10870,7 +10870,7 @@ gtnh.quest2716.desc=Weak compared to both weapons of it's tier, and the weapons 
 
 # Quest.2717 - Xenoxene Xenoxsis
 gtnh.quest2717.name=Xenoxene Xenoxsis
-gtnh.quest2717.desc=To make the next tier plastic, Radox, or the next tier of SMDs, you will need Xenoxene.%n%nGetting the the Xenoxene Xenoxsis culture is a bit tricky. The recipe is similar to the General Purpose one, so you can't figure it out from NEI. Remember that all recipes in this chain are low probablility recipes.%n%nYour first step is to make the Barnardafis culture, then the DNA Sample, and then the Data Orb. If you didn't grab the saplings and dirt previously (to grow more trees for logs), head back to Barnarda C.%n%nUse the same recipe as for the General Purpose one, but use the Data Orb for Barnardafis instead of Common Yeast. You should get the Barnardafis Plasmid.%n%nAgain, it's the same recipe for the next step, but with the TCetiEis Fucus Serratus culture and the Barnardafis Plasmid, this should produce the Xenoxene Xenoxis culture. It's about a 4% chance.%n%nYou should probably use the normal alternative recipe to make more cultures, since it's easy to fail copying it too.%n%nYou should be able to figure out yourself how to make Xenoxene once you have the culture.
+gtnh.quest2717.desc=To make the next tier plastic, Radox, or the next tier of SMDs, you will need Xenoxene.%n%nGetting the the Xenoxene Xenoxsis culture is a bit tricky. The recipe is similar to the General Purpose one. Remember that all recipes in this chain are low probablility recipes.%n%nYour first step is to make the Barnardafis culture, then the DNA Sample, and then the Data Orb. If you didn't grab the saplings and dirt previously (to grow more trees for logs), head back to Barnarda C.%n%nUse the same recipe as for the General Purpose one, but use the Data Orb for Barnardafis instead of Common Yeast. You should get the Barnardafis Plasmid.%n%nAgain, it's the same recipe for the next step, but with the TCetiEis Fucus Serratus culture and the Barnardafis Plasmid, this should produce the Xenoxene Xenoxis culture. It's about a 4% chance.%n%nYou should probably use the normal alternative recipe to make more cultures, since it's easy to fail copying it too.%n%nYou should be able to figure out yourself how to make Xenoxene once you have the culture.%n%n%n§3After many years, the transformation recipe now even has NEI support!
 
 # Quest.2718 - Does Anyone Even Still Use These?
 gtnh.quest2718.name=Does Anyone Even Still Use These?
@@ -12570,7 +12570,7 @@ gtnh.quest3142.desc=§WWelcome to my ted talk, today we talk about the §6§lExt
 
 # Quest.3143 - Quantum Chestplate
 gtnh.quest3143.name=Quantum Chestplate
-gtnh.quest3143.desc=Thought you can make Quantum Chestplate as well? Yes technically you can, but you may not want to, since you can't fly with it, and GraviChestPlate is ZPM-tier.%n%nAlternatively you can make magic infused chestplate, but in any case I suggest not to make Quantum Chestplate until you are ready.
+gtnh.quest3143.desc=You can make a Quantum Chestplate as well. You can fly with it, but the hover mode is not great and it is a lot slower than the Advanced NanoChestPlate because it doesn't have a boost mode. What you really want is the GraviChestPlate but that is ZPM-tier. Alternatively you can make a magic infused chestplate.
 
 # Quest.3144 - Too much Indium?
 gtnh.quest3144.name=Too much Indium?
