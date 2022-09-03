@@ -23,6 +23,7 @@ appeng.integration.modules.NEIHelpers.NEIInscriberRecipeHandler,0
 appeng.integration.modules.NEIHelpers.NEIWorldCraftingHandler,0
 aroma1997.core.recipes.nei.ShapedAromicRecipeHandler,0
 aroma1997.core.recipes.nei.ShapelessAromicRecipeHandler,0
+bq_quest,100
 buildcraft.compat.nei.RecipeHandlerAssemblyTable,1000
 buildcraft.compat.nei.RecipeHandlerIntegrationTable,0
 buildcraft.compat.nei.RecipeHandlerRefinery,0
@@ -51,9 +52,9 @@ com.github.technus.tectech.nei.TT_NEI_ScannerHandler,0
 com.jaquadro.minecraft.storagedrawers.integration.notenoughitems.UpgradeItemRecipeHandler,0
 com.pam.harvestcraft.GardenRecipeHandler,0
 com.rwtema.extrautils.nei.EnderConstructorHandler,0
-com.rwtema.extrautils.nei.FMPMicroBlocksHandler,0
+com.rwtema.extrautils.nei.FMPMicroBlocksHandler,1000
 com.rwtema.extrautils.nei.InfoHandler,0
-com.rwtema.extrautils.nei.MicroBlocksHandler,0
+com.rwtema.extrautils.nei.MicroBlocksHandler,1000
 com.rwtema.extrautils.nei.SoulHandler,0
 crazypants.enderio.nei.AlloySmelterRecipeHandler,0
 crazypants.enderio.nei.EnchanterRecipeHandler,0
