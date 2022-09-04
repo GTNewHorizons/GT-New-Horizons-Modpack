@@ -2646,7 +2646,7 @@ gtnh.quest660.desc=Your iron shield is old and worn out. With a shield made from
 
 # Quest.661 - §5§lBow, Arrows and Quiver
 gtnh.quest661.name=§5§lBow, Arrows and Quiver
-gtnh.quest661.desc=Wow, your first handmade §oehm§r machine made bow. You find out that you can put the bow in the mine and blade battlegears slots. Now it's time to make a quiver and maybe some arrows. %n%nTo place arrows in the quiver, put the quiver and the stack of arrows in a crafting grid. Make sure the Gameplay key Special is deconflicted. By default it is Z. When you have the bow selected, use Z to swap arrow slots in the quiver.%n%nWhile it seems like these might be worthless, these arrows do have special uses. You really want to share a cookies with friends, don't you?%n%nLet's go hunt a bit.
+gtnh.quest661.desc=Wow, your first handmade §oehm§r machine made bow. You find out that you can put the bow in the mine and blade battlegears slots. Now it's time to make a quiver and maybe some arrows. %n%nTo place arrows in the quiver, put the quiver and the stack of arrows in a crafting grid. Make sure the Gameplay key Special is deconflicted. By default it is Z. When you have the bow selected, use Z to swap arrow slots in the quiver.%n%nWhile it seems like these might be worthless, these arrows do have special uses. You really want to share a cookie with friends, don't you?%n%nLet's go hunt a bit.
 
 # Quest.662 - §5§lBasic Arc Furnace
 gtnh.quest662.name=§5§lBasic Arc Furnace
@@ -2910,7 +2910,7 @@ gtnh.quest726.desc=A much more efficient way to make insulated cables is by maki
 
 # Quest.727 - §1§2§lBetter Than Barrels
 gtnh.quest727.name=§1§2§lBetter Than Barrels
-gtnh.quest727.desc=While barrels offer a slot for a single item, drawers can have up to 4 slots each (holding 16 stacks per slot).%n%nJust watch out, they do come with some downsides. You won't be able to make them point up or down, and you can only acces the contents from the front (automation can use any side). 
+gtnh.quest727.desc=While barrels offer a slot for a single item, drawers can have up to 4 slots each (holding 16 stacks per slot).%n%nJust watch out, they do come with some downsides. You won't be able to make them point up or down, and you can only access the contents from the front (automation can use any side). 
 
 # Quest.728 - §2§lCompact Drawers
 gtnh.quest728.name=§2§lCompact Drawers
@@ -5214,7 +5214,7 @@ gtnh.quest1302.desc=The ME Interface is the only component which can be used as 
 
 # Quest.1303 - Interfacing with Inventories
 gtnh.quest1303.name=Interfacing with Inventories
-gtnh.quest1303.desc=The ME storage bus, when attached to another inventory block in the world lets you access that inventory via networked functions. This allows you to use chests, barrels, or other types of item storage in your networks.%n%nThe storage via the ME storage bus is bi-directional, it can both insert, or extract items from the inventory block it is attached to as long as the ME storage bus has its required channel.%n%nThe UI allows you to control which items are selected as storable items, this selection has no effect on what items can be extracted once they are in the storage.%n%nThe storage bus will function with nearly any inventory block, including ME Interfaces, Minefactory Reloaded DSUs, Factorization barrels, JABBA Barrels, and Better Storage crates. They can also be used to route items passively into Buildcraft pipes.%n%nIf you place a storage bus on an ME Interface the storage bus will be able to interact with the full conents of the target network, unless that interface is configured to store items inside itself, in which case it will see those stored items.
+gtnh.quest1303.desc=The ME storage bus, when attached to another inventory block in the world lets you access that inventory via networked functions. This allows you to use chests, barrels, or other types of item storage in your networks.%n%nThe storage via the ME storage bus is bi-directional, it can both insert, or extract items from the inventory block it is attached to as long as the ME storage bus has its required channel.%n%nThe UI allows you to control which items are selected as storable items, this selection has no effect on what items can be extracted once they are in the storage.%n%nThe storage bus will function with nearly any inventory block, including ME Interfaces, Minefactory Reloaded DSUs, Factorization barrels, JABBA Barrels, and Better Storage crates. They can also be used to route items passively into Buildcraft pipes.%n%nIf you place a storage bus on an ME Interface the storage bus will be able to interact with the full contents of the target network, unless that interface is configured to store items inside itself, in which case it will see those stored items.
 
 # Quest.1304 - Interfacing with Tanks
 gtnh.quest1304.name=Interfacing with Tanks
@@ -5262,7 +5262,7 @@ gtnh.quest1314.desc=Smallest storage component, used to make 1k ME storage cells
 
 # Quest.1315 - 1k Crafting Storage
 gtnh.quest1315.name=1k Crafting Storage
-gtnh.quest1315.desc=Component of the crafting CPU which provides 1024 bytes of storage for crafting. The Crafting Storage blocks are the only necessary part. Each crafting CPU multiblock allows for a separate crafting job (this is different from from sub-tasks of the same job). The more items in the recipe and sub-recipes, the more crafting storage you'll need. Having one big and a couple small might be a good idea, but remember it will try to use the best one available first when you order a craft. They are also used when a crafting card requests a craft, so you'll need several separate ones if you intend to use those a lot. A crafting CPU multiblock uses only one channel, regardless of it's size. It must be square to form.
+gtnh.quest1315.desc=Component of the crafting CPU which provides 1024 bytes of storage for crafting. The Crafting Storage blocks are the only necessary part. Each crafting CPU multiblock allows for a separate crafting job (this is different from sub-tasks of the same job). The more items in the recipe and sub-recipes, the more crafting storage you'll need. Having one big and a couple small might be a good idea, but remember it will try to use the best one available first when you order a craft. They are also used when a crafting card requests a craft, so you'll need several separate ones if you intend to use those a lot. A crafting CPU multiblock uses only one channel, regardless of it's size. It must be square to form.
 
 # Quest.1316 - 4k Item Storage Cell
 gtnh.quest1316.name=4k Item Storage Cell
@@ -5486,7 +5486,7 @@ gtnh.quest1370.desc=The arcane lamp creates additional light sources which acts 
 
 # Quest.1371 - LOX and Bagels
 gtnh.quest1371.name=LOX and Bagels
-gtnh.quest1371.desc=§cNOTE: You cannot directly refill your tanks in a crafting grid anymore!§r%n%nThe LOX canister is an alternate solution to refilling your oxygen tanks.%n%nTo make liquid oxygen you need to put an oxygen cell into a vacuum freeezer to get a cell of liquid oxygen. Transfer this liquid oxygen into a tank, and then into a LOX canister.%n%nTo refill your oxygen tanks just put the tank and the LOX canister in the oxygen compressor to transfer oxygen, or use a oxygen collector.%n%nEach LOX canister can fill 4 Heavy Oxygen Tanks, 6 Medium Oxygen Tanks, or 12 Light Oxygen Tanks.%n%nSo much Greggy!
+gtnh.quest1371.desc=§cNOTE: You cannot directly refill your tanks in a crafting grid anymore!§r%n%nThe LOX canister is an alternate solution to refilling your oxygen tanks.%n%nTo make liquid oxygen you need to put an oxygen cell into a vacuum freezer to get a cell of liquid oxygen. Transfer this liquid oxygen into a tank, and then into a LOX canister.%n%nTo refill your oxygen tanks just put the tank and the LOX canister in the oxygen compressor to transfer oxygen, or use a oxygen collector.%n%nEach LOX canister can fill 4 Heavy Oxygen Tanks, 6 Medium Oxygen Tanks, or 12 Light Oxygen Tanks.%n%nSo much Greggy!
 
 # Quest.1372 - Wand Focus Fire
 gtnh.quest1372.name=Wand Focus Fire
@@ -11846,7 +11846,7 @@ gtnh.quest2960.desc=It will unlock MkIV and MkV fuel.
 
 # Quest.2961 - Naquadah Based Fuel MkI
 gtnh.quest2961.name=Naquadah Based Fuel MkI
-gtnh.quest2961.desc=220 000 EU/t lasting 1s per mB. Doesn't looks very good.
+gtnh.quest2961.desc=220,000 EU/t lasting 1s per mB. Doesn't looks very good.
 
 # Quest.2962 - Naquadah Based Fuel MkII
 gtnh.quest2962.name=Naquadah Based Fuel MkII
@@ -12182,7 +12182,7 @@ gtnh.quest3045.desc=This process is a little involved so I'll guide you through 
 
 # Quest.3046 - §b§lSifting the Goodness Out
 gtnh.quest3046.name=§b§lSifting the Goodness Out
-gtnh.quest3046.desc=Yes, you're seeing right. A fluid sifting recipe! A lot of the materials here won't be good sources in any way, but they're literally better than nothing.%n%nMonazite Sulfate isn't a actual compound btw, just a term for a collection of rare earth sulfates and other things.%n%nI'll only ask for the primary output as who wants to worry about chances?
+gtnh.quest3046.desc=Yes, you're seeing right. A fluid sifting recipe! A lot of the materials here won't be good sources in any way, but they're literally better than nothing.%n%nMonazite Sulfate isn't an actual compound btw, just a term for a collection of rare earth sulfates and other things.%n%nI'll only ask for the primary output as who wants to worry about chances?
 
 # Quest.3047 - §b§lHafnium Line
 gtnh.quest3047.name=§b§lHafnium Line
@@ -12962,7 +12962,7 @@ gtnh.quest3240.desc=Reality itself bends to your will.
 
 # Quest.3241 - Round two... FIGHT!
 gtnh.quest3241.name=Round two... FIGHT!
-gtnh.quest3241.desc=Now craft a Gaia Sprit ingot with your new Gaia Sprit from killing the Gaia guardian.%n%nPut the 4 pylons down and shift right click the Gaia Sprit ingot on the beacon to summon a harder version of Gaia Guardian.
+gtnh.quest3241.desc=Now craft a Gaia Spirit ingot with your new Gaia Spirit from killing the Gaia guardian.%n%nPut the 4 pylons down and shift right click the Gaia Spirit ingot on the beacon to summon a harder version of Gaia Guardian.
 
 # Quest.3242 - UMV Circuits
 gtnh.quest3242.name=UMV Circuits
@@ -12990,7 +12990,7 @@ gtnh.quest3247.desc=This quest should never be complete which is useful to hide 
 
 # Quest.3248 - Dragonblood
 gtnh.quest3248.name=Dragonblood
-gtnh.quest3248.desc=For your first batch of Hypogen you will need some Dragonblood. Maybe you already have some lying arond somewhere from killing the dragon a long time ago. You have 2 other options though. Bees and the DE Fusion Crafter.%n%nFor the bee path you have to go very deep into the breeding tree, but maybe you have already done that? Check the Bee Breeding tab either way.%n%nIn the DE Fusion Crafter you have 2 recipes. The better one uses an Infinity Egg from Witchery. Without any Witchery you can also just a normal dragon egg for the weaker recipe.%n%nOnce you have a bit of Hypogen you can then use that as a starting point to make more in your DTPF without any Dragonblood. I don't know why it works that way, complain to Colen.%n%nHowever, you will still need more Dragonblood eventually for UMV superconductors.%n%n%n§3There is actually another way to get Dragonblood which is similar to the DE Fusion Crafter recipes but in the mixer instead. Its even slower and less resource efficient. In particular, the dragon egg does not survive the process. So only use that if you are absolutely trying to avoid magic and bees.%n%nJust a reminder: a fluid task just needs you to have the fluid in some container in your inventory. (cell, universal cell, large cell, volumetric cell, etc.)
+gtnh.quest3248.desc=For your first batch of Hypogen you will need some Dragonblood. Maybe you already have some lying around somewhere from killing the dragon a long time ago. You have 2 other options though. Bees and the DE Fusion Crafter.%n%nFor the bee path you have to go very deep into the breeding tree, but maybe you have already done that? Check the Bee Breeding tab either way.%n%nIn the DE Fusion Crafter you have 2 recipes. The better one uses an Infinity Egg from Witchery. Without any Witchery you can also just a normal dragon egg for the weaker recipe.%n%nOnce you have a bit of Hypogen you can then use that as a starting point to make more in your DTPF without any Dragonblood. I don't know why it works that way, complain to Colen.%n%nHowever, you will still need more Dragonblood eventually for UMV superconductors.%n%n%n§3There is actually another way to get Dragonblood which is similar to the DE Fusion Crafter recipes but in the mixer instead. Its even slower and less resource efficient. In particular, the dragon egg does not survive the process. So only use that if you are absolutely trying to avoid magic and bees.%n%nJust a reminder: a fluid task just needs you to have the fluid in some container in your inventory. (cell, universal cell, large cell, volumetric cell, etc.)
 
 # Quest.3249 - Wait, PBI wasn't the last plastic?
 gtnh.quest3249.name=Wait, PBI wasn't the last plastic?
