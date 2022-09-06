@@ -1500,49 +1500,49 @@ gtnh.quest373.desc=§6§lExtreme Extermination Chamber§r is your new and probab
 gtnh.quest374.name=That is not storage!
 gtnh.quest374.desc=Caution! Use with utmost care! This cell does exactly what it says. It deletes everything you put on there. So better make sure you have precise control over what can actually go there.
 
-# Quest.375 - §c§l[OUTDATED]§r An interesting material
-gtnh.quest375.name=§c§l[OUTDATED]§r An interesting material
-gtnh.quest375.desc=This metal has quite interesting properties. It seems that it has absorbed some of the energy that exists in the End. While ender pearls are quite fragile, this metal is a lot more durable. However, the absorbed energy is not enough to teleport things around. But you might find a solution for this.
+# Quest.375 - Power, So Much Power!
+gtnh.quest375.name=Power, So Much Power!
+gtnh.quest375.desc=If only I could harness it... Well, hello there my friend. I need your help with a project of mine. I want to create an immense power source, but I have a few problems that I need to solve first. Will you help me? You'll be well rewarded.%n%n§3The quests to get items will trigger the next part once you hold the item in question.
 
-# Quest.376 - §c§l[OUTDATED]§r Gross, what is that...
-gtnh.quest376.name=§c§l[OUTDATED]§r Gross, what is that...
-gtnh.quest376.desc=It's purple, and it smells like rotten eggs. But while staring at this unpleasant fluid, you had an idea. You can't reach the dust directly, but can you actually teleport something in and out the field? Might be worth a try.
+# Quest.376 - I'm Hungry
+gtnh.quest376.name=I'm Hungry
+gtnh.quest376.desc=What... I work a lot! So get me some food please.
 
-# Quest.377 - §c§l[OUTDATED]§r An appropriate focus
-gtnh.quest377.name=§c§l[OUTDATED]§r An appropriate focus
-gtnh.quest377.desc=You've tried a lot, and nothing was quite enough to activate the dust. Until now. You finally found a focus that is able to transmit enough power to cause a heavy reaction with the dust, but not enough to cause problems.
+# Quest.377 - A Casing
+gtnh.quest377.name=A Casing
+gtnh.quest377.desc=I need something for the outer shell. Again, a crystal-based material would be best, because I like it shiny. I tested all crystals I know of and none of them met the requirements. I heard you have access to outer space? Can you try to find a suitable material while you're out there?
 
-# Quest.378 - §c§l[OUTDATED]§r Activated draconium dust
-gtnh.quest378.name=§c§l[OUTDATED]§r Activated draconium dust
-gtnh.quest378.desc=At least for a short period of time. The wand focus is powerful enough to activate the dust, but it will convert back to regular dust as soon as I stop feeding it with vis. If I only could contain it, surround it with a forcefield...
+# Quest.378 - It Needs a Power Plug...
+gtnh.quest378.name=It Needs a Power Plug...
+gtnh.quest378.desc=Given the fact that I will be able to craft this device, it needs some kind of "plug" to get the power out. I need something to conduct immense amounts of power. I thought about superconductors, but they don't fit with the crystal casing material I have in mind. I need 2 different crystals, one for positive and one for negative charge.
 
-# Quest.379 - §c§l[OUTDATED]§r The strongest forcefield
-gtnh.quest379.name=§c§l[OUTDATED]§r The strongest forcefield
-gtnh.quest379.desc=In order to create a forcefield, I need to build myself a containment device. I will use only the best emitters I can afford. I will take no risks here.
+# Quest.379 - I need a stabilizer
+gtnh.quest379.name=I need a stabilizer
+gtnh.quest379.desc=Opening the wormhole is one thing, but I need to stabilize it, so it doesn't harm anything. I guess I need something made of crystal. Why? Because I like it fancy. Find me a crystal-based, transparent material with immense power, would you?
 
-# Quest.380 - §c§l[OUTDATED]§r Not what I expected...
-gtnh.quest380.name=§c§l[OUTDATED]§r Not what I expected...
-gtnh.quest380.desc=The outcome was... interesting. It did not explode, instead, the activated draconium dust generated a counter-field to mine! Unfortunately, the emitters could not stand the reverse energies, and melted. I was able to shut it off quick enough to save the machine casing (At least what's left from it...) And a couple of field generators.
+# Quest.380 - A Problem that Matters
+gtnh.quest380.name=A Problem that Matters
+gtnh.quest380.desc=I need to open a wormhole. But for that, I need an immense gravitational field. One like those created upon the death of a massive star, a black hole. But I can't really "kill" a sun for this. I need to compress matter somehow... But... How? I think I may need a specialized machine for this, one that does not use explosions, as that won't get dense enough.
 
-# Quest.381 - §c§l[OUTDATED]§r Forcefield, second try
-gtnh.quest381.name=§c§l[OUTDATED]§r Forcefield, second try
-gtnh.quest381.desc=I came to the following conclusion: Draconium dust seems to react nicely with all kinds of magic energy, and seems to repel technology. So I need to find a way to create a forcefield with magic alone. There must be a way. This should be pretty similar to controlling dangerous nodes...
+# Quest.381 - Fancy!
+gtnh.quest381.name=Fancy!
+gtnh.quest381.desc=Yes. Yes! That's it! Bring me more of this stuff! I probably need a lot of it...
 
-# Quest.382 - §c§l[OUTDATED]§r A magic force field
-gtnh.quest382.name=§c§l[OUTDATED]§r A magic force field
-gtnh.quest382.desc=While node stabilizers are too weak, you found a way to generate a strong containment field, generated by magic itself. You tried to use warded glass, but even the "frozen in spacetime" material could not resist the power of activated draconium dust. You decided to build another device, this time with your newest invention.%n%nThe vortex attenuator is powerful enough to negate even hungry nodes, and it also will be able to contain activated draconium dust.%n%nJust to be sure, I will add some amplifiers to it.
+# Quest.382 - Red and Blue
+gtnh.quest382.name=Red and Blue
+gtnh.quest382.desc=Really? A red and blue crystal? How awesome is that! I think I will need 8 of each color, just to be sure.
 
-# Quest.383 - §c§l[OUTDATED]§r What the...?
-gtnh.quest383.name=§c§l[OUTDATED]§r What the...?
-gtnh.quest383.desc=The device works! It is able to fully contain and separate the draconium dust from everything around it! Unfortunately... It also prevents the vis from passing the barrier, which results in regular draconium dust... In a forcefield...
+# Quest.383 - Shiny!
+gtnh.quest383.name=Shiny!
+gtnh.quest383.desc=What in the world is this? This is amazing! I need more of these! They will be an amazing containment material for the wormhole!
 
-# Quest.384 - §c§l[OUTDATED]§r Looking for alternatives
-gtnh.quest384.name=§c§l[OUTDATED]§r Looking for alternatives
-gtnh.quest384.desc=It is frustrating. Either you are able to contain the dust but can't activate it, or, you activate it and it causes serious damage. Maybe you need to find answers somewhere else.%n%nDraconic... Like... Dragon?
+# Quest.384 - Now that Matters!
+gtnh.quest384.name=Now that Matters!
+gtnh.quest384.desc=Of course! The matter condenser! How come I didn't think of that?
 
-# Quest.385 - §c§l[OUTDATED]§r Draconic... Like... Dragon?
-gtnh.quest385.name=§c§l[OUTDATED]§r Draconic... Like... Dragon?
-gtnh.quest385.desc=Maybe you where looking for the right things in the wrong place. As this dust obviously comes from dragons, the best thing to do now is to find answers in the dimension of dragons: The End.
+# Quest.385 - A Few More Things...
+gtnh.quest385.name=A Few More Things...
+gtnh.quest385.desc=Ok, I think I have everything I need to assemble the device. Can you assist me with some additional materials? I need to update some of my machines, as these exotic components you got me damaged some of them already. Don't worry, I have a list here.%n%nSome of my circuits burned to a crisp while I was trying to measure the conductivity of these soul and life shards. I need better ones.%n%nGood lord, these mysterious crystals have eaten away my diamond grinding head! How could that happen? Can you get me a better one?%n%nDo you see that pile of Rhodium and Palladium over there? No? Neither do I. Because the machine was VAPORIZED! Good that you gave me 2 singularities, the first one... Well... Just get me a better casing, would you?%n%nIt seems, that the stabilizers need... stabilizing... But I'm out of field generators. Can you help me with this?
 
 # Quest.386 - §c§l[OUTDATED]§r Weird creatures
 gtnh.quest386.name=§c§l[OUTDATED]§r Weird creatures
@@ -1808,20 +1808,20 @@ gtnh.quest450.desc=Since you can't make a vanilla bow before LV and Tinkers weap
 gtnh.quest451.name=Trigger LoC
 gtnh.quest451.desc=Triggered by having a "Lamp of Cinders" in your inventory.
 
-# Quest.452 - §c§l[OUTDATED]§r Trigger Singularity
-gtnh.quest452.name=§c§l[OUTDATED]§r Trigger Singularity
+# Quest.452 - Trigger Singularity
+gtnh.quest452.name=Trigger Singularity
 gtnh.quest452.desc=Triggered by making a singularity.
 
-# Quest.453 - §c§l[OUTDATED]§r Trigger Shard of Creation
-gtnh.quest453.name=§c§l[OUTDATED]§r Trigger Shard of Creation
+# Quest.453 - Trigger Shard of Creation
+gtnh.quest453.name=Trigger Shard of Creation
 gtnh.quest453.desc=Triggered by making a "Shard of Creation".
 
-# Quest.454 - §c§l[OUTDATED]§r Trigger Life and Soul Shard
-gtnh.quest454.name=§c§l[OUTDATED]§r Trigger Life and Soul Shard
+# Quest.454 - Trigger Life and Soul Shard
+gtnh.quest454.name=Trigger Life and Soul Shard
 gtnh.quest454.desc=Triggered by making a "Life Shard" and a "Soul Shard".
 
-# Quest.455 - §c§l[OUTDATED]§r Trigger Unknown Crystal
-gtnh.quest455.name=§c§l[OUTDATED]§r Trigger Unknown Crystal
+# Quest.455 - Trigger Unknown Crystal
+gtnh.quest455.name=Trigger Unknown Crystal
 gtnh.quest455.desc=Triggered by finding a "Mysterious Crystal".
 
 # Quest.456 - Trigger Life
@@ -10442,7 +10442,7 @@ gtnh.quest2609.desc=If you want some of this highly mysterious material, you'll 
 
 # Quest.2610 - Tier 7 (ZPM)
 gtnh.quest2610.name=Tier 7 (ZPM)
-gtnh.quest2610.desc=The ZPM tier. Speaking of ZPM, did you know the name is based on the Zero Point Module from the show Stargate SG-1, which continues the story of the movie? It's a great show, go watch it! You can also get one for completing the first half of the Legendary Quests tab.
+gtnh.quest2610.desc=The ZPM tier. Speaking of ZPM, did you know the name is based on the Zero Point Module from the show Stargate SG-1, which continues the story of the movie? It's a great show, go watch it! Maybe you have already found a depleted ZPM in the world generation. If you find some help, maybe you can even create a completely new one.
 
 # Quest.2611 - You Cant Get Enough of This Pt 1 in ZPM
 gtnh.quest2611.name=You Cant Get Enough of This Pt 1 in ZPM
@@ -13004,9 +13004,9 @@ gtnh.quest3249.desc=Let's make a brand new plastic! The trees that you found on 
 gtnh.quest3250.name=AE2 Fluid Crafting
 gtnh.quest3250.desc=Well well well, what do we have here? Flasks are redundant now? NO WAY! %nAnyway, while you can listen to those who swear flasks are *the shit* and *the only way* you can automate fluid crafting and Assline, you can use this powerful addon backported by GlodBlock. All praise our king!%n%nNow, what do you need to get that juicy stuff working?%nEvery ME System needs a Fluid Discretizer. It allows for on demand crafting. While you can use AE2FC without Fluid Discretizer for moving fluids, you need a Discretizer for autocrafting.%n%nThen you also need a fluid terminal or a fluid processing terminal for assembly line. %n%nWhen creating patterns you will notice your fluids being placed as if they were items. %nYour finished patterns will look blue-ish. Placing those in a Dual Interface will allow AE2 to push the fluids and items both. Note. Fluids are being sent first, then items.%nYou can switch the dual interface on the top right if you want it to keep fluids in stock. %n%nIf you use a blue pattern (fluid pattern) in a normal interface, AE2 will send the fluid as a fluid packet. This is just a representation of the fluid as an item. A fluid decoder can turn it back into a fluid and saves it in the fluid grid.%nWe use this feature for Assline. %n%nYou can use an ingredient buffer (large or normal) so your items and fluids sent by a pattern can get stored internally in one block. The normal buffer can hold 9 items and 4 fluids whereas the large one can hold 27 items and 7 fluids.%nYou can use it to automate multiblocks with e.g item and fluid conduits. %n%nIf you want to automate single blocks its as easy as eating chocolate cake while on your diet:%nMake the pattern, make an interface, boom- done!%nIt will automatically insert the fluid in the fluid inventory of a single block machine. %n%nAutomating Assembly line is easy. It follows the typical flask setup but replaces tanks with fluid decoders and a fluid storage bus to insert the fluids. Also we are sending fluids first, then items by using the priority button (made by Runakai and Rukern) in the fluid processing terminal. Make sure to give the decoders their own sub-mes. If you need more detailled information, visit the wiki:%n%nhttps://gtnh.miraheze.org/wiki/AE2FC%n%nYou can use ExtraCells and AE2FC in combination. However, AE2FC cells are recommended. There is no Fluid Monitor or Storage Bus from AE2FC so use ExtraCells for those. %n
 
-# Quest.3251 - Zero Point Module
-gtnh.quest3251.name=Zero Point Module
-gtnh.quest3251.desc=I have found plans from a long forgotten civilization for a very powerful device. They call it a Zero Point Module or for short a ZPM.%n%nIt lets you harvest energy from a pocket in subspace-time. That requires a lot of difficult ingredients. Help me out here, please.%n%nFirst, we need to make a singularity by compressing ridicolous amounts of matter into a single point. Of course, we also need some special crystals and two field generators to stabilize the wormhole. To make it actually useful, I will need to wire it up. That requires a bit of machinery and circuits, too.%n%nAnd finally, since I will get quite hungry while assembling this, you better get me some pizza as well.
+# Quest.3251 - The Final Goal
+gtnh.quest3251.name=The Final Goal
+gtnh.quest3251.desc=Thanks to your help I have managed to create the ultimate energy source: An encased wormhole that drains energy from a synthesized pocket universe, to the point when it reaches heat death. I have no use for it, so you may have it. Thank you for making my dream come true!
 
 ##################################Line##################################
 
