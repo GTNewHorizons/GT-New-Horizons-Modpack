@@ -20,7 +20,7 @@
         <itemStack oreDictionary="plateSoularium" slot="0" />
         <itemStack modID="minecraft" itemName="skull" itemMeta="2" slot="1" />
         <itemStack oreDictionary="plateSoularium" slot="2" />
-        <itemStack oreDictionary="plateSiliconSolarGradeSolarGrade" slot="3" />
+        <itemStack oreDictionary="plateSiliconSolarGrade" slot="3" />
         <itemStack oreDictionary="plateRedAlloy" slot="4" />
         <itemStack oreDictionary="plateSiliconSolarGrade" slot="5" />
       </input>
