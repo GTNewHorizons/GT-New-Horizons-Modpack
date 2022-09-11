@@ -199,6 +199,7 @@ Assembler.addRecipe(Wood2CopperUp, [WPlank, DoubleCopperPlate * 3, <gregtech:gt.
 
 // --- Iron Chest
 Assembler.addRecipe(IronChest, Chest, DoubleIronPlate * 3, 150, 16);
+Assembler.addRecipe(IronChest, CopperChest, DoubleIronPlate, 150, 16);
 
 // --- Upgrade Wood to Iron
 Assembler.addRecipe(Wood2IronUp, [WPlank, DoubleIronPlate * 3, <gregtech:gt.integrated_circuit:2> * 0], null, 300, 30);
@@ -208,12 +209,15 @@ Assembler.addRecipe(Copper2IronUp, [CopperPlate, DoubleIronPlate, <gregtech:gt.i
 
 // --- Steel Chest
 Assembler.addRecipe(SteelChest, Chest, DoubleSteelPlate * 3, 200, 30);
+Assembler.addRecipe(SteelChest, CopperChest, DoubleSteelPlate, 200, 30);
 
 // --- Upgrade Copper to Steel
 Assembler.addRecipe(Copper2SteelUp, [CopperPlate, DoubleSteelPlate, <gregtech:gt.integrated_circuit:2> * 0], null, 400, 30);
 
 // --- Gold Chest
 Assembler.addRecipe(GoldChest, Chest, DoubleGoldPlate * 3, 250, 64);
+Assembler.addRecipe(GoldChest, IronChest, DoubleGoldPlate, 250, 64);
+Assembler.addRecipe(GoldChest, SteelChest, DoubleGoldPlate, 250, 64);
 
 // --- Upgrade Iron to Gold
 Assembler.addRecipe(Iron2GoldUp, [IronPlate, DoubleGoldPlate, <gregtech:gt.integrated_circuit:2> * 0], null, 500, 64);
@@ -223,6 +227,7 @@ Assembler.addRecipe(Steel2GoldUp, [SteelPlate, DoubleGoldPlate, <gregtech:gt.int
 
 // --- Diamond Chest
 Assembler.addRecipe(DiamondChest, Chest, DiamondPlate * 4, 300, 120);
+Assembler.addRecipe(DiamondChest, GoldChest, DiamondPlate * 2, 300, 120);
 
 // --- Upgrade Gold to Diamond
 Assembler.addRecipe(Gold2DiamondUp, [GoldPlate, DiamondPlate * 2, <gregtech:gt.integrated_circuit:2> * 0], null, 600, 120);
