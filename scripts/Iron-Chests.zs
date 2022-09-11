@@ -239,7 +239,7 @@ Assembler.addRecipe(CrystalChest, DiamondChest, GlassPlate * 4, 350, 256);
 Assembler.addRecipe(Diamond2CrystalUp, [DiamondPlate, GlassPlate * 2, <gregtech:gt.integrated_circuit:2> * 0], null, 700, 256);
 
 // --- Obsidian Chest
-Assembler.addRecipe(ObsidianChest, DiamondChest, DenseObsidianPlate * 3, 400, 256);
+Assembler.addRecipe(ObsidianChest, [DiamondChest, DenseObsidianPlate * 3, <gregtech:gt.integrated_circuit:1> * 0], null, 400, 256);
 
 // --- Upgrade Diamond to Obsidian
 Assembler.addRecipe(Diamond2ObsidianUp, [DiamondPlate, DenseObsidianPlate, <gregtech:gt.integrated_circuit:2> * 0], null, 800, 256);
