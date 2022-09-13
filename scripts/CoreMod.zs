@@ -1579,7 +1579,7 @@ mods.thaumcraft.Research.addPage("PORTALDEEPDARK", "ExtraUtilities.research_page
 game.setLocalization("ExtraUtilities.research_page.PORTALDEEPDARK", "As an experienced miner you naturally wish to mine deeper and further than ever before into areas of natural wealth. The deep dark is a realm far below the void, filled with natural resources and deadly enemies. Some say that the darkness within this realm is alive and will consume any unlucky adventurer who wanders too far into it. Remember to bring torches. Torches will not protect you completely, however since mobs will spawn at all light levels in the Deep Dark. Magnum torches and Chandeliers will still prevent mob spawning.");
 mods.thaumcraft.Infusion.addRecipe("PORTALDEEPDARK", <gregtech:gt.blockreinforced:12>, [<gregtech:gt.metaitem.01:32046>, <eternalsingularity:eternal_singularity>, <gregtech:gt.metaitem.01:32046>, <eternalsingularity:eternal_singularity>, <gregtech:gt.metaitem.01:32046>, <eternalsingularity:eternal_singularity>, <gregtech:gt.metaitem.01:32046>, <eternalsingularity:eternal_singularity>], "vacuos 512, tempus 512, luxuria 512, alienis 512, terminus 512, gula 512, superbia 512" ,  <ExtraUtilities:dark_portal>, 64);
 mods.thaumcraft.Research.addInfusionPage("PORTALDEEPDARK", <ExtraUtilities:dark_portal>);
-mods.thaumcraft.Warp.addToResearch("PORTALDEEPDARK", 64);
+mods.thaumcraft.Warp.addToResearch("PORTALDEEPDARK", 32);
 
 // --- Magical Wood
 mods.thaumcraft.Research.addResearch("MAGICALWOOD", "NEWHORIZONS", "praecantatio 15, lucrum 12, arbor 9, cognitio 6, pannus 3", -2 as int, 6, 4, MagicalWood);
