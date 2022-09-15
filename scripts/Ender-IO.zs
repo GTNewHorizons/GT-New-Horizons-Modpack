@@ -1367,6 +1367,10 @@ Assembler.addRecipe(<EnderIO:blockCrafter>, [<BuildCraft|Factory:autoWorkbenchBl
 // --- Machine Chassis
 Assembler.addRecipe(MCasing, [Capacitor, ESteelPlate * 2, SteelCasing * 2], null, 200, 64);
 
+// --- Reinforced Obsidian
+Assembler.addRecipe(<EnderIO:blockReinforcedObsidian>, [Obsidian, DarkSteelPlate * 2, DarkSteelBars * 2, <gregtech:gt.integrated_circuit:1> * 0], null, 600, 120);
+
+
 
 // --- Chemical Bath
 
