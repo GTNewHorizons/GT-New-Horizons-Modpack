@@ -2198,7 +2198,7 @@ gtnh.quest548.desc=You can distill your oil into light sulfuric fuel, that has a
 
 # Quest.549 - §5§lLight Fuel
 gtnh.quest549.name=§5§lLight Fuel
-gtnh.quest549.desc=By adding hydrogen to sulfuric light fuel in a chemical reactor you can produce light fuel with the very high burn value of 305,000 EU per cell.%n%nThe remaining hydrogen sulfide can be used to produce sulfuric acid for, well, tons of stuff. You can never have enough of it!
+gtnh.quest549.desc=By adding hydrogen to sulfuric light fuel in a chemical reactor you can produce light fuel with the very high burn value of 305,000 EU per cell.%n%nThe remaining hydrogen sulfide can be used to produce sulfuric acid for, well, tons of stuff. You can never have enough of it!%n%nYou can crack it in a chemical reactor and then distill it to get ethylene for polyethylene.
 
 # Quest.550 - §5§lH for Hydrogen... the Rest of the Alphabet is Too Complicated...
 gtnh.quest550.name=§5§lH for Hydrogen... the Rest of the Alphabet is Too Complicated...
@@ -2566,7 +2566,7 @@ gtnh.quest640.desc=Centrifuging Butane or Propane gives you LPG with a burn valu
 
 # Quest.641 - §5§lNaphtha
 gtnh.quest641.name=§5§lNaphtha
-gtnh.quest641.desc=You can process sulfuric naphtha to fluid naphtha which has a burn value of 320,000 EU in the gas turbine.%n%nNaphtha can be used to get ethylene for polyethylene (more than the other 3 at least) and also to make polycaprolactam - a totally useless material only for making string, which you probably have tons of from your cotton farm.%n%nYou'll need to crack it in a chemical reactor and then distill it again for ethylene.
+gtnh.quest641.desc=You can process sulfuric naphtha to fluid naphtha which has a burn value of 320,000 EU in the gas turbine.%n%nNaphtha can be used to get ethylene for polyethylene though using light fuel is more oil efficient. You can also make polycaprolactam - a totally useless material only for making string, which you probably have tons of from your cotton farm.
 
 # Quest.642 - §5§lSulfuric Gas
 gtnh.quest642.name=§5§lSulfuric Gas
@@ -8190,7 +8190,7 @@ gtnh.quest2046.desc=Now that you have lead you can convert your bronze pipes to 
 
 # Quest.2047 - §5§lCircuit Programming
 gtnh.quest2047.name=§5§lCircuit Programming
-gtnh.quest2047.desc=Some machines have many, many recipes. To avoid conflicts recipes include programmed circuits to choose the right one.%n%nYou have multiple options on how to do so:%n%n1) Every GregTech singleblock machine now comes with a icon on the bottom right that represent a ghost circuit. Click it or scroll to choose the number you need. You don't have to insert a physical circuit in this case! However this is not possible for any multiblock machines.%n%nAlternatively you can turn an LV circuit into a programmed circuit in the crafting grid and then program it in various ways:%n%n2) Find the correct crafting recipe with a screwdriver in NEI and use that.%n%n3) Rightclick while holding the programmed circuit to open an easy menu. You still need to at least have the screwdriver in your inventory though or it won't work. Eventually you can also make an electric screwdriver.%n%n4) Use the BartWorks Circuit Programmer. It is only available in MV. But it does not use any durability and runs on EU.%n%n5) Use the GT++ Circuit Programmer block. It isn't portable and only available in MV. But it allows for automation.
+gtnh.quest2047.desc=Some machines have many, many recipes. To avoid conflicts recipes include programmed circuits to choose the right one.%n%nYou have multiple options on how to do so:%n%n1) Every GregTech singleblock machine now comes with a icon on the bottom right that represent a ghost circuit. Click it or scroll to choose the number you need. You don't have to insert a physical circuit, this is going to be your main option for all single block machines. However this is not possible for any multiblock machines.%n%nAlternatively you can turn an LV circuit into a programmed circuit in the crafting grid and then program it in various ways:%n%n2) Find the correct crafting recipe with a screwdriver in NEI and use that.%n%n3) Rightclick while holding the programmed circuit to open an easy menu. You still need to at least have the screwdriver in your inventory though or it won't work. Eventually you can also make an electric screwdriver.%n%n4) Use the BartWorks Circuit Programmer. It is only available in MV. But it does not use any durability and runs on EU.%n%n5) Use the GT++ Circuit Programmer block. It isn't portable and only available in MV. But it allows for automation.
 
 # Quest.2048 - Moss
 gtnh.quest2048.name=Moss
@@ -11446,7 +11446,7 @@ gtnh.quest2860.desc=To transfer RF power more than 1 block, you'll want some kin
 
 # Quest.2861 - §5§lPrison Gangs are Obsolete
 gtnh.quest2861.name=§5§lPrison Gangs are Obsolete
-gtnh.quest2861.desc=Want lots of cobble, stone, or obsidian? This is the machine for you!%n%nCobble: Water and lava on 2 of the sides.%nStone: Water on a side, lava on top.%nObsidian: Either of the above, and redstone in the machine%n%nYou of course need to power it. If you don't want to spend power on cobble, do it the ExU way with the WIU.
+gtnh.quest2861.desc=Want lots of cobble, stone, or obsidian? This is the machine for you!%n%nCobble: Water and lava on 2 of the sides.%nStone: Water on a side, lava on top.%nObsidian: Either of the above, and redstone in the machine.%n%nYou of course need to power it. If you don't want to spend power on cobble, do it the ExU way with the WIU.%n%n§3You need to toggle the ghost circuit to circuit 1 to get obsidian.%n
 
 # Quest.2862 - Coast Sequoia
 gtnh.quest2862.name=Coast Sequoia
