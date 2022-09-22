@@ -182,7 +182,7 @@ gtnh.quest44.desc=Welcome, and well done so far! This tier is all about your fir
 
 # Quest.45 - §6§lMultiblock Tanks... Railcraft Tanks
 gtnh.quest45.name=§6§lMultiblock Tanks... Railcraft Tanks
-gtnh.quest45.desc=576 buckets of fluid, that should be enough to store all the creosote you have accumulated thus far. If that isn't enough you can make this tank bigger. The smallest tanks are 3x4x3 while the biggest are 9x8x9.%n%nHint: Fluid will auto-output (without any pumps) if you place a valve on the bottom side of the tank. The output rate is 1000 L/t so twice as fast as a GT HV Pump Cover. You can color the tank with Buildcraft paintbrushes and the GT spray can.%n%nUse only Buckets to move fluids because cells get destroyed.
+gtnh.quest45.desc=576 buckets of fluid, that should be enough to store all the creosote you have accumulated thus far. If that isn't enough you can make this tank bigger. The smallest tanks are 3x4x3 while the biggest are 9x8x9.%n%nHint: Fluid will auto-output (without any pumps) if you place a valve on the bottom side of the tank. The output rate is 1000 L/t so twice as fast as a GT HV Pump Cover. You can color the tank with Buildcraft paintbrushes and the GT spray can.
 
 # Quest.46 - §3§lMore Advanced Alloys
 gtnh.quest46.name=§3§lMore Advanced Alloys
@@ -250,7 +250,7 @@ gtnh.quest61.desc=With a more durable steel casing, you can use lava to make ste
 
 # Quest.62 - §3§lThe Power of the Sun
 gtnh.quest62.name=§3§lThe Power of the Sun
-gtnh.quest62.desc=The sun has quite a bit of power, so why not use it to produce steam? %n%nFill it with water on the bottom side to produce steam. Unlike the other boilers, this only outputs steam on the output port side.%n%n§4Hint: The solar boiler calcifies and becomes less efficient over time. It will heat up fast, so make sure you are ready with water.
+gtnh.quest62.desc=The sun has quite a bit of power, so why not use it to produce steam? %n%nFill it with water on the bottom side to produce steam. Unlike the other boilers, this only outputs steam on the output port side.%n%n§4Hint: The solar boiler calcifies and becomes less efficient over time. Later on you can consider using distilled water to avoid calcification.
 
 # Quest.63 - §3§lUsing Steam to Cook Things
 gtnh.quest63.name=§3§lUsing Steam to Cook Things
@@ -342,7 +342,7 @@ gtnh.quest84.desc=With your brand new alloy smelter you are able to combine two 
 
 # Quest.85 - §6§lSmelt All the Things Stack-Wise...
 gtnh.quest85.name=§6§lSmelt All the Things Stack-Wise...
-gtnh.quest85.desc=...with this great invention! Uses power to smelt up to 2 stacks of items at once! Can't go any faster! Unless you use better coils, of course.
+gtnh.quest85.desc=...with this great invention! Upgrade power and coils to smelt absolutely ridiculous amounts of items.
 
 # Quest.86 - §6§lTungstensteel Coil Upgrade
 gtnh.quest86.name=§6§lTungstensteel Coil Upgrade
@@ -1560,13 +1560,13 @@ gtnh.quest388.desc=You have tinkered long and hard to try to combine magic and t
 gtnh.quest389.name=§c§l[OUTDATED]§r Draconic evolution
 gtnh.quest389.desc=I found a way to combine technology and magic into something fantastic. A shiny blue emblem that emits immense amount of energy. I've decided to call it the draconic core. Make one for yourself!
 
-# Quest.390 - §c§l[OUTDATED]§r Ichorium
-gtnh.quest390.name=§c§l[OUTDATED]§r Ichorium
-gtnh.quest390.desc=This new metal is quite expensive, and has an awesome hardness and is very resillient, to a point where mundane materials could never get.%nI think I can finally assemble the final frame.
+# Quest.390 - Indium
+gtnh.quest390.name=Indium
+gtnh.quest390.desc=This bee is pretty overpowered. Use it while you can, I see a nerf in its future.
 
-# Quest.391 - §c§l[OUTDATED]§r Automated evolution
-gtnh.quest391.name=§c§l[OUTDATED]§r Automated evolution
-gtnh.quest391.desc=The machine is working pretty well, but it's tedious to fill in the reagents manually. But you have an idea, you could use a few basic components to fully automate the process.%n%nYou can use robot arms and conveyor modules to automate the input and output.%n%nObviously, you need to power the machines. A solar panel will do just fine.%n%nIn order to automate the catalyst, you need a few things. One golem will gather basic materials, while the second one will hunt creepers and ghasts for the more valuable ingredients.%n%nYou found a way to re-use the singularity, so you only need to get some sand. Luckily, the golem that works on the catalyst will be able to get glass too. He just needs a little additional motivation.%n%nYour golems need light, obviously. Also, it would be nice if there are some signal lamps that indicate the status of the process. Would it not?
+# Quest.391 - Osmium
+gtnh.quest391.name=Osmium
+gtnh.quest391.desc=Quite the interesting bee. Maybe integrate it into your osmium processing?
 
 # Quest.392 - §c§l[OUTDATED]§r Activated teleport gem
 gtnh.quest392.name=§c§l[OUTDATED]§r Activated teleport gem
@@ -1910,7 +1910,7 @@ gtnh.quest476.desc=To process more advanced materials like naquadah alloy you ne
 
 # Quest.477 - §6§lNaquadah Alloy Coil Upgrade
 gtnh.quest477.name=§6§lNaquadah Alloy Coil Upgrade
-gtnh.quest477.desc=This one is optional now. If you don't need the reward, you can just skip this.
+gtnh.quest477.desc=This one is optional now. But still very useful and recommended.
 
 # Quest.478 - §3§lFlint and Steel
 gtnh.quest478.name=§3§lFlint and Steel
@@ -6082,7 +6082,7 @@ gtnh.quest1519.desc=How about large steel fluid cells instead? Each holds 8000L,
 
 # Quest.1520 - §6§lLarge Aluminium Fluid Cells
 gtnh.quest1520.name=§6§lLarge Aluminium Fluid Cells
-gtnh.quest1520.desc=512 buckets in a stack not cutting it? Aluminium cells can hold 32 buckets per cell, and stack to 64. 2,048 buckets in a single stack? That's half a supertank!%n%nIf you're trying to get water, unfortunately the larger cells don't really work well with the RC Water Tanks, try moving the water to one of the GregTech or GT++ tanks such as the ultra low voltage fluid tank or super tank first. You need to at least match the capacity of the cell with the tank for them to be able to fill/empty them, the same for hatches.
+gtnh.quest1520.desc=512 buckets in a stack not cutting it? Aluminium cells can hold 32 buckets per cell, and stack to 64. 2,048 buckets in a single stack? That's half a supertank!
 
 # Quest.1521 - §9§lSeparating Gems From the Dust
 gtnh.quest1521.name=§9§lSeparating Gems From the Dust
@@ -7250,7 +7250,7 @@ gtnh.quest1811.desc=4000 buckets not enough storage? Stockpiling diesel for a li
 
 # Quest.1812 - §9§lTeflon Don
 gtnh.quest1812.name=§9§lTeflon Don
-gtnh.quest1812.desc=To make PTFE, aka Teflon, you only need a few steps.  %n%nThe first one is hydrofluoric acid. If you haven't reached the moon yet, the best sources for fluorine are mining calcite or sandstone for a chance at fluorite ore, and centrifuging stone dust or black granite dust for biotite. You can also get small amounts from Lepidolite in salt veins and Mica. Mix it with some hydrogen to get hydrofluoric acid.%n%nIf you have reached the moon, process Bastnasite ore.
+gtnh.quest1812.desc=To make PTFE, aka Teflon, you only need a few steps.  %n%nThe first one is hydrofluoric acid. If you haven't reached the moon yet, the best sources for fluorine might be cryolite. Other options are mining calcite or sandstone for a chance at fluorite ore, and centrifuging stone dust or black granite dust for biotite. You can also get small amounts from Lepidolite in salt veins and Mica. Mix it with some hydrogen to get hydrofluoric acid.%n%nIf you have reached the moon, you can also process Bastnasite ore.
 
 # Quest.1813 - §9§lChloroform
 gtnh.quest1813.name=§9§lChloroform
@@ -7578,7 +7578,7 @@ gtnh.quest1893.desc=Turbines require precise amounts of fluids or else they will
 
 # Quest.1894 - §6§lGas Turbine
 gtnh.quest1894.name=§6§lGas Turbine
-gtnh.quest1894.desc=A Large Gas Turbine is more fuel-efficient than singleblock turbines, and can have lower pollution output with upgraded mufflers.%n%nYou will also need a Muffler and Dynamo Hatch to complete the multiblock. Don't forget to use a Fluid Regulator, to control the flow rate into the multi! It can usually be an LV Fluid Regulator, since the optimal flow is much lower here than in Steam Turbines.%n%nEach turbine material has a specific fuel efficiency (the higher, the more EU you get from the same amount of fuel), and the multi only reaches this efficiency if the fuel flow into it matches the optimal flow.%n%nIf you go beyond the optimal flow, you will get a higher EU/t value, but less fuel efficiency, and the maximum EU/t value depends on the turbine type and its Overflow Efficiency tier. For this type of turbine, tier 1 reaches the max at 150% of optimal flow to produce 112% of the EU/t, tier 2 reaches the max at 300% of optimal flow to produce 180% of the EU/t and tier 3 reaches the max at 450% of optimal flow to produce 252% of the EU/t. The closer you get to this maximum, the more fuel efficiency you're throwing away.%n%nThe best turbine materials For additional choices, see the spreadsheet and Large Turbine Calculator.
+gtnh.quest1894.desc=A Large Gas Turbine is more fuel-efficient than singleblock turbines, and can have lower pollution output with upgraded mufflers.%n%nYou will also need a Muffler and Dynamo Hatch to complete the multiblock. Don't forget to use a Fluid Regulator, to control the flow rate into the multi! It can usually be an LV Fluid Regulator, since the optimal flow is much lower here than in Steam Turbines.%n%nEach turbine material has a specific fuel efficiency (the higher, the more EU you get from the same amount of fuel), and the multi only reaches this efficiency if the fuel flow into it matches the optimal flow.%n%nIf you go beyond the optimal flow, you will get a higher EU/t value, but less fuel efficiency, and the maximum EU/t value depends on the turbine type and its Overflow Efficiency tier. For this type of turbine, tier 1 reaches the max at 150% of optimal flow to produce 112% of the EU/t, tier 2 reaches the max at 300% of optimal flow to produce 180% of the EU/t and tier 3 reaches the max at 450% of optimal flow to produce 252% of the EU/t. The closer you get to this maximum, the more fuel efficiency you're throwing away.%n%nFor the best turbine materials, see the spreadsheet and Large Turbine Calculator.%n%n§4Going forward, the LGT will be capped at 8096 eu/t. You will need to use the advanced large gas turbine beyond that which can only take high value fuels.%n%n%n%n
 
 # Quest.1895 - Manganese Ore
 gtnh.quest1895.name=Manganese Ore
@@ -7594,7 +7594,7 @@ gtnh.quest1897.desc=They're so not worth it I'm just going to give you back the 
 
 # Quest.1898 - §5§l§6§lMV Advanced Steam Boiler
 gtnh.quest1898.name=§5§l§6§lMV Advanced Steam Boiler
-gtnh.quest1898.desc=The MV GT++ Steam Boiler is the next machine you can make to produce steam efficiently. Aside from producing one MV amp of Steam, it regulates its fuel more efficiently if it ends up being full.
+gtnh.quest1898.desc=The MV GT++ Steam Boiler is the next machine you can make to produce steam efficiently. It regulates its fuel more efficiently if it ends up being full.
 
 # Quest.1899 - §a§lDouble the Fun
 gtnh.quest1899.name=§a§lDouble the Fun
@@ -7606,7 +7606,7 @@ gtnh.quest1900.desc=After your rods have finished their cycle they turn into dep
 
 # Quest.1901 - §5§l§6§l§9§lHV Advanced Steam Boiler
 gtnh.quest1901.name=§5§l§6§l§9§lHV Advanced Steam Boiler
-gtnh.quest1901.desc=The HV GT++ Steam Boiler is the next machine you can make to produce steam efficiently. Aside from producing one HV amp of Steam, it regulates its fuel more efficiently if it ends up being full.
+gtnh.quest1901.desc=The HV GT++ Steam Boiler is the next machine you can make to produce steam efficiently. It regulates its fuel more efficiently if it ends up being full.
 
 # Quest.1902 - §a§lNo Boom Tomorrow
 gtnh.quest1902.name=§a§lNo Boom Tomorrow
@@ -9558,7 +9558,7 @@ gtnh.quest2388.desc=Due to a mod conflict, you can't make Wormwood the normal wa
 
 # Quest.2389 - §3§lHP Solar Boilers
 gtnh.quest2389.name=§3§lHP Solar Boilers
-gtnh.quest2389.desc=Once you have some steam machines, you can make HP solar boilers. They have more steam output per second. Otherwise they are the same as normal solar boilers.%n%nFill it with water on the bottom side to produce steam. Unlike the other boilers, this only outputs steam on the output port side.%n%n§4Hint: The solar boiler calcifies and becomes less efficient over time. The HP solar boiler will heat up §lvery §r§c§4fast, so make sure you are ready with water.%n%n§3You'll need silver from the Twilight Forest (LV+) or from small ores for this.
+gtnh.quest2389.desc=Once you have some steam machines, you can make HP solar boilers. They have more steam output per second. Otherwise they are the same as normal solar boilers.%n%nFill it with water on the bottom side to produce steam. Unlike the other boilers, this only outputs steam on the output port side.%n%n§4Hint: The solar boiler calcifies and becomes less efficient over time. Later on you can consider using distilled water to avoid calcification.%n%n§3You'll need silver from the Twilight Forest (LV+) or from small ores for this.
 
 # Quest.2390 - §a§lJust Enough Tungstensteel For Your Rocket
 gtnh.quest2390.name=§a§lJust Enough Tungstensteel For Your Rocket
@@ -10834,7 +10834,7 @@ gtnh.quest2707.desc=Every rocket needs a nose cone. Tier 7 rocket needs a heavy 
 
 # Quest.2708 - Pluto Dungeon
 gtnh.quest2708.name=Pluto Dungeon
-gtnh.quest2708.desc=Go get the final schematic, for the tier 8 rocket.%n%nThis will open a lot of planets outside of our solar system such as Barnarda.
+gtnh.quest2708.desc=Go get the final schematic, for the tier 8 rocket. You can also find the draconic core schematic here!%n%nThis will open a lot of planets outside of our solar system such as Barnarda.
 
 # Quest.2709 - Booster Tier 4
 gtnh.quest2709.name=Booster Tier 4
@@ -11426,7 +11426,7 @@ gtnh.quest2855.desc=What if... you could send essentia from a different location
 
 # Quest.2856 - §6§lAdvanced MB Construction
 gtnh.quest2856.name=§6§lAdvanced MB Construction
-gtnh.quest2856.desc=The ability to rotate MBs and view a structure hologram has been sto-§oborrowed§r from §9Tec§1Tech§r, giving you greater freedom to build the way you want! §5(until we nerf wallsharing at least)§r%n%nUnlike TT, you can use a normal wrench for this, just aim at the front center of a controller (or one of the other sides if you want to. You just need to aim for the part of the grid with the mark) and right click or shift-right-click. The first rotates it clockwise, the latter flips it. If you want to change the facing of the controller itself, do that the normal way.%n%nUse a Multiblock Structure Hologram Projector or MSHP to visualize the structure, pay attention to the bottom left for structure details. For multiblocks that accept multiple types of tiered components or have a variable size, the number of MSHPs you hold in your hand will decide which tier is shown in the hologram.%n%n§3If you don't get it, try placing a controller, wrenching it, and using the MSHP on it.§r%n%nWhile it's now possible to build a sideways EBF, or even build one into the floor, not everything can be rotated. Exceptions include: LSC, Charcoal Pile Igniter, BBF, DT, Miners, Industial Washing Plant, Algae Farm, Bacterial Vat, DEHP, the MVF can, but the MBF and MDT cannot.%n%n§3PS: We did get permission, that was just a little joke.
+gtnh.quest2856.desc=The ability to rotate MBs and view a structure hologram has been sto-§oborrowed§r from §9Tec§1Tech§r, giving you greater freedom to build the way you want! §5(until we nerf wallsharing at least)§r%n%nUnlike TT, you can use a normal wrench for this, just aim at the front center of a controller (or one of the other sides if you want to. You just need to aim for the part of the grid with the mark) and right click or shift-right-click. The first rotates it clockwise, the latter flips it. If you want to change the facing of the controller itself, do that the normal way.%n%nUse a Multiblock Structure Hologram Projector or MSHP to visualize the structure, pay attention to the bottom left for structure details. For multiblocks that accept multiple types of tiered components or have a variable size, the number of MSHPs you hold in your hand will decide which tier is shown in the hologram.%n%n§3If you don't get it, try placing a controller, wrenching it, and using the MSHP on it.§r%n%nWhile it's now possible to build a sideways EBF, or even build one into the floor, not everything can be rotated. Exceptions include: LSC, Charcoal Pile Igniter, BBF, DT, Miners, Industial Washing Plant, Algae Farm, Bacterial Vat, DEHP, the MVF can, but the MBF cannot.%n%n§3PS: We did get permission, that was just a little joke.
 
 # Quest.2857 - Magic Mirror Glass?
 gtnh.quest2857.name=Magic Mirror Glass?
@@ -11570,7 +11570,7 @@ gtnh.quest2891.desc=Tired of running after ore or other blocks? Use a magnet! It
 
 # Quest.2892 - §6§lHSS-S Coil Upgrade
 gtnh.quest2892.name=§6§lHSS-S Coil Upgrade
-gtnh.quest2892.desc=To process more advanced materials like LuV Superconductor Base you need more than 5400K. Time to upgrade your EBF to 6300k.
+gtnh.quest2892.desc=Technically this coil tier can be skipped. But you need LuV to get the next one, so you should really get these coils for now.%n%n%nTo process more advanced materials like LuV Superconductor Base you need more than 5400K. Time to upgrade your EBF to 6300k.
 
 # Quest.2893 - §6§lTrinium Coil Upgrade
 gtnh.quest2893.name=§6§lTrinium Coil Upgrade
