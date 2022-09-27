@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version 2.2.0.0 is out 19.09.2022
+Version 2.2.0.0 is out 27.09.2022
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -133,6 +133,11 @@ MineYourMine GTNH (EU) horizons.mineyourmind.net<BR>
 Zephyrus<BR>
 Zephyrus (NL) gtnh.zephyrus-mc.com<BR>
 
+Arcturus Network Czech Republic (EU)<BR>
+Discord: https://discord.gg/JCCY9NR<BR>
+Wiki: http://wiki.arcturus-official.eu/<BR>
+play.arcturus-official.eu<BR>
+
 
 ## US/Canada Servers:<BR>
 
@@ -182,7 +187,6 @@ IP: gtnh.114-7.com
 
 MultiMC Downloads: http://downloads.gtnewhorizons.com/Multi_mc_downloads/<BR>
 Technic Launcher Link: http://www.technicpack.net/modpack/mcnewhorizons.677387<BR>
-FTB Launcher Code: GTNH<BR>
 Curse Link: https://minecraft.curseforge.com/projects/gt-new-horizons<BR>
 Discord Link: https://discord.com/invite/gtnh<BR>
 Forum Link: http://gtnewhorizons.com/<BR>
@@ -442,4 +446,4 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 
 ---
 
-Maintained by Dream-MasterXXL, Namikon, Drobac, Teteros, Tec, Lefty, Arnab, Methes, Warlord Wossman, SanMan911, Bigbass1997, Ugachaga, MineAnPlay, Giovanni_NL, Ethryan, MTesseracT, Bryfer, Bartimaeusnek, codewarrior, Moronwmachinegun, Mitchej, Zoko061602, Spartak, Highbeam, 0lafe, Teirdalin, Prometheus, KiloJoel, Glease, Kiwi, Bot, LeaGris, Boubou, Glowredman, Repo, DvDManDT, Moller and many more.
+Maintained by Dream-MasterXXL, Namikon, Drobac, Teteros, Tec, Lefty, Arnab, Methes, Warlord Wossman, SanMan911, Bigbass1997, Ugachaga, MineAnPlay, Giovanni_NL, Ethryan, MTesseracT, Bryfer, Bartimaeusnek, codewarrior, Moronwmachinegun, Mitchej, Zoko061602, Spartak, Highbeam, 0lafe, Teirdalin, Prometheus, KiloJoel, Glease, Kiwi, Bot, LeaGris, Boubou, Glowredman, Repo, DvDManDT, Moller, Colen, Minecraft7771, MuXiu1997, Runakai, YannickMG, SinTh0r4s, Alexdoru, Kiwi, bombcar, vlaetansky, POPlol333, Raven, miozune, GlodBlock, asdflj, D-Cysteine, DianeXD, Ethryan, BlueWeabo, Kuba, Quarri, Steelux8, S4mpsa , chochem, iouter, Elisis and many more.
