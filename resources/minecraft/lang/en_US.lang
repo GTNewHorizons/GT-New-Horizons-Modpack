@@ -1706,11 +1706,11 @@ gtnh.quest425.desc=Necessary for rituals. You can technically use these to make 
 
 # Quest.426 - Sacrificial Runes
 gtnh.quest426.name=Sacrificial Runes
-gtnh.quest426.desc=Poking your finger might work for simple slates and runes, but getting enough blood for advanced stuff is tedious. With sacrificial runes you are able to increase the blood gain from mobs or yourself.%n%nThese increase the blood gain by 10% additively for each rune.
+gtnh.quest426.desc=Poking your finger might work for simple slates and runes, but getting enough blood for advanced stuff is tedious. With sacrificial runes you are able to increase the blood gain from mobs or yourself.%n%nThese increase the blood gain by 12% additively for each rune.
 
 # Quest.427 - Tier 3 Runes
 gtnh.quest427.name=Tier 3 Runes
-gtnh.quest427.desc=The first rune increases the I/O from the altar's buffer by a multiplicative 20% rate, and the second increases your altar's capacity by 2000L. This also increases the size of the I/O buffer, which is always 10% of the altar.
+gtnh.quest427.desc=The first rune increases the I/O from the altar's buffer by a multiplicative 50% rate, and the second increases your altar's capacity by 3500L. This also increases the size of the I/O buffer, which is always 10% of the altar.
 
 # Quest.428 - Rituals Made Easy
 gtnh.quest428.name=Rituals Made Easy
@@ -1854,7 +1854,7 @@ gtnh.quest462.desc=Wyverns are rare dragons that can walk on two legs. More powe
 
 # Quest.463 - Runes Tier 2
 gtnh.quest463.name=Runes Tier 2
-gtnh.quest463.desc=The speed rune is the only tier 2 rune. The speed rune does what its name implies, provides an additive 20% increase to the processing speed of the blood altar.%n%nHOWEVER, this makes it much more difficult to actually craft anything, so don't use them unless you're sure you can craft the item.
+gtnh.quest463.desc=The speed rune is the only tier 2 rune. The speed rune does what its name implies, provides an additive 25% increase to the processing speed of the blood altar.%n%nHOWEVER, this makes it much more difficult to actually craft anything, so don't use them unless you're sure you can craft the item.
 
 # Quest.464 - Draconic Core
 gtnh.quest464.name=Draconic Core
@@ -2842,7 +2842,7 @@ gtnh.quest709.desc=Enhanced elemental chalk, to write "darker" runes than you're
 
 # Quest.710 - Tier 4 Runes
 gtnh.quest710.name=Tier 4 Runes
-gtnh.quest710.desc=Runes of Superior Capacity increase the Altar's size by 10% multiplicatively. If you have more than 14 of the lesser versions, it's more efficient to use these.%n%nRunes of the Orb increase the soul network size by 2% each. You'll need them later on.
+gtnh.quest710.desc=Runes of Superior Capacity increase the Altar's size by 14% multiplicatively.%n%nRunes of the Orb increase the soul network size by 4% each. You'll need them later on.
 
 # Quest.711 - Tier 5 Runes
 gtnh.quest711.name=Tier 5 Runes
@@ -7702,7 +7702,7 @@ gtnh.quest1924.desc=For the truly insane, there is a 16 to 64 A power amp transf
 
 # Quest.1925 - §a§lWhat's in the Box?
 gtnh.quest1925.name=§a§lWhat's in the Box?
-gtnh.quest1925.desc=Tired of waiting around for hours with radium in your inventory, waiting for it to decay? With a lead-lined box you can safely leave your radium in it and it'll decay while you do real work.%n%n§3You may not be able to shift click items in and out, but pipes still work. You can also WA the box if you hate waiting.
+gtnh.quest1925.desc=Tired of waiting around for hours with radium in your inventory, waiting for it to decay? With a lead-lined box you can safely leave your radium in it and it'll decay while you do real work.%n%n§3You may not be able to shift click items in and out, but pipes still work. You can not use a WA.
 
 # Quest.1926 - §2§lA Quicker Way to Get Around
 gtnh.quest1926.name=§2§lA Quicker Way to Get Around
@@ -7714,7 +7714,7 @@ gtnh.quest1927.desc=Withereed is a source for coal, and more importantly, a good
 
 # Quest.1928 - Son of Odin One-Eye
 gtnh.quest1928.name=Son of Odin One-Eye
-gtnh.quest1928.desc=The God of Thunder crop lets you increase your Thorium ore from the Nether by 4x. It also will give you Uranium you can use for Reactoria crops.
+gtnh.quest1928.desc=The God of Thunder crop lets you increase your Thorium ore from the Nether to 4x. It also will give you Uranium you can use for Reactoria crops.
 
 # Quest.1929 - Just Cover Your Privates When You Walk By
 gtnh.quest1929.name=Just Cover Your Privates When You Walk By
@@ -7742,7 +7742,7 @@ gtnh.quest1934.desc=With some farmer coins I'll trade you cotton and string. Per
 
 # Quest.1935 - A Better Chisel
 gtnh.quest1935.name=A Better Chisel
-gtnh.quest1935.desc=If you want to decorate your base, you're going to need a better chisel.%n%nNormal: 256%nObsidian: 512%nDiamond: 2560%nNether Star: 32767%n%nThey obviously get harder to make the longer they last.
+gtnh.quest1935.desc=If you want to decorate your base, you're going to need a better chisel.%n%nNormal: 256%nObsidian: 512%nDiamond: 2560%nBedrockium: 32767%n%nThey obviously get harder to make the longer they last.
 
 # Quest.1936 - The Right Tool for the Job
 gtnh.quest1936.name=The Right Tool for the Job
@@ -8122,7 +8122,7 @@ gtnh.quest2029.desc=The best source for hundreds of thousands of glass for...som
 
 # Quest.2030 - Bate Bate Chocolate
 gtnh.quest2030.name=Bate Bate Chocolate
-gtnh.quest2030.desc=Abuela, will you teach us the chocolate song?%nCon mucho gusto%nWill you sing the chocolate song with us?%nGreat, sing along with Abuela!%n%nBate bate chocolate%nBate bate chocolate%nBate bate chocolate%nBate bate chocolate%n%nMix your chocolate, chocolate%nMix your chocolate, chocolate%nBate bate chocolate%nBate bate chocolate%n%nRecipes that use cells still need them sadly.%n%n§3This multi is IV.
+gtnh.quest2030.desc=Abuela, will you teach us the chocolate song?%nCon mucho gusto%nWill you sing the chocolate song with us?%nGreat, sing along with Abuela!%n%nBate bate chocolate%nBate bate chocolate%nBate bate chocolate%nBate bate chocolate%n%nMix your chocolate, chocolate%nMix your chocolate, chocolate%nBate bate chocolate%nBate bate chocolate%n%n§3This multi is IV.
 
 # Quest.2031 - Play doh for big girls and boys
 gtnh.quest2031.name=Play doh for big girls and boys
@@ -8134,7 +8134,7 @@ gtnh.quest2032.desc=When all you have is a machine full of knives, everything st
 
 # Quest.2033 - A 9 in 1 machine, what a steal!
 gtnh.quest2033.name=A 9 in 1 machine, what a steal!
-gtnh.quest2033.desc=This machine has 3 modes, capable of emulating 9 of the less common machines.%n%nThe 3 general modes are cycled by using a screwdriver on the controller. Each of the modes can support 2 or 3 different machine selected by putting a circuit into the same input bus as the items you want to process. If you have a look at the description of the controller in NEI, you will see a list of the supported machines for each mode. These are in order and can be used with circuit numbers 20, 21 and 22. This also means that you can use multiple input busses with different circuits to use the full potential of the machine. You can also use more busses to use different non-consumable items in the recipes. You can only fluid solidify one shape per machine though.%n%n§3This multi is IV, but uses Thorium 232, and a bunch of valuable circuits.
+gtnh.quest2033.desc=This machine has 3 modes, capable of emulating 9 of the less common machines.%n%nThe 3 general modes are cycled by using a screwdriver on the controller. Each of the modes can support 3 different machines selected by putting a circuit into the same input bus as the items you want to process. If you have a look at the description of the controller in NEI, you will see a list of the supported machines for each mode. These are in order and can be used with circuit numbers 20, 21 and 22. This also means that you can use multiple input busses with different circuits to use the full potential of the machine. You can also use more busses to use different non-consumable items in the recipes. You can only fluid solidify one shape per machine though.%n%n§3This multi is IV, but uses Thorium 232, and a bunch of valuable circuits.
 
 # Quest.2034 - ZzzZZZzzzZtt
 gtnh.quest2034.name=ZzzZZZzzzZtt
@@ -8142,7 +8142,7 @@ gtnh.quest2034.desc=Need lots of oxygen or hydrogen, or just want to rip apart m
 
 # Quest.2035 - Frozen Stiff
 gtnh.quest2035.name=Frozen Stiff
-gtnh.quest2035.desc=I'm so cold... You'll need a constant supply of Crysotheum to use it. You can also do recipes without cells now.%n%n§3This multi is LuV.
+gtnh.quest2035.desc=I'm so cold... You'll need a constant supply of Cryotheum to use it.%n%n§3This multi is LuV.
 
 # Quest.2036 - Forge of the Gods
 gtnh.quest2036.name=Forge of the Gods
@@ -8218,7 +8218,7 @@ gtnh.quest2053.desc=If you stuck with fish for bio diesel this long, you can now
 
 # Quest.2054 - Putting all those workers out of jobs
 gtnh.quest2054.name=Putting all those workers out of jobs
-gtnh.quest2054.desc=The large scale auto-assembler will put things together for you, in volume. It is an Assembler, Disassembler, and Autocrafter all in one.%n%n§3This multi is ZPM, so you can't tierskip stuff until then.
+gtnh.quest2054.desc=The large scale auto-assembler will put things together for you, in volume. It is designed to be an Assembler, Disassembler, and Autocrafter all in one. However, at the moment only the assembler is usable. This multi is available in ZPM. %n%n§3While it unlocks much later, has much fewer parallels, and has no TT energy hatch support in contrast to the Precise Assembler, it has one upside: If you use two energy hatches you can craft items of the next tier.
 
 # Quest.2055 - Better Fermenter Outputs
 gtnh.quest2055.name=Better Fermenter Outputs
@@ -8474,7 +8474,7 @@ gtnh.quest2117.desc=A Cow backpack will generate milk from wheat placed in its i
 
 # Quest.2118 - Here There be Dragons
 gtnh.quest2118.name=Here There be Dragons
-gtnh.quest2118.desc=The Dragon backpack gives you Fire Resistance, Strength, Water Breathing, Night Vision and Regeneration.%n%n§3It may be really good, but also uses up a dragon egg, so be sure you want it, or can craft another.
+gtnh.quest2118.desc=The Dragon backpack gives you Fire Resistance, Strength, Night Vision and Regeneration.%n%n§3It may be really good, but also uses up a dragon egg, so be sure you want it, or can craft another.
 
 # Quest.2119 - Smart cables
 gtnh.quest2119.name=Smart cables
@@ -11090,7 +11090,7 @@ gtnh.quest2771.desc=If you want IC2 crops to work with the multifarm, you now ne
 
 # Quest.2772 - BEGONE, LAG! Also, Bats
 gtnh.quest2772.name=BEGONE, LAG! Also, Bats
-gtnh.quest2772.desc=Lag = Butterflies in this case, since they like to pile up just outside of chunk loading range. Also, they're annoying since they convert regular trees into more forestry ones, one leaf block at a time. Which causes more of the buggers to spawn. Fortunately, the settings we use prevent too many from being present at once, but still, they're annoying.%n%nThe solution to this is to kill them. Also, the bats. Stupid Thaumcraft warp. Use the (clearly unfinished) Pest Killer to do so.%n%nNotes: Hydrogen Cyanide has no recipe. Formaldehyde requires the Chemical Plant of all things. It doesn't appear to use any of the Formaldehyde up though. The range is apparently 5x5 chunks, not blocks. It also only runs once every 30s or so?%n%n§3PS: If you experience problems using it (more than already mentioned), complain to Alkalus.
+gtnh.quest2772.desc=Lag = Butterflies in this case, since they like to pile up just outside of chunk loading range. Also, they're annoying since they convert regular trees into more forestry ones, one leaf block at a time. Which causes more of the buggers to spawn. Fortunately, the settings we use prevent too many from being present at once, but still, they're annoying.%n%nThe solution to this is to kill them. Also, the bats. Stupid Thaumcraft warp. Use the (potentially unfinished) Pest Killer to do so.%n%nNotes: Hydrogen Cyanide has a recipe now. Both it and Formaldehyde require a Chemical Plant. It doesn't appear to use any of the Formaldehyde up though. The range is apparently 5x5 chunks, not blocks. It also only runs once every 30s or so?%n%n§3PS: If you experience problems using it (more than already mentioned), raise a ticket on github.
 
 # Quest.2773 - Purge...Some of Your Warp?
 gtnh.quest2773.name=Purge...Some of Your Warp?
