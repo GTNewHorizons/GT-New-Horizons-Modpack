@@ -277,9 +277,9 @@ mods.avaritia.ExtremeCrafting.addShaped(<Thaumcraft:WandCasting:9000>.withTag({c
 [null, null, <ore:plateInfinity>, null, null, null, null, null, null],
 [null, <ore:plateInfinity>, <ThaumicTinkerer:blockTalisman>, <ore:plateInfinity>, null, null, null, null, null],
 [<ore:plateInfinity>, <TaintedMagic:ItemFocusEldritch>, <Avaritia:Resource:5>, <ore:plateCosmicNeutronium>, <AWWayofTime:dawnScribeTool>, null, null, null, null],
-[null, <ore:plateInfinity>, <ore:plateCosmicNeutronium>, <Thaumcraft:WandCasting:562>.withTag({cap: "ICHOR", rod: "ICHORCLOTH", sceptre: 1}), <ore:plateCosmicNeutronium>, <AWWayofTime:waterScribeTool>, null, null, null],
-[null, null, <AWWayofTime:duskScribeTool>, <ore:plateCosmicNeutronium>, <Thaumcraft:WandCasting:562>.withTag({cap: "ICHOR", rod: "ICHORCLOTH", sceptre: 1}), <ore:plateCosmicNeutronium>, <AWWayofTime:airScribeTool>, null, null],
-[null, null, null, <AWWayofTime:fireScribeTool>, <ore:plateCosmicNeutronium>, <Thaumcraft:WandCasting:562>.withTag({cap: "ICHOR", rod: "ICHORCLOTH", sceptre: 1}), <ore:plateCosmicNeutronium>, <ore:plateInfinity>, null],
+[null, <ore:plateInfinity>, <ore:plateCosmicNeutronium>, <Thaumcraft:WandCasting:562>.withTag({cap: "ICHOR", rod: "ICHORCLOTH", sceptre: 1 as byte}), <ore:plateCosmicNeutronium>, <AWWayofTime:waterScribeTool>, null, null, null],
+[null, null, <AWWayofTime:duskScribeTool>, <ore:plateCosmicNeutronium>, <Thaumcraft:WandCasting:562>.withTag({cap: "ICHOR", rod: "ICHORCLOTH", sceptre: 1 as byte}), <ore:plateCosmicNeutronium>, <AWWayofTime:airScribeTool>, null, null],
+[null, null, null, <AWWayofTime:fireScribeTool>, <ore:plateCosmicNeutronium>, <Thaumcraft:WandCasting:562>.withTag({cap: "ICHOR", rod: "ICHORCLOTH", sceptre: 1 as byte}), <ore:plateCosmicNeutronium>, <ore:plateInfinity>, null],
 [null, null, null, null, <AWWayofTime:earthScribeTool>, <ore:plateCosmicNeutronium>, <Avaritia:Resource:5>, <TaintedMagic:ItemFocusTime>, <ore:plateInfinity>],
 [null, null, null, null, null, <ore:plateInfinity>, <ThaumicTinkerer:blockTalisman>, <ore:plateInfinity>, null],
 [null, null, null, null, null, null, <ore:plateInfinity>, null, null]]);
