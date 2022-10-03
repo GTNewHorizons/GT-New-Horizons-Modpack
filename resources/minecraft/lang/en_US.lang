@@ -182,7 +182,7 @@ gtnh.quest44.desc=Welcome, and well done so far! This tier is all about your fir
 
 # Quest.45 - §6§lMultiblock Tanks... Railcraft Tanks
 gtnh.quest45.name=§6§lMultiblock Tanks... Railcraft Tanks
-gtnh.quest45.desc=576 buckets of fluid, that should be enough to store all the creosote you have accumulated thus far. If that isn't enough you can make this tank bigger. The smallest tanks are 3x4x3 while the biggest are 9x8x9.%n%nHint: Fluid will auto-output (without any pumps) if you place a valve on the bottom side of the tank. The output rate is 1000 L/t so twice as fast as a GT HV Pump Cover. You can color the tank with Buildcraft paintbrushes and the GT spray can.
+gtnh.quest45.desc=576 buckets of fluid, that should be enough to store all the creosote you have accumulated thus far. If that isn't enough you can make this tank bigger. The smallest tanks are 3x4x3 while the biggest are 9x8x9.%n%nHint: Fluid will auto-output (without any pumps) if you place a valve on the bottom side of the tank. The output rate is 1000 L/t so twice as fast as a GT HV Pump Cover. You can color the tank with Buildcraft paintbrushes and the GT spray can.%n%nIf you still use Railcraft tanks in later tiers, you boost the output rate by using pumps.
 
 # Quest.46 - §3§lMore Advanced Alloys
 gtnh.quest46.name=§3§lMore Advanced Alloys
@@ -4622,7 +4622,7 @@ gtnh.quest1154.desc=Magnalium bolts are much better than your old wooden bolts.%
 
 # Quest.1155 - §5§lBasic Fluid Solidifier
 gtnh.quest1155.name=§5§lBasic Fluid Solidifier
-gtnh.quest1155.desc=To get your molten fluids back to a solid state you need a fluid solidifier. This is handy for processing molten rubber directly from the chemical reactor. It's used for crossbow bolts as well.
+gtnh.quest1155.desc=To get your molten fluids back to a solid state you need a fluid solidifier. This is handy for processing molten rubber directly from the chemical reactor. It's used for crossbow bolts as well.%n%n§4Keep in mind that GT fluids are different from Tinker's Construct. You will mainly work with GT fluids going forward.
 
 # Quest.1156 - §3§lWooden Bolts
 gtnh.quest1156.name=§3§lWooden Bolts
@@ -9262,7 +9262,7 @@ gtnh.quest2314.desc=Add Chlorine to Sodium Ruthenate to get Ruthenium Tetroxide 
 
 # Quest.2315 - §b§lClass, Concentrate!
 gtnh.quest2315.name=§b§lClass, Concentrate!
-gtnh.quest2315.desc=Your Acidic Osmium solution is way too weak to precipitate out Osmium. Go and distill it in a DT to get a more concentrated variant of it.%n%nThis recipe is IV, the highest non-meme DT recipe, and the recipe making the platline IV.
+gtnh.quest2315.desc=Your Acidic Osmium solution is way too weak to precipitate out Osmium. Go and distill it in a DT to get a more concentrated variant of it.
 
 # Quest.2316 - §b§lDissolve Ir
 gtnh.quest2316.name=§b§lDissolve Ir
@@ -9590,7 +9590,7 @@ gtnh.quest2396.desc=To make Hydrogen Peroxide you combine Air (or Oxygen), 2-Eth
 
 # Quest.2397 - Playing With the Big Boys, Chemically
 gtnh.quest2397.name=Playing With the Big Boys, Chemically
-gtnh.quest2397.desc=This facility will process certain chemical recipes you'll need later on, like Rocket Fuels. Keep in mind that recipes can only be made after meeting the required Chemical Plant tier.%n%nIt will need a minecart load of resources, so start mining!%n%nCatalysts are needed in some recipes, place them in the Catalyst Housing. They use durability, this includes ones that don't look like it.%n%n§3You can make Silicon Carbide in the mixer, you don't need the ABS.§r%n%nValid solid casings: (Determines CP Tier for recipes)%n0 Strong Bronze Machine Casing (uncraftable)%n1 Solid Steel Machine Casing%n2 Sturdy Aluminium Machine Casing (uncraftable)%n3 Clean Stainless Steel Machine Casing%n4 Stable Titanium Machine Casing%n5 Robust Tungstensteel Casing%n6 Vigorous Laurenium Machine Casing%n7 Rugged Botmium Machine Casing%n%nValid machine casings: (Determines Hatch/bus max tier)%nLV-UHV Machine Casing%n%nValid pipe casings: (+2 Parallels, 20% less chance to consume catalyst durability per pipe casing, starting from the first one)%nBronze%nSteel%nTitanium%nTungstensteel%n%nValid Coils: (Each one increases speed by +50%, starting at 50%)%nCupronickel%nKanthal%nNichrome%nTungstensteel%nHSS-G%nNaquadah%nNaquadah Alloy
+gtnh.quest2397.desc=This facility will process certain chemical recipes you'll need later on, like Rocket Fuels. Keep in mind that recipes can only be made after meeting the required Chemical Plant tier.%n%nIt will need a minecart load of resources, so start mining!%n%nCatalysts are needed in some recipes, place them in the Catalyst Housing. They use durability, this includes ones that don't look like it.%n%n§3You can make Silicon Carbide in the mixer, you don't need the ABS.§r%n%nValid solid casings: (Determines CP Tier for recipes)%n0 Strong Bronze Machine Casing%n1 Solid Steel Machine Casing%n2 Sturdy Aluminium Machine Casing%n3 Clean Stainless Steel Machine Casing%n4 Stable Titanium Machine Casing%n5 Robust Tungstensteel Casing%n6 Vigorous Laurenium Machine Casing%n7 Rugged Botmium Machine Casing%n%nValid machine casings: (Determines Hatch/bus max tier)%nLV-UHV Machine Casing%n%nValid pipe casings: (+2 Parallels, 20% less chance to consume catalyst durability per pipe casing, starting from the first one)%nBronze%nSteel%nTitanium%nTungstensteel%n%nAll coils from Cupronickel to Eternal are valic. Each one increases speed by +50%, starting at 50%.%n%n§3Additionally: If you have at least Awakened Draconium Coils and Tungstensteel pipe casings, then no catalyst is consumed at all!
 
 # Quest.2398 - §9§lHidden Drawers
 gtnh.quest2398.name=§9§lHidden Drawers
@@ -10006,7 +10006,7 @@ gtnh.quest2500.desc=Final tier of essentia components.
 
 # Quest.2501 - 1k Essentia Storage Cell
 gtnh.quest2501.name=1k Essentia Storage Cell
-gtnh.quest2501.desc=Unlike the item version, these can only hold 12 types of essentia each. This tier holds 2,048 units if you fill it with a single type of essentia. If you fill it with 12 different types of essentia, you can have about 168 units of each. If you want one for every type of essentia, you'll need 62 of them. You'll want to make the essentia terminal to see what you have. They consume the same amount of AE as the item ones.
+gtnh.quest2501.desc=Unlike the item version, these can only hold 12 types of essentia each. This tier holds 2,048 units if you fill it with a single type of essentia. If you fill it with 12 different types of essentia, you can have about 168 units of each. If you want one for every type of essentia, you'll need 67 of them. You'll want to make the essentia terminal to see what you have. They consume the same amount of AE as the item ones.
 
 # Quest.2502 - 4k Essentia Storage Cell
 gtnh.quest2502.name=4k Essentia Storage Cell
@@ -10174,7 +10174,7 @@ gtnh.quest2542.desc=This is the good wireless terminal. It even has crafting. Th
 
 # Quest.2543 - Wireless 3.0
 gtnh.quest2543.name=Wireless 3.0
-gtnh.quest2543.desc=This upgrade allows unlimited range. You don't even need a Wireless Access Point!%n%n§4Extremely buggy, unfortunately. May randomly disappear, or fall out of the terminal at any time.
+gtnh.quest2543.desc=This upgrade allows unlimited range. You don't even need a Wireless Access Point!%n%n§4Extremely buggy, unfortunately. May randomly disappear, or fall out of the terminal at any time.%n%n§3Many bugs were fixed. Maybe its better now?
 
 # Quest.2544 - Cut the Power!
 gtnh.quest2544.name=Cut the Power!
@@ -10258,7 +10258,7 @@ gtnh.quest2563.desc=Some Vat recipes require a certain Sievert (radioactivity) v
 
 # Quest.2564 - §6§lMaking the Vat More Efficient!
 gtnh.quest2564.name=§6§lMaking the Vat More Efficient!
-gtnh.quest2564.desc=Looking at the Vat's recipes you are likely discouraged by the small amount of fluid being produced per recipe. Don't worry! Fluid consumption and production shown in NEI are just the baseline for the lowest efficiency. The efficiency of Vat depends on the amount of fluid in the Output Hatch.%n%nThe efficiency gradually increases as the output hatch fills up and reaches maximum efficiency when it is §cexactly half-filled§r. If the hatch fills even more, the efficiency goes down again, so try to keep it close to half! At maximum efficiency the amount of fluid consumed and produced per recipe is multiplied by 1001. The items and culture are not affected.%n%n§TThere are different means to keep it at half, including OC (not SFM, it doesn't like BW fluids), fluid detector+machine controller, or a fluid regulator, as well as more off the wall ones such as frames or block-sharing. If you choose the fluid detector route, remember that using a larger output hatch will make it easier to keep it close to half-filled.
+gtnh.quest2564.desc=Looking at the Vat's recipes you are likely discouraged by the small amount of fluid being produced per recipe. Don't worry! Fluid consumption and production shown in NEI are just the baseline for the lowest efficiency. The efficiency of Vat depends on the amount of fluid in the Output Hatch.%n%nThe efficiency gradually increases as the output hatch fills up and reaches maximum efficiency when it is §cexactly half-filled§r. If the hatch fills even more, the efficiency goes down again, so try to keep it close to half! At maximum efficiency the amount of fluid consumed and produced per recipe is multiplied by 1001. The items and culture are not affected.%n%nThere are different means to keep it at half, including OC (not SFM, it doesn't like BW fluids), fluid detector+machine controller, or a fluid regulator, as well as more off the wall ones such as frames or block-sharing. If you choose the fluid detector route, remember that using a larger output hatch will make it easier to keep it close to half-filled.
 
 # Quest.2565 - §1§2§3§4§5§6§7§8§9§lPolystyrene
 gtnh.quest2565.name=§1§2§3§4§5§6§7§8§9§lPolystyrene
@@ -10338,7 +10338,7 @@ gtnh.quest2583.desc=Good luck with this one, it is many many many times harder t
 
 # Quest.2584 - Hypogen
 gtnh.quest2584.name=Hypogen
-gtnh.quest2584.desc=Here it is, the most high tier GT++ material. You will need UMV to process it. So for now that means you can only solidify it in a large processing factory from GT++.%n%n§3With your first ingot obtained, you can turn to the DTPF to make more. I think that recipe should be a lot better than the MK4 reactor.%n%nYou can also have this cake as a reward for coming this far.
+gtnh.quest2584.desc=Here it is, the most high tier GT++ material. You will need UIV to process it. So for now that means you can only solidify it in a large processing factory from GT++.%n%n§3With your first ingot obtained, you can turn to the DTPF to make more. I think that recipe should be a lot better than the MK4 reactor.%n%nYou can also have this cake as a reward for coming this far.
 
 # Quest.2585 - Infinite Vis Storage, kinda?
 gtnh.quest2585.name=Infinite Vis Storage, kinda?
@@ -10354,7 +10354,7 @@ gtnh.quest2587.desc=Produces 1A of UV voltage during the day. Useful if you live
 
 # Quest.2588 - Well This Looks... Shiny?
 gtnh.quest2588.name=Well This Looks... Shiny?
-gtnh.quest2588.desc=Eternal singularity, requires nearly every resource in GTNH to construct. A stargate will require ~200 of these in total.
+gtnh.quest2588.desc=Eternal singularity, requires nearly every resource in GTNH to construct. A stargate will require almost 5000 of these in total.
 
 # Quest.2589 - Infinite Oxygen Tank
 gtnh.quest2589.name=Infinite Oxygen Tank
@@ -10698,7 +10698,7 @@ gtnh.quest2673.desc=Now let's make Cosmic Neutronium, a material that is used in
 
 # Quest.2674 - Compressing the Core of a Star
 gtnh.quest2674.name=Compressing the Core of a Star
-gtnh.quest2674.desc=The next material is Infinity Catalyst. Infinity Catalyst needs to be compressed with insane amounts of force. The only machine capable of doing that is a Neutronium Compressor. Let's make one.%n%nTo make the Catalyst, go to Vega B to get the dust. Then use the Neutronium Compressor to make Infinity Catalyst with 64 of the dust.%n%nYou can also do the insane Avaritia recipe to make the Infinity Catalyst, if you want a challenge :P%n%n§3The compressor can also be used to make singularities, culiminating in the Eternal Singularity, used in the alternate recipe.%n%nIf you want to automate singularity creation you can use OC to make an AE2 pattern that goes beyond the normal limits. Ask how that works on discord, I have no idea.
+gtnh.quest2674.desc=The next material is Infinity Catalyst. Infinity Catalyst needs to be compressed with insane amounts of force. The only machine capable of doing that is a Neutronium Compressor. Let's make one.%n%nTo make the Catalyst, go to Vega B to get the dust. Then use the Neutronium Compressor to make Infinity Catalyst with 64 of the dust.%n%nYou can also do the insane Avaritia recipe to make the Infinity Catalyst, if you want a challenge :P%n%n§3The compressor can also be used to make singularities, culiminating in the Eternal Singularity, used in the alternate recipe.%n%nIf you want to automate singularity creation you can just click with the middle mouse button to modify the number of items in a pattern beyond the normal limits.
 
 # Quest.2675 - One Ingot, Infinite Power
 gtnh.quest2675.name=One Ingot, Infinite Power
@@ -10718,7 +10718,7 @@ gtnh.quest2678.desc=If you want to color all those fancy cables and such, you'll
 
 # Quest.2679 - Outsourcing the Soldering
 gtnh.quest2679.name=Outsourcing the Soldering
-gtnh.quest2679.desc=Soldering some of your new advanced materials is difficult. But maybe the new bio-technology you have developed can help? You should create a living solder that can do it for you! It will adjust to any challenge and join your materials at an atomic level filling all the gaps!%n%nUse your Botmium Chemical Plant to make this Mutated Living Solder. The catalyst recipe requires infinity, so best upgrade your chemical plant to Tungstensteel Coils and at least Awakened Draconium Coils to remove the durability loss on the catalyst.
+gtnh.quest2679.desc=Soldering some of your new advanced materials is difficult. But maybe the new bio-technology you have developed can help? You should create a living solder that can do it for you! It will adjust to any challenge and join your materials at an atomic level filling all the gaps!%n%nUse your Botmium Chemical Plant to make this Mutated Living Solder. The catalyst recipe requires infinity, so best upgrade your chemical plant to Tungstensteel Pipe Casings and at least Awakened Draconium Coils to remove the durability loss on the catalyst.
 
 # Quest.2680 - §c§lMutating Things is Cool
 gtnh.quest2680.name=§c§lMutating Things is Cool
@@ -10730,7 +10730,7 @@ gtnh.quest2681.desc=So you probably noticed that the amount of seaweed you'll ne
 
 # Quest.2682 - TecTech Multiblocks
 gtnh.quest2682.name=TecTech Multiblocks
-gtnh.quest2682.desc=TecTech Multiblock Common Functionality%n%nMultiple Ampere and Laser Hatches Compatibility - to ease power distribution.%n%nPower Pass - Allows connected dynamo hatches to take power from the controller and output it, just like the active transformer does (and that is why the controller always need it in it's recipe if that function is enabled...). §4Be sure to turn off Power Pass if you want to edit your machine and don't want it to explode!§r%n%nSave Void - Enabling this moves all EM (Elemental Matter, not all machines use this) from input and output hatches to overflow hatches. Which allows the machine to be disassembled more easily.%n%nConstructable Interface - Allows visualizing the structure with blueprints (there is an API to implement that for any block, but almost nothing does).%n%nFrom left to right is 1, then clockwise for the rest in TT multi interfaces.%n%n1) Parameters - They are the way of the controller to communicate with player and parameter hatches. Lights indicate status but more detailed information can be seen when moused over. The tooltip contains ID in form of HatchID:ParameterNumber:Direction, Current Status, Current Value, and Short Description.%n%n2) Uncertainty status - These 9 blocks indicate uncertainty status of the machine. If the lights are on, this machine requires an uncertainty resolver. Red = Bad, Green = Good. You need to do the absurd puzzle before using the machine.%n%nControl buttons - Buttons might change their behavior and appearance depending on machine but usually they work like this, starting from top:%n%n3) Power Pass - Toggles Power Pass.%n%n4) Save Void - Toggles Safe Void.%n%n5) Power Switch - Soft Mallet with your finger...%n%n6) Input slot - Standard functionality.%n
+gtnh.quest2682.desc=TecTech Multiblock Common Functionality%n%nMultiple Ampere and Laser Hatches Compatibility - to ease power distribution.%n%nPower Pass - Allows connected dynamo hatches to take power from the controller and output it, just like the active transformer does (and that is why the controller always need it in it's recipe if that function is enabled...). §4Be sure to turn off Power Pass if you want to edit your machine and don't want it to explode!§r%n%nSafe Void - Enabling this moves all EM (Elemental Matter, not all machines use this) from input and output hatches to overflow hatches. Which allows the machine to be disassembled more easily.%n%nConstructable Interface - Allows visualizing the structure with blueprints (there is an API to implement that for any block, but almost nothing does).%n%nFrom left to right is 1, then clockwise for the rest in TT multi interfaces.%n%n1) Parameters - They are the way of the controller to communicate with player and parameter hatches. Lights indicate status but more detailed information can be seen when moused over. The tooltip contains ID in form of HatchID:ParameterNumber:Direction, Current Status, Current Value, and Short Description.%n%n2) Uncertainty status - These 9 blocks indicate uncertainty status of the machine. If the lights are on, this machine requires an uncertainty resolver. Red = Bad, Green = Good. You need to do the absurd puzzle before using the machine.%n%nControl buttons - Buttons might change their behavior and appearance depending on machine but usually they work like this, starting from top:%n%n3) Power Pass - Toggles Power Pass.%n%n4) Safe Void - Toggles Safe Void.%n%n5) Power Switch - Soft Mallet with your finger...%n%n6) Input slot - Standard functionality.%n
 
 # Quest.2683 - Configuring TecTech Multiblocks
 gtnh.quest2683.name=Configuring TecTech Multiblocks
@@ -12434,7 +12434,7 @@ gtnh.quest3107.desc=If you've been working with renewable diesels before, you mi
 
 # Quest.3108 - Trees Growing Faster
 gtnh.quest3108.name=Trees Growing Faster
-gtnh.quest3108.desc=No matter which way you used to get wood, you can simplify it. There's not much simpler than just pulling out more and more wood from a multiblock that doesn't even grow trees! That's what the Tree Growth Simulator does, with a special input: saws. This multi can replace the bonsais that were used for wood automation, but it is not the only HV upgrade for tree growing; it is one of three possibilities.%n%nTo continue using bonsais, in case you have gotten good stats on them, you can use the HV version of the Crop Manager, or the multiblock version, the Multifarm. This multi is special because it needs Uranium Rods, which are HV due to needing Eyes of Ender, but it has a massive range to harvest crops, being able to work with 1000+ of them, while only consuming 6 ULV amps when built correctly. It also hydrates and fertilizes automatically, and is much more efficient with the Fertilizer than its competition. Compared to the Crop Manager, it only loses out on the extra drops per harvest.%n%nOther than these two options, you can also grow and harvest trees normally with the EnderIO Farmer, which is a more typical tree automation machine. It's HV-locked like the others, but it's simple, reliable and only needs a bit of power to get the wood you need, at a pretty fast rate.
+gtnh.quest3108.desc=No matter which way you used to get wood, you can simplify it. There's nothing much simpler than just pulling out more and more wood from a multiblock that doesn't even grow trees! That's what the Tree Growth Simulator does, with a special input: saws. This multi can replace the bonsais that were used for wood automation, however it is only available in IV. You have two further options in the mean time:%n%nTo continue using bonsais, in case you have gotten good stats on them, you can use the HV version of the Crop Manager, or the multiblock version, the Multifarm. This multi is special because it needs Uranium Rods, which are HV due to needing Eyes of Ender, but it has a massive range to harvest crops, being able to work with 1000+ of them, while only consuming 6 ULV amps when built correctly. It also hydrates and fertilizes automatically, and is much more efficient with the Fertilizer than its competition. Compared to the Crop Manager, it only loses out on the extra drops per harvest.%n%nOther than these two options, you can also grow and harvest trees normally with the EnderIO Farmer, which is a more typical tree automation machine. It's HV-locked like and it's simple, reliable and only needs a bit of power to get the wood you need, at a pretty fast rate. Ideally you want to use an unbreakable lumber axe with a tree type that produces a lot of logs (spruce is decent). To crank out a lot of wood you can then use sprinklers with water or a world accelerator.
 
 # Quest.3109 - Sapling Power
 gtnh.quest3109.name=Sapling Power
@@ -12442,7 +12442,7 @@ gtnh.quest3109.desc=Wood has been a big part of your power generation, and you m
 
 # Quest.3110 - Fractioned Benzene
 gtnh.quest3110.name=Fractioned Benzene
-gtnh.quest3110.desc=One of the most important steps is to remove the limitation you had when distilling. Wood Tar turns into Benzene? That's not how it should be, there's much more to get from that tar than what you've been extracting from it. To keep the rest, you need more space in the distillation process, or, more specifically, more height. Each of the fluids that can be separated from within the tar will stick at a different height level, sitting on top of all the others that are more dense than itself.%n%nBasically, you need a multiblock, instead of a singleblock. The Distillation Tower you will need for this recipe has to be at least 6 blocks tall, with 1 input plus 5 outputs. Out of it, you will get Benzene, Toluene and Phenol, which are all viable gases for power alongside being very useful for progression (Toluene for compressing with TNT and moving past HV, Phenol for crafting circuits in the next tier and other chemical lines). You will also get Dimethylbenzene, a part of the PBI line in IV which is unfortunately of little use to you right now, and Creosote for your Lubricant needs, or a little extra power.%n%nThe Distillation Tower will continue consuming Wood Tar, even if one or more outputs are full: it'll just void the rest! Other than Dimethylbenzene, everything else can be used for power, so try not to waste those things. 
+gtnh.quest3110.desc=One of the most important steps is to remove the limitation you had when distilling. Wood Tar turns into Benzene? That's not how it should be, there's much more to get from that tar than what you've been extracting from it. To keep the rest, you need more space in the distillation process, or, more specifically, more height. Each of the fluids that can be separated from within the tar will stick at a different height level, sitting on top of all the others that are more dense than itself.%n%nBasically, you need a multiblock, instead of a singleblock. The Distillation Tower you will need for this recipe has to be at least 6 blocks tall, with 1 input plus 5 outputs. Out of it, you will get Benzene, Toluene and Phenol, which are all viable gases for power alongside being very useful for progression (Toluene for compressing with TNT and moving past HV, Phenol for crafting circuits in the next tier and other chemical lines). You will also get various types of Dimethylbenzene. For now the only one of interest is 1,2-Dimethylbenzene which is a part of the PBI line in IV. Though even that is unfortunately of little use to you right now. You also get Creosote for your Lubricant needs, or a little extra power.%n%nThe Distillation Tower will continue consuming Wood Tar, even if one or more outputs are full: it'll just void the rest! Other than Dimethylbenzene, everything else can be used for power, so try not to waste those things. 
 
 # Quest.3111 - Creosote's Work
 gtnh.quest3111.name=Creosote's Work
