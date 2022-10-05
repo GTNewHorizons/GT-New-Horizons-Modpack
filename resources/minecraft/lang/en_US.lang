@@ -13008,6 +13008,10 @@ gtnh.quest3250.desc=Well well well, what do we have here? Flasks are redundant n
 gtnh.quest3251.name=The Final Goal
 gtnh.quest3251.desc=Thanks to your help I have managed to create the ultimate energy source: An encased wormhole that drains energy from a synthesized pocket universe, to the point when it reaches heat death. I have no use for it, so you may have it. Thank you for making my dream come true!
 
+# Quest.3252 - What are all these flowers even for?
+gtnh.quest3252.name=What are all these flowers even for?
+gtnh.quest3252.desc=If you've never used Botania before, you may be wondering about the purpose of all this effort. This isn't a simple question to answer, but one thing you can do that's quite useful right now is making yourself some manasteel.%n%nAmong its many uses, manasteel has one of the best, if not simply §othe§o §rbest, durabilities of materials available at LV, so it's perfect for all of your crafting tools.%n%nIf you have a particular dislike of Tinker's Construct, manasteel is a great material to make a Gregtech pickaxe out of too.
+
 ##################################Line##################################
 
 # QuestLine.0 - And So, It Begins
