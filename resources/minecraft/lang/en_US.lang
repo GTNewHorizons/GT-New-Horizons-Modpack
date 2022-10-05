@@ -5642,7 +5642,7 @@ gtnh.quest1409.desc=How about lossless 8192 EU Wires? Vanadiumtriindinide is a s
 
 # Quest.1410 - §b§lIV Mixer
 gtnh.quest1410.name=§b§lIV Mixer
-gtnh.quest1410.desc=An IV mixer is required to mix HSS-G dust, so you can get new coils.
+gtnh.quest1410.desc=An IV mixer is required for example to mix HSS-S dust or to make IV superconductors.
 
 # Quest.1411 - §9§lSome Rare High Tier Metals
 gtnh.quest1411.name=§9§lSome Rare High Tier Metals
@@ -5846,7 +5846,7 @@ gtnh.quest1460.desc=Every rocket needs fuel storage canisters. For the tier 3 ro
 
 # Quest.1461 - Just Tell Me What to Scan Already!
 gtnh.quest1461.name=Just Tell Me What to Scan Already!
-gtnh.quest1461.desc=Don't want to guess at what has what aspect? Just want to get to work? Then scan this stuff. The first set should be scanned in order. If any of them don't work, try scanning something else first (especially the third set). The last 5 aspects are dummy aspects you can ignore, and as such are not included in this list.%n%nWatering Can%nTorch%nCoal%nGrass Block%nTrapdoor%nChest%nGlass Block%nBleached Bone Block%nChicken%nSoul Sand%nPaper%nRotten Flesh%nWheat%nFlint%nObsidian%n%nAsh Cloud%nAny Dye%nWool%nSpider Eye%nSnow%nMilk Bucket%nVanilla Hoe%nVanilla Pickaxe%nArrow%nVanilla Armor%nQuicksilver%nFence Gate %nIron Nugget%nGold%nZombie Brain%nEnder Pearl%nSlimeball%nTainted Anything. Try overfilling your cauldron to create flux goo to make the slimes (not in your base)%nEthereal Essence (any Aspect) from wisps OR Terra Wart%n%nAlumite Ingot%nPlatinum Metallic Powder%nFine Copper Wire%nMagnetite Dust%nThorium Dust%nA Pig%nNetherrack%nGold Armor%nBed%nLead (not the metal)%nGhast Tear%nClock%nCrystal Matrix Ingot%n%nNote that the above list is for aspects, you may need to scan things like the Nether Portal to unlock certain researches.
+gtnh.quest1461.desc=Don't want to guess at what has what aspect? Just want to get to work? Then scan this stuff. The first set should be scanned in order. If any of them don't work, try scanning something else first (especially the third set).%n%nWatering Can%nTorch%nCoal%nGrass Block%nTrapdoor%nChest%nGlass Block%nBleached Bone Block%nChicken%nSoul Sand%nPaper%nRotten Flesh%nWheat%nFlint%nObsidian%n%nAsh Cloud%nAny Dye%nWool%nSpider Eye%nSnow%nMilk Bucket%nVanilla Hoe%nVanilla Pickaxe%nArrow%nVanilla Armor%nQuicksilver%nFence Gate %nIron Nugget%nGold%nZombie Brain%nEnder Pearl%nSlimeball%nTainted Anything. Try overfilling your cauldron to create flux goo to make the slimes (not in your base)%nEthereal Essence (any Aspect) from wisps OR Terra Wart%n%nAlumite Ingot%nPlatinum Metallic Powder%nFine Copper Wire%nMagnetite Dust%nThorium Dust%nA Pig%nNetherrack%nGold Armor%nBed%nLead (not the metal)%nGhast Tear%nClock%nCrystal Matrix Ingot%n%nThe last 5 aspects might only be obtainable by combining aspects or by creating a node that has them. You can combine:%n%nCognito + Ordo%nCognito + Vitium%nVacous + Motus%nLux + Primordium%nHumanus + Iter %n%n%n%nNote that the above list is for aspects, you may need to scan things like the Nether Portal to unlock certain researches.
 
 # Quest.1462 - Thermal Cloth
 gtnh.quest1462.name=Thermal Cloth
@@ -11054,7 +11054,7 @@ gtnh.quest2762.desc=This produces power out of Rocket Fuels. To see how to make 
 
 # Quest.2763 - §6§lI Put a Machine Into Your Machine
 gtnh.quest2763.name=§6§lI Put a Machine Into Your Machine
-gtnh.quest2763.desc=Effectively lets you parallel like crazy if you can afford the power. 1 EV hatch can supply all 64 possible machines if they're LV. You can also separate busses with a screwdriver. You can use this to automate Assemblers, PLEs, and more!%n%n§3Doesn't work with some machines, like mass fabs.
+gtnh.quest2763.desc=Effectively lets you parallel like crazy if you can afford the power. 1 EV hatch can supply all 64 possible machines if they're LV. You can also separate busses with a screwdriver. The PA is usually less efficient than a dedicated multiblock but it is very versatile and allows for TecTech energy hatches and even laser hatches once you get there.%n%n§3Doesn't work with some machines, like mass fabs.%n%nJust in case you get that far and still remember it: The PA maxes out at UHV recipes. But UEV machines are treated as 4x UHV machines giving you a lot of parallels.%n%nThere is also a new experimental feature where the PA can handle fluid recipes without cells but using the fluid directly.
 
 # Quest.2764 - A Steam Tier Multi? Unpossible!
 gtnh.quest2764.name=A Steam Tier Multi? Unpossible!
@@ -13011,6 +13011,26 @@ gtnh.quest3251.desc=Thanks to your help I have managed to create the ultimate en
 # Quest.3252 - What are all these flowers even for?
 gtnh.quest3252.name=What are all these flowers even for?
 gtnh.quest3252.desc=If you've never used Botania before, you may be wondering about the purpose of all this effort. This isn't a simple question to answer, but one thing you can do that's quite useful right now is making yourself some manasteel.%n%nAmong its many uses, manasteel has one of the best, if not simply §othe§o §rbest, durabilities of materials available at LV, so it's perfect for all of your crafting tools.%n%nIf you have a particular dislike of Tinker's Construct, manasteel is a great material to make a Gregtech pickaxe out of too.
+
+# Quest.3253 - Mana Manufacture And Manipulation
+gtnh.quest3253.name=Mana Manufacture And Manipulation
+gtnh.quest3253.desc=To use the power of magical flowers, you must understand how to generate and manipulate mana. This ethereal blue-ish substance is produced by generating flowers, when their requirements are met. Mana is not easily quantified, so you will have to do a lot of estimating if you want to use it efficiently.%n%nOnce you have chosen which flower you want to use to generate mana, you must plant it near a mana spreader. When the flower's conditions are fulfilled, it will begin to produce mana, and store it in the internal buffer of the nearest mana spreader. The mana spreader itself will automatically emit any mana it contains, provided it is aimed at a valid destination (such as a mana pool). You'll need a lot of these devices, so craft a pair for now.%n%nMana spreaders will aim towards you when you place them down. To change their direction, use a wand of the forest: while holding the wand, shift+right click on the mana spreader, and then shift+right click on the block you want it to aim at. This method of binding also works for other things, such as binding a flower to a specific mana spreader.
+
+# Quest.3254 - Solar Power: Floral Edition
+gtnh.quest3254.name=Solar Power: Floral Edition
+gtnh.quest3254.desc=The daybloom is an extremely simple generating flower. All you have to do is place it down, and it'll produce mana for free during the day. The downside of this arrangement is that dayblooms die after only an hour. Make one, and I'll give you another.
+
+# Quest.3255 - Hydrobotanic Energy
+gtnh.quest3255.name=Hydrobotanic Energy
+gtnh.quest3255.desc=Mana is blue. Water is also blue. There's a correlation there, and the hydroangea turns that correlation into causation. Place a water source block nearby, and the hydroangea will consume it to produce mana - until it dies after an hour.%n%nThis one can be a bit tricky to automate given the lack of naturally-regenerating source blocks.
+
+# Quest.3256 - Dark Energy
+gtnh.quest3256.name=Dark Energy
+gtnh.quest3256.desc=Perhaps not the kind of "dark energy" you're familiar with, the nightshade produces mana at night. Like other passive generating flowers, it dies after an hour.
+
+# Quest.3257 - Is this a combustion generator?
+gtnh.quest3257.name=Is this a combustion generator?
+gtnh.quest3257.desc=The endoflame burns combustible materials in order to produce mana. It can efficiently consume fuels with a burn time of up to 64000 per item (equivalent to four blocks of coal); any burn time beyond this will be wasted. Endoflames don't die like passive flowers do, and are simple to use, so it's a good idea to make several of them.
 
 ##################################Line##################################
 
