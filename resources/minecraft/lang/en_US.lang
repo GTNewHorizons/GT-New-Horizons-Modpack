@@ -5642,7 +5642,7 @@ gtnh.quest1409.desc=How about lossless 8192 EU Wires? Vanadiumtriindinide is a s
 
 # Quest.1410 - §b§lIV Mixer
 gtnh.quest1410.name=§b§lIV Mixer
-gtnh.quest1410.desc=An IV mixer is required to mix HSS-G dust, so you can get new coils.
+gtnh.quest1410.desc=An IV mixer is required for example to mix HSS-S dust or to make IV superconductors.
 
 # Quest.1411 - §9§lSome Rare High Tier Metals
 gtnh.quest1411.name=§9§lSome Rare High Tier Metals
@@ -5846,7 +5846,7 @@ gtnh.quest1460.desc=Every rocket needs fuel storage canisters. For the tier 3 ro
 
 # Quest.1461 - Just Tell Me What to Scan Already!
 gtnh.quest1461.name=Just Tell Me What to Scan Already!
-gtnh.quest1461.desc=Don't want to guess at what has what aspect? Just want to get to work? Then scan this stuff. The first set should be scanned in order. If any of them don't work, try scanning something else first (especially the third set). The last 5 aspects are dummy aspects you can ignore, and as such are not included in this list.%n%nWatering Can%nTorch%nCoal%nGrass Block%nTrapdoor%nChest%nGlass Block%nBleached Bone Block%nChicken%nSoul Sand%nPaper%nRotten Flesh%nWheat%nFlint%nObsidian%n%nAsh Cloud%nAny Dye%nWool%nSpider Eye%nSnow%nMilk Bucket%nVanilla Hoe%nVanilla Pickaxe%nArrow%nVanilla Armor%nQuicksilver%nFence Gate %nIron Nugget%nGold%nZombie Brain%nEnder Pearl%nSlimeball%nTainted Anything. Try overfilling your cauldron to create flux goo to make the slimes (not in your base)%nEthereal Essence (any Aspect) from wisps OR Terra Wart%n%nAlumite Ingot%nPlatinum Metallic Powder%nFine Copper Wire%nMagnetite Dust%nThorium Dust%nA Pig%nNetherrack%nGold Armor%nBed%nLead (not the metal)%nGhast Tear%nClock%nCrystal Matrix Ingot%n%nNote that the above list is for aspects, you may need to scan things like the Nether Portal to unlock certain researches.
+gtnh.quest1461.desc=Don't want to guess at what has what aspect? Just want to get to work? Then scan this stuff. The first set should be scanned in order. If any of them don't work, try scanning something else first (especially the third set).%n%nWatering Can%nTorch%nCoal%nGrass Block%nTrapdoor%nChest%nGlass Block%nBleached Bone Block%nChicken%nSoul Sand%nPaper%nRotten Flesh%nWheat%nFlint%nObsidian%n%nAsh Cloud%nAny Dye%nWool%nSpider Eye%nSnow%nMilk Bucket%nVanilla Hoe%nVanilla Pickaxe%nArrow%nVanilla Armor%nQuicksilver%nFence Gate %nIron Nugget%nGold%nZombie Brain%nEnder Pearl%nSlimeball%nTainted Anything. Try overfilling your cauldron to create flux goo to make the slimes (not in your base)%nEthereal Essence (any Aspect) from wisps OR Terra Wart%n%nAlumite Ingot%nPlatinum Metallic Powder%nFine Copper Wire%nMagnetite Dust%nThorium Dust%nA Pig%nNetherrack%nGold Armor%nBed%nLead (not the metal)%nGhast Tear%nClock%nCrystal Matrix Ingot%n%nThe last 5 aspects might only be obtainable by combining aspects or by creating a node that has them. You can combine:%n%nCognito + Ordo%nCognito + Vitium%nVacous + Motus%nLux + Primordium%nHumanus + Iter %n%n%n%nNote that the above list is for aspects, you may need to scan things like the Nether Portal to unlock certain researches.
 
 # Quest.1462 - Thermal Cloth
 gtnh.quest1462.name=Thermal Cloth
@@ -11054,7 +11054,7 @@ gtnh.quest2762.desc=This produces power out of Rocket Fuels. To see how to make 
 
 # Quest.2763 - §6§lI Put a Machine Into Your Machine
 gtnh.quest2763.name=§6§lI Put a Machine Into Your Machine
-gtnh.quest2763.desc=Effectively lets you parallel like crazy if you can afford the power. 1 EV hatch can supply all 64 possible machines if they're LV. You can also separate busses with a screwdriver. You can use this to automate Assemblers, PLEs, and more!%n%n§3Doesn't work with some machines, like mass fabs.
+gtnh.quest2763.desc=Effectively lets you parallel like crazy if you can afford the power. 1 EV hatch can supply all 64 possible machines if they're LV. You can also separate busses with a screwdriver. The PA is usually less efficient than a dedicated multiblock but it is very versatile and allows for TecTech energy hatches and even laser hatches once you get there.%n%n§3Doesn't work with some machines, like mass fabs.%n%nJust in case you get that far and still remember it: The PA maxes out at UHV recipes. But UEV machines are treated as 4x UHV machines giving you a lot of parallels.%n%nThere is also a new experimental feature where the PA can handle fluid recipes without cells but using the fluid directly.
 
 # Quest.2764 - A Steam Tier Multi? Unpossible!
 gtnh.quest2764.name=A Steam Tier Multi? Unpossible!
@@ -13012,8 +13012,8 @@ gtnh.quest3251.desc=Thanks to your help I have managed to create the ultimate en
 gtnh.quest3252.name=What are all these flowers even for?
 gtnh.quest3252.desc=If you've never used Botania before, you may be wondering about the purpose of all this effort. This isn't a simple question to answer, but one thing you can do that's quite useful right now is making yourself some manasteel.%n%nAmong its many uses, manasteel has one of the best, if not simply §othe§o §rbest, durabilities of materials available at LV, so it's perfect for all of your crafting tools.%n%nIf you have a particular dislike of Tinker's Construct, manasteel is a great material to make a Gregtech pickaxe out of too.
 
-# Quest.3253 - Mana Manufacture And Manipulation
-gtnh.quest3253.name=Mana Manufacture And Manipulation
+# Quest.3253 - Moron's Manual for Mana Manufacture And Manipulation
+gtnh.quest3253.name=Moron's Manual for Mana Manufacture And Manipulation
 gtnh.quest3253.desc=To use the power of magical flowers, you must understand how to generate and manipulate mana. This ethereal blue-ish substance is produced by generating flowers, when their requirements are met. Mana is not easily quantified, so you will have to do a lot of estimating if you want to use it efficiently.%n%nOnce you have chosen which flower you want to use to generate mana, you must plant it near a mana spreader. When the flower's conditions are fulfilled, it will begin to produce mana, and store it in the internal buffer of the nearest mana spreader. The mana spreader itself will automatically emit any mana it contains, provided it is aimed at a valid destination (such as a mana pool). You'll need a lot of these devices, so craft a pair for now.%n%nMana spreaders will aim towards you when you place them down. To change their direction, use a wand of the forest: while holding the wand, shift+right click on the mana spreader, and then shift+right click on the block you want it to aim at. This method of binding also works for other things, such as binding a flower to a specific mana spreader.
 
 # Quest.3254 - Solar Power: Floral Edition
@@ -13031,6 +13031,58 @@ gtnh.quest3256.desc=Perhaps not the kind of "dark energy" you're familiar with, 
 # Quest.3257 - Is this a combustion generator?
 gtnh.quest3257.name=Is this a combustion generator?
 gtnh.quest3257.desc=The endoflame burns combustible materials in order to produce mana. It can efficiently consume fuels with a burn time of up to 64000 per item (equivalent to four blocks of coal); any burn time beyond this will be wasted. Endoflames don't die like passive flowers do, and are simple to use, so it's a good idea to make several of them.
+
+# Quest.3258 - A Botanist's Best Friend
+gtnh.quest3258.name=A Botanist's Best Friend
+gtnh.quest3258.desc=Functional flowers are a large part of Botania. Most of them have nuances to how they operate, and these are generally best explained in the Lexica Botania: a codex of all Botania knowledge. This questline will explain the basics, but be sure to keep a copy of the Lexica Botania on hand so you can easily reference the details.%n%nBesides being a repository of useful information, the Lexica Botania has another function: if, while holding it, you look at any Botania block in the world, you can shift+right click on that block to open up the relevant page.%n%nSomething else you'll want for functional flowers is a handful of redstone roots. Flowers which have a redstone root in their recipe have the ability to toggle whether they are active by applying a redstone signal. Make a few before you move on.
+
+# Quest.3259 - Anti-Magnetism
+gtnh.quest3259.name=Anti-Magnetism
+gtnh.quest3259.desc=If you've made a ring of magnetization, you may be getting tired of having to take it off around various Botania systems that require items to be on the ground in order to interact with flowers. The solegnolia is your solution to that. Simply place one down anywhere you don't want items to be automatically put in your inventory, and the ring of magnetization will be disabled while you're in the vicinity of the solegnolia. It doesn't even require mana!
+
+# Quest.3260 - Violence Is Blue
+gtnh.quest3260.name=Violence Is Blue
+gtnh.quest3260.desc=The dreadthorne is similar to the bellethorne, but it only kills adult animals. This is helpful for farming livestock, though it's only one aspect of a successful farm.
+
+# Quest.3261 - Roses Are Blood-Red
+gtnh.quest3261.name=Roses Are Blood-Red
+gtnh.quest3261.desc=The bellethorne is a delightful little flower with an §c§c§r§4insatiable thirst for blood§r, though fortunately your blood doesn't count. When provided with a supply of mana, it will inflict damage on any living entities near it, with the exception of players. It's a good extra layer of defence to place at the entrances to your early-game bamboo fortress.
+
+# Quest.3262 - Magic Blue Dust
+gtnh.quest3262.name=Magic Blue Dust
+gtnh.quest3262.desc=You'll need mana powder to proceed. Make four to start out with.
+
+# Quest.3263 - Better Generating Flowers
+gtnh.quest3263.name=Better Generating Flowers
+gtnh.quest3263.desc=If you want anything better than an endoflame, you'll need a runic altar. Fortunately, most runes are easily crafted as soon as you can make the runic altar. Sinful runes, however, require titanium to make. For now, just make one of each of the elemental runes; that'll be enough to get you started.
+
+# Quest.3264 - Shut down your canning machine
+gtnh.quest3264.name=Shut down your canning machine
+gtnh.quest3264.desc=Some flowers eat bees. Some eat leaves. Some eat slimes. This one eats everything (everything you can eat, anyway). The gourmaryllis is happiest when provided with a good variety of delicious meals, so I hope the HV-tier diet of canned sludge hasn't made you forget how to cook.
+
+# Quest.3265 - Experienced Botanist
+gtnh.quest3265.name=Experienced Botanist
+gtnh.quest3265.desc=The rosa arcana transmutes experience into mana. A player standing near it will have their experience drained for this purpose. This process is unfortunately not very practical to automate, as the experience can only be extracted directly from a player, and not from orbs on the ground or any method of storage. It might be wise to place it somewhere you spend a lot of time.
+
+# Quest.3266 - Mmmmmm, Slimy!
+gtnh.quest3266.name=Mmmmmm, Slimy!
+gtnh.quest3266.desc=Have you ever seen a slime and thought "I'd love to eat that"? The narslimmus has.%n%nIt needs to be planted somewhere slimes can naturally appear, but if you can find a good place for a narslimmus it'll consume those slimes and give you a good amount of mana in return.
+
+# Quest.3267 - Flower!!! Unlimited Flower!!!
+gtnh.quest3267.name=Flower!!! Unlimited Flower!!!
+gtnh.quest3267.desc=The jaded amaranthus causes mystical flowers to grow all around it. Their vibrant petals can be used for magic, so you no longer have to go foraging for mushrooms.%n%nThere §ois§o§o§r another way of getting these, but you'll have to figure that one out for yourself.
+
+# Quest.3268 - Obligatory Lava Power
+gtnh.quest3268.name=Obligatory Lava Power
+gtnh.quest3268.desc=The thermalily consumes lava, but it's not quite as simple as just constantly replenishing a lava pool. There's a cooldown that you'll have to account for. Even so, it's a fairly easy flower to automate if you have a good lava source.
+
+# Quest.3269 - Chickenization
+gtnh.quest3269.name=Chickenization
+gtnh.quest3269.desc=The soarleander generates mana by consuming anything chicken-related, including entire chickens.
+
+# Quest.3270 - According to all known laws of mana generation...
+gtnh.quest3270.name=According to all known laws of mana generation...
+gtnh.quest3270.desc=...there is no way a bee should be able to produce mana. The beegonia doesn't know this, and will gladly eat up all of your spare drones to help with filling your mana pools.
 
 ##################################Line##################################
 
