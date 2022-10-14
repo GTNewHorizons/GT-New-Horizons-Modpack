@@ -98,7 +98,7 @@ Assembler.addRecipe(<LogisticsPipes:item.itemModule:2> * 3, [<LogisticsPipes:ite
 Assembler.addRecipe(<LogisticsPipes:item.itemModule:2> * 3, [<LogisticsPipes:item.itemModule> * 3, <gregtech:gt.metaitem.01:32729>, <ore:circuitBasic>, <ore:boltSteel> * 8, <ProjRed|Core:projectred.core.part:20> * 2, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.solderingalloy> * 36, 900, 30);
 
 // --- Active Supplier Module
-FormingPress.addRecipe(<LogisticsPipes:item.itemModule:502> * 3, <LogisticsPipes:item.itemModule:2> * 2, <BuildCraft|Silicon:redstoneChipset:2> * 3, 600, 30);
+FormingPress.addRecipe(<LogisticsPipes:item.itemModule:502> * 3, <LogisticsPipes:item.itemModule:2> * 3, <BuildCraft|Silicon:redstoneChipset:2> * 2, 600, 30);
 
 // --- Poly Itemsink Module
 Assembler.addRecipe(<LogisticsPipes:item.itemModule:4>, [<LogisticsPipes:item.itemModule:1>, <gregtech:gt.metaitem.01:32640>, <ore:circuitBasic>, <ore:plateBronze>, <ProjRed|Core:projectred.core.part:20> * 2, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.lead> * 144, 900, 30);
