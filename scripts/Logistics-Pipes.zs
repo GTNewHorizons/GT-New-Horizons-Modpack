@@ -315,7 +315,7 @@ Assembler.addRecipe(<LogisticsPipes:item.PipeItemsSatelliteLogistics> * 2, [<Log
 Assembler.addRecipe(<LogisticsPipes:item.PipeItemsRemoteOrdererLogistics>, [<LogisticsPipes:item.remoteOrdererItem:*> * 0, <LogisticsPipes:item.PipeItemsRequestLogistics>, <gregtech:gt.integrated_circuit:18> * 0], null, 600, 30);
 
 // --- Firewall Pipe
-Assembler.addRecipe(<LogisticsPipes:item.PipeItemsFirewall>, [<LogisticsPipes:item.PipeItemsBasicLogistics>, <ore:plateTripleLead> * 3, <minecraft:web>,], null, 600, 30);
+Assembler.addRecipe(<LogisticsPipes:item.PipeItemsFirewall>, [<LogisticsPipes:item.PipeItemsBasicLogistics>, <minecraft:web>,], null, 600, 30);
 
 // Until I get a Better Suggestion for these it is just chest + plates and previous tier
 // --- Logistics Chassi MK1
