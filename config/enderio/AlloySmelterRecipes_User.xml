@@ -136,7 +136,7 @@
       </output>
     </recipe>
 	 -->
-	<recipe name="Fused Quartz 3 Slots" energyCost="20000" >
+	<recipe name="Fused Quartz 1" energyCost="20000" >
       <input>
 		<itemStack oreDictionary="dustCertusQuartz" />
 		<itemStack oreDictionary="dustNetherQuartz" />
@@ -146,7 +146,7 @@
       <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="0" number="3" />
       </output>
     </recipe>
-		<recipe name="Fused Quartz 3 Slots" energyCost="20000" >
+		<recipe name="Fused Quartz 2" energyCost="20000" >
       <input>
 		<itemStack oreDictionary="dustQuartzite" />
 		<itemStack oreDictionary="dustNetherQuartz" />
@@ -156,7 +156,7 @@
       <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="0" number="3" />
       </output>
     </recipe>
-		<recipe name="Fused Quartz 3 Slots" energyCost="20000" >
+		<recipe name="Fused Quartz 3" energyCost="20000" >
       <input>
 		<itemStack oreDictionary="dustQuartzite" />
 		<itemStack oreDictionary="dustCertusQuartz" />
@@ -166,7 +166,7 @@
         <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="0" number="3" />
       </output>
     </recipe>
-	<recipe name="Fused Quartz 3 Slots2" energyCost="20000" >
+	<recipe name="Fused Quartz 4" energyCost="20000" >
       <input>
 		<itemStack oreDictionary="dustNetherQuartz" />
 		<itemStack oreDictionary="dustNetherQuartz" />
@@ -176,7 +176,7 @@
         <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="0" number="3" />
       </output>
     </recipe>
-	<recipe name="Fused Quartz 3 Slots3" energyCost="20000" >
+	<recipe name="Fused Quartz 5" energyCost="20000" >
       <input>
 		<itemStack oreDictionary="dustCertusQuartz" />
 		<itemStack oreDictionary="dustCertusQuartz" />
@@ -186,7 +186,7 @@
         <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="0" number="3" />
       </output>
     </recipe>
-		<recipe name="Fused Quartz 3 Slots3" energyCost="20000" >
+		<recipe name="Fused Quartz 6" energyCost="20000" >
       <input>
 		<itemStack oreDictionary="dustCertusQuartzite" />
 		<itemStack oreDictionary="dustCertusQuartzite" />
@@ -196,7 +196,7 @@
         <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="0" number="3" />
       </output>
     </recipe>
-	<recipe name="Fused Glass 3 Slots" energyCost="15000" >
+	<recipe name="Fused Glass clear" energyCost="15000" >
       <input>
         <itemStack oreDictionary="dustGlass" />
         <itemStack oreDictionary="dustGlass" />
