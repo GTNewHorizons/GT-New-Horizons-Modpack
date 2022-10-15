@@ -196,6 +196,16 @@
         <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="0" number="3" />
       </output>
     </recipe>
+	<recipe name="Fused Quartz 7" energyCost="20000" >
+      <input>
+		<itemStack oreDictionary="dustQuartzite" />
+		<itemStack oreDictionary="dustQuartzite" />
+		<itemStack oreDictionary="dustGlass" />
+      </input>
+      <output>
+        <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="0" number="3" />
+      </output>
+    </recipe>
 	<recipe name="Fused Glass clear" energyCost="15000" >
       <input>
         <itemStack oreDictionary="dustGlass" />
