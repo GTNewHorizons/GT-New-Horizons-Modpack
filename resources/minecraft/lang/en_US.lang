@@ -418,7 +418,7 @@ gtnh.quest103.desc=In order to proceed forward, you need to get aluminium. A lot
 
 # Quest.104 - §5§lYour Magic Progression
 gtnh.quest104.name=§5§lYour Magic Progression
-gtnh.quest104.desc=Now that you're able to produce aluminium, you may dig into magic. If you haven't unlocked basic thaumaturgy, try to find a silverwood and a greatwood sapling.
+gtnh.quest104.desc=Now that you're able to produce Aluminium, you may dig into magic. If you haven't unlocked basic thaumaturgy, try to find a Silverwood and a Greatwood sapling.%n%nThere is a coin quest that lets you purchase these saplings. If you haven't found any yet, go check it out!
 
 # Quest.105 - §5§lSaving Metal With Bending
 gtnh.quest105.name=§5§lSaving Metal With Bending
@@ -506,7 +506,7 @@ gtnh.quest125.desc=Your turrets probably need more space to hold more ammunition
 
 # Quest.126 - §6§lElectrolyzing All the Things
 gtnh.quest126.name=§6§lElectrolyzing All the Things
-gtnh.quest126.desc=Collected a lot of dusts you can't do anything with since you started with macerating, washing and centrifuging ores? It's finally time to get all the useful materials out of them.
+gtnh.quest126.desc=Collected a lot of dusts you can't do anything with since you started with macerating, washing and centrifuging ores? It's finally time to get all the useful materials out of them.%n%nThis machine is §overy §o§rimportant for your MV progression. If you find a biome with tons of Stained or Hardened Clay, you can process it here, plus some other machines, into Sodium, Lithium, Silicon, Aluminium and Oxygen!
 
 # Quest.127 - Project red beginning
 gtnh.quest127.name=Project red beginning
@@ -2118,7 +2118,7 @@ gtnh.quest528.desc=On your way to awesome bees, you have to collect only the bes
 
 # Quest.529 - §5§lYou're Gonna Hate This #5
 gtnh.quest529.name=§5§lYou're Gonna Hate This #5
-gtnh.quest529.desc=The fifth item you'll need a lot of. For the microwave, the scanner, the precision laser engraver, etc.%n%n§3The Emitter and Sensor aren;t used as much as the other items fortunately.
+gtnh.quest529.desc=The fifth item you'll need a lot of. For the microwave, the scanner, the precision laser engraver, etc.%n%n§3The Emitter and Sensor aren't used as much as the other items, fortunately.
 
 # Quest.530 - §5§lYou're Gonna Hate This #6
 gtnh.quest530.name=§5§lYou're Gonna Hate This #6
@@ -2126,7 +2126,7 @@ gtnh.quest530.desc=The sixth item you'll need a lot of. For the scanner and the 
 
 # Quest.531 - §5§lScanning Bees, Crops and Moooooore!
 gtnh.quest531.name=§5§lScanning Bees, Crops and Moooooore!
-gtnh.quest531.desc=Automate your bee, sapling, or crop scanning. Later on, this machine gets very useful for scanning high tier machine parts for the assembly line research data or to fill data orbs with data for UUMatter production. Data sticks with raw prospecting data need a scanner too.
+gtnh.quest531.desc=Automate your bee, sapling, or crop scanning. For crops, this is the only real way to find the crop's stats until you can craft the Portable Scanner, which needs HV circuits that you can make in the next tier.%n%nLater on, this machine gets very useful for scanning high tier machine parts for the assembly line research data or to fill data orbs with data for UUMatter production. Data sticks with raw prospecting data need a scanner too.
 
 # Quest.532 - §5§lExploding Fluids For Power
 gtnh.quest532.name=§5§lExploding Fluids For Power
@@ -2158,7 +2158,7 @@ gtnh.quest538.desc=Macerating ores usually doubles the output. If you want MOOOO
 
 # Quest.539 - §5§lRound and Round and Round...
 gtnh.quest539.name=§5§lRound and Round and Round...
-gtnh.quest539.desc=After purification of your ore dust, you can centrifuge it to get even more byproducts out of the dust.
+gtnh.quest539.desc=After purification of your ore dust, you can centrifuge it to get even more byproducts out of the dust. On top of that, you can process many items into their more useful byproducts with this machine, such as Sticky Resin and Brick Dust. %n%nIt's always useful to check NEI for Centrifuge and Electrolyzer recipes for any item/fluid you may need. It might just be that you can get that from stuff you already have in your base!
 
 # Quest.540 - §5§lA Truly Sharp Saw Blade
 gtnh.quest540.name=§5§lA Truly Sharp Saw Blade
@@ -2170,7 +2170,7 @@ gtnh.quest541.desc=If you want to cut diamond blocks into plates, it's time to g
 
 # Quest.542 - §5§lElectrically Separating Dusts
 gtnh.quest542.name=§5§lElectrically Separating Dusts
-gtnh.quest542.desc=Using the power of electricity you can get even more out of your dusts. Somehow. With no catalysts, electrolytes, or anything. Look, don't ask me how it works, it just does, ok?
+gtnh.quest542.desc=Using the power of electricity you can get even more out of your dusts. Somehow. With no catalysts, electrolytes, or anything. Look, don't ask me how it works. §oIt just works§r.%n%nAside from that, this is a very important machine to process some items and fluids into other, more useful items and fluids. A basic example of this is electrolyzing Water, which should be completely free to you, to get both Hydrogen and Oxygen, two very important fluids for your progression.
 
 # Quest.543 - §5§lC9H8O4...NaCl...H2O...
 gtnh.quest543.name=§5§lC9H8O4...NaCl...H2O...
@@ -2190,7 +2190,7 @@ gtnh.quest546.desc=During your travels you may have seen some huge oil spouts. N
 
 # Quest.547 - §5§lYour Oil is Too Crude? Refine it!
 gtnh.quest547.name=§5§lYour Oil is Too Crude? Refine it!
-gtnh.quest547.desc=Burning oil in the combustion generator is a very inefficient way of producing power. Every bucket/cell of oil only gives you 20,000 EU. Time to refine it.%n%nYou'll need to use a circuit to pick which of the products you want. Later on you can make a Distillation Tower to get all of them, but that's far away for now.%n%nYou can also distill many other fluids!
+gtnh.quest547.desc=Burning oil in the combustion generator is a very inefficient way of producing power. Every bucket/cell of oil only gives you 20,000 EU. Time to refine it.%n%nYou'll need to use a circuit to pick which of the products you want. Later on you can make a Distillation Tower to get all of them, but that's far away for now.%n%nYou can also distill many other fluids! There are two that are useful, but take a long time to distill, so you should set them up in advance: Lubricant (from Creosote) and Distilled Water (from Water).
 
 # Quest.548 - §5§lLight Sulfuric Fuel
 gtnh.quest548.name=§5§lLight Sulfuric Fuel
@@ -2578,7 +2578,7 @@ gtnh.quest643.desc=Refine your gas in a chemical reactor with Hydrogen gas to gi
 
 # Quest.644 - §5§lMethane
 gtnh.quest644.name=§5§lMethane
-gtnh.quest644.desc=Distilling some "refinery gases" gives you some methane gas. There are many more (and probably better) ways to get methane.
+gtnh.quest644.desc=Distilling some "refinery gases" gives you some methane gas. There are many more (and probably better) ways to get methane.%n%nYou will need this in later tiers, for PTFE as an example.
 
 # Quest.645 - Glider Wings
 gtnh.quest645.name=Glider Wings
@@ -3182,7 +3182,7 @@ gtnh.quest794.desc=In order to make HV machines, you need HV circuits. The first
 
 # Quest.795 - §5§lBasic Circuit Assembler
 gtnh.quest795.name=§5§lBasic Circuit Assembler
-gtnh.quest795.desc=Advanced (HV) circuits require an LV circuit assembling machine. Basic (LV) and Good (MV) ones can also be made much more efficiently with this machine. I know you want it, so make it already!
+gtnh.quest795.desc=Advanced (HV) circuits require an LV circuit assembling machine. Basic (LV) and Good (MV) ones can also be made much more efficiently with this machine. %n%nHowever, all circuit assemblers need higher tier circuits than the other machines of their tier. This means you have to use MV circuits instead of the LV ones you've been using until now. I know you want it, so make it already!
 
 # Quest.796 - Sensor Lens
 gtnh.quest796.name=Sensor Lens
@@ -3478,7 +3478,7 @@ gtnh.quest868.desc=To make bricks for the blast furnace you need concrete and gy
 
 # Quest.869 - §5§lSifting Machine
 gtnh.quest869.name=§5§lSifting Machine
-gtnh.quest869.desc=Do you need flawless or exquisite diamonds, emeralds, rubies or other gems? Or, interested in getting more flint, coal, or whatnot out of your ore? Well then it's time for you to make a Sifting Machine.%n%nYou can find small Zinc ores (look in NEI) or you can search the Nether for Sphalerite.%n%nYou'll need either an Ore Washer or Simple Ore Washer since the Sifter only takes purified ores.
+gtnh.quest869.desc=Do you need flawless or exquisite diamonds, emeralds, rubies or other gems? Or, interested in getting more flint, coal, or whatnot out of your ore? Well then it's time for you to make a Sifting Machine.%n%nYou can find small Zinc ores (look in NEI) or you can search the Nether for Sphalerite.%n%nThe Sifter only takes Purified ores, but you can get these easily by throwing Crushed ores into a Cauldron with water.
 
 # Quest.870 - §6§lSmelt All the Things...
 gtnh.quest870.name=§6§lSmelt All the Things...
@@ -3754,7 +3754,7 @@ gtnh.quest937.desc=Put those 32 EU panels on a block to make them placeable in t
 
 # Quest.938 - §5§6§l§5§lAutomated Sticky Resin Farmer
 gtnh.quest938.name=§5§6§l§5§lAutomated Sticky Resin Farmer
-gtnh.quest938.desc=If you're tired of crafting tons of tree taps, how about a machine that uses power but never breaks? Let's craft an electric tree tap!
+gtnh.quest938.desc=If you're tired of crafting tons of tree taps, how about a machine that uses power but never breaks? Let's craft an electric tree tap!%n%n(If you're looking for better ways to get Sticky Resin, you might want to consider the Stickreed crop from IC2 crops. To get it, plant Sugarcanes on Crops on a X formation, with spaces between them, and then put 2 Crops on each empty slot. For more information, check the crop quests.
 
 # Quest.939 - §6§l§d§5§lAutomated Farmer
 gtnh.quest939.name=§6§l§d§5§lAutomated Farmer
@@ -6190,7 +6190,7 @@ gtnh.quest1546.desc=Did you look for days to find Diamonds, Redstone, Tantalite,
 
 # Quest.1547 - §6§lPress All the Things in MV
 gtnh.quest1547.name=§6§lPress All the Things in MV
-gtnh.quest1547.desc=With the MV forming press you can make aluminum iron plates for solar panels and turbine blades for turbines.
+gtnh.quest1547.desc=With the MV forming press you can make aluminum iron plates for solar panels, turbine blades for turbines and some items for Logistics Pipes.
 
 # Quest.1548 - Input chest for Ghetto ME System
 gtnh.quest1548.name=Input chest for Ghetto ME System
@@ -9706,7 +9706,7 @@ gtnh.quest2425.desc=You're almost there! To actually use the ritual, you need to
 
 # Quest.2426 - §6§lTantalum Nether
 gtnh.quest2426.name=§6§lTantalum Nether
-gtnh.quest2426.desc=Tantalum is used in the GT (optional) and Ender IO Capacitors, and is also a source for niobium. You can find Tantalite at Y 20-30 in the Nether.
+gtnh.quest2426.desc=Tantalum is used in the GT (optional) and Ender IO Capacitors, and is also a source for niobium. You can find Tantalite at Y 20-30 in the Nether.%n%n§4Keep in mind you need an HV + Kanthal EBF and an MV Chemical Bath to get Tantalum Ingots.
 
 # Quest.2427 - Gold Ore exchange
 gtnh.quest2427.name=Gold Ore exchange
@@ -12846,7 +12846,7 @@ gtnh.quest3210.desc=You probably have built a lot of Large Chemical Reactors by 
 
 # Quest.3211 - §6§lRaw Silicon Dust
 gtnh.quest3211.name=§6§lRaw Silicon Dust
-gtnh.quest3211.desc=Silicon is needed in all boule (and thus wafers, chips, and circuits) creation. Silicon is therefore an §oincredibly important material§r.%n%nWith your new electrolyzer you can obtain raw silicon dust from many different sources. Alternatively, you can also centrifuge redstone. Or, you can also get your raw silicon from silicon dioxide.
+gtnh.quest3211.desc=Silicon is needed in all boule (and thus wafers, chips, and circuits) creation. Silicon is therefore an §oincredibly important material§r.%n%nWith your new Electrolyzer you can obtain Raw Silicon Dust from many different sources. Alternatively, you can also centrifuge Redstone. You can also get it from Silicon Dioxide, by adding Magnesium Dust to it in a Chemical Reactor and then recycling it in an Electrolyzer, which also gives you a lot of bonus Oxygen.
 
 # Quest.3212 - §6§lSilicon Tetrachloride
 gtnh.quest3212.name=§6§lSilicon Tetrachloride
@@ -12854,7 +12854,7 @@ gtnh.quest3212.desc=However, the raw silicon dust you obtained is not pure enoug
 
 # Quest.3213 - §6§lSilicon Solar Grade
 gtnh.quest3213.name=§6§lSilicon Solar Grade
-gtnh.quest3213.desc=As a second step, we combine the tetrachloride with sodium.%n%nThere we go! The silicon dust is now purified to solar grade!
+gtnh.quest3213.desc=As a second step, we combine the Tetrachloride with Sodium Dust. There we go! The Silicon Dust is now purified to solar grade!%n%nThe Chlorine and Sodium are §onot§r lost during this process. To recover them, just electrolyze the Salt you get at the end and send it back to the Chemical Reactors, for a complete loop that turns Raw Silicon into Poly SI Silicon.
 
 # Quest.3214 - §6§lSalty from all the silicon?
 gtnh.quest3214.name=§6§lSalty from all the silicon?
