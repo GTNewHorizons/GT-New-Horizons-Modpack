@@ -1087,12 +1087,6 @@ recipes.addShaped(<GalacticraftMars:item.itemBasicAsteroids:8>, [
 [CompressedIron, <ore:lensDiamond>, CompressedIron],
 [<ore:ringRedAlloy>, CompressedIron, <ore:ringRedAlloy>]]);
 
-// --- Fluid Manipulator
-recipes.addShaped(<GalacticraftMars:item.null:6>, [
-[<gregtech:gt.metaitem.01:32612>, <gregtech:gt.blockmachines:5135>, <gregtech:gt.metaitem.01:32612>],
-[<gregtech:gt.blockmachines:5135>, <GalacticraftCore:item.oilCanisterPartial:1001>, <gregtech:gt.blockmachines:5135>],
-[<gregtech:gt.metaitem.01:32612>, <gregtech:gt.blockmachines:5135>, <gregtech:gt.metaitem.01:32612>]]);
-
 // --- Energy Beam Reflector
 recipes.addShaped(<GalacticraftMars:tile.beamReflector>, [
 [DeshRing, <GalacticraftMars:item.itemBasicAsteroids:8>, DeshRing],
@@ -1401,6 +1395,9 @@ Assembler.addRecipe(<GalacticraftCore:item.canvas>,  <harvestcraft:wovencottonIt
 
 // --- Parachute
 Assembler.addRecipe(<GalacticraftCore:item.parachute>, <GalacticraftCore:item.canvas> * 2, <gregtech:gt.metaitem.02:19305> * 3, 300, 480);
+
+// --- Fluid Manipulator
+Assembler.addRecipe(<GalacticraftMars:item.null:6>, [<gregtech:gt.metaitem.01:32612> * 4, <gregtech:gt.blockmachines:5135> * 4, <GalacticraftCore:item.oilCanisterPartial:1001>], null, 200, 480);
 
 
 // --- Blast Furnace Recipes ---
