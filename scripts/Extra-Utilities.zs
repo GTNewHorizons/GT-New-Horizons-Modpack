@@ -16,6 +16,21 @@ import mods.thaumcraft.Infusion;
 import mods.thaumcraft.Arcane;
 import mods.thaumcraft.Warp;
 
+
+// --- I18N ---
+val I18N_Extra_Utilities_0 = "Be free like a bird ... (Theorie)";
+val I18N_Extra_Utilities_1 = "[ExU] The way to the sky! - Part I";
+val I18N_Extra_Utilities_2 = "Happy to have crafted or looted your first Copter Pack or in general having access to Jetpacks?<BR>Annoyed about the fact that you need some type of fuel or energy for your Jetpack to work?<BR>What would a Thaumaturge give to achieve the ability to fly without these restrictions?<BR>Maybe some §oWarp§r? Not at this point yet, maybe later?<BR>But what should you do now to achieve §oFreedom like a bird§r? Maybe you remember Icarus and what happened to him?";
+val I18N_Extra_Utilities_3 = "If you remeber (well, let us say §othat§r you remember) then why not taking a look the §oTraveller's Wings§r§r? For me they could be the key for what you want to achieve but even if you own them, what should you do with them?<BR> I would like to ... try to infuse them with ... what items would you need you may ask and the final result will be ...?<BR>Pretty out of ideas I see so let us make some theoretical studies first:<BR>You want to fly like a bird? Try to get §oVolatus§r because it is referenced to flight. Another ingredient could be §oTempestas§r to withstand the harsh weather out there.";
+val I18N_Extra_Utilities_4 = "The next as obvious would be §oPraecantatio§r as we are going to use magic after all to achieve your goal otherwise it wouldn't make sense, wouldn't it? Also §oMotus§r will be required.<BR>Well done, we got the §oMain Aspects§r but how can we get rid of requiring energy or fuel? I would suggest to get §oNebrisum§r the source of §oCheatines§r. Yes, you are right, we are going to cheat a little bit for your goal but don't blame me for that §oTerminus§r I couldn't withstand to use it.<BR>You should have a few Jars filled with §oVolatus, Tempestas, Praecantatio, Nebrisum, Motus§r and §oTerminus§r to be prepared.<LINE>";
+val I18N_Extra_Utilities_5 = "Now it is time to find out which items you would need for the infusion as well as the item to be infused with.<LINE> From the secound page we have the §oTraveller's Wings§r which I would suggest to be used as the key item and infuse them with all other items at the §oInfusion Altar§r.<BR> At last you would need §oNether Stars§r and §oAngel Blocks§r the first part of ingredients.<LINE>";
+val I18N_Extra_Utilities_6 = "Now we are getting to the downside of this list ... gregified items are also used for ... reasons.<LINE> The first downside will be from GT++:<BR>§oMagical Feather§r at last two of them which requiring you to be in §oEV Age§r before you can continue at this point. Last ones which I throw to you will be two §oEngraved Gold Chips§r, one §oIchorium Rings§r and two §oTritanium Screws§r.<BR>Congrats, you gathered all the materials you'll need ... theoretically. So now go out and get them and come back to me when you have acquired them.<LINE>";
+val I18N_Extra_Utilities_7 = "The next research will show you the recipes for your beloved item: §oExU's Angel Ring§r and they come in different styles too.<LINE>";
+val I18N_Extra_Utilities_8 = "Be free like a bird ... (Crafting)";
+val I18N_Extra_Utilities_9 = "[ExU] The way to the sky! - Part II";
+val I18N_Extra_Utilities_10 = "Ok, you got all the items and jarred essentia? Oh and thanks for taking some warp because warp is fun, isn't it? Well at last it is the payment<LINE>Fine here are all the recipes you wanted. Have fun with them but don't blame me for there own difficulty to aquire them before you can use them finally in these recipes.<LINE>First recipe: Angel Ring (Invisible Wings)<BR>Oh, totally forgotten to tell you about some §oPearl§r and §oCharms§r, sorry.";
+val I18N_Extra_Utilities_11 = "So you assumed to get an Arcane Recipe here for all these different variants? Nope, it will be Infusion too as the Arcane Table can't handle the power which is hidden within this powerful item. For this time take a look on the following recipes to get all the items and the essentia together.<LINE>Second and following ones are Angel Rings with the following options: Golden Wings, Dragon Wings, Feathery Wings, Fairy Wings.<BR>Note that when you have transmogrified your wings that this step is final. This means, that you need at last five rings to own the complete collection ... whyever you would do this.";
+
 // --- Variables ---
 val EnderPump = <ExtraUtilities:enderThermicPump>;
 val EnderObsidian = <ExtraUtilities:decorativeBlock1:1>;
@@ -1359,37 +1374,37 @@ Infusion.addRecipe("EXURINGS_CRAFTING", ARInvisableWings, [SalisMundus, RoseGold
 
 // --- Research I: Flavor Text
 Research.addResearch("EXURINGS", "ARTIFICE", "praecantatio 10, volatus 10, tempestas 100, nebrisum 10, motus 10, terminus 10", 1, -5 as int, 16, TravelWingsImage);
-game.setLocalization("en_US", "tc.research_name.EXURINGS", "Be free like a bird ... (Theorie)");
-game.setLocalization("en_US", "tc.research_text.EXURINGS", "[ExU] The way to the sky! - Part I");
+game.setLocalization("en_US", "tc.research_name.EXURINGS", I18N_Extra_Utilities_0);
+game.setLocalization("en_US", "tc.research_text.EXURINGS", I18N_Extra_Utilities_1);
 Research.setRound("EXURINGS", true);
 Research.setConcealed("EXURINGS", true);
 Research.addPrereq("EXURINGS", "INFUSION", true);
 Research.addPage("EXURINGS", "tc.research_page.EXURINGS.1");
-game.setLocalization("en_US", "tc.research_page.EXURINGS.1", "Happy to have crafted or looted your first Copter Pack or in general having access to Jetpacks?<BR>Annoyed about the fact that you need some type of fuel or energy for your Jetpack to work?<BR>What would a Thaumaturge give to achieve the ability to fly without these restrictions?<BR>Maybe some §oWarp§r? Not at this point yet, maybe later?<BR>But what should you do now to achieve §oFreedom like a bird§r? Maybe you remember Icarus and what happened to him?");
+game.setLocalization("en_US", "tc.research_page.EXURINGS.1", I18N_Extra_Utilities_2);
 Research.addPage("EXURINGS", "tc.research_page.EXURINGS.2");
-game.setLocalization("en_US", "tc.research_page.EXURINGS.2", "If you remeber (well, let us say §othat§r you remember) then why not taking a look the §oTraveller's Wings§r§r? For me they could be the key for what you want to achieve but even if you own them, what should you do with them?<BR> I would like to ... try to infuse them with ... what items would you need you may ask and the final result will be ...?<BR>Pretty out of ideas I see so let us make some theoretical studies first:<BR>You want to fly like a bird? Try to get §oVolatus§r because it is referenced to flight. Another ingredient could be §oTempestas§r to withstand the harsh weather out there.");
+game.setLocalization("en_US", "tc.research_page.EXURINGS.2", I18N_Extra_Utilities_3);
 
 Research.addPage("EXURINGS", "tc.research_page.EXURINGS.3");
-game.setLocalization("en_US", "tc.research_page.EXURINGS.3", "The next as obvious would be §oPraecantatio§r as we are going to use magic after all to achieve your goal otherwise it wouldn't make sense, wouldn't it? Also §oMotus§r will be required.<BR>Well done, we got the §oMain Aspects§r but how can we get rid of requiring energy or fuel? I would suggest to get §oNebrisum§r the source of §oCheatines§r. Yes, you are right, we are going to cheat a little bit for your goal but don't blame me for that §oTerminus§r I couldn't withstand to use it.<BR>You should have a few Jars filled with §oVolatus, Tempestas, Praecantatio, Nebrisum, Motus§r and §oTerminus§r to be prepared.<LINE>");
+game.setLocalization("en_US", "tc.research_page.EXURINGS.3", I18N_Extra_Utilities_4);
 Research.addPage("EXURINGS", "tc.research_page.EXURINGS.4");
-game.setLocalization("en_US", "tc.research_page.EXURINGS.4", "Now it is time to find out which items you would need for the infusion as well as the item to be infused with.<LINE> From the secound page we have the §oTraveller's Wings§r which I would suggest to be used as the key item and infuse them with all other items at the §oInfusion Altar§r.<BR> At last you would need §oNether Stars§r and §oAngel Blocks§r the first part of ingredients.<LINE>");
+game.setLocalization("en_US", "tc.research_page.EXURINGS.4", I18N_Extra_Utilities_5);
 Research.addPage("EXURINGS", "tc.research_page.EXURINGS.5");
-game.setLocalization("en_US", "tc.research_page.EXURINGS.5", "Now we are getting to the downside of this list ... gregified items are also used for ... reasons.<LINE> The first downside will be from GT++:<BR>§oMagical Feather§r at last two of them which requiring you to be in §oEV Age§r before you can continue at this point. Last ones which I throw to you will be two §oEngraved Gold Chips§r, one §oIchorium Rings§r and two §oTritanium Screws§r.<BR>Congrats, you gathered all the materials you'll need ... theoretically. So now go out and get them and come back to me when you have acquired them.<LINE>");
+game.setLocalization("en_US", "tc.research_page.EXURINGS.5", I18N_Extra_Utilities_6);
 Research.addPage("EXURINGS", "tc.research_page.EXURINGS.6");
-game.setLocalization("en_US", "tc.research_page.EXURINGS.6", "The next research will show you the recipes for your beloved item: §oExU's Angel Ring§r and they come in different styles too.<LINE>");
+game.setLocalization("en_US", "tc.research_page.EXURINGS.6", I18N_Extra_Utilities_7);
 
 // --- Research II: Angel Rings (crafting)
 Research.addResearch("EXURINGS_CRAFTING", "ARTIFICE", "praecantatio 10, volatus 10, tempestas 10, nebrisum 10, motus 10, terminus 10", -1 as int, -5 as int, 16, ARInvisableWings);
-game.setLocalization("en_US", "tc.research_name.EXURINGS_CRAFTING", "Be free like a bird ... (Crafting)");
-game.setLocalization("en_US", "tc.research_text.EXURINGS_CRAFTING", "[ExU] The way to the sky! - Part II");
+game.setLocalization("en_US", "tc.research_name.EXURINGS_CRAFTING", I18N_Extra_Utilities_8);
+game.setLocalization("en_US", "tc.research_text.EXURINGS_CRAFTING", I18N_Extra_Utilities_9);
 Research.addPrereq("EXURINGS_CRAFTING", "EXURINGS", false);
 Research.setConcealed("EXURINGS_CRAFTING", true);
 Warp.addToResearch("EXURINGS_CRAFTING", 16);
 Research.addPage("EXURINGS_CRAFTING", "tc.research_page.EXURINGS_CRAFTING.1");
-game.setLocalization("en_US", "tc.research_page.EXURINGS_CRAFTING.1", "Ok, you got all the items and jarred essentia? Oh and thanks for taking some warp because warp is fun, isn't it? Well at last it is the payment<LINE>Fine here are all the recipes you wanted. Have fun with them but don't blame me for there own difficulty to aquire them before you can use them finally in these recipes.<LINE>First recipe: Angel Ring (Invisible Wings)<BR>Oh, totally forgotten to tell you about some §oPearl§r and §oCharms§r, sorry.");
+game.setLocalization("en_US", "tc.research_page.EXURINGS_CRAFTING.1", I18N_Extra_Utilities_10);
 Research.addInfusionPage("EXURINGS_CRAFTING", ARInvisableWings);
 Research.addPage("EXURINGS_CRAFTING", "tc.research_page.EXURINGS_CRAFTING.2");
-game.setLocalization("en_US", "tc.research_page.EXURINGS_CRAFTING.2", "So you assumed to get an Arcane Recipe here for all these different variants? Nope, it will be Infusion too as the Arcane Table can't handle the power which is hidden within this powerful item. For this time take a look on the following recipes to get all the items and the essentia together.<LINE>Second and following ones are Angel Rings with the following options: Golden Wings, Dragon Wings, Feathery Wings, Fairy Wings.<BR>Note that when you have transmogrified your wings that this step is final. This means, that you need at last five rings to own the complete collection ... whyever you would do this.");
+game.setLocalization("en_US", "tc.research_page.EXURINGS_CRAFTING.2", I18N_Extra_Utilities_11);
 Research.addInfusionPage("EXURINGS_CRAFTING", ARFeatheryWings);
 Research.addInfusionPage("EXURINGS_CRAFTING", ARFairyWings);
 Research.addInfusionPage("EXURINGS_CRAFTING", ARDragonWings);

@@ -1,6 +1,15 @@
 // ---Created by DreamMasterXXL ---
 
 
+// --- I18N ---
+val I18N_GraviSuite_0 = "Superconductor Cover";
+val I18N_GraviSuite_1 = "Superconductor";
+val I18N_GraviSuite_2 = "Cooling Core";
+val I18N_GraviSuite_3 = "Gravitation Engine";
+val I18N_GraviSuite_4 = "Magnetron";
+val I18N_GraviSuite_5 = "Vajra Core";
+val I18N_GraviSuite_6 = "Engine Booster";
+
 
 // --- Remove Recipes ---
 
@@ -125,22 +134,22 @@ recipes.addShaped(<GraviSuite:advDDrill:27>, [
 
 
 // --- SuperConductorCover
-<GraviSuite:itemSimpleItem>.displayName = "Superconductor Cover";
+<GraviSuite:itemSimpleItem>.displayName = I18N_GraviSuite_0;
 
 // --- SuperConductor
-<GraviSuite:itemSimpleItem:1>.displayName = "Superconductor";
+<GraviSuite:itemSimpleItem:1>.displayName = I18N_GraviSuite_1;
 
 // --- Cooling Core
-<GraviSuite:itemSimpleItem:2>.displayName = "Cooling Core";
+<GraviSuite:itemSimpleItem:2>.displayName = I18N_GraviSuite_2;
 
 // --- Gravitation Engine
-<GraviSuite:itemSimpleItem:3>.displayName = "Gravitation Engine";
+<GraviSuite:itemSimpleItem:3>.displayName = I18N_GraviSuite_3;
 
 // --- Magnetron
-<GraviSuite:itemSimpleItem:4>.displayName = "Magnetron";
+<GraviSuite:itemSimpleItem:4>.displayName = I18N_GraviSuite_4;
 
 // --- VajraCore
-<GraviSuite:itemSimpleItem:5>.displayName = "Vajra Core";
+<GraviSuite:itemSimpleItem:5>.displayName = I18N_GraviSuite_5;
 
 // --- EngineBoost
-<GraviSuite:itemSimpleItem:6>.displayName = "Engine Booster";
+<GraviSuite:itemSimpleItem:6>.displayName = I18N_GraviSuite_6;

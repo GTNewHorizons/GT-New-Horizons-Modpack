@@ -13,6 +13,28 @@ import mods.gregtech.CuttingSaw;
 import mods.gregtech.PrecisionLaser;
 
 
+// --- I18N ---
+val I18N_ThaumicTinkerer_01_0 = "Tome of Knowledge Sharing";
+val I18N_ThaumicTinkerer_01_1 = "[TT] A Goldfish's Diary";
+val I18N_ThaumicTinkerer_01_2 = "Smokey Quartz";
+val I18N_ThaumicTinkerer_01_3 = "[TT] Shadow of the Day";
+val I18N_ThaumicTinkerer_01_4 = "Elemental Fire: Ignis";
+val I18N_ThaumicTinkerer_01_5 = "[TT] Fire infused with.....more fire!";
+val I18N_ThaumicTinkerer_01_6 = "Elemental Fire: Aqua";
+val I18N_ThaumicTinkerer_01_7 = "[TT] Water plus Fire. This should end well.";
+val I18N_ThaumicTinkerer_01_8 = "Elemental Fire: Terra";
+val I18N_ThaumicTinkerer_01_9 = "[TT] Enough dirt to ... do whatever one does with dirt";
+val I18N_ThaumicTinkerer_01_10 = "Elemental Fire: Ordo";
+val I18N_ThaumicTinkerer_01_11 = "[TT] More ingots for your ore";
+val I18N_ThaumicTinkerer_01_12 = "Elemental Fire: Aer";
+val I18N_ThaumicTinkerer_01_13 = "[TT] Suspension of disbelief is a useful skill";
+val I18N_ThaumicTinkerer_01_14 = "Elemental Fire: Perditio";
+val I18N_ThaumicTinkerer_01_15 = "[TT] Cleanup time";
+val I18N_ThaumicTinkerer_01_16 = "Infused Crops";
+val I18N_ThaumicTinkerer_01_17 = "[TT] Who said bees? No one said bees.";
+val I18N_ThaumicTinkerer_01_18 = "The other recipes are not shown but you can infuse Seeds with all the other Primal Aspect Crystals.<BR>Seeds infuse Ignis with Ignis Cluster and 16 ignis Aspect instead of Air, Seeds infuse Aqua with Aqua Crystals and 16 aqua Aspect instead of Air...";
+val I18N_ThaumicTinkerer_01_19 = "Infused Potions";
+val I18N_ThaumicTinkerer_01_20 = "[TT] Growing your Potions.";
 
 // --- Variables ---
 
@@ -173,8 +195,8 @@ mods.thaumcraft.Arcane.removeRecipe(<ThaumicTinkerer:revealingHelm>);
 mods.thaumcraft.Research.orphanResearch("SHARE_TOME");
 mods.thaumcraft.Research.removeResearch("SHARE_TOME");
 mods.thaumcraft.Research.addResearch("SHARETOME", "TT_CATEGORY", "cognitio 15, praecantatio 12, permutatio 9, instrumentum 6, terra 3", 0, -1 as int, 3, <ThaumicTinkerer:shareBook>);
-game.setLocalization("tc.research_name.SHARETOME", "Tome of Knowledge Sharing");
-game.setLocalization("tc.research_text.SHARETOME", "[TT] A Goldfish's Diary");
+game.setLocalization("tc.research_name.SHARETOME", I18N_ThaumicTinkerer_01_0);
+game.setLocalization("tc.research_text.SHARETOME", I18N_ThaumicTinkerer_01_1);
 mods.thaumcraft.Research.addPrereq("SHARETOME", "INFUSION", false);
 mods.thaumcraft.Research.setConcealed("SHARETOME", false);
 mods.thaumcraft.Research.addPage("SHARETOME", "ttresearch.page.SHARE_TOME.0");
@@ -190,8 +212,8 @@ mods.thaumcraft.Research.removeResearch("DARK_QUARTZ");
 mods.thaumcraft.Research.addResearch("DARKQUARTZ", "TT_CATEGORY", "null", -2 as int, 2, 1, <ThaumicTinkerer:darkQuartzItem>);
 mods.thaumcraft.Research.setRound("DARKQUARTZ", true);
 mods.thaumcraft.Research.setAutoUnlock("DARKQUARTZ", true);
-game.setLocalization("tc.research_name.DARKQUARTZ", "Smokey Quartz");
-game.setLocalization("tc.research_text.DARKQUARTZ", "[TT] Shadow of the Day");
+game.setLocalization("tc.research_name.DARKQUARTZ", I18N_ThaumicTinkerer_01_2);
+game.setLocalization("tc.research_text.DARKQUARTZ", I18N_ThaumicTinkerer_01_3);
 mods.thaumcraft.Research.addPage("DARKQUARTZ", "ttresearch.page.DARK_QUARTZ.0");
 mods.thaumcraft.Arcane.addShaped("DARKQUARTZ", <ThaumicTinkerer:darkQuartzItem>, "perditio 8", [
 [<ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>],
@@ -280,8 +302,8 @@ mods.thaumcraft.Research.addPrereq("FIREIGNIS", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("FIREIGNIS", "BRIGHT_NITOR", false);
 mods.thaumcraft.Research.addPrereq("FIREIGNIS", "ELDRITCHMINOR", false);
 mods.thaumcraft.Research.setConcealed("FIREIGNIS", true);
-game.setLocalization("tc.research_name.FIREIGNIS", "Elemental Fire: Ignis");
-game.setLocalization("tc.research_text.FIREIGNIS", "[TT] Fire infused with.....more fire!");
+game.setLocalization("tc.research_name.FIREIGNIS", I18N_ThaumicTinkerer_01_4);
+game.setLocalization("tc.research_text.FIREIGNIS", I18N_ThaumicTinkerer_01_5);
 mods.thaumcraft.Research.addPage("FIREIGNIS", "ttresearch.page.FIRE_IGNIS.0");
 mods.thaumcraft.Infusion.addRecipe("FIREIGNIS", <Thaumcraft:ItemEssence:1>.withTag({Aspects: [{amount: 8, key: "ignis"}]}),
 [<minecraft:glowstone_dust>, <Thaumcraft:blockCrystal:1>, <minecraft:redstone>, <Thaumcraft:blockCrystal:1>],
@@ -297,8 +319,8 @@ mods.thaumcraft.Research.addPrereq("FIREAQUA", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("FIREAQUA", "BRIGHT_NITOR", false);
 mods.thaumcraft.Research.addPrereq("FIREAQUA", "ELDRITCHMINOR", false);
 mods.thaumcraft.Research.setConcealed("FIREAQUA", true);
-game.setLocalization("tc.research_name.FIREAQUA", "Elemental Fire: Aqua");
-game.setLocalization("tc.research_text.FIREAQUA", "[TT] Water plus Fire. This should end well.");
+game.setLocalization("tc.research_name.FIREAQUA", I18N_ThaumicTinkerer_01_6);
+game.setLocalization("tc.research_text.FIREAQUA", I18N_ThaumicTinkerer_01_7);
 mods.thaumcraft.Research.addPage("FIREAQUA", "ttresearch.page.FIRE_AQUA.0");
 mods.thaumcraft.Infusion.addRecipe("FIREAQUA", <Thaumcraft:ItemEssence:1>.withTag({Aspects: [{amount: 8, key: "aqua"}]}),
 [<minecraft:glowstone_dust>, <Thaumcraft:blockCrystal:2>, <minecraft:redstone>, <Thaumcraft:blockCrystal:2>],
@@ -314,8 +336,8 @@ mods.thaumcraft.Research.addPrereq("FIRETERRA", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("FIRETERRA", "BRIGHT_NITOR", false);
 mods.thaumcraft.Research.addPrereq("FIRETERRA", "ELDRITCHMINOR", false);
 mods.thaumcraft.Research.setConcealed("FIRETERRA", true);
-game.setLocalization("tc.research_name.FIRETERRA", "Elemental Fire: Terra");
-game.setLocalization("tc.research_text.FIRETERRA", "[TT] Enough dirt to ... do whatever one does with dirt");
+game.setLocalization("tc.research_name.FIRETERRA", I18N_ThaumicTinkerer_01_8);
+game.setLocalization("tc.research_text.FIRETERRA", I18N_ThaumicTinkerer_01_9);
 mods.thaumcraft.Research.addPage("FIRETERRA", "ttresearch.page.FIRE_TERRA.0");
 mods.thaumcraft.Infusion.addRecipe("FIRETERRA", <Thaumcraft:ItemEssence:1>.withTag({Aspects: [{amount: 8, key: "terra"}]}),
 [<minecraft:glowstone_dust>, <Thaumcraft:blockCrystal:3>, <minecraft:redstone>, <Thaumcraft:blockCrystal:3>],
@@ -331,8 +353,8 @@ mods.thaumcraft.Research.addPrereq("FIREORDO", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("FIREORDO", "BRIGHT_NITOR", false);
 mods.thaumcraft.Research.addPrereq("FIREORDO", "ELDRITCHMINOR", false);
 mods.thaumcraft.Research.setConcealed("FIREORDO", true);
-game.setLocalization("tc.research_name.FIREORDO", "Elemental Fire: Ordo");
-game.setLocalization("tc.research_text.FIREORDO", "[TT] More ingots for your ore");
+game.setLocalization("tc.research_name.FIREORDO", I18N_ThaumicTinkerer_01_10);
+game.setLocalization("tc.research_text.FIREORDO", I18N_ThaumicTinkerer_01_11);
 mods.thaumcraft.Research.addPage("FIREORDO", "ttresearch.page.FIRE_ORDO.0");
 mods.thaumcraft.Infusion.addRecipe("FIREORDO", <Thaumcraft:ItemEssence:1>.withTag({Aspects: [{amount: 8, key: "ordo"}]}),
 [<minecraft:glowstone_dust>, <Thaumcraft:blockCrystal:4>, <minecraft:redstone>, <Thaumcraft:blockCrystal:4>],
@@ -348,8 +370,8 @@ mods.thaumcraft.Research.addPrereq("FIREAER", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("FIREAER", "BRIGHT_NITOR", false);
 mods.thaumcraft.Research.addPrereq("FIREAER", "ELDRITCHMINOR", false);
 mods.thaumcraft.Research.setConcealed("FIREAER", true);
-game.setLocalization("tc.research_name.FIREAER", "Elemental Fire: Aer");
-game.setLocalization("tc.research_text.FIREAER", "[TT] Suspension of disbelief is a useful skill");
+game.setLocalization("tc.research_name.FIREAER", I18N_ThaumicTinkerer_01_12);
+game.setLocalization("tc.research_text.FIREAER", I18N_ThaumicTinkerer_01_13);
 mods.thaumcraft.Research.addPage("FIREAER", "ttresearch.page.FIRE_AER.0");
 mods.thaumcraft.Infusion.addRecipe("FIREAER", <Thaumcraft:ItemEssence:1>.withTag({Aspects: [{amount: 8, key: "aer"}]}),
 [<minecraft:glowstone_dust>, <Thaumcraft:blockCrystal>, <minecraft:redstone>, <Thaumcraft:blockCrystal>],
@@ -365,8 +387,8 @@ mods.thaumcraft.Research.addPrereq("FIREPERDITIO", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("FIREPERDITIO", "BRIGHT_NITOR", false);
 mods.thaumcraft.Research.addPrereq("FIREPERDITIO", "ELDRITCHMINOR", false);
 mods.thaumcraft.Research.setConcealed("FIREPERDITIO", true);
-game.setLocalization("tc.research_name.FIREPERDITIO", "Elemental Fire: Perditio");
-game.setLocalization("tc.research_text.FIREPERDITIO", "[TT] Cleanup time");
+game.setLocalization("tc.research_name.FIREPERDITIO", I18N_ThaumicTinkerer_01_14);
+game.setLocalization("tc.research_text.FIREPERDITIO", I18N_ThaumicTinkerer_01_15);
 mods.thaumcraft.Research.addPage("FIREPERDITIO", "ttresearch.page.FIRE_PERDITIO.0");
 mods.thaumcraft.Infusion.addRecipe("FIREPERDITIO", <Thaumcraft:ItemEssence:1>.withTag({Aspects: [{amount: 8, key: "perditio"}]}),
 [<minecraft:glowstone_dust>, <Thaumcraft:blockCrystal:5>, <minecraft:redstone>, <Thaumcraft:blockCrystal:5>],
@@ -386,8 +408,8 @@ mods.thaumcraft.Research.addPrereq("INFUSEDSEED", "FIREAER", false);
 mods.thaumcraft.Research.addPrereq("INFUSEDSEED", "FIREORDO", false);
 mods.thaumcraft.Research.addPrereq("INFUSEDSEED", "FIREPERDITIO", false);
 mods.thaumcraft.Research.setConcealed("INFUSEDSEED", true);
-game.setLocalization("tc.research_name.INFUSEDSEED", "Infused Crops");
-game.setLocalization("tc.research_text.INFUSEDSEED", "[TT] Who said bees? No one said bees.");
+game.setLocalization("tc.research_name.INFUSEDSEED", I18N_ThaumicTinkerer_01_16);
+game.setLocalization("tc.research_text.INFUSEDSEED", I18N_ThaumicTinkerer_01_17);
 mods.thaumcraft.Research.addPage("INFUSEDSEED", "ttresearch.page.INFUSED_POTIONS.0");
 mods.thaumcraft.Research.addPage("INFUSEDSEED", "ttresearch.page.INFUSED_POTIONS.1");
 mods.thaumcraft.Research.addPage("INFUSEDSEED", "ttresearch.page.INFUSED_POTIONS.2");
@@ -418,7 +440,7 @@ mods.thaumcraft.Infusion.addRecipe("INFUSEDSEED", <minecraft:wheat_seeds>,
 "messis 32, meto 32, perditio 16", <ThaumicTinkerer:infusedSeeds>.withTag({mainAspect: {Aspects: [{amount: 1, key: "perditio"}]}, aspectTendencies: {Aspects: []}}), 4);
 // -
 mods.thaumcraft.Research.addPage("INFUSEDSEED", "tt.research.page.INFUSEDSEED.3");
-game.setLocalization("tt.research.page.INFUSEDSEED.3", "The other recipes are not shown but you can infuse Seeds with all the other Primal Aspect Crystals.<BR>Seeds infuse Ignis with Ignis Cluster and 16 ignis Aspect instead of Air, Seeds infuse Aqua with Aqua Crystals and 16 aqua Aspect instead of Air...");
+game.setLocalization("tt.research.page.INFUSEDSEED.3", I18N_ThaumicTinkerer_01_18);
 mods.thaumcraft.Warp.addToResearch("INFUSEDSEED", 2);
 
 // --- Potion of Air
@@ -426,8 +448,8 @@ mods.thaumcraft.Research.addResearch("INFUSEDPOTIONS", "TT_CATEGORY", "auram 15,
 mods.thaumcraft.Research.addPrereq("INFUSEDPOTIONS", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("INFUSEDPOTIONS", "INFUSEDSEED", false);
 mods.thaumcraft.Research.setConcealed("INFUSEDPOTIONS", true);
-game.setLocalization("tc.research_name.INFUSEDPOTIONS", "Infused Potions");
-game.setLocalization("tc.research_text.INFUSEDPOTIONS", "[TT] Growing your Potions.");
+game.setLocalization("tc.research_name.INFUSEDPOTIONS", I18N_ThaumicTinkerer_01_19);
+game.setLocalization("tc.research_text.INFUSEDPOTIONS", I18N_ThaumicTinkerer_01_20);
 mods.thaumcraft.Research.addPage("INFUSEDPOTIONS", "ttresearch.page.INFUSED_POTIONS.4");
 mods.thaumcraft.Research.addPage("INFUSEDPOTIONS", "ttresearch.page.INFUSED_POTIONS.5");
 mods.thaumcraft.Crucible.addRecipe("INFUSEDPOTIONS", <ThaumicTinkerer:infusedPotion>, <ThaumicTinkerer:infusedGrain>, "auram 16, aer 16, praecantatio 8");
