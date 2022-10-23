@@ -154,7 +154,7 @@ gtnh.quest37.desc=Iron can be found in multiple veins. %nMagnetite veins (Y 30-1
 
 # Quest.38 - §2§lMaking Better Tools
 gtnh.quest38.name=§2§lMaking Better Tools
-gtnh.quest38.desc=With aluminium and copper, you can create a material with a higher melting temperature, "Aluminum Brass", which can be used to cast better tools.%n%nBut first you'll need a smeltery. See the Multiblock Goals tab for details. You can also grab some extra blocks from some villages, but they don't count towards the quest.%n%nYou can then use your fancy new bronze to make better tools. Note that it has a higher mining level than iron, so you'll need it for mining some ores.
+gtnh.quest38.desc=With aluminium and copper, you can create a material with a higher melting temperature, "Aluminum Brass", which can be used to cast better tools.%n%nBut first you'll need a smeltery. See the Multiblock Goals tab for details. You can also grab some extra blocks from some villages, but they don't count towards the quest.%n%nYou can then use your fancy new bronze to make better tools with a higher mining level.%n%n§3Remember, you need to gather mining xp or use an upgrade slot to get the full mining level on your bronze pickaxe.
 
 # Quest.39 - §2§lBetter Storage
 gtnh.quest39.name=§2§lBetter Storage
@@ -3046,7 +3046,7 @@ gtnh.quest760.desc=If you looked through NEI you may have found out that electro
 
 # Quest.761 - §6§lPowderbarrels
 gtnh.quest761.name=§6§lPowderbarrels
-gtnh.quest761.desc=Powderbarrels are twice as good as dynamite in the implosion compressor. Craft one stack.
+gtnh.quest761.desc=Powderbarrels are pretty bad in the implosion compressor. They are good for prospecting though. Craft one stack.
 
 # Quest.762 - §6§lTNT
 gtnh.quest762.name=§6§lTNT
@@ -6794,15 +6794,15 @@ gtnh.quest1697.desc=3,3 Diaminobenzidine and Diphenyl Isophtalate will finally g
 
 # Quest.1698 - §b§lDiphenyl Isophtalate
 gtnh.quest1698.name=§b§lDiphenyl Isophtalate
-gtnh.quest1698.desc=Mix Sulfuric Acid, Phtalic acid and Phenol to get Diphenyl Isophtalate. An IV Chemical Reactor is needed.
+gtnh.quest1698.desc=Mix Sulfuric Acid, Phthalic acid and Phenol to get Diphenyl Isophtalate. An IV Chemical Reactor is needed.
 
 # Quest.1699 - §1§b§l§1§2§3§4§5§4§6§7§8§9§a§b§c§d§e§c§b§lPhenol
 gtnh.quest1699.name=§1§b§l§1§2§3§4§5§4§6§7§8§9§a§b§c§d§e§c§b§lPhenol
 gtnh.quest1699.desc=You can get Phenol in different ways, but if you don't have any, you can make some using chlorobenzene and some water.
 
-# Quest.1700 - §b§lPhtalic Acid
-gtnh.quest1700.name=§b§lPhtalic Acid
-gtnh.quest1700.desc=To get Phtalic acid you need mix Dimethylbenzene, Potassium Dichromate and Oxygen in an EV Chemical Reactor.
+# Quest.1700 - §b§lPhthalic Acid
+gtnh.quest1700.name=§b§lPhthalic Acid
+gtnh.quest1700.desc=To get Phthalic Acid you need mix Dimethylbenzene, Potassium Dichromate and Oxygen in an EV Chemical Reactor.
 
 # Quest.1701 - §b§lDimethylbenzene
 gtnh.quest1701.name=§b§lDimethylbenzene
@@ -6810,11 +6810,11 @@ gtnh.quest1701.desc=Dimethylbenzene can be distilled from Wood Tar or using Benz
 
 # Quest.1702 - §b§lPotassium Dichromate
 gtnh.quest1702.name=§b§lPotassium Dichromate
-gtnh.quest1702.desc=Potassium Dichromate is made out of Potassium Nitrade and Chromium Trioxide in an HV Chemical Reactor.
+gtnh.quest1702.desc=Potassium Dichromate is made out of Potassium Nitrate and Chromium Trioxide in an HV Chemical Reactor.
 
-# Quest.1703 - §b§lPotassium Nitrade
-gtnh.quest1703.name=§b§lPotassium Nitrade
-gtnh.quest1703.desc=Potassium Nitrade is made out of potassium and nitric acid.
+# Quest.1703 - §b§lPotassium Nitrate
+gtnh.quest1703.name=§b§lPotassium Nitrate
+gtnh.quest1703.desc=Potassium Nitrate is made from Potassium and Nitric Acid.
 
 # Quest.1704 - §b§lChromium Trioxide
 gtnh.quest1704.name=§b§lChromium Trioxide
