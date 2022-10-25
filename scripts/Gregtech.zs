@@ -27,6 +27,16 @@ import mods.gregtech.Wiremill;
 
 import mods.nei.NEI;
 
+
+// --- I18N ---
+val I18N_Gregtech_0 = "Work Area 16 Blocks Radius = 4 Chunks";
+val I18N_Gregtech_1 = "Work Area 32 Blocks Radius = 16 Chunks";
+val I18N_Gregtech_2 = "Work Area 48 Blocks Radius = 36 Chunks";
+val I18N_Gregtech_3 = "Work Area 128 Blocks Radius = 256 Chunks";
+val I18N_Gregtech_4 = "LV-tier";
+val I18N_Gregtech_5 = "HV-tier";
+val I18N_Gregtech_6 = "May you have all the black gold you want, RIP Cerulean";
+
 // --- Variables ---
 
 
@@ -54,7 +64,6 @@ var plateIron = <gregtech:gt.metaitem.01:17032>;
 var plateWroughtIron = <gregtech:gt.metaitem.01:17304>;
 var plateAluminium = <gregtech:gt.metaitem.01:17019>;
 var shutterModule = <gregtech:gt.metaitem.01:32749>;
-val comb = <ore:beeComb>;
 
 // --- Hide items ---
 NEI.hide(<bartworks:gt.bwMetaGeneratedGTEnhancementcapsule:*>);
@@ -1264,274 +1273,28 @@ mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32375>, <liquid:
 
 
 //--- Seismic Prospector LV
-<gregtech:gt.blockmachines:1156>.addTooltip("Work Area 16 Blocks Radius = 4 Chunks");
+<gregtech:gt.blockmachines:1156>.addTooltip(I18N_Gregtech_0);
 
 //--- Seismic Prospector MV
-<gregtech:gt.blockmachines:2100>.addTooltip("Work Area 32 Blocks Radius = 16 Chunks");
+<gregtech:gt.blockmachines:2100>.addTooltip(I18N_Gregtech_1);
 
 //--- Seismic Prospector HV
-<gregtech:gt.blockmachines:2101>.addTooltip("Work Area 48 Blocks Radius = 36 Chunks");
+<gregtech:gt.blockmachines:2101>.addTooltip(I18N_Gregtech_2);
 
 //--- Seismic Prospector EV
-<gregtech:gt.blockmachines:1173>.addTooltip("Work Area 128 Blocks Radius = 256 Chunks");
+<gregtech:gt.blockmachines:1173>.addTooltip(I18N_Gregtech_3);
 
 // --- Old Tooltips for circuits (stupid IC2 ARR).
 
 // LV
-<IC2:itemPartCircuit>.addTooltip(format.gray("LV-tier"));
+<IC2:itemPartCircuit>.addTooltip(format.gray(I18N_Gregtech_4));
 
 // HV
-<IC2:itemPartCircuitAdv>.addTooltip(format.yellow("HV-tier"));
-
-
-// --- Ordict Combs ---
-
-
-
-comb.add(<gregtech:gt.comb>);
-oreDict.combLv.add(<gregtech:gt.comb>);
-comb.add(<gregtech:gt.comb:1>);
-oreDict.combLv.add(<gregtech:gt.comb:1>);
-comb.add(<gregtech:gt.comb:2>);
-oreDict.combLv.add(<gregtech:gt.comb:2>);
-comb.add(<gregtech:gt.comb:3>);
-oreDict.combLv.add(<gregtech:gt.comb:3>);
-comb.add(<gregtech:gt.comb:4>);
-oreDict.combLv.add(<gregtech:gt.comb:4>);
-comb.add(<gregtech:gt.comb:5>);
-oreDict.combLv.add(<gregtech:gt.comb:5>);
-comb.add(<gregtech:gt.comb:6>);
-oreDict.combHv.add(<gregtech:gt.comb:6>);
-comb.add(<gregtech:gt.comb:7>);
-oreDict.combHv.add(<gregtech:gt.comb:7>);
-comb.add(<gregtech:gt.comb:8>);
-oreDict.combHv.add(<gregtech:gt.comb:8>);
-comb.add(<gregtech:gt.comb:9>);
-oreDict.combHv.add(<gregtech:gt.comb:9>);
-comb.add(<gregtech:gt.comb:10>);
-oreDict.combHv.add(<gregtech:gt.comb:10>);
-comb.add(<gregtech:gt.comb:11>);
-oreDict.combLv.add(<gregtech:gt.comb:11>);
-comb.add(<gregtech:gt.comb:12>);
-oreDict.combLv.add(<gregtech:gt.comb:12>);
-comb.add(<gregtech:gt.comb:13>);
-oreDict.combMv.add(<gregtech:gt.comb:13>);
-comb.add(<gregtech:gt.comb:14>);
-oreDict.combHv.add(<gregtech:gt.comb:14>);
-comb.add(<gregtech:gt.comb:15>);
-oreDict.combHv.add(<gregtech:gt.comb:15>);
-comb.add(<gregtech:gt.comb:16>);
-oreDict.combLv.add(<gregtech:gt.comb:16>);
-comb.add(<gregtech:gt.comb:17>);
-oreDict.combMv.add(<gregtech:gt.comb:17>);
-comb.add(<gregtech:gt.comb:18>);
-oreDict.combHv.add(<gregtech:gt.comb:18>);
-comb.add(<gregtech:gt.comb:19>);
-oreDict.combHv.add(<gregtech:gt.comb:19>);
-comb.add(<gregtech:gt.comb:20>);
-oreDict.combHv.add(<gregtech:gt.comb:20>);
-comb.add(<gregtech:gt.comb:21>);
-oreDict.combMv.add(<gregtech:gt.comb:21>);
-comb.add(<gregtech:gt.comb:22>);
-oreDict.combLv.add(<gregtech:gt.comb:22>);
-comb.add(<gregtech:gt.comb:23>);
-oreDict.combLv.add(<gregtech:gt.comb:23>);
-comb.add(<gregtech:gt.comb:24>);
-oreDict.combLv.add(<gregtech:gt.comb:24>);
-comb.add(<gregtech:gt.comb:25>);
-oreDict.combMv.add(<gregtech:gt.comb:25>);
-comb.add(<gregtech:gt.comb:26>);
-oreDict.combLv.add(<gregtech:gt.comb:26>);
-comb.add(<gregtech:gt.comb:27>);
-oreDict.combHv.add(<gregtech:gt.comb:27>);
-comb.add(<gregtech:gt.comb:28>);
-oreDict.combHv.add(<gregtech:gt.comb:28>);
-comb.add(<gregtech:gt.comb:29>);
-oreDict.combHv.add(<gregtech:gt.comb:29>);
-comb.add(<gregtech:gt.comb:30>);
-oreDict.combHv.add(<gregtech:gt.comb:30>);
-comb.add(<gregtech:gt.comb:31>);
-oreDict.combHv.add(<gregtech:gt.comb:31>);
-comb.add(<gregtech:gt.comb:32>);
-oreDict.combEv.add(<gregtech:gt.comb:32>);
-comb.add(<gregtech:gt.comb:33>);
-oreDict.combLv.add(<gregtech:gt.comb:33>);
-comb.add(<gregtech:gt.comb:34>);
-oreDict.combLv.add(<gregtech:gt.comb:34>);
-comb.add(<gregtech:gt.comb:35>);
-oreDict.combLv.add(<gregtech:gt.comb:35>);
-comb.add(<gregtech:gt.comb:36>);
-oreDict.combLv.add(<gregtech:gt.comb:36>);
-comb.add(<gregtech:gt.comb:37>);
-oreDict.combLv.add(<gregtech:gt.comb:37>);
-comb.add(<gregtech:gt.comb:38>);
-oreDict.combLv.add(<gregtech:gt.comb:38>);
-comb.add(<gregtech:gt.comb:39>);
-oreDict.combLv.add(<gregtech:gt.comb:39>);
-comb.add(<gregtech:gt.comb:40>);
-oreDict.combLv.add(<gregtech:gt.comb:40>);
-comb.add(<gregtech:gt.comb:41>);
-oreDict.combLv.add(<gregtech:gt.comb:41>);
-comb.add(<gregtech:gt.comb:42>);
-oreDict.combLv.add(<gregtech:gt.comb:42>);
-comb.add(<gregtech:gt.comb:43>);
-oreDict.combLv.add(<gregtech:gt.comb:43>);
-comb.add(<gregtech:gt.comb:44>);
-oreDict.combLv.add(<gregtech:gt.comb:44>);
-comb.add(<gregtech:gt.comb:45>);
-oreDict.combLv.add(<gregtech:gt.comb:45>);
-comb.add(<gregtech:gt.comb:46>);
-oreDict.combLv.add(<gregtech:gt.comb:46>);
-comb.add(<gregtech:gt.comb:47>);
-oreDict.combLv.add(<gregtech:gt.comb:47>);
-comb.add(<gregtech:gt.comb:48>);
-oreDict.combLv.add(<gregtech:gt.comb:48>);
-comb.add(<gregtech:gt.comb:49>);
-oreDict.combLv.add(<gregtech:gt.comb:49>);
-comb.add(<gregtech:gt.comb:50>);
-oreDict.combLv.add(<gregtech:gt.comb:50>);
-comb.add(<gregtech:gt.comb:51>);
-oreDict.combLv.add(<gregtech:gt.comb:51>);
-comb.add(<gregtech:gt.comb:52>);
-oreDict.combLv.add(<gregtech:gt.comb:52>);
-comb.add(<gregtech:gt.comb:53>);
-oreDict.combLv.add(<gregtech:gt.comb:53>);
-comb.add(<gregtech:gt.comb:54>);
-oreDict.combLv.add(<gregtech:gt.comb:54>);
-comb.add(<gregtech:gt.comb:55>);
-oreDict.combLv.add(<gregtech:gt.comb:55>);
-comb.add(<gregtech:gt.comb:56>);
-oreDict.combLv.add(<gregtech:gt.comb:56>);
-comb.add(<gregtech:gt.comb:57>);
-oreDict.combLv.add(<gregtech:gt.comb:57>);
-comb.add(<gregtech:gt.comb:58>);
-oreDict.combLv.add(<gregtech:gt.comb:58>);
-comb.add(<gregtech:gt.comb:59>);
-oreDict.combLv.add(<gregtech:gt.comb:59>);
-comb.add(<gregtech:gt.comb:60>);
-oreDict.combLv.add(<gregtech:gt.comb:60>);
-comb.add(<gregtech:gt.comb:61>);
-oreDict.combLv.add(<gregtech:gt.comb:61>);
-comb.add(<gregtech:gt.comb:62>);
-oreDict.combLv.add(<gregtech:gt.comb:62>);
-comb.add(<gregtech:gt.comb:63>);
-oreDict.combLv.add(<gregtech:gt.comb:63>);
-comb.add(<gregtech:gt.comb:64>);
-oreDict.combLv.add(<gregtech:gt.comb:64>);
-comb.add(<gregtech:gt.comb:65>);
-oreDict.combLv.add(<gregtech:gt.comb:65>);
-comb.add(<gregtech:gt.comb:66>);
-oreDict.combIv.add(<gregtech:gt.comb:66>);
-comb.add(<gregtech:gt.comb:67>);
-oreDict.combHv.add(<gregtech:gt.comb:67>);
-comb.add(<gregtech:gt.comb:68>);
-oreDict.combIv.add(<gregtech:gt.comb:68>);
-comb.add(<gregtech:gt.comb:69>);
-oreDict.combHv.add(<gregtech:gt.comb:69>);
-comb.add(<gregtech:gt.comb:70>);
-oreDict.combIv.add(<gregtech:gt.comb:70>);
-comb.add(<gregtech:gt.comb:71>);
-oreDict.combLv.add(<gregtech:gt.comb:71>);
-comb.add(<gregtech:gt.comb:72>);
-oreDict.combIv.add(<gregtech:gt.comb:72>);
-comb.add(<gregtech:gt.comb:73>);
-oreDict.combMv.add(<gregtech:gt.comb:73>);
-comb.add(<gregtech:gt.comb:74>);
-oreDict.combMv.add(<gregtech:gt.comb:74>);
-comb.add(<gregtech:gt.comb:75>);
-oreDict.combHv.add(<gregtech:gt.comb:75>);
-comb.add(<gregtech:gt.comb:76>);
-oreDict.combLv.add(<gregtech:gt.comb:76>);
-comb.add(<gregtech:gt.comb:77>);
-oreDict.combIv.add(<gregtech:gt.comb:77>);
-comb.add(<gregtech:gt.comb:78>);
-oreDict.combIv.add(<gregtech:gt.comb:78>);
-comb.add(<gregtech:gt.comb:79>);
-oreDict.combIv.add(<gregtech:gt.comb:79>);
-comb.add(<gregtech:gt.comb:80>);
-oreDict.combIv.add(<gregtech:gt.comb:80>);
-comb.add(<gregtech:gt.comb:81>);
-oreDict.combLv.add(<gregtech:gt.comb:81>);
-comb.add(<gregtech:gt.comb:82>);
-oreDict.combEv.add(<gregtech:gt.comb:82>);
-comb.add(<gregtech:gt.comb:83>);
-oreDict.combIv.add(<gregtech:gt.comb:83>);
-comb.add(<gregtech:gt.comb:84>);
-oreDict.combLuv.add(<gregtech:gt.comb:84>);
-comb.add(<gregtech:gt.comb:85>);
-oreDict.combZPM.add(<gregtech:gt.comb:85>);
-comb.add(<gregtech:gt.comb:86>);
-oreDict.combMv.add(<gregtech:gt.comb:86>);
-comb.add(<gregtech:gt.comb:87>);
-oreDict.combHv.add(<gregtech:gt.comb:87>);
-comb.add(<gregtech:gt.comb:88>);
-oreDict.combHv.add(<gregtech:gt.comb:88>);
-comb.add(<gregtech:gt.comb:89>);
-oreDict.combEv.add(<gregtech:gt.comb:89>);
-comb.add(<gregtech:gt.comb:90>);
-oreDict.combEv.add(<gregtech:gt.comb:90>);
-comb.add(<gregtech:gt.comb:91>);
-oreDict.combHv.add(<gregtech:gt.comb:91>);
-comb.add(<gregtech:gt.comb:92>);
-oreDict.combEv.add(<gregtech:gt.comb:92>);
-comb.add(<gregtech:gt.comb:93>);
-oreDict.combIv.add(<gregtech:gt.comb:93>);
-comb.add(<gregtech:gt.comb:94>);
-oreDict.combIv.add(<gregtech:gt.comb:94>);
-comb.add(<gregtech:gt.comb:95>);
-oreDict.combIv.add(<gregtech:gt.comb:95>);
-comb.add(<gregtech:gt.comb:96>);
-oreDict.combIv.add(<gregtech:gt.comb:96>);
-comb.add(<gregtech:gt.comb:97>);
-oreDict.combIv.add(<gregtech:gt.comb:97>);
-comb.add(<gregtech:gt.comb:98>);
-oreDict.combIv.add(<gregtech:gt.comb:98>);
-comb.add(<gregtech:gt.comb:99>);
-oreDict.combLuv.add(<gregtech:gt.comb:99>);
-comb.add(<gregtech:gt.comb:100>);
-oreDict.combLuv.add(<gregtech:gt.comb:100>);
-comb.add(<gregtech:gt.comb:101>);
-oreDict.combZPM.add(<gregtech:gt.comb:101>);
-comb.add(<gregtech:gt.comb:102>);
-oreDict.combEv.add(<gregtech:gt.comb:102>);
-comb.add(<gregtech:gt.comb:103>);
-oreDict.combEv.add(<gregtech:gt.comb:103>);
-comb.add(<gregtech:gt.comb:104>);
-oreDict.combMv.add(<gregtech:gt.comb:104>);
-comb.add(<gregtech:gt.comb:105>);
-oreDict.combMv.add(<gregtech:gt.comb:105>);
-comb.add(<gregtech:gt.comb:106>);
-oreDict.combMv.add(<gregtech:gt.comb:106>);
-comb.add(<gregtech:gt.comb:107>);
-oreDict.combIv.add(<gregtech:gt.comb:107>);
-comb.add(<gregtech:gt.comb:108>);
-oreDict.combIv.add(<gregtech:gt.comb:108>);
-comb.add(<gregtech:gt.comb:109>);
-oreDict.combIv.add(<gregtech:gt.comb:109>);
-comb.add(<gregtech:gt.comb:110>);
-oreDict.combLuv.add(<gregtech:gt.comb:110>);
-comb.add(<gregtech:gt.comb:111>);
-oreDict.combLuv.add(<gregtech:gt.comb:111>);
-comb.add(<gregtech:gt.comb:112>);
-oreDict.combLuv.add(<gregtech:gt.comb:112>);
-comb.add(<gregtech:gt.comb:113>);
-oreDict.combZPM.add(<gregtech:gt.comb:113>);
-comb.add(<gregtech:gt.comb:114>);
-oreDict.combZPM.add(<gregtech:gt.comb:114>);
-comb.add(<gregtech:gt.comb:115>);
-oreDict.combZPM.add(<gregtech:gt.comb:115>);
-comb.add(<gregtech:gt.comb:116>);
-oreDict.combZPM.add(<gregtech:gt.comb:116>);
-comb.add(<gregtech:gt.comb:117>);
-oreDict.combUv.add(<gregtech:gt.comb:117>);
-comb.add(<gregtech:gt.comb:118>);
-oreDict.combUhv.add(<gregtech:gt.comb:118>);
-comb.add(<gregtech:gt.comb:119>);
-oreDict.combUev.add(<gregtech:gt.comb:119>);
+<IC2:itemPartCircuitAdv>.addTooltip(format.yellow(I18N_Gregtech_5));
 
 // --- Add Tooltips
 
-<gregtech:gt.blockmachines:1157>.addTooltip(format.aqua("May you have all the black gold you want, RIP Cerulean"));
+<gregtech:gt.blockmachines:1157>.addTooltip(format.aqua(I18N_Gregtech_6));
 
 // --- Dyes conversion
 

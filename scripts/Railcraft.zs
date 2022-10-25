@@ -19,6 +19,10 @@ import mods.ic2.SemiFluidGenerator;
 import mods.gregtech.Wiremill;
 
 
+// --- I18N ---
+val I18N_Railcraft_0 = "Lapatron Loader Upgrade";
+val I18N_Railcraft_1 = "Lead Plate";
+
 // --- Variables ---
 
 
@@ -1710,10 +1714,10 @@ mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 2000, [
 
 
 // --- Lapatron Loader Upgrade
-<Railcraft:upgrade.lapotron>.displayName = "Lapatron Loader Upgrade";
+<Railcraft:upgrade.lapotron>.displayName = I18N_Railcraft_0;
 
 // --- Lead Plate
-<Railcraft:part.plate:4>.displayName = "Lead Plate";
+<Railcraft:part.plate:4>.displayName = I18N_Railcraft_1;
 
 
 

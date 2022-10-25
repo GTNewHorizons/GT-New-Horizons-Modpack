@@ -237,9 +237,6 @@ recipes.remove(<gendustry:GeneticsProcessor>);
 // --- Environmental Processor
 recipes.remove(<gendustry:EnvProcessor>);
 
-// --- Upgrade Frame
-recipes.remove(<gendustry:UpgradeFrame>);
-
 // --- Pollen Collection Kit
 //recipes.remove(<gendustry:PollenKit>);
 
@@ -350,132 +347,6 @@ recipes.addShaped(PowerModule, [
 [IridiumAlloyCasing, <ore:circuitMaster>, IridiumAlloyCasing],
 [OsmiumSmallGear, LuVMotor, OsmiumSmallGear]]);
 
-// --- Plains Emulation Upgrade
-recipes.addShaped(<gendustry:ApiaryUpgrade:17>, [
-[PalladiumSmallGear, ClimateCtrl, PalladiumSmallGear],
-[Grass, UpFrame, Grass],
-[OsmiumSmallGear, EnviroProcessor, OsmiumSmallGear]]);
-
-// --- Light Upgrade
-recipes.addShaped(<gendustry:ApiaryUpgrade:11>, [
-[PalladiumSmallGear, GlowStoneGlass, PalladiumSmallGear],
-[GlowStoneGlass, UpFrame, GlowStoneGlass],
-[OsmiumSmallGear, GlowStoneGlass, OsmiumSmallGear]]);
-
-// --- Flowering Upgrade
-recipes.addShaped(<gendustry:ApiaryUpgrade:2>, [
-[PalladiumSmallGear, <minecraft:red_flower>, PalladiumSmallGear],
-[<Botany:pollen:*>, UpFrame, <Botany:pollen:*>],
-[OsmiumSmallGear, <minecraft:yellow_flower>, OsmiumSmallGear]]);
-
-// --- Winter Emulation Upgrade
-recipes.addShaped(<gendustry:ApiaryUpgrade:20>, [
-[PalladiumSmallGear, ClimateCtrl, PalladiumSmallGear],
-[Ice, UpFrame, Ice],
-[OsmiumSmallGear, EnviroProcessor, OsmiumSmallGear]]);
-
-// --- Dryer Upgrade
-recipes.addShaped(<gendustry:ApiaryUpgrade:5>, [
-[PalladiumSmallGear, ClimateCtrl, PalladiumSmallGear],
-[Sand, UpFrame, Sand],
-[OsmiumSmallGear, LavaBucket, OsmiumSmallGear]]);
-
-// --- Automation Upgrade
-recipes.addShaped(<gendustry:ApiaryUpgrade:14>, [
-[<gregtech:gt.metaitem.01:32640>, <Genetics:misc:10>, <gregtech:gt.metaitem.01:32640>],
-[<Genetics:misc:10>, UpFrame, <Genetics:misc:10>],
-[<gregtech:gt.metaitem.01:32650>, <Genetics:misc:10>, <gregtech:gt.metaitem.01:32650>]]);
-
-// --- Humidifier Upgrade
-recipes.addShaped(<gendustry:ApiaryUpgrade:4>, [
-[PalladiumSmallGear, ClimateCtrl, PalladiumSmallGear],
-[Cactus, UpFrame, Cactus],
-[OsmiumSmallGear, WaterBucket, OsmiumSmallGear]]);
-
-// --- Hell Emulation Upgrade
-recipes.addShaped(<gendustry:ApiaryUpgrade:13>, [
-[PalladiumSmallGear, ClimateCtrl, PalladiumSmallGear],
-[BlazeRod, UpFrame, GhatsTear],
-[OsmiumSmallGear, EnviroProcessor, OsmiumSmallGear]]);
-
-// --- Pollen Scrubber Upgrade
-recipes.addShaped(<gendustry:ApiaryUpgrade:22>, [
-[PalladiumSmallGear, SteelBars, PalladiumSmallGear],
-[TitaniumRotor, UpFrame, TitaniumRotor],
-[OsmiumSmallGear, SteelBars, OsmiumSmallGear]]);
-
-// --- Desert Emulation Upgrade
-recipes.addShaped(<gendustry:ApiaryUpgrade:16>, [
-[PalladiumSmallGear, ClimateCtrl, PalladiumSmallGear],
-[Sand, UpFrame, Sand],
-[OsmiumSmallGear, EnviroProcessor, OsmiumSmallGear]]);
-
-// --- Cooler Upgrade
-recipes.addShaped(<gendustry:ApiaryUpgrade:7>, [
-[PalladiumSmallGear, ClimateCtrl, PalladiumSmallGear],
-[Snow, UpFrame, Snow],
-[OsmiumSmallGear, Ice, OsmiumSmallGear]]);
-
-// --- Live Spawn Upgrade
-recipes.addShaped(<gendustry:ApiaryUpgrade:1>, [
-[PalladiumSmallGear, <minecraft:fermented_spider_eye>, PalladiumSmallGear],
-[<BiomesOPlenty:jarFilled:1>, UpFrame, <BiomesOPlenty:jarFilled:1>],
-[OsmiumSmallGear, <minecraft:fermented_spider_eye>, OsmiumSmallGear]]);
-
-// --- Seal Upgrade
-recipes.addShaped(<gendustry:ApiaryUpgrade:10>, [
-[PalladiumSmallGear, Rubber, PalladiumSmallGear],
-[Wax, UpFrame, Wax],
-[OsmiumSmallGear, Rubber, OsmiumSmallGear]]);
-
-// --- Genteics Stabilizer Upgrade
-recipes.addShaped(<gendustry:ApiaryUpgrade:19>, [
-[PalladiumSmallGear, GeneticsProcessor, PalladiumSmallGear],
-[RedAlloyPlate, UpFrame, RedAlloyPlate],
-[OsmiumSmallGear, GeneticsProcessor, OsmiumSmallGear]]);
-
-// --- Jungel Emulation Upgrade
-recipes.addShaped(<gendustry:ApiaryUpgrade:18>, [
-[PalladiumSmallGear, ClimateCtrl, PalladiumSmallGear],
-[Vines, UpFrame, Vines],
-[OsmiumSmallGear, EnviroProcessor, OsmiumSmallGear]]);
-
-// --- Territory Upgrade
-recipes.addShaped(<gendustry:ApiaryUpgrade:3>, [
-[PalladiumSmallGear, IronPlate, PalladiumSmallGear],
-[EnderPearlPlate, UpFrame, EnderPearlPlate],
-[OsmiumSmallGear, IronPlate, OsmiumSmallGear]]);
-
-// --- Ocean Emulation Upgrade
-recipes.addShaped(<gendustry:ApiaryUpgrade:21>, [
-[PalladiumSmallGear, ClimateCtrl, PalladiumSmallGear],
-[WaterBucket, UpFrame, WaterBucket],
-[OsmiumSmallGear, EnviroProcessor, OsmiumSmallGear]]);
-
-// --- Open Sky Upgrade
-recipes.addShaped(<gendustry:ApiaryUpgrade:12>, [
-[PalladiumSmallGear, <ProjRed|Illumination:projectred.illumination.lamp:27>, PalladiumSmallGear],
-[ClearPane, UpFrame, ClearPane],
-[OsmiumSmallGear, ClearPane, OsmiumSmallGear]]);
-
-// --- Heater Upgrade
-recipes.addShaped(<gendustry:ApiaryUpgrade:6>, [
-[PalladiumSmallGear, ClimateCtrl, PalladiumSmallGear],
-[Netherrack, UpFrame, Netherrack],
-[OsmiumSmallGear, LavaBucket, OsmiumSmallGear]]);
-
-// --- Sieve Upgrade
-recipes.addShaped(<gendustry:ApiaryUpgrade:15>, [
-[PalladiumSmallGear, WovenSilk, PalladiumSmallGear],
-[SteelBars, UpFrame, SteelBars],
-[OsmiumSmallGear, WovenSilk, OsmiumSmallGear]]);
-
-// --- Production Upgrade
-recipes.addShaped(<gendustry:ApiaryUpgrade>, [
-[PalladiumSmallGear, Sugar, PalladiumSmallGear],
-[RoyalJelly, UpFrame, RoyalJelly],
-[OsmiumSmallGear, Sugar, OsmiumSmallGear]]);
-
 // --- Industrial Grafter
 recipes.addShaped(<gendustry:IndustrialGrafter:100>, [
 [<ore:screwStainlessSteel>, Grafter, <ore:screwStainlessSteel>],
@@ -537,9 +408,6 @@ Assembler.addRecipe(EnviroProcessor, <dreamcraft:item.EnvironmentalCircuit>, <gr
 Assembler.addRecipe(EnviroProcessor, <dreamcraft:item.EnvironmentalCircuit>, <gregtech:gt.metaitem.03:32086>, <liquid:liquiddna> * 500, 400, 1920);
 // -
 Assembler.addRecipe(EnviroProcessor, <dreamcraft:item.EnvironmentalCircuit>, <gregtech:gt.metaitem.03:32089>, <liquid:liquiddna> * 500, 400, 1920);
-
-// --- Upgrade Frame
-Assembler.addRecipe(UpFrame, <gregtech:gt.metaitem.03:32007>, <Genetics:misc:10>, 200, 24);
 
 // --- Item Ijector Cover
 Assembler.addRecipe(<gendustry:EjectCover>, <gregtech:gt.metaitem.01:17052>, <IC2:upgradeModule:3>, 200, 1920);

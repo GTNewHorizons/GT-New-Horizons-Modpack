@@ -10,6 +10,8 @@ import mods.ic2.Compressor;
 import mods.gregtech.Pulverizer;
 
 
+// --- I18N ---
+val I18N_Thaumcraft_03_Alchemy_0 = "Charcoal dust and Lignite dust works well too. They are not shown in the recipe because of Mod Tweaker";
 
 // --- Variables ---
 
@@ -165,7 +167,7 @@ mods.thaumcraft.Research.setAspects("ALUMENTUM", "ignis 3, praecantatio 3, perdi
 mods.thaumcraft.Research.setComplexity("ALUMENTUM", 1);
 // -
 mods.thaumcraft.Research.addPage("ALUMENTUM", "tc.research_page.ALUMENTUM.2");
-game.setLocalization("tc.research_page.ALUMENTUM.2", "Charcoal dust and Lignite dust works well too. They are not shown in the recipe because of Mod Tweaker");
+game.setLocalization("tc.research_page.ALUMENTUM.2", I18N_Thaumcraft_03_Alchemy_0);
 
 // --- Alchemical Duplication
 mods.thaumcraft.Research.setAspects("ALCHEMICALDUPLICATION", "fabrico 9, praecantatio 6, lucrum 9, permutatio 3");

@@ -1,0 +1,19 @@
+inscribe=
+    oredictionary:plateGold ae2:ItemMaterial.LogicProcessorPress
+    -> ae2:ItemMaterial.LogicProcessorPrint
+
+inscribe=
+    oredictionary:plateCertusQuartz ae2:ItemMaterial.CalcProcessorPress
+    -> ae2:ItemMaterial.CalcProcessorPrint
+
+inscribe=
+    ae2:ItemMaterial.PurifiedCertusQuartzCrystal ae2:ItemMaterial.CalcProcessorPress
+    -> ae2:ItemMaterial.CalcProcessorPrint
+
+inscribe=
+    oredictionary:plateDiamond ae2:ItemMaterial.EngProcessorPress
+    -> ae2:ItemMaterial.EngProcessorPrint
+
+inscribe=
+    oredictionary:plateSiliconSolarGrade ae2:ItemMaterial.SiliconPress
+    -> ae2:ItemMaterial.SiliconPrint

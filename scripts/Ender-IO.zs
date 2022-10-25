@@ -13,6 +13,8 @@ import mods.gregtech.FluidSolidifier;
 import mods.gregtech.Pulverizer;
 
 
+// --- I18N ---
+val I18N_Ender_IO_0 = "Cooldown 2 seconds";
 
 
 // --- Variables ---
@@ -1421,4 +1423,4 @@ Pulverizer.addRecipe([<EnderIO:itemMaterial:17>, <EnderIO:itemMaterial:17>, <End
 
 
 // --- Untreated Frame (Forestry)
-<EnderIO:blockTravelAnchor>.addTooltip("Cooldown 2 seconds");
+<EnderIO:blockTravelAnchor>.addTooltip(I18N_Ender_IO_0);

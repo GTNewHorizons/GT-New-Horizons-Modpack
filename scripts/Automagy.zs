@@ -1,6 +1,11 @@
 // --- Created by DreamMasterXXL ---
 
 
+// --- I18N ---
+val I18N_Automagy_0 = "Infused Gold";
+val I18N_Automagy_1 = "[AM] Infuse Gold with magic.";
+val I18N_Automagy_2 = "You found a way to fuse gold and thaumium to create a new metal INFUSED GOLD";
+
 // --- Importing Stuff ---
 
 
@@ -254,10 +259,10 @@ mods.thaumcraft.Arcane.addShaped("FOCUSCRAFTING", <Automagy:focusCrafting>, "ord
 
 // --- Infused Gold
 mods.thaumcraft.Research.addResearch("InfusedGoldGTNH", "AUTOMAGY", "lucrum 12, praecantatio 9, aer 6, metallum 3", -5 as int, -2 as int, 3, <gregtech:gt.metaitem.01:11323>);
-game.setLocalization("tc.research_name.InfusedGoldGTNH", "Infused Gold");
-game.setLocalization("tc.research_text.InfusedGoldGTNH", "[AM] Infuse Gold with magic.");
+game.setLocalization("tc.research_name.InfusedGoldGTNH", I18N_Automagy_0);
+game.setLocalization("tc.research_text.InfusedGoldGTNH", I18N_Automagy_1);
 mods.thaumcraft.Research.addPage("InfusedGoldGTNH", "tc.research_page.InfusedGoldGTNH.1");
-game.setLocalization("tc.research_page.InfusedGoldGTNH.1","You found a way to fuse gold and thaumium to create a new metal INFUSED GOLD");
+game.setLocalization("tc.research_page.InfusedGoldGTNH.1",I18N_Automagy_2);
 mods.thaumcraft.Research.addPrereq("InfusedGoldGTNH", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("InfusedGoldGTNH", "THAUMIUM", false);
 mods.thaumcraft.Infusion.addRecipe("InfusedGoldGTNH", <minecraft:gold_ingot>,

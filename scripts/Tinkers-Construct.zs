@@ -10,6 +10,9 @@ import mods.gregtech.Extruder;
 import mods.nei.NEI;
 
 
+// --- I18N ---
+val I18N_Tinkers_Construct_0 = "Can be placed on a empty IC2 Crop.";
+
 // --- Variables ---
 
 var IronOreberry = <TConstruct:oreBerries:0>;
@@ -79,12 +82,12 @@ val Paintbrush = <ExtraUtilities:paintbrush>;
 
 
 // --- Tooltips ---
-IronOreberry.addTooltip("Can be placed on a empty IC2 Crop.");
-TinOreberry.addTooltip("Can be placed on a empty IC2 Crop.");
-CopperOreberry.addTooltip("Can be placed on a empty IC2 Crop.");
-GoldOreberry.addTooltip("Can be placed on a empty IC2 Crop.");
-AluminiumOreberry.addTooltip("Can be placed on a empty IC2 Crop.");
-EssenceOreberry.addTooltip("Can be placed on a empty IC2 Crop.");
+IronOreberry.addTooltip(I18N_Tinkers_Construct_0);
+TinOreberry.addTooltip(I18N_Tinkers_Construct_0);
+CopperOreberry.addTooltip(I18N_Tinkers_Construct_0);
+GoldOreberry.addTooltip(I18N_Tinkers_Construct_0);
+AluminiumOreberry.addTooltip(I18N_Tinkers_Construct_0);
+EssenceOreberry.addTooltip(I18N_Tinkers_Construct_0);
 
 // --- Blocks ---
 
