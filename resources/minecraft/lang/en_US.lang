@@ -4902,7 +4902,7 @@ gtnh.quest1224.desc=Epoxid is needed for Advanced Circuits boards. You need Sodi
 
 # Quest.1225 - §9§lMainframes, Your First IV Circuit 
 gtnh.quest1225.name=§9§lMainframes, Your First IV Circuit 
-gtnh.quest1225.desc=Mainframes are the first IV Circuits you can make. It's used for a few EV machines, and basically all IV machines and components.%n%nIn addition to what's listed, you'll need either of 16 SMD Capacitors or 24 non-SMD Capacitors.
+gtnh.quest1225.desc=Mainframes are the first IV Circuits you can make. It's used for a few EV machines, and basically all IV machines and components.
 
 # Quest.1226 - §6§lGlycerol
 gtnh.quest1226.name=§6§lGlycerol
@@ -5118,7 +5118,7 @@ gtnh.quest1278.desc=Vodka is Russian for "small water". It is a rather high proo
 
 # Quest.1279 - §6§lFirestone Ore/Dust
 gtnh.quest1279.name=§6§lFirestone Ore/Dust
-gtnh.quest1279.desc=Firestone ore is used to make some BC machines like the filler, and some other stuff. Unforunately, it's in the nether...at the bottom of the lava ocean! %n%nHere are some tips for finding it:%n%n-Firestone only spawns in deep lava, at least 6 deep. It will only replace netherrack, so a fjord filled with soulsand won't have any. Can you think of ways to check the lava depth, and what's down there?%n-Normally you can't see through lava, but if you enable nightvision on the nanosuit, you can see a short distance at the bottom. But how to prevent getting burned?%n-Alternatively, if you keep your head at just the correct height above the lava and at the correct angle, you'll be able to see underneath it - surely there must be a hovering jetpack?%n-...or just look for the biome when your cursor is over the JM map. Hell is the default one that has netherrack.%n%nFirestone can be mined with the GT miners, if you place it within horizontal range. Firestone ore and products will cause random fires to start nearby, so get it into a backpack quickly!
+gtnh.quest1279.desc=Firestone ore is used to make some BC machines like the filler, and some other stuff. Unforunately, it's in the nether...at the bottom of the lava ocean! %n%nHere are some tips for finding it:%n%n-Firestone only spawns in deep lava, at least 6 deep. It will only replace netherrack, so a fjord filled with soulsand won't have any. Can you think of ways to check the lava depth, and what's down there?%n-Alternatively, if you keep your head at just the correct height above the lava and at the correct angle, you'll be able to see underneath it - surely there must be a hovering jetpack?%n-...or just look for the biome when your cursor is over the JM map. Hell is the default one that has netherrack.%n%nFirestone can be mined with the GT miners, if you place it within horizontal range. Firestone ore and products will cause random fires to start nearby, so get it into a backpack quickly!
 
 # Quest.1280 - The industrial way
 gtnh.quest1280.name=The industrial way
@@ -7958,7 +7958,7 @@ gtnh.quest1988.desc=There are many tiers of upgrades for storage drawers. Make s
 
 # Quest.1989 - Machine Inventory Manager
 gtnh.quest1989.name=Machine Inventory Manager
-gtnh.quest1989.desc=The core block of Stacy's...er Steve's Factory Manager. SFM is a high tier automation system. While AE2 can handle simple crafting up to 9 components at a time and even nesting ingredients, SFM can handle the complex crafting required for the assline.%n%nInventory Cables connect the MIM to inventories or tanks.%n%nRight now until some Moron figures it out, your best bet is to experiment, ask for help on Discord, and search Google. The interface resembles most GUI based automation systems like LabView.%n%nThere have been TPS problems caused by poorly designed SFM setups. Make sure your outputs are properly emptied, and don't get filled.%n%nInventory cables are the "basic" cable of SFM. They allow the MIM to interact with an inventory, and act as a connector cable to other cables.%n%nmehdi2344 thinks my jokes suck, but he's an idiot, so there. %n%nThanks to Nori Silverrage for writing up these quests!%n%n§3BTW, there's a Creative Supplier for creative testing. The Energistics Connector is disabled because it doesn't work correctly.
+gtnh.quest1989.desc=The core block of Stacy's...er Steve's Factory Manager. SFM is a high tier automation system. While AE2 can handle a lot of different crafting tasks, SFM can handle even more complex crafting. It's not actually needed for the assembling line. But still, this is one place where you can go that route.%n%nInventory Cables connect the MIM to inventories or tanks.%n%nRight now until some Moron figures it out, your best bet is to experiment, ask for help on Discord, and search Google. The interface resembles most GUI based automation systems like LabView.%n%nThere have been TPS problems caused by poorly designed SFM setups. Make sure your outputs are properly emptied, and don't get filled.%n%nInventory cables are the "basic" cable of SFM. They allow the MIM to interact with an inventory, and act as a connector cable to other cables.%n%nmehdi2344 thinks my jokes suck, but he's an idiot, so there. %n%nThanks to Nori Silverrage for writing up these quests!%n%n§3BTW, there's a Creative Supplier for creative testing. The Energistics Connector is disabled because it doesn't work correctly.
 
 # Quest.1990 - Moving the Manager 
 gtnh.quest1990.name=Moving the Manager 
@@ -8814,7 +8814,7 @@ gtnh.quest2202.desc=Chrome, a necessary ingredient for Stainless Steel. Better t
 
 # Quest.2203 - Platinum
 gtnh.quest2203.name=Platinum
-gtnh.quest2203.desc=Platinum. Precious metal for the ages. You'll need a block of Platinum obviously. Breed them from Diamond and Chrome.
+gtnh.quest2203.desc=Platinum. Precious metal for the ages. You don't even need a block of Platinum, just a block of Nickel! Breed them from Diamond and Chrome.
 
 # Quest.2204 - Uranium
 gtnh.quest2204.name=Uranium
@@ -10870,7 +10870,7 @@ gtnh.quest2716.desc=Weak compared to both weapons of it's tier, and the weapons 
 
 # Quest.2717 - Xenoxene Xenoxsis
 gtnh.quest2717.name=Xenoxene Xenoxsis
-gtnh.quest2717.desc=To make the next tier plastic, Radox, or the next tier of SMDs, you will need Xenoxene.%n%nGetting the the Xenoxene Xenoxsis culture is a bit tricky. The recipe is similar to the General Purpose one. Remember that all recipes in this chain are low probablility recipes.%n%nYour first step is to make the Barnardafis culture, then the DNA Sample, and then the Data Orb. If you didn't grab the saplings and dirt previously (to grow more trees for logs), head back to Barnarda C.%n%nUse the same recipe as for the General Purpose one, but use the Data Orb for Barnardafis instead of Common Yeast. You should get the Barnardafis Plasmid.%n%nAgain, it's the same recipe for the next step, but with the TCetiEis Fucus Serratus culture and the Barnardafis Plasmid, this should produce the Xenoxene Xenoxis culture. It's about a 4% chance.%n%nYou should probably use the normal alternative recipe to make more cultures, since it's easy to fail copying it too.%n%nYou should be able to figure out yourself how to make Xenoxene once you have the culture.%n%n%n§3After many years, the transformation recipe now even has NEI support!
+gtnh.quest2717.desc=To make the next tier plastic, Radox, or the next tier of SMDs, you will need Xenoxene.%n%nGetting the the Xenoxene Xenoxsis culture is a bit tricky. The recipe is similar to the General Purpose one. Remember that all recipes in this chain are low probablility recipes.%n%nYour first step is to make the Barnardafis culture, then the DNA Sample, and then the Data Orb. If you didn't grab the saplings and dirt previously (to grow more trees for logs), head back to Barnarda C.%n%nUse the same recipe as for the General Purpose one, but use the Data Orb for Barnardafis instead of Common Yeast. You should get the Barnardafis Plasmid.%n%nAgain, it's the same recipe for the next step, but with the TCetiEis Fucus Serratus culture and the Barnardafis Plasmid, this should produce the Xenoxene Xenoxis culture. It's a 7.5% chance.%n%nYou should probably use the normal alternative recipe to make more cultures, since it's easy to fail copying it too.%n%nYou should be able to figure out yourself how to make Xenoxene once you have the culture.%n%n%n§3After many years, the transformation recipe now even has NEI support!
 
 # Quest.2718 - Does Anyone Even Still Use These?
 gtnh.quest2718.name=Does Anyone Even Still Use These?
@@ -11298,7 +11298,7 @@ gtnh.quest2823.desc=The MV version.
 
 # Quest.2824 - Absorbing Magic Energy to Produce EU LV
 gtnh.quest2824.name=Absorbing Magic Energy to Produce EU LV
-gtnh.quest2824.desc=These produce power by absorbing magic energy from nodes, dragon eggs, etc.
+gtnh.quest2824.desc=These produce power by absorbing magic energy from nodes, dragon eggs, creeper eggs, etc.
 
 # Quest.2825 - Absorbing Magic Energy to Produce EU EV
 gtnh.quest2825.name=Absorbing Magic Energy to Produce EU EV
