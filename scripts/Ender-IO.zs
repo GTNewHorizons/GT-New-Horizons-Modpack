@@ -612,7 +612,7 @@ recipes.addShaped(<EnderIO:blockSolarPanel>, [
 recipes.addShaped(<EnderIO:blockSolarPanel>, [
 [EAPlate, FQuartz, EAPlate],
 [VAPlate, <gregtech:gt.metaitem.01:32750>, VAPlate],
-[Capacitor7, FQuartz, Capacitor7]]);
+[Capacitor8, FQuartz, Capacitor8]]);
 
 // --- Advanced Photovoltaic Cell
 recipes.addShaped(<EnderIO:blockSolarPanel:1>, [
@@ -623,7 +623,7 @@ recipes.addShaped(<EnderIO:blockSolarPanel:1>, [
 recipes.addShaped(<EnderIO:blockSolarPanel:1>, [
 [PIPlate, FQuartz, PIPlate],
 [VAPlate, <EnderIO:blockSolarPanel>, VAPlate],
-[Capacitor8, FQuartz, Capacitor8]]);
+[Capacitor9, FQuartz, Capacitor9]]);
 // --- Vibrant Photovoltaic Cell
 recipes.addShaped(<EnderIO:blockSolarPanel:2>, [
 [ESPlate, EFQuartz, ESPlate],
@@ -633,7 +633,7 @@ recipes.addShaped(<EnderIO:blockSolarPanel:2>, [
 recipes.addShaped(<EnderIO:blockSolarPanel:2>, [
 [ESPlate, EFQuartz, ESPlate],
 [VAPlate, <EnderIO:blockSolarPanel:1>, VAPlate],
-[Capacitor9, EFQuartz, Capacitor9]]);
+[Capacitor10, EFQuartz, Capacitor10]]);
 // --- SAG Mill
 recipes.addShaped(<EnderIO:blockSagMill>, [
 [SteelCasing, LvPiston, SteelCasing],
@@ -653,9 +653,9 @@ recipes.addShaped(<EnderIO:blockCapBank:1>.withTag({type: "SIMPLE", storedEnergy
 [Capacitor, <gregtech:gt.metaitem.01:32527>, Capacitor]]);
 // -
 recipes.addShaped(<EnderIO:blockCapBank:1>.withTag({type: "SIMPLE", storedEnergyRF: 0}), [
-[Capacitor7, Circuit, Capacitor7],
+[Capacitor8, Circuit, Capacitor8],
 [RedstonePlate, MCasing, RedstonePlate],
-[Capacitor7, <gregtech:gt.metaitem.01:32527>, Capacitor7]]);
+[Capacitor8, <gregtech:gt.metaitem.01:32527>, Capacitor8]]);
 
 // --- Capacitor Bank
 recipes.addShaped(<EnderIO:blockCapBank:2>.withTag({type: "ACTIVATED", storedEnergyRF: 0}), [
@@ -664,9 +664,9 @@ recipes.addShaped(<EnderIO:blockCapBank:2>.withTag({type: "ACTIVATED", storedEne
 [Capacitor2, <gregtech:gt.metaitem.01:32537>, Capacitor2]]);
 // -
 recipes.addShaped(<EnderIO:blockCapBank:2>.withTag({type: "ACTIVATED", storedEnergyRF: 0}), [
-[Capacitor8, GCircuit, Capacitor8],
+[Capacitor9, GCircuit, Capacitor9],
 [EAPlate, MCasing, EAPlate],
-[Capacitor8, <gregtech:gt.metaitem.01:32537>, Capacitor8]]);
+[Capacitor9, <gregtech:gt.metaitem.01:32537>, Capacitor9]]);
 
 // --- Vibrant Capacitor Bank
 recipes.addShaped(<EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 0}), [
@@ -680,14 +680,14 @@ recipes.addShaped(<EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnerg
 [Capacitor3, <miscutils:MU-metaitem.01:32054>, Capacitor3]]);
 // -
 recipes.addShaped(<EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 0}), [
-[Capacitor9, AdvCircuit, Capacitor9],
+[Capacitor10, AdvCircuit, Capacitor10],
 [VCrystal, MCasing, VCrystal],
-[Capacitor9, <gregtech:gt.metaitem.01:32540>, Capacitor9]]);
+[Capacitor10, <gregtech:gt.metaitem.01:32540>, Capacitor10]]);
 //-
 recipes.addShaped(<EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 0}), [
-[Capacitor9, AdvCircuit, Capacitor9],
+[Capacitor10, AdvCircuit, Capacitor10],
 [VCrystal, MCasing, VCrystal],
-[Capacitor9, <miscutils:MU-metaitem.01:32054>, Capacitor9]]);
+[Capacitor10, <miscutils:MU-metaitem.01:32054>, Capacitor10]]);
 
 // --- Painting Machine
 recipes.addShaped(<EnderIO:blockPainter>, [
@@ -709,7 +709,7 @@ recipes.addShaped(MCasing, [
 // -
 recipes.addShaped(MCasing, [
 [SteelCasing, ESteelPlate, SteelCasing],
-[ESteelPlate, Capacitor7, ESteelPlate],
+[ESteelPlate, Capacitor8, ESteelPlate],
 [SteelCasing, ESteelPlate, SteelCasing]]);
 
 // --- Soul Machine Casing
@@ -720,7 +720,7 @@ recipes.addShaped(<EnderIO:itemMachinePart:2>, [
 // -
 recipes.addShaped(<EnderIO:itemMachinePart:2>, [
 [<ore:itemCasingSoularium>, <ore:plateSoularium>, <ore:itemCasingSoularium>],
-[<ore:plateSoularium>, Capacitor8, <ore:plateSoularium>],
+[<ore:plateSoularium>, Capacitor9, <ore:plateSoularium>],
 [<ore:itemCasingSoularium>, <ore:plateSoularium>, <ore:itemCasingSoularium>]]);
 
 // --- End Machine Casing
@@ -731,7 +731,7 @@ recipes.addShaped(<EnderIO:itemMachinePart:3>, [
 // -
 recipes.addShaped(<EnderIO:itemMachinePart:3>, [
 [<ore:itemCasingEndSteel>, <ore:plateEndSteel>, <ore:itemCasingEndSteel>],
-[<ore:plateEndSteel>, Capacitor9, <ore:plateEndSteel>],
+[<ore:plateEndSteel>, Capacitor10, <ore:plateEndSteel>],
 [<ore:itemCasingEndSteel>, <ore:plateEndSteel>, <ore:itemCasingEndSteel>]]);
 
 // --- The Vat
@@ -759,7 +759,7 @@ recipes.addShaped(<EnderIO:blockWirelessCharger>, [
 [HvMotor, EResonator, HvMotor]]);
 // -
 recipes.addShaped(<EnderIO:blockWirelessCharger>, [
-[ESteelPlate, Capacitor9, ESteelPlate],
+[ESteelPlate, Capacitor10, ESteelPlate],
 [AdvCircuit, MCasing, AdvCircuit],
 [HvMotor, EResonator, HvMotor]]);
 
@@ -984,7 +984,7 @@ recipes.addShaped(<EnderIO:blockElectricLight> * 8, [
 recipes.addShaped(<EnderIO:blockElectricLight> * 8, [
 [FQuartz, FQuartz, FQuartz],
 [SiliconPlate, LightBulp, SiliconPlate],
-[Circuit, Capacitor7, Circuit]]);
+[Circuit, Capacitor8, Circuit]]);
 
 // --- Light
 recipes.addShaped(<EnderIO:blockElectricLight:2> * 16, [
@@ -1371,7 +1371,7 @@ Assembler.addRecipe(<EnderIO:blockCrafter>, [<BuildCraft|Factory:autoWorkbenchBl
 // --- Machine Chassis
 Assembler.addRecipe(MCasing, [Capacitor, ESteelPlate * 2, SteelCasing * 2], null, 200, 64);
 // -
-Assembler.addRecipe(MCasing, [Capacitor7, ESteelPlate * 2, SteelCasing * 2], null, 200, 64);
+Assembler.addRecipe(MCasing, [Capacitor8, ESteelPlate * 2, SteelCasing * 2], null, 200, 64);
 
 // --- Reinforced Obsidian
 Assembler.addRecipe(<EnderIO:blockReinforcedObsidian>, [Obsidian, DarkSteelPlate * 2, DarkSteelBars * 2, <gregtech:gt.integrated_circuit:17> * 0], null, 600, 120);
