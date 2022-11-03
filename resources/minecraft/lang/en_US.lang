@@ -824,8 +824,8 @@ gtnh.quest204.desc=What use has an automated rocket, if you can't load and unloa
 gtnh.quest205.name=Cargo Rocket: For the Fun
 gtnh.quest205.desc=No need to fly to distant planets on your own, just to grab ores.%n%n§3Usefulness level: Doubtful.
 
-# Quest.206 - Venting the Heat
-gtnh.quest206.name=Venting the Heat
+# Quest.206 - §6§lVenting the Heat
+gtnh.quest206.name=§6§lVenting the Heat
 gtnh.quest206.desc=A low tech method to cool down the hot coolant is to use vent covers. Just place the cover on any GregTech block which can contain IC2 coolant and place water in front. The easiest might be just a tank or pipe. This will help until you have access to a Large Heat Exchanger or a Vacuum Freezer.%n%nAn advanced or overclocked reactor vent is much faster than a basic heat vent but you can't make those yet. Those covers also work with a air in front, but the basic heat vent needs a water block in front. Obviously, all vent covers are faster with water in front than with just air.
 
 # Quest.207 - §a§lTurret Base Tier 4
@@ -1930,7 +1930,7 @@ gtnh.quest481.desc=I guess you already processed a bit of wood into charcoal and
 
 # Quest.482 - §2§lAnimal Farms
 gtnh.quest482.name=§2§lAnimal Farms
-gtnh.quest482.desc=Trying to get some leather or wool? You'd probably need to spend a lot of time hunting animals and traveling around, or you could simply make a farm to get a decent amount of leather, wool and meat close to home. Make sure you don't put too many animals in the pen or they will overcrowd and kill each other (this happens to villagers as well).%n%nAnimals will prioritize moving towards grass blocks over any other blocks, and if there's no grass blocks around, lit blocks over dark blocks. You can encourage animals to stay in pens (or at least not crowd the edges) by removing grass from around both sides of the fence (and under!) and placing a torch in the center of the pen. For sheep that need the grass to eat (reduces time to mature and replaces sheared wool instantly), place it in the center of a cleared out area with a border of non-grass.%n%nAlso, large quantities can cause server lag, especially if they are bumping into each other a lot. So make sure you limit animals to no more than ~ 1 per block for small entities like chickens and 1 entity per 2 blocks for large entities like cows if playing MP.%n%n§3PS: Mutton amount was reduced because apparently mutton and calamari (from squid) drops are extremely low on servers for some reason. Remember to use your butchery knife.%n%nPPS: Most animal/mob drops can be gotten from less laggy IC2 crop farms.
+gtnh.quest482.desc=Trying to get some leather or wool? You'd probably need to spend a lot of time hunting animals and traveling around, or you could simply make a farm to get a decent amount of leather, wool and meat close to home. Make sure you don't put too many animals in the pen or they will overcrowd and kill each other (this happens to villagers as well).%n%nAnimals will prioritize moving towards grass blocks over any other blocks, and if there's no grass blocks around, lit blocks over dark blocks. You can encourage animals to stay in pens (or at least not crowd the edges) by removing grass from around both sides of the fence (and under!) and placing a torch in the center of the pen. For sheep that need the grass to eat (reduces time to mature and replaces sheared wool instantly), place it in the center of a cleared out area with a border of non-grass.%n%nAlso, large quantities can cause server lag, especially if they are bumping into each other a lot. So make sure you limit animals to no more than ~ 1 per block for small entities like chickens and 1 entity per 2 blocks for large entities like cows if playing MP.%n%n§3PS: Most animal/mob drops can be gotten from less laggy IC2 crop farms.
 
 # Quest.483 - §2§lGardener
 gtnh.quest483.name=§2§lGardener
@@ -8934,7 +8934,7 @@ gtnh.quest2232.desc=Ordered bees require Ordered Crystal Clusters. They can prod
 
 # Quest.2233 - Vis
 gtnh.quest2233.name=Vis
-gtnh.quest2233.desc=Vis bees lead to some of the most powerful bees in the whole pack. They require a node within 75m of the bee housing. Make sure the lunar phase matches the requirments. Breed them from Ethereal and Eldritch.
+gtnh.quest2233.desc=Vis bees lead to some of the most powerful bees in the whole pack. They require a node within 75m of the bee housing. Make sure the lunar phase matches the requirments. Breed them from Ethereal and Infernal.
 
 # Quest.2234 - Rejuvenating
 gtnh.quest2234.name=Rejuvenating
@@ -12298,7 +12298,7 @@ gtnh.quest3073.desc=Make your first coolant out of water or distilled water and 
 
 # Quest.3074 - §a§lPower of the Sun from Nuclear
 gtnh.quest3074.name=§a§lPower of the Sun from Nuclear
-gtnh.quest3074.desc=Your good old singleblock Molecular Transformer is gone. So how to obtain Sunnarium? Well there are couple of ways, but at EV you'll need to radiate Glowstone and convert to Sunnarium.
+gtnh.quest3074.desc=Your good old singleblock Molecular Transformer is gone. So how to obtain Sunnarium? Well there are couple of ways, but at EV you'll need to radiate Glowstone and convert to Sunnarium.%n%nThe Glowstone rod will slowly charge up if you put it next to any fuel rod in your IC2 reactor. The exact charging speed is `(number of rods adjacent) * (floor(hull temperature/3000) + 1)` per second. A dual rod will count as 2 rods and quad fuel rod will count as 4 rods for this purpose. The Glowstone rod will neither emit heat, nor cause other component to emit more heat. You can treat this rod as a reactor plating in the IC2 Reactor Planner.%n%nAs you can see, the speed is directly proportional to hull temperature and rods adjacent. At the very extreme you can fully charge up a Glowstone rod in less than half a minute and output one Sunnarium every 10 second (on average, since cells aren't charged at same speed due to different position), but that require very considerable resource to setup. It also involves a vacuum freezer to cooldown the coolant cells and running the reactor at 66000+ hull temperature. Balance your need and your resource situation wisely. In any case, if you just wish to charge it up FAST then here is a possible string for the IC2 Reactor Planner:%n%nerp=bpO50cpsdtJElVqn4hObFJc0tiOE0JpEHYpqTxJHvyezjSKRjUuwgouXzNOlU4a3hFBRygM=%n%nReplace Containment Reactor Plating with actual Glowstone rods and you should be good to go. You can also use fewer reactor chambers by using less plating. Enjoy!
 
 # Quest.3075 - Armor Molds
 gtnh.quest3075.name=Armor Molds
@@ -13083,6 +13083,10 @@ gtnh.quest3269.desc=The soarleander generates mana by consuming anything chicken
 # Quest.3270 - According to all known laws of mana generation...
 gtnh.quest3270.name=According to all known laws of mana generation...
 gtnh.quest3270.desc=...there is no way a bee should be able to produce mana. The beegonia doesn't know this, and will gladly eat up all of your spare drones to help with filling your mana pools.
+
+# Quest.3271 - Dreams of Gold
+gtnh.quest3271.name=Dreams of Gold
+gtnh.quest3271.desc=Just try to dream of gold.
 
 ##################################Line##################################
 
