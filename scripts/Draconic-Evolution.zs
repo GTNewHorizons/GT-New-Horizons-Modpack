@@ -250,7 +250,7 @@ recipes.remove(<DraconicEvolution:upgradeModifier>);
 
 
 
-// --- Charm of Disloctotion
+// --- Charm of Dislocation
 mods.avaritia.ExtremeCrafting.addShaped(DCham, [
 [null, null, null, null, <ore:plateDenseDraconium>, null, null, null, null],
 [null, null, null, <ore:plateDenseNaquadahAlloy>, <ore:plateDenseNaquadahAlloy>, <ore:plateDenseNaquadahAlloy>, null, null, null],
@@ -262,14 +262,14 @@ mods.avaritia.ExtremeCrafting.addShaped(DCham, [
 [null, <ore:plateDenseDraconium>, <ore:plateDenseDraconium>, <ore:plateDenseNaquadahAlloy>, <ore:plateDenseNaquadahAlloy>, <ore:plateDenseNaquadahAlloy>, <ore:plateDenseDraconium>, <ore:plateDenseDraconium>, null],
 [<ore:plateDenseDraconium>, null, null, null, null, null, null, null, <ore:plateDenseDraconium>]]);
 
-// --- Enhanced Charm of Disloctotion
+// --- Enhanced Charm of Dislocation
 mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:teleporterMKII>, [
 [null, null, null, <ore:plateDenseDraconium>, <ore:plateDenseDraconium>, <ore:plateDenseDraconium>, null, null, null],
 [null, <ore:plateDenseDraconium>, <ore:plateDenseDraconium>, <ore:plateDenseDraconiumAwakened>, <TGregworks:tGregToolPartLargePlate:1669>.withTag({material: "Infinity"}), <ore:plateDenseDraconiumAwakened>, <ore:plateDenseDraconium>, <ore:plateDenseDraconium>, null],
 [null, <ore:plateDenseDraconium>, <gregtech:gt.metaitem.01:32677>, <gregtech:gt.metaitem.01:32687>, <ore:blockAmericium>, <gregtech:gt.metaitem.01:32687>, <gregtech:gt.metaitem.01:32677>, <ore:plateDenseDraconium>, null],
-[<ore:plateDenseDraconium>, <DraconicEvolution:teleporterMKI>, <gregtech:gt.metaitem.01:32697>, <ore:plateDenseDraconium>, <DraconicEvolution:chaoticCore>, <ore:plateDenseDraconium>, <gregtech:gt.metaitem.01:32697>, <DraconicEvolution:teleporterMKI>, <ore:plateDenseDraconium>],
-[<ore:plateDenseDraconium>, <TGregworks:tGregToolPartLargePlate:1669>.withTag({material: "Infinity"}), <ore:plateDenseDraconium>, <DraconicEvolution:chaoticCore>, <DraconicEvolution:teleporterMKI>, <DraconicEvolution:chaoticCore>, <ore:plateDenseDraconium>, <TGregworks:tGregToolPartLargePlate:1669>.withTag({material: "Infinity"}), <ore:plateDenseDraconium>],
-[<ore:plateDenseDraconium>, <ore:plateDenseDraconiumAwakened>, <ore:plateDenseDraconium>, <ore:plateDenseDraconium>, <DraconicEvolution:chaoticCore>, <ore:plateDenseDraconium>, <ore:plateDenseDraconium>, <ore:plateDenseDraconiumAwakened>, <ore:plateDenseDraconium>],
+[<ore:plateDenseDraconium>, <DraconicEvolution:teleporterMKI>, <gregtech:gt.metaitem.01:32697>, <ore:plateDenseDraconium>, <DraconicEvolution:awakenedCore>, <ore:plateDenseDraconium>, <gregtech:gt.metaitem.01:32697>, <DraconicEvolution:teleporterMKI>, <ore:plateDenseDraconium>],
+[<ore:plateDenseDraconium>, <TGregworks:tGregToolPartLargePlate:1669>.withTag({material: "Infinity"}), <ore:plateDenseDraconium>, <DraconicEvolution:awakenedCore>, <DraconicEvolution:teleporterMKI>, <DraconicEvolution:awakenedCore>, <ore:plateDenseDraconium>, <TGregworks:tGregToolPartLargePlate:1669>.withTag({material: "Infinity"}), <ore:plateDenseDraconium>],
+[<ore:plateDenseDraconium>, <ore:plateDenseDraconiumAwakened>, <ore:plateDenseDraconium>, <ore:plateDenseDraconium>, <DraconicEvolution:awakenedCore>, <ore:plateDenseDraconium>, <ore:plateDenseDraconium>, <ore:plateDenseDraconiumAwakened>, <ore:plateDenseDraconium>],
 [null, <ore:plateDenseDraconium>, <DraconicEvolution:teleporterMKI>, <gregtech:gt.metaitem.01:32687>, <ore:blockAmericium>, <gregtech:gt.metaitem.01:32687>, <DraconicEvolution:teleporterMKI>, <ore:plateDenseDraconium>, null],
 [null, <ore:plateDenseDraconium>, <ore:plateDenseDraconium>, <ore:plateDenseDraconiumAwakened>, <TGregworks:tGregToolPartLargePlate:1669>.withTag({material: "Infinity"}), <ore:plateDenseDraconiumAwakened>, <ore:plateDenseDraconium>, <ore:plateDenseDraconium>, null],
 [null, null, null, <ore:plateDenseDraconium>, <ore:plateDenseDraconium>, <ore:plateDenseDraconium>, null, null, null]]);
@@ -570,10 +570,10 @@ mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:draconicHoe>, [
 [null, null, <ore:ingotDraconium>, null, null, null, null, null, null],
 [null, <ore:ingotDraconium>, null, null, null, null, null, null, null]]);
 
-// --- Draconic Stuff of Power
+// --- Draconic Staff of Power
 mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:draconicDistructionStaff>, [
 [null, null, null, <ore:plateDraconiumAwakened>, DraconicECore, <ore:plateDraconiumAwakened>, null, null, null],
-[null, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, ChaoticCore, <DraconicEvolution:draconicShovel>, ChaoticCore, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, null],
+[null, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, <DraconicEvolution:awakenedCore>, <DraconicEvolution:draconicShovel>, <DraconicEvolution:awakenedCore>, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, null],
 [<ore:plateDraconiumAwakened>, null, null, <DraconicEvolution:draconicPickaxe>, <ore:ingotDraconiumAwakened>, <DraconicEvolution:draconicSword>, null, null, <ore:plateDraconiumAwakened>],
 [null, null, null, null, <ore:ingotDraconiumAwakened>, null, null, null, null],
 [null, null, null, null, <ore:ingotDraconiumAwakened>, null, null, null, null],
