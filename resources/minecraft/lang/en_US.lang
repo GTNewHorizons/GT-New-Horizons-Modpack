@@ -1544,21 +1544,21 @@ gtnh.quest384.desc=Of course! The matter condenser! How come I didn't think of t
 gtnh.quest385.name=A Few More Things...
 gtnh.quest385.desc=Ok, I think I have everything I need to assemble the device. Can you assist me with some additional materials? I need to update some of my machines, as these exotic components you got me damaged some of them already. Don't worry, I have a list here.%n%nSome of my circuits burned to a crisp while I was trying to measure the conductivity of these soul and life shards. I need better ones.%n%nGood lord, these mysterious crystals have eaten away my diamond grinding head! How could that happen? Can you get me a better one?%n%nDo you see that pile of Rhodium and Palladium over there? No? Neither do I. Because the machine was VAPORIZED! Good that you gave me 2 singularities, the first one... Well... Just get me a better casing, would you?%n%nIt seems, that the stabilizers need... stabilizing... But I'm out of field generators. Can you help me with this?
 
-# Quest.386 - §c§l[OUTDATED]§r Weird creatures
-gtnh.quest386.name=§c§l[OUTDATED]§r Weird creatures
-gtnh.quest386.desc=These ghosts are weird beings. But, I found this ectoplasm, which, by itself, seems to be pretty useless.
+# Quest.386 - Industrial Sledgehammer
+gtnh.quest386.name=Industrial Sledgehammer
+gtnh.quest386.desc=A multiblock forge hammer.
 
-# Quest.387 - §c§l[OUTDATED]§r Activated teleport power
-gtnh.quest387.name=§c§l[OUTDATED]§r Activated teleport power
-gtnh.quest387.desc=By a random guess of yours, you combined molten ender pearls and a few more of these shards with an empty gem, and it turned blue. It is pulsating with power. You tried to use it on your containment device, and it seems to be able to bypass the force field, while keeping it intact that the same time. Sadly, it doesn't have enough power to let vis pass through. Maybe you can even further increase the gems power?
+# Quest.387 - Industrial 3D Copying Machine
+gtnh.quest387.name=Industrial 3D Copying Machine
+gtnh.quest387.desc=Need large amounts of chiseled blocks? This is the machine for you.
 
 # Quest.388 - §6§lDraconic Evolution
 gtnh.quest388.name=§6§lDraconic Evolution
 gtnh.quest388.desc=You have tinkered long and hard to try to combine magic and technology. It looks like you finally found a way! Combining your powers as a thaumaturge and blood mage with your UHV technology you think you have found a way to distill the power of a dragon into a small core. This machine can do it, you are sure. If only you know how precisely to assembler such a core.%n%n%n§3Use a hologram projector to see how it is built. You can also upgrade your draconic cores but for that you need the higher tier schematics and you need to upgrade the multiblock.
 
-# Quest.389 - §c§l[OUTDATED]§r Draconic evolution
-gtnh.quest389.name=§c§l[OUTDATED]§r Draconic evolution
-gtnh.quest389.desc=I found a way to combine technology and magic into something fantastic. A shiny blue emblem that emits immense amount of energy. I've decided to call it the draconic core. Make one for yourself!
+# Quest.389 - A volcano for your base.
+gtnh.quest389.name=A volcano for your base.
+gtnh.quest389.desc=The ultimate machine for cobblestone production. Or maybe to turn redstone into obsidian on a large scale for a renewable production of Silicon, Magnesium, Iron, and Oxygen.
 
 # Quest.390 - Indium
 gtnh.quest390.name=Indium
@@ -4910,7 +4910,7 @@ gtnh.quest1226.desc=Glycerol is a byproduct of making bio diesel, but it's reall
 
 # Quest.1227 - §6§lHCL
 gtnh.quest1227.name=§6§lHCL
-gtnh.quest1227.desc=HCl becomes important for your epoxid production in HV/EV tier.
+gtnh.quest1227.desc=More then just a byproduct of your Sodium Persulfate production. HCl becomes important for Epoxid in HV/EV tier. You can also use it to process bee combs.%n%nYou can also make it directly from Hydrogen and Chlorine.
 
 # Quest.1228 - §a§lEpichlorohydrin
 gtnh.quest1228.name=§a§lEpichlorohydrin
@@ -6398,7 +6398,7 @@ gtnh.quest1598.desc=Time to make the MV version of the assembler.
 
 # Quest.1599 - §5§lNode Upgrades
 gtnh.quest1599.name=§5§lNode Upgrades
-gtnh.quest1599.desc=Nodes can take many upgrades. For now, try building a World Interaction Upgrade.  With it, you can setup simple autocrafting. %n%nPut a WIU in a transfer node attached to a crafting table. On the other side of the table, the 3x3 area is now treated as a crafting grid.  Place items in inventories on the other side and if they make a valid recipe, the WIU will craft it.  To speed it up, you will need to wait until HV for stainless steel.%n%nAlso, if you place a node on a block of cobble that has lava and water next to it, and a WIU in it, it will produce cobble for you automatically. Use upgrades to get more at a time and faster.
+gtnh.quest1599.desc=Nodes can take many upgrades. For now, try building a World Interaction Upgrade.  With it, you can setup simple autocrafting. %n%nPut a WIU in a transfer node attached to a crafting table. On the other side of the table, the 3x3 area is now treated as a crafting grid.  Place items in inventories on the other side and if they make a valid recipe, the WIU will craft it.  To speed it up, you will need to wait until HV for stainless steel.%n%nAlso, if you place a node on a block of cobble that has lava and water next to it, and a WIU in it, it will produce cobble for you automatically. Use upgrades to get more at a time and faster.%n%n§4The WIU can NOT be used for infinite water in GTNH.
 
 # Quest.1600 - Reed and Resin
 gtnh.quest1600.name=Reed and Resin
@@ -9240,9 +9240,9 @@ gtnh.quest2308.desc=Now that you have Palladium Salt, you need to sift it to get
 gtnh.quest2309.name=§b§lAnother Acid to Worry About!
 gtnh.quest2309.desc=Formic Acid, also known as methanoic acid, is an organic acid. We'll need it for the final Palladium step, so dont be shy, make tons of it! The Sodium Sulfate can be recycled.%n%nMake Sodium Formate, then the Formic Acid.
 
-# Quest.2310 - §b§lPalladium
-gtnh.quest2310.name=§b§lPalladium
-gtnh.quest2310.desc=Combine the original Palladium Enriched Ammonia with Palladium Metallic Powder. This will get you Palladium Salt again, but also Reprecipated Palladium.%n%nFrom now on you should skip the first step, it's not necessary anymore as this gives the same thing, but more. You do need to find a way to combine the dusts automatically though.%n%nWhen/if you run out of Palladium Enriched Ammonia, you can make more by adding Ammonia to Palladium Metallic Powder.
+# Quest.2310 - §b§lRepreci... what?
+gtnh.quest2310.name=§b§lRepreci... what?
+gtnh.quest2310.desc=Reprecipitated! It means you a seperated a solid from a solution/suspension, then dissolved it again, and then seperated it again.%n%nCombine the original Palladium Enriched Ammonia with Palladium Metallic Powder. This will get you Palladium Salt again, but also Reprecipated Palladium.%n%nFrom now on you should skip the first step, it's not necessary anymore as this gives the same thing, but more. You do need to find a way to combine the dusts automatically though.%n%nWhen/if you run out of Palladium Enriched Ammonia, you can make more by adding Ammonia to Palladium Metallic Powder.
 
 # Quest.2311 - §b§lRoss128b Trip
 gtnh.quest2311.name=§b§lRoss128b Trip
