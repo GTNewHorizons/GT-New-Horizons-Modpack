@@ -2962,7 +2962,7 @@ gtnh.quest739.desc=§4Using the drawer controller with large amounts of I/O will
 
 # Quest.740 - §6§lExtrude All the Things
 gtnh.quest740.name=§6§lExtrude All the Things
-gtnh.quest740.desc=Now that you've hit MV tier, it's time to get a better ratio when making rods, pipes, wires, plates and many more parts. Most extruder recipes use more than 32 EU/t so you need an MV extruder. After crafting the machine you need extruder shapes for the different types of parts you want to make.%n%nNote that not all of these are necessarily useful, like the ingot one for example.%n%n§3Most of the Tinkers Gregworks tool parts are made in the extruder. They also have long extrusion times to balance out their usefulness.
+gtnh.quest740.desc=Now that you've hit MV tier, it's time to get a better ratio when making rods, pipes, wires, plates and many more parts. Most extruder recipes use more than 32 EU/t so you need an MV extruder. After crafting the machine you need extruder shapes for the different types of parts you will want to make.%n%nThere are a few more shapes than the ones listed here. Makes sure to have a look.%n%n§3Most of the Tinkers Gregworks tool parts are made in the extruder. They also have long extrusion times to balance out their usefulness.
 
 # Quest.741 - §5§3§lTool Forge
 gtnh.quest741.name=§5§3§lTool Forge
@@ -5034,7 +5034,7 @@ gtnh.quest1257.desc=Component of the crafting CPU which provides 65,536 bytes of
 
 # Quest.1258 - Wireless Boosters
 gtnh.quest1258.name=Wireless Boosters
-gtnh.quest1258.desc=The Wireless Booster is used to increase the range of the ME Wireless Access Point, and stack up to 64. The cost increases more the more you add, as such:%n%n0 Boosters%n Range: 16%n EU/t: 80%n%n16 Boosters%n Range: 80%n EU/t: 400%n%n32 Boosters%n Range: 197%n EU/t: 1,890%n%n48 Boosters%n Range: 348.5%n EU/t: 8,833%n%n64 Boosters%n Range: 528%n EU/t: 41,040%n%n§3BTW, this is a radius.
+gtnh.quest1258.desc=The Wireless Booster is used to increase the range of the ME Wireless Access Point, and stack up to 64.
 
 # Quest.1259 - Filling Tanks
 gtnh.quest1259.name=Filling Tanks
