@@ -748,25 +748,25 @@ recipes.addShaped(<ProjRed|Transportation:projectred.transportation.pipe>, [
 // --- Routed Junction Pipes
 recipes.addShaped(<ProjRed|Transportation:projectred.transportation.pipe:1> * 4, [
 [<ProjRed|Transportation:projectred.transportation.pipe>, <ProjRed|Core:projectred.core.part:13>, <ProjRed|Transportation:projectred.transportation.pipe>],
-[<ProjRed|Core:projectred.core.part:33>, <ore:plateDiamond>, <ProjRed|Core:projectred.core.part:32>],
+[<ProjRed|Core:projectred.core.part:33>, <ore:stickAluminium>, <ProjRed|Core:projectred.core.part:32>],
 [<ProjRed|Transportation:projectred.transportation.pipe>, <ProjRed|Core:projectred.core.part:13>, <ProjRed|Transportation:projectred.transportation.pipe>]]);
 
 // --- Item Responder Chip
 recipes.addShaped(<ProjRed|Transportation:projectred.transportation.routingchip>, [
 [<ProjRed|Core:projectred.core.part:20>, <ore:wireGt01RedAlloy>, <ProjRed|Core:projectred.core.part:20>],
-[<ore:plateCopper>, <ProjRed|Core:projectred.core.part:44>, <ore:circuitBasic>],
+[<ore:plateCopper>, <ProjRed|Core:projectred.core.part:44>, <ore:circuitGood>],
 [<ProjRed|Core:projectred.core.part:20>, <ore:wireGt01RedAlloy>, <ProjRed|Core:projectred.core.part:20>]]);
 
 // --- Dynamic Item Responder Chip
 recipes.addShaped(<ProjRed|Transportation:projectred.transportation.routingchip:1>, [
 [<ProjRed|Core:projectred.core.part:20>, <ore:wireGt01RedAlloy>, <ProjRed|Core:projectred.core.part:28>],
-[<ore:plateBronze>, <ProjRed|Core:projectred.core.part:44>, <ore:circuitBasic>],
+[<ore:plateBronze>, <ProjRed|Core:projectred.core.part:44>, <ore:circuitGood>],
 [<ProjRed|Core:projectred.core.part:20>, <ore:wireGt01RedAlloy>, <ProjRed|Core:projectred.core.part:28>]]);
 
 // --- Item Overflow Responder Chip
 recipes.addShaped(<ProjRed|Transportation:projectred.transportation.routingchip:2>, [
 [<ProjRed|Core:projectred.core.part:32>, <ore:wireGt01RedAlloy>, <ProjRed|Core:projectred.core.part:32>],
-[<ore:plateIron>, <ProjRed|Core:projectred.core.part:44>, <ore:circuitBasic>],
+[<ore:plateIron>, <ProjRed|Core:projectred.core.part:44>, <ore:circuitGood>],
 [<ProjRed|Core:projectred.core.part:32>, <ore:wireGt01RedAlloy>, <ProjRed|Core:projectred.core.part:32>]]);
 
 // --- Item Terminator Chip
@@ -778,25 +778,25 @@ recipes.addShaped(<ProjRed|Transportation:projectred.transportation.routingchip:
 // --- Item Extraction Chip
 recipes.addShaped(<ProjRed|Transportation:projectred.transportation.routingchip:4>, [
 [<ProjRed|Core:projectred.core.part:28>, <ore:wireGt01RedAlloy>, <ProjRed|Core:projectred.core.part:28>],
-[<ore:plateSteel>, <ProjRed|Core:projectred.core.part:44>, <ore:circuitBasic>],
+[<ore:plateSteel>, <ProjRed|Core:projectred.core.part:44>, <ore:circuitGood>],
 [<ProjRed|Core:projectred.core.part:28>, <ore:wireGt01RedAlloy>, <ProjRed|Core:projectred.core.part:28>]]);
 
 // --- Item Broadcast Chip
 recipes.addShaped(<ProjRed|Transportation:projectred.transportation.routingchip:5>, [
 [<ProjRed|Core:projectred.core.part:21>, <ore:wireGt02RedAlloy>, <ProjRed|Core:projectred.core.part:21>],
-[<ore:plateGold>, <ProjRed|Core:projectred.core.part:44>, <ore:circuitGood>],
+[<ore:plateGold>, <ProjRed|Core:projectred.core.part:44>, <ore:circuitBasic>],
 [<ProjRed|Core:projectred.core.part:21>, <ore:wireGt02RedAlloy>, <ProjRed|Core:projectred.core.part:21>]]);
 
 // --- Item Stock Keeper Chip
 recipes.addShaped(<ProjRed|Transportation:projectred.transportation.routingchip:6>, [
 [<ProjRed|Core:projectred.core.part:30>, <ore:wireGt02RedAlloy>, <ProjRed|Core:projectred.core.part:30>],
-[<ore:plateDiamond>, <ProjRed|Core:projectred.core.part:44>, <ore:circuitGood>],
+[<ore:plateAluminium>, <ProjRed|Core:projectred.core.part:44>, <ore:circuitBasic>],
 [<ProjRed|Core:projectred.core.part:30>, <ore:wireGt02RedAlloy>, <ProjRed|Core:projectred.core.part:30>]]);
 
 // --- Item Crafting Chip
 recipes.addShaped(<ProjRed|Transportation:projectred.transportation.routingchip:7>, [
 [<ProjRed|Core:projectred.core.part:24>, <ore:wireGt02RedAlloy>, <ProjRed|Core:projectred.core.part:24>],
-[<ore:plateGlowstone>, <ProjRed|Core:projectred.core.part:44>, <ore:circuitGood>],
+[<ore:plateGlowstone>, <ProjRed|Core:projectred.core.part:44>, <ore:circuitBasic>],
 [<ProjRed|Core:projectred.core.part:24>, <ore:wireGt02RedAlloy>, <ProjRed|Core:projectred.core.part:24>]]);
 
 // --- Item Crafting Extension Chip
