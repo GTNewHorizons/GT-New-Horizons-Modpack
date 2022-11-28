@@ -2,7 +2,7 @@
 
 # Quest.0 - §d§3§2§1§lYour First Night
 gtnh.quest0.name=§d§3§2§1§lYour First Night
-gtnh.quest0.desc=Your first task will be to find food, and a shelter for the night. The nights will be cruel, as this pack has hardcore darkness. It probably would be a good idea to collect some food now...%n%n§lNote: You don't need to keep this book, you can use tilde to open quests without the book.§r ...if your keybinds don't conflict.%n%nGo to the Discord server at §6https://discord.gg/EXshrPV§r for help outside of what the questbook offers, or just to hang out. Select an appropriate role in #role-select to get tier-appropriate advice.%n%nWe also maintain a wiki at §9https://gtnh.miraheze.org/wiki/Main_Page §rbe sure to check it out. Some of the stuff is really complicated, and needs more text to explain than the QB can do. Also, pictures. Also, beginner's guides for some stuff if you don't think the questbook is enough. There's also a list of optional mods for people that want to be even fancier, or use different fonts or w/e.%n%nAdditionally, there's the spreadsheet at §dhttp://bit.ly/gtnh-datasheets§r for info that you would would want a spreadsheet for.%n%nLastly, if you got the pack from §4Curse§r, please be aware that it doesn't always work properly (Curse doesn't play well with all the customized versions of mods we have), so if you have any problems, the first response on how to fix it will be to switch to another launcher like §9MultiMC§r or §aTechnic§r. The latest version is available on the discord channel from #announcements or with the !download command.%n%n§3Hopefully you didn't get munched by a monster while reading this.
+gtnh.quest0.desc=Your first task will be to find food, and a shelter for the night. The nights will be cruel, as this pack has hardcore darkness. It probably would be a good idea to collect some food now...%n%n§lNote: You don't need to keep this book, you can use tilde to open quests without the book.§r ...if your keybinds don't conflict.%n%nGo to the Discord server at §6https://discord.gg/EXshrPV§r for help outside of what the questbook offers, or just to hang out. Select an appropriate role in #role-select to get tier-appropriate advice.%n%nWe also maintain a wiki at §9https://gtnh.miraheze.org/wiki/Main_Page §rbe sure to check it out. Some of the stuff is really complicated, and needs more text to explain than the QB can do. Also, pictures and beginner's guides for some stuff if you don't think the questbook is enough. There's also a list of optional mods for people that want to be even fancier, or use different fonts or w/e.%n%nAdditionally, there's the spreadsheet at §dhttp://bit.ly/gtnh-datasheets§r for info that you would would want a spreadsheet for.%n%nLastly, if you got the pack from §4Curse§r, please be aware that it doesn't always work properly (Curse doesn't play well with all the customized versions of mods we have), so if you have any problems, the first response on how to fix it will be to switch to another launcher like §9MultiMC§r or §aTechnic§r. The latest version is available on the discord channel from #announcements or with the !download command.%n%n§3Hopefully you didn't get munched by a monster while reading this.
 
 # Quest.1 - §1§lWhere's the Flint?
 gtnh.quest1.name=§1§lWhere's the Flint?
@@ -10,11 +10,11 @@ gtnh.quest1.desc=As you might have noticed, while collecting gravel, no flint dr
 
 # Quest.2 - §1§lSticks 'n Stones
 gtnh.quest2.name=§1§lSticks 'n Stones
-gtnh.quest2.desc=This book has a built-in reading light, lucky you! You can read about quests while you're waiting for the night to be over, but for now, you may want to get the basics done. If it isn't dark already, go out and collect some gravel and wood. Keep in mind that you need food, so look for Pam's Harvestcraft gardens. (And save some of the vegetables for seeds!)%n%n§3If you haven't already, make sure to read the info quests linked from the first quest when you can, they have important info!
+gtnh.quest2.desc=This book has a built-in reading light, lucky you! You can read about quests while you're waiting for the night to be over, but for now, you may want to get the basics done. If it isn't dark already, go out and collect some gravel and wood. Keep in mind that you need food, so look for Pam's HarvestCraft gardens. (And save some of the vegetables for seeds!)%n%n§3If you haven't already, make sure to read the info quests linked from the first quest when you can; they have important info!
 
 # Quest.3 - §1§lStorage For Days
 gtnh.quest3.name=§1§lStorage For Days
-gtnh.quest3.desc=Now that you've gotten your tools and are about to go collect a bunch of stuff, it's about time to make some storage for your goods. Take some of your wood, and craft a chest. You will need 4 wood, 4 planks and 1 flint.
+gtnh.quest3.desc=Now that you've gotten your tools and are about to go collect a bunch of stuff, it's about time to make some storage for your goods. Take some of your wood and craft a chest. You will need 4 wood, 4 planks, and 1 flint.
 
 # Quest.4 - §1§lMain Quests and Secondary Quests
 gtnh.quest4.name=§1§lMain Quests and Secondary Quests
@@ -66,7 +66,7 @@ gtnh.quest15.desc=You probably should have a home by now. A steady supply of foo
 
 # Quest.16 - §4§3§lBetter Tank... Iron Tank
 gtnh.quest16.name=§4§3§lBetter Tank... Iron Tank
-gtnh.quest16.desc=Storing more than 16 buckets of fluid in one tank? Sure! Just make an iron tank or upgrade the Buildcraft tank.%n%nDiamond tanks carry up to 64 buckets and obsidian ones are blast proof. There's even more past that, but you should probably use GT tanks or large cells instead.
+gtnh.quest16.desc=Storing more than 16 buckets of fluid in one tank? Sure! Just make an iron tank or upgrade the BuildCraft tank.%n%nDiamond tanks carry up to 64 buckets and obsidian ones are blast proof. There's even more past that, but you should probably use GT tanks or large cells instead.
 
 # Quest.17 - §2§lSand: The Gathering
 gtnh.quest17.name=§2§lSand: The Gathering
@@ -90,7 +90,7 @@ gtnh.quest21.desc=While bored, you thought that it might be a good idea to take 
 
 # Quest.22 - §2§lFinite Water!?
 gtnh.quest22.name=§2§lFinite Water!?
-gtnh.quest22.desc=Finite water is a problem, that's for sure. Last night, you had an idea. If you can drink cacti, you should also be able make water out of 8 cacti and use that for most recipes that require water. How cool is that? So what about another trade? 10 wood for... 3 cacti so you can setup a farm. Deal?%n%nTo automate the farm, place a string next to the cactus and a sand on top of the string. Now when the cactus grows, it will automatically break!  You can stack this horizontally and vertically to make a very efficient cactus farm.  Use water to redirect the cactus to a convenient pickup location or to above a hopper.%n%nFirst player to make a base running off of only cactus water gets a cape!
+gtnh.quest22.desc=Finite water is a problem, that's for sure. Last night, you had an idea. If you can drink cacti, you should also be able make water out of 8 cacti and use that for most recipes that require water. How cool is that? So what about another trade? 10 wood for... 3 cacti so you can setup a farm. Deal?%n%nTo automate the farm, place a string next to the cactus and a sand on top of the string. Now when the cactus grows, it will automatically break!  You can stack this horizontally and vertically to make a very efficient cactus farm. Use water to redirect the cactus to a convenient pickup location or to above a hopper.%n%nFirst player to make a base running off of only cactus water gets a cape!
 
 # Quest.23 - §2§lSomething to Carry Liquids
 gtnh.quest23.name=§2§lSomething to Carry Liquids
@@ -106,7 +106,7 @@ gtnh.quest25.desc=Your vision becomes more clear, you'll need bricks for your fi
 
 # Quest.26 - §2§lForming Press v0.1
 gtnh.quest26.name=§2§lForming Press v0.1
-gtnh.quest26.desc=As you may have noticed, you cannot turn clay into bricks directly. Well, to be fair, it wasn't a good recipe anyway. You'll probably end up with something bread-shaped. So in order to make bricks, you need a form. Get yourself a knife (flint above a stick) and a blank pattern, and cut a brick sized piece out. It's as easy as that.
+gtnh.quest26.desc=As you may have noticed, you cannot turn clay into bricks directly. Well, to be fair, it wasn't a good recipe anyway. You'd probably end up with something bread-shaped. So in order to make bricks, you need a form. Get yourself a knife (flint above a stick) and a blank pattern, and cut a brick sized piece out. It's as easy as that.
 
 # Quest.27 - §2§lFinally, Some Powerful Fuel
 gtnh.quest27.name=§2§lFinally, Some Powerful Fuel
@@ -134,7 +134,7 @@ gtnh.quest32.desc=After you found a way to move water around, you had another br
 
 # Quest.33 - §2§lTinker-Time
 gtnh.quest33.name=§2§lTinker-Time
-gtnh.quest33.desc=While using your flint tools is fun in terms of killing pigs and cows, they are not very good, and can't be repaired. Plus Infernals laugh at your attempts to kill them. You discovered how to craft tools that can be repaired and upgraded, but for that you definitely need a more advanced crafting technique.%n%nIf you have to use wood other than oak to make your tables, you can convert them to the default oak wood type to complete this quest.
+gtnh.quest33.desc=While using your flint tools is fun in terms of killing pigs and cows, they are not very good and can't be repaired. Plus, Infernals laugh at your attempts to kill them. You discovered how to craft tools that can be repaired and upgraded, but for that you definitely need a more advanced crafting technique.%n%nIf you have to use wood other than oak to make your tables, you can convert them to the default oak wood type to complete this quest.
 
 # Quest.34 - §2§lAluminini...um...?
 gtnh.quest34.name=§2§lAluminini...um...?
@@ -146,7 +146,7 @@ gtnh.quest35.desc=Now that you've found copper and tin, you should make yourself
 
 # Quest.36 - §2§lImportant Tools
 gtnh.quest36.name=§2§lImportant Tools
-gtnh.quest36.desc=In order to craft even basic machines, you'll need new tools. Most of them can be replaced by machines later. For now, you should become familiar with each of their recipes, as you will need a lot of these tools, starting today.%n%nYour new tools can also be used to make Railcraft water tanks, a very useful multiblock considering the finite water feature.%n%nThere are also electric versions of the tools, you can upgrade later if you want. Also, there are many versions of the tools, they generally follow the same rules as tinkers parts in terms of how good they are, similarly to turbines. You can look at the spreadsheet for more info on GT tool stats.%n%n§3You can use whatever materials you want. The gem version of the saw is crafted differently to metal versions. Higher tier tools need steel or tungstensteel rods instead of sticks.
+gtnh.quest36.desc=In order to craft even basic machines, you'll need new tools. Most of them can be replaced by machines later. For now, you should become familiar with each of their recipes, as you will need a lot of these tools, starting today.%n%nYour new tools can also be used to make Railcraft water tanks, a very useful multiblock considering the finite water feature.%n%nThere are also electric versions of the tools, you can upgrade later if you want. Also, there are many versions of the tools, they generally follow the same rules as tinkers' parts in terms of how good they are, similarly to turbines. You can look at the spreadsheet for more info on GT tool stats.%n%n§3You can use whatever materials you want. The gem version of the saw is crafted differently to metal versions. Higher tier tools need steel or tungstensteel rods instead of sticks.
 
 # Quest.37 - §2§lGetting Iron
 gtnh.quest37.name=§2§lGetting Iron
@@ -154,7 +154,7 @@ gtnh.quest37.desc=Iron can be found in multiple veins. %nMagnetite veins (Y 30-1
 
 # Quest.38 - §2§lMaking Better Tools
 gtnh.quest38.name=§2§lMaking Better Tools
-gtnh.quest38.desc=With aluminium and copper, you can create a material with a higher melting temperature, "Aluminum Brass", which can be used to cast better tools.%n%nBut first you'll need a smeltery. See the Multiblock Goals tab for details. You can also grab some extra blocks from some villages, but they don't count towards the quest.%n%nYou can then use your fancy new bronze to make better tools with a higher mining level.%n%n§3Remember, you need to gather mining xp or use an upgrade slot to get the full mining level on your bronze pickaxe.
+gtnh.quest38.desc=With aluminium and copper you can create a material with a higher melting temperature, "Aluminum Brass", which can be used to cast better tools.%n%nBut first you'll need a smeltery. See the Multiblock Goals tab for details. You can also grab some extra blocks from some villages, but they don't count towards the quest.%n%nYou can then use your fancy new bronze to make better tools with a higher mining level.%n%n§3Remember, you need to gather mining xp or use an upgrade slot to get the full mining level on your bronze pickaxe.
 
 # Quest.39 - §2§lBetter Storage
 gtnh.quest39.name=§2§lBetter Storage
@@ -170,23 +170,23 @@ gtnh.quest41.desc=You have decided it's time to make some tasty pizza, but your 
 
 # Quest.42 - §2§r§2§lCow Tipper
 gtnh.quest42.name=§2§r§2§lCow Tipper
-gtnh.quest42.desc=Before you had to kill some pigs and sheep to complete quests. Now it's time to kill some cows and hopefully get some leather. If you are lucky and get a cow trophy you may never need to kill another cow in the future.
+gtnh.quest42.desc=Before, you had to kill some pigs and sheep to complete quests. Now, it's time to kill some cows and hopefully get some leather. If you are lucky and get a cow trophy you may never need to kill another cow in the future.
 
 # Quest.43 - §2§lCotton, Cotton and More Cotton
 gtnh.quest43.name=§2§lCotton, Cotton and More Cotton
-gtnh.quest43.desc=You've found out that cotton is very useful, it can be used to make string, wool, and some other useful items too. Make a small cotton plantation to get tons of it.
+gtnh.quest43.desc=You've found out that cotton is very useful; it can be used to make string, wool, and some other useful items too. Make a small cotton plantation to get tons of it.
 
 # Quest.44 - §3§lWelcome to Tier 0.5, Steam!
 gtnh.quest44.name=§3§lWelcome to Tier 0.5, Steam!
-gtnh.quest44.desc=Welcome, and well done so far! This tier is all about your first machines, getting more stuff from your ores and making bronze ingots in a more efficient manner.%n%nFor water, check out the Water Siding Tank multiblock in the Multiblock goals tab.%n%nTo connect up your boilers, be sure to provide water from the bottom, they'll accept only water from this side, so no risk of melting your pipe. Wooden pipes are fine for this. Make sure you never run out of water - adding water to a hot boiler will cause it to explode!%n%nSteam will come out from the sides. Remember, steam is hot! It will destroy wooden pipes. And it can burn you if you walk on bronze pipes full of steam.  Cover them with wooden planks or paper. Or just don't walk on/next to them.%n%nAnd no, you can't automate it. Make an electric one if you want to do that.
+gtnh.quest44.desc=Welcome, and well done so far! This tier is all about your first machines, getting more stuff from your ores, and making bronze ingots in a more efficient manner.%n%nFor water, check out the Water Siding Tank multiblock in the Multiblock Goals tab.%n%nTo connect up your boilers, be sure to provide water from the bottom, they'll accept only water from this side, so no risk of melting your pipe. Wooden pipes are fine for this. Make sure you never run out of water - adding water to a hot boiler will cause it to explode!%n%nSteam will come out from the sides. Remember, steam is hot! It will destroy wooden pipes. And it can burn you if you walk on bronze pipes full of steam.  Cover them with wooden planks or paper. Or just don't walk on/next to them.%n%nAnd no, you can't automate it. Make an electric one if you want to do that.
 
 # Quest.45 - §6§lMultiblock Tanks... Railcraft Tanks
 gtnh.quest45.name=§6§lMultiblock Tanks... Railcraft Tanks
-gtnh.quest45.desc=576 buckets of fluid, that should be enough to store all the creosote you have accumulated thus far. If that isn't enough you can make this tank bigger. The smallest tanks are 3x4x3 while the biggest are 9x8x9.%n%nHint: Fluid will auto-output (without any pumps) if you place a valve on the bottom side of the tank. The output rate is 1000 L/t so twice as fast as a GT HV Pump Cover. You can color the tank with Buildcraft paintbrushes and the GT spray can.%n%nIf you still use Railcraft tanks in later tiers, you boost the output rate by using pumps.
+gtnh.quest45.desc=576 buckets of fluid, that should be enough to store all the creosote you have accumulated thus far. If that isn't enough you can make this tank bigger. The smallest tanks are 3x4x3 while the biggest are 9x8x9.%n%nHint: Fluid will auto-output (without any pumps) if you place a valve on the bottom side of the tank. The output rate is 1000 L/t so twice as fast as a GT HV Pump Cover. You can color the tank with BuildCraft paintbrushes and the GT spray can.%n%nIf you still use Railcraft tanks in later tiers, you boost the output rate by using pumps.
 
 # Quest.46 - §3§lMore Advanced Alloys
 gtnh.quest46.name=§3§lMore Advanced Alloys
-gtnh.quest46.desc=Your smeltery does a great job mixing metals into alloys, but it's not very efficient, and limited in its complexity. You need something new, so why not put your steam to some use? The Alloy Smelter can make bronze for you directly, using ingots, dusts, or even nuggets. You can make a nugget mold as well to turn ingots into nuggets if you have steel.%n%nIt might also come in handy when processing raw rubber. You should keep an eye on recipes to see when machines offer better options to make items...%n%n§4NOTE: Like all steam machines, the output port doubles as a steam outlet when recipes complete. It must not be blocked. Also, steam is hot, remember? Change the output side by whacking with a wrench. The 3x3 grid will show you which side the output will move to when you whack it.%n%nIf you try enabling item output, you'll see it comes out the same side as the steam outlet. How unfortunate! However you can still empty the machine by putting a hopper beneath it. %n%nWARNING: The Alloy Smelter recipes take a §llot§r of steam. Do them one by one until you understand how fast you use steam, and how much you will need buffered. Large pipes are a decent "poor mans" buffer, and the boiler can hold quite a bit of steam, as well as the machine itself. Once you get a little further along, make a larger steam buffer with an iron or steel railcraft tank.
+gtnh.quest46.desc=Your smeltery does a great job mixing metals into alloys, but it's not very efficient and limited in its complexity. You need something new, so why not put your steam to some use? The Alloy Smelter can make bronze for you directly, using ingots, dusts, or even nuggets. You can make a nugget mold as well to turn ingots into nuggets if you have steel.%n%nIt might also come in handy when processing raw rubber. You should keep an eye on recipes to see when machines offer better options to make items...%n%n§4NOTE: Like all steam machines, the output port doubles as a steam outlet when recipes complete. It must not be blocked. Also, steam is hot, remember? Change the output side by whacking with a wrench. The 3x3 grid will show you which side the output will move to when you whack it.%n%nIf you try enabling item output, you'll see it comes out the same side as the steam outlet. How unfortunate! However, you can still empty the machine by putting a hopper beneath it. %n%nWARNING: The Alloy Smelter recipes take a §llot§r of steam. Do them one by one until you understand how fast you use steam, and how much you will need buffered. Large pipes are a decent "poor mans" buffer, and the boiler can hold quite a bit of steam, as well as the machine itself. Once you get a little further along, make a larger steam buffer with an iron or steel Railcraft tank.
 
 # Quest.47 - §3§lUpgrade: High Speed Alloys
 gtnh.quest47.name=§3§lUpgrade: High Speed Alloys
@@ -206,7 +206,7 @@ gtnh.quest50.desc=Finally you are able to make a device that will replace your m
 
 # Quest.51 - §3§lExtracting Stuff
 gtnh.quest51.name=§3§lExtracting Stuff
-gtnh.quest51.desc=As you'll need rubber later to make cables from wires, you should get yourself a steam extractor. You can also use this machine to get more dyes from flowers, or process different fruits into juice.
+gtnh.quest51.desc=As you'll need rubber later to make cables from wires, you should get yourself a steam extractor. You can also use this machine to get more dyes from flowers or process different fruits into juice.
 
 # Quest.52 - §3§4§3§lA Clear View
 gtnh.quest52.name=§3§4§3§lA Clear View
@@ -218,7 +218,7 @@ gtnh.quest53.desc=Using 6 ingots to craft a hammer seems pretty wasteful, as thi
 
 # Quest.54 - §4§3§lCompressing Stuff
 gtnh.quest54.name=§4§3§lCompressing Stuff
-gtnh.quest54.desc=This rather simple device does a very important job: compression. It's main function is to press 9 ingots into a block, but it's also useful for a variety of recipes, for example making firm tofu.
+gtnh.quest54.desc=This rather simple device does a very important job: compression. Its main function is to press 9 ingots into a block, but it's also useful for a variety of recipes, for example making firm tofu.
 
 # Quest.55 - §4§3§lUpgrade: A Better Compressor
 gtnh.quest55.name=§4§3§lUpgrade: A Better Compressor
@@ -282,7 +282,7 @@ gtnh.quest69.desc=Placing wires without insulation seems to be a bad idea. Now t
 
 # Quest.70 - §3§lSteam-a-licious!
 gtnh.quest70.name=§3§lSteam-a-licious!
-gtnh.quest70.desc=You've almost made it. One last crafting step is required in order to advance to Tier 1. Keep going!%n%nThis Steam Turbine generates electricity from Steam. The power source you've been using is the same, but from this point on you will generate EU, and bring it to your machines via cables, instead of bringing the Steam directly to them. Luckily, electric machines don't need an exhaust port, and they are considerably more efficient than Bronze machines.%n%nAt a later point, you will most likely switch from Steam to another fuel, though.
+gtnh.quest70.desc=You've almost made it. One last crafting step is required in order to advance to Tier 1. Keep going!%n%nThis Steam Turbine generates electricity from Steam. The power source you've been using is the same, but from this point on you will generate EU, and bring it to your machines via cables, instead of bringing the Steam directly to them. Luckily, electric machines don't need an exhaust port and they are considerably more efficient than Bronze machines.%n%nAt a later point, you will most likely switch from Steam to another fuel, though.
 
 # Quest.71 - §3§lBasic Crafting: Motors
 gtnh.quest71.name=§3§lBasic Crafting: Motors
@@ -294,7 +294,7 @@ gtnh.quest72.desc=Rotors are also crafted using an identical pattern with differ
 
 # Quest.73 - §3§lBasic Crafting: Machine Hulls
 gtnh.quest73.name=§3§lBasic Crafting: Machine Hulls
-gtnh.quest73.desc=All machines need a hull to keep their private parts together. Good news is: They are crafted in the same way for every tier, only the materials change.%n%n§3As noted on the tooltip, you can also use a machine hull to pass EU through, at 1A. This can be useful for a 1A diode on Thermos servers, splitting cables from 4A->1A or in a cleanroom later. You can also pass items or fluids through it.
+gtnh.quest73.desc=All machines need a hull to keep their private parts together. Good news is: They are crafted in the same way for every tier, only the materials change.%n%n§3As noted on the tooltip, you can also use a machine hull to pass EU through, at 1A. This can be useful for a 1A diode on Thermos servers, splitting cables from 4A->1A, or in a cleanroom later. You can also pass items or fluids through it.
 
 # Quest.74 - §6§6§a§9§8§7§6§5§4§3§2§1§0§3§f§k§f§l§6§lYou Are Now Prepared, Hopefully!
 gtnh.quest74.name=§6§6§a§9§8§7§6§5§4§3§2§1§0§3§f§k§f§l§6§lYou Are Now Prepared, Hopefully!
@@ -302,7 +302,7 @@ gtnh.quest74.desc=No matter where you got this smeltry from, you have one now. T
 
 # Quest.75 - §6§lThe Water Dilemma
 gtnh.quest75.name=§6§lThe Water Dilemma
-gtnh.quest75.desc=Finite water is a problem. But fear not, there are solutions! I shall guide you to a steady supply of water. The Railcraft water siding tanks provides enough water to last the early game.%n%nThe humidity of a biome is very important and will increase the base fill rate. If it is raining, the tank will fill much quicker. One block of the water siding tank must see sky for the maximum output. The best part is that you don't need a pump to extract water. Tanks and pipes placed next to it will be autofilled by the water siding tank.%n%n§3The block that cant be covered for maximum output is a specific one. Either try it out to find out which or just give the entire multiblcok sky access.
+gtnh.quest75.desc=Finite water is a problem. But fear not, there are solutions! I shall guide you to a steady supply of water. The Railcraft water siding tanks provides enough water to last the early game.%n%nThe humidity of a biome is very important and will increase the base fill rate. If it is raining, the tank will fill much quicker. One block of the water siding tank must see sky for the maximum output. The best part is that you don't need a pump to extract water. Tanks and pipes placed next to it will be autofilled by the water siding tank.%n%n§3The block that cant be covered for maximum output is a specific one. Either try it out to find out which or just give the entire multiblock sky access.
 
 # Quest.76 - §6§lTime to Get Some Steel
 gtnh.quest76.name=§6§lTime to Get Some Steel
@@ -314,7 +314,7 @@ gtnh.quest77.desc=In order to get alumin(i)um ingots, you need an electric blast
 
 # Quest.78 - §6§lMore Heat - Kanthal Coil Upgrade
 gtnh.quest78.name=§6§lMore Heat - Kanthal Coil Upgrade
-gtnh.quest78.desc=Better materials need higher temperatures. You can just exchange the old coils with the new ones. Kanthal coils let you reach 2700K. You can even reuse the old coils in your Pyro or to make other machines, how fancy is that! If you don't have any other place to use them, you can macerate, arc furnace, or disassemble them too.%n%nIf you dont have a Vacuum Freezer yet coole the hot ingots in a MV Chemical Bath with Coolant.%n%nRemember that you can get an upgraded OC (4/4) instead of a regular one (4/2) if your coils are 1800K above the recipe temperature, as well as a EU discount. This applies to every 900K or 1800K above, so you should try to upgrade your coils as soon as you can.
+gtnh.quest78.desc=Better materials need higher temperatures. You can just exchange the old coils with the new ones. Kanthal coils let you reach 2700K. You can even reuse the old coils in your Pyro or to make other machines, how fancy is that! If you don't have any other place to use them, you can macerate, arc furnace, or disassemble them too.%n%nIf you dont have a Vacuum Freezer yet cool the hot ingots in a MV Chemical Bath with Coolant.%n%nRemember that you can get an upgraded OC (4/4) instead of a regular one (4/2) if your coils are 1800K above the recipe temperature, as well as a EU discount. This applies to every 900K or 1800K above, so you should try to upgrade your coils as soon as you can.
 
 # Quest.79 - §6§lNichrome Coil Upgrade
 gtnh.quest79.name=§6§lNichrome Coil Upgrade
@@ -326,7 +326,7 @@ gtnh.quest80.desc=Martin's (DreamMasterXXL) favourite machine. Compress ALL the 
 
 # Quest.81 - §6§lAt the End of...
 gtnh.quest81.name=§6§lAt the End of...
-gtnh.quest81.desc=...the universe everything freezes eventually. But waiting for the heat death of the universe might take too long. Therefore we present you the vacuum freezer. It should be good enough to cool your hot stuff.%n%nIngots that go through the EBF above a certain temperature will come out as hot ingots that need to be cooled.%n%nYou will need a minimum of 16 frost proof machine casings, the rest depends on your setup.
+gtnh.quest81.desc=...the universe everything freezes eventually. But waiting for the heat death of the universe might take too long. Therefore, we present you with the vacuum freezer. It should be good enough to cool your hot stuff.%n%nIngots that go through the EBF above a certain temperature will come out as hot ingots that need to be cooled.%n%nYou will need a minimum of 16 frost proof machine casings, the rest depends on your setup.
 
 # Quest.82 - §7§6§lAn Unexpected Bonus
 gtnh.quest82.name=§7§6§lAn Unexpected Bonus
@@ -338,7 +338,7 @@ gtnh.quest83.desc=Sure, those coke ovens are nice, but they aren't even remotely
 
 # Quest.84 - §3§lWhere Can I Put All the Liquids?
 gtnh.quest84.name=§3§lWhere Can I Put All the Liquids?
-gtnh.quest84.desc=With your brand new alloy smelter you are able to combine two materials. What happens if you mix some obsidian dust and thickened glass? Obsidian glass, great. Your first tank that you can make would be a Buildcraft tank. This tank can carry up 16 buckets of a single fluid. It's possible to upgrade those tanks so they can hold up to 64 buckets.%nYou can also stack the tanks to increase capacity.
+gtnh.quest84.desc=With your brand new alloy smelter you are able to combine two materials. What happens if you mix some obsidian dust and thickened glass? Obsidian glass, great. Your first tank that you can make would be a BuildCraft tank. This tank can carry up 16 buckets of a single fluid. It's possible to upgrade those tanks so they can hold up to 64 buckets.%nYou can also stack the tanks to increase capacity.
 
 # Quest.85 - §6§lSmelt All the Things Stack-Wise...
 gtnh.quest85.name=§6§lSmelt All the Things Stack-Wise...
@@ -402,7 +402,7 @@ gtnh.quest99.desc=Making some flawless crystals requires a precision laser engra
 
 # Quest.100 - §5§lPress All the Things
 gtnh.quest100.name=§5§lPress All the Things
-gtnh.quest100.desc=With the basic forming press you can make different food items, glass arrows and some Project Red components. %n%nAt MV/HV stage you can make rotors, various AE components and make copies of your molds and extruder shapes.
+gtnh.quest100.desc=With the basic forming press you can make different food items, glass arrows, and some Project Red components. %n%nAt MV/HV stage you can make rotors, various AE components, and make copies of your molds and extruder shapes.
 
 # Quest.101 - §5§lMjolnir!!!
 gtnh.quest101.name=§5§lMjolnir!!!
@@ -414,7 +414,7 @@ gtnh.quest102.desc=An absolutely mandatory machine to have. It will cut rods int
 
 # Quest.103 - §5§lGetting Ready for Tier 2, MV
 gtnh.quest103.name=§5§lGetting Ready for Tier 2, MV
-gtnh.quest103.desc=In order to proceed forward, you need to get aluminium. A lot of it. But for now, 8 is enough to complete this quest.%n%nYour first option is alumina dust. Probably the best source for alumina is clay or hardened clay from canyons, however you need an MV machine for that, so you need to find an alternative until you have enough dust for your initial setup. For now, you can get it by centrifuging various impure piles from your ores or by smelting ruby, sapphire, or green sapphire in an EBF with carbon. Check the EBF quest in the Multiblock Goals.%n%nYou will also need an EBF to turn the alumina into aluminium ingots. For that you need cryolite. Go visit the Twilight Forest for that and find a Galena vein.%n%nYour second option is to use aluminium dust. However, you can not smelt that directly yet, even if you have an EBF. That will require higher heat levels. For now, you will have to either use a Tinker's Smeltery or a GT Compressor to turn the dust into raw aluminium which you can then smelt into ingots in the EBF. Check out the Tier 0 quest for some options to obtain the dust. %n%nBy the time you've completed this, you'll probably be done with most of the tab, but you'll still need Good Circuits (MV) to actually open up the next tier if you haven't done that yet.%n%n§3Also check the Armor and Jetpacks tab for new unlocks.%nNote: If you were exploring Twilight Forest before 2.1.1.4 you won't find any cryolite in existing veins. You'll need to explore new chunks.%nCheck out the the Lead, Galena, Silver and Cryolite quest in the Novice Thaumaturgy Tab.
+gtnh.quest103.desc=In order to proceed forward, you need to get aluminium. A lot of it. But for now, 8 is enough to complete this quest.%n%nYour first option is alumina dust. Probably the best source for alumina is clay or hardened clay from canyons, however you need an MV machine for that, so you need to find an alternative until you have enough dust for your initial setup. For now, you can get it by centrifuging various impure piles from your ores or by smelting ruby, sapphire, or green sapphire in an EBF with carbon. Check the EBF quest in the Multiblock Goals.%n%nYou will also need an EBF to turn the alumina into aluminium ingots. For that you need cryolite. Go visit the Twilight Forest for that and find a Galena vein.%n%nYour second option is to use aluminium dust. However, you can not smelt that directly yet, even if you have an EBF. That will require higher heat levels. For now, you will have to either use a Tinkers' Smeltery or a GT Compressor to turn the dust into raw aluminium which you can then smelt into ingots in the EBF. Check out the Tier 0 quest for some options to obtain the dust. %n%nBy the time you've completed this, you'll probably be done with most of the tab, but you'll still need Good Circuits (MV) to actually open up the next tier if you haven't done that yet.%n%n§3Also check the Armor and Jetpacks tab for new unlocks.%nNote: If you were exploring Twilight Forest before 2.1.1.4 you won't find any cryolite in existing veins. You'll need to explore new chunks.%nCheck out the the Lead, Galena, Silver and Cryolite quest in the Novice Thaumaturgy Tab.
 
 # Quest.104 - §5§lYour Magic Progression
 gtnh.quest104.name=§5§lYour Magic Progression
@@ -482,7 +482,7 @@ gtnh.quest119.desc=Regular chests can fill up rather quickly if you happen to co
 
 # Quest.120 - §5§lProtect Your Base: Tier 1
 gtnh.quest120.name=§5§lProtect Your Base: Tier 1
-gtnh.quest120.desc=One needs proper protection for ones home. So why not get some turrets for safety? At the moment, 2 Turrets are available: "Potato" and "disposable item". I assume you can guess what they do and how they work...
+gtnh.quest120.desc=One needs proper protection for one's home. So why not get some turrets for safety? At the moment, 2 Turrets are available: "Potato" and "disposable item". I assume you can guess what they do and how they work...
 
 # Quest.121 - §5§lPassive Defence
 gtnh.quest121.name=§5§lPassive Defence
@@ -510,7 +510,7 @@ gtnh.quest126.desc=Collected a lot of dusts you can't do anything with since you
 
 # Quest.127 - Project red beginning
 gtnh.quest127.name=Project red beginning
-gtnh.quest127.desc=Welcome to Project Red!%n%nThis quest will teach you the basics of Projectred and show you how to set up a Ghetto AE system.%n%nThe Ghetto AE system will be really useful for sorting all of your first items%n%nFirst of all there are different types of pipes: %n%nItem Transport pipes are the most basic pipes, classified as Null-logic. They don't do anything besides connect other pipes together.%nItem Transport pipes only have the ability to take items that enter it and pass them along to another connected pipe. They will NOT connect to inventories at all. In a junction where there is more than 1 possible direction, item payloads will travel in a randomly selected direction.%n %nRouted pipes are the most advanced. These pipes 'communicate' with one-another to form pipe networks, in order to allow for incredibly complicated demand driven systems, with absolutely no redstone circuitry required.%n %nPressurized pipes are pipes that use a pressure based routing system where the payload travels to the closest inventory that can accept it. Finding the closest inventory is influenced by both distance and Pressure Resistance Pipes (which, to the path finder, are 1000 blocks long), but the actual path that items take is only influenced by distance.%n%nHowever, in order to control the logic of the routed pipes you will need special circuit chips.%n%n§4Note: I have no idea how PR works, or if this questline is entirely a duplicate, and have zero willpower to read all the boring text and find out, so I just unhid them since no one came forward with any info after I asked. If it should be removed or w/e, make a ticket.
+gtnh.quest127.desc=Welcome to Project Red!%n%nThis quest will teach you the basics of Project Red and show you how to set up a Ghetto AE system.%n%nThe Ghetto AE system will be really useful for sorting all of your first items%n%nFirst of all there are different types of pipes: %n%nItem Transport pipes are the most basic pipes, classified as Null-logic. They don't do anything besides connect other pipes together.%nItem Transport pipes only have the ability to take items that enter it and pass them along to another connected pipe. They will NOT connect to inventories at all. In a junction where there is more than 1 possible direction, item payloads will travel in a randomly selected direction.%n %nRouted pipes are the most advanced. These pipes 'communicate' with one-another to form pipe networks, in order to allow for incredibly complicated demand driven systems, with absolutely no redstone circuitry required.%n %nPressurized pipes are pipes that use a pressure based routing system where the payload travels to the closest inventory that can accept it. Finding the closest inventory is influenced by both distance and Pressure Resistance Pipes (which, to the path finder, are 1000 blocks long), but the actual path that items take is only influenced by distance.%n%nHowever, in order to control the logic of the routed pipes you will need special circuit chips.%n%n§4Note: I have no idea how PR works, or if this questline is entirely a duplicate, and have zero willpower to read all the boring text and find out, so I just unhid them since no one came forward with any info after I asked. If it should be removed or w/e, make a ticket.
 
 # Quest.128 - §6§lIO, IO, It's Off to EnderIO We Go
 gtnh.quest128.name=§6§lIO, IO, It's Off to EnderIO We Go
@@ -522,7 +522,7 @@ gtnh.quest129.desc=All EnderIO machines still require the basic chassis, and it'
 
 # Quest.130 - §6§lPortable Tanks
 gtnh.quest130.name=§6§lPortable Tanks
-gtnh.quest130.desc=Until now, you had to use buildcraft tanks with dollies to carry liquids around. Which can be a pain with all that slowness. These portable tanks from EnderIO are able to push and pull liquids by themselves, as they have a built-in pump which is powered by some magic energy source. How convenient.%n%nThe pressurized versions are twice as large.%n%n§3Just be careful, because it will eat water cells instead of returning them. 
+gtnh.quest130.desc=Until now, you had to use BuildCraft tanks with dollies to carry liquids around. Which can be a pain with all that slowness. These portable tanks from EnderIO are able to push and pull liquids by themselves, as they have a built-in pump which is powered by some magic energy source. How convenient.%n%nThe pressurized versions are twice as large.%n%n§3Just be careful, because it will eat water cells instead of returning them. 
 
 # Quest.131 - §6§lSimple RF power: Solid
 gtnh.quest131.name=§6§lSimple RF power: Solid
@@ -674,7 +674,7 @@ gtnh.quest167.desc=Dying is painful, isn't it? As almost all of your precious ex
 
 # Quest.168 - §6§lA Soul Vessel
 gtnh.quest168.name=§6§lA Soul Vessel
-gtnh.quest168.desc=The Soul Vial is used later in HV Ender IO machines. For now though you may find it convenient to deal with....troublesome mobs. The Soul Vial is reuseable. Just right-click any living entity to steal its soul. Right click again to release it in the environment.%n%nThe possibilities swirl in your head...
+gtnh.quest168.desc=The Soul Vial is used later in HV Ender IO machines. For now though you may find it convenient to deal with....troublesome mobs. The Soul Vial is reusable. Just right-click any living entity to steal its soul. Right click again to release it in the environment.%n%nThe possibilities swirl in your head...
 
 # Quest.169 - §9§lThe Creation of Life
 gtnh.quest169.name=§9§lThe Creation of Life
@@ -738,7 +738,7 @@ gtnh.quest183.desc=There are 3 different ways to make AE2 processors. First, the
 
 # Quest.184 - Cables
 gtnh.quest184.name=Cables
-gtnh.quest184.desc=To have access to your applied energistics network from your entire base, you'll need cables. A lot of them. For now, the basic ones will do, but eventually, you'll end up using dense cables and p2p channels. Glass and Covered cables are functionally identical, just different in looks. Each can carry 8 channels.  Quartz fibers don't carry channels but can carry energy. This is useful for providing power from your main network to independant subnetworks.%n%nYou can also color your cables - cables with different colors will not connect, so those can be used to expand network capacity by running parallel cables. Only fluix colored cables connect to all other colors. Later it will probably be more efficient to use P2P channels to jam a bunch of channels into 1.%n%nAnchors are like covers, keeping things from connecting when you don't want them to.
+gtnh.quest184.desc=To have access to your applied energistics network from your entire base, you'll need cables. A lot of them. For now, the basic ones will do, but eventually, you'll end up using dense cables and p2p channels. Glass and Covered cables are functionally identical, just different in looks. Each can carry 8 channels.  Quartz fibers don't carry channels but can carry energy. This is useful for providing power from your main network to independent subnetworks.%n%nYou can also color your cables - cables with different colors will not connect, so those can be used to expand network capacity by running parallel cables. Only fluix colored cables connect to all other colors. Later it will probably be more efficient to use P2P channels to jam a bunch of channels into 1.%n%nAnchors are like covers, keeping things from connecting when you don't want them to.
 
 # Quest.185 - Basic Terminals
 gtnh.quest185.name=Basic Terminals
@@ -746,7 +746,7 @@ gtnh.quest185.desc=The ME Terminal is an interface which gives you access to an 
 
 # Quest.186 - §a§lDimensional Goal: Mars
 gtnh.quest186.name=§a§lDimensional Goal: Mars
-gtnh.quest186.desc=Mars has a few new ores you need to find like tungsten, uranium and desh. You can centrifuge uranium-238 for U-235 and plutonium-239, which can also be centrifuged to get Pu-241 if you happen to need it.
+gtnh.quest186.desc=Mars has a few new ores you need to find like tungsten, uranium, and desh. You can centrifuge uranium-238 for U-235 and plutonium-239, which can also be centrifuged to get Pu-241 if you happen to need it.
 
 # Quest.187 - §a§k§l§r§a§lDimensional Goal: Phobos
 gtnh.quest187.name=§a§k§l§r§a§lDimensional Goal: Phobos
@@ -766,7 +766,7 @@ gtnh.quest190.desc=Whether you used magic, steam, oil or biogas for power until 
 
 # Quest.191 - Standard Nuclear Fuel: Uranium
 gtnh.quest191.name=Standard Nuclear Fuel: Uranium
-gtnh.quest191.desc=Just "regular" uranium fuel, nothing special about it. It produces 5x the power, and 4x the heat of thorium, while lasting 2/5 the time.%n%nMost fuel rods are basically this, but slightly modified. You generally get this from Mars and it's moons, but you can get a little from centrifuging thorium if you want.%n%nBTW, one of the reactor types 'pulses' the reactor to turn it off once it gets too hot. You can pack in the rods and then cool it off for a while to get higher efficiency out of each rod. Try it if you like explosions.
+gtnh.quest191.desc=Just "regular" uranium fuel, nothing special about it. It produces 5x the power, and 4x the heat of thorium, while lasting 2/5 the time.%n%nMost fuel rods are basically this, but slightly modified. You generally get this from Mars and its moons, but you can get a little from centrifuging thorium if you want.%n%nBTW, one of the reactor types 'pulses' the reactor to turn it off once it gets too hot. You can pack in the rods and then cool it off for a while to get higher efficiency out of each rod. Try it if you like explosions.
 
 # Quest.192 - Tricky Nuclear Fuel: MOX
 gtnh.quest192.name=Tricky Nuclear Fuel: MOX
@@ -814,7 +814,7 @@ gtnh.quest202.desc=If an ender quarry won't satisfy your needs for MOOORE. A spe
 
 # Quest.203 - Bundled AE Channels
 gtnh.quest203.name=Bundled AE Channels
-gtnh.quest203.desc=P2P tunnels. You'll probably want a bunch of them! They act as teleport points from one place to another for the contained information. You need to use a §odifferent§r network to transfer them, so use a subnetwork for that.%n%nThey can pack up to 32 channels into 1 channel and transport those to the destination P2P bus. Each P2P tunnel requires 1 free channel. P2P connections cannot be nested, but one transport cable can carry multiple P2P connections. For a normal fluix cable, that's 4 P2P connections, and 16 for dense. You could also use a ME controller on your subnework if that just isn't enough. Or use separate cables.%n%nGenerally, you'll want to have the first point be one side of an ME Controller block (remember you can add more!), and the other where some of your machines are.%n%nA nice online guide can be found at https://tinyurl.com/GTNH-AE2 under P2P tunnels.%n%n§IIf you want to use one of the P2P tunnels for something §oother§r than ME channels, use an applicable item on the center of the face of the tunnel, (for example, a GT cable for GT EU, redstone for RS signal, an RF conduit for RF, a torch for light, a bucket for fluid, a chest for items, or an OC cable for OC) and it will convert to that type, even if you pick it up. Use a fluix cable to change it back.
+gtnh.quest203.desc=P2P tunnels. You'll probably want a bunch of them! They act as teleport points from one place to another for the contained information. You need to use a §odifferent§r network to transfer them, so use a subnetwork for that.%n%nThey can pack up to 32 channels into 1 channel and transport those to the destination P2P bus. Each P2P tunnel requires 1 free channel. P2P connections cannot be nested, but one transport cable can carry multiple P2P connections. For a normal fluix cable, that's 4 P2P connections, and 16 for dense. You could also use a ME controller on your subnetwork if that just isn't enough. Or use separate cables.%n%nGenerally, you'll want to have the first point be one side of an ME Controller block (remember you can add more!), and the other where some of your machines are.%n%nA nice online guide can be found at https://tinyurl.com/GTNH-AE2 under P2P tunnels.%n%n§IIf you want to use one of the P2P tunnels for something §oother§r than ME channels, use an applicable item on the center of the face of the tunnel, (for example, a GT cable for GT EU, redstone for RS signal, an RF conduit for RF, a torch for light, a bucket for fluid, a chest for items, or an OC cable for OC) and it will convert to that type, even if you pick it up. Use a fluix cable to change it back.
 
 # Quest.204 - Load and Unload the Rocket
 gtnh.quest204.name=Load and Unload the Rocket
@@ -822,7 +822,7 @@ gtnh.quest204.desc=What use has an automated rocket, if you can't load and unloa
 
 # Quest.205 - Cargo Rocket: For the Fun
 gtnh.quest205.name=Cargo Rocket: For the Fun
-gtnh.quest205.desc=No need to fly to distant planets on your own, just to grab ores.%n%n§3Usefulness level: Doubtful.
+gtnh.quest205.desc=No need to fly to distant planets on your own just to grab ores.%n%n§3Usefulness level: Doubtful.
 
 # Quest.206 - §6§lVenting the Heat
 gtnh.quest206.name=§6§lVenting the Heat
@@ -854,7 +854,7 @@ gtnh.quest212.desc=Literally. You can grind the rock of most planets, to get a c
 
 # Quest.213 - §1§b§l§1§2§3§4§5§4§6§7§8§9§a§b§c§d§e§c§b§lTier 5 (IV)
 gtnh.quest213.name=§1§b§l§1§2§3§4§5§4§6§7§8§9§a§b§c§d§e§c§b§lTier 5 (IV)
-gtnh.quest213.desc=IV-Level. You will need tungstensteel for machines. Suggested planets and moons to visit: Mars, Phobos, Deimos. %n%nMake sure to get a set of Tungstensteel coils for your EBF.%n%nYou should've learned "how to gregtech" by now, if not go clean up the machine craters in your base...%n%nGT++ multiblock processing machines unlock at this tier. Make sure you have an Alloy Blast Smelter from EV tier ready to go.
+gtnh.quest213.desc=IV-Level. You will need tungstensteel for machines. Suggested planets and moons to visit: Mars, Phobos, Deimos. %n%nMake sure to get a set of Tungstensteel coils for your EBF.%n%nYou should've learned "how to GregTech" by now, if not go clean up the machine craters in your base...%n%nGT++ multiblock processing machines unlock at this tier. Make sure you have an Alloy Blast Smelter from EV tier ready to go.
 
 # Quest.214 - A Reward
 gtnh.quest214.name=A Reward
@@ -870,7 +870,7 @@ gtnh.quest216.desc=This is the IV version.
 
 # Quest.217 - Reward choice: Personal Dimension
 gtnh.quest217.name=Reward choice: Personal Dimension
-gtnh.quest217.desc=Tired of mobs in your base? Want to build somewhere... different? Probably in a personal dimension? Then this is your chance. But choose wisely; You can only pick one option.%n%nWhen you first activate the portal, you can configure the world to your liking: it can be a void world, or any superflat world as long as it only consists of blocks such as grass, stone, cobblestone, bedrock, etc.%nBe careful! Once you configure the world, you can only change the cosmetic settings such as sky color by shift-right clicking the portal.%nEditing world generation settings after the world is created is only possible if a server administrator unlocks it for you via the /pspace allow-worldgen-change DIMID command.%n%n§3PS: The Last Millenium is also a void dimension you could use.%n%n§2If you're used to the buggy garden/void dimensions from UtilityWorlds, this is now a new mod that should resolve most of the previously known issues with blood magic, etc.
+gtnh.quest217.desc=Tired of mobs in your base? Want to build somewhere... different? Probably in a personal dimension? Then this is your chance. But choose wisely; You can only pick one option.%n%nWhen you first activate the portal, you can configure the world to your liking: it can be a void world, or any superflat world as long as it only consists of blocks such as grass, stone, cobblestone, bedrock, etc.%nBe careful! Once you configure the world, you can only change the cosmetic settings such as sky color by shift-right clicking the portal.%nEditing world generation settings after the world is created is only possible if a server administrator unlocks it for you via the /pspace allow-worldgen-change DIMID command.%n%n§3PS: The Last Millennium is also a void dimension you could use.%n%n§2If you're used to the buggy garden/void dimensions from UtilityWorlds, this is now a new mod that should resolve most of the previously known issues with blood magic, etc.
 
 # Quest.218 - Reward Choice: Loot
 gtnh.quest218.name=Reward Choice: Loot
@@ -894,7 +894,7 @@ gtnh.quest222.desc=Requires no ammo, but still does a ton of damage. All you nee
 
 # Quest.223 - §b§lRailguns, What Else
 gtnh.quest223.name=§b§lRailguns, What Else
-gtnh.quest223.desc=Massive power, and a wonderful sound when they fire. I recommend to use upgrades to increase range and damage.
+gtnh.quest223.desc=Massive power and a wonderful sound when they fire. I recommend to use upgrades to increase range and damage.
 
 # Quest.224 - Witchy (Wo)man
 gtnh.quest224.name=Witchy (Wo)man
@@ -938,7 +938,7 @@ gtnh.quest233.desc=Now that you've found all six types of infused stone, you nee
 
 # Quest.234 - A "Greater" Wand
 gtnh.quest234.name=A "Greater" Wand
-gtnh.quest234.desc=While doing all your research and mining of these infused stones, you had an idea how to use the wood of a Greatwood tree to make a new wand. Actually, it turned out to be pretty simple, but you lacked one important thing back then: vis! The vis makes sure the wood doesn't lose it's magical conductivity while forming the rod.
+gtnh.quest234.desc=While doing all your research and mining of these infused stones, you had an idea how to use the wood of a Greatwood tree to make a new wand. Actually, it turned out to be pretty simple, but you lacked one important thing back then: vis! The vis makes sure the wood doesn't lose its magical conductivity while forming the rod.
 
 # Quest.235 - Better Screws
 gtnh.quest235.name=Better Screws
@@ -1242,7 +1242,7 @@ gtnh.quest309.desc=This morning, you just wanted to facepalm yourself to death. 
 
 # Quest.310 - Unleashed the Power - Cowl
 gtnh.quest310.name=Unleashed the Power - Cowl
-gtnh.quest310.desc=To make use of your armor to the fullest extent, you'll have to unleash its hidden power. This is not an easy task; But it's worth the effort!
+gtnh.quest310.desc=To make use of your armor to the fullest extent, you'll have to unleash its hidden power. This is not an easy task, but it's worth the effort!
 
 # Quest.311 - Unbreakable Cowl
 gtnh.quest311.name=Unbreakable Cowl
@@ -1250,7 +1250,7 @@ gtnh.quest311.desc=It will never break. How convenient.
 
 # Quest.312 - Unleashed the Power - Leggings
 gtnh.quest312.name=Unleashed the Power - Leggings
-gtnh.quest312.desc=To make use of your armor to its full extent, you'll have to unleash its hidden power. This is not an easy task; But it's well worth the effort!
+gtnh.quest312.desc=To make use of your armor to its full extent, you'll have to unleash its hidden power. This is not an easy task, but it's well worth the effort!
 
 # Quest.313 - Unbreakable Leggings
 gtnh.quest313.name=Unbreakable Leggings
@@ -1258,7 +1258,7 @@ gtnh.quest313.desc=They will never break. How convenient.
 
 # Quest.314 - Unleashed the Power - Robe
 gtnh.quest314.name=Unleashed the Power - Robe
-gtnh.quest314.desc=To make use of your armor to its full extent, you'll have to unleash its hidden power. This is not an easy task; But it's well worth the effort!
+gtnh.quest314.desc=To make use of your armor to its full extent, you'll have to unleash its hidden power. This is not an easy task, but it's well worth the effort!
 
 # Quest.315 - Unbreakable Robe
 gtnh.quest315.name=Unbreakable Robe
@@ -1270,7 +1270,7 @@ gtnh.quest316.desc=By combining ichor with enchanted fabric, you've created some
 
 # Quest.317 - Unleashed the Power - Boots
 gtnh.quest317.name=Unleashed the Power - Boots
-gtnh.quest317.desc=To make use of your armor to its full extent, you'll have to unleash its hidden power. This is not an easy task; But it's well worth the effort!
+gtnh.quest317.desc=To make use of your armor to its full extent, you'll have to unleash its hidden power. This is not an easy task, but it's well worth the effort!
 
 # Quest.318 - Unbreakable Boots
 gtnh.quest318.name=Unbreakable Boots
@@ -1330,7 +1330,7 @@ gtnh.quest331.desc=...when you can teleport? This little device allows you to te
 
 # Quest.332 - Fire Burn and...
 gtnh.quest332.name=Fire Burn and...
-gtnh.quest332.desc=In order to get started with your basic witchery needs, you need a witches oven. %n%nThe witches oven is used to get the most basic ingredients for your recipes - Fumes.%n%nThe oven is able to capture the by-products produced in the cooking process. Activating the oven to show the interface screen, you will see an additional slot to the right of the fuel slot. Clay jars must be placed in this slot. If there are clay jars present when something is cooked, there is a chance a by-product will be captured in one of the jars. These by-products are important ingredients in other recipes. If there are no clay jars in the oven when something is cooked, no by-products will be produced.%n%nUpgrading an Oven%n%nAn oven can be upgraded by placing either a Fume Funnel or a Filtered Fume Funnel to the left and right of it. Each Fume Funnel will increase the cooking speed by and additional 10 percent (over a furnace) and increase the chance of a by-product being produced by and additional 25 percent for a Fume Funnel or 30 percent for a Filtered Fume Funnel.%n%nA fully upgraded oven will therefore cook at 130 percent speed (compared to a furnace) and have a chance of a by-product of 90 percent.
+gtnh.quest332.desc=In order to get started with your basic witchery needs, you need a witches oven. %n%nThe witches oven is used to get the most basic ingredients for your recipes - Fumes.%n%nThe oven is able to capture the byproducts produced in the cooking process. Activating the oven to show the interface screen, you will see an additional slot to the right of the fuel slot. Clay jars must be placed in this slot. If there are clay jars present when something is cooked, there is a chance a byproduct will be captured in one of the jars. These byproducts are important ingredients in other recipes. If there are no clay jars in the oven when something is cooked, no byproducts will be produced.%n%nUpgrading an Oven%n%nAn oven can be upgraded by placing either a Fume Funnel or a Filtered Fume Funnel to the left and right of it. Each Fume Funnel will increase the cooking speed by and additional 10 percent (over a furnace) and increase the chance of a byproduct being produced by and additional 25 percent for a Fume Funnel or 30 percent for a Filtered Fume Funnel.%n%nA fully upgraded oven will therefore cook at 130 percent speed (compared to a furnace) and have a chance of a byproduct of 90 percent.
 
 # Quest.333 - Offerings
 gtnh.quest333.name=Offerings
@@ -1802,7 +1802,7 @@ gtnh.quest449.desc=Trade three EV lootbags to get a better one: IV.
 
 # Quest.450 - §1§lYour First 'Long Range' Weapon
 gtnh.quest450.name=§1§lYour First 'Long Range' Weapon
-gtnh.quest450.desc=Since you can't make a vanilla bow before LV and Tinkers weapons are not available in this Tier, you can make a spear out of sticks, leather and a string. Get one because some infernal monsters are easier to kill with a long range weapon.
+gtnh.quest450.desc=Since you can't make a vanilla bow before LV and Tinkers' weapons are not available in this Tier, you can make a spear out of sticks, leather and a string. Get one because some infernal monsters are easier to kill with a long range weapon.
 
 # Quest.451 - Trigger LoC
 gtnh.quest451.name=Trigger LoC
@@ -1890,11 +1890,11 @@ gtnh.quest471.desc=Maybe you noticed already that eating the same food too often
 
 # Quest.472 - §2§lYour First Tool
 gtnh.quest472.name=§2§lYour First Tool
-gtnh.quest472.desc=When your tinkers tables are ready you can craft your first §oreal§r tool. If you didn't find a village yet (to grab some parts from the chest), you can only craft flint tools.%n%nLet's start with a pickaxe, an axe and a shovel. At this point swords are unobtainable since they need metals like iron or bronze which you will get at a later stage. In the meantime use your gregtech swords.%n%nYour new tools are weak at first, but the more you use them the better they will get. You get a modifer slot after some levels, needing more as you level it up. They will level up to level 99 if you play long enough, with 20 modifier slots. Tool parts can be replaced for a bit of level XP, however the tool must be fully repaired first.%n%nYou need to level up the mining level each time you replace the parts to unleash the full power of the pickaxe. Stone->Copper for this pickaxe. If you manage to get a Zombie, Skeleton, or Creeper head, you can use it to skip the level-up process. This doesn't use up a modifier level, but does change the look until you change the pickaxe part out.%n%nItem=Usable when mining level is X or less%nZombie=1%nSkeleton=2%nCreeper=4%nWither Skeleton=7%nNether Star=8%n%n§3You can use paper binding to add extra modifier, but not very much important as tool level exists.
+gtnh.quest472.desc=When your tinkers' tables are ready you can craft your first §oreal§r tool. If you didn't find a village yet (to grab some parts from the chest), you can only craft flint tools.%n%nLet's start with a pickaxe, an axe and a shovel. At this point swords are unobtainable since they need metals like iron or bronze which you will get at a later stage. In the meantime use your GregTech swords.%n%nYour new tools are weak at first, but the more you use them the better they will get. You get a modifier slot after some levels, needing more as you level it up. They will level up to level 99 if you play long enough, with 20 modifier slots. Tool parts can be replaced for a bit of level XP, however the tool must be fully repaired first.%n%nYou need to level up the mining level each time you replace the parts to unleash the full power of the pickaxe. Stone->Copper for this pickaxe. If you manage to get a Zombie, Skeleton, or Creeper head, you can use it to skip the level-up process. This doesn't use up a modifier level, but does change the look until you change the pickaxe part out.%n%nItem=Usable when mining level is X or less%nZombie=1%nSkeleton=2%nCreeper=4%nWither Skeleton=7%nNether Star=8%n%n§3You can use paper binding to add extra modifier, but not very much important as tool level exists.
 
 # Quest.473 - §2§lMaking a Better Sword
 gtnh.quest473.name=§2§lMaking a Better Sword
-gtnh.quest473.desc=Now it's time to make your first tinkers sword. First you have to make a blade, a type of guard, and tool rod cast forms. Melt some bronze in the smeltery and cast your tool parts. Tadaa... your first tinkers sword. There are 4 types of guard, changing them gets you a different sword type, see the tinker's book for details.
+gtnh.quest473.desc=Now it's time to make your first tinkers' sword. First you have to make a blade, a type of guard, and tool rod cast forms. Melt some bronze in the smeltery and cast your tool parts. Tadaa... your first tinkers' sword. There are 4 types of guard, changing them gets you a different sword type, see the tinkers' book for details.
 
 # Quest.474 - §2§k§l§l§r§2§lUpgrade 2.0
 gtnh.quest474.name=§2§k§l§l§r§2§lUpgrade 2.0
@@ -1914,7 +1914,7 @@ gtnh.quest477.desc=This one is optional now. But still very useful and recommend
 
 # Quest.478 - §3§lFlint and Steel
 gtnh.quest478.name=§3§lFlint and Steel
-gtnh.quest478.desc=After you make steel you are able to craft flint and steel. I guess you'll want to travel to the Nether as soon as possible but be aware; the Nether is a very dangerous place.%n%nNote: The ball of moss gives a tinker's tool self-repair. But if the tool is completely broken, it won't repair it.%n%nNote that the flint and steel can take a few times to work.
+gtnh.quest478.desc=After you make steel you are able to craft flint and steel. I guess you'll want to travel to the Nether as soon as possible but be aware; the Nether is a very dangerous place.%n%nNote: The ball of moss gives a tinkers' tool self-repair. But if the tool is completely broken, it won't repair it.%n%nNote that the flint and steel can take a few times to work.
 
 # Quest.479 - §3§m§l§m§4§3§lTHE NETHER
 gtnh.quest479.name=§3§m§l§m§4§3§lTHE NETHER
@@ -2694,7 +2694,7 @@ gtnh.quest672.desc=Really? Yes for the more advanced boats you need a new shape 
 
 # Quest.673 - §5§lLV Extruder
 gtnh.quest673.name=§5§lLV Extruder
-gtnh.quest673.desc=The extruder is not very useful in LV. But it will extrude your next tier of boat, make rubber sheets more efficiently, get you extra fluid cells, or make §osome§r Tinkers Construct tool parts.
+gtnh.quest673.desc=The extruder is not very useful in LV. But it will extrude your next tier of boat, make rubber sheets more efficiently, get you extra fluid cells, or make §osome§r Tinkers' Construct tool parts.
 
 # Quest.674 - Wooden Rail Variants
 gtnh.quest674.name=Wooden Rail Variants
@@ -3346,7 +3346,7 @@ gtnh.quest835.desc=Every basic circuit needs two resistors to work.%n%nThere are
 
 # Quest.836 - §5§lGallium Arsenide Crystal
 gtnh.quest836.name=§5§lGallium Arsenide Crystal
-gtnh.quest836.desc=The diode requires gallium arsenide, and you may be wondering how to get gallium or arsenic this early in the game.%n%nSphalerite and zinc are the primary sources of gallium at this tier.%n%nYou can find sphalerite in sulfur veins at Y 5-20, and the small zinc ores in the Overworld or the in the Nether at Y 80-210. You won't find much on the Overworld because of obvious reasons. To get additional zinc crushed ore drops, use a Tinker's Construct tool with the Luck (Fortune) enchant on it, probably the best use for all that lapis you got while looking for calcite. Or use a miner, if you don't mind how slow it is.%n%n- Sphalerite can be electrolyzed for a small chance of a gallium dust. Better put in a lot or you might get unlucky.%n- Zinc crushed ore can be washed and then thermal centrifuged or forge hammered and then centrifuged. But you don't always get the crushed ore as a drop, the impure dust doesn't give gallium.%n%nYou can get arsenic from realgar small ores in the Nether at Y 15-85. Centrifuge the dusts in a centrifuge.%n%nOther sources are Tinker's Construct cobalt ore in the nether and cobaltite ore in the Twilight Forest. You can use your EBF for that. You also need to level up your pickaxe to ardite or make an Ironwood Pickaxe or LV Miner to harvest cobalt ore.%n%nAnother way to get gallium and arsenic is with XP buckets in a crafting grid if you're really desperate.%n%nWith your EBF you can combine these two dusts to make a Gallium Arsenide Crystal.
+gtnh.quest836.desc=The diode requires gallium arsenide, and you may be wondering how to get gallium or arsenic this early in the game.%n%nSphalerite and zinc are the primary sources of gallium at this tier.%n%nYou can find sphalerite in sulfur veins at Y 5-20, and the small zinc ores in the Overworld or the in the Nether at Y 80-210. You won't find much on the Overworld because of obvious reasons. To get additional zinc crushed ore drops, use a Tinkers' Construct tool with the Luck (Fortune) enchant on it, probably the best use for all that lapis you got while looking for calcite. Or use a miner, if you don't mind how slow it is.%n%n- Sphalerite can be electrolyzed for a small chance of a gallium dust. Better put in a lot or you might get unlucky.%n- Zinc crushed ore can be washed and then thermal centrifuged or forge hammered and then centrifuged. But you don't always get the crushed ore as a drop, the impure dust doesn't give gallium.%n%nYou can get arsenic from realgar small ores in the Nether at Y 15-85. Centrifuge the dusts in a centrifuge.%n%nOther sources are Tinkers' Construct cobalt ore in the nether and cobaltite ore in the Twilight Forest. You can use your EBF for that. You also need to level up your pickaxe to ardite or make an Ironwood Pickaxe or LV Miner to harvest cobalt ore.%n%nAnother way to get gallium and arsenic is with XP buckets in a crafting grid if you're really desperate.%n%nWith your EBF you can combine these two dusts to make a Gallium Arsenide Crystal.
 
 # Quest.837 - §6§lILC and RAM
 gtnh.quest837.name=§6§lILC and RAM
@@ -3382,7 +3382,7 @@ gtnh.quest844.desc=Ethanol has a burn value of 192,000 EU per cell can be used t
 
 # Quest.845 - §6§lBio Diesel Fuel
 gtnh.quest845.name=§6§lBio Diesel Fuel
-gtnh.quest845.desc=With ethanol or methanol and seed oil or fish oil you can make bio diesel. It's burn value is 256,000 EU per cell, less than regular diesel, but more renewable. Diesel or bio diesel are needed for cetane-boosted diesel.
+gtnh.quest845.desc=With ethanol or methanol and seed oil or fish oil you can make bio diesel. Its burn value is 256,000 EU per cell, less than regular diesel, but more renewable. Diesel or bio diesel are needed for cetane-boosted diesel.
 
 # Quest.846 - §6§lO like Oxygen
 gtnh.quest846.name=§6§lO like Oxygen
@@ -3450,7 +3450,7 @@ gtnh.quest861.desc=Tungstensteel is needed in all machines for the next tier. Ca
 
 # Quest.862 - §2§lYour First Bow
 gtnh.quest862.name=§2§lYour First Bow
-gtnh.quest862.desc=Since vanilla bows are only craftable in the assembling machine and mobs don't drop them very often you should make a Tinkers bow.%n%nWood would be the best material for now. Craft the bow limbs out of wood and the bow string out of strings. The arrow that has the most durability is bone, so craft the stick out of bone. It is much lighter but less durable than a regular arrow. Use a flint tip to make it repairable with flint.%n%n§4You can repair your bow the same way as all the other Tinkers tools. Arrows can be regained by repairing them or picking them up from the floor.
+gtnh.quest862.desc=Since vanilla bows are only craftable in the assembling machine and mobs don't drop them very often you should make a Tinkers' bow.%n%nWood would be the best material for now. Craft the bow limbs out of wood and the bow string out of strings. The arrow that has the most durability is bone, so craft the stick out of bone. It is much lighter but less durable than a regular arrow. Use a flint tip to make it repairable with flint.%n%n§4You can repair your bow the same way as all the other Tinkers tools. Arrows can be regained by repairing them or picking them up from the floor.
 
 # Quest.863 - §2§lBronze Javelin
 gtnh.quest863.name=§2§lBronze Javelin
@@ -3486,7 +3486,7 @@ gtnh.quest870.desc=Smelting up to nine items at once sound nice? With a bit of s
 
 # Quest.871 - §4§3§lMolds, Molds, Molds
 gtnh.quest871.name=§4§3§lMolds, Molds, Molds
-gtnh.quest871.desc=After you can make steel and have a tinkers smelter you can make molds. Molds can be used in the alloy smelter and the fluid solidifier. You need them to make vacuum tubes, ingots, gears and more.%n%n§3PS: The 'shapes' are for the Extruder.
+gtnh.quest871.desc=After you can make steel and have a tinkers' smelter you can make molds. Molds can be used in the alloy smelter and the fluid solidifier. You need them to make vacuum tubes, ingots, gears and more.%n%n§3PS: The 'shapes' are for the Extruder.
 
 # Quest.872 - Maple Syrup?
 gtnh.quest872.name=Maple Syrup?
@@ -4586,7 +4586,7 @@ gtnh.quest1145.desc=Kinetic generator compatibility has been improved so that yo
 
 # Quest.1146 - §2§lGT6-Styled Pipes
 gtnh.quest1146.name=§2§lGT6-Styled Pipes
-gtnh.quest1146.desc=Maybe you are wondering why the new pipes don't auto-connect anymore? This was changed to make the pipes smarter. You can now use a wrench to connect only the pipes you want. You don't need a plate or a foil to prevent pipes from connecting anymore.%n%nPipes transferring anything hotter than a certain amount (like steam) will cause damage to a player touching them. You'll want to cover hot pipes to prevent getting hurt if you want to walk over them. Also, if the heat level is higher than the pipe's heat capacity, it will melt.%n%nRight clicking on a pipe in the center of the 'grid' will enable or disable a connection. It will have an X through it if the connection is enabled. You can do the same to any of the 4 corners to adjust the opposite side. You can similarly connect each of the 4 sides by clicking on the closest box in the grid.%n%nAlso, pipes now come with a shutter built in for free to reduce sloshing. Shift-rightclick with a wrench on the side you want prevent input.%n%nPipes will attempt to transfer 1/2 of the capacity each second.%n%nLarge or Huge fluid pipes can be a poor man's storage tank, holding large amounts on their own.%n%nFor machine outputs, including the boilers, and RC water tanks (the one made of water tank siding), you will not need pumps. Other tanks will need pumps or Tinker's Construct faucets to move fluids.%n%nYou can put covers such as GT oak planks or plates on a pipe as well. Normally this prevents connections in that direction, but you can use a screwdriver to enable connections. This lets you make pipes that look nice going through walls. Use a crowbar to remove covers.%n%n§3Hint: If you click one pipe onto the other they will auto-connect.
+gtnh.quest1146.desc=Maybe you are wondering why the new pipes don't auto-connect anymore? This was changed to make the pipes smarter. You can now use a wrench to connect only the pipes you want. You don't need a plate or a foil to prevent pipes from connecting anymore.%n%nPipes transferring anything hotter than a certain amount (like steam) will cause damage to a player touching them. You'll want to cover hot pipes to prevent getting hurt if you want to walk over them. Also, if the heat level is higher than the pipe's heat capacity, it will melt.%n%nRight clicking on a pipe in the center of the 'grid' will enable or disable a connection. It will have an X through it if the connection is enabled. You can do the same to any of the 4 corners to adjust the opposite side. You can similarly connect each of the 4 sides by clicking on the closest box in the grid.%n%nAlso, pipes now come with a shutter built in for free to reduce sloshing. Shift-rightclick with a wrench on the side you want prevent input.%n%nPipes will attempt to transfer 1/2 of the capacity each second.%n%nLarge or Huge fluid pipes can be a poor man's storage tank, holding large amounts on their own.%n%nFor machine outputs, including the boilers, and RC water tanks (the one made of water tank siding), you will not need pumps. Other tanks will need pumps or Tinkers' Construct faucets to move fluids.%n%nYou can put covers such as GT oak planks or plates on a pipe as well. Normally this prevents connections in that direction, but you can use a screwdriver to enable connections. This lets you make pipes that look nice going through walls. Use a crowbar to remove covers.%n%n§3Hint: If you click one pipe onto the other they will auto-connect.
 
 # Quest.1147 - §3§2§4§3§lGT6-Styled Wires and Cables
 gtnh.quest1147.name=§3§2§4§3§lGT6-Styled Wires and Cables
@@ -4618,11 +4618,11 @@ gtnh.quest1153.desc=To make your crossbow even better, craft an ardite crossbow 
 
 # Quest.1154 - §5§lMagnalium Crossbow Bolts
 gtnh.quest1154.name=§5§lMagnalium Crossbow Bolts
-gtnh.quest1154.desc=Magnalium bolts are much better than your old wooden bolts.%n%nYou can use nether quartz on the bolts to make them even better. This requires a free modifier slot.%n%nExperiment with NEI to find other good bolt materials. %n%nTo make it, you must use a Fluid Solidifer instead of the Tinker's casting table.%n%n§4You'll need to get the molten iron out of the smeltery and into the fluid solidifier, the GT molten iron won't work.
+gtnh.quest1154.desc=Magnalium bolts are much better than your old wooden bolts.%n%nYou can use nether quartz on the bolts to make them even better. This requires a free modifier slot.%n%nExperiment with NEI to find other good bolt materials. %n%nTo make it, you must use a Fluid Solidifer instead of the Tinkers' casting table.%n%n§4You'll need to get the molten iron out of the smeltery and into the fluid solidifier, the GT molten iron won't work.
 
 # Quest.1155 - §5§lBasic Fluid Solidifier
 gtnh.quest1155.name=§5§lBasic Fluid Solidifier
-gtnh.quest1155.desc=To get your molten fluids back to a solid state you need a fluid solidifier. This is handy for processing molten rubber directly from the chemical reactor. It's used for crossbow bolts as well.%n%n§4Keep in mind that GT fluids are different from Tinker's Construct. You will mainly work with GT fluids going forward.
+gtnh.quest1155.desc=To get your molten fluids back to a solid state you need a fluid solidifier. This is handy for processing molten rubber directly from the chemical reactor. It's used for crossbow bolts as well.%n%n§4Keep in mind that GT fluids are different from Tinkers' Construct. You will mainly work with GT fluids going forward.
 
 # Quest.1156 - §3§lWooden Bolts
 gtnh.quest1156.name=§3§lWooden Bolts
@@ -6034,7 +6034,7 @@ gtnh.quest1507.desc=As your base grows, you're going to have a dozen different l
 
 # Quest.1508 - §2§lA Better Crafting Table
 gtnh.quest1508.name=§2§lA Better Crafting Table
-gtnh.quest1508.desc=Tired of your stuff falling out of your crafting table every time you walk away?  This fancy table from Tinker's Construct has slots to hold the items in your recipe. %n%nYou can also use it to upgrade tools with 8 modifiers at a time. Very handy for additional speed or looting!%n%nWhen it's placed next to a vanilla chest, it will even show the chest's inventory in the crafting window. Single or double vanilla chests only please.%n%nCut it again for a sleek, low profile version.
+gtnh.quest1508.desc=Tired of your stuff falling out of your crafting table every time you walk away?  This fancy table from Tinkers' Construct has slots to hold the items in your recipe. %n%nYou can also use it to upgrade tools with 8 modifiers at a time. Very handy for additional speed or looting!%n%nWhen it's placed next to a vanilla chest, it will even show the chest's inventory in the crafting window. Single or double vanilla chests only please.%n%nCut it again for a sleek, low profile version.
 
 # Quest.1509 - §9§lTravelocity!
 gtnh.quest1509.name=§9§lTravelocity!
@@ -7134,11 +7134,11 @@ gtnh.quest1782.desc=Nightvision is very useful. If you combine your Goggles with
 
 # Quest.1783 - Traveller's Vest Upgrades
 gtnh.quest1783.name=Traveller's Vest Upgrades
-gtnh.quest1783.desc=Your vest can be equipped with a few modification like perfect dodge and stealth.%nPerfect dodge mean you're harder to hit and can be stacked up to 3 times.%nStealth turns you invisible while sneaking. Place the vest in the center of a Tinker's Crafting Station.%n%nHint:%nAutorepair can be added to the vest as well.%nEvery Armor part has 3 Slots for modification.
+gtnh.quest1783.desc=Your vest can be equipped with a few modification like perfect dodge and stealth.%nPerfect dodge mean you're harder to hit and can be stacked up to 3 times.%nStealth turns you invisible while sneaking. Place the vest in the center of a Tinkers' Crafting Station.%n%nHint:%nAutorepair can be added to the vest as well.%nEvery Armor part has 3 Slots for modification.
 
 # Quest.1784 - Traveller's Wings Upgrades
 gtnh.quest1784.name=Traveller's Wings Upgrades
-gtnh.quest1784.desc=Your wings can be equiped with a few modifications such as feather falling and double jump. Place the wings in the center of a Crafting Station.%n%nFeather Fall allows you to glide down slowly in air.%nDouble Jump means you jump while in the air to jump again.%n%nHint:%nAutorepair can be added to the wings as well.%nEvery Armor part has 3 Slots for modification.
+gtnh.quest1784.desc=Your wings can be equipped with a few modifications such as feather falling and double jump. Place the wings in the center of a Crafting Station.%n%nFeather Fall allows you to glide down slowly in air.%nDouble Jump means you jump while in the air to jump again.%n%nHint:%nAutorepair can be added to the wings as well.%nEvery Armor part has 3 Slots for modification.
 
 # Quest.1785 - Traveller's Gloves Upgrades
 gtnh.quest1785.name=Traveller's Gloves Upgrades
@@ -7458,7 +7458,7 @@ gtnh.quest1863.desc=Already have barrels full of cobblestone? The voiding drop f
 
 # Quest.1864 - §2§lNo Self-Healing Tools Here...Yet
 gtnh.quest1864.name=§2§lNo Self-Healing Tools Here...Yet
-gtnh.quest1864.desc=Experienced players might be surprised by finding the Tinker's Construct Ball of Moss in NEI resulting in not showing required ingredients. %n%nIn this pack you have to first gain expertise in Thaumcraft to craft it. Go and become a dangerous wizard and you'll gain the power needed to craft the Ball of Moss and make your tools heal themselves. Of course, you need to get to the Twilight Forest and get some aluminium ingots before you can begin. The Ball of Moss is in the GTNH tab of the Thauminomicon, and requires infusion.%n%nHave a beer to prepare for your long journey.%n%n§3If you really want to see recipe now, you can go to Mod Options > Thamcraft NEI Additions > Config > general > showLockedRecipes and set to true. Note that this is disabled by default... for reasons.
+gtnh.quest1864.desc=Experienced players might be surprised by finding the Tinkers' Construct Ball of Moss in NEI resulting in not showing required ingredients. %n%nIn this pack you have to first gain expertise in Thaumcraft to craft it. Go and become a dangerous wizard and you'll gain the power needed to craft the Ball of Moss and make your tools heal themselves. Of course, you need to get to the Twilight Forest and get some aluminium ingots before you can begin. The Ball of Moss is in the GTNH tab of the Thauminomicon, and requires infusion.%n%nHave a beer to prepare for your long journey.%n%n§3If you really want to see recipe now, you can go to Mod Options > Thamcraft NEI Additions > Config > general > showLockedRecipes and set to true. Note that this is disabled by default... for reasons.
 
 # Quest.1865 - §5§lEnderman Smelterman
 gtnh.quest1865.name=§5§lEnderman Smelterman
@@ -7746,11 +7746,11 @@ gtnh.quest1935.desc=If you want to decorate your base, you're going to need a be
 
 # Quest.1936 - The Right Tool for the Job
 gtnh.quest1936.name=The Right Tool for the Job
-gtnh.quest1936.desc=Tinker's Construct has their own chisel tool variant, for converting Tinker blocks into different types. Not a lot of uses, but if you check NEI you can see what you can do.
+gtnh.quest1936.desc=Tinkers' Construct has their own chisel tool variant, for converting Tinker blocks into different types. Not a lot of uses, but if you check NEI you can see what you can do.
 
 # Quest.1937 - Tinker's Blocks
 gtnh.quest1937.name=Tinker's Blocks
-gtnh.quest1937.desc=Tinker's Construct offers a couple of useful blocks from the smeltery. Rough Brownstone takes Tin and Gravel and makes a block that lets you move a little faster. Cobblestone can be turned into Seared Stone, usable in the smeltery walls to make it larger without having to use clay.
+gtnh.quest1937.desc=Tinkers' Construct offers a couple of useful blocks from the smeltery. Rough Brownstone takes Tin and Gravel and makes a block that lets you move a little faster. Cobblestone can be turned into Seared Stone, usable in the smeltery walls to make it larger without having to use clay.
 
 # Quest.1938 - Some Handy Uses
 gtnh.quest1938.name=Some Handy Uses
@@ -8194,7 +8194,7 @@ gtnh.quest2047.desc=Some machines have a very, very large number of recipes. To 
 
 # Quest.2048 - Moss
 gtnh.quest2048.name=Moss
-gtnh.quest2048.desc=Given up on looking for moss in the Twilight Forest? You can easily grow a crop that will give you the various mosses, perfect for your Tinker's tools. Start with a lilypad.
+gtnh.quest2048.desc=Given up on looking for moss in the Twilight Forest? You can easily grow a crop that will give you the various mosses, perfect for your Tinkers' tools. Start with a lilypad.
 
 # Quest.2049 - Energy Buffers
 gtnh.quest2049.name=Energy Buffers
@@ -8582,7 +8582,7 @@ gtnh.quest2144.desc=If you want to pass multiple amps through your cleanroom wal
 
 # Quest.2145 - §1§lE_TOO_MANY_KEYS
 gtnh.quest2145.name=§1§lE_TOO_MANY_KEYS
-gtnh.quest2145.desc=ERROR: Too many keys to fit a 104 key keyboard.%n%nYou will need to redefine your keybindings so that you can use things effectively. Here is a list of keys you should deconflict. If messing with the keybindings corrupts your config file, it may cause crashes. If you get crashes, make sure your options.txt file is fixed. You can always delete it and try again. You can set a lot of keys to Esc for None so that you won't activate them. This can cause non-standard buttons to activate them though sometimes (calculator, music/volume buttons, etc.).%n%nAdventure Backpacks%nB - Open Inventory%nV - Toggle%n%nBackpacks%nG - Open Backpack (sneak-G to wear/remove backpack and set filtering)%n%nBattlegear%nR - Draw Weapons%nZ - Special (cycle arrows on M&B quiver)%n%nDark Steel Armor%nApostrophe - Night Vision%n%nGameplay%nNONE - Drop Item (Who wants to throw a backpack into lava?)%n%nIC2%nC - Side Invetory Key%n%nJourneyMap%nHome - Make Waypoint%nJ - Open Map%n= - Zoom In (works on minimap too)%n- - Zoom Out (same)%n%nMiscellaneous%nH - Activate Hover Harness%nF - Change Wand Focus%n%nTC Node Tracker%nI - Node List (must be scanned, goggles allow compass)%n%nTinker's Construct%nDelete - Belt (Traveller's Belt Swap Hotbar)
+gtnh.quest2145.desc=ERROR: Too many keys to fit a 104 key keyboard.%n%nYou will need to redefine your keybindings so that you can use things effectively. Here is a list of keys you should deconflict. If messing with the keybindings corrupts your config file, it may cause crashes. If you get crashes, make sure your options.txt file is fixed. You can always delete it and try again. You can set a lot of keys to Esc for None so that you won't activate them. This can cause non-standard buttons to activate them though sometimes (calculator, music/volume buttons, etc.).%n%nAdventure Backpacks%nB - Open Inventory%nV - Toggle%n%nBackpacks%nG - Open Backpack (sneak-G to wear/remove backpack and set filtering)%n%nBattlegear%nR - Draw Weapons%nZ - Special (cycle arrows on M&B quiver)%n%nDark Steel Armor%nApostrophe - Night Vision%n%nGameplay%nNONE - Drop Item (Who wants to throw a backpack into lava?)%n%nIC2%nC - Side Invetory Key%n%nJourneyMap%nHome - Make Waypoint%nJ - Open Map%n= - Zoom In (works on minimap too)%n- - Zoom Out (same)%n%nMiscellaneous%nH - Activate Hover Harness%nF - Change Wand Focus%n%nTC Node Tracker%nI - Node List (must be scanned, goggles allow compass)%n%nTinkers' Construct%nDelete - Belt (Traveller's Belt Swap Hotbar)
 
 # Quest.2146 - BRRRRAAAAAAAIIIIIIINNNNNNNSSSSS
 gtnh.quest2146.name=BRRRRAAAAAAAIIIIIIINNNNNNNSSSSS
@@ -13010,7 +13010,7 @@ gtnh.quest3251.desc=Thanks to your help I have managed to create the ultimate en
 
 # Quest.3252 - What are all these flowers even for?
 gtnh.quest3252.name=What are all these flowers even for?
-gtnh.quest3252.desc=If you've never used Botania before, you may be wondering about the purpose of all this effort. This isn't a simple question to answer, but one thing you can do that's quite useful right now is making yourself some manasteel.%n%nAmong its many uses, manasteel has one of the best, if not simply §othe§o §rbest, durabilities of materials available at LV, so it's perfect for all of your crafting tools.%n%nIf you have a particular dislike of Tinker's Construct, manasteel is a great material to make a Gregtech pickaxe out of too.
+gtnh.quest3252.desc=If you've never used Botania before, you may be wondering about the purpose of all this effort. This isn't a simple question to answer, but one thing you can do that's quite useful right now is making yourself some manasteel.%n%nAmong its many uses, manasteel has one of the best, if not simply §othe§o §rbest, durabilities of materials available at LV, so it's perfect for all of your crafting tools.%n%nIf you have a particular dislike of Tinkers' Construct, manasteel is a great material to make a Gregtech pickaxe out of too.
 
 # Quest.3253 - Moron's Manual for Mana Manufacture And Manipulation
 gtnh.quest3253.name=Moron's Manual for Mana Manufacture And Manipulation
