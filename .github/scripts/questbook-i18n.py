@@ -3,7 +3,7 @@ from typing import TextIO
 from abc import ABCMeta
 
 DEFAULT_QUESTS_PATH = 'config/betterquesting/DefaultQuests.json'
-EN_US_LANG_PATH = 'resources/minecraft/lang/en_US.lang'
+EN_US_LANG_PATH = 'config/txloader/load/minecraft/lang/en_US.lang'
 DEFAULT_QUESTS_US_PATH = 'config/betterquesting/DefaultQuests-us.json'
 
 
