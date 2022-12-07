@@ -11,10 +11,27 @@ import mods.ic2.Compressor;
 import mods.ic2.Extractor;
 import mods.gregtech.AlloySmelter;
 
+import mods.thaumcraft.Research;
+import mods.thaumcraft.Infusion;
+import mods.thaumcraft.Arcane;
+import mods.thaumcraft.Warp;
 
+
+// --- I18N ---
+val I18N_Extra_Utilities_0 = "Be free like a bird ... (Theorie)";
+val I18N_Extra_Utilities_1 = "[ExU] The way to the sky! - Part I";
+val I18N_Extra_Utilities_2 = "Happy to have crafted or looted your first Copter Pack or in general having access to Jetpacks?<BR>Annoyed about the fact that you need some type of fuel or energy for your Jetpack to work?<BR>What would a Thaumaturge give to achieve the ability to fly without these restrictions?<BR>Maybe some §oWarp§r? Not at this point yet, maybe later?<BR>But what should you do now to achieve §oFreedom like a bird§r? Maybe you remember Icarus and what happened to him?";
+val I18N_Extra_Utilities_3 = "If you remeber (well, let us say §othat§r you remember) then why not taking a look the §oTraveller's Wings§r§r? For me they could be the key for what you want to achieve but even if you own them, what should you do with them?<BR> I would like to ... try to infuse them with ... what items would you need you may ask and the final result will be ...?<BR>Pretty out of ideas I see so let us make some theoretical studies first:<BR>You want to fly like a bird? Try to get §oVolatus§r because it is referenced to flight. Another ingredient could be §oTempestas§r to withstand the harsh weather out there.";
+val I18N_Extra_Utilities_4 = "The next as obvious would be §oPraecantatio§r as we are going to use magic after all to achieve your goal otherwise it wouldn't make sense, wouldn't it? Also §oMotus§r will be required.<BR>Well done, we got the §oMain Aspects§r but how can we get rid of requiring energy or fuel? I would suggest to get §oNebrisum§r the source of §oCheatines§r. Yes, you are right, we are going to cheat a little bit for your goal but don't blame me for that §oTerminus§r I couldn't withstand to use it.<BR>You should have a few Jars filled with §oVolatus, Tempestas, Praecantatio, Nebrisum, Motus§r and §oTerminus§r to be prepared.<LINE>";
+val I18N_Extra_Utilities_5 = "Now it is time to find out which items you would need for the infusion as well as the item to be infused with.<LINE> From the secound page we have the §oTraveller's Wings§r which I would suggest to be used as the key item and infuse them with all other items at the §oInfusion Altar§r.<BR> At last you would need §oNether Stars§r and §oAngel Blocks§r the first part of ingredients.<LINE>";
+val I18N_Extra_Utilities_6 = "Now we are getting to the downside of this list ... gregified items are also used for ... reasons.<LINE> The first downside will be from GT++:<BR>§oMagical Feather§r at last two of them which requiring you to be in §oEV Age§r before you can continue at this point. Last ones which I throw to you will be two §oEngraved Gold Chips§r, one §oIchorium Rings§r and two §oTritanium Screws§r.<BR>Congrats, you gathered all the materials you'll need ... theoretically. So now go out and get them and come back to me when you have acquired them.<LINE>";
+val I18N_Extra_Utilities_7 = "The next research will show you the recipes for your beloved item: §oExU's Angel Ring§r and they come in different styles too.<LINE>";
+val I18N_Extra_Utilities_8 = "Be free like a bird ... (Crafting)";
+val I18N_Extra_Utilities_9 = "[ExU] The way to the sky! - Part II";
+val I18N_Extra_Utilities_10 = "Ok, you got all the items and jarred essentia? Oh and thanks for taking some warp because warp is fun, isn't it? Well at last it is the payment<LINE>Fine here are all the recipes you wanted. Have fun with them but don't blame me for there own difficulty to aquire them before you can use them finally in these recipes.<LINE>First recipe: Angel Ring (Invisible Wings)<BR>Oh, totally forgotten to tell you about some §oPearl§r and §oCharms§r, sorry.";
+val I18N_Extra_Utilities_11 = "So you assumed to get an Arcane Recipe here for all these different variants? Nope, it will be Infusion too as the Arcane Table can't handle the power which is hidden within this powerful item. For this time take a look on the following recipes to get all the items and the essentia together.<LINE>Second and following ones are Angel Rings with the following options: Golden Wings, Dragon Wings, Feathery Wings, Fairy Wings.<BR>Note that when you have transmogrified your wings that this step is final. This means, that you need at last five rings to own the complete collection ... whyever you would do this.";
 
 // --- Variables ---
-
 val EnderPump = <ExtraUtilities:enderThermicPump>;
 val EnderObsidian = <ExtraUtilities:decorativeBlock1:1>;
 val EnderCore = <ExtraUtilities:decorativeBlock1:11>;
@@ -170,11 +187,39 @@ val Screwdriver = <ore:craftingToolScrewdriver>;
 val Saw = <ore:craftingToolSaw>;
 val Shears = <minecraft:shears>;
 
+val ARInvisableWings = <ExtraUtilities:angelRing>;
+val ARFeatheryWings = <ExtraUtilities:angelRing:1>;
+val ARFairyWings = <ExtraUtilities:angelRing:2>;
+val ARDragonWings = <ExtraUtilities:angelRing:3>;
+val ARGoldenWings = <ExtraUtilities:angelRing:4>;
+val TravelWingsImage = <TConstruct:travelWings>;
+val TravelWings = <TConstruct:travelWings>.withTag({TinkerArmor: {BaseDurability: 1035, BaseDefense: 2.0, Built: 1 as byte, MaxDefense: 8.0, Damage: 0, BonusDurability: 0, Modifiers: 3, DamageReduction: 0.0, TotalDurability: 1035, ModDurability: 0.0 as float, Broken: 0 as byte}});
+val MagicalFeather = <miscutils:magicfeather>;
+val Netherstar = <minecraft:nether_star>;
+val IridiumRing = <gregtech:gt.metaitem.01:28084>;
+
+val BigPearl = <Avaritia:big_pearl>;
+val PrimalCharm = <Thaumcraft:ItemResource:15>;
+val DragonEgg = <minecraft:dragon_egg>;
+val DragonStone = <Botania:manaResource:9>;
+val RoseGoldFoil = <gregtech:gt.metaitem.01:29351>;
+val FeatherFletching = <TConstruct:fletching>;
+val TFCicada = <TwilightForest:tile.TFCicada>;
+val TFFireFly = <TwilightForest:tile.TFFirefly>;
+val EngravedGC = <dreamcraft:item.EngravedGoldChip>;
+val InfinityCatalyst = <Avaritia:Resource:5>;
+val SalisMundus = <Thaumcraft:ItemResource:14>;
+val TritScrew = <gregtech:gt.metaitem.01:27329>;
 
 
 // --- Removing Recipes ---
 
-
+// --- Angel Rings
+recipes.remove(ARInvisableWings);
+recipes.remove(ARFeatheryWings);
+recipes.remove(ARFairyWings);
+recipes.remove(ARDragonWings);
+recipes.remove(ARGoldenWings);
 
 // --- QED Recipes remove ALL
 mods.extraUtils.QED.removeRecipe(<*>);
@@ -480,13 +525,13 @@ recipes.remove(<ExtraUtilities:endConstructor:2>);
 
 // --- Block Update Detector
 recipes.remove(<ExtraUtilities:budoff>);
- 
+
 // --- Block Update Detector (Advanced)
 recipes.remove(<ExtraUtilities:budoff:3>);
- 
+
 // --- Chandelier
 recipes.remove(Chandelier);
- 
+
 // --- Edged Stone Bricks
 recipes.remove(<ExtraUtilities:decorativeBlock1>);
 
@@ -574,17 +619,17 @@ recipes.remove(<ExtraUtilities:temporalHoe>);
 // --- Unstable Ingot Block
 mods.tconstruct.Casting.removeBasinRecipe(<ExtraUtilities:decorativeBlock1:5>);
 
+// --- Unstable Ingot
+recipes.removeShaped(<ExtraUtilities:unstableingot>.withTag({Bug: 1 as byte}),[
+    [<minecraft:iron_ingot>],
+    [<ExtraUtilities:divisionSigil>.withTag({damage: 256})],
+    [<minecraft:diamond>]]);
+
 
 
 // --- Add Recipes ---
 
 
-
-// --- Molecular Transformer from Advanced Solar Panels Mod
-mods.extraUtils.QED.addShapedRecipe(<AdvancedSolarPanel:BlockMolecularTransformer>, [
-[<IC2:blockMachine:12>, <IC2:blockElectric:5>, <IC2:blockMachine:12>],
-[<ore:circuitAdvanced>, <AdvancedSolarPanel:asp_crafting_items:12>, <ore:circuitAdvanced>],
-[<IC2:blockMachine:12>, <IC2:blockElectric:5>, <IC2:blockMachine:12>]]);
 
 // --- Ender Quarry
 mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:enderQuarry>, [
@@ -940,6 +985,12 @@ mods.extraUtils.QED.addShapedRecipe(HyperETransferN, [
 [<gregtech:gt.metaitem.01:17533>, <gregtech:gt.metaitem.01:11395>, <gregtech:gt.metaitem.01:17533>],
 [EnergyTransferN, EnergyTransferN, EnergyTransferN]]);
 
+// --- Iverted Obsidian
+mods.extraUtils.QED.addShapedRecipe(<miscutils:blockCompressedObsidian:5>, [
+[<ore:dustRedstone>, <ore:dustGlowstone>, <ore:dustRedstone>],
+[<ore:dustGlowstone>, <ore:blockObsidian>, <ore:dustGlowstone>],
+[<ore:dustRedstone>, <ore:dustGlowstone>, <ore:dustRedstone>]]);
+
 // --- Trash Can
 recipes.addShaped(<ExtraUtilities:trashcan>, [
 [<ore:plateIron>, <ore:craftingToolHardHammer>, <ore:plateIron>],
@@ -1061,6 +1112,12 @@ recipes.addShaped(<ExtraUtilities:temporalHoe>, [
 [null, <RandomThings:ingredient:1>, null],
 [null, <RandomThings:ingredient:1>, null]]);
 
+// --- Unstable Ingot
+recipes.addShaped(<ExtraUtilities:unstableingot>,[
+    [<minecraft:iron_ingot>],
+    [<ExtraUtilities:divisionSigil>.withTag({damage: 256})],
+    [<minecraft:diamond>]]);
+
 
 
 
@@ -1082,7 +1139,7 @@ AlloySmelter.addRecipe(<ExtraUtilities:decorativeBlock2:4>, <ExtraUtilities:deco
 AlloySmelter.addRecipe(<ExtraUtilities:decorativeBlock2:3>, <ExtraUtilities:decorativeBlock2>, <minecraft:gunpowder>, 200, 8);
 
 // --- Glowstone Glass
-AlloySmelter.addRecipe(<ExtraUtilities:decorativeBlock2:7>, <ExtraUtilities:decorativeBlock2>, <gregtech:gt.metaitem.01:17811> * 4, 400, 16); 
+AlloySmelter.addRecipe(<ExtraUtilities:decorativeBlock2:7>, <ExtraUtilities:decorativeBlock2>, <gregtech:gt.metaitem.01:17811> * 4, 400, 16);
 
 // --- Heart Glass
 AlloySmelter.addRecipe(<ExtraUtilities:decorativeBlock2:8>, <ExtraUtilities:decorativeBlock2>, <minecraft:dye:9>, 200, 8);
@@ -1128,10 +1185,10 @@ Assembler.addRecipe(<ExtraUtilities:endConstructor:2>, <ExtraUtilities:decorativ
 
 // --- Block Update Detector
 Assembler.addRecipe(<ExtraUtilities:budoff>, <Railcraft:detector:2>, <minecraft:sticky_piston>, 200, 30);
- 
+
 // --- Block Update Detector (Advanced)
 Assembler.addRecipe(<ExtraUtilities:budoff:3>, <ExtraUtilities:budoff>, <minecraft:redstone_block> * 4, 200, 120);
- 
+
 // --- Chandelier
 Assembler.addRecipe(Chandelier, <minecraft:torch> * 5, <gregtech:gt.metaitem.02:28500>, <liquid:molten.tin> * 1440, 600, 30);
 
@@ -1197,6 +1254,10 @@ Assembler.addRecipe(EExtractionPipe, <gregtech:gt.metaitem.01:17303> * 2, Energy
 Assembler.addRecipe(HyperRationingPipe, RationingPipe, <gregtech:gt.metaitem.01:32708>, 400, 64);
 // -
 Assembler.addRecipe(HyperRationingPipe, RationingPipe, <gregtech:gt.metaitem.01:32704>, 200, 64);
+// -
+Assembler.addRecipe(HyperRationingPipe, RationingPipe, <gregtech:gt.metaitem.03:32083>, 200, 64);
+// -
+Assembler.addRecipe(HyperRationingPipe, RationingPipe, <gregtech:gt.metaitem.03:32085>, 200, 64);
 
 // --- Trash Can
 Assembler.addRecipe(<ExtraUtilities:trashcan>, <gregtech:gt.metaitem.01:17032> * 4, <minecraft:ender_pearl>, 200, 30);
@@ -1221,16 +1282,16 @@ Assembler.addRecipe(<ExtraUtilities:golden_lasso>, <minecraft:ender_pearl>, <gre
 Assembler.addRecipe(<ExtraUtilities:scanner>, <gregtech:gt.metaitem.01:32762>, <minecraft:ender_eye>, 600, 120);
 
 // --- Compressed Cobblestone
-Assembler.addRecipe(<ExtraUtilities:cobblestone_compressed>, <gregtech:gt.integrated_circuit:1> * 0, <minecraft:cobblestone> * 9, 100, 16);
+Assembler.addRecipe(<ExtraUtilities:cobblestone_compressed>, <gregtech:gt.integrated_circuit:9> * 0, <minecraft:cobblestone> * 9, 100, 16);
 
 // --- Compressed Dirt
-Assembler.addRecipe(<ExtraUtilities:cobblestone_compressed:8>, <minecraft:dirt> * 9, <gregtech:gt.integrated_circuit:1> * 0, 100, 16);
+Assembler.addRecipe(<ExtraUtilities:cobblestone_compressed:8>, <minecraft:dirt> * 9, <gregtech:gt.integrated_circuit:9> * 0, 100, 16);
 
 // --- Compressed Gravel
-Assembler.addRecipe(<ExtraUtilities:cobblestone_compressed:12>, <minecraft:gravel> * 9, <gregtech:gt.integrated_circuit:1> * 0, 100, 16);
+Assembler.addRecipe(<ExtraUtilities:cobblestone_compressed:12>, <minecraft:gravel> * 9, <gregtech:gt.integrated_circuit:9> * 0, 100, 16);
 
 // --- Compressed Sand
-Assembler.addRecipe(<ExtraUtilities:cobblestone_compressed:14>, <minecraft:sand> * 9, <gregtech:gt.integrated_circuit:1> * 0, 100, 16);
+Assembler.addRecipe(<ExtraUtilities:cobblestone_compressed:14>, <minecraft:sand> * 9, <gregtech:gt.integrated_circuit:9> * 0, 100, 16);
 
 
 
@@ -1294,3 +1355,57 @@ Extractor.addRecipe(<minecraft:sand> * 9, <ExtraUtilities:cobblestone_compressed
 
 // --- Double Compressed Sand
 Extractor.addRecipe(<ExtraUtilities:cobblestone_compressed:14> * 9, <ExtraUtilities:cobblestone_compressed:15>);
+
+// --- Angel Wing over Thaumcraft ---
+// --- ARInvisableWings
+Infusion.addRecipe("EXURINGS_CRAFTING", TravelWings, [IridiumRing, TritScrew, EngravedGC, AngelBlock, PrimalCharm, MagicalFeather, Netherstar, BigPearl, Netherstar, MagicalFeather, PrimalCharm, AngelBlock, EngravedGC, TritScrew], "praecantatio 200, volatus 200, tempestas 200, nebrisum 200, motus 200, terminus 200", ARInvisableWings, 30);
+
+// --- ARFeatheryWings
+Infusion.addRecipe("EXURINGS_CRAFTING", ARInvisableWings, [SalisMundus, FeatherFletching, FeatherFletching], "permutatio 50, volatus 50, aer 50", ARFeatheryWings, 4);
+
+// --- ARFairyWings
+Infusion.addRecipe("EXURINGS_CRAFTING", ARInvisableWings, [SalisMundus, TFCicada, TFFireFly], "permutatio 50, volatus 50, auram 50", ARFairyWings, 4);
+
+// --- ARDragonWings
+Infusion.addRecipe("EXURINGS_CRAFTING", ARInvisableWings, [SalisMundus, DragonEgg, DragonStone], "permutatio 50, bestia 50, infernus 50", ARDragonWings, 4);
+
+// --- ARGoldenWings
+Infusion.addRecipe("EXURINGS_CRAFTING", ARInvisableWings, [SalisMundus, RoseGoldFoil, RoseGoldFoil], "permutatio 50, metallum 50, lucrum 50", ARGoldenWings, 4);
+
+// --- Research I: Flavor Text
+Research.addResearch("EXURINGS", "ARTIFICE", "praecantatio 10, volatus 10, tempestas 100, nebrisum 10, motus 10, terminus 10", 1, -5 as int, 16, TravelWingsImage);
+game.setLocalization("en_US", "tc.research_name.EXURINGS", I18N_Extra_Utilities_0);
+game.setLocalization("en_US", "tc.research_text.EXURINGS", I18N_Extra_Utilities_1);
+Research.setRound("EXURINGS", true);
+Research.setConcealed("EXURINGS", true);
+Research.addPrereq("EXURINGS", "INFUSION", true);
+Research.addPage("EXURINGS", "tc.research_page.EXURINGS.1");
+game.setLocalization("en_US", "tc.research_page.EXURINGS.1", I18N_Extra_Utilities_2);
+Research.addPage("EXURINGS", "tc.research_page.EXURINGS.2");
+game.setLocalization("en_US", "tc.research_page.EXURINGS.2", I18N_Extra_Utilities_3);
+
+Research.addPage("EXURINGS", "tc.research_page.EXURINGS.3");
+game.setLocalization("en_US", "tc.research_page.EXURINGS.3", I18N_Extra_Utilities_4);
+Research.addPage("EXURINGS", "tc.research_page.EXURINGS.4");
+game.setLocalization("en_US", "tc.research_page.EXURINGS.4", I18N_Extra_Utilities_5);
+Research.addPage("EXURINGS", "tc.research_page.EXURINGS.5");
+game.setLocalization("en_US", "tc.research_page.EXURINGS.5", I18N_Extra_Utilities_6);
+Research.addPage("EXURINGS", "tc.research_page.EXURINGS.6");
+game.setLocalization("en_US", "tc.research_page.EXURINGS.6", I18N_Extra_Utilities_7);
+
+// --- Research II: Angel Rings (crafting)
+Research.addResearch("EXURINGS_CRAFTING", "ARTIFICE", "praecantatio 10, volatus 10, tempestas 10, nebrisum 10, motus 10, terminus 10", -1 as int, -5 as int, 16, ARInvisableWings);
+game.setLocalization("en_US", "tc.research_name.EXURINGS_CRAFTING", I18N_Extra_Utilities_8);
+game.setLocalization("en_US", "tc.research_text.EXURINGS_CRAFTING", I18N_Extra_Utilities_9);
+Research.addPrereq("EXURINGS_CRAFTING", "EXURINGS", false);
+Research.setConcealed("EXURINGS_CRAFTING", true);
+Warp.addToResearch("EXURINGS_CRAFTING", 16);
+Research.addPage("EXURINGS_CRAFTING", "tc.research_page.EXURINGS_CRAFTING.1");
+game.setLocalization("en_US", "tc.research_page.EXURINGS_CRAFTING.1", I18N_Extra_Utilities_10);
+Research.addInfusionPage("EXURINGS_CRAFTING", ARInvisableWings);
+Research.addPage("EXURINGS_CRAFTING", "tc.research_page.EXURINGS_CRAFTING.2");
+game.setLocalization("en_US", "tc.research_page.EXURINGS_CRAFTING.2", I18N_Extra_Utilities_11);
+Research.addInfusionPage("EXURINGS_CRAFTING", ARFeatheryWings);
+Research.addInfusionPage("EXURINGS_CRAFTING", ARFairyWings);
+Research.addInfusionPage("EXURINGS_CRAFTING", ARDragonWings);
+Research.addInfusionPage("EXURINGS_CRAFTING", ARGoldenWings);

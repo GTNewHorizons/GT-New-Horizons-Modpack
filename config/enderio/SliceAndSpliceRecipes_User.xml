@@ -7,9 +7,9 @@
         <itemStack oreDictionary="plateEnergeticAlloy" slot="0" />
         <itemStack modID="minecraft" itemName="skull" itemMeta="2" slot="1" />
         <itemStack oreDictionary="plateEnergeticAlloy" slot="2" />
-        <itemStack oreDictionary="plateSilicon" slot="3" />
+        <itemStack oreDictionary="plateSiliconSolarGrade" slot="3" />
         <itemStack modID="EnderIO" itemName="itemBasicCapacitor" itemMeta="0" slot="4" />
-        <itemStack oreDictionary="plateSilicon" slot="5" />
+        <itemStack oreDictionary="plateSiliconSolarGrade" slot="5" />
       </input>
       <output>
         <itemStack modID="EnderIO" itemName="itemFrankenSkull" itemMeta="0" />
@@ -20,9 +20,9 @@
         <itemStack oreDictionary="plateSoularium" slot="0" />
         <itemStack modID="minecraft" itemName="skull" itemMeta="2" slot="1" />
         <itemStack oreDictionary="plateSoularium" slot="2" />
-        <itemStack oreDictionary="plateSilicon" slot="3" />
+        <itemStack oreDictionary="plateSiliconSolarGrade" slot="3" />
         <itemStack oreDictionary="plateRedAlloy" slot="4" />
-        <itemStack oreDictionary="plateSilicon" slot="5" />
+        <itemStack oreDictionary="plateSiliconSolarGrade" slot="5" />
       </input>
       <output>
         <itemStack modID="EnderIO" itemName="itemFrankenSkull" itemMeta="1" />
@@ -46,9 +46,9 @@
         <itemStack oreDictionary="plateSoularium" slot="0" />
         <itemStack modID="EnderIO" itemName="blockEndermanSkull" itemMeta="0" slot="1" />
         <itemStack oreDictionary="plateSoularium" slot="2" />
-        <itemStack oreDictionary="plateSilicon" slot="3" />
+        <itemStack oreDictionary="plateSiliconSolarGrade" slot="3" />
         <itemStack oreDictionary="plateVibrantAlloy" slot="4" />
-        <itemStack oreDictionary="plateSilicon" slot="5" />
+        <itemStack oreDictionary="plateSiliconSolarGrade" slot="5" />
       </input>
       <output>
         <itemStack modID="EnderIO" itemName="itemFrankenSkull" itemMeta="3" />
@@ -60,7 +60,7 @@
         <itemStack modID="minecraft" itemName="skull" itemMeta="0" slot="1" />
         <itemStack oreDictionary="plateSoularium" slot="2" />
         <itemStack modID="minecraft" itemName="rotten_flesh" itemMeta="0" slot="3" />
-        <itemStack oreDictionary="plateSilicon" slot="4" />
+        <itemStack oreDictionary="plateSiliconSolarGrade" slot="4" />
         <itemStack modID="minecraft" itemName="rotten_flesh" itemMeta="0" slot="5" />
       </input>
       <output>
@@ -73,7 +73,7 @@
         <itemStack oreDictionary="gemDiamond" slot="1" />
         <itemStack oreDictionary="plateEnergeticAlloy" slot="2" />
         <itemStack modID="EnderIO" itemName="itemMaterial" itemMeta="5" slot="3" />
-        <itemStack oreDictionary="plateSilicon" slot="4" />
+        <itemStack oreDictionary="plateSiliconSolarGrade" slot="4" />
         <itemStack modID="EnderIO" itemName="itemMaterial" itemMeta="5" slot="5" />
       </input>
       <output>

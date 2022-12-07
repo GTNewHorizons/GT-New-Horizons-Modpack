@@ -15,7 +15,7 @@ import mods.nei.NEI;
 
 val CopperChestCart = <ironchestminecarts:minecart_chest_copper>;
 val IronChestCart = <ironchestminecarts:minecart_chest_iron>;
-val SteelChestCart = <ironchestminecarts:minecart_chest_silver>;
+val SteelChestCart = <ironchestminecarts:minecart_chest_steel>;
 val GoldChestCart = <ironchestminecarts:minecart_chest_gold>;
 val DiamondChestCart = <ironchestminecarts:minecart_chest_diamond>;
 val CrystalChestCart = <ironchestminecarts:minecart_chest_crystal>;
@@ -40,29 +40,6 @@ val Minecart = <minecraft:minecart>;
 
 
 // --- Removing Recipes ---
-
-
-// --- Minecart With Copper Chest
-recipes.remove(CopperChestCart);
-
-// --- Minecart With Iron Chest
-recipes.remove(IronChestCart);
-
-// --- Minecart With Steel Chest
-recipes.remove(SteelChestCart);
-
-// --- Minecart With Gold Chest
-recipes.remove(GoldChestCart);
-
-// --- Minecart With Diamond Chest
-recipes.remove(DiamondChestCart);
-
-// --- Minecart With Crystal Chest
-recipes.remove(CrystalChestCart);
-
-// --- Minecart With  Obsidian Chest
-recipes.remove(ObsidianChestCart);
-
 
 
 // --- Adding Back Recipes ---
@@ -121,6 +98,3 @@ Assembler.addRecipe(ObsidianChestCart, ObsidianChest, Minecart, 200, 64);
 
 
 // --- Hiding Overriding Stuff ---
-
-
-NEI.overrideName(<ironchestminecarts:minecart_chest_silver>, "Minecart With Steel Chest");

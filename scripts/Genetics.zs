@@ -207,14 +207,13 @@ Assembler.addRecipe(<Genetics:misc:9>, <Forestry:chipsets:1>,  <gregtech:gt.meta
 Assembler.addRecipe(<Genetics:misc:11>, [<Forestry:hardenedMachine>, <Genetics:misc:10> * 2, <gregtech:gt.integrated_circuit:2> * 0], <liquid:molten.glowstone> * 288, 1500, 480);
 
 // --- Integrated CPU
-Assembler.addRecipe(<Genetics:misc:10>, [<gregtech:gt.metaitem.03:32106>, <ore:circuitData> * 2, <gregtech:gt.integrated_circuit:2> * 0], <liquid:molten.glowstone> * 144, 600, 480);
-
+Assembler.addRecipe(<Genetics:misc:10>, [<gregtech:gt.metaitem.03:32106>, <Forestry:thermionicTubes:5>, <gregtech:gt.integrated_circuit:2> * 0], <liquid:molten.glowstone> * 144, 600, 30);
 
 // --- Mixer Recipes ---
 
 
 // --- DNA Dey
-Mixer.addRecipe(<Genetics:misc:1>, null, [<gregtech:gt.metaitem.01:1810> * 4, <gregtech:gt.metaitem.01:1811> * 4, <gregtech:gt.metaitem.02:32418>, <gregtech:gt.metaitem.02:32419>], <liquid:molten.blaze> * 144, 100, 30);
+Mixer.addRecipe(<Genetics:misc:1>, null, [<minecraft:redstone>, <minecraft:glowstone_dust>, <gregtech:gt.metaitem.02:32418>, <gregtech:gt.metaitem.02:32419>], <liquid:molten.blaze> * 144, 100, 30);
 
 // --- Fluorescent Dey
-Mixer.addRecipe(<Genetics:misc:2>, null, [<gregtech:gt.metaitem.01:1811> * 4, <gregtech:gt.metaitem.01:1810> * 4, <gregtech:gt.metaitem.02:32428>, <gregtech:gt.metaitem.02:32425>], <liquid:molten.blaze> * 144, 100, 30);
+Mixer.addRecipe(<Genetics:misc:2>, null, [<minecraft:redstone>, <minecraft:glowstone_dust>, <gregtech:gt.metaitem.02:32428>, <gregtech:gt.metaitem.02:32425>], <liquid:molten.blaze> * 144, 100, 30);

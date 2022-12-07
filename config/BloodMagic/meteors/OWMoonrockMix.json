@@ -1,0 +1,38 @@
+{
+  "ores": [
+    "oreMarbleCassiteriteSand",
+    "50",
+	"oreMarbleCassiterite",
+    "50",
+	"oreMarbleTin",
+    "25",
+	"oreMarbleGarnetSand",
+    "50",
+	"oreMarbleAsbestos",
+    "25",
+	"oreMarbleDiatomite",
+    "25",
+	"stoneMarble",
+    "250",
+	"oreMarbleBasalticMineralSand",
+    "50",
+	"oreMarbleGraniticMineralSand",
+    "50",
+	"oreMarbleFullersEarth",
+    "50",
+	"oreMarbleGypsum",
+    "50",
+	"oreMarbleCheese",
+    "25",
+	"oreMarbleMica",
+    "25",
+	"rockMoon",
+    "250"
+  ],
+  "radius": 15,
+  "cost": 650000,
+  "focusModId": "harvestcraft",
+  "focusName": "cheeseItem",
+  "focusMeta": 0
+}
+

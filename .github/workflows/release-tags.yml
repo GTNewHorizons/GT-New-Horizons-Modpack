@@ -1,0 +1,45 @@
+# This workflow will build and release a zip of the modpack config and script files.
+
+name: Release tagged version
+
+on:
+  push:
+    tags:
+      - '*'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Cancel previous runs
+        uses: styfle/cancel-workflow-action@0.8.0
+        with:
+          access_token: ${{ secrets.GITHUB_TOKEN }}
+          
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          
+      - name: Set release version
+        run: echo "RELEASE_VERSION=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
+
+      - name: Prepare release folder
+        run: |
+          mkdir -p release
+      
+      - name: Create release zip
+        run: |
+          zip -r release/${{ env.RELEASE_VERSION }}.zip . \
+              -x changelog.py \
+              -x ".git/*" \
+              -x ".github/*" \
+              -x "release/*"
+
+      - name: Release under current tag
+        uses: "marvinpinto/action-automatic-releases@latest"
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          automatic_release_tag: "${{ env.RELEASE_VERSION }}"
+          prerelease: false
+          title: "${{ env.RELEASE_VERSION }}"
+          files: release/*

@@ -8,6 +8,7 @@
 
 
 import mods.gregtech.Assembler;
+import mods.gregtech.CircuitAssembler;
 
 
 
@@ -241,7 +242,7 @@ mods.thaumcraft.Research.setComplexity("thaumicenergistics.TEESSTERM", 3);
 // --- Vibration Chamber
 mods.thaumcraft.Arcane.addShaped("thaumicenergistics.TEESSVIBCMBR", <thaumicenergistics:thaumicenergistics.block.essentia.vibration.chamber>, "ignis 35, ordo 35, perditio 35, aqua 35", [
 [<ore:plateInfusedOrder>, <thaumicenergistics:part.base:4>, <ore:plateInfusedOrder>],
-[<thaumicenergistics:material>, <extracells:vibrantchamberfluid>, <thaumicenergistics:material>],
+[<thaumicenergistics:material>, <appliedenergistics2:tile.BlockVibrationChamber>, <thaumicenergistics:material>],
 [<ore:plateInfusedEntropy>, <Thaumcraft:blockJar>, <ore:plateInfusedEntropy>]]);
 // -
 mods.thaumcraft.Research.setAspects("thaumicenergistics.TEESSVIBCMBR", "vitreus 18, machina 15, potentia 12, praecantatio 9, motus 6, aqua 3");
@@ -250,19 +251,19 @@ mods.thaumcraft.Research.setComplexity("thaumicenergistics.TEESSVIBCMBR", 3);
 // --- Essentia Import Bus
 mods.thaumcraft.Arcane.addShaped("thaumicenergistics.TEIO", <thaumicenergistics:part.base>, "ordo 15, aqua 15, ignis 15, terra 15", [
 [<Thaumcraft:blockCosmeticOpaque:2>, <thaumicenergistics:material>, <Thaumcraft:blockCosmeticOpaque:2>],
-[<ore:plateInfusedOrder>, <extracells:part.base:1>, <ore:plateInfusedOrder>],
+[<ore:plateInfusedOrder>, <appliedenergistics2:item.ItemMultiPart:240>, <ore:plateInfusedOrder>],
 [<Thaumcraft:blockJar>, <Thaumcraft:blockTube:3>, <Thaumcraft:blockJar>]]);
 
 // --- Essentia Export Bus
 mods.thaumcraft.Arcane.addShaped("thaumicenergistics.TEIO", <thaumicenergistics:part.base:3>, "ordo 15, aqua 15, ignis 15, terra 15", [
 [<Thaumcraft:blockJar>, <Thaumcraft:blockTube:3>, <Thaumcraft:blockJar>],
-[<ore:plateInfusedOrder>, <extracells:part.base>, <ore:plateInfusedOrder>],
+[<ore:plateInfusedOrder>, <appliedenergistics2:item.ItemMultiPart:260>, <ore:plateInfusedOrder>],
 [<Thaumcraft:blockCosmeticOpaque:2>, <thaumicenergistics:material:1>, <Thaumcraft:blockCosmeticOpaque:2>]]);
 
 // --- Essentia Storage Bus
 mods.thaumcraft.Arcane.addShaped("thaumicenergistics.TEIO", <thaumicenergistics:part.base:2>, "ordo 20, aqua 20, ignis 20, terra 20", [
 [<Thaumcraft:blockJar>, <ore:plateInfusedWater>, <Thaumcraft:blockJar>],
-[<thaumicenergistics:material>, <extracells:part.base:2>, <thaumicenergistics:material:1>],
+[<thaumicenergistics:material>, <appliedenergistics2:item.ItemMultiPart:220>, <thaumicenergistics:material:1>],
 [<Thaumcraft:blockTube:3>, <ore:plateInfusedWater>, <Thaumcraft:blockTube:3>]]);
 // -
 mods.thaumcraft.Research.setAspects("thaumicenergistics.TEIO", "motus 18, machina 15, metallum 12, vitreus 9, aer 6, aqua 3");
@@ -303,6 +304,16 @@ mods.thaumcraft.Arcane.addShaped("thaumicenergistics.TESTORAGE", <thaumicenergis
 [<ore:circuitPrimitive>, <Thaumcraft:ItemResource:14>, <ore:circuitPrimitive>],
 [<Thaumcraft:ItemResource:14>, <dreamcraft:item.EngineeringProcessorEssentiaPulsatingCore>, <Thaumcraft:ItemResource:14>],
 [<ore:circuitPrimitive>, <Thaumcraft:ItemResource:14>, <ore:circuitPrimitive>]]);
+// - non-recursive
+CircuitAssembler.addRecipe(<thaumicenergistics:storage.component>,
+[<ore:circuitPrimitive> * 2, <Thaumcraft:ItemResource:14> * 2, <dreamcraft:item.EngineeringProcessorEssentiaPulsatingCore>, <gregtech:gt.metaitem.01:32710>, <gregtech:gt.integrated_circuit:1> * 0],
+<liquid:molten.solderingalloy> * 72, 200, 30);
+CircuitAssembler.addRecipe(<thaumicenergistics:storage.component>,
+[<ore:circuitPrimitive> * 2, <Thaumcraft:ItemResource:14> * 2, <dreamcraft:item.EngineeringProcessorEssentiaPulsatingCore>, <gregtech:gt.metaitem.01:32710>, <gregtech:gt.integrated_circuit:1> * 0],
+<liquid:molten.tin> * 144, 200, 30);
+CircuitAssembler.addRecipe(<thaumicenergistics:storage.component>,
+[<ore:circuitPrimitive> * 2, <Thaumcraft:ItemResource:14> * 2, <dreamcraft:item.EngineeringProcessorEssentiaPulsatingCore>, <gregtech:gt.metaitem.01:32710>, <gregtech:gt.integrated_circuit:1> * 0],
+<liquid:molten.lead> * 288, 200, 30);
 // -
 mods.thaumcraft.Research.addArcanePage("thaumicenergistics.TESTORAGE", <thaumicenergistics:storage.component>);
 
@@ -311,6 +322,16 @@ mods.thaumcraft.Arcane.addShaped("thaumicenergistics.TESTORAGE", <thaumicenergis
 [<ore:circuitBasic>, <thaumicenergistics:storage.component>, <ore:circuitBasic>],
 [<thaumicenergistics:storage.component>, <dreamcraft:item.EngineeringProcessorEssentiaPulsatingCore>, <thaumicenergistics:storage.component>],
 [<ore:circuitBasic>, <thaumicenergistics:storage.component>, <ore:circuitBasic>]]);
+// - non-recursive
+CircuitAssembler.addRecipe(<thaumicenergistics:storage.component:1>,
+[<ore:circuitBasic> * 4, <ore:circuitPrimitive> * 16, <dreamcraft:item.EngineeringProcessorEssentiaPulsatingCore>, <gregtech:gt.metaitem.03:32100>, <gregtech:gt.integrated_circuit:1> * 0],
+<liquid:molten.solderingalloy> * 72, 200, 30);
+CircuitAssembler.addRecipe(<thaumicenergistics:storage.component:1>,
+[<ore:circuitBasic> * 4, <ore:circuitPrimitive> * 16, <dreamcraft:item.EngineeringProcessorEssentiaPulsatingCore>, <gregtech:gt.metaitem.03:32100>, <gregtech:gt.integrated_circuit:1> * 0],
+<liquid:molten.tin> * 144, 200, 30);
+CircuitAssembler.addRecipe(<thaumicenergistics:storage.component:1>,
+[<ore:circuitBasic> * 4, <ore:circuitPrimitive> * 16, <dreamcraft:item.EngineeringProcessorEssentiaPulsatingCore>, <gregtech:gt.metaitem.03:32100>, <gregtech:gt.integrated_circuit:1> * 0],
+<liquid:molten.lead> * 288, 200, 30);
 // -
 mods.thaumcraft.Research.addArcanePage("thaumicenergistics.TESTORAGE", <thaumicenergistics:storage.component:1>);
 
@@ -319,6 +340,16 @@ mods.thaumcraft.Arcane.addShaped("thaumicenergistics.TESTORAGE", <thaumicenergis
 [<ore:circuitGood>, <thaumicenergistics:storage.component:1>, <ore:circuitGood>],
 [<thaumicenergistics:storage.component:1>, <dreamcraft:item.EngineeringProcessorEssentiaPulsatingCore>, <thaumicenergistics:storage.component:1>],
 [<ore:circuitGood>, <thaumicenergistics:storage.component:1>, <ore:circuitGood>]]);
+// - non-recursive
+CircuitAssembler.addRecipe(<thaumicenergistics:storage.component:2>,
+[<ore:circuitGood> * 4, <ore:circuitBasic> * 16, <dreamcraft:item.EngineeringProcessorEssentiaPulsatingCore>, <gregtech:gt.metaitem.03:32101>, <gregtech:gt.integrated_circuit:1> * 0],
+<liquid:molten.solderingalloy> * 72, 200, 120);
+CircuitAssembler.addRecipe(<thaumicenergistics:storage.component:2>,
+[<ore:circuitGood> * 4, <ore:circuitBasic> * 16, <dreamcraft:item.EngineeringProcessorEssentiaPulsatingCore>, <gregtech:gt.metaitem.03:32101>, <gregtech:gt.integrated_circuit:1> * 0],
+<liquid:molten.tin> * 144, 200, 120);
+CircuitAssembler.addRecipe(<thaumicenergistics:storage.component:2>,
+[<ore:circuitGood> * 4, <ore:circuitBasic> * 16, <dreamcraft:item.EngineeringProcessorEssentiaPulsatingCore>, <gregtech:gt.metaitem.03:32101>, <gregtech:gt.integrated_circuit:1> * 0],
+<liquid:molten.lead> * 288, 200, 120);
 // -
 mods.thaumcraft.Research.addArcanePage("thaumicenergistics.TESTORAGE", <thaumicenergistics:storage.component:2>);
 
@@ -327,6 +358,16 @@ mods.thaumcraft.Arcane.addShaped("thaumicenergistics.TESTORAGE", <thaumicenergis
 [<ore:circuitAdvanced>, <thaumicenergistics:storage.component:2>, <ore:circuitAdvanced>],
 [<thaumicenergistics:storage.component:2>, <dreamcraft:item.EngineeringProcessorEssentiaPulsatingCore>, <thaumicenergistics:storage.component:2>],
 [<ore:circuitAdvanced>, <thaumicenergistics:storage.component:2>, <ore:circuitAdvanced>]]);
+// - non-recursive
+CircuitAssembler.addRecipe(<thaumicenergistics:storage.component:3>,
+[<ore:circuitAdvanced> * 4, <ore:circuitGood> * 16, <dreamcraft:item.EngineeringProcessorEssentiaPulsatingCore>, <gregtech:gt.metaitem.03:32102>, <gregtech:gt.integrated_circuit:1> * 0],
+<liquid:molten.solderingalloy> * 72, 200, 480);
+CircuitAssembler.addRecipe(<thaumicenergistics:storage.component:3>,
+[<ore:circuitAdvanced> * 4, <ore:circuitGood> * 16, <dreamcraft:item.EngineeringProcessorEssentiaPulsatingCore>, <gregtech:gt.metaitem.03:32102>, <gregtech:gt.integrated_circuit:1> * 0],
+<liquid:molten.tin> * 144, 200, 480);
+CircuitAssembler.addRecipe(<thaumicenergistics:storage.component:3>,
+[<ore:circuitAdvanced> * 4, <ore:circuitGood> * 16, <dreamcraft:item.EngineeringProcessorEssentiaPulsatingCore>, <gregtech:gt.metaitem.03:32102>, <gregtech:gt.integrated_circuit:1> * 0],
+<liquid:molten.lead> * 288, 200, 480);
 // -
 mods.thaumcraft.Research.addArcanePage("thaumicenergistics.TESTORAGE", <thaumicenergistics:storage.component:3>);
 
@@ -391,7 +432,7 @@ mods.thaumcraft.Research.setComplexity("thaumicenergistics.TESTORAGE", 3);
 
 // --- Vis Relay Interface
 mods.thaumcraft.Arcane.addShaped("thaumicenergistics.TEVISINT", <thaumicenergistics:part.base:6>, "ordo 20, terra 20, ignis 20, aqua 20, perditio 20, aer 20", [
-[<Thaumcraft:blockCrystal:6>, <extracells:part.base:9>, <Thaumcraft:blockCrystal:6>],
+[<Thaumcraft:blockCrystal:6>, <appliedenergistics2:item.ItemMultiPart:440>, <Thaumcraft:blockCrystal:6>],
 [<ore:screwInfusedEarth>, <appliedenergistics2:item.ItemMultiPart:460>, <ore:screwInfusedEarth>],
 [<ore:plateInfusedOrder>, <ore:plateInfusedOrder>, <ore:plateInfusedOrder>]]);
 // -
@@ -405,7 +446,7 @@ mods.thaumcraft.Research.setAspects("thaumicenergistics.TETHAUMGBOX", "terra 15,
 mods.thaumcraft.Research.setComplexity("thaumicenergistics.TETHAUMGBOX", 3);
 
 // --- Arcane Assembler
-mods.thaumcraft.Infusion.addRecipe("thaumicenergistics.TEARCANEASSEMBLER", <extracells:fluidcrafter>, 
+mods.thaumcraft.Infusion.addRecipe("thaumicenergistics.TEARCANEASSEMBLER", <appliedenergistics2:tile.BlockMolecularAssembler>, 
 [<Thaumcraft:WandCasting:*>.withTag({aqua: 15000, ignis: 15000, terra: 15000, cap: "thaumium", rod: "silverwood", ordo: 15000, sceptre: 1 as byte, perditio: 15000, aer: 15000}), <Thaumcraft:blockCrystal>, <Thaumcraft:blockCrystal:1>, <Thaumcraft:blockCrystal:2>, <Thaumcraft:blockCrystal:3>, <Thaumcraft:blockCrystal:4>, <Thaumcraft:blockCrystal:5>, <Thaumcraft:blockCrystal:6>], 
 "auram 16, fabrico 64, metallum 8, permutatio 32, lucrum 16, praecantatio 48, vitreus 16", <thaumicenergistics:thaumicenergistics.block.arcane.assembler>, 16);
 // -

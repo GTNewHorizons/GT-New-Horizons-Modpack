@@ -9,6 +9,8 @@ import mods.gregtech.Assembler;
 import mods.nei.NEI;
 
 
+// --- I18N ---
+val I18N_Adv_Solar_Panel_0 = "Irradiant Reinforced Iridium Plate";
 
 
 // --- Remove Recipes --- 
@@ -62,10 +64,10 @@ recipes.remove(<AdvancedSolarPanel:asp_crafting_items:13>);
 
 
 // --- MT Core fore Molecular Transformer
-recipes.addShaped(<AdvancedSolarPanel:asp_crafting_items:12>, [
-[<AdvancedSolarPanel:asp_crafting_items:5>, <IC2:reactorReflectorThick:*>, <AdvancedSolarPanel:asp_crafting_items:5>],
-[<ore:plateTitanium>, <ore:craftingToolWrench>, <ore:plateTitanium>],
-[<AdvancedSolarPanel:asp_crafting_items:5>, <IC2:reactorReflectorThick:*>, <AdvancedSolarPanel:asp_crafting_items:5>]]);
+//recipes.addShaped(<AdvancedSolarPanel:asp_crafting_items:12>, [
+//[<AdvancedSolarPanel:asp_crafting_items:5>, <IC2:reactorReflectorThick:*>, <AdvancedSolarPanel:asp_crafting_items:5>],
+//[<ore:plateTitanium>, <ore:craftingToolWrench>, <ore:plateTitanium>],
+//[<AdvancedSolarPanel:asp_crafting_items:5>, <IC2:reactorReflectorThick:*>, <AdvancedSolarPanel:asp_crafting_items:5>]]);
 
 // --- Advanced Solar Helm
 recipes.addShaped(<AdvancedSolarPanel:advanced_solar_helmet>, [
@@ -145,4 +147,4 @@ Assembler.addRecipe(<AdvancedSolarPanel:asp_crafting_items:4>, <AdvancedSolarPan
 
 
 // --- Irradiant Reinforced Iridium Plate
-NEI.overrideName(<AdvancedSolarPanel:asp_crafting_items:8>, "Irradiant Reinforced Iridium Plate");
+NEI.overrideName(<AdvancedSolarPanel:asp_crafting_items:8>, I18N_Adv_Solar_Panel_0);

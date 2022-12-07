@@ -7,8 +7,17 @@ import mods.thaumcraft.Crucible;
 import mods.thaumcraft.Research;
 import mods.thaumcraft.Infusion;
 import mods.thaumcraft.Warp;
+import mods.ic2.Compressor;
 import mods.gregtech.CuttingSaw;
 
+
+// --- I18N ---
+val I18N_Thaumic_Bases_01_Main_0 = "No activation here!";
+val I18N_Thaumic_Bases_01_Main_1 = "A thaumaturge always seeks for a way to give discovered materials a real purpose. That metal you've just unlocked, thauminite works just as thaumium, so why not use it as a wand cap ? Well, thauminite doesn't seem to be as bendable as thaumium, due to the high amount of vitreus in it. However, that property can be used to enhance regular thaumium caps. The infusion is capable of turning the thauminite into small pieces, making it able to re-crystalise directly on the thaumium caps. To ensure that cap and thauminite are bound together for  ...forever you'll also need some quicksilver and also a bit of salis mundus to reduce thauminites crystalisation time.";
+val I18N_Thaumic_Bases_01_Main_2 = "These new caps seem to better than thaumium caps, but you feel something within them... maybe there is something more to them?";
+val I18N_Thaumic_Bases_01_Main_3 = "Concentrated Taint";
+val I18N_Thaumic_Bases_01_Main_4 = "What could go wrong ?";
+val I18N_Thaumic_Bases_01_Main_5 = " Your experiments with taint were quite successful, but you know that you can do much better. So you tried to feed the bottled taint with some vitium essentia. The result is quite nice, it grows and gets even stronger, so why not trying this with a full jar of vitium. Since you definitly dont want to taint you whole home you'll need a controlled enviroment, like the infusion. However, you should better stabilise the flask with some salis mundus, just to make sure that no taint escapes.";
 
 // --- Vars ---
 
@@ -91,6 +100,9 @@ Arcane.removeRecipe(<thaumicbases:nodeLinker>);
 // --- Slabs
 recipes.removeShaped(<thaumicbases:crystalSlab:*>);
 recipes.removeShaped(<thaumicbases:genericSlab:*>);
+
+// --- Quicksilver Block
+recipes.remove(<thaumicbases:quicksilverBlock>);
 
 // --- Overenchanter
 mods.thaumcraft.Infusion.removeRecipe(<thaumicbases:overchanter>);
@@ -379,6 +391,9 @@ Crucible.addRecipe("TB.Amber", <Thaumcraft:ItemResource:6>, <minecraft:sapling:1
 // --- Quicksilver
 Crucible.addRecipe("TB.Quicksilver", <Thaumcraft:ItemResource:3>, <Thaumcraft:blockMagicalLog:1>, "ordo 1, venenum 1");
 
+// --- Quicksilver Block
+Compressor.addRecipe(<thaumicbases:quicksilverBlock>, <Thaumcraft:ItemResource:3> * 9);
+
 // --- Deco Blocks
 CuttingSaw.addRecipe([<thaumicbases:genericSlab:0> * 2], <thaumicbases:eldritchArk>, <liquid:water> * 32, 200, 30);
 CuttingSaw.addRecipe([<thaumicbases:genericSlab:0> * 2], <thaumicbases:eldritchArk>, <liquid:ic2distilledwater> * 20, 200, 30);
@@ -494,10 +509,10 @@ Warp.addToResearch("TB.VoidSeed",5);
 Research.clearPages("CAP_thauminite");
 Research.addPage("CAP_thauminite","tb.rec.capthauminite.page.NH.0");
 Research.addPage("CAP_thauminite","tb.rec.capthauminite.page.NH.1");
-//game.setLocalization("tc.research_text.CAP_thauminite","No activation here!");
-game.setLocalization("tb.rec.capthauminite.page.NH.0", "A thaumaturge always seeks for a way to give discovered materials a real purpose. That metal you've just unlocked, thauminite works just as thaumium, so why not use it as a wand cap ? Well, thauminite doesn't seem to be as bendable as thaumium, due to the high amount of vitreus in it. However, that property can be used to enhance regular thaumium caps. The infusion is capable of turning the thauminite into small pieces, making it able to re-crystalise directly on the thaumium caps. To ensure that cap and thauminite are bound together for  ...forever you'll also need some quicksilver and also a bit of salis mundus to reduce thauminites crystalisation time.");
+//game.setLocalization("tc.research_text.CAP_thauminite",I18N_Thaumic_Bases_01_Main_0);
+game.setLocalization("tb.rec.capthauminite.page.NH.0", I18N_Thaumic_Bases_01_Main_1);
 Research.addInfusionPage("CAP_thauminite",capThauminite);
-game.setLocalization("tb.rec.capthauminite.page.NH.1", "These new caps seem to better than thaumium caps, but you feel something within them... maybe there is something more to them?");
+game.setLocalization("tb.rec.capthauminite.page.NH.1", I18N_Thaumic_Bases_01_Main_2);
 Warp.addToResearch("CAP_thauminite",2);
 
 // --- Focus Experience
@@ -578,10 +593,10 @@ Research.refreshResearchRecipe("TB.NodeFoci.Taint");
 
 // --- Taint Flask
 Research.addResearch("TB.TaintFlask", "THAUMICBASES", "vitium 10, alienis 15, perditio 8, permutatio 12", 1, -1 as int, 8, <thaumicbases:concentratedTaint>);
-game.setLocalization("en_US", "tc.research_name.TB.TaintFlask", "Concentrated Taint");
-game.setLocalization("en_US", "tc.research_text.TB.TaintFlask", "What could go wrong ?");
+game.setLocalization("en_US", "tc.research_name.TB.TaintFlask", I18N_Thaumic_Bases_01_Main_3);
+game.setLocalization("en_US", "tc.research_text.TB.TaintFlask", I18N_Thaumic_Bases_01_Main_4);
 mods.thaumcraft.Research.addPage("TB.TaintFlask", "tb.rec.TB.TaintFlask.page.NH.0");
-game.setLocalization("en_US", "tb.rec.TB.TaintFlask.page.NH.0", " Your experiments with taint were quite successful, but you know that you can do much better. So you tried to feed the bottled taint with some vitium essentia. The result is quite nice, it grows and gets even stronger, so why not trying this with a full jar of vitium. Since you definitly dont want to taint you whole home you'll need a controlled enviroment, like the infusion. However, you should better stabilise the flask with some salis mundus, just to make sure that no taint escapes.");
+game.setLocalization("en_US", "tb.rec.TB.TaintFlask.page.NH.0", I18N_Thaumic_Bases_01_Main_5);
 mods.thaumcraft.Research.addInfusionPage("TB.TaintFlask", <thaumicbases:concentratedTaint>);
 mods.thaumcraft.Research.addPrereq("TB.TaintFlask", "TB.INFUSION", false);
 mods.thaumcraft.Research.addPrereq("TB.TaintFlask", "BOTTLETAINT", true);

@@ -16,6 +16,9 @@ import mods.gregtech.Wiremill;
 import minetweaker.item.IItemStack;
 import minetweaker.item.IIngredient;
 
+// --- I18N ---
+val I18N_AE2_0 = "Universal Storage Housing";
+
 // --- Variables ---
 
 
@@ -44,6 +47,10 @@ val CCertusQuartz = <appliedenergistics2:item.ItemMultiMaterial:1>;
 val PureCertusQCrystal = <appliedenergistics2:item.ItemMultiMaterial:10>;
 val FluixGlassCable = <appliedenergistics2:item.ItemMultiPart:16>;
 val FluixCoveredC = <appliedenergistics2:item.ItemMultiPart:36>;
+val DenseSmartCable = <appliedenergistics2:item.ItemMultiPart:76>;
+val DenseCoveredC = <appliedenergistics2:item.ItemMultiPart:536>;
+val UDenseSmartCable = <appliedenergistics2:item.ItemMultiPart:576>;
+val UDenseCoveredC = <appliedenergistics2:item.ItemMultiPart:556>;
 val FormationCore = <appliedenergistics2:item.ItemMultiMaterial:43>;
 val AnnihilationCore = <appliedenergistics2:item.ItemMultiMaterial:44>;
 val WirelessReceiver = <appliedenergistics2:item.ItemMultiMaterial:41>;
@@ -121,8 +128,6 @@ val RubberPlate = <ore:plateAnyRubber>;
 val CertusPlate = <gregtech:gt.metaitem.01:17516>;
 val NQuartzPlate = <gregtech:gt.metaitem.01:17522>;
 val QuartzitePlate = <gregtech:gt.metaitem.01:17523>;
-val SiliconPlate = <gregtech:gt.metaitem.01:17020>;
-val SiliconRod = <ore:stickSilicon>;
 val CertusRod = <ore:stickCertusQuartz>;
 val NQuartzRod = <ore:stickNetherQuartz>;
 val QuartziteScrew = <ore:screwQuartzite>;
@@ -213,8 +218,43 @@ var denseCoveredColored = [
 <appliedenergistics2:item.ItemMultiPart:535>]
 as IItemStack[];
 
-// --- Removing Recipes ---
-mods.appeng.Grinder.removeRecipe(<*>);
+var denseUltraCoveredColored = [
+<appliedenergistics2:item.ItemMultiPart:540>,
+<appliedenergistics2:item.ItemMultiPart:541>,
+<appliedenergistics2:item.ItemMultiPart:542>,
+<appliedenergistics2:item.ItemMultiPart:543>,
+<appliedenergistics2:item.ItemMultiPart:544>,
+<appliedenergistics2:item.ItemMultiPart:545>,
+<appliedenergistics2:item.ItemMultiPart:546>,
+<appliedenergistics2:item.ItemMultiPart:547>,
+<appliedenergistics2:item.ItemMultiPart:548>,
+<appliedenergistics2:item.ItemMultiPart:549>,
+<appliedenergistics2:item.ItemMultiPart:550>,
+<appliedenergistics2:item.ItemMultiPart:551>,
+<appliedenergistics2:item.ItemMultiPart:552>,
+<appliedenergistics2:item.ItemMultiPart:553>,
+<appliedenergistics2:item.ItemMultiPart:554>,
+<appliedenergistics2:item.ItemMultiPart:555>]
+as IItemStack[];
+
+var denseUltraSmartColored = [
+<appliedenergistics2:item.ItemMultiPart:560>,
+<appliedenergistics2:item.ItemMultiPart:561>,
+<appliedenergistics2:item.ItemMultiPart:562>,
+<appliedenergistics2:item.ItemMultiPart:563>,
+<appliedenergistics2:item.ItemMultiPart:564>,
+<appliedenergistics2:item.ItemMultiPart:565>,
+<appliedenergistics2:item.ItemMultiPart:566>,
+<appliedenergistics2:item.ItemMultiPart:567>,
+<appliedenergistics2:item.ItemMultiPart:568>,
+<appliedenergistics2:item.ItemMultiPart:569>,
+<appliedenergistics2:item.ItemMultiPart:570>,
+<appliedenergistics2:item.ItemMultiPart:571>,
+<appliedenergistics2:item.ItemMultiPart:572>,
+<appliedenergistics2:item.ItemMultiPart:573>,
+<appliedenergistics2:item.ItemMultiPart:574>,
+<appliedenergistics2:item.ItemMultiPart:575>]
+as IItemStack[];
 
 // --- Blocks ---
 
@@ -309,6 +349,12 @@ recipes.remove(FluixGlassCable);
 
 // --- Fluix Covered Cable
 recipes.remove(FluixCoveredC);
+
+// --- Dense Covered Cable
+recipes.remove(DenseCoveredC);
+
+// --- Dense Smart Cable
+recipes.remove(DenseSmartCable);
 
 // --- Fluix Crystal
 recipes.remove(FluixCrystal);
@@ -516,9 +562,6 @@ recipes.remove(<appliedenergistics2:item.ItemMultiPart:80>);
 
 // --- ME inverted Toggle Bus
 recipes.remove(<appliedenergistics2:item.ItemMultiPart:100>);
-
-// --- ME Dense Cable Fluix
-recipes.remove(<appliedenergistics2:item.ItemMultiPart:76>);
 
 // --- ME Smart Cable
 recipes.remove(<appliedenergistics2:item.ItemMultiPart:56>);
@@ -923,29 +966,31 @@ recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:300>, [
 [<ore:gemFluix>, <ore:gemFluix>, <ore:gemFluix>]]);
 
 // --- Cable Anchor
-recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:120> * 2, [<ore:craftingToolKnife>, <ore:ingotIron>]);
+recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:120>, [[<ore:boltIron>, null], [null, <ore:boltIron>]]);
 // -
-recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:120> * 2, [<ore:craftingToolKnife>, <ore:ingotCopper>]);
+recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:120>, [[<ore:boltCopper>, null], [null, <ore:boltCopper>]]);
 // -
-recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:120> * 3, [<ore:craftingToolKnife>, <ore:ingotBronze>]);
+recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:120>, [[<ore:boltBronze>, null], [null, <ore:boltBronze>]]);
 // -
-recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:120> * 2, [<ore:craftingToolKnife>, <ore:ingotTin>]);
+recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:120>, [[<ore:boltTin>, null], [null, <ore:boltTin>]]);
 // -
-recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:120> * 2, [<ore:craftingToolKnife>, <ore:ingotIron>]);
+recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:120> * 2, [[<ore:boltSteel>, null], [null, <ore:boltSteel>]]);
 // -
-recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:120> * 4, [<ore:craftingToolKnife>, <ore:ingotSteel>]);
+recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:120> * 2, [[<ore:boltAluminium>, null], [null, <ore:boltAluminium>]]);
 // -
-recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:120> * 4, [<ore:craftingToolKnife>, <ore:ingotAluminium>]);
+recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:120>, [[<ore:boltLead>, null], [null, <ore:boltLead>]]);
 // -
-recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:120> * 2, [<ore:craftingToolKnife>, <ore:ingotLead>]);
+recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:120>, [[<ore:boltNickel>, null], [null, <ore:boltNickel>]]);
 // -
-recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:120> * 2, [<ore:craftingToolKnife>, <ore:ingotNickel>]);
+recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:120>, [[<ore:boltSilver>, null], [null, <ore:boltSilver>]]);
 // -
-recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:120> * 2, [<ore:craftingToolKnife>, <ore:ingotSilver>]);
+recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:120>, [[<ore:boltBrass>, null], [null, <ore:boltBrass>]]);
 // -
-recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:120> * 3, [<ore:craftingToolKnife>, <ore:ingotBrass>]);
+recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:120>, [[<ore:boltInvar>, null], [null, <ore:boltInvar>]]);
 // -
-recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:120> * 3, [<ore:craftingToolKnife>, <ore:ingotInvar>]);
+recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:120> * 3, [[<ore:boltStainlessSteel>, null], [null, <ore:boltStainlessSteel>]]);
+// -
+recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:120> * 4, [[<ore:boltTitanium>, null], [null, <ore:boltTitanium>]]);
 
 // --- ME Export Bus
 recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:260>, [
@@ -1242,6 +1287,12 @@ recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:56>, [covered]);}
 for i, covered in denseColored {
 recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:76>, [covered]);}
 
+for i, covered in denseUltraCoveredColored {
+recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:556>, [covered]);}
+
+for i, covered in denseUltraSmartColored {
+recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:576>, [covered]);}
+
 for i, covered in denseCoveredColored {
 recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:536>, [covered]);}
 
@@ -1363,11 +1414,30 @@ Assembler.addRecipe(FluixCoveredC, FluixGlassCable, <gregtech:gt.integrated_circ
 Assembler.addRecipe(FluixCoveredC, FluixGlassCable, <gregtech:gt.integrated_circuit:24> * 0, <liquid:molten.styrenebutadienerubber> * 108, 150, 120);
 Assembler.addRecipe(FluixCoveredC, FluixGlassCable, <gregtech:gt.integrated_circuit:24> * 0, <liquid:molten.rubber> * 144, 150, 120);
 
-// --- ME Dense Cable Fluix
-Assembler.addRecipe(<appliedenergistics2:item.ItemMultiPart:76>, FluixCoveredC * 4, <gregtech:gt.metaitem.01:17811>, <liquid:molten.redstone> * 144, 200, 120);
+// --- Dense Covered Cable
+Assembler.addRecipe(DenseCoveredC, DenseSmartCable, <gregtech:gt.metaitem.01:1633>, <liquid:molten.silicone> * 72, 200, 480);
+Assembler.addRecipe(DenseCoveredC, DenseSmartCable, <gregtech:gt.metaitem.01:1633>, <liquid:molten.styrenebutadienerubber> * 72, 200, 480);
+Assembler.addRecipe(DenseCoveredC, DenseSmartCable, <gregtech:gt.metaitem.01:1649>, <liquid:molten.silicone> * 72, 200, 480);
+Assembler.addRecipe(DenseCoveredC, DenseSmartCable, <gregtech:gt.metaitem.01:1649>, <liquid:molten.styrenebutadienerubber> * 72, 200, 480);
+Assembler.addRecipe(DenseCoveredC, DenseSmartCable, <gregtech:gt.integrated_circuit:24> * 0, <liquid:molten.silicone> * 144, 200, 480);
+Assembler.addRecipe(DenseCoveredC, DenseSmartCable, <gregtech:gt.integrated_circuit:24> * 0, <liquid:molten.styrenebutadienerubber> * 216, 200, 480);
 
-// --- ME Smart Cable
-Assembler.addRecipe(<appliedenergistics2:item.ItemMultiPart:56>, FluixCoveredC, <gregtech:gt.metaitem.01:17526>, <liquid:molten.redstone> * 144, 150, 120);
+// --- Ultra Dense Covered Cable
+Assembler.addRecipe(UDenseCoveredC, UDenseSmartCable, <gregtech:gt.metaitem.01:1633>, <liquid:molten.silicone> * 144, 250, 1920);
+Assembler.addRecipe(UDenseCoveredC, UDenseSmartCable, <gregtech:gt.metaitem.01:1633>, <liquid:molten.styrenebutadienerubber> * 144, 250, 1920);
+Assembler.addRecipe(UDenseCoveredC, UDenseSmartCable, <gregtech:gt.metaitem.01:1649>, <liquid:molten.silicone> * 144, 250, 1920);
+Assembler.addRecipe(UDenseCoveredC, UDenseSmartCable, <gregtech:gt.metaitem.01:1649>, <liquid:molten.styrenebutadienerubber> * 144, 250, 1920);
+Assembler.addRecipe(UDenseCoveredC, UDenseSmartCable, <gregtech:gt.integrated_circuit:24> * 0, <liquid:molten.silicone> * 288, 250, 1920);
+Assembler.addRecipe(UDenseCoveredC, UDenseSmartCable, <gregtech:gt.integrated_circuit:24> * 0, <liquid:molten.styrenebutadienerubber> * 432, 250, 1920);
+
+// --- ME Smart Cable Fluix
+Assembler.addRecipe(<appliedenergistics2:item.ItemMultiPart:56> * 4, <appliedenergistics2:item.ItemMultiPart:16> * 4, <ore:circuitGood>, <liquid:molten.conductiveiron> * 144, 100, 120);
+
+// --- ME Dense Cable Fluix
+Assembler.addRecipe(<appliedenergistics2:item.ItemMultiPart:76> * 4, <appliedenergistics2:item.ItemMultiPart:56> * 16, <ore:circuitAdvanced>, <liquid:molten.energeticalloy> * 144, 100, 480);
+
+// --- ME Ultra Dense Cable Fluix
+Assembler.addRecipe(<appliedenergistics2:item.ItemMultiPart:576> * 4, <appliedenergistics2:item.ItemMultiPart:76> * 16, <ore:circuitData>, <liquid:molten.vibrantalloy> * 144, 200, 1920);
 
 // --- ME Storage Bus
 Assembler.addRecipe(<appliedenergistics2:item.ItemMultiPart:220>, [<ore:chestWood>, CertusScrew * 2, <appliedenergistics2:item.ItemMultiPart:440>, NQuartzPlate * 2, <gregtech:gt.metaitem.01:32640>], null, 200, 120);
@@ -1388,7 +1458,7 @@ Assembler.addRecipe(CraftingTerminal, [Terminal, CertusScrew * 2, SlabCTable, NQ
 Assembler.addRecipe(ProcessingTerminal, [CraftingTerminal, LuVConveyorbelt * 2, <dreamcraft:item.EngineeringProcessorItemAdvEmeraldCore>, LuVMotor * 2, LuVRobotarm], null, 200, 120);
 
 // --- Interface Terminal
-Assembler.addRecipe(InterfaceTerminal, [Terminal, CertusScrew * 2, NQuartzPlate * 2, DiamondCircuit], null, 200, 120);
+Assembler.addRecipe(InterfaceTerminal, [Terminal, CertusScrew * 2, Interface, NQuartzPlate * 2, DiamondCircuit], null, 200, 120);
 
 // --- Conversion Monitor
 Assembler.addRecipe(<appliedenergistics2:item.ItemMultiPart:420>, [<appliedenergistics2:item.ItemMultiPart:400>, CertusScrew * 2, <appliedenergistics2:item.ItemMultiMaterial:43>, NQuartzPlate * 2, <appliedenergistics2:item.ItemMultiMaterial:44>], null, 400, 120);
@@ -1473,4 +1543,4 @@ Wiremill.addRecipe(<appliedenergistics2:item.ItemMultiPart:140>, <gregtech:gt.me
 
 // --- Renaming Stuff ---
 
-NEI.overrideName(UStorageHousing, "Universal Storage Housing");
+NEI.overrideName(UStorageHousing, I18N_AE2_0);

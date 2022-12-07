@@ -1,0 +1,16 @@
+{
+  "ores": [
+    "rockMars",
+    "334",
+	"rockPhobos",
+    "333",
+	"rockDeimos",
+    "333"
+  ],
+  "radius": 20,
+  "cost": 750000,
+  "focusModId": "gregtech",
+  "focusName": "gt.metaitem.01",
+  "focusMeta": 32463
+}
+

@@ -19,6 +19,16 @@ import mods.nei.NEI;
 import mods.gregtech.Slicer;
 
 
+// --- I18N ---
+val I18N_Minecraft_0 = "Compressed Meteoric Iron Plate";
+val I18N_Minecraft_1 = "Compressed Copper Plate";
+val I18N_Minecraft_2 = "Compressed Tin Plate";
+val I18N_Minecraft_3 = "Compressed Aluminium Plate";
+val I18N_Minecraft_4 = "Compressed Steel Plate";
+val I18N_Minecraft_5 = "Compressed Bronze Plate";
+val I18N_Minecraft_6 = "Compressed Iron Plate";
+val I18N_Minecraft_7 = "Compressed Titanium Plate";
+val I18N_Minecraft_8 = "Compressed Desh Plate";
 
 
 // --- Variables ---
@@ -1208,19 +1218,19 @@ recipes.addShaped(Ladder * 8, [
 
 // --- Fence
 recipes.addShaped(Fence, [
-[Stick, Plank, Stick],
-[Stick, Plank, Stick],
-[Stick, Plank, Stick]]);
+[Stick, <minecraft:planks>, Stick],
+[Stick, <minecraft:planks>, Stick],
+[Stick, <minecraft:planks>, Stick]]);
 // -
 recipes.addShaped(Fence * 2, [
 [IronScrew, Screwdriver, IronScrew],
-[Stick, Plank, Stick],
-[Stick, Plank, Stick]]);
+[Stick, <minecraft:planks>, Stick],
+[Stick, <minecraft:planks>, Stick]]);
 // -
 recipes.addShaped(Fence * 4, [
 [SteelScrew, Screwdriver, SteelScrew],
-[Stick, Plank, Stick],
-[Stick, Plank, Stick]]);
+[Stick, <minecraft:planks>, Stick],
+[Stick, <minecraft:planks>, Stick]]);
 // -
 recipes.addShaped(Fence * 2, [
 [null, null, null],
@@ -2713,60 +2723,6 @@ recipes.addShaped(<minecraft:gold_nugget> * 9, [
 [null, null, null]]);
 
 
-// --- Charcoal
-mods.railcraft.BlastFurnace.addRecipe(<minecraft:log:*>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<minecraft:log2:*>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<BiomesOPlenty:logs1:*>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<BiomesOPlenty:logs2:*>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<BiomesOPlenty:logs3:*>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<BiomesOPlenty:logs4:*>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<ExtraTrees:log:*>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<Forestry:logsFireproof:*>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<Forestry:logs:*>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<Natura:tree:*>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<Natura:redwood:*>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<Natura:willow:*>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<Natura:Dark Tree:*>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<Natura:Rare Tree:*>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<Thaumcraft:blockMagicalLog:*>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<TwilightForest:tile.TFLog:*>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<TwilightForest:tile.TFMagicLog:*>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<witchery:witchlog:*>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<harvestthenether:netherLog:*>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<TaintedMagic:BlockWarpwoodLog>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<harvestcraft:pamCinnamon>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<harvestcraft:pamMaple>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<harvestcraft:pamPaperbark>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<thaumicbases:genLogs>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<thaumicbases:genLogs:1>, false, false, 20, <minecraft:coal:1>);
-//-
-mods.railcraft.BlastFurnace.addRecipe(<miscutils:blockRainforestOakLog>, false, false, 20, <minecraft:coal:1>);
-
-
 
 
 // --- Alloy Smelter Recipes ---
@@ -2869,9 +2825,6 @@ Assembler.addRecipe(<minecraft:trapdoor> * 4, <minecraft:wooden_slab> * 4, <Biom
 // -
 Assembler.addRecipe(<minecraft:trapdoor> * 6, <minecraft:wooden_slab> * 4, <BiomesOPlenty:bamboo> * 4, <liquid:molten.steel> * 16, 600, 4);
 
-
-// --- Piston
-Assembler.addRecipe(<minecraft:piston>, <dreamcraft:tile.PistonBlock>, <dreamcraft:item.PistonPlate>, 100, 30);
 
 // --- Bookshelf
 Assembler.addRecipe(<minecraft:bookshelf>, <minecraft:planks:*> * 6, <minecraft:book> * 3, 300, 16);
@@ -3339,29 +3292,29 @@ furnace.setFuel(<minecraft:wooden_pressure_plate>, 75);
 // --- Nei overriding Stuff ---
 
 
-// --- Compressed Meteoric Steel Plates
-NEI.overrideName(<GalacticraftCore:item.meteoricIronIngot:1>, "Compressed Meteoric Steel Plate");
+// --- Compressed Meteoric Iron Plate
+NEI.overrideName(<GalacticraftCore:item.meteoricIronIngot:1>, I18N_Minecraft_0);
 
 // --- Compressed Copper Plate
-NEI.overrideName(<GalacticraftCore:item.basicItem:6>, "Compressed Copper Plate");
+NEI.overrideName(<GalacticraftCore:item.basicItem:6>, I18N_Minecraft_1);
 
 // --- Compressed Tin Plate
-NEI.overrideName(<GalacticraftCore:item.basicItem:7>, "Compressed Tin Plate");
+NEI.overrideName(<GalacticraftCore:item.basicItem:7>, I18N_Minecraft_2);
 
 // --- Compressed Aluminium Plate
-NEI.overrideName(<GalacticraftCore:item.basicItem:8>, "Compressed Aluminium Plate");
+NEI.overrideName(<GalacticraftCore:item.basicItem:8>, I18N_Minecraft_3);
 
 // --- Compressed Steel Plate
-NEI.overrideName(<GalacticraftCore:item.basicItem:9>, "Compressed Steel Plate");
+NEI.overrideName(<GalacticraftCore:item.basicItem:9>, I18N_Minecraft_4);
 
 // --- Compressed Bronze Plate
-NEI.overrideName(<GalacticraftCore:item.basicItem:10>, "Compressed Bronze Plate");
+NEI.overrideName(<GalacticraftCore:item.basicItem:10>, I18N_Minecraft_5);
 
 // --- Compressed Iron Plate
-NEI.overrideName(<GalacticraftCore:item.basicItem:11>, "Compressed Iron Plate");
+NEI.overrideName(<GalacticraftCore:item.basicItem:11>, I18N_Minecraft_6);
 
 // --- Compressed Titamium Plate
-NEI.overrideName(<GalacticraftMars:item.itemBasicAsteroids:6>, "Compressed Titanium Plate");
+NEI.overrideName(<GalacticraftMars:item.itemBasicAsteroids:6>, I18N_Minecraft_7);
 
 // --- Compressed Desh Plate
-NEI.overrideName(<GalacticraftMars:item.null:5>, "Compressed Desh Plate");
+NEI.overrideName(<GalacticraftMars:item.null:5>, I18N_Minecraft_8);

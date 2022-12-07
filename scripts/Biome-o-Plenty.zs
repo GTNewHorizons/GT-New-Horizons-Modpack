@@ -123,6 +123,7 @@ recipes.addShapeless(<BiomesOPlenty:rocks>, [<BiomesOPlenty:rocks:1>]);
 
 // --- Glowing Coral
 recipes.addShapeless(<BiomesOPlenty:coral1:15>, [<BiomesOPlenty:coral2:8>, <ore:dustGlowstone>]);
+recipes.addShapeless(<BiomesOPlenty:coral1:15>, [<miscutils:item.BasicAgrichemItem:1>, <ore:dustGlowstone>]);
 
 // --- Pink Coral
 recipes.addShapeless(<BiomesOPlenty:coral1:12>, [<BiomesOPlenty:coral2:8>, <ore:dustGlowstone>, <ore:dyePink>]);

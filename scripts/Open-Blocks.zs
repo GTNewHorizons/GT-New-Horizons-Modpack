@@ -12,6 +12,10 @@ import mods.gregtech.ChemicalReactor;
 import mods.gregtech.Mixer;
 
 
+// --- I18N ---
+val I18N_Open_Blocks_0 = "Golden Egg";
+val I18N_Open_Blocks_1 = "[OB] Make A MiniMe";
+val I18N_Open_Blocks_2 = "The Golden Egg is a block from the OpenBlocks mod. This block is used to summon the Baby Mini Me. Before it hatches, it will begin to slowly spin in circles. After many spins, it will grow and emit large amounts of light. It will then float into the air, and explode. The explosion is minor, and should only break a single layer of standard resistance blocks. Right before it explodes, it will lift surrounding blocks into the air, then drop them back into place. Pictures of the hatching process can be found below.";
 
 // --- Variables ---
 
@@ -634,12 +638,12 @@ Mixer.addRecipe(<OpenBlocks:tastyClay>, null, [<minecraft:clay_ball>, <minecraft
 
 // --- Golden Egg
 mods.thaumcraft.Research.addResearch("GOLDENEGG", "MAGICBEES", "alienis 15, bestia 12, victus 9, humanus 6", -4 as int, 5, 4, <OpenBlocks:goldenegg>);
-game.setLocalization("tc.research_name.GOLDENEGG", "Golden Egg");
-game.setLocalization("tc.research_text.GOLDENEGG", "[OB] Make A MiniMe");
+game.setLocalization("tc.research_name.GOLDENEGG", I18N_Open_Blocks_0);
+game.setLocalization("tc.research_text.GOLDENEGG", I18N_Open_Blocks_1);
 mods.thaumcraft.Research.addPrereq("GOLDENEGG", "MB_DimensionalSingularity", false);
 mods.thaumcraft.Research.setConcealed("GOLDENEGG", true);
 mods.thaumcraft.Research.addPage("GOLDENEGG", "OpenBlocks.research_page.GOLDENEGG");
-game.setLocalization("OpenBlocks.research_page.GOLDENEGG", "The Golden Egg is a block from the OpenBlocks mod. This block is used to summon the Baby Mini Me. Before it hatches, it will begin to slowly spin in circles. After many spins, it will grow and emit large amounts of light. It will then float into the air, and explode. The explosion is minor, and should only break a single layer of standard resistance blocks. Right before it explodes, it will lift surrounding blocks into the air, then drop them back into place. Pictures of the hatching process can be found below.");
+game.setLocalization("OpenBlocks.research_page.GOLDENEGG", I18N_Open_Blocks_2);
 mods.thaumcraft.Infusion.addRecipe("GOLDENEGG",<minecraft:egg>, [<gregtech:gt.metaitem.01:22086>, <minecraft:skull:3>, <gregtech:gt.metaitem.01:22086>, <minecraft:skull:3>, <gregtech:gt.metaitem.01:22086>, <minecraft:skull:3>], "alienis 75, bestia 50, victus 50, humanus 25",  <OpenBlocks:goldenegg>, 2);
 mods.thaumcraft.Research.addInfusionPage("GOLDENEGG", <OpenBlocks:goldenegg>);
 mods.thaumcraft.Warp.addToResearch("GOLDENEGG", 2);

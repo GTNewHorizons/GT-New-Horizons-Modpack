@@ -16,6 +16,20 @@ import mods.ic2.SemiFluidGenerator;
 import mods.nei.NEI;
 
 
+// --- I18N ---
+val I18N_Forestry_0 = "Proven Frame";
+val I18N_Forestry_1 = "[FR] Better than Impregnated Frames";
+val I18N_Forestry_2 = "The Proven Frame is an item used in an Apiary. Each frame doubles the bees productivity. Out of the three Forestry frames (Untreated, Impregnated and Proven), the Proven Frame has the longest durability.<BR> Proven Frames are normally only obtainable through trading with an Apiarist Villager. The Villager will trade six Proven Frames for one Emerald.<BR> Now you find a magical way put different Bee products and infuse a impregnated Frame to get a Proven Frame. In an Alveary structure, the Frame Housing can be added to make use of the Frame.";
+val I18N_Forestry_3 = "Proven Grafter";
+val I18N_Forestry_4 = "[FR] Better than a Bronze Grafter";
+val I18N_Forestry_5 = "The Proven Grafter is significantly stronger than the Bronze Grafter and can be obtained by trading with villagers. Like its counterparts the Bronze Grafter and the Thaumium Grafter it makes it possible for one to achieve a 100% sapling drop rate from trees that have been bred with the Forestry mod.<BR> It does not work on ordinary trees, and when it breaks the last hit does not retrieve a sapling.<BR> Now you find a magical way to infuse a bronze Grafter with saplings and pollen to get a proven one.";
+val I18N_Forestry_6 = "Swarmer";
+val I18N_Forestry_7 = "Alveary Fan";
+val I18N_Forestry_8 = "Alveary Heater";
+val I18N_Forestry_9 = "Alveary Hygroregulator";
+val I18N_Forestry_10 = "Alveary Stabiliser";
+val I18N_Forestry_11 = "Alveary Sieve";
+
 // --- Remove Recipes ---
 
 
@@ -61,7 +75,7 @@ recipes.remove(<Forestry:factory2>);
 // --- Rain Tank
 recipes.remove(<Forestry:factory2:1>);
 
-// --- Work Table
+// --- Worktable
 recipes.remove(<Forestry:factory2:2>);
 
 // --- Escritoire
@@ -551,7 +565,7 @@ recipes.addShaped(<Forestry:factory2:1>, [
 [<ore:plateIron>, <ore:craftingToolHardHammer>, <ore:plateIron>],
 [<ore:plateIron>, <ore:ringIron>, <ore:plateIron>]]);
 
-// --- Work Table
+// --- Worktable
 recipes.addShaped(<Forestry:factory2:2>, [
 [<ore:screwIron>, <minecraft:bookshelf>, <ore:screwIron>],
 [<ore:craftingToolSaw>, <minecraft:crafting_table>, <ore:craftingToolScrewdriver>],
@@ -1351,12 +1365,12 @@ null, <Forestry:frameImpregnated>);
 
 // --- Proven Frame
 mods.thaumcraft.Research.addResearch("PROVENFRAME", "MAGICBEES", "praecantatio 15, fabrico 12, cognitio 9, potentia 6", 7, 0, 4, <Forestry:frameProven>);
-game.setLocalization("tc.research_name.PROVENFRAME", "Proven Frame");
-game.setLocalization("tc.research_text.PROVENFRAME", "[FR] Better than Impregnated Frames");
+game.setLocalization("tc.research_name.PROVENFRAME", I18N_Forestry_0);
+game.setLocalization("tc.research_text.PROVENFRAME", I18N_Forestry_1);
 mods.thaumcraft.Research.addPrereq("PROVENFRAME", "MB_EssenceArmor", false);
 mods.thaumcraft.Research.setConcealed("PROVENFRAME", true);
 mods.thaumcraft.Research.addPage("PROVENFRAME", "Forestry.research_page.PROVENFRAME");
-game.setLocalization("Forestry.research_page.PROVENFRAME", "The Proven Frame is an item used in an Apiary. Each frame doubles the bees productivity. Out of the three Forestry frames (Untreated, Impregnated and Proven), the Proven Frame has the longest durability.<BR> Proven Frames are normally only obtainable through trading with an Apiarist Villager. The Villager will trade six Proven Frames for one Emerald.<BR> Now you find a magical way put different Bee products and infuse a impregnated Frame to get a Proven Frame. In an Alveary structure, the Frame Housing can be added to make use of the Frame.");
+game.setLocalization("Forestry.research_page.PROVENFRAME", I18N_Forestry_2);
 mods.thaumcraft.Arcane.addShaped("PROVENFRAME", <Forestry:frameProven>, "ordo 15, terra 15, aer 15, perditio 15, ignis 15, aqua 15", [
 [<gregtech:gt.metaitem.01:27305>, <Forestry:honeydew>, <gregtech:gt.metaitem.01:27305>],
 [<Forestry:propolis>, <Forestry:frameImpregnated>, <Forestry:propolis:3>],
@@ -1365,12 +1379,12 @@ mods.thaumcraft.Research.addArcanePage("PROVENFRAME", <Forestry:frameProven>);
 
 // --- Proven Grafter
 mods.thaumcraft.Research.addResearch("PROVENGRAFTER", "MAGICBEES", "instrumentum 15, permutatio 12, metallum 9, arbor 6", -5 as int, -3 as int, 4, <Forestry:grafterProven>);
-game.setLocalization("tc.research_name.PROVENGRAFTER", "Proven Grafter");
-game.setLocalization("tc.research_text.PROVENGRAFTER", "[FR] Better than a Bronze Grafter");
+game.setLocalization("tc.research_name.PROVENGRAFTER", I18N_Forestry_3);
+game.setLocalization("tc.research_text.PROVENGRAFTER", I18N_Forestry_4);
 mods.thaumcraft.Research.addPrereq("PROVENGRAFTER", "MB_Scoop", false);
 mods.thaumcraft.Research.setConcealed("PROVENGRAFTER", true);
 mods.thaumcraft.Research.addPage("PROVENGRAFTER", "Forestry.research_page.PROVENGRAFTER");
-game.setLocalization("Forestry.research_page.PROVENGRAFTER", "The Proven Grafter is significantly stronger than the Bronze Grafter and can be obtained by trading with villagers. Like its counterparts the Bronze Grafter and the Thaumium Grafter it makes it possible for one to achieve a 100% sapling drop rate from trees that have been bred with the Forestry mod.<BR> It does not work on ordinary trees, and when it breaks the last hit does not retrieve a sapling.<BR> Now you find a magical way to infuse a bronze Grafter with saplings and pollen to get a proven one.");
+game.setLocalization("Forestry.research_page.PROVENGRAFTER", I18N_Forestry_5);
 mods.thaumcraft.Infusion.addRecipe("PROVENGRAFTER", <Forestry:grafter>, 
 [<minecraft:sapling:1>, <minecraft:sapling:2>, <Forestry:pollen>, <minecraft:sapling:3>, <minecraft:sapling:4>, <minecraft:sapling:5>, <Forestry:pollen:1>, <minecraft:sapling>], 
 "instrumentum 25, permutatio 25, metallum 20, arbor 10", <Forestry:grafterProven>, 3);
@@ -2734,7 +2748,8 @@ Assembler.addRecipe(<Forestry:cart.beehouse>, <Forestry:apiculture:2>, <minecraf
 // --- Cart with Apiary
 Assembler.addRecipe(<Forestry:cart.beehouse:1>, <Forestry:apiculture>, <minecraft:minecart>, 200, 16);
 
-
+// --- Worktable
+Assembler.addRecipe(<Forestry:factory2:2>, [<minecraft:book>, <minecraft:crafting_table>, <minecraft:chest>, <gregtech:gt.integrated_circuit:1> * 0], null, 200, 30);
 
 
 // --- Centrifuge Recipes ---
@@ -2788,19 +2803,19 @@ oreDict.listAllsugar.add(<Forestry:honeyDrop>);
 
 
 // --- Swarmer
-NEI.overrideName(<Forestry:alveary:2>, "Swarmer");
+NEI.overrideName(<Forestry:alveary:2>, I18N_Forestry_6);
 
 // --- Swarmer
-NEI.overrideName(<Forestry:alveary:3>, "Alveary Fan");
+NEI.overrideName(<Forestry:alveary:3>, I18N_Forestry_7);
 
 // --- Swarmer
-NEI.overrideName(<Forestry:alveary:4>, "Alveary Heater");
+NEI.overrideName(<Forestry:alveary:4>, I18N_Forestry_8);
 
 // --- Swarmer
-NEI.overrideName(<Forestry:alveary:5>, "Alveary Hygroregulator");
+NEI.overrideName(<Forestry:alveary:5>, I18N_Forestry_9);
 
 // --- Swarmer
-NEI.overrideName(<Forestry:alveary:6>, "Alveary Stabiliser");
+NEI.overrideName(<Forestry:alveary:6>, I18N_Forestry_10);
 
 // --- Swarmer
-NEI.overrideName(<Forestry:alveary:7>, "Alveary Sieve");
+NEI.overrideName(<Forestry:alveary:7>, I18N_Forestry_11);

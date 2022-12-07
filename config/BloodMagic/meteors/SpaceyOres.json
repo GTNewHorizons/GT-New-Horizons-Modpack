@@ -1,0 +1,32 @@
+{
+  "ores": [
+	"oreBlackgraniteNaquadah",
+    "100",
+	"oreBlackgraniteNaquadahEnriched",
+    "25",
+	"oreBlackgraniteDeepIron",
+    "50",
+	"oreBlackgraniteQuantium",
+    "50",
+	"oreBlackgraniteArdite",
+    "50",
+	"oreBlackgraniteDraconium",
+    "50",
+	"oreBlackgraniteAdamantium",
+    "25",
+	"oreBlackgraniteNeodymium",
+    "75",
+	"oreBlackgraniteMonazite",
+    "75",
+	"oreBlackgraniteMeteoricIron",
+    "125",
+	"stoneGraniteBlack",
+    "250"
+  ],
+  "radius": 16,
+  "cost": 1500000,
+  "focusModId": "gregtech",
+  "focusName": "gt.metaitem.01",
+  "focusMeta": 32674
+}
+

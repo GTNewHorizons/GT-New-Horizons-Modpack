@@ -9,7 +9,6 @@ import mods.gregtech.Autoclave;
 import mods.gregtech.Brewery;
 import mods.gregtech.Centrifuge;
 import mods.gregtech.ChemicalBath;
-import mods.gregtech.ChemicalReactor;
 import mods.ic2.Compressor;
 import mods.gregtech.CuttingSaw;
 import mods.gregtech.Distillery;
@@ -20,17 +19,113 @@ import mods.gregtech.ForgeHammer;
 import mods.gregtech.FormingPress;
 import mods.gregtech.Lathe;
 import mods.gregtech.Pulverizer;
-import mods.gregtech.Mixer;
 import mods.gregtech.PlateBender;
 import mods.gregtech.PrecisionLaser;
 import mods.gregtech.VacuumFreezer;
 import mods.gregtech.Wiremill;
 
 
+// --- I18N ---
+val I18N_CoreMod_0 = "New Horizons";
+val I18N_CoreMod_1 = "Wither Protection Ring";
+val I18N_CoreMod_2 = "[NH] Wither...? It is star farming time";
+val I18N_CoreMod_3 = "The Wither Protection Ring is a very special ring. Now you find a way to rid of the nasty withering effect. With this Ring it is time to farm some Netherstars. Good luck!!!";
+val I18N_CoreMod_4 = "Carved 'Eminence' Stone";
+val I18N_CoreMod_5 = "[EU] Portal Stones";
+val I18N_CoreMod_6 = "A stone with trans-dimensional capacities. Can be used to craft a portal to The Last Millenium, or as expensive decoration block.";
+val I18N_CoreMod_7 = "Portal to The Last Millennium";
+val I18N_CoreMod_8 = "[EU] Night and Void";
+val I18N_CoreMod_9 = "This place is known as The Last Millenium. All life, energy, knowledge, passion, struggle, philosophy and meaning is just a few short centuries from being rendered fully pointless. On the plus side, rent is very cheap now.";
+val I18N_CoreMod_10 = "Portal to The Deep Dark";
+val I18N_CoreMod_11 = "[EU] Deep, Deeper, Deep Dark";
+val I18N_CoreMod_12 = "As an experienced miner you naturally wish to mine deeper and further than ever before into areas of natural wealth. The deep dark is a realm far below the void, filled with natural resources and deadly enemies. Some say that the darkness within this realm is alive and will consume any unlucky adventurer who wanders too far into it. Remember to bring torches. Torches will not protect you completely, however since mobs will spawn at all light levels in the Deep Dark. Magnum torches and Chandeliers will still prevent mob spawning.";
+val I18N_CoreMod_13 = "Magical Wood";
+val I18N_CoreMod_14 = "[EU] Twilight Thaumcraft Magic";
+val I18N_CoreMod_15 = "Magical Wood is an ingredient in the crafting of the Ender Core. It can be placed near an Enchantment Table to boost the level the table can enchant at by five levels. The amount of magical wood made from the crafting recipe depends on the strength of the enchantments on the Enchanted Books. For example, 4x Protection I gives a single piece of Magical Wood, whereas 4x Protection IV gives 14 pieces of wood.";
+val I18N_CoreMod_16 = "Angel Block";
+val I18N_CoreMod_17 = "[EU] A Block in the Air";
+val I18N_CoreMod_18 = "The Angel Block is a block added by the Extra Utilities mod. This block is unique in that it does not need another block for it to be built against, so it can be placed in mid-air. When right-clicking the block will be placed in the direction youre looking. The block cant be placed diagonally in mid-air. No tool is required to break the block and it is broken instantly, even without any tools. After breaking the block does not drop, but rather instantly returns to the players inventory.";
+val I18N_CoreMod_19 = "Dezil's Marshmallow";
+val I18N_CoreMod_20 = "[DE] OP food please";
+val I18N_CoreMod_21 = "The ultimate power of food. You can swim in lava, dive like a fish, mine like crazy and jump like a rabbit. Eat one of these marshmallows and you will never get hungry again. You feel like you can take on the Dragon with just bare hands";
+val I18N_CoreMod_22 = "Enchanting Table";
+val I18N_CoreMod_23 = "[MC] Oh, its more magical than a Table!";
+val I18N_CoreMod_24 = "An enchantment table is a block that allows players to spend their experience point levels to enchant tools, books and armor. The enchanting tables main purpose is to enchant items. Bookshelves surrounding the table, with a block of air in between, will increase the maximum enchantment level. The table will enchant all tools and armor except the hoe, shears, flint and steel, lead and horse armor. The hoe and shears cannot be enchanted by the enchantment table and require an anvil and an appropriate enchanted book.";
+val I18N_CoreMod_25 = "Disenchanting Table";
+val I18N_CoreMod_26 = "[DC] Oh, you can remove Enchants? Nice!";
+val I18N_CoreMod_27 = "Disenchanter is a block added by the Draconic Evolution mod. It can be used to remove enchantments from items. This is achieved by placing an enchanted item and a book in its GUI. The enchantment will be moved to the book after pressing the button in the GUI. This process costs a certain amount of experience, as well as cause damage to the item that is being disenchanted. The damage caused to the item can be reduced by placing Bookcases around the Disenchanter.";
+val I18N_CoreMod_28 = "Brewing Stand";
+val I18N_CoreMod_29 = "[MC] Oh, its more magical than a Cauldron!";
+val I18N_CoreMod_30 = "Brewing (or Alchemy) is the process of creating potions and splash potions by adding various ingredients to water bottles in a brewing stand. By placing bottles in the lower three slots of the brewing interface and an ingredient in the upper slot, you can distill the ingredient into the bottles and brew potions which may be consumed to grant an effect to the player. Every potion starts with a water bottle, made by filling a glass bottle at a water source or filled cauldron. The next step is to add a primary ingredient to create a base potion, which is usually Nether Wart, which creates an awkward potion and has no effects.";
+val I18N_CoreMod_31 = "By brewing a second ingredient into a base potion in the same manner, you can create a potion with a working effect. A third ingredient may be added to make the effect more intense or last longer, or turn the effect harmful. Finally, gunpowder can be added to a potion at any stage to convert it to a splash potion, which can be thrown (or fired using a dispenser) to disperse its effect in a radius. Each brewing step takes 20 seconds. Brewing can create very useful and lifesaving items. A good number of them are useful in combat by aiding the player or weakening enemies while others can save the players life if used quickly, like Fire Resistance or Healing.";
+val I18N_CoreMod_32 = "Gathering the Blaze Rods and Nether Wart necessary for brewing can prove challenging, but once they are set up, most potion ingredients are fairly plentiful and brewing will be a rewarding task.";
+val I18N_CoreMod_33 = "Beacon";
+val I18N_CoreMod_34 = "[MC] Oh, its more magical than a Diamond Block!";
+val I18N_CoreMod_35 = "A beacon is a unique block that projects a light beam skyward and can provide status effects to players in the vicinity. Beacon blocks can function as light sources, emitting a light level 15. Like other light sources, they will melt snow and ice. When activated, beacon blocks provide two unique functions: An aesthetic landmark beam reaching into the sky, which can be visible from far away. Powers, which give players status effects within a certain range.";
+val I18N_CoreMod_36 = "Dragon Egg";
+val I18N_CoreMod_37 = "[MC] Dragon Egg duplication";
+val I18N_CoreMod_38 = "Dragon Eggs are dropped by Enderdragons when they are killed. When Right Clicked they teleport a short distance. Now you find a magical way to duplicate this Powerful Item using Draconis Bee Products and The Essence of false Life inside the Infusion Table";
+val I18N_CoreMod_39 = "Silky Jewel";
+val I18N_CoreMod_40 = "[TC] Silky magical.";
+val I18N_CoreMod_41 = "Silky Cloth is a manufactured item and is a component of the Silky Jewel.<BR><BR>The Silky Jewel is a manufactured item, used to simulate the Silk Touch enchantment in TC tools.";
+val I18N_CoreMod_42 = "[TC] Fiery magical.";
+val I18N_CoreMod_43 = "A Lava Crystal is a modifier both for tools and weapons. If added, the tool(s) is/are granted with the power of a furnace, meaning it will auto-smelt blocks when harvested. However, adding this to a weapon will not give it the same effect. Instead, it will set mobs on fire for 3 seconds.<BR>This modifier can be stacked with Luck (Fortune) and is not compatible with Silky (Silk Touch).";
+val I18N_CoreMod_44 = "Ball of Moss";
+val I18N_CoreMod_45 = "[TC] Your Tools repair itselfs.";
+val I18N_CoreMod_46 = "The Ball of Moss for Tinkers Construct Tools.<BR> Attaching moss to a tool infuses it with life. The tool appers to be capable of regenerating wear and tear.<BR>Effects:<BR> The tool slowly repair itself.<BR>Sunlight speeds up the process.";
+val I18N_CoreMod_47 = "Necrotic Bone";
+val I18N_CoreMod_48 = "[TC] Evil way to make Wither Skeleton Bones.";
+val I18N_CoreMod_49 = "The Necrotic Bone is a special drop gained by killing Wither Skeletons, and can be rarely found in dungeon chests. Now you find a evil way to make it out of Skeleton Bones. Currently, the only use for the Necrotic bone is used to craft a Heart Canister and add a modifier to weapons. The sheer volume of essentia required is too much for the Crucible. You will need a more advanced method of production to create these bones.";
+val I18N_CoreMod_50 = "Red Heart";
+val I18N_CoreMod_51 = "[TC] 10 Hearts are not enough.";
+val I18N_CoreMod_52 = "The Miniature Red Heart is an item from Tinkers Construct. It is extremely rare and has very little uses, as it is only used to craft the Heart Canister.It is dropped randomly by hostile mobs or crafting via Infusion. The drop rate is 0.2% from regular hostile mobs. The heart may drop anytime a mob dies, the kill does not have to be caused by a player.Its primary use is in crafting the Red Heart Canister, but it can also be eaten to restore 10 life.";
+val I18N_CoreMod_53 = "Red Heart Canister";
+val I18N_CoreMod_54 = "[TC] Bound in a small box.";
+val I18N_CoreMod_55 = "The Red Heart Canister which increases the amount of hearts that the player has. To have an effect the canisters must be equipped in the Armor Tab, in the slot on the right with the symbol that looks like the red heart canister. Up to 10 can be stacked in this slot to allow for a total of 10 extra hearts (or 20 extra health points). These will not appear above the regular health bar like from the Absorption effect, instead once the health bar is full the red hearts will gradually be replaced by orange hearts.";
+val I18N_CoreMod_56 = "Yellow Heart";
+val I18N_CoreMod_57 = "[TC] 20 Hearts are not enough.";
+val I18N_CoreMod_58 = "The Miniature Yellow Heart is an item from Tinkers Construct. It can be obtained by killing Boss mobs such as the Wither or King Slime, as well as from killing any Boss Monsters in the Twilight like the Naga, the Lich or the Hydra. Its primary use is in crafting the Yellow Heart Canister, but it can also be eaten to restore 20 life.";
+val I18N_CoreMod_59 = "Yellow Heart Canister";
+val I18N_CoreMod_60 = "[TC] Bound in a box.";
+val I18N_CoreMod_61 = "The Yellow Heart Canister which increases the amount of hearts that the player has. To have an effect the canisters must be equipped in the Armor Tab, in the slot on the right with the symbol that looks like the yellow heart canister Up to 10 can be stacked in this slot to allow for a total of 10 extra hearts (or 20 extra health points). These will not appear above the regular health bar like from the Absorption effect, instead once the health bar is full with orange hearts it will gradually be replaced by yellow hearts.";
+val I18N_CoreMod_62 = "Green Heart";
+val I18N_CoreMod_63 = "[TC] 30 Hearts are not enough.";
+val I18N_CoreMod_64 = "The Miniature Green Heart is an item from Tinkers Construct. It can be made via Infusion. Its primary use is in crafting the Geen Heart Canister, but it can also be eaten to restore 30 life.";
+val I18N_CoreMod_65 = "Green Heart Canister";
+val I18N_CoreMod_66 = "[TC] Bound in a big box.";
+val I18N_CoreMod_67 = "The Green Heart Canister which increases the amount of hearts that the player has. To have an effect the canisters must be equipped in the Armor Tab, in the slot on the right with the symbol that looks like the green heart canister. Up to 10 can be stacked in this slot to allow for a total of 10 extra hearts (or 20 extra health points). These will not appear above the regular health bar like from the Absorption effect, instead once the health bar is full with yellow hearts and will gradually be replaced by green hearts.";
+val I18N_CoreMod_68 = "On top of the Yellow Heart Canisters, a maximum of 10 Red Heart Canisters and 10 Yellow Heart Canisters and 10 green Heart Canisters can be equipped for an additional 10 and 20 health points. This brings maximum health up to 40 hearts (or 80 health points)";
+val I18N_CoreMod_69 = "Ender Chest";
+val I18N_CoreMod_70 = "[EC] Oh, its more magical than a Chest!";
+val I18N_CoreMod_71 = "The Ender Chest is a block that allows the player to store 27 items much like a wooden chest however, if two Ender Chests are placed down in different places, the items inside chest A will be in chest B. If the items are taken from either chest, both of the chest will not have that item. While on SMP, players will not share the same storage. This can be used to prevent players form stealing more valuable items, as they cannot access the same a items. This also means two players can store items in the same ender chest.";
+val I18N_CoreMod_72 = "Ender Tank";
+val I18N_CoreMod_73 = "[EC] Oh, its more magical than a Tank!";
+val I18N_CoreMod_74 = "The Ender Tank offers stationary storage for up to 16 buckets of a single liquid. Like the Ender Chest, it has three wool pads on top which can be manipulated by right-clicking each one with a dye. Tanks with matching colors will share liquids between them, even across dimensions. Additionally, right-clicking the dial with a diamond will set that tank to a private network for that player, change the dial to a diamond color, and show your username in the tooltip. A private Ender Tank will not share any liquids with any public tank, or any private tank from another user, even if the colored pads match.";
+val I18N_CoreMod_75 = "Ender Pouch";
+val I18N_CoreMod_76 = "[EC] Oh, its more magical than a Backpack!";
+val I18N_CoreMod_77 = "The Ender Pouch is a craftable item offering remote access to any Ender Chest via right-clicking while holding the pouch. The Ender Pouch may be initially crafted with the desired color of wool; shift-right clicking on an Ender Chest with an Ender Pouch will synchronize the color code of the pouch to match the color code of the chest, replacing the previous color code of the pouch. When the ender-pouchs GUI is open, it is still possible to move it in your inventory, including moving it into the ender-pouch. Unlike bag-like things from other mods, it is then possible to retrieve it and its contents, by using an ender-chest or another ender-pouch with the same code.";
+val I18N_CoreMod_78 = "Auto Enchanting Table";
+val I18N_CoreMod_79 = "[OB] Auto Enchanting nice";
+val I18N_CoreMod_80 = "An Auto Enchantment Table can draw the experience from a Tank using the auto drink setting, this is then stored in its internal liquid buffer before usage. Theres also a setting to automatically pull items to work on from an inventory on some side of the enchantment table, as well as resources or books to combine them with. A final setting allows for ejecting the finished item into an inventory at some side of the enchantment table. All of the settings can be set to work with certain sides of the block, this is done by left-clicking the sides of the enchantment table model shown in the individual settings panels.";
+val I18N_CoreMod_81 = " The enchantment table model in the panels can also be rotated by holding the right mouse button and dragging the cursor around.";
+val I18N_CoreMod_82 = "Luggage";
+val I18N_CoreMod_83 = "[OB] Luggage follow me";
+val I18N_CoreMod_84 = "Luggage is a storage block added by OpenBlocks. The block acts like a regular chest, but it is an entity. After a player places it down by right-clicking with it on the ground, it will start following them around. Right-clicking will open the inventory and it picks up items from the ground. By holding shift and right-clicking the luggage entity, it can be turned back into an item and picked up. When picked up, the luggage item will retain all content thats stored in it.";
+val I18N_CoreMod_85 = "Though the entity has 20 health points, it cant be hurt. Beware, as Luggage can still be burned by Lava or destroyed by cactus, though this is only in its item form, in entity form it is immune to fire and lava and even if pushed into the void will fall down next to its owner a moment later. Upon being struck by lightning, having a lightning focused wand from the Thaumcraft mod cast on it, or being blown up by a Charged Creeper, the Luggage will become supercharged, changing its texture, and doubling its inventory space.";
+val I18N_CoreMod_86 = "Ghost Amulet";
+val I18N_CoreMod_87 = "[HEE] Ghost Amulet purification.";
+val I18N_CoreMod_88 = "Getting Dragon Essence from a Dragon is quite hard on a multiplayer server. You have found a way to purify your Ghost Amulet without Dragon essence the magical way. You need some Draconium, Endium, Infernium and other End items and ores which let you resurrect a Dragon and get some Dragon Essence.";
+val I18N_CoreMod_89 = "Skullfire Sword";
+val I18N_CoreMod_90 = "[Avaritia] Easier wither skulls";
+val I18N_CoreMod_91 = "Killing Wither Skeletons for their skulls is A) Mindnumbingly Boring, and B) Incredibly Dangerous. With this item, you can char regular skeleton's skulls so they drop the black ones as well, and it's even guaranteed to drop! Extra points if you automate it.";
+val I18N_CoreMod_92 = "Magical Obsidian Blocks";
+val I18N_CoreMod_93 = "Make them instead of finding them";
+val I18N_CoreMod_94 = "Tired of scrounging the world for these to make your BM rituals? Make them instead.";
+
+val I18N_Blood_Magic_Thaumcraft_56 = "Lava Crystal";
 
 // --- Variables ---
 
-val BlankPattern = <TConstruct:blankPattern>;
 val BlankCast = <TConstruct:blankPattern:1>;
 
 val SandstoneRod = <dreamcraft:item.SandStoneRod>;
@@ -46,7 +141,6 @@ val Saw = <ore:craftingToolSaw>;
 val Screwdriver = <ore:craftingToolScrewdriver>;
 val Mortar = <ore:craftingToolMortar>;
 val WireCutter = <ore:craftingToolWireCutter>;
-val WoodenBrickForm = <dreamcraft:item.WoodenBrickForm>.transformReplace(<dreamcraft:item.WoodenBrickForm>);
 
 val MagicalWood = <ExtraUtilities:decorativeBlock1:8>;
 val SilverwoodLog = <Thaumcraft:blockMagicalLog:1>;
@@ -530,60 +624,6 @@ recipes.addShaped(<dreamcraft:item.SawBladePeridot>, [
 [<ore:platePeridot>, <ore:platePeridot>, null],
 [File, Hammer, null]]);
 
-// --- Reinforced Aluminium Iron Plate
-recipes.addShaped(<dreamcraft:item.ReinforcedAluminiumIronPlate>, [
-[<ore:plateAlloyAdvanced>, <ore:plateAlloyCarbon>, <ore:plateAlloyAdvanced>],
-[<ore:plateAlloyCarbon>, <dreamcraft:item.AluminiumIronPlate>, <ore:plateAlloyCarbon>],
-[<ore:plateAlloyAdvanced>, <ore:plateAlloyCarbon>, <ore:plateAlloyAdvanced>]]);
-
-// --- Reinforced Titanium Iron Plate
-recipes.addShaped(<dreamcraft:item.ReinforcedTitaniumIronPlate>, [
-[<ore:plateAlloyAdvanced>, <ore:plateSilicon>, <ore:plateAlloyAdvanced>],
-[<ore:plateSilicon>, <dreamcraft:item.TitaniumIronPlate>, <ore:plateSilicon>],
-[<ore:plateAlloyAdvanced>, <ore:plateSilicon>, <ore:plateAlloyAdvanced>]]);
-
-// --- Reinforced Chrome Iron Plate
-recipes.addShaped(<dreamcraft:item.ReinforcedChromeIronPlate>, [
-[<ore:plateAlloyAdvanced>, <ore:plateDiamond>, <ore:plateAlloyAdvanced>],
-[<ore:plateDiamond>, <dreamcraft:item.ChromeIronPlate>, <ore:plateDiamond>],
-[<ore:plateAlloyAdvanced>, <ore:plateDiamond>, <ore:plateAlloyAdvanced>]]);
-
-// --- Reinforced Tungsten Iron Plate
-recipes.addShaped(<dreamcraft:item.ReinforcedTungstenIronPlate>, [
-[<ore:plateAlloyAdvanced>, <ore:plateTungsten>, <ore:plateAlloyAdvanced>],
-[<ore:plateTungsten>, <dreamcraft:item.TungstenIronPlate>, <ore:plateTungsten>],
-[<ore:plateAlloyAdvanced>, <ore:plateTungsten>, <ore:plateAlloyAdvanced>]]);
-
-// --- Reinforced Tungsten Steel Iron Plate
-recipes.addShaped(<dreamcraft:item.ReinforcedTungstenSteelIronPlate>, [
-[<ore:plateAlloyAdvanced>, <ore:plateTungstenSteel>, <ore:plateAlloyAdvanced>],
-[<ore:plateTungstenSteel>, <dreamcraft:item.TungstenSteelIronPlate>, <ore:plateTungstenSteel>],
-[<ore:plateAlloyAdvanced>, <ore:plateTungstenSteel>, <ore:plateAlloyAdvanced>]]);
-
-// --- Reinforced Iridium Iron Plate
-recipes.addShaped(<AdvancedSolarPanel:asp_crafting_items:7>, [
-[<ore:plateAlloyAdvanced>, <ore:plateAlloyIridium>, <ore:plateAlloyAdvanced>],
-[<ore:plateAlloyIridium>, <AdvancedSolarPanel:asp_crafting_items:6>, <ore:plateAlloyIridium>],
-[<ore:plateAlloyAdvanced>, <ore:plateAlloyIridium>, <ore:plateAlloyAdvanced>]]);
-
-// --- Reinforced Naquadria Iron Plate
-recipes.addShaped(<dreamcraft:item.ReinforcedNaquadriaIronPlate>, [
-[<ore:plateAlloyAdvanced>, <ore:plateMysteriousCrystal>, <ore:plateAlloyAdvanced>],
-[<ore:plateMysteriousCrystal>, <dreamcraft:item.NaquadriaIronPlate>, <ore:plateMysteriousCrystal>],
-[<ore:plateAlloyAdvanced>, <ore:plateMysteriousCrystal>, <ore:plateAlloyAdvanced>]]);
-
-// --- Reinforced Neutronium Iron Plate
-recipes.addShaped(<dreamcraft:item.ReinforcedNeutroniumIronPlate>, [
-[<ore:plateAlloyAdvanced>, <ore:plateBlackPlutonium>, <ore:plateAlloyAdvanced>],
-[<ore:plateBlackPlutonium>, <dreamcraft:item.NeutroniumIronPlate>, <ore:plateBlackPlutonium>],
-[<ore:plateAlloyAdvanced>, <ore:plateBlackPlutonium>, <ore:plateAlloyAdvanced>]]);
-
-// --- Reinforced Bedrockium Iron Plate
-recipes.addShaped(<dreamcraft:item.ReinforcedBedrockiumIronPlate>, [
-[<ore:plateAlloyAdvanced>, <ore:plateDraconiumAwakened>, <ore:plateAlloyAdvanced>],
-[<ore:plateDraconiumAwakened>, <dreamcraft:item.BedrockiumIronPlate>, <ore:plateDraconiumAwakened>],
-[<ore:plateAlloyAdvanced>, <ore:plateDraconiumAwakened>, <ore:plateAlloyAdvanced>]]);
-
 // --- Bow Fletching Cast
 recipes.addShaped(<dreamcraft:item.BowFletchingCast>, [
 [null, null, Hammer],
@@ -914,10 +954,6 @@ recipes.addShaped(<dreamcraft:item.OvenGlove:1>.withTag({Durability: 1000}), [
 // -
 recipes.addShapeless(<dreamcraft:item.OvenGlove:1>.withTag({Durability: 1000}), [<dreamcraft:item.OvenGlove:1>, <ore:itemLeather>, <ore:itemLeather>, <ore:itemLeather>]);
 
-// --- Wooden Brick Form
-recipes.addShaped(<dreamcraft:item.WoodenBrickForm>, [
-[Knife, BlankPattern, null]]);
-
 // --- Coke Oven Bricks
 furnace.addRecipe(<dreamcraft:item.CokeOvenBrick>, <dreamcraft:item.UnfiredCokeOvenBrick>);
 
@@ -940,28 +976,6 @@ recipes.addShaped(<dreamcraft:item.MoldFormCoinage>, [
 
 
 
-// --- Piston Block
-Assembler.addRecipe(<dreamcraft:tile.PistonBlock>, <minecraft:cobblestone>, <gregtech:gt.metaitem.02:20032>, <liquid:molten.redstone> * 72, 100, 30);
-// -
-Assembler.addRecipe(<dreamcraft:tile.PistonBlock>, <minecraft:cobblestone>, <gregtech:gt.metaitem.02:20304>, <liquid:molten.redstone> * 72, 100, 30);
-
-// --- Piston Plate
-Assembler.addRecipe(<dreamcraft:item.PistonPlate>, <gregtech:gt.metaitem.02:32470> * 6, <minecraft:fence>, 100, 30);
-// -
-Assembler.addRecipe(<dreamcraft:item.PistonPlate>, <gregtech:gt.metaitem.02:32470> * 6, <ExtraTrees:fence:*>, 100, 30);
-// -
-Assembler.addRecipe(<dreamcraft:item.PistonPlate>, <gregtech:gt.metaitem.02:32470> * 6, <Forestry:fences:*>, 100, 30);
-// -
-Assembler.addRecipe(<dreamcraft:item.PistonPlate>, <gregtech:gt.metaitem.02:32470> * 6, <Forestry:fencesFireproof:*>, 100, 30);
-// -
-Assembler.addRecipe(<dreamcraft:item.PistonPlate>, <gregtech:gt.metaitem.02:32470> * 6, <Natura:Natura.fence:*>, 100, 30);
-
-// --- Piko Circuit
-//Assembler.addRecipe(<dreamcraft:item.PikoCircuit>, <dreamcraft:item.NanoProcessorBoard>, <dreamcraft:item.EngravedManyullynCrystalChip> * 4, <liquid:molten.tin> * 864, 600, 30720);
-// -
-//Assembler.addRecipe(<dreamcraft:item.PikoCircuit>, <dreamcraft:item.NanoProcessorBoard>, <dreamcraft:item.EngravedManyullynCrystalChip> * 4, <liquid:molten.solderingalloy> * 432, 600, 30720);
-// -
-//Assembler.addRecipe(<dreamcraft:item.PikoCircuit>, <dreamcraft:item.NanoProcessorBoard>, <dreamcraft:item.EngravedManyullynCrystalChip> * 4, <liquid:molten.lead> * 1782, 600, 30720);
 
 // --- Enriched Naquadria Sunnarium Alloy
 Assembler.addRecipe(<dreamcraft:item.EnrichedNaquadriaSunnariumAlloy>, <AdvancedSolarPanel:asp_crafting_items:4>, <gregtech:gt.metaitem.01:22327>, 2000, 500000);
@@ -1001,15 +1015,6 @@ Assembler.addRecipe(<dreamcraft:item.BioChunk>, <gregtech:gt.blockgem3:4>, <drea
 
 // --- Diamond Frame Box
 Assembler.addRecipe(<dreamcraft:tile.DiamondFrameBox>, <gregtech:gt.metaitem.01:23500> * 4, <gregtech:gt.integrated_circuit:4> * 0, 64, 8);
-
-// --- 10k Cell
-Assembler.addRecipe(<dreamcraft:item.TenKCell>, <IC2:itemCellEmpty>, <gregtech:gt.metaitem.01:17057> * 4, 100, 30);
-
-// --- 30k Cell
-Assembler.addRecipe(<dreamcraft:item.ThirtyKCell>, <dreamcraft:item.TenKCell> * 3, <gregtech:gt.integrated_circuit:3> * 0, 300, 60);
-
-// --- 60k Cell
-Assembler.addRecipe(<dreamcraft:item.SixtyKCell>, <dreamcraft:item.ThirtyKCell> * 2, <gregtech:gt.integrated_circuit:2> * 0, 600, 90);
 
 // --- Compressed Graphite Block
 Assembler.addRecipe(<dreamcraft:tile.CompressedGraphite> * 2, <minecraft:stone> * 2, <gregtech:gt.metaitem.01:2865>, 100, 8);
@@ -1184,15 +1189,6 @@ null, <gregtech:gt.metaitem.01:17526>, null,
 null, <minecraft:piston>, null,
 null, null, null],
 <Forestry:sturdyMachine>, <dreamcraft:item.EngineCore>);
-
-
-
-// --- Chemical Reactor Recipes ---
-
-
-
-// --- Potassium Hydroxide
-ChemicalReactor.addRecipe(<dreamcraft:item.PotassiumHydroxideDust> * 3, <liquid:hydrogen> * 1000, <gregtech:gt.metaitem.01:2025>, <gregtech:gt.integrated_circuit:1> * 0, <liquid:water> * 3000, 1200, 30);
 
 
 
@@ -1554,23 +1550,6 @@ Pulverizer.addRecipe([<dreamcraft:item.ChargedCertusQuartzDust>], <dreamcraft:it
 
 
 
-
-// --- Mixer Recipes
-
-
-// --- Sodium potassium
-Mixer.addRecipe(null, <liquid:sodiumpotassium> * 1000, [<gregtech:gt.metaitem.01:2017> * 2, <gregtech:gt.metaitem.01:2025> * 3], null, 400, 30);
-
-// --- Bio Ball
-Mixer.addRecipe(<dreamcraft:item.BioBall>, [<IC2:itemFuelPlantBall> * 16, <gregtech:gt.metaitem.01:2802> * 2], 200, 16);
-
-// --- Wet Tofu
-Mixer.addRecipe(<dreamcraft:item.WetTofu>, null, [<harvestcraft:soybeanItem>], <liquid:water> * 100, 600, 2);
-// -
-Mixer.addRecipe(<dreamcraft:item.WetTofu>, null, [<harvestcraft:soybeanItem>], <liquid:ic2distilledwater> * 50, 300, 4);
-
-
-
 // --- Plate Bender Recipes
 
 
@@ -1636,17 +1615,17 @@ Wiremill.addRecipe(<dreamcraft:item.ElectrotineWire> * 2, <ProjRed|Core:projectr
 
 // --- GTNH Tab
 mods.thaumcraft.Research.addTab("NEWHORIZONS", "dreamcraft", "textures/thaumcraft/icon/icon_GTNH.png", "dreamcraft", "textures/thaumcraft/tab/tab_GTNH.png");
-game.setLocalization("tc.research_category.NEWHORIZONS", "New Horizons");
+game.setLocalization("tc.research_category.NEWHORIZONS", I18N_CoreMod_0);
 
 // --- Wither Ring
 mods.thaumcraft.Research.addResearch("WITHERRING", "ARTIFICE", "alienis 15, praecantatio 12, superbia 9, spiritus 6, infernus 3", 3, 2, 4, <dreamcraft:item.WitherProtectionRing>);
-game.setLocalization("tc.research_name.WITHERRING", "Wither Protection Ring");
-game.setLocalization("tc.research_text.WITHERRING", "[NH] Wither...? It is star farming time");
+game.setLocalization("tc.research_name.WITHERRING", I18N_CoreMod_1);
+game.setLocalization("tc.research_text.WITHERRING", I18N_CoreMod_2);
 mods.thaumcraft.Research.addPrereq("WITHERRING", "RUNICARMOR", false);
 mods.thaumcraft.Research.addSibling("WITHERRING", "RUNICARMOR");
 mods.thaumcraft.Research.setConcealed("WITHERRING", true);
 mods.thaumcraft.Research.addPage("WITHERRING", "NewHorizons.research_page.WITHERRING");
-game.setLocalization("NewHorizons.research_page.WITHERRING", "The Wither Protection Ring is a very special ring. Now you find a way to rid of the nasty withering effect. With this Ring it is time to farm some Netherstars. Good luck!!!");
+game.setLocalization("NewHorizons.research_page.WITHERRING", I18N_CoreMod_3);
 mods.thaumcraft.Infusion.addRecipe("WITHERRING", <Thaumcraft:ItemBaubleBlanks:1>,
 [<minecraft:nether_star>, <minecraft:milk_bucket>, <minecraft:skull:1>, <minecraft:milk_bucket>, <minecraft:skull:1>],
 "alienis 45, praecantatio 35, spiritus 30, superbia 25, infernus 15",  <dreamcraft:item.WitherProtectionRing>, 3);
@@ -1662,12 +1641,12 @@ mods.thaumcraft.Warp.addToResearch("WITHERRING", 2);
 
 // --- Carved Imminence Stone
 mods.thaumcraft.Research.addResearch("EMINENCESTONE", "NEWHORIZONS", "alienis 15, sensus 12, terra 9, aer 6", 0, 4, 12, <ExtraUtilities:decorativeBlock1:14>);
-game.setLocalization("tc.research_name.EMINENCESTONE", "Carved 'Eminence' Stone");
-game.setLocalization("tc.research_text.EMINENCESTONE", "[EU] Portal Stones");
+game.setLocalization("tc.research_name.EMINENCESTONE", I18N_CoreMod_4);
+game.setLocalization("tc.research_text.EMINENCESTONE", I18N_CoreMod_5);
 mods.thaumcraft.Research.addPrereq("EMINENCESTONE", "INFUSION", false);
 mods.thaumcraft.Research.setConcealed("EMINENCESTONE", false);
 mods.thaumcraft.Research.addPage("EMINENCESTONE", "ExtraUtilities.research_page.EMINENCESTONE");
-game.setLocalization("ExtraUtilities.research_page.EMINENCESTONE", "A stone with trans-dimensional capacities. Can be used to craft a portal to The Last Millenium, or as expensive decoration block.");
+game.setLocalization("ExtraUtilities.research_page.EMINENCESTONE", I18N_CoreMod_6);
 mods.thaumcraft.Arcane.addShaped("EMINENCESTONE", <ExtraUtilities:decorativeBlock1:14> * 2, "aer 50, ignis 50, terra 50, aqua 50, ordo 50, perditio 50", [
 [<gregtech:gt.metaitem.01:17330>, <ProjRed|Illumination:projectred.illumination.lamp:18>, <gregtech:gt.metaitem.01:17330>],
 [<gregtech:gt.metaitem.01:17532>, <Thaumcraft:blockCosmeticSolid:7>, <gregtech:gt.metaitem.01:17532>],
@@ -1676,38 +1655,38 @@ mods.thaumcraft.Research.addArcanePage("EMINENCESTONE", <ExtraUtilities:decorati
 
 // --- Portal to the Last Millennium
 mods.thaumcraft.Research.addResearch("PORTALMILLENIUM", "NEWHORIZONS", "alienis 15, sensus 12, terra 9, ignis 6 vacuos 200", 2, 6, 4, <ExtraUtilities:dark_portal:2>);
-game.setLocalization("tc.research_name.PORTALMILLENIUM", "Portal to The Last Millennium");
-game.setLocalization("tc.research_text.PORTALMILLENIUM", "[EU] Night and Void");
+game.setLocalization("tc.research_name.PORTALMILLENIUM", I18N_CoreMod_7);
+game.setLocalization("tc.research_text.PORTALMILLENIUM", I18N_CoreMod_8);
 mods.thaumcraft.Research.addPrereq("PORTALMILLENIUM", "EMINENCESTONE", false);
 mods.thaumcraft.Research.addPrereq("PORTALMILLENIUM", "OCULUS", false);
 mods.thaumcraft.Research.setConcealed("PORTALMILLENIUM", true);
 mods.thaumcraft.Research.addPage("PORTALMILLENIUM", "ExtraUtilities.research_page.PORTALMILLENIUM");
-game.setLocalization("ExtraUtilities.research_page.PORTALMILLENIUM", "This place is known as The Last Millenium. All life, energy, knowledge, passion, struggle, philosophy and meaning is just a few short centuries from being rendered fully pointless. On the plus side, rent is very cheap now.");
+game.setLocalization("ExtraUtilities.research_page.PORTALMILLENIUM", I18N_CoreMod_9);
 mods.thaumcraft.Infusion.addRecipe("PORTALMILLENIUM", <minecraft:clock>, [<ExtraUtilities:decorativeBlock1:14>, <ExtraUtilities:decorativeBlock1:2>, <ExtraUtilities:decorativeBlock1:14>, <ExtraUtilities:decorativeBlock1:2>, <ExtraUtilities:decorativeBlock1:14>, <ExtraUtilities:decorativeBlock1:2>, <ExtraUtilities:decorativeBlock1:14>, <ExtraUtilities:decorativeBlock1:2>], "alienis 75, sensus 25, praecantatio 75, terra 25, vacuos 75",  <ExtraUtilities:dark_portal:2>, 4);
 mods.thaumcraft.Research.addInfusionPage("PORTALMILLENIUM", <ExtraUtilities:dark_portal:2>);
 mods.thaumcraft.Warp.addToResearch("PORTALMILLENIUM", 2);
 
 // --- Portal to the Deep Dark
 mods.thaumcraft.Research.addResearch("PORTALDEEPDARK", "NEWHORIZONS", "vacuos 27, tempus 24, luxuria 21, alienis 18 terminus 15, gula 12, superbia 9", 2, 8, 4, <ExtraUtilities:dark_portal>);
-game.setLocalization("tc.research_name.PORTALDEEPDARK", "Portal to The Deep Dark");
-game.setLocalization("tc.research_text.PORTALDEEPDARK", "[EU] Deep, Deeper, Deep Dark");
+game.setLocalization("tc.research_name.PORTALDEEPDARK", I18N_CoreMod_10);
+game.setLocalization("tc.research_text.PORTALDEEPDARK", I18N_CoreMod_11);
 mods.thaumcraft.Research.addPrereq("PORTALDEEPDARK", "PORTALMILLENIUM", false);
 mods.thaumcraft.Research.addPrereq("PORTALDEEPDARK", "ICHOR", false);
 mods.thaumcraft.Research.setConcealed("PORTALDEEPDARK", true);
 mods.thaumcraft.Research.addPage("PORTALDEEPDARK", "ExtraUtilities.research_page.PORTALDEEPDARK");
-game.setLocalization("ExtraUtilities.research_page.PORTALDEEPDARK", "As an experienced miner you naturally wish to mine deeper and further than ever before into areas of natural wealth. The deep dark is a realm far below the void, filled with natural resources and deadly enemies. Some say that the darkness within this realm is alive and will consume any unlucky adventurer who wanders too far into it. Remember to bring torches. Torches will not protect you completely, however since mobs will spawn at all light levels in the Deep Dark. Magnum torches and Chandeliers will still prevent mob spawning.");
-mods.thaumcraft.Infusion.addRecipe("PORTALDEEPDARK", <gregtech:gt.blockreinforced:12>, [<gregtech:gt.metaitem.01:32679>, <eternalsingularity:eternal_singularity>, <gregtech:gt.metaitem.01:32679>, <eternalsingularity:eternal_singularity>, <gregtech:gt.metaitem.01:32679>, <eternalsingularity:eternal_singularity>, <gregtech:gt.metaitem.01:32679>, <eternalsingularity:eternal_singularity>], "vacuos 512, tempus 512, luxuria 512, alienis 512, terminus 512, gula 512, superbia 512" ,  <ExtraUtilities:dark_portal>, 64);
+game.setLocalization("ExtraUtilities.research_page.PORTALDEEPDARK", I18N_CoreMod_12);
+mods.thaumcraft.Infusion.addRecipe("PORTALDEEPDARK", <gregtech:gt.blockreinforced:12>, [<gregtech:gt.metaitem.01:32046>, <eternalsingularity:eternal_singularity>, <gregtech:gt.metaitem.01:32046>, <eternalsingularity:eternal_singularity>, <gregtech:gt.metaitem.01:32046>, <eternalsingularity:eternal_singularity>, <gregtech:gt.metaitem.01:32046>, <eternalsingularity:eternal_singularity>], "vacuos 512, tempus 512, luxuria 512, alienis 512, terminus 512, gula 512, superbia 512" ,  <ExtraUtilities:dark_portal>, 32);
 mods.thaumcraft.Research.addInfusionPage("PORTALDEEPDARK", <ExtraUtilities:dark_portal>);
 mods.thaumcraft.Warp.addToResearch("PORTALDEEPDARK", 64);
 
 // --- Magical Wood
 mods.thaumcraft.Research.addResearch("MAGICALWOOD", "NEWHORIZONS", "praecantatio 15, lucrum 12, arbor 9, cognitio 6, pannus 3", -2 as int, 6, 4, MagicalWood);
-game.setLocalization("tc.research_name.MAGICALWOOD", "Magical Wood");
-game.setLocalization("tc.research_text.MAGICALWOOD", "[EU] Twilight Thaumcraft Magic");
+game.setLocalization("tc.research_name.MAGICALWOOD", I18N_CoreMod_13);
+game.setLocalization("tc.research_text.MAGICALWOOD", I18N_CoreMod_14);
 mods.thaumcraft.Research.addPrereq("MAGICALWOOD", "EMINENCESTONE", false);
 mods.thaumcraft.Research.setConcealed("MAGICALWOOD", true);
 mods.thaumcraft.Research.addPage("MAGICALWOOD", "ExtraUtilities.research_page.MAGICALWOOD");
-game.setLocalization("ExtraUtilities.research_page.MAGICALWOOD", "Magical Wood is an ingredient in the crafting of the Ender Core. It can be placed near an Enchantment Table to boost the level the table can enchant at by five levels. The amount of magical wood made from the crafting recipe depends on the strength of the enchantments on the Enchanted Books. For example, 4x Protection I gives a single piece of Magical Wood, whereas 4x Protection IV gives 14 pieces of wood.");
+game.setLocalization("ExtraUtilities.research_page.MAGICALWOOD", I18N_CoreMod_15);
 mods.thaumcraft.Arcane.addShaped("MAGICALWOOD", MagicalWood * 4, "aer 10, ignis 10, terra 10, aqua 10, ordo 10, perditio 10", [
 [SilverwoodLog, <TwilightForest:item.carminite>, GreatwoodLog],
 [<gregtech:gt.metaitem.01:17330>, <minecraft:bookshelf>, <gregtech:gt.metaitem.01:17330>],
@@ -1716,12 +1695,12 @@ mods.thaumcraft.Research.addArcanePage("MAGICALWOOD", MagicalWood);
 
 // --- Angel Block
 mods.thaumcraft.Research.addResearch("ANGELBLOCK", "NEWHORIZONS", "aer 15, lucrum 12, ignis 9, terra 6", -2 as int, 8, 4, <ExtraUtilities:angelBlock>);
-game.setLocalization("tc.research_name.ANGELBLOCK", "Angel Block");
-game.setLocalization("tc.research_text.ANGELBLOCK", "[EU] A Block in the Air");
+game.setLocalization("tc.research_name.ANGELBLOCK", I18N_CoreMod_16);
+game.setLocalization("tc.research_text.ANGELBLOCK", I18N_CoreMod_17);
 mods.thaumcraft.Research.addPrereq("ANGELBLOCK", "MAGICALWOOD", false);
 mods.thaumcraft.Research.setConcealed("ANGELBLOCK", true);
 mods.thaumcraft.Research.addPage("ANGELBLOCK", "ExtraUtilities.research_page.ANGELBLOCK");
-game.setLocalization("ExtraUtilities.research_page.ANGELBLOCK", "The Angel Block is a block added by the Extra Utilities mod. This block is unique in that it does not need another block for it to be built against, so it can be placed in mid-air. When right-clicking the block will be placed in the direction youre looking. The block cant be placed diagonally in mid-air. No tool is required to break the block and it is broken instantly, even without any tools. After breaking the block does not drop, but rather instantly returns to the players inventory.");
+game.setLocalization("ExtraUtilities.research_page.ANGELBLOCK", I18N_CoreMod_18);
 mods.thaumcraft.Arcane.addShaped("ANGELBLOCK", <ExtraUtilities:angelBlock>, "aer 50", [
 [<gregtech:gt.metaitem.01:17540>, <gregtech:gt.metaitem.01:29351>, <gregtech:gt.metaitem.01:17540>],
 [<IC2:itemDensePlates:7>, <Automagy:blockRunedObsidian>, <IC2:itemDensePlates:7>],
@@ -1730,13 +1709,13 @@ mods.thaumcraft.Research.addArcanePage("ANGELBLOCK", <ExtraUtilities:angelBlock>
 
 // --- Dezlis Marshmallow
 mods.thaumcraft.Research.addResearch("DEZILSMARSHMALLOW", "NEWHORIZONS", "alienis 15, praecantatio 12, superbia 9, sano 6, potentia 3", -2 as int, 2, 4, <DraconicEvolution:dezilsMarshmallow>);
-game.setLocalization("tc.research_name.DEZILSMARSHMALLOW", "Dezil's Marshmallow");
-game.setLocalization("tc.research_text.DEZILSMARSHMALLOW", "[DE] OP food please");
+game.setLocalization("tc.research_name.DEZILSMARSHMALLOW", I18N_CoreMod_19);
+game.setLocalization("tc.research_text.DEZILSMARSHMALLOW", I18N_CoreMod_20);
 mods.thaumcraft.Research.addPrereq("DEZILSMARSHMALLOW", "INFUSION", false);
 mods.thaumcraft.Research.setConcealed("DEZILSMARSHMALLOW", false);
 mods.thaumcraft.Research.setSpikey("DEZILSMARSHMALLOW", true);
 mods.thaumcraft.Research.addPage("DEZILSMARSHMALLOW", "de.research_page.DEZILSMARSHMALLOW");
-game.setLocalization("de.research_page.DEZILSMARSHMALLOW", "The ultimate power of food. You can swim in lava, dive like a fish, mine like crazy and jump like a rabbit. Eat one of these marshmallows and you will never get hungry again. You feel like you can take on the Dragon with just bare hands");
+game.setLocalization("de.research_page.DEZILSMARSHMALLOW", I18N_CoreMod_21);
 mods.thaumcraft.Infusion.addRecipe("DEZILSMARSHMALLOW", <dreamcraft:item.Marshmallow>,
 [<harvestcraft:epicbaconItem>, <harvestcraft:deluxechickencurryItem>, <harvestcraft:meatfeastpizzaItem>, <harvestcraft:beefwellingtonItem>, <harvestcraft:sausageinbreadItem>, <harvestcraft:heartybreakfastItem>],
 "alienis 32, praecantatio 16, superbia 24, sano 28, iter 20, potentia 12",  <DraconicEvolution:dezilsMarshmallow>, 5);
@@ -1745,13 +1724,13 @@ mods.thaumcraft.Warp.addToResearch("DEZILSMARSHMALLOW", 8);
 
 // --- Enchanting Table
 mods.thaumcraft.Research.addResearch("ENCHANTINGTABLE", "NEWHORIZONS", "praecantatio 15, fabrico 12, cognitio 9, potentia 6", 0, 0, 4, <minecraft:enchanting_table>);
-game.setLocalization("tc.research_name.ENCHANTINGTABLE", "Enchanting Table");
-game.setLocalization("tc.research_text.ENCHANTINGTABLE", "[MC] Oh, its more magical than a Table!");
+game.setLocalization("tc.research_name.ENCHANTINGTABLE", I18N_CoreMod_22);
+game.setLocalization("tc.research_text.ENCHANTINGTABLE", I18N_CoreMod_23);
 mods.thaumcraft.Research.addPrereq("ENCHANTINGTABLE", "NITOR", false);
 mods.thaumcraft.Research.addPrereq("ENCHANTINGTABLE", "ALUMENTUM", false);
 mods.thaumcraft.Research.setConcealed("ENCHANTINGTABLE", false);
 mods.thaumcraft.Research.addPage("ENCHANTINGTABLE", "Minecraft.research_page.ENCHANTINGTABLE");
-game.setLocalization("Minecraft.research_page.ENCHANTINGTABLE", "An enchantment table is a block that allows players to spend their experience point levels to enchant tools, books and armor. The enchanting tables main purpose is to enchant items. Bookshelves surrounding the table, with a block of air in between, will increase the maximum enchantment level. The table will enchant all tools and armor except the hoe, shears, flint and steel, lead and horse armor. The hoe and shears cannot be enchanted by the enchantment table and require an anvil and an appropriate enchanted book.");
+game.setLocalization("Minecraft.research_page.ENCHANTINGTABLE", I18N_CoreMod_24);
 mods.thaumcraft.Arcane.addShaped("ENCHANTINGTABLE", <minecraft:enchanting_table>, "aer 45, aqua 45, terra 45, ignis 45, ordo 45, perditio 45", [
 [<ForgeMicroblock:microblock:516>.withTag({mat: "minecraft:diamond_block"}), <minecraft:carpet:14>, <ForgeMicroblock:microblock:516>.withTag({mat: "minecraft:diamond_block"})],
 [<Thaumcraft:ItemResource>, <minecraft:bookshelf>, <Thaumcraft:ItemResource:1>],
@@ -1760,12 +1739,12 @@ mods.thaumcraft.Research.addArcanePage("ENCHANTINGTABLE", <minecraft:enchanting_
 
 // --- Disenchanting Table
 mods.thaumcraft.Research.addResearch("DISENCHANTINGTABLE", "NEWHORIZONS", "alienis 21, perditio 18, praecantatio 15, fabrico 12, cognitio 9, potentia 6", 2, 2, 4, <DraconicEvolution:dissEnchanter>);
-game.setLocalization("tc.research_name.DISENCHANTINGTABLE", "Disenchanting Table");
-game.setLocalization("tc.research_text.DISENCHANTINGTABLE", "[DC] Oh, you can remove Enchants? Nice!");
+game.setLocalization("tc.research_name.DISENCHANTINGTABLE", I18N_CoreMod_25);
+game.setLocalization("tc.research_text.DISENCHANTINGTABLE", I18N_CoreMod_26);
 mods.thaumcraft.Research.addPrereq("DISENCHANTINGTABLE", "ENCHANTINGTABLE", false);
 mods.thaumcraft.Research.setConcealed("DISENCHANTINGTABLE", true);
 mods.thaumcraft.Research.addPage("DISENCHANTINGTABLE", "DraconicEvolution.research_page.DISENCHANTINGTABLE");
-game.setLocalization("DraconicEvolution.research_page.DISENCHANTINGTABLE", "Disenchanter is a block added by the Draconic Evolution mod. It can be used to remove enchantments from items. This is achieved by placing an enchanted item and a book in its GUI. The enchantment will be moved to the book after pressing the button in the GUI. This process costs a certain amount of experience, as well as cause damage to the item that is being disenchanted. The damage caused to the item can be reduced by placing Bookcases around the Disenchanter.");
+game.setLocalization("DraconicEvolution.research_page.DISENCHANTINGTABLE", I18N_CoreMod_27);
 mods.thaumcraft.Arcane.addShaped("DISENCHANTINGTABLE", <DraconicEvolution:dissEnchanter>, "aer 75, aqua 75, terra 75, ignis 75, ordo 75, perditio 75", [
 [<ore:blockAmethyst>, <Thaumcraft:ItemResource:7>, <ore:blockAmethyst>],
 [<minecraft:enchanted_book>, <minecraft:enchanting_table>, <minecraft:enchanted_book>],
@@ -1775,14 +1754,14 @@ mods.thaumcraft.Warp.addToResearch("DISENCHANTINGTABLE", 3);
 
 // --- Brewing Stand
 mods.thaumcraft.Research.addResearch("BREWINGSTAND", "NEWHORIZONS", "praecantatio 15, fabrico 15, cognitio 12, perditio 12, ignis 9, terra 6, aqua 3", 2, 0, 4, <minecraft:brewing_stand>);
-game.setLocalization("tc.research_name.BREWINGSTAND", "Brewing Stand");
-game.setLocalization("tc.research_text.BREWINGSTAND", "[MC] Oh, its more magical than a Cauldron!");
+game.setLocalization("tc.research_name.BREWINGSTAND", I18N_CoreMod_28);
+game.setLocalization("tc.research_text.BREWINGSTAND", I18N_CoreMod_29);
 mods.thaumcraft.Research.addPage("BREWINGSTAND", "brewingstand.research_page.BREWINGSTAND.1");
-game.setLocalization("brewingstand.research_page.BREWINGSTAND.1", "Brewing (or Alchemy) is the process of creating potions and splash potions by adding various ingredients to water bottles in a brewing stand. By placing bottles in the lower three slots of the brewing interface and an ingredient in the upper slot, you can distill the ingredient into the bottles and brew potions which may be consumed to grant an effect to the player. Every potion starts with a water bottle, made by filling a glass bottle at a water source or filled cauldron. The next step is to add a primary ingredient to create a base potion, which is usually Nether Wart, which creates an awkward potion and has no effects.");
+game.setLocalization("brewingstand.research_page.BREWINGSTAND.1", I18N_CoreMod_30);
 mods.thaumcraft.Research.addPage("BREWINGSTAND", "brewingstand.research_page.BREWINGSTAND.2");
-game.setLocalization("brewingstand.research_page.BREWINGSTAND.2", "By brewing a second ingredient into a base potion in the same manner, you can create a potion with a working effect. A third ingredient may be added to make the effect more intense or last longer, or turn the effect harmful. Finally, gunpowder can be added to a potion at any stage to convert it to a splash potion, which can be thrown (or fired using a dispenser) to disperse its effect in a radius. Each brewing step takes 20 seconds. Brewing can create very useful and lifesaving items. A good number of them are useful in combat by aiding the player or weakening enemies while others can save the players life if used quickly, like Fire Resistance or Healing.");
+game.setLocalization("brewingstand.research_page.BREWINGSTAND.2", I18N_CoreMod_31);
 mods.thaumcraft.Research.addPage("BREWINGSTAND", "Minecraft.research_page.BREWINGSTAND.3");
-game.setLocalization("Minecraft.research_page.BREWINGSTAND.3", "Gathering the Blaze Rods and Nether Wart necessary for brewing can prove challenging, but once they are set up, most potion ingredients are fairly plentiful and brewing will be a rewarding task.");
+game.setLocalization("Minecraft.research_page.BREWINGSTAND.3", I18N_CoreMod_32);
 mods.thaumcraft.Arcane.addShaped("BREWINGSTAND", <minecraft:brewing_stand>, "aer 20, aqua 20, terra 20, ignis 20, ordo 20, perditio 20", [
 [<ore:ringAluminium>, <ore:stickLongBlaze>, <ore:ringAluminium>],
 [<ore:stickAluminium>, <ore:stickLongBlaze>, <ore:stickAluminium>],
@@ -1791,12 +1770,12 @@ mods.thaumcraft.Research.addArcanePage("BREWINGSTAND", <minecraft:brewing_stand>
 
 // --- Beacon Infusion
 mods.thaumcraft.Research.addResearch("BEACON", "NEWHORIZONS", "alienis 15, praecantatio 12, auram 9, fames 6", 4, 0, 4, <minecraft:beacon>);
-game.setLocalization("tc.research_name.BEACON", "Beacon");
-game.setLocalization("tc.research_text.BEACON", "[MC] Oh, its more magical than a Diamond Block!");
+game.setLocalization("tc.research_name.BEACON", I18N_CoreMod_33);
+game.setLocalization("tc.research_text.BEACON", I18N_CoreMod_34);
 mods.thaumcraft.Research.addPrereq("BEACON", "INFUSION", false);
 mods.thaumcraft.Research.setConcealed("BEACON", false);
 mods.thaumcraft.Research.addPage("BEACON", "Minecraft.research_page.BEACON");
-game.setLocalization("Minecraft.research_page.BEACON", "A beacon is a unique block that projects a light beam skyward and can provide status effects to players in the vicinity. Beacon blocks can function as light sources, emitting a light level 15. Like other light sources, they will melt snow and ice. When activated, beacon blocks provide two unique functions: An aesthetic landmark beam reaching into the sky, which can be visible from far away. Powers, which give players status effects within a certain range.");
+game.setLocalization("Minecraft.research_page.BEACON", I18N_CoreMod_35);
 mods.thaumcraft.Infusion.addRecipe("BEACON", <minecraft:diamond_block>,
 [<minecraft:glass>, <gregtech:gt.metaitem.01:17804>, <gregtech:gt.metaitem.01:24506>, <minecraft:glass>, <gregtech:gt.metaitem.01:17804>, <gregtech:gt.metaitem.01:24506>, <minecraft:glass>, <gregtech:gt.metaitem.01:17804>, <gregtech:gt.metaitem.01:24506>, <minecraft:glass>, <gregtech:gt.metaitem.01:17804>, <gregtech:gt.metaitem.01:24506>],
 "praecantatio 64, alienis 64, lux 64, ordo 64, ignis 64, terra 64", <minecraft:beacon>, 6);
@@ -1805,13 +1784,13 @@ mods.thaumcraft.Warp.addToResearch("BEACON", 2);
 
 // --- Dragon Egg
 mods.thaumcraft.Research.addResearch("DRAGONEGG", "MAGICBEES", "alienis 15, praecantatio 12, victus 9, bestia 6", 2, 5, 4, <minecraft:dragon_egg>);
-game.setLocalization("tc.research_name.DRAGONEGG", "Dragon Egg");
-game.setLocalization("tc.research_text.DRAGONEGG", "[MC] Dragon Egg duplication");
+game.setLocalization("tc.research_name.DRAGONEGG", I18N_CoreMod_36);
+game.setLocalization("tc.research_text.DRAGONEGG", I18N_CoreMod_37);
 mods.thaumcraft.Research.addPrereq("DRAGONEGG", "MB_DimensionalSingularity", false);
 mods.thaumcraft.Research.addSibling("DRAGONEGG", "INFUSION");
 mods.thaumcraft.Research.setConcealed("DRAGONEGG", true);
 mods.thaumcraft.Research.addPage("DRAGONEGG", "Minecraft.research_page.DRAGONEGG");
-game.setLocalization("Minecraft.research_page.DRAGONEGG", "Dragon Eggs are dropped by Enderdragons when they are killed. When Right Clicked they teleport a short distance. Now you find a magical way to duplicate this Powerful Item using Draconis Bee Products and The Essence of false Life inside the Infusion Table");
+game.setLocalization("Minecraft.research_page.DRAGONEGG", I18N_CoreMod_38);
 mods.thaumcraft.Infusion.addRecipe("DRAGONEGG", <MagicBees:miscResources:7>,
 [<MagicBees:miscResources:6>, <MagicBees:miscResources:6>, <MagicBees:miscResources:6>, <MagicBees:miscResources:6>, <MagicBees:miscResources:6>, <MagicBees:miscResources:6>, <MagicBees:miscResources:6> ,<MagicBees:miscResources:6>],
 "alienis 64, bestia 56, praecantatio 48, victus 48",  <minecraft:dragon_egg>, 6);
@@ -1820,13 +1799,13 @@ mods.thaumcraft.Warp.addToResearch("DRAGONEGG", 5);
 
 // --- Silky Cloth and Jewel
 mods.thaumcraft.Research.addResearch("SILKYCRYSTAL", "NEWHORIZONS", "pannus 15, lucrum 2, instrumentum 9, aer 6, praecantatio 3", -2 as int, -2 as int, 4, <TConstruct:materials:26>);
-game.setLocalization("tc.research_name.SILKYCRYSTAL", "Silky Jewel");
-game.setLocalization("tc.research_text.SILKYCRYSTAL", "[TC] Silky magical.");
+game.setLocalization("tc.research_name.SILKYCRYSTAL", I18N_CoreMod_39);
+game.setLocalization("tc.research_text.SILKYCRYSTAL", I18N_CoreMod_40);
 mods.thaumcraft.Research.addPrereq("SILKYCRYSTAL", "ENCHANTINGTABLE", false);
 mods.thaumcraft.Research.setConcealed("SILKYCRYSTAL", true);
 mods.thaumcraft.Research.setRound("SILKYCRYSTAL", true);
 mods.thaumcraft.Research.addPage("SILKYCRYSTAL", "TConstruct.research_page.SILKYCRYSTAL");
-game.setLocalization("TConstruct.research_page.SILKYCRYSTAL", "Silky Cloth is a manufactured item and is a component of the Silky Jewel.<BR><BR>The Silky Jewel is a manufactured item, used to simulate the Silk Touch enchantment in TC tools.");
+game.setLocalization("TConstruct.research_page.SILKYCRYSTAL", I18N_CoreMod_41);
 mods.thaumcraft.Arcane.addShaped("SILKYCRYSTAL", <TConstruct:materials:25>, "aer 30, aqua 25, ignis 15, terra 15, ordo 10, perditio 10", [
 [String, <ore:foilGold>, String],
 [<ore:foilGold>, <Thaumcraft:ItemResource:7>, <ore:foilGold>],
@@ -1837,13 +1816,13 @@ mods.thaumcraft.Research.addInfusionPage("SILKYCRYSTAL", <TConstruct:materials:2
 
 // --- Lava Crystal
 mods.thaumcraft.Research.addResearch("LAVACRYSTAL", "NEWHORIZONS", "ignis 15, praecantatio 12, vacuos 9, perditio 6", 2, -2 as int, 4, <TConstruct:materials:7>);
-game.setLocalization("tc.research_name.LAVACRYSTAL", "Lava Crystal");
-game.setLocalization("tc.research_text.LAVACRYSTAL", "[TC] Fiery magical.");
+game.setLocalization("tc.research_name.LAVACRYSTAL", I18N_Blood_Magic_Thaumcraft_56);
+game.setLocalization("tc.research_text.LAVACRYSTAL", I18N_CoreMod_42);
 mods.thaumcraft.Research.addPrereq("LAVACRYSTAL", "ENCHANTINGTABLE", false);
 mods.thaumcraft.Research.setConcealed("LAVACRYSTAL", true);
 mods.thaumcraft.Research.setRound("LAVACRYSTAL", true);
 mods.thaumcraft.Research.addPage("LAVACRYSTAL", "TConstruct.research_page.LAVACRYSTAL");
-game.setLocalization("TConstruct.research_page.LAVACRYSTAL", "A Lava Crystal is a modifier both for tools and weapons. If added, the tool(s) is/are granted with the power of a furnace, meaning it will auto-smelt blocks when harvested. However, adding this to a weapon will not give it the same effect. Instead, it will set mobs on fire for 3 seconds.<BR>This modifier can be stacked with Luck (Fortune) and is not compatible with Silky (Silk Touch).");
+game.setLocalization("TConstruct.research_page.LAVACRYSTAL", I18N_CoreMod_43);
 mods.thaumcraft.Infusion.addRecipe("LAVACRYSTAL", <minecraft:fire_charge>,
 [<minecraft:blaze_rod>, <minecraft:lava_bucket>, <minecraft:fire_charge>, <Thaumcraft:ItemShard:1>, <minecraft:blaze_rod>, <minecraft:lava_bucket>, <minecraft:fire_charge>, <Thaumcraft:ItemShard:1>],
 "ignis 25, perditio 25, vacuos 20, praecantatio 35", <TConstruct:materials:7>, 3);
@@ -1851,14 +1830,14 @@ mods.thaumcraft.Research.addInfusionPage("LAVACRYSTAL", <TConstruct:materials:7>
 
 // --- Ball of Moss
 mods.thaumcraft.Research.addResearch("BALLOFMOSS", "NEWHORIZONS", "sano 15, terra 12, instrumentum 9", 0, -4 as int, 4, <TConstruct:materials:6>);
-game.setLocalization("tc.research_name.BALLOFMOSS", "Ball of Moss");
-game.setLocalization("tc.research_text.BALLOFMOSS", "[TC] Your Tools repair itselfs.");
+game.setLocalization("tc.research_name.BALLOFMOSS", I18N_CoreMod_44);
+game.setLocalization("tc.research_text.BALLOFMOSS", I18N_CoreMod_45);
 mods.thaumcraft.Research.addPrereq("BALLOFMOSS", "SILKYCRYSTAL", false);
 mods.thaumcraft.Research.addPrereq("BALLOFMOSS", "LAVACRYSTAL", false);
 mods.thaumcraft.Research.setConcealed("BALLOFMOSS", true);
 mods.thaumcraft.Research.setRound("BALLOFMOSS", true);
 mods.thaumcraft.Research.addPage("BALLOFMOSS", "TConstruct.research_page.BALLOFMOSS");
-game.setLocalization("TConstruct.research_page.BALLOFMOSS", "The Ball of Moss for Tinkers Construct Tools.<BR> Attaching moss to a tool infuses it with life. The tool appers to be capable of regenerating wear and tear.<BR>Effects:<BR> The tool slowly repair itself.<BR>Sunlight speeds up the process.");
+game.setLocalization("TConstruct.research_page.BALLOFMOSS", I18N_CoreMod_46);
 mods.thaumcraft.Infusion.addRecipe("BALLOFMOSS", <Thaumcraft:ItemResource:15>,
 [<gregtech:gt.metaitem.01:2542>, <TwilightForest:tile.TFPlant:3>, <BiomesOPlenty:moss>, <gregtech:gt.metaitem.01:2542>, <TwilightForest:tile.TFPlant:3>, <BiomesOPlenty:moss>],
 "sano 30, terra 25, instrumentum 35", <TConstruct:materials:6>, 5);
@@ -1866,8 +1845,8 @@ mods.thaumcraft.Research.addInfusionPage("BALLOFMOSS", <TConstruct:materials:6>)
 
 // --- Necrotic Bone
 mods.thaumcraft.Research.addResearch("NECROTICBONE", "NEWHORIZONS", "exanimis 15, mortuus 12, spiritus 9, venenum 6", 0, -2 as int, 4, <TConstruct:materials:8>);
-game.setLocalization("tc.research_name.NECROTICBONE", "Necrotic Bone");
-game.setLocalization("tc.research_text.NECROTICBONE", "[TC] Evil way to make Wither Skeleton Bones.");
+game.setLocalization("tc.research_name.NECROTICBONE", I18N_CoreMod_47);
+game.setLocalization("tc.research_text.NECROTICBONE", I18N_CoreMod_48);
 mods.thaumcraft.Research.addPrereq("NECROTICBONE", "ENTROPICPROCESSING", false);
 mods.thaumcraft.Research.addPrereq("NECROTICBONE", "BALLOFMOSS", false);
 mods.thaumcraft.Research.addPrereq("NECROTICBONE", "SILKYCRYSTAL", false);
@@ -1875,21 +1854,21 @@ mods.thaumcraft.Research.addPrereq("NECROTICBONE", "LAVACRYSTAL", false);
 mods.thaumcraft.Research.setConcealed("NECROTICBONE", true);
 mods.thaumcraft.Research.setRound("NECROTICBONE", true);
 mods.thaumcraft.Research.addPage("NECROTICBONE", "TConstruct.research_page.NECROTICBONE");
-game.setLocalization("TConstruct.research_page.NECROTICBONE", "The Necrotic Bone is a special drop gained by killing Wither Skeletons, and can be rarely found in dungeon chests. Now you find a evil way to make it out of Skeleton Bones. Currently, the only use for the Necrotic bone is used to craft a Heart Canister and add a modifier to weapons. The sheer volume of essentia required is too much for the Crucible. You will need a more advanced method of production to create these bones.");
+game.setLocalization("TConstruct.research_page.NECROTICBONE", I18N_CoreMod_49);
 mods.thaumcraft.Crucible.addRecipe("NECROTICBONE", <TConstruct:materials:8>, <minecraft:bone>, "exanimis 20, mortuus 30, infernus 20, spiritus 20, venenum 20, corpus 5");
 mods.thaumcraft.Research.addCruciblePage("NECROTICBONE", <TConstruct:materials:8>);
 mods.thaumcraft.Warp.addToResearch("NECROTICBONE", 2);
 
 // --- Red Heart
 mods.thaumcraft.Research.addResearch("REDHEART", "NEWHORIZONS", "ignis 15, praecantatio 12, sano 9, mortuus 6, exanimis 3", 0, -6 as int, 4, <TConstruct:heartCanister:1>);
-game.setLocalization("tc.research_name.REDHEART", "Red Heart");
-game.setLocalization("tc.research_text.REDHEART", "[TC] 10 Hearts are not enough.");
+game.setLocalization("tc.research_name.REDHEART", I18N_CoreMod_50);
+game.setLocalization("tc.research_text.REDHEART", I18N_CoreMod_51);
 mods.thaumcraft.Research.addPrereq("REDHEART", "RUNICAUGMENTATION", false);
 mods.thaumcraft.Research.addPrereq("REDHEART", "BALLOFMOSS", false);
 mods.thaumcraft.Research.setConcealed("REDHEART", true);
 mods.thaumcraft.Research.setRound("REDHEART", true);
 mods.thaumcraft.Research.addPage("REDHEART", "TConstruct.research_page.REDHEART.1");
-game.setLocalization("TConstruct.research_page.REDHEART.1", "The Miniature Red Heart is an item from Tinkers Construct. It is extremely rare and has very little uses, as it is only used to craft the Heart Canister.It is dropped randomly by hostile mobs or crafting via Infusion. The drop rate is 0.2% from regular hostile mobs. The heart may drop anytime a mob dies, the kill does not have to be caused by a player.Its primary use is in crafting the Red Heart Canister, but it can also be eaten to restore 10 life.");
+game.setLocalization("TConstruct.research_page.REDHEART.1", I18N_CoreMod_52);
 mods.thaumcraft.Infusion.addRecipe("REDHEART", <minecraft:golden_apple>,
 [<TConstruct:jerky:6>, <minecraft:apple>, <TConstruct:jerky:7>, <TConstruct:materials:8>, <TConstruct:jerky>, <TConstruct:jerky:1>, <TConstruct:jerky:2>, <TConstruct:jerky:3>, <TConstruct:jerky:4>, <TConstruct:jerky:5>],
 "exanimis 25, ignis 35, lucrum 35, sano 50, praecantatio 50", <TConstruct:heartCanister:1>, 3);
@@ -1898,12 +1877,12 @@ mods.thaumcraft.Warp.addToResearch("REDHEARTCANISTER", 1);
 
 // --- Red Heart Canister
 mods.thaumcraft.Research.addResearch("REDHEARTCANISTER", "NEWHORIZONS", "metallum 15, lucrum 15, sano 12, ignis 9, mortuus 6, exanimis 3", 0, -8 as int, 4, <TConstruct:heartCanister:2>);
-game.setLocalization("tc.research_name.REDHEARTCANISTER", "Red Heart Canister");
-game.setLocalization("tc.research_text.REDHEARTCANISTER", "[TC] Bound in a small box.");
+game.setLocalization("tc.research_name.REDHEARTCANISTER", I18N_CoreMod_53);
+game.setLocalization("tc.research_text.REDHEARTCANISTER", I18N_CoreMod_54);
 mods.thaumcraft.Research.addPrereq("REDHEARTCANISTER", "REDHEART", false);
 mods.thaumcraft.Research.setConcealed("REDHEARTCANISTER", true);
 mods.thaumcraft.Research.addPage("REDHEARTCANISTER", "TConstruct.research_page.REDHEARTCANISTER.1");
-game.setLocalization("TConstruct.research_page.REDHEARTCANISTER.1", "The Red Heart Canister which increases the amount of hearts that the player has. To have an effect the canisters must be equipped in the Armor Tab, in the slot on the right with the symbol that looks like the red heart canister. Up to 10 can be stacked in this slot to allow for a total of 10 extra hearts (or 20 extra health points). These will not appear above the regular health bar like from the Absorption effect, instead once the health bar is full the red hearts will gradually be replaced by orange hearts.");
+game.setLocalization("TConstruct.research_page.REDHEARTCANISTER.1", I18N_CoreMod_55);
 mods.thaumcraft.Arcane.addShaped("REDHEARTCANISTER", <TConstruct:heartCanister:2>, "aer 50, aqua 50, ignis 50, terra 50, ordo 50, perditio 50", [
 [<TConstruct:materials:8>, <TConstruct:heartCanister>, null],
 [<minecraft:golden_apple>, <TConstruct:heartCanister:1>, null],
@@ -1913,13 +1892,13 @@ mods.thaumcraft.Warp.addToResearch("REDHEARTCANISTER", 2);
 
 // --- Yellow Heart
 mods.thaumcraft.Research.addResearch("YELLOWHEART", "NEWHORIZONS", "mortuus 15, praecantatio 12, exanimis 9, sano 6, ignis 3", -2 as int, -7 as int, 4, <TConstruct:heartCanister:3> );
-game.setLocalization("tc.research_name.YELLOWHEART", "Yellow Heart");
-game.setLocalization("tc.research_text.YELLOWHEART", "[TC] 20 Hearts are not enough.");
+game.setLocalization("tc.research_name.YELLOWHEART", I18N_CoreMod_56);
+game.setLocalization("tc.research_text.YELLOWHEART", I18N_CoreMod_57);
 mods.thaumcraft.Research.addPrereq("YELLOWHEART", "REDHEART", false);
 mods.thaumcraft.Research.setConcealed("YELLOWHEART", true);
 mods.thaumcraft.Research.setRound("YELLOWHEART", true);
 mods.thaumcraft.Research.addPage("YELLOWHEART", "TConstruct.research_page.YELLOWHEART.1");
-game.setLocalization("TConstruct.research_page.YELLOWHEART.1", "The Miniature Yellow Heart is an item from Tinkers Construct. It can be obtained by killing Boss mobs such as the Wither or King Slime, as well as from killing any Boss Monsters in the Twilight like the Naga, the Lich or the Hydra. Its primary use is in crafting the Yellow Heart Canister, but it can also be eaten to restore 20 life.");
+game.setLocalization("TConstruct.research_page.YELLOWHEART.1", I18N_CoreMod_58);
 mods.thaumcraft.Infusion.addRecipe("YELLOWHEART", <minecraft:golden_apple:1>,
 [<TConstruct:heartCanister:1>, <TConstruct:materials:8>, <TConstruct:heartCanister:1>, <TConstruct:materials:8>, <TConstruct:heartCanister:1>, <TConstruct:materials:8>, <TConstruct:heartCanister:1>, <TConstruct:materials:8>, <TConstruct:heartCanister:1>, <TConstruct:materials:8>],
 "exanimis 50, ignis 75, lucrum 75, sano 100, praecantatio 100", <TConstruct:heartCanister:3>, 3);
@@ -1928,12 +1907,12 @@ mods.thaumcraft.Warp.addToResearch("YELLOWHEARTCANISTER", 2);
 
 // --- Yellow Heart Canister
 mods.thaumcraft.Research.addResearch("YELLOWHEARTCANISTER", "NEWHORIZONS", "metallum 15, lucrum 15, sano 12, praecantatio 9, mortuus 6, exanimis 3", -2 as int, -9 as int, 4, <TConstruct:heartCanister:4> );
-game.setLocalization("tc.research_name.YELLOWHEARTCANISTER", "Yellow Heart Canister");
-game.setLocalization("tc.research_text.YELLOWHEARTCANISTER", "[TC] Bound in a box.");
+game.setLocalization("tc.research_name.YELLOWHEARTCANISTER", I18N_CoreMod_59);
+game.setLocalization("tc.research_text.YELLOWHEARTCANISTER", I18N_CoreMod_60);
 mods.thaumcraft.Research.addPrereq("YELLOWHEARTCANISTER", "YELLOWHEART", false);
 mods.thaumcraft.Research.setConcealed("YELLOWHEARTCANISTER", true);
 mods.thaumcraft.Research.addPage("YELLOWHEARTCANISTER", "TConstruct.research_page.YELLOWHEARTCANISTER.1");
-game.setLocalization("TConstruct.research_page.YELLOWHEARTCANISTER.1", "The Yellow Heart Canister which increases the amount of hearts that the player has. To have an effect the canisters must be equipped in the Armor Tab, in the slot on the right with the symbol that looks like the yellow heart canister Up to 10 can be stacked in this slot to allow for a total of 10 extra hearts (or 20 extra health points). These will not appear above the regular health bar like from the Absorption effect, instead once the health bar is full with orange hearts it will gradually be replaced by yellow hearts.");
+game.setLocalization("TConstruct.research_page.YELLOWHEARTCANISTER.1", I18N_CoreMod_61);
 mods.thaumcraft.Arcane.addShaped("YELLOWHEARTCANISTER", <TConstruct:heartCanister:4>, "aer 100, aqua 100, ignis 100, terra 100, ordo 100, perditio 100", [
 [<TConstruct:materials:8>, <TConstruct:heartCanister>, <TConstruct:materials:8>],
 [<minecraft:golden_apple:1>, <TConstruct:heartCanister:3>, <minecraft:golden_apple:1>],
@@ -1943,13 +1922,13 @@ mods.thaumcraft.Warp.addToResearch("YELLOWHEARTCANISTER", 3);
 
 // --- Green Heart
 mods.thaumcraft.Research.addResearch("GREENHEART", "NEWHORIZONS", "infernus 15, lucrum 12, praecantatio 12, spiritus 9, fames 6, corpus 3", -4 as int, -7 as int, 4, <TConstruct:heartCanister:5>);
-game.setLocalization("tc.research_name.GREENHEART", "Green Heart");
-game.setLocalization("tc.research_text.GREENHEART", "[TC] 30 Hearts are not enough.");
+game.setLocalization("tc.research_name.GREENHEART", I18N_CoreMod_62);
+game.setLocalization("tc.research_text.GREENHEART", I18N_CoreMod_63);
 mods.thaumcraft.Research.addPrereq("GREENHEART", "YELLOWHEART", false);
 mods.thaumcraft.Research.setConcealed("GREENHEART", true);
 mods.thaumcraft.Research.setRound("GREENHEART", true);
 mods.thaumcraft.Research.addPage("GREENHEART", "TConstruct.research_page.GREENHEART.1");
-game.setLocalization("TConstruct.research_page.GREENHEART.1", "The Miniature Green Heart is an item from Tinkers Construct. It can be made via Infusion. Its primary use is in crafting the Geen Heart Canister, but it can also be eaten to restore 30 life.");
+game.setLocalization("TConstruct.research_page.GREENHEART.1", I18N_CoreMod_64);
 mods.thaumcraft.Infusion.addRecipe("GREENHEART", <TConstruct:diamondApple>,
 [<TConstruct:heartCanister:3>, <TConstruct:materials:8>, <TConstruct:heartCanister:3>, <TConstruct:materials:8>, <TConstruct:heartCanister:3>, <TConstruct:materials:8>, <TConstruct:heartCanister:3>, <TConstruct:materials:8>, <TConstruct:heartCanister:3>, <TConstruct:materials:8>],
 "exanimis 100, ignis 150, lucrum 150, sano 200, praecantatio 200", <TConstruct:heartCanister:5>, 3);
@@ -1958,14 +1937,14 @@ mods.thaumcraft.Warp.addToResearch("GREENHEART", 3);
 
 // --- Green Heart Canister
 mods.thaumcraft.Research.addResearch("GREENHEARTCANISTER", "NEWHORIZONS", "infernus 15, metallum 15, lucrum 12, sano 12, praecantatio 12, spiritus 9, fames 6, corpus 3", -4 as int, -9 as int, 4, <TConstruct:heartCanister:6>);
-game.setLocalization("tc.research_name.GREENHEARTCANISTER", "Green Heart Canister");
-game.setLocalization("tc.research_text.GREENHEARTCANISTER", "[TC] Bound in a big box.");
+game.setLocalization("tc.research_name.GREENHEARTCANISTER", I18N_CoreMod_65);
+game.setLocalization("tc.research_text.GREENHEARTCANISTER", I18N_CoreMod_66);
 mods.thaumcraft.Research.addPrereq("GREENHEARTCANISTER", "GREENHEART", false);
 mods.thaumcraft.Research.setConcealed("GREENHEARTCANISTER", true);
 mods.thaumcraft.Research.addPage("GREENHEARTCANISTER", "TConstruct.research_page.GREENHEARTCANISTER.1");
 mods.thaumcraft.Research.addPage("GREENHEARTCANISTER", "TConstruct.research_page.GREENHEARTCANISTER.2");
-game.setLocalization("TConstruct.research_page.GREENHEARTCANISTER.1", "The Green Heart Canister which increases the amount of hearts that the player has. To have an effect the canisters must be equipped in the Armor Tab, in the slot on the right with the symbol that looks like the green heart canister. Up to 10 can be stacked in this slot to allow for a total of 10 extra hearts (or 20 extra health points). These will not appear above the regular health bar like from the Absorption effect, instead once the health bar is full with yellow hearts and will gradually be replaced by green hearts.");
-game.setLocalization("TConstruct.research_page.GREENHEARTCANISTER.2", "On top of the Yellow Heart Canisters, a maximum of 10 Red Heart Canisters and 10 Yellow Heart Canisters and 10 green Heart Canisters can be equipped for an additional 10 and 20 health points. This brings maximum health up to 40 hearts (or 80 health points)");
+game.setLocalization("TConstruct.research_page.GREENHEARTCANISTER.1", I18N_CoreMod_67);
+game.setLocalization("TConstruct.research_page.GREENHEARTCANISTER.2", I18N_CoreMod_68);
 mods.thaumcraft.Arcane.addShaped("GREENHEARTCANISTER", <TConstruct:heartCanister:6>, "aer 200, aqua 200, ignis 200, terra 200, ordo 200, perditio 200", [
 [<TConstruct:materials:8>, <TConstruct:heartCanister>, <TConstruct:materials:8>],
 [<TConstruct:diamondApple>, <TConstruct:heartCanister:5>, <TConstruct:diamondApple>],
@@ -1975,12 +1954,12 @@ mods.thaumcraft.Warp.addToResearch("GREENHEARTCANISTER", 4);
 
 // --- Ender Chest Arcane
 mods.thaumcraft.Research.addResearch("ENDERCHEST", "NEWHORIZONS", "metallum 15, electrum 15, machina 12, alienis 9, lucrum 6, fabrico 3, ", -4 as int, 0, 4, <EnderStorage:enderChest>);
-game.setLocalization("tc.research_name.ENDERCHEST", "Ender Chest");
-game.setLocalization("tc.research_text.ENDERCHEST", "[EC] Oh, its more magical than a Chest!");
+game.setLocalization("tc.research_name.ENDERCHEST", I18N_CoreMod_69);
+game.setLocalization("tc.research_text.ENDERCHEST", I18N_CoreMod_70);
 mods.thaumcraft.Research.addPrereq("ENDERCHEST", "INFUSION", false);
 mods.thaumcraft.Research.setConcealed("ENDERCHEST", true);
 mods.thaumcraft.Research.addPage("ENDERCHEST", "EnderStorage.research_page.ENDERCHEST");
-game.setLocalization("EnderStorage.research_page.ENDERCHEST", "The Ender Chest is a block that allows the player to store 27 items much like a wooden chest however, if two Ender Chests are placed down in different places, the items inside chest A will be in chest B. If the items are taken from either chest, both of the chest will not have that item. While on SMP, players will not share the same storage. This can be used to prevent players form stealing more valuable items, as they cannot access the same a items. This also means two players can store items in the same ender chest.");
+game.setLocalization("EnderStorage.research_page.ENDERCHEST", I18N_CoreMod_71);
 mods.thaumcraft.Arcane.addShaped("ENDERCHEST", <EnderStorage:enderChest>, "aer 100, aqua 100, ignis 100, terra 100", [
 [<gregtech:gt.metaitem.01:17506>, <gregtech:gt.metaitem.01:22321>, <gregtech:gt.metaitem.01:17506>],
 [<gregtech:gt.metaitem.01:32694>, <IronChest:BlockIronChest:6>, <gregtech:gt.metaitem.01:32684>],
@@ -1989,12 +1968,12 @@ mods.thaumcraft.Research.addArcanePage("ENDERCHEST", <EnderStorage:enderChest>);
 
 // --- Ender Tank Arcane
 mods.thaumcraft.Research.addResearch("ENDERTANK", "NEWHORIZONS", "metallum 15, electrum 15, machina 12, ignis 9, lucrum 6, sensus 3, ", -4 as int, 2, 4, <EnderStorage:enderChest:4096>);
-game.setLocalization("tc.research_name.ENDERTANK", "Ender Tank");
-game.setLocalization("tc.research_text.ENDERTANK", "[EC] Oh, its more magical than a Tank!");
+game.setLocalization("tc.research_name.ENDERTANK", I18N_CoreMod_72);
+game.setLocalization("tc.research_text.ENDERTANK", I18N_CoreMod_73);
 mods.thaumcraft.Research.addPrereq("ENDERTANK", "ENDERCHEST", false);
 mods.thaumcraft.Research.setConcealed("ENDERTANK", true);
 mods.thaumcraft.Research.addPage("ENDERTANK", "EnderStorage.research_page.ENDERTANK");
-game.setLocalization("EnderStorage.research_page.ENDERTANK", "The Ender Tank offers stationary storage for up to 16 buckets of a single liquid. Like the Ender Chest, it has three wool pads on top which can be manipulated by right-clicking each one with a dye. Tanks with matching colors will share liquids between them, even across dimensions. Additionally, right-clicking the dial with a diamond will set that tank to a private network for that player, change the dial to a diamond color, and show your username in the tooltip. A private Ender Tank will not share any liquids with any public tank, or any private tank from another user, even if the colored pads match.");
+game.setLocalization("EnderStorage.research_page.ENDERTANK", I18N_CoreMod_74);
 mods.thaumcraft.Arcane.addShaped("ENDERTANK", <EnderStorage:enderChest:4096>, "aer 100, aqua 100, ignis 100, terra 100, ordo 100", [
 [<gregtech:gt.metaitem.02:22801>, <gregtech:gt.metaitem.01:22321>, <gregtech:gt.metaitem.02:22801>],
 [<gregtech:gt.metaitem.01:32694>, <irontank:obsidianTank>, <gregtech:gt.metaitem.01:32684>],
@@ -2003,12 +1982,12 @@ mods.thaumcraft.Research.addArcanePage("ENDERTANK", <EnderStorage:enderChest:409
 
 // --- Ender Pouch Arcane
 mods.thaumcraft.Research.addResearch("ENDERPOUCHE", "NEWHORIZONS", "lucrum 15, vitreus 15, metallum 12, electrum 9, machina 6, alienis 3, ", -4 as int, 4, 4, <EnderStorage:enderPouch>);
-game.setLocalization("tc.research_name.ENDERPOUCHE", "Ender Pouch");
-game.setLocalization("tc.research_text.ENDERPOUCHE", "[EC] Oh, its more magical than a Backpack!");
+game.setLocalization("tc.research_name.ENDERPOUCHE", I18N_CoreMod_75);
+game.setLocalization("tc.research_text.ENDERPOUCHE", I18N_CoreMod_76);
 mods.thaumcraft.Research.addPrereq("ENDERPOUCHE", "ENDERTANK", false);
 mods.thaumcraft.Research.setConcealed("ENDERPOUCHE", true);
 mods.thaumcraft.Research.addPage("ENDERPOUCHE", "EnderStorage.research_page.ENDERPOUCHE");
-game.setLocalization("EnderStorage.research_page.ENDERPOUCHE", "The Ender Pouch is a craftable item offering remote access to any Ender Chest via right-clicking while holding the pouch. The Ender Pouch may be initially crafted with the desired color of wool; shift-right clicking on an Ender Chest with an Ender Pouch will synchronize the color code of the pouch to match the color code of the chest, replacing the previous color code of the pouch. When the ender-pouchs GUI is open, it is still possible to move it in your inventory, including moving it into the ender-pouch. Unlike bag-like things from other mods, it is then possible to retrieve it and its contents, by using an ender-chest or another ender-pouch with the same code.");
+game.setLocalization("EnderStorage.research_page.ENDERPOUCHE", I18N_CoreMod_77);
 mods.thaumcraft.Arcane.addShaped("ENDERPOUCHE", <EnderStorage:enderPouch>, "aer 100, aqua 100, ignis 100, terra 100, ordo 100, perditio 100", [
 [<gregtech:gt.metaitem.02:30500>, <gregtech:gt.metaitem.01:22321>, <gregtech:gt.metaitem.02:30500>],
 [<gregtech:gt.metaitem.01:32694>, <Backpack:backpack:200>, <gregtech:gt.metaitem.01:32684>],
@@ -2017,14 +1996,14 @@ mods.thaumcraft.Research.addArcanePage("ENDERPOUCHE", <EnderStorage:enderPouch>)
 
 // --- Auto Enchanting Table
 mods.thaumcraft.Research.addResearch("AUTOENCHANTINGTABLE", "NEWHORIZONS", "praecantatio 15, fabrico 12, cognitio 9, potentia 6", 0, 2, 4, <OpenBlocks:autoenchantmenttable>);
-game.setLocalization("tc.research_name.AUTOENCHANTINGTABLE", "Auto Enchanting Table");
-game.setLocalization("tc.research_text.AUTOENCHANTINGTABLE", "[OB] Auto Enchanting nice");
+game.setLocalization("tc.research_name.AUTOENCHANTINGTABLE", I18N_CoreMod_78);
+game.setLocalization("tc.research_text.AUTOENCHANTINGTABLE", I18N_CoreMod_79);
 mods.thaumcraft.Research.addPrereq("AUTOENCHANTINGTABLE", "ENCHANTINGTABLE", false);
 mods.thaumcraft.Research.setConcealed("AUTOENCHANTINGTABLE", true);
 mods.thaumcraft.Research.addPage("AUTOENCHANTINGTABLE", "OpenBlocks.research_page.AUTOENCHANTINGTABLE.1");
-game.setLocalization("OpenBlocks.research_page.AUTOENCHANTINGTABLE.1", "An Auto Enchantment Table can draw the experience from a Tank using the auto drink setting, this is then stored in its internal liquid buffer before usage. Theres also a setting to automatically pull items to work on from an inventory on some side of the enchantment table, as well as resources or books to combine them with. A final setting allows for ejecting the finished item into an inventory at some side of the enchantment table. All of the settings can be set to work with certain sides of the block, this is done by left-clicking the sides of the enchantment table model shown in the individual settings panels.");
+game.setLocalization("OpenBlocks.research_page.AUTOENCHANTINGTABLE.1", I18N_CoreMod_80);
 mods.thaumcraft.Research.addPage("AUTOENCHANTINGTABLE", "OpenBlocks.research_page.AUTOENCHANTINGTABLE.2");
-game.setLocalization("OpenBlocks.research_page.AUTOENCHANTINGTABLE.2", " The enchantment table model in the panels can also be rotated by holding the right mouse button and dragging the cursor around.");
+game.setLocalization("OpenBlocks.research_page.AUTOENCHANTINGTABLE.2", I18N_CoreMod_81);
 mods.thaumcraft.Arcane.addShaped("AUTOENCHANTINGTABLE", <OpenBlocks:autoenchantmenttable>, "aer 75, aqua 75, ignis 75, terra 75. ordo 75, perditio 75", [
 [<gregtech:gt.metaitem.01:17526>, <minecraft:book>, <gregtech:gt.metaitem.01:17526>],
 [<gregtech:gt.metaitem.01:27019>, <minecraft:enchanting_table>, <gregtech:gt.metaitem.01:27019>],
@@ -2034,14 +2013,14 @@ mods.thaumcraft.Warp.addToResearch("AUTOENCHANTINGTABLE", 1);
 
 // --- Luggage
 mods.thaumcraft.Research.addResearch("LUGGAGE", "NEWHORIZONS", "alienis 15, sensus 15, iter 12, praecantatio 9, fabrico 6, lucrum 3", -2 as int, 0, 4, <OpenBlocks:luggage>);
-game.setLocalization("tc.research_name.LUGGAGE", "Luggage");
-game.setLocalization("tc.research_text.LUGGAGE", "[OB] Luggage follow me");
+game.setLocalization("tc.research_name.LUGGAGE", I18N_CoreMod_82);
+game.setLocalization("tc.research_text.LUGGAGE", I18N_CoreMod_83);
 mods.thaumcraft.Research.addPrereq("LUGGAGE", "ENDERCHEST", false);
 mods.thaumcraft.Research.setConcealed("LUGGAGE", true);
 mods.thaumcraft.Research.addPage("LUGGAGE", "OpenBlocks.research_page.LUGGAGE.1");
-game.setLocalization("OpenBlocks.research_page.LUGGAGE.1", "Luggage is a storage block added by OpenBlocks. The block acts like a regular chest, but it is an entity. After a player places it down by right-clicking with it on the ground, it will start following them around. Right-clicking will open the inventory and it picks up items from the ground. By holding shift and right-clicking the luggage entity, it can be turned back into an item and picked up. When picked up, the luggage item will retain all content thats stored in it.");
+game.setLocalization("OpenBlocks.research_page.LUGGAGE.1", I18N_CoreMod_84);
 mods.thaumcraft.Research.addPage("LUGGAGE", "OpenBlocks.research_page.LUGGAGE.2");
-game.setLocalization("OpenBlocks.research_page.LUGGAGE.2", "Though the entity has 20 health points, it cant be hurt. Beware, as Luggage can still be burned by Lava or destroyed by cactus, though this is only in its item form, in entity form it is immune to fire and lava and even if pushed into the void will fall down next to its owner a moment later. Upon being struck by lightning, having a lightning focused wand from the Thaumcraft mod cast on it, or being blown up by a Charged Creeper, the Luggage will become supercharged, changing its texture, and doubling its inventory space.");
+game.setLocalization("OpenBlocks.research_page.LUGGAGE.2", I18N_CoreMod_85);
 mods.thaumcraft.Arcane.addShaped("LUGGAGE", <OpenBlocks:luggage>, "aer 75, aqua 75, ignis 75, terra 75, perditio 75, ordo 75", [
 [<gregtech:gt.metaitem.01:27019>, <Thaumcraft:ItemGolemCore>, <gregtech:gt.metaitem.01:27019>],
 [<Automagy:crystalBrain:3>, <Thaumcraft:blockChestHungry>, <Automagy:crystalBrain:3>],
@@ -2051,14 +2030,14 @@ mods.thaumcraft.Warp.addToResearch("LUGGAGE", 1);
 
 // --- Ghost Amulet HEE
 mods.thaumcraft.Research.addResearch("GHOSTAMULET", "NEWHORIZONS", "potentia 21, auram 18, infernus 15, lucrum 12, praecantatio 12, spiritus 9, alienis 6, corpus 3", 4, 2, 4, <HardcoreEnderExpansion:ghost_amulet:1>);
-game.setLocalization("tc.research_name.GHOSTAMULET", "Ghost Amulet");
-game.setLocalization("tc.research_text.GHOSTAMULET", "[HEE] Ghost Amulet purification.");
+game.setLocalization("tc.research_name.GHOSTAMULET", I18N_CoreMod_86);
+game.setLocalization("tc.research_text.GHOSTAMULET", I18N_CoreMod_87);
 mods.thaumcraft.Research.addPrereq("GHOSTAMULET", "ENCHANTINGTABLE", false);
 mods.thaumcraft.Research.addPrereq("GHOSTAMULET", "BREWINGSTAND", false);
 mods.thaumcraft.Research.setConcealed("GHOSTAMULET", true);
 mods.thaumcraft.Research.setRound("GHOSTAMULET", true);
 mods.thaumcraft.Research.addPage("GHOSTAMULET", "Hee.research_page.GHOSTAMULET.1");
-game.setLocalization("Hee.research_page.GHOSTAMULET.1", "Getting Dragon Essence from a Dragon is quite hard on a multiplayer server. You have found a way to purify your Ghost Amulet without Dragon essence the magical way. You need some Draconium, Endium, Infernium and other End items and ores which let you resurrect a Dragon and get some Dragon Essence.");
+game.setLocalization("Hee.research_page.GHOSTAMULET.1", I18N_CoreMod_88);
 mods.thaumcraft.Infusion.addRecipe("GHOSTAMULET", <HardcoreEnderExpansion:ghost_amulet>,
 [<gregtech:gt.metaitem.01:11975>, <HardcoreEnderExpansion:instability_orb>, <gregtech:gt.metaitem.01:28770>, <HardcoreEnderExpansion:end_powder>, <HardcoreEnderExpansion:fire_shard>, <HardcoreEnderExpansion:igneous_rock>, <HardcoreEnderExpansion:end_powder>, <gregtech:gt.metaitem.01:11975>, <HardcoreEnderExpansion:instability_orb>, <gregtech:gt.metaitem.01:28770>, <HardcoreEnderExpansion:end_powder>, <HardcoreEnderExpansion:igneous_rock>, <HardcoreEnderExpansion:fire_shard>, <HardcoreEnderExpansion:end_powder>],
 "auram 64, potentia 64, vitium 32, vitreus 48, spiritus 32, corpus 16, alienis 24, lucrum 8", <HardcoreEnderExpansion:ghost_amulet:1>, 9);
@@ -2067,13 +2046,13 @@ mods.thaumcraft.Warp.addToResearch("GHOSTAMULET", 3);
 
 // --- Skullfire Sword
 mods.thaumcraft.Research.addResearch("SFSWORD", "NEWHORIZONS", "auram 8, corpus 8, exanimis 8, metallum 8, mortuus 8", 4, 4, 4, <Avaritia:Skull_Sword>);
-game.setLocalization("tc.research_name.SFSWORD", "Skullfire Sword");
-game.setLocalization("tc.research_text.SFSWORD", "[Avaritia] Easier wither skulls");
+game.setLocalization("tc.research_name.SFSWORD", I18N_CoreMod_89);
+game.setLocalization("tc.research_text.SFSWORD", I18N_CoreMod_90);
 mods.thaumcraft.Research.addPrereq("SFSWORD", "INFUSION", false);
 mods.thaumcraft.Research.setConcealed("SFSWORD", true);
 mods.thaumcraft.Research.setRound("SFSWORD", true);
 mods.thaumcraft.Research.addPage("SFSWORD", "Avaritia.research_page.SFSWORD.1");
-game.setLocalization("Avaritia.research_page.SFSWORD.1", "Killing Wither Skeletons for their skulls is A) Mindnumbingly Boring, and B) Incredibly Dangerous. With this item, you can char regular skeleton's skulls so they drop the black ones as well, and it's even guaranteed to drop! Extra points if you automate it.");
+game.setLocalization("Avaritia.research_page.SFSWORD.1", I18N_CoreMod_91);
 mods.thaumcraft.Infusion.addRecipe("SFSWORD", <TwilightForest:item.fierySword>,
 [<minecraft:blaze_rod>, <minecraft:blaze_powder>, <Avaritia:Resource:0>, <dreamcraft:item.LichBone>, <Avaritia:Resource:0>, <TConstruct:materials:8>, <gregtech:gt.metaitem.01:11054>, <TConstruct:materials:8>, <Avaritia:Resource:0>, <dreamcraft:item.LichBone>, <Avaritia:Resource:0>, <minecraft:blaze_powder>],
 "auram 64, corpus 64, exanimis 64, metallum 64, mortuus 64", <Avaritia:Skull_Sword>, 15);
@@ -2082,13 +2061,13 @@ mods.thaumcraft.Warp.addToResearch("SFSWORD", 1);
 
 // --- Obsidian Tile and Totem
 mods.thaumcraft.Research.addResearch("MAGICOBSIDIAN", "NEWHORIZONS", "perditio 8, terra 8", 2, 4, 2, <Thaumcraft:blockCosmeticSolid:0>);
-game.setLocalization("tc.research_name.MAGICOBSIDIAN", "Magical Obsidian Blocks");
-game.setLocalization("tc.research_text.MAGICOBSIDIAN", "Make them instead of finding them");
+game.setLocalization("tc.research_name.MAGICOBSIDIAN", I18N_CoreMod_92);
+game.setLocalization("tc.research_text.MAGICOBSIDIAN", I18N_CoreMod_93);
 mods.thaumcraft.Research.addPrereq("MAGICOBSIDIAN", "INFUSION", false);
 mods.thaumcraft.Research.setConcealed("MAGICOBSIDIAN", true);
 mods.thaumcraft.Research.setRound("MAGICOBSIDIAN", false);
 mods.thaumcraft.Research.addPage("MAGICOBSIDIAN", "Thaum.research_page.MAGICOBSIDIAN");
-game.setLocalization("Thaum.research_page.MAGICOBSIDIAN", "Tired of scrounging the world for these to make your BM rituals? Make them instead.");
+game.setLocalization("Thaum.research_page.MAGICOBSIDIAN", I18N_CoreMod_94);
 mods.thaumcraft.Arcane.addShaped("MAGICOBSIDIAN", <Thaumcraft:blockCosmeticSolid:1> * 4, "ignis 4, terra 4,", [
 [<minecraft:obsidian>, <minecraft:obsidian>, null],
 [<minecraft:obsidian>, <minecraft:obsidian>, null],

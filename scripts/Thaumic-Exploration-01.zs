@@ -1,6 +1,56 @@
 // --- Created By DreamMasterXXL --- 
 
 
+// --- I18N ---
+val I18N_Thaumic_Exploration_01_0 = "Shard Rings";
+val I18N_Thaumic_Exploration_01_1 = "Conserving vis";
+val I18N_Thaumic_Exploration_01_2 = "Seal of Jar Binding";
+val I18N_Thaumic_Exploration_01_3 = "Essentia, essentia everywhere";
+val I18N_Thaumic_Exploration_01_4 = "By adjusting the mixture of aspects that you soak the tallow seal in to account for essentia's mystical properties, you have found that you are able to bind essentia containers, in particular, warded jars. Much like your previous binding seals, the jar binding seal can be dyed and an unlimited amount of networks can be created.";
+val I18N_Thaumic_Exploration_01_5 = "By right clicking on a jar with a jar binding seal, you can create a new network. Right clicking on a bound jar will link the seal to that network. Right clicking on an unbound jar with a linked seal will add that jar to the linked network. Note that only empty jars are able to be bound. You can not bind void jars or jars with labels.<BR><BR>Sealed jars have a higher suction than unlabeled jars but lower than labeled jars.";
+val I18N_Thaumic_Exploration_01_6 = "Floating Candles";
+val I18N_Thaumic_Exploration_01_7 = "Wingardium Leviosa";
+val I18N_Thaumic_Exploration_01_8 = "You always have felt that tallow candles are missing something... A touch of magic and an Aer shard should be enough to make them look right at home in any respected wizarding school. Floating candles can be placed in midair without a surface beneath them. These candles bob pleasingly, and add a touch of magic to any room.<BR><BR>Unfortunately, the candles don't seem to have an effect on infusion. You are sure that this will be fixed in the near future.";
+val I18N_Thaumic_Exploration_01_9 = "Thaumic Replicator";
+val I18N_Thaumic_Exploration_01_10 = "Equivalent exchange";
+val I18N_Thaumic_Exploration_01_11 = "Oblivion Jar";
+val I18N_Thaumic_Exploration_01_12 = "Essentia disposal";
+val I18N_Thaumic_Exploration_01_13 = "Boots of the Meteor";
+val I18N_Thaumic_Exploration_01_14 = "Come on and slam";
+val I18N_Thaumic_Exploration_01_15 = "Boots of the Comet";
+val I18N_Thaumic_Exploration_01_16 = "Ice ice baby";
+val I18N_Thaumic_Exploration_01_17 = "Soul Brazier";
+val I18N_Thaumic_Exploration_01_18 = "Warp is bad mmkay?";
+val I18N_Thaumic_Exploration_01_19 = "Everfull Urn";
+val I18N_Thaumic_Exploration_01_20 = "It seems familiar... ";
+val I18N_Thaumic_Exploration_01_21 = "You have read much about an 'Everfull Urn' in your research, a mystical device created by the great Thaumaturge Azanor that acted as an endless source of water. You have finally constructed a device that can do that and more.<BR><BR>Your Everfull Urn can not only supply water to an infinite amount of buckets, it can also be pumped out of the top to an external tank. Your urn also has the ability to fill any nearby crucible, and extinguish nearby players that are on fire.<BR>If Botania is installed the Urn is also able to fill nearby Petal Apothecaries, if one chooses to dabble in floral magic.";
+val I18N_Thaumic_Exploration_01_22 = "Everburn Urn";
+val I18N_Thaumic_Exploration_01_23 = "Why did I make it out of fire??";
+val I18N_Thaumic_Exploration_01_24 = "Sojourner's Wand Caps";
+val I18N_Thaumic_Exploration_01_25 = "Sentient wand caps";
+val I18N_Thaumic_Exploration_01_26 = "Mechanist's Wand Caps";
+val I18N_Thaumic_Exploration_01_27 = "Mechanical wand caps";
+val I18N_Thaumic_Exploration_01_28 = "Thaumostatic Stabilizer";
+val I18N_Thaumic_Exploration_01_29 = "Knockback nullifiers";
+val I18N_Thaumic_Exploration_01_30 = "Flesh Purification";
+val I18N_Thaumic_Exploration_01_31 = "Making things better";
+val I18N_Thaumic_Exploration_01_32 = "Brain Sanitization";
+val I18N_Thaumic_Exploration_01_33 = "Brain washing";
+val I18N_Thaumic_Exploration_01_34 = "Talisman of Nourishment";
+val I18N_Thaumic_Exploration_01_35 = "Everfull belly";
+val I18N_Thaumic_Exploration_01_36 = "You often find yourself needing to take breaks during marathon researching sessions to satisfy your hunger. Finally you have found a way to get past your need for food.<BR><BR>By infusing a diamond with the essence of hunger, you have created an item that is able to suck the nourishing energy from various food items in your hotbar and store this energy within. It will then automatically replenish your food meter if it is depleted.<BR><BR>This device will only work on simple food items, so foods that invoke effects such as Rotten Flesh and Golden Apples must be consumed normally.";
+val I18N_Thaumic_Exploration_01_37 = "Wispy Dreamcatcher";
+val I18N_Thaumic_Exploration_01_38 = "Filtered thoughts";
+val I18N_Thaumic_Exploration_01_39 = "Crucible of Soulst";
+val I18N_Thaumic_Exploration_01_40 = "Caution: Keep out of reach of children.";
+val I18N_Thaumic_Exploration_01_41 = "Transmutative Wand Core";
+val I18N_Thaumic_Exploration_01_42 = "One thing into another";
+val I18N_Thaumic_Exploration_01_43 = "Transmutative Staff Core";
+val I18N_Thaumic_Exploration_01_44 = "Amber Wand Core";
+val I18N_Thaumic_Exploration_01_45 = "Regenerative vis storage";
+val I18N_Thaumic_Exploration_01_46 = "Amber Staff Core";
+val I18N_Thaumic_Exploration_01_47 = "Necromancer's Staff Core";
+val I18N_Thaumic_Exploration_01_48 = "The power of the undead";
 
 // --- Removing Recipes ---
 
@@ -101,8 +151,8 @@ mods.thaumcraft.Research.removeResearch("DISCOUNTRINGS");
 mods.thaumcraft.Research.addResearch("DiacountringsGTNH", "TX", "vitreus 12, praecantatio 9, lucrum 6, alienis 3", 1, 3, 2, <ThaumicExploration:discountRing:2>);
 mods.thaumcraft.Research.addPrereq("DiacountringsGTNH", "TXBASICARTIFACE", false);
 mods.thaumcraft.Research.setConcealed("DiacountringsGTNH", true);
-game.setLocalization("tc.research_name.DiacountringsGTNH", "Shard Rings");
-game.setLocalization("tc.research_text.DiacountringsGTNH", "Conserving vis");
+game.setLocalization("tc.research_name.DiacountringsGTNH", I18N_Thaumic_Exploration_01_0);
+game.setLocalization("tc.research_text.DiacountringsGTNH", I18N_Thaumic_Exploration_01_1);
 mods.thaumcraft.Research.addPage("DiacountringsGTNH", "te.text.DISCOUNTRINGS.1");
 mods.thaumcraft.Arcane.addShaped("DiacountringsGTNH", <ThaumicExploration:discountRing>, "aer 25", [
 [<ore:screwInfusedAir>, <Thaumcraft:blockCrystal>, <ore:screwInfusedAir>],
@@ -148,12 +198,12 @@ mods.thaumcraft.Research.addResearch("JarsealGTNH", "TX", "vinculum 18, alienis 
 mods.thaumcraft.Research.addPrereq("JarsealGTNH", "TALLOW", false);
 mods.thaumcraft.Research.addPrereq("JarsealGTNH", "JARLABEL", false);
 mods.thaumcraft.Research.setConcealed("JarsealGTNH", true);
-game.setLocalization("tc.research_name.JarsealGTNH", "Seal of Jar Binding");
-game.setLocalization("tc.research_text.JarsealGTNH", "Essentia, essentia everywhere");
+game.setLocalization("tc.research_name.JarsealGTNH", I18N_Thaumic_Exploration_01_2);
+game.setLocalization("tc.research_text.JarsealGTNH", I18N_Thaumic_Exploration_01_3);
 mods.thaumcraft.Research.addPage("JarsealGTNH", "tc.research_page.JarsealGTNH.1");
-game.setLocalization("tc.research_page.JarsealGTNH.1", "By adjusting the mixture of aspects that you soak the tallow seal in to account for essentia's mystical properties, you have found that you are able to bind essentia containers, in particular, warded jars. Much like your previous binding seals, the jar binding seal can be dyed and an unlimited amount of networks can be created.");
+game.setLocalization("tc.research_page.JarsealGTNH.1", I18N_Thaumic_Exploration_01_4);
 mods.thaumcraft.Research.addPage("JarsealGTNH", "tc.research_page.JarsealGTNH.2");
-game.setLocalization("tc.research_page.JarsealGTNH.2","By right clicking on a jar with a jar binding seal, you can create a new network. Right clicking on a bound jar will link the seal to that network. Right clicking on an unbound jar with a linked seal will add that jar to the linked network. Note that only empty jars are able to be bound. You can not bind void jars or jars with labels.<BR><BR>Sealed jars have a higher suction than unlabeled jars but lower than labeled jars.");
+game.setLocalization("tc.research_page.JarsealGTNH.2",I18N_Thaumic_Exploration_01_5);
 mods.thaumcraft.Arcane.addShaped("JarsealGTNH", <ThaumicExploration:blankSeal:15>, "aer 5, aqua 5, ignis 5, terra 5", [
 [<ore:dyeWhite>, <Thaumcraft:ItemResource:4>, <ore:dyeWhite>],
 [<Thaumcraft:ItemResource:4>, <ore:plateStone>, <Thaumcraft:ItemResource:4>],
@@ -288,10 +338,10 @@ mods.thaumcraft.Research.removeResearch("FLOATCANDLE");
 mods.thaumcraft.Research.addResearch("FloatingcandleGTNH", "TX", "aer 12, pannus 9, praecantatio 6, volatus 3", -7 as int, -9 as int, 2, <ThaumicExploration:floatCandle>);
 mods.thaumcraft.Research.addPrereq("FloatingcandleGTNH", "TXTALLOW", false);
 mods.thaumcraft.Research.setConcealed("FloatingcandleGTNH", true);
-game.setLocalization("tc.research_name.FloatingcandleGTNH", "Floating Candles");
-game.setLocalization("tc.research_text.FloatingcandleGTNH", "Wingardium Leviosa");
+game.setLocalization("tc.research_name.FloatingcandleGTNH", I18N_Thaumic_Exploration_01_6);
+game.setLocalization("tc.research_text.FloatingcandleGTNH", I18N_Thaumic_Exploration_01_7);
 mods.thaumcraft.Research.addPage("FloatingcandleGTNH", "tc.research_page.FloatingcandleGTNH");
-game.setLocalization("tc.research_page.FloatingcandleGTNH", "You always have felt that tallow candles are missing something... A touch of magic and an Aer shard should be enough to make them look right at home in any respected wizarding school. Floating candles can be placed in midair without a surface beneath them. These candles bob pleasingly, and add a touch of magic to any room.<BR><BR>Unfortunately, the candles don't seem to have an effect on infusion. You are sure that this will be fixed in the near future.");
+game.setLocalization("tc.research_page.FloatingcandleGTNH", I18N_Thaumic_Exploration_01_8);
 mods.thaumcraft.Arcane.addShaped("FloatingcandleGTNH", <ThaumicExploration:floatCandle> * 3, "aer 15", [
 [<Thaumcraft:blockCandle>, <Thaumcraft:blockCandle>, <Thaumcraft:blockCandle>],
 [<ore:plateInfusedAir>, <ore:plateInfusedAir>, <ore:plateInfusedAir>],
@@ -397,8 +447,8 @@ mods.thaumcraft.Research.addPrereq("ReplicatorGTNH", "TXINFUSION", false);
 mods.thaumcraft.Research.addPrereq("ReplicatorGTNH", "TXDISTILESSENTIA", false);
 mods.thaumcraft.Research.addPrereq("ReplicatorGTNH", "THAUMIUM", false);
 mods.thaumcraft.Research.setConcealed("ReplicatorGTNH", true);
-game.setLocalization("tc.research_name.ReplicatorGTNH", "Thaumic Replicator");
-game.setLocalization("tc.research_text.ReplicatorGTNH", "Equivalent exchange");
+game.setLocalization("tc.research_name.ReplicatorGTNH", I18N_Thaumic_Exploration_01_9);
+game.setLocalization("tc.research_text.ReplicatorGTNH", I18N_Thaumic_Exploration_01_10);
 mods.thaumcraft.Research.addPage("ReplicatorGTNH", "te.text.REPLICATOR.1");
 mods.thaumcraft.Research.addPage("ReplicatorGTNH", "te.text.REPLICATOR.2");
 mods.thaumcraft.Infusion.addRecipe("ReplicatorGTNH", <Thaumcraft:blockStoneDevice:2>,
@@ -416,8 +466,8 @@ mods.thaumcraft.Research.addPrereq("TrashjarGTNH", "TXINFUSION", false);
 mods.thaumcraft.Research.addPrereq("TrashjarGTNH", "WARDEDARCANA", false);
 mods.thaumcraft.Research.addPrereq("TrashjarGTNH", "HUNGRYCHEST", false);
 mods.thaumcraft.Research.setConcealed("TrashjarGTNH", true);
-game.setLocalization("tc.research_name.TrashjarGTNH", "Oblivion Jar");
-game.setLocalization("tc.research_text.TrashjarGTNH", "Essentia disposal");
+game.setLocalization("tc.research_name.TrashjarGTNH", I18N_Thaumic_Exploration_01_11);
+game.setLocalization("tc.research_text.TrashjarGTNH", I18N_Thaumic_Exploration_01_12);
 mods.thaumcraft.Research.addPage("TrashjarGTNH", "te.text.TRASHJAR.1");
 mods.thaumcraft.Research.addPage("TrashjarGTNH", "te.text.TRASHJAR.2");
 mods.thaumcraft.Infusion.addRecipe("TrashjarGTNH", <Thaumcraft:blockJar:3>,
@@ -434,8 +484,8 @@ mods.thaumcraft.Research.addPrereq("MeteorbootsGTNH", "TXBOOTSTRAVELLER", false)
 mods.thaumcraft.Research.addPrereq("MeteorbootsGTNH", "FOCUSFIRE", false);
 mods.thaumcraft.Research.addPrereq("MeteorbootsGTNH", "INFUSION", false);
 mods.thaumcraft.Research.setConcealed("MeteorbootsGTNH", true);
-game.setLocalization("tc.research_name.MeteorbootsGTNH", "Boots of the Meteor");
-game.setLocalization("tc.research_text.MeteorbootsGTNH", "Come on and slam");
+game.setLocalization("tc.research_name.MeteorbootsGTNH", I18N_Thaumic_Exploration_01_13);
+game.setLocalization("tc.research_text.MeteorbootsGTNH", I18N_Thaumic_Exploration_01_14);
 mods.thaumcraft.Research.addPage("MeteorbootsGTNH", "te.text.METEORBOOTS.1");
 mods.thaumcraft.Infusion.addRecipe("MeteorbootsGTNH", <Thaumcraft:BootsTraveller:*>,
 [<Thaumcraft:FocusFire>, <gregtech:gt.metaitem.01:17347>, <Thaumcraft:blockCrystal:1>, <gregtech:gt.metaitem.01:17347>, <gregtech:gt.metaitem.01:17347>, <gregtech:gt.metaitem.01:17347>, <Thaumcraft:blockCrystal:1>, <gregtech:gt.metaitem.01:17347>], 
@@ -450,8 +500,8 @@ mods.thaumcraft.Research.addPrereq("CometsbootsGTNH", "TXBOOTSTRAVELLER", false)
 mods.thaumcraft.Research.addPrereq("CometsbootsGTNH", "FOCUSFROST", false);
 mods.thaumcraft.Research.addPrereq("CometsbootsGTNH", "INFUSION", false);
 mods.thaumcraft.Research.setConcealed("CometsbootsGTNH", true);
-game.setLocalization("tc.research_name.CometsbootsGTNH", "Boots of the Comet");
-game.setLocalization("tc.research_text.CometsbootsGTNH", "Ice ice baby");
+game.setLocalization("tc.research_name.CometsbootsGTNH", I18N_Thaumic_Exploration_01_15);
+game.setLocalization("tc.research_text.CometsbootsGTNH", I18N_Thaumic_Exploration_01_16);
 mods.thaumcraft.Research.addPage("CometsbootsGTNH", "te.text.COMETBOOTS.1");
 mods.thaumcraft.Infusion.addRecipe("CometsbootsGTNH", <Thaumcraft:BootsTraveller:*>,
 [<Thaumcraft:FocusFrost>, <BiomesOPlenty:hardIce>, <Thaumcraft:blockCrystal:2>, <BiomesOPlenty:hardIce>, <BiomesOPlenty:hardIce>, <BiomesOPlenty:hardIce>, <Thaumcraft:blockCrystal:2>, <BiomesOPlenty:hardIce>], 
@@ -468,11 +518,11 @@ mods.thaumcraft.Research.addPrereq("SoulbraizerGTNH", "VOIDMETAL", false);
 mods.thaumcraft.Research.addPrereq("SoulbraizerGTNH", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SoulbraizerGTNH", "SANESOAP", false);
 mods.thaumcraft.Research.setConcealed("SoulbraizerGTNH", true);
-game.setLocalization("tc.research_name.SoulbraizerGTNH", "Soul Brazier");
-game.setLocalization("tc.research_text.SoulbraizerGTNH", "Warp is bad mmkay?");
+game.setLocalization("tc.research_name.SoulbraizerGTNH", I18N_Thaumic_Exploration_01_17);
+game.setLocalization("tc.research_text.SoulbraizerGTNH", I18N_Thaumic_Exploration_01_18);
 mods.thaumcraft.Research.addPage("SoulbraizerGTNH", "te.text.SOULBRAZIER.1");
 mods.thaumcraft.Infusion.addRecipe("SoulbraizerGTNH", <minecraft:nether_star>,
-[<Thaumcraft:ItemZombieBrain>, <Thaumcraft:ItemSanitySoap>, <Thaumcraft:blockCosmeticSolid:7>, <gregtech:gt.metaitem.01:11978>, <Thaumcraft:blockCosmeticSolid:7>, <gregtech:gt.metaitem.01:11978>, <Thaumcraft:blockCosmeticSolid:7>, <gregtech:gt.metaitem.01:11978>, <Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:ItemSanitySoap>], 
+[<Thaumcraft:ItemZombieBrain>, <Thaumcraft:ItemSanitySoap>, <Thaumcraft:blockCosmeticSolid:7>, <gregtech:gt.metaitem.01:11970>, <Thaumcraft:blockCosmeticSolid:7>, <gregtech:gt.metaitem.01:11970>, <Thaumcraft:blockCosmeticSolid:7>, <gregtech:gt.metaitem.01:11970>, <Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:ItemSanitySoap>], 
 "auram 64, mortuus 48, tenebrae 48, alienis 32, praecantatio 16", <ThaumicExploration:soulBrazier>, 16);
 mods.thaumcraft.Research.addInfusionPage("SoulbraizerGTNH", <ThaumicExploration:soulBrazier>);
 
@@ -483,10 +533,10 @@ mods.thaumcraft.Research.addResearch("UrnGTNH", "TX", "aqua 15, praecantatio 12,
 mods.thaumcraft.Research.addPrereq("UrnGTNH", "TXINFUSION", false);
 mods.thaumcraft.Research.addPrereq("UrnGTNH", "ARCANEEAR", false);
 mods.thaumcraft.Research.setConcealed("UrnGTNH", true);
-game.setLocalization("tc.research_name.UrnGTNH", "Everfull Urn");
-game.setLocalization("tc.research_text.UrnGTNH", "It seems familiar... ");
+game.setLocalization("tc.research_name.UrnGTNH", I18N_Thaumic_Exploration_01_19);
+game.setLocalization("tc.research_text.UrnGTNH", I18N_Thaumic_Exploration_01_20);
 mods.thaumcraft.Research.addPage("UrnGTNH", "tc.research_page.UrnGTNH");
-game.setLocalization("tc.research_page.UrnGTNH", "You have read much about an 'Everfull Urn' in your research, a mystical device created by the great Thaumaturge Azanor that acted as an endless source of water. You have finally constructed a device that can do that and more.<BR><BR>Your Everfull Urn can not only supply water to an infinite amount of buckets, it can also be pumped out of the top to an external tank. Your urn also has the ability to fill any nearby crucible, and extinguish nearby players that are on fire.<BR>If Botania is installed the Urn is also able to fill nearby Petal Apothecaries, if one chooses to dabble in floral magic.");
+game.setLocalization("tc.research_page.UrnGTNH", I18N_Thaumic_Exploration_01_21);
 mods.thaumcraft.Infusion.addRecipe("UrnGTNH", <minecraft:flower_pot>,
 [<minecraft:water_bucket>, <minecraft:netherbrick>, <minecraft:water_bucket>, <gregtech:gt.metaitem.01:17028>, <minecraft:water_bucket>, <minecraft:netherbrick>, <minecraft:water_bucket>, <minecraft:brick>, <minecraft:water_bucket>, <gregtech:gt.metaitem.01:17028>, <minecraft:water_bucket>, <minecraft:brick>], 
 "aqua 64, praecantatio 48, vacuos 32, alienis 32, lucrum 16", <ThaumicExploration:everfullUrn>, 9);
@@ -498,8 +548,8 @@ mods.thaumcraft.Research.removeResearch("BURN");
 mods.thaumcraft.Research.addResearch("BurnGTNH", "TX", "ignis 15, praecantatio 12, vacuos 9, alienis 6, lucrum 3", 4, -11 as int, 4, <ThaumicExploration:everburnUrn>);
 mods.thaumcraft.Research.addPrereq("BurnGTNH", "UrnGTNH", false);
 mods.thaumcraft.Research.setConcealed("BurnGTNH", true);
-game.setLocalization("tc.research_name.BurnGTNH", "Everburn Urn");
-game.setLocalization("tc.research_text.BurnGTNH", "Why did I make it out of fire??");
+game.setLocalization("tc.research_name.BurnGTNH", I18N_Thaumic_Exploration_01_22);
+game.setLocalization("tc.research_text.BurnGTNH", I18N_Thaumic_Exploration_01_23);
 mods.thaumcraft.Research.addPage("BurnGTNH", "te.text.BURN.1");
 mods.thaumcraft.Infusion.addRecipe("BurnGTNH", <minecraft:flower_pot>,
 [<minecraft:lava_bucket>, <minecraft:netherbrick>, <minecraft:lava_bucket>, <gregtech:gt.blockcasings5:3>, <gregtech:gt.metaitem.01:17028>, <gregtech:gt.blockcasings5:3>, <minecraft:lava_bucket>, <minecraft:netherbrick>, <minecraft:lava_bucket>, <minecraft:brick>, <minecraft:lava_bucket>, <gregtech:gt.blockcasings5:3>, <gregtech:gt.metaitem.01:17028>, <gregtech:gt.blockcasings5:3>, <minecraft:lava_bucket>, <minecraft:brick>], 
@@ -513,8 +563,8 @@ mods.thaumcraft.Research.addResearch("CAP_SOJOURNER", "TX", "auram 15, permutati
 mods.thaumcraft.Research.addPrereq("CAP_SOJOURNER", "TXCAP_thaumium", false);
 mods.thaumcraft.Research.addPrereq("CAP_SOJOURNER", "WANDPED", false);
 mods.thaumcraft.Research.setConcealed("CAP_SOJOURNER", true);
-game.setLocalization("tc.research_name.CAP_SOJOURNER", "Sojourner's Wand Caps");
-game.setLocalization("tc.research_text.CAP_SOJOURNER", "Sentient wand caps");
+game.setLocalization("tc.research_name.CAP_SOJOURNER", I18N_Thaumic_Exploration_01_24);
+game.setLocalization("tc.research_text.CAP_SOJOURNER", I18N_Thaumic_Exploration_01_25);
 mods.thaumcraft.Research.addPage("CAP_SOJOURNER", "te.text.CAP_SOJOURNER.1");
 mods.thaumcraft.Arcane.addShaped("CAP_SOJOURNER", <ThaumicExploration:sojournerCapUncharged>, "aer 35, perditio 35, ordo 35, aqua 35", [
 [<ore:screwDiamond>, <ore:plateLapis>, <ore:screwDiamond>],
@@ -533,8 +583,8 @@ mods.thaumcraft.Research.addResearch("CAP_MECHANIST", "TX", "auram 15, machina 1
 mods.thaumcraft.Research.addPrereq("CAP_MECHANIST", "TXCAP_thaumium", false);
 mods.thaumcraft.Research.addPrereq("CAP_MECHANIST", "NODETAPPER2", false);
 mods.thaumcraft.Research.setConcealed("CAP_MECHANIST", true);
-game.setLocalization("tc.research_name.CAP_MECHANIST", "Mechanist's Wand Caps");
-game.setLocalization("tc.research_text.CAP_MECHANIST", "Mechanical wand caps");
+game.setLocalization("tc.research_name.CAP_MECHANIST", I18N_Thaumic_Exploration_01_26);
+game.setLocalization("tc.research_text.CAP_MECHANIST", I18N_Thaumic_Exploration_01_27);
 mods.thaumcraft.Research.addPage("CAP_MECHANIST", "te.text.CAP_MECHANIST.1");
 mods.thaumcraft.Arcane.addShaped("CAP_MECHANIST", <ThaumicExploration:mechanistCapUncharged>, "aer 35, perditio 35, ordo 35, aqua 35", [
 [<ore:screwDiamond>, <ore:plateRedstone>, <ore:screwDiamond>],
@@ -553,8 +603,8 @@ mods.thaumcraft.Research.addResearch("StabilizerbeltGTNH", "TX", "ordo 18, terra
 mods.thaumcraft.Research.addPrereq("StabilizerbeltGTNH", "TXHOVERHARNESS", false);
 mods.thaumcraft.Research.addPrereq("StabilizerbeltGTNH", "TXINFUSION", false);
 mods.thaumcraft.Research.setConcealed("StabilizerbeltGTNH", true);
-game.setLocalization("tc.research_name.StabilizerbeltGTNH", "Thaumostatic Stabilizer");
-game.setLocalization("tc.research_text.StabilizerbeltGTNH", "Knockback nullifiers");
+game.setLocalization("tc.research_name.StabilizerbeltGTNH", I18N_Thaumic_Exploration_01_28);
+game.setLocalization("tc.research_text.StabilizerbeltGTNH", I18N_Thaumic_Exploration_01_29);
 mods.thaumcraft.Research.addPage("StabilizerbeltGTNH", "te.text.STABILIZERBELT.1");
 mods.thaumcraft.Infusion.addRecipe("StabilizerbeltGTNH", <Thaumcraft:ItemBaubleBlanks:2>,
 [<gregtech:gt.metaitem.01:32640>, <gregtech:gt.metaitem.02:23330>, <gregtech:gt.metaitem.01:17086>, <gregtech:gt.metaitem.02:23330>, <gregtech:gt.metaitem.01:24500>, <gregtech:gt.metaitem.02:23330>, <gregtech:gt.metaitem.01:17086>, <gregtech:gt.metaitem.02:23330>], 
@@ -582,8 +632,8 @@ mods.thaumcraft.Research.removeResearch("FLESHCURE");
 mods.thaumcraft.Research.addResearch("FleshcureGTNH", "TX", "pannus 15, tutamen 12, corpus 9, permutatio 6, alienis 3", -4 as int, -10 as int, 2, <minecraft:rotten_flesh>);
 mods.thaumcraft.Research.addPrereq("FleshcureGTNH", "TXTALLOW", false);
 mods.thaumcraft.Research.setConcealed("FleshcureGTNH", true);
-game.setLocalization("tc.research_name.FleshcureGTNH", "Flesh Purification");
-game.setLocalization("tc.research_text.FleshcureGTNH", "Making things better");
+game.setLocalization("tc.research_name.FleshcureGTNH", I18N_Thaumic_Exploration_01_30);
+game.setLocalization("tc.research_text.FleshcureGTNH", I18N_Thaumic_Exploration_01_31);
 mods.thaumcraft.Research.addPage("FleshcureGTNH", "te.text.FLESHCURE.1");
 mods.thaumcraft.Crucible.addRecipe("FleshcureGTNH", <minecraft:leather>, <minecraft:rotten_flesh>, "corpus 4, pannus 4, permutatio 4");
 mods.thaumcraft.Research.addCruciblePage("FleshcureGTNH", <minecraft:leather>);
@@ -596,8 +646,8 @@ mods.thaumcraft.Research.addPrereq("BraincureGTNH", "TXINFUSION", false);
 mods.thaumcraft.Research.addPrereq("BraincureGTNH", "JARBRAIN", false);
 mods.thaumcraft.Research.addPrereq("BraincureGTNH", "FleshcureGTNH", false);
 mods.thaumcraft.Research.setConcealed("BraincureGTNH", true);
-game.setLocalization("tc.research_name.BraincureGTNH", "Brain Sanitization");
-game.setLocalization("tc.research_text.BraincureGTNH", "Brain washing");
+game.setLocalization("tc.research_name.BraincureGTNH", I18N_Thaumic_Exploration_01_32);
+game.setLocalization("tc.research_text.BraincureGTNH", I18N_Thaumic_Exploration_01_33);
 mods.thaumcraft.Research.addPage("BraincureGTNH", "te.text.BRAINCURE.1");
 mods.thaumcraft.Infusion.addRecipe("BraincureGTNH", <Thaumcraft:ItemZombieBrain>,
 [<minecraft:water_bucket>, <Thaumcraft:ItemResource:14>, <minecraft:potion:8264>, <Thaumcraft:ItemResource:14>, <minecraft:golden_apple>, <Thaumcraft:ItemResource:14>], 
@@ -611,10 +661,10 @@ mods.thaumcraft.Research.addResearch("TalismanfoodtGTNH", "TX", "fames 18, pannu
 mods.thaumcraft.Research.addPrereq("TalismanfoodtGTNH", "FleshcureGTNH", false);
 mods.thaumcraft.Research.addPrereq("TalismanfoodtGTNH", "TXINFUSION", false);
 mods.thaumcraft.Research.setConcealed("TalismanfoodtGTNH", true);
-game.setLocalization("tc.research_name.TalismanfoodtGTNH", "Talisman of Nourishment");
-game.setLocalization("tc.research_text.TalismanfoodtGTNH", "Everfull belly");
+game.setLocalization("tc.research_name.TalismanfoodtGTNH", I18N_Thaumic_Exploration_01_34);
+game.setLocalization("tc.research_text.TalismanfoodtGTNH", I18N_Thaumic_Exploration_01_35);
 mods.thaumcraft.Research.addPage("TalismanfoodtGTNH", "tc.research_page.TalismanfoodtGTNH");
-game.setLocalization("tc.research_page.TalismanfoodtGTNH", "You often find yourself needing to take breaks during marathon researching sessions to satisfy your hunger. Finally you have found a way to get past your need for food.<BR><BR>By infusing a diamond with the essence of hunger, you have created an item that is able to suck the nourishing energy from various food items in your hotbar and store this energy within. It will then automatically replenish your food meter if it is depleted.<BR><BR>This device will only work on simple food items, so foods that invoke effects such as Rotten Flesh and Golden Apples must be consumed normally.");
+game.setLocalization("tc.research_page.TalismanfoodtGTNH", I18N_Thaumic_Exploration_01_36);
 mods.thaumcraft.Infusion.addRecipe("TalismanfoodtGTNH", <Thaumcraft:ItemResource:15>,
 [<gregtech:gt.metaitem.02:30502>, <harvestcraft:heartybreakfastItem>, <harvestcraft:rainbowcurryItem>, <harvestcraft:supremepizzaItem>, <harvestcraft:sausageinbreadItem>, <harvestcraft:beefwellingtonItem>, <harvestcraft:epicbaconItem>, <harvestcraft:meatfeastpizzaItem>, <harvestcraft:delightedmealItem>], 
 "fames 64, pannus 48, messis 24, sano 24, permutatio 32, ordo 16", <ThaumicExploration:talismanFood>, 6);
@@ -630,8 +680,8 @@ mods.thaumcraft.Research.removeResearch("DREAMCATCHER");
 mods.thaumcraft.Research.addResearch("DreamcatcherGTNH", "TX", "vitium 15, cognitio 12, instrumentum 9, metallum 6, praecantatio 3", -7 as int, 2, 3, <ThaumicExploration:charmNoTaint>);
 mods.thaumcraft.Research.addPrereq("DreamcatcherGTNH", "TAINTBASICS", false);
 mods.thaumcraft.Research.setConcealed("DreamcatcherGTNH", true);
-game.setLocalization("tc.research_name.DreamcatcherGTNH", "Wispy Dreamcatcher");
-game.setLocalization("tc.research_text.DreamcatcherGTNH", "Filtered thoughts");
+game.setLocalization("tc.research_name.DreamcatcherGTNH", I18N_Thaumic_Exploration_01_37);
+game.setLocalization("tc.research_text.DreamcatcherGTNH", I18N_Thaumic_Exploration_01_38);
 mods.thaumcraft.Research.addPage("DreamcatcherGTNH", "te.text.DREAMCATCHER.1");
 mods.thaumcraft.Arcane.addShaped("DreamcatcherGTNH", <ThaumicExploration:charmNoTaint>, "ordo 25, perditio 25, terra 25", [
 [<Thaumcraft:WandRod>, <Thaumcraft:ItemResource:12>, <Thaumcraft:WandRod>],
@@ -647,8 +697,8 @@ mods.thaumcraft.Research.addPrereq("CrucsoulGTNH", "TXDISTILESSENTIA", false);
 mods.thaumcraft.Research.addPrereq("CrucsoulGTNH", "BraincureGTNH", true);
 mods.thaumcraft.Research.addPrereq("CrucsoulGTNH", "TXINFUSION", false);
 mods.thaumcraft.Research.setConcealed("CrucsoulGTNH", true);
-game.setLocalization("tc.research_name.CrucsoulGTNH", "Crucible of Soulst");
-game.setLocalization("tc.research_text.CrucsoulGTNH", "Caution: Keep out of reach of children.");
+game.setLocalization("tc.research_name.CrucsoulGTNH", I18N_Thaumic_Exploration_01_39);
+game.setLocalization("tc.research_text.CrucsoulGTNH", I18N_Thaumic_Exploration_01_40);
 mods.thaumcraft.Research.addPage("CrucsoulGTNH", "te.text.CRUCSOULS.1");
 mods.thaumcraft.Research.addPage("CrucsoulGTNH", "te.text.CRUCSOULS.2");
 mods.thaumcraft.Infusion.addRecipe("CrucsoulGTNH", <Thaumcraft:blockStoneDevice>,
@@ -671,8 +721,8 @@ mods.thaumcraft.Research.addPrereq("ROD_TRANSMUTATION", "TXROD_greatwood", false
 mods.thaumcraft.Research.addPrereq("ROD_TRANSMUTATION", "TXBASICARTIFACE", false);
 mods.thaumcraft.Research.addPrereq("ROD_TRANSMUTATION", "TXINFUSION", true);
 mods.thaumcraft.Research.setConcealed("ROD_TRANSMUTATION", true);
-game.setLocalization("tc.research_name.ROD_TRANSMUTATION", "Transmutative Wand Core");
-game.setLocalization("tc.research_text.ROD_TRANSMUTATION", "One thing into another");
+game.setLocalization("tc.research_name.ROD_TRANSMUTATION", I18N_Thaumic_Exploration_01_41);
+game.setLocalization("tc.research_text.ROD_TRANSMUTATION", I18N_Thaumic_Exploration_01_42);
 mods.thaumcraft.Research.addPage("ROD_TRANSMUTATION", "te.text.ROD_TRANSMUTATION.1");
 mods.thaumcraft.Infusion.addRecipe("ROD_TRANSMUTATION", <Thaumcraft:WandRod>,
 [<Thaumcraft:ItemResource:14>, <Thaumcraft:blockCrystal>, <Thaumcraft:blockCrystal:1>, <Thaumcraft:blockCrystal:2>, <Thaumcraft:blockCrystal:3>, <Thaumcraft:blockCrystal:4>, <Thaumcraft:blockCrystal:5>, <Thaumcraft:blockCrystal:6>], 
@@ -687,8 +737,8 @@ mods.thaumcraft.Research.addPrereq("ROD_TRANSMUTATION_staff", "TXROD_greatwood_s
 mods.thaumcraft.Research.addPrereq("ROD_TRANSMUTATION_staff", "ROD_TRANSMUTATION", false);
 mods.thaumcraft.Research.addPrereq("ROD_TRANSMUTATION_staff", "TXBASICARTIFACE", false);
 mods.thaumcraft.Research.setConcealed("ROD_TRANSMUTATION_staff", true);
-game.setLocalization("tc.research_name.ROD_TRANSMUTATION_staff", "Transmutative Staff Core");
-game.setLocalization("tc.research_text.ROD_TRANSMUTATION_staff", "One thing into another");
+game.setLocalization("tc.research_name.ROD_TRANSMUTATION_staff", I18N_Thaumic_Exploration_01_43);
+game.setLocalization("tc.research_text.ROD_TRANSMUTATION_staff", I18N_Thaumic_Exploration_01_42);
 mods.thaumcraft.Research.addPage("ROD_TRANSMUTATION_staff", "te.text.ROD_TRANSMUTATION_staff.1");
 mods.thaumcraft.Arcane.addShaped("ROD_TRANSMUTATION_staff", <ThaumicExploration:transmutationStaffCore>, "ordo 85, perditio 85, terra 85, aqua 85, ignis 85, aer 85", [
 [<Thaumcraft:blockCrystal>, <Thaumcraft:blockCrystal:1>, <Thaumcraft:ItemResource:15>],
@@ -702,8 +752,8 @@ mods.thaumcraft.Research.removeResearch("ROD_AMBER");
 mods.thaumcraft.Research.addResearch("ROD_AMBER", "TX", "auram 15, instrumentum 12, praecantatio 9, vinculum 6, vitreus 3", -5 as int, -1 as int, 4, <ThaumicExploration:amberCore>);
 mods.thaumcraft.Research.addPrereq("ROD_AMBER", "TXROD_greatwood", false);
 mods.thaumcraft.Research.setConcealed("ROD_AMBER", true);
-game.setLocalization("tc.research_name.ROD_AMBER", "Amber Wand Core");
-game.setLocalization("tc.research_text.ROD_AMBER", "Regenerative vis storage");
+game.setLocalization("tc.research_name.ROD_AMBER", I18N_Thaumic_Exploration_01_44);
+game.setLocalization("tc.research_text.ROD_AMBER", I18N_Thaumic_Exploration_01_45);
 mods.thaumcraft.Research.addPage("ROD_AMBER", "te.text.ROD_AMBER.1");
 mods.thaumcraft.Infusion.addRecipe("ROD_AMBER", <gregtech:gt.metaitem.01:23514>,
 [<Thaumcraft:ItemResource:14>, <Thaumcraft:ItemResource:6>, <Thaumcraft:ItemResource:14>, <Thaumcraft:ItemResource:6>, <Thaumcraft:ItemResource:14>, <Thaumcraft:ItemResource:6>, <Thaumcraft:ItemResource:14>, <Thaumcraft:ItemResource:6>, <Thaumcraft:ItemResource:14>, <Thaumcraft:ItemResource:6>, <Thaumcraft:ItemResource:14>, <Thaumcraft:ItemResource:6>], 
@@ -717,8 +767,8 @@ mods.thaumcraft.Research.addResearch("ROD_AMBER_staff", "TX", "vinculum 18, inst
 mods.thaumcraft.Research.addPrereq("ROD_AMBER_staff", "TXROD_greatwood_staff", false);
 mods.thaumcraft.Research.addPrereq("ROD_AMBER_staff", "TXBASICARTIFACE", true);
 mods.thaumcraft.Research.setConcealed("ROD_AMBER_staff", true);
-game.setLocalization("tc.research_name.ROD_AMBER_staff", "Amber Staff Core");
-game.setLocalization("tc.research_text.ROD_AMBER_staff", "Regenerative vis storage");
+game.setLocalization("tc.research_name.ROD_AMBER_staff", I18N_Thaumic_Exploration_01_46);
+game.setLocalization("tc.research_text.ROD_AMBER_staff", I18N_Thaumic_Exploration_01_45);
 mods.thaumcraft.Research.addPage("ROD_AMBER_staff", "te.text.ROD_AMBER_staff.1");
 mods.thaumcraft.Arcane.addShaped("ROD_AMBER_staff", <ThaumicExploration:amberStaffCore>, "ordo 85, perditio 85, terra 85, aqua 85, ignis 85, aer 85", [
 [<Thaumcraft:blockCrystal>, <Thaumcraft:blockCrystal:1>, <Thaumcraft:ItemResource:15>],
@@ -733,8 +783,8 @@ mods.thaumcraft.Research.addResearch("ROD_NECROMANCER_staff", "TX", "mortuus 21,
 mods.thaumcraft.Research.addPrereq("ROD_NECROMANCER_staff", "TXROD_greatwood_staff", false);
 mods.thaumcraft.Research.addPrereq("ROD_NECROMANCER_staff", "BraincureGTNH", true);
 mods.thaumcraft.Research.setConcealed("ROD_NECROMANCER_staff", true);
-game.setLocalization("tc.research_name.ROD_NECROMANCER_staff", "Necromancer's Staff Core");
-game.setLocalization("tc.research_text.ROD_NECROMANCER_staff", "The power of the undead");
+game.setLocalization("tc.research_name.ROD_NECROMANCER_staff", I18N_Thaumic_Exploration_01_47);
+game.setLocalization("tc.research_text.ROD_NECROMANCER_staff", I18N_Thaumic_Exploration_01_48);
 mods.thaumcraft.Research.addPage("ROD_NECROMANCER_staff", "te.text.ROD_NECROMANCER_staff.1");
 mods.thaumcraft.Infusion.addRecipe("ROD_NECROMANCER_staff", <Thaumcraft:WandRod:57>,
 [<minecraft:skull:1>, <ThaumicExploration:pureZombieBrain>, <minecraft:rotten_flesh>, <minecraft:bone>, <minecraft:nether_star>, <ThaumicExploration:pureZombieBrain>, <minecraft:rotten_flesh>, <minecraft:bone>], 

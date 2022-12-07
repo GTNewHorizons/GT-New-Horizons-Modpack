@@ -1,0 +1,24 @@
+{
+  "ores": [
+	"oreEndstonePlatinum",
+    "150",
+	"oreEndstoneIridium",
+    "75",
+	"oreEndstonePalladium",
+    "75",
+	"oreEndstoneOsmium",
+    "50",
+	"oreCrudeRhodiumMetal",
+    "200",
+	"oreLeachResidue",
+    "200",
+	"oreRarestMetalResidue",
+    "100"
+  ],
+  "radius": 14,
+  "cost": 12500000,
+  "focusModId": "gregtech",
+  "focusName": "gt.blockmachines",
+  "focusMeta": 345
+}
+

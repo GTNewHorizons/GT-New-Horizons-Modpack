@@ -1,0 +1,26 @@
+{
+  "ores": [
+    "oreBlackgraniteRutile",
+    "100",
+	"oreBlackgraniteTungstate",
+    "100",
+	"oreBlackgraniteCopper",
+    "300",
+	"oreBlackgraniteSalt",
+    "200",
+	"oreBlackgraniteRockSalt",
+    "200",
+	"oreBlackgraniteMica",
+    "60",
+	"oreBlackgraniteAsbestos",
+    "20",
+	"oreBlackgraniteSoapstone",
+    "20"
+  ],
+  "radius": 9,
+  "cost": 750000,
+  "focusModId": "minecraft",
+  "focusName": "nether_star",
+  "focusMeta": 0
+}
+

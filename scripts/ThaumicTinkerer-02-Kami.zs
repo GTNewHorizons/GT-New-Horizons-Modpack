@@ -9,6 +9,12 @@
 import mods.ic2.Compressor;
 
 
+// --- I18N ---
+val I18N_ThaumicTinkerer_02_Kami_0 = "Dimensional Shards";
+val I18N_ThaumicTinkerer_02_Kami_1 = "[TT] Rarities of the Otherworld";
+val I18N_ThaumicTinkerer_02_Kami_2 = "Similarly to the overworld, the Nether and the End also have their specific shards, these are rarely held by either Zombie Pigmen living in the Nether or Endermen living in the End.<BR> You find a way to get this Shards with a Infusion recipe also.<BR><BR><IMG>ttinkerer:textures/items/netherShard.png:0:0:255:255:0.0625</IMG><IMG>ttinkerer:textures/items/enderShard.png:0:0:255:255:0.0625</IMG>";
+val I18N_ThaumicTinkerer_02_Kami_3 = "Ichorium Wand Caps";
+val I18N_ThaumicTinkerer_02_Kami_4 = "[TT] Somewhat like a Steam Sale";
 
 
 // --- Variables ---
@@ -129,12 +135,12 @@ mods.thaumcraft.Infusion.removeRecipe(<ThaumicTinkerer:placementMirror>);
 // --- Nether Shards
 mods.thaumcraft.Research.removeResearch("DIMENSION_SHARDS");
 mods.thaumcraft.Research.addResearch("DIMENSIONSHARDS", "TT_CATEGORY", "infernus 15, luxuria 15, superbia 15, gula 12, invidia 9, desidia 6, ira 3", 7, 8, 3, <ThaumicTinkerer:kamiResource:7>);
-game.setLocalization("tc.research_name.DIMENSIONSHARDS", "Dimensional Shards");
-game.setLocalization("tc.research_text.DIMENSIONSHARDS", "[TT] Rarities of the Otherworld");
+game.setLocalization("tc.research_name.DIMENSIONSHARDS", I18N_ThaumicTinkerer_02_Kami_0);
+game.setLocalization("tc.research_text.DIMENSIONSHARDS", I18N_ThaumicTinkerer_02_Kami_1);
 mods.thaumcraft.Research.addPrereq("DIMENSIONSHARDS", "INFUSION", false);
 mods.thaumcraft.Research.setConcealed("DIMENSIONSHARDS", false);
 mods.thaumcraft.Research.addPage("DIMENSIONSHARDS", "tt.research.page.DIMENSIONSHARDS");
-game.setLocalization("tt.research.page.DIMENSIONSHARDS", "Similarly to the overworld, the Nether and the End also have their specific shards, these are rarely held by either Zombie Pigmen living in the Nether or Endermen living in the End.<BR> You find a way to get this Shards with a Infusion recipe also.<BR><BR><IMG>ttinkerer:textures/items/netherShard.png:0:0:255:255:0.0625</IMG><IMG>ttinkerer:textures/items/enderShard.png:0:0:255:255:0.0625</IMG>");
+game.setLocalization("tt.research.page.DIMENSIONSHARDS", I18N_ThaumicTinkerer_02_Kami_2);
 mods.thaumcraft.Infusion.addRecipe("DIMENSIONSHARDS", <minecraft:blaze_rod>,
 [<ForbiddenMagic:NetherShard>, <ForbiddenMagic:NetherShard:1>, <ForbiddenMagic:NetherShard:2>, <ForbiddenMagic:NetherShard:3>, <ForbiddenMagic:NetherShard:4>, <ForbiddenMagic:NetherShard:5>, <ForbiddenMagic:NetherShard:6>, <ForbiddenMagic:GluttonyShard>, <Thaumcraft:ItemShard>, <Thaumcraft:ItemShard:1>, <Thaumcraft:ItemShard:2>, <Thaumcraft:ItemShard:3>, <Thaumcraft:ItemShard:4>, <Thaumcraft:ItemShard:5>, <Thaumcraft:ItemShard:6>],
 "infernus 8, praecantatio 8, vitreus 8, vitium 8, luxuria 8, superbia 8, gula 8, invidia 8, desidia 8, ira 8, alienis 8", <ThaumicTinkerer:kamiResource:6>, 8);
@@ -179,6 +185,9 @@ mods.thaumcraft.Research.addArcanePage("ICHORIUM", <gregtech:gt.metaitem.01:1197
 mods.thaumcraft.Research.setAspects("ICHORIUM", "metallum 15, fabrico 15, instrumentum 12, praecantatio 9, lux 6, alienis 3");
 mods.thaumcraft.Research.setComplexity("ICHORIUM", 4);
 mods.thaumcraft.Warp.addToResearch("ICHORIUM", 2);
+// - Pre-req fix
+mods.thaumcraft.Research.clearPrereqs("ICHORIUM");
+mods.thaumcraft.Research.addPrereq("ICHORIUM", "ICHOR", true);
 
 // --- Ichorium Nuggets
 furnace.addRecipe(<gregtech:gt.metaitem.01:9978> * 9, <gregtech:gt.metaitem.01:11978>);
@@ -187,8 +196,8 @@ furnace.addRecipe(<gregtech:gt.metaitem.01:9978> * 9, <gregtech:gt.metaitem.01:1
 mods.thaumcraft.Research.orphanResearch("CAP_ICHOR");
 mods.thaumcraft.Research.removeResearch("CAP_ICHOR");
 mods.thaumcraft.Research.addResearch("CAP_ICHOR", "TT_CATEGORY", "cognitio 15, praecantatio 12, permutatio 9, instrumentum 6, terra 3", 11, 11, 4, <ThaumicTinkerer:kamiResource:4>);
-game.setLocalization("tc.research_name.CAP_ICHOR", "Ichorium Wand Caps");
-game.setLocalization("tc.research_text.CAP_ICHOR", "[TT] Somewhat like a Steam Sale");
+game.setLocalization("tc.research_name.CAP_ICHOR", I18N_ThaumicTinkerer_02_Kami_3);
+game.setLocalization("tc.research_text.CAP_ICHOR", I18N_ThaumicTinkerer_02_Kami_4);
 mods.thaumcraft.Research.addPrereq("CAP_ICHOR", "ICHORIUM", false);
 mods.thaumcraft.Research.setConcealed("CAP_ICHOR", true);
 mods.thaumcraft.Research.addPage("CAP_ICHOR", "ttresearch.page.CAP_ICHOR.0");

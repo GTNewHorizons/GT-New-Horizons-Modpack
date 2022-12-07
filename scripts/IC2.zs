@@ -14,6 +14,7 @@ import mods.ic2.Compressor;
 import mods.gregtech.Distillery;
 import mods.gregtech.Extruder;
 import mods.gregtech.FluidCanner;
+import mods.gregtech.FluidSolidifier;
 import mods.gregtech.Fuels;
 import mods.gregtech.Lathe;
 import mods.gregtech.Pulverizer;
@@ -736,12 +737,6 @@ recipes.addShaped(<IC2:blockGenerator:8>, [
 [<IC2:itemBatREDischarged>, <gregtech:gt.blockmachines:12>, <IC2:itemBatREDischarged>],
 [<ore:circuitBasic>, <IC2:itemRecipePart:5>, <gregtech:gt.metaitem.01:32601>]]);
 
-// --- Reactor Chamber
-recipes.addShaped(<IC2:blockReactorChamber>, [
-[<ore:plateDenseLead>, <ore:plateAlloyAdvanced>, <ore:plateDenseLead>],
-[<ore:plateDenseTitanium>, <IC2:blockMachine:12>, <ore:plateDenseTitanium>],
-[<ore:plateDenseLead>, <ore:plateAlloyAdvanced>, <ore:plateDenseLead>]]);
-
 // --- Heat Conductor
 recipes.addShaped(<IC2:itemRecipePart:5>, [
 [<ore:plateAnyRubber>, <ore:plateCopper>, <ore:plateAnyRubber>],
@@ -897,26 +892,10 @@ recipes.addShaped(IronFurnace, [
 [IronPlate, Wrench, IronPlate],
 [IronPlate, Furnace, IronPlate]]);
 
-// --- Neutron Reflector
-recipes.addShaped(<IC2:reactorReflector:1>, [
-[<ore:plateTin>, <ore:plateAlloyCarbon>, <ore:plateTin>],
-[<ore:dustGraphite>, <ore:plateDenseCopper>, <ore:dustGraphite>],
-[<ore:plateTin>, <ore:plateAlloyCarbon>, <ore:plateTin>]]);
-// -
-recipes.addShaped(<IC2:reactorReflector:1>, [
-[<ore:plateTin>, <ore:plateAlloyCarbon>, <ore:plateTin>],
-[<ore:dustGraphite>, <ore:plateDenseSteel>, <ore:dustGraphite>],
-[<ore:plateTin>, <ore:plateAlloyCarbon>, <ore:plateTin>]]);
-// -
-recipes.addShaped(<IC2:reactorReflector:1>, [
-[<ore:plateTin>, <ore:plateAlloyCarbon>, <ore:plateTin>],
-[<ore:dustGraphite>, <ore:plateDoubleBeryllium>, <ore:dustGraphite>],
-[<ore:plateTin>, <ore:plateAlloyCarbon>, <ore:plateTin>]]);
-
 // --- Heat Vent
 recipes.addShaped(<IC2:reactorVent:1>, [
 [<ore:plateAluminium>, <minecraft:iron_bars>, <ore:plateAluminium>],
-[<minecraft:iron_bars>, <ore:craftingToolWrench>, <minecraft:iron_bars>],
+[<minecraft:iron_bars>, <gregtech:gt.metaitem.01:32600>, <minecraft:iron_bars>],
 [<ore:plateAluminium>, <minecraft:iron_bars>, <ore:plateAluminium>]]);
 
 // --- Reactor Heat Vent
@@ -927,9 +906,9 @@ recipes.addShaped(<IC2:reactorVentCore:1>, [
 
 // --- Advanced Heat Vent
 recipes.addShaped(<IC2:reactorVentDiamond:1>, [
-[<dreamcraft:item.SteelBars>, <IC2:reactorVentCore:1>, <dreamcraft:item.SteelBars>],
-[<dreamcraft:item.SteelBars>, <IC2:itemPartIndustrialDiamond>, <dreamcraft:item.SteelBars>],
-[<dreamcraft:item.SteelBars>, <IC2:reactorVentCore:1>, <dreamcraft:item.SteelBars>]]);
+[<dreamcraft:item.StainlessSteelBars>, <IC2:reactorVent:1>, <dreamcraft:item.StainlessSteelBars>],
+[<dreamcraft:item.StainlessSteelBars>, <IC2:itemPartIndustrialDiamond>, <dreamcraft:item.StainlessSteelBars>],
+[<dreamcraft:item.StainlessSteelBars>, <IC2:reactorVent:1>, <dreamcraft:item.StainlessSteelBars>]]);
 
 // --- Overclocked Heat Vent
 recipes.addShaped(<IC2:reactorVentGold:1>, [
@@ -945,7 +924,7 @@ recipes.addShaped(<IC2:reactorVentSpread>, [
 
 // --- Heat Exchanger
 recipes.addShaped(<IC2:reactorHeatSwitch:1>, [
-[<ore:plateSilver>, <ore:circuitBasic>, <ore:plateSilver>],
+[<ore:plateSilver>, <ore:circuitAdvanced>, <ore:plateSilver>],
 [<ore:plateAluminium>, <ore:plateCopper>, <ore:plateAluminium>],
 [<ore:plateSilver>, <ore:plateAluminium>, <ore:plateSilver>]]);
 
@@ -958,14 +937,14 @@ recipes.addShaped(<IC2:reactorHeatSwitchCore:1>, [
 // --- Component Heat Exchanger
 recipes.addShaped(<IC2:reactorHeatSwitchSpread:1>, [
 [<ore:screwStainlessSteel>, <ore:plateGold>, <ore:screwStainlessSteel>],
-[<ore:plateGold>, <IC2:reactorHeatSwitchCore:1>, <ore:plateGold>],
+[<ore:plateGold>, <IC2:reactorHeatSwitch:1>, <ore:plateGold>],
 [<ore:screwStainlessSteel>, <ore:plateGold>, <ore:screwStainlessSteel>]]);
 
 // --- Advanced Heat Exchanger
 recipes.addShaped(<IC2:reactorHeatSwitchDiamond:1>, [
-[<ore:plateLapis>, <ore:circuitAdvanced>, <ore:plateLapis>],
-[<IC2:reactorHeatSwitchSpread:1>, <ore:plateDiamond>, <IC2:reactorHeatSwitchSpread:1>],
-[<ore:plateLapis>, <ore:circuitAdvanced>, <ore:plateLapis>]]);
+[<ore:plateLapis>, <ore:circuitData>, <ore:plateLapis>],
+[<IC2:reactorHeatSwitch:1>, <ore:plateDiamond>, <IC2:reactorHeatSwitch:1>],
+[<ore:plateLapis>, <ore:circuitData>, <ore:plateLapis>]]);
 
 // --- RSH Condensator
 recipes.addShaped(<IC2:reactorCondensator:1>, [
@@ -1047,9 +1026,9 @@ recipes.addShaped(<IC2:itemToolPainter>, [
 
 // --- Charging RE Battery
 recipes.addShaped(<IC2:itemBatChargeRE>, [
-[<ore:circuitBasic>, <ore:batteryBasic>, <ore:circuitBasic>],
-[<ore:batteryBasic>, <gregtech:gt.metaitem.01:17315>, <ore:batteryBasic>],
-[<ore:circuitBasic>, <ore:batteryBasic>, <ore:circuitBasic>]]);
+[<ore:batteryBasic>, <ore:cableGt01Tin>, <ore:batteryBasic>],
+[<ore:circuitBasic>, <gregtech:gt.metaitem.01:17315>, <ore:circuitBasic>],
+[<ore:batteryBasic>, <ore:cableGt01Tin>, <ore:batteryBasic>]]);
 
 // --- Personal Safe
 recipes.addShaped(<IC2:blockPersonal>, [
@@ -1288,12 +1267,6 @@ mods.avaritia.ExtremeCrafting.addShaped(<IC2:blockMachine2>, [
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
-
-// --- Nuclear Reactor
-recipes.addShaped(<IC2:blockGenerator:5>, [
-[<ore:plateDenseLead>, <ore:circuitAdvanced>, <ore:plateDenseLead>],
-[<IC2:blockReactorChamber>, <IC2:blockReactorChamber>, <IC2:blockReactorChamber>],
-[<ore:plateDenseTitanium>, <ore:cableGt08Platinum>, <ore:plateDenseTitanium>]]);
 
 // --- Fluid Heat Generator
 recipes.addShaped(<IC2:blockHeatGenerator:1>, [
@@ -1667,19 +1640,6 @@ BlastFurnace.addRecipe([<IC2:itemPartCarbonPlate>], [<dreamcraft:item.BioCarbonP
 
 
 
-// --- Brewing Recipes ---
-
-
-// --- Bio Mass
-Brewery.addRecipe(<liquid:ic2biomass> * 1000, <IC2:itemBiochaff>, <liquid:water> * 1000, false);
-
-
-
-
-// --- Canner Recipes
-
-
-
 // --- Chemical Bath Recipes ---
 
 
@@ -1840,6 +1800,17 @@ FluidCanner.addRecipe(<IC2:reactorCoolantTriple:1>, <dreamcraft:item.ThirtyKCell
 
 // --- 60k Cooling Cell
 FluidCanner.addRecipe(<IC2:reactorCoolantSix:1>, <dreamcraft:item.SixtyKCell>, null, <liquid:ic2coolant> * 6000);
+
+
+
+// --- Fluid Solidifier
+
+
+
+// --- Rubber Boots
+FluidSolidifier.addRecipe(<IC2:itemArmorRubBoots>, <dreamcraft:item.MoldBoots> * 0, <liquid:molten.rubber> * 720, 300, 30);
+
+
 
 
 // --- Lathe Recipes

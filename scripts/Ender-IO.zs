@@ -13,6 +13,8 @@ import mods.gregtech.FluidSolidifier;
 import mods.gregtech.Pulverizer;
 
 
+// --- I18N ---
+val I18N_Ender_IO_0 = "Cooldown 2 seconds";
 
 
 // --- Variables ---
@@ -134,7 +136,7 @@ val Wrench = <ore:craftingToolWrench>;
 val Screwdriver = <ore:craftingToolScrewdriver>;
 val SteelScrew = <ore:screwSteel>;
 val SteelWire = <ore:wireFineSteel>;
-val SiliconPlate = <ore:plateSilicon>;
+val SiliconPlate = <ore:plateSiliconSolarGrade>;
 val LightBulp = <FloodLights:electricIncandescentLightBulb>;
 val IronPlate = <ore:plateIron>;
 val RedAlloyWire = <ore:wireGt01RedAlloy>;
@@ -203,35 +205,8 @@ recipes.remove(<EnderIO:blockPainter>);
 // --- Crafter
 recipes.remove(<EnderIO:blockCrafter>);
 
-// --- Basic Capacitor
-recipes.remove(Capacitor);
-
-// --- Double Layer Capacitor
-recipes.remove(Capacitor2);
-
-// --- Octadic Capacitor
-recipes.remove(Capacitor3);
-
-// --- Crystaline Capacitor
-recipes.remove(Capacitor4);
-
-// --- Melodic Capacitor
-recipes.remove(Capacitor5);
-
-// --- Stellar Capacitor
-recipes.remove(Capacitor6);
-
 // --- Totemic Capacitor
 recipes.remove(Capacitor7);
-
-// --- Silver Capacitor
-recipes.remove(Capacitor8);
-
-// --- Energetic Silver Capacitor
-recipes.remove(Capacitor9);
-
-// --- Endergised Capacitor
-recipes.remove(Capacitor10);
 
 // --- Machine Casing
 recipes.remove(MCasing);
@@ -633,19 +608,32 @@ recipes.addShaped(<EnderIO:blockSolarPanel>, [
 [EAPlate, FQuartz, EAPlate],
 [VAPlate, <gregtech:gt.metaitem.01:32750>, VAPlate],
 [Capacitor, FQuartz, Capacitor]]);
+// -
+recipes.addShaped(<EnderIO:blockSolarPanel>, [
+[EAPlate, FQuartz, EAPlate],
+[VAPlate, <gregtech:gt.metaitem.01:32750>, VAPlate],
+[Capacitor8, FQuartz, Capacitor8]]);
 
 // --- Advanced Photovoltaic Cell
 recipes.addShaped(<EnderIO:blockSolarPanel:1>, [
 [PIPlate, FQuartz, PIPlate],
 [VAPlate, <EnderIO:blockSolarPanel>, VAPlate],
 [Capacitor2, FQuartz, Capacitor2]]);
-
+// -
+recipes.addShaped(<EnderIO:blockSolarPanel:1>, [
+[PIPlate, FQuartz, PIPlate],
+[VAPlate, <EnderIO:blockSolarPanel>, VAPlate],
+[Capacitor9, FQuartz, Capacitor9]]);
 // --- Vibrant Photovoltaic Cell
 recipes.addShaped(<EnderIO:blockSolarPanel:2>, [
 [ESPlate, EFQuartz, ESPlate],
 [VAPlate, <EnderIO:blockSolarPanel:1>, VAPlate],
 [Capacitor3, EFQuartz, Capacitor3]]);
-
+// -
+recipes.addShaped(<EnderIO:blockSolarPanel:2>, [
+[ESPlate, EFQuartz, ESPlate],
+[VAPlate, <EnderIO:blockSolarPanel:1>, VAPlate],
+[Capacitor10, EFQuartz, Capacitor10]]);
 // --- SAG Mill
 recipes.addShaped(<EnderIO:blockSagMill>, [
 [SteelCasing, LvPiston, SteelCasing],
@@ -663,12 +651,22 @@ recipes.addShaped(<EnderIO:blockCapBank:1>.withTag({type: "SIMPLE", storedEnergy
 [Capacitor, Circuit, Capacitor],
 [RedstonePlate, MCasing, RedstonePlate],
 [Capacitor, <gregtech:gt.metaitem.01:32527>, Capacitor]]);
+// -
+recipes.addShaped(<EnderIO:blockCapBank:1>.withTag({type: "SIMPLE", storedEnergyRF: 0}), [
+[Capacitor8, Circuit, Capacitor8],
+[RedstonePlate, MCasing, RedstonePlate],
+[Capacitor8, <gregtech:gt.metaitem.01:32527>, Capacitor8]]);
 
 // --- Capacitor Bank
 recipes.addShaped(<EnderIO:blockCapBank:2>.withTag({type: "ACTIVATED", storedEnergyRF: 0}), [
 [Capacitor2, GCircuit, Capacitor2],
 [EAPlate, MCasing, EAPlate],
 [Capacitor2, <gregtech:gt.metaitem.01:32537>, Capacitor2]]);
+// -
+recipes.addShaped(<EnderIO:blockCapBank:2>.withTag({type: "ACTIVATED", storedEnergyRF: 0}), [
+[Capacitor9, GCircuit, Capacitor9],
+[EAPlate, MCasing, EAPlate],
+[Capacitor9, <gregtech:gt.metaitem.01:32537>, Capacitor9]]);
 
 // --- Vibrant Capacitor Bank
 recipes.addShaped(<EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 0}), [
@@ -680,6 +678,16 @@ recipes.addShaped(<EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnerg
 [Capacitor3, AdvCircuit, Capacitor3],
 [VCrystal, MCasing, VCrystal],
 [Capacitor3, <miscutils:MU-metaitem.01:32054>, Capacitor3]]);
+// -
+recipes.addShaped(<EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 0}), [
+[Capacitor10, AdvCircuit, Capacitor10],
+[VCrystal, MCasing, VCrystal],
+[Capacitor10, <gregtech:gt.metaitem.01:32540>, Capacitor10]]);
+//-
+recipes.addShaped(<EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 0}), [
+[Capacitor10, AdvCircuit, Capacitor10],
+[VCrystal, MCasing, VCrystal],
+[Capacitor10, <miscutils:MU-metaitem.01:32054>, Capacitor10]]);
 
 // --- Painting Machine
 recipes.addShaped(<EnderIO:blockPainter>, [
@@ -693,10 +701,15 @@ recipes.addShaped(<EnderIO:blockCrafter>, [
 [Circuit, MCasing, Circuit],
 [SteelCasing, <EnderIO:itemFrankenSkull:1>, SteelCasing]]);
 
-// --- Machine Casing
+// --- Machine Chassis
 recipes.addShaped(MCasing, [
 [SteelCasing, ESteelPlate, SteelCasing],
 [ESteelPlate, Capacitor, ESteelPlate],
+[SteelCasing, ESteelPlate, SteelCasing]]);
+// -
+recipes.addShaped(MCasing, [
+[SteelCasing, ESteelPlate, SteelCasing],
+[ESteelPlate, Capacitor8, ESteelPlate],
 [SteelCasing, ESteelPlate, SteelCasing]]);
 
 // --- Soul Machine Casing
@@ -704,11 +717,21 @@ recipes.addShaped(<EnderIO:itemMachinePart:2>, [
 [<ore:itemCasingSoularium>, <ore:plateSoularium>, <ore:itemCasingSoularium>],
 [<ore:plateSoularium>, Capacitor2, <ore:plateSoularium>],
 [<ore:itemCasingSoularium>, <ore:plateSoularium>, <ore:itemCasingSoularium>]]);
+// -
+recipes.addShaped(<EnderIO:itemMachinePart:2>, [
+[<ore:itemCasingSoularium>, <ore:plateSoularium>, <ore:itemCasingSoularium>],
+[<ore:plateSoularium>, Capacitor9, <ore:plateSoularium>],
+[<ore:itemCasingSoularium>, <ore:plateSoularium>, <ore:itemCasingSoularium>]]);
 
 // --- End Machine Casing
 recipes.addShaped(<EnderIO:itemMachinePart:3>, [
 [<ore:itemCasingEndSteel>, <ore:plateEndSteel>, <ore:itemCasingEndSteel>],
 [<ore:plateEndSteel>, Capacitor3, <ore:plateEndSteel>],
+[<ore:itemCasingEndSteel>, <ore:plateEndSteel>, <ore:itemCasingEndSteel>]]);
+// -
+recipes.addShaped(<EnderIO:itemMachinePart:3>, [
+[<ore:itemCasingEndSteel>, <ore:plateEndSteel>, <ore:itemCasingEndSteel>],
+[<ore:plateEndSteel>, Capacitor10, <ore:plateEndSteel>],
 [<ore:itemCasingEndSteel>, <ore:plateEndSteel>, <ore:itemCasingEndSteel>]]);
 
 // --- The Vat
@@ -734,6 +757,12 @@ recipes.addShaped(<EnderIO:blockWirelessCharger>, [
 [ESteelPlate, Capacitor3, ESteelPlate],
 [AdvCircuit, MCasing, AdvCircuit],
 [HvMotor, EResonator, HvMotor]]);
+// -
+recipes.addShaped(<EnderIO:blockWirelessCharger>, [
+[ESteelPlate, Capacitor10, ESteelPlate],
+[AdvCircuit, MCasing, AdvCircuit],
+[HvMotor, EResonator, HvMotor]]);
+
 
 // --- Fluid Tank
 recipes.addShaped(Tank, [
@@ -762,12 +791,12 @@ recipes.addShaped(<EnderIO:blockTransceiver>, [
 // --- Item Buffer
 recipes.addShaped(<EnderIO:blockBuffer>, [
 [ESteelPlate, Chest, ESteelPlate],
-[LvConveyor, <ore:frameGtEnderium>, Circuit]]);
+[LvConveyor, <ore:frameGtDarkSteel>, Circuit]]);
 
 // --- Power Buffer
 recipes.addShaped(<EnderIO:blockBuffer:1>, [
 [ESteelPlate, EConduit, ESteelPlate],
-[<gregtech:gt.metaitem.01:32519>, <ore:frameGtEnderium>, Circuit]]);
+[<gregtech:gt.metaitem.01:32519>, <ore:frameGtDarkSteel>, Circuit]]);
 
 // --- Inventory Panel
 recipes.addShaped(<EnderIO:blockInventoryPanel>, [
@@ -951,6 +980,11 @@ recipes.addShaped(<EnderIO:blockElectricLight> * 8, [
 [FQuartz, FQuartz, FQuartz],
 [SiliconPlate, LightBulp, SiliconPlate],
 [Circuit, Capacitor, Circuit]]);
+// -
+recipes.addShaped(<EnderIO:blockElectricLight> * 8, [
+[FQuartz, FQuartz, FQuartz],
+[SiliconPlate, LightBulp, SiliconPlate],
+[Circuit, Capacitor8, Circuit]]);
 
 // --- Light
 recipes.addShaped(<EnderIO:blockElectricLight:2> * 16, [
@@ -1138,36 +1172,6 @@ mods.avaritia.ExtremeCrafting.addShaped(<EnderIO:blockTelePad> * 9, [
 
 
 
-
-// --- Basic Capacitor
-Assembler.addRecipe(Capacitor, <gregtech:gt.metaitem.01:26080> * 4, <gregtech:gt.metaitem.01:29031> * 4,  <liquid:molten.plastic> * 288, 200, 30);
-
-// --- Basic Capacitor Silver
-Assembler.addRecipe(Capacitor8, <gregtech:gt.metaitem.01:26054> * 4, <gregtech:gt.metaitem.01:29054> * 4,  <liquid:molten.plastic> * 288, 200, 30);
-
-// --- Double Layer Capacitor
-Assembler.addRecipe(Capacitor2, Capacitor * 2, <gregtech:gt.metaitem.01:2535>,  <liquid:molten.energeticalloy> * 864, 150, 120);
-
-// --- Energetic Silver Capacitor
-Assembler.addRecipe(Capacitor9, Capacitor8 * 2, <gregtech:gt.metaitem.01:2535>,  <liquid:molten.energeticsilver> * 864, 150, 120);
-
-// --- Octadic Capacitor
-Assembler.addRecipe(Capacitor3, Capacitor2 * 2, <minecraft:glowstone_dust> * 4,  <liquid:molten.vibrantalloy> * 864, 200, 480);
-
-// --- Endergised Capacitor
-Assembler.addRecipe(Capacitor10, Capacitor9 * 2, <minecraft:glowstone_dust> * 4,  <liquid:molten.vividalloy> * 864, 200, 480);
-
-// --- Crystaline Capacitor
-Assembler.addRecipe(Capacitor4, Capacitor3 * 2, <minecraft:ender_eye>,  <liquid:molten.crystallinealloy> * 864, 200, 1920);
-// -
-Assembler.addRecipe(Capacitor4, Capacitor10 * 2, <minecraft:ender_eye>,  <liquid:molten.crystallinealloy> * 864, 200, 1920);
-
-// --- Melodic Capacitor
-Assembler.addRecipe(Capacitor5, [Capacitor4 * 2, <minecraft:nether_star>, <gregtech:gt.metaitem.01:17401>],  <liquid:molten.melodicalloy> * 864, 200, 7680);
-
-// --- Stellar Capacitor
-Assembler.addRecipe(Capacitor6, [Capacitor5 * 2, <gregtech:gt.metaitem.01:32726>, <EnderIO:itemMaterial:13>],  <liquid:molten.stellaralloy> * 864, 200, 30720);
-
 // --- Vacuum Chest
 Assembler.addRecipe(<EnderIO:blockVacuumChest>, <gregtech:gt.blockmachines:9231>, <ExtraUtilities:enderCollector>, 200, 64);
 
@@ -1181,23 +1185,23 @@ Assembler.addRecipe(<EnderIO:itemMaterial:5>, <minecraft:diamond>, <gregtech:gt.
 Assembler.addRecipe(<EnderIO:itemMaterial:6>, <minecraft:emerald>, <gregtech:gt.metaitem.01:9367> * 8, 600, 120);
 
 // --- Grinding Balls
-Assembler.addRecipe(<EnderIO:itemGrindingBall:0>, <gregtech:gt.metaitem.01:17365>, <gregtech:gt.integrated_circuit:4> * 0, 200, 64);
-Assembler.addRecipe(<EnderIO:itemGrindingBall:1>, <gregtech:gt.metaitem.01:17366>, <gregtech:gt.integrated_circuit:4> * 0, 200, 64);
-Assembler.addRecipe(<EnderIO:itemGrindingBall:2>, <gregtech:gt.metaitem.01:17367>, <gregtech:gt.integrated_circuit:4> * 0, 200, 64);
-Assembler.addRecipe(<EnderIO:itemGrindingBall:3>, <gregtech:gt.metaitem.01:17381>, <gregtech:gt.integrated_circuit:4> * 0, 200, 64);
-Assembler.addRecipe(<EnderIO:itemGrindingBall:4>, <gregtech:gt.metaitem.01:17369>, <gregtech:gt.integrated_circuit:4> * 0, 200, 64);
-Assembler.addRecipe(<EnderIO:itemGrindingBall:5>, <gregtech:gt.metaitem.01:17378>, <gregtech:gt.integrated_circuit:4> * 0, 200, 64);
-Assembler.addRecipe(<EnderIO:itemGrindingBall:6>, <gregtech:gt.metaitem.01:17364>, <gregtech:gt.integrated_circuit:4> * 0, 200, 64);
-Assembler.addRecipe(<EnderIO:itemGrindingBall:7>, <gregtech:gt.metaitem.01:17379>, <gregtech:gt.integrated_circuit:4> * 0, 200, 64);
-Assembler.addRecipe(<EnderIO:itemGrindingBall:8>, <gregtech:gt.metaitem.01:17401>, <gregtech:gt.integrated_circuit:4> * 0, 200, 64);
-Assembler.addRecipe(<EnderIO:itemGrindingBall:9>, <gregtech:gt.metaitem.01:17401>, <gregtech:gt.integrated_circuit:4> * 0, 200, 64);
-Assembler.addRecipe(<EnderIO:itemGrindingBallEndergy>, <gregtech:gt.metaitem.01:17402>, <gregtech:gt.integrated_circuit:4> * 0, 200, 64);
-Assembler.addRecipe(<EnderIO:itemGrindingBallEndergy:1>, <gregtech:gt.metaitem.01:17403>, <gregtech:gt.integrated_circuit:4> * 0, 200, 64);
-Assembler.addRecipe(<EnderIO:itemGrindingBallEndergy:2>, <gregtech:gt.metaitem.01:17404>, <gregtech:gt.integrated_circuit:4> * 0, 200, 64);
-Assembler.addRecipe(<EnderIO:itemGrindingBallEndergy:3>, <gregtech:gt.metaitem.01:17405>, <gregtech:gt.integrated_circuit:4> * 0, 200, 64);
-Assembler.addRecipe(<EnderIO:itemGrindingBallEndergy:4>, <gregtech:gt.metaitem.01:17406>, <gregtech:gt.integrated_circuit:4> * 0, 200, 64);
-Assembler.addRecipe(<EnderIO:itemGrindingBallEndergy:5>, <gregtech:gt.metaitem.01:17407>, <gregtech:gt.integrated_circuit:4> * 0, 200, 64);
-Assembler.addRecipe(<EnderIO:itemGrindingBallEndergy:6>, <gregtech:gt.metaitem.01:17408>, <gregtech:gt.integrated_circuit:4> * 0, 200, 64);
+Assembler.addRecipe(<EnderIO:itemGrindingBall:0>, <gregtech:gt.metaitem.01:17365>, <gregtech:gt.integrated_circuit:5> * 0, 200, 64);
+Assembler.addRecipe(<EnderIO:itemGrindingBall:1>, <gregtech:gt.metaitem.01:17366>, <gregtech:gt.integrated_circuit:5> * 0, 200, 64);
+Assembler.addRecipe(<EnderIO:itemGrindingBall:2>, <gregtech:gt.metaitem.01:17367>, <gregtech:gt.integrated_circuit:5> * 0, 200, 64);
+Assembler.addRecipe(<EnderIO:itemGrindingBall:3>, <gregtech:gt.metaitem.01:17381>, <gregtech:gt.integrated_circuit:5> * 0, 200, 64);
+Assembler.addRecipe(<EnderIO:itemGrindingBall:4>, <gregtech:gt.metaitem.01:17369>, <gregtech:gt.integrated_circuit:5> * 0, 200, 64);
+Assembler.addRecipe(<EnderIO:itemGrindingBall:5>, <gregtech:gt.metaitem.01:17378>, <gregtech:gt.integrated_circuit:5> * 0, 200, 64);
+Assembler.addRecipe(<EnderIO:itemGrindingBall:6>, <gregtech:gt.metaitem.01:17364>, <gregtech:gt.integrated_circuit:5> * 0, 200, 64);
+Assembler.addRecipe(<EnderIO:itemGrindingBall:7>, <gregtech:gt.metaitem.01:17379>, <gregtech:gt.integrated_circuit:5> * 0, 200, 64);
+Assembler.addRecipe(<EnderIO:itemGrindingBall:8>, <gregtech:gt.metaitem.01:17401>, <gregtech:gt.integrated_circuit:5> * 0, 200, 64);
+Assembler.addRecipe(<EnderIO:itemGrindingBall:9>, <gregtech:gt.metaitem.01:17401>, <gregtech:gt.integrated_circuit:5> * 0, 200, 64);
+Assembler.addRecipe(<EnderIO:itemGrindingBallEndergy>, <gregtech:gt.metaitem.01:17402>, <gregtech:gt.integrated_circuit:5> * 0, 200, 64);
+Assembler.addRecipe(<EnderIO:itemGrindingBallEndergy:1>, <gregtech:gt.metaitem.01:17403>, <gregtech:gt.integrated_circuit:5> * 0, 200, 64);
+Assembler.addRecipe(<EnderIO:itemGrindingBallEndergy:2>, <gregtech:gt.metaitem.01:17404>, <gregtech:gt.integrated_circuit:5> * 0, 200, 64);
+Assembler.addRecipe(<EnderIO:itemGrindingBallEndergy:3>, <gregtech:gt.metaitem.01:17405>, <gregtech:gt.integrated_circuit:5> * 0, 200, 64);
+Assembler.addRecipe(<EnderIO:itemGrindingBallEndergy:4>, <gregtech:gt.metaitem.01:17406>, <gregtech:gt.integrated_circuit:5> * 0, 200, 64);
+Assembler.addRecipe(<EnderIO:itemGrindingBallEndergy:5>, <gregtech:gt.metaitem.01:17407>, <gregtech:gt.integrated_circuit:5> * 0, 200, 64);
+Assembler.addRecipe(<EnderIO:itemGrindingBallEndergy:6>, <gregtech:gt.metaitem.01:17408>, <gregtech:gt.integrated_circuit:5> * 0, 200, 64);
 
 // --- Weather Crystal
 Assembler.addRecipe(WCrystal, <dreamcraft:item.ManyullynCrystal>, <gregtech:gt.metaitem.01:9321> * 8, 200, 256);
@@ -1320,7 +1324,7 @@ Assembler.addRecipe(<EnderIO:itemLiquidConduit:6>, <gregtech:gt.blockmachines:52
 Assembler.addRecipe(<EnderIO:itemItemConduit>, <gregtech:gt.blockmachines:5611>, <gregtech:gt.metaitem.01:17378>, <liquid:molten.plastic> * 144, 100, 120);
 
 // --- ME Conduit
-Assembler.addRecipe(<EnderIO:itemMEConduit>, <appliedenergistics2:item.ItemMultiPart:16>, <gregtech:gt.metaitem.01:17020>, <liquid:molten.plastic> * 144, 100, 256);
+Assembler.addRecipe(<EnderIO:itemMEConduit>, <appliedenergistics2:item.ItemMultiPart:16>, <gregtech:gt.metaitem.01:17856>, <liquid:molten.plastic> * 144, 100, 256);
 
 // --- Dense ME Conduit
 Assembler.addRecipe(<EnderIO:itemMEConduit:1>, <EnderIO:itemMEConduit> * 4, <gregtech:gt.metaitem.01:17028>, <liquid:molten.plastic> * 144, 100, 480);
@@ -1360,6 +1364,17 @@ Assembler.addRecipe(<EnderIO:itemSoulVessel>, <EnderIO:blockFusedQuartz> * 3, <g
 
 // --- Dark Clear Glass
 //Assembler.addRecipe(<EnderIO:blockFusedQuartz:5>, <minecraft:dye>, <EnderIO:blockFusedQuartz:1>, 100, 48);
+
+// --- Crafter
+Assembler.addRecipe(<EnderIO:blockCrafter>, [<BuildCraft|Factory:autoWorkbenchBlock>, MCasing, <EnderIO:itemFrankenSkull:1>, Circuit, SteelCasing * 2], null, 200, 64);
+
+// --- Machine Chassis
+Assembler.addRecipe(MCasing, [Capacitor, ESteelPlate * 2, SteelCasing * 2], null, 200, 64);
+// -
+Assembler.addRecipe(MCasing, [Capacitor8, ESteelPlate * 2, SteelCasing * 2], null, 200, 64);
+
+// --- Reinforced Obsidian
+Assembler.addRecipe(<EnderIO:blockReinforcedObsidian>, [Obsidian, DarkSteelPlate * 2, DarkSteelBars * 2, <gregtech:gt.integrated_circuit:17> * 0], null, 600, 120);
 
 
 
@@ -1412,4 +1427,4 @@ Pulverizer.addRecipe([<EnderIO:itemMaterial:17>, <EnderIO:itemMaterial:17>, <End
 
 
 // --- Untreated Frame (Forestry)
-<EnderIO:blockTravelAnchor>.addTooltip("Cooldown 5 seconds");
+<EnderIO:blockTravelAnchor>.addTooltip(I18N_Ender_IO_0);

@@ -1,0 +1,36 @@
+{
+  "ores": [
+    "oreMarbleInfusedAir",
+    "75",
+    	"oreMarbleInfusedFire",
+    "75",
+    	"oreMarbleInfusedWater",
+    "75",
+    	"oreMarbleInfusedEarth",
+    "75",
+    	"oreMarbleInfusedOrder",
+    "75",
+   	"oreMarbleInfusedEntropy",
+    "75",
+   	"oreMarbleAmber",
+    "150",
+   	"oreMarbleCinnabar",
+    "250",
+    	"oreMarbleVinteum",
+    "10",
+   	"oreMarbleShadowIron",
+    "10",
+	"oreMarbleInfusedGold",
+    "10",
+   	"oreMarbleShadow",
+    "10",
+	"stoneMarble",
+    "110"
+  ],
+  "radius": 15,
+  "cost": 800000,
+  "focusModId": "Thaumcraft",
+  "focusName": "ItemSanitySoap",
+  "focusMeta": 0
+}
+

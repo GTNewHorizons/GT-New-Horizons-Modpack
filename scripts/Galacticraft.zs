@@ -409,11 +409,11 @@ recipes.remove(<GalacticraftMars:item.itemBasicAsteroids:1>);
 // --- Heavy Nose Cone
 recipes.remove(<GalacticraftMars:item.heavyNoseCone>);
 
-// --- Fluid Manipulator
-recipes.remove(<GalacticraftMars:item.null:6>);
-
 // --- Red Core
 recipes.remove(<GalacticraftMars:item.itemBasicAsteroids:8>);
+
+// --- Fluid Manipulator
+recipes.remove(<GalacticraftMars:item.null:6>);
 
 // --- Energy Beam Reflector
 recipes.remove(<GalacticraftMars:tile.beamReflector>);
@@ -732,7 +732,27 @@ recipes.addShaped(<GalacticraftCore:tile.telemetry>, [
 // --- Arc Lamp
 recipes.addShaped(<GalacticraftCore:tile.arclamp>, [
 [DeshPlate,DeshPlate,DeshPlate],
-[DeshPlate, <gregtech:gt.metaitem.01:32500>, <ProjRed|Illumination:projectred.illumination.lamp:16>],
+[DeshPlate, <GalaxySpace:ceresglowstone>, <ProjRed|Illumination:projectred.illumination.lamp:16>],
+[DeshPlate, DeshPlate, DeshPlate]]);
+// -
+recipes.addShaped(<GalacticraftCore:tile.arclamp>, [
+[DeshPlate,DeshPlate,DeshPlate],
+[DeshPlate, <GalaxySpace:ioglowstone>, <ProjRed|Illumination:projectred.illumination.lamp:16>],
+[DeshPlate, DeshPlate, DeshPlate]]);
+// -
+recipes.addShaped(<GalacticraftCore:tile.arclamp>, [
+[DeshPlate,DeshPlate,DeshPlate],
+[DeshPlate, <GalaxySpace:enceladusglowstone>, <ProjRed|Illumination:projectred.illumination.lamp:16>],
+[DeshPlate, DeshPlate, DeshPlate]]);
+// -
+recipes.addShaped(<GalacticraftCore:tile.arclamp>, [
+[DeshPlate,DeshPlate,DeshPlate],
+[DeshPlate, <GalaxySpace:proteusglowstone>, <ProjRed|Illumination:projectred.illumination.lamp:16>],
+[DeshPlate, DeshPlate, DeshPlate]]);
+// -
+recipes.addShaped(<GalacticraftCore:tile.arclamp>, [
+[DeshPlate,DeshPlate,DeshPlate],
+[DeshPlate, <GalaxySpace:plutoglowstone>, <ProjRed|Illumination:projectred.illumination.lamp:16>],
 [DeshPlate, DeshPlate, DeshPlate]]);
 
 // --- Oxygen Gear
@@ -1066,6 +1086,12 @@ recipes.addShaped(<GalacticraftMars:item.itemBasicAsteroids:8>, [
 [<ore:ringRedAlloy>, CompressedIron, <ore:ringRedAlloy>],
 [CompressedIron, <ore:lensDiamond>, CompressedIron],
 [<ore:ringRedAlloy>, CompressedIron, <ore:ringRedAlloy>]]);
+
+// --- Fluid Manipulator
+recipes.addShaped(<GalacticraftMars:item.null:6>, [
+[<gregtech:gt.metaitem.01:32612>, <gregtech:gt.blockmachines:5135>, <gregtech:gt.metaitem.01:32612>],
+[<gregtech:gt.blockmachines:5135>, <GalacticraftCore:item.oilCanisterPartial:1001>, <gregtech:gt.blockmachines:5135>],
+[<gregtech:gt.metaitem.01:32612>, <gregtech:gt.blockmachines:5135>, <gregtech:gt.metaitem.01:32612>]]);
 
 // --- Energy Beam Reflector
 recipes.addShaped(<GalacticraftMars:tile.beamReflector>, [

@@ -20,7 +20,6 @@
 ##################################################################
 
 config/AE2Stuff/
-config/AppliedEnergistics2/*
 config/biomesoplenty/*
 config/BloodMagic/schematics
 config/books/
@@ -45,7 +44,6 @@ config/Spmod/
 config/warptheory/
 
 #Whitelist files modified by GT:NH from above list
-!config/AppliedEnergistics2/AppliedEnergistics2.cfg
 !config/AppliedEnergistics2/extracells.cfg
 !config/biomesoplenty/biomeweights.cfg
 !config/biomesoplenty/ids.cfg
@@ -159,6 +157,7 @@ config/hqm/*
 *.sh
 *.ser
 *.lnk
+.idea
 
 ######################################
 ## Remove MAC OSX generated garbage
@@ -189,4 +188,3 @@ resources/mainmenu/textures/bg3.png
 resources/mainmenu/textures/btn.png
 resources/mainmenu/textures/logo.png
 resources/mainmenu/textures/logo1.png
-resources/

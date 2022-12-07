@@ -1,0 +1,34 @@
+{
+  "ores": [
+	"oreEndstoneBlackPlutonium",
+    "50",
+	"oreEndstoneCosmicNeutronium",
+    "10",
+	"oreEndstoneNaquadah",
+    "50",
+	"oreEndstoneNaquadahEnriched",
+    "55",
+	"oreEndstoneNaquadria",
+    "40",
+	"oreEndstoneEuropium",
+    "25",
+	"oreEndstoneElectrumFlux",
+    "10",
+	"oreEndstoneIndium",
+    "5",
+	"oreEndstoneAmericium",
+    "10",
+	"oreEndstoneEuropium",
+    "25",
+	"oreEndstoneLutetium",
+    "50",
+	"oreEndstoneInfinityCatalyst",
+    "50"
+  ],
+  "radius": 18,
+  "cost": 125000000,
+  "focusModId": "gregtech",
+  "focusName": "gt.blockmachines",
+  "focusMeta": 12526
+}
+

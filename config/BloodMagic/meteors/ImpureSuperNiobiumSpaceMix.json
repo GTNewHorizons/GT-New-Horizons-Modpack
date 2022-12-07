@@ -1,0 +1,26 @@
+{
+  "ores": [
+    "oreRedgraniteApatite",
+    "150",
+	"oreRedgraniteTricalciumPhosphate",
+    "150",
+	"oreRedgranitePyrochlore",
+    "100",
+	"oreRedgraniteTantalite",
+    "100",
+	"rockMars",
+    "125",
+	"rockPhobos",
+    "125",
+	"rockDeimos",
+    "125",
+	"rockAsteroids",
+    "125"
+  ],
+  "radius": 18,
+  "cost": 1000000,
+  "focusModId": "gregtech",
+  "focusName": "gt.metaitem.01",
+  "focusMeta": 32672
+}
+
