@@ -4,6 +4,7 @@
 
 // --- Imports ---
 
+import mods.gregtech.Assembler;
 import mods.forestry.Squeezer;
 import mods.gregtech.Pulverizer;
 import mods.gregtech.Extractor;
@@ -214,6 +215,29 @@ mods.thaumcraft.Research.addArcanePage("SOULFRAME", <ExtraBees:hiveFrame.soul>);
 mods.thaumcraft.Warp.addToResearch("SOULFRAME", 1);
 
 
+// --- Assembler Recipes
+
+
+// -- Mutator
+Assembler.addRecipe(<ExtraBees:alveary>, [<Forestry:alveary>, <Forestry:thermionicTubes:12> * 4, <gregtech:gt.metaitem.01:17533> * 2, <gregtech:gt.metaitem.01:17532> * 2, <ExtraBees:hiveFrame.soul>], <liquid:for.honey> * 3750, 1200, 120);
+
+// -- Frame Housing
+Assembler.addRecipe(<ExtraBees:alveary:1>, [<Forestry:alveary>, <Forestry:thermionicTubes:10> * 4, <Forestry:frameProven>, <Forestry:frameProven>, <Forestry:frameProven>, <Forestry:frameProven>, <gregtech:gt.blockmachines:4985>], <liquid:for.honey> * 3750, 1200, 120);
+
+// -- Rain Shield
+Assembler.addRecipe(<ExtraBees:alveary:2>, [<Forestry:alveary>, <Forestry:thermionicTubes:8> * 4, <IC2:blockRubber> * 4, <minecraft:brick_block>], <liquid:for.honey> * 3750, 1200, 120);
+
+// --- Alveary Lighting
+Assembler.addRecipe(<ExtraBees:alveary:3>, [<Forestry:alveary>, <Forestry:thermionicTubes:2> * 4, <minecraft:stained_glass:*> * 4, <minecraft:redstone_lamp>], <liquid:for.honey> * 3750, 1200, 120);
+
+// --- Electrical Stimulator
+Assembler.addRecipe(<ExtraBees:alveary:4>, [<Forestry:alveary>, <Forestry:thermionicTubes:1> * 4, <gregtech:gt.blockmachines:1460> * 2, <Forestry:chipsets:2> * 2, <gregtech:gt.metaitem.01:32602>], <liquid:for.honey> * 3750, 1200, 120);
+
+// --- Hatchery
+Assembler.addRecipe(<ExtraBees:alveary:5>, [<Forestry:alveary>, <Forestry:thermionicTubes:3> * 4, <gregtech:gt.metaitem.01:17810> * 2, <gregtech:gt.metaitem.01:32631> * 2, <Forestry:apiculture>], <liquid:for.honey> * 3750, 1200, 120);
+
+// -- Alveary Transmission
+Assembler.addRecipe(<ExtraBees:alveary:6>, [<Forestry:alveary>, <Forestry:thermionicTubes> * 4, <ore:circuitAdvanced>, <gregtech:gt.blockmachines:1587> * 3, <gregtech:gt.blockmachines:13>], <liquid:for.honey> * 3750, 1200, 120);
 
 
 // --- Pulverizer Recipes ---
