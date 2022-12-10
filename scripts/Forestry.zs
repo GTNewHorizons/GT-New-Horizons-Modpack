@@ -2751,6 +2751,30 @@ Assembler.addRecipe(<Forestry:cart.beehouse:1>, <Forestry:apiculture>, <minecraf
 // --- Worktable
 Assembler.addRecipe(<Forestry:factory2:2>, [<minecraft:book>, <minecraft:crafting_table>, <minecraft:chest>, <gregtech:gt.integrated_circuit:1> * 0], null, 200, 30);
 
+// --- Apiary
+Assembler.addRecipe(<Forestry:apiculture>, [<Forestry:frameImpregnated>, <gregtech:gt.metaitem.01:27305> * 2, <minecraft:wooden_slab:*> * 2, <Forestry:beeCombs:*>, <minecraft:fence> * 2], <liquid:seedoil> * 1000, 1200, 64);
+
+// --- Scented Paneling
+Assembler.addRecipe(<Forestry:craftingMaterial:6>, [<gregtech:gt.metaitem.02:19086> * 2, <Forestry:royalJelly>, <Forestry:oakStick> * 3, <Forestry:beeswax> * 2, <Forestry:pollen:*>], <liquid:for.honey> * 1000, 1200, 64);
+
+// --- Alveary Heater
+Assembler.addRecipe(<Forestry:alveary:4>, [<Forestry:alveary>, <Forestry:thermionicTubes:7> * 4, <dreamcraft:item.SteelBars>, <IC2:itemRecipePart> * 3, <gregtech:gt.metaitem.01:32601>], <liquid:for.honey> * 2500, 1200, 120);
+
+// --- Alveary Fan
+Assembler.addRecipe(<Forestry:alveary:3>, [<Forestry:alveary>, <Forestry:thermionicTubes:11> * 4, <dreamcraft:item.SteelBars> * 3, <gregtech:gt.metaitem.02:21300>, <gregtech:gt.metaitem.01:32601>], <liquid:for.honey> * 2500, 1200, 120);
+
+// --- Alveary Hygroregulator
+Assembler.addRecipe(<Forestry:alveary:5>, [<Forestry:alveary>, <Forestry:thermionicTubes:6> * 4, <ore:circuitGood>, <gregtech:gt.blockmachines:5142>, <BuildCraft|Factory:tankBlock> * 2, <gregtech:gt.metaitem.01:17308>], <liquid:for.honey> * 2500, 1200, 120);
+
+// --- Alveary Stabiliser
+Assembler.addRecipe(<Forestry:alveary:6>, [<Forestry:alveary>, <Forestry:thermionicTubes:4> * 4, <dreamcraft:item.ChargedCertusQuartzPlate> * 2, <gregtech:gt.metaitem.01:32729> * 2, <Forestry:royalJelly>], <liquid:for.honey> * 2500, 1200, 120);
+
+// --- Alveary Sieve
+Assembler.addRecipe(<Forestry:alveary:7>, [<Forestry:alveary>, <Forestry:thermionicTubes:9> * 4, <Forestry:craftingMaterial:3> * 4, <Forestry:pollenFertile:*>], <liquid:for.honey> * 2500, 1200, 120);
+
+// --- Swarmer (Alveary)
+Assembler.addRecipe(<Forestry:alveary:2>, [<Forestry:alveary>, <Forestry:thermionicTubes:5> * 4, <gregtech:gt.metaitem.01:29351> * 2, <Forestry:royalJelly> * 2, <Forestry:frameProven>], <liquid:for.honey> * 2500, 1200, 120);
+
 
 // --- Centrifuge Recipes ---
 
