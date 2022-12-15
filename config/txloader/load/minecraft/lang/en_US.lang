@@ -344,8 +344,8 @@ gtnh.quest84.desc=With your brand new alloy smelter you are able to combine two 
 gtnh.quest85.name=§6§lSmelt All the Things Stack-Wise...
 gtnh.quest85.desc=...with this great invention! Upgrade power and coils to smelt absolutely ridiculous amounts of items.
 
-# Quest.86 - §6§lTungstensteel Coil Upgrade
-gtnh.quest86.name=§6§lTungstensteel Coil Upgrade
+# Quest.86 - TPV Coil Upgrade
+gtnh.quest86.name=TPV Coil Upgrade
 gtnh.quest86.desc=To process more advanced materials like enderium and niobium-titanium you need more than 3600K. Time to upgrade your EBF... again.
 
 # Quest.87 - §6§lSteel Multiblock Tanks
@@ -1568,13 +1568,13 @@ gtnh.quest390.desc=This bee is pretty overpowered. Use it while you can, I see a
 gtnh.quest391.name=Osmium
 gtnh.quest391.desc=Quite the interesting bee. Maybe integrate it into your osmium processing?
 
-# Quest.392 - §c§l[OUTDATED]§r Activated teleport gem
-gtnh.quest392.name=§c§l[OUTDATED]§r Activated teleport gem
-gtnh.quest392.desc=You are sure that you've just discovered the solution for your containment problem. This gem happily transmits vis on request, while keeping the containment field intact. What a great day!
+# Quest.392 - Co-Processing x16
+gtnh.quest392.name=Co-Processing x16
+gtnh.quest392.desc=For an even more compact crafting CPU.
 
-# Quest.393 - §c§l[OUTDATED]§r You did it! But...
-gtnh.quest393.name=§c§l[OUTDATED]§r You did it! But...
-gtnh.quest393.desc=Now that you are able to contain the activated draconium dust for an infinite amount of time, you where able to assure the energy it releases. The readings are incredible. You have never seen such a power before. The only problem is, the machinery required to keep the dust in this state is too large to use it for crafting.%n%nYou noticed something that might help: The dust reacts to vis, but it needs a lot of it, therefore you require the animation focus. If you could find a catalyst, that you can mix the dust with, you could make the dust react with the vis from its surroundings instead of a direct beam.
+# Quest.393 - Co-Processing x4
+gtnh.quest393.name=Co-Processing x4
+gtnh.quest393.desc=Your crafting CPU is massive and still can't keep up? Don't worry, we have a custom solution for that!
 
 # Quest.394 - §c§l[OUTDATED]§r A catalyst
 gtnh.quest394.name=§c§l[OUTDATED]§r A catalyst
@@ -11062,7 +11062,7 @@ gtnh.quest2764.desc=It's a larger version of the steam macerator. It only works 
 
 # Quest.2765 - §6§lTFFT
 gtnh.quest2765.name=§6§lTFFT
-gtnh.quest2765.desc=The TFFT is very useful if you don't want to have a bunch of Super Tanks with overflow covers on buffer ULV Tanks.%n%nWith the tier I storage field block, it consumes 31.5 EU/t but only has about 0.315x the storage capacity of a ST I per fluid.%n%nWith the tier V storage field block it consumes 504 EU/t and has about 1.26x the storage capacity of a QT III per fluid.%n%nYou can use the multi hatch to access all the fluids at once with an ME Fluid Storage Bus or Fluid Ender Conduit.%n%nYou need 63 of any tier of storage field block, you can mix them too.%n%n§3Remember to turn auto-voiding on.
+gtnh.quest2765.desc=The TFFT is very useful if you don't want to have a bunch of Super Tanks with overflow covers on buffer ULV Tanks.%n%nWith the tier I storage field block, it consumes 31.5 EU/t but only has about 0.315x the storage capacity of a ST I per fluid.%n%nWith the tier V storage field block it consumes 504 EU/t and has about 1.26x the storage capacity of a QT III per fluid.%n%nYou can use the multi hatch to access all the fluids at once with an ME Fluid Storage Bus or Fluid Ender Conduit.%n%nYou need 63 of any tier of storage field block, you can mix them too.%n%n§3Remember to turn auto-voiding on.%n%n§4The TFFT was reworked apparently, so this quest might or might not be accurate.
 
 # Quest.2766 - Deep Earth Heating Pump
 gtnh.quest2766.name=Deep Earth Heating Pump
