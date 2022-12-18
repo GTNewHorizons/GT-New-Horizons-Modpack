@@ -1576,9 +1576,9 @@ gtnh.quest392.desc=For an even more compact crafting CPU.
 gtnh.quest393.name=Co-Processing x4
 gtnh.quest393.desc=Your crafting CPU is massive and still can't keep up? Don't worry, we have a custom solution for that!
 
-# Quest.394 - §c§l[OUTDATED]§r A catalyst
-gtnh.quest394.name=§c§l[OUTDATED]§r A catalyst
-gtnh.quest394.desc=That's it. This catalyst contains all primal energies in a quite different form, a lot weaker than any node. However, in combination with the draconium dust, it amplifies the vis that's around it, which leads to a permanent activation. It still needs to be contained, but you don't need the direct vis beam any more.%n%nThe result is a compound, which still emits massive amounts of power, but is less destructive. It still attacks the neutronium, but I think if I can find a capsule-like container that has special properties, I could create a portable version of it.
+# Quest.394 - §a§k§r§a§lGraphene
+gtnh.quest394.name=§a§k§r§a§lGraphene
+gtnh.quest394.desc=For IV motors you will need Graphene. Graphene is a material that is just one atom layer thick. It has very favourable electric properties. To create though you will have to make some Graphene you can use a powerful adhesive to pull a single layer of material away from Graphite.%n%nFor this you will need some Advanced Glue. There is no quest yet, so check NEI and come back with some! You will also need some perfect wafers to work on.
 
 # Quest.395 - Dragon Blood
 gtnh.quest395.name=Dragon Blood
@@ -4506,7 +4506,7 @@ gtnh.quest1125.desc=Are your upgraded cobblestone or dirt barrels full again? No
 
 # Quest.1126 - §3§lAlumite
 gtnh.quest1126.name=§3§lAlumite
-gtnh.quest1126.desc=It's upgrade time again. You can make alumite like modpack Moron by mixing obsidian, steel and alumin(i)um in the smeltery, or you can be a GregTech hero and search NEI for an alternate recipe using dusts. Alumite pickaxes are able to mine ardite in the Nether.%n%nLeave the rest of your Alumite as liquid in your smeltery, you'll want it to make the Tool Forge. You need 16 ingots in the smeltery to make 2 Large Plates.
+gtnh.quest1126.desc=It's upgrade time again. You could in principle make alumite by mixing obsidian, steel and aluminium in the smeltery. But to get a much better yield, you can show you are a GregTech hero and search NEI for an alternate recipe using dusts. Alumite pickaxes are able to mine ardite in the Nether.%n%nLeave the rest of your Alumite as liquid in your smeltery, you'll want it to make the Tool Forge. You need 16 ingots in the smeltery to make 2 Large Plates.
 
 # Quest.1127 - §3§lReinforced X? Unbreakable
 gtnh.quest1127.name=§3§lReinforced X? Unbreakable
@@ -5968,9 +5968,9 @@ gtnh.quest1490.desc=Some machines need emitters and sensors, like the analyzer o
 gtnh.quest1491.name=§b§lHSS-G
 gtnh.quest1491.desc=After you can make Tungstensteel and craft an IV assembler, upgrade your Electric Blast Furnace with new Coils out of HSS-G Ingots. This ingot becomes very important in LuV tier.
 
-# Quest.1492 - §c§l[OUTDATED]§r Plunger 2.0 The Hand Pump Replacement
-gtnh.quest1492.name=§c§l[OUTDATED]§r Plunger 2.0 The Hand Pump Replacement
-gtnh.quest1492.desc=What? Lost your hand pump already? Well here's a replacement. Well sure, it costs a few coins too, don't be such a fumble fingers next time! What do you think I am, a hardware store?
+# Quest.1492 - §6§lTrichlorosilane - continued
+gtnh.quest1492.name=§6§lTrichlorosilane - continued
+gtnh.quest1492.desc=Keep the hydrogen and continue in a second chemical reactor to obtain the purified Solar Grade Silicon. You get all the Hydrochloric Acid back!%n%nMaybe you can automate this process?
 
 # Quest.1493 - §c§lTier 6 (LuV)
 gtnh.quest1493.name=§c§lTier 6 (LuV)
@@ -6196,9 +6196,9 @@ gtnh.quest1547.desc=With the MV forming press you can make aluminum iron plates 
 gtnh.quest1548.name=Input chest for Ghetto ME System
 gtnh.quest1548.desc=To be able to put items into the Ghetto ME system you need just a few additional pipes.%nThe Extraction pipe should be connected to the chest you want to take items from.%nInside the Extraction pipe you need to put the Item Extraction chip, and configure it to blacklist if you want it to take all items from the chest.%n%nThe Routed Junction pipe is needed so the items inside the pipes know which direction to take, without this they will just fly around inside the pipes without knowing where to go.%nYou might also need some additional item transport pipes depending on your setup.
 
-# Quest.1549 - §c§l[OUTDATED]§r  Plunger 2.0 The Hand Pump
-gtnh.quest1549.name=§c§l[OUTDATED]§r  Plunger 2.0 The Hand Pump
-gtnh.quest1549.desc=The new hand pump can remove fluids out of your machine input slots. The old plunger removes the fluid - only the hand pump can store it and drain it to a tank.%n%nUse your items in an LV assembler to craft your pump token, and then again to make the hand pump.%n%nWhen you tier up your assembler, you can make better hand pumps, up to EV.%n%n§3This recipe requires Aluminium, which requires the EBF to make. But you can also find it in chests if you search around.
+# Quest.1549 - §6§lTrichlorosilane
+gtnh.quest1549.name=§6§lTrichlorosilane
+gtnh.quest1549.desc=The second route is probably even better! With just 2 singleblock chemical reactors you can make Silicon Solar Grade. In the first step, make some Trichlorosilane. 
 
 # Quest.1550 - More Seed Types
 gtnh.quest1550.name=More Seed Types
@@ -7152,9 +7152,9 @@ gtnh.quest1786.desc=Your shoes can be equipped with a few modifications like wat
 gtnh.quest1787.name=§6§lData Access Hatches
 gtnh.quest1787.desc=So, if you want to do more than one recipe in your Assline, you want a Data Access Hatch. There are 3+1 versions.%n%nData Access Hatch: It holds 4 data sticks, so 4 recipes.%n%nAdvanced Data Access Hatch: It holds 16 data sticks. Ironically, you can make this right away.%n%nAutomatable Data Access Hatch: It's UV, but it allows I/O of the sticks. Skip it.%n%nThe Data Bank Multi: Can be connected to multiple Asslines, and can contain more than 1 DAH. This is the best way, when you can do it. Look in ZPM for the quest.%n%n§3You only need to make one.
 
-# Quest.1788 - §c§l[OUTDATED]§r Trigger:Unlocking bee breeding lines (unlock)
-gtnh.quest1788.name=§c§l[OUTDATED]§r Trigger:Unlocking bee breeding lines (unlock)
-gtnh.quest1788.desc=Finish cultivated bees quest
+# Quest.1788 - §6§lSilicon Solar Grade
+gtnh.quest1788.name=§6§lSilicon Solar Grade
+gtnh.quest1788.desc=Whichever path you followed, you now have the Solar Grade Silicon Dust. You want to smelt it into ingots to make plates for Transistors, but you will also need some to make Silicon Boules.
 
 # Quest.1789 - §3§lFactory Iron Door
 gtnh.quest1789.name=§3§lFactory Iron Door
@@ -12850,11 +12850,11 @@ gtnh.quest3211.desc=Silicon is needed in all boule (and thus wafers, chips, and 
 
 # Quest.3212 - §6§lSilicon Tetrachloride
 gtnh.quest3212.name=§6§lSilicon Tetrachloride
-gtnh.quest3212.desc=However, the raw silicon dust you obtained is not pure enough! We will need to work on that. Don't worry, this is just a simple two step process. First let us start by reacting it with some chlorine in a chemical reactor.
+gtnh.quest3212.desc=However, the raw silicon dust you obtained is not pure enough! We will need to work on that. There are two reasonable options to do so. Let us look at the first one here. Don't worry, this is just a simple two step process. First let us start by reacting it with some chlorine in a chemical reactor.
 
-# Quest.3213 - §6§lSilicon Solar Grade
-gtnh.quest3213.name=§6§lSilicon Solar Grade
-gtnh.quest3213.desc=As a second step, we combine the Tetrachloride with Sodium Dust. There we go! The Silicon Dust is now purified to solar grade!%n%nThe Chlorine and Sodium are §onot§r lost during this process. To recover them, just electrolyze the Salt you get at the end and send it back to the Chemical Reactors, for a complete loop that turns Raw Silicon into Poly SI Silicon.
+# Quest.3213 - §6§lSilicon Tetrachloride - continued
+gtnh.quest3213.name=§6§lSilicon Tetrachloride - continued
+gtnh.quest3213.desc=As a second step, we combine the Tetrachloride with Sodium Dust. There we go! The Silicon Dust is now purified to solar grade!%n%nThe Chlorine and Sodium are §onot§r lost during this process. To recover them, just electrolyze the Salt you get at the end and send it back to the Chemical Reactors, for a complete loop that turns Raw Silicon into Solar Grade Silicon.
 
 # Quest.3214 - §6§lSalty from all the silicon?
 gtnh.quest3214.name=§6§lSalty from all the silicon?
