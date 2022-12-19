@@ -553,7 +553,7 @@ recipes.addShaped(<Forestry:factory:7>, [
 [<ore:gearGtSmallAluminium>, <gregtech:gt.metaitem.01:32681>, <ore:gearGtSmallAluminium>]]);
 
 // --- Thermionic Fabricator
-mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 1000, [
+mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 1152, [
 <gregtech:gt.metaitem.01:27305>, <BuildCraft|Factory:tankBlock>, <gregtech:gt.metaitem.01:27305>, 
 <IC2:itemRecipePart>, <Forestry:sturdyMachine>, <IC2:itemRecipePart>, 
 <gregtech:gt.metaitem.01:27305>, <gregtech:gt.metaitem.01:32600>, <gregtech:gt.metaitem.01:27305>], 
