@@ -1584,13 +1584,13 @@ gtnh.quest394.desc=For IV motors you will need Graphene. Graphene is a material 
 gtnh.quest395.name=Dragon Blood
 gtnh.quest395.desc=The Dragon Blood Bee is a lot of effort to obtain but quite handy for hypogen in late game.
 
-# Quest.396 - §c§l[OUTDATED]§r The final steps
-gtnh.quest396.name=§c§l[OUTDATED]§r The final steps
-gtnh.quest396.desc=Now that I've found a way to stabilize the draconium dust and keep it safe in a small capsule, I just need to make a small container for it, so I can drain the energy on demand. Neutronium will serve very well, but I need a magic conductor. Thaumium works, but gets way too hot and void metal has a bad conductivity. I need to find a high tier magic metal that is extremly strong and resillient, to a point where mundane materials could never get.
+# Quest.396 - Goals
+gtnh.quest396.name=Goals
+gtnh.quest396.desc=GregTech New Horizons is a long and intricate mod pack with massive amounts of custom content and over 3000 quests to guide you along.%n%nWe would generally recommend you only set yourself relatively small goals from tier to tier and see how far your journey takes you. The ultimate late game goal is to craft a Stargate or two. But the recipe is outrageous and only very few players have ever done so. If you need a big goal for your run, maybe aim for a more realistic achievement. Like going to the moon if this is your first time playing. Or making and automating an Assembling Line if you have never done so. Or crafting the Tier 8 Rocket which is the last rocket and is reached in UHV. 
 
-# Quest.397 - §c§l[OUTDATED]§r Endless evolution
-gtnh.quest397.name=§c§l[OUTDATED]§r Endless evolution
-gtnh.quest397.desc=Using your machine, you can now craft infinite amounts of these cores. And since it would be gruesome to let your golem work just for one single core, you decided to only request cores in a large batch of 16. How nice of you.
+# Quest.397 - Even more challenge needed?
+gtnh.quest397.name=Even more challenge needed?
+gtnh.quest397.desc=You have played through most of the pack a few times already? Maybe you even made a Stargate? Or are you just looking for something a bit different? Don't worry, we have a few options for you:%n%n- Play in Hardcore. Either Minecraft Hardcore, or BetterQuesting Hardcore. The latter is a bit more forgiving. Maybe this seems impossible, but people have indeed reached UEV+ in Minecraft Hardcore. Better be prepared to restart a few times. This is obviously not for everybody.%n%n- Never make a rocket. The so called §ono rocket run§r is pretty well supported by now and you will be able to do almost everything in the pack. Use bees, crops, and blood magic meteors as your main resource production. Be warned though that this challenge is grindy and slow. You might need to collect large amounts of aluminium gravel for example to get your first titanium.%n%n- Skyblock. Yes, really. It is also known as Garden of Grind and it is absolutely brutal. There is no actually supported skyblock version of the pack but some players have figured out the minimal amount of changes needed to make it work. Ask around or search on the offical discord channel for all the details. But don't exect any fun down this road.%n%n- Speedrunning. A few players have designed some basic rules and have started to record speedruns to early game goals like the Coke Oven. Ask around or search on the offical discord channel for all the details. Maybe you just want to watch how they do it.
 
 # Quest.398 - Kill Baba Yaga
 gtnh.quest398.name=Kill Baba Yaga
@@ -4410,7 +4410,7 @@ gtnh.quest1101.desc=Find a sigil in a chest? Get one from the Wither? You've hea
 
 # Quest.1102 - Beacon
 gtnh.quest1102.name=Beacon
-gtnh.quest1102.desc=With your new wand you are able to create a beacon. The beacon recipe is found on the GTNH Thaumcraft Page. Activate it in your base to gain various positive effects.
+gtnh.quest1102.desc=With your ascension to adept thaumaturge you are ready to fusion craft beacons. The beacon recipe is found on the GTNH Thaumcraft Page. Activate it in your base to gain various positive effects.
 
 # Quest.1103 - Cursed Earth
 gtnh.quest1103.name=Cursed Earth
@@ -4598,7 +4598,7 @@ gtnh.quest1148.desc=The next tier of machine hull needs aluminium. You're gonna 
 
 # Quest.1149 - §5§lA New Alloy - Magnalium
 gtnh.quest1149.name=§5§lA New Alloy - Magnalium
-gtnh.quest1149.desc=Wondering why you need magnalium now? It's not for GT machines but for a material update for your crossbow.%n%nGo to the Twilight Forest and find an Olivine/Glauconite vein located at Y 10-40 or in the Overworld a Glauconite Soapstone mix located at Y 20-50 and a Granitic Mineral Vein in the Overworld Located at Y 50-60 (The Gypsum vein you will need for the Bricked Blast Furnace).%n%nWith your Ore Washer you can get Magnesium and Aluminium out of the Ores (Magnesite for Magnesium (marble can be used too) and Fullers Earth for Aluminium) and combine it in the Alloy smelter to get Magnalium.%n%nMagnesite gives 10 tiny piles of Magnesium each dust but fullers earth gives only a tiny pile of Aluminium.
+gtnh.quest1149.desc=Wondering why you need magnalium now? It's not for GT machines but for a material update for your crossbow.%n%nGo to the Twilight Forest and find an Olivine/Glauconite vein located at Y 10-40 or in the Overworld a Glauconite Soapstone mix located at Y 20-50 and a Granitic Mineral Vein in the Overworld Located at Y 50-60 (The Gypsum vein you will need for the Bricked Blast Furnace).%n%nWith your Ore Washer you can also get Magnesium out of ores like Magnesite.%n%nYou already made some Aluminium dust before. It will get easier once you have an EBF or an MV electrolyzer.%n%nCombine both in your alloy smelter to get magnalium.
 
 # Quest.1150 - §5§lMagnalium Crossbow
 gtnh.quest1150.name=§5§lMagnalium Crossbow
@@ -5642,7 +5642,7 @@ gtnh.quest1409.desc=How about lossless 8192 EU Wires? Vanadiumtriindinide is a s
 
 # Quest.1410 - §b§lIV Mixer
 gtnh.quest1410.name=§b§lIV Mixer
-gtnh.quest1410.desc=An IV mixer is required for example to mix HSS-S dust or to make IV superconductors.
+gtnh.quest1410.desc=An IV mixer is required for example to mix HSS-S dust or to make IV superconductors.%n%nYou can also check out the GT++ tab and make a multiblock mixer out of this one.
 
 # Quest.1411 - §9§lSome Rare High Tier Metals
 gtnh.quest1411.name=§9§lSome Rare High Tier Metals
@@ -9446,7 +9446,7 @@ gtnh.quest2360.desc=A Fire-oriented biome with huge mountains and a large amount
 
 # Quest.2361 - Ghost Amulet
 gtnh.quest2361.name=Ghost Amulet
-gtnh.quest2361.desc=The Ghost Amulet (Impure) is an item that can only be obtained by throwing one Emerald, one String and one End Powder into Ender Goo.%n%nOnce you have that, you need to do a TC infusion.%n%nAs long as it stays anywhere in the inventory, it protects players from Forest Ghosts, and thus provides a way of acquiring Ectoplasm.
+gtnh.quest2361.desc=The Ghost Amulet (Impure) is an item that can only be obtained by throwing one Emerald, one String and one End Powder into Ender Goo.%n%nOnce you have that, you need to do a TC infusion, or maybe the Ender Compendium has a more traditional way to infuse it.%n%nAs long as it stays anywhere in the inventory, it protects players from Forest Ghosts, and thus provides a way of acquiring Ectoplasm.
 
 # Quest.2362 - Blank Gem
 gtnh.quest2362.name=Blank Gem
@@ -13087,6 +13087,10 @@ gtnh.quest3270.desc=...there is no way a bee should be able to produce mana. The
 # Quest.3271 - Dreams of Gold
 gtnh.quest3271.name=Dreams of Gold
 gtnh.quest3271.desc=Just try to dream of gold.
+
+# Quest.3272 - Ignore the Glint in Their Eyes
+gtnh.quest3272.name=Ignore the Glint in Their Eyes
+gtnh.quest3272.desc=Well this is a bad idea, but since when has that stopped you before, golems with brains, what could go wrong?%n%n§2§b§3You only need to complete one task.
 
 ##################################Line##################################
 
