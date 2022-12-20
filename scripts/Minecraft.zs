@@ -68,6 +68,7 @@ val RSTorch = <minecraft:redstone_torch>;
 val Glass = <ore:glass>;
 val Trapdoor = <minecraft:trapdoor>;
 val ClayBlock = <minecraft:clay>;
+val HardenedClayBlock = <minecraft:hardened_clay>;
 val Ladder = <minecraft:ladder>;
 val Fence = <minecraft:fence>;
 val FenceGate = <minecraft:fence_gate>;
@@ -2053,147 +2054,147 @@ recipes.addShaped(BlackCarpet * 3, [
 
 // --- White Stained Clay Block
 recipes.addShaped(WhiteHardClay * 7, [
-[ClayBlock, ClayBlock, ClayBlock],
-[ClayBlock, WhiteDye, ClayBlock],
-[ClayBlock, Paintbrush, ClayBlock]]);
+[HardenedClayBlock, HardenedClayBlock, HardenedClayBlock],
+[HardenedClayBlock, WhiteDye, HardenedClayBlock],
+[HardenedClayBlock, Paintbrush, HardenedClayBlock]]);
 // -
 recipes.addShapeless(WhiteHardClay,
-[ClayBlock, WhiteDye]);
+[HardenedClayBlock, WhiteDye]);
 
 // --- Orange Stained Clay Block
 recipes.addShaped(OrangeHardClay * 7, [
-[ClayBlock, ClayBlock, ClayBlock],
-[ClayBlock, OrangeDye, ClayBlock],
-[ClayBlock, Paintbrush, ClayBlock]]);
+[HardenedClayBlock, HardenedClayBlock, HardenedClayBlock],
+[HardenedClayBlock, OrangeDye, HardenedClayBlock],
+[HardenedClayBlock, Paintbrush, HardenedClayBlock]]);
 // -
 recipes.addShapeless(OrangeHardClay,
-[ClayBlock, OrangeDye]);
+[HardenedClayBlock, OrangeDye]);
 
 // --- Magenta Stained Clay Block
 recipes.addShaped(MagentaHardClay * 7, [
-[ClayBlock, ClayBlock, ClayBlock],
-[ClayBlock, MagentaDye, ClayBlock],
-[ClayBlock, Paintbrush, ClayBlock]]);
+[HardenedClayBlock, HardenedClayBlock, HardenedClayBlock],
+[HardenedClayBlock, MagentaDye, HardenedClayBlock],
+[HardenedClayBlock, Paintbrush, HardenedClayBlock]]);
 // - Alternate Recipe
 recipes.addShapeless(MagentaHardClay,
-[ClayBlock, MagentaDye]);
+[HardenedClayBlock, MagentaDye]);
 
 // --- Light Blue Stained Clay Block
 recipes.addShaped(LightBlueHardClay * 7, [
-[ClayBlock, ClayBlock, ClayBlock],
-[ClayBlock, LightBlueDye, ClayBlock],
-[ClayBlock, Paintbrush, ClayBlock]]);
+[HardenedClayBlock, HardenedClayBlock, HardenedClayBlock],
+[HardenedClayBlock, LightBlueDye, HardenedClayBlock],
+[HardenedClayBlock, Paintbrush, HardenedClayBlock]]);
 // -
 recipes.addShapeless(LightBlueHardClay,
-[ClayBlock, LightBlueDye]);
+[HardenedClayBlock, LightBlueDye]);
 
 // --- Yellow Stained Clay Block
 recipes.addShaped(YellowHardClay * 7, [
-[ClayBlock, ClayBlock, ClayBlock],
-[ClayBlock, YellowDye, ClayBlock],
-[ClayBlock, Paintbrush, ClayBlock]]);
+[HardenedClayBlock, HardenedClayBlock, HardenedClayBlock],
+[HardenedClayBlock, YellowDye, HardenedClayBlock],
+[HardenedClayBlock, Paintbrush, HardenedClayBlock]]);
 // -
 recipes.addShapeless(YellowHardClay,
-[ClayBlock, YellowDye]);
+[HardenedClayBlock, YellowDye]);
 
 // --- Lime Stained Clay Block
 recipes.addShaped(LimeHardClay * 7, [
-[ClayBlock, ClayBlock, ClayBlock],
-[ClayBlock, LimeDye, ClayBlock],
-[ClayBlock, Paintbrush, ClayBlock]]);
+[HardenedClayBlock, HardenedClayBlock, HardenedClayBlock],
+[HardenedClayBlock, LimeDye, HardenedClayBlock],
+[HardenedClayBlock, Paintbrush, HardenedClayBlock]]);
 // -
 recipes.addShapeless(LimeHardClay,
-[ClayBlock, LimeDye]);
+[HardenedClayBlock, LimeDye]);
 
 // --- Pink Stained Clay Block
 recipes.addShaped(PinkHardClay * 7, [
-[ClayBlock, ClayBlock, ClayBlock],
-[ClayBlock, PinkDye, ClayBlock],
-[ClayBlock, Paintbrush, ClayBlock]]);
+[HardenedClayBlock, HardenedClayBlock, HardenedClayBlock],
+[HardenedClayBlock, PinkDye, HardenedClayBlock],
+[HardenedClayBlock, Paintbrush, HardenedClayBlock]]);
 // -
 recipes.addShapeless(PinkHardClay,
-[ClayBlock, PinkDye]);
+[HardenedClayBlock, PinkDye]);
 
 // --- Gray Stained Clay Block
 recipes.addShaped(GrayHardClay * 7, [
-[ClayBlock, ClayBlock, ClayBlock],
-[ClayBlock, GrayDye, ClayBlock],
-[ClayBlock, Paintbrush, ClayBlock]]);
+[HardenedClayBlock, HardenedClayBlock, HardenedClayBlock],
+[HardenedClayBlock, GrayDye, HardenedClayBlock],
+[HardenedClayBlock, Paintbrush, HardenedClayBlock]]);
 // -
 recipes.addShapeless(GrayHardClay,
-[ClayBlock, GrayDye]);
+[HardenedClayBlock, GrayDye]);
 
 // --- Light Gray Stained Clay Block
 recipes.addShaped(LightGrayHardClay * 7, [
-[ClayBlock, ClayBlock, ClayBlock],
-[ClayBlock, LightGrayDye, ClayBlock],
-[ClayBlock, Paintbrush, ClayBlock]]);
+[HardenedClayBlock, HardenedClayBlock, HardenedClayBlock],
+[HardenedClayBlock, LightGrayDye, HardenedClayBlock],
+[HardenedClayBlock, Paintbrush, HardenedClayBlock]]);
 // -
 recipes.addShapeless(LightGrayHardClay,
-[ClayBlock, LightGrayDye]);
+[HardenedClayBlock, LightGrayDye]);
 
 // --- Cyan Stained Clay Block
 recipes.addShaped(CyanHardClay * 7, [
-[ClayBlock, ClayBlock, ClayBlock],
-[ClayBlock, CyanDye, ClayBlock],
-[ClayBlock, Paintbrush, ClayBlock]]);
+[HardenedClayBlock, HardenedClayBlock, HardenedClayBlock],
+[HardenedClayBlock, CyanDye, HardenedClayBlock],
+[HardenedClayBlock, Paintbrush, HardenedClayBlock]]);
 // -
 recipes.addShapeless(CyanHardClay,
-[ClayBlock, CyanDye]);
+[HardenedClayBlock, CyanDye]);
 
 // --- Purple Stained Clay Block
 recipes.addShaped(PurpleHardClay * 7, [
-[ClayBlock, ClayBlock, ClayBlock],
-[ClayBlock, PurpleDye, ClayBlock],
-[ClayBlock, Paintbrush, ClayBlock]]);
+[HardenedClayBlock, HardenedClayBlock, HardenedClayBlock],
+[HardenedClayBlock, PurpleDye, HardenedClayBlock],
+[HardenedClayBlock, Paintbrush, HardenedClayBlock]]);
 // -
 recipes.addShapeless(PurpleHardClay,
-[ClayBlock, PurpleDye]);
+[HardenedClayBlock, PurpleDye]);
 
 // --- Blue Stained Clay Block
 recipes.addShaped(BlueHardClay * 7, [
-[ClayBlock, ClayBlock, ClayBlock],
-[ClayBlock, BlueDye, ClayBlock],
-[ClayBlock, Paintbrush, ClayBlock]]);
+[HardenedClayBlock, HardenedClayBlock, HardenedClayBlock],
+[HardenedClayBlock, BlueDye, HardenedClayBlock],
+[HardenedClayBlock, Paintbrush, HardenedClayBlock]]);
 // -
 recipes.addShapeless(BlueHardClay,
-[ClayBlock, BlueDye]);
+[HardenedClayBlock, BlueDye]);
 
 // --- Brown Stained Clay Block
 recipes.addShaped(BrownHardClay * 7, [
-[ClayBlock, ClayBlock, ClayBlock],
-[ClayBlock, BrownDye, ClayBlock],
-[ClayBlock, Paintbrush, ClayBlock]]);
+[HardenedClayBlock, HardenedClayBlock, HardenedClayBlock],
+[HardenedClayBlock, BrownDye, HardenedClayBlock],
+[HardenedClayBlock, Paintbrush, HardenedClayBlock]]);
 // -
 recipes.addShapeless(BrownHardClay,
-[ClayBlock, BrownDye]);
+[HardenedClayBlock, BrownDye]);
 
 // --- Green Stained Clay Block
 recipes.addShaped(GreenHardClay * 7, [
-[ClayBlock, ClayBlock, ClayBlock],
-[ClayBlock, GreenDye, ClayBlock],
-[ClayBlock, Paintbrush, ClayBlock]]);
+[HardenedClayBlock, HardenedClayBlock, HardenedClayBlock],
+[HardenedClayBlock, GreenDye, HardenedClayBlock],
+[HardenedClayBlock, Paintbrush, HardenedClayBlock]]);
 // -
 recipes.addShapeless(GreenHardClay,
-[ClayBlock, GreenDye]);
+[HardenedClayBlock, GreenDye]);
 
 // --- Red Stained Clay Block
 recipes.addShaped(RedHardClay * 7, [
-[ClayBlock, ClayBlock, ClayBlock],
-[ClayBlock, RedDye, ClayBlock],
-[ClayBlock, Paintbrush, ClayBlock]]);
+[HardenedClayBlock, HardenedClayBlock, HardenedClayBlock],
+[HardenedClayBlock, RedDye, HardenedClayBlock],
+[HardenedClayBlock, Paintbrush, HardenedClayBlock]]);
 // - Alternate Recipe
 recipes.addShapeless(RedHardClay,
-[ClayBlock, RedDye]);
+[HardenedClayBlock, RedDye]);
 
 // --- Black Stained Clay Block
 recipes.addShaped(BlackHardClay * 7, [
-[ClayBlock, ClayBlock, ClayBlock],
-[ClayBlock, BlackDye, ClayBlock],
-[ClayBlock, Paintbrush, ClayBlock]]);
+[HardenedClayBlock, HardenedClayBlock, HardenedClayBlock],
+[HardenedClayBlock, BlackDye, HardenedClayBlock],
+[HardenedClayBlock, Paintbrush, HardenedClayBlock]]);
 // -
 recipes.addShapeless(BlackHardClay,
-[ClayBlock, BlackDye]);
+[HardenedClayBlock, BlackDye]);
 
 // --- Sugar
 recipes.addShapeless(Sugar,
