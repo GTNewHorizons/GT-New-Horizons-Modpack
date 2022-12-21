@@ -56,7 +56,7 @@ val SteelRing = <gregtech:gt.metaitem.01:28305>;
 val PlasticPlate = <gregtech:gt.metaitem.01:17874>;
 val IronRing = <gregtech:gt.metaitem.01:28032>;
 val IronRod = <gregtech:gt.metaitem.01:23032>;
-val QuatzBlock = <minecraft:quartz_block:*>;
+val QuartzBlock = <minecraft:quartz_block:*>;
 val QuartzSlab = <minecraft:stone_slab:7>;
 val CopperRing = <ore:ringCopper>;
 val CopperScrew = <ore:screwCopper>;
@@ -790,7 +790,7 @@ Assembler.addRecipe(<malisisdoors:garage_door> * 2, PlasticPlate, SteelRing, 150
 Assembler.addRecipe(<malisisdoors:rustyLadder> * 2, IronRod * 3, <gregtech:gt.integrated_circuit:5> * 0, null, 60, 30);
 
 // --- Carriage Door
-//Assembler.addRecipe(<malisisdoors:carriage_door>, QuatzBlock * 4, Door * 2, 200, 30);
+//Assembler.addRecipe(<malisisdoors:carriage_door>, QuartzBlock * 4, Door * 2, 200, 30);
 
 // --- Acacia Door
 Assembler.addRecipe(<malisisdoors:item.door_acacia>, <minecraft:planks:4> * 4, <minecraft:trapdoor>, <liquid:molten.iron> * 16, 400, 4);
