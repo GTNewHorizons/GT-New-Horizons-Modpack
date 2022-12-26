@@ -10,3 +10,5 @@ game.setLocalization("kosh.research_page.RUNEDTABLET", "Your desire get to the b
 mods.thaumcraft.Infusion.addRecipe("RUNEDTABLET", <DraconicEvolution:infoTablet>,
 [<Thaumcraft:ItemEldritchObject>, <Thaumcraft:ItemResource:17>, <ThaumicExploration:pureZombieBrain>, <Thaumcraft:ItemResource:17>, <Thaumcraft:ItemEldritchObject>, <Thaumcraft:ItemResource:17>, <Automagy:crystalBrain:3>, <Thaumcraft:ItemResource:17>],
 "alienis 64, iter 32, tenebrae 32, vacuos 32, cognitio 64, praecantatio 128", <Thaumcraft:ItemEldritchObject:2>, 10);
+mods.thaumcraft.Research.addInfusionPage("RUNEDTABLET", <Thaumcraft:ItemEldritchObject:2>);
+mods.thaumcraft.Warp.addToResearch("RUNEDTABLET", 5);
