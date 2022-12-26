@@ -13092,6 +13092,42 @@ gtnh.quest3271.desc=Just try to dream of gold.
 gtnh.quest3272.name=Ignore the Glint in Their Eyes
 gtnh.quest3272.desc=Well this is a bad idea, but since when has that stopped you before, golems with brains, what could go wrong?%n%n§2§b§3You only need to complete one task.
 
+# Quest.3273 - PCB Factory
+gtnh.quest3273.name=PCB Factory
+gtnh.quest3273.desc=All those boards made in a chemical reactor. It's time to stop that, there must be a more efficient way to make them. After a couple days of research I have found one, a factory designed to print out circuit boards.%n%n§4§5§a§d§r§a§rThe PCB Factory is able to use a wide range of plastics to create circuit boards ready to be used. The printing mechanism overheats when it tries to overclock currently, so I will have to find a way to make it work later. Boards with neurons on them will take a bit before they can be made, but it won't be hard to achieve.%n%n§a§2§aTrace Size: Trace size represents the lines between components, which are needed to transmit the electrical signals on the circuit. One can make it smaller to slow down the machine, but use less resources, or make it bigger to make it faster, but use more resources.%n§6§6Formulas:%n- 10000/(TraceSize/100) Production%n- RecipeDuration/TraceSize^2 Time%n%n§a§2§aUsing the GUI, the player can go to the configuration menu. There they can change the trace size or add new parts to the multiblock. One can also change where they are placed around the multiblock.%n%n§cMake sure to set the configuration you want before using the structure lib blueprint for autobuild.
+
+# Quest.3274 - Bio Chamber
+gtnh.quest3274.name=Bio Chamber
+gtnh.quest3274.desc=As I got new technology, I have seen the need to make a chamber where the circuit board can contain neurons for the wetware boards or the upcoming bioware boards.%n%nThe bio chamber is a simple upgrade, it doesn't require many resources. Don't know why I didn't make it earlier.%n%n§aIt can use any glass.
+
+# Quest.3275 - Liquid Cooling Tower
+gtnh.quest3275.name=Liquid Cooling Tower
+gtnh.quest3275.desc=I have started to hit the limit of the multiblock without overclocking it, so I decided to give it a liquid cooler to cool down the mechanism. This will allow it to overclock like every other multi with 2xSpeed 4xEut.%n%nI will need to provide some distilled water to its hatch to avoid blockage in the pipes.%n%n§aThe Liquid Cooling Tower allows the Multiblock to have 2/4 OC at the cost of 10/s of distilled water when running. The hatch is placed in the center of the Liquid Cooling Tower.
+
+# Quest.3276 - PCB Factory Tier 2
+gtnh.quest3276.name=PCB Factory Tier 2
+gtnh.quest3276.desc=With the Nano Forge built, we can upgrade our production of circuit boards for free, but the nanites need a container to hold them. The current casings aren't enough, we need to find an alternative casing.%n%nAfter some research, infinity as a frame and enriched holmium as the protection layer seems to work well. It can be allowed to let through nanites to go into the printer base so that extra material can be directly removed instead of trying to go slower.%n%n§aAllows the player to use the tier 2 recipes with the use of a silver nanite in the input bus.%nThis also unlocks parallels of the PCB Factory with said formula: Log2(x) parallels, where x is the amount of nanites in the input bus.
+
+# Quest.3277 - Thermosink Radiator
+gtnh.quest3277.name=Thermosink Radiator
+gtnh.quest3277.desc=With the control of spacetime you have achieved and its 0K temperature it would be possible to make an even better cooling unit. A casing able to keep its room temperature very low and nanites, which can transfer heat effectively, because of their small bodies. This doesn't quite work and some coolant is still needed, but water freezes at those temperatures so super coolant will be our choice.%n%n§aThe Thermosink Radiator allows for 4/4 OC making it possible to speed through recipes. It requires 10/s of super coolant in its hatch, its in the same place as the Liquid Cooling Tower.%n%n§cThis upgrade is incompatible with its lower tier predecessor.
+
+# Quest.3278 - PCB Factory Tier 3
+gtnh.quest3278.name=PCB Factory Tier 3
+gtnh.quest3278.desc=Why use a small nosel to print out the conductor on the board when one can just build it using nanites? Well the silver nanite isn't rigid enough for that so a new nanite will be needed... and so will new casings. Heard that celestial tungsten is a good candidate for a frame. Quantum can be used for the protection as these nanites will be forever flying around inside.%n%nThe structure will need to change as it needs to be a bit bigger and taller.%n%n§aWorks the same as the Tier 2 in most cases, but allows the player to use even less resources by using a gold nanite.
+
+# Quest.3279 - Nano Forge Tier 1
+gtnh.quest3279.name=Nano Forge Tier 1
+gtnh.quest3279.desc=There must a be a way to make a nano scale robots to work in a machine. Carbon ones can be made in an assembly line, but very inefficiently. There must be a better way.%n%nWhat about a Nano Forge, able to cut up blocks into nano-thin sheets and then creating the first nanite, which helps create thousands of them in mere seconds.%n%n§aThe Nano Forge is a big multiblock requiring lots of power over the course of a couple minutes. It is able to use TT energy hatches (including lasers). The controller must have a carbon nanite to use tier 1 recipes.
+
+# Quest.3280 - Nano Forge Tier 2
+gtnh.quest3280.name=Nano Forge Tier 2
+gtnh.quest3280.desc=Carbon Nanites are good first worker, but they don't have much in the way of working with more complex systems as they have a very basic nanite network. So a new more advanced nanite will be needed to produce complex nanites.%n%nThe neutronium nanite is an in-between of the two tiers able to produce tier 2 nanites, which have other uses.%n%n§aWhen putting the neutronium nanite in the controller, you will need to wait for the structure check to happen again or break and replace the controller with a neutronium nanite inside. Allows the Nano Forge to make tier 2 nanites.
+
+# Quest.3281 - Nano Forge Tier 3
+gtnh.quest3281.name=Nano Forge Tier 3
+gtnh.quest3281.desc=Neutronium nanites are slow moving, but that allowed them to have a complex nanite network. If there was a material that could move itself it could allow for an even more compex nanite with great speeds... Thankfully with the DTPF fully functional we can make it, transcendent metal.%n%n§aSame thing as the neutronium nanite, but this nanite allows for tier 3 nanites to be made in the nano forge.
+
 ##################################Line##################################
 
 # QuestLine.0 - And So, It Begins
