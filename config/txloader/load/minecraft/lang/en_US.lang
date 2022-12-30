@@ -1578,7 +1578,7 @@ gtnh.quest393.desc=Your crafting CPU is massive and still can't keep up? Don't w
 
 # Quest.394 - §a§k§r§a§lGraphene
 gtnh.quest394.name=§a§k§r§a§lGraphene
-gtnh.quest394.desc=For IV motors you will need Graphene. Graphene is a material that is just one atom layer thick. It has very favourable electric properties. To create though you will have to make some Graphene you can use a powerful adhesive to pull a single layer of material away from Graphite.%n%nFor this you will need some Advanced Glue. There is no quest yet, so check NEI and come back with some! You will also need some perfect wafers to work on.
+gtnh.quest394.desc=For IV motors you will need Graphene. Graphene is a material that is just one atom layer thick. It has very favourable electric properties. To create though you will have to make some Graphene you can use a powerful adhesive to pull a single layer of material away from Graphite.
 
 # Quest.395 - Dragon Blood
 gtnh.quest395.name=Dragon Blood
@@ -1828,25 +1828,25 @@ gtnh.quest455.desc=Triggered by finding a "Mysterious Crystal".
 gtnh.quest456.name=Trigger Life
 gtnh.quest456.desc=Triggers the Life Canister Quest after a Wither death.
 
-# Quest.457 - §c§l[OUTDATED]§r Trigger Pluto
-gtnh.quest457.name=§c§l[OUTDATED]§r Trigger Pluto
-gtnh.quest457.desc=Triggers if you have been on Pluto.
+# Quest.457 - Energy Infuser
+gtnh.quest457.name=Energy Infuser
+gtnh.quest457.desc=The Energy Infuser is the tech answer to the Thaumic Restorer for repairing items and also acts a charger.%n%nWhen fed with energy it is able to charge any item that is fed into its Input Bus. Fully charged items will be placed in the Output Bus. The items will be fed with the amount of energy provided by the used Energy Hatch.%n%nApart from its charging capabilities the Energy Infuser can repair items when provided with UU-Matter and energy. However, GregTech tools can not be repaired. When repairing the machine consumes 1L UU-Matter and 1000 EU per repaired durability point.
 
 # Quest.458 - §c§l[OUTDATED]§r Trigger Primordial Pearl
 gtnh.quest458.name=§c§l[OUTDATED]§r Trigger Primordial Pearl
 gtnh.quest458.desc=Triggered by the Primordial Pearl.
 
-# Quest.459 - §c§l[OUTDATED]§r Trigger Wand Focus Animation
-gtnh.quest459.name=§c§l[OUTDATED]§r Trigger Wand Focus Animation
-gtnh.quest459.desc=Triggers if you craft the Primordial Focus.
+# Quest.459 - §a§k§r§a§lAdvanced Glue
+gtnh.quest459.name=§a§k§r§a§lAdvanced Glue
+gtnh.quest459.desc=Combine that with Acetone or Methyl Acetate to obtain Advanced Glue.
 
-# Quest.460 - §c§l[OUTDATED]§r Trigger Vortex Attenuator
-gtnh.quest460.name=§c§l[OUTDATED]§r Trigger Vortex Attenuator
-gtnh.quest460.desc=Triggers after you craft a Vortex.
+# Quest.460 - §a§k§r§a§lPolyvinyl Acetate
+gtnh.quest460.name=§a§k§r§a§lPolyvinyl Acetate
+gtnh.quest460.desc=You know how polymerization works by now. Use Air or Oxygen and optionally Titaniumtetrachloride to obtain Polyvinyl Acetate.
 
-# Quest.461 - §c§l[OUTDATED]§r Trigger The End Dim
-gtnh.quest461.name=§c§l[OUTDATED]§r Trigger The End Dim
-gtnh.quest461.desc=Triggers if you arrived at The End.
+# Quest.461 - §a§k§r§a§lVinyl Acetate
+gtnh.quest461.name=§a§k§r§a§lVinyl Acetate
+gtnh.quest461.desc=This organic compound is just a stepping stone.
 
 # Quest.462 - Wyvern Core
 gtnh.quest462.name=Wyvern Core
@@ -2444,24 +2444,24 @@ gtnh.quest609.desc=Mixing antimony and lead in the alloy smelter will give you b
 gtnh.quest610.name=Lead, Galena, Silver and Cryolite
 gtnh.quest610.desc=You can't find Lead in the Overworld or the Nether. So it's time to explore the mysterious Twilight Forest a bit and find a Galena vein at Y 5-40.%n%nYou can get Lead, Silver, Cryolite for Aluminium production and Galena (more lead) in the vein.%n%n§3There's some Silver in small ores in the OW and Nether, but this is a better source.
 
-# Quest.611 - §5§lSingle Use Battery: Mercury
-gtnh.quest611.name=§5§lSingle Use Battery: Mercury
+# Quest.611 - Single Use Battery: Mercury
+gtnh.quest611.name=Single Use Battery: Mercury
 gtnh.quest611.desc=Mercury and acid batteries are single-use batteries. They are crafted fully charged but cannot be re-charged. Once their stored energy is depleted, they can be placed in an extractor to be converted back into small battery hulls.
 
-# Quest.612 - §5§lSingle Use Battery: Acid
-gtnh.quest612.name=§5§lSingle Use Battery: Acid
+# Quest.612 - Single Use Battery: Acid
+gtnh.quest612.name=Single Use Battery: Acid
 gtnh.quest612.desc=Mercury and acid Batteries are single-use batteries. They are crafted fully charged but cannot be re-charged. Once their stored energy is depleted, they can be placed in an extractor to be converted back into small battery hulls.
 
-# Quest.613 - §5§lReusable Battery: Sodium
-gtnh.quest613.name=§5§lReusable Battery: Sodium
+# Quest.613 - Reusable Battery: Sodium
+gtnh.quest613.name=Reusable Battery: Sodium
 gtnh.quest613.desc=Sodium, cadmium, and lithium batteries are rechargeable batteries. They're crafted without stored energy, but can be charged in any gregtech machine. If unneeded, they can be placed in an extractor and converted back into small battery hulls, but their contents are lost.%n%nIf placed in a machine, it will fill up if there's excess power, and drain if the machine can't get enough. Handy for high-EU machines you don't want to choke.%n%n§3Sodium is the one that stores the least EU of the 3 rechargable batteries, but is definitely the easiest to get.
 
-# Quest.614 - §5§lReusable Battery: Cadmium
-gtnh.quest614.name=§5§lReusable Battery: Cadmium
+# Quest.614 - Reusable Battery: Cadmium
+gtnh.quest614.name=Reusable Battery: Cadmium
 gtnh.quest614.desc=This is the Cadmium one.
 
-# Quest.615 - §5§lReusable Battery: Lithium
-gtnh.quest615.name=§5§lReusable Battery: Lithium
+# Quest.615 - Reusable Battery: Lithium
+gtnh.quest615.name=Reusable Battery: Lithium
 gtnh.quest615.desc=...and the Lithium one.%n%n§3Lithium is the one that stores the most EU of the 3 rechargable batteries.
 
 # Quest.616 - §5§lMercury
@@ -2476,8 +2476,8 @@ gtnh.quest617.desc=The fluid canner can be used to fill cells, batteries (acid o
 gtnh.quest618.name=§5§lSulfuric Acid
 gtnh.quest618.desc=Combining sulfur trioxide and water in the chemical reactor will give you sulfuric acid for your single use acid batteries. You'll need to make sulfur dioxide first.%n%nOn the other hand if you've made some light fuel you'll have some spare hydrogen sulfide you can also turn into sulfuric acid (after a couple steps), and if you've automated it, you'll be drowning in it honestly. Once you can make an LCR, you can skip directly from HS to SA in one step. Keep in mind that you'll need all that acid for making stuff instead of for single use batteries by then.
 
-# Quest.619 - §5§lBattery Buffer
-gtnh.quest619.name=§5§lBattery Buffer
+# Quest.619 - Battery Buffer
+gtnh.quest619.name=Battery Buffer
 gtnh.quest619.desc=Batteries work pretty much the same in a battery buffer as in a regular machine's battery slot. Battery buffers are used to buffer power to stabilize output.%n%nThey come in different sizes: 1, 4, 9(!) and 16 slots. They can draw 2A and output 1A per battery inserted - watch your wire amperage! Cables come in 1x, 2x, 4x, 8x, 12x, and 16x, with tin transferring 1A per size. Make sure not to mess up, or your cable will melt, becoming a fire, and possibly an explosion.%n%nRemember that there's loss when outputting EU from any GT machine, so putting 4 4-slot ones in a row loses 8 power compared to 2 from 1 16-slot one. And this is for every amp too.%n%n§3You can import batteries into one, but ONLY empty acid batteries can be exported from one. No, you can't get around this.
 
 # Quest.620 - §5§lIC2 Battery
@@ -2656,8 +2656,8 @@ gtnh.quest662.desc=The arc furnace is an alternative to macerating stuff back in
 gtnh.quest663.name=§5§lFaster Steel Production
 gtnh.quest663.desc=A faster alternative to steel production is to use the arc furnace and smelt iron ingots (or dust) into wrought iron ingots. Then macerate them to dust and smelt them very fast in the EBF to steel.%n%nOf course, you'll need enough oxygen to do so.
 
-# Quest.664 - §5§l16 Slot LV Battery Buffer
-gtnh.quest664.name=§5§l16 Slot LV Battery Buffer
+# Quest.664 - 16 Slot LV Battery Buffer
+gtnh.quest664.name=16 Slot LV Battery Buffer
 gtnh.quest664.desc=Upgrade your battery buffer to hold 16 batteries for primary storage. You can use different ones (probably with less batteries) for your EBF, Arc Furnace, Thermal Centrifuge, whatever.
 
 # Quest.665 - Kitchenware
@@ -3032,8 +3032,8 @@ gtnh.quest756.desc=When you reach MV tier you can make your own duct tape in cas
 gtnh.quest757.name=§6§f§6§lRuby Electrolyzing
 gtnh.quest757.desc=Ruby is a good source for chrome and a little alumina. Once you get low on Ruby, you can centrifuge Redstone to get more.%n%nAnother good source of alumina and oxygen is red granite dusts. You can get those from red stonelillies. Check out the Fishing Farming Cooking tab for more details about IC2 crops.%n%nDon't be decieved by false ruby ...
 
-# Quest.758 - §6§lMV Battery Hulls
-gtnh.quest758.name=§6§lMV Battery Hulls
+# Quest.758 - MV Battery Hulls
+gtnh.quest758.name=MV Battery Hulls
 gtnh.quest758.desc=Better machines need better batteries. Let's make some MV battery hulls for new batteries.%n%nIt's up to you what kind of battery to make, but realistically you'll probably make Sodium or Lithium.
 
 # Quest.759 - §6§lMolten Polyethylene
@@ -3156,12 +3156,12 @@ gtnh.quest787.desc=The Titanium Large Boiler is a distant cousin to the Bronze a
 gtnh.quest788.name=§6§lEven More Steam? Are You Sure?
 gtnh.quest788.desc=The Large Tungstensteel Boiler is the biggest and baddest of the four. Like the Titanium one, it is a specialized boiler that only accepts specific fuels, mainly the Solid Super Fuels, but it will produce Superheated Steam at a rate equivalent to 16000 EU/t, at 100% fuel efficiency. If you have good Steam Turbines, especially Oriharukon ones, you will get much more power than that, around 24000 EU/t or more.%n%nDepending on how many of these you build, you might need a huge amount of turbines. To solve that problem, consider going a bit above the optimal flow on each turbine, or even switching to Loose mode, although this is only a good choice if you can match the optimal flow in that mode.
 
-# Quest.789 - §9§lEnergy Crystals
-gtnh.quest789.name=§9§lEnergy Crystals
+# Quest.789 - Energy Crystals
+gtnh.quest789.name=Energy Crystals
 gtnh.quest789.desc=Make energium out of ruby and redstone dusts in the MV mixer. Then use the autoclave to make Energy Crystals. Energy crystals can store 1 million EU and work as an HV battery.
 
-# Quest.790 - §9§lNano Crystal
-gtnh.quest790.name=§9§lNano Crystal
+# Quest.790 - Nano Crystal
+gtnh.quest790.name=Nano Crystal
 gtnh.quest790.desc=Nano crystals are used for making the nano armor.
 
 # Quest.791 - §6§lMV Precision Laser Engraver
@@ -3224,12 +3224,12 @@ gtnh.quest804.desc=The quantum crystal is needed to turn quantum armor parts int
 gtnh.quest805.name=§a§lLapotron Dust
 gtnh.quest805.desc=Lapotron crystals require you to mix your energium dust with some lapis dust.
 
-# Quest.806 - §a§lLapotron Crystal
-gtnh.quest806.name=§a§lLapotron Crystal
+# Quest.806 - Lapotron Crystal
+gtnh.quest806.name=Lapotron Crystal
 gtnh.quest806.desc=With your new HV mixer you can make lapotron dust. Place it in an autoclave to make some raw lapotron crystals. With an EV assembler and advanced circuits you can make lapotron crystals which store up to 10 million EU.
 
-# Quest.807 - §a§lQuantum Crystal
-gtnh.quest807.name=§a§lQuantum Crystal
+# Quest.807 - Quantum Crystal
+gtnh.quest807.name=Quantum Crystal
 gtnh.quest807.desc=For your quantum armor you need some quantum crystals. Place a lapotron crystal in your precision laser to get a quantum crystal. You'll still need to be in IV to make it though.
 
 # Quest.808 - §9§lMixing at HV Level
@@ -4328,12 +4328,12 @@ gtnh.quest1080.desc=Summon a Snow Queen.%n%n§3Only works in the Twilight Forest
 gtnh.quest1081.name=§6§lMV Bending
 gtnh.quest1081.desc=This Plate Bending Machine allows you to directly make double, triple or more compressed plates, which might be useful for your first rocket in HV Tier.%n%nIt also allows you to make dense plates at all.
 
-# Quest.1082 - §6§lMV Battery Buffers
-gtnh.quest1082.name=§6§lMV Battery Buffers
+# Quest.1082 - MV Battery Buffers
+gtnh.quest1082.name=MV Battery Buffers
 gtnh.quest1082.desc=You'll probably want MV battery buffers as well.%n%n§3You only need to complete one task.
 
-# Quest.1083 - §6§lMV Batteries
-gtnh.quest1083.name=§6§lMV Batteries
+# Quest.1083 - MV Batteries
+gtnh.quest1083.name=MV Batteries
 gtnh.quest1083.desc=Better machines need some better batteries. Lithium is the best material to use when making batteries.%n%n§3You only need to complete one task.
 
 # Quest.1084 - §5§lLubricant
@@ -4568,16 +4568,16 @@ gtnh.quest1140.desc=The Kinetic Wind and Water Generators need Gearbox Rotors to
 gtnh.quest1141.name=§9§lWind Meter
 gtnh.quest1141.desc=The Windmeter measures wind strength. It shows you on which height you can place your Wind Generator.
 
-# Quest.1142 - §9§lHV Battery Buffers
-gtnh.quest1142.name=§9§lHV Battery Buffers
+# Quest.1142 - HV Battery Buffers
+gtnh.quest1142.name=HV Battery Buffers
 gtnh.quest1142.desc=You'll probably want HV battery buffers as well.%n%n§3You only need to complete one task.
 
-# Quest.1143 - §9§lHV Battery Hulls
-gtnh.quest1143.name=§9§lHV Battery Hulls
+# Quest.1143 - HV Battery Hulls
+gtnh.quest1143.name=HV Battery Hulls
 gtnh.quest1143.desc=Better machines need better batteries. Let's make some HV battery hulls for new batteries.%n%nIt's up to you what kind of battery to make, but realistically you'll probably make Sodium or Lithium.
 
-# Quest.1144 - §9§lHV Battery
-gtnh.quest1144.name=§9§lHV Battery
+# Quest.1144 - HV Battery
+gtnh.quest1144.name=HV Battery
 gtnh.quest1144.desc=Better machines need some better batteries. Lithium is the best material to use when making batteries, at least for LV-HV.%n%n§3You only need to complete one task.
 
 # Quest.1145 - §9§lSending the Power Back
@@ -5048,36 +5048,36 @@ gtnh.quest1260.desc=Component of the crafting CPU which displays the top level j
 gtnh.quest1261.name=§a§lNanoprocessor Mainframe
 gtnh.quest1261.desc=The nanoprocessor mainframe is the first LuV Circuit.
 
-# Quest.1262 - §a§lEV Battery Buffer
-gtnh.quest1262.name=§a§lEV Battery Buffer
+# Quest.1262 - EV Battery Buffer
+gtnh.quest1262.name=EV Battery Buffer
 gtnh.quest1262.desc=It's EV, ok?%n%n§3Complete one task.
 
 # Quest.1263 - §a§lBlue Steel
 gtnh.quest1263.name=§a§lBlue Steel
 gtnh.quest1263.desc=Sunnarium batteries are made out of blue steel: a mixture of steel, black steel, brass and rose gold.
 
-# Quest.1264 - §a§lEV Sunnarium Battery
-gtnh.quest1264.name=§a§lEV Sunnarium Battery
+# Quest.1264 - EV Sunnarium Battery
+gtnh.quest1264.name=EV Sunnarium Battery
 gtnh.quest1264.desc=Small Sunnarium batteries are EV tier. Some might think they're cheaper than Lapotrons, but it depends on Sunnarium. And they hold less energy.
 
-# Quest.1265 - §a§lEV GT++ Batteries
-gtnh.quest1265.name=§a§lEV GT++ Batteries
+# Quest.1265 - EV GT++ Batteries
+gtnh.quest1265.name=EV GT++ Batteries
 gtnh.quest1265.desc=Want cheaper EV batteries? Mash your old ones together, and somehow it works!
 
-# Quest.1266 - §5§lLow Voltage Transformer
-gtnh.quest1266.name=§5§lLow Voltage Transformer
+# Quest.1266 - Low Voltage Transformer
+gtnh.quest1266.name=Low Voltage Transformer
 gtnh.quest1266.desc=It's possible to run MV machines while still in LV tier. Build a transformer and use 4 power sources 32 eu/t to power one 128 eu/t machine. You can change the mode of a transformer with a soft mallet. If the transformer is wired and loaded then DO NOT change the mode otherwise there probably will be a big explosion. Be careful when switching directions - better to break and replace than rotate with the wrench and blow up a line of machines.%n%nTransformers will transform§r power up OR down, depending on the mode, which you switch with a soft mallet. Up means 4A LV to 1A MV, while down means the reverse.%n%nIn step down mode (which is the default), the large dot is the input. In step up mode, it's the output. §4DO NOT MIX THIS UP IF YOU DON'T WANT AN EXPLOSION!§r LV machines that receive MV power explode! If the transformer is connected to power, or was in the past, then DO NOT change the mode with stuff connected, otherwise there probably will be a big §4explosion§r. It's better to break and re-place (to get rid of stored power) than rotate with the wrench and blow up a line of machines. Make sure to also disconnect the nearby wires with a wire cutter too.
 
-# Quest.1267 - §6§lMedium Voltage Transformer
-gtnh.quest1267.name=§6§lMedium Voltage Transformer
+# Quest.1267 - Medium Voltage Transformer
+gtnh.quest1267.name=Medium Voltage Transformer
 gtnh.quest1267.desc=These work the same as the LV ones, but 1 tier higher.
 
-# Quest.1268 - §6§lLV High-Amp Transformer
-gtnh.quest1268.name=§6§lLV High-Amp Transformer
+# Quest.1268 - LV High-Amp Transformer
+gtnh.quest1268.name=LV High-Amp Transformer
 gtnh.quest1268.desc=If you need a transformer with more than 4A you need a high amp transformer. You can input 4A MV and output 16A LV. Useful for running lots of LV machines. Its mode can be changed with a soft mallet, just like before.
 
-# Quest.1269 - §6§lLow Voltage Power Transformer
-gtnh.quest1269.name=§6§lLow Voltage Power Transformer
+# Quest.1269 - Low Voltage Power Transformer
+gtnh.quest1269.name=Low Voltage Power Transformer
 gtnh.quest1269.desc=If you need even more amps then craft a power transformer. This one is 16A -> 64A. The soft mallet is still how you change modes.
 
 # Quest.1270 - Time for a Spade
@@ -7280,16 +7280,16 @@ gtnh.quest1818.desc=Having one Essentia Generator per Essentia type seeems impra
 gtnh.quest1819.name=§6§lSilicon Dioxide
 gtnh.quest1819.desc=Get yourself some Silicon Dioxide! Smelting it in your EBF with some carbon is the best way to obtain raw silicon ingots. It is used it a few places but most importantly you can macerate it back down to raw silicon dust. You can also turn the silicon dioxide into raw silicon dust via chemical processes using aluminium or magnesium.%n%nYou can get silicon dioxide easily by centrifuging glass dust or electrolyzing sand.%n%nIf you have raw silicon dust but want silicon dioxide for some reason, you can use an arc furnace or an autoclave.
 
-# Quest.1820 - §6§lLapotronic Energy Storage Unit
-gtnh.quest1820.name=§6§lLapotronic Energy Storage Unit
-gtnh.quest1820.desc=The L.E.S.U. is one of the oldest Machines that are aviable in GregTech, its origins are in Minecraft 1.3.X, now its redone to fit into this Modpack. You can add a nearly infinite number of LESU casings to it and you'll have a huge Energy Storage. You might also live inside your Battery.%n%n§3PS: It sucks, don't make it.
+# Quest.1820 - Lapotronic Energy Storage Unit
+gtnh.quest1820.name=Lapotronic Energy Storage Unit
+gtnh.quest1820.desc=The L.E.S.U. is one of the oldest Machines that are aviable in GregTech, its origins are in Minecraft 1.3.X, now its redone to fit into this Modpack. You can add a nearly infinite number of LESU casings to it and you'll have a huge Energy Storage. You might also live inside your Battery.%n%n§3PS: It sucks, don't make it. Maybe somebody will rework or buff it some day.
 
 # Quest.1821 - §5§lCable Diodes
 gtnh.quest1821.name=§5§lCable Diodes
 gtnh.quest1821.desc=Sometimes you just need a Diode, either to prevent burning up cables when splitting off a main line, or on a Thermos Server's chunk borders. Make one 4A Diode and get a 2A one for free!
 
-# Quest.1822 - §6§lManual Transformer
-gtnh.quest1822.name=§6§lManual Transformer
+# Quest.1822 - Manual Transformer
+gtnh.quest1822.name=Manual Transformer
 gtnh.quest1822.desc=Annoyed by building Chains of transformers? Dont want an Explosion Risk at your base? Want to use these fancy 64A Hatches and Dynamos from TecTech to convert your power? Make a Manual Dynamo and convert it all!%n%n§3Also needs a muffler, energy hatch, and dynamo. Not guaranteed to work, wishing you all the best though.
 
 # Quest.1823 - §6§lMobile Trash Can
@@ -7300,28 +7300,28 @@ gtnh.quest1823.desc=GT2's Destructopack is a mobile Trashcan. Might be handy!
 gtnh.quest1824.name=§9§lRock Cutter LV
 gtnh.quest1824.desc=The Rock Cutter is an unbreakable and Silk-touched Mining Device. It will enable you to mine blocks without damaging them, like glass or stone, while it is charged. Uh, Woo?
 
-# Quest.1825 - §6§lL.E.S.U. Upgrade - LV Tier
-gtnh.quest1825.name=§6§lL.E.S.U. Upgrade - LV Tier
+# Quest.1825 - L.E.S.U. Upgrade - LV Tier
+gtnh.quest1825.name=L.E.S.U. Upgrade - LV Tier
 gtnh.quest1825.desc=Adding this much Cells anywhere to your LESU will upgrade it from ULV to LV.
 
-# Quest.1826 - §6§lL.E.S.U. Upgrade - MV Tier
-gtnh.quest1826.name=§6§lL.E.S.U. Upgrade - MV Tier
+# Quest.1826 - L.E.S.U. Upgrade - MV Tier
+gtnh.quest1826.name=L.E.S.U. Upgrade - MV Tier
 gtnh.quest1826.desc=Adding an additional ammount of Cells will not only cause your storage capacity to rise, but also will enable MV Voltage.
 
-# Quest.1827 - §6§lL.E.S.U. Upgrade - HV Tier
-gtnh.quest1827.name=§6§lL.E.S.U. Upgrade - HV Tier
+# Quest.1827 - L.E.S.U. Upgrade - HV Tier
+gtnh.quest1827.name=L.E.S.U. Upgrade - HV Tier
 gtnh.quest1827.desc=The HV Tier upgrade first needs over a Stack of Casings. More Casings, more Energy, more Capacity.
 
-# Quest.1828 - §6§lL.E.S.U. Upgrade - EV Tier
-gtnh.quest1828.name=§6§lL.E.S.U. Upgrade - EV Tier
+# Quest.1828 - L.E.S.U. Upgrade - EV Tier
+gtnh.quest1828.name=L.E.S.U. Upgrade - EV Tier
 gtnh.quest1828.desc=Close to 8 Stacks of LESU Casings, this upgrade enables EV Voltage on your LESU. It's easy until now.
 
-# Quest.1829 - §6§lL.E.S.U. Upgrade - IV Tier
-gtnh.quest1829.name=§6§lL.E.S.U. Upgrade - IV Tier
+# Quest.1829 - L.E.S.U. Upgrade - IV Tier
+gtnh.quest1829.name=L.E.S.U. Upgrade - IV Tier
 gtnh.quest1829.desc=24 Stacks of LESU Casings. These do fit in your Inventory, but crafting them is another problem.%n%n§3If you dont want to clear out your inventory, just check the box when you have enough.
 
-# Quest.1830 - §5§6§lL.E.S.U. Upgrade - LuV Tier
-gtnh.quest1830.name=§5§6§lL.E.S.U. Upgrade - LuV Tier
+# Quest.1830 - L.E.S.U. Upgrade - LuV Tier
+gtnh.quest1830.name=L.E.S.U. Upgrade - LuV Tier
 gtnh.quest1830.desc=To reach the highest Voltage Tier the LESU can offer, you need to add an additional amount of LESU Casings. 8193 Casings in total (all upgrades below and these additional) enable the LuV Input Voltage. To submit these you'll need to use the Submit Station from the Steam Tab, since your inventory isnt big enough to hold 96 Stacks.%n%n§3I mean you could do that, but maybe just check the box once your autocrafting is done.
 
 # Quest.1831 - §2§lCircle Shapes Give Me Comfort
@@ -7688,16 +7688,16 @@ gtnh.quest1920.desc=Many plants look the same. Someday you'll be able to use a m
 gtnh.quest1921.name=§9§lSeparating Molecules
 gtnh.quest1921.desc=Did you know that you used to be able to get Tungstate out of Lava? As well as Silver, Tantalum and Copper? Well, now you can't, because Nerfs. Nerfing (making it harder) is the GTNH way of life. Even the Everburn Urn (how you probably get lava) used to not have coils in the recipe.%n%nIt's not all bad though, you can still get stuff, it's just not as good: Silicon Dioxide, Magnesia, Quicklime, Gold Nuggets, Sapphire Dust, and Tantalite.%n%nPahoehoe Lava (from putting normal Lava through the LHE) gets you: Copper, Tin, Silver, Phosphorus, Scheelite, and Bauxite.%n%nSo that's why a quest for an HV Centrifuge is here, too good for the Lava recipe, not good enough for the Pahoehoe one. Try centrifuging Endstone Dust from your crops or Ender Goo instead if you need Tungsten.
 
-# Quest.1922 - §9§lTransformers, Roll Out!
-gtnh.quest1922.name=§9§lTransformers, Roll Out!
+# Quest.1922 - Transformers, Roll Out!
+gtnh.quest1922.name=Transformers, Roll Out!
 gtnh.quest1922.desc=When you get to HV you'll want to start thinking about centralizing power generation and delivering power over longer distances. An HV to EV transformer will let you send power across your base without too much penalty.
 
-# Quest.1923 - §9§lNot Enough Amps?
-gtnh.quest1923.name=§9§lNot Enough Amps?
+# Quest.1923 - Not Enough Amps?
+gtnh.quest1923.name=Not Enough Amps?
 gtnh.quest1923.desc=How about 4x more? A Hi-Amp transformer will transform 4A to 16A. Great for setting up a large power grid and locating polluting power generators further from your base.
 
-# Quest.1924 - §9§lMore Than 4 Amps? Crazy!
-gtnh.quest1924.name=§9§lMore Than 4 Amps? Crazy!
+# Quest.1924 - More Than 4 Amps? Crazy!
+gtnh.quest1924.name=More Than 4 Amps? Crazy!
 gtnh.quest1924.desc=For the truly insane, there is a 16 to 64 A power amp transformer. Just ludicrous!
 
 # Quest.1925 - §a§lWhat's in the Box?
@@ -8592,16 +8592,16 @@ gtnh.quest2146.desc=Automagy is a little subtle about what the "smort" mage need
 gtnh.quest2147.name=Gimme gimme gimme
 gtnh.quest2147.desc=The Avarice Pearl is the next object Automagy requires you to interact with in order to unlock the next section. Make an Avarice Pearl, throw some stuff on the ground, and throw Avarice Pearls at them by right-clicking quickly over and over to get a Shattered (ha ha) Pearl to unlock a few more research items.
 
-# Quest.2148 - §a§lEngraved Lapotrons
-gtnh.quest2148.name=§a§lEngraved Lapotrons
+# Quest.2148 - Engraved Lapotrons
+gtnh.quest2148.name=Engraved Lapotrons
 gtnh.quest2148.desc=IV tier batteries require a large investment. First, you will need to laser engrave 8 Lapotrons.
 
-# Quest.2149 - §a§lLapotronic Energy Orb
-gtnh.quest2149.name=§a§lLapotronic Energy Orb
+# Quest.2149 - Lapotronic Energy Orb
+gtnh.quest2149.name=Lapotronic Energy Orb
 gtnh.quest2149.desc=The Lapotronic Energy Orb is the IV tier battery item. It can store 100M EU.%n%n§3Hint: Until IV, use them to make some PAs. They're very useful.
 
-# Quest.2150 - §a§lOne BILLION EU
-gtnh.quest2150.name=§a§lOne BILLION EU
+# Quest.2150 - One BILLION EU
+gtnh.quest2150.name=One BILLION EU
 gtnh.quest2150.desc=If you want a stationary battery, you can make an AFSU capable of storing up to 1 billion EU and charging items. You can pick it up with a wrench, but you'll lose a percentage of the stored EU. Make sure you right-click, not left-click. Left-clicking will cause it to lose all stored EU.%n%nAs an alternative, if you can afford them, try the GT++ Energy Buffers. They are more expensive and cannot charge items, but store more, don't lose any EU, and can be configured from 1-16A. See the GT++ tab for details.%n%n§3These can apparently draw infinite amps, so maybe use a diode or something if you like having the power on.
 
 # Quest.2151 - You Can't Spell Lignite Without Ignite
@@ -10928,20 +10928,20 @@ gtnh.quest2730.desc=Laser hatches are a high-end way of sending lots of amps of 
 gtnh.quest2731.name=Transform and...Stay Put Actually
 gtnh.quest2731.desc=Active Transformers will transform power up or down at only a 0.004% power loss, making using several in a row obsolete, if you can afford it. Unfortunately, it's kinda expensive. On the other hand, you can use it to turn your lasers from your laser hatches, which is probably a better use.%n%nIt doesn't need a Maintenance Hatch, just the I/O Hatches.%n%n§4Be sure to turn off Power Pass if you want to edit your machine and don't want it to explode!
 
-# Quest.2732 - §6§lThe Third Time's the Charm
-gtnh.quest2732.name=§6§lThe Third Time's the Charm
+# Quest.2732 - The Third Time's the Charm
+gtnh.quest2732.name=The Third Time's the Charm
 gtnh.quest2732.desc=The Lapotronic Supercapacitor is an alternative to the Power Sub-Station (or Power Station Control Node as indicated on the controller) and the LESU. It is harder to make, but has its own benefits:%n%n1) It looks cooler%n2) Hatch tier is not limited by the capacitors like cells, so you can use whatever hatch tier you want if you store up power or have the input for it%n3) Can mix and match Capacitor tiers%n4) Loses 1% of total capacity every 24h, so much much less, but you can't cheese it%n5) Actually stores way more power at IV+ tier%n%nIt also has downsides of course:%n1) More expensive to make%n2) Stores less power, though this is only the case with EV%n3) Can only I/O on the bottom 2 layers%n4) Can't cheese power loss%n5) It can have maintenance issues, unlike the PSS, voiding 20% more power per, so try not to let that slide. Though at most it's still only 2.2%%n%nFor the first, smallest one, you'll need the following, plus an Energy Hatch and a Dynamo (or the laser equivalents). Remember that you can get your Lapos back if you run the capacitor through an unpackager. Finally a reason to make one!%n%nYou can use Laser Hatches, that can output very high amperage. You need at least UV Glass to use them. (This is also the case with PSS BTW.)%n%nBTW your LSC can hold between 540M and 8.1B EU using only the EV capacitors. Remember that you need more than half the blocks to be non-empty capacitors for it to be valid.
 
-# Quest.2733 - §6§lLapotronic Capacitor (LuV)
-gtnh.quest2733.name=§6§lLapotronic Capacitor (LuV)
+# Quest.2733 - Lapotronic Capacitor (LuV)
+gtnh.quest2733.name=Lapotronic Capacitor (LuV)
 gtnh.quest2733.desc=It holds more than the previous tier, other than that there is no difference. Your LSC can hold between 54B and 810B EU with these.
 
-# Quest.2734 - §6§lLapotronic Capacitor (ZPM)
-gtnh.quest2734.name=§6§lLapotronic Capacitor (ZPM)
+# Quest.2734 - Lapotronic Capacitor (ZPM)
+gtnh.quest2734.name=Lapotronic Capacitor (ZPM)
 gtnh.quest2734.desc=It holds more than the previous tier, other than that there is no difference. Your LSC can hold between 540B and 8.1T EU with these.%n%n§3Requires EV-tier Glass.
 
-# Quest.2735 - §6§lLapotronic Capacitor (UV)
-gtnh.quest2735.name=§6§lLapotronic Capacitor (UV)
+# Quest.2735 - Lapotronic Capacitor (UV)
+gtnh.quest2735.name=Lapotronic Capacitor (UV)
 gtnh.quest2735.desc=It holds more than the previous tier, other than that there is no difference. Your LSC can hold between 5.4T and 81T EU with these.%n%n§3Requires IV-tier Glass.%n%n§3PS: The last tier is on the Engame Goals tab.
 
 # Quest.2736 - §6§lHangover From All That Glue?
@@ -11576,8 +11576,8 @@ gtnh.quest2892.desc=Technically this coil tier can be skipped. But you need LuV 
 gtnh.quest2893.name=§6§lTrinium Coil Upgrade
 gtnh.quest2893.desc=To process more advanced materials like neutronium or fluxed electrum you need more than 8100K. Upgrade your EBF to 9001k. (OVER 9000!!!)
 
-# Quest.2894 - §6§lLapotronic Capacitor (IV)
-gtnh.quest2894.name=§6§lLapotronic Capacitor (IV)
+# Quest.2894 - Lapotronic Capacitor (IV)
+gtnh.quest2894.name=Lapotronic Capacitor (IV)
 gtnh.quest2894.desc=It holds more than the previous tier, other than that there is no difference. Your LSC can hold between 5.4B and 81B EU with these.
 
 # Quest.2895 - Cooking for Blockheads
@@ -11884,37 +11884,37 @@ gtnh.quest2969.desc=You can mix different cells in the same generator. It will i
 gtnh.quest2970.name=§6§lMaster Cell
 gtnh.quest2970.desc=Same as Adept one, but will higher efficiency.
 
-# Quest.2971 - §6§lInfinite Energy Storage
-gtnh.quest2971.name=§6§lInfinite Energy Storage
+# Quest.2971 - Infinite Energy Storage
+gtnh.quest2971.name=Infinite Energy Storage
 gtnh.quest2971.desc=You shouldn't click on links from strangers! Although this sounds like clickbait it is true. From a certain point of view.%n%nUse the (potential) force! And store energy that way. Simply construct a dam and floor vast areas with water. You may add energy to your storage by pumping more water into it or just drain it back into energy whenever you need. This works especially well with fluctuating energy sources like wind, water, and solar. Or you dump excess energy into it so you can use it another time. The capacity is huge and the choice is yours.%n%nSounds great! But...? - Indeed. There is a catch: Pumps and Turbines will have efficiency correlated loss. Still interested? Let's get to crafting!%n%nThe multi-block has an unusual shape: the back is open. The lake will spawn inside the multi-block and spread block-by-block as far as it can/is allowed. It will replace plants like water (make sure to secure your IC2 Crops!) but not replace any solid blocks. Additionally, you can specify limits in any direction. The water will NEVER spread past these limits. You can set those limits in a second GUI by right clicking the controller with a screwdriver.%n%nWhen you enter a limit, it will correct itself to the nearest valid setting. Especially if you try to spread past the server limits. You may talk your admin into raising these limits (these limits are designed to limit griefing). Further, water is not able to spread into foreign towns.%nYou will also find 3 magical buttons in the top-right of this GUI. From left to right: The first will slowly despawn the lake blocks. You can use this to shrink the lake if it spread past a barrier for example. The multi-block will also initialize with this configuration so there is no accidental flooding. The second and third buttons will slowly spawn more lake blocks. Additionally, the second button will render those lake blocks pink so you see where they are so you may plug holes and such. In this "debug" mode you can walk/breathe/act in the lake like in air. This should make it easy to create a sunken village for decoration purposes. The third button is for normal operations so you can see the water and enjoy a swim in your energy buffer.%n%nOf course, there is also a normal GUI (simple right-click). It shows you the energy stored in the dam. To reach higher water levels you are required to use stronger pumps. For this purpose, you may configure the voltage tier of the GUI with a circuit in the circuit slot. Don't worry: It is only optical. You cannot void any energy if you set a low voltage tier. It is only for the player information. You may give it a try with the reward you earn...%n%nIf you have any further questions, find missing information, or have suggestions please do not hesitate to post on the official GT New Horizons Discord. Please add '@SinTh0r4s' to your post to make sure I’ll see it.%n
 
-# Quest.2972 - §6§lGotta Pump It Up
-gtnh.quest2972.name=§6§lGotta Pump It Up
+# Quest.2972 - Gotta Pump It Up
+gtnh.quest2972.name=Gotta Pump It Up
 gtnh.quest2972.desc=If you made it this far you may already noticed that you cannot pour vanilla water into the dam. That’s what a HydroEnergy Pump is for. This multi-block exists in multiple tiers and will allow you to reach higher water levels (= more energy capacity). Provide the pump with vanilla water as input and pipe the fluid output into the dam. Then the dam will slowly fill up. If the dam is full or full for a pump’s voltage tier, it will void the water and energy.%n%nThat's all folks! Nothing too fancy here.%n%nIf you have any further questions, missing information or suggestions please do not hesitate to post on the official GT New Horizons Discord. Please add '@SinTh0r4s' to your post to make sure I’ll see it.%n%n
 
-# Quest.2973 - §6§lLet if flow, let it floww ...
-gtnh.quest2973.name=§6§lLet if flow, let it floww ...
+# Quest.2973 - Let if flow, let it floww ...
+gtnh.quest2973.name=Let if flow, let it floww ...
 gtnh.quest2973.desc=... can't hold it back anymore. It is time to collect the rewards of your hard work. Connect the fluid output hatch from the dam to the fluid input hatch of this turbine and finally enjoy the power! You can pause this multiblock if you cut the fluid input or use a machine controller. Oh, and you will get your water back in the fluid output hatch.%n%nCongratulations to making it this far! Enjoy your ginormous energy buffer!%n%nIf you have any further questions, missing information or suggestions please do not hesitate to post on the official GT New Horizons Discord. Please add '@SinTh0r4s' to your post to make sure I’ll see it.%n
 
-# Quest.2974 - §c§l[OUTDATED]§r Aluminium Hydroxide
-gtnh.quest2974.name=§c§l[OUTDATED]§r Aluminium Hydroxide
-gtnh.quest2974.desc=To get ingots straight from aluminium dust you'll need higher temperatures then cupronickel coils can provide. One alternative route is to lower the required temperature by turning it into aluminiumhydroxide dust. It can be processed to alumina. You can also use it to make cryolite.
+# Quest.2974 - §9§lBauxite Slag
+gtnh.quest2974.name=§9§lBauxite Slag
+gtnh.quest2974.desc=Now the slurry can be separated in a chemical process. Besides the Alumina which we get directly, the most important part is the Bauxite Slag which we will process further. You can also centrifuge the Sluice Juice for some extra byproducts. %n%nIf you don't have Aluminum Hydroxide yet, look around a bit in NEI. You can get it from Sodium Aluminate or from either Ruby, Sapphire, or Green Saphire Slurry.
 
 # Quest.2975 - §c§l[OUTDATED]§r Chemical cryolite production
 gtnh.quest2975.name=§c§l[OUTDATED]§r Chemical cryolite production
 gtnh.quest2975.desc=Feeling too lazy to search for a cryolite vein to smelt all this alumina? You can always synthesize it with hydroflouric acid, sodium hydroxide and aluminium hydroxide.
 
-# Quest.2976 - §c§l[OUTDATED]§r Advanced aluminium production
-gtnh.quest2976.name=§c§l[OUTDATED]§r Advanced aluminium production
-gtnh.quest2976.desc=After you have made an MV chemical reactor you are able to create some sodium aluminate. In this process you will also get a lot of hydrogen.
+# Quest.2976 - §9§lGallium and more
+gtnh.quest2976.name=§9§lGallium and more
+gtnh.quest2976.desc=Centrifuge the Bauxite Slag to get the remaining desired products.
 
-# Quest.2977 - §9§lAdvanced alumina production
-gtnh.quest2977.name=§9§lAdvanced alumina production
-gtnh.quest2977.desc=You can smelt 24 sodium aluminate down into 15 alumina dust. Sodium carbonate will be left over.
+# Quest.2977 - §9§lHot Slurry
+gtnh.quest2977.name=§9§lHot Slurry
+gtnh.quest2977.desc=Then heat up the slurry with steam.
 
-# Quest.2978 - §9§lRed Mud
-gtnh.quest2978.name=§9§lRed Mud
-gtnh.quest2978.desc=Red mud is a byproduct from bauxite processing. You can get few useful materials out of it by centrifuging.%n%n§3Unless you want the red mud specifically, you are probably better off processing your bauxite in a different way. Specifically electrolysis or mixing it with sodium hydroxide to make sodium aluminate.
+# Quest.2978 - §9§lGetting the most out of your Bauxite.
+gtnh.quest2978.name=§9§lGetting the most out of your Bauxite.
+gtnh.quest2978.desc=If processed correctly you can get a lot more Gallium out of your Bauxite compared to just using the Thermal Centrifuge. You will also get large amounts of Rutile and Alumina.%n%nFirst, make some Bauxite Slurry.
 
 # Quest.2979 - §5§6§l§5§lAluminium Tank
 gtnh.quest2979.name=§5§6§l§5§lAluminium Tank
