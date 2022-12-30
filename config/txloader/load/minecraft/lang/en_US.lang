@@ -102,7 +102,7 @@ gtnh.quest24.desc=It's time to get yourself some charcoal. For that, we're going
 
 # Quest.25 - §2§lAnother Brick in the Wall
 gtnh.quest25.name=§2§lAnother Brick in the Wall
-gtnh.quest25.desc=Your vision becomes more clear, you'll need bricks for your first multiblock structure. You think that 104 bricks should be enough. However, the bricks you'll need are somewhat special. Make sure to craft the correct ones!%n%n§3Make sure to collect them all before you move on to putting them in the furnace if you actually want to complete the quest!
+gtnh.quest25.desc=Your vision becomes more clear, you'll need bricks for your first multiblock structure. You think that 104 bricks should be enough. However, the bricks you'll need are somewhat special. Make sure to craft the correct ones!
 
 # Quest.26 - §2§lForming Press v0.1
 gtnh.quest26.name=§2§lForming Press v0.1
@@ -854,7 +854,7 @@ gtnh.quest212.desc=Literally. You can grind the rock of most planets, to get a c
 
 # Quest.213 - §1§b§l§1§2§3§4§5§4§6§7§8§9§a§b§c§d§e§c§b§lTier 5 (IV)
 gtnh.quest213.name=§1§b§l§1§2§3§4§5§4§6§7§8§9§a§b§c§d§e§c§b§lTier 5 (IV)
-gtnh.quest213.desc=IV-Level. You will need tungstensteel for machines. Suggested planets and moons to visit: Mars, Phobos, Deimos. %n%nMake sure to get a set of Tungstensteel coils for your EBF.%n%nYou should've learned "how to gregtech" by now, if not go clean up the machine craters in your base...%n%nGT++ multiblock processing machines unlock at this tier. Make sure you have an Alloy Blast Smelter from EV tier ready to go.
+gtnh.quest213.desc=IV-Level. You will need Tungstensteel for machines. Suggested planets and moons to visit: Mars, Phobos, Deimos. %n%nMake sure to get a set of TPV coils for your EBF.%n%nYou should've learned "how to GregTech" by now. If not, go clean up the machine craters in your base...%n%nMany GT++ multiblock machines unlock at this tier. Make sure you have an Alloy Blast Smelter ready to go and check the GT++ tab.
 
 # Quest.214 - A Reward
 gtnh.quest214.name=A Reward
@@ -2438,7 +2438,7 @@ gtnh.quest608.desc=The next step of making batteries is to collect some lead. Lo
 
 # Quest.609 - §5§lBattery Alloy
 gtnh.quest609.name=§5§lBattery Alloy
-gtnh.quest609.desc=Mixing antimony and lead in the alloy smelter will give you battery alloy. Combine it with tin cable and voila, there's your small battery hull.%n%nSmall = LV, Medium = MV, Large = HV. It gets weirder after that.%n%n§3Note that if you make the battery alloy in the mixer you need to use dusts, but if you use the alloy smelter you can use either.
+gtnh.quest609.desc=Mixing antimony and lead in the alloy smelter will give you battery alloy. Combine it with tin cable and voila, there's your small battery hull.%n%nSmall = LV, Medium = MV, Large = HV. It gets weirder after that.%n%nNote that if you make the battery alloy in the mixer you need to use dusts, but if you use the alloy smelter you can use either.%n%n§3Check out the Storing and Transforming EU Quest Tab for all details about EU power storage.
 
 # Quest.610 - Lead, Galena, Silver and Cryolite
 gtnh.quest610.name=Lead, Galena, Silver and Cryolite
@@ -4070,7 +4070,7 @@ gtnh.quest1016.desc=This is the start of the first 4-circuit circuit line. This 
 
 # Quest.1017 - §9§lProcessor Assembly
 gtnh.quest1017.name=§9§lProcessor Assembly
-gtnh.quest1017.desc=This is the second step to making EV and IV circuits.%n%nIn addition you'll need 8 Capacitors, SMD or non-SMD.
+gtnh.quest1017.desc=This is the second step to making EV and IV circuits.
 
 # Quest.1018 - §9§lCentral Processing Unit
 gtnh.quest1018.name=§9§lCentral Processing Unit
@@ -5000,9 +5000,9 @@ gtnh.quest1248.desc=This is the Nanoprocessor circuit line. From here, they make
 gtnh.quest1249.name=§a§lNanoCPU Wafer and Chip
 gtnh.quest1249.desc=The NanoCPU Wafer is made out of a CPU Wafer with raw carbon fibre and molten glowstone in an EV chemical reactor. Cut it for nano CPU chips.
 
-# Quest.1250 - §a§lNanoprocessor Array
-gtnh.quest1250.name=§a§lNanoprocessor Array
-gtnh.quest1250.desc=The nanoprocessor array is an EV circuit.
+# Quest.1250 - §a§lNanoprocessor Assembly
+gtnh.quest1250.name=§a§lNanoprocessor Assembly
+gtnh.quest1250.desc=The Nanoprocessor Assembly is an EV circuit.
 
 # Quest.1251 - §a§lElite Nanocomputer
 gtnh.quest1251.name=§a§lElite Nanocomputer
@@ -5634,7 +5634,7 @@ gtnh.quest1407.desc=An EV precision laser is required to make quantum crystals.
 
 # Quest.1408 - §a§lEV Superconductors (2048 EU/t)
 gtnh.quest1408.name=§a§lEV Superconductors (2048 EU/t)
-gtnh.quest1408.desc=How about lossless 2048 EU Wires? Uraniumtriplatinide is a superconductor wire and will transfer your energy without any loss. %n%nYou'll need Tungstensteel Coils.%n%n§3Whether these are worth it to save a little power or not is up to you of course.
+gtnh.quest1408.desc=How about lossless 2048 EU Wires? Uraniumtriplatinide is a superconductor wire and will transfer your energy without any loss. %n%nYou'll need TPV Coils.%n%n§3Whether these are worth it to save a little power or not is up to you of course.
 
 # Quest.1409 - §b§lIV Superconductors (8192 EU/t)
 gtnh.quest1409.name=§b§lIV Superconductors (8192 EU/t)
@@ -6090,7 +6090,7 @@ gtnh.quest1521.desc=The sifter runs sooo slow, you should make an HV sifter to g
 
 # Quest.1522 - §b§lNiobium-Titanium
 gtnh.quest1522.name=§b§lNiobium-Titanium
-gtnh.quest1522.desc=Niobium-Titanium becomes more important in LuV Tier. It needs a EV Mixer to mix and an Electric Blast Furnace with Tungsten Steel heating coils.
+gtnh.quest1522.desc=Niobium-Titanium becomes more important in LuV Tier. It needs a EV Mixer to mix and an Electric Blast Furnace with TPV heating coils.
 
 # Quest.1523 - Can't Find Those Ores?
 gtnh.quest1523.name=Can't Find Those Ores?
@@ -6754,7 +6754,7 @@ gtnh.quest1687.desc=To make these chips you need Europium, as well as an HV Auto
 
 # Quest.1688 - §c§lElite Circuit Board
 gtnh.quest1688.name=§c§lElite Circuit Board
-gtnh.quest1688.desc=A new circuit line, a new board.
+gtnh.quest1688.desc=A new circuit line, a new board. Also required for the Hi-Computation Station MK-I.
 
 # Quest.1689 - §9§a§c§lLuV Laser Engraver
 gtnh.quest1689.name=§9§a§c§lLuV Laser Engraver
@@ -6872,9 +6872,9 @@ gtnh.quest1716.desc=The only interesting ore on this planet is the deep iron fro
 gtnh.quest1717.name=§b§lVenus Trip
 gtnh.quest1717.desc=Venus has 3 different veins, with quantium and titanium the most important to grab. And Naquadah if you still don't have enough.%n%n§3You can also get firestone from small ore if you still need it.
 
-# Quest.1718 - §b§lYttrium-Barium-Cuprate
-gtnh.quest1718.name=§b§lYttrium-Barium-Cuprate
-gtnh.quest1718.desc=Yttrium-Barium-Cuperate becomes more important in LuV Tier. It needs an EV Mixer to mix and a Electric Blast furnace with Tungsten Steel heating coils.
+# Quest.1718 - §b§lYttrium Barium Cuprate
+gtnh.quest1718.name=§b§lYttrium Barium Cuprate
+gtnh.quest1718.desc=Yttrium Barium Cuprate becomes more important in LuV Tier. It needs an EV Mixer to mix and a Electric Blast Furnace with TPV heating coils.
 
 # Quest.1719 - §b§lPower of the Sun 1x1 EV
 gtnh.quest1719.name=§b§lPower of the Sun 1x1 EV
@@ -11762,7 +11762,7 @@ gtnh.quest2939.desc=If you failed to meet the NKE as NEI requested, you can recy
 
 # Quest.2940 - §c§lSeparation
 gtnh.quest2940.name=§c§lSeparation
-gtnh.quest2940.desc=IT COMES BACK AGAINNNNN? ! ! !
+gtnh.quest2940.desc=IT COMES BACK AGAINNNNN? ! ! !%n%n§3You can find out more about the Neutron Activator and the Precise Assembler in the Multiblock tab.
 
 # Quest.2941 - §c§lAlmost Success
 gtnh.quest2941.name=§c§lAlmost Success
@@ -11896,16 +11896,16 @@ gtnh.quest2972.desc=If you made it this far you may already noticed that you can
 gtnh.quest2973.name=§6§lLet if flow, let it floww ...
 gtnh.quest2973.desc=... can't hold it back anymore. It is time to collect the rewards of your hard work. Connect the fluid output hatch from the dam to the fluid input hatch of this turbine and finally enjoy the power! You can pause this multiblock if you cut the fluid input or use a machine controller. Oh, and you will get your water back in the fluid output hatch.%n%nCongratulations to making it this far! Enjoy your ginormous energy buffer!%n%nIf you have any further questions, missing information or suggestions please do not hesitate to post on the official GT New Horizons Discord. Please add '@SinTh0r4s' to your post to make sure I’ll see it.%n
 
-# Quest.2974 - §6§lAluminium Hydroxide
-gtnh.quest2974.name=§6§lAluminium Hydroxide
+# Quest.2974 - §c§l[OUTDATED]§r Aluminium Hydroxide
+gtnh.quest2974.name=§c§l[OUTDATED]§r Aluminium Hydroxide
 gtnh.quest2974.desc=To get ingots straight from aluminium dust you'll need higher temperatures then cupronickel coils can provide. One alternative route is to lower the required temperature by turning it into aluminiumhydroxide dust. It can be processed to alumina. You can also use it to make cryolite.
 
-# Quest.2975 - §6§lChemical cryolite production
-gtnh.quest2975.name=§6§lChemical cryolite production
+# Quest.2975 - §c§l[OUTDATED]§r Chemical cryolite production
+gtnh.quest2975.name=§c§l[OUTDATED]§r Chemical cryolite production
 gtnh.quest2975.desc=Feeling too lazy to search for a cryolite vein to smelt all this alumina? You can always synthesize it with hydroflouric acid, sodium hydroxide and aluminium hydroxide.
 
-# Quest.2976 - §6§lAdvanced aluminium production
-gtnh.quest2976.name=§6§lAdvanced aluminium production
+# Quest.2976 - §c§l[OUTDATED]§r Advanced aluminium production
+gtnh.quest2976.name=§c§l[OUTDATED]§r Advanced aluminium production
 gtnh.quest2976.desc=After you have made an MV chemical reactor you are able to create some sodium aluminate. In this process you will also get a lot of hydrogen.
 
 # Quest.2977 - §9§lAdvanced alumina production
@@ -12050,7 +12050,7 @@ gtnh.quest3011.desc=With the advancements in building materials you've made unti
 
 # Quest.3012 - Improved Oil Cracker
 gtnh.quest3012.name=Improved Oil Cracker
-gtnh.quest3012.desc=Have you built an Oil Cracker? Have you checked its coils? This multi gets a significant discount to EU/t when upgrading the coils, but it caps at HSS-S, at a maximum of 50% discount. If you are still using low-tier coils, this is a great time to upgrade them to Nichrome and enjoy a 30% discount. You could also do Tungstensteel, but it's unlikely you have enough to pull this off at this time.%n%nBy the way, you can wall-share Oil Crackers, just like DTs, LCRs and many other multis, and doing this will save on the amount of coils you need!
+gtnh.quest3012.desc=Have you built an Oil Cracker? Have you checked its coils? This multi gets a significant discount to EU/t when upgrading the coils, but it caps at HSS-S, at a maximum of 50% discount. If you are still using low-tier coils, this is a great time to upgrade them to Nichrome and enjoy a 30% discount. You could also do TPV.%n%nBy the way, you can wall-share Oil Crackers, just like DTs, LCRs and many other multis, and doing this will save on the amount of coils you need!%n%n§3You only need to do one of the two tasks.
 
 # Quest.3013 - Magic Super Fuel
 gtnh.quest3013.name=Magic Super Fuel
@@ -13094,39 +13094,39 @@ gtnh.quest3272.desc=Well this is a bad idea, but since when has that stopped you
 
 # Quest.3273 - PCB Factory
 gtnh.quest3273.name=PCB Factory
-gtnh.quest3273.desc=All those boards made in a chemical reactor. It's time to stop that, there must be a more efficient way to make them. After a couple days of research I have found one, a factory designed to print out circuit boards.%n%n§4§5§a§d§r§a§rThe PCB Factory is able to use a wide range of plastics to create circuit boards ready to be used. The printing mechanism overheats when it tries to overclock currently, so I will have to find a way to make it work later. Boards with neurons on them will take a bit before they can be made, but it won't be hard to achieve.%n%n§a§2§aTrace Size: Trace size represents the lines between components, which are needed to transmit the electrical signals on the circuit. One can make it smaller to slow down the machine, but use less resources, or make it bigger to make it faster, but use more resources.%n§6§6Formulas:%n- 10000/(TraceSize/100) Production%n- RecipeDuration/TraceSize^2 Time%n%n§a§2§aUsing the GUI, the player can go to the configuration menu. There they can change the trace size or add new parts to the multiblock. One can also change where they are placed around the multiblock.%n%n§cMake sure to set the configuration you want before using the structure lib blueprint for autobuild.
+gtnh.quest3273.desc=All those boards made in a chemical reactor. It's time to stop that, there must be a more efficient way to make them. After a couple days of research I have found one, a factory designed to print out circuit boards.%n%n§4§5§a§d§r§a§rThe PCB Factory is able to use a wide range of plastics to create circuit boards ready to be used. The printing mechanism overheats when it tries to overclock currently, so I will have to find a way to make that work later. Boards with neurons on them will also take a bit before they can be made, but it won't be hard to achieve.%n%n§T§2Trace size: the trace size represents the lines between components, which are needed to transmit the electrical signals on the circuit. One can make it smaller to slow down the machine, but use less resources, or make it bigger to make it faster, but use more resources.%n%n§1Formulas:%n- 10000/(TraceSize/100) Production%n- RecipeDuration/TraceSize^2 Time%n%n§2Using the GUI, the player can go to the configuration menu. There they can change the trace size or add new parts to the multiblock. One can also change where they are placed around the multiblock.%n%n§3Make sure to set the configuration you want before using the structure lib blueprint for autobuild.
 
 # Quest.3274 - Bio Chamber
 gtnh.quest3274.name=Bio Chamber
-gtnh.quest3274.desc=As I got new technology, I have seen the need to make a chamber where the circuit board can contain neurons for the wetware boards or the upcoming bioware boards.%n%nThe bio chamber is a simple upgrade, it doesn't require many resources. Don't know why I didn't make it earlier.%n%n§aIt can use any glass.
+gtnh.quest3274.desc=As I got new technologies, I have seen the need to make a chamber where the circuit board can contain neurons for the wetware boards or the upcoming bioware boards.%n%nThe Bio Chamber is a simple upgrade, it doesn't require many resources. Don't know why I didn't make it earlier.%n%n§3It can use any glass.
 
 # Quest.3275 - Liquid Cooling Tower
 gtnh.quest3275.name=Liquid Cooling Tower
-gtnh.quest3275.desc=I have started to hit the limit of the multiblock without overclocking it, so I decided to give it a liquid cooler to cool down the mechanism. This will allow it to overclock like every other multi with 2xSpeed 4xEut.%n%nI will need to provide some distilled water to its hatch to avoid blockage in the pipes.%n%n§aThe Liquid Cooling Tower allows the Multiblock to have 2/4 OC at the cost of 10/s of distilled water when running. The hatch is placed in the center of the Liquid Cooling Tower.
+gtnh.quest3275.desc=I have started to hit the limit of the multiblock without overclocking it, so I decided to give it a liquid cooler to cool down the mechanism. This will allow it to overclock like every other multi with 2xSpeed 4xEU/t.%n%nI will need to provide some distilled water to its hatch to avoid blockage in the pipes.%n%n§3The Liquid Cooling Tower allows the Multiblock to have 2/4 OC at the cost of 10/s of distilled water when running. The hatch is placed in the center of the Liquid Cooling Tower.
 
 # Quest.3276 - PCB Factory Tier 2
 gtnh.quest3276.name=PCB Factory Tier 2
-gtnh.quest3276.desc=With the Nano Forge built, we can upgrade our production of circuit boards for free, but the nanites need a container to hold them. The current casings aren't enough, we need to find an alternative casing.%n%nAfter some research, infinity as a frame and enriched holmium as the protection layer seems to work well. It can be allowed to let through nanites to go into the printer base so that extra material can be directly removed instead of trying to go slower.%n%n§aAllows the player to use the tier 2 recipes with the use of a silver nanite in the input bus.%nThis also unlocks parallels of the PCB Factory with said formula: Log2(x) parallels, where x is the amount of nanites in the input bus.
+gtnh.quest3276.desc=With the Nano Forge built, we can upgrade our production of circuit boards for free, but the nanites need a container to hold them. The current casings aren't enough, we need to find an alternative casing.%n%nAfter some research, infinity as a frame and enriched holmium as the protection layer seems to work well. It can be allowed to let through nanites to go into the printer base so that extra material can be directly removed instead of trying to go slower.%n%n§3Allows the player to use the tier 2 recipes with the use of a silver nanite in the input bus.%nThis also unlocks parallels of the PCB Factory with said formula: Log2(x) parallels, where x is the amount of nanites in the input bus.
 
 # Quest.3277 - Thermosink Radiator
 gtnh.quest3277.name=Thermosink Radiator
-gtnh.quest3277.desc=With the control of spacetime you have achieved and its 0K temperature it would be possible to make an even better cooling unit. A casing able to keep its room temperature very low and nanites, which can transfer heat effectively, because of their small bodies. This doesn't quite work and some coolant is still needed, but water freezes at those temperatures so super coolant will be our choice.%n%n§aThe Thermosink Radiator allows for 4/4 OC making it possible to speed through recipes. It requires 10/s of super coolant in its hatch, its in the same place as the Liquid Cooling Tower.%n%n§cThis upgrade is incompatible with its lower tier predecessor.
+gtnh.quest3277.desc=With the control of spacetime you have achieved and its 0K temperature it would be possible to make an even better cooling unit. A casing able to keep its room temperature very low and nanites which can transfer heat effectively because of their small bodies. This doesn't quite work and some coolant is still needed, but water freezes at those temperatures so super coolant will be our choice.%n%n§3The Thermosink Radiator allows for 4/4 OC making it possible to speed through recipes. It requires 10/s of super coolant in its hatch, its in the same place as the Liquid Cooling Tower.%n%n§4This upgrade is incompatible with its lower tier predecessor.
 
 # Quest.3278 - PCB Factory Tier 3
 gtnh.quest3278.name=PCB Factory Tier 3
-gtnh.quest3278.desc=Why use a small nosel to print out the conductor on the board when one can just build it using nanites? Well the silver nanite isn't rigid enough for that so a new nanite will be needed... and so will new casings. Heard that celestial tungsten is a good candidate for a frame. Quantum can be used for the protection as these nanites will be forever flying around inside.%n%nThe structure will need to change as it needs to be a bit bigger and taller.%n%n§aWorks the same as the Tier 2 in most cases, but allows the player to use even less resources by using a gold nanite.
+gtnh.quest3278.desc=Why use a small nosel to print out the conductor on the board when one can just build it using nanites? Well the silver nanite isn't rigid enough for that so a new nanite will be needed... and so will new casings. Heard that celestial tungsten is a good candidate for a frame. Quantum can be used for the protection as these nanites will be forever flying around inside.%n%nThe structure will need to change as it needs to be a bit bigger and taller.%n%n§3Works the same as the Tier 2 in most cases, but allows the player to use even less resources by using a gold nanite.
 
 # Quest.3279 - Nano Forge Tier 1
 gtnh.quest3279.name=Nano Forge Tier 1
-gtnh.quest3279.desc=There must a be a way to make a nano scale robots to work in a machine. Carbon ones can be made in an assembly line, but very inefficiently. There must be a better way.%n%nWhat about a Nano Forge, able to cut up blocks into nano-thin sheets and then creating the first nanite, which helps create thousands of them in mere seconds.%n%n§aThe Nano Forge is a big multiblock requiring lots of power over the course of a couple minutes. It is able to use TT energy hatches (including lasers). The controller must have a carbon nanite to use tier 1 recipes.
+gtnh.quest3279.desc=There must a be a way to make a nano scale robots to work in a machine. Carbon ones can be made in an assembly line, but very inefficiently. There must be a better way.%n%nWhat about a Nano Forge, able to cut up blocks into nano-thin sheets and then creating the first nanite, which helps create thousands of them in mere seconds.%n%n§3The Nano Forge is a big multiblock requiring lots of power over the course of a couple minutes. It is able to use TT energy hatches (including lasers). The controller must have a carbon nanite to use tier 1 recipes.
 
 # Quest.3280 - Nano Forge Tier 2
 gtnh.quest3280.name=Nano Forge Tier 2
-gtnh.quest3280.desc=Carbon Nanites are good first worker, but they don't have much in the way of working with more complex systems as they have a very basic nanite network. So a new more advanced nanite will be needed to produce complex nanites.%n%nThe neutronium nanite is an in-between of the two tiers able to produce tier 2 nanites, which have other uses.%n%n§aWhen putting the neutronium nanite in the controller, you will need to wait for the structure check to happen again or break and replace the controller with a neutronium nanite inside. Allows the Nano Forge to make tier 2 nanites.
+gtnh.quest3280.desc=Carbon Nanites are good first worker, but they don't have much in the way of working with more complex systems as they have a very basic nanite network. So a new more advanced nanite will be needed to produce complex nanites.%n%nThe neutronium nanite is an in-between of the two tiers able to produce tier 2 nanites, which have other uses.%n%n§3When putting the neutronium nanite in the controller, you will need to wait for the structure check to happen again or break and replace the controller with a neutronium nanite inside. Allows the Nano Forge to make tier 2 nanites.
 
 # Quest.3281 - Nano Forge Tier 3
 gtnh.quest3281.name=Nano Forge Tier 3
-gtnh.quest3281.desc=Neutronium nanites are slow moving, but that allowed them to have a complex nanite network. If there was a material that could move itself it could allow for an even more compex nanite with great speeds... Thankfully with the DTPF fully functional we can make it, transcendent metal.%n%n§aSame thing as the neutronium nanite, but this nanite allows for tier 3 nanites to be made in the nano forge.
+gtnh.quest3281.desc=Neutronium nanites are slow moving, but that allowed them to have a complex nanite network. If there was a material that could move itself it could allow for an even more compex nanite with great speeds... Thankfully with the DTPF fully functional we can make it, transcendent metal.%n%n§3Same thing as the neutronium nanite, but this nanite allows for tier 3 nanites to be made in the nano forge.
 
 ##################################Line##################################
 
@@ -13261,6 +13261,10 @@ gtnh.line31.desc=SFM and OC have your back for assline automation! And automatin
 # QuestLine.32 - Flower Power
 gtnh.line32.name=Flower Power
 gtnh.line32.desc=A treatise on magical herbology and Botania
+
+# QuestLine.33 - Storing and Transforming EU
+gtnh.line33.name=Storing and Transforming EU
+gtnh.line33.desc=You can find ways to store EU here and ways to transform between voltages.
 
 # QuestLine.34 - Space Race
 gtnh.line34.name=Space Race
