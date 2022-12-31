@@ -1832,9 +1832,9 @@ gtnh.quest456.desc=Triggers the Life Canister Quest after a Wither death.
 gtnh.quest457.name=Energy Infuser
 gtnh.quest457.desc=The Energy Infuser is the tech answer to the Thaumic Restorer for repairing items and also acts a charger.%n%nWhen fed with energy it is able to charge any item that is fed into its Input Bus. Fully charged items will be placed in the Output Bus. The items will be fed with the amount of energy provided by the used Energy Hatch.%n%nApart from its charging capabilities the Energy Infuser can repair items when provided with UU-Matter and energy. However, GregTech tools can not be repaired. When repairing the machine consumes 1L UU-Matter and 1000 EU per repaired durability point.
 
-# Quest.458 - §c§l[OUTDATED]§r Trigger Primordial Pearl
-gtnh.quest458.name=§c§l[OUTDATED]§r Trigger Primordial Pearl
-gtnh.quest458.desc=Triggered by the Primordial Pearl.
+# Quest.458 - Quantum Anomaly
+gtnh.quest458.name=Quantum Anomaly
+gtnh.quest458.desc=All your theoretical knowledge tells you this can't possibly exist. But there it is.%n%nMaybe you can find some use for it?
 
 # Quest.459 - §a§k§r§a§lAdvanced Glue
 gtnh.quest459.name=§a§k§r§a§lAdvanced Glue
@@ -5672,8 +5672,8 @@ gtnh.quest1416.desc=Or is it Alloy Blast Smelter? Well, that makes more sense. T
 gtnh.quest1417.name=§6§lCough Cough - Something Needs to Be Done About the Smell
 gtnh.quest1417.desc=Birds falling out of the sky, fish dead and floating belly up in the rivers, acid rain melting the ground...Time to start picking up the trash and cleaning up the air. Small black steel turbines should be fine for now. You'll need two amps of steady power to keep the scrubber working.%n%nThe detector's setting can be changed by clicking on the +/- texture with a screwdriver. Also, in general, better (and larger) turbines work better at cleaning up pollution. The code is too complex to fully explain here, but that's basically it. More EU turbine = more pollution cleaning turbine.%n%n§4This quest covers one method of combating pollution - there are others, including not making as much to begin with.
 
-# Quest.1418 - §b§lEU packets flowing everywhere...
-gtnh.quest1418.name=§b§lEU packets flowing everywhere...
+# Quest.1418 - EU packets flowing everywhere...
+gtnh.quest1418.name=EU packets flowing everywhere...
 gtnh.quest1418.desc=...in my dreams. What if instead of having battery packs on every generator, we could centralize all the generation in one location? Put it away from the well travelled parts of the the base? Out in the country somewhere?  Let the animals deal with the pollution.  Anyways, let's start working on a Power Sub-Station to store EU and deliver it to our base.
 
 # Quest.1419 - Who Cares About a Little Cancer...
@@ -11046,7 +11046,7 @@ gtnh.quest2760.desc=In addition to being a dehydrator multi, it's also a Vacuum 
 
 # Quest.2761 - Do I Really Need to Make This?
 gtnh.quest2761.name=Do I Really Need to Make This?
-gtnh.quest2761.desc=Oh wait, yes, you actually need this now! That was supposed to be a rhetorical question!%n%nThe main thing you will probably get out of it is the Quantum Anomaly for Advanced Nitinol.%n%n§3This multi is LuV. But you don't need it until around UHV.
+gtnh.quest2761.desc=Oh wait, yes, you actually need this now! That was supposed to be a rhetorical question!%n%nThe main thing you will probably get out of it is the Quantum Anomaly.%n%n§3This multi is LuV. But you don't need it until UHV.
 
 # Quest.2762 - This is Not How You Get Into Space
 gtnh.quest2762.name=This is Not How You Get Into Space
@@ -11056,8 +11056,8 @@ gtnh.quest2762.desc=This produces power out of Rocket Fuels. To see how to make 
 gtnh.quest2763.name=§6§lI Put a Machine Into Your Machine
 gtnh.quest2763.desc=Effectively lets you parallel like crazy if you can afford the power. 1 EV hatch can supply all 64 possible machines if they're LV. You can also separate busses with a screwdriver. The PA is usually less efficient than a dedicated multiblock but it is very versatile and allows for TecTech energy hatches and even laser hatches once you get there.%n%n§3Doesn't work with some machines, like mass fabs.%n%nJust in case you get that far and still remember it: The PA maxes out at UHV recipes. But UEV machines are treated as 4x UHV machines giving you a lot of parallels.%n%nThere is also a new experimental feature where the PA can handle fluid recipes without cells but using the fluid directly.
 
-# Quest.2764 - A Steam Tier Multi? Unpossible!
-gtnh.quest2764.name=A Steam Tier Multi? Unpossible!
+# Quest.2764 - §4§3§lA Steam Tier Multi? Unpossible!
+gtnh.quest2764.name=§4§3§lA Steam Tier Multi? Unpossible!
 gtnh.quest2764.desc=It's a larger version of the steam macerator. It only works 8 at a time, but is faster.%n%nNote that this multi requires §4§lVery Specific§r I/O blocks, don't mess it up.%n%n
 
 # Quest.2765 - §6§lTFFT
@@ -13118,7 +13118,7 @@ gtnh.quest3278.desc=Why use a small nosel to print out the conductor on the boar
 
 # Quest.3279 - Nano Forge Tier 1
 gtnh.quest3279.name=Nano Forge Tier 1
-gtnh.quest3279.desc=There must a be a way to make a nano scale robots to work in a machine. Carbon ones can be made in an assembly line, but very inefficiently. There must be a better way.%n%nWhat about a Nano Forge, able to cut up blocks into nano-thin sheets and then creating the first nanite, which helps create thousands of them in mere seconds.%n%n§3The Nano Forge is a big multiblock requiring lots of power over the course of a couple minutes. It is able to use TT energy hatches (including lasers). The controller must have a carbon nanite to use tier 1 recipes.
+gtnh.quest3279.desc=There must a be a way to make a nano scale robots to work in a machine. Carbon ones can be made in an assembly line, but very inefficiently. There must be a better way.%n%nWhat about a Nano Forge, able to cut up blocks into nano-thin sheets and then creating the first nanite, which helps create thousands of them in mere seconds.%n%n§3The Nano Forge is a big multiblock requiring lots of power over the course of a couple minutes. It is able to use TT energy hatches (including lasers). The controller must have a carbon nanite to use tier 1 recipes.%n%nDespite what NEI might claim there are no minimum voltages for the Nano Forge recipes. If you want to do a recipe you just have to achieve the raw EU/t required, no matter the voltage.
 
 # Quest.3280 - Nano Forge Tier 2
 gtnh.quest3280.name=Nano Forge Tier 2
