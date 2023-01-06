@@ -40,6 +40,8 @@ val I18N_Blood_Magic_Thaumcraft_34 = "The capacity of the Blood Altar seems to d
 val I18N_Blood_Magic_Thaumcraft_35 = "The first upgrade is nothing more than a 3x3 square under the Altar. You can use simple blocks, the so called Blank Runes, but it you have managed to improve upon them through trial and error, mixing the correct items and incantations through Infusion.<BR><BR>The first success, surely of many, that you have found yourself facing is the Speed Rune, which accelerates the processing speed of the Altar by 25%, and can replace any other Rune in the structure. The higher the tier, the more Runes you can fit in the structure.";
 val I18N_Blood_Magic_Thaumcraft_36 = "Imperfect Ritual Stone";
 val I18N_Blood_Magic_Thaumcraft_37 = "[BM] Basic but oho.";
+val I18N_Blood_Magic_Thaumcraft_37_a = "Imperfect Ritual Stone is a block from Blood Magic used in the construction of Rituals. The Imperfect Ritual Stone is used in weaker rituals, such as the Water Ritual. <BR>A weak ritual is simple but can be useful. Each is created by placing a specific block on top of an Imperfect Ritual Stone, then activated by Right-clicking the Stone. Each cost 5,000 Life Essence.";
+val I18N_Blood_Magic_Thaumcraft_37_b = "1. Water source block creates a thunderstorm.<BR>2. Block of coal summons a strong zombie.<BR>3. Lapis lazuli block makes it night time.<BR>4. Bedrock above grants Resistance II for 1 minute.";
 val I18N_Blood_Magic_Thaumcraft_38 = "Ritual Stone";
 val I18N_Blood_Magic_Thaumcraft_39 = "[BM] Rituals";
 val I18N_Blood_Magic_Thaumcraft_40 = "The Ritual Stone is a block added by Blood Magic that is used to create various rituals, such as the Ritual of Binding. The Ritual Stones can be automatically placed and painted by the Ritual Diviner, or they can be manually placed and painted with the various Elemental Inks, such as the Elemental Inscription Tool: Air. The Ritual Stone is also used in the creation of the Master Ritual Stone.";
@@ -155,6 +157,7 @@ val I18N_Blood_Magic_Thaumcraft_149 = "[BM] Blood Altar Infos for free";
 val I18N_Blood_Magic_Thaumcraft_150 = "You find yourself seeing things more clearly as your Altar structure becomes more composed. The Sigil you used before to look into the Altar's secrets can tell you more if it is treated with a good enough orb, and the result is the Sigil of Sight.<BR><BR>When used on a Blood Altar, it shows the item progress, consumption rate, current essence and input/output tanks, at no LP cost per usage. With this, you can better assess the performance of your Altar, and track it as it is upgraded.";
 val I18N_Blood_Magic_Thaumcraft_151 = "Ritual Diviner";
 val I18N_Blood_Magic_Thaumcraft_152 = "[BM] New Rituals";
+val I18N_Blood_Magic_Thaumcraft_152_a = "The Ritual Diviner is an item added by the Blood Magic mod.<BR>A tool to help with the construction of Rituals. Shift+Right-clicking it will cycle through the available rituals. The tooltip will display the number and type of Ritual Stones required to build the selected ritual. Right-clicking on a Master Ritual Stone with it will place and ink the ritual stones needed for the ritual. Placing a stone will use Life Essence, a ritual stone from the user's inventory and will cause the diviner to animate and emit green particles. The ritual diviner will not replace existing blocks.";
 val I18N_Blood_Magic_Thaumcraft_153 = "If it tries and fails to place a stone it will animate but will not emit any particles. The mage will need to clear out the obstruction for placement to continue. Snow, tall grass and torches are common, yet easily overlooked, obstructions. There are 3 tiers of Diviner, tier 1 places elemental runes, tier 2 can place a dusk runes and tier 3 can place a dawn rune. There is a tooltip that indicates the tier of a diviner. Attempting to build a ritual that requires dusk runes with the diviner that can't place them will cause it to act as if the ritual is complete when it is not.";
 val I18N_Blood_Magic_Thaumcraft_154 = "Rune of the Orb";
 val I18N_Blood_Magic_Thaumcraft_155 = "[BM] More Runes";
@@ -432,13 +435,9 @@ game.setLocalization("tc.research_text.IMPERFECTRITUALSTONE", I18N_Blood_Magic_T
 mods.thaumcraft.Research.addPrereq("IMPERFECTRITUALSTONE", "BLOODALTAR", false);
 mods.thaumcraft.Research.setConcealed("IMPERFECTRITUALSTONE", false);
 mods.thaumcraft.Research.addPage("IMPERFECTRITUALSTONE", "tc.research_page.IMPERFECTRITUALSTONE.1");
-game.setLocalization("tc.research_page.IMPERFECTRITUALSTONE.1", "Imperfect Ritual Stone is a block from Blood Magic used in the construction of Rituals. The Imperfect Ritual Stone is used in weaker rituals, such as the Water Ritual. 
-A weak ritual is simple but can be useful. Each is created by placing a specific block on top of an Imperfect Ritual Stone, then activated by Right-clicking the Stone. Each cost 5,000 Life Essence.");
+game.setLocalization("tc.research_page.IMPERFECTRITUALSTONE.1", I18N_Blood_Magic_Thaumcraft_37_a);
 mods.thaumcraft.Research.addPage("IMPERFECTRITUALSTONE", "tc.research_page.IMPERFECTRITUALSTONE.2");
-game.setLocalization("tc.research_page.IMPERFECTRITUALSTONE.2", "1. Water source block creates a thunderstorm.
-2. Block of coal summons a strong zombie.
-3. Lapis lazuli block makes it night time.
-4. Bedrock above grants Resistance II for 1 minute.");
+game.setLocalization("tc.research_page.IMPERFECTRITUALSTONE.2", I18N_Blood_Magic_Thaumcraft_37_b);
 mods.thaumcraft.Arcane.addShaped("IMPERFECTRITUALSTONE", <AWWayofTime:imperfectRitualStone>, "aer 15, ignis 15, aqua 15, terra 15, ordo 15, perditio 15", [
 [<minecraft:obsidian>, <AWWayofTime:blankSlate>, <minecraft:obsidian>],
 [<AWWayofTime:blankSlate>, <BloodArsenal:blood_stone>, <AWWayofTime:blankSlate>],
@@ -1011,8 +1010,7 @@ mods.thaumcraft.Research.addPrereq("RITUALDIVINER", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("RITUALDIVINER", "MASTERRITUALSTONE", false);
 mods.thaumcraft.Research.setConcealed("RITUALDIVINER", true);
 mods.thaumcraft.Research.addPage("RITUALDIVINER", "tc.research_page.RITUALDIVINER.1");
-game.setLocalization("tc.research_page.RITUALDIVINER.1", "The Ritual Diviner is an item added by the Blood Magic mod.
-A tool to help with the construction of Rituals. Shift+Right-clicking it will cycle through the available rituals. The tooltip will display the number and type of Ritual Stones required to build the selected ritual. Right-clicking on a Master Ritual Stone with it will place and ink the ritual stones needed for the ritual. Placing a stone will use Life Essence, a ritual stone from the user's inventory and will cause the diviner to animate and emit green particles. The ritual diviner will not replace existing blocks.");
+game.setLocalization("tc.research_page.RITUALDIVINER.1", I18N_Blood_Magic_Thaumcraft_152_a);
 mods.thaumcraft.Infusion.addRecipe("RITUALDIVINER", <AWWayofTime:seerSigil>, 
 [<witchery:chalkritual>, <AWWayofTime:waterScribeTool>, <gregtech:gt.metaitem.02:29500>, <AWWayofTime:fireScribeTool>, <gregtech:gt.metaitem.02:29501>, <AWWayofTime:earthScribeTool>, <gregtech:gt.metaitem.02:29500>, <AWWayofTime:airScribeTool>, <gregtech:gt.metaitem.02:29501>], 
 "aer 32, ignis 32, terra 32, aqua 32, perditio 16, ordo 16", <AWWayofTime:itemRitualDiviner>, 3);
