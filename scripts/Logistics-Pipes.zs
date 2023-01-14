@@ -136,6 +136,12 @@ FormingPress.addRecipe(<LogisticsPipes:item.itemModule:207>, <LogisticsPipes:ite
 // --- Electric Manager Module
 FormingPress.addRecipe(<LogisticsPipes:item.itemModule:300>, <LogisticsPipes:item.itemModule:1>, <ore:batteryBasic>, 600, 30);
 
+// GT Type Filter ItemSink Module
+Assembler.addRecipe(<LogisticsPipes:item.itemModule:17> * 2, [<LogisticsPipes:item.itemModule:1> * 2, <gregtech:gt.metaitem.01:32630>, <LogisticsPipes:item.logisticsParts:5>, <gregtech:gt.metaitem.01:17305>, <ProjRed|Core:projectred.core.part:30>], <liquid:molten.lead> * 144, 600, 30);
+Assembler.addRecipe(<LogisticsPipes:item.itemModule:17> * 2, [<LogisticsPipes:item.itemModule:1> * 2, <gregtech:gt.metaitem.01:32630>, <LogisticsPipes:item.logisticsParts:5>, <gregtech:gt.metaitem.01:17305>, <ProjRed|Core:projectred.core.part:30>], <liquid:molten.tin> * 72, 600, 30);
+Assembler.addRecipe(<LogisticsPipes:item.itemModule:17> * 2, [<LogisticsPipes:item.itemModule:1> * 2, <gregtech:gt.metaitem.01:32630>, <LogisticsPipes:item.logisticsParts:5>, <gregtech:gt.metaitem.01:17305>, <ProjRed|Core:projectred.core.part:30>], <liquid:molten.solderingalloy> * 36, 600, 30);
+
+
 
 // ||||| Upgrade Chips |||||
 // --- Gold Upgrade Chip
