@@ -292,7 +292,7 @@
         <Loot Identifier="0bf2d6da-b2f2-4310-917b-7d5a6682cf6f" ItemName="minecraft:writable_book" Amount="4" NBTTag="" Chance="85" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="5fa00170-bfa6-4795-8483-0a615c2eab8c" ItemName="minecraft:book" Amount="8" NBTTag="" Chance="75" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="74e82931-bf30-4ec2-b130-bf572e47e008" ItemName="IronChest:BlockIronChest:4" Amount="1" NBTTag="" Chance="10" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="61f0fe3a-0608-4136-8a01-59082b4621c9" ItemName="IronChest:copperSilverUpgrade" Amount="1" NBTTag="" Chance="20" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="61f0fe3a-0608-4136-8a01-59082b4621c9" ItemName="IronChest:copperSteelUpgrade" Amount="1" NBTTag="" Chance="20" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="c4f196e3-daf1-4f8b-860d-3811759a998a" ItemName="minecraft:glass" Amount="64" NBTTag="" Chance="75" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="f93f2f6a-33bf-4f94-9cf1-80ff272fece2" ItemName="gregtech:gt.metaitem.01:32500" Amount="1" NBTTag="" Chance="15" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="1f8d0a72-c8d4-4ef8-be26-956da8b6a482" ItemName="minecraft:hopper" Amount="1" NBTTag="" Chance="65" LimitedDropCount="0" RandomAmount="false"/>
@@ -406,7 +406,7 @@
         <Loot Identifier="2aaee74b-2647-468c-9e38-c7729eceecd7" ItemName="IC2:blockITNT" Amount="16" NBTTag="" Chance="65" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="f44dac67-46a9-4013-a1b3-75c7789c52de" ItemName="TConstruct:creativeModifier" Amount="1" NBTTag="" Chance="60" LimitedDropCount="2" RandomAmount="false"/>
         <Loot Identifier="bfbb359d-5dd7-4cf2-9eab-0554c453aa32" ItemName="gregtech:gt.metaitem.01:32710" Amount="4" NBTTag="" Chance="65" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="dc50b412-13ce-49fe-bd0a-fadcd4ea1948" ItemName="IronChest:silverGoldUpgrade" Amount="1" NBTTag="" Chance="20" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="dc50b412-13ce-49fe-bd0a-fadcd4ea1948" ItemName="IronChest:steelGoldUpgrade" Amount="1" NBTTag="" Chance="20" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="f24a92cd-c9d8-4144-9f51-7ee290c01561" ItemName="IronChest:BlockIronChest:1" Amount="1" NBTTag="" Chance="10" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="df5b9b36-fc47-4bd9-a7d9-1872ae18a849" ItemName="IronChest:ironGoldUpgrade" Amount="1" NBTTag="" Chance="20" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="ce56c771-a218-4f53-8991-8e592a325fe1" ItemName="gregtech:gt.metaitem.01:11019" Amount="16" NBTTag="" Chance="55" LimitedDropCount="0" RandomAmount="true"/>
