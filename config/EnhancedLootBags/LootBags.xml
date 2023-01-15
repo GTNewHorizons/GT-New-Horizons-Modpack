@@ -1259,7 +1259,7 @@
         <Loot Identifier="beed568d-f092-4013-9e58-becd05c93272" ItemName="Forestry:alveary" Amount="4" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="acf7e833-8d25-45b3-a9af-1b14f42da89c" ItemName="gendustry:IndustrialScoop:100" Amount="1" NBTTag="{charge:0}" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="5569db89-0ef9-4f89-bb4b-854e8582af60" ItemName="gendustry:PowerModule" Amount="1" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="c22c4948-5479-4b74-b284-42a488205b96" ItemName="gendustry:UpgradeFrame" Amount="1" NBTTag="" Chance="80" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="c22c4948-5479-4b74-b284-42a488205b96" ItemName="gregtech:gt.metaitem.03:32199" Amount="1" NBTTag="" Chance="80" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="954c98d6-5bc3-4de9-a6a6-c7c9b0f0cae4" ItemName="gendustry:GeneTemplate" Amount="2" NBTTag="" Chance="70" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="0e2dff8b-087d-4ab3-a82b-81b85565d287" ItemName="Forestry:alveary:4" Amount="1" NBTTag="" Chance="33" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="029c7a6d-a9bd-4b16-96e4-146e23591798" ItemName="gregtech:gt.blockmachines:9399" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
@@ -1284,7 +1284,7 @@
         <Loot Identifier="4f6b438e-df92-4724-87c2-ba2317dd87a1" ItemName="gregtech:gt.metaitem.03:32228" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="41cb594c-b4d1-4ea3-a57b-df17aab6d092" ItemName="gregtech:gt.metaitem.03:32229" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="4562c2b3-55ef-4e42-9131-a757f158ac1b" ItemName="gregtech:gt.metaitem.03:32209" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="b13034ff-01f1-44ce-8b02-55b12174558f" ItemName="gendustry:UpgradeFrame" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="b13034ff-01f1-44ce-8b02-55b12174558f" ItemName="gregtech:gt.metaitem.03:32199" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
     <LootGroup GroupMetaID="28" GroupName="Fast Food" Rarity="0" MinItems="1" MaxItems="1" CombineTrashGroup="true">
         <Loot Identifier="b74b5ac4-2ad1-4b3c-8ade-a6aaad958464" ItemName="harvestcraft:fishtrapbaitItem" Amount="64" NBTTag="" Chance="80" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
