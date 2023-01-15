@@ -5008,8 +5008,8 @@ gtnh.quest1250.desc=The Nanoprocessor Assembly is an EV circuit.
 gtnh.quest1251.name=§a§lElite Nanocomputer
 gtnh.quest1251.desc=The elite nanocomputer is an IV circuit.
 
-# Quest.1252 - EV Chemical Bath
-gtnh.quest1252.name=EV Chemical Bath
+# Quest.1252 - §a§f§a§lEV Chemical Bath
+gtnh.quest1252.name=§a§f§a§lEV Chemical Bath
 gtnh.quest1252.desc=An HV chemical bath or better is needed for the quantum eye. Better make an EV one so that you can also process Ilmenite better.
 
 # Quest.1253 - 16k Component
@@ -8122,7 +8122,7 @@ gtnh.quest2029.desc=The best source for hundreds of thousands of glass for...som
 
 # Quest.2030 - Bate Bate Chocolate
 gtnh.quest2030.name=Bate Bate Chocolate
-gtnh.quest2030.desc=Abuela, will you teach us the chocolate song?%nCon mucho gusto%nWill you sing the chocolate song with us?%nGreat, sing along with Abuela!%n%nBate bate chocolate%nBate bate chocolate%nBate bate chocolate%nBate bate chocolate%n%nMix your chocolate, chocolate%nMix your chocolate, chocolate%nBate bate chocolate%nBate bate chocolate%n%n§3This multi is IV.
+gtnh.quest2030.desc=Abuela, will you teach us the chocolate song?%nCon mucho gusto%nWill you sing the chocolate song with us?%nGreat, sing along with Abuela!%n%nBate bate chocolate%nBate bate chocolate%nBate bate chocolate%nBate bate chocolate%n%nMix your chocolate, chocolate%nMix your chocolate, chocolate%nBate bate chocolate%nBate bate chocolate
 
 # Quest.2031 - Play doh for big girls and boys
 gtnh.quest2031.name=Play doh for big girls and boys
@@ -10248,8 +10248,8 @@ gtnh.quest2560.desc=The next tier of Borosilicate glass is Osmium (8). Make it t
 gtnh.quest2561.name=§6§lBacterial Vat
 gtnh.quest2561.desc=The Bacterial Vat is a unique multiblock machine with its own recipes. But it also has advanced versions of many brewery recipes.%n%nThe Vat isn't mandatory in this tier, but there are many useful recipes and you'll need it later on, so let's build one!%n%nAll recipes require a §cculture§r, some recipes require a specific §cGlass-Tier.%n%n§rThe culture is made in a BioLab and §lput in the controller.%n%n§l§rThe Glass-Tier is calculated as LV = Tier 1, so this quest requires you to make tier 3 glass.
 
-# Quest.2562 - Advanced Ilmenite Processing
-gtnh.quest2562.name=Advanced Ilmenite Processing
+# Quest.2562 - §a§f§a§lAdvanced Ilmenite Processing
+gtnh.quest2562.name=§a§f§a§lAdvanced Ilmenite Processing
 gtnh.quest2562.desc=Get the most out of your Ilmenite by putting the crushed ore into a EV Chemical Bath with Sulfuric Acid. The acid can even be fully recycled.
 
 # Quest.2563 - §6§lSievert for the Vat
@@ -11900,9 +11900,9 @@ gtnh.quest2973.desc=... can't hold it back anymore. It is time to collect the re
 gtnh.quest2974.name=§9§lBauxite Slag
 gtnh.quest2974.desc=Now the slurry can be separated in a chemical process. Besides the Alumina which we get directly, the most important part is the Bauxite Slag which we will process further. You can also centrifuge the Sluice Juice for some extra byproducts. %n%nIf you don't have Aluminum Hydroxide yet, look around a bit in NEI. You can get it from Sodium Aluminate or from either Ruby, Sapphire, or Green Saphire Slurry.
 
-# Quest.2975 - §c§l[OUTDATED]§r Chemical cryolite production
-gtnh.quest2975.name=§c§l[OUTDATED]§r Chemical cryolite production
-gtnh.quest2975.desc=Feeling too lazy to search for a cryolite vein to smelt all this alumina? You can always synthesize it with hydroflouric acid, sodium hydroxide and aluminium hydroxide.
+# Quest.2975 - §6§lI need a drink. And more Chrome.
+gtnh.quest2975.name=§6§lI need a drink. And more Chrome.
+gtnh.quest2975.desc=The most efficient way to process Ruby Ore. Better than electrolysis.%n%n§3Check out NEI for similar processes based on Sapphire and Green Sapphire.
 
 # Quest.2976 - §9§lGallium and more
 gtnh.quest2976.name=§9§lGallium and more
@@ -12928,9 +12928,9 @@ gtnh.quest3230.desc=Legends speak of a portal to a different realm filled with g
 gtnh.quest3231.name=Round one... FIGHT!
 gtnh.quest3231.desc=Put the 4 pylons down and shift right click the terrasteel ingot on the beacon to summon the Gaia Guardian.
 
-# Quest.3232 - Stonks
-gtnh.quest3232.name=Stonks
-gtnh.quest3232.desc=So the rumours about the elves were true. Well, *were* true. They're still mostly true. and what isn't true used to be true.%n%nTurns out they have since been talking to a person going by the name of Olafe, which has since sparked a industrial revolution in the Elven lands. That sadly means that they now insist on receiving the latest fashion in machinery to fuel their ever-expanding factories, in exchange for the elven materials that are now rapidly going out of fashion.%n%nSomeone needs to have a word with this guy...
+# Quest.3232 - A deal with Alfar Industries
+gtnh.quest3232.name=A deal with Alfar Industries
+gtnh.quest3232.desc=So the rumors about the elves are true. Well, §owere§r true. Some are still true. And what isn't true used to be true.%n%nTurns out they have since been talking to a mysterious individual they call the §oDream Master§r. Apparently that sparked an industrial revolution among the Alfar. Sadly, that means that they now insist on receiving the latest fashion in machinery to fuel their ever-expanding factories, in exchange for the elven materials that are now rapidly going out of fashion.%n%nSomeone needs to have a word with this guy...
 
 # Quest.3233 - You are worthy
 gtnh.quest3233.name=You are worthy
@@ -13131,6 +13131,14 @@ gtnh.quest3281.desc=Neutronium nanites are slow moving, but that allowed them to
 # Quest.3282 - Kevlar
 gtnh.quest3282.name=Kevlar
 gtnh.quest3282.desc=There is a new material that can be used for some high tier crafts. The production line is long and tedious but you should know how to use NEI by now, right?%n%n§3Hint: If you don't feel like automating a 52 step chemical line, you could also have a look at the Kevlar bee and the new QFT if you are sufficiently high tier.
+
+# Quest.3283 - Space Elevator
+gtnh.quest3283.name=Space Elevator
+gtnh.quest3283.desc=The Space Elevator is a modular structure. It can be equipped with Space Elevator modules, which then can take on different tasks. %n%nInitially, your Space Elevator has 6 module slots that can be used. You can later upgrade that to up to 12 with Mk-II and Mk-III motors. The motor tier also determines the module tier that you can use. The I/O is not shared between modules, each module only sees their own I/O slots. Energy is only provided to the central structure of the Space Elevator and then automatically distributed to all modules.%n%nAfter a module has been inserted and supplied with the right I/O, it can be configured further using parameters.%n%nYou can see in NEI which fluids are pumpable with the Space Pumping Module. It consume 1A UHV and needs to be supplied with a Rocket Control Computer in its GUI slot to work. The Gas Type is a parameter.%n%nNEI also has an overview of all the ores you can obtain with a Space Mining Module. It needs to supplied with a drone, which will act as catalyst, a set of input items, computation and either Helium, Bismuth or Radon plasma. The plasma will boost both the recipe time and the amount of bonus stacks you get out of a recipe. With its parameters you can adjust parallels, overdrive, and distance. When multiple recipes have the same input and you have the distance set to a value that they share, the module will pick a random one, taking the recipes weights into consideration.
+
+# Quest.3284 - IAADDS
+gtnh.quest3284.name=IAADDS
+gtnh.quest3284.desc=Ah right, the IAADDS. Of course.%n%n§3Hopefully the entire tooltip fits on your screen. Otherwise you need to wait until we expand this quest text.
 
 ##################################Line##################################
 
