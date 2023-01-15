@@ -1263,27 +1263,27 @@
         <Loot Identifier="954c98d6-5bc3-4de9-a6a6-c7c9b0f0cae4" ItemName="gendustry:GeneTemplate" Amount="2" NBTTag="" Chance="70" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="0e2dff8b-087d-4ab3-a82b-81b85565d287" ItemName="Forestry:alveary:4" Amount="1" NBTTag="" Chance="33" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="029c7a6d-a9bd-4b16-96e4-146e23591798" ItemName="gregtech:gt.blockmachines:9399" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="0821b5ca-56a7-45da-86ec-e16619a7fb8b" ItemName="gendustry:ApiaryUpgrade:17" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="00fe616c-6234-4353-bcf9-f3a87584ea57" ItemName="gendustry:ApiaryUpgrade:11" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="979bba4c-fbc6-4f74-80d9-7f87a66d9048" ItemName="gendustry:ApiaryUpgrade:2" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="bff4ef65-51d6-4a12-b0cb-d323b67d048b" ItemName="gendustry:ApiaryUpgrade:20" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="6ddae5f6-bbef-4175-a41d-202143c802f7" ItemName="gendustry:ApiaryUpgrade:5" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="cdb69d70-e7fa-47b2-9406-3321f859e563" ItemName="gendustry:ApiaryUpgrade:14" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="47bfa4c4-6097-4a9d-980e-8e859f084453" ItemName="gendustry:ApiaryUpgrade:4" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="c144fcd3-6a28-42c1-b88e-0d2a0de136d6" ItemName="gendustry:ApiaryUpgrade:13" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="ebc23ca4-ef57-497c-a3c2-502553cac8ee" ItemName="gendustry:ApiaryUpgrade:22" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="4ce59bd3-a320-45d9-a8fb-f31f68a5adc5" ItemName="gendustry:ApiaryUpgrade:16" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="247b844e-f682-47b0-9cf4-b846f51a0c67" ItemName="gendustry:ApiaryUpgrade:7" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="e759405d-7027-474d-af15-d29ebd737efd" ItemName="gendustry:ApiaryUpgrade:1" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="c21bfc4f-a074-4321-b47e-1c85061f8cf9" ItemName="gendustry:ApiaryUpgrade:10" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="eca44973-a0d7-4dd1-bc28-36e8c85c623d" ItemName="gendustry:ApiaryUpgrade:19" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="25014fa5-1722-47e2-b6df-00a40768df29" ItemName="gendustry:ApiaryUpgrade:18" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="a9286f15-32b0-4f09-941c-bfedfb582e08" ItemName="gendustry:ApiaryUpgrade:3" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="2d711619-e9ff-42f3-ab37-b2439b39d8d9" ItemName="gendustry:ApiaryUpgrade:21" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="f8785570-7923-430c-9a1a-e28458d69be1" ItemName="gendustry:ApiaryUpgrade:12" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="4f6b438e-df92-4724-87c2-ba2317dd87a1" ItemName="gendustry:ApiaryUpgrade:6" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="41cb594c-b4d1-4ea3-a57b-df17aab6d092" ItemName="gendustry:ApiaryUpgrade:15" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="4562c2b3-55ef-4e42-9131-a757f158ac1b" ItemName="gendustry:ApiaryUpgrade" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="0821b5ca-56a7-45da-86ec-e16619a7fb8b" ItemName="gregtech:gt.metaitem.03:32210" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="00fe616c-6234-4353-bcf9-f3a87584ea57" ItemName="gregtech:gt.metaitem.03:32211" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="979bba4c-fbc6-4f74-80d9-7f87a66d9048" ItemName="gregtech:gt.metaitem.03:32212" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="bff4ef65-51d6-4a12-b0cb-d323b67d048b" ItemName="gregtech:gt.metaitem.03:32213" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="6ddae5f6-bbef-4175-a41d-202143c802f7" ItemName="gregtech:gt.metaitem.03:32214" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="cdb69d70-e7fa-47b2-9406-3321f859e563" ItemName="gregtech:gt.metaitem.03:32215" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="47bfa4c4-6097-4a9d-980e-8e859f084453" ItemName="gregtech:gt.metaitem.03:32216" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="c144fcd3-6a28-42c1-b88e-0d2a0de136d6" ItemName="gregtech:gt.metaitem.03:32217" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="ebc23ca4-ef57-497c-a3c2-502553cac8ee" ItemName="gregtech:gt.metaitem.03:32218" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="4ce59bd3-a320-45d9-a8fb-f31f68a5adc5" ItemName="gregtech:gt.metaitem.03:32219" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="247b844e-f682-47b0-9cf4-b846f51a0c67" ItemName="gregtech:gt.metaitem.03:32220" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="e759405d-7027-474d-af15-d29ebd737efd" ItemName="gregtech:gt.metaitem.03:32221" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="c21bfc4f-a074-4321-b47e-1c85061f8cf9" ItemName="gregtech:gt.metaitem.03:32222" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="eca44973-a0d7-4dd1-bc28-36e8c85c623d" ItemName="gregtech:gt.metaitem.03:32223" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="25014fa5-1722-47e2-b6df-00a40768df29" ItemName="gregtech:gt.metaitem.03:32224" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="a9286f15-32b0-4f09-941c-bfedfb582e08" ItemName="gregtech:gt.metaitem.03:32225" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="2d711619-e9ff-42f3-ab37-b2439b39d8d9" ItemName="gregtech:gt.metaitem.03:32226" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="f8785570-7923-430c-9a1a-e28458d69be1" ItemName="gregtech:gt.metaitem.03:32227" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="4f6b438e-df92-4724-87c2-ba2317dd87a1" ItemName="gregtech:gt.metaitem.03:32228" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="41cb594c-b4d1-4ea3-a57b-df17aab6d092" ItemName="gregtech:gt.metaitem.03:32229" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="4562c2b3-55ef-4e42-9131-a757f158ac1b" ItemName="gregtech:gt.metaitem.03:32209" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="b13034ff-01f1-44ce-8b02-55b12174558f" ItemName="gendustry:UpgradeFrame" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
     <LootGroup GroupMetaID="28" GroupName="Fast Food" Rarity="0" MinItems="1" MaxItems="1" CombineTrashGroup="true">
