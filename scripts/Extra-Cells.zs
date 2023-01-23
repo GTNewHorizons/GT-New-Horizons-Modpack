@@ -602,9 +602,6 @@ Assembler.addRecipe(<extracells:part.base>, <appliedenergistics2:item.ItemMultiP
 // --- ME Fluid Import Bus
 Assembler.addRecipe(<extracells:part.base:1>, <appliedenergistics2:item.ItemMultiPart:240>, <gregtech:gt.metaitem.01:17526> * 3, 300, 120);
 
-// --- ME Fluid Storage Bus
-Assembler.addRecipe(<extracells:part.base:2>, <appliedenergistics2:item.ItemMultiPart:220>, <gregtech:gt.metaitem.01:17526> * 3, 300, 120);
-
 // --- ME Fluid Level Emitter
 Assembler.addRecipe(<extracells:part.base:4>, <appliedenergistics2:item.ItemMultiPart:280>, <gregtech:gt.metaitem.01:17526>, 100, 120);
 
