@@ -6,6 +6,7 @@
 
 
 // --- I18N ---
+val _I18N_Lang = "en_US";
 val I18N_Warp_Theory_0 = "Impure Tear";
 val I18N_Warp_Theory_1 = "Magical-ish Medicine";
 val I18N_Warp_Theory_2 = "Pure Tear";

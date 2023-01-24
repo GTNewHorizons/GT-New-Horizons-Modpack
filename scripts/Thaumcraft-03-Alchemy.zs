@@ -11,6 +11,7 @@ import mods.gregtech.Pulverizer;
 
 
 // --- I18N ---
+val _I18N_Lang = "en_US";
 val I18N_Thaumcraft_03_Alchemy_0 = "Charcoal dust and Lignite dust works well too. They are not shown in the recipe because of Mod Tweaker";
 
 // --- Variables ---

@@ -11,6 +11,7 @@ import mods.gregtech.CuttingSaw;
 
 
 // --- I18N ---
+val _I18N_Lang = "en_US";
 val I18N_Witchery_0 = "Witchery";
 val I18N_Witchery_1 = "Anointing Paste";
 val I18N_Witchery_2 = "[WI] Magical Paste";

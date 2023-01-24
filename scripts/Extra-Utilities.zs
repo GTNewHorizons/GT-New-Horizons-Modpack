@@ -18,6 +18,7 @@ import mods.thaumcraft.Warp;
 
 
 // --- I18N ---
+val _I18N_Lang = "en_US";
 val I18N_Extra_Utilities_0 = "Be free like a bird ... (Theorie)";
 val I18N_Extra_Utilities_1 = "[ExU] The way to the sky! - Part I";
 val I18N_Extra_Utilities_2 = "Happy to have crafted or looted your first Copter Pack or in general having access to Jetpacks?<BR>Annoyed about the fact that you need some type of fuel or energy for your Jetpack to work?<BR>What would a Thaumaturge give to achieve the ability to fly without these restrictions?<BR>Maybe some §oWarp§r? Not at this point yet, maybe later?<BR>But what should you do now to achieve §oFreedom like a bird§r? Maybe you remember Icarus and what happened to him?";
@@ -1374,37 +1375,37 @@ Infusion.addRecipe("EXURINGS_CRAFTING", ARInvisableWings, [SalisMundus, RoseGold
 
 // --- Research I: Flavor Text
 Research.addResearch("EXURINGS", "ARTIFICE", "praecantatio 10, volatus 10, tempestas 100, nebrisum 10, motus 10, terminus 10", 1, -5 as int, 16, TravelWingsImage);
-game.setLocalization("en_US", "tc.research_name.EXURINGS", I18N_Extra_Utilities_0);
-game.setLocalization("en_US", "tc.research_text.EXURINGS", I18N_Extra_Utilities_1);
+game.setLocalization(_I18N_Lang, "tc.research_name.EXURINGS", I18N_Extra_Utilities_0);
+game.setLocalization(_I18N_Lang, "tc.research_text.EXURINGS", I18N_Extra_Utilities_1);
 Research.setRound("EXURINGS", true);
 Research.setConcealed("EXURINGS", true);
 Research.addPrereq("EXURINGS", "INFUSION", true);
 Research.addPage("EXURINGS", "tc.research_page.EXURINGS.1");
-game.setLocalization("en_US", "tc.research_page.EXURINGS.1", I18N_Extra_Utilities_2);
+game.setLocalization(_I18N_Lang, "tc.research_page.EXURINGS.1", I18N_Extra_Utilities_2);
 Research.addPage("EXURINGS", "tc.research_page.EXURINGS.2");
-game.setLocalization("en_US", "tc.research_page.EXURINGS.2", I18N_Extra_Utilities_3);
+game.setLocalization(_I18N_Lang, "tc.research_page.EXURINGS.2", I18N_Extra_Utilities_3);
 
 Research.addPage("EXURINGS", "tc.research_page.EXURINGS.3");
-game.setLocalization("en_US", "tc.research_page.EXURINGS.3", I18N_Extra_Utilities_4);
+game.setLocalization(_I18N_Lang, "tc.research_page.EXURINGS.3", I18N_Extra_Utilities_4);
 Research.addPage("EXURINGS", "tc.research_page.EXURINGS.4");
-game.setLocalization("en_US", "tc.research_page.EXURINGS.4", I18N_Extra_Utilities_5);
+game.setLocalization(_I18N_Lang, "tc.research_page.EXURINGS.4", I18N_Extra_Utilities_5);
 Research.addPage("EXURINGS", "tc.research_page.EXURINGS.5");
-game.setLocalization("en_US", "tc.research_page.EXURINGS.5", I18N_Extra_Utilities_6);
+game.setLocalization(_I18N_Lang, "tc.research_page.EXURINGS.5", I18N_Extra_Utilities_6);
 Research.addPage("EXURINGS", "tc.research_page.EXURINGS.6");
-game.setLocalization("en_US", "tc.research_page.EXURINGS.6", I18N_Extra_Utilities_7);
+game.setLocalization(_I18N_Lang, "tc.research_page.EXURINGS.6", I18N_Extra_Utilities_7);
 
 // --- Research II: Angel Rings (crafting)
 Research.addResearch("EXURINGS_CRAFTING", "ARTIFICE", "praecantatio 10, volatus 10, tempestas 10, nebrisum 10, motus 10, terminus 10", -1 as int, -5 as int, 16, ARInvisableWings);
-game.setLocalization("en_US", "tc.research_name.EXURINGS_CRAFTING", I18N_Extra_Utilities_8);
-game.setLocalization("en_US", "tc.research_text.EXURINGS_CRAFTING", I18N_Extra_Utilities_9);
+game.setLocalization(_I18N_Lang, "tc.research_name.EXURINGS_CRAFTING", I18N_Extra_Utilities_8);
+game.setLocalization(_I18N_Lang, "tc.research_text.EXURINGS_CRAFTING", I18N_Extra_Utilities_9);
 Research.addPrereq("EXURINGS_CRAFTING", "EXURINGS", false);
 Research.setConcealed("EXURINGS_CRAFTING", true);
 Warp.addToResearch("EXURINGS_CRAFTING", 16);
 Research.addPage("EXURINGS_CRAFTING", "tc.research_page.EXURINGS_CRAFTING.1");
-game.setLocalization("en_US", "tc.research_page.EXURINGS_CRAFTING.1", I18N_Extra_Utilities_10);
+game.setLocalization(_I18N_Lang, "tc.research_page.EXURINGS_CRAFTING.1", I18N_Extra_Utilities_10);
 Research.addInfusionPage("EXURINGS_CRAFTING", ARInvisableWings);
 Research.addPage("EXURINGS_CRAFTING", "tc.research_page.EXURINGS_CRAFTING.2");
-game.setLocalization("en_US", "tc.research_page.EXURINGS_CRAFTING.2", I18N_Extra_Utilities_11);
+game.setLocalization(_I18N_Lang, "tc.research_page.EXURINGS_CRAFTING.2", I18N_Extra_Utilities_11);
 Research.addInfusionPage("EXURINGS_CRAFTING", ARFeatheryWings);
 Research.addInfusionPage("EXURINGS_CRAFTING", ARFairyWings);
 Research.addInfusionPage("EXURINGS_CRAFTING", ARDragonWings);

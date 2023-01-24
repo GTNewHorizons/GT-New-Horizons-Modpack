@@ -10,6 +10,7 @@ import mods.ic2.Compressor;
 
 
 // --- I18N ---
+val _I18N_Lang = "en_US";
 val I18N_ThaumicTinkerer_02_Kami_0 = "Dimensional Shards";
 val I18N_ThaumicTinkerer_02_Kami_1 = "[TT] Rarities of the Otherworld";
 val I18N_ThaumicTinkerer_02_Kami_2 = "Similarly to the overworld, the Nether and the End also have their specific shards, these are rarely held by either Zombie Pigmen living in the Nether or Endermen living in the End.<BR> You find a way to get this Shards with a Infusion recipe also.<BR><BR><IMG>ttinkerer:textures/items/netherShard.png:0:0:255:255:0.0625</IMG><IMG>ttinkerer:textures/items/enderShard.png:0:0:255:255:0.0625</IMG>";

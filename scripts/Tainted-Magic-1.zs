@@ -2,6 +2,7 @@
 
 
 // --- I18N ---
+val _I18N_Lang = "en_US";
 val I18N_Tainted_Magic_1_0 = "Shadowmetal";
 val I18N_Tainted_Magic_1_1 = "I have seen the truth";
 val I18N_Tainted_Magic_1_2 = "Unbalanced Shards";

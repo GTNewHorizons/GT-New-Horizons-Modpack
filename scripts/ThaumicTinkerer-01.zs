@@ -14,6 +14,7 @@ import mods.gregtech.PrecisionLaser;
 
 
 // --- I18N ---
+val _I18N_Lang = "en_US";
 val I18N_ThaumicTinkerer_01_0 = "Tome of Knowledge Sharing";
 val I18N_ThaumicTinkerer_01_1 = "[TT] A Goldfish's Diary";
 val I18N_ThaumicTinkerer_01_2 = "Smokey Quartz";

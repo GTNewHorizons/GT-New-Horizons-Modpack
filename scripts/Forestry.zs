@@ -17,6 +17,7 @@ import mods.nei.NEI;
 
 
 // --- I18N ---
+val _I18N_Lang = "en_US";
 val I18N_Forestry_0 = "Proven Frame";
 val I18N_Forestry_1 = "[FR] Better than Impregnated Frames";
 val I18N_Forestry_2 = "The Proven Frame is an item used in an Apiary. Each frame doubles the bees productivity. Out of the three Forestry frames (Untreated, Impregnated and Proven), the Proven Frame has the longest durability.<BR> Proven Frames are normally only obtainable through trading with an Apiarist Villager. The Villager will trade six Proven Frames for one Emerald.<BR> Now you find a magical way put different Bee products and infuse a impregnated Frame to get a Proven Frame. In an Alveary structure, the Frame Housing can be added to make use of the Frame.";

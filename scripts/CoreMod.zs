@@ -26,6 +26,7 @@ import mods.gregtech.Wiremill;
 
 
 // --- I18N ---
+val _I18N_Lang = "en_US";
 val I18N_CoreMod_0 = "New Horizons";
 val I18N_CoreMod_1 = "Wither Protection Ring";
 val I18N_CoreMod_2 = "[NH] Wither...? It is star farming time";

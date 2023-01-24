@@ -14,6 +14,7 @@ import mods.gregtech.Pulverizer;
 
 
 // --- I18N ---
+val _I18N_Lang = "en_US";
 val I18N_Ender_IO_0 = "Cooldown 2 seconds";
 
 

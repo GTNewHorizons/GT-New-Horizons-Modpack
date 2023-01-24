@@ -2,6 +2,7 @@
 
 
 // --- I18N ---
+val _I18N_Lang = "en_US";
 val I18N_Renaming_0 = "Personal Ender Chest";
 val I18N_Renaming_1 = "Only For Personal Use";
 val I18N_Renaming_2 = "Infinity Engine";

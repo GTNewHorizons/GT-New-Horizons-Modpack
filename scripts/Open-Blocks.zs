@@ -13,6 +13,7 @@ import mods.gregtech.Mixer;
 
 
 // --- I18N ---
+val _I18N_Lang = "en_US";
 val I18N_Open_Blocks_0 = "Golden Egg";
 val I18N_Open_Blocks_1 = "[OB] Make A MiniMe";
 val I18N_Open_Blocks_2 = "The Golden Egg is a block from the OpenBlocks mod. This block is used to summon the Baby Mini Me. Before it hatches, it will begin to slowly spin in circles. After many spins, it will grow and emit large amounts of light. It will then float into the air, and explode. The explosion is minor, and should only break a single layer of standard resistance blocks. Right before it explodes, it will lift surrounding blocks into the air, then drop them back into place. Pictures of the hatching process can be found below.";

@@ -16,6 +16,7 @@ import mods.gregtech.Pulverizer;
 
 
 // --- I18N ---
+val _I18N_Lang = "en_US";
 val I18N_Emt_0 = "Electric Magic Tools";
 val I18N_Emt_1 = "Who says magic and technology can't go together?";
 val I18N_Emt_2 = "Who says magic can't work with technology? Our researchers have collaborated with the top mages of the school of Thaumaturgy to bring you the effectiveness of magic coupled with the convenience of electric tools.";

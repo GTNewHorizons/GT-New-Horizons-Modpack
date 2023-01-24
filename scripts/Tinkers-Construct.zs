@@ -11,6 +11,7 @@ import mods.nei.NEI;
 
 
 // --- I18N ---
+val _I18N_Lang = "en_US";
 val I18N_Tinkers_Construct_0 = "Can be placed on a empty IC2 Crop.";
 
 // --- Variables ---

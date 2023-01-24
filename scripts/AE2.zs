@@ -17,6 +17,7 @@ import minetweaker.item.IItemStack;
 import minetweaker.item.IIngredient;
 
 // --- I18N ---
+val _I18N_Lang = "en_US";
 val I18N_AE2_0 = "Universal Storage Housing";
 
 // --- Variables ---

@@ -2,6 +2,7 @@
 
 
 // --- I18N ---
+val _I18N_Lang = "en_US";
 val I18N_Thaumic_Exploration_01_0 = "Shard Rings";
 val I18N_Thaumic_Exploration_01_1 = "Conserving vis";
 val I18N_Thaumic_Exploration_01_2 = "Seal of Jar Binding";

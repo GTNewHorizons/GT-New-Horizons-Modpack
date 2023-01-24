@@ -12,6 +12,7 @@ import mods.gregtech.CuttingSaw;
 
 
 // --- I18N ---
+val _I18N_Lang = "en_US";
 val I18N_Thaumic_Bases_01_Main_0 = "No activation here!";
 val I18N_Thaumic_Bases_01_Main_1 = "A thaumaturge always seeks for a way to give discovered materials a real purpose. That metal you've just unlocked, thauminite works just as thaumium, so why not use it as a wand cap ? Well, thauminite doesn't seem to be as bendable as thaumium, due to the high amount of vitreus in it. However, that property can be used to enhance regular thaumium caps. The infusion is capable of turning the thauminite into small pieces, making it able to re-crystalise directly on the thaumium caps. To ensure that cap and thauminite are bound together for  ...forever you'll also need some quicksilver and also a bit of salis mundus to reduce thauminites crystalisation time.";
 val I18N_Thaumic_Bases_01_Main_2 = "These new caps seem to better than thaumium caps, but you feel something within them... maybe there is something more to them?";
@@ -593,10 +594,10 @@ Research.refreshResearchRecipe("TB.NodeFoci.Taint");
 
 // --- Taint Flask
 Research.addResearch("TB.TaintFlask", "THAUMICBASES", "vitium 10, alienis 15, perditio 8, permutatio 12", 1, -1 as int, 8, <thaumicbases:concentratedTaint>);
-game.setLocalization("en_US", "tc.research_name.TB.TaintFlask", I18N_Thaumic_Bases_01_Main_3);
-game.setLocalization("en_US", "tc.research_text.TB.TaintFlask", I18N_Thaumic_Bases_01_Main_4);
+game.setLocalization(_I18N_Lang, "tc.research_name.TB.TaintFlask", I18N_Thaumic_Bases_01_Main_3);
+game.setLocalization(_I18N_Lang, "tc.research_text.TB.TaintFlask", I18N_Thaumic_Bases_01_Main_4);
 mods.thaumcraft.Research.addPage("TB.TaintFlask", "tb.rec.TB.TaintFlask.page.NH.0");
-game.setLocalization("en_US", "tb.rec.TB.TaintFlask.page.NH.0", I18N_Thaumic_Bases_01_Main_5);
+game.setLocalization(_I18N_Lang, "tb.rec.TB.TaintFlask.page.NH.0", I18N_Thaumic_Bases_01_Main_5);
 mods.thaumcraft.Research.addInfusionPage("TB.TaintFlask", <thaumicbases:concentratedTaint>);
 mods.thaumcraft.Research.addPrereq("TB.TaintFlask", "TB.INFUSION", false);
 mods.thaumcraft.Research.addPrereq("TB.TaintFlask", "BOTTLETAINT", true);

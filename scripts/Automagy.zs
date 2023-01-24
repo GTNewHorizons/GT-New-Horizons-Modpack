@@ -2,6 +2,7 @@
 
 
 // --- I18N ---
+val _I18N_Lang = "en_US";
 val I18N_Automagy_0 = "Infused Gold";
 val I18N_Automagy_1 = "[AM] Infuse Gold with magic.";
 val I18N_Automagy_2 = "You found a way to fuse gold and thaumium to create a new metal INFUSED GOLD";

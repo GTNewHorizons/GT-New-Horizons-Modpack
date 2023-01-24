@@ -20,6 +20,7 @@ import mods.gregtech.Slicer;
 
 
 // --- I18N ---
+val _I18N_Lang = "en_US";
 val I18N_Minecraft_0 = "Compressed Meteoric Iron Plate";
 val I18N_Minecraft_1 = "Compressed Copper Plate";
 val I18N_Minecraft_2 = "Compressed Tin Plate";

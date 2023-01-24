@@ -20,6 +20,7 @@ import mods.gregtech.Wiremill;
 
 
 // --- I18N ---
+val _I18N_Lang = "en_US";
 val I18N_Railcraft_0 = "Lapatron Loader Upgrade";
 val I18N_Railcraft_1 = "Lead Plate";
 

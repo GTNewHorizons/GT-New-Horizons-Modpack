@@ -2,6 +2,7 @@
 
 
 // --- I18N ---
+val _I18N_Lang = "en_US";
 val I18N_GraviSuite_0 = "Superconductor Cover";
 val I18N_GraviSuite_1 = "Superconductor";
 val I18N_GraviSuite_2 = "Cooling Core";
