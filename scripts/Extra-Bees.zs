@@ -12,6 +12,7 @@ import mods.nei.NEI;
 
 
 // --- I18N ---
+val _I18N_Lang = "en_US";
 val I18N_Extra_Bees_0 = "Healing Frame";
 val I18N_Extra_Bees_1 = "[EB] The Bees will never die ?";
 val I18N_Extra_Bees_2 = "The Healing Frame is an Item used in an Apiary, which increases a Queens lifespan at the cost of a lesser productivity and a decreased mutation rate. It increases a bees lifespan 50% while reducing its productivity to 75% and the chance of mutation to only 50%. It is constructed using Clay and an Impregnated Frame. In an Alveary structure, the Frame Housing can be added to make use of the Frame.";

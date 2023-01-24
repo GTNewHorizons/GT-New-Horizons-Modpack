@@ -6,6 +6,7 @@ import mods.thaumcraft.Research;
 
 
 // --- I18N ---
+val _I18N_Lang = "en_US";
 val I18N_Forbidden_Magic_01_Wands_0 = "A long Journey";
 val I18N_Forbidden_Magic_01_Wands_1 = "[FM] There must be more Magic!";
 val I18N_Forbidden_Magic_01_Wands_2 = "The Thaumonomicon told you about purple trees with white leaves and about colorful sparkeling flowers, but you simple were unable to find them in the world, it seems that they don't exist.<BR> You decited to create these Objects yourself. You're a Thaumaturge, you don't care if things exist or not, you can simpley create them on your own, but it will take further investigation to do so.";
@@ -78,10 +79,10 @@ mods.thaumcraft.Infusion.addRecipe("ROD_witchwood", <witchery:ingredient:82>,
 
 // Journey
 mods.thaumcraft.Research.addResearch("JOURNEY", "FORBIDDEN", "iter 5, praecantatio 10, instrumentum 3", -3 as int, 1, 8, <BiomesOPlenty:food:7>);
-game.setLocalization("en_US", "tc.research_name.JOURNEY", I18N_Forbidden_Magic_01_Wands_0);
-game.setLocalization("en_US", "tc.research_text.JOURNEY", I18N_Forbidden_Magic_01_Wands_1);
+game.setLocalization(_I18N_Lang, "tc.research_name.JOURNEY", I18N_Forbidden_Magic_01_Wands_0);
+game.setLocalization(_I18N_Lang, "tc.research_text.JOURNEY", I18N_Forbidden_Magic_01_Wands_1);
 mods.thaumcraft.Research.addPage("JOURNEY", "derp.research_page.JOURNEY");
-game.setLocalization("en_US", "derp.research_page.JOURNEY", I18N_Forbidden_Magic_01_Wands_2);
+game.setLocalization(_I18N_Lang, "derp.research_page.JOURNEY", I18N_Forbidden_Magic_01_Wands_2);
 mods.thaumcraft.Research.addPrereq("JOURNEY", "SCHOOLS", false);
 mods.thaumcraft.Research.setRound("JOURNEY",true);
 mods.thaumcraft.Research.setStub("JOURNEY",true);
@@ -89,10 +90,10 @@ mods.thaumcraft.Research.setAutoUnlock("JOURNEY",true);
 
 // Livingwood Wand Rod
 mods.thaumcraft.Research.addResearch("ROD_livingwood", "FORBIDDEN", "victus 5, praecantatio 10, herba 3,instrumentum 4, arbor 5", -1 as int, 3, 8, <ForbiddenMagic:WandCores:7>);
-game.setLocalization("en_US", "tc.research_name.ROD_livingwood", I18N_Forbidden_Magic_01_Wands_3);
-game.setLocalization("en_US", "tc.research_text.ROD_livingwood", I18N_Forbidden_Magic_01_Wands_4);
+game.setLocalization(_I18N_Lang, "tc.research_name.ROD_livingwood", I18N_Forbidden_Magic_01_Wands_3);
+game.setLocalization(_I18N_Lang, "tc.research_text.ROD_livingwood", I18N_Forbidden_Magic_01_Wands_4);
 mods.thaumcraft.Research.addPage("ROD_livingwood", "derp.research_page.ROD_livingwood");
-game.setLocalization("en_US", "derp.research_page.ROD_livingwood", I18N_Forbidden_Magic_01_Wands_5);
+game.setLocalization(_I18N_Lang, "derp.research_page.ROD_livingwood", I18N_Forbidden_Magic_01_Wands_5);
 mods.thaumcraft.Research.addInfusionPage("ROD_livingwood",<ForbiddenMagic:WandCores:7>);
 mods.thaumcraft.Research.setConcealed("ROD_livingwood", true);
 mods.thaumcraft.Research.addPrereq("ROD_livingwood", "JOURNEY", false);
@@ -106,10 +107,10 @@ mods.thaumcraft.Research.orphanResearch("ROD_dreamwood");
 mods.thaumcraft.Research.removeResearch("ROD_dreamwood");
 mods.thaumcraft.Research.addResearch("ROD_dreamwood_v2", "FORBIDDEN", "auram 5, praecantatio 10, herba 3,instrumentum 4, arbor 5", 1, 4, 8, <ForbiddenMagic:WandCores:11>);
 
-game.setLocalization("en_US", "tc.research_name.ROD_dreamwood_v2", I18N_Forbidden_Magic_01_Wands_6);
-game.setLocalization("en_US", "tc.research_text.ROD_dreamwood_v2", I18N_Forbidden_Magic_01_Wands_7);
+game.setLocalization(_I18N_Lang, "tc.research_name.ROD_dreamwood_v2", I18N_Forbidden_Magic_01_Wands_6);
+game.setLocalization(_I18N_Lang, "tc.research_text.ROD_dreamwood_v2", I18N_Forbidden_Magic_01_Wands_7);
 mods.thaumcraft.Research.addPage("ROD_dreamwood_v2", "derp.research_page.ROD_dreamwood_v2");
-game.setLocalization("en_US", "derp.research_page.ROD_dreamwood_v2", I18N_Forbidden_Magic_01_Wands_8);
+game.setLocalization(_I18N_Lang, "derp.research_page.ROD_dreamwood_v2", I18N_Forbidden_Magic_01_Wands_8);
 mods.thaumcraft.Research.addInfusionPage("ROD_dreamwood_v2",<ForbiddenMagic:WandCores:12>);
 mods.thaumcraft.Research.setConcealed("ROD_dreamwood_v2", true);
 mods.thaumcraft.Research.addPrereq("ROD_dreamwood_v2", "ROD_livingwood", false);
@@ -127,10 +128,10 @@ mods.thaumcraft.Arcane.addShaped("ROD_dreamwood_staff_v2", <ForbiddenMagic:WandC
 [<Thaumcraft:blockCrystal:2>, <ForbiddenMagic:WandCores:11>, <Thaumcraft:blockCrystal:3>],
 [<ForbiddenMagic:WandCores:11>, <Thaumcraft:blockCrystal:4>,<Thaumcraft:blockCrystal:5>]]);
 
-game.setLocalization("en_US", "tc.research_name.ROD_dreamwood_staff_v2", I18N_Forbidden_Magic_01_Wands_9);
-game.setLocalization("en_US", "tc.research_text.ROD_dreamwood_staff_v2", I18N_Forbidden_Magic_01_Wands_10);
+game.setLocalization(_I18N_Lang, "tc.research_name.ROD_dreamwood_staff_v2", I18N_Forbidden_Magic_01_Wands_9);
+game.setLocalization(_I18N_Lang, "tc.research_text.ROD_dreamwood_staff_v2", I18N_Forbidden_Magic_01_Wands_10);
 mods.thaumcraft.Research.addPage("ROD_dreamwood_staff_v2", "derp.research_page.ROD_dreamwood_staff_v2");
-game.setLocalization("en_US", "derp.research_page.ROD_dreamwood_staff_v2", I18N_Forbidden_Magic_01_Wands_11);
+game.setLocalization(_I18N_Lang, "derp.research_page.ROD_dreamwood_staff_v2", I18N_Forbidden_Magic_01_Wands_11);
 mods.thaumcraft.Research.addPrereq("ROD_dreamwood_staff_v2", "ROD_dreamwood_v2", false);
 mods.thaumcraft.Research.addArcanePage("ROD_dreamwood_staff_v2",<ForbiddenMagic:WandCores:13>);
 mods.thaumcraft.Research.setSpikey("ROD_dreamwood_staff_v2", true);
@@ -144,10 +145,10 @@ mods.thaumcraft.Research.addResearch("CAP_manasteel", "FORBIDDEN", "metallum 5, 
 mods.thaumcraft.Infusion.addRecipe("CAP_manasteel", <Thaumcraft:WandCap:4>, [<gregtech:gt.metaitem.01:2333>,<Botania:manaResource:0>,<gregtech:gt.metaitem.01:2333>,<Botania:manaResource:0>,<gregtech:gt.metaitem.01:2333>,<Botania:manaResource:0>,<gregtech:gt.metaitem.01:2333>,<Botania:manaResource:0>,<gregtech:gt.metaitem.01:2333>,<Botania:manaResource:0>],
  "potentia 64, praecantatio 48, electrum 32, instrumentum 24, machina 24", capManaInert, 6);
 
-game.setLocalization("en_US", "tc.research_name.CAP_manasteel", I18N_Forbidden_Magic_01_Wands_12);
-game.setLocalization("en_US", "tc.research_text.CAP_manasteel", I18N_Forbidden_Magic_01_Wands_13);
+game.setLocalization(_I18N_Lang, "tc.research_name.CAP_manasteel", I18N_Forbidden_Magic_01_Wands_12);
+game.setLocalization(_I18N_Lang, "tc.research_text.CAP_manasteel", I18N_Forbidden_Magic_01_Wands_13);
 mods.thaumcraft.Research.addPage("CAP_manasteel", "derp.research_page.CAP_manasteel");
-game.setLocalization("en_US", "derp.research_page.CAP_manasteel", I18N_Forbidden_Magic_01_Wands_14);
+game.setLocalization(_I18N_Lang, "derp.research_page.CAP_manasteel", I18N_Forbidden_Magic_01_Wands_14);
 mods.thaumcraft.Research.addInfusionPage("CAP_manasteel",capManaInert);
 mods.thaumcraft.Research.setConcealed("CAP_manasteel", true);
 mods.thaumcraft.Research.addPrereq("CAP_manasteel", "ROD_livingwood", false);
@@ -161,10 +162,10 @@ mods.thaumcraft.Research.addResearch("CAP_terrasteel", "FORBIDDEN", "terra 5, pr
 mods.thaumcraft.Infusion.addRecipe("CAP_terrasteel", capMana, [<gregtech:gt.metaitem.02:30501>,<Thaumcraft:blockCrystal:3>,<gregtech:gt.metaitem.01:17339>,<Botania:manaResource:4>,<Thaumcraft:blockCrystal:3>,<gregtech:gt.metaitem.02:30501>,<Thaumcraft:blockCrystal:3>,<Botania:manaResource:4>,<gregtech:gt.metaitem.01:17339>,<Thaumcraft:blockCrystal:3>],
 "praecantatio 256, ordo 64, metallum 64, superbia 20, strontio 10", capTerra, 6);
 
-game.setLocalization("en_US", "tc.research_name.CAP_terrasteel", I18N_Forbidden_Magic_01_Wands_15);
-game.setLocalization("en_US", "tc.research_text.CAP_terrasteel", I18N_Forbidden_Magic_01_Wands_16);
+game.setLocalization(_I18N_Lang, "tc.research_name.CAP_terrasteel", I18N_Forbidden_Magic_01_Wands_15);
+game.setLocalization(_I18N_Lang, "tc.research_text.CAP_terrasteel", I18N_Forbidden_Magic_01_Wands_16);
 mods.thaumcraft.Research.addPage("CAP_terrasteel", "derp.research_page.CAP_terrasteel");
-game.setLocalization("en_US", "derp.research_page.CAP_terrasteel", I18N_Forbidden_Magic_01_Wands_17);
+game.setLocalization(_I18N_Lang, "derp.research_page.CAP_terrasteel", I18N_Forbidden_Magic_01_Wands_17);
 mods.thaumcraft.Research.addInfusionPage("CAP_terrasteel",capTerra);
 mods.thaumcraft.Research.setConcealed("CAP_terrasteel", true);
 mods.thaumcraft.Research.addPrereq("CAP_terrasteel", "CAP_manasteel", false);
@@ -180,10 +181,10 @@ mods.thaumcraft.Arcane.addShaped("CAP_elementium", capElementiumInert, "terra 40
 [<ore:ingotElvenElementium>, <ore:elvenPixieDust>, <ore:ingotElvenElementium>],
 [<ore:screwTungstenSteel>, <ore:ingotElvenElementium>, <ore:screwTungstenSteel>]]);
 
-game.setLocalization("en_US", "tc.research_name.CAP_elementium", I18N_Forbidden_Magic_01_Wands_18);
-game.setLocalization("en_US", "tc.research_text.CAP_elementium", I18N_Forbidden_Magic_01_Wands_19);
+game.setLocalization(_I18N_Lang, "tc.research_name.CAP_elementium", I18N_Forbidden_Magic_01_Wands_18);
+game.setLocalization(_I18N_Lang, "tc.research_text.CAP_elementium", I18N_Forbidden_Magic_01_Wands_19);
 mods.thaumcraft.Research.addPage("CAP_elementium", "derp.research_page.CAP_elementium");
-game.setLocalization("en_US", "derp.research_page.CAP_elementium", I18N_Forbidden_Magic_01_Wands_20);
+game.setLocalization(_I18N_Lang, "derp.research_page.CAP_elementium", I18N_Forbidden_Magic_01_Wands_20);
 mods.thaumcraft.Research.addPrereq("CAP_elementium", "CAP_manasteel", false);
 mods.thaumcraft.Research.addArcanePage("CAP_elementium",capElementiumInert);
 mods.thaumcraft.Research.addInfusionPage("CAP_elementium",capElementium);
@@ -191,10 +192,10 @@ mods.thaumcraft.Research.setConcealed("CAP_elementium", true);
 
 // Vinteum 
 mods.thaumcraft.Research.addResearch("VINTEUM", "FORBIDDEN", "metallum 5, permutatio 10, praecantatio 3, lucrum 2", -4 as int, 2, 8, <gregtech:gt.metaitem.01:8529>);
-game.setLocalization("en_US", "tc.research_name.VINTEUM", I18N_Forbidden_Magic_01_Wands_21);
-game.setLocalization("en_US", "tc.research_text.VINTEUM", I18N_Forbidden_Magic_01_Wands_22);
+game.setLocalization(_I18N_Lang, "tc.research_name.VINTEUM", I18N_Forbidden_Magic_01_Wands_21);
+game.setLocalization(_I18N_Lang, "tc.research_text.VINTEUM", I18N_Forbidden_Magic_01_Wands_22);
 mods.thaumcraft.Research.addPage("VINTEUM", "derp.research_page.VINTEUM");
-game.setLocalization("en_US", "derp.research_page.VINTEUM", I18N_Forbidden_Magic_01_Wands_23);
+game.setLocalization(_I18N_Lang, "derp.research_page.VINTEUM", I18N_Forbidden_Magic_01_Wands_23);
 mods.thaumcraft.Research.addCruciblePage("VINTEUM",<gregtech:gt.metaitem.01:9529>);
 mods.thaumcraft.Research.setConcealed("VINTEUM", true);
 mods.thaumcraft.Research.addPrereq("VINTEUM", "JOURNEY", false);
@@ -204,10 +205,10 @@ mods.thaumcraft.Warp.addToResearch("VINTEUM",1);
 
 // Vinteum Caps
 mods.thaumcraft.Research.addResearch("CAP_vinteum", "FORBIDDEN", "permutatio 5, praecantatio 10,lucrum 3,instrumentum 4, metallum 5", -5 as int, 3, 8, capVinteum);
-game.setLocalization("en_US", "tc.research_name.CAP_vinteum", I18N_Forbidden_Magic_01_Wands_24);
-game.setLocalization("en_US", "tc.research_text.CAP_vinteum", I18N_Forbidden_Magic_01_Wands_25);
+game.setLocalization(_I18N_Lang, "tc.research_name.CAP_vinteum", I18N_Forbidden_Magic_01_Wands_24);
+game.setLocalization(_I18N_Lang, "tc.research_text.CAP_vinteum", I18N_Forbidden_Magic_01_Wands_25);
 mods.thaumcraft.Research.addPage("CAP_vinteum", "derp.research_page.CAP_vinteum");
-game.setLocalization("en_US", "derp.research_page.CAP_vinteum", I18N_Forbidden_Magic_01_Wands_26);
+game.setLocalization(_I18N_Lang, "derp.research_page.CAP_vinteum", I18N_Forbidden_Magic_01_Wands_26);
 mods.thaumcraft.Research.addArcanePage("CAP_vinteum",capVinteum);
 mods.thaumcraft.Research.setConcealed("CAP_vinteum", true);
 mods.thaumcraft.Research.addPrereq("CAP_vinteum", "VINTEUM", false);
@@ -216,10 +217,10 @@ mods.thaumcraft.Warp.addToResearch("CAP_vinteum",3);
 
 // Witchwood Wand Rod
 mods.thaumcraft.Research.addResearch("ROD_witchwood", "FORBIDDEN", "victus 5, praecantatio 10, herba 3,instrumentum 4, arbor 5", -4 as int, 0, 8, <ForbiddenMagic:WandCores:4>);
-game.setLocalization("en_US", "tc.research_name.ROD_witchwood", I18N_Forbidden_Magic_01_Wands_27);
-game.setLocalization("en_US", "tc.research_text.ROD_witchwood", I18N_Forbidden_Magic_01_Wands_28);
+game.setLocalization(_I18N_Lang, "tc.research_name.ROD_witchwood", I18N_Forbidden_Magic_01_Wands_27);
+game.setLocalization(_I18N_Lang, "tc.research_text.ROD_witchwood", I18N_Forbidden_Magic_01_Wands_28);
 mods.thaumcraft.Research.addPage("ROD_witchwood", "derp.research_page.ROD_witchwood");
-game.setLocalization("en_US", "derp.research_page.ROD_witchwood", I18N_Forbidden_Magic_01_Wands_29);
+game.setLocalization(_I18N_Lang, "derp.research_page.ROD_witchwood", I18N_Forbidden_Magic_01_Wands_29);
 mods.thaumcraft.Research.addInfusionPage("ROD_witchwood",<ForbiddenMagic:WandCores:4>);
 mods.thaumcraft.Research.setConcealed("ROD_witchwood", true);
 mods.thaumcraft.Research.addPrereq("ROD_witchwood", "VINTEUM", false);
@@ -229,10 +230,10 @@ mods.thaumcraft.Warp.addToResearch("ROD_witchwood",2);
 
 // Witchwood Staff Rod
 mods.thaumcraft.Research.addResearch("ROD_witchwood_staff", "FORBIDDEN", "victus 5, praecantatio 10, herba 3,instrumentum 4, arbor 5", -2 as int, 0, 8, <ForbiddenMagic:WandCores:10>);
-game.setLocalization("en_US", "tc.research_name.ROD_witchwood_staff", I18N_Forbidden_Magic_01_Wands_30);
-game.setLocalization("en_US", "tc.research_text.ROD_witchwood_staff", I18N_Forbidden_Magic_01_Wands_31);
+game.setLocalization(_I18N_Lang, "tc.research_name.ROD_witchwood_staff", I18N_Forbidden_Magic_01_Wands_30);
+game.setLocalization(_I18N_Lang, "tc.research_text.ROD_witchwood_staff", I18N_Forbidden_Magic_01_Wands_31);
 mods.thaumcraft.Research.addPage("ROD_witchwood_staff", "derp.research_page.ROD_witchwood_staff");
-game.setLocalization("en_US", "derp.research_page.ROD_witchwood_staff", I18N_Forbidden_Magic_01_Wands_32);
+game.setLocalization(_I18N_Lang, "derp.research_page.ROD_witchwood_staff", I18N_Forbidden_Magic_01_Wands_32);
 mods.thaumcraft.Research.addArcanePage("ROD_witchwood_staff",<ForbiddenMagic:WandCores:10>);
 mods.thaumcraft.Research.setSpikey("ROD_witchwood_staff", true);
 mods.thaumcraft.Research.setConcealed("ROD_witchwood_staff", true);

@@ -2,6 +2,7 @@
 
 
 // --- I18N ---
+val _I18N_Lang = "en_US";
 val I18N_Forestry_Frames_0 = "<Hold Shift>";
 val I18N_Forestry_Frames_1 = "Durability:";
 val I18N_Forestry_Frames_2 = "Territory:";

@@ -29,6 +29,7 @@ import mods.nei.NEI;
 
 
 // --- I18N ---
+val _I18N_Lang = "en_US";
 val I18N_Gregtech_0 = "Work Area 16 Blocks Radius = 4 Chunks";
 val I18N_Gregtech_1 = "Work Area 32 Blocks Radius = 16 Chunks";
 val I18N_Gregtech_2 = "Work Area 48 Blocks Radius = 36 Chunks";

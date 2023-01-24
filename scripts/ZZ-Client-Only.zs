@@ -10,6 +10,7 @@ import mods.gregtech.FormingPress;
 
 
 // --- I18N ---
+val _I18N_Lang = "en_US";
 val I18N_ZZ_Client_Only_0 = "Hellbark Case";
 
 

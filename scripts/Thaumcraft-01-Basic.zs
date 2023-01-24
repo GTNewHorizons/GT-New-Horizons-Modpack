@@ -12,6 +12,7 @@ import mods.nei.NEI;
 
 
 // --- I18N ---
+val _I18N_Lang = "en_US";
 val I18N_Thaumcraft_01_Basic_0 = "Warp Warnings";
 val I18N_Thaumcraft_01_Basic_1 = "[WT] Wither in the Overworld";
 val I18N_Thaumcraft_01_Basic_2 = "Thaumcraft offers considerable power from its devices and tools. But power comes with a price.... That price is represented by Warp: A corruption of the character's mind and soul, inflicting progressively more dire effects upon them. While the effects of warp can range from annoying to deadly, accumulating enough of it can also grant you access to greater power... at the cost of increasing madness, and attention from dark powers. At least, others may call it madness... but is it truly insanity, when the voices in your head grant useful knowledge, and the monsters that appear before you leave remains behind?";

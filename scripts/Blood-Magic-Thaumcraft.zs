@@ -2,6 +2,7 @@
 
 
 // --- I18N ---
+val _I18N_Lang = "en_US";
 val I18N_Blood_Magic_Thaumcraft_0 = "Blood Magic";
 val I18N_Blood_Magic_Thaumcraft_1 = "Blood Altar";
 val I18N_Blood_Magic_Thaumcraft_2 = "[BM] Paying the highest price.";

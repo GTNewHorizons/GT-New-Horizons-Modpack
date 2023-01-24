@@ -10,6 +10,7 @@ import mods.nei.NEI;
 
 
 // --- I18N ---
+val _I18N_Lang = "en_US";
 val I18N_Adv_Solar_Panel_0 = "Irradiant Reinforced Iridium Plate";
 
 
