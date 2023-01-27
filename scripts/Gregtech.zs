@@ -382,7 +382,7 @@ recipes.remove(<gregtech:gt.blockmachines:1145>);
 
 // --- Teleporter
 recipes.addShaped(<gregtech:gt.blockmachines:1145>,[
-[<dreamcraft:item.NanoCircuit>,<SGCraft:ic2PowerUnit>,<dreamcraft:item.NanoCircuit>],
+[<ore:circuitOptical>,<SGCraft:ic2PowerUnit>,<ore:circuitOptical>],
 [<SGCraft:ic2Capacitor>,<SGCraft:stargateBase>,<SGCraft:ic2Capacitor>],
 [<SGCraft:ic2Capacitor>,<SGCraft:ocInterface>,<SGCraft:ic2Capacitor>]]);
 
