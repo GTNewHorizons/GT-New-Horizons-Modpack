@@ -922,7 +922,7 @@ gtnh.quest229.desc=This whole place here is filled with magic. No matter where y
 
 # Quest.230 - Your First Wand
 gtnh.quest230.name=Your First Wand
-gtnh.quest230.desc=You're sure that this place will give you all the answers you're looking for! To continue, you need something to handle the magic energy called "vis". Guess it's time to craft your first wand.%n%nIf you haven't started on defeating the TF bosses yet, you'll need to do so to proceed. All wands require some kind of TF boss drop, with better wands needing later boss's drops. Once you've defeated them once, you can buy a spawn egg (only usable in the TF) or use the trophy+salis mundus to make more of the drop.
+gtnh.quest230.desc=You're sure that this place will give you all the answers you're looking for! To continue, you need something to handle the magic energy called "vis". Guess it's time to craft your first wand.%n%nIf you haven't started on defeating the TF bosses yet, you'll need to do so to proceed. All wands require some kind of TF boss drop, with better wands needing later boss's drops. Once you've defeated them once, you can buy a spawn egg (only usable in the TF) or use the trophy+salis mundus to make more of the drop.%n%n§3You should look for wand recipes in NEI. Not all of them are correct in the Thaumonomicon.
 
 # Quest.231 - Tome of Knowledge
 gtnh.quest231.name=Tome of Knowledge
@@ -1066,7 +1066,7 @@ gtnh.quest265.desc=This greatwood wand is nice, but it can only store 50 vis. No
 
 # Quest.266 - More Energetic Screws
 gtnh.quest266.name=More Energetic Screws
-gtnh.quest266.desc=Those stainless steel screws don't work on these rods. Due to the huge amounts of vis those wands can carry, the screws somehow "melt" away. I need a material that can handle these energies. I should try energetic alloy next.
+gtnh.quest266.desc=Those stainless steel screws don't work on these rods. Due to the huge amounts of vis those wands can carry, the screws somehow "melt" away. I need a material that can handle these energies. I should try energetic alloy next.%n%n§3If you are struggling to make the next wand in this step or one of the next, you should try to get more discount on your gear.%n%nAlso look at the various caps, the better ones are more expensive to craft but give discounts or other benefits. In many situations you might need to start with cheap ones and only make the better caps later.%n%nYou can also improve your wand with augmentations.
 
 # Quest.267 - Quartz Rod
 gtnh.quest267.name=Quartz Rod
@@ -1454,7 +1454,7 @@ gtnh.quest362.desc=A remarkable bee. If you thought americium can only be obtain
 
 # Quest.363 - Gassy Bees
 gtnh.quest363.name=Gassy Bees
-gtnh.quest363.desc=There is whole swarm of gas producing bees. Let's breed just one of them here.%n%n§3This is the starting point for many gas related bees. Maybe check out NEI to see what you can aim for.
+gtnh.quest363.desc=There is whole swarm of gas producing bees. Let's breed just one of them here. Check out NEI to see all the options you can aim for.%n%n§3The Xenon Bee might be the most useful one. You can use it for Void Miners and potentially smelting time reductions.
 
 # Quest.364 - Naga
 gtnh.quest364.name=Naga
@@ -3108,9 +3108,9 @@ gtnh.quest775.desc=These are the first parts you will need for your beloved nano
 gtnh.quest776.name=Seeing Things Brighter
 gtnh.quest776.desc=The nano helmet is a bit special. It will provide you with night vision as long as you have energy!
 
-# Quest.777 - Are Those Green Diamonds? 
-gtnh.quest777.name=Are Those Green Diamonds? 
-gtnh.quest777.desc=They may not be green diamonds but they are needed for your nano armor.
+# Quest.777 - Firestone
+gtnh.quest777.name=Firestone
+gtnh.quest777.desc=Don't burn yourself.%n%n§3You could also get Firestone from the Sulfur Bee if you prefer.
 
 # Quest.778 - §7§6§lCarbon Plates
 gtnh.quest778.name=§7§6§lCarbon Plates
@@ -3216,9 +3216,9 @@ gtnh.quest802.desc=Plating all your armor parts with iridium alloy casings gives
 gtnh.quest803.name=Quantum Armor
 gtnh.quest803.desc=The quantum armor is a high tier and very durable armor with a lot of features like night vision, fall damage reduction and running very fast.
 
-# Quest.804 - Quantum Crystal 
-gtnh.quest804.name=Quantum Crystal 
-gtnh.quest804.desc=The quantum crystal is needed to turn quantum armor parts into wearable quantum armor.
+# Quest.804 - Explosive
+gtnh.quest804.name=Explosive
+gtnh.quest804.desc=Ideal for your Implosion Compressor.
 
 # Quest.805 - §a§lLapotron Dust
 gtnh.quest805.name=§a§lLapotron Dust
@@ -10922,7 +10922,7 @@ gtnh.quest2729.desc=There are 3 machines crucial to doing this. You'll also need
 
 # Quest.2730 - Lasers Solve Everything
 gtnh.quest2730.name=Lasers Solve Everything
-gtnh.quest2730.desc=Laser hatches are a high-end way of sending lots of amps of power, so much in fact, that it starts at 32A. This goes 32/64/96/128/256+ and continues from there. They're also so powerful that only a few machines support them outside of the ever §owonderful§r TecTech: LSC, MEBF, MVF. and PSS. (Might be added in the future!) Remember to color both the Laser Vacuum Pipes, and the Source and Target Hatches. Also, Source = Output, Target = Input.%n%nLaser Converters are basically: Laser Source (on machine) -> Vacuum Pipes -> LC -> 5x output split into X amps, 32 for the first. Make sure to put it into recieve mode. Or do it the other way around if you want to go up, it's basically a transformer that converts laser to/from cables. You can also use them to turn the lasers if you don't mind 3x the loss on device output (and not sending all the amps) compared to the Active Transformer (because of loss on each output). Just remember to put a battery buffer in between if you want it to work.%n%n§3You can use the Low Power Laser Pipes if using a 'Low Power' Hatch or Converter, but keep in mind you'll need to connect them with wire cutters yourself after coloring them.%n%n§cBe careful with using very high ampere hatches as every Laser Hatch has 1EU/t per max. ampere passive power loss.
+gtnh.quest2730.desc=Laser hatches are a high-end way of sending lots of amps of power, so much in fact, that it starts at 32A. This goes 32/64/96/128/256+ and continues from there. They're also so powerful that only a few machines support them outside of the ever §owonderful§r TecTech: LSC, MEBF, MVF. and PSS. (Might be added in the future!) Remember to color both the Laser Vacuum Pipes, and the Source and Target Hatches. Also, Source = Output, Target = Input.%n%nLaser Converters are basically: Laser Source (on machine) -> Vacuum Pipes -> LC -> 5x output split into X amps, 32 for the first. Make sure to put it into recieve mode. Or do it the other way around if you want to go up, it's basically a transformer that converts laser to/from cables. You can also use them to turn the lasers if you don't mind 3x the loss on device output (and not sending all the amps) compared to the Active Transformer (because of loss on each output). Just remember to put a battery buffer in between if you want it to work.%n%n§3You can use the Low Power Laser Pipes if using a 'Low Power' Hatch or Converter, but keep in mind you'll need to connect them with wire cutters yourself after coloring them.%n%n§cBe careful with using very high ampere hatches as every Laser Hatch has 1EU/s per max. ampere passive power loss.
 
 # Quest.2731 - Transform and...Stay Put Actually
 gtnh.quest2731.name=Transform and...Stay Put Actually
@@ -13143,6 +13143,10 @@ gtnh.quest3284.desc=Aka the Mega Apiary.%n%nIt has three primary modes (change w
 # Quest.3285 - MABS
 gtnh.quest3285.name=MABS
 gtnh.quest3285.desc=This unholy union between Mega and GT++ must be the work of some madman. It is the ultimate metallurgical furnace to make your alloys with up to 256 parallels. If you pay very close attention you might even notice the almost imperceptable speed bonus from using expensive coils.%n%nThe glass tier limits both the energy hatch tier and the recipe tier. As with other multis, UEV glass unlocks all tiers and UV glass is needed for lasers.
+
+# Quest.3286 - DOB
+gtnh.quest3286.name=DOB
+gtnh.quest3286.desc=It is not the psychedelic drug kicking in. The NEI page is actually correct. You can get a lot of different stuff from this comb.
 
 ##################################Line##################################
 
