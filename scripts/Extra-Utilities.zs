@@ -1064,13 +1064,13 @@ recipes.addShaped(<ExtraUtilities:spike_base_diamond> * 2, [
 recipes.addShaped(<ExtraUtilities:builderswand>, [
 [null, null, <ore:ingotUnstable>],
 [null, <ore:ingotUnstable>, null],
-[<RandomThings:ingredient:1>, null, null]]);
+[<ore:stickObsidian>, null, null]]);
 
 // --- Super Builder Wand
 recipes.addShaped(<ExtraUtilities:creativebuilderswand>, [
 [null, <ore:ingotUnstable>, <ore:ingotUnstable>],
 [null, <ore:ingotUnstable>, <ore:ingotUnstable>],
-[<RandomThings:ingredient:1>, null, null]]);
+[<ore:stickObsidian>, null, null]]);
 
 // --- Precision Shears
 recipes.addShaped(<ExtraUtilities:shears>, [
