@@ -306,7 +306,7 @@ gtnh.quest75.desc=Finite water is a problem. But fear not, there are solutions! 
 
 # Quest.76 - §6§lTime to Get Some Steel
 gtnh.quest76.name=§6§lTime to Get Some Steel
-gtnh.quest76.desc=You need steel? Uhh... fine. Let's get busy...%n%nHint: The bricked blast furnace can share walls with other ones, just like most GT multi blocks. How will this affect the air quality though...%n%n§3If you are short on Stone Dust, you can get more by macerating cobblestone.%n%nIf you spawn near a biome with Hardened Clay you can macerate it to get the clay dust you need. You can also use brick blocks from Villages to get brick dust in the macerator.%n%nCrafting the WorkTable from Forestry can make it easier as you can use all the buckets for crafting in one click%n%n§4You'll need 432 unfired clay brick, 432 brick, 108 clay and brick dust, 216 compressed fireclay, and 216 firebrick. Collect all the required materials for these first, or you'll have to do it again. Also, don't make the firebrick blocks until you collect all the gypsum you need unless you want to be forced to get more.
+gtnh.quest76.desc=You need steel? Uhh... fine. Let's get busy...%n%nHint: The bricked blast furnace can share walls with other ones, just like most GT multi blocks. How will this affect the air quality though...%n%n§3If you are short on Stone Dust, you can get more by macerating cobblestone.%n%nIf you spawn near a biome with Hardened Clay you can macerate it to get the clay dust you need. You can also use brick blocks from Villages to get brick dust in the macerator.%n%nCrafting the Worktable from Forestry can make it easier as you can use all the buckets for crafting in one click.
 
 # Quest.77 - §r§6§l§5§l§o§l§r§6§lEBF-Time
 gtnh.quest77.name=§r§6§l§5§l§o§l§r§6§lEBF-Time
@@ -1942,7 +1942,7 @@ gtnh.quest484.desc=Tired of waiting since your carrots grow sooooo slow?%n%nWell
 
 # Quest.485 - §2§lYou Need MOOOOOOORE Wood
 gtnh.quest485.name=§2§lYou Need MOOOOOOORE Wood
-gtnh.quest485.desc=It's time to feed your new coke oven with some wood to get more charcoal. You're looking for the most efficient way to plant trees. Try to find some spruce saplings and some jungle saplings. Both can be planted in a 2x2 grid to get bigger trees.%n%n§4Warning label: Do not put your pets in the microwave to dry them and do not plant these rewards in the middle of your base.
+gtnh.quest485.desc=It's time to feed your new coke oven with some wood to get more charcoal. You're looking for the most efficient way to plant trees. Try to find some spruce saplings and some jungle saplings. Both can be planted in a 2x2 grid to get bigger trees.%n%n§4Warning label: Do not put your pets in the microwave to dry them. And do not plant any of these rewards in the middle of your base.
 
 # Quest.486 - §2§lTanned Leather
 gtnh.quest486.name=§2§lTanned Leather
@@ -2938,7 +2938,7 @@ gtnh.quest733.desc=Plant mass needs to be centrifuged into bio chaff, the base m
 
 # Quest.734 - §6§lWay One: IC2 Fluid Canner
 gtnh.quest734.name=§6§lWay One: IC2 Fluid Canner
-gtnh.quest734.desc=The first way you get biomass out of bio chaff is to use the IC2 Fluid Canner. One bucket of water and one bio chaff gives one bucket of biomass.
+gtnh.quest734.desc=The first way you get biomass out of bio chaff is to use the IC2 Fluid Canner. One bucket of water and one bio chaff gives one bucket of biomass.%n%n§4This option is not really recommended. You should focus on GT machines, not IC2. It also has some buggy interaction with normal cells, you might need to use universal cells.
 
 # Quest.735 - §6§lWay Two: Brewery
 gtnh.quest735.name=§6§lWay Two: Brewery
@@ -2990,7 +2990,7 @@ gtnh.quest746.desc=To turn your solar grade dust into solar grade ingots you nee
 
 # Quest.747 - §5§lDiodes
 gtnh.quest747.name=§5§lDiodes
-gtnh.quest747.desc=Good circuits need diodes. There are two main ways to craft them. You can crush your the Gallium Arsenide crystals to dust and combine that with fine copper wires and molten glass. Once you have solar grade silicon you can use it to make silicon wafers in your EBF to make even more. Note that the wafers are much more efficient on gallium and arsenic, so even a reduced amount is still worth it.%n%nMake sure you check all the NEI recipes for advanced items instead of just using the first one you find. You can use annealed copper wires and polyethylene to increase your output even more. %n
+gtnh.quest747.desc=Good circuits need diodes. There are two main ways to craft them. You can crush the Gallium Arsenide crystals to dust and combine that with fine copper wires and molten glass. Once you have solar grade silicon you can use it to make silicon wafers in your EBF to make even more. Note that the wafers are much more efficient on gallium and arsenic, so even a reduced amount is still worth it.%n%nMake sure you check all the NEI recipes for advanced items instead of just using the first one you find. You can use annealed copper wires and polyethylene to increase your output even more. %n
 
 # Quest.748 - §5§lEmpty Circuit Board
 gtnh.quest748.name=§5§lEmpty Circuit Board
@@ -7274,7 +7274,7 @@ gtnh.quest1817.desc=To process more advanced materials like Cosmic Neutronium, T
 
 # Quest.1818 - §6§lLarge Essentia Generator
 gtnh.quest1818.name=§6§lLarge Essentia Generator
-gtnh.quest1818.desc=Having one Essentia Generator per Essentia type seeems impractical... Better make a Large Essentia Generator and burn all the Essentia in parallel! As another bonus, this generator produces 20x the energy a single block machine will produce. You might need more Magic Containment Casings than this quest asks for.%n%n§4PS: This is apparently super buggy and may or may not work.
+gtnh.quest1818.desc=Having one Essentia Generator per Essentia type seeems impractical... Better make a Large Essentia Generator and burn all the Essentia in parallel! As another bonus, this generator produces 20x the energy a single block machine will produce. You might need more Magic Containment Casings than this quest asks for.%n%n§4PS: This is apparently super buggy and may or may not work. Rather check out the LEG from GoodGenerator!
 
 # Quest.1819 - §6§lSilicon Dioxide
 gtnh.quest1819.name=§6§lSilicon Dioxide
@@ -7330,7 +7330,7 @@ gtnh.quest1831.desc=To build a Windmill you will need a Dispenser, but that item
 
 # Quest.1832 - §6§lGrinding With Wind
 gtnh.quest1832.name=§6§lGrinding With Wind
-gtnh.quest1832.desc=The Windmill is a grinder that uses the force of wind to macerate Items and Blocks. It is pretty slow and won't macerate ores well. You will only get one crushed Ore from it. However it does give you a bonus when you try to macerate other things. That bonus depends on the item inserted, for example Netherrack has a chance to give two instead of one dust and Wheat will always give one and a quarter flour.%n%n§3PS: It's probably not actually worth it to make or use.§r%n%nThe dispensers replace a clay block in the walls. Put anything you like in the interior - a bed, stairs, torches, etc.%n%nNormal multiblock rules apply - do not cross chunk boundaries with this multiblock.%n%nIf this is your first GregTech multiblock, as with all the rest you will need to whack the controller with a soft mallet to activate it.%n%nIf you have troubles forming the multiblock, try breaking and replacing the controller block.%n%nThe controller can be fed items via hoppers etc to allow for larger batches. Just don't allow the dispenser to fill up or it will void outputs.%n%nThe rotor blades will run if the controller is disabled or has no recipe. Remove the blades when not in use or else they'll be used up.
+gtnh.quest1832.desc=The Windmill is a grinder that uses the force of wind to macerate Items and Blocks. You will only get one crushed Ore from it sometimes. However it does give a bonus when you try to macerate other things. That bonus depends on the item inserted, for example Netherrack has a chance to give two instead of one dust and Wheat will always give one and a quarter flour.%n%nThe dispensers replace a clay block in the walls. Put anything you like in the interior - a bed, stairs, torches, etc.%n%nNormal multiblock rules apply - do not cross chunk boundaries with this multiblock.%n%nIf this is your first GregTech multiblock, as with all the rest you will need to whack the controller with a soft mallet to activate it.%n%nIf you have troubles forming the multiblock, try breaking and replacing the controller block.%n%nThe controller can be fed items via hoppers etc to allow for larger batches. Just don't allow the dispenser to fill up or it will void outputs.%n%nThe rotor blades will run if the controller is disabled or has no recipe. Remove the blades when not in use or else they'll be used up.%n%nSpeed and output will be affected by wind speed, recipe, and rotor.%n%nMacerates 16 items at a time.%n%nHigh wind speeds will decrease output.%n%nThe durability will decrease according to the wind speed.
 
 # Quest.1833 - §6§lAwakened Draconium Coil Upgrade
 gtnh.quest1833.name=§6§lAwakened Draconium Coil Upgrade
@@ -10406,7 +10406,7 @@ gtnh.quest2600.desc=To make the Circuit Assembly Line imprints you'll need a bun
 
 # Quest.2601 - §c§l§6§e§6§lCircuit Assembly Line
 gtnh.quest2601.name=§c§l§6§e§6§lCircuit Assembly Line
-gtnh.quest2601.desc=You'll need all of this to create 4 CALs, enough for a single series of circuits. If you only want one (for the microprocessors for example), just divide by 4.%n%nAssuming you got the necessary imprints on the LuV tab, you can now craft the CALs for the crystalprocessor series. We're starting with 4 since you'll need one per circuit, the imprint is not removable. And yes this means you need one for every circuit type you want to make with the CAL.%n%nAs an Assembly Line, it generally works like the normal one, with different items in each bus, but since it's only one item per CAL, it's far easier to use, and the recipe is cheaper too.%n%nThe CAL uses 'wraps' to make 16 of a circuit at a time (aside from ULV and LV circuits), saving you time, EU, and Soldering Alloy. You make the wraps in an Assembler with 16 of the item and Polyethylene.%n%n§3BTW you can change out the Hatches and Busses for better ones, but you still need to keep ingredient order. Also CAL grants perfect overclock.
+gtnh.quest2601.desc=You'll need all of this to create 4 CALs, enough for a single series of circuits. If you only want one (for the microprocessors for example), just divide by 4.%n%nAssuming you got the necessary imprints on the LuV tab, you can now craft the CALs for the crystalprocessor series. We're starting with 4 since you'll need one per circuit, the imprint is not removable. And yes this means you need one for every circuit type you want to make with the CAL.%n%nAs an Assembly Line, it generally works like the normal one, with different items in each bus, but since it's only one item per CAL, it's far easier to use, and the recipe is cheaper too.%n%nThe CAL uses 'wraps' to make 16 of a circuit at a time (aside from ULV and LV circuits), saving you time, EU, and Soldering Alloy (or Indalloy). You make the wraps in an Assembler with 16 of the item and Polyethylene.%n%n§3BTW you can change out the Hatches and Busses for better ones, but you still need to keep ingredient order. Also CAL grants perfect overclock.
 
 # Quest.2602 - §c§lImprints, They're Important
 gtnh.quest2602.name=§c§lImprints, They're Important
@@ -10666,7 +10666,7 @@ gtnh.quest2665.desc=You've done it! This is the final (normal) circuit in the ga
 
 # Quest.2666 - §c§lMagneto Resonatic Circuits
 gtnh.quest2666.name=§c§lMagneto Resonatic Circuits
-gtnh.quest2666.desc=So, you may have been looking through NEI and seen a line of purple circuits from BW and wondered 'What are these, and when can I make them?'. Well, I don't know why they exist, but you can make them starting now!%n%nThey all use Imprint Supporting Boards, a type of crystal (change the dust to crystal with Neon or Krypton in an Autoclave, and then move up tiers with the Precision Laser Engraver), SMDs, and a §3circuit of the previous tier.§r So the material cost increases rather dramatically. They're made at a power tier +1 of the circuit's tier, so IV ones are made with LuV voltage.%n%nYou can even make UHV circuits if you're crazy enough! The UIV CA has no recipe, so you can't make the UEV ones, unfortunately.
+gtnh.quest2666.desc=So, you may have been looking through NEI and seen a line of purple circuits from BW and wondered 'What are these, and when can I make them?'. Well, I don't know why they exist, but you can make them starting now!%n%nThey all use Imprint Supporting Boards, a type of crystal (change the dust to crystal with Neon or Krypton in an Autoclave, and then move up tiers with the Precision Laser Engraver), SMDs (or and advanced version), and a §3circuit of the previous tier.§r So the material cost increases rather dramatically. They're made at a power tier +1 of the circuit's tier, so IV ones are made with LuV voltage.%n%nYou can even make UEV circuits if you're crazy enough!
 
 # Quest.2667 - §b§lKeep Soldering On!
 gtnh.quest2667.name=§b§lKeep Soldering On!
@@ -12944,9 +12944,9 @@ gtnh.quest3234.desc=Congratulations, you have reached the Dimensionally Transcen
 gtnh.quest3235.name=Power in the Ether
 gtnh.quest3235.desc=These new hatches allow you to wirelessly send, store and receive energy from any location in any dimension. They can be placed in any existing multi block structure and will function as normal energy/dynamo hatches. A dynamo hatch will consume EU and store it in a global network linked to your user. The wireless network can store a total of 2^(2^31) EU, far exceeding even a max tier LSC.%n%nYou can share a wireless network with others by adding them to your network with /gt global_energy_join user1 user2. This will make user1 use user2's energy when interacting with the global network. You can leave a network at any time by doing /gt global_energy_join your_name your_name. %n%nYou cannot connect wires to these blocks. These are also designed to be highly lag efficient, meaning EU is added at large intervals to prevent needless calculations from occurring. This will also save you some TPS lag from vast wire networks.%n%n§3If your calculator is giving up, 2^(2^31) is a number with 646,456,994 digits.
 
-# Quest.3236 - Nano Circuits
-gtnh.quest3236.name=Nano Circuits
-gtnh.quest3236.desc=Circuits required for UIV.
+# Quest.3236 - Optical Circuits
+gtnh.quest3236.name=Optical Circuits
+gtnh.quest3236.desc=There is an entire new circuit line here! More quests to come for sure.
 
 # Quest.3237 - Nearly there...
 gtnh.quest3237.name=Nearly there...
