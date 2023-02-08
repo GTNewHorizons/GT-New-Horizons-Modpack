@@ -196,7 +196,7 @@
                         <num>16</num>
                         <num>16</num>
                     </icon>
-                    <str>  This is an {darkgreen}{underline}ore {white}chunk.</str>
+                    <str>  This is an {darkgreen}{underline}ore{white} chunk.</str>
                 </concat>
             </if>
         </line>
