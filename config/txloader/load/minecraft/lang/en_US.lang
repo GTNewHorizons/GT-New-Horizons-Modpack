@@ -4510,7 +4510,7 @@ gtnh.quest1126.desc=It's upgrade time again. You could in principle make alumite
 
 # Quest.1127 - §3§lReinforced X? Unbreakable
 gtnh.quest1127.name=§3§lReinforced X? Unbreakable
-gtnh.quest1127.desc=With your steel tool you are able to mine obsidian. Large obsidian plates give a reinforced modifier which increases the durability of your tool. Reinforced level X makes a tool unbreakable.%n%n§3PS: It's almost never worth it to use this, aside from for lumber axes, since the tools don't degrade that fast, it doesn't cost much to repair, and you get better materials (with higher durability) to make them out of reasonably fast. Plus, by the time you got it to unbreakable, you'd be auto-mining everything with a miner anyway. Just use redstone, or maybe luck/silky.
+gtnh.quest1127.desc=With your steel tool you are able to mine obsidian. You can make the Reinforcement which gives a reinforced modifier which increases the durability of your tool. Reinforced level X makes a tool unbreakable.%n%n§3PS: In many cases this is not worth it, since the tools don't degrade that fast, it doesn't cost much to repair, and you get better materials (with higher durability) to make them out of reasonably fast. Plus, by the time you got it to unbreakable, you'd be auto-mining everything with a miner anyway. Just use redstone, or maybe luck/silky. However, there are a few very nice uses cases like lumber axes and tools for automation setups.
 
 # Quest.1128 - §4§3§lLapis? Lucky!
 gtnh.quest1128.name=§4§3§lLapis? Lucky!
@@ -5172,8 +5172,8 @@ gtnh.quest1291.desc=Helps with fluctuating power. Energy cells store up to 200,0
 gtnh.quest1292.name=Storing Your ME Data
 gtnh.quest1292.desc=A block designed to do one thing, store storage cells. This block holds 10 storage cells so you can tightly pack your storage into a very small space. ME drives show their contents and the storage cell status on the front of the drive face.%n%nRed - Indicates the storage cell is full.%nOrange - Indicates the storage cell cannot hold any more types, but it can store more items.%nGreen - Indicates the cell can hold more types, or more items.%nBlack - Indicates there is no channel, or power is offline.%n%nIt's important to note, that without an ME Network this block does nothing. It's only useful when combined with a way to input, and output items, and requires 2 AE/t power to function, and additional power for each storage cell stored inside it.%n%nAbout Priority: Many devices in AE2 have a priority setting, this determines what gets items first. This is useful in some situations, but not so much in others. Higher number = higher priority.
 
-# Quest.1293 - Safety First!
-gtnh.quest1293.name=Safety First!
+# Quest.1293 - (Deprecated) Safety First!
+gtnh.quest1293.name=(Deprecated) Safety First!
 gtnh.quest1293.desc=This storage cell housing is blast proof and stores only 3 cells.%n%n§4Also super buggy (graphically).
 
 # Quest.1294 - Speeding Up Growth
@@ -5222,7 +5222,7 @@ gtnh.quest1304.desc=Storage bus for fluids only.
 
 # Quest.1305 - For Fluid Recipes
 gtnh.quest1305.name=For Fluid Recipes
-gtnh.quest1305.desc=The ME Fluid Interface will also send liquids when crafting. You can add them to the recipe with buckets, cells, large cells, or even volumtric flasks. It will send the exact amount specified.%n%nIf sending to a GT machine like an Assembler which can accept items and fluids, use in fixture mode. If you want to use a multiblock, things get complicated. You can use fixture mode and use a machine hull to buffer the items and fluids and then extract them, or you can use block mode, have the front go to a chest or input bus, and the other side(s) send liquid. If it uses more than one fluid in the recipe, it will do those until finished, then move on to the items. If you're not doing a processing recipe, use the ME Fluid Assembler.
+gtnh.quest1305.desc=Error: documentation missing.%n%nIt should be rather straightforward though.
 
 # Quest.1306 - Extracting Items From the Network
 gtnh.quest1306.name=Extracting Items From the Network
@@ -5992,8 +5992,8 @@ gtnh.quest1496.desc=GregTech ore generation is based on veins. Veins are centere
 gtnh.quest1497.name=§2§lDigging Deeper
 gtnh.quest1497.desc=Now that you know where to dig, dig all the way down to bedrock to find if there is a vein located there.%n%nNow, what if you know what you want but not where to find it? Our fancy bartimaeusnek developer has added a nifty feature to NEI that shows you where to find ores! Simply look for the oreblock in NEI, and click on it for info on where to find that ore.%n%nThere are many types of ores, even just for getting one material like Iron. So don't stick to only one type.%n%nYou can also search small ores, but not all of them are used.
 
-# Quest.1498 - (DEPRECATED)§2§lA Dimension by Any Other Name...
-gtnh.quest1498.name=(DEPRECATED)§2§lA Dimension by Any Other Name...
+# Quest.1498 - (DEPRECATED)§2§l A Dimension by Any Other Name...
+gtnh.quest1498.name=(DEPRECATED)§2§l A Dimension by Any Other Name...
 gtnh.quest1498.desc=Use this table to decode dimension names%n%nOW - Overworld%nNe - Nether%nTF - Twilight Forest%nEN - End%nVA - Vanilla End Asteroids%nEA - End Asteroids (don't ask me what the difference is)%n%nSpace Dims:%nAs - Asteroids (the asteroid belt between mars and Jupiter)%nBC - Barnard C%nBE - Barnard E%nBF - Barnard F%nCa - Callisto%nCA - Centauri A%nCe - Ceres%nDe - Deimos%nEn - Enceladus%nEu - Europa%nGa - Ganymeade%nHa - Haumea%nIo - Io%nKB - Kuiper Belt%nMa - Mars%nMe - Mercury%nMi - Miranda%nMM - Makemake%nMo - Moon%nOb - Oberon%nPh - Phobos%nPl - Pluto%nPr - Proteus%nTE - Tau Ceti E%nTi - Titan%nTr - Triton%nVB - Vega B%nVe - Venus
 
 # Quest.1499 - §5§lChemical Bath
@@ -9870,7 +9870,7 @@ gtnh.quest2466.desc=Also same as 256k.
 
 # Quest.2467 - 16384k Component
 gtnh.quest2467.name=16384k Component
-gtnh.quest2467.desc=The REAL final tier. Until someone adds more...%n%n%n§3... ah well, looks like someone added more.
+gtnh.quest2467.desc=The OLD final tier back in ExtraCells days. Now we added more!
 
 # Quest.2468 - 256k Item Storage Cell
 gtnh.quest2468.name=256k Item Storage Cell
@@ -9944,8 +9944,8 @@ gtnh.quest2484.desc=These hold 4,096 buckets, or 4,096,000L of a single fluid. T
 gtnh.quest2485.name=64k Fluid Storage Cell
 gtnh.quest2485.desc=These hold 16,384 buckets, or 16,384,000L of a single fluid. Equivalent to a Super Tank III.
 
-# Quest.2486 - Fluid Storage Housing
-gtnh.quest2486.name=Fluid Storage Housing
+# Quest.2486 - (deprecated) Fluid Storage Housing
+gtnh.quest2486.name=(deprecated) Fluid Storage Housing
 gtnh.quest2486.desc=This is the fluid version, for storing fluids in your network.
 
 # Quest.2487 - Housing for Advanced Components
@@ -9966,7 +9966,7 @@ gtnh.quest2490.desc=Same as 1k.
 
 # Quest.2491 - 4096k Fluid Component
 gtnh.quest2491.name=4096k Fluid Component
-gtnh.quest2491.desc=Final tier of the fluid components.
+gtnh.quest2491.desc=And another one.
 
 # Quest.2492 - 256k Fluid Storage Cell
 gtnh.quest2492.name=256k Fluid Storage Cell
@@ -9978,7 +9978,7 @@ gtnh.quest2493.desc=These hold 262,144 buckets, or 262,144,000L of a single flui
 
 # Quest.2494 - 4096k Fluid Storage Cell
 gtnh.quest2494.name=4096k Fluid Storage Cell
-gtnh.quest2494.desc=This is the final tier. It §hholds 1,048,576 buckets, or 1,048,576,000L. So about the same as a Quantum Tank IV.
+gtnh.quest2494.desc=It holds 1,048,576 buckets, or 1,048,576,000L. So about the same as a Quantum Tank IV.
 
 # Quest.2495 - AE Essentia Storage
 gtnh.quest2495.name=AE Essentia Storage
@@ -10098,11 +10098,11 @@ gtnh.quest2523.desc=This device will turn on (or off) a redstone signal based on
 
 # Quest.2524 - Why Do I Need to Know How Much Manure Slurry I Have?
 gtnh.quest2524.name=Why Do I Need to Know How Much Manure Slurry I Have?
-gtnh.quest2524.desc=These are the fluid versions.%n%n§4Currently appear to be broken?§r
+gtnh.quest2524.desc=These are the fluid versions.
 
 # Quest.2525 - Out of Polytetrafluoroethylene? Turn on the LCR!
 gtnh.quest2525.name=Out of Polytetrafluoroethylene? Turn on the LCR!
-gtnh.quest2525.desc=It's basically the same as a fluid detector cover, except it detects based on what's in your network. Click a cell into the center to specify, and an empty hand to clear.%n%n§4These are ULTRA laggy, do not use unless they've been fixed somehow.
+gtnh.quest2525.desc=It's basically the same as a fluid detector cover, except it detects based on what's in your network. Click a cell into the center to specify, and an empty hand to clear.
 
 # Quest.2526 - Essentia Level Emitter
 gtnh.quest2526.name=Essentia Level Emitter
@@ -10132,8 +10132,8 @@ gtnh.quest2531.desc=This is the essentia version.
 gtnh.quest2532.name=Alpha and Omega
 gtnh.quest2532.desc=The ME Annihilation Plane destroys blocks as if you had mined them, and places them into the network. The Identity version acts as if silk touch was used.%n%nThe ME Formation Plane does the opposite, it places blocks into the world. You'll need to tell it what to place/drop though. This can work in both block and item mode.
 
-# Quest.2533 - Fluid Placement
-gtnh.quest2533.name=Fluid Placement
+# Quest.2533 - (deprecated) Fluid Placement
+gtnh.quest2533.name=(deprecated) Fluid Placement
 gtnh.quest2533.desc=Did you know that dispensers with a bucket will place or pick up fluid blocks in front of them after receiving a redstone signal? Well, this is the technological version. Remember it'll only work on fluids that can be placed down, ok? This is different from whether there's a bucket version or not.
 
 # Quest.2534 - Moar Patterns!
@@ -10164,8 +10164,8 @@ gtnh.quest2539.desc=These cards add additional functionality to certain devices 
 gtnh.quest2540.name=Fluids of the Trade
 gtnh.quest2540.desc=The ME Fluid Auto Filler will add crafting recipes for any fluid in your network that has a bucket version. When crafting a water bucket for example, it will send a bucket to it, and the filled water bucket back.%n%nThe ME Fluid Assembler acts like a combined Molecular Assember and ME Interface for recipes that require fluids (but not processing recipes). It will accept both buckets and cells in the recipe patterns, but doesn't use them when crafting, it just sends the fluid directly. The MEFAF is sad :(.
 
-# Quest.2541 - Wireless 1.5
-gtnh.quest2541.name=Wireless 1.5
+# Quest.2541 - (deprecated) Wireless 1.5
+gtnh.quest2541.name=(deprecated) Wireless 1.5
 gtnh.quest2541.desc=You can add different terminals (fluid, essentia) to the Wireless Terminal to make the Wireless Universal Terminal. However... essentia doesn't work, and crafting only works if the crafting terminal was used as the base.
 
 # Quest.2542 - Wireless 2.0
@@ -10194,7 +10194,7 @@ gtnh.quest2547.desc=The Arcane Assembler works like a combination of the Molecul
 
 # Quest.2548 - Miscellaneous AE Items
 gtnh.quest2548.name=Miscellaneous AE Items
-gtnh.quest2548.desc=There are several AE items that aren't particularly useful, but probably deserve mention, so here they are:%n%nCertus Tanks: They hold 32B and are portable and easy to make.%n%nView Cell: Format in a Cell Workbench to filter what you see in a terminal (when they're installed in it)%n%nCertus/Nether Quartz Cutting Knifes: Right-click to open interface. Place an iron ingot in the slot, and choose a name. The press can be used in the Inscriber to name stuff without using an anvil. You can also rename p2p tunnels and interfaces in world with the knife.%n%nME Drive Fixture: Only holds 6 cells instead of 10.%n%nME Energy Cell Fixture: Requires a channel for some reason. Also, §4it doesn't work.§r%n%nME Block Container: Holds only one type of item, but the amount of a 64k drive. Can place the item in world, or replace in a 1x1 or 3x3 area. Blocks replaced will be dumped in world. This will be horizontal or vertical depending on which side of a block you select. Shift-right click air to change mode, right click a block to activate mode.%n%nCharged Quartz Fixture: Emits light at the same level as a torch, but fancier.%n%nLight Detecting Fixture: Emits redstone signal based on light. Since it only starts at 7, it's not as useful as the Light Sensor.%n%nME Upgrade (Tier 1/2/3): If you're an OC person, there's 3 upgrades you can make to add access to your network from robots and drones.%nT1: 0.5 access point range%nT2: Normal access point range%nT3: Unlimited range, any dim%n%nEntropy Manipulator: Changes grass/dirt/dried dirt into each other, or starts fires. Or melts ice. Useless.%n%nMatter Cannon: Shoots Matter Balls made in the Matter Condensor. Put it in an ME Chest or Drive and put items in a Terminal to fill. Decent I guess? But it destroys blocks every time you use it, so... Well, I guess you could use it with Paint Balls?%n%nColor Applicator: Use dye items or Paint Balls (more efficient) to dye stuff. You can dye cables, or anything Forge-compatible, like wool or glass. Place items inside like the Matter Cannon. You can cycle through the colors by holding shift and right-clicking, or scrolling the mouse wheel. If you use snow balls, you can remove paint instead. You can also use it in a dispensor.%n%nME Fluid Pattern [WIP]: §YYou're supposed to use it in a fluid terminal if there's no bucket version of a fluid to be able to make a crafting pattern with that fluid. However, §4it doesn't work.§r Also useless since we have cells.%n%nWalrus: It's a walrus, what were you expecting?
+gtnh.quest2548.desc=There are several AE items that aren't particularly useful, but probably deserve mention, so here they are:%n%nCertus Tanks: They hold 32B and are portable and easy to make.%n%nView Cell: Format in a Cell Workbench to filter what you see in a terminal (when they're installed in it)%n%nCertus/Nether Quartz Cutting Knifes: Right-click to open interface. Place an iron ingot in the slot, and choose a name. The press can be used in the Inscriber to name stuff without using an anvil. You can also rename p2p tunnels and interfaces in world with the knife.%n%nME Block Container: Holds only one type of item, but the amount of a 64k drive. Can place the item in world, or replace in a 1x1 or 3x3 area. Blocks replaced will be dumped in world. This will be horizontal or vertical depending on which side of a block you select. Shift-right click air to change mode, right click a block to activate mode.%n%nCharged Quartz Fixture: Emits light at the same level as a torch, but fancier.%n%nLight Detecting Fixture: Emits redstone signal based on light. Since it only starts at 7, it's not as useful as the Light Sensor.%n%nME Upgrade (Tier 1/2/3): If you're an OC person, there's 3 upgrades you can make to add access to your network from robots and drones.%nT1: 0.5 access point range%nT2: Normal access point range%nT3: Unlimited range, any dim%n%nEntropy Manipulator: Changes grass/dirt/dried dirt into each other, or starts fires. Or melts ice. Useless.%n%nMatter Cannon: Shoots Matter Balls made in the Matter Condensor. Put it in an ME Chest or Drive and put items in a Terminal to fill. Decent I guess? But it destroys blocks every time you use it, so... Well, I guess you could use it with Paint Balls?%n%nColor Applicator: Use dye items or Paint Balls (more efficient) to dye stuff. You can dye cables, or anything Forge-compatible, like wool or glass. Place items inside like the Matter Cannon. You can cycle through the colors by holding shift and right-clicking, or scrolling the mouse wheel. If you use snow balls, you can remove paint instead. You can also use it in a dispensor.%n%nWalrus: It's a walrus, what were you expecting?
 
 # Quest.2549 - Magical Minions
 gtnh.quest2549.name=Magical Minions
