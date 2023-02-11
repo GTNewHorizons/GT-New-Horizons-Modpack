@@ -1121,7 +1121,7 @@ recipes.addShaped(<GalacticraftMars:tile.marsMachine:4>, [
 recipes.addShaped(<GalacticraftMars:tile.marsMachine>, [
 [CompressedTi, <GalacticraftCore:item.oxygenConcentrator>, CompressedTi],
 [DeshPlate, <gregtech:gt.blockcasings2:4>, DeshPlate],
-[<gregtech:gt.metaitem.01:32602>, <extracells:certustank>, <gregtech:gt.metaitem.01:32612>]]);
+[<gregtech:gt.metaitem.01:32602>, <ae2fc:certus_quartz_tank>, <gregtech:gt.metaitem.01:32612>]]);
 
 // --- Launch Controller
 recipes.addShaped(<GalacticraftMars:tile.marsMachine:8>, [
