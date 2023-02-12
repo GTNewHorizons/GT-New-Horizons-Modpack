@@ -1,27 +1,5 @@
 // --- Created by DreamMasterXXL ---
-
-
-
-// --- Removing Recipes ---
-
-
-
-
-// --- Magnet Card
-recipes.remove(<ae2wct:magnetCard>);
-
-// --- Wireless Crafting Terminal
-recipes.remove(<ae2wct:wirelessCraftingTerminal>);
-
-// --- Infinity Booster Card 
-recipes.remove(<ae2wct:infinityBoosterCard>);
-
-
-
-
 // --- Adding Recipes ---
-
-
 
 // --- Magnet Card
 recipes.addShaped(<ae2wct:magnetCard>, [
