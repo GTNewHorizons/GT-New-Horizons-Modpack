@@ -5188,9 +5188,9 @@ gtnh.quest1295.desc=The crystal growth chamber is used for fast crystal growth, 
 gtnh.quest1296.name=Purifying the Impure
 gtnh.quest1296.desc=The purified versions of Nether, Certus and Fluix crystals can be grown from seeds made in the assembler from crystal dust and sand.%n%nThey can be grown in-world for free by dropping them in water, or at a much faster rate in a GT Autoclave.%n%n§3Distilled water reduces the recipe time in the Autoclave by half.%n
 
-# Quest.1297 - Dragon Essense
-gtnh.quest1297.name=Dragon Essense
-gtnh.quest1297.desc=Need some Dragon essense? Buy some!
+# Quest.1297 - Dragon Essence
+gtnh.quest1297.name=Dragon Essence
+gtnh.quest1297.desc=Need some Dragon essence? Buy some!
 
 # Quest.1298 - Wireless Setup
 gtnh.quest1298.name=Wireless Setup
@@ -5222,15 +5222,15 @@ gtnh.quest1304.desc=Storage bus for fluids only.
 
 # Quest.1305 - For Fluid Recipes
 gtnh.quest1305.name=For Fluid Recipes
-gtnh.quest1305.desc=Error: documentation missing.%n%nIt should be rather straightforward though.
+gtnh.quest1305.desc=Placing your fluid crafting patterns in a Dual Interface. That will allow AE2 to push the fluids and items both. Note. Fluids are being sent first, then items.
 
 # Quest.1306 - Extracting Items From the Network
 gtnh.quest1306.name=Extracting Items From the Network
 gtnh.quest1306.desc=The ME export bus extracts items from the ME network's networked storage and places them into the inventory it faces. You must configure which items it will insert, leaving the configuration blank will result in nothing. The ME export bus will try to export any of the items on its list skipping over those it cannot fit into the destination. This is the functional opposite of the ME import bus.
 
-# Quest.1307 - Dragon Essense II
-gtnh.quest1307.name=Dragon Essense II
-gtnh.quest1307.desc=Need some Dragon essense? Buy some!
+# Quest.1307 - Dragon Essence II
+gtnh.quest1307.name=Dragon Essence II
+gtnh.quest1307.desc=Need some Dragon essence? Buy some!
 
 # Quest.1308 - Inserting Items Into the Network
 gtnh.quest1308.name=Inserting Items Into the Network
@@ -10162,7 +10162,7 @@ gtnh.quest2539.desc=These cards add additional functionality to certain devices 
 
 # Quest.2540 - Fluids of the Trade
 gtnh.quest2540.name=Fluids of the Trade
-gtnh.quest2540.desc=The ME Fluid Auto Filler will add crafting recipes for any fluid in your network that has a bucket version. When crafting a water bucket for example, it will send a bucket to it, and the filled water bucket back.%n%nThe ME Fluid Assembler acts like a combined Molecular Assember and ME Interface for recipes that require fluids (but not processing recipes). It will accept both buckets and cells in the recipe patterns, but doesn't use them when crafting, it just sends the fluid directly. The MEFAF is sad :(.
+gtnh.quest2540.desc=The ME Fluid Auto Filler will add crafting recipes for any fluid in your network that has a bucket version. When crafting a water bucket for example, it will send a bucket to it, and the filled water bucket back.
 
 # Quest.2541 - (deprecated) Wireless 1.5
 gtnh.quest2541.name=(deprecated) Wireless 1.5
@@ -13002,7 +13002,7 @@ gtnh.quest3249.desc=Let's make a brand new plastic! The trees that you found on 
 
 # Quest.3250 - AE2 Fluid Crafting
 gtnh.quest3250.name=AE2 Fluid Crafting
-gtnh.quest3250.desc=Well well well, what do we have here? Flasks are redundant now? NO WAY! %nAnyway, while you can listen to those who swear flasks are *the shit* and *the only way* you can automate fluid crafting and Assline, you can use this powerful addon backported by GlodBlock. All praise our king!%n%nNow, what do you need to get that juicy stuff working?%nEvery ME System needs a Fluid Discretizer. It allows for on demand crafting. While you can use AE2FC without Fluid Discretizer for moving fluids, you need a Discretizer for autocrafting.%n%nThen you also need a fluid terminal or a fluid processing terminal for assembly line. %n%nWhen creating patterns you will notice your fluids being placed as if they were items. %nYour finished patterns will look blue-ish. Placing those in a Dual Interface will allow AE2 to push the fluids and items both. Note. Fluids are being sent first, then items.%nYou can switch the dual interface on the top right if you want it to keep fluids in stock. %n%nIf you use a blue pattern (fluid pattern) in a normal interface, AE2 will send the fluid as a fluid packet. This is just a representation of the fluid as an item. A fluid decoder can turn it back into a fluid and saves it in the fluid grid.%nWe use this feature for Assline. %n%nYou can use an ingredient buffer (large or normal) so your items and fluids sent by a pattern can get stored internally in one block. The normal buffer can hold 9 items and 4 fluids whereas the large one can hold 27 items and 7 fluids.%nYou can use it to automate multiblocks with e.g item and fluid conduits. %n%nIf you want to automate single blocks its as easy as eating chocolate cake while on your diet:%nMake the pattern, make an interface, boom- done!%nIt will automatically insert the fluid in the fluid inventory of a single block machine. %n%nAutomating Assembly line is easy. It follows the typical flask setup but replaces tanks with fluid decoders and a fluid storage bus to insert the fluids. Also we are sending fluids first, then items by using the priority button (made by Runakai and Rukern) in the fluid processing terminal. Make sure to give the decoders their own sub-mes. If you need more detailled information, visit the wiki:%n%nhttps://gtnh.miraheze.org/wiki/AE2FC%n%nYou can use ExtraCells and AE2FC in combination. However, AE2FC cells are recommended. There is no Fluid Monitor or Storage Bus from AE2FC so use ExtraCells for those. %n
+gtnh.quest3250.desc=Well well well, what do we have here? Flasks are redundant now? NO WAY! %nAnyway, while you can listen to those who swear flasks are *the shit* and *the only way* you can automate fluid crafting and the AL, you can use this powerful addon backported by GlodBlock with some help by other devs.%n%nNow, what do you need to get that juicy stuff working?%nEvery ME System needs a Fluid Discretizer. It allows for on demand crafting. While you can use AE2FC without Fluid Discretizer for moving fluids, you need a Discretizer for autocrafting.%n%nThen you also need a fluid terminal or a fluid processing terminal for assembly line. %n%nWhen creating patterns you will notice your fluids being placed as if they were items. %nYour finished patterns will look blue-ish. Placing those in a Dual Interface will allow AE2 to push the fluids and items both. Note. Fluids are being sent first, then items.%nYou can switch the dual interface on the top right if you want it to keep fluids in stock. %n%nIf you use a blue pattern (fluid pattern) in a normal interface, AE2 will send the fluid as a fluid packet. This is just a representation of the fluid as an item. A fluid decoder can turn it back into a fluid and saves it in the fluid grid.%n%nYou can use an ingredient buffer (large or normal) so your items and fluids sent by a pattern can get stored internally in one block. The normal buffer can hold 9 items and 4 fluids whereas the large one can hold 27 items and 7 fluids.%nYou can use it to automate multiblocks with e.g item and fluid conduits. %n%nIf you want to automate single blocks its as easy as eating chocolate cake while on your diet:%nMake the pattern, make an interface, boom- done!%nIt will automatically insert the fluid in the fluid inventory of a single block machine. %n%nAutomating the Assembling Line is easy. It follows the typical flask setup but replaces tanks with fluid decoders and a fluid storage bus to insert the fluids. Also we are sending fluids first, then items by using the priority button (made by Runakai and Rukern) in the fluid processing terminal. Make sure to give the decoders their own subnets in ME. If you need more detailled information, visit the wiki:%n%nhttps://gtnh.miraheze.org/wiki/AE2FC%n%n§3The Extra Cells mod is now deprecated. Makes sure to convert any old components and cells to AE2 and AE2FC.%n
 
 # Quest.3251 - The Final Goal
 gtnh.quest3251.name=The Final Goal
