@@ -49,55 +49,6 @@ val Pencil = <OpenBlocks:generic:11>;
 
 // --- Removing Recipes ---
 
-
-// --- Steves Machine Inventory Manager
-recipes.remove(SteveManager);
-
-// --- Inventory Cable
-recipes.remove(InventoryCable);
-
-// --- Inventory Relay
-recipes.remove(InventoryRelay);
-
-// --- Advanced Inventory Relay
-recipes.remove(AdvInventoryRelay);
-
-// --- Redstone Reciever
-recipes.remove(RedstoneReciever);
-
-// --- Redstone Emmiter
-recipes.remove(RedstoneEmmiter);
-
-// --- Item Valve
-recipes.remove(ItemValve);
-
-// --- Rapid Item Valve
-recipes.remove(RapidItemValve);
-
-// --- Block Detector
-recipes.remove(BlockDetector);
-
-// --- Block Gate
-recipes.remove(BlockGate);
-
-// --- Cable Cluster
-recipes.remove(CableCluster);
-
-// --- Advanced Cable Cluster
-recipes.remove(AdvCableCluster);
-
-// --- Cable Camouflage
-recipes.remove(CableCamouflage);
-
-// --- Double Sided Cable Camouflage
-recipes.remove(DSCableCamouflage);
-
-// --- Transforming Cable Camouflage
-recipes.remove(TCableCamouflage);
-
-// --- Sign Updater
-recipes.remove(SignUpdater);
-
 // --- RF Node
 recipes.remove(<StevesAddons:cable_rf>);
 
