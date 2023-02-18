@@ -1,0 +1,44 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2209
+    }
+  },
+  "questIDLow:4": 2211,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "minecraft:book",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Basic Bee Stats",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "There are a couple of basic bees that have good stats you will want to breed into your breeding stock.\n\nCave Dwelling - Rocky - This lets you put the bee housing underneath or inside. Handy for putting a chest on top for products.\n\nNocturnal - Rocky - This keeps your bees working all night long, and in the dark.\n\nRain Tolerant - Water - Keep producing even when it is raining.\n\nHigh Fertility - Wintry - For breeding purposes, you want the maximum number of drones produced.\n\nReminder - Specialty products from bees require Jubilant state. That means the bee is in its §lNATURAL§r preferred climate. So it must not be in a biome it can tolerate due to temp/humidity improvements. For example, a Salt bee needs Warm/Normal climate. Even if it has +- humidity and temp, it will not produce its Salt comb unless it is in a Warm/Normal climate. Use Alveary upgrades to make sure it is in its preferred temp/humidity."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {}
+}

@@ -1,0 +1,134 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 10
+    }
+  },
+  "questIDLow:4": 1475,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.metatool.01",
+        "Count:3": 1,
+        "tag:10": {
+          "ench:9": {
+            "0:10": {
+              "lvl:2": 1,
+              "id:2": 20
+            }
+          },
+          "GT.ToolStats:10": {
+            "PrimaryMaterial:8": "Flint",
+            "MaxDamage:4": 12800,
+            "SecondaryMaterial:8": "Wood"
+          }
+        },
+        "Damage:2": 34,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "§1§lCows Are Supposed to Moo!",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 1,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "What the? You noticed that sometimes when you kill something, even a cow or chicken, that it explodes! What madness! To stop it, use a proper GregTech Knife or Butchery Knife to kill them. Craft a flint GregTech knife with a stick and a piece of flint (it\u0027s hard to find in NEI, you need to search a bit) and I will give you an old iron one to use once it wears out."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metatool.01",
+          "Count:3": 1,
+          "tag:10": {
+            "ench:9": {
+              "0:10": {
+                "lvl:2": 1,
+                "id:2": 20
+              }
+            },
+            "GT.ToolStats:10": {
+              "PrimaryMaterial:8": "Flint",
+              "MaxDamage:4": 12800,
+              "SecondaryMaterial:8": "Wood"
+            }
+          },
+          "Damage:2": 34,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metatool.01",
+          "Count:3": 1,
+          "tag:10": {
+            "ench:9": {
+              "0:10": {
+                "lvl:2": 1,
+                "id:2": 16
+              }
+            },
+            "GT.ToolStats:10": {
+              "PrimaryMaterial:8": "Iron",
+              "MaxDamage:4": 25600,
+              "SecondaryMaterial:8": "Iron",
+              "Damage:4": 2800
+            }
+          },
+          "Damage:2": 34,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "minecraft:porkchop",
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "2:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 2,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinSurvivor",
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

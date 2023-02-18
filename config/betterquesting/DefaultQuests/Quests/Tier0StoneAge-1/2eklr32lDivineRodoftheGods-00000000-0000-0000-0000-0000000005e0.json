@@ -1,0 +1,154 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 36
+    }
+  },
+  "questIDLow:4": 1504,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "ifu:ifu_buildingKit",
+        "Count:3": 1,
+        "tag:10": {},
+        "Damage:2": 1,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "§2§e§k§l§r§3§2§lDivine Rod of the Gods?",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 1,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "The ore finder rod takes some of the tedium out of finding an ore.  You\u0027ll need to find some first to make it, but once you have it you can use ore blocks to find more ore. It only tells you if that specific ore is nearby. Later you will want to return with better digging tools and check every spot.\n\nBe sure to use your NEI skills to figure out which ore block is the best choice for your needs. Other basic ore blocks can be purchased from the Coins tab.\n\nTo use, shift click when looking at the ground to open inventory and put the ore block into the slot. It has a 60 block range both up and down, this may miss redstone or graphite veins if they\u0027re very deep (Y5) and you\u0027re not at sea level (Y63).\n\n§3PS: It appears to work based off of GT\u0027s \u0027Material\u0027 system, so anything of the same material will work. Ie: an ingot, gem, plate, ore block, whatever. Anything that doesn\u0027t have a Material, it appears to search only for that block. You can\u0027t search for clay blocks with clay balls for instance.\n\n§rAs you get close, you will see and hear a response from the ore finder tool. You will see the wand tilt down when it discovers a match. Watch out - it will respond to small ores as well as normal ores so for Lapis and Redstone you will want to wait for large signal before digging. If it detects a large quantity of the ore you\u0027re looking for the wand will flip upside down completely. If you play with your sound on you will hear an obvious sound to notify you as well. The wand works in both your inventory and hotbar and you don\u0027t need to be actively holding it, though you get style points if you are holding it.\n\n§3You can craft magnetic iron rods by combining an iron rod with some redstone.\n\nAlso, because of the magical nature of the wand, the ore is stored with the player, not the wand. If you want to give the wand to someone else, remove the ore first.\n\n§4It doesn\u0027t work in space! The vast cosmic energies of the sun interfere with it\u0027s inner workings. Or we want you to use something more complicated than a stick, you choose."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "minecraft:stick",
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": "woodStick"
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 2,
+          "Damage:2": 23354,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 1,
+          "Damage:2": 23032,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "minecraft:redstone",
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "4:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 1,
+          "Damage:2": 28086,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "ifu:ifu_buildingKit",
+          "Count:3": 1,
+          "Damage:2": 32767,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockores",
+          "Count:3": 1,
+          "Damage:2": 35,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.blockores",
+          "Count:3": 1,
+          "Damage:2": 937,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.blockores",
+          "Count:3": 1,
+          "Damage:2": 870,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "gregtech:gt.blockores",
+          "Count:3": 1,
+          "Damage:2": 834,
+          "OreDict:8": ""
+        },
+        "4:10": {
+          "id:8": "minecraft:clay",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "5:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinTechnician",
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

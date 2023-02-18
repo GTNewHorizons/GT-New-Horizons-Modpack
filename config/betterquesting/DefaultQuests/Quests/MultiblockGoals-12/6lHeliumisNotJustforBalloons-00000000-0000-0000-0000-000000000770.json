@@ -1,0 +1,78 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 81
+    }
+  },
+  "questIDLow:4": 1904,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 1,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.metaitem.01",
+        "Count:3": 1,
+        "Damage:2": 30004,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "§6§lHelium is Not Just for Balloons",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Higher tier superconducting wires and energy hatches will require helium. Compressing air and liquifying it requires 1802 compressed air cells to get 1 He cell. It\u0027s probably better to get it from end stone dust or monazite from the Moon. Another option is to have a look at your oil processing and see how you can get Helium from there.\n\n§3PS: If you\u0027ve progressed far enough in the TF, you can also chip off parts of the snow queen\u0027s lair. She won\u0027t mind, right?"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 1,
+          "Damage:2": 30004,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 3,
+          "tag:10": {
+            "ench:9": {
+              "0:10": {
+                "lvl:4": 3,
+                "id:4": 35
+              }
+            }
+          },
+          "Damage:2": 5,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

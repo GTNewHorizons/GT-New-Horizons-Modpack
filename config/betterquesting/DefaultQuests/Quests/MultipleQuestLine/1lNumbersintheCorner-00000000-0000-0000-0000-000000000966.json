@@ -1,0 +1,43 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 0
+    }
+  },
+  "questIDLow:4": 2406,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "UNLOCKED",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "Automagy:enchantedPaper",
+        "Count:3": 1,
+        "Damage:2": 2,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "§1§lNumbers in the Corner?",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "What\u0027s with the numbers in the corner? Well that\u0027s In-Game Info, a handy mod that gives you necessary information for GregTech: New Horizons.\n\nThe most important info is whether or not you are in an ore chunk. Later quests will explain what that means.\n\nIf you don\u0027t want to see the IGI information, you can use \n\n§l/igi disable\n/igi enable\n§r\nto disable and enable the window.\n\n§l/igi config\n\n§rwill bring up the configuration window, which you can use to control placement, and the scale/size of the font.\n\n\nAnother useful display is Extra Utilities\u0027 TPS meter. It gives you the instantaneous tps, average tps, and worst-case tps. TPS is Ticks-per-second, a measure of how well your server is running. TPS\u003d20 is ideal, and TPS\u003c15 is going to start noticeably lagging. TPS\u003c10 is going to be hard to play. If you need suggestions solving TPS problems, contact us on Discord.\n\nToggle the display with\n\n§l/xu_tps"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {}
+}

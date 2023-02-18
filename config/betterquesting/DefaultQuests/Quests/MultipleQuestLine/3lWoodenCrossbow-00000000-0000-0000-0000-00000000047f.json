@@ -1,0 +1,224 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 741
+    }
+  },
+  "questIDLow:4": 1151,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "TConstruct:Crossbow",
+        "Count:3": 1,
+        "tag:10": {
+          "InfiTool:10": {
+            "RenderExtra:4": 6,
+            "BaseDurability:4": 38,
+            "BaseAttack:4": 1,
+            "DrawSpeed:4": 33,
+            "ToolEXP:4": 0,
+            "HarvestLevel:4": 0,
+            "RenderHead:4": 0,
+            "ModDurability:6": 0.0,
+            "Shoddy:6": 0.0,
+            "RenderHandle:4": 0,
+            "Accessory:4": 0,
+            "MiningSpeed:4": 150,
+            "Unbreaking:4": 3,
+            "Damage:4": 0,
+            "BonusDurability:4": 0,
+            "TotalDurability:4": 38,
+            "BaseDrawSpeed:4": 33,
+            "Head:4": 0,
+            "Attack:4": 1,
+            "Handle:4": 0,
+            "Broken:4": 0,
+            "Extra:4": 6,
+            "RenderAccessory:4": 0,
+            "ToolLevel:4": 1,
+            "FlightSpeed:6": 4.5,
+            "Modifiers:4": 0
+          },
+          "display:10": {
+            "Name:8": "Wooden Crossbow"
+          }
+        },
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "§3§lWooden Crossbow",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Now you are able to make a better long range weapon - a crossbow. Use wood for the the crossbow limb and the body and use obsidian (Reinforced III) for the tough binding. Normal strings for the bowstrings would be enough for now.\n\nAssemble the bow yourself on your tool forge.\n\n§4For upgrades:\n§5§4§3Redstone - Speed on the draw\nLapis - Fortune on kills\nMoss - Self-repair (this is not visible in NEI until you unlock it in the GTNH Thaumcraft tab)\n\n§6NOTE: Some mobs require damage from specific tools. IF YOU ARE SHOOTING AT SOMETHING AND IT IS NOT GETTING HURT, *RUN*. And then figure out what weapon might be best to kill it."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "TConstruct:Pattern",
+          "Count:3": 1,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "TConstruct:Pattern",
+          "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "TConstruct:woodPattern",
+          "Count:3": 1,
+          "Damage:2": 15,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "TConstruct:woodPattern",
+          "Count:3": 1,
+          "Damage:2": 23,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "TConstruct:CrossbowLimbPart",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "TConstruct:CrossbowBodyPart",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "TConstruct:toughBinding",
+          "Count:3": 1,
+          "Damage:2": 6,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "TConstruct:bowstring",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "TConstruct:Crossbow",
+          "Count:3": 1,
+          "tag:10": {
+            "InfiTool:10": {
+              "RenderExtra:4": 6,
+              "BaseDurability:4": 38,
+              "BaseAttack:4": 1,
+              "DrawSpeed:4": 33,
+              "ToolEXP:4": 0,
+              "HarvestLevel:4": 0,
+              "RenderHead:4": 0,
+              "ModDurability:6": 0.0,
+              "Shoddy:6": 0.0,
+              "RenderHandle:4": 0,
+              "Accessory:4": 0,
+              "MiningSpeed:4": 150,
+              "Unbreaking:4": 3,
+              "Damage:4": 0,
+              "BonusDurability:4": 0,
+              "TotalDurability:4": 38,
+              "BaseDrawSpeed:4": 33,
+              "Head:4": 0,
+              "Attack:4": 1,
+              "Handle:4": 0,
+              "Broken:4": 0,
+              "Extra:4": 6,
+              "RenderAccessory:4": 0,
+              "ToolLevel:4": 1,
+              "FlightSpeed:6": 4.5,
+              "Modifiers:4": 0
+            },
+            "display:10": {
+              "Name:8": "Wooden Crossbow"
+            }
+          },
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinSmith",
+          "Count:3": 10,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "dreamcraft:item.CoinTechnician",
+          "Count:3": 10,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

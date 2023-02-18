@@ -1,0 +1,55 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2674
+    }
+  },
+  "questIDLow:4": 2675,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 1,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "Avaritia:Resource",
+        "Count:3": 1,
+        "Damage:2": 6,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "One Ingot, Infinite Power",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Here at Questbook, Inc. we are seriously worried about your health if you got here legitimately. Playing this much might be bad for you. You can always go outside, you know?\n\nBy the way, to make the ingot, it\u0027s just a simple Dire Crafting Table recipe. Remember that you were the one that chose to be here.\n\n§3A number of endgame recipes have now opened up. Check the Endgame Goals tab or NEI recipes for the Table to see what they are.\n\nSomething else to note is that there\u0027s an automated DCT if you happen to need a lot of these (hint: you will)."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "Avaritia:Resource",
+          "Count:3": 1,
+          "Damage:2": 6,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {}
+}

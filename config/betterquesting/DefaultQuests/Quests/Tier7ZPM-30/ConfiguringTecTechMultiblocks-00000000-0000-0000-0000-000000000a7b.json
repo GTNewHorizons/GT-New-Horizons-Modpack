@@ -1,0 +1,42 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2005
+    }
+  },
+  "questIDLow:4": 2683,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.blockmachines",
+        "Count:3": 1,
+        "Damage:2": 15420,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Configuring TecTech Multiblocks",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Many TecTech multis can be customized by adjusting certain internal numbers called parameters. You no longer need a separate block to do so, you can now directly adjust them in the GUI.\n\nIf there are lit up sections in the parameters part of the multi interface (see the TecTech Multiblocks quest), you can configure the multi, otherwise there is nothing to do.\n\nWe\u0027ll be using the Quantum Computer as our example, since that is what you probably want it for.\n\nFirst we need to understand the parameter naming, like ID:0:1:I. The first number represents the parameter block. For the QC only block 0 is used. Each such block can have up to 4 used parameters, 2 inputs and 2 outputs. The letter at the end specifies if a parameter is an input or output with I or O and the number in the middle distinguishes the 2 parameters of this kind in the block. It is either 0 or 1.\n\nInputs are something that is either set or is a default. Outputs give information that the machine sends to you, that indicates things. (like heat or Computation)\n\n§3You might still want to use the Parametrizer in block form if you want to copy and paste the settings."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {}
+}

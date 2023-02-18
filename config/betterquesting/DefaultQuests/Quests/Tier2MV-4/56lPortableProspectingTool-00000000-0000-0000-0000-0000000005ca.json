@@ -1,0 +1,101 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1477
+    }
+  },
+  "questIDLow:4": 1482,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.detrav.metatool.01",
+        "Count:3": 1,
+        "tag:10": {
+          "GT.ToolStats:10": {
+            "PrimaryMaterial:8": "Steel",
+            "MaxDamage:4": 1000,
+            "SecondaryMaterial:8": "Steel"
+          }
+        },
+        "Damage:2": 2,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "§5§6§lPortable Prospecting Tool",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Now that you have some tech, you\u0027ve discovered a way to prospect for ores. This tool only has a chance at finding the ores in a chunk. If you are clever, you can use it to locate ores.\n\nUnfortunately, the tech to make it repairable or rechargeable doesn\u0027t work, so you\u0027ll have to make a new one each time it breaks. It does work better at higher tiers and lasts longer with better materials.\n\nIt doesn\u0027t make a convenient book like the Seismic Prospector, but you can look at the results of scanning on the map, thanks to Visual Prospecting.\n\nIt can be hard to choose a good material for the Basic Prospector. Here are some good choices for you in their respective tiers, the size searched, and the average amount of veins they can scan:\n\nLV Vanadiumsteel 3x3 - 50\nMV Vanadiumsteel 3x3 - 213\nHV Vibrant Alloy 5x5 - 299\nEV Shadow Metal 7x7 - 1080\nIV Oriharukon 7x7 - 2649\n\nEach chunk successfully scanned costs 100 durability. Each failed chunk costs 25. The average for MV is ~55 per chunk when scanning a large area. As you can see, the prospectors become better and better with each tier, so craft one whenever you think you need it.\n\nGood luck."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.detrav.metatool.01",
+          "Count:3": 1,
+          "Damage:2": 4,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 1,
+          "Damage:2": 32691,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 2,
+          "Damage:2": 32702,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 5,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinTechnician",
+          "Count:3": 25,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2988
+    }
+  },
+  "questIDLow:4": 3001,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "Thaumcraft:ItemResource",
+        "Count:3": 1,
+        "tag:10": {
+          "ench:9": {
+            "0:10": {
+              "lvl:2": 1,
+              "id:2": 35
+            },
+            "1:10": {
+              "lvl:2": 1,
+              "id:2": 21
+            }
+          }
+        },
+        "Damage:2": 18,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Using All the Fractions",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "After getting all the oil fractions at once, what is a player supposed to do with them? They\u0027ll pile up in the tanks or output hatches, and the Distillation Tower will keep running even if it cannot output something; everything that cannot be output will just be voided instead, and it\u0027s in your best interest to avoid this waste. What do, then?\n\nFirst off, it\u0027s important to note that almost everything you get from Oil can be processed into even more things. Whether or not the step is worthwhile is a different story altogether, and most of them aren\u0027t. That said, you\u0027re free to look through NEI or the spreadsheet to decide what you want to do, and how you want to do it. The charm of a processing chain like this, at least for me, is that it lets you choose your own path and gives you the information to know how to best utilize it.\n\nSecond off, Oil is a major source of byproducts, many of which will be needed to create other materials that are necessary, or simply helpful in progression. However, this isn\u0027t the only way to obtain most of them, and you might already found other sources, especially if you\u0027ve dabbled in the Benzene or the Biomass chains. It\u0027s imperative that you automate most of them, but the way you do it is up to you.\n\nNow, for the four fractions that you get from regular Oil. Up until now, the power generation needed both Light Fuel and Heavy Fuel processing, and Refinery Gas already proved to be a good source of Ethylene. What can these be used for, in case you can build more DTs to process the cracked fluids? Roughly speaking, these are the possibilities:\n\nLight Fuel: You will most likely be using most, or all of this to make Diesel. If you do have leftovers, moderately hydrocracking it is a good source of Propene, and lightly hydrocracking is the best source for Octane. These two are important, but only in EV, for epoxy and powergen, specifically;\n\nHeavy Fuel: If only working with regular Oil, a lot of this will also be consumed to make Diesel. However, it\u0027s important to get more of it automated, since it can be distilled directly to make three fantastic byproducts: Toluene, Phenol and Benzene. All of them are important for progression, so make sure you pay attention to this recipe. Toluene is especially useful in HV, as you will need many buckets of it to be able to get into EV, when making your first rocket;\n\nNaphtha: You could distill it in a Distillation Tower, but keep in mind that you need to build a max-height one to cover the entire recipe. However, if you do it, you will have most of the Oil byproducts automated meaning that it\u0027s worth it to tackle this challenge when you get comfortable with making lots of Stainless Steel; it also has a good burn value, so if you don\u0027t need these byproducts, best just use it for power.\n\nRefinery Gas: You\u0027re probably already distilling this for Ethylene. You could switch this recipe to a Distillation Tower and a Oil Cracking Unit (see next quest) to gain more output and some useful byproducts."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 1126,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 64,
+          "Damage:2": 30740,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 64,
+          "Damage:2": 30741,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 64,
+          "Damage:2": 30739,
+          "OreDict:8": ""
+        },
+        "4:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 64,
+          "Damage:2": 30735,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 32,
+          "Damage:2": 11306,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 2,
+          "Damage:2": 130,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 6,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "dreamcraft:item.CoinChemistII",
+          "Count:3": 10,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

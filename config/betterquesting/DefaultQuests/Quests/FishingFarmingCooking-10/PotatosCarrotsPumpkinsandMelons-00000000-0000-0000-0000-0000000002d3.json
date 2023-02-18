@@ -1,0 +1,120 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 721
+    }
+  },
+  "questIDLow:4": 723,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "minecraft:carrot",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Potatos, Carrots, Pumpkins and Melons",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Your seeds have three different values: Growth, gain, and resistance (GGR).\n\nThe only way to change a crop\u0027s GGR without 3rd party tools (like NBTedit!) is through cross breeding. When two plants cross-breed, the resulting plant will have a GGR score that is between both \"parent\" plants\u0027 GGR. Sometimes it will also be a little bit higher or lower. Thus, to obtain high GGR scores you must go through numerous generations of crossbreeding.\n\nThe highest score for GGR is 31, while the lowest is 0.\n\n§3BTW, if you want to skip all this BS, the nbtedit command is /nbtedit me, click root in the upper left, then scroll down to inventory, and find the seedbag (empty your inventory first to make it easier) and click on the icons until you find the page with the stats. Once you\u0027ve found the GGR stats, select one and click edit in the upper left, make sure to save.\n\n§4Remember that you can §5permanantly brick your character!§4 So make a backup first if you don\u0027t know what you\u0027re doing, or want to edit your actual character.§r\n\nOf course, you can\u0027t do any of this on a server."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "minecraft:carrot",
+          "Count:3": 64,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "minecraft:potato",
+          "Count:3": 64,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "minecraft:melon_block",
+          "Count:3": 32,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "minecraft:pumpkin",
+          "Count:3": 32,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "minecraft:glowstone",
+          "Count:3": 32,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "IC2:blockCrop",
+          "Count:3": 128,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "tag:10": {
+            "ench:9": {
+              "0:10": {
+                "lvl:4": 3,
+                "id:4": 35
+              }
+            }
+          },
+          "Damage:2": 51,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinFarmer",
+          "Count:3": 15,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

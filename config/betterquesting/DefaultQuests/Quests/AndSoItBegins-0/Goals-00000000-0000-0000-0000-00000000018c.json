@@ -1,0 +1,44 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 13
+    }
+  },
+  "questIDLow:4": 396,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "GalaxySpace:item.Tier8Rocket",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Goals",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "GregTech New Horizons is a long and intricate mod pack with massive amounts of custom content and over 3000 quests to guide you along.\n\nWe would generally recommend you only set yourself relatively small goals from tier to tier and see how far your journey takes you. The ultimate late game goal is to craft a Stargate or two. But the recipe is outrageous and only very few players have ever done so. If you need a big goal for your run, maybe aim for a more realistic achievement. Like going to the moon if this is your first time playing. Or making and automating an Assembling Line if you have never done so. Or crafting the Tier 8 Rocket which is the last rocket and is reached in UHV. "
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {}
+}

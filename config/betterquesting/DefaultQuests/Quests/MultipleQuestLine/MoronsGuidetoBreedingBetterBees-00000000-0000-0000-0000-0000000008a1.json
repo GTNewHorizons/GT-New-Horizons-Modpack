@@ -1,0 +1,44 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 500
+    }
+  },
+  "questIDLow:4": 2209,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "minecraft:book",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Moron\u0027s Guide to Breeding Better Bees",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "First off, don\u0027t be scared by the massive amounts of bees you see here once you unlock the breeding trees. There\u0027s even more that aren\u0027t included and you\u0027ll need NEI to find!\n\nHa ha, just kidding - don\u0027t panic! Once you unlock the bee breeding lines, look around and pick and choose which bees really interest you. The way the breeding is done is mostly left to right, and top down. Some of the lines at the bottom might look simple, but they will require bees further up to complete first. Many of the basic bees have multiple breeding options, only one is shown here.\n\nBees have two sets of traits, one that is §aActive§r that has effects on how the bee lives, and one §3Inactive§r but can be used for breeding. Some traits are §4Dominant§r, and some are §9Recessive§r. Keep this in mind when trying to breed in or out a new trait. When getting newly bred princesses and drones, check both sets in case you got the targeted bee traits. You can breed the bees with inactive traits to try and make them active in later crosses. You can\u0027t see the passive traits using a Field Kit, you\u0027ll need a Beealyzer. For lots of bees, you can scan them first using a GT scanner, but you\u0027ll still need a Beealyzer to see passive traits.\n\nWhen breeding bees, a good idea is to settle upon a master template bee.  A bee that has little or no crossbreeding potential, but has all the traits you prefer - short life, nocturnal, cave dwelling, rain tolerant, humidity tolerance, temperature tolerance, 4xfertility, etc.  Once you have that bee, breed a bunch of pure princesses with those traits as both active and inactive. These will be your breeding stock.\n\nWhen you are trying for a new bee, what you are wanting is a drone - this way you can use your \"breeding stock\" princess for easy breeding, but the drone to get the new species without the annoying effects or limitations. Poor crossed princesses can be returned to normal by crossing with breeding stock drones, or just thrown into storage if they now have annoying restrictions. Make sure you keep the trait and species you want, and slowly merge the good traits from your breeding stock. You don\u0027t have to do this part in an Apiary, you can use a Bee House to swap around traits. Remember that no species mutations occur in a Bee House. Ignoble bees are good for this, since they\u0027re mostly disposable - they have a chance to die after 100 breeding cycles, increasing slightly more each generation after that, though genetic stability frames can let them live longer. Once you solidify your species, create a pool of drones. You can use those to convert pristine princesses to the new species. Pristine princesses will not die (they can become ignoble under certain circumstances though, like using tons of production frames). Rocky bees are a great source - all their princesses are always pristine, they have decent traits already, and there\u0027s a bunch of them underground. If you have an ender quarry, you can collect them with that.\n\nOnce you get a new species, it will replace all of one of the two sets of traits of the bee. §3If you get the mutation chance success twice on the same bee, it\u0027ll replace both active and inactive sets of traits though.§r For example when you get a Cultivated, either the Active or Inactive column will have all the default Cultivated traits. Mix it a few times and you\u0027ll eventually get purebred versions. Just watch out that you don\u0027t lose a key trait, like Fast Worker for Cultivated! All the quests will require §6purebred§r species. PS: most effects are useless, so don\u0027t worry too much.\n\nAll traits can be bred into any bee species, aside from the species itself. Species also determines the preferred temperature and humidity, as well as drops. Species will require their preferred temerature and humidity to be in \u0027jubilant\u0027 state, and produce their special drops. You can also mimic this with the alveary or industrial apiary, but NOT with tolerances.\n\nAdvanced frames can provide useful boosts to mutation chances, or to lifespan reduction for faster breeding cycles. However excessive multipliers will increase genetic decay, giving a chance for that pristine princess to become ignoble!\n\nIt looks complex, because it is! But it\u0027s also a lot of dangerous and useful fun!"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {}
+}

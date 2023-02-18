@@ -1,0 +1,48 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3031
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2985
+    }
+  },
+  "questIDLow:4": 74,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "TConstruct:Smeltery",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "OR",
+      "repeat_relative:1": 1,
+      "name:8": "§6§6§a§9§8§7§6§5§4§3§2§1§0§3§f§k§f§l§6§lYou Are Now Prepared, Hopefully!",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 1,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "No matter where you got this smeltry from, you have one now. Time for some casting!\n\nThe aluminium oreberries can be planted on cropsticks, and macerated to get small quantites of aluminium for molds if you can\u0027t find aluminium gravel.\n\nNote: The book says a 3x3 base, but you can make a smeltery with a smaller base. Taller/wider smelteries can do more items at one time, conserving fuel.\n\n§3The smeltry does not double ores in GTNH. Later machines will help you there."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {}
+}

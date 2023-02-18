@@ -1,0 +1,82 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 103
+    }
+  },
+  "questIDLow:4": 1266,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.blockmachines",
+        "Count:3": 1,
+        "Damage:2": 21,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Low Voltage Transformer",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "It\u0027s possible to run MV machines while still in LV tier. Build a transformer and use 4 power sources 32 eu/t to power one 128 eu/t machine. You can change the mode of a transformer with a soft mallet. If the transformer is wired and loaded then DO NOT change the mode otherwise there probably will be a big explosion. Be careful when switching directions - better to break and replace than rotate with the wrench and blow up a line of machines.\n\nTransformers will transform§r power up OR down, depending on the mode, which you switch with a soft mallet. Up means 4A LV to 1A MV, while down means the reverse.\n\nIn step down mode (which is the default), the large dot is the input. In step up mode, it\u0027s the output. §4DO NOT MIX THIS UP IF YOU DON\u0027T WANT AN EXPLOSION!§r LV machines that receive MV power explode! If the transformer is connected to power, or was in the past, then DO NOT change the mode with stuff connected, otherwise there probably will be a big §4explosion§r. It\u0027s better to break and re-place (to get rid of stored power) than rotate with the wrench and blow up a line of machines. Make sure to also disconnect the nearby wires with a wire cutter too."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 21,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 4,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinTechnicianI",
+          "Count:3": 3,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 28
+    }
+  },
+  "questIDLow:4": 1496,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 1,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "minecraft:iron_ore",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "§2§lHow the Heck Do I Find Ores?",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "GregTech ore generation is based on veins. Veins are centered on orecenters, based on the chunk number. Look at upper left of the screen to find the chunk number. Those infos are displayed by InGame Info XML mod. It has some useful info, but for now you need to see chunk info like \"Chunk X: 3 Z: -2\".\n\nThe 3,-2 is the chunk\u0027s address. Ignore the negative sign.  Now, the orecenters are located at 3N+1 chunks.  So, 4,7 is an orecenter. 10,16. -22,19.  Etc. \nProtip: to find out if a number is divisible by 3, add the digits and see if the sum is divisible by 3.  So 86 \u003d 8+6 \u003d 14. So you need to go down 1 chunk or up 2 chunks so that you are on a 3N+1 chunk.\n\nFor reading all the way, I\u0027ll give you an ingot of iron.\n\n§6TLDR: There\u0027s an ore vein every 3 chunks. Look in the upper left to see if you\u0027re over one.\n\n§3They have nothing to do with biomes, ok?"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "minecraft:iron_ingot",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

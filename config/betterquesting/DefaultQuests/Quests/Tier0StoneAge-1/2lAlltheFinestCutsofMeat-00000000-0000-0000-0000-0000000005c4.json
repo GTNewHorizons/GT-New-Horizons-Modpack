@@ -1,0 +1,143 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 492
+    }
+  },
+  "questIDLow:4": 1476,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.metatool.01",
+        "Count:3": 1,
+        "tag:10": {
+          "ench:9": {
+            "0:10": {
+              "lvl:2": 1,
+              "id:2": 16
+            },
+            "1:10": {
+              "lvl:2": 2,
+              "id:2": 21
+            }
+          },
+          "GT.ToolStats:10": {
+            "PrimaryMaterial:8": "Iron",
+            "MaxDamage:4": 25600,
+            "SecondaryMaterial:8": "Iron"
+          }
+        },
+        "Damage:2": 36,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "§2§lAll the Finest Cuts of Meat",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 1,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "This knife is not going to work for slaughtering the hundreds of animals you will need for food and materials. Make yourself a GregTech Butchery Knife. It stops the explosions, and kills the cows much faster, not to mention has Looting on it. Later when you get Stainless Steel, you can make a new one that will kill cows in one hit.\n\n§3Note: GT Tool damage is based on tinkers mining level."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metatool.01",
+          "Count:3": 1,
+          "tag:10": {
+            "ench:9": {
+              "0:10": {
+                "lvl:2": 1,
+                "id:2": 21
+              }
+            }
+          },
+          "Damage:2": 36,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "minecraft:spawn_egg",
+          "Count:3": 1,
+          "Damage:2": 54,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "minecraft:spawn_egg",
+          "Count:3": 1,
+          "Damage:2": 50,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "minecraft:leather",
+          "Count:3": 8,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "minecraft:beef",
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "2:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 2,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinSmith",
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "dreamcraft:item.CoinSurvivor",
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "dreamcraft:item.CoinFarmer",
+          "Count:3": 3,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

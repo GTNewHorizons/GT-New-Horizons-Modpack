@@ -1,0 +1,42 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2006
+    }
+  },
+  "questIDLow:4": 2730,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.blockmachines",
+        "Count:3": 1,
+        "Damage:2": 15465,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Lasers Solve Everything",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Laser hatches are a high-end way of sending lots of amps of power, so much in fact, that it starts at 32A. This goes 32/64/96/128/256+ and continues from there. They\u0027re also so powerful that only a few machines support them outside of the ever §owonderful§r TecTech: LSC, MEBF, MVF. and PSS. (Might be added in the future!) Remember to color both the Laser Vacuum Pipes, and the Source and Target Hatches. Also, Source \u003d Output, Target \u003d Input.\n\nLaser Converters are basically: Laser Source (on machine) -\u003e Vacuum Pipes -\u003e LC -\u003e 5x output split into X amps, 32 for the first. Make sure to put it into recieve mode. Or do it the other way around if you want to go up, it\u0027s basically a transformer that converts laser to/from cables. You can also use them to turn the lasers if you don\u0027t mind 3x the loss on device output (and not sending all the amps) compared to the Active Transformer (because of loss on each output). Just remember to put a battery buffer in between if you want it to work.\n\n§3You can use the Low Power Laser Pipes if using a \u0027Low Power\u0027 Hatch or Converter, but keep in mind you\u0027ll need to connect them with wire cutters yourself after coloring them.\n\n§cBe careful with using very high ampere hatches as every Laser Hatch has 1EU/s per max. ampere passive power loss."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {}
+}

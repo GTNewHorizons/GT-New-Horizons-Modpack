@@ -1,0 +1,70 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 5
+    }
+  },
+  "questIDLow:4": 6,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 1,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "minecraft:wheat_seeds",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "§1§lYou Reap...",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "You won\u0027t always get food rewards from this book, so it might be a good idea to take care of that problem. As you\u0027ve created a hoe already, go and find some water nearby and make a field.  With this modpack you can only make farmland within range of water. Let\u0027s trade some sticks for a carrot, so you can start your own farm.\n\nTo get other wheat, use a hoe on grass away from water. You\u0027ll get Witchery seeds too, save those for later. Start planting a cotton field, it\u0027s a key early game resource.\n\n§3PS: You can also grab a bunch from villages, and also grow the seeds from Pam\u0027s garden food."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "minecraft:stick",
+          "Count:3": 8,
+          "Damage:2": 0,
+          "OreDict:8": "woodStick"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "minecraft:carrot",
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

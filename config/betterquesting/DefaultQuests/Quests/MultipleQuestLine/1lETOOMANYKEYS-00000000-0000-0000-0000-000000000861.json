@@ -1,0 +1,44 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 0
+    }
+  },
+  "questIDLow:4": 2145,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "UNLOCKED",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "Thaumcraft:ArcaneDoorKey",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "§1§lE_TOO_MANY_KEYS",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "ERROR: Too many keys to fit a 104 key keyboard.\n\nThere are lots of keybinds in this modpack, to avoid conflicts most of them are unbinded by default and only those available from the start of the game are binded.\nHere is a list of what some of them do :\n\n\nBetterQuesting\nGRAVE - Open Questbook\n\nBattlegear\nR - Draw Weapons - It\u0027s a second hotbar that holds weapons\n\nDraconic Evolution\nV - Place the item you are holding on the block you are looking at\n\nJourneymap\nB - Create a Waypoint\nJ - Open Fullscreen Map\n\u003d - Zoom In (works on minimap too)\n- - Zoom out\n\nInventory Tweaks\nR - Sort Inventory\n\nShare Where I am\nINSERT - Places a temporary beam where you are looking at that will be seen by you and other players\nSHIFT + INSERT - Places a temporary beam where you are that will be seen by you and other players\nCTRL + INSERT - Shares with other players the position you are looking at\nCTRL + SHIFT + INSERT - Shares with other players your position\n\nWaila - Shows informations of what you are looking at\nNUMPAD1 - show/hide the Waila HUD\nNUMPAD3 - shows how to craft what you are looking at\nNUMPAD4 - shows the crafting usages of the thing you are looking at\n"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {}
+}

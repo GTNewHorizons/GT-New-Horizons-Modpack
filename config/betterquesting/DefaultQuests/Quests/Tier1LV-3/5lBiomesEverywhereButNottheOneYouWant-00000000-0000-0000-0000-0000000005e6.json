@@ -1,0 +1,90 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 97
+    }
+  },
+  "questIDLow:4": 1510,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "naturescompass:NaturesCompass",
+        "Count:3": 1,
+        "tag:10": {},
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "§5§lBiomes Everywhere, But Not the One You Want?",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Tired of searching all over the map for that Bamboo Forest or Tropical Rainforest? Desperate for clay dust and need to find a Canyon or Mesa biome? Nature\u0027s compass will lead you to the biome you\u0027re looking for, if it\u0027s within range.\n\nSome things to keep in mind:\n1) Biomes from other dims show up on the list, don\u0027t bother searching those unless you\u0027re in that dim\n2) Radius 10000 means it couldn\u0027t find it\n3) You can try again at a different location and you might find it, the range is 10K too. There\u0027s also a config setting for those who don\u0027t mind the freeze when searching\n4) Artificially created biomes count, so remove them if you want to find a natural one\n5) There\u0027s lots of different \u0027versions\u0027 of biomes under the same category, so if you want a tropical one for tropical bees, there\u0027s actually a bunch of places you can get it."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "naturescompass:NaturesCompass",
+          "Count:3": 1,
+          "tag:10": {},
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 4,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinBees",
+          "Count:3": 15,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "dreamcraft:item.CoinForestry",
+          "Count:3": 15,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}
