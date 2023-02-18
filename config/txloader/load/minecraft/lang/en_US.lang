@@ -3762,7 +3762,7 @@ gtnh.quest939.desc=Your hoe must be getting worn out by now. Why not craft an el
 
 # Quest.940 - §6§lCleanroom
 gtnh.quest940.name=§6§lCleanroom
-gtnh.quest940.desc=If you want to make more advanced (also cheaper!) circuits you'll need a cleanroom. The cleanroom is a multiblock between 3x4x3 and 15x15x15 (WxHxL) blocks. Besides plascrete blocks for all edges you'll need a controller in the top center, filter machine casings for the rest of the top except edges, an energy and maintenance hatch, a reinforced door (yes, this is always needed) and machine hulls if you want to automate. These are optional, for now, use them for power input, item input, and item output. Tier does not affect item transfer, so use the cheapest ones for that.%n%nLet's build a 5x5x5 room. Expanding it vertically is easy to do, or you can make it wider and longer, as long as both X and Z match and are odd. Up to 5% of the plascrete blocks can be replaced with Reinforced Glass to see into the cleanroom and check on machines.%n%nYou can pass materials through the walls using Machine Hulls. You can pass 1A of power using a Machine Hull as well, or you can use Diodes to pass multiple amps through.%n%nJust be really careful when upgrading your machines. Be sure to remove the machine hulls and diodes and replace them with the new power tier, or else you will be very sad. You don't need to do this for ones you only use to pass items through.%n%nIf the Cleanroom has maintenance issues, it will have a chance to void recipes needing a cleanroom (10% per maint issue!). Monitor your cleanroom with a Hand Scanner, Industrial Information Panel, or using a Needs Maintenance Cover and a Redstone Powered Light or Howler Alarm.%n%nAdditionally, the longer the door is open, the lower the efficiency will get, which has a direct correlation to recipe voiding. So open the door as little as possible! There are ways around this though, for example, with an elevator or travel anchor, you never actually need to open the door!%n%n§3Multiblocks such as the LCR, LPF, or PA count as cleanrooms, so you don't need to put them in one. You cannot use the bio lab in a PA, so you'll still need the cleanroom later on.%n%nOther helpful hints include: using a wireless connector for AE or a transvector interface to skip machine hulls, and that you can use higher tier energy hatches to reach 100% efficiency faster (does not use more power once at 100%).%n%n§cKeep in mind that you cannot use anything in the cleanroom that causes pollution or it will break down.
+gtnh.quest940.desc=If you want to make more advanced (also cheaper!) circuits you'll need a cleanroom. The cleanroom is a multiblock between 3x4x3 and 15x15x15 (WxHxL) blocks. Besides plascrete blocks for all edges you'll need a controller in the top center, filter machine casings for the rest of the top except edges, an energy and a maintenance hatch. You will also need a reinforced door or some other way to get in and out and machine hulls or diodes if you want to automate it. The door, machine hulls, and diodes are optional. You can use the machine hulls for power input, item input, and item output. Tier does not affect item transfer, so use the cheapest ones for that.%n%nLet's build a 5x5x5 room. Expanding it vertically is easy to do, or you can make it wider and longer, as long as both X and Z match and are odd. Up to around 5% of the plascrete blocks can be replaced with Reinforced Glass to see into the cleanroom and check on machines. Some other glass like Borosilicate Glass or Warded Glass can be used in even higher percentages.%n%nYou can pass materials through the walls using Machine Hulls. You can pass 1A of power using a Machine Hull as well, or you can use Diodes to pass multiple amps through.%n%nJust be really careful when upgrading your machines to a higher voltage. Be sure to remove the machine hulls and diodes and replace them with the new power tier, or else you will be very sad. You don't need to do this for ones you only use to pass items through.%n%nIf the Cleanroom has maintenance issues, it will have a chance to void recipes needing a cleanroom (10% per maint issue!). Monitor your cleanroom with a Hand Scanner, Industrial Information Panel, or using a Needs Maintenance Cover and a Redstone Powered Light or Howler Alarm.%n%nAdditionally, the longer the door is open or the cleanroom is off, the lower the efficiency will get, which has a direct correlation to recipe voiding. So open the door as little as possible and keep the cleanroom running! There are ways around using a door though. With an elevator or travel anchor you never actually need to open a door or even use one in the structure! You can even use the elevator block or travel anchor as a floor block to neatly integrate it.%n%n§3Multiblocks such as the LCR, LPF, or PA count as cleanrooms, so you don't need to put them in one. You cannot use the bio lab in a PA, so you'll still need the cleanroom later on.%n%nOther helpful hints include: using a wireless connector for AE or a transvector interface to skip machine hulls, and that you can use higher tier energy hatches to reach 100% efficiency faster (does not use more power once at 100%).%n%n§cKeep in mind that you cannot use anything in the cleanroom that causes pollution or it will break down.
 
 # Quest.941 - §6§lA Very Useful Scanner
 gtnh.quest941.name=§6§lA Very Useful Scanner
@@ -10080,9 +10080,9 @@ gtnh.quest2518.desc=The ME Fluid Terminal allows you to directly input and outpu
 gtnh.quest2519.name=Illuminated Panels
 gtnh.quest2519.desc=All terminals are made from these. You'll probably want several.
 
-# Quest.2520 - Making the Assline Easier
-gtnh.quest2520.name=Making the Assline Easier
-gtnh.quest2520.desc=Unlike regular pattern terminals, the processing pattern terminal doesn't have a crafting mode. Instead, you have a 4x4 space for more items, one more slot for output, and the ability to swap them.
+# Quest.2520 - Easier AL automation
+gtnh.quest2520.name=Easier AL automation
+gtnh.quest2520.desc=Unlike regular pattern terminals, the processing pattern terminal doesn't have a crafting mode. Instead, you have a lot more slots for input and output, and the ability to swap them. Great for your Assembling Line patterns. Why not directly make the fluid option? It is a straight upgrade.
 
 # Quest.2521 - Making Patterns Quick
 gtnh.quest2521.name=Making Patterns Quick
@@ -10802,7 +10802,7 @@ gtnh.quest2699.desc=So if you thought one Quantum Computer was cool, what about 
 
 # Quest.2700 - LSC = MC^2
 gtnh.quest2700.name=LSC = MC^2
-gtnh.quest2700.desc=This is the final upgrade to the LSC. You can use either the Ultimate or Really Ultimate batteries to craft it, it costs about the same either way.
+gtnh.quest2700.desc=This is the final upgrade to the LSC when it comes to storage. You can use either the Ultimate or Really Ultimate batteries to craft it, it costs about the same either way.
 
 # Quest.2701 - Chaotic Energy
 gtnh.quest2701.name=Chaotic Energy
@@ -11746,7 +11746,7 @@ gtnh.quest2935.desc=This solvent can be 100% recycled in the naquadah process li
 
 # Quest.2936 - §6§lNeutron Activator
 gtnh.quest2936.name=§6§lNeutron Activator
-gtnh.quest2936.desc=You will need machine to process the naquadah in future.%n%nThis machine is different from most mulits. It needs to use §4Neutron Accelerator§r this special hatch instead of energy hatch to keep it running.%n%nThe accelerator will increase its Neutron Kinetic Energy (NKE) and when the NKE is between the requested number which you can see in NEI, the machine will work and output the right products. However, if you turn on the Neutron Activator when NKE doesn't meet the requirement, it will still consume your input material but output trash. So be careful with the NKE when you run this machine.%n%nWhen all Neutron Accelerator§rs aren't running, NKE will decrease 72keV/s.%n%nNeutron Activator will explode when NKE is over 1200MeV.
+gtnh.quest2936.desc=You will need machine to process the naquadah in future.%n%nThis machine is different from most mulits. It needs to use §4Neutron Accelerator§r this special hatch instead of energy hatch to keep it running.%n%nThe accelerator will increase its Neutron Kinetic Energy (NKE) and when the NKE is between the requested number which you can see in NEI, the machine will work and output the right products. However, if you turn on the Neutron Activator when NKE doesn't meet the requirement, it will still consume your input material but output trash. So be careful with the NKE when you run this machine.%n%nWhen all Neutron Accelerator§rs aren't running, NKE will decrease 72keV/s.%n%nNeutron Activator will explode when NKE is over 1200MeV.%n%n§3The more height/speed casings you have, the more inefficient the eu->eV conversion becomes, so you then need more power. The maths is as follows: Multiply recipe time by 0.9 for each height above 4 and multiply eV you get from your input power by 0.95 for each height above 4.
 
 # Quest.2937 - §6§lNeutron Sensor
 gtnh.quest2937.name=§6§lNeutron Sensor
@@ -12974,7 +12974,7 @@ gtnh.quest3242.desc=Circuits required for UMV tier.
 
 # Quest.3243 - Finally, you are here.
 gtnh.quest3243.name=Finally, you are here.
-gtnh.quest3243.desc=Well done, you have reached the highest craftable parts in the game.
+gtnh.quest3243.desc=Just a bit more.
 
 # Quest.3244 - UXV Circuits
 gtnh.quest3244.name=UXV Circuits
@@ -13175,6 +13175,26 @@ gtnh.quest3292.desc=The final tier of the QFT, built on many stacks of Spacetime
 # Quest.3293 - Travelocity²
 gtnh.quest3293.name=Travelocity²
 gtnh.quest3293.desc=Why walk when you can teleport? This upgrade to the staff of traveling can move you even further, even faster, and will never run out of energy.%n%nRight-click:%n * If looking at a block: teleport to it, 512 range%n * If no block in range: teleport forward, 64 range%n * If looking at a block within 2 range: teleport to the other side of a wall, 16 range%n * No cooldown%n%nShift-right-click:%n * Teleport to travel anchor, 2048 range%n%n§3Tip: You won't be able to see travel anchors that are far away, but can still teleport to them if they are in range and chunk-loaded. Try using JourneyMap waypoints to mark anchors!%n%n§3Note: The staff of teleportation has inverted shift behavior compared to the regular staff. This is to make moving around with right-click easier.
+
+# Quest.3294 - Catwalks
+gtnh.quest3294.name=Catwalks
+gtnh.quest3294.desc=The Catwalks Mod adds several cosmetic blocks to deck out your factory.%n%nScaffolds and Builder's Scaffolds are useful for building up in the air before you get access to flight. They can be climbed like ladders, and break instantly when punched. You will also not fall off of them if you let go of movement keys while climbing. If you right-click the Builder's Scaffold with a solid block, the scaffold will be replaced by that block.%n%nCatwalks can connect to each other to form a wide passageway. You can decorate them by attaching Caution Tape or Rope Lights, the latter provide dim lighting.%n%nCaged Ladders give you a way to move up and down without a risk of falling off. Climbing them is much faster than vanilla ladders.%n%nSupport Columns are purely decorative. They connect to each other in all directions. They also work as ladders.%n%nSturdy Rails let you run minecart tracks across gaps without supports. Right-click the Sturdy Powered Rail with a Blowtorch to power it permanently, you don't need a redstone torch. If you don't have enough distractions already, use them to build a rollercoaster!%n%nThe Blowtorch lets you remove railings or even the floor from a catwalk by right-clicking. Use it to make an opening to let you walk onto the catwalk, or if you don't know what an "OSHA violation" is. The same function can be performed by a GT or Forge-compatible wrench, so you don't actually need to make this.%n
+
+# Quest.3295 - Extremely Ultimate and Ultimately Extreme
+gtnh.quest3295.name=Extremely Ultimate and Ultimately Extreme
+gtnh.quest3295.desc=An even more expensive capacitor but it has the same storage? You are reading that right. But it has much faster transfer rates to your wireless power network!
+
+# Quest.3296 - UXV tier
+gtnh.quest3296.name=UXV tier
+gtnh.quest3296.desc=May Dreammaster have mercy on your soul. You have reached the highest craftable tier in the game!
+
+# Quest.3297 - Endshard
+gtnh.quest3297.name=Endshard
+gtnh.quest3297.desc=Critical for your Ichor production.
+
+# Quest.3298 - Nethershard
+gtnh.quest3298.name=Nethershard
+gtnh.quest3298.desc=Critical for your Ichor production.%n%n§3You will need to breed through a bunch of elemental bees that don't have quests to actually get to it.
 
 ##################################Line##################################
 
