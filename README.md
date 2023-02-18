@@ -8,7 +8,7 @@ Version 2.2.10 is out 2023-02-17
 
 <p align="justify">
     You are looking at a big progressive kitchensink pack for Minecraft 1.7.10 balanced around the mod GregTech.<BR><BR>
-    Over 7 years of development (and still going) have formed a balance and refinement that only a handful of packs can keep up with. We are talking about thousands of recipe tweaks, a massive questbook with over 3000 quests, unique world generation, custom mods coded for the pack, custom Thaumonomicon pages, and many more.
+    Over 8 years of development (and still going) have formed a balance and refinement that only a handful of packs can keep up with. We are talking about thousands of recipe tweaks, a massive questbook with over 3000 quests, unique world generation, custom mods coded for the pack, custom Thaumonomicon pages, and many more.
     The main intentions of the pack are a long-lasting experience and tying mods together in a progressive fashion, making it feel more like a single game than a compilation of mods thrown together.<BR><BR>
     To reach this goal, GT New Horizons is using the tiers (basically ages of technology) from GregTech and allocates content of other mods to a fitting point within the progression.<BR><BR>
     Starting in the stone age you will barely be able to survive until you get your first steam machines and, eventually, reach electricity. Later on, you will have to visit other planets and dimensions to gather important resources and fight mighty bosses to channel their magical power.<BR><BR>
@@ -69,7 +69,7 @@ Here is our Discord server in case you want to take a look at it:
 ***Magic***<BR> 
 
 <p align="justify">
-    GT New Horizons comes with a variety of powerful magic mods. Your main access will be through the Thauminomicon which is modified to also feature custom sections for Blood Magic, Witchery, and other important things besides having the usual content of Thaumcraft and its add-ons.<BR>
+    GT New Horizons comes with a variety of powerful magic mods. Your main access will be through the Thauminomicon which is modified to also feature custom sections for Botania, Blood Magic, Witchery, and other important things besides having the usual content of Thaumcraft and its add-ons.<BR>
     <BR>
     The Twilight Forest is the dimension linked to magic in this pack and you will have to explore and defeat the bosses to progress in magic. Later on, there is power generation with essentia and options to store it using your AE system connecting technology with magic.
 </p>
@@ -106,7 +106,7 @@ Here is our Discord server in case you want to take a look at it:
 
 ***Questing***<BR>
 <p align="justify">
-    GT New Horizons comes with over 1300 quests that will guide the player through the maze that modded Minecraft can be.<BR>
+    GT New Horizons comes with over 3000 quests that will guide the player through the maze that modded Minecraft can be.<BR>
     <BR>
     The texts will inform you what's required to progress so you don't have to watch tutorials or ask others as often. The questbook can even save you the time to type into NEI, just click the items displayed in the quest and it will display the recipe through NEI, quite handy, right?<BR>
     <BR>
