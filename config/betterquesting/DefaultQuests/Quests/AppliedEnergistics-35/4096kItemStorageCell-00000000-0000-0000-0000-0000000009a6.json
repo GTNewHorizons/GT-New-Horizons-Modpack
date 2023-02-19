@@ -15,10 +15,13 @@
       "isMain:1": 0,
       "simultaneous:1": 0,
       "icon:10": {
-        "id:8": "appliedenergistics2:item.ItemAdvancedStorageCell.4096k",
+        "id:8": "extracells:storage.physical",
         "Count:3": 1,
-        "tag:10": {},
-        "Damage:2": 0,
+        "tag:10": {
+          "upgrades:10": {},
+          "config:10": {}
+        },
+        "Damage:2": 2,
         "OreDict:8": ""
       },
       "snd_update:8": "random.levelup",
@@ -43,10 +46,13 @@
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "appliedenergistics2:item.ItemAdvancedStorageCell.4096k",
+          "id:8": "extracells:storage.physical",
           "Count:3": 1,
-          "tag:10": {},
-          "Damage:2": 0,
+          "tag:10": {
+            "upgrades:10": {},
+            "config:10": {}
+          },
+          "Damage:2": 2,
           "OreDict:8": ""
         }
       },

@@ -16,7 +16,7 @@
       "isMain:1": 0,
       "simultaneous:1": 0,
       "icon:10": {
-        "id:8": "appliedenergistics2:item.ItemVoidStorageCell",
+        "id:8": "extracells:storage.physical.void",
         "Count:3": 1,
         "tag:10": {},
         "Damage:2": 0,
@@ -45,7 +45,7 @@
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "appliedenergistics2:item.ItemVoidStorageCell",
+          "id:8": "extracells:storage.physical.void",
           "Count:3": 1,
           "tag:10": {},
           "Damage:2": 0,

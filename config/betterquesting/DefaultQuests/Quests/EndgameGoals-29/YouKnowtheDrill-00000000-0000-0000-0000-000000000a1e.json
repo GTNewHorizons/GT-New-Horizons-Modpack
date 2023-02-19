@@ -82,6 +82,12 @@
           "Count:3": 1,
           "Damage:2": 32699,
           "OreDict:8": ""
+        },
+        "7:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 1,
+          "Damage:2": 32679,
+          "OreDict:8": ""
         }
       },
       "taskID:8": "bq_standard:retrieval"

@@ -15,7 +15,7 @@
       "isMain:1": 0,
       "simultaneous:1": 0,
       "icon:10": {
-        "id:8": "ae2fc:fluid_auto_filler",
+        "id:8": "extracells:fluidcrafter",
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": ""
@@ -29,7 +29,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "The ME Fluid Auto Filler will add crafting recipes for any fluid in your network that has a bucket version. When crafting a water bucket for example, it will send a bucket to it, and the filled water bucket back."
+      "desc:8": "The ME Fluid Auto Filler will add crafting recipes for any fluid in your network that has a bucket version. When crafting a water bucket for example, it will send a bucket to it, and the filled water bucket back.\n\nThe ME Fluid Assembler acts like a combined Molecular Assember and ME Interface for recipes that require fluids (but not processing recipes). It will accept both buckets and cells in the recipe patterns, but doesn\u0027t use them when crafting, it just sends the fluid directly. The MEFAF is sad :(."
     }
   },
   "tasks:9": {
@@ -42,7 +42,13 @@
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "ae2fc:fluid_auto_filler",
+          "id:8": "extracells:ecbaseblock",
+          "Count:3": 1,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "extracells:fluidcrafter",
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": ""

@@ -15,9 +15,9 @@
       "isMain:1": 0,
       "simultaneous:1": 0,
       "icon:10": {
-        "id:8": "ae2fc:fluid_part",
+        "id:8": "extracells:storage.component",
         "Count:3": 1,
-        "Damage:2": 6,
+        "Damage:2": 10,
         "OreDict:8": ""
       },
       "snd_update:8": "random.levelup",
@@ -29,7 +29,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "And another one."
+      "desc:8": "Final tier of the fluid components."
     }
   },
   "tasks:9": {
@@ -42,9 +42,9 @@
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "ae2fc:fluid_part",
+          "id:8": "extracells:storage.component",
           "Count:3": 1,
-          "Damage:2": 6,
+          "Damage:2": 10,
           "OreDict:8": ""
         }
       },
