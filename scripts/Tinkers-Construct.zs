@@ -1547,8 +1547,6 @@ recipes.addShaped(<TConstruct:CastingChannel>, [
 // --- Casting Faucet
 recipes.addShaped(<TConstruct:SearedBlock:1> * 2, [[<ore:craftingToolSaw>, <TConstruct:CastingChannel>]]);
 // -
-recipes.addShaped(<TConstruct:SearedBlockNether:1> * 2, [[<TConstruct:CastingChannel>, <ore:craftingToolSaw>]]);
-// -
 recipes.addShaped(<TConstruct:SearedBlock:1>, [
 [null, null, null],
 [<TConstruct:materials:2>, null, <TConstruct:materials:2>],
