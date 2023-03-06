@@ -489,6 +489,8 @@ recipes.remove(<TConstruct:SearedBlockNether:2>);
 
 // --- Casting Channel
 recipes.remove(<TConstruct:CastingChannel>);
+// -
+recipes.remove(<TConstruct:CastingChannel:1>);
 
 // --- Casting Faucet
 recipes.remove(<TConstruct:SearedBlock:1>);
@@ -1543,9 +1545,16 @@ recipes.addShaped(<TConstruct:CastingChannel>, [
 [<TConstruct:materials:2>, null, <TConstruct:materials:2>],
 [<TConstruct:materials:2>, null, <TConstruct:materials:2>],
 [<TConstruct:materials:2>, <TConstruct:materials:2>, <TConstruct:materials:2>]]);
+// -
+recipes.addShaped(<TConstruct:CastingChannel:1>, [
+[<TConstruct:materials:37>, null, <TConstruct:materials:37>],
+[<TConstruct:materials:37>, null, <TConstruct:materials:37>],
+[<TConstruct:materials:37>, <TConstruct:materials:37>, <TConstruct:materials:37>]]);
 
 // --- Casting Faucet
 recipes.addShaped(<TConstruct:SearedBlock:1> * 2, [[<ore:craftingToolSaw>, <TConstruct:CastingChannel>]]);
+// -
+recipes.addShaped(<TConstruct:SearedBlockNether:1> * 2, [[<ore:craftingToolSaw>, <TConstruct:CastingChannel:1>]]);
 // -
 recipes.addShaped(<TConstruct:SearedBlock:1>, [
 [null, null, null],
