@@ -2858,7 +2858,7 @@ gtnh.quest713.desc=The last diviner so far, used for the most powerful rituals.
 
 # Quest.714 - Convocation of the Damned
 gtnh.quest714.name=Convocation of the Damned
-gtnh.quest714.desc=Time to open a portal to the Demonic Realm. What could possibly go wrong? (It's recommended to do this ritual on a space dim, as the demon city will spread quite a bit...)%n%nIt's complicated to explain, so check a wiki for details on how to actually do it. Remember you need to have 15M LP, so you'll need 25 Runes of the Orb to start it. Also, you need the Alchemic Calcinator and the other tools in the upper left of the BM thaumcraft tab for working with the belljars.
+gtnh.quest714.desc=Time to open a portal to the Demonic Realm. What could possibly go wrong? (It's recommended to do this ritual on a space dim, as the demon city will spread quite a bit...)%n%nIt's complicated to explain, so check a wiki for details on how to actually do it. Remember you need to have 15M LP, so you'll need 25 Runes of the Orb to start it. Also, you need the Alchemic Calcinator and the other tools in the upper left of the BM thaumcraft tab for working with the belljars.%n%n§3The OW is now blacklisted for the portal. Too many people did not follow the recommendation and servers had to suffer under it.
 
 # Quest.715 - Imbued Spell Upgrades
 gtnh.quest715.name=Imbued Spell Upgrades
@@ -5646,7 +5646,7 @@ gtnh.quest1410.desc=An IV mixer is required for example to mix HSS-S dust or to 
 
 # Quest.1411 - §9§lSome Rare High Tier Metals
 gtnh.quest1411.name=§9§lSome Rare High Tier Metals
-gtnh.quest1411.desc=Platinum, Palladium, Iridium and Osmium can be extracted with a chemical reaction from Chalcopyrite and Pentlandite using nitric acid. You don't have the technology to process them properly right now but later on you need large amounts of them.%n%nNote that this is not the proper method to get rare metals. This means none of them are pure, and cannot be utilized without the platline method, aside from EBF-ing platinum. Proper Platinum processing is EV, but you'll have to wait until IV to use the rest. Collecting a lot of it now (especially using this method) might not be a great idea depending on how long that will be.%n%n§3The Palladium, Iridium, and Rarest Metal (Os+Ir) all are % based, being 95%, 90%, 85% respectively. The quest only asks for 50%.%n%nA chemical bath also extracts Platinum from Nickel ore if you use Mercury. Time to head back to the Twilight Forest!
+gtnh.quest1411.desc=Platinum, Palladium, Iridium and Osmium can be extracted with a chemical reaction from Chalcopyrite and Pentlandite using sulfuric acid. You don't have the technology to process them properly right now but later on you need large amounts of them.%n%nNote that this is not the proper method to get rare metals. This means none of them are pure, and cannot be utilized without the platline method, aside from EBF-ing platinum. Proper Platinum processing is EV, but you'll have to wait until IV to use the rest. Collecting a lot of it now (especially using this method) might not be a great idea depending on how long that will be.%n%n§3A Chemical Bath also extracts Platinum from Nickel Ore if you use Mercury. Time to head back to the Twilight Forest!
 
 # Quest.1412 - §6§lAssembling Line
 gtnh.quest1412.name=§6§lAssembling Line
@@ -11932,9 +11932,9 @@ gtnh.quest2981.desc=Electric Air Filter%n%nThis wonderful multiblock comes in 3 
 gtnh.quest2982.name=§6§lAbsorption Filter
 gtnh.quest2982.desc=When you reach MV tier you can make your own Absorption Filter for the Air Filter to clean pollution much more efficient. The Filter will be consumed and you get a dirty Filter back after 30 Cycles.
 
-# Quest.2983 - §6§lMica Ore
-gtnh.quest2983.name=§6§lMica Ore
-gtnh.quest2983.desc=Mica is a very rare but useful ore. You need it in order to craft your high tier coils for the EBF.%nIf you have no luck in finding this vein yet try to look for it with a Prospector..
+# Quest.2983 - §5§lMica Ore
+gtnh.quest2983.name=§5§lMica Ore
+gtnh.quest2983.desc=Mica is a very rare but useful ore. You need it in order to craft your coils for the Electric Blast Furnace. Only for cupronickel coils there is a replacement recipe. If you have no luck in finding this vein yet try to look for it with a Prospector once you get them.
 
 # Quest.2984 - Simple Distillation
 gtnh.quest2984.name=Simple Distillation
@@ -12294,7 +12294,7 @@ gtnh.quest3072.desc=You made your first Kanthal ingots. It's time to make some m
 
 # Quest.3073 - §6§lCoolant
 gtnh.quest3073.name=§6§lCoolant
-gtnh.quest3073.desc=Make your first coolant out of water or distilled water and lapis dust in an mv mixer.%n%nUsing distilled water lets you save on lapis while also speeding up the process by a lot.
+gtnh.quest3073.desc=Make your first coolant out of water or distilled water and lapis dust in an mv mixer.%n%nUsing distilled water lets you save on lapis while also speeding up the process by a lot.%n%n§3If you don't use distilled water, you will need a lot more than 64 lapis dust.
 
 # Quest.3074 - §a§lPower of the Sun from Nuclear
 gtnh.quest3074.name=§a§lPower of the Sun from Nuclear
