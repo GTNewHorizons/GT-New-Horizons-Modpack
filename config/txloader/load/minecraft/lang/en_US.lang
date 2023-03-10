@@ -346,7 +346,7 @@ gtnh.quest85.desc=...with this great invention! Upgrade power and coils to smelt
 
 # Quest.86 - §6§lTPV Coil Upgrade
 gtnh.quest86.name=§6§lTPV Coil Upgrade
-gtnh.quest86.desc=To process more advanced materials like enderium and niobium-titanium you need more than 3600K. Time to upgrade your EBF... again.
+gtnh.quest86.desc=To process more advanced materials like Tungstensteel, Enderium and Niobium-Titanium, you will need more than 3600K. Time to upgrade your EBF... again.
 
 # Quest.87 - §6§lSteel Multiblock Tanks
 gtnh.quest87.name=§6§lSteel Multiblock Tanks
@@ -850,7 +850,7 @@ gtnh.quest211.desc=Another upgrade for your walls. One more to go!
 
 # Quest.212 - §a§lPulverize the Planet
 gtnh.quest212.name=§a§lPulverize the Planet
-gtnh.quest212.desc=Literally. You can grind the rock of most planets, to get a chance for...stuff. It depends on the planet. Does consume quite a bit of power, but can really help you out.%n%nFor Tungstate, you can centrifuge previously macerated moon dust, macerate end stone with an HV+ macerator and then centrifuge it, or centrifuge endergoo (found all over the end, does not give back buckets).%n%nIf you want to make your rocket, you need to get at least a little before you can get to a planet with the ore.%n%n§3Do one of the tasks.
+gtnh.quest212.desc=Literally. You can grind the rock of most planets, to get a chance for...stuff. It depends on the planet. Does consume quite a bit of power, but can really help you out.%n%nFor Tungstate, you can centrifuge previously macerated moon dust, macerate end stone with an HV+ macerator and then centrifuge it, or centrifuge endergoo (found all over the end, does not give back buckets).%n%nIf you want to make your rocket, you need to get at least a little before you can get to a planet with the ore. However, keep in mind that you'll need an EBF with TPV Coils to smelt Tungstensteel Dust into the ingot!%n%n§3Do one of the tasks.
 
 # Quest.213 - §1§b§l§1§2§3§4§5§4§6§7§8§9§a§b§c§d§e§c§b§lTier 5 (IV)
 gtnh.quest213.name=§1§b§l§1§2§3§4§5§4§6§7§8§9§a§b§c§d§e§c§b§lTier 5 (IV)
@@ -5046,7 +5046,7 @@ gtnh.quest1260.desc=Component of the crafting CPU which displays the top level j
 
 # Quest.1261 - §a§lNanoprocessor Mainframe
 gtnh.quest1261.name=§a§lNanoprocessor Mainframe
-gtnh.quest1261.desc=The nanoprocessor mainframe is the first LuV Circuit.
+gtnh.quest1261.desc=The nanoprocessor mainframe is the first LuV Circuit, and the end of this circuit line produced in EV. To craft the Tier 2 Rocket and reach Mars, Phobos and Deimos, you need to reach this circuit and make 8 of it.%n%nAfter that, you will be able to progress into IV much more easily, but you will need two more circuits to make the IV Circuit Assembling Machine.
 
 # Quest.1262 - EV Battery Buffer
 gtnh.quest1262.name=EV Battery Buffer
@@ -5922,7 +5922,7 @@ gtnh.quest1479.desc=Want some rubber rings? Buy some!
 
 # Quest.1480 - §a§lRadon Decay
 gtnh.quest1480.name=§a§lRadon Decay
-gtnh.quest1480.desc=Radon is needed for EV emitters and sensors.%n%nYou can get Radium-226 from sifting Pitchblende, Uraninite, or Uranium 238. It needs 4500s or 75 mins to decay. So get used to wearing your hazmat suit around your base or sit and enjoy a few sunsets. Make sure to send it out for cleaning after you're done.%n%nAfter it decays you can electrolyze radon out of it.%n%n§3You only need to do one task.
+gtnh.quest1480.desc=Radon is needed for EV Emitters and Sensors.%n%nYou can get Radium-226 from sifting Thorium, Pitchblende, Uraninite, or Uranium 238. It needs 4500 seconds, or 75 mins, to decay, and it will debuff you until it decays unless you have complete hazmat protection. It's a good idea to make a Lead-Lined Box and let the Radium decay there, instead.%n%nThorium can be obtained from the Nether, whereas the other 3 ores are locked after the Tier 2 Rocket. However, Thorium gives a much smaller chance of getting Radium, so you'll need a good amount of it to continue.%n%nAfter it decays, you can electrolyze Radon out of it and progress into the next circuit line. However, you will not be able to do the Radon loop here, that can only be done with Plutonium 239.%n%n§3You only need to do one task.
 
 # Quest.1481 - What Was That? I Can't Hear You Over the Engine!
 gtnh.quest1481.name=What Was That? I Can't Hear You Over the Engine!
@@ -12874,7 +12874,7 @@ gtnh.quest3217.desc=Smelting with the ferocity of the universe itself.%n%nThis u
 
 # Quest.3218 - §6§lHypogen Coil Upgrade
 gtnh.quest3218.name=§6§lHypogen Coil Upgrade
-gtnh.quest3218.desc=Forged from the blood of an ageless dragon, and melded together by the power of fusion beyond what you thought was the reality. No natural element, or combination of elements could match up to this glowing orange material, not even the Awakened Draconium you got your hands on before.%n%nWhat truly happened inside that Mk4 Fusion Reactor? What §ois§o§r this material? Its dust pulsates visibly, at different rates depending on the size of the dust itself. Hypogen approaches a state of complete balance as it approaches the block size, and it is obvious to you what needs to be done with it.%n%nIt absorbs and radiates energy without any effort, but it would be stupid to attempt making coils out of this without assistance. Wetware wasn't good anymore, and only the most advanced living circuit could withstand the erratic behavior Hypogen has.%n%nProvides 12601K heat. Almost certainly, this will end up on your DTPF.
+gtnh.quest3218.desc=Forged from the blood of an ageless dragon, and melded together by the power of fusion beyond what you thought was the reality. No natural element, or combination of elements, could match up to this glowing orange material, not even the Awakened Draconium you got your hands on before.%n%nWhat truly happened inside that Mk4 Fusion Reactor? What §ois§o§r this material? Its dust pulsates visibly, at different rates depending on the size of the dust itself. Hypogen approaches a state of complete balance as it approaches the block size, and it is obvious to you what needs to be done with it.%n%nIt absorbs and radiates energy without any effort, but it would be stupid to attempt making coils out of this without assistance. Wetware wasn't good enough anymore, and only the most advanced living circuit could withstand the erratic behavior Hypogen demonstrates.%n%nProvides 12601K heat. Almost certainly, this will end up on your DTPF.
 
 # Quest.3219 - §6§lEternal Coil Upgrade
 gtnh.quest3219.name=§6§lEternal Coil Upgrade
