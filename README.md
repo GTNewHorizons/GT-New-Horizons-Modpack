@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version 2.3.0-RC4 is out 2023-03-10
+Version 2.3.0 is out 2023-03-10
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -327,7 +327,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [GoodGenerator](https://github.com/GTNewHorizons/GoodGenerator) | 0.4.88 |
 | [Gravitation-Suite-Neo](https://github.com/GTNewHorizons/Gravitation-Suite-Neo) | 1.0.8 |
 | [Gravitation-Suite-old](https://forum.industrial-craft.net/thread/6915-ic2-exp-1-7-10-gravitation-suite-v2-0-3/) | 2.0.3 |
-| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.41.314 |
+| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.41.315 |
 | [GTNEIOrePlugin](https://github.com/GTNewHorizons/GTNEIOrePlugin) | 1.0.28 |
 | [GTNH-Lanthanides](https://github.com/GTNewHorizons/GTNH-Lanthanides) | 0.9.29 |
 | [GTNH-TC-Wands](https://github.com/GTNewHorizons/GTNH-TC-Wands) | 1.2.6 |
@@ -385,7 +385,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [neiaddons](https://github.com/GTNewHorizons/neiaddons) | 1.12.22 |
 | [NetherPortalFix](https://github.com/GTNewHorizons/NetherPortalFix) | 1.1.2 |
 | [Netty-Patcher](https://github.com/GTNewHorizons/Netty-Patcher) | 0.3.1 |
-| [NewHorizonsCoreMod](https://github.com/GTNewHorizons/NewHorizonsCoreMod) | 1.9.169 |
+| [NewHorizonsCoreMod](https://github.com/GTNewHorizons/NewHorizonsCoreMod) | 1.9.170 |
 | [Nodal-Mechanics](https://github.com/GTNewHorizons/Nodal-Mechanics) | 1.1.-6-GTNH |
 | [NotEnoughEnergistics](https://github.com/GTNewHorizons/NotEnoughEnergistics) | 1.3.30 |
 | [NotEnoughIds](https://github.com/GTNewHorizons/NotEnoughIds) | 1.4.6 |
@@ -450,7 +450,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [TiC-Tooltips](https://github.com/GTNewHorizons/TiC-Tooltips) | 1.2.10 |
 | [Tinkers' Defense](https://www.curseforge.com/minecraft/mc-mods/compendium) | 1.2.1d |
 | [Tinkers-Gregworks](https://github.com/Vexatos/TinkersGregworks/tree/GT-NH) | 1.0.23 |
-| [TinkersConstruct](https://github.com/GTNewHorizons/TinkersConstruct) | 1.9.24-GTNH |
+| [TinkersConstruct](https://github.com/GTNewHorizons/TinkersConstruct) | 1.9.25-GTNH |
 | [TinkersMechworks](https://github.com/GTNewHorizons/TinkersMechworks) | 0.2.16.4 |
 | [TooMuchLoot](https://github.com/GTNewHorizons/TooMuchLoot) | 4.1.0-GTNH |
 | [ToroHealth](https://github.com/GTNewHorizons/ToroHealth) | 1.0.1 |
