@@ -823,7 +823,7 @@
         <Loot Identifier="1e836c91-adde-41dc-aad1-e1e77c2a8262" ItemName="DraconicEvolution:wyvernShovel" Amount="1" NBTTag="{Energy:1000000}" Chance="50" LimitedDropCount="2" RandomAmount="false"/>
     </LootGroup>
     <LootGroup GroupMetaID="15" GroupName="Legendary - Unique" Rarity="3" MinItems="1" MaxItems="1" CombineTrashGroup="false">
-        <Loot Identifier="bfecdec9-ee44-42c5-81c8-f2f714b71928" ItemName="DraconicEvolution:draconicBow" Amount="1" NBTTag="" Chance="100" LimitedDropCount="1" RandomAmount="false"/>
+        <Loot Identifier="bfecdec9-ee44-42c5-81c8-f2f714b71928" ItemName="DraconicEvolution:draconicBow" Amount="1" NBTTag="{Energy:10000000}" Chance="100" LimitedDropCount="1" RandomAmount="false"/>
         <Loot Identifier="825d4750-bfc0-4fa7-a7dd-54dd981e2e4c" ItemName="DraconicEvolution:draconicSword" Amount="1" NBTTag="{Energy:10000000}" Chance="100" LimitedDropCount="1" RandomAmount="false"/>
         <Loot Identifier="fff5d6a0-005c-42e4-ad05-56a1e4245f8d" ItemName="minecraft:dragon_egg" Amount="1" NBTTag="" Chance="100" LimitedDropCount="1" RandomAmount="false"/>
         <Loot Identifier="3b573cf4-a704-4550-a9ed-c268c7851a53" ItemName="witchery:ingredient:129" Amount="1" NBTTag="" Chance="100" LimitedDropCount="1" RandomAmount="false"/>
