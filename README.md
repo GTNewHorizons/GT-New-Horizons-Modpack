@@ -259,7 +259,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [BetterAchievements](https://github.com/GTNewHorizons/BetterAchievements) | 0.1.3 |
 | [BetterBuildersWands](https://github.com/GTNewHorizons/BetterBuildersWands) | 0.9.6-GTNH |
 | [BetterCrashes](https://github.com/GTNewHorizons/BetterCrashes) | 1.1.9-GTNH |
-| [BetterLoadingScreen](https://github.com/GTNewHorizons/BetterLoadingScreen) | 1.3.38-GTNH |
+| [BetterLoadingScreen](https://github.com/GTNewHorizons/BetterLoadingScreen) | 1.3.39-GTNH |
 | [BetterP2P](https://github.com/GTNewHorizons/BetterP2P) | 1.0.23 |
 | [BetterQuesting](https://github.com/GTNewHorizons/BetterQuesting) | 3.1.8-GTNH |
 | [BiblioCraft: BiblioWoods Biomes O'Plenty Edition](https://www.curseforge.com/minecraft/mc-mods/bibliocraft-bibliowoods-biomes-oplenty-edition) | 1.9 |
@@ -327,7 +327,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [GoodGenerator](https://github.com/GTNewHorizons/GoodGenerator) | 0.4.88 |
 | [Gravitation-Suite-Neo](https://github.com/GTNewHorizons/Gravitation-Suite-Neo) | 1.0.8 |
 | [Gravitation-Suite-old](https://forum.industrial-craft.net/thread/6915-ic2-exp-1-7-10-gravitation-suite-v2-0-3/) | 2.0.3 |
-| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.41.316 |
+| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.41.317 |
 | [GTNEIOrePlugin](https://github.com/GTNewHorizons/GTNEIOrePlugin) | 1.0.28 |
 | [GTNH-Lanthanides](https://github.com/GTNewHorizons/GTNH-Lanthanides) | 0.9.29 |
 | [GTNH-TC-Wands](https://github.com/GTNewHorizons/GTNH-TC-Wands) | 1.2.6 |
