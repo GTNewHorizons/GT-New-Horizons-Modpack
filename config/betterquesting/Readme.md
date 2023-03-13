@@ -97,3 +97,9 @@ https://confluence.atlassian.com/get-started-with-sourcetree
 609. Once the PR is accepted, you can delete your branch. This can also be done when the PR is accepted from a local branch.
 610. When doing new work after the PR is accepted, make sure you checkout master and do a pull to update it. Creating a new branch from the latest master is easiest. You can reuse the branch name you had previously if you switch to it, and right-click on the master commit and choose merge. 
 611. To update your forked repo, you have to setup git to point to two repos. It might be easier to just delete your forked repo and fork again if you need to update. Another option is to do a Pull Request from the source repo into your fork repo.
+
+# Translating the quest book #
+701. Whenever the quest book is saved with `/bq_admin default save`, the saved quest book data will contain `en_US.lang`, which is a template for translating the quest book. By itself, this file does nothing, since it just contains the default English text for the quests.
+702. NOTE: `en_US.lang` contains all quest and quest line text, and will likely be changed by any quest book edits. However, if you do get a merge conflict on this file, dealing with it is actually pretty easy: it gets regenerated every time the quest book is saved, so you can just ignore the conflicts in this file and re-save the quest book, and commit the regenerated copy.
+703. Translators can work off of the translation keys in `en_US.lang` to create a translated lang file.
+704. Just drop the translated lang file into `config/txloader/load/betterquesting/lang` to apply the translations. In previous versions of BetterQuesting, it was necessary to load a custom version of the quest book data for translations to work, but this is no longer needed.
