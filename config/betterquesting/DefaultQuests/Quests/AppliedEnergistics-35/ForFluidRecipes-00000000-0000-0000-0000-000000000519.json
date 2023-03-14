@@ -16,9 +16,9 @@
       "isMain:1": 0,
       "simultaneous:1": 0,
       "icon:10": {
-        "id:8": "extracells:part.base",
+        "id:8": "ae2fc:fluid_interface",
         "Count:3": 1,
-        "Damage:2": 9,
+        "Damage:2": 0,
         "OreDict:8": ""
       },
       "snd_update:8": "random.levelup",
@@ -31,7 +31,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "The ME Fluid Interface will also send liquids when crafting. You can add them to the recipe with buckets, cells, large cells, or even volumtric flasks. It will send the exact amount specified.\n\nIf sending to a GT machine like an Assembler which can accept items and fluids, use in fixture mode. If you want to use a multiblock, things get complicated. You can use fixture mode and use a machine hull to buffer the items and fluids and then extract them, or you can use block mode, have the front go to a chest or input bus, and the other side(s) send liquid. If it uses more than one fluid in the recipe, it will do those until finished, then move on to the items. If you\u0027re not doing a processing recipe, use the ME Fluid Assembler."
+      "desc:8": "Placing your fluid crafting patterns in a Dual Interface. That will allow AE2 to push the fluids and items both. Note. Fluids are being sent first, then items."
     }
   },
   "tasks:9": {
@@ -44,9 +44,9 @@
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "extracells:part.base",
-          "Count:3": 2,
-          "Damage:2": 9,
+          "id:8": "ae2fc:fluid_interface",
+          "Count:3": 1,
+          "Damage:2": 0,
           "OreDict:8": ""
         }
       },

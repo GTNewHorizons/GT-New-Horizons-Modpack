@@ -36,7 +36,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Make your first coolant out of water or distilled water and lapis dust in an mv mixer.\n\nUsing distilled water lets you save on lapis while also speeding up the process by a lot."
+      "desc:8": "Make your first coolant out of water or distilled water and lapis dust in an mv mixer.\n\nUsing distilled water lets you save on lapis while also speeding up the process by a lot.\n\n§3If you don\u0027t use distilled water, you will need a lot more than 64 lapis dust."
     }
   },
   "tasks:9": {
@@ -51,7 +51,7 @@
         "0:10": {
           "id:8": "IC2:itemCellEmpty",
           "Count:3": 64,
-          "Damage:2": 1,
+          "Damage:2": 12,
           "OreDict:8": ""
         },
         "1:10": {

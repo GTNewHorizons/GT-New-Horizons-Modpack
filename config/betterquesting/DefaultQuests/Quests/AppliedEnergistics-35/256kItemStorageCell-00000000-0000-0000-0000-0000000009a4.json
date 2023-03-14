@@ -19,12 +19,9 @@
       "isMain:1": 0,
       "simultaneous:1": 0,
       "icon:10": {
-        "id:8": "extracells:storage.physical",
+        "id:8": "appliedenergistics2:item.ItemAdvancedStorageCell.256k",
         "Count:3": 1,
-        "tag:10": {
-          "upgrades:10": {},
-          "config:10": {}
-        },
+        "tag:10": {},
         "Damage:2": 0,
         "OreDict:8": ""
       },
@@ -50,12 +47,9 @@
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "extracells:storage.physical",
+          "id:8": "appliedenergistics2:item.ItemAdvancedStorageCell.256k",
           "Count:3": 1,
-          "tag:10": {
-            "upgrades:10": {},
-            "config:10": {}
-          },
+          "tag:10": {},
           "Damage:2": 0,
           "OreDict:8": ""
         }

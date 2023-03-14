@@ -15,9 +15,9 @@
       "isMain:1": 0,
       "simultaneous:1": 0,
       "icon:10": {
-        "id:8": "extracells:part.base",
+        "id:8": "ae2fc:part_fluid_level_emitter",
         "Count:3": 1,
-        "Damage:2": 4,
+        "Damage:2": 0,
         "OreDict:8": ""
       },
       "snd_update:8": "random.levelup",
@@ -29,7 +29,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "It\u0027s basically the same as a fluid detector cover, except it detects based on what\u0027s in your network. Click a cell into the center to specify, and an empty hand to clear.\n\n§4These are ULTRA laggy, do not use unless they\u0027ve been fixed somehow."
+      "desc:8": "It\u0027s basically the same as a fluid detector cover, except it detects based on what\u0027s in your network. Click a cell into the center to specify, and an empty hand to clear."
     }
   },
   "tasks:9": {
@@ -42,9 +42,9 @@
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "extracells:part.base",
+          "id:8": "ae2fc:part_fluid_level_emitter",
           "Count:3": 1,
-          "Damage:2": 4,
+          "Damage:2": 0,
           "OreDict:8": ""
         }
       },

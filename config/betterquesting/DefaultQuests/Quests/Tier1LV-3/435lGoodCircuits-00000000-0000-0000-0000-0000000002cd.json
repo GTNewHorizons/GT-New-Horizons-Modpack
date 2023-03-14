@@ -49,31 +49,31 @@
       "requiredItems:9": {
         "0:10": {
           "id:8": "gregtech:gt.metaitem.03",
-          "Count:3": 4,
+          "Count:3": 2,
           "Damage:2": 32101,
           "OreDict:8": ""
         },
         "1:10": {
           "id:8": "gregtech:gt.metaitem.02",
-          "Count:3": 4,
+          "Count:3": 2,
           "Damage:2": 18305,
           "OreDict:8": ""
         },
         "2:10": {
           "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 8,
+          "Count:3": 4,
           "Damage:2": 32715,
           "OreDict:8": ""
         },
         "3:10": {
           "id:8": "IC2:itemPartCircuit",
-          "Count:3": 12,
+          "Count:3": 6,
           "Damage:2": 0,
           "OreDict:8": ""
         },
         "4:10": {
           "id:8": "gregtech:gt.blockmachines",
-          "Count:3": 8,
+          "Count:3": 4,
           "Damage:2": 1360,
           "OreDict:8": ""
         }
@@ -90,7 +90,7 @@
       "requiredItems:9": {
         "0:10": {
           "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 4,
+          "Count:3": 2,
           "Damage:2": 32702,
           "OreDict:8": ""
         }
