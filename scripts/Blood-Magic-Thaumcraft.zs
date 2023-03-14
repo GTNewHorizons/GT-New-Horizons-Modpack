@@ -439,7 +439,7 @@ mods.thaumcraft.Research.addPage("IMPERFECTRITUALSTONE", "tc.research_page.IMPER
 game.setLocalization("tc.research_page.IMPERFECTRITUALSTONE.1", I18N_Blood_Magic_Thaumcraft_37_a);
 mods.thaumcraft.Research.addPage("IMPERFECTRITUALSTONE", "tc.research_page.IMPERFECTRITUALSTONE.2");
 game.setLocalization("tc.research_page.IMPERFECTRITUALSTONE.2", I18N_Blood_Magic_Thaumcraft_37_b);
-mods.thaumcraft.Arcane.addShaped("IMPERFECTRITUALSTONE", <AWWayofTime:imperfectRitualStone>, "aer 15, ignis 15, aqua 15, terra 15, ordo 15, perditio 15", [
+mods.thaumcraft.Arcane.addShaped("IMPERFECTRITUALSTONE", <AWWayofTime:imperfectRitualStone>, "aer 7.5, ignis 7.5, aqua 7.5, terra 7.5, ordo 7.5, perditio 7.5", [
 [<minecraft:obsidian>, <AWWayofTime:blankSlate>, <minecraft:obsidian>],
 [<AWWayofTime:blankSlate>, <BloodArsenal:blood_stone>, <AWWayofTime:blankSlate>],
 [<minecraft:obsidian>, <AWWayofTime:blankSlate>, <minecraft:obsidian>]]);
@@ -454,9 +454,9 @@ mods.thaumcraft.Research.addPrereq("RITUALSTONE", "IMPERFECTRITUALSTONE", false)
 mods.thaumcraft.Research.setConcealed("RITUALSTONE", true);
 mods.thaumcraft.Research.addPage("RITUALSTONE", "tc.research_page.RITUALSTONE");
 game.setLocalization("tc.research_page.RITUALSTONE", I18N_Blood_Magic_Thaumcraft_40);
-mods.thaumcraft.Infusion.addRecipe("RITUALSTONE", <AWWayofTime:imperfectRitualStone>, 
-[<AWWayofTime:terrae>, <Thaumcraft:blockCosmeticSolid:1>, <AWWayofTime:reinforcedSlate>, <Thaumcraft:blockCosmeticSolid:1>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:terrae>, <Thaumcraft:blockCosmeticSolid:1>, <AWWayofTime:reinforcedSlate>, <Thaumcraft:blockCosmeticSolid:1>, <AWWayofTime:reinforcedSlate>], 
-"terra 24, ignis 18, tenebrae 12, praecantatio 6, aer 3", <AWWayofTime:ritualStone>, 6);
+mods.thaumcraft.Infusion.addRecipe("RITUALSTONE", <AWWayofTime:imperfectRitualStone>,
+[<AWWayofTime:terrae>, <AWWayofTime:terrae>, <Thaumcraft:blockCosmeticSolid:1>, <AWWayofTime:reinforcedSlate>, <Thaumcraft:blockCosmeticSolid:1>, <AWWayofTime:reinforcedSlate>],
+"terra 12, ignis 9, tenebrae 6, praecantatio 3, aer 2", <AWWayofTime:ritualStone>, 6);
 mods.thaumcraft.Research.addInfusionPage("RITUALSTONE", <AWWayofTime:ritualStone>);
 mods.thaumcraft.Warp.addToResearch("RITUALSTONE", 1);
 
