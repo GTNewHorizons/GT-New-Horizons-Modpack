@@ -436,6 +436,7 @@ recipes.addShapeless(<minecraft:sugar> * 4, [<ore:craftingToolMortar>, <berriesp
 // --- Cooked Mince Meat
 recipes.addShapeless(<gregtech:gt.metaitem.01:2893>, [<ore:craftingToolMortar>, <ore:listAllmeatcooked>]);
 recipes.addShapeless(<gregtech:gt.metaitem.01:2893>, [<ore:craftingToolMortar>, <ore:listAllfishcooked>]);
+furnace.addRecipe(<gregtech:gt.metaitem.01:2893>, <gregtech:gt.metaitem.01:2892>);
 
 // --- Wood Pulp
 recipes.addShapeless(<gregtech:gt.metaitem.01:2809> * 2, [<ore:craftingToolMortar>, <ore:logWood>]);
