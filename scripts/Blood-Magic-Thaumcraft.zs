@@ -439,7 +439,7 @@ mods.thaumcraft.Research.addPage("IMPERFECTRITUALSTONE", "tc.research_page.IMPER
 game.setLocalization("tc.research_page.IMPERFECTRITUALSTONE.1", I18N_Blood_Magic_Thaumcraft_37_a);
 mods.thaumcraft.Research.addPage("IMPERFECTRITUALSTONE", "tc.research_page.IMPERFECTRITUALSTONE.2");
 game.setLocalization("tc.research_page.IMPERFECTRITUALSTONE.2", I18N_Blood_Magic_Thaumcraft_37_b);
-mods.thaumcraft.Arcane.addShaped("IMPERFECTRITUALSTONE", <AWWayofTime:imperfectRitualStone>, "aer 7.5, ignis 7.5, aqua 7.5, terra 7.5, ordo 7.5, perditio 7.5", [
+mods.thaumcraft.Arcane.addShaped("IMPERFECTRITUALSTONE", <AWWayofTime:imperfectRitualStone>, "aer 8, ignis 8, aqua 8, terra 8, ordo 8, perditio 8", [
 [<minecraft:obsidian>, <AWWayofTime:blankSlate>, <minecraft:obsidian>],
 [<AWWayofTime:blankSlate>, <BloodArsenal:blood_stone>, <AWWayofTime:blankSlate>],
 [<minecraft:obsidian>, <AWWayofTime:blankSlate>, <minecraft:obsidian>]]);
