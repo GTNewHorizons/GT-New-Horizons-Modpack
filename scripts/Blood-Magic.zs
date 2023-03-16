@@ -310,8 +310,6 @@ recipes.remove(<AWWayofTime:AlchemicalWizardrybloodRune:5>);
 
 // --- Awakened Activation Crystal
 mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:activationCrystal:1>);
-// -
-mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:activationCrystal:1>);
 
 // --- Standart Filling Agent
 mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:standardFillingAgent>);
@@ -953,15 +951,17 @@ mods.bloodmagic.Altar.addRecipe(<AWWayofTime:enhancedTelepositionFocus>, <AWWayo
 // --- Blood Soaked Thaumium Block
 mods.bloodmagic.Altar.addRecipe(<dreamcraft:tile.BloodyThaumium>, <Thaumcraft:blockCosmeticSolid:4>, 2, 5000);
 
-// --- Blood Soaked Thaumium Block
+// --- Blood Soaked Void Block
 mods.bloodmagic.Altar.addRecipe(<dreamcraft:tile.BloodyVoid>, <thaumicbases:voidBlock>, 3, 10000);
 
-// --- Blood Soaked Thaumium Block
+// --- Blood Soaked Ichorium Block
 mods.bloodmagic.Altar.addRecipe(<dreamcraft:tile.BloodyIchorium>, <gregtech:gt.blockmetal8:13>, 5, 50000);
 
 // --- Bound Diamond
 mods.bloodmagic.Altar.addRecipe(<BloodArsenal:blood_infused_diamond_bound>, <BloodArsenal:blood_infused_diamond_active>, 5, 10000);
 
+// --- Blood Stained Block
+mods.bloodmagic.Altar.addRecipe(<Railcraft:brick.bloodstained:2>, <minecraft:sandstone:2>, 2, 3500);
 
 
 

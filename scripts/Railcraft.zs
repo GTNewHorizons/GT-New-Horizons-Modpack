@@ -598,6 +598,9 @@ recipes.remove(<Railcraft:machine.gamma:10>);
 // --- Redstone Flux Unloader
 recipes.remove(<Railcraft:machine.gamma:11>);
 
+// --- Blood Stained Block
+recipes.remove(<Railcraft:brick.bloodstained:2>);
+
 
 
 
