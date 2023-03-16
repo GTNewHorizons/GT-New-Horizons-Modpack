@@ -961,7 +961,7 @@ mods.bloodmagic.Altar.addRecipe(<dreamcraft:tile.BloodyIchorium>, <gregtech:gt.b
 mods.bloodmagic.Altar.addRecipe(<BloodArsenal:blood_infused_diamond_bound>, <BloodArsenal:blood_infused_diamond_active>, 5, 10000);
 
 // --- Blood Stained Block
-mods.bloodmagic.Altar.addRecipe(<Railcraft:brick.bloodstained:2>, <minecraft:stone>, 2, 3500);
+mods.bloodmagic.Altar.addRecipe(<Railcraft:brick.bloodstained:2>, <minecraft:sandstone:2>, 2, 3500);
 
 
 
