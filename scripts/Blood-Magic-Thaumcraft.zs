@@ -444,9 +444,9 @@ mods.thaumcraft.Arcane.addShaped("IMPERFECTRITUALSTONE", <AWWayofTime:imperfectR
 [<AWWayofTime:blankSlate>, <BloodArsenal:blood_stone>, <AWWayofTime:blankSlate>],
 [<minecraft:obsidian>, <AWWayofTime:blankSlate>, <minecraft:obsidian>]]);
 mods.thaumcraft.Arcane.addShaped("IMPERFECTRITUALSTONE", <AWWayofTime:imperfectRitualStone>, "aer 2, ignis 12, terra 16", [
-[<minecraft:air>, <minecraft:obsidian>, <minecraft:air>],
+[null, <minecraft:obsidian>, null],
 [<AWWayofTime:imbuedSlate>, <Railcraft:brick.bloodstained:2>, <AWWayofTime:imbuedSlate>],
-[<minecraft:air>, <minecraft:obsidian>, <minecraft:air>]]);
+[null, <minecraft:obsidian>, null]]);
 mods.thaumcraft.Research.addArcanePage("IMPERFECTRITUALSTONE", <AWWayofTime:imperfectRitualStone>);
 
 // --- Ritual Stone
