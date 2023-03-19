@@ -1,0 +1,57 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 70
+    }
+  },
+  "questIDLow:4": 2161,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "chisel:warningSign",
+        "Count:3": 1,
+        "Damage:2": 7,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "§3§lSafety First",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "For those new to GregTech, here are some tips and warnings about electricity. \n\nMachines don\u0027t like being out in the rain, and will start fires nearby. Fires next to a machine have a random chance of an explosion. Also, sending a higher voltage than a machine\u0027s tier cause an explosion. Or several, if you pack things together, like many people. Sending more amps than a machine can use doesn\u0027t harm anything though.\n\nSending too high a voltage or too many amps down a cable will cause the cable to burn up and start fires, which may then cause machine explosions. Make sure the number of amps provided by generators and buffers to a wire does not exceed the amps it is capable of carrying.\n\nA generator that supplys 1A can possibly feed multiple machines, if their recipes require less than full voltage.  For example, macerators doing ore only need 2 EU/t, so you could run several off of a single 1A generator, as long as the wires aren\u0027t too long. Why? Because there\u0027s loss for every amp for every block, listed on the wire/cable. Note that cables are better than wires. But be careful! Sometimes a recipe needs a lot more EU than you expect, like a macerator sand -\u003e quartz dust recipe.\n\nMost machines only use 1A, however there are exceptions, such as the arc furnace, thermal centrifuge, world accelerators, and the UUM machines. Note that machines can accept more amps than they use (usually 2) in order to top up their energy supply, especially if they didn\u0027t recieve most of the amp because of loss (mostly a problem in LV). The formula is (EU/t of Recipe * 2) / Voltage Tier) + 1. Keep this in mind when deciding cables.\n\nSome machines are specifically for dealing with multiple amps, such as battery buffers, transformers, and diodes.\n\nIf you want to send more amps, use a larger cable or a superconductor (MV+, but ULV and LV has thier own lossless cables). You can use the laser hatches much later to send even more.\n\nA single block machine starved of EU will restart progress but not lose the recipe items. A multiblock machine will lose the items.\n\nNote that any block that emits EU has loss when doing so: 2 ^ tier. So 2 EU at LV, 4 EU at MV, and so on. Using large numbers of battery buffers in a row is thus very wasteful of your power, and even 1 can prevent usage of an EBF at MV voltage. Of course, if you want to keep your amps topped up, you\u0027ll need to place BBs occasionally to \u0027top up\u0027 the amps, though this is less the case the further ingame you get, as the loss becomes less of something to worry about.\n\nIf this info isn\u0027t enough for you, head on over to https://gtnh.miraheze.org/wiki/Electricity to read more."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "miscutils:itemHatTinFoil",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

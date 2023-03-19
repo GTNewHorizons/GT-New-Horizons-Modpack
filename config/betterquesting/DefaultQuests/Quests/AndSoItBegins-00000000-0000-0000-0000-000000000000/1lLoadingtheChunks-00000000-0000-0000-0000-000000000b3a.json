@@ -1,0 +1,55 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 0
+    }
+  },
+  "questIDLow:4": 2874,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "UNLOCKED",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "dreamcraft:item.CoinChunkloaderTierI",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "§1§lLoading the Chunks",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "In this, like many packs, you\u0027ll want to have things in your base keep running while you\u0027re off exploring. §3(Though admittedly once you reach midgame you\u0027ll spend almost no time off-base, you\u0027ll still want to make sure everything is still chunkloaded just in case to prevent machine explosions, especially for multiblocks)§r\n\nIn order to have things keep running, you need to have the chunks loaded. You can do this in a few ways.\n\n1) Install FTB Utilities and claim chunks, then set them to chunkload. By default you may not be able to claim/chunkload enough per player, so feel free to increase the number. You need to be in SP or running your own server to do this.\n\n2) Use an Anchor from Railcraft. There are 4 types. Anchors are not craftable until LV. In SP, or a server you run, cheat in Admin Anchors to chunkload forever, for free. They\u0027re limited on servers to prevent TPS dropping from people chunkloading a base forever when they aren\u0027t even there. On the officials, you need to use Ender Fragments, Ender Pearls, or Coins to fuel them. Look at the tooltip on each for how long it will work, and in what chunkloader. Feel free to limit yourself to chunkloading this way in SP if you want to make it more challenging though.\n\n3) Use chicken chunks to get anchor-like blocks. But don\u0027t do this, it\u0027s buggy.\n\n4) Use Chunkloader from GT++. You need EU instead of Ender Pearls.\n\n5) Use one of the blocks that chunkloads itself. If you do this on a server, expect the admins to possibly get very mad with you if it\u0027s not something you\u0027re allowed to do. Same for vanilla methods."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "minecraft:cookie",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

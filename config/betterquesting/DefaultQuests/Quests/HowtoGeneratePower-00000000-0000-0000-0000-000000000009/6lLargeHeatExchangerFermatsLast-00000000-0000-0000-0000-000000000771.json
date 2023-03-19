@@ -1,0 +1,116 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 860
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1245
+    }
+  },
+  "questIDLow:4": 1905,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.blockmachines",
+        "Count:3": 1,
+        "Damage:2": 1154,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "§6§lLarge Heat Exchanger - Fermat\u0027s Last",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "The Large Heat Exchanger is a powergen multi that accepts a non-direct fuel, and doesn\u0027t output EU. What is it for, then? §7§7§7To heat up water with hot liquids, that\u0027s what!§r§r§r\n\nEffectively, it\u0027s a Steam Boiler that uses fluids instead of solids, but it\u0027s more complicated. The two main sources of energy here are Lava and Hot Coolant, and the second is more powerful, but harder to get. Lava can be automated from Everburn Urns or a myriad of other option, while Hot Coolant usually requires a proper powergen setup.\n\nFor Lava, the LHE will output §d§d§d160 L of Steam for every 1 L of Lava, up to 1000 L/s of Lava input§r§r§r (§a§a§a4000 EU/t§r§r§r at 100% turbine efficiency). For Hot Coolant, the LHE will output §d§d§d400 L of Steam for every 1 L of Hot Coolant, up to 800 L/s of input§r§r§r (§a§a§a8000 EU/t§r§r§r at 100% turbine efficiency).\n\n§c§c§cIf you go above these input rates, the output becomes Superheated Steam, which needs to pass through a Large HP Steam Turbine before the regular Large Steam Turbine.§r§r§r The maximum input rate here is twice of what was before, the conversion is §d§d§d1:80 for Lava§r§r§r and §d§d§d1:200 for Hot Coolant§r§r§r, and the energy output at 100% turbine efficiency is §a§a§a12000 EU/t§r§r§r for Lava and §a§a§a24000 EU/t§r§r§r for Hot Coolant.\n\n§6§lVery powerful, but complicated, and needs turbines!§r§r§r\n\n§3For more information, go to §nhttps://tinyurl.com/GTNH-LHE§r§3 and read about it there, or to §nhttps://gtnh.miraheze.org/wiki/Fluid_Reactor§r §3for how to use it in a Fluid Reactor setup."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 1154,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockcasings4",
+          "Count:3": 20,
+          "Damage:2": 2,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockcasings2",
+          "Count:3": 2,
+          "Damage:2": 14,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 2,
+          "tag:10": {
+            "ench:9": {
+              "0:10": {
+                "lvl:2": 3,
+                "id:2": 35
+              }
+            }
+          },
+          "Damage:2": 7,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 810
+    }
+  },
+  "questIDLow:4": 2072,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "GalaxySpace:tcetiedandelions",
+        "Count:3": 1,
+        "Damage:2": 4,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Planetary Tears",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Indeed you will be crying over all the tiers you have to do for planets. Here is a handy reference.\n\nTier 1 - Requires Oxygen Gear\nMoon\n\nTier 2 - Requires Thermal Padding\nDeimos\nMars\nPhobos\n\nTier 3 - Requires tier 2 Thermal Padding\nAsteroids - Counts as Zero-G, because there\u0027s no planet\nCallisto\nCeres\nEuropa\nGanymede\nRoss128b - Habitable Planet (needs no Oxygen Gear/Thermal Padding)\n\nTier 4 - Requires tier 2 Thermal Padding\nIo\nMercury\nVenus - Requires SpaceSuit\n\nTier 5  Requires tier 2 Thermal Padding\nEnceladus\nMiranda\nOberon\nRoss128ba\nTitan\n\nTier 6 - Requires tier 2 Thermal Padding\nProteus\nTriton\n\nTier 7   Requires tier 2 Thermal Padding\nKuiper Belt - Also counts as Zero-G\nHaumea\nMakemake\nPluto\n\nTier 8 - Requires tier 2 Thermal Padding\nAlpha Centauri Bb - Requires SpaceSuit\nBarnarda C - Habitable Planet (needs no Oxygen Gear/Thermal Padding)\nBarnarda E\nBarnarda F\nTau Ceti E - Habitable Planet (needs no Oxygen Gear/Thermal Padding)\nVega B"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {}
+}

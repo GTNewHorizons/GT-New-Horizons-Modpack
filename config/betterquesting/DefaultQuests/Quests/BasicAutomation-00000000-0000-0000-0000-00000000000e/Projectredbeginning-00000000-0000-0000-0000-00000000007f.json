@@ -1,0 +1,88 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 717
+    }
+  },
+  "questIDLow:4": 127,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "ProjRed|Transportation:projectred.transportation.routingchip",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Project red beginning",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Welcome to Project Red!\n\nThis quest will teach you the basics of Projectred and show you how to set up a Ghetto AE system.\n\nThe Ghetto AE system will be really useful for sorting all of your first items\n\nFirst of all there are different types of pipes: \n\nItem Transport pipes are the most basic pipes, classified as Null-logic. They don\u0027t do anything besides connect other pipes together.\nItem Transport pipes only have the ability to take items that enter it and pass them along to another connected pipe. They will NOT connect to inventories at all. In a junction where there is more than 1 possible direction, item payloads will travel in a randomly selected direction.\n \nRouted pipes are the most advanced. These pipes \u0027communicate\u0027 with one-another to form pipe networks, in order to allow for incredibly complicated demand driven systems, with absolutely no redstone circuitry required.\n \nPressurized pipes are pipes that use a pressure based routing system where the payload travels to the closest inventory that can accept it. Finding the closest inventory is influenced by both distance and Pressure Resistance Pipes (which, to the path finder, are 1000 blocks long), but the actual path that items take is only influenced by distance.\n\nHowever, in order to control the logic of the routed pipes you will need special circuit chips.\n\n§4Note: I have no idea how PR works, or if this questline is entirely a duplicate, and have zero willpower to read all the boring text and find out, so I just unhid them since no one came forward with any info after I asked. If it should be removed or w/e, make a ticket."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "ProjRed|Transportation:projectred.transportation.pipe",
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metaitem.02",
+          "Count:3": 16,
+          "Damage:2": 22032,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 4,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinTechnician",
+          "Count:3": 15,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1521
+    }
+  },
+  "questIDLow:4": 1420,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.blockmachines",
+        "Count:3": 1,
+        "Damage:2": 840,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "OR",
+      "repeat_relative:1": 1,
+      "name:8": "§9§lShake That Booty...",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "...out of the purified ores. Anyways, a Large Sifter will increase your sifting speed significantly. What will you do with all these gems??\n\n§3You need one more casing if you don\u0027t want to use 2 energy hatches."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "miscutils:gtplusplus.blockcasings.2",
+          "Count:3": 18,
+          "Damage:2": 6,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "miscutils:gtplusplus.blockcasings.2",
+          "Count:3": 47,
+          "Damage:2": 5,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 840,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "minecraft:diamond_ore",
+          "Count:3": 64,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.blockores",
+          "Count:3": 64,
+          "Damage:2": 502,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.blockores",
+          "Count:3": 64,
+          "Damage:2": 501,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "gregtech:gt.blockores",
+          "Count:3": 64,
+          "Damage:2": 503,
+          "OreDict:8": ""
+        },
+        "4:10": {
+          "id:8": "gregtech:gt.blockores",
+          "Count:3": 64,
+          "Damage:2": 514,
+          "OreDict:8": ""
+        },
+        "5:10": {
+          "id:8": "gregtech:gt.blockores",
+          "Count:3": 64,
+          "Damage:2": 542,
+          "OreDict:8": ""
+        },
+        "6:10": {
+          "id:8": "gregtech:gt.blockores",
+          "Count:3": 64,
+          "Damage:2": 543,
+          "OreDict:8": ""
+        },
+        "7:10": {
+          "id:8": "gregtech:gt.blockores",
+          "Count:3": 64,
+          "Damage:2": 541,
+          "OreDict:8": ""
+        },
+        "8:10": {
+          "id:8": "gregtech:gt.blockores",
+          "Count:3": 64,
+          "Damage:2": 540,
+          "OreDict:8": ""
+        },
+        "9:10": {
+          "id:8": "gregtech:gt.blockores",
+          "Count:3": 64,
+          "Damage:2": 545,
+          "OreDict:8": ""
+        },
+        "10:10": {
+          "id:8": "gregtech:gt.blockores",
+          "Count:3": 64,
+          "Damage:2": 544,
+          "OreDict:8": ""
+        },
+        "11:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 2,
+          "Damage:2": 6,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinTechnicianI",
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

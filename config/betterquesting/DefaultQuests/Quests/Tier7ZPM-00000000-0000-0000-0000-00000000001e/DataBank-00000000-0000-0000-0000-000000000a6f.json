@@ -1,0 +1,108 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2006
+    }
+  },
+  "questIDLow:4": 2671,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.blockmachines",
+        "Count:3": 1,
+        "Damage:2": 15313,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Data Bank",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "By now you probably feel overwhelmed with the number of data sticks needed for your assembly line. TecTech has a solution for you: The Data Bank. It allows you to store more than just 16 data sticks and can be connected to multiple Assembling Lines at the same time.\n\nPlace the controller one block above the ground and use the Multiblock Structure Hologram Projector to see how it is built. You will need a Maintenance Hatch and at least an EV Energy Hatch, though the power requirements can be much higher if you use many Data Access Hatches and Data Bank Master Connectors, so you might as well go for an LuV energy hatch, which will power a maxed one. Trying to run the Data Bank and then scanning the controller will tell you how much eu/t is needed.\n\n§rYou will need more blocks then what is asked for in this quest, as the number of Data Access Hatches and Connectors is up to you. You can have a maximum of 15 combined.\n\nThe Assembly Line Slave Connector replaces your old Data Access Hatch on the Assembling Line. Connect it to a Master Connector on the Data Bank with Optical Fiber Cable and make sure to color the hatches and the cable.\n\n§3If you can\u0027t figure out what blocks to place, pay attention to the tooltip in the bottom-left when using the Multiblock Structure Hologram Projector. In this case the filler blocks are Computer Casing."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "tectech:gt.blockcasingsTT",
+          "Count:3": 18,
+          "Damage:2": 2,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "tectech:gt.blockcasingsTT",
+          "Count:3": 6,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "tectech:gt.blockcasingsTT",
+          "Count:3": 3,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 146,
+          "OreDict:8": ""
+        },
+        "4:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 15443,
+          "OreDict:8": ""
+        },
+        "5:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 15442,
+          "OreDict:8": ""
+        },
+        "6:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 10,
+          "Damage:2": 15470,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 15313,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {}
+}

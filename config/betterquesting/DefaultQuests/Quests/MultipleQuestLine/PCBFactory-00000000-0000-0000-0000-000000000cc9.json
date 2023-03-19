@@ -1,0 +1,121 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2611
+    }
+  },
+  "questIDLow:4": 3273,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.blockmachines",
+        "Count:3": 1,
+        "Damage:2": 356,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "PCB Factory",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "All those boards made in a chemical reactor. It\u0027s time to stop that, there must be a more efficient way to make them. After a couple days of research I have found one, a factory designed to print out circuit boards.\n\n§4§5§a§d§r§a§rThe PCB Factory is able to use a wide range of plastics to create circuit boards ready to be used. The printing mechanism overheats when it tries to overclock currently, so I will have to find a way to make that work later. Boards with neurons on them will also take a bit before they can be made, but it won\u0027t be hard to achieve.\n\n§T§2Trace size: the trace size represents the lines between components, which are needed to transmit the electrical signals on the circuit. One can make it smaller to slow down the machine, but use less resources, or make it bigger to make it faster, but use more resources.\n\n§1Formulas:\n- 10000/(TraceSize/100) Production\n- RecipeDuration/TraceSize^2 Time\n\n§2Using the GUI, the player can go to the configuration menu. There they can change the trace size or add new parts to the multiblock. One can also change where they are placed around the multiblock.\n\n§3Make sure to set the configuration you want before using the structure lib blueprint for autobuild."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 356,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockcasings8",
+          "Count:3": 1,
+          "Damage:2": 11,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 4431,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 4463,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "gregtech:gt.blockreinforced",
+          "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": ""
+        },
+        "4:10": {
+          "id:8": "gregtech:gt.blockcasings3",
+          "Count:3": 1,
+          "Damage:2": 10,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metaitem.03",
+          "Count:3": 64,
+          "Damage:2": 32106,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.metaitem.03",
+          "Count:3": 16,
+          "Damage:2": 32104,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.metaitem.03",
+          "Count:3": 8,
+          "Damage:2": 32105,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

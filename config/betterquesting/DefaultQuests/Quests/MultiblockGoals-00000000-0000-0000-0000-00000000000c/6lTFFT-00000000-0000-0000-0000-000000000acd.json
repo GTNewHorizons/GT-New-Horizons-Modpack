@@ -1,0 +1,55 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 213
+    }
+  },
+  "questIDLow:4": 2765,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.blockmachines",
+        "Count:3": 1,
+        "Damage:2": 13104,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "§6§lTFFT",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "The TFFT is very useful if you don\u0027t want to have a bunch of Super Tanks with overflow covers on buffer ULV Tanks.\n\nWith the tier I storage field block, it consumes 31.5 EU/t but only has about 0.315x the storage capacity of a ST I per fluid.\n\nWith the tier V storage field block it consumes 504 EU/t and has about 1.26x the storage capacity of a QT III per fluid.\n\nYou can use the multi hatch to access all the fluids at once with an ME Fluid Storage Bus or Fluid Ender Conduit.\n\nYou need 63 of any tier of storage field block, you can mix them too.\n\n§3Remember to turn auto-voiding on.\n\n§4The TFFT was reworked apparently, so this quest might or might not be accurate."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 13104,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {}
+}

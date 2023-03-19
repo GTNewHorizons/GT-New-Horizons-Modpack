@@ -1,0 +1,113 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 213
+    }
+  },
+  "questIDLow:4": 3142,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.blockmachines",
+        "Count:3": 1,
+        "Damage:2": 12792,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "§6§lFaster Crops",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "§WWelcome to my ted talk, today we talk about the §6§lExtreme Industrial Greenhouse.\n§rIt is the most advanced and §l§nLAG FREE§r crop farm that will allow you to supply the amount of tea you need.\nThe machine starts at §5EV§r, but to farm IC2 crops you will need at least §dLuV§r power.\nTo see the structure, place the controller on ground and use a structure hologram to build.\nThe glass tier limits the energy tier until §3UV§r. With §3UV§r glass you can have an energy tier as high as you want.\nShift click with screwdriver to change crop type (IC2/normal), sadly you can\u0027t farm both in one machine.\nThere are 3 modes to manage your crops (change with screwdriver):\n\n§lSetup mode (input):\n§rIn this mode you can plant your crops in the machine.\nJust put them in the input bus and enable the machine with a soft mallet.\nAdditionally, you need to insert block that is required for IC2 crop to grow (if any)\nWhen the bus is empty, just disable it and change the mode.\nKeep in mind that there is limited space of slots for your crops depending on the voltage.\nWith normal crops you start with 1 slot and that multiplies by 2 every tier past §5EV§r, every slot can take 64 crops of the same type.\nWith IC2 crops you start with 4 slots and that multiplies by 4 every tier past §dLuV§r, every slot can take only 1 crop.\n\n§lSetup mode (output):\n§rThis mode allows you to move your Greenhouse or upgrade your crops.\nWhen the machine is running in this mode it will output all planted crops in the output bus.\n\n§lNormal operation:\n§rWith normal crops it is a straightforward process. Base processing time is 5 seconds, at the end of operation all crops are grown and the outputs are added to the output bus. Additionally the time is lower every tier past §5EV§r §o(The time is divided by the number of tiers past §6HV§r§o, minimum 1 second. WOW) §r\n\nIC2 crops on the other hand, are not that easy. They are normally simulated, but accelerated 32 times. Process time is 5 seconds. You can check the progress of the growing process with a tricorder.\n\nIf you want to grow your crops even faster, then you can use a fertilizer (up to §l400% more drops§r !). Machine will take fertilizer from the input busses on start of the operation and will be applied to that operation only. Each fetilizer gives +200% per crop in normal mode or +10% in IC2 mode. The bonus is applied evenly on crops. Examples:\nNormal mode, 3 wheat seeds, 1 tea seeds, you insert 1 fertilizer, you will get +150% wheat drops and +50% tea drops.\nIC2 mode, 16 melon seed bags, you insert 64 fetilizer, you will get +40% drops.\n\nAdditionally, all your crops need water to grow. Every single crop drinks 1000L per operation. So for example if you have planted 576 tea seeds at §3UV§r voltage you will need 576000 L per second.\n\n§lLast notes:\n§rThe animation can’t be disabled.\nThe lamps can be inverted.\nThe dirt must be tilled.\nIf you encounter any issue or have any suggestion please open an issue on github and ping §l@kuba6000§r.\nThis MB was created to farm tea because I wanted to.\n"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockcasings4",
+          "Count:3": 76,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "ProjRed|Illumination:projectred.illumination.lamp",
+          "Count:3": 9,
+          "Damage:2": 10,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "RandomThings:fertilizedDirt",
+          "Count:3": 8,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 12792,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinFarmerIII",
+          "Count:3": 10,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "kubatech:kubaitems",
+          "Count:3": 1,
+          "tag:10": {
+            "orig_meta:3": 3,
+            "orig_id:8": "kubatech:kubaitems"
+          },
+          "Damage:2": 3,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

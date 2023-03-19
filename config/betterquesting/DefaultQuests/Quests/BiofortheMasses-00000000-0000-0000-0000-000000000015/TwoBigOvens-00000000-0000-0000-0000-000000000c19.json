@@ -1,0 +1,138 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3096
+    }
+  },
+  "questIDLow:4": 3097,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "Railcraft:machine.beta",
+        "Count:3": 1,
+        "Damage:2": 5,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Two Big Ovens",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "With 24 Coke Ovens automated, you can sustain two big boilers endlessly. The boilers you want to build for this are specifically the Low Pressure Railcraft Boilers, made with Iron, each one as big as they can be, a 3x4x3 of the Boiler Tanks. These multiblocks are expensive, but you will have plenty of power and will consume all the Creosote from your Coke Ovens to keep them running permanently.\n\nThese boilers have a High Pressure variant, though, which need a lot more steel than their cheaper counterparts but can output a lot more Steam. If you somehow gathered a lot of stacks of Steel Ingots, you might think of attempting this, but keep in mind that your Coke Oven setup cannot sustain the input those heated behemoths require to keep running. The same goes for the Large Bronze Boiler, GregTech\u0027s own way of improving on your tiny boilers, but with two added problems: you can\u0027t produce Charcoal fast enough for it (the output speed of your setup is 3.75 seconds per Charcoal, the LBB needs one every 2 seconds), and it has a terrible efficiency for your Creosote, which means most of its power will be wasted. §6And perhaps, the LBB is MV-gated by circuit, compared to the boiler who is early-LV because of steel.§r\n\nHowever, surprise! The GT++ Semifluid Generators work, and they\u0027re very efficient with the Creosote. You can use a few of those coupled with a Large Bronze Boiler, but you will still run into the issue of not producing Charcoal fast enough unless you do something about it. You can choose this as an option and complete this quest, but it\u0027s a more \"experimental\" alternative."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "Railcraft:machine.beta",
+          "Count:3": 9,
+          "Damage:2": 6,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "Railcraft:machine.beta",
+          "Count:3": 9,
+          "Damage:2": 5,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "Railcraft:machine.beta",
+          "Count:3": 72,
+          "Damage:2": 3,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 1020,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 2,
+          "Damage:2": 837,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockgem3",
+          "Count:3": 128,
+          "Damage:2": 4,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 4,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "Railcraft:fuel.coke",
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinTechnician",
+          "Count:3": 4,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

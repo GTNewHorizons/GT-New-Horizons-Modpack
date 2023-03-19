@@ -1,0 +1,104 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3166
+    }
+  },
+  "questIDLow:4": 3167,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.blockmachines",
+        "Count:3": 1,
+        "Damage:2": 1002,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Vacuum Nukes",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "What\u0027s the next step, running nuclear reactors in a perfect vacuum? That would be pretty funny, I\u0027d like to see that.\n\nDisclaimer: this last step is not very stable. It\u0027s very risky to do it in servers with no backups, because it relies on redstone circuits to keep the reactor from exploding. Use multiple failsafes to guarantee safety. Never ever build a vacuum nuke in a Thermos server!\n\nVacuum nukes are an interesting GTNH-specific setup. They use only three components: fuel rods, platings to fill the empty slots for automation purposes, and coolant cells. Those cells you have used to make Energy Hatches, for example, they\u0027re used here to keep the reactor from overheating and exploding. The main difference this setup has is that these cells are consumable, and will wear out over time. You will need to add fresh cells into the reactor to keep running it safely, but the crux of the show is that you don\u0027t need to make new ones - you just need to cool them down again.\n\nThe Vacuum Freezer! That\u0027s why it\u0027s called a vacuum nuke! Elementary, my dear Steve. This kind of setup relies on using EU to refill the coolant cells, so to speak, and get much more EU from the reactor than you spend to keep it running. However, the redstone automation for this is quite tricky. If you just try it blindly, it might take you a long time to figure it out, and it might have explosive results. Check the Vacuum Reactors page on the wiki (https://gtnh.miraheze.org/wiki/Vacuum_Reactors) if you want a detailed guide that goes far beyond what I could write in this quest description.\n\nThis quest task is for the last setup shown in the wiki, specifically the 8720-43600 EU, 40 Quad Uranium setup. As the title implies, it can produce up to 43600 EU/t, but it will require multiple filters and failsafes to run it safely. The bonus, compared to fluid nukes, is that the LHE + turbine setup is not necessary for these high output numbers."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.60k_Helium_Coolantcell",
+          "Count:3": 14,
+          "tag:10": {},
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.reactorUraniumQuad",
+          "Count:3": 40,
+          "tag:10": {},
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 1002,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.blockcasings2",
+          "Count:3": 16,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.60k_Helium_Coolantcell",
+          "Count:3": 1,
+          "tag:10": {},
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {}
+}

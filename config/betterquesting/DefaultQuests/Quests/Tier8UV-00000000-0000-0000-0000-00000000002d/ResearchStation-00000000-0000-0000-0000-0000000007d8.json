@@ -1,0 +1,117 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2007
+    }
+  },
+  "questIDLow:4": 2008,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 1,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.blockmachines",
+        "Count:3": 1,
+        "Damage:2": 15331,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Research Station",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Now that you\u0027ve started building up your precious Quantum Computer, how about the Research Station? Once again, using the Multiblock Structure Hologram Projector will tell you how to build this Multiblock. There should be 3 empty blocks beneath it so you can see the whole blueprint. Once it is nearly assembled, place down an Energy Hatch, an Optical Slave Connector, and a Maintenance Hatch all on the back side.\n\nOnce fully assembled, you can begin operating recipes at any time, so long as the Quantum Computer is also active and connected. The Research Station requires you to put the item to research within the Object Holder, then a data stick in the Multiblock interface. Once the Computation is fully completed, the data stick that houses all the data of the completed item will be inside the Multiblock Interface.\n\nStill confused? Good, that\u0027s the spirit of learning! Always make sure to test these things in creative single player if you wish to find exact measurements and such. Don\u0027t forget to ALWAYS COLOR THE OPTICAL HATCHES AND FIBERS!\n\n§3Note that some researches require a significant amount of amps, so keep that in mind.§r"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 15103,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 15440,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 15451,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "tectech:gt.blockcasingsTT",
+          "Count:3": 52,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        },
+        "4:10": {
+          "id:8": "tectech:gt.blockcasingsTT",
+          "Count:3": 23,
+          "Damage:2": 3,
+          "OreDict:8": ""
+        },
+        "5:10": {
+          "id:8": "tectech:gt.blockcasingsTT",
+          "Count:3": 14,
+          "Damage:2": 2,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 15331,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "tectech:gt.blockcasingsTT",
+          "Count:3": 59,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

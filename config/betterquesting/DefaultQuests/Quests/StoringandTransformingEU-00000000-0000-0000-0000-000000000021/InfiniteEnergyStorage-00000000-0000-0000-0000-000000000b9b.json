@@ -1,0 +1,151 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1148
+    }
+  },
+  "questIDLow:4": 2971,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.blockmachines",
+        "Count:3": 1,
+        "Damage:2": 17000,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Infinite Energy Storage",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "You shouldn\u0027t click on links from strangers! Although this sounds like clickbait it is true. From a certain point of view.\n\nUse the (potential) force! And store energy that way. Simply construct a dam and floor vast areas with water. You may add energy to your storage by pumping more water into it or just drain it back into energy whenever you need. This works especially well with fluctuating energy sources like wind, water, and solar. Or you dump excess energy into it so you can use it another time. The capacity is huge and the choice is yours.\n\nSounds great! But...? - Indeed. There is a catch: Pumps and Turbines will have efficiency correlated loss. Still interested? Let\u0027s get to crafting!\n\nThe multi-block has an unusual shape: the back is open. The lake will spawn inside the multi-block and spread block-by-block as far as it can/is allowed. It will replace plants like water (make sure to secure your IC2 Crops!) but not replace any solid blocks. Additionally, you can specify limits in any direction. The water will NEVER spread past these limits. You can set those limits in a second GUI by right clicking the controller with a screwdriver.\n\nWhen you enter a limit, it will correct itself to the nearest valid setting. Especially if you try to spread past the server limits. You may talk your admin into raising these limits (these limits are designed to limit griefing). Further, water is not able to spread into foreign towns.\nYou will also find 3 magical buttons in the top-right of this GUI. From left to right: The first will slowly despawn the lake blocks. You can use this to shrink the lake if it spread past a barrier for example. The multi-block will also initialize with this configuration so there is no accidental flooding. The second and third buttons will slowly spawn more lake blocks. Additionally, the second button will render those lake blocks pink so you see where they are so you may plug holes and such. In this \"debug\" mode you can walk/breathe/act in the lake like in air. This should make it easy to create a sunken village for decoration purposes. The third button is for normal operations so you can see the water and enjoy a swim in your energy buffer.\n\nOf course, there is also a normal GUI (simple right-click). It shows you the energy stored in the dam. To reach higher water levels you are required to use stronger pumps. For this purpose, you may configure the voltage tier of the GUI with a circuit in the circuit slot. Don\u0027t worry: It is only optical. You cannot void any energy if you set a low voltage tier. It is only for the player information. You may give it a try with the reward you earn...\n\nIf you have any further questions, find missing information, or have suggestions please do not hesitate to post on the official GT New Horizons Discord. Please add \u0027@SinTh0r4s\u0027 to your post to make sure I’ll see it.\n\n§4A warning though: there have been a lot of mentions of bugs and even world corruptions caused by the Hydro Dam. Use at your own risk. If you have more detailed information, please report these problems on the GTNH github."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 17000,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 51,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 61,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockconcretes",
+          "Count:3": 89,
+          "Damage:2": 8,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "3:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 3,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "structurelib:item.structurelib.constructableTrigger",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 16,
+          "Damage:2": 5133,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.integrated_circuit",
+          "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 5,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinTechnicianI",
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

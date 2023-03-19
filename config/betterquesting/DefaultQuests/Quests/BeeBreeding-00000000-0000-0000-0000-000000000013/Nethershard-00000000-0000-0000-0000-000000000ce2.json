@@ -1,0 +1,81 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2214,
+      "type:1": 1
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2223,
+      "type:1": 1
+    }
+  },
+  "questIDLow:4": 3298,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "Forestry:beePrincessGE",
+        "Count:3": 1,
+        "tag:10": {
+          "Genome:10": {
+            "Chromosomes:9": {
+              "0:10": {
+                "UID1:8": "gregtech.bee.speciesNethershard",
+                "UID0:8": "gregtech.bee.speciesNethershard"
+              }
+            }
+          }
+        },
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Nethershard",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Critical for your Ichor production.\n\n§3You will need to breed through a bunch of elemental bees that don\u0027t have quests to actually get to it."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "Forestry:beePrincessGE",
+          "Count:3": 1,
+          "tag:10": {
+            "Genome:10": {
+              "Chromosomes:9": {
+                "0:10": {
+                  "UID1:8": "gregtech.bee.speciesNethershard",
+                  "UID0:8": "gregtech.bee.speciesNethershard"
+                }
+              }
+            }
+          },
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {}
+}

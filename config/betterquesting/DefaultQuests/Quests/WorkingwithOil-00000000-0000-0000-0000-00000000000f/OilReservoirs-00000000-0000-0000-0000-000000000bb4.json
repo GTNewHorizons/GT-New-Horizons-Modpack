@@ -1,0 +1,103 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2987
+    }
+  },
+  "questIDLow:4": 2996,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "BuildCraft|Energy:bucketOil",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Oil Reservoirs",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Unlike the oil spouts that are visible on the surface, the underground reservoirs cannot be seen or measured without the use of specific tools. To find one, you can make a Seismic Prospector and power it by using some kind of explosive (there is a quest for this, which gives the necessary items as rewards). After it has finished working, using a Data Stick on it will give back the raw information from the prospecting, which needs to be put in a Scanner, and then into a Printer, which will give back some pages. Make a book from those pages and you will be able to read the information about reservoirs, and also ores found in the vicinity.\n\nUpon finding a reservoir, you can see the type of oil and its amount within an area of 8x8 chunks. There are five types of Oil in reservoirs, not to be confused with the four portions obtained after oil distillation:\n\nOil - The same as what is found in oil spouts, and usually the kind you want;\nRaw Oil - Gives a lot of Naphtha;\nLight Oil - Gives mostly Sulfuric Gas, not useful in general;\nHeavy Oil - Gives mostly Heavy Fuel, handy if you need some for Diesel or other purposes;\nNatural Gas - Turns into Refinery Gas when reacted with Hydrogen;\n\nThe amount of Oil in the reservoir is very important! Values in the 400s or above are good, and slowly decrease over time as the Oil is pumped, which means that large reservoirs will last for a very long time. If you find one, it\u0027s unlikely you\u0027ll run out until much later in progression."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 2102,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 30,
+          "Damage:2": 30707,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 2,
+          "Damage:2": 32708,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.blockreinforced",
+          "Count:3": 64,
+          "Damage:2": 5,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 5,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "dreamcraft:item.CoinTechnicianI",
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

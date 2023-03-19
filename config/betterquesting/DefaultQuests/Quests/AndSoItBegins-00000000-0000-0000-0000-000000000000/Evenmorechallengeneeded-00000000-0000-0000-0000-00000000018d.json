@@ -1,0 +1,44 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 396
+    }
+  },
+  "questIDLow:4": 397,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "DraconicEvolution:dragonHeart",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": 0,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Even more challenge needed?",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "You have played through most of the pack a few times already? Maybe you even made a Stargate? Or are you just looking for something a bit different? Don\u0027t worry, we have a few options for you:\n\n- Play in Hardcore. Either Minecraft Hardcore, or BetterQuesting Hardcore. The latter is a bit more forgiving. Maybe this seems impossible, but people have indeed reached UEV+ in Minecraft Hardcore. Better be prepared to restart a few times. This is obviously not for everybody.\n\n- Never make a rocket. The so called §ono rocket run§r is pretty well supported by now and you will be able to do almost everything in the pack. Use bees, crops, and blood magic meteors as your main resource production. Be warned though that this challenge is grindy and slow. You might need to collect large amounts of aluminium gravel for example to get your first titanium.\n\n- Skyblock. Yes, really. It is also known as Garden of Grind and it is absolutely brutal. There is no actually supported skyblock version of the pack but some players have figured out the minimal amount of changes needed to make it work. Ask around or search on the offical discord channel for all the details. But don\u0027t expect any fun down this road.\n\n- Speedrunning. A few players have designed some basic rules and have started to record speedruns to early game goals like the Coke Oven. Ask around or search on the offical discord channel for all the details. Maybe you just want to watch how they do it."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {}
+}

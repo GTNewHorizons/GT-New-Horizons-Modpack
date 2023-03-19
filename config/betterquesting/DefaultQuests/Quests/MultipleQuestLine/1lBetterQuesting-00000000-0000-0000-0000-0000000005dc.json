@@ -1,0 +1,44 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 0
+    }
+  },
+  "questIDLow:4": 1500,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "UNLOCKED",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "questbook:ItemQuestBook",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "§1§lBetter Questing?",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Better Questing has a number of commands, I\u0027ll list the useful ones here so ya\u0027ll can stop asking on discord. Note that you need to have cheats enabled to use them.\n\nIf your world does not have cheats enabled, there\u0027s a workaround: On the ESC screen, open to LAN, then enable cheats. This makes pausing impossible, so consider reloading your world after. If you are using a personal server, you can do the command on the command line, without the /. You can also edit the level.dat file, and set \u0027allowCommands\u0027 to 1. Make sure to make a backup first, and use NBTExplorer or a similar program to do so.\n\n§l/bq_admin edit§r\nTurns on edit mode so you can edit quests, like me. You can use it to §6see all the quests and their requirements§r, but §6View Mode§r button is quicker and usable on multiplayer. Hover over a quest to see the requirements, and ID, if you\u0027ve enabled extended tooltips with F3 + H (outside of the QB).\n\n§l/bq_admin reset all \u003cPlayer\u003e§r\nResets ALL quests. Use this if you want to start over, or are editing the QB. You should define the player as well if it\u0027s a server, otherwise you can skip that part.\n\n§l/bq_admin reset \u003cnumber\u003e \u003cPlayer\u003e§r\nResets a specific quest, defined by the number. It may be easier to go into edit mode and use the designer tool to specify which to reset in SP though.\n\n§l/bq_admin complete \u003cnumber\u003e \u003cPlayer\u003e§r\nCompletes a specific quest, similarly to above. You can still claim the rewards. §6Use this if a quest is broken, and then report it on GitHub!§r After checking if it\u0027s already reported of course.\n\n§l/bq_admin default load§r\nReloads the quest database from the file. Your save has a version of the QB that it stores that can be different from the one in the file. §6Use this command after updating the pack to update the QB!§r\n\n§l/bq_admin default save§r\nSaves changes to the QB after editing it. Make sure to turn edit mode off first and reset all quests, because it saves both of those.\n\n§l/bq_admin hardcore§r\nEnables BQ3 Hardcore Mode. You only start with 3 lives, so best of luck. Additional life hearts are available in the Kill all the Things tab.\n\n§l/bq_copyquests \u003cPlayerWithQuestsCompleted\u003e \u003cNewPlayer\u003e§r\n§6Syncs quests with another player.§r If someone joins your party and you don\u0027t want to help them through all the quests, use this. They do not gain any rewards from the quests!\n\nAbout Party Syncing: Party syncing works, but if you have someone join later, you\u0027ll need to help them go through all the quests first. This is mostly annoying in the first two ages, as they\u0027re mostly crafting tasks, instead of retrieval you can just have them pick up. You always need to do consume tasks separately though. \n\n§4For quests to save properly, you must be online and logged into your Mojang account when starting the game. Sorry, it\u0027s a limitation of Better Questing.§r"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {}
+}

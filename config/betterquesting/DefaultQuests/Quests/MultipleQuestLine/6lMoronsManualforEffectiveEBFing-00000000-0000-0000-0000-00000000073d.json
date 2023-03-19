@@ -1,0 +1,57 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 77
+    }
+  },
+  "questIDLow:4": 1853,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "minecraft:book",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "§6§lMoron\u0027s Manual for Effective EBFing",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Welcome to the latest Moron\u0027s Manual, Effective EBFing! This manual covers common problems encountered when using the GregTech 1000 Electric Blast Furnace.\n\nSetup\nWhen setting up your EBF, make sure to place it a few chunks away from things pollution affects, like farmland. Pollution is nobody\u0027s friend!\n\nDuring setup, make sure the center of the EBF is hollow. Sometimes things can sneak in there without you noticing, like a Thaumcraft light orb!\n\nMake sure your muffler faces §lout§r, not §lin§r. The EBF can\u0027t work if it is not spreading those delightful odors!\n\nWhen placing your power hatches, make sure to minimize the distance between any generators and the EBF. Especially at LV, those few blocks make a big difference! Every amp of energy travelling over a cable loses a little bit - and you\u0027ll need as much as you can get! Your best setup is to put two generators right next to each hatch, with a 2A cable. If you\u0027re poor, you could use 2 battery buffers with 2 batteries each directly attached to each hatch. Make sure to top off the buffers\u0027 generators. If you make 9 slot battery buffers, you can fill them up over time to get longer running time until you get stable power.\n\nOutput hatches and buses will automatically push into tanks and inventories placed next to them such as chests or BC tanks. They will also void if they\u0027re full, so keep an eye on them!\n\nWhen building multiple EBFs, the GregTech 1000 Electric Blast Furnace can share walls. This can save you on input and output hatches too. Not recommended for energy and maintenance hatches!"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 8,
+          "Damage:2": 2305,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

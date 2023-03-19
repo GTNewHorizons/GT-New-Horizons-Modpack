@@ -1,0 +1,44 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 11
+    }
+  },
+  "questIDLow:4": 1841,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "minecraft:bone",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "§1§lMoron\u0027s Manual for Massacring Monsters",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "If you haven\u0027t noticed, this world is a true hellscape full of Special Mobs and Infernals around every corner. Unlike vanilla, a player has to actually stay aware and pay attention to what they are fighting. Here are some tips.\n\nIf an infernal has Vengeance, don\u0027t shoot it with your 56 damage crossbow!\n\nA high health infernal with regeneration is hard to kill. Even worse if it is a witch that can also heal itself. In those cases, run like hell, or bring a soul vial to capture it and throw it into Mount Doom. \n\nWatch out for zombies with fishing poles - they can pull you into them. And zombies with a bow and arrow - they can shoot you back!"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {}
+}

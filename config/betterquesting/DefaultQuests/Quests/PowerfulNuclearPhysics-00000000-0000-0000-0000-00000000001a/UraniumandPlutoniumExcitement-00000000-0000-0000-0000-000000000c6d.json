@@ -1,0 +1,78 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3180
+    }
+  },
+  "questIDLow:4": 3181,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "bartworks:gt.bwMetaGeneratedcell",
+        "Count:3": 1,
+        "Damage:2": 10011,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Uranium and Plutonium Excitement",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "If you\u0027ve done IC2 nukes, you must have seen this coming. The previous quest had fuel that was based on Thorium, so what comes next? Uranium and Plutonium, of course.\n\nThe byproducts you want are obtained directly from the depleted fuel, so the tasks to get through for power and breeding are exactly the same. However, since this part is about breeding, it\u0027s worth it to point out that the depleted fuel can be obtained from depleted fuel rods, after being processed in IC2 nukes. This is not the best way to do it, of course, but it bypasses the need for the Large Naquadah Reactor, an expensive multi even by ZPM standards. You will not get as much power if you don\u0027t use that multi, but you can get byproducts all the same.\n\nThe outputs themselves are quite interesting, or at least Plutonium\u0027s outputs are. Uranium will give you Lead, Bismuth (almost none), Cerium and a tiny bit of Xenon, which means that you get some Cerium and Xenon. Plutonium, on the other hand, awards you with Tritanium! This is a t2 fusion material that normally needs a lot of Radon to produce, alongside 2 separate fusion recipes, so it might be very useful to source Tritanium through the depleted Plutonium Liquid Fuel. If you do so, you\u0027ll also get some Krypton, with each bucket of depleted fuel outputting more than a 100 million Liquid Air recipe on the Distillation Tower, which is also true for the Xenon obtained from Uranium despite the very small amount obtained from it."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 12732,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "bartworks:gt.bwMetaGeneratedcell",
+          "Count:3": 1,
+          "Damage:2": 10003,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "bartworks:gt.bwMetaGeneratedcell",
+          "Count:3": 1,
+          "Damage:2": 10011,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {}
+}

@@ -1,0 +1,59 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2641
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2623
+    }
+  },
+  "questIDLow:4": 3283,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.blockmachines",
+        "Count:3": 1,
+        "Damage:2": 14003,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Space Elevator",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "The Space Elevator is a modular structure. It can be equipped with Space Elevator modules, which then can take on different tasks. \n\nInitially, your Space Elevator has 6 module slots that can be used. You can later upgrade that to up to 12 with Mk-II and Mk-III motors. The motor tier also determines the module tier that you can use. The I/O is not shared between modules, each module only sees their own I/O slots. Energy is only provided to the central structure of the Space Elevator and then automatically distributed to all modules.\n\nAfter a module has been inserted and supplied with the right I/O, it can be configured further using parameters.\n\nYou can see in NEI which fluids are pumpable with the Space Pumping Module. It consumes 1A UHV to work. The Gas Type and Planet Type are parameters.\n\nNEI also has an overview of all the ores you can obtain with a Space Mining Module. It needs to supplied with a drone, which will act as catalyst, a set of input items, computation and either Helium, Bismuth or Radon plasma. The plasma will boost both the recipe time and the amount of bonus stacks you get out of a recipe. With its parameters you can adjust parallels, overdrive, and distance. When multiple recipes have the same input and you have the distance set to a value that they share, the module will pick a random one, taking the recipes weights into consideration.\n\nThe space elevator also lets you travel to other planets. It doesn\u0027t get you back though and there is no documentation. So best find out yourself how it works.\n\nThe mining module also got a cycle mode. In static mode it will hold its distance while in cycle mode it will change its distance after each recipe check (and you can configure the range and step size of that)."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 14003,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {}
+}

@@ -1,0 +1,51 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1496
+    }
+  },
+  "questIDLow:4": 1497,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 1,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "minecraft:gold_ore",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "§2§lDigging Deeper",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Now that you know where to dig, dig all the way down to bedrock to find if there is a vein located there.\n\nNow, what if you know what you want but not where to find it? Our fancy bartimaeusnek developer has added a nifty feature to NEI that shows you where to find ores! Simply look for the oreblock in NEI, and click on it for info on where to find that ore.\n\nThere are many types of ores, even just for getting one material like Iron. So don\u0027t stick to only one type.\n\nYou can also search small ores, but not all of them are used."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "amount:3": 1,
+      "rewardID:8": "bq_standard:xp",
+      "isLevels:1": 1,
+      "index:3": 0
+    }
+  }
+}

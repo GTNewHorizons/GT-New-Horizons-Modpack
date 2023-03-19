@@ -1,0 +1,75 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 231
+    }
+  },
+  "questIDLow:4": 1778,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 1,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "minecraft:skull",
+        "Count:3": 1,
+        "Damage:2": 1,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Warp Warnings",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Thaumcraft offers considerable power from its devices and tools. But power comes with a price.... That price is represented by Warp: A corruption of the character\u0027s mind and soul, inflicting progressively more dire effects upon them. \n\nWhile the effects of warp can range from annoying to deadly, accumulating enough of it can also grant you access to greater power... at the cost of increasing madness, and attention from dark powers. At least, others may call it madness... but is it truly insanity, when the voices in your head grant useful knowledge?\n\nWarp Theory adds a bunch of new Warp Effects to the Player. Be very careful because you don\u0027t want to spawn a Wither in your base.\n\n5 warp: Message\n10 warp: Fake Explosion\n15 warp: Coin, Pumpkin\n20 warp: Lay Eggs, Spawn Phantoms\n25 warp: Fake Creeper, Fake Rain\n30 warp: GregTech Fake Sounds, Spawn Bats\n35 warp: Blood, Fake Enderman\n40 warp: Spawn Friendly Creeper\n45 warp: Jump Boost, Nausea\n50 warp: Insomnia, Vis Drain\n55 warp: Thunderstorm\n60 warp: Spawn Fire Bats\n65 warp: Blindness, Poison\n70 warp: Livestock Rain\n75 warp: Spawn Doppelganger\n80 warp: Spawn Endermen, Wither Potion\n85 warp: Wind\n90 warp: Ender Pearl\n95 warp: Blaze Fireball\n100 warp: Litmus Paper, Junk\n110 warp: Obsidian\n120 warp: Lightning\n125 warp: Inventory Swap\n130 warp: Random Teleport\n140 warp: Acceleration\n150 warp: Fake Wither, Inventory Scramble\n160 warp: Countdown Bomb\n170 warp: Mushrooms\n175 warp: Snow\n180 warp: Decay\n190 warp: Swamp\n200 warp: Spawn Wither"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "WarpTheory:item.warptheory.paper",
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "Thaumcraft:ItemBathSalts",
+          "Count:3": 4,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "Thaumcraft:ItemSanitySoap",
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "Thaumcraft:ItemLootBag",
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

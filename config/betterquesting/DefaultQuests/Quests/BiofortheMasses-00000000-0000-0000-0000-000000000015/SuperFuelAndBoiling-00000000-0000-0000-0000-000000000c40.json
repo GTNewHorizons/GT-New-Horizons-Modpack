@@ -1,0 +1,144 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3134
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3135
+    }
+  },
+  "questIDLow:4": 3136,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.blockmachines",
+        "Count:3": 1,
+        "Damage:2": 1022,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Super Fuel And Boiling",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "If you\u0027ve gotten this far, you should be about ready to produce Steam at an alarming rate from this hyper-efficient fuel. Unlike the Combustion Generators and Gas Turbines, though, you need more multis in front of your Large Boiler. Since it outputs Superheated Steam, you will need two turbines: the first one outputs EU and regular Steam, and the second one takes it in and outputs more EU and water, to be reused in the boiler.\n\nThe multis don\u0027t do anything by themselves, they need a turbine inside the controller to run them, and the turbine\u0027s size and material decide what their preferred flow rate is, and the EU/t at that rate. Good materials in EV are Shadow Metal (from Thaumcraft) and Manuyllyn, in IV you can use Oriharukon. Steam Turbine multis usually have a lower EU/t value than Gas Turbine ones, which means that you might have to make more of each kind of multi. This depends on the amount of boilers you are using, which tier of boiler and also whether or not you are using loose mode (check the Steam Turbine quest for more details).\n\nFlow rates when using Steam are very high, as you can imagine. You will need huge GT pipes if you use that mode of transportation, but there is a better way: AE2 P2P tunnels, set to fluid mode, can teleport fluids from one multi to the next without caring for high flow rates. With all that taken care of, all you need is an EV Buffered Dynamo Hatch for each turbine, and your setup is complete!"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockreinforced",
+          "Count:3": 64,
+          "Damage:2": 6,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockreinforced",
+          "Count:3": 64,
+          "Damage:2": 7,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 1152,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "miscutils:gtplusplus.blockspecialcasings.1",
+          "Count:3": 24,
+          "Damage:2": 2,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 1131,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "gregtech:gt.blockcasings4",
+          "Count:3": 24,
+          "Damage:2": 9,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockreinforced",
+          "Count:3": 16,
+          "Damage:2": 7,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 2,
+          "tag:10": {
+            "ench:9": {
+              "0:10": {
+                "lvl:2": 3,
+                "id:2": 35
+              }
+            }
+          },
+          "Damage:2": 7,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "dreamcraft:item.CoinTechnicianIII",
+          "Count:3": 3,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}
