@@ -1,0 +1,106 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1123
+    }
+  },
+  "questIDLow:4": 2091,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "ExtraBees:alveary",
+        "Count:3": 1,
+        "Damage:2": 1,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Upgrading the Alveary",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "These basic upgrades to the Alveary make it more powerful. \n\nFrame Housing - Automation-enabled frame slot for the Alveary. Uses §55 durability§r every bee tick (27s). If it runs out on that tick, it has no effect.\nAveary Stabilizer - Prevents the bees from mutating into another species. Ideal for breeding traits into a line.\nAlveary Transmission - Power input for upgrades that use power.\nHatchery - Hatches larval bees for use in Genetics or to create additional drones. Not used for Gendustry stuff.\nAlveary Sieve - Instead of the pollen from a bee fertilizing a nearby tree, it is stored here and can be manually applied. Requires manually placing woven silk in the inventory.\nSwarmer - Creates additional Ignoble queens in hives around the Alveary. These are genetic copies of the original. This uses royal jelly or aromatic lumps. The latter are more effective.\n\n§3Note that all upgrade blocks must be in the bottom 2 layers. The center block also cannot be an upgrade block, though the bottom center can.\n\n§4When using power, the transmission block will suck down entire amps to fill a tiny amount. Use the EIO capacitors or something similar to prevent this."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "ExtraBees:alveary",
+          "Count:3": 1,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "Forestry:alveary",
+          "Count:3": 1,
+          "Damage:2": 6,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "ExtraBees:alveary",
+          "Count:3": 1,
+          "Damage:2": 6,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "ExtraBees:alveary",
+          "Count:3": 1,
+          "Damage:2": 5,
+          "OreDict:8": ""
+        },
+        "4:10": {
+          "id:8": "Forestry:alveary",
+          "Count:3": 1,
+          "Damage:2": 7,
+          "OreDict:8": ""
+        },
+        "5:10": {
+          "id:8": "Forestry:alveary",
+          "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "Forestry:alveary",
+          "Count:3": 8,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 26,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

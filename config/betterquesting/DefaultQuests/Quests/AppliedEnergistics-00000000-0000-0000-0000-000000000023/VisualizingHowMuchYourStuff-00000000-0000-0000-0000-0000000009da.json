@@ -1,0 +1,86 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2519
+    }
+  },
+  "questIDLow:4": 2522,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "appliedenergistics2:item.ItemMultiPart",
+        "Count:3": 1,
+        "Damage:2": 400,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Visualizing How Much Your Stuff",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "The ME Storage Monitor allows you to visualize how much of an item you have. For example you can tell if you\u0027re running low on circuitsand should make more, or how a long crafting process is proceeding. There are a couple of ways to use them.\n\nRightclick with item: Will display the current level of that item if not locked.\nRightclick with empty hand: Will reset the display if not locked.\nRightclick with AE2 wrench or network tool: Will toggle the lock.\n\n\nThe ME Conversion Monitor is the upgraded version of the ME Storage Monitor. It adds the ability to directly withdraw from or store items into the ME Network. It has the normal interactions, plus more.\n\nShift-right-clicking with item: Attempts to insert the item stack into the network. This works even if it\u0027s not the displayed item!\nShift-double-right-clicking: Attempts to insert all item stacks of the type displayed into the network.\nRight-clicking (while locked): Attempts to pull out a stack of the item displayed."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "appliedenergistics2:item.ItemMultiPart",
+          "Count:3": 1,
+          "Damage:2": 400,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "appliedenergistics2:item.ItemMultiPart",
+          "Count:3": 1,
+          "Damage:2": 420,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 37,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinTechnicianII",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

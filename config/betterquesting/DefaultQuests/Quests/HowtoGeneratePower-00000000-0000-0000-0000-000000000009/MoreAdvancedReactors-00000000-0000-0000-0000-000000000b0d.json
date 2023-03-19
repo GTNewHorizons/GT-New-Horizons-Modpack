@@ -1,0 +1,127 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1905,
+      "type:1": 1
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 190,
+      "type:1": 1
+    }
+  },
+  "questIDLow:4": 2829,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "IC2:blockreactorvessel",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "More Advanced Reactors",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Fluid Nukes, Vac Nukes and Wrench Reactors (lol), are more advanced versions of the normal one.\n\nFluid means you build it differently (with the parts on the right, it\u0027s a 5x5 cube surrounding the normal one), with the goal of producing as much hot coolant (cycle in non-hot) as possible, to use that to produce power. It doesn\u0027t produce power on it\u0027s own, but more overall. Send it to the LHE to get SH steam out of it, then go through a HP steam turbine, then a normal steam turbine.\n\nVac nukes remove heat by sending it to coolant cells instead of coolant. Any cell in a cardinal direction will receive the heat instead of the reactor. Use a vacuum freezer to restore the Helium/NaK cells\u0027 durability.\n\nWrench reactors are when you fill the reacor with fuel rods, turn it on, and wrench it to reset it\u0027s heat state before it explodes. If you can automate it, you deserve a medal!\n\nIf you still don\u0027t know what a MOX one is, it produces more power the higher the temperature, so you try to keep it heat neutral, and as hot as possible. Of course, this can cause things nearby to, well, §omelt.§r You use MOX or Naquadria fuel cells work for this. You can also get more Plutonium out of MOX than Uranium.\n\nA breeder reactor is when you setup a reactor to get an item out of it rather than power, like Lutetium from Thorium, Plutonium from MOX, etc. Look at the depleted x fuel rod list in NEI or on the wiki to see more.\n\n§3Since Fluid Nukes are liable to explode if you run out of coolant, make sure you setup a cutoff tied to the temperature or amount of coolant with redstone."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "IC2:blockReactorAccessHatch",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "IC2:blockReactorRedstonePort",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "IC2:blockReactorFluidPort",
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "IC2:blockreactorvessel",
+          "Count:3": 94,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "IC2:itemCellEmpty",
+          "Count:3": 16,
+          "Damage:2": 9,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "bartworks:gt.bwMetaGeneratedgemExquisite",
+          "Count:3": 16,
+          "Damage:2": 20,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "IC2:itemCellEmpty",
+          "Count:3": 16,
+          "Damage:2": 9,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 7,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

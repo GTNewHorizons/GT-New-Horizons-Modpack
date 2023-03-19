@@ -1,0 +1,154 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1504
+    }
+  },
+  "questIDLow:4": 1523,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "ifu:ifu_buildingKit",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": 144000,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Can\u0027t Find Those Ores?",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Having trouble locating some of the basic ores? Trade in some coins for oreblocks to use in the Ore Finder Wand.\n\nIf you\u0027re clever, you can use one oreblock to find a vein containing another oreblock to use to find another vein. For example, if you choose Redstone, you can use that to find Cinnabar, which can be used to find Thaumcraft Aspect Shard ores in the Twilight Forest. Experiment and find some combos!"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinTechnician",
+          "Count:3": 60,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "dreamcraft:item.CoinSmith",
+          "Count:3": 60,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockores",
+          "Count:3": 1,
+          "Damage:2": 937,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.blockores",
+          "Count:3": 1,
+          "Damage:2": 35,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.blockores",
+          "Count:3": 1,
+          "Damage:2": 870,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "gregtech:gt.blockores",
+          "Count:3": 1,
+          "Damage:2": 834,
+          "OreDict:8": ""
+        },
+        "4:10": {
+          "id:8": "gregtech:gt.blockores",
+          "Count:3": 1,
+          "Damage:2": 500,
+          "OreDict:8": ""
+        },
+        "5:10": {
+          "id:8": "gregtech:gt.blockores",
+          "Count:3": 1,
+          "Damage:2": 810,
+          "OreDict:8": ""
+        },
+        "6:10": {
+          "id:8": "gregtech:gt.blockores",
+          "Count:3": 1,
+          "Damage:2": 526,
+          "OreDict:8": ""
+        },
+        "7:10": {
+          "id:8": "gregtech:gt.blockores",
+          "Count:3": 1,
+          "Damage:2": 530,
+          "OreDict:8": ""
+        },
+        "8:10": {
+          "id:8": "gregtech:gt.blockores",
+          "Count:3": 1,
+          "Damage:2": 523,
+          "OreDict:8": ""
+        },
+        "9:10": {
+          "id:8": "gregtech:gt.blockores",
+          "Count:3": 1,
+          "Damage:2": 535,
+          "OreDict:8": ""
+        },
+        "10:10": {
+          "id:8": "gregtech:gt.blockores",
+          "Count:3": 1,
+          "Damage:2": 57,
+          "OreDict:8": ""
+        },
+        "11:10": {
+          "id:8": "gregtech:gt.blockores",
+          "Count:3": 1,
+          "Damage:2": 936,
+          "OreDict:8": ""
+        },
+        "12:10": {
+          "id:8": "gregtech:gt.blockores",
+          "Count:3": 1,
+          "Damage:2": 935,
+          "OreDict:8": ""
+        },
+        "13:10": {
+          "id:8": "gregtech:gt.blockores",
+          "Count:3": 1,
+          "Damage:2": 838,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

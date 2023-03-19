@@ -1,0 +1,72 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2561
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1243
+    }
+  },
+  "questIDLow:4": 2563,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "dreamcraft:dreamcraft_EnrichedBacterialSludge",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "§6§lSievert for the Vat",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Some Vat recipes require a certain Sievert (radioactivity) value. So attach this Radio Hatch to your Vat to input radioactive material!\n\nThe Radio Hatch holds rods/long rods of radioactive material and uses them to produce Sievert. The input item determines the Sievert value and how long it lasts. Items stored in the hatch will be used continuously even if machine not active, so make sure you want to craft something before putting items in.\n\n§rYou can check the stats of an inputted item with a portable scanner. Higher tiers of hatch hold more, from 1kg (HV) to 6kg (UV). Rods are worth 1kg, while long rods are 2kg.\n\nSome recipes require §4exact§r sievert, you can use the screwdriver to access the radiation shutter control to adjust how much sv is blocked from being sent to the vat. For example, you need 100sv to make SeaweedBroth, so you\u0027d use Naquadah rods, and block off 30sv.\n\nRod Stats:\nMaterial-Sievert-Apprx. time until used up\nBismuth                 83sv   198s\nUranium 235           92sv    80s\nUranium 238           92sv    80s\nPlutonium 239         94sv    66s\nPlutonium 241         94sv    66s\nNaquadah             130sv   14.5s\nEnriched Naquadah 140sv   10.5s\nNaquadria            150sv     8s\n\nThere are more radioactive materials than these, but these are the main ones."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 12713,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 1,
+          "Damage:2": 23098,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

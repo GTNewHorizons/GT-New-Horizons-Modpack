@@ -1,0 +1,96 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2588
+    }
+  },
+  "questIDLow:4": 3287,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.blockmachines",
+        "Count:3": 1,
+        "Damage:2": 31151,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Chemical Pseudo-Altercations",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Learning more about the world and its ways is a sign of wisdom. However, the truly wise are the ones who know what is unimportant and can be skipped. For a true breacher of technology, the constraints of physics and chemistry are not essential. To skip past their technicalities, the Quantum Force Transformer comes into play.\n\nThis multi is meant to replicate the most popular and important processing lines in the pack’s progression, mostly those related to chemistry. Because of recursion in recipes, where earlier tier materials are required to craft higher tier equivalents, there are a lot of early processing lines that stay up through progression. Even worse, they often need more and more machines to keep up with increasing speed demands. To save on lag, this multi will do those processing lines in one step and without most of the extra chemicals that are added to purify the inputs into the outputs.\n\nThe Quantum Force Transformer (QFT) is unlocked in UEV, after Bio Mainframes have been crafted, and with the addition of a single Eternal Singularity and other materials. It’s a tall, 15x15 multiblock with many different casings, including two that are upgradable and decide the two tiers of the multi. Although it’s available in UEV, the upgraded casings require more and more expensive materials, while also unlocking skips for more advanced processing lines. For example, a platline skip can be done in the earlier QFT tier, whereas a Kevlar skip can only be done in the last tier.\n\nEach recipe that the QFT has represents a single processing line or a big part of a line. The inputs for the early plastic skip, for example, are the basic components of the plastics on a molecular level (Carbon, Hydrogen, Oxygen, etc.), and not the multi-step chemicals that were used half a dozen tiers earlier. All recipes have 3 or more outputs, and every output has a chance to appear: the chance for each is 100% divided by the number of outputs. To increase it, there are additional mechanics that can be used.\n\nSimply put, the QFT uses huge amounts of energy and quantum field stabilization to disassemble simple molecules and assemble them into more complex ones, without needing additives or constrained processes. The only addition to the base inputs that the multi requires is a specific catalyst, which the smart circuits use to guide the materials into what they ultimately transform into, but they are never consumed or lost in any way. \n\nThis direct process simplifies long processing chains to one step, but it has two consequences: it makes the process expensive, given the extreme conditions needed to undergo the transformation (in a similar way to fusion), but it also generates many different outputs at once, none of which are guaranteed, and it’s impossible to choose between them without adding something else into the setup to alter the conditions inside the QFT in some way. Throwing more energy into the multi won’t do anything, and better materials don’t seem to work, so what is the next step? That is what the next two quests will answer.\n"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "miscutils:gtplusplus.blockcasings.2",
+          "Count:3": 80,
+          "Damage:2": 12,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "miscutils:gtplusplus.blockcasings.4",
+          "Count:3": 177,
+          "Damage:2": 4,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "miscutils:gtplusplus.blockcasings.5",
+          "Count:3": 224,
+          "Damage:2": 15,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "miscutils:gtplusplus.blockcasings.5",
+          "Count:3": 233,
+          "Damage:2": 7,
+          "OreDict:8": ""
+        },
+        "4:10": {
+          "id:8": "miscutils:gtplusplus.blockcasings.5",
+          "Count:3": 142,
+          "Damage:2": 11,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 31151,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {}
+}

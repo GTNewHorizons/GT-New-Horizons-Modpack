@@ -1,0 +1,86 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 103
+    }
+  },
+  "questIDLow:4": 2112,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "adventurebackpack:adventureBackpack",
+        "Count:3": 1,
+        "tag:10": {
+          "wearableData:10": {
+            "type:4": 0
+          }
+        },
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Sometimes Life is Scary and Dark - Bring a Backpack",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Now that you are MV, you can make an Adventure Backpack. This very useful backpack can do many things. It can store 2 tools for quick access, has internal tanks for containing liquids - use the Hose to access them, a built in crafting table, and storage. \n\nWhen placed on your back, it can be accessed using a quick-access key, default is B. Check your controls for details.\n\nWhen placed on the ground, it can be accessed with a right-click. While on the ground, the bedroll can be deployed and used.\n\nThey can also be upgraded to add special abilities. For more special abilities than those featured here, check the Adventure Backpacks wiki.\n\n§3It uses up the same slot as the Coal Jetpack and the Copterpack, so you\u0027ll either need to choose one, or swap them around."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "adventurebackpack:adventureBackpack",
+          "Count:3": 1,
+          "tag:10": {
+            "wearableData:10": {
+              "type:4": 0
+            }
+          },
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "harvestcraft:beefwellingtonItem",
+          "Count:3": 64,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "adventurebackpack:backpackHose",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

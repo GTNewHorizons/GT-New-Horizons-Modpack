@@ -1,0 +1,96 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3195
+    }
+  },
+  "questIDLow:4": 3196,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.blockmachines",
+        "Count:3": 1,
+        "Damage:2": 12732,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Naquadah Reactor For Nuclear Fuels",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "What is the most powerful nuclear fission generator there is? The answer to that question isn\u0027t even a nuclear fission generator, for the most part. The answer is the Large Naquadah Generator. It follows the same principle as the LFTR, use a new processing chain to turn Thorium, Uranium and Plutonium into liquid fuels, very dense with energy, which are then slowly burned to generate large amounts of power over a very long period of time. This reactor, for example, burns its fuels 1 milibucket at a time, over several seconds, when running without additives, a very slow burner by default.\n\nLet\u0027s look at the NEI recipes. Excited Thorium outputs 2,200 EU/t, Excited Uranium outputs 12,960 EU/t and Excited Plutonium outputs 32,400 EU/t. These are small numbers, clearly, so this can\u0027t possibly be the most powerful nuclear fission reactor. However, this multi is more complicated than that! In total, there are 4 inputs you can provide for it: one of them is the required fuel and another is the also required Liquid Air to generate EU from that fuel, but the other 2 are additives that are optional, yet increase both the efficiency and the consumption speed of the fuel. The controller\u0027s tooltip lists all the possible additives and their bonuses.\n\nFuel efficiency here means that the fuel is burned at the same rate, but energy output is increased by the percentage. Let\u0027s consider the two best options, Cryotheum and Atomic Separation Catalyst. They multiply with each other, so the energy output is 2.75 x 16 \u003d 44 times the displayed EU/t on NEI! Excited Plutonium, the most energetic of the three fuels, will award you with 1,425,600 EU/t, almost 3 UV amps."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 12732,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.blockcasings3",
+          "Count:3": 120,
+          "Damage:2": 12,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "GoodGenerator:radiationProtectionSteelFrame",
+          "Count:3": 36,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "GoodGenerator:MAR_Casing",
+          "Count:3": 48,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "4:10": {
+          "id:8": "gregtech:gt.blockcasings2",
+          "Count:3": 6,
+          "Damage:2": 15,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockcasings3",
+          "Count:3": 1,
+          "Damage:2": 12,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {}
+}

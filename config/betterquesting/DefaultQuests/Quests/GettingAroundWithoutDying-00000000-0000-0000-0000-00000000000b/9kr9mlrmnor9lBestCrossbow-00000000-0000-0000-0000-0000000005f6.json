@@ -1,0 +1,106 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 990
+    }
+  },
+  "questIDLow:4": 1526,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "TGregworks:tGregToolPartCrossbowLimb",
+        "Count:3": 1,
+        "tag:10": {
+          "material:8": "EnergeticAlloy"
+        },
+        "Damage:2": 1635,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "§9§k§r§9§m§l§r§m§n§o§r§9§lBest Crossbow?",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Energetic alloy has proven to be an amazing material.  It\u0027s light weight and high stiffness makes it perfect for a crossbow limb. It is slightly slower to draw but still has amazing stopping power with its very high bolt speed. Durability is much improved over a carbon limb. \n\nThe material would also make an excellent bolt body. Perhaps you will find a suitable tip to match?"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "TGregworks:tGregToolPartCrossbowLimb",
+          "Count:3": 1,
+          "tag:10": {
+            "material:8": "EnergeticAlloy"
+          },
+          "Damage:2": 1635,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "minecraft:spawn_egg",
+          "Count:3": 1,
+          "Damage:2": 54,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "minecraft:spawn_egg",
+          "Count:3": 1,
+          "Damage:2": 51,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "minecraft:spawn_egg",
+          "Count:3": 1,
+          "Damage:2": 52,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 6,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "dreamcraft:item.CoinSmithI",
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

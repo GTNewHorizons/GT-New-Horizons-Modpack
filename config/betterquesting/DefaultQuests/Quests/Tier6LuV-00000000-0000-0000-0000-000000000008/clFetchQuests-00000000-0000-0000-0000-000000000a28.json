@@ -1,0 +1,70 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1683
+    }
+  },
+  "questIDLow:4": 2600,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 1,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "dreamcraft:item.OvenGlove",
+        "Count:3": 1,
+        "tag:10": {
+          "Durability:3": 1000
+        },
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "§c§lFetch Quests",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "To make the Circuit Assembly Line imprints you\u0027ll need a bunch of new materials.\n\nTo start, let\u0027s get some raw materials, Prasiolite, Cubic Zirconia, and Tellurium.\n\nYou also need some other materials, but I don\u0027t need to explain those, do I?\n\n§3If the materials are too much of a pain, you can replicate some of them once you have one of it."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 2,
+          "Damage:2": 2355,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 12,
+          "Damage:2": 2981,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "bartworks:gt.bwMetaGenerateddust",
+          "Count:3": 36,
+          "Damage:2": 33,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {}
+}

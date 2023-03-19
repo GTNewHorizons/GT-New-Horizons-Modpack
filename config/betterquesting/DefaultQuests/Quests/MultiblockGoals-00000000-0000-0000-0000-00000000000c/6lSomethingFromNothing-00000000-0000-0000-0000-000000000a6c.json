@@ -1,0 +1,59 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2610
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2658
+    }
+  },
+  "questIDLow:4": 2668,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.blockmachines",
+        "Count:3": 1,
+        "Damage:2": 12741,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "§6§lSomething From Nothing",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Void Miners are basically the same thing as regular ones, except that they draw from the whole pool of ores for the dimension without there having to be any nearby. In addition, you can speed them up by supplying Neon, Krypton, Xenon, or Oganesson.\n\nYou can get Neon reasonably easily from Bartimaeusnek Ore from Ross 128ba. Krypton and Xenon can be produced from centrifuging fuel rods. All three can be produced from the EV liquid air distillation method. Remember you need the Liquid Air Fluid Hatch to actually put in enough liquid air. If you want all the produced gasses from the first 4 slots, you\u0027ll need to use the Giant Output Hatch.\n\nTo get Oganesson, you\u0027ll need mk3 fusion.\n\nAll four fluids can be replicated, so you\u0027ll probably end up doing that.\n\n§3If you want the Deep Dark\u0027s ores, you HAVE to use a Void Miner."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 12741,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {}
+}

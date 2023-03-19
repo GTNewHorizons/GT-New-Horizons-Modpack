@@ -1,0 +1,98 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 97
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 103
+    },
+    "2:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 77
+    },
+    "3:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 717
+    },
+    "4:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 543
+    }
+  },
+  "questIDLow:4": 1148,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 1,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.blockmachines",
+        "Count:3": 1,
+        "Damage:2": 12,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "§6§lTier 2 (MV)",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "The next tier of machine hull needs aluminium. You\u0027re gonna need it for every machine and machine part for this tier, so keep that EBF truckin\u0027.\n\nDid you remember to read the Safety First quest for details about mixing tiers? The most applicable part to remember here is that sending MV to an LV machine will cause it to explode. Sending MV voltage over LV cables causes them to melt, which causes a fire that can also cause an explosion. Additionally, recipes done in a tier higher than the original one (not ULV, ULV counts as LV) are overclocked. OC\u0027d recipes use 4x power, and complete 2x faster."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 12,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 4,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinTechnicianI",
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}
