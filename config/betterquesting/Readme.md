@@ -29,13 +29,14 @@ https://confluence.atlassian.com/get-started-with-sourcetree
 2. Add the repo to your SourceTree. Click the + icon on the top set of tabs. Select Clone and paste in what you get from Github when you do the green Clone or Download button. Double click the repo to open it in a tab.
 3. Start GTNH and let it begin loading.
 4. Initially you should be on the master branch. Do a pull to update it. 
-5. Make a branch in your forked repo and switch to that branch with `git checkout -b feature/<quests branch name>. In SourceTree click the Branch button and give it a new name. Make sure the new branch is bold. If it is not, double click on it to check it out.
+5. Make a branch in your forked repo and switch to that branch with `git checkout -b feature/<quests branch name>`. In SourceTree click the Branch button and give it a new name. Make sure the new branch is bold. If it is not, double click on it to check it out.
 6. Check last changes done to the quest file on Github by checking the commits, for example  https://github.com/GTNewHorizons/NewHorizons/commits/master. Make sure they exist on your new branch.
 7. Copy the defaultquests json file into your local instance config/betterquesting file in MultiMC.
-8. Start a new world (this is the easiest way) or if you want to use an old world, start that world, then do `/bq_admin default reload`
+8. Start a new world (this is the easiest way) or if you want to use an old world, start that world, then do `/bq_admin default load`
 9. Compare the latest changes against the changes in github. 
 10. MAKE SURE YOU ARE USING THE LATEST CHANGES!
-11. Use `bq_admin edit` to unlock edit mode
+11. Use `/bq_admin edit` to unlock edit mode
+12. If you need to enter a quest ID, you can right-click the quest and click "Copy Quest ID" to copy it to your clipboard
 
 # New Quests #
 101. Open the quest book and click Edit at the bottom.
@@ -64,23 +65,23 @@ https://confluence.atlassian.com/get-started-with-sourcetree
 206. Quests can be in more than one tab. Information quests should get added to the Tips and Tricks tab. Just dont remove it from the original location.
 
 # Deleting/hiding quests # 
-301. DO NOT DELETE QUESTS FROM A RELEASED QUEST DATABASE. This will cause problems with quest numbering, screwing up localization.
-302. Instead, unlink a quest from all prereqs, and make sure nothing requires it. Check for off-tab requirements too (need more info here)
+301. Quest IDs are now randomly-generated UUIDs, so we are free to delete quests. If you need to hide a quest instead of deleting it, read on.
+302. Unlink a quest from all prereqs, and make sure nothing requires it. Check for off-tab requirements too (need more info here)
 303. In the Edit Quest window, click Show until it changes to HIDDEN
-304. Use `bq_admin edit` to leave edit mode and confirm the quest is no longer visible.
+304. Use `/bq_admin edit` to leave edit mode and confirm the quest is no longer visible.
 
 # Testing quests #
 401. You can use Detect/Submit to see if the quest will properly detect items. Make sure to make fresh GT items from at least 1 step before so that you confirm the ignoreNBT is working properly. GT items cheated in have no NBT data, so you want to make sure that players who have to craft their items can get them to match.
 402. Some quests you might have to complete their prerequisites to unlock and test. To complete a quest do `/bq_admin complete <quest_id>`. Once the prereqs are unlocked you can use `/bq_admin edit` to leave editing mode.
-403. Do a `bq_admin reset all` to reset your quests back.
+403. Do a `/bq_admin reset all` to reset your quests back.
 
 # Completing #
 501. Preferably, do 1 issue per commit. This prevents a corruption from destroying a lot of work.
-502. Once you have completed your changes, do `bq_admin edit` to disable edit mode.
+502. Once you have completed your changes, do `/bq_admin edit` to disable edit mode.
 503. `/bq_ admin default save` will move your changes from the save game back to the config directory. LOOK REALLY CLOSELY AT THE COMMAND AND MAKE SURE IT SAYS *SAVE*. LIKE SERIOUSLY STARE AT IT.
-504. Compare your changes to the repo version, make sure you see what you expect. A good tool to compare the files is Beyond Compare from http://www.scootersoftware.com Or you can use Notepad++ and add the Compare plugin.
-505. Copy the quest file into the repo.
-506. Do `git add DefautlQuests.json ` and `git commit`. In Sourcetree, click the Fetch button to refresh your repo. Right-click on DefaultQuests.json and select Add. On the top left, select the Commit button. You should see your file in the top, and the commit message window at the bottom.
+504. Compare your changes to the repo version, make sure you see what you expect. A good tool to compare the files is Beyond Compare from http://www.scootersoftware.com. Or you can use Notepad++ and add the Compare plugin.
+505. Copy the quest directory into the repo. Make sure to delete the directory in the repo first; otherwise, you might end up with mixed files from both before and after your change.
+506. Do `git add DefaultQuests` and `git commit`. In Sourcetree, click the Fetch button to refresh your repo. Right-click on `DefaultQuests` and select Add. On the top left, select the Commit button. You should see your files in the top, and the commit message window at the bottom.
 507. In the commit message, put `#<issue number> <description>`. Check other commits for examples.
 508. Return to your game, do `/bq_admin edit` and continue editing.
 
@@ -96,3 +97,10 @@ https://confluence.atlassian.com/get-started-with-sourcetree
 609. Once the PR is accepted, you can delete your branch. This can also be done when the PR is accepted from a local branch.
 610. When doing new work after the PR is accepted, make sure you checkout master and do a pull to update it. Creating a new branch from the latest master is easiest. You can reuse the branch name you had previously if you switch to it, and right-click on the master commit and choose merge. 
 611. To update your forked repo, you have to setup git to point to two repos. It might be easier to just delete your forked repo and fork again if you need to update. Another option is to do a Pull Request from the source repo into your fork repo.
+
+# Translating the quest book #
+701. Whenever the quest book is saved with `/bq_admin default save`, the saved quest book data will contain `en_US.lang`, which is a template for translating the quest book. By itself, this file does nothing, since it just contains the default English text for the quests.
+702. NOTE: `en_US.lang` contains all quest and quest line text, and will likely be changed by any quest book edits. However, if you do get a merge conflict on this file, dealing with it is actually pretty easy: it gets regenerated every time the quest book is saved, so you can just ignore the conflicts in this file and re-save the quest book, and commit the regenerated copy.
+703. Translators can work off of the translation keys in `en_US.lang` to create a translated lang file.
+704. It is also possible to perform the translation directly in the quest book in-game. Use `/bq_admin default save translated` to export the changes to `saved_quests/translated/en_US.lang`, and then extract the translated entries manually. The `diff` command would probably be helpful here, diffing against the original `en_US.lang`.
+705. Just drop the translated lang file into `config/txloader/load/betterquesting/lang` to apply the translations. In previous versions of BetterQuesting, it was necessary to load a custom version of the quest book data for translations to work, but this is no longer needed.
