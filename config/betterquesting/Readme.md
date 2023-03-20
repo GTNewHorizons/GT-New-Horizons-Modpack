@@ -1,6 +1,6 @@
 # Main Guidelines for Quests Development #
 
-1. Quests should primarily provide useful information to the player. But feel free to develop some lore on top.
+1. Quests should primarily provide useful information to the player and guide them through the pack progression. But feel free to develop some lore on top of that.
 2. Everybody is welcome to contribute to the questbook. But any bigger changes need to be discussed in the quest-dev channel on discord first.
 3. You should only change quests on topics you have expertise on and have actually played around with yourself. The only exception to this are mechanics/items/machines that are brandnew additions, in which case you should talk to the responsible dev or study the PR that added these things. Ideally get that dev to write the quest or at least help you with it.
 
@@ -20,24 +20,24 @@ This is not a Git tutorial. Familiarize yourself a bit with Git before trying to
 https://git-scm.com/docs/gittutorial
 https://try.github.io/
 
-As an alternate to using Git from the command line, you can use GitHub Desktop as a GUI. It makes things very simple and you don't need to remember any commands.
+As an alternate to using Git from the command line, you can use GitHub Desktop as a GUI. It makes things very simple and you don't need to remember any commands. We will focus on that option in the following.
 
 
 # Definitions #
 
-- Repo - The database of your directory. The remote repo is on Github. The local repo is on your disk. They do *not* automatically track each other.
-- Source repo - The original/parent repo, in this case GTNewHorizons/GT-New-Horizons-Modpack
+- Repo - The database of all the files and their history. The remote repo is on Github. The local repo is on your drive. They do *not* automatically track each other.
+- Source/upstream repo - The original/parent/upstream repo, in this case GTNewHorizons/GT-New-Horizons-Modpack
 - Forked repo - Your personal repo, for example chochem/GT-New-Horizons-Modpack
 - Local repo - The copy of a repo on your local PC
 - origin repo - The copy of a repo out on github
-- Commit/Checkin - A bundle of changes that are added to the git repo. Each is assigned a unique SHA tag. Initially commits are stored in your local repo.
-- Branch - A sequential list of changes to the files in the repo. Master is typically the "primary" branch. Other branches can be created using a kinda-directory-tree format.  IE, feature/some_feature, feature/some_feature2, debug/fixing_something, etc. 
+- Commit - A bundle of changes that are added to the repo. Each is assigned a unique SHA tag. Initially commits are stored in your local repo.
+- Branch - A branch represents an independent line of development. Master is typically the "primary" branch. Any new branch is started off a particular state of an old one. This starting point can also come from a branch in the upstream repo (e.g. the up to date master in the upstream repo!). From there the branch is then independent.
 - Fetch - An action to update your local repo with any changes files. This does NOT affect your branch, but will show you any changes such as new commits etc. You can configure it to prune (remove) any "stale" branches.
 - Push - An action to send your commits up to the remote repo. This does not need to be done every commit.
 - Pull - An action to retrieve new commits from the remote repo and put them into your local repo, updating your version of the branch to match the remote repo.
 - Rebase - This takes the changes done in your local branch, and redoes them on top of the selected commit. Do this to include new changes from the original branch in your modified branch.  IE, you are adding quests to feature/WitcheryQuests, and someone pushes a config change (unrelated to quests) to master. Checkout your branch. Right-click on the commit for the master branch, select Rebase, and now your quest changes will be on top of the new config change. Ideally there should be no conflicts. If there is a conflict, flag staff.
-- Merge - This has to be done when two people are editing the same file. Don't ever do this, it's an advanced topic, and really hard to do with quest files.
-- Pull Request (PR) - Once you have completed your changes, push your branch to your forked repo. On github, you can goto your forked repo page and do a Pull Request to send the branch to the source repo owners and ask permission for them to add it to their repo.
+- Merge - This has to be done when two people are editing the same file. Ideally this should be avoided.
+- Pull Request (PR) - Once you have completed your changes, publish your branch to your forked repo. On github, you can goto your forked repo page and do a Pull Request to send the branch to the source repo owners and ask permission for them to add the changes to a branch of their repo, e.g. upstream/master.
 
 
 
@@ -45,7 +45,7 @@ As an alternate to using Git from the command line, you can use GitHub Desktop a
 
 1. Fork the GT-New-Horizons-Modpack repo to your github account. This is not actually needed if Dream has added you as a developer.
 2. Add the repo to your GitHub Desktop by clicking `Code` and then `Open with GitHub Desktop`. When asked, choose `contribute to parent repo`. That way new branches are automatically based on the GTNewHorizons/GT-New-Horizons-Modpack master branch.
-3. Before you being making changes you want to click `fetch origin` to get the latest updates and then start a new branch (`Branch`, then `New Branch`). If you followed 2. that will automatically be based on the GTNewHorizons/GT-New-Horizons-Modpack master branch.
+3. Before you being making changes you want to click `Fetch origin` to get the latest updates and then start a new branch (`Branch`, then `New Branch`). If you followed 2. that will automatically be based on the GTNewHorizons/GT-New-Horizons-Modpack master branch.
 4. Start GTNH. (you need the full game, not a development environment)
 5. Replace the DefaultQuests folder in your config/betterquesting game files with the one from your github folder.
 6. Then do `/bq_admin default load` in the game.
