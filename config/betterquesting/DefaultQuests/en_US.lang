@@ -13739,6 +13739,10 @@ betterquesting.quest.f4eb403e-a4d0-4016-828b-12484e0a6716.desc=Basic pipes can i
 betterquesting.quest.4c165ffc-7b50-4d0f-b272-4ba0d1fb3c90.name=Sink the Storage in
 betterquesting.quest.4c165ffc-7b50-4d0f-b272-4ba0d1fb3c90.desc=A well organized storage system is critical for a logistics system. %n%nWith the ability to use modules through chassis, we can now prepare for storage modules.%n%nLogistics Pipes use ItemSink modules to assign storage spaces.%n%nThis ItemSink modules can be used in 2 ways:%n%n1. Assign the storage of a connected inventory with 9 different kinds of items at most by setting 9 items as filter on the module.%n%n2. Assign a connected inventory as a default route. The default route is a destination for items that has no other valid storage spaces.%n%n§cNote: remember to always check if the default route has additional spaces because items that are stuck in the pipes without a destination will eventually YEET themselves out of the pipes.
 
+# Quest: Filtering by Type
+betterquesting.quest.e6b738e6-23c3-4a6a-8b6e-ebdc8a814311.name=Filtering by Type
+betterquesting.quest.e6b738e6-23c3-4a6a-8b6e-ebdc8a814311.desc=There are situations that there are a large amount of the same type of items, but the quantity of each aren't large enough to get them dedicated storage...%n%nThe Type Filter ItemSink Module can assign an item type to inventory space it is connected to. All items of the same type will be assigned to that inventory space.
+
 
 ### Quests in multiple quest lines ###
 
