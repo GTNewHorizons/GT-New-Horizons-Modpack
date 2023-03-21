@@ -13747,6 +13747,14 @@ betterquesting.quest.1450f251-cb07-4e98-8583-bfd88ebf2f18.desc=Now that storage 
 betterquesting.quest.fd789290-5849-43cf-968e-aba30b106d97.name=Preparin' for Requestin'
 betterquesting.quest.fd789290-5849-43cf-968e-aba30b106d97.desc=Logistics Pipes have automation capability in place, but first, it needs to know what inventory that items inside can be used for requesting.%n%nThe Provider module does this job nicely. When you open the interface of the module, there is a 3*3 grid. you can pick what items that the module can provide, or you can leave it empty as "everything in the inventory can be provided for requesting"
 
+# Quest: Time to Request
+betterquesting.quest.547ee71a-d916-469f-ab88-ad48ddcab9cb.name=Time to Request
+betterquesting.quest.547ee71a-d916-469f-ab88-ad48ddcab9cb.desc=Your system now has the capability of providing items for requests, time to request items.%n%nThis Request Logistics Pipe can send out requests that, if the network has items that can fulfill the requests, send the item to the pipe.%n%nAttach an inventory to it so that when items reach the request logistics pipe, they are stored in an inventory and not getting yeeted out.
+
+# Quest: Requestin' a Recipe
+betterquesting.quest.1583a6f1-bd4f-4532-acc9-58c576906a8e.name=Requestin' a Recipe
+betterquesting.quest.1583a6f1-bd4f-4532-acc9-58c576906a8e.desc=Most of the time you are requesting because you need to craft something. So here is the Logistics Requesting Table.%n%nThis thing comes with a 3*3 crafting grid that you can load a NEI recipe and request the recipe. There is also an inventory buffer that you can use to store items within.
+
 # Quest: Sink the Storage in
 betterquesting.quest.4c165ffc-7b50-4d0f-b272-4ba0d1fb3c90.name=Sink the Storage in
 betterquesting.quest.4c165ffc-7b50-4d0f-b272-4ba0d1fb3c90.desc=A well organized storage system is critical for a logistics system. %n%nWith the ability to use modules through chassis, we can now prepare for storage modules.%n%nLogistics Pipes use ItemSink modules to assign storage spaces.%n%nThis ItemSink modules can be used in 2 ways:%n%n1. Assign the storage of a connected inventory with 9 different kinds of items at most by setting 9 items as filter on the module.%n%n2. Assign a connected inventory as a default route. The default route is a destination for items that has no other valid storage spaces.%n%n§cNote: remember to always check if the default route has additional spaces because items that are stuck in the pipes without a destination will eventually YEET themselves out of the pipes.
