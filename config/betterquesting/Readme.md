@@ -69,7 +69,7 @@ https://try.github.io/
 2. Click the tab you want to put the quest, then click Designer.
 3. Click New Quest, and place it in the quest graph.
 4. Click Select Icon and choose an appropriate icon for the quest.
-5. To define requirements, select Edit, then Requirements, then search for the requirement quest on the right hand side with the quest ID or the title. Select + to add the quest to the requirements. The eye symbol lets you select if the connection is always shown/always hidden/only shown with hovering over or shift. Ideally you want to show dependencies but avoid always shown if it leads to excessive line crossing.
+5. To define requirements, select Edit, then Requirements, then search for the requirement quest on the right hand side with the quest ID or the title. Select + to add the quest to the requirements. The eye symbol lets you select if the connection is always shown/always hidden/only shown with hovering over or shift. Ideally you want to show dependencies but avoid always shown if it leads to excessive line crossing. You can right-click a quest and click "Copy Quest ID" to copy it to your clipboard.
 6. Select Open and open the quest for editing.
 7. Select Edit, then you will see the Quest Name and Description. When editing the quest Description text hit Aa to get a large window. Hit Enter two times once you have a few lines of data. This breaks up the text and makes it easier to read. Keep in mind that quest names in the GT Tier tabs are color coded.
 8. Use RED and potentially add "NOTE:" before important information.
@@ -83,9 +83,9 @@ https://try.github.io/
 
 # Moving Quests
 
-1. If you need to move a quest to a new tab, get the quest ID.
+1. If you need to move a quest to a new tab, get the quest ID or name. You can right-click a quest and click "Copy Quest ID" to copy it to your clipboard.
 2. Click the destination tab, and select the Add/Remove quests button.
-3. Search for the quest id on the right side, click + to add it to the quests for that tab.
+3. Search for the quest id or name on the right side, click + to add it to the quests for that tab.
 4. Go back to the original tab and select the Add/Remove quests button.
 5. Find the quest in the left side, and hit the - to remove it.
 6. Quests can be in more than one tab. Important information quests should get added to the Tips and Tricks tab. Just dont remove it from the original location in that case.
