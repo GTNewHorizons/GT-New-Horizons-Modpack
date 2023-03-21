@@ -13715,6 +13715,15 @@ betterquesting.quest.00000000-0000-0000-0000-00000000069a.name=IV > LuV Lootbag 
 betterquesting.quest.00000000-0000-0000-0000-00000000069a.desc=Trade three IV lootbags to get a better one: LuV.
 
 
+## Quest Line: Handle Logistics with the Pipes
+betterquesting.questline.9990412c-63c3-4101-8355-f713ff087d01.name=Handle Logistics with the Pipes
+betterquesting.questline.9990412c-63c3-4101-8355-f713ff087d01.desc=No access to AE2 yet? Want to see items zooming around while crafting? Logistics Pipes is for You.
+
+# Quest: The Backbone of the System
+betterquesting.quest.220faf6f-1f7e-4766-a50d-50326cf1b32c.name=The Backbone of the System
+betterquesting.quest.220faf6f-1f7e-4766-a50d-50326cf1b32c.desc=The Unrouted Transport Pipe is the first pipe you will ever need in logistics pipes.%n%nIt only connects to other pipes and it doesn't have any item routing capabilities, but you will need a ton of it.%n%n§cWarning: Do NOT form junctions with the unrouted transport pipes. items going into an unrouted transport pipe junction will come out of a random exit of the junction.
+
+
 ### Quests in multiple quest lines ###
 
 # Quest: §1§lMain Quests and Secondary Quests
