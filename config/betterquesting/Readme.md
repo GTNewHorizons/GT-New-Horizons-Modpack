@@ -47,12 +47,12 @@ https://try.github.io/
 2. Add the repo to your GitHub Desktop by clicking `Code` and then `Open with GitHub Desktop`. When asked, choose `contribute to parent repo`. That way new branches are automatically based on the GTNewHorizons/GT-New-Horizons-Modpack master branch.
 3. Before you being making changes you want to click `Fetch origin` to get the latest updates and then start a new branch (`Branch`, then `New Branch`). If you followed 2. that will automatically be based on the GTNewHorizons/GT-New-Horizons-Modpack master branch.
 4. Start GTNH. (you need the full game, not a development environment)
-5. Replace the DefaultQuests folder in your config/betterquesting game files with the one from your github folder.
+5. Replace the DefaultQuests folder in your config/betterquesting game files with the one from your github folder. That means to delete the existing folder and then copy in the one from github, do not merge them!
 6. Then do `/bq_admin default load` in the game.
 7. Double check your questbook is indeed up to date with the latest changes on GTNewHorizons/GT-New-Horizons-Modpack.
 8. Use `/bq_admin edit` to unlock edit mode. Now you can actually start editing quests!
 9. While doing changes, make regular commits to your branch. To do so start by using `/bq_admin default save`. LOOK REALLY CLOSELY AT THE COMMAND AND MAKE SURE IT SAYS *SAVE*. LIKE SERIOUSLY STARE AT IT.
-10. Then replace the github DefaultQuests folder with the one from your game.
+10. Then replace the github DefaultQuests folder with the one from your game. That means to delete the existing folder and then copy in the one from your game, do not merge them!
 11. Then write a mini-summary and press `commit` in GitHub Desktop.
 12. Ideally do one quest per commit. Doing regular commits makes it easy to review your changes or to revert specific things! It also backs up your work.
 13. Once finished, compare the resulting changes and make sure everything is as expected.
