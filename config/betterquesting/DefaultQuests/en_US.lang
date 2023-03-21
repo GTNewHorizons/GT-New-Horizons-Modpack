@@ -13735,6 +13735,10 @@ betterquesting.quest.7524a60e-eb2f-4954-8a8b-8d539f0e7574.desc=Every system take
 betterquesting.quest.f4eb403e-a4d0-4016-828b-12484e0a6716.name=Chassis
 betterquesting.quest.f4eb403e-a4d0-4016-828b-12484e0a6716.desc=Basic pipes can interact with adjacent blocks, but it also doesn't do much on their own. %n%nLogistics Pipes has modules that provide the pipes with more complex functions, but the basic logistics pipes can't make use of them.%n%nTo make use of the modules, there are special pipes called Chassis. %n%nThere are multiple tiers of chassis in Logistics Pipes. For now, a Mk 1, which can hold 1 module, will work.
 
+# Quest: Sink the Storage in
+betterquesting.quest.4c165ffc-7b50-4d0f-b272-4ba0d1fb3c90.name=Sink the Storage in
+betterquesting.quest.4c165ffc-7b50-4d0f-b272-4ba0d1fb3c90.desc=A well organized storage system is critical for a logistics system. %n%nWith the ability to use modules through chassis, we can now prepare for storage modules.%n%nLogistics Pipes use ItemSink modules to assign storage spaces.%n%nThis ItemSink modules can be used in 2 ways:%n%n1. Assign the storage of a connected inventory with 9 different kinds of items at most by setting 9 items as filter on the module.%n%n2. Assign a connected inventory as a default route. The default route is a destination for items that has no other valid storage spaces.%n%n§cNote: remember to always check if the default route has additional spaces because items that are stuck in the pipes without a destination will eventually YEET themselves out of the pipes.
+
 
 ### Quests in multiple quest lines ###
 
