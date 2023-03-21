@@ -13723,6 +13723,10 @@ betterquesting.questline.9990412c-63c3-4101-8355-f713ff087d01.desc=No access to 
 betterquesting.quest.220faf6f-1f7e-4766-a50d-50326cf1b32c.name=The Backbone of the System
 betterquesting.quest.220faf6f-1f7e-4766-a50d-50326cf1b32c.desc=The Unrouted Transport Pipe is the first pipe you will ever need in logistics pipes.%n%nIt only connects to other pipes and it doesn't have any item routing capabilities, but you will need a ton of it.%n%n§cWarning: Do NOT form junctions with the unrouted transport pipes. items going into an unrouted transport pipe junction will come out of a random exit of the junction.
 
+# Quest: The Basic Pipe
+betterquesting.quest.1e978bd7-eccc-4672-a963-16262c7a876b.name=The Basic Pipe
+betterquesting.quest.1e978bd7-eccc-4672-a963-16262c7a876b.desc=The unrouted transport pipes isn't useful by itself.%n%nTime to use some of the unrouted transport pipes to craft some Basic Logistics Pipes.%n%nThe basic logistics pipe can connect to adjacent inventories and blocks. It also has item routing capabilities, so you can use it to form junctions.%n%nBut it also costs some diamonds...
+
 
 ### Quests in multiple quest lines ###
 
