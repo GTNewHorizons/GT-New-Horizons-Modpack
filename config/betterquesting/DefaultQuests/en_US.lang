@@ -13743,6 +13743,10 @@ betterquesting.quest.4c165ffc-7b50-4d0f-b272-4ba0d1fb3c90.desc=A well organized 
 betterquesting.quest.6d00a7bb-1ad3-4c17-b8b9-bcad64f7e5fa.name=It gets polymorphic
 betterquesting.quest.6d00a7bb-1ad3-4c17-b8b9-bcad64f7e5fa.desc=Sometimes people has a storage system that contains a lot of kinds of items, or they have a large quantity of the same item.%n%nHere comes the Polymorphic ItemSink. It assigns inventory space to the kind of items already in the inventory.%n%nVery handy especially when you have a storage controller connecting to a lot of drawers.
 
+# Quest: More ItemSinks in NEI
+betterquesting.quest.1c0d6fbb-9ed7-406f-8d6b-bac03c41520c.name=More ItemSinks in NEI
+betterquesting.quest.1c0d6fbb-9ed7-406f-8d6b-bac03c41520c.desc=There are more kinds of ItemSink modules in the NEI. Feel free to look through it to find the ItemSink module that suits your needs.%n%nHow they sort items and assign inventory spaces are all told in the item name
+
 # Quest: Filtering by Type
 betterquesting.quest.e6b738e6-23c3-4a6a-8b6e-ebdc8a814311.name=Filtering by Type
 betterquesting.quest.e6b738e6-23c3-4a6a-8b6e-ebdc8a814311.desc=There are situations that there are a large amount of the same type of items, but the quantity of each aren't large enough to get them dedicated storage...%n%nThe Type Filter ItemSink Module can assign an item type to inventory space it is connected to. All items of the same type will be assigned to that inventory space.
