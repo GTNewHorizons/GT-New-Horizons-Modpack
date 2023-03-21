@@ -10,17 +10,17 @@
 1. Secret quests should only see very limited use for surprise bonusses or riddles.
 2. Crafting quests at the start of the game will stay (this has been discussed on several occasions with Dreammaster). But crafting quests should not be used elsewhere.
 3. Late game quests should ideally not have mandatory tasks for fluid cells. That is not how players craft things at that stage. There can be exceptions.
-4. Most quests should only be in one quest line. However, there are important exceptions. Specifically, the Tips and Tricks quest line and transistion quests that lead you from one tab to another. There can be other cases where it makes sense.
+4. Most quests should only be in one quest line. However, there are important exceptions. Specifically, the Tips and Tricks quest line and transition quests that lead you from one tab to another. There can be other cases where it makes sense.
 5. Not every quest ticket on github is actually correct. Check things yourself before changing a quest.
 
 
 # Git Basics
 
-This is not a Git tutorial. Familiarize yourself a bit with Git before trying to do quest updates.
+- This is not a Git tutorial. Familiarize yourself a bit with Git before trying to do quest updates.
 https://git-scm.com/docs/gittutorial
 https://try.github.io/
 
-As an alternate to using Git from the command line, you can use GitHub Desktop as a GUI. It makes things very simple and you don't need to remember any commands. We will focus on that option in the following.
+- As an alternate to using Git from the command line, you can use GitHub Desktop as a GUI. It makes things very simple and you don't need to remember any commands. We will focus on that option in the following.
 
 
 # Definitions
