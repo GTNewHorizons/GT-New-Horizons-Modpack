@@ -1,11 +1,11 @@
-# Main Guidelines for Quests Development #
+# Main Guidelines for Quests Development
 
 1. Quests should primarily provide useful information to the player and guide them through the pack progression. But feel free to develop some lore on top of that.
 2. Everybody is welcome to contribute to the questbook. But any bigger changes need to be discussed in the quest-dev channel on discord first.
 3. You should only change quests on topics you have expertise on and have actually played around with yourself. The only exception to this are mechanics/items/machines that are brandnew additions, in which case you should talk to the responsible dev or study the PR that added these things. Ideally get that dev to write the quest or at least help you with it.
 
 
-# Some more Guidelines for Quests Development#
+# Some more Guidelines for Quests Development
 
 1. Secret quests should only see very limited use for surprise bonusses or riddles.
 2. Crafting quests at the start of the game will stay (this has been discussed on several occasions with Dreammaster). But crafting quests should not be used elsewhere.
@@ -14,7 +14,7 @@
 5. Not every quest ticket on github is actually correct. Check things yourself before changing a quest.
 
 
-# Git Basics #
+# Git Basics
 
 This is not a Git tutorial. Familiarize yourself a bit with Git before trying to do quest updates.
 https://git-scm.com/docs/gittutorial
@@ -23,7 +23,7 @@ https://try.github.io/
 As an alternate to using Git from the command line, you can use GitHub Desktop as a GUI. It makes things very simple and you don't need to remember any commands. We will focus on that option in the following.
 
 
-# Definitions #
+# Definitions
 
 - Repo - The database of all the files and their history. The remote repo is on Github. The local repo is on your drive. They do *not* automatically track each other.
 - Source/upstream repo - The original/parent/upstream repo, in this case GTNewHorizons/GT-New-Horizons-Modpack
@@ -41,7 +41,7 @@ As an alternate to using Git from the command line, you can use GitHub Desktop a
 
 
 
-# Doing quests for GTNH with GitHub Desktop#
+# Doing quests for GTNH with GitHub Desktop
 
 1. Fork the GT-New-Horizons-Modpack repo to your github account. This is not actually needed if Dream has added you as a developer.
 2. Add the repo to your GitHub Desktop by clicking `Code` and then `Open with GitHub Desktop`. When asked, choose `contribute to parent repo`. That way new branches are automatically based on the GTNewHorizons/GT-New-Horizons-Modpack master branch.
@@ -63,7 +63,7 @@ As an alternate to using Git from the command line, you can use GitHub Desktop a
 18. After the PR is merged, you can delete your branch.
 
 
-# New Quests #
+# New Quests
 
 1. Open the quest book and click Edit at the bottom.
 2. Click the tab you want to put the quest, then click Designer.
@@ -81,7 +81,7 @@ As an alternate to using Git from the command line, you can use GitHub Desktop a
 13. If you click edit, advanced, Object, Object, you get more advanced properties about the quest. For example you can change the cooldown if it should have one or toggle if the quest is a main quest.
 
 
-# Moving Quests #
+# Moving Quests
 
 1. If you need to move a quest to a new tab, get the quest ID.
 2. Click the destination tab, and select the Add/Remove quests button.
@@ -92,12 +92,12 @@ As an alternate to using Git from the command line, you can use GitHub Desktop a
 7. However, for the most part quest should be in just one tab. This is first, to avoid clutter. We already have many quest even without having all twice! And second, certain things just don't work as well if a quest is in multiple tabs, e.g. dependency lines.
 
 
-# Deleting Quests# 
+# Deleting Quests 
 
 1. Quest IDs are now randomly-generated UUIDs, so we are free to delete quests where appropriate.
 
 
-# Testing Quests #
+# Testing Quests
 
 1. To test quests you need to use `/bq_admin edit` to leave editing mode.
 2. Make sure to craft items and not just take them from NEI. Sometimes the ones in NEI are not quite correct (metadata, NBT, etc.).
@@ -105,7 +105,7 @@ As an alternate to using Git from the command line, you can use GitHub Desktop a
 4. Do a `/bq_admin reset all` to reset your quests back.
 
 
-# Translating the Questbook #
+# Translating the Questbook
 
 1. Whenever the quest book is saved with `/bq_admin default save`, the saved quest book data will contain `en_US.lang`, which is a template for translating the quest book. By itself, this file does nothing, since it just contains the default English text for the quests.
 2. NOTE: `en_US.lang` contains all quest and quest line text, and will likely be changed by any quest book edits. However, if you do get a merge conflict on this file, dealing with it is actually pretty easy: it gets regenerated every time the quest book is saved, so you can just ignore the conflicts in this file and re-save the quest book, and commit the regenerated copy.
