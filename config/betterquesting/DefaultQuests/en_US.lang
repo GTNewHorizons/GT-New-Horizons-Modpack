@@ -13731,6 +13731,10 @@ betterquesting.quest.1e978bd7-eccc-4672-a963-16262c7a876b.desc=The unrouted tran
 betterquesting.quest.7524a60e-eb2f-4954-8a8b-8d539f0e7574.name=Powering Logistics
 betterquesting.quest.7524a60e-eb2f-4954-8a8b-8d539f0e7574.desc=Every system takes power. Logistics Pipes network is no exception.%n%nThe Logistics Pipes system runs on an energy called LP, but there are no generators that generates LP.%n%nInstead, Logistics Pipes has a power adapter called Logistics Power Junction that converts EU into LP. Use a basic logistics pipe to connect the power junction to the whole network%n%nThe power junction can receive power from all 6 sides while a basic logistics pipe can only connect to the sides on the 4 cardinal directions. 
 
+# Quest: Chassis
+betterquesting.quest.f4eb403e-a4d0-4016-828b-12484e0a6716.name=Chassis
+betterquesting.quest.f4eb403e-a4d0-4016-828b-12484e0a6716.desc=Basic pipes can interact with adjacent blocks, but it also doesn't do much on their own. %n%nLogistics Pipes has modules that provide the pipes with more complex functions, but the basic logistics pipes can't make use of them.%n%nTo make use of the modules, there are special pipes called Chassis. %n%nThere are multiple tiers of chassis in Logistics Pipes. For now, a Mk 1, which can hold 1 module, will work.
+
 
 ### Quests in multiple quest lines ###
 
