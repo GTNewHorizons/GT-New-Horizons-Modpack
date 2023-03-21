@@ -57,9 +57,9 @@
       "index:3": 0,
       "rewards:9": {
         "0:10": {
-          "id:8": "LogisticsPipes:item.PipeItemsBasicTransport",
-          "Count:3": 32,
-          "Damage:2": 0,
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 4,
           "OreDict:8": ""
         },
         "1:10": {
