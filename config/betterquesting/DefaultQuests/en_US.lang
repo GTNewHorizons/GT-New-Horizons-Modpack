@@ -13727,6 +13727,10 @@ betterquesting.quest.220faf6f-1f7e-4766-a50d-50326cf1b32c.desc=The Unrouted Tran
 betterquesting.quest.1e978bd7-eccc-4672-a963-16262c7a876b.name=The Basic Pipe
 betterquesting.quest.1e978bd7-eccc-4672-a963-16262c7a876b.desc=The unrouted transport pipes isn't useful by itself.%n%nTime to use some of the unrouted transport pipes to craft some Basic Logistics Pipes.%n%nThe basic logistics pipe can connect to adjacent inventories and blocks. It also has item routing capabilities, so you can use it to form junctions.%n%nBut it also costs some diamonds...
 
+# Quest: Powering Logistics
+betterquesting.quest.7524a60e-eb2f-4954-8a8b-8d539f0e7574.name=Powering Logistics
+betterquesting.quest.7524a60e-eb2f-4954-8a8b-8d539f0e7574.desc=Every system takes power. Logistics Pipes network is no exception.%n%nThe Logistics Pipes system runs on an energy called LP, but there are no generators that generates LP.%n%nInstead, Logistics Pipes has a power adapter called Logistics Power Junction that converts EU into LP. Use a basic logistics pipe to connect the power junction to the whole network%n%nThe power junction can receive power from all 6 sides while a basic logistics pipe can only connect to the sides on the 4 cardinal directions. 
+
 
 ### Quests in multiple quest lines ###
 
