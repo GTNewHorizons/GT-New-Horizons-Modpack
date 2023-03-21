@@ -7,7 +7,7 @@
 
 # Some more Guidelines for Quests Development
 
-1. Secret quests should only see very limited use for surprise bonusses or riddles.
+1. Secret quests should only see very limited use for surprise bonuses or riddles.
 2. Crafting quests at the start of the game will stay (this has been discussed on several occasions with Dreammaster). But crafting quests should not be used elsewhere.
 3. Late game quests should ideally not have mandatory tasks for fluid cells. That is not how players craft things at that stage. There can be exceptions.
 4. Most quests should only be in one quest line. However, there are important exceptions. Specifically, the Tips and Tricks quest line and transition quests that lead you from one tab to another. There can be other cases where it makes sense.
