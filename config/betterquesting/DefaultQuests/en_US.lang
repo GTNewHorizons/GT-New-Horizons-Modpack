@@ -13731,6 +13731,10 @@ betterquesting.quest.1e978bd7-eccc-4672-a963-16262c7a876b.desc=The unrouted tran
 betterquesting.quest.7524a60e-eb2f-4954-8a8b-8d539f0e7574.name=Powering Logistics
 betterquesting.quest.7524a60e-eb2f-4954-8a8b-8d539f0e7574.desc=Every system takes power. Logistics Pipes network is no exception.%n%nThe Logistics Pipes system runs on an energy called LP, but there are no generators that generates LP.%n%nInstead, Logistics Pipes has a power adapter called Logistics Power Junction that converts EU into LP. Use a basic logistics pipe to connect the power junction to the whole network%n%nThe power junction can receive power from all 6 sides while a basic logistics pipe can only connect to the sides on the 4 cardinal directions. 
 
+# Quest: Troubleshooting...
+betterquesting.quest.11f2674c-cc6e-4cc2-9ce5-586f34ec6b61.name=Troubleshooting...
+betterquesting.quest.11f2674c-cc6e-4cc2-9ce5-586f34ec6b61.desc=If you find your pipe has thick red corners, then it means something is wrong. It can either be the network is out of power or you formed a junction with an unrouted transport pipe.%n%nWhen the system gets more complicated. It will be more likely to go wrong. Have fun troubleshooting :)
+
 # Quest: Chassis
 betterquesting.quest.f4eb403e-a4d0-4016-828b-12484e0a6716.name=Chassis
 betterquesting.quest.f4eb403e-a4d0-4016-828b-12484e0a6716.desc=Basic pipes can interact with adjacent blocks, but it also doesn't do much on their own. %n%nLogistics Pipes has modules that provide the pipes with more complex functions, but the basic logistics pipes can't make use of them.%n%nTo make use of the modules, there are special pipes called Chassis. %n%nThere are multiple tiers of chassis in Logistics Pipes. For now, a Mk 1, which can hold 1 module, will work.
@@ -13746,6 +13750,10 @@ betterquesting.quest.6d00a7bb-1ad3-4c17-b8b9-bcad64f7e5fa.desc=Sometimes people 
 # Quest: More ItemSinks in NEI
 betterquesting.quest.1c0d6fbb-9ed7-406f-8d6b-bac03c41520c.name=More ItemSinks in NEI
 betterquesting.quest.1c0d6fbb-9ed7-406f-8d6b-bac03c41520c.desc=There are more kinds of ItemSink modules in the NEI. Feel free to look through it to find the ItemSink module that suits your needs.%n%nHow they sort items and assign inventory spaces are all told in the item name
+
+# Quest: Sorting Incoming
+betterquesting.quest.1640ee6c-c61a-4391-8a1a-fbdf1d9ef7cb.name=Sorting Incoming
+betterquesting.quest.1640ee6c-c61a-4391-8a1a-fbdf1d9ef7cb.desc=Now that storage spaces are organized and assigned, time to let the network sort the items for us.%n%nThere are 2 ways to insert items into the system%n%n1. Use an extraction module to extract items into the system. It is slow, but everything that has a valid destination will be sent into the network.%n%n2. Use a QuickSort module. It extracts a whole stack of items that has a valid destination. This module will ignore items that has no destinations other than the default route tho...%n%nIt is your choice. Pick what you like
 
 # Quest: Filtering by Type
 betterquesting.quest.e6b738e6-23c3-4a6a-8b6e-ebdc8a814311.name=Filtering by Type
