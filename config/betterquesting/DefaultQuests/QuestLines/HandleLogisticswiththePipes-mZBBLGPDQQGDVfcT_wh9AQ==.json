@@ -1,0 +1,142 @@
+{
+  "quests:9": {
+    "0:10": {
+      "questIDHigh:4": -1821924963154441622,
+      "sizeX:3": 24,
+      "x:3": 168,
+      "y:3": -12,
+      "questIDLow:4": -8399516922550336751,
+      "sizeY:3": 24
+    },
+    "1:10": {
+      "questIDHigh:4": -798473871130869738,
+      "sizeX:3": 24,
+      "x:3": 72,
+      "y:3": -36,
+      "questIDLow:4": -9040111725259888874,
+      "sizeY:3": 24
+    },
+    "2:10": {
+      "questIDHigh:4": -182234636254362673,
+      "sizeX:3": 24,
+      "x:3": 120,
+      "y:3": 60,
+      "questIDLow:4": -7597946804573803113,
+      "sizeY:3": 24
+    },
+    "3:10": {
+      "questIDHigh:4": 1293209622553709762,
+      "sizeX:3": 24,
+      "x:3": 24,
+      "y:3": -84,
+      "questIDLow:4": -7141204399473530015,
+      "sizeY:3": 24
+    },
+    "4:10": {
+      "questIDHigh:4": 1463936312007937688,
+      "sizeX:3": 24,
+      "x:3": 72,
+      "y:3": 60,
+      "questIDLow:4": -8825999907887304936,
+      "sizeY:3": 24
+    },
+    "5:10": {
+      "questIDHigh:4": 1550266253939000626,
+      "sizeX:3": 24,
+      "x:3": 216,
+      "y:3": 60,
+      "questIDLow:4": -5996163823746127218,
+      "sizeY:3": 24
+    },
+    "6:10": {
+      "questIDHigh:4": 1603543618291385233,
+      "sizeX:3": 24,
+      "x:3": 264,
+      "y:3": -36,
+      "questIDLow:4": -8495200811387783221,
+      "sizeY:3": 24
+    },
+    "7:10": {
+      "questIDHigh:4": 2021394659373695087,
+      "sizeX:3": 24,
+      "x:3": 216,
+      "y:3": -36,
+      "questIDLow:4": -8256300157046271476,
+      "sizeY:3": 24
+    },
+    "8:10": {
+      "questIDHigh:4": 2204384302128186994,
+      "sizeX:3": 24,
+      "x:3": -24,
+      "y:3": -36,
+      "questIDLow:4": -6241120305394579605,
+      "sizeY:3": 24
+    },
+    "9:10": {
+      "questIDHigh:4": 2454373213744809830,
+      "sizeX:3": 24,
+      "x:3": -72,
+      "y:3": -36,
+      "questIDLow:4": -6553493705247837396,
+      "sizeY:3": 24
+    },
+    "10:10": {
+      "questIDHigh:4": 3676135536569959135,
+      "sizeX:3": 24,
+      "x:3": 168,
+      "y:3": 108,
+      "questIDLow:4": -8395721167357407219,
+      "sizeY:3": 24
+    },
+    "11:10": {
+      "questIDHigh:4": 5482675134375415055,
+      "sizeX:3": 24,
+      "x:3": 120,
+      "y:3": -36,
+      "questIDLow:4": -5588321033523610480,
+      "sizeY:3": 24
+    },
+    "12:10": {
+      "questIDHigh:4": 6088557848748770975,
+      "sizeX:3": 24,
+      "x:3": 168,
+      "y:3": 60,
+      "questIDLow:4": -6086424367920924213,
+      "sizeY:3": 24
+    },
+    "13:10": {
+      "questIDHigh:4": 7854462172184923159,
+      "sizeX:3": 24,
+      "x:3": 168,
+      "y:3": -60,
+      "questIDLow:4": -5135866447130008070,
+      "sizeY:3": 24
+    },
+    "14:10": {
+      "questIDHigh:4": 8441054184604649812,
+      "sizeX:3": 24,
+      "x:3": 24,
+      "y:3": -36,
+      "questIDLow:4": -8463515684422388364,
+      "sizeY:3": 24
+    }
+  },
+  "questLineIDLow:4": -8983002216465400575,
+  "questLineIDHigh:4": -7381328130352135935,
+  "properties:10": {
+    "betterquesting:10": {
+      "visibility:8": "NORMAL",
+      "name:8": "Handle Logistics with the Pipes",
+      "icon:10": {
+        "id:8": "LogisticsPipes:item.PipeBlockRequestTable",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "bg_image:8": "",
+      "bg_size:3": 256,
+      "desc:8": "No access to AE2 yet? Want to see items zooming around while crafting? Logistics Pipes is for You."
+    }
+  },
+  "order:3": 42
+}
