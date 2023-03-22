@@ -4496,7 +4496,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBw==.desc=Weed-EX is used to prevent th
 
 # Quest: Robotic Crop Pickers
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHRg==.name=Robotic Crop Pickers
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHRg==.desc=The Crop Harvester will pick your crops in an 11x11x3 range for you. Since the multifarm is now HV, you'll want to consider making these to automate your crops.%n%nYou'll need a cropnalyzer in it if you want it to harvest at the optimal time. Otherwise it will attept to harvest them whenever it's possible. For example,  you want it for stickreed, or it will harvest at stage 2 (harvesting sugar canes) instead of 4 (harvesting sticky resin).
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHRg==.desc=The Crop Harvester will pick your crops in an 11x11x3 range for you. Since the multifarm is now HV, you'll want to consider making these to automate your crops.%n%nYou'll need a cropnalyzer in it if you want it to harvest at the optimal time. Otherwise it will attempt to harvest them whenever it's possible. For example,  you want it for stickreed, or it will harvest at stage 2 (harvesting sugar canes) instead of 4 (harvesting sticky resin).
 
 # Quest: Reed and Resin
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGQA==.name=Reed and Resin
