@@ -1,3 +1,8 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 
+# BetterQuesting saves quest book data with Unix line endings.
+# Enforce this to prevent spurious "changed" files on Windows.
+*.json text eol=lf
+*.lang text eol=lf
+
