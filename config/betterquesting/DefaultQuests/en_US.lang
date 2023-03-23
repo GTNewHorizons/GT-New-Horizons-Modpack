@@ -11086,21 +11086,17 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABDw==.desc=Forbidden? Pah. I don't care 
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMiA==.name=Transmutative Rod
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMiA==.desc=Combining Salis Mundis and some clusters, I can get upgrade a greatwood rod to a transmutative rod. Now that looks like a particularly interesting option!
 
-# Quest: More Energetic Screws
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABCg==.name=More Energetic Screws
+# Quest: More Energetic Screws to Finish the New Wand
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABCg==.name=More Energetic Screws to Finish the New Wand
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABCg==.desc=Those stainless steel screws don't work on these rods. Due to the huge amounts of vis those wands can carry, the screws somehow "melt" away. I need a material that can handle these energies. I should try energetic alloy next.%n%n§3If you are struggling to make the next wand in this step or one of the next, you should try to get more discount on your gear.%n%nAlso look at the various caps, the better ones are more expensive to craft but give discounts or other benefits. In many situations you might need to start with cheap ones and only make the better caps later.%n%nYou can also improve your wand with augmentations.
 
 # Quest: A Silverwood Wand at Last
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABBw==.name=A Silverwood Wand at Last
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABBw==.desc=I tried to combine the lich bones I had with a silverwood rod. The result: A pile of ashes. It crumbled to dust within seconds. I need a better conductor. The hydra in the Twilight Forest has the ability to regrow an entire head! Her blood must contain a large amount of magic. I guess I need a bit of that to finally complete my silverwood wand.
 
-# Quest: An Even Better Conductor?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABBg==.name=An Even Better Conductor?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABBg==.desc=More... I want MOOORE! There must be something even stronger than the hydra. Something older, more ancient.
-
 # Quest: An Awesome Magic Conductor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABBQ==.name=An Awesome Magic Conductor
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABBQ==.desc=These tears, WOW! I've never felt something so strong. Could it be? Could I make an even more powerful wand with these?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABBQ==.desc=More... I want MOOORE! There must be something even stronger than the hydra. Something older, more ancient.%n%nThese tears, WOW! I've never felt something so strong. Could it be? Could I make an even more powerful wand with these?
 
 # Quest: Reactor Material
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABEg==.name=Reactor Material
@@ -11113,18 +11109,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABEQ==.desc=This blood seems pretty commo
 # Quest: Oriharukon Screws
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFeg==.name=Oriharukon Screws
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFeg==.desc=Enderium screws are nice, but they seem to break if too much vis channels through them. Get some Oriharukon screws.
-
-# Quest: A Magical Box
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH5A==.name=A Magical Box
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH5A==.desc=This magical box is amazing. No matter how many are created, they all seem to connect to the same dimension. I can store items in one location, and pull them out somewhere else!%n%nI can use dyes on the top of the box to assign its location, and any box with the same colors will share the same space. Using a diamond on the box locks it to me, and me alone.%n%nShift-rightclicking will remove the diamond and the chest will rejoin the public network.
-
-# Quest: That Chest is Too Big to Carry Around
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH5g==.name=That Chest is Too Big to Carry Around
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH5g==.desc=Instead of chest you have to keep placing and breaking, how about a nice convenient pouch you can use? You'll have to synchronize it with the chest you want to link with. To set it to a new chest, sneak-click with the pouch on a new chest.
-
-# Quest: A Magical Tank
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH5Q==.name=A Magical Tank
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH5Q==.desc=This tank always seems to connect to the same dimensional space. I can push fluids into the tank in one dimension, and retrieve them in a totally different dimension!%n%nI have discovered a way to assign a location to each tank using dyes applied to the top. Using a diamond makes the tank private, attuned to the user's mind, and will not share fluids with any other player's tanks.%n%nShift-rightclicking recovers the diamond and makes the tank part of the public tank network again.%n%nThe dial on front controls the input/output of the tank. When blue is up, the tank accepts fluids. When orange is up, the tank will eject fluids.%n%n§3If you get FPS problems from large numbers of them, try the setting in the config to turn off the fancy render at the bottom.
 
 # Quest: Enchanting Like a Pro
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABMA==.name=Enchanting Like a Pro
@@ -11145,6 +11129,18 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADdw==.desc=Join the core with two wand c
 # Quest: Magic "Staffter"
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEpw==.name=Magic "Staffter"
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEpw==.desc=It is also possible to create a bizarre hybrid of staff and scepter (sometimes called a "staffter"), by using a staff core instead of a wand core in the scepter recipe. The resulting device can neither hold a focus nor be placed in a crafting table, but it can still be used to activate constructs, or as a "vis battery" for Repair-enchanted equipment or Runic shielding.
+
+# Quest: A Magical Box
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH5A==.name=A Magical Box
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH5A==.desc=This magical box is amazing. No matter how many are created, they all seem to connect to the same dimension. I can store items in one location, and pull them out somewhere else!%n%nI can use dyes on the top of the box to assign its location, and any box with the same colors will share the same space. Using a diamond on the box locks it to me, and me alone.%n%nShift-rightclicking will remove the diamond and the chest will rejoin the public network.
+
+# Quest: That Chest is Too Big to Carry Around
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH5g==.name=That Chest is Too Big to Carry Around
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH5g==.desc=Instead of chest you have to keep placing and breaking, how about a nice convenient pouch you can use? You'll have to synchronize it with the chest you want to link with. To set it to a new chest, sneak-click with the pouch on a new chest.
+
+# Quest: A Magical Tank
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH5Q==.name=A Magical Tank
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH5Q==.desc=This tank always seems to connect to the same dimensional space. I can push fluids into the tank in one dimension, and retrieve them in a totally different dimension!%n%nI have discovered a way to assign a location to each tank using dyes applied to the top. Using a diamond makes the tank private, attuned to the user's mind, and will not share fluids with any other player's tanks.%n%nShift-rightclicking recovers the diamond and makes the tank part of the public tank network again.%n%nThe dial on front controls the input/output of the tank. When blue is up, the tank accepts fluids. When orange is up, the tank will eject fluids.%n%n§3If you get FPS problems from large numbers of them, try the setting in the config to turn off the fancy render at the bottom.
 
 # Quest: Disenchanted 
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIFA==.name=Disenchanted 
