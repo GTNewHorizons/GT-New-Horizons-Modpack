@@ -10733,62 +10733,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAELg==.desc=In order to understand where 
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAELw==.name=Magic Map
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAELw==.desc=For the magic map you need the magic map focus and a paper stack, made from a stack of paper.%n%nIt will fill in the area near you, and reveal boss locations. You need to kill these to get access to the rest of the Twilight Forest. Start with the Naga. %n%nYou can see what to do next in the TF achievement tab. There's also quests for the boss kills on the kill all the things tab. You can only get one map every 24 hours, so be careful with it.%n%n§4Only use the map in the Twilight Forest, using the map in any other dimension will lag the server!
 
-# Quest: Ironwood
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEhg==.name=Ironwood
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEhg==.desc=Ironwood is much harder and durable than rubber. Ideal for a soft mallet. Collect some liveroot underground, from some roots, macerate it and mix the powder with iron and gold to create a new magical material.%n%nYou can make some unique armor with this material.
-
-# Quest: Steeleaf
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEhw==.name=Steeleaf
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEhw==.desc=If you locate a labyrinth you may find steeleaf in chests inside. This is the best material for a soft mallet, however a unique armor out of steeleaf can be made too.
-
-# Quest: Knightmetal
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAICw==.name=Knightmetal
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAICw==.desc=Knightmetal ingots are loot taken from Goblin Knight Strongholds. They can be made into Diamond-tier armor. You can take Armor Shards dropped by helmet crabs and turn them into Knightmetal ingots.
-
-# Quest: Ardite and Cobalt Mining
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHLQ==.name=Ardite and Cobalt Mining
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHLQ==.desc=Ironwood is much harder and durable material than you imagined at first. Making Tools and Armor give them very unique features. With a Pick you can mine at cobalt Level which means you can harvest ardite and cobalt without a EBF.
-
-# Quest: Stuck in the Twilight Forest?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFWA==.name=Stuck in the Twilight Forest?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFWA==.desc=If you're in the Twilight Forest and your portal gets broken, you're kinda stuck. Every 24h you're able to exchange some materials to get a new portal crystal to escape.%n%n§3Also consider making an extra yourself and sticking it in a chest on the TF side, just in case.
-
-# Quest: §5§lSource of Nickel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGTQ==.name=§5§lSource of Nickel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGTQ==.desc=Your Electric Blast Furnace needs Nickel. Now that you've reached the Twilight Forest, it's time to get some. The Garnierite vein that contains it is located at Y 10-40. In MV, you'll need tons of Nickel for Cupronickel, so stock up.%n%nYou can get some Cobalt out of Cobaltite through the side processes such as washing or thermal centrifuging. To electrolyze it, you'll need an MV electrolyzer though. Or you can EBF it after your EBF is done. Remember that the Sulfur Dioxide you get is based on your muffler tier. This is probably easier than searching in the Nether for Cobalt.%n%n§3You can also find small quantities of Pentlandite ore in the Overworld if you care.
-
-# Quest: Low on Sticks?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHLg==.name=Low on Sticks?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHLg==.desc=If you stay in the Twilight Forest for more than a few minutes you'll find Canopy Trees. This big tree generates a lot of logs for your Coke ovens and some roots when planted which give sticks. Be careful that no building or chest right beside or above the tree otherwise the tree replaces it. You might find a use for this, to sinfully get above a ceiling you really shouldn't.
-
-# Quest: Your First Wand
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA5g==.name=Your First Wand
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA5g==.desc=You're sure that this place will give you all the answers you're looking for! To continue, you need something to handle the magic energy called "vis". Guess it's time to craft your first wand.%n%nIf you haven't started on defeating the TF bosses yet, you'll need to do so to proceed. All wands require some kind of TF boss drop, with better wands needing later boss's drops. Once you've defeated them once, you can buy a spawn egg (only usable in the TF) or use the trophy+salis mundus to make more of the drop.%n%n§3You should look for wand recipes in NEI. Not all of them are correct in the Thaumonomicon.
-
-# Quest: Infused Stones
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA5Q==.name=Infused Stones
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA5Q==.desc=This whole place here is filled with magic. No matter where you look at, it's just everywhere. You wonder what happens to regular stone if it's exposed to large amounts of magic for such a long time. Maybe it's time to go mining?%n%nThere are 3 veins. There's amber and cinnabar in each. They aren't super useful, but make sure to keep hold of some at least.
-
-# Quest: Getting Shards
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA6Q==.name=Getting Shards
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA6Q==.desc=Now that you've found all six types of infused stone, you need to break those up in order to get the shards. The easiest way to do that, is to throw these stones in your Forge Hammer. Later when you have a Sifter, you can sift purified ores for more shards. An autoclave can turn shard dust into a shard. Maybe there's a magical way to do the same thing?
-
-# Quest: Balanced Shards sdrahS decnalaB
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA8g==.name=Balanced Shards sdrahS decnalaB
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA8g==.desc=By combining all six primal aspects in a crucible, you are able to make balanced shards. They can be ground up into "Salis Mundus", an absolutely crucial thing to have, trust me!
-
-# Quest: Crystal Clusters
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA8w==.name=Crystal Clusters
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA8w==.desc=You, as a Thaumaturge, like shiny things. And what could be more shiny than a cluster made of those shards? You totally should get one of each.
-
-# Quest: Not Just For Decoration
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA-w==.name=Not Just For Decoration
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA-w==.desc=Sure, they look pretty, but they serve a much more important purpose: Channeling vast amounts of vis and essentia. Your first uses will be an infusion setup and an alchemical furnace.
-
-# Quest: Yet Another Brick in the Wall...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA7w==.name=Yet Another Brick in the Wall...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA7w==.desc=A magical one this time. You're on your way to infusion which needs 8 of these. Another 4 will be needed for the alchemical furnace.%n%n§3Yes, you need an MV PLE, deal with it.
-
 # Quest: Tome of Knowledge
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA5w==.name=Tome of Knowledge
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA5w==.desc=All the things you've discovered so far, you need to write them down. But you're lazy, and you have a wand, so why not try a magical way to "write down" your research? You wonder if you could enchant a book with your wand, so that it will keep track of your progress... You should try that on a bookshelf!
@@ -10832,6 +10776,106 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAH-g==.desc=Just listening to this tank g
 # Quest: An Alternative to Torches
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA_w==.name=An Alternative to Torches
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA_w==.desc=And lava! It's an excellent magical light source. You can use it under your crucible, too! But not your witchery stuff. :(
+
+# Quest: Infused Stones
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA5Q==.name=Infused Stones
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA5Q==.desc=This whole place here is filled with magic. No matter where you look at, it's just everywhere. You wonder what happens to regular stone if it's exposed to large amounts of magic for such a long time. Maybe it's time to go mining?%n%nThere are 3 veins. There's amber and cinnabar in each. They aren't super useful, but make sure to keep hold of some at least.
+
+# Quest: Getting Shards
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA6Q==.name=Getting Shards
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA6Q==.desc=Now that you've found all six types of infused stone, you need to break those up in order to get the shards. The easiest way to do that, is to throw these stones in your Forge Hammer. Later when you have a Sifter, you can sift purified ores for more shards. An autoclave can turn shard dust into a shard. Maybe there's a magical way to do the same thing?
+
+# Quest: Balanced Shards sdrahS decnalaB
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA8g==.name=Balanced Shards sdrahS decnalaB
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA8g==.desc=By combining all six primal aspects in a crucible, you are able to make balanced shards. They can be ground up into "Salis Mundus", an absolutely crucial thing to have, trust me!
+
+# Quest: Crystal Clusters
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA8w==.name=Crystal Clusters
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA8w==.desc=You, as a Thaumaturge, like shiny things. And what could be more shiny than a cluster made of those shards? You totally should get one of each.
+
+# Quest: Not Just For Decoration
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA-w==.name=Not Just For Decoration
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA-w==.desc=Sure, they look pretty, but they serve a much more important purpose: Channeling vast amounts of vis and essentia. Your first uses will be an infusion setup and an alchemical furnace.
+
+# Quest: Yet Another Brick in the Wall...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA7w==.name=Yet Another Brick in the Wall...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA7w==.desc=A magical one this time. You're on your way to infusion which needs 8 of these. Another 4 will be needed for the alchemical furnace.%n%n§3Yes, you need an MV PLE, deal with it.
+
+# Quest: Fuuuuuu...(sion)!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA7g==.name=Fuuuuuu...(sion)!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA7g==.desc=Your arcane table does a great job with infusing primal vis into items while crafting. However, you feel that there must be more. What if you could infuse items with all kinds of magic aspects? The possibilities are endless...
+
+# Quest: The Choice...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA9Q==.name=The Choice...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA9Q==.desc=By now, you should've collected a few (or a lot) of locations for aura nodes to get vis from. You might also have noticed that you're probably low on a certain aspect, like ordo or ignis. Well, good news. In exchange for some crystal clusters, I will give you one of my old nodes. They're all pale, but they'll still help you out. You may only choose one, so think twice before you make your decision.
+
+# Quest: The Choice: Aer
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA-g==.name=The Choice: Aer
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA-g==.desc=In exchange for 6 clusters, I will give you this node. May it serve you well. Oh, don't place it too close to another node, or it might start to drain vis...
+
+# Quest: The Choice: Aqua
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA-Q==.name=The Choice: Aqua
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA-Q==.desc=In exchange for 6 clusters, I will give you this node. May it serve you well. Oh, don't place it too close to another node, or it might start to drain vis...
+
+# Quest: The Choice: Ordo
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA-A==.name=The Choice: Ordo
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA-A==.desc=In exchange for 6 clusters, I will give you this node. May it serve you well. Oh, don't place it too close to another node, or it might start to drain vis...
+
+# Quest: The Choice: Perditio
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA9w==.name=The Choice: Perditio
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA9w==.desc=In exchange for 6 clusters, I will give you this node. May it serve you well. Oh, don't place it too close to another node, or it might start to drain vis...
+
+# Quest: The Choice: Terra
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA9g==.name=The Choice: Terra
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA9g==.desc=In exchange for 6 clusters, I will give you this node. May it serve you well. Oh, don't place it too close to another node, or it might start to drain vis...
+
+# Quest: The Choice: Ignis
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA9A==.name=The Choice: Ignis
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA9A==.desc=In exchange for 6 clusters, I will give you this node. May it serve you well. Oh, don't place it too close to another node, or it might start to drain vis...
+
+# Quest: This is the End...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA_A==.name=This is the End...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA_A==.desc=...of your apprenticeship. You have mastered all 6 primal aspects, you mastered the weak and strong infusion of essentia and vis, and you've already made your adept wand. But be warned, young one. The further you progress, the more darkness, and evil will tempt you to follow the forbidden ways of magic. I have seen things... weather changing, random teleportation, or even a Wither tearing its way into our universe right next to someone. Be careful, my friend...
+
+# Quest: Infinite Water!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABAw==.name=Infinite Water!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABAw==.desc=The struggle is over. You've finally discovered a way to get infinite amounts of water.
+
+# Quest: Infinite... Lava?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABAg==.name=Infinite... Lava?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABAg==.desc=Well, it does need some ignis centi-vis, but hey, it's free. Also, expensive.
+
+# Quest: Improved Armor: Samurai Style
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABIg==.name=Improved Armor: Samurai Style
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABIg==.desc=Time to get some decent armor. With this, those infernal monsters won't be as much of a pain as they are now.
+
+# Quest: 3 Plus 4, Carry the 2...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHeA==.name=3 Plus 4, Carry the 2...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHeA==.desc=When doing infusions, it's always good to know how close you are in stability. Once you get to HV you can make an Arcane Abacus to track your infusions. This makes infusions 100 percent safe, right??
+
+# Quest: Boots Are Made For Walking
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHzQ==.name=Boots Are Made For Walking
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHzQ==.desc=And swimming. These boots of the traveller will make you a blur as you go around the world. You'll need to research infusion before you can make these.%n%n§3There's also Electric versions with greater discounts on the GAWD tab. ...I swear I didn't put any thought into the acronym of the tab.
+
+# Quest: Flying Like....Mary Poppins?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIDA==.name=Flying Like....Mary Poppins?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIDA==.desc=The Thaumostatic Harness grants you flight, using up Potentia from a jar. The speed isn't great though, so perhaps further research will yield some results.
+
+# Quest: Flying With the Greatest of Ease
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIDQ==.name=Flying With the Greatest of Ease
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIDQ==.desc=Ahh, that's better. With this girdle you can really fly around like a true wizard. It does take a little extra potentia to use though, so keep an eye on your flying time.
+
+# Quest: Working While Flying? 
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIDg==.name=Working While Flying? 
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIDg==.desc=With these devices you can now fly and work at the same time without penalty. They can be found in the Witching Gadgets tab of the book. You'll need a Swiftness potion for this device.
+
+# Quest: Long Distance Power Delivery
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIDw==.name=Long Distance Power Delivery
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIDw==.desc=No mage wants to be restricted to short flying times. With this spire from the Automagy discipline you can transmit magical energy directy to your flying harness. To get the correct Thaumium block, compress 9 ingots to get the GT Thaumium block and then chisel that block to get the correct type.%n%nThis multiblock requires centi-vis to operate. You can use 2-6 Thaumostatic Pylons, with additional pylons extending the range. Provide the construct Aer centi-vis to operate, and and it will accept Potentia essentia to transfer to flyers. The construct will also accept Aer and Volatus essentia to increase the range and rate of transfer, respectively. Right-click the sides of the controller to control which type of essentia each side will accept.
+
+# Quest: Infinite Bats! Wait, What??
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI0w==.name=Infinite Bats! Wait, What??
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI0w==.desc=Tired of the constant chirping from the thousands of bats drawn to your world-bending activities? Use this handy device to attract them to a central location where they can be...disposed. The Corporeal Attractor can be configured to attract or repel mobs, and the redstone strength applied divided by two determines the range.%n%nYou can use Soul Moulds to filter the mobs the Attractor draws in or pushes away. This gives you some idea for automating...
 
 # Quest: Essentia Cooking
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA8A==.name=Essentia Cooking
@@ -10913,81 +10957,45 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIEw==.desc=Now that you have Goggles of 
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALRQ==.name=Can You Really See Out of Those?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALRQ==.desc=If you take a little dip into the dark side, you can make these goggles. They give the best discount until you can make infinity armor. And who even does that?%n%nYou'll need infusion and some warping research first.%n%nIf you're a §oscaredy-cat§r you can make the Electric goggles on the armor tab instead.
 
-# Quest: Fuuuuuu...(sion)!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA7g==.name=Fuuuuuu...(sion)!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA7g==.desc=Your arcane table does a great job with infusing primal vis into items while crafting. However, you feel that there must be more. What if you could infuse items with all kinds of magic aspects? The possibilities are endless...
+# Quest: Clothes Make the Magical Man or Woman
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIEQ==.name=Clothes Make the Magical Man or Woman
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIEQ==.desc=The Witching Gadgets Spinning Wheel will unlock a few materials and items. Hopefully without that creep Rumpelstiltskin! Make sure you get the WG Spinning Wheel and not the Witchery version.
 
-# Quest: The Choice...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA9Q==.name=The Choice...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA9Q==.desc=By now, you should've collected a few (or a lot) of locations for aura nodes to get vis from. You might also have noticed that you're probably low on a certain aspect, like ordo or ignis. Well, good news. In exchange for some crystal clusters, I will give you one of my old nodes. They're all pale, but they'll still help you out. You may only choose one, so think twice before you make your decision.
+# Quest: Flying Like a Eag - I Mean Raven
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIEg==.name=Flying Like a Eag - I Mean Raven
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIEg==.desc=This cloak is a nice substitute for the Glider. There are plenty of other magical items worth a look in the Witching Gadgets tab.%nIf you want to toggle gliding with a key - configure binding for "Active Ability 1" in control settings and, having item in hand, send "/travellersgear bind 1" to chat.
 
-# Quest: The Choice: Aer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA-g==.name=The Choice: Aer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA-g==.desc=In exchange for 6 clusters, I will give you this node. May it serve you well. Oh, don't place it too close to another node, or it might start to drain vis...
+# Quest: Ironwood
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEhg==.name=Ironwood
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEhg==.desc=Ironwood is much harder and durable than rubber. Ideal for a soft mallet. Collect some liveroot underground, from some roots, macerate it and mix the powder with iron and gold to create a new magical material.%n%nYou can make some unique armor with this material.
 
-# Quest: The Choice: Aqua
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA-Q==.name=The Choice: Aqua
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA-Q==.desc=In exchange for 6 clusters, I will give you this node. May it serve you well. Oh, don't place it too close to another node, or it might start to drain vis...
+# Quest: Steeleaf
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEhw==.name=Steeleaf
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEhw==.desc=If you locate a labyrinth you may find steeleaf in chests inside. This is the best material for a soft mallet, however a unique armor out of steeleaf can be made too.
 
-# Quest: The Choice: Ordo
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA-A==.name=The Choice: Ordo
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA-A==.desc=In exchange for 6 clusters, I will give you this node. May it serve you well. Oh, don't place it too close to another node, or it might start to drain vis...
+# Quest: Knightmetal
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAICw==.name=Knightmetal
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAICw==.desc=Knightmetal ingots are loot taken from Goblin Knight Strongholds. They can be made into Diamond-tier armor. You can take Armor Shards dropped by helmet crabs and turn them into Knightmetal ingots.
 
-# Quest: The Choice: Perditio
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA9w==.name=The Choice: Perditio
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA9w==.desc=In exchange for 6 clusters, I will give you this node. May it serve you well. Oh, don't place it too close to another node, or it might start to drain vis...
+# Quest: Ardite and Cobalt Mining
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHLQ==.name=Ardite and Cobalt Mining
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHLQ==.desc=Ironwood is much harder and durable material than you imagined at first. Making Tools and Armor give them very unique features. With a Pick you can mine at cobalt Level which means you can harvest ardite and cobalt without a EBF.
 
-# Quest: The Choice: Terra
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA9g==.name=The Choice: Terra
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA9g==.desc=In exchange for 6 clusters, I will give you this node. May it serve you well. Oh, don't place it too close to another node, or it might start to drain vis...
+# Quest: Stuck in the Twilight Forest?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFWA==.name=Stuck in the Twilight Forest?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFWA==.desc=If you're in the Twilight Forest and your portal gets broken, you're kinda stuck. Every 24h you're able to exchange some materials to get a new portal crystal to escape.%n%n§3Also consider making an extra yourself and sticking it in a chest on the TF side, just in case.
 
-# Quest: The Choice: Ignis
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA9A==.name=The Choice: Ignis
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA9A==.desc=In exchange for 6 clusters, I will give you this node. May it serve you well. Oh, don't place it too close to another node, or it might start to drain vis...
+# Quest: §5§lSource of Nickel
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGTQ==.name=§5§lSource of Nickel
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGTQ==.desc=Your Electric Blast Furnace needs Nickel. Now that you've reached the Twilight Forest, it's time to get some. The Garnierite vein that contains it is located at Y 10-40. In MV, you'll need tons of Nickel for Cupronickel, so stock up.%n%nYou can get some Cobalt out of Cobaltite through the side processes such as washing or thermal centrifuging. To electrolyze it, you'll need an MV electrolyzer though. Or you can EBF it after your EBF is done. Remember that the Sulfur Dioxide you get is based on your muffler tier. This is probably easier than searching in the Nether for Cobalt.%n%n§3You can also find small quantities of Pentlandite ore in the Overworld if you care.
 
-# Quest: This is the End...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA_A==.name=This is the End...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA_A==.desc=...of your apprenticeship. You have mastered all 6 primal aspects, you mastered the weak and strong infusion of essentia and vis, and you've already made your adept wand. But be warned, young one. The further you progress, the more darkness, and evil will tempt you to follow the forbidden ways of magic. I have seen things... weather changing, random teleportation, or even a Wither tearing its way into our universe right next to someone. Be careful, my friend...
+# Quest: Low on Sticks?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHLg==.name=Low on Sticks?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHLg==.desc=If you stay in the Twilight Forest for more than a few minutes you'll find Canopy Trees. This big tree generates a lot of logs for your Coke ovens and some roots when planted which give sticks. Be careful that no building or chest right beside or above the tree otherwise the tree replaces it. You might find a use for this, to sinfully get above a ceiling you really shouldn't.
 
-# Quest: Infinite Water!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABAw==.name=Infinite Water!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABAw==.desc=The struggle is over. You've finally discovered a way to get infinite amounts of water.
-
-# Quest: Infinite... Lava?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABAg==.name=Infinite... Lava?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABAg==.desc=Well, it does need some ignis centi-vis, but hey, it's free. Also, expensive.
-
-# Quest: Improved Armor: Samurai Style
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABIg==.name=Improved Armor: Samurai Style
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABIg==.desc=Time to get some decent armor. With this, those infernal monsters won't be as much of a pain as they are now.
-
-# Quest: 3 Plus 4, Carry the 2...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHeA==.name=3 Plus 4, Carry the 2...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHeA==.desc=When doing infusions, it's always good to know how close you are in stability. Once you get to HV you can make an Arcane Abacus to track your infusions. This makes infusions 100 percent safe, right??
-
-# Quest: Boots Are Made For Walking
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHzQ==.name=Boots Are Made For Walking
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHzQ==.desc=And swimming. These boots of the traveller will make you a blur as you go around the world. You'll need to research infusion before you can make these.%n%n§3There's also Electric versions with greater discounts on the GAWD tab. ...I swear I didn't put any thought into the acronym of the tab.
-
-# Quest: Flying Like....Mary Poppins?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIDA==.name=Flying Like....Mary Poppins?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIDA==.desc=The Thaumostatic Harness grants you flight, using up Potentia from a jar. The speed isn't great though, so perhaps further research will yield some results.
-
-# Quest: Flying With the Greatest of Ease
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIDQ==.name=Flying With the Greatest of Ease
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIDQ==.desc=Ahh, that's better. With this girdle you can really fly around like a true wizard. It does take a little extra potentia to use though, so keep an eye on your flying time.
-
-# Quest: Working While Flying? 
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIDg==.name=Working While Flying? 
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIDg==.desc=With these devices you can now fly and work at the same time without penalty. They can be found in the Witching Gadgets tab of the book. You'll need a Swiftness potion for this device.
-
-# Quest: Long Distance Power Delivery
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIDw==.name=Long Distance Power Delivery
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIDw==.desc=No mage wants to be restricted to short flying times. With this spire from the Automagy discipline you can transmit magical energy directy to your flying harness. To get the correct Thaumium block, compress 9 ingots to get the GT Thaumium block and then chisel that block to get the correct type.%n%nThis multiblock requires centi-vis to operate. You can use 2-6 Thaumostatic Pylons, with additional pylons extending the range. Provide the construct Aer centi-vis to operate, and and it will accept Potentia essentia to transfer to flyers. The construct will also accept Aer and Volatus essentia to increase the range and rate of transfer, respectively. Right-click the sides of the controller to control which type of essentia each side will accept.
-
-# Quest: Infinite Bats! Wait, What??
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI0w==.name=Infinite Bats! Wait, What??
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI0w==.desc=Tired of the constant chirping from the thousands of bats drawn to your world-bending activities? Use this handy device to attract them to a central location where they can be...disposed. The Corporeal Attractor can be configured to attract or repel mobs, and the redstone strength applied divided by two determines the range.%n%nYou can use Soul Moulds to filter the mobs the Attractor draws in or pushes away. This gives you some idea for automating...
+# Quest: Your First Wand
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA5g==.name=Your First Wand
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA5g==.desc=You're sure that this place will give you all the answers you're looking for! To continue, you need something to handle the magic energy called "vis". Guess it's time to craft your first wand.%n%nIf you haven't started on defeating the TF bosses yet, you'll need to do so to proceed. All wands require some kind of TF boss drop, with better wands needing later boss's drops. Once you've defeated them once, you can buy a spawn egg (only usable in the TF) or use the trophy+salis mundus to make more of the drop.%n%n§3You should look for wand recipes in NEI. Not all of them are correct in the Thaumonomicon.
 
 # Quest: Not For Soup
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA8Q==.name=Not For Soup
@@ -11017,13 +11025,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIYw==.desc=The Avarice Pearl is the next
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEmQ==.name=Thaumium Cooking
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEmQ==.desc=Now it's time to 'cook' your first thaumium ingots. After first researching it, you need iron ingots and praecantatio essentia to make it. 
 
-# Quest: Clothes Make the Magical Man or Woman
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIEQ==.name=Clothes Make the Magical Man or Woman
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIEQ==.desc=The Witching Gadgets Spinning Wheel will unlock a few materials and items. Hopefully without that creep Rumpelstiltskin! Make sure you get the WG Spinning Wheel and not the Witchery version.
-
-# Quest: Flying Like a Eag - I Mean Raven
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIEg==.name=Flying Like a Eag - I Mean Raven
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIEg==.desc=This cloak is a nice substitute for the Glider. There are plenty of other magical items worth a look in the Witching Gadgets tab.%nIf you want to toggle gliding with a key - configure binding for "Active Ability 1" in control settings and, having item in hand, send "/travellersgear bind 1" to chat.
+# Quest: Thauminite Helmet
+betterquesting.quest.CAqER5QVQg2Hq9lLZ9zDzg==.name=Thauminite Helmet
+betterquesting.quest.CAqER5QVQg2Hq9lLZ9zDzg==.desc=If you improve your Thaumium to Thauminite, you can make this very stylish helmet! Also comes with a very useful 5%% vis discount while equipped.%n%nMaybe this new material is useful for wands too?
 
 # Quest: What Are You, a Seamstress?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHyw==.name=What Are You, a Seamstress?
