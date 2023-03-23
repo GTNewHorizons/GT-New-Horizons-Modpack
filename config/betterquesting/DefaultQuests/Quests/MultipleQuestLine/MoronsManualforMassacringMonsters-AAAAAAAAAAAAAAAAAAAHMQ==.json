@@ -40,5 +40,18 @@
       "taskID:8": "bq_standard:checkbox"
     }
   },
-  "rewards:9": {}
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "minecraft:dye",
+          "Count:3": 8,
+          "Damage:2": 15,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
 }
