@@ -1834,6 +1834,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAig==.desc=...we have cookies.
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAjA==.name=§6§lDark Steel Tools
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAjA==.desc=There are also tools made of dark steel. Each of them can receive upgrades. Hold shift to get the tooltip which will explain what you need in order to upgrade them.%n%nThese tools can also be enchanted like vanilla tools.%n%nThe Ender will increase wither skull and ender pearl drops. It can be upgraded to teleport the player.%n%nDark shears can be empowered, and then will shear a large area, including leaves. Handy for clearing away that giant redwood! Maybe you will find other uses for it.%n%nThe axe, once empowered, can be recharged wirelessly while in farming station.%n%nThe pick? Well, it can mine cobalt I guess if you haven't gotten a tool capable of that yet. You could keep it around to use for base decorations if your normal pick is too fast, I suppose.
 
+# Quest: Dark Steel Pipes
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADuQ==.name=Dark Steel Pipes
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADuQ==.desc=Dark steel pipes are much better than the bronze, steel, or potin pipes you might have been using. Make sure your wrench can handle mining level 3 or you can't deconstruct them.%n%n§3If you don't need these, just recycle them to get the materials back. Not everything needs ginormous pipes or high heat tolerance.
+
 # Quest: §6§lAll the Crops You Could Want
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF7g==.name=§6§lAll the Crops You Could Want
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF7g==.desc=Tired of applying bonemeal or fertilizer by hand? A sprinkler can take water and boost your crop growth rate. Bonemeal or fertilizer will make it work even faster.%n%n§3Note that the sprinkler does not work with IC2 crops.
@@ -2009,10 +2013,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAC7Q==.desc=Stainless steel will be the t
 # Quest: §6§lStainless Steel EBF processing
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC8Q==.name=§6§lStainless Steel EBF processing
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC8Q==.desc=Stainless Steel ingots are made in the Electric Blast Furnace at a temperature of 1700K.%n%nIt takes 85 seconds at 480 EU/t or 60 seconds at 480 EU/t by adding Oxygen gas. Always add a gas if you can, you're saving tons of power by doing so, and you're gonna need a TON of SS. The Cracker, Large Steam Turbine, and Distillery Tower all need huge amounts of SS. A single DT uses several stacks, and you're gonna want more than just one.
-
-# Quest: §6§lStainless Steel Pipes
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADuQ==.name=§6§lStainless Steel Pipes
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADuQ==.desc=Stainless steel pipes are much better than steel pipes. Like all high tier pipes (Titanium, Tungstensteel etc) you need a better wrench to deconstruct the pipes.%n%n§3If you don't need these, just recycle them to get the materials back. Not everything needs ginormous pipes or high heat tolerance.
 
 # Quest: §6§lMV Superconductors (128 EU/t)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFfA==.name=§6§lMV Superconductors (128 EU/t)

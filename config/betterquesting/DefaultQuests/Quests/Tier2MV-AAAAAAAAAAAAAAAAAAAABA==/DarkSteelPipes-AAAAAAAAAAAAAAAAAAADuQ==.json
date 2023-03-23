@@ -3,7 +3,7 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 753
+      "questIDLow:4": 138
     }
   },
   "questIDLow:4": 953,
@@ -18,7 +18,7 @@
       "icon:10": {
         "id:8": "gregtech:gt.blockmachines",
         "Count:3": 1,
-        "Damage:2": 5143,
+        "Damage:2": 30762,
         "OreDict:8": ""
       },
       "snd_update:8": "random.levelup",
@@ -26,12 +26,12 @@
       "globalShare:1": 1,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "§6§lStainless Steel Pipes",
+      "name:8": "Dark Steel Pipes",
       "isGlobal:1": 0,
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Stainless steel pipes are much better than steel pipes. Like all high tier pipes (Titanium, Tungstensteel etc) you need a better wrench to deconstruct the pipes.\n\n§3If you don\u0027t need these, just recycle them to get the materials back. Not everything needs ginormous pipes or high heat tolerance."
+      "desc:8": "Dark steel pipes are much better than the bronze, steel, or potin pipes you might have been using. Make sure your wrench can handle mining level 3 or you can\u0027t deconstruct them.\n\n§3If you don\u0027t need these, just recycle them to get the materials back. Not everything needs ginormous pipes or high heat tolerance."
     }
   },
   "tasks:9": {
@@ -46,7 +46,7 @@
         "0:10": {
           "id:8": "gregtech:gt.blockmachines",
           "Count:3": 16,
-          "Damage:2": 5143,
+          "Damage:2": 30762,
           "OreDict:8": ""
         }
       },
