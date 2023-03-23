@@ -29,7 +29,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Now that storage spaces are organized and assigned, time to let the network sort the items for us.\n\nThere are 2 ways to insert items into the system\n\n1. Use an extraction module to extract items into the system. It is slow, but everything that has a valid destination will be sent into the network.\n\n2. Use a QuickSort module. It extracts a whole stack of items that has a valid destination. This module will ignore items that has no destinations other than the default route tho...\n\nIt is your choice. Pick what you like"
+      "desc:8": "Now that storage spaces are organized and assigned, time to let the network sort the items for us.\n\nThere are 2 ways to insert items into the system\n\n1. Use an extraction module to extract items into the system. It is slow, but everything that has a valid destination will be sent into the network.\n\n2. Use a QuickSort module. It extracts a whole stack of items that has a valid destination. This module will ignore items that have no destinations other than the default route though...\n\nIt is your choice. Pick what you like."
     }
   },
   "tasks:9": {

@@ -29,7 +29,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "The Unrouted Transport Pipe is the first pipe you will ever need in logistics pipes.\n\nIt only connects to other pipes and it doesn\u0027t have any item routing capabilities, but you will need a ton of it.\n\n§cWarning: Do NOT form junctions with the unrouted transport pipes. items going into an unrouted transport pipe junction will come out of a random exit of the junction."
+      "desc:8": "The Unrouted Transport Pipe is the first pipe you will ever need in Logistics Pipes.\n\nThey only connect to other pipes and don\u0027t have any item routing capabilities, but you will need a ton of them.\n\n§cWarning: Do NOT form junctions with the Unrouted Transport Pipes. Items going into an unrouted transport pipe junction will come out of a random exit of the junction."
     }
   },
   "tasks:9": {
