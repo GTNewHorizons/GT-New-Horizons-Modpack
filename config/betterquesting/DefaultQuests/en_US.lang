@@ -1834,6 +1834,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAig==.desc=...we have cookies.
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAjA==.name=§6§lDark Steel Tools
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAjA==.desc=There are also tools made of dark steel. Each of them can receive upgrades. Hold shift to get the tooltip which will explain what you need in order to upgrade them.%n%nThese tools can also be enchanted like vanilla tools.%n%nThe Ender will increase wither skull and ender pearl drops. It can be upgraded to teleport the player.%n%nDark shears can be empowered, and then will shear a large area, including leaves. Handy for clearing away that giant redwood! Maybe you will find other uses for it.%n%nThe axe, once empowered, can be recharged wirelessly while in farming station.%n%nThe pick? Well, it can mine cobalt I guess if you haven't gotten a tool capable of that yet. You could keep it around to use for base decorations if your normal pick is too fast, I suppose.
 
+# Quest: Dark Steel Pipes
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADuQ==.name=Dark Steel Pipes
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADuQ==.desc=Dark steel pipes are much better than the bronze, steel, or potin pipes you might have been using. Make sure your wrench can handle mining level 3 or you can't deconstruct them.%n%n§3If you don't need these, just recycle them to get the materials back. Not everything needs ginormous pipes or high heat tolerance.
+
 # Quest: §6§lAll the Crops You Could Want
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF7g==.name=§6§lAll the Crops You Could Want
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF7g==.desc=Tired of applying bonemeal or fertilizer by hand? A sprinkler can take water and boost your crop growth rate. Bonemeal or fertilizer will make it work even faster.%n%n§3Note that the sprinkler does not work with IC2 crops.
@@ -2009,10 +2013,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAC7Q==.desc=Stainless steel will be the t
 # Quest: §6§lStainless Steel EBF processing
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC8Q==.name=§6§lStainless Steel EBF processing
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC8Q==.desc=Stainless Steel ingots are made in the Electric Blast Furnace at a temperature of 1700K.%n%nIt takes 85 seconds at 480 EU/t or 60 seconds at 480 EU/t by adding Oxygen gas. Always add a gas if you can, you're saving tons of power by doing so, and you're gonna need a TON of SS. The Cracker, Large Steam Turbine, and Distillery Tower all need huge amounts of SS. A single DT uses several stacks, and you're gonna want more than just one.
-
-# Quest: §6§lStainless Steel Pipes
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADuQ==.name=§6§lStainless Steel Pipes
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADuQ==.desc=Stainless steel pipes are much better than steel pipes. Like all high tier pipes (Titanium, Tungstensteel etc) you need a better wrench to deconstruct the pipes.%n%n§3If you don't need these, just recycle them to get the materials back. Not everything needs ginormous pipes or high heat tolerance.
 
 # Quest: §6§lMV Superconductors (128 EU/t)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFfA==.name=§6§lMV Superconductors (128 EU/t)
@@ -2583,6 +2583,66 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALZQ==.desc=You don't need them this tier
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEzw==.name=§9§lYou're Gonna Hate This 1-4 in HV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEzw==.desc=Pumps, pistons, conveyor modules and robot arms are the most needed machine parts in HV. Go and craft one of each.
 
+# Quest: §9§lPlaying With Dust
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADAQ==.name=§9§lPlaying With Dust
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADAQ==.desc=This machine will help you turn dust into crystals which you will need for high tier recipes. 
+
+# Quest: §9§lAvengers, Assemble! 3
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADAg==.name=§9§lAvengers, Assemble! 3
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADAg==.desc=You know what this does. :D
+
+# Quest: §9§lChunkloading
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF-Q==.name=§9§lChunkloading
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF-Q==.desc=With your HV assembler you can craft a world anchor. So let's make one. It will again load a 3x3 chunk area.%n%nYou need coins to power the world anchor, it will run a varying amount depending on the coin used. %n%n§aPersonal Anchors§r are loaded once the owner visits, and stays loaded while the player is logged in.%n%n§9Passive Anchors§r are loaded once the owner visits, and stays loaded until the server resets.%n%n§4World Anchors§r are always loaded, even after a server reset.%n%n§3Check with server operators in case world anchors are disabled. On the official servers, world anchors are currently disabled to keep TPS high
+
+# Quest: §9§e§9§lHV Energy Hatch
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHbw==.name=§9§e§9§lHV Energy Hatch
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHbw==.desc=The HV energy hatch is crucial to a faster EBF that can do higher tier recipes.%n%nYou'll need to make He coolant cells or NaK coolant cells using a fluid canner. Follow NEI to figure out how to make them, and the rest.%n%nNote that you'll need a cleanroom, vacuum freezer, and new coils.
+
+# Quest: §9§lAuto Mining HV
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADpA==.name=§9§lAuto Mining HV
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADpA==.desc=The HV miner is faster, has longer range, and has more fortune than the previous two. If you want a better one, look in the multiblock tab. It's recommend to take one with you to the Moon to gather meteoric iron.
+
+# Quest: §9§lNeed a Place For All Those Ores?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF7Q==.name=§9§lNeed a Place For All Those Ores?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF7Q==.desc=How about a compressed chest from Avaritia? This 243 slot chest will hold it's contents when broken, so no need for a slow-inducing dolly!
+
+# Quest: §9§lUniversal Macerator
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEjA==.name=§9§lUniversal Macerator
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEjA==.desc=One of the most important machines in HV is the Universal Macerator. It has an additional output slot to get more materials when macerating ores. You want this, really, really, badly. If you get it, you can say goodbye to your Gallium worries!
+
+# Quest: §9§lHV Extruder
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE9w==.name=§9§lHV Extruder
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE9w==.desc=The HV Extruder is needed to extrude tough metals like Tungstensteel and HSS.
+
+# Quest: §9§lHV Bender
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFCQ==.name=§9§lHV Bender
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFCQ==.desc=An HV Bender is 4x faster than your LV Bender, but it also opens up an important recipe - Tin Cans!  %n%nWith this bender you can turn Tin Casings into Tin Cans. Using the Tin Cans with food in a Canner will make Canned Food. This can stack up to 64, and will fully restore your shanks - no need to rotate food types any more! You will eat as much as you need with one click. One drawback is you will no longer get the Well Fed buff with its slight health regen bonus, nor will you gain more hearts from eating new food. Also, these cans don't fit in the lunch bag or lunch box so you don't need those any more.
+
+# Quest: §9§lSeparating Gems From the Dust
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF8Q==.name=§9§lSeparating Gems From the Dust
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF8Q==.desc=The sifter runs sooo slow, you should make an HV sifter to get gems faster. 
+
+# Quest: §9§lShake That Booty...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjA==.name=§9§lShake That Booty...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjA==.desc=...out of the purified ores. Anyways, a Large Sifter will increase your sifting speed significantly. What will you do with all these gems??%n%n§3You need one more casing if you don't want to use 2 energy hatches.
+
+# Quest: §9§lLV Field Generator
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHTw==.name=§9§lLV Field Generator
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHTw==.desc=Field Generators are powerful devices. They're generally used in super tanks, super chests, in UUMatter production and use, or in teleporters. Also, anything someone wanted to make harder to make.
+
+# Quest: §9§lThe Power of Endermen
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAhQ==.name=§9§lThe Power of Endermen
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAhQ==.desc=Elevators are nice, but they're limited to vertical teleportation, and their range is also highly limited. Travel anchors don't have a limitation on angle, you can teleport from one anchor to any other within 128 blocks. You do this by looking at the anchor you wish to travel to and pressing the shift button. You can also name them and even set them as private if you like. They have a 2s cooldown.
+
+# Quest: §9§lHow Much is Too Much Fluid?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHFw==.name=§9§lHow Much is Too Much Fluid?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHFw==.desc=There's no limit to how much fluid you might want to store. Make yourself some super tank III's for all your bulk storage needs.
+
+# Quest: §9§lHow Much is Too Much Cobblestone?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHdQ==.name=§9§lHow Much is Too Much Cobblestone?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHdQ==.desc=A super chest III is just ridiculous. Who would possibly need to store 16 million items? You, that's who.
+
 # Quest: §9§lDimensional Goal: Moon
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAog==.name=§9§lDimensional Goal: Moon
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAog==.desc=HV is about getting to the moon so you can get Titanium, used to make EV and AE2 machines. It's a long and involved task though, so head on over to the Space Race tab for more info.%n%n§3You need IV circuits and the HV assembler to start the tab though.%n%n§6If you're doing the no-rocket run, hold a stack of Titanium Ingots to proceed. Same thing for Tungstensteel when you get to EV.
@@ -2659,65 +2719,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALoA==.desc=Centrifuge the Bauxite Slag t
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGTA==.name=§9§lFind Bastnasite, Monazite and Neodymium
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGTA==.desc=EV motors need Neodymium. Rare Earth is an §ook§r source, but on the Moon you can find a vein with pure Neodymium ore. Bastnasite is a great source of fluorine. And Monazite can be taken apart for more Rare Earth.
 
-# Quest: §9§lPlaying With Dust
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADAQ==.name=§9§lPlaying With Dust
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADAQ==.desc=This machine will help you turn dust into crystals which you will need for high tier recipes. 
-
-# Quest: §9§lAvengers, Assemble! 3
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADAg==.name=§9§lAvengers, Assemble! 3
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADAg==.desc=You know what this does. :D
-
-# Quest: §9§lChunkloading
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF-Q==.name=§9§lChunkloading
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF-Q==.desc=With your HV assembler you can craft a world anchor. So let's make one. It will again load a 3x3 chunk area.%n%nYou need coins to power the world anchor, it will run a varying amount depending on the coin used. %n%n§aPersonal Anchors§r are loaded once the owner visits, and stays loaded while the player is logged in.%n%n§9Passive Anchors§r are loaded once the owner visits, and stays loaded until the server resets.%n%n§4World Anchors§r are always loaded, even after a server reset.%n%n§3Check with server operators in case world anchors are disabled. On the official servers, world anchors are currently disabled to keep TPS high
-
-# Quest: §9§e§9§lHV Energy Hatch
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHbw==.name=§9§e§9§lHV Energy Hatch
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHbw==.desc=The HV energy hatch is crucial to a faster EBF that can do higher tier recipes.%n%nYou'll need to make He coolant cells or NaK coolant cells using a fluid canner. Follow NEI to figure out how to make them, and the rest.%n%nNote that you'll need a cleanroom, vacuum freezer, and new coils.
-
-# Quest: §9§lAuto Mining HV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADpA==.name=§9§lAuto Mining HV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADpA==.desc=The HV miner is faster, has longer range, and has more fortune than the previous two. If you want a better one, look in the multiblock tab. It's recommend to take one with you to the Moon to gather meteoric iron.
-
-# Quest: §9§lNeed a Place For All Those Ores?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF7Q==.name=§9§lNeed a Place For All Those Ores?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF7Q==.desc=How about a compressed chest from Avaritia? This 243 slot chest will hold it's contents when broken, so no need for a slow-inducing dolly!
-
-# Quest: §9§lUniversal Macerator
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEjA==.name=§9§lUniversal Macerator
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEjA==.desc=One of the most important machines in HV is the Universal Macerator. It has an additional output slot to get more materials when macerating ores. You want this, really, really, badly. If you get it, you can say goodbye to your Gallium worries!
-
-# Quest: §9§lHV Extruder
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE9w==.name=§9§lHV Extruder
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE9w==.desc=The HV Extruder is needed to extrude tough metals like Tungstensteel and HSS.
-
-# Quest: §9§lHV Bender
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFCQ==.name=§9§lHV Bender
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFCQ==.desc=An HV Bender is 4x faster than your LV Bender, but it also opens up an important recipe - Tin Cans!  %n%nWith this bender you can turn Tin Casings into Tin Cans. Using the Tin Cans with food in a Canner will make Canned Food. This can stack up to 64, and will fully restore your shanks - no need to rotate food types any more! You will eat as much as you need with one click. One drawback is you will no longer get the Well Fed buff with its slight health regen bonus, nor will you gain more hearts from eating new food. Also, these cans don't fit in the lunch bag or lunch box so you don't need those any more.
-
-# Quest: §9§lSeparating Gems From the Dust
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF8Q==.name=§9§lSeparating Gems From the Dust
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF8Q==.desc=The sifter runs sooo slow, you should make an HV sifter to get gems faster. 
-
-# Quest: §9§lShake That Booty...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjA==.name=§9§lShake That Booty...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjA==.desc=...out of the purified ores. Anyways, a Large Sifter will increase your sifting speed significantly. What will you do with all these gems??%n%n§3You need one more casing if you don't want to use 2 energy hatches.
-
-# Quest: §9§lLV Field Generator
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHTw==.name=§9§lLV Field Generator
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHTw==.desc=Field Generators are powerful devices. They're generally used in super tanks, super chests, in UUMatter production and use, or in teleporters. Also, anything someone wanted to make harder to make.
-
-# Quest: §9§lHow Much is Too Much Fluid?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHFw==.name=§9§lHow Much is Too Much Fluid?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHFw==.desc=There's no limit to how much fluid you might want to store. Make yourself some super tank III's for all your bulk storage needs.
-
-# Quest: §9§lHow Much is Too Much Cobblestone?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHdQ==.name=§9§lHow Much is Too Much Cobblestone?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHdQ==.desc=A super chest III is just ridiculous. Who would possibly need to store 16 million items? You, that's who.
-
-# Quest: §9§lThe Power of Endermen
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAhQ==.name=§9§lThe Power of Endermen
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAhQ==.desc=Elevators are nice, but they're limited to vertical teleportation, and their range is also highly limited. Travel anchors don't have a limitation on angle, you can teleport from one anchor to any other within 128 blocks. You do this by looking at the anchor you wish to travel to and pressing the shift button. You can also name them and even set them as private if you like. They have a 2s cooldown.
+# Quest: SMD Inductors
+betterquesting.quest.3F2OXjxZT-eHWy8E4n1NCg==.name=SMD Inductors
+betterquesting.quest.3F2OXjxZT-eHWy8E4n1NCg==.desc=Now that you have Neodymium you can make the last of the SMDs, the SMD inductor. It can replace Small Coils in your circuit crafting.
 
 
 ## Quest Line: Tier 4 - EV
@@ -7153,6 +7157,30 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEOw==.desc=Better machines need some bet
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEOg==.name=MV Battery Buffers
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEOg==.desc=You'll probably want MV battery buffers as well.%n%n§3You only need to complete one task.
 
+# Quest: HV Battery Hulls
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEdw==.name=HV Battery Hulls
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEdw==.desc=Better machines need better batteries. Let's make some HV battery hulls for new batteries.%n%nIt's up to you what kind of battery to make, but realistically you'll probably make Sodium or Lithium.
+
+# Quest: HV Battery
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEeA==.name=HV Battery
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEeA==.desc=Better machines need some better batteries. Lithium is the best material to use when making batteries, at least for LV-HV.%n%n§3You only need to complete one task.
+
+# Quest: HV Battery Buffers
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEdg==.name=HV Battery Buffers
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEdg==.desc=You'll probably want HV battery buffers as well.%n%n§3You only need to complete one task.
+
+# Quest: EV Battery Buffer
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE7g==.name=EV Battery Buffer
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE7g==.desc=It's EV, ok?%n%n§3Complete one task.
+
+# Quest: EV Sunnarium Battery
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE8A==.name=EV Sunnarium Battery
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE8A==.desc=Small Sunnarium batteries are EV tier. Some might think they're cheaper than Lapotrons, but it depends on Sunnarium. And they hold less energy.
+
+# Quest: EV GT++ Batteries
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE8Q==.name=EV GT++ Batteries
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE8Q==.desc=Want cheaper EV batteries? Mash your old ones together, and somehow it works!
+
 # Quest: Energy Crystals
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADFQ==.name=Energy Crystals
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADFQ==.desc=Make energium out of ruby and redstone dusts in the MV mixer. Then use the autoclave to make Energy Crystals. Energy crystals can store 1 million EU and work as an HV battery.
@@ -7225,33 +7253,25 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAM3w==.desc=An even more expensive capaci
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEbw==.name=§5§lULV Transformer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEbw==.desc=To get your simple ore washer working you need a ULV Transformer. The Washer can only work with 8 EU. If you put more energy into it you get a big hole in your base.%n%n§3This will probably be the only one you make in the game.
 
-# Quest: HV Battery Hulls
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEdw==.name=HV Battery Hulls
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEdw==.desc=Better machines need better batteries. Let's make some HV battery hulls for new batteries.%n%nIt's up to you what kind of battery to make, but realistically you'll probably make Sodium or Lithium.
-
-# Quest: HV Battery
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEeA==.name=HV Battery
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEeA==.desc=Better machines need some better batteries. Lithium is the best material to use when making batteries, at least for LV-HV.%n%n§3You only need to complete one task.
-
-# Quest: HV Battery Buffers
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEdg==.name=HV Battery Buffers
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEdg==.desc=You'll probably want HV battery buffers as well.%n%n§3You only need to complete one task.
-
-# Quest: EV Battery Buffer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE7g==.name=EV Battery Buffer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE7g==.desc=It's EV, ok?%n%n§3Complete one task.
-
-# Quest: EV Sunnarium Battery
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE8A==.name=EV Sunnarium Battery
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE8A==.desc=Small Sunnarium batteries are EV tier. Some might think they're cheaper than Lapotrons, but it depends on Sunnarium. And they hold less energy.
-
-# Quest: EV GT++ Batteries
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE8Q==.name=EV GT++ Batteries
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE8Q==.desc=Want cheaper EV batteries? Mash your old ones together, and somehow it works!
-
 # Quest: Low Voltage Transformer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE8g==.name=Low Voltage Transformer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE8g==.desc=It's possible to run MV machines while still in LV tier. Build a transformer and use 4 power sources 32 eu/t to power one 128 eu/t machine. You can change the mode of a transformer with a soft mallet. If the transformer is wired and loaded then DO NOT change the mode otherwise there probably will be a big explosion. Be careful when switching directions - better to break and replace than rotate with the wrench and blow up a line of machines.%n%nTransformers will transform§r power up OR down, depending on the mode, which you switch with a soft mallet. Up means 4A LV to 1A MV, while down means the reverse.%n%nIn step down mode (which is the default), the large dot is the input. In step up mode, it's the output. §4DO NOT MIX THIS UP IF YOU DON'T WANT AN EXPLOSION!§r LV machines that receive MV power explode! If the transformer is connected to power, or was in the past, then DO NOT change the mode with stuff connected, otherwise there probably will be a big §4explosion§r. It's better to break and re-place (to get rid of stored power) than rotate with the wrench and blow up a line of machines. Make sure to also disconnect the nearby wires with a wire cutter too.
+
+# Quest: Medium Voltage Transformer
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE8w==.name=Medium Voltage Transformer
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE8w==.desc=These work the same as the LV ones, but 1 tier higher.
+
+# Quest: Transformers, Roll Out!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHgg==.name=Transformers, Roll Out!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHgg==.desc=When you get to HV you'll want to start thinking about centralizing power generation and delivering power over longer distances. An HV to EV transformer will let you send power across your base without too much penalty.
+
+# Quest: Not Enough Amps?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHgw==.name=Not Enough Amps?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHgw==.desc=How about 4x more? A Hi-Amp transformer will transform 4A to 16A. Great for setting up a large power grid and locating polluting power generators further from your base.
+
+# Quest: More Than 4 Amps? Crazy!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHhA==.name=More Than 4 Amps? Crazy!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHhA==.desc=For the truly insane, there is a 16 to 64 A power amp transformer. Just ludicrous!
 
 # Quest: LV High-Amp Transformer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE9A==.name=LV High-Amp Transformer
@@ -7260,10 +7280,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAE9A==.desc=If you need a transformer wit
 # Quest: Low Voltage Power Transformer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE9Q==.name=Low Voltage Power Transformer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE9Q==.desc=If you need even more amps then craft a power transformer. This one is 16A -> 64A. The soft mallet is still how you change modes.
-
-# Quest: Medium Voltage Transformer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE8w==.name=Medium Voltage Transformer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE8w==.desc=These work the same as the LV ones, but 1 tier higher.
 
 # Quest: EU packets flowing everywhere...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFig==.name=EU packets flowing everywhere...
@@ -7300,18 +7316,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHJg==.desc=To reach the highest Voltage 
 # Quest: Manual Transformer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHHg==.name=Manual Transformer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHHg==.desc=Annoyed by building Chains of transformers? Dont want an Explosion Risk at your base? Want to use these fancy 64A Hatches and Dynamos from TecTech to convert your power? Make a Manual Dynamo and convert it all!%n%n§3Also needs a muffler, energy hatch, and dynamo. Not guaranteed to work, wishing you all the best though.
-
-# Quest: Transformers, Roll Out!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHgg==.name=Transformers, Roll Out!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHgg==.desc=When you get to HV you'll want to start thinking about centralizing power generation and delivering power over longer distances. An HV to EV transformer will let you send power across your base without too much penalty.
-
-# Quest: Not Enough Amps?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHgw==.name=Not Enough Amps?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHgw==.desc=How about 4x more? A Hi-Amp transformer will transform 4A to 16A. Great for setting up a large power grid and locating polluting power generators further from your base.
-
-# Quest: More Than 4 Amps? Crazy!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHhA==.name=More Than 4 Amps? Crazy!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHhA==.desc=For the truly insane, there is a 16 to 64 A power amp transformer. Just ludicrous!
 
 # Quest: Transform and...Stay Put Actually
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKqw==.name=Transform and...Stay Put Actually
@@ -10733,62 +10737,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAELg==.desc=In order to understand where 
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAELw==.name=Magic Map
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAELw==.desc=For the magic map you need the magic map focus and a paper stack, made from a stack of paper.%n%nIt will fill in the area near you, and reveal boss locations. You need to kill these to get access to the rest of the Twilight Forest. Start with the Naga. %n%nYou can see what to do next in the TF achievement tab. There's also quests for the boss kills on the kill all the things tab. You can only get one map every 24 hours, so be careful with it.%n%n§4Only use the map in the Twilight Forest, using the map in any other dimension will lag the server!
 
-# Quest: Ironwood
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEhg==.name=Ironwood
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEhg==.desc=Ironwood is much harder and durable than rubber. Ideal for a soft mallet. Collect some liveroot underground, from some roots, macerate it and mix the powder with iron and gold to create a new magical material.%n%nYou can make some unique armor with this material.
-
-# Quest: Steeleaf
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEhw==.name=Steeleaf
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEhw==.desc=If you locate a labyrinth you may find steeleaf in chests inside. This is the best material for a soft mallet, however a unique armor out of steeleaf can be made too.
-
-# Quest: Knightmetal
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAICw==.name=Knightmetal
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAICw==.desc=Knightmetal ingots are loot taken from Goblin Knight Strongholds. They can be made into Diamond-tier armor. You can take Armor Shards dropped by helmet crabs and turn them into Knightmetal ingots.
-
-# Quest: Ardite and Cobalt Mining
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHLQ==.name=Ardite and Cobalt Mining
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHLQ==.desc=Ironwood is much harder and durable material than you imagined at first. Making Tools and Armor give them very unique features. With a Pick you can mine at cobalt Level which means you can harvest ardite and cobalt without a EBF.
-
-# Quest: Stuck in the Twilight Forest?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFWA==.name=Stuck in the Twilight Forest?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFWA==.desc=If you're in the Twilight Forest and your portal gets broken, you're kinda stuck. Every 24h you're able to exchange some materials to get a new portal crystal to escape.%n%n§3Also consider making an extra yourself and sticking it in a chest on the TF side, just in case.
-
-# Quest: §5§lSource of Nickel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGTQ==.name=§5§lSource of Nickel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGTQ==.desc=Your Electric Blast Furnace needs Nickel. Now that you've reached the Twilight Forest, it's time to get some. The Garnierite vein that contains it is located at Y 10-40. In MV, you'll need tons of Nickel for Cupronickel, so stock up.%n%nYou can get some Cobalt out of Cobaltite through the side processes such as washing or thermal centrifuging. To electrolyze it, you'll need an MV electrolyzer though. Or you can EBF it after your EBF is done. Remember that the Sulfur Dioxide you get is based on your muffler tier. This is probably easier than searching in the Nether for Cobalt.%n%n§3You can also find small quantities of Pentlandite ore in the Overworld if you care.
-
-# Quest: Low on Sticks?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHLg==.name=Low on Sticks?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHLg==.desc=If you stay in the Twilight Forest for more than a few minutes you'll find Canopy Trees. This big tree generates a lot of logs for your Coke ovens and some roots when planted which give sticks. Be careful that no building or chest right beside or above the tree otherwise the tree replaces it. You might find a use for this, to sinfully get above a ceiling you really shouldn't.
-
-# Quest: Your First Wand
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA5g==.name=Your First Wand
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA5g==.desc=You're sure that this place will give you all the answers you're looking for! To continue, you need something to handle the magic energy called "vis". Guess it's time to craft your first wand.%n%nIf you haven't started on defeating the TF bosses yet, you'll need to do so to proceed. All wands require some kind of TF boss drop, with better wands needing later boss's drops. Once you've defeated them once, you can buy a spawn egg (only usable in the TF) or use the trophy+salis mundus to make more of the drop.%n%n§3You should look for wand recipes in NEI. Not all of them are correct in the Thaumonomicon.
-
-# Quest: Infused Stones
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA5Q==.name=Infused Stones
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA5Q==.desc=This whole place here is filled with magic. No matter where you look at, it's just everywhere. You wonder what happens to regular stone if it's exposed to large amounts of magic for such a long time. Maybe it's time to go mining?%n%nThere are 3 veins. There's amber and cinnabar in each. They aren't super useful, but make sure to keep hold of some at least.
-
-# Quest: Getting Shards
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA6Q==.name=Getting Shards
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA6Q==.desc=Now that you've found all six types of infused stone, you need to break those up in order to get the shards. The easiest way to do that, is to throw these stones in your Forge Hammer. Later when you have a Sifter, you can sift purified ores for more shards. An autoclave can turn shard dust into a shard. Maybe there's a magical way to do the same thing?
-
-# Quest: Balanced Shards sdrahS decnalaB
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA8g==.name=Balanced Shards sdrahS decnalaB
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA8g==.desc=By combining all six primal aspects in a crucible, you are able to make balanced shards. They can be ground up into "Salis Mundus", an absolutely crucial thing to have, trust me!
-
-# Quest: Crystal Clusters
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA8w==.name=Crystal Clusters
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA8w==.desc=You, as a Thaumaturge, like shiny things. And what could be more shiny than a cluster made of those shards? You totally should get one of each.
-
-# Quest: Not Just For Decoration
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA-w==.name=Not Just For Decoration
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA-w==.desc=Sure, they look pretty, but they serve a much more important purpose: Channeling vast amounts of vis and essentia. Your first uses will be an infusion setup and an alchemical furnace.
-
-# Quest: Yet Another Brick in the Wall...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA7w==.name=Yet Another Brick in the Wall...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA7w==.desc=A magical one this time. You're on your way to infusion which needs 8 of these. Another 4 will be needed for the alchemical furnace.%n%n§3Yes, you need an MV PLE, deal with it.
-
 # Quest: Tome of Knowledge
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA5w==.name=Tome of Knowledge
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA5w==.desc=All the things you've discovered so far, you need to write them down. But you're lazy, and you have a wand, so why not try a magical way to "write down" your research? You wonder if you could enchant a book with your wand, so that it will keep track of your progress... You should try that on a bookshelf!
@@ -10832,6 +10780,106 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAH-g==.desc=Just listening to this tank g
 # Quest: An Alternative to Torches
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA_w==.name=An Alternative to Torches
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA_w==.desc=And lava! It's an excellent magical light source. You can use it under your crucible, too! But not your witchery stuff. :(
+
+# Quest: Infused Stones
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA5Q==.name=Infused Stones
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA5Q==.desc=This whole place here is filled with magic. No matter where you look at, it's just everywhere. You wonder what happens to regular stone if it's exposed to large amounts of magic for such a long time. Maybe it's time to go mining?%n%nThere are 3 veins. There's amber and cinnabar in each. They aren't super useful, but make sure to keep hold of some at least.
+
+# Quest: Getting Shards
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA6Q==.name=Getting Shards
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA6Q==.desc=Now that you've found all six types of infused stone, you need to break those up in order to get the shards. The easiest way to do that, is to throw these stones in your Forge Hammer. Later when you have a Sifter, you can sift purified ores for more shards. An autoclave can turn shard dust into a shard. Maybe there's a magical way to do the same thing?
+
+# Quest: Balanced Shards sdrahS decnalaB
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA8g==.name=Balanced Shards sdrahS decnalaB
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA8g==.desc=By combining all six primal aspects in a crucible, you are able to make balanced shards. They can be ground up into "Salis Mundus", an absolutely crucial thing to have, trust me!
+
+# Quest: Crystal Clusters
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA8w==.name=Crystal Clusters
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA8w==.desc=You, as a Thaumaturge, like shiny things. And what could be more shiny than a cluster made of those shards? You totally should get one of each.
+
+# Quest: Not Just For Decoration
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA-w==.name=Not Just For Decoration
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA-w==.desc=Sure, they look pretty, but they serve a much more important purpose: Channeling vast amounts of vis and essentia. Your first uses will be an infusion setup and an alchemical furnace.
+
+# Quest: Yet Another Brick in the Wall...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA7w==.name=Yet Another Brick in the Wall...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA7w==.desc=A magical one this time. You're on your way to infusion which needs 8 of these. Another 4 will be needed for the alchemical furnace.%n%n§3Yes, you need an MV PLE, deal with it.
+
+# Quest: Fuuuuuu...(sion)!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA7g==.name=Fuuuuuu...(sion)!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA7g==.desc=Your arcane table does a great job with infusing primal vis into items while crafting. However, you feel that there must be more. What if you could infuse items with all kinds of magic aspects? The possibilities are endless...
+
+# Quest: The Choice...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA9Q==.name=The Choice...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA9Q==.desc=By now, you should've collected a few (or a lot) of locations for aura nodes to get vis from. You might also have noticed that you're probably low on a certain aspect, like ordo or ignis. Well, good news. In exchange for some crystal clusters, I will give you one of my old nodes. They're all pale, but they'll still help you out. You may only choose one, so think twice before you make your decision.
+
+# Quest: The Choice: Aer
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA-g==.name=The Choice: Aer
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA-g==.desc=In exchange for 6 clusters, I will give you this node. May it serve you well. Oh, don't place it too close to another node, or it might start to drain vis...
+
+# Quest: The Choice: Aqua
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA-Q==.name=The Choice: Aqua
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA-Q==.desc=In exchange for 6 clusters, I will give you this node. May it serve you well. Oh, don't place it too close to another node, or it might start to drain vis...
+
+# Quest: The Choice: Ordo
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA-A==.name=The Choice: Ordo
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA-A==.desc=In exchange for 6 clusters, I will give you this node. May it serve you well. Oh, don't place it too close to another node, or it might start to drain vis...
+
+# Quest: The Choice: Perditio
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA9w==.name=The Choice: Perditio
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA9w==.desc=In exchange for 6 clusters, I will give you this node. May it serve you well. Oh, don't place it too close to another node, or it might start to drain vis...
+
+# Quest: The Choice: Terra
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA9g==.name=The Choice: Terra
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA9g==.desc=In exchange for 6 clusters, I will give you this node. May it serve you well. Oh, don't place it too close to another node, or it might start to drain vis...
+
+# Quest: The Choice: Ignis
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA9A==.name=The Choice: Ignis
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA9A==.desc=In exchange for 6 clusters, I will give you this node. May it serve you well. Oh, don't place it too close to another node, or it might start to drain vis...
+
+# Quest: This is the End...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA_A==.name=This is the End...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA_A==.desc=...of your apprenticeship. You have mastered all 6 primal aspects, you mastered the weak and strong infusion of essentia and vis, and you've already made your adept wand. But be warned, young one. The further you progress, the more darkness, and evil will tempt you to follow the forbidden ways of magic. I have seen things... weather changing, random teleportation, or even a Wither tearing its way into our universe right next to someone. Be careful, my friend...
+
+# Quest: Infinite Water!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABAw==.name=Infinite Water!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABAw==.desc=The struggle is over. You've finally discovered a way to get infinite amounts of water.
+
+# Quest: Infinite... Lava?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABAg==.name=Infinite... Lava?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABAg==.desc=Well, it does need some ignis centi-vis, but hey, it's free. Also, expensive.
+
+# Quest: Improved Armor: Samurai Style
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABIg==.name=Improved Armor: Samurai Style
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABIg==.desc=Time to get some decent armor. With this, those infernal monsters won't be as much of a pain as they are now.
+
+# Quest: 3 Plus 4, Carry the 2...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHeA==.name=3 Plus 4, Carry the 2...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHeA==.desc=When doing infusions, it's always good to know how close you are in stability. Once you get to HV you can make an Arcane Abacus to track your infusions. This makes infusions 100 percent safe, right??
+
+# Quest: Boots Are Made For Walking
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHzQ==.name=Boots Are Made For Walking
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHzQ==.desc=And swimming. These boots of the traveller will make you a blur as you go around the world. You'll need to research infusion before you can make these.%n%n§3There's also Electric versions with greater discounts on the GAWD tab. ...I swear I didn't put any thought into the acronym of the tab.
+
+# Quest: Flying Like....Mary Poppins?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIDA==.name=Flying Like....Mary Poppins?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIDA==.desc=The Thaumostatic Harness grants you flight, using up Potentia from a jar. The speed isn't great though, so perhaps further research will yield some results.
+
+# Quest: Flying With the Greatest of Ease
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIDQ==.name=Flying With the Greatest of Ease
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIDQ==.desc=Ahh, that's better. With this girdle you can really fly around like a true wizard. It does take a little extra potentia to use though, so keep an eye on your flying time.
+
+# Quest: Working While Flying? 
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIDg==.name=Working While Flying? 
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIDg==.desc=With these devices you can now fly and work at the same time without penalty. They can be found in the Witching Gadgets tab of the book. You'll need a Swiftness potion for this device.
+
+# Quest: Long Distance Power Delivery
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIDw==.name=Long Distance Power Delivery
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIDw==.desc=No mage wants to be restricted to short flying times. With this spire from the Automagy discipline you can transmit magical energy directy to your flying harness. To get the correct Thaumium block, compress 9 ingots to get the GT Thaumium block and then chisel that block to get the correct type.%n%nThis multiblock requires centi-vis to operate. You can use 2-6 Thaumostatic Pylons, with additional pylons extending the range. Provide the construct Aer centi-vis to operate, and and it will accept Potentia essentia to transfer to flyers. The construct will also accept Aer and Volatus essentia to increase the range and rate of transfer, respectively. Right-click the sides of the controller to control which type of essentia each side will accept.
+
+# Quest: Infinite Bats! Wait, What??
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI0w==.name=Infinite Bats! Wait, What??
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI0w==.desc=Tired of the constant chirping from the thousands of bats drawn to your world-bending activities? Use this handy device to attract them to a central location where they can be...disposed. The Corporeal Attractor can be configured to attract or repel mobs, and the redstone strength applied divided by two determines the range.%n%nYou can use Soul Moulds to filter the mobs the Attractor draws in or pushes away. This gives you some idea for automating...
 
 # Quest: Essentia Cooking
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA8A==.name=Essentia Cooking
@@ -10913,81 +10961,45 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIEw==.desc=Now that you have Goggles of 
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALRQ==.name=Can You Really See Out of Those?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALRQ==.desc=If you take a little dip into the dark side, you can make these goggles. They give the best discount until you can make infinity armor. And who even does that?%n%nYou'll need infusion and some warping research first.%n%nIf you're a §oscaredy-cat§r you can make the Electric goggles on the armor tab instead.
 
-# Quest: Fuuuuuu...(sion)!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA7g==.name=Fuuuuuu...(sion)!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA7g==.desc=Your arcane table does a great job with infusing primal vis into items while crafting. However, you feel that there must be more. What if you could infuse items with all kinds of magic aspects? The possibilities are endless...
+# Quest: Clothes Make the Magical Man or Woman
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIEQ==.name=Clothes Make the Magical Man or Woman
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIEQ==.desc=The Witching Gadgets Spinning Wheel will unlock a few materials and items. Hopefully without that creep Rumpelstiltskin! Make sure you get the WG Spinning Wheel and not the Witchery version.
 
-# Quest: The Choice...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA9Q==.name=The Choice...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA9Q==.desc=By now, you should've collected a few (or a lot) of locations for aura nodes to get vis from. You might also have noticed that you're probably low on a certain aspect, like ordo or ignis. Well, good news. In exchange for some crystal clusters, I will give you one of my old nodes. They're all pale, but they'll still help you out. You may only choose one, so think twice before you make your decision.
+# Quest: Flying Like a Eag - I Mean Raven
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIEg==.name=Flying Like a Eag - I Mean Raven
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIEg==.desc=This cloak is a nice substitute for the Glider. There are plenty of other magical items worth a look in the Witching Gadgets tab.%nIf you want to toggle gliding with a key - configure binding for "Active Ability 1" in control settings and, having item in hand, send "/travellersgear bind 1" to chat.
 
-# Quest: The Choice: Aer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA-g==.name=The Choice: Aer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA-g==.desc=In exchange for 6 clusters, I will give you this node. May it serve you well. Oh, don't place it too close to another node, or it might start to drain vis...
+# Quest: Ironwood
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEhg==.name=Ironwood
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEhg==.desc=Ironwood is much harder and durable than rubber. Ideal for a soft mallet. Collect some liveroot underground, from some roots, macerate it and mix the powder with iron and gold to create a new magical material.%n%nYou can make some unique armor with this material.
 
-# Quest: The Choice: Aqua
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA-Q==.name=The Choice: Aqua
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA-Q==.desc=In exchange for 6 clusters, I will give you this node. May it serve you well. Oh, don't place it too close to another node, or it might start to drain vis...
+# Quest: Steeleaf
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEhw==.name=Steeleaf
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEhw==.desc=If you locate a labyrinth you may find steeleaf in chests inside. This is the best material for a soft mallet, however a unique armor out of steeleaf can be made too.
 
-# Quest: The Choice: Ordo
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA-A==.name=The Choice: Ordo
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA-A==.desc=In exchange for 6 clusters, I will give you this node. May it serve you well. Oh, don't place it too close to another node, or it might start to drain vis...
+# Quest: Knightmetal
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAICw==.name=Knightmetal
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAICw==.desc=Knightmetal ingots are loot taken from Goblin Knight Strongholds. They can be made into Diamond-tier armor. You can take Armor Shards dropped by helmet crabs and turn them into Knightmetal ingots.
 
-# Quest: The Choice: Perditio
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA9w==.name=The Choice: Perditio
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA9w==.desc=In exchange for 6 clusters, I will give you this node. May it serve you well. Oh, don't place it too close to another node, or it might start to drain vis...
+# Quest: Ardite and Cobalt Mining
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHLQ==.name=Ardite and Cobalt Mining
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHLQ==.desc=Ironwood is much harder and durable material than you imagined at first. Making Tools and Armor give them very unique features. With a Pick you can mine at cobalt Level which means you can harvest ardite and cobalt without a EBF.
 
-# Quest: The Choice: Terra
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA9g==.name=The Choice: Terra
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA9g==.desc=In exchange for 6 clusters, I will give you this node. May it serve you well. Oh, don't place it too close to another node, or it might start to drain vis...
+# Quest: Stuck in the Twilight Forest?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFWA==.name=Stuck in the Twilight Forest?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFWA==.desc=If you're in the Twilight Forest and your portal gets broken, you're kinda stuck. Every 24h you're able to exchange some materials to get a new portal crystal to escape.%n%n§3Also consider making an extra yourself and sticking it in a chest on the TF side, just in case.
 
-# Quest: The Choice: Ignis
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA9A==.name=The Choice: Ignis
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA9A==.desc=In exchange for 6 clusters, I will give you this node. May it serve you well. Oh, don't place it too close to another node, or it might start to drain vis...
+# Quest: §5§lSource of Nickel
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGTQ==.name=§5§lSource of Nickel
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGTQ==.desc=Your Electric Blast Furnace needs Nickel. Now that you've reached the Twilight Forest, it's time to get some. The Garnierite vein that contains it is located at Y 10-40. In MV, you'll need tons of Nickel for Cupronickel, so stock up.%n%nYou can get some Cobalt out of Cobaltite through the side processes such as washing or thermal centrifuging. To electrolyze it, you'll need an MV electrolyzer though. Or you can EBF it after your EBF is done. Remember that the Sulfur Dioxide you get is based on your muffler tier. This is probably easier than searching in the Nether for Cobalt.%n%n§3You can also find small quantities of Pentlandite ore in the Overworld if you care.
 
-# Quest: This is the End...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA_A==.name=This is the End...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA_A==.desc=...of your apprenticeship. You have mastered all 6 primal aspects, you mastered the weak and strong infusion of essentia and vis, and you've already made your adept wand. But be warned, young one. The further you progress, the more darkness, and evil will tempt you to follow the forbidden ways of magic. I have seen things... weather changing, random teleportation, or even a Wither tearing its way into our universe right next to someone. Be careful, my friend...
+# Quest: Low on Sticks?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHLg==.name=Low on Sticks?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHLg==.desc=If you stay in the Twilight Forest for more than a few minutes you'll find Canopy Trees. This big tree generates a lot of logs for your Coke ovens and some roots when planted which give sticks. Be careful that no building or chest right beside or above the tree otherwise the tree replaces it. You might find a use for this, to sinfully get above a ceiling you really shouldn't.
 
-# Quest: Infinite Water!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABAw==.name=Infinite Water!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABAw==.desc=The struggle is over. You've finally discovered a way to get infinite amounts of water.
-
-# Quest: Infinite... Lava?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABAg==.name=Infinite... Lava?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABAg==.desc=Well, it does need some ignis centi-vis, but hey, it's free. Also, expensive.
-
-# Quest: Improved Armor: Samurai Style
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABIg==.name=Improved Armor: Samurai Style
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABIg==.desc=Time to get some decent armor. With this, those infernal monsters won't be as much of a pain as they are now.
-
-# Quest: 3 Plus 4, Carry the 2...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHeA==.name=3 Plus 4, Carry the 2...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHeA==.desc=When doing infusions, it's always good to know how close you are in stability. Once you get to HV you can make an Arcane Abacus to track your infusions. This makes infusions 100 percent safe, right??
-
-# Quest: Boots Are Made For Walking
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHzQ==.name=Boots Are Made For Walking
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHzQ==.desc=And swimming. These boots of the traveller will make you a blur as you go around the world. You'll need to research infusion before you can make these.%n%n§3There's also Electric versions with greater discounts on the GAWD tab. ...I swear I didn't put any thought into the acronym of the tab.
-
-# Quest: Flying Like....Mary Poppins?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIDA==.name=Flying Like....Mary Poppins?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIDA==.desc=The Thaumostatic Harness grants you flight, using up Potentia from a jar. The speed isn't great though, so perhaps further research will yield some results.
-
-# Quest: Flying With the Greatest of Ease
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIDQ==.name=Flying With the Greatest of Ease
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIDQ==.desc=Ahh, that's better. With this girdle you can really fly around like a true wizard. It does take a little extra potentia to use though, so keep an eye on your flying time.
-
-# Quest: Working While Flying? 
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIDg==.name=Working While Flying? 
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIDg==.desc=With these devices you can now fly and work at the same time without penalty. They can be found in the Witching Gadgets tab of the book. You'll need a Swiftness potion for this device.
-
-# Quest: Long Distance Power Delivery
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIDw==.name=Long Distance Power Delivery
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIDw==.desc=No mage wants to be restricted to short flying times. With this spire from the Automagy discipline you can transmit magical energy directy to your flying harness. To get the correct Thaumium block, compress 9 ingots to get the GT Thaumium block and then chisel that block to get the correct type.%n%nThis multiblock requires centi-vis to operate. You can use 2-6 Thaumostatic Pylons, with additional pylons extending the range. Provide the construct Aer centi-vis to operate, and and it will accept Potentia essentia to transfer to flyers. The construct will also accept Aer and Volatus essentia to increase the range and rate of transfer, respectively. Right-click the sides of the controller to control which type of essentia each side will accept.
-
-# Quest: Infinite Bats! Wait, What??
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI0w==.name=Infinite Bats! Wait, What??
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI0w==.desc=Tired of the constant chirping from the thousands of bats drawn to your world-bending activities? Use this handy device to attract them to a central location where they can be...disposed. The Corporeal Attractor can be configured to attract or repel mobs, and the redstone strength applied divided by two determines the range.%n%nYou can use Soul Moulds to filter the mobs the Attractor draws in or pushes away. This gives you some idea for automating...
+# Quest: Your First Wand
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA5g==.name=Your First Wand
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA5g==.desc=You're sure that this place will give you all the answers you're looking for! To continue, you need something to handle the magic energy called "vis". Guess it's time to craft your first wand.%n%nIf you haven't started on defeating the TF bosses yet, you'll need to do so to proceed. All wands require some kind of TF boss drop, with better wands needing later boss's drops. Once you've defeated them once, you can buy a spawn egg (only usable in the TF) or use the trophy+salis mundus to make more of the drop.%n%n§3You should look for wand recipes in NEI. Not all of them are correct in the Thaumonomicon.
 
 # Quest: Not For Soup
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA8Q==.name=Not For Soup
@@ -11017,13 +11029,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIYw==.desc=The Avarice Pearl is the next
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEmQ==.name=Thaumium Cooking
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEmQ==.desc=Now it's time to 'cook' your first thaumium ingots. After first researching it, you need iron ingots and praecantatio essentia to make it. 
 
-# Quest: Clothes Make the Magical Man or Woman
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIEQ==.name=Clothes Make the Magical Man or Woman
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIEQ==.desc=The Witching Gadgets Spinning Wheel will unlock a few materials and items. Hopefully without that creep Rumpelstiltskin! Make sure you get the WG Spinning Wheel and not the Witchery version.
-
-# Quest: Flying Like a Eag - I Mean Raven
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIEg==.name=Flying Like a Eag - I Mean Raven
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIEg==.desc=This cloak is a nice substitute for the Glider. There are plenty of other magical items worth a look in the Witching Gadgets tab.%nIf you want to toggle gliding with a key - configure binding for "Active Ability 1" in control settings and, having item in hand, send "/travellersgear bind 1" to chat.
+# Quest: Thauminite Helmet
+betterquesting.quest.CAqER5QVQg2Hq9lLZ9zDzg==.name=Thauminite Helmet
+betterquesting.quest.CAqER5QVQg2Hq9lLZ9zDzg==.desc=If you improve your Thaumium to Thauminite, you can make this very stylish helmet! Also comes with a very useful 5%% vis discount while equipped.%n%nMaybe this new material is useful for wands too?
 
 # Quest: What Are You, a Seamstress?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHyw==.name=What Are You, a Seamstress?
@@ -11050,49 +11058,33 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABBA==.desc=I have mastered the basics. M
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABCQ==.name=Creating a Better Wand
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABCQ==.desc=This greatwood wand is nice, but it can only store 50 vis. Not enough to move nodes. My attempts to use silverwood failed, but I've come across other mundane materials that I could use to make a new wand core.
 
-# Quest: Obsidian Rod
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABCA==.name=Obsidian Rod
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABCA==.desc=By using obsidian and some earth clusters, I'm able to create a magically infused rod, that will slowly recharge its own terra vis.
+# Quest: Primal Charm
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADbw==.name=Primal Charm
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADbw==.desc=With your new 50 vis wand you are able to make a Scepter which holds up to 75 vis.%nFirst you need some primal charms which cost 50 vis to craft.
 
-# Quest: Quartz Rod
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABCw==.name=Quartz Rod
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABCw==.desc=By using nether quartz and some order clusters, I'm able to create a magically infused rod, that will slowly recharge its own ordo vis.
+# Quest: Scepter With 75 Vis Capacity
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADbQ==.name=Scepter With 75 Vis Capacity
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADbQ==.desc=A scepter is crafted from a wand core, a primal charm, three wand caps, a twilight forest monster mob drop, and some screws. Any sort of core or cap may be used, but the caps must match each other. A scepter cannot hold a focus, but holds 150 percent as much vis as a wand with the same core, and gives an additional 10 percent discount for costs, beyond any discounts from its caps or the user's worn equipment. 
 
-# Quest: Reed Rod
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABDA==.name=Reed Rod
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABDA==.desc=By using sugar cane and some air clusters, I'm able to create a magically infused rod, that will slowly recharge its own aer vis.
+# Quest: Fool's Gold
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJaw==.name=Fool's Gold
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJaw==.desc=After holding a Primal Charm for a while, you suddenly understand some of it's whispers! It tells of a land filled with untold riches, just waiting for someone to claim them. You scoff at the claim, but apparently if you "Open the Eye" and create a very fancy carved stone, you can create a portal there. But this eye it speaks of...just what is it? Maybe by delving into the darker realm of magic...bah! Only fools would believe such nonsense.
 
-# Quest: Blazing Rod
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABDQ==.name=Blazing Rod
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABDQ==.desc=By using a blaze rod and some fire clusters, I'm able to create a magically infused rod, that will slowly recharge its own ignis vis.
+# Quest: So many options for the core!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMiA==.name=So many options for the core!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMiA==.desc=So many options for my next wand core! The six elemental options are icy, blazing, bone, obsidian, reed, and quartz. They are all pretty similar.%n%nThe last two options are more interesting. A transmutative wand has the same capacity while being cheaper to craft! It also has a nice ability that makes it easier to charge.%n%nAt last, the thaumium core creates a wand with a slightly higher capacity. But it is also more expensive to craft than the others. Depending on your discounts you might not be able to get it immediately and have to go for one of the other options first.%n%n§3You only need to do one of the tasks.
 
-# Quest: Icy Rod
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABDg==.name=Icy Rod
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABDg==.desc=By using hardened ice and some water clusters, I'm able to create a magically infused rod, that will slowly recharge its own aqua vis.
-
-# Quest: Bone Rod
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABDw==.name=Bone Rod
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABDw==.desc=Forbidden? Pah. I don't care about headaches. By using bone and entropy clusters, I'm able to create a magically infused rod that will slowly recharge its own perditio vis.
-
-# Quest: Transmutative Rod
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMiA==.name=Transmutative Rod
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMiA==.desc=Combining Salis Mundis and some clusters, I can get upgrade a greatwood rod to a transmutative rod. Now that looks like a particularly interesting option!
-
-# Quest: More Energetic Screws
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABCg==.name=More Energetic Screws
+# Quest: More Energetic Screws to Finish the New Wand
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABCg==.name=More Energetic Screws to Finish the New Wand
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABCg==.desc=Those stainless steel screws don't work on these rods. Due to the huge amounts of vis those wands can carry, the screws somehow "melt" away. I need a material that can handle these energies. I should try energetic alloy next.%n%n§3If you are struggling to make the next wand in this step or one of the next, you should try to get more discount on your gear.%n%nAlso look at the various caps, the better ones are more expensive to craft but give discounts or other benefits. In many situations you might need to start with cheap ones and only make the better caps later.%n%nYou can also improve your wand with augmentations.
 
 # Quest: A Silverwood Wand at Last
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABBw==.name=A Silverwood Wand at Last
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABBw==.desc=I tried to combine the lich bones I had with a silverwood rod. The result: A pile of ashes. It crumbled to dust within seconds. I need a better conductor. The hydra in the Twilight Forest has the ability to regrow an entire head! Her blood must contain a large amount of magic. I guess I need a bit of that to finally complete my silverwood wand.
 
-# Quest: An Even Better Conductor?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABBg==.name=An Even Better Conductor?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABBg==.desc=More... I want MOOORE! There must be something even stronger than the hydra. Something older, more ancient.
-
 # Quest: An Awesome Magic Conductor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABBQ==.name=An Awesome Magic Conductor
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABBQ==.desc=These tears, WOW! I've never felt something so strong. Could it be? Could I make an even more powerful wand with these?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABBQ==.desc=More... I want MOOORE! There must be something even stronger than the hydra. Something older, more ancient.%n%nThese tears, WOW! I've never felt something so strong. Could it be? Could I make an even more powerful wand with these?
 
 # Quest: Reactor Material
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABEg==.name=Reactor Material
@@ -11105,18 +11097,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABEQ==.desc=This blood seems pretty commo
 # Quest: Oriharukon Screws
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFeg==.name=Oriharukon Screws
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFeg==.desc=Enderium screws are nice, but they seem to break if too much vis channels through them. Get some Oriharukon screws.
-
-# Quest: A Magical Box
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH5A==.name=A Magical Box
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH5A==.desc=This magical box is amazing. No matter how many are created, they all seem to connect to the same dimension. I can store items in one location, and pull them out somewhere else!%n%nI can use dyes on the top of the box to assign its location, and any box with the same colors will share the same space. Using a diamond on the box locks it to me, and me alone.%n%nShift-rightclicking will remove the diamond and the chest will rejoin the public network.
-
-# Quest: That Chest is Too Big to Carry Around
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH5g==.name=That Chest is Too Big to Carry Around
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH5g==.desc=Instead of chest you have to keep placing and breaking, how about a nice convenient pouch you can use? You'll have to synchronize it with the chest you want to link with. To set it to a new chest, sneak-click with the pouch on a new chest.
-
-# Quest: A Magical Tank
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH5Q==.name=A Magical Tank
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH5Q==.desc=This tank always seems to connect to the same dimensional space. I can push fluids into the tank in one dimension, and retrieve them in a totally different dimension!%n%nI have discovered a way to assign a location to each tank using dyes applied to the top. Using a diamond makes the tank private, attuned to the user's mind, and will not share fluids with any other player's tanks.%n%nShift-rightclicking recovers the diamond and makes the tank part of the public tank network again.%n%nThe dial on front controls the input/output of the tank. When blue is up, the tank accepts fluids. When orange is up, the tank will eject fluids.%n%n§3If you get FPS problems from large numbers of them, try the setting in the config to turn off the fancy render at the bottom.
 
 # Quest: Enchanting Like a Pro
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABMA==.name=Enchanting Like a Pro
@@ -11138,6 +11118,18 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADdw==.desc=Join the core with two wand c
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEpw==.name=Magic "Staffter"
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEpw==.desc=It is also possible to create a bizarre hybrid of staff and scepter (sometimes called a "staffter"), by using a staff core instead of a wand core in the scepter recipe. The resulting device can neither hold a focus nor be placed in a crafting table, but it can still be used to activate constructs, or as a "vis battery" for Repair-enchanted equipment or Runic shielding.
 
+# Quest: A Magical Box
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH5A==.name=A Magical Box
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH5A==.desc=This magical box is amazing. No matter how many are created, they all seem to connect to the same dimension. I can store items in one location, and pull them out somewhere else!%n%nI can use dyes on the top of the box to assign its location, and any box with the same colors will share the same space. Using a diamond on the box locks it to me, and me alone.%n%nShift-rightclicking will remove the diamond and the chest will rejoin the public network.
+
+# Quest: That Chest is Too Big to Carry Around
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH5g==.name=That Chest is Too Big to Carry Around
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH5g==.desc=Instead of chest you have to keep placing and breaking, how about a nice convenient pouch you can use? You'll have to synchronize it with the chest you want to link with. To set it to a new chest, sneak-click with the pouch on a new chest.
+
+# Quest: A Magical Tank
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH5Q==.name=A Magical Tank
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH5Q==.desc=This tank always seems to connect to the same dimensional space. I can push fluids into the tank in one dimension, and retrieve them in a totally different dimension!%n%nI have discovered a way to assign a location to each tank using dyes applied to the top. Using a diamond makes the tank private, attuned to the user's mind, and will not share fluids with any other player's tanks.%n%nShift-rightclicking recovers the diamond and makes the tank part of the public tank network again.%n%nThe dial on front controls the input/output of the tank. When blue is up, the tank accepts fluids. When orange is up, the tank will eject fluids.%n%n§3If you get FPS problems from large numbers of them, try the setting in the config to turn off the fancy render at the bottom.
+
 # Quest: Disenchanted 
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIFA==.name=Disenchanted 
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIFA==.desc=If you found an item or book with a good enchantment - but also a bunch of garbage, you can strip the enchantments into separate books using a Disenchanter. Surround it with bookcases to reduce damage done to the item.
@@ -11145,18 +11137,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIFA==.desc=If you found an item or book 
 # Quest: Who Needs Friends?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI3A==.name=Who Needs Friends?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI3A==.desc=Luggage is better than a dumb old traveling trunk. It automatically picks up dropped items, saving you time while mining. It's near-invulnerable, including in lava. It will follow you like an eager puppy, to the ends of the earth - but you probably should pick her up before changing dimensions. A lightning strike can provide more room. Shift right-clicking will turn it back into an item without losing its contents. Look for her in the GTNH tab of the Thaumonomicon.
-
-# Quest: Primal Charm
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADbw==.name=Primal Charm
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADbw==.desc=With your new 50 vis wand you are able to make a Scepter which holds up to 75 vis.%nFirst you need some primal charms which cost 50 vis to craft.
-
-# Quest: Scepter With 75 Vis Capacity
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADbQ==.name=Scepter With 75 Vis Capacity
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADbQ==.desc=A scepter is crafted from a wand core, a primal charm, three wand caps, a twilight forest monster mob drop, and some screws. Any sort of core or cap may be used, but the caps must match each other. A scepter cannot hold a focus, but holds 150 percent as much vis as a wand with the same core, and gives an additional 10 percent discount for costs, beyond any discounts from its caps or the user's worn equipment. 
-
-# Quest: Fool's Gold
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJaw==.name=Fool's Gold
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJaw==.desc=After holding a Primal Charm for a while, you suddenly understand some of it's whispers! It tells of a land filled with untold riches, just waiting for someone to claim them. You scoff at the claim, but apparently if you "Open the Eye" and create a very fancy carved stone, you can create a portal there. But this eye it speaks of...just what is it? Maybe by delving into the darker realm of magic...bah! Only fools would believe such nonsense.
 
 # Quest: Best Wand Caps Ever
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABEA==.name=Best Wand Caps Ever

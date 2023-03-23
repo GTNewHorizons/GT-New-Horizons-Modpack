@@ -3,10 +3,10 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 265
+      "questIDLow:4": 138
     }
   },
-  "questIDLow:4": 269,
+  "questIDLow:4": 953,
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
@@ -16,9 +16,9 @@
       "isMain:1": 0,
       "simultaneous:1": 0,
       "icon:10": {
-        "id:8": "Thaumcraft:WandRod",
+        "id:8": "gregtech:gt.blockmachines",
         "Count:3": 1,
-        "Damage:2": 6,
+        "Damage:2": 30762,
         "OreDict:8": ""
       },
       "snd_update:8": "random.levelup",
@@ -26,12 +26,12 @@
       "globalShare:1": 1,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "Blazing Rod",
+      "name:8": "Dark Steel Pipes",
       "isGlobal:1": 0,
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "By using a blaze rod and some fire clusters, I\u0027m able to create a magically infused rod, that will slowly recharge its own ignis vis."
+      "desc:8": "Dark steel pipes are much better than the bronze, steel, or potin pipes you might have been using. Make sure your wrench can handle mining level 3 or you can\u0027t deconstruct them.\n\n§3If you don\u0027t need these, just recycle them to get the materials back. Not everything needs ginormous pipes or high heat tolerance."
     }
   },
   "tasks:9": {
@@ -44,9 +44,9 @@
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "Thaumcraft:WandRod",
-          "Count:3": 1,
-          "Damage:2": 6,
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 16,
+          "Damage:2": 30762,
           "OreDict:8": ""
         }
       },
@@ -59,9 +59,22 @@
       "index:3": 0,
       "rewards:9": {
         "0:10": {
-          "id:8": "Thaumcraft:ItemLootBag",
+          "id:8": "gregtech:gt.metatool.01",
           "Count:3": 1,
-          "Damage:2": 1,
+          "tag:10": {
+            "GT.ToolStats:10": {
+              "PrimaryMaterial:8": "DamascusSteel",
+              "MaxDamage:4": 128000,
+              "SecondaryMaterial:8": "DamascusSteel"
+            }
+          },
+          "Damage:2": 16,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 5,
           "OreDict:8": ""
         }
       }
@@ -71,8 +84,8 @@
       "index:3": 1,
       "rewards:9": {
         "0:10": {
-          "id:8": "dreamcraft:item.CoinDarkWizardI",
-          "Count:3": 5,
+          "id:8": "dreamcraft:item.CoinTechnician",
+          "Count:3": 25,
           "Damage:2": 0,
           "OreDict:8": ""
         }
