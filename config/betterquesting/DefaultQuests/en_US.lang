@@ -2583,6 +2583,66 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALZQ==.desc=You don't need them this tier
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEzw==.name=§9§lYou're Gonna Hate This 1-4 in HV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEzw==.desc=Pumps, pistons, conveyor modules and robot arms are the most needed machine parts in HV. Go and craft one of each.
 
+# Quest: §9§lPlaying With Dust
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADAQ==.name=§9§lPlaying With Dust
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADAQ==.desc=This machine will help you turn dust into crystals which you will need for high tier recipes. 
+
+# Quest: §9§lAvengers, Assemble! 3
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADAg==.name=§9§lAvengers, Assemble! 3
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADAg==.desc=You know what this does. :D
+
+# Quest: §9§lChunkloading
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF-Q==.name=§9§lChunkloading
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF-Q==.desc=With your HV assembler you can craft a world anchor. So let's make one. It will again load a 3x3 chunk area.%n%nYou need coins to power the world anchor, it will run a varying amount depending on the coin used. %n%n§aPersonal Anchors§r are loaded once the owner visits, and stays loaded while the player is logged in.%n%n§9Passive Anchors§r are loaded once the owner visits, and stays loaded until the server resets.%n%n§4World Anchors§r are always loaded, even after a server reset.%n%n§3Check with server operators in case world anchors are disabled. On the official servers, world anchors are currently disabled to keep TPS high
+
+# Quest: §9§e§9§lHV Energy Hatch
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHbw==.name=§9§e§9§lHV Energy Hatch
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHbw==.desc=The HV energy hatch is crucial to a faster EBF that can do higher tier recipes.%n%nYou'll need to make He coolant cells or NaK coolant cells using a fluid canner. Follow NEI to figure out how to make them, and the rest.%n%nNote that you'll need a cleanroom, vacuum freezer, and new coils.
+
+# Quest: §9§lAuto Mining HV
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADpA==.name=§9§lAuto Mining HV
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADpA==.desc=The HV miner is faster, has longer range, and has more fortune than the previous two. If you want a better one, look in the multiblock tab. It's recommend to take one with you to the Moon to gather meteoric iron.
+
+# Quest: §9§lNeed a Place For All Those Ores?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF7Q==.name=§9§lNeed a Place For All Those Ores?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF7Q==.desc=How about a compressed chest from Avaritia? This 243 slot chest will hold it's contents when broken, so no need for a slow-inducing dolly!
+
+# Quest: §9§lUniversal Macerator
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEjA==.name=§9§lUniversal Macerator
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEjA==.desc=One of the most important machines in HV is the Universal Macerator. It has an additional output slot to get more materials when macerating ores. You want this, really, really, badly. If you get it, you can say goodbye to your Gallium worries!
+
+# Quest: §9§lHV Extruder
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE9w==.name=§9§lHV Extruder
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE9w==.desc=The HV Extruder is needed to extrude tough metals like Tungstensteel and HSS.
+
+# Quest: §9§lHV Bender
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFCQ==.name=§9§lHV Bender
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFCQ==.desc=An HV Bender is 4x faster than your LV Bender, but it also opens up an important recipe - Tin Cans!  %n%nWith this bender you can turn Tin Casings into Tin Cans. Using the Tin Cans with food in a Canner will make Canned Food. This can stack up to 64, and will fully restore your shanks - no need to rotate food types any more! You will eat as much as you need with one click. One drawback is you will no longer get the Well Fed buff with its slight health regen bonus, nor will you gain more hearts from eating new food. Also, these cans don't fit in the lunch bag or lunch box so you don't need those any more.
+
+# Quest: §9§lSeparating Gems From the Dust
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF8Q==.name=§9§lSeparating Gems From the Dust
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF8Q==.desc=The sifter runs sooo slow, you should make an HV sifter to get gems faster. 
+
+# Quest: §9§lShake That Booty...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjA==.name=§9§lShake That Booty...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjA==.desc=...out of the purified ores. Anyways, a Large Sifter will increase your sifting speed significantly. What will you do with all these gems??%n%n§3You need one more casing if you don't want to use 2 energy hatches.
+
+# Quest: §9§lLV Field Generator
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHTw==.name=§9§lLV Field Generator
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHTw==.desc=Field Generators are powerful devices. They're generally used in super tanks, super chests, in UUMatter production and use, or in teleporters. Also, anything someone wanted to make harder to make.
+
+# Quest: §9§lThe Power of Endermen
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAhQ==.name=§9§lThe Power of Endermen
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAhQ==.desc=Elevators are nice, but they're limited to vertical teleportation, and their range is also highly limited. Travel anchors don't have a limitation on angle, you can teleport from one anchor to any other within 128 blocks. You do this by looking at the anchor you wish to travel to and pressing the shift button. You can also name them and even set them as private if you like. They have a 2s cooldown.
+
+# Quest: §9§lHow Much is Too Much Fluid?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHFw==.name=§9§lHow Much is Too Much Fluid?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHFw==.desc=There's no limit to how much fluid you might want to store. Make yourself some super tank III's for all your bulk storage needs.
+
+# Quest: §9§lHow Much is Too Much Cobblestone?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHdQ==.name=§9§lHow Much is Too Much Cobblestone?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHdQ==.desc=A super chest III is just ridiculous. Who would possibly need to store 16 million items? You, that's who.
+
 # Quest: §9§lDimensional Goal: Moon
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAog==.name=§9§lDimensional Goal: Moon
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAog==.desc=HV is about getting to the moon so you can get Titanium, used to make EV and AE2 machines. It's a long and involved task though, so head on over to the Space Race tab for more info.%n%n§3You need IV circuits and the HV assembler to start the tab though.%n%n§6If you're doing the no-rocket run, hold a stack of Titanium Ingots to proceed. Same thing for Tungstensteel when you get to EV.
@@ -2659,65 +2719,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALoA==.desc=Centrifuge the Bauxite Slag t
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGTA==.name=§9§lFind Bastnasite, Monazite and Neodymium
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGTA==.desc=EV motors need Neodymium. Rare Earth is an §ook§r source, but on the Moon you can find a vein with pure Neodymium ore. Bastnasite is a great source of fluorine. And Monazite can be taken apart for more Rare Earth.
 
-# Quest: §9§lPlaying With Dust
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADAQ==.name=§9§lPlaying With Dust
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADAQ==.desc=This machine will help you turn dust into crystals which you will need for high tier recipes. 
-
-# Quest: §9§lAvengers, Assemble! 3
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADAg==.name=§9§lAvengers, Assemble! 3
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADAg==.desc=You know what this does. :D
-
-# Quest: §9§lChunkloading
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF-Q==.name=§9§lChunkloading
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF-Q==.desc=With your HV assembler you can craft a world anchor. So let's make one. It will again load a 3x3 chunk area.%n%nYou need coins to power the world anchor, it will run a varying amount depending on the coin used. %n%n§aPersonal Anchors§r are loaded once the owner visits, and stays loaded while the player is logged in.%n%n§9Passive Anchors§r are loaded once the owner visits, and stays loaded until the server resets.%n%n§4World Anchors§r are always loaded, even after a server reset.%n%n§3Check with server operators in case world anchors are disabled. On the official servers, world anchors are currently disabled to keep TPS high
-
-# Quest: §9§e§9§lHV Energy Hatch
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHbw==.name=§9§e§9§lHV Energy Hatch
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHbw==.desc=The HV energy hatch is crucial to a faster EBF that can do higher tier recipes.%n%nYou'll need to make He coolant cells or NaK coolant cells using a fluid canner. Follow NEI to figure out how to make them, and the rest.%n%nNote that you'll need a cleanroom, vacuum freezer, and new coils.
-
-# Quest: §9§lAuto Mining HV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADpA==.name=§9§lAuto Mining HV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADpA==.desc=The HV miner is faster, has longer range, and has more fortune than the previous two. If you want a better one, look in the multiblock tab. It's recommend to take one with you to the Moon to gather meteoric iron.
-
-# Quest: §9§lNeed a Place For All Those Ores?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF7Q==.name=§9§lNeed a Place For All Those Ores?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF7Q==.desc=How about a compressed chest from Avaritia? This 243 slot chest will hold it's contents when broken, so no need for a slow-inducing dolly!
-
-# Quest: §9§lUniversal Macerator
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEjA==.name=§9§lUniversal Macerator
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEjA==.desc=One of the most important machines in HV is the Universal Macerator. It has an additional output slot to get more materials when macerating ores. You want this, really, really, badly. If you get it, you can say goodbye to your Gallium worries!
-
-# Quest: §9§lHV Extruder
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE9w==.name=§9§lHV Extruder
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE9w==.desc=The HV Extruder is needed to extrude tough metals like Tungstensteel and HSS.
-
-# Quest: §9§lHV Bender
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFCQ==.name=§9§lHV Bender
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFCQ==.desc=An HV Bender is 4x faster than your LV Bender, but it also opens up an important recipe - Tin Cans!  %n%nWith this bender you can turn Tin Casings into Tin Cans. Using the Tin Cans with food in a Canner will make Canned Food. This can stack up to 64, and will fully restore your shanks - no need to rotate food types any more! You will eat as much as you need with one click. One drawback is you will no longer get the Well Fed buff with its slight health regen bonus, nor will you gain more hearts from eating new food. Also, these cans don't fit in the lunch bag or lunch box so you don't need those any more.
-
-# Quest: §9§lSeparating Gems From the Dust
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF8Q==.name=§9§lSeparating Gems From the Dust
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF8Q==.desc=The sifter runs sooo slow, you should make an HV sifter to get gems faster. 
-
-# Quest: §9§lShake That Booty...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjA==.name=§9§lShake That Booty...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjA==.desc=...out of the purified ores. Anyways, a Large Sifter will increase your sifting speed significantly. What will you do with all these gems??%n%n§3You need one more casing if you don't want to use 2 energy hatches.
-
-# Quest: §9§lLV Field Generator
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHTw==.name=§9§lLV Field Generator
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHTw==.desc=Field Generators are powerful devices. They're generally used in super tanks, super chests, in UUMatter production and use, or in teleporters. Also, anything someone wanted to make harder to make.
-
-# Quest: §9§lHow Much is Too Much Fluid?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHFw==.name=§9§lHow Much is Too Much Fluid?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHFw==.desc=There's no limit to how much fluid you might want to store. Make yourself some super tank III's for all your bulk storage needs.
-
-# Quest: §9§lHow Much is Too Much Cobblestone?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHdQ==.name=§9§lHow Much is Too Much Cobblestone?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHdQ==.desc=A super chest III is just ridiculous. Who would possibly need to store 16 million items? You, that's who.
-
-# Quest: §9§lThe Power of Endermen
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAhQ==.name=§9§lThe Power of Endermen
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAhQ==.desc=Elevators are nice, but they're limited to vertical teleportation, and their range is also highly limited. Travel anchors don't have a limitation on angle, you can teleport from one anchor to any other within 128 blocks. You do this by looking at the anchor you wish to travel to and pressing the shift button. You can also name them and even set them as private if you like. They have a 2s cooldown.
+# Quest: SMD Inductors
+betterquesting.quest.3F2OXjxZT-eHWy8E4n1NCg==.name=SMD Inductors
+betterquesting.quest.3F2OXjxZT-eHWy8E4n1NCg==.desc=Now that you have Neodymium you can make the last of the SMDs, the SMD inductor. It can replace Small Coils in your circuit crafting.
 
 
 ## Quest Line: Tier 4 - EV
