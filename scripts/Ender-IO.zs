@@ -447,12 +447,6 @@ recipes.remove(<EnderIO:itemLiquidConduit:6>);
 // --- Item Conduit
 recipes.remove(<EnderIO:itemItemConduit>);
 
-// --- ME Conduit
-recipes.remove(<EnderIO:itemMEConduit>);
-
-// --- Dense ME Conduit
-recipes.remove(<EnderIO:itemMEConduit:1>);
-
 // --- Basic Item Filter
 recipes.remove(<EnderIO:itemBasicFilterUpgrade>);
 
@@ -1323,12 +1317,6 @@ Assembler.addRecipe(<EnderIO:itemLiquidConduit:6>, <gregtech:gt.blockmachines:52
 
 // --- Item Conduit
 Assembler.addRecipe(<EnderIO:itemItemConduit>, <gregtech:gt.blockmachines:5611>, <gregtech:gt.metaitem.01:17378>, <liquid:molten.plastic> * 144, 100, 120);
-
-// --- ME Conduit
-Assembler.addRecipe(<EnderIO:itemMEConduit>, <appliedenergistics2:item.ItemMultiPart:16>, <gregtech:gt.metaitem.01:17856>, <liquid:molten.plastic> * 144, 100, 256);
-
-// --- Dense ME Conduit
-Assembler.addRecipe(<EnderIO:itemMEConduit:1>, <EnderIO:itemMEConduit> * 4, <gregtech:gt.metaitem.01:17028>, <liquid:molten.plastic> * 144, 100, 480);
 
 // --- Network Conduit
 Assembler.addRecipe(<EnderIO:itemOCConduit>, <appliedenergistics2:item.ItemMultiPart:16>, <gregtech:gt.metaitem.01:17381>, <liquid:molten.plastic> * 144, 100, 480);
