@@ -40,5 +40,660 @@
       "taskID:8": "bq_standard:checkbox"
     }
   },
-  "rewards:9": {}
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "Forestry:beePrincessGE",
+          "Count:3": 1,
+          "tag:10": {
+            "MaxH:3": 20,
+            "NA:1": 0,
+            "Health:3": 20,
+            "IsAnalyzed:1": 0,
+            "Genome:10": {
+              "Chromosomes:9": {
+                "0:10": {
+                  "UID1:8": "magicbees.speciesUnusual",
+                  "UID0:8": "magicbees.speciesUnusual",
+                  "Slot:1": 0
+                },
+                "1:10": {
+                  "UID1:8": "forestry.speedSlowest",
+                  "UID0:8": "forestry.speedSlowest",
+                  "Slot:1": 1
+                },
+                "2:10": {
+                  "UID1:8": "forestry.lifespanShorter",
+                  "UID0:8": "forestry.lifespanShorter",
+                  "Slot:1": 2
+                },
+                "3:10": {
+                  "UID1:8": "forestry.fertilityNormal",
+                  "UID0:8": "forestry.fertilityNormal",
+                  "Slot:1": 3
+                },
+                "4:10": {
+                  "UID1:8": "forestry.toleranceBoth2",
+                  "UID0:8": "forestry.toleranceBoth2",
+                  "Slot:1": 4
+                },
+                "5:10": {
+                  "UID1:8": "forestry.boolFalse",
+                  "UID0:8": "forestry.boolFalse",
+                  "Slot:1": 5
+                },
+                "6:10": {
+                  "UID1:8": "forestry.toleranceNone",
+                  "UID0:8": "forestry.toleranceNone",
+                  "Slot:1": 7
+                },
+                "7:10": {
+                  "UID1:8": "forestry.boolTrue",
+                  "UID0:8": "forestry.boolTrue",
+                  "Slot:1": 8
+                },
+                "8:10": {
+                  "UID1:8": "forestry.boolFalse",
+                  "UID0:8": "forestry.boolFalse",
+                  "Slot:1": 9
+                },
+                "9:10": {
+                  "UID1:8": "forestry.flowersVanilla",
+                  "UID0:8": "forestry.flowersVanilla",
+                  "Slot:1": 10
+                },
+                "10:10": {
+                  "UID1:8": "forestry.floweringSlowest",
+                  "UID0:8": "forestry.floweringSlowest",
+                  "Slot:1": 11
+                },
+                "11:10": {
+                  "UID1:8": "forestry.territoryAverage",
+                  "UID0:8": "forestry.territoryAverage",
+                  "Slot:1": 12
+                },
+                "12:10": {
+                  "UID1:8": "forestry.effectNone",
+                  "UID0:8": "forestry.effectNone",
+                  "Slot:1": 13
+                }
+              }
+            }
+          },
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "Forestry:beePrincessGE",
+          "Count:3": 1,
+          "tag:10": {
+            "MaxH:3": 20,
+            "NA:1": 0,
+            "Health:3": 20,
+            "IsAnalyzed:1": 0,
+            "Genome:10": {
+              "Chromosomes:9": {
+                "0:10": {
+                  "UID1:8": "forestry.speciesForest",
+                  "UID0:8": "forestry.speciesForest",
+                  "Slot:1": 0
+                },
+                "1:10": {
+                  "UID1:8": "forestry.speedSlowest",
+                  "UID0:8": "forestry.speedSlowest",
+                  "Slot:1": 1
+                },
+                "2:10": {
+                  "UID1:8": "forestry.lifespanShorter",
+                  "UID0:8": "forestry.lifespanShorter",
+                  "Slot:1": 2
+                },
+                "3:10": {
+                  "UID1:8": "forestry.fertilityHigh",
+                  "UID0:8": "forestry.fertilityHigh",
+                  "Slot:1": 3
+                },
+                "4:10": {
+                  "UID1:8": "forestry.toleranceNone",
+                  "UID0:8": "forestry.toleranceNone",
+                  "Slot:1": 4
+                },
+                "5:10": {
+                  "UID1:8": "forestry.boolFalse",
+                  "UID0:8": "forestry.boolFalse",
+                  "Slot:1": 5
+                },
+                "6:10": {
+                  "UID1:8": "forestry.toleranceNone",
+                  "UID0:8": "forestry.toleranceNone",
+                  "Slot:1": 7
+                },
+                "7:10": {
+                  "UID1:8": "forestry.boolFalse",
+                  "UID0:8": "forestry.boolFalse",
+                  "Slot:1": 8
+                },
+                "8:10": {
+                  "UID1:8": "forestry.boolFalse",
+                  "UID0:8": "forestry.boolFalse",
+                  "Slot:1": 9
+                },
+                "9:10": {
+                  "UID1:8": "forestry.flowersVanilla",
+                  "UID0:8": "forestry.flowersVanilla",
+                  "Slot:1": 10
+                },
+                "10:10": {
+                  "UID1:8": "forestry.floweringSlower",
+                  "UID0:8": "forestry.floweringSlower",
+                  "Slot:1": 11
+                },
+                "11:10": {
+                  "UID1:8": "forestry.territoryAverage",
+                  "UID0:8": "forestry.territoryAverage",
+                  "Slot:1": 12
+                },
+                "12:10": {
+                  "UID1:8": "forestry.effectNone",
+                  "UID0:8": "forestry.effectNone",
+                  "Slot:1": 13
+                }
+              }
+            }
+          },
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "Forestry:beePrincessGE",
+          "Count:3": 1,
+          "tag:10": {
+            "MaxH:3": 30,
+            "NA:1": 0,
+            "Health:3": 30,
+            "IsAnalyzed:1": 0,
+            "Genome:10": {
+              "Chromosomes:9": {
+                "0:10": {
+                  "UID1:8": "forestry.speciesModest",
+                  "UID0:8": "forestry.speciesModest",
+                  "Slot:1": 0
+                },
+                "1:10": {
+                  "UID1:8": "forestry.speedSlower",
+                  "UID0:8": "forestry.speedSlower",
+                  "Slot:1": 1
+                },
+                "2:10": {
+                  "UID1:8": "forestry.lifespanShort",
+                  "UID0:8": "forestry.lifespanShort",
+                  "Slot:1": 2
+                },
+                "3:10": {
+                  "UID1:8": "forestry.fertilityNormal",
+                  "UID0:8": "forestry.fertilityNormal",
+                  "Slot:1": 3
+                },
+                "4:10": {
+                  "UID1:8": "forestry.toleranceBoth1",
+                  "UID0:8": "forestry.toleranceBoth1",
+                  "Slot:1": 4
+                },
+                "5:10": {
+                  "UID1:8": "forestry.boolTrue",
+                  "UID0:8": "forestry.boolTrue",
+                  "Slot:1": 5
+                },
+                "6:10": {
+                  "UID1:8": "forestry.toleranceDown1",
+                  "UID0:8": "forestry.toleranceDown1",
+                  "Slot:1": 7
+                },
+                "7:10": {
+                  "UID1:8": "forestry.boolFalse",
+                  "UID0:8": "forestry.boolFalse",
+                  "Slot:1": 8
+                },
+                "8:10": {
+                  "UID1:8": "forestry.boolFalse",
+                  "UID0:8": "forestry.boolFalse",
+                  "Slot:1": 9
+                },
+                "9:10": {
+                  "UID1:8": "forestry.flowersCacti",
+                  "UID0:8": "forestry.flowersCacti",
+                  "Slot:1": 10
+                },
+                "10:10": {
+                  "UID1:8": "forestry.floweringSlowest",
+                  "UID0:8": "forestry.floweringSlowest",
+                  "Slot:1": 11
+                },
+                "11:10": {
+                  "UID1:8": "forestry.territoryAverage",
+                  "UID0:8": "forestry.territoryAverage",
+                  "Slot:1": 12
+                },
+                "12:10": {
+                  "UID1:8": "forestry.effectNone",
+                  "UID0:8": "forestry.effectNone",
+                  "Slot:1": 13
+                }
+              }
+            }
+          },
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "Forestry:beePrincessGE",
+          "Count:3": 1,
+          "tag:10": {
+            "MaxH:3": 30,
+            "NA:1": 0,
+            "Health:3": 30,
+            "IsAnalyzed:1": 0,
+            "Genome:10": {
+              "Chromosomes:9": {
+                "0:10": {
+                  "UID1:8": "forestry.speciesTropical",
+                  "UID0:8": "forestry.speciesTropical",
+                  "Slot:1": 0
+                },
+                "1:10": {
+                  "UID1:8": "forestry.speedSlower",
+                  "UID0:8": "forestry.speedSlower",
+                  "Slot:1": 1
+                },
+                "2:10": {
+                  "UID1:8": "forestry.lifespanShort",
+                  "UID0:8": "forestry.lifespanShort",
+                  "Slot:1": 2
+                },
+                "3:10": {
+                  "UID1:8": "forestry.fertilityNormal",
+                  "UID0:8": "forestry.fertilityNormal",
+                  "Slot:1": 3
+                },
+                "4:10": {
+                  "UID1:8": "forestry.toleranceUp1",
+                  "UID0:8": "forestry.toleranceUp1",
+                  "Slot:1": 4
+                },
+                "5:10": {
+                  "UID1:8": "forestry.boolFalse",
+                  "UID0:8": "forestry.boolFalse",
+                  "Slot:1": 5
+                },
+                "6:10": {
+                  "UID1:8": "forestry.toleranceUp1",
+                  "UID0:8": "forestry.toleranceUp1",
+                  "Slot:1": 7
+                },
+                "7:10": {
+                  "UID1:8": "forestry.boolFalse",
+                  "UID0:8": "forestry.boolFalse",
+                  "Slot:1": 8
+                },
+                "8:10": {
+                  "UID1:8": "forestry.boolFalse",
+                  "UID0:8": "forestry.boolFalse",
+                  "Slot:1": 9
+                },
+                "9:10": {
+                  "UID1:8": "forestry.flowersJungle",
+                  "UID0:8": "forestry.flowersJungle",
+                  "Slot:1": 10
+                },
+                "10:10": {
+                  "UID1:8": "forestry.floweringSlowest",
+                  "UID0:8": "forestry.floweringSlowest",
+                  "Slot:1": 11
+                },
+                "11:10": {
+                  "UID1:8": "forestry.territoryAverage",
+                  "UID0:8": "forestry.territoryAverage",
+                  "Slot:1": 12
+                },
+                "12:10": {
+                  "UID1:8": "forestry.effectMiasmic",
+                  "UID0:8": "forestry.effectMiasmic",
+                  "Slot:1": 13
+                }
+              }
+            }
+          },
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "4:10": {
+          "id:8": "Forestry:beePrincessGE",
+          "Count:3": 1,
+          "tag:10": {
+            "MaxH:3": 30,
+            "NA:1": 0,
+            "Health:3": 30,
+            "IsAnalyzed:1": 0,
+            "Genome:10": {
+              "Chromosomes:9": {
+                "0:10": {
+                  "UID1:8": "forestry.speciesWintry",
+                  "UID0:8": "forestry.speciesWintry",
+                  "Slot:1": 0
+                },
+                "1:10": {
+                  "UID1:8": "forestry.speedSlower",
+                  "UID0:8": "forestry.speedSlower",
+                  "Slot:1": 1
+                },
+                "2:10": {
+                  "UID1:8": "forestry.lifespanShort",
+                  "UID0:8": "forestry.lifespanShort",
+                  "Slot:1": 2
+                },
+                "3:10": {
+                  "UID1:8": "forestry.fertilityMaximum",
+                  "UID0:8": "forestry.fertilityMaximum",
+                  "Slot:1": 3
+                },
+                "4:10": {
+                  "UID1:8": "forestry.toleranceUp1",
+                  "UID0:8": "forestry.toleranceUp1",
+                  "Slot:1": 4
+                },
+                "5:10": {
+                  "UID1:8": "forestry.boolFalse",
+                  "UID0:8": "forestry.boolFalse",
+                  "Slot:1": 5
+                },
+                "6:10": {
+                  "UID1:8": "forestry.toleranceBoth1",
+                  "UID0:8": "forestry.toleranceBoth1",
+                  "Slot:1": 7
+                },
+                "7:10": {
+                  "UID1:8": "forestry.boolFalse",
+                  "UID0:8": "forestry.boolFalse",
+                  "Slot:1": 8
+                },
+                "8:10": {
+                  "UID1:8": "forestry.boolFalse",
+                  "UID0:8": "forestry.boolFalse",
+                  "Slot:1": 9
+                },
+                "9:10": {
+                  "UID1:8": "forestry.flowersSnow",
+                  "UID0:8": "forestry.flowersSnow",
+                  "Slot:1": 10
+                },
+                "10:10": {
+                  "UID1:8": "forestry.floweringSlowest",
+                  "UID0:8": "forestry.floweringSlowest",
+                  "Slot:1": 11
+                },
+                "11:10": {
+                  "UID1:8": "forestry.territoryAverage",
+                  "UID0:8": "forestry.territoryAverage",
+                  "Slot:1": 12
+                },
+                "12:10": {
+                  "UID1:8": "forestry.effectGlacial",
+                  "UID0:8": "forestry.effectGlacial",
+                  "Slot:1": 13
+                }
+              }
+            }
+          },
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "5:10": {
+          "id:8": "Forestry:beePrincessGE",
+          "Count:3": 1,
+          "tag:10": {
+            "MaxH:3": 20,
+            "NA:1": 0,
+            "Health:3": 20,
+            "IsAnalyzed:1": 0,
+            "Genome:10": {
+              "Chromosomes:9": {
+                "0:10": {
+                  "UID1:8": "forestry.speciesMarshy",
+                  "UID0:8": "forestry.speciesMarshy",
+                  "Slot:1": 0
+                },
+                "1:10": {
+                  "UID1:8": "forestry.speedSlowest",
+                  "UID0:8": "forestry.speedSlowest",
+                  "Slot:1": 1
+                },
+                "2:10": {
+                  "UID1:8": "forestry.lifespanShorter",
+                  "UID0:8": "forestry.lifespanShorter",
+                  "Slot:1": 2
+                },
+                "3:10": {
+                  "UID1:8": "forestry.fertilityNormal",
+                  "UID0:8": "forestry.fertilityNormal",
+                  "Slot:1": 3
+                },
+                "4:10": {
+                  "UID1:8": "forestry.toleranceBoth1",
+                  "UID0:8": "forestry.toleranceBoth1",
+                  "Slot:1": 4
+                },
+                "5:10": {
+                  "UID1:8": "forestry.boolFalse",
+                  "UID0:8": "forestry.boolFalse",
+                  "Slot:1": 5
+                },
+                "6:10": {
+                  "UID1:8": "forestry.toleranceNone",
+                  "UID0:8": "forestry.toleranceNone",
+                  "Slot:1": 7
+                },
+                "7:10": {
+                  "UID1:8": "forestry.boolFalse",
+                  "UID0:8": "forestry.boolFalse",
+                  "Slot:1": 8
+                },
+                "8:10": {
+                  "UID1:8": "forestry.boolFalse",
+                  "UID0:8": "forestry.boolFalse",
+                  "Slot:1": 9
+                },
+                "9:10": {
+                  "UID1:8": "forestry.flowersMushrooms",
+                  "UID0:8": "forestry.flowersMushrooms",
+                  "Slot:1": 10
+                },
+                "10:10": {
+                  "UID1:8": "forestry.floweringSlower",
+                  "UID0:8": "forestry.floweringSlower",
+                  "Slot:1": 11
+                },
+                "11:10": {
+                  "UID1:8": "forestry.territoryAverage",
+                  "UID0:8": "forestry.territoryAverage",
+                  "Slot:1": 12
+                },
+                "12:10": {
+                  "UID1:8": "forestry.effectNone",
+                  "UID0:8": "forestry.effectNone",
+                  "Slot:1": 13
+                }
+              }
+            }
+          },
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "6:10": {
+          "id:8": "Forestry:beePrincessGE",
+          "Count:3": 1,
+          "tag:10": {
+            "MaxH:3": 20,
+            "NA:1": 0,
+            "Health:3": 20,
+            "IsAnalyzed:1": 0,
+            "Genome:10": {
+              "Chromosomes:9": {
+                "0:10": {
+                  "UID1:8": "magicbees.speciesSorcerous",
+                  "UID0:8": "magicbees.speciesSorcerous",
+                  "Slot:1": 0
+                },
+                "1:10": {
+                  "UID1:8": "forestry.speedSlowest",
+                  "UID0:8": "forestry.speedSlowest",
+                  "Slot:1": 1
+                },
+                "2:10": {
+                  "UID1:8": "forestry.lifespanShorter",
+                  "UID0:8": "forestry.lifespanShorter",
+                  "Slot:1": 2
+                },
+                "3:10": {
+                  "UID1:8": "forestry.fertilityHigh",
+                  "UID0:8": "forestry.fertilityHigh",
+                  "Slot:1": 3
+                },
+                "4:10": {
+                  "UID1:8": "forestry.toleranceDown2",
+                  "UID0:8": "forestry.toleranceDown2",
+                  "Slot:1": 4
+                },
+                "5:10": {
+                  "UID1:8": "forestry.boolFalse",
+                  "UID0:8": "forestry.boolFalse",
+                  "Slot:1": 5
+                },
+                "6:10": {
+                  "UID1:8": "forestry.toleranceUp1",
+                  "UID0:8": "forestry.toleranceUp1",
+                  "Slot:1": 7
+                },
+                "7:10": {
+                  "UID1:8": "forestry.boolTrue",
+                  "UID0:8": "forestry.boolTrue",
+                  "Slot:1": 8
+                },
+                "8:10": {
+                  "UID1:8": "forestry.boolFalse",
+                  "UID0:8": "forestry.boolFalse",
+                  "Slot:1": 9
+                },
+                "9:10": {
+                  "UID1:8": "forestry.flowersVanilla",
+                  "UID0:8": "forestry.flowersVanilla",
+                  "Slot:1": 10
+                },
+                "10:10": {
+                  "UID1:8": "forestry.floweringSlowest",
+                  "UID0:8": "forestry.floweringSlowest",
+                  "Slot:1": 11
+                },
+                "11:10": {
+                  "UID1:8": "forestry.territoryAverage",
+                  "UID0:8": "forestry.territoryAverage",
+                  "Slot:1": 12
+                },
+                "12:10": {
+                  "UID1:8": "forestry.effectNone",
+                  "UID0:8": "forestry.effectNone",
+                  "Slot:1": 13
+                }
+              }
+            }
+          },
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "7:10": {
+          "id:8": "Forestry:beePrincessGE",
+          "Count:3": 1,
+          "tag:10": {
+            "MaxH:3": 20,
+            "NA:1": 0,
+            "Health:3": 20,
+            "IsAnalyzed:1": 0,
+            "Genome:10": {
+              "Chromosomes:9": {
+                "0:10": {
+                  "UID1:8": "magicbees.speciesMystical",
+                  "UID0:8": "magicbees.speciesMystical",
+                  "Slot:1": 0
+                },
+                "1:10": {
+                  "UID1:8": "forestry.speedSlowest",
+                  "UID0:8": "forestry.speedSlowest",
+                  "Slot:1": 1
+                },
+                "2:10": {
+                  "UID1:8": "forestry.lifespanShorter",
+                  "UID0:8": "forestry.lifespanShorter",
+                  "Slot:1": 2
+                },
+                "3:10": {
+                  "UID1:8": "forestry.fertilityNormal",
+                  "UID0:8": "forestry.fertilityNormal",
+                  "Slot:1": 3
+                },
+                "4:10": {
+                  "UID1:8": "forestry.toleranceNone",
+                  "UID0:8": "forestry.toleranceNone",
+                  "Slot:1": 4
+                },
+                "5:10": {
+                  "UID1:8": "forestry.boolFalse",
+                  "UID0:8": "forestry.boolFalse",
+                  "Slot:1": 5
+                },
+                "6:10": {
+                  "UID1:8": "forestry.toleranceNone",
+                  "UID0:8": "forestry.toleranceNone",
+                  "Slot:1": 7
+                },
+                "7:10": {
+                  "UID1:8": "forestry.boolTrue",
+                  "UID0:8": "forestry.boolTrue",
+                  "Slot:1": 8
+                },
+                "8:10": {
+                  "UID1:8": "forestry.boolFalse",
+                  "UID0:8": "forestry.boolFalse",
+                  "Slot:1": 9
+                },
+                "9:10": {
+                  "UID1:8": "forestry.flowersVanilla",
+                  "UID0:8": "forestry.flowersVanilla",
+                  "Slot:1": 10
+                },
+                "10:10": {
+                  "UID1:8": "forestry.floweringSlowest",
+                  "UID0:8": "forestry.floweringSlowest",
+                  "Slot:1": 11
+                },
+                "11:10": {
+                  "UID1:8": "forestry.territoryAverage",
+                  "UID0:8": "forestry.territoryAverage",
+                  "Slot:1": 12
+                },
+                "12:10": {
+                  "UID1:8": "forestry.effectNone",
+                  "UID0:8": "forestry.effectNone",
+                  "Slot:1": 13
+                }
+              }
+            }
+          },
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
 }
