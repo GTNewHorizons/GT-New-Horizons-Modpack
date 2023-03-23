@@ -1406,40 +1406,6 @@ Assembler.addRecipe(<appliedenergistics2:item.ItemMultiPart:100>, <appliedenergi
 // --- Fluix Glass Cable
 Assembler.addRecipe(FluixGlassCable * 3, QuartzFiber * 3, FluixDust * 2, 100, 120);
 
-// --- Fluix Covered Cable
-Assembler.addRecipe(FluixCoveredC, FluixGlassCable, <gregtech:gt.metaitem.01:1633>, <liquid:molten.silicone> * 36, 150, 120);
-Assembler.addRecipe(FluixCoveredC, FluixGlassCable, <gregtech:gt.metaitem.01:1633>, <liquid:molten.styrenebutadienerubber> * 36, 150, 120);
-Assembler.addRecipe(FluixCoveredC, FluixGlassCable, <gregtech:gt.metaitem.01:1649>, <liquid:molten.silicone> * 36, 150, 120);
-Assembler.addRecipe(FluixCoveredC, FluixGlassCable, <gregtech:gt.metaitem.01:1649>, <liquid:molten.styrenebutadienerubber> * 36, 150, 120);
-Assembler.addRecipe(FluixCoveredC, FluixGlassCable, <gregtech:gt.integrated_circuit:24> * 0, <liquid:molten.silicone> * 72, 150, 120);
-Assembler.addRecipe(FluixCoveredC, FluixGlassCable, <gregtech:gt.integrated_circuit:24> * 0, <liquid:molten.styrenebutadienerubber> * 108, 150, 120);
-Assembler.addRecipe(FluixCoveredC, FluixGlassCable, <gregtech:gt.integrated_circuit:24> * 0, <liquid:molten.rubber> * 144, 150, 120);
-
-// --- Dense Covered Cable
-Assembler.addRecipe(DenseCoveredC, DenseSmartCable, <gregtech:gt.metaitem.01:1633>, <liquid:molten.silicone> * 72, 200, 480);
-Assembler.addRecipe(DenseCoveredC, DenseSmartCable, <gregtech:gt.metaitem.01:1633>, <liquid:molten.styrenebutadienerubber> * 72, 200, 480);
-Assembler.addRecipe(DenseCoveredC, DenseSmartCable, <gregtech:gt.metaitem.01:1649>, <liquid:molten.silicone> * 72, 200, 480);
-Assembler.addRecipe(DenseCoveredC, DenseSmartCable, <gregtech:gt.metaitem.01:1649>, <liquid:molten.styrenebutadienerubber> * 72, 200, 480);
-Assembler.addRecipe(DenseCoveredC, DenseSmartCable, <gregtech:gt.integrated_circuit:24> * 0, <liquid:molten.silicone> * 144, 200, 480);
-Assembler.addRecipe(DenseCoveredC, DenseSmartCable, <gregtech:gt.integrated_circuit:24> * 0, <liquid:molten.styrenebutadienerubber> * 216, 200, 480);
-
-// --- Ultra Dense Covered Cable
-Assembler.addRecipe(UDenseCoveredC, UDenseSmartCable, <gregtech:gt.metaitem.01:1633>, <liquid:molten.silicone> * 144, 250, 1920);
-Assembler.addRecipe(UDenseCoveredC, UDenseSmartCable, <gregtech:gt.metaitem.01:1633>, <liquid:molten.styrenebutadienerubber> * 144, 250, 1920);
-Assembler.addRecipe(UDenseCoveredC, UDenseSmartCable, <gregtech:gt.metaitem.01:1649>, <liquid:molten.silicone> * 144, 250, 1920);
-Assembler.addRecipe(UDenseCoveredC, UDenseSmartCable, <gregtech:gt.metaitem.01:1649>, <liquid:molten.styrenebutadienerubber> * 144, 250, 1920);
-Assembler.addRecipe(UDenseCoveredC, UDenseSmartCable, <gregtech:gt.integrated_circuit:24> * 0, <liquid:molten.silicone> * 288, 250, 1920);
-Assembler.addRecipe(UDenseCoveredC, UDenseSmartCable, <gregtech:gt.integrated_circuit:24> * 0, <liquid:molten.styrenebutadienerubber> * 432, 250, 1920);
-
-// --- ME Smart Cable Fluix
-Assembler.addRecipe(<appliedenergistics2:item.ItemMultiPart:56> * 4, <appliedenergistics2:item.ItemMultiPart:16> * 4, <ore:circuitGood>, <liquid:molten.conductiveiron> * 144, 100, 120);
-
-// --- ME Dense Cable Fluix
-Assembler.addRecipe(<appliedenergistics2:item.ItemMultiPart:76> * 4, <appliedenergistics2:item.ItemMultiPart:56> * 16, <ore:circuitAdvanced>, <liquid:molten.energeticalloy> * 144, 100, 480);
-
-// --- ME Ultra Dense Cable Fluix
-Assembler.addRecipe(<appliedenergistics2:item.ItemMultiPart:576> * 4, <appliedenergistics2:item.ItemMultiPart:76> * 16, <ore:circuitData>, <liquid:molten.vibrantalloy> * 144, 200, 1920);
-
 // --- ME Storage Bus
 Assembler.addRecipe(<appliedenergistics2:item.ItemMultiPart:220>, [<ore:chestWood>, CertusScrew * 2, <appliedenergistics2:item.ItemMultiPart:440>, NQuartzPlate * 2, <gregtech:gt.metaitem.01:32640>], null, 200, 120);
 
