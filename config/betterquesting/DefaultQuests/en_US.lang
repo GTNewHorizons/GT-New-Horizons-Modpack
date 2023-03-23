@@ -8946,7 +8946,11 @@ betterquesting.quest.VH7nGtkWRp-riK1I3cq5yw==.desc=Your system now has the capab
 
 # Quest: Requestin' a Recipe
 betterquesting.quest.FYOm8b1PRTKsyVjFdpBqjg==.name=Requestin' a Recipe
-betterquesting.quest.FYOm8b1PRTKsyVjFdpBqjg==.desc=Most of the time you are requesting things because you need to craft something. So here is the Logistics Requesting Table.%n%nThis thing comes with a 3*3 crafting grid that you can load with a NEI recipe and request the recipe. There is also an inventory buffer that you can use to store items within.
+betterquesting.quest.FYOm8b1PRTKsyVjFdpBqjg==.desc=Most of the time you are requesting things because you need to craft something. So here is the Logistics Request Table.%n%nThis thing comes with a 3*3 crafting grid that you can load with a NEI recipe and request the recipe. There is also an inventory buffer that you can use to store items within.
+
+# Quest: Crafting on Demand
+betterquesting.quest.8CwALDydSAaz9GGQm5tB-g==.name=Crafting on Demand
+betterquesting.quest.8CwALDydSAaz9GGQm5tB-g==.desc=We can now request items, but it sucks when the systems lack the component while we CAN craft those components.%n%nThe system needs to know how to craft the items it is requesting.%n%nTo get started, get a crafting module. Both automation of machine-crafted recipes and crafting table recipes need this module, in one way or another.%n
 
 # Quest: Remote requests
 betterquesting.quest.MwRByyNxQt-LfGgUqm8QDQ==.name=Remote requests
