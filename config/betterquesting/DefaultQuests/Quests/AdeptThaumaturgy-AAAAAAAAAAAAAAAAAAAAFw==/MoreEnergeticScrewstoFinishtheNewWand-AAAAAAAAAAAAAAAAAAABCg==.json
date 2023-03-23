@@ -3,31 +3,7 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 264
-    },
-    "1:10": {
-      "questIDHigh:4": 0,
       "questIDLow:4": 3208
-    },
-    "2:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 267
-    },
-    "3:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 268
-    },
-    "4:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 269
-    },
-    "5:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 270
-    },
-    "6:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 271
     }
   },
   "questIDLow:4": 266,

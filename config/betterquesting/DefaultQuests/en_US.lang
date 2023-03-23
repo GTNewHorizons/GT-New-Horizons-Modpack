@@ -11058,33 +11058,21 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABBA==.desc=I have mastered the basics. M
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABCQ==.name=Creating a Better Wand
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABCQ==.desc=This greatwood wand is nice, but it can only store 50 vis. Not enough to move nodes. My attempts to use silverwood failed, but I've come across other mundane materials that I could use to make a new wand core.
 
-# Quest: Obsidian Rod
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABCA==.name=Obsidian Rod
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABCA==.desc=By using obsidian and some earth clusters, I'm able to create a magically infused rod, that will slowly recharge its own terra vis.
+# Quest: Primal Charm
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADbw==.name=Primal Charm
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADbw==.desc=With your new 50 vis wand you are able to make a Scepter which holds up to 75 vis.%nFirst you need some primal charms which cost 50 vis to craft.
 
-# Quest: Quartz Rod
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABCw==.name=Quartz Rod
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABCw==.desc=By using nether quartz and some order clusters, I'm able to create a magically infused rod, that will slowly recharge its own ordo vis.
+# Quest: Scepter With 75 Vis Capacity
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADbQ==.name=Scepter With 75 Vis Capacity
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADbQ==.desc=A scepter is crafted from a wand core, a primal charm, three wand caps, a twilight forest monster mob drop, and some screws. Any sort of core or cap may be used, but the caps must match each other. A scepter cannot hold a focus, but holds 150 percent as much vis as a wand with the same core, and gives an additional 10 percent discount for costs, beyond any discounts from its caps or the user's worn equipment. 
 
-# Quest: Reed Rod
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABDA==.name=Reed Rod
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABDA==.desc=By using sugar cane and some air clusters, I'm able to create a magically infused rod, that will slowly recharge its own aer vis.
+# Quest: Fool's Gold
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJaw==.name=Fool's Gold
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJaw==.desc=After holding a Primal Charm for a while, you suddenly understand some of it's whispers! It tells of a land filled with untold riches, just waiting for someone to claim them. You scoff at the claim, but apparently if you "Open the Eye" and create a very fancy carved stone, you can create a portal there. But this eye it speaks of...just what is it? Maybe by delving into the darker realm of magic...bah! Only fools would believe such nonsense.
 
-# Quest: Blazing Rod
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABDQ==.name=Blazing Rod
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABDQ==.desc=By using a blaze rod and some fire clusters, I'm able to create a magically infused rod, that will slowly recharge its own ignis vis.
-
-# Quest: Icy Rod
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABDg==.name=Icy Rod
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABDg==.desc=By using hardened ice and some water clusters, I'm able to create a magically infused rod, that will slowly recharge its own aqua vis.
-
-# Quest: Bone Rod
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABDw==.name=Bone Rod
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABDw==.desc=Forbidden? Pah. I don't care about headaches. By using bone and entropy clusters, I'm able to create a magically infused rod that will slowly recharge its own perditio vis.
-
-# Quest: Transmutative Rod
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMiA==.name=Transmutative Rod
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMiA==.desc=Combining Salis Mundis and some clusters, I can get upgrade a greatwood rod to a transmutative rod. Now that looks like a particularly interesting option!
+# Quest: So many options for the core!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMiA==.name=So many options for the core!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMiA==.desc=So many options for my next wand core! The six elemental options are icy, blazing, bone, obsidian, reed, and quartz. They are all pretty similar.%n%nThe last two options are more interesting. A transmutative wand has the same capacity while being cheaper to craft! It also has a nice ability that makes it easier to charge.%n%nAt last, the thaumium core creates a wand with a slightly higher capacity. But it is also more expensive to craft than the others. Depending on your discounts you might not be able to get it immediately and have to go for one of the other options first.
 
 # Quest: More Energetic Screws to Finish the New Wand
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABCg==.name=More Energetic Screws to Finish the New Wand
@@ -11149,18 +11137,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIFA==.desc=If you found an item or book 
 # Quest: Who Needs Friends?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI3A==.name=Who Needs Friends?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI3A==.desc=Luggage is better than a dumb old traveling trunk. It automatically picks up dropped items, saving you time while mining. It's near-invulnerable, including in lava. It will follow you like an eager puppy, to the ends of the earth - but you probably should pick her up before changing dimensions. A lightning strike can provide more room. Shift right-clicking will turn it back into an item without losing its contents. Look for her in the GTNH tab of the Thaumonomicon.
-
-# Quest: Primal Charm
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADbw==.name=Primal Charm
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADbw==.desc=With your new 50 vis wand you are able to make a Scepter which holds up to 75 vis.%nFirst you need some primal charms which cost 50 vis to craft.
-
-# Quest: Scepter With 75 Vis Capacity
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADbQ==.name=Scepter With 75 Vis Capacity
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADbQ==.desc=A scepter is crafted from a wand core, a primal charm, three wand caps, a twilight forest monster mob drop, and some screws. Any sort of core or cap may be used, but the caps must match each other. A scepter cannot hold a focus, but holds 150 percent as much vis as a wand with the same core, and gives an additional 10 percent discount for costs, beyond any discounts from its caps or the user's worn equipment. 
-
-# Quest: Fool's Gold
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJaw==.name=Fool's Gold
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJaw==.desc=After holding a Primal Charm for a while, you suddenly understand some of it's whispers! It tells of a land filled with untold riches, just waiting for someone to claim them. You scoff at the claim, but apparently if you "Open the Eye" and create a very fancy carved stone, you can create a portal there. But this eye it speaks of...just what is it? Maybe by delving into the darker realm of magic...bah! Only fools would believe such nonsense.
 
 # Quest: Best Wand Caps Ever
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABEA==.name=Best Wand Caps Ever
