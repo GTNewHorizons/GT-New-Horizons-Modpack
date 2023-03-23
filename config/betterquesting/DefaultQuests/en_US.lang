@@ -7153,6 +7153,30 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEOw==.desc=Better machines need some bet
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEOg==.name=MV Battery Buffers
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEOg==.desc=You'll probably want MV battery buffers as well.%n%n§3You only need to complete one task.
 
+# Quest: HV Battery Hulls
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEdw==.name=HV Battery Hulls
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEdw==.desc=Better machines need better batteries. Let's make some HV battery hulls for new batteries.%n%nIt's up to you what kind of battery to make, but realistically you'll probably make Sodium or Lithium.
+
+# Quest: HV Battery
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEeA==.name=HV Battery
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEeA==.desc=Better machines need some better batteries. Lithium is the best material to use when making batteries, at least for LV-HV.%n%n§3You only need to complete one task.
+
+# Quest: HV Battery Buffers
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEdg==.name=HV Battery Buffers
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEdg==.desc=You'll probably want HV battery buffers as well.%n%n§3You only need to complete one task.
+
+# Quest: EV Battery Buffer
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE7g==.name=EV Battery Buffer
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE7g==.desc=It's EV, ok?%n%n§3Complete one task.
+
+# Quest: EV Sunnarium Battery
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE8A==.name=EV Sunnarium Battery
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE8A==.desc=Small Sunnarium batteries are EV tier. Some might think they're cheaper than Lapotrons, but it depends on Sunnarium. And they hold less energy.
+
+# Quest: EV GT++ Batteries
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE8Q==.name=EV GT++ Batteries
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE8Q==.desc=Want cheaper EV batteries? Mash your old ones together, and somehow it works!
+
 # Quest: Energy Crystals
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADFQ==.name=Energy Crystals
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADFQ==.desc=Make energium out of ruby and redstone dusts in the MV mixer. Then use the autoclave to make Energy Crystals. Energy crystals can store 1 million EU and work as an HV battery.
@@ -7225,33 +7249,25 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAM3w==.desc=An even more expensive capaci
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEbw==.name=§5§lULV Transformer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEbw==.desc=To get your simple ore washer working you need a ULV Transformer. The Washer can only work with 8 EU. If you put more energy into it you get a big hole in your base.%n%n§3This will probably be the only one you make in the game.
 
-# Quest: HV Battery Hulls
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEdw==.name=HV Battery Hulls
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEdw==.desc=Better machines need better batteries. Let's make some HV battery hulls for new batteries.%n%nIt's up to you what kind of battery to make, but realistically you'll probably make Sodium or Lithium.
-
-# Quest: HV Battery
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEeA==.name=HV Battery
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEeA==.desc=Better machines need some better batteries. Lithium is the best material to use when making batteries, at least for LV-HV.%n%n§3You only need to complete one task.
-
-# Quest: HV Battery Buffers
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEdg==.name=HV Battery Buffers
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEdg==.desc=You'll probably want HV battery buffers as well.%n%n§3You only need to complete one task.
-
-# Quest: EV Battery Buffer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE7g==.name=EV Battery Buffer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE7g==.desc=It's EV, ok?%n%n§3Complete one task.
-
-# Quest: EV Sunnarium Battery
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE8A==.name=EV Sunnarium Battery
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE8A==.desc=Small Sunnarium batteries are EV tier. Some might think they're cheaper than Lapotrons, but it depends on Sunnarium. And they hold less energy.
-
-# Quest: EV GT++ Batteries
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE8Q==.name=EV GT++ Batteries
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE8Q==.desc=Want cheaper EV batteries? Mash your old ones together, and somehow it works!
-
 # Quest: Low Voltage Transformer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE8g==.name=Low Voltage Transformer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE8g==.desc=It's possible to run MV machines while still in LV tier. Build a transformer and use 4 power sources 32 eu/t to power one 128 eu/t machine. You can change the mode of a transformer with a soft mallet. If the transformer is wired and loaded then DO NOT change the mode otherwise there probably will be a big explosion. Be careful when switching directions - better to break and replace than rotate with the wrench and blow up a line of machines.%n%nTransformers will transform§r power up OR down, depending on the mode, which you switch with a soft mallet. Up means 4A LV to 1A MV, while down means the reverse.%n%nIn step down mode (which is the default), the large dot is the input. In step up mode, it's the output. §4DO NOT MIX THIS UP IF YOU DON'T WANT AN EXPLOSION!§r LV machines that receive MV power explode! If the transformer is connected to power, or was in the past, then DO NOT change the mode with stuff connected, otherwise there probably will be a big §4explosion§r. It's better to break and re-place (to get rid of stored power) than rotate with the wrench and blow up a line of machines. Make sure to also disconnect the nearby wires with a wire cutter too.
+
+# Quest: Medium Voltage Transformer
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE8w==.name=Medium Voltage Transformer
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE8w==.desc=These work the same as the LV ones, but 1 tier higher.
+
+# Quest: Transformers, Roll Out!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHgg==.name=Transformers, Roll Out!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHgg==.desc=When you get to HV you'll want to start thinking about centralizing power generation and delivering power over longer distances. An HV to EV transformer will let you send power across your base without too much penalty.
+
+# Quest: Not Enough Amps?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHgw==.name=Not Enough Amps?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHgw==.desc=How about 4x more? A Hi-Amp transformer will transform 4A to 16A. Great for setting up a large power grid and locating polluting power generators further from your base.
+
+# Quest: More Than 4 Amps? Crazy!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHhA==.name=More Than 4 Amps? Crazy!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHhA==.desc=For the truly insane, there is a 16 to 64 A power amp transformer. Just ludicrous!
 
 # Quest: LV High-Amp Transformer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE9A==.name=LV High-Amp Transformer
@@ -7260,10 +7276,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAE9A==.desc=If you need a transformer wit
 # Quest: Low Voltage Power Transformer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE9Q==.name=Low Voltage Power Transformer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE9Q==.desc=If you need even more amps then craft a power transformer. This one is 16A -> 64A. The soft mallet is still how you change modes.
-
-# Quest: Medium Voltage Transformer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE8w==.name=Medium Voltage Transformer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE8w==.desc=These work the same as the LV ones, but 1 tier higher.
 
 # Quest: EU packets flowing everywhere...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFig==.name=EU packets flowing everywhere...
@@ -7300,18 +7312,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHJg==.desc=To reach the highest Voltage 
 # Quest: Manual Transformer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHHg==.name=Manual Transformer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHHg==.desc=Annoyed by building Chains of transformers? Dont want an Explosion Risk at your base? Want to use these fancy 64A Hatches and Dynamos from TecTech to convert your power? Make a Manual Dynamo and convert it all!%n%n§3Also needs a muffler, energy hatch, and dynamo. Not guaranteed to work, wishing you all the best though.
-
-# Quest: Transformers, Roll Out!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHgg==.name=Transformers, Roll Out!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHgg==.desc=When you get to HV you'll want to start thinking about centralizing power generation and delivering power over longer distances. An HV to EV transformer will let you send power across your base without too much penalty.
-
-# Quest: Not Enough Amps?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHgw==.name=Not Enough Amps?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHgw==.desc=How about 4x more? A Hi-Amp transformer will transform 4A to 16A. Great for setting up a large power grid and locating polluting power generators further from your base.
-
-# Quest: More Than 4 Amps? Crazy!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHhA==.name=More Than 4 Amps? Crazy!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHhA==.desc=For the truly insane, there is a 16 to 64 A power amp transformer. Just ludicrous!
 
 # Quest: Transform and...Stay Put Actually
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKqw==.name=Transform and...Stay Put Actually
