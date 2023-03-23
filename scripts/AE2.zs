@@ -46,12 +46,6 @@ val FluixDust = <appliedenergistics2:item.ItemMultiMaterial:8>;
 val PureFluixCrystal = <appliedenergistics2:item.ItemMultiMaterial:12>;
 val CCertusQuartz = <appliedenergistics2:item.ItemMultiMaterial:1>;
 val PureCertusQCrystal = <appliedenergistics2:item.ItemMultiMaterial:10>;
-val FluixGlassCable = <appliedenergistics2:item.ItemMultiPart:16>;
-val FluixCoveredC = <appliedenergistics2:item.ItemMultiPart:36>;
-val DenseSmartCable = <appliedenergistics2:item.ItemMultiPart:76>;
-val DenseCoveredC = <appliedenergistics2:item.ItemMultiPart:536>;
-val UDenseSmartCable = <appliedenergistics2:item.ItemMultiPart:576>;
-val UDenseCoveredC = <appliedenergistics2:item.ItemMultiPart:556>;
 val FormationCore = <appliedenergistics2:item.ItemMultiMaterial:43>;
 val AnnihilationCore = <appliedenergistics2:item.ItemMultiMaterial:44>;
 val WirelessReceiver = <appliedenergistics2:item.ItemMultiMaterial:41>;
@@ -64,6 +58,7 @@ val QuartzFixture = <appliedenergistics2:tile.BlockQuartzTorch>;
 val LightDetector = <appliedenergistics2:tile.BlockLightDetector>;
 val TinyTNT = <appliedenergistics2:tile.BlockTinyTNT>;
 val ITNT = <IC2:blockITNT>;
+val FluixGlassCable = <appliedenergistics2:item.ItemMultiPart:16>;
 
 val EVElectrolyzer = <gregtech:gt.blockmachines:374>;
 val AlCable = <ore:cableGt08Aluminium>;
@@ -142,120 +137,6 @@ val IronRod = <ore:stickIron>;
 val LuVMotor = <gregtech:gt.metaitem.01:32606>;
 val LuVConveyorbelt = <gregtech:gt.metaitem.01:32635>;
 val LuVRobotarm = <gregtech:gt.metaitem.01:32655>;
-
-var coveredColored = [
-<appliedenergistics2:item.ItemMultiPart:20>,
-<appliedenergistics2:item.ItemMultiPart:21>,
-<appliedenergistics2:item.ItemMultiPart:22>,
-<appliedenergistics2:item.ItemMultiPart:23>,
-<appliedenergistics2:item.ItemMultiPart:24>,
-<appliedenergistics2:item.ItemMultiPart:25>,
-<appliedenergistics2:item.ItemMultiPart:26>,
-<appliedenergistics2:item.ItemMultiPart:27>,
-<appliedenergistics2:item.ItemMultiPart:28>,
-<appliedenergistics2:item.ItemMultiPart:29>,
-<appliedenergistics2:item.ItemMultiPart:30>,
-<appliedenergistics2:item.ItemMultiPart:31>,
-<appliedenergistics2:item.ItemMultiPart:32>,
-<appliedenergistics2:item.ItemMultiPart:33>,
-<appliedenergistics2:item.ItemMultiPart:34>,
-<appliedenergistics2:item.ItemMultiPart:35>]
-as IItemStack[];
-
-var smartColored = [
-<appliedenergistics2:item.ItemMultiPart:40>,
-<appliedenergistics2:item.ItemMultiPart:41>,
-<appliedenergistics2:item.ItemMultiPart:42>,
-<appliedenergistics2:item.ItemMultiPart:43>,
-<appliedenergistics2:item.ItemMultiPart:44>,
-<appliedenergistics2:item.ItemMultiPart:45>,
-<appliedenergistics2:item.ItemMultiPart:46>,
-<appliedenergistics2:item.ItemMultiPart:47>,
-<appliedenergistics2:item.ItemMultiPart:48>,
-<appliedenergistics2:item.ItemMultiPart:49>,
-<appliedenergistics2:item.ItemMultiPart:50>,
-<appliedenergistics2:item.ItemMultiPart:51>,
-<appliedenergistics2:item.ItemMultiPart:52>,
-<appliedenergistics2:item.ItemMultiPart:53>,
-<appliedenergistics2:item.ItemMultiPart:54>,
-<appliedenergistics2:item.ItemMultiPart:55>]
-as IItemStack[];
-
-var denseColored = [
-<appliedenergistics2:item.ItemMultiPart:60>,
-<appliedenergistics2:item.ItemMultiPart:61>,
-<appliedenergistics2:item.ItemMultiPart:62>,
-<appliedenergistics2:item.ItemMultiPart:63>,
-<appliedenergistics2:item.ItemMultiPart:64>,
-<appliedenergistics2:item.ItemMultiPart:65>,
-<appliedenergistics2:item.ItemMultiPart:66>,
-<appliedenergistics2:item.ItemMultiPart:67>,
-<appliedenergistics2:item.ItemMultiPart:68>,
-<appliedenergistics2:item.ItemMultiPart:69>,
-<appliedenergistics2:item.ItemMultiPart:70>,
-<appliedenergistics2:item.ItemMultiPart:71>,
-<appliedenergistics2:item.ItemMultiPart:72>,
-<appliedenergistics2:item.ItemMultiPart:73>,
-<appliedenergistics2:item.ItemMultiPart:74>,
-<appliedenergistics2:item.ItemMultiPart:75>]
-as IItemStack[];
-
-var denseCoveredColored = [
-<appliedenergistics2:item.ItemMultiPart:520>,
-<appliedenergistics2:item.ItemMultiPart:521>,
-<appliedenergistics2:item.ItemMultiPart:522>,
-<appliedenergistics2:item.ItemMultiPart:523>,
-<appliedenergistics2:item.ItemMultiPart:524>,
-<appliedenergistics2:item.ItemMultiPart:525>,
-<appliedenergistics2:item.ItemMultiPart:526>,
-<appliedenergistics2:item.ItemMultiPart:527>,
-<appliedenergistics2:item.ItemMultiPart:528>,
-<appliedenergistics2:item.ItemMultiPart:529>,
-<appliedenergistics2:item.ItemMultiPart:530>,
-<appliedenergistics2:item.ItemMultiPart:531>,
-<appliedenergistics2:item.ItemMultiPart:532>,
-<appliedenergistics2:item.ItemMultiPart:533>,
-<appliedenergistics2:item.ItemMultiPart:534>,
-<appliedenergistics2:item.ItemMultiPart:535>]
-as IItemStack[];
-
-var denseUltraCoveredColored = [
-<appliedenergistics2:item.ItemMultiPart:540>,
-<appliedenergistics2:item.ItemMultiPart:541>,
-<appliedenergistics2:item.ItemMultiPart:542>,
-<appliedenergistics2:item.ItemMultiPart:543>,
-<appliedenergistics2:item.ItemMultiPart:544>,
-<appliedenergistics2:item.ItemMultiPart:545>,
-<appliedenergistics2:item.ItemMultiPart:546>,
-<appliedenergistics2:item.ItemMultiPart:547>,
-<appliedenergistics2:item.ItemMultiPart:548>,
-<appliedenergistics2:item.ItemMultiPart:549>,
-<appliedenergistics2:item.ItemMultiPart:550>,
-<appliedenergistics2:item.ItemMultiPart:551>,
-<appliedenergistics2:item.ItemMultiPart:552>,
-<appliedenergistics2:item.ItemMultiPart:553>,
-<appliedenergistics2:item.ItemMultiPart:554>,
-<appliedenergistics2:item.ItemMultiPart:555>]
-as IItemStack[];
-
-var denseUltraSmartColored = [
-<appliedenergistics2:item.ItemMultiPart:560>,
-<appliedenergistics2:item.ItemMultiPart:561>,
-<appliedenergistics2:item.ItemMultiPart:562>,
-<appliedenergistics2:item.ItemMultiPart:563>,
-<appliedenergistics2:item.ItemMultiPart:564>,
-<appliedenergistics2:item.ItemMultiPart:565>,
-<appliedenergistics2:item.ItemMultiPart:566>,
-<appliedenergistics2:item.ItemMultiPart:567>,
-<appliedenergistics2:item.ItemMultiPart:568>,
-<appliedenergistics2:item.ItemMultiPart:569>,
-<appliedenergistics2:item.ItemMultiPart:570>,
-<appliedenergistics2:item.ItemMultiPart:571>,
-<appliedenergistics2:item.ItemMultiPart:572>,
-<appliedenergistics2:item.ItemMultiPart:573>,
-<appliedenergistics2:item.ItemMultiPart:574>,
-<appliedenergistics2:item.ItemMultiPart:575>]
-as IItemStack[];
 
 // --- Blocks ---
 
@@ -347,15 +228,6 @@ recipes.remove(QuartzFiber);
 
 // --- Fluix Glass Cable
 recipes.remove(FluixGlassCable);
-
-// --- Fluix Covered Cable
-recipes.remove(FluixCoveredC);
-
-// --- Dense Covered Cable
-recipes.remove(DenseCoveredC);
-
-// --- Dense Smart Cable
-recipes.remove(DenseSmartCable);
 
 // --- Fluix Crystal
 recipes.remove(FluixCrystal);
@@ -563,9 +435,6 @@ recipes.remove(<appliedenergistics2:item.ItemMultiPart:80>);
 
 // --- ME inverted Toggle Bus
 recipes.remove(<appliedenergistics2:item.ItemMultiPart:100>);
-
-// --- ME Smart Cable
-recipes.remove(<appliedenergistics2:item.ItemMultiPart:56>);
 
 
 // --- Cells ---
@@ -810,17 +679,6 @@ recipes.addShaped(FluixGlassCable * 2, [
 [CertusRod, FluixDust, CertusRod],
 [QuartzFiber, QuartzFiber, QuartzFiber],
 [CertusRod, FluixDust, CertusRod]]);
-
-// --- Fluix Covered Cable
-recipes.addShaped(FluixCoveredC * 3, [
-[RubberPlate, Saw, RubberPlate],
-[FluixGlassCable, FluixGlassCable, FluixGlassCable],
-[RubberPlate, null, RubberPlate]]);
-// - 
-recipes.addShaped(FluixCoveredC * 3, [
-[RubberPlate, null, RubberPlate],
-[FluixGlassCable, FluixGlassCable, FluixGlassCable],
-[RubberPlate, Saw, RubberPlate]]);
 
 // --- Annihilation Core
 recipes.addShaped(AnnihilationCore * 2, [
@@ -1277,25 +1135,6 @@ recipes.addShaped(<appliedenergistics2:item.ToolNetherQuartzCuttingKnife>, [
 [<ore:craftingToolHardHammer>, <ore:screwTitanium>, <ore:stickWood>], 
 [<ore:gemNetherQuartz>, <ore:stickWood>, <ore:screwTitanium>], 
 [<ore:plateNetherQuartz>, <ore:gemNetherQuartz>, <ore:craftingToolFile>]]);
-
-// --- Turn colored cables back to fluix cables
-for i, covered in coveredColored {
-recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:36>, [covered]);}
-
-for i, covered in smartColored {
-recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:56>, [covered]);}
-
-for i, covered in denseColored {
-recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:76>, [covered]);}
-
-for i, covered in denseUltraCoveredColored {
-recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:556>, [covered]);}
-
-for i, covered in denseUltraSmartColored {
-recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:576>, [covered]);}
-
-for i, covered in denseCoveredColored {
-recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:536>, [covered]);}
 
 // --- Avaritia Recipes ---
 
