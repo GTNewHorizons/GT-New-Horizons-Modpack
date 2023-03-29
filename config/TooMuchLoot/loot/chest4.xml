@@ -1,39 +1,46 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <LootGroup category="chest4" loading_mode="OVERRIDE" count_min="5" count_max="10">
 
-		<loot item="gregtech:gt.metaitem.01" damage="32712" weight="15" count_min="1" count_max="2"/>
-	    <loot item="gregtech:gt.metaitem.01" damage="32718" weight="20" count_min="4" count_max="8"/>
-		<loot item="gregtech:gt.metaitem.01" damage="32722" weight="10" count_min="1" count_max="1"/>
-		<loot item="gregtech:gt.metaitem.01" damage="32752" weight="5" count_min="1" count_max="1"/>
-		<loot item="gregtech:gt.metaitem.01" damage="32713" weight="10" count_min="4" count_max="8"/>
-		<loot item="gregtech:gt.metaitem.01" damage="32714" weight="10" count_min="4" count_max="8"/>
-		<loot item="gregtech:gt.metaitem.01" damage="32682" weight="15" count_min="1" count_max="2"/>
-		<loot item="gregtech:gt.metaitem.01" damage="32652" weight="15" count_min="1" count_max="2"/>
-		<loot item="gregtech:gt.metaitem.01" damage="32642" weight="15" count_min="1" count_max="2"/>
-		<loot item="gregtech:gt.metaitem.01" damage="32632" weight="15" count_min="1" count_max="2"/>
-		<loot item="gregtech:gt.metaitem.01" damage="32612" weight="15" count_min="1" count_max="2"/>
-		<loot item="gregtech:gt.metaitem.01" damage="32602" weight="15" count_min="1" count_max="2"/>
-		<loot item="gregtech:gt.metaitem.01" damage="32537" weight="10" count_min="1" count_max="1"/>
-		<loot item="gregtech:gt.metaitem.01" damage="32538" weight="10" count_min="1" count_max="1"/>
-		<loot item="gregtech:gt.metaitem.01" damage="32408" weight="5" count_min="1" count_max="1"/>
-		<loot item="IC2:itemPartCircuitAdv" damage="0" weight="10" count_min="1" count_max="1"/>
-		<loot item="IC2:itemBatLamaCrystal" damage="26" nbt="{}" weight="5" count_min="1" count_max="1"/>
-		<loot item="IC2:itemBatCrystal" damage="26" nbt="{}" weight="10" count_min="1" count_max="1"/>
-		<loot item="IC2:itemCropnalyzer" damage="26" nbt="{}" weight="10" count_min="1" count_max="1"/>
-		<loot item="IC2:itemScanner" damage="26" nbt="{}" weight="10" count_min="1" count_max="1"/>
-		<loot item="IC2:itemScannerAdv" damage="26" nbt="{}" weight="10" count_min="1" count_max="1"/>
-		<loot item="dreamcraft:item.NanoCrystal" damage="0" weight="5" count_min="1" count_max="1"/>												
-		<loot item="gregtech:gt.metaitem.02" damage="30500" weight="10" count_min="1" count_max="2"/>
-		<loot item="gregtech:gt.metaitem.02" damage="30502" weight="10" count_min="1" count_max="2"/>
-		<loot item="gregtech:gt.metaitem.02" damage="30501" weight="10" count_min="1" count_max="2"/>
-		<loot item="gregtech:gt.metaitem.01" damage="32692" weight="15" count_min="1" count_max="2"/>
-		<loot item="gregtech:gt.blockmachines" damage="13" weight="10" count_min="1" count_max="1"/>
-		<loot item="gregtech:gt.blockmachines" damage="131" weight="10" count_min="1" count_max="1"/>
-		<loot item="gregtech:gt.blockmachines" damage="5144" weight="10" count_min="4" count_max="8"/>
-		<loot item="gregtech:gt.blockmachines" damage="1428" weight="25" count_min="4" count_max="8"/>
-		<loot item="gregtech:gt.blockmachines" damage="1423" weight="25" count_min="4" count_max="8"/>
-		<loot item="gregtech:gt.blockcasings5" damage="0" weight="10" count_min="4" count_max="8"/>
-		<loot item="gregtech:gt.blockcasings" damage="11" weight="10" count_min="4" count_max="8"/>
-		<loot item="gregtech:gt.blockcasings2" damage="0" weight="10" count_min="4" count_max="8"/>
-		<loot item="gregtech:gt.blockcasings4" damage="1" weight="10" count_min="4" count_max="8"/>		
+	<loot item="minecraft:brewing_stand" damage="0" weight="5" count_min="1" count_max="1"/>
+	<loot item="minecraft:enchanting_table" damage="0" weight="5" count_min="1" count_max="1"/>
+	<loot item="dreamcraft:item.AluminiumBars" damage="0" weight="20" count_min="4" count_max="8"/>
+	<loot item="ProjRed|Transportation:projectred.transportation.pipe" damage="0" weight="20" count_min="4" count_max="8"/>
+	<loot item="ProjRed|Core:projectred.core.part" damage="44" weight="20" count_min="4" count_max="8"/>
+	<loot item="Forestry:chipsets" damage="0" nbt="{T:0s}" weight="10" count_min="1" count_max="2"/>
+	<loot item="Forestry:chipsets" damage="1" nbt="{T:1s}" weight="10" count_min="1" count_max="2"/>
+	<loot item="Forestry:chipsets" damage="2" nbt="{T:2s}" weight="10" count_min="1" count_max="2"/>
+	<loot item="Forestry:chipsets" damage="3" nbt="{T:3s}" weight="10" count_min="1" count_max="2"/>
+	<loot item="irontank:diamondTank" damage="0" weight="15" count_min="1" count_max="2"/>
+	<loot item="adventurebackpack:coalJetpack" damage="0" nbt="{jetpackData:{}}" weight="5" count_min="1" count_max="1"/>
+	<loot item="adventurebackpack:copterPack" damage="0" nbt="{}"  weight="5" count_min="1" count_max="1"/>
+	<loot item="IC2:blockMiningPipe" damage="0" weight="25" count_min="16" count_max="32"/>
+	<loot item="IC2:itemPartCarbonPlate" damage="0" weight="25" count_min="4" count_max="8"/>
+	<loot item="IC2:itemBoat" damage="0" weight="15" count_min="1" count_max="2"/>
+	<loot item="TConstruct:materials" damage="6" weight="15" count_min="1" count_max="1"/>
+	<loot item="Avaritia:Cosmic_Meatballs" damage="0" weight="15" count_min="1" count_max="1"/>
+	<loot item="Avaritia:Ultimate_Stew" damage="0" weight="15" count_min="1" count_max="1"/>
+	<loot item="minecraft:golden_apple" damage="1" weight="15" count_min="1" count_max="1"/>
+	<loot item="Forestry:alveary" damage="0" weight="20" count_min="2" count_max="3"/>
+	<loot item="ExtraUtilities:divisionSigil" damage="0" weight="15" count_min="1" count_max="1"/>
+	<loot item="MagicBees:frameOblivion" damage="0" weight="5" count_min="1" count_max="1"/>
+	<loot item="ExtraBees:hiveFrame.soul" damage="0" weight="10" count_min="1" count_max="1"/>
+	<loot item="Forestry:frameProven" damage="0" weight="15" count_min="2" count_max="3"/>	
+	<loot item="gregtech:gt.metaitem.01" damage="32729" weight="15" count_min="1" count_max="2"/>
+	<loot item="gregtech:gt.metaitem.01" damage="32407" weight="15" count_min="1" count_max="2"/>
+	<loot item="gregtech:gt.metaitem.01" damage="32601" weight="5" count_min="1" count_max="1"/>
+	<loot item="gregtech:gt.metaitem.01" damage="32611" weight="5" count_min="1" count_max="1"/>
+	<loot item="gregtech:gt.metaitem.01" damage="32631" weight="5" count_min="1" count_max="1"/>
+	<loot item="gregtech:gt.metaitem.01" damage="32641" weight="5" count_min="1" count_max="1"/>
+	<loot item="gregtech:gt.metaitem.01" damage="32529" weight="15" count_min="1" count_max="1"/>
+	<loot item="gregtech:gt.metaitem.01" damage="2856" weight="15" count_min="32" count_max="32"/>	
+	<loot item="EnderIO:itemItemConduit" damage="0" weight="20" count_min="8" count_max="16"/>
+	<loot item="EnderIO:itemLiquidConduit" damage="0" weight="20" count_min="8" count_max="16"/>
+	<loot item="EnderIO:itemMachinePart" damage="0" weight="20" count_min="3" count_max="4"/>
+	<loot item="EnderIO:itemRedstoneConduit" damage="0" weight="20" count_min="8" count_max="16"/>
+	<loot item="EnderIO:blockReinforcedObsidian" damage="0" weight="15" count_min="4" count_max="6"/>
+	<loot item="OpenBlocks:fan" damage="0" weight="15" count_min="2" count_max="3"/>
+	<loot item="Thaumcraft:ItemSanitySoap" damage="0" weight="25" count_min="4" count_max="8"/>
+	<loot item="thaumicinsurgence:item.ItemSanitySoapAlpha" damage="0" weight="10" count_min="2" count_max="3"/>
+	<loot item="thaumicinsurgence:item.ItemSanitySoapBeta" damage="0" weight="5" count_min="1" count_max="2"/>
+	
 </LootGroup>

@@ -1,76 +1,60 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <LootGroup category="chest3" loading_mode="OVERRIDE" count_min="4" count_max="8">
     
-	<loot item="gregtech:gt.blockmachines" damage="12" weight="10" count_min="1" count_max="1"/>
-	<loot item="gregtech:gt.metaitem.01" damage="32717" weight="15" count_min="4" count_max="8"/>
-	<loot item="gregtech:gt.metaitem.01" damage="32715" weight="10" count_min="4" count_max="8"/>
-	<loot item="gregtech:gt.metaitem.01" damage="32711" weight="10" count_min="2" count_max="4"/>
-	<loot item="gregtech:gt.metaitem.01" damage="32702" weight="10" count_min="2" count_max="2"/>
-	<loot item="gregtech:gt.metaitem.01" damage="32729" weight="10" count_min="1" count_max="2"/>
-	<loot item="gregtech:gt.metaitem.01" damage="32745" weight="10" count_min="1" count_max="2"/>
-	<loot item="gregtech:gt.metaitem.01" damage="32751" weight="10" count_min="1" count_max="1"/>
-	<loot item="gregtech:gt.metaitem.01" damage="32728" weight="10" count_min="1" count_max="2"/>
-	<loot item="gregtech:gt.metaitem.01" damage="32727" weight="10" count_min="1" count_max="2"/>
-	<loot item="gregtech:gt.metaitem.01" damage="32734" weight="10" count_min="1" count_max="2"/>
-	<loot item="gregtech:gt.metaitem.01" damage="32733" weight="10" count_min="1" count_max="2"/>
-	<loot item="gregtech:gt.metaitem.01" damage="32735" weight="10" count_min="1" count_max="2"/>
-	<loot item="gregtech:gt.metaitem.01" damage="32740" weight="10" count_min="1" count_max="2"/>
-	<loot item="gregtech:gt.metaitem.01" damage="32762" weight="10" count_min="1" count_max="1"/>
-	<loot item="gregtech:gt.metaitem.01" damage="32691" weight="10" count_min="2" count_max="2"/>
-	<loot item="gregtech:gt.metaitem.01" damage="32681" weight="10" count_min="2" count_max="2"/>
-	<loot item="gregtech:gt.metaitem.01" damage="32611" weight="10" count_min="2" count_max="2"/>
-	<loot item="gregtech:gt.metaitem.01" damage="32631" weight="10" count_min="2" count_max="2"/>
-	<loot item="gregtech:gt.metaitem.01" damage="32601" weight="10" count_min="2" count_max="2"/>
-	<loot item="gregtech:gt.metaitem.01" damage="32527" weight="10" count_min="1" count_max="1"/>
-	<loot item="gregtech:gt.metaitem.01" damage="32528" weight="10" count_min="1" count_max="1"/>
-	<loot item="gregtech:gt.metaitem.01" damage="32407" weight="15" count_min="1" count_max="2"/>
-	<loot item="gregtech:gt.metaitem.01" damage="32350" weight="25" count_min="1" count_max="1"/>
-	<loot item="gregtech:gt.metaitem.01" damage="32351" weight="25" count_min="1" count_max="1"/>
-	<loot item="gregtech:gt.metaitem.01" damage="32353" weight="25" count_min="1" count_max="1"/>
-	<loot item="gregtech:gt.metaitem.01" damage="32353" weight="25" count_min="1" count_max="1"/>
-	<loot item="gregtech:gt.metaitem.01" damage="32355" weight="25" count_min="1" count_max="1"/>
-	<loot item="gregtech:gt.metaitem.01" damage="32356" weight="25" count_min="1" count_max="1"/>
-	<loot item="gregtech:gt.metaitem.01" damage="32357" weight="25" count_min="1" count_max="1"/>
-	<loot item="gregtech:gt.metaitem.01" damage="32358" weight="25" count_min="1" count_max="1"/>
-	<loot item="gregtech:gt.metaitem.01" damage="32359" weight="25" count_min="1" count_max="1"/>	
-	<loot item="gregtech:gt.metaitem.01" damage="32360" weight="25" count_min="1" count_max="1"/>
-	<loot item="gregtech:gt.metaitem.01" damage="32361" weight="25" count_min="1" count_max="1"/>
-	<loot item="gregtech:gt.metaitem.01" damage="32362" weight="25" count_min="1" count_max="1"/>												
-	<loot item="gregtech:gt.metaitem.01" damage="32363" weight="25" count_min="1" count_max="1"/>
-	<loot item="gregtech:gt.metaitem.01" damage="17306" weight="20" count_min="2" count_max="4"/>
-	<loot item="gregtech:gt.blockmachines" damage="5141" weight="20" count_min="2" count_max="4"/>
-	<loot item="gregtech:gt.blockmachines" damage="5142" weight="15" count_min="2" count_max="4"/>
-	<loot item="gregtech:gt.blockmachines" damage="5143" weight="10" count_min="2" count_max="4"/>
-	<loot item="gregtech:gt.blockmachines" damage="130" weight="5" count_min="1" count_max="1"/>
-	<loot item="gregtech:gt.metaitem.01" damage="17379" weight="25" count_min="4" count_max="8"/>
-	<loot item="gregtech:gt.metaitem.01" damage="17364" weight="25" count_min="4" count_max="8"/>
-	<loot item="gregtech:gt.metaitem.01" damage="21032" weight="20" count_min="2" count_max="4"/>
-	<loot item="gregtech:gt.metaitem.01" damage="17378" weight="25" count_min="4" count_max="8"/>
-	<loot item="gregtech:gt.metaitem.01" damage="17365" weight="25" count_min="4" count_max="8"/>
-	<loot item="gregtech:gt.metaitem.01" damage="17381" weight="25" count_min="4" count_max="8"/>
+	<loot item="minecraft:ghast_tear" damage="0" weight="10" count_min="1" count_max="2"/>
+	<loot item="minecraft:blaze_rod" damage="0" weight="10" count_min="1" count_max="2"/>
+	<loot item="minecraft:cake" damage="0" weight="30" count_min="1" count_max="1"/>
+	<loot item="JABBA:mover" damage="0" weight="10" count_min="1" count_max="1"/>
+	<loot item="dreamcraft:item.SteelBars" damage="0" weight="20" count_min="4" count_max="8"/>
+	<loot item="Forestry:ffarm" damage="0" nbt="{FarmBlock:0}" weight="20" count_min="1" count_max="2"/>
+	<loot item="Forestry:ffarm" damage="2" nbt="{FarmBlock:0}" weight="20" count_min="8" count_max="16"/>
+	<loot item="Forestry:ffarm" damage="3" nbt="{FarmBlock:0}" weight="20" count_min="4" count_max="8"/>
+	<loot item="Forestry:ffarm" damage="4" nbt="{FarmBlock:0}" weight="20" count_min="4" count_max="8"/>
+	<loot item="Forestry:ffarm" damage="5" nbt="{FarmBlock:0}" weight="20" count_min="4" count_max="8"/>
+	<loot item="Forestry:factory" damage="1" weight="10" count_min="1" count_max="1"/>
+	<loot item="EnderIO:blockTank" damage="0" weight="15" count_min="1" count_max="2"/>	
 	<loot item="openmodularturrets:hardWallTierOne" damage="0" weight="25" count_min="10" count_max="20"/>
 	<loot item="openmodularturrets:hardWallTierTwo" damage="0" weight="15" count_min="10" count_max="20"/>
 	<loot item="openmodularturrets:fenceTierOne" damage="0" weight="25" count_min="10" count_max="20"/>
 	<loot item="openmodularturrets:fenceTierTwo" damage="0" weight="15" count_min="10" count_max="20"/>
-	<loot item="EnderIO:itemLiquidConduit" damage="0" weight="20" count_min="8" count_max="16"/>
-	<loot item="EnderIO:itemLiquidConduit" damage="0" weight="20" count_min="8" count_max="16"/>
-	<loot item="EnderIO:blockTank" damage="1" weight="10" count_min="1" count_max="2"/>
-	<loot item="EnderIO:itemMachinePart" damage="0" weight="20" count_min="8" count_max="16"/>
-	<loot item="EnderIO:itemRedstoneConduit" damage="0" weight="20" count_min="8" count_max="16"/>
-	<loot item="ProjRed|Transportation:projectred.transportation.pipe" damage="0" weight="20" count_min="4" count_max="8"/>
-	<loot item="ProjRed|Core:projectred.core.part" damage="44" weight="25" count_min="4" count_max="8"/>
-	<loot item="IC2:blockMiningPipe" damage="0" weight="25" count_min="16" count_max="32"/>
-	<loot item="IC2:itemPartCarbonPlate" damage="0" weight="25" count_min="4" count_max="8"/>
-	<loot item="IC2:itemBoat" damage="0" weight="15" count_min="1" count_max="2"/>
-	<loot item="IC2:itemBatCrystal" damage="26" nbt="{}" weight="5" count_min="1" count_max="1"/>
-	<loot item="minecraft:enchanting_table" damage="0" weight="5" count_min="1" count_max="1"/>
-	<loot item="minecraft:beacon" damage="0" weight="5" count_min="1" count_max="1"/>
-	<loot item="adventurebackpack:coalJetpack" damage="0" nbt="{jetpackData:{}}" weight="5" count_min="1" count_max="1"/>
-	<loot item="adventurebackpack:copterPack" damage="0" nbt="{}"  weight="5" count_min="1" count_max="1"/>
-	<loot item="dreamcraft:item.StainlessSteelBars" damage="0" weight="15" count_min="4" count_max="8"/>
-	<loot item="irontank:diamondTank" damage="0" weight="15" count_min="1" count_max="2"/>
-	<loot item="Forestry:chipsets" damage="0" nbt="{T:0s}" weight="10" count_min="1" count_max="2"/>
-	<loot item="Forestry:chipsets" damage="1" nbt="{T:1s}" weight="10" count_min="1" count_max="2"/>
-	<loot item="Forestry:chipsets" damage="2" nbt="{T:2s}" weight="10" count_min="1" count_max="2"/>
-	<loot item="Forestry:chipsets" damage="3" nbt="{T:3s}" weight="10" count_min="1" count_max="2"/>
+	<loot item="irontank:goldTank" damage="0" weight="20" count_min="2" count_max="4"/>
+	<loot item="Thaumcraft:ItemBootsRobe" damage="0" weight="15" count_min="1" count_max="1"/>
+	<loot item="Thaumcraft:ItemLeggingsRobe" damage="0" weight="15" count_min="1" count_max="1"/>
+	<loot item="Thaumcraft:ItemChestplateRobe" damage="0" weight="15" count_min="1" count_max="1"/>
+	<loot item="Thaumcraft:blockCustomPlant" damage="5" weight="25" count_min="5" count_max="10"/>
+	<loot item="Thaumcraft:blockJar" damage="0" weight="25" count_min="5" count_max="10"/>
+	<loot item="BiomesOPlenty:flowers2" damage="2" weight="15" count_min="10" count_max="10"/>
+	<loot item="TConstruct:materials" damage="8" weight="15" count_min="2" count_max="3"/>
+	<loot item="TConstruct:materials" damage="26" weight="15" count_min="1" count_max="1"/>
+	<loot item="kubatech:kubaitems" damage="14" weight="20" count_min="2" count_max="2"/>
+	<loot item="kubatech:kubaitems" damage="16" weight="20" count_min="2" count_max="2"/>
+	<loot item="kubatech:kubaitems" damage="19" weight="20" count_min="2" count_max="2"/>
+	<loot item="Forestry:beeCombs" damage="6" weight="20" count_min="10" count_max="20"/>
+	<loot item="Forestry:honeyDrop" damage="0" weight="20" count_min="16" count_max="32"/>
+	<loot item="Forestry:apiculture" damage="0" weight="20" count_min="1" count_max="1"/>
+	<loot item="gregtech:gt.metaitem.01" damage="32405" weight="10" count_min="1" count_max="2"/>
+	<loot item="gregtech:gt.metaitem.01" damage="32600" weight="10" count_min="1" count_max="1"/>
+	<loot item="gregtech:gt.metaitem.01" damage="32610" weight="10" count_min="1" count_max="1"/>
+	<loot item="gregtech:gt.metaitem.01" damage="32630" weight="10" count_min="1" count_max="1"/>
+	<loot item="gregtech:gt.metaitem.01" damage="32640" weight="10" count_min="1" count_max="1"/>
+	<loot item="gregtech:gt.metaitem.01" damage="32650" weight="5" count_min="1" count_max="1"/>
+	<loot item="gregtech:gt.metaitem.01" damage="32680" weight="5" count_min="1" count_max="1"/>
+	<loot item="gregtech:gt.metaitem.01" damage="32690" weight="5" count_min="1" count_max="1"/>
+	<loot item="gregtech:gt.metaitem.01" damage="32727" weight="20" count_min="1" count_max="2"/>
+	<loot item="gregtech:gt.metaitem.01" damage="32730" weight="15" count_min="1" count_max="1"/>
+	<loot item="gregtech:gt.metaitem.01" damage="32731" weight="15" count_min="1" count_max="1"/>
+	<loot item="gregtech:gt.metaitem.01" damage="32732" weight="15" count_min="1" count_max="1"/>
+	<loot item="gregtech:gt.metaitem.01" damage="32733" weight="15" count_min="1" count_max="1"/>
+	<loot item="gregtech:gt.metaitem.01" damage="32734" weight="15" count_min="1" count_max="1"/>
+	<loot item="gregtech:gt.metaitem.01" damage="32740" weight="15" count_min="1" count_max="1"/>
+	<loot item="gregtech:gt.metaitem.01" damage="32745" weight="15" count_min="1" count_max="1"/>
+	<loot item="gregtech:gt.metaitem.01" damage="32749" weight="15" count_min="1" count_max="1"/>
+	<loot item="gregtech:gt.blockmachines" damage="1246" weight="15" count_min="4" count_max="8"/>
+	<loot item="gregtech:gt.blockmachines" damage="1366" weight="15" count_min="2" count_max="4"/>
+	<loot item="gregtech:gt.blockmachines" damage="30727" weight="20" count_min="4" count_max="8"/>
+	<loot item="gregtech:gt.metaitem.01" damage="32519" weight="20" count_min="1" count_max="1"/>
+	<loot item="gregtech:gt.blockmachines" damage="31066" weight="15" count_min="1" count_max="1"/>
+	<loot item="ExtraUtilities:spike_base_diamond" damage="0" weight="15" count_min="3" count_max="4"/>
+	<loot item="Forestry:frameImpregnated" damage="0" weight="15" count_min="3" count_max="3"/>
+
 </LootGroup>

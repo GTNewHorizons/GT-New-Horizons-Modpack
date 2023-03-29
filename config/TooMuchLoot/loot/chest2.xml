@@ -1,87 +1,57 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <LootGroup category="chest2" loading_mode="OVERRIDE" count_min="3" count_max="6">
 
-	<loot item="gregtech:gt.metaitem.01" damage="32600" weight="10" count_min="1" count_max="2"/>
-	<loot item="gregtech:gt.metaitem.01" damage="32610" weight="10" count_min="1" count_max="1"/>
-	<loot item="gregtech:gt.metaitem.01" damage="32630" weight="10" count_min="1" count_max="1"/>
-	<loot item="gregtech:gt.metaitem.01" damage="32650" weight="10" count_min="1" count_max="1"/>
-	<loot item="gregtech:gt.metaitem.01" damage="32680" weight="10" count_min="1" count_max="1"/>
-	<loot item="gregtech:gt.metaitem.01" damage="32690" weight="10" count_min="1" count_max="1"/>
-	<loot item="gregtech:gt.blockmachines" damage="1246" weight="15" count_min="4" count_max="8"/>
-	<loot item="gregtech:gt.blockmachines" damage="1366" weight="10" count_min="2" count_max="4"/>
-	<loot item="gregtech:gt.metaitem.01" damage="32640" weight="10" count_min="1" count_max="1"/>
-	<loot item="IC2:itemPartCircuit" damage="0" weight="15" count_min="2" count_max="4"/>
-	<loot item="IC2:itemDoorAlloy" damage="0" weight="10" count_min="1" count_max="2"/>
-	<loot item="IC2:itemPartAlloy" damage="0" weight="15" count_min="4" count_max="8"/>
-	<loot item="gregtech:gt.metaitem.01" damage="32700" weight="15" count_min="2" count_max="4"/>
-	<loot item="gregtech:gt.blockmachines" damage="5113" weight="15" count_min="2" count_max="4"/>
-	<loot item="gregtech:gt.blockmachines" damage="5131" weight="20" count_min="4" count_max="8"/>
-	<loot item="gregtech:gt.blockmachines" damage="5132" weight="15" count_min="2" count_max="6"/>
-	<loot item="gregtech:gt.blockmachines" damage="5133" weight="10" count_min="2" count_max="4"/>
-	<loot item="gregtech:gt.blockmachines" damage="5134" weight="10" count_min="1" count_max="2"/>
-	<loot item="gregtech:gt.blockmachines" damage="11" weight="5" count_min="1" count_max="1"/>
-	<loot item="gregtech:gt.metaitem.01" damage="32710" weight="15" count_min="2" count_max="4"/>
-	<loot item="gregtech:gt.metaitem.01" damage="32750" weight="10" count_min="1" count_max="2"/>
-	<loot item="gregtech:gt.metaitem.01" damage="32518" weight="12" count_min="1" count_max="2"/>
-	<loot item="gregtech:gt.metaitem.01" damage="32517" weight="15" count_min="1" count_max="2"/>
-	<loot item="gregtech:gt.metaitem.01" damage="32301" weight="25" count_min="1" count_max="1"/>
-	<loot item="gregtech:gt.metaitem.01" damage="32302" weight="25" count_min="1" count_max="1"/>
-	<loot item="gregtech:gt.metaitem.01" damage="32303" weight="25" count_min="1" count_max="1"/>
-	<loot item="gregtech:gt.metaitem.01" damage="32306" weight="25" count_min="1" count_max="1"/>
-	<loot item="gregtech:gt.metaitem.01" damage="32308" weight="25" count_min="1" count_max="1"/>
-	<loot item="gregtech:gt.metaitem.01" damage="32307" weight="25" count_min="1" count_max="1"/>
-	<loot item="gregtech:gt.metaitem.01" damage="32317" weight="25" count_min="1" count_max="1"/>
-	<loot item="gregtech:gt.metaitem.01" damage="32405" weight="15" count_min="1" count_max="2"/>
-	<loot item="gregtech:gt.blockmachines" damage="1367" weight="25" count_min="2" count_max="8"/>
-	<loot item="gregtech:gt.blockmachines" damage="1367" weight="25" count_min="2" count_max="8"/>
-	<loot item="gregtech:gt.metaitem.01" damage="17019" weight="15" count_min="4" count_max="12"/>
-	<loot item="gregtech:gt.metaitem.01" damage="17301" weight="15" count_min="4" count_max="12"/>
-	<loot item="gregtech:gt.metaitem.01" damage="17343" weight="15" count_min="4" count_max="12"/>
-	<loot item="gregtech:gt.metaitem.01" damage="32700" weight="25" count_min="4" count_max="8"/>
-	<loot item="gregtech:gt.metaitem.01" damage="32721" weight="10" count_min="1" count_max="2"/>
-	<loot item="gregtech:gt.metaitem.01" damage="32702" weight="10" count_min="1" count_max="2"/>
-	<loot item="gregtech:gt.metaitem.01" damage="32716" weight="25" count_min="4" count_max="8"/>
-	<loot item="gregtech:gt.metaitem.01" damage="24500" weight="20" count_min="1" count_max="1"/>
-	<loot item="gregtech:gt.metaitem.01" damage="24502" weight="20" count_min="1" count_max="1"/>
-	<loot item="gregtech:gt.metaitem.01" damage="24532" weight="20" count_min="1" count_max="1"/>
-	<loot item="gregtech:gt.metaitem.01" damage="24533" weight="20" count_min="1" count_max="1"/>
-	<loot item="gregtech:gt.metaitem.01" damage="17020" weight="15" count_min="4" count_max="12"/>
+	<loot item="gregtech:gt.blockmachines" damage="1" weight="20" count_min="1" count_max="4"/>
+	<loot item="gregtech:gt.blockmachines" damage="5124" weight="10" count_min="1" count_max="2"/>
+	<loot item="gregtech:gt.blockmachines" damage="5122" weight="15" count_min="4" count_max="8"/>
+	<loot item="gregtech:gt.blockmachines" damage="2" weight="15" count_min="2" count_max="4"/>
+	<loot item="gregtech:gt.blockmachines" damage="4" weight="10" count_min="1" count_max="2"/>
+	<loot item="gregtech:gt.metaitem.01" damage="17054" weight="25" count_min="10" count_max="20"/>
+	<loot item="gregtech:gt.metaitem.01" damage="11308" weight="25" count_min="8" count_max="10"/>
+	<loot item="gregtech:gt.metaitem.01" damage="17308" weight="20" count_min="12" count_max="16"/>
 	<loot item="gregtech:gt.metaitem.01" damage="17880" weight="25" count_min="10" count_max="20"/>
 	<loot item="gregtech:gt.metaitem.01" damage="11880" weight="25" count_min="10" count_max="20"/>
-	<loot item="gregtech:gt.metaitem.01" damage="17020" weight="15" count_min="4" count_max="12"/>
-	<loot item="gregtech:gt.metaitem.01" damage="17020" weight="15" count_min="4" count_max="12"/>
-	<loot item="gregtech:gt.metaitem.01" damage="32749" weight="10" count_min="1" count_max="2"/>
-	<loot item="Railcraft:part.plate" damage="1" weight="25" count_min="12" count_max="20"/>
+	<loot item="irontank:ironTank" damage="0" weight="20" count_min="2" count_max="4"/>
 	<loot item="Railcraft:track" damage="816" nbt="{track:&quot;railcraft:track.speed&quot;}" weight="10" count_min="12" count_max="24"/>
 	<loot item="Railcraft:track" damage="0" nbt="{track:&quot;railcraft:track.reinforced&quot;}" weight="10" count_min="12" count_max="24"/>
 	<loot item="Railcraft:track" damage="0" nbt="{track:&quot;railcraft:track.speed.boost&quot;}" weight="10" count_min="8" count_max="16"/>
 	<loot item="Railcraft:track" damage="26865" nbt="{track:&quot;railcraft:track.speed.transition&quot;}" weight="25" count_min="12" count_max="20"/>
 	<loot item="Railcraft:track.elevator" damage="0" weight="10" count_min="10" count_max="20"/>
-	<loot item="Railcraft:machine.alpha" damage="2" weight="10" count_min="1" count_max="1"/>
-	<loot item="Railcraft:machine.beta" damage="0" weight="20" count_min="8" count_max="16"/>
-	<loot item="Railcraft:machine.beta" damage="1" weight="20" count_min="2" count_max="4"/>
-	<loot item="Railcraft:machine.beta" damage="2" weight="20" count_min="2" count_max="4"/>
-	<loot item="Railcraft:machine.beta" damage="13" weight="10" count_min="8" count_max="16"/>
-	<loot item="Railcraft:machine.beta" damage="14" weight="10" count_min="2" count_max="4"/>
-	<loot item="Railcraft:machine.beta" damage="15" weight="10" count_min="2" count_max="4"/>
 	<loot item="Railcraft:cart.tank" damage="0" weight="25" count_min="1" count_max="2"/>
-	<loot item="minecraft:ghast_tear" damage="0" weight="10" count_min="1" count_max="2"/>
-	<loot item="minecraft:brewing_stand" damage="0" weight="5" count_min="1" count_max="1"/>
-	<loot item="minecraft:nether_star" damage="0" weight="5" count_min="1" count_max="1"/>
+	<loot item="Railcraft:machine.beta" damage="4" weight="15" count_min="4" count_max="8"/>
+	<loot item="Railcraft:machine.beta" damage="6" weight="10" count_min="1" count_max="2"/>
 	<loot item="minecraft:iron_door" damage="0" weight="10" count_min="1" count_max="2"/>
 	<loot item="minecraft:tnt" damage="0" weight="15" count_min="4" count_max="8"/>
 	<loot item="minecraft:clock" damage="0" weight="15" count_min="1" count_max="1"/>
 	<loot item="minecraft:compass" damage="0" weight="15" count_min="1" count_max="1"/>
-	<loot item="minecraft:ender_eye" damage="0" weight="20" count_min="1" count_max="2"/>
+	<loot item="minecraft:piston" damage="0" weight="20" count_min="4" count_max="6"/>
+	<loot item="minecraft:flint_and_steel" damage="0" weight="10" count_min="1" count_max="2"/>
 	<loot item="minecraft:magma_cream" damage="0" weight="20" count_min="1" count_max="2"/>
-	<loot item="dreamcraft:item.AluminiumBars" damage="0" weight="20" count_min="4" count_max="8"/>
-	<loot item="dreamcraft:item.SteelBars" damage="0" weight="20" count_min="4" count_max="8"/>
-	<loot item="irontank:ironTank" damage="0" weight="20" count_min="2" count_max="4"/>
-	<loot item="EnderIO:blockTank" damage="0" weight="15" count_min="1" count_max="2"/>
-	<loot item="Forestry:ffarm" damage="0" nbt="{FarmBlock:0}" weight="20" count_min="1" count_max="2"/>
-	<loot item="Forestry:ffarm" damage="2" nbt="{FarmBlock:0}" weight="20" count_min="8" count_max="16"/>
-	<loot item="Forestry:ffarm" damage="3" nbt="{FarmBlock:0}" weight="20" count_min="4" count_max="8"/>
-	<loot item="Forestry:ffarm" damage="4" nbt="{FarmBlock:0}" weight="20" count_min="4" count_max="8"/>
-	<loot item="Forestry:ffarm" damage="5" nbt="{FarmBlock:0}" weight="20" count_min="4" count_max="8"/>
-	<loot item="Forestry:factory" damage="1" weight="10" count_min="1" count_max="1"/>	
+	<loot item="TConstruct:materials" damage="43" weight="20" count_min="2" count_max="3"/>
+	<loot item="gregtech:gt.metaitem.02" damage="32261" weight="20" count_min="3" count_max="6"/>
+	<loot item="harvestcraft:neapolitanicecreamItem" damage="0" weight="20" count_min="3" count_max="6"/>
+	<loot item="Forestry:beehives" damage="1" weight="20" count_min="1" count_max="2"/>
+	<loot item="Forestry:beehives" damage="2" weight="20" count_min="1" count_max="2"/>
+	<loot item="Forestry:beehives" damage="3" weight="20" count_min="1" count_max="2"/>
+	<loot item="Forestry:beehives" damage="4" weight="20" count_min="1" count_max="2"/>
+	<loot item="Forestry:beehives" damage="6" weight="20" count_min="1" count_max="2"/>
+	<loot item="Forestry:beehives" damage="7" weight="20" count_min="1" count_max="2"/>
+	<loot item="TConstruct:slime.sapling" damage="0" weight="20" count_min="2" count_max="4"/>
+	<loot item="IronChest:BlockIronChest" damage="2" weight="20" count_min="1" count_max="2"/>
+	<loot item="StorageDrawers:upgradeTemplate" damage="0" weight="20" count_min="3" count_max="3"/>
+	<loot item="StorageDrawers:upgradeLock" damage="0" weight="15" count_min="1" count_max="1"/>
+	<loot item="IC2:itemArmorAlloyChestplate" damage="0" weight="15" count_min="1" count_max="1"/>
+	<loot item="gregtech:gt.metaitem.01" damage="32301" weight="25" count_min="1" count_max="1"/>
+	<loot item="gregtech:gt.metaitem.01" damage="32302" weight="25" count_min="1" count_max="1"/>
+	<loot item="gregtech:gt.metaitem.01" damage="32303" weight="25" count_min="1" count_max="1"/>
+	<loot item="gregtech:gt.metaitem.01" damage="32306" weight="25" count_min="1" count_max="1"/>
+	<loot item="gregtech:gt.metaitem.01" damage="32307" weight="25" count_min="1" count_max="1"/>
+	<loot item="gregtech:gt.metaitem.01" damage="32308" weight="25" count_min="1" count_max="1"/>
+	<loot item="gregtech:gt.metaitem.01" damage="32317" weight="25" count_min="1" count_max="1"/>
+	<loot item="gregtech:gt.blockmachines" damage="5602" weight="25" count_min="8" count_max="16"/>
+	<loot item="gregtech:gt.metaitem.01" damage="32721" weight="10" count_min="1" count_max="1"/>
+	<loot item="Railcraft:machine.beta" damage="0" weight="20" count_min="8" count_max="12"/>
+	<loot item="Railcraft:machine.beta" damage="1" weight="20" count_min="2" count_max="4"/>
+	<loot item="Railcraft:machine.beta" damage="2" weight="20" count_min="1" count_max="2"/>
+	
 </LootGroup>
