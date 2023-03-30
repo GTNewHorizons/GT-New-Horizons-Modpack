@@ -2065,7 +2065,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAD-g==.desc=Integrated Processors need ce
 
 # Quest: §9§lIntegrated Processor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD-A==.name=§9§lIntegrated Processor
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD-A==.desc=This is the start of the first 4-circuit circuit line. This one doesn't really have a consistant naming scheme unlike the later ones, but it still works the same way, aside from the fact that you get your first EV §oand§r IV circuits from it, all the rest only have 1 new tier of circuit. Because of this you'll need to make 2 new CAs to finish it.%n%nThe first one is the Integrated Processor, the final type of MV circuits. You also don't need to craft any other circuits to make it, so it's the cheapest. This repeats each circuit tier.%n%nYou will additionally need 4 Resistors, 4 Capacitors and 4 Transistors.%n%n§3This and all circuits past it need a cleanroom.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD-A==.desc=This is the start of the first 4-circuit circuit line. This one doesn't really have a consistant naming scheme unlike the later ones, but it still works the same way, aside from the fact that you get your first EV §oand§r IV circuits from it, all the rest only have 1 new tier of circuit. Because of this you'll need to make 2 new CAs to finish it.%n%nThe first one is the Integrated Processor, the final type of MV circuits. You also don't need to craft any other circuits to make it, so it's the cheapest. This repeats each circuit tier.%n%n§3This and all circuits past it need a cleanroom.
 
 # Quest: §9§lSmall Coil
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD-w==.name=§9§lSmall Coil
@@ -2077,7 +2077,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAD-Q==.desc=This is the second step to ma
 
 # Quest: §9§lWorkstations, Your First EV Circuit
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD9g==.name=§9§lWorkstations, Your First EV Circuit
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD9g==.desc=Your first EV circuit is the Workstation.%n%nIn addition, you'll need 16 Diodes, SMD or non-SMD.%n%nYou can make Blue Alloy with Silver and Electrotine in an Alloy Smelter. If you don't have Electrotine, you can make it from Redstone and Electrum in a Mixer. Have fun!%n%nAlso note that using the fluid solidifer is way faster than the extruder for Blue Alloy.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD9g==.desc=Your first EV circuit is the Workstation.%n%nYou can make Blue Alloy with Silver and Electrotine in an Alloy Smelter. If you don't have Electrotine, you can make it from Redstone and Electrum in a Mixer. Have fun!%n%nAlso note that using the fluid solidifer is way faster than the extruder for Blue Alloy.
 
 # Quest: §9§lPerforming Chemical Experiments at HV Level
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADrw==.name=§9§lPerforming Chemical Experiments at HV Level

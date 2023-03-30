@@ -35,7 +35,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "This is the start of the first 4-circuit circuit line. This one doesn\u0027t really have a consistant naming scheme unlike the later ones, but it still works the same way, aside from the fact that you get your first EV §oand§r IV circuits from it, all the rest only have 1 new tier of circuit. Because of this you\u0027ll need to make 2 new CAs to finish it.\n\nThe first one is the Integrated Processor, the final type of MV circuits. You also don\u0027t need to craft any other circuits to make it, so it\u0027s the cheapest. This repeats each circuit tier.\n\nYou will additionally need 4 Resistors, 4 Capacitors and 4 Transistors.\n\n§3This and all circuits past it need a cleanroom."
+      "desc:8": "This is the start of the first 4-circuit circuit line. This one doesn\u0027t really have a consistant naming scheme unlike the later ones, but it still works the same way, aside from the fact that you get your first EV §oand§r IV circuits from it, all the rest only have 1 new tier of circuit. Because of this you\u0027ll need to make 2 new CAs to finish it.\n\nThe first one is the Integrated Processor, the final type of MV circuits. You also don\u0027t need to craft any other circuits to make it, so it\u0027s the cheapest. This repeats each circuit tier.\n\n§3This and all circuits past it need a cleanroom."
     }
   },
   "tasks:9": {
@@ -64,6 +64,24 @@
           "Count:3": 4,
           "Damage:2": 19308,
           "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 4,
+          "Damage:2": 32718,
+          "OreDict:8": "componentCircuitCapacitor"
+        },
+        "4:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 4,
+          "Damage:2": 32716,
+          "OreDict:8": "componentCircuitResistor"
+        },
+        "5:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 4,
+          "Damage:2": 32717,
+          "OreDict:8": "componentCircuitTransistor"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
