@@ -9012,6 +9012,10 @@ betterquesting.quest.VISeokU3R-efeF88FwLGLw==.desc=Want to see how the system is
 betterquesting.quest.l26l6_loSeyuxQYps9XbbA==.name=Modular Upgrades
 betterquesting.quest.l26l6_loSeyuxQYps9XbbA==.desc=Upgrades can be applied for pipes and modules, but an extra upgrade is needed if we need to apply upgrades to modules.%n%nHere is the Upgrade Module Upgrade. But regardless how many of these you stuff into a chassis, there will always be 2 module upgrades per module.%n%n§3Author's Note: Why is the Upgrade Module Upgrade the ONLY upgrade that has a more 3D-style texture while the other modules and upgrades are completely flat?
 
+# Quest: There Are Extra Stuff...
+betterquesting.quest.Ix6qrScZQPGnl3jEm9P2Ag==.name=There Are Extra Stuff...
+betterquesting.quest.Ix6qrScZQPGnl3jEm9P2Ag==.desc=Sometimes, a recipe has some extra outputs but the crafting module only has 1 output slot.%n%nHere comes the Crafting Byproduct Extraction Upgrade. You can assign a byproduct of the recipe and this upgrade will make the module extract the byproduct as well. Now they won't clog the output buffer.
+
 
 ## Quest Line: Applied Energistics
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAIw==.name=Applied Energistics
