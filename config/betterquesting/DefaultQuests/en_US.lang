@@ -8932,6 +8932,10 @@ betterquesting.quest.7O4n10fJSxme0Bs0_n44xg==.desc=Logistics Pipes can handle fl
 betterquesting.quest.WTIyEmzLR_mlw__SXY_iwA==.name=Insering Fluids
 betterquesting.quest.WTIyEmzLR_mlw__SXY_iwA==.desc=Sometimes you insert fluid in the system. You need something to get the fluid into the correct buffer other than inserting the fluid into the buffer manually.%n%nThere are 2 pipes that can do the job: transfer fluid into a tank connected to a fluid basic pipe allocated to said fluid.%n%n1. Logistics Fluid Extractor Pipe. It extracts fluid from connected buffer to the correct big storage tank. It doesn't require a pump but it is slower.%n%n2. Logistics Fluid Insertion Pipe. It does not pull fluids from tanks actively, requiring a GT pump if you are using GT tanks, but it can send fluids faster.%n%nTake a pick :)
 
+# Quest: Pls Provide
+betterquesting.quest.7_AtC62nTAKG1nTYoyS-8g==.name=Pls Provide
+betterquesting.quest.7_AtC62nTAKG1nTYoyS-8g==.desc=Just like items which have itemsink modules for storage and provider modules for request, fluids have basically the equivalent pipes.%n%nThe Logistics Fluid Provider Pipe will do the job. It will provide the fluid to other pipes and machines connected to them that need the fluid.
+
 # Quest: Troubleshooting...
 betterquesting.quest.EfJnTMxuTMKc5VhvNOxrYQ==.name=Troubleshooting...
 betterquesting.quest.EfJnTMxuTMKc5VhvNOxrYQ==.desc=If you find your pipe has thick red corners, then it means something is wrong. Either the network is out of power or you formed a junction with an Unrouted Transport Pipe.%n%nWhen the system gets more complicated, the chances go up that something will go wrong. Have fun troubleshooting! :)
