@@ -8984,6 +8984,10 @@ betterquesting.quest.N8isBrjBRNe-3f-IHVymDg==.desc=Most of the recipes are made 
 betterquesting.quest.3wK8pIDKSOii1__bwf6Ycw==.name=Upgrades
 betterquesting.quest.3wK8pIDKSOii1__bwf6Ycw==.desc=You want to automate recipes involving fluids, but the crafting module only accept items? You want to see how machines are handling recipes in the request table to see if something gets stuck? You will need §lupgrades§r.%n%nYou can apply upgrades to pipes and modules, but you can't just access the upgrade menu by right clicking the chassis with a wrench.%n%nIntroducing the Logistics Pipe Controller. This item is like a wrench for LP, except it will open the upgrades menu. It can also allow you to view statistics related to the pipe you are accessing.
 
+# Quest: Time to See The Process
+betterquesting.quest.VISeokU3R-efeF88FwLGLw==.name=Time to See The Process
+betterquesting.quest.VISeokU3R-efeF88FwLGLw==.desc=Want to see how the system is handling the request and fix it when you find things get stuck? Here is the upgrade for you.%n%nThe Crafting Monitoring Upgrade can let you view the current progress of the request. So if you find your crafting request is taking an abnormally long time and nothing is crafted by your machines, you may want to take a look here.%n%nIt can be applied to your Logistics Request Table.
+
 # Quest: Automating Crafting Table Recipes
 betterquesting.quest.qp3SFb9oSXKi5Yio_VwgEw==.name=Automating Crafting Table Recipes
 betterquesting.quest.qp3SFb9oSXKi5Yio_VwgEw==.desc=Automating crafting table recipes is a good first step to automate your processes. %n%nTo achieve this goal, get yourself a crafting logistics pipe and a logistics crafting table.%n%nYou can import a crafting table recipe into a logistics crafting table and you can click the "import" button on the crafting logistics pipes GUI that is connected to the crafting table to import the recipe into the pipe. 
