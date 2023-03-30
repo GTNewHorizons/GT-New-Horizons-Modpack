@@ -8924,6 +8924,10 @@ betterquesting.quest.HpeL1-zMRnKpYxYmLHqHaw==.desc=Unrouted Transport Pipes by t
 betterquesting.quest.dSSmDusvSVSKi41Tnw51dA==.name=Powering Logistics
 betterquesting.quest.dSSmDusvSVSKi41Tnw51dA==.desc=Every system takes power. A Logistics Pipes network is no exception.%n%nThe Logistics Pipes system runs on an energy called LP, but there are no generators that generate LP.%n%nInstead, Logistics Pipes has a power adapter called the Logistics Power Junction that converts EU into LP. Use a Basic Logistics Pipe to connect the Power Junction to the whole network.%n%nThe Power Junction can receive power from all 6 sides while a Basic Logistics Pipe can only connect to the sides in the 4 cardinal directions. 
 
+# Quest: Fluid Storage
+betterquesting.quest.7O4n10fJSxme0Bs0_n44xg==.name=Fluid Storage
+betterquesting.quest.7O4n10fJSxme0Bs0_n44xg==.desc=Logistics Pipes can handle fluids.%n%nThere are multiple pipes for fluids in logistics pipes. Logistics Fluid Basic Pipe will be the one you will be mainly using.%n%nYou can attach it to a tank, assign a fluid to it, and it will assign the buffer tank for that fluid. Basically a fluid version of the ItemSink.
+
 # Quest: Troubleshooting...
 betterquesting.quest.EfJnTMxuTMKc5VhvNOxrYQ==.name=Troubleshooting...
 betterquesting.quest.EfJnTMxuTMKc5VhvNOxrYQ==.desc=If you find your pipe has thick red corners, then it means something is wrong. Either the network is out of power or you formed a junction with an Unrouted Transport Pipe.%n%nWhen the system gets more complicated, the chances go up that something will go wrong. Have fun troubleshooting! :)
