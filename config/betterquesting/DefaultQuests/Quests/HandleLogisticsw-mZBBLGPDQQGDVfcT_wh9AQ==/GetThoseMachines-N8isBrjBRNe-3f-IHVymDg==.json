@@ -1,0 +1,42 @@
+{
+  "questIDHigh:4": 4019651812297622743,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -1140536415636076538,
+      "questIDLow:4": -5479647572889222662
+    }
+  },
+  "questIDLow:4": -4693314276576942578,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "LogisticsPipes:item.itemModule",
+        "Count:3": 1,
+        "Damage:2": 600,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Get Those Machines to Work",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Most of the recipes are made in all kinds of machines. While a crafting logistics pipe works, it can only hold 1 recipe per pipe.\n\nIt is not an issue for logistics crafting tables as it can only hold one crafting table recipes, but it is wasteful to assign only one recipe for one machine.\n\nFor machines, use chassis. Preferably a higher tier. A Mk1 chassis with a crafting module is basically just a crafting logistics pipe.\n\nYou can\u0027t shift-click recipes from NEI so you have to drag the recipe from it. Don\u0027t worry, you can drag ghost items from NEI into the slots in the module to configure it.\n\nYou notice there are 3 grey slots at the right. They are for satellite logistics pipes. We will talk about it later.\n\n§cNote: do NOT use the output face of the machine. The output side blocks all interactions unless you hit it with a screwdriver.\n\nAlso do NOT use auto-output, or else the machine will output the item into the pipe and the network will treat the product as an item inserted into the system rather than an item requested by the system and will send it to its storage. Every other face except the cover works.§r\n\nThe checkmark means you have read the whole thing and should know how machine automation works using LP. The reward of this quest is the knowledge of how to automate GT machine recipes"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {}
+}
