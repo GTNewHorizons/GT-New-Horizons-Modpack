@@ -8980,6 +8980,10 @@ betterquesting.quest.b4P0yD1LSeO7HWzj70NM8Q==.desc=2 Modules are still not enoug
 betterquesting.quest.Va3q2ob4Q-6sSdIxiIfuJw==.name=EVEN EVEN BETTER CHASSIS
 betterquesting.quest.Va3q2ob4Q-6sSdIxiIfuJw==.desc=What? You need better chassis already? Need even more recipe slots?%n%nHere is the Chassis Mk4. It holds 4 modules.
 
+# Quest: It's DA BEST
+betterquesting.quest.ZS2_l5v3R2-gh69ESL-FNQ==.name=It's DA BEST
+betterquesting.quest.ZS2_l5v3R2-gh69ESL-FNQ==.desc=You still need MORE recipe slots for the crafting modules?%n%nThis one will cost you §lTITANIUM§r. Are you sure about that?%n%nYes? OK...%n%nHere is the final tier of chassis: Chassis Mk5. Instead of incrementing the number of modules it can hold by 1 compared to the last tier, it straight up doubles the slots. Hopefully you think it is worth it.
+
 # Quest: Preparin' for Requestin'
 betterquesting.quest._XiSkFhJQ8-WjqujCxBtlw==.name=Preparin' for Requestin'
 betterquesting.quest._XiSkFhJQ8-WjqujCxBtlw==.desc=Logistics Pipes have automation capability in place, but first, it needs to know what inventory that items inside can be used for requests.%n%nThe Provider module does this job nicely. When you open the interface of the module, there is a 3*3 grid. you can pick what items that the module can provide, or you can leave it empty as "everything in the inventory can be provided for requests".
