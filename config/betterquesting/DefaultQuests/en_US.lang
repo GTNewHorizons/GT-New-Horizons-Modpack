@@ -8928,6 +8928,10 @@ betterquesting.quest.dSSmDusvSVSKi41Tnw51dA==.desc=Every system takes power. A L
 betterquesting.quest.7O4n10fJSxme0Bs0_n44xg==.name=Fluid Storage
 betterquesting.quest.7O4n10fJSxme0Bs0_n44xg==.desc=Logistics Pipes can handle fluids.%n%nThere are multiple pipes for fluids in logistics pipes. Logistics Fluid Basic Pipe will be the one you will be mainly using.%n%nYou can attach it to a tank, assign a fluid to it, and it will assign the buffer tank for that fluid. Basically a fluid version of the ItemSink.
 
+# Quest: Insering Fluids
+betterquesting.quest.WTIyEmzLR_mlw__SXY_iwA==.name=Insering Fluids
+betterquesting.quest.WTIyEmzLR_mlw__SXY_iwA==.desc=Sometimes you insert fluid in the system. You need something to get the fluid into the correct buffer other than inserting the fluid into the buffer manually.%n%nThere are 2 pipes that can do the job: transfer fluid into a tank connected to a fluid basic pipe allocated to said fluid.%n%n1. Logistics Fluid Extractor Pipe. It extracts fluid from connected buffer to the correct big storage tank. It doesn't require a pump but it is slower.%n%n2. Logistics Fluid Insertion Pipe. It does not pull fluids from tanks actively, requiring a GT pump if you are using GT tanks, but it can send fluids faster.%n%nTake a pick :)
+
 # Quest: Troubleshooting...
 betterquesting.quest.EfJnTMxuTMKc5VhvNOxrYQ==.name=Troubleshooting...
 betterquesting.quest.EfJnTMxuTMKc5VhvNOxrYQ==.desc=If you find your pipe has thick red corners, then it means something is wrong. Either the network is out of power or you formed a junction with an Unrouted Transport Pipe.%n%nWhen the system gets more complicated, the chances go up that something will go wrong. Have fun troubleshooting! :)
