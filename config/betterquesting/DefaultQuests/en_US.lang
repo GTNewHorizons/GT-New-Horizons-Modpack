@@ -8930,7 +8930,7 @@ betterquesting.quest.EfJnTMxuTMKc5VhvNOxrYQ==.desc=If you find your pipe has thi
 
 # Quest: Chassis
 betterquesting.quest.9OtAPqTQQBaCixJITgpnFg==.name=Chassis
-betterquesting.quest.9OtAPqTQQBaCixJITgpnFg==.desc=Basic Pipes can interact with adjacent blocks, but they also don't do much on their own. %n%nLogistics Pipes has modules that provide the pipes with more complex functions, but the Basic Logistics Pipes can't make use of them.%n%nTo make use of the modules, there are special pipes called Chassis. %n%nThere are multiple tiers of Chassis in Logistics Pipes. For now, a Mk 1, which can hold 1 module, will work.
+betterquesting.quest.9OtAPqTQQBaCixJITgpnFg==.desc=Basic Pipes can interact with adjacent blocks, but they also don't do much on their own. %n%nLogistics Pipes has modules that provide the pipes with more complex functions, but the Basic Logistics Pipes can't make use of them.%n%nTo make use of the modules, there are special pipes called Chassis. %n%nThere are multiple tiers of Chassis in Logistics Pipes. For now, a Mk 1, which can hold 1 module, will work.%n%nYou can insert modules directly in the chassis by right clicking said chassis with the module. But if you need to take modules out of a chassis or configure a module in one, you need to right click the chassis with a wrench to access its UI.
 
 # Quest: Let this Sink in
 betterquesting.quest.TBZf_HtQTQ-yckug0fs8kA==.name=Let this Sink in
@@ -8979,6 +8979,10 @@ betterquesting.quest.8CwALDydSAaz9GGQm5tB-g==.desc=We can now request items, but
 # Quest: Get Those Machines to Work
 betterquesting.quest.N8isBrjBRNe-3f-IHVymDg==.name=Get Those Machines to Work
 betterquesting.quest.N8isBrjBRNe-3f-IHVymDg==.desc=Most of the recipes are made in all kinds of machines. While a crafting logistics pipe works, it can only hold 1 recipe per pipe.%n%nIt is not an issue for logistics crafting tables as it can only hold one crafting table recipes, but it is wasteful to assign only one recipe for one machine.%n%nFor machines, use chassis. Preferably a higher tier. A Mk1 chassis with a crafting module is basically just a crafting logistics pipe.%n%nYou can't shift-click recipes from NEI so you have to drag the recipe from it. Don't worry, you can drag ghost items from NEI into the slots in the module to configure it.%n%n§cNote: do NOT use the output face of the machine. The output side blocks all interactions unless you hit it with a screwdriver.%n%nAlso do NOT use auto-output, or else the machine will output the item into the pipe and the network will treat the product as an item inserted into the system rather than an item requested by the system and will send it to its storage. Every other face except the cover works.§r%n%nThe checkmark means you have read the whole thing and should know how machine automation works using LP. The reward of this quest is the knowledge of how to automate GT machine recipes
+
+# Quest: Upgrades
+betterquesting.quest.3wK8pIDKSOii1__bwf6Ycw==.name=Upgrades
+betterquesting.quest.3wK8pIDKSOii1__bwf6Ycw==.desc=You want to automate recipes involving fluids, but the crafting module only accept items? You want to see how machines are handling recipes in the request table to see if something gets stuck? You will need §lupgrades§r.%n%nYou can apply upgrades to pipes and modules, but you can't just access the upgrade menu by right clicking the chassis with a wrench.%n%nIntroducing the Logistics Pipe Controller. This item is like a wrench for LP, except it will open the upgrades menu. It can also allow you to view statistics related to the pipe you are accessing.
 
 # Quest: Automating Crafting Table Recipes
 betterquesting.quest.qp3SFb9oSXKi5Yio_VwgEw==.name=Automating Crafting Table Recipes
