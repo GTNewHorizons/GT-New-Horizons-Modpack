@@ -11,7 +11,8 @@
     },
     "2:10": {
       "questIDHigh:4": -1157375576052904958,
-      "questIDLow:4": -8730662353812275470
+      "questIDLow:4": -8730662353812275470,
+      "type:1": 1
     },
     "3:10": {
       "questIDHigh:4": 0,
@@ -41,7 +42,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "A lot of recipes takes fluid. But crafting modules only has slots for items...\n\nIntroducing the Fluid Crafting Upgrade. It will allow you to allocate one kind of fluid for the craft. Drag one fluid cell containing the fluid you need into the fluid slot and set the correct amount.\n\nDon\u0027t forget to bind it to a fluid satellite pipe. The way it binds is identical to the satellite logistics pipe."
+      "desc:8": "A lot of recipes take fluids. But crafting modules only have slots for items...\n\nIntroducing the Fluid Crafting Upgrade. It will allow you to allocate one kind of fluid for the craft. Drag one fluid cell containing the fluid you need into the fluid slot and set the correct amount.\n\nDon\u0027t forget to bind it to a fluid satellite pipe. The way it binds is identical to the satellite logistics pipe."
     }
   },
   "tasks:9": {

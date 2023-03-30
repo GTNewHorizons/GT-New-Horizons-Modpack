@@ -25,11 +25,11 @@
       "globalShare:1": 0,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "There Are Extra Stuff...",
+      "name:8": "There Is Extra Stuff...",
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Sometimes, a recipe has some extra outputs but the crafting module only has 1 output slot.\n\nHere comes the Crafting Byproduct Extraction Upgrade. You can assign a byproduct of the recipe and this upgrade will make the module extract the byproduct as well. Now they won\u0027t clog the output buffer."
+      "desc:8": "Sometimes, a recipe has some extra outputs but the crafting module only has 1 output slot.\n\nThat is where the Crafting Byproduct Extraction Upgrade comes in. You can assign a byproduct of the recipe and this upgrade will make the module extract the byproduct as well. Now they won\u0027t clog the output buffer."
     }
   },
   "tasks:9": {
