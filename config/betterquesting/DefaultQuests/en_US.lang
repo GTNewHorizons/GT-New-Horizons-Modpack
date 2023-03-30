@@ -8976,6 +8976,10 @@ betterquesting.quest.FFDyUcsHTpiFg7_Yjr8vGA==.desc=Now that storage is handled, 
 betterquesting.quest.b4P0yD1LSeO7HWzj70NM8Q==.name=Even Better Chassis
 betterquesting.quest.b4P0yD1LSeO7HWzj70NM8Q==.desc=2 Modules are still not enough? Need more recipe slots for machines?%n%nHere is the Mk3. It can hold 3 modules.
 
+# Quest: EVEN EVEN BETTER CHASSIS
+betterquesting.quest.Va3q2ob4Q-6sSdIxiIfuJw==.name=EVEN EVEN BETTER CHASSIS
+betterquesting.quest.Va3q2ob4Q-6sSdIxiIfuJw==.desc=What? You need better chassis already? Need even more recipe slots?%n%nHere is the Chassis Mk4. It holds 4 modules.
+
 # Quest: Preparin' for Requestin'
 betterquesting.quest._XiSkFhJQ8-WjqujCxBtlw==.name=Preparin' for Requestin'
 betterquesting.quest._XiSkFhJQ8-WjqujCxBtlw==.desc=Logistics Pipes have automation capability in place, but first, it needs to know what inventory that items inside can be used for requests.%n%nThe Provider module does this job nicely. When you open the interface of the module, there is a 3*3 grid. you can pick what items that the module can provide, or you can leave it empty as "everything in the inventory can be provided for requests".
