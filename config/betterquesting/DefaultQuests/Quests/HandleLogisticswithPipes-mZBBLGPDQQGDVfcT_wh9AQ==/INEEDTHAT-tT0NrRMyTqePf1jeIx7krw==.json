@@ -1,0 +1,92 @@
+{
+  "questIDHigh:4": -5387134542262677849,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1232
+    },
+    "1:10": {
+      "questIDHigh:4": -7534902693624002068,
+      "questIDLow:4": -5853265364517528724
+    },
+    "2:10": {
+      "questIDHigh:4": -1157375576052904958,
+      "questIDLow:4": -8730662353812275470
+    },
+    "3:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1231
+    }
+  },
+  "questIDLow:4": -8106663093148392273,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "LogisticsPipes:item.PipeFluidSatellite",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "I NEED THAT!!!!!!",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "A lot of recipes takes fluid. But crafting modules only has slots for items...\n\nIntroducing the Fluid Crafting Upgrade. It will allow you to allocate one kind of fluid for the craft. Drag one fluid cell containing the fluid you need into the fluid slot and set the correct amount.\n\nDon\u0027t forget to bind it to a fluid satellite pipe. The way it binds is identical to the satellite logistics pipe."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "LogisticsPipes:item.PipeFluidSatellite",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "LogisticsPipes:item.itemUpgrade",
+          "Count:3": 1,
+          "Damage:2": 22,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 6,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "dreamcraft:item.CoinTechnicianII",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

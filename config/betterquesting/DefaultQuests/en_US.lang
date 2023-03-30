@@ -8936,6 +8936,10 @@ betterquesting.quest.WTIyEmzLR_mlw__SXY_iwA==.desc=Sometimes you insert fluid in
 betterquesting.quest.7_AtC62nTAKG1nTYoyS-8g==.name=Pls Provide
 betterquesting.quest.7_AtC62nTAKG1nTYoyS-8g==.desc=Just like items which have itemsink modules for storage and provider modules for request, fluids have basically the equivalent pipes.%n%nThe Logistics Fluid Provider Pipe will do the job. It will provide the fluid to other pipes and machines connected to them that need the fluid.
 
+# Quest: I NEED THAT!!!!!!
+betterquesting.quest.tT0NrRMyTqePf1jeIx7krw==.name=I NEED THAT!!!!!!
+betterquesting.quest.tT0NrRMyTqePf1jeIx7krw==.desc=A lot of recipes takes fluid. But crafting modules only has slots for items...%n%nIntroducing the Fluid Crafting Upgrade. It will allow you to allocate one kind of fluid for the craft. Drag one fluid cell containing the fluid you need into the fluid slot and set the correct amount.%n%nDon't forget to bind it to a fluid satellite pipe. The way it binds is identical to the satellite logistics pipe.
+
 # Quest: Troubleshooting...
 betterquesting.quest.EfJnTMxuTMKc5VhvNOxrYQ==.name=Troubleshooting...
 betterquesting.quest.EfJnTMxuTMKc5VhvNOxrYQ==.desc=If you find your pipe has thick red corners, then it means something is wrong. Either the network is out of power or you formed a junction with an Unrouted Transport Pipe.%n%nWhen the system gets more complicated, the chances go up that something will go wrong. Have fun troubleshooting! :)
