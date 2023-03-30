@@ -1,0 +1,74 @@
+{
+  "questIDHigh:4": -3789341092278745619,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 4019651812297622743,
+      "questIDLow:4": -4693314276576942578
+    }
+  },
+  "questIDLow:4": -5667015492294033937,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "LogisticsPipes:item.PipeItemsSatelliteLogistics",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Satellites! Wait,... They don\u0027t Orbit...",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "A buffer of 64 per slot is never big enough. Just look at red alloy ingot for example. It can only hold 16 recipes worth of redstone at once. You don\u0027t really want the items to just zoom around the pipes while waiting for the machine to make room... You want to have a big chest buffering items to be processed.\n\nIntroducing the Satellite Logistics Pipes. It provides additional input into the recipe incorporating it.\n\nThe pipe runs on a numerical frequency system, with the whole server sharing the number pool. This ensures that 2 separate systems can be connected to each other without conflict.\n\nYou can \"connect\" a crafting module with one satellite pipe by selecting the correct frequency of the satellite part. Multiple modules can connect to a single satellite pipe.\n\nSatellite pipe inputs are the 3 grey slots on the right of the 9 slots of the module. Only items in the 3 grey slots will be sent to satellite pipes.\n\n§cNote: Ensure your satellite pipe has any frequency other than 0. A satellite pipe with frequency 0 will not work."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "LogisticsPipes:item.PipeItemsSatelliteLogistics",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 5,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "dreamcraft:item.CoinTechnicianI",
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}
