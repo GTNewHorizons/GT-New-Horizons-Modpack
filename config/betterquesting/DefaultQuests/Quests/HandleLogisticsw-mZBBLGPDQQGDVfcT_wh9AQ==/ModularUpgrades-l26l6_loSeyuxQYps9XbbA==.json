@@ -1,16 +1,12 @@
 {
-  "questIDHigh:4": 8441054184604649812,
+  "questIDHigh:4": -7534902693624002068,
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 1266
-    },
-    "1:10": {
-      "questIDHigh:4": 2204384302128186994,
-      "questIDLow:4": -6241120305394579605
+      "questIDHigh:4": -2377130238576801560,
+      "questIDLow:4": -6712615400254826381
     }
   },
-  "questIDLow:4": -8463515684422388364,
+  "questIDLow:4": -5853265364517528724,
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
@@ -19,9 +15,9 @@
       "isMain:1": 0,
       "simultaneous:1": 0,
       "icon:10": {
-        "id:8": "LogisticsPipes:logisticsSolidBlock",
+        "id:8": "LogisticsPipes:item.itemUpgrade",
         "Count:3": 1,
-        "Damage:2": 1,
+        "Damage:2": 44,
         "OreDict:8": ""
       },
       "snd_update:8": "random.levelup",
@@ -29,11 +25,11 @@
       "globalShare:1": 0,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "Powering Logistics",
+      "name:8": "Modular Upgrades",
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Every system takes power. A Logistics Pipes network is no exception.\n\nThe Logistics Pipes system runs on an energy called LP, but there are no generators that generate LP.\n\nInstead, Logistics Pipes has a power adapter called the Logistics Power Junction that converts EU into LP. Use a Basic Logistics Pipe to connect the Power Junction to the whole network.\n\nThe Power Junction can receive power from all 6 sides while a Basic Logistics Pipe can only connect to the sides in the 4 cardinal directions. "
+      "desc:8": "Upgrades can be applied for pipes and modules, but an extra upgrade is needed if we need to apply upgrades to modules.\n\nHere is the Upgrade Module Upgrade. But regardless how many of these you stuff into a chassis, there will always be 2 module upgrades per module.\n\n§3Author\u0027s Note: Why is the Upgrade Module Upgrade the ONLY upgrade that has a more 3D-style texture while the other modules and upgrades are completely flat?"
     }
   },
   "tasks:9": {
@@ -46,9 +42,9 @@
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "LogisticsPipes:logisticsSolidBlock",
+          "id:8": "LogisticsPipes:item.itemUpgrade",
           "Count:3": 1,
-          "Damage:2": 1,
+          "Damage:2": 44,
           "OreDict:8": ""
         }
       },
@@ -61,14 +57,14 @@
       "index:3": 0,
       "rewards:9": {
         "0:10": {
-          "id:8": "LogisticsPipes:item.PipeItemsBasicLogistics",
-          "Count:3": 4,
-          "Damage:2": 0,
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 5,
           "OreDict:8": ""
         },
         "1:10": {
           "id:8": "dreamcraft:item.CoinTechnicianI",
-          "Count:3": 3,
+          "Count:3": 4,
           "Damage:2": 0,
           "OreDict:8": ""
         }
