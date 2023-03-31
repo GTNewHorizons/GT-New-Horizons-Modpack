@@ -44,8 +44,8 @@
       "partialMatch:1": 1,
       "autoConsume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
@@ -53,18 +53,7 @@
           "Count:3": 1,
           "tag:10": {
             "wearableData:10": {
-              "lastTime:3": 993,
-              "extendedProperties:10": {},
-              "disableCycling:1": 0,
-              "disableNVision:1": 0,
-              "type:1": 51,
-              "inventory:9": {},
-              "leftTank:10": {
-                "Empty:8": ""
-              },
-              "rightTank:10": {
-                "Empty:8": ""
-              }
+              "type:1": 51
             }
           },
           "Damage:2": 53,

@@ -744,10 +744,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAC5w==.desc=By making a lumber axe you ar
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC6A==.name=§3§lMining Dirt Block by Block is so Old School
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC6A==.desc=By making an excavator you are now able to mine dirt in a 3x3 area. You can use iron, steel, or alumite poured from the Smeltery, it doesn't need to be steel. %n%nHigher tier metals require the MV extruder. Don't destroy your whole garden.%n%n§6The quest should accept the tool whatever materials you used.
 
-# Quest: §3§lSubmission Station
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEbQ==.name=§3§lSubmission Station
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEbQ==.desc=Although many of the questing tasks can be submitted directly through your inventory (including liquids) sometimes you need a more automated solution. This is where the Object Submission Station (OSS) comes in handy. %n%nTasks supporting the OSS can be selected through the built in interface to enable its use. Once setup, liquids and items can be either piped in or dropped into the interface's input slot. It will not void items or liquids if no task is selected or if it has already been completed, however, making it relatively safe from accidental item/fluid deletion. Multiple OSS are also capable of taking on separate sub-tasks under the same quest simultaneously!%n%n§3PS: No quests actually require this at the moment, so feel free to ignore it.
-
 # Quest: §3§lFactory Iron Door
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAG_Q==.name=§3§lFactory Iron Door
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAG_Q==.desc=For your new Factory you need iron doors. Unfortunately, the recipe is really hard, needing steel.%n%nYou can choose two more iron doors as reward if you like.
@@ -2065,7 +2061,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAD-g==.desc=Integrated Processors need ce
 
 # Quest: §9§lIntegrated Processor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD-A==.name=§9§lIntegrated Processor
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD-A==.desc=This is the start of the first 4-circuit circuit line. This one doesn't really have a consistant naming scheme unlike the later ones, but it still works the same way, aside from the fact that you get your first EV §oand§r IV circuits from it, all the rest only have 1 new tier of circuit. Because of this you'll need to make 2 new CAs to finish it.%n%nThe first one is the Integrated Processor, the final type of MV circuits. You also don't need to craft any other circuits to make it, so it's the cheapest. This repeats each circuit tier.%n%nYou will additionally need 4 Resistors, 4 Capacitors and 4 Transistors.%n%n§3This and all circuits past it need a cleanroom.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD-A==.desc=This is the start of the first 4-circuit circuit line. This one doesn't really have a consistant naming scheme unlike the later ones, but it still works the same way, aside from the fact that you get your first EV §oand§r IV circuits from it, all the rest only have 1 new tier of circuit. Because of this you'll need to make 2 new CAs to finish it.%n%nThe first one is the Integrated Processor, the final type of MV circuits. You also don't need to craft any other circuits to make it, so it's the cheapest. This repeats each circuit tier.%n%n§3This and all circuits past it need a cleanroom.
 
 # Quest: §9§lSmall Coil
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD-w==.name=§9§lSmall Coil
@@ -2077,7 +2073,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAD-Q==.desc=This is the second step to ma
 
 # Quest: §9§lWorkstations, Your First EV Circuit
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD9g==.name=§9§lWorkstations, Your First EV Circuit
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD9g==.desc=Your first EV circuit is the Workstation.%n%nIn addition, you'll need 16 Diodes, SMD or non-SMD.%n%nYou can make Blue Alloy with Silver and Electrotine in an Alloy Smelter. If you don't have Electrotine, you can make it from Redstone and Electrum in a Mixer. Have fun!%n%nAlso note that using the fluid solidifer is way faster than the extruder for Blue Alloy.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD9g==.desc=Your first EV circuit is the Workstation.%n%nYou can make Blue Alloy with Silver and Electrotine in an Alloy Smelter. If you don't have Electrotine, you can make it from Redstone and Electrum in a Mixer. Have fun!%n%nAlso note that using the fluid solidifer is way faster than the extruder for Blue Alloy.
 
 # Quest: §9§lPerforming Chemical Experiments at HV Level
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADrw==.name=§9§lPerforming Chemical Experiments at HV Level
@@ -4369,7 +4365,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACjQ==.desc=The advanced electric jetpack
 
 # Quest: Carbon Parts
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADBw==.name=Carbon Parts
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADBw==.desc=These are the first parts you will need for your beloved nano armor.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADBw==.desc=These are the first parts you will need for your beloved nano armor.%n%n§3To actually complete the nano armor you will need EV circuits and nanocrystals (see Storing and Transforming EU). 
 
 # Quest: Sensor Lens
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADHA==.name=Sensor Lens
@@ -5396,7 +5392,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAATg==.desc=Better materials need higher 
 
 # Quest: §6§lCleanroom
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADrA==.name=§6§lCleanroom
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADrA==.desc=If you want to make more advanced (also cheaper!) circuits you'll need a cleanroom. The cleanroom is a multiblock between 3x4x3 and 15x15x15 (WxHxL) blocks. Besides plascrete blocks for all edges you'll need a controller in the top center, filter machine casings for the rest of the top except edges, an energy and a maintenance hatch. You will also need a reinforced door or some other way to get in and out and machine hulls or diodes if you want to automate it. The door, machine hulls, and diodes are optional. You can use the machine hulls for power input, item input, and item output. Tier does not affect item transfer, so use the cheapest ones for that.%n%nLet's build a 5x5x5 room. Expanding it vertically is easy to do, or you can make it wider and longer, as long as both X and Z match and are odd. Up to around 5%% of the plascrete blocks can be replaced with Reinforced Glass to see into the cleanroom and check on machines. Some other glass like Borosilicate Glass or Warded Glass can be used in even higher percentages.%n%nYou can pass materials through the walls using Machine Hulls. You can pass 1A of power using a Machine Hull as well, or you can use Diodes to pass multiple amps through.%n%nJust be really careful when upgrading your machines to a higher voltage. Be sure to remove the machine hulls and diodes and replace them with the new power tier, or else you will be very sad. You don't need to do this for ones you only use to pass items through.%n%nIf the Cleanroom has maintenance issues, it will have a chance to void recipes needing a cleanroom (10%% per maint issue!). Monitor your cleanroom with a Hand Scanner, Industrial Information Panel, or using a Needs Maintenance Cover and a Redstone Powered Light or Howler Alarm.%n%nAdditionally, the longer the door is open or the cleanroom is off, the lower the efficiency will get, which has a direct correlation to recipe voiding. So open the door as little as possible and keep the cleanroom running! There are ways around using a door though. With an elevator or travel anchor you never actually need to open a door or even use one in the structure! You can even use the elevator block or travel anchor as a floor block to neatly integrate it.%n%n§3Multiblocks such as the LCR, LPF, or PA count as cleanrooms, so you don't need to put them in one. You cannot use the bio lab in a PA, so you'll still need the cleanroom later on.%n%nOther helpful hints include: using a wireless connector for AE or a transvector interface to skip machine hulls, and that you can use higher tier energy hatches to reach 100%% efficiency faster (does not use more power once at 100%%).%n%n§cKeep in mind that you cannot use anything in the cleanroom that causes pollution or it will break down.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADrA==.desc=If you want to make more advanced (also cheaper!) circuits you'll need a cleanroom. The cleanroom is a multiblock between 3x4x3 and 15x15x15 (WxHxL) blocks. Besides plascrete blocks for all edges you'll need a controller in the top center, filter machine casings for the rest of the top except edges, an energy and a maintenance hatch. You will also need a reinforced door or some other way to get in and out and machine hulls or diodes if you want to automate it. The door, machine hulls, and diodes are optional. You can use the machine hulls for power input, item input, and item output. Tier does not affect item transfer, so use the cheapest ones for that.%n%nLet's build a 5x5x5 room. Expanding it vertically is easy to do, or you can make it wider and longer, as long as both X and Z match and are odd. Up to around 5%% of the plascrete blocks can be replaced with Reinforced Glass to see into the cleanroom and check on machines. Some other glass like Borosilicate Glass or Warded Glass can be used in even higher percentages.%n%nYou can pass materials through the walls using Machine Hulls. You can pass 1A of power using a Machine Hull as well, or you can use Diodes to pass multiple amps through.%n%nJust be really careful when upgrading your machines to a higher voltage. Be sure to remove the machine hulls and diodes and replace them with the new power tier, or else you will be very sad. You don't need to do this for ones you only use to pass items through.%n%nIf the Cleanroom has maintenance issues, it will have a chance to void recipes needing a cleanroom (10%% per maint issue!). Monitor your cleanroom with a Hand Scanner, Industrial Information Panel, or using a Needs Maintenance Cover and a Redstone Powered Light or Howler Alarm.%n%nAdditionally, the longer the door is open or the cleanroom is off, the lower the efficiency will get, which has a direct correlation to recipe voiding. So open the door as little as possible and keep the cleanroom running! There are ways around using a door though. With an elevator or travel anchor you never actually need to open a door or even use one in the structure! You can even use the elevator block or travel anchor as a floor block to neatly integrate it.%n%nThe power usage of this multiblock is a bit unusual. It starts out at 40 eu/t and then gradually goes down. But even when it uses 40 eu/t - which is usually MV - a single LV energy hatch suffices. Just keep in mind that this makes the Cleanroom an exception, not the rule.%n%n§3Multiblocks such as the LCR, LPF, or PA count as cleanrooms, so you don't need to put them in one. You cannot use the bio lab in a PA, so you'll still need the cleanroom later on.%n%nOther helpful hints include: using a wireless connector for AE or a transvector interface to skip machine hulls, and that you can use higher tier energy hatches to reach 100%% efficiency faster (does not use more power once at 100%%).%n%n§4Keep in mind that you cannot use anything in the cleanroom that causes pollution or it will break down.
 
 # Quest: §6§lDon't Put a Finger in That Socket
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIYA==.name=§6§lDon't Put a Finger in That Socket
@@ -9293,7 +9289,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIzg==.desc=This deadly little princess w
 
 # Quest: Indium
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABhg==.name=Indium
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABhg==.desc=This bee is pretty overpowered. Use it while you can, I see a nerf in its future.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABhg==.desc=You can not use the mutatron, and you have to go to Venus. But once you have it this bee is very strong!
 
 # Quest: Iridium
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABYQ==.name=Iridium
@@ -12774,6 +12770,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKtw==.desc=Finally, a use for those bloo
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALYQ==.name=Sticky Matter
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALYQ==.desc=Can't find any Rubber Trees? Can't build a water tank? Too lazy to make a tree tap?  Buy a stack of sticky resin for some coins.
 
+# Quest: More SMD Inductors
+betterquesting.quest.b8oLtR7SS86ItajFCriChw==.name=More SMD Inductors
+betterquesting.quest.b8oLtR7SS86ItajFCriChw==.desc=Want some SMD inductors? Buy some!
+
 
 ## Quest Line: Reward Area
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAKg==.name=Reward Area
@@ -13353,10 +13353,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAM0Q==.desc=Neutronium nanites are slow m
 
 ### Quests in no quest lines ###
 
-# Quest: Bzzz... Whoom... (Defunct do not complete)
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAYw==.name=Bzzz... Whoom... (Defunct do not complete)
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAYw==.desc=Making some flawless crystals requires a precision laser engraver.%nAt MV level the precision laser engraver becomes more important.
-
 # Quest: Trigger LoC
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABww==.name=Trigger LoC
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABww==.desc=Triggered by having a "Lamp of Cinders" in your inventory.
@@ -13381,46 +13377,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABxw==.desc=Triggered by finding a "Myste
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAByA==.name=Trigger Life
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAByA==.desc=Triggers the Life Canister Quest after a Wither death.
 
-# Quest: Diesel, creosote: Watch them BURN!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAB8w==.name=Diesel, creosote: Watch them BURN!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAB8w==.desc=You have almost made it. One last crafting step is required in order to advance to tier 2. Keep going!
-
-# Quest: Magma Cube
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADeQ==.name=Magma Cube
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADeQ==.desc=You feel lonely. Wanna bounce?
-
-# Quest: Paying the highest price
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADgw==.name=Paying the highest price
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADgw==.desc=A tier 2 blood altar needs 8 runes placed around the altar. Your new altar can hold more blood.
-
-# Quest: Tool: Never complete
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrw==.name=Tool: Never complete
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrw==.desc=This quest should never be complete which is useful to hide templates and other things.
-
-# Quest: (DEPRECATED)§2§l A Dimension by Any Other Name...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF2g==.name=(DEPRECATED)§2§l A Dimension by Any Other Name...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF2g==.desc=Use this table to decode dimension names%n%nOW - Overworld%nNe - Nether%nTF - Twilight Forest%nEN - End%nVA - Vanilla End Asteroids%nEA - End Asteroids (don't ask me what the difference is)%n%nSpace Dims:%nAs - Asteroids (the asteroid belt between mars and Jupiter)%nBC - Barnard C%nBE - Barnard E%nBF - Barnard F%nCa - Callisto%nCA - Centauri A%nCe - Ceres%nDe - Deimos%nEn - Enceladus%nEu - Europa%nGa - Ganymeade%nHa - Haumea%nIo - Io%nKB - Kuiper Belt%nMa - Mars%nMe - Mercury%nMi - Miranda%nMM - Makemake%nMo - Moon%nOb - Oberon%nPh - Phobos%nPl - Pluto%nPr - Proteus%nTE - Tau Ceti E%nTi - Titan%nTr - Triton%nVB - Vega B%nVe - Venus
-
-# Quest: Bees Template
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIbw==.name=Bees Template
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIbw==.desc=Get the princess bee and reward bag in NEI first.%nCopy this quest.%nPress Icon and set the icon to the bee.%nChange the name, decription, and rewards.%n%nPress Task, and select the stone, and replace it with the princess.%nBefore closing, select the ... next to the bee name and press Raw NBT%nGo into Tag, Genome, Chromosomes. The first one is the name and must stay. %nGo inside there and delete the first entry, keep both of the species so players%nmust have purebreeds.%nDelete the rest of the chromosomes.%nDelete the rest of the entries for Genome.%n%nPress Requirements. Remove the Infinity unlock requirement and select the required bee quests. Use the common bees quest if nothing applies.%n%nChange Show:Hidden to Show:Normal.%n%nTo reduce waste in the questbook file ideally you should also go into the advanced options, then press ... for the icon, and remove unnecessary NBT there as well. Just leave the species as above.%n%n%n§3You can change the visibility of requirements by pressing the eye symbol in the requirements menu.
-
-# Quest: (deprecated) Fluid Storage Housing
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJtg==.name=(deprecated) Fluid Storage Housing
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJtg==.desc=This is the fluid version, for storing fluids in your network.
-
-# Quest: (deprecated) Fluid Placement
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ5Q==.name=(deprecated) Fluid Placement
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ5Q==.desc=Did you know that dispensers with a bucket will place or pick up fluid blocks in front of them after receiving a redstone signal? Well, this is the technological version. Remember it'll only work on fluids that can be placed down, ok? This is different from whether there's a bucket version or not.
-
-# Quest: (deprecated) Wireless 1.5
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ7Q==.name=(deprecated) Wireless 1.5
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ7Q==.desc=You can add different terminals (fluid, essentia) to the Wireless Terminal to make the Wireless Universal Terminal. However... essentia doesn't work, and crafting only works if the crafting terminal was used as the base.
-
-# Quest: (Deprecated) Safety First!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFDQ==.name=(Deprecated) Safety First!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFDQ==.desc=This storage cell housing is blast proof and stores only 3 cells.%n%n§4Also super buggy (graphically).
-
 # Quest: Trigger:Ring
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFUw==.name=Trigger:Ring
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFUw==.desc=No Description
@@ -13433,17 +13389,17 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFVA==.desc=Find a mjolnir
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFVQ==.name=Trigger:Ballthingy
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFVQ==.desc=Find? or make a LS
 
-# Quest: HSSG
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGhA==.name=HSSG
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGhA==.desc=After you can make Tungsten Steel and may upgrade your Electric Blastfurnace with new Coils you are able to make HSS-G Ingots. This ingot becomes very important in LuV tier.%nHss-g is made out of tungstensteel, chrome, molydenum and vanadium dust.
-
-# Quest: Purchase Tier 1 Graphics Card
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAG6g==.name=Purchase Tier 1 Graphics Card
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAG6g==.desc=I'll sell you a Tier 1 Graphics Card for four Bitcoins.
-
 # Quest: Trigger:CtH (unlock)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAISw==.name=Trigger:CtH (unlock)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAISw==.desc=Complete collecting the hybrids to trigger
+
+# Quest: Tool: Never complete
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrw==.name=Tool: Never complete
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrw==.desc=This quest should never be complete which is useful to hide templates and other things.
+
+# Quest: Bees Template
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIbw==.name=Bees Template
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIbw==.desc=Get the princess bee and reward bag in NEI first.%nCopy this quest.%nPress Icon and set the icon to the bee.%nChange the name, decription, and rewards.%n%nPress Task, and select the stone, and replace it with the princess.%nBefore closing, select the ... next to the bee name and press Raw NBT%nGo into Tag, Genome, Chromosomes. The first one is the name and must stay. %nGo inside there and delete the first entry, keep both of the species so players%nmust have purebreeds.%nDelete the rest of the chromosomes.%nDelete the rest of the entries for Genome.%n%nPress Requirements. Remove the Infinity unlock requirement and select the required bee quests. Use the common bees quest if nothing applies.%n%nChange Show:Hidden to Show:Normal.%n%nTo reduce waste in the questbook file ideally you should also go into the advanced options, then press ... for the icon, and remove unnecessary NBT there as well. Just leave the species as above.%n%n%n§3You can change the visibility of requirements by pressing the eye symbol in the requirements menu.
 
 # Quest: Trigger:Loot Game
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALOw==.name=Trigger:Loot Game

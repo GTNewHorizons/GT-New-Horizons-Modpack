@@ -31,7 +31,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Your first EV circuit is the Workstation.\n\nIn addition, you\u0027ll need 16 Diodes, SMD or non-SMD.\n\nYou can make Blue Alloy with Silver and Electrotine in an Alloy Smelter. If you don\u0027t have Electrotine, you can make it from Redstone and Electrum in a Mixer. Have fun!\n\nAlso note that using the fluid solidifer is way faster than the extruder for Blue Alloy."
+      "desc:8": "Your first EV circuit is the Workstation.\n\nYou can make Blue Alloy with Silver and Electrotine in an Alloy Smelter. If you don\u0027t have Electrotine, you can make it from Redstone and Electrum in a Mixer. Have fun!\n\nAlso note that using the fluid solidifer is way faster than the extruder for Blue Alloy."
     }
   },
   "tasks:9": {
@@ -72,6 +72,12 @@
           "Count:3": 64,
           "Damage:2": 26309,
           "OreDict:8": ""
+        },
+        "5:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 16,
+          "Damage:2": 32715,
+          "OreDict:8": "componentCircuitDiode"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
