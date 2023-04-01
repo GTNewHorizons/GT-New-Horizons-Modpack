@@ -2450,7 +2450,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGjA.desc=Fiber Reinforced Epoxid Sheets 
 
 # Quest: §a§lEmpty Fiber Reinforced Glass Board
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGjQ.name=§a§lEmpty Fiber Reinforced Glass Board
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGjQ.desc=Fiber Reinforced circuit boards require fiber-reinforced epoxid resin sheets, aluminium foil, and sulfuric acid to make an empty board. By adding energetic alloy foil and Iron(III) Chloride or Sodium Persulfate you can craft a More Advanced Circuit Board.%n%n§3If you don't want to make Lapotronic Energy Orbs for PAs, the rest of this questline is in IV.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGjQ.desc=Fiber Reinforced circuit boards require fiber-reinforced epoxid resin sheets, aluminium foil, and sulfuric acid to make an empty board. By adding energetic alloy foil and Iron(III) Chloride or Sodium Persulfate you can craft a More Advanced Circuit Board.%n%n§3With these new boards you can make Lapotronic Energy Orbs. Maybe you want to upgrade your LSC. Or you are getting close to making a Processing Array. The boards are also used in IV for the next circuit line.
 
 # Quest: §a§lEmpty Expoxid Board
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE0g.name=§a§lEmpty Expoxid Board
@@ -3837,6 +3837,34 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKZg.desc=The Bioprocessor is the first B
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKZw.name=Bio Circuit 2: Biological Boogaloo
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKZw.desc=The Bioprocessor Assembly is the second Bio Circuit. It is a UV-Tier circuit.
 
+# Quest: Compressing the Core of a Star
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKcg.name=Compressing the Core of a Star
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKcg.desc=The next material is Infinity Catalyst. Infinity Catalyst needs to be compressed with insane amounts of force. The only machine capable of doing that is a Neutronium Compressor. Let's make one.%n%nTo make the Catalyst, go to Vega B to get the dust. Then use the Neutronium Compressor to make Infinity Catalyst with 64 of the dust.%n%nYou can also do the insane Avaritia recipe to make the Infinity Catalyst, if you want a challenge :P%n%n§3The compressor can also be used to make singularities, culiminating in the Eternal Singularity, used in the alternate recipe.%n%nIf you want to automate singularity creation you can just click with the middle mouse button to modify the number of items in a pattern beyond the normal limits.
+
+# Quest: One Ingot, Infinite Power
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKcw.name=One Ingot, Infinite Power
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKcw.desc=Here at Questbook, Inc. we are seriously worried about your health if you got here legitimately. Playing this much might be bad for you. You can always go outside, you know?%n%nBy the way, to make the ingot, it's just a simple Dire Crafting Table recipe. Remember that you were the one that chose to be here.%n%n§3A number of endgame recipes have now opened up. Check the Endgame Goals tab or NEI recipes for the Table to see what they are.%n%nSomething else to note is that there's an automated DCT if you happen to need a lot of these (hint: you will).
+
+# Quest: Infinity Infrastructure
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKFg.name=Infinity Infrastructure
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKFg.desc=You will need a lot of infinity going forward. Be prepared for emotional trauma.
+
+# Quest: Misc Endgame Goals
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKIw.name=Misc Endgame Goals
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKIw.desc=With infinity unlocked, you can start making the first creative items.
+
+# Quest: Infinite Vis Storage, kinda?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKGQ.name=Infinite Vis Storage, kinda?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKGQ.desc=Provides an absurd quantity of vis storage. It also fills as soon as you pick it up.
+
+# Quest: Infinite Oxygen Tank
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKHQ.name=Infinite Oxygen Tank
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKHQ.desc=Provides infinite oxygen. In the past you could only use it to refill tanks. But now you can just put it in your oxygen slot!
+
+# Quest: Collecting Neutrons the Alternate Way
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKdA.name=Collecting Neutrons the Alternate Way
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKdA.desc=Now that you have Infinity, you can use the Avaritia Neutron Collector to get Piles of Neutrons. It does not use any power.%n%n§3Warning: This machine is extremely slow, so you might want to use something to help with that...
+
 # Quest: Beyond the Limit
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKiA.name=Beyond the Limit
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKiA.desc=To make living solder for your UEV components or bio-circuits, you will need a chem plant with Rugged Botmium Casings. These are not easy to make!%n%nYou can certainly figure out the rest by now, but the Advanced Nitinol may confuse you. You make it out of blocks of Nitinol 60 with a Quantum Anomaly in a Laser Engraver. This means you need to make a UV Cyclotron, and hit several low chances in a row, so good luck with that!
@@ -3861,14 +3889,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAB0A.desc=Yes, this schematic is perfect!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABzg.name=Wyvern Core
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABzg.desc=Wyverns are rare dragons that can walk on two legs. More powerful for sure. Researching your Draconic Core, you found a way to improve it. The Wyvern Core.
 
-# Quest: Awakened Core
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAB0w.name=Awakened Core
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAB0w.desc=There was something sleeping deep inside all the draconic material you have made and researched so far. It is time to AWAKE it!
-
-# Quest: Chaotic Core
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAB0Q.name=Chaotic Core
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAB0Q.desc=In the darkest corners of the End you found a dragon that was different. Raw power streaming out in chaotic fashion, threatening to tear apart reality itself! But even that dragon you defeated. Concentrating that raw power within a core certainly isn't easy but it looks like you found a way.
-
 # Quest: UHV Field Generator
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKQA.name=UHV Field Generator
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKQA.desc=I wonder if they're circles because they're basically just wrapped wire, there's certainly enough of it in there.%n%nBTW there's one tier higher than this, find it on the Endgame Goals tab, and start on your §kDeep Dark Portal§r. It's certainly very useful.
@@ -3889,17 +3909,174 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkA.desc=You can now make optical SMDs! 
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsQ.name=Wait, PBI wasn't the last plastic?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsQ.desc=Let's make a brand new plastic! The trees that you found on Barnada C have very interesting properties. Still, you can't just use the extracted radox substance raw. Some serious refining steps are in order!%n%n§6You'll need it for a ton of stuff like UIV and UMV superconductors, UEV+ hatches, or parts of the Dyson Swarm.§r%n%nCompared to the previous plastics, most of the steps required here are not chemical reactions. They are also very slow, so you might want to use a mega multiblock to help with that. This production line also underlines the necessity of large-scale plasma production. You will only need more going forward.%n%n§3The Heavy Radox you get as a byproduct can be used for MkV Naquadah Fuel.
 
-# Quest: Compressing the Core of a Star
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKcg.name=Compressing the Core of a Star
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKcg.desc=The next material is Infinity Catalyst. Infinity Catalyst needs to be compressed with insane amounts of force. The only machine capable of doing that is a Neutronium Compressor. Let's make one.%n%nTo make the Catalyst, go to Vega B to get the dust. Then use the Neutronium Compressor to make Infinity Catalyst with 64 of the dust.%n%nYou can also do the insane Avaritia recipe to make the Infinity Catalyst, if you want a challenge :P%n%n§3The compressor can also be used to make singularities, culiminating in the Eternal Singularity, used in the alternate recipe.%n%nIf you want to automate singularity creation you can just click with the middle mouse button to modify the number of items in a pattern beyond the normal limits.
-
 # Quest: Quantum Anomaly
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAByg.name=Quantum Anomaly
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAByg.desc=All your theoretical knowledge tells you this can't possibly exist. But there it is.%n%nMaybe you can find some use for it?
 
-# Quest: Collecting Neutrons the Alternate Way
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKdA.name=Collecting Neutrons the Alternate Way
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKdA.desc=Now that you have Infinity, you can use the Avaritia Neutron Collector to get Piles of Neutrons. It does not use any power.%n%n§3Warning: This machine is extremely slow, so you might want to use something to help with that...
+
+## Quest Line: Endgame Goals
+betterquesting.questline.AAAAAAAAAAAAAAAAAAAAHQ.name=Endgame Goals
+betterquesting.questline.AAAAAAAAAAAAAAAAAAAAHQ.desc=Collection of endgame objectives, good luck and thanks for playing so far.
+
+# Quest: UEV and beyond!
+betterquesting.quest.W4fpsTIlReOV-3-yiEqD8A.name=UEV and beyond!
+betterquesting.quest.W4fpsTIlReOV-3-yiEqD8A.desc=UEV, UIV, UMV, UXV, ...%n%nThese tiers are still a work in progress. But you can find the most important progression steps here, as well as the pinnacle goals.
+
+# Quest: Galaxy in a Bottle...?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKFw.name=Galaxy in a Bottle...?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKFw.desc=Good luck with this one, it is many many many times harder than the previous tiers. Required to make extremely endgame materials such as hypogen.
+
+# Quest: Dragonblood
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsA.name=Dragonblood
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsA.desc=For your first batch of Hypogen you will need some Dragonblood. Maybe you already have some lying around somewhere from killing the dragon a long time ago. You have 2 other options though. Bees and the DE Fusion Crafter.%n%nFor the bee path you have to go very deep into the breeding tree, but maybe you have already done that? Check the Bee Breeding tab either way.%n%nIn the DE Fusion Crafter you have 2 recipes. The better one uses an Infinity Egg from Witchery. Without any Witchery you can also just a normal dragon egg for the weaker recipe.%n%nOnce you have a bit of Hypogen you can then use that as a starting point to make more in your DTPF without any Dragonblood. I don't know why it works that way, complain to Colen.%n%nHowever, you will still need more Dragonblood eventually for UMV superconductors.%n%n%n§3There is actually another way to get Dragonblood which is similar to the DE Fusion Crafter recipes but in the mixer instead. Its even slower and less resource efficient. In particular, the dragon egg does not survive the process. So only use that if you are absolutely trying to avoid magic and bees.%n%nJust a reminder: a fluid task just needs you to have the fluid in some container in your inventory. (cell, universal cell, large cell, volumetric cell, etc.)
+
+# Quest: Hypogen
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKGA.name=Hypogen
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKGA.desc=Here it is, the most high tier GT++ material. You will need UIV to process it. So for now that means you can only solidify it in a large processing factory from GT++.%n%n§3With your first ingot obtained, you can turn to the DTPF to make more. I think that recipe should be a lot better than the MK4 reactor.%n%nYou can also have this cake as a reward for coming this far.
+
+# Quest: UMV Circuits
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqg.name=UMV Circuits
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqg.desc=Circuits required for UMV tier.
+
+# Quest: Tesseract
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpw.name=Tesseract
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpw.desc=Engineering beyond your comprehension. Destroying this strange higher dimensional object in a macerator is very easy though.
+
+# Quest: SpaceTime
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqA.name=SpaceTime
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqA.desc=Reality itself bends to your will.
+
+# Quest: UXV Circuits
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrA.name=UXV Circuits
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrA.desc=Circuits required for UXV.
+
+# Quest: The Darkness of Choice for Edgelords
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJbQ.name=The Darkness of Choice for Edgelords
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJbQ.desc=In order to get to the riches you rightfully deserve, you'll first need to make a Raw Portal, then complete it with more materials. You can then access this dimension that should contain every ore imaginable...%n%n§3Unfortunately, those tasty ores are locked beneath the mantle of the planet. You'll need to use a Void Miner to get them out.
+
+# Quest: Finally, you are here.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqw.name=Finally, you are here.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqw.desc=Just a bit more.
+
+# Quest: You are worthy
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMoQ.name=You are worthy
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMoQ.desc=Go no further if you value your sanity.
+
+# Quest: UXV tier
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAM4A.name=UXV tier
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAM4A.desc=May Dreammaster have mercy on your soul. You have reached the highest craftable tier in the game!
+
+# Quest: The Door to Heaven?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKDA.name=The Door to Heaven?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKDA.desc=You'll need a lot of these to make a full stargate...
+
+# Quest: Stargate Chevron
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKEA.name=Stargate Chevron
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKEA.desc=This is required in order to make the stargate work between dimensions, provided you get a second stargate to dial...
+
+# Quest: Stargate Chevron Block
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKDw.name=Stargate Chevron Block
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKDw.desc=You'll need 7 of these to construct a full stargate.
+
+# Quest: Stargate Base
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKDg.name=Stargate Base
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKDg.desc=We need one of these to form the base of the stargate.
+
+# Quest: You'll Probably Need Quite a Few of These
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKIg.name=You'll Probably Need Quite a Few of These
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKIg.desc=It may not actually store any energy but it'll still be useful for some other endgame items.
+
+# Quest: Stargate Command
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKJQ.name=Stargate Command
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKJQ.desc=Okay so if you actually want to use the stargate you'll need these to power it and dial it up.
+
+# Quest: Stargate Ring Block
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKDQ.name=Stargate Ring Block
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKDQ.desc=You'll need 8 of these to construct a full stargate.
+
+# Quest: What, How?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKJg.name=What, How?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKJg.desc=You're not supposed to be here... I think you need to go outside and get some sunlight if you unlocked this legitmately...%n%nIn the meantime here's your reward, don't spend it all at once!
+
+# Quest: Nearly there...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpQ.name=Nearly there...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpQ.desc=So close.
+
+# Quest: Well This Looks... Shiny?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKHA.name=Well This Looks... Shiny?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKHA.desc=Eternal singularity, requires nearly every resource in GTNH to construct. A stargate will require almost 5000 of these in total.
+
+# Quest: Infinity Chest
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKEQ.name=Infinity Chest
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKEQ.desc=Stores up to 243 different items, each being able to stack up to 2,147,483,648. Useful if you want somewhere to put all those void miner ores.
+
+# Quest: You Know the Drill
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKHg.name=You Know the Drill
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKHg.desc=I'm not even sure these have uses but they're blue so that's kinda cool.
+
+# Quest: DTPF
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMog.name=DTPF
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMog.desc=Congratulations, you have reached the Dimensionally Transcendent Plasma Forge, one of the most lategame multiblocks in the pack. This monster will make a MEBF look like a toaster by comparison to the raw smelting power available here.%n%nThis multiblock has numerous powerful recipes at its disposal, including the ability to cook 4,096 neutronium in parallel for a reduced EU cost and the conversion of infinity catalyst directly into infinity at a 1:1 ratio. This comes at a great cost and will likely be a harsh test on your infrastructure.
+
+# Quest: Welcome to Hell!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKIQ.name=Welcome to Hell!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKIQ.desc=Congratulations, you've beaten most of the pack! Here we have some absolutely outrageous final challenges for you. Maybe start by showing us your certificate.
+
+# Quest: Naquadah Fuel
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrQ.name=Naquadah Fuel
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrQ.desc=Endgame power source.
+
+# Quest: Optical Circuits
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpA.name=Optical Circuits
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpA.desc=There is an entire new circuit line here! More quests to come for sure.
+
+# Quest: Awakened Core
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAB0w.name=Awakened Core
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAB0w.desc=There was something sleeping deep inside all the draconic material you have made and researched so far. It is time to AWAKE it!
+
+# Quest: Infinity Helmet
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKCA.name=Infinity Helmet
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKCA.desc=Helmet which provides infinite saturation and removes all negative debuffs.
+
+# Quest: Infinity Breastplate
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKCQ.name=Infinity Breastplate
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKCQ.desc=Breastplate which provides the user infinite creative flight.
+
+# Quest: Infinity Pants
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKCg.name=Infinity Pants
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKCg.desc=This item has no special effects on its own but is required to complete the full infinity set.
+
+# Quest: Infinity Boots
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKCw.name=Infinity Boots
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKCw.desc=Provides a permanent jump boost and increased running speed.
+
+# Quest: Nature's Ruin
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKEg.name=Nature's Ruin
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKEg.desc=Infinity axe, never breaks and capable of chopping down an entire tree instantly.%n%n§3Cuz a levelled up and modified lumber axe is §ototally§r§3 not capable of that.
+
+# Quest: Planet Eater
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKEw.name=Planet Eater
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKEw.desc=Infinity shovel, never breaks and capable of mining a 16x16x16 area instantly.
+
+# Quest: Sword of the Cosmos
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKFA.name=Sword of the Cosmos
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKFA.desc=Able to kill anything, in one hit except another player in full infinity gear. Essentially runs the /kill command on the entity you hit.
+
+# Quest: World Breaker
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKFQ.name=World Breaker
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKFQ.desc=Infinity pickaxe, never breaks, able to break bedrock and capable of mining a 16x16x16 area instantly.
+
+# Quest: Longbow of the Heavens
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKnA.name=Longbow of the Heavens
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKnA.desc=Weak compared to both weapons of it's tier, and the weapons it's made of, this bow doesn't use arrows, never breaks, does 10 damage, and has an AoE of 10 more arrows that do 10 damage each fly down each time it strikes.
+
+# Quest: Chaotic Core
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAB0Q.name=Chaotic Core
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAB0Q.desc=In the darkest corners of the End you found a dragon that was different. Raw power streaming out in chaotic fashion, threatening to tear apart reality itself! But even that dragon you defeated. Concentrating that raw power within a core certainly isn't easy but it looks like you found a way.
+
+# Quest: Chaotic Energy
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKjQ.name=Chaotic Energy
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKjQ.desc=Finally, Infinite RF! ...But what can I even use that for?
 
 
 ## Quest Line: Fishing, Farming, Cooking
@@ -5441,6 +5618,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHGQ.desc=To process more advanced materi
 # Quest: §6§lAwakened Draconium Coil Upgrade
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHKQ.name=§6§lAwakened Draconium Coil Upgrade
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHKQ.desc=To process the most advanced materials like Infinity Catalyst or Infinity you need more than 9900K. Upgrade your EBF to 10800k.%n%n§3With the heat adjustment included, you can get up to 11601K if you OC with UHV hatches. Not that you need it or anything.
+
+# Quest: §6§lInfinity Coil Upgrade
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkQ.name=§6§lInfinity Coil Upgrade
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkQ.desc=Smelting with the ferocity of the universe itself.%n%nThis unbelievable material seemed impossible to manipulate into a coil block form, even though its properties made this desirable. It is incredibly stable even at extreme temperatures, but this also made it unable to pack together for coils.%n%nHowever, the situation changed when you thought about using something more intelligent. By integrating a Wetware or better UHV circuit, the Infinity Coil became a reality, controlled by the ever-watching eyes of the circuitry you've spent months to create. From now on, these eyes will watch over your multiblocks.%n%nProvides 11701 heat. You could upgrade your EBF, though at this point it's more likely to be for your MEBFs or your DTPF.
 
 # Quest: §6§lHSS-S Coil Upgrade
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALTA.name=§6§lHSS-S Coil Upgrade
@@ -11600,175 +11781,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFLQ.name=Dagger of Sacrifice
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFLQ.desc=Time to get more blood. Mobs are a good source for more blood. Transform your knife of sacrifice in your tier 2 altar into a dagger of sacrifice.
 
 
-## Quest Line: Endgame Goals
-betterquesting.questline.AAAAAAAAAAAAAAAAAAAAHQ.name=Endgame Goals
-betterquesting.questline.AAAAAAAAAAAAAAAAAAAAHQ.desc=Collection of endgame objectives, good luck and thanks for playing so far.
-
-# Quest: Tesseract
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpw.name=Tesseract
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpw.desc=Engineering beyond your comprehension. Destroying this strange higher dimensional object in a macerator is very easy though.
-
-# Quest: SpaceTime
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqA.name=SpaceTime
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqA.desc=Reality itself bends to your will.
-
-# Quest: Infinity Infrastructure
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKFg.name=Infinity Infrastructure
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKFg.desc=You will need a lot of infinity going forward. Be prepared for emotional trauma.
-
-# Quest: Infinity Helmet
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKCA.name=Infinity Helmet
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKCA.desc=Helmet which provides infinite saturation and removes all negative debuffs.
-
-# Quest: Infinity Breastplate
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKCQ.name=Infinity Breastplate
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKCQ.desc=Breastplate which provides the user infinite creative flight.
-
-# Quest: Infinity Pants
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKCg.name=Infinity Pants
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKCg.desc=This item has no special effects on its own but is required to complete the full infinity set.
-
-# Quest: Infinity Boots
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKCw.name=Infinity Boots
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKCw.desc=Provides a permanent jump boost and increased running speed.
-
-# Quest: Infinity Chest
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKEQ.name=Infinity Chest
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKEQ.desc=Stores up to 243 different items, each being able to stack up to 2,147,483,648. Useful if you want somewhere to put all those void miner ores.
-
-# Quest: Nature's Ruin
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKEg.name=Nature's Ruin
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKEg.desc=Infinity axe, never breaks and capable of chopping down an entire tree instantly.%n%n§3Cuz a levelled up and modified lumber axe is §ototally§r§3 not capable of that.
-
-# Quest: Planet Eater
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKEw.name=Planet Eater
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKEw.desc=Infinity shovel, never breaks and capable of mining a 16x16x16 area instantly.
-
-# Quest: Sword of the Cosmos
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKFA.name=Sword of the Cosmos
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKFA.desc=Able to kill anything, in one hit except another player in full infinity gear. Essentially runs the /kill command on the entity you hit.
-
-# Quest: World Breaker
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKFQ.name=World Breaker
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKFQ.desc=Infinity pickaxe, never breaks, able to break bedrock and capable of mining a 16x16x16 area instantly.
-
-# Quest: Well This Looks... Shiny?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKHA.name=Well This Looks... Shiny?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKHA.desc=Eternal singularity, requires nearly every resource in GTNH to construct. A stargate will require almost 5000 of these in total.
-
-# Quest: You Know the Drill
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKHg.name=You Know the Drill
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKHg.desc=I'm not even sure these have uses but they're blue so that's kinda cool.
-
-# Quest: Optical Circuits
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpA.name=Optical Circuits
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpA.desc=There is an entire new circuit line here! More quests to come for sure.
-
-# Quest: DTPF
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMog.name=DTPF
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMog.desc=Congratulations, you have reached the Dimensionally Transcendent Plasma Forge, one of the most lategame multiblocks in the pack. This monster will make a MEBF look like a toaster by comparison to the raw smelting power available here.%n%nThis multiblock has numerous powerful recipes at its disposal, including the ability to cook 4,096 neutronium in parallel for a reduced EU cost and the conversion of infinity catalyst directly into infinity at a 1:1 ratio. This comes at a great cost and will likely be a harsh test on your infrastructure.
-
-# Quest: Welcome to Hell!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKIQ.name=Welcome to Hell!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKIQ.desc=Congratulations, you've beaten most of the pack! Here we have some absolutely outrageous final challenges for you. Maybe start by showing us your certificate.
-
-# Quest: Longbow of the Heavens
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKnA.name=Longbow of the Heavens
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKnA.desc=Weak compared to both weapons of it's tier, and the weapons it's made of, this bow doesn't use arrows, never breaks, does 10 damage, and has an AoE of 10 more arrows that do 10 damage each fly down each time it strikes.
-
-# Quest: Galaxy in a Bottle...?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKFw.name=Galaxy in a Bottle...?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKFw.desc=Good luck with this one, it is many many many times harder than the previous tiers. Required to make extremely endgame materials such as hypogen.
-
-# Quest: Dragonblood
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsA.name=Dragonblood
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsA.desc=For your first batch of Hypogen you will need some Dragonblood. Maybe you already have some lying around somewhere from killing the dragon a long time ago. You have 2 other options though. Bees and the DE Fusion Crafter.%n%nFor the bee path you have to go very deep into the breeding tree, but maybe you have already done that? Check the Bee Breeding tab either way.%n%nIn the DE Fusion Crafter you have 2 recipes. The better one uses an Infinity Egg from Witchery. Without any Witchery you can also just a normal dragon egg for the weaker recipe.%n%nOnce you have a bit of Hypogen you can then use that as a starting point to make more in your DTPF without any Dragonblood. I don't know why it works that way, complain to Colen.%n%nHowever, you will still need more Dragonblood eventually for UMV superconductors.%n%n%n§3There is actually another way to get Dragonblood which is similar to the DE Fusion Crafter recipes but in the mixer instead. Its even slower and less resource efficient. In particular, the dragon egg does not survive the process. So only use that if you are absolutely trying to avoid magic and bees.%n%nJust a reminder: a fluid task just needs you to have the fluid in some container in your inventory. (cell, universal cell, large cell, volumetric cell, etc.)
-
-# Quest: Hypogen
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKGA.name=Hypogen
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKGA.desc=Here it is, the most high tier GT++ material. You will need UIV to process it. So for now that means you can only solidify it in a large processing factory from GT++.%n%n§3With your first ingot obtained, you can turn to the DTPF to make more. I think that recipe should be a lot better than the MK4 reactor.%n%nYou can also have this cake as a reward for coming this far.
-
-# Quest: UMV Circuits
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqg.name=UMV Circuits
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqg.desc=Circuits required for UMV tier.
-
-# Quest: UXV Circuits
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrA.name=UXV Circuits
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrA.desc=Circuits required for UXV.
-
-# Quest: Nearly there...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpQ.name=Nearly there...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpQ.desc=So close.
-
-# Quest: Finally, you are here.
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqw.name=Finally, you are here.
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqw.desc=Just a bit more.
-
-# Quest: You are worthy
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMoQ.name=You are worthy
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMoQ.desc=Go no further if you value your sanity.
-
-# Quest: UXV tier
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAM4A.name=UXV tier
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAM4A.desc=May Dreammaster have mercy on your soul. You have reached the highest craftable tier in the game!
-
-# Quest: The Darkness of Choice for Edgelords
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJbQ.name=The Darkness of Choice for Edgelords
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJbQ.desc=In order to get to the riches you rightfully deserve, you'll first need to make a Raw Portal, then complete it with more materials. You can then access this dimension that should contain every ore imaginable...%n%n§3Unfortunately, those tasty ores are locked beneath the mantle of the planet. You'll need to use a Void Miner to get them out.
-
-# Quest: The Door to Heaven?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKDA.name=The Door to Heaven?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKDA.desc=You'll need a lot of these to make a full stargate...
-
-# Quest: Stargate Chevron
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKEA.name=Stargate Chevron
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKEA.desc=This is required in order to make the stargate work between dimensions, provided you get a second stargate to dial...
-
-# Quest: Stargate Chevron Block
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKDw.name=Stargate Chevron Block
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKDw.desc=You'll need 7 of these to construct a full stargate.
-
-# Quest: Stargate Base
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKDg.name=Stargate Base
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKDg.desc=We need one of these to form the base of the stargate.
-
-# Quest: You'll Probably Need Quite a Few of These
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKIg.name=You'll Probably Need Quite a Few of These
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKIg.desc=It may not actually store any energy but it'll still be useful for some other endgame items.
-
-# Quest: Stargate Command
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKJQ.name=Stargate Command
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKJQ.desc=Okay so if you actually want to use the stargate you'll need these to power it and dial it up.
-
-# Quest: Stargate Ring Block
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKDQ.name=Stargate Ring Block
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKDQ.desc=You'll need 8 of these to construct a full stargate.
-
-# Quest: What, How?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKJg.name=What, How?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKJg.desc=You're not supposed to be here... I think you need to go outside and get some sunlight if you unlocked this legitmately...%n%nIn the meantime here's your reward, don't spend it all at once!
-
-# Quest: Misc Endgame Goals
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKIw.name=Misc Endgame Goals
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKIw.desc=These are various goals which are non-mandatory you can access at anytime.
-
-# Quest: Infinite Oxygen Tank
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKHQ.name=Infinite Oxygen Tank
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKHQ.desc=Provides infinite oxygen. In the past you could only use it to refill tanks. But now you can just put it in your oxygen slot!
-
-# Quest: Chaotic Energy
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKjQ.name=Chaotic Energy
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKjQ.desc=Finally, Infinite RF! ...But what can I even use that for?
-
-# Quest: Naquadah Fuel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrQ.name=Naquadah Fuel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrQ.desc=Endgame power source.
-
-# Quest: Infinite Vis Storage, kinda?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKGQ.name=Infinite Vis Storage, kinda?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKGQ.desc=Provides an absurd quantity of vis storage. It also fills as soon as you pick it up.
-
-
 ## Quest Line: Kill All the Things
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAJQ.name=Kill All the Things
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAJQ.desc=This world is full of nasty things. Time to kill some and improve your reputation.
@@ -13254,34 +13266,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKHw.desc=BTW, it doesn't actually hold m
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKJA.name=Who Needs UV Solars When You Have Magic
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKJA.desc=This single block can produce a maximum of 600m eu/t when in aqua form, that's balanced right... right?
 
-# Quest: One Ingot, Infinite Power
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKcw.name=One Ingot, Infinite Power
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKcw.desc=Here at Questbook, Inc. we are seriously worried about your health if you got here legitimately. Playing this much might be bad for you. You can always go outside, you know?%n%nBy the way, to make the ingot, it's just a simple Dire Crafting Table recipe. Remember that you were the one that chose to be here.%n%n§3A number of endgame recipes have now opened up. Check the Endgame Goals tab or NEI recipes for the Table to see what they are.%n%nSomething else to note is that there's an automated DCT if you happen to need a lot of these (hint: you will).
-
-# Quest: PCB Factory
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMyQ.name=PCB Factory
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMyQ.desc=All those boards made in a chemical reactor. It's time to stop that, there must be a more efficient way to make them. After a couple days of research I have found one, a factory designed to print out circuit boards.%n%n§4§5§a§d§r§a§rThe PCB Factory is able to use a wide range of plastics to create circuit boards ready to be used. The printing mechanism overheats when it tries to overclock currently, so I will have to find a way to make that work later. Boards with neurons on them will also take a bit before they can be made, but it won't be hard to achieve.%n%n§T§2Trace size: the trace size represents the lines between components, which are needed to transmit the electrical signals on the circuit. One can make it smaller to slow down the machine, but use less resources, or make it bigger to make it faster, but use more resources.%n%n§1Formulas:%n- 10000/(TraceSize/100) Production%n- RecipeDuration/TraceSize^2 Time%n%n§2Using the GUI, the player can go to the configuration menu. There they can change the trace size or add new parts to the multiblock. One can also change where they are placed around the multiblock.%n%n§3Make sure to set the configuration you want before using the structure lib blueprint for autobuild.
-
-# Quest: Bio Chamber
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMyg.name=Bio Chamber
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMyg.desc=As I got new technologies, I have seen the need to make a chamber where the circuit board can contain neurons for the wetware boards or the upcoming bioware boards.%n%nThe Bio Chamber is a simple upgrade, it doesn't require many resources. Don't know why I didn't make it earlier.%n%n§3It can use any glass.
-
-# Quest: PCB Factory Tier 2
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMzA.name=PCB Factory Tier 2
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMzA.desc=With the Nano Forge built, we can upgrade our production of circuit boards for free, but the nanites need a container to hold them. The current casings aren't enough, we need to find an alternative casing.%n%nAfter some research, infinity as a frame and enriched holmium as the protection layer seems to work well. It can be allowed to let through nanites to go into the printer base so that extra material can be directly removed instead of trying to go slower.%n%n§3Allows the player to use the tier 2 recipes with the use of a silver nanite in the input bus.%nThis also unlocks parallels of the PCB Factory with said formula: Log2(x) parallels, where x is the amount of nanites in the input bus.
-
-# Quest: PCB Factory Tier 3
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMzg.name=PCB Factory Tier 3
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMzg.desc=Why use a small nosel to print out the conductor on the board when one can just build it using nanites? Well the silver nanite isn't rigid enough for that so a new nanite will be needed... and so will new casings. Heard that celestial tungsten is a good candidate for a frame. Quantum can be used for the protection as these nanites will be forever flying around inside.%n%nThe structure will need to change as it needs to be a bit bigger and taller.%n%n§3Works the same as the Tier 2 in most cases, but allows the player to use even less resources by using a gold nanite.
-
-# Quest: Liquid Cooling Tower
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMyw.name=Liquid Cooling Tower
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMyw.desc=I have started to hit the limit of the multiblock without overclocking it, so I decided to give it a liquid cooler to cool down the mechanism. This will allow it to overclock like every other multi with 2xSpeed 4xEU/t.%n%nI will need to provide some distilled water to its hatch to avoid blockage in the pipes.%n%n§3The Liquid Cooling Tower allows the Multiblock to have 2/4 OC at the cost of 10/s of distilled water when running. The hatch is placed in the center of the Liquid Cooling Tower.
-
-# Quest: Thermosink Radiator
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMzQ.name=Thermosink Radiator
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMzQ.desc=With the control of spacetime you have achieved and its 0K temperature it would be possible to make an even better cooling unit. A casing able to keep its room temperature very low and nanites which can transfer heat effectively because of their small bodies. This doesn't quite work and some coolant is still needed, but water freezes at those temperatures so super coolant will be our choice.%n%n§3The Thermosink Radiator allows for 4/4 OC making it possible to speed through recipes. It requires 10/s of super coolant in its hatch, its in the same place as the Liquid Cooling Tower.%n%n§4This upgrade is incompatible with its lower tier predecessor.
-
 # Quest: Transform and...Stay Put Actually
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKqw.name=Transform and...Stay Put Actually
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKqw.desc=Active Transformers will transform power up or down at only a 0.004%% power loss, making using several in a row obsolete, if you can afford it. Unfortunately, it's kinda expensive. On the other hand, you can use it to turn your lasers from your laser hatches, which is probably a better use.%n%nIt doesn't need a Maintenance Hatch, just the I/O Hatches.%n%n§4Be sure to turn off Power Pass if you want to edit your machine and don't want it to explode!
@@ -13326,10 +13310,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMeA.desc=Some turbine materials are not 
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMiQ.name=Gas Planets
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMiQ.desc=You probably also want a good overview of what you can get with your Gas Siphon. So here we go:%n%n%nJupiter§r%n1 Hydrogen - 15000 L/s%n2 Helium - 500 L/s%n3 Nitrogen - 300 L/s%n4 Oxygen - 200 L/s%n%n§oSaturn§r%n1 Hydrogen - 18000 L/s%n2 Helium - 800 L/s%n3 Oxygen - 500 L/s%n4 Liquid Oxygen - 150 L/s%n%n§oUranus§r%n1 Deuterium - 5000 L/s%n2 Neon - 450 L/s%n3 Argon - 250 L/s%n4 Krypton - 100 L/s%n%n§oNeptune§r%n1 Tritium - 3000 L/s%n2 Helium-3 - 500 L/s%n3 Ammonia - 400 L/s%n4 Xenon - 350 L/s
 
-# Quest: §6§lInfinity Coil Upgrade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkQ.name=§6§lInfinity Coil Upgrade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkQ.desc=Smelting with the ferocity of the universe itself.%n%nThis unbelievable material seemed impossible to manipulate into a coil block form, even though its properties made this desirable. It is incredibly stable even at extreme temperatures, but this also made it unable to pack together for coils.%n%nHowever, the situation changed when you thought about using something more intelligent. By integrating a Wetware or better UHV circuit, the Infinity Coil became a reality, controlled by the ever-watching eyes of the circuitry you've spent months to create. From now on, these eyes will watch over your multiblocks.%n%nProvides 11701 heat. You could upgrade your EBF, though at this point it's more likely to be for your MEBFs or your DTPF.
-
 # Quest: §6§lHypogen Coil Upgrade
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkg.name=§6§lHypogen Coil Upgrade
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkg.desc=Forged from the blood of an ageless dragon, and melded together by the power of fusion beyond what you thought was the reality. No natural element, or combination of elements, could match up to this glowing orange material, not even the Awakened Draconium you got your hands on before.%n%nWhat truly happened inside that Mk4 Fusion Reactor? What §ois§o§r this material? Its dust pulsates visibly, at different rates depending on the size of the dust itself. Hypogen approaches a state of complete balance as it approaches the block size, and it is obvious to you what needs to be done with it.%n%nIt absorbs and radiates energy without any effort, but it would be stupid to attempt making coils out of this without assistance. Wetware wasn't good enough anymore, and only the most advanced living circuit could withstand the erratic behavior Hypogen demonstrates.%n%nProvides 12601K heat. Almost certainly, this will end up on your DTPF.
@@ -13337,6 +13317,30 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkg.desc=Forged from the blood of an age
 # Quest: §6§lEternal Coil Upgrade
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkw.name=§6§lEternal Coil Upgrade
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkw.desc=Beyond spacetime, beyond reality. You have peered into what never existed and brought into a fluid, and then a solid. It has been stabilized, against all odds. When you look at it, you think that you could hold the entire universe in your hand.%n%nIn the past, you were able to combine almost all materials into one, through an Eternal Singularity, an infinitely dense sample of the universe. However, automating this at the scale of the DTPF proved ridiculous, which would have stopped your progress altogether if not for the discovery of the Energized Tesseract. To physically manifest spacetime itself, you first needed to manifest the fourth spatial dimension, and that is what the Tesseract is: a 4-dimensional cube.%n%nCubes! Almost everything around you is made out of cubes. You have only glimpsed at the reality of the 4-dimensional world, but you have successfully used it to condensate spacetime, which can be arbitrarily molded into the complete Eternal mixture, a process that unfortunately cannot be reversed. Needless to say, living circuits will not suffice to maintain an infinitely dense, infinitely stable, multi-dimensional material.%n%nCurrently, the final upgrade with 13501K. This really makes your DTPF shine!
+
+# Quest: PCB Factory
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMyQ.name=PCB Factory
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMyQ.desc=All those boards made in a chemical reactor. It's time to stop that, there must be a more efficient way to make them. After a couple days of research I have found one, a factory designed to print out circuit boards.%n%n§4§5§a§d§r§a§rThe PCB Factory is able to use a wide range of plastics to create circuit boards ready to be used. The printing mechanism overheats when it tries to overclock currently, so I will have to find a way to make that work later. Boards with neurons on them will also take a bit before they can be made, but it won't be hard to achieve.%n%n§T§2Trace size: the trace size represents the lines between components, which are needed to transmit the electrical signals on the circuit. One can make it smaller to slow down the machine, but use less resources, or make it bigger to make it faster, but use more resources.%n%n§1Formulas:%n- 10000/(TraceSize/100) Production%n- RecipeDuration/TraceSize^2 Time%n%n§2Using the GUI, the player can go to the configuration menu. There they can change the trace size or add new parts to the multiblock. One can also change where they are placed around the multiblock.%n%n§3Make sure to set the configuration you want before using the structure lib blueprint for autobuild.
+
+# Quest: Bio Chamber
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMyg.name=Bio Chamber
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMyg.desc=As I got new technologies, I have seen the need to make a chamber where the circuit board can contain neurons for the wetware boards or the upcoming bioware boards.%n%nThe Bio Chamber is a simple upgrade, it doesn't require many resources. Don't know why I didn't make it earlier.%n%n§3It can use any glass.
+
+# Quest: Liquid Cooling Tower
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMyw.name=Liquid Cooling Tower
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMyw.desc=I have started to hit the limit of the multiblock without overclocking it, so I decided to give it a liquid cooler to cool down the mechanism. This will allow it to overclock like every other multi with 2xSpeed 4xEU/t.%n%nI will need to provide some distilled water to its hatch to avoid blockage in the pipes.%n%n§3The Liquid Cooling Tower allows the Multiblock to have 2/4 OC at the cost of 10/s of distilled water when running. The hatch is placed in the center of the Liquid Cooling Tower.
+
+# Quest: Thermosink Radiator
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMzQ.name=Thermosink Radiator
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMzQ.desc=With the control of spacetime you have achieved and its 0K temperature it would be possible to make an even better cooling unit. A casing able to keep its room temperature very low and nanites which can transfer heat effectively because of their small bodies. This doesn't quite work and some coolant is still needed, but water freezes at those temperatures so super coolant will be our choice.%n%n§3The Thermosink Radiator allows for 4/4 OC making it possible to speed through recipes. It requires 10/s of super coolant in its hatch, its in the same place as the Liquid Cooling Tower.%n%n§4This upgrade is incompatible with its lower tier predecessor.
+
+# Quest: PCB Factory Tier 2
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMzA.name=PCB Factory Tier 2
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMzA.desc=With the Nano Forge built, we can upgrade our production of circuit boards for free, but the nanites need a container to hold them. The current casings aren't enough, we need to find an alternative casing.%n%nAfter some research, infinity as a frame and enriched holmium as the protection layer seems to work well. It can be allowed to let through nanites to go into the printer base so that extra material can be directly removed instead of trying to go slower.%n%n§3Allows the player to use the tier 2 recipes with the use of a silver nanite in the input bus.%nThis also unlocks parallels of the PCB Factory with said formula: Log2(x) parallels, where x is the amount of nanites in the input bus.
+
+# Quest: PCB Factory Tier 3
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMzg.name=PCB Factory Tier 3
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMzg.desc=Why use a small nosel to print out the conductor on the board when one can just build it using nanites? Well the silver nanite isn't rigid enough for that so a new nanite will be needed... and so will new casings. Heard that celestial tungsten is a good candidate for a frame. Quantum can be used for the protection as these nanites will be forever flying around inside.%n%nThe structure will need to change as it needs to be a bit bigger and taller.%n%n§3Works the same as the Tier 2 in most cases, but allows the player to use even less resources by using a gold nanite.
 
 # Quest: Nano Forge Tier 1
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMzw.name=Nano Forge Tier 1
