@@ -5,5 +5,4 @@
 # Enforce this to prevent spurious "changed" files on Windows.
 *.json text eol=lf
 *.lang text eol=lf
-*.txt text eol=lf
 
