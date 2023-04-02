@@ -16,6 +16,10 @@ DIR_NAME_NO_QUEST_LINE = 'NoQuestLine'
 DIR_NAME_MULTIPLE_QUEST_LINE = 'MultipleQuestLine'
 
 
+def escape(s: str) -> str:
+    return s.replace('%', '%%').replace('\n', '%n')
+
+
 class BQJson(metaclass=ABCMeta):
     def __init__(self, path: Path):
         with open(path) as fp:
@@ -29,10 +33,6 @@ class BQJson(metaclass=ABCMeta):
     @property
     def desc(self) -> str:
         return self.obj['properties:10']['betterquesting:10']['desc:8']
-
-    @property
-    def desc_without_break_line(self) -> str:
-        return self.desc.replace('\n', '%n')
 
     @property
     def id(self) -> str:
@@ -55,9 +55,9 @@ class QuestLine(BQJson):
     def write_to_lang_file(self, fp: TextIO):
         fp.write(
             f'\n\n'
-            f'## Quest Line: {quest_line.name}\n'
-            f'betterquesting.questline.{quest_line.short_id}.name={quest_line.name}\n'
-            f'betterquesting.questline.{quest_line.short_id}.desc={quest_line.desc_without_break_line}\n'
+            f'## Quest Line: {escape(self.name)}\n'
+            f'betterquesting.questline.{self.short_id}.name={escape(self.name)}\n'
+            f'betterquesting.questline.{self.short_id}.desc={escape(self.desc)}\n'
         )
 
 
@@ -75,10 +75,10 @@ class Quest(BQJson):
 
     def write_to_lang_file(self, fp: TextIO):
         fp.write(
-            f'\n'
-            f'# Quest: {self.name}\n'
-            f'betterquesting.quest.{self.short_id}.name={self.name}\n'
-            f'betterquesting.quest.{self.short_id}.desc={self.desc_without_break_line}\n'
+            f'\n' 
+            f'# Quest: {escape(self.name)}\n' 
+            f'betterquesting.quest.{self.short_id}.name={escape(self.name)}\n' 
+            f'betterquesting.quest.{self.short_id}.desc={escape(self.desc)}\n'
         )
 
 
