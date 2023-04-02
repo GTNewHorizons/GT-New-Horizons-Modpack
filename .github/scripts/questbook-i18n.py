@@ -1,60 +1,119 @@
 import json
+import logging
+from abc import ABCMeta, abstractmethod
+from pathlib import Path
 from typing import TextIO
-from abc import ABCMeta
 
-DEFAULT_QUESTS_PATH = 'config/betterquesting/DefaultQuests.json'
-EN_US_LANG_PATH = 'config/txloader/load/minecraft/lang/en_US.lang'
-DEFAULT_QUESTS_US_PATH = 'config/betterquesting/DefaultQuests-us.json'
+DEFAULT_QUESTS_BASE_DIR_PATH = Path('config/betterquesting/DefaultQuests')
+QUEST_LINES_ORDER_PATH = DEFAULT_QUESTS_BASE_DIR_PATH / 'QuestLinesOrder.txt'
+QUEST_LINES_DIR_PATH = DEFAULT_QUESTS_BASE_DIR_PATH / 'QuestLines'
+QUESTS_DIR_PATH = DEFAULT_QUESTS_BASE_DIR_PATH / 'Quests'
+EN_US_LANG_PATH = DEFAULT_QUESTS_BASE_DIR_PATH / 'en_US.lang'
 
+ID_LENGTH = 24
 
-class Thing(metaclass=ABCMeta):
-    def __init__(self, obj: dict, id_key: str, title: str, infix: str):
-        self.obj: dict = obj
-        self.id: str = obj[id_key]
-        self.name: str = obj['properties:10']['betterquesting:10']['name:8'].replace('\n', '%n')
-        self.desc: str = obj['properties:10']['betterquesting:10']['desc:8'].replace('\n', '%n')
-        self.title = title
-        self.name_key = f'gtnh.{infix}{self.id}.name'
-        self.desc_key = f'gtnh.{infix}{self.id}.desc'
-
-    def update_properties(self):
-        self.obj['properties:10']['betterquesting:10']['name:8'] = self.name_key
-        self.obj['properties:10']['betterquesting:10']['desc:8'] = self.desc_key
-
-    def write_to_lang_file(self, lang_file: TextIO):
-        lang_file.writelines([
-            '\n',
-            f'# {self.title}.{self.id} - {self.name}\n',
-            f'{self.name_key}={self.name}\n',
-            f'{self.desc_key}={self.desc}\n',
-        ])
+DIR_NAME_NO_QUEST_LINE = 'NoQuestLine'
+DIR_NAME_MULTIPLE_QUEST_LINE = 'MultipleQuestLine'
 
 
-class Quest(Thing):
-    def __init__(self, obj: dict):
-        super().__init__(obj, 'questID:3', 'Quest', 'quest')
+class BQJson(metaclass=ABCMeta):
+    def __init__(self, path: Path):
+        with open(path) as fp:
+            self.obj = json.load(fp)
+        self.path = path
+
+    @property
+    def name(self) -> str:
+        return self.obj['properties:10']['betterquesting:10']['name:8']
+
+    @property
+    def desc(self) -> str:
+        return self.obj['properties:10']['betterquesting:10']['desc:8']
+
+    @property
+    def desc_without_break_line(self) -> str:
+        return self.desc.replace('\n', '%n')
+
+    @property
+    def id(self) -> str:
+        return self.path.name.removesuffix('.json')[-ID_LENGTH:]
+
+    @property
+    def short_id(self) -> str:
+        return self.id.rstrip('=')
+
+    @abstractmethod
+    def write_to_lang_file(self, fp: TextIO):
+        pass
 
 
-class QuestLine(Thing):
-    def __init__(self, obj: dict):
-        super().__init__(obj, 'lineID:3', 'QuestLine', 'line')
+class QuestLine(BQJson):
+    @property
+    def quests(self):
+        return self.obj['quests:9']
+
+    def write_to_lang_file(self, fp: TextIO):
+        fp.write(
+            f'\n\n'
+            f'## Quest Line: {quest_line.name}\n'
+            f'betterquesting.questline.{quest_line.short_id}.name={quest_line.name}\n'
+            f'betterquesting.questline.{quest_line.short_id}.desc={quest_line.desc_without_break_line}\n'
+        )
+
+
+class Quest(BQJson):
+    def __init__(self, path: Path):
+        super().__init__(path)
+
+    @property
+    def quest_id_low(self):
+        return self.obj['questIDLow:4']
+
+    @property
+    def quest_id_high(self):
+        return self.obj['questIDHigh:4']
+
+    def write_to_lang_file(self, fp: TextIO):
+        fp.write(
+            f'\n'
+            f'# Quest: {self.name}\n'
+            f'betterquesting.quest.{self.short_id}.name={self.name}\n'
+            f'betterquesting.quest.{self.short_id}.desc={self.desc_without_break_line}\n'
+        )
 
 
 if __name__ == '__main__':
-    with open(DEFAULT_QUESTS_PATH) as dq:
-        defaultQuests = json.load(dq)
+    with EN_US_LANG_PATH.open(mode='w') as lang:
+        quest_lines_order = [row[:ID_LENGTH] for row in QUEST_LINES_ORDER_PATH.read_text().splitlines()]
+        quest_lines = [QuestLine(p) for p in QUEST_LINES_DIR_PATH.glob('*.json')]
+        quest_lines_dict: dict[str, QuestLine] = {ql.id: ql for ql in quest_lines}
 
-    quests = [Quest(_) for _ in defaultQuests['questDatabase:9'].values()]
-    quest_lines = [QuestLine(_) for _ in defaultQuests['questLines:9'].values()]
+        quests = [Quest(p) for p in QUESTS_DIR_PATH.glob('*/*.json')]
+        quests_dict: dict[tuple[int, int], Quest] = {(q.quest_id_low, q.quest_id_high): q for q in quests}
 
-    with open(EN_US_LANG_PATH, 'w') as lang:
-        lang.write('#################################Quests#################################\n')
-        [_.write_to_lang_file(lang) for _ in quests]
-        lang.write('\n##################################Line##################################\n')
-        [_.write_to_lang_file(lang) for _ in quest_lines]
-        lang.write('\n')
+        lang.write('### Quest Lines ###\n')
+        for quest_line_id in quest_lines_order:
+            if quest_line_id not in quest_lines_dict:
+                logging.error(f'Quest line [{quest_line_id}] not found')
+                exit(1)
+            quest_line = quest_lines_dict[quest_line_id]
+            quest_line.write_to_lang_file(lang)
 
-    [_.update_properties() for _ in quests]
-    [_.update_properties() for _ in quest_lines]
-    with open(DEFAULT_QUESTS_US_PATH, 'w') as dq_us:
-        json.dump(defaultQuests, dq_us, indent=2, ensure_ascii=False)
+            for quest_metadata_index in range(len(quest_line.quests)):
+                quest_metadata = quest_line.quests[f'{quest_metadata_index}:10']
+                quest_metadata_id: tuple[int, int] = (quest_metadata['questIDLow:4'], quest_metadata['questIDHigh:4'])
+                if quest_metadata_id not in quests_dict:
+                    logging.error(f'Quest [{quest_metadata_id}] not found')
+                    exit(1)
+                quest = quests_dict[quest_metadata_id]
+                if quest.path.parent.name != DIR_NAME_MULTIPLE_QUEST_LINE:
+                    quest.write_to_lang_file(lang)
+                    quest.generated = True
+
+        for title, dir_name in (
+                ('### Quests in multiple quest lines ###', DIR_NAME_MULTIPLE_QUEST_LINE),
+                ('### Quests in no quest lines ###', DIR_NAME_NO_QUEST_LINE),
+        ):
+            lang.write(f'\n\n{title}\n')
+            for quest in sorted([q for q in quests if q.path.parent.name == dir_name], key=lambda q: q.id):
+                quest.write_to_lang_file(lang)
