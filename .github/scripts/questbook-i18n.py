@@ -4,16 +4,21 @@ from abc import ABCMeta, abstractmethod
 from pathlib import Path
 from typing import TextIO
 
-DEFAULT_QUESTS_BASE_DIR_PATH = Path('config/betterquesting/DefaultQuests')
-QUEST_LINES_ORDER_PATH = DEFAULT_QUESTS_BASE_DIR_PATH / 'QuestLinesOrder.txt'
-QUEST_LINES_DIR_PATH = DEFAULT_QUESTS_BASE_DIR_PATH / 'QuestLines'
-QUESTS_DIR_PATH = DEFAULT_QUESTS_BASE_DIR_PATH / 'Quests'
-EN_US_LANG_PATH = DEFAULT_QUESTS_BASE_DIR_PATH / 'en_US.lang'
+CONFIG_DIR_PATH = Path('config')
+BQ_DIR_PATH = CONFIG_DIR_PATH / 'betterquesting'
+DEFAULT_QUESTS_DIR_PATH = BQ_DIR_PATH / 'DefaultQuests'
 
-ID_LENGTH = 24
+QUEST_LINES_ORDER_PATH = DEFAULT_QUESTS_DIR_PATH / 'QuestLinesOrder.txt'
+QUEST_LINES_DIR_PATH = DEFAULT_QUESTS_DIR_PATH / 'QuestLines'
+QUESTS_DIR_PATH = DEFAULT_QUESTS_DIR_PATH / 'Quests'
+
+BQ_LANG_DIR_PATH = CONFIG_DIR_PATH / 'txloader' / 'load' / 'betterquesting' / 'lang'
+EN_US_LANG_PATH = BQ_LANG_DIR_PATH / 'en_US.lang'
 
 DIR_NAME_NO_QUEST_LINE = 'NoQuestLine'
 DIR_NAME_MULTIPLE_QUEST_LINE = 'MultipleQuestLine'
+
+ID_LENGTH = 24
 
 
 def escape(s: str) -> str:
@@ -75,14 +80,15 @@ class Quest(BQJson):
 
     def write_to_lang_file(self, fp: TextIO):
         fp.write(
-            f'\n' 
-            f'# Quest: {escape(self.name)}\n' 
-            f'betterquesting.quest.{self.short_id}.name={escape(self.name)}\n' 
+            f'\n'
+            f'# Quest: {escape(self.name)}\n'
+            f'betterquesting.quest.{self.short_id}.name={escape(self.name)}\n'
             f'betterquesting.quest.{self.short_id}.desc={escape(self.desc)}\n'
         )
 
 
 if __name__ == '__main__':
+    EN_US_LANG_PATH.parent.mkdir(parents=True, exist_ok=True)
     with EN_US_LANG_PATH.open(mode='w') as lang:
         quest_lines_order = [row[:ID_LENGTH] for row in QUEST_LINES_ORDER_PATH.read_text().splitlines()]
         quest_lines = [QuestLine(p) for p in QUEST_LINES_DIR_PATH.glob('*.json')]
