@@ -5,7 +5,9 @@ on:
     branches:
       - master
     paths:
-      - config/betterquesting/DefaultQuests.json
+      - config/betterquesting/DefaultQuests/QuestLinesOrder.txt
+      - config/betterquesting/DefaultQuests/QuestLines/*.json
+      - config/betterquesting/DefaultQuests/Quests/*/*.json
   workflow_dispatch: { }
 
 jobs:
