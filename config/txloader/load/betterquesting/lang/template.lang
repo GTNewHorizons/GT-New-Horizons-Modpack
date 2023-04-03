@@ -12938,10 +12938,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAxA.desc=Reactors heat up, so you need t
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAxQ.name=§a§lVenting Heat
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAxQ.desc=You can't just move the heat around, eventually you need to get rid of it. Just like the exchangers, there are different types of vents, each of them has a certain usage. Same as the other quest, either read a wiki and try to comprehend how these work, or give up and just use the versions on the wiki.
 
-# Quest: Making a Better Sword
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAB2Q.name=§2§lMaking a Better Sword
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAB2Q.desc=Now it's time to make your first tinkers sword. First you have to make a blade, a type of guard, and tool rod cast forms. Melt some bronze in the smeltery and cast your tool parts. Tadaa... your first tinkers sword. There are 4 types of guard, changing them gets you a different sword type, see the tinker's book for details.
-
 # Quest: Industrial 3D Copying Machine
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABgw.name=Industrial 3D Copying Machine
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABgw.desc=Need large amounts of chiseled blocks? This is the machine for you.
@@ -12961,6 +12957,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABwA.desc=Your wooden shield is very weak
 # Quest: Your First 'Long Range' Weapon
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABwg.name=§1§lYour First 'Long Range' Weapon
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABwg.desc=Since you can't make a vanilla bow before LV and Tinkers weapons are not available in this Tier, you can make a spear out of sticks, leather and a string. Get one because some infernal monsters are easier to kill with a long range weapon.
+
+# Quest: Making a Better Sword
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAB2Q.name=§2§lMaking a Better Sword
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAB2Q.desc=Now it's time to make your first tinkers sword. First you have to make a blade, a type of guard, and tool rod cast forms. Melt some bronze in the smeltery and cast your tool parts. Tadaa... your first tinkers sword. There are 4 types of guard, changing them gets you a different sword type, see the tinker's book for details.
 
 # Quest: Exploding Fluids For Power
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACFA.name=§5§lExploding Fluids For Power
@@ -12998,14 +12998,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACkQ.desc=Upgrade your wooden spear with 
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACzg.name=Moron's Manual to Fecund Farms
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACzg.desc=If you ever wanted to know how crop breeding works you are in the right place. Get some crops (the sticks) and some seeds from farming with a hoe or mattock. You can also place some plants and berries directly on crop sticks. Good plants to start with are flowers, wheat, cactus and sugarcane. %n%nMake a plot of farmland with your tool and place water in the middle. For now, make 3x1 plots, separated by a row of dirt or cobble. You want to be able to see the center of each column of 3x1 plots all at once, like this:%nFFFdddFFF%ndddFFFddd%nFFFdddFFF%ndddFFFddd%nFFFdWdFFF%ndddFFFddd%nFFFdddFFF%ndddFFFddd %nFFFdddFFF%nNow place crop sticks in each end of the 3x1 plot. Then place the seeds on the sticks and wait a bit.%n%nWhen they are almost fully grown you can put double crop sticks in the center spots by using crop sticks on already placed crop sticks. This center area can now grow new crops, even new species.%n%nWith some luck you might get a new unknown seed which can be scanned later.%n%nWeeds need to be removed with a trowel or spade otherwise your field will become overgrown by them.%n%nUsing 3x1 plots is easy and not much work.  Check them every 5-10 minutes to remove weeds and gather new seeds. If you forget, you only lose one or two seeds. %n%nIf you find a really nice seed, you can do 3x3 or 5x5 plots with the nice seed in the middle and others next to it for crossing. But this requires more babysitting since weeds could destroy the whole field.%n%nNote that the more crops next to the double crop stick the faster new plants will show up, up to 4 obviously. This is also the way to get new versions of the same plant, you can't do it with just one parent like Agricraft.%n%nDon't leave new crops in these intensive fields. Pull them out and hopefully get a seedbag. Put low stat seeds in production fields that don't require babysitting. Keep the high stat seeds for more crossing. %n%nCrossing happens when 2 or more almost mature crops are next to a double cropstick. There is a high chance of getting the same species as the parents. The rest of the time will be a mutation. More details in the IC2 cropnalyzer quest.
 
-# Quest: Dark Steel Tool and Weapon Basic Upgrades
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD5g.name=§9§lDark Steel Tool and Weapon Basic Upgrades
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD5g.desc=In order to upgrade a Dark Steel weapon or tool, you need a vibrant crystal, 10 xp levels, and your trusty anvil.
-
-# Quest: Dark Steel Tool and Weapon Advanced Upgrades
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD5w.name=§9§lDark Steel Tool and Weapon Advanced Upgrades
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD5w.desc=Your weapons and tools can be upgraded even more by adding capacitors and various other items.
-
 # Quest: Nano Crystal
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADFg.name=Nano Crystal
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADFg.desc=Nano crystals are used for making the nano armor.
@@ -13037,6 +13029,14 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADpg.desc=The next solar panel you can ma
 # Quest: Power of the Sun 1x1
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADpw.name=§6§lPower of the Sun 1x1
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADpw.desc=Put those single EU panels on a block to make them placeable in the world. Use an MV assembler to combine the panel with a ULV hull.
+
+# Quest: Dark Steel Tool and Weapon Basic Upgrades
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD5g.name=§9§lDark Steel Tool and Weapon Basic Upgrades
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD5g.desc=In order to upgrade a Dark Steel weapon or tool, you need a vibrant crystal, 10 xp levels, and your trusty anvil.
+
+# Quest: Dark Steel Tool and Weapon Advanced Upgrades
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD5w.name=§9§lDark Steel Tool and Weapon Advanced Upgrades
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD5w.desc=Your weapons and tools can be upgraded even more by adding capacitors and various other items.
 
 # Quest: Moron's Guide to Better Trees
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEWw.name=Moron's Guide to Better Trees
@@ -13106,6 +13106,34 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEsA.desc=Now that you have a reactor, it
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEsQ.name=§a§b§c§d§e§f§d§l§l§c§lTurbine Time
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEsQ.desc=Your fancy new Large Plasma Turbine will need a rotor to go inside of it. %n%nYou can make it out of any GT material, but the best right now is NORMAL Draconium. §4Always test in Creative first!§r%n%nWhen using turbines, be careful of flow rates. To find the optimal flow rate, you divide the optimal energy flow rate listed on the turbine, by the energy value for the plasma. You can also use the Large Turbine Calculator (there's a link on the main spreadsheet, which is linked to in discord), or scan the multiblock's controller while feeding it a minimal amount of plasma to see what the optimal flow is. Make sure to use a Fluid Regulator set to this flow rate for highest fuel efficiency, or go beyond it to get more EU/t at a cost to efficiency, with Plasma Turbines being the best at retaining efficiency beyond the optimal flow.%n%nIf you go beyond the optimal flow, you will get a higher EU/t value, but less fuel efficiency, and the maximum EU/t value depends on the turbine type and its Overflow Efficiency tier. For this type of turbine, tier 1 reaches the max at 250%% of optimal flow to produce 158%% of the EU/t, tier 2 reaches the max at 400%% of optimal flow to produce 214%% of the EU/t and tier 3 reaches the max at 550%% of optimal flow to produce 301%% of the EU/t. The closer you get to this maximum, the more fuel efficiency you're throwing away.%n%nThe choice is yours!%n%n§3For a lot of extra information on fusion, check out the new quest line called Powerful Nuclear Physics.
 
+# Quest: Light It Up!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFWg.name=Light It Up!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFWg.desc=The arcane lamp creates additional light sources which acts like a Torch in a sphere with a radius of 16 blocks centered on it. This will include caves or other areas behind walls. That might be useful... One downside, it might put a light where one isn't wanted, like inside an EBF. %n%nWhen attached to the base of an arcane bore, the arcane lamp gains an additional ability: It will light up the tunnel that the bore digs.
+
+# Quest: Mallard Rust Smelly
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFiA.name=§b§lMallard Rust Smelly
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFiA.desc=Or is it Alloy Blast Smelter? Well, that makes more sense. This multiblock creates the higher tier alloys needed for the more advanced GT++ multiblocks and your soldering needs. It directly smelts ingredients into liquids. You can even melt down metals like Tungsten faster too! Until you get better coils for your EBF at least.%n%n§3Can only have one energy hatch.%n%nThe GT++ multiblocks you can now make are optional, but quite powerful upgrades to your current singleblock setups. Not only do they provide more speed, they also have a bit of advanced functionality: you can also electrolyze materials without using cells or use a single multiblock for many different extruder shapes. They also act as cleanrooms where needed.
+
+# Quest: Cough Cough - Something Needs to Be Done About the Smell
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFiQ.name=§6§lCough Cough - Something Needs to Be Done About the Smell
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFiQ.desc=Birds falling out of the sky, fish dead and floating belly up in the rivers, acid rain melting the ground...Time to start picking up the trash and cleaning up the air. Small black steel turbines should be fine for now. You'll need two amps of steady power to keep the scrubber working.%n%nThe detector's setting can be changed by clicking on the +/- texture with a screwdriver. Also, in general, better (and larger) turbines work better at cleaning up pollution. The code is too complex to fully explain here, but that's basically it. More EU turbine = more pollution cleaning turbine.%n%n§4This quest covers one method of combating pollution - there are others, including not making as much to begin with.
+
+# Quest: EU packets flowing everywhere...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFig.name=EU packets flowing everywhere...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFig.desc=...in my dreams. What if instead of having battery packs on every generator, we could centralize all the generation in one location? Put it away from the well travelled parts of the the base? Out in the country somewhere?  Let the animals deal with the pollution.  Anyways, let's start working on a Power Sub-Station to store EU and deliver it to our base.
+
+# Quest: Shake That Booty...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjA.name=§9§lShake That Booty...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjA.desc=...out of the purified ores. Anyways, a Large Sifter will increase your sifting speed significantly. What will you do with all these gems??%n%n§3You need one more casing if you don't want to use 2 energy hatches.
+
+# Quest: Arc Lamp
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFuA.name=Arc Lamp
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFuA.desc=The Arc Lamp is a very bright lamp. It is directional - meaning the light it casts is brighter in the direction it is facing. Its facing can be rotated using a standard Wrench.%n%nIncluding the Arc Lamp the brightness of blocks which are close to light sources is:%n%nRedstone Torch: 3-6%nTorch: 9-12%nBlock of Glowstone: 10-13%nArc Lamp: 13-14%n%nThe Arc Lamp can light up a fairly large area - for example a whole room - at light level 14: it is almost as bright as full sunlight.%n%nThe Arc Lamp also has the interesting property of actively repelling mobs. Not only does its light prevent mobs from spawning nearby, but it is so bright that if a mob comes close to the Arc Lamp the mob will turn around and walk away again. This mob repellant effect is confirmed to work on: Zombies, Skeletons, Creepers, Evolved Zombies, Evolved Skeletons, Evolved Creepers. It may also work on other types of mobs (confirmation required). But it has no effect on Spiders (they are not afraid of sunlight either) or boss mobs.
+
+# Quest: Brittle But Hits Like a Sledgehammer...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFzQ.name=§5§lBrittle But Hits Like a Sledgehammer...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFzQ.desc=A Carbon crossbow limb is 1/3 the durability of the magnalium limb, but hits a lot harder and shoots a little faster. But you'll want to carry around a tinker table and extra ingots to repair it constantly, and watch that you don't break it in the middle of combat!
+
 # Quest: All Alone in the Night
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF1w.name=§1§lAll Alone in the Night
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF1w.desc=If you are playing single player, updates mean having to reload the questbook. Use the Default Load Block to do it for you without having to enter creative mode - you don't lose progress, but you'll have new quests to complete! Use the items to craft it, then place it and right-click.%n%nSorry, no rewards, other than the satisfaction of knowing it's you versus the world.%n%n§3PS: This is the same as /bq_admin default load.
@@ -13138,34 +13166,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAF4Q.desc=More like too many items! Here 
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF4g.name=§2§lNEI Is More Powerful Than You Imagine
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF4g.desc=NEI has some really nice advanced features too.%n%nClick on an item to see the recipe to create it, and press Backspace to go back to the previous recipe. %n%nHold Shift to stop the oredict cycling through items, and to show the oredict entries for the current item under your cursor.%n%nSearch using #oredict to find items that match that oredict; for example, #dyewhite will list all white dyes.%n%nUse * (asterisk) as a wildcard. For example #pipe*bronze will show you bronze pipes of all sizes.%n%nSearch using @mod. to find all items from that mod; for example, @mod.thaumcraft will list all thaumcraft items and blocks. Note that you need the whole name before it works.%n%nYou can even search a subset now with the right text. @mod.thaumcraft->table will search for anything with table in the name, in the mod thaumcraft. %n%n@thaumcraft and @thaumcraft-> will also search for anything from the mod thaumcraft, but only if the name is set correctly on the tooltip of the item. They basically always are though.%n%nIt has even more advanced features than mentioned here, you should check the web for details. Or just play around with the options.
 
-# Quest: Light It Up!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFWg.name=Light It Up!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFWg.desc=The arcane lamp creates additional light sources which acts like a Torch in a sphere with a radius of 16 blocks centered on it. This will include caves or other areas behind walls. That might be useful... One downside, it might put a light where one isn't wanted, like inside an EBF. %n%nWhen attached to the base of an arcane bore, the arcane lamp gains an additional ability: It will light up the tunnel that the bore digs.
-
-# Quest: Mallard Rust Smelly
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFiA.name=§b§lMallard Rust Smelly
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFiA.desc=Or is it Alloy Blast Smelter? Well, that makes more sense. This multiblock creates the higher tier alloys needed for the more advanced GT++ multiblocks and your soldering needs. It directly smelts ingredients into liquids. You can even melt down metals like Tungsten faster too! Until you get better coils for your EBF at least.%n%n§3Can only have one energy hatch.%n%nThe GT++ multiblocks you can now make are optional, but quite powerful upgrades to your current singleblock setups. Not only do they provide more speed, they also have a bit of advanced functionality: you can also electrolyze materials without using cells or use a single multiblock for many different extruder shapes. They also act as cleanrooms where needed.
-
-# Quest: Cough Cough - Something Needs to Be Done About the Smell
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFiQ.name=§6§lCough Cough - Something Needs to Be Done About the Smell
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFiQ.desc=Birds falling out of the sky, fish dead and floating belly up in the rivers, acid rain melting the ground...Time to start picking up the trash and cleaning up the air. Small black steel turbines should be fine for now. You'll need two amps of steady power to keep the scrubber working.%n%nThe detector's setting can be changed by clicking on the +/- texture with a screwdriver. Also, in general, better (and larger) turbines work better at cleaning up pollution. The code is too complex to fully explain here, but that's basically it. More EU turbine = more pollution cleaning turbine.%n%n§4This quest covers one method of combating pollution - there are others, including not making as much to begin with.
-
-# Quest: EU packets flowing everywhere...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFig.name=EU packets flowing everywhere...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFig.desc=...in my dreams. What if instead of having battery packs on every generator, we could centralize all the generation in one location? Put it away from the well travelled parts of the the base? Out in the country somewhere?  Let the animals deal with the pollution.  Anyways, let's start working on a Power Sub-Station to store EU and deliver it to our base.
-
-# Quest: Shake That Booty...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjA.name=§9§lShake That Booty...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjA.desc=...out of the purified ores. Anyways, a Large Sifter will increase your sifting speed significantly. What will you do with all these gems??%n%n§3You need one more casing if you don't want to use 2 energy hatches.
-
-# Quest: Arc Lamp
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFuA.name=Arc Lamp
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFuA.desc=The Arc Lamp is a very bright lamp. It is directional - meaning the light it casts is brighter in the direction it is facing. Its facing can be rotated using a standard Wrench.%n%nIncluding the Arc Lamp the brightness of blocks which are close to light sources is:%n%nRedstone Torch: 3-6%nTorch: 9-12%nBlock of Glowstone: 10-13%nArc Lamp: 13-14%n%nThe Arc Lamp can light up a fairly large area - for example a whole room - at light level 14: it is almost as bright as full sunlight.%n%nThe Arc Lamp also has the interesting property of actively repelling mobs. Not only does its light prevent mobs from spawning nearby, but it is so bright that if a mob comes close to the Arc Lamp the mob will turn around and walk away again. This mob repellant effect is confirmed to work on: Zombies, Skeletons, Creepers, Evolved Zombies, Evolved Skeletons, Evolved Creepers. It may also work on other types of mobs (confirmation required). But it has no effect on Spiders (they are not afraid of sunlight either) or boss mobs.
-
-# Quest: Brittle But Hits Like a Sledgehammer...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFzQ.name=§5§lBrittle But Hits Like a Sledgehammer...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFzQ.desc=A Carbon crossbow limb is 1/3 the durability of the magnalium limb, but hits a lot harder and shoots a little faster. But you'll want to carry around a tinker table and extra ingots to repair it constantly, and watch that you don't break it in the middle of combat!
-
 # Quest: Witchery Seeds
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGGA.name=Witchery Seeds
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGGA.desc=To get Witchery seeds, use a hoe on grass blocks away from water. To open the rest of the questline, you will need to do Thaumcraft quests and research the Witchery tab in the Thaumonomicon.%n%nAccording to legend, when the root of the Mandrake plant is dug up it screams and kills all who hear it. This is only partially true. A fully grown Mandrake may scream causing immense discomfort to those around. This is why it is best to harvest the Mandrake root at night when the plant is more likely to be dormant. The fully grown Mandrake can be harvested to obtain more Mandrake seeds and a Mandrake.%n%nBreaking a fully grown Mandrake plant will either yield Mandrake Root or the Mandrake may awaken and cause all sorts of mischief (and pain to the ears!).%n%nBelladonna seeds can be planted and eventually grow into the multistage belladonna plant. The fully grown belladonna plant can be harvested to obtain more Belladonna seeds and a Belladonna flower.%n%nSnowbell seeds can be planted and eventually grow into the multistage snowbell plant. The fully grown snowbell plant can be harvested to obtain more Snowbell seeds, snowballs and occasionally a Icy Needle.%n%nWater Artichoke seeds can be planted and eventually grow into the multistage Water Artichoke plant. The fully grown Water Artichoke plant can be harvested to obtain more Water Artichoke seeds and a Water Artichoke Globe.%n%nWater Artichoke seeds can only be planted on water source blocks.%n%nGarlic is a plantable crop that can be used to make tasty food, and to deal with vampires. Garlic can be obtained by breaking tall grass, although it has a very low drop chance. It may be planted on tilled farm land, and will grow in five stages. When full grown the plant may be harvested for up to three dropped garlic bulbs. Which may either be replanted, or used in a crafting recipe.%n%nGarlic bulbs can be used to make meaty stew, a particularly nourishing meal. It is also the main ingredient in making a Garlic Garland, a useful tool in warding off vampires. Finally, garlic can be used by witches in a Witches' Cauldron to make a vampire Weakening brew, and by Witch Hunters, to make vampire resistant armor.%n%nWolfsbane seeds can be planted and eventually grow into the multistage Wolfsbane plant. The fully grown Wolfsbane plant can be harvested to obtain more Wolfsbane seeds and the Wolfsbane flower.%n
@@ -13182,10 +13182,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHMQ.desc=If you haven't noticed, this wo
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHPQ.name=§6§lMoron's Manual for Effective EBFing
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHPQ.desc=Welcome to the latest Moron's Manual, Effective EBFing! This manual covers common problems encountered when using the GregTech 1000 Electric Blast Furnace.%n%nSetup%nWhen setting up your EBF, make sure to place it a few chunks away from things pollution affects, like farmland. Pollution is nobody's friend!%n%nDuring setup, make sure the center of the EBF is hollow. Sometimes things can sneak in there without you noticing, like a Thaumcraft light orb!%n%nMake sure your muffler faces §lout§r, not §lin§r. The EBF can't work if it is not spreading those delightful odors!%n%nWhen placing your power hatches, make sure to minimize the distance between any generators and the EBF. Especially at LV, those few blocks make a big difference! Every amp of energy travelling over a cable loses a little bit - and you'll need as much as you can get! Your best setup is to put two generators right next to each hatch, with a 2A cable. If you're poor, you could use 2 battery buffers with 2 batteries each directly attached to each hatch. Make sure to top off the buffers' generators. If you make 9 slot battery buffers, you can fill them up over time to get longer running time until you get stable power.%n%nOutput hatches and buses will automatically push into tanks and inventories placed next to them such as chests or BC tanks. They will also void if they're full, so keep an eye on them!%n%nWhen building multiple EBFs, the GregTech 1000 Electric Blast Furnace can share walls. This can save you on input and output hatches too. Not recommended for energy and maintenance hatches!
 
-# Quest: Circuit Programming
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH_w.name=§5§lCircuit Programming
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH_w.desc=Some machines have a very, very large number of recipes. To avoid conflicts many recipes have programmed circuits to ensure you get the right one. These programmed circuits are not consumed.%n%nIn this modpack, all singleblock GT machines now come with an icon on the bottom right in the GUI that represent a ghost circuit. Click it or scroll to choose the number you need. If you do that you don't have to insert a physical circuit. This is going to be your main option for all single block machines. This option is now also available for input busses of multiblocks which you will get to in later tiers.%n%nThere are a few places throughout the modpack where you still need the physical circuits. You can turn an LV circuit into a programmed circuit in the crafting grid and then program it in various ways:%n%n1) Find the correct crafting recipe with a screwdriver in NEI and use that.%n%n2) Rightclick while holding the programmed circuit to open an easy menu. You still need to at least have the screwdriver in your inventory though or it won't work. Eventually you can also make an electric screwdriver.%n%n3) Use the BartWorks Circuit Programmer. It is only available in MV. But it does not use any durability and runs on EU.%n%n4) Use the GT++ Circuit Programmer block. It isn't portable and only available in MV. But it allows for automation.%n%n%n§3As you can now use the ghost circuits for almost everything, the tasks here are now optional and you can just click the checkmark once you understand how programmed circuits work.
-
 # Quest: Double the Fun
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHaw.name=§a§lDouble the Fun
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHaw.desc=Need even more power? Why not combine rods? Produces more power (NOT double, it varies per rod type) and more heat (again NOT double) but only uses up one slot. You need more complex designs to handle them, but you were ready for that, right?%n%nSo how about doubling your doubling to double your double (4x)? Quad rods put out even more power and heat, expect all the other rods to work similarly (for the most part).%n%n§3BTW it's more efficient to go 1->4 rather than 1->2->4 materials-wise.
@@ -13201,6 +13197,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHbg.desc=With a nuke, you can cause some
 # Quest: A Quicker Way to Get Around
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHhg.name=§2§lA Quicker Way to Get Around
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHhg.desc=Are you ready for a longer trip? With your new lunch box, saddle, lead and of course a horse, we can start a small journey. Be sure to make paths over water, horses don't like going through deep water. If you get unseated in deep water, you can try getting on repeatedly and moving a small distance each time, this may be faster for small rivers. You can also try jumping over the deep parts if it isn't that big.%n%nIf you are playing single player or a local server, horses make a great way to get around. On nonlocal servers they can cause problems and desync if you have poor internet, or if the server doesn't have good TPS. Like all the official servers.%n%nYou can tie the lead to your horse and the fence to get it to stick around while you investigate something.
+
+# Quest: Circuit Programming
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH_w.name=§5§lCircuit Programming
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH_w.desc=Some machines have a very, very large number of recipes. To avoid conflicts many recipes have programmed circuits to ensure you get the right one. These programmed circuits are not consumed.%n%nIn this modpack, all singleblock GT machines now come with an icon on the bottom right in the GUI that represent a ghost circuit. Click it or scroll to choose the number you need. If you do that you don't have to insert a physical circuit. This is going to be your main option for all single block machines. This option is now also available for input busses of multiblocks which you will get to in later tiers.%n%nThere are a few places throughout the modpack where you still need the physical circuits. You can turn an LV circuit into a programmed circuit in the crafting grid and then program it in various ways:%n%n1) Find the correct crafting recipe with a screwdriver in NEI and use that.%n%n2) Rightclick while holding the programmed circuit to open an easy menu. You still need to at least have the screwdriver in your inventory though or it won't work. Eventually you can also make an electric screwdriver.%n%n3) Use the BartWorks Circuit Programmer. It is only available in MV. But it does not use any durability and runs on EU.%n%n4) Use the GT++ Circuit Programmer block. It isn't portable and only available in MV. But it allows for automation.%n%n%n§3As you can now use the ghost circuits for almost everything, the tasks here are now optional and you can just click the checkmark once you understand how programmed circuits work.
 
 # Quest: Planetary Tears
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIGA.name=Planetary Tears
@@ -13226,14 +13226,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIow.desc=There are a couple of basic bee
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIzQ.name=§6§lToo Much Mercury?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIzQ.desc=After a couple of hours...days...weeks...of processing redstone for chrome you'll have a massive stockpile of Mercury and not know what to do with it. You can store it all in supertanks, but really, how much hypochlorous acid does one need? Instead you can build an Acid Generator and at least get a little power out of it.
 
-# Quest: I'll Send Wireless Signals Where I Want, Thank You
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ4A.name=I'll Send Wireless Signals Where I Want, Thank You
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ4A.desc=This block provides unlimited AE for your network.
-
-# Quest: Wireless 3.0
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ7w.name=Wireless 3.0
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ7w.desc=This upgrade allows unlimited range. You don't even need a Wireless Access Point!%n%n§4Extremely buggy, unfortunately. May randomly disappear, or fall out of the terminal at any time.%n%n§3Many bugs were fixed. Maybe its better now?
-
 # Quest: Obtaining Ender Pearls
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJZA.name=§e§d§c§6§lObtaining Ender Pearls
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJZA.desc=You can hunt endermen the Vanilla way to get a chance at Ender Pearls, you can purchase Endermen spawn eggs, or try your luck in the End. %n%nOr you can get cruel, and stuff one into a smeltery to melt it down into delicious Liquid Ender and cast pearls from it.%n%nYou monster.%n%nSome of the dungeons have Spawner of Enderman, so you can do whatever you want with it.%n%n§cTo prevent endermen from teleporting make sure to cover the smeltery so they don't see the sky. If you manage to put a regenerating endermen in there, tag it so it doesn't despawn, and make sure your smeltery is not in a claimed chunk on a server.
@@ -13249,6 +13241,14 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJbw.desc=So maybe you can't find a swamp
 # Quest: Unlimited LP
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJlw.name=Unlimited LP
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJlw.desc=Making this will give you unlimited LP. But you still need blood for crafting, OK? (Look into Cry of the Eternal soul ritual for a way around this)
+
+# Quest: I'll Send Wireless Signals Where I Want, Thank You
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ4A.name=I'll Send Wireless Signals Where I Want, Thank You
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ4A.desc=This block provides unlimited AE for your network.
+
+# Quest: Wireless 3.0
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ7w.name=Wireless 3.0
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ7w.desc=This upgrade allows unlimited range. You don't even need a Wireless Access Point!%n%n§4Extremely buggy, unfortunately. May randomly disappear, or fall out of the terminal at any time.%n%n§3Many bugs were fixed. Maybe its better now?
 
 # Quest: UV Solar
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKGw.name=UV Solar
@@ -13285,14 +13285,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALSA.desc=If you somehow manage to connec
 # Quest: Making a Rapier
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALUQ.name=§2§lMaking a Rapier
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALUQ.desc=Problems killing the Lich? Can't manage to shoot back his projectiles? No problem, just use a Rapier that ignores armor and the Lich will soon be...re-dead? Un-alive? Whatever happens to something undead once it dies for real.%n%nThe only problem is that the Rapier doesn't do a lot of damage.
-
-# Quest: Nano Forge Tier 2
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAM0A.name=Nano Forge Tier 2
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAM0A.desc=Carbon Nanites are good first worker, but they don't have much in the way of working with more complex systems as they have a very basic nanite network. So a new more advanced nanite will be needed to produce complex nanites.%n%nThe neutronium nanite is an in-between of the two tiers able to produce tier 2 nanites, which have other uses.%n%n§3When putting the neutronium nanite in the controller, you will need to wait for the structure check to happen again or break and replace the controller with a neutronium nanite inside. Allows the Nano Forge to make tier 2 nanites.
-
-# Quest: Nano Forge Tier 3
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAM0Q.name=Nano Forge Tier 3
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAM0Q.desc=Neutronium nanites are slow moving, but that allowed them to have a complex nanite network. If there was a material that could move itself it could allow for an even more compex nanite with great speeds... Thankfully with the DTPF fully functional we can make it, transcendent metal.%n%n§3Same thing as the neutronium nanite, but this nanite allows for tier 3 nanites to be made in the nano forge.
 
 # Quest: Faster Crops
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMRg.name=§6§lFaster Crops
@@ -13354,6 +13346,14 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMzg.desc=Why use a small nosel to print 
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMzw.name=Nano Forge Tier 1
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMzw.desc=There must a be a way to make a nano scale robots to work in a machine. Carbon ones can be made in an assembly line, but very inefficiently. There must be a better way.%n%nWhat about a Nano Forge, able to cut up blocks into nano-thin sheets and then creating the first nanite, which helps create thousands of them in mere seconds.%n%n§3The Nano Forge is a big multiblock requiring lots of power over the course of a couple minutes. It is able to use TT energy hatches (including lasers). The controller must have a carbon nanite to use tier 1 recipes.%n%nDespite what NEI might claim there are no minimum voltages for the Nano Forge recipes. If you want to do a recipe you just have to achieve the raw EU/t required, no matter the voltage.
 
+# Quest: Nano Forge Tier 2
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAM0A.name=Nano Forge Tier 2
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAM0A.desc=Carbon Nanites are good first worker, but they don't have much in the way of working with more complex systems as they have a very basic nanite network. So a new more advanced nanite will be needed to produce complex nanites.%n%nThe neutronium nanite is an in-between of the two tiers able to produce tier 2 nanites, which have other uses.%n%n§3When putting the neutronium nanite in the controller, you will need to wait for the structure check to happen again or break and replace the controller with a neutronium nanite inside. Allows the Nano Forge to make tier 2 nanites.
+
+# Quest: Nano Forge Tier 3
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAM0Q.name=Nano Forge Tier 3
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAM0Q.desc=Neutronium nanites are slow moving, but that allowed them to have a complex nanite network. If there was a material that could move itself it could allow for an even more compex nanite with great speeds... Thankfully with the DTPF fully functional we can make it, transcendent metal.%n%n§3Same thing as the neutronium nanite, but this nanite allows for tier 3 nanites to be made in the nano forge.
+
 
 ### Quests in no quest lines ###
 
@@ -13401,26 +13401,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAISw.desc=Complete collecting the hybrids
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIbw.name=Bees Template
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIbw.desc=Get the princess bee and reward bag in NEI first.%nCopy this quest.%nPress Icon and set the icon to the bee.%nChange the name, decription, and rewards.%n%nPress Task, and select the stone, and replace it with the princess.%nBefore closing, select the ... next to the bee name and press Raw NBT%nGo into Tag, Genome, Chromosomes. The first one is the name and must stay. %nGo inside there and delete the first entry, keep both of the species so players%nmust have purebreeds.%nDelete the rest of the chromosomes.%nDelete the rest of the entries for Genome.%n%nPress Requirements. Remove the Infinity unlock requirement and select the required bee quests. Use the common bees quest if nothing applies.%n%nChange Show:Hidden to Show:Normal.%n%nTo reduce waste in the questbook file ideally you should also go into the advanced options, then press ... for the icon, and remove unnecessary NBT there as well. Just leave the species as above.%n%n%n§3You can change the visibility of requirements by pressing the eye symbol in the requirements menu.
 
-# Quest: Trigger:Silicone Rubber Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL2A.name=Trigger:Silicone Rubber Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL2A.desc=No Description
-
-# Quest: Trigger:PTFE Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL2Q.name=Trigger:PTFE Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL2Q.desc=No Description
-
-# Quest: Trigger:Polystyrene Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL2g.name=Trigger:Polystyrene Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL2g.desc=No Description
-
-# Quest: Trigger:Epoxid Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL2w.name=Trigger:Epoxid Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL2w.desc=No Description
-
-# Quest: Trigger:Naqline Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL3A.name=Trigger:Naqline Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL3A.desc=No Description
-
 # Quest: Trigger:Loot Game
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALOw.name=Trigger:Loot Game
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALOw.desc=Find a loot game room
@@ -13464,6 +13444,26 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALXA.desc=No Description
 # Quest: Trigger:Tungstensteel Mars Skip
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALXQ.name=Trigger:Tungstensteel Mars Skip
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALXQ.desc=No Description
+
+# Quest: Trigger:Silicone Rubber Skip
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL2A.name=Trigger:Silicone Rubber Skip
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL2A.desc=No Description
+
+# Quest: Trigger:PTFE Skip
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL2Q.name=Trigger:PTFE Skip
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL2Q.desc=No Description
+
+# Quest: Trigger:Polystyrene Skip
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL2g.name=Trigger:Polystyrene Skip
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL2g.desc=No Description
+
+# Quest: Trigger:Epoxid Skip
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL2w.name=Trigger:Epoxid Skip
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL2w.desc=No Description
+
+# Quest: Trigger:Naqline Skip
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL3A.name=Trigger:Naqline Skip
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL3A.desc=No Description
 
 # Quest: Trigger: Obtain Sunnarium
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMBg.name=Trigger: Obtain Sunnarium
