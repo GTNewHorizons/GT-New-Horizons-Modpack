@@ -1,5 +1,6 @@
 import json
 import logging
+import re
 from abc import ABCMeta, abstractmethod
 from pathlib import Path
 from typing import TextIO
@@ -13,12 +14,17 @@ QUEST_LINES_DIR_PATH = DEFAULT_QUESTS_DIR_PATH / 'QuestLines'
 QUESTS_DIR_PATH = DEFAULT_QUESTS_DIR_PATH / 'Quests'
 
 BQ_LANG_DIR_PATH = CONFIG_DIR_PATH / 'txloader' / 'load' / 'betterquesting' / 'lang'
-EN_US_LANG_PATH = BQ_LANG_DIR_PATH / 'en_US.lang'
+TEMPLATE_LANG_PATH = BQ_LANG_DIR_PATH / 'template.lang'
 
 DIR_NAME_NO_QUEST_LINE = 'NoQuestLine'
 DIR_NAME_MULTIPLE_QUEST_LINE = 'MultipleQuestLine'
 
 ID_LENGTH = 24
+CHAT_FORMATTING_REGEX = re.compile('§[0-9a-fk-or]')
+
+
+def escapeName(s: str) -> str:
+    return CHAT_FORMATTING_REGEX.sub('', s).replace('\n', '')
 
 
 def escape(s: str) -> str:
@@ -27,7 +33,7 @@ def escape(s: str) -> str:
 
 class BQJson(metaclass=ABCMeta):
     def __init__(self, path: Path):
-        with open(path) as fp:
+        with open(path, encoding="utf-8") as fp:
             self.obj = json.load(fp)
         self.path = path
 
@@ -60,7 +66,7 @@ class QuestLine(BQJson):
     def write_to_lang_file(self, fp: TextIO):
         fp.write(
             f'\n\n'
-            f'## Quest Line: {escape(self.name)}\n'
+            f'## Quest Line: {escapeName(self.name)}\n'
             f'betterquesting.questline.{self.short_id}.name={escape(self.name)}\n'
             f'betterquesting.questline.{self.short_id}.desc={escape(self.desc)}\n'
         )
@@ -81,15 +87,34 @@ class Quest(BQJson):
     def write_to_lang_file(self, fp: TextIO):
         fp.write(
             f'\n'
-            f'# Quest: {escape(self.name)}\n'
+            f'# Quest: {escapeName(self.name)}\n'
             f'betterquesting.quest.{self.short_id}.name={escape(self.name)}\n'
             f'betterquesting.quest.{self.short_id}.desc={escape(self.desc)}\n'
         )
 
 
+# The standard alphanumeric sort order has digits [0-9] before letters [A-Za-z].
+# However, for UUIDs in base64-encoded string form, we actually want digits to come after letters.
+# This ordering corresponds to a value-based sorting of UUIDs, and is what BetterQuesting uses.
+# Note: '-' and '_' should come even after numbers; see RFC 4648 §5
+def uuidCharSortOrder(c: str):
+    if c == '-':
+        return 300
+    elif c == '_':
+        return 400
+    elif c <= '9':
+        return ord(c) + 200
+    else:
+        return ord(c)
+
+
+def uuidStringSortOrder(s: str):
+    return [uuidCharSortOrder(c) for c in s]
+
+
 if __name__ == '__main__':
-    EN_US_LANG_PATH.parent.mkdir(parents=True, exist_ok=True)
-    with EN_US_LANG_PATH.open(mode='w') as lang:
+    TEMPLATE_LANG_PATH.parent.mkdir(parents=True, exist_ok=True)
+    with TEMPLATE_LANG_PATH.open(mode='w', encoding="utf-8") as lang:
         quest_lines_order = [row[:ID_LENGTH] for row in QUEST_LINES_ORDER_PATH.read_text().splitlines()]
         quest_lines = [QuestLine(p) for p in QUEST_LINES_DIR_PATH.glob('*.json')]
         quest_lines_dict: dict[str, QuestLine] = {ql.id: ql for ql in quest_lines}
@@ -121,5 +146,5 @@ if __name__ == '__main__':
                 ('### Quests in no quest lines ###', DIR_NAME_NO_QUEST_LINE),
         ):
             lang.write(f'\n\n{title}\n')
-            for quest in sorted([q for q in quests if q.path.parent.name == dir_name], key=lambda q: q.id):
+            for quest in sorted([q for q in quests if q.path.parent.name == dir_name], key=lambda q: uuidStringSortOrder(q.id)):
                 quest.write_to_lang_file(lang)
