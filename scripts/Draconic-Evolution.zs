@@ -60,34 +60,6 @@ mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:teleporterMKII>, [
 [null, <ore:plateDenseDraconium>, <ore:plateDenseDraconium>, <ore:plateDenseDraconiumAwakened>, <TGregworks:tGregToolPartLargePlate:1669>.withTag({material: "Infinity"}), <ore:plateDenseDraconiumAwakened>, <ore:plateDenseDraconium>, <ore:plateDenseDraconium>, null],
 [null, null, null, <ore:plateDenseDraconium>, <ore:plateDenseDraconium>, <ore:plateDenseDraconium>, null, null, null]]);
 
-// --- Wyvern Core
-/*
-mods.avaritia.ExtremeCrafting.addShaped(WyvernCore, [
-[null, null, null, null, null, null, null, null, null],
-[null, null, null, null, null, null, null, null, null],
-[null, null, <ore:plateDraconium>, null, DraconicCore, null, <ore:plateDraconium>, null, null],
-[null, null, null, <ore:plateDraconium>, <ore:plateNeutronium>, <ore:plateDraconium>, null, null, null],
-[null, null, DraconicCore,  <ore:plateNeutronium>, <ore:gemNetherStar>,  <ore:plateNeutronium>, DraconicCore, null, null],
-[null, null, null, <ore:plateDraconium>,  <ore:plateNeutronium>, <ore:plateDraconium>, null, null, null],
-[null, null, <ore:plateDraconium>, null, DraconicCore, null, <ore:plateDraconium>, null, null],
-[null, null, null, null, null, null, null, null, null],
-[null, null, null, null, null, null, null, null, null]]);
-*/
-
-// --- Wyvern Engergy Core
-/*
-mods.avaritia.ExtremeCrafting.addShaped(WyvernECore, [
-[null, null, null, null, null, null, null, null, null],
-[null, null, null, null, null, null, null, null, null],
-[null, null, <ore:plateDraconium>, null, <ore:plateRedstoneAlloy>, null, <ore:plateDraconium>, null, null],
-[null, null, null, <ore:plateDraconium>, <AdvancedSolarPanel:asp_crafting_items:1>, <ore:plateDraconium>, null, null, null],
-[null, null, <ore:plateRedstoneAlloy>,  <AdvancedSolarPanel:asp_crafting_items:1>, DraconicCore,  <AdvancedSolarPanel:asp_crafting_items:1>, <ore:plateRedstoneAlloy>, null, null],
-[null, null, null, <ore:plateDraconium>,  <AdvancedSolarPanel:asp_crafting_items:1>, <ore:plateDraconium>, null, null, null],
-[null, null, <ore:plateDraconium>, null, <ore:plateRedstoneAlloy>, null, <ore:plateDraconium>, null, null],
-[null, null, null, null, null, null, null, null, null],
-[null, null, null, null, null, null, null, null, null]]);
-*/
-
 // --- Wyvern Flux Capacitor
 mods.avaritia.ExtremeCrafting.addShaped(WyvernFluxCapicator, [
 [null, null, null, null, null, null, null, null, null],
@@ -195,34 +167,6 @@ mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:wyvernBoots>, [
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
-
-// --- Awakened Core
-/*
-mods.avaritia.ExtremeCrafting.addShaped(AwakenedCore, [
-[null, null, null, null, null, null, null, null, null],
-[null, null, null, null, null, null, null, null, null],
-[null, null, <ore:plateDraconiumAwakened>, null, WyvernCore, null, <ore:plateDraconiumAwakened>, null, null],
-[null, null, null, <ore:plateDraconiumAwakened>, <ore:plateDraconium>, <ore:plateDraconiumAwakened>, null, null, null],
-[null, null, WyvernCore,  <ore:plateDraconium>, <dreamcraft:item.ManyullynCrystal>,  <ore:plateDraconium>, WyvernCore, null, null],
-[null, null, null, <ore:plateDraconiumAwakened>,  <ore:plateDraconium>, <ore:plateDraconiumAwakened>, null, null, null],
-[null, null, <ore:plateDraconiumAwakened>, null, WyvernCore, null, <ore:plateDraconiumAwakened>, null, null],
-[null, null, null, null, null, null, null, null, null],
-[null, null, null, null, null, null, null, null, null]]);
-*/
-
-// --- Draconic Energy Core
-/*
-mods.avaritia.ExtremeCrafting.addShaped(DraconicECore, [
-[null, null, null, null, null, null, null, null, null],
-[null, null, null, null, null, null, null, null, null],
-[null, null, <ore:plateDraconiumAwakened>, null, WyvernECore, null, <ore:plateDraconiumAwakened>, null, null],
-[null, null, null, <ore:plateDraconiumAwakened>, <AdvancedSolarPanel:asp_crafting_items:4>, <ore:plateDraconiumAwakened>, null, null, null],
-[null, null, WyvernECore,  <AdvancedSolarPanel:asp_crafting_items:4>, WyvernCore,  <AdvancedSolarPanel:asp_crafting_items:4>, WyvernECore, null, null],
-[null, null, null, <ore:plateDraconiumAwakened>,  <AdvancedSolarPanel:asp_crafting_items:4>, <ore:plateDraconiumAwakened>, null, null, null],
-[null, null, <ore:plateDraconiumAwakened>, null, WyvernECore, null, <ore:plateDraconiumAwakened>, null, null],
-[null, null, null, null, null, null, null, null, null],
-[null, null, null, null, null, null, null, null, null]]);
-*/
 
 // --- Draconic Flux Capacitor
 mods.avaritia.ExtremeCrafting.addShaped(DraconicFluxCapacitor, [
@@ -367,20 +311,6 @@ mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:draconicDistructionSt
 [null, null, null, null, <ore:ingotDraconiumAwakened>, null, null, null, null],
 [null, null, null, null, <ore:ingotDraconiumAwakened>, null, null, null, null],
 [null, null, null, null, <ore:ingotDraconiumAwakened>, null, null, null, null]]);
-
-// --- Chaotic Core
-/*
-mods.avaritia.ExtremeCrafting.addShaped(ChaoticCore, [
-[null, null, null, null, null, null, null, null, null],
-[null, null, null, null, <ore:plateDraconium>, null, null, null, null],
-[null, null, <ore:plateDraconiumAwakened>, null, AwakenedCore, null, <ore:plateDraconiumAwakened>, null, null],
-[null, null, null, <ore:plateDoubleDraconiumAwakened>, <ore:plateBlackPlutonium>, <ore:plateDoubleDraconiumAwakened>, null, null, null],
-[null, <ore:plateDraconium>, AwakenedCore,  <ore:plateBlackPlutonium>, <DraconicEvolution:chaosShard>,  <ore:plateBlackPlutonium>, AwakenedCore, <ore:plateDraconium>, null],
-[null, null, null, <ore:plateDoubleDraconiumAwakened>,  <ore:plateBlackPlutonium>, <ore:plateDoubleDraconiumAwakened>, null, null, null],
-[null, null, <ore:plateDraconiumAwakened>, null, AwakenedCore, null, <ore:plateDraconiumAwakened>, null, null],
-[null, null, null, null, <ore:plateDraconium>, null, null, null, null],
-[null, null, null, null, null, null, null, null, null]]);
-*/
 
 // --- Energy Infuser
 mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:energyInfuser>, [
