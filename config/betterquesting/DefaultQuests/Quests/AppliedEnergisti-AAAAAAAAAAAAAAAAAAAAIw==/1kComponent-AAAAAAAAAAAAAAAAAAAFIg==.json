@@ -69,6 +69,12 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "appliedenergistics2:item.ItemMultiMaterial",
+          "Count:3": 1,
+          "Damage:2": 35,
+          "OreDict:8": ""
         }
       }
     },
