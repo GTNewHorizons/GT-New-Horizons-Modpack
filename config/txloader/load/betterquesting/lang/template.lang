@@ -3147,11 +3147,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMCA.desc=Yep, you're seeing right: A lin
 
 # Quest: Not Quite Ferromagnetic...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMCQ.name=§b§lNot Quite Ferromagnetic...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMCQ.desc=...But it's enough to separate with the magnetic separator.%n%nNow you can get both Europium Oxide and some of the rarer rare earths.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMCQ.desc=...But it's enough to separate with the magnetic separator.%n%nNow you can get both Europium III Oxide and some of the rarer rare earths.
 
 # Quest: EuO
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMCg.name=§b§lEuO
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMCg.desc=Finally, somewhat close to monazite europium!%n%nUnfortunately you won't be able to process it until at least LuV/ZPM, which you may already be at, so just hold onto this for now.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMCg.desc=Monazite europium?%n%nUnfortunately you won't be able to process it until you actually have some actual europium, so just hold onto this for now.
 
 # Quest: Samarium, The Other Way
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMCw.name=§b§lSamarium, The Other Way
@@ -12845,7 +12845,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACOg.desc=Trade three Magic Master lootba
 
 # Quest: Magic Grandmaster > Magic Grandmaster Unique Lootbag Trade
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACOw.name=Magic Grandmaster > Magic Grandmaster Unique Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACOw.desc=Trade sixteen Magic Grandmaster lootbags to get a better one: Magic Grandmaster Unique.%n%n§3PS: You can only get each of the rewards once, and there's 5. Not that you can §oget§r§3 5 MGU LBs.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACOw.desc=Trade sixteen Magic Grandmaster lootbags to get a better one: Magic Grandmaster Unique.%n%n§3PS: You can only get each of the rewards once, and there's 6 different ones.
 
 # Quest: BM Novice > BM Adept Lootbag Trade
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACPA.name=BM Novice > BM Adept Lootbag Trade
