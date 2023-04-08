@@ -29,7 +29,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Finally, somewhat close to monazite europium!\n\nUnfortunately you won\u0027t be able to process it until at least LuV/ZPM, which you may already be at, so just hold onto this for now."
+      "desc:8": "Monazite europium?\n\nUnfortunately you won\u0027t be able to process it until you actually have some actual europium, so just hold onto this for now."
     }
   },
   "tasks:9": {
@@ -44,7 +44,7 @@
         "0:10": {
           "id:8": "bartworks:gt.bwMetaGenerateddust",
           "Count:3": 1,
-          "Damage:2": 11047,
+          "Damage:2": 11050,
           "OreDict:8": ""
         }
       },
@@ -59,14 +59,6 @@
         "0:10": {
           "id:8": "enhancedlootbags:lootbag",
           "Count:3": 2,
-          "tag:10": {
-            "ench:9": {
-              "0:10": {
-                "lvl:2": 3,
-                "id:2": 35
-              }
-            }
-          },
           "Damage:2": 8,
           "OreDict:8": ""
         }

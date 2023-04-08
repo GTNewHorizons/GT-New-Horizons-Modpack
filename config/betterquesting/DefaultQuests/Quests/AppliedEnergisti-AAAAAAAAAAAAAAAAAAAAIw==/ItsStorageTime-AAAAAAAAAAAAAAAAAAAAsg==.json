@@ -81,9 +81,9 @@
       "index:3": 0,
       "rewards:9": {
         "0:10": {
-          "id:8": "enhancedlootbags:lootbag",
+          "id:8": "appliedenergistics2:tile.BlockSkyChest",
           "Count:3": 1,
-          "Damage:2": 37,
+          "Damage:2": 0,
           "OreDict:8": ""
         }
       }
