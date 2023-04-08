@@ -812,7 +812,7 @@
         <Loot Identifier="e19c7089-7293-47fa-82bb-5a152fc6c598" ItemName="ThaumicTinkerer:kamiResource" Amount="8" NBTTag="" Chance="100" LimitedDropCount="1" RandomAmount="false"/>
         <Loot Identifier="81bb4052-f4b7-446f-b364-9a01c7edffd7" ItemName="ThaumicTinkerer:skyPearl" Amount="2" NBTTag="" Chance="100" ItemGroup="celestial_gateway" LimitedDropCount="1" RandomAmount="false"/>
         <Loot Identifier="205d54ed-5b6c-4348-9c7a-d50e0564f167" ItemName="TaintedMagic:ItemFocusTime" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="1" RandomAmount="false"/>
-        <Loot Identifier="2c8f8140-cd6b-4f5f-afd7-1b3fff58124d" ItemName="TaintedMagic:ItemPrimordialBlade" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="1" RandomAmount="false"/>
+        <Loot Identifier="2c8f8140-cd6b-4f5f-afd7-1b3fff58124d" ItemName="TaintedMagic:ItemPrimordialEdge" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="1" RandomAmount="false"/>
     </LootGroup>
     <LootGroup GroupMetaID="14" GroupName="Legendary" Rarity="3" MinItems="1" MaxItems="1" CombineTrashGroup="true">
         <Loot Identifier="beec1cae-823d-4967-a427-b427ae1e2f58" ItemName="DraconicEvolution:wyvernPickaxe" Amount="1" NBTTag="{Energy:1000000}" Chance="50" LimitedDropCount="2" RandomAmount="false"/>
