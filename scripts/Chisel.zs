@@ -6,8 +6,6 @@
 
 
 
-import mods.gregtech.Assembler;
-
 
 mods.chisel.Groups.addGroup("glasswork"); 
 
@@ -183,23 +181,6 @@ recipes.addShaped(<chisel:voidstone2> * 8, [
 [<chisel:voidstone>, <chisel:voidstone>, <chisel:voidstone>]]);
 
 
-
-
-// --- Assembler Recipes ---
-
-
-
-// --- Chisel
-Assembler.addRecipe(Chisel, <gregtech:gt.metaitem.01:17032> * 2, <minecraft:stick> * 2, 300, 30);
-
-// --- Obsidian Chisel
-Assembler.addRecipe(ObsidianChisel, <gregtech:gt.metaitem.01:17804> * 2, <gregtech:gt.metaitem.01:23304> * 2, 400, 30);
-
-// --- Diamond Chisel
-Assembler.addRecipe(DiamondChisel, <gregtech:gt.metaitem.01:17500> * 2, <gregtech:gt.metaitem.01:23305> * 2, 600, 30);
-
-// --- Nether Star Chisel
-Assembler.addRecipe(NetherStarChisel, <gregtech:gt.metaitem.01:22395> * 2, <gregtech:gt.metaitem.02:22371> * 2, 24000, 480);
 
 
 // --- Cobblestone
