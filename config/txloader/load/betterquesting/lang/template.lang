@@ -1361,10 +1361,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALLQ.desc=Want lots of cobble, stone, or 
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALSw.name=§5§lMagnets != Magic
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALSw.desc=Tired of running after ore or other blocks? Use a magnet! It has a limited range, but who cares? Just remember to turn it on.%n%n§3Craft it into the better one in HV, if you still need a magnet by then.
 
-# Quest: Gimme My Stuff Back!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALUA.name=§5§6§l§5§lGimme My Stuff Back!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALUA.desc=At some point, you'll be all, 'Man, arc furnacing or macerating these things to recycle them blows, I barely get any of the materials I used back'. Well, there's a solution, the Disassembler.%n%nBasically, things go in, parts it's made of go out. It needs to be at the same tier or higher though.%n%nIt works on hand and assembler crafted items, but it doesn't work on assline stuff (LuV+), or non-GT items. However, for some reason on some items it fails for seemingly no reason. Ask bart why that happens. If there's an oredicted item like a circuit, it should return the least valuable one. You can now recyle your old coils, hatches, machines, etc with impunity!%n%n§3The %% chance based on tier is gone now. Also, it's really fast!
-
 # Quest: Cobalt from Cobaltite
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALYg.name=§d§0§5§lCobalt from Cobaltite
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALYg.desc=Can't find any Cobalt in the Nether? Too lazy to bother finding some Ironwood in the Twilight Forest, even though it's super duper easy?%n%nYou can make it with your EBF now using Cobaltite Ore from the Twilight Forest and Oxygen to get Cobalt. It's a little complicated, but you also get arsenic out of it.%n%n§3You can also just electrolyze it out in MV, which is what you §oshould§r§3 be doing instead of this, assuming you actually need it.
@@ -5529,7 +5525,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAATQ.desc=In order to get alumin(i)um ing
 
 # Quest: More Heat - Kanthal Coil Upgrade
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAATg.name=§6§lMore Heat - Kanthal Coil Upgrade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAATg.desc=Better materials need higher temperatures. You can just exchange the old coils with the new ones. Kanthal coils let you reach 2700K. You can even reuse the old coils in your Pyro or to make other machines, how fancy is that! If you don't have any other place to use them, you can macerate, arc furnace, or disassemble them too.%n%nIf you dont have a Vacuum Freezer yet coole the hot ingots in a MV Chemical Bath with Coolant.%n%nRemember that you can get an upgraded OC (4/4) instead of a regular one (4/2) if your coils are 1800K above the recipe temperature, as well as a EU discount. This applies to every 900K or 1800K above, so you should try to upgrade your coils as soon as you can.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAATg.desc=Better materials need higher temperatures. You can just exchange the old coils with the new ones. Kanthal coils let you reach 2700K. You can even reuse the old coils in your Pyro or to make other machines, how fancy is that! If you don't have any other place to use them, you can macerate or arc furnace them too.%n%nIf you dont have a Vacuum Freezer yet coole the hot ingots in a MV Chemical Bath with Coolant.%n%nRemember that you can get an upgraded OC (4/4) instead of a regular one (4/2) if your coils are 1800K above the recipe temperature, as well as a EU discount. This applies to every 900K or 1800K above, so you should try to upgrade your coils as soon as you can.
 
 # Quest: Nichrome Coil Upgrade
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAATw.name=§6§lNichrome Coil Upgrade
@@ -5970,7 +5966,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIBQ.desc=If you stuck with fish for bio 
 
 # Quest: Putting all those workers out of jobs
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIBg.name=Putting all those workers out of jobs
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIBg.desc=The large scale auto-assembler will put things together for you, in volume. It is designed to be an Assembler, Disassembler, and Autocrafter all in one. However, at the moment only the assembler is usable. This multi is available in ZPM. %n%n§3While it unlocks much later, has much fewer parallels, and has no TT energy hatch support in contrast to the Precise Assembler, it has one upside: If you use two energy hatches you can craft items of the next tier.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIBg.desc=The large scale auto-assembler will put things together for you, in volume. This multi is available in ZPM. %n%n§3While it unlocks much later, has much fewer parallels, and has no TT energy hatch support in contrast to the Precise Assembler, it has one upside: If you use two energy hatches you can craft items of the next tier.
 
 # Quest: Playing With the Big Boys, Chemically
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJXQ.name=Playing With the Big Boys, Chemically
@@ -6063,7 +6059,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADDw.desc=All your little turbines take u
 
 # Quest: Power of the Sun at LV Level
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADqA.name=§a§lPower of the Sun at LV Level
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADqA.desc=The next solar panel you can make is the LV one. It generates 32 EU/t. You'll need to make some sunnarium first though.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADqA.desc=The next solar panel you can make is the LV one. It generates 32 EU/t.
 
 # Quest: Power of the Sun 1x1 LV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADqQ.name=§a§lPower of the Sun 1x1 LV
@@ -6071,7 +6067,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADqQ.desc=Put those 32 EU panels on a blo
 
 # Quest: Power of the Sun at MV Level
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD6w.name=§a§lPower of the Sun at MV Level
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD6w.desc=The next solar panel you can make is the MV one. It gives 128 EU/t.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD6w.desc=The next solar panel you can make is the MV one. It gives 128 EU/t. You'll need to make some sunnarium first though.
 
 # Quest: Power of the Sun 1x1 MV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD7A.name=§a§lPower of the Sun 1x1 MV
@@ -7103,7 +7099,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMSw.desc=The branch to the left and to t
 
 # Quest: IC2 Nuke Variations
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMTA.name=IC2 Nuke Variations
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMTA.desc=This branch of the questline focuses on the IC2 nukes that work differently from the simple kind that is explored on the branch right next to this one. They are more powerful, but also require more setup.%n%nThe main two kinds are fluid nukes and vacuum nukes, which will be explained in the following quests. However, there are also other obscure types, such as wrench nukes, which might or might not work in the current version. Additionally, someone suggested you could disassemble a nuke to reset the heat amount?%n%nThose are memes, but if any new viable type of IC2 nuke is ever introduced, it will be explained in this section.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMTA.desc=This branch of the questline focuses on the IC2 nukes that work differently from the simple kind that is explored on the branch right next to this one. They are more powerful, but also require more setup.%n%nThe main two kinds are fluid nukes and vacuum nukes, which will be explained in the following quests. However, there are also other obscure types, such as wrench nukes, which might or might not work in the current version.%n%nThose are memes, but if any new viable type of IC2 nuke is ever introduced, it will be explained in this section.
 
 # Quest: Build the Assembly Line First
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMTQ.name=Build the Assembly Line First
