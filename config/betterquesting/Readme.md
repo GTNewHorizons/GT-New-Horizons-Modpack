@@ -2,7 +2,7 @@
 
 1. Quests should primarily provide useful information to the player and guide them through the pack progression. But feel free to develop some lore on top of that.
 2. Everybody is welcome to contribute to the questbook. But any bigger changes need to be discussed in the quest-dev channel on discord first.
-3. You should only change quests on topics you have expertise on and have actually played around with yourself. The only exception to this are mechanics/items/machines that are brandnew additions, in which case you should talk to the responsible dev or study the PR that added these things. Ideally get that dev to write the quest or at least help you with it.
+3. You should only change quests on topics you have expertise on and have actually played around with yourself. The only exception to this are mechanics/items/machines that are brand-new additions, in which case you should talk to the responsible dev or study the PR that added these things. Ideally get that dev to write the quest or at least help you with it.
 
 
 # Some more Guidelines for Quests Development
