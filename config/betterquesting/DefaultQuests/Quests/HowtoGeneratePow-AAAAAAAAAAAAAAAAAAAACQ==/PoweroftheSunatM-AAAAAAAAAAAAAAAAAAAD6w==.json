@@ -3,6 +3,10 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
+      "questIDLow:4": 3078
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
       "questIDLow:4": 936
     }
   },
@@ -31,7 +35,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "The next solar panel you can make is the MV one. It gives 128 EU/t."
+      "desc:8": "The next solar panel you can make is the MV one. It gives 128 EU/t. You\u0027ll need to make some sunnarium first though."
     }
   },
   "tasks:9": {
