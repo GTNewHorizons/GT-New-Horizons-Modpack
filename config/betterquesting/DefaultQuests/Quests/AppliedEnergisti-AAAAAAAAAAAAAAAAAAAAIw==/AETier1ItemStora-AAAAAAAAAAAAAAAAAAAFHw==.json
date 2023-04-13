@@ -31,7 +31,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "The main processor for 1K and 4K cells.\n\nAs an alternative to storing items in ME, you can use a storage bus connected to other blocks.  A common tactic is to connect to a bank of Compressed Chests or even a Drawer Controller in this way. This can help reduce the power requirements in your AE system.\n\n§cNote that using external storage like this can significantly harm server performance and may be banned on some servers!\n\nSuper and Quantum chests do not have TPS issues.§r"
+      "desc:8": "The main processor for 1K and 4K cells.\n\nStoring items directly in AE cells is very performant and usually the best option."
     }
   },
   "tasks:9": {
