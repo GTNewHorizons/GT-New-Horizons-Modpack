@@ -3,7 +3,7 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 2753
+      "questIDLow:4": 1303
     }
   },
   "questIDLow:4": 2754,
@@ -25,7 +25,7 @@
       "globalShare:1": 0,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "External Storage",
+      "name:8": "Short Guide - External Storage",
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,

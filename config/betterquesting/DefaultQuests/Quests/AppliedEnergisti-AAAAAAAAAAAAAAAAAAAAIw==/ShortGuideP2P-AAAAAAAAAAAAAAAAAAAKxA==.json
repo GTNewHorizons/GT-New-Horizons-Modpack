@@ -3,7 +3,7 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 2755
+      "questIDLow:4": 203
     }
   },
   "questIDLow:4": 2756,
@@ -25,11 +25,11 @@
       "globalShare:1": 0,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "P2P",
+      "name:8": "Short Guide - P2P",
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "One of the more complicated parts of AE2, you\u0027ll need to understand this to really get anywhere with the mod. First, replace your EA with an ME Controller. Now you have a bunch more channels to work with. Place the P2P Bus against one of the sides and then connect some cables to it to a place a bit away. Make sure to send power to this cable with an EA or Quartz Fiber, but NOT a normal cable, this is now a separate network, and that would cancel that. Connect the second P2P Bus to the other end, and then place at least 1 Dense Cable coming off of it. Shift-right click your 1st P2P Bus, then Right click the 2nd. They\u0027re now connected, and there are 2 channels being used on your subnetwork, while you have the full 32 from the side of your Controller to use. For each subnetwork that doesn\u0027t have an ME Controller, you can send 4 sides, or 128 channels. I\u0027m sure you can understand how useful this is, right?\n\nThere\u0027s lots more to understand about AE2, but you should probably either experiment, read the quests, or watch a video for more than the basics.\n\nAlso keep in mind that EC2 is kinda completely broken in regards to fluids, so maybe avoid that. (The questmaker is sad :()"
+      "desc:8": "One of the more complicated parts of AE2, you\u0027ll need to understand this to really get anywhere with the mod. First, replace your EA with an ME Controller. Now you have a bunch more channels to work with. Place the P2P Bus against one of the sides and then connect some cables to it to a place a bit away. Make sure to send power to this cable with an EA or Quartz Fiber, but NOT a normal cable, this is now a separate network, and that would cancel that. Connect the second P2P Bus to the other end, and then place at least 1 Dense Cable coming off of it. Shift-right click your 1st P2P Bus, then Right click the 2nd. They\u0027re now connected, and there are 2 channels being used on your subnetwork, while you have the full 32 from the side of your Controller to use. For each subnetwork that doesn\u0027t have an ME Controller, you can send 4 sides, or 128 channels. I\u0027m sure you can understand how useful this is, right?\n\nThere\u0027s lots more to understand about AE2, but you should probably either experiment, read the quests, or watch a video for more than the basics."
     }
   },
   "tasks:9": {

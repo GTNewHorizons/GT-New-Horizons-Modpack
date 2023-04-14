@@ -77,14 +77,8 @@
       "taskID:8": "bq_standard:optional_retrieval"
     },
     "2:10": {
-      "partialMatch:1": 1,
-      "autoConsume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
       "index:3": 2,
-      "consume:1": 0,
-      "requiredItems:9": {},
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:checkbox"
     }
   },
   "rewards:9": {}
