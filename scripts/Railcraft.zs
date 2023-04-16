@@ -556,12 +556,6 @@ recipes.remove(<Railcraft:frame>);
 // --- Steel Shears
 recipes.remove(<Railcraft:tool.steel.shears>);
 
-// --- Thaumic Crowbar
-mods.thaumcraft.Arcane.removeRecipe(<Railcraft:tool.crowbar.magic>);
-
-// --- Void Metal Crowbar
-mods.thaumcraft.Arcane.removeRecipe(<Railcraft:tool.crowbar.void>);
-
 // --- Infernal Block
 recipes.remove(<Railcraft:brick.infernal:2>);
 
@@ -1727,43 +1721,3 @@ mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 2000, [
 
 
 // --- Thaumcraft Stuff ---
-
-
-
-
-// --- Thaumium Crowbar
-mods.thaumcraft.Research.moveResearch("RC_Crowbar", "ARTIFICE", 0, -4);
-mods.thaumcraft.Research.clearPrereqs("RC_Crowbar");
-mods.thaumcraft.Research.addPrereq("RC_Crowbar", "THAUMIUM", false);
-mods.thaumcraft.Research.clearPages("RC_Crowbar");
-mods.thaumcraft.Research.addPage("RC_Crowbar", "thaumcraft.research.RC_Crowbar.page.1");
-mods.thaumcraft.Arcane.addShaped("RC_Crowbar", <Railcraft:tool.crowbar.magic>, "ordo 24, ignis 24, aer 24", [
-[<ore:craftingToolHardHammer>, <ore:dyeRed>, <gregtech:gt.metaitem.01:23330>],
-[<ore:dyeRed>, <gregtech:gt.metaitem.01:23330>, <ore:dyeRed>],
-[<gregtech:gt.metaitem.01:23330>, <ore:dyeRed>, <ore:craftingToolFile>]]);
-mods.thaumcraft.Research.addArcanePage("RC_Crowbar", <Railcraft:tool.crowbar.magic>);
-
-// --- Thaumic Crowbar
-mods.thaumcraft.Research.refreshResearchRecipe("RC_Crowbar");
-
- 
-// --- Void metal Crowbar
-mods.thaumcraft.Research.moveResearch("RC_Crowbar_Void", "ELDRITCH", 2, -4);
-mods.thaumcraft.Research.clearPrereqs("RC_Crowbar_Void");
-mods.thaumcraft.Research.addPrereq("RC_Crowbar_Void", "VOIDMETAL", false);
-mods.thaumcraft.Research.addPrereq("RC_Crowbar_Void", "RC_Crowbar", false);
-mods.thaumcraft.Research.clearPages("RC_Crowbar_Void");
-mods.thaumcraft.Research.addPage("RC_Crowbar_Void", "thaumcraft.research.RC_Crowbar_Void.page.1");
-mods.thaumcraft.Arcane.addShaped("RC_Crowbar_Void", <Railcraft:tool.crowbar.void>, "perditio 50, ignis 50, aer 50, terra 50", [
-[<ore:craftingToolHardHammer>, <ore:dyeRed>, <ore:stickVoid>],
-[<ore:dyeRed>, <ore:stickVoid>, <ore:dyeRed>],
-[<ore:stickVoid>, <ore:dyeRed>, <ore:craftingToolFile>]]);
-mods.thaumcraft.Research.addArcanePage("RC_Crowbar_Void", <Railcraft:tool.crowbar.void>);
-mods.thaumcraft.Warp.addToResearch("RC_Crowbar_Void", 2);
-
-
-//--- Void Crowbar
-mods.thaumcraft.Research.refreshResearchRecipe("RC_Crowbar_Void");
-
-// --- Tab Removal
-mods.thaumcraft.Research.removeTab("RAILCRAFT");
