@@ -1,41 +1,40 @@
 {
-  "questIDHigh:4": 0,
+  "questIDHigh:4": -6524472933804260988,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 770
+      "questIDLow:4": 81
     },
     "1:10": {
-      "questIDHigh:4": -6524472933804260988,
-      "questIDLow:4": -6650556070435655322
+      "questIDHigh:4": -4560413335703760908,
+      "questIDLow:4": -8162614124778304378
     }
   },
-  "questIDLow:4": 1903,
+  "questIDLow:4": -6650556070435655322,
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
+      "taskLogic:8": "OR",
       "visibility:8": "NORMAL",
       "isMain:1": 1,
       "simultaneous:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.blockmachines",
+        "id:8": "gregtech:gt.60k_Helium_Coolantcell",
         "Count:3": 1,
-        "Damage:2": 43,
+        "tag:10": {},
+        "Damage:2": 0,
         "OreDict:8": ""
       },
       "snd_update:8": "random.levelup",
       "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "AND",
+      "globalShare:1": 0,
+      "questLogic:8": "OR",
       "repeat_relative:1": 1,
-      "name:8": "§9§e§9§lHV Energy Hatch",
-      "isGlobal:1": 0,
+      "name:8": "§9§lKeeping your energy hatch from overheating",
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "The HV energy hatch is crucial to a faster EBF that can do higher tier recipes. You will probably want to make at least two."
+      "desc:8": "You have two options here. Either you followed the NaK quests or you made a vacuum freezer to cool helium."
     }
   },
   "tasks:9": {
@@ -48,9 +47,28 @@
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.blockmachines",
+          "id:8": "gregtech:gt.60k_NaK_Coolantcell",
           "Count:3": 1,
-          "Damage:2": 43,
+          "tag:10": {},
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.60k_Helium_Coolantcell",
+          "Count:3": 1,
+          "tag:10": {},
+          "Damage:2": 0,
           "OreDict:8": ""
         }
       },
