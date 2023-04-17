@@ -50,13 +50,13 @@
       "requiredItems:9": {
         "0:10": {
           "id:8": "IC2:itemCellEmpty",
-          "Count:3": 64,
+          "Count:3": 8,
           "Damage:2": 12,
           "OreDict:8": ""
         },
         "1:10": {
           "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 64,
+          "Count:3": 8,
           "Damage:2": 2526,
           "OreDict:8": ""
         }
@@ -73,7 +73,7 @@
       "requiredItems:9": {
         "0:10": {
           "id:8": "IC2:itemCellEmpty",
-          "Count:3": 64,
+          "Count:3": 8,
           "Damage:2": 9,
           "OreDict:8": ""
         }
@@ -88,7 +88,7 @@
       "choices:9": {
         "0:10": {
           "id:8": "IC2:itemCellEmpty",
-          "Count:3": 32,
+          "Count:3": 8,
           "Damage:2": 0,
           "OreDict:8": ""
         },
