@@ -1959,13 +1959,21 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMjg.desc=If you are salty about the ingr
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAABQ.name=Tier 3 - HV
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAABQ.desc=Finally some real power to work with. This tier is all about getting to the moon to gather more rare resources to build even more advanced machines.
 
+# Quest: Keeping your energy hatch from overheating
+betterquesting.quest.pXRqb1HyQYSjtHp9dt1xZg.name=§9§lKeeping your energy hatch from overheating
+betterquesting.quest.pXRqb1HyQYSjtHp9dt1xZg.desc=You have two options here. Either you followed the NaK quests or you made a vacuum freezer to cool helium.
+
+# Quest: NaK
+betterquesting.quest.wLYoO7hsT_SOuJGzbgDMhg.name=§9§lNaK
+betterquesting.quest.wLYoO7hsT_SOuJGzbgDMhg.desc=Let's make some NaK coolant!
+
 # Quest: SMD Inductors
-betterquesting.quest.3F2OXjxZT-eHWy8E4n1NCg.name=SMD Inductors
+betterquesting.quest.3F2OXjxZT-eHWy8E4n1NCg.name=§9§lSMD Inductors
 betterquesting.quest.3F2OXjxZT-eHWy8E4n1NCg.desc=Now that you have Neodymium you can make the last of the SMDs, the SMD inductor. It can replace Small Coils in your circuit crafting.
 
-# Quest: The Power of Endermen
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAhQ.name=§9§lThe Power of Endermen
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAhQ.desc=Elevators are nice, but they're limited to vertical teleportation, and their range is also highly limited. Travel anchors don't have a limitation on angle, you can teleport from one anchor to any other within 128 blocks. You do this by looking at the anchor you wish to travel to and pressing the shift button. You can also name them and even set them as private if you like. They have a 2s cooldown.
+# Quest: Fluid Heater
+betterquesting.quest.55XTBx8LRN2Ol_42LS6Mwg.name=§9§lFluid Heater
+betterquesting.quest.55XTBx8LRN2Ol_42LS6Mwg.desc=You will need a fluid heater for some chemical processes, for the best fries, but also right now to make NaK coolant. To procede you will need either an MV or an HV fluid heater. Make one of them.
 
 # Quest: Vibrant Crystals
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAjQ.name=§9§lVibrant Crystals
@@ -2195,10 +2203,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFkA.desc=This vein is kind lame, but you
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF3g.name=§9§lTesla Would be Proud
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF3g.desc=Tired of sticking your EnderIO items in the capacitor bank to charge it? Time to make a wireless charger.
 
-# Quest: Travelocity!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF5Q.name=§9§lTravelocity!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF5Q.desc=A staff of traveling can get you really moving around your base. Hold shift and right click to teleport in that direction. If you've got travel anchors, just right clicking will send you to them. The range is 16 blocks for normal TP, 128 to an anchor.
-
 # Quest: Need a Place For All Those Ores?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF7Q.name=§9§lNeed a Place For All Those Ores?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF7Q.desc=How about a compressed chest from Avaritia? This 243 slot chest will hold it's contents when broken, so no need for a slow-inducing dolly!
@@ -2309,7 +2313,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHbQ.desc=The HV GT++ Steam Boiler is the
 
 # Quest: HV Energy Hatch
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHbw.name=§9§e§9§lHV Energy Hatch
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHbw.desc=The HV energy hatch is crucial to a faster EBF that can do higher tier recipes.%n%nYou'll need to make He coolant cells or NaK coolant cells using a fluid canner. Follow NEI to figure out how to make them, and the rest.%n%nNote that you'll need a cleanroom, vacuum freezer, and new coils.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHbw.desc=The HV energy hatch is crucial to a faster EBF that can do higher tier recipes. You will probably want to make at least two.
 
 # Quest: Recycle for the Environment
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHcg.name=§9§lRecycle for the Environment
@@ -2321,7 +2325,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHdQ.desc=A super chest III is just ridic
 
 # Quest: Separating Molecules
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHgQ.name=§9§lSeparating Molecules
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHgQ.desc=Did you know that you used to be able to get Tungstate out of Lava? As well as Silver, Tantalum and Copper? Well, now you can't, because Nerfs. Nerfing (making it harder) is the GTNH way of life. Even the Everburn Urn (how you probably get lava) used to not have coils in the recipe.%n%nIt's not all bad though, you can still get stuff, it's just not as good: Silicon Dioxide, Magnesia, Quicklime, Gold Nuggets, Sapphire Dust, and Tantalite.%n%nPahoehoe Lava (from putting normal Lava through the LHE) gets you: Copper, Tin, Silver, Phosphorus, Scheelite, and Bauxite.%n%nSo that's why a quest for an HV Centrifuge is here, too good for the Lava recipe, not good enough for the Pahoehoe one. Try centrifuging Endstone Dust from your crops or Ender Goo instead if you need Tungsten.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHgQ.desc=Many centrifuging recipes are slow. You better upgrade you machines.%n%nThere are many interesting things you can centrifuge outside your normal ore processing or Methane production. Glowstone, Redstone, Soul Sand, Lava, Ashes, Planet Dusts, Compressed Air, etc. Make sure to look around a bit.
 
 # Quest: Getting Your First Platinum
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI9w.name=§9§lGetting Your First Platinum
@@ -3772,10 +3776,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAM0g.desc=There is a new material that ca
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM0w.name=Space Elevator
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM0w.desc=The Space Elevator is a modular structure. It can be equipped with Space Elevator modules, which then can take on different tasks. %n%nInitially, your Space Elevator has 6 module slots that can be used. You can later upgrade that to up to 12 with Mk-II and Mk-III motors. The motor tier also determines the module tier that you can use. The I/O is not shared between modules, each module only sees their own I/O slots. Energy is only provided to the central structure of the Space Elevator and then automatically distributed to all modules.%n%nAfter a module has been inserted and supplied with the right I/O, it can be configured further using parameters.%n%nYou can see in NEI which fluids are pumpable with the Space Pumping Module. It consumes 1A UHV to work. The Gas Type and Planet Type are parameters.%n%nNEI also has an overview of all the ores you can obtain with a Space Mining Module. It needs to supplied with a drone, which will act as catalyst, a set of input items, computation and either Helium, Bismuth or Radon plasma. The plasma will boost both the recipe time and the amount of bonus stacks you get out of a recipe. With its parameters you can adjust parallels, overdrive, and distance. When multiple recipes have the same input and you have the distance set to a value that they share, the module will pick a random one, taking the recipes weights into consideration.%n%nThe space elevator also lets you travel to other planets. It doesn't get you back though and there is no documentation. So best find out yourself how it works.%n%nThe mining module also got a cycle mode. In static mode it will hold its distance while in cycle mode it will change its distance after each recipe check (and you can configure the range and step size of that).
 
-# Quest: Travelocity²
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAM3Q.name=Travelocity²
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAM3Q.desc=Why walk when you can teleport? This upgrade to the staff of traveling can move you even further, even faster, and will never run out of energy.%n%nRight-click:%n * If looking at a block: teleport to it, 512 range%n * If no block in range: teleport forward, 64 range%n * If looking at a block within 2 range: teleport to the other side of a wall, 16 range%n * No cooldown%n%nShift-right-click:%n * Teleport to travel anchor, 2048 range%n%n§3Tip: You won't be able to see travel anchors that are far away, but can still teleport to them if they are in range and chunk-loaded. Try using JourneyMap waypoints to mark anchors!%n%n§3Note: The staff of teleportation has inverted shift behavior compared to the regular staff. This is to make moving around with right-click easier.
-
 
 ## Quest Line: Tier 9 - UHV
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAALg.name=Tier 9 - UHV
@@ -3871,7 +3871,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKaA.desc=The Bioware Supercomputer is th
 
 # Quest: Master of Circuits
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKaQ.name=Master of Circuits
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKaQ.desc=You've done it! This is the final (normal) circuit in the game!%n%nThe Bio Mainframe is the first and only UEV-Tier Circuit in the game.%n%nAlso, there's this thing called going outside. I heard you may like it.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKaQ.desc=The Bio Mainframe is the first UEV-Tier Circuit in the game.%n%nThis is truely an achievement, well done!
 
 # Quest: Compressing the Core of a Star
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKcg.name=Compressing the Core of a Star
@@ -4484,9 +4484,230 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALUg.name=Crispy Rotten Flesh
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALUg.desc=Rotten Flesh is not really healthy. It doesn't satisfy your hunger. What if you try to dry?
 
 
-## Quest Line: Getting Around Without Dying
-betterquesting.questline.AAAAAAAAAAAAAAAAAAAACw.name=Getting Around Without Dying
-betterquesting.questline.AAAAAAAAAAAAAAAAAAAACw.desc=In order to not die constantly, you'll need weapons, armor and transportation. There's also utility stuff like minecarts/trains, adventure backpacks and jetpacks.
+## Quest Line: Getting Around...
+betterquesting.questline.bAal8kZ3R8eRTwaHgbYkKA.name=Getting Around...
+betterquesting.questline.bAal8kZ3R8eRTwaHgbYkKA.desc=Movement can be slow initially. But with some technology or magic, that is easily overcome!
+
+# Quest: The Power of Endermen
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAhQ.name=The Power of Endermen
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAhQ.desc=Elevators are nice, but they're limited to vertical teleportation, and their range is also highly limited. Travel anchors don't have a limitation on angle, you can teleport from one anchor to any other within 128 blocks. You do this by looking at the anchor you wish to travel to and pressing the shift button. You can also name them and even set them as private if you like. They have a 2s cooldown.
+
+# Quest: Glider Wings
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAChQ.name=Glider Wings
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAChQ.desc=If for some reason you want to be able to jump down a cliff without getting the message "Player X fell from a high place", a great idea would be to find a way to slow your fall. The store was out of feather falling potions, so make a hang glider instead.
+
+# Quest: Electrotine Jetpack
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAChw.name=Electrotine Jetpack
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAChw.desc=Your glider gets you to the ground safely but it does not have any method to get up. After you researched electrotine you discovered that it is powerful enough for your first jetpack.%n%nA diamond chestplate surrounded with 4 electrotine batteries is powerful enough to bring you up into the air.%n%nIt does not have a hover mode so you better take your glider with you. %n%nHint: This jetpack can't fly higher than Y-128.
+
+# Quest: Refill Your Jetpack
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACiA.name=Refill Your Jetpack
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACiA.desc=GREAT.... you now have an empty jetpack. You need 25 electrotine dust to completely fill it. Let's craft an electrotine generator and a charging bench to use the power of electrotine. %n%nYou will very quickly discover that, while it is fast and cheap, it's empty in the blink of an eye. Despite this, it is useful in combination with the hang glider to get into the air and to get away from hairy situations.
+
+# Quest: Coal Steam Jetpack
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACiQ.name=Coal Steam Jetpack
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACiQ.desc=Your coal jetpack needs coal and water to produce steam. After a short warm-up period you can go and take it for a ride. Keep in mind you will need your glider to make a soft landing.%n%nPut your jetpack on your back and hit Shift and the adventure backpack's action-key to start it.%n%nMax flying height for this jetpack is Y-185.%n%nVertical velocity decreases linearly with height after overcoming optimal height - 135 for jetpack and 100 for copter.
+
+# Quest: Copterpack, More 'Hover' than 'Jet'
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACig.name=Copterpack, More 'Hover' than 'Jet'
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACig.desc=The copterpack is the first jetpack with a hover mode. It uses several different types of fuels to power it. %n%nBuckets of creosote, lava, oil, diesel, cetane, ethanol, and fuel will work.%n%nEquip your jetpack and hit Shift and the adventure backpack's action-key. You can also switch between hover and normal mode.%n%nMax flying height is limited to Y-200. %n%nVertical velocity decreases linearly with height after overcoming optimal height - 135 for jetpack and 100 for copter.%n%n§3Dropped items will be pushed away from you, just like a helicopter pushes things away, so be careful in the End, or by cliffsides.
+
+# Quest: Electric Jetpack
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACiw.name=Electric Jetpack
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACiw.desc=Your first electrical jetpack. You need to hit the IC2 mode-switch key to toggle between normal mode and hover mode while holding down the jump key. When descending, remember to shut off hover mode or else you'll drain your jetpack.%n%nThe only limitation is that you can't fly higher than Y-185.%n%nFor charging on the go, you can craft a charging crystal from ic2 charging components. You have to take the backpack out of the armor slot and put it in your hotbar and activate the charger by sneak-clicking. There are better models than this one old one I don't need any more. Look in NEI.%n%nLater on GT++ charging packs are belts that can charge everything in your inventory including armor. Check NEI for the recipe.%n%nFinally, the GT++ wireless charger will charge everything in your inventory, including the jetpack, from your base at long ranges. A quest is unlocked once you finish your nanosuit. Just remember when you are off world or in the Nether that your jetpack isn't charging!
+
+# Quest: Fueled Jetpack
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACjA.name=Fueled Jetpack
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACjA.desc=This jetpack uses IC2 biogas and can fly up to Y-245. You can switch between hover and normal mode using the IC2 mode-switch key.%n%nYour jetpack can be (re-)fueled in the IC2 fluid canner with 30 buckets/cells worth of biogas.
+
+# Quest: Advanced Electric Jetpack
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACjQ.name=Advanced Electric Jetpack
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACjQ.desc=The advanced electric jetpack is an upgraded version of the electric jetpack.%nWhile worn in the chest armor slot and charged with EU, it allows the player to fly. It provides no armor protection, but will charge tools being used in the same manner as the advanced lappack from its 3.000.000 EU internal storage.%n%nThe advanced electric jetpack is limited to a maximum flying height of Y-256.%n%n§3To turn it on, hit the fly key listed under gravisuite. You can then use space to fly up. To activate hover, hit the IC2 mode key while holding space. Will also recharge tools.
+
+# Quest: Row, Row, Row Your Boat
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACmg.name=Row, Row, Row Your Boat
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACmg.desc=You live close to the water and don't have a boat? Man, get it together.%n%nYou need wooden planks, slabs and a knife to craft one. (This is also quest id 666, be careful, something is going on.)%n%n§3We here at QuestBook, Inc. do not guarantee the usefulness of boats. The standard worldgen does not include oceans, so their usefulness is heavily curtailed. There are lots of rivers, but horses might be more useful if not on a server.
+
+# Quest: Trainspotting
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACmw.name=Trainspotting
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACmw.desc=The wooden tracks can be made without any machine. Functionally equivalent to normal rails, but with a lower maximum speed (for safety reasons).%n%nHint: You can use your wooden rails for Steve's carts farms.
+
+# Quest: Rubber Boat
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACnA.name=Rubber Boat
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACnA.desc=The rubber dinghy requires only a few rubber plates. Like the vanilla wooden boat, it will break and dismantle whenever it hits a surface, however instead of returning sticks and planks, it will return a damaged rubber dinghy, which can be re-crafted with two pieces of rubber back into a useable rubber dinghy!
+
+# Quest: Inflatable Boot
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACnQ.name=Inflatable Boot
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACnQ.desc=I meant to say boat... The inflatable boat is the first boat that doesn't break on impact with a solid block.
+
+# Quest: Carbon Fiber Boat
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACng.name=Carbon Fiber Boat
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACng.desc=Unlike all other boats, this amazing carbon fiber canoe is COMPLETELY INDESTRUCTIBLE!* This means that you can smash it into as many beaches, lily pads and alligators as you like, the carbon fiber canoe won't take a scratch!%n%nWarning: We are not held responsible for any damage caused by riding the carbon fiber canoe into a lava lake or the Void.%n%n*Therefore, warranty is NOT included.
+
+# Quest: Electric Boat
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACnw.name=Electric Boat
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACnw.desc=The electric boat works mostly like a vanilla boat, chugging through the water at a decent pace. It will hopefully drop itself once you crash, which is slightly nicer than the usual sticks. That's all well and good, but what if we utilize the electric engine? Wearing an energy storage device in your chestplate slot, like a batpack or energypack, will cause the boat to drain energy from it and propel you forward at supersonic speed! Doing this will consume about 100 EU per block traveled, so even a decent batpack won't last long!
+
+# Quest: Boat Shape?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACoA.name=Boat Shape?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACoA.desc=Really? Yes for the more advanced boats you need a new shape form.%n%nYou need to make an Extruder first to progress further.
+
+# Quest: Wooden Rail Variants
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACog.name=Wooden Rail Variants
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACog.desc=The wooden junction, wye and switch tracks need an assembling machine to craft. They allow you to join and switch to tracks going to different locations.%n%nNEI doesn't show the right recipe on the first page. Go through the recipes a bit to find the right one.
+
+# Quest: Switch Lever
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACow.name=Switch Lever
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACow.desc=The switch lever is the manual version of the switch motor, requiring a player to operate it instead of a redstone signal.%n%nIt is used in various signaling systems, mainly to change the way switch tracks and wye tracks work.
+
+# Quest: Crowbar
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACpA.name=Crowbar
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACpA.desc=The crowbar comes in a Railcraft (and thaumcraft versions of RC) and a gregtech variant. It is used to manipulate machines from railcraft, remove plates and any other covers (pumps, conveyor modules, etc.) from gregtech pipes and machines as well as breaking certain objects faster, such as tracks. This tool is also used to access certain inventories from Railcraft.%n%nHold a crowbar and shift + right click to attach carts. Click the starting cart then continue to click to add more carts to the link. Carts will act slower the more connections are made.%n%nThe crowbar can be used as a weapon, though it costs twice as much durability on attack (just like any other non weapon tool...).
+
+# Quest: Minecart
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACpQ.name=Minecart
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACpQ.desc=After you craft your first cart the journey can begin...%n%nWell, not really. You will need some kind of tracks first.%n%n§3We here at QuestBook, Inc. do not guarantee the usefulness of minecarts or trains in any way. Especially since you can mine out a vein in a single session once you have a hammer and backpacks.%n%n§c§lWARNING: §r§cUnprotected carts can be knocked off their rails by lightning. Cover the area with blocks to prevent carts from disappearing.%n%nAlso, make sure to keep your cart in one chunk, or use chunkloaders covering the whole area the cart works within. Loading/unloading chunks may cause carts to disappear or duplicate.
+
+# Quest: The Transcontinental Railroad
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADYg.name=The Transcontinental Railroad
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADYg.desc=All the different mining veins that have been found seem to be really far apart. One way to shorten the travel time is to create a railroad from your base to the different mines. Sadly this requires a large amount of both iron and creosote. Let's not forget to place the last symbolic rivet on one of your new train lines.
+
+# Quest: Jetpack v.0.1 Alpha
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADag.name=Jetpack v.0.1 Alpha
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADag.desc=Do you like flying? Ok then, make a slimy bouncepad and enjoy the view.
+
+# Quest: Minecart with Tank, Workbench or Furnace
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEnQ.name=Minecart with Tank, Workbench or Furnace
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEnQ.desc=Want to transport oil or other fluids, have a portable crafting table or a portable chest? Then you need to craft some minecarts with tanks, chests or crafting tables.
+
+# Quest: Fluid Loader and Unloader
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEng.name=Fluid Loader and Unloader
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEng.desc=If you plan to automate the oil transport from your oil field far away, you need a fluid loader and unloader. A locking track will stop the train as long as oil is loaded or unloaded.%n%n§3PS: You can also use the long-distance pipeline.
+
+# Quest: Locomotive 0.1 Alpha
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEnw.name=Locomotive 0.1 Alpha
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEnw.desc=The furnace cart is a cheap locomotive. Click with coal or charcoal on the cart and and it will start moving. 
+
+# Quest: Steam Locomotive
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEoA.name=Steam Locomotive
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEoA.desc=The steam locomotive is much better than the furnace cart. You can control the speed and the direction the locomotive will move. You need to put water and coal inside to make steam to power the locomotive.
+
+# Quest: Electric Locomotive
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEoQ.name=Electric Locomotive
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEoQ.desc=Electric Locomotives are much better than steam ones. You need electric rail for it.
+
+# Quest: Boost Your Speed
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEog.name=Boost Your Speed
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEog.desc=If you decide to not use a locomotive and drive with one or two carts only, you can use some booster tracks. Activate them with a lever or a redstone torch. You can also use them to slow down, especially when doing corners!
+
+# Quest: The Transcontinental Railroad - High-Speed
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEow.name=The Transcontinental Railroad - High-Speed
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEow.desc=Did you ever dream of driving in a railcart at high speeds? Well your dreams can come true with the high speed tracks. Be careful though; you need to lower the speed when your rails change direction or when the track ends.
+
+# Quest: The Transcontinental Railroad - Creeper-Proof
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEpA.name=The Transcontinental Railroad - Creeper-Proof
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEpA.desc=Railroads in the nether are dangerous. The reinforced tracks are blast proof. Hopefully you're blast proof too?%n%nYou can move 25%% faster than with normal tracks.%n%nNEI doesn't show the right recipe on the first page. Go through the recipes a bit to find the right one.
+
+# Quest: The Transcontinental Railroad - Electric
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEpQ.name=The Transcontinental Railroad - Electric
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEpQ.desc=Electrical tracks are used together with your electric locomotive. You need to power the rails with energy.%n%nNEI doesn't show the right recipe on the first page. Go through the recipes a bit to find the right one.
+
+# Quest: Electric Feeder Unit
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEpg.name=Electric Feeder Unit
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEpg.desc=To get your tracks electrified you need an electric feeding unit, shunting wires and some support frames. You can use an MFE or a transformer to get GT energy into the feeder unit.
+
+# Quest: Works like in anime!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFPw.name=Works like in anime!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFPw.desc=You want to fly. Badly. So go and ductape wings!
+
+# Quest: Angel Wings
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFQA.name=Angel Wings
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFQA.desc=Since you have access to better materials than cardboard now, you wanted to make wings. Angel wings.
+
+# Quest: Secret-Angel-Assasin
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFQQ.name=Secret-Angel-Assasin
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFQQ.desc=Infusing your Wings with Nano-Technologies seems to be the next step, to further improve them and combine magic and technology.
+
+# Quest: Angel Wings - Ultra Force!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFSw.name=Angel Wings - Ultra Force!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFSw.desc=From ore to ingot, from nano to quantum, as you progress, your technology level increases, so should your wings as well.
+
+# Quest: Cart With Chunkloader
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFYw.name=Cart With Chunkloader
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFYw.desc=When transporting oil from long distances, a train is going to need a chunk loader. Craft one, and I'll give you a second one for free.%n%n§3This quest might not be completable in MP?
+
+# Quest: Travelocity!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF5Q.name=Travelocity!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF5Q.desc=A staff of traveling can get you really moving around your base. Hold shift and right click to teleport in that direction. If you've got travel anchors, just right clicking will send you to them. The range is 16 blocks for normal TP, 128 to an anchor.
+
+# Quest: Step Assistant
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAG8w.name=Step Assistant
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAG8w.desc=The Piston Boots are a bouncy pair of shoes for adventurers.%n%nIt functions as a piece of armor for the foot slot that gives a fun jump boost! They let the wearer jump up to THREE blocks in height and increase run speed. They also grant a Step Up enchantment to allow the wearer to step up a single block without jumping while sprinting. You can repair them with leather using an anvil.%n%nBasically, make them ASAP.
+
+# Quest: Boost Your Speed v2
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHEg.name=Boost Your Speed v2
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHEg.desc=High speed transition and booster tracks get your carts moving at really ridiculous speeds. Do not use normal track without several transition tracks or else your cart will explode. Do not try turning at high speed or, you guessed it, your cart will explode.
+
+# Quest: So Much Nicer Than Ladders
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHwQ.name=So Much Nicer Than Ladders
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHwQ.desc=Elevators are great for fast transportation vertically in your base. Leaving a tinted elevator will stop at the same color elevator. Use some Malisis doors for a nice "real" elevator effect.%nThe rotating elevator will turn the player as they go up or down to face a specific direction. Handy if your elevator shaft is on one side at a floor and a different side at another floor.
+
+# Quest: Flying Like....Mary Poppins?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIDA.name=Flying Like....Mary Poppins?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIDA.desc=The Thaumostatic Harness grants you flight, using up Potentia from a jar. The speed isn't great though, so perhaps further research will yield some results.
+
+# Quest: Flying With the Greatest of Ease
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIDQ.name=Flying With the Greatest of Ease
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIDQ.desc=Ahh, that's better. With this girdle you can really fly around like a true wizard. It does take a little extra potentia to use though, so keep an eye on your flying time.
+
+# Quest: Working While Flying? 
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIDg.name=Working While Flying? 
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIDg.desc=With these devices you can now fly and work at the same time without penalty. They can be found in the Witching Gadgets tab of the book. You'll need a Swiftness potion for this device.
+
+# Quest: Long Distance Power Delivery
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIDw.name=Long Distance Power Delivery
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIDw.desc=No mage wants to be restricted to short flying times. With this spire from the Automagy discipline you can transmit magical energy directy to your flying harness. To get the correct Thaumium block, compress 9 ingots to get the GT Thaumium block and then chisel that block to get the correct type.%n%nThis multiblock requires centi-vis to operate. You can use 2-6 Thaumostatic Pylons, with additional pylons extending the range. Provide the construct Aer centi-vis to operate, and and it will accept Potentia essentia to transfer to flyers. The construct will also accept Aer and Volatus essentia to increase the range and rate of transfer, respectively. Right-click the sides of the controller to control which type of essentia each side will accept.
+
+# Quest: Flying Like a Eag - I Mean Raven
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIEg.name=Flying Like a Eag - I Mean Raven
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIEg.desc=This cloak is a nice substitute for the Glider. There are plenty of other magical items worth a look in the Witching Gadgets tab.%nIf you want to toggle gliding with a key - configure binding for "Active Ability 1" in control settings and, having item in hand, send "/travellersgear bind 1" to chat.
+
+# Quest: Better boots with a little pizzazz
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI1A.name=Better boots with a little pizzazz
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI1A.desc=These Electric Boots of the Traveller will give a 2 percent vis discount along with the benefits of the normal Boots.
+
+# Quest: Walk all over you
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI1Q.name=Walk all over you
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI1Q.desc=Nanosuit boots will give the nanosuit benefits along with a massive speed boost, higher jump, and better vis discount. Great boots for the master magical engineer.
+
+# Quest: Walking across the stars
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI1g.name=Walking across the stars
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI1g.desc=Quantum boots of the traveller, for when you really need to run as fast as the wind. Might cause you some problems standing still! 
+
+# Quest: 'Easy' Teleportation
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJnQ.name='Easy' Teleportation
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJnQ.desc=They may be a pain to craft, but teleposers are very useful for teleporting. Use the Teleposition Focus to set the first Teleposer location and put it in the second. Apply a redstone signal, and it'll teleport you at the cost of LP. It can also move items or entities, with the size increasing with better foci.
+
+# Quest: Flippers
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALUw.name=Flippers
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALUw.desc=Maybe you were lucky and found some Flippers in a loot chest or dungeon.%n%nFlippers allow the player to swim at the same speed as walking. The only problem is that it has 0 armor protection.%n%nIf you're doing underwater construction, or digging out some clay or gravel, you may find them useful.
+
+# Quest: Travelocity²
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAM3Q.name=Travelocity²
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAM3Q.desc=Why walk when you can teleport? This upgrade to the staff of traveling can move you even further, even faster, and will never run out of energy.%n%nRight-click:%n * If looking at a block: teleport to it, 512 range%n * If no block in range: teleport forward, 64 range%n * If looking at a block within 2 range: teleport to the other side of a wall, 16 range%n * No cooldown%n%nShift-right-click:%n * Teleport to travel anchor, 2048 range%n%n§3Tip: You won't be able to see travel anchors that are far away, but can still teleport to them if they are in range and chunk-loaded. Try using JourneyMap waypoints to mark anchors!%n%n§3Note: The staff of teleportation has inverted shift behavior compared to the regular staff. This is to make moving around with right-click easier.
+
+# Quest: Enhanced Charm of Dislocation
+betterquesting.quest.G7ACOCTJRi-bk6XQxZVtIQ.name=Enhanced Charm of Dislocation
+betterquesting.quest.G7ACOCTJRi-bk6XQxZVtIQ.desc=Very powerful.
+
+# Quest: Charm of Dislocation
+betterquesting.quest.SxCNz5_RSym0Q-uKaG2JRA.name=Charm of Dislocation
+betterquesting.quest.SxCNz5_RSym0Q-uKaG2JRA.desc=They have limited durability. So either put them on a pedestal to avoid durability loss, or use a thaumic restorer.
+
+
+## Quest Line: ...Without Dying
+betterquesting.questline.AAAAAAAAAAAAAAAAAAAACw.name=...Without Dying
+betterquesting.questline.AAAAAAAAAAAAAAAAAAAACw.desc=In order to not die constantly, you'll need weapons and armor. There's also utility stuff adventure backpacks and static defenses for your base.
 
 # Quest: Protect Your Base: Tier 1
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAeA.name=§5§lProtect Your Base: Tier 1
@@ -4596,46 +4817,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAA3g.desc=Requires no ammo, but still doe
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA3w.name=§b§lRailguns, What Else
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA3w.desc=Massive power, and a wonderful sound when they fire. I recommend to use upgrades to increase range and damage.
 
-# Quest: Glider Wings
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAChQ.name=Glider Wings
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAChQ.desc=If for some reason you want to be able to jump down a cliff without getting the message "Player X fell from a high place", a great idea would be to find a way to slow your fall. The store was out of feather falling potions, so make a hang glider instead.
-
-# Quest: Electrotine Jetpack
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAChw.name=Electrotine Jetpack
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAChw.desc=Your glider gets you to the ground safely but it does not have any method to get up. After you researched electrotine you discovered that it is powerful enough for your first jetpack.%n%nA diamond chestplate surrounded with 4 electrotine batteries is powerful enough to bring you up into the air.%n%nIt does not have a hover mode so you better take your glider with you. %n%nHint: This jetpack can't fly higher than Y-128.
-
-# Quest: Refill Your Jetpack
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACiA.name=Refill Your Jetpack
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACiA.desc=GREAT.... you now have an empty jetpack. You need 25 electrotine dust to completely fill it. Let's craft an electrotine generator and a charging bench to use the power of electrotine. %n%nYou will very quickly discover that, while it is fast and cheap, it's empty in the blink of an eye. Despite this, it is useful in combination with the hang glider to get into the air and to get away from hairy situations.
-
-# Quest: Coal Steam Jetpack
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACiQ.name=Coal Steam Jetpack
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACiQ.desc=Your coal jetpack needs coal and water to produce steam. After a short warm-up period you can go and take it for a ride. Keep in mind you will need your glider to make a soft landing.%n%nPut your jetpack on your back and hit Shift and the adventure backpack's action-key to start it.%n%nMax flying height for this jetpack is Y-185.%n%nVertical velocity decreases linearly with height after overcoming optimal height - 135 for jetpack and 100 for copter.
-
-# Quest: Copterpack, More 'Hover' than 'Jet'
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACig.name=Copterpack, More 'Hover' than 'Jet'
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACig.desc=The copterpack is the first jetpack with a hover mode. It uses several different types of fuels to power it. %n%nBuckets of creosote, lava, oil, diesel, cetane, ethanol, and fuel will work.%n%nEquip your jetpack and hit Shift and the adventure backpack's action-key. You can also switch between hover and normal mode.%n%nMax flying height is limited to Y-200. %n%nVertical velocity decreases linearly with height after overcoming optimal height - 135 for jetpack and 100 for copter.%n%n§3Dropped items will be pushed away from you, just like a helicopter pushes things away, so be careful in the End, or by cliffsides.
-
-# Quest: Electric Jetpack
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACiw.name=Electric Jetpack
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACiw.desc=Your first electrical jetpack. You need to hit the IC2 mode-switch key to toggle between normal mode and hover mode while holding down the jump key. When descending, remember to shut off hover mode or else you'll drain your jetpack.%n%nThe only limitation is that you can't fly higher than Y-185.%n%nFor charging on the go, you can craft a charging crystal from ic2 charging components. You have to take the backpack out of the armor slot and put it in your hotbar and activate the charger by sneak-clicking. There are better models than this one old one I don't need any more. Look in NEI.%n%nLater on GT++ charging packs are belts that can charge everything in your inventory including armor. Check NEI for the recipe.%n%nFinally, the GT++ wireless charger will charge everything in your inventory, including the jetpack, from your base at long ranges. A quest is unlocked once you finish your nanosuit. Just remember when you are off world or in the Nether that your jetpack isn't charging!
-
-# Quest: Fueled Jetpack
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACjA.name=Fueled Jetpack
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACjA.desc=This jetpack uses IC2 biogas and can fly up to Y-245. You can switch between hover and normal mode using the IC2 mode-switch key.%n%nYour jetpack can be (re-)fueled in the IC2 fluid canner with 30 buckets/cells worth of biogas.
-
-# Quest: Advanced Electric Jetpack
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACjQ.name=Advanced Electric Jetpack
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACjQ.desc=The advanced electric jetpack is an upgraded version of the electric jetpack.%nWhile worn in the chest armor slot and charged with EU, it allows the player to fly. It provides no armor protection, but will charge tools being used in the same manner as the advanced lappack from its 3.000.000 EU internal storage.%n%nThe advanced electric jetpack is limited to a maximum flying height of Y-256.%n%n§3To turn it on, hit the fly key listed under gravisuite. You can then use space to fly up. To activate hover, hit the IC2 mode key while holding space. Will also recharge tools.
-
-# Quest: Advanced Nano Chestplate
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACjg.name=Advanced Nano Chestplate
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACjg.desc=Combining the advanced electric jetpack and nanosuit yields you the advanced nano chestplate. Now you have the protection of the chestplate combined with the freedom of movement of the jetpack.%n%n§3Works like the AEJ.
-
-# Quest: Gravi Suit
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACjw.name=Gravi Suit
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACjw.desc=The gravi chestplate is the ultimate quantum armor combined with a high powered jetpack. It also has hidden features that you need to discover while wearing the whole quantum armor.%n%nOr read a wiki or something.
-
 # Quest: Iron Spear
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACkg.name=§3§lIron Spear
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACkg.desc=Upgrade your wooden spear with an iron arrowhead and two steel screws to an iron spear. %n%nThe iron spear has better durability than the stone variant.
@@ -4651,50 +4832,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAClA.desc=Your iron shield is old and wor
 # Quest: Bow, Arrows and Quiver
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAClQ.name=§5§lBow, Arrows and Quiver
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAClQ.desc=Wow, your first handmade §oehm§r machine made bow. You find out that you can put the bow in the mine and blade battlegears slots. Now it's time to make a quiver and maybe some arrows. %n%nTo place arrows in the quiver, put the quiver and the stack of arrows in a crafting grid. Make sure the Gameplay key Special is deconflicted. By default it is Z. When you have the bow selected, use Z to swap arrow slots in the quiver.%n%nWhile it seems like these might be worthless, these arrows do have special uses. You really want to share a cookie with friends, don't you?%n%nLet's go hunt a bit.
-
-# Quest: Row, Row, Row Your Boat
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACmg.name=Row, Row, Row Your Boat
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACmg.desc=You live close to the water and don't have a boat? Man, get it together.%n%nYou need wooden planks, slabs and a knife to craft one. (This is also quest id 666, be careful, something is going on.)%n%n§3We here at QuestBook, Inc. do not guarantee the usefulness of boats. The standard worldgen does not include oceans, so their usefulness is heavily curtailed. There are lots of rivers, but horses might be more useful if not on a server.
-
-# Quest: Trainspotting
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACmw.name=Trainspotting
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACmw.desc=The wooden tracks can be made without any machine. Functionally equivalent to normal rails, but with a lower maximum speed (for safety reasons).%n%nHint: You can use your wooden rails for Steve's carts farms.
-
-# Quest: Rubber Boat
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACnA.name=Rubber Boat
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACnA.desc=The rubber dinghy requires only a few rubber plates. Like the vanilla wooden boat, it will break and dismantle whenever it hits a surface, however instead of returning sticks and planks, it will return a damaged rubber dinghy, which can be re-crafted with two pieces of rubber back into a useable rubber dinghy!
-
-# Quest: Inflatable Boot
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACnQ.name=Inflatable Boot
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACnQ.desc=I meant to say boat... The inflatable boat is the first boat that doesn't break on impact with a solid block.
-
-# Quest: Carbon Fiber Boat
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACng.name=Carbon Fiber Boat
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACng.desc=Unlike all other boats, this amazing carbon fiber canoe is COMPLETELY INDESTRUCTIBLE!* This means that you can smash it into as many beaches, lily pads and alligators as you like, the carbon fiber canoe won't take a scratch!%n%nWarning: We are not held responsible for any damage caused by riding the carbon fiber canoe into a lava lake or the Void.%n%n*Therefore, warranty is NOT included.
-
-# Quest: Electric Boat
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACnw.name=Electric Boat
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACnw.desc=The electric boat works mostly like a vanilla boat, chugging through the water at a decent pace. It will hopefully drop itself once you crash, which is slightly nicer than the usual sticks. That's all well and good, but what if we utilize the electric engine? Wearing an energy storage device in your chestplate slot, like a batpack or energypack, will cause the boat to drain energy from it and propel you forward at supersonic speed! Doing this will consume about 100 EU per block traveled, so even a decent batpack won't last long!
-
-# Quest: Boat Shape?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACoA.name=Boat Shape?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACoA.desc=Really? Yes for the more advanced boats you need a new shape form.%n%nYou need to make an Extruder first to progress further.
-
-# Quest: Wooden Rail Variants
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACog.name=Wooden Rail Variants
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACog.desc=The wooden junction, wye and switch tracks need an assembling machine to craft. They allow you to join and switch to tracks going to different locations.%n%nNEI doesn't show the right recipe on the first page. Go through the recipes a bit to find the right one.
-
-# Quest: Switch Lever
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACow.name=Switch Lever
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACow.desc=The switch lever is the manual version of the switch motor, requiring a player to operate it instead of a redstone signal.%n%nIt is used in various signaling systems, mainly to change the way switch tracks and wye tracks work.
-
-# Quest: Crowbar
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACpA.name=Crowbar
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACpA.desc=The crowbar comes in a Railcraft (and thaumcraft versions of RC) and a gregtech variant. It is used to manipulate machines from railcraft, remove plates and any other covers (pumps, conveyor modules, etc.) from gregtech pipes and machines as well as breaking certain objects faster, such as tracks. This tool is also used to access certain inventories from Railcraft.%n%nHold a crowbar and shift + right click to attach carts. Click the starting cart then continue to click to add more carts to the link. Carts will act slower the more connections are made.%n%nThe crowbar can be used as a weapon, though it costs twice as much durability on attack (just like any other non weapon tool...).
-
-# Quest: Minecart
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACpQ.name=Minecart
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACpQ.desc=After you craft your first cart the journey can begin...%n%nWell, not really. You will need some kind of tracks first.%n%n§3We here at QuestBook, Inc. do not guarantee the usefulness of minecarts or trains in any way. Especially since you can mine out a vein in a single session once you have a hammer and backpacks.%n%n§c§lWARNING: §r§cUnprotected carts can be knocked off their rails by lightning. Cover the area with blocks to prevent carts from disappearing.%n%nAlso, make sure to keep your cart in one chunk, or use chunkloaders covering the whole area the cart works within. Loading/unloading chunks may cause carts to disappear or duplicate.
 
 # Quest: Wet Dirt Armor?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACqw.name=Wet Dirt Armor?
@@ -4776,14 +4913,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADIg.desc=Plating all your armor parts wi
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADIw.name=Quantum Armor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADIw.desc=The quantum armor is a high tier and very durable armor with a lot of features like night vision, fall damage reduction and running very fast.
 
-# Quest: The Transcontinental Railroad
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADYg.name=The Transcontinental Railroad
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADYg.desc=All the different mining veins that have been found seem to be really far apart. One way to shorten the travel time is to create a railroad from your base to the different mines. Sadly this requires a large amount of both iron and creosote. Let's not forget to place the last symbolic rivet on one of your new train lines.
-
-# Quest: Jetpack v.0.1 Alpha
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADag.name=Jetpack v.0.1 Alpha
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADag.desc=Do you like flying? Ok then, make a slimy bouncepad and enjoy the view.
-
 # Quest: Dark Steel Armor Basic Upgrades
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD3w.name=Dark Steel Armor Basic Upgrades
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD3w.desc=In order to upgrade one armor item with basic upgrades, you need a vibrant crystal and 10 xp levels.
@@ -4791,58 +4920,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAD3w.desc=In order to upgrade one armor i
 # Quest: Dark Steel Armor Advanced Upgrades
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD5Q.name=Dark Steel Armor Advanced Upgrades
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD5Q.desc=Your Dark Steel armor can be upgraded in various ways by combining it with various other items. You will need an anvil and a lot of XP.%n%nMake sure when making the potions to only do three at a time, so the NBT data matches.
-
-# Quest: Minecart with Tank, Workbench or Furnace
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEnQ.name=Minecart with Tank, Workbench or Furnace
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEnQ.desc=Want to transport oil or other fluids, have a portable crafting table or a portable chest? Then you need to craft some minecarts with tanks, chests or crafting tables.
-
-# Quest: Fluid Loader and Unloader
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEng.name=Fluid Loader and Unloader
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEng.desc=If you plan to automate the oil transport from your oil field far away, you need a fluid loader and unloader. A locking track will stop the train as long as oil is loaded or unloaded.%n%n§3PS: You can also use the long-distance pipeline.
-
-# Quest: Locomotive 0.1 Alpha
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEnw.name=Locomotive 0.1 Alpha
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEnw.desc=The furnace cart is a cheap locomotive. Click with coal or charcoal on the cart and and it will start moving. 
-
-# Quest: Steam Locomotive
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEoA.name=Steam Locomotive
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEoA.desc=The steam locomotive is much better than the furnace cart. You can control the speed and the direction the locomotive will move. You need to put water and coal inside to make steam to power the locomotive.
-
-# Quest: Electric Locomotive
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEoQ.name=Electric Locomotive
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEoQ.desc=Electric Locomotives are much better than steam ones. You need electric rail for it.
-
-# Quest: Boost Your Speed
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEog.name=Boost Your Speed
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEog.desc=If you decide to not use a locomotive and drive with one or two carts only, you can use some booster tracks. Activate them with a lever or a redstone torch. You can also use them to slow down, especially when doing corners!
-
-# Quest: The Transcontinental Railroad - High-Speed
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEow.name=The Transcontinental Railroad - High-Speed
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEow.desc=Did you ever dream of driving in a railcart at high speeds? Well your dreams can come true with the high speed tracks. Be careful though; you need to lower the speed when your rails change direction or when the track ends.
-
-# Quest: The Transcontinental Railroad - Creeper-Proof
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEpA.name=The Transcontinental Railroad - Creeper-Proof
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEpA.desc=Railroads in the nether are dangerous. The reinforced tracks are blast proof. Hopefully you're blast proof too?%n%nYou can move 25%% faster than with normal tracks.%n%nNEI doesn't show the right recipe on the first page. Go through the recipes a bit to find the right one.
-
-# Quest: The Transcontinental Railroad - Electric
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEpQ.name=The Transcontinental Railroad - Electric
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEpQ.desc=Electrical tracks are used together with your electric locomotive. You need to power the rails with energy.%n%nNEI doesn't show the right recipe on the first page. Go through the recipes a bit to find the right one.
-
-# Quest: Electric Feeder Unit
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEpg.name=Electric Feeder Unit
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEpg.desc=To get your tracks electrified you need an electric feeding unit, shunting wires and some support frames. You can use an MFE or a transformer to get GT energy into the feeder unit.
-
-# Quest: Works like in anime!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFPw.name=Works like in anime!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFPw.desc=You want to fly. Badly. So go and ductape wings!
-
-# Quest: Angel Wings
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFQA.name=Angel Wings
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFQA.desc=Since you have access to better materials than cardboard now, you wanted to make wings. Angel wings.
-
-# Quest: Secret-Angel-Assasin
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFQQ.name=Secret-Angel-Assasin
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFQQ.desc=Infusing your Wings with Nano-Technologies seems to be the next step, to further improve them and combine magic and technology.
 
 # Quest: Electrogoggles
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFRQ.name=Electrogoggles
@@ -4859,18 +4936,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFRw.desc=As you continue to progress, yo
 # Quest: Goggles > 9000
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFSA.name=Goggles > 9000
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFSA.desc=This special pair of goggles recharges itself while you wander in sunlight. How convenient.
-
-# Quest: Angel Wings - Ultra Force!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFSw.name=Angel Wings - Ultra Force!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFSw.desc=From ore to ingot, from nano to quantum, as you progress, your technology level increases, so should your wings as well.
-
-# Quest: Angel Wings - Combine!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFTA.name=Angel Wings - Combine!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFTA.desc=The last step is to combine the quantum armor with your quantum wings.
-
-# Quest: Cart With Chunkloader
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFYw.name=Cart With Chunkloader
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFYw.desc=When transporting oil from long distances, a train is going to need a chunk loader. Craft one, and I'll give you a second one for free.%n%n§3This quest might not be completable in MP?
 
 # Quest: Compressed Steel Armor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFog.name=Compressed Steel Armor
@@ -4896,10 +4961,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAF9Q.desc=That meteoric iron you found on
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF9g.name=§9§k§r§9§m§l§r§m§n§o§r§9§lBest Crossbow?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF9g.desc=Energetic alloy has proven to be an amazing material.  It's light weight and high stiffness makes it perfect for a crossbow limb. It is slightly slower to draw but still has amazing stopping power with its very high bolt speed. Durability is much improved over a carbon limb. %n%nThe material would also make an excellent bolt body. Perhaps you will find a suitable tip to match?
 
-# Quest: Step Assistant
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAG8w.name=Step Assistant
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAG8w.desc=The Piston Boots are a bouncy pair of shoes for adventurers.%n%nIt functions as a piece of armor for the foot slot that gives a fun jump boost! They let the wearer jump up to THREE blocks in height and increase run speed. They also grant a Step Up enchantment to allow the wearer to step up a single block without jumping while sprinting. You can repair them with leather using an anvil.%n%nBasically, make them ASAP.
-
 # Quest: Traveller's Gear
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAG9Q.name=Traveller's Gear
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAG9Q.desc=The goggles, wings, shoes, vest, belt and boots itself are not really special. %n%nYou can zoom with the googles, have a extra inventory hotbar with the belt, step-up assist with the shoes, jump boost with the wings and faster swimming ability with the vest.%n%nYou get protection like with normal armor too.%n%nLater on you can upgrade your items to become more powerful ones.
@@ -4919,14 +4980,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAG-A.desc=Your wings can be equiped with 
 # Quest: Traveller's Gloves Upgrades
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAG-Q.name=Traveller's Gloves Upgrades
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAG-Q.desc=Putting redstone on my weapon makes it faster. So why don't I put it on my hands directly!%nThis will increase your mining speed.%n%nHint:%nEvery Armor part has 3 Slots for modification, aside from gloves, which have 5.
-
-# Quest: Traveller's Shoes Upgrades
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAG-g.name=Traveller's Shoes Upgrades
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAG-g.desc=Your shoes can be equipped with a few modifications like water walk, double jump, lead boots or slimy shoes. Place the shoes in the middle of a Crafting Station.%n%nWater Walk allows you to walk over water.%nDouble Jump allows you to jump while in the air to jump again.%nLead Boots allows you to walk under water, prevents you from swimming, and may cause excessive Blub. Bring along potions of water breathing.%nSlimy Shoes reduces fall damage.%n%nHint:%nAutorepair can be added to the shoes aswell.%nEvery Armor part has 3 Slots for modification.
-
-# Quest: Boost Your Speed v2
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHEg.name=Boost Your Speed v2
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHEg.desc=High speed transition and booster tracks get your carts moving at really ridiculous speeds. Do not use normal track without several transition tracks or else your cart will explode. Do not try turning at high speed or, you guessed it, your cart will explode.
 
 # Quest: "Oh, Magic" Armor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHLw.name="Oh, Magic" Armor
@@ -4976,25 +5029,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIRg.desc=The Dragon backpack gives you F
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIWw.name=Oink!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIWw.desc=While the Pig backpack is useless on its own, it can be turned into a pretty powerful tool with the right...motivation.
 
-# Quest: Better boots with a little pizzazz
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI1A.name=Better boots with a little pizzazz
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI1A.desc=These Electric Boots of the Traveller will give a 2 percent vis discount along with the benefits of the normal Boots.
-
-# Quest: Walk all over you
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI1Q.name=Walk all over you
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI1Q.desc=Nanosuit boots will give the nanosuit benefits along with a massive speed boost, higher jump, and better vis discount. Great boots for the master magical engineer.
-
-# Quest: Walking across the stars
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI1g.name=Walking across the stars
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI1g.desc=Quantum boots of the traveller, for when you really need to run as fast as the wind. Might cause you some problems standing still! 
-
 # Quest: Seeing Inside Your Chests
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJhQ.name=Seeing Inside Your Chests
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJhQ.desc=With the Holo-glasses you are able to look into Chests, Barrels and Drawers like a Holographic inventory.%n%n§3If you lost your free one, you should be capable of making another now.
-
-# Quest: Flippers
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALUw.name=Flippers
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALUw.desc=Maybe you were lucky and found some Flippers in a loot chest or dungeon.%n%nFlippers allow the player to swim at the same speed as walking. The only problem is that it has 0 armor protection.%n%nIf you're doing underwater construction, or digging out some clay or gravel, you may find them useful.
 
 # Quest: Armor Molds
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMAw.name=Armor Molds
@@ -5200,10 +5237,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHvw.desc=You can build it! The Building 
 # Quest: Faster, Better, Buildi-er
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHwA.name=Faster, Better, Buildi-er
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHwA.desc=The Enhanced Building Guide offers more features than the standard model. Most importantly, you can right click on any white part of the block with the item you want placed and the block will place in the world. It needs a redstone signal to activate.
-
-# Quest: So Much Nicer Than Ladders
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHwQ.name=So Much Nicer Than Ladders
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHwQ.desc=Elevators are great for fast transportation vertically in your base. Leaving a tinted elevator will stop at the same color elevator. Use some Malisis doors for a nice "real" elevator effect.%nThe rotating elevator will turn the player as they go up or down to face a specific direction. Handy if your elevator shaft is on one side at a floor and a different side at another floor.
 
 # Quest: More Like Ouch-i-tect
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHwg.name=More Like Ouch-i-tect
@@ -7554,10 +7587,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFqg.desc=The Astro Miner is an automatic
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFqw.name=Astro Miner Base
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFqw.desc=To construct the dock, place 8 Astro Miner Base blocks in a cube, 2 blocks high, 2 blocks wide and 2 blocks deep. When the last of the base blocks is placed, it should automatically convert into an Astro Miner Base.
 
-# Quest: Launch Controller
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFrA.name=Launch Controller
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFrA.desc=The Launch Controller has been modified in GTNH to provide additional functionality. If you launch from a Launch Pad with the Launch Controller set up, the countdown will be greatly reduced, and you will teleport directly to the receiving Launch Pad. It will use half the rocket's fuel up though. This is very useful on laggy servers and can act as an early teleport option if you don't like the magical solutions. You will need to set up a Rocket Launch Pad with Launch Controller and possibly a Fuel Loader on either side.%n%nIf you don't to use it for yourself, you can also try to use it for the Cargo Rocket. To use those at full capacity it is necessary to equip a Rocket Launch Pad, to send items, with:%n%nFuel Loader%nLaunch Controller%nCargo Loader%nAnd the receiving side with:%n%nFuel Loader%nLaunch Controller%nCargo Unloader%n%nIt is also possible to use Buildcraft pipes to transfer items into the Cargo loaders. Next step is to set up the Frequencies in both Launch Controllers (i.e. Set: A to target B, B to target A). Have a look at Launch Controller to setup the automated launch. The first time you have to right-click the Cargo rocket and press launch at the top right corner.
-
 # Quest: Tier 3 Heavy Duty Plates
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFrQ.name=Tier 3 Heavy Duty Plates
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFrQ.desc=Rockets require heavy duty plates for the main hull. Let's craft 38 tier 3 heavy duty plates out of tier 2 plates and desh plates.
@@ -9277,7 +9306,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAK0A.desc=Why would you even need this?
 
 # Quest: IAADDS
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM1A.name=IAADDS
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAM1A.desc=Aka the Mega Apiary.%n%nIt has three primary modes (change with screwdriver) and two operation modes (change with shift+screwdriver):%n%nINPUT MODE: Does not take power. Put your queens in the input bus to put them in the internal buffer.%n%nOUTPUT MODE: Does not take power. Will give your bees back to the output bus.%n%nOPERATING MODE - NORMAL: The processing time is 5 seconds. Uses 1 Amp LuV per queen. All bees are affected by 64x acceleration and 8 Production Upgrades as well as a Genetic Stabilizer Upgrade. The IAADDS also simulates a perfect environment for all bees.%n%nYou can provide royal jelly to increase the outputs. 1 royal jelly grants 5%% bonus per bee. They will be consumed on each start of operation and be applied to that operation only. The maximum bonus is 200%%.%n%nOPERATING MODE - SWARMER: In this mode you can only insert 1 queen. The IAADDS will then slowly produce ignoble princesses for 100 royal jelly per operation. The base processing time is 1 minute but you can overclock this process. The base usage is 1 Amp IV.%n%n§3Yes you need thousands of queens, not princesses.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAM1A.desc=Aka the Mega Apiary.%n%nIt has three primary modes (change with screwdriver) and two operation modes (change with shift+screwdriver):%n%nINPUT MODE: Does not take power. Put your queens in the input bus to put them in the internal buffer.%n%nOUTPUT MODE: Does not take power. Will give your bees back to the output bus.%n%nOPERATING MODE - NORMAL: The processing time is 5 seconds. Uses 1 Amp LuV per queen. All bees are affected by 64x acceleration and 8 Production Upgrades as well as a Genetic Stabilizer Upgrade. The IAADDS also simulates a perfect environment for all bees.%n%nYou can provide royal jelly to increase the outputs. 1 royal jelly grants 5%% bonus per bee. They will be consumed on each start of operation and be applied to that operation only. The maximum bonus is 200%%. The normal bee stats still apply of course, though the IAADDS is able to provide a perfect environment for any bee.%n%nOPERATING MODE - SWARMER: In this mode you can only insert 1 queen. The IAADDS will then slowly produce ignoble princesses for 100 royal jelly per operation. The base processing time is 1 minute but you can overclock this process. The base usage is 1 Amp IV.%n%n§3Yes you need thousands of queens, not princesses.
 
 
 ## Quest Line: Be(e) Breeding
@@ -10358,29 +10387,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIAg.desc=The Greedy Chest from Automagy 
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAICw.name=Knightmetal
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAICw.desc=Knightmetal ingots are loot taken from Goblin Knight Strongholds. They can be made into Diamond-tier armor. You can take Armor Shards dropped by helmet crabs and turn them into Knightmetal ingots.
 
-# Quest: Flying Like....Mary Poppins?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIDA.name=Flying Like....Mary Poppins?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIDA.desc=The Thaumostatic Harness grants you flight, using up Potentia from a jar. The speed isn't great though, so perhaps further research will yield some results.
-
-# Quest: Flying With the Greatest of Ease
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIDQ.name=Flying With the Greatest of Ease
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIDQ.desc=Ahh, that's better. With this girdle you can really fly around like a true wizard. It does take a little extra potentia to use though, so keep an eye on your flying time.
-
-# Quest: Working While Flying? 
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIDg.name=Working While Flying? 
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIDg.desc=With these devices you can now fly and work at the same time without penalty. They can be found in the Witching Gadgets tab of the book. You'll need a Swiftness potion for this device.
-
-# Quest: Long Distance Power Delivery
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIDw.name=Long Distance Power Delivery
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIDw.desc=No mage wants to be restricted to short flying times. With this spire from the Automagy discipline you can transmit magical energy directy to your flying harness. To get the correct Thaumium block, compress 9 ingots to get the GT Thaumium block and then chisel that block to get the correct type.%n%nThis multiblock requires centi-vis to operate. You can use 2-6 Thaumostatic Pylons, with additional pylons extending the range. Provide the construct Aer centi-vis to operate, and and it will accept Potentia essentia to transfer to flyers. The construct will also accept Aer and Volatus essentia to increase the range and rate of transfer, respectively. Right-click the sides of the controller to control which type of essentia each side will accept.
-
 # Quest: Clothes Make the Magical Man or Woman
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIEQ.name=Clothes Make the Magical Man or Woman
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIEQ.desc=The Witching Gadgets Spinning Wheel will unlock a few materials and items. Hopefully without that creep Rumpelstiltskin! Make sure you get the WG Spinning Wheel and not the Witchery version.
-
-# Quest: Flying Like a Eag - I Mean Raven
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIEg.name=Flying Like a Eag - I Mean Raven
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIEg.desc=This cloak is a nice substitute for the Glider. There are plenty of other magical items worth a look in the Witching Gadgets tab.%nIf you want to toggle gliding with a key - configure binding for "Active Ability 1" in control settings and, having item in hand, send "/travellersgear bind 1" to chat.
 
 # Quest: Everything Fuzzy? Try Some Lenses
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIEw.name=Everything Fuzzy? Try Some Lenses
@@ -11772,10 +11781,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJmw.desc=They're of seriously questionab
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJnA.name=It Holds More, Ok?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJnA.desc=But why is it transparent?%n%n§3Does not actually hold more, doesn't render the blood in it properly, and can't be used in the altar. It does list the amount of blood you have in realtime though, and is used to make the next one.
 
-# Quest: 'Easy' Teleportation
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJnQ.name='Easy' Teleportation
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJnQ.desc=They may be a pain to craft, but teleposers are very useful for teleporting. Use the Teleposition Focus to set the first Teleposer location and put it in the second. Apply a redstone signal, and it'll teleport you at the cost of LP. It can also move items or entities, with the size increasing with better foci.
-
 # Quest: Ritual Dismantler
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJng.name=Ritual Dismantler
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJng.desc=Use this to quickly dismantle a ritual.
@@ -12986,6 +12991,14 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACSg.desc=Want to make some automated far
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACYQ.name=§5§lBattery Alloy
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACYQ.desc=Mixing antimony and lead in the alloy smelter will give you battery alloy. Combine it with tin cable and voila, there's your small battery hull.%n%nSmall = LV, Medium = MV, Large = HV. It gets weirder after that.%n%nNote that if you make the battery alloy in the mixer you need to use dusts, but if you use the alloy smelter you can use either.%n%n§3Check out the Storing and Transforming EU Quest Tab for all details about EU power storage.
 
+# Quest: Advanced Nano Chestplate
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACjg.name=Advanced Nano Chestplate
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACjg.desc=Combining the advanced electric jetpack and nanosuit yields you the advanced nano chestplate. Now you have the protection of the chestplate combined with the freedom of movement of the jetpack.%n%n§3Works like the AEJ.
+
+# Quest: Gravi Suit
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACjw.name=Gravi Suit
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACjw.desc=The gravi chestplate is the ultimate quantum armor combined with a high powered jetpack. It also has hidden features that you need to discover while wearing the whole quantum armor.%n%nOr read a wiki or something.
+
 # Quest: Iron Shields
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACkA.name=§1§2§lIron Shields
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACkA.desc=You've been using your hide shield long enough. After you make your first tools, grab a bit of iron ore and make a nice iron shield.
@@ -13106,6 +13119,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEsA.desc=Now that you have a reactor, it
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEsQ.name=§a§b§c§d§e§f§d§l§l§c§lTurbine Time
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEsQ.desc=Your fancy new Large Plasma Turbine will need a rotor to go inside of it. %n%nYou can make it out of any GT material, but the best right now is NORMAL Draconium. §4Always test in Creative first!§r%n%nWhen using turbines, be careful of flow rates. To find the optimal flow rate, you divide the optimal energy flow rate listed on the turbine, by the energy value for the plasma. You can also use the Large Turbine Calculator (there's a link on the main spreadsheet, which is linked to in discord), or scan the multiblock's controller while feeding it a minimal amount of plasma to see what the optimal flow is. Make sure to use a Fluid Regulator set to this flow rate for highest fuel efficiency, or go beyond it to get more EU/t at a cost to efficiency, with Plasma Turbines being the best at retaining efficiency beyond the optimal flow.%n%nIf you go beyond the optimal flow, you will get a higher EU/t value, but less fuel efficiency, and the maximum EU/t value depends on the turbine type and its Overflow Efficiency tier. For this type of turbine, tier 1 reaches the max at 250%% of optimal flow to produce 158%% of the EU/t, tier 2 reaches the max at 400%% of optimal flow to produce 214%% of the EU/t and tier 3 reaches the max at 550%% of optimal flow to produce 301%% of the EU/t. The closer you get to this maximum, the more fuel efficiency you're throwing away.%n%nThe choice is yours!%n%n§3For a lot of extra information on fusion, check out the new quest line called Powerful Nuclear Physics.
 
+# Quest: Angel Wings - Combine!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFTA.name=Angel Wings - Combine!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFTA.desc=The last step is to combine the quantum armor with your quantum wings.
+
 # Quest: Light It Up!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFWg.name=Light It Up!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFWg.desc=The arcane lamp creates additional light sources which acts like a Torch in a sphere with a radius of 16 blocks centered on it. This will include caves or other areas behind walls. That might be useful... One downside, it might put a light where one isn't wanted, like inside an EBF. %n%nWhen attached to the base of an arcane bore, the arcane lamp gains an additional ability: It will light up the tunnel that the bore digs.
@@ -13125,6 +13142,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFig.desc=...in my dreams. What if instea
 # Quest: Shake That Booty...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjA.name=§9§lShake That Booty...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjA.desc=...out of the purified ores. Anyways, a Large Sifter will increase your sifting speed significantly. What will you do with all these gems??%n%n§3You need one more casing if you don't want to use 2 energy hatches.
+
+# Quest: Launch Controller
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFrA.name=Launch Controller
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFrA.desc=The Launch Controller has been modified in GTNH to provide additional functionality. If you launch from a Launch Pad with the Launch Controller set up, the countdown will be greatly reduced, and you will teleport directly to the receiving Launch Pad. It will use half the rocket's fuel up though. This is very useful on laggy servers and can act as an early teleport option if you don't like the magical solutions. You will need to set up a Rocket Launch Pad with Launch Controller and possibly a Fuel Loader on either side.%n%nIf you don't to use it for yourself, you can also try to use it for the Cargo Rocket. To use those at full capacity it is necessary to equip a Rocket Launch Pad, to send items, with:%n%nFuel Loader%nLaunch Controller%nCargo Loader%nAnd the receiving side with:%n%nFuel Loader%nLaunch Controller%nCargo Unloader%n%nIt is also possible to use Buildcraft pipes to transfer items into the Cargo loaders. Next step is to set up the Frequencies in both Launch Controllers (i.e. Set: A to target B, B to target A). Have a look at Launch Controller to setup the automated launch. The first time you have to right-click the Cargo rocket and press launch at the top right corner.
 
 # Quest: Arc Lamp
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFuA.name=Arc Lamp
@@ -13160,7 +13181,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAF3w.desc=...right? So when building mult
 
 # Quest: Not Enough Items - Now with Bookmarks!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF4Q.name=§2§lNot Enough Items - Now with Bookmarks!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF4Q.desc=More like too many items! Here are some tips for using NEI.%n%nWhen you have your inventory open, you can type the search terms in the text bar at the bottom. Make sure your GUI size is set correctly, or you won't be able to see it. Double-click the bar to highlight any matching items in your inventory or inventories you're looking at. Handy for searching for a specific ore, as they tend to look the same!%n%nEven better, you can use T to search nearby inventories, which will emit some particles. %n%nWe have also provided the special Y command to look for a machine in the world, in case you've forgotten where you placed that Advanced Circuit Assembler.%n%nWe now have an extra-fancy Bookmark feature! The default key is A, but can be changed in the NEI config window. Bookmarks will be on the left side of the inventory, and you can look up ther recipes or uses as normal. To move a bookmark, drag it with Shift and Left Mouse Button.%n%nPressing O will hide NEI, useful for fancy screenshots.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF4Q.desc=More like too many items! Here are some tips for using NEI.%n%nWhen you have your inventory open, you can type the search terms in the text bar at the bottom. Make sure your GUI size is set correctly, or you won't be able to see it. Double-click the bar to highlight any matching items in your inventory or inventories you're looking at. Handy for searching for a specific ore, as they tend to look the same!%n%nEven better, you can use T to search nearby inventories, which will emit some particles. %n%nWe have also provided the special Y command to look for a machine in the world, in case you've forgotten where you placed that Advanced Circuit Assembler.%n%nWe now have an extra-fancy Bookmark feature! The default key is A, but can be changed in the NEI config window. Bookmarks will be on the left side of the inventory, and you can look up ther recipes or uses as normal. To move a bookmark, drag it with Shift and Left Mouse Button. You can even bookmark entire recipes with shift+A or recipes with amounts using ctrl+shift+A.%n%nPressing O will hide NEI, useful for fancy screenshots.
 
 # Quest: NEI Is More Powerful Than You Imagine
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF4g.name=§2§lNEI Is More Powerful Than You Imagine
@@ -13169,6 +13190,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAF4g.desc=NEI has some really nice advanc
 # Quest: Witchery Seeds
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGGA.name=Witchery Seeds
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGGA.desc=To get Witchery seeds, use a hoe on grass blocks away from water. To open the rest of the questline, you will need to do Thaumcraft quests and research the Witchery tab in the Thaumonomicon.%n%nAccording to legend, when the root of the Mandrake plant is dug up it screams and kills all who hear it. This is only partially true. A fully grown Mandrake may scream causing immense discomfort to those around. This is why it is best to harvest the Mandrake root at night when the plant is more likely to be dormant. The fully grown Mandrake can be harvested to obtain more Mandrake seeds and a Mandrake.%n%nBreaking a fully grown Mandrake plant will either yield Mandrake Root or the Mandrake may awaken and cause all sorts of mischief (and pain to the ears!).%n%nBelladonna seeds can be planted and eventually grow into the multistage belladonna plant. The fully grown belladonna plant can be harvested to obtain more Belladonna seeds and a Belladonna flower.%n%nSnowbell seeds can be planted and eventually grow into the multistage snowbell plant. The fully grown snowbell plant can be harvested to obtain more Snowbell seeds, snowballs and occasionally a Icy Needle.%n%nWater Artichoke seeds can be planted and eventually grow into the multistage Water Artichoke plant. The fully grown Water Artichoke plant can be harvested to obtain more Water Artichoke seeds and a Water Artichoke Globe.%n%nWater Artichoke seeds can only be planted on water source blocks.%n%nGarlic is a plantable crop that can be used to make tasty food, and to deal with vampires. Garlic can be obtained by breaking tall grass, although it has a very low drop chance. It may be planted on tilled farm land, and will grow in five stages. When full grown the plant may be harvested for up to three dropped garlic bulbs. Which may either be replanted, or used in a crafting recipe.%n%nGarlic bulbs can be used to make meaty stew, a particularly nourishing meal. It is also the main ingredient in making a Garlic Garland, a useful tool in warding off vampires. Finally, garlic can be used by witches in a Witches' Cauldron to make a vampire Weakening brew, and by Witch Hunters, to make vampire resistant armor.%n%nWolfsbane seeds can be planted and eventually grow into the multistage Wolfsbane plant. The fully grown Wolfsbane plant can be harvested to obtain more Wolfsbane seeds and the Wolfsbane flower.%n
+
+# Quest: Traveller's Shoes Upgrades
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAG-g.name=Traveller's Shoes Upgrades
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAG-g.desc=Your shoes can be equipped with a few modifications like water walk, double jump, lead boots or slimy shoes. Place the shoes in the middle of a Crafting Station.%n%nWater Walk allows you to walk over water.%nDouble Jump allows you to jump while in the air to jump again.%nLead Boots allows you to walk under water, prevents you from swimming, and may cause excessive Blub. Bring along potions of water breathing.%nSlimy Shoes reduces fall damage.%n%nHint:%nAutorepair can be added to the shoes aswell.%nEvery Armor part has 3 Slots for modification.
 
 # Quest: Mushroom Biomes? Why Are There So Many?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHKg.name=§1§lMushroom Biomes? Why Are There So Many?
