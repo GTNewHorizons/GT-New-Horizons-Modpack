@@ -275,20 +275,28 @@
     "34:10": {
       "questIDHigh:4": 0,
       "sizeX:3": 24,
-      "x:3": 84,
+      "x:3": 12,
       "y:3": -12,
-      "questIDLow:4": 3274,
+      "questIDLow:4": 3273,
       "sizeY:3": 24
     },
     "35:10": {
       "questIDHigh:4": 0,
       "sizeX:3": 24,
-      "x:3": 132,
+      "x:3": 60,
+      "y:3": -12,
+      "questIDLow:4": 3274,
+      "sizeY:3": 24
+    },
+    "36:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": 108,
       "y:3": -12,
       "questIDLow:4": 3279,
       "sizeY:3": 24
     },
-    "36:10": {
+    "37:10": {
       "questIDHigh:4": 0,
       "sizeX:3": 24,
       "x:3": 576,
@@ -296,21 +304,13 @@
       "questIDLow:4": 3282,
       "sizeY:3": 24
     },
-    "37:10": {
+    "38:10": {
       "questIDHigh:4": 0,
       "sizeX:3": 48,
       "x:3": 288,
       "y:3": 444,
       "questIDLow:4": 3283,
       "sizeY:3": 48
-    },
-    "38:10": {
-      "questIDHigh:4": 0,
-      "sizeX:3": 24,
-      "x:3": 636,
-      "y:3": 312,
-      "questIDLow:4": 3293,
-      "sizeY:3": 24
     }
   },
   "questLineIDLow:4": 45,

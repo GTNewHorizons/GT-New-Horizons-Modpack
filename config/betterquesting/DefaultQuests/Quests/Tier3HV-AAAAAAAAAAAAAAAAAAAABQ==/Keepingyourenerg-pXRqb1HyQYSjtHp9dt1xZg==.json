@@ -1,35 +1,40 @@
 {
-  "questIDHigh:4": -2567739677140758553,
+  "questIDHigh:4": -6524472933804260988,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 1612
+      "questIDLow:4": 81
+    },
+    "1:10": {
+      "questIDHigh:4": -4560413335703760908,
+      "questIDLow:4": -8162614124778304378
     }
   },
-  "questIDLow:4": -8693302957682373366,
+  "questIDLow:4": -6650556070435655322,
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
+      "taskLogic:8": "OR",
       "visibility:8": "NORMAL",
       "isMain:1": 1,
       "simultaneous:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.metaitem.03",
+        "id:8": "gregtech:gt.60k_Helium_Coolantcell",
         "Count:3": 1,
-        "Damage:2": 32182,
+        "tag:10": {},
+        "Damage:2": 0,
         "OreDict:8": ""
       },
       "snd_update:8": "random.levelup",
       "repeatTime:3": -1,
       "globalShare:1": 0,
-      "questLogic:8": "AND",
+      "questLogic:8": "OR",
       "repeat_relative:1": 1,
-      "name:8": "§9§lSMD Inductors",
+      "name:8": "§9§lKeeping your energy hatch from overheating",
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Now that you have Neodymium you can make the last of the SMDs, the SMD inductor. It can replace Small Coils in your circuit crafting."
+      "desc:8": "You have two options here. Either you followed the NaK quests or you made a vacuum freezer to cool helium."
     }
   },
   "tasks:9": {
@@ -42,9 +47,28 @@
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.metaitem.03",
-          "Count:3": 64,
-          "Damage:2": 32182,
+          "id:8": "gregtech:gt.60k_NaK_Coolantcell",
+          "Count:3": 1,
+          "tag:10": {},
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.60k_Helium_Coolantcell",
+          "Count:3": 1,
+          "tag:10": {},
+          "Damage:2": 0,
           "OreDict:8": ""
         }
       },
@@ -61,8 +85,14 @@
           "Count:3": 1,
           "Damage:2": 6,
           "OreDict:8": ""
-        },
-        "1:10": {
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
           "id:8": "dreamcraft:item.CoinTechnicianII",
           "Count:3": 1,
           "Damage:2": 0,

@@ -4,6 +4,10 @@
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 770
+    },
+    "1:10": {
+      "questIDHigh:4": -6524472933804260988,
+      "questIDLow:4": -6650556070435655322
     }
   },
   "questIDLow:4": 1903,
@@ -31,7 +35,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "The HV energy hatch is crucial to a faster EBF that can do higher tier recipes.\n\nYou\u0027ll need to make He coolant cells or NaK coolant cells using a fluid canner. Follow NEI to figure out how to make them, and the rest.\n\nNote that you\u0027ll need a cleanroom, vacuum freezer, and new coils."
+      "desc:8": "The HV energy hatch is crucial to a faster EBF that can do higher tier recipes. You will probably want to make at least two."
     }
   },
   "tasks:9": {
@@ -59,9 +63,9 @@
       "index:3": 0,
       "rewards:9": {
         "0:10": {
-          "id:8": "gregtech:gt.blockmachines",
+          "id:8": "enhancedlootbags:lootbag",
           "Count:3": 1,
-          "Damage:2": 43,
+          "Damage:2": 6,
           "OreDict:8": ""
         }
       }
