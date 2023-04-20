@@ -92,9 +92,6 @@ mods.avaritia.ExtremeCrafting.remove(<Avaritia:Infinity_Axe>);
 // --- Longbow of the Heavens
 mods.avaritia.ExtremeCrafting.remove(<Avaritia:Infinity_Bow>);
 
-// --- Akashic Records
-mods.thaumcraft.Infusion.removeRecipe(<Avaritia:Akashic_Record>);
-
 // --- Infinity Helmet
 mods.avaritia.ExtremeCrafting.remove(<Avaritia:Infinity_Helm>);
 
@@ -307,11 +304,6 @@ mods.avaritia.ExtremeCrafting.addShaped(<Avaritia:Infinity_Bow>, [
 [null, <ore:plateInfinity>, null, null, <ThaumicTinkerer:kamiResource:1>, null, null, null, null],
 [null, null, <ore:plateInfinity>, null, <ThaumicTinkerer:kamiResource:1>, null, null, null, null],
 [null, null, null, <ore:plateInfinity>, <ore:plateInfinity>, <TaintedMagic:ItemFocusMeteorology>, null, null, null]]);
-
-// --- Akashic Records
-//ResearchString, MainInputStack, InputArray, AspectString, OutputStack, InstabilityAmount
-mods.thaumcraft.Infusion.addRecipe("AKASHIC", <gregtech:gt.metaitem.01:17397>, [<TaintedMagic:ItemFocusTime>, <thaumicbases:knoseFragment:6>, <thaumicbases:knoseFragment:6>, <thaumicbases:knoseFragment:6>, <thaumicbases:knoseFragment:6>, <Avaritia:big_pearl>, <gadomancy:BlockKnowledgeBook>, <Thaumcraft:ItemThaumonomicon>, <TaintedMagic:ItemFocusMeteorology>, <Thaumcraft:ItemEldritchObject:1>, <gadomancy:BlockKnowledgeBook>, <Avaritia:big_pearl>, <thaumicbases:knoseFragment:6>, <thaumicbases:knoseFragment:6>, <thaumicbases:knoseFragment:6>, <thaumicbases:knoseFragment:6>], "praecantatio 512, cognitio 128, sensus 96, luxuria 96, tempus 64, terminus 128", <Avaritia:Akashic_Record>, 24);
-mods.thaumcraft.Research.refreshResearchRecipe("AKASHIC");
 
 // --- Infinity Helmet
 mods.avaritia.ExtremeCrafting.addShaped(<Avaritia:Infinity_Helm>, [
