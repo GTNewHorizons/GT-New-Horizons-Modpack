@@ -35,7 +35,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Lapotron crystals require you to mix your energium dust with some lapis dust."
+      "desc:8": "Lapotron crystals require you to mix your energium dust with some lapis dust. You should check out the Storing and Transforming EU tab for the lapotron crystal and the Lapotronic Supercapacitor Multiblock."
     }
   },
   "tasks:9": {
@@ -43,7 +43,7 @@
       "partialMatch:1": 1,
       "autoConsume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
+      "ignoreNBT:1": 1,
       "index:3": 0,
       "consume:1": 0,
       "requiredItems:9": {
@@ -57,6 +57,23 @@
           "id:8": "IC2:itemDust2",
           "Count:3": 72,
           "Damage:2": 2,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.LapotronDust",
+          "Count:3": 120,
+          "Damage:2": 0,
           "OreDict:8": ""
         }
       },

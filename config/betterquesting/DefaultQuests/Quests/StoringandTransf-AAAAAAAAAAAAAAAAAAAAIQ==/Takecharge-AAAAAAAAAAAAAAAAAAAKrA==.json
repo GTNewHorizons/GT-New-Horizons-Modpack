@@ -29,11 +29,11 @@
       "globalShare:1": 0,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "The Third Time\u0027s the Charm",
+      "name:8": "Take charge!",
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "The Lapotronic Supercapacitor is an alternative to the Power Sub-Station (or Power Station Control Node as indicated on the controller) and the LESU. It is harder to make, but has its own benefits:\n\n1) It looks cooler\n2) Hatch tier is not limited by the capacitors like cells, so you can use whatever hatch tier you want if you store up power or have the input for it\n3) Can mix and match Capacitor tiers\n4) Loses 1% of total capacity every 24h, so much much less, but you can\u0027t cheese it\n5) Actually stores way more power at IV+ tier\n\nIt also has downsides of course:\n1) More expensive to make\n2) Stores less power, though this is only the case with EV\n3) Can only I/O on the bottom 2 layers\n4) Can\u0027t cheese power loss\n5) It can have maintenance issues, unlike the PSS, voiding 20% more power per, so try not to let that slide. Though at most it\u0027s still only 2.2%\n\nFor the first, smallest one, you\u0027ll need the following, plus an Energy Hatch and a Dynamo (or the laser equivalents). Remember that you can get your Lapos back if you run the capacitor through an unpackager. Finally a reason to make one!\n\nYou can use Laser Hatches, that can output very high amperage. You need at least UV Glass to use them. (This is also the case with PSS BTW.)\n\nBTW your LSC can hold between 540M and 8.1B EU using only the EV capacitors. Remember that you need more than half the blocks to be non-empty capacitors for it to be valid."
+      "desc:8": "The Lapotronic Supercapacitor is your best option for massive power storage.\n\nIt can have maintenance issues which increase its power loss by 20% more each, so try not to let that slide. Though at most it\u0027s still only 2.2%\n\nFor the first, smallest one, you\u0027ll need the following, plus an Energy Hatch and a Dynamo. Remember that you can get your Lapos back if you run the capacitor through an unpackager. Finally a reason to make one!\n\nYou can use Laser Hatches, that can output very high amperage. You need at least UV Glass to use them.\n\nYour LSC can hold between 300 MEU and 15.9 GEU using only the EV capacitors. Remember that you need more than half the blocks to be non-empty capacitors for it to be valid."
     }
   },
   "tasks:9": {
