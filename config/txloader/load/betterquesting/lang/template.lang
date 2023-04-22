@@ -2430,7 +2430,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABzQ.desc=This organic compound is just a
 
 # Quest: Lapotron Dust
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADJQ.name=§a§lLapotron Dust
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADJQ.desc=Lapotron crystals require you to mix your energium dust with some lapis dust.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADJQ.desc=Lapotron crystals require you to mix your energium dust with some lapis dust. You should check out the Storing and Transforming EU tab for the lapotron crystal and the Lapotronic Supercapacitor Multiblock.
 
 # Quest: Hypochlorous Acid
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADWw.name=§a§lHypochlorous Acid
@@ -2650,7 +2650,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAI_g.desc=The Refined Platinum Salt can b
 
 # Quest: Just Enough Tungstensteel For Your Rocket
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJVg.name=§a§lJust Enough Tungstensteel For Your Rocket
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJVg.desc=OK, now you can:%n%n1) Turn the Tungsten Trioxide into Hot Tungsten Ingots in the EBF with some Carbon%n2) Keep going for TS%n%nWe want TS, so put some Hydrogen along with the Tungsten Trioxide in your EBF to get rid of the Oxygen.%n%nCombine your pure Tungsten with Steel in a mixer to get Tungstensteel.%n%nThen EBF and then freeze it to get the Tungstensteel ingot.%n%n§3Note that Tungsten Trioxide to Tungsten Ingot has reduced smelt time. This does not apply to the pure version. You're gonna need a bunch of it in IV as well as the TS, so keep this in mind.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJVg.desc=OK, now you can:%n%n1) Turn the Tungsten Trioxide into Hot Tungsten Ingots in the EBF with some Carbon%n2) Keep going for TS%n%nWe want TS, so put some Hydrogen along with the Tungsten Trioxide in your EBF to get rid of the Oxygen.%n%nCombine your pure Tungsten with Steel in a mixer to get Tungstensteel. Then EBF and then freeze it to get the Tungstensteel ingot.%n%nSome of Tungstensteel Dust you don't need to smelt as you will want to use it for HSS-G!%n%n§3Note that Tungsten Trioxide to Tungsten Ingot has reduced smelt time. This does not apply to the pure version. You're gonna need a bunch of it in IV as well as the TS, so keep this in mind.
 
 # Quest: Bigger Drums
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJVw.name=§a§lBigger Drums
@@ -2691,6 +2691,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALpA.desc=The EV Autoclave is needed to p
 # Quest: Power of the Sun from Nuclear
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMAg.name=§a§lPower of the Sun from Nuclear
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMAg.desc=Your good old singleblock Molecular Transformer is gone. So how to obtain Sunnarium? Well there are couple of ways, but at EV you'll need to radiate Glowstone and convert to Sunnarium.%n%nThe Glowstone rod will slowly charge up if you put it next to any fuel rod in your IC2 reactor. The exact charging speed is `(number of rods adjacent) * (floor(hull temperature/3000) + 1)` per second. A dual rod will count as 2 rods and quad fuel rod will count as 4 rods for this purpose. The Glowstone rod will neither emit heat, nor cause other component to emit more heat. You can treat this rod as a reactor plating in the IC2 Reactor Planner.%n%nAs you can see, the speed is directly proportional to hull temperature and rods adjacent. At the very extreme you can fully charge up a Glowstone rod in less than half a minute and output one Sunnarium every 10 second (on average, since cells aren't charged at same speed due to different position), but that require very considerable resource to setup. It also involves a vacuum freezer to cooldown the coolant cells and running the reactor at 66000+ hull temperature. Balance your need and your resource situation wisely. In any case, if you just wish to charge it up FAST then here is a possible string for the IC2 Reactor Planner:%n%nerp=bpO50cpsdtJElVqn4hObFJc0tiOE0JpEHYpqTxJHvyezjSKRjUuwgouXzNOlU4a3hFBRygM=%n%nReplace Containment Reactor Plating with actual Glowstone rods and you should be good to go. You can also use fewer reactor chambers by using less plating. Enjoy!
+
+# Quest: EV Field Generators
+betterquesting.quest.Jna1jgAySNSs8nS0YMXpLw.name=EV Field Generators
+betterquesting.quest.Jna1jgAySNSs8nS0YMXpLw.desc=With Field Generators you can make your first Quantum Chests or Quantum Tanks. But the first two should be for your T2 rocket.
 
 
 ## Quest Line: Tier 5 - IV
@@ -4817,6 +4821,14 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAA3g.desc=Requires no ammo, but still doe
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA3w.name=§b§lRailguns, What Else
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA3w.desc=Massive power, and a wonderful sound when they fire. I recommend to use upgrades to increase range and damage.
 
+# Quest: Iron Shields
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACkA.name=§1§2§lIron Shields
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACkA.desc=You've been using your hide shield long enough. After you make your first tools, grab a bit of iron ore and make a nice iron shield.
+
+# Quest: Stone spear
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACkQ.name=§2§lStone spear
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACkQ.desc=Upgrade your wooden spear with a stone arrowhead and iron screws to a stone spear.%nThis spear has better durability than the wooden one.
+
 # Quest: Iron Spear
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACkg.name=§3§lIron Spear
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACkg.desc=Upgrade your wooden spear with an iron arrowhead and two steel screws to an iron spear. %n%nThe iron spear has better durability than the stone variant.
@@ -5905,6 +5917,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkQ.desc=Smelting with the ferocity of t
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAEQ.name=GT++ 
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAEQ.desc=GT++ adds new functionality to GT, including high speed multiblocks.
 
+# Quest: GT++ Multiblocks
+betterquesting.quest.w5O5rPL_Q_GDp8lxWMd0DQ.name=GT++ Multiblocks
+betterquesting.quest.w5O5rPL_Q_GDp8lxWMd0DQ.desc=You might already have a Steam Multiblock or the Large Sifter. But in EV, IV, and the following tiers you unlock GT++ multiblocks for (almost) every GT machine. And some more on top of that!
+
 # Quest: Industrial Sledgehammer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABgg.name=Industrial Sledgehammer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABgg.desc=A multiblock forge hammer.
@@ -5919,7 +5935,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFiw.desc=...when it means you don't have
 
 # Quest: Hulk Smash!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjQ.name=Hulk Smash!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjQ.desc=Mass destruction! Or at least, lots and lots of crushed ores. Build a maceration statck to keep up with all the ores you are getting.%n%n§3This multi is IV, but uses a ZPM circuit. Also has 33%% bonus output on byproducts.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjQ.desc=Mass destruction! Or at least, lots and lots of crushed ores. Build a maceration statck to keep up with all the ores you are getting. In IV you can upgrade the Multi to be much better with a upgrade chip and better casings.%n%n§3This Multi has 33%% bonus output on byproducts.
 
 # Quest: The rocks in the washer...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjg.name=The rocks in the washer...
@@ -5927,7 +5943,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjg.desc=...go round and round, all the 
 
 # Quest: Dancing in circles
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjw.name=Dancing in circles
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjw.desc=Spinning around, getting hot - sounds like a dance. Or a thermal centrifuge.  Build a large thermal refinery to get the most out of your ores.%n%nYou can use Noise Hazard Signs instead of Thermal Processing Casings, as long as you have at least 8 Thermal Processing Casings.%n%n§3This multi is IV.§r The muffler goes on the bottom layer.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjw.desc=Spinning around, getting hot - sounds like a dance. Or a thermal centrifuge.  Build a large thermal refinery to get the most out of your ores.%n%nYou can use Noise Hazard Signs instead of Thermal Processing Casings, as long as you have at least 8 Thermal Processing Casings.%n%nThe muffler goes on the bottom layer.
 
 # Quest: GT++ Knowledge
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH6Q.name=GT++ Knowledge
@@ -5939,7 +5955,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAH6w.desc=If you want energy from Lava an
 
 # Quest: I think I'm going to be sick
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7A.name=I think I'm going to be sick
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7A.desc=The Industrial Centrifuge is the solution to those thousands of ore you'll get with the multiblock ore drill.%n%n§3This multi is IV.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7A.desc=The Industrial Centrifuge is the solution to those thousands of ore you'll get with the multiblock ore drill.
 
 # Quest: Bask in the currents
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7Q.name=Bask in the currents
@@ -5979,7 +5995,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9Q.desc=Need enough wire to go around t
 
 # Quest: Bender more bending
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9g.name=Bender more bending
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9g.desc=When you need plates by the thousands. You can switch between Bending Machine and Forming Press modes with a screwdriver.%n%n§3This multi is IV.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9g.desc=When you need plates by the thousands. You can switch between Bending Machine and Forming Press modes with a screwdriver.
 
 # Quest: Bezos would be proud
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9w.name=Bezos would be proud
@@ -6683,9 +6699,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKGg.desc=Who needs a PSS when this bad b
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKjA.name=LSC = MC^2
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKjA.desc=This is the final upgrade to the LSC when it comes to storage. You can use either the Ultimate or Really Ultimate batteries to craft it, it costs about the same either way.
 
-# Quest: The Third Time's the Charm
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKrA.name=The Third Time's the Charm
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKrA.desc=The Lapotronic Supercapacitor is an alternative to the Power Sub-Station (or Power Station Control Node as indicated on the controller) and the LESU. It is harder to make, but has its own benefits:%n%n1) It looks cooler%n2) Hatch tier is not limited by the capacitors like cells, so you can use whatever hatch tier you want if you store up power or have the input for it%n3) Can mix and match Capacitor tiers%n4) Loses 1%% of total capacity every 24h, so much much less, but you can't cheese it%n5) Actually stores way more power at IV+ tier%n%nIt also has downsides of course:%n1) More expensive to make%n2) Stores less power, though this is only the case with EV%n3) Can only I/O on the bottom 2 layers%n4) Can't cheese power loss%n5) It can have maintenance issues, unlike the PSS, voiding 20%% more power per, so try not to let that slide. Though at most it's still only 2.2%%%n%nFor the first, smallest one, you'll need the following, plus an Energy Hatch and a Dynamo (or the laser equivalents). Remember that you can get your Lapos back if you run the capacitor through an unpackager. Finally a reason to make one!%n%nYou can use Laser Hatches, that can output very high amperage. You need at least UV Glass to use them. (This is also the case with PSS BTW.)%n%nBTW your LSC can hold between 540M and 8.1B EU using only the EV capacitors. Remember that you need more than half the blocks to be non-empty capacitors for it to be valid.
+# Quest: Take charge!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKrA.name=Take charge!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKrA.desc=The Lapotronic Supercapacitor is your best option for massive power storage.%n%nIt can have maintenance issues which increase its power loss by 20%% more each, so try not to let that slide. Though at most it's still only 2.2%%%n%nFor the first, smallest one, you'll need the following, plus an Energy Hatch and a Dynamo. Remember that you can get your Lapos back if you run the capacitor through an unpackager. Finally a reason to make one!%n%nYou can use Laser Hatches, that can output very high amperage. You need at least UV Glass to use them.%n%nYour LSC can hold between 300 MEU and 15.9 GEU using only the EV capacitors. Remember that you need more than half the blocks to be non-empty capacitors for it to be valid.
 
 # Quest: Lapotronic Capacitor (LuV)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKrQ.name=Lapotronic Capacitor (LuV)
@@ -11719,7 +11735,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACyQ.desc=The last diviner so far, used f
 
 # Quest: Convocation of the Damned
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACyg.name=Convocation of the Damned
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACyg.desc=Time to open a portal to the Demonic Realm. What could possibly go wrong? (It's recommended to do this ritual on a space dim, as the demon city will spread quite a bit...)%n%nIt's complicated to explain, so check a wiki for details on how to actually do it. Remember you need to have 15M LP, so you'll need 25 Runes of the Orb to start it. Also, you need the Alchemic Calcinator and the other tools in the upper left of the BM thaumcraft tab for working with the belljars.%n%n§3The OW is now blacklisted for the portal. Too many people did not follow the recommendation and servers had to suffer under it.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACyg.desc=Time to open a portal to the Demonic Realm. What could possibly go wrong? (It's recommended to do this ritual on a space dim, as the demon city will spread quite a bit...)%n%nIt's complicated to explain, so check a wiki for details on how to actually do it. Remember you need to have 15M LP, so you'll need 13 Runes of the Orb to start it. Also, you need the Alchemic Calcinator and the other tools in the upper left of the BM thaumcraft tab for working with the belljars.%n%n§3The OW is now blacklisted for the portal. Too many people did not follow the recommendation and servers had to suffer under it.
 
 # Quest: Imbued Spell Upgrades
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACyw.name=Imbued Spell Upgrades
@@ -12998,14 +13014,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACjg.desc=Combining the advanced electric
 # Quest: Gravi Suit
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACjw.name=Gravi Suit
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACjw.desc=The gravi chestplate is the ultimate quantum armor combined with a high powered jetpack. It also has hidden features that you need to discover while wearing the whole quantum armor.%n%nOr read a wiki or something.
-
-# Quest: Iron Shields
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACkA.name=§1§2§lIron Shields
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACkA.desc=You've been using your hide shield long enough. After you make your first tools, grab a bit of iron ore and make a nice iron shield.
-
-# Quest: Stone spear
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACkQ.name=§2§lStone spear
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACkQ.desc=Upgrade your wooden spear with a stone arrowhead and iron screws to a stone spear.%nThis spear has better durability than the wooden one.
 
 # Quest: Moron's Manual to Fecund Farms
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACzg.name=Moron's Manual to Fecund Farms
