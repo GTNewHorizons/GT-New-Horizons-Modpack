@@ -1,24 +1,27 @@
 {
-  "questIDHigh:4": 0,
+  "questIDHigh:4": 2771602242186397908,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 176
+      "questIDLow:4": 2390
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1261
     }
   },
-  "questIDLow:4": 2448,
+  "questIDLow:4": -5984592636755449553,
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
       "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
       "visibility:8": "NORMAL",
       "isMain:1": 1,
       "simultaneous:1": 0,
       "icon:10": {
         "id:8": "gregtech:gt.metaitem.01",
         "Count:3": 1,
-        "Damage:2": 30632,
+        "Damage:2": 32673,
         "OreDict:8": ""
       },
       "snd_update:8": "random.levelup",
@@ -26,11 +29,11 @@
       "globalShare:1": 0,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "§a§lDichlorobenzene",
+      "name:8": "EV Field Generators",
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "To make higher tier cables, you\u0027ll have to put a little more effort in. Let\u0027s start with Dichlorobenzene."
+      "desc:8": "With Field Generators you can make your first Quantum Chests or Quantum Tanks. But the first two should be for your T2 rocket."
     }
   },
   "tasks:9": {
@@ -38,20 +41,32 @@
       "partialMatch:1": 1,
       "autoConsume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
+      "ignoreNBT:1": 1,
       "index:3": 0,
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
           "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 48,
-          "Damage:2": 30023,
+          "Count:3": 10,
+          "Damage:2": 2316,
           "OreDict:8": ""
         },
         "1:10": {
           "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 12,
-          "Damage:2": 30686,
+          "Count:3": 2,
+          "Damage:2": 2030,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 4,
+          "Damage:2": 2048,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 2,
+          "Damage:2": 2029,
           "OreDict:8": ""
         }
       },
@@ -61,14 +76,48 @@
       "partialMatch:1": 1,
       "autoConsume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
+      "ignoreNBT:1": 1,
       "index:3": 1,
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
           "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 12,
-          "Damage:2": 30632,
+          "Count:3": 16,
+          "Damage:2": 2372,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 8,
+          "Damage:2": 18372,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "3:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 3,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 2,
+          "Damage:2": 32673,
           "OreDict:8": ""
         }
       },
@@ -93,8 +142,8 @@
       "index:3": 1,
       "rewards:9": {
         "0:10": {
-          "id:8": "dreamcraft:item.CoinChemistII",
-          "Count:3": 1,
+          "id:8": "dreamcraft:item.CoinTechnicianII",
+          "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": ""
         }
