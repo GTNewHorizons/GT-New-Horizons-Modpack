@@ -878,15 +878,6 @@ mods.tconstruct.Casting.removeTableRecipe(<TConstruct:materials:11>);
 // --- Aluminium Nugget
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:materials:22>);
 
-// --- Iron Nugget
-mods.tconstruct.Casting.removeTableRecipe(<Thaumcraft:ItemNugget>);
-
-// --- Tin Nugget
-mods.tconstruct.Casting.removeTableRecipe(<Thaumcraft:ItemNugget:2>);
-
-// --- Copper Nugget
-mods.tconstruct.Casting.removeTableRecipe(<Thaumcraft:ItemNugget:1>);
-
 // --- Snow
 mods.tconstruct.Smeltery.removeMelting(<minecraft:snowball>);
 
