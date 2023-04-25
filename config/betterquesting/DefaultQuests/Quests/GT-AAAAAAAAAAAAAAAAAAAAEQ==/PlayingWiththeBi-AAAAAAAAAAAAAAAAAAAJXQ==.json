@@ -2,6 +2,10 @@
   "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
+      "questIDHigh:4": 1067327358665575267,
+      "questIDLow:4": -8996825125550293613
+    },
+    "1:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 943
     }
@@ -24,7 +28,7 @@
       "snd_update:8": "random.levelup",
       "repeatTime:3": -1,
       "globalShare:1": 0,
-      "questLogic:8": "AND",
+      "questLogic:8": "OR",
       "repeat_relative:1": 1,
       "name:8": "Playing With the Big Boys, Chemically",
       "lockedProgress:1": 0,
@@ -59,16 +63,8 @@
       "rewards:9": {
         "0:10": {
           "id:8": "enhancedlootbags:lootbag",
-          "Count:3": 1,
-          "tag:10": {
-            "ench:9": {
-              "0:10": {
-                "lvl:2": 3,
-                "id:2": 35
-              }
-            }
-          },
-          "Damage:2": 6,
+          "Count:3": 2,
+          "Damage:2": 5,
           "OreDict:8": ""
         }
       }
