@@ -17,9 +17,6 @@ import mods.gregtech.Pulverizer;
 
 
 
-// --- Phials
-recipes.remove(<Thaumcraft:ItemEssence>);
-
 // --- Shards
 //furnace.remove(<Thaumcraft:ItemShard:*>);
 
