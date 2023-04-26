@@ -2548,6 +2548,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFwg.desc=Or at least play with drums? If
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFyA.name=§a§lRadon Decay
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFyA.desc=Radon is needed for EV Emitters and Sensors.%n%nYou can get Radium-226 from sifting Thorium, Pitchblende, Uraninite, or Uranium 238. It needs 4500 seconds, or 75 mins, to decay, and it will debuff you until it decays unless you have complete hazmat protection. It's a good idea to make a Lead-Lined Box and let the Radium decay there, instead.%n%nThorium can be obtained from the Nether, whereas the other 3 ores are locked after the Tier 2 Rocket. However, Thorium gives a much smaller chance of getting Radium, so you'll need a good amount of it to continue.%n%nAfter it decays, you can electrolyze Radon out of it and progress into the next circuit line. However, you will not be able to do the Radon loop here, that can only be done with Plutonium 239.%n%n§3You only need to do one task.
 
+# Quest: HSS-G
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF0w.name=§a§lHSS-G
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF0w.desc=After you craft an IV assembler, upgrade your Electric Blast Furnace with new Coils out of HSS-G Ingots. This ingot becomes even more very important in LuV tier. But right now both of these are still far away. Just make a bit that you need for the next rocket.%n%nTo find a Molybdenum Vein, you probably want to make a high quality Prospector's Scanner with a good range.
+
 # Quest: Sodium Sulfide
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGdA.name=§a§lSodium Sulfide
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGdA.desc=Combine Sodium and Sulfur to get Sodium Sulfide.
@@ -2693,7 +2697,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMAg.name=§a§lPower of the Sun from Nuc
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMAg.desc=Your good old singleblock Molecular Transformer is gone. So how to obtain Sunnarium? Well there are couple of ways, but at EV you'll need to radiate Glowstone and convert to Sunnarium.%n%nThe Glowstone rod will slowly charge up if you put it next to any fuel rod in your IC2 reactor. The exact charging speed is `(number of rods adjacent) * (floor(hull temperature/3000) + 1)` per second. A dual rod will count as 2 rods and quad fuel rod will count as 4 rods for this purpose. The Glowstone rod will neither emit heat, nor cause other component to emit more heat. You can treat this rod as a reactor plating in the IC2 Reactor Planner.%n%nAs you can see, the speed is directly proportional to hull temperature and rods adjacent. At the very extreme you can fully charge up a Glowstone rod in less than half a minute and output one Sunnarium every 10 second (on average, since cells aren't charged at same speed due to different position), but that require very considerable resource to setup. It also involves a vacuum freezer to cooldown the coolant cells and running the reactor at 66000+ hull temperature. Balance your need and your resource situation wisely. In any case, if you just wish to charge it up FAST then here is a possible string for the IC2 Reactor Planner:%n%nerp=bpO50cpsdtJElVqn4hObFJc0tiOE0JpEHYpqTxJHvyezjSKRjUuwgouXzNOlU4a3hFBRygM=%n%nReplace Containment Reactor Plating with actual Glowstone rods and you should be good to go. You can also use fewer reactor chambers by using less plating. Enjoy!
 
 # Quest: EV Field Generators
-betterquesting.quest.Jna1jgAySNSs8nS0YMXpLw.name=EV Field Generators
+betterquesting.quest.Jna1jgAySNSs8nS0YMXpLw.name=§a§lEV Field Generators
 betterquesting.quest.Jna1jgAySNSs8nS0YMXpLw.desc=With Field Generators you can make your first Quantum Chests or Quantum Tanks. But the first two should be for your T2 rocket.
 
 
@@ -2724,10 +2728,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFhQ.desc=Pumps, pistons, conveyor module
 # Quest: You're Gonna Hate This 5 and 6 in IV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFhg.name=§b§lYou're Gonna Hate This 5 and 6 in IV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFhg.desc=Some machines need emitters and sensors, like the analyzer or the circuit assembler.
-
-# Quest: HSS-G
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF0w.name=§b§lHSS-G
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF0w.desc=After you can make Tungstensteel and craft an IV assembler, upgrade your Electric Blast Furnace with new Coils out of HSS-G Ingots. This ingot becomes very important in LuV tier.
 
 # Quest: Niobium-Titanium
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF8g.name=§b§lNiobium-Titanium
@@ -5548,6 +5548,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALOQ.desc=You can get Golden Raspberry by
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAADA.name=Multiblock Goals
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAADA.desc=This set is a global tracker for multiblock structure goals. As you can build several parts of many multiblocks way earlier than the respective tier. Check back often.
 
+# Quest: Component Assembly Line
+betterquesting.quest.n7yjRSr0R7O2agebw73FGA.name=Component Assembly Line
+betterquesting.quest.n7yjRSr0R7O2agebw73FGA.desc=Check the NEI pages to see all the nice recipes this machine can handle for you. Great to craft GT components in bulk.
+
 # Quest: Multiblock Tanks... Railcraft Tanks
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAALQ.name=§6§lMultiblock Tanks... Railcraft Tanks
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAALQ.desc=576 buckets of fluid, that should be enough to store all the creosote you have accumulated thus far. If that isn't enough you can make this tank bigger. The smallest tanks are 3x4x3 while the biggest are 9x8x9.%n%nHint: Fluid will auto-output (without any pumps) if you place a valve on the bottom side of the tank. The output rate is 1000 L/t so twice as fast as a GT HV Pump Cover. You can color the tank with Buildcraft paintbrushes and the GT spray can.%n%nIf you still use Railcraft tanks in later tiers, you boost the output rate by using pumps.
@@ -5912,6 +5916,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMig.desc=You probably have built a lot o
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkQ.name=§6§lInfinity Coil Upgrade
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkQ.desc=Smelting with the ferocity of the universe itself.%n%nThis unbelievable material seemed impossible to manipulate into a coil block form, even though its properties made this desirable. It is incredibly stable even at extreme temperatures, but this also made it unable to pack together for coils.%n%nHowever, the situation changed when you thought about using something more intelligent. By integrating a Wetware or better UHV circuit, the Infinity Coil became a reality, controlled by the ever-watching eyes of the circuitry you've spent months to create. From now on, these eyes will watch over your multiblocks.%n%nProvides 11701 heat. You could upgrade your EBF, though at this point it's more likely to be for your MEBFs or your DTPF.
 
+# Quest: Advanced Assembly Line
+betterquesting.quest.ZIotzqvnRiKu1_1Hb9i1dg.name=Advanced Assembly Line
+betterquesting.quest.ZIotzqvnRiKu1_1Hb9i1dg.desc=This is the advanced assembly line from §6GigaGram§rFab.%n%nIt supports item pipelining. That is, it will mimic a real assembly line by consuming ingredients one by one instead of all at start. In effect, it offers a parallelism up to however many item input this recipe requires. You can think of an advanced assembly line as a collection of assembly slices. Each assembly slice is capably of processing each step independent of other slices. It will start processing once the input bus contents align with any stored data stick. The first slice will consume the input in Bus #1. After (recipe time/number of inputs) time, the first slice's work is concluded and will start the second slice. At the same time, first slice will look for input in input bus #1. If there are still enough input there slice #1 will start working again.%n%nThe terminal slice (the n-th slice, where n is number of item input in recipe) will put the recipe output in output bus when it has concluded his work. Whenever a non-terminal slice finished its work, it will try to pass the work onto next slice. If the next slice cannot find the materials in its input bus, the just-finished slice will remain in §4STUCK§r state and hang the assembly line. To help locate these §4STUCK§r assembly lines, the controller's front face will have its status light turned orange.%n%nThe EU/t cost of this machine is number of slices active multiplied by the original recipe EU/t. §4STUCK§r slices do not consume power. It will use the worst energy supplying hatch's input voltage for recipe tier calculation and normal imperfect overclock. With exotic energy hatches, it can overclock beyond usual voltage tier, but will consume even more power than usual imperfect overclock. Every §2laser overclock§r will 0.3 to power exponent. 1 §2laser overclock§r will have 50%% recipe time and use 430%% power. 2 §2laser overclocks§r will have 25%% recipe time and use 1978%% power. Will not overclock beyond 1 tick. Machine first tries to parallelize, then normal imperfect overclock, then §2laser overclock§r.
+
 
 ## Quest Line: GT++ 
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAEQ.name=GT++ 
@@ -6072,6 +6080,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAM2w.desc=With access to even better mate
 # Quest: Tier 4 Transforming
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM3A.name=Tier 4 Transforming
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM3A.desc=The final tier of the QFT, built on many stacks of Spacetime. When it's complete, you will have access to all the skips currently in the game, the new ones being the bio cell skip, the Kevlar skip and the Radox + Xenoxene skip.%n%nThe third item - Black Body Naquadria Supersolid. Even through all the upgrades made beforehand, it’s still not possible to reach the stage of chemical skips for the items that are used to build the first QFT, such as the bioware circuits. This is the theoretical limit of the multi, and reaching this limit needs a material obtained from the second half of the Naquadah line. This new Naquadria-related substance has the characteristics of a black body, a material that absorbs all radiation it receives and reflects none, and is a supersolid, which is to say, a solid that flows like a fluid that has zero viscosity. By applying these qualities together, through a single material, it’s possible to guarantee easy and steady flow of quantum energy at any EU level, even in the MAX tier. With all these advances put together, the QFT is fully unlocked and can create components up to those made in the UHV tier.
+
+# Quest: Algae Pond
+betterquesting.quest.Ds_ok-hRS2ODJNs3LUP9kw.name=Algae Pond
+betterquesting.quest.Ds_ok-hRS2ODJNs3LUP9kw.desc=It's just a pond so you don't need any power. Since it also doesn't really follow normal recipes, you won't find any NEI recipe page. The multi just produces Algae on a regular schedule.%n%nThe tier of the multi is given by the casings. Each tier decreases the time of the production cycle by a factor sqrt(2). At the same time, each tier increase also adds to the amount of algae you get in a single cycle. Some form of algae are only added in higher tiers. Boosting the Algae Farm with Compost is pretty easy and a nice boost.%n%nThe Algae can be used for various chemicals like Methane or Ammonia. You typically need a Chemical Plant for that. In IV tier you can also combine Green Algae with Glowstone to get Glowing Coral and make Sunnarium from that.
 
 # Quest: GT++ Processing Beyond IV
 betterquesting.quest.ECDllKcSQ4SONHHfkfO0yw.name=GT++ Processing Beyond IV
