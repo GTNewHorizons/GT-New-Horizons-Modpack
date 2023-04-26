@@ -5919,7 +5919,7 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAAEQ.desc=GT++ adds new functionality
 
 # Quest: GT++ Multiblocks
 betterquesting.quest.w5O5rPL_Q_GDp8lxWMd0DQ.name=GT++ Multiblocks
-betterquesting.quest.w5O5rPL_Q_GDp8lxWMd0DQ.desc=You might already have a Steam Multiblock or the Large Sifter. But in EV, IV, and the following tiers you unlock GT++ multiblocks for (almost) every GT machine. And some more on top of that!
+betterquesting.quest.w5O5rPL_Q_GDp8lxWMd0DQ.desc=You might already have a Steam Multiblock or the Large Sifter. But in EV, IV, and the following tiers you unlock GT++ multiblocks for (almost) every GT machine. And some more on top of that!%n%nMost of them are made to do the same GT processing as the singleblock machines you've been using, but much faster. The multis can have up to three bonuses: energy savings, faster recipe time and parallels, which mean that a single recipe cycle can craft multiple items at once, if the power provided is enough to sustain it.%n%nThe variety of structures and intricacies of GT++ multi can go far beyond simpler multis like the EBF, LCR or VF. While some are simple cuboids, others come with more diverse mechanics and conditions to work properly. In return, they can be extremely powerful, so keep an eye out for them!
 
 # Quest: Industrial Sledgehammer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABgg.name=Industrial Sledgehammer
@@ -6072,6 +6072,14 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAM2w.desc=With access to even better mate
 # Quest: Tier 4 Transforming
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM3A.name=Tier 4 Transforming
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM3A.desc=The final tier of the QFT, built on many stacks of Spacetime. When it's complete, you will have access to all the skips currently in the game, the new ones being the bio cell skip, the Kevlar skip and the Radox + Xenoxene skip.%n%nThe third item - Black Body Naquadria Supersolid. Even through all the upgrades made beforehand, it’s still not possible to reach the stage of chemical skips for the items that are used to build the first QFT, such as the bioware circuits. This is the theoretical limit of the multi, and reaching this limit needs a material obtained from the second half of the Naquadah line. This new Naquadria-related substance has the characteristics of a black body, a material that absorbs all radiation it receives and reflects none, and is a supersolid, which is to say, a solid that flows like a fluid that has zero viscosity. By applying these qualities together, through a single material, it’s possible to guarantee easy and steady flow of quantum energy at any EU level, even in the MAX tier. With all these advances put together, the QFT is fully unlocked and can create components up to those made in the UHV tier.
+
+# Quest: GT++ Processing Beyond IV
+betterquesting.quest.ECDllKcSQ4SONHHfkfO0yw.name=GT++ Processing Beyond IV
+betterquesting.quest.ECDllKcSQ4SONHHfkfO0yw.desc=If you've gotten this far, you already know what these multis are about, and probably built at least a dozen of them. That said, there are about a dozen more with varying levels of usefulness.%n%nUnfortunately, the tiering of a GT++ multi doesn't always say how powerful it is. It is in our best interest that new multis are placed in good spots throughout progression, but there is a lot of old baggage that hasn't stood the test of time.%n%nAs a committed GTNH engineer, you can help uncover the true extent of what GT++ has to offer. You ought not to stop! 
+
+# Quest: GT++ News in IV
+betterquesting.quest.RFgYQ7LAQD-p1gHMaeg5Sg.name=GT++ News in IV
+betterquesting.quest.RFgYQ7LAQD-p1gHMaeg5Sg.desc=Upon reaching the land of IV machinery, you can put together even more GT++ multis and speed up your automations!%n%nThere's a specific rule when it comes to GT++ multiblocks, from the IV tier onwards. Most of them use special alloys, which either need to be cooked like any ingots you've used before (in a Furnace or the EBF), but there are also alloys which have to be made in the Alloy Blast Smelter, directly into a fluid, which then needs to be solidified.%n%nThe multis that need these alloys are further down. To unlock their quests, you will first need to craft the ABS. However, there is a large assortment of machines you can craft without it, just by having the respective IV singleblock equivalent and some other resources.%n%nThose will be here... but you might be able to find some more, if you look closely through NEI. Good luck!
 
 
 ## Quest Line: How to Generate Power
@@ -13305,7 +13313,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKyg.desc=This produces power out of Rock
 
 # Quest: A Steam Tier Multi? Unpossible!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKzA.name=§4§3§lA Steam Tier Multi? Unpossible!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKzA.desc=It's a larger version of the steam macerator. It only works 8 at a time, but is faster.%n%nNote that this multi requires §4§lVery Specific§r I/O blocks, don't mess it up.%n%n§3With this quest you have started your journey on GT++ Multiblocks. However, don't get too excited quite yet. Most of them only unlock in EV or later.%n
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKzA.desc=It's a larger version of the Steam Macerator. It only works 8 at a time, but is faster. Note that this multi requires §4§lVery Specific§r I/O blocks, don't mess it up.%n%nAs a 3x3 multiblock, it might seem expensive if you're in the Steam age. However, the processing time per ore is so low that you can sustain your beginner's ore processing system with it! The main reason to change off this is the HV Macerator, which unlocks new outputs on top of what you already get.%n%n§3With this quest you have started your journey on GT++ Multiblocks. However, don't get too excited quite yet. Most of them only unlock in EV or later, including a better version of this macerator.%n
 
 # Quest: Machine Interface Fluid I/O
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALKg.name=§5§lMachine Interface Fluid I/O
