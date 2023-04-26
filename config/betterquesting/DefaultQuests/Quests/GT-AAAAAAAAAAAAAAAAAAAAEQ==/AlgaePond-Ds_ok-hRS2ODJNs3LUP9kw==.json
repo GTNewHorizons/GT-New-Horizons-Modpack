@@ -1,0 +1,98 @@
+{
+  "questIDHigh:4": 1067327358665575267,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1598
+    }
+  },
+  "questIDLow:4": -8996825125550293613,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.blockmachines",
+        "Count:3": 1,
+        "Damage:2": 997,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Algae Pond",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "It\u0027s just a pond so you don\u0027t need any power. Since it also doesn\u0027t really follow normal recipes, you won\u0027t find any NEI recipe page. The multi just produces Algae on a regular schedule.\n\nThe tier of the multi is given by the casings. Each tier decreases the time of the production cycle by a factor sqrt(2). At the same time, each tier increase also adds to the amount of algae you get in a single cycle. Some form of algae are only added in higher tiers. Boosting the Algae Farm with Compost is pretty easy and a nice boost.\n\nThe Algae can be used for various chemicals like Methane or Ammonia. You typically need a Chemical Plant for that. In IV tier you can also combine Green Algae with Glowstone to get Glowing Coral and make Sunnarium from that."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 997,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "miscutils:gtplusplus.blockcasings.2",
+          "Count:3": 64,
+          "Damage:2": 15,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "miscutils:item.BasicAgrichemItem",
+          "Count:3": 64,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "miscutils:item.BasicAgrichemItem",
+          "Count:3": 64,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "miscutils:item.BasicAgrichemItem",
+          "Count:3": 64,
+          "Damage:2": 2,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "miscutils:item.BasicAgrichemItem",
+          "Count:3": 64,
+          "Damage:2": 3,
+          "OreDict:8": ""
+        },
+        "4:10": {
+          "id:8": "miscutils:item.BasicAgrichemItem",
+          "Count:3": 64,
+          "Damage:2": 4,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}
