@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version 2.3.3 is  out 2023-04-23
+Version 2.3.3 is out 2023-04-23
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
