@@ -214,3 +214,24 @@ val I18N_Forestry_Frames_7 = "Broken.";
 <MagicBees:frameOblivion:*>.addShiftTooltip(I18N_Forestry_Frames_4+format.darkRed(" x0.0001"));
 <MagicBees:frameOblivion:*>.addShiftTooltip(I18N_Forestry_Frames_5+format.darkRed(" x0"));
 <MagicBees:frameOblivion:*>.addShiftTooltip(I18N_Forestry_Frames_6+format.aqua(" x1"));
+
+
+// --- Blood Frame (Magic Bees)
+<MagicBees:bloodFrame:*>.addTooltip(I18N_Forestry_Frames_0);
+<MagicBees:bloodFrame:*>.addShiftTooltip(I18N_Forestry_Frames_1+format.darkRed(" 1"));
+<MagicBees:bloodFrame:*>.addShiftTooltip(I18N_Forestry_Frames_2+format.aqua(" x1"));
+<MagicBees:bloodFrame:*>.addShiftTooltip(I18N_Forestry_Frames_3+format.gold(" x1"));
+<MagicBees:bloodFrame:*>.addShiftTooltip(I18N_Forestry_Frames_4+format.darkRed(" x0.0001"));
+<MagicBees:bloodFrame:*>.addShiftTooltip(I18N_Forestry_Frames_5+format.darkRed(" x0"));
+<MagicBees:bloodFrame:*>.addShiftTooltip(I18N_Forestry_Frames_6+format.aqua(" x1"));
+
+// --- Frenzied Frame (Magic Bees)
+<MagicBees:frenziedFrame:*>.addTooltip(I18N_Forestry_Frames_0);
+<MagicBees:frenziedFrame:*>.addShiftTooltip(I18N_Forestry_Frames_1+format.darkRed(" 1"));
+<MagicBees:frenziedFrame:*>.addShiftTooltip(I18N_Forestry_Frames_2+format.gold(" x10"));
+<MagicBees:frenziedFrame:*>.addShiftTooltip(I18N_Forestry_Frames_3+format.darkRed(" x0"));
+<MagicBees:frenziedFrame:*>.addShiftTooltip(I18N_Forestry_Frames_4+format.aqua(" x0.0001"));
+<MagicBees:frenziedFrame:*>.addShiftTooltip(I18N_Forestry_Frames_5+format.darkRed(" x0"));
+<MagicBees:frenziedFrame:*>.addShiftTooltip(I18N_Forestry_Frames_6+format.aqua(" x10"));
+
+
