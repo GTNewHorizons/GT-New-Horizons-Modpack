@@ -12,6 +12,7 @@
 3. Late game quests should ideally not have mandatory tasks for fluid cells. That is not how players craft things at that stage. There can be exceptions.
 4. Most quests should only be in one quest line. However, there are important exceptions. Specifically, the Tips and Tricks quest line and transition quests that lead you from one tab to another. There can be other cases where it makes sense.
 5. Not every quest ticket on github is actually correct. Check things yourself before changing a quest.
+6. Use Dark Red and potentially add "NOTE:" or "WARNING:" before important information and warnings. Use Dark Aqua for a PS at the end of a quest which can include talk about progression, alternatives, or other meta comments like the quest authors opinion on things. Regular advice should ideally be in default color as part of the text though.
 
 
 # Git Basics
@@ -72,13 +73,11 @@ https://try.github.io/
 5. To define requirements, select Edit, then Requirements, then search for the requirement quest on the right hand side with the quest ID or the title. Select + to add the quest to the requirements. The eye symbol lets you select if the connection is always shown/always hidden/only shown with hovering over or shift. Ideally you want to show dependencies but avoid always shown if it leads to excessive line crossing. You can right-click a quest and click "Copy Quest ID" to copy it to your clipboard.
 6. Select Open and open the quest for editing.
 7. Select Edit, then you will see the Quest Name and Description. When editing the quest Description text hit Aa to get a large window. Hit Enter two times once you have a few lines of data. This breaks up the text and makes it easier to read. Keep in mind that quest names in the GT Tier tabs are color coded.
-8. Use RED and potentially add "NOTE:" before important information.
-8. Use Dark Aqua for tips by the questbook author.
-9. Form the Edit Quest window, select Tasks to add new tasks.
-10. For Tasks we usually use several optional retrieval and one retrieval. Other options are possible too but should only be used for a good reason.
-11. There are many more things to finetune: you can toggle if NBT data should matter, can delete parts of the NBT data of the required item, can allow for oredict substitutes, etc. For example, in a bee quest you should delete all NBT data except for the species and then make sure ignoreNBT is set to false.
-12. Select Rewards to add rewards. You can add Choice where the user chooses between items on a list, or item where they get all the items. Generally try to reward similar amounts as other quests in that tab.
-13. If you click edit, advanced, Object, Object, you get more advanced properties about the quest. For example you can change the cooldown if it should have one or toggle if the quest is a main quest.
+8. Form the Edit Quest window, select Tasks to add new tasks.
+9. For Tasks we usually use several optional retrieval and one retrieval. Other options are possible too but should only be used for a good reason.
+10. There are many more things to finetune: you can toggle if NBT data should matter, can delete parts of the NBT data of the required item, can allow for oredict substitutes, etc. For example, in a bee quest you should delete all NBT data except for the species and then make sure ignoreNBT is set to false.
+11. Select Rewards to add rewards. You can add Choice where the user chooses between items on a list, or item where they get all the items. Generally try to reward similar amounts as other quests in that tab.
+12. If you click edit, advanced, Object, Object, you get more advanced properties about the quest. For example you can change the cooldown if it should have one or toggle if the quest is a main quest.
 
 
 # Moving Quests
