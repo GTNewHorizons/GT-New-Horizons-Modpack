@@ -4,13 +4,7 @@
 
 // --- Importing Stuff ---
 
-
-
-import mods.gregtech.Assembler;
 import mods.ic2.Compressor;
-import mods.gregtech.CuttingSaw;
-
-
 
 
 // --- remove Recipes ---
@@ -719,49 +713,6 @@ mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:bloodMagicBaseAlchemyItems:8>, [<
 
 
 
-
-// --- Assembler Recipe ---
-
-
-// --- Blood Rune
-Assembler.addRecipe(<AWWayofTime:AlchemicalWizardrybloodRune>, <AWWayofTime:blankSlate> * 4, <AWWayofTime:weakBloodOrb> * 0, <liquid:wet.concrete> * 1152, 200, 64);
-// -
-Assembler.addRecipe(<AWWayofTime:AlchemicalWizardrybloodRune>, <AWWayofTime:blankSlate> * 4, <AWWayofTime:apprenticeBloodOrb> * 0, <liquid:wet.concrete> * 1152, 200, 64);
-// -
-Assembler.addRecipe(<AWWayofTime:AlchemicalWizardrybloodRune>, <AWWayofTime:blankSlate> * 4, <AWWayofTime:magicianBloodOrb> * 0, <liquid:wet.concrete> * 1152, 200, 64);
-// -
-Assembler.addRecipe(<AWWayofTime:AlchemicalWizardrybloodRune>, <AWWayofTime:blankSlate> * 4, <AWWayofTime:masterBloodOrb> * 0, <liquid:wet.concrete> * 1152, 200, 64);
-// -
-Assembler.addRecipe(<AWWayofTime:AlchemicalWizardrybloodRune>, <AWWayofTime:blankSlate> * 4, <AWWayofTime:archmageBloodOrb> * 0, <liquid:wet.concrete> * 1152, 200, 64);
-// -
-Assembler.addRecipe(<AWWayofTime:AlchemicalWizardrybloodRune>, <AWWayofTime:blankSlate> * 4, <AWWayofTime:transcendentBloodOrb> * 0, <liquid:wet.concrete> * 1152, 200, 64);
-// -
-Assembler.addRecipe(<AWWayofTime:AlchemicalWizardrybloodRune>, <AWWayofTime:blankSlate> * 4, <BloodArsenal:transparent_orb> * 0, <liquid:wet.concrete> * 1152, 200, 64);
-// -
-Assembler.addRecipe(<AWWayofTime:AlchemicalWizardrybloodRune>, <AWWayofTime:blankSlate> * 4, <ForbiddenMagic:EldritchOrb> * 0, <liquid:wet.concrete> * 1152, 200, 64);
-// -
-Assembler.addRecipe(<AWWayofTime:AlchemicalWizardrybloodRune>, <AWWayofTime:blankSlate> * 4, <Avaritia:Orb_Armok> * 0, <liquid:wet.concrete> * 1152, 200, 64);
-
-// --- Ritual Dismantler
-Assembler.addRecipe(<AWWayofTime:ritualDismantler>, <AWWayofTime:itemRitualDiviner>, <minecraft:redstone_torch> * 2, 600, 120);
-
-// --- Default Output Routing Focus
-Assembler.addRecipe(<AWWayofTime:outputRoutingFocus>, <AWWayofTime:inputRoutingFocus>, <gregtech:gt.integrated_circuit:1> * 0, 200, 120);
-
-// --- Output Routing Focus Mod Items
-Assembler.addRecipe(<AWWayofTime:outputRoutingFocus:1>, <AWWayofTime:inputRoutingFocus>, <gregtech:gt.integrated_circuit:2> * 0, 200, 120);
-
-// --- Output Routing Focus Ignore MetaData
-Assembler.addRecipe(<AWWayofTime:outputRoutingFocus:2>, <AWWayofTime:inputRoutingFocus>, <gregtech:gt.integrated_circuit:3> * 0, 200, 120);
-
-// --- Output Routing Focus Match MetaData
-Assembler.addRecipe(<AWWayofTime:outputRoutingFocus:3>, <AWWayofTime:inputRoutingFocus>, <gregtech:gt.integrated_circuit:4> * 0, 200, 120);
-
-// --- Output Routing Focus Global
-Assembler.addRecipe(<AWWayofTime:outputRoutingFocus:4>, <AWWayofTime:inputRoutingFocus>, <gregtech:gt.integrated_circuit:5> * 0, 200, 120);
-
-
-
 // --- Compressor Recipes ---
 
 
@@ -782,31 +733,3 @@ Compressor.addRecipe(<BloodArsenal:blood_stone:3>, <AWWayofTime:demonicSlate> * 
 
 // --- Ethereal Blood Stone
 Compressor.addRecipe(<BloodArsenal:blood_stone:4>, <AWWayofTime:bloodMagicBaseItems:27> * 9);
-
-
-
-
-// --- Cutting Saw Recipes ---
-
-
-
-// --- Arcane Slate
-CuttingSaw.addRecipe(<dreamcraft:item.ArcaneSlate> * 9, null, <Thaumcraft:blockCosmeticSolid:6>, <liquid:lifeessence> * 1000, 200, 48);
-
-// --- Blank Slate
-CuttingSaw.addRecipe(<AWWayofTime:blankSlate> * 9, null, <BloodArsenal:blood_stone>, <liquid:lifeessence> * 1000, 400, 64);
-
-// --- Reinforced Slate
-CuttingSaw.addRecipe(<AWWayofTime:reinforcedSlate> * 9, null, <BloodArsenal:blood_stone:1>, <liquid:lifeessence> * 1000, 600, 120);
-
-// --- Imbued Slate
-CuttingSaw.addRecipe(<AWWayofTime:imbuedSlate> * 9, null, <BloodArsenal:blood_stone:2>, <liquid:lifeessence> * 1000, 800, 480);
-
-// --- Demonic Slate
-CuttingSaw.addRecipe(<AWWayofTime:demonicSlate> * 9, null, <BloodArsenal:blood_stone:3>, <liquid:lifeessence> * 1000, 1000, 1920);
-
-// --- Ethereal Slate
-CuttingSaw.addRecipe(<AWWayofTime:bloodMagicBaseItems:27> * 9, null, <BloodArsenal:blood_stone:4>, <liquid:lifeessence> * 1000, 1200, 7680);
-
-// --- Blank Slate from Blood Rune recycling recipe
-CuttingSaw.addRecipe(<AWWayofTime:blankSlate> * 4, null, <AWWayofTime:AlchemicalWizardrybloodRune>, <liquid:lifeessence> * 250, 400, 64);

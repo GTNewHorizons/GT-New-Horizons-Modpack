@@ -281,9 +281,6 @@ mods.tconstruct.Smeltery.removeAlloy(<liquid:alumite.molten>);
 // --- Obsidian Dust
 //mods.tconstruct.Smeltery.removeMelting(<ore:dustObsidian>);
 
-// --- Obsidian Dust
-furnace.remove(<ore:ingotObsidian>);
-
 
 
 
@@ -912,10 +909,6 @@ Compressor.addRecipe(<TConstruct:slime.gel>, Gelatinous * 4);
 // --- Congealed Green Slime
 Compressor.addRecipe(<TConstruct:slime.gel:1>, Slimeball * 4);
 
-
-
-// --- Seared Bricks Nether
-furnace.addRecipe(<TConstruct:materials:37>, <dreamcraft:item.UnfiredSlimeSoulBrick>);
 
 // --- Bronze Helmet
 mods.tconstruct.Casting.addTableRecipe(<IC2:itemArmorBronzeHelmet>, <liquid:bronze.molten> * 720, <dreamcraft:item.MoldHelmet>, false, 500);
