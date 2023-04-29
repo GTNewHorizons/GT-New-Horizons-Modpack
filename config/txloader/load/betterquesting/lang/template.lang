@@ -606,7 +606,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACFg.desc=If you are running your bricked
 
 # Quest: Rubber Sheets
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACGA.name=§4§3§lRubber Sheets
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACGA.desc=Let's make a mold for the rubber sheets. You can use them for cables. They are also needed for conveyors, a plunger, and some more recipes.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACGA.desc=Let's make a mold for the rubber sheets. They are mainly used for conveyors and cables.%n%nAt this stage, making cables by manually wrapping the sheets around wires is faster and cheaper in power than the Alloy Smelter recipe for cables.%n%nWith the sheets, you should be able to craft Piston Boots - a massive upgrade to your mobility. Check out the questline Getting Around Without Dying to find them.
 
 # Quest: How Can I Carry All These Items?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACLg.name=§3§lHow Can I Carry All These Items?
@@ -5890,7 +5890,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALpg.desc=When you reach MV tier you can 
 
 # Quest: You Are Not Prepared... But They Are
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALqQ.name=§6§6§a§9§8§7§6§5§4§3§2§1§0§3§f§k§f§l§6§lYou Are Not Prepared... But They Are
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALqQ.desc=Building a smeltery from ground up can be really tedious and time consuming. How about go borrow one from the locals? They will surely be happy to share it with an unfriendly adventurer that just dismantlled their bricked railway station.%n%nThe villager are too dumb that they spent all their seared bricks without adding a few key components like faucets or drains. You still need to craft some smeltry bricks yourselves... %n%nTotally not useful tip: if you hold off building this long enough, you will be able to break down seared brick blocks into seared brick items with a forge hammer or extractor.%n%n§3Unfortunately, going down this path means we will not give you quest rewards, since you are already getting this important multiblock for free. Check the checkbox to signify your consent.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALqQ.desc=Building a smeltery from ground up can be really tedious and time consuming. How about go borrow one from the locals? They will surely be happy to share it with an unfriendly adventurer that just dismantled their bricked railway station.%n%nThe villager are too dumb that they spent all their seared bricks without adding a few key components like faucets or drains. You still need to craft some smeltery bricks yourselves... %n%nTotally not useful tip: if you hold off building this long enough, you will be able to break down seared brick blocks into seared brick items with a forge hammer or extractor.%n%n§3Unfortunately, going down this path means we will not give you quest rewards, since you are already getting this important multiblock for free. Check the checkbox to signify your consent.
 
 # Quest: Expert MB-Construction
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL1g.name=§6§lExpert MB-Construction
