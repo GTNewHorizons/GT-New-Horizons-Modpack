@@ -41,7 +41,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Like most machines, there is a more advanced version of the alloy smelter. Keep in mind that this machine uses a lot of steam, so you better get some more boilers first."
+      "desc:8": "Like most machines, there is a more advanced version of the alloy smelter. It uses the same total amount of steam as its predecessor but does the job twice as fast.\n\nKeep in mind that it uses quite a lot of steam, so you better have enough of it in boilers, pipes, or tanks."
     }
   },
   "tasks:9": {
