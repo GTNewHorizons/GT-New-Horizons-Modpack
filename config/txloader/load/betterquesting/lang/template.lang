@@ -466,7 +466,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAALg.desc=Your smeltery does a great job 
 
 # Quest: Upgrade: High Speed Alloys
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAALw.name=§3§lUpgrade: High Speed Alloys
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAALw.desc=Like most machines, there is a more advanced version of the alloy smelter. Keep in mind that this machine uses a lot of steam, so you better get some more boilers first.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAALw.desc=Like most machines, there is a more advanced version of the alloy smelter. It uses the same total amount of steam as its predecessor but does the job twice as fast.%n%nKeep in mind that it uses quite a lot of steam, so you better have enough of it in boilers, pipes, or tanks.
 
 # Quest: A Very Important Alloy
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAMA.name=§3§lA Very Important Alloy
@@ -498,19 +498,19 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAANg.desc=This rather simple device does 
 
 # Quest: Upgrade: A Better Compressor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAANw.name=§4§3§lUpgrade: A Better Compressor
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAANw.desc=An updated version of the steam compressor. Uses more steam, but is almost twice as fast.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAANw.desc=An updated version of the steam compressor. Uses the same total amount of steam as its predecessor but does the job twice as fast.
 
 # Quest: Upgrade: Forge Hammer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAOA.name=§3§lUpgrade: Forge Hammer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAOA.desc=An updated version of the steam forge hammer. Uses more steam, but is almost twice as fast.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAOA.desc=An updated version of the steam forge hammer. Uses the same total amount of steam as its predecessor but does the job twice as fast.
 
 # Quest: Upgrade: Extractor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAOQ.name=§3§lUpgrade: Extractor
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAOQ.desc=An updated version of the steam extractor. Uses more steam, but is almost twice as fast. You probably want to craft this, as the extractor does also extract your nerves...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAOQ.desc=An updated version of the steam extractor. Uses the same total amount of steam as its predecessor but does the job twice as fast.%n%nYou probably want to craft this, as the extractor does also extract your nerves...
 
 # Quest: Upgrade: Better Macerator
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAOg.name=§3§lUpgrade: Better Macerator
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAOg.desc=An updated version of the steam macerator. Uses more steam, but is almost twice as fast.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAOg.desc=An updated version of the steam macerator. Uses the same total amount of steam as its predecessor but does the job twice as fast.
 
 # Quest: Steam Alternatives
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAOw.name=§3§lSteam Alternatives
@@ -534,7 +534,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAPw.desc=A rather slow process, but it's
 
 # Quest: Upgrade: Better Furnace
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAQA.name=§3§lUpgrade: Better Furnace
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAQA.desc=An updated version of the steam furnace. Uses more steam, but is almost twice as fast.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAQA.desc=An updated version of the steam furnace. Uses the same total amount of steam as its predecessor but does the job twice as fast.
 
 # Quest: Blastoff!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAQQ.name=§3§lBlastoff!
