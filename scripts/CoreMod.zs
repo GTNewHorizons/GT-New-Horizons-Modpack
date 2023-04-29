@@ -262,19 +262,6 @@ null, null, null],
 <Forestry:sturdyMachine>, <dreamcraft:item.EngineCore>);
 
 
-
-
-
-
-// --- Distillation Recipes ---
-
-
-
-// --- Mutagen
-Distillery.addRecipe(<liquid:mutagen> * 10, <gregtech:gt.integrated_circuit:3> * 0, <liquid:fermentedbacterialsludge> * 100, 600, 1920, false);
-
-
-
 // --- TC Smeltery Recipes
 
 

@@ -55,10 +55,6 @@ mods.chisel.Groups.removeGroup("glowstone");
 // --- Stonebricks
 mods.chisel.Groups.removeVariation(<minecraft:stonebrick:1>);
 
-
-// --- Concrete
-furnace.remove(<chisel:concrete>);
-
 // --- Torch
 mods.chisel.Groups.removeVariation(<minecraft:torch>);
 

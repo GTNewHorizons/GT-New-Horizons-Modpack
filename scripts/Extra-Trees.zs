@@ -4,8 +4,6 @@
 
 // --- Importing Stuff ---
 
-import mods.gregtech.Mixer;
-
 
 // --- Remove Recipes ---
 
