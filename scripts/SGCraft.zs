@@ -62,22 +62,6 @@ val SuperconductingCoil = <GoodGenerator:compactFusionCoil:3>;
 NEI.hide(sgControllerCrystal);
 //NEI.hide(sgCoreCrystal);
 
-// -- Remove everything
-recipes.remove(sgRingBlock);
-recipes.remove(sgChevronBlock);
-recipes.remove(sgBaseBlock);
-recipes.remove(sgDHD);
-recipes.remove(sgNaquadahBlock);
-recipes.remove(sgNaquadahOre);
-recipes.remove(sgICPowerAcceptor);
-recipes.remove(sgRFPowerAcceptor);
-recipes.remove(sgOpenComputerInterface);
-recipes.remove(sgNaquadahIngot);
-recipes.remove(sgNaquadah);
-recipes.remove(sgChevronUpgrade);
-recipes.remove(sgIrisUpgrade);
-recipes.remove(sgIrisBlade);
-recipes.remove(sgLargeCapacitor);
 
 // -- Add Recipes
 

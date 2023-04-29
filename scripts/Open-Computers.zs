@@ -6,27 +6,7 @@
 
 
 
-// --- Remove Recipes ---
-
-
-
-// --- Terminal
-recipes.remove(<openglasses:openglassesterminal>);
-
-// --- Glasses
-recipes.remove(<openglasses:openglasses:*>);
-
-
-
-// --- Adding Recipes ---
-
-
-
-
-
-
 // --- Avaritia Recipes ---
-
 
 
 
