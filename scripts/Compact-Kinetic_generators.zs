@@ -1,63 +1,6 @@
 // --- Created by DreamMasterXXL ---
 
 
-
-
-
-
-
-// --- Remove Recipes --- 
-
-
-
-
-// --- Low Kinetic Wind Generator
-recipes.remove(<compactkineticgenerators:BlockCkg>);
-
-// --- Medium Kinetic Wind Generator
-recipes.remove(<compactkineticgenerators:BlockCkg:1>);
-
-// --- High Kinetic Wind Generator
-recipes.remove(<compactkineticgenerators:BlockCkg:2>);
-
-// --- Extreme Kinetic Wind Generator
-recipes.remove(<compactkineticgenerators:BlockCkg:3>);
-
-// --- Low Kinetic Water Generator
-recipes.remove(<compactkineticgenerators:BlockCkg:4>);
-
-// --- Medium Kinetic Water Generator
-recipes.remove(<compactkineticgenerators:BlockCkg:5>);
-
-// --- High Kinetic Water Generator
-recipes.remove(<compactkineticgenerators:BlockCkg:6>);
-
-// --- Extreme Kinetic Water Generator
-recipes.remove(<compactkineticgenerators:BlockCkg:7>);
-
-// --- Low Kinetic Generator
-recipes.remove(<compactkineticgenerators:BlockCkg:8>);
-
-// --- Medium Kinetic Generator
-recipes.remove(<compactkineticgenerators:BlockCkg:9>);
-
-// --- High Kinetic Generator
-recipes.remove(<compactkineticgenerators:BlockCkg:10>);
-
-// --- Extreme Kinetic Generator
-recipes.remove(<compactkineticgenerators:BlockCkg:11>);
-
-// --- Iridium Rotor Blade
-recipes.remove(<compactkineticgenerators:IridiumBlade>);
-
-// --- Kinetic Gearbox Rotor (Iridium)
-recipes.remove(<compactkineticgenerators:IridiumRotor>);
-
-
-
-
-
-
 // --- Adding Back Recipes ---
 
 
@@ -206,15 +149,3 @@ mods.avaritia.ExtremeCrafting.addShaped(<compactkineticgenerators:BlockCkg:11>, 
 [null, null, <ore:plateTripleNeutronium>, <ore:plateTripleNeutronium>, <miscutils:itemIridiumShaft>, <ore:plateTripleNeutronium>, <ore:plateTripleNeutronium>, null, null],
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
-
-// --- Iridium Rotor Blade
-recipes.addShaped(<compactkineticgenerators:IridiumBlade>, [
-[<ore:plateAlloyIridium>, <ore:plateAlloyIridium>, <ore:plateAlloyIridium>],
-[<ore:plateAlloyIridium>, <ore:ringOsmium>, <ore:plateAlloyIridium>],
-[<ore:plateAlloyIridium>, <ore:plateAlloyIridium>, <ore:plateAlloyIridium>]]);
-
-// --- Kinetic Gearbox Rotor (Iridium)
-recipes.addShaped(<compactkineticgenerators:IridiumRotor>, [
-[<miscutils:itemIridiumShaft>, <compactkineticgenerators:IridiumBlade>, <ore:craftingToolHardHammer>],
-[<compactkineticgenerators:IridiumBlade>, <ore:ringChrome>, <compactkineticgenerators:IridiumBlade>],
-[<ore:craftingToolWrench>, <compactkineticgenerators:IridiumBlade>, <miscutils:itemIridiumShaft>]]);

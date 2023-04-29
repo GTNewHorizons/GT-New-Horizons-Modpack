@@ -17,12 +17,6 @@ import mods.gregtech.CuttingSaw;
 
 
 
-// --- Blood Altar
-recipes.remove(<AWWayofTime:Altar>);
-
-// --- Sacrificial Knife
-recipes.remove(<AWWayofTime:sacrificialKnife>);
-
 // --- Week Blood Orb
 mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:weakBloodOrb>);
 
@@ -53,77 +47,30 @@ mods.bloodmagic.Binding.removeRecipe(<AWWayofTime:boundAxe>);
 // --- Bound Shovel
 mods.bloodmagic.Binding.removeRecipe(<AWWayofTime:boundShovel>);
 
-// --- Blank Blood Stone
-recipes.remove(<BloodArsenal:blood_stone>);
 
-// --- Blank Slate
-recipes.remove(<AWWayofTime:blankSlate>);
 // -
 mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:blankSlate>);
 
-// --- Blood Rune
-recipes.remove(<AWWayofTime:AlchemicalWizardrybloodRune>);
 
-// --- Alchemic Chemistry Set
-recipes.remove(<AWWayofTime:blockWritingTable>);
-
-// --- Water Sigil
-recipes.remove(<AWWayofTime:waterSigil>);
-
-// --- Lava Sigil
-recipes.remove(<AWWayofTime:lavaSigil>);
 
 // --- Reinforced Slate
 mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:reinforcedSlate>);
-// -
-recipes.remove(<AWWayofTime:reinforcedSlate>);
+
 
 // --- Reinforced Blood Stone
 mods.bloodmagic.Altar.removeRecipe(<BloodArsenal:blood_stone:1>);
-// -
-recipes.remove(<BloodArsenal:blood_stone:1>);
 
 // --- Imbued Slate
 mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:imbuedSlate>);
-// -
-recipes.remove(<AWWayofTime:imbuedSlate>);
 
-// --- Imbued Blood Stone
-recipes.remove(<BloodArsenal:blood_stone:2>);
 
 // --- Demonic Slate
 mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:demonicSlate>);
-// -
-recipes.remove(<AWWayofTime:demonicSlate>);
 
-// --- Demonic Blood Stone
-recipes.remove(<BloodArsenal:blood_stone:3>);
 
 // --- Ethereal Slate
 mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:bloodMagicBaseItems:27>);
-// -
-recipes.remove(<AWWayofTime:bloodMagicBaseItems:27>);
 
-// --- Ethereal Blood Stone
-recipes.remove(<BloodArsenal:blood_stone:4>);
-
-// --- Divination Sigil
-recipes.remove(<AWWayofTime:divinationSigil>);
-
-// --- Speed Rune
-recipes.remove(<AWWayofTime:speedRune>);
-
-// --- Ritual Stone
-recipes.remove(<AWWayofTime:ritualStone>);
-
-// --- Master Ritual Stone
-recipes.remove(<AWWayofTime:masterStone>);
-
-// --- Large Blood Stone Bricks
-recipes.remove(<AWWayofTime:largeBloodStoneBrick>);
-
-// --- Spell Table
-recipes.remove(<AWWayofTime:blockHomHeart>);
 
 // --- Simple Catalyst
 mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:simpleCatalyst>);
@@ -203,71 +150,14 @@ mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:aquasalus>);
 // --- Tennebrae
 mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:tennebrae>);
 
-// --- Lava Crystal
-recipes.remove(<AWWayofTime:lavaCrystal>);
 
-// --- Empty Core
-recipes.remove(<AWWayofTime:bloodMagicBaseItems:1>);
-
-// --- Rune of Sacrifice
-recipes.remove(<AWWayofTime:runeOfSacrifice>);
-
-// --- Rune of Self Sacrifice
-recipes.remove(<AWWayofTime:runeOfSelfSacrifice>);
-
-// --- Air Sigil
-recipes.remove(<AWWayofTime:airSigil>);
-
-// --- Sigil of faster Mining
-recipes.remove(<AWWayofTime:sigilOfTheFastMiner>);
-
-// --- Sigil of the green grow
-recipes.remove(<AWWayofTime:growthSigil>);
-
-// --- Void Sigil
-recipes.remove(<AWWayofTime:voidSigil>);
-
-// --- Blood Letters Pack
-recipes.remove(<AWWayofTime:itemBloodPack>);
 
 // --- Weak activation Crystal
 mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:activationCrystal>);
 
-// --- Empty Socket
-recipes.remove(<AWWayofTime:emptySocket>);
 
 // --- Filled Socket
 mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:bloodSocket>);
-
-// --- Soul Armor Forge
-recipes.remove(<AWWayofTime:armourForge>);
-
-// --- Rune of Argumented Capacity
-recipes.remove(<AWWayofTime:AlchemicalWizardrybloodRune:1>);
-
-// --- Rune of Dislocation
-recipes.remove(<AWWayofTime:AlchemicalWizardrybloodRune:2>);
-
-// --- Sigil of elemental Affinity
-recipes.remove(<AWWayofTime:sigilOfElementalAffinity>);
-
-// --- Sigil of Holding
-recipes.remove(<AWWayofTime:sigilOfHolding>);
-
-// --- Sigil of Phantom Bridge
-recipes.remove(<AWWayofTime:sigilOfTheBridge>);
-
-// --- Sigil of Magnetism
-recipes.remove(<AWWayofTime:sigilOfMagnetism>);
-
-// --- Sigil of the Blood Lamp
-recipes.remove(<AWWayofTime:itemBloodLightSigil>);
-
-// --- Sigil of Sight
-recipes.remove(<AWWayofTime:seerSigil>);
-
-// --- Imperfect Ritual Stone
-recipes.remove(<AWWayofTime:imperfectRitualStone>);
 
 // --- Elemental Inscription Tool Water
 mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:waterScribeTool>);
@@ -287,27 +177,6 @@ mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:duskScribeTool>);
 // --- Elemental Inscription Tool Dawn
 mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:dawnScribeTool>);
 
-// --- Ritual Diviner Tier 1
-recipes.remove(<AWWayofTime:itemRitualDiviner>);
-
-// --- Ritual Diviner Tier 2
-recipes.remove(<AWWayofTime:itemRitualDiviner:1>);
-
-// --- Ritual Diviner Tier 3
-recipes.remove(<AWWayofTime:itemRitualDiviner:2>);
-
-// --- Ritual Dismantler
-recipes.remove(<AWWayofTime:ritualDismantler>);
-
-// --- Rune of the Orb
-recipes.remove(<AWWayofTime:AlchemicalWizardrybloodRune:3>);
-
-// --- Rune of Superior Capacity
-recipes.remove(<AWWayofTime:AlchemicalWizardrybloodRune:4>);
-
-// --- Rune of Aceleration
-recipes.remove(<AWWayofTime:AlchemicalWizardrybloodRune:5>);
-
 // --- Awakened Activation Crystal
 mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:activationCrystal:1>);
 
@@ -317,23 +186,11 @@ mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:standardFillingAgent>);
 // --- Enhanced Filling Agent
 mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:enhancedFillingAgent>);
 
-// --- Ender Shard
-recipes.remove(<AWWayofTime:bloodMagicBaseItems:32>);
-
-// --- Teleposer
-recipes.remove(<AWWayofTime:blockTeleposer>);
-
 // --- Teleposing Focus
 mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:telepositionFocus>);
 
 // --- Enhanced Teleportation Focus
 mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:enhancedTelepositionFocus>);
-
-// --- Reinforced Teleportation Focus
-recipes.remove(<AWWayofTime:reinforcedTelepositionFocus>);
-
-// --- Demonic Teleportation Focus
-recipes.remove(<AWWayofTime:demonicTelepositionFocus>);
 
 // --- Strengthened Catalyst
 mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:bloodMagicBaseAlchemyItems:3>);
@@ -346,123 +203,6 @@ mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:itemComplexSpellCrystal>);
 
 // --- Energy Blaster
 mods.bloodmagic.Binding.removeRecipe(<AWWayofTime:energyBlaster>);
-
-// --- Energy Bazooka
-recipes.remove(<AWWayofTime:energyBazooka>);
-
-// --- Arcane Pedestal
-recipes.remove(<AWWayofTime:blockPedestal>);
-
-// --- Arcane Plinth
-recipes.remove(<AWWayofTime:blockPlinth>);
-
-// --- Alchemic Calcinator
-recipes.remove(<AWWayofTime:blockAlchemicCalcinator>);
-
-// --- Alchemic Router
-recipes.remove(<AWWayofTime:itemAttunedCrystal>);
-
-// --- Alchemical Clearer
-recipes.remove(<AWWayofTime:itemDestinationClearer>);
-
-// --- Alchemical Segmenter
-recipes.remove(<AWWayofTime:itemTankSegmenter>);
-
-// --- Quartz Rod
-recipes.remove(<AWWayofTime:bloodMagicBaseItems>);
-
-// --- Bell Jar
-recipes.remove(<AWWayofTime:blockCrystalBelljar>);
-
-// --- Alchemie Relay
-recipes.remove(<AWWayofTime:blockReagentConduit>);
-
-// --- Crystal Cluster
-recipes.remove(<AWWayofTime:blockCrystal>);
-
-// --- Glyph of Rigit Stability
-recipes.remove(<AWWayofTime:blockStabilityGlyph>);
-
-// --- Glyph of Adept Enchanter
-recipes.remove(<AWWayofTime:blockEnchantmentGlyph>);
-
-// --- Glyph of Arcane Potential
-recipes.remove(<AWWayofTime:blockEnchantmentGlyph:1>);
-
-// --- Wooden Brace
-recipes.remove(<AWWayofTime:bloodMagicBaseItems:3>);
-
-// --- Stone Brace
-recipes.remove(<AWWayofTime:bloodMagicBaseItems:4>);
-
-// --- Obsidian Brace
-recipes.remove(<AWWayofTime:bloodMagicBaseItems:25>);
-
-// --- Living Brace
-recipes.remove(<AWWayofTime:bloodMagicBaseItems:31>);
-
-// --- Projectile Core
-recipes.remove(<AWWayofTime:bloodMagicBaseItems:5>);
-
-// --- Selfe Core
-recipes.remove(<AWWayofTime:bloodMagicBaseItems:6>);
-
-// --- Meele Core
-recipes.remove(<AWWayofTime:bloodMagicBaseItems:7>);
-
-// --- Firy Core
-recipes.remove(<AWWayofTime:bloodMagicBaseItems:10>);
-
-// --- Icy Core
-recipes.remove(<AWWayofTime:bloodMagicBaseItems:11>);
-
-// --- Gusty Core
-recipes.remove(<AWWayofTime:bloodMagicBaseItems:12>);
-
-// --- Earthen Core
-recipes.remove(<AWWayofTime:bloodMagicBaseItems:13>);
-
-// --- Unattuned Core
-recipes.remove(<AWWayofTime:bloodMagicBaseItems:18>);
-
-// --- Offensive Core
-recipes.remove(<AWWayofTime:bloodMagicBaseItems:19>);
-
-// --- Defensive Core
-recipes.remove(<AWWayofTime:bloodMagicBaseItems:20>);
-
-// --- Inviromental Core
-recipes.remove(<AWWayofTime:bloodMagicBaseItems:21>);
-
-// --- Power Core
-recipes.remove(<AWWayofTime:bloodMagicBaseItems:22>);
-
-// --- Reduction Core
-recipes.remove(<AWWayofTime:bloodMagicBaseItems:23>);
-
-// --- Potency Core
-recipes.remove(<AWWayofTime:bloodMagicBaseItems:24>);
-
-// --- Tool Core
-recipes.remove(<AWWayofTime:bloodMagicBaseItems:26>);
-
-// --- Magicales Cables
-recipes.remove(<AWWayofTime:bloodMagicBaseItems:2>);
-
-// --- Paradigm Plate
-recipes.remove(<AWWayofTime:bloodMagicBaseItems:8>);
-
-// --- Output Spell Cable
-recipes.remove(<AWWayofTime:bloodMagicBaseItems:9>);
-
-// --- Input Spell Cable
-recipes.remove(<AWWayofTime:bloodMagicBaseItems:14>);
-
-// --- Key of Binding
-recipes.remove(<AWWayofTime:itemKeyOfDiablo>);
-
-// --- Armor Inhibitor
-recipes.remove(<AWWayofTime:armourInhibitor>);
 
 // --- Cracked Runic Plate
 mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:bloodMagicBaseItems:15>);
@@ -494,88 +234,6 @@ mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:bloodMagicBaseAlchemyItems:7>)
 // --- Potentia
 mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:bloodMagicBaseAlchemyItems:8>);
 
-// --- Input Routing Focus
-recipes.remove(<AWWayofTime:inputRoutingFocus>);
-
-// --- Default Output Routing Focus
-recipes.remove(<AWWayofTime:outputRoutingFocus>);
-
-// --- Output Routing Focus Mod Items
-recipes.remove(<AWWayofTime:outputRoutingFocus:1>);
-
-// --- Output Routing Focus Ignore MetaData
-recipes.remove(<AWWayofTime:outputRoutingFocus:2>);
-
-// --- Output Routing Focus Match MetaData
-recipes.remove(<AWWayofTime:outputRoutingFocus:3>);
-
-// --- Output Routing Focus Global
-recipes.remove(<AWWayofTime:inputRoutingFocus:4>);
-
-// --- Sigil of Hast
-recipes.remove(<AWWayofTime:sigilOfHaste>);
-
-// --- Sigil of Whirl Wind
-recipes.remove(<AWWayofTime:sigilOfWind>);
-
-// --- Sigil of Supression
-recipes.remove(<AWWayofTime:sigilOfSupression>);
-
-// --- Sigil of Ender Serverance
-recipes.remove(<AWWayofTime:sigilOfEnderSeverance>);
-
-// --- Harvest Goddess Sigil
-recipes.remove(<AWWayofTime:itemHarvestSigil>);
-
-// --- Sigil of Compression
-recipes.remove(<AWWayofTime:itemCompressionSigil>);
-
-// --- Incense Crucible
-recipes.remove(<AWWayofTime:blockCrucible>);
-
-// --- Spell Conduit
-recipes.remove(<AWWayofTime:blockConduit>);
-
-// --- Wooden Ash
-recipes.remove(<AWWayofTime:bloodMagicIncenseItem>);
-
-// --- Particel Generator
-recipes.remove(<AWWayofTime:AlchemicalWizardrytile.blockSpellParadigm>);
-
-// --- Self Augmentator
-recipes.remove(<AWWayofTime:AlchemicalWizardrytile.blockSpellParadigm:1>);
-
-// --- Meele Aggregator
-recipes.remove(<AWWayofTime:AlchemicalWizardrytile.blockSpellParadigm:2>);
-
-// --- Tool Forge
-recipes.remove(<AWWayofTime:AlchemicalWizardrytile.blockSpellParadigm:3>);
-
-// --- Default Spell Modifier
-recipes.remove(<AWWayofTime:AlchemicalWizardrytile.blockSpellModifier>);
-
-// --- Offensive Spell Modifier
-recipes.remove(<AWWayofTime:AlchemicalWizardrytile.blockSpellModifier:1>);
-
-// --- Defensive Spell Modifier
-recipes.remove(<AWWayofTime:AlchemicalWizardrytile.blockSpellModifier:2>);
-
-// --- Inviromental Spell Modifier
-recipes.remove(<AWWayofTime:AlchemicalWizardrytile.blockSpellModifier:3>);
-
-// --- Crucible of Fire
-recipes.remove(<AWWayofTime:AlchemicalWizardrytile.blockSpellEffect>);
-
-// --- Ice Maker
-recipes.remove(<AWWayofTime:AlchemicalWizardrytile.blockSpellEffect:1>);
-
-// --- Wind Generator
-recipes.remove(<AWWayofTime:AlchemicalWizardrytile.blockSpellEffect:2>);
-
-// --- Earth Former
-recipes.remove(<AWWayofTime:AlchemicalWizardrytile.blockSpellEffect:3>);
-
-
 
 // --- Add recipes ---
 
@@ -596,8 +254,7 @@ mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:telepositionFocus>, [
 [null, <AWWayofTime:bloodMagicBaseItems:32>, null],
 [<AWWayofTime:weakBloodShard>, <dreamcraft:item.TeleposerFrame>, <AWWayofTime:weakBloodShard>],
 [null, <AWWayofTime:masterBloodOrb>, null]]);
-// ---
-recipes.addShapeless(<AWWayofTime:telepositionFocus>, [<AWWayofTime:telepositionFocus>]);
+
 
 // --- Teleposer
 mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:blockTeleposer>, [
@@ -749,11 +406,6 @@ mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicBaseItems:26>, [
 [<AWWayofTime:weakBloodShard>, <AWWayofTime:bloodMagicBaseItems:1>, <AWWayofTime:weakBloodShard>],
 [<AWWayofTime:terrae>, <AWWayofTime:magicianBloodOrb>, <AWWayofTime:terrae>]]);
 
-// --- Magicales Cables
-recipes.addShaped(<AWWayofTime:bloodMagicBaseItems:2> * 3, [
-[<ore:platePlastic>, <ore:platePlastic>, <ore:platePlastic>],
-[<AWWayofTime:magicales>, <AWWayofTime:magicales>, <AWWayofTime:magicales>],
-[<ore:platePlastic>, <ore:platePlastic>, <ore:platePlastic>]]);
 
 // --- Paradigm Plate
 mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicBaseItems:8>, [
@@ -773,12 +425,6 @@ mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicBaseItems:9>, [
 [<AWWayofTime:bloodMagicBaseItems:2>, <AWWayofTime:magicianBloodOrb>, <AWWayofTime:reinforcedSlate>],
 [null, <AWWayofTime:simpleCatalyst>, <AWWayofTime:blankSlate>]]);
 
-// --- Input Routing Focus
-recipes.addShaped(<AWWayofTime:inputRoutingFocus>, [
-[<AWWayofTime:reinforcedSlate>, <AWWayofTime:blankSlate>, <AWWayofTime:reinforcedSlate>],
-[<AWWayofTime:blankSlate>, <AWWayofTime:bloodMagicBaseItems:32>, <AWWayofTime:blankSlate>],
-[<AWWayofTime:reinforcedSlate>, <AWWayofTime:blankSlate>, <AWWayofTime:reinforcedSlate>]]);
-
 // --- Incense Crucible
 mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:blockCrucible>, [
 [<ore:plateAluminium>, <AWWayofTime:apprenticeBloodOrb>, <ore:plateAluminium>],
@@ -791,8 +437,6 @@ mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:blockConduit>, [
 [<AWWayofTime:bloodMagicBaseItems:2>, <AWWayofTime:bloodMagicBaseItems:2>, <AWWayofTime:bloodMagicBaseItems:2>],
 [<AWWayofTime:bloodMagicBaseItems>, <AWWayofTime:bloodMagicBaseItems>, <AWWayofTime:bloodMagicBaseItems>]]);
 
-// --- Wooden Ash
-recipes.addShapeless(<AWWayofTime:bloodMagicIncenseItem>, [<witchery:ingredient:18>, <witchery:ingredient:18>, <witchery:ingredient:18>, <witchery:ingredient:18>, <gregtech:gt.metaitem.01:2816>, <gregtech:gt.metaitem.01:2816>, <gregtech:gt.metaitem.01:2815>, <gregtech:gt.metaitem.01:2815>, <BiomesOPlenty:misc:1>]);
 
 // --- Particel Generator
 mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:AlchemicalWizardrytile.blockSpellParadigm>, [
@@ -817,54 +461,6 @@ mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:AlchemicalWizardrytile.blockSpel
 [<ore:plateRoseGold>, <AWWayofTime:bloodMagicBaseItems:25>, <AWWayofTime:magicianBloodOrb>],
 [<AWWayofTime:bloodMagicBaseItems:8>, <AWWayofTime:bloodMagicBaseItems:26>, <AWWayofTime:bloodMagicBaseItems:9>],
 [<ore:plateRoseGold>, <AWWayofTime:bloodMagicBaseItems:25>, null]]);
-
-// --- Default Spell Modifier
-recipes.addShaped(<AWWayofTime:AlchemicalWizardrytile.blockSpellModifier>, [
-[<AWWayofTime:bloodMagicBaseItems:25>, <ore:plateRoseGold>, <AWWayofTime:bloodMagicBaseItems:25>],
-[<AWWayofTime:bloodMagicBaseItems:14>, <AWWayofTime:bloodMagicBaseItems:18>, <AWWayofTime:bloodMagicBaseItems:9>],
-[<AWWayofTime:bloodMagicBaseItems:25>, <ore:plateRoseGold>, <AWWayofTime:bloodMagicBaseItems:25>]]);
-
-// --- Offensive Spell Modifier
-recipes.addShaped(<AWWayofTime:AlchemicalWizardrytile.blockSpellModifier:1>, [
-[<AWWayofTime:bloodMagicBaseItems:25>, <ore:plateRoseGold>, <AWWayofTime:bloodMagicBaseItems:25>],
-[<AWWayofTime:bloodMagicBaseItems:14>, <AWWayofTime:bloodMagicBaseItems:19>, <AWWayofTime:bloodMagicBaseItems:9>],
-[<AWWayofTime:bloodMagicBaseItems:25>, <ore:plateRoseGold>, <AWWayofTime:bloodMagicBaseItems:25>]]);
-
-// --- Defensive Spell Modifier
-recipes.addShaped(<AWWayofTime:AlchemicalWizardrytile.blockSpellModifier:2>, [
-[<AWWayofTime:bloodMagicBaseItems:25>, <ore:plateRoseGold>, <AWWayofTime:bloodMagicBaseItems:25>],
-[<AWWayofTime:bloodMagicBaseItems:14>, <AWWayofTime:bloodMagicBaseItems:20>, <AWWayofTime:bloodMagicBaseItems:9>],
-[<AWWayofTime:bloodMagicBaseItems:25>, <ore:plateRoseGold>, <AWWayofTime:bloodMagicBaseItems:25>]]);
-
-// --- Inviromental Spell Modifier
-recipes.addShaped(<AWWayofTime:AlchemicalWizardrytile.blockSpellModifier:3>, [
-[<AWWayofTime:bloodMagicBaseItems:25>, <ore:plateRoseGold>, <AWWayofTime:bloodMagicBaseItems:25>],
-[<AWWayofTime:bloodMagicBaseItems:14>, <AWWayofTime:bloodMagicBaseItems:21>, <AWWayofTime:bloodMagicBaseItems:9>],
-[<AWWayofTime:bloodMagicBaseItems:25>, <ore:plateRoseGold>, <AWWayofTime:bloodMagicBaseItems:25>]]);
-
-// --- Crucible of Fire
-recipes.addShaped(<AWWayofTime:AlchemicalWizardrytile.blockSpellEffect>, [
-[<AWWayofTime:bloodMagicBaseItems:25>, <ore:plateBlueSteel>, <AWWayofTime:bloodMagicBaseItems:25>],
-[<AWWayofTime:bloodMagicBaseItems:14>, <AWWayofTime:bloodMagicBaseItems:10>, <AWWayofTime:bloodMagicBaseItems:9>],
-[<AWWayofTime:bloodMagicBaseItems:25>, <ore:plateBlueSteel>, <AWWayofTime:bloodMagicBaseItems:25>]]);
-
-// --- Ice Maker
-recipes.addShaped(<AWWayofTime:AlchemicalWizardrytile.blockSpellEffect:1>, [
-[<AWWayofTime:bloodMagicBaseItems:25>, <ore:plateBlueSteel>, <AWWayofTime:bloodMagicBaseItems:25>],
-[<AWWayofTime:bloodMagicBaseItems:14>, <AWWayofTime:bloodMagicBaseItems:11>, <AWWayofTime:bloodMagicBaseItems:9>],
-[<AWWayofTime:bloodMagicBaseItems:25>, <ore:plateBlueSteel>, <AWWayofTime:bloodMagicBaseItems:25>]]);
-
-// --- Wind Generator
-recipes.addShaped(<AWWayofTime:AlchemicalWizardrytile.blockSpellEffect:2>, [
-[<AWWayofTime:bloodMagicBaseItems:25>, <ore:plateBlueSteel>, <AWWayofTime:bloodMagicBaseItems:25>],
-[<AWWayofTime:bloodMagicBaseItems:14>, <AWWayofTime:bloodMagicBaseItems:12>, <AWWayofTime:bloodMagicBaseItems:9>],
-[<AWWayofTime:bloodMagicBaseItems:25>, <ore:plateBlueSteel>, <AWWayofTime:bloodMagicBaseItems:25>]]);
-
-// --- Earth Former
-recipes.addShaped(<AWWayofTime:AlchemicalWizardrytile.blockSpellEffect:3>, [
-[<AWWayofTime:bloodMagicBaseItems:25>, <ore:plateBlueSteel>, <AWWayofTime:bloodMagicBaseItems:25>],
-[<AWWayofTime:bloodMagicBaseItems:14>, <AWWayofTime:bloodMagicBaseItems:13>, <AWWayofTime:bloodMagicBaseItems:9>],
-[<AWWayofTime:bloodMagicBaseItems:25>, <ore:plateBlueSteel>, <AWWayofTime:bloodMagicBaseItems:25>]]);
 
 
 

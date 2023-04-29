@@ -6,39 +6,6 @@
 
 
 
-// --- remove recipes ---
-
-// --- Compartment
-recipes.removeShaped(<BinnieCore:storage>);
-
-// --- Copper Compartment
-recipes.removeShaped(<BinnieCore:storage:1>);
-
-// --- Bronze Compartment
-recipes.removeShaped(<BinnieCore:storage:2>);
-
-// --- Iron Compartment
-recipes.removeShaped(<BinnieCore:storage:3>);
-
-// --- Gold Compartment
-recipes.removeShaped(<BinnieCore:storage:4>);
-
-// --- Diamond Compartment
-recipes.removeShaped(<BinnieCore:storage:5>);
-
-// --- Field Kit
-recipes.remove(<BinnieCore:fieldKit:*>);
-
-
-
-// --- Add Recipes ---
-
-// --- Field Kit
-recipes.addShaped(<BinnieCore:fieldKit:63>, [
-[<ore:lensGlass>, <ore:ringSteel>, <ore:screwSteel>],
-[<ore:ringSteel>, <ore:stickSteel>, <ore:craftingToolSaw>],
-[<ore:screwSteel>, <ore:craftingToolScrewdriver>, <ore:stickSteel>]]);
-
 // --- Compartment
 mods.forestry.Carpenter.addRecipe(<BinnieCore:storage>, [
     [<ore:screwWood>, <ore:craftingChest>, <ore:screwWood>],

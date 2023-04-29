@@ -1,17 +1,6 @@
 // --- Created by DreamMasterXXL ---
 
 
-
-// --- Importing Stuff ---
-
-
-import mods.gregtech.Assembler;
-import mods.gregtech.BlastFurnace;
-import mods.gregtech.ForgeHammer;
-import mods.gregtech.Packer;
-
-
-
 // --- Variables ---
 
 
@@ -336,11 +325,6 @@ mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:particleGenerator>, [
 [null, <minecraft:obsidian>, <ore:stickBlaze>, <ore:itemVibrantCrystal>, <ore:stickBlaze>, <minecraft:obsidian>, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
 
-// --- Item Dislocator
-recipes.addShaped(<DraconicEvolution:magnet>, [
-[<ore:blockSteelMagnetic>, <ore:ingotSteelMagnetic>, <ore:ingotSteelMagnetic>],
-[null, null, <gregtech:gt.metaitem.01:32518>],
-[<ore:blockSteelMagnetic>, <ore:ingotSteelMagnetic>, <ore:ingotSteelMagnetic>]]);
 
 // --- Advanced Item Dislocator
 mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:magnet:1>, [
@@ -450,11 +434,6 @@ mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:draconium:1>, [
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
 
-// --- Draconic Chest
-recipes.addShaped(<DraconicEvolution:draconiumChest>, [
-[<ore:plateObsidian>, <EnderIO:blockCapBank:1>, <ore:plateObsidian>],
-[<IC2:blockMachine:1>, <avaritiaddons:CompressedChest>, <gregtech:gt.metaitem.01:32744>],
-[<ore:plateObsidian>, <ore:plateObsidian>, <ore:plateObsidian>]]);
 
 // --- Dislocator Pedestal
 mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:teleporterStand>, [
@@ -479,15 +458,6 @@ mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:dislocatorReceptacle>
 [null, null, <ore:plateSilver>, <ore:plateDraconium>, DraconicCore, <ore:plateDraconium>, <ore:plateSilver>, null, null],
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
-
-// --- Safty Match
-recipes.addShapeless(<DraconicEvolution:safetyMatch:1000>, [<gregtech:gt.metaitem.01:32471>, <ore:dustDraconium>]);
-
-// --- Distortion Flame
-recipes.addShaped(<DraconicEvolution:xRayBlock> * 8, [
-[<minecraft:glass_pane>, <gregtech:gt.metaitem.01:17330>, <minecraft:glass_pane>],
-[<gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.02:29500>, <gregtech:gt.metaitem.01:17330>],
-[<minecraft:glass_pane>, <gregtech:gt.metaitem.01:17330>, <minecraft:glass_pane>]]);
 
 // --- Energy Core
 mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:energyStorageCore>, [
@@ -656,73 +626,6 @@ mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:upgradeModifier>, [
 [null, null, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, null, null],
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
-
-
-
-
-
-// --- Assembler Recipes ---
-
-
-
-
-// --- Draconic Evolution Tablet
-Assembler.addRecipe(<DraconicEvolution:infoTablet>, <gregtech:gt.metaitem.01:17299> * 4, <DraconicEvolution:draconiumDust>, 400, 480);
-
-// --- Wireless Energy Tranceiver
-Assembler.addRecipe(<DraconicEvolution:energyCrystal:4>, <DraconicEvolution:energyCrystal>, <DraconicEvolution:particleGenerator> * 2, <liquid:molten.enderium> * 864, 1200, 1024);
-
-// --- Advanced Wireless Energy Tranceiver
-Assembler.addRecipe(<DraconicEvolution:energyCrystal:5>, <DraconicEvolution:energyCrystal:1>, <DraconicEvolution:particleGenerator> * 2, <liquid:molten.enderium> * 864, 2400, 4096);
-
-// --- Ender Arrow
-Assembler.addRecipe(<DraconicEvolution:enderArrow>, <minecraft:arrow>, <minecraft:ender_pearl>, 200, 480);
-
-// --- Player Detector
-Assembler.addRecipe(<DraconicEvolution:playerDetector>, <Railcraft:detector:5>, DraconicCore, 200, 480);
-
-// --- Rain Sensor
-Assembler.addRecipe(<DraconicEvolution:rainSensor>, <ProjRed|Integration:projectred.integration.gate:16>, <gregtech:gt.metaitem.01:17975>, 200, 480);
-
-
-
-
-
-// --- Blastfurnace Recipes ---
-
-
-
-
-// --- Draconic Infused Obsidian
-BlastFurnace.addRecipe([<DraconicEvolution:infusedObsidian>], <liquid:molten.draconium> * 144, [<minecraft:obsidian>, <minecraft:blaze_powder>], 1200, 1920, 7500); 
-
-
-
-
-// ---  Forge Hammer Recipes ---
-
-
-
-
-// --- Chaos Shard
-ForgeHammer.addRecipe(<DraconicEvolution:chaosFragment:2> * 9, <DraconicEvolution:chaosShard>, 100, 480);
-
-// --- Large Chaos Fragment
-ForgeHammer.addRecipe(<DraconicEvolution:chaosFragment:1> * 9, <DraconicEvolution:chaosFragment:2>, 50, 480);
-
-// --- Small Chaos Fragment
-ForgeHammer.addRecipe(<DraconicEvolution:chaosFragment> * 9, <DraconicEvolution:chaosFragment:1>, 25, 480);
-
-
-
-
-// --- Packer Recipe ----
-
-
-
-
-// --- Safty Match Box
-Packer.addRecipe(<DraconicEvolution:safetyMatch>, <DraconicEvolution:safetyMatch:1000> * 16, <gregtech:gt.metaitem.01:18879>, 64, 16);
 
 
 

@@ -45,41 +45,6 @@ val Screwdriver = <ore:craftingToolScrewdriver>;
 // --- Removing Recipes ---
 
 
-// --- Chisel
-recipes.remove(Chisel);
-
-// --- Obsidian Chisel
-recipes.remove(ObsidianChisel);
-
-// --- Diamond Chisel
-recipes.remove(DiamondChisel);
-
-// --- Nether Star Chisel
-recipes.remove(NetherStarChisel);
-
-// --- Cloud In A Bottle
-recipes.remove(BottledCloud);
-
-// --- Ball of Moss
-recipes.remove(<chisel:ballomoss>);
-
-// --- Smashing Rock
-recipes.remove(<chisel:smashingrock>);
-
-// --- Auto Chisel
-recipes.remove(<chisel:autoChisel>);
-
-// --- Speed Upgrade
-recipes.remove(<chisel:upgrade>);
-
-// --- Automation Upgrade
-recipes.remove(<chisel:upgrade:1>);
-
-// --- Stack Upgrade
-recipes.remove(<chisel:upgrade:2>);
-
-// --- Reversion Upgrade
-recipes.remove(<chisel:upgrade:3>);
 
 // --- Mossy stone
 mods.chisel.Groups.removeGroup("cobblestone");
@@ -90,8 +55,6 @@ mods.chisel.Groups.removeGroup("glowstone");
 // --- Stonebricks
 mods.chisel.Groups.removeVariation(<minecraft:stonebrick:1>);
 
-// --- Energised Voidstone
-recipes.remove(<chisel:voidstone2>);
 
 // --- Concrete
 furnace.remove(<chisel:concrete>);
@@ -103,82 +66,6 @@ mods.chisel.Groups.removeVariation(<minecraft:torch>);
 
 
 // --- Adding Back Recipes ---
-
-
-// --- Chisel
-recipes.addShaped(Chisel, [
-[HHammer, IronPlate, IronPlate],
-[IronScrew, WoodStick, IronPlate],
-[WoodStick, IronScrew, Screwdriver]]);
-// -
-recipes.addShaped(Chisel, [
-[Screwdriver, IronPlate, IronPlate],
-[IronScrew, WoodStick, IronPlate],
-[WoodStick, IronScrew, HHammer]]);
-
-// --- Obsidian Chisel
-recipes.addShaped(ObsidianChisel, [
-[HHammer, ObsidainPlate, ObsidainPlate],
-[WroughtIronScrew, WroughtIronStick, ObsidainPlate],
-[WroughtIronStick, WroughtIronScrew, Screwdriver]]);
-// -
-recipes.addShaped(ObsidianChisel, [
-[Screwdriver, ObsidainPlate, ObsidainPlate],
-[WroughtIronScrew, WroughtIronStick, ObsidainPlate],
-[WroughtIronStick, WroughtIronScrew, HHammer]]);
-
-// --- Diamond Chisel
-recipes.addShaped(DiamondChisel, [
-[HHammer, <ore:plateDiamond>, <ore:plateDiamond>],
-[SteelScrew, SteelRod, <ore:plateDiamond>],
-[SteelRod, SteelScrew, Screwdriver]]);
-// -
-recipes.addShaped(DiamondChisel, [
-[Screwdriver, <ore:plateDiamond>, <ore:plateDiamond>],
-[SteelScrew, SteelRod, <ore:plateDiamond>],
-[SteelRod, SteelScrew, HHammer]]);
-
-// --- Auto Chisel
-recipes.addShaped(<chisel:autoChisel>, [
-[SteelScrew, <ore:ringWoodSealed>, SteelScrew],
-[<gregtech:gt.metaitem.01:32630>, <gregtech:gt.metaitem.01:32744>, <gregtech:gt.metaitem.01:32650>],
-[Screwdriver, <IronChest:BlockIronChest>, HHammer]]);
-
-// --- Speed Upgrade
-recipes.addShaped(<chisel:upgrade>, [
-[SteelScrew, <ore:plateEmerald>, SteelScrew],
-[<ore:plateEmerald>, <ore:circuitBasic>, <ore:plateEmerald>],
-[<ore:wireGt01RedAlloy>, <gregtech:gt.metaitem.01:32630>, <ore:wireGt01RedAlloy>]]);
-
-// --- Automation Upgrade
-recipes.addShaped(<chisel:upgrade:1>, [
-[SteelScrew, <ore:plateEmerald>, SteelScrew],
-[<ore:plateEmerald>, <ore:circuitBasic>, <ore:plateEmerald>],
-[<ore:wireGt01RedAlloy>, <gregtech:gt.metaitem.01:32650>, <ore:wireGt01RedAlloy>]]);
-
-// --- Stack Upgrade
-recipes.addShaped(<chisel:upgrade:2>, [
-[SteelScrew, <ore:plateEmerald>, SteelScrew],
-[<ore:plateEmerald>, <ore:circuitBasic>, <ore:plateEmerald>],
-[<ore:wireGt01RedAlloy>, <gregtech:gt.metaitem.01:32744>, <ore:wireGt01RedAlloy>]]);
-
-// --- Reversion Upgrade
-recipes.addShaped(<chisel:upgrade:3>, [
-[SteelScrew, <ore:plateEmerald>, SteelScrew],
-[<ore:plateEmerald>, <ore:circuitBasic>, <ore:plateEmerald>],
-[<ore:wireGt01RedAlloy>, <gregtech:gt.metaitem.01:32600>, <ore:wireGt01RedAlloy>]]);
-
-// --- Temple Mossy Blocks
-recipes.addShaped(<chisel:mossy_templeblock>, [
-[<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>],
-[<BiomesOPlenty:moss>, <chisel:templeblock>, <BiomesOPlenty:moss>],
-[<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>]]);
-
-// --- Energised Voidstone
-recipes.addShaped(<chisel:voidstone2> * 8, [
-[<chisel:voidstone>, <chisel:voidstone>, <chisel:voidstone>],
-[<chisel:voidstone>, <ore:dustGlowstone>, <chisel:voidstone>],
-[<chisel:voidstone>, <chisel:voidstone>, <chisel:voidstone>]]);
 
 
 
