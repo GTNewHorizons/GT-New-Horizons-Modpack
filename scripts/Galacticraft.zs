@@ -5,10 +5,6 @@
 // --- Mod Import ---
 
 
-import mods.ic2.Compressor;
-import mods.gregtech.Fuels;
-import mods.ic2.SemiFluidGenerator;
-
 // --- Variables ---
 
 val CompressedAl = <ore:compressedAluminium>;
@@ -76,27 +72,4 @@ mods.avaritia.ExtremeCrafting.addShaped(<GalacticraftCore:item.infiniteOxygen>, 
 [null, <ore:plateNeutronium>, <dreamcraft:item.HeavyDutyPlateTier8>, <GalacticraftCore:item.oxygenTankUltraHeavyFull>, <gregtech:gt.metaitem.01:32616>, <GalacticraftCore:item.oxygenTankUltraHeavyFull>, <dreamcraft:item.HeavyDutyPlateTier8>, <ore:plateNeutronium>, null],
 [null, <ore:ingotInfinity>, <ore:plateNeutronium>, <dreamcraft:item.HeavyDutyPlateTier8>, <dreamcraft:item.HeavyDutyPlateTier8>, <dreamcraft:item.HeavyDutyPlateTier8>, <ore:plateNeutronium>, <ore:ingotInfinity>, null],
 [null, null, <ore:ingotInfinity>, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:ingotInfinity>, null, null]]);
-
-
-
-// --- Add Fuels ---
-
-
-// --- Diesel
-Fuels.addDieselFuel(<IC2:itemFluidCell>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "oil", Amount: 1000}}), 16);
-// -
-Fuels.addDieselFuel(<IC2:itemCellEmpty>, <gregtech:gt.metaitem.01:30707>, 16);
-
-
-
-
-// --- Compressor Recipes ---
-
-
-
-// --- Solid Meteoric Iron
-Compressor.addRecipe(<GalacticraftCore:tile.gcBlockCore:12>, <gregtech:gt.metaitem.01:11340> * 9);
-
-// --- Cheese Ore ---
-Compressor.addRecipe(<GalacticraftCore:tile.moonBlock:2>,<GalacticraftCore:item.cheeseCurd> * 9);
 

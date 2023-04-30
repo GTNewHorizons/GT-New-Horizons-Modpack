@@ -1,12 +1,6 @@
 // --- Created by DreamMasterXXL ---
 
 
-
-// --- Importing Stuff ---
-
-import mods.ic2.Compressor;
-
-
 // --- remove Recipes ---
 
 
@@ -710,26 +704,3 @@ mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:bloodMagicBaseAlchemyItems:7>, [<
 
 // --- Potentia
 mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:bloodMagicBaseAlchemyItems:8>, [<AWWayofTime:bloodMagicBaseAlchemyItems:3>, <IC2:itemDust2:2>, <IC2:itemDust2:2>, <gregtech:gt.metaitem.01:2367>, <gregtech:gt.metaitem.01:2367>], 3, 4000);
-
-
-
-// --- Compressor Recipes ---
-
-
-// --- Arcane Stone
-Compressor.addRecipe(<Thaumcraft:blockCosmeticSolid:6>, <dreamcraft:item.ArcaneSlate> * 9);
-
-// --- Blank Blood Stone
-Compressor.addRecipe(<BloodArsenal:blood_stone>, <AWWayofTime:blankSlate> * 9);
-
-// --- Reinforced Blood Stone
-Compressor.addRecipe(<BloodArsenal:blood_stone:1>, <AWWayofTime:reinforcedSlate> * 9);
-
-// --- Imbued Blood Stone
-Compressor.addRecipe(<BloodArsenal:blood_stone:2>, <AWWayofTime:imbuedSlate> * 9);
-
-// --- Demonic Blood Stone
-Compressor.addRecipe(<BloodArsenal:blood_stone:3>, <AWWayofTime:demonicSlate> * 9);
-
-// --- Ethereal Blood Stone
-Compressor.addRecipe(<BloodArsenal:blood_stone:4>, <AWWayofTime:bloodMagicBaseItems:27> * 9);

@@ -11,24 +11,6 @@
 
 
 
-// --- Importing Stuff ---
-
-
-import mods.ic2.Compressor;
-
-
-
-
-// --- Compressor Recipes ---
-
-
-
-// --- Large Lump of Galgador
-Compressor.addRecipe(<StevesCarts:ModuleComponents:48>, <StevesCarts:ModuleComponents:46> * 9);
-
-
-
-
 // --- Avaritia recipes ---
 
 
