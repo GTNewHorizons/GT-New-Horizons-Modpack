@@ -6,6 +6,7 @@
 	<ToolTip ItemName="cb4bq:BlockREB" ToolTip="§4This block will RESET ALL YOUR QUESTS, starting over from Tier 0. Do NOT build or use unless you really mean it!" NBT=""/> 
 	<ToolTip ItemName="EnderIO:blockFusedQuartz" ToolTip="§4Blast resistance is now 20. DOES NOT PROTECT AGAINST NUKES!" NBT=""/>
 	<ToolTip ItemName="EnderIO:blockTravelAnchor" ToolTip="Cooldown 2 seconds" NBT=""/>
+	<ToolTip ItemName="EnderIO:blockCapBank" ToolTip="§dInfinite Energy" NBT="{type:&quot;CREATIVE&quot;,storedEnergyRF:2500000}"/>
 	<ToolTip ItemName="ExtraUtilities:endConstructor" ToolTip="§3Now: Quite Expensive Device" NBT=""/>
 	<ToolTip ItemName="ExtraUtilities:dark_portal" ToolTip="§3Riches beyond your imagination" NBT=""/>
 	<ToolTip ItemName="ExtraUtilities:enderCollector" ToolTip="§4Warning: When broken, the powerful ender collector may vanish in an attempt to collect itself!...and take nearby items with it!" NBT=""/>
