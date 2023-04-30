@@ -67,7 +67,7 @@ https://try.github.io/
 # New Quests
 
 1. Open the quest book and click Edit at the bottom.
-2. Click the tab you want to put the quest, then click Designer.
+2. Click the tab you want to put the quest in, then click Designer.
 3. Click New Quest, and place it in the quest graph.
 4. Click Select Icon and choose an appropriate icon for the quest.
 5. To define requirements, select Edit, then Requirements, then search for the requirement quest on the right hand side with the quest ID or the title. Select + to add the quest to the requirements. The eye symbol lets you select if the connection is always shown/always hidden/only shown with hovering over or shift. Ideally you want to show dependencies but avoid always shown if it leads to excessive line crossing. You can right-click a quest and click "Copy Quest ID" to copy it to your clipboard.
@@ -77,7 +77,7 @@ https://try.github.io/
 9. For Tasks we usually use several optional retrieval and one retrieval. Other options are possible too but should only be used for a good reason.
 10. There are many more things to finetune: you can toggle if NBT data should matter, can delete parts of the NBT data of the required item, can allow for oredict substitutes, etc. For example, in a bee quest you should delete all NBT data except for the species and then make sure ignoreNBT is set to false.
 11. Select Rewards to add rewards. You can add Choice where the user chooses between items on a list, or item where they get all the items. Generally try to reward similar amounts as other quests in that tab.
-12. If you click edit, advanced, Object, Object, you get more advanced properties about the quest. For example you can change the cooldown if it should have one or toggle if the quest is a main quest.
+12. In Edit > Advanced, you can change additional properties. For example you can reorder the tasks, change the quest cooldown if it should have one, or toggle if the quest is a main quest. Keep in mind that some changes can crash your client. For instance, if you want to swap tasks around and accidentally assign the same index to two tasks.
 
 
 # Moving Quests
