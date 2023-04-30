@@ -4,12 +4,6 @@
 // --- Imports ---
 
 
-import mods.nei.NEI;
-
-// --- Hide items ---
-NEI.hide(<MagicBees:capsule.magic:*>);
-NEI.hide(<MagicBees:capsule.void:*>);
-
 // --- Remove Recipes ---
 
 

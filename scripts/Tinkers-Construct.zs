@@ -4,7 +4,7 @@
 // --- Importing Stuff ---
 
 import mods.ic2.Compressor;
-import mods.nei.NEI;
+
 
 
 // --- I18N ---

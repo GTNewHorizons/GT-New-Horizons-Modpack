@@ -9,8 +9,6 @@ import minetweaker.item.IItemStack;
 
 import mods.ic2.Extractor;
 
-import mods.nei.NEI;
-
 
 // --- I18N ---
 val _I18N_Lang = "en_US";
@@ -49,12 +47,6 @@ var plateIron = <gregtech:gt.metaitem.01:17032>;
 var plateWroughtIron = <gregtech:gt.metaitem.01:17304>;
 var plateAluminium = <gregtech:gt.metaitem.01:17019>;
 var shutterModule = <gregtech:gt.metaitem.01:32749>;
-
-// --- Hide items ---
-NEI.hide(<bartworks:gt.bwMetaGeneratedGTEnhancementcapsule:*>);
-NEI.hide(<bartworks:gt.bwMetaGeneratedGTEnhancementcapsuleMolten:*>);
-NEI.hide(<bartworks:gt.bwMetaGeneratedcapsuleMolten:*>);
-NEI.hide(<bartworks:gt.bwMetaGeneratedcapsule:*>);
 
 
 

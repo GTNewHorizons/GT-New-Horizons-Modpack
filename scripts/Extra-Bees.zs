@@ -5,7 +5,6 @@
 // --- Imports ---
 
 import mods.forestry.Squeezer;
-import mods.nei.NEI;
 
 // --- Remove Recipes ---
 
@@ -114,13 +113,3 @@ Squeezer.addRecipe(<liquid:for.honey> * 200, <gregtech:gt.metaitem.02:32414> % 1
 
 // --- White Dye
 Squeezer.addRecipe(<liquid:for.honey> * 200, <gregtech:gt.metaitem.02:32417> % 100, [<ExtraBees:honeyDrop:14>], 20);
-
-
-
-
-// --- Hiding Stuff ---
-
-// Dyes
-for meta in [19, 20, 21, 22, 23, 24, 25] as int[] {
-	NEI.hide(<ExtraBees:misc>.definition.makeStack(meta));
-}

@@ -1,4 +1,4 @@
-import mods.nei.NEI;
+
 
 // -- Items
 val sgRingBlock = <SGCraft:stargateRing>;
@@ -42,25 +42,6 @@ val transcendentMetalBlock = <gregtech:gt.blockmetal9:4>;
 
 val CreativeEnergyBank = <EnderIO:blockCapBank>.withTag({type: "CREATIVE", storedEnergyRF: 2500000});
 val SuperconductingCoil = <GoodGenerator:compactFusionCoil:3>;
-
-// -- Hide stuff from NEI
-//NEI.hide(sgRingBlock);
-//NEI.hide(sgChevronBlock);
-//NEI.hide(sgBaseBlock);
-//NEI.hide(sgDHD);
-//NEI.hide(sgNaquadahBlock);
-//NEI.hide(sgNaquadahOre);
-//NEI.hide(sgICPowerAcceptor);
-//NEI.hide(sgRFPowerAcceptor);
-//NEI.hide(sgOpenComputerInterface);
-//NEI.hide(sgNaquadahIngot);
-//NEI.hide(sgNaquadah);
-//NEI.hide(sgChevronUpgrade);
-//NEI.hide(sgIrisUpgrade);
-//NEI.hide(sgIrisBlade);
-//NEI.hide(sgLargeCapacitor);
-NEI.hide(sgControllerCrystal);
-//NEI.hide(sgCoreCrystal);
 
 
 // -- Add Recipes

@@ -7,7 +7,6 @@
 
 import mods.gregtech.Fuels;
 import mods.ic2.SemiFluidGenerator;
-import mods.nei.NEI;
 
 
 // --- I18N ---
@@ -1250,25 +1249,3 @@ Fuels.addDieselFuel(<Forestry:canEmpty>, <Forestry:canBiomass>, 8);
 oreDict.foodHoneydrop.add(<Forestry:honeyDrop>);
 // -
 oreDict.listAllsugar.add(<Forestry:honeyDrop>);
-
-
-// --- Renaming Stuff ---
-
-
-// --- Swarmer
-NEI.overrideName(<Forestry:alveary:2>, I18N_Forestry_6);
-
-// --- Swarmer
-NEI.overrideName(<Forestry:alveary:3>, I18N_Forestry_7);
-
-// --- Swarmer
-NEI.overrideName(<Forestry:alveary:4>, I18N_Forestry_8);
-
-// --- Swarmer
-NEI.overrideName(<Forestry:alveary:5>, I18N_Forestry_9);
-
-// --- Swarmer
-NEI.overrideName(<Forestry:alveary:6>, I18N_Forestry_10);
-
-// --- Swarmer
-NEI.overrideName(<Forestry:alveary:7>, I18N_Forestry_11);

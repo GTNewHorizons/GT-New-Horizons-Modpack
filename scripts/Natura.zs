@@ -2,11 +2,6 @@
 
 
 
-// --- Importing Stuff ---
-
-import mods.nei.NEI;
-
-
 // --- Chisel Add ---
 
 
@@ -36,9 +31,3 @@ mods.chisel.Groups.addVariation("bookshelf", <Natura:Natura.bookshelf:10>);
 mods.chisel.Groups.addVariation("bookshelf", <Natura:Natura.bookshelf:11>);
 // -
 mods.chisel.Groups.addVariation("bookshelf", <Natura:Natura.bookshelf:12>);
-
-
-
-// --- Hiding Stuff ---
-
-NEI.hide(<Natura:barleyFood:8>);

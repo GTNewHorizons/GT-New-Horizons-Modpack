@@ -6,8 +6,6 @@
 
 import mods.ic2.Compressor;
 
-import mods.nei.NEI;
-
 import minetweaker.item.IItemStack;
 import minetweaker.item.IIngredient;
 
@@ -196,9 +194,3 @@ mods.avaritia.ExtremeCrafting.addShaped(<appliedenergistics2:tile.BlockCreativeE
 [<ore:ingotInfinity>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <dreamcraft:item.EngineeringProcessorItemAdvEmeraldCore>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <ore:ingotInfinity>],
 [<ore:ingotInfinity>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <dreamcraft:item.EngineeringProcessorItemAdvEmeraldCore>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <ore:ingotInfinity>],
 [<ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>]]);
-
-
-
-// --- Renaming Stuff ---
-
-NEI.overrideName(UStorageHousing, I18N_AE2_0);
