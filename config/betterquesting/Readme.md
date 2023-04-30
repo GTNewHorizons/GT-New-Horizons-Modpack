@@ -77,7 +77,7 @@ https://try.github.io/
 9. For Tasks we usually use several optional retrieval and one retrieval. Other options are possible too but should only be used for a good reason.
 10. There are many more things to finetune: you can toggle if NBT data should matter, can delete parts of the NBT data of the required item, can allow for oredict substitutes, etc. For example, in a bee quest you should delete all NBT data except for the species and then make sure ignoreNBT is set to false.
 11. Select Rewards to add rewards. You can add Choice where the user chooses between items on a list, or item where they get all the items. Generally try to reward similar amounts as other quests in that tab.
-12. In Edit > Advanced, you can change additional properties. For example you can reorder the tasks, change the quest cooldown if it should have one, or toggle if the quest is a main quest. Keep in mind that some changes can crash your client. For instance, if you want to swap tasks around and accidentally assign the same index to two tasks.
+12. In Edit > Advanced, you can change additional properties. For example you can reorder the tasks, change the quest cooldown if it should have one, or toggle if the quest is a main quest. Be careful if you want to swap tasks around to not accidentally assign the same index to two tasks. That can currently crash the client.
 
 
 # Moving Quests
