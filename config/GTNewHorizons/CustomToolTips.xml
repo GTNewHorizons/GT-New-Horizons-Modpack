@@ -2,8 +2,10 @@
 <CustomToolTips>
 //Misc
 	<ToolTip ItemName="appliedenergistics2:tile.BlockDrive" ToolTip="§4Do not move chests with AE drives; It may corrupt your profile. No refunds!"/>
+	<ToolTip ItemName="appliedenergistics2:tile.BlockCreativeEnergyCell" ToolTip="§dInfinite Energy"/>
 	<ToolTip ItemName="cb4bq:BlockREB" ToolTip="§4This block will RESET ALL YOUR QUESTS, starting over from Tier 0. Do NOT build or use unless you really mean it!"/> 
 	<ToolTip ItemName="EnderIO:blockFusedQuartz" ToolTip="§4Blast resistance is now 20. DOES NOT PROTECT AGAINST NUKES!"/>
+	<ToolTip ItemName="EnderIO:blockTravelAnchor" ToolTip="Cooldown 2 seconds"/>
 	<ToolTip ItemName="ExtraUtilities:endConstructor" ToolTip="§3Now: Quite Expensive Device"/>
 	<ToolTip ItemName="ExtraUtilities:dark_portal" ToolTip="§3Riches beyond your imagination"/>
 	<ToolTip ItemName="ExtraUtilities:enderCollector" ToolTip="§4Warning: When broken, the powerful ender collector may vanish in an attempt to collect itself!...and take nearby items with it!"/>
@@ -12,9 +14,11 @@
 	<ToolTip ItemName="GregsLighting:ic2ElectricFloodlight" ToolTip="§4Maximum voltage in: 32 EU/t"/>
 	<ToolTip ItemName="IguanaTweaksTConstruct:clayBucketLava" ToolTip="§4You need Gloves for it?"/>
 	<ToolTip ItemName="minecraft:lava_bucket" ToolTip="§4You need Gloves for it?"/>
+	<ToolTip ItemName="minecraft:ender_chest" ToolTip="§3Only For Personal Use"/>
 	<ToolTip ItemName="RIO:item.chip.upgrade:2" ToolTip="§4Disabled Item; No recipe"/>
 	<ToolTip ItemName="Thaumcraft:ItemManaBean" ToolTip="§4left click disabled"/>
 	<ToolTip ItemName="Thaumcraft:WandCasting:36" ToolTip="§4Prolonged use is not recommended..."/>
+	<ToolTip ItemName="StevesCarts:CartModule:61" ToolTip="§dPerpetual Locomotion"/>
 	
 //Bags
 	<ToolTip ItemName="Backpack:backpack" ToolTip="4*9 Inventory - 36 Slots"/>
@@ -170,6 +174,7 @@
 //Gregtech	
 	<ToolTip ItemName="gregtech:gt.blockmachines:108" ToolTip="§4This furnace is deprecated use bricked blast furnace"/>
 	<ToolTip ItemName="gregtech:gt.blockmachines:1154" ToolTip="§4Hot coolant steam output is increased by 5x"/>
+	<ToolTip ItemName="gregtech:gt.blockmachines:1157" ToolTip="§bMay you have all the black gold you want, RIP Cerulean"/>
 	
 //GT Bee Combs
 	//<ToolTip ItemName="gregtech:gt.comb:0" ToolTip="§4Forestry can't process it"/>
@@ -325,6 +330,11 @@
 	<ToolTip ItemName="irontank:stainlesssteelTank" ToolTip="Stores up to 128 Buckets of one Liquid §4Not portable, use a dolly"/>
 	<ToolTip ItemName="irontank:titaniumTank" ToolTip="Stores up to 256 Buckets of one Liquid §4Not portable, use a dolly"/>
 	<ToolTip ItemName="irontank:tungstensteelTank" ToolTip="Stores up to 512 Buckets of one Liquid §4Not portable, use a dolly"/>
+
+//IC2
+	<ToolTip ItemName="IC2:itemPartCircuit" ToolTip="§7LV-tier"/>
+	<ToolTip ItemName="IC2:itemPartCircuitAdv" ToolTip="§eHV-tier"/>
+	
 	
 //OMT - AddOns
 	<ToolTip ItemName="openmodularturrets:solarPanelAddon" ToolTip="§4Disabled Item; No recipe"/>
@@ -360,6 +370,12 @@
 	<ToolTip ItemName="TConstruct:SearedBlock:1" ToolTip="§3Some metals processed in smeltery don't meet the purity requirement for GregTech processing."/>
 	<ToolTip ItemName="TConstruct:SearedBlock:2" ToolTip="§3Some metals processed in smeltery don't meet the purity requirement for GregTech processing."/>
 	<ToolTip ItemName="TConstruct:CastingChannel" ToolTip="§3Some metals processed in smeltery don't meet the purity requirement for GregTech processing."/>
+	<ToolTip ItemName="TConstruct:oreBerries" ToolTip="Can be placed on a empty IC2 Crop."/>
+	<ToolTip ItemName="TConstruct:oreBerries:1" ToolTip="Can be placed on a empty IC2 Crop."/>
+	<ToolTip ItemName="TConstruct:oreBerries:2" ToolTip="Can be placed on a empty IC2 Crop."/>
+	<ToolTip ItemName="TConstruct:oreBerries:3" ToolTip="Can be placed on a empty IC2 Crop."/>
+	<ToolTip ItemName="TConstruct:oreBerries:4" ToolTip="Can be placed on a empty IC2 Crop."/>
+	<ToolTip ItemName="TConstruct:oreBerries:5" ToolTip="Can be placed on a empty IC2 Crop."/>
 	
 //Railcraft tanks
 //Iron
