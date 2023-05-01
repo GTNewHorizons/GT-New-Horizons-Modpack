@@ -1115,7 +1115,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAC1g.desc=A much more efficient way to ma
 
 # Quest: Glue
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC6Q.name=§5§lGlue
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC6Q.desc=If you centrifuge sticky resin, you get glue. Glue is very useful in the creation of good circuit boards.%n%n§3Note that this is GT glue, not TiC glue.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAC6Q.desc=To make Good Circuit Boards, you need either glue or refined glue. %n%nYou can obtain refined glue either by centrifuging sticky resin or distilling glue. Note that it is GT glue, not Tinkers' Construct glue.%n%nAlternatively, you can extract glue from slime trees that you can obtain from slime islands in the sky.
 
 # Quest: Diodes
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC6w.name=§5§lDiodes
