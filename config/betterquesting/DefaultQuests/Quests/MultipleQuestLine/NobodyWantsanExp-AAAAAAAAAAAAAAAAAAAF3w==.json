@@ -31,7 +31,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "...right? So when building multiblocks, make sure you\n\n1. Don\u0027t cross chunk boundaries with the multiblock.\n\n2. Don\u0027t rely on resources coming from outside the chunk to prevent explosions. In other words, make sure you source your water locally.\n\nAlso, if you haven\u0027t discovered it yet, Electric machines don\u0027t like getting rain or snow on them. They\u0027ll start fires, and those fires have a chance of causing an explosion. This explosion will explode other machines, cascading until your whole base is a hole in the ground. This is one of the reason backups are a thing. Stay safe out there!\n\nGood luck.\n\n§3BTW, there\u0027s also an Explosion.log file in the logs folder that tracks what caused an explosion if you\u0027re unsure. It appears to reset on world load though."
+      "desc:8": "...right? So when building multiblocks, make sure you:\n\n1. Don\u0027t cross chunk boundaries with the multiblock.\n\n2. If possible, don\u0027t rely on resources coming from outside the chunk. Make sure you source your water locally.\n\nKeep in mind that electric machines don\u0027t like getting rain or snow on them. They\u0027ll start fires, and those fires have a chance of causing an explosion. This explosion will explode other machines, cascading until your whole base is a hole in the ground. This is one of the reason backups are a thing. Stay safe out there!\n\nIf worse comes to worst, there is logs/Explosion.log that tracks what caused an explosion. However, this file appears to reset on world load."
     }
   },
   "tasks:9": {

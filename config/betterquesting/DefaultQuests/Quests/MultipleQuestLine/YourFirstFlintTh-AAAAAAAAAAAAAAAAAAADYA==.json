@@ -58,7 +58,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Is the bone bow too expensive for your taste? Then make a flint throwing knife instead. You need flint and a stick to get 12 knives. The durability and the attack damage are very low but it still helps with killing mobs from a safe distance."
+      "desc:8": "Is the bone bow too expensive for your taste? Then make a flint throwing knife instead. You need flint and a stick to get 12 knives. The durability and the attack damage are very low but it still helps with killing mobs from a safe distance.\n\nThe pickup mechanism likely works as with arrows - you need to have the knife quiver in your inventory, not in your Battle Gear slots in order to pick them up."
     }
   },
   "tasks:9": {
