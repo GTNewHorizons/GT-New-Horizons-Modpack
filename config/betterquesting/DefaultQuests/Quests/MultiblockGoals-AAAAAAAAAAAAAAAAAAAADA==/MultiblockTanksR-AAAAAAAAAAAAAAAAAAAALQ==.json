@@ -31,7 +31,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "576 buckets of fluid, that should be enough to store all the creosote you have accumulated thus far. If that isn\u0027t enough you can make this tank bigger. The smallest tanks are 3x4x3 while the biggest are 9x8x9.\n\nHint: Fluid will auto-output (without any pumps) if you place a valve on the bottom side of the tank. The output rate is 1000 L/t so twice as fast as a GT HV Pump Cover. You can color the tank with Buildcraft paintbrushes and the GT spray can.\n\nIf you still use Railcraft tanks in later tiers, you boost the output rate by using pumps."
+      "desc:8": "576 buckets of fluid, that should be enough to store all the creosote you have accumulated thus far. If that isn\u0027t enough you can make this tank bigger. The smallest tanks are 3x4x3 while the biggest are 9x8x9.\n\nFluid will auto-output without any pumps if you place a valve on its bottom side at the center. The output rate is 1000 L/t so twice as fast as a GT HV Pump Cover. You can color the tank with Buildcraft paintbrushes and the GT spray can.\n\nIf you still use Railcraft tanks in later tiers, you boost the output rate by using pumps."
     }
   },
   "tasks:9": {
