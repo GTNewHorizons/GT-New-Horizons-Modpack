@@ -31,7 +31,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "If you are playing single player, updates mean having to reload the questbook. Use the Default Load Block to do it for you without having to enter creative mode - you don\u0027t lose progress, but you\u0027ll have new quests to complete! Use the items to craft it, then place it and right-click.\n\nSorry, no rewards, other than the satisfaction of knowing it\u0027s you versus the world.\n\n§3PS: This is the same as /bq_admin default load."
+      "desc:8": "If you are playing single player (SP), updating the pack means having to reload the questbook. \n\nUse the Default Load Block to do it for you without switching to creative mode - you don\u0027t lose progress, but you might have new quests to complete! Use the items to craft it, then place it and right-click.\n\nSorry, no rewards, other than the satisfaction of knowing it\u0027s you versus the world.\n\nThis block does the same as the command /bq_admin default load."
     }
   },
   "tasks:9": {

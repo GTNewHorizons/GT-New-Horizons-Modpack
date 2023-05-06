@@ -47,7 +47,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "The next tier of machine hull needs aluminium. You\u0027re gonna need it for every machine and machine part for this tier, so keep that EBF truckin\u0027.\n\nDid you remember to read the Safety First quest for details about mixing tiers? The most applicable part to remember here is that sending MV to an LV machine will cause it to explode. Sending MV voltage over LV cables causes them to melt, which causes a fire that can also cause an explosion. Additionally, recipes done in a tier higher than the original one (not ULV, ULV counts as LV) are overclocked. OC\u0027d recipes use 4x power, and complete 2x faster."
+      "desc:8": "The MV Machine Hull needs aluminium. You\u0027re also gonna need aluminium for every MV machine part, so keep that EBF truckin\u0027.\n\nHere are some tips on where to start:\n- MV Electrolyzer makes getting aluminium easier.\n- MV Extruder makes parts cheaper.\n- MV Miner saves your time.\n\nHave you read the quest Safety First for details about mixing tiers? \nSending MV to an LV machine causes it to explode. \nSending MV voltage over LV cables causes them to melt, which causes fire that will likely cause the machines to blow up. \nAdditionally, recipes done in a tier higher than the original one (not ULV, ULV counts as LV) are overclocked (OC\u0027d). The OC\u0027d recipes use 4x power but complete 2x faster."
     }
   },
   "tasks:9": {

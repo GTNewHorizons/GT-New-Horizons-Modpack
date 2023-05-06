@@ -31,7 +31,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Why, hello there! It seems you\u0027ve made it into the electrical age. Don\u0027t be so quick to throw away your steam machines, you\u0027ll probably want to keep using them for a while.\n\nTo make your life easier, you\u0027ll want to focus on getting a wiremill and bender first... once you suffer through making all the machine components.\n\nAfter that, the polarizer, assembler, lathe, and chemical reactor+fluid solidifier (for rubber) all help make things cheaper.\n\n§3PS: ULV doesn\u0027t exist."
+      "desc:8": "Why, hello there! It seems you\u0027ve made it into the electrical age. Don\u0027t be so quick to throw away your steam machines, you\u0027ll probably want to keep using them for a while.\n\nTo make your life easier, you\u0027ll want to focus on getting a wiremill and bender first... once you suffer through making all the machine components.\n\nAfter that, the polarizer, assembler, lathe, and chemical reactor+fluid solidifier (for rubber) all help make things cheaper.\n\nLV machines are more energy-efficient than their steam counterparts because steam machines convert Steam to Power with 50% efficiency, when the starting LV Steam Turbine has 85% efficiency.\n\nULV doesn\u0027t exist."
     }
   },
   "tasks:9": {

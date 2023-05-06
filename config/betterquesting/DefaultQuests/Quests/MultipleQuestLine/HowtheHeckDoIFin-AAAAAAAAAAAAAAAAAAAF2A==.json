@@ -31,7 +31,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "GregTech ore generation is based on veins. Veins are centered on orecenters, based on the chunk number. Look at upper left of the screen to find the chunk number. Those infos are displayed by InGame Info XML mod. It has some useful info, but for now you need to see chunk info like \"Chunk X: 3 Z: -2\".\n\nThe 3,-2 is the chunk\u0027s address. Ignore the negative sign.  Now, the orecenters are located at 3N+1 chunks.  So, 4,7 is an orecenter. 10,16. -22,19.  Etc. \nProtip: to find out if a number is divisible by 3, add the digits and see if the sum is divisible by 3.  So 86 \u003d 8+6 \u003d 14. So you need to go down 1 chunk or up 2 chunks so that you are on a 3N+1 chunk.\n\nFor reading all the way, I\u0027ll give you an ingot of iron.\n\n§6TLDR: There\u0027s an ore vein every 3 chunks. Look in the upper left to see if you\u0027re over one.\n\n§3They have nothing to do with biomes, ok?"
+      "desc:8": "GregTech ore generation is based on veins.\n\nVeins are centered on orecenters, based on the chunk number. Look at upper left of the screen to find the chunk number. This info is displayed by InGame Info XML mod. For now, you need to see chunk info like \"Chunk X: 3 Z: -2\".\n\nThe 3,-2 is the chunk\u0027s address. Ignore the negative sign. The orecenters are located at 3N+1 chunks. So, 4,7 is an orecenter, as well as 10,16, -22,19, and so on.\n\nThe generation of Ore Chunks is not related to biomes.\n\nFor reading all the way, here\u0027s some iron."
     }
   },
   "tasks:9": {

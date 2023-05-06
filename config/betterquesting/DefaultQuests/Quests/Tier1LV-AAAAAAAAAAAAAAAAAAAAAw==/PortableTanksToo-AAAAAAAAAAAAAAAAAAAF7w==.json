@@ -31,7 +31,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "How about large steel fluid cells instead? Each holds 8000L, and they can stack to 64. Unfortunately, you have to load and unload them using a machine\u0027s interface (like ULV tanks for example), but hey, 512 buckets in a single slot is pretty good!\n\n§3In case it wasn\u0027t clear, you cannot use these directly in the world, like with BC tanks, or dumping the fluid on the ground."
+      "desc:8": "How about large steel fluid cells instead? Each holds 8000L, and they can stack to 64. Unfortunately, you have to load and unload them using a machine\u0027s interface - like ULV tanks for example - but hey, 512 buckets in a single slot is pretty good!\n\nYou cannot use these cells directly in the world, like BC tanks, or to dump the fluid on the ground."
     }
   },
   "tasks:9": {

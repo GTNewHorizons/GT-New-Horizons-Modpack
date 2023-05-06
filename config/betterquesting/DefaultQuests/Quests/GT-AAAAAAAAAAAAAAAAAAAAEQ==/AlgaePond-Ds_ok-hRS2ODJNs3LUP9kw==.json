@@ -70,7 +70,7 @@
         },
         "1:10": {
           "id:8": "miscutils:item.BasicAgrichemItem",
-		      "Count:3": 1,
+          "Count:3": 1,
           "Damage:2": 1,
           "OreDict:8": ""
         },
@@ -92,7 +92,7 @@
           "Damage:2": 4,
           "OreDict:8": ""
         },
-	"5:10": {
+        "5:10": {
           "id:8": "enhancedlootbags:lootbag",
           "Count:3": 3,
           "tag:10": {
@@ -104,9 +104,9 @@
             }
           },
           "Damage:2": 5,
-		      "OreDict:8": ""
+          "OreDict:8": ""
         }
       }
-	  }
+    }
   }
 }
