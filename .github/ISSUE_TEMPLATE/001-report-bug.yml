@@ -42,6 +42,7 @@ body:
     - Java 11
     - Java 17
     - Java 19
+    - Java 20
     - Other versions in between
   validations:
     required: true
