@@ -40,4 +40,5 @@ jobs:
         stale-issue-label: 'Status: stale (FixedInDev)'
         exempt-issue-labels: 'Status: stale'
         any-of-labels: "Status: FixedInDev"
+        close-issue-reason: 'completed'
         ascending: true
