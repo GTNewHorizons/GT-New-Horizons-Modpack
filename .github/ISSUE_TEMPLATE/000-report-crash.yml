@@ -72,9 +72,9 @@ body:
   id: report
   attributes:
     label: Crash Report
-    label: <details><summary>Log</summary>
+    value: <details><summary>Log</summary>
     description: "If no crash report is created, attach `logs/fml-client-latest.log` or `logs/fml-server-latest.log`, depending on if it's a dedicated server crash or a client crash. You can also type in additional info that you consider important."
-    label: </details>
+    value: </details>
     placeholder: "Example: pastebin/something OR submit the file to github by dragging it to this textbox."
   validations:
     required: true
