@@ -49,7 +49,7 @@ https://try.github.io/
 3. Before you begin making changes, you want to click `Fetch origin` to get the latest updates and then start a new branch (`Branch`, then `New Branch`). If you followed 2. that will automatically be based on the GTNewHorizons/GT-New-Horizons-Modpack master branch.
 4. Start GTNH. You need the full game, not a development environment. You should also check that you are using the latest BQ from https://github.com/GTNewHorizons/BetterQuesting/releases (you should only use normal versions, not pre-versions).
 5. Replace the DefaultQuests folder in your config/betterquesting game files with the one from your github folder. That means to delete the existing folder and then copy in the one from github, do not merge them!
-6. Run `/bq_admin default load` in the game chat. If the command crashes your client, wait a bit before running it. If it crashes again, wait for up to a minute.
+6. Run `/bq_admin default load` in the game chat. (Apparently it can crash if you run it immediately when entering a world, so wait a few seconds to be sure.)
 7. Double check your questbook is indeed up to date with the latest changes on GTNewHorizons/GT-New-Horizons-Modpack.
 8. Use `/bq_admin edit` to unlock edit mode. Now you can actually start editing quests!
 9. While doing changes, make regular commits to your branch. To do so start by using `/bq_admin default save`. LOOK REALLY CLOSELY AT THE COMMAND AND MAKE SURE IT SAYS *SAVE*. LIKE SERIOUSLY STARE AT IT.
