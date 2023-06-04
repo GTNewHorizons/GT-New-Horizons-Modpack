@@ -1,0 +1,11 @@
+[
+    {
+        "modId": "ExtraUtilities",
+        "deps": [
+            {
+                "type": "after",
+                "target": "Thaumcraft"
+            }
+        ]
+    }
+]
