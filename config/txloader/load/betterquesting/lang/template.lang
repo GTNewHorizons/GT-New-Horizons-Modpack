@@ -4717,6 +4717,10 @@ betterquesting.quest.U6wfKJSxTiyYvcz-f-76EA.desc=A planar gateway from Thaumic H
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAACw.name=...Without Dying
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAACw.desc=In order to not die constantly, you'll need weapons and armor. There's also utility stuff adventure backpacks and static defenses for your base.
 
+# Quest: Mob Repellators
+betterquesting.quest.tgH86mIERWKIh8OAleKrSw.name=Mob Repellators
+betterquesting.quest.tgH86mIERWKIh8OAleKrSw.desc=First available in LV, the Mob Repellator prevents mobs from spawning in its radius. It works without power, but with it has a higher range.%n%n§3You only need one to complete the quest.
+
 # Quest: Protect Your Base: Tier 1
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAeA.name=§5§lProtect Your Base: Tier 1
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAeA.desc=One needs proper protection for ones home. So why not get some turrets for safety? At the moment, 2 Turrets are available: "Potato" and "disposable item". I assume you can guess what they do and how they work...
