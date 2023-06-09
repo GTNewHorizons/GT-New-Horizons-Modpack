@@ -3059,7 +3059,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAL6Q.desc=For the next step in the proces
 
 # Quest: Zirconium Ingots
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL6g.name=§b§lZirconium Ingots
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL6g.desc=Just EBF your zirconium tetrachloride with some magnesium and you're done!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL6g.desc=Just EBF your zirconium tetrachloride with some magnesium and you're done!%n%nZirconium is used in many different multiblock machines such as the Industrial mixer and the Alloy blast smelter that you might have already built. It's also used in the creation of High Density rods for an extra boost to your nuclear reactors.%n
 
 # Quest: We Ain't Running a Farm!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL6w.name=§b§lWe Ain't Running a Farm!
@@ -3067,7 +3067,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAL6w.desc=...What's this low-purity hafni
 
 # Quest: Finally, Actual Hafnium
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL7A.name=§b§lFinally, Actual Hafnium
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL7A.desc=Now that wasn't so hard, was it?%n%nYou also get half of your Iodine back with this. Also, keep the runoff. It might become useful later, especially if stuff's suggested §owink wink nudge nudge§r
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL7A.desc=Now that wasn't so hard, was it? %n%nHafnium is used as a component in making the Sparge tower which is useful if you ventured into the Liquid Fluorine Thorium Fluid Nuclear reactor.%n%nYou also get half of your Iodine back with this. Also, keep the runoff. It might become useful later, especially if stuff's suggested §owink wink nudge nudge§r
 
 # Quest: Dilution, Yet Again
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL7Q.name=§b§lDilution, Yet Again
@@ -3139,7 +3139,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMBA.desc=Another way to get Sunnarium! J
 
 # Quest: You Can't Be Cerious!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMBw.name=§b§lYou Can't Be Cerious!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMBw.desc=Punny, right?%n%nYou now can electrolyze the cerium oxide to get pure elemental cerium dust.%n%nOh, and oxygen, but who cares about that anymore?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMBw.desc=Punny, right?%n%nYou now can electrolyze the cerium oxide to get pure elemental cerium dust.%n%nOh, and oxygen, but who cares about that anymore?%n%nThis handy material is useful in many different multiblock machines that will be unlocked in later tiers such as the Precise Assembler, the Elemental Duplicator and better casings to the Chemical Plant for a new tier of rocket fuel.
 
 # Quest: Freezing Nitrates
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMCA.name=§b§lFreezing Nitrates
@@ -3175,7 +3175,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMDw.desc=When you inevitably get Samariu
 
 # Quest: Finally, Samarium!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEA.name=§b§lFinally, Samarium!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEA.desc=(And Gadolinium)%n%nEasy, right? Not to worry, there's always the bastnasite line to stay your hunger for complex lines!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEA.desc=(And Gadolinium)%n%nEasy, right? Not to worry, there's always the bastnasite line to stay your hunger for complex lines!%n%nSamarium can be used to fuel your ever growing Magnetic Samarium Rods needs from LuV up to UHV while Gadolinium is used in the far lategame in the making of powerfull Compact Fusion reactors.
 
 
 ## Quest Line: Tier 6 - LuV
