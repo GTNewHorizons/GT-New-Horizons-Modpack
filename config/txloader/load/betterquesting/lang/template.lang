@@ -7,7 +7,7 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAAAA.desc=The very first tier, tier z
 
 # Quest: Your First Night
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAAA.name=§d§3§2§1§lYour First Night
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAAA.desc=Your first task is to find food and shelter for the night. The nights in this pack are cruel because of hardcore darkness.%n%n§lYou don't need to keep this book. Use the Tilde (~) button to open quests without the book§r ...if your keybinds don't conflict.%n%nIf you need some extra help or just want to hang out, feel free to visit our Discord server at §1§n[url]discord.gg/gtnh[/url]§r - the links are clickable. Select your tech tier in #role-select - it will help people to tailor their advice to your situation.%n%nMany GTNH topics are explained in our Wiki at §1§n[url]gtnh.miraheze.org/wiki/Main_Page[/url]§r. Some things need more text to explain than the questbook (QB) can do.%nAlso, pictures. %nAlso, beginner guides if you think the questbook is not enough. There is also a list of optional mods for those who want to be even fancier.%n%nAdditionally, there is a spreadsheet at §1§n[url]bit.ly/gtnh-datasheets[/url]§r for the info you would want a spreadsheet for.%n%nIf you play through the §4CurseForge§r launcher, be aware that it doesn't always work properly. The Curse launcher doesn't play well with custom versions of mods that this pack has. So if you have any problems, first switch to another launcher like MultiMC§r, Prism Launcher§r, or Technic§r. The latest version of the pack is available on the Discord channel from #announcements or with the !download command.%n%nHopefully you didn't get munched by a monster while reading this.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAAA.desc=Your first task is to find food and shelter for the night. The nights in this pack are cruel because of hardcore darkness.%n%n§lYou don't need to keep this book. Use the Tilde (~) button to open quests without the book§r ...if your keybinds don't conflict.%n%nIf you need some extra help or just want to hang out, feel free to visit our Discord server at §1§n[url]https://discord.gg/gtnh[/url]§r - the links are clickable. Select your tech tier in #role-select - it will help people to tailor their advice to your situation.%n%nMany GTNH topics are explained in our Wiki at §1§n[url]https://gtnh.miraheze.org/wiki/Main_Page[/url]§r. Some things need more text to explain than the questbook (QB) can do.%nAlso, pictures. %nAlso, beginner guides if you think the questbook is not enough. There is also a list of optional mods for those who want to be even fancier.%n%nAdditionally, there is a spreadsheet at §1§n[url]https://bit.ly/gtnh-datasheets[/url]§r for the info you would want a spreadsheet for.%n%nIf you play through the §4CurseForge§r launcher, be aware that it doesn't always work properly. The Curse launcher doesn't play well with custom versions of mods that this pack has. So if you have any problems, first switch to another launcher like MultiMC§r, Prism Launcher§r, or Technic§r. The latest version of the pack is available on the Discord channel from #announcements or with the !download command.%n%nHopefully you didn't get munched by a monster while reading this.
 
 # Quest: Where's the Flint?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAAQ.name=§1§lWhere's the Flint?
@@ -3517,7 +3517,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKPg.desc=Why are they circles anyway? Wo
 
 # Quest: ZPM Assembler
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKQQ.name=ZPM Assembler
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKQQ.desc=Like previous tiers, you need a same-tier assembler to make the energy hatch. It's also used to make the Naquadah Alloy Coils.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKQQ.desc=Like previous tiers, you need a same-tier assembler to make the energy hatch. It's also used to make Trinium Coils.
 
 # Quest: ZPM Energy Hatch
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKQw.name=ZPM Energy Hatch
@@ -3837,9 +3837,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKRQ.desc=If you want to make the T8 Rock
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKTA.name=Pick-n-Place All Over the Place
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKTA.desc=To make Bioware Boards and Circuits, you need to make a UV Circuit Assembling Machine. This is the last Circuit Assembling Machine in the game you need to make.
 
-# Quest: The Final Frontier
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKWA.name=The Final Frontier
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKWA.desc=There're no more rockets to make after this, though there's still at least one more place to visit. After this is the Deep Dark, which has all the ores+more.%n%nAlthough you get access to six new planets, there's only two new veins. And don't complain that Barnarda should be Barnard, we can't fix it.%n%nThe Barnarda system is to the NNW, and you can visit Barnada C, E, and F.%nThe Alpha Centauri system is to the NE, and you can vist Alpha Centauri Bb (Proxima Centauri is not visitable). §3Remember to wear your SpaceSuit!§r%nThe Tau Ceti system is to the SSW, and you can visit the habitable planet Tau Ceti E.%nThe Vega System is to the WNW, and you can visit the planet Vega B.%n%nThe new veins are Cadmium and Samarium. The ores are Cadmium, Caesium, Cerium, Lanthanum, Neodymium, Samarium, and Tartarite.%n%nYou can get Awakened Draconium from small ores on Barnarda E, Barnarda F, Tau Ceti E, and Vega B.%nYou can get Bedrockium from small ores on Barnarda F.%nYou can get Infinity Catalyst from small ores on Vega B.%n%nIn addition to planet ores and blocks, grab some Barnarda C Saplings and Dirt so you can grow some more if you need it for Radox (lol). You can also grab some more Unknown Crystal Shards from the Rainbow Crystals lying around.%n%nMore importantly you should collect Seaweed from Tau Ceti E. You need it to make UEV circuits, and though you can make it as well, you need some to begin with. The unknown liquid to grow these is however found in lakes and underground on Barnarda C.
+# Quest: The Final Frontier?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKWA.name=The Final Frontier?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKWA.desc=The last of the normal rocket progression. After this is there is only the Mothership for the T9 system and the Deep Dark, which has all the ores+more.%n%nAlthough you get access to six new planets, there's only two new veins. And don't complain that Barnarda should be Barnard, we can't fix it.%n%nThe Barnarda system is to the NNW, and you can visit Barnada C, E, and F.%nThe Alpha Centauri system is to the NE, and you can vist Alpha Centauri Bb (Proxima Centauri is not visitable). §3Remember to wear your SpaceSuit!§r%nThe Tau Ceti system is to the SSW, and you can visit the habitable planet Tau Ceti E.%nThe Vega System is to the WNW, and you can visit the planet Vega B.%n%nThe new veins are Cadmium and Samarium. The ores are Cadmium, Caesium, Cerium, Lanthanum, Neodymium, Samarium, and Tartarite.%n%nYou can get Awakened Draconium from small ores on Barnarda E, Barnarda F, Tau Ceti E, and Vega B.%nYou can get Bedrockium from small ores on Barnarda F.%nYou can get Infinity Catalyst from small ores on Vega B.%n%nIn addition to planet ores and blocks, grab some Barnarda C Saplings and Dirt so you can grow some more if you need it for Radox (lol). You can also grab some more Unknown Crystal Shards from the Rainbow Crystals lying around.%n%nMore importantly you should collect Seaweed from Tau Ceti E. You need it to make UEV circuits, and though you can make it as well, you need some to begin with. The unknown liquid to grow these is however found in lakes and underground on Barnarda C.
 
 # Quest: It's Not Going Bad, I Swear!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKYQ.name=It's Not Going Bad, I Swear!
@@ -5281,6 +5281,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIcA.desc=Yet another custom block system
 # Quest: Catwalks
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM3g.name=Catwalks
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM3g.desc=The Catwalks Mod adds several cosmetic blocks to deck out your factory.%n%nScaffolds and Builder's Scaffolds are useful for building up in the air before you get access to flight. They can be climbed like ladders, and break instantly when punched. You will also not fall off of them if you let go of movement keys while climbing. If you right-click the Builder's Scaffold with a solid block, the scaffold will be replaced by that block.%n%nCatwalks can connect to each other to form a wide passageway. You can decorate them by attaching Caution Tape or Rope Lights, the latter provide dim lighting.%n%nCaged Ladders give you a way to move up and down without a risk of falling off. Climbing them is much faster than vanilla ladders.%n%nSupport Columns are purely decorative. They connect to each other in all directions. They also work as ladders.%n%nSturdy Rails let you run minecart tracks across gaps without supports. Right-click the Sturdy Powered Rail with a Blowtorch to power it permanently, you don't need a redstone torch. If you don't have enough distractions already, use them to build a rollercoaster!%n%nThe Blowtorch lets you remove railings or even the floor from a catwalk by right-clicking. Use it to make an opening to let you walk onto the catwalk, or if you don't know what an "OSHA violation" is. The same function can be performed by a GT or Forge-compatible wrench, so you don't actually need to make this.%n
+
+# Quest: A Modern Technology
+betterquesting.quest.VFVruPLHQAeDthuV-s7HGQ.name=A Modern Technology
+betterquesting.quest.VFVruPLHQAeDthuV-s7HGQ.desc=Concrete. Eh sorry, Hempcrete! A new modern technology brought to you via the GTNH Chisel mod. All 16 colors.%n%nThere are a lot of other nice blocks in Chisel. Just type "@chisel" in NEI and look around.
 
 
 ## Quest Line: Forestry and Multifarms
@@ -7415,6 +7419,10 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAAIg.desc=A guide to help you start G
 betterquesting.quest.qz7VHLFvQx6gDw3KZDIj0g.name=A Better Rocket Fuel
 betterquesting.quest.qz7VHLFvQx6gDw3KZDIj0g.desc=If you want to go further than Mars you need a better rocket fuel. From here on out there is only one choice. The Chemical Plant is at the heart of the production. If you dont have one yet, you should have a look at it. It has 4 separate tier system and might be a bit over whelming at first, but there is a minecraft book that can tell you everything about it. Also check out the quest for the Chemical Plant in the GT++ quest tab.%n%n§4Don't use the NEI Preview for the Chemical Plant, it is wrong.
 
+# Quest: A Mothership to the T9 system
+betterquesting.quest.7QXJAa9MSsunO54cUSpcog.name=A Mothership to the T9 system
+betterquesting.quest.7QXJAa9MSsunO54cUSpcog.desc=There is one last star system to conquer. You need one final rocket to get there. A big one. So big in fact you should build it in space. Make a shuttle rocket to get up there and build the mothership (similar to how you build a space station).%n%nThere are new ore veins on the T9 planets. In particular you should look for Tengam on Seth. You will need that for UEV.%n%n§3More information to follow, this is wip content.
+
 # Quest: H8N4C2O4 (Green) Rocket Fuel
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAkw.name=H8N4C2O4 (Green) Rocket Fuel
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAkw.desc=This is the final Rocket Fuel. With this, you can go anywhere. If you have the right rocket, of course.
@@ -7645,7 +7653,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFrQ.desc=Rockets require heavy duty plat
 
 # Quest: Rocket Tier 3
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFrg.name=Rocket Tier 3
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFrg.desc=After days of hard work and a hundred tons of stacks of iTNT your third rocket is finally ready.%n%nYou need to use Dense Hydrazine Rocket Fuel or better to fuel it.%n%n§3If you started on an older version of GTNH and still have some LMP-103S, you can also use that as rocket fuel! But you can't make any more of it, so better look into Dense Hydrazine anyway.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFrg.desc=After days of hard work and a hundred tons of stacks of iTNT your third rocket is finally ready.%n%nYou need to use Dense Hydrazine Rocket Fuel or better to fuel it.
 
 # Quest: Tier 3 Lander
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFsA.name=Tier 3 Lander
@@ -7725,7 +7733,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAF_A.desc=Rockets require heavy duty plat
 
 # Quest: Rocket Tier 4
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF_w.name=Rocket Tier 4
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF_w.desc=After weeks of hard work and a thousand stacks of iTNT your fourth rocket is finally ready.%n%nYou need to use Dense Hydrazine Rocket Fuel.%n%n§3If you started on an older version of GTNH and still have some LMP-103S, you can also use that as rocket fuel! But you can't make any more of it, so better look into Dense Hydrazine anyway.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF_w.desc=After weeks of hard work and a thousand stacks of iTNT your fourth rocket is finally ready.%n%nYou need to use Dense Hydrazine Rocket Fuel.
 
 # Quest: Io Dungeon
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGuw.name=Io Dungeon
@@ -7741,7 +7749,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGvQ.desc=Each rocket needs a Control Com
 
 # Quest: Rocket Tier 5
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGvg.name=Rocket Tier 5
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGvg.desc=After a month of hard work and ten thousand stacks of iTNT your fifth rocket is finally ready.%n%nYou need to use CN3H7O3 (Purple) Rocket Fuel or better to fuel it.%n%n§3If you started on an older version of GTNH and still have some Monomethylhydrazine Fuel Mix, you can also use that as rocket fuel! But you can't make any more of it, so better look into CN3H7O3 anyway.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGvg.desc=After a month of hard work and ten thousand stacks of iTNT your fifth rocket is finally ready.%n%nYou need to use CN3H7O3 (Purple) Rocket Fuel or better to fuel it.
 
 # Quest: Heavy Duty Nose Cone Tier 3
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGvw.name=Heavy Duty Nose Cone Tier 3
@@ -7789,7 +7797,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAI9Q.desc=To make Nitrogen Tetroxide you 
 
 # Quest: Hydrazine
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJWg.name=Hydrazine
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJWg.desc=Hydrazine is made from Ammonia and Hydrogen Peroxide.%n%n§4Hydrogen Peroxide Cell is overridden by BW one. Use tanks or Universal Cells or large cells to proceed, don't put it in a cell.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJWg.desc=Hydrazine is made from Ammonia and Hydrogen Peroxide.
 
 # Quest: Formaldehyde Catalyst
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJWw.name=Formaldehyde Catalyst
@@ -7805,7 +7813,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKTw.desc=Rockets require heavy duty plat
 
 # Quest: Rocket Tier 6
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKUA.name=Rocket Tier 6
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKUA.desc=After building this, you can visit more planets.%n%nYou need to use CN3H7O3 (Purple) Rocket Fuel or better to fuel it.%n%n§3If you started on an older version of GTNH and still have some Monomethylhydrazine Fuel Mix, you can also use that as rocket fuel! But you can't make any more of it, so better look into CN3H7O3 anyway.%n%n§3If you want to make this rocket in ZPM, you'll need to use the GT++ Assembler multi.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKUA.desc=After building this, you can visit more planets.%n%nYou need to use CN3H7O3 (Purple) Rocket Fuel or better to fuel it.%n%n§3If you want to make this rocket in ZPM, you'll need to use the GT++ Assembler multi.
 
 # Quest: Tier 7 Heavy Duty Plates
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKUQ.name=Tier 7 Heavy Duty Plates
@@ -7813,7 +7821,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKUQ.desc=Rockets require heavy duty plat
 
 # Quest: Rocket Tier 7
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKUg.name=Rocket Tier 7
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKUg.desc=You can now visit the planets on the edge of the solar system with this rocket.%n%nYou need to use H8N4C2O4 (Green) Rocket Fuel to fuel it.%n%n§3If you started on an older version of GTNH and still have some Unsymmetrical Dimethylhydrazine Fuel Mix, you can also use that as rocket fuel! But you can't make any more of it, so better look into H8N4C2O4 anyway.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKUg.desc=You can now visit the planets on the edge of the solar system with this rocket.%n%nYou need to use H8N4C2O4 (Green) Rocket Fuel to fuel it.
 
 # Quest: Tier 8 Heavy Duty Plates
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKUw.name=Tier 8 Heavy Duty Plates
@@ -7821,7 +7829,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKUw.desc=Rockets require heavy duty plat
 
 # Quest: Rocket Tier 8
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKVA.name=Rocket Tier 8
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKVA.desc=You can travel to other solar systems with this, the final rocket.%n%nWhat, you visited other star systems before? There, was, uh, like, a nebula you couldn't go past to these ones. That makes sense, right?%n%nYou need to use H8N4C2O4 (Green) Rocket Fuel to fuel it.%n%n§3If you started on an older version of GTNH and still have some Unsymmetrical Dimethylhydrazine Fuel Mix, you can also use that as rocket fuel! But you can't make any more of it, so better look into H8N4C2O4 anyway.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKVA.desc=You can travel to other solar systems with this, the T8 rocket.%n%nWhat, you visited other star systems before? There, was, uh, like, a nebula you couldn't go past to these ones. That makes sense, right?%n%nYou need to use H8N4C2O4 (Green) Rocket Fuel to fuel it.
 
 # Quest: RP-1 Rocket Fuel
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKfA.name=RP-1 Rocket Fuel
@@ -10369,7 +10377,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEmQ.desc=Now it's time to 'cook' your fi
 
 # Quest: Primal Shrooms
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFBg.name=Primal Shrooms
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFBg.desc=Primal shrooms allow you to refill wands easier before you can move nodes to your base.%n%nGo and find some Vishrooms in a magical forest biome. Try using a Nature's Compass. Or buy some using coins if no biome is close to your location.%n%n2 pumpkins and 4 tiny piles of stone dust are the perfect combo to make these.%n%nWhenever they're fully grown, you can break them to get some vis orbs to drop, just like enemies do. You do need to be holding the wand to collect it though. For these to grow, they will need a certain light level.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFBg.desc=Primal shrooms allow you to refill wands easier before you can move nodes to your base.%n%nGo and find some Vishrooms in a magical forest biome. Try using a Nature's Compass. Or buy some using coins if no biome is close to your location.%n%n1 pumpkin and 4 tiny piles of stone dust are the perfect combo to make these.%n%nWhenever they're fully grown, you can break them to get some vis orbs to drop, just like enemies do. You do need to be holding the wand to collect it though. For these to grow, they will need a certain light level.
 
 # Quest: Stuck in the Twilight Forest?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFWA.name=Stuck in the Twilight Forest?
@@ -13213,7 +13221,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAF2Q.desc=Now that you know what an Ore C
 
 # Quest: Better Questing?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF3A.name=§1§lBetter Questing?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF3A.desc=Better Questing has a number of useful commands for the questbook (QB). You need to have cheats enabled to use them. %n%n/bq_admin default load§r%nUse this command to update your QB after you update the modpack. It reloads the quest database from the file. Your save file stores a version of the QB that can be different from the one in the file.%n%n§//bq_admin edit%nToggles editing quests. Pressing RMB on the quest will open a context menu to share it or copy its ID.%n%n/bq_admin reset all <Player>§r%nResets all quests. Use this if you want to start over, or are editing the QB. You should specify the player as well if it is a server, otherwise you can skip that part.%n%n/bq_admin reset <ID> <Player>§r%nResets a specific quest, defined by the quest ID. Sometimes it may be easier to go into Edit Mode > Designer Tool to specify what to reset.%n%n/bq_admin complete <number> <Player>§r%nCompletes a specific quest, similarly to the above. You can still claim the rewards. Use this command if a quest is broken, and then report it on GitHub§r, but please check if it's already reported.%n%n/bq_admin default save§r%nSaves changes to the QB after editing it.%n%n/bq_copyquests <PlayerWithQuestsCompleted> <NewPlayer>§r%nIf you want to sync the quests with someone in your party, then use this. They won't get any rewards for that though.%n%n/bq_admin hardcore§r%nEnables BQ3 Hardcore Mode. You only start with 3 lives, so best of luck. Additional life hearts are available in the Kill all the Things tab.%n%nAside from the consume-type quests, a quest counts for everyone in the party if one person finished it. However, if someone joined your party later, you need to get them up to speed first either through /bq_copyquests above, or manually. Otherwise, your quest completion won't count for them because the requirements for that quest are not fulfilled for them.%n%nIf your singleplayer world does not have cheats enabled, go to the ESC screen, open to LAN, then enable cheats. This makes pausing impossible until you reload afterwards. If you host a server, you can run the commands in the command line, without "/". You can also edit the level.dat file, and set 'allowCommands' to 1, but make sure to backup your world before doing that.%n%n§4For quests to save properly, you must be online and logged into your Mojang account when starting the game. Sorry, it's a limitation of Better Questing.§r
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF3A.desc=Better Questing has a number of useful commands for the questbook (QB). You need to have cheats enabled to use them. %n%n/bq_admin default load§r%nUse this command to update your QB after you update the modpack. It reloads the quest database from the file. Your save file stores a version of the QB that can be different from the one in the file.%n%n/bq_admin edit%nToggles editing quests. Pressing RMB on the quest will open a context menu to share it or copy its ID.%n%n/bq_admin reset all <Player>§r%nResets all quests. Use this if you want to start over, or are editing the QB. You should specify the player as well if it is a server, otherwise you can skip that part.%n%n/bq_admin reset <ID> <Player>§r%nResets a specific quest, defined by the quest ID. Sometimes it may be easier to go into Edit Mode > Designer Tool to specify what to reset.%n%n/bq_admin complete <number> <Player>§r%nCompletes a specific quest, similarly to the above. You can still claim the rewards. Use this command if a quest is broken, and then report it on GitHub§r, but please check if it's already reported.%n%n/bq_admin default save§r%nSaves changes to the QB after editing it.%n%n/bq_copyquests <PlayerWithQuestsCompleted> <NewPlayer>§r%nIf you want to sync the quests with someone in your party, then use this. They won't get any rewards for that though.%n%n/bq_admin hardcore§r%nEnables BQ3 Hardcore Mode. You only start with 3 lives, so best of luck. Additional life hearts are available in the Kill all the Things tab.%n%nAside from the consume-type quests, a quest counts for everyone in the party if one person finished it. However, if someone joined your party later, you need to get them up to speed first either through /bq_copyquests above, or manually. Otherwise, your quest completion won't count for them because the requirements for that quest are not fulfilled for them.%n%nIf your singleplayer world does not have cheats enabled, go to the ESC screen, open to LAN, then enable cheats. This makes pausing impossible until you reload afterwards. If you host a server, you can run the commands in the command line, without "/". You can also edit the level.dat file, and set 'allowCommands' to 1, but make sure to backup your world before doing that.%n%n§4For quests to save properly, you must be online and logged into your Mojang account when starting the game. Sorry, it's a limitation of Better Questing.§r
 
 # Quest: Backup Your Stuff...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF3Q.name=§1§lBackup Your Stuff...
@@ -13273,7 +13281,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAH_w.desc=Some machines have a very, very
 
 # Quest: Planetary Tears
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIGA.name=Planetary Tears
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIGA.desc=Indeed you will be crying over all the tiers you have to do for planets. Here is a handy reference.%n%nTier 1 - Requires Oxygen Gear%nMoon%n%nTier 2 - Requires Thermal Padding%nDeimos%nMars%nPhobos%n%nTier 3 - Requires tier 2 Thermal Padding (T2TP)%nAsteroids - Counts as Zero-G, because there's no planet%nCallisto%nCeres%nEuropa%nGanymede%nRoss128b - Habitable Planet (needs no Oxygen Gear/Thermal Padding)%n%nTier 4 - Requires T2TP%nIo%nMercury%nVenus - Requires SpaceSuit%n%nTier 5  Requires T2TP%nEnceladus%nMiranda%nOberon%nRoss128ba%nTitan%n%nTier 6 - Requires T2TP%nProteus%nTriton%n%nTier 7   Requires T2TP%nKuiper Belt - Also counts as Zero-G%nHaumea%nMakemake%nPluto%n%nTier 8 - Requires T2TP%nAlpha Centauri Bb - Requires SpaceSuit%nBarnarda C - Habitable Planet (needs no Oxygen Gear/Thermal Padding)%nBarnarda E%nBarnarda F%nTau Ceti E - Habitable Planet (needs no Oxygen Gear/Thermal Padding)%nVega B
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIGA.desc=Indeed you will be crying over all the tiers you have to do for planets. Here is a handy reference.%n%nTier 1 - Requires Oxygen Gear%nMoon%n%nTier 2 - Requires Thermal Padding%nDeimos%nMars%nPhobos%n%nTier 3 - Requires Thermal Padding Tier 2%nAsteroids - Counts as Zero-G, because there's no planet%nCallisto%nCeres%nEuropa%nGanymede%nRoss128b - Habitable Planet (needs no Oxygen Gear/Thermal Padding)%n%nTier 4 - Requires Thermal Padding Tier 2%nIo%nMercury%nVenus - Requires SpaceSuit%n%nTier 5  Requires Thermal Padding Tier 2%nEnceladus%nMiranda%nOberon%nRoss128ba%nTitan%n%nTier 6 - Requires Thermal Padding Tier 2%nProteus%nTriton%n%nTier 7   Requires Thermal Padding Tier 2%nKuiper Belt - Also counts as Zero-G%nHaumea%nMakemake%nPluto%n%nTier 8 - Requires Thermal Padding Tier 2%nAlpha Centauri Bb - Requires SpaceSuit%nBarnarda C - Habitable Planet (needs no Oxygen Gear/Thermal Padding)%nBarnarda E%nBarnarda F%nTau Ceti E - Habitable Planet (needs no Oxygen Gear/Thermal Padding)%nVega B%n%nTier 9 - ?%nHorus%nNeper%nMehen Belt%nMaahes%nSeth%nAnubis
 
 # Quest: E_TOO_MANY_KEYS
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIYQ.name=§1§lE_TOO_MANY_KEYS
@@ -13301,7 +13309,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJZA.desc=You can hunt endermen the Vanil
 
 # Quest: Numbers in the Corner?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJZg.name=§1§lNumbers in the Corner?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJZg.desc=What's with the numbers in the corner? That is an In-Game Info (IGI) mod. %nSome of the info it gives is useful right away, some of it shines later on in progression.%n%nFor now, the most important thing it does is showing if you are in an ore chunk. Further quests will explain what it means.%n%nIf you want to hide it, type "/igi disable" in the chat. %nType "/igi enable" if you want to turn it back on.%n%n§TThe command "/igi config" opens the configuration window to control its position, scale, and size.%n%nThe command "/xu_tps" toggles the Ticks Per Second (TPS) meter from the mod Extra Utilities.  %nTPS is a measure of how well your server is running. The ideal TPS is 20. %nIf TPS is less than 15, thing are going to start lagging noticeably. %nAt TPS of 10 or less, it is going to be hard to play.%nThe tooltip shows three types of TPS: instantaneous, average, and worst-case.%nIf you need suggestions on solving TPS problems, feel free to ask for help in the GTNH Discord.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJZg.desc=What's with the numbers in the corner? That is an In-Game Info (IGI) mod. %nSome of the info it gives is useful right away, some of it shines later on in progression.%n%nFor now, the most important thing it does is showing if you are in an ore chunk. Further quests will explain what it means.%n%nIf you want to hide it, type "/igi disable" in the chat. %nType "/igi enable" if you want to turn it back on.%n%nThe command "/igi config" opens the configuration window to control its position, scale, and size.%n%nThe command "/xu_tps" toggles the Ticks Per Second (TPS) meter from the mod Extra Utilities.  %nTPS is a measure of how well your server is running. The ideal TPS is 20. %nIf TPS is less than 15, thing are going to start lagging noticeably. %nAt TPS of 10 or less, it is going to be hard to play.%nThe tooltip shows three types of TPS: instantaneous, average, and worst-case.%nIf you need suggestions on solving TPS problems, feel free to ask for help in the GTNH Discord.
 
 # Quest: Bringing the Biome to You
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJbw.name=Bringing the Biome to You
