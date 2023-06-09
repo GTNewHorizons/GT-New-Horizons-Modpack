@@ -1,0 +1,42 @@
+{
+  "questIDHigh:4": -1367465902763914549,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2644
+    }
+  },
+  "questIDLow:4": -6396345001291653982,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 1,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "GalacticraftAmunRa:tile.machines2",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "A Mothership to the T9 system",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "There is one last star system to conquer. You need one final rocket to get there. A big one. So big in fact you should build it in space. Make a shuttle rocket to get up there and build the mothership (similar to how you build a space station).\n\nThere are new ore veins on the T9 planets. In particular you should look for Tengam on Seth. You will need that for UEV.\n\n§3More information to follow, this is wip content."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {}
+}

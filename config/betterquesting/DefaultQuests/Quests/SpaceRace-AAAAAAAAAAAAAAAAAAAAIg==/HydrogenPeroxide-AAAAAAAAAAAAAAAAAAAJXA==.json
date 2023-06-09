@@ -92,7 +92,7 @@
           "id:8": "miscutils:HydrogenPeroxide",
           "Count:3": 5,
           "Damage:2": 0,
-          "OreDict:8": "cellHydrogenPeroxide"
+          "OreDict:8": ""
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
