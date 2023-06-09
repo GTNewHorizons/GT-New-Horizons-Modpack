@@ -34,7 +34,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Hydrazine is made from Ammonia and Hydrogen Peroxide.\n\n§4Hydrogen Peroxide Cell is overridden by BW one. Use tanks or Universal Cells or large cells to proceed, don\u0027t put it in a cell."
+      "desc:8": "Hydrazine is made from Ammonia and Hydrogen Peroxide."
     }
   },
   "tasks:9": {
@@ -55,8 +55,8 @@
         "1:10": {
           "id:8": "miscutils:HydrogenPeroxide",
           "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "cellHydrogenPeroxide"
+          "Damage:2": 32767,
+          "OreDict:8": ""
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
