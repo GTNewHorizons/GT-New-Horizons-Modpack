@@ -13,6 +13,7 @@
 4. Most quests should only be in one quest line. However, there are important exceptions. Specifically, the Tips and Tricks quest line and transition quests that lead you from one tab to another. There can be other cases where it makes sense.
 5. Not every quest ticket on github is actually correct. Check things yourself before changing a quest.
 6. Use Dark Red and potentially add "NOTE:" or "WARNING:" before important information and warnings. Use Dark Aqua for a PS at the end of a quest which can include talk about progression, alternatives, or other meta comments like the quest authors opinion on things. Regular advice should ideally be in default color as part of the text though.
+7. You can add working links to websites in a quest description. To do so, please use the format `§1§n[url]link here[/url]§r`. That makes the link functional, turns it blue, and underlines it.
 
 
 # Git Basics
@@ -24,7 +25,7 @@ https://try.github.io/
 - As an alternate to using Git from the command line, you can use GitHub Desktop as a GUI. It makes things very simple, and you don't need to remember any commands. We will focus on that option in the following.
 
 
-# Definitions
+# Git Definitions
 
 - Repo - The database of all the files and their history. The remote repo is on Github. The local repo is on your drive. They do *not* automatically track each other.
 - Source/upstream repo - The original/parent/upstream repo, in this case GTNewHorizons/GT-New-Horizons-Modpack
@@ -42,7 +43,7 @@ https://try.github.io/
 
 
 
-# Doing quests for GTNH with GitHub Desktop
+# Working on Quests for GTNH with GitHub Desktop
 
 1. Fork the GT-New-Horizons-Modpack repo to your github account. This is not actually needed if Dream has added you as a developer.
 2. Add the repo to your GitHub Desktop by clicking `Code` and then `Open with GitHub Desktop`. When asked, choose `contribute to parent repo`. That way new branches are automatically based on the GTNewHorizons/GT-New-Horizons-Modpack master branch.
