@@ -153,8 +153,13 @@
             <str>{black}</str>
         </line>
         <line>
-            <if>
-                <and>
+			<if>
+				<equal>
+					<var>gtnewore</var>
+					<str>true</str>
+                </equal>
+				<if>
+					<and>
                     <or>
                         <equal>
                             <modi>
@@ -188,17 +193,70 @@
                         </equal>
                     </or>
                 </and>
-                <concat>
-                    <icon>
-                        <str>textures/items/diamond_pickaxe.png</str>
-                        <num>0</num>
-                        <num>0</num>
-                        <num>16</num>
-                        <num>16</num>
-                    </icon>
-                    <str>  This is an {darkgreen}{underline}ore{white} chunk.</str>
-                </concat>
-            </if>
+					<concat>
+						<icon>
+							<str>textures/items/diamond_pickaxe.png</str>
+							<num>0</num>
+							<num>0</num>
+							<num>16</num>
+							<num>16</num>
+						</icon>
+						<str>  This is an {darkgreen}{underline}ore{white} chunk.</str>
+					</concat>
+				</if>
+			</if>
+			<if>
+				<equal>
+					<var>gtnewore</var>
+					<str>false</str>
+                </equal>
+				<if>
+					<and>
+                    <or>
+                        <equal>
+                            <modi>
+                                <var>chunkx</var>
+                                <num>3</num>
+                            </modi>
+                            <num>-1</num>
+                        </equal>
+                        <equal>
+                            <modi>
+                                <var>chunkx</var>
+                                <num>3</num>
+                            </modi>
+                            <num>1</num>
+                        </equal>
+                    </or>
+                    <or>
+                        <equal>
+                            <modi>
+                                <var>chunkz</var>
+                                <num>3</num>
+                            </modi>
+                            <num>-1</num>
+                        </equal>
+                        <equal>
+                            <modi>
+                                <var>chunkz</var>
+                                <num>3</num>
+                            </modi>
+                            <num>1</num>
+                        </equal>
+                    </or>
+                </and>
+					<concat>
+						<icon>
+							<str>textures/items/diamond_pickaxe.png</str>
+							<num>0</num>
+							<num>0</num>
+							<num>16</num>
+							<num>16</num>
+						</icon>
+						<str>  This is an {darkgreen}{underline}ore{white} chunk.</str>
+					</concat>
+				</if>
+			</if>
         </line>
         <line>
             <if>
