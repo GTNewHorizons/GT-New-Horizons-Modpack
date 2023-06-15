@@ -1,0 +1,383 @@
+{
+  "_README": "https://gitlab.com/CDAGaming/CraftPresence/-/wikis/home",
+  "_SOURCE": "https://gitlab.com/CDAGaming/CraftPresence",
+  "_schemaVersion": 5,
+  "_lastMCVersionId": 5,
+  "generalSettings": {
+    "detectATLauncherInstance": true,
+    "detectCurseManifest": false,
+    "detectMultiMCManifest": false,
+    "detectMCUpdaterInstance": false,
+    "detectTechnicPack": false,
+    "detectBiomeData": false,
+    "detectDimensionData": true,
+    "detectWorldData": true,
+    "clientId": "1118980710187929681",
+    "defaultIcon": "gtnhlogoresized",
+    "enableJoinRequests": false,
+    "partyPrivacyLevel": 1,
+    "preferredClientLevel": 3,
+    "resetTimeOnInit": false,
+    "autoRegister": false
+  },
+  "biomeSettings": {
+    "fallbackBiomeIcon": "gtnhlogoresized",
+    "biomeData": {
+      "default": {
+        "textOverride": "Playing in {biome.name}"
+      }
+    }
+  },
+  "dimensionSettings": {
+    "fallbackDimensionIcon": "default",
+    "dimensionData": {
+      "enceladus": {
+        "textOverride": "On {dimension.name}",
+        "iconOverride": "enceladus"
+      },
+      "mirror": {
+        "textOverride": "In the {dimension.name}",
+        "iconOverride": "mirror"
+      },
+      "torment": {
+        "textOverride": "In the {dimension.name}",
+        "iconOverride": "torment"
+      },
+      "spirit_world": {
+        "textOverride": "In the {dimension.name}",
+        "iconOverride": "spirit_world"
+      },
+      "mercury": {
+        "textOverride": "On {dimension.name}",
+        "iconOverride": "mercury"
+      },
+      "underdark": {
+        "textOverride": "In the Deep Dark",
+        "iconOverride": "underdark"
+      },
+      "dimensiondarkworld": {
+        "textOverride": "In the Dark World",
+        "iconOverride": "dark_world"
+      },
+      "the_end": {
+        "textOverride": "In the End"
+      },
+      "default": {
+        "textOverride": "In the {dimension.name}",
+        "iconOverride": "default"
+      },
+      "venus": {
+        "textOverride": "In the {dimension.name}",
+        "iconOverride": "venus"
+      },
+      "α_centauri_bb": {
+        "textOverride": "On {dimension.name}",
+        "iconOverride": "a_centauri_b"
+      },
+      "bedrock": {
+        "textOverride": "In the {dimension.name}",
+        "iconOverride": "bedrock"
+      },
+      "t_ceti_е": {
+        "textOverride": "On {dimension.name}",
+        "iconOverride": "tcetie"
+      },
+      "titan": {
+        "textOverride": "On {dimension.name}",
+        "iconOverride": "titan"
+      },
+      "ganymede": {
+        "textOverride": "On {dimension.name}",
+        "iconOverride": "ganymede"
+      },
+      "ceres": {
+        "textOverride": "On {dimension.name}",
+        "iconOverride": "ceres"
+      },
+      "twilight_forest": {
+        "textOverride": "In the {dimension.name}",
+        "iconOverride": "twilight_forestv2"
+      },
+      "oberon": {
+        "textOverride": "On {dimension.name}",
+        "iconOverride": "oberon"
+      },
+      "europa": {
+        "textOverride": "On {dimension.name}",
+        "iconOverride": "europa"
+      },
+      "triton": {
+        "textOverride": "On {dimension.name}",
+        "iconOverride": "triton"
+      },
+      "phobos": {
+        "textOverride": "On {dimension.name}",
+        "iconOverride": "phobos"
+      },
+      "asteroids": {
+        "textOverride": "Mining Asteroids",
+        "iconOverride": "asteroids"
+      },
+      "io": {
+        "textOverride": "On {dimension.name}",
+        "iconOverride": "io"
+      },
+      "mars": {
+        "textOverride": "On {dimension.name}"
+      },
+      "miranda": {
+        "textOverride": "On {dimension.name}",
+        "iconOverride": "miranda"
+      },
+      "haumea": {
+        "textOverride": "On {dimension.name}",
+        "iconOverride": "haumea"
+      },
+      "proteus": {
+        "textOverride": "On {dimension.name}",
+        "iconOverride": "proteus"
+      },
+      "the_last_millenium": {
+        "textOverride": "In the Last Millenium",
+        "iconOverride": "last_millenium"
+      },
+      "pluto": {
+        "textOverride": "On {dimension.name}",
+        "iconOverride": "pluto"
+      },
+      "makemake": {
+        "textOverride": "On {dimension.name}",
+        "iconOverride": "makemake"
+      },
+      "barnarda_f": {
+        "textOverride": "On {dimension.name}",
+        "iconOverride": "barnarda_f"
+      },
+      "ross128b": {
+        "textOverride": "On {dimension.name}",
+        "iconOverride": "ross128b"
+      },
+      "australia": {
+        "textOverride": "In {dimension.name}",
+        "iconOverride": "australia"
+      },
+      "overworld": {
+        "textOverride": "In the {dimension.name}",
+        "iconOverride": "overworldv2"
+      },
+      "deimos": {
+        "textOverride": "On {dimension.name}",
+        "iconOverride": "deimos"
+      },
+      "the_outer_lands": {
+        "textOverride": "In the Outer Lands",
+        "iconOverride": "the_outer_lands"
+      },
+      "kuiper_belt": {
+        "textOverride": "On the {dimension.name}",
+        "iconOverride": "kuiper_belt"
+      },
+      "outer_lands": {
+        "textOverride": "In the {dimension.name}",
+        "iconOverride": "the_outer_lands"
+      },
+      "moon": {
+        "textOverride": "On the {dimension.name}"
+      },
+      "spectreworld": {
+        "textOverride": "In the Spectre World",
+        "iconOverride": "spectre_world"
+      },
+      "the_nether": {
+        "textOverride": "In the Nether",
+        "iconOverride": "nether"
+      },
+      "barnarda_e": {
+        "textOverride": "On {dimension.name}",
+        "iconOverride": "barnarda_e"
+      },
+      "pocket_plane": {
+        "textOverride": "In a {dimension.name}",
+        "iconOverride": "pocket_plane"
+      },
+      "ross128ba": {
+        "textOverride": "On {dimension.name}",
+        "iconOverride": "ross128a"
+      },
+      "vega_b": {
+        "textOverride": "On {dimension.name}",
+        "iconOverride": "vega_b"
+      },
+      "barnarda_c": {
+        "textOverride": "On {dimension.name}",
+        "iconOverride": "barnarda_c"
+      },
+      "callisto": {
+        "textOverride": "On {dimension.name}",
+        "iconOverride": "callisto"
+      }
+    }
+  },
+  "serverSettings": {
+    "fallbackServerIcon": "gtnhlogoresized",
+    "fallbackServerName": "GT:NH Server",
+    "fallbackServerMotd": "A Minecraft Server",
+    "serverData": {
+      "default": {
+        "textOverride": "Playing on {server.motd.raw}"
+      }
+    }
+  },
+  "statusMessages": {
+    "mainMenuData": {
+      "textOverride": "In the Main Menu"
+    },
+    "loadingData": {
+      "textOverride": "Loading..."
+    },
+    "lanData": {
+      "textOverride": "Playing on a LAN Server"
+    },
+    "singleplayerData": {
+      "textOverride": "Playing Singleplayer"
+    }
+  },
+  "advancedSettings": {
+    "enablePerGui": false,
+    "enablePerItem": false,
+    "enablePerEntity": false,
+    "renderTooltips": true,
+    "formatWords": true,
+    "debugMode": false,
+    "verboseMode": false,
+    "refreshRate": 20,
+    "roundSize": 3,
+    "includeExtraGuiClasses": false,
+    "allowPlaceholderPreviews": false,
+    "guiSettings": {
+      "fallbackGuiIcon": "unknown",
+      "guiData": {
+        "default": {
+          "textOverride": "In {screen.name}"
+        }
+      }
+    },
+    "itemMessages": {
+      "default": "Holding {item.message.holding}"
+    },
+    "entitySettings": {
+      "fallbackEntityIcon": "unknown",
+      "targetData": {
+        "default": {
+          "textOverride": "Targeting {entity.target.name}"
+        }
+      },
+      "ridingData": {
+        "default": {
+          "textOverride": "Riding {entity.riding.name}"
+        }
+      }
+    },
+    "allowEndpointIcons": true,
+    "serverIconEndpoint": "https://api.mcsrvstat.us/icon/{server.address.short}",
+    "playerSkinEndpoint": "https://mc-heads.net/avatar/{getOrDefault(player.uuid.short, player.name)}"
+  },
+  "accessibilitySettings": {
+    "tooltipBackground": {
+      "start": {
+        "red": 16,
+        "green": 0,
+        "blue": 16,
+        "alpha": 240
+      }
+    },
+    "tooltipBorder": {
+      "start": {
+        "red": 80,
+        "green": 0,
+        "blue": 255,
+        "alpha": 80
+      },
+      "end": {
+        "red": 40,
+        "green": 0,
+        "blue": 127,
+        "alpha": 80
+      }
+    },
+    "guiBackground": {
+      "start": {
+        "red": 64,
+        "green": 64,
+        "blue": 64,
+        "alpha": 255
+      },
+      "texLocation": "minecraft:textures/gui/options_background.png"
+    },
+    "worldGuiBackground": {
+      "start": {
+        "red": 16,
+        "green": 16,
+        "blue": 16,
+        "alpha": 192
+      },
+      "end": {
+        "red": 16,
+        "green": 16,
+        "blue": 16,
+        "alpha": 208
+      }
+    },
+    "buttonBackground": {
+      "start": {
+        "red": 255,
+        "green": 255,
+        "blue": 255,
+        "alpha": 255
+      },
+      "texLocation": "minecraft:textures/gui/widgets.png"
+    },
+    "languageId": "en_US",
+    "stripTranslationColors": false,
+    "showLoggingInChat": false,
+    "stripExtraGuiElements": false,
+    "configKeyCode": 17
+  },
+  "displaySettings": {
+    "presenceData": {
+      "enabled": true,
+      "useAsMain": false,
+      "details": "{menu.message}{dimension.message}",
+      "gameState": "{server.message} {custom.pack}",
+      "largeImageKey": "{menu.icon}{dimension.icon}",
+      "largeImageText": "{menu.message}{dimension.message}",
+      "smallImageKey": "{server.icon}{pack.icon}",
+      "smallImageText": "{server.message} {custom.pack}",
+      "startTimestamp": "{data.general.time}",
+      "endTimestamp": "",
+      "buttons": {
+        "default": {
+          "label": "Example Text",
+          "url": "https://google.com"
+        }
+      }
+    },
+    "dynamicIcons": {
+      "boubou_19": "https://mc-heads.net/avatar/d28e5f134b8444ce9d3251f1b569adda",
+      "zeta.gtnewhorizons.com": "https://api.mcsrvstat.us/icon/zeta.gtnewhorizons.com",
+      "default": "https://via.placeholder.com/256.png"
+    },
+    "dynamicVariables": {
+      "default": "Example Text",
+      "mods": "{general.mods} Mod(s)",
+      "player_info_coordinate": "At {player.position.x}, {player.position.z}",
+      "players": "{server.players.current} / {server.players.max} Players",
+      "player_info_in": "({custom.player_info_health})",
+      "player_info_items": "Items: {item.main_hand.message}",
+      "player_info_out": "As {player.name}",
+      "player_info_health": "Health: {player.health.current}/{player.health.max}",
+      "world_info": "On {world.name}",
+      "pack": "Minecraft 1.7.10"
+    }
+  }
+}
