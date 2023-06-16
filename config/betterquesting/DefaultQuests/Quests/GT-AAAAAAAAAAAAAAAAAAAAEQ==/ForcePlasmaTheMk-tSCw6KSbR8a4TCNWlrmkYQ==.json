@@ -1,0 +1,59 @@
+{
+  "questIDHigh:4": -5395117840349313082,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -703325969313020818,
+      "questIDLow:4": -6653872471765810391
+    },
+    "1:10": {
+      "questIDHigh:4": 5617954830618019035,
+      "questIDLow:4": -6752762253121630907
+    }
+  },
+  "questIDLow:4": -5166715817697893279,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "miscutils:itemCellPlasmaForce",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Force Plasma - The Mk1 Ending",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "This is the end of the mk1 fusion chain. Force Plasma is a 220M fuel value plasma, which means it has no penalty on Infinity Catalyst XL Plasmas, whereas Helium Plasma has a 86.1% EU/t penalty. You probably don\u0027t need this in ZPM, but it\u0027ll be a stepping stone for your future progression."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "miscutils:itemCellPlasmaForce",
+          "Count:3": 64,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {}
+}
