@@ -2,8 +2,8 @@
   "questIDHigh:4": -703325969313020818,
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 1212
+      "questIDHigh:4": 7843197398684813402,
+      "questIDLow:4": -5758255961960012806
     }
   },
   "questIDLow:4": -6653872471765810391,
@@ -34,7 +34,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Craft yourself some bone-strengthening Calcium in plasma form."
+      "desc:8": "Craft yourself some bone-strengthening Calcium in plasma form.\n\nThis step is almost twice as fast as the Boron one, so you only need half the reactors, plus one, or the tier above the reactors on the Boron side. It would normally be a lot slower, but the next step needs only a small amount of Calcium.\n\nKeep in mind that, at the end of each of the three fusion chains, the plasma amount gets multiplied, which means that most of your bottlenecks will be near the end of the entire setup, if you\u0027re going for Celestial Tungsten Plasma.\n\nYou will need 2.13 reactors with this recipe to feed 1 reactor with the next step."
     }
   },
   "tasks:9": {
