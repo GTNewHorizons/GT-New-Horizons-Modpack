@@ -31,8 +31,8 @@
     <loot item="IC2:blockRubSapling" damage="0" weight="4" count_min="1" count_max="4"/>
     <loot item="BiomesOPlenty:plants" damage="5" weight="25" count_min="2" count_max="6"/>
     <loot item="BiomesOPlenty:misc" damage="1" weight="25" count_min="2" count_max="8"/>
-    <loot item="BiomesOPlenty:wadingBoots" damage="0" weight="5" count_min="1" count_max="1"/>
-    <loot item="BiomesOPlenty:flippers" damage="0" weight="5" count_min="1" count_max="1"/>
+    <loot item="BiomesOPlenty:wadingBoots" damage="0" weight="25" count_min="1" count_max="1"/>
+    <loot item="BiomesOPlenty:flippers" damage="0" weight="25" count_min="1" count_max="1"/>
     <loot item="Railcraft:tool.crowbar" damage="0" weight="10" count_min="1" count_max="1"/>
     <loot item="Railcraft:tool.steel.shears" damage="0" weight="5" count_min="1" count_max="1"/>
     <loot item="Railcraft:tool.steel.sword" damage="0" weight="5" count_min="1" count_max="1"/>
