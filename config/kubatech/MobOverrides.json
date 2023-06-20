@@ -1,0 +1,2108 @@
+{
+  "Enderman": {
+    "removeAll": false,
+    "additions": [
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "ThaumicTinkerer",
+            "name": "kamiResource"
+          },
+          "meta": 7,
+          "size": 1,
+          "tagCompound": null
+        },
+        "type": "Rare",
+        "chance": 313,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      }
+    ],
+    "removals": []
+  },
+  "PigZombie": {
+    "removeAll": false,
+    "additions": [
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "ThaumicTinkerer",
+            "name": "kamiResource"
+          },
+          "meta": 6,
+          "size": 1,
+          "tagCompound": null
+        },
+        "type": "Rare",
+        "chance": 625,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      }
+    ],
+    "removals": []
+  },
+  "AWWayofTime.MinorDemonGrunt": {
+    "removeAll": false,
+    "additions": [
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "AWWayofTime",
+            "name": "bloodMagicBaseItems"
+          },
+          "meta": 28,
+          "size": 1,
+          "tagCompound": null
+        },
+        "type": "Normal",
+        "chance": 3000,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "AWWayofTime",
+            "name": "bloodMagicBaseItems"
+          },
+          "meta": 29,
+          "size": 1,
+          "tagCompound": null
+        },
+        "type": "Normal",
+        "chance": 3000,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      }
+    ],
+    "removals": []
+  },
+  "AWWayofTime.MinorDemonGruntEarth": {
+    "removeAll": false,
+    "additions": [
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "AWWayofTime",
+            "name": "bloodMagicBaseItems"
+          },
+          "meta": 28,
+          "size": 1,
+          "tagCompound": null
+        },
+        "type": "Normal",
+        "chance": 3000,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "AWWayofTime",
+            "name": "bloodMagicBaseItems"
+          },
+          "meta": 29,
+          "size": 1,
+          "tagCompound": null
+        },
+        "type": "Normal",
+        "chance": 3000,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      }
+    ],
+    "removals": []
+  },
+  "AWWayofTime.MinorDemonGruntFire": {
+    "removeAll": false,
+    "additions": [
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "AWWayofTime",
+            "name": "bloodMagicBaseItems"
+          },
+          "meta": 28,
+          "size": 1,
+          "tagCompound": null
+        },
+        "type": "Normal",
+        "chance": 3000,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "AWWayofTime",
+            "name": "bloodMagicBaseItems"
+          },
+          "meta": 29,
+          "size": 1,
+          "tagCompound": null
+        },
+        "type": "Normal",
+        "chance": 3000,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      }
+    ],
+    "removals": []
+  },
+  "AWWayofTime.MinorDemonGruntGuardian": {
+    "removeAll": false,
+    "additions": [
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "AWWayofTime",
+            "name": "bloodMagicBaseItems"
+          },
+          "meta": 28,
+          "size": 1,
+          "tagCompound": null
+        },
+        "type": "Normal",
+        "chance": 3000,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "AWWayofTime",
+            "name": "bloodMagicBaseItems"
+          },
+          "meta": 29,
+          "size": 1,
+          "tagCompound": null
+        },
+        "type": "Normal",
+        "chance": 3000,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      }
+    ],
+    "removals": []
+  },
+  "AWWayofTime.MinorDemonGruntGuardianEarth": {
+    "removeAll": false,
+    "additions": [
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "AWWayofTime",
+            "name": "bloodMagicBaseItems"
+          },
+          "meta": 28,
+          "size": 1,
+          "tagCompound": null
+        },
+        "type": "Normal",
+        "chance": 3000,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "AWWayofTime",
+            "name": "bloodMagicBaseItems"
+          },
+          "meta": 29,
+          "size": 1,
+          "tagCompound": null
+        },
+        "type": "Normal",
+        "chance": 3000,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      }
+    ],
+    "removals": []
+  },
+  "AWWayofTime.MinorDemonGruntGuardianFire": {
+    "removeAll": false,
+    "additions": [
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "AWWayofTime",
+            "name": "bloodMagicBaseItems"
+          },
+          "meta": 28,
+          "size": 1,
+          "tagCompound": null
+        },
+        "type": "Normal",
+        "chance": 3000,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "AWWayofTime",
+            "name": "bloodMagicBaseItems"
+          },
+          "meta": 29,
+          "size": 1,
+          "tagCompound": null
+        },
+        "type": "Normal",
+        "chance": 3000,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      }
+    ],
+    "removals": []
+  },
+  "AWWayofTime.MinorDemonGruntGuardianIce": {
+    "removeAll": false,
+    "additions": [
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "AWWayofTime",
+            "name": "bloodMagicBaseItems"
+          },
+          "meta": 28,
+          "size": 1,
+          "tagCompound": null
+        },
+        "type": "Normal",
+        "chance": 3000,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "AWWayofTime",
+            "name": "bloodMagicBaseItems"
+          },
+          "meta": 29,
+          "size": 1,
+          "tagCompound": null
+        },
+        "type": "Normal",
+        "chance": 3000,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      }
+    ],
+    "removals": []
+  },
+  "AWWayofTime.MinorDemonGruntGuardianWind": {
+    "removeAll": false,
+    "additions": [
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "AWWayofTime",
+            "name": "bloodMagicBaseItems"
+          },
+          "meta": 28,
+          "size": 1,
+          "tagCompound": null
+        },
+        "type": "Normal",
+        "chance": 3000,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "AWWayofTime",
+            "name": "bloodMagicBaseItems"
+          },
+          "meta": 29,
+          "size": 1,
+          "tagCompound": null
+        },
+        "type": "Normal",
+        "chance": 3000,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      }
+    ],
+    "removals": []
+  },
+  "AWWayofTime.MinorDemonGruntIce": {
+    "removeAll": false,
+    "additions": [
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "AWWayofTime",
+            "name": "bloodMagicBaseItems"
+          },
+          "meta": 28,
+          "size": 1,
+          "tagCompound": null
+        },
+        "type": "Normal",
+        "chance": 3000,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "AWWayofTime",
+            "name": "bloodMagicBaseItems"
+          },
+          "meta": 29,
+          "size": 1,
+          "tagCompound": null
+        },
+        "type": "Normal",
+        "chance": 3000,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      }
+    ],
+    "removals": []
+  },
+  "AWWayofTime.MinorDemonGruntWind": {
+    "removeAll": false,
+    "additions": [
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "AWWayofTime",
+            "name": "bloodMagicBaseItems"
+          },
+          "meta": 28,
+          "size": 1,
+          "tagCompound": null
+        },
+        "type": "Normal",
+        "chance": 3000,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "AWWayofTime",
+            "name": "bloodMagicBaseItems"
+          },
+          "meta": 29,
+          "size": 1,
+          "tagCompound": null
+        },
+        "type": "Normal",
+        "chance": 3000,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      }
+    ],
+    "removals": []
+  },
+  "Creeper": {
+    "removeAll": false,
+    "additions": [
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "witchery",
+            "name": "ingredient"
+          },
+          "meta": 74,
+          "size": 1,
+          "tagCompound": null
+        },
+        "type": "Rare",
+        "chance": 200,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      }
+    ],
+    "removals": []
+  },
+  "Bat": {
+    "removeAll": false,
+    "additions": [
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "witchery",
+            "name": "ingredient"
+          },
+          "meta": 24,
+          "size": 1,
+          "tagCompound": null
+        },
+        "type": "Normal",
+        "chance": 3300,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      }
+    ],
+    "removals": []
+  },
+  "Thaumcraft.Firebat": {
+    "removeAll": false,
+    "additions": [
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "witchery",
+            "name": "ingredient"
+          },
+          "meta": 24,
+          "size": 1,
+          "tagCompound": null
+        },
+        "type": "Normal",
+        "chance": 3300,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      }
+    ],
+    "removals": []
+  },
+  "Wolf": {
+    "removeAll": false,
+    "additions": [
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "witchery",
+            "name": "ingredient"
+          },
+          "meta": 25,
+          "size": 1,
+          "tagCompound": null
+        },
+        "type": "Normal",
+        "chance": 3300,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "witchery",
+            "name": "wolfhead"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": null
+        },
+        "type": "Normal",
+        "chance": 833,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      }
+    ],
+    "removals": []
+  },
+  "witchery.wolfman": {
+    "removeAll": false,
+    "additions": [
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "witchery",
+            "name": "ingredient"
+          },
+          "meta": 25,
+          "size": 1,
+          "tagCompound": null
+        },
+        "type": "Normal",
+        "chance": 3300,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "witchery",
+            "name": "wolfhead"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": null
+        },
+        "type": "Normal",
+        "chance": 833,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      }
+    ],
+    "removals": []
+  },
+  "TwilightForest.Mist Wolf": {
+    "removeAll": false,
+    "additions": [
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "witchery",
+            "name": "ingredient"
+          },
+          "meta": 25,
+          "size": 1,
+          "tagCompound": null
+        },
+        "type": "Normal",
+        "chance": 3300,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "witchery",
+            "name": "wolfhead"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": null
+        },
+        "type": "Normal",
+        "chance": 833,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      }
+    ],
+    "removals": []
+  },
+  "enderzoo.DireWolf": {
+    "removeAll": false,
+    "additions": [
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "witchery",
+            "name": "ingredient"
+          },
+          "meta": 25,
+          "size": 1,
+          "tagCompound": null
+        },
+        "type": "Normal",
+        "chance": 3300,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "witchery",
+            "name": "wolfhead"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": null
+        },
+        "type": "Normal",
+        "chance": 833,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      }
+    ],
+    "removals": []
+  },
+  "GalacticraftCore.EvolvedBossWolf": {
+    "removeAll": false,
+    "additions": [
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "witchery",
+            "name": "ingredient"
+          },
+          "meta": 25,
+          "size": 1,
+          "tagCompound": null
+        },
+        "type": "Normal",
+        "chance": 3300,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "witchery",
+            "name": "wolfhead"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": null
+        },
+        "type": "Normal",
+        "chance": 833,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      }
+    ],
+    "removals": []
+  },
+  "TwilightForest.Hostile Wolf": {
+    "removeAll": false,
+    "additions": [
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "witchery",
+            "name": "ingredient"
+          },
+          "meta": 25,
+          "size": 1,
+          "tagCompound": null
+        },
+        "type": "Normal",
+        "chance": 3300,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "witchery",
+            "name": "wolfhead"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": null
+        },
+        "type": "Normal",
+        "chance": 833,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      }
+    ],
+    "removals": []
+  },
+  "ThaumicHorizons.Seawolf": {
+    "removeAll": false,
+    "additions": [
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "witchery",
+            "name": "ingredient"
+          },
+          "meta": 25,
+          "size": 1,
+          "tagCompound": null
+        },
+        "type": "Normal",
+        "chance": 3300,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "witchery",
+            "name": "wolfhead"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": null
+        },
+        "type": "Normal",
+        "chance": 833,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      }
+    ],
+    "removals": []
+  },
+  "TwilightForest.WinterWolf": {
+    "removeAll": false,
+    "additions": [
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "witchery",
+            "name": "ingredient"
+          },
+          "meta": 25,
+          "size": 1,
+          "tagCompound": null
+        },
+        "type": "Normal",
+        "chance": 3300,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "witchery",
+            "name": "wolfhead"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": null
+        },
+        "type": "Normal",
+        "chance": 833,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      }
+    ],
+    "removals": []
+  },
+  "LunarWolf": {
+    "removeAll": false,
+    "additions": [
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "witchery",
+            "name": "ingredient"
+          },
+          "meta": 25,
+          "size": 1,
+          "tagCompound": null
+        },
+        "type": "Normal",
+        "chance": 3300,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "witchery",
+            "name": "wolfhead"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": null
+        },
+        "type": "Normal",
+        "chance": 833,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      }
+    ],
+    "removals": []
+  },
+  "witchery.owl": {
+    "removeAll": false,
+    "additions": [
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "witchery",
+            "name": "ingredient"
+          },
+          "meta": 89,
+          "size": 1,
+          "tagCompound": null
+        },
+        "type": "Normal",
+        "chance": 2000,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      }
+    ],
+    "removals": []
+  },
+  "witchery.toad": {
+    "removeAll": false,
+    "additions": [
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "witchery",
+            "name": "ingredient"
+          },
+          "meta": 90,
+          "size": 1,
+          "tagCompound": null
+        },
+        "type": "Normal",
+        "chance": 2000,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      }
+    ],
+    "removals": []
+  },
+  "Thaumcraft.Wisp": {
+    "removeAll": false,
+    "additions": [
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"aer\"}]}"
+        },
+        "type": "Normal",
+        "chance": 1500,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"terra\"}]}"
+        },
+        "type": "Normal",
+        "chance": 1500,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"ignis\"}]}"
+        },
+        "type": "Normal",
+        "chance": 1500,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"aqua\"}]}"
+        },
+        "type": "Normal",
+        "chance": 1500,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"ordo\"}]}"
+        },
+        "type": "Normal",
+        "chance": 1500,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"perditio\"}]}"
+        },
+        "type": "Normal",
+        "chance": 1500,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"vacuos\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"lux\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"tempestas\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"motus\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"gelum\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"vitreus\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"victus\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"venenum\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"potentia\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"permutatio\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"metallum\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"mortuus\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"volatus\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"tenebrae\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"spiritus\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"sano\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"iter\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"alienis\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"praecantatio\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"auram\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"vitium\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"limus\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"herba\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"arbor\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"bestia\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"corpus\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"exanimis\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"cognitio\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"sensus\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"humanus\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"messis\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"perfodio\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"instrumentum\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"meto\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"telum\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"tutamen\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"fames\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"lucrum\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"fabrico\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"pannus\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"machina\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"vinculum\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"strontio\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"nebrisum\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"electrum\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"magneto\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"radio\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"custom1\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"custom2\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"custom3\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"custom4\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"custom5\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"tempus\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"luxuria\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"infernus\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"superbia\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"gula\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"invidia\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"desidia\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"ira\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"terminus\"}]}"
+        },
+        "type": "Normal",
+        "chance": 16,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      }
+    ],
+    "removals": []
+  },
+  "Automagy.WispNether": {
+    "removeAll": false,
+    "additions": [
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"ignis\"}]}"
+        },
+        "type": "Normal",
+        "chance": 7500,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      },
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "Thaumcraft",
+            "name": "ItemWispEssence"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": "{Aspects:[0:{amount:2,key:\"infernus\"}]}"
+        },
+        "type": "Normal",
+        "chance": 2500,
+        "enchantable": null,
+        "damages": null,
+        "lootable": false,
+        "playerOnly": false
+      }
+    ],
+    "removals": []
+  }
+}
