@@ -250,7 +250,7 @@
     "formatWords": true,
     "debugMode": false,
     "verboseMode": false,
-    "refreshRate": 20,
+    "refreshRate": 2,
     "roundSize": 3,
     "includeExtraGuiClasses": false,
     "allowPlaceholderPreviews": false,
@@ -341,7 +341,7 @@
     "stripTranslationColors": false,
     "showLoggingInChat": false,
     "stripExtraGuiElements": false,
-    "configKeyCode": 17
+    "configKeyCode": 41
   },
   "displaySettings": {
     "presenceData": {
