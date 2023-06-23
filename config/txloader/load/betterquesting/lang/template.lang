@@ -3839,7 +3839,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKTA.desc=To make Bioware Boards and Circ
 
 # Quest: The Final Frontier?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKWA.name=The Final Frontier?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKWA.desc=The last of the normal rocket progression. After this is there is only the Mothership for the T9 system and the Deep Dark, which has all the ores+more.%n%nAlthough you get access to six new planets, there's only two new veins. And don't complain that Barnarda should be Barnard, we can't fix it.%n%nThe Barnarda system is to the NNW, and you can visit Barnada C, E, and F.%nThe Alpha Centauri system is to the NE, and you can vist Alpha Centauri Bb (Proxima Centauri is not visitable). §3Remember to wear your SpaceSuit!§r%nThe Tau Ceti system is to the SSW, and you can visit the habitable planet Tau Ceti E.%nThe Vega System is to the WNW, and you can visit the planet Vega B.%n%nThe new veins are Cadmium and Samarium. The ores are Cadmium, Caesium, Cerium, Lanthanum, Neodymium, Samarium, and Tartarite.%n%nYou can get Awakened Draconium from small ores on Barnarda E, Barnarda F, Tau Ceti E, and Vega B.%nYou can get Bedrockium from small ores on Barnarda F.%nYou can get Infinity Catalyst from small ores on Vega B.%n%nIn addition to planet ores and blocks, grab some Barnarda C Saplings and Dirt so you can grow some more if you need it for Radox (lol). You can also grab some more Unknown Crystal Shards from the Rainbow Crystals lying around.%n%nMore importantly you should collect Seaweed from Tau Ceti E. You need it to make UEV circuits, and though you can make it as well, you need some to begin with. The unknown liquid to grow these is however found in lakes and underground on Barnarda C.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKWA.desc=The last of the normal rocket progression. After this is there is only the Mothership for the T9 system and the Deep Dark, which has all the ores+more.%n%nAlthough you get access to six new planets, there's only two new veins. And don't complain that Barnarda should be Barnard, we can't fix it.%n%nThe Barnarda system is to the NNW, and you can visit Barnada C, E, and F.%nThe α Centauri system is to the NE, and you can vist α Centauri Bb (Proxima Centauri is not visitable). §3Remember to wear your SpaceSuit!§r%nThe Tau Ceti system is to the SSW, and you can visit the habitable planet Tau Ceti E.%nThe Vega System is to the WNW, and you can visit the planet Vega B.%n%nThe new veins are Cadmium and Samarium. The ores are Cadmium, Caesium, Cerium, Lanthanum, Neodymium, Samarium, and Tartarite.%n%nYou can get Awakened Draconium from small ores on Barnarda E, Barnarda F, Tau Ceti E, and Vega B.%nYou can get Bedrockium from small ores on Barnarda F.%nYou can get Infinity Catalyst from small ores on Vega B.%n%nIn addition to planet ores and blocks, grab some Barnarda C Saplings and Dirt so you can grow some more if you need it for Radox (lol). You can also grab some more Unknown Crystal Shards from the Rainbow Crystals lying around.%n%nMore importantly you should collect Seaweed from Tau Ceti E. You need it to make UEV circuits, and though you can make it as well, you need some to begin with. The unknown liquid to grow these is however found in lakes and underground on Barnarda C.
 
 # Quest: It's Not Going Bad, I Swear!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKYQ.name=It's Not Going Bad, I Swear!
@@ -4073,6 +4073,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAM4A.desc=May Dreammaster have mercy on y
 # Quest: UEV and beyond!
 betterquesting.quest.W4fpsTIlReOV-3-yiEqD8A.name=UEV and beyond!
 betterquesting.quest.W4fpsTIlReOV-3-yiEqD8A.desc=UEV, UIV, UMV, UXV, ...%n%nThese tiers are still a work in progress. But you can find the most important progression steps here, as well as the pinnacle goals.
+
+# Quest: The Final Frontier!
+betterquesting.quest.X1tb5rwVSVi5SR5rY7vQIw.name=The Final Frontier!
+betterquesting.quest.X1tb5rwVSVi5SR5rY7vQIw.desc=With the §1§lMothership§r (see the Space Race tab for how to build one) you can visit the truly last system: the Amun-Ra system. It has six planets and moons you can visit, each with at least one unique ore vein.%n%n%n§l§nAnubis§r%nInfinity Catalyst vein (Neutronium, Adamantium, Infinity Catalyst, Bedrockium)%n%n§l§nHorus§r%nCosmic Neutronium vein (Neutronium, Cosmic Neutronium, Black Plutonium, Bedrockium)%n%n§l§nMaahes§r%nNaquadria vein (Naquadah, Enriched Naquadah, Naquadria, Trinium)%n%n§l§nMehen Belt§r%nAwakened Draconium vein (Draconium, Draconium, Awakened Draconium, Nether Star)%n%n§l§nNeper§r%nDilithium (Dilithium, Dilithium, Mysterious Crystal, Vinteum)%n%n§l§nSeth§r%nRaw Tengam (Raw Tengam, Raw Tengam, Electrotine, Samarium)%n%n%nRaw Tengam is the vein you will want the most, as you can process Raw Tengam into Attuned Tengam, which is the UEV+ replacement for Magnetic Samarium. On Horus and Neper generate Certus Quartz veins (Certus Quartz, Certus Quartz, Charged Certus Quartz, Quartz Sand) aswell §mI can't imagine why you would still need that though§r.
 
 
 ## Quest Line: Fishing, Farming, Cooking
@@ -7487,13 +7491,41 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMhw.desc=At this point, why not? You sho
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAIg.name=Space Race
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAIg.desc=A guide to help you start Galacticraft to reach the Moon and beyond
 
+# Quest: No Boss Needed! How Sad!
+betterquesting.quest.gAchVo6VSBO5lRyjs6Rpow.name=No Boss Needed! How Sad!
+betterquesting.quest.gAchVo6VSBO5lRyjs6Rpow.desc=To get this schematic you don't need to defeat any boss. You will still need to invest some time.%n%nAfter researching a T8 Rocket Schematic you are able to build the Shuttle Schematic in the Assembly Line.
+
+# Quest: Don't Tell Me I Need To Read A Paper Map!
+betterquesting.quest.hB5tvfilRVi42OpLLhCwlw.name=Don't Tell Me I Need To Read A Paper Map!
+betterquesting.quest.hB5tvfilRVi42OpLLhCwlw.desc=The Mothership Navigation Console is used to select the Mothership's destination.
+
 # Quest: A Better Rocket Fuel
 betterquesting.quest.qz7VHLFvQx6gDw3KZDIj0g.name=A Better Rocket Fuel
 betterquesting.quest.qz7VHLFvQx6gDw3KZDIj0g.desc=If you want to go further than Mars you need a better rocket fuel. From here on out there is only one choice. The Chemical Plant is at the heart of the production. If you dont have one yet, you should have a look at it. It has 4 separate tier system and might be a bit over whelming at first, but there is a minecraft book that can tell you everything about it. Also check out the quest for the Chemical Plant in the GT++ quest tab.%n%n§4Don't use the NEI Preview for the Chemical Plant, it is wrong.
 
-# Quest: A Mothership to the T9 system
-betterquesting.quest.7QXJAa9MSsunO54cUSpcog.name=A Mothership to the T9 system
-betterquesting.quest.7QXJAa9MSsunO54cUSpcog.desc=There is one last star system to conquer. You need one final rocket to get there. A big one. So big in fact you should build it in space. Make a shuttle rocket to get up there and build the mothership (similar to how you build a space station).%n%nThere are new ore veins on the T9 planets. In particular you should look for Tengam on Seth. You will need that for UEV.%n%n§3More information to follow, this is wip content.
+# Quest: Does It Contain A Black Hole?
+betterquesting.quest.rfqcIf4uT--m6nYPenl8PQ.name=Does It Contain A Black Hole?
+betterquesting.quest.rfqcIf4uT--m6nYPenl8PQ.desc=The Artificial Gravity Generator allows you to change the gravity around it to your liking. The Artificial Gravity Disruptor disables that behaviour for whoever has it equipped and enabled.%n%n§3Surely this can't be used with malicious intent...
+
+# Quest: A Better Way To Generate Oxygen
+betterquesting.quest.wB7bY61aRE6Fh0VOZjeclQ.name=A Better Way To Generate Oxygen
+betterquesting.quest.wB7bY61aRE6Fh0VOZjeclQ.desc=This is an all-in-one solution to generate oxygen. Just provide power (continous) and Seeds (once).
+
+# Quest: Fast Fancy Stripes!
+betterquesting.quest.zLE6OyCFT8ih5eSJVainBQ.name=§oFast§r Fancy Stripes!
+betterquesting.quest.zLE6OyCFT8ih5eSJVainBQ.desc=The Ion Thruster is the advanced version of the Rocket Engine. Each Ion Thruster Base provides 25MN of force and holds up to 10,000L of Xenon. Electric power is needed, too.
+
+# Quest: Can I Build A Mothership For My Father?
+betterquesting.quest.1R8whL35Qnm93uBUpchI0A.name=Can I Build A Mothership For My Father?
+betterquesting.quest.1R8whL35Qnm93uBUpchI0A.desc=The §1§lMothership§r is a Space Station which you can move to a different celestial body (even stars!). It is the only way to get to the outermost system, the Amun-Ra system. That system has six planets and moons you can access. The most important one is Seth, where you can find §aRaw Tengam Ore§r.
+
+# Quest: The Legs On The Shuttle Rocket Go Step, Step, Step...
+betterquesting.quest.2qWr_EPxRGeqJE2NKQhb5Q.name=The Legs On The Shuttle Rocket Go Step, Step, Step...
+betterquesting.quest.2qWr_EPxRGeqJE2NKQhb5Q.desc=The Shuttle Legs are very useful, as they allow the Shuttle Rocket to land without any aid. I highly recommend you build them! §mYou don't have a choice anyway.
+
+# Quest: Shuttle Nose Cone
+betterquesting.quest.5IXO2dAUTXOu5z94yxWkTQ.name=Shuttle Nose Cone
+betterquesting.quest.5IXO2dAUTXOu5z94yxWkTQ.desc=This Rocket Cone doesn't have the spiky thing like the others have. Is this good or bad? I don't know, I'm only here to tell you what to do. So go build one Shuttle Nose Cone! Otherwise I will revoke your license to progress!
 
 # Quest: H8N4C2O4 (Green) Rocket Fuel
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAkw.name=H8N4C2O4 (Green) Rocket Fuel
@@ -8018,6 +8050,22 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALIA.desc=Given the number of people aski
 # Quest: Space Pumping
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL3Q.name=Space Pumping
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL3Q.desc=You might have already wondered: There are these enormous gas planets in the solar system - isn't there a way to "harvest" them? Indeed there is. By constructing the "Planetary Gas Siphon" multiblock, you are able to pump from the infinite supply of gas found on Jupiter, Saturn, Uranus and Neptune. You just need to build a space station around a gas planet to get near enough to be able to reach the gas without falling into it.%n%nBy pumping on different depths, you are able to extract different gases. The depth is controlled by a Programmed Circuit. You need to supply 64 * depth Mining Pipes to be able to rach the selected depth.%n%nWhile operational, the multiblock needs d*4^(t+2) EU/t (t is the space station's tier and d is the depth).%n%nYou can find an overview of what you can pump where in the Tips and Tricks chapter.
+
+# Quest: steve@mothership:~$
+betterquesting.quest.FMul7onaSFmWwPZRUSR3FA.name=steve@mothership:~$
+betterquesting.quest.FMul7onaSFmWwPZRUSR3FA.desc=This block can be used to configure the Mothership's name and icon, who is allowed to land on it and who is allowed to access the Navigation Console and the Thrusters.
+
+# Quest: Fancy Stripes!
+betterquesting.quest.OaE5CLFfQ8CNDmlmBWB6ZA.name=Fancy Stripes!
+betterquesting.quest.OaE5CLFfQ8CNDmlmBWB6ZA.desc=A Rocket Engine is needed to accelerate your Mothership. Each Rocket Engine consists of one Rocket Engine Jet and 1 to 10 Rocket Engine Base blocks placed in a vertical line. Each Rocket Engine Base provides 2MN of force and holds up to 10,000L of Naquadah Based Liquid Fuel Mk II.%n%n§3You need at least one Rocket Engine with 4 base blocks to reach the T9 planets with the default Mothership (you will need to stop and refuel half-way though).
+
+# Quest: A T0 Rocket? What?
+betterquesting.quest.Oiy66UDmTVeZ95pN0yunBg.name=A T0 Rocket? What?
+betterquesting.quest.Oiy66UDmTVeZ95pN0yunBg.desc=You can't use this rocket to go to any planet or moon §oand§r it's the most expensive one - a bad deal? Not quite! The Shuttle Rocket is used to create and access a §1§lMothership§r.%n%nThe Shuttle Rocket needs the same fuel as the T8 Rocket.
+
+# Quest: Woah! It Measures Mass!
+betterquesting.quest.R5p2fg8oQV69B7u7MijpKQ.name=Woah! It Measures Mass!
+betterquesting.quest.R5p2fg8oQV69B7u7MijpKQ.desc=The Mothership takes longer to get from point A to point B if it has more mass. The Block Scale allows you to measure the mass of a block by placing it on top of it.
 
 
 ## Quest Line: Basic Automation
