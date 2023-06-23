@@ -1,0 +1,45 @@
+{
+  "ExampleMob": {
+    "removeAll": false,
+    "additions": [
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "minecraft",
+            "name": "diamond_sword"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": null
+        },
+        "type": "Rare",
+        "chance": 500,
+        "enchantable": 20,
+        "damages": {
+          "1": 1,
+          "2": 5,
+          "3": 10
+        },
+        "lootable": true,
+        "playerOnly": false,
+        "variableChance": false,
+        "variableChanceInfo": [],
+        "additionalInfo": []
+      }
+    ],
+    "removals": [
+      {
+        "reconstructableStack": {
+          "itemIdentifier": {
+            "modId": "minecraft",
+            "name": "rotten_flesh"
+          },
+          "meta": 0,
+          "size": 1,
+          "tagCompound": null
+        },
+        "type": "Normal"
+      }
+    ]
+  }
+}
