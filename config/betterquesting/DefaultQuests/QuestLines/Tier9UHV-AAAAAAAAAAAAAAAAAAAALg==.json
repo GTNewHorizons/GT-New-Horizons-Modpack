@@ -3,8 +3,8 @@
     "0:10": {
       "questIDHigh:4": 0,
       "sizeX:3": 24,
-      "x:3": 348,
-      "y:3": 48,
+      "x:3": 396,
+      "y:3": 108,
       "questIDLow:4": 388,
       "sizeY:3": 24
     },
@@ -19,16 +19,16 @@
     "2:10": {
       "questIDHigh:4": 0,
       "sizeX:3": 24,
-      "x:3": 300,
-      "y:3": 0,
+      "x:3": 396,
+      "y:3": 12,
       "questIDLow:4": 462,
       "sizeY:3": 24
     },
     "3:10": {
       "questIDHigh:4": 0,
       "sizeX:3": 24,
-      "x:3": 348,
-      "y:3": 0,
+      "x:3": 396,
+      "y:3": 60,
       "questIDLow:4": 464,
       "sizeY:3": 24
     },
@@ -100,38 +100,38 @@
       "questIDHigh:4": 0,
       "sizeX:3": 48,
       "x:3": 96,
-      "y:3": 96,
+      "y:3": 0,
       "questIDLow:4": 2617,
       "sizeY:3": 48
     },
     "13:10": {
       "questIDHigh:4": 0,
-      "sizeX:3": 24,
-      "x:3": 60,
-      "y:3": 48,
+      "sizeX:3": 48,
+      "x:3": 0,
+      "y:3": 0,
       "questIDLow:4": 2618,
-      "sizeY:3": 24
+      "sizeY:3": 48
     },
     "14:10": {
       "questIDHigh:4": 0,
       "sizeX:3": 48,
-      "x:3": 204,
+      "x:3": 288,
       "y:3": 0,
       "questIDLow:4": 2621,
       "sizeY:3": 48
     },
     "15:10": {
       "questIDHigh:4": 0,
-      "sizeX:3": 24,
-      "x:3": 12,
-      "y:3": 48,
+      "sizeX:3": 48,
+      "x:3": 96,
+      "y:3": 96,
       "questIDLow:4": 2624,
-      "sizeY:3": 24
+      "sizeY:3": 48
     },
     "16:10": {
       "questIDHigh:4": 0,
       "sizeX:3": 48,
-      "x:3": 96,
+      "x:3": 192,
       "y:3": 0,
       "questIDLow:4": 2629,
       "sizeY:3": 48
@@ -147,7 +147,7 @@
     "18:10": {
       "questIDHigh:4": 0,
       "sizeX:3": 48,
-      "x:3": 336,
+      "x:3": 288,
       "y:3": 96,
       "questIDLow:4": 2648,
       "sizeY:3": 48
