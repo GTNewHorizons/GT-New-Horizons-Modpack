@@ -1131,7 +1131,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAC_w.desc=Tired of looking for ores by ha
 
 # Quest: Dust to Crystals
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADAw.name=§5§lDust to Crystals
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADAw.desc=Use the autoclave to crystallize your dust. You can also make raw carbon mesh out of carbon dust, and do other things.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADAw.desc=Use the autoclave to crystallize your dust. You can also make Raw Carbon Fibre out of Carbon Dust, and do other things.
 
 # Quest: Basic Circuit Assembler
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADGw.name=§5§lBasic Circuit Assembler
@@ -3384,11 +3384,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALcw.desc=The 'Waste Water' is still very
 
 # Quest: Recycle Titanium
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALdA.name=§c§lRecycle Titanium
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALdA.desc=As to titanium trifluoride, you can recycle titanium and some hydrofluoric acid in EBF, or you can choose to electrolyze it directly.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALdA.desc=As to titanium trifluoride, you can recycle titanium and some hydrofluoric acid in EBF.
 
 # Quest: Recycle Gallium
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALdQ.name=§c§lRecycle Gallium
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALdQ.desc=You have three choices to deal with it.%n%n1) Electrolyze it.%n%n2) React with sodium in chemical reactor.%n%n3) Mix it with indium phosphate in mixer.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALdQ.desc=You have two options to deal with it.%n%n1) React with Sodium Dust in a chemical reactor.%n%n2) Mix it with Indium Phosphate Dust in a mixer.
 
 # Quest: Another Solvent
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALdg.name=§c§lAnother Solvent
@@ -3609,7 +3609,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALhw.desc=The barium will react with sulp
 
 # Quest: Recycle Indium
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALiA.name=Recycle Indium
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALiA.desc=Free indium!%n%nYou have three choices to deal with it.%n%n1) Electrolyze it.%n%n2) React with calcium in chemical reactor.%n%n3) Mix it with gallium hydroxide in mixer.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALiA.desc=Free indium!%n%nYou have two options to deal with it.%n%n1) React with Calcium Dust in a chemical reactor.%n%n2) Mix it with Gallium Hydroxide Dust in a mixer.
 
 # Quest: Disproportionation
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALiQ.name=Disproportionation
@@ -6306,10 +6306,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGuQ.desc=Put those 8192 EU panels on a b
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGzA.name=§6§lDo You Hear That Engine Revving?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGzA.desc=Your old and trusty combustion engines don't quite cut it anymore, not to mention they're polluting the place. If you want to keep burning liquids, you need to build a better engine. This multiblock can produce 1A of EV voltage by default and 3A if you supply it with oxygen. However, this power doesn't come for free - you need to supply the machine with small amounts of lubricant constantly (and oxygen if you want to boost both its efficiency and output).%n%nYou will also require 3 Input Hatches, a Muffler, and a Dynamo Hatch. Their tiers are up to you.%n%nCetane Boosted Diesel and High Octane Gasoline (HOG) are excellent fuel sources for this engine.%n%nYou will need to keep the area in front of the engine clear so it can pull enough air - not even torches.
 
-# Quest: Large Essentia Generator
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHGg.name=§6§lLarge Essentia Generator
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHGg.desc=Having one Essentia Generator per Essentia type seeems impractical... Better make a Large Essentia Generator and burn all the Essentia in parallel! As another bonus, this generator produces 20x the energy a single block machine will produce. You might need more Magic Containment Casings than this quest asks for.%n%n§4PS: This is apparently super buggy and may or may not work. Rather check out the LEG from GoodGenerator!
-
 # Quest: The Church of Benzene's Holy Altar
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHTQ.name=§6§lThe Church of Benzene's Holy Altar
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHTQ.desc=The MV Gas Turbine pairs excellently with Benzene, now that you can actually make it. Look at the "Bio for the Masses" tab for more details on how to go about it, or just check NEI. Benzene is renewable from trees, and it's a powerful source of EU that can keep you going for several tiers as long as you upgrade it with the new multiblocks you unlock over time.%n%nIt's a good idea to switch off Steam, since you need big pipes to carry that around and the fuel efficiency on Steam Turbines is lower. Instead, make a Pyrolyse Oven or an Advanced Coke Oven to make Charcoal faster, extract Benzene from it and run it through a few of these Gas Turbines.
@@ -6624,7 +6620,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALlw.desc=A chemical fuel engine for LuV?
 
 # Quest: Large Essentia Generator (Good Generator)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALmA.name=§6§lLarge Essentia Generator (Good Generator)
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALmA.desc=This Essentia Generator is a rework version of bart's one. The essentia fuel value is different from bart's one and you can find all information about it in Thaumonomicon.%n%n§3PS: The essentia fuel value is still in test state. It may get changed.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALmA.desc=This Essentia Generator is a rework version of bart's one. The essentia fuel value is different from bart's one and you can find all information about it in Thaumonomicon.%n%nStarting in EV you can use the 64A Dynamos from TecTech. It currently has tiers all the way to ZPM; if you have a way to produce that much essentia.%n%n§3PS: The essentia fuel values are still in a test state. They may get changed in the future!
 
 # Quest: Adept Cell
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALmQ.name=§6§lAdept Cell
@@ -8585,7 +8581,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAsg.desc=To make an AE system, you'll ne
 
 # Quest: Gotta Find Them All
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAsw.name=Gotta Find Them All
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAsw.desc=There are a lot of meteors on the surface, but there are more underground. In order to find those, you'll want a compass. The compass will only tell you the chunk has an asteroid in it, with your ore finder wand you can get a better idea where in the chunk the meteor is hiding.%n%nFor more details on AE2, check out https://tinyurl.com/GTNH-AE2
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAsw.desc=There are a lot of meteors on the surface, but there are more underground. In order to find those, you'll want a compass. The compass will only tell you the chunk has an asteroid in it, with your ore finder wand you can get a better idea where in the chunk the meteor is hiding.%n%nFor more details on AE2, check out §1§n[url]https://gtnh.miraheze.org/wiki/Applied_Energistics_2[/url]§r.
 
 # Quest: 16k Item Storage Cell
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAtA.name=16k Item Storage Cell
@@ -10521,7 +10517,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGHQ.desc=Hardcore darkness is a pain, bu
 
 # Quest: Source of Nickel
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGTQ.name=§5§lSource of Nickel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGTQ.desc=Your Electric Blast Furnace needs Nickel. Now that you've reached the Twilight Forest, it's time to get some. The Garnierite vein that contains it is located at Y 10-40. In MV, you'll need tons of Nickel for Cupronickel, so stock up.%n%nYou can get some Cobalt out of Cobaltite through the side processes such as washing or thermal centrifuging. To electrolyze it, you'll need an MV electrolyzer though. Or you can EBF it after your EBF is done. Remember that the Sulfur Dioxide you get is based on your muffler tier. This is probably easier than searching in the Nether for Cobalt.%n%n§3You can also find small quantities of Pentlandite ore in the Overworld if you care.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGTQ.desc=Your Electric Blast Furnace needs Nickel. Now that you've reached the Twilight Forest, it's time to get some. The Nickel Vein that contains it is located at Y 10-40. In MV, you'll need tons of Nickel for Cupronickel, so stock up.%n%nYou can get some Cobalt out of Cobaltite through the side processes such as washing or thermal centrifuging. To electrolyze it, you'll need an MV electrolyzer though. Or you can EBF it after your EBF is done. Remember that the Sulfur Dioxide you get is based on your muffler tier. This is probably easier than searching in the Nether for Cobalt.%n%n§3You can also find small quantities of Pentlandite ore in the Overworld if you care.
 
 # Quest: Warp Warnings
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAG8g.name=Warp Warnings
