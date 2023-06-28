@@ -1,0 +1,109 @@
+{
+  "questIDHigh:4": 1020064013494797697,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1224
+    }
+  },
+  "questIDLow:4": -7126666155324853443,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.blockmachines",
+        "Count:3": 1,
+        "Damage:2": 15314,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Wireless Power!?",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Are you sick and tired of having cables all around your base? Are you tired of having to upgrade your cables constantly to handle different amperage amounts? Are you a fan of lightning bolts zapping around your base?\n\nThen this multiblock is for you, the Telsa tower comes with high amperage output and full Tec Tec energy hatch support with this powerful multiblock.\n\nTo get started you will need to fill the tower with capacitors matching the tier of the primary tesla windings within the capacitor bank. The Tesla winding determines the tier of power that the tower transfers power at and the amount of capacitors determines the maximum amperage that can be output. \n\nA total of 16 capacitors can be placed into one capacitor bank so you might need many banks depending on your power needs.\n\nOnce the tower is constructed click open the controller to configure the maximum transfer distance of the tower to fit the needs of your base. This option is called “Tesla Towers Transfer Radius Setting”.\n\nNow that your tower is all configured how do you get power out of it to your machines? Well I am glad you asked. To get power to the machines of the base you will need to use the Tesla Coil covers. Place them on your machines, energy hatches and even transformers to get power flowing from the tower. Energy hatches are a bit picky however and the hatch likes to be facing upwards to receive power.\n§§§5\nWarning! The Tesla tower will output only one tier type of amp such as EV, IV etc. When upgrading the Primary Tesla Windings please make sure to check all of your coil covers and transceivers in the base can handle the upgraded power. Failure to do so will result in a machine explosion.\n\nFailure to turn off the controller before adjustment can also cause an explosion. \n"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 15314,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 15452,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "tectech:gt.blockcasingsBA0",
+          "Count:3": 12,
+          "Damage:2": 8,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "tectech:gt.blockcasingsBA0",
+          "Count:3": 128,
+          "Damage:2": 7,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "tectech:gt.blockcasingsBA0",
+          "Count:3": 17,
+          "Damage:2": 6,
+          "OreDict:8": ""
+        },
+        "4:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 12,
+          "Damage:2": 4124,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "tectech:item.tm.teslaCover",
+          "Count:3": 10,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}
