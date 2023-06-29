@@ -95,9 +95,9 @@
       "index:3": 1,
       "choices:9": {
         "0:10": {
-          "id:8": "IC2:itemPlates",
+          "id:8": "gregtech:gt.metaitem.01",
           "Count:3": 5,
-          "Damage:2": 2,
+          "Damage:2": 17300,
           "OreDict:8": ""
         },
         "1:10": {
