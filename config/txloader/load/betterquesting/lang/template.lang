@@ -2692,6 +2692,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALpA.desc=The EV Autoclave is needed to p
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMAg.name=§a§lPower of the Sun from Nuclear
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMAg.desc=Your good old singleblock Molecular Transformer is gone. So how to obtain Sunnarium? Well there are couple of ways, but at EV you'll need to radiate Glowstone and convert to Sunnarium.%n%nThe Glowstone rod will slowly charge up if you put it next to any fuel rod in your IC2 reactor. The exact charging speed is `(number of rods adjacent) * (floor(hull temperature/3000) + 1)` per second. A dual rod will count as 2 rods and quad fuel rod will count as 4 rods for this purpose. The Glowstone rod will neither emit heat, nor cause other component to emit more heat. You can treat this rod as a reactor plating in the IC2 Reactor Planner.%n%nAs you can see, the speed is directly proportional to hull temperature and rods adjacent. At the very extreme you can fully charge up a Glowstone rod in less than half a minute and output one Sunnarium every 10 second (on average, since cells aren't charged at same speed due to different position), but that require very considerable resource to setup. It also involves a vacuum freezer to cooldown the coolant cells and running the reactor at 66000+ hull temperature. Balance your need and your resource situation wisely. In any case, if you just wish to charge it up FAST then here is a possible string for the IC2 Reactor Planner:%n%nerp=bpO50cpsdtJElVqn4hObFJc0tiOE0JpEHYpqTxJHvyezjSKRjUuwgouXzNOlU4a3hFBRygM=%n%nReplace Containment Reactor Plating with actual Glowstone rods and you should be good to go. You can also use fewer reactor chambers by using less plating. Enjoy!
 
+# Quest: Four fluids in the one Hatch!
+betterquesting.quest.JkWQZxq_TECWjHhjywrZZA.name=Four fluids in the one Hatch!
+betterquesting.quest.JkWQZxq_TECWjHhjywrZZA.desc=Now that you're in EV tier you now have access to the Quadruple input hatches. These hatches can hold four different fluids in the one hatch which saves valuable spots in your multiblocks.%n%nPerfect to be placed in your EBFs.%n
+
 # Quest: EV Field Generators
 betterquesting.quest.Jna1jgAySNSs8nS0YMXpLw.name=§a§lEV Field Generators
 betterquesting.quest.Jna1jgAySNSs8nS0YMXpLw.desc=With Field Generators you can make your first Quantum Chests or Quantum Tanks. But the first two should be for your T2 rocket.
@@ -3176,6 +3180,14 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMDw.desc=When you inevitably get Samariu
 # Quest: Finally, Samarium!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEA.name=§b§lFinally, Samarium!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEA.desc=(And Gadolinium)%n%nEasy, right? Not to worry, there's always the bastnasite line to stay your hunger for complex lines!%n%nSamarium can be used to fuel your ever growing Magnetic Samarium Rods needs from LuV up to UHV while Gadolinium is used in the far lategame in the making of powerfull Compact Fusion reactors.
+
+# Quest: Supersized Buses
+betterquesting.quest.Mt25IP2aShSSUBhZ1GGItg.name=Supersized Buses
+betterquesting.quest.Mt25IP2aShSSUBhZ1GGItg.desc=Input and output buses not holding enough for you? %n%nUpgrade your buses to the Super bus and enjoy increased slots.
+
+# Quest: Intradimensional Input buses
+betterquesting.quest.VCXYSn_PTZ6kY3d6kFTFwg.name=Intradimensional Input buses
+betterquesting.quest.VCXYSn_PTZ6kY3d6kFTFwg.desc=This Special bus is rather pricey however it will allow all items that are in the bus to be accessible in all other linked buses in the same dimension. %n%nThis would allow multiple machines to work from the same input of items. %n%nWhile holding a data stick the configuration settings can be copied with a left click and pasted with a right click on the bus.%n
 
 
 ## Quest Line: Tier 6 - LuV
@@ -7207,7 +7219,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMOw.desc=Sourcing these two should be ea
 
 # Quest: Titanium Chemical Plant
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMPA.name=Titanium Chemical Plant
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMPA.desc=This is the difficult part in the whole process. The multi in which Nitrobenzene is crafted is the Exxonmobil Chemical Plant, also known as the Chemplant, and it is a gigantic 7x7x7 structure with 4 separate upgradable parts to it. Even worse, the outer structure uses multiblock Machine Casings, making the DT look cheap by comparison, and the inside needs a lot of the casings used to craft single blocks.%n%nThe difference between those is that the tier of the outer structure that you need is mentioned in the recipe you want to craft, and the tier of the inner structure is generally related to the EU/t of the recipe, minus one tier. This is because, like the EBF and the LCR, you can use 2 energy hatches, so this HV recipe can be made with MV energy hatches. Since the inner structure's tier decides the max tier of the hatches used in the Chemplant, you can make it out of MV machine casings, which use Aluminium.%n%nThe outer structure will still need many stacks of Titanium, so this is where most of your effort will go. Good luck.%n%n§3Technically, you could also make Nitrobenzene in a LCR instead of a Chemplant. But it is less energy efficient and dilutes your acid. That option was only added for those to weak to handle a Chemplant.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMPA.desc=This is the difficult part in the whole process. The multi in which Nitrobenzene is crafted is the Exxonmobil Chemical Plant, also known as the Chemplant, and it is a gigantic 7x7x7 structure with 4 separate upgradable parts to it. Even worse, the outer structure uses multiblock Machine Casings, making the DT look cheap by comparison, and the inside needs a lot of the casings used to craft single blocks.%n%nThe difference between those is that the tier of the outer structure that you need is mentioned in the recipe you want to craft, and the tier of the inner structure is generally related to the EU/t of the recipe, minus one tier. This is because, like the EBF and the LCR, you can use 2 energy hatches, so this HV recipe can be made with MV energy hatches. Since the inner structure's tier decides the max tier of the hatches used in the Chemplant, you can make it out of MV machine casings, which use Aluminium.%n%nThe outer structure will still need many stacks of Titanium, so this is where most of your effort will go. Good luck.%n%n§3Technically, you could also make Nitrobenzene in a LCR instead of a Chemplant. But it is less energy efficient and dilutes your acid. That option was only added for those too weak to handle a Chemplant.
 
 # Quest: Nitrobenzene
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMPQ.name=Nitrobenzene
