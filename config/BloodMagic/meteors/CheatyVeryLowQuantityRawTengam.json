@@ -1,14 +1,14 @@
 {
   "ores": [
 	"oreMarbleSalt",
-    "580",
+    "3000",
 	"oreTengamRaw",
-    "1"
+    "4"
   ],
-  "radius": 12,
+  "radius": 16,
   "cost": 10000001,
-  "focusModId": "gregtech",
-  "focusName": "gt.blockmachines",
-  "focusMeta": 11003
+  "focusModId": "GalacticraftAmunRa",
+  "focusName": "tile.machines2",
+  "focusMeta": 1
 }
 
