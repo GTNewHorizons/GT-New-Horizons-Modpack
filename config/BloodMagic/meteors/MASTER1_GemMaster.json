@@ -53,8 +53,8 @@
 	"oreEndstoneNetherStar",
     "5"
   ],
-  "radius": 48,
-  "cost": 50000000,
+  "radius": 32,
+  "cost": 1,
   "focusModId": "EMT",
   "focusName": "EMT_GTBLOCK_CASEING",
   "focusMeta": 8
