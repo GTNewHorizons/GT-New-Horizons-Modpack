@@ -4504,6 +4504,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALUg.desc=Rotten Flesh is not really heal
 betterquesting.questline.bAal8kZ3R8eRTwaHgbYkKA.name=Getting Around...
 betterquesting.questline.bAal8kZ3R8eRTwaHgbYkKA.desc=Movement can be slow initially. But with some technology or magic, that is easily overcome!
 
+# Quest: Alterative to blasting off!?
+betterquesting.quest.iWmU5h_ZSPqAcObmxgW5bw.name=Alterative to blasting off!?
+betterquesting.quest.iWmU5h_ZSPqAcObmxgW5bw.desc=Are you sick and tired of using the rocket to blast off every time and want an alternative and faster method? The Enderio Telepad is a 3x3x1 structure that when powered with RF will teleport the player to a set coordinate.%n%nTo set the Coordinate you will need a Coordinate selector tool to mark an area by Shift right clicking to mark. Then Shift right click the middle of the Enderio Telepad pad to set the desired location.%n%nThen stand on the pad and click teleport to be sent in style.%n
+
 # Quest: The Power of Endermen
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAhQ.name=The Power of Endermen
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAhQ.desc=Elevators are nice, but they're limited to vertical teleportation, and their range is also highly limited. Travel anchors don't have a limitation on angle, you can teleport from one anchor to any other within 128 blocks. You do this by looking at the anchor you wish to travel to and pressing the shift button. You can also name them and even set them as private if you like. They have a 2s cooldown.
