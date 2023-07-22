@@ -2705,6 +2705,10 @@ betterquesting.quest.Jna1jgAySNSs8nS0YMXpLw.desc=With Field Generators you can m
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAABw.name=Tier 5 - IV
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAABw.desc=This tier is all about the platline, and making the assembly line. They're both super hard , but necessary. This is probably where most people drop out. Good luck!
 
+# Quest: Thorium 232?
+betterquesting.quest.nNTmwkdsQgyE6QAfmIwcvg.name=Thorium 232?
+betterquesting.quest.nNTmwkdsQgyE6QAfmIwcvg.desc=So you were looking at Thorium 232 and wondering how to make it?%n%nYou could centrifuge it at a horrible chance rate with a long recipe but there are better ways of obtaining it.%n%nThe better ways are processing chains that can be made in three different paths with the third path being unlocked at a further stage after obtaining Fusion with the Neutron Activator.%n%nThe first path requires the chemical plant multiblock that you might not be familiar with but will become required to create rocket fuel for any tier three or higher rocket.%n%nThis path is the fastest with only two steps to obtain the Thorium 232.%n%nThe second path is a six step processing chain that requires Chemical reactors, Centrifuge and an EBF.%n%nEither way I would recommend using AE2FC as it allows on demand fluid crafting which will assist in both processing chains.%n%n§2For your sanity I would recommend the Chemical Plant option.%n
+
 # Quest: Tier 5 (IV)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA1Q.name=§1§b§l§1§2§3§4§5§4§6§7§8§9§a§b§c§d§e§c§b§lTier 5 (IV)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA1Q.desc=IV-Level. You will need Tungstensteel for machines. Suggested planets and moons to visit: Mars, Phobos, Deimos. %n%nMake sure to get a set of TPV coils for your EBF.%n%nYou should've learned "how to GregTech" by now. If not, go clean up the machine craters in your base...%n%nMany GT++ multiblock machines unlock at this tier. Make sure you have an Alloy Blast Smelter ready to go and check the GT++ tab.
@@ -3185,9 +3189,17 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEA.desc=(And Gadolinium)%n%nEasy, right
 betterquesting.quest.Mt25IP2aShSSUBhZ1GGItg.name=Supersized Buses
 betterquesting.quest.Mt25IP2aShSSUBhZ1GGItg.desc=Input and output buses not holding enough for you? %n%nUpgrade your buses to the Super bus and enjoy increased slots.
 
+# Quest: The sane option
+betterquesting.quest.SIqmtgRmTj-EsZlXpCdyWQ.name=The sane option
+betterquesting.quest.SIqmtgRmTj-EsZlXpCdyWQ.desc=So you choose the sane two step processing option?%n%nGreat choice.%n%nTo get started you will need to create a Titanium tier Chemical plant with §nat least hv tier machine casings.§r It can be hv tier casings as two hv tier energy hatches will overclock the multiblock to ev tier.%n%nOnce completed, place in your Borax dust which is easily obtained from processing down salt to obtain the Boric Acid. Then in the second step feed in your Thorium dust with some distilled water.%n%nThen you have your Thorium 232 dust nice and easy.%n
+
 # Quest: Intradimensional Input buses
 betterquesting.quest.VCXYSn_PTZ6kY3d6kFTFwg.name=Intradimensional Input buses
 betterquesting.quest.VCXYSn_PTZ6kY3d6kFTFwg.desc=This Special bus is rather pricey however it will allow all items that are in the bus to be accessible in all other linked buses in the same dimension. %n%nThis would allow multiple machines to work from the same input of items. %n%nWhile holding a data stick the configuration settings can be copied with a left click and pasted with a right click on the bus.%n
+
+# Quest: Wait are you sure?
+betterquesting.quest.fvz-5lJaRAqfsM1hcAYOng.name=Wait are you sure?
+betterquesting.quest.fvz-5lJaRAqfsM1hcAYOng.desc=So for some reason you have decided to pick the EBF option.%n%nWell get ready for a processing line.%n%nFirst you need to react Thorium dust with Hydrofluoric acid and eight buckets of Nitric Acid. I hope you have a Nitric acid setup.%n%nThen react the Thorium Nitrate with Sodium Hydroxide to produce Thorium Hydroxide dust. Then react with even more Hydrofluoric acid to get Thorium Tetrafluoride.%n%nThen pump it into a Centrifuge to separate the normal Thorium away from the Thorium 232. Sadly it is still in a liquid form so you will need to blast furnace it with zinc Chlorine and Calcium.%n%nThen finally blast Furnace the Zn-Th alloy ingot again to separate the Zinc from the Thorium 232 to obtain the Thorium 232 dust and even get your zinc back in fluid form.%n%nWell I hope you enjoyed the processing line for Thorium 232 EBF edition.%n
 
 
 ## Quest Line: Tier 6 - LuV
@@ -5587,6 +5599,10 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAADA.desc=This set is a global tracke
 # Quest: Component Assembly Line
 betterquesting.quest.n7yjRSr0R7O2agebw73FGA.name=Component Assembly Line
 betterquesting.quest.n7yjRSr0R7O2agebw73FGA.desc=Check the NEI pages to see all the nice recipes this machine can handle for you. Great to craft GT components in bulk.
+
+# Quest: One fluid tank to store it All!!
+betterquesting.quest.tQecVBhjRRyfR3sqeNBrtA.name=§6§lOne fluid tank to store it All!!
+betterquesting.quest.tQecVBhjRRyfR3sqeNBrtA.desc=If you ever thought that the standard super tanks or quantum tanks were still too small then the YoTTank is the next option.%n%nThe YoTTank compared to the TFFT might only be able to store one fluid instead of 25 fluids. However it makes up for this downfall by not having to share any of the fluid storage space with any other fluids. It also does not require any energy input or maintenance requirements.%n%nIf all you want to do is store a large amount of one fluid type then look no further then the YoTTank. It has a special ME input hatch for ae2 connections while having expandable storage blocks. The tank can be both upgraded with the fluid storage blocks and can be increased in height to hold any more fluid.%n%nSo if you want to store your fluid in style then look no further then the YoTTank.%n§3%nIf your having issues searching for the Fluid storage blocks for the YoTTank in nei then search for: fluid cell block%n
 
 # Quest: Multiblock Tanks... Railcraft Tanks
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAALQ.name=§6§lMultiblock Tanks... Railcraft Tanks
