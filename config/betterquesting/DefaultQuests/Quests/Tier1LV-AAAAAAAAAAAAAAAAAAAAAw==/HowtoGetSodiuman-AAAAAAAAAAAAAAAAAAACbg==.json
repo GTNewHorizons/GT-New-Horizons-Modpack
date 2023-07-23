@@ -51,20 +51,20 @@
         },
         "1:10": {
           "id:8": "gregtech:gt.blockores",
-          "Count:3": 16,
+          "Count:3": 32,
           "Damage:2": 944,
           "OreDict:8": ""
         },
         "2:10": {
           "id:8": "gregtech:gt.blockores",
           "Count:3": 32,
-          "Damage:2": 920,
+          "Damage:2": 907,
           "OreDict:8": ""
         },
         "3:10": {
           "id:8": "gregtech:gt.blockores",
-          "Count:3": 32,
-          "Damage:2": 907,
+          "Count:3": 16,
+          "Damage:2": 920,
           "OreDict:8": ""
         }
       },
