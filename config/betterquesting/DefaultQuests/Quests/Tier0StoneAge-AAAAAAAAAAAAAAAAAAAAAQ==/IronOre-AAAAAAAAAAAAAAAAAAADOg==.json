@@ -47,31 +47,31 @@
           "id:8": "gregtech:gt.blockores",
           "Count:3": 16,
           "Damage:2": 917,
-          "OreDict:8": "oreBandedIron"
+          "OreDict:8": ""
         },
         "1:10": {
           "id:8": "gregtech:gt.blockores",
           "Count:3": 16,
           "Damage:2": 32,
-          "OreDict:8": "oreIron"
+          "OreDict:8": ""
         },
         "2:10": {
           "id:8": "gregtech:gt.blockores",
           "Count:3": 16,
           "Damage:2": 870,
-          "OreDict:8": "oreMagnetite"
+          "OreDict:8": ""
         },
         "3:10": {
           "id:8": "gregtech:gt.blockores",
           "Count:3": 16,
           "Damage:2": 931,
-          "OreDict:8": "oreYellowLimonite"
+          "OreDict:8": ""
         },
         "4:10": {
           "id:8": "gregtech:gt.blockores",
           "Count:3": 16,
           "Damage:2": 930,
-          "OreDict:8": "oreBrownLimonite"
+          "OreDict:8": ""
         }
       },
       "taskID:8": "bq_standard:retrieval"
