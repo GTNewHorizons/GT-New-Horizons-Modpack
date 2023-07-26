@@ -16,9 +16,9 @@
       "isMain:1": 0,
       "simultaneous:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.metaitem.01",
+        "id:8": "gregtech:gt.blockores",
         "Count:3": 1,
-        "Damage:2": 2934,
+        "Damage:2": 934,
         "OreDict:8": ""
       },
       "snd_update:8": "random.levelup",
@@ -45,25 +45,25 @@
       "requiredItems:9": {
         "0:10": {
           "id:8": "gregtech:gt.blockores",
-          "Count:3": 16,
+          "Count:3": 32,
           "Damage:2": 935,
           "OreDict:8": ""
         },
         "1:10": {
           "id:8": "gregtech:gt.blockores",
-          "Count:3": 16,
+          "Count:3": 32,
           "Damage:2": 936,
           "OreDict:8": ""
         },
         "2:10": {
           "id:8": "gregtech:gt.blockores",
-          "Count:3": 16,
+          "Count:3": 32,
           "Damage:2": 928,
           "OreDict:8": ""
         },
         "3:10": {
           "id:8": "gregtech:gt.blockores",
-          "Count:3": 32,
+          "Count:3": 16,
           "Damage:2": 934,
           "OreDict:8": ""
         }
