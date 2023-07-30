@@ -1,0 +1,311 @@
+# In this file, modpack creators can define config options that should NOT get overridden by modpack updates.
+# The values for these options will be restored to what they were before the pack update.
+# The format is the following: FILE/CATEGORY/TYPE:NAME (the TYPE: is optional)
+# If the config file is inside a sub-directory, encase the path inside square brackets, ex. [eirairc/shared.cfg]
+# Categories and sub-categories are split by periods, ex. general.subcategory
+# The type is a single-character just like Forge's configuration type prefix: B, I, S, D; for lists, append <> to the type character
+# Full Example #1: trashslot.cfg/general/trashSlotX
+# Full Example #2: [eirairc/client.cfg]/notifications/notificationSoundVolume
+# Also see the localconfig-example.txt for a collection of presets for commonly used mods.
+
+adventurebackpack.cfg/graphics/"Enable Fullness Bar"
+adventurebackpack.cfg/graphics/"Enable Temperature Bar"
+adventurebackpack.cfg/graphics/"Enable Tools Render"
+adventurebackpack.cfg/graphics/"Hovering Text"
+adventurebackpack.cfg/graphics.status/*
+adventurebackpack.cfg/graphics.tanks/*
+adventurebackpack.cfg/sound/*
+
+AFSU.cfg/*/*
+
+AppleCore.cfg/client/*
+
+[AppliedEnergistics2/AppliedEnergistics2.cfg]/client/*
+
+Automagy.cfg/general/waila_brain_jar
+Automagy.cfg/general/waila_soul_stone
+Automagy.cfg/keys/*
+
+AWWayofTime.cfg/clientsettings/*
+
+Backpack.cfg/general/renderBackpackModel
+
+battlegear2.cfg/general/"Always Show Battlegear Slots"
+battlegear2.cfg/general/"Enable GUI Buttons"
+battlegear2.cfg/general/"Enable GUI Keys"
+battlegear2.cfg/rendering/*
+
+beebetteratbees.cfg/*/*
+
+BetterAchievements.cfg/*/*
+
+Botania.cfg/general/baubleRender.enabled
+Botania.cfg/general/blockBreakingParticles.enabled
+Botania.cfg/general/blockBreakingParticlesTool.enabled
+Botania.cfg/general/boundBlock.wireframe.enabled
+Botania.cfg/general/chargeAnimation.enabled
+Botania.cfg/general/elfPortal.particles.enabled
+Botania.cfg/general/flowerParticles.frequency
+Botania.cfg/general/flowerTextures.alt
+Botania.cfg/general/lexicon.enable.justifiedText
+Botania.cfg/general/lexicon.enable.rotatingItems
+Botania.cfg/general/lexicon.render.3D
+Botania.cfg/general/manaSpreaders.silent
+Botania.cfg/general/powerSystem.subtle
+Botania.cfg/general/pylonModel.old
+Botania.cfg/general/references.enabled
+Botania.cfg/general/shaders.enabled
+Botania.cfg/general/vanillaParticleConfig.enabled
+Botania.cfg/general/wandBeam.static
+
+[buildcraft/main.cfg]/colorBlindMode
+
+chisel.cfg/client/*
+
+CodeChickenCore.cfg/tweaks/replaceLavaFX $format=simple
+CodeChickenCore.cfg/tweaks/replaceWaterFX $format=simple
+
+computronics.cfg/sound.client/*
+
+cookingforblockheads.cfg/client/*
+
+DraconicEvolution.cfg/general/"Enable HUD info"
+DraconicEvolution.cfg/general/"HUD Display X pos"
+DraconicEvolution.cfg/general/"HUD Display Y pos"
+DraconicEvolution.cfg/general/InvertDPDSB
+DraconicEvolution.cfg/general/"Show Unlocalized Names"
+
+duradisplay.cfg/*/*
+
+EMT.cfg/"random configs"/"Disable smoke effect for boots"
+
+[endercore/endercore.cfg]/betterAchievements
+[endercore/endercore.cfg]/defaultModSort
+[endercore/endercore.cfg]/disableVoidFog
+[endercore/endercore.cfg]/showDurabilityTooltips
+[endercore/endercore.cfg]/showOredictTooltips
+[endercore/endercore.cfg]/showRegistryNameTooltips
+
+[enderio/EnderIO.cfg]/"aesthetic settings"/*
+[enderio/EnderIO.cfg]/"farm settings"/disableFarmNotifications
+[enderio/EnderIO.cfg]/misc/clearGlassConnectToFusedQuartz
+[enderio/EnderIO.cfg]/misc/clearGlassSameTexture
+[enderio/EnderIO.cfg]/"personal settings"/*
+![enderio/EnderIO.cfg]/"personal settings"/enderIoMeAccessEnabled
+![enderio/EnderIO.cfg]/"personal settings"/ticBeheadingSkullModifier
+![enderio/EnderIO.cfg]/"personal settings"/vanillaSwordSkullLootingModifier
+
+EnderStorage.cfg//disableFXChest $format=simple
+EnderStorage.cfg//disableFXTank $format=simple
+
+[enderzoo/EnderZoo.cfg]/"concussion creeper"/concussionCreeperOldTexture
+[enderzoo/EnderZoo.cfg]/"dire wolf"/direWolfHowlVolumeMult
+
+ExtraUtilities.cfg/client_options/*
+
+fastcraft.ini/*/* $format=ini
+
+[forestry/apiculture.conf]//render.bees.fancy $format=simple
+[forestry/common.conf]//performance.particleFX.enabled $format=simple
+
+gadomancy.cfg/general/particleRenderDistance
+
+[Galacticraft/core.conf]/general/"More Stars"
+[Galacticraft/core.conf]/general/"Disable Spaceship Particles"
+[Galacticraft/core.conf]/general/"Disable Vehicle Third-Person and Zoom"
+[Galacticraft/core.conf]/general/"Minimap Left"
+[Galacticraft/core.conf]/general/"Minimap Bottom"
+[Galacticraft/core.conf]/general/"Open Galaxy Map"
+[Galacticraft/core.conf]/general/"Open Fuel GUI"
+[Galacticraft/core.conf]/general/"Toggle Advanced Goggles"
+[Galacticraft/core.conf]/general/"Map Scroll Mouse Sensitivity"
+[Galacticraft/core.conf]/general/"Map Scroll Mouse Invert"
+[Galacticraft/core.conf]/general/"Enable Space Race Manager Popup"
+[Galacticraft/core.conf]/general/"Always show Oxygen HUD"
+
+GalacticraftAmunRa.cfg/rendering/*
+
+[GalaxySpace/core.conf]/dimensions/enableFogVenus
+[GalaxySpace/core.conf]/dimensions/enableMethaneParticle
+[GalaxySpace/core.conf]/dimensions/spaceStationStarBrightness
+[GalaxySpace/core.conf]/general/enableNewMenu
+
+[gendustry/client.config]/*/*
+
+GraviSuite.cfg/"hud settings"/*
+GraviSuite.cfg/"sound settings"/*
+
+[GregTech/Client.cfg]/*/*
+
+gtneioreplugin.cfg/*/*
+
+gtnhintergalactic.cfg/spaceelevator/isCableRenderingEnabled
+
+[GTplusplus/GTplusplus.cfg]/debug/disableEnderIOIngotTooltips
+[GTplusplus/GTplusplus.cfg]/debug/showHiddenNEIItems
+[GTplusplus/GTplusplus.cfg]/features/hideUniversalCells
+[GTplusplus/GTplusplus.cfg]/gregtech/enableAnimatedTurbines
+[GTplusplus/GTplusplus.cfg]/visual/enableAnimatedTextures
+
+HardcoreEnderExpansion.cfg/client/*
+
+hydroenergy.cfg/general/forceOpenGL
+hydroenergy.cfg/general/minLightUpdateTimePerSubChunk
+hydroenergy.cfg/general/useLimitedRendering
+
+IC2.ini/misc/enableIc2Audio $format=ini
+IC2.ini/misc/maxAudioSourceCount $format=ini
+IC2.ini/misc/hideSecretRecipes $format=ini
+
+[IguanaTinkerTweaks/main.cfg]/toolleveling/detailedXpTooltip
+[IguanaTinkerTweaks/main.cfg]/toolleveling/showMinimalTooltipXP
+[IguanaTinkerTweaks/main.cfg]/toolleveling/showTooltipXP
+
+InGameInfoXML.cfg/*/*
+
+[INpureProjects/custom_nei_filters/custom_nei_filters.cfg]/scripting/*
+
+InvTweaks.cfg//* $format=simple
+!InvTweaks.cfg//enableServerItemSwap $format=simple
+
+IronChest.cfg/general/cacheRenderingInformation
+IronChest.cfg/general/transparentRenderDistance
+IronChest.cfg/general/transparentRenderInside
+
+ironchestminecarts.cfg/general/"render minecarts in 3D on inventory"
+
+JABBA.cfg/general/colorOverrides
+JABBA.cfg/general/renderDistance
+JABBA.cfg/general/renderStackAndText
+JABBA.cfg/general/reverseBehaviourClickLeft
+
+LogisticsPipes.cfg/general/HUDRenderDistance
+LogisticsPipes.cfg/general/OpaquePipes
+LogisticsPipes.cfg/general/displayPopup
+LogisticsPipes.cfg/general/easterEggs
+LogisticsPipes.cfg/general/enableParticleFX
+
+lwjgl3ify.cfg/input/*
+lwjgl3ify.cfg/mixin/stbiIgnoreFastcraft
+lwjgl3ify.cfg/mixin/stbiTextureLoading
+lwjgl3ify.cfg/mixin/stbiTextureStiching
+lwjgl3ify.cfg/openglcontext/*
+lwjgl3ify.cfg/window/*
+
+MagicBees.cfg/client/*
+
+[mobsinfo/mobsinfo.cfg]/mobhandler/Enabled
+
+modularui.cfg/animations/*
+modularui.cfg/keyboard/*
+modularui.cfg/rendering/*
+
+MouseTweaks.cfg//* $format=simple
+
+multipart.cfg//useSawIcons $format=simple
+
+naturescompass.cfg/client/*
+
+[NEI/client.cfg]/*/* $format=simple
+
+neiintegration.cfg/tooltips/*
+
+NotEnoughEnergistics.cfg/helper/drawHighlight
+NotEnoughEnergistics.cfg/other/*
+NotEnoughEnergistics.cfg/transfer/*
+
+oauth.cfg/oauth/*
+
+OpenComputers.cfg/opencomputers.client/* $format=simple
+
+openmodularturrets.cfg/miscellaneous/"Enable/Disable turret alarm sound. True=enabled, false=disabled"
+openmodularturrets.cfg/miscellaneous/"Turret sound volume percentage (Between 0 - 100)"
+
+openprinter.cfg/options/Render3D
+
+overloadedarmorbar.cfg/general/*
+
+ProjectRed.cfg/"General Settings"/"Logic Sounds"
+ProjectRed.cfg/"Render Settings"/*
+
+[railcraft/railcraft.cfg]/general/play.sounds
+
+[RTG/rtg.cfg]/gui/"Enable World Type Notification Screen"
+
+Schematica.cfg/render/*
+
+SGCraft.cfg/stargate/soundVolume
+SGCraft.cfg/stargate/transparency
+
+SpiceOfLife.cfg/client/*
+
+splash.properties//enabled $format=simple
+
+StevesAddons.cfg/general/waila_integration
+
+StevesCarts.cfg/settings/useArcadeSounds
+StevesCarts.cfg/settings/useTetrisMobSounds
+
+StorageDrawers.cfg/addons/*
+StorageDrawers.cfg/general/invertShift
+StorageDrawers.cfg/general/itemRenderType
+StorageDrawers.cfg/general/renderStorageUpgrades
+StorageDrawers.cfg/general/wailaStackRemainder
+StorageDrawers.cfg/integration/enableWaila
+
+structurelib.cfg/client/*
+
+tc4tweak.cfg/client/*
+
+tcnodetracker.cfg/*/*
+
+Thaumcraft.cfg/general/color_blind
+Thaumcraft.cfg/general/crooked
+Thaumcraft.cfg/general/display_aspects
+Thaumcraft.cfg/general/glowing_taint
+Thaumcraft.cfg/general/shaders
+
+thaumicenergistics.cfg/client/*
+
+ThaumicTinkerer.cfg/general/tooltipIndicators.enabled
+
+TinkersConstruct.cfg/looks/"Connected Textures Enabled"
+
+tinkersdefense.cfg/"general settings"/"Should Transparent Textures be enabled?"
+
+torohealthmod.cfg/*/*
+
+Translocator.cfg//disable-crafting-grid-key $format=simple
+
+TravellersGear.cfg/local/*
+TravellersGear.cfg/options/"Button Position"
+TravellersGear.cfg/options/"Radial Speed"
+TravellersGear.cfg/options/"Title Offset"
+
+TravellersGear_inv.cfg/*/*
+
+TwilightForest.cfg/general/SilentCicadas
+
+UniversalSingularities.cfg/general/hideDisabledSingularitiesInNei
+
+visualprospecting.cfg/general/enableProspecting
+visualprospecting.cfg/general/minZoomLevelForOreLabel
+visualprospecting.cfg/general/minZoomLevelForUndergroundFluidDetails
+visualprospecting.cfg/integration/enableVoxelMapWaypointsByDefault
+
+Waila.cfg/general/*
+Waila.cfg/modules/*
+
+WailaHarvestability.cfg/main/*
+
+wailaplugins.cfg/plugins/*
+
+WirelessRedstone.cfg/addon.sniffer.gui/* $format=simple
+
+witchery.cfg/general/GUIOnLeft
+witchery.cfg/general/HUDShowVampireTargetBloodText
+witchery.cfg/general/MantrapOpacity
+witchery.cfg/general/Render3dGlintEffect
+
+WitchingGadgets.cfg/"other options"/"Cloak Animation Mode"
+WitchingGadgets.cfg/"other options"/"Selection Radial Speed"
