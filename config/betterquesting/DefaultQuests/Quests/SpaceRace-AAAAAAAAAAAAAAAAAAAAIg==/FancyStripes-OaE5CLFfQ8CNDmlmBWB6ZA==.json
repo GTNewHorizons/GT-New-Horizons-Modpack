@@ -29,7 +29,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "A Rocket Engine is needed to accelerate your Mothership. Each Rocket Engine consists of one Rocket Engine Jet and 1 to 10 Rocket Engine Base blocks placed in a vertical line. Each Rocket Engine Base provides 2MN of force and holds up to 10,000L of Naquadah Based Liquid Fuel Mk II.\n\n§3You need at least one Rocket Engine with 4 base blocks to reach the T9 planets with the default Mothership (you will need to stop and refuel half-way though)."
+      "desc:8": "A Rocket Engine is needed to accelerate your Mothership. Each Rocket Engine consists of one Rocket Engine Jet and 1 to 10 Rocket Engine Base blocks placed in a vertical line. Each Rocket Engine Base provides 2MN of force and holds up to 10,000L of Naquadah Based Liquid Fuel Mk II.\n\n§3The Mothership is configured to have a fixed weight of 1500kg. So feel free to design a big and fancy spaceship. The amount of engines you need stays the same."
     }
   },
   "tasks:9": {
