@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CustomDrops>
-    <CustomDrop EntityClassName="eu.usrv.dummyEntity.ImbaSampleDragon">
-        <Drop Identifier="sample_Pig_DiamondDrop" ItemName="minecraft:diamond" Amount="1" NBTTag="{Lore: [&quot;Oh, shiny!&quot;]}" Chance="100" LimitedDropCount="5" RandomAmount="false"/>
-        <Drop Identifier="sample_Pig_CakeDrop" ItemName="minecraft:cake" Amount="1" NBTTag="" Chance="100" LimitedDropCount="0" RandomAmount="false"/>
-        <Drop Identifier="sample_Pig_CharcoalDrop" ItemName="minecraft:coal:1" Amount="5" NBTTag="" Chance="100" LimitedDropCount="0" RandomAmount="true"/>
-    </CustomDrop>
 	<CustomDrop EntityClassName="twilightforest.entity.boss.EntityTFLich">
         <Drop Identifier="Litch_LitchBone" ItemName="dreamcraft:item.LichBone" Amount="6" NBTTag="" Chance="100" LimitedDropCount="50" RandomAmount="true"/>
 		<Drop Identifier="Litch_Ofanix" ItemName="Ztones:ofanix" Amount="1" NBTTag="" Chance="100" LimitedDropCount="0" RandomAmount="false"/>
