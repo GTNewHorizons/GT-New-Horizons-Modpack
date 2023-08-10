@@ -3952,11 +3952,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJbQ.desc=In order to get to the riches y
 
 # Quest: Infinity Helmet
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKCA.name=Infinity Helmet
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKCA.desc=Helmet which provides infinite saturation and removes all negative debuffs.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKCA.desc=Helmet which provides infinite saturation.
 
 # Quest: Infinity Breastplate
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKCQ.name=Infinity Breastplate
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKCQ.desc=Breastplate which provides the user infinite creative flight.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKCQ.desc=Breastplate which provides the user infinite creative flight and removes all negative debuffs.
 
 # Quest: Infinity Pants
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKCg.name=Infinity Pants
@@ -5786,7 +5786,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADrA.desc=If you want to make more advanc
 
 # Quest: A Very Useful Scanner
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADrQ.name=§6§lA Very Useful Scanner
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADrQ.desc=The portable scanner is a tool capable of showing advanced information about almost every block in the game. In order to function, the tool needs to be charged first. It can hold up to 400k EU and accept 128 EU/t or less. This is MV tier.%n%nIt can scan crops by right clicking it to fully scan it, unlike a cropnalyzer which needs a seed bag in your inventory, and takes multiple goes. Crops that were scanned in the world will drop a scanned seed bag.%n%nIt can scan machines from GregTech, giving information about current progress, the stored energy, efficiency, problems and CPU-load - be sure to check the full chat window for additional details.%n%nFor any block in the game it scans, it gives information about its ID, Metadata, position in the world and hardness value. It also gives information about pollution level in the chunk the scanned block belongs to.%n%nIn addition it shows when the cleanroom has reached its 100 percent efficieny level.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADrQ.desc=The portable scanner is a tool capable of showing advanced information about almost every block in the game. In order to function, the tool needs to be charged first. It can hold up to 400k EU and accept 128 EU/t or less. This is MV tier.%n%nIt can scan crops by right clicking it to fully scan it, unlike a cropnalyzer which needs a seed bag in your inventory, and takes multiple goes. Crops that were scanned in the world will drop a scanned seed bag.%n%nIt can scan machines from GregTech, giving information about current progress, the stored energy, efficiency, problems and CPU-load - be sure to check the full chat window for additional details.%n%nFor any block in the game it scans, it gives information about its ID, Metadata, position in the world and hardness value. It also gives information about pollution level in the chunk the scanned block belongs to.%n%nIn addition it shows when the cleanroom has reached its 100 percent efficiency level.
 
 # Quest: The 'Water Problems' Are Solved
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADug.name=§6§lThe 'Water Problems' Are Solved
