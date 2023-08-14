@@ -720,7 +720,7 @@
         <Loot Identifier="80c6859b-0feb-407b-a669-d2ff356434a8" ItemName="Thaumcraft:BlockJarFilledItem" Amount="1" NBTTag="{Aspects:[0:{amount:64,key:&quot;meto&quot;}]}" Chance="45" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="b898d5de-9da6-4e1c-9f76-2093b4db6412" ItemName="Thaumcraft:ItemSanitySoap" Amount="8" NBTTag="" Chance="55" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="aa4f3719-25bb-4d28-b78f-6de6e91e7748" ItemName="EMT:EMTItems:6" Amount="2" NBTTag="" Chance="50" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="157c20cc-f00a-40a1-a071-1bf38cc8c0c1" ItemName="dreamcraft:item.GoldWandCap" Amount="2" NBTTag="" Chance="35" LimitedDropCount="2" RandomAmount="false"/>
+        <Loot Identifier="157c20cc-f00a-40a1-a071-1bf38cc8c0c1" ItemName="Thaumcraft:WandCap:1" Amount="2" NBTTag="" Chance="35" LimitedDropCount="2" RandomAmount="false"/>
         <Loot Identifier="f0f80166-9e6d-4bc9-a7ed-db69564a8369" ItemName="Thaumcraft:ItemBathSalts" Amount="8" NBTTag="" Chance="35" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="5980fd10-58ca-44e7-bbda-4f2c9044adcb" ItemName="Thaumcraft:blockCrystal:6" Amount="2" NBTTag="" Chance="15" ItemGroup="advshards" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="f4c49ea1-2082-40d6-a2b8-1b0f316851d1" ItemName="Thaumcraft:blockCrystal:5" Amount="2" NBTTag="" Chance="15" ItemGroup="advshards" LimitedDropCount="0" RandomAmount="false"/>
