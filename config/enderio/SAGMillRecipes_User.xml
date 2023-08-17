@@ -139,6 +139,14 @@
         <itemStack modID="minecraft" itemName="cobblestone" chance="0.15" />
       </output>
     </recipe>
+    <recipe name="Wool" energyCost="1200" >
+      <input>
+        <itemStack modID="minecraft" itemName="wool" itemMeta="*" />
+      </input>
+      <output>
+        <itemStack modID="minecraft" itemName="string" number="3" />
+      </output>
+    </recipe>
 </recipeGroup>
 
 
