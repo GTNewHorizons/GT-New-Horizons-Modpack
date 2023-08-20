@@ -514,7 +514,7 @@
         <Loot Identifier="cc9e4cf6-fa2e-410c-a2d1-691da8b19863" ItemName="gregtech:gt.metaitem.03:32018" Amount="8" NBTTag="" Chance="65" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="22aae4da-c957-4b15-9d6c-7c6818ff5c10" ItemName="gregtech:gt.metaitem.01:11020" Amount="16" NBTTag="" Chance="55" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="fad53944-cd70-442c-8c73-9af5fa2d2be4" ItemName="gregtech:gt.metaitem.01:11349" Amount="16" NBTTag="" Chance="55" LimitedDropCount="0" RandomAmount="true"/>
-        <Loot Identifier="2454d31c-1a6e-48a7-8be6-38bd3254b141" ItemName="IC2:blockMachine3:7" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="2454d31c-1a6e-48a7-8be6-38bd3254b141" ItemName="IC2:blockMachine3:7" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="c64185ee-1f3f-4593-94a8-6e116c54aec2" ItemName="IC2:itemCropSeed" Amount="1" NBTTag="{owner:&quot;gregtech&quot;,name:&quot;Blazereed&quot;,scan:4b,growth:1b,resistance:1b,gain:1b}" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="7a404f39-8802-4fd4-8d0b-fef2475d320e" ItemName="IC2:itemCropSeed" Amount="1" NBTTag="{owner:&quot;IC2&quot;,name:&quot;aurelia&quot;,scan:4b,growth:1b,resistance:1b,gain:1b}" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="dae762d7-8db7-4bee-8f9b-ebdd0f62d387" ItemName="IC2:itemCropSeed" Amount="1" NBTTag="{owner:&quot;gregtech&quot;,name:&quot;Bauxia&quot;,scan:4b,growth:1b,resistance:1b,gain:1b}" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
