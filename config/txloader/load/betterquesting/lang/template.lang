@@ -6592,7 +6592,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALDQ.desc=Fluid Nukes, Vac Nukes and Wren
 
 # Quest: Large Naquadah Reactor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALhA.name=Large Naquadah Reactor
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALhA.desc=The multi block version of the naquadah reactor, but it is completely different from the single block ones.%n%nIt uses liquid naquadah or excited nuclear liquid as fuel, and outputs the depleted fuel. You can see the liquid fuel infomation in NEI.%n%nIt consumes 2400 L/s liquid air when running, otherwise it will keep consuming your fuel without outputing power.%n%n§4It will explode with more than one types of fuel in its hatches.%n%n§rYou can input in coolant to increase efficiency.%nIC2 Coolant: 1.05x%nSuper Coolant: 1.5x%nCryotheum: 2.75x%n%nYou can also input molten metals to increase power.%nMolten Caesium: 2x%nMolten Uranium-235: 3x%nMolten Naquadah: 4x%nMolten Atomic Separation Catalyst: 16x%nNote: It will consume more fuel to match the output power, unlike coolant which directly increases the power. The molten metal works like 'parallels' for your reactor.%n%nIt also supports §9Tec§1Tech§r's Multi-Amp Dynamo hatches and laser hatches.%n%n§3PS: This generator has the highest output power in this pack currently, but it may get nerfed in future.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALhA.desc=The multi block version of the naquadah reactor, but it is completely different from the single block ones.%n%nIt uses liquid naquadah or excited nuclear liquid as fuel, and outputs the depleted fuel. You can see the liquid fuel infomation in NEI.%n%nIt consumes 2400 L/s liquid air when running, otherwise it will keep consuming your fuel without outputting power.%n%n§4It will explode with more than one types of fuel in its hatches.%n%n§rYou can input in coolant to increase efficiency.%nIC2 Coolant: 1.05x%nSuper Coolant: 1.5x%nCryotheum: 2.75x%nTachyon Rich Temporal Fluid: 5.00x %n%nYou can also input molten metals to increase power.%nMolten Caesium: 2x%nMolten Uranium-235: 3x%nMolten Naquadah: 4x%nMolten Atomic Separation Catalyst: 16x%nSpatially Enlarged Fluid: 64x%nNote: It will consume more fuel to match the output power, unlike coolant which directly increases the power. The molten metal works like 'parallels' for your reactor.%n%nIt also supports §9Tec§1Tech§r's Multi-Amp Dynamo hatches and laser hatches.%n%n§3PS: This generator has the highest output power in this pack currently, even ahead the Dyson with Mark VI fuels.
 
 # Quest: Nuclear Based Fuel (Th)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALjA.name=Nuclear Based Fuel (Th)
@@ -6616,23 +6616,23 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALkA.desc=It will unlock MkIV and MkV fue
 
 # Quest: Naquadah Based Fuel MkI
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALkQ.name=Naquadah Based Fuel MkI
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALkQ.desc=220,000 EU/t lasting 1s per mB. Doesn't looks very good.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALkQ.desc=975 000 EU/t lasting 3 seconds per liter of fuel. Possibly a viable alternative for Plasma Power?%n%nPrepare a robust naquadah line if you seek the power of the Naquadah Fuels.
 
 # Quest: Naquadah Based Fuel MkII
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALkg.name=Naquadah Based Fuel MkII
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALkg.desc=380 000 EU/t lasting 1s per mB. Still very limited.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALkg.desc=2 300 000 EU/t lasting 3.5s per liter. A good way of getting more power out of your naquadah fuels, if you can supply the materials.%n%nYou might require the Mega Chemical Reactor if attempting this in ZPM.
 
 # Quest: Naquadah Based Fuel MkIII
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALkw.name=Naquadah Based Fuel MkIII
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALkw.desc=9.5M EU/t lasting 4s per mB. UEV @ 1.1A in other words.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALkw.desc=9 511 000 EU/t lasting 4s per liter. Prepare to make a lot of this, as all subsequent tiers of Naquadah Fuel start from Mk III.%n%nThe alternate recipe can ease the logistical demand, but sourcing the chromatic glass might prove problematic until later.
 
 # Quest: Naquadah Based Fuel MkIV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALlA.name=Naquadah Based Fuel MkIV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALlA.desc=88.5M EU/t lasting 5s per mB.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALlA.desc=88 540 000 EU/t lasting 5s per liter. Now the Naquadah Fuels are starting to get really good. Look into depleting Excited Thorium Fuel to source the praseodymium required.%n%nThe alternate recipe will require a Dimensionally Transcendent Plasma Forge, but can further ease the entire supply chain.%n%nHere might also be a good time to start thinking about using Molten Neutronium to improve the yield of High Density materials.
 
 # Quest: Naquadah Based Fuel MkV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALlQ.name=Naquadah Based Fuel MkV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALlQ.desc=400M EU/t lasting 8s per mB. This power means that you can fill a UHV Lapotronic Capacitor with 145k MkV Fuel cells.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALlQ.desc=399 576 000 EU/t at 8s per liter. Sourcing the infinity dust and heavy radox might prove problematic until later.%n%nThe alternate recipe still requires the same amount of infinity to make the spacetime, but you get 50%% extra output for a little bit of transcendant metal.
 
 # Quest: Tier 3 Coil
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALlg.name=Tier 3 Coil
@@ -6665,6 +6665,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAL3w.desc=The Dyson Swarm Ground Unit mul
 # Quest: Where Do I Build the Dyson Swarm?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL4A.name=Where Do I Build the Dyson Swarm?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL4A.desc=If you read the Dyson Swarm Ground Unit's tooltip carfeully (which you should), you might have noticed, that it mentions a "dimension-dependent factor". The dimension you build the Dyson Swarm multiblock in can greatly affect the real power output.%n%n§lSorted by factor (descending):§r%n§a231%% - Barnarda C%n228%% - α Centauri Bb%n198%% - Vega B%n194%% - Venus Space Stations%n176%% - Venus%n161%% - Mercury%n141%% - Barnarda E%n134%% - T Ceti E%n126%% - Barnarda F%n112%% - Ross128b, Ross128ba%n110%% - Earth Space Stations%n§6100%% - Overworld, Moon%n§c89%% - Mars Space Stations%n81%% - Mars, Phobos, Deimos%n61%% - Asteroids%n60%% - Ceres%n48%% - Jupiter Space Stations%n44%% - Europa, Io, Ganymede%n36%% - Saturn Space Stations%n32%% - Enceladus, Titan, Callisto%n25%% - Uranus Space Stations%n23%% - Oberon, Proteus, Miranda%n20%% - Neptune Space Stations%n18%% - Triton%n16%% - Pluto, Kuiper Belt%n15%% - Makemake, Haumea%n1%% - Garden, Mining and Void Worlds%n§40%% - All other dimensions
+
+# Quest: Naquadah Based Fuel MkVI
+betterquesting.quest.KHL_yx4XTKOtsHHZ60ZZpg.name=Naquadah Based Fuel MkVI
+betterquesting.quest.KHL_yx4XTKOtsHHZ60ZZpg.desc=2 077 795 200 EU/t at 12s per liter. A truly immense amount of power, with a hefty cost. You will need a lot of infrastructure to run the refinery, but doing so will reward you with trillions of EU/t.%n%nThe astral titanium and celestial tungsten for alternate recipe can be sourced from laser engravers or the Plasma Fuel Line.%n%nThe tritanium can be sourced using fusion reactors, or by mining in the Deep Dark.%n%nThe shirabon will require an immense amount of fusion reactors and DTPFs to sustain.%n%nAfter Eye of Harmony, white dwarf matter can be used to improve the yield for even more power.%n%nYou will also want to consider the Tachyon Rich Temporal Fluid to get the most out of the Mark VI.
 
 # Quest: XL Turbo Gas Turbine
 betterquesting.quest.Ko5ln-tKSFiZZWtAmSWv8w.name=XL Turbo Gas Turbine
