@@ -1,23 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CustomToolTips>
 //Misc
-	<ToolTip ItemName="appliedenergistics2:tile.BlockDrive" ToolTip="§4Do not move chests with AE drives; It may corrupt your profile. No refunds!" NBT=""/>
 	<ToolTip ItemName="appliedenergistics2:tile.BlockCreativeEnergyCell" ToolTip="§dInfinite Energy" NBT=""/>
-	<ToolTip ItemName="cb4bq:BlockREB" ToolTip="§4This block will RESET ALL YOUR QUESTS, starting over from Tier 0. Do NOT build or use unless you really mean it!" NBT=""/> 
-	<ToolTip ItemName="EnderIO:blockFusedQuartz" ToolTip="§4Blast resistance is now 20. DOES NOT PROTECT AGAINST NUKES!" NBT=""/>
+	<ToolTip ItemName="cb4bq:BlockREB" ToolTip="§4This block will RESET ALL YOUR QUESTS, starting over from Tier 0. Do NOT build or use unless you really mean it!" NBT=""/>
 	<ToolTip ItemName="EnderIO:blockTravelAnchor" ToolTip="Cooldown 2 seconds" NBT=""/>
 	<ToolTip ItemName="EnderIO:blockCapBank" ToolTip="§dInfinite Energy" NBT="{type:&quot;CREATIVE&quot;,storedEnergyRF:2500000}"/>
 	<ToolTip ItemName="ExtraUtilities:endConstructor" ToolTip="§3Now: Quite Expensive Device" NBT=""/>
 	<ToolTip ItemName="ExtraUtilities:dark_portal" ToolTip="§3Riches beyond your imagination" NBT=""/>
 	<ToolTip ItemName="ExtraUtilities:enderCollector" ToolTip="§4Warning: When broken, the powerful ender collector may vanish in an attempt to collect itself!...and take nearby items with it!" NBT=""/>
-	<ToolTip ItemName="GalaxySpace:item.JetPack" ToolTip="§4Disabled Item; No recipe" NBT=""/>
-	<ToolTip ItemName="GalaxySpace:item.JetPack:100" ToolTip="§4Disabled Item; No recipe" NBT=""/>
 	<ToolTip ItemName="GregsLighting:ic2ElectricFloodlight" ToolTip="§4Maximum voltage in: 32 EU/t" NBT=""/>
-	<ToolTip ItemName="IguanaTweaksTConstruct:clayBucketLava" ToolTip="§4You need Gloves for it?" NBT=""/>
-	<ToolTip ItemName="minecraft:lava_bucket" ToolTip="§4You need Gloves for it?" NBT=""/>
-	<ToolTip ItemName="minecraft:ender_chest" ToolTip="§3Only For Personal Use" NBT=""/>
-	<ToolTip ItemName="RIO:item.chip.upgrade:2" ToolTip="§4Disabled Item; No recipe" NBT=""/>
-	<ToolTip ItemName="Thaumcraft:ItemManaBean" ToolTip="§4left click disabled" NBT=""/>
 	<ToolTip ItemName="Thaumcraft:WandCasting:36" ToolTip="§4Prolonged use is not recommended..." NBT=""/>
 	<ToolTip ItemName="StevesCarts:CartModule:61" ToolTip="§dPerpetual Locomotion" NBT=""/>
 	
@@ -88,38 +79,10 @@
 	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepowerstone" ToolTip="§b160 RF/t" NBT=""/>
 	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepowercobblestone" ToolTip="§480 RF/t" NBT=""/>
 	
-//Chisel
-	<ToolTip ItemName="chisel:chisel" ToolTip="§5Chisel from chisel Mod" NBT=""/>
-	<ToolTip ItemName="chisel:diamondChisel" ToolTip="§5Chisel from Chisel Mod" NBT=""/>
-	<ToolTip ItemName="chisel:obsidianChisel" ToolTip="§5Chisel from Chisel Mod" NBT=""/>
-			
 //Core Mod
-	<ToolTip ItemName="dreamcraft:item.OvenGlove" ToolTip="§3Put both Gloves in the Baubles Ring Slot" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.OvenGlove:1" ToolTip="§3Put both Gloves in the Baubles Ring Slot" NBT=""/>
-	<ToolTip ItemName="dreamcraft:dreamcraft_Pollution_bucket" ToolTip="§4Very toxic" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.NanoScubaHelmet" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.NanoPlatedLeggings" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.NanoChestJetPack" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.NanoRubberBoots" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.CarbonPartChestplate" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.QuantumPartHelmetEmpty" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.QuantumPartHelmet" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.QuantumPartLeggings" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.QuantumPartChestplate" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.QuantumPartBoots" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.CarbonPartHelmetNightVision" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.CarbonPartHelmet" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.CarbonPartBoots" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.CarbonPartLeggings" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
 	<ToolTip ItemName="dreamcraft:tile.BloodyThaumium" ToolTip="§5Used for Blood Altar Tier 3 Pillars" NBT=""/>
 	<ToolTip ItemName="dreamcraft:tile.BloodyVoid" ToolTip="§5Used for Blood Altar Tier 4 Pillars" NBT=""/>
 	<ToolTip ItemName="dreamcraft:tile.BloodyIchorium" ToolTip="§5Used for Blood Altar Tier 6 Pillars" NBT=""/>
-	<ToolTip ItemName="dreamcraft:tile.BronzePlatedReinforcedStone" ToolTip="§3Hardness 60 §4Blast Resistance 200" NBT=""/>
-	<ToolTip ItemName="dreamcraft:tile.SteelPlatedReinforcedStone" ToolTip="§3Hardness 150 §4Blast Resistance 325" NBT=""/>
-	<ToolTip ItemName="dreamcraft:tile.TitaniumPlatedReinforcedStone" ToolTip="§3Hardness 200 §4Blast Resistance 450" NBT=""/>
-	<ToolTip ItemName="dreamcraft:tile.TungstensteelPlatedReinforcedStone" ToolTip="§3Hardness 250 §4Blast Resistance 575" NBT=""/>
-	<ToolTip ItemName="dreamcraft:tile.NaquadahPlatedReinforcedStone" ToolTip="§3Hardness 500 §4Blast Resistance 700" NBT=""/>
-	<ToolTip ItemName="dreamcraft:tile.NeutroniumPlatedReinforcedStone" ToolTip="§3Hardness 750 §4Blast Resistance 2000" NBT=""/>
 	<ToolTip ItemName="EnderZoo:enderFragment" ToolTip="§11H Use in Personal Chunkloader" NBT=""/>
 	<ToolTip ItemName="dreamcraft:item.CoinChunkloaderTierI" ToolTip="§412H Chunkloader Coin, 24H in Passive Chunkloader, 48H in Personal Chunkloader" NBT=""/>
 	<ToolTip ItemName="dreamcraft:item.CoinChunkloaderTierII" ToolTip="§624H Chunkloader Coin, 48H in Passive Chunkloader, 96H in Personal Chunkloader" NBT=""/>
@@ -127,13 +90,6 @@
 	<ToolTip ItemName="dreamcraft:item.CoinChunkloaderTierIV" ToolTip="§896H Chunkloader Coin, 192H in Passive Chunkloader, 384H in Personal Chunkloader" NBT=""/>
 	<ToolTip ItemName="dreamcraft:item.CoinChunkloaderTierV" ToolTip="§7192H Chunkloader Coin, 384H in Passive Chunkloader, 768H in Personal Chunkloader" NBT=""/>
 	<ToolTip ItemName="minecraft:ender_pearl" ToolTip="§81H Chunkloader Use in Passive and 4H in Personal Chunkloader" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.CoinDonation" ToolTip="§4Can be used for Donation on Servers only" NBT=""/>
-	
-//Draconic Evolution
-	<ToolTip ItemName="dreamcraft:item.MalformedSlush" ToolTip="§2I hope you are not going to eat this later." NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.UncookedSlush" ToolTip="§4Heating up makes food better?" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.GlowingMarshmallow" ToolTip="§5Is it me or it just gained pixels from all that heat." NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.Marshmallow" ToolTip="§6I have a very wired feeling." NBT=""/>
 	
 //Enhanced Lootbags	
 	<ToolTip ItemName="enhancedlootbags:lootbag" ToolTip="§3Enchant with a Fortune III Book" NBT=""/>
@@ -172,12 +128,7 @@
 	<ToolTip ItemName="enhancedlootbags:lootbag:33" ToolTip="§3Enchant with a Fortune III Book" NBT=""/>
 	<ToolTip ItemName="enhancedlootbags:lootbag:34" ToolTip="§3Enchant with a Fortune III Book" NBT=""/>
 	<ToolTip ItemName="enhancedlootbags:lootbag:35" ToolTip="§3Enchant with a Fortune III Book" NBT=""/>
-														
-//Gregtech	
-	<ToolTip ItemName="gregtech:gt.blockmachines:108" ToolTip="§4This furnace is deprecated use bricked blast furnace" NBT=""/>
-	<ToolTip ItemName="gregtech:gt.blockmachines:1154" ToolTip="§4Hot coolant steam output is increased by 5x" NBT=""/>
-	<ToolTip ItemName="gregtech:gt.blockmachines:1157" ToolTip="§bMay you have all the black gold you want, RIP Cerulean" NBT=""/>
-	
+
 //Iron Chests
 	<ToolTip ItemName="IronChest:BlockIronChest" ToolTip="6*9 Inventory - 54 Slots" NBT=""/>
 	<ToolTip ItemName="IronChest:BlockIronChest:1" ToolTip="9*9 Inventory - 81 Slots" NBT=""/>
@@ -203,49 +154,7 @@
 //IC2
 	<ToolTip ItemName="IC2:itemPartCircuit" ToolTip="§7LV-tier" NBT=""/>
 	<ToolTip ItemName="IC2:itemPartCircuitAdv" ToolTip="§eHV-tier" NBT=""/>
-	
-	
-//OMT - AddOns
-	<ToolTip ItemName="openmodularturrets:solarPanelAddon" ToolTip="§4Disabled Item; No recipe" NBT=""/>
-	<ToolTip ItemName="openmodularturrets:redstoneReactorAddon" ToolTip="§4Disabled Item; No recipe" NBT=""/>
-	<ToolTip ItemName="openmodularturrets:potentiaAddon" ToolTip="§4Disabled Item; No recipe" NBT=""/>
-		
-//OMT - Fences
-	<ToolTip ItemName="openmodularturrets:fenceTierOne" ToolTip="Hardness: 10 - Blast Resistance: 10" NBT=""/>
-	<ToolTip ItemName="openmodularturrets:fenceTierTwo" ToolTip="Hardness: 20 - Blast Resistance: 20" NBT=""/>
-	<ToolTip ItemName="openmodularturrets:fenceTierThree" ToolTip="Hardness: 30 - Blast Resistance: 30" NBT=""/>
-	<ToolTip ItemName="openmodularturrets:fenceTierFour" ToolTip="Hardness: 50 - Blast Resistance: 50" NBT=""/>
-	<ToolTip ItemName="openmodularturrets:fenceTierFive" ToolTip="Hardness: 80 - Blast Resistance: 80" NBT=""/>
-	
-//OMT - Walls
-	<ToolTip ItemName="openmodularturrets:hardWallTierOne" ToolTip="Hardness: 10 - Blast Resistance: 10" NBT=""/>
-	<ToolTip ItemName="openmodularturrets:hardWallTierTwo" ToolTip="Hardness: 20 - Blast Resistance: 20" NBT=""/>
-	<ToolTip ItemName="openmodularturrets:hardWallTierThree" ToolTip="Hardness: 30 - Blast Resistance: 30" NBT=""/>
-	<ToolTip ItemName="openmodularturrets:hardWallTierFour" ToolTip="Hardness: 50 - Blast Resistance: 50" NBT=""/>
-	<ToolTip ItemName="openmodularturrets:hardWallTierFive" ToolTip="Hardness: 80 - Blast Resistance: 80" NBT=""/>
-	
-//Thaumic Tinkers
-	<ToolTip ItemName="ThaumicTinkerer:fireFire" ToolTip="§4ELEMENTAL firespread disabled" NBT=""/>
-	<ToolTip ItemName="ThaumicTinkerer:fireOrder" ToolTip="§4ELEMENTAL firespread disabled" NBT=""/>        
-	<ToolTip ItemName="ThaumicTinkerer:fireEarth" ToolTip="§4ELEMENTAL firespread disabled" NBT=""/>	
-	<ToolTip ItemName="ThaumicTinkerer:fireWater" ToolTip="§4ELEMENTAL firespread disabled" NBT=""/>		
-	<ToolTip ItemName="ThaumicTinkerer:fireChaos" ToolTip="§4ELEMENTAL firespread disabled" NBT=""/>
-	<ToolTip ItemName="ThaumicTinkerer:fireAir" ToolTip="§4ELEMENTAL firespread disabled" NBT=""/>
-	
-//Tinkers Construct
-	<ToolTip ItemName="TConstruct:Smeltery" ToolTip="§3Some metals processed in smeltery don't meet the purity requirement for GregTech processing." NBT=""/>
-	<ToolTip ItemName="TConstruct:LavaTank" ToolTip="§3Some metals processed in smeltery don't meet the purity requirement for GregTech processing." NBT=""/>
-	<ToolTip ItemName="TConstruct:SearedBlock" ToolTip="§3Some metals processed in smeltery don't meet the purity requirement for GregTech processing." NBT=""/>
-	<ToolTip ItemName="TConstruct:SearedBlock:1" ToolTip="§3Some metals processed in smeltery don't meet the purity requirement for GregTech processing." NBT=""/>
-	<ToolTip ItemName="TConstruct:SearedBlock:2" ToolTip="§3Some metals processed in smeltery don't meet the purity requirement for GregTech processing." NBT=""/>
-	<ToolTip ItemName="TConstruct:CastingChannel" ToolTip="§3Some metals processed in smeltery don't meet the purity requirement for GregTech processing." NBT=""/>
-	<ToolTip ItemName="TConstruct:oreBerries" ToolTip="Can be placed on a empty IC2 Crop." NBT=""/>
-	<ToolTip ItemName="TConstruct:oreBerries:1" ToolTip="Can be placed on a empty IC2 Crop." NBT=""/>
-	<ToolTip ItemName="TConstruct:oreBerries:2" ToolTip="Can be placed on a empty IC2 Crop." NBT=""/>
-	<ToolTip ItemName="TConstruct:oreBerries:3" ToolTip="Can be placed on a empty IC2 Crop." NBT=""/>
-	<ToolTip ItemName="TConstruct:oreBerries:4" ToolTip="Can be placed on a empty IC2 Crop." NBT=""/>
-	<ToolTip ItemName="TConstruct:oreBerries:5" ToolTip="Can be placed on a empty IC2 Crop." NBT=""/>
-	
+
 //Railcraft tanks
 //Iron
 	<ToolTip ItemName="Railcraft:machine.beta" ToolTip="Has 16 buckets capacity per block" NBT=""/>
@@ -292,6 +201,116 @@
     <ToolTip ItemName="bartworks:gt.bwMetaGenerateddust:4" ToolTip="§3Check Flawed Crystal recipe in EBF" NBT=""/>
 	<ToolTip ItemName="bartworks:gt.bwMetaGeneratedgem:4" ToolTip="§3Check Flawed Crystal recipe in EBF" NBT=""/>
 
+//Bee housings
+	<ToolTip ItemName="Forestry:apiculture" ToolTip="Effective production chance as a percent is\n2.8 * b^0.52 * (p + t)^0.52 * s^0.37\nwhere b is the base production chance as a percent,\np is the production modifier (additive, starts at -0.9 for the apiary),\nt is 1 for the apiary, and\ns is the speed value for the bee\nOutputs are generated at the end of every bee tick (27.5 seconds)\nPrimary outputs are rolled once with base chance, once with half base" NBT=""/>
+	<ToolTip ItemName="Forestry:apiculture:2" ToolTip="Effective production chance as a percent is\n2.8 * b^0.52 * (p + t)^0.52 * s^0.37\nwhere b is the base production chance as a percent,\np is the production modifier (always -0.75 for the bee house),\nt is 1 for the bee house, and\ns is the speed value for the bee\nOutputs are generated at the end of every bee tick (27.5 seconds)\nPrimary outputs are rolled once with base chance, once with half\nBees cannot mutate in the bee house" NBT=""/>
+	<ToolTip ItemName="Forestry:alveary" ToolTip="Effective production chance as a percent is\n2.8 * b^0.52 * (p + t)^0.52 * s^0.37\nwhere b is the base production chance as a percent,\np is the production modifier (additive, starts at 0 for the alveary),\nt is 1 for the alveary, and\ns is the speed value for the bee\nOutputs are generated at the end of every bee tick (27.5 seconds)\nPrimary outputs are rolled once with base chance, once with half" NBT=""/>
+	<ToolTip ItemName="MagicBees:magicApiary" ToolTip="Effective production chance as a percent is\n2.8 * b^0.52 * (p + t)^0.52 * s^0.37\nwhere b is the base production chance as a percent,\np is the production modifier (additive, starts at -0.1 for the magic apiary),\nt is 1 for the magic apiary, and\ns is the speed value for the bee\nOutputs are generated at the end of every bee tick (27.5 seconds)\nPrimary outputs are rolled once with base chance, once with half\nWhen boosted, base p becomes 0.8, Mutation: 2x, Lifespan: 0.5x" NBT=""/>
+	<ToolTip ItemName="MagicBees:manaAuraProvider" ToolTip="Must be within 6 blocks of magic apiary" NBT=""/>
+	<ToolTip ItemName="MagicBees:visAuraProvider" ToolTip="Must be within 6 blocks of magic apiary" NBT=""/>
 
+//Bee Gene Samples
+//Note to future editors: in XML the way to "escape" double quotes is to put them in single-quoted strings.  It's also possible to use the entity escape sequence &quot; or
+//unicode escape sequence \u0022.  \" is right out.  Be very warned that entity escape sequences are even parsed in (at least these nonstandard) comments, so misspelling an
+//XML entity name will result in the CustomToolTips module failing to load
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Speed: 1.2 (1.07x production overall)" NBT='{species: "rootBees", chromosome: 1, allele: "forestry.speedFast"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Speed: 1.4 (1.13x production overall)" NBT='{species: "rootBees", chromosome: 1, allele: "forestry.speedFaster"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Speed: 1.7 (1.22x production overall)" NBT='{species: "rootBees", chromosome: 1, allele: "forestry.speedFastest"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Speed: 1.0 (1.0x production overall)" NBT='{species: "rootBees", chromosome: 1, allele: "forestry.speedNormal"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Speed: 0.8 (0.92x production overall)" NBT='{species: "rootBees", chromosome: 1, allele: "forestry.speedSlow"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Speed: 0.6 (0.83x production overall)" NBT='{species: "rootBees", chromosome: 1, allele: "forestry.speedSlower"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Speed: 0.3 (0.64x production overall)" NBT='{species: "rootBees", chromosome: 1, allele: "forestry.speedSlowest"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Speed: 2.0 (1.29x production overall)" NBT='{species: "rootBees", chromosome: 1, allele: "magicbees.speedBlinding"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Base Bee Ticks: 45 (31:10.0 after beekeeping mode)" NBT='{species: "rootBees", chromosome: 2, allele: "forestry.lifespanElongated"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Base Bee Ticks: 50 (34:22.5 after beekeeping mode)" NBT='{species: "rootBees", chromosome: 2, allele: "forestry.lifespanLong"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Base Bee Ticks: 60 (41:15.0 after beekeeping mode)" NBT='{species: "rootBees", chromosome: 2, allele: "forestry.lifespanLonger"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Base Bee Ticks: 70 (48:07.5 after beekeeping mode)" NBT='{species: "rootBees", chromosome: 2, allele: "forestry.lifespanLongest"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Base Bee Ticks: 40 (27:30.0 after beekeeping mode)" NBT='{species: "rootBees", chromosome: 2, allele: "forestry.lifespanNormal"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Base Bee Ticks: 30 (20:37.5 after beekeeping mode)" NBT='{species: "rootBees", chromosome: 2, allele: "forestry.lifespanShort"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Base Bee Ticks: 35 (24:17.5 after beekeeping mode)" NBT='{species: "rootBees", chromosome: 2, allele: "forestry.lifespanShortened"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Base Bee Ticks: 20 (13:45.0 after beekeeping mode)" NBT='{species: "rootBees", chromosome: 2, allele: "forestry.lifespanShorter"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Base Bee Ticks: 10 (6:52.5 after beekeeping mode)" NBT='{species: "rootBees", chromosome: 2, allele: "forestry.lifespanShortest"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Base Bee Ticks: 600 (6:52:30.0 after beekeeping mode)" NBT='{species: "rootBees", chromosome: 2, allele: "gregtech.lifeEon"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Flower Search / Effect: 9x6x9\nFlower Spread / Pollination: 27x18x27" NBT='{species: "rootBees", chromosome: 12, allele: "forestry.territoryAverage"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Flower Search / Effect: 11x8x11\nFlower Spread / Pollination: 33x24x33" NBT='{species: "rootBees", chromosome: 12, allele: "forestry.territoryLarge"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Flower Search / Effect: 13x12x13\nFlower Spread / Pollination: 39x36x39" NBT='{species: "rootBees", chromosome: 12, allele: "forestry.territoryLarger"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Flower Search / Effect: 15x13x15\nFlower Spread / Pollination: 45x39x45" NBT='{species: "rootBees", chromosome: 12, allele: "forestry.territoryLargest"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Turns dirt blocks into sand" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.acid"}'/>
+    // note: this is supposed to spawn fireworks on certain devs' birthdays, but it accidentally copies the effect of fireworks instead
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns fireworks (color dependent on bee color)" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.birthday"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Gives players blindness" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.blindness"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip='Bonemeals forestry/extratrees tree "fruits"' NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.bonemeal_fruit"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Bonemeals vanilla mushrooms" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.bonemeal_mushroom"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Bonemeals saplings" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.bonemeal_sapling"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns randomthings ectoplasms" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.ectoplasm"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns fireworks (color dependent on bee color)" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.fireworks"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Gives players jump boost" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.gravity"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Sets players' saturation and hunger to zero" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.hunger"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns semi-real lightning strikes\n(damage entities and light fires\nbut don't activate lightning generators)" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.lightning"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns falling fire charges" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.meteor"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Adds 5 RF at a time to RF receivers" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.power"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Deals damage very quickly" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.radioactive"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Gives players slowness" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.slow"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns creepers in low light.\nNot to be confused with Creeper, a separate effect" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.spawn_creeper"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns skeletons in low light" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.spawn_skeleton"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns zombies and angry zombies in low light" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.spawn_zombie"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Randomly teleport mobs/players a short distance" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.teleport"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Adds 100mb of water to a nearby tank at random, very slow intervals" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.water"}'/>
+    // note: unclear if this is supposed to actually deal damage, but it doesn't
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Applies wither fx, but no damage" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.wither"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Deals damage (slowest damaging trait)" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectAggressive"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Gives players regeneration" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectBeatific"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Causes fake creeper explosions centered on players.\nThese don't damage blocks but do deal a lot of damage\nthat bypasses normal armor.\nNot to be confused with Creepers, a separate effect" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectCreeper"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Gives players nausea" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectDrunkard"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Gives players xp" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectExploration"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Add random ticks to plants in range\n(does not work on IC2 crops)" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectFertile"}'/>
+    // note: probably a bug: fireworks should be easter colored, whatever that means (pink, yellow, and green?)
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns fireworks rockets with no shape, color, or trail set" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectFestiveEaster"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Turns water into ice" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectGlacial"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Attacks monsters" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectHeroic"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Sets players on fire" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectIgnition"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Gives players poison" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectMiasmic"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Deals large amounts of damage" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectMisanthropic"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Converts grass and sky-exposed dirt to mycelium,\nforce grows vanilla mushrooms (directly invokes big mushroom gen,\nskips bonemeal), and converts cows to mooshrooms" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectMycophilic"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Does nothing" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectNone"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Does damage (slower than unstable) and breaks blocks\nanywhere in the queen's territory except the central block,\nnor vanilla forestry bee housing blocks.  Notably will break\nextrabees/magicbees bee housing blocks" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectRadioactive"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns skeletons, blazes, or zombies if their drops are present" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectReanimation"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Adds an AI task to mobs to avoid players" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectRepulsion"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns creepers, endermen, spiders, cave spiders, ghasts,\nor ender dragons if their drops are present" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectResurrection"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Creates cosmetic snow fx" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectSnowing"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Converts saplings to BarnardaC saplings under certain conditions:\n1) the sapling must be suitably magical\n(a Tree of Transformation Sapling from a dungeon atop a twilight oak should do)\n2) the dimension must also be magically active\n(try in the Spectre, Bedrock, Last Millenium, or Pocket Plane)" NBT='{species: "rootBees", chromosome: 13, allele: "gregtech.effectTreetwister"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Does nothing in GTNH (spawns Ars Magica Wisps or\nHecates if Ars Magica is installed)" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectAMWisp"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns blazes" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectAblaze"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns bats and firebats" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectBatty"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns cows" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectBovine"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns angry zombies" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectBrainy"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns wolves" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectCanine"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns ocelots" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectCatty"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns chickens" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectChicken"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Converts stone -> cobblestone -> moss stone,\nstone bricks -> cracked stone bricks -> mossy stone bricks,\ngravel -> sand, and\ncobblestone walls -> mossy cobblestone walls" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectCrumbling"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Cures players of potion effects" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectCurative"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Gives players haste\nSadly it will not dig a hole for you" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectDigSpeed"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Converts stone -> livingrock and logs -> livingwood" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectDreaming"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns ghasts" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectGhastly"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns horses" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectHorse"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Gives players invisibility" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectInvisibility"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Does nothing in GTNH (spawns mana creepers/mana vortices if Ars Magica is installed)" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectManaDrain"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Gives players swiftness" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectMoveSpeed"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Adds random aspects to nodes, including jarred nodes" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectNodeEmpower"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Removes special types besides pure from nodes,\nand makes normal nodes pure, including jarred nodes" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectNodePurifying"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Removes special types besides hungry from nodes,\nand makes normal nodes hungry, including jarred nodes" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectNodeRavening"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Upgrades nodes fading -> pale -> normal -> bright, including jarred nodes" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectNodeRepair"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Removes special types besides tainted from nodes,\nand makes normal nodes tainted, including jarred nodes" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectNodeTainting"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns pigs" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectPorcine"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns sheep" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectSheep"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Gives players slowness\nSorry, it won't speed up any machines or itself" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectSlowSpeed"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns spiders (no cave spiders)" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectSpidery"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Does nothing in GTNH (spawns Basalzes if Thermal Foundation is installed)" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectTEBasalz"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Does nothing in GTNH (spawns Blitzes if Thermal Foundation is installed)" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectTEBlitz"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Does nothing in GTNH (spawns Blizzes if Thermal Foundation is installed)" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectTEBlizzy"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Converts sand -> sandstone in deserts or\nstone/cobblestone -> abyssal/quarried stone in\nplaces it would naturally spawn\nNote: the ore drilling plant will also replace relevant ores with these when\nreplacing with cobblestone is enabled" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectTransmuting"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Recharges non-energized nodes with aspects below full" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectVisRecharge"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns thaumcraft wisps with a uniformly chosen random essentia type from 1-47 inclusive\n(Seems broken, try a powered spawner)" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectWispy"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Gives players wither" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectWithering"}'/>
 	
 </CustomToolTips>
