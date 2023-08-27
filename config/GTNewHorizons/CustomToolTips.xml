@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CustomToolTips>
 //Misc
+	<ToolTip ItemName="appliedenergistics2:tile.BlockDrive" ToolTip="§4Do not move chests with AE drives; It may corrupt your profile. No refunds!" NBT=""/>
 	<ToolTip ItemName="appliedenergistics2:tile.BlockCreativeEnergyCell" ToolTip="§dInfinite Energy" NBT=""/>
-	<ToolTip ItemName="cb4bq:BlockREB" ToolTip="§4This block will RESET ALL YOUR QUESTS, starting over from Tier 0. Do NOT build or use unless you really mean it!" NBT=""/>
+	<ToolTip ItemName="cb4bq:BlockREB" ToolTip="§4This block will RESET ALL YOUR QUESTS, starting over from Tier 0. Do NOT build or use unless you really mean it!" NBT=""/> 
+	<ToolTip ItemName="EnderIO:blockFusedQuartz" ToolTip="§4Blast resistance is now 20. DOES NOT PROTECT AGAINST NUKES!" NBT=""/>
 	<ToolTip ItemName="EnderIO:blockTravelAnchor" ToolTip="Cooldown 2 seconds" NBT=""/>
 	<ToolTip ItemName="EnderIO:blockCapBank" ToolTip="§dInfinite Energy" NBT="{type:&quot;CREATIVE&quot;,storedEnergyRF:2500000}"/>
 	<ToolTip ItemName="ExtraUtilities:endConstructor" ToolTip="§3Now: Quite Expensive Device" NBT=""/>
 	<ToolTip ItemName="ExtraUtilities:dark_portal" ToolTip="§3Riches beyond your imagination" NBT=""/>
 	<ToolTip ItemName="ExtraUtilities:enderCollector" ToolTip="§4Warning: When broken, the powerful ender collector may vanish in an attempt to collect itself!...and take nearby items with it!" NBT=""/>
+	<ToolTip ItemName="GalaxySpace:item.JetPack" ToolTip="§4Disabled Item; No recipe" NBT=""/>
+	<ToolTip ItemName="GalaxySpace:item.JetPack:100" ToolTip="§4Disabled Item; No recipe" NBT=""/>
 	<ToolTip ItemName="GregsLighting:ic2ElectricFloodlight" ToolTip="§4Maximum voltage in: 32 EU/t" NBT=""/>
+	<ToolTip ItemName="IguanaTweaksTConstruct:clayBucketLava" ToolTip="§4You need Gloves for it?" NBT=""/>
+	<ToolTip ItemName="minecraft:lava_bucket" ToolTip="§4You need Gloves for it?" NBT=""/>
+	<ToolTip ItemName="minecraft:ender_chest" ToolTip="§3Only For Personal Use" NBT=""/>
+	<ToolTip ItemName="RIO:item.chip.upgrade:2" ToolTip="§4Disabled Item; No recipe" NBT=""/>
+	<ToolTip ItemName="Thaumcraft:ItemManaBean" ToolTip="§4left click disabled" NBT=""/>
 	<ToolTip ItemName="Thaumcraft:WandCasting:36" ToolTip="§4Prolonged use is not recommended..." NBT=""/>
 	<ToolTip ItemName="StevesCarts:CartModule:61" ToolTip="§dPerpetual Locomotion" NBT=""/>
 	
@@ -79,10 +88,38 @@
 	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepowerstone" ToolTip="§b160 RF/t" NBT=""/>
 	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepowercobblestone" ToolTip="§480 RF/t" NBT=""/>
 	
+//Chisel
+	<ToolTip ItemName="chisel:chisel" ToolTip="§5Chisel from chisel Mod" NBT=""/>
+	<ToolTip ItemName="chisel:diamondChisel" ToolTip="§5Chisel from Chisel Mod" NBT=""/>
+	<ToolTip ItemName="chisel:obsidianChisel" ToolTip="§5Chisel from Chisel Mod" NBT=""/>
+			
 //Core Mod
+	<ToolTip ItemName="dreamcraft:item.OvenGlove" ToolTip="§3Put both Gloves in the Baubles Ring Slot" NBT=""/>
+	<ToolTip ItemName="dreamcraft:item.OvenGlove:1" ToolTip="§3Put both Gloves in the Baubles Ring Slot" NBT=""/>
+	<ToolTip ItemName="dreamcraft:dreamcraft_Pollution_bucket" ToolTip="§4Very toxic" NBT=""/>
+	<ToolTip ItemName="dreamcraft:item.NanoScubaHelmet" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
+	<ToolTip ItemName="dreamcraft:item.NanoPlatedLeggings" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
+	<ToolTip ItemName="dreamcraft:item.NanoChestJetPack" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
+	<ToolTip ItemName="dreamcraft:item.NanoRubberBoots" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
+	<ToolTip ItemName="dreamcraft:item.CarbonPartChestplate" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
+	<ToolTip ItemName="dreamcraft:item.QuantumPartHelmetEmpty" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
+	<ToolTip ItemName="dreamcraft:item.QuantumPartHelmet" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
+	<ToolTip ItemName="dreamcraft:item.QuantumPartLeggings" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
+	<ToolTip ItemName="dreamcraft:item.QuantumPartChestplate" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
+	<ToolTip ItemName="dreamcraft:item.QuantumPartBoots" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
+	<ToolTip ItemName="dreamcraft:item.CarbonPartHelmetNightVision" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
+	<ToolTip ItemName="dreamcraft:item.CarbonPartHelmet" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
+	<ToolTip ItemName="dreamcraft:item.CarbonPartBoots" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
+	<ToolTip ItemName="dreamcraft:item.CarbonPartLeggings" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
 	<ToolTip ItemName="dreamcraft:tile.BloodyThaumium" ToolTip="§5Used for Blood Altar Tier 3 Pillars" NBT=""/>
 	<ToolTip ItemName="dreamcraft:tile.BloodyVoid" ToolTip="§5Used for Blood Altar Tier 4 Pillars" NBT=""/>
 	<ToolTip ItemName="dreamcraft:tile.BloodyIchorium" ToolTip="§5Used for Blood Altar Tier 6 Pillars" NBT=""/>
+	<ToolTip ItemName="dreamcraft:tile.BronzePlatedReinforcedStone" ToolTip="§3Hardness 60 §4Blast Resistance 200" NBT=""/>
+	<ToolTip ItemName="dreamcraft:tile.SteelPlatedReinforcedStone" ToolTip="§3Hardness 150 §4Blast Resistance 325" NBT=""/>
+	<ToolTip ItemName="dreamcraft:tile.TitaniumPlatedReinforcedStone" ToolTip="§3Hardness 200 §4Blast Resistance 450" NBT=""/>
+	<ToolTip ItemName="dreamcraft:tile.TungstensteelPlatedReinforcedStone" ToolTip="§3Hardness 250 §4Blast Resistance 575" NBT=""/>
+	<ToolTip ItemName="dreamcraft:tile.NaquadahPlatedReinforcedStone" ToolTip="§3Hardness 500 §4Blast Resistance 700" NBT=""/>
+	<ToolTip ItemName="dreamcraft:tile.NeutroniumPlatedReinforcedStone" ToolTip="§3Hardness 750 §4Blast Resistance 2000" NBT=""/>
 	<ToolTip ItemName="EnderZoo:enderFragment" ToolTip="§11H Use in Personal Chunkloader" NBT=""/>
 	<ToolTip ItemName="dreamcraft:item.CoinChunkloaderTierI" ToolTip="§412H Chunkloader Coin, 24H in Passive Chunkloader, 48H in Personal Chunkloader" NBT=""/>
 	<ToolTip ItemName="dreamcraft:item.CoinChunkloaderTierII" ToolTip="§624H Chunkloader Coin, 48H in Passive Chunkloader, 96H in Personal Chunkloader" NBT=""/>
@@ -90,6 +127,13 @@
 	<ToolTip ItemName="dreamcraft:item.CoinChunkloaderTierIV" ToolTip="§896H Chunkloader Coin, 192H in Passive Chunkloader, 384H in Personal Chunkloader" NBT=""/>
 	<ToolTip ItemName="dreamcraft:item.CoinChunkloaderTierV" ToolTip="§7192H Chunkloader Coin, 384H in Passive Chunkloader, 768H in Personal Chunkloader" NBT=""/>
 	<ToolTip ItemName="minecraft:ender_pearl" ToolTip="§81H Chunkloader Use in Passive and 4H in Personal Chunkloader" NBT=""/>
+	<ToolTip ItemName="dreamcraft:item.CoinDonation" ToolTip="§4Can be used for Donation on Servers only" NBT=""/>
+	
+//Draconic Evolution
+	<ToolTip ItemName="dreamcraft:item.MalformedSlush" ToolTip="§2I hope you are not going to eat this later." NBT=""/>
+	<ToolTip ItemName="dreamcraft:item.UncookedSlush" ToolTip="§4Heating up makes food better?" NBT=""/>
+	<ToolTip ItemName="dreamcraft:item.GlowingMarshmallow" ToolTip="§5Is it me or it just gained pixels from all that heat." NBT=""/>
+	<ToolTip ItemName="dreamcraft:item.Marshmallow" ToolTip="§6I have a very wired feeling." NBT=""/>
 	
 //Enhanced Lootbags	
 	<ToolTip ItemName="enhancedlootbags:lootbag" ToolTip="§3Enchant with a Fortune III Book" NBT=""/>
@@ -128,7 +172,12 @@
 	<ToolTip ItemName="enhancedlootbags:lootbag:33" ToolTip="§3Enchant with a Fortune III Book" NBT=""/>
 	<ToolTip ItemName="enhancedlootbags:lootbag:34" ToolTip="§3Enchant with a Fortune III Book" NBT=""/>
 	<ToolTip ItemName="enhancedlootbags:lootbag:35" ToolTip="§3Enchant with a Fortune III Book" NBT=""/>
-
+														
+//Gregtech	
+	<ToolTip ItemName="gregtech:gt.blockmachines:108" ToolTip="§4This furnace is deprecated use bricked blast furnace" NBT=""/>
+	<ToolTip ItemName="gregtech:gt.blockmachines:1154" ToolTip="§4Hot coolant steam output is increased by 5x" NBT=""/>
+	<ToolTip ItemName="gregtech:gt.blockmachines:1157" ToolTip="§bMay you have all the black gold you want, RIP Cerulean" NBT=""/>
+	
 //Iron Chests
 	<ToolTip ItemName="IronChest:BlockIronChest" ToolTip="6*9 Inventory - 54 Slots" NBT=""/>
 	<ToolTip ItemName="IronChest:BlockIronChest:1" ToolTip="9*9 Inventory - 81 Slots" NBT=""/>
@@ -154,7 +203,49 @@
 //IC2
 	<ToolTip ItemName="IC2:itemPartCircuit" ToolTip="§7LV-tier" NBT=""/>
 	<ToolTip ItemName="IC2:itemPartCircuitAdv" ToolTip="§eHV-tier" NBT=""/>
-
+	
+	
+//OMT - AddOns
+	<ToolTip ItemName="openmodularturrets:solarPanelAddon" ToolTip="§4Disabled Item; No recipe" NBT=""/>
+	<ToolTip ItemName="openmodularturrets:redstoneReactorAddon" ToolTip="§4Disabled Item; No recipe" NBT=""/>
+	<ToolTip ItemName="openmodularturrets:potentiaAddon" ToolTip="§4Disabled Item; No recipe" NBT=""/>
+		
+//OMT - Fences
+	<ToolTip ItemName="openmodularturrets:fenceTierOne" ToolTip="Hardness: 10 - Blast Resistance: 10" NBT=""/>
+	<ToolTip ItemName="openmodularturrets:fenceTierTwo" ToolTip="Hardness: 20 - Blast Resistance: 20" NBT=""/>
+	<ToolTip ItemName="openmodularturrets:fenceTierThree" ToolTip="Hardness: 30 - Blast Resistance: 30" NBT=""/>
+	<ToolTip ItemName="openmodularturrets:fenceTierFour" ToolTip="Hardness: 50 - Blast Resistance: 50" NBT=""/>
+	<ToolTip ItemName="openmodularturrets:fenceTierFive" ToolTip="Hardness: 80 - Blast Resistance: 80" NBT=""/>
+	
+//OMT - Walls
+	<ToolTip ItemName="openmodularturrets:hardWallTierOne" ToolTip="Hardness: 10 - Blast Resistance: 10" NBT=""/>
+	<ToolTip ItemName="openmodularturrets:hardWallTierTwo" ToolTip="Hardness: 20 - Blast Resistance: 20" NBT=""/>
+	<ToolTip ItemName="openmodularturrets:hardWallTierThree" ToolTip="Hardness: 30 - Blast Resistance: 30" NBT=""/>
+	<ToolTip ItemName="openmodularturrets:hardWallTierFour" ToolTip="Hardness: 50 - Blast Resistance: 50" NBT=""/>
+	<ToolTip ItemName="openmodularturrets:hardWallTierFive" ToolTip="Hardness: 80 - Blast Resistance: 80" NBT=""/>
+	
+//Thaumic Tinkers
+	<ToolTip ItemName="ThaumicTinkerer:fireFire" ToolTip="§4ELEMENTAL firespread disabled" NBT=""/>
+	<ToolTip ItemName="ThaumicTinkerer:fireOrder" ToolTip="§4ELEMENTAL firespread disabled" NBT=""/>        
+	<ToolTip ItemName="ThaumicTinkerer:fireEarth" ToolTip="§4ELEMENTAL firespread disabled" NBT=""/>	
+	<ToolTip ItemName="ThaumicTinkerer:fireWater" ToolTip="§4ELEMENTAL firespread disabled" NBT=""/>		
+	<ToolTip ItemName="ThaumicTinkerer:fireChaos" ToolTip="§4ELEMENTAL firespread disabled" NBT=""/>
+	<ToolTip ItemName="ThaumicTinkerer:fireAir" ToolTip="§4ELEMENTAL firespread disabled" NBT=""/>
+	
+//Tinkers Construct
+	<ToolTip ItemName="TConstruct:Smeltery" ToolTip="§3Some metals processed in smeltery don't meet the purity requirement for GregTech processing." NBT=""/>
+	<ToolTip ItemName="TConstruct:LavaTank" ToolTip="§3Some metals processed in smeltery don't meet the purity requirement for GregTech processing." NBT=""/>
+	<ToolTip ItemName="TConstruct:SearedBlock" ToolTip="§3Some metals processed in smeltery don't meet the purity requirement for GregTech processing." NBT=""/>
+	<ToolTip ItemName="TConstruct:SearedBlock:1" ToolTip="§3Some metals processed in smeltery don't meet the purity requirement for GregTech processing." NBT=""/>
+	<ToolTip ItemName="TConstruct:SearedBlock:2" ToolTip="§3Some metals processed in smeltery don't meet the purity requirement for GregTech processing." NBT=""/>
+	<ToolTip ItemName="TConstruct:CastingChannel" ToolTip="§3Some metals processed in smeltery don't meet the purity requirement for GregTech processing." NBT=""/>
+	<ToolTip ItemName="TConstruct:oreBerries" ToolTip="Can be placed on a empty IC2 Crop." NBT=""/>
+	<ToolTip ItemName="TConstruct:oreBerries:1" ToolTip="Can be placed on a empty IC2 Crop." NBT=""/>
+	<ToolTip ItemName="TConstruct:oreBerries:2" ToolTip="Can be placed on a empty IC2 Crop." NBT=""/>
+	<ToolTip ItemName="TConstruct:oreBerries:3" ToolTip="Can be placed on a empty IC2 Crop." NBT=""/>
+	<ToolTip ItemName="TConstruct:oreBerries:4" ToolTip="Can be placed on a empty IC2 Crop." NBT=""/>
+	<ToolTip ItemName="TConstruct:oreBerries:5" ToolTip="Can be placed on a empty IC2 Crop." NBT=""/>
+	
 //Railcraft tanks
 //Iron
 	<ToolTip ItemName="Railcraft:machine.beta" ToolTip="Has 16 buckets capacity per block" NBT=""/>
@@ -312,5 +403,5 @@
     <ToolTip ItemName="gendustry:GeneSample" ToolTip="Recharges non-energized nodes with aspects below full" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectVisRecharge"}'/>
     <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns thaumcraft wisps with a uniformly chosen random essentia type from 1-47 inclusive\n(Seems broken, try a powered spawner)" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectWispy"}'/>
     <ToolTip ItemName="gendustry:GeneSample" ToolTip="Gives players wither" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectWithering"}'/>
-	
+
 </CustomToolTips>
