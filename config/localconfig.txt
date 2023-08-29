@@ -216,9 +216,26 @@ NotEnoughEnergistics.cfg/transfer/*
 
 oauth.cfg/oauth/*
 
-OpenComputers.cfg/opencomputers.client/* $format=simple
+# Everything from "opencomputers.client" except "nanomachineHudPos",
+# as Default Configs can't handle the list property.
+OpenComputers.cfg/opencomputers.client/beepRadius $format=simple
+OpenComputers.cfg/opencomputers.client/beepSampleRate $format=simple
+OpenComputers.cfg/opencomputers.client/beepVolume $format=simple
+OpenComputers.cfg/opencomputers.client/enableNanomachinePfx $format=simple
+OpenComputers.cfg/opencomputers.client/fontCharScale $format=simple
+OpenComputers.cfg/opencomputers.client/fontRenderer $format=simple
+OpenComputers.cfg/opencomputers.client/hologramFadeStartDistance $format=simple
+OpenComputers.cfg/opencomputers.client/hologramFlickerFrequency $format=simple
+OpenComputers.cfg/opencomputers.client/hologramRenderDistance $format=simple
+OpenComputers.cfg/opencomputers.client/maxScreenTextRenderDistance $format=simple
+OpenComputers.cfg/opencomputers.client/monochromeColor $format=simple
+OpenComputers.cfg/opencomputers.client/robotLabels $format=simple
+OpenComputers.cfg/opencomputers.client/screenTextFadeStartDistance $format=simple
+OpenComputers.cfg/opencomputers.client/soundVolume $format=simple
+OpenComputers.cfg/opencomputers.client/textAntiAlias $format=simple
+OpenComputers.cfg/opencomputers.client/textLinearFiltering $format=simple
 
-openmodularturrets.cfg/miscellaneous/"Enable/Disable turret alarm sound. True=enabled, false=disabled"
+openmodularturrets.cfg/miscellaneous/["Enable/Disable turret alarm sound. True=enabled, false=disabled"]
 openmodularturrets.cfg/miscellaneous/"Turret sound volume percentage (Between 0 - 100)"
 
 openprinter.cfg/options/Render3D
