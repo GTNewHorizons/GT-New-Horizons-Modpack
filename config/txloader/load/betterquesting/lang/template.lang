@@ -1295,7 +1295,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHAA.desc=When you use the seismic prospe
 
 # Quest: Better Gallium and Arsenic Sources
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHBA.name=§5§lBetter Gallium and Arsenic Sources
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHBA.desc=There are a couple of ways to increase your Gallium.%n%n1. Breed Zinc Bees and react the Gallium Combs with Hydrochloric Acid. The bee is not too deep in the breeding progression and the processing only requires LV.%n%n2. Use IC2 crops under the Farming tab to get Galvania leaves, to 4x your zinc and sphalerite crushed ores to purified ores.%n%n3. Use the HV macerator on the centrifuged ores to get a 10 percent chance of a whole Gallium dust.%n%n4. Use plentiful Bauxite ores from the Moon.%n%n5. Kill Redcaps/Redcap Sappers in Twilight Forest. Also Kobolds drop Arsenic.%n%n6. Duplicate nugget with Thaumcraft. This requires §lTaboo§r researches, so you might not want to do this.%n%nFor Arsenic, Cobaltite ore in the Twilight Forest is a great source. It can be multiplied 4x by the IC2 crop Nickelback.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHBA.desc=There are a couple of ways to increase your Gallium.%n%n1. Breed Zinc Bees and react the Gallium Combs with Hydrochloric Acid. The bee is not too deep in the breeding progression and the processing only requires LV.%n%n2. Use IC2 crops under the Farming tab to get Galvania leaves, to 4x your zinc and sphalerite crushed ores to purified ores.%n%n3. Use the HV macerator on the centrifuged ores to get a 10 percent chance of a whole Gallium dust.%n%n4. Use plentiful Bauxite ores from the Moon.%n%n5. Kill Redcaps/Redcap Sappers in Twilight Forest. Also Kobolds drop Arsenic.%n%n6. Duplicate nugget with Thaumcraft. This requires §lTaboo§r researches, so you might not want to do this.%n%nFor Arsenic, Cobaltite ore in the Twilight Forest is a great source for more information go to the quest "Cobalt and Arsenic from Cobaltite".%n%nCobaltite can also be multiplied 4x by the IC2 crop Nickelback.
 
 # Quest: Filling the World With Fluids...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHNg.name=§5§lFilling the World With Fluids...
@@ -1361,9 +1361,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALLQ.desc=Want lots of cobble, stone, or 
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALSw.name=§5§lMagnets != Magic
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALSw.desc=Tired of running after ore or other blocks? Use a magnet! It has a limited range, but who cares? Just remember to turn it on.%n%nIn HV you can craft it into the better one, if you still need a magnet by then.
 
-# Quest: Cobalt from Cobaltite
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALYg.name=§d§0§5§lCobalt from Cobaltite
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALYg.desc=Can't find any Cobalt in the Nether? Too lazy to bother finding some Ironwood in the Twilight Forest, even though it's super duper easy?%n%nYou can make it with your EBF now using Cobaltite Ore from the Twilight Forest and Oxygen to get Cobalt. It's a little complicated, but you also get arsenic out of it.%n%nYou can also just electrolyze it out in MV, which is what you §oshould§r be doing instead of this, assuming you actually need it.
+# Quest: Cobalt and Arsenic from Cobaltite
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALYg.name=§d§0§5§lCobalt and Arsenic from Cobaltite
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALYg.desc=Can't find any Cobalt in the Nether? Too lazy to bother finding some Ironwood in the Twilight Forest, even though it's super duper easy?%n%nYou can make it with your EBF now using Cobaltite Ore from the Twilight Forest and Oxygen to get Cobalt. It's a little complicated, but you also get arsenic out of it.%n%nYou can also just electrolyze it out in MV, which is what you §oshould§r be doing instead of this, but assuming you actually need it this method has higher yields (at the cost of carbon of course).
 
 # Quest: Damascus Steel
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALYw.name=§5§lDamascus Steel
