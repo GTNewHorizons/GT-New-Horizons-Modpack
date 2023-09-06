@@ -7969,7 +7969,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKfA.desc=One option to fuel your T1 and 
 
 # Quest: Coal Tar Distilling
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKfQ.name=Coal Tar Distilling
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKfQ.desc=In order to distill Coal Tar, you need to get some first. To do so, run Charcoal, Lignite, Coal, or Coal Coke though either the Industrial Coke Oven or the Pyrolyse Oven.%n%nSince you need multiple products, use a Distillery Tower to get them all. Everything other than Naphtha is used to make Rocket Fuels.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKfQ.desc=There are two ways to make Phthalic Acid. One is explored here, the other in the IV questtab. However, we don't just need the Coal Tar for that, we also need it for Anthracene!%n%nIn order to distill Coal Tar, you need to get some first. To do so, run Charcoal, Lignite, Coal, or Coal Coke though either the Industrial Coke Oven or the Pyrolyse Oven.%n%nSince you need multiple products, use a Distillery Tower to get them all. Everything other than Naphtha is used to make Rocket Fuels.
 
 # Quest: Dense Hydrazine
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKfg.name=Dense Hydrazine
@@ -7983,10 +7983,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKfw.desc=You'll need this if you want to
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKgA.name=CN3H7O3 (Purple) Rocket Fuel
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKgA.desc=To make CN3H7O3 for your T5 rocket, you'll need to combine Monomethylhydrazine and Nitric Acid in a Chemical Plant. Make sure to upgrade your casings to Tungstensteel.
 
-# Quest: Phthalic Acid Conversion
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKgQ.name=Phthalic Acid Conversion
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKgQ.desc=If you have a bunch of this lying around already (or you think it's easier), you can convert GT Phthalic acid into the GT++ version by running it through a Distillery.
-
 # Quest: 2-Ethylanthrahydroquinone
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKgg.name=2-Ethylanthrahydroquinone
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKgg.desc=To make this complicated sounding chemical, combine the similarly named 2-Ethylanthraquinone and Hydrogen along with an Orange Catalyst in the Chemical Plant.%n%n§3You need Palladium to make the Catalyst, so keep that in mind.
@@ -7997,7 +7993,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKgw.desc=Does anyone else wonder why the
 
 # Quest: How Do You Even Pronounce This?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKhA.name=How Do You Even Pronounce This?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKhA.desc=To make Phthalic Anhydride, use a dehydrator. You need to use GT++ Phthalic Acid.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKhA.desc=To make Phthalic Anhydride, use a dehydrator.
 
 # Quest: Phthalic Acid, The Cool Kids' Way
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKhQ.name=Phthalic Acid, The Cool Kids' Way
