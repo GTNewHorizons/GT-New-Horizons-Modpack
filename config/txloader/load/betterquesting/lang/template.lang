@@ -12024,7 +12024,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABjw.desc=A Horned Huntsman is a member o
 
 # Quest: Kill Ender Dragon
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABkA.name=Kill Ender Dragon
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABkA.desc=The dragon must die. Long enough has he destroyed those precious endstone blocks!%n%n§3PS: Hold shift and whack it with a vanilla sword.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABkA.desc=The dragon must die. Long enough has she destroyed those precious endstone blocks!%n%n§3PS: Hold shift and whack it with a vanilla sword.
 
 # Quest: Kill Shade of Leonard
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABkQ.name=Kill Shade of Leonard
@@ -12040,7 +12040,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABkw.desc=Mog and Gulg are the god-like b
 
 # Quest: Kill Demon
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABlA.name=Kill Demon
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABlA.desc=Demons are powerful, evil beings who dwell in the infernal dimensions. To date, none have been seen roaming the Nether, where their minions: ghasts, blazes and their ilk seem to dominate. To meet a demon without a way to protect oneself is almost certain death. They are known to hit like a proverbial truck, and require a significant amount of damage to kill. Some demons have even been seen shooting fireballs! They are, of course, also immune to fire.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABlA.desc=Demons are powerful, evil beings who dwell in the infernal dimensions. To date, none have been seen roaming the Nether, where their minions: ghasts, blazes, and their ilk seem to dominate. To meet a demon without a way to protect oneself is almost certain death. They are known to hit like a proverbial truck, and require a significant amount of damage to kill. Some demons have even been seen shooting fireballs! They are, of course, also immune to fire.
 
 # Quest: The Power of Infinity
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABlQ.name=The Power of Infinity
@@ -12260,7 +12260,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALEw.desc=Oh, how cute this little rabbit
 
 # Quest: Time to Kill (Raven)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALFA.name=Time to Kill (Raven)
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALFA.desc=Abracadabra ... give me your black feathers.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALFA.desc=Abracadabra... Give me your black feathers.
 
 # Quest: Time to Kill (Penguin)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALFQ.name=Time to Kill (Penguin)
@@ -12387,32 +12387,32 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADuw.desc=Want some pistons? Buy some!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADvA.name=Bronze Fluid Pipes
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADvA.desc=Want some bronze fluid pipes? Buy some!
 
-# Quest: Magnetic Iron
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADvQ.name=Magnetic Iron
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADvQ.desc=Want some magnetic iron for motors? Buy some!
+# Quest: Magnetic Iron Rods
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADvQ.name=Magnetic Iron Rods
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADvQ.desc=Want some magnetic iron rods for motors? Buy some!
 
-# Quest: Tin Rotor
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADvg.name=Tin Rotor
+# Quest: Tin Rotors
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADvg.name=Tin Rotors
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADvg.desc=Want some tin rotors? Buy some!
 
 # Quest: Iron Rods
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADvw.name=Iron Rods
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADvw.desc=Want some iron rods? Buy some!
 
-# Quest: Brass Rod
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADwA.name=Brass Rod
+# Quest: Brass Rods
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADwA.name=Brass Rods
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADwA.desc=Want some brass rods? Buy some!
 
 # Quest: Certus Quartz
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADwQ.name=Certus Quartz
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADwQ.desc=Want some certus quartz? Buy some!
 
-# Quest: Basic Circuit Board
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADww.name=Basic Circuit Board
+# Quest: Basic Circuit Boards
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADww.name=Basic Circuit Boards
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADww.desc=Want some basic circuit boards? Buy some!
 
-# Quest: Good Circuit Board
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADxA.name=Good Circuit Board
+# Quest: Good Circuit Boards
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADxA.name=Good Circuit Boards
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADxA.desc=Want some good circuit boards? Buy some!
 
 # Quest: Vacuum Tubes
@@ -12437,10 +12437,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADyQ.desc=Want some transistors? Buy some
 
 # Quest: RAM
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADyg.name=RAM
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADyg.desc=Want some ram wafers? Buy some!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADyg.desc=Want some RAM wafers? Buy some!
 
-# Quest: Integrated Logic Circuit
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADyw.name=Integrated Logic Circuit
+# Quest: Integrated Logic Circuits
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADyw.name=Integrated Logic Circuits
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADyw.desc=Want some integrated logic circuit wafers? Buy some!
 
 # Quest: Oil
@@ -12487,24 +12487,24 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAD1Q.desc=Want some lubricant? Buy some!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD1g.name=Sulfuric Acid
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD1g.desc=What some sulfuric acid? Buy some!
 
-# Quest: Engineering Processor
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD1w.name=Engineering Processor
+# Quest: Engineering Processors
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD1w.name=Engineering Processors
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD1w.desc=Want some engineering processors? Buy some!
 
 # Quest: Magical Saplings
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD2A.name=Magical Saplings
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD2A.desc=Silverwood saplings are always rare to find. Want some? Buy now, and I'll throw in some Greatwood ones too!
 
-# Quest: Magnetic Steel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD_g.name=Magnetic Steel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD_g.desc=Want some magnetic steel for motors? Buy some!
+# Quest: Magnetic Steel Rods
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD_g.name=Magnetic Steel Rods
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD_g.desc=Want some magnetic steel rods for motors? Buy some!
 
 # Quest: Aluminium Rods
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD_w.name=Aluminium Rods
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD_w.desc=Want some aluminium rods? Buy some!
 
-# Quest: Bronze Rotor
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEAA.name=Bronze Rotor
+# Quest: Bronze Rotors
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEAA.name=Bronze Rotors
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEAA.desc=Want some bronze rotors? Buy some!
 
 # Quest: Steel Fluid Pipes
@@ -12515,24 +12515,24 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEAQ.desc=Want some steel fluid pipes? Bu
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEAg.name=Electrum Rods
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEAg.desc=Want some electrum rods? Buy some!
 
-# Quest: Flawless Emerald
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEAw.name=Flawless Emerald
+# Quest: Flawless Emeralds
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEAw.name=Flawless Emeralds
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEAw.desc=Want some flawless emeralds? Buy some!
 
 # Quest: Ender Pearl
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEBA.name=Ender Pearl
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEBA.desc=Want some ender pearls? Buy some!
 
-# Quest: Magnetic Neodymium
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEBQ.name=Magnetic Neodymium
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEBQ.desc=Want some magnetic neodymium for motors? Buy some!
+# Quest: Magnetic Neodymium Rods
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEBQ.name=Magnetic Neodymium Rods
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEBQ.desc=Want some magnetic neodymium rods for motors? Buy some!
 
 # Quest: Stainless Steel Rods
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEBg.name=Stainless Steel Rods
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEBg.desc=Want some stainless steel rods? Buy some!
 
-# Quest: Steel rotor
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEBw.name=Steel rotor
+# Quest: Steel rotors
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEBw.name=Steel rotors
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEBw.desc=Want some steel rotors? Buy some!
 
 # Quest: Stainless Steel Fluid Pipes
@@ -12547,12 +12547,12 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAECQ.desc=Want some chrome rods? Buy some
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAECg.name=Ender Eyes
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAECg.desc=Want some ender eyes? Buy some!
 
-# Quest: Plastic Circuit Board
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEDA.name=Plastic Circuit Board
+# Quest: Plastic Circuit Boards
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEDA.name=Plastic Circuit Boards
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEDA.desc=Want some plastic circuit boards? Buy some!
 
-# Quest: Central Procesing Unit
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEDQ.name=Central Procesing Unit
+# Quest: Central Processing Units
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEDQ.name=Central Processing Units
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEDQ.desc=Want some central processing unit wafers? Buy some!
 
 # Quest: SMD Resistors
@@ -12571,8 +12571,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEEA.desc=Want some SMD transistors? Buy 
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEEQ.name=SMD Capacitor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEEQ.desc=Want some SMD capacitors? Buy some!
 
-# Quest: Logic Processor
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEEg.name=Logic Processor
+# Quest: Logic Processors
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEEg.name=Logic Processors
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEEg.desc=Want some logic processors? Buy some!
 
 # Quest: Chlorine
@@ -12581,7 +12581,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEEw.desc=Want some chlorine? Buy some!
 
 # Quest: Iron (III) Chloride
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEFA.name=Iron (III) Chloride
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEFA.desc=Want some Iron (III) Chloride? Buy some!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEFA.desc=Want some iron (III) chloride? Buy some!
 
 # Quest: Sodium Persulfate
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEFQ.name=Sodium Persulfate
@@ -12669,7 +12669,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEKg.desc=Want some Sorcerous Bees? Buy s
 
 # Quest: Vanilla Saplings
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAELQ.name=Vanilla Saplings
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAELQ.desc=You spawned in a desert and need Oak or Birch saplings? No problem! For five Forester Coins you can select which one you want to buy.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAELQ.desc=You spawned in a desert and need Oak or Birch saplings? No problem! For five forest ranger coins you can select which one you want to buy.
 
 # Quest: Naga
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEMQ.name=Naga
@@ -12703,16 +12703,16 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAENw.desc=Summon a Yeti.%n%n§3Only works
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEOA.name=Snow Queen
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEOA.desc=Summon a Snow Queen.%n%n§3Only works in the Twilight Forest dim.
 
-# Quest: Red Alloy Cable
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEiQ.name=Red Alloy Cable
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEiQ.desc=Want some red alloy cable? Buy some!
+# Quest: Red Alloy Cables
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEiQ.name=Red Alloy Cables
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEiQ.desc=Want some red alloy cables? Buy some!
 
-# Quest: Tin Cable
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEig.name=Tin Cable
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEig.desc=Want some tin cable? Buy some!
+# Quest: Tin Cables
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEig.name=Tin Cables
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEig.desc=Want some tin cables? Buy some!
 
-# Quest: Copper Wire
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEiw.name=Copper Wire
+# Quest: Copper Wires
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEiw.name=Copper Wires
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEiw.desc=Want some copper wires? Buy some!
 
 # Quest: Rubber Ingots
@@ -12729,7 +12729,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEkg.desc=Ugh, you feel so dirty. Get som
 
 # Quest: Damascus Steel Ingots
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEkw.name=Damascus Steel Ingots
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEkw.desc=Damascus Steel is very durable and useful for GT tools. Buy some.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEkw.desc=Damascus steel is very durable and useful for GT tools. Buy some!
 
 # Quest: Wrought Iron Ingots
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAElQ.name=Wrought Iron Ingots
@@ -12791,52 +12791,52 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFGw.desc=Need some Dragon essence? Buy s
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFVg.name=Ocean Bees
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFVg.desc=Want some Ocean Bees? Since some servers don't generate ocean biomes, buy some!
 
-# Quest: Calculation Processor
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFkQ.name=Calculation Processor
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFkQ.desc=Want some printed calculation circuits? Buy some!
+# Quest: Calculation Processors
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFkQ.name=Calculation Processors
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFkQ.desc=Want some calculation processors? Buy some!
 
-# Quest: ME Glass Cable
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFng.name=ME Glass Cable
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFng.desc=Want some ME glass cable? Buy some!
+# Quest: ME Glass Cables
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFng.name=ME Glass Cables
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFng.desc=Want some ME glass cables? Buy some!
 
 # Quest: Fluix Crystals
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFrw.name=Fluix Crystals
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFrw.desc=Want some fluix crystals? Buy some!
 
-# Quest: Rubber Ring
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFxw.name=Rubber Ring
+# Quest: Rubber Rings
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFxw.name=Rubber Rings
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFxw.desc=Want some rubber rings? Buy some!
 
 # Quest: Can't Find Those Ores?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF8w.name=Can't Find Those Ores?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF8w.desc=Having trouble locating some of the basic ores? Trade in some coins for oreblocks to use in the Ore Finder Wand.%n%nIf you're clever, you can use one oreblock to find a vein containing another oreblock to use to find another vein. For example, if you choose Redstone, you can use that to find Cinnabar, which can be used to find Thaumcraft Aspect Shard ores in the Twilight Forest. Experiment and find some combos!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF8w.desc=Having trouble locating some of the basic Ores? Trade in some coins for oreblocks to use in the Ore Finder Wand.%n%nIf you're clever, you can use one oreblock to find a vein containing another oreblock to use to find another vein. For example, if you choose Redstone, you can use that to find Cinnabar, which can be used to find Thaumcraft Aspect Shard Ores in the Twilight Forest. Experiment and find some combos!
 
-# Quest: Annealed Copper Cable
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGSA.name=Annealed Copper Cable
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGSA.desc=Want some annealed copper cable? Buy some!
+# Quest: Annealed Copper Cables
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGSA.name=Annealed Copper Cables
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGSA.desc=Want some annealed copper cables? Buy some!
 
-# Quest: Gold Cable
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGSQ.name=Gold Cable
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGSQ.desc=Want some gold cable? Buy some!
+# Quest: Gold Cables
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGSQ.name=Gold Cables
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGSQ.desc=Want some gold cables? Buy some!
 
-# Quest: Cupronickel 2x Wire
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGSg.name=Cupronickel 2x Wire
+# Quest: Cupronickel 2x Wires
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGSg.name=Cupronickel 2x Wires
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGSg.desc=Want some cupronickel wires? Buy some!
 
-# Quest: Electrum 4x Wire
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGSw.name=Electrum 4x Wire
+# Quest: Electrum 4x Wires
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGSw.name=Electrum 4x Wires
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGSw.desc=Want some electrum wires? Buy some!
 
-# Quest: Silver 2x Cable
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGUA.name=Silver 2x Cable
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGUA.desc=Want some silver cable? Buy some!
+# Quest: Silver 2x Cables
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGUA.name=Silver 2x Cables
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGUA.desc=Want some silver cables? Buy some!
 
-# Quest: Copper Cable
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGUg.name=Copper Cable
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGUg.desc=Want some copper cable? Buy some!
+# Quest: Copper Cables
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGUg.name=Copper Cables
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGUg.desc=Want some copper cables? Buy some!
 
-# Quest: Rubber Sheet
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGUw.name=Rubber Sheet
+# Quest: Rubber Sheets
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGUw.name=Rubber Sheets
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGUw.desc=Want some rubber sheets? Buy some!
 
 # Quest: Salt for Your Salty Mouth
@@ -12873,7 +12873,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHWg.desc=I can trade you some chad for c
 
 # Quest: Glassy Eyed
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHWw.name=Glassy Eyed
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHWw.desc=...from all the mortars you have to use to make glass dust? Have some for trade.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHWw.desc=...from all the mortars you have to use to make glass dust? Have some for a low, low price.
 
 # Quest: Shhh, Don't Tell 0lafe...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHXA.name=Shhh, Don't Tell 0lafe...
@@ -12897,7 +12897,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHZA.desc=Want some fluorine? Buy some!
 
 # Quest: Manganese Ore
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHZw.name=Manganese Ore
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHZw.desc=Can't find Manganese ore because its not generated early game and you need to grow your Pyrolusium crop? Buy some Ores.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHZw.desc=Can't find Manganese ore because it's not generated early game and you need to grow your Pyrolusium crop? Buy some Ores.
 
 # Quest: Cotton and String
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHjg.name=Cotton and String
@@ -13013,11 +13013,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKtw.desc=Finally, a use for those bloody
 
 # Quest: Sticky Matter
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALYQ.name=Sticky Matter
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALYQ.desc=Can't find any Rubber Trees? Can't build a water tank? Too lazy to make a tree tap?  Buy a stack of sticky resin for some coins.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALYQ.desc=Can't find any Rubber Trees? Can't build a water tank? Too lazy to make a tree tap? Buy a stack of sticky resin for some coins.
 
 # Quest: TNT and iTNT
 betterquesting.quest.beN48jZMRCqH2QGlTH7nTg.name=TNT and iTNT
-betterquesting.quest.beN48jZMRCqH2QGlTH7nTg.desc=Want some TNT ot iTNT? Buy some!
+betterquesting.quest.beN48jZMRCqH2QGlTH7nTg.desc=Want some TNT or iTNT? Buy some!
 
 # Quest: More SMD Inductors
 betterquesting.quest.b8oLtR7SS86ItajFCriChw.name=More SMD Inductors
@@ -13030,11 +13030,11 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAAKg.desc=Upgrade your loot bags!
 
 # Quest: Steam > LV Lootbag Trade
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABtw.name=Steam > LV Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABtw.desc=Trade three steam lootbags to get a better one: LV.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABtw.desc=Trade three Steam lootbags to get a better one: LV.
 
 # Quest: Basic > Steam Lootbag Trade
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABuQ.name=Basic > Steam Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABuQ.desc=Trade three basic lootbags to get a better one: Steam.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABuQ.desc=Trade three Basic lootbags to get a better one: Steam.
 
 # Quest: LV > MV Lootbag Trade
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABuw.name=LV > MV Lootbag Trade
@@ -13110,7 +13110,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACpw.desc=Trade three Slow Food lootbags 
 
 # Quest: Haute Cuisine > Dessert Lootbag Trade
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACqA.name=Haute Cuisine > Dessert Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACqA.desc=Trade three Haute Cuisine lootbags to get a better one: Dessert.%n%n§3BTW, there's only the marshmallow in this one, so it's not really worth it.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACqA.desc=Trade six Haute Cuisine lootbags to get a better one: Dessert.%n%n§3BTW, there's only the marshmallow in this one, so it's not really worth it.
 
 # Quest: Transportation Class 3 > Transportation Class 2 Lootbag Trade
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACqQ.name=Transportation Class 3 > Transportation Class 2 Lootbag Trade
