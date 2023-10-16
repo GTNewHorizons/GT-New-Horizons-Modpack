@@ -1,0 +1,30 @@
+{
+  "ores": [
+    "oreBismutite",
+    "1",
+	"oreFluor-Bueregrite",
+    "1",
+	"oreChromo-Alumino-Povondraite",
+    "1",
+	"oreVanadio-Oxy-Dravite",
+    "1",
+	"oreOlenite",
+    "1",
+	"oreRedZircon",
+    "1",
+	"oreFayalite",
+    "1",
+	"oreForsterite",
+    "1",
+	"oreHedenbergite",
+    "1",
+	"orePrasiolite",
+    "1"
+  ],
+  "radius": 10,
+  "cost": 8000000,
+  "focusModId": "gregtech",
+  "focusName": "gt.blockmachines",
+  "focusMeta": 405
+}
+
