@@ -3,10 +3,10 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 1148
+      "questIDLow:4": 88
     }
   },
-  "questIDLow:4": 958,
+  "questIDLow:4": 1161,
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
@@ -16,9 +16,9 @@
       "isMain:1": 0,
       "simultaneous:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.metaitem.02",
+        "id:8": "gregtech:gt.blockmachines",
         "Count:3": 1,
-        "Damage:2": 21057,
+        "Damage:2": 2006,
         "OreDict:8": ""
       },
       "snd_update:8": "random.levelup",
@@ -26,12 +26,12 @@
       "globalShare:1": 1,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "Tin Rotors",
+      "name:8": "Red Alloy Cables",
       "isGlobal:1": 0,
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Want some tin rotors? Buy some!"
+      "desc:8": "Want some red alloy cables? Buy some!"
     }
   },
   "tasks:9": {
@@ -44,8 +44,8 @@
       "consume:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "dreamcraft:item.CoinTechnicianI",
-          "Count:3": 4,
+          "id:8": "dreamcraft:item.CoinTechnician",
+          "Count:3": 30,
           "Damage:2": 0,
           "OreDict:8": ""
         }
@@ -59,9 +59,9 @@
       "index:3": 0,
       "rewards:9": {
         "0:10": {
-          "id:8": "gregtech:gt.metaitem.02",
-          "Count:3": 4,
-          "Damage:2": 21057,
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 16,
+          "Damage:2": 2006,
           "OreDict:8": ""
         }
       }
