@@ -6,7 +6,7 @@
       "questIDLow:4": 1148
     }
   },
-  "questIDLow:4": 1479,
+  "questIDLow:4": 1163,
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
@@ -16,9 +16,9 @@
       "isMain:1": 0,
       "simultaneous:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.metaitem.01",
+        "id:8": "gregtech:gt.blockmachines",
         "Count:3": 1,
-        "Damage:2": 28880,
+        "Damage:2": 1360,
         "OreDict:8": ""
       },
       "snd_update:8": "random.levelup",
@@ -26,12 +26,12 @@
       "globalShare:1": 1,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "Rubber Rings",
+      "name:8": "Copper Wires",
       "isGlobal:1": 0,
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Want some rubber rings? Buy some!"
+      "desc:8": "Want some copper wires? Buy some!"
     }
   },
   "tasks:9": {
@@ -45,7 +45,7 @@
       "requiredItems:9": {
         "0:10": {
           "id:8": "dreamcraft:item.CoinTechnician",
-          "Count:3": 10,
+          "Count:3": 30,
           "Damage:2": 0,
           "OreDict:8": ""
         }
@@ -59,9 +59,9 @@
       "index:3": 0,
       "rewards:9": {
         "0:10": {
-          "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 16,
-          "Damage:2": 28880,
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 32,
+          "Damage:2": 1360,
           "OreDict:8": ""
         }
       }
