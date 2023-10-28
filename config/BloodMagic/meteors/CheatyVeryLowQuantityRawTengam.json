@@ -1,0 +1,14 @@
+{
+  "ores": [
+	"oreMarbleSalt",
+    "3000",
+	"oreTengamRaw",
+    "4"
+  ],
+  "radius": 16,
+  "cost": 1000000001,
+  "focusModId": "GalacticraftAmunRa",
+  "focusName": "tile.machines2",
+  "focusMeta": 1
+}
+
