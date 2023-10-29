@@ -6,7 +6,7 @@
       "questIDLow:4": 176
     }
   },
-  "questIDLow:4": 1031,
+  "questIDLow:4": 1611,
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
@@ -16,22 +16,22 @@
       "isMain:1": 0,
       "simultaneous:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.metaitem.02",
+        "id:8": "gregtech:gt.blockmachines",
         "Count:3": 1,
-        "Damage:2": 21305,
+        "Damage:2": 1442,
         "OreDict:8": ""
       },
       "snd_update:8": "random.levelup",
-      "repeatTime:3": 72000,
+      "repeatTime:3": 24000,
       "globalShare:1": 1,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "Steel rotors",
+      "name:8": "Electrum 4x Wires",
       "isGlobal:1": 0,
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Want some steel rotors? Buy some!"
+      "desc:8": "Want some electrum wires? Buy some!"
     }
   },
   "tasks:9": {
@@ -45,7 +45,7 @@
       "requiredItems:9": {
         "0:10": {
           "id:8": "dreamcraft:item.CoinTechnicianI",
-          "Count:3": 12,
+          "Count:3": 8,
           "Damage:2": 0,
           "OreDict:8": ""
         }
@@ -59,9 +59,9 @@
       "index:3": 0,
       "rewards:9": {
         "0:10": {
-          "id:8": "gregtech:gt.metaitem.02",
-          "Count:3": 4,
-          "Damage:2": 21305,
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 8,
+          "Damage:2": 1442,
           "OreDict:8": ""
         }
       }

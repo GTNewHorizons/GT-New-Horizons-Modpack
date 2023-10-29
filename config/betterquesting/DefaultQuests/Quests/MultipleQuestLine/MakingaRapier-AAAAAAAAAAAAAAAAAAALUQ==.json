@@ -128,16 +128,10 @@
   },
   "rewards:9": {
     "0:10": {
-      "rewardID:8": "bq_standard:choice",
+      "rewardID:8": "bq_standard:item",
       "index:3": 0,
-      "choices:9": {
+      "rewards:9": {
         "0:10": {
-          "id:8": "TConstruct:materials",
-          "Count:3": 4,
-          "Damage:2": 14,
-          "OreDict:8": ""
-        },
-        "1:10": {
           "id:8": "enhancedlootbags:lootbag",
           "Count:3": 1,
           "Damage:2": 1,
