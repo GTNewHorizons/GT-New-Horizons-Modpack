@@ -349,7 +349,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAC2A.desc=They are very compact and add s
 
 # Quest: Framing Drawers
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC2Q.name=§2§lFraming Drawers
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC2Q.desc=Now you can really make some swaggy and §oeven fancier§r drawers by using this table, all you have to do is place some decorative blocks and it will take their texture, the TOP left is the outer Square bottom left is for the front face and top right is for the borders. This table works with almost all decorative blocks.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAC2Q.desc=Now you can really make some swaggy and §oeven fancier§r drawers by using this table, all you have to do is place some decorative blocks and it will take their texture, the TOP left is the outer square, bottom left is for the front face, and top right is for the borders. This table works with almost all decorative blocks.
 
 # Quest: Copper Ore
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADOQ.name=§2§lCopper Ore
@@ -710,7 +710,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEZg.desc=It's upgrade time again. You co
 
 # Quest: Reinforced X? Unbreakable
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEZw.name=§3§lReinforced X? Unbreakable
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEZw.desc=With your steel tool you are able to mine obsidian. You can make the Reinforcement which gives a reinforced modifier which increases the durability of your tool. Reinforced level X makes a tool unbreakable.%n%n§3PS: In many cases this is not worth it, since the tools don't degrade that fast, it doesn't cost much to repair, and you get better materials (with higher durability) to make them out of reasonably fast. Plus, by the time you got it to unbreakable, you'd be auto-mining everything with a miner anyway. Just use redstone, or maybe luck/silky. However, there are a few very nice uses cases like lumber axes and tools for automation setups.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEZw.desc=With your steel tool you are able to mine obsidian. You can make the Reinforcement which gives a reinforced modifier which increases the durability of your tool. Reinforced level X makes a tool unbreakable.%n%n§3PS: In many cases this is not worth it, since the tools don't degrade that fast, it doesn't cost much to repair, and you get better materials (with higher durability) to make them out of reasonably fast. Plus, by the time you got it to unbreakable, you'd be auto-mining everything with a miner anyway. Just use redstone, or maybe luck/silky. However, there are a few very nice use cases like lumber axes and tools for automation setups.
 
 # Quest: Lapis? Lucky!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEaA.name=§4§3§lLapis? Lucky!
@@ -742,7 +742,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAF4w.desc=As your base grows, you're goin
 
 # Quest: I Ain't Afraid of no Ghost!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGAA.name=§3§lI Ain't Afraid of no Ghost!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGAA.desc=I've found a use for the Ectoplasm you can collect from spirits of the dead. It makes a very useful glass that you can walk on, but mobs cannot. However, they think they can! %n%nSo you can use this to create a moat around your base that drops mobs to the death in various ways, or just to shuttle them off somewhere else. Separate babies from mothers? Use it in a mob farm? Capture pigmen walking into the Overworld from you Nether portal? So many possibilities!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGAA.desc=I've found a use for the Ectoplasm you can collect from spirits of the dead. It makes a very useful glass that you can walk on, but mobs cannot. However, they think they can! %n%nSo you can use this to create a moat around your base that drops mobs to the death in various ways, or just to shuttle them off somewhere else. Separate babies from mothers? Use it in a mob farm? Capture pigmen walking into the Overworld from your Nether portal? So many possibilities!
 
 # Quest: Bowl Full of Spaghetti
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGxw.name=§3§lBowl Full of Spaghetti
@@ -774,7 +774,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHfw.desc=Impossible! But if you really w
 
 # Quest: Upgrading Drawers
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHww.name=§3§lUpgrading Drawers
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHww.desc=Drawer upgrades are different than barrel upgrades. First you need to make the ugprade template.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHww.desc=Drawer upgrades are different than barrel upgrades. First you need to make the upgrade template.
 
 # Quest: Your Mom Says to Upgrade Your Drawers
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHxA.name=§3§lYour Mom Says to Upgrade Your Drawers
@@ -810,7 +810,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJVQ.desc=Once you have some steam machin
 
 # Quest: I Know His Name!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJXw.name=§3§lI Know His Name!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJXw.desc=The Name Remover is a simple utility machine that can strip off incorrect or useless NBT data. Only works on GT items?%n%n§3Was more useful before NBT disassembly data was removed, but good riddance I (and basically everyone) say.%n%nLead is plenty on Twilight Forest. Or if you desperate, small ores can be found in Nether.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJXw.desc=The Name Remover is a simple utility machine that can strip off incorrect or useless NBT data. Only works on GT items?%n%n§3Was more useful before NBT disassembly data was removed, but good riddance I (and basically everyone) say.%n%nLead is plentiful in the Twilight Forest. Or if you are desperate, small ores can be found in the Nether.
 
 # Quest: What Engineer Doesn't Want a Portable Workbench?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJZw.name=§3§lWhat Engineer Doesn't Want a Portable Workbench?
@@ -1071,7 +1071,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACgA.desc=Centrifuging Butane or Propane 
 
 # Quest: Naphtha
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACgQ.name=§5§lNaphtha
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACgQ.desc=You can process Sulfuric Naphtha to fluid Naphtha which has a burn value of 320,000 EU in the Gas Turbine. Naphtha can be used to get Rthylene for Polyethylene, but it shares this use with Refinery Gas and Light Fuel, so decide for yourself which one you want to use. %n%nIf you choose to make High-Octane Gasoline in EV and onwards, it will need a lot of Naphtha. You can also make Polycaprolactam (Nylon), which doesn't have any useful purpose yet, but it might get some in the near future.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACgQ.desc=You can process Sulfuric Naphtha to fluid Naphtha which has a burn value of 320,000 EU in the Gas Turbine. Naphtha can be used to get Ethylene for Polyethylene, but it shares this use with Refinery Gas and Light Fuel, so decide for yourself which one you want to use. %n%nIf you choose to make High-Octane Gasoline in EV and onwards, it will need a lot of Naphtha. You can also make Polycaprolactam (Nylon), which doesn't have any useful purpose yet, but it might get some in the near future.
 
 # Quest: Sulfuric Gas
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACgg.name=§5§lSulfuric Gas
@@ -1327,7 +1327,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIXg.desc=The Auto Workbench is a simple 
 
 # Quest: Choices, Choices
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIXw.name=§5§lChoices, Choices
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIXw.desc=Need a map on fuel choices? Well, we don't have that, but we have suggestions. You can use Steam up to IV, but beyond MV it gets pretty painful. %n%nIn LV you can start refining oil for either Light Fuel for a Combustion Generator or Refinery Gas for a Gas Turbine. Or you can use Creosote in a Semi-Fluid Generator.%n%nOnce you hit MV, you can switch from Steam to renewable Benzene (Gas) from your logs. Other renewable alternatives are Fish Oil or Seed Oil based bio diesel (combustion). Seed Oil can be sourced from Pam's peanuts, IC2 Rape crop or Forestry tree nuts.%n%nAt MV you can also upgrade your Light Fuel with Heavy Fuel to get Diesel. When you reach HV turn diesel or bio diesel into Cetane Boosted Diesel. In EV, you can make HOG, but it's complex, and you'll need to rejigger your whole oil distillation setup, since it uses different fluids than Cetane does.%n%nEV introduces the Large Gas Turbine, Large Steam Turbine, Large HP Steam Turbine, and Large Combustion Engine, which are more efficient versions of the earlier ones. The first 3 require turbines. %n%nYou can also make Nukes, or Wind and Water Kinetics.%n%nFor low-power operations, or dedicated players willing to setup autocrafting, you can begin using Solar Panels at MV.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIXw.desc=Need a map on fuel choices? Well, we don't have that, but we have suggestions. You can use Steam up to IV, but beyond MV it gets pretty painful. %n%nIn LV you can start refining oil for either Light Fuel for a Combustion Generator or Refinery Gas for a Gas Turbine. Or you can use Creosote in a Semi-Fluid Generator.%n%nOnce you hit MV, you can switch from Steam to renewable Benzene (Gas) from your logs. Other renewable alternatives are Fish Oil or Seed Oil based bio diesel (combustion). Seed Oil can be sourced from Pam's peanuts, IC2 Rape crop or Forestry tree nuts.%n%nAt MV you can also upgrade your Light Fuel with Heavy Fuel to get Diesel. When you reach HV turn diesel or bio diesel into Cetane Boosted Diesel. In EV, you can make High Octane Gasoline (HOG), but it's complex, and you'll need to rejigger your whole oil distillation setup, since it uses different fluids than Cetane does.%n%nEV introduces the Large Gas Turbine, Large Steam Turbine, Large HP Steam Turbine, and Large Combustion Engine, which are more efficient versions of the earlier ones. The first 3 require turbines. %n%nYou can also make Nukes, or Wind and Water Kinetics.%n%nFor low-power operations, or dedicated players willing to setup autocrafting, you can begin using Solar Panels at MV.
 
 # Quest: Fertilized Earth
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJWQ.name=§5§lFertilized Earth
@@ -4141,7 +4141,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACeg.desc=It's time to plant some wheat t
 
 # Quest: Floury Flurry
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACew.name=Floury Flurry
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACew.desc=The first step in making bread is to macerate your wheat into flour with a mortar or a macerator.%n%nFlour can be used in many food recipes for different pam's harvestcraft foods.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACew.desc=The first step in making bread is to macerate your wheat into flour with a mortar or a macerator.%n%nFlour can be used in many food recipes for different Pam's HarvestCraft foods.
 
 # Quest: First Handmade Bread
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACfA.name=First Handmade Bread
@@ -4149,7 +4149,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACfA.desc=Baking your dough in a Furnace 
 
 # Quest: Do'h!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACfQ.name=Do'h!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACfQ.desc=Water and flour makes a dough or two... Dough can be used in many different food recipes from pam's harvestcraft.%n%nDon't use the terrible NEI recipe, instead drop a stack of flour into a cauldron full of water. Celiacs beware!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACfQ.desc=Water and flour makes a dough or two... Dough can be used in many different food recipes from Pam's HarvestCraft.%n%nDon't use the terrible NEI recipe, instead drop a stack of flour into a cauldron full of water. Celiacs beware!
 
 # Quest: Tasty Toast
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACfg.name=Tasty Toast
@@ -4181,7 +4181,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAC0w.desc=Your seeds have three different
 
 # Quest: Weeds
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC1A.name=Weeds
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC1A.desc=Weeds will show up from time to time on empty or double crop sticks. They will spread from there an take over all your precious crops, so harvest the weed with your weed trowel before you start desiring to reload the last backup. Later you can make some Weed-EX to prevent them from appearing (until it runs out).
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAC1A.desc=Weeds will show up from time to time on empty or double crop sticks. They will spread from there and take over all your precious crops, so harvest the weed with your weed trowel before you start desiring to reload the last backup. Later you can make some Weed-EX to prevent them from appearing (until it runs out).
 
 # Quest: Flower Power
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC1Q.name=Flower Power
@@ -4485,7 +4485,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJhw.desc=Pumpkin Pie is a traditional US
 
 # Quest: Barley Time
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKpQ.name=Barley Time
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKpQ.desc=It's time to plant some barley to make some bread. If you cant find wheat barley is a good alternative source to make flour.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKpQ.desc=It's time to plant some barley to make some bread. If you can't find wheat, barley is a good alternative source to make flour.
 
 # Quest: Genetically Modifying Your Plants
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKqQ.name=Genetically Modifying Your Plants
@@ -6175,7 +6175,7 @@ betterquesting.quest.Ng5Ldnf3TZCefB4Mr3u-rQ.desc=Do you know how much Zinc you h
 
 # Quest: More Steam, More Pressure!
 betterquesting.quest.Plg8vg0gS9Ks2Ddc5sIVOg.name=More Steam, More Pressure!
-betterquesting.quest.Plg8vg0gS9Ks2Ddc5sIVOg.desc=How do you compress things in the Steam Age? Simple, putting a lot of steam in one place, under high pressure, can apply a force to compress things...%n%nLet's just make it bigger. With the Steam Squasher, you can have a Compressor in a much larger scale, similarly to the Steam Macerator multiblock, which processes 8 recipes at the same time. If you feel like compressing recipes are taking too long, which they probably are, this is a good solution to your problems.%n%nPay close attention to the hatches used for this multi. If they are not the exact ones in this quest, the multi will not form! If the multi is form, provide lots of steam to get lots of compressed items.
+betterquesting.quest.Plg8vg0gS9Ks2Ddc5sIVOg.desc=How do you compress things in the Steam Age? Simple, putting a lot of steam in one place, under high pressure, can apply a force to compress things...%n%nLet's just make it bigger. With the Steam Squasher, you can have a Compressor in a much larger scale, similarly to the Steam Macerator multiblock, which processes 8 recipes at the same time. If you feel like compressing recipes are taking too long, which they probably are, this is a good solution to your problems.%n%nPay close attention to the hatches used for this multi. If they are not the exact ones in this quest, the multi will not form! Once the multi forms, provide lots of steam to get lots of compressed items.
 
 # Quest: AMERICA!!!!!!!!!
 betterquesting.quest.Qrjs7uh5TcSveEbaFnXFog.name=AMERICA!!!!!!!!!
@@ -10525,7 +10525,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEUg.desc=The brewing stand is really imp
 
 # Quest: Ironwood
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEhg.name=Ironwood
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEhg.desc=Ironwood is much harder and durable than rubber. Ideal for a soft mallet. Collect some liveroot underground, from some roots, macerate it and mix the powder with iron and gold to create a new magical material.%n%nYou can make some unique armor with this material.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEhg.desc=Ironwood is much harder and durable than rubber. Ideal for a soft mallet. Collect some liveroot underground from some roots, macerate it and mix the powder with iron and gold to create a new magical material.%n%nYou can make some unique armor with this material.
 
 # Quest: Steeleaf
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEhw.name=Steeleaf
@@ -13453,7 +13453,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHhg.desc=Are you ready for a longer trip
 
 # Quest: Circuit Programming
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH_w.name=§5§lCircuit Programming
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH_w.desc=Some machines have a very, very large number of recipes. To avoid conflicts, many recipes have programmed circuits to ensure that a correct recipe is used. These programmed circuits are not consumed.%n%nIn this modpack, all singleblock GT machines now come with an icon in GUI on the bottom-right that represents a ghost circuit. Click it or scroll to choose the number you need. If you do that, you don't have to insert a physical circuit. This is going to be your main option for all single block machines. This option is now also available for input buses of multiblocks, which you will use much later.%n%nThere are a few places throughout the modpack where you still need the physical circuits. You can turn an LV circuit into a programmed circuit in the crafting grid and then program it in various ways:%n%n1) Find a correct crafting recipe with a screwdriver in NEI and use that.%n%n2) Rightclick while holding the programmed circuit to open an easy menu. You still need to at least have the screwdriver in your inventory though or it won't work. Eventually you can also make an electric screwdriver.%n%n3) Use the BartWorks Circuit Programmer. It's only available in MV, but it does not use any durability and runs on EU.%n%n4) Use the GT++ Circuit Programmer block. It isn't portable and only available in MV, but it allows for automation.%n%n%nThe tasks in this quest are just the showcase of what programming curcuits there are. You can just click the checkmark once you understand how the programmed circuits work.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH_w.desc=Some machines have a very, very large number of recipes. To avoid conflicts, many recipes have programmed circuits to ensure that the correct recipe is used. These programmed circuits are not consumed.%n%nIn this modpack, all singleblock GT machines now come with an icon in the GUI on the bottom-right that represents a ghost circuit. Click it or scroll to choose the number you need. If you do that, you don't have to insert a physical circuit. This is going to be your main option for all single block machines. This option is now also available for input buses of multiblocks, which you will use much later.%n%nThere are a few places throughout the modpack where you still need the physical circuits. You can turn an LV circuit into a programmed circuit in the crafting grid and then program it in various ways:%n%n1) Find a correct crafting recipe with a screwdriver in NEI and use that.%n%n2) Rightclick while holding the programmed circuit to open an easy menu. You still need to at least have the screwdriver in your inventory though or it won't work. Eventually you can also make an electric screwdriver.%n%n3) Use the BartWorks Circuit Programmer. It's only available in MV, but it does not use any durability and runs on EU.%n%n4) Use the GT++ Circuit Programmer block. It isn't portable and only available in MV, but it allows for automation.%n%n%nThe tasks in this quest are just the showcase of what programming curcuits there are. You can just click the checkmark once you understand how the programmed circuits work.
 
 # Quest: Planetary Tears
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIGA.name=Planetary Tears
@@ -13485,7 +13485,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIzQ.desc=After a couple of hours...days.
 
 # Quest: Obtaining Ender Pearls
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJZA.name=§e§d§c§6§lObtaining Ender Pearls
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJZA.desc=You can hunt endermen the Vanilla way to get a chance at Ender Pearls, you can purchase Endermen spawn eggs, or try your luck in the End. %n%nOr you can get cruel, and stuff one into a smeltery to melt it down into delicious Liquid Ender and cast pearls from it.%n%nYou monster.%n%nSome of the dungeons have Spawner of Enderman, so you can do whatever you want with it.%n%nTo prevent endermen from teleporting, make sure to cover the smeltery so they don't see the sky. %nIf you manage to put a regenerating endermen in there, tag it so it doesn't despawn, and make sure your smeltery is not in a claimed chunk on a server.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJZA.desc=You can hunt endermen the Vanilla way to get a chance at Ender Pearls, you can purchase Endermen spawn eggs, or try your luck in the End. %n%nOr you can get cruel, and stuff one into a smeltery to melt it down into delicious Liquid Ender and cast pearls from it.%n%nYou monster.%n%nSome of the dungeons have Spawner of Enderman, so you can do whatever you want with it.%n%nTo prevent endermen from teleporting, make sure to cover the smeltery so they don't see the sky.%n%nIf you manage to put a regenerating endermen in there, tag it so it doesn't despawn, and make sure your smeltery is not in a claimed chunk on a server.
 
 # Quest: Numbers in the Corner?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJZg.name=§1§lNumbers in the Corner?
