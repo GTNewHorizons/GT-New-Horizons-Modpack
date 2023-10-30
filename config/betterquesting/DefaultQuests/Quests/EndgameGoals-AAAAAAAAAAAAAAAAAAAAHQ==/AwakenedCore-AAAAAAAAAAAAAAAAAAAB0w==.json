@@ -53,9 +53,9 @@
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "EMT:EMTItems",
+          "id:8": "kubatech:kubaitems",
           "Count:3": 1,
-          "Damage:2": 18,
+          "Damage:2": 40,
           "OreDict:8": ""
         }
       },
