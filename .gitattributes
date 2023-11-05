@@ -1,8 +1,44 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+* text eol=lf
 
-# BetterQuesting saves quest book data with Unix line endings.
-# Enforce this to prevent spurious "changed" files on Windows.
-*.json text eol=lf
-*.lang text eol=lf
+*.[jJ][aA][rR]          binary
 
+*.[pP][nN][gG]          binary
+*.[jJ][pP][gG]          binary
+*.[jJ][pP][eE][gG]      binary
+*.[gG][iI][fF]          binary
+*.[tT][iI][fF]          binary
+*.[tT][iI][fF][fF]      binary
+*.[iI][cC][oO]          binary
+*.[sS][vV][gG]          text
+*.[eE][pP][sS]          binary
+*.[xX][cC][fF]          binary
+
+*.[kK][aA][rR]          binary
+*.[mM]4[aA]             binary
+*.[mM][iI][dD]          binary
+*.[mM][iI][dD][iI]      binary
+*.[mM][pP]3             binary
+*.[oO][gG][gG]          binary
+*.[rR][aA]              binary
+
+*.7[zZ]                 binary
+*.[gG][zZ]              binary
+*.[tT][aA][rR]          binary
+*.[tT][gG][zZ]          binary
+*.[zZ][iI][pP]          binary
+
+*.[tT][cC][nN]          binary
+*.[sS][oO]              binary
+*.[dD][lL][lL]          binary
+*.[dD][yY][lL][iI][bB]  binary
+*.[pP][sS][dD]          binary
+*.[tT][tT][fF]          binary
+*.[oO][tT][fF]          binary
+
+*.[pP][aA][tT][cC][hH]  -text
+
+*.[bB][aA][tT]          text eol=crlf
+*.[cC][mM][dD]          text eol=crlf
+*.[pP][sS]1             text eol=crlf
+
+*[aA][uU][tT][oO][gG][eE][nN][eE][rR][aA][tT][eE][dD]* binary
