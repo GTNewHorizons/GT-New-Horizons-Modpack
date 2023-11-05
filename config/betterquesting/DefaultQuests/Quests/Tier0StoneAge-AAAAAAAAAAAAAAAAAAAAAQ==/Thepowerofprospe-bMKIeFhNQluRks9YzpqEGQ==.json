@@ -3,7 +3,7 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 28
+      "questIDLow:4": 1496
     }
   },
   "questIDLow:4": -7957069611279940583,
@@ -29,7 +29,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "At the top of your map screen (J by default) there are multiple tabs, some of them will be very useful and will save you a ton of searching!\n\nGT oreveins - this tab will keep track of the veins for you, to save a vein to map right-click a naturally generated ore (some tools can\u0027t right click)\nGT Underground fluids - this will help you later (MV)\nTC Nodes - this tab will keep track of thaumcraft nodes for you (you need to scan them first)\n\n\n§3Message in the chat confirms that you saved an orevein or underground fluid vein. Nodes don\u0027t give a chat message."
+      "desc:8": "At the top of your map screen (J by default) there are multiple tabs, some of them will be very useful and will save you a ton of searching!\n\nGT oreveins - this tab will keep track of the veins for you, to save a vein to map right-click a naturally generated ore (some tools can\u0027t right click)\nGT Underground fluids - this will help you later (MV)\nTC Nodes - this tab will keep track of thaumcraft nodes for you (you need to scan them first)\n\n\n§3Small Ores are not part of veins and thus do not uncover a vein on the map. However veins generate extra small ores related to the vein in their chunks, so they can still be useful in your search (though not all small ores are related to a nearby vein so don\u0027t be fooled)."
     }
   },
   "tasks:9": {
