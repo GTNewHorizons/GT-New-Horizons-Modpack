@@ -1,12 +1,16 @@
 {
-  "questIDHigh:4": 0,
+  "questIDHigh:4": -337303635474561203,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 213
+      "questIDLow:4": 2665
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2617
     }
   },
-  "questIDLow:4": 2765,
+  "questIDLow:4": -4782315901562449638,
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
@@ -17,7 +21,7 @@
       "icon:10": {
         "id:8": "gregtech:gt.blockmachines",
         "Count:3": 1,
-        "Damage:2": 13104,
+        "Damage:2": 148,
         "OreDict:8": ""
       },
       "snd_update:8": "random.levelup",
@@ -25,11 +29,11 @@
       "globalShare:1": 0,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "§6§lTFFT",
+      "name:8": "§6§lSomething From Nothing pt 2",
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "The TFFT is very useful if you don\u0027t want to have a bunch of Super Tanks, it also has a modular structure so it can be up to x4.33 times bigger than numbers in this quest.\n\nWith the tier I storage field block, it consumes 27 EU/t but only has about 0.27x the storage capacity of a ST I per fluid.\n\nWith the tier V storage field block it consumes 1134 EU/t and has about 0.54x the storage capacity of a QT III per fluid.\n\nWith the tier X storage field block it consumes 0EU/t (only tier X uses 0) and has about x3.3 capacity of T7 YOTTank (divide by 25 to get per 1 fluid)\n\nYou can use the multi hatch to access all the fluids at once with an ME Fluid Storage Bus or Fluid Ender Conduit.\n\n§3Remember to turn auto-voiding on if you need it"
+      "desc:8": "This multiblock works just as a normal drilling rig, but with the power of §5§l§oTechnology §rit won\u0027t reduce the underground field size so the output will always be the same."
     }
   },
   "tasks:9": {
@@ -38,13 +42,13 @@
       "autoConsume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
-      "index:3": 1,
+      "index:3": 0,
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
           "id:8": "gregtech:gt.blockmachines",
           "Count:3": 1,
-          "Damage:2": 13104,
+          "Damage:2": 148,
           "OreDict:8": ""
         }
       },
