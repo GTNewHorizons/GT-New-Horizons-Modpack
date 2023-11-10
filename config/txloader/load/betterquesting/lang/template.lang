@@ -622,7 +622,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACVA.desc=It's upgrade time. Unlock redst
 
 # Quest: Moving Your Tanks, Chests, and Barrels
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACcQ.name=§3§lMoving Your Tanks, Chests, and Barrels
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACcQ.desc=Want to move your chests and barrels without spilling all the things (buildcraft™)? No problem! Make a dolly and you can carry your full chests, barrels or storage drawers anywhere you want. But be warned, you will get a slowness debuff so hopefully you don't have to travel very far. Non-portable buildcraft and iron tanks can be moved without losing fluids too.%n%n§4PS: Later on you can fly or make a traveller's belt to get around the debuff.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACcQ.desc=Want to move your chests and barrels without spilling all the things (buildcraft™)? No problem! Make a dolly and you can carry your full chests, barrels or storage drawers anywhere you want. But be warned, you will get a slowness debuff so hopefully you don't have to travel very far. Non-portable buildcraft and iron tanks can be moved without losing fluids too.%n%nShift right click an empty dolly to collapse it. It won't carry anything until you unfold it, but it will stack and can go in your backpack.%n%n§4PS: Later on you can fly or make a traveller's belt to get around the debuff.
 
 # Quest: One Anvil... Better Make That Two!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACtg.name=§3§lOne Anvil... Better Make That Two!
@@ -1035,7 +1035,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACaA.desc=Mercury can be centrifuged out 
 
 # Quest: Fluid Canner
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACaQ.name=§5§lFluid Canner
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACaQ.desc=The fluid canner can be used to fill cells, batteries (acid only), coolant cells, etc with a fluid. Most of the time, you won't need it, since you can fill cells with a GT tank, and single use batteries suck. There are some fluids that won't work properly like molten redstone, so that's why this device even exists.%n%nAnother interesting thing about the fluid canner is that it can be transformed into a raintank, by attaching a drain cover on its top (Any machine with a tank actually can be...).
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACaQ.desc=The fluid canner used to be the main way to fill cells, single-use batteries, and coolant cells. It was needed because direct interaction with cells was limited.%n%nNow everything is much easier and cells almost always work as expected, so you likely won't need this, even for molten redstone.%n%nHowever, if you want an electric hoe or treetap, you'll need to make IC2 batteries in a fluid canner.%n%nAnother interesting thing about this is it also works as a fluid uncanner. And maybe later you could fill a Lighter with it.
 
 # Quest: Sulfuric Acid
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACag.name=§5§lSulfuric Acid
@@ -5039,7 +5039,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAG9Q.desc=The goggles, wings, shoes, vest
 
 # Quest: Traveller's Goggles Upgrades
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAG9g.name=Traveller's Goggles Upgrades
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAG9g.desc=Nightvision is very useful. If you combine your Goggles with a night vision potion (3:00, make sure to make 3 at a time), a golden carrot, and a lighter inside the Tinkers Crafting Station you get Night Vison Goggles. Place the Goggles in the Center of the Crafting Station.%n%nHint:%nAutorepair can be added to the goggles as well.%n%nEvery Armor has 3 slots for modofication.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAG9g.desc=Nightvision is very useful. If you combine your Goggles with a night vision potion (3:00, make sure to make 3 at a time), a golden carrot, and a flint and steel inside the Tinkers Crafting Station you get Night Vision Goggles. Place the Goggles in the Center of the Crafting Station.%n%nHint: Autorepair can be added to the goggles as well.%n%nEvery Armor has 3 slots for modification.
 
 # Quest: Traveller's Vest Upgrades
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAG9w.name=Traveller's Vest Upgrades
