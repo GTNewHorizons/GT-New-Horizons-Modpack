@@ -248,9 +248,9 @@
       "visibility:8": "NORMAL",
       "name:8": "Handle Logistics with Pipes",
       "icon:10": {
-        "id:8": "LogisticsPipes:item.PipeItemsBasicLogistics",
+        "id:8": "LogisticsPipes:item.itemModule",
         "Count:3": 1,
-        "Damage:2": 0,
+        "Damage:2": 5,
         "OreDict:8": ""
       },
       "bg_image:8": "",
