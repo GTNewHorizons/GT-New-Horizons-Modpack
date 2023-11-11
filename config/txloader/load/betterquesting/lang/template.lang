@@ -1219,7 +1219,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEcA.desc=How about lossless 32 EU cables
 
 # Quest: A New Alloy - Magnalium
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEfQ.name=§5§lA New Alloy - Magnalium
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEfQ.desc=Wondering why you need magnalium now? It's not for GT machines but for a material update for your crossbow.%n%nThe main sources of Magnesium are:%n- Olivine vein in the Twilight Forest at Y 10-40, %n- Soapstone vein in the Overworld at Y 20-50,%n%nCheck NEI to see where else you can get it from. Don't forget to verify that you can do all necessary processing steps.%n%nYou already made some Aluminium dust before. Getting Aluminium will become easier once you get an EBF or MV electrolyzer.%n%nCombine Aluminium and Magnesium in your alloy smelter to get Magnalium.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEfQ.desc=Wondering why you need magnalium now? It's not for GT machines but for a material update for your crossbow.%n%nYou already made some Aluminium dust before. Getting Aluminium will become easier once you get an EBF or MV electrolyzer.%n%nCombine Aluminium and Magnesium in your alloy smelter to get Magnalium.
 
 # Quest: Basic Fluid Solidifier
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEgw.name=§5§lBasic Fluid Solidifier
@@ -1277,9 +1277,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAF-A.desc=Let's craft a personal chunkloa
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGAQ.name=§§§5§lBlack and Decker
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGAQ.desc=Tired of having to replace tools all the time? Now that steel is available, it's time to make some electric versions of the screwdriver and wrench! Charge them up like a battery, and they'll last much longer than normal versions of the tools.%n%nYou can use lithium batteries, or if you're on a budget, cadmium or sodium batteries instead. Later on, Vibrant Alloy will make excellent tools with great durability.%n%nIf you look in NEI, you can also see MV and HV versions, but you need Aluminium or Stainless Steel for those.
 
-# Quest: Magnalium Source
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBA.name=§5§lMagnalium Source
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBA.desc=Magnesite, the source of Magnesium can be found in the Twilight Forest at Y 10-40. Fullers Earth can be found on the Overworld at Y 50-70. Marble dust can be used for magnesium dust also.
+# Quest: Magnesium Source
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBA.name=§5§lMagnesium Source
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBA.desc=Magnesite, the source of Magnesium can be found in the Twilight Forest at Y 10-40. Fullers Earth can be found on the Overworld at Y 50-70. Marble dust is a great source of Magnesium too.%nOther options in LV are Pyrope, Olivine, or Ashes.%n%n§3You only need one of the two to complete the quest.
 
 # Quest: Node Upgrades
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGPw.name=§5§lNode Upgrades
@@ -3593,7 +3593,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKeg.desc=TecTech Multiblock Common Funct
 
 # Quest: Configuring TecTech Multiblocks
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKew.name=Configuring TecTech Multiblocks
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKew.desc=Many TecTech multis can be customized by adjusting certain internal numbers called parameters. You no longer need a separate block to do so, you can now directly adjust them in the GUI.%n%nIf there are lit up sections in the parameters part of the multi interface (see the TecTech Multiblocks quest), you can configure the multi, otherwise there is nothing to do.%n%nWe'll be using the Quantum Computer as our example, since that is what you probably want it for.%n%nFirst we need to understand the parameter naming, like ID:0:1:I. The first number represents the parameter block. For the QC only block 0 is used. Each such block can have up to 4 used parameters, 2 inputs and 2 outputs. The letter at the end specifies if a parameter is an input or output with I or O and the number in the middle distinguishes the 2 parameters of this kind in the block. It is either 0 or 1.%n%nInputs are something that is either set or is a default. Outputs give information that the machine sends to you, that indicates things. (like heat or Computation)%n%n§3You might still want to use the Parametrizer in block form if you want to copy and paste the settings.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKew.desc=Many TecTech multis can be customized by adjusting certain internal numbers called parameters. You no longer need a separate block to do so, you can now directly adjust them in the GUI.%n%nIf there are lit up sections in the parameters part of the multi interface (see the TecTech Multiblocks quest), you can configure the multi, otherwise there is nothing to do.%n%nWe'll be using the Quantum Computer as our example, since that is what you probably want it for.%n%nFirst we need to understand the parameter naming, like ID:0:1:I. The first number represents the parameter block. For the QC only block 0 is used. Each such block can have up to 4 used parameters, 2 inputs and 2 outputs. The letter at the end specifies if a parameter is an input or output with I or O and the number in the middle distinguishes the 2 parameters of this kind in the block. It is either 0 or 1.%n%nInputs are something that is either set or is a default. Outputs give information that the machine sends to you, that indicates things. (like heat or Computation)%n%nAnd lastly. the Parametrizer Memory Card let's you copy settings from one machine to another easily.
 
 # Quest: Lasers Solve Everything
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKqg.name=Lasers Solve Everything
@@ -5999,7 +5999,7 @@ betterquesting.quest.pLCgOVmqTUCudSXZusnceg.desc=Here's the special Titanium I p
 
 # Quest: Force Plasma - The Mk1 Ending
 betterquesting.quest.tSCw6KSbR8a4TCNWlrmkYQ.name=Force Plasma - The Mk1 Ending
-betterquesting.quest.tSCw6KSbR8a4TCNWlrmkYQ.desc=Once you have the two plasmas from before, fuse them together into a new one, Neon Plasma. If you were to use this directly, you could get Neon! There are other, more useful materials to get later in this process, so keep a lookout for those.%n%nHowever, this is not the final plasma in mk1 recipes. To get it, you need to do the last activation step, which exists in all three chains, and involves adding a non-plasma related material, of the appropriate GT tier, to obtain the powergen plasma. The material you need here is Bedrockium, one you probably have used before. The early game, Compressed Cobblestone method of getting it is a huge burden, so switch to t8 Void Miners or the Space Elevator to automate this.%n%nIf you look at the last recipe, you'll see it's 144L Neon Plasma input to 1000L Force Plasma output. This multiplying makes it so that step, and all final steps, are the slowest ones. You will need 0.144 Neon Plasma reactors for every Force Plasma reactor, which means that 1 Neon reactor feeds nearly 7 Force reactors (6.9444... reactors, more precisely).%n%nOnce you get Force Plasma, this is the end of the mk1 fusion chain. Force Plasma is a 150M fuel value plasma, which means it has no penalty on Infinity Catalyst XL Plasmas, whereas Helium Plasma has a 86.1%% EU/t penalty. You probably don't need this in ZPM, but it'll be a stepping stone for your future progression.
+betterquesting.quest.tSCw6KSbR8a4TCNWlrmkYQ.desc=Once you have the two plasmas from before, fuse them together into a new one, Neon Plasma. If you were to use this directly, you could get Neon! There are other, more useful materials to get later in this process, so keep a lookout for those.%n%nHowever, this is not the final plasma in mk1 recipes. To get it, you need to do the last activation step, which exists in all three chains, and involves adding a non-plasma related material, of the appropriate GT tier, to obtain the powergen plasma. The material you need here is Bedrockium, one you probably have used before. The early game, Compressed Cobblestone method of getting it is a huge burden, so switch to t8 Void Miners or the Space Elevator to automate this.%n%nIf you look at the last recipe, you'll see it's 144L Neon Plasma input to 1000L Force Plasma output. This multiplying makes it so that step, and all final steps, are the slowest ones. You will need 0.144 Neon Plasma reactors for every Force Plasma reactor, which means that 1 Neon reactor feeds nearly 7 Force reactors (6.9444... reactors, more precisely).%n%nOnce you get Force Plasma, this is the end of the mk1 fusion chain. Force Plasma is a 150M fuel value plasma, which means it has a 53.5%% penalty with Infinity Catalyst in XL Plasma Generators. This is better than Helium Plasma with its 86.1%% penalty but still not great for power generation. You probably don't need this in ZPM, but it'll be a stepping stone for your future progression.
 
 # Quest: GT++ Multiblocks
 betterquesting.quest.w5O5rPL_Q_GDp8lxWMd0DQ.name=GT++ Multiblocks
@@ -8961,19 +8961,19 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJsQ.desc=Same as 1k.
 
 # Quest: 1k Fluid Storage Cell
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJsg.name=1k Fluid Storage Cell
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJsg.desc=Unlike the item version, these can only hold 1 type of liquid each. There is also another variant that can hold 5. You'll want to make the fluid terminal to see what you have.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJsg.desc=Unlike the item version, these can only hold 1 type of liquid each. It can hold over 2 ML.There is also another variant that can hold 5. You'll want to make the fluid terminal to see what you have.
 
 # Quest: 4k Fluid Storage Cell
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJsw.name=4k Fluid Storage Cell
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJsw.desc=These hold 1,024 buckets, or 1,024,000L of a single fluid.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJsw.desc=These hold over 8 ML of a single fluid.
 
 # Quest: 16k Fluid Storage Cell
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJtA.name=16k Fluid Storage Cell
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJtA.desc=These hold 4,096 buckets, or 4,096,000L of a single fluid. They finally match a Super Tank I.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJtA.desc=These hold over 32 ML of a single fluid. Enough to match a Super Tank IV!
 
 # Quest: 64k Fluid Storage Cell
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJtQ.name=64k Fluid Storage Cell
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJtQ.desc=These hold 16,384 buckets, or 16,384,000L of a single fluid. Equivalent to a Super Tank III.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJtQ.desc=These hold over 128 ML of a single fluid.
 
 # Quest: Housing for Advanced Components
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJtw.name=Housing for Advanced Components
@@ -8997,15 +8997,15 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJuw.desc=And another one.
 
 # Quest: 256k Fluid Storage Cell
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJvA.name=256k Fluid Storage Cell
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJvA.desc=These hold 65,536 buckets, or 65,536,000L of a single fluid. They hold a bit more than a Super Tank V.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJvA.desc=These hold 512 ML of a single fluid. They hold a bit more than a Quantum Tank III.
 
 # Quest: 1024k Fluid Storage Cell
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJvQ.name=1024k Fluid Storage Cell
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJvQ.desc=These hold 262,144 buckets, or 262,144,000L of a single fluid. A little more than a Quantum Tank II.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJvQ.desc=These hold over 2 GL of a single fluid. A little more than a Quantum Tank V.
 
 # Quest: 4096k Fluid Storage Cell
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJvg.name=4096k Fluid Storage Cell
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJvg.desc=It holds 1,048,576 buckets, or 1,048,576,000L. So about the same as a Quantum Tank IV.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJvg.desc=It holds over 8GL.
 
 # Quest: AE Essentia Storage
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJvw.name=AE Essentia Storage
@@ -9237,7 +9237,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsg.desc=Fluid crafting directly integra
 
 # Quest: 16384k Fluid Storage Cell
 betterquesting.quest.MJoHkNK0Ta-zKyJAvV_DBg.name=16384k Fluid Storage Cell
-betterquesting.quest.MJoHkNK0Ta-zKyJAvV_DBg.desc=It holds 4,194,304 buckets, or 4,194,304,000L. So nearly double that of a quantum tank V.
+betterquesting.quest.MJoHkNK0Ta-zKyJAvV_DBg.desc=It holds over 32GL.
 
 # Quest: Another Digital Singularity
 betterquesting.quest.QF-_KNlHSnObOPmrJptkwQ.name=Another Digital Singularity
