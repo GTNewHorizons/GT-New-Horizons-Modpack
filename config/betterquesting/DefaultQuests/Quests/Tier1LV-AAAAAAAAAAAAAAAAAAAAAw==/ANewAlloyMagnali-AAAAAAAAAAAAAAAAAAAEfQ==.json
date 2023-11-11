@@ -4,6 +4,10 @@
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 673
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1540
     }
   },
   "questIDLow:4": 1149,
@@ -31,7 +35,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Wondering why you need magnalium now? It\u0027s not for GT machines but for a material update for your crossbow.\n\nThe main sources of Magnesium are:\n- Olivine vein in the Twilight Forest at Y 10-40, \n- Soapstone vein in the Overworld at Y 20-50,\n\nCheck NEI to see where else you can get it from. Don\u0027t forget to verify that you can do all necessary processing steps.\n\nYou already made some Aluminium dust before. Getting Aluminium will become easier once you get an EBF or MV electrolyzer.\n\nCombine Aluminium and Magnesium in your alloy smelter to get Magnalium."
+      "desc:8": "Wondering why you need magnalium now? It\u0027s not for GT machines but for a material update for your crossbow.\n\nYou already made some Aluminium dust before. Getting Aluminium will become easier once you get an EBF or MV electrolyzer.\n\nCombine Aluminium and Magnesium in your alloy smelter to get Magnalium."
     }
   },
   "tasks:9": {
