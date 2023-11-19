@@ -18,7 +18,7 @@
       "icon:10": {
         "id:8": "gregtech:gt.blockmachines",
         "Count:3": 1,
-        "Damage:2": 767,
+        "Damage:2": 31790,
         "OreDict:8": ""
       },
       "snd_update:8": "random.levelup",
@@ -31,7 +31,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Too lazy to make an ore washer, yet bored with your non-automatable cauldron? Then the simple washer is the machine for you! It works reasonably fast and uses only 8eu max - make sure you don\u0027t provide too much voltage! Ok, so you don\u0027t get any byproducts, but who cares!\n\nThey are only every other tier, which is why there\u0027s no LV one."
+      "desc:8": "Too lazy to make an ore washer, yet bored with your non-automatable cauldron? Then the simple washer is the machine for you! It works much faster than a normal ore washer. Of course, you don\u0027t get any byproducts, but who cares!\n\nThere are simple washers for every tier up to UV, but the speed doesn\u0027t increase much past the HV version. "
     }
   },
   "tasks:9": {
@@ -46,7 +46,7 @@
         "0:10": {
           "id:8": "gregtech:gt.blockmachines",
           "Count:3": 1,
-          "Damage:2": 767,
+          "Damage:2": 31790,
           "OreDict:8": ""
         }
       },

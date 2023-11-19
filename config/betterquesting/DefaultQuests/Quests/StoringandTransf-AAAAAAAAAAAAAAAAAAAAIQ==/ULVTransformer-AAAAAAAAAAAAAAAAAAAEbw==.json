@@ -12,7 +12,7 @@
       "snd_complete:8": "random.levelup",
       "taskLogic:8": "AND",
       "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
+      "visibility:8": "HIDDEN",
       "isMain:1": 0,
       "simultaneous:1": 0,
       "icon:10": {
