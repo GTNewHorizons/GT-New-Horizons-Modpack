@@ -4,7 +4,7 @@
         <line>
             <str>{pingicon}{gold}{username} {white}FPS: </str>
             <op>
-                <str>gt</str>
+                <str>ge</str>
                 <var>fps</var>
                 <num>60</num>
                 <num>45</num>
