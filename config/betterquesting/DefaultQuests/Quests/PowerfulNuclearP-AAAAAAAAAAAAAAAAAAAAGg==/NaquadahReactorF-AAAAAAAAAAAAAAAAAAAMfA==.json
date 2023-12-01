@@ -3,6 +3,10 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
+      "questIDLow:4": 2610
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
       "questIDLow:4": 3195
     }
   },
@@ -23,7 +27,7 @@
       "snd_update:8": "random.levelup",
       "repeatTime:3": -1,
       "globalShare:1": 0,
-      "questLogic:8": "AND",
+      "questLogic:8": "OR",
       "repeat_relative:1": 1,
       "name:8": "Naquadah Reactor For Nuclear Fuels",
       "lockedProgress:1": 0,
