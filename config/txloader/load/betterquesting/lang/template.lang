@@ -449,7 +449,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALPA.desc=It looks like you've found a se
 
 # Quest: The power of prospecting!
 betterquesting.quest.bMKIeFhNQluRks9YzpqEGQ.name=§6§lThe power of prospecting!
-betterquesting.quest.bMKIeFhNQluRks9YzpqEGQ.desc=At the top of your map screen (J by default) there are multiple tabs, some of them will be very useful and will save you a ton of searching!%n%nGT oreveins - this tab will keep track of the veins for you, to save a vein to map right-click a naturally generated ore (some tools can't right click)%nGT Underground fluids - this will help you later (MV)%nTC Nodes - this tab will keep track of thaumcraft nodes for you (you need to scan them first)%n%n%n§3Small Ores are not part of veins and thus do not uncover a vein on the map. However veins generate extra small ores related to the vein in their chunks, so they can still be useful in your search (though not all small ores are related to a nearby vein so don't be fooled).
+betterquesting.quest.bMKIeFhNQluRks9YzpqEGQ.desc=At the top of your map screen (J by default) there are multiple tabs, some of them will be very useful and will save you a ton of searching!%n%nGT Oreveins - this tab will keep track of the veins for you, to save a vein to map right-click a naturally generated ore (some tools can't right click)%nGT Underground fluids - this will help you later (MV)%nTC Nodes - this tab will keep track of thaumcraft nodes for you (you need to scan them first)%n%n§3Small Ores are not part of veins and thus do not uncover a vein on the map. However veins generate extra small ores related to the vein in their chunks, so they can still be useful in your search (though not all small ores are related to a nearby vein so don't be fooled).%n%nAnother great interaction is that you can use the NEI search bar in highlight mode (doubleclick it) and then go to the map screen to get the matching uncovered ore veins highlighted!
 
 
 ## Quest Line: Tier 0.5 - Steam
@@ -526,7 +526,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAPA.desc=This is basically just an upgra
 
 # Quest: Another Use for Java, I Mean Lava
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAPQ.name=§3§lAnother Use for Java, I Mean Lava
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAPQ.desc=With a more durable steel casing, you can use lava to make steam.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAPQ.desc=Your Lava boiler has been updated to the latest version. So what's new?%n%nYou can of course use high level inputs by putting a tank above it. This version is compatible only with Water on the sides and Steam at the back. It also allows for manual user input from Water or Lava container objects.%n%nThe latest version now comes with improved Lava memory handling in the form of an internal tank and advanced garbage collection at the bottom for the resulting obsidian blocks!%n%n§3Did you know? Over 3 billion machines run on Lava!
 
 # Quest: The Power of the Sun
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAPg.name=§3§lThe Power of the Sun
@@ -4345,7 +4345,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGyQ.desc=When breeding together crops fo
 
 # Quest: Better(?) Dirt
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHAQ.name=Better(?) Dirt
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHAQ.desc=With an Assembler and some seedoil, you can turn dirt and sand into Garden Soil.  This optimal soil does not require water nearby and crops do not break when you fall on it.  It can turn into dirt if you run on it, so be careful. You might want to investigate the Slow Building Ring in Building Better Bases.%n%nUnlike watered farmland, it doesn't contribute to the humidity stat or speed up IC2 crops though, so don't bother when min-maxing.%n%nSame thing for enchanted earth, lamp of growth, sprinklers, etc.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHAQ.desc=With an Assembler and some seedoil, you can turn dirt and sand into Garden Soil.  This optimal soil does not require water nearby and crops do not break when you fall on it.  It can turn into dirt if you run on it, so be careful.%n%nUnlike watered farmland, it doesn't contribute to the humidity stat or speed up IC2 crops though, so don't bother when min-maxing.%n%nSame thing for enchanted earth, lamp of growth, sprinklers, etc.
 
 # Quest: Crop Stats
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHAg.name=Crop Stats
@@ -5794,7 +5794,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADZg.desc=Smelting up to nine items at on
 
 # Quest: Bring Me My Vat of Polyethelyne!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADbA.name=§6§lBring Me My Vat of Polyethelyne!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADbA.desc=Tired of using small cells to process chemicals? Build a Large Chemical Reactor and you can just pipe in and out fluids. Or use the glorious large fluid cells to deliver and remove fluids from the hatches. %n%nBe careful, if the output hatches are full, the reactor will void any extra products!%n%nSome of the old recipes can now be done much more easily in the LCR using circuit 24, skipping one or more steps.%n%nThe LCR also counts as a cleanroom for any cleanroom recipes.%n%nYou will also need:%n1 Maintenance Hatch%n1 Energy Hatch%n0+ Input Bus (if a recipe has an item input. For full automation, you should probably use 1 for each material)%n0-1 Output Bus (if a recipe has an item output)%n2+ Input Hatch (use 1 for every fluid)%n1+ Output Hatch (same as above)%n%nYou can use a screwdriver on an output hatch to cycle through its modes. Use shift-right click to go directly to specific fluid mode, then lock the fluid with a cell for easier automation. This works on more than just the LCR.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADbA.desc=Tired of using small cells to process chemicals? Build a Large Chemical Reactor and you can just pipe in and out fluids. Or use the glorious large fluid cells to deliver and remove fluids from the hatches. %n%nYou can decide if the reactor should void any extra products when the outputs are full or not by toggling the void mode in the GUI!%n%nThere are also recipes specific to only the LCR, sometimes even allowing you to skip a step, so keep you eyes open for that.%n%nAdditionally, as a multiblock, LCR also counts as a cleanroom for any cleanroom recipes.%n%nYou will also need:%n1 Maintenance Hatch%n1-2 Energy Hatches%n0+ Input Bus (if a recipe has an item input. For full automation, you should probably use 1 for each material)%n0-1 Output Bus (if a recipe has an item output)%n2+ Input Hatch (use 1 for every fluid)%n1+ Output Hatch (same as above)%n%nYou can use a screwdriver on an output hatch to cycle through its modes. Use shift-right click to go directly to specific fluid mode, then lock the fluid with a cell for easier automation. This works on more than just the LCR.
 
 # Quest: Cleanroom
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADrA.name=§6§lCleanroom
@@ -6766,10 +6766,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEOg.desc=You'll probably want MV battery
 # Quest: MV Batteries
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEOw.name=MV Batteries
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEOw.desc=Better machines need some better batteries. Lithium is the best material to use when making batteries.%n%n§3You only need to complete one task.
-
-# Quest: ULV Transformer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEbw.name=§5§lULV Transformer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEbw.desc=To get your simple ore washer working you need a ULV Transformer. The Washer can only work with 8 EU. If you put more energy into it you get a big hole in your base.%n%nThis will probably be the only one you make in the game.
 
 # Quest: HV Battery Buffers
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEdg.name=HV Battery Buffers
