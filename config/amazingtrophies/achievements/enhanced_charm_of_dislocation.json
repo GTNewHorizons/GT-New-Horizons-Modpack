@@ -1,0 +1,13 @@
+{
+  "id": "enhanced_charm_of_dislocation",
+  "condition": {
+    "type": "item.pickup",
+    "item": "DraconicEvolution:teleporterMKII"
+  },
+  "page": "GT New Horizons",
+  "x": 7,
+  "y": 2,
+  "icon": {
+    "registryName": "DraconicEvolution:teleporterMKII"
+  }
+}

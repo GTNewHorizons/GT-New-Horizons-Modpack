@@ -1,0 +1,15 @@
+{
+  "id": "naquadah_fuel_mkvi",
+  "condition": {
+    "type": "item.pickup",
+    "item": "bartworks:gt.bwMetaGeneratedcell",
+    "meta": 10116
+  },
+  "page": "GT New Horizons",
+  "x": 11,
+  "y": 6,
+  "icon": {
+    "registryName": "bartworks:gt.bwMetaGeneratedcell",
+    "meta": 10116
+  }
+}

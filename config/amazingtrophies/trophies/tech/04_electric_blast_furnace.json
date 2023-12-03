@@ -1,0 +1,27 @@
+{
+  "id": "electric_blast_furnace",
+  "condition": {
+    "type": "achievement",
+    "id": "electric_blast_furnace"
+  },
+  "model": {
+    "type": "complex",
+    "keys": {
+      "t": "gregtech:gt.blockcasings",
+      "C": "gregtech:gt.blockcasings5",
+      "~": "gregtech:gt.blockmachines"
+    },
+    "metadata": {
+      "t": 11,
+      "C": 0,
+      "~": 1000
+    },
+    "transpose": true,
+    "structure": [
+      ["ttt", "ttt", "ttt"],
+      ["CCC", "C C", "CCC"],
+      ["CCC", "C C", "CCC"],
+      ["t~t", "ttt", "ttt"]
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "100_hearts",
+  "_condition": "Handled via code (NHCore)",
+  "page": "GT New Horizons",
+  "x": 7,
+  "y": 0,
+  "icon": {
+    "registryName": "TConstruct:heartCanister",
+    "meta": 5
+  }
+}

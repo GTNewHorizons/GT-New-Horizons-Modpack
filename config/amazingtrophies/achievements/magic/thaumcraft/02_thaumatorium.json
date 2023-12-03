@@ -1,0 +1,14 @@
+{
+  "id": "thaumatorium",
+  "condition": {
+    "type": "container.open",
+    "containers": "thaumcraft.common.container.ContainerThaumatorium"
+  },
+  "page": "GT New Horizons",
+  "x": -4,
+  "y": 4,
+  "icon": {
+    "registryName": "Thaumcraft:blockMetalDevice",
+    "meta": 9
+  }
+}

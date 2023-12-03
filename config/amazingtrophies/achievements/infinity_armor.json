@@ -1,0 +1,10 @@
+{
+  "id": "infinity_armor",
+  "_condition": "Handled via code (NHCore)",
+  "page": "GT New Horizons",
+  "x": 11,
+  "y": 2,
+  "icon": {
+    "registryName": "Avaritia:Infinity_Chest"
+  }
+}

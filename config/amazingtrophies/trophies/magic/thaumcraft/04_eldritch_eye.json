@@ -1,0 +1,12 @@
+{
+  "id": "eldritch_eye",
+  "condition": {
+    "type": "achievement",
+    "id": "eldritch_eye"
+  },
+  "model": {
+    "type": "item",
+    "registryName": "Thaumcraft:ItemEldritchObject",
+    "meta": 0
+  }
+}

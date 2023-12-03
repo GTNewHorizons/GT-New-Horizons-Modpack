@@ -1,0 +1,14 @@
+{
+  "id": "stargate",
+  "condition": {
+    "type": "item.pickup",
+    "item": "SGCraft:stargateBase"
+  },
+  "page": "GT New Horizons",
+  "x": 8,
+  "y": -3,
+  "isSpecial": true,
+  "icon": {
+    "registryName": "SGCraft:stargateBase"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "infinity_armor",
+  "condition": {
+    "type": "achievement",
+    "id": "infinity_armor"
+  },
+  "model": {
+    "type": "item",
+    "registryName": "Avaritia:Infinity_Chest"
+  }
+}

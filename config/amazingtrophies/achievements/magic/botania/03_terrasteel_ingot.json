@@ -1,0 +1,15 @@
+{
+  "id": "terrasteel_ingot",
+  "condition": {
+    "type": "item.pickup",
+    "item": "Botania:manaResource",
+    "meta": 4
+  },
+  "page": "GT New Horizons",
+  "x": -2,
+  "y": 2,
+  "icon": {
+    "registryName": "Botania:manaResource",
+    "meta": 4
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "sacrificial_knife",
+  "condition": {
+    "type": "achievement",
+    "id": "sacrificial_knife"
+  },
+  "model": {
+    "type": "item",
+    "registryName": "AWWayofTime:sacrificialKnife"
+  }
+}

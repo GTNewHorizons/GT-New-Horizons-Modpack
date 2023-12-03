@@ -1,0 +1,12 @@
+{
+  "id": "octuple_solar_panel",
+  "condition": {
+    "type": "achievement",
+    "id": "octuple_solar_panel"
+  },
+  "model": {
+    "type": "item",
+    "registryName": "EMT:EMTSolars4",
+    "meta": 12
+  }
+}

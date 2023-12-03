@@ -1,0 +1,11 @@
+{
+  "id": "omega_armor",
+  "condition": {
+    "type": "achievement",
+    "id": "omega_armor"
+  },
+  "model": {
+    "type": "item",
+    "registryName": "AWWayofTime:boundPlateEarth"
+  }
+}

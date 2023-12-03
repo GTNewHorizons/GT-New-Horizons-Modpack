@@ -1,0 +1,13 @@
+{
+  "id": "coke_oven",
+  "condition": {
+    "type": "achievement",
+    "id": "coke_oven"
+  },
+  "model": {
+    "type": "item",
+    "registryName": "Railcraft:machine.alpha",
+    "meta": 7,
+    "yawOffset": 180.0
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "dimensionally_transcendent_plasma_forge",
+  "condition": {
+    "type": "item.pickup",
+    "item": "gregtech:gt.blockmachines",
+    "meta": 1004
+  },
+  "page": "GT New Horizons",
+  "x": 6,
+  "y": -3,
+  "icon": {
+    "registryName": "gregtech:gt.blockmachines",
+    "meta": 1004
+  }
+}

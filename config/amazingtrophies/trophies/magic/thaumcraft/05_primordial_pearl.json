@@ -1,0 +1,12 @@
+{
+  "id": "primordial_pearl",
+  "condition": {
+    "type": "achievement",
+    "id": "primordial_pearl"
+  },
+  "model": {
+    "type": "item",
+    "registryName": "Thaumcraft:ItemEldritchObject",
+    "meta": 3
+  }
+}

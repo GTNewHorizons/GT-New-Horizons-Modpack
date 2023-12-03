@@ -1,0 +1,12 @@
+{
+  "id": "infusion",
+  "condition": {
+    "type": "achievement",
+    "id": "infusion"
+  },
+  "model": {
+    "type": "item",
+    "registryName": "Thaumcraft:blockStoneDevice",
+    "meta": 2
+  }
+}

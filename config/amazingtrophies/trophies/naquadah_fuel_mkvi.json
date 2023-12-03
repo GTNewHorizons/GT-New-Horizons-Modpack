@@ -1,0 +1,12 @@
+{
+  "id": "naquadah_fuel_mkvi",
+  "condition": {
+    "type": "achievement",
+    "id": "naquadah_fuel_mkvi"
+  },
+  "model": {
+    "type": "item",
+    "registryName": "bartworks:gt.bwMetaGeneratedcell",
+    "meta": 10116
+  }
+}

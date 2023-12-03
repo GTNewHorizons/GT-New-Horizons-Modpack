@@ -1,0 +1,15 @@
+{
+  "id": "research_station",
+  "condition": {
+    "type": "item.pickup",
+    "item": "gregtech:gt.blockmachines",
+    "meta": 15331
+  },
+  "page": "GT New Horizons",
+  "x": -2,
+  "y": -3,
+  "icon": {
+    "registryName": "gregtech:gt.blockmachines",
+    "meta": 15331
+  }
+}

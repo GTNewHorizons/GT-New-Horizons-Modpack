@@ -1,0 +1,14 @@
+{
+  "id": "mothership",
+  "condition": {
+    "type": "dimension.join",
+    "provider": "de.katzenpapst.amunra.mothership.MothershipWorldProvider"
+  },
+  "page": "GT New Horizons",
+  "x": 2,
+  "y": -3,
+  "icon": {
+    "registryName": "GalacticraftAmunRa:tile.machines1",
+    "meta": 2
+  }
+}

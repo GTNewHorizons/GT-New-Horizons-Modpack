@@ -1,0 +1,11 @@
+{
+  "id": "enhanced_charm_of_dislocation",
+  "condition": {
+    "type": "achievement",
+    "id": "enhanced_charm_of_dislocation"
+  },
+  "model": {
+    "type": "item",
+    "registryName": "DraconicEvolution:teleporterMKII"
+  }
+}

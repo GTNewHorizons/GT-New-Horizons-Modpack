@@ -1,0 +1,13 @@
+{
+  "id": "mana_pool",
+  "condition": {
+    "type": "item.pickup",
+    "item": "Botania:pool"
+  },
+  "page": "GT New Horizons",
+  "x": -6,
+  "y": 2,
+  "icon": {
+    "registryName": "Botania:pool"
+  }
+}

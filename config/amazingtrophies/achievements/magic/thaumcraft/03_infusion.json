@@ -1,0 +1,15 @@
+{
+  "id": "infusion",
+  "condition": {
+    "type": "item.pickup",
+    "item": "Thaumcraft:blockStoneDevice",
+    "meta": 2
+  },
+  "page": "GT New Horizons",
+  "x": -2,
+  "y": 4,
+  "icon": {
+    "registryName": "Thaumcraft:blockStoneDevice",
+    "meta": 2
+  }
+}

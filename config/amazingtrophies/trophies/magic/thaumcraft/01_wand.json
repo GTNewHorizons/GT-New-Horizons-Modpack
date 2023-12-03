@@ -1,0 +1,11 @@
+{
+  "id": "wand",
+  "condition": {
+    "type": "achievement",
+    "id": "wand"
+  },
+  "model": {
+    "type": "item",
+    "registryName": "Thaumcraft:WandCasting"
+  }
+}

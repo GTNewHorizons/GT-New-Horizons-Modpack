@@ -1,0 +1,13 @@
+{
+  "id": "wand",
+  "condition": {
+    "type": "item.pickup",
+    "item": "Thaumcraft:WandCasting"
+  },
+  "page": "GT New Horizons",
+  "x": -6,
+  "y": 4,
+  "icon": {
+    "registryName": "Thaumcraft:WandCasting"
+  }
+}

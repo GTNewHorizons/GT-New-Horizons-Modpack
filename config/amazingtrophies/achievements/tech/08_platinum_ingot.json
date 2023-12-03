@@ -1,0 +1,15 @@
+{
+  "id": "platinum_ingot",
+  "condition": {
+    "type": "item.pickup",
+    "item": "gregtech:gt.metaitem.01",
+    "meta": 11085
+  },
+  "page": "GT New Horizons",
+  "x": 8,
+  "y": -5,
+  "icon": {
+    "registryName": "gregtech:gt.metaitem.01",
+    "meta": 11085
+  }
+}

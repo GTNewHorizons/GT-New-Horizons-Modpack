@@ -1,0 +1,36 @@
+{
+  "id": "research_station",
+  "condition": {
+    "type": "achievement",
+    "id": "research_station"
+  },
+  "model": {
+    "type": "complex",
+    "keys": {
+      "A": "tectech:gt.blockcasingsTT",
+      "B": "tectech:gt.blockcasingsTT",
+      "C": "tectech:gt.blockcasingsTT",
+      "D": "tectech:gt.blockcasingsTT",
+      "E": "gregtech:gt.blockmachines",
+      "~": "gregtech:gt.blockmachines"
+    },
+    "metadata": {
+      "A": 1,
+      "B": 2,
+      "C": 3,
+      "D": 1,
+      "E": 15451,
+      "~": 15331
+    },
+    "transpose": true,
+    "structure": [
+      ["   ", " A ", " A ", "AAA", "AAA", "AAA", "AAA" ],
+      ["AAA", "ACA", "ACA", "ACA", "BCB", "BCB", "BBB" ],
+      ["   ", " C ", "   ", "   ", "ACA", "CCC", "DDD" ],
+      ["   ", " E ", "   ", "   ", "A~A", "CCC", "DDD" ],
+      ["   ", " C ", "   ", "   ", "ACA", "CCC", "DDD" ],
+      ["AAA", "ACA", "ACA", "ACA", "BCB", "BCB", "BBB" ],
+      ["   ", " A ", " A ", "AAA", "AAA", "AAA", "AAA" ]
+    ]
+  }
+}

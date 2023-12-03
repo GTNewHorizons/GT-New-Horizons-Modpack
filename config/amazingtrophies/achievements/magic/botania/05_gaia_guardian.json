@@ -1,0 +1,15 @@
+{
+  "id": "gaia_guardian",
+  "condition": {
+    "type": "kill",
+    "targets": "Botania.botania:doppleganger",
+    "isTargetsAllowList": true
+  },
+  "page": "GT New Horizons",
+  "x": 2,
+  "y": 2,
+  "isSpecial": true,
+  "icon": {
+    "registryName": "Botania:gaiaHead"
+  }
+}

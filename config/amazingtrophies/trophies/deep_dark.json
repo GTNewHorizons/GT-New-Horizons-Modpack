@@ -1,0 +1,11 @@
+{
+  "id": "deep_dark",
+  "condition": {
+    "type": "achievement",
+    "id": "deep_dark"
+  },
+  "model": {
+    "type": "item",
+    "registryName": "ExtraUtilities:dark_portal"
+  }
+}

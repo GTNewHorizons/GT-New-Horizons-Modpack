@@ -1,0 +1,26 @@
+{
+  "id": "eternity_beacon",
+  "condition": {
+    "type": "achievement",
+    "id": "eternity_beacon"
+  },
+  "model": {
+    "type": "complex",
+    "keys": {
+      "A": "minecraft:beacon",
+      "B": "gregtech:gt.blockmetal9"
+    },
+    "metadata": {
+      "A": 0,
+      "B": 9
+    },
+    "transpose": true,
+    "structure": [
+      ["         ", "         ", "         ", "         ", "    A    ", "         ", "         ", "         ", "         "],
+      ["         ", "         ", "         ", "   BBB   ", "   BBB   ", "   BBB   ", "         ", "         ", "         "],
+      ["         ", "         ", "  BBBBB  ", "  BBBBB  ", "  BBBBB  ", "  BBBBB  ", "  BBBBB  ", "         ", "         "],
+      ["         ", " BBBBBBB ", " BBBBBBB ", " BBBBBBB ", " BBBBBBB ", " BBBBBBB ", " BBBBBBB ", " BBBBBBB ", "         "],
+      ["BBBBBBBBB", "BBBBBBBBB", "BBBBBBBBB", "BBBBBBBBB", "BBBBBBBBB", "BBBBBBBBB", "BBBBBBBBB", "BBBBBBBBB", "BBBBBBBBB"]
+    ]
+  }
+}

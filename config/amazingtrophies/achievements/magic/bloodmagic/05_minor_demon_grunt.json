@@ -1,0 +1,26 @@
+{
+  "id": "minor_demon_grunt",
+  "condition": {
+    "type": "kill",
+    "targets": [
+      "WayofTime.alchemicalWizardry.common.demonVillage.demonHoard.demon.EntityMinorDemonGrunt",
+      "WayofTime.alchemicalWizardry.common.demonVillage.demonHoard.demon.EntityMinorDemonGruntFire",
+      "WayofTime.alchemicalWizardry.common.demonVillage.demonHoard.demon.EntityMinorDemonGruntWind",
+      "WayofTime.alchemicalWizardry.common.demonVillage.demonHoard.demon.EntityMinorDemonGruntIce",
+      "WayofTime.alchemicalWizardry.common.demonVillage.demonHoard.demon.EntityMinorDemonGruntEarth",
+      "WayofTime.alchemicalWizardry.common.demonVillage.demonHoard.demon.EntityMinorDemonGruntGuardian",
+      "WayofTime.alchemicalWizardry.common.demonVillage.demonHoard.demon.EntityMinorDemonGruntGuardianFire",
+      "WayofTime.alchemicalWizardry.common.demonVillage.demonHoard.demon.EntityMinorDemonGruntGuardianWind",
+      "WayofTime.alchemicalWizardry.common.demonVillage.demonHoard.demon.EntityMinorDemonGruntGuardianIce",
+      "WayofTime.alchemicalWizardry.common.demonVillage.demonHoard.demon.EntityMinorDemonGruntGuardianEarth"
+    ],
+    "isTargetsAllowList": true
+  },
+  "page": "GT New Horizons",
+  "x": 2,
+  "y": 0,
+  "isSpecial": true,
+  "icon": {
+    "registryName": "AWWayofTime:demonPlacer"
+  }
+}

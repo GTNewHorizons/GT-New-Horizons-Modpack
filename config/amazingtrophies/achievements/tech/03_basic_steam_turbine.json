@@ -1,0 +1,16 @@
+{
+  "id": "basic_steam_turbine",
+  "condition": {
+    "type": "item.pickup",
+    "item": "gregtech:gt.blockmachines",
+    "meta": 1120
+  },
+  "page": "GT New Horizons",
+  "x": -2,
+  "y": -5,
+  "icon": {
+    "registryName": "gregtech:gt.blockmachines",
+    "meta": 1120
+  }
+  }
+}

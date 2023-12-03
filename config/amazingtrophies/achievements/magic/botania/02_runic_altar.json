@@ -1,0 +1,13 @@
+{
+  "id": "runic_altar",
+  "condition": {
+    "type": "item.pickup",
+    "item": "Botania:runeAltar"
+  },
+  "page": "GT New Horizons",
+  "x": -4,
+  "y": 2,
+  "icon": {
+    "registryName": "Botania:runeAltar"
+  }
+}

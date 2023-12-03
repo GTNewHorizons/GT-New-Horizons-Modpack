@@ -1,0 +1,14 @@
+{
+  "id": "mega_ultimate_battery",
+  "condition": {
+    "type": "achievement",
+    "id": "mega_ultimate_battery"
+  },
+  "model": {
+    "type": "item",
+    "registryName": "gregtech:gt.metaitem.01",
+    "meta": 32146,
+    "nbt": "{GT.ItemCharge: 9223372036854775807L}",
+    "yOffset": 0.0
+  }
+}

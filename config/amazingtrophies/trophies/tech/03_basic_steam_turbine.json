@@ -1,0 +1,13 @@
+{
+  "id": "basic_steam_turbine",
+  "condition": {
+    "type": "achievement",
+    "id": "basic_steam_turbine"
+  },
+  "model": {
+    "type": "item",
+    "registryName": "gregtech:gt.blockmachines",
+    "meta": 1120,
+    "yawOffset": 180.0
+  }
+}

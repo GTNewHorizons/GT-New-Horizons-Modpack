@@ -1,0 +1,12 @@
+{
+  "id": "all_effects",
+  "condition": {
+    "type": "achievement",
+    "id": "all_effects"
+  },
+  "model": {
+    "type": "item",
+    "registryName": "minecraft:potion",
+    "meta": 8197
+  }
+}

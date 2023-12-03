@@ -1,0 +1,32 @@
+{
+  "id": "fusion_reactor_mk1",
+  "condition": {
+    "type": "achievement",
+    "id": "fusion_reactor_mk1"
+  },
+  "model": {
+    "type": "complex",
+    "keys": {
+      "i": "gregtech:gt.blockcasings",
+      "h": "gregtech:gt.blockcasings",
+      "e": "gregtech:gt.blockcasings",
+      "x": "gregtech:gt.blockcasings",
+      "c": "gregtech:gt.blockcasings",
+      "~": "gregtech:gt.blockmachines"
+    },
+    "metadata": {
+      "i": 6,
+      "h": 6,
+      "e": 6,
+      "x": 6,
+      "c": 15,
+      "~": 1193
+    },
+    "transpose": true,
+    "structure": [
+      ["               ", "      ihi      ", "    hh   hh    ", "   h       h   ", "  h         h  ", "  h         h  ", " i           i ", " h           h ", " i           i ", "  h         h  ", "  h         h  ", "   h       h   ", "    hh   hh    ", "      ihi      ", "               "],
+      ["      xhx      ", "    hhccchh    ", "   eccxhxcce   ", "  eceh   hece  ", " hce       ech ", " hch       hch ", "xcx         xcx", "hch         hch", "xcx         xcx", " hch       hch ", " hce       ech ", "  eceh   hece  ", "   eccx~xcce   ", "    hhccchh    ", "      xhx      "],
+      ["               ", "      ihi      ", "    hh   hh    ", "   h       h   ", "  h         h  ", "  h         h  ", " i           i ", " h           h ", " i           i ", "  h         h  ", "  h         h  ", "   h       h   ", "    hh   hh    ", "      ihi      ", "               "]
+    ]
+  }
+}

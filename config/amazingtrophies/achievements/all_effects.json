@@ -1,0 +1,11 @@
+{
+  "id": "all_effects",
+  "_condition": "Handled via code (NHCore)",
+  "page": "GT New Horizons",
+  "x": 9,
+  "y": 0,
+  "icon": {
+    "registryName": "minecraft:potion",
+    "meta": 8197
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "eldritch_eye",
+  "condition": {
+    "type": "item.pickup",
+    "item": "Thaumcraft:ItemEldritchObject",
+    "meta": 0
+  },
+  "page": "GT New Horizons",
+  "x": 0,
+  "y": 4,
+  "icon": {
+    "registryName": "Thaumcraft:ItemEldritchObject",
+    "meta": 0
+  }
+}

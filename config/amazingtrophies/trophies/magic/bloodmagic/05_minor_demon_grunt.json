@@ -1,0 +1,11 @@
+{
+  "id": "minor_demon_grunt",
+  "condition": {
+    "type": "achievement",
+    "id": "minor_demon_grunt"
+  },
+  "model": {
+    "type": "item",
+    "registryName": "AWWayofTime:demonPortalMain"
+  }
+}

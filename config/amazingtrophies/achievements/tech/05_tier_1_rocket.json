@@ -1,0 +1,13 @@
+{
+  "id": "tier_1_rocket",
+  "condition": {
+    "type": "item.pickup",
+    "item": "GalacticraftCore:item.spaceship"
+  },
+  "page": "GT New Horizons",
+  "x": 2,
+  "y": -5,
+  "icon": {
+    "registryName": "GalacticraftCore:item.spaceship"
+  }
+}

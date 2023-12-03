@@ -1,0 +1,12 @@
+{
+  "id": "platinum_ingot",
+  "condition": {
+    "type": "achievement",
+    "id": "platinum_ingot"
+  },
+  "model": {
+    "type": "item",
+    "registryName": "gregtech:gt.metaitem.01",
+    "meta": 11085
+  }
+}

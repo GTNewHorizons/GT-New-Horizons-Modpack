@@ -1,0 +1,14 @@
+{
+  "id": "me_controller",
+  "condition": {
+    "type": "item.pickup",
+    "item": "appliedenergistics2:tile.BlockController"
+  },
+  "page": "GT New Horizons",
+  "x": 6,
+  "y": -5,
+  "icon": {
+    "registryName": "chisel:futura",
+    "meta": 2
+  }
+}

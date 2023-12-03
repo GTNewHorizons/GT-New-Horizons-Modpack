@@ -1,0 +1,11 @@
+{
+  "id": "elven_gateway",
+  "condition": {
+    "type": "achievement",
+    "id": "elven_gateway"
+  },
+  "model": {
+    "type": "item",
+    "registryName": "Botania:alfheimPortal"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "thaumatorium",
+  "condition": {
+    "type": "achievement",
+    "id": "thaumatorium"
+  },
+  "model": {
+    "type": "item",
+    "registryName": "Thaumcraft:blockMetalDevice",
+    "meta": 9
+  }
+}

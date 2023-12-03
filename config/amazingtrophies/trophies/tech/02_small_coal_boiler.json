@@ -1,0 +1,13 @@
+{
+  "id": "small_coal_boiler",
+  "condition": {
+    "type": "achievement",
+    "id": "small_coal_boiler"
+  },
+  "model": {
+    "type": "item",
+    "registryName": "gregtech:gt.blockmachines",
+    "meta": 100,
+    "yawOffset": 180.0
+  }
+}
