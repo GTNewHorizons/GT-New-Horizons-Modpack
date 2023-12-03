@@ -1,0 +1,13 @@
+{
+  "id": "deep_dark",
+  "condition": {
+    "type": "dimension.join",
+    "id": 100
+  },
+  "page": "GT New Horizons",
+  "x": 11,
+  "y": 0,
+  "icon": {
+    "registryName": "ExtraUtilities:dark_portal"
+  }
+}

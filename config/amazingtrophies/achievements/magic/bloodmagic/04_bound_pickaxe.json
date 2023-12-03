@@ -1,0 +1,13 @@
+{
+  "id": "bound_pickaxe",
+  "condition": {
+    "type": "item.pickup",
+    "item": "AWWayofTime:boundPickaxe"
+  },
+  "page": "GT New Horizons",
+  "x": 0,
+  "y": 0,
+  "icon": {
+    "registryName": "AWWayofTime:boundPickaxe"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "mothership",
+  "condition": {
+    "type": "achievement",
+    "id": "mothership"
+  },
+  "model": {
+    "type": "item",
+    "registryName": "GalacticraftAmunRa:tile.machines1",
+    "meta": 2,
+    "yawOffset": 90.0
+  }
+}

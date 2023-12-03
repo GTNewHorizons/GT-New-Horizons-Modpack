@@ -1,0 +1,15 @@
+{
+  "id": "small_coal_boiler",
+  "condition": {
+    "type": "item.pickup",
+    "item": "gregtech:gt.blockmachines",
+    "meta": 100
+  },
+  "page": "GT New Horizons",
+  "x": -4,
+  "y": -5,
+  "icon": {
+    "registryName": "gregtech:gt.blockmachines",
+    "meta": 100
+  }
+}

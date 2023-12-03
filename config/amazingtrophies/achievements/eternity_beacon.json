@@ -1,0 +1,11 @@
+{
+  "id": "eternity_beacon",
+  "_condition": "Handled via code (NHCore)",
+  "page": "GT New Horizons",
+  "x": 9,
+  "y": 2,
+  "icon": {
+    "registryName": "gregtech:gt.blockmetal9",
+    "meta": 9
+  }
+}

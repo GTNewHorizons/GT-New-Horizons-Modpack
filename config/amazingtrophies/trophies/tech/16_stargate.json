@@ -1,0 +1,11 @@
+{
+  "id": "stargate",
+  "condition": {
+    "type": "achievement",
+    "id": "stargate"
+  },
+  "model": {
+    "type": "item",
+    "registryName": "TwilightForest:tile.TFPortal"
+  }
+}

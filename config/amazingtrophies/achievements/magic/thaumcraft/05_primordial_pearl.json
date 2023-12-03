@@ -1,0 +1,16 @@
+{
+  "id": "primordial_pearl",
+  "condition": {
+    "type": "item.pickup",
+    "item": "Thaumcraft:ItemEldritchObject",
+    "meta": 3
+  },
+  "page": "GT New Horizons",
+  "x": 2,
+  "y": 4,
+  "isSpecial": true,
+  "icon": {
+    "registryName": "Thaumcraft:ItemEldritchObject",
+    "meta": 3
+  }
+}

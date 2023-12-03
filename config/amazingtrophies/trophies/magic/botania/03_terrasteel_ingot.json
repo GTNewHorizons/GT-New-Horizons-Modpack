@@ -1,0 +1,12 @@
+{
+  "id": "terrasteel_ingot",
+  "condition": {
+    "type": "achievement",
+    "id": "terrasteel_ingot"
+  },
+  "model": {
+    "type": "item",
+    "registryName": "Botania:manaResource",
+    "meta": 4
+  }
+}

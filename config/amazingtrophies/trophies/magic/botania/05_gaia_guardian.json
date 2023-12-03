@@ -1,0 +1,12 @@
+{
+  "id": "gaia_guardian",
+  "condition": {
+    "type": "achievement",
+    "id": "gaia_guardian"
+  },
+  "model": {
+    "type": "item",
+    "registryName": "Botania:manaResource",
+    "meta": 5
+  }
+}

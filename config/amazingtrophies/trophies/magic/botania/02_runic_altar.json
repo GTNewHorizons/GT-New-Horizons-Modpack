@@ -1,0 +1,11 @@
+{
+  "id": "runic_altar",
+  "condition": {
+    "type": "achievement",
+    "id": "runic_altar"
+  },
+  "model": {
+    "type": "item",
+    "registryName": "Botania:runeAltar"
+  }
+}

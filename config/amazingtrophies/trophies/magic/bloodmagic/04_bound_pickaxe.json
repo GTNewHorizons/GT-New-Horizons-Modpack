@@ -1,0 +1,11 @@
+{
+  "id": "bound_pickaxe",
+  "condition": {
+    "type": "achievement",
+    "id": "bound_pickaxe"
+  },
+  "model": {
+    "type": "item",
+    "registryName": "AWWayofTime:boundPickaxe"
+  }
+}

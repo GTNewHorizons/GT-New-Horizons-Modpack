@@ -1,0 +1,12 @@
+{
+  "id": "blood_altar",
+  "condition": {
+    "type": "achievement",
+    "id": "blood_altar"
+  },
+  "model": {
+    "type": "item",
+    "registryName": "AWWayofTime:Altar",
+    "yOffset": -0.1875
+  }
+}

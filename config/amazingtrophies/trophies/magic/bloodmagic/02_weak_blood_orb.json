@@ -1,0 +1,11 @@
+{
+  "id": "weak_blood_orb",
+  "condition": {
+    "type": "achievement",
+    "id": "weak_blood_orb"
+  },
+  "model": {
+    "type": "item",
+    "registryName": "AWWayofTime:weakBloodOrb"
+  }
+}

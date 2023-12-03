@@ -1,0 +1,12 @@
+{
+  "id": "real_bottled_jaegermeister",
+  "condition": {
+    "type": "achievement",
+    "id": "real_bottled_jaegermeister"
+  },
+  "model": {
+    "type": "item",
+    "registryName": "berriespp:BppPotions",
+    "meta": 8
+  }
+}

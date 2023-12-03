@@ -1,0 +1,33 @@
+{
+  "id": "cleanroom",
+  "condition": {
+    "type": "achievement",
+    "id": "cleanroom"
+  },
+  "model": {
+    "type": "complex",
+    "keys": {
+      "A": "IC2:blockAlloyGlass",
+      "B": "gregtech:gt.blockcasings3",
+      "C": "gregtech:gt.blockreinforced",
+      "D": "gregtech:gt.blockmachines",
+      "E": "gregtech:gt.blockmachines",
+      "~": "gregtech:gt.blockmachines"
+    },
+    "metadata": {
+      "A": 0,
+      "B": 11,
+      "C": 2,
+      "D": 4127,
+      "E": 1182,
+      "~": 1172
+    },
+    "structure": [
+      [ "CCCCC", "CAAAC", "CAAAC", "CAAAC", "CCCCC", "D   D" ],
+      [ "CBBBC", "C   C", "C   C", "C   C", "CCCCC", "     " ],
+      [ "CB~BC", "C   C", "C   C", "C   C", "CCCCC", "     " ],
+      [ "CBBBC", "C   C", "C   C", "C E C", "CCCCC", "     " ],
+      [ "CCCCC", "CCCCC", "CCCCC", "CCCCC", "CCCCC", "D   D" ]
+    ]
+  }
+}

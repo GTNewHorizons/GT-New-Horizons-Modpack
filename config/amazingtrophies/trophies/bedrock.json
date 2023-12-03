@@ -1,0 +1,11 @@
+{
+  "id": "bedrock",
+  "condition": {
+    "type": "achievement",
+    "id": "bedrock"
+  },
+  "model": {
+    "type": "item",
+    "registryName": "minecraft:bedrock"
+  }
+}

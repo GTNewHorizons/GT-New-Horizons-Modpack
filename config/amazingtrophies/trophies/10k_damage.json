@@ -1,0 +1,12 @@
+{
+  "id": "10k_damage",
+  "condition": {
+    "type": "achievement",
+    "id": "10k_damage"
+  },
+  "model": {
+    "type": "item",
+    "registryName": "battlegear2:shield.diamond",
+    "yawOffset": 180.0
+  }
+}

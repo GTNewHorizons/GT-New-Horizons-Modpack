@@ -1,0 +1,23 @@
+{
+  "id": "nuclear_reactor",
+  "condition": {
+    "type": "achievement",
+    "id": "nuclear_reactor"
+  },
+  "model": {
+    "type": "complex",
+    "keys": {
+      "A": "IC2:blockReactorChamber",
+      "B": "IC2:blockGenerator"
+    },
+    "metadata": {
+      "A": 0,
+      "B": 5
+    },
+    "structure": [
+      ["   ", " A ", "   "],
+      [" A ", "ABA", " A "],
+      ["   ", " A ", "   "]
+    ]
+  }
+}

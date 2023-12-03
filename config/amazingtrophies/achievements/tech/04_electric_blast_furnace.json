@@ -1,0 +1,15 @@
+{
+  "id": "electric_blast_furnace",
+  "condition": {
+    "type": "item.pickup",
+    "item": "gregtech:gt.blockmachines",
+    "meta": 1000
+  },
+  "page": "GT New Horizons",
+  "x": 0,
+  "y": -5,
+  "icon": {
+    "registryName": "gregtech:gt.blockmachines",
+    "meta": 1000
+  }
+}

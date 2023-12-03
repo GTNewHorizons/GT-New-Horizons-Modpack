@@ -1,0 +1,13 @@
+{
+  "id": "dezils_marshmallow",
+  "condition": {
+    "type": "item.use.finish",
+    "item": "DraconicEvolution:dezilsMarshmallow"
+  },
+  "page": "GT New Horizons",
+  "x": 5,
+  "y": 2,
+  "icon": {
+    "registryName": "DraconicEvolution:dezilsMarshmallow"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "me_controller",
+  "condition": {
+    "type": "achievement",
+    "id": "me_controller"
+  },
+  "model": {
+    "type": "item",
+    "registryName": "chisel:futura",
+    "meta": 2
+  }
+}

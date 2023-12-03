@@ -1,0 +1,10 @@
+{
+  "id": "omega_armor",
+  "_condition": "Handled via code (NHCore)",
+  "page": "GT New Horizons",
+  "x": 11,
+  "y": 4,
+  "icon": {
+    "registryName": "AWWayofTime:boundPlateEarth"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "tier_1_rocket",
+  "condition": {
+    "type": "achievement",
+    "id": "tier_1_rocket"
+  },
+  "model": {
+    "type": "item",
+    "registryName": "GalacticraftCore:item.spaceship",
+    "scale": 1.0,
+    "yOffset": 0.0
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "fusion_reactor_mk1",
+  "condition": {
+    "type": "item.pickup",
+    "item": "gregtech:gt.blockmachines",
+    "meta": 1193
+  },
+  "page": "GT New Horizons",
+  "x": -4,
+  "y": -3,
+  "icon": {
+    "registryName": "gregtech:gt.blockmachines",
+    "meta": 1193
+  }
+}

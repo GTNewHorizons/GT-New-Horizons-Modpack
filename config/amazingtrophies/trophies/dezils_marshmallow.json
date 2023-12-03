@@ -1,0 +1,11 @@
+{
+  "id": "dezils_marshmallow",
+  "condition": {
+    "type": "achievement",
+    "id": "dezils_marshmallow"
+  },
+  "model": {
+    "type": "item",
+    "registryName": "DraconicEvolution:dezilsMarshmallow"
+  }
+}

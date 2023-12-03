@@ -1,0 +1,31 @@
+{
+  "id": "assembling_line",
+  "condition": {
+    "type": "achievement",
+    "id": "assembling_line"
+  },
+  "model": {
+    "type": "complex",
+    "keys": {
+      "A": "gregtech:gt.blockcasings2",
+      "B": "gregtech:gt.blockcasings3",
+      "C": "IC2:blockAlloyGlass",
+      "D": "gregtech:gt.blockcasings2",
+      "~": "gregtech:gt.blockmachines"
+    },
+    "metadata": {
+      "A": 0,
+      "B": 10,
+      "C": 0,
+      "D": 5,
+      "~": 1170
+    },
+    "transpose": true,
+    "structure": [
+      ["                ", "AAAAAAAAAAAAAAAA", "                "],
+      ["~BBBBBBBBBBBBBBB", "AAAAAAAAAAAAAAAA", "BBBBBBBBBBBBBBBB"],
+      ["CCCCCCCCCCCCCCCC", "DDDDDDDDDDDDDDDD", "CCCCCCCCCCCCCCCC"],
+      ["AAAAAAAAAAAAAAAA", "AAAAAAAAAAAAAAAA", "AAAAAAAAAAAAAAAA"]
+    ]
+  }
+}

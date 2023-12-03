@@ -1,0 +1,15 @@
+{
+  "id": "coke_oven",
+  "condition": {
+    "type": "item.pickup",
+    "item": "Railcraft:machine.alpha",
+    "meta": 7
+  },
+  "page": "GT New Horizons",
+  "x": -6,
+  "y": -5,
+  "icon": {
+    "registryName": "Railcraft:machine.alpha",
+    "meta": 7
+  }
+}

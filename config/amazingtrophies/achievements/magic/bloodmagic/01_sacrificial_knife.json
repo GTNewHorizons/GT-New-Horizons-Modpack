@@ -1,0 +1,13 @@
+{
+  "id": "sacrificial_knife",
+  "condition": {
+    "type": "item.pickup",
+    "item": "AWWayofTime:sacrificialKnife"
+  },
+  "page": "GT New Horizons",
+  "x": -6,
+  "y": 0,
+  "icon": {
+    "registryName": "AWWayofTime:sacrificialKnife"
+  }
+}

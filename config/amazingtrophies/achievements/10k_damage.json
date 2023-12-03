@@ -1,0 +1,10 @@
+{
+  "id": "10k_damage",
+  "_condition": "Handled via code (NHCore)",
+  "page": "GT New Horizons",
+  "x": 5,
+  "y": 0,
+  "icon": {
+    "registryName": "battlegear2:shield.diamond"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "elven_gateway",
+  "condition": {
+    "type": "achievement",
+    "id": "elven_gateway"
+  },
+  "model": {
+    "type": "complex",
+    "keys": {
+      "A": "Botania:pool",
+      "B": "Botania:livingwood",
+      "C": "Botania:pylon",
+      "D": "Botania:livingwood",
+      "~": "Botania:alfheimPortal"
+    },
+    "metadata": {
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 5,
+      "~": 0
+    },
+    "transpose": true,
+    "structure": [
+      ["       ", "       ", "       ", "  BDB  "],
+      ["       ", "       ", "       ", " B   B "],
+      ["       ", "       ", "       ", " D   D "],
+      ["C     C", "       ", "       ", " B   B "],
+      ["A     A", "       ", "       ", "  B~B  "]
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "mana_pool",
+  "condition": {
+    "type": "achievement",
+    "id": "mana_pool"
+  },
+  "model": {
+    "type": "item",
+    "registryName": "Botania:pool"
+  }
+}

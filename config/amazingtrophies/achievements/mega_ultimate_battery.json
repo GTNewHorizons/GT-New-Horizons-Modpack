@@ -1,0 +1,17 @@
+{
+  "id": "mega_ultimate_battery",
+  "condition": {
+    "type": "item.pickup",
+    "item": "gregtech:gt.metaitem.01",
+    "meta": 32146,
+    "nbt": "{GT.ItemCharge: 9223372036854775807L}"
+  },
+  "page": "GT New Horizons",
+  "x": 5,
+  "y": 4,
+  "icon": {
+    "registryName": "gregtech:gt.metaitem.01",
+    "meta": 32146,
+    "nbt": "{GT.ItemCharge: 9223372036854775807L}"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "nuclear_reactor",
+  "condition": {
+    "type": "container.open",
+    "containers": "ic2.core.block.reactor.container.ContainerNuclearReactor"
+  },
+  "page": "GT New Horizons",
+  "x": 7,
+  "y": 4,
+  "icon": {
+    "registryName": "IC2:blockGenerator",
+    "meta": 5
+  }
+}

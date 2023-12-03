@@ -1,0 +1,12 @@
+{
+  "id": "100_hearts",
+  "condition": {
+    "type": "achievement",
+    "id": "100_hearts"
+  },
+  "model": {
+    "type": "item",
+    "registryName": "TConstruct:heartCanister",
+    "meta": 5
+  }
+}

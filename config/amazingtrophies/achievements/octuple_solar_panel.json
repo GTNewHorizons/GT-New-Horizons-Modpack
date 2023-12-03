@@ -1,0 +1,15 @@
+{
+  "id": "octuple_solar_panel",
+  "condition": {
+    "type": "item.pickup",
+    "item": "EMT:EMTSolars4",
+    "meta": 12
+  },
+  "page": "GT New Horizons",
+  "x": 9,
+  "y": 4,
+  "icon": {
+    "registryName": "EMT:EMTSolars4",
+    "meta": 12
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "dyson_swarm",
+  "condition": {
+    "type": "item.pickup",
+    "item": "gregtech:gt.blockmachines",
+    "meta": 14001
+  },
+  "page": "GT New Horizons",
+  "x": 4,
+  "y": -3,
+  "icon": {
+    "registryName": "gregtech:gt.blockmachines",
+    "meta": 14001
+  }
+}

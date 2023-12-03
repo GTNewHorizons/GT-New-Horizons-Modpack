@@ -1,0 +1,13 @@
+{
+  "id": "blood_altar",
+  "condition": {
+    "type": "item.pickup",
+    "item": "AWWayofTime:Altar"
+  },
+  "page": "GT New Horizons",
+  "x": -2,
+  "y": 0,
+  "icon": {
+    "registryName": "AWWayofTime:Altar"
+  }
+}

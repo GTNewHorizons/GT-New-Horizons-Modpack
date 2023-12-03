@@ -1,0 +1,12 @@
+{
+  "id": "unbreakable_tconstruct_tool",
+  "condition": {
+    "type": "achievement",
+    "id": "unbreakable_tconstruct_tool"
+  },
+  "model": {
+    "type": "item",
+    "registryName": "TConstruct:hammer",
+    "nbt": "{InfiTool: {RenderExtra: 11, RenderHead: 10, RenderHandle: 8, RenderAccessory: 11}}"
+  }
+}
