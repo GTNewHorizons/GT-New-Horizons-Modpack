@@ -40,7 +40,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "By adding Hydrogen to sulfuric Heavy Fuel in a Chemical Reactor you can produce Heavy Fuel, with a burn value of 240,000 EU per cell! Aside from this, it\u0027s also required for Diesel, in MV, which is a better fuel, and it can also be distilled into three very useful fluids: Benzene, Toluene and Phenol.\n\nIt\u0027s honestly not especially efficient to make Heavy Fuel out of regular Oil. You should try to get Heavy Oil to make it, like from Oilsands Ore in MV once you can. Then use it to make Diesel."
+      "desc:8": "By adding Hydrogen to sulfuric Heavy Fuel in a Chemical Reactor you can produce Heavy Fuel, with a burn value of 240,000 EU per cell! Aside from this, it\u0027s also required for Diesel, in MV, which is a better fuel, and it can also be distilled into three very useful fluids: Benzene, Toluene and Phenol.\n\nIf you want to use Heavy Fuel as a power source, you will need Semi-Fluid generators, unlike Light Fuel and Diesel which use Combustion generators.\n\nIt\u0027s honestly not especially efficient to make Heavy Fuel out of regular Oil. You should try to get Heavy Oil to make it, like from Oilsands Ore in MV once you can. Then use it to make Diesel."
     }
   },
   "tasks:9": {
