@@ -462,11 +462,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAEA.desc=Storing more than 16 buckets of
 
 # Quest: Welcome to Tier 0.5, Steam!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAALA.name=§3§lWelcome to Tier 0.5, Steam!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAALA.desc=Welcome, and well done so far! This tier is all about your first machines, getting more stuff from your ores and making bronze ingots in a more efficient manner.%n%nFor water, check out the Water Siding Tank multiblock in the Multiblock goals tab.%n%nTo connect up your boilers, be sure to provide water from the bottom, they'll accept only water from this side, so no risk of melting your pipe. Wooden pipes are fine for this. Make sure you never run out of water - adding water to a hot boiler will cause it to explode!%n%nSteam will come out from the sides. Remember, steam is hot! It will destroy wooden pipes. And it can burn you if you walk on bronze pipes full of steam.  Cover them with wooden planks or paper. Or just don't walk on/next to them.%n%nAnd no, you can't automate it. Make an electric one if you want to do that.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAALA.desc=Welcome, and well done so far! This tier is all about your first machines, getting more stuff from your ores and making bronze ingots in a more efficient manner.%n%nFor water, check out the Water Siding Tank multiblock in the Multiblock goals tab.%n%nTo connect up your boilers, be sure to provide water from the bottom, they'll accept only water from this side, so no risk of melting your pipe. Wooden pipes are fine for this. Make sure you never run out of water - §4adding water to a dry hot boiler will cause it to explode!§r%n%nSteam will come out from the sides. Remember, steam is hot! It will destroy wooden pipes. And it can burn you if you walk on bronze pipes full of steam.  Cover them with wooden planks or paper. Or just don't walk on/next to them.%n%nAnd no, you can't automate it. Make an electric one if you want to do that.
 
 # Quest: More Advanced Alloys
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAALg.name=§3§lMore Advanced Alloys
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAALg.desc=Your smeltery does a great job mixing metals into alloys, but it's not very efficient, and limited in its complexity. You need something new, so why not put your steam to some use? The Alloy Smelter can make bronze for you directly, using ingots, dusts, or even nuggets. You can make a nugget mold as well to turn ingots into nuggets if you have steel.%n%nIt might also come in handy when processing raw rubber. You should keep an eye on recipes to see when machines offer better options to make items...%n%n§4NOTE: Like all steam machines, the output port doubles as a steam outlet when recipes complete. It must not be blocked. Also, steam is hot, remember? Change the output side by whacking with a wrench. The 3x3 grid will show you which side the output will move to when you whack it.%n%nIf you try enabling item output, you'll see it comes out the same side as the steam outlet. How unfortunate! However you can still empty the machine by putting a hopper beneath it. %n%nWARNING: The Alloy Smelter recipes take a §llot§r of steam. Do them one by one until you understand how fast you use steam, and how much you will need buffered. Large pipes are a decent "poor mans" buffer, and the boiler can hold quite a bit of steam, as well as the machine itself. Once you get a little further along, make a larger steam buffer with an iron or steel railcraft tank.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAALg.desc=Your smeltery does a great job mixing metals into alloys, but it's not very efficient, and limited in its complexity. You need something new, so why not put your steam to some use? The Alloy Smelter can make bronze for you directly, using ingots, dusts, or even nuggets. You can make a nugget mold as well to turn ingots into nuggets if you have steel.%n%nIt might also come in handy when processing raw rubber. You should keep an eye on recipes to see when machines offer better options to make items...%n%n§3NOTE: Like all steam machines, the output port is a steam outlet when recipes complete. It must not be blocked. Also, steam is hot, remember? Change the output side by whacking the machine with a wrench. The 3x3 grid will show you which side the output will move to when you whack it.§r%n%nYou can empty the machine by putting a hopper beneath it.%n%n§4WARNING: The Alloy Smelter recipes take a §llot§r§4 of steam.§r Do them one by one until you understand how fast you use steam, and how much you will need buffered. Large pipes are a decent "poor man's" buffer, and the boiler can hold quite a bit of steam, as well as the machine itself. Once you get a little further along, make a larger steam buffer with an iron or steel railcraft tank.
 
 # Quest: Upgrade: High Speed Alloys
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAALw.name=§3§lUpgrade: High Speed Alloys
@@ -482,7 +482,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAMQ.desc=In order to get more machines, 
 
 # Quest: Macerator v1.0!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAMg.name=§3§lMacerator v1.0!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAMg.desc=Finally you are able to make a device that will replace your mortar. However, the "no-durability" feature of this device comes with a cost: You need 2 diamonds for the grinding heads.%n%nThe macerator will double your ore output. Put ores through it instead of smelting directly.%n%nNOTE: Remember, don't block the output port and don't stand behind it.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAMg.desc=Finally you are able to make a device that will replace your mortar. However, the "no-durability" feature of this device comes with a cost: You need 2 diamonds for the grinding heads.%n%nThe macerator will double your ore output. Put ores through it instead of smelting directly.%n%n§3NOTE: Remember, don't block the output port and don't stand behind it.§r
 
 # Quest: Extracting Stuff
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAMw.name=§3§lExtracting Stuff
@@ -518,7 +518,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAOg.desc=An updated version of the steam
 
 # Quest: Steam Alternatives
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAOw.name=§3§lSteam Alternatives
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAOw.desc=There is more than one way to get steam for your machines. This completely optional questline shows you some alternative methods for producing steam.%n%n§3For the ones that need glass, you'll need to progress a few more quests to see how to do so, though you can also make it now if you want.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAOw.desc=There is more than one way to get steam for your machines. This completely optional questline shows you some alternative methods for producing steam.%n%n§3For the ones that need glass, you'll need to progress a few more quests to see how to do so, though you can also make it now if you know how to use NEI to find the recipe.
 
 # Quest: Upgrade: Coal Boiler
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAPA.name=§3§lUpgrade: Coal Boiler
@@ -530,7 +530,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAPQ.desc=Your Lava boiler has been updat
 
 # Quest: The Power of the Sun
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAPg.name=§3§lThe Power of the Sun
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAPg.desc=The sun has quite a bit of power, so why not use it to produce steam? %n%nFill it with water on the bottom side to produce steam. Unlike the other boilers, this only outputs steam on the output port side.%n%n§4Hint: The solar boiler calcifies and becomes less efficient over time. Later on you can consider using distilled water to avoid calcification.%n%n§3You'll need silver from the Twilight Forest (LV+) or from small ores for this.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAPg.desc=The sun has quite a bit of power, so why not use it to produce steam?%n%nFill it with water on the bottom side to produce steam. Unlike the other boilers, this only outputs steam on the output port side.%n%n§3Hint: The solar boiler calcifies and becomes less efficient over time - §4ending up at zero steam production!§3 Later on you can consider using distilled water to avoid calcification.%n%n§3You'll need silver from the Twilight Forest (LV+) or from small ores for this.
 
 # Quest: Using Steam to Cook Things
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAPw.name=§3§lUsing Steam to Cook Things
@@ -602,7 +602,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAB8A.desc=Making rubber is now more compl
 
 # Quest: Lit Way to Get Charred
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB8Q.name=§4§3§lLit Way to Get Charred
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAB8Q.desc=You have found an alternative way of making charcoal with a "charcoal pile igniter". %nGo and start getting massive amounts of charcoal.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAB8Q.desc=You have found an alternative way of making charcoal with a "charcoal pile igniter".%n%nGo and start getting massive amounts of charcoal.%n%nIf this is your first multiblock, look at the extended tooltip (hold shift) or visit §9§n[url]https://wiki.gtnewhorizons.com/wiki/Charcoal_Pile_Igniter[/url]§r to see how to make it work.
 
 # Quest: Pollution What....?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACFg.name=§4§3§lPollution What....?
@@ -622,11 +622,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACVA.desc=It's upgrade time. Unlock redst
 
 # Quest: Moving Your Tanks, Chests, and Barrels
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACcQ.name=§3§lMoving Your Tanks, Chests, and Barrels
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACcQ.desc=Want to move your chests and barrels without spilling all the things (buildcraft™)? No problem! Make a dolly and you can carry your full chests, barrels or storage drawers anywhere you want. But be warned, you will get a slowness debuff so hopefully you don't have to travel very far. Non-portable buildcraft and iron tanks can be moved without losing fluids too.%n%nShift right click an empty dolly to collapse it. It won't carry anything until you unfold it, but it will stack and can go in your backpack.%n%n§4PS: Later on you can fly or make a traveller's belt to get around the debuff.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACcQ.desc=Want to move your chests and barrels without spilling all the things (buildcraft™)? No problem! Make a dolly and you can carry your full chests, barrels or storage drawers anywhere you want. But be warned, you will get a slowness debuff so hopefully you don't have to travel very far. Non-portable buildcraft and iron tanks can be moved without losing fluids too.%n%nShift right click an empty dolly to collapse it. It won't carry anything until you unfold it, but it will stack and can go in your backpack.%n%n§3PS: Later on you can fly or make a traveller's belt to get around the debuff.§r
 
 # Quest: One Anvil... Better Make That Two!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACtg.name=§3§lOne Anvil... Better Make That Two!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACtg.desc=With your brand-new Compressor you are able to make some metal blocks for your new anvil. Better craft two anvils, one will be required for the forge hammer.%n%n§4With the anvil you can repair, rename and enchant armor and tools.%n
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACtg.desc=With your brand-new Compressor you are able to make some metal blocks for your new anvil. Better craft two anvils, one will be required for the forge hammer.%n%n§3With the anvil you can repair, rename and enchant armor and tools.§r
 
 # Quest: Accelerated Plant Growth
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACwQ.name=§3§lAccelerated Plant Growth
@@ -742,7 +742,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEtQ.desc=Hoppers come in handy when you 
 
 # Quest: Making a List, Checking it Twice
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF4w.name=§4§3§lMaking a List, Checking it Twice
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF4w.desc=As your base grows, you're going to have a dozen different long term goals each with many steps. Build a clipboard to keep track of what you need to do.%n%n§4Hint: You can put the clipboard on a wall using Shift-Rightclick. 
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF4w.desc=As your base grows, you're going to have a dozen different long term goals each with many steps. Build a clipboard to keep track of what you need to do.%n%n§3Hint: You can put the clipboard on a wall using Shift-Rightclick.§r
 
 # Quest: I Ain't Afraid of no Ghost!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGAA.name=§3§lI Ain't Afraid of no Ghost!
@@ -810,7 +810,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJKg.desc=Once you have the required mate
 
 # Quest: HP Solar Boilers
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJVQ.name=§3§lHP Solar Boilers
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJVQ.desc=Once you have some steam machines, you can make HP solar boilers. They have more steam output per second. Otherwise they are the same as normal solar boilers.%n%nFill it with water on the bottom side to produce steam. Unlike the other boilers, this only outputs steam on the output port side.%n%n§4Hint: The solar boiler calcifies and becomes less efficient over time. Later on you can consider using distilled water to avoid calcification.%n%n§3You'll need silver from the Twilight Forest (LV+) or from small ores for this.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJVQ.desc=Once you have some steam machines, you can make HP solar boilers. They have more steam output per second. Otherwise they are the same as normal solar boilers.%n%nFill it with water on the bottom side to produce steam. Unlike the other boilers, this only outputs steam on the output port side.%n%n§3Hint: The solar boiler calcifies and becomes less efficient over time - but it will only drop to 120L/s, §4not zero§3 like the low pressure ones. Later on you can consider using distilled water to avoid calcification.%n%n§3You'll need silver from the Twilight Forest (LV+) or from small ores for this.
 
 # Quest: I Know His Name!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJXw.name=§3§lI Know His Name!
@@ -1327,7 +1327,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHfg.desc=Impossible! If you really think
 
 # Quest: Automated Crafting
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIXg.name=§5§lAutomated Crafting
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIXg.desc=The Auto Workbench is a simple automated crafting system. You place ghost items in the grid to create the recipe, and place components in the inventory. They will slowly be converted into the crafted item. While not fast and can only do 1 recipe each, it does support automation - only items acceptable to the recipe is allowed in the inventory. It does not use power.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIXg.desc=The Auto Workbench is a simple automated crafting system. You place ghost items in the grid to create the recipe, and place components in the inventory. They will slowly be converted into the crafted item. While not fast and can only do 1 recipe each, it does support automation - only items acceptable to the recipe are allowed in the inventory. It does not use power.
 
 # Quest: Choices, Choices
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIXw.name=§5§lChoices, Choices
@@ -4578,7 +4578,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACmg.desc=You live close to the water and
 
 # Quest: Trainspotting
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACmw.name=Trainspotting
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACmw.desc=The wooden tracks can be made without any machine, though always check NEI for assembler recipes for discounts. Functionally equivalent to normal rails, but with a lower maximum speed (for safety reasons).%n%nHint: You can use your wooden rails for Steve's Carts farms.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACmw.desc=The wooden tracks can be made without any machine, though always check NEI for assembler recipes for discounts. Functionally equivalent to normal rails, but with a lower maximum speed (for safety reasons).%n%n§3Hint: You can use your wooden rails for Steve's Carts farms.§r
 
 # Quest: Rubber Boat
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACnA.name=Rubber Boat
