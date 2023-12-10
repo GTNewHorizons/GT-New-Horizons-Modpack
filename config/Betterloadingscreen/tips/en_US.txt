@@ -49,9 +49,9 @@ Tinker's faucets can pour fluids and also gasses(!) into containers
 Beware of pollution!
 Found a bug? Report it on GitHub
 Tinker's smeltery does not double ores
-Be sure to check out the wiki: gtnh.miraheze.org
+Be sure to check out the wiki: wiki.gtnewhorizons.com
 Perditio and vanadiumsteel picks and hammers are really fast
-Look for ore chunks
+Look for ore chunks by pressing F9 three times
 Nerfs incoming!
 You can plant oreberries on cropsticks
 IC2 Crops can receive bonus environmental statistics based on biome
@@ -61,7 +61,7 @@ Steam in pipes or coming out of machines hurts!
 You can apply Fortune to brittle charcoal if using the Charcoal Pile Igniter
 Pay attention to Voltage and Amperage of cables and machines!
 Warp is no fun, got a wither in your base already?
-There are fifteen Voltage tiers: from ULV(8V) to MAX(2147483647V)
+There are fourteen Voltage tiers: from LV(32V) to MAX(2147483647V)
 Going one Voltage tier up, means quadrupling Voltage requirements
 Ten first Voltage tiers are fully implemented
 Shift-click with a GT-Block on a cable/pipe/etc to auto-connect it
@@ -101,7 +101,7 @@ Don't break rubber trees without a treetap
 Make Muffler Moint Mup (Point up)
 Your EBF won't work if the muffler doesn't point to the sky!
 Eating too many of the same food will make you hate it!
-Remember to check if there are Natura clouds when you launch a rocket!
+#Remember to check if there are Natura clouds when you launch a rocket!
 Abandon all vanilla knowledge all ye who enter here
 With the power of Duct Tape, I solved all of your maintenance problems!
 When you open a Twilight Portal, you'll get hit by lightning
@@ -124,10 +124,10 @@ Meta-Tip! You can see the list of loading screen tips in the config
 Hahahaha, coin quests go brrrrrrr
 If you're making a Project Red system, make sure to use a wall of drawers!
 How many circuits have you crafted in your life?
-JOURNEYMAP: PRESS[j]
+JourneyMap: Press [J]
 Not by Vazkii
 sqrt(-1) loves you!
-(MultiMC > Curse) && (Technic > Curse): true
+(MultiMC || Prism > Curse) && (Technic > Curse): true
 All you had to do was follow the damn quest line, CJ!
 Click on an item in the quest book to show its recipe in NEI
 Why not visit GregTech? We have... microcrafting
