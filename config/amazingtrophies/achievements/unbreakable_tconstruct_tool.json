@@ -1,10 +1,6 @@
 {
   "id": "unbreakable_tconstruct_tool",
-  "condition": {
-    "type": "item.pickup",
-    "item": "TConstruct:hammer",
-    "nbt": "{InfiTool: {Unbreaking: 10}}"
-  },
+  "_condition": "Handled via code (NHCore)",
   "page": "GT New Horizons",
   "x": 7,
   "y": 6,
