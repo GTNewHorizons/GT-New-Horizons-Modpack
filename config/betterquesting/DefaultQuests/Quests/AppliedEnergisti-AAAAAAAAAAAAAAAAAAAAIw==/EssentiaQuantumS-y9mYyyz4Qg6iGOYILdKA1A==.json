@@ -1,12 +1,12 @@
 {
-  "questIDHigh:4": -7285184593146002354,
+  "questIDHigh:4": -3757804415663717874,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 2731689745124969882,
       "questIDLow:4": -4696434011398522032
     }
   },
-  "questIDLow:4": -7970087171322955045,
+  "questIDLow:4": -6766405517321273132,
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
@@ -18,7 +18,7 @@
         "id:8": "thaumicenergistics:storage.essentia",
         "Count:3": 1,
         "tag:10": {},
-        "Damage:2": 4,
+        "Damage:2": 9,
         "OreDict:8": ""
       },
       "snd_update:8": "random.levelup",
@@ -26,11 +26,11 @@
       "globalShare:1": 0,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "Thaumometric Essentia Cell",
+      "name:8": "Essentia Quantum Storage",
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Contains infinite essentia for all your thaumic crafting needs"
+      "desc:8": "Seems you really want to swim in essentia?"
     }
   },
   "tasks:9": {
@@ -46,7 +46,7 @@
           "id:8": "thaumicenergistics:storage.essentia",
           "Count:3": 1,
           "tag:10": {},
-          "Damage:2": 4,
+          "Damage:2": 9,
           "OreDict:8": ""
         }
       },
