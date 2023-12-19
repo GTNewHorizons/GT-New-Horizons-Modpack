@@ -31,7 +31,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "The GNTH pack is made for the Realistic World Generator (RWG).\n \nIf your setup uses the vanilla-biomes worldgen, you will get huge Mushroom biomes over the map. If you have this problem, please generate a new world with the RWG. \n\nIf you met this problem on a server, put \"level-type\u003drwg\" into the server.properties file and generate a new world."
+      "desc:8": "The GTNH pack is made for the Realistic World Generator (RWG).\n \nIf your setup uses the vanilla-biomes worldgen, you will get huge Mushroom biomes over the map. If you have this problem, please generate a new world with the RWG. \n\nIf you met this problem on a server, put \"level-type\u003drwg\" into the server.properties file and generate a new world."
     }
   },
   "tasks:9": {
