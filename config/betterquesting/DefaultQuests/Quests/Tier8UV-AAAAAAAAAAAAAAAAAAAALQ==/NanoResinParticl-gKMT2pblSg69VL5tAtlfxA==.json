@@ -12,7 +12,7 @@
       "snd_complete:8": "random.levelup",
       "taskLogic:8": "AND",
       "visibility:8": "NORMAL",
-      "isMain:1": 1,
+      "isMain:1": 0,
       "simultaneous:1": 0,
       "icon:10": {
         "id:8": "gregtech:gt.metaitem.01",
@@ -29,7 +29,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "nano resin quest describe"
+      "desc:8": "Arrange Nanites in P-507 and label them with target particle information in the high-energy laser beam environment of a laser engraver. Then we get the Extracting Unit called \"Nano Resin\" .\n\nThese Nanites automatically capture the target particles in solution and store them in the resin. It is worth noting that the actual production rate will be limited by the number of Nanites. So if you want to use this method to produce lanthanides in large quantities, you need to prepare more extra Nano Resin.\n\nHere are all 15 types of Extracting Nano Resin."
     }
   },
   "tasks:9": {
