@@ -8659,6 +8659,10 @@ betterquesting.quest.dSSmDusvSVSKi41Tnw51dA.desc=Every system takes power. A Log
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAIw.name=Applied Energistics
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAIw.desc=AE2 focuses on creating a compact, easily accessible, considerably extendible storage system called an ME Network. You can use it to autocraft items as well, and if you want to finish the pack, you will.
 
+# Quest: 16384k Essentia Storage Cell
+betterquesting.quest.iwN50p7pSyyCHDkM-O-D7w.name=16384k Essentia Storage Cell
+betterquesting.quest.iwN50p7pSyyCHDkM-O-D7w.desc=These hold 33,554,432 units of essentia.%n%nAnd can hold 60 types.
+
 # Quest: ...with Fluid Support!
 betterquesting.quest.mk3rQ7LUQjC96FsFvDedKA.name=§6§l...with Fluid Support!
 betterquesting.quest.mk3rQ7LUQjC96FsFvDedKA.desc=Now with fluid support!
@@ -8667,13 +8671,33 @@ betterquesting.quest.mk3rQ7LUQjC96FsFvDedKA.desc=Now with fluid support!
 betterquesting.quest.muXTNgpiRE6RZI_x7GW62w.name=Thaumometric Essentia Cell
 betterquesting.quest.muXTNgpiRE6RZI_x7GW62w.desc=Behold the §5Thaumometric Essentia Cell§r, your unlimited magic credit card. Feeling a little low on essentia? With this baby, you'll be rolling in it like a wizard in a potion shop! Try to run this well dry — dare ya, it's like trying to spend Bill Gates' fortune in a dollar store!
 
+# Quest: 256k Essentia Storage Cell
+betterquesting.quest.s2TL3i06Tb2WvPvdt1utyg.name=256k Essentia Storage Cell
+betterquesting.quest.s2TL3i06Tb2WvPvdt1utyg.desc=These hold 524,288 units of essentia.%n%nAnd can hold 24 types.
+
+# Quest: 1024k Essentia Storage Cell
+betterquesting.quest.tUJaqz9uSwajByFi4gNHzQ.name=1024k Essentia Storage Cell
+betterquesting.quest.tUJaqz9uSwajByFi4gNHzQ.desc=These hold 2,097,152 units of essentia.%n%nAnd can hold 36 types.
+
 # Quest: Fluid Quantum Storage
 betterquesting.quest.ylmHogskS-Kdhs9gFrCYmA.name=Fluid Quantum Storage
 betterquesting.quest.ylmHogskS-Kdhs9gFrCYmA.desc=Are you draining an ocean?
 
+# Quest: Essentia Quantum Storage
+betterquesting.quest.y9mYyyz4Qg6iGOYILdKA1A.name=Essentia Quantum Storage
+betterquesting.quest.y9mYyyz4Qg6iGOYILdKA1A.desc=Seems you really want to swim in essentia?
+
+# Quest: Need More Informations?
+betterquesting.quest.5ObFHI5BQ5Oxv0yca7morA.name=Need More Informations?
+betterquesting.quest.5ObFHI5BQ5Oxv0yca7morA.desc=A brand new tools for you amigo.%n%nThis little buddy not only have larger card slot than normal one,%nbut also can show more informations about your network storage.%n%nClick the component ico can switch in ITEM, FLUID, ESSEN detail.%n%n%n§4%nNOTE:%n|  unit  |      range     |%n|    B    |    0~2^10    |%n|   KB   | 2^10~2^20 |%n|   MB   | 2^20~2^30 |%n|   GB   | 2^30~2^40 |%n|   TB   | 2^40~2^50 |%n|   PB   | 2^50~2^60 |%n|   EB   | 2^60~2^70 |%n|   ZB   | 2^70~2^80 |%n|   YB   | 2^80~2^90 |%n|   BB   | over 2^90   |§r
+
 # Quest: 16384k Fluid Component
 betterquesting.quest.5PUj-2T3QZOIq4a33qGXlA.name=16384k Fluid Component
 betterquesting.quest.5PUj-2T3QZOIq4a33qGXlA.desc=Final one (so far)
+
+# Quest: 1024k Essentia Component
+betterquesting.quest.-IWmYEgKSGi0M7rtP59zaw.name=1024k Essentia Component
+betterquesting.quest.-IWmYEgKSGi0M7rtP59zaw.desc=Same as 1k.
 
 # Quest: Ultimate Parallelization...
 betterquesting.quest._bEWg1FHSmKu9MNhlbDlwA.name=§6§lUltimate Parallelization...
@@ -9271,13 +9295,33 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALPQ.desc=ME Buses are combination of tec
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsg.name=AE2 Fluid Crafting
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsg.desc=Fluid crafting directly integrated in your ME system. NO WAY!%n%nAE2FC is a powerful addon that was backported for GTNH.%n%nNow, what do you need to get that juicy stuff working?%nEvery ME System needs a Fluid Discretizer. It allows for on demand crafting. While you can use AE2FC without Fluid Discretizer for moving fluids, you need a Discretizer for autocrafting.%n%nThen you also need a Fluid Terminal or a Fluid Processing Terminal for the Assembling Line. %n%nWhen creating patterns you will notice your fluids being placed as if they were items. %nYour finished patterns will look blue-ish. Placing those in a Dual Interface will allow AE2 to push the fluids and items both. Note. Fluids are being sent first, then items.%nYou can switch the dual interface on the top right if you want it to keep fluids in stock. %n%nIf you use a blue pattern (fluid pattern) in a normal interface, AE2 will send the fluid as a fluid packet. This is just a representation of the fluid as an item. A fluid decoder can turn it back into a fluid and saves it in the fluid grid.%n%nYou can use an ingredient buffer (large or normal) so your items and fluids sent by a pattern can get stored internally in one block. The normal buffer can hold 9 items and 4 fluids whereas the large one can hold 27 items and 7 fluids. It is not needed, but you can use it to automate things with item and fluid conduits. %n%nIf you want to automate single blocks its as easy as eating chocolate cake while on a diet:%nMake the pattern, make an interface, boom- done! It will automatically insert the fluid in the fluid inventory of a single block machine. %n%nEven automating more difficult things like the Assembling Line becomes much easier with these tools.%n%nIf you need more detailled information, visit the wiki:%n%n§9§n[url]https://wiki.gtnewhorizons.com/wiki/AE2FC[/url]§r%n%n§3The Extra Cells mod has been removed. Any old components and cells were converted to AE2 and AE2FC parts where possible.
 
+# Quest: 4096k Essentia Storage Cell
+betterquesting.quest.G5g_5_24RS6sqhmjFEbf8A.name=4096k Essentia Storage Cell
+betterquesting.quest.G5g_5_24RS6sqhmjFEbf8A.desc=These hold 8,388,608 units of essentia.%n%nAnd can hold 48 types.
+
+# Quest: 16384k Essentia Component
+betterquesting.quest.JejpWZ7ATZq-0uomP4c7UA.name=16384k Essentia Component
+betterquesting.quest.JejpWZ7ATZq-0uomP4c7UA.desc=Same as 1k.
+
 # Quest: 16384k Fluid Storage Cell
 betterquesting.quest.MJoHkNK0Ta-zKyJAvV_DBg.name=16384k Fluid Storage Cell
 betterquesting.quest.MJoHkNK0Ta-zKyJAvV_DBg.desc=It holds over 32GL.
 
+# Quest: And Another Digital Singularity
+betterquesting.quest.O0tN--UDTlCbt5ufLodVqA.name=And Another Digital Singularity
+betterquesting.quest.O0tN--UDTlCbt5ufLodVqA.desc=You really need this?
+
 # Quest: Another Digital Singularity
 betterquesting.quest.QF-_KNlHSnObOPmrJptkwQ.name=Another Digital Singularity
 betterquesting.quest.QF-_KNlHSnObOPmrJptkwQ.desc=You've probbaly drained quite a few of them at this point%n%n§3Have you heard about YOTTanks?
+
+# Quest: 4096k Essentia Component
+betterquesting.quest.QHyLarPvSnCb30EbaBQdaw.name=4096k Essentia Component
+betterquesting.quest.QHyLarPvSnCb30EbaBQdaw.desc=Same as 1k.
+
+# Quest: 256k Essentia Component
+betterquesting.quest.Wh0yn2MOQhS-X_8NiPiZJw.name=256k Essentia Component
+betterquesting.quest.Wh0yn2MOQhS-X_8NiPiZJw.desc=Same as 1k.
 
 
 ## Quest Line: How to Be(e)
