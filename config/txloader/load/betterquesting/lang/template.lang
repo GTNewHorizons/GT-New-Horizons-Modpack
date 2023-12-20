@@ -2709,13 +2709,13 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAABw.desc=This tier is all about the 
 betterquesting.quest.nNTmwkdsQgyE6QAfmIwcvg.name=Thorium 232?
 betterquesting.quest.nNTmwkdsQgyE6QAfmIwcvg.desc=So you were looking at Thorium 232 and wondering how to make it?%n%nYou could centrifuge it at a horrible chance rate with a long recipe but there are better ways of obtaining it.%n%nThe better ways are processing chains that can be made in three different paths with the third path being unlocked at a further stage after obtaining Fusion with the Neutron Activator.%n%nThe first path requires the chemical plant multiblock that you might not be familiar with but will become required to create rocket fuel for any tier three or higher rocket. This path is the fastest with only two steps to obtain the Thorium 232, but requires borax which can only be obtained (for now) through mining salt veins as a byproduct or through bees (probably the better option if you already have some).%n%nThe second path is a six step processing chain that requires Chemical Reactors, a Centrifuge, and an EBF. Even though it is longer it offers much better conversion ratio (75%% instead of 25%% in chemical plant), instead of borax it requires nitric acid (4000L per dust if you account for recycling) and 100L of fluorine per dust.%n%nEither way I would recommend using AE2FC as it allows on demand fluid crafting which will assist in both processing chains.%n
 
-# Quest: Get Samarium in ZPM
-betterquesting.quest.tu5Lk_jKQR-qgTYD1o3sLg.name=§b§lGet Samarium in ZPM
-betterquesting.quest.tu5Lk_jKQR-qgTYD1o3sLg.desc=If you get ZPM tier power (or 2 LuV energy hatch), this method would be more better.%n%nMelting Samarium chloride and reducting of Samarium chloride with lanthanum in Distillation Tower. Then recover the lanthanum chloride by electrolyzor.
+# Quest: Getting Samarium in LuV
+betterquesting.quest.tu5Lk_jKQR-qgTYD1o3sLg.name=§b§lGetting Samarium in LuV
+betterquesting.quest.tu5Lk_jKQR-qgTYD1o3sLg.desc=Once you get ZPM tier power (2 LuV energy hatches), this method is much better.%n%nMelt the Samarium Chloride and reduce it with Lanthanum in a Distillation Tower. Then recover Lanthanum Chloride by electrolysis.
 
 # Quest: More Samarium !
 betterquesting.quest.u_-8t2IvRnydvmUx_qdYuA.name=§b§lMore Samarium !
-betterquesting.quest.u_-8t2IvRnydvmUx_qdYuA.desc=If you have a stable samarium mining resource acquisition, refining samarium ore resource should be the best way to get samarium.%n%nFirst step prepare Samarium ore concentrate dust or crushed Samarium ore(you should not have this now) , use nitric acid digest ore resource in Digester, get Muddy Samarium Rare Earth Solution. The Thorium and Phosphorus are retained in the form of solid slag powder. %n%nThen transfer to a Dissolution Tank and continued to soak in nitric acid. The undissolved powder is then meticulously filtered out, mainly the Cerium resource.%n%nThen dilute with water to adjust the pH.
+betterquesting.quest.u_-8t2IvRnydvmUx_qdYuA.desc=If you have a stable Samarium resource acquisition, refining Samarium Ore should be the best way to get Samarium.%n%nAs the first step, disolve some Samarium Ore Concentrate Dust or Crushed Samarium Ore (you probably don't have access to this option yet) in Nitric Acid in a Digester to get Muddy Samarium Rare Earth Solution. Thorium and Phosphate are retained in the form of a solid slag powder. %n%nThen transfer the muddy solution to a Dissolution Tank and continue to soak it in nitric acid. The undissolved powder is then meticulously filtered out, yielding some Cerium.%n%nThen dilute the result with water to adjust the pH.
 
 # Quest: Tier 5 (IV)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA1Q.name=§1§b§l§1§2§3§4§5§4§6§7§8§9§a§b§c§d§e§c§b§lTier 5 (IV)
@@ -3193,9 +3193,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMDw.desc=When you inevitably get Samariu
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEA.name=§b§lFinally, Samarium!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEA.desc=(And Gadolinium)%n%nEasy, right? Not to worry, there's always the bastnasite line to stay your hunger for complex lines!%n%nSamarium can be used to fuel your ever growing Magnetic Samarium Rods needs from LuV up to UHV while Gadolinium is used in the far lategame in the making of powerfull Compact Fusion reactors.
 
-# Quest: Get Samarium in IV
-betterquesting.quest.CW9oIeA0ShWo7euZXUx72A.name=§b§lGet Samarium in IV
-betterquesting.quest.CW9oIeA0ShWo7euZXUx72A.desc=Mix Samarium chloride dust with Sodium chloride dust. Put these dust into Electrolyzer then the Samarium dust will be separated out.%n%nSodium and chlorine can also be fully recovered.%n%nThere is something we still not separate them. It may be useful in future.
+# Quest: Getting Samarium in IV
+betterquesting.quest.CW9oIeA0ShWo7euZXUx72A.name=§b§lGetting Samarium in IV
+betterquesting.quest.CW9oIeA0ShWo7euZXUx72A.desc=Mix Samarium chloride dust with Salt. Electrolyze the result and the Samarium dust will be separated out.%n%nSodium and chlorine can also be fully recovered.%n%nYou also get some additional residue. It does not have any uses currently but might be useful in the future.
 
 # Quest: Supersized Buses
 betterquesting.quest.Mt25IP2aShSSUBhZ1GGItg.name=Supersized Buses
@@ -3211,7 +3211,7 @@ betterquesting.quest.VCXYSn_PTZ6kY3d6kFTFwg.desc=This Special bus is rather pric
 
 # Quest: Concentrated Samarium
 betterquesting.quest.ZXyJX8zNTQW6swu0OsE03Q.name=§b§lConcentrated Samarium
-betterquesting.quest.ZXyJX8zNTQW6swu0OsE03Q.desc=Precipitate samarium ions with oxalic acid. Samarium oxalate was then washed with hydrochloric acid, and get Samarium chloride (impure). This Samarium chloride dust is the base material for the extraction of samarium.%n%nTo separating Samarium out of these materials, here are two methods, one is IV's and one is ZPM's.
+betterquesting.quest.ZXyJX8zNTQW6swu0OsE03Q.desc=Precipitate samarium ions with oxalic acid. Samarium oxalate is then washed with hydrochloric acid; you get Impure Samarium Chloride as a result. This Samarium chloride dust is the base material for the extraction of samarium.%n%nTo actually get Samarium Dust out of this, there are two methods, one is for IV, the other a bit later in LuV.
 
 # Quest: Wait are you sure?
 betterquesting.quest.fvz-5lJaRAqfsM1hcAYOng.name=Wait are you sure?
@@ -8687,9 +8687,9 @@ betterquesting.quest.ylmHogskS-Kdhs9gFrCYmA.desc=Are you draining an ocean?
 betterquesting.quest.y9mYyyz4Qg6iGOYILdKA1A.name=Essentia Quantum Storage
 betterquesting.quest.y9mYyyz4Qg6iGOYILdKA1A.desc=Seems you really want to swim in essentia?
 
-# Quest: Need More Informations?
-betterquesting.quest.5ObFHI5BQ5Oxv0yca7morA.name=Need More Informations?
-betterquesting.quest.5ObFHI5BQ5Oxv0yca7morA.desc=A brand new tools for you amigo.%n%nThis little buddy not only have larger card slot than normal one,%nbut also can show more informations about your network storage.%n%nClick the component ico can switch in ITEM, FLUID, ESSEN detail.%n%n%n§4%nNOTE:%n|  unit  |      range     |%n|    B    |    0~2^10    |%n|   KB   | 2^10~2^20 |%n|   MB   | 2^20~2^30 |%n|   GB   | 2^30~2^40 |%n|   TB   | 2^40~2^50 |%n|   PB   | 2^50~2^60 |%n|   EB   | 2^60~2^70 |%n|   ZB   | 2^70~2^80 |%n|   YB   | 2^80~2^90 |%n|   BB   | over 2^90   |§r
+# Quest: Need More Information?
+betterquesting.quest.5ObFHI5BQ5Oxv0yca7morA.name=Need More Information?
+betterquesting.quest.5ObFHI5BQ5Oxv0yca7morA.desc=A brand new tool for you, amigo.%n%nThis little buddy not only has a larger card slot than the normal one, but also can show more information about your network storage.%n%nClicking the component icon can switch between ITEM, FLUID, and ESSENTIA details.%n%n%n§4%nNOTE:%n|  unit  |      range   |%n|    B   |    0~2^10   |%n|   KB   | 2^10~2^20 |%n|   MB   | 2^20~2^30 |%n|   GB   | 2^30~2^40 |%n|   TB   | 2^40~2^50 |%n|   PB   | 2^50~2^60 |%n|   EB   | 2^60~2^70 |%n|   ZB   | 2^70~2^80 |%n|   YB   | 2^80~2^90 |%n|   BB   | over 2^90  |§r
 
 # Quest: 16384k Fluid Component
 betterquesting.quest.5PUj-2T3QZOIq4a33qGXlA.name=16384k Fluid Component
