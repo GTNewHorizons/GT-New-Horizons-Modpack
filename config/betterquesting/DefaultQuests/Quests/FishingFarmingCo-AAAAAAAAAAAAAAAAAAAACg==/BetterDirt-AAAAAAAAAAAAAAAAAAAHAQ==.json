@@ -63,6 +63,12 @@
           "Count:3": 48,
           "Damage:2": 0,
           "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 51,
+          "OreDict:8": ""
         }
       }
     }
