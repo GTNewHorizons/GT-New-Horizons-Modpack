@@ -273,7 +273,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAKw.desc=You've found out that cotton is
 
 # Quest: Your First Tool
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB2A.name=§2§lYour First Tool
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAB2A.desc=When your tinkers tables are ready, you can craft your first §oreal§r tool. If you didn't find a village yet to grab some parts from the chest, you can only craft flint tools.%n%nLet's start with a pickaxe, an axe, and a shovel. At this point swords are unobtainable since they need metals like iron or bronze which you will get at a later stage. In the meantime use your gregtech swords.%n%nKeep in mind that most of the original tool parts from Tinker's Construct are not shown in NEI. That doesn't mean that you can't craft them - use the tooltips on patterns and molds as guidance. %n%nYour new tools are weak at first, but the more you use them the better they will get. You get a modifier slot after some levels, needing more as you level it up. They will level up to level 99 if you play long enough, with 20 modifier slots. Tool parts can be replaced for a bit of level XP, however the tool must be fully repaired first.%n%nYou need to level up the mining level each time you replace the parts to unleash the full power of the pickaxe. Stone->Copper for this pickaxe. If you manage to get a Zombie, Skeleton, or Creeper head, you can use it to skip the level-up process. This doesn't use up a modifier level, but does change the look until you change the pickaxe part out.%n%nItem=Usable when mining level is X or less%nZombie=1%nSkeleton=2%nCreeper=4%nWither Skeleton=7%nNether Star=8%n%nYou can use paper binding to add an extra modifier, but it's very important because you will get modifiers with tool levels.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAB2A.desc=When your tinkers tables are ready, you can craft your first §oreal§r tool. If you didn't find a village yet to grab some parts from the chest, you can only craft flint tools.%n%nLet's start with a pickaxe, an axe, and a shovel. At this point swords are unobtainable since they need metals like iron or bronze which you will get at a later stage. In the meantime use your gregtech swords.%n%nKeep in mind that most of the original tool parts from Tinker's Construct are not shown in NEI. That doesn't mean that you can't craft them - use the tooltips on patterns and molds as guidance. %n%nYour new tools are weak at first, but the more you use them the better they will get. You get a modifier slot after some levels, needing more as you level it up. They will level up to level 99 if you play long enough, with 20 modifier slots. Tool parts can be replaced for a bit of level XP, however the tool must be fully repaired first.%n%nYou need to level up the mining level each time you replace the parts to unleash the full power of the pickaxe. Stone->Copper for this pickaxe. If you manage to get a Zombie, Skeleton, or Creeper head, you can use it to skip the level-up process. This doesn't use up a modifier level, but does change the look until you change the pickaxe part out.%n%nItem=Usable when mining level is X or less%nZombie=1%nSkeleton=2%nCreeper=4%nWither Skeleton=7%nNether Star=8%n%nYou could use a paper binding to add an extra modifier, but you will also get modifiers with tool levels.
 
 # Quest: Upgrade 2.0
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB2g.name=§2§k§l§l§r§2§lUpgrade 2.0
@@ -530,7 +530,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAPQ.desc=Your Lava boiler has been updat
 
 # Quest: The Power of the Sun
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAPg.name=§3§lThe Power of the Sun
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAPg.desc=The sun has quite a bit of power, so why not use it to produce steam?%n%nFill it with water on the bottom side to produce steam. Unlike the other boilers, this only outputs steam on the output port side.%n%n§3Hint: The solar boiler calcifies and becomes less efficient over time - §4ending up at zero steam production!§3 Later on you can consider using distilled water to avoid calcification.%n%n§3You'll need silver from the Twilight Forest (LV+) or from small ores for this.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAPg.desc=The sun has quite a bit of power, so why not use it to produce steam?%n%nFill it with water on the bottom side to produce steam. Unlike the other boilers, this only outputs steam on the output port side.%n%nYou need silver from small ores to craft Solar Boilers. Later in LV you can get much more in the Twilight Forest.%n%n§3Hint: The solar boiler calcifies and becomes less efficient over time. Later on you can consider using distilled water to avoid calcification.%n
 
 # Quest: Using Steam to Cook Things
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAPw.name=§3§lUsing Steam to Cook Things
@@ -2779,7 +2779,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGhQ.desc=The IV circuit assembler will l
 
 # Quest: Naquadah Doped Monocrystalline Silicon
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGhg.name=§b§lNaquadah Doped Monocrystalline Silicon
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGhg.desc=To make more advanced wafers, you need to make the naquadah dopped monocrystalline silicon first. The process takes 750 seconds and requires silicon solar grade blocks, a naquadah ingot and a gallium arsenice crystal in the Electric Blast Furnace. You can make 64 wafers out of every boule.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGhg.desc=To make more advanced wafers, you need to make Naquadah Doped Monocrystalline Silicon first. The process takes 750 seconds and requires Silicon Solar Grade blocks, a Naquadah Ingot, and a Gallium Arsenide Crystal in the Electric Blast Furnace. You can make 64 wafers out of every boule.
 
 # Quest: Naquadah Doped Wafer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGhw.name=§b§lNaquadah Doped Wafer
@@ -4359,9 +4359,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGQg.desc=Even though you have to plant c
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGQw.name=Feeling a Little Like a Noob...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGQw.desc=So could you grow me some essence berries so I can level up? You can plant the ones you get from the bushes, or breed up some.%n%nAs a reward, I'll give you a silly seed a friend of mine came up with. It will definitely keep you on your toes.
 
-# Quest: I Prefer to Call it Canola
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRA.name=I Prefer to Call it Canola
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRA.desc=This crop is a great source of seed oil for your bio diesel needs.%n%nYou can try getting it from dandelions, cocoa, potatoes or lemons.
+# Quest: Put the Petal to the Metal
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRA.name=Put the Petal to the Metal
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRA.desc=... with the Bio Diesel you produce from Canola!%n%nYou can try getting it from dandelions, cocoa, potatoes or lemons.
 
 # Quest: Better Than Milk
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRQ.name=Better Than Milk
@@ -7002,7 +7002,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALtA.desc=Unlike the oil spouts that are 
 
 # Quest: More Hydrogen
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALtQ.name=More Hydrogen
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALtQ.desc=With more Oil in your hands, you are sure to have problems with the other inputs you need. Hydrogen is required to get any type of clean byproduct, and the amount you need scales with the speed at which your Chemical Reactors work. It is possible to get a lot of it from ores, and mining out a Limonite vein will get you enough to last a long while, but it will eventually run out. Which automatic sources can you choose from?%n%nThe simplest option is to electrolyze water. You can just keep feeding water for free, but it's a slow and inefficient process, although it also gives you Oxygen. You will need a few Electrolyzers running to keep it going at a decent pace. %n%nAn alternative option is to do this, but with salt water, obtained from Salty Root, if you have delved into IC2 crops. You will also get Chlorine that you will need very often in the next two tiers.%n%nLastly, did you know that most of the oil byproducts are organic compounds, and as such are made mostly of Carbon and Hydrogen? You can electrolyze most of them to get these elements, at a faster rate than water, but only if you have leftovers. Methane is one of the choices that you might have stockpiling. However, note that these byproducts often have fuel values and it's often better to use them as fuel to then electrolyze (salt) water.%n%nEither way, you will need Electrolyzers. Build some to continue!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALtQ.desc=With more Oil in your hands, you are sure to have problems with the other inputs you need. Hydrogen is required to get any type of clean byproduct, and the amount you need scales with the speed at which your Chemical Reactors work. It is possible to get a lot of it from ores, and mining out a Limonite vein will get you enough to last a long while, but it will eventually run out. Which automatic sources can you choose from?%n%nThe simplest option is to electrolyze water. You can just keep feeding water for free, but it's a slow and inefficient process, although it also gives you Oxygen. You will need a few Electrolyzers running to keep it going at a decent pace. %n%nAn alternative option is to do this, but with salt water, obtained from Salty Root, if you have delved into IC2 crops. You will also get Chlorine that you will need very often in the next two tiers.%n%nLastly, did you know that most of the oil byproducts are organic compounds, and as such are made mostly of Carbon and Hydrogen? You can electrolyze most of them to get these elements, at a faster rate than water, but only if you have leftovers. Methane is one of the choices that you might have stockpiling. However, note that these byproducts often have fuel values and it's often better to use them as fuel to then electrolyze (salt) water.%n%nEither way, you will need Electrolyzers. Build at leasnt an MV one to continue!
 
 # Quest: Heavy Fuel
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALtg.name=Heavy Fuel
@@ -8215,10 +8215,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEuw.desc=After you craft side chests you
 # Quest: Input chest for Ghetto ME System
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGDA.name=Input chest for Ghetto ME System
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGDA.desc=To be able to put items into the Ghetto ME system you need just a few additional pipes.%nThe Extraction pipe should be connected to the chest you want to take items from.%nInside the Extraction pipe you need to put the Item Extraction chip, and configure it to blacklist if you want it to take all items from the chest.%n%nThe Routed Junction pipe is needed so the items inside the pipes know which direction to take, without this they will just fly around inside the pipes without knowing where to go.%nYou might also need some additional item transport pipes depending on your setup.
-
-# Quest: More Seed Types
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGDg.name=More Seed Types
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGDg.desc=This fancy addon allows your cart to plant/harvest more seed types. If you have an MV+ centrifuge you might want to look at glowflowers for some free redstone and gold.%n%n§3You can't harvest IC2 crops with carts, so give up on that.
 
 # Quest: More Tree Types
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGDw.name=More Tree Types
@@ -9538,7 +9534,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIKw.desc=These basic upgrades to the Alv
 
 # Quest: Busy Bees Buzzing Boldly
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAILA.name=Busy Bees Buzzing Boldly
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAILA.desc=These upgrades can significantly increase your production rate by keeping your bees from stopping production due to the environment.%n%nRain Shield - Can work through the rain%nLighting - Can work day and night%nAlveary Heater - Increases temperature a flat 20%% each (needs power)%nAlveary Fan - Decreases temperature a flat 20%% each (needs power)%nAlveary Hygroregulator[sic] - Has two modes, water and lava%nLava - Temp+10%%, Humidity-20%%%nWater - Temp010%%, Humidity+20%%%n%nUnfortunately, there's no way to make them like caves with a block.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAILA.desc=These upgrades can significantly increase your production rate by keeping your bees from stopping production due to the environment.%n%nRain Shield - Can work through the rain%nLighting - Can work day and night%nAlveary Heater - Increases temperature a flat 20%% each (needs power)%nAlveary Fan - Decreases temperature a flat 20%% each (needs power)%nAlveary Hygroregulator[sic] - Has two modes, water and lava%nLava - Temp+10%%, Humidity-20%%%nWater - Temp-10%%, Humidity+20%%%n%nUnfortunately, there's no way to make them like caves with a block.
 
 # Quest: A Stim a Day Keeps the Doctor Awake
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAILQ.name=A Stim a Day Keeps the Doctor Awake
