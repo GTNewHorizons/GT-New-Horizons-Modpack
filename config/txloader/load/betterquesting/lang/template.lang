@@ -614,7 +614,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACGA.desc=Let's make a mold for the rubbe
 
 # Quest: How Can I Carry All These Items?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACLg.name=§3§lHow Can I Carry All These Items?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACLg.desc=After you made your first steel, you are able to craft a small backpack. It has 36 slots, which is a bit more than a small chest. Later you can make it even larger. %n%nYou can have at most four of these backpacks in your inventory.%n%nYou can put one on your back and set it to automatically pick up stuff. In you controls, check that the command "Open Backpacks" has a key and doesn't have conflicts. The key only works after the backpack is added to the back slot, which can be done by using Shift+<Open Backpacks Key>.%n§r%nYou can rename your backpack by pressing Shift+RMB when holding it in your hand.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACLg.desc=After you made your first steel, you are able to craft a small backpack. It has 36 slots, which is a bit more than a small chest. Later you can make it even larger. %n%nYou can have at most four of these backpacks in your inventory.%n%nYou can put one on your back and set it to automatically pick up stuff. In your controls, check that the command "Open Backpacks" has a key and doesn't have conflicts. The key only works after the backpack is added to the back slot, which can be done by using Shift+<Open Backpacks Key>.%n§r%nYou can rename your backpack by pressing Shift+RMB when holding it in your hand.
 
 # Quest: Upgrade of the Upgrade of the...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACVA.name=§3§k§l§1§2§3§lUpgrade of the Upgrade of the...
