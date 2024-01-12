@@ -36,7 +36,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "The sun has quite a bit of power, so why not use it to produce steam?\n\nFill it with water on the bottom side to produce steam. Unlike the other boilers, this only outputs steam on the output port side.\n\n§3Hint: The solar boiler calcifies and becomes less efficient over time - §4ending up at zero steam production!§3 Later on you can consider using distilled water to avoid calcification.\n\n§3You\u0027ll need silver from the Twilight Forest (LV+) or from small ores for this."
+      "desc:8": "The sun has quite a bit of power, so why not use it to produce steam?\n\nFill it with water on the bottom side to produce steam. Unlike the other boilers, this only outputs steam on the output port side.\n\nYou need silver from small ores to craft Solar Boilers. Later in LV you can get much more in the Twilight Forest.\n\n§3Hint: The solar boiler calcifies and becomes less efficient over time. Later on you can consider using distilled water to avoid calcification.\n"
     }
   },
   "tasks:9": {
