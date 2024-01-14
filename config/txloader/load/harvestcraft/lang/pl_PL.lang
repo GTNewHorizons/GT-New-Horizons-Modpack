@@ -39,7 +39,7 @@ sink_3.name=Ceglana Studnia
 tile.salt.name=Ruda Soli
 tile.pamcompressedsaltBlock.name=Skompresowany Blok Soli
 
-tile.market.name=Ryneczek
+tile.market.name=Rynek
 
 tile.oven.name=Piekarnik
 tile.ovenon.name=Piekarnik
@@ -99,7 +99,7 @@ tile.pamPlum.name=Śliwka
 tile.pamPomegranate.name=Granat
 tile.pamStarfruit.name=Gwiezdny Owoc
 tile.pamVanillabean.name=Laska Wanilii
-tile.pamWalnut.name=Orzech
+tile.pamWalnut.name=Orzech Włoski
 tile.pamGooseberry.name=Agrest
 
 tile.pamalmondSapling.name=Sadzonka Migdału
@@ -134,7 +134,7 @@ tile.pampersimmonSapling.name=Sadzonka Persymony
 tile.pampistachioSapling.name=Sadzonka Pistacji
 tile.pamplumSapling.name=Sadzonka Śliwy
 tile.pampomegranateSapling.name=Sadzonka Granatu
-tile.pamstarfruitSapling.name=Sadzonka Karamboli
+tile.pamstarfruitSapling.name=Sadzonka Gwiezdnego Owocu
 tile.pamvanillabeanSapling.name=Sadzonka Wanilii
 tile.pamwalnutSapling.name=Sadzonka Orzechowca
 tile.pamgooseberrySapling.name=Sadzonka Agrestu
@@ -167,10 +167,10 @@ tile.pamrhubarbCrop.name=Roślina Rabarbaru
 tile.pamceleryCrop.name=Roślina Selera
 tile.pamgarlicCrop.name=Roślina Czosnku
 tile.pamgingerCrop.name=Roślina Imbiru
-tile.pamspiceleafCrop.name=Roślina Liścia Laurowego
-tile.pamtealeafCrop.name=Roślina Liścia Herbaty
-tile.pamcoffeebeanCrop.name=Roślina Ziarna Kawy
-tile.pammustardseedsCrop.name=Roślina Ziaren Gorczycy
+tile.pamspiceleafCrop.name=Roślina Laurowa
+tile.pamtealeafCrop.name=Roślina Herbaty
+tile.pamcoffeebeanCrop.name=Roślina Kawy
+tile.pammustardseedsCrop.name=Roślina Gorczycy
 tile.pambroccoliCrop.name=Roślina Brokuła
 tile.pamcauliflowerCrop.name=Roślina Kalafiora
 tile.pamleekCrop.name=Roślina Pora
@@ -196,8 +196,8 @@ tile.pamkiwiCrop.name=Roślina Kiwi
 tile.pamcranberryCrop.name=Roślina Żurawiny
 tile.pamriceCrop.name=Roślina Ryżu
 tile.pamseaweedCrop.name=Roślina Wodorostu
-tile.pamcurryleafCrop.name=Roślina Liścia Curry
-tile.pamsesameseedsCrop.name=Roślina Nasion Sezamu
+tile.pamcurryleafCrop.name=Roślina Curry
+tile.pamsesameseedsCrop.name=Roślina Sezamu
 tile.pamwaterchestnutCrop.name=Roślina Kasztana Wodnego
 
 tile.pamcandleDeco1.name=Biała Świeczka
@@ -217,16 +217,16 @@ tile.pamcandleDeco14.name=Zielona Świeczka
 tile.pamcandleDeco15.name=Czerwona Świeczka
 tile.pamcandleDeco16.name=Czarna Świeczka
 
-tile.pamcarrotCake.name=Ciasto Marchwkowe
+tile.pamcarrotCake.name=Ciasto Marchewkowe
 tile.pamcheeseCake.name=Sernik
-tile.pamcherrycheeseCake.name=Wiśniowy Sernik
-tile.pampineappleupsidedownCake.name=Ananasowe Ciasto Do góry nogami
-tile.pamchocolatesprinkleCake.name=Czekoladowe Ciasto z Posypką
+tile.pamcherrycheeseCake.name=Sernik Wiśniowy
+tile.pampineappleupsidedownCake.name=Ananasowe Ciasto Do Góry Nogami
+tile.pamchocolatesprinkleCake.name=Ciasto Czekoladowe z Posypką
 tile.pamredvelvetCake.name=Ciasto Red Velvet
 tile.pamlamingtonCake.name=Kostka Kokosowa
 tile.pampavlovaCake.name=Beza Pavlova
 tile.pamholidayCake.name=Ciasto Świąteczne
-tile.pampumpkincheeseCake.name=Dyniowy Sernik
+tile.pampumpkincheeseCake.name=Sernik Dyniowy
 
 # Items
 
@@ -371,7 +371,7 @@ item.raisinsItem.name=Rodzynki
 item.kiwiItem.name=Kiwi
 item.kiwiseedItem.name=Nasiono Kiwi
 item.mustardseedsItem.name=Ziarna Gorczycy
-item.mustardseedItem.name=Nasiono Ziaren Gorczycy
+item.mustardseedItem.name=Nasiono Gorczycy
 item.okraItem.name=Okra
 item.okraseedItem.name=Nasiono Okry
 item.peasItem.name=Groszku
@@ -391,7 +391,7 @@ item.wintersquashseedItem.name=Nasiono Kabaczka
 item.zucchiniItem.name=Cukinia
 item.zucchiniseedItem.name=Nasiono Cukinii
 item.bambooshootItem.name=Pęd Bambusa
-item.bambooshootseedItem.name=Nasiono Pędu Bambusa
+item.bambooshootseedItem.name=Nasiono Bambusa
 item.spinachItem.name=Szpinak
 item.spinachseedItem.name=Nasiono Szpinaku
 item.curryleafItem.name=Liść Curry
@@ -399,14 +399,14 @@ item.curryleafseedItem.name=Nasiono Liścia Curry
 item.sesameseedsItem.name=Nasiona Sezamu
 item.sesameseedsseedItem.name=Nasiono Sezamu
 item.waterchestnutItem.name=Kasztan Wodny
-item.waterchestnutseedItem.name=Nasiono Kasztan Wodny
+item.waterchestnutseedItem.name=Nasiono Kasztana Wodnego
         
 item.almondItem.name=Migdał
 item.apricotItem.name=Morela
 item.avocadoItem.name=Awokado
 item.bananaItem.name=Banan
 item.cashewItem.name=Nerkowiec
-item.cherryItem.name=WIśnia
+item.cherryItem.name=Wiśnia
 item.chestnutItem.name=Kasztan
 item.cinnamonItem.name=Cynamon
 item.coconutItem.name=Kokos
@@ -433,7 +433,7 @@ item.plumItem.name=Śliwka
 item.pomegranateItem.name=Granat
 item.starfruitItem.name=Gwiezdny Owoc
 item.vanillabeanItem.name=Laska Wanilii
-item.walnutItem.name=Orzech
+item.walnutItem.name=Orzech Włoski
 item.gooseberryItem.name=Agrest
 
 item.grilledasparagusItem.name=Grilowany Szparag
@@ -461,7 +461,7 @@ item.applejuiceItem.name=Sok Jabłkowy
 item.applepieItem.name=Szarlotka
 item.caramelappleItem.name=Jabłko w Karmelu
 item.pumpkinbreadItem.name=Chleb Dyniowy
-item.roastedpumpkinseedsItem.name=Palone Nasiona DYni
+item.roastedpumpkinseedsItem.name=Palone Nasiona Dyni
 item.pumpkinsoupItem.name=Zupa Dyniowa
 item.melonjuiceItem.name=Sok Arbuzowy
 item.melonsmoothieItem.name=Arbuzowe Smoothie
@@ -563,7 +563,7 @@ item.marinatedcucumbersItem.name=Ogórki Marynowane
 
 item.ricesoupItem.name=Zupa ryżowa
 item.friedriceItem.name=Smażony Ryż
-item.mushroomrisottoItem.name=Rizotto Grzybowe
+item.mushroomrisottoItem.name=Risotto Grzybowe
 item.curryItem.name=Ryż Curry
 item.rainbowcurryItem.name=Tęczowe Curry
         
@@ -573,7 +573,7 @@ item.beansandriceItem.name=Fasola z Ryżem
 item.chiliItem.name=Chili
 item.beanburritoItem.name=Fasolowe Burrito
         
-item.stuffedpepperItem.name=Faszerowana Pepper
+item.stuffedpepperItem.name=Faszerowana Papryka
 item.veggiestirfryItem.name=Podsmażone Warzywa
 item.grilledskewersItem.name=Grilowany Szaszłyk
 item.supremepizzaItem.name=Nadzwyczajna Pizza
@@ -632,7 +632,7 @@ item.mashedsweetpotatoesItem.name=Tłuczone Bataty
 item.steamedpeasItem.name=Fasola na Parze
 item.splitpeasoupItem.name=Grochówka
         
-item.pineappleupsidedowncakeItem.name=Ananasowe Ciasto Do góry nogami
+item.pineappleupsidedowncakeItem.name=Ananasowe Ciasto Do Góry Nogami
 item.pineapplehamItem.name=Szynka z Ananasem
 item.pineappleyogurtItem.name=Jogurt Ananasowy
         
@@ -646,12 +646,12 @@ item.candiedgingerItem.name=Kandyzowany Imbir
         
 item.mustardItem.name=Musztarda
 item.softpretzelandmustardItem.name=Precel z Musztardą
-item.spicymustardporkItem.name=Ostra Musztardowa Wieprzowina
+item.spicymustardporkItem.name=Ostra Wieprzowina w Musztardzie
 item.spicygreensItem.name=Warzywa na Ostro
         
 item.garlicbreadItem.name=Chleb Czosnkowy
 item.garlicmashedpotatoesItem.name=Tłuczone Ziemniaki z Czosnkiem
-item.garlicchickenItem.name=Czosnkowy Kurczak
+item.garlicchickenItem.name=Kurczak Czosnkowy
         
 item.summerradishsaladItem.name=Letnia Sałatka Rzodkiewkowa
 item.summersquashwithradishItem.name=Letni Kabaczek z Rzodkiewką
@@ -666,20 +666,20 @@ item.zucchinifriesItem.name=Frytki z Cukinii
 item.zestyzucchiniItem.name=Cukinia na Ostro
 item.zucchinibakeItem.name=Zapiekanka z Cukinii
         
-item.asparagusquicheItem.name=Szparagowe Quiche
+item.asparagusquicheItem.name=Quiche Szparagowe
 item.asparagussoupItem.name=Zupa Szparagowa
         
 item.walnutraisinbreadItem.name=Chleb z Orzechami i Rodzynkami
-item.candiedwalnutsItem.name=Kandyzowane Orzechy
+item.candiedwalnutsItem.name=Kandyzowane Orzechy Włoskie
 item.brownieItem.name=Brownie
         
 item.papayajuiceItem.name=Sok z Papai
 item.papayasmoothieItem.name=Smoothie z Papai
-item.papayayogurtItem.name=Yogurt z Papai
+item.papayayogurtItem.name=Jogurt z Papai
         
 item.starfruitjuiceItem.name=Sok z Gwiezdnego Owocu
 item.starfruitsmoothieItem.name=Smoothie z Gwiezdnego Owocu
-item.starfruityogurtItem.name=Yogurt z Gwiezdnego Owocu
+item.starfruityogurtItem.name=Jogurt z Gwiezdnego Owocu
         
 item.guacamoleItem.name=Guacamole
 item.creamofavocadosoupItem.name=Kremowa Zupa z Awokado
@@ -687,34 +687,34 @@ item.avocadoburritoItem.name=Burrito z Awokado
         
 item.poachedpearItem.name=Gotowana Gruszka
 item.fruitcrumbleItem.name=Kruszonka z Owocami
-item.pearyogurtItem.name=Gruszkowy Jogurt
-item.plumyogurtItem.name=Śliwkowy Jogurt
+item.pearyogurtItem.name=Jogurt Gruszkowy
+item.plumyogurtItem.name=Jogurt Śliwkowy
         
-item.bananasplitItem.name=Bananowy Split
+item.bananasplitItem.name=Split Bananowy
 item.bananajuiceItem.name=Sok Bananowy
 item.banananutbreadItem.name=Chleb Bananowo-Orzechowy
-item.bananasmoothieItem.name=Bananowe Smoothie
-item.bananayogurtItem.name=Bananowy Jogurt
+item.bananasmoothieItem.name=Smoothie Bananowe
+item.bananayogurtItem.name=Jogurt Bananowy
         
 item.coconutmilkItem.name=Mleko Kokosowe
 item.chickencurryItem.name=Kurczak Curry
 item.coconutshrimpItem.name=Krewetka Kokosowa
-item.coconutyogurtItem.name=Kokosowy Jogurt
+item.coconutyogurtItem.name=Jogurt Kokosowy
         
 item.orangejuiceItem.name=Sok Pomarańczowy
-item.orangechickenItem.name=Pomarańczowy Kurczak
-item.orangesmoothieItem.name=Pomarańczowe Smoothie
-item.orangeyogurtItem.name=Pomarańczowy Jogurt
+item.orangechickenItem.name=Kurczak Pomarańczowy
+item.orangesmoothieItem.name=Smoothie Pomarańczowe
+item.orangeyogurtItem.name=Jogurt Pomarańczowy
         
-item.peachjuiceItem.name=Brzoskwiniowy Sok
-item.peachcobblerItem.name=Brzoskwiniowy Placek
-item.peachsmoothieItem.name=Brzoskwiniowe Smoothie
-item.peachyogurtItem.name=Brzoskwiniowy Jogurt
+item.peachjuiceItem.name=Sok Brzoskwiniowy
+item.peachcobblerItem.name=Placek Brzoskwiniowy
+item.peachsmoothieItem.name=Smoothie Brzoskwiniowe 
+item.peachyogurtItem.name=Jogurt Brzoskwiniowy
         
 item.limejuiceItem.name=Sok z Limonki
-item.keylimepieItem.name=Limonkowe Ciasto
-item.limesmoothieItem.name=Limonkowe Smoothie
-item.limeyogurtItem.name=Limonkowy Yogurt
+item.keylimepieItem.name=Ciasto Limonkowe
+item.limesmoothieItem.name=Smoothie Limonkowe
+item.limeyogurtItem.name=Jogurt Limonkowy
         
 item.mangojuiceItem.name=Sok z Mango
 item.mangosmoothieItem.name=Smoothie z Mango
@@ -724,14 +724,14 @@ item.pomegranatejuiceItem.name=Sok z Granatu
 item.pomegranatesmoothieItem.name=Smoothie z Granatu
 item.pomegranateyogurtItem.name=Jogurt z Granatu
         
-item.vanillayogurtItem.name=Waniliowy Jogurt
+item.vanillayogurtItem.name=Jogurt Waniliowy
         
 item.cinnamonrollItem.name=Rolada Cynamonowa
 item.frenchtoastItem.name=Tost Francuski
         
 item.marshmellowsItem.name=Pianki
 item.donutItem.name=Donut
-item.chocolatedonutItem.name=Czekoladowy Donut
+item.chocolatedonutItem.name=Donut Czekoladowy
 item.powdereddonutItem.name=Donut z Cukrem Pudrem
 item.jellydonutItem.name=Donut z Dżemem
 item.frosteddonutItem.name=Donut z Polewą
@@ -746,7 +746,7 @@ item.biscuitItem.name=Ciastko
 item.creamcookieItem.name=Ciastko z Kremem
 item.jaffaItem.name=Delicja
 item.friedchickenItem.name=Smażony Kurczak
-item.chocolatesprinklecakeItem.name=Czekoladowe Ciasto z Posypką
+item.chocolatesprinklecakeItem.name=Ciasto Czekoladowe z Posypką
 item.redvelvetcakeItem.name=Ciasto Red Velvet
 item.footlongItem.name=30cm Kanapka
         
@@ -758,24 +758,24 @@ item.grapeyogurtItem.name=Winogronowy Jogurt
 item.chocolateyogurtItem.name=Czekoladowy Jogurt
         
 item.blackberryjuiceItem.name=Sok Jeżynowy
-item.blackberrycobblerItem.name=Jeżynowy Placek
-item.blackberrysmoothieItem.name=Jeżynowe Smoothie
-item.blackberryyogurtItem.name=Jeżynowy Jogurt
+item.blackberrycobblerItem.name=Placek Jeżynowy
+item.blackberrysmoothieItem.name=Smoothie Jeżynowe
+item.blackberryyogurtItem.name=Jogurt Jeżynowy
 item.chocolatemilkItem.name=Mleko Czekoladowe
 item.pumpkinyogurtItem.name=Jogurt z Dyni
         
-item.raspberryjuiceItem.name=Malinowy Sok
+item.raspberryjuiceItem.name=Sok Malinowy
 item.raspberrypieItem.name=Ciasto Malinowe
-item.raspberrysmoothieItem.name=Malinowe Smoothie
-item.raspberryyogurtItem.name=Malinowy Jogurt
+item.raspberrysmoothieItem.name=Smoothie Malinowe
+item.raspberryyogurtItem.name=Jogurt Malinowy
 item.cinnamonsugardonutItem.name=Donut z Cukrem i Cynamonem
-item.melonyogurtItem.name=Arbuzowy Jogurt
+item.melonyogurtItem.name=Jogurt Arbuzowy
         
 item.kiwijuiceItem.name=Sok z Kiwi
 item.kiwismoothieItem.name=Smoothie z Kiwi
 item.kiwiyogurtItem.name=Jogurt z Kiwi
 item.plainyogurtItem.name=Jogurt Naturalny
-item.appleyogurtItem.name=Jabłkowy Jogurt
+item.appleyogurtItem.name=Jogurt Jabłkowy
         
 item.saltedsunflowerseedsItem.name=Solone Nasiona Słonecznika
 item.sunflowerwheatrollsItem.name=Bułka Pszenna ze Słonecznikiem
@@ -785,7 +785,7 @@ item.cranberryjuiceItem.name=Sok Żurawinowy
 item.cranberrysauceItem.name=Sos Żurawinowy
 item.cranberrybarItem.name=Ciastko Żurawinowe
         
-item.peppermintItem.name=Miętówka
+item.peppermintItem.name=Cukierki Miętowe
         
 item.cactusfruitjuiceItem.name=Sok z Opuncji
         
@@ -794,11 +794,11 @@ item.groundcinnamonItem.name=Mielony Cynamon
 item.groundnutmegItem.name=Mielona Gałka Muszkatołowa
 item.oliveoilItem.name=Olej Kuchenny
         
-item.baklavaItem.name=Baklava
+item.baklavaItem.name=Baklawa
 item.gummybearsItem.name=Żelki
 item.baconmushroomburgerItem.name=Burger z Bekonem i Grzybami
 item.fruitpunchItem.name=Poncz Owocowy
-item.meatystewItem.name=Mięsny Gulasz
+item.meatystewItem.name=Mięsny Gulasz 
 item.mixedsaladItem.name=Mieszana Sałatka
 item.pinacoladaItem.name=Pinacolada
 item.saladdressingItem.name=Sos do Sałatki
@@ -838,17 +838,17 @@ item.orangejellyItem.name=Dżem Pomarańczowy
 item.orangejellysandwichItem.name=Kanapka z Dżemem Pomarańczowym
 item.papayajellyItem.name=Dżem z Papai
 item.papayajellysandwichItem.name=Kanapka z Dżemem z Papai
-item.peachjellyItem.name=Brzoskwiniowy Dżem
+item.peachjellyItem.name=Dżem Brzoskwiniowy
 item.peachjellysandwichItem.name=Kanapka z Dżemem Brzoskwiniowym
 item.pomegranatejellyItem.name=Dżem z Granatu
 item.pomegranatejellysandwichItem.name=Kanapka z Dżemem z Granatu
-item.raspberryjellyItem.name=Malinowy Dżem
+item.raspberryjellyItem.name=Dżem Malinowy
 item.raspberryjellysandwichItem.name=Kanapka z Dżemem Malinowym
-item.starfruitjellyItem.name=Dżem z Gwiednego Owocu
+item.starfruitjellyItem.name=Dżem z Gwiezdnego Owocu
 item.starfruitjellysandwichItem.name=Kanapka z Dżemem z Gwiezdnego Owocu
-item.strawberryjellyItem.name=Truskawkowy Dżem
+item.strawberryjellyItem.name=Dżem Truskawkowy
 item.strawberryjellysandwichItem.name=Kanapka z Dżemem Truskawkowym
-item.watermelonjellyItem.name=Arbuzowy Dżem
+item.watermelonjellyItem.name=Dżem Arbuzowy
 item.watermelonjellysandwichItem.name=Kanapka z Dżemem Arbuzowym
         
 item.bubblywaterItem.name=Gazowana woda
@@ -872,17 +872,17 @@ item.gingerchickenItem.name=Kuczak Imbirowy
         
 item.oldworldveggiesoupItem.name=Zupa Jarzynowa
 item.spicebunItem.name=Bułka Ziołowa
-item.gingeredrhubarbtartItem.name=Rabarbarowa Tarta z Imbirem
+item.gingeredrhubarbtartItem.name=Tarta Rabarbarowa z Imbirem
 item.lambbarleysoupItem.name=Zupa Jagnięca z Jęczmieniem
 item.honeylemonlambItem.name=Jagnięcina w Miodzie z Cytryną
-item.pumpkinoatsconesItem.name=Dyniowe Bułeczki Zbożowe
+item.pumpkinoatsconesItem.name=Zbożowe Bułeczki Dyniowe
 item.beefjerkyItem.name=Suszona Wołowina
-item.plumjuiceItem.name=Śliwkowy Sok
-item.pearjuiceItem.name=Gruszkowy Sok
+item.plumjuiceItem.name=Sok Śliwkowy
+item.pearjuiceItem.name=Sok Gruszkowy
 item.ovenroastedcauliflowerItem.name=Kalafior z Piekarnika
 item.leekbaconsoupItem.name=Zupa z Pora i Bekonu
 item.herbbutterparsnipsItem.name=Pasternak w Maśle Ziołowym
-item.scallionbakedpotatoItem.name=Ziemniak Pieczony z Cebulką
+item.scallionbakedpotatoItem.name=Pieczony Ziemniak z Cebulką
 item.soymilkItem.name=Mleko Sojowe
 item.firmtofuItem.name=Twarde Tofu
 item.silkentofuItem.name=Jedwabiste Tofu
@@ -892,17 +892,17 @@ item.roastedchestnutItem.name=Pieczony Kasztan
 item.sweetpotatosouffleItem.name=Suflet z Batatów
 item.cashewchickenItem.name=Kurczak z Nerkowcem
 item.apricotjuiceItem.name=Sok Morelowy
-item.apricotyogurtItem.name=Morelowy Jogurt
+item.apricotyogurtItem.name=Jogurt Morelowy
 item.apricotglazedporkItem.name=Glazurowana Wieprzowina z Morelą
-item.apricotjellyItem.name=Morelowy Dżem
+item.apricotjellyItem.name=Dżem Morelowy
 item.apricotjellysandwichItem.name=Kanapka z Dżemem Morelowym
-item.apricotsmoothieItem.name=Morelowe Smoothie
+item.apricotsmoothieItem.name=Smoothie Morelowe
 item.figbarItem.name=Ciastko Figowe
 item.figjellyItem.name=Dżem Figowy
 item.figjellysandwichItem.name=Kanapka z Dżemem Figowym
-item.figsmoothieItem.name=Figowe Smoothie
-item.figyogurtItem.name=Figowy Jogurt
-item.figjuiceItem.name=Figowy Sok
+item.figsmoothieItem.name=Smoothie Figowe
+item.figyogurtItem.name=Jogurt Figowy
+item.figjuiceItem.name=Sok Figowy
 item.grapefruitjuiceItem.name=Sok z Grejpfruta
 item.grapefruitjellyItem.name=Dżem z Grejpfruta
 item.grapefruitjellysandwichItem.name=Kanapka z Dżemem z Grejpfruta
@@ -932,14 +932,14 @@ item.potatoandcheesepirogiItem.name=Pierogi Ruskie
 item.zeppoleItem.name=Pączki Włoskie
 item.sausageinbreadItem.name=Kiełbaska w Chlebie
 item.chocolatecaramelfudgeItem.name=Cukierki Czekoladowo Karmelowe
-item.lavendershortbreadItem.name=Lawendowe Herbatniki
+item.lavendershortbreadItem.name=Herbatniki Lawendowe
 item.beefwellingtonItem.name=Polędwica Wellington
 item.epicbaconItem.name=Epicki Bekon
 item.manjuuItem.name=Manjuu
 
 item.chickengumboItem.name=Gumbo z Kurczakiem
 item.generaltsochickenItem.name=Kurczak Generała Tso
-item.californiarollItem.name=Sushi Kalifornijskie
+item.californiarollItem.name=California Rolls
 item.futomakiItem.name=Futo Maki
 item.beansontoastItem.name=Fasola na Toście
 item.vegemiteItem.name=Vegemite
@@ -1014,13 +1014,13 @@ item.energydrinkItem.name=Energetyk
 item.friedonionsItem.name=Smażone Cebule
 item.meatfeastpizzaItem.name=Pizza Mięsna
 item.mincepieItem.name=Babeczka Mięsna z Orzechami
-item.onionhamburgerItem.name=Cebulowy Hamburger
+item.onionhamburgerItem.name=Hamburger Cebulowy
 item.pepperoniItem.name=Pepperoni
 item.pickledonionsItem.name=Marynowane Cebule
 item.porksausageItem.name=Kiełbaska Wieprzowa
-item.raspberrytrifleItem.name=Malinowy Trifle
+item.raspberrytrifleItem.name=Trifle Malinowy
 item.pumpkincheesecakeItem.name=Sernik Dyniowy
-item.pumpkinmuffinItem.name=Dyniowa Babeczka
+item.pumpkinmuffinItem.name=Babeczka Dyniowa
 item.suaderoItem.name=Suadero
 item.randomtacoItem.name=Losowe Taco
 
@@ -1087,18 +1087,18 @@ item.sweetpickleItem.name=Słodki Ogórek Konserwowy
 item.veggiestripsItem.name=Paski Warzywne
 item.vindalooItem.name=Vindaloo
 
-item.applesmoothieItem.name=Jabłkowe Smoothie
+item.applesmoothieItem.name=Smoothie Jabłkowe
 item.cheeseontoastItem.name=Tost z Serem
 item.chocolaterollItem.name=Rolada Czekoladowa
 item.coconutcreamItem.name=Krem Kokosowy
-item.coconutsmoothieItem.name=Kokosowe Smoothie
+item.coconutsmoothieItem.name=Smoothie Kokosowe
 item.crackerItem.name=Krakers
-item.cranberrysmoothieItem.name=Żurawinowe Smoothie
-item.cranberryyogurtItem.name=Żurawinowy Jogurt
+item.cranberrysmoothieItem.name=Smoothie Żurawinowe
+item.cranberryyogurtItem.name=Jogurt Żurawinowy
 item.deluxechickencurryItem.name=Powiększony Kurczak Curry
 item.garammasalaItem.name=Garam Masala
-item.grapesmoothieItem.name=Winogronowe Smoothie
-item.gravyItem.name=Sos
+item.grapesmoothieItem.name=Smoothie Winogronowe
+item.gravyItem.name=Sos Pieczeniowy
 item.honeysandwichItem.name=Kanapka z Miodem
 item.jamrollItem.name=Rolada z Dżemem
 item.mangochutneyItem.name=Chutney z Mango
@@ -1106,12 +1106,12 @@ item.marzipanItem.name=Marcepan
 item.paneerItem.name=Panir
 item.paneertikkamasalaItem.name=Panir Tikka Masala
 item.peaandhamsoupItem.name=Grochówka z Szynką
-item.pearjellyItem.name=Gruszkowy Dżem
+item.pearjellyItem.name=Dżem Gruszkowy
 item.pearjellysandwichItem.name=Kanapka z Dżemem Gruszkowym
-item.pearsmoothieItem.name=Gruszkowe Smoothie
-item.plumjellyItem.name=Śliwkowy Dżem
+item.pearsmoothieItem.name=Smoothie Gruszkowe
+item.plumjellyItem.name=Dżem Śliwkowy
 item.plumjellysandwichItem.name=Kanapka z Dżemem Śliwkowym
-item.plumsmoothieItem.name=Śliwkowe Smoothie
+item.plumsmoothieItem.name=Smoothie Śliwkowe
 item.potatoandleeksoupItem.name=Zupa Ziemniaczana z Porem
 item.toadintheholeItem.name=Kiełbaski w Cieście
 item.tunapotatoItem.name=Ziemniak z Tuńczykiem
