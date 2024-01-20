@@ -6063,7 +6063,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFiw.desc=...when it means you don't have
 
 # Quest: Hulk Smash!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjQ.name=Hulk Smash!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjQ.desc=Mass destruction! Or at least, lots and lots of crushed ores. Build a maceration statck to keep up with all the ores you are getting. In IV you can upgrade the Multi to be much better with a upgrade chip and better casings.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjQ.desc=Mass destruction! Or at least, lots and lots of crushed ores. Build a maceration stack to keep up with all the ores you are getting. In IV you can upgrade the Multi to be much better with a upgrade chip and better casings.
 
 # Quest: The rocks in the washer...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjg.name=The rocks in the washer...
@@ -13853,3 +13853,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMjw.desc=No Description
 # Quest: Tool: Never complete
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrw.name=Tool: Never complete
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrw.desc=This quest should never be complete which is useful to hide templates and other things.
+
+# Quest: Trigger: LV Extruder Skip
+betterquesting.quest.sIP_FoxIRaeE08GesBwYcQ.name=Trigger: LV Extruder Skip
+betterquesting.quest.sIP_FoxIRaeE08GesBwYcQ.desc=No Description
