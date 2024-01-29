@@ -43,6 +43,7 @@ body:
     - Java 17
     - Java 19
     - Java 20
+    - Java 21
     - Other versions in between
   validations:
     required: true

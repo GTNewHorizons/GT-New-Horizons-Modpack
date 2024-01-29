@@ -65,15 +65,7 @@
       "rewards:9": {
         "0:10": {
           "id:8": "enhancedlootbags:lootbag",
-          "Count:3": 4,
-          "tag:10": {
-            "ench:9": {
-              "0:10": {
-                "lvl:4": 3,
-                "id:4": 35
-              }
-            }
-          },
+          "Count:3": 1,
           "Damage:2": 51,
           "OreDict:8": ""
         }

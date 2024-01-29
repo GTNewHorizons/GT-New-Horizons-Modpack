@@ -31,7 +31,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "These upgrades can significantly increase your production rate by keeping your bees from stopping production due to the environment.\n\nRain Shield - Can work through the rain\nLighting - Can work day and night\nAlveary Heater - Increases temperature a flat 20% each (needs power)\nAlveary Fan - Decreases temperature a flat 20% each (needs power)\nAlveary Hygroregulator[sic] - Has two modes, water and lava\nLava - Temp+10%, Humidity-20%\nWater - Temp010%, Humidity+20%\n\nUnfortunately, there\u0027s no way to make them like caves with a block."
+      "desc:8": "These upgrades can significantly increase your production rate by keeping your bees from stopping production due to the environment.\n\nRain Shield - Can work through the rain\nLighting - Can work day and night\nAlveary Heater - Increases temperature a flat 20% each (needs power)\nAlveary Fan - Decreases temperature a flat 20% each (needs power)\nAlveary Hygroregulator[sic] - Has two modes, water and lava\nLava - Temp+10%, Humidity-20%\nWater - Temp-10%, Humidity+20%\n\nUnfortunately, there\u0027s no way to make them like caves with a block."
     }
   },
   "tasks:9": {

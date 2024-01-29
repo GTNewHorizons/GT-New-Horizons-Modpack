@@ -124,14 +124,6 @@
         "2:10": {
           "id:8": "enhancedlootbags:lootbag",
           "Count:3": 1,
-          "tag:10": {
-            "ench:9": {
-              "0:10": {
-                "lvl:4": 3,
-                "id:4": 35
-              }
-            }
-          },
           "Damage:2": 51,
           "OreDict:8": ""
         }
