@@ -29,7 +29,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "You may have noticed that you can make more than just Charcoal in a Coke Oven, you can also make Coke.\n\nThe data below shows the burn time (BT), how long it takes in ticks - 20 ticks is 1 second - and how much creosote (Cr) you gain.\n\nCoal 1600BT + 1800t -\u003e Coal Coke 3200BT + 500l Cr\nWood Log 300BT + 1800t -\u003e Charcoal 1600BT + 250l Cr\nCactus 50BT + 500t -\u003e Cactus Charcoal 400BT + 30l Cr\nCactus Charcoal 400BT + 500t -\u003e Cactus Coke 800BT + 30l Cr\nSugar Cane 50BT + 500t -\u003e Sugar Charcoal 400BT + 30l Cr\nSugar Charcoal 400BT + 500t   -\u003e Sugar Coke 800BT +30l Cr\n\nYou want to save Coke for making steel in your Bricked Blast Furnace (BBF) later on."
+      "desc:8": "You may have noticed that you can make more than just Charcoal in a Coke Oven, you can also make Coke.\n\nThe data below shows the burn time (BT), how long it takes in ticks - 20 ticks is 1 second - and how much creosote (Cr) you gain.\n\nCoal 1600BT + 1800t -\u003e Coal Coke 3200BT + 500l Cr\nWood Log 300BT + 1800t -\u003e Charcoal 1600BT + 250l Cr\nCactus 50BT + 500t -\u003e Cactus Charcoal 400BT + 30l Cr\nCactus Charcoal 400BT + 500t -\u003e Cactus Coke 800BT + 30l Cr\nSugar Cane 50BT + 500t -\u003e Sugar Charcoal 400BT + 30l Cr\nSugar Charcoal 400BT + 500t   -\u003e Sugar Coke 800BT +30l Cr\n\nYou want to save all of your Coke for making Steel in your Bricked Blast Furnace (BBF) later on. As for everything else, check NEI for the uses of each Coal variant, since there are many."
     }
   },
   "tasks:9": {
