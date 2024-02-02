@@ -31,7 +31,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "I guess you already turned some wood into charcoal and wonder what to do with all this creosote?\n\nWell, you can burn it in a normal furnace to cook your food, or you can make some torches with it.\n\nLater in LV, you can use it to heat up Railcraft (RC) boilers. \nOr you can run combustion generators with it, but that\u0027s super inefficient."
+      "desc:8": "I guess you already turned some wood into charcoal and wonder what to do with all this creosote? Well, you can burn it in a normal Furnace to cook your food or anything else, or you can make some torches with it. You can save up on the Coal variants, while at the same time keeping the Coke Oven running for the items you really need.\n\nYou can use a Bucket to pick up the Creosote, but not a Clay Bucket, either through the icon in the machine\u0027s interface, or by right-clicking the Coke Oven with an empty bucket in hand.\n\nYou will eventually want to automate Coke Ovens, and that\u0027s when you can use it to generate power. This is mostly LV content, but the singleblock option is the GT++ Semifluid Generator, whereas the multiblock option is the Railcraft Liquid Fueled Boiler. You\u0027ll unlock the quests for these when the time comes."
     }
   },
   "tasks:9": {
