@@ -78,7 +78,7 @@
           "id:8": "miscutils:itemCellXenon",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "cellXenon"
         }
       },
       "taskID:8": "bq_standard:retrieval"
