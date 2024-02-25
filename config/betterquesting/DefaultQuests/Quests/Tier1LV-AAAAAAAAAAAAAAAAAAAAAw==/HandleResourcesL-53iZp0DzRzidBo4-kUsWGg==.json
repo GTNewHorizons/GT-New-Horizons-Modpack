@@ -60,19 +60,19 @@
       "choices:9": {
         "0:10": {
           "id:8": "gregtech:gt.blockmachines",
-          "Count:3": 8,
+          "Count:3": 5,
           "Damage:2": 5603,
           "OreDict:8": ""
         },
         "1:10": {
           "id:8": "gregtech:gt.blockmachines",
-          "Count:3": 8,
+          "Count:3": 5,
           "Damage:2": 1366,
           "OreDict:8": ""
         },
         "2:10": {
           "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 8,
+          "Count:3": 5,
           "Damage:2": 17305,
           "OreDict:8": ""
         },
