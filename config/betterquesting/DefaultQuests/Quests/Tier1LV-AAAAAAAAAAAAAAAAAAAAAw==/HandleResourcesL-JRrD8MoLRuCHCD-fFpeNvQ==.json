@@ -1,12 +1,12 @@
 {
-  "questIDHigh:4": -1767493910114646216,
+  "questIDHigh:4": 2673664767747114720,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 92
     }
   },
-  "questIDLow:4": -7131856560517868006,
+  "questIDLow:4": -8716647126264214083,
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
@@ -18,7 +18,7 @@
       "icon:10": {
         "id:8": "gregtech:gt.blockmachines",
         "Count:3": 64,
-        "Damage:2": 9331,
+        "Damage:2": 9271,
         "OreDict:8": ""
       },
       "snd_update:8": "random.levelup",
@@ -26,12 +26,12 @@
       "globalShare:1": 1,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "§5§6§l§5§lHandle Resources Like a Bo$$ #1",
+      "name:8": "§5§6§l§5§lHandle Resources Like a Bo$$ #2",
       "isGlobal:1": 0,
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "A peak of human engineering at your disposal!\n\nThis machine allows you to filer by machine recipe type and allows you to effortlessly setup automation. To use it simply put a machine of any type into the GUI to create a filter, e.g. macerator will allow the machine to only accept items that can be macerated. The same machine can be used to create an inverse filter (a button in the GUI) that will allow you to exclude all items that can be processed by that machine. \n\n[note]Is it time for some ore processing automation?[/note]"
+      "desc:8": "A peak of human engineering at your disposal!\n\nThis machine allows you to filter 9 items, and will only output set batches. This allows you to automate processes such as electrolyzing that require different amounts of inputs that may clog the system otherwise.\n\n[note]Is it time for some ore processing automation?[/note]\n[note]This will be immensely useful in MV once you unlock more electorlyzer recipes![/note]"
     }
   },
   "tasks:9": {
@@ -46,7 +46,7 @@
         "0:10": {
           "id:8": "gregtech:gt.blockmachines",
           "Count:3": 1,
-          "Damage:2": 9331,
+          "Damage:2": 9271,
           "OreDict:8": ""
         }
       },
