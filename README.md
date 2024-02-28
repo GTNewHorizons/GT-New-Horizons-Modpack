@@ -29,6 +29,17 @@ Here is our Discord server in case you want to take a look at it:
     Do not download the mods separately from the Modlist below - it is provided for reference purposes.
 </p>
 
+## Thanks
+
+<img src="https://www.yourkit.com/images/yklogo.png">
+Thanks to YourKit for providing licenses to open source projects.
+YourKit supports open source projects with innovative and intelligent tools
+for monitoring and profiling Java and .NET applications.
+YourKit is the creator of <a href="https://www.yourkit.com/java/profiler/">YourKit Java Profiler</a>,
+<a href="https://www.yourkit.com/dotnet-profiler/">YourKit .NET Profiler</a>,
+and <a href="https://www.yourkit.com/youmonitor/">YourKit YouMonitor</a>.
+
+
 ## Quotes
 <div align="justify"><ul>
     <li>thcv - This pack is pushing my mental capacity</li>
