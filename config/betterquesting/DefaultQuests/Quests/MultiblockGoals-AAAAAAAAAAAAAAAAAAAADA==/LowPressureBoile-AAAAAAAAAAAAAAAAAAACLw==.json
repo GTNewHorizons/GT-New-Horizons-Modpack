@@ -35,7 +35,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "The low pressure boiler tank is the easiest way to make steam with an RC boiler. The firebox needs this tank on top to produce steam. The bigger the boiler the slower it heats up, but it will produce more steam when heated up.\n\nExtract steam by attaching a pipe to the boiler tank.\n\nKeep in mind that it consumes many times more fuel to heat up a boiler than to keep it at top temperature."
+      "desc:8": "The low pressure boiler tank is the easiest way to make steam with an RC boiler. The firebox needs this tank on top to produce steam. The bigger the boiler the slower it heats up, but it will produce more steam when heated up.\n\nExtract steam by attaching a pipe to the boiler tank.\n\nKeep in mind that it consumes many times more fuel to heat up a boiler than to keep it at top temperature.\n\n[note]This variant is very useful for inconsistent operation. It has lower efficiency but heats up singificantly faster than the high pressure variant meaning the fuel will be used more efficiently at the beginning of the operation, the drawback is that this variant is 50% as efficient as the high pressure one is at max temperature. If instead you want to have a constant high-throughput steam generation use high pressure variant instead.[/note]\n\n[warn]Actual fuel usage depends on the machine size and other factors such as machine temperature, if you want to know the actual number you will need to test it on your own setup.[/warn]"
     }
   },
   "tasks:9": {
