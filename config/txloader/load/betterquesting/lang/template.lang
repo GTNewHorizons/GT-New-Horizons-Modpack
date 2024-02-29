@@ -173,7 +173,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAEg.desc=Most things are unavailable at 
 
 # Quest: Macerator v0.1 Alpha
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAEw.name=§1§2§lMacerator v0.1 Alpha
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAEw.desc=This fancy little device works (almost...) like a macerator. Some people say it's even better, since it does not require power, yay! You only need to craft one for this quest, but you probably should make some more if you can...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAEw.desc=This fancy little device works (almost...) like a macerator. Some people say it's even better, since it does not require power, yay! You only need to craft one for this quest, but you probably should make some more if you can...%n%n[note]The mortar lets you make flint much, much more efficiently - you only need one gravel instead of three. Many tools and stations you'll make in the future will also open up better crafting recipes for things you can already make as well. If you need something but are hard up on resources, use NEI to check the recipes for that item - you may have options you didn't before.[/note]
 
 # Quest: Gravel: The Gathering
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAFA.name=§2§lGravel: The Gathering
@@ -841,6 +841,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALYA.desc=Are your upgraded cobblestone o
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAAw.name=Tier 1 - LV
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAAw.desc=The first "voltage" tier of this pack. Things should be a little easier with some of the machines you can now make, and almost every type of machine is now available, try not to be overwhelmed. You can get away with using LV machines for automating processing of things like polyethylene or electrolyzing water the whole game, so consider setting that up when you need it.
 
+# Quest: Handle Resources Like a Bo$$ #1
+betterquesting.quest.53iZp0DzRzidBo4-kUsWGg.name=§5§6§l§5§lHandle Resources Like a Bo$$ #1
+betterquesting.quest.53iZp0DzRzidBo4-kUsWGg.desc=A peak of human engineering at your disposal!%n%nThis machine allows you to filer by machine recipe type and allows you to effortlessly setup automation. To use it simply put a machine of any type into the GUI to create a filter, e.g. macerator will allow the machine to only accept items that can be macerated. The same machine can be used to create an inverse filter (a button in the GUI) that will allow you to exclude all items that can be processed by that machine. %n%n[note]Is it time for some ore processing automation?[/note]
+
 # Quest: Welcome to Tier 1, LV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAWA.name=§5§r§5§lWelcome to Tier 1, LV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAWA.desc=Why, hello there! It seems you've made it into the electrical age. Don't be so quick to throw away your steam machines, you'll probably want to keep using them for a while.%n%nTo make your life easier, you'll want to focus on getting a wiremill and bender first... once you suffer through making all the machine components.%n%nAfter that, the polarizer, assembler, lathe, and chemical reactor+fluid solidifier (for rubber) all help make things cheaper.%n%nLV machines are more energy-efficient than their steam counterparts because steam machines convert Steam to Power with 50%% efficiency, when the starting LV Steam Turbine has 85%% efficiency.%n%nULV doesn't exist.
@@ -1380,6 +1384,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALow.desc=If you make some Double Alumini
 # Quest: Mica Ore
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALpw.name=§5§lMica Ore
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALpw.desc=Mica is a very rare but useful ore. You need it in order to craft your coils for the Electric Blast Furnace. Only for cupronickel coils there is a replacement recipe. If you have no luck in finding this vein yet try to look for it with a Prospector once you get them.
+
+# Quest: Handle Resources Like a Bo$$ #2
+betterquesting.quest.JRrD8MoLRuCHCD-fFpeNvQ.name=§5§6§l§5§lHandle Resources Like a Bo$$ #2
+betterquesting.quest.JRrD8MoLRuCHCD-fFpeNvQ.desc=A peak of human engineering at your disposal!%n%nThis machine allows you to filter 9 items, and will only output set batches. This allows you to automate processes such as electrolyzing that require different amounts of inputs that may clog the system otherwise.%n%n[note]Is it time for some ore processing automation?[/note]%n[note]This will be immensely useful in MV once you unlock more electorlyzer recipes![/note]
 
 
 ## Quest Line: Tier 2 - MV
@@ -3420,7 +3428,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALcg.desc=Now, the metal elements have be
 
 # Quest: Recycle Waste Water
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALcw.name=§c§lRecycle Waste Water
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALcw.desc=The 'Waste Water' is still very useful to some extend and you can get something interesting from it.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALcw.desc=The 'Waste Water' is still very useful to some extent and you can get something interesting from it.
 
 # Quest: Recycle Titanium
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALdA.name=§c§lRecycle Titanium
@@ -3465,6 +3473,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMBQ.desc=If you're reading this before L
 # Quest: Sun Fusion
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEw.name=§l§c§lSun Fusion
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEw.desc=Alternative way to mass produce Sunnarium.
+
+# Quest: Relentless Glue
+betterquesting.quest.eZADH1WASo6NLBUTKjLNGQ.name=Relentless Glue
+betterquesting.quest.eZADH1WASo6NLBUTKjLNGQ.desc=Ethyl Cyanoacrylate, commonly known as Super Glue is the best glue there is. But with great power comes... great complexity. It's not needed now and probably for the next few tiers, but it will make your recipes more efficient and will be necessary in the lategame.%n%n[note]Technically this line is available in IV, but only optional. Show your true skills by searching the recipes in NEI yourself![/note]
 
 
 ## Quest Line: Tier 7 - ZPM
@@ -3830,7 +3842,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAM0g.desc=There is a new material that ca
 
 # Quest: Space Elevator
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM0w.name=Space Elevator
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAM0w.desc=The Space Elevator is a modular structure. It can be equipped with Space Elevator modules, which then can take on different tasks. %n%nInitially, your Space Elevator has 6 module slots that can be used. You can later upgrade that to up to 12 with Mk-II and Mk-III motors. The motor tier also determines the module tier that you can use. The I/O is not shared between modules, each module only sees their own I/O slots. Energy is only provided to the central structure of the Space Elevator and then automatically distributed to all modules.%n%nAfter a module has been inserted and supplied with the right I/O, it can be configured further using parameters.%n%nYou can see in NEI which fluids are pumpable with the Space Pumping Module. It consumes 1A UHV to work. The Gas Type and Planet Type are parameters.%n%nNEI also has an overview of all the ores you can obtain with a Space Mining Module. It needs to supplied with a drone, which will act as catalyst, a set of input items, computation and either Helium, Bismuth or Radon plasma. The plasma will boost both the recipe time and the amount of bonus stacks you get out of a recipe. With its parameters you can adjust parallels, overdrive, and distance. When multiple recipes have the same input and you have the distance set to a value that they share, the module will pick a random one, taking the recipes weights into consideration.%n%nThe space elevator also lets you travel to other planets, but it doesn't get you back though so better keep that in mind! %n%nThe mining module also got a cycle mode. In static mode it will hold its distance while in cycle mode it will change its distance after each recipe check (and you can configure the range and step size of that).%n%nHere's a good spreadsheet to check material chances and other values, across motor tiers, for this multi: §9§n[url]https://docs.google.com/spreadsheets/d/1xRApa3HnQiJDstr8I5csIi24Mx4mJNsalRJh8PVa52M/edit#gid=975536502[/url]§r.%n%n§3Teleportation can be accessed though the controller
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAM0w.desc=The Space Elevator is a modular structure. It can be equipped with Space Elevator modules, which then can take on different tasks. %n%nInitially, your Space Elevator has 6 module slots that can be used. You can later upgrade that to up to 12 with Mk-II and Mk-III motors. The motor tier also determines the module tier that you can use. The I/O is not shared between modules, each module only sees their own I/O slots. Energy is only provided to the central structure of the Space Elevator and then automatically distributed to all modules.%n%nAfter a module has been inserted and supplied with the right I/O, it can be configured further using parameters.%n%nYou can see in NEI which fluids are pumpable with the Space Pumping Module. It consumes 1A UHV to work. The Gas Type and Planet Type are parameters.%n%nNEI also has an overview of all the ores you can obtain with a Space Mining Module. It needs to supplied with a drone, which will act as catalyst, a set of input items, computation and either Helium, Bismuth or Radon plasma. The plasma will boost both the recipe time and the amount of bonus stacks you get out of a recipe. With its parameters you can adjust parallels, overdrive, and distance. When multiple recipes have the same input and you have the distance set to a value that they share, the module will pick a random one, taking the recipes weights into consideration.%n%nThe space elevator also lets you travel to other planets, but it doesn't get you back though so better keep that in mind! %n%nThe mining module also got a cycle mode. In static mode it will hold its distance while in cycle mode it will change its distance after each recipe check (and you can configure the range and step size of that).%n%nHere's a good spreadsheet to check material chances and other values, across motor tiers, for this multi: §9§n[url]https://docs.google.com/spreadsheets/d/1xRApa3HnQiJDstr8I5csIi24Mx4mJNsalRJh8PVa52M/edit#gid=1497391303[/url]§r.%n%n§3Teleportation can be accessed though the controller
 
 # Quest: Extract what you want
 betterquesting.quest.LzCq9t0cT4-_TizIr_Iq_A.name=Extract what you want
@@ -3978,6 +3990,10 @@ betterquesting.quest.Yxrhi0z7SUuvUT3BrsENww.desc=The crystal living chips are mo
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAHQ.name=Endgame Goals
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAHQ.desc=Collection of endgame objectives, good luck and thanks for playing so far.
 
+# Quest: My eyes hurt! #2
+betterquesting.quest.4MzUrkH5QsWnE_4APuHhNg.name=My eyes hurt! #2
+betterquesting.quest.4MzUrkH5QsWnE_4APuHhNg.desc=You know the deal, new circuits assemble!
+
 # Quest: Chaotic Core
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB0Q.name=Chaotic Core
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB0Q.desc=In the darkest corners of the End you found a dragon that was different. Raw power streaming out in chaotic fashion, threatening to tear apart reality itself! But even that dragon you defeated. Concentrating that raw power within a core certainly isn't easy but it looks like you found a way.
@@ -4094,9 +4110,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMoQ.desc=Go no further if you value your
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMog.name=DTPF
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMog.desc=Congratulations, you have reached the Dimensionally Transcendent Plasma Forge, one of the most lategame multiblocks in the pack. This monster will make a MEBF look like a toaster by comparison to the raw smelting power available here.%n%nThis multiblock has numerous powerful recipes at its disposal, including the ability to cook 4,096 neutronium in parallel for a reduced EU cost and the conversion of infinity catalyst directly into infinity at a 1:1 ratio. This comes at a great cost and will likely be a harsh test on your infrastructure.
 
-# Quest: Optical Circuits
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpA.name=Optical Circuits
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpA.desc=There is an entire new circuit line here! More quests to come for sure.
+# Quest: My eyes hurt! #4
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpA.name=My eyes hurt! #4
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpA.desc=So you finally did it... but there's so much more to do. Onwards comrade!
 
 # Quest: Nearly there...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpQ.name=Nearly there...
@@ -4133,6 +4149,14 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsA.desc=For your first batch of Hypogen
 # Quest: UXV tier
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM4A.name=UXV tier
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM4A.desc=May Dreammaster have mercy on your soul. You have reached the highest craftable tier in the game!
+
+# Quest: My eyes hurt! #1
+betterquesting.quest.U4zxsdwqTUKsbTATYEJirg.name=My eyes hurt! #1
+betterquesting.quest.U4zxsdwqTUKsbTATYEJirg.desc=You know the deal, new circuits assemble!
+
+# Quest: My eyes hurt! #3
+betterquesting.quest.WIx0jq8hS8ifWxZWTmC5yA.name=My eyes hurt! #3
+betterquesting.quest.WIx0jq8hS8ifWxZWTmC5yA.desc=You know the deal, new circuits assemble!
 
 # Quest: UEV and beyond!
 betterquesting.quest.W4fpsTIlReOV-3-yiEqD8A.name=UEV and beyond!
@@ -5648,6 +5672,10 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAADA.desc=This set is a global tracke
 betterquesting.quest.n7yjRSr0R7O2agebw73FGA.name=Component Assembly Line
 betterquesting.quest.n7yjRSr0R7O2agebw73FGA.desc=Check the NEI pages to see all the nice recipes this machine can handle for you. Great to craft GT components in bulk.
 
+# Quest: A Not So Useful Scanner...
+betterquesting.quest.pd68ySXjTD6yW1MN6x6swg.name=§6§lA Not So Useful Scanner...
+betterquesting.quest.pd68ySXjTD6yW1MN6x6swg.desc=...but a very useful meter.%n%nGT EU Meter will give you basic information about electricity in your cables and machines.%n%n%n[note]A more advanced version is available in MV and will allow you to gather much more data, so come back to this tab later to find it.[/note]
+
 # Quest: One Fluid Tank to Store it All!!
 betterquesting.quest.tQecVBhjRRyfR3sqeNBrtA.name=§6§lOne Fluid Tank to Store it All!!
 betterquesting.quest.tQecVBhjRRyfR3sqeNBrtA.desc=If you ever thought that the standard super tanks or quantum tanks were still too small then the YOTTank is the next option.%n%nThe YOTTank compared to the TFFT might only be able to store one fluid instead of 25 fluids. However it makes up for this downside by not having to share any of the fluid storage space with any other fluids. It also does not require any energy input or maintenance requirements.%n%nIf all you want to do is store a large amount of one fluid type then look no further then the YOTTank. It has a special ME input hatch for ae2 connections while having expandable storage blocks. The tank can be both upgraded with the fluid storage blocks and can be increased in height to hold any more fluid.%n%nSo if you want to store your fluid in style then look no further then the YOTTank.%n§3%nIf your having issues searching for the fluid storage blocks for the YOTTank in NEI then search for: fluid cell block%n
@@ -5734,7 +5762,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACLA.desc=Kids, today we will make some g
 
 # Quest: Low-Pressure Boiler Tank
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACLw.name=§6§lLow-Pressure Boiler Tank
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACLw.desc=The low pressure boiler tank is the easiest way to make steam with an RC boiler. The firebox needs this tank on top to produce steam. The bigger the boiler the slower it heats up, but it will produce more steam when heated up.%n%nExtract steam by attaching a pipe to the boiler tank.%n%nKeep in mind that it consumes many times more fuel to heat up a boiler than to keep it at top temperature.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACLw.desc=The low pressure boiler tank is the easiest way to make steam with an RC boiler. The firebox needs this tank on top to produce steam. The bigger the boiler the slower it heats up, but it will produce more steam when heated up.%n%nExtract steam by attaching a pipe to the boiler tank.%n%nKeep in mind that it consumes many times more fuel to heat up a boiler than to keep it at top temperature.%n%n[note]This variant is very useful for inconsistent operation. It has lower efficiency but heats up singificantly faster than the high pressure variant meaning the fuel will be used more efficiently at the beginning of the operation, the drawback is that this variant is 50%% as efficient as the high pressure one is at max temperature. If instead you want to have a constant high-throughput steam generation use high pressure variant instead.[/note]%n%n[warn]Actual fuel usage depends on the machine size and other factors such as machine temperature, if you want to know the actual number you will need to test it on your own setup.[/warn]
 
 # Quest: Railcraft Steam Power
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACMA.name=§6§lRailcraft Steam Power
@@ -5746,7 +5774,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACMQ.desc=Cresosote oil into steam! After
 
 # Quest: High-Pressure Boiler Tank
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACMg.name=§6§lHigh-Pressure Boiler Tank
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACMg.desc=After you make steel you are able to craft a high pressure boiler tank. The upgraded version increases the temperature and produces more steam than the low pressure version. It will take longer to warm up, so make sure to keep it well fed!%n%nExtract steam by attaching a pipe to the boiler tank.%n%nKeep in mind that it consumes many times more fuel to heat up a boiler than to keep it at top temperature.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACMg.desc=After you make steel you are able to craft a high pressure boiler tank. The upgraded version increases the temperature and produces more steam than the low pressure version. It will take longer to warm up, so make sure to keep it well fed!%n%nExtract steam by attaching a pipe to the boiler tank.%n%nKeep in mind that it consumes many times more fuel to heat up a boiler than to keep it at top temperature.%n%n[note]This is better than the low pressure variant only if you keep it working for very long time, if you intend to turn it on and off all the time this will waste a lot of resources! If you keep it at top temperature it will use ~2x more fuel than low pressure and will give ~4x more steam per sec making it 100%% more efficient! If you can't sustain the fuel drain or want a more flexible power source instead use the low pressure variant.[/note]%n%n[warn]Actual fuel usage depends on the machine size and other factors such as machine temperature, if you want to know the actual number you will need to test it on your own setup.[/warn]
 
 # Quest: Automation, Tier 1
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACtw.name=§6§lAutomation, Tier 1
@@ -6249,6 +6277,10 @@ betterquesting.quest.Tfb8JzstRNuiSV6CKgTNRQ.desc=This plasma needs Helium Plasma
 betterquesting.quest.X_rOgp6GRKiyGzwRV_p7GA.name=Niobiumization
 betterquesting.quest.X_rOgp6GRKiyGzwRV_p7GA.desc=Do you remember Niobium-Titanium? This time, it's just Niobium! Just kidding, Titanium's coming up in a special form...%n%nBoth this and the Zinc Plasma recipe are very fast, so you won't need more than 1 reactor unless your scale is very large. Upgrade later as needed, use a mk2 or even mk3 for now.
 
+# Quest: ...with the power of science!
+betterquesting.quest.bLAFkZX-RHGRFAz-C93aeQ.name=...with the power of science!
+betterquesting.quest.bLAFkZX-RHGRFAz-C93aeQ.desc=This multiblock will allow you to use all that UU-Matter that your Matter Fabricator makes, not that you don't have anything else to do with it...%n%n[note]This multi is UV.[/note]
+
 # Quest: Welcome to the Plasma Chain
 betterquesting.quest.bNiieqPgSFqwFpC2DZkj-g.name=Welcome to the Plasma Chain
 betterquesting.quest.bNiieqPgSFqwFpC2DZkj-g.desc=Hello there! If you've unlocked fusion, you can start this questline, but keep in mind that it's divided into three segments (the three fusion chains): one for each tier of Fusion Reactor, from Mk1 to Mk3.%n%nThere is a spreadsheet for all these chains, although it has some reactor count numbers that aren't right. To see it, check the Excel spreadsheet that set these numbers, in the following Github link: §9§n[url]https://github.com/GTNewHorizons/GTplusplus/pull/669[/url]§r%n%nThese quests follow the process of creating some truly powerful plasmas that are useful for power generation at the beginning of endgame, when you've scaled up your setup to a Compact Fusion Reactor and XL Plasma Turbines. As you might have seen before, those huge turbines can go very fast with good materials, like Trinium or Infinity, but they will apply EU/t penalties according to the fuel value of the plasma used. This means that Helium and Tin Plasma are both much weaker there than they were in Large Plasma Turbines.%n%nThe end product of this whole process is Celestial Tungsten Plasma, which has no penalties even at Spacetime and can somewhat match what Helium Plasma would have produced, per compact reactor. The last step is the slowest, but, if there are no other bottlenecks, you can expect around§  §2§lover 8 billion EU/t§r assuming a single compact doing the last step with huge infinity turbines in a plasma XL.%n%nHowever, getting there won't be easy. This whole process uses 15 fusion recipes in total, and a lot more material automation than any of the simple fusion setups. This questline will help explain what is simple, not simple, or possibly a bottleneck. If you complete this, you will be sustained in powergen until the Dyson Swarm, or whatever other option appears later on, and it will continue being useful later on!
@@ -6672,7 +6704,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALjw.desc=This insane machine is used to 
 
 # Quest: Tier 2 Coil
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALkA.name=Tier 2 Coil
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALkA.desc=It will unlock MkIV and MkV fuel.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALkA.desc=It will unlock 2 MkIV fuel recipes and MkV fuel recipe.
 
 # Quest: Naquadah Based Fuel MkI
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALkQ.name=Naquadah Based Fuel MkI
@@ -6696,7 +6728,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALlQ.desc=399 576 000 EU/t at 8s per lite
 
 # Quest: Tier 3 Coil
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALlg.name=Tier 3 Coil
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALlg.desc=For an overclock. Wait, you are going to overclock a UXV recipe?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALlg.desc=For an overclock, MKVI fuel and alternative MKV fuel recipe. Wait, you are going to overclock a UXV recipe?
 
 # Quest: Incomplete Combustion
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALlw.name=Incomplete Combustion
@@ -6726,9 +6758,17 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAL3w.desc=The Dyson Swarm Ground Unit mul
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL4A.name=Where Do I Build the Dyson Swarm?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL4A.desc=If you read the Dyson Swarm Ground Unit's tooltip carfeully (which you should), you might have noticed, that it mentions a "dimension-dependent factor". The dimension you build the Dyson Swarm multiblock in can greatly affect the real power output.%n%n§lSorted by factor (descending):§r%n§a231%% - Barnarda C%n228%% - α Centauri Bb%n198%% - Vega B%n194%% - Venus Space Stations%n176%% - Venus%n161%% - Mercury%n141%% - Barnarda E%n134%% - T Ceti E%n126%% - Barnarda F%n112%% - Ross128b, Ross128ba%n110%% - Earth Space Stations%n§6100%% - Overworld, Moon%n§c89%% - Mars Space Stations%n81%% - Mars, Phobos, Deimos%n61%% - Asteroids%n60%% - Ceres%n48%% - Jupiter Space Stations%n44%% - Europa, Io, Ganymede%n36%% - Saturn Space Stations%n32%% - Enceladus, Titan, Callisto%n25%% - Uranus Space Stations%n23%% - Oberon, Proteus, Miranda%n20%% - Neptune Space Stations%n18%% - Triton%n16%% - Pluto, Kuiper Belt%n15%% - Makemake, Haumea%n1%% - Garden, Mining and Void Worlds%n§40%% - All other dimensions
 
+# Quest: Turbine Housing
+betterquesting.quest.J2ok3rFLS7quyIlHPaN0FQ.name=Turbine Housing
+betterquesting.quest.J2ok3rFLS7quyIlHPaN0FQ.desc=At UV you unlock the ability to automatically refill turbines with rotors.%n%nXL turbines do it by default much earlier...
+
 # Quest: Naquadah Based Fuel MkVI
 betterquesting.quest.KHL_yx4XTKOtsHHZ60ZZpg.name=Naquadah Based Fuel MkVI
 betterquesting.quest.KHL_yx4XTKOtsHHZ60ZZpg.desc=2 077 795 200 EU/t at 12s per liter. A truly immense amount of power, with a hefty cost. You will need a lot of infrastructure to run the refinery, but doing so will reward you with trillions of EU/t.%n%nThe astral titanium and celestial tungsten for alternate recipe can be sourced from laser engravers or the Plasma Fuel Line.%n%nThe tritanium can be sourced using fusion reactors, or by mining in the Deep Dark.%n%nThe shirabon will require an immense amount of fusion reactors and DTPFs to sustain.%n%nAfter Eye of Harmony, white dwarf matter can be used to improve the yield for even more power.%n%nYou will also want to consider the Tachyon Rich Temporal Fluid to get the most out of the Mark VI.
+
+# Quest: Tier 4 Coil
+betterquesting.quest.KlI9Fbh9SsK4ckVNMJqGFA.name=Tier 4 Coil
+betterquesting.quest.KlI9Fbh9SsK4ckVNMJqGFA.desc=This upgrade will allow you to create fuel even faster than before and with an alternative recipe for MKVI fuel!%n...but do you really need it?
 
 # Quest: XL Turbo Gas Turbine
 betterquesting.quest.Ko5ln-tKSFiZZWtAmSWv8w.name=XL Turbo Gas Turbine
@@ -7159,7 +7199,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMGA.desc=Even if you have more wood, thi
 
 # Quest: Two Big Ovens
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMGQ.name=Two Big Ovens
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMGQ.desc=With 24 Coke Ovens automated, you can sustain two big boilers endlessly. The boilers you want to build for this are specifically the Low Pressure Railcraft Boilers, made with Iron, each one as big as they can be, a 3x4x3 of the Boiler Tanks. These multiblocks are expensive, but you will have plenty of power and will consume all the Creosote from your Coke Ovens to keep them running permanently.%n%nThese boilers have a High Pressure variant, though, which need a lot more steel than their cheaper counterparts but can output a lot more Steam. If you somehow gathered a lot of stacks of Steel Ingots, you might think of attempting this, but keep in mind that your Coke Oven setup cannot sustain the input those heated behemoths require to keep running.%n%nThe same goes for the Large Bronze Boiler, GregTech's own way of improving on your tiny boilers, but with two added problems: you can't produce Charcoal fast enough for it (the output speed of your setup is 3.75 seconds per Charcoal, the LBB needs one every 2 seconds), and it has a terrible efficiency for your Creosote, which means most of its power will be wasted. %n%nHowever, surprise! The GT++ Semifluid Generators work, and they're very efficient with the Creosote. You can use a few of those coupled with a Large Bronze Boiler, but you will still run into the issue of not producing Charcoal fast enough unless you do something about it. You can choose this as an option and complete this quest, but it's a more "experimental" alternative that is further into LV, although more powerful.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMGQ.desc=With 24 Coke Ovens automated, you can sustain two big boilers endlessly. The boilers you want to build for this are specifically the Low Pressure Railcraft Boilers, made with Iron, each one as big as they can be, a 3x4x3 of the Boiler Tanks. These multiblocks are expensive, but you will have plenty of power and will consume all the Creosote from your Coke Ovens to keep them running permanently.%n%n[note]These boilers have a High Pressure variant, for more information look in the multiblocks tab. This setup is not enough to sustain the high pressure boiler but you can add a few more coke ovens to sustain it if you want.[/note]%n%nThe same goes for the Large Bronze Boiler, GregTech's own way of improving on your tiny boilers, but with two added problems: you can't produce Charcoal fast enough for it (the output speed of your setup is 3.75 seconds per Charcoal, the LBB needs one every 2 seconds), and it has a terrible efficiency for your Creosote, which means most of its power will be wasted. %n%nHowever, surprise! The GT++ Semifluid Generators work, and they're very efficient with the Creosote. You can use a few of those coupled with a Large Bronze Boiler, but you will still run into the issue of not producing Charcoal fast enough unless you do something about it. You can choose this as an option and complete this quest, but it's a more "experimental" alternative that is further into LV, although more powerful.
 
 # Quest: The Benzene Tier
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMGg.name=The Benzene Tier
@@ -7520,7 +7560,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMeQ.desc=Indium - from Lithium + Silver.
 
 # Quest: Smaller Fusion Is Bigger
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMeg.name=Smaller Fusion Is Bigger
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMeg.desc=It's not smaller, it's compact!%n%nCompact Fusion. If you've been looking for a big multiblock to put together, you have arrived at a very neat thing. There's hardly anything that could beat its size, except for a max height Mega Distillation Tower, but this is instead a wide multi instead of a tall one. It is so wide, in fact, that it cannot fit in one chunk, and instead covers a 3x3 chunk space! Make sure you follow the instructions and the hologram properly, and jump in joy when you have one of these built.%n%nYou can choose one of four tiers for this reactor, in the same way as the normal Fusion Reactors. The Compact controller will need 48 of the regular controllers in the same tier, plus some other materials, and more than 2 thousand blocks in the structure, which are conveniently detailed in the tooltip. It is much bigger than the previous reactors, but it also has a huge number of parallels, starting at 64x with t1 and ending at a maximum of 256x with t4! %n%nThis is the go-to when you have found yourself deep into t3 fusion, perhaps even t4, and you find yourself running short on power. Instead of making a tower of reactors, why not make one of these? The only power issue that you'll have after getting it done is the amount of turbines you will need to eat up all the plasma. You probably know about the XL Plasma Turbine, but you should also know that they force huge penalties on most plasmas, including Helium and Tin, if you use good turbine materials like Infinity. Do you remember those fusion chains mentioned in previous quests? This is the time for them. Check the GT++ tab for more details.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMeg.desc=It's not smaller, it's compact!%n%nCompact Fusion. If you've been looking for a big multiblock to put together, you have arrived at a very neat thing. There's hardly anything that could beat its size, except for a max height Mega Distillation Tower, but this is instead a wide multi instead of a tall one. It is so wide, in fact, that it cannot fit in one chunk, and instead covers a 3x3 chunk space! Make sure you follow the instructions and the hologram properly, and jump in joy when you have one of these built.%n%nYou can choose one of four tiers for this reactor, in the same way as the normal Fusion Reactors. The Compact controller will need 48 of the regular controllers in the same tier, plus some other materials, and more than 2 thousand blocks in the structure, which are conveniently detailed in the tooltip. It is much bigger than the previous reactors, but it also has a huge number of parallels, starting at 64x with t1 and ending at a maximum of 320x with t5! %n%nThis is the go-to when you have found yourself deep into t3 fusion, perhaps even t4, and you find yourself running short on power. Instead of making a tower of reactors, why not make one of these? The only power issue that you'll have after getting it done is the amount of turbines you will need to eat up all the plasma. You probably know about the XL Plasma Turbine, but you should also know that they force huge penalties on most plasmas, including Helium and Tin, if you use good turbine materials like Infinity. Do you remember those fusion chains mentioned in previous quests? This is the time for them. Check the GT++ tab for more details.
 
 # Quest: Thorium Tetrafluoride and Fuel 3
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMew.name=Thorium Tetrafluoride and Fuel 3
@@ -9261,7 +9301,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ8w.desc=The Arcane Assembler works like
 
 # Quest: Miscellaneous AE Items
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ9A.name=Miscellaneous AE Items
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ9A.desc=There are several AE items that aren't particularly useful, but probably deserve mention, so here they are:%n%nCertus Tanks: They hold 32B and are portable and easy to make.%n%nView Cell: Format in a Cell Workbench to filter what you see in a terminal (when they're installed in it)%n%nCertus/Nether Quartz Cutting Knifes: Right-click to open interface. Place an iron ingot in the slot, and choose a name. The press can be used in the Inscriber to name stuff without using an anvil. You can also rename p2p tunnels and interfaces in world with the knife.%n%nME Block Container: Holds only one type of item, but the amount of a 64k drive. Can place the item in world, or replace in a 1x1 or 3x3 area. Blocks replaced will be dumped in world. This will be horizontal or vertical depending on which side of a block you select. Shift-right click air to change mode, right click a block to activate mode.%n%nCharged Quartz Fixture: Emits light at the same level as a torch, but fancier.%n%nLight Detecting Fixture: Emits redstone signal based on light. Since it only starts at 7, it's not as useful as the Light Sensor.%n%nME Upgrade (Tier 1/2/3): If you're an OC person, there's 3 upgrades you can make to add access to your network from robots and drones.%nT1: 0.5 access point range%nT2: Normal access point range%nT3: Unlimited range, any dim%n%nEntropy Manipulator: Changes grass/dirt/dried dirt into each other, or starts fires. Or melts ice. Useless.%n%nMatter Cannon: Shoots Matter Balls made in the Matter Condensor. Put it in an ME Chest or Drive and put items in a Terminal to fill. Decent I guess? But it destroys blocks every time you use it, so... Well, I guess you could use it with Paint Balls?%n%nColor Applicator: Use dye items or Paint Balls (more efficient) to dye stuff. You can dye cables, or anything Forge-compatible, like wool or glass. Place items inside like the Matter Cannon. You can cycle through the colors by holding shift and right-clicking, or scrolling the mouse wheel. If you use snow balls, you can remove paint instead. You can also use it in a dispensor.%n%nWalrus: It's a walrus, what were you expecting?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ9A.desc=There are several AE items that aren't particularly useful, but probably deserve mention, so here they are:%n%nCertus Tanks: They hold 32B and are portable and easy to make.%n%nView Cell: Format in a Cell Workbench to filter what you see in a terminal (when they're installed in it)%n%nCertus/Nether Quartz Cutting Knifes: Right-click to open interface and choose a name. The press can be used in the Inscriber to name stuff without using an anvil. You can also rename p2p tunnels and interfaces in world with the knife.%n%nME Block Container: Holds only one type of item, but the amount of a 64k drive. Can place the item in world, or replace in a 1x1 or 3x3 area. Blocks replaced will be dumped in world. This will be horizontal or vertical depending on which side of a block you select. Shift-right click air to change mode, right click a block to activate mode.%n%nCharged Quartz Fixture: Emits light at the same level as a torch, but fancier.%n%nLight Detecting Fixture: Emits redstone signal based on light. Since it only starts at 7, it's not as useful as the Light Sensor.%n%nME Upgrade (Tier 1/2/3): If you're an OC person, there's 3 upgrades you can make to add access to your network from robots and drones.%nT1: 0.5 access point range%nT2: Normal access point range%nT3: Unlimited range, any dim%n%nEntropy Manipulator: Changes grass/dirt/dried dirt into each other, or starts fires. Or melts ice. Useless.%n%nMatter Cannon: Shoots Matter Balls made in the Matter Condensor. Put it in an ME Chest or Drive and put items in a Terminal to fill. Decent I guess? But it destroys blocks every time you use it, so... Well, I guess you could use it with Paint Balls?%n%nColor Applicator: Use dye items or Paint Balls (more efficient) to dye stuff. You can dye cables, or anything Forge-compatible, like wool or glass. Place items inside like the Matter Cannon. You can cycle through the colors by holding shift and right-clicking, or scrolling the mouse wheel. If you use snow balls, you can remove paint instead. You can also use it in a dispensor.%n%nWalrus: It's a walrus, what were you expecting?
 
 # Quest: Magical Minions
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ9Q.name=Magical Minions
@@ -10780,8 +10820,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABCQ.desc=This greatwood wand is nice, bu
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABCg.name=More Energetic Screws to Finish the New Wand
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABCg.desc=Those stainless steel screws don't work on these rods. Due to the huge amounts of vis those wands can carry, the screws somehow "melt" away. I need a material that can handle these energies. I should try energetic alloy next.%n%n§3If you are struggling to make the next wand in this step or one of the next, you should try to get more discount on your gear.%n%nAlso look at the various caps, the better ones are more expensive to craft but give discounts or other benefits. In many situations you might need to start with cheap ones and only make the better caps later.%n%nYou can also improve your wand with augmentations.
 
-# Quest: Best Wand Caps Ever
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABEA.name=Best Wand Caps Ever
+# Quest: Best Wand Caps Ever...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABEA.name=Best Wand Caps Ever...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABEA.desc=Of course! Thaumium! What could conduct vis better than... a magical metal?
 
 # Quest: She Let Go
@@ -11047,6 +11087,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMiA.desc=So many options for my next wan
 # Quest: Ignore the Glint in Their Eyes
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMyA.name=Ignore the Glint in Their Eyes
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMyA.desc=Well this is a bad idea, but since when has that stopped you before, golems with brains, what could go wrong?%n%n§2§b§3You only need to complete one task.
+
+# Quest: ...or are they?
+betterquesting.quest.LIZCdBLfQquQpULGmFDixw.name=...or are they?
+betterquesting.quest.LIZCdBLfQquQpULGmFDixw.desc=These caps are even better than thaumium!
 
 
 ## Quest Line: Kaaami, Haaaami, ... HA!
@@ -13665,7 +13709,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMRg.desc=§WWelcome to my ted talk, toda
 
 # Quest: UV Power Per Turbine
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMXQ.name=UV Power Per Turbine
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMXQ.desc=Once you progress enough in ZPM to make ZPM Dynamo Hatches, you can increase each turbine's output to 524,288 EU/t. At this number, you'll be a lot less limited by the turbine material, and it's possible to increase the total power output of one Fusion Reactor considerably. You can cover the total Helium Plasma output from one reactor with 3 Plasma Turbines, if you choose the right materials:%n%nLarge High Durability Compound Steel 230%% 202,860 EU/t%nLarge Atomic Separation Catalyst 200%% 399,672 EU/t%nLarge Adamantium 180%% 170,010 EU/t%nLarge Draconium 170%% 214,200 EU/t (durable)%nLarge Ichorium 170%% 342,720 EU/t (very durable)%nLarge Neutronium 160%% 241,920 EU/t (very durable)%n%nThe power output and final efficiency can vary a lot, based on which turbines you're using. Some of them, like Ichorium and Neutronium, last basically forever, while others will need to be replaced from time to time but offer higher efficiency. If you want to get more power per turbine, to reach closer to the dynamo's limit, you can increase the flow of plasma to the turbine, but be careful! You can't go beyond the dynamo's limit, and you will also lose efficiency as you increase the flow amount. More concrete values for efficiency loss can be found in the Plasma Turbine quest in the LuV page.%n%nMake a normal or buffered ZPM dynamo to complete the quest.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMXQ.desc=Once you progress enough in ZPM to make ZPM Dynamo Hatches, you can increase each turbine's output to 524,288 EU/t. At this number, you'll be a lot less limited by the turbine material, and it's possible to increase the total power output of one Fusion Reactor considerably. You can cover the total Helium Plasma output from one reactor with 3 Plasma Turbines, if you choose the right materials:%n%nLarge High Durability Compound Steel 230%% 202,860 EU/t%nLarge Atomic Separation Catalyst 200%% 399,672 EU/t%nLarge Adamantium 180%% 170,010 EU/t%nLarge Draconium 170%% 214,200 EU/t (durable)%nLarge Neutronium 160%% 241,920 EU/t (very durable)%n%nThe power output and final efficiency can vary a lot, based on which turbines you're using. Some of them, like Ichorium and Neutronium, last basically forever, while others will need to be replaced from time to time but offer higher efficiency. If you want to get more power per turbine, to reach closer to the dynamo's limit, you can increase the flow of plasma to the turbine, but be careful! You can't go beyond the dynamo's limit, and you will also lose efficiency as you increase the flow amount. More concrete values for efficiency loss can be found in the Plasma Turbine quest in the LuV page.%n%nMake a normal or buffered ZPM dynamo to complete the quest.
 
 # Quest: High Temperature Super Breeder
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMbg.name=High Temperature Super Breeder
@@ -13673,7 +13717,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMbg.desc=Have you heard of pebble reacto
 
 # Quest: Two Million Turbines
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMcw.name=Two Million Turbines
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMcw.desc=Hopefully, not more than a handful. The objective here is for each of them to output close to 2 million EU/t.%n%nHow can you get there? Look at the UV Dynamo Hatch's recipe and you have your new objective. When you arrive there, each turbine that is equipped with that impressive block will be able to output up to 2,097,152 EU/t, which again opens you up to new turbine opportunities. Some good choices at this point are as follows:%n%nLarge Cosmic Neutronium 220%% 1,330,560 EU/t%nLarge Awakened Draconium 190%% 478,800 EU/t%nLarge Trinium 180%% 1,452,520 EU/t%n%nAt this point, you might consider building more t1 Fusion Reactors to process other materials. Even if you stop the reactor you're using to generate this plasma, the EU cost of restarting it is less than 1 bucket of plasma, so it's probably not that big of a deal.%n%nMake a normal or buffered UV dynamo to complete the quest.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMcw.desc=Hopefully, not more than a handful. The objective here is for each of them to output close to 2 million EU/t.%n%nHow can you get there? Look at the UV Dynamo Hatch's recipe and you have your new objective. When you arrive there, each turbine that is equipped with that impressive block will be able to output up to 2,097,152 EU/t, which again opens you up to new turbine opportunities. Some good choices at this point are as follows:%n%nLarge Cosmic Neutronium 220%% 1,330,560 EU/t%nLarge Ichorium 220%% 1,330,560 EU/t (very durable)%nLarge Awakened Draconium 190%% 478,800 EU/t%nLarge Trinium 180%% 1,451,520 EU/t%n%nAt this point, you might consider building more t1 Fusion Reactors to process other materials. Even if you stop the reactor you're using to generate this plasma, the EU cost of restarting it is less than 1 bucket of plasma, so it's probably not that big of a deal.%n%nMake a normal or buffered UV dynamo to complete the quest.
 
 # Quest: Infinite Turbines
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMeA.name=Infinite Turbines
