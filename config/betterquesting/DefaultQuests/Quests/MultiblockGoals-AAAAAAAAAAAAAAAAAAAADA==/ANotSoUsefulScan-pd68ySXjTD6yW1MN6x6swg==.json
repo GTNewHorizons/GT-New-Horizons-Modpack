@@ -1,24 +1,24 @@
 {
-  "questIDHigh:4": 0,
+  "questIDHigh:4": -6494546040511574978,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 260
+      "questIDLow:4": 77
     }
   },
-  "questIDLow:4": 272,
+  "questIDLow:4": -5594786792833372990,
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
       "taskLogic:8": "AND",
       "partySingleReward:1": 0,
       "visibility:8": "NORMAL",
-      "isMain:1": 0,
+      "isMain:1": 1,
       "simultaneous:1": 0,
       "icon:10": {
-        "id:8": "Thaumcraft:WandCap",
+        "id:8": "tectech:item.em.EuMeterGT",
         "Count:3": 1,
-        "Damage:2": 2,
+        "Damage:2": 0,
         "OreDict:8": ""
       },
       "snd_update:8": "random.levelup",
@@ -26,12 +26,12 @@
       "globalShare:1": 1,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "Best Wand Caps Ever...",
+      "name:8": "§6§lA Not So Useful Scanner...",
       "isGlobal:1": 0,
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Of course! Thaumium! What could conduct vis better than... a magical metal?"
+      "desc:8": "...but a very useful meter.\n\nGT EU Meter will give you basic information about electricity in your cables and machines.\n\n\n[note]A more advanced version is available in MV and will allow you to gather much more data, so come back to this tab later to find it.[/note]"
     }
   },
   "tasks:9": {
@@ -39,31 +39,14 @@
       "partialMatch:1": 1,
       "autoConsume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
+      "ignoreNBT:1": 1,
       "index:3": 0,
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "Thaumcraft:WandCap",
-          "Count:3": 2,
-          "Damage:2": 6,
-          "OreDict:8": ""
-        }
-      },
-      "taskID:8": "bq_standard:optional_retrieval"
-    },
-    "1:10": {
-      "partialMatch:1": 1,
-      "autoConsume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
-      "index:3": 1,
-      "consume:1": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "id:8": "Thaumcraft:WandCap",
-          "Count:3": 2,
-          "Damage:2": 2,
+          "id:8": "tectech:item.em.EuMeterGT",
+          "Count:3": 1,
+          "Damage:2": 0,
           "OreDict:8": ""
         }
       },
@@ -72,13 +55,19 @@
   },
   "rewards:9": {
     "0:10": {
-      "rewardID:8": "bq_standard:item",
+      "rewardID:8": "bq_standard:choice",
       "index:3": 0,
-      "rewards:9": {
+      "choices:9": {
         "0:10": {
           "id:8": "enhancedlootbags:lootbag",
-          "Count:3": 1,
-          "Damage:2": 10,
+          "Count:3": 2,
+          "Damage:2": 4,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 2,
+          "Damage:2": 32764,
           "OreDict:8": ""
         }
       }

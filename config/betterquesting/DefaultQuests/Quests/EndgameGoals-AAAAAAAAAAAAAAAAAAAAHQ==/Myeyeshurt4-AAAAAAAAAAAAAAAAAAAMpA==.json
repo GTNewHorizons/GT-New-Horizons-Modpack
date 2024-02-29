@@ -2,8 +2,8 @@
   "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 6595497126567167459,
-      "questIDLow:4": -7639371938136423440
+      "questIDHigh:4": 6380602928249523144,
+      "questIDLow:4": -6963947838860379704
     }
   },
   "questIDLow:4": 3236,
@@ -25,11 +25,11 @@
       "globalShare:1": 0,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "Optical Circuits",
+      "name:8": "My eyes hurt! #4",
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "There is an entire new circuit line here! More quests to come for sure."
+      "desc:8": "So you finally did it... but there\u0027s so much more to do. Onwards comrade!"
     }
   },
   "tasks:9": {
