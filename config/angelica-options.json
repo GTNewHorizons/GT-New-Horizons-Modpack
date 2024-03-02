@@ -1,0 +1,31 @@
+{
+  "quality": {
+    "cloud_quality": "FANCY",
+    "weather_quality": "FANCY",
+    "leaves_quality": "DEFAULT",
+    "grass_quality": "FANCY",
+    "entity_shadows": "FANCY",
+    "enable_vignette": "FANCY"
+  },
+  "advanced": {
+    "use_vertex_array_objects": true,
+    "use_chunk_multidraw": true,
+    "animate_only_visible_textures": true,
+    "use_entity_culling": true,
+    "use_particle_culling": true,
+    "use_fog_occlusion": true,
+    "use_compact_vertex_format": true,
+    "use_block_face_culling": true,
+    "allow_direct_memory_access": true,
+    "ignore_driver_blacklist": false,
+    "translucency_sorting": true
+  },
+  "performance": {
+    "chunk_builder_threads": 16,
+    "always_defer_chunk_updates": true,
+    "use_no_error_g_l_context": true
+  },
+  "notifications": {
+    "hide_donation_button": false
+  }
+}
