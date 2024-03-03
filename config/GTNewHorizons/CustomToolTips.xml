@@ -186,6 +186,7 @@
 	<ToolTip ItemName="IronChest:BlockIronChest:2" ToolTip="12*9 Inventory - 108 Slots" NBT=""/>
 	<ToolTip ItemName="IronChest:BlockIronChest:5" ToolTip="12*9 Inventory - 108 Slots" NBT=""/>
 	<ToolTip ItemName="IronChest:BlockIronChest:6" ToolTip="12*9 Inventory - 108 Slots §4Blast Proof" NBT=""/>
+	<ToolTip ItemName="IronChest:BlockIronChest:9" ToolTip="15*9 Inventory - 135 Slots" NBT=""/>
 	
 //Iron Tanks
 	<ToolTip ItemName="BuildCraft|Factory:tankBlock" ToolTip="Stores up to 16 Buckets of one Liquid §4Not portable, use a dolly" NBT=""/>
