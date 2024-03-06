@@ -170,5 +170,18 @@
       "taskID:8": "bq_standard:retrieval"
     }
   },
-  "rewards:9": {}
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 16,
+          "Damage:2": 9649,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
 }
