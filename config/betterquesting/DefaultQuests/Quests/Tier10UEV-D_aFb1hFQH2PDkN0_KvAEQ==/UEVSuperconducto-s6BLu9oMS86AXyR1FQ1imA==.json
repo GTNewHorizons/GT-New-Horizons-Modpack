@@ -1,23 +1,23 @@
 {
-  "questIDHigh:4": 0,
+  "questIDHigh:4": -5503315474457539634,
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 6595497126567167459,
-      "questIDLow:4": -7639371938136423440
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2590
     }
   },
-  "questIDLow:4": 2583,
+  "questIDLow:4": -9196591828784291176,
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
       "taskLogic:8": "AND",
       "visibility:8": "NORMAL",
-      "isMain:1": 1,
+      "isMain:1": 0,
       "simultaneous:1": 0,
       "icon:10": {
         "id:8": "gregtech:gt.blockmachines",
         "Count:3": 1,
-        "Damage:2": 965,
+        "Damage:2": 2026,
         "OreDict:8": ""
       },
       "snd_update:8": "random.levelup",
@@ -25,11 +25,11 @@
       "globalShare:1": 0,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "Galaxy in a Bottle...?",
+      "name:8": "UEV Superconductors",
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Good luck with this one, it is many many many times harder than the previous tiers. Required to make extremely endgame materials such as hypogen."
+      "desc:8": "UEV superconductors, another great infinity sink. You can make the celestial tungsten and advanced nitinol in a laser engraver directly, but this is quite slow. Perhaps consider using the celestial tungsten plasma line?"
     }
   },
   "tasks:9": {
@@ -43,26 +43,8 @@
       "requiredItems:9": {
         "0:10": {
           "id:8": "gregtech:gt.blockmachines",
-          "Count:3": 1,
-          "Damage:2": 965,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "miscutils:gtplusplus.blockcasings.3",
-          "Count:3": 32,
-          "Damage:2": 13,
-          "OreDict:8": ""
-        },
-        "2:10": {
-          "id:8": "miscutils:gtplusplus.blockcasings.3",
-          "Count:3": 108,
-          "Damage:2": 12,
-          "OreDict:8": ""
-        },
-        "3:10": {
-          "id:8": "gregtech:gt.blockmachines",
-          "Count:3": 16,
-          "Damage:2": 49,
+          "Count:3": 27,
+          "Damage:2": 2026,
           "OreDict:8": ""
         }
       },
