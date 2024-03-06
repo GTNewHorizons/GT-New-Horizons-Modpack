@@ -2,15 +2,15 @@
   "questIDHigh:4": 6411465645269994516,
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": -7794674471479980302,
-      "questIDLow:4": -5399646287042766590
+      "questIDHigh:4": -7295214463238520795,
+      "questIDLow:4": -8557295371763424843
     }
   },
   "questIDLow:4": -5575624123602641916,
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
+      "taskLogic:8": "OR",
       "visibility:8": "NORMAL",
       "isMain:1": 0,
       "simultaneous:1": 0,
@@ -23,7 +23,7 @@
       "snd_update:8": "random.levelup",
       "repeatTime:3": -1,
       "globalShare:1": 0,
-      "questLogic:8": "OR",
+      "questLogic:8": "AND",
       "repeat_relative:1": 1,
       "name:8": "The Quest for Holy Water",
       "lockedProgress:1": 0,
