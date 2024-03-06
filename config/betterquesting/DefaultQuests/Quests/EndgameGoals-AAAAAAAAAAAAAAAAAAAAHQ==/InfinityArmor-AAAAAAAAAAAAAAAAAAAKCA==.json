@@ -11,7 +11,7 @@
       "type:1": 1
     }
   },
-  "questIDLow:4": 2569,
+  "questIDLow:4": 2568,
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
@@ -30,11 +30,11 @@
       "globalShare:1": 0,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "Infinity Breastplate",
+      "name:8": "Infinity Armor",
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Breastplate which provides the user infinite creative flight and removes all negative debuffs."
+      "desc:8": "An armorset worthy of a God.\n\n- The helmet provides infinite saturation.\n- The breastplate provides the user infinite creative flight and removes all negative debuffs.\n- The pants have no special effects on their own but are required to complete the full infinity set.\n- The boots provide a permanent jump boost and increased running speed.\n\nWhile wearing the complete set, you are completely unkillable."
     }
   },
   "tasks:9": {
@@ -47,7 +47,25 @@
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
+          "id:8": "Avaritia:Infinity_Helm",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
           "id:8": "Avaritia:Infinity_Chest",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "Avaritia:Infinity_Pants",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "Avaritia:Infinity_Shoes",
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": ""
