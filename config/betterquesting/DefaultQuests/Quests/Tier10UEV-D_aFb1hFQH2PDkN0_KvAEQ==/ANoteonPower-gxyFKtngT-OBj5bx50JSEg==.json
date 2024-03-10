@@ -1,16 +1,12 @@
 {
-  "questIDHigh:4": 6595497126567167459,
+  "questIDHigh:4": -8999171536302616605,
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 2582
-    },
-    "1:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 2665
+      "questIDHigh:4": -7794674471479980302,
+      "questIDLow:4": -5399646287042766590
     }
   },
-  "questIDLow:4": -7639371938136423440,
+  "questIDLow:4": -9110897555436056046,
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
@@ -19,9 +15,9 @@
       "isMain:1": 1,
       "simultaneous:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.metaitem.01",
+        "id:8": "gregtech:gt.blockmachines",
         "Count:3": 1,
-        "Damage:2": 25583,
+        "Damage:2": 13106,
         "OreDict:8": ""
       },
       "snd_update:8": "random.levelup",
@@ -29,11 +25,11 @@
       "globalShare:1": 0,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "UEV and beyond!",
+      "name:8": "A Note on Power",
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "UEV, UIV, UMV, UXV, ...\n\nThese tiers are still a work in progress. But you can find the most important progression steps here, as well as the pinnacle goals."
+      "desc:8": "Starting here, you will need a §llot§ §l§r of power. Be prepared to make hundreds of millions to billions of EU/t. If you are tired of building EHEs and fusions for more plasma power, it may be worth looking into naquadah fuel."
     }
   },
   "tasks:9": {
