@@ -2,11 +2,11 @@
   "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": -7949765678093284760,
-      "questIDLow:4": -7384462910267243515
+      "questIDHigh:4": 6871186703039940952,
+      "questIDLow:4": -5095508056809418717
     }
   },
-  "questIDLow:4": 3296,
+  "questIDLow:4": 2590,
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
@@ -17,7 +17,7 @@
       "icon:10": {
         "id:8": "gregtech:gt.metaitem.01",
         "Count:3": 1,
-        "Damage:2": 32019,
+        "Damage:2": 32595,
         "OreDict:8": ""
       },
       "snd_update:8": "random.levelup",
@@ -25,11 +25,11 @@
       "globalShare:1": 0,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "UXV tier",
+      "name:8": "You Know the Drill",
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "May Dreammaster have mercy on your soul. You have reached the highest craftable tier in the game!"
+      "desc:8": "You know how this works. Prepare for everything to cost large amounts of infinity."
     }
   },
   "tasks:9": {
@@ -44,55 +44,43 @@
         "0:10": {
           "id:8": "gregtech:gt.metaitem.01",
           "Count:3": 1,
-          "Damage:2": 32019,
+          "Damage:2": 32595,
           "OreDict:8": ""
         },
         "1:10": {
           "id:8": "gregtech:gt.metaitem.01",
           "Count:3": 1,
-          "Damage:2": 32023,
+          "Damage:2": 32619,
           "OreDict:8": ""
         },
         "2:10": {
           "id:8": "gregtech:gt.metaitem.01",
           "Count:3": 1,
-          "Damage:2": 32027,
+          "Damage:2": 32639,
           "OreDict:8": ""
         },
         "3:10": {
           "id:8": "gregtech:gt.metaitem.01",
           "Count:3": 1,
-          "Damage:2": 32031,
+          "Damage:2": 32649,
           "OreDict:8": ""
         },
         "4:10": {
           "id:8": "gregtech:gt.metaitem.01",
           "Count:3": 1,
-          "Damage:2": 32035,
+          "Damage:2": 32659,
           "OreDict:8": ""
         },
         "5:10": {
           "id:8": "gregtech:gt.metaitem.01",
           "Count:3": 1,
-          "Damage:2": 32039,
+          "Damage:2": 32689,
           "OreDict:8": ""
         },
         "6:10": {
           "id:8": "gregtech:gt.metaitem.01",
           "Count:3": 1,
-          "Damage:2": 32043,
-          "OreDict:8": ""
-        },
-        "7:10": {
-          "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 1,
-          "Damage:2": 32047,
-          "OreDict:8": ""
-        },
-        "8:10": {
-          "id:8": "gregtech:gt.blockmachines",
-          "Count:3": 1,
-          "Damage:2": 269,
+          "Damage:2": 32699,
           "OreDict:8": ""
         }
       },

@@ -1,23 +1,23 @@
 {
-  "questIDHigh:4": 0,
+  "questIDHigh:4": 3431481331616859711,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 3243
+      "questIDLow:4": 2588
     }
   },
-  "questIDLow:4": 2413,
+  "questIDLow:4": -8398225760065311204,
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
+      "taskLogic:8": "OR",
       "visibility:8": "NORMAL",
       "isMain:1": 0,
       "simultaneous:1": 0,
       "icon:10": {
-        "id:8": "ExtraUtilities:dark_portal",
+        "id:8": "appliedenergistics2:item.ItemExtremeStorageCell.Singularity",
         "Count:3": 1,
+        "tag:10": {},
         "Damage:2": 0,
         "OreDict:8": ""
       },
@@ -26,11 +26,11 @@
       "globalShare:1": 0,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "The Darkness of Choice for Edgelords",
+      "name:8": "A Digital Singularity You Say?",
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "In order to get to the riches you rightfully deserve, you\u0027ll first need to make a Raw Portal, then complete it with more materials. You can then access this dimension that should contain every ore imaginable...\n\n§3Unfortunately, those tasty ores are locked beneath the mantle of the planet. You\u0027ll need to use a Void Miner to get them out."
+      "desc:8": "These cells store a practically infinite amount of a single item or fluid type. Seriously, filling one of these will take an eternity."
     }
   },
   "tasks:9": {
@@ -43,9 +43,10 @@
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.blockreinforced",
+          "id:8": "appliedenergistics2:item.ItemExtremeStorageCell.Singularity",
           "Count:3": 1,
-          "Damage:2": 12,
+          "tag:10": {},
+          "Damage:2": 0,
           "OreDict:8": ""
         }
       },
@@ -60,8 +61,9 @@
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "ExtraUtilities:dark_portal",
+          "id:8": "ae2fc:fluid_storage.singularity",
           "Count:3": 1,
+          "tag:10": {},
           "Damage:2": 0,
           "OreDict:8": ""
         }
@@ -69,23 +71,5 @@
       "taskID:8": "bq_standard:retrieval"
     }
   },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 0,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "minecraft:paper",
-          "Count:3": 1,
-          "tag:10": {
-            "display:10": {
-              "Name:8": "Go mine the reward yourself"
-            }
-          },
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
-    }
-  }
+  "rewards:9": {}
 }

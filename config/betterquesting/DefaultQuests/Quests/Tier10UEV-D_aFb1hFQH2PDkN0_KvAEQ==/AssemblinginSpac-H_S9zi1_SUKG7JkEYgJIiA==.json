@@ -1,23 +1,27 @@
 {
-  "questIDHigh:4": 0,
+  "questIDHigh:4": 2302674002717395266,
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 6595497126567167459,
-      "questIDLow:4": -7639371938136423440
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3283
+    },
+    "1:10": {
+      "questIDHigh:4": -7794674471479980302,
+      "questIDLow:4": -5399646287042766590
     }
   },
-  "questIDLow:4": 3245,
+  "questIDLow:4": -8724430134020257656,
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
       "taskLogic:8": "AND",
       "visibility:8": "NORMAL",
-      "isMain:1": 0,
+      "isMain:1": 1,
       "simultaneous:1": 0,
       "icon:10": {
         "id:8": "gregtech:gt.blockmachines",
         "Count:3": 1,
-        "Damage:2": 16999,
+        "Damage:2": 14004,
         "OreDict:8": ""
       },
       "snd_update:8": "random.levelup",
@@ -25,11 +29,11 @@
       "globalShare:1": 0,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "Naquadah Fuel",
+      "name:8": "Assembling in Space",
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Endgame power source."
+      "desc:8": "This new Space Elevator module can be used to make lapotron orbs more easily, and to make the raw components for optical circuits."
     }
   },
   "tasks:9": {
@@ -44,7 +48,7 @@
         "0:10": {
           "id:8": "gregtech:gt.blockmachines",
           "Count:3": 1,
-          "Damage:2": 16999,
+          "Damage:2": 14004,
           "OreDict:8": ""
         }
       },
