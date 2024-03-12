@@ -34,7 +34,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "The ultimate gas inhaler in GTNH. Check the XL Steam Turbine quest above for an explanation of the mechanics shared across all turbines.\n\n§4This turbine does not accept Benzene.§4§r To use it with your Benzene setup, you have to upgrade it to Nitrobenzene. Further changes will be made to this turbine to favor more high-tier gases, instead of spamming Benzene, Methane or other trivial options."
+      "desc:8": "The ultimate gas inhaler in GTNH. Check the XL Steam Turbine quest above for an explanation of the mechanics shared across all turbines.\n\n[warn]This turbine does not accept Benzene.[/warn] To use it with your Benzene setup, you have to upgrade it to Nitrobenzene. Further changes will be made to this turbine to favor more high-tier gases, instead of spamming Benzene, Methane or other trivial options."
     }
   },
   "tasks:9": {
