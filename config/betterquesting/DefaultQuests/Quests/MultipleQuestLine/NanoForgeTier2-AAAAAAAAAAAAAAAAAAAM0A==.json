@@ -33,7 +33,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Carbon Nanites are good first workers, but they don\u0027t have much in the way of working with more complex systems as they have a very basic nanite network. So a new more advanced nanite will be needed to produce complex nanites.\n\nThe neutronium nanite is an in-between of the two tiers able to produce tier 2 nanites, which have other uses.\n\n§3When putting the neutronium nanite in the controller, you will need to wait for the structure check to happen again or break and replace the controller with a neutronium nanite inside. Allows the Nano Forge to make tier 2 nanites."
+      "desc:8": "Carbon Nanites are good first workers, but they don\u0027t have much in the way of working with more complex systems as they have a very basic nanite network. So a new more advanced nanite will be needed to produce complex nanites.\n\nThe neutronium nanite is an in-between of the two tiers able to produce tier 2 nanites, which have other uses.\n\n[note]When putting the neutronium nanite in the controller, you will need to wait for the structure check to happen again or break and replace the controller with a neutronium nanite inside. Allows the Nano Forge to make tier 2 nanites.[/note]"
     }
   },
   "tasks:9": {
