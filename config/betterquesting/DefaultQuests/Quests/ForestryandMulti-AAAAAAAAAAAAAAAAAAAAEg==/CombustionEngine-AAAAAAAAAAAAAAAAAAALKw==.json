@@ -29,7 +29,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "The combustion engine combusts things for power like a car engine does. You need water in it if it\u0027s over 100 degrees, or it will explode. Don\u0027t run out of water! You turn it on with a redstone signal.\n\nYour options for fuel are:\nOil @30RF/t for a total of 150K\nEthanol @40RF/t for a total of 360K\nDiesel @60RF/t for a total of 1,500K\n\n§3Make sure to use Oil, not raw, light, medium, or heavy oil."
+      "desc:8": "The combustion engine combusts things for power like a car engine does. You need water in it if it\u0027s over 100 degrees, or it will explode. Don\u0027t run out of water! You turn it on with a redstone signal.\n\nYour options for fuel are:\nOil @30RF/t for a total of 150K\nEthanol @40RF/t for a total of 360K\nDiesel @60RF/t for a total of 1,500K\n\n[note]Make sure to use Oil, not raw, light, medium, or heavy oil.[/note]"
     }
   },
   "tasks:9": {
