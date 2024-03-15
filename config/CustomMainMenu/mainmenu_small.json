@@ -91,8 +91,8 @@
 			}
 		},
 		"singleplayer": {
-			"text": "Singleplayer",
-			"hoverText": "Alone, alone ...",
+			"text": "menu.gtnh.singleplayer",
+			"hoverText": "menu.gtnh.singleplayer.hover",
 			"normalTextColor": 4227327,
 			"hoverTextColor": 16711680,
 			"texture": "mainmenu:textures/btn4.png",
@@ -109,8 +109,8 @@
 			}
 		},
 		"multiplayer": {
-			"text": "Multiplayer",
-			"hoverText": "Join us",
+			"text": "menu.gtnh.multiplayer",
+			"hoverText": "menu.gtnh.multiplayer.hover",
 			"normalTextColor": 4227327,
 			"hoverTextColor": 65535,
 			"texture": "mainmenu:textures/btn4.png",
@@ -127,7 +127,7 @@
 			}
 		},
 		"options": {
-			"text": "Options",
+			"text": "menu.gtnh.options",
 			"normalTextColor": 4227327,
 			"hoverTextColor": 16758315,
 			"texture": "mainmenu:textures/btn4.png",
@@ -144,7 +144,7 @@
 			}
 		},
 		"language": {
-			"text": "Language",
+			"text": "menu.gtnh.language",
 			"normalTextColor": 4227327,
 			"hoverTextColor": 16758315,
 			"texture": "mainmenu:textures/btn4.png",
@@ -161,7 +161,7 @@
 			}
 		},
 		"mods": {
-			"text": "Mods (#modsloaded#/#modsactive#)",
+			"text": "menu.gtnh.mods",
 			"normalTextColor": 2113664,
 			"hoverTextColor": 8411925,
 			"texture": "mainmenu:textures/btn4.png",
@@ -178,8 +178,8 @@
 			}
 		},
 		"quit": {
-			"text": "Quit",
-			"hoverText": "No! Don't leave!",
+			"text": "menu.gtnh.quit",
+			"hoverText": "menu.gtnh.quit.hover",
 			"normalTextColor": 16728128,
 			"hoverTextColor": 16711680,
 			"texture": "mainmenu:textures/btn4.png",
@@ -197,7 +197,7 @@
 	},
 	"texts": {
 		"mojang": {
-			"text": "Forge #forgeversion# for Minecraft #mcversion# - Copyright Mojang AB. Do not distribute!",
+			"text": "menu.gtnh.mojang",
 			"posX": 305,
 			"posY": 0,
 			"alignment": "column_bottom"
@@ -209,7 +209,7 @@
 			"alignment": "column_bottom"
 		},
 		"aviators": {
-			"text": "Opening Music Copyright by the Aviators",
+			"text": "menu.gtnh.aviators",
 			"posX": 305,
 			"posY": -20,
 			"fontSize": 0.5,
