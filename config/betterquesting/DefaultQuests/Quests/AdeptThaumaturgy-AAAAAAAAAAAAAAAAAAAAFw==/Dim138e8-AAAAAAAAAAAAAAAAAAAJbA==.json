@@ -1,0 +1,68 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -4565410127623534693,
+      "questIDLow:4": -7503418920742820267
+    }
+  },
+  "questIDLow:4": 2412,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "ExtraUtilities:dark_portal",
+        "Count:3": 1,
+        "Damage:2": 2,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Dim 138e8",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Through the portal you find a small platform suspeded above a pitch black void. A single villager is here, staring at you appearing out of nowhere with the kind of casual look that tells you this is not the fist time this has happened.\n\nThe Last Villager, as this world is but a few centuries away from dissolving and returning to the void, explains that you are not the first to have been tempted by the eyes. You are, however, one of few who was smart enough not to fall for their trap.\n\nThe world the eyes showed you is - or, perhaps, once was - real. You\u0027ve reached it, but at a point in time eons after it was stripped bare or decayed until even the dust is gone. Had you tried to travel to that point in time the jump through the portal would have failed, and the villager can only guess as to what would have happened to you. The fact he\u0027s not met any who tried that seems telling, however.\n\nStill, you wonder if there exists an opposite to this world. Nether and End are opposed, balanced, and if this world had traits of the End there might exist a Nether counterpart. If it has not yet been stripped bare, at least where your magic or even technology can reach, perhaps you could aquire untold wealth after all.\n\nFor now, though, you say your goodbyes to The Last Villager and go back to your business. You\u0027ve got eldritch beings to stare - and stab, for this wild goose chase nonsense - in the eyes.\n\n§3Said \"opposite\" is the Deep Dark, the quest for which is in the Endgame Goals tab. It is as challenging, and rewarding, a task as that quest tab suggests.\n\nLeaving The Last Millennium will also dump you off at world spawn rather than the portal, BTW."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "visible:1": 0,
+      "invert:1": 0,
+      "range:3": -1,
+      "index:3": 0,
+      "structure:8": "",
+      "hideInfo:1": 0,
+      "posX:3": 0,
+      "posY:3": 0,
+      "posZ:3": 0,
+      "biome:3": -1,
+      "name:8": "The End of Time",
+      "dimension:3": 112,
+      "taxiCabDist:1": 0,
+      "taskID:8": "bq_standard:location"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 10,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

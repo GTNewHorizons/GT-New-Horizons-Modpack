@@ -1,0 +1,102 @@
+{
+  "questIDHigh:4": 4936230313285405567,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 297
+    }
+  },
+  "questIDLow:4": -7442918984065791679,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "OR",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.blockmachines",
+        "Count:3": 1,
+        "Damage:2": 130,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Getting Creative",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Being able to send items back and forth is nice, but sometimes you need fluids send back and forth. Fluids, unfortunately, are not items. Fluid §otanks§r, however, are.\n\nBy sending tanks of fluids you are able to use your Magic Mirrors as a discount interdimensional fluid transport method. The same caveats in terms of being limited to point to point transfer apply, but at least super tanks hold so much fluid you shouldn\u0027t need to worry too much about transfer limits.\n\nAdditionally you can rename tanks so that item filtering will know where to send individual tanks, allowing you to use one pair of mirrors for multiple fluids without tanks getting confused and something getting clogged up or starved.\n\n...That all said, unless you are using this to send fluids to different dimensions, you\u0027re not sure what it accomplishes that a much simpler Long Distance Fluid Pipeline couldn\u0027t. And unless fluid supplies are scarce the ability to stuff tanks within tanks should allow interdimensional supply problems to be solved through sheer brute force, as well.\n\nNevertheless, you may find a use for this bit of trickery one day.\n\n§3You only need to complete one task to finish the quest."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 2,
+          "Damage:2": 130,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 2,
+          "Damage:2": 131,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 2,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 2,
+          "Damage:2": 132,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 10,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

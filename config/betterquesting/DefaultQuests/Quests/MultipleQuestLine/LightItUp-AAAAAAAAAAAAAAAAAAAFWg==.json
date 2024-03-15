@@ -3,7 +3,7 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 1369
+      "questIDLow:4": 255
     }
   },
   "questIDLow:4": 1370,
@@ -26,12 +26,12 @@
       "globalShare:1": 1,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "Light It Up!",
+      "name:8": "Light it up!",
       "isGlobal:1": 0,
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "The arcane lamp creates additional light sources which acts like a Torch in a sphere with a radius of 16 blocks centered on it. This will include caves or other areas behind walls. That might be useful... One downside, it might put a light where one isn\u0027t wanted, like inside an EBF. \n\nWhen attached to the base of an arcane bore, the arcane lamp gains an additional ability: It will light up the tunnel that the bore digs."
+      "desc:8": "Nitor is a very pleasing source of light - and heat - but having to craft one for every torch you\u0027d wish to replace would drive you nuts. And having §othat much§r Nitor around would probably dissolve your eyes anyway.\n\nThe Arcane Lamp is an excellent solution. Easy to hang off walls or ceilings, it will create invisible light sources in a 16 block radius sphere centered on it, including caves or other areas behind walls. When broken any light sources it placed will disappear.\n\nYou will need to be careful with it around your factory, though. You wouldn\u0027t want these invisible lights messing with the inside blocks of an EBF, or worse, blocking a Muffler Hatch.\n\n§3Arcane Lamps can also be attached to Arcane Bores, letting the bore light up the tunnel it digs."
     }
   },
   "tasks:9": {

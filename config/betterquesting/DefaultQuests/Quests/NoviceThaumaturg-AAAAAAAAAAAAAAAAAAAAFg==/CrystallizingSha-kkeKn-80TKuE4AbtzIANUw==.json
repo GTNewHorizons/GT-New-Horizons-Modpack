@@ -1,0 +1,189 @@
+{
+  "questIDHigh:4": -7906198201308001109,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 241
+    }
+  },
+  "questIDLow:4": -8872083647511917229,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "thaumcraftneiplugin:Aspect",
+        "Count:3": 1,
+        "tag:10": {
+          "Aspects:9": {
+            "0:10": {
+              "amount:3": 2,
+              "key:8": "vitreus"
+            }
+          }
+        },
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Crystallizing Shards With Essentia",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "You knew you would find a beter way to crystallize those powders! Now with just a bit of Viteus Essentia you can create shards from any spare powder you have lying around, and without having to rely on a slower than molasses Autoclave that doesn\u0027t even work one fifth of the time.\n\n...Admittedly it would have been faster, and less likely to fail, if you had given the autoclave distilled water instead. But who does §othat§r?\n\nThinking about it, as great as this crucible recipe is you cannot automate it. Not with what knowledge you currently possess, at least. What if you need large quantities of shards in the future? You wouldn\u0027t want to stand in front of a crucible for days on end.\n\nPerhaps the autoclave method will need to be revisited at a later date after all. You\u0027ve already seen that distilled water makes the process faster and more reliable, maybe there\u0027s some fluid that could improve it further still?"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 1,
+          "Damage:2": 2540,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 1,
+          "Damage:2": 2541,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 1,
+          "Damage:2": 2542,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 1,
+          "Damage:2": 2543,
+          "OreDict:8": ""
+        },
+        "4:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 1,
+          "Damage:2": 2544,
+          "OreDict:8": ""
+        },
+        "5:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 1,
+          "Damage:2": 2545,
+          "OreDict:8": ""
+        },
+        "6:10": {
+          "id:8": "minecraft:glass",
+          "Count:3": 24,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "Thaumcraft:ItemShard",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "Thaumcraft:ItemShard",
+          "Count:3": 1,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "Thaumcraft:ItemShard",
+          "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "Thaumcraft:ItemShard",
+          "Count:3": 1,
+          "Damage:2": 3,
+          "OreDict:8": ""
+        },
+        "4:10": {
+          "id:8": "Thaumcraft:ItemShard",
+          "Count:3": 1,
+          "Damage:2": 5,
+          "OreDict:8": ""
+        },
+        "5:10": {
+          "id:8": "Thaumcraft:ItemShard",
+          "Count:3": 1,
+          "Damage:2": 4,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "Thaumcraft:ItemShard",
+          "Count:3": 4,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "Thaumcraft:ItemShard",
+          "Count:3": 4,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "Thaumcraft:ItemShard",
+          "Count:3": 4,
+          "Damage:2": 2,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "Thaumcraft:ItemShard",
+          "Count:3": 4,
+          "Damage:2": 3,
+          "OreDict:8": ""
+        },
+        "4:10": {
+          "id:8": "Thaumcraft:ItemShard",
+          "Count:3": 4,
+          "Damage:2": 4,
+          "OreDict:8": ""
+        },
+        "5:10": {
+          "id:8": "Thaumcraft:ItemShard",
+          "Count:3": 4,
+          "Damage:2": 5,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

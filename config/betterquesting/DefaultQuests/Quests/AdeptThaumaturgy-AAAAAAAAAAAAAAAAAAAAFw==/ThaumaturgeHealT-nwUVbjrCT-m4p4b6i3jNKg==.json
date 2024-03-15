@@ -1,0 +1,114 @@
+{
+  "questIDHigh:4": -6988155683619057687,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 260
+    }
+  },
+  "questIDLow:4": -5140992038980235990,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "ThaumicHorizons:dummyVat",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Thaumaturge, Heal Thyself",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "A healthy diet, crafting heart canisters and not gluing that axe to the back of your hand resulted in you becoming the buffest, beefiest Thaumaturge around. Unfortunately recovering from even minor wounds take a fair bit, so when something manages to lay the hurt on you it takes forever to recover.\n\nThe Curative Vat is a specialized tank able to restore your health, refill your hunger and remove some basic debuffs at the cost of Essentia. Unfortunately it is not able to remove debuff like Radiation, nor able to address Warp\u0027s mental effects.\n\nThat said you are sure this invention has much potential you\u0027ve not tapped yet..."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "minecraft:glass",
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "Thaumcraft:blockWoodenDevice",
+          "Count:3": 16,
+          "Damage:2": 6,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "Thaumcraft:blockMetalDevice",
+          "Count:3": 2,
+          "Damage:2": 9,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "Thaumcraft:ItemEssence",
+          "Count:3": 8,
+          "tag:10": {
+            "Aspects:9": {
+              "0:10": {
+                "amount:3": 8,
+                "key:8": "sano"
+              }
+            }
+          },
+          "Damage:2": 1,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "Thaumcraft:ItemEssence",
+          "Count:3": 8,
+          "tag:10": {
+            "Aspects:9": {
+              "0:10": {
+                "amount:3": 8,
+                "key:8": "fames"
+              }
+            }
+          },
+          "Damage:2": 1,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinDarkWizardI",
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

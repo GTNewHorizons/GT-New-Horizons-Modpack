@@ -3,7 +3,7 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 230
+      "questIDLow:4": 225
     }
   },
   "questIDLow:4": 229,
@@ -31,7 +31,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "This whole place here is filled with magic. No matter where you look at, it\u0027s just everywhere. You wonder what happens to regular stone if it\u0027s exposed to large amounts of magic for such a long time. Maybe it\u0027s time to go mining?\n\nThere are 3 veins. There\u0027s amber and cinnabar in each. They aren\u0027t super useful, but make sure to keep hold of some at least."
+      "desc:8": "This whole place is filled with magic. You can\u0027t touch it, but you can feel it. In some places you can even faintly see it - Nodes of concentrated power, waiting to be released. You wonder what happens to regular stone if it\u0027s exposed to large amounts of magic for such a long time. Maybe it\u0027s time to go mining?\n\nThere are 3 veins. There\u0027s amber and cinnabar in each. They aren\u0027t super useful, but make sure to keep hold of some at least."
     }
   },
   "tasks:9": {

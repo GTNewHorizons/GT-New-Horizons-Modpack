@@ -1,0 +1,75 @@
+{
+  "questIDHigh:4": 6817256120489233322,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -1760720334586164547,
+      "questIDLow:4": -8550137975997230510
+    }
+  },
+  "questIDLow:4": -6083067749039758787,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "thaumcraftneiplugin:Aspect",
+        "Count:3": 1,
+        "tag:10": {
+          "Aspects:9": {
+            "0:10": {
+              "amount:3": 2,
+              "key:8": "superbia"
+            }
+          }
+        },
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Hubris",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "This is...the world between worlds? The maze? Well it certainly §olooks§r appropriately maze-y, but... something is wrong. Are you truly in the right place?\n\nYou\u0027ve found scattered references to the world between worlds, the test the eldritch prepared for Thaumaturges, and you\u0027ve done your best to collect as many of them as you could. This place, though, is different. Very similar, yes. But different.\n\nThe atmosphere here is oppressive, pushing your down (literally, as in creative flight is not allowed in this dimension). The Eldritch Guardians not what you expected. You don\u0027t recall any records or mentions of fog surrounding you as the guardians drew close.\n\nTo top it all off, the portal closed behind you. There\u0027s no way out of here that you can see, bar - presumably - doing what you came here to do, claiming your prize and proving your worthiness. Another aspect not mentioned in any of the records you\u0027ve gathered, they claimed the obelisk portal would remain open.\n\nWell than. It would appear that you may have made a bit of an oopsie, trapping yourself within this maze within the maze. It\u0027s not like you were going to turn and run anyhow, right? Though if you do fall how will you get back and reclaim your gear? If the portal is closed on the overworld side as well...\n\n...Pride before the fall. You should have known better.\n\n§3For the record: Yes, this place is called Outer Lands and fuctions mostly the same. But no, it is not §oThe§r§3 Outer Lands, as in the exact dimension the obelisks send you to. You can still get a primoridial pearl here, it\u0027s just going to be a touch more dicy."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "visible:1": 0,
+      "invert:1": 0,
+      "range:3": -1,
+      "index:3": 0,
+      "structure:8": "",
+      "hideInfo:1": 0,
+      "posX:3": 0,
+      "posY:3": 0,
+      "posZ:3": 0,
+      "biome:3": -1,
+      "name:8": "The Outer Lands...?",
+      "dimension:3": 173,
+      "taxiCabDist:1": 0,
+      "taskID:8": "bq_standard:location"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 11,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

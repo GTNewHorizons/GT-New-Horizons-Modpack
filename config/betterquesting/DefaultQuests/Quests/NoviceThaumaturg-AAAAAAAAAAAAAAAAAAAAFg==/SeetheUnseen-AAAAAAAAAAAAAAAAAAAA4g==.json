@@ -3,7 +3,7 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 1778
+      "questIDLow:4": 233
     }
   },
   "questIDLow:4": 226,
@@ -31,7 +31,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Everything is made of 6 primal aspects. Those aspects can be combined to form compound aspects, but in the end, there are only 6, kinda like the infused shards you found. You noticed that those shards start to vibrate when you bring them next to something that is made of the respective aspect. Maybe you can create a device to actually \"scan\" items, and reveal their compounds? This could be very useful later on."
+      "desc:8": "Studying the shards has lead you to realize they are each infused with a particular aspect, a foundational building block of this magic that you have yet to lay proper eyes on. These six primal aspects - Aer, Aqua, Ignis, Ordo, Perditio and Terra - can than be combined to create more complex compound aspects... but the shards will not let themselves be combined so easily. You will need to learn so much more before you will be able to draw the full potential out of these rich crystals.\n\nTo that end you\u0027ve created the Thaumometer. With the help of all six shards you will not only be able to finally see nodes properly, but scan them so you can learn a bit more about the aspects they contain. In addition you can scan items and learn what aspects they contain, learning more of their secrets in the process.\n\nThere is one complication: In order to discover a compound aspect you must know both the component aspects it\u0027s made up of. Given the challenge you expect will come from finding samples you\u0027re able to study, which don\u0027t contain anything you can\u0027t make sense of yet, you have to wonder if you can study aspects another way..."
     }
   },
   "tasks:9": {

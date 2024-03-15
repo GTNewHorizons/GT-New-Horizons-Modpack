@@ -1,0 +1,42 @@
+{
+  "questIDHigh:4": -7718365510067009007,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -1095435690180326604,
+      "questIDLow:4": -7296563446832141242
+    }
+  },
+  "questIDLow:4": -7020985241590769251,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "Forestry:alveary",
+        "Count:3": 1,
+        "Damage:2": 2,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "More Bees!",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Need more bees to fuel your Beessentia factory? Beyond searching for hives and/or buying said hives/bees directly from the Coins, Coins, Coins tab, there is also the Swarmer if you\u0027ve got access to Alvearies.\n\nSwarmers are part of a quest in the How to Be(e) tab, so head over there for details.\n\nYou can also create more princesses using the Industrial Apicultural Acclimatiser and Drone Domestication Station, or just \"Mega Apiary\" as everyone actually calls it. Though note that multiblock is first craftable in UV.\n\nThe Mega Apiary also has a quest in the How to Be(e) tab."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {}
+}

@@ -4,10 +4,6 @@
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 234
-    },
-    "1:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 749
     }
   },
   "questIDLow:4": 235,
@@ -35,7 +31,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Unfortunately, your aluminium screws don\u0027t work with the greatwood rod. Somehow, the wood seems to repel the material. Luckily, you already have a blast furnace, so you can get a better material than aluminium."
+      "desc:8": "You\u0027ll need better screws if you want this wand to stay a wand for more than a fleeting moment. The question is what material to use. You figured that surely one of the magical materials you\u0027ve been working with would get the job done, it simply makes sense that magical materials should excel at creating magical tools, but each suffers a fatal flaw that causes your design to fail.\n\nLooking at your soon to be \"old\" wand, its Aluminium screws worked fine. Perhaps Stainless Steel is what you need?"
     }
   },
   "tasks:9": {
@@ -49,7 +45,7 @@
       "requiredItems:9": {
         "0:10": {
           "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 8,
+          "Count:3": 4,
           "Damage:2": 27306,
           "OreDict:8": ""
         }

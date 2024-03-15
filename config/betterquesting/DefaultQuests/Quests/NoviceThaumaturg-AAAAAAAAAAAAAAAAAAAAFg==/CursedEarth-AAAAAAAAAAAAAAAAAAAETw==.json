@@ -3,7 +3,7 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 1104
+      "questIDLow:4": 1369
     },
     "1:10": {
       "questIDHigh:4": 0,
@@ -35,7 +35,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "You can kill the powered-up monsters that spawn on the cursed earth, or just sleep and despawn them. Use a shovel with the silk touch enchantment to dig up the cursed earth blocks. You can use these blocks to make a mob spawner, or place one under a vanilla spawner to let it run even when you\u0027re not around.\n\nWhen setting up a mob spawner in the Nether using Cursed Earth, poor design can cause huge TPS issues.\n\nMake sure the Cursed Earth is not attached to anything from the Nether. For example, you can place it on top of marble, but the marble cannot touch anything in the nether (netherrack, brick, etc), and must be floating in the air. Also, limit the Cursed Earth to 1 chunk max, with 2 block buffer to the chunk edge, including a wall."
+      "desc:8": "You were expecting something to happen when the dormant power of a Division Sigil was awakened. You were not expecting a fast spawning horde of powered up monsters!\n\nWhat twisted power does this cursed earth possess!? And what do you need to grab a few samples to-right, Silk Touch. You knew you\u0027d find more uses for that old Amber shovel eventually. Afterwards you think you\u0027d best wait for dawn. If the Sigil needs to be activated at night than surely light is harmful to this stuff.\n\nStudying the blocks you gathered you realize they can be used to make a mob spawner. Or, placed directly underneath a vanilla spawner, let it run even when you\u0027re not around.\n\nYou\u0027re sure that has many applications, but you\u0027ll need to consider each and every one of them very carefully. Mob farms, especially poorly designed ones, can easily end up killing performance...\n\n§4Case in point, when setting up a mob spawner in the Nether make sure the Cursed Earth is not attached to anything from the Nether. For example, you can place it on top of marble, but the marble cannot touch anything in the nether (netherrack, brick, etc), and must be floating in the air. Also, limit the Cursed Earth to 1 chunk max, with 2 block buffer to the chunk edge, including a wall."
     }
   },
   "tasks:9": {

@@ -1,0 +1,92 @@
+{
+  "questIDHigh:4": -5333518224845223886,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 224
+    },
+    "1:10": {
+      "questIDHigh:4": 7740689662254270130,
+      "questIDLow:4": -8619452203534033483
+    }
+  },
+  "questIDLow:4": -8777612741790985562,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 1,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "Thaumcraft:WandCasting",
+        "Count:3": 1,
+        "tag:10": {
+          "cap:8": "gold",
+          "rod:8": "greatwood",
+          "sceptre:1": 1
+        },
+        "Damage:2": 60,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "The Final Lesson in Wand Crafting",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Being prepared for the final step your mentor explains that, so far, all you\u0027ve been working with are basic wands. But there are more types than that, specialized forms better suited to specific tasks. A basic wand is good to start with, but you need to move on to something better. A wand specialized for arcane crafting. A Scepter.\n\nRegular Wands are crafted with a wand core and two caps. They have no strengths or weaknesses, only mediocrity.\n\nScepters are crafted with a wand core, three caps and a Primal Charm. They are dedicated crafting wands with more storage and an additional 10% Vis Discount, but cannot hold Foci.\n\nStaves are crafted with a staff core and two caps. They are dedicated casting tools - though able to give stuff a good whack nonetheless - with even more Vis storage, but no additional discount. They also cannot Arcane Craft, even with a Crafting Focus.\n\nStaffters are crafted with a staff core, three caps and a Primal Charm. They cannot use foci or Arcane Craft, instead they are used as Vis batteries for things like Runic Shielding or forming Mystical Constructs that your other tools simply cannot handle.\n\nYou\u0027ll have to make a note about crafting a staff later, if there\u0027s better tools available you\u0027d like to leave basic wands behind for good. Speaking of which...it is time to craft your first Scepter."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "Thaumcraft:WandCap",
+          "Count:3": 3,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "dreamcraft:item.LichBone",
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 2,
+          "Damage:2": 27306,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "Thaumcraft:WandRod",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "4:10": {
+          "id:8": "Thaumcraft:ItemResource",
+          "Count:3": 1,
+          "Damage:2": 15,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {}
+}

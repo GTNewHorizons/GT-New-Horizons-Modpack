@@ -1,0 +1,97 @@
+{
+  "questIDHigh:4": -1760720334586164547,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 280
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3208,
+      "type:1": 1
+    }
+  },
+  "questIDLow:4": -8550137975997230510,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gadomancy:BlockStoneMachine",
+        "Count:3": 1,
+        "Damage:2": 1,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Making Your Own Door",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "This trial of having to find an obelisk, and using it to open the portal is fun and all... but perhaps you don\u0027t feel like respecting the path these eldritch beings laid out before you. Perhaps you\u0027d prefer to forge your own path.\n\nBesides, there is something satisfying about not respecting these trials and prepared obstacles enough to go through the front door they prepared, rather than you tearing a hole through an interdimensional wall.\n\nWhile undoubtedly satisfying the process is fairly involved, though well explained in the Thaumonomicon itself. Apply Vis to the Redirection Focus in order to form the mystical construct.\n\nOne other addendum: The node, which needs to be right above the Redirection focus, need not be energized (cannot be, in fact, given the position of the focus). The node also needn\u0027t be Sinister.\n\nOnce the process is finished the mystical construct will revert back to regular blocks. In need of another dose of Vis to be reused, but otherwise none the worse for wear."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gadomancy:BlockNodeManipulator",
+          "Count:3": 1,
+          "Damage:2": 5,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "Thaumcraft:blockCosmeticSolid",
+          "Count:3": 4,
+          "Damage:2": 15,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "Thaumcraft:blockCosmeticSolid",
+          "Count:3": 4,
+          "Damage:2": 11,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "gadomancy:BlockStoneMachine",
+          "Count:3": 4,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        },
+        "4:10": {
+          "id:8": "gadomancy:BlockStoneMachine",
+          "Count:3": 1,
+          "Damage:2": 3,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 11,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

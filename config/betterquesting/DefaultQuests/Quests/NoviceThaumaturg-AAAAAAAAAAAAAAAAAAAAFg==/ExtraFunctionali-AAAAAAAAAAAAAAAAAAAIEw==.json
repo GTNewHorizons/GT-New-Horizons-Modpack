@@ -1,0 +1,138 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 238
+    }
+  },
+  "questIDLow:4": 2067,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "OR",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "ThaumicHorizons:lensFire",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Extra Functionality for Your Goggles",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "As you suspected it is possbible to craft lenses that, added to your Goggles of Revealing, will give it an additional function. A Lens Case will let you conveniently swap out lenses on the go.\n\nTo change lenses you\u0027ll need to assign a button to the revelant keybind first: Change Lens Focus under Thaumcraft. Hold the button to get a radial menu with the lenses you can equip, press the button while sneaking to take off an equipped lens.\n\nAn Echo Lens give you Night Vision underwater (or underlava, or similar). It\u0027s of dubious value in a world without oceans monuments or, indeed, any oceans at all. But you might end up on some other planet where it has a chance to shine.\n\nAn Evanescent Lens visibly replaces a 3x1x3 area you\u0027re looking at with transparent blocks, allowing you see what\u0027s behind them. It doesn\u0027 work on all blocks and can cause ruinous FPS drops, so if you use it to I.E. look for the End Portal, use it sparingly.\n\nAn Illumine Lens gives you Night Vision when not submerged. It has more use cases than its aquatic counterpart.\n\nA Kirlian Lens reveals mobs within a 20-odd block range as either blue circles (living mobs) or red vortexes (undead mobs). Useful for spotting any annoying bats living beneath your base.\n\nA Scholar\u0027s Lens automatically scans anything you\u0027re looking at, though note that nodes it scans are not automatically added to Node Tracker. Remember to right click a node with a Thaumometer to properly register it after a Scholar\u0027s Lens has scanned it.\n\n§3You only have to complete one task to finish the quest."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "ThaumicHorizons:lensWater",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "ThaumicHorizons:lensEarth",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 2,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "ThaumicHorizons:lensFire",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "3:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 3,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "ThaumicHorizons:lensAir",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "4:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 4,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "ThaumicHorizons:lensOrderEntropy",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "ThaumicHorizons:lensCase",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

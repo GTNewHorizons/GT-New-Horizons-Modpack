@@ -1,0 +1,74 @@
+{
+  "questIDHigh:4": 7740689662254270130,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 242
+    }
+  },
+  "questIDLow:4": -8619452203534033483,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 1,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "Thaumcraft:ItemResource",
+        "Count:3": 1,
+        "Damage:2": 15,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Potential in Condensed Form",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "The next, and final task your mentor puts before you seemed impossible at first glance. Condensing the crystal clusters you\u0027ve prepared, and binding them together into a Primal Charm able to fit onto the end of a wand... sort of.\n\nYou cannot begin to imagine what attaching this thing to a wand would do. Glorious things, no doubt, but part of you can\u0027t help but feel anxious. Very soon, it seems, you will leave what you thought you knew about crafting wands behind.\n\n§3Yes, that is not regular Gold, that is Rose Gold - or as I like to call it, Snail Gold. Thanks TFC. If you\u0027ve been relying on drops and/or loot so far this is the point where you will need to set up an EBF."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "Thaumcraft:ItemResource",
+          "Count:3": 1,
+          "Damage:2": 15,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "minecraft:sand",
+          "Count:3": 32,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "Thaumcraft:ItemLootBag",
+          "Count:3": 1,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

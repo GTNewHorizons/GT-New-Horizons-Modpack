@@ -1,0 +1,88 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 1816342746277889687,
+      "questIDLow:4": -5413354413889997259
+    }
+  },
+  "questIDLow:4": 303,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "thaumicbases:overchanter",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Breaking the Limits",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "As powerful as enchants are there are limits to their potential, such as Sharpness being limited to five levels. But these limits can be broken.\n\nThe Overchanter will push an item\u0027s enchants up by one level, going from top to bottom. Each upgrade requires 32 Praecantatio Essentia and 30 levels from a nearby player. To start the process place an enchanted item in the Overchanter and double right-click it with a wand.\n\nOne limitation: Each individual item can only have a given enchant upgraded once. If a sword\u0027s Smite enchant is upgraded that sword can never have Smite upgraded again, even if it were stripped off and replaced with a weaker enchant.\n\nThe Overchanter also will not skip enchants that don\u0027t benefit from being upgraded, I.E. Silk Touch II, but that is a minor issue given the upgraded enchants should still work normally.\n\n§3There\u0027s a minor graphical bug where §oevery§r§3 enchant seemingly gets +1 if you have the Overchanter\u0027s UI open when the process finishes, but simply closing and re-opening it fixes that."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "thaumicbases:overchanter",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "Thaumcraft:ItemResource",
+          "Count:3": 16,
+          "Damage:2": 14,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "Thaumcraft:ItemLootBag",
+          "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinTechnicianI",
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

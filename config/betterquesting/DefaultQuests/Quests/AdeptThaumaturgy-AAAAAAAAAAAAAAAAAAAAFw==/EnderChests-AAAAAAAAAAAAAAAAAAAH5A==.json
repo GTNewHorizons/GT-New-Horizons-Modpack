@@ -1,0 +1,87 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 260,
+      "type:1": 1
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1414
+    }
+  },
+  "questIDLow:4": 2020,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "EnderStorage:enderChest",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Ender Chests",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Magic Mirrors are fun and all, but as your logistical needs start to explode it\u0027s time to come up with a more practical solution.\n\nChances are Ender Chests need no introduction, but for the uninitiated: Ender Chests are an upgraded, expanded version of the vanilla Ender Chests (which can be found as loot in certain HEE structures in The End). Vanilla Ender Chests are limited to a single inventory specific to each individual player, and §ocannot§r have items automatically inserted or extracted.\n\nThese Ender Chests are instead keyed to one of 4096 different color-coded channels, which are shared server-wide. You can right click a diamond onto an Ender Chest\u0027s lock to lock it to you specifically, giving you the same number of personal channels. Sneak-right click the diamond to remove it and return the chest to public channels.\n\nApply a dye to any of the three colored strips on top of the chest to change it\u0027s channel. It might be useful to keep a book and quill on you to keep track of what channels you\u0027re using and for what, lest you get confused later on.\n\nEnder Chests on the same channel share an inventory, meaning you can place items in one chest and take them out of another chest somewhere else entirely, including another dimension. More than two chests can share the same channel, they\u0027ll all share the same inventory.\n\nI trust the uses of such a chest are largely self evident at this stage."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "EnderStorage:enderChest",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "minecraft:nether_star",
+          "Count:3": 4,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "minecraft:dye",
+          "Count:3": 1,
+          "Damage:2": 5,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "minecraft:dye",
+          "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "questIDHigh:4": -2775875841442036923,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -3063494122656282780,
+      "questIDLow:4": -6149708062780866933
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 238,
+      "type:1": 1
+    }
+  },
+  "questIDLow:4": -7842044386729831869,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "thaumicbases:nodeLinker",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Growing Your Own Nodes",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "If you cannot find a node that directly energizes into all six primal aspects you could create your own. There\u0027s a few ways you can go about this process.\n\nFirst, nodes placed close together will consume each other, a mechanic called node bullying, causing the bullying node to gain aspects. However this method is increasingly unreliable the larger a node is - as in single digit percent chances to continue growing at 10+ Vis, and steadily §odropping§r from there - and is glacially slow even in optimal conditons. Needless to say using this method is not recommended.\n\nA §osignificantly§r faster, and more reliable, alternative is to use Node Linking Devices to feed nodes to each other. It\u0027ll create a circus mess of Flux, sure, but that\u0027s nothing a Flux Scrubber focus can\u0027t clean up.\n\nAnother potential method is feeding Hungry nodes, as items they consume have a chance at giving the node a single relevant primal aspect based on the aspects of the item eaten.\n\nOf course a rare Hungry node\u0027s potential would be wasted on creating a starter node. And if it sounds like working with a magic black hole before you have any tools to make that safer is an extraordinarily risky idea, well, §oyou\u0027re not wrong§r.\n\nA safer, faster alternative is bees. The Rejuvinating line (as in lineage, not individual species) of bees are able to manipulate nodes, including growing them. For growing nodes you want Empowering bees specifically.\n\nFinally you can just energize multiple nodes, spread all six primals across them. You\u0027ll have to be careful with placing them so they don\u0027t start bullying each other, but once energized that won\u0027t be an issue. Or put them in a node stabilizer, for that matter."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "thaumicbases:nodeLinker",
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 9,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinDarkWizardI",
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

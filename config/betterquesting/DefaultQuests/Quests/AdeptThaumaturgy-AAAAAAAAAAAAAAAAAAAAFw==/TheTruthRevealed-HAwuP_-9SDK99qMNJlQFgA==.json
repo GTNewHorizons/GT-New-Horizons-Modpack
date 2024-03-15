@@ -1,0 +1,68 @@
+{
+  "questIDHigh:4": 2021041185190922290,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 284
+    }
+  },
+  "questIDLow:4": -4758436679397407360,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "TaintedMagic:ItemMaterial",
+        "Count:3": 1,
+        "Damage:2": 5,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "The Truth Revealed",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Grasping power is all well and good, but studying how to bend, break or fold the very fabric of creation itself inside-out doesn\u0027t tell you how it all came to be. How it all ended up this way. The Eldritch, their mazes, and all the other creations... who §obuild§r all of this?\n\nUsing the power of the Primordial Pearl you can create one final shard. Magic and matter, creation in it\u0027s most condensed form.\n\nPerhaps, just perhaps, this will be enough to yield answers...\n\n§3In case lore is not your idea of a reward, Shards of Creation are also used to craft three of the most powerful wand foci - Meteorology, Time and Dark Matter. You\u0027ll find quests for them in the wand foci quest tab.\n\nThey\u0027re also a required crafting ingredient for the Sword of the Cosmos, though you §omight§r§3 not be ready to craft §othat§r§3 particular item quite yet."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "TaintedMagic:ItemMaterial",
+          "Count:3": 2,
+          "Damage:2": 5,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 11,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

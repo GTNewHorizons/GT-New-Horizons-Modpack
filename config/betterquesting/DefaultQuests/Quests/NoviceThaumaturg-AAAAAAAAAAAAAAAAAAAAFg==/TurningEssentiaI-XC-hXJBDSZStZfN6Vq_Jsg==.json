@@ -1,0 +1,91 @@
+{
+  "questIDHigh:4": 6642705394324162964,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 241
+    }
+  },
+  "questIDLow:4": -5952083625734321742,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.metaitem.01",
+        "Count:3": 1,
+        "Damage:2": 9080,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Turning Essentia Into Metals",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Since stuff is made from Essentia, and the crucible lets you add Essentia to stuff, you figured you would be able to use the crucible to turn materials into other materials. Stuff into better stuff, or more stuff.\n\nYou technically succeeded, on both counts, but there are severe limitations on what is possible.\n\nFirst, given how volatile these energies are only the most robust of materials are able to survive the process. Meaning metals, for the most part.\n\nSecond, transmuting something into something else is significantly harder than transmuting something into something similar, but slightly different. Maybe even impossible.\n\nThird, turning Essentia alone into a recognizable solid form is exceptionally difficult. You will need a sample of the material you are trying to create in order to properly control the Essentia and achieve the result you want.\n\nIn short, you can turn gold into more gold. But you cannot turn string into gold, nor Essentia alone into gold. Despite the stories you\u0027ve heard to the contrary. Cursed liars...\n\nYour one success with the first case - stuff into better stuff - is the creation of steel. Infusing iron with a bit of Ordo re-orders the nugget, turning it into steel."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 1,
+          "Damage:2": 9032,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "minecraft:stonebrick",
+          "Count:3": 1,
+          "Damage:2": 3,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 1,
+          "Damage:2": 9305,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 1,
+          "Damage:2": 11305,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

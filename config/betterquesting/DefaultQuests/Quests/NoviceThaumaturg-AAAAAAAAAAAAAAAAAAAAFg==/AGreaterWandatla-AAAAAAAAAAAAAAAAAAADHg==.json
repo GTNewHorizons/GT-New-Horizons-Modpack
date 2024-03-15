@@ -1,0 +1,81 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 234
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 235
+    },
+    "2:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 236
+    }
+  },
+  "questIDLow:4": 798,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "OR",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 1,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "Thaumcraft:WandCasting",
+        "Count:3": 1,
+        "tag:10": {
+          "cap:8": "iron",
+          "rod:8": "greatwood"
+        },
+        "Damage:2": 20,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "A Greater Wand at last!",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "At last, you have in your hands a wand that holds a halfway respectable amount of Vis. Unfortunately the rush of accomplishment that washes over you is mixed with an unhealthy amount of trepidation. This is not good enough. Still not good enough. The core is fine, for now, but these iron caps are just... no. They have to go.\n\nThat said, already you have visions of crafting wands to craft wands to craft wands, each one ever so slightly better than the last. No, you don\u0027t wish to go down that path. There must be a better way. There must be...\n\n§3Going down the dedicated wand collector path is a valid option, albeit not a §ogood§r§3 option. The questbook will show you how to avoid that path, if you wish to follow it.\n\nYou can always press the NEI \u0027U\u0027 command on the caps, the core, or the boss ingredient to find the correct GT:NH recipe for the wands."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "Thaumcraft:ItemLootBag",
+          "Count:3": 1,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinDarkWizardI",
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

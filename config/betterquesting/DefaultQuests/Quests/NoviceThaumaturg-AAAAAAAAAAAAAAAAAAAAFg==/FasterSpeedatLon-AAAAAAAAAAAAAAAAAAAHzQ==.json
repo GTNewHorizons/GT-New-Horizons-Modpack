@@ -1,0 +1,70 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 238
+    }
+  },
+  "questIDLow:4": 1997,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "Thaumcraft:BootsTraveller",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Faster Speed, at Long Last",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Sometimes - that is to say, most times - you really don\u0027t like how slow you move. Concrete helps, but not enough. And having to jump up even a single block ledge, every time... simply dreadful.\n\nWell, no more. Boots of the Traveller speed you up while walking or swimming (insofar that your momevents in water can be described as such), and give you step assist to get up single block ledges with ease.\n\nUnfortunately they don\u0027t offer much in the way of protection. Also while their durability is very respectable for being made out of leather (read: Use Leather to repair BotT in an anvil) they can take damage and break. Thankfully the boots are able to receive the Repair enchant, letting them repair themselves using Vis from your wand.\n\nEither way you should be careful to take good care of your new boots. You\u0027ve no doubt you\u0027ll discover ways to further improve them, and when you do your boots will need to be in perfect condition to be infused again. Any damage could destabilize the flow of Essentia, cause a cascade reaction, and... well, it\u0027d be bad, is the point.\n\n§3If the recipe doesn\u0027t work, check the Thaumanomicon. Sometimes the Thaumonomicon gets a recipe wrong, sometimes NEI gets a recipe wrong. Boots of the Traveller are an instance of the latter.\n\nThere are, BTW, quests for upgraded electric versions of the Boots of the Traveller on the Getting Around... tab."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "Thaumcraft:BootsTraveller",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "minecraft:leather",
+          "Count:3": 8,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

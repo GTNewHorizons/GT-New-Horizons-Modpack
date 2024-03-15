@@ -3,7 +3,11 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 1099
+      "questIDLow:4": 285
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1055
     }
   },
   "questIDLow:4": 1875,
@@ -31,7 +35,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "The Soul Brazier from Thaumic Exploration will store your permanent warp. \n\nAs long as it has Ignis centi-vis and Mortuus essentia fed from underneath it will stay active, even while you are in other dimensions. Turning it off or running out of power will dump all that warp back into your body, so watch out.\n\nContaining warp does have a bit of a downside - taint. You\u0027ll need to figure out a way to stop that."
+      "desc:8": "Now that you understand the nature and different forms of Warp it\u0027s time to look into ways to deal with it. Permanently.\n\nKnowing the difficulty of truly destroying permanent Warp the Soul Brazier instead is a means of containing it. Supplied with a steady stream of Ignis centi-Vis and Mortuus Essentia it will store your permanent Warp, freeing you from its grasp.\n\nUnfortunately this comes at a cost: Taint. While active a Soul Brazier will generate both Tainted Lands, and the Tendrils to spread it, within a 15 block radius. You will need to contain that as well, and make sure no non-energized nodes exist within the radius to become Tainted themselves.\n\nTruthfully you\u0027re not sure if you can call this a permanent solution yet. If the seal never breaks, then yes, but there is no message or warning if it does. Just the natural conclusion of seeing, say, a Wither spawn right in your base. You\u0027ll need to study this in more detail..."
     }
   },
   "tasks:9": {

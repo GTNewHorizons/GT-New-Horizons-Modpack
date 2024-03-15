@@ -1,0 +1,85 @@
+{
+  "questIDHigh:4": 9075107696873063733,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 238
+    }
+  },
+  "questIDLow:4": -8621173816382003293,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "OR",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "ThaumicHorizons:essentiaDynamo",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Bootstrapping the Focal Manipulator",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Having a terrible time finding a starter node? Or nodes to link into a starter node? If you are desperate to get §osome§r centi-vis flowing to enhance your wand foci there are two alternatives: Vis and Essentia Dynamos.\n\nThese dynamos will, respectively, consume Vis from a wand (any type, even Staffters) or essentia from a Warded Jar to create centi-vis. The conversion rate is not the best, but it can get the job done.\n\nUnfortunately neither dynamo is particularly practical for recharging wands - Vis for obvious reasons, and Essentia is too slow to reliably source as a source of Vis. Though there are worse things you could do with warded jars full of junk essentia than feed them to an Essentia Dynamo.\n\nNote that Focal Manipulators will keep their progress, so you don\u0027t have to worry about supplying a steady stream of centi-Vis from start to finish. Simply producing §oenough§r will get the job done.\n\n§3You only have to craft one to complete the quest."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "ThaumicHorizons:visDynamo",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "ThaumicHorizons:essentiaDynamo",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "Thaumcraft:blockJar",
+          "Count:3": 4,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

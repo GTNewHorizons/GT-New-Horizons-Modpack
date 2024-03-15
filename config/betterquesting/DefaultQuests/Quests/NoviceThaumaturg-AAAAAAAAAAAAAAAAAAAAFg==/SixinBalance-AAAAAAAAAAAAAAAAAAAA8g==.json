@@ -1,0 +1,110 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 241,
+      "type:1": 1
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 243
+    }
+  },
+  "questIDLow:4": 242,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 1,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "Thaumcraft:ItemShard",
+        "Count:3": 1,
+        "Damage:2": 6,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Six in Balance",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Your next task is more challenging, requiring you to tame these shards and get them to work together as a single, unified force. You\u0027ve learned enough to know how to accomplish this, however: Essentia is what is needed to overpower the opposing force present within each shard, and create a Balance Shard.\n\nThe only real challenge is devising a recipe. Simply chucking shards into a crucible is easiest, but leaves you with a lot of Praecantio and Vitreus to deal with. Than again, you could probably use those Essentias. Or maybe you\u0027ve encountered something else that could prove useful here...?\n\nRegardless, once you\u0027ve made Balance Shards combining them into a Mixed Crystal Cluster is a formality. One Balance Shard per opposing pair, some Vis to bind it together, simple enough.\n\nAnalyzing the Mixed Crystal Cluster as you closely examined all the others you are surprised to find that it has the same effect. Combining them all together would have wondrous effects if it could be applied to a wand, but these clusters are huge! Surely you couldn\u0027t fit such a thing even on a giant\u0027s staff..."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "Thaumcraft:ItemShard",
+          "Count:3": 3,
+          "Damage:2": 6,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "Thaumcraft:blockCrystal",
+          "Count:3": 1,
+          "Damage:2": 6,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 9,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinSmithI",
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "dreamcraft:item.CoinDarkWizardI",
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "questIDHigh:4": -4093214570678760148,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -3063494122656282780,
+      "questIDLow:4": -6149708062780866933
+    }
+  },
+  "questIDLow:4": -7781550556571554894,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "Thaumcraft:blockStoneDevice",
+        "Count:3": 1,
+        "Damage:2": 11,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Unleasing Untapped Potential",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "You\u0027re surprised the process of energizing a node is so simple, relatively speaking. Even your old wands could have managed this... though, admittedly, they couldn\u0027t have managed moving nodes. And settling a base right on top of one seems comically inefficient.\n\nPlace the node stabilizer somewhere, place your jarred node right above it, and place the node transductor right above that. Release the node from it\u0027s prison using your wand, and give the transductor a redstone signal. The node\u0027s aspects will be drained, and a moment later, energized.\n\n...Carefully reviewing your Thaumonomicon you notice one bit you missed earlier. Applying a redstone signal to the stabilizer will turn off, huh? Perhaps it\u0027s worth placing the stabilizer on a floor of hard to break, obviously out of place blocks - obsidian, perhaps - to make sure there are no accidents with either your pickaxe or redstone signals.\n\nYou don\u0027t know what will happen if stabilization fails while a node is energized, and you\u0027re sure you\u0027re better off not knowing.\n\n§3For the record, the node would violently explode into a giant pool of flux. Try to avoid that outcome, if possible."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "Thaumcraft:blockStoneDevice",
+          "Count:3": 1,
+          "Damage:2": 11,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "Thaumcraft:blockStoneDevice",
+          "Count:3": 1,
+          "Damage:2": 9,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "chisel:obsidian",
+          "Count:3": 9,
+          "Damage:2": 4,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

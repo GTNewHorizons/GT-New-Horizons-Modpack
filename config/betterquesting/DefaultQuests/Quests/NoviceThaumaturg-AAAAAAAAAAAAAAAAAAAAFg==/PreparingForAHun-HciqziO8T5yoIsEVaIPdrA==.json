@@ -1,0 +1,90 @@
+{
+  "questIDHigh:4": 2146153024781569948,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 903,
+      "type:1": 1
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 236
+    }
+  },
+  "questIDLow:4": -6331285828437549652,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "OR",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "TwilightForest:item.trophy",
+        "Count:3": 1,
+        "Damage:2": 2,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "OR",
+      "repeat_relative:1": 1,
+      "name:8": "Preparing For A Hunt",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "The moment your hand touches these bones you know you are going to need more of them. They are so much better than the Naga Scales you used before, beyond all expectations. If all goes well it wouldn\u0027t be out of the question to upgrade your wand more than once with these things.... thought thrice is probably pushing it too far.\n\nPreparing yourself to fight more of these Liches your mentor asks how the fight went, and how many more you\u0027re planning to have. You don\u0027t hide your intentions, nor your trepidation - the towers are not easily tamed, and the twisted magic their owners possess (or are possessed by, you\u0027re not entirely sure) make for a slow fight. A fight you have shown you can win, though. So the need to break their shields again seems unecessary.\n\nYour mentor gives you a knowing nod, along with a mischievous smile, and asks if you perchance aquired the scepter of the Lich you defeated. Apparently one of them shoots out the same projectiles that break the Lich\u0027s shield, letting you break them yourself directly...?\n\nWell. Better test that theory.\n\n§3Got unlucky with getting one of the wrong scepters? No worries, give it to your mentor and he will happily trade you the right one."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "TwilightForest:item.scepterLifeDrain",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "consume:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "TwilightForest:item.scepterZombie",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "TwilightForest:item.scepterTwilight",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "questIDHigh:4": 546021281795753522,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 284
+    },
+    "1:10": {
+      "questIDHigh:4": 5483920592383397731,
+      "questIDLow:4": -7413583680774082115,
+      "type:1": 1
+    }
+  },
+  "questIDLow:4": -8493464033149314105,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "ThaumicHorizons:soulBeacon",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Cheating Death",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "For all the power you have amassed you still are not able to shoot a Witch Spider without taking a bolt to the face that hits with enough force to disintegrate your entire extended family on the spot.\n\nIt\u0027s time to have the last laugh.\n\nThe Soul Beacon allows the Thaumaturge it is bound to to cheat death, their corpse exploding in a pool of flux as their soul is send to a fresh new body.\n\nIf you\u0027re playing on Hardcore - hats off if you\u0027ve gotten this far playing on Hardcore, BTW - this is the single most powerful item in the game. All other means of cheating death leave you standing where you died, and if you cannot escape that evidently dangerous situation, you will simply §okeep§r dying until you eventually die for real.\n\nA Soul Beacon will not just save you, but §odrag you to safety§r. However painful the loss of whatever you were forced to leave or leave behind, so long as you have your life you can rebuild. And with a Soul Beacon will you will have that chance.\n\n\"Trivializes the Hardcore challenge\"? Perhaps. It\u0027s up to you whether to set it up as a final victory over the most dangerous section of said challenge §oby far§r, or whether to avoid it and keep the risk of final death on the table."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "ThaumicHorizons:soulBeacon",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 11,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinDarkWizardII",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}
