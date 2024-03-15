@@ -1,0 +1,144 @@
+{
+  "questIDHigh:4": 6093463786358457655,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -3001458036737751065,
+      "questIDLow:4": -4651368182679529390
+    }
+  },
+  "questIDLow:4": -4733578825480609380,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "WitchingGadgets:WG_WoodenDevice",
+        "Count:3": 1,
+        "Damage:2": 3,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Panic Buttons",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Like you can create effects by putting a Foci on a wand and channeling Vis through it, you could create an array of different effects infusing Essentia into a suitable container - gems spring to mind - and releasing that energy. Whether all at once, or in a more controlled fashion.\n\nThe Cutting Table allows you to infuse a gem with one to three phials or Ethereal Essences of the six primal Essentias. Point Cut gems are single use, Oval gems are rechargable with centi-Vis (hold the gem in your hand to recharge it that way, the stream of Vis will eventually figure out you\u0027re there).\n\nThe more Essentia you add, the stronger the effect of the gem. However, gems also have natural affinities and aversions, which can be seen by holding Shift and hovering over a gem. For point cut gems matching an affinity (or aversion) simply strengthens/weakens the effect of the gem further.\n\nFor oval cut gems failing to match an affinity makes the gem brittle, and prone to breaking in very short order. The stronger the effect the more likely a brittle gem will break, as well. Non-brittle gems won\u0027t break, including not using their last use so as not to break from running out of \"durability\".\n\nYou can reference the Thaumonomicon for a full list of effects, based on which primal and type of cut you use. A point cut Ordo gem, for the record, heals 12 hearts."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "WitchingGadgets:item.WG_Material",
+          "Count:3": 1,
+          "Damage:2": 8,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "Thaumcraft:blockTable",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 1,
+          "Damage:2": 8516,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "Thaumcraft:ItemEssence",
+          "Count:3": 3,
+          "tag:10": {
+            "Aspects:9": {
+              "0:10": {
+                "amount:3": 8,
+                "key:8": "ordo"
+              }
+            }
+          },
+          "Damage:2": 1,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 3,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "WitchingGadgets:item.WG_InfusedGem",
+          "Count:3": 1,
+          "tag:10": {
+            "ench:9": {
+              "0:10": {
+                "lvl:2": 3,
+                "id:2": 64
+              }
+            },
+            "GemCut:1": 0,
+            "Aspect:8": "ordo"
+          },
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 4,
+          "Damage:2": 8516,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 4,
+          "Damage:2": 8523,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "minecraft:quartz",
+          "Count:3": 4,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

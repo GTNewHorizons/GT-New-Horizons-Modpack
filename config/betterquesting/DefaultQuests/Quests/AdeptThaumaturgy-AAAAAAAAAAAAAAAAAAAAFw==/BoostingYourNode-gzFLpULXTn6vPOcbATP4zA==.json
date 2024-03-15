@@ -1,0 +1,80 @@
+{
+  "questIDHigh:4": -8993323807719076226,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 285
+    }
+  },
+  "questIDLow:4": -5819522515299206964,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "ThaumicHorizons:transductionAmplifier",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Boosting Your Nodes",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Centi-Vis is a wonderful thing, but the further you progress towards your goal the more you feel your patience is wearing thin with how slow it is. You\u0027ve heard about bees and their effects on nodes, but surely there\u0027s §osomething§r you could do without them\n\nThe Transduction Amplifier is your answer. Attached to an energized node and activated with a redstone signal it will boost the aspects of a node (for the purposes of calculating centi-Vis) by 10, potentially letting it produce more.\n\nSure, it\u0027s peanuts, but this is only the beginning. You can also attach multiple Amplifiers to the same energized node, their effects stack, but more than one will cause measurable side effects.\n\nAttaching four Aplifiers will overpower the Node Stabilizer, resulting in - at your best guess - a giant explosion as untold amounts of energy is released at once, and Vis exposed to conditions where it § (let stand Essentia) cannot remain stable, creating an enormous mess of Flux.\n\nYou\u0027ll just §onot§r test that theory and instead trust that your immeasurable genius is simply correct. Or, if not that, at least close enough."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "ThaumicHorizons:transductionAmplifier",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 10,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinDarkWizardI",
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

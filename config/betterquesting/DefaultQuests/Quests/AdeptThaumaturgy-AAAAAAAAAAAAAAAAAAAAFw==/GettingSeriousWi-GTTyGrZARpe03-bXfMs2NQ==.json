@@ -1,0 +1,43 @@
+{
+  "questIDHigh:4": 1816342746277889687,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 260,
+      "type:1": 1
+    }
+  },
+  "questIDLow:4": -5413354413889997259,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "TravellersGear:armorstand",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Getting Serious With Enchants",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "One thing you have neglected up to this point is better methods of Enchanting. You don\u0027t want to be caught off guard by anything, so time to get to work.\n\n§3Additional tools for managing enchants would be Botania\u0027s Mana Enchanter, Bibliocraft\u0027s Printing Press/Typesetting Table, and EnderIO\u0027s Enchanter. The first you can read more about in the Lexica Botania. The other two have quests in the MV and HV tabs respectively.\n\nYou can also enchant using arcane infusion, but that isn\u0027t the fastest of methods."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {}
+}

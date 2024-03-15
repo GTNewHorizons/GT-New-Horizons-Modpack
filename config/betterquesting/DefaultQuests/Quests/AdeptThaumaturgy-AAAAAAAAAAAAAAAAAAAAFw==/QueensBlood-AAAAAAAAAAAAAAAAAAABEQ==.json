@@ -1,0 +1,94 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 8364648134941167452,
+      "questIDLow:4": -6927299605528694546
+    }
+  },
+  "questIDLow:4": 273,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "dreamcraft:item.SnowQueenBlood",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Queen\u0027s Blood",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Inside the middle of the glacier is the lair of the Snow Queen, a tower made entirely out of blocks mimicking the colors of the aurora. How did she manage to create that from mere helium infused stone? And to have made so much of it, at that... no matter. If you can mine through it, it won\u0027t stop you.\n\nAdmittedly the stuff isn\u0027t §oeasy§r to mine through, but that is nothing an Equal Trade focus can\u0027t resolve. You\u0027re sure a bit of patchy dirt is perfectly fine for maintaining this place\u0027s structural integrity anyhow.\n\nAll that remains is to find a way to the top of the tower, or wherever the Queen resides, and claim the strongest binding material wand crafters have ever laid eyes upon. Given the power, and magic, the Queen possesses surely no wand you could forge will boil the blood of the Snow Queen herself.\n\n...You really wish the same could be said for the tower\u0027s interior, though. Did the Queen short change her building contractors or what?\n\n§3The Snow Queen\u0027s lair, in addition to the Castle/final boss, was never fully finished. It does have chests with some unique (if not necessarily useful) loot, but there might not exist a path to the Queen within the tower itself. In which case you\u0027ll have to go with plan A to reach her instead."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.SnowQueenBlood",
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "Thaumcraft:ItemLootBag",
+          "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinSurvivorI",
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "dreamcraft:item.CoinAdventureI",
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "dreamcraft:item.CoinDarkWizardI",
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

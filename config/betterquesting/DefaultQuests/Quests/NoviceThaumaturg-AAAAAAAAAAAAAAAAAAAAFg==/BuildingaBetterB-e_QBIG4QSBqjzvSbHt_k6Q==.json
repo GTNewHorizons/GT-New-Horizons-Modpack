@@ -1,0 +1,87 @@
+{
+  "questIDHigh:4": 8931765199779678234,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -2445278685238703133,
+      "questIDLow:4": -7598395131564661141
+    }
+  },
+  "questIDLow:4": -6643103453249805079,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "Thaumcraft:FocusShock",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Building a Better Bat Bopper",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "The swarms of bats the forces of Warp send you from time to time are starting to get on your last nerve. Showing up unannounced and quickly spreading to every corner of your base, singing their cursed songs or whatever you call the noise bats make. They need to be summarily §odisappeared§r.\n\nWith your Focal Manipulator that is now well within your grasp. The innocent(?) Shock Focus, after being given two enhancements (Potency or Frugal both work, but double Potency should guarantee any bat zapped will fall out of the sky, so guess which one you\u0027re favoring), has the option to being turned into a magical mine layer...or getting Chain Lightning.\n\nChain Lightning sounds good. You\u0027ll take §othat one§r.\n\nWith this focus the sweet sound of groups of those winged rats being send back to their makers will fill your ears in no time. You can even further increase the range of the focus, allowing it to zap even more bats at once.\n\nYou will have to be careful if you have any other pets in your base this focus might target, but beyond that? §oZap. §lZap. §nZAP!"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "Thaumcraft:FocusShock",
+          "Count:3": 1,
+          "tag:10": {
+            "upgrade:9": {
+              "0:10": {
+                "id:2": 0
+              },
+              "1:10": {
+                "id:2": 0
+              },
+              "2:10": {
+                "id:2": 17
+              },
+              "3:10": {
+                "id:2": -1
+              },
+              "4:10": {
+                "id:2": -1
+              }
+            }
+          },
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "minecraft:spawn_egg",
+          "Count:3": 4,
+          "Damage:2": 65,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

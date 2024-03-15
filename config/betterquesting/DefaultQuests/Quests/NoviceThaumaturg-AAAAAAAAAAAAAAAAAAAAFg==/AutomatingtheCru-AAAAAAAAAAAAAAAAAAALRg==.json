@@ -1,0 +1,94 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 4863381034104734390,
+      "questIDLow:4": -6405868130548037948
+    }
+  },
+  "questIDLow:4": 2886,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "Thaumcraft:blockMetalDevice",
+        "Count:3": 1,
+        "Damage:2": 9,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Automating the Crucible",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Though you are ready to move on from old crucible recipes it does still have it\u0027s place performing simpler tasks. However, now that you are able to safely smelt and store Essentia it\u0027s time to look into an automated solution. Your crucible needed manual oversight to make sure it worked. With the progress you\u0027ve made that limitation has beed lifted.\n\nThe Thaumatorium is a device that will craft crucible recipes given a heat source, the input item and the necessary Essentia. It does not require water like a crucible did. Also unlike crucibles Thaumatoriums cannot overfill and start spewing flux. If a recipe requires too much Essentia to craft in a crucible it\u0027s basically a Thaumatorium recipe.\n\nRecipes will need to be set before the Thaumatorium can do its work, though note the number of recipes that can be set at once is very limited (albeit upgradable with Mnemonic Matrixes).\n\nThe large slot on the front face of the Thaumatorium is the output slot. Place a chest against it to have items be output into the chest, or place a Hungry Chest below the slot to catch crafted items with style (a hopper also works, but looks less cool). The other slots can be used either for input or Mnemonic Matrixes."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "Thaumcraft:blockMetalDevice",
+          "Count:3": 2,
+          "Damage:2": 9,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "Thaumcraft:blockMetalDevice",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 9,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinSmithI",
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "dreamcraft:item.CoinDarkWizardI",
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

@@ -4,10 +4,6 @@
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 240
-    },
-    "1:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 254
     }
   },
   "questIDLow:4": 253,
@@ -35,7 +31,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "What a simple idea. So many people waste tons of buckets just to get aqua from water, or sano from milk. Why didn\u0027t they just dissolve the liquid itself? Idiots..."
+      "desc:8": "Given that Essentia tends to have an easier time staying stable inside of a liquid, devising an alchemical furance variant that is able to boil liquids into Essentia directly is a remarkable simple task. The thought just never occurred to you until you found yourself smeting buckets of stuff. Seemed a good opportunity to cut out the middle man.\n\nThough a disappointing number of liquids don\u0027t contain any Essentia at all this boiler will still see use turning water into Aqua, and excess Milk into Sano."
     }
   },
   "tasks:9": {

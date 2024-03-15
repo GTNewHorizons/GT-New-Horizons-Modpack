@@ -1,0 +1,42 @@
+{
+  "questIDHigh:4": 119216622223312617,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 232
+    }
+  },
+  "questIDLow:4": -7090966178869785182,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 1,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "minecraft:writable_book",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Explaining the Situation",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "One of the main goals of this quest chapter is crafting a Gold Banded Greatwood Scepter. Broadly speaking, there are two ways to do this: Craft an Iron-Capped Greatwood Scepter as an intermediate stepping stone, or stack enough Vis Discount (17% to be exact) to be able to craft it directly with your soon to be upgraded wand.\n\nNotice how the first path spends basically twice the resources, with nothing more than an immediately outdated wand to show for it. The second path also spends extra resources, but can keep using any gear-based Vis Discount acquired in the process afterwards. For future wand crafting, or otherwise.\n\nThat probably seems like a no-brainer decision. But the fact the second path exists, let stand is viable, isn\u0027t easily figured out by just reading NEI and the Thaumonomicon. Someone who isn\u0027t familiar with TC4\u0027s mechanics, or the options available from the various add-on mods, might never realize an iron-capped greatwood scepter isn\u0027t strictly mandatory.\n\nThis is why GTNH, for the uninitiated, is wand crafting hell. Seemingly no options but brute force crafting awful wands to craft still terrible wands. Until the point where that strategy stops working, and further progress simply hits a brick wall.\n\nIf you want to craft an Iron-Capped Greatwood scepter, you can. If you wish to walk the second path, the questbook can show you two ways to do so: Cloth Wand caps, or upgraded Goggles of Revealing."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {}
+}

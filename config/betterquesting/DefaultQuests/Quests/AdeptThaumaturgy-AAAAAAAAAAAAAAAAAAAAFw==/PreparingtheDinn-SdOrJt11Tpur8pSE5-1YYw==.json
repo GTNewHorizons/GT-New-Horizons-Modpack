@@ -1,0 +1,68 @@
+{
+  "questIDHigh:4": 5319783768267247259,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -8993323807719076226,
+      "questIDLow:4": -5819522515299206964
+    }
+  },
+  "questIDLow:4": -6056615250312210333,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "ThaumicHorizons:vortexStabilizer",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Preparing the Dinner Table",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Looking further into nodes, pursuing something that you - an intelligent Thaumaturge - could accomplish that a large family of buzzing insects cannot has lead you to realize two things.\n\nOne, it may be time to inform the queen of you welcoming your soon to be new magic overlords.\n\nTwo, it\u0027s possible to remotely surpress the devouring aspect of Hungry Nodes. A Vortex Attenuator, activated with a redstone signal, will send out a beam that does just that. The beam will travel a maximum of nine block spaces between node and Attenuator before it fails to reach the node.\n\nWith this you should be able to safely-well, §omore§r safely set up a contraption for feeding a Hungry node items to consume their aspects. The only problem is... why? Why spend so much time and resources doing what a family of insects can do so much better, and so much faster?\n\nThere must be more you can do with this. You §ocannot§r accept having come this far only to be schooled by a swarm - not even a proper school! - of §obees§r!"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "ThaumicHorizons:vortexStabilizer",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 10,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

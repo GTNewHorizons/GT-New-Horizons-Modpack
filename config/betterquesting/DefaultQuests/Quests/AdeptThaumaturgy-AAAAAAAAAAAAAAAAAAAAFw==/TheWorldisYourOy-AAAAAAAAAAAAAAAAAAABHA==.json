@@ -1,0 +1,88 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 502654982507676311,
+      "questIDLow:4": -9033585916627005752
+    }
+  },
+  "questIDLow:4": 284,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 1,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "Thaumcraft:ItemEldritchObject",
+        "Count:3": 1,
+        "Damage:2": 3,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "The World is Your Oyster",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "At last, you have succeeded. At last, you stand triumphant within the belly of the beast. The power, the Primordial Pearl, the prize you have fought for for so long, endured so much for, and spend so long reaching is yours. At long last!\n\nYour long struggle with Warp is over, and you have emerged victorious. Sure, the lingering energies still taint your soul, you\u0027ll have to deal with that at a later date, but you have proven that you can triumph over it. With this pearl the power to overcome it will be yours-§ois§r yours, of that there is no doubt. One way or another, this will be the end of your struggles with Warp.\n\nYou have now managed to go as far as your mentor did. But where Ifnkovhgroghprm saw impossible obstacles and retreated to the Twilight Forest, you will go forward as far as there is to go.\n\nThe sum total power of the void, the power of beings you could only describe as gods, will be yours!\n\n§3/iskamiunlocked will tell you what research you\u0027re missing to unlock the Kami part of Thaumic Tinkerer, which is more or less all that\u0027s left progression wise in Thaumcraft itself."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "Thaumcraft:ItemEldritchObject",
+          "Count:3": 1,
+          "Damage:2": 3,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 12,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "Thaumcraft:blockLootCrate",
+          "Count:3": 5,
+          "Damage:2": 2,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinDarkWizardIII",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

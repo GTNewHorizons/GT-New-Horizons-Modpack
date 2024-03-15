@@ -1,0 +1,42 @@
+{
+  "questIDHigh:4": 4319388529838211394,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 546021281795753522,
+      "questIDLow:4": -8493464033149314105
+    }
+  },
+  "questIDLow:4": -5135668266049061755,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "ThaumicHorizons:infusionSelfCheat",
+        "Count:3": 1,
+        "Damage:2": 5,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Augmenting Yourself",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "The reason the Liches in the Twilight Forest failed in their attempt to infuse themselves with their twisted runic magic is because they tried to infuse a living creature that already possessed a complex soul. Without such a soul infusing bodies is not that hard.\n\nAfter having revived a Corpse Effigy you are able to infuse it, to augment your body for when you reincarnate into it. The process to do so is described in the Thaumonomicon, but here are some notes on the results:\n\nQuicksilver Limbs will give you a permanent Speed and Jump Boost buff. Awakened Blood will give you a permanent Regeneration buff. Diamondflesh will give you a permanent Resistance buff. These are general infusions, and can be applied at the same time. Although not more than once per augment.\n\nCreature specific infusions are limited to one per creature, or body in this case. Their effects are largly self-explanatory, bar Silverwood Heart, which is probably the best of the bunch. It will fully negate the damage dealt by the Taint Poison debuff, though does not make you immune to the debuff itself, and double the speed at which Poison, Wither and Flux debuffs tick down without doubling the speed you take damage from them."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {}
+}

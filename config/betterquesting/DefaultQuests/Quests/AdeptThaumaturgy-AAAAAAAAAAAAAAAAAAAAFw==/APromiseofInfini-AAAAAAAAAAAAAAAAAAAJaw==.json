@@ -1,0 +1,43 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 280
+    }
+  },
+  "questIDLow:4": 2411,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "ExtraUtilities:dark_portal",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "A Promise of Infinite Riches",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Staring into these eyes you have created causes you to realize they are not merely staring back at you. They\u0027re trying to show you something.\n\nOnly visible as a dim reflection is a place you\u0027ve never seen before. Some kind of... building, you\u0027d guess, overlooking a vast chain of islands floating in a sunlit sky. Every island appears to be covered top to bottom in precious materials. Every plant and animal, a synchronous symphony of life, working together to generate the resources of every ore that has ever existed.\n\nIs this some sort of test? Or trap? The Warp you have endured to get this far has clouded your judgement more than once, but even so this seems far too good to be true.\n\n...Than again, you know the power of the void. This place could exist. If it does, you can find a way there. It\u0027s worth a try. If these eyes want to lead you, you\u0027ll go there. If they try to ambush you, you\u0027ll show them even monsters can know fear."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {}
+}

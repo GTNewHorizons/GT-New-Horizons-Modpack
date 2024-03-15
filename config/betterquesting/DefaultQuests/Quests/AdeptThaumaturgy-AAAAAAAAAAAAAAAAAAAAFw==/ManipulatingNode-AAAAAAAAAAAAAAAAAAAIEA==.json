@@ -1,0 +1,70 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 260
+    }
+  },
+  "questIDLow:4": 2064,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "thaumicbases:nodeManipulator",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Manipulating Nodes",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Although you should be able to jar nodes using the advanced method soon at worst, there\u0027s no escaping the fact that some nodes are pale - or worse - when you find them. And getting better at node jarring does nothing to resolve issues like a node being Tainted anyhow.\n\nSince you\u0027ve learned not to ignore nodes you\u0027ve created this device, able to manipulate the node\u0027s own energies to change it\u0027s nature. It\u0027s a slow process, though considering it would otherwise be a §odangerously unstable§r process you\u0027ll just grit your teeth.\n\nPart of you wonders if it\u0027s worth the effort, considering that energized nodes aren\u0027t able to do things like spread Tainted Lands and those are what you\u0027re using these days. But then you imagine energizing a Tainted node, missing a single Tendril cleaning up afterwards, and by the time you realize half your base is purple. If you\u0027ll go the extra mile either way you\u0027ll do so addressing the problem at it\u0027s source.\n\n§3None of this is relevant if you\u0027re sourcing endgame nodes through bees, BTW."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "thaumicbases:nodeManipulator",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "thaumicbases:nodeFoci",
+          "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

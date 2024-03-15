@@ -1,0 +1,86 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2146
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2855
+    }
+  },
+  "questIDLow:4": 299,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "Automagy:crystalEye",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Monitoring Essentia Stockpiles",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Being able to feed your Infusion Altar remotely is a big step in the right direction, but you still find yourself having to manually check every jar to make sure you\u0027ve actually got enough in stock for a given infusion. So you\u0027re still doing the warded jar dance, just with fewer steps involved.\n\nThe solution was the water infused crystalline brain Ifnkovhgroghprm asked you to craft and scan ages ago, as a lesson in expanding your knowledge base. All told, you think you can see why he\u0027d use it as an object lesson for an apprentice. You\u0027re sure you\u0027ll remember it fondly as well in the very near future.\n\nThe Essentia Locus is a multiblock structure that, given Crystalline Eyes watching jars of Essentia (much like golems not every individual Jar needs watching, just one of a given connected collection will do), is able to count how much of each type of Essentia is contained within the entire collection.\n\nYou can look at the Essentia Locus with Goggles of Revealing (or an upgraded variant thereof) equipped to see what Essentia is contained among all watched jars. In addition you can use Vis Readers to set up various conditions you wish to send a redstone signal for, using remote comparators to do so (more) remotely."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "Automagy:blockEssentiaLocus",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "Automagy:crystalEye",
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinDarkWizardI",
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

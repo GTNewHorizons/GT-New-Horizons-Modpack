@@ -1,0 +1,87 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 260,
+      "type:1": 1
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1414
+    }
+  },
+  "questIDLow:4": 2021,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "EnderStorage:enderChest",
+        "Count:3": 1,
+        "Damage:2": 4096,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Ender Tanks",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Using super tanks to make Magic Mirrors double as fluid transfer was a fun bit of trickery and all, but it\u0027s time to come up with a serious solution.\n\nEnder Tanks are to fluids what Ender Chests are to items - the same server-wide, color coded public channel system and ability to switch them to private channels with a diamond applies. Only with Ender Tanks you apply the diamond to the dial, not the lock.\n\nSpeaking of, right click the dial to toggle fluid auto-extraction. If the orange squares are up, it\u0027s turned on. Ender Tanks auto-extract at a rate of 100mb/t, although their actual throughput can be much higher if you use GT pumps (or other means) to insert/extract fluids faster.\n\n§3If you get FPS problems from large numbers of them, try the setting in the config to turn off the fancy render at the bottom."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "EnderStorage:enderChest",
+          "Count:3": 1,
+          "Damage:2": 4096,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "minecraft:nether_star",
+          "Count:3": 4,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "minecraft:dye",
+          "Count:3": 1,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "minecraft:dye",
+          "Count:3": 1,
+          "Damage:2": 11,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

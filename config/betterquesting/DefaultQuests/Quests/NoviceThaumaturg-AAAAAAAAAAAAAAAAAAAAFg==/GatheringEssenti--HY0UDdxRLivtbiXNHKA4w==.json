@@ -1,0 +1,72 @@
+{
+  "questIDHigh:4": -543189185919368008,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 241
+    },
+    "1:10": {
+      "questIDHigh:4": 979993609138294149,
+      "questIDLow:4": -7626141646688965398
+    }
+  },
+  "questIDLow:4": -5785515186728042269,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "ThaumicHorizons:alchemite",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Gathering Essentia...Explosively",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Having sat through your mentor\u0027s lecture about the dangers of Taint you wondered if it was possible to collect stable sources of Vitium Essentia. Tainted Tendrils and Tainted Goo can dissolve into flux even just being carried around, which makes crucible recipes calling for Vitium Essentia awkward.\n\nYour did succeed, eventually. But... after several failed attempts you settled on a rather brute force solution. Alchemite is a modified block of TNT (ITNT proved a bit too volatile for this process) that rips everything in it\u0027s blast radius apart to it\u0027s contained aspects, and forcibly compresses these now loose Essentias to solidify into solid crystals. Once crystallized even Vitium is completely stable, allowing you to use it as you see fit.\n\nThe idea of crystallized Essentia does intrigue you, but if you were to go down that path you would certainly need to find a less explosive way to produce them first."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "ThaumicHorizons:alchemite",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "ThaumicHorizons:alchemite",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

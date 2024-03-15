@@ -1,0 +1,42 @@
+{
+  "questIDHigh:4": 502654982507676311,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 283
+    }
+  },
+  "questIDLow:4": -9033585916627005752,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 1,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "IC2:blockNuke",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "A Note on Boss Mechanics",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Don\u0027t deal too much damage to the boss at once, or you will trigger an enrage mechanic that causes the boss to take reduced damage, speed up, regenerate health and deal more damage temporarily. The boss will show angry villager particles if it is triggered, and if the boss is §oespecially§r ticked off a message will be printed in chat as well.\n\nThe effect is proportional. But since the existence (let stand workings) of the mechanic is never told to the player, and most have no concept of combat beyond \"point 200+ armor piercing damage crossbow at it\" at this point, you can imagine that what most experienced was the boss channeling the sum total fury of every primate that has ever lived and crushing Steve flat. Quantum Armor included.\n\nThe amount of damage that will enrage a TC boss is hard to determine, given that multiple factors may or may no be in play. That said a plain, unenchanted Diamond Sword with a Strength buff could be enough to trigger it, so don\u0027t assume anything vanilla/vanilla TC is necessarily safe. Damage variance might be enough to make the difference.\n\nTesting around suggested the Thaumium Fortress Blade was the best weapon that will not trigger enraging. Although given the difficulty of testing don\u0027t assume this to be a guanrantee.\n\nIf you\u0027re feeling brave you can attempt to wield the enrage mechanic against the boss. The health regeneration aspect, at least, does not stack. So you can trigger a pitiful regeneration with, say, a Shadowmetal Fortress Blade charge attack, then try to shotgun the boss down with a crossbow. The damage reduction still applies, mind, but it\u0027s one way to prevent crossbows from triggering more regeneration than they deal damage."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {}
+}

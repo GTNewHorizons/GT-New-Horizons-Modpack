@@ -31,7 +31,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "A Charge Buffer augmentation to your wand allows it to hold 25 percent more vis."
+      "desc:8": "Adding Charge Buffers to a wand will allow it to store more Vis, without risking the screws or binding materials getting overwhelmed and turning the wand into loose components floating in goop. The difference should be around 25%, but augmenting wands isn\u0027t always perfectly exact.\n\nAll the same, this will be a fine addition to your toolkit when it comes to crafting better wands.\n\n§3Note that if you augment a Thaumium Bossed Silverwood Scepter you cannot use it to craft an Arcane Assembler."
     }
   },
   "tasks:9": {
@@ -80,6 +80,18 @@
           "id:8": "enhancedlootbags:lootbag",
           "Count:3": 1,
           "Damage:2": 10,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinDarkWizardI",
+          "Count:3": 5,
+          "Damage:2": 0,
           "OreDict:8": ""
         }
       }

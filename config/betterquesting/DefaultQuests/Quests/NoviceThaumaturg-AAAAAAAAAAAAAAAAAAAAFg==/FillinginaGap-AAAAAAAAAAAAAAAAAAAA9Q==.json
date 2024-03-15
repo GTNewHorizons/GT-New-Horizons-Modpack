@@ -1,0 +1,58 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -3063494122656282780,
+      "questIDLow:4": -6149708062780866933,
+      "type:1": 1
+    }
+  },
+  "questIDLow:4": 245,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "Thaumcraft:blockAiry",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Filling in a Gap",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Your mentor gets that bemused, knowing look on his face as you realize that you haven\u0027t been epsecially dilligent about keeping an eye out for nodes. As a result your grand design for setting up automated wand recharging has hit a bit of an obstacle.\n\nBut not to worry, your mentor is in a generous mood. If you can craft six balance shards in a crucible using only five items to supply the necessary Essentia, without any excess or spillage, he\u0027ll trade those shards for the location of a weak node he knows no one ever bothered with. They\u0027re pale, sure, but they\u0027ll get the job done.\n\nPart of you feels like you\u0027d rather work towards making the crucible obsolete given what you mentor has said about its potential dangers, but surely you can solve a simple puzzle like this, right?\n\n§3Making the questbook check for whether you\u0027ve solved the mentor\u0027s puzzle would, itself, be a much greater challenge. So instead you can invent you own story if you decide not to.\n\nYou can only choose one of your mentor\u0027s six nodes, BTW, so choose carefully."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "Thaumcraft:ItemShard",
+          "Count:3": 6,
+          "Damage:2": 6,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {}
+}

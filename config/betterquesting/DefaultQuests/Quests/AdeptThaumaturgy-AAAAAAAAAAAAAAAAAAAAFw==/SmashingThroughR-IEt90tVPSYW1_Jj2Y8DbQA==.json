@@ -1,0 +1,72 @@
+{
+  "questIDHigh:4": 2327091976942340485,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 81
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 280
+    }
+  },
+  "questIDLow:4": -5333219674710549696,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "TaintedMagic:ItemThaumicDisassembler",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Smashing Through Rocks",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "You\u0027ve heard tales of a technological marvel able to smash through just about anything at maximum speed. It is possible to create a similar device, but through magical means?\n\nTo a degree, yes. Though technically taking inspiration from Mekanism\u0027s Atomic Disassembler rather than the Vajra that exists in GTNH, the Thaumic Disassembler (on the fastest setting) is able to instamine basic stone variants, softer shovel materials like dirt or gravel, and trees.\n\nOn the tech side it can insta mine cables (GT, AE2, or EnderIO) but §onot§r instamine Casings. It can break Casings at a decent clip, but a good electric wrench will instamine by now. So not exactly enough to cut the mustard anymore.\n\nThe Thaumic Disassembler will repair itself, as Void Metal does, but this can be a hinderance as a repair tick will reset your mining progress. It can also be enchanted in an anvil, but the only regular enchant it can accept is Unbreaking. Not Efficiency, Fortune or Silk Touch, Repair, etc.\n\nThe Thaumic Disassembler has other speed settings, including one that turns the tool off."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "TaintedMagic:ItemThaumicDisassembler",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 11,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

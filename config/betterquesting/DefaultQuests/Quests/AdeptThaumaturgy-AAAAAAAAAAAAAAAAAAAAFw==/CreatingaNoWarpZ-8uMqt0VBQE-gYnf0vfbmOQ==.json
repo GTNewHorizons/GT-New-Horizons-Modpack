@@ -1,0 +1,68 @@
+{
+  "questIDHigh:4": -944864530188386225,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1055
+    }
+  },
+  "questIDLow:4": -6889812586880637383,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "WitchingGadgets:WG_WoodenDevice",
+        "Count:3": 1,
+        "Damage:2": 4,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Creating a No Warp Zone",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Given the danger that Warp represents you\u0027d like have a safe space for it. Some place you can quickly escape to where Warp cannot reach you, give you an opportunity to fall back and regroup.\n\nThe Thaumic Sauna Stove, while probably not intended for such extreme measures, does the trick. Fed water (either manually or piped in) it will create a pleasant cloud of steam which gives you a Warp Ward buff while you are within range.\n\nOne downside is that you will burn through satutation quickly staying within the steam, but that is nothing a Healing Axe can\u0027t resolve. Or a Fames injection, if keeping an axe in your hand would prove inconcenient."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "WitchingGadgets:WG_WoodenDevice",
+          "Count:3": 1,
+          "Damage:2": 4,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 10,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

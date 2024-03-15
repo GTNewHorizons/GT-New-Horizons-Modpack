@@ -3,7 +3,7 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 255
+      "questIDLow:4": 240
     }
   },
   "questIDLow:4": 254,
@@ -31,7 +31,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "This nifty little device will filter essentia out of an Alchemical Crucible or Alchemical Boiler. Once it has received a single unit of any type, it will only accept this type until it is completely empty. You can place more than one on top of an alchemical furnace, and you should. Try to have one per essentia type in the item you\u0027re melting on a furnace.\n\nYou should lock the type with a Label, or every time it fills again, it\u0027s likely to be a different type, and gum up your pipes."
+      "desc:8": "These Alembics are the final piece of the puzzle. Placed on top of an Alchemical Furnace (they can be stacked up to five high) they are able to receive Essenta after it has diffused inside the Alchemical Furnace. Which, regrettably, is a §overy§r slow process.\n\nFortunately your mentor already showed you the solution: Alumentum. Their pure flame stops impurities from clogging up the system, allowing Essentia to be diffused at a faster speed. Explains why he wanted you to craft that stuff.\n\nRegardless, once Essentia is ready it will enter the first Alembic it can. Alembics can be labelled so that only a given type of Essentia can enter, with a blank label if they contain Essentia or a preset label otherwise. Essentia Tubes can be attached to any side bar the front, although in most cases the top and bottom won\u0027t be available.\n\nAfter that...it would probably be useful to actually craft some storage containers for the Essentia, huh? Right. One more quick step..."
     }
   },
   "tasks:9": {

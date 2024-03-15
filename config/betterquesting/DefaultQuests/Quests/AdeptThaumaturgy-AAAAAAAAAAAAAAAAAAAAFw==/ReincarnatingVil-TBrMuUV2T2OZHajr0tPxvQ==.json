@@ -1,0 +1,110 @@
+{
+  "questIDHigh:4": 5483920592383397731,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -5277916606198628088,
+      "questIDLow:4": -5075300303023651424
+    },
+    "1:10": {
+      "questIDHigh:4": -6988155683619057687,
+      "questIDLow:4": -5140992038980235990
+    }
+  },
+  "questIDLow:4": -7413583680774082115,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "ThaumicHorizons:soulforge",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Reincarnating Villagers",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "A chance discoverly lead you to realize that the soul fragments present within Soul Sand need not remain as mere fragments. You are able to combine them, not as they once were but whole none the less.\n\nBy placing a Soulforge above a Soul Sieve, and feeding the former Cognitio Essentia through the top lid, fragmented souls will collide and merge together, until a whole soul is formed. They will be stored within the Soulforge until collected with a Warded Jar.\n\nTo reincarnate these souls you will need to use your Curative Vat. Place a Corpse Effigy inside, and revive it by feeding it eight Victus and eight Sano Essentia. Than right click the Curative Vat with a soul contained in a warded jar to unite the two into a living villager.\n\nTo free the villager from the Curative Vat simply right click the top hatch with an empty Warded Jar - like the one that used to contain the villager\u0027s soul a moment ago - to capture them inside the jar. Release the villager be placing the jar somewhere and right-clicking it with a wand, as you would free a jarred node.\n\nNo longer will you have to scour the overworld for villages to hopefully find decent trades. Now you will create villagers - and villages - yourself, within the comfort of your own home. Well, minus the trips to the Nether to gather Soul Sand, of course."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "ThaumicHorizons:soulforge",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "ThaumicHorizons:corpseEffigy",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "ThaumicHorizons:soulJar",
+          "Count:3": 1,
+          "tag:10": {
+            "RepairCost:3": 2,
+            "isSoul:1": 1,
+            "villagerType:3": 190,
+            "jarredCritterName:8": "Villager",
+            "display:10": {
+              "Name:8": "A Particularly Verbose Soul"
+            }
+          },
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinDarkWizardII",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

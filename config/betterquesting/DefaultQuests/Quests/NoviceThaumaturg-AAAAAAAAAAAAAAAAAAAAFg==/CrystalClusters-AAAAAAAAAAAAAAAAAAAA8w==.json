@@ -3,7 +3,7 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 242
+      "questIDLow:4": 237
     }
   },
   "questIDLow:4": 243,
@@ -31,7 +31,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "You, as a Thaumaturge, like shiny things. And what could be more shiny than a cluster made of those shards? You totally should get one of each."
+      "desc:8": "The first step, your mentor explains, is crafting a full set of crystal clusters. Tightly packed collections of the shards you are so familiar with by now, held together by a touch of Vis. The purpose of such a simple task eludes you - even your old wooden wand could craft these things without too much difficulty.\n\nDetermined to unravel the mystery you examine the crystals up close, and notice a subtle shift in the local flow of Vis. It\u0027s more stable, more... uniform. How is that possible? Against the backgroud of magic\u0027s flow it\u0027s akin to staring at a pebble on the bottom of a river, yet it is certainly there all the same. What powers do these crystals possess?"
     }
   },
   "tasks:9": {
