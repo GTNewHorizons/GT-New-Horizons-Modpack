@@ -85,25 +85,6 @@ class Quest(BQJson):
         )
 
 
-# The standard alphanumeric sort order has digits [0-9] before letters [A-Za-z].
-# However, for UUIDs in base64-encoded string form, we actually want digits to come after letters.
-# This ordering corresponds to a value-based sorting of UUIDs, and is what BetterQuesting uses.
-# Note: '-' and '_' should come even after numbers; see RFC 4648 §5
-def uuidCharSortOrder(c: str):
-    if c == '-':
-        return 300
-    elif c == '_':
-        return 400
-    elif c <= '9':
-        return ord(c) + 200
-    else:
-        return ord(c)
-
-
-def uuidStringSortOrder(s: str):
-    return [uuidCharSortOrder(c) for c in s]
-
-
 if __name__ == '__main__':
     TEMPLATE_LANG_PATH.parent.mkdir(parents=True, exist_ok=True)
     with (TEMPLATE_LANG_PATH.open(mode='w', encoding="utf-8") as lang):
@@ -131,7 +112,7 @@ if __name__ == '__main__':
             quest_line = quest_lines_dict[quest_line_id]
             quest_line.write_to_lang_file(lang)
 
-            for quest_id in sorted(quest_lines_quests_dict.setdefault(quest_line.id, set()), key=uuidStringSortOrder):
+            for quest_id in sorted(quest_lines_quests_dict.setdefault(quest_line.id, set())):
                 if quest_id not in quests_dict:
                     logging.error(f'Quest [{quest_id}] not found')
                     exit(1)
@@ -144,5 +125,5 @@ if __name__ == '__main__':
                 ('### Quests in no quest lines ###', DIR_NAME_NO_QUEST_LINE),
         ):
             lang.write(f'\n\n{title}\n')
-            for quest in sorted([q for q in quests if q.path.parent.name == dir_name], key=lambda q: uuidStringSortOrder(q.id)):
+            for quest in sorted([q for q in quests if q.path.parent.name == dir_name], key=lambda q: q.id):
                 quest.write_to_lang_file(lang)
