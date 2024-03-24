@@ -29,7 +29,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "The sensor will sends redstone signals according to the NKE of the Neutron Activator.\n\nYou only need to input some expressions like \"\u003e120MeV\", \"\u003c\u003d1000keV\" etc in the sensor, and it will work as you want."
+      "desc:8": "The sensor will sends redstone signals according to the NKE of the Neutron Activator.\n\nIt works like a cover: enter the threshold value in eV, and it will emit a redstone signal when the NKE is at least as high as the threshold."
     }
   },
   "tasks:9": {
