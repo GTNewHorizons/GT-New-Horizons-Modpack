@@ -6047,7 +6047,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALeA.desc=You will need machine to proces
 
 # Quest: Neutron Sensor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALeQ.name=§6§lNeutron Sensor
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALeQ.desc=The sensor will sends redstone signals according to the NKE of the Neutron Activator.%n%nYou only need to input some expressions like ">120MeV", "<=1000keV" etc in the sensor, and it will work as you want.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALeQ.desc=The sensor will sends redstone signals according to the NKE of the Neutron Activator.%n%nIt works like a cover: enter the threshold value in eV, and it will emit a redstone signal when the NKE is at least as high as the threshold.
 
 # Quest: Neutron Accelerator
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALeg.name=§6§lNeutron Accelerator
