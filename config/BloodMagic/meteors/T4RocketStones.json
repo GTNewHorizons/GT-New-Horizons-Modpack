@@ -1,11 +1,15 @@
 {
   "ores": [
-    "rockIo",
-    "334",
-	"rockPlanetMercury",
-    "333",
-	"rockVenus",
-    "333"
+	"GalaxySpace:ioblocks:2:900",
+	"GalaxySpace:ioblocks:0:50",
+	"GalaxySpace:ioblocks:1:50",
+
+	"GalaxySpace:mercuryblocks:2:850",
+	"GalaxySpace:mercuryblocks:1:100",
+	"GalaxySpace:mercuryblocks:0:50",
+
+	"GalaxySpace:venusblocks:1:950",
+	"GalaxySpace:venusblocks:0:50"
   ],
   "radius": 20,
   "cost": 7500000,

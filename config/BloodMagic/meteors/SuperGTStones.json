@@ -1,13 +1,9 @@
 {
   "ores": [
-    "stoneMarble",
-    "250",
-	"stoneBasalt",
-    "250",
-	"stoneGraniteRed",
-    "250",
-	"stoneGraniteBlack",
-    "250"
+	"gregtech:gt.blockstones:0:250",
+	"gregtech:gt.blockstones:8:250",
+	"gregtech:gt.blockgranites:0:250",
+	"gregtech:gt.blockgranites:8:250"
   ],
   "radius": 20,
   "cost": 775000,
