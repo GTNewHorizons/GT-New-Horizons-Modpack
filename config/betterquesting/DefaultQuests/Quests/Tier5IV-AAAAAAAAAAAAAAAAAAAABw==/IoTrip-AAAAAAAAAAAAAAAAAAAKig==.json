@@ -25,11 +25,11 @@
       "globalShare:1": 0,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "§1§b§l§1§2§3§4§5§4§6§7§8§9§a§b§c§d§e§c§b§lIo Trip",
+      "name:8": "§b§lIo Trip",
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Any ore veins not on Mercury are on this planet for this tier. The pyrolusite vein can have niobium extracted from it, and samarium can be acquired from mytryl and rubracium. Infused gold is also found here.\n\n§3Like Venus, you can collect firestone from small ore here."
+      "desc:8": "Any ore veins not on Mercury are on this planet for this tier. The pyrolusite vein can have niobium extracted from it, and samarium can be acquired from mytryl and rubracium. Infused gold is also found here.\n\n[note]Like Venus, you can collect firestone from small ore here.[/note]"
     }
   },
   "tasks:9": {

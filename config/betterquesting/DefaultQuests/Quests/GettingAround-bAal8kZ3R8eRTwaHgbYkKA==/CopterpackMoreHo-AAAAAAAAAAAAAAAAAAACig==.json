@@ -38,7 +38,7 @@
       "lockedProgress:1": 1,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "The copterpack is the first jetpack with a hover mode. It uses several different types of fuels to power it. \n\nBuckets of creosote, lava, oil, diesel, cetane, ethanol, and fuel will work.\n\nEquip your jetpack and hit Shift and the adventure backpack\u0027s action-key. You can also switch between hover and normal mode.\n\nMax flying height is limited to Y-200. \n\nVertical velocity decreases linearly with height after overcoming optimal height - 135 for jetpack and 100 for copter.\n\n§3Dropped items will be pushed away from you, just like a helicopter pushes things away, so be careful in the End, or by cliffsides."
+      "desc:8": "The copterpack is the first jetpack with a hover mode. It uses several different types of fuels to power it. \n\nBuckets of creosote, lava, oil, diesel, cetane, ethanol, and fuel will work.\n\nEquip your jetpack and hit Shift and the adventure backpack\u0027s action-key. You can also switch between hover and normal mode.\n\nMax flying height is limited to Y-200. \n\nVertical velocity decreases linearly with height after overcoming optimal height - 135 for jetpack and 100 for copter.\n\n[note]Dropped items will be pushed away from you, just like a helicopter pushes things away, so be careful in the End, or by cliffsides.[/note]"
     }
   },
   "tasks:9": {

@@ -31,7 +31,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "The Energy Acceptor is an alternative place to inject energy into your AE2 network. You can form a \"dumb\" network with just an EA, but for real capability, you\u0027ll want a Controller.\n\n§3If you\u0027re making a subnet, just transfer power over with a Quartz Fiber."
+      "desc:8": "The Energy Acceptor is an alternative place to inject energy into your AE2 network. You can form a \"dumb\" network with just an EA, but for real capability, you\u0027ll want a Controller.\n\n[note]If you\u0027re making a subnet, just transfer power over with a Quartz Fiber.[/note]"
     }
   },
   "tasks:9": {

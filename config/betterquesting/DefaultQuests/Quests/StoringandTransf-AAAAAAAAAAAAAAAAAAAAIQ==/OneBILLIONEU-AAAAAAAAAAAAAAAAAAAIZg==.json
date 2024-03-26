@@ -34,7 +34,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "If you want a stationary battery, you can make an AFSU capable of storing up to 1 billion EU and charging items. You can pick it up with a wrench, but you\u0027ll lose a percentage of the stored EU. Make sure you right-click, not left-click. Left-clicking will cause it to lose all stored EU.\n\nAs an alternative, if you can afford them, try the GT++ Energy Buffers. They are more expensive and cannot charge items, but store more, don\u0027t lose any EU, and can be configured from 1-16A. See the GT++ tab for details.\n\n§3These can apparently draw infinite amps, so maybe use a diode or something if you like having the power on."
+      "desc:8": "If you want a stationary battery, you can make an AFSU capable of storing up to 1 billion EU and charging items. You can pick it up with a wrench, but you\u0027ll lose a percentage of the stored EU. Make sure you right-click, not left-click. Left-clicking will cause it to lose all stored EU.\n\nAs an alternative, if you can afford them, try the GT++ Energy Buffers. They are more expensive and cannot charge items, but store more, don\u0027t lose any EU, and can be configured from 1-16A. See the GT++ tab for details.\n\n[note]These can apparently draw infinite amps, so maybe use a diode or something if you like having the power on.[/note]"
     }
   },
   "tasks:9": {

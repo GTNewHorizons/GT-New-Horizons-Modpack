@@ -31,7 +31,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Kinetic generator compatibility has been improved so that you no longer need transformers, you can connect directly with a cable. But why not use your transformer to send the power back to base more efficiently, it\u0027s a loss of about 57/512EU per A just going from 160 straight down to 63 without it. If you transform up (after going through 1 block of cable to transform it to GT power), you only lose about 57/2048EU per A, much better.\n\n§4IC2 machines don\u0027t care about rain, but remember to cover your transformer."
+      "desc:8": "Kinetic generator compatibility has been improved so that you no longer need transformers, you can connect directly with a cable. But why not use your transformer to send the power back to base more efficiently, it\u0027s a loss of about 57/512EU per A just going from 160 straight down to 63 without it. If you transform up (after going through 1 block of cable to transform it to GT power), you only lose about 57/2048EU per A, much better.\n\n[warn]IC2 machines don\u0027t care about rain, but remember to cover your transformer.[/warn]"
     }
   },
   "tasks:9": {

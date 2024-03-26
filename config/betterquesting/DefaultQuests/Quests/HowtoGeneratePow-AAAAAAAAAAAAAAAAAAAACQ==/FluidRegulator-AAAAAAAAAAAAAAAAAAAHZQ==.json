@@ -42,7 +42,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Turbines require precise amounts of fluids or else they will §4explode§r. Use the fluid regulator on the pipe attached to the input bus to control the rate of fluids into the turbine. To raise the fluid limit, look at the right side of the regulator and:\n\n1L - Right click with an empty hand\n16L - Right click with a screwdriver\n256L - Right click with a screwdriver while sneaking\n\nTo lower the fluid limit, do the same while looking at the left side.\n\nUse the Large Turbine Calculator and the Turbine stats sheet on the spreadsheet to find what to set it to (after deciding on a fuel). At GTNH, we do the math for you! For this at least.\n\n§3If you shift-right click on it you can use the interface which is more precise."
+      "desc:8": "Turbines require precise amounts of fluids or else they will [warn]explode[/warn]. Use the fluid regulator on the pipe attached to the input bus to control the rate of fluids into the turbine. To raise the fluid limit, look at the right side of the regulator and:\n\n1L - Right click with an empty hand\n16L - Right click with a screwdriver\n256L - Right click with a screwdriver while sneaking\n\nTo lower the fluid limit, do the same while looking at the left side.\n\nUse the Large Turbine Calculator and the Turbine stats sheet on the spreadsheet to find what to set it to (after deciding on a fuel). At GTNH, we do the math for you! For this at least.\n\n[note]If you shift-right click on it you can use the interface which is more precise.[/note]"
     }
   },
   "tasks:9": {

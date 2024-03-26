@@ -31,7 +31,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Next you should compress plantballs out of your wheat.\n\nThe MV compressor is twice as fast as the LV. You might think this means using it is a good idea. You would be §4WRONG§r. Why? Remember it also uses 4x the power. This means you spend 4x the EU to get the same amount of EU, twice as fast. Eventually, you end up with an EU deficit with this kind of setup, though not necessarily this setup. Ironic, I know. You can use multiple machines (like, a lot), and later use a Processing Array or multiblock if there is one. This applies to all fuel production, basically."
+      "desc:8": "Next you should compress plantballs out of your wheat.\n\nThe MV compressor is twice as fast as the LV. You might think this means using it is a good idea. You would be [warn]WRONG[/warn]. Why? Remember it also uses 4x the power. This means you spend 4x the EU to get the same amount of EU, twice as fast. Eventually, you end up with an EU deficit with this kind of setup, though not necessarily this setup. Ironic, I know. You can use multiple machines (like, a lot), and later use a Processing Array or multiblock if there is one. This applies to all fuel production, basically."
     }
   },
   "tasks:9": {

@@ -31,7 +31,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "A foul fume (commonly known as sulfur dioxide) is an ingredient used in many recipes. It is acquired with a random chance when cooking vanilla food items (such as bread or raw meats) or jungle saplings in an oven.\n\n§4Food and Wood burning in the oven is currently broken, use saplings instead."
+      "desc:8": "A foul fume (commonly known as sulfur dioxide) is an ingredient used in many recipes. It is acquired with a random chance when cooking vanilla food items (such as bread or raw meats) or jungle saplings in an oven.\n\n[warn]Food and Wood burning in the oven is currently broken, use saplings instead.[/warn]"
     }
   },
   "tasks:9": {

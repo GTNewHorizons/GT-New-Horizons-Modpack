@@ -31,7 +31,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Like the chandelier, the magnum torch prevents monsters from spawning. However, its range is quite big, so a single one might be enough for your entire base. The range is 64 blocks horizontally in each direction, and 32 up and down.\n\n§4Don\u0027t forget, monsters can still follow you home!"
+      "desc:8": "Like the chandelier, the magnum torch prevents monsters from spawning. However, its range is quite big, so a single one might be enough for your entire base. The range is 64 blocks horizontally in each direction, and 32 up and down.\n\n[warn]Don\u0027t forget, monsters can still follow you home![/warn]"
     }
   },
   "tasks:9": {

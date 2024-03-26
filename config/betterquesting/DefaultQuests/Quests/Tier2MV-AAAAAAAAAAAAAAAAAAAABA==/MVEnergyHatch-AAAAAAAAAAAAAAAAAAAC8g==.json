@@ -39,7 +39,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Some materials like stainless steel require 480 EU/t. Your LV hatches are not good enough. Craft a minimum of two MV hatches to upgrade your electric blast furnace to HV.\n\n§3BTW, if a MB recipe is 1EU over 1A for that tier, you §omust§r §3use a second energy hatch for it to use 2A or more."
+      "desc:8": "Some materials like stainless steel require 480 EU/t. Your LV hatches are not good enough. Craft a minimum of two MV hatches to upgrade your electric blast furnace to HV.\n\n[note]BTW, if a MB recipe is 1EU over 1A for that tier, you must use a second energy hatch for it to use 2A or more.[/note]"
     }
   },
   "tasks:9": {

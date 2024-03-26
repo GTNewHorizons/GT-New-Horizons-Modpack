@@ -29,7 +29,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Active Transformers will transform power up or down at only a 0.004% power loss, making using several in a row obsolete, if you can afford it. Unfortunately, it\u0027s kinda expensive. On the other hand, you can use it to turn your lasers from your laser hatches, which is probably a better use.\n\nIt doesn\u0027t need a Maintenance Hatch, just the I/O Hatches.\n\n§4Be sure to turn off Power Pass if you want to edit your machine and don\u0027t want it to explode!"
+      "desc:8": "Active Transformers will transform power up or down at only a 0.004% power loss, making using several in a row obsolete, if you can afford it. Unfortunately, it\u0027s kinda expensive. On the other hand, you can use it to turn your lasers from your laser hatches, which is probably a better use.\n\nIt doesn\u0027t need a Maintenance Hatch, just the I/O Hatches.\n\n[warn]Be sure to turn off Power Pass if you want to edit your machine and don\u0027t want it to explode![/warn]"
     }
   },
   "tasks:9": {
