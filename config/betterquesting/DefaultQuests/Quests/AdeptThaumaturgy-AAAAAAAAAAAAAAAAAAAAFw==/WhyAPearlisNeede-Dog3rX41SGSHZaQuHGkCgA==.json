@@ -1,0 +1,50 @@
+{
+  "questIDHigh:4": 1047148131649931364,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -5533696490909122004,
+      "questIDLow:4": -7041027724283341925
+    }
+  },
+  "questIDLow:4": -8690359387989409152,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "thaumcraftneiplugin:Aspect",
+        "Count:3": 1,
+        "tag:10": {
+          "Aspects:9": {
+            "0:10": {
+              "amount:3": 2,
+              "key:8": "exanimis"
+            }
+          }
+        },
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Why A Pearl is Needed",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "You can contain the spread of Taint, supply Ignis centi-Vis, and source a steady supply of items containing Mortuus. Extracting this Essentia, however, is a problem.\n\nSince Soul Braziers offer no warning when they fail, and a Wither spawning in your base is not acceptable, the system must be perfect. Zero points of failure.\n\nThis means basic alchemical furnacs are off the table, as they risk clogging on Essentia. Thaumium furnaces are fast enough, but can cause Essentia Tubes to clog. Meaning a golem entity to prevent that. This speed requires Alumentum, meaning a Thaumatorium and steady supply of Charcoal to produce it. And another Thaumium Furnace+golem to smelt that charcoal into Essentia. Charcoal means Coke/Pyro Ovens to produce it from logs. Logs means a tree farm. A tree farm means pollution is a concern, so Electric Air Filter to address §othat§r.\n\nThen you have to solve item logistics, power to any machine that needs it, fuel the generators, deal with any byproducts, and §ofinally§r you have a working setup...assuming you went with Bone Needles. Belladonna has enough junk Essentias to overpower even Thaumium furnaces. And so the circus expands...\n\nOn single player, this is manageable. On servers, one such setup per player? Not negotiable.\n\nAdvanced Alchemical Furnaces skip §oall§r that nonsense. No alumentum, no golems, no clogging on Belladonna. They make the setup viable for servers, and §osignificantly§r simpler for single players.\n\nAnd that is why, for the Soul Brazier to be a permanent permanent warp solution, a Pearl is needed."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {}
+}

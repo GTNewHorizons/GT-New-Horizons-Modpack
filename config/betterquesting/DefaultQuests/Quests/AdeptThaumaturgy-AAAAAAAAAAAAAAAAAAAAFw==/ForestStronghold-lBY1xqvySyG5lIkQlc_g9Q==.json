@@ -1,0 +1,42 @@
+{
+  "questIDHigh:4": -7775968579204003039,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 263
+    }
+  },
+  "questIDLow:4": -5074280175813795595,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "TwilightForest:item.phantomHelm",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Forest Stronghold",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "This place is true to it\u0027s name, and somewhere hidden within this place should be a buried Stronghold. What traps and treasures lie in wait for you here you\u0027re not sure, but you will need to find and defeat the restless spirits of those buried somewhere within this oversized crypt to proceed any further.\n\nThe entrace is guarded by a pedestal that will only yield if you place a trophy on top, though you can remove it afterwards. Why this place insists on testing your ability to have slain a Naga when getting here without slaying a Hydra cursed your vision is beyond you, but you imagine it has something to do with the fact that the knights of this place died ages ago. Knowledge can be destroyed too, after all.\n\nOnce this place\u0027s former protectors have been put to final rest you can proceed to the center of the dark forest, where the Tower awaits...\n\n§3If you\u0027ve got any Soul Vials consider taking a Helmet Crab with you. A source of Knightmetal might just prove useful in the very, §overy§r§3 distance future."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {}
+}

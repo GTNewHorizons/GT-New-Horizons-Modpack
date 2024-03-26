@@ -1,0 +1,94 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 274
+    }
+  },
+  "questIDLow:4": 261,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "TwilightForest:item.fieryTears",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Real Magic Tears",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "On the very top of the Tower you find the largest, §oloudest§r Ghast you have ever seen. Strange contraptions, and collections of smaller ghastlings you encountered repeatedly throughout the tower guarding(?) them, hide in the damaged side rooms.\n\nYou\u0027re sure there\u0027s some sort of secret to the mechanism that would allow someone to fight this Ur-Ghast sword to tentacle, but you didn\u0027t pursue Thaumaturgy to whack things repeatedly with glorified sharp sticks, so that can be for another daring adventurer to find out.\n\nOnce the Ur-Ghast falls silent at long freaking last, a chest with the spoils of your kill appears in the center of the impromptu arena. Beats having to scour the Tower, the forest canopy or the tower clearing for them, so you\u0027re not complaining.\n\nThe Fiery Tears of the Ur-Ghast don\u0027t have the regenerative properties that the Hydra\u0027s blood did, but they possess fantastic potential all the same. Who needs regeneration when channeling entire nodes worth of Vis doesn\u0027t bother you at all.\n\nWith this fiery adventure behind you the next step is to head to the forest covered in a blanket of snow."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "TwilightForest:item.fieryTears",
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "Thaumcraft:ItemLootBag",
+          "Count:3": 1,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinSurvivorI",
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "dreamcraft:item.CoinAdventureI",
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "dreamcraft:item.CoinDarkWizardI",
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

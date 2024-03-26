@@ -1,0 +1,80 @@
+{
+  "questIDHigh:4": -5277916606198628088,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 5133654287891054726,
+      "questIDLow:4": -9039136794179991601
+    }
+  },
+  "questIDLow:4": -5075300303023651424,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "ThaumicHorizons:inspiratron",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Sifting for Knowledge (Fragments)",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Knowledge Fragments can be a precious resource for a budding Thaumaturge. They can be combined into research notes for hidden researches yet undiscovered, and you\u0027ve heard rumor they are a key component for intricate cores able to hold the knowledge of arcane recipes.\n\nYou know magical theory well enough to know that core must be part of some manner of autocrafting device. A book and quill would have worked otherwise.\n\nNot wishing to be caught off-guard should you start crafting the same cores one day you\u0027ve put together the Inspiratron. Placed above a Soul Sieve and given paper it will experience the memories of the soul fragments passing through it, and record anything of significance to your Thaumaturgical research. Once enough knowledge has accumulated it will be consolidated into a Knowledge Fragment.\n\nYou know, most people would probably be disturbed by the sight of a brain encased in a glass jar experiencing the fragmented memories of the souls of the damned and only recording anything of Thaumaturgical value. You, however? You think you can take this device a step further..."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "ThaumicHorizons:inspiratron",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "minecraft:soul_sand",
+          "Count:3": 64,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinDarkWizardII",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

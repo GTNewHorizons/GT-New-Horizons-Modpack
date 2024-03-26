@@ -1,0 +1,97 @@
+{
+  "questIDHigh:4": 22128479688347037,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 5319783768267247259,
+      "questIDLow:4": -6056615250312210333
+    }
+  },
+  "questIDLow:4": -8906937288627403837,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "ThaumicHorizons:vortexTH",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Containing Excess",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "You mentioned before applying four Transduction Amplifiers to an energized node would overwhelm the node stabilizer, and the entire thing would explode in a mess of flux. Vortex Attenuators, however, might be able to stabilize whatever the end result will be.\n\nThis process is foolhardy no matter how you slice it, but you want to see the end result of it. First, find a place you don\u0027t mind seeing exploded and potentially bathed in flux. There shouldn\u0027t be any, but you should prepare for the worst.\n\nSet up an energized node as you normally would - stabilizer, transductor, etc. Place six Vortex Attenuators facing all sides of the node, including top and bottom, and activate them. A redstone block would be ideal, as they are more resistant to explosive forces and you §odo not§r want any of them to turn off for any reason. Ensure they are not too far away, though not too close to the imminent explosion either.\n\nThe Vortex beams will be blocked initially, that is fine. Said obstacles will be disintegrated in a swarm of violent energies soon.\n\nActivate the Transduction Aplifiers. Upon activating the final one the fireworks will begin. If the Vortex Attenuators are within range, active, and still intact, their beams will converge and stabilize the vortex created by the energized node being torn open.\n\nSuccess! Let\u0027s see an Empowering Queen accomplish §othat§r!\n\n...Actually, speaking of accomplishments... what can§r this stabilized vortex accomplish?"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "Thaumcraft:blockStoneDevice",
+          "Count:3": 1,
+          "Damage:2": 11,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "Thaumcraft:blockStoneDevice",
+          "Count:3": 1,
+          "Damage:2": 9,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "ThaumicHorizons:transductionAmplifier",
+          "Count:3": 4,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "ThaumicHorizons:vortexStabilizer",
+          "Count:3": 6,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 11,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

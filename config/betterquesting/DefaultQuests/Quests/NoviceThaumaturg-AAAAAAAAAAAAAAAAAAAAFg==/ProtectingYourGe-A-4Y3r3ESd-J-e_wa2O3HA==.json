@@ -1,0 +1,108 @@
+{
+  "questIDHigh:4": 283191171516484063,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 238
+    }
+  },
+  "questIDLow:4": -8504502605439584484,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "OR",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "Thaumcraft:ItemRingRunic",
+        "Count:3": 1,
+        "Damage:2": 1,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Protecting Your Gear",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Now that damage to your gear is looking to become quite bothersome, given the amount of effort that will go into crafting the stuff sooner or later, it seems prudent to start protecting your valuables better.\n\nAlso if a skeleton shoots you straight in the face it would be nice if that arrow bounced off of a magic shield rather than your skull.\n\nTaking inspiration from the Liches you\u0027ve fought in the Twilight you\u0027ve created a full set of baubles that will give you Runic Shielding. Though, with a bit of research, you\u0027re sure you could figure out a way to apply this to other applicable magic items as well.\n\nRunic Shielding is, effectively, a shield layer on top of your normal health bar, with a number of \"hearts\" (shields?) equal to your total Runic Shielding. Runic Shielding takes Vis from your wand to charge. Damage to your Runic Shielding will not impact the durability on your armor.\n\n§3You only have to complete one task. Beware that the Amulet and Girdle are more unstable recipes than the ring is."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "Thaumcraft:ItemAmuletRunic",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "Thaumcraft:ItemRingRunic",
+          "Count:3": 1,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 2,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "Thaumcraft:ItemGirdleRunic",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "minecraft:diamond",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "Thaumcraft:ItemResource",
+          "Count:3": 1,
+          "Damage:2": 14,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

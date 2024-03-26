@@ -1,0 +1,72 @@
+{
+  "questIDHigh:4": -2445278685238703133,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -4093214570678760148,
+      "questIDLow:4": -7781550556571554894
+    },
+    "1:10": {
+      "questIDHigh:4": 9075107696873063733,
+      "questIDLow:4": -8621173816382003293
+    }
+  },
+  "questIDLow:4": -7598395131564661141,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "Thaumcraft:blockStoneDevice",
+        "Count:3": 1,
+        "Damage:2": 13,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "OR",
+      "repeat_relative:1": 1,
+      "name:8": "Enhancing Wand Foci",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Wand Foci are great fun, but you\u0027ve often been frustrated by their limitations. Just a touch more juice, a bit more range, or even just reducing the Vis cost of using it would make them so much better.\n\nWith centi-Vis, that is now a reality. The Focal Manipulator is able to enhance wand foci up to five times, giving them greater potency, reduced cost, or even different functions in specific cases. You are limited to five enhancements per individual foci, and once applied they cannot be stipped off, so you\u0027ll need to choose what you want carefully.\n\nIn addition to centi-Vis the Focal Manipulator needs eight levels of experience per enhancement you add, times the number of enhancements the focus will have after adding the one you\u0027re trying to apply. You\u0027ll need to look into ways to be frugal with your experience if you don\u0027t want to be drained dry."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "Thaumcraft:blockStoneDevice",
+          "Count:3": 1,
+          "Damage:2": 13,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "minecraft:experience_bottle",
+          "Count:3": 8,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

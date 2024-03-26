@@ -3,7 +3,7 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 232
+      "questIDLow:4": 227
     }
   },
   "questIDLow:4": 234,
@@ -31,7 +31,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "While doing all your research and mining of these infused stones, you had an idea how to use the wood of a Greatwood tree to make a new wand. Actually, it turned out to be pretty simple, but you lacked one important thing back then: vis! The vis makes sure the wood doesn\u0027t lose it\u0027s magical conductivity while forming the rod."
+      "desc:8": "Though your interest was piqued by the novel item you are able to craft with just your current wand, there is simply no denying that it is not enough. Not close to enough. You need something better, and you have an idea on where to begin.\n\nYou have experimented with using different types of wood as wand cores. While most types of wood act the same as any other - that is to say, they dissolve without the application of some seed oil to hold the thing together - you have found two noteworthy exceptions so far: Greatwood, and Silverwood. The two trees that lead you to the Twilight in the first place.\n\nOf those you are able to craft Greatwood wand cores, only up until now you lacked the critical component to bind the thing together: Vis. With your current wand, however, you will be able to create a functional Greatwood wand core. It\u0027s just a matter of finishing the job.\n\n§3You can also craft a gold banded wooden wand as a cheaper short term upgrade. Though if you\u0027re expecting to do a lot of Thaumcrafting pre-Stainless Steel I would recommend doing so: The best early Vis Discount gear can be crafted with it, making it a solid investment in the long run.\n\nIf you\u0027re going to be upgrading to a Stainless Steel based wand sooner rather than later it\u0027s probably better to just rush that, and skip upgrading your basic wooden wand entirely."
     }
   },
   "tasks:9": {
@@ -45,7 +45,7 @@
       "requiredItems:9": {
         "0:10": {
           "id:8": "Thaumcraft:WandRod",
-          "Count:3": 2,
+          "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": ""
         }

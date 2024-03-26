@@ -1,0 +1,84 @@
+{
+  "questIDHigh:4": -3541511418309685573,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 297
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 285
+    }
+  },
+  "questIDLow:4": -6883096356334341523,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "Automagy:blockMirrorAlt",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Central Dropoff Point",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "You knew the theory was in favor of being able to connect to the link created by two magic mirrors, and turn one into a central dropoff point. With the discovery of Void Metal that theory can now be put into practice.\n\nMelding Mirrors can connect to one of a linked pair of magic mirrors, sending items they receive out of the mirror they are linked to. Melding Mirrors cannot recieve items, however, only send them.\n\nTo bind a Melding Mirror you will need a Crystalline Eye to \"watch\" the location of the magic mirror, and slot that into a Melding Mirror to bind it to the watched magic mirror. This lets the Melding Mirror find a path to the magic mirror through the void, and permit sending items through that path.\n\nYou can bind more than one Melding Mirror to the same Magic Mirror, letting all of your various miners send their rich bounty of ores straight to ore processing automatically.\n\nThere is one catch: While Ordo centi-Vis will stabilize the connection between two magic mirrors regardless of which mirror receives centi-vis, with Melding Mirrors the connection will not be stable unless the §ospecific§r magic mirror the Melding Mirrors are sending items to is fed Ordo centi-Vis."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "Automagy:blockMirrorAlt",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "Automagy:crystalEye",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "Automagy:blockMirrorAlt",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "Automagy:crystalEye",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

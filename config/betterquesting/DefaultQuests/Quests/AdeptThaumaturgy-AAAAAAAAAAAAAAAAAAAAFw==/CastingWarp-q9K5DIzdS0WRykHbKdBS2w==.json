@@ -1,0 +1,85 @@
+{
+  "questIDHigh:4": -6065582284560577723,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 284
+    }
+  },
+  "questIDLow:4": -7941462583359286565,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "TaintedMagic:ItemWandRod",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Casting Warp",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Warp represents a major supply of power. If you could but tap into that power you\u0027re sure its limits would be a sight to behold.\n\nWarpwood is the most potent wand core bar Ichorium based wands, in terms of sheer Vis capacity. To craft one you\u0027ll first have to craft and grow a Warpwood tree, then infuse a log of that tree into a wand core.\n\nWarpwood staves in particular are ruinously expensive, but their Vis storage lets them be one of the few wands capable of using an Experience Focus on mob spawners without having to rely on another wand - a Staffter, most likely - as a Vis battery.\n\nIn addition to it\u0027s almost unrivalled capacity, Warpwood wands will automatically recharge themselves based on how Warped their user is. Having Warp Ward active disables this effect."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "TaintedMagic:BlockWarpwoodSapling",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "TaintedMagic:ItemWandRod",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 12,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

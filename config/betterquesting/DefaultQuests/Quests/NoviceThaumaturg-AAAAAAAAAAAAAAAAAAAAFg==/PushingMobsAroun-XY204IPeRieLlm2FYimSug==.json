@@ -1,0 +1,91 @@
+{
+  "questIDHigh:4": 6741243093621556775,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 227
+    }
+  },
+  "questIDLow:4": -8388396836286000454,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "OR",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "thaumicbases:relocator",
+        "Count:3": 1,
+        "Damage:2": 6,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Pushing Mobs Around",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Fans have always been a staple device in certain builds to move stuff around, especially when fluids don\u0027t or can\u0027t work. You feel like you should be able to make better fans using magic components, though.\n\nThaumic Relocators come in two flavors: Yellow/Nitor pushes, whereas blue/Alumentum pulls. Both are effective up to ten blocks out from the Relocator, and exert enough force that fighting against it is hard if not futile. Hold Sneak to reverse the effect, pushing instead of pulling or visa-versa.\n\nUnlike Openblocks fans they cannot be placed at an angle, though they can face up or down. They are also active by default without a redstone signal, and can be disabled by giving them a signal.\n\nYou can use yellow Relocators as improvised Arcane Levitators, but you will drop like a rock rather than the gentle descend Levitarors allow for. The same caveat applies to using blue Relocators as a primitive beam up device, whatever it would be called.\n\n§3You can complete either task to complete the quest."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "thaumicbases:relocator",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "thaumicbases:relocator",
+          "Count:3": 1,
+          "Damage:2": 6,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "thaumicbases:relocator",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "thaumicbases:relocator",
+          "Count:3": 1,
+          "Damage:2": 6,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

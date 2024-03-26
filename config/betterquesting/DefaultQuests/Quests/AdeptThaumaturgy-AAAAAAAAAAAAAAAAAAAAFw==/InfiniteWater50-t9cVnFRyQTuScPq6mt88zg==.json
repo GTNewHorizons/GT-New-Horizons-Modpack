@@ -1,0 +1,72 @@
+{
+  "questIDHigh:4": -5199663483600092869,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 260
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 860
+    }
+  },
+  "questIDLow:4": -7894534467411297074,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "ThaumicExploration:everfullUrn",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Infinite Water 5.0",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Your Thirsty Tanks were great for water, back when you first made them, but they\u0027re starting to look a little dated. It\u0027s time to come up with a better solution. And a quieter one, preferrably.\n\nEverfull Urns are infinite wells of water. You can draw water from them through the top pretty much as fast as you are able to pump out of it, and Urns placed next to crucibles (or cauldrons from vanilla or Witchery) will automatically refill them with water.\n\nA bit late, given you\u0027ve left crucibles behind a while ago, but they\u0027ll certainly be convenient for Witchery or the odd bit of manual crafting. Your Essentia production has improved by leaps and bounds, but some things are still faster - or at least simpler - to chuck into a crucible."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "ThaumicExploration:everfullUrn",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 10,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

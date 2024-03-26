@@ -1,0 +1,79 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 119216622223312617,
+      "questIDLow:4": -7090966178869785182
+    }
+  },
+  "questIDLow:4": 237,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 1,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "Thaumcraft:WandCasting",
+        "Count:3": 1,
+        "tag:10": {
+          "cap:8": "cloth",
+          "rod:8": "greatwood"
+        },
+        "Damage:2": 35,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "The Best(?) Wand",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Perfection! The improved caps are able to channel Vis with comfortable ease, and the wand core is able to hold a respectable amount. At last you have created a wand you can unironically call \"decent\". You are, admittedly, a bit stumped as to how you could improve this wand further, but that can wait for another day. Today you celebrate!\n\nOf course the moment you show your finest creation to date to your mentor he merely nods to himself with a bemused smile. Were you wrong? Is there something you missed?\n\nRegardless, your mentor feels like you are \"ready\". Whatever could that mean? One way to find out, you suppose."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "minecraft:spawn_egg",
+          "Count:3": 4,
+          "Damage:2": 95,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "Thaumcraft:ItemLootBag",
+          "Count:3": 1,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinDarkWizardI",
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

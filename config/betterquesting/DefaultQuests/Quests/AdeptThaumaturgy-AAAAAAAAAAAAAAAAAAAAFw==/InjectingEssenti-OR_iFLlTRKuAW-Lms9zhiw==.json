@@ -1,0 +1,104 @@
+{
+  "questIDHigh:4": 4116257163076388011,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 260
+    }
+  },
+  "questIDLow:4": -9197508333486153333,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "ThaumicHorizons:bloodInfuser",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Injecting Essentia",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "One thing that always intrigued you was infusing yourself with Essentia. Though you\u0027ve seen what happened to those who\u0027ve tried and failed, and you\u0027ve no desire to join their ranks.\n\nTurns out there is a safe way. Drawing on your knowledge that Essentia is easier to keep stable in liquid, you\u0027ve created a device that is able to infuse blood samples with Essentia. Once injected back the Essentia will have a noticeable, albeit short lived effect. You imagine those who turned into Liches wanted that power to last forever. They got their wish, in the end... or until you came along, at least.\n\nNot all types of Essentia have an effect, at least as far as you can tell, but many do. You\u0027ll have to experiment to see what mixes you can create."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "ThaumicHorizons:bloodInfuser",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "Thaumcraft:ItemEssence",
+          "Count:3": 8,
+          "tag:10": {
+            "Aspects:9": {
+              "0:10": {
+                "amount:3": 8,
+                "key:8": "fames"
+              }
+            }
+          },
+          "Damage:2": 1,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "Thaumcraft:ItemEssence",
+          "Count:3": 8,
+          "tag:10": {
+            "Aspects:9": {
+              "0:10": {
+                "amount:3": 8,
+                "key:8": "tutamen"
+              }
+            }
+          },
+          "Damage:2": 1,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "Thaumcraft:ItemEssence",
+          "Count:3": 8,
+          "tag:10": {
+            "Aspects:9": {
+              "0:10": {
+                "amount:3": 8,
+                "key:8": "victus"
+              }
+            }
+          },
+          "Damage:2": 1,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "questIDHigh:4": -2000208540272409263,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 81
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 285
+    }
+  },
+  "questIDLow:4": -5932235942079780991,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "TaintedMagic:ItemVoidmetalGoggles",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Gazing Into the Void",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "You remember the first time you put on Goggles of Revealing, being able to see Vis clearly with your own eyes (or the lenses in front of them, at any rate). Seeing the flow, feeling how much easier it was to draw upon... you wish to experience that again.\n\nIt\u0027s only fitting to upgrade your old goggles to let you catch a glimpse of the void. Not directly of course, that is either not how the void works or not how you §owant§r it to work within a biome\u0027s distance of you ideally. You want to see the patterns. The disruptions, the ripples they leave in their wake.\n\nYou\u0027re confident you\u0027ll have an easier time channeling Vis as a result. Unfortunately the goggles are not exactly what you would call protective gear, but you\u0027ve always recognized the difference between armor and gear specialized for channeling Vis."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "TaintedMagic:ItemVoidmetalGoggles",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinDarkWizardII",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

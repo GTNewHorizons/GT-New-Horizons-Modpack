@@ -1,0 +1,90 @@
+{
+  "questIDHigh:4": -5533696490909122004,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1875
+    }
+  },
+  "questIDLow:4": -7041027724283341925,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "thaumcraftneiplugin:Aspect",
+        "Count:3": 1,
+        "tag:10": {
+          "Aspects:9": {
+            "0:10": {
+              "amount:3": 2,
+              "key:8": "mortuus"
+            }
+          }
+        },
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Sourcing Mortuus",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Ultimately you can think of a few different ways to produce a steady supply of Mortuus Essentia, though knowing this process will have to run like a perpetual motion machine regardless of whether you\u0027re around to see it (read: online of offline on a server) does influence which methods you should consider viable.\n\nThe single player exclusive option is to set up a Skeleton Druid (regular skeletons cause issues RE: Ninja Skeletons) mob farm, and use their bones to source Mortuus. Cutting the bones into Bone Needles will increase the Mortuus yield per bone.\n\nA server viable option is an Extreme Entity Crusher running regular Skeletons, which is fast enough on EV power.\n\nAlso server viable are Corpseplant or Belladonna IC2 crops, ideally statted. Corpseplant yields more Mortuus per bone through Bone Needles, but Belladonna has one fewer growth stage and doesn\u0027t share a drop table with Rotten Flesh.\n\nEither which way you\u0027ll need 1 Mortuus Essentia every 3 seconds, minimum, to keep a Soul Brazier running.\n\n§3Worth repeating: If you\u0027re on a server §lvery strongly§r§3 consider not going the Skeleton Druid mob farm method. The performance impact of in world mob farms is considerable, and multiplied per player that escalates very quickly."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "witchery:ingredient",
+          "Count:3": 8,
+          "Damage:2": 7,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "witchery:ingredient",
+          "Count:3": 8,
+          "Damage:2": 21,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "IC2:itemCropSeed",
+          "Count:3": 2,
+          "tag:10": {
+            "owner:8": "gregtech",
+            "name:8": "Corpseplant",
+            "scan:1": 4,
+            "growth:1": 1,
+            "resistance:1": 1,
+            "gain:1": 1
+          },
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

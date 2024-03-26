@@ -1,0 +1,74 @@
+{
+  "questIDHigh:4": 661994751622596162,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 1465908945680679184,
+      "questIDLow:4": -6720078476860467340
+    }
+  },
+  "questIDLow:4": -7043434814863951008,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "Thaumcraft:ItemBucketDeath",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "The Short Term Solution",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Lacking the means to power an Extreme Entity Crusher\u0027s exorbitant demand to run Wisps you\u0027ve been forced to look into low tech solution for harvesting the essences from them. Needless to say this is not a preferred solution, but you use the tools you are given.\n\nAnd you certainly intend to do just that. Being always Infernal - which is also the reason why the EEC demands a premium - Wisps are prone to dropping tons of random junk. You can\u0027t risk storage getting clogged and items piling up in the world, and Liquid Death offers a solution. Dissolved in this fluid Wisps will only drop the Essences you actually want, as well as crystallized shards of their attuned Essentia.\n\nThe irony of going out of your way to avoid ever manifesting the drops which cause the EEC to demand a premium power cost, by the way, is not lost on you.\n\nUsing Liquid Death means you will need a means of drawing Wisps to it, although you needed that anyway considering the creatures can fly. A Corporeal Attractor does just that, and can be filtered with a Soul Mould to only attract Wisps.\n\nBeyond that all you need is some method of collecting and storing the drops, some method of voiding overflow of course, and a second if not third round of making §oabsolutely sure§r the spawner §ocannot§r create Wisps outside the kill box. If a cave underneath were to get flooded with Wisps that would be disastrous...\n\n§3Remember that powered spawners can be redstone controlled, so use that Online Detector to make sure it only turns on when you\u0027re actually online yourself."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "Thaumcraft:ItemBucketDeath",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "ThaumicTinkerer:magnet",
+          "Count:3": 1,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "RandomThings:onlineDetector",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

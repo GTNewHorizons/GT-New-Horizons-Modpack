@@ -1,0 +1,42 @@
+{
+  "questIDHigh:4": 6403467785367537168,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 4936230313285405567,
+      "questIDLow:4": -7442918984065791679
+    }
+  },
+  "questIDLow:4": -8630766567648852288,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "LogisticsPipes:item.remoteOrdererItem",
+        "Count:3": 1,
+        "Damage:2": 6,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Getting Very Creative",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Magic Mirrors are great for sending item to your base, but what about receiving items? You could carry a Magic Mirror that is linked to one already hanging in your base on you, and place it to create a temporary but funtional connection anywhere you are. But is it possible to order items to be send to you remotely?\n\nAs a matter of fact, yes, that is indeed possible. The solution lies with Logistics Pipes: A Remote Orderer will remotely request items to be send to a linked Remote Orderer Pipe. That pipe, in turn, can send requested items to a buffer chest, which in turn feeds items to the base side mirror, which sends those items through the mirror you placed down. Just don\u0027t forget to pick your mirror back up afterwards.\n\nUsing Provider Pipes (or the module upgrade) allows you to expose items to a Logistics Pipe network, letting them be requested. Attaching one to an AE2 Interface exposes the whole connected network, similarly to using a Storage Bus on an Interface, letting you remotely request the content of your future digital storage system as well.\n\nMore information about Logistics Pipes and how their basic mechanics work can be found in the Handle Logistics With Pipes quest tab, including a quest for the Remote Orderer.\n\n§3In answer to the author\u0027s note on said quest: Because early interdimensional AE2 coverage involves putting a Quantum Ring in the Spectre dimension, which costs a bit of passive EU/t and is gated behind Mars. Carrying a mirror does not cost power passively, and can be done pre-Moon."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {}
+}

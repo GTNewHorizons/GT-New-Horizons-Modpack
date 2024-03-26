@@ -1,0 +1,80 @@
+{
+  "questIDHigh:4": 7631672304297136022,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 227
+    }
+  },
+  "questIDLow:4": -6437357523190991462,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "Thaumcraft:blockWoodenDevice",
+        "Count:3": 1,
+        "Damage:2": 1,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Wireless Redstone Pulses",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Redstone is a hugely useful and convenient tool for automating all sorts of things, but getting it where it needs to go can be challenging sometimes. You\u0027ve devised a wireless solution... albeit, an odd one.\n\nThe Arcane Ear is a device that can be tuned to listen for a certain tone and pitch, the same way one would tune a Note Block. When the Arcane Ear hears it\u0027s specific sound made by a Note Block it will emit a short redstone pulse. Effectively, this lets the two work as a form of wireless redstone.\n\nYou expected these devices to have limited range, sound can\u0027t travel too well inside a factory after all. But these Arcane Ears can hear note blocks within a §o64 block radius sphere§r. You\u0027d be hard pressed to hear anything short of a Howler Alarm at that distance, and these Arcane Ears will detect a note block §owhile§r one is blaring at max volume!\n\nAnd that\u0027s just one of them. There\u0027s nothing stopping you from daisy chaining Arcane Ears activating Note Blocks to activate other Arcane Ears, bar having to deal with the signal lag that would create.\n\nYou can also create a circle of Arcane Ears and repeaters to create a rudimentary clock, though you\u0027re not sure what kind of Rube Goldberg machine couldn\u0027t just suffice with an §oactual§r redstone clock."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "Thaumcraft:blockWoodenDevice",
+          "Count:3": 1,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "minecraft:noteblock",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinDarkWizardI",
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

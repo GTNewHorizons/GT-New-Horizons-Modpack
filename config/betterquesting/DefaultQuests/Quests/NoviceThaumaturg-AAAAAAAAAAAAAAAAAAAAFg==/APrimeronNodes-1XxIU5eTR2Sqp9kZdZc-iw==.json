@@ -1,0 +1,61 @@
+{
+  "questIDHigh:4": -3063494122656282780,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -5333518224845223886,
+      "questIDLow:4": -8777612741790985562
+    }
+  },
+  "questIDLow:4": -6149708062780866933,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "EMT:PortableNode",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "A Primer on Nodes",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "With a Scepter you are now able to capture nodes in jars, albeit only using basic method that is very likely to damage them. Realizing you don\u0027t know much about nodes, having relied on Primal Shrooms this entire time, you turn to your mentor for advice.\n\nNow that you are at this stage nodes become a means of producing a more specific type of vis, which pours infinitely from an energized node: Centi-Vis. Centi-Vis has many applications, but the two general ones are automatically recharging wands and enhancing wand foci.\n\nHow much centi-Vis a node will yield depends on two things: It\u0027s aspects, and brightness modifier (if it has one).\n\nTo start take the single highest source that is or contains a given primal aspect, I.E. a node with 20 Arbor and 24 Terra counts 20 Aer, 20 Aqua and 24 Terra. Multiply each number by the node\u0027s brightness modifier if one is present - 1.2 if Bright, 0.8 if Pale, 0.5 if Fading. Finally take the square root of each number, and floor the result. This is how much centi-Vis the node, if energized, will produce per tick.\n\nTake another quick look at the above example: If the node is normal all three primals yield 4 centi-Vis. If the node is Pale... is still does. Damaging a node isn\u0027t guaranteed to decrease output, if the numbers are favorable.\n\nIdeally, you\u0027ve already found a node that contains all six primal aspects - Humanus (and all aspects made from it) as well as Vesania contain all six, and of course any node can have a five/four compound and the missing primals - meaning you can get right to capturing and energizing. Otherwise the quest to the left will cover what you need to do.\n\nAs a final note, don\u0027t be too fussy about what node you use. Grab one that works and get §osome§r critical infrastructure moving. 3+ centi-Vis is perfectly workable, just a tad slow."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "minecraft:wooden_slab",
+          "Count:3": 9,
+          "Damage:2": 0,
+          "OreDict:8": "slabWood"
+        },
+        "1:10": {
+          "id:8": "minecraft:glass",
+          "Count:3": 26,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {}
+}

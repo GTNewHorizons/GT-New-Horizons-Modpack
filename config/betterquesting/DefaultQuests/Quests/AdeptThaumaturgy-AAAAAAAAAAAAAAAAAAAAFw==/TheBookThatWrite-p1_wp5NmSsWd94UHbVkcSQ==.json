@@ -1,0 +1,68 @@
+{
+  "questIDHigh:4": -6386121144064914747,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 7561305232492545194,
+      "questIDLow:4": -8614641492489857798
+    }
+  },
+  "questIDLow:4": -7064031223561511863,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gadomancy:BlockKnowledgeBook",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "The Book That Writes Itself",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "With an Ordo attuned Aura Core crafted the rest should be a relative formality. You\u0027ll simply need to scan the aura core to gain the last bit of information you need, and do one final bit of research yourself to finalize your design.\n\nSneak-right click a Book of Knowledge onto an Arcane Pedestal to actually §oplace§r the book on it rather than §oput§r it on a pedestal like you\u0027re going to use it for Arcane Infusion.\n\nThrow an unfinished research note near the book to get it to start researching. It will consume a steady supply of Cognitio Essentia and a fair bit of time, but given enough of both will complete the research note.\n\nThe Thaumonomicon says \"placing any form of booster that can affact an enchantment table nearby\" will boost research speed, albeit marginally, but I cannot confirm whether things like Botania\u0027s Mana Pylons actually do boost research speed. Nor whether blocks that give Enchantment Tables a larger boost than bookshelves give the Book of Knowledge a larger boost as well.\n\nRegardless, it won\u0027t be difficult to procure a sufficient number of bookcases, at least. You\u0027ve probably left at least a few behind in some Lich Tower or another, and you know where to get Silk Touch if you don\u0027t have another source of it laying around."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gadomancy:BlockKnowledgeBook",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "minecraft:paper",
+          "Count:3": 64,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

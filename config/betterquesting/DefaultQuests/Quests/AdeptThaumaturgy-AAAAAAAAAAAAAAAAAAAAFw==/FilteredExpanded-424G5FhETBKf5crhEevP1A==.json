@@ -1,0 +1,80 @@
+{
+  "questIDHigh:4": -2058700401858556910,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 287
+    }
+  },
+  "questIDLow:4": -6924905783995150380,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "kekztech:kekztech_thaumiumreinforcedjar_block",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Filtered Expanded Storage",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Sometimes you shouldn\u0027t try to be too fancy when thinking of ways to improve upon a design. If something works, why fix it?\n\nThaumium Reinforced Jars are exactly what their name suggests: Reinforced Waded Jars able to store four times as much Essentia as the plain variant, but otherwise able to be labelled, turned into a Void jar version, and so on.\n\nThey do retain the issue where they will explode when broken with Essentia inside, and you cannot use a Dislocation Focus to circumvent that issue, but for a central Essentia storage hub that shouldn\u0027t be a problem.\n\n§3These things are so comically overpriced I\u0027ll actually give you a refund. By the time you can afford the Titanium Frame Box for these things you can afford to invest into Thaumic Energistics, so maybe head over to the Applied Energistics quest tab and check out what digital Essentia can do for you.\n\nHint: The answer is \"a hell of a lot more than comically overpriced jars\"."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "kekztech:kekztech_thaumiumreinforcedjar_block",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "Thaumcraft:ItemResource",
+          "Count:3": 1,
+          "Damage:2": 15,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "Thaumcraft:ItemResource",
+          "Count:3": 36,
+          "Damage:2": 2,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 2,
+          "Damage:2": 11028,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

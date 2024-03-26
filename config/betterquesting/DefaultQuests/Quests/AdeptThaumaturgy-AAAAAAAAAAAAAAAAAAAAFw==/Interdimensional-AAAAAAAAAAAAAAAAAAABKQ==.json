@@ -1,0 +1,86 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2857
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 989
+    }
+  },
+  "questIDLow:4": 297,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "Thaumcraft:blockMirror",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Interdimensional Item Logistics",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "At last! It required different materials than you first anticipated, but you managed to create mirrors able to connect to each other through the void. Utilizing this connection you will be able to send items here and there interdimensionally!\n\nOf course these mirrors do come with some caveats. First off you can only link these mirrors in pairs, so any item transport will be from point A to point B, or from point B to point A. You can think of ways to theoretically circumvent this limitation, at least to a degree, but that would require greater knowledge of the void to pull off.\n\nSecond, there is a limit to how fast these mirrors can transport items before the strain would cause them to shatter. And opening a hole between the void and your base seems thoroughly unwise. As such you\u0027ve designed the mirrors to slow down should they become strained, so as to not risk them breaking.\n\nThis leads to the third caveat of the mirrors only being able to sustainably send items at a slow pace, but fortunately this problem has a solution: Applying Ordo centi-Vis to a mirror will help stabilize the chaotic energies, and allow mirrors to run at full speed without any stress issues.\n\nFinally, since mirrors will spit items out into the world you will need something to collect them. You\u0027ve found that hoppers aren\u0027t necessarily fast enough at collecting items, so either a Hungry Chest or Vacuum Chest would be preferred"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "Thaumcraft:blockMirror",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "Thaumcraft:blockMirror",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinDarkWizardI",
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "questIDHigh:4": -7913545067946751488,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 4863381034104734390,
+      "questIDLow:4": -6405868130548037948
+    },
+    "1:10": {
+      "questIDHigh:4": -260567953869223773,
+      "questIDLow:4": -7504393078804728603,
+      "type:1": 1
+    },
+    "2:10": {
+      "questIDHigh:4": -221134916929829904,
+      "questIDLow:4": -4652777415926980689,
+      "type:1": 1
+    }
+  },
+  "questIDLow:4": -8444539034453211891,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "Automagy:blockVisReader",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Monitoring Your Stockpiles",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Though the whole process of smelting items into Essentia and managing their jars is quite manual, for now, you\u0027re sure that in the future you will find ways to automate some or all parts of this. So figuring out how to monitor your stockpiles seems prudent.\n\nThe Vis Reader is able to monitor the content of Warded Jars, essential acting as a very fancy Comparator. Either place them directly below the jar (or other Essentia container) you wish for them to monitor, or place a Remote Comparator on top with a Crystalline Eye watching the relevant container.\n\nVis Readers have a number of different modes and options, which can be accessed by right clicking them with a wand. The Thaumonomicon explains them, though one note to add is that Vis Readers are limited to a set selection of constant values to compare to. These values cap out at 125, so if you plan on storing much more Vis than that you might need a different solution."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "Automagy:blockVisReader",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "Automagy:blockRemoteComparator",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "Automagy:crystalEye",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

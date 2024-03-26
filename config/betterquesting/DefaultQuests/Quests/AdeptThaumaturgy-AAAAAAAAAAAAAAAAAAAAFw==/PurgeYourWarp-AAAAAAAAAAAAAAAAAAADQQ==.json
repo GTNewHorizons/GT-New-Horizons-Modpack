@@ -3,7 +3,7 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 285
+      "questIDLow:4": 284
     }
   },
   "questIDLow:4": 833,
@@ -31,7 +31,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "The warp you have accumulated over time is starting to become a problem. Making bath salts to clean off the warp is only a temporary solution. To truly get rid of it, you need something more powerful, a pure tear. If you collect a few things for me, I will give you one. Think wisely about using it, since it\u0027s a very long journey to unlock it through research.\n\n§3PS: You need an LuV-powered EBF for the osmiridium."
+      "desc:8": "Cleaning up your workspace while you ponder where to go from here you come across two Void Seed... looking things. When did these get here? How did these get here? Is this your doing? Something Warp convinced you to do that your forgot about?\n\nRegardless of the hows and whys, studying the strange nubs of void shows you something of note. Some kind of... ritual, is the best way you can describe it, that you are able to see now that you have touched the Pearl. Or have been touched by it.\n\nThis ritual, once performed, takes an incredibly long time to recharge. Some measure of time beyond your world (read: this quest has a cooldown of one IRL week). It also requires a ton of materials on your end to set in motion. However, once completed, you will be able to draw a Pure Tear from the void.\n\nPure Tears, when consumed, will rapidly drain all the Warp you possess. However that energy has to go somewhere, so don\u0027t use a Pure Tear anywhere close to whatever you would mind seeing exploded violently.\n\n§3Crafting Pure Tears yourself will require Ichorium, so that won\u0027t happen until you\u0027ve opened up Kami. PS: You need an LuV-powered EBF for the osmiridium."
     }
   },
   "tasks:9": {

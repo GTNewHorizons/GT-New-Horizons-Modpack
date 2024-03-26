@@ -1,0 +1,72 @@
+{
+  "questIDHigh:4": -4096042988258115366,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 240
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 254
+    }
+  },
+  "questIDLow:4": -8993675130781158675,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "Thaumcraft:blockWoodenDevice",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Cooking Things Faster...?",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "For the first time in a long time you have tasted defeat. Arcane Bellows are capable of autonomously stoking the fire within an Alchemical Furnace, allowing it to burn hotter, and smelt items faster. It has the same effect on vanilla furnaces, for what that\u0027s worth.\n\nThe problem is that item smelting speed was never the bottleneck. Essentia diffusion speed is. And these bellows §odo not help with that§r.\n\nSo you stand defeated. You hoped that these bellows would make your arcane furnace faster, and they do... but not in a truly meaningful way.\n\n§3Faster Thaumium Alchemical Furnaces §ocan§r§3 bottleneck on smelting speed, so you will want some bellows once you upgrade."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "Thaumcraft:blockWoodenDevice",
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "Thaumcraft:blockWoodenDevice",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

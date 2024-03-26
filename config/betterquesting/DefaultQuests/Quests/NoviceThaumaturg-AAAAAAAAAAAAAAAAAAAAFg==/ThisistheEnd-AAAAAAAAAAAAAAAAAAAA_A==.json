@@ -2,6 +2,10 @@
   "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
+      "questIDHigh:4": -5333518224845223886,
+      "questIDLow:4": -8777612741790985562
+    },
+    "1:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 238
     }
@@ -31,7 +35,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "...of your apprenticeship. You have mastered all 6 primal aspects, you mastered the weak and strong infusion of essentia and vis, and you\u0027ve already made your adept wand. But be warned, young one. The further you progress, the more darkness, and evil will tempt you to follow the forbidden ways of magic. I have seen things... weather changing, random teleportation, or even a Wither tearing its way into our universe right next to someone. Be careful, my friend..."
+      "desc:8": "...of your apprenticeship. You have learned the arts of crafting wands, crafting with Essentia and Vis, even combining the two into Arcane Infusion. You have learned about Warp and Taint, Nodes and centi-Vis... and yet, surely, there must be so much more to discover still.\n\nIt\u0027s time to say goodbye to your mentor. He has helped you a great deal, but you wish to continue beyond where he stopped. Which reminds you... he said that when your apprenticeship with him was over, you would be ready to face Warp. Travel to the world between and confront who- or whatever has been trying to draw you there. Are you truly ready? You must confess you don\u0027t §ofeel§r ready...\n\nOne last time you ask your mentor for advice, and he tells you that you are indeed ready to open the path, if you manage to find it. Traversing it, though? That will depend on your wits.\n\nYou thank your mentor, one last time, and wish him...actually, question: What §ois§r the guy\u0027s name anyhow? You never thought to ask before.\n\nWith the most bemused smile you\u0027ve seen on him yet your mentor, somewhat belatedly, introduce himself as Ifnkovhgroghprm. And wishes you the best, as well.\n\n...Ifnkovhgroghprm? Geez. If you become half as good at magic as that guy is at articulating you\u0027ll be the best mage who has ever lived..."
     }
   },
   "tasks:9": {

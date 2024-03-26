@@ -1,0 +1,85 @@
+{
+  "questIDHigh:4": 1465908945680679184,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 298
+    },
+    "1:10": {
+      "questIDHigh:4": -5056186090775232347,
+      "questIDLow:4": -5929047786902467572,
+      "type:1": 1
+    }
+  },
+  "questIDLow:4": -6720078476860467340,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "Thaumcraft:ItemWispEssence",
+        "Count:3": 1,
+        "tag:10": {
+          "Aspects:9": {
+            "0:10": {
+              "amount:3": 2,
+              "key:8": "terminus"
+            }
+          }
+        },
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "OR",
+      "repeat_relative:1": 1,
+      "name:8": "Passive Essentia Supply",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "You\u0027ve solved the problems of central Essentia storage as well as distribution, now the only thing left to solve is centralized production.\n\nNot wanting to end up with the mother of all Rube Goldberg machines where an ungodly amount of passive processes would produce things to be smelted into Essentia, and redstone controlled furnaces would smelt such items whenever stock of a particular item got low based on a series of daisy chained Vis Readers, you\u0027ve instead turned an eye towards a different solution.\n\nWisps, the strange ethereal creatures that randomly manifest in the Nether, can be attuned to any aspect you know of, primal or compound. If you were to create a powered spawner of these creatures you could harvest them for their Ethereal Essence, in all flavours of Essentia available.\n\nAs with all plans involving a mob farm, though, this is going to require very careful consideration. §oEspecially§r this one, given that Wisps are able to fly around freely. Not securely contained they could leave the range of the spawner, causing more to be spawned and escape, until their very presence was enough to bring the world\u0027s machinations to a halt."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "EnderIO:blockPoweredSpawner",
+          "Count:3": 1,
+          "tag:10": {
+            "mobType:8": "Thaumcraft.Wisp",
+            "eio.abstractMachine:1": 1
+          },
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 10,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2050
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 251
+    }
+  },
+  "questIDLow:4": 2042,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "Automagy:blockThirstyTank",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Infinite Water 3.0",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Finally! It took a bit of effort, but here you are, the water guzzler you were looking for.\n\nPlacing a Thistry Tank next to a water source causes it to audibly slurp up a bucket\u0027s worth every second and a half or so. It can also be filled with rainwater (and should be covered in case you don\u0027t want it to).\n\nThirsty Tanks can also be used to pump up other liquids, in which case they will try to start at the edge and work inwards. This isn\u0027t perfectly reliable, mind.\n\nUnlike most other pumps Thirsty Tanks are able to pick up fractions of a full bucket, which is greatly useful when plundering Nether beehives for their precious honey. Or for scooping up Flux Goo near your Crucible.\n\nThere\u0027s also various glyphs you can use to upgrade Thirsty Tanks, including speed and auto-extraction (at a rate of 150mb every 5 ticks, or just under an LV pump\u0027s worth). Your mentor even gives you a glyph to try near your cows to get a tank full of milk, for all your cheese and butter needs!\n\n...Somehow, you feel like the first bit of cheese you produce with this glyph you\u0027re not going to be eating yourself..."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "Automagy:blockThirstyTank",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "Automagy:glyph",
+          "Count:3": 1,
+          "Damage:2": 9,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

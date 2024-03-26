@@ -1,0 +1,68 @@
+{
+  "questIDHigh:4": -5638875943751695351,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2855
+    }
+  },
+  "questIDLow:4": -6552603049751445582,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "WitchingGadgets:WG_MetalDevice",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Integrating Old Setups",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Essentia Mirrors are wonderfully convenient for your Infusion Altar, but your Thaumatorium is still being fed through warded jars. That can\u0027t stand. Time to devise a solution.\n\nEssentia Pumps can be attached to Essentia Tube networks, or devices that utilize them, such as a Thaumatorium. When within range of an Essentia Mirror the Essentia Pump will recognize suction in the tube network, and draw Essentia through the mirror to fill the tubes.\n\nNo more moving jars to work the Thaumatorium! That should leave you a lot more space to add Mnemonic Matrixes as well...\n\n§3Note that if the Essentia Mirror is placed too close to an Essentia Pump it will refuse to draw Essentia through the mirror. Simply place them apart by a block more and it should work. "
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "WitchingGadgets:WG_MetalDevice",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 10,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

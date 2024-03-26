@@ -1,0 +1,102 @@
+{
+  "questIDHigh:4": -8418351603512359960,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 285
+    }
+  },
+  "questIDLow:4": -5023045210130782506,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "OR",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "TaintedMagic:ItemKatana",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "A Suitable Weapon",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Another close encounter with one of those thrice-cursed Witch Spiders got you thinking: What if these unseen forces challenge you to defeat a giant Witch Spider? Will your final battle against ancient, eldritch beings be clubbing a giant inse-okay, giant §oarthropod§r to death with your crossbow?\n\nFrankly you\u0027re not sure if losing or winning that fight would be the greater embarrassment.\n\nOf course you\u0027re well beyond using mere worked metal attached to sticks. Time to look into crafting a proper sword to add to your arsenal.\n\n§3TC bosses will go berserk if too much damage is dealt at once. Thaumium Fortress Blades §oshouldn\u0027t§r§3 trigger this mechanic. Voidmetal Fortress Blades can on a max damage charge attack, or under a Strength potion effect. Shadowmetal Fortress blades likewise, minus the max damage part.\n\nTiC rapiers dealing §oless§r§3 damage can trigger an enrage where a Fortress Blade does not, so don\u0027t look purely at damage numbers to try and figure out where the limit is. Something about these swords seemingly gives them higher damage ceilings to work with, though your guess is as good as mine as to why.\n\nNote that the above all comes from ingame testing, so take it as a broad guideline, not gospel.\n\nYou only need to complete one task to finish the quest."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "TaintedMagic:ItemKatana",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "TaintedMagic:ItemKatana",
+          "Count:3": 1,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 2,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "TaintedMagic:ItemKatana",
+          "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 10,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

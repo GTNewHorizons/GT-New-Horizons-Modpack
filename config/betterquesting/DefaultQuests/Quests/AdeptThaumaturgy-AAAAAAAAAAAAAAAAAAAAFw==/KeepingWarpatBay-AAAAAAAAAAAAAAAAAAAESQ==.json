@@ -1,0 +1,138 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1055
+    }
+  },
+  "questIDLow:4": 1097,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "Thaumcraft:ItemBathSalts",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Keeping Warp at Bay",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Now that you understand Warp better it\u0027s time to start taking measures against it. Also you haven\u0027t been jumping into too many rivers since you moved away from squid ink filled scribing tools forever ago, so your personal hygiene situation... could stand to be improved.\n\nThrowing a piece of Purifying Bath Salt into a 1x1 source block of water - carefully, this stuff is not stable and can break apart - will convert the water into Purifying Fluid.\n\nTaking a bath while not under the effect of Warp Ward will consume the Purifying Fluid, and give you Warp Ward for up to about 26 minutes. The more Warp you have, the shorter the buff will last. If you have Warp Ward active you can take a bath in Purifying Fluid, which will increase the efficiency of any Sanitizing Soap you use to remove sticky warp.\n\n§3The 0 second Warp Ward buff from the Thaumic Sauna Stove doesn\u0027t count as having Warp Ward active as far as Purifying Liquid is concerned."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "Thaumcraft:ItemBathSalts",
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "Thaumcraft:ItemEssence",
+          "Count:3": 2,
+          "tag:10": {
+            "Aspects:9": {
+              "0:10": {
+                "amount:4": 8,
+                "key:8": "auram"
+              }
+            }
+          },
+          "Damage:2": 1,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "Thaumcraft:ItemEssence",
+          "Count:3": 2,
+          "tag:10": {
+            "Aspects:9": {
+              "0:10": {
+                "amount:4": 8,
+                "key:8": "cognitio"
+              }
+            }
+          },
+          "Damage:2": 1,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "Thaumcraft:ItemEssence",
+          "Count:3": 2,
+          "tag:10": {
+            "Aspects:9": {
+              "0:10": {
+                "amount:4": 8,
+                "key:8": "ordo"
+              }
+            }
+          },
+          "Damage:2": 1,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "Thaumcraft:ItemEssence",
+          "Count:3": 2,
+          "tag:10": {
+            "Aspects:9": {
+              "0:10": {
+                "amount:4": 8,
+                "key:8": "sano"
+              }
+            }
+          },
+          "Damage:2": 1,
+          "OreDict:8": ""
+        },
+        "4:10": {
+          "id:8": "Thaumcraft:ItemLootBag",
+          "Count:3": 1,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinDarkWizardI",
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

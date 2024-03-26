@@ -1,0 +1,68 @@
+{
+  "questIDHigh:4": -2532791736287999421,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -4614373857128788884,
+      "questIDLow:4": -7290503302723196885
+    }
+  },
+  "questIDLow:4": -6469842934915889041,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "alchgrate:alchgrate",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "No \"Drop Items In World\" Nonsense, Thanks",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "One downside to the Advanced Alchemical Furnace is the need to drop items out into the world in order to smelt them. That\u0027s not just highly inconvenient for automation, but not great for performance either. Fortunately there is a solution.\n\nThe Alchemical Grate is a specialized variant of the Item Grate. Placed inside the item input space/slot of an Advanced Alchemical Furnace it is able to accept items like a regular inventory (including being able to feed it via Hopper, Conduits, etc.), while feeding said items to the furnace to be smelted into Essentia.\n\nUnlike the Item Grate it is based on the Alchemical Grate has no other special or fancy features, but it doesn\u0027t need any. Perfection, they say, cannot be improved upon."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "alchgrate:alchgrate",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinDarkWizardII",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

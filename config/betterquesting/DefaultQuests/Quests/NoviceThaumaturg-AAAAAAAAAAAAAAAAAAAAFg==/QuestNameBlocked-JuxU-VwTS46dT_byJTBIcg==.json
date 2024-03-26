@@ -1,0 +1,73 @@
+{
+  "questIDHigh:4": 2804710097913334670,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2886
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1998,
+      "type:1": 1
+    }
+  },
+  "questIDLow:4": -7111193766728284046,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "thaumicinsurgence:item.ItemBIGSHOT",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "[Quest Name Blocked]",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "You\u0027ve been searching for ways to get more Vis Discount out of your current gear, but solutions that rely on the tools you have are starting to become scarce. Nevertheless, with the addition of a Thaumatorium freeing you from the limits of your old Crucible, there\u0027s one more thing you can try.\n\nThese upgraded Goggles of Revealing... you\u0027re not sure what to make of them. They warp your perception, making you see or hear things that aren\u0027t there. Probably. But they also make challening Vis easier than regular Goggles of Revealing.\n\nAll told, you feel that is a fair trade. And having crafted this you\u0027ll always have it\u0027s power available to not just make it easier to craft better wands, but get more use out of them as well!\n\n§3Equipment with Warping effectively gives you that much temporary warp extra while it\u0027s equipped. \n\nA Gold Banded Greatwood Wand, [Hyperlinked Blocked], Bewitched Robes/Leggings, and Thaumaturge\u0027s Boots can directly craft a Gold Banded Greatwood Scepter."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "thaumicinsurgence:item.ItemBIGSHOT",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "Thaumcraft:ItemLootBag",
+          "Count:3": 1,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

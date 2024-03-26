@@ -1,0 +1,85 @@
+{
+  "questIDHigh:4": 579420945032495629,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1177
+    }
+  },
+  "questIDLow:4": -8670597739683462194,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "thaumicbases:thauminiteHelmet",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Improved Thaumium",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "It took a bit of work and a bit of compromise, but after some effort you have succeed in creating a Thaumium variant that is as protective as diamond. Admittedly it is not as durable as actual diamond, but it does have the property where it can be enchanted to repair itself by feeding off of your wand, so you\u0027re none too concerned about that.\n\nOne unexpected, but not unwelcome side effect is that this armor comes with Vis discounts. You doubt it\u0027ll ever be better than the gear you designed with Vis discount in mind, you went into this wanting to craft armor after all, but if nothing else it should make the armor repairing itself a bit cheaper.\n\n§3Crafting Thauminite tools can be done with an iron-capped wooden wand, but a gold banded wooden or Greatwood wand is needed to craft the armor pieces. In the former case it\u0027s worth crafting the helmet for sure, as that is the only piece of headgear with Vis discount you can craft with a gold banded wooden wand."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "thaumicbases:resource",
+          "Count:3": 5,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "thaumicbases:thauminiteHelmet",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "thaumicbases:resource",
+          "Count:3": 5,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "questIDHigh:4": -4614373857128788884,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 284
+    }
+  },
+  "questIDLow:4": -7290503302723196885,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "Thaumcraft:blockMetalDevice",
+        "Count:3": 1,
+        "Damage:2": 3,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Diffusing Essentia Even Faster",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Ever since you crafted your very first Alchemical Furnace you\u0027ve been complaining bitterly about the speed at which Essentia §oisn\u0027t§r produced. This time, however, you\u0027ve come up with something that might just be good enough.\n\nThe Advanced Alchemical Furnace is a multiblock alchemical furnace that requires centi-Vis to run instead of fuel - a steady supply of Ignis ensures the furnace remains hot, while Aqua and Perditio are required while operating to break down and keep Essential stable.\n\nEssentia can be extracted through one of the four ports in the base of the structure, although anything short of an Alchemy golem (or sufficiently fast Energistics devices) will bottleneck §ohard§r. The AAF will (roughly) smelt an item every 5 ticks. This Essentia takes §ozero§r time to diffuse, whether the item smelted was a piece of dirt or a Nether Star.\n\nFinally, crafting Advanced Alchemical Constructs §l§ndoes not consume the Pearl§r. Do yourself a favor and batch craft 16 AACs if you are planning on using the Pearl, and not on getting another any time soon, just so you\u0027ve got a spare set ready.\n\nWith this your dreams of permanently solving Warp can finally become a reality!\n\n§3Advanced Alchemical Constructs are also used as part of the Planar Gateway multiblock, requiring four per gate. Since each pocket dimension requires a pearl to create, and can support four gates, batching 16 AACs per pocket dimension seems the best choice."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "Thaumcraft:blockMetalDevice",
+          "Count:3": 8,
+          "Damage:2": 3,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "Thaumcraft:blockMetalDevice",
+          "Count:3": 4,
+          "Damage:2": 9,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "Thaumcraft:blockStoneDevice",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "Thaumcraft:blockMetalDevice",
+          "Count:3": 4,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinDarkWizardII",
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

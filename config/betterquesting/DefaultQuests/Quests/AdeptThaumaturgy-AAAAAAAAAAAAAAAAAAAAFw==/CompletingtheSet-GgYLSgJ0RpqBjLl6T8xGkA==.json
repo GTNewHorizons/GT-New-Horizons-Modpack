@@ -1,0 +1,88 @@
+{
+  "questIDHigh:4": 1875198707343050394,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 81
+    },
+    "1:10": {
+      "questIDHigh:4": -8418351603512359960,
+      "questIDLow:4": -5023045210130782506
+    },
+    "2:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1814
+    }
+  },
+  "questIDLow:4": -9111704011101419888,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "TaintedMagic:ItemVoidFortressHelmet",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Completing the Set",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "You can\u0027t walk into some kind of long awaited, final confrontation with a Fortress Blade and a full set of technological gear, can you? You\u0027re a Thaumaturge! This is supposed to be your triumphant moment proving your mastery over the magical arts!\n\nTo that end you\u0027ve taken some notes from Fortress Armor, and updated the designs to include the power of Void Metal. The results, you must say, speak for themselves.\n\nVoid Fortress Armor retains the perks of it\u0027s Thaumium version, namely the ability to add a face plate and Goggles of Revealing to the helmet. It also gains the perks of being made out of Void Metal, meaning it\u0027s increased durability is backed up by automatic regeneration.\n\nTime to put that enchanting area of yours to work! Although... could you possibly improve upon this design further...?\n\n§3Thaumcraft bosses don\u0027t care about what armor you are wearing, so the only reason you\u0027d avoid Nano or Quantum armor is if you were afraid of running out of charge and being left defenseless.\n\nThe only scenario in which that should happen is if you use your crossbow and berserk the boss to high heaven. In which case Awakend Draconium wouldn\u0027t have saved you, let stand Void Metal.\n\nThat all said Void Fortress Armor gives the same total Vis Discount as Nano Goggles, Bewitched Robes and Bewitched Leggings while offering actual protection, so you can see it as an upgrade to your day-to-day Vis Discount gear. Or as a prerequisite for Primal Armor further down the line."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "TaintedMagic:ItemVoidFortressHelmet",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "TaintedMagic:ItemVoidFortressChestplate",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "TaintedMagic:ItemVoidFortressLeggings",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinDarkWizardII",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

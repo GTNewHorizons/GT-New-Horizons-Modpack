@@ -1,0 +1,68 @@
+{
+  "questIDHigh:4": 2246308038523635395,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 22128479688347037,
+      "questIDLow:4": -8906937288627403837
+    }
+  },
+  "questIDLow:4": -5737317411053502698,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "ThaumicHorizons:voidPutty",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Repairing Items on the Spot",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Exposing an Ingot of Void Metal to the endless, chaotic swirls of Vis that exists beyond the planar breach you have created causes it to change. No longer metal, this new creation nevertheless retains some of the properties it once had.\n\nVoid Putty retains the regenerative properties of Void Metal, but absent a defined form it can be applied to other items. It\u0027ll take on the shape and form of those items, repairing them in the process (though not, sadly, giving them any innate regenerative qualities).\n\nEssentially, think of this as a Thaumic Restorer in single use item form.\n\nAs with the Thaumic Restorer itself this has a limited number of uses, given the sheer number of items in your standard toolkit that cannot be repaired through more conventional Minecraft mechanics. But it can allow you to conveniently repair items like Flight Flasks or (most) bee frames in your crafting grid."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "ThaumicHorizons:voidPutty",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 11,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

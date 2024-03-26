@@ -1,0 +1,73 @@
+{
+  "questIDHigh:4": -1522942741111944643,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 1875198707343050394,
+      "questIDLow:4": -9111704011101419888
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 280,
+      "type:1": 1
+    }
+  },
+  "questIDLow:4": -4797112700558621933,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "TaintedMagic:ItemVoidwalkerBoots",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "And a New Pair of Boots",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Fortress armor is nice, but there\u0027s just one problem with it: There\u0027s no boots to complete the set! Well, technically Boots of the Traveller would complete the set, but they don\u0027t provide appreciable protection. And electric versions? Please. You can\u0027t just §owin§r, anyone could do that. You need to win in proper Thaumaturgical §ostyle§r.\n\nBoots of the Voidwalker are the solution. Greater on paper protection than even electric versions of regular Boots of the Traveller, and after some work with your enchanting apparatus, likely better practical protection as well.\n\nThe Boots also repair themselves automatically (a property inherited from the Void Metal that went into creating it), negate fall damage, and improves your movement speed. All you want from a pair of boots.\n\nActually, the one thing missing is Vis Discount. But perhaps there is a way to resolve that problem...\n\n§3There are Nano, Quantum and several more versions of Boots of the Voidwalker available, similarly to how there are various Boots of the Traveller versions available. Evidently someone invited the Dragon Pharaoh to join the GTNH dev team at some point.\n\nOne note about the electric Boots of the Voidwalker: There are options to modulate their speed/jump boost. You can find the relevant keybinds under Thaumic Boots in the controls list."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "TaintedMagic:ItemVoidwalkerBoots",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 11,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

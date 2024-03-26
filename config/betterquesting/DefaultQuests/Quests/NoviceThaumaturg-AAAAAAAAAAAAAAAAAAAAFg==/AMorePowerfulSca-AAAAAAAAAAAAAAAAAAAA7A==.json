@@ -31,7 +31,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "The naga scales are weak, they can only hold a very limited amount of vis. You need a better, more powerful component to store vis in your wand. You\u0027ve heard rumors about an evil wizard in the Twilight Forest. Maybe he has... something... that can be used?"
+      "desc:8": "The Naga Scales you have are not up to the task of holding together a Greatwood wand. You will need something better.\n\nYour mentor tells you that having slain a Naga, and claimed both it\u0027s trophy and scale, you should be able to break the enchantment on the stone towers that house the Twilight\u0027s oldest, though not most powerful residents. These Liches, as your mentor calls them, tried and failed to infuse their bodies with runic magic. They did succeed, technically, they just didn\u0027t survive the process. Not entirely.\n\nIf you were to find and defeat one of these Liches, their bones should be able to handle the amount of Vis your Greatwood wand will control. The only problem is their twisted magic. You\u0027ll need a way to break their shield before you\u0027ll be able to damage them.\n\n...Come to think of it, if these Liches are Thaumaturges - albeit, failures - you wonder if any of them hoarded items of value to a budding Thaumaturge? It might be worth taking a closer look around these towers...\n\n§3Don\u0027t try to rush kill a Lich with a TiC rapier. That is not going to work in GTNH."
     }
   },
   "tasks:9": {
@@ -45,7 +45,7 @@
       "requiredItems:9": {
         "0:10": {
           "id:8": "dreamcraft:item.LichBone",
-          "Count:3": 4,
+          "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": ""
         }

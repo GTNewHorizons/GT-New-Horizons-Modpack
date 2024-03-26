@@ -1,0 +1,68 @@
+{
+  "questIDHigh:4": 1093765070776388163,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 546021281795753522,
+      "questIDLow:4": -8493464033149314105
+    }
+  },
+  "questIDLow:4": -8633439070947004794,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "ThaumicHorizons:amuletMirror",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Leaving Nothing Behind",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Dying is inconvenience enough, but leaving all of your gear that you spend so much time and effort crafting behind? More painful than death itself.\n\nA Mirrored Amulet can be bound to a magic mirror. In the event of your unfortunate demise the mirrored amulet will grab all of your items and spit them out to the magic mirror it is linked to. The amulet will shatter in the process, but the pearl used to craft it will drop where you died.\n\nYou\u0027re not sure if the amulet will be able to grab §oeverything§r you have, you carry around so much random §ostuff§r at all times you\u0027re amazed you can carry it all with only two arms, but the amulet should be able to recover most of your gear at least."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "ThaumicHorizons:amuletMirror",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 11,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

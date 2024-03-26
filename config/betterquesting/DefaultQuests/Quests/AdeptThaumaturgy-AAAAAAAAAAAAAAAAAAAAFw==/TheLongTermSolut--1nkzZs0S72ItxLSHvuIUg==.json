@@ -1,0 +1,72 @@
+{
+  "questIDHigh:4": -334985125539066947,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 1465908945680679184,
+      "questIDLow:4": -6720078476860467340
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2830
+    }
+  },
+  "questIDLow:4": -8595380670141069230,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.blockmachines",
+        "Count:3": 1,
+        "Damage:2": 14201,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "The Long Term Solution",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Running Wisps in an Extreme Entity Crusher - which will consume LuV power due to Wisps being always infernal - will produce a steady supply of Ethereal Essence in a compact, server friendly multiblock.\n\nAs the quest name says, this is the long term solution to sourcing your Essentia.\n\n§3The EEC is strongly biased to dropping the six primal essences, since otherwise crafting high tier infused solars - which consume orders of magnitude more primal Essentias than all the compounds you\u0027ll ever use combined - would require a different solution. It\u0027s unfortunate for people not crafting said solars, but a steady supply is a steady supply all the same."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "ExtraUtilities:spike_base_diamond",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinDarkWizardII",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

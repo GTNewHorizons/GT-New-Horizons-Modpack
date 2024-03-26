@@ -1,0 +1,71 @@
+{
+  "questIDHigh:4": -6084021785239862836,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 22128479688347037,
+      "questIDLow:4": -8906937288627403837
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 284
+    }
+  },
+  "questIDLow:4": -7021319325488959805,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "ThaumicHorizons:voidTH",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Creating Your Own Pocket Dimension",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "You now have access to a near infinite well of potential energy to draw from - or one section and aspect of it, at least. Regardless, there is a lot of power behind the vortex. If you gave it something to shape that power, the power of creation contained within a Primordial Pearl... what would happen?\n\nThe power would coalesce. Solidify not just into matter, but into space. Into Time. A tiny island of creation, drifting in the void. One that you created.\n\nThrowing a Primordial Pearl into a Planar Vortex will create a pocket dimension, and prevent the vortex from being used for crafting. Name the Pearl in an anvil to name the resulting pocket dimension, if you wish.\n\nThe size and composition, and presence (or abscence) of life depends on the aspects of the node used to create it. There are a §oton§r of blocks only accessible through pocket dimensions that could be used for building, but have no special practical value otherwise.\n\nBesides being a pocket dimension you can build stuff in you can also construct Planar Gateways, four per pocket dimension, and use those to connect various points in various dimensions to your pocket dimension(s). The Getting Around... quest tab has a quest about this. Just remember you cannot build Planar Gateways in pocket dimensions themselves, or in The Outer Lands.\n\n§3When first going through a Planar Gateway to a pocket dimension you might find it buried beneath blocks, and you unable to break them since you are technically standing within unbreakable portal blocks. If this happens use an Excavation wand focus, since that will be able to dig you out.\n\nIncidentally, the weird dots outside your pocket dimension you see on the minimap is Natura Thornvines. I don\u0027t know §owhy§r§3 they spawn out in the void, but they do."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "visible:1": 0,
+      "invert:1": 0,
+      "range:3": -1,
+      "index:3": 0,
+      "structure:8": "",
+      "hideInfo:1": 0,
+      "posX:3": 0,
+      "posY:3": 0,
+      "posZ:3": 0,
+      "biome:3": -1,
+      "name:8": "Pocket Dimension",
+      "dimension:3": 69,
+      "taxiCabDist:1": 0,
+      "taskID:8": "bq_standard:location"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 12,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

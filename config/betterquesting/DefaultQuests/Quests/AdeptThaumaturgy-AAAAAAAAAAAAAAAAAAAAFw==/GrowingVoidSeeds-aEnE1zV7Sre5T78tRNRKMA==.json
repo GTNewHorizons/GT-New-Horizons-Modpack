@@ -1,0 +1,74 @@
+{
+  "questIDHigh:4": 7514753881838668471,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 285
+    }
+  },
+  "questIDLow:4": -5093642452383544784,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "thaumicbases:voidSeed",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Growing Void Seeds",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "You\u0027re sure that Void Seeds, and the Void Metal they are used to produce, will have many applications. You should think about a steady supply, but mugging the Crimson Cult for them feels like admitting weakness. They are able to do what you cannot, to the point where you rely on them. Unacceptable.\n\nInstead you\u0027ve returned to your roots, your early study of plants and how magic affects them. By infusing a Void Seed with the sum total of the results of those studies you are able to bring it to life. Allow the seed to grow, and produce more Void Seeds as (admittedly lifeless) offspring.\n\nThat should make sure you\u0027ll never be short on Void Seeds. Instead of mugging others for it, you\u0027ll be the one people will want to mug!\n\n...You know, maybe you didn\u0027t think this plan through completely. Eh, you\u0027ll manage."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "thaumicbases:voidSeed",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "Forestry:fertilizerCompound",
+          "Count:3": 8,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "Thaumcraft:ItemResource",
+          "Count:3": 2,
+          "Damage:2": 17,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "questIDHigh:4": 3363252590329022235,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 4863381034104734390,
+      "questIDLow:4": -6405868130548037948
+    }
+  },
+  "questIDLow:4": -8346303418125943673,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "minecraft:slime_ball",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Sticking Jars to Walls",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Normally Warded Jars can only be placed on the ground, with the only side that connects to Essentia Tubes being on top. That can be quite constraining, but the solution is simple.\n\nAppying a bit of slime to the bottom of a Warded Jar, and using some Vis to make sure it\u0027s adjesive when you want it to be rather than attaching itself forever to your hands, allows you to place these sticky jars against walls, against ceilings, and so on.\n\nThe input and output side of the jar remains fixed to the top side of the jar, unfortunately, but at least now said top side can face more than one direction.\n\nSticky jars are re-usable, so you need not worry about having to apply another piece of slime every time.\n\nNot just regular Warded Jars are able to be made sticky, incidentally. Though you\u0027ll have to actually craft different types of jars first to test that theory..."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "minecraft:slime_ball",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "Thaumcraft:blockJar",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "Thaumcraft:blockJar",
+          "Count:3": 1,
+          "tag:10": {
+            "isStickyJar:1": 1
+          },
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinDarkWizardI",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

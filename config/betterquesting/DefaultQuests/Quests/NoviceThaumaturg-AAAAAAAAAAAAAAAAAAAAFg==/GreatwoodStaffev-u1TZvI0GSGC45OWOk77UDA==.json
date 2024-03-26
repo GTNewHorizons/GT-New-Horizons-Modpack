@@ -1,0 +1,46 @@
+{
+  "questIDHigh:4": -4948090686730254240,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -5333518224845223886,
+      "questIDLow:4": -8777612741790985562
+    }
+  },
+  "questIDLow:4": -5123718075513908212,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "Thaumcraft:WandCasting",
+        "Count:3": 1,
+        "tag:10": {
+          "cap:8": "gold",
+          "rod:8": "greatwood_staff"
+        },
+        "Damage:2": 105,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Greatwood Staff...eventually",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "With your new dedicated crafting scepter in hand you went to work drafting plans and ideas for creating a dedicated casting staff, but... unfortunately those efforts have hit a bit of a snag.\n\nSimply put, crafting a Greatwood staff with §oproper§r non-iron caps is a tall order right now. Not impossible, you could do it if you really wanted, but it\u0027d be enough of an ordeal that it makes you wonder whether it would be worth it.\n\nGiven how quickly you seem to be going through wands, and now scepters, you don\u0027t want to add staves to that list. And you don\u0027t think you need to. Staves are not used for crafting, they\u0027re not as essential to upgrade.\n\nSo you feel you could probably get away with waiting on creating your first staff. Perhaps when you\u0027re able to craft better wand cores, have discovered better wand caps, or who knows what else lies in the future, you\u0027ll find the right time to craft your first staff.\n\n§3The next set of wand cores - yes, §oset§r§3 - form a good argument for skipping Greatwood staves altogether. But if you do wish to craft one, as mentioned, you can with your new Gold Banded Greatwood Scepter and enough stacked Vis Discount gear."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {}
+}

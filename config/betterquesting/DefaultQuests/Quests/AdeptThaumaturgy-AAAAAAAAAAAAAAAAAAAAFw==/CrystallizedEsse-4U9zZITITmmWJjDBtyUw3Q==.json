@@ -1,0 +1,76 @@
+{
+  "questIDHigh:4": -2211422016453980567,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2855
+    }
+  },
+  "questIDLow:4": -7627355310345867043,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "Thaumcraft:blockTube",
+        "Count:3": 1,
+        "Damage:2": 7,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Crystallized Essentia",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "A long time ago you used Alchemite to brute force the creation of stable Vitium crystals. Now you are ready to solidify Essentia properly.\n\nThe Essentia Crystallizer is exactly what it says on the tin. Feed in Essentia through the small port, and after roughly three geological cycles (supplying Terra centi-Vis speeds up the process tremendously) a solid Essentia crystal will be produced. The output side is opposite the input port, and can directly feed a chest (or similar inventory).\n\nFeeding Essentia through an Essentia Pump requires one extra step: The Essentia Crystallizer does have suction, but no aspect defined, meaning the pump doesn\u0027t know what Essentia to send. Placing a Filtered Essentia Tube between the two allows you to specify what Essentia should be received and processed.\n\nEssentia Crystallizers cannot be directy fed by Essentia Export Buses. They can be fed by Essentia Providers, given that a Filtered Essentia Tube is used again to specify what Essentia the Crystallizer should receive to crystallize.\n\nShould you ever find yourself in a situation where some difficult to empty Essentia storage container is clogged, this device will allow you to slowly, but surely, unclog it."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "Thaumcraft:blockTube",
+          "Count:3": 1,
+          "Damage:2": 7,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "Thaumcraft:ItemCrystalEssence",
+          "Count:3": 64,
+          "tag:10": {
+            "Aspects:9": {
+              "0:10": {
+                "amount:3": 1,
+                "key:8": "auram"
+              }
+            }
+          },
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

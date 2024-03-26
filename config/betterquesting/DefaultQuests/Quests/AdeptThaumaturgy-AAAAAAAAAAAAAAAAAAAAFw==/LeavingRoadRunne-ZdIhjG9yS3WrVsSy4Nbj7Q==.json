@@ -1,0 +1,133 @@
+{
+  "questIDHigh:4": 7336963629988858741,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 284
+    }
+  },
+  "questIDLow:4": -6100472372671355923,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "TaintedMagic:ItemVoidwalkerSash",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Leaving Road Runner Behind",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Boots of the Voidwalker are great and all, but what if you wanted to go fast?\n\nLike, §oreally fast§r.\n\nVoidwalker\u0027s Sash of Runic Shielding gives Boots of the Voidwalker a (thankfully) toggle-able speed boost, both on the ground and during creative flight. The speed boost is... a very good way to stress test your computer. Or cook it into a pile of slag.\n\nBeyond that the sash also gives you +20 Runic Shielding, adding a sizable shield buffer to your health bar.\n\n§3Tanzanite spawns as small ores in the Twilight if you don\u0027t have a T2 rocket yet, BTW."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "TaintedMagic:ItemVoidwalkerSash",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "witchery:brewbottle",
+          "Count:3": 1,
+          "tag:10": {
+            "BrewName:8": "Brew of Speed ",
+            "RemainingCapacity:3": 0,
+            "Color:3": 26968651,
+            "Splash:1": 0,
+            "Items:9": {
+              "0:10": {
+                "id:2": 372,
+                "Count:1": 1,
+                "Damage:2": 0
+              },
+              "1:10": {
+                "id:2": 348,
+                "Count:1": 1,
+                "Damage:2": 0
+              },
+              "2:10": {
+                "id:2": 369,
+                "Count:1": 1,
+                "Damage:2": 0
+              },
+              "3:10": {
+                "id:2": 7371,
+                "Count:1": 1,
+                "Damage:2": 11
+              },
+              "4:10": {
+                "id:2": 331,
+                "Count:1": 1,
+                "Damage:2": 0
+              },
+              "5:10": {
+                "id:2": 49,
+                "Count:1": 1,
+                "Damage:2": 0
+              },
+              "6:10": {
+                "id:2": 7461,
+                "Count:1": 1,
+                "Damage:2": 0
+              },
+              "7:10": {
+                "id:2": 353,
+                "Count:1": 1,
+                "Damage:2": 0
+              }
+            },
+            "UsedCapacity:3": 2,
+            "BrewDrinkSpeed:3": 32,
+            "BrewInfo:8": "\nSpeed IV [12:00]\n",
+            "Power:3": 750,
+            "EffectCount:3": 1
+          },
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinDarkWizardII",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

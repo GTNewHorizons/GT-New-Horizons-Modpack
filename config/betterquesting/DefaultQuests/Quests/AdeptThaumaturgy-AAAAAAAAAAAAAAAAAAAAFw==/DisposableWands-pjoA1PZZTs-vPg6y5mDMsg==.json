@@ -1,0 +1,105 @@
+{
+  "questIDHigh:4": -6468857000098181425,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 22128479688347037,
+      "questIDLow:4": -8906937288627403837
+    }
+  },
+  "questIDLow:4": -5819197506984031054,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "ThaumicHorizons:wandCastingDisposable",
+        "Count:3": 1,
+        "tag:10": {
+          "aqua:3": 25000,
+          "terra:3": 25000,
+          "ignis:3": 25000,
+          "cap:8": "disposable",
+          "rod:8": "disposable",
+          "ordo:3": 25000,
+          "perditio:3": 25000,
+          "aer:3": 25000
+        },
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Disposable Wands",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "You\u0027ve used nodes, both energized and not, to drain Vis into your wands. Surely this gaping hole in reality leading to a chaotic void swirling with endless Vis can let you accomplish §osomething§r with a wand.\n\nTurns out, yes, it does, though not in the way you expected. Trying to draw Vis from the vortex using conventional methods would either not work or risk destabilizing it. And given the former woudl be preferrable to the latter, that closes that case.\n\nWhat you can do is craft a special wand-like tool, not really a wand so much as a robust container for Vis able to survive the trip through the vortext and back, and use the vortex as a means to charge it.\n\nThe resulting Crystalline Wand cannot be recharged, even sending it back for another trip, making it single use. But you are able to draw a sizable amount of Vis into it without risking the vortex making you nervous."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "ThaumicHorizons:crystalWand",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "ThaumicHorizons:wandCastingDisposable",
+          "Count:3": 1,
+          "tag:10": {
+            "aqua:3": 25000,
+            "terra:3": 25000,
+            "ignis:3": 25000,
+            "cap:8": "disposable",
+            "rod:8": "disposable",
+            "ordo:3": 25000,
+            "perditio:3": 25000,
+            "aer:3": 25000
+          },
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinDarkWizardII",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

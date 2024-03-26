@@ -1,0 +1,45 @@
+{
+  "questIDHigh:4": 2951686930445453530,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1097
+    }
+  },
+  "questIDLow:4": -4675413674420981175,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "Botania:brewVial",
+        "Count:3": 1,
+        "tag:10": {
+          "brewKey:8": "warpWard"
+        },
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Stretching Your Supplies",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "You\u0027ve heard rumors about specialized botanists able to use something they call Mana as a solvent and power source when making potion-like brews. A solvent and power source is exactly what you need to get more out of your Purifying Bath Salts, at least in terms of providing a Warp Ward effect.\n\nPerhaps this Mana stuff is worth looking into.\n\n§3For the record a Vial/Flask of Sane Thoughts can be used four/six times respectively, each use lasting 10 minutes regardless of the player\u0027s Warp level."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {}
+}

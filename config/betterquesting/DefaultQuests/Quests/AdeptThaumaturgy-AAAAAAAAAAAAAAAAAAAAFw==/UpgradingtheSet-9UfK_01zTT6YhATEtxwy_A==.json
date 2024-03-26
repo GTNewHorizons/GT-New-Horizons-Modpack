@@ -1,0 +1,84 @@
+{
+  "questIDHigh:4": -772425613205877442,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1697
+    },
+    "1:10": {
+      "questIDHigh:4": 1875198707343050394,
+      "questIDLow:4": -9111704011101419888
+    }
+  },
+  "questIDLow:4": -7456829840086519044,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "TaintedMagic:ItemShadowFortressHelmet",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Upgrading the Set",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Success! With the addition of some Polybenzimidazole you\u0027ve managed to upgrade your Void Fortress Armor with Shadowmetal. It\u0027s now more defensive, and more durable than ever!\n\nThe one downside is that the armor lost it\u0027s self-regenerating ability... except your enchanting apparatus has something to say about that: This armor can be enchanted with the Repair enchantment. Meaning it can still repair itself, it just requires Vis from your wand in order to do so.\n\nThe Void Metal and Thaumium versions could also accept that enchantment, for the record. Though given Void Metal innately regenerates itself the enchant obviously seemed redundant in its case.\n\nRegardless, with this armor you are surely ready to face whatever demons wait to be left laying broken before you! Improving this armor further... well, that would require an obscene amount of power indeed..."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "TaintedMagic:ItemShadowFortressHelmet",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "TaintedMagic:ItemShadowFortressChestplate",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "TaintedMagic:ItemShadowFortressLeggings",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 11,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

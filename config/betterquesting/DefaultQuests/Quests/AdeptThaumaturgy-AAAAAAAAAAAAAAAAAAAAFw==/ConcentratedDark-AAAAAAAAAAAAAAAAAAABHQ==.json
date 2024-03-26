@@ -3,7 +3,7 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 252
+      "questIDLow:4": 260
     }
   },
   "questIDLow:4": 285,
@@ -31,7 +31,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "For some reason, you decided to infuse darkness into a seed. It appeared to be promising. For what? You don\u0027t know...\n\n§3For the Eldritch research you need to be \u003e 30 for the first, and \u003e 50 for the second. Temporary warp won\u0027t work, however."
+      "desc:8": "You are starting to draw closer to those waiting for you. Soon the path will open. Soon you will learn what they have in store for you. Soon, very soon, you will display what §oyou§r have in store for §othem§r.\n\nIntending to use their very strength, their very nature against them you have devised a method to solidify the power of the void that is their prison. Giving substance to nothingness isn\u0027t easy, but by drawing the power into a seed first, it is possible.\n\nThat said, didn\u0027t you craft another two Void Seeds? You could have sworn that you did. Where did you put those two...\n\n§3You\u0027ll need \u003e30 Permanent+normal warp to get the Eldritch Epiphany research. Eldritch Revelation, which is needed for the next quest, requires \u003e50."
     }
   },
   "tasks:9": {
