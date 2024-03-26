@@ -1,15 +1,21 @@
 {
   "ores": [
-    "rockCeres",
-    "200",
-	"rockCallisto",
-    "200",
-	"rockEuropa",
-    "200",
-	"rockGanymede",
-    "200",
-	"rockAsteroids",
-    "200"
+	"GalaxySpace:ceresblocks:1:950",
+	"GalaxySpace:ceresblocks:0:50",
+
+	"GalaxySpace:callistoblocks:1:950",
+	"GalaxySpace:callistoblocks:0:50",
+
+	"GalaxySpace:europagrunt:1:950",
+	"GalaxySpace:europagrunt:0:50",
+
+	"GalaxySpace:ganymedeblocks:1:950",
+	"GalaxySpace:ganymedeblocks:0:50",
+
+	"GalacticraftMars:tile.asteroidsBlock:0:320",
+	"GalacticraftMars:tile.asteroidsBlock:1:320",
+	"GalacticraftMars:tile.asteroidsBlock:2:320",
+	"GalacticraftMars:tile.denseIce:0:40"
   ],
   "radius": 20,
   "cost": 1000000,

@@ -1,11 +1,15 @@
 {
   "ores": [
-    "rockMars",
-    "334",
-	"rockPhobos",
-    "333",
-	"rockDeimos",
-    "333"
+	"GalacticraftMars:tile.mars:9:850",
+	"GalacticraftMars:tile.mars:6:100",
+	"GalacticraftMars:tile.mars:5:50",
+
+	"GalaxySpace:phobosblocks:2:850",
+	"GalaxySpace:phobosblocks:1:100",
+	"GalaxySpace:phobosblocks:0:50",
+
+	"GalaxySpace:deimosblocks:1:950",
+	"GalaxySpace:deimosblocks:0:50"
   ],
   "radius": 20,
   "cost": 750000,

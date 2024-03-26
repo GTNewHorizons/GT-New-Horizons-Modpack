@@ -1,11 +1,16 @@
 {
   "ores": [
-    "rockPluto",
-    "334",
-	"rockMakeMake",
-    "333",
-	"rockHaumea",
-    "333"
+	"GalaxySpace:plutoblocks:5:840",
+	"GalaxySpace:plutoblocks:4:100",
+	"GalaxySpace:plutoblocks:0:15",
+	"GalaxySpace:plutoblocks:1:15",
+	"GalaxySpace:plutoblocks:2:15",
+	"GalaxySpace:plutoblocks:3:15",
+
+	"GalaxySpace:makemakegrunt:1:950",
+	"GalaxySpace:makemakegrunt:0:50",
+
+	"GalaxySpace:haumeablocks:0:1000"
   ],
   "radius": 20,
   "cost": 30000000,
