@@ -134,6 +134,15 @@
 	<ToolTip ItemName="dreamcraft:item.UncookedSlush" ToolTip="§4Heating up makes food better?" NBT=""/>
 	<ToolTip ItemName="dreamcraft:item.GlowingMarshmallow" ToolTip="§5Is it me or it just gained pixels from all that heat." NBT=""/>
 	<ToolTip ItemName="dreamcraft:item.Marshmallow" ToolTip="§6I have a very wired feeling." NBT=""/>
+
+//Electro-Magic Tools
+	<ToolTip ItemName="EMT:NanosuitGogglesRevealing" ToolTip="Recharge in a §eHV-tier §rMachine" NBT=""/>
+	<ToolTip ItemName="EMT:NanosuitWing" ToolTip="Recharge in a §eHV-tier §rMachine" NBT=""/>
+	<ToolTip ItemName="EMT:NanoBootsTraveller" ToolTip="Recharge in a §eHV-tier §rMachine" NBT=""/>
+	<ToolTip ItemName="EMT:QuantumGogglesRevealing" ToolTip="Recharge in a §8EV-tier §rMachine" NBT=""/>
+	<ToolTip ItemName="EMT:QuantumWing" ToolTip="Recharge in a §8EV-tier §rMachine" NBT=""/>
+	<ToolTip ItemName="EMT:QuantumGogglesRevealing" ToolTip="Recharge in a §8EV-tier §rMachine" NBT=""/>
+	<ToolTip ItemName="EMT:itemArmorQuantumChestplate" ToolTip="Recharge in a §8EV-tier §rMachine" NBT=""/>
 	
 //Enhanced Lootbags	
 	<ToolTip ItemName="enhancedlootbags:lootbag" ToolTip="§3Enchant with a Fortune III Book" NBT=""/>
@@ -202,9 +211,17 @@
 	<ToolTip ItemName="irontank:tungstensteelTank" ToolTip="Stores up to 512 Buckets of one Liquid §4Not portable, use a dolly" NBT=""/>
 
 //IC2
+	<ToolTip ItemName="IC2:itemNightvisionGoggles" ToolTip="Recharge in a §7LV-tier §rMachine" NBT=""/>
+	<ToolTip ItemName="IC2:itemArmorNanoHelmet" ToolTip="Recharge in a §eHV-tier §rMachine" NBT=""/>
+	<ToolTip ItemName="IC2:itemArmorNanoChestplate" ToolTip="Recharge in a §eHV-tier §rMachine" NBT=""/>
+	<ToolTip ItemName="IC2:itemArmorNanoLegs" ToolTip="Recharge in a §eHV-tier §rMachine" NBT=""/>
+	<ToolTip ItemName="IC2:itemArmorNanoBoots" ToolTip="Recharge in a §eHV-tier §rMachine" NBT=""/>
+	<ToolTip ItemName="IC2:itemArmorQuantumHelmet" ToolTip="Recharge in a §8EV-tier §rMachine" NBT=""/>
+	<ToolTip ItemName="IC2:itemArmorQuantumChestplate" ToolTip="Recharge in a §8EV-tier §rMachine" NBT=""/>
+	<ToolTip ItemName="IC2:itemArmorQuantumLegs" ToolTip="Recharge in a §8EV-tier §rMachine" NBT=""/>
+	<ToolTip ItemName="IC2:itemArmorQuantumBoots" ToolTip="Recharge in a §8EV-tier §rMachine" NBT=""/>
 	<ToolTip ItemName="IC2:itemPartCircuit" ToolTip="§7LV-tier" NBT=""/>
 	<ToolTip ItemName="IC2:itemPartCircuitAdv" ToolTip="§eHV-tier" NBT=""/>
-	
 	
 //OMT - AddOns
 	<ToolTip ItemName="openmodularturrets:solarPanelAddon" ToolTip="§4Disabled Item; No recipe" NBT=""/>
@@ -224,6 +241,17 @@
 	<ToolTip ItemName="openmodularturrets:hardWallTierThree" ToolTip="Hardness: 30 - Blast Resistance: 30" NBT=""/>
 	<ToolTip ItemName="openmodularturrets:hardWallTierFour" ToolTip="Hardness: 50 - Blast Resistance: 50" NBT=""/>
 	<ToolTip ItemName="openmodularturrets:hardWallTierFive" ToolTip="Hardness: 80 - Blast Resistance: 80" NBT=""/>
+
+//Thaumic Boots
+	<ToolTip ItemName="thaumicboots:item.ItemElectricVoid" ToolTip="Recharge in a §eHV-tier §rMachine" NBT=""/>
+	<ToolTip ItemName="thaumicboots:item.ItemNanoVoid" ToolTip="Recharge in a §eHV-tier §rMachine" NBT=""/>
+	<ToolTip ItemName="thaumicboots:item.ItemQuantumVoid" ToolTip="Recharge in a §8EV-tier §rMachine" NBT=""/>
+	<ToolTip ItemName="thaumicboots:item.ItemElectricMeteor" ToolTip="Recharge in a §eHV-tier §rMachine" NBT=""/>
+	<ToolTip ItemName="thaumicboots:item.ItemNanoMeteor" ToolTip="Recharge in a §eHV-tier §rMachine" NBT=""/>
+	<ToolTip ItemName="thaumicboots:item.ItemQuantumMeteor" ToolTip="Recharge in a §8EV-tier §rMachine" NBT=""/>
+	<ToolTip ItemName="thaumicboots:item.ItemElectricComet" ToolTip="Recharge in a §eHV-tier §rMachine" NBT=""/>
+	<ToolTip ItemName="thaumicboots:item.ItemNanoComet" ToolTip="Recharge in a §eHV-tier §rMachine" NBT=""/>
+	<ToolTip ItemName="thaumicboots:item.ItemQuantumComet" ToolTip="Recharge in a §8EV-tier §rMachine" NBT=""/>
 	
 //Thaumic Tinkers
 	<ToolTip ItemName="ThaumicTinkerer:fireFire" ToolTip="§4ELEMENTAL firespread disabled" NBT=""/>
