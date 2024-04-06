@@ -2706,7 +2706,7 @@ betterquesting.quest.JkWQZxq_TECWjHhjywrZZA.desc=Now that you're in EV tier you 
 
 # Quest: EV Field Generators
 betterquesting.quest.Jna1jgAySNSs8nS0YMXpLw.name=§a§lEV Field Generators
-betterquesting.quest.Jna1jgAySNSs8nS0YMXpLw.desc=With Field Generators you can make your first Quantum Chests or Quantum Tanks. But the first two should be for your T2 rocket.
+betterquesting.quest.Jna1jgAySNSs8nS0YMXpLw.desc=With Field Generators you can make your first Quantum Chests or Quantum Tanks. But the first two should be for your T2 rocket.%n%n[note]Note that the Assembler recipe is more resource efficient.[/note]
 
 
 ## Quest Line: Tier 5 - IV
@@ -6156,7 +6156,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjQ.desc=Mass destruction! Or at least, 
 
 # Quest: The rocks in the washer...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjg.name=The rocks in the washer...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjg.desc=...go round and round, all the live long day. A large orewashing plant gets your rocks nice and clean. You can switch between Ore Washer and Chemical Bath modes with a screwdriver.%n%n§3This multi is IV.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjg.desc=...go round and round, all the live long day. A large orewashing plant gets your rocks nice and clean. You can switch between Ore Washer and Chemical Bath modes with a screwdriver.
 
 # Quest: Dancing in circles
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjw.name=Dancing in circles
@@ -6168,7 +6168,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAH6Q.desc=To become a master at GT++ you 
 
 # Quest: Thermal Boiler - Lava you long time
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH6w.name=§6§lThermal Boiler - Lava you long time
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH6w.desc=If you want energy from Lava and the byproducts, the Thermal Boiler is the perfect solution. It processes Lava super fast for Steam, and with a Lava Filter will provide some centrifuged lava byproducts as well. A great source of Copper, Silver, Gold, Tin, Tantalum, and Tungstate, better outputs than regular lava processing in a Centrifuge.%n%nYou can get even better efficiency pairing it with a Large Heat Exchanger. The LHE will turn normal vanilla Lava into Pahoehoe Lava, which will provide Steam and byproducts in the Thermal Boiler. Win/Win/Win!%n%n§3This multi is IV.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH6w.desc=If you want energy from Lava and the byproducts, the Thermal Boiler is the perfect solution. It processes Lava super fast for Steam, and with a Lava Filter will provide some centrifuged lava byproducts as well. A great source of Copper, Silver, Gold, Tin, Tantalum, and Tungstate, better outputs than regular lava processing in a Centrifuge.%n%nYou can get even better efficiency pairing it with a Large Heat Exchanger. The LHE will turn normal vanilla Lava into Pahoehoe Lava, which will provide Steam and byproducts in the Thermal Boiler. Win/Win/Win!
 
 # Quest: I think I'm going to be sick
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7A.name=I think I'm going to be sick
@@ -7256,7 +7256,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMFw.desc=When it comes to power from woo
 
 # Quest: Faster Charcoal
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMGA.name=Faster Charcoal
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMGA.desc=Even if you have more wood, this won't help your power issues that much. Using it directly as fuel isn't going to do much for you as you move forward, and turning it into Charcoal will be very important. You have already built a Coke Oven, maybe more than one, but each one takes 90 seconds to produce one Charcoal, an abysmal rate. Unfortunately, there isn't any faster option in this tier, so you will have to build more of these ovens. How many, exactly?%n%nThere are many different goals you might want to go for, but a good metric for your power needs is a setup with 24 Coke Ovens. This number will create both Charcoal and Creosote Oil at a rate that will run two max-sized LP (Low Pressure) Railcraft Boilers, one solid and one liquid, with the quest for those coming right after this one. If you automate this entire setup, it will produce around 2 amps of MV, which are equivalent to 8 amps of LV, plenty of power for this tier and enough to advance you to the next one.%n%nAfter building these Coke Ovens, you will need to automate them. There are a few ways to do this, but one of the cheapest ones is to use Item Pipes, made with Tin for example, with a Conveyor Module in the wood chest/drawer to put the wood in the ovens, and then one Hopper below each oven, into more Item Pipes, to gather the Charcoal. The Creosote is a bit harder to extract, but you can do it with Tinkers' Faucets on the side of each Coke Oven, with a Wooden Fluid Pipe directly under the faucet. You will need to keep reactivating them with redstone, which means you'll also need a redstone clock (there's a block dedicated to this purpose, named Redstone Clock, from Extra Utilities).
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMGA.desc=Even if you have more wood, this won't help your power issues that much. Using it directly as fuel isn't going to do much for you as you move forward, and turning it into Charcoal will be very important. You have already built a Coke Oven, maybe more than one, but each one takes 90 seconds to produce one Charcoal, an abysmal rate. Unfortunately, there isn't any faster option in this tier, so you will have to build more of these ovens. How many, exactly?%n%nThere are many different goals you might want to go for, but a good metric for your power needs is a setup with 19 Coke Ovens. This number will create both Charcoal and Creosote Oil at a rate that will run two max-sized LP (Low Pressure) Railcraft Boilers, one solid and one liquid, with the quest for those coming right after this one. If you automate this entire setup, it will produce around 2 amps of MV, which are equivalent to 8 amps of LV, plenty of power for this tier and enough to advance you to the next one.%n%nAfter building these Coke Ovens, you will need to automate them. There are a few ways to do this, but one of the cheapest ones is to use Item Pipes, made with Tin for example, with a Conveyor Module in the wood chest/drawer to put the wood in the ovens, and then one Hopper below each oven, into more Item Pipes, to gather the Charcoal. The Creosote is a bit harder to extract, but you can do it with Tinkers' Faucets on the side of each Coke Oven, with a Wooden Fluid Pipe directly under the faucet. You will need to keep reactivating them with redstone, which means you'll also need a redstone clock (there's a block dedicated to this purpose, named Redstone Clock, from Extra Utilities).
 
 # Quest: Two Big Ovens
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMGQ.name=Two Big Ovens
@@ -7910,7 +7910,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFoA.desc=The Oxygen Bubble Distributor t
 
 # Quest: Space Torches
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFoQ.name=Space Torches
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFoQ.desc=Normal torches won't work in space, only in the area within the oxygen bubble.%n%nOne solution is glowstone torches. You can also use other mods' lights and lamps. You'll probably want 3-5 stacks for mining veins, unless you just use a SM or MB miner.%n%nAnother option is to use nightvision and a magnum torch or GregTech monster repellator to keep mobs away. These do not work on the official servers, instead claim and unclaim chunks.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFoQ.desc=Normal torches won't work in space, only in the area within the oxygen bubble.%n%nOne solution is glowstone torches. You can also use other mods' lights and lamps. You'll probably want 3-5 stacks for mining veins, unless you just use a SB or MB miner.%n%nAnother option is to use nightvision and a magnum torch or GregTech monster repellator to keep mobs away. These do not work on the official servers, instead claim and unclaim chunks.
 
 # Quest: Moon Day and Night time
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFpQ.name=Moon Day and Night time
@@ -9318,7 +9318,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ5w.desc=Quest names are hard sometimes,
 
 # Quest: Quantum Bridging Your Outposts
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ6A.name=Quantum Bridging Your Outposts
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ6A.desc=A Quantum Network Bridge allows you to connect faraway places to your main AE network, even in other dimensions. So you can shove that pollution producing Mega EBF in the Void where it belongs, but still use it from the safety of your main base. To create this, you'll need a Quantum Link Chamber surrounded by Quantum Rings. Then put an Quantum Entangled Singularity in the link chamber, and connect to one of the 4 Quantum Rings around it with a fluix cable. They cost 1000EU/t for each pair.%n%nYou can power the other side from the first, but you need to jumpstart it first, so bring an energy cell when setting it up. Remember that it's part of the same network, so you can only have one controller, and you're still limited by the channels of the cable you connected with, so you may wish to use the P2P Tunnel to bring more across.%n%nIf you use several, you may wish to rename the QESs.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ6A.desc=A Quantum Network Bridge allows you to connect faraway places to your main AE network, even in other dimensions. So you can shove that pollution producing Mega EBF in the Void where it belongs, but still use it from the safety of your main base. To create this, you'll need a Quantum Link Chamber surrounded by Quantum Rings. Then put an Quantum Entangled Singularity in the link chamber, and connect to one of the 4 Quantum Rings around it with a fluix cable. They cost around 1000EU/t for each ring.%n%nYou can power the other side from the first, but you need to jumpstart it first, so bring an energy cell when setting it up. Remember that it's part of the same network, so you can only have one controller, and you're still limited by the channels of the cable you connected with, so you may wish to use the P2P Tunnel to bring more across.%n%nIf you use several, you may wish to rename the QESs.
 
 # Quest: Tools of the Trade
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ6Q.name=Tools of the Trade
