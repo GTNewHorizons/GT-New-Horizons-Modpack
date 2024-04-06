@@ -49,25 +49,25 @@
       "requiredItems:9": {
         "0:10": {
           "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 10,
+          "Count:3": 5,
           "Damage:2": 2316,
           "OreDict:8": ""
         },
         "1:10": {
           "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 2,
+          "Count:3": 1,
           "Damage:2": 2030,
           "OreDict:8": ""
         },
         "2:10": {
           "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 4,
+          "Count:3": 2,
           "Damage:2": 2048,
           "OreDict:8": ""
         },
         "3:10": {
           "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 2,
+          "Count:3": 1,
           "Damage:2": 2029,
           "OreDict:8": ""
         }
@@ -84,7 +84,7 @@
       "requiredItems:9": {
         "0:10": {
           "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 16,
+          "Count:3": 8,
           "Damage:2": 2372,
           "OreDict:8": ""
         }
@@ -101,7 +101,7 @@
       "requiredItems:9": {
         "0:10": {
           "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 16,
+          "Count:3": 8,
           "Damage:2": 11372,
           "OreDict:8": ""
         }

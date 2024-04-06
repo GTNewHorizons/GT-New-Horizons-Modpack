@@ -33,28 +33,11 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "With Field Generators you can make your first Quantum Chests or Quantum Tanks. But the first two should be for your T2 rocket."
+      "desc:8": "With Field Generators you can make your first Quantum Chests or Quantum Tanks. But the first two should be for your T2 rocket.\n\n[note]Note that the Assembler recipe is more resource efficient.[/note]"
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
-      "autoConsume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 2,
-      "consume:1": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 8,
-          "Damage:2": 18372,
-          "OreDict:8": ""
-        }
-      },
-      "taskID:8": "bq_standard:optional_retrieval"
-    },
-    "1:10": {
       "partialMatch:1": 1,
       "autoConsume:1": 0,
       "groupDetect:1": 0,
