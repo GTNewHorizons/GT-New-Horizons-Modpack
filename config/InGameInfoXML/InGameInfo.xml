@@ -105,10 +105,6 @@
                 <num>0</num>
             </icon>
             <str> Chunk X: {gold}{chunkx} {white}Z: {gold}{chunkz} {white}Off: {gold}{chunkoffsetx} {white}: {gold}{chunkoffsetz} {white}Y: {gold}{yfeeti} {white}Facing {gold}{finedirection}</str>
-            <if>
-                <var>slimechunk</var>
-                <str> {gold}SlimeChunk{white}</str>
-            </if>
         </line>
         <line>
             <icon>
@@ -256,6 +252,20 @@
                         <str>  This is an {darkgreen}{underline}ore{white} chunk.</str>
                     </concat>
                 </if>
+            </if>
+        </line>
+        <line>
+            <if>
+                <equal>
+                    <var>slimes</var>
+                    <str>true</str>
+                </equal>
+                <concat>
+                    <icon>
+                            <str>textures/items/slimeball.png</str>
+                    </icon>
+                    <str> You are in a {darkgreen}slime chunk{white}.</str>
+                </concat>
             </if>
         </line>
         <line>
