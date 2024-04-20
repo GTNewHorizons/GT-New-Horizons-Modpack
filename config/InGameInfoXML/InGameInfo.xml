@@ -256,6 +256,20 @@
         </line>
         <line>
             <if>
+                <equal>
+                    <var>slimes</var>
+                    <str>true</str>
+                </equal>
+                <concat>
+                    <icon>
+                            <str>textures/items/slimeball.png</str>
+                    </icon>
+                    <str> You are in a {darkgreen}slime chunk{white}.</str>
+                </concat>
+            </if>
+        </line>
+        <line>
+            <if>
                 <and>
                     <equal>
                         <var>chunkoffsetx</var>
@@ -305,20 +319,6 @@
                         <str>      </str>
                     </if>
                     <str>  You are at the {darkred}center {white}of the chunk.</str>
-                </concat>
-            </if>
-        </line>
-        <line>
-            <if>
-                <equal>
-                    <var>slimes</var>
-                    <str>true</str>
-                </equal>
-                <concat>
-                    <icon>
-                            <str>textures/items/slimeball.png</str>
-                    </icon>
-                    <str> You are in a {darkgreen}slime chunk{white}.</str>
                 </concat>
             </if>
         </line>
