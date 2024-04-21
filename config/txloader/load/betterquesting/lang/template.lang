@@ -6252,7 +6252,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKxw.desc=For when your ABS isn't the rig
 
 # Quest: What Even is This?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKyA.name=What Even is This?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKyA.desc=In addition to being a dehydrator multi, it's also a Vacuum Furnace, for which no singleblock exists. It's supposed to be used with the IsaMill Grinding Machine multi and the Flotation Cell Regulator multi for the purposes of ore milling, an advanced method of ore processing that needs a lot of infrastructure, but which gives many new outputs for each ore it supports.%n%n§3This multi is ZPM.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKyA.desc=In addition to being a dehydrator multi, it's also a Vacuum Furnace, for which no singleblock exists. It's supposed to be used with the IsaMill Grinding Machine multi and the Flotation Cell Regulator multi for the purposes of ore milling, an advanced method of ore processing that needs a lot of infrastructure, but which gives many new outputs for each ore it supports.%n%n§3This multi is LuV now!
 
 # Quest: Do I Really Need to Make This?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKyQ.name=Do I Really Need to Make This?
@@ -6260,7 +6260,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKyQ.desc=Oh wait, yes, you actually need
 
 # Quest: Too much Indium?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMSA.name=Too much Indium?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMSA.desc=Milling process is an alternative way to produce Indium, designed for ZPM and UV people. It does not void Aluminium and Galena for no reason, and you can extract Indium from Sphalerite efficiently. In exchange of machine cost and infrastructure needed to process.%n%n§3This multi is LuV, but you have to use in combination with Vacuum Furnace, which is ZPM.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMSA.desc=Milling process is an alternative way to produce Indium, designed for LuV and above. It does not void Aluminium and Galena for no reason, and you can extract Indium from Sphalerite efficiently. In exchange of machine cost and infrastructure needed to process.
 
 # Quest: MABS
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM1Q.name=MABS
