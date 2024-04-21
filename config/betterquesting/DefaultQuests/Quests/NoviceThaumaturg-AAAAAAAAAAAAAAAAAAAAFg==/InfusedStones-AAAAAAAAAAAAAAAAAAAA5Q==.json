@@ -10,7 +10,7 @@
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
+      "taskLogic:8": "OR",
       "partySingleReward:1": 0,
       "visibility:8": "NORMAL",
       "isMain:1": 1,
@@ -54,6 +54,42 @@
           "Count:3": 16,
           "Damage:2": 541,
           "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.blockores",
+          "Count:3": 16,
+          "Damage:2": 540,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "gregtech:gt.blockores",
+          "Count:3": 16,
+          "Damage:2": 542,
+          "OreDict:8": ""
+        },
+        "4:10": {
+          "id:8": "gregtech:gt.blockores",
+          "Count:3": 16,
+          "Damage:2": 545,
+          "OreDict:8": ""
+        },
+        "5:10": {
+          "id:8": "gregtech:gt.blockores",
+          "Count:3": 16,
+          "Damage:2": 544,
+          "OreDict:8": ""
+        },
+        "6:10": {
+          "id:8": "gregtech:gt.blockores",
+          "Count:3": 16,
+          "Damage:2": 514,
+          "OreDict:8": ""
+        },
+        "7:10": {
+          "id:8": "gregtech:gt.blockores",
+          "Count:3": 16,
+          "Damage:2": 826,
+          "OreDict:8": ""
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -62,66 +98,56 @@
       "partialMatch:1": 1,
       "autoConsume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
+      "ignoreNBT:1": 0,
       "index:3": 1,
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.blockores",
+          "id:8": "gregtech:gt.metaitem.03",
           "Count:3": 16,
-          "Damage:2": 540,
+          "Damage:2": 5543,
           "OreDict:8": ""
         },
         "1:10": {
-          "id:8": "gregtech:gt.blockores",
+          "id:8": "gregtech:gt.metaitem.03",
           "Count:3": 16,
-          "Damage:2": 542,
-          "OreDict:8": ""
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "2:10": {
-      "partialMatch:1": 1,
-      "autoConsume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 2,
-      "consume:1": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.blockores",
-          "Count:3": 16,
-          "Damage:2": 545,
+          "Damage:2": 5541,
           "OreDict:8": ""
         },
-        "1:10": {
-          "id:8": "gregtech:gt.blockores",
+        "2:10": {
+          "id:8": "gregtech:gt.metaitem.03",
           "Count:3": 16,
-          "Damage:2": 544,
-          "OreDict:8": ""
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "3:10": {
-      "partialMatch:1": 1,
-      "autoConsume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 3,
-      "consume:1": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.blockores",
-          "Count:3": 16,
-          "Damage:2": 514,
+          "Damage:2": 5540,
           "OreDict:8": ""
         },
-        "1:10": {
-          "id:8": "gregtech:gt.blockores",
+        "3:10": {
+          "id:8": "gregtech:gt.metaitem.03",
           "Count:3": 16,
-          "Damage:2": 826,
+          "Damage:2": 5542,
+          "OreDict:8": ""
+        },
+        "4:10": {
+          "id:8": "gregtech:gt.metaitem.03",
+          "Count:3": 16,
+          "Damage:2": 5545,
+          "OreDict:8": ""
+        },
+        "5:10": {
+          "id:8": "gregtech:gt.metaitem.03",
+          "Count:3": 16,
+          "Damage:2": 5544,
+          "OreDict:8": ""
+        },
+        "6:10": {
+          "id:8": "gregtech:gt.metaitem.03",
+          "Count:3": 16,
+          "Damage:2": 5514,
+          "OreDict:8": ""
+        },
+        "7:10": {
+          "id:8": "gregtech:gt.metaitem.03",
+          "Count:3": 16,
+          "Damage:2": 5826,
           "OreDict:8": ""
         }
       },
