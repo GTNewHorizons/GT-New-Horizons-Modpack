@@ -272,7 +272,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Automagy](https://www.curseforge.com/minecraft/mc-mods/automagy) | 0.28.2 |
 | [Avaritia](https://github.com/GTNewHorizons/Avaritia) | 1.49 |
 | [Avaritiaddons](https://github.com/GTNewHorizons/Avaritiaddons) | 1.7.1-GTNH |
-| [bartworks](https://github.com/GTNewHorizons/bartworks) | 0.9.22 |
+| [bartworks](https://github.com/GTNewHorizons/bartworks) | 0.9.21 |
 | [Battlegear2](https://github.com/GTNewHorizons/Battlegear2) | 1.3.7 |
 | [Baubles](https://github.com/GTNewHorizons/Baubles) | 1.0.4 |
 | [bdlib](https://github.com/GTNewHorizons/bdlib) | 1.10.0-GTNH |
