@@ -471,7 +471,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [ThaumicTinkerer](https://github.com/GTNewHorizons/ThaumicTinkerer) | 2.9.4 |
 | [TiC-Tooltips](https://github.com/GTNewHorizons/TiC-Tooltips) | 1.3.1 |
 | [Tinkers-Defense](https://github.com/GTNewHorizons/Tinkers-Defense) | 1.2.2 |
-| [Tinkers-Gregworks](https://github.com/Vexatos/TinkersGregworks/tree/GT-NH) | 1.0.25 |
+| [Tinkers-Gregworks](https://github.com/Vexatos/TinkersGregworks/tree/GT-NH) | 1.0.26 |
 | [TinkersConstruct](https://github.com/GTNewHorizons/TinkersConstruct) | 1.11.15-GTNH |
 | [TinkersMechworks](https://github.com/GTNewHorizons/TinkersMechworks) | 0.3.1 |
 | [TooMuchLoot](https://github.com/GTNewHorizons/TooMuchLoot) | 4.2.0-GTNH |
