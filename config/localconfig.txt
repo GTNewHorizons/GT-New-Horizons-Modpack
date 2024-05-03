@@ -201,6 +201,7 @@ modularui.cfg/keyboard/*
 modularui.cfg/rendering/*
 
 MouseTweaks.cfg/*/*
+!MouseTweaks.cfg/general/LMBTweakWithItem
 
 multipart.cfg//useSawIcons $format=simple
 
