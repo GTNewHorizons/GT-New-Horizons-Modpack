@@ -200,7 +200,7 @@ modularui.cfg/animations/*
 modularui.cfg/keyboard/*
 modularui.cfg/rendering/*
 
-MouseTweaks.cfg//* $format=simple
+MouseTweaks.cfg/*/*
 
 multipart.cfg//useSawIcons $format=simple
 
