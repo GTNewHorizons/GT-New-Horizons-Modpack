@@ -4223,6 +4223,10 @@ betterquesting.quest.AzTPKiXuRWaBTOFhTeV83Q.desc=An armorset worthy of a God. Th
 betterquesting.quest.E851J_UMQl6d9EwLLLg6AQ.name=Infinity Pants
 betterquesting.quest.E851J_UMQl6d9EwLLLg6AQ.desc=An armorset worthy of a God. These pants have no special effects on their own but are required to complete the full infinity set.%n%n%nWhile wearing the complete set, you are completely unkillable.
 
+# Quest: The Cat is Out of the Box
+betterquesting.quest.RAH2M4DoTTaX5a2Sj4hRcQ.name=The Cat is Out of the Box
+betterquesting.quest.RAH2M4DoTTaX5a2Sj4hRcQ.desc=After many hours of grind, blood, sweat, tears, and a little bit of transcendent metal... %nYou are now finally able to solve mankind's hardest puzzle ever, clicking boxes randomly.%n%nThe §cUncertainty Resolution§r, §oa Dyson user's wet dream§r, will allow you to completely skip that annoying puzzle when you need to set some (probably a lot.) Quantum Computers up.
+
 
 ## Quest Line: Fishing, Farming, Cooking
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAACg.name=Fishing, Farming, Cooking
@@ -6043,7 +6047,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALTQ.desc=To process more advanced materi
 
 # Quest: Neutron Activator
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALeA.name=§6§lNeutron Activator
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALeA.desc=You will need machine to process the naquadah in future.%n%nThis machine is different from most mulits. It needs to use §4Neutron Accelerator§r this special hatch instead of energy hatch to keep it running.%n%nThe accelerator will increase its Neutron Kinetic Energy (NKE) and when the NKE is between the requested number which you can see in NEI, the machine will work and output the right products. However, if you turn on the Neutron Activator when NKE doesn't meet the requirement, it will still consume your input material but output trash. So be careful with the NKE when you run this machine.%n%nWhen all Neutron Accelerator§rs aren't running, NKE will decrease 72keV/s.%n%nNeutron Activator will explode when NKE is over 1200MeV.%n%n§3The more height/speed casings you have, the more inefficient the eu->eV conversion becomes, so you then need more power. The maths is as follows: Multiply recipe time by 0.9 for each height above 4 and multiply eV you get from your input power by 0.95 for each height above 4.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALeA.desc=You will need machine to process the naquadah in future.%n%nThis machine is different from most mulits. It needs to use §4Neutron Accelerator§r this special hatch instead of energy hatch to keep it running.%n%nThe accelerator will increase its Neutron Kinetic Energy (NKE) and when the NKE is between the requested number which you can see in NEI, the machine will work and output the right products. However, if you turn on the Neutron Activator when NKE doesn't meet the requirement, it will still consume your input material but output trash. So be careful with the NKE when you run this machine.%n%nWhen all Neutron Accelerator§rs aren't running, NKE will decrease 72keV/s.%n%nNeutron Activator will explode when NKE is over 1200MeV.%n%n§dYou can enable batch mode with wire cutters.%n%n§3The more height/speed casings you have, the more inefficient the eu->eV conversion becomes, so you then need more power. The maths is as follows: Multiply recipe time by 0.9 for each height above 4 and multiply eV you get from your input power by 0.95 for each height above 4.
 
 # Quest: Neutron Sensor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALeQ.name=§6§lNeutron Sensor
@@ -9427,6 +9431,10 @@ betterquesting.quest.QF-_KNlHSnObOPmrJptkwQ.desc=You've probbaly drained quite a
 # Quest: 4096k Essentia Component
 betterquesting.quest.QHyLarPvSnCb30EbaBQdaw.name=4096k Essentia Component
 betterquesting.quest.QHyLarPvSnCb30EbaBQdaw.desc=Same as 1k.
+
+# Quest: Yet Another Singularity?!?!
+betterquesting.quest.SDGKHP7fQx-c3gUBv4DwuQ.name=Yet Another Singularity?!?!
+betterquesting.quest.SDGKHP7fQx-c3gUBv4DwuQ.desc=Ever wanted to order 10 million billion billion chests and you noticed that your crafting storage was just not big enough?%n%nWell here is your solution provided to you by the good folks over at GTNHCorp (Name Pending).%n%n§c§rThe §cSingularity Crafting Storage§r has a storage of 9,223,372,036,854,775,807 Bytes, which if you can't read numbers is a lot.%n%nEnjoy crafting one :) you need to kill some chaos guardians for it.%n
 
 # Quest: 256k Essentia Component
 betterquesting.quest.Wh0yn2MOQhS-X_8NiPiZJw.name=256k Essentia Component
