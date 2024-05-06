@@ -200,7 +200,8 @@ modularui.cfg/animations/*
 modularui.cfg/keyboard/*
 modularui.cfg/rendering/*
 
-MouseTweaks.cfg//* $format=simple
+MouseTweaks.cfg/*/*
+!MouseTweaks.cfg/general/LMBTweakWithItem
 
 multipart.cfg//useSawIcons $format=simple
 
