@@ -129,7 +129,33 @@
             <str>{white})</str>
         </line>
         <line>
-            <str>{black}</str>
+            <icon>
+                <str>witchery:mooncharm</str>
+            </icon>
+			<str> Moon phase: </str>
+			<op>
+				<str>eq</str>
+				<modi>
+					<var>day</var>
+					<num>8</num>
+				</modi>
+				<num>0</num>
+				<num>1</num>
+				<num>2</num>
+				<num>3</num>
+				<num>4</num>
+				<num>5</num>
+				<num>6</num>
+				<num>7</num>
+				<str>{gold}Full moon</str>
+				<str>{yellow}Waning gibbous (1/3)</str>
+				<str>{gray}Last quarter (2/3)</str>
+				<str>{darkgray}Waning crescent (3/3)</str>
+				<str>{black}New moon</str>
+				<str>{darkgray}Waxing crescent (1/3)</str>
+				<str>{gray}First quarter (2/3)</str>
+				<str>{yellow}Waxing gibbous (3/3)</str>
+			</op>
         </line>
         <line>
             <if>
