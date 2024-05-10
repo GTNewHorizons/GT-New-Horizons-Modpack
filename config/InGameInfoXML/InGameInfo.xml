@@ -595,6 +595,20 @@
         <line>
             <if>
                 <equal>
+                    <var>slimes</var>
+                    <str>true</str>
+                </equal>
+                <concat>
+                    <icon>
+                            <str>textures/items/slimeball.png</str>
+                    </icon>
+                    <str> This is a {darkgreen}slime chunk{white}.</str>
+                </concat>
+            </if>
+        </line>
+        <line>
+            <if>
+                <equal>
                 <var>gtnewore</var>
                     <str>true</str>
                 </equal>
@@ -636,12 +650,8 @@
                     <concat>
                         <icon>
                             <str>textures/items/diamond_pickaxe.png</str>
-                            <num>0</num>
-                            <num>0</num>
-                            <num>16</num>
-                            <num>16</num>
                         </icon>
-                        <str>  This is an {darkgreen}{underline}ore{white} chunk.</str>
+                        <str> This is an {darkgreen}{underline}ore{white} chunk.</str>
                     </concat>
                 </if>
             </if>
@@ -688,28 +698,10 @@
                     <concat>
                         <icon>
                             <str>textures/items/diamond_pickaxe.png</str>
-                            <num>0</num>
-                            <num>0</num>
-                            <num>16</num>
-                            <num>16</num>
                         </icon>
-                        <str>  This is an {darkgreen}{underline}ore{white} chunk.</str>
+                        <str> This is an {darkgreen}{underline}ore{white} chunk.</str>
                     </concat>
                 </if>
-            </if>
-        </line>
-        <line>
-            <if>
-                <equal>
-                    <var>slimes</var>
-                    <str>true</str>
-                </equal>
-                <concat>
-                    <icon>
-                            <str>textures/items/slimeball.png</str>
-                    </icon>
-                    <str> You are in a {darkgreen}slime chunk{white}.</str>
-                </concat>
             </if>
         </line>
         <line>
@@ -762,7 +754,7 @@
                         </and>
                         <str>      </str>
                     </if>
-                    <str>  You are at the {darkred}center {white}of the chunk.</str>
+                    <str>   You are at the {darkred}center {white}of the chunk.</str>
                 </concat>
             </if>
         </line>
