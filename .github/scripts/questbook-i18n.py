@@ -60,8 +60,8 @@ class BQJson(metaclass=ABCMeta):
 
 class QuestLine(BQJson):
     @property
-    def quests(self):
-        return self.obj['quests:9']
+    def id(self):
+        return self.path.parent.name[-ID_LENGTH:]
 
     def write_to_lang_file(self, fp: TextIO):
         fp.write(
@@ -76,14 +76,6 @@ class Quest(BQJson):
     def __init__(self, path: Path):
         super().__init__(path)
 
-    @property
-    def quest_id_low(self):
-        return self.obj['questIDLow:4']
-
-    @property
-    def quest_id_high(self):
-        return self.obj['questIDHigh:4']
-
     def write_to_lang_file(self, fp: TextIO):
         fp.write(
             f'\n'
@@ -93,35 +85,25 @@ class Quest(BQJson):
         )
 
 
-# The standard alphanumeric sort order has digits [0-9] before letters [A-Za-z].
-# However, for UUIDs in base64-encoded string form, we actually want digits to come after letters.
-# This ordering corresponds to a value-based sorting of UUIDs, and is what BetterQuesting uses.
-# Note: '-' and '_' should come even after numbers; see RFC 4648 §5
-def uuidCharSortOrder(c: str):
-    if c == '-':
-        return 300
-    elif c == '_':
-        return 400
-    elif c <= '9':
-        return ord(c) + 200
-    else:
-        return ord(c)
-
-
-def uuidStringSortOrder(s: str):
-    return [uuidCharSortOrder(c) for c in s]
-
-
 if __name__ == '__main__':
     TEMPLATE_LANG_PATH.parent.mkdir(parents=True, exist_ok=True)
-    with TEMPLATE_LANG_PATH.open(mode='w', encoding="utf-8") as lang:
-        quest_lines_order = [row[:ID_LENGTH] for row in QUEST_LINES_ORDER_PATH.read_text().splitlines()]
-        quest_lines = [QuestLine(p) for p in QUEST_LINES_DIR_PATH.glob('*.json')]
-        quest_lines_dict: dict[str, QuestLine] = {ql.id: ql for ql in quest_lines}
-
+    with (TEMPLATE_LANG_PATH.open(mode='w', encoding="utf-8") as lang):
         quests = [Quest(p) for p in QUESTS_DIR_PATH.glob('*/*.json')]
-        quests_dict: dict[tuple[int, int], Quest] = {(q.quest_id_low, q.quest_id_high): q for q in quests}
+        quests_dict: dict[str, Quest] = {q.id: q for q in quests}
 
+        quest_lines_dict: dict[str, QuestLine] = dict()
+        quest_lines_quests_dict: dict[str, set[str]] = dict()
+        for quest_line_dir in QUEST_LINES_DIR_PATH.glob('*'):
+            quest_line = QuestLine(quest_line_dir / 'QuestLine.json')
+            quest_lines_dict[quest_line.id] = quest_line
+
+            for entry in quest_line_dir.glob('*.json'):
+                if entry.name == 'QuestLine.json':
+                    continue
+                quest_id = entry.name.removesuffix('.json')[-ID_LENGTH:]
+                quest_lines_quests_dict.setdefault(quest_line.id, set()).add(quest_id)
+
+        quest_lines_order = [row[:ID_LENGTH] for row in QUEST_LINES_ORDER_PATH.read_text().splitlines()]
         lang.write('### Quest Lines ###\n')
         for quest_line_id in quest_lines_order:
             if quest_line_id not in quest_lines_dict:
@@ -130,21 +112,18 @@ if __name__ == '__main__':
             quest_line = quest_lines_dict[quest_line_id]
             quest_line.write_to_lang_file(lang)
 
-            for quest_metadata_index in range(len(quest_line.quests)):
-                quest_metadata = quest_line.quests[f'{quest_metadata_index}:10']
-                quest_metadata_id: tuple[int, int] = (quest_metadata['questIDLow:4'], quest_metadata['questIDHigh:4'])
-                if quest_metadata_id not in quests_dict:
-                    logging.error(f'Quest [{quest_metadata_id}] not found')
+            for quest_id in sorted(quest_lines_quests_dict.setdefault(quest_line.id, set())):
+                if quest_id not in quests_dict:
+                    logging.error(f'Quest [{quest_id}] not found')
                     exit(1)
-                quest = quests_dict[quest_metadata_id]
+                quest = quests_dict[quest_id]
                 if quest.path.parent.name != DIR_NAME_MULTIPLE_QUEST_LINE:
                     quest.write_to_lang_file(lang)
-                    quest.generated = True
 
         for title, dir_name in (
                 ('### Quests in multiple quest lines ###', DIR_NAME_MULTIPLE_QUEST_LINE),
                 ('### Quests in no quest lines ###', DIR_NAME_NO_QUEST_LINE),
         ):
             lang.write(f'\n\n{title}\n')
-            for quest in sorted([q for q in quests if q.path.parent.name == dir_name], key=lambda q: uuidStringSortOrder(q.id)):
+            for quest in sorted([q for q in quests if q.path.parent.name == dir_name], key=lambda q: q.id):
                 quest.write_to_lang_file(lang)
