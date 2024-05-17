@@ -1,0 +1,33 @@
+name: Issue Helper
+
+on:
+  issues:
+    types: [opened]
+  workflow_dispatch:
+    inputs:
+      issue_number:
+        description: 'Issue number to run this action on'
+        required: true
+        type: integer
+jobs:
+  base:
+    runs-on: ubuntu-latest
+    outputs:
+      parsed: ${{ steps.parse.outputs.payload }}
+    steps:
+      - name: Parse issue
+        id: parse
+        uses: onmax/issue-form-parser@v1.4
+        with:
+          issue_number: ${{ github.event_name == 'workflow_dispatch' && inputs.issue_number || github.event.issue.number }}
+      - name: Annotate issue
+        id: annotate
+        uses: GTNewHorizons/GTNHIssueHelper@latest
+        with:
+          formdata: ${{ steps.parse.outputs.payload }}
+      - name: Post comment
+        if: ${{ steps.annotate.outputs.comments != ''}}
+        uses: peter-evans/create-or-update-comment@v4.0.0
+        with:
+          body: ${{ steps.annotate.outputs.comments }}
+          issue-number: ${{ github.event_name == 'workflow_dispatch' && inputs.issue_number || github.event.issue.number }}
