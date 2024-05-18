@@ -29,7 +29,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Stocking bus but better!\n\nThis one can pull first 16 types of items automatically from ME network, which can be useful for some automations. Minimum stack size and refresh time can be configured in the GUI.\n\n§3Using this on your main network is probably not a very good idea."
+      "desc:8": "Stocking bus but better!\n\nThis one can pull first 16 types of items automatically from ME network, which can be useful for some automations. Minimum stack size and refresh time can be configured in the GUI.\n\n[note]Using this on your main network is probably not a very good idea.[/note]"
     }
   },
   "tasks:9": {
