@@ -380,7 +380,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Jabba](https://github.com/GTNewHorizons/Jabba) | 1.3.5 |
 | [JourneyMap Server](https://www.curseforge.com/minecraft/mc-mods/journeymap-server) | 1.0.5 |
 | [JourneyMap](https://www.curseforge.com/minecraft/mc-mods/journeymap) | 5.2.3-fairplay |
-| [KekzTech](https://github.com/GTNewHorizons/KekzTech) | 0.11.4 |
+| [KekzTech](https://github.com/GTNewHorizons/KekzTech) | 0.10.6 |
 | [KubaTech](https://github.com/GTNewHorizons/KubaTech) | 0.14.9 |
 | [LittleTiles](https://github.com/GTNewHorizons/LittleTiles) | 1.3.0-GTNH |
 | [LogisticsPipes](https://github.com/GTNewHorizons/LogisticsPipes) | 1.1.14-GTNH |
