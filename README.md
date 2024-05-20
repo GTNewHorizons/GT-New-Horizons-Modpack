@@ -263,7 +263,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Angelica](https://github.com/GTNewHorizons/Angelica) | 1.0.0-alpha50 |
 | [AngerMod](https://github.com/GTNewHorizons/AngerMod) | 0.7.1 |
 | [AppleCore](https://github.com/GTNewHorizons/AppleCore) | 3.3.0 |
-| [Applied-Energistics-2-Unofficial](https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial) | rv3-beta-358-GTNH |
+| [Applied-Energistics-2-Unofficial](https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial) | rv3-beta-357-GTNH |
 | [Archaicfix](https://github.com/embeddedt/ArchaicFix) | 0.7.2 |
 | [ArchitectureCraft](https://github.com/GTNewHorizons/ArchitectureCraft) | 1.9.5 |
 | [Aroma1997Core](https://www.curseforge.com/minecraft/mc-mods/aroma1997core) | 1.0.2.16 |
