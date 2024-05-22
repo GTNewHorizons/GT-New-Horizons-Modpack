@@ -1,0 +1,11 @@
+{
+  "id": "stargate_2.1.2.3qf",
+  "condition": {
+    "type": "achievement",
+    "id": "stargate_2.1.2.3qf"
+  },
+  "model": {
+    "type": "item",
+    "registryName": "dreamcraft:item.PolychromeGatePlate"
+  }
+}
