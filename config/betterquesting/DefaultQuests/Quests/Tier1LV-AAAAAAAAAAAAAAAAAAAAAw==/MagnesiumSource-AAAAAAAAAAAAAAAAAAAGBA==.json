@@ -31,7 +31,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Magnesite, the source of Magnesium can be found in the Twilight Forest at Y 10-40. Fullers Earth can be found on the Overworld at Y 50-70. Marble dust is a great source of Magnesium too.\nOther options in LV are Pyrope, Olivine, or Ashes.\n\n§3You only need one of the two to complete the quest."
+      "desc:8": "Magnesite, the source of Magnesium can be found in the Twilight Forest at Y 10-40. Fullers Earth can be found on the Overworld at Y 50-70. Marble dust is a great source of Magnesium too.\nOther options in LV are Pyrope, Olivine, or Ashes.\n\n§3You only need one of the three to complete the quest."
     }
   },
   "tasks:9": {
@@ -58,6 +58,23 @@
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metaitem.03",
+          "Count:3": 16,
+          "Damage:2": 5908,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 2,
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {

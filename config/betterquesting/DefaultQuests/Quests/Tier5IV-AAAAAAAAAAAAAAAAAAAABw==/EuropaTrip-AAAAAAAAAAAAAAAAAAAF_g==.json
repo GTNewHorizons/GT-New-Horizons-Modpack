@@ -61,6 +61,23 @@
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
+          "id:8": "gregtech:gt.metaitem.03",
+          "Count:3": 64,
+          "Damage:2": 5390,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
           "id:8": "gregtech:gt.metaitem.01",
           "Count:3": 192,
           "Damage:2": 5390,
