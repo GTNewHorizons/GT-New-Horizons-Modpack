@@ -1283,7 +1283,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGAQ.desc=Tired of having to replace tool
 
 # Quest: Magnesium Source
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBA.name=§5§lMagnesium Source
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBA.desc=Magnesite, the source of Magnesium can be found in the Twilight Forest at Y 10-40. Fullers Earth can be found on the Overworld at Y 50-70. Marble dust is a great source of Magnesium too.%nOther options in LV are Pyrope, Olivine, or Ashes.%n%n§3You only need one of the two to complete the quest.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBA.desc=Magnesite, the source of Magnesium can be found in the Twilight Forest at Y 10-40. Fullers Earth can be found on the Overworld at Y 50-70. Marble dust is a great source of Magnesium too.%nOther options in LV are Pyrope, Olivine, or Ashes.%n%n§3You only need one of the three to complete the quest.
 
 # Quest: Node Upgrades
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGPw.name=§5§lNode Upgrades
@@ -1834,9 +1834,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHGw.desc=Get yourself some Silicon Dioxi
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHHw.name=§6§lMobile Trash Can
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHHw.desc=GT2's Destructopack is a mobile Trashcan. Might be handy!
 
-# Quest: Overworld Tantalum
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHKw.name=§6§lOverworld Tantalum
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHKw.desc=Tantalum is used in the GT (optional) and Ender IO Capacitors, and is also a source for niobium. You can find Tantalite at Y 20-30 on the Overworld.
+# Quest: Tantalum Ore
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHKw.name=§6§lTantalum Ore
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHKw.desc=Tantalum is used in the GT (optional) and Ender IO Capacitors, and is also a source for niobium. You can find Tantalite at Y 20-30 on the Overworld and at Y 20-30 in the Nether..%n%n§4Keep in mind you need an HV + Kanthal EBF and an MV Chemical Bath to get Tantalum Ingots.
 
 # Quest: All We Are is Dust in the Wind
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHOg.name=§6§lAll We Are is Dust in the Wind
@@ -1909,10 +1909,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJaQ.desc=Rare Earth processing may have 
 # Quest: Too Many Items? Unpossible!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJbg.name=§6§lToo Many Items? Unpossible!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJbg.desc=Too many items getting you down? Just slap this badboy on a drawer, and any items you put in over the maximum will be automatically voided for you! More useful in combination with a Drawer Controller admittedly.
-
-# Quest: Tantalum Nether
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJeg.name=§6§lTantalum Nether
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJeg.desc=Tantalum is used in the GT (optional) and Ender IO Capacitors, and is also a source for niobium. You can find Tantalite at Y 20-30 in the Nether.%n%n§4Keep in mind you need an HV + Kanthal EBF and an MV Chemical Bath to get Tantalum Ingots.
 
 # Quest: Hangover From All That Glue?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKsA.name=§6§lHangover From All That Glue?
