@@ -1,0 +1,139 @@
+{
+  "questIDHigh:4": -75524450466052573,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2665
+    }
+  },
+  "questIDLow:4": -6184321923537677060,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "dreamcraft:item.MedalGTExplosion",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "A Blast to the Past",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Now that you have the bio mainframe, you have unlocked the first of the stargate trophies! \nYes, there\u0027s multiple of them, one for each major iteration of the stargate recipe. \nThese trophies are just that, trophies, and you can try to craft them if you want to compare the costs to today\u0027s stargate standards.\nTo complete these quests you have to submit two stargates\u0027 worth of materials.\n\n§3Now, let me bestow upon you a short history lesson about this point in GT:NHs past.\n\nThe year is 2020. The bio mainframe was pretty much the end of GT:NH progression at the time, not much above UHV existed or was craftable. This was also the point in the pack where you\u0027d start scaling for stargate, as that too was tiered at UHV. Technically UEV parts were craftable, but their only uses were singleblocks for PAs (which only held up to 16 UEV machines) and the Deep Dark Portal. UEV-UMV energy hatches were craftable, but their recipes were simple hull + wire crafting table recipes \n...and that was about it for UHV+ content. \nWith the recent addition of void miners, the previously thought to be impossible started to seem actually attainable, a set of stargates. Specifically, to §ocraft§3 a set of them, not just find them like others have before. \n\nOne group in particular, known as the §aGigaplex§3, gave it their all and actually managed to do it, to prove that crafting stargates is possible with enough determination.\n\nThus, on the §a16th of February, 2021§3, the first set of crafted stargates had been born.\n\nP.S.: If you want to be as faithful to the challenge as possible, try completing this quest without using any of the modern functionality that didn\u0027t exist back then.\nHere\u0027s a non-exhaustive list of major things that didnt exist (in no particular order):\n-PCB Factory, Space Elevator, Component Assemblyline, AAL, PrAss, EEC, EIG, Compact Fusions, MCR, MABS\n-Any bee related GT machines\n-Any UEV or above multis\n-XL Turbines, Naq fuel, LEG\n-Sub 1-tick OC, Batch Mode, inbuilt Void Protection on multis\n-PAs with more than 64 parallel (they automatically downtiered to UHV if you used UEV machines)\n-Level Maintainer, AE Fluid Crafting, Stocking Buses/Hatches, Crafting Input Buses, ME Output Buses/Hatches, non-recursive AE component recipes\n-Shift clicking recipes into AE patterns (pain)\n-Early-Midgame QoL such as ghost circuits, visual prospecting, reprogramming circuits with a screwdriver, seeing Assline recipes in NEI before having crafted them, and more\n\nP.P.S: This quest is missing the chaotic capacitors on purpose, because the chaotic core recipe requires spacetime now, but the chaotic capacitor recipe did not change at all since then. All in all the cost for these banks was completely negligible back then and still is today, they only serve as a magic gate for SG."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.OriginGatePlate",
+          "Count:3": 625,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "dreamcraft:item.OriginChevron",
+          "Count:3": 342,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "dreamcraft:item.OriginFramePart",
+          "Count:3": 1470,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "dreamcraft:item.OriginNanoCircuit",
+          "Count:3": 82,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "4:10": {
+          "id:8": "SGCraft:sgCoreCrystal",
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "5:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 436,
+          "Damage:2": 32647,
+          "OreDict:8": ""
+        },
+        "6:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 138,
+          "Damage:2": 32697,
+          "OreDict:8": ""
+        },
+        "7:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 10,
+          "Damage:2": 32687,
+          "OreDict:8": ""
+        },
+        "8:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 736,
+          "Damage:2": 32677,
+          "OreDict:8": ""
+        },
+        "9:10": {
+          "id:8": "gregtech:gt.blockcasings",
+          "Count:3": 124,
+          "Damage:2": 15,
+          "OreDict:8": ""
+        },
+        "10:10": {
+          "id:8": "gregtech:gt.blockmetal4",
+          "Count:3": 1590,
+          "Damage:2": 13,
+          "OreDict:8": ""
+        },
+        "11:10": {
+          "id:8": "gregtech:gt.blockmetal7",
+          "Count:3": 1960,
+          "Damage:2": 9,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "minecraft:paper",
+          "Count:3": 1,
+          "tag:10": {
+            "display:10": {
+              "Name:8": "Pick this item up to get your trophy"
+            }
+          },
+          "Damage:2": 1,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}
