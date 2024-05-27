@@ -1,0 +1,55 @@
+{
+  "questIDHigh:4": 5202090901729395487,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 465
+    }
+  },
+  "questIDLow:4": -7143266453897023303,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "appliedenergistics2:tile.BlockSingularityCraftingStorage",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Yet Another Singularity?!?!",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Ever wanted to order 10 million billion billion chests and you noticed that your crafting storage was just not big enough?\n\nWell here is your solution provided to you by the good folks over at GTNHCorp (Name Pending).\n\n§c§rThe §cSingularity Crafting Storage§r has a storage of 9,223,372,036,854,775,807 Bytes, which if you can\u0027t read numbers is a lot.\n\nEnjoy crafting one :) you need to kill some chaos guardians for it.\n"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "appliedenergistics2:tile.BlockSingularityCraftingStorage",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {}
+}

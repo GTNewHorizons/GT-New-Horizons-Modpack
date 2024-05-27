@@ -26,12 +26,12 @@
       "globalShare:1": 1,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "§1§2§3§4§5§6§7§8§9§lPolystyrene",
+      "name:8": "§9§lPolystyrene",
       "isGlobal:1": 0,
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "To make Polystyrene use the chemical reactor to combine oxygen and styrene.\n\n§3There\u0027s only one type of machine that uses it, so don\u0027t bother making more until you need it."
+      "desc:8": "To make Polystyrene use the chemical reactor to combine oxygen and styrene.\n\n[note]There\u0027s only one type of machine that uses it, so don\u0027t bother making more until you need it.[/note]"
     }
   },
   "tasks:9": {

@@ -36,7 +36,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "This tanks works the same as the smaller GT tanks, but holds way more. Specifically, 4,000,000L. Only make this for things you need tons of, LV circuits are expensive after all.\n\nNow you can store the same amount of fluids a steel 5x5 Railcraft tank contains in a single block.\n\n§3\nA lot of nice functionality has been added to Super and Quantum tanks. You can now pick them up with a wrench without voiding the fluids! Super tanks (but not Quantum) will give you heavy debuffs though, so better prepare some milk.\n\nIf you actually want to void the fluids you can crouch while using the wrench.\n\nThey now also have optional automatic fluid output, fluid locking, overflow void mode, or full void mode. And all that with a nice and simple GUI. Quite the IMPACTful change I would say. "
+      "desc:8": "This tanks works the same as the smaller GT tanks, but holds way more. Specifically, 4,000,000L. Only make this for things you need tons of, LV circuits are expensive after all.\n\nNow you can store the same amount of fluids a steel 5x5 Railcraft tank contains in a single block.\n\n[note]A lot of nice functionality has been added to Super and Quantum tanks. You can now pick them up with a wrench without voiding the fluids! Super tanks (but not Quantum) will give you heavy debuffs though, so better prepare some milk.\n\nIf you actually want to void the fluids you can crouch while using the wrench.\n\nThey now also have optional automatic fluid output, fluid locking, overflow void mode, or full void mode. And all that with a nice and simple GUI. Quite the IMPACTful change I would say.[/note]"
     }
   },
   "tasks:9": {

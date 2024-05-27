@@ -31,7 +31,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "With your HV assembler you can craft a world anchor. So let\u0027s make one. It will again load a 3x3 chunk area.\n\nYou need coins to power the world anchor, it will run a varying amount depending on the coin used. \n\n§aPersonal Anchors§r are loaded once the owner visits, and stays loaded while the player is logged in.\n\n§9Passive Anchors§r are loaded once the owner visits, and stays loaded until the server resets.\n\n§4World Anchors§r are always loaded, even after a server reset.\n\n§3Check with server operators in case world anchors are disabled. On the official servers, world anchors are currently disabled to keep TPS high"
+      "desc:8": "With your HV assembler you can craft a world anchor. So let\u0027s make one. It will again load a 3x3 chunk area.\n\nYou need coins to power the world anchor, it will run a varying amount depending on the coin used. \n\n§aPersonal Anchors§r are loaded once the owner visits, and stay loaded while the player is logged in.\n\n§9Passive Anchors§r are loaded once the owner visits, and stay loaded until the server resets.\n\n[warn]World Anchors[/warn] are always loaded, even after a server reset.\n\n[note]Check with server operators in case world anchors are disabled. On the official servers, world anchors are currently disabled to keep TPS high.[/note]"
     }
   },
   "tasks:9": {

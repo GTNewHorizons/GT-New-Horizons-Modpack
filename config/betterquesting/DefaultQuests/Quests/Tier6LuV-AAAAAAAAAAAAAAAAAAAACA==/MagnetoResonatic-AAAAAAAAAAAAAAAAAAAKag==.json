@@ -29,7 +29,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "So, you may have been looking through NEI and seen a line of purple circuits from BW and wondered \u0027What are these, and when can I make them?\u0027. Well, I don\u0027t know why they exist, but you can make them starting now!\n\nThey all use Imprint Supporting Boards, a type of crystal (change the dust to crystal with Neon or Krypton in an Autoclave, and then move up tiers with the Precision Laser Engraver), SMDs (or and advanced version), and a §3circuit of the previous tier.§r So the material cost increases rather dramatically. They\u0027re made at a power tier +1 of the circuit\u0027s tier, so IV ones are made with LuV voltage.\n\nYou can even make UEV circuits if you\u0027re crazy enough!"
+      "desc:8": "So, you may have been looking through NEI and seen a line of purple circuits from BW and wondered \u0027What are these, and when can I make them?\u0027. Well, I don\u0027t know why they exist, but you can make them starting now!\n\nThey all use Imprint Supporting Boards, a type of crystal (change the dust to crystal with Neon or Krypton in an Autoclave, and then move up tiers with the Precision Laser Engraver), SMDs (or an advanced version), and [note]a circuit of the previous tier.[/note] So the material cost increases rather dramatically. They\u0027re made at a power tier +1 of the circuit\u0027s tier, so IV ones are made with LuV voltage.\n\nYou can even make UEV circuits if you\u0027re crazy enough!"
     }
   },
   "tasks:9": {

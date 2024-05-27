@@ -31,7 +31,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "For more tungsten and tungstensteel, you\u0027ll want scheelite and tungstate. But the most important is desh, found only as small ore elsewhere, and used for the next rocket. Check Y 5-40.\n\n§3Since there\u0027s a good chance you have the MBM by now, you can do the crushed ore task §oinstead§r§3 of the ore one. This holds for other, similar quests."
+      "desc:8": "For more tungsten and tungstensteel, you\u0027ll want scheelite and tungstate. But the most important is desh, found only as small ore elsewhere, and used for the next rocket. Check Y 5-40.\n\n[note]Since there\u0027s a good chance you have the MBM by now, you can do the crushed ore task instead of the ore one. This holds for other, similar quests.[/note]"
     }
   },
   "tasks:9": {
@@ -68,8 +68,37 @@
       "partialMatch:1": 1,
       "autoConsume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
+      "ignoreNBT:1": 0,
       "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metaitem.03",
+          "Count:3": 64,
+          "Damage:2": 5884,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.metaitem.03",
+          "Count:3": 32,
+          "Damage:2": 5910,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.metaitem.03",
+          "Count:3": 16,
+          "Damage:2": 5841,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {

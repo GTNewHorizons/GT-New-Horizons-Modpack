@@ -10,7 +10,7 @@
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
+      "taskLogic:8": "OR",
       "partySingleReward:1": 0,
       "visibility:8": "NORMAL",
       "isMain:1": 0,
@@ -31,7 +31,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Oilsand is another way to get heavy oil. Maybe you got lucky and found some in a mountainous biome. With your centrifuge you\u0027re able to get heavy oil and sand out of the ore. The veins can be found between Y 50-80.\n\nSadly, you can\u0027t use heavy oil until MV, so just stick them in a barrel or something until then.\n\n\n§3Until MV it can only be used for lubricant and burning in a semifluid generator."
+      "desc:8": "Oilsand is another way to get heavy oil. Maybe you got lucky and found some in a mountainous biome. With your centrifuge you\u0027re able to get heavy oil and sand out of the ore. The veins can be found between Y 50-80.\n\nSadly, you can\u0027t use heavy oil until MV, so just stick them in a barrel or something until then.\n\n[note]Until MV it can only be used for lubricant and burning in a semifluid generator.[/note]"
     }
   },
   "tasks:9": {
@@ -47,6 +47,23 @@
           "id:8": "gregtech:gt.blockores",
           "Count:3": 128,
           "Damage:2": 878,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metaitem.03",
+          "Count:3": 128,
+          "Damage:2": 5878,
           "OreDict:8": ""
         }
       },

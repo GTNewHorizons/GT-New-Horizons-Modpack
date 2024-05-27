@@ -31,7 +31,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "The Kinetic Water Generator allows Kinetic Units to be produced via the movement of water in river and ocean biomes. As with the Kinetic Wind Generator, it requires either Gearbox Rotor. Search NEI for appropriate options.\n\nIf the Kinetic Water Generator\u0027s Rotor isn\u0027t entirely submerged in water, it will alert you there is \"no room for the rotor\". If the Kinetic Water Generator isn\u0027t placed in a river, ocean or deep ocean biome, it will alert you it \"must be placed in a river or ocean biome\". Check the Game Mechanics spreadsheet on Discord for a list of biomes and their tags.\n\nWhile inconvenient, the Water Generator runs more consistently.\n\n§4You can use Witchery (for example) to convert biomes."
+      "desc:8": "The Kinetic Water Generator allows Kinetic Units to be produced via the movement of water in river and ocean biomes. As with the Kinetic Wind Generator, it requires either Gearbox Rotor. Search NEI for appropriate options.\n\nIf the Kinetic Water Generator\u0027s Rotor isn\u0027t entirely submerged in water, it will alert you there is \"no room for the rotor\". If the Kinetic Water Generator isn\u0027t placed in a river, ocean or deep ocean biome, it will alert you it \"must be placed in a river or ocean biome\". Check the Game Mechanics spreadsheet on Discord for a list of biomes and their tags.\n\nWhile inconvenient, the Water Generator runs more consistently.\n\n[warn]You can use Witchery (for example) to convert biomes.[/warn]"
     }
   },
   "tasks:9": {

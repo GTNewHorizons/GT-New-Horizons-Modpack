@@ -14,7 +14,7 @@
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
+      "taskLogic:8": "OR",
       "partySingleReward:1": 0,
       "visibility:8": "NORMAL",
       "isMain:1": 1,
@@ -35,7 +35,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Making rubber is now more complicated - you need raw rubber and sulfur. Finding a sulfur vein in the Nether seems like a good idea, doesn\u0027t it? Found on Y 5-20. Later on you can get sulfur from chemicals like hydrogen sulfide or pyrite.\n\n§4Sphalerite will be important later for gallium and zinc. Save it until you can fully process it in LV."
+      "desc:8": "Making rubber is now more complicated - you need raw rubber and sulfur. Finding a sulfur vein in the Nether seems like a good idea, doesn\u0027t it? Found on Y 5-20. Later on you can get sulfur from chemicals like hydrogen sulfide or pyrite.\n\n[warn]Sphalerite will be important later for gallium and zinc. Save it until you can fully process it in LV.[/warn]"
     }
   },
   "tasks:9": {
@@ -63,6 +63,35 @@
           "id:8": "gregtech:gt.blockores",
           "Count:3": 16,
           "Damage:2": 1839,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metaitem.03",
+          "Count:3": 128,
+          "Damage:2": 5022,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.metaitem.03",
+          "Count:3": 64,
+          "Damage:2": 5834,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.metaitem.03",
+          "Count:3": 32,
+          "Damage:2": 5839,
           "OreDict:8": ""
         }
       },

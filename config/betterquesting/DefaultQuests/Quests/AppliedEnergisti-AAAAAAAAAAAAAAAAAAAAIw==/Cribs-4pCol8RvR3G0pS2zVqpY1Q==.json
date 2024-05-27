@@ -1,0 +1,59 @@
+{
+  "questIDHigh:4": -2121010054702348431,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1493
+    },
+    "1:10": {
+      "questIDHigh:4": -6127592698954038432,
+      "questIDLow:4": -5092663277638354864
+    }
+  },
+  "questIDLow:4": -5429883527448864555,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.blockmachines",
+        "Count:3": 64,
+        "Damage:2": 2715,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Cribs",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "As your researches for Applied Greg continued, you found a way to combine ME interface\u0027s pattern processing ability with input busses, §lcrafting input busses§r! Now, you can directly place patterns into input bus. However, input busses lacked sufficient item space and computational power to process items coming from your ME network. Thus, you added additional storage and circuits.\n\nYou can even place non-consumable items like lenses, molds inside!! However, consumable items won\u0027t do anything.\n\nBut, still you lack enough technology to process fluids, they are just not good for electronics.\n\nCrafting input bus is fully isolated from other busses/hatches, so you may have to change your patterns.\n\n[warn]Crafting input slave[/warn] will let you wallshare multiblocks without actually wallsharing them. §lUV-Tier§r\n\n[warn]Crafting input buffer[/warn] will be §9§owaterproof§r. §lUIV-Tier§r"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 2715,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {}
+}

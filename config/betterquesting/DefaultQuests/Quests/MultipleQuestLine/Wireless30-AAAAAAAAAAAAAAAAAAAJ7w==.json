@@ -33,7 +33,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "This upgrade allows unlimited range. You don\u0027t even need a Wireless Access Point!\n\n§4Extremely buggy, unfortunately. May randomly disappear, or fall out of the terminal at any time.\n\n§3Many bugs were fixed. Maybe its better now?"
+      "desc:8": "This upgrade allows unlimited range. You don\u0027t even need a Wireless Access Point!\n\n[warn]Extremely buggy, unfortunately. May randomly disappear, or fall out of the terminal at any time.[/warn]\n\n[note]Many bugs were fixed. Maybe it\u0027s better now?[/note]"
     }
   },
   "tasks:9": {

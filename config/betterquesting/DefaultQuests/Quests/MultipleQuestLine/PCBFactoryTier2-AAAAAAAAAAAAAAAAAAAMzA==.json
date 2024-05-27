@@ -33,7 +33,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "With the Nano Forge built, we can upgrade our production of circuit boards for free, but the nanites need a container to hold them. The current casings aren\u0027t enough, we need to find an alternative casing.\n\nAfter some research, infinity as a frame and enriched holmium as the protection layer seems to work well. It can be allowed to let through nanites to go into the printer base so that extra material can be directly removed instead of trying to go slower.\n\n§3Allows the player to use the tier 2 recipes with the use of a silver nanite in the input bus.\nThis also unlocks parallels of the PCB Factory with said formula: Log2(x) parallels, where x is the amount of nanites in the input bus."
+      "desc:8": "With the Nano Forge built, we can upgrade our production of circuit boards for free, but the nanites need a container to hold them. The current casings aren\u0027t enough, we need to find an alternative casing.\n\nAfter some research, infinity as a frame and enriched holmium as the protection layer seems to work well. It can be allowed to let through nanites to go into the printer base so that extra material can be directly removed instead of trying to go slower.\n\n[note]Allows the player to use the tier 2 recipes with the use of a silver nanite in the input bus. This also unlocks parallels of the PCB Factory with said formula: Log2(x) parallels, where x is the amount of nanites in the input bus.[/note]"
     }
   },
   "tasks:9": {
