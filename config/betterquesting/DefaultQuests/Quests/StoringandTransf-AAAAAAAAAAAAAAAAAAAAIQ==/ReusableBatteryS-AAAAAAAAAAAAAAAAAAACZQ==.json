@@ -38,7 +38,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Sodium, cadmium, and lithium batteries are rechargeable batteries. They\u0027re crafted without stored energy, but can be charged in any gregtech machine. If unneeded, they can be placed in an extractor and converted back into small battery hulls, but their contents are lost.\n\nIf placed in a machine, it will fill up if there\u0027s excess power, and drain if the machine can\u0027t get enough. Handy for high-EU machines you don\u0027t want to choke.\n\n§3Sodium is the one that stores the least EU of the 3 rechargable batteries, but is definitely the easiest to get."
+      "desc:8": "Sodium, cadmium, and lithium batteries are rechargeable batteries. They\u0027re crafted without stored energy, but can be charged in any gregtech machine. If unneeded, they can be placed in an extractor and converted back into small battery hulls, but their contents are lost.\n\nIf placed in a machine, it will fill up if there\u0027s excess power, and drain if the machine can\u0027t get enough. Handy for high-EU machines you don\u0027t want to choke.\n\n[note]Sodium is the one that stores the least EU of the 3 rechargable batteries, but is definitely the easiest to get.[/note]"
     }
   },
   "tasks:9": {

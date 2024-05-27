@@ -31,7 +31,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "The ME ore dictionary export card will attempt to push the configured item/fluid [From the same ore dictionary] from the ME network into a machine or other input inventory. To configure an item/liquid, type in the item\u0027s name [e.g. if you want to export all ores put \"ore*\"]. The rate of export is very fast.\n\n§3PS: Use §6crushed* \u0026 !crushedPurified* \u0026 !crushedCentrifuged*§3§3 to get any crushed ore, but not ore that has been washed, then crushed (to get purified) or run through the thermal centrifuge.§r\n\nThe card can be used in more devices, and causes less lag, but works in a similar way. Put it inside a bus and set the filter using the T looking button that appears. The standalone bus is no longer craftable."
+      "desc:8": "The ME ore dictionary export card will attempt to push the configured item/fluid [From the same ore dictionary] from the ME network into a machine or other input inventory. To configure an item/liquid, type in the item\u0027s name [e.g. if you want to export all ores put \"ore*\"]. The rate of export is very fast.\n\n[note]PS: Use crushed* \u0026 !crushedPurified* \u0026 !crushedCentrifuged* to get any crushed ore, but not ore that has been washed, then crushed (to get purified) or run through the thermal centrifuge.[/note]\n\nThe card can be used in more devices, and causes less lag, but works in a similar way. Put it inside a bus and set the filter using the T looking button that appears. The standalone bus is no longer craftable."
     }
   },
   "tasks:9": {

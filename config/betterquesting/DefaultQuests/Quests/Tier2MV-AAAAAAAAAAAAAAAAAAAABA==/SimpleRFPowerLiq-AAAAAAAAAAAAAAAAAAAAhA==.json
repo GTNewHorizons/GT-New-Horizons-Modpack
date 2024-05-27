@@ -31,7 +31,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "This generator requires both water as coolant, and a burnable liquid as fuel. The amount of power it produces depends on the type of liquid used.\n\nFuel           Burn Time (ticks/mb)    Power Output (RF/tick)    Power Output (RF/mb) \nOil                5                          30                               150\nHootch          6                          60                               360\nEthanol        15                          40                               600 \nFire Water    15                          80                              1200\nDiesel/Fuel   25                          60                              1500\n\n§3Rocket Fuel is disabled."
+      "desc:8": "This generator requires both water as coolant, and a burnable liquid as fuel. The amount of power it produces depends on the type of liquid used.\n\nFuel           Burn Time (ticks/mb)    Power Output (RF/tick)    Power Output (RF/mb) \nOil                5                          30                               150\nHootch          6                          60                               360\nEthanol        15                          40                               600 \nFire Water    15                          80                              1200\nDiesel/Fuel   25                          60                              1500\n\n[note]Rocket Fuel is disabled.[/note]"
     }
   },
   "tasks:9": {

@@ -37,7 +37,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Effectively lets you parallel like crazy if you can afford the power. 1 EV hatch can supply all 64 possible machines if they\u0027re LV. You can also separate busses with a screwdriver. The PA is usually less efficient than a dedicated multiblock but it is very versatile and allows for TecTech energy hatches and even laser hatches once you get there.\n\n§3Doesn\u0027t work with some machines, like mass fabs.\n\nJust in case you get that far and still remember it: The PA maxes out at UHV recipes. But UEV machines are treated as 4x UHV machines giving you a lot of parallels.\n\nThere is also a new experimental feature where the PA can handle fluid recipes without cells but using the fluid directly."
+      "desc:8": "Effectively lets you parallel like crazy if you can afford the power. 1 EV hatch can supply all 64 possible machines if they\u0027re LV. You can also separate busses with a screwdriver. The PA is usually less efficient than a dedicated multiblock but it is very versatile and allows for TecTech energy hatches and even laser hatches once you get there.\n\n[note]Doesn\u0027t work with some machines, like mass fabs.\n\nJust in case you get that far and still remember it: The PA maxes out at UHV recipes. But UEV machines are treated as 4x UHV machines giving you a lot of parallels.\n\nThere is also a new experimental feature where the PA can handle fluid recipes without cells but using the fluid directly.[/note]"
     }
   },
   "tasks:9": {

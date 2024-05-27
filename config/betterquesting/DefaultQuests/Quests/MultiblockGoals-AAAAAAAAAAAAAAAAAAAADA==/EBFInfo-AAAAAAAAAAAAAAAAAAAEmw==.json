@@ -35,7 +35,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "You can use a scanner to manually check how your EBF works, or you can make an information panel from nuclear control and always see the status. Make a GT sensor kit and use it on the EBF controller. Place the the sensor card in your info panel. Enable it with a redstone signal.\n\nThe GregTech sensor card can monitor GregTech machines like the EBF, Turbines, and Pyrolyse ovens. This is handy for keeping an eye on maintenance issues for multiblocks.\n\nIf you want to put the panels far from the machines they are monitoring, you will need range upgrades.\n\n§3There\u0027s also a more advanced version."
+      "desc:8": "You can use a scanner to manually check how your EBF works, or you can make an information panel from nuclear control and always see the status. Make a GT sensor kit and use it on the EBF controller. Place the the sensor card in your info panel. Enable it with a redstone signal.\n\nThe GregTech sensor card can monitor GregTech machines like the EBF, Turbines, and Pyrolyse ovens. This is handy for keeping an eye on maintenance issues for multiblocks.\n\nIf you want to put the panels far from the machines they are monitoring, you will need range upgrades.\n\n[note]There\u0027s also a more advanced version.[/note]"
     }
   },
   "tasks:9": {

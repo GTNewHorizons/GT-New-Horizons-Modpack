@@ -35,7 +35,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Charged certus quartz is one of the basic components for a lot of AE recipes. Just mix some certus quartz and redstone dust to get charged certus quartz dust.\n\nUse the autoclave to make crystals. Or if you have lots of sodium, you can use the chemical reactor recipe. You can also make the charger to go directly from crystal to charged crystal, but it\u0027s not very fast. The charger can connect directly to a GT cable or a fluix cable from the bottom.\n\n§3Note that some recipies only have a chance of producting a charged crystal, which is true of many of these."
+      "desc:8": "Charged certus quartz is one of the basic components for a lot of AE recipes. Just mix some certus quartz and redstone dust to get charged certus quartz dust.\n\nUse the autoclave to make crystals. Or if you have lots of sodium, you can use the chemical reactor recipe. You can also make the charger to go directly from crystal to charged crystal, but it\u0027s not very fast. The charger can connect directly to a GT cable or a fluix cable from the bottom.\n\n[note]Note that some recipes only have a chance of producing a charged crystal, which is true of many of these.[/note]"
     }
   },
   "tasks:9": {

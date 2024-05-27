@@ -41,7 +41,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Once you have some steam machines, you can make HP solar boilers. They have more steam output per second. Otherwise they are the same as normal solar boilers.\n\nFill it with water on the bottom side to produce steam. Unlike the other boilers, this only outputs steam on the output port side.\n\n§3Hint: The solar boiler calcifies and becomes less efficient over time - but it will only drop to 120L/s, §4not zero§3 like the low pressure ones. Later on you can consider using distilled water to avoid calcification.\n\n§3You\u0027ll need silver from the Twilight Forest (LV+) or from small ores for this."
+      "desc:8": "Once you have some steam machines, you can make HP solar boilers. They have more steam output per second. Otherwise they are the same as normal solar boilers.\n\nFill it with water on the bottom side to produce steam. Unlike the other boilers, this only outputs steam on the output port side.\n\nHint: The solar boiler calcifies and becomes less efficient over time - but it will only drop to 120L/s, [warn]not zero[/warn], like the low pressure ones. Later on you can consider using distilled water to avoid calcification.\n\n[note]You\u0027ll need silver from the Twilight Forest (LV+) or from small ores for this.[/note]"
     }
   },
   "tasks:9": {

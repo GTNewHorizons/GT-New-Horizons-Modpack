@@ -29,7 +29,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "The Distillation Pattern Encoder allows you to automatically melt down items in your alchemical furnace to provide essentia.\nFirst, place something that is already scanned in the device, along with a blank pattern. You can create the pattern by clicking the button, or click the different aspects to select one that is not the highest. This will create a pattern of item -\u003e essentia. Then use an ME Interface pointing at a furnace with the pattern in it. You can now craft that type of essentia the same way you would a normal craft, but through the Essentia Terminal.\n\n§4There isn\u0027t a way to have the system craft essentia on demand for a craft unfortunately.§r\n\n"
+      "desc:8": "The Distillation Pattern Encoder allows you to automatically melt down items in your alchemical furnace to provide essentia.\nFirst, place something that is already scanned in the device, along with a blank pattern. You can create the pattern by clicking the button, or click the different aspects to select one that is not the highest. This will create a pattern of item -\u003e essentia. Then use an ME Interface pointing at a furnace with the pattern in it. You can now craft that type of essentia the same way you would a normal craft, but through the Essentia Terminal.\n\n[warn]There isn\u0027t a way to have the system craft essentia on demand for a craft unfortunately.[/warn]"
     }
   },
   "tasks:9": {

@@ -29,7 +29,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "The IndustrialCraft2 Teleporter allows for teleportation between 2 connected teleporters.\nIt requires energy storing block right next to it due to the massive power demand.\n\n\n§3The energy required is determined by the distance between the teleporters and amount of items in the inventory.\nThe teleporter is quite buggy according to the official wiki."
+      "desc:8": "The IndustrialCraft2 Teleporter allows for teleportation between 2 connected teleporters.\nIt requires energy storing block right next to it due to the massive power demand.\n\n[note]The energy required is determined by the distance between the teleporters and amount of items in the inventory.[/note]\n\n[note]The teleporter is quite buggy according to the official wiki.[/note]"
     }
   },
   "tasks:9": {
