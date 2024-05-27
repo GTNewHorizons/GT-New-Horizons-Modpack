@@ -1,0 +1,15 @@
+{
+  "id": "stargate_2.1.2.3qf",
+  "condition": {
+    "type": "item.pickup",
+    "item": "minecraft:paper",
+    "meta": 2,
+    "nbt": "{display:{Name:\"Pick this item up to get your trophy\"}}"
+  },
+  "page": "GT New Horizons",
+  "x": 15,
+  "y": 2,
+  "icon": {
+    "registryName": "dreamcraft:item.PolychromeGatePlate"
+  }
+}

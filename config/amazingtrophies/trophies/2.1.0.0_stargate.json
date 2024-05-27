@@ -1,0 +1,11 @@
+{
+  "id": "stargate_2.1.0.0",
+  "condition": {
+    "type": "achievement",
+    "id": "stargate_2.1.0.0"
+  },
+  "model": {
+    "type": "item",
+    "registryName": "dreamcraft:item.OriginGatePlate"
+  }
+}
