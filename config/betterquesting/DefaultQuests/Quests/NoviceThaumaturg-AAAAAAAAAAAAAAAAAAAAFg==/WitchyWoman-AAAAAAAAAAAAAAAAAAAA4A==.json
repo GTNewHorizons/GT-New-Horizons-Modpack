@@ -17,7 +17,7 @@
       "taskLogic:8": "AND",
       "partySingleReward:1": 0,
       "visibility:8": "NORMAL",
-      "isMain:1": 0,
+      "isMain:1": 1,
       "simultaneous:1": 0,
       "icon:10": {
         "id:8": "WitchingGadgets:item.WG_AdvancedRobeChest",
