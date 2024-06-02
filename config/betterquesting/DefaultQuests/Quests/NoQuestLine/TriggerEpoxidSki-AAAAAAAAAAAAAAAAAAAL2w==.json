@@ -51,6 +51,26 @@
       "questID:8": "AAAAAAAAAAAAAAAAAAAEyA\u003d\u003d",
       "rewardID:8": "bq_standard:questcompletion",
       "index:3": 0
+    },
+    "1:10": {
+      "questID:8": "AAAAAAAAAAAAAAAAAAAEzQ\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion",
+      "index:3": 1
+    },
+    "2:10": {
+      "questID:8": "AAAAAAAAAAAAAAAAAAAEzg\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion",
+      "index:3": 2
+    },
+    "3:10": {
+      "questID:8": "AAAAAAAAAAAAAAAAAAAEzA\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion",
+      "index:3": 3
+    },
+    "4:10": {
+      "questID:8": "AAAAAAAAAAAAAAAAAAADWw\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion",
+      "index:3": 4
     }
   }
 }
