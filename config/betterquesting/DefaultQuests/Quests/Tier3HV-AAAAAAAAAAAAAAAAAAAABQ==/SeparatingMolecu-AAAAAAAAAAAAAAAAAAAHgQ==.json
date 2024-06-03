@@ -55,6 +55,11 @@
   },
   "rewards:9": {
     "0:10": {
+      "questID:8": "AAAAAAAAAAAAAAAAAAAFKg\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion",
+      "index:3": 0
+    },
+    "1:10": {
       "rewardID:8": "bq_standard:item",
       "index:3": 1,
       "rewards:9": {
