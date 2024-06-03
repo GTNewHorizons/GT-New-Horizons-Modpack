@@ -59,10 +59,10 @@
       "index:3": 0,
       "choices:9": {
         "0:10": {
-          "id:8": "minecraft:book",
+          "id:8": "minecraft:enchanted_book",
           "Count:3": 1,
           "tag:10": {
-            "ench:9": {
+            "StoredEnchantments:9": {
               "0:10": {
                 "lvl:2": 3,
                 "id:2": 21
