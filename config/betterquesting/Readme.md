@@ -12,8 +12,8 @@
 3. Late game quests should ideally not have mandatory tasks for fluid cells. That is not how players craft things at that stage. There can be exceptions.
 4. Most quests should only be in one quest line. However, there are important exceptions. Specifically, the Tips and Tricks quest line and transition quests that lead you from one tab to another. There can be other cases where it makes sense.
 5. Not every quest ticket on github is actually correct. Check things yourself before changing a quest.
-6. Use Dark Red and potentially add "NOTE:" or "WARNING:" before important information and warnings. Use Dark Aqua for a PS at the end of a quest which can include talk about progression, alternatives, or other meta comments like the quest authors opinion on things. Regular advice should ideally be in default color as part of the text though.
-7. You can add working links to websites in a quest description. To do so, please use the format `§9§n[url]https://wiki.gtnewhorizons.com[/url]§r`. That makes the link functional, turns it blue, and underlines it. Of course you can link elsewhere besides the wiki as necessary.
+6. The main colors used in quest descriptions, and their associated tags, are red for warnings `[warn]`, aqua for notes `[note]` and blue for hyperlinks `[url]`. The colors and other formatting will be automatically applied when you use these tags, with lighter colors for dark themes and darker colors for bright themes, for easier reading. Use `[warn]text here[/warn]` and potentially add "NOTE:" or "WARNING:" before important information and warnings. Use `[note]text here[/note]` for a PS at the end of a quest which can include talk about progression, alternatives, or other meta comments like the quest authors opinion on things. Regular advice should ideally be in default color as part of the text though.
+7. You can add working links to websites in a quest description. To do so, please use the format `[url]https://wiki.gtnewhorizons.com[/url]`. That makes the link functional, turns it blue, and underlines it. Of course you can link elsewhere besides the wiki as necessary.
 
 
 # Git Basics
