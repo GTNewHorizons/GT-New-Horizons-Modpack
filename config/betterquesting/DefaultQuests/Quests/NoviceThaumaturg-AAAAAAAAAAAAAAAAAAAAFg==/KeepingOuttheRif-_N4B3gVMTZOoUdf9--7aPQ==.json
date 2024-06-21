@@ -1,0 +1,68 @@
+{
+  "questIDHigh:4": -225740878238691949,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 239
+    }
+  },
+  "questIDLow:4": -6318031316370662851,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "Thaumcraft:blockCosmeticSolid",
+        "Count:3": 1,
+        "Damage:2": 3,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Keeping Out the Riff-Raff",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "You\u0027re starting to get tired of having to build everything like some kind of fortress just to make sure no unwanted guests come in. Sure, that\u0027s just the nature of living in a world where infinite hoards of restless undead haunt every other dark corner, but is having a secure entryway that isn\u0027t conveniently door-shaped too much to ask?\n\nNot anymore. Paving Stone of Warding, assuming nothing sits on top of it, will project a two block tall invisible forcefield above itself that block non-player mobs from passing through, at least the common riff-raff. As a bonus spiders cannot climb the forcefield, so no need for overhangs to keep them out too.\n\nThat said, since the forcefield cannot tell an arrow fired by you from one fired §oat you§r, mundane objects will still pass through regardless. And the forcefield does as much to block line of sight as the term §oinvisible§r would suggest.\n\nOf course, you\u0027re not concerned about that part. Being able to shoot things with your crossbow while they can\u0027t reach you is very much in §oyour§r favor, all told."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "Thaumcraft:blockCosmeticSolid",
+          "Count:3": 4,
+          "Damage:2": 3,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "Thaumcraft:blockCosmeticSolid",
+          "Count:3": 4,
+          "Damage:2": 3,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}
