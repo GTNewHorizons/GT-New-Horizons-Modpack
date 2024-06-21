@@ -160,8 +160,8 @@
         <line>
             <if>
                 <equal>
-                    <var>server</var>
-                    <str>localhost</str>
+                    <var>serverport</var>
+                    <str>-1</str>
                 </equal>
                 <if>
                     <or>
@@ -218,8 +218,8 @@
             <if>
                 <not>
                 <equal>
-                    <var>server</var>
-                    <str>localhost</str>
+                    <var>serverport</var>
+                    <str>-1</str>
                 </equal>
                 </not>
                 <if>
@@ -276,8 +276,8 @@
             </if>
             <if>
                 <equal>
-                    <var>server</var>
-                    <str>localhost</str>
+                    <var>serverport</var>
+                    <str>-1</str>
                 </equal>
                 <if>
                     <or>
@@ -328,8 +328,8 @@
             <if>
                 <not>
                 <equal>
-                    <var>server</var>
-                    <str>localhost</str>
+                    <var>serverport</var>
+                    <str>-1</str>
                 </equal>
                 </not>
                 <if>
@@ -542,8 +542,8 @@
             </if>
             <if>
                 <equal>
-                    <var>server</var>
-                    <str>localhost</str>
+                    <var>serverport</var>
+                    <str>-1</str>
                 </equal>
                 <if>
                     <and>
@@ -727,8 +727,8 @@
             <if>
                 <not>
                 <equal>
-                    <var>server</var>
-                    <str>localhost</str>
+                    <var>serverport</var>
+                    <str>-1</str>
                 </equal>
                 </not>
                 <if>
