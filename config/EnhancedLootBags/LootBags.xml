@@ -612,9 +612,9 @@
         <Loot Identifier="0c6ddd02-5e2a-4216-867f-d418c4d8f182" ItemName="gregtech:gt.metaitem.01:30493" Amount="8" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="0f2aa60d-a37e-4842-a80f-42021dfdf763" ItemName="IronChest:diamondCrystalUpgrade" Amount="1" NBTTag="" Chance="40" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="1fa3815d-2ed5-4e9a-85ad-a589ccdd8b9c" ItemName="IronChest:diamondObsidianUpgrade" Amount="1" NBTTag="" Chance="40" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="9f9aa3ee-dfe9-4498-826a-e8c4ce934e5f" ItemName="gregtech:gt.metaitem.03:1635" Amount="2" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="b2d9cea7-1910-40be-ac65-a73d72b68666" ItemName="gregtech:gt.metaitem.03:1471" Amount="4" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="ee4cf91c-dc45-4b4d-af4f-c5e6639d0a5b" ItemName="gregtech:gt.metaitem.03:1874" Amount="8" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="9f9aa3ee-dfe9-4498-826a-e8c4ce934e5f" ItemName="gregtech:gt.metaitem.01:11635" Amount="32" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="b2d9cea7-1910-40be-ac65-a73d72b68666" ItemName="gregtech:gt.metaitem.01:11471" Amount="64" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="ee4cf91c-dc45-4b4d-af4f-c5e6639d0a5b" ItemName="gregtech:gt.metaitem.01:11874" Amount="128" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="52687ad3-7398-4d99-ae49-3ee273606e34" ItemName="gregtech:gt.blockores:817" Amount="64" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="fbeaf863-e114-4dd6-82e9-66636c8362d1" ItemName="gregtech:gt.blockores:1839" Amount="64" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="210bb829-5fec-4659-87fe-2d05130b47e3" ItemName="gregtech:gt.blockores:907" Amount="48" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
@@ -674,9 +674,9 @@
         <Loot Identifier="7b113ca9-fc48-4f80-a9d2-2e2e54a10c0a" ItemName="miscutils:oreRareEarthII" Amount="48" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="18b9aa3a-3446-413b-8c7b-ff44f97c219b" ItemName="miscutils:oreRareEarthIII" Amount="32" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="9e19f5f6-2a62-480b-a65b-afd6e8cae9dc" ItemName="bartworks:bw.blockores.01:13" Amount="24" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
-        <Loot Identifier="b2d9cea7-1910-40be-ac65-a73d72b68666" ItemName="gregtech:gt.metaitem.03:1631" Amount="4" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="ee4cf91c-dc45-4b4d-af4f-c5e6639d0a5b" ItemName="gregtech:gt.metaitem.03:1471" Amount="8" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="97991910-1c0e-430c-bbc7-42189804d7b1" ItemName="gregtech:gt.metaitem.03:1635" Amount="12" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="b2d9cea7-1910-40be-ac65-a73d72b68666" ItemName="gregtech:gt.metaitem.01:11631" Amount="64" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="ee4cf91c-dc45-4b4d-af4f-c5e6639d0a5b" ItemName="gregtech:gt.metaitem.01:11471" Amount="128" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="97991910-1c0e-430c-bbc7-42189804d7b1" ItemName="gregtech:gt.metaitem.01:11635" Amount="184" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="88e06252-c289-449c-acb3-307ee6cf946c" ItemName="gregtech:gt.metaitem.03:32038" Amount="32" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="c0df2749-b28c-4279-b4cf-d30f8439bf4c" ItemName="gregtech:gt.metaitem.01:32724" Amount="8" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="1b3cac8a-e255-47c7-9f02-c45c2d12d126" ItemName="gregtech:gt.metaitem.03:32050" Amount="4" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
@@ -1737,9 +1737,9 @@
         <Loot Identifier="7b113ca9-fc48-4f80-a9d2-2e2e54a10c0a" ItemName="miscutils:oreRareEarthII" Amount="48" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="18b9aa3a-3446-413b-8c7b-ff44f97c219b" ItemName="miscutils:oreRareEarthIII" Amount="32" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="9e19f5f6-2a62-480b-a65b-afd6e8cae9dc" ItemName="bartworks:bw.blockores.01:13" Amount="24" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
-        <Loot Identifier="9f9aa3ee-dfe9-4498-826a-e8c4ce934e5f" ItemName="gregtech:gt.metaitem.03:1599" Amount="4" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="b2d9cea7-1910-40be-ac65-a73d72b68666" ItemName="gregtech:gt.metaitem.03:1631" Amount="8" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="ee4cf91c-dc45-4b4d-af4f-c5e6639d0a5b" ItemName="gregtech:gt.metaitem.03:1471" Amount="12" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="9f9aa3ee-dfe9-4498-826a-e8c4ce934e5f" ItemName="gregtech:gt.metaitem.01:11599" Amount="64" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="b2d9cea7-1910-40be-ac65-a73d72b68666" ItemName="gregtech:gt.metaitem.01:11631" Amount="128" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="ee4cf91c-dc45-4b4d-af4f-c5e6639d0a5b" ItemName="gregtech:gt.metaitem.01:11471" Amount="184" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="168b40e5-fa2a-4b13-8cd4-4077a0def9d1" ItemName="gregtech:gt.metaitem.03:32054" Amount="16" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="18d441fd-81fa-4ca9-bea3-45246f6dc652" ItemName="minecraft:nether_star" Amount="8" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="e4f1ec7e-8863-4ef9-aaf5-6335c868310d" ItemName="gregtech:gt.metaitem.03:32052" Amount="4" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
@@ -1801,9 +1801,9 @@
         <Loot Identifier="0aaf776b-2b1f-4311-93d1-4c8f98044423" ItemName="miscutils:oreIrarsite" Amount="64" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="c0d163b3-1835-4e84-a428-d7dd04617ce9" ItemName="miscutils:oreFlorencite" Amount="64" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="c1a588a8-8bee-4e7e-a98f-833344dd11af" ItemName="miscutils:orePolycrase" Amount="64" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
-        <Loot Identifier="9f9aa3ee-dfe9-4498-826a-e8c4ce934e5f" ItemName="gregtech:gt.metaitem.03:1599" Amount="8" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="b2d9cea7-1910-40be-ac65-a73d72b68666" ItemName="gregtech:gt.metaitem.03:1631" Amount="12" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="ee4cf91c-dc45-4b4d-af4f-c5e6639d0a5b" ItemName="gregtech:gt.metaitem.03:1470" Amount="16" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="9f9aa3ee-dfe9-4498-826a-e8c4ce934e5f" ItemName="gregtech:gt.metaitem.01:11599" Amount="128" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="b2d9cea7-1910-40be-ac65-a73d72b68666" ItemName="gregtech:gt.metaitem.01:11631" Amount="184" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="ee4cf91c-dc45-4b4d-af4f-c5e6639d0a5b" ItemName="gregtech:gt.metaitem.01:11470" Amount="256" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="d5413ab3-e8f0-4cb7-b76c-4373824d3ef9" ItemName="gregtech:gt.metaitem.03:32056" Amount="16" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="0f25d805-9988-4da1-99d3-259ccf9304ba" ItemName="gregtech:gt.metaitem.01:32725" Amount="8" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="42c5ff2c-8b2c-4b52-a23a-c75320e928f9" ItemName="gregtech:gt.metaitem.03:32058" Amount="4" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
