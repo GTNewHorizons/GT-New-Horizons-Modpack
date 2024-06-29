@@ -10654,7 +10654,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAA7A.desc=The naga scales are weak, they 
 
 # Quest: "Stores 50 Vis" Wand
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA7Q.name="Stores 50 Vis" Wand
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA7Q.desc=With gold caps you avoid the downsides of iron. So best to upgrade to a Gold Banded Greatwood Wand!%n%nWith this you are more powerful than ever! You have a feeling that this new wand will come in handy very soon.%n%n§3Going forward the wand quests will not focus on caps. You now know that wands with iron caps are the cheapest to make, but gold caps are better. You should also explore what other caps exist, they might be even better!%nIron caps being the cheapest however does not mean that you always need to start with an iron cap wand, only to make a better one. Instead, you should be starting to stack crafting discounts from various sources! If you don't have at least 10%% discount on your gear right now, you should probably look around this questtab to improve on that.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA7Q.desc=With gold caps you avoid the downsides of iron. So best to upgrade to a Gold Banded Greatwood Wand!%n%nYou could also consider making your Greatwood Wand with enchanted cloth caps instead. That gives you an extra 6%% discount!%n%nWith this Greatwood Wand you are more powerful than ever!%n%n[note]You only need one of the tasks to complete the quest.[/note]
 
 # Quest: Fuuuuuu...(sion)!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA7g.name=Fuuuuuu...(sion)!
@@ -10732,6 +10732,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABAw.desc=The struggle is over. You've fi
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABIg.name=Improved Armor: Samurai Style
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABIg.desc=Time to get some decent armor. With this, those infernal monsters won't be as much of a pain as they are now.
 
+# Quest: Useful Plant Life
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABLg.name=Useful Plant Life
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABLg.desc=While regular plants are mostly used to make food, you are wondering if you could get some... "more useful" plant life going...
+
 # Quest: Lead, Galena, Silver and Cryolite
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACYg.name=Lead, Galena, Silver and Cryolite
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACYg.desc=You can't find Lead in the Overworld or the Nether. So it's time to explore the mysterious Twilight Forest a bit and find a Cryolite vein at Y 5-40.%n%nYou can get Lead, Silver, Cryolite for Aluminium production and Galena, which is more lead, in the vein.%n%nThere is some Silver in small ores in the OW and Nether, but this is a better source.
@@ -10743,6 +10747,14 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAD6g.desc=Enchanted Earth makes saplings 
 # Quest: Iron Capped Greatwood Wand
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADHg.name=Iron Capped Greatwood Wand
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADHg.desc=Making a gold capped greatwood wand requires 30 vis, but your old wand's limit is 25. So first create an iron or copper capped greatwood wand reload it with 50 vis and then later on in the next quest create a gold capped greatwood wand.%n%n§3You can always press the NEI 'U' command on the caps, the core, or the boss ingredient to find the correct GT:NH recipe for the wands.
+
+# Quest: Gold-Banded Greatwood Scepter
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADbQ.name=Gold-Banded Greatwood Scepter
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADbQ.desc=A scepter is crafted from a wand core, a primal charm, three wand caps, a twilight forest monster mob drop, and some screws. Any sort of core or cap may be used, but the caps must match each other. A scepter cannot hold a focus, but holds 150 percent as much vis as a wand with the same core, and gives an additional 10 percent discount for costs, beyond any discounts from its caps or the user's worn equipment.%n%nThis is ideal for all you crafting needs and to progress further!%n%n[note]There are multiple ways to get enough vis capacity to craft the scepter. If you are not yet able to make it, maybe first work on Fusion and make yourself some boots with better discounts.[/note]
+
+# Quest: Primal Charm
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADbw.name=Primal Charm
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADbw.desc=With your new 50 vis wand you are able to make a Scepter which holds up to 75 vis.%nFirst you need some primal charms which cost 50 vis to craft.
 
 # Quest: Magic Feather
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAELg.name=Magic Feather
@@ -10880,17 +10892,69 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIYg.desc=Automagy is a little subtle abo
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIYw.name=Gimme gimme gimme
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIYw.desc=The Avarice Pearl is the next object Automagy requires you to interact with in order to unlock the next section. Make an Avarice Pearl, throw some stuff on the ground, and throw Avarice Pearls at them by right-clicking quickly over and over to get a Shattered (ha ha) Pearl to unlock a few more research items.
 
-# Quest: Can You Really See Out of Those?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALRQ.name=Can You Really See Out of Those?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALRQ.desc=If you take a little dip into the dark side, you can make these goggles. They give the best discount until you can make infinity armor. And who even does that?%n%nYou'll need infusion and some warping research first.%n%nIf you're a §oscaredy-cat§r you can make the Electric goggles on the armor tab instead.
-
 # Quest: It's Called the Thaumatorium, OK?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALRg.name=It's Called the Thaumatorium, OK?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALRg.desc=This device will allow automating the crucible. Check the research to the far right of the crucible for details.
 
+# Quest: Growing Auram
+betterquesting.quest.BiGj2-sBQ62nf0YtAKpGMw.name=Growing Auram
+betterquesting.quest.BiGj2-sBQ62nf0YtAKpGMw.desc=One Essentia you might have a hard time gathering is Auram. Maybe you've gotten some from Ethereal Essence, which is dropped by the flying balls of light that rarely show up in the Nether, or some from Nodes. But that is hardly a good supply. The Aurelia plant can resolve this.%n%nWhen a full moon is visible overhead, Aurelia flowers will open up their petals presumably to feed off of the light. Significant for you is that they will occasionally shed these petals, which can be collected off the ground as a dense source of Auram Essentia.%n%nYou should make sure the ground near the flower is level and clear, so you'll be able to collect the petals later. The flower itself is simply planted on grass, not farmland, so no need to have a water source nearby either.%n%n[note]Terra Wart is also a growable source of Auram Essentia. It has a quest in the Fishing, Farming, Cooking quest tab.[/note]
+
 # Quest: Thauminite Helmet
 betterquesting.quest.CAqER5QVQg2Hq9lLZ9zDzg.name=Thauminite Helmet
 betterquesting.quest.CAqER5QVQg2Hq9lLZ9zDzg.desc=If you improve your Thaumium to Thauminite, you can make this very stylish helmet! Also comes with a very useful 5%% vis discount while equipped.%n%nMaybe this new material is useful for wands too?
+
+# Quest: Comparing at a Distance
+betterquesting.quest.HF-prjNuRP-RUOYzn170cQ.name=Comparing at a Distance
+betterquesting.quest.HF-prjNuRP-RUOYzn170cQ.desc=Comparators are wonderfully useful devices, but their need to be directly next to whatever they are comparing is quite limiting. If you could do so remotely that would free you from one major constraint.%n%nRemote Comparators allow you to do just that. Sneak-right click with a crystalline eye to bind the block you want to watch, and place the eye in a remote comparator to start monitering the block remotely.%n%nGiven the extra distance, though the range of the remote comparator is quite limited, you should expect the §otiniest§r amount of signal lag compared to a direct comparator. You're doubtful that is ever going to be a limiting factor, though.
+
+# Quest: Taint Warnings
+betterquesting.quest.JyVKlIbSSiaXjYfQ2FFLhQ.name=Taint Warnings
+betterquesting.quest.JyVKlIbSSiaXjYfQ2FFLhQ.desc=Now that you have started using Vis in the form of Essentia, a warning about Taint.%n%nVis in the state of Essentia is unstable if not stored properly. Left alone too long, or emptied out of the Crucible, Essentia will break down. But not into Vis. Rather, it will turn into Flux.%n%nFlux manifests as a liquid or a gas, but is, itself, only a nuisance. Thaumaturges exposed to the stuff can end up getting Flux Flue, a condition which makes it harder to channel Vis, but it is only temporary.%n%nLarger concentrations of Flux will solidify into Thaumic Slimes, bizarre creatures that try to merge with each other to grow larger. They can be dangerous, but are no less susceptible to crossbow bolts than most things.%n%nHowever, if too much flux is allowed to linger for too long, it will corrupt the land and solidify into tendrils. This is a manifestation of the blight called Taint. Fibrous Tendrils (as well as condensed blocks thereof) spread the Tainted Lands, feeding on the magic it twists. Nodes are especially vulnerable, becoming Tainted themselves if exposed to this twisted magic.%n%nDestroying the tendrils stops the spread, but unless §oall§r are destroyed this is only temporary. A more effective solution is to destroy the Tainted Land itself, as outside this specific biome tendrils quickly starve and die off.%n%nIf you are §oexceedingly§r careless with your Crucible you can, in fact, create Tainted Lands. So you would be wise to try wasting as little Essentia as possible, and clean up any you do waste.
+
+# Quest: Growing Glowstone the Magical Way
+betterquesting.quest.LUwrS4RnQGilkbdPQ_DrBg.name=Growing Glowstone the Magical Way
+betterquesting.quest.LUwrS4RnQGilkbdPQ_DrBg.desc=There are many plants that can provide you with Glowstone Dust. But the best one might just be Glieonia. This magical plant, once matured, can be harvested for two Glowstone Dust directly.
+
+# Quest: More Health
+betterquesting.quest.TjJv9pSOSaW1kwzoTZ9qRw.name=More Health
+betterquesting.quest.TjJv9pSOSaW1kwzoTZ9qRw.desc=No matter how much of a crack shot you become it doesn't help when your twitchy fingers shoot your crossbow before your eyes can notice the tell-tale red lines on one particular type of spider's body. Usually incredible amounts of pain follow...%n%nWith your new wand you are able to craft Red Heart Canisters. A total of ten of them can be put in their own dedicated inventory slot, increasing your maximum health by one heart per.%n%nIt might not be enough, but if it ends up making the difference between standing upright and standing horizontally in a box, you'll be thankful you made these things.
+
+# Quest: Need More Sugar?
+betterquesting.quest.UAWjHTM_SAW95_Cji-9PiA.name=Need More Sugar?
+betterquesting.quest.UAWjHTM_SAW95_Cji-9PiA.desc=With Briar starting to consume you might also want to increase your sugar production.%n%nSweeds are planted on grass, not farmland, and will spread to propogate themselves. Once fully matured they can be harvested for sugar as well as sugar cane.
+
+# Quest: Keeping Out the Riff-Raff
+betterquesting.quest._N4B3gVMTZOoUdf9--7aPQ.name=Keeping Out the Riff-Raff
+betterquesting.quest._N4B3gVMTZOoUdf9--7aPQ.desc=You're starting to get tired of having to build everything like some kind of fortress just to make sure no unwanted guests come in. Sure, that's just the nature of living in a world where infinite hoards of restless undead haunt every other dark corner, but is having a secure entryway that isn't conveniently door-shaped too much to ask?%n%nNot anymore. Paving Stone of Warding, assuming nothing sits on top of it, will project a two block tall invisible forcefield above itself that block non-player mobs from passing through, at least the common riff-raff. As a bonus spiders cannot climb the forcefield, so no need for overhangs to keep them out too.%n%nThat said, since the forcefield cannot tell an arrow fired by you from one fired §oat you§r, mundane objects will still pass through regardless. And the forcefield does as much to block line of sight as the term §oinvisible§r would suggest.%n%nOf course, you're not concerned about that part. Being able to shoot things with your crossbow while they can't reach you is very much in §oyour§r favor, all told.
+
+# Quest: Pushing Back the Taint
+betterquesting.quest.aWvML-AaSIyjyNj5ElS4VQ.name=Pushing Back the Taint
+betterquesting.quest.aWvML-AaSIyjyNj5ElS4VQ.desc=So how do you actually destroy tainted land?%n%nThese Ethereal Blooms will remove Tainted Lands within a small area around themselves, which in turn kills off any Fibrous Tendrils. They cannot cleanse Tainted Nodes, nor will they necessarily return tainted biomes back to what they were before, but they will provide a barrier.%n%nThe Shimmerleaf they are made from have a recipe in an LV Assembling Machine if you're having a hard time finding them around Silverwood trees. There is also an IC2 crop version of them.
+
+# Quest: Adding More Funtions
+betterquesting.quest.ad_fPxg-ThqyyuppTrG1gQ.name=Adding More Funtions
+betterquesting.quest.ad_fPxg-ThqyyuppTrG1gQ.desc=One such improvement is the Advanced Redcrystal.%n%nIt allows you to set a threshold with your wand to define how strong a signal needs to be in order to pass through. This can come in handy when checking fill level of tanks or power storage.%n%n[note]One caveat for redstone experts: The Advanced Redcrystal checks the signal strength in the block it is in, not in the previous block like a comparator would.[/note]
+
+# Quest: Understanding Wand Progression
+betterquesting.quest.bfrxXr1iSpGQS8iV95nJeA.name=Understanding Wand Progression
+betterquesting.quest.bfrxXr1iSpGQS8iV95nJeA.desc=More advanced Thaumcraft recipes require larger and larger amounts of vis that your initial wands can't handle. You need to progress bit by bit to increase your capabilities. The progression is two-fold:%n%nFirst, you need to craft more advanced wands, the Greatwood Wand is next. And secondly, you need to improve your crafting discounts. They reduce the vis cost of crafts and thus also let you craft higher vis recipes.%n%nIn your progression you will need to rely on both aspects. Better wands and higher discounts. However, as you progress, there are many different ways on how to procede. Some ways focus more on discounts, others more on wands. Therefore, the questbook can only give you some general advice.%n%nFor example, when making a new wand type, it is always cheapest to first make it with iron caps and then try to improve it afterwards. However, if you are able to obtain enough discounts you can directly make the wand with gold caps or better, skipping the iron capped wand.%n%nBut before all these options really open up, let us work on that Greatwood Wand!
+
+# Quest: Essentia Storage
+betterquesting.quest.cbv93MoJQESfsccTQMCwUA.name=Essentia Storage
+betterquesting.quest.cbv93MoJQESfsccTQMCwUA.desc=At long last, you have all the tools to smelt items into Essentia, keep it stable, and store it for later use.%n%nThe last step was creating Warded Jars, relatively simple creations that keep Essentia in a quasi-liquid state, which makes it easier to keep Essentia from turning into Flux. Unlike phials, which must hold 8 Essentia exactly to keep it stable, Warded Jars can store anywhere from 1 to 64 Essentia.%n%nThese Warded Jars are safe to pick up and carry around, which you suspect will not be the case for most objects storing much more Essentia than these jars do. Right click them with a label to filter that jar to a specific type of Essentia. Use a preset label if the jar is still empty.%n%nSneak-right click with an empty hand to remove a label from a jar, or void the Essentia it contains if it doesn't have a label. Voiding Essentia from jars will not generate Flux, because... magic, I guess. It's very convenient, so just politely don't question it too much.
+
+# Quest: Solid, Directional Redstone
+betterquesting.quest.fmeCtrL-SNGqaLb208VSiQ.name=Solid, Directional Redstone
+betterquesting.quest.fmeCtrL-SNGqaLb208VSiQ.desc=Redstone Dust is a wonderful substance, but it has several limitations that only true Minecrafters can handle.%n%nLuckily, with a bit of magic the dust crystallizes and becomes much easier to handle.%n%nRedcrystal can be placed directly against a wall or ceiling, and also allows you to use a wand to toggle whether a given side sends/receives any redstone signals. This allows for nice and compact builds in places regular redstone couldn't even exist in the first place.%n%nMaybe it is possible to improve these redcrystals further to allow them to manipulate or process the signal they're receiving in some way...
+
+# Quest: Alleviating Warp
+betterquesting.quest.gVqhKJAoTfudKA5xUWMzMg.name=Alleviating Warp
+betterquesting.quest.gVqhKJAoTfudKA5xUWMzMg.desc=When you get poisoned or withered a bit of milk solves the problem. Why not create something akin to milk, but for Warp effects?%n%nBriar gives a bit of an answer to that. These two block tall plants, which require good light to grow, will produce Briar Seed Bags when harvested. Those can be combined with sugar and a suitable container in an Arcane Workbench to create Rosehip Syrup.%n%nRosehip Syrup stacks up to 16 and can be used the same as milk, also removing some (though not all) Warp effects as well as Flux Flue and Flux Phage.%n%nThe plant has a strange life cycle where the seed pods will first appear as yellow dots, turn pink as they start to mature, then §odisappear§r, only to return fully matured. Still, if it works, it works.
+
+# Quest: Counting Items
+betterquesting.quest.jvbdUzcgTfGX820wUPhxCQ.name=Counting Items
+betterquesting.quest.jvbdUzcgTfGX820wUPhxCQ.desc=The Remote Comparator makes it significantly easier to get comparator signals out of whatever block you want, but looking at your storage chests you can't help but see no reason to bother. So what if they're nearly full? You want to know what they're nearly full §oof§r.%n%nTally Boxes can be pointed at a container - either directly or, using a Remote Comparator, remotely - and given a Runic Whitelist that specifies conditions where you want a Tally Box to send a redstone signal. Quantity, metadata and NBT matching are options, as is using a basic name filter.%n%nNote that the redstone side is always opposite the reading side, and Remote Comparators must be placed on top of Tally Boxes to work together, meaning redstone is always output on the down face in that case.%n%n[note]Runic Whitelists don't let you use NEI ghost items to set their filters, unfortunately.[/note]
 
 # Quest: Tube Madness
 betterquesting.quest.xoH_knd-RV-22QEfLUtuDA.name=Tube Madness
@@ -11005,8 +11069,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABJQ.desc=...will break your bones! These
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABJg.name=The Best of All?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABJg.desc=Highly durable, can carry a lot of items and is considered the "top tier" golem. But you are sure there is more...%n%nYou'll need to chisel a thaumium block to get the right kind you need for the golem.
 
-# Quest: Essentia Storage
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABJw.name=Essentia Storage
+# Quest: Essentia Item Storage
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABJw.name=Essentia Item Storage
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABJw.desc=Sure, you could just go with gazillions of jars, but it's way more convenient to store essentia in a chest or barrel. Isn't it?
 
 # Quest: The Basic Elements
@@ -11033,10 +11097,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABLA.desc=As you do more and more infusio
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABLQ.name=One Does Not Simply...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABLQ.desc=...play with magic. Be warned, these fires are very dangerous! But who doesn't want a patch of snow in the nether?%n%nFire spread is disabled in the configs of servers to prevent massive lag and world destruction.
 
-# Quest: Useful Plant Life
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABLg.name=Useful Plant Life
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABLg.desc=While regular plants are mostly used to make food, you are wondering if you could get some... "more useful" plant life going...
-
 # Quest: Pushing the Limits
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABLw.name=Pushing the Limits
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABLw.desc=Regular enchantments have a limit, like III for Fortune. Utilizing magic, you should be able to bypass that limitation, at least a tiny bit; Eventually creating enchantments like Fortune IV. It comes with limitations, but your book shall tell you more about those.
@@ -11057,17 +11117,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABMg.desc=Just like plants, there are tre
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADQQ.name=Purge Your Warp
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADQQ.desc=The warp you have accumulated over time is starting to become a problem. Making bath salts to clean off the warp is only a temporary solution. To truly get rid of it, you need something more powerful, a pure tear. If you collect a few things for me, I will give you one. Think wisely about using it, since it's a very long journey to unlock it through research.%n%n§3PS: You need an LuV-powered EBF for the osmiridium.
 
-# Quest: Scepter With 75 Vis Capacity
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADbQ.name=Scepter With 75 Vis Capacity
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADbQ.desc=A scepter is crafted from a wand core, a primal charm, three wand caps, a twilight forest monster mob drop, and some screws. Any sort of core or cap may be used, but the caps must match each other. A scepter cannot hold a focus, but holds 150 percent as much vis as a wand with the same core, and gives an additional 10 percent discount for costs, beyond any discounts from its caps or the user's worn equipment. 
-
 # Quest: Magic Staff Core
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADbg.name=Magic Staff Core
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADbg.desc=A staff requires an extra step for crafting: Two (matching) wand cores must be combined with a primal charm, and crystal clusters to produce a staff core. (While the recipes are all similar, each type of staff core requires a separate research topic to be learned.) 
-
-# Quest: Primal Charm
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADbw.name=Primal Charm
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADbw.desc=With your new 50 vis wand you are able to make a Scepter which holds up to 75 vis.%nFirst you need some primal charms which cost 50 vis to craft.
 
 # Quest: A Wizard's Staff Has a Knob on the End
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADdw.name=A Wizard's Staff Has a Knob on the End
@@ -11180,6 +11232,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALJw.desc=What if... you could send essen
 # Quest: Magic Mirror Glass?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALKQ.name=Magic Mirror Glass?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALKQ.desc=This glass seems useful for several things, including, perhaps, teleportation of items or essentia?
+
+# Quest: Can You Really See Out of Those?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALRQ.name=Can You Really See Out of Those?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALRQ.desc=If you take a little dip into the dark side, you can make these goggles. They give the best discount until you can make infinity armor. And who even does that?%n%nYou'll need infusion and some warping research first.%n%nIf you're a §oscaredy-cat§r you can make the Electric goggles on the armor tab instead.
 
 # Quest: So many options for the core!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMiA.name=So many options for the core!
