@@ -48,7 +48,7 @@ https://try.github.io/
 1. Fork the GT-New-Horizons-Modpack repo to your github account. This is not actually needed if Dream has added you as a developer.
 2. Add the repo to your GitHub Desktop by clicking `Code` and then `Open with GitHub Desktop`. When asked, choose `contribute to parent repo`. That way new branches are automatically based on the GTNewHorizons/GT-New-Horizons-Modpack master branch.
 3. Before you begin making changes, you want to click `Fetch origin` to get the latest updates and then start a new branch (`Branch`, then `New Branch`). If you followed 2. that will automatically be based on the GTNewHorizons/GT-New-Horizons-Modpack master branch.
-4. Start GTNH. You need the full game, not a development environment. You should also check that you are using the latest BQ from https://github.com/GTNewHorizons/BetterQuesting/releases (you should only use normal versions, not pre-versions).
+4. Start GTNH. You need the full game (the latest release or a nightly version), not a development environment. You should also check that you are using the latest BQ from https://github.com/GTNewHorizons/BetterQuesting/releases (you should only use normal versions, not pre-versions).
 5. Replace the DefaultQuests folder in your config/betterquesting game files with the one from your github folder. That means to delete the existing folder and then copy in the one from github, do not merge them!
 6. Run `/bq_admin default load` in the game chat. (Apparently it can crash if you run it immediately when entering a world, so wait a few seconds to be sure.)
 7. Double check your questbook is indeed up to date with the latest changes on GTNewHorizons/GT-New-Horizons-Modpack.
@@ -76,7 +76,7 @@ https://try.github.io/
 7. Select Edit, then you will see the Quest Name and Description. When editing the quest Description text press "Aa" to get a large window. Hit Enter two times once you have a few lines of data. This breaks up the text and makes it easier to read. Keep in mind that quest names in the GT Tier tabs are color coded.
 8. Form the Edit Quest window, select Tasks to add new tasks.
 9. For Tasks we usually use several optional retrieval and one retrieval. Other options are possible too but should only be used for a good reason.
-10. There are many more things to finetune: you can toggle if NBT data should matter, can delete parts of the NBT data of the required item, can allow for oredict substitutes, etc. For example, in a bee quest you should delete all NBT data except for the species and then make sure ignoreNBT is set to false.
+10. There are many more things to fine-tune: you can toggle if NBT data should matter, can delete parts of the NBT data of the required item, can allow for oredict substitutes, etc. For example, in a bee quest you should delete all NBT data except for the species and then make sure ignoreNBT is set to false.
 11. Select Rewards to add rewards. You can add Choice where the user chooses between items on a list, or item where they get all the items. Generally try to reward similar amounts as other quests in that tab.
 12. In Edit > Advanced, you can change additional properties. For example you can reorder the tasks, change the quest cooldown if it should have one, or toggle if the quest is a main quest. Be careful if you want to swap tasks around to not accidentally assign the same index to two tasks. That can currently crash the client.
 
@@ -103,6 +103,11 @@ https://try.github.io/
 2. Make sure to craft items and not just take them from NEI. Sometimes the ones in NEI are not quite correct (metadata, NBT, etc.).
 3. You might have to complete the prerequisites to unlock a quest and test it. You can quickly do so in the designer mode. Once the prerequisites are unlocked, you can use `/bq_admin edit` to leave editing mode.
 4. Do a `/bq_admin reset all` to reset your quests back.
+
+
+# Troubleshooting
+
+- BQ is replacing quest items that I did not touch with `betterquesting:placeholder`: That means these items do not exist in your game. Maybe they are new and you are not using a nightly version of the pack. In that case you should update. Alternatively, maybe you removed a mod or changed some mod configurations. In either case, do not commit such changes.
 
 
 # Translating the Questbook
