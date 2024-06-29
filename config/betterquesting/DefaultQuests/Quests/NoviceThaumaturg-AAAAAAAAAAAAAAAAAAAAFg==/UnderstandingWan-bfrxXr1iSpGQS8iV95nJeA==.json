@@ -1,0 +1,42 @@
+{
+  "questIDHigh:4": 7924911883518364305,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 232
+    }
+  },
+  "questIDLow:4": -8049119362564896392,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 1,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "minecraft:writable_book",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Understanding Wand Progression",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "More advanced Thaumcraft recipes require larger and larger amounts of vis that your initial wands can\u0027t handle. You need to progress bit by bit to increase your capabilities. The progression is two-fold:\n\nFirst, you need to craft more advanced wands, the Greatwood Wand is next. And secondly, you need to improve your crafting discounts. They reduce the vis cost of crafts and thus also let you craft higher vis recipes.\n\nIn your progression you will need to rely on both aspects. Better wands and higher discounts. However, as you progress, there are many different ways on how to procede. Some ways focus more on discounts, others more on wands. Therefore, the questbook can only give you some general advice.\n\nFor example, when making a new wand type, it is always cheapest to first make it with iron caps and then try to improve it afterwards. However, if you are able to obtain enough discounts you can directly make the wand with gold caps or better, skipping the iron capped wand.\n\nBut before all these options really open up, let us work on that Greatwood Wand!"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {}
+}

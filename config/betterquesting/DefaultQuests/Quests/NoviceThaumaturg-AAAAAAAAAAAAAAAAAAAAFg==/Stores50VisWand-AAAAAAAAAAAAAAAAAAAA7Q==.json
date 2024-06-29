@@ -10,7 +10,7 @@
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
+      "taskLogic:8": "OR",
       "partySingleReward:1": 0,
       "visibility:8": "NORMAL",
       "isMain:1": 1,
@@ -41,13 +41,43 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "With gold caps you avoid the downsides of iron. So best to upgrade to a Gold Banded Greatwood Wand!\n\nWith this you are more powerful than ever! You have a feeling that this new wand will come in handy very soon.\n\n§3Going forward the wand quests will not focus on caps. You now know that wands with iron caps are the cheapest to make, but gold caps are better. You should also explore what other caps exist, they might be even better!\nIron caps being the cheapest however does not mean that you always need to start with an iron cap wand, only to make a better one. Instead, you should be starting to stack crafting discounts from various sources! If you don\u0027t have at least 10% discount on your gear right now, you should probably look around this questtab to improve on that."
+      "desc:8": "With gold caps you avoid the downsides of iron. So best to upgrade to a Gold Banded Greatwood Wand!\n\nYou could also consider making your Greatwood Wand with enchanted cloth caps instead. That gives you an extra 6% discount!\n\nWith this Greatwood Wand you are more powerful than ever!\n\n[note]You only need one of the tasks to complete the quest.[/note]"
     }
   },
   "tasks:9": {
     "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
       "index:3": 0,
-      "taskID:8": "bq_standard:checkbox"
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "Thaumcraft:WandCap",
+          "Count:3": 2,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "TaintedMagic:ItemWandCap",
+          "Count:3": 2,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
     }
   },
   "rewards:9": {
