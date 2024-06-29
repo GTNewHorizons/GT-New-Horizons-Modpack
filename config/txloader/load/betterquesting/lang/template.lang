@@ -3280,7 +3280,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGlA.desc=You can make Nanoprocessors che
 
 # Quest: ASoc Advanced System on a chip
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGlQ.name=§c§lASoc Advanced System on a chip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGlQ.desc=To make cheaper HV and EV circuits you need ASoCs. Advanced system on a chip.%n%nYou'll need to wait for the next tier to make the cheaper EV circuits though.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGlQ.desc=ASoCs. Advanced system on a chip, will be used for a new multiblock, the Precise Assembler.%n%nAnd just like SoCs, ASoCs will be used to make cheaper HV and EV circuits. %n%nHowever you'll need to wait until ZPM to make the cheaper EV circuits.%n%n
 
 # Quest: Crystalprocessors
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGlg.name=§c§lCrystalprocessors
