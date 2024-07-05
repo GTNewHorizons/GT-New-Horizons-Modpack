@@ -7,9 +7,13 @@
     },
     "1:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 1671
+      "questIDLow:4": 1409
     },
     "2:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1671
+    },
+    "3:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 1006
     }
