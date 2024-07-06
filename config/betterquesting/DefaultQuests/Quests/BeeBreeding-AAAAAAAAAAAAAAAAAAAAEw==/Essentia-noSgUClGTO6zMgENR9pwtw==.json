@@ -9,6 +9,10 @@
     "1:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 2232
+    },
+    "2:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 287
     }
   },
   "questIDLow:4": -5534359835533217609,
@@ -73,26 +77,15 @@
           },
           "Damage:2": 0,
           "OreDict:8": ""
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "1:10": {
-      "partialMatch:1": 1,
-      "autoConsume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 1,
-      "consume:1": 0,
-      "requiredItems:9": {
-        "0:10": {
+        },
+        "1:10": {
           "id:8": "MagicBees:apimancersDrainer",
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": ""
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     }
   },
   "rewards:9": {
