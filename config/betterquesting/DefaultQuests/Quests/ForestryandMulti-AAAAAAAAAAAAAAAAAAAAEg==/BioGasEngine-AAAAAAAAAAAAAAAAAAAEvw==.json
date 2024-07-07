@@ -31,7 +31,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Producing RF Power with Lava is possible with the Biogas engine. You need Water, Seedoil, Milk, Sap Cresote or FR Biomass in the other slot. The engine outputs 50RF/t depends on the fluid you put in.\n\nFuel /Lava /  Usage Energy Ticks\nWater Constant 10 RF/t 1000\nFruit Juice Startup/Restart Only 10 RF/t 2500\nLiquid Honey Startup/Restart Only 20 RF/t 2500\nMilk Constant 10 RF/t 10000\nSeed Oil Startup/Restart Only 30 RF/t 2500\nBiomass Startup/Restart Only 50 RF/t 2500"
+      "desc:8": "Producing RF power with lava is possible with the help of the biogas engine. You need water, fruit juice, liquid honey, milk, seed oil, or forestry biomass in the other slot. After a brief warmup time, the engine outputs up to 50 RF/t depending on the fluid used.\n\nThe possible fluids give the following power:\n\nWater: 10 RF/t for 1k ticks\nFruit juice: 10 RF/t for 2.5k ticks\nLiquid honey: 20 RF/t for 2.5k ticks\nMilk: 10 RF/t for 10k ticks\nSeed oil: 30 RF/t for 2.5k ticks\nBiomass: 50 RF/t for 2.5k ticks"
     }
   },
   "tasks:9": {
@@ -112,19 +112,19 @@
           "OreDict:8": ""
         },
         "1:10": {
-          "id:8": "Railcraft:fluid.creosote.can",
+          "id:8": "Forestry:canJuice",
           "Count:3": 16,
           "Damage:2": 0,
           "OreDict:8": ""
         },
         "2:10": {
-          "id:8": "Forestry:canLava",
+          "id:8": "Forestry:canBiomass",
           "Count:3": 16,
           "Damage:2": 0,
           "OreDict:8": ""
         },
         "3:10": {
-          "id:8": "Forestry:canBiomass",
+          "id:8": "Forestry:canLava",
           "Count:3": 16,
           "Damage:2": 0,
           "OreDict:8": ""
