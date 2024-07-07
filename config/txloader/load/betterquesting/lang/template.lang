@@ -10418,6 +10418,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAM4g.desc=Critical for your Ichor product
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpg.name=Space Bees
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpg.desc=Breed an industrious with a heroic bee to obtain a space bee. You need the temperature to be icy for that.%n%nJust one small step for you, but a giant leap for beekind.%n%n[note]This is the starting point for many space related bees. Maybe check out NEI to see what you can aim for.[/note]
 
+# Quest: Essentia
+betterquesting.quest.noSgUClGTO6zMgENR9pwtw.name=Essentia
+betterquesting.quest.noSgUClGTO6zMgENR9pwtw.desc=This bee produces nothing directly but instead sacrifices its lifetime to generate liquid essentia for all your magical needs. To do so, however, it requires an Apimancer's Drainer beneath its housing.%n%nThe speed at which the bee produces essentia is affected by its production speed. You have to right-click the drainer with a filled phial of the desired essentia to lock it to that type.%n%nYou can breed them from chaotic and ordered bees.%n%n§3You can also place up to 9 drainers beneath a single alveary as long as the blocks at the bottom are plain alveary blocks.
+
 
 ## Quest Line: Hardcore End(er) Expansion
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAKw.name=Hardcore End(er) Expansion
