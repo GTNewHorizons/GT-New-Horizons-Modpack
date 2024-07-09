@@ -29,7 +29,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "The Remote IO Water Reservoir works like the Everfull Urn in that you can pull water out as fast as you can pull it out, but you can use all the sides to do so."
+      "desc:8": "The Remote IO Water Reservoir works like the Everfull Urn in that you can pull water out as fast as you can pull it out, but you can use all the sides to do so.\n\nYou can further upgrade it into a reservoir hatch, which can be used as an input hatch directly. Producing massive amounts of distilled water with a DT has never been easier!\n\n§3Maybe those massive amounts of water could be condensed into something useful..."
     }
   },
   "tasks:9": {
@@ -49,6 +49,23 @@
         }
       },
       "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 31071,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   },
   "rewards:9": {
