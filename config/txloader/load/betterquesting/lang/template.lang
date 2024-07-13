@@ -9224,9 +9224,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJqw.desc=Component of the crafting CPU w
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJrA.name=AE Tier 4 Item Storage
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJrA.desc=The main processor for 4096k and 16384k cells. You'll need to be in LuV for these.
 
-# Quest: AE Tier 1 Fluid Storage
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJrQ.name=AE Tier 1 Fluid Storage
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJrQ.desc=The main processor for 1K, 4K, 16k, and 64k fluid cells.%n%nDon't want to get rid of your super tanks? Use the fluid storage bus instead of these then. Super tanks double in capacity each tier, but these quadruple. Plus they're less expensive for sure. But the earlier ones may not be worth it.
+# Quest: AE Fluid Storage
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJrQ.name=AE Fluid Storage
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJrQ.desc=This processor is mainly used to craft dual interfaces, as well as some other useful tools from AE2FC like the level maintainer.%n%nDon't want to get rid of the super tanks you have been using up to now? Use the fluid storage bus instead of the fluid storage cells from AE2FC then. Super tanks double in capacity each tier, but the cells quadruple. They're also less expensive for sure. But you decide which to use.
 
 # Quest: 1k Fluid Component
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJrg.name=1k Fluid Component
@@ -9246,7 +9246,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJsQ.desc=Same as 1k.
 
 # Quest: 1k Fluid Storage Cell
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJsg.name=1k Fluid Storage Cell
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJsg.desc=Unlike the item version, these can only hold 1 type of liquid each. It can hold over 2 ML. There is also another variant that can hold 5. You'll want to make the fluid terminal to see what you have.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJsg.desc=Unlike the item version, these can only hold one type of fluid each. They can hold a little over 2 ML. There is also another variant that can hold five different fluids, but it requires tungstensteel. You'll want to make the Fluid Terminal to see what you have.
 
 # Quest: 4k Fluid Storage Cell
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJsw.name=4k Fluid Storage Cell
@@ -9263,10 +9263,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJtQ.desc=These hold over 128 ML of a sin
 # Quest: Housing for Advanced Components
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJtw.name=Housing for Advanced Components
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJtw.desc=You need to use this for the higher tiered cells.
-
-# Quest: AE Tier 2 Fluid Storage
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJuA.name=AE Tier 2 Fluid Storage
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJuA.desc=The main processor for 256K, 1024k and 4096K fluid cells. You'll need to be in IV for these.
 
 # Quest: 256k Fluid Component
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJuQ.name=256k Fluid Component
