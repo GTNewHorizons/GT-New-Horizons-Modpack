@@ -35,7 +35,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Are you wondering how to process raw redstone ore without a macerator?\n\nUse the hammer in the crafting table to get some crushed redstone ore from your raw redstone ore. After that, use the hammer in the crafting table again to get some impure redstone dust.\n\nLastly, fill a cauldron with water and drop the whole stack of dust into it, either manually or by pressing Ctrl+Q. The cauldron can handle the entire stack with the same amount of water. You will get pure redstone dust for your redstone needs."
+      "desc:8": "Are you wondering how to process raw redstone ore without a macerator?\n\nUse the hammer in the crafting table to get some crushed redstone ore from your raw redstone ore. After that, use the hammer in the crafting table again to get some impure redstone dust.\n\nLastly, fill a cauldron with water and drop the whole stack of dust into it, either manually or by pressing Ctrl+Q. The cauldron can handle the entire stack with the same amount of water. You will get pure redstone dust for your redstone needs.\n\n§3You could also take the hammer with you on your mining trip and break the redstone ore with it directly to get crushed redstone ore, thus skipping the raw redstone ore."
     }
   },
   "tasks:9": {

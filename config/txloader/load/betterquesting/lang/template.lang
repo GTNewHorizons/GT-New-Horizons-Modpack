@@ -345,7 +345,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAC2Q.desc=Now you can really make some sw
 
 # Quest: Redstone, Early Game Processing
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACFw.name=§1§2§lRedstone, Early Game Processing
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACFw.desc=Are you wondering how to process raw redstone ore without a macerator?%n%nUse the hammer in the crafting table to get some crushed redstone ore from your raw redstone ore. After that, use the hammer in the crafting table again to get some impure redstone dust.%n%nLastly, fill a cauldron with water and drop the whole stack of dust into it, either manually or by pressing Ctrl+Q. The cauldron can handle the entire stack with the same amount of water. You will get pure redstone dust for your redstone needs.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACFw.desc=Are you wondering how to process raw redstone ore without a macerator?%n%nUse the hammer in the crafting table to get some crushed redstone ore from your raw redstone ore. After that, use the hammer in the crafting table again to get some impure redstone dust.%n%nLastly, fill a cauldron with water and drop the whole stack of dust into it, either manually or by pressing Ctrl+Q. The cauldron can handle the entire stack with the same amount of water. You will get pure redstone dust for your redstone needs.%n%n§3You could also take the hammer with you on your mining trip and break the redstone ore with it directly to get crushed redstone ore, thus skipping the raw redstone ore.
 
 # Quest: Fallen From the Sky
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACtQ.name=§2§lFallen From the Sky
@@ -3163,7 +3163,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMCg.desc=Monazite europium?%n%nUnfortuna
 
 # Quest: Samarium, The Other Way
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMCw.name=§b§lSamarium, The Other Way
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMCw.desc=Now to just centrifuge your samarium from all that other junk (gangue). You get a little thorianite too so, win.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMCw.desc=Only thing left to do is to centrifuge your concentrated dust to get samarium. You get a little thorianite too so, win.
 
 # Quest: The Other Part
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMDA.name=§b§lThe Other Part
@@ -3613,7 +3613,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKdg.desc=If you want to color all those 
 
 # Quest: TecTech Multiblocks
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKeg.name=TecTech Multiblocks
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKeg.desc=TecTech Multiblock Common Functionality%n%nMultiple Ampere and Laser Hatches Compatibility - to ease power distribution.%n%nPower Pass - Allows connected dynamo hatches to take power from the controller and output it, just like the active transformer does (and that is why the controller always need it in it's recipe if that function is enabled...). [warn]Be sure to turn off Power Pass if you want to edit your machine and don't want it to explode![/warn]%n%nSafe Void - Enabling this moves all EM (Elemental Matter, not all machines use this) from input and output hatches to overflow hatches. Which allows the machine to be disassembled more easily.%n%nConstructable Interface - Allows visualizing the structure with blueprints (there is an API to implement that for any block, but almost nothing does).%n%nFrom left to right is 1, then clockwise for the rest in TT multi interfaces.%n%n1) Parameters - They are the way of the controller to communicate with player and parameter hatches. Lights indicate status but more detailed information can be seen when moused over. The tooltip contains ID in form of HatchID:ParameterNumber:Direction, Current Status, Current Value, and Short Description.%n%n2) Uncertainty status - These 9 blocks indicate uncertainty status of the machine. If the lights are on, this machine requires an uncertainty resolver. Red = Bad, Green = Good. You need to do the absurd puzzle before using the machine.%n%nControl buttons - Buttons might change their behavior and appearance depending on machine but usually they work like this, starting from top:%n%n3) Power Pass - Toggles Power Pass.%n%n4) Safe Void - Toggles Safe Void.%n%n5) Power Switch - Soft Mallet with your finger...%n%n6) Input slot - Standard functionality.%n
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKeg.desc=TecTech Multiblock Common Functionality%n%nMultiple Ampere and Laser Hatches Compatibility - to ease power distribution.%n%nPower Pass - Allows connected dynamo hatches to take power from the controller and output it, just like the active transformer does (and that is why the controller always need it in it's recipe if that function is enabled...). [warn]Be sure to turn off Power Pass if you want to edit your machine and don't want it to explode![/warn]%n%nConstructable Interface - Allows visualizing the structure with blueprints (there is an API to implement that for any block, but almost nothing does).%n%nFrom left to right is 1, then clockwise for the rest in TT multi interfaces.%n%n1) Parameters - They are the way of the controller to communicate with player and parameter hatches. Lights indicate status but more detailed information can be seen when moused over. The tooltip contains ID in form of HatchID:ParameterNumber:Direction, Current Status, Current Value, and Short Description.%n%n2) Uncertainty status - These 9 blocks indicate uncertainty status of the machine. If the lights are on, this machine requires an uncertainty resolver. Red = Bad, Green = Good. You need to do the absurd puzzle before using the machine.%n%nControl buttons - Buttons might change their behavior and appearance depending on machine but usually they work like this, starting from top:%n%n3) Power Pass - Toggles Power Pass.%n%n4) Safe Void - Currently unused.%n%n5) Power Switch - Soft Mallet with your finger...%n%n6) Input slot - Standard functionality.%n
 
 # Quest: Configuring TecTech Multiblocks
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKew.name=Configuring TecTech Multiblocks
@@ -6087,7 +6087,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEQ.desc=It's painful to carry all the t
 
 # Quest: Precise Assembler
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEg.name=§6§lPrecise Assembler
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEg.desc=Precise Assembler has two modes: Precise mode and Normal mode.%n%nPrecise mode is used to make some of the advanced components from Good Generator mod.%n%nNormal mode works as multiblock version of Assembler.%n%n[note]You can't skip tiers with this. You need singleblock Assembler or GT++ multi to make your first Energy Hatch, then you can use it for Precise Assembler.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEg.desc=Precise Assembler has two modes: Precise mode and Normal mode.%n%nPrecise mode is used to make some of the advanced components from Good Generator mod.%n%n[note]As name suggests your current casings lack precision to produce these advanced components. %nYou will need at least MK-1 casings for this mode to work.[/note]%n%nNormal mode works as multiblock version of Assembler.%n%n[note]You can't skip tiers with this. You need singleblock Assembler or GT++ multi to make your first Energy Hatch, then you can use it for Precise Assembler.[/note]
 
 # Quest: Another Chemical Multiblock?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMig.name=§6§lAnother Chemical Multiblock?
@@ -6180,7 +6180,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7A.desc=The Industrial Centrifuge is th
 
 # Quest: Bask in the currents
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7Q.name=Bask in the currents
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7Q.desc=The best source for hundreds of thousands of glass for...something?  I dunno, think of something interesting and impress me!%n%nThe "effective" voltage for the High Current Arc furnace is one tier lower than the energy hatch. For example, with an MV tier energy hatch, it will do LV tier arc furnace recipes.%n%nThis machine also does plasma arc furnace recipes.%n%n[note]This multi is LuV. It also uses Thorium 232 and is generally a huge pain to make, considering how not useful it is.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7Q.desc=The best source for hundreds of thousands of glass for...something?  I dunno, think of something interesting and impress me!%n%nThe "effective" voltage for the High Current Arc furnace is one tier lower than the energy hatch. For example, with an MV tier energy hatch, it will do LV tier arc furnace recipes.%n%nThis machine also does plasma arc furnace recipes.%n%n[note]This multi is LuV and requires Thorium 232.[/note]
 
 # Quest: Bate Bate Chocolate
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7g.name=Bate Bate Chocolate
@@ -6649,7 +6649,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAK7g.desc=Turns lava into power, at very 
 
 # Quest: Geothermal Power IV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK7w.name=Geothermal Power IV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK7w.desc=The LuV version. Almost certainly produces more pollution than it says.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK7w.desc=The IV version. Almost certainly produces more pollution than it says.
 
 # Quest: Geothermal Power LuV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK8A.name=Geothermal Power LuV
@@ -9224,9 +9224,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJqw.desc=Component of the crafting CPU w
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJrA.name=AE Tier 4 Item Storage
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJrA.desc=The main processor for 4096k and 16384k cells. You'll need to be in LuV for these.
 
-# Quest: AE Tier 1 Fluid Storage
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJrQ.name=AE Tier 1 Fluid Storage
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJrQ.desc=The main processor for 1K, 4K, 16k, and 64k fluid cells.%n%nDon't want to get rid of your super tanks? Use the fluid storage bus instead of these then. Super tanks double in capacity each tier, but these quadruple. Plus they're less expensive for sure. But the earlier ones may not be worth it.
+# Quest: AE Fluid Storage
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJrQ.name=AE Fluid Storage
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJrQ.desc=This processor is mainly used to craft dual interfaces, as well as some other useful tools from AE2FC like the level maintainer.%n%nDon't want to get rid of the super tanks you have been using up to now? Use the fluid storage bus instead of the fluid storage cells from AE2FC then. Super tanks double in capacity each tier, but the cells quadruple. They're also less expensive for sure. But you decide which to use.
 
 # Quest: 1k Fluid Component
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJrg.name=1k Fluid Component
@@ -9246,7 +9246,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJsQ.desc=Same as 1k.
 
 # Quest: 1k Fluid Storage Cell
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJsg.name=1k Fluid Storage Cell
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJsg.desc=Unlike the item version, these can only hold 1 type of liquid each. It can hold over 2 ML. There is also another variant that can hold 5. You'll want to make the fluid terminal to see what you have.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJsg.desc=Unlike the item version, these can only hold one type of fluid each. They can hold a little over 2 ML. There is also another variant that can hold five different fluids, but it requires tungstensteel. You'll want to make the Fluid Terminal to see what you have.
 
 # Quest: 4k Fluid Storage Cell
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJsw.name=4k Fluid Storage Cell
@@ -9263,10 +9263,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJtQ.desc=These hold over 128 ML of a sin
 # Quest: Housing for Advanced Components
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJtw.name=Housing for Advanced Components
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJtw.desc=You need to use this for the higher tiered cells.
-
-# Quest: AE Tier 2 Fluid Storage
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJuA.name=AE Tier 2 Fluid Storage
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJuA.desc=The main processor for 256K, 1024k and 4096K fluid cells. You'll need to be in IV for these.
 
 # Quest: 256k Fluid Component
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJuQ.name=256k Fluid Component
@@ -12308,7 +12304,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJmA.desc=To get Demon Blood Shards, you'
 
 # Quest: Starter Key
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJmQ.name=Starter Key
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJmQ.desc=You need this to start Rituals. More complex rituals need the Activated version. To use it, bind it to yourself and right click on the center of the ritual.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJmQ.desc=You need this to start Rituals. More complex rituals need the Activated version. To use it, bind it to yourself and right click on the center of the ritual.%n%n[note]The Energy Crystal needs to be fully charged.[/note]
 
 # Quest: Micro-Rituals
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJmg.name=Micro-Rituals
