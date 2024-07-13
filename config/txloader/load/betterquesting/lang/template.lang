@@ -12304,7 +12304,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJmA.desc=To get Demon Blood Shards, you'
 
 # Quest: Starter Key
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJmQ.name=Starter Key
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJmQ.desc=You need this to start Rituals. More complex rituals need the Activated version. To use it, bind it to yourself and right click on the center of the ritual.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJmQ.desc=You need this to start Rituals. More complex rituals need the Activated version. To use it, bind it to yourself and right click on the center of the ritual.%n%n[note]The Energy Crystal needs to be fully charged.[/note]
 
 # Quest: Micro-Rituals
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJmg.name=Micro-Rituals
