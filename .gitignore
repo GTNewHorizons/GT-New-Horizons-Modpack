@@ -36,7 +36,7 @@ config/Galacticraft/*
 config/GregTech/*
 config/HungerOverhaul/*
 config/INpureProjects/
-config/NEI/
+config/NEI/*
 config/railcraft/*
 config/SlimeKnights/
 config/SpiceOfLife/
@@ -71,6 +71,7 @@ config/warptheory/
 !config/GregTech/Recipes.cfg
 !config/GregTech/WorldGeneration.cfg
 !config/GregTech/Unification.cfg
+!config/NEI/collapsibleitems.cfg
 !config/HungerOverhaul/HungerOverhaul.cfg
 !config/railcraft/blocks.cfg
 !config/railcraft/railcraft.cfg
