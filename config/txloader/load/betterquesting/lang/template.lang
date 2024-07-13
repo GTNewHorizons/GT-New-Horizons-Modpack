@@ -3163,7 +3163,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMCg.desc=Monazite europium?%n%nUnfortuna
 
 # Quest: Samarium, The Other Way
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMCw.name=§b§lSamarium, The Other Way
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMCw.desc=Now to just centrifuge your samarium from all that other junk (gangue). You get a little thorianite too so, win.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMCw.desc=Only thing left to do is to centrifuge your concentrated dust to get samarium. You get a little thorianite too so, win.
 
 # Quest: The Other Part
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMDA.name=§b§lThe Other Part
@@ -3613,7 +3613,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKdg.desc=If you want to color all those 
 
 # Quest: TecTech Multiblocks
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKeg.name=TecTech Multiblocks
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKeg.desc=TecTech Multiblock Common Functionality%n%nMultiple Ampere and Laser Hatches Compatibility - to ease power distribution.%n%nPower Pass - Allows connected dynamo hatches to take power from the controller and output it, just like the active transformer does (and that is why the controller always need it in it's recipe if that function is enabled...). [warn]Be sure to turn off Power Pass if you want to edit your machine and don't want it to explode![/warn]%n%nSafe Void - Enabling this moves all EM (Elemental Matter, not all machines use this) from input and output hatches to overflow hatches. Which allows the machine to be disassembled more easily.%n%nConstructable Interface - Allows visualizing the structure with blueprints (there is an API to implement that for any block, but almost nothing does).%n%nFrom left to right is 1, then clockwise for the rest in TT multi interfaces.%n%n1) Parameters - They are the way of the controller to communicate with player and parameter hatches. Lights indicate status but more detailed information can be seen when moused over. The tooltip contains ID in form of HatchID:ParameterNumber:Direction, Current Status, Current Value, and Short Description.%n%n2) Uncertainty status - These 9 blocks indicate uncertainty status of the machine. If the lights are on, this machine requires an uncertainty resolver. Red = Bad, Green = Good. You need to do the absurd puzzle before using the machine.%n%nControl buttons - Buttons might change their behavior and appearance depending on machine but usually they work like this, starting from top:%n%n3) Power Pass - Toggles Power Pass.%n%n4) Safe Void - Toggles Safe Void.%n%n5) Power Switch - Soft Mallet with your finger...%n%n6) Input slot - Standard functionality.%n
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKeg.desc=TecTech Multiblock Common Functionality%n%nMultiple Ampere and Laser Hatches Compatibility - to ease power distribution.%n%nPower Pass - Allows connected dynamo hatches to take power from the controller and output it, just like the active transformer does (and that is why the controller always need it in it's recipe if that function is enabled...). [warn]Be sure to turn off Power Pass if you want to edit your machine and don't want it to explode![/warn]%n%nConstructable Interface - Allows visualizing the structure with blueprints (there is an API to implement that for any block, but almost nothing does).%n%nFrom left to right is 1, then clockwise for the rest in TT multi interfaces.%n%n1) Parameters - They are the way of the controller to communicate with player and parameter hatches. Lights indicate status but more detailed information can be seen when moused over. The tooltip contains ID in form of HatchID:ParameterNumber:Direction, Current Status, Current Value, and Short Description.%n%n2) Uncertainty status - These 9 blocks indicate uncertainty status of the machine. If the lights are on, this machine requires an uncertainty resolver. Red = Bad, Green = Good. You need to do the absurd puzzle before using the machine.%n%nControl buttons - Buttons might change their behavior and appearance depending on machine but usually they work like this, starting from top:%n%n3) Power Pass - Toggles Power Pass.%n%n4) Safe Void - Currently unused.%n%n5) Power Switch - Soft Mallet with your finger...%n%n6) Input slot - Standard functionality.%n
 
 # Quest: Configuring TecTech Multiblocks
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKew.name=Configuring TecTech Multiblocks
@@ -6087,7 +6087,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEQ.desc=It's painful to carry all the t
 
 # Quest: Precise Assembler
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEg.name=§6§lPrecise Assembler
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEg.desc=Precise Assembler has two modes: Precise mode and Normal mode.%n%nPrecise mode is used to make some of the advanced components from Good Generator mod.%n%nNormal mode works as multiblock version of Assembler.%n%n[note]You can't skip tiers with this. You need singleblock Assembler or GT++ multi to make your first Energy Hatch, then you can use it for Precise Assembler.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEg.desc=Precise Assembler has two modes: Precise mode and Normal mode.%n%nPrecise mode is used to make some of the advanced components from Good Generator mod.%n%n[note]As name suggests your current casings lack precision to produce these advanced components. %nYou will need at least MK-1 casings for this mode to work.[/note]%n%nNormal mode works as multiblock version of Assembler.%n%n[note]You can't skip tiers with this. You need singleblock Assembler or GT++ multi to make your first Energy Hatch, then you can use it for Precise Assembler.[/note]
 
 # Quest: Another Chemical Multiblock?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMig.name=§6§lAnother Chemical Multiblock?
@@ -6180,7 +6180,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7A.desc=The Industrial Centrifuge is th
 
 # Quest: Bask in the currents
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7Q.name=Bask in the currents
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7Q.desc=The best source for hundreds of thousands of glass for...something?  I dunno, think of something interesting and impress me!%n%nThe "effective" voltage for the High Current Arc furnace is one tier lower than the energy hatch. For example, with an MV tier energy hatch, it will do LV tier arc furnace recipes.%n%nThis machine also does plasma arc furnace recipes.%n%n[note]This multi is LuV. It also uses Thorium 232 and is generally a huge pain to make, considering how not useful it is.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7Q.desc=The best source for hundreds of thousands of glass for...something?  I dunno, think of something interesting and impress me!%n%nThe "effective" voltage for the High Current Arc furnace is one tier lower than the energy hatch. For example, with an MV tier energy hatch, it will do LV tier arc furnace recipes.%n%nThis machine also does plasma arc furnace recipes.%n%n[note]This multi is LuV and requires Thorium 232.[/note]
 
 # Quest: Bate Bate Chocolate
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7g.name=Bate Bate Chocolate
@@ -6649,7 +6649,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAK7g.desc=Turns lava into power, at very 
 
 # Quest: Geothermal Power IV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK7w.name=Geothermal Power IV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK7w.desc=The LuV version. Almost certainly produces more pollution than it says.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK7w.desc=The IV version. Almost certainly produces more pollution than it says.
 
 # Quest: Geothermal Power LuV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK8A.name=Geothermal Power LuV
