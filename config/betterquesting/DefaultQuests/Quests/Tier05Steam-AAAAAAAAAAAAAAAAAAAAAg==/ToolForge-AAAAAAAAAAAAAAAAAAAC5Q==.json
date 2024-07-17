@@ -10,7 +10,7 @@
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
+      "taskLogic:8": "OR",
       "partySingleReward:1": 0,
       "visibility:8": "NORMAL",
       "isMain:1": 0,
@@ -24,7 +24,7 @@
       "snd_update:8": "random.levelup",
       "repeatTime:3": -1,
       "globalShare:1": 1,
-      "questLogic:8": "OR",
+      "questLogic:8": "AND",
       "repeat_relative:1": 1,
       "name:8": "§3§lTool Forge",
       "isGlobal:1": 0,
