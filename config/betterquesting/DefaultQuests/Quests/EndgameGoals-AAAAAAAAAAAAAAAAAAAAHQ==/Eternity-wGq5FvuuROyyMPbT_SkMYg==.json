@@ -29,7 +29,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Definitely consider this for the better Magnetohydrodynamically Constrained Star Matter recipe.\n\nKickstarting the loop is expensive and RNG based, you need 20,736L of Universium for the first 4 attempts and a catalyst.\n\nThe QFT recipe has a 25% chance of yielding Eternity per attempt, you should probably boost the QFT with the plasmas, and focus Eternity.\n\n[note]Did you know that the QFT has a fluid mode? Could be useful for getting molten shirabon out of it.[/note]\n\n[note]Building a full beacon out of Eternity Blocks would be quite silly, right?[/note]\n\n"
+      "desc:8": "Definitely consider this for the better Magnetohydrodynamically Constrained Star Matter recipe.\n\nKickstarting the loop is expensive and RNG based, you need 20,736L of Universium for the first 5 attempts and a catalyst.\n\nThe QFT recipe has a 25% chance of yielding Eternity per attempt, you should probably boost the QFT with the plasmas, and focus Eternity.\n\n[note]Did you know that the QFT has a fluid mode? Could be useful for getting molten shirabon out of it.[/note]\n\n[note]Building a full beacon out of Eternity Blocks would be quite silly, right?[/note]\n\n"
     }
   },
   "tasks:9": {
@@ -55,7 +55,7 @@
         },
         "2:10": {
           "id:8": "gregtech:gt.metaitem.99",
-          "Count:3": 8,
+          "Count:3": 10,
           "Damage:2": 583,
           "OreDict:8": ""
         }
@@ -72,7 +72,7 @@
       "requiredItems:9": {
         "0:10": {
           "id:8": "eternalsingularity:combined_singularity",
-          "Count:3": 4,
+          "Count:3": 5,
           "Damage:2": 15,
           "OreDict:8": ""
         },
