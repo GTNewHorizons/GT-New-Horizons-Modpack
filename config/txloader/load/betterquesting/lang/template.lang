@@ -606,7 +606,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAB8Q.desc=You have found an alternative w
 
 # Quest: Tool Forge
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC5Q.name=§3§lTool Forge
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC5Q.desc=After getting alumite, it's time to craft a tool forge for making bigger (and better) Tinkers tools. 
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAC5Q.desc=After getting alumite, it's time to craft a tool forge for making bigger (and better) Tinkers tools.%n%n§Y§3You do not have to use iron to create the forge; you can also use other materials like tin or copper, among others.
 
 # Quest: One Block Mining is so Old School
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC5g.name=§3§lOne Block Mining is so Old School
@@ -4230,6 +4230,10 @@ betterquesting.quest.RAH2M4DoTTaX5a2Sj4hRcQ.desc=After many hours of grind, bloo
 # Quest: An Eye at the End of Time
 betterquesting.quest.kazCPEWoSmiZhR4bkHlEBQ.name=An Eye at the End of Time
 betterquesting.quest.kazCPEWoSmiZhR4bkHlEBQ.desc=So you have made yourself an Eternal DTPF or hopefully a few, and now it is time for the push to the next tier, UXV.%n%n%nIntroducing the final multiblock in the game, and by far the most expensive. %nIt introduces 4 new materials: Raw Stellar Plasma, White and Black Dwarf Matter and finally Universium. %n%nIt has 3 different tiered casings with 9 tiers each: %n%nSpacetime Compression Field Generator:%n- Determines the tier of the planet block that can be run. and decreases the processing time by §c§c§f§c§f3%%§c§f per tier.%n%nTime Dilation Field Generator:%n- Decreases recipe time by §c§f50%%§f per tier, while decreasing the chance of a recipe succeeding by§f §c§f9.25%%§f per tier.%n%nStabilisation Field Generator:%n- Increases the chance of a recipe succeeding by §§5%% §fper tier, while decreasing the output of a recipe by§c§ §f 5%%§f per tier.%n%nLower tier Stabilisation Field Generators have a power output penalty.%n%nFinding the best setup of different casing tiers might be a hard task, so a calculator visualing all the drops and setups has been created: [url]https://docs.google.com/spreadsheets/d/15j30mNnFIWBhwpJGuDrKTfiHBXNEEqyvB_r7ztFWlyQ[/url]%n%n[note]Be sure to read the tooltip of the Eye of Harmony controller, it explains everything in detail! And don't forget that there is a page 2.[/note]%n%n%n%n
+
+# Quest: Eternity
+betterquesting.quest.wGq5FvuuROyyMPbT_SkMYg.name=Eternity
+betterquesting.quest.wGq5FvuuROyyMPbT_SkMYg.desc=Definitely consider this for the better Magnetohydrodynamically Constrained Star Matter recipe.%n%nKickstarting the loop is expensive and RNG based, you need 20,736L of Universium for the first 5 attempts and a catalyst.%n%nThe QFT recipe has a 25%% chance of yielding Eternity per attempt, you should probably boost the QFT with the plasmas, and focus Eternity.%n%n[note]Did you know that the QFT has a fluid mode? Could be useful for getting molten shirabon out of it.[/note]%n%n[note]Building a full beacon out of Eternity Blocks would be quite silly, right?[/note]%n%n
 
 # Quest: Infinity Breastplate
 betterquesting.quest.y-pBsDI2QGS3B9sGG0Pqsg.name=Infinity Breastplate
@@ -9374,7 +9378,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKxA.desc=One of the more complicated par
 
 # Quest: Applied Greg?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALPQ.name=Applied Greg?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALPQ.desc=ME Buses are combination of technology and...other technology. Don't give me that look, it is, ok? With these, you can now directly I/O items between GregTech multiblock and ME network. They have §osignificantly§r less lag, so please start using them as soon as possible on servers.%n%nYou just pop off your GT bus + ME bus or ME interface combination, and replace both with the new bus and connect a ME cable directly to it. It uses 1 channel, same as the other options.%n%n[note]For usage in some machines, i.e. the advanced assembly line, the configured item must be in the first slot in order for the multi to work.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALPQ.desc=ME Buses are combination of technology and...other technology. Don't give me that look, it is, ok? With these, you can now directly I/O items between GregTech multiblock and ME network. They have §osignificantly§r less lag, so please start using them as soon as possible on servers.%n%nYou just pop off your GT bus + ME bus or ME interface combination, and replace both with the new bus and connect a ME cable directly to it. It uses 1 channel, same as the other options.%n%nThe output bus and hatch have limited output space. If you need more, you can upgrade them either by crafting them with storage components or putting a cell inside. A digital singularity cell will make the cache near infinite.%n%n[note]For usage in some machines, i.e. the advanced assembly line, the configured item must be in the first slot in order for the multi to work.[/note]
 
 # Quest: AE2 Fluid Crafting
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsg.name=AE2 Fluid Crafting
