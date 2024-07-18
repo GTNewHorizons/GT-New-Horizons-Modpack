@@ -1,0 +1,116 @@
+{
+  "questIDHigh:4": -4581646162533137172,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -7949765678093284760,
+      "questIDLow:4": -7384462910267243515
+    }
+  },
+  "questIDLow:4": -5606710145730409374,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 1,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.metaitem.01",
+        "Count:3": 1,
+        "Damage:2": 11141,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Eternity",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Definitely consider this for the better Magnetohydrodynamically Constrained Star Matter recipe.\n\nKickstarting the loop is expensive and RNG based, you need 20,736L of Universium for the first 5 attempts and a catalyst.\n\nThe QFT recipe has a 25% chance of yielding Eternity per attempt, you should probably boost the QFT with the plasmas, and focus Eternity.\n\n[note]Did you know that the QFT has a fluid mode? Could be useful for getting molten shirabon out of it.[/note]\n\n[note]Building a full beacon out of Eternity Blocks would be quite silly, right?[/note]\n\n"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metaitem.03",
+          "Count:3": 4,
+          "Damage:2": 4139,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.metaitem.03",
+          "Count:3": 6,
+          "Damage:2": 32757,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.metaitem.99",
+          "Count:3": 10,
+          "Damage:2": 583,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "eternalsingularity:combined_singularity",
+          "Count:3": 5,
+          "Damage:2": 15,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "miscutils:item.BasicGenericChemItem",
+          "Count:3": 1,
+          "tag:10": {
+            "catalyst:10": {
+              "MaxDamage:4": 50,
+              "Damage:4": 0
+            }
+          },
+          "Damage:2": 28,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 1,
+          "Damage:2": 30142,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "FluidName:8": "molten.eternity",
+          "Amount:3": 144
+        }
+      },
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "consume:1": 1,
+      "taskID:8": "bq_standard:fluid"
+    }
+  },
+  "rewards:9": {}
+}
