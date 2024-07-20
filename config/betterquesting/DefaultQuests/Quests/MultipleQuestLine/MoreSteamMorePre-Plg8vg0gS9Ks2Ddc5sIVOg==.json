@@ -2,11 +2,6 @@
   "questIDHigh:4": 4492407415263742930,
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 54,
-      "type:1": 1
-    },
-    "1:10": {
       "questIDHigh:4": -3965147138498412514,
       "questIDLow:4": -8911182845288729667
     }
@@ -30,11 +25,11 @@
       "globalShare:1": 0,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "More Steam, More Pressure!",
+      "name:8": "§3§lMore Steam, More Pressure!",
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "How do you compress things in the Steam Age? Simple, putting a lot of steam in one place, under high pressure, can apply a force to compress things...\n\nLet\u0027s just make it bigger. With the Steam Squasher, you can have a Compressor in a much larger scale, similarly to the Steam Macerator multiblock, which processes 8 recipes at the same time. If you feel like compressing recipes are taking too long, which they probably are, this is a good solution to your problems.\n\nPay close attention to the hatches used for this multi. If they are not the exact ones in this quest, the multi will not form! Once the multi forms, provide lots of steam to get lots of compressed items."
+      "desc:8": "How do you compress things in the Steam Age? Simple, putting a lot of steam in one place, under high pressure, can apply a force to compress things...\n\nLet\u0027s just make it bigger. With the Steam Squasher, you can have a Compressor in a much larger scale, similarly to the Steam Macerator multiblock, which processes 8 recipes at the same time. If you feel like compressing recipes are taking too long, which they probably are, this is a good solution to your problems.\n\n§PPay close attention to the hatches used for this multi. If they are not the exact ones in this quest, the multi will not form! Once the multi forms, provide lots of steam to get lots of compressed items."
     }
   },
   "tasks:9": {
