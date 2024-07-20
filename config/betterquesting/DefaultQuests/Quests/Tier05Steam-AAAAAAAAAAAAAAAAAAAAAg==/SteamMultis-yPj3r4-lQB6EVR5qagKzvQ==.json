@@ -1,12 +1,12 @@
 {
-  "questIDHigh:4": -3263660120901467914,
+  "questIDHigh:4": -3965147138498412514,
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": -3965147138498412514,
-      "questIDLow:4": -8911182845288729667
+      "questIDHigh:4": 0,
+      "questIDLow:4": 65
     }
   },
-  "questIDLow:4": -8361079222456284577,
+  "questIDLow:4": -8911182845288729667,
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
@@ -15,9 +15,9 @@
       "isMain:1": 0,
       "simultaneous:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.blockmachines",
+        "id:8": "miscutils:blockFrameGtTumbaga",
         "Count:3": 1,
-        "Damage:2": 31080,
+        "Damage:2": 0,
         "OreDict:8": ""
       },
       "snd_update:8": "random.levelup",
@@ -25,13 +25,18 @@
       "globalShare:1": 0,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "Centrifuge",
+      "name:8": "Steam Multis",
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "No Description"
+      "desc:8": "Optinal steam multiblocks that can be further ugpraded. Currently there is a washer, centrifuge, macerator, compressor and forge hammer."
     }
   },
-  "tasks:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
   "rewards:9": {}
 }
