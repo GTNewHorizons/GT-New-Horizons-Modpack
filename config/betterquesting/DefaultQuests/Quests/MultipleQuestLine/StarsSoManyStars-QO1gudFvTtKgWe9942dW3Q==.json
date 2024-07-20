@@ -1,0 +1,143 @@
+{
+  "questIDHigh:4": 4678501939106762450,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3219
+    },
+    "1:10": {
+      "questIDHigh:4": -4642747547029254801,
+      "questIDLow:4": -8323783763671749098
+    }
+  },
+  "questIDLow:4": -6892214430748682531,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "dreamcraft:item.MedalWarp",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Stars, So Many Stars",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Eternal coils? Perfect time for stargate trophy number three. \nYou know the drill, you give 2 stargates\u0027 worth of stuff, you get your trophy. Simple as that.\n\n§3Our journey through time continues onwards, entering the UMV, aka DTPF era.\n\nSurprisingly, it still is the year 2022, but there have been a huge amount of changes since our last stop in the UEV era. The DTPF exists now, hypogen \u0026 eternal coils included, and machine parts up to UMV thus are craftable. Wireless energy is a thing now too, both the LSC and the regular hatch kind, and AE2FC is in the pack, allowing direct fluid crafting (meaning no more volumetric flask shuffling). \nThe power situation hasnt changed much since the UEV era, except for dyson being even more bugged and giving free uncapped infinite power (abusing this was obviously labeled as bugabuse). \nSome other new useful things are the MABS, Integrated Ore Factory, Space Elevator, UIV and UMV singleblocks (and PAs accepting up to 64 UEV+ machines), EIG, EEC, industrial \u0026 mega apiary, yottanks, stocking buses, data bank chaining and the Draconic Fusion Crafter.\nThe stargate\u0027s cost has now skyrocketed far more than ever before, marking the beginning of this new era of GT:NH endgame, the era of expansion.\n\nThis time around the leading §aGDCloud§3 was challenged by the team §aNeo Caelestia§3, who were progressing at a staggering speed, inching ever closer to being first to gate, but ultimately weren\u0027t able to fully catch up and thus §aGDCloud§2§3 once again was first to conquer the challenge on the §a19th of November, 2022§3.\n\nP.S.: You know how this works, right? Here\u0027s the list:\n-PCB Factory, Component Assemblyline, AAL, Transcendent Plasma Mixer, EOH, QFT\n-Multi-Amp wireless hatches\n-Sub 1-tick OC, Batch Mode, inbuilt Void Protection on multis\n-Level Maintainer, Stocking Hatches, Crafting Input Buses\n\nP.P.S.: Chaotic capacitor bank? What\u0027s that?"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.DimensionalGatePlate",
+          "Count:3": 625,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "dreamcraft:item.DimensionalChevron",
+          "Count:3": 342,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "dreamcraft:item.DimensionalFramePart",
+          "Count:3": 1470,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "SGCraft:sgCoreCrystal",
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "4:10": {
+          "id:8": "dreamcraft:item.DimensionalQuantumCircuit",
+          "Count:3": 82,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "5:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 436,
+          "Damage:2": 32022,
+          "OreDict:8": ""
+        },
+        "6:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 138,
+          "Damage:2": 32042,
+          "OreDict:8": ""
+        },
+        "7:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 10,
+          "Damage:2": 32038,
+          "OreDict:8": ""
+        },
+        "8:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 736,
+          "Damage:2": 32046,
+          "OreDict:8": ""
+        },
+        "9:10": {
+          "id:8": "GoodGenerator:compactFusionCoil",
+          "Count:3": 124,
+          "Damage:2": 3,
+          "OreDict:8": ""
+        },
+        "10:10": {
+          "id:8": "gregtech:gt.blockmetal4",
+          "Count:3": 1590,
+          "Damage:2": 13,
+          "OreDict:8": ""
+        },
+        "11:10": {
+          "id:8": "gregtech:gt.blockmetal7",
+          "Count:3": 1960,
+          "Damage:2": 9,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "minecraft:paper",
+          "Count:3": 1,
+          "tag:10": {
+            "display:10": {
+              "Name:8": "Pick this item up to get your trophy"
+            }
+          },
+          "Damage:2": 3,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}
