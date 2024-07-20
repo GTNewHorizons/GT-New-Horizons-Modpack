@@ -93,15 +93,15 @@
       "choices:9": {
         "0:10": {
           "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 8,
+          "Count:3": 16,
           "Damage:2": 11300,
-          "OreDict:8": "ingotBronze"
+          "OreDict:8": ""
         },
         "1:10": {
           "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 4,
+          "Count:3": 8,
           "Damage:2": 11305,
-          "OreDict:8": "ingotSteel"
+          "OreDict:8": ""
         },
         "2:10": {
           "id:8": "enhancedlootbags:lootbag",
@@ -117,7 +117,7 @@
       "rewards:9": {
         "0:10": {
           "id:8": "dreamcraft:item.CoinTechnician",
-          "Count:3": 30,
+          "Count:3": 50,
           "Damage:2": 0,
           "OreDict:8": ""
         }
