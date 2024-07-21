@@ -3,14 +3,10 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 65
-    },
-    "1:10": {
-      "questIDHigh:4": 0,
       "questIDLow:4": 1205,
       "type:1": 1
     },
-    "2:10": {
+    "1:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 890
     }
@@ -38,7 +34,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Optinal steam multiblocks that can be further ugpraded. Currently there is a washer, centrifuge, macerator, compressor and forge hammer."
+      "desc:8": "Optional steam multiblocks that can be further ugpraded. Currently there is a washer, centrifuge, macerator, compressor and forge hammer.\n\nGo have a look at the GT++ quest tab!"
     }
   },
   "tasks:9": {
