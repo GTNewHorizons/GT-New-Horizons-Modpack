@@ -15,9 +15,9 @@
       "isMain:1": 0,
       "simultaneous:1": 0,
       "icon:10": {
-        "id:8": "IC2:itemToolForgeHammer",
+        "id:8": "gregtech:gt.blockmachines",
         "Count:3": 1,
-        "Damage:2": 0,
+        "Damage:2": 31083,
         "OreDict:8": ""
       },
       "snd_update:8": "random.levelup",
@@ -25,7 +25,7 @@
       "globalShare:1": 0,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "Steam Stomping!",
+      "name:8": "Steam stomping!",
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
@@ -40,7 +40,44 @@
       "ignoreNBT:1": 1,
       "index:3": 0,
       "consume:1": 0,
-      "requiredItems:9": {},
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockcasings",
+          "Count:3": 43,
+          "Damage:2": 10,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.blockcasings2",
+          "Count:3": 2,
+          "Damage:2": 12,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "minecraft:iron_block",
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 31046,
+          "OreDict:8": ""
+        },
+        "4:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 31047,
+          "OreDict:8": ""
+        },
+        "5:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 31040,
+          "OreDict:8": ""
+        }
+      },
       "taskID:8": "bq_standard:optional_retrieval"
     },
     "1:10": {
@@ -50,7 +87,14 @@
       "ignoreNBT:1": 1,
       "index:3": 1,
       "consume:1": 0,
-      "requiredItems:9": {},
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 31083,
+          "OreDict:8": ""
+        }
+      },
       "taskID:8": "bq_standard:retrieval"
     }
   },
