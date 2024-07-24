@@ -2129,7 +2129,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAE0Q.desc=Ender eyes are available at HV 
 
 # Quest: LV Microprocessor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE0w.name=§9§lLV Microprocessor
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE0w.desc=The Microprocessor is the highest tier version of the LV circuit, getting you 2 per recipe.%n%nIn addition to what's listed, you'll need 2 Resistors, Transistors, and Capcitors, SMD or non-SMD.%n%nThis advanced circuit type needs a cleanroom.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE0w.desc=The Microprocessor is the highest tier version of the LV circuit, getting you 2 per recipe.%n%nIn addition to what's listed, you'll need 2 Resistors, Transistors, and Capacitors, SMD or non-SMD.%n%nThis advanced circuit type needs a cleanroom.
 
 # Quest: HV Cutting Machine
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE1A.name=§9§lHV Cutting Machine
@@ -8902,7 +8902,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFCg.desc=Charged certus quartz is one of
 
 # Quest: Keeping Your Network Happy
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFCw.name=Keeping Your Network Happy
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFCw.desc=Helps with fluctuating power. Energy cells store up to 200,000 AE. They do not accept power directly but are used to buffer some power in an already existing ME network. Energy Cells do not use a channel.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFCw.desc=Helps with fluctuating power. Energy cells store up to 2,000,000 AE. They do not accept power directly but are used to buffer some power in an already existing ME network. Energy Cells do not use a channel.
 
 # Quest: Storing Your ME Data
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFDA.name=Storing Your ME Data
