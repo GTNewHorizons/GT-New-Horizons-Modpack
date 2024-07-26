@@ -1,23 +1,23 @@
 {
-  "questIDHigh:4": -4847611916767573432,
+  "questIDHigh:4": -8834415899032075783,
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": -6642834327299013486,
-      "questIDLow:4": -9143660827823771849
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3243
     }
   },
-  "questIDLow:4": -5258609888143859259,
+  "questIDLow:4": -6892498627708657446,
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
-      "taskLogic:8": "OR",
+      "taskLogic:8": "AND",
       "visibility:8": "NORMAL",
       "isMain:1": 0,
       "simultaneous:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.blockmachines",
+        "id:8": "GoodGenerator:componentAssemblylineCasing",
         "Count:3": 1,
-        "Damage:2": 975,
+        "Damage:2": 11,
         "OreDict:8": ""
       },
       "snd_update:8": "random.levelup",
@@ -25,11 +25,11 @@
       "globalShare:1": 0,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "Fusion MK5",
+      "name:8": "Saving on SpaceTime",
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "No Description"
+      "desc:8": "SpaceTime is a real pain the ass huh? You should definitely consider upgrading your Component Assembling Lines to save on some.\n\n[note]Did you know you can wallshare the component casings? Just turn one CoAL upside down.\n\nThe CoAL will do perfect overclocks for the recipes below its tier.[/note]"
     }
   },
   "tasks:9": {
@@ -42,26 +42,9 @@
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.blockmachines",
-          "Count:3": 1,
-          "Damage:2": 975,
-          "OreDict:8": ""
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "1:10": {
-      "partialMatch:1": 1,
-      "autoConsume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 1,
-      "consume:1": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.blockmachines",
-          "Count:3": 1,
-          "Damage:2": 32023,
+          "id:8": "GoodGenerator:componentAssemblylineCasing",
+          "Count:3": 43,
+          "Damage:2": 11,
           "OreDict:8": ""
         }
       },
