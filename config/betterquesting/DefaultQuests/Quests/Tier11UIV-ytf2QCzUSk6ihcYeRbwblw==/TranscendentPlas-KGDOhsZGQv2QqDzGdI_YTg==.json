@@ -29,7 +29,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Definitely consider making one.\n\nThe Transcendent Plasma Mixer is a powerful asset for all of your DTPF Catalyst needs.\n\nThe base processing time is always 5 seconds (10 seconds for Stellar, but that\u0027s later on.), but you can specify the amount of parallels the machine can run in the GUI.\n\nEach parallel will additively increase the power, so you don\u0027t lose any efficiency while increasing production!\n\n[note]Most of your power will go here. Maybe consider upgrading your naquadah fuel, or make the Dyson Swarm[/note]"
+      "desc:8": "Definitely consider making one.\n\nThe Transcendent Plasma Mixer is a powerful asset for all your DTPF catalyst needs.\n\nThe base processing time is always 5 seconds (10 seconds for Stellar, but that comes later). You can specify the number of parallels the machine can run in the GUI.\n\nEach parallel additively increases the power requirement, so you don\u0027t lose any efficiency while increasing production!\n\n[note]Most of your power will go here. Consider upgrading your naquadah fuel or creating the Dyson Swarm.[/note]"
     }
   },
   "tasks:9": {
