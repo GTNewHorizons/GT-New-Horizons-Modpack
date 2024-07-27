@@ -3,7 +3,7 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 35
+      "questIDLow:4": 890
     },
     "1:10": {
       "questIDHigh:4": 0,
@@ -33,7 +33,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Maybe your in a shit biome and need more water. The pump is the solution for that.\n\nLike other steam multiblocks it can be upgraded with steel to pump more water.\n\nThis description is not finished."
+      "desc:8": "Is the water tank not cutting it anymore? Have you set up in a dry biome and are in desperate need of more water? Fear not, for the water pump can solve your issues! This multiblock is able to produce large amounts of water if fed with a little bit of steam (400L/s).\n\nLike other steam multiblocks, it can be upgraded by using steel frame boxes instead of bronze ones, which doubles the water output at no additional steam cost.\n\n§3It is, however, still dependent on how humid the biome you are in is, so keep that in mind."
     }
   },
   "tasks:9": {
