@@ -4002,9 +4002,33 @@ betterquesting.quest.3yz1WCEzQ_KQxW8p7_29-Q.desc=Already struggling to keep up w
 betterquesting.quest.4MzUrkH5QsWnE_4APuHhNg.name=My eyes hurt! #2
 betterquesting.quest.4MzUrkH5QsWnE_4APuHhNg.desc=The optical assembly is the second optical circuit. It is a UHV-tier circuit.
 
+# Quest: Awakened Core
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAB0w.name=Awakened Core
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAB0w.desc=There was something sleeping deep inside all the draconic material you have made and researched so far. It is time to AWAKE it!
+
+# Quest: Infinity Helmet
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKCA.name=Infinity Helmet
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKCA.desc=An armorset worthy of a God. This helmet provides infinite saturation.%n%n%nWhile wearing the complete set, you are completely unkillable.
+
 # Quest: Infinity Chest
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKEQ.name=Infinity Chest
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKEQ.desc=Stores up to 243 different items, each being able to stack up to 2,147,483,648. Useful if you want somewhere to put all those void miner ores.
+
+# Quest: Nature's Ruin
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKEg.name=Nature's Ruin
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKEg.desc=Infinity axe, never breaks and capable of chopping down an entire tree instantly.%n%n[note]Cuz a levelled up and modified lumber axe is totally not capable of that.[/note]
+
+# Quest: Planet Eater
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKEw.name=Planet Eater
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKEw.desc=Infinity shovel, never breaks and capable of mining a 16x16x16 area instantly.
+
+# Quest: Sword of the Cosmos
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKFA.name=Sword of the Cosmos
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKFA.desc=Able to kill anything, in one hit except another player in full infinity gear. Essentially runs the /kill command on the entity you hit.
+
+# Quest: World Breaker
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKFQ.name=World Breaker
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKFQ.desc=Infinity pickaxe, never breaks, able to break bedrock and capable of mining a 16x16x16 area instantly.
 
 # Quest: Galaxy in a Bottle...?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKFw.name=Galaxy in a Bottle...?
@@ -4026,6 +4050,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKHg.desc=You know how this works. Prepar
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKIQ.name=Welcome to Hell!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKIQ.desc=Congratulations, you've beaten most of the pack! Here we have some absolutely outrageous final challenges for you. Maybe start by showing us your certificate.
 
+# Quest: Longbow of the Heavens
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKnA.name=Longbow of the Heavens
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKnA.desc=Weak compared to both weapons of it's tier, and the weapons it's made of, this bow doesn't use arrows, never breaks, does 10 damage, and has an AoE of 10 more arrows that do 10 damage each fly down each time it strikes.
+
 # Quest: My eyes hurt! #4
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpA.name=My eyes hurt! #4
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpA.desc=So you finally did it... but there's so much more to do. Onwards comrade!
@@ -4034,9 +4062,17 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpA.desc=So you finally did it... but th
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsA.name=Dragonblood
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsA.desc=For your first batch of Hypogen you will need some Dragonblood. Maybe you already have some lying around somewhere from killing the dragon a long time ago. You have 2 other options though. Bees and the DE Fusion Crafter.%n%nFor the bee path you have to go very deep into the breeding tree, but maybe you have already done that? Check the Bee Breeding tab either way.%n%nIn the DE Fusion Crafter you have 2 recipes. The better one uses an Infinity Egg from Witchery. Without any Witchery you can also just a normal dragon egg for the weaker recipe.%n%nOnce you have a bit of Hypogen you can then use that as a starting point to make more in your DTPF without any Dragonblood. I don't know why it works that way, complain to Colen.%n%nHowever, you will still need more Dragonblood eventually for UMV superconductors.%n%n[note]There is actually another way to get Dragonblood which is similar to the DE Fusion Crafter recipes but in the mixer instead. It's even slower and less resource efficient. In particular, the dragon egg does not survive the process. So only use that if you are absolutely trying to avoid magic and bees.[/note]%n%n[note]Just a reminder: a fluid task just needs you to have the fluid in some container in your inventory. (cell, universal cell, large cell, volumetric cell, etc.)[/note]
 
+# Quest: Infinity Boots
+betterquesting.quest.AzTPKiXuRWaBTOFhTeV83Q.name=Infinity Boots
+betterquesting.quest.AzTPKiXuRWaBTOFhTeV83Q.desc=An armorset worthy of a God. These boots provide a permanent jump boost and increased running speed.%n%nWhile wearing the complete set, you are completely unkillable.
+
 # Quest: Something From Nothing, part 3?
 betterquesting.quest.BFpBG-zDQSCr3DieB6Cw5g.name=Something From Nothing, part 3?
 betterquesting.quest.BFpBG-zDQSCr3DieB6Cw5g.desc=Suck up liquids like never before! This module replaces the infinite fluid drilling rig, but has the convenience of being inside your space elevator. Look at the NEI recipes to see which fluids you can pump with this.
+
+# Quest: Infinity Pants
+betterquesting.quest.E851J_UMQl6d9EwLLLg6AQ.name=Infinity Pants
+betterquesting.quest.E851J_UMQl6d9EwLLLg6AQ.desc=An armorset worthy of a God. These pants have no special effects on their own but are required to complete the full infinity set.%n%n%nWhile wearing the complete set, you are completely unkillable.
 
 # Quest: Dreams of Rainbow... Stargates?
 betterquesting.quest.H3Tvy4ZKSyiQGT16Og90bA.name=Dreams of Rainbow... Stargates?
@@ -4106,26 +4142,196 @@ betterquesting.quest.msIxGO5gQCWJPmEyp_JhtQ.desc=For the final circuit line curr
 betterquesting.quest.s6BLu9oMS86AXyR1FQ1imA.name=UEV Superconductors
 betterquesting.quest.s6BLu9oMS86AXyR1FQ1imA.desc=UEV superconductors, another great infinity sink. You can make the celestial tungsten and advanced nitinol in a laser engraver directly, but this is quite slow. Perhaps consider using the celestial tungsten plasma line?
 
+# Quest: Infinity Breastplate
+betterquesting.quest.y-pBsDI2QGS3B9sGG0Pqsg.name=Infinity Breastplate
+betterquesting.quest.y-pBsDI2QGS3B9sGG0Pqsg.desc=An armorset worthy of a God. This breastplate provides the user infinite creative flight and removes all negative debuffs.%n%nWhile wearing the complete set, you are completely unkillable.
 
-## Quest Line: Endgame Goals
-betterquesting.questline.AAAAAAAAAAAAAAAAAAAAHQ.name=Endgame Goals
-betterquesting.questline.AAAAAAAAAAAAAAAAAAAAHQ.desc=Collection of endgame objectives, good luck and thanks for playing so far.
+
+## Quest Line: Tier 11 - UIV
+betterquesting.questline.ytf2QCzUSk6ihcYeRbwblw.name=Tier 11 - UIV
+betterquesting.questline.ytf2QCzUSk6ihcYeRbwblw.desc=Enjoying the pack so far?%n%nAnyways here's your rough guide on the UIV progression.%n
+
+# Quest: A better coolant for your Superconductors
+betterquesting.quest.65KbJVn1T1CSpCdnGfBSqQ.name=A better coolant for your Superconductors
+betterquesting.quest.65KbJVn1T1CSpCdnGfBSqQ.desc=The subzero temperatures of SpaceTime make it an ideal substitute in all of your superconductor crafts.%n%nYou won’t need billions of Liquid Helium anymore!%n%n[note]The earlier tiers of superconductors are also faster to craft with this.[/note]
 
 # Quest: Chaotic Core
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB0Q.name=Chaotic Core
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB0Q.desc=In the darkest corners of the End you found a dragon that was different. Raw power streaming out in chaotic fashion, threatening to tear apart reality itself! But even that dragon you defeated. Concentrating that raw power within a core certainly isn't easy but it looks like you found a way.
 
-# Quest: Awakened Core
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAB0w.name=Awakened Core
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAB0w.desc=There was something sleeping deep inside all the draconic material you have made and researched so far. It is time to AWAKE it!
+# Quest: Chaotic Energy
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKjQ.name=Chaotic Energy
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKjQ.desc=Finally, Infinite RF! ...But what can I even use that for?
+
+# Quest: You Know the Drill pt.2
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpQ.name=You Know the Drill pt.2
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpQ.desc=Hope you have loads of transcendent metal ingots at the ready. :)
+
+# Quest: UMV Circuits
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqg.name=UMV Circuits
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqg.desc=Pico circuits, a direct upgrade from Optical Mainframes, these UMV circuits will be required for a lot of future crafts. %n%n%n[note]You will need an UMV powered Assembling Line to get started.[/note]
+
+# Quest: The Real Planet Eater
+betterquesting.quest.GHobGJFEQzK1q96l6oC8wQ.name=The Real Planet Eater
+betterquesting.quest.GHobGJFEQzK1q96l6oC8wQ.desc=It has 8 parallels and supports higher tiers of drones.%n%n[note]You can obtain pure platinum group metals with this. It would be a nice boost if you haven't made the QFT for it yet.[/note]
+
+# Quest: Haha, Spinny Ingot
+betterquesting.quest.Jk9jZtb6SXSLNX9SND_J0A.name=Haha, Spinny Ingot
+betterquesting.quest.Jk9jZtb6SXSLNX9SND_J0A.desc=Transcendent Metal is the primary metal used in UIV components.%n%nThis metal is a bit different from the ones you have been processing so far. You need to macerate your tesseracts to get the dust and then blast it at such high temperatures that you'll need a coolant to help manage the heat.%n%nDue to the impossible nature of the tesseract particles, you'll need a medium to enable them to form 3D shapes. Tungsten, for some reason, works very well for this purpose.%n%nThe ingot itself is also not very stable; therefore, a coating of titansteel must be applied during the cooling process.%n%n[note]Consider passively generating it. This process is slow.[/note]
+
+# Quest: Transcendent Plasma Mixer
+betterquesting.quest.KGDOhsZGQv2QqDzGdI_YTg.name=Transcendent Plasma Mixer
+betterquesting.quest.KGDOhsZGQv2QqDzGdI_YTg.desc=Definitely consider making one.%n%nThe Transcendent Plasma Mixer is a powerful asset for all your DTPF catalyst needs.%n%nThe base processing time is always 5 seconds (10 seconds for Stellar, but that comes later). You can specify the number of parallels the machine can run in the GUI.%n%nEach parallel additively increases the power requirement, so you don't lose any efficiency while increasing production!%n%n[note]Most of your power will go here. Consider upgrading your naquadah fuel or creating the Dyson Swarm.[/note]
+
+# Quest: The Cat is Out of the Box
+betterquesting.quest.RAH2M4DoTTaX5a2Sj4hRcQ.name=The Cat is Out of the Box
+betterquesting.quest.RAH2M4DoTTaX5a2Sj4hRcQ.desc=After many hours of grind, blood, sweat, tears, and a little bit of transcendent metal... %nYou are now finally able to solve mankind's hardest puzzle ever, clicking boxes randomly.%n%nThe §cUncertainty Resolution§r, §oa Dyson user's wet dream§r, will allow you to completely skip that annoying puzzle when you need to set some (probably a lot.) Quantum Computers up.
+
+# Quest: Getting More Out Of Your Hypogen
+betterquesting.quest.SoOmxNJvRcqY-ofFsWbyoQ.name=Getting More Out Of Your Hypogen
+betterquesting.quest.SoOmxNJvRcqY-ofFsWbyoQ.desc=Once you get your first Hypogen from Fusion, you can easily duplicate it in your DTPF.%n%nIt is a loop, though, so be cautious.
+
+# Quest: Assembling on Steroids
+betterquesting.quest.WJ-SykCeTr2B-3SHz0mXZg.name=Assembling on Steroids
+betterquesting.quest.WJ-SykCeTr2B-3SHz0mXZg.desc=It has 16 parallels and can utilize advanced superconductors for improved yields in optical part recipes.%n%n[note]You can't create the Ultimate Battery in one step yet-that's much further down the line.[/note]
+
+# Quest: UIV Energy Hatch
+betterquesting.quest.fnDuNiloR6iXAea0Lhjgtg.name=UIV Energy Hatch
+betterquesting.quest.fnDuNiloR6iXAea0Lhjgtg.desc=Woah, another Energy Hatch.%n%nYou should probably consider upgrading your Assembling Lines and Precise Assemblers first.
+
+# Quest: UIV Superconductors
+betterquesting.quest.kvqtI5rrRrOhi5jhPR-s4A.name=UIV Superconductors
+betterquesting.quest.kvqtI5rrRrOhi5jhPR-s4A.desc=Didn't expect the Rhugnor, did you?%n%nAs usual, mix your exotic dusts, blast them, form into wires, and superconduct.
+
+# Quest: Space Modules Galore
+betterquesting.quest.nghPgh6-TuSKXUlzGXGrpw.name=Space Modules Galore
+betterquesting.quest.nghPgh6-TuSKXUlzGXGrpw.desc=Better modules will require a more advanced Space Elevator motor to function.%n%nThis upgrade will allow you to access 15 modules on your Space Elevator. If you haven't built the expansion yet, now might be a good time.%n%n[note]You can enable the Space Elevator expansion in the GUI.[/note]
+
+# Quest: Your First SpaceTime
+betterquesting.quest.q5Gvvfe5Tm2gxZfi7VIgpg.name=Your First SpaceTime
+betterquesting.quest.q5Gvvfe5Tm2gxZfi7VIgpg.desc=[note]Hurrah, you can finally move on to the UMV tier![/note]%n%nThe residue produced from the DTPFs seems to have an interesting interaction with reality, as if it bends the universe to its will.%n%nWhat if you combined it with some infinity and hypogen to excite it, and an energized tesseract as a way to fling it back and forth to the 4th Dimension?%n%nMaybe then you could achieve the unachievable, a building block of the entire universe.%n%n[note]The base recipe is horrible, so definitely make the Eternal Coils for your DTPF first.%n%nCongrats on making it this far![/note]
+
+# Quest: UIV Field Generator
+betterquesting.quest.q6WN7XY8Qf6PNgWTy7RrBA.name=UIV Field Generator
+betterquesting.quest.q6WN7XY8Qf6PNgWTy7RrBA.desc=A bit expensive, but worth the QOL items you can craft with it.
+
+# Quest: Tier 11 (UIV)
+betterquesting.quest.u-1Y-eQ-TLyw-WGi5EEnVA.name=Tier 11 (UIV)
+betterquesting.quest.u-1Y-eQ-TLyw-WGi5EEnVA.desc=Now that you've enjoyed your exotic cookies, let's keep going, shall we?%n%nWelcome to UIV! One of the shortest tiers in NH for now. This tier is mainly about solving your DTPF catalyst problems and getting to Eternal Coils.%n%nThere are a few QOL additions introduced, like the Uncertainty Resolver and the Thaumometric Essentia Cell.%n%nYou also gain access to the Dyson Swarm, an incredibly powerful power generation option.%n%n[warn]This tier is not fully complete. Expect changes.[/warn]
+
+# Quest: Thaumometric Essentia Cell
+betterquesting.quest.xdiDnTdpTgW6POwCuDlPgg.name=Thaumometric Essentia Cell
+betterquesting.quest.xdiDnTdpTgW6POwCuDlPgg.desc=After meddling with the 4th Dimension, you have finally discovered a way to access its unlimited Essentia supply.%n%nThe Thaumometric Essentia Cell is your tool for extracting Essentia from this source.%n%nUnfortunately, you must filter each type of Essentia in your Cell Workbench. If only your technology were more advanced...
+
+
+## Quest Line: Tier 12 - UMV
+betterquesting.questline.l37V2WvbSHGZQ5oMgAfBuw.name=Tier 12 - UMV
+betterquesting.questline.l37V2WvbSHGZQ5oMgAfBuw.desc=Maybe take a break every now and then...
+
+# Quest: Finally, Universium!
+betterquesting.quest.21tDEYptRuOgSJym30Watg.name=Finally, Universium!
+betterquesting.quest.21tDEYptRuOgSJym30Watg.desc=You’ve finally solved it. Who knew that leaving dead stars long enough would cause your artificial solar system to implode and lead to a Big Bang?%n%nIf only you could tap into that much mass right before it started expanding again, you could literally hold the entire universe in the palm of your hand.%n%n[note]This is your third and final material from the EOH.%n%nUse your first few to upgrade your EOH to Tier 9 so you can produce more Universium.%n%nIt might be time to create multiple Eyes now.%n%nCongrats! You can now move on to the UXV tier.[/note]
+
+# Quest: Guzzling Massive Amounts of Gas
+betterquesting.quest.5vAyoCzxQkSRpjzlDNwtrw.name=Guzzling Massive Amounts of Gas
+betterquesting.quest.5vAyoCzxQkSRpjzlDNwtrw.desc=It can run 4 different recipes simultaneously, with 4 parallels for each recipe.%n%nA worthy upgrade for some SpaceTime.
+
+# Quest: UMV Energy Hatch
+betterquesting.quest.6rzcSbH2QY2cpChT2zLC_g.name=UMV Energy Hatch
+betterquesting.quest.6rzcSbH2QY2cpChT2zLC_g.desc=The penultimate energy hatch.%n%nHopefully you know what to upgrade first.%n%n[note]Have you checked out wireless energy hatches yet?[/note]
 
 # Quest: The Darkness of Choice for Edgelords
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJbQ.name=The Darkness of Choice for Edgelords
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJbQ.desc=In order to get to the riches you rightfully deserve, you'll first need to make a Raw Portal, then complete it with more materials. You can then access this dimension that should contain every ore imaginable...%n%n[note]Unfortunately, those tasty ores are locked beneath the mantle of the planet. You'll need to use a Void Miner to get them out.[/note]
 
-# Quest: Infinity Helmet
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKCA.name=Infinity Helmet
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKCA.desc=An armorset worthy of a God. This helmet provides infinite saturation.%n%n%nWhile wearing the complete set, you are completely unkillable.
+# Quest: You are worthy
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMoQ.name=You are worthy
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMoQ.desc=Go no further if you value your sanity.
+
+# Quest: Not quite there yet.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqw.name=Not quite there yet.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqw.desc=Just a bit more.
+
+# Quest: UXV Circuits
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrA.name=UXV Circuits
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrA.desc=The final circuit in the game: Quantum Circuit, these will be required for lots of UMV/UXV crafts.
+
+# Quest: Metastable Oganesson
+betterquesting.quest.AOBApHluTUurGwTeOzxj4g.name=Metastable Oganesson
+betterquesting.quest.AOBApHluTUurGwTeOzxj4g.desc=You thought you'd be done with Fusion?
+
+# Quest: White Dwarf Matter
+betterquesting.quest.DVLahVNUQ-CvjYwmvkUn-Q.name=White Dwarf Matter
+betterquesting.quest.DVLahVNUQ-CvjYwmvkUn-Q.desc=Who knew that creating artificial solar systems would finally allow you to extract the core of a freshly dead star?%n%nWith your current crude casings, you can only accelerate the life of an artificial solar system to observe white dwarfs.%n%nPerhaps this matter will help you push the process even further.%n%n[note]This is one of the three EOH materials. Use it to upgrade your casings up to T4.[/note]
+
+# Quest: Yet Another Space Elevator Upgrade
+betterquesting.quest.MiGXZ65sRwiAdpsCrVB0Eg.name=Yet Another Space Elevator Upgrade
+betterquesting.quest.MiGXZ65sRwiAdpsCrVB0Eg.desc=This bad boi can handle 18 modules at once.%n%n
+
+# Quest: Stars, So Many Stars
+betterquesting.quest.QO1gudFvTtKgWe9942dW3Q.name=Stars, So Many Stars
+betterquesting.quest.QO1gudFvTtKgWe9942dW3Q.desc=Eternal coils? Perfect time for stargate trophy number three. %nYou know the drill, you give 2 stargates' worth of stuff, you get your trophy. Simple as that.%n%n§3Our journey through time continues onwards, entering the UMV, aka DTPF era.%n%nSurprisingly, it still is the year 2022, but there have been a huge amount of changes since our last stop in the UEV era. The DTPF exists now, hypogen & eternal coils included, and machine parts up to UMV thus are craftable. Wireless energy is a thing now too, both the LSC and the regular hatch kind, and AE2FC is in the pack, allowing direct fluid crafting (meaning no more volumetric flask shuffling). %nThe power situation hasnt changed much since the UEV era, except for dyson being even more bugged and giving free uncapped infinite power (abusing this was obviously labeled as bugabuse). %nSome other new useful things are the MABS, Integrated Ore Factory, Space Elevator, UIV and UMV singleblocks (and PAs accepting up to 64 UEV+ machines), EIG, EEC, industrial & mega apiary, yottanks, stocking buses, data bank chaining and the Draconic Fusion Crafter.%nThe stargate's cost has now skyrocketed far more than ever before, marking the beginning of this new era of GT:NH endgame, the era of expansion.%n%nThis time around the leading §aGDCloud§3 was challenged by the team §aNeo Caelestia§3, who were progressing at a staggering speed, inching ever closer to being first to gate, but ultimately weren't able to fully catch up and thus §aGDCloud§2§3 once again was first to conquer the challenge on the §a19th of November, 2022§3.%n%nP.S.: You know how this works, right? Here's the list:%n-PCB Factory, Component Assemblyline, AAL, Transcendent Plasma Mixer, EOH, QFT%n-Multi-Amp wireless hatches%n-Sub 1-tick OC, Batch Mode, inbuilt Void Protection on multis%n-Level Maintainer, Stocking Hatches, Crafting Input Buses%n%nP.P.S.: Chaotic capacitor bank? What's that?
+
+# Quest: Convergence
+betterquesting.quest.XoEzTtuPQjyeHTyqp9eY8Q.name=Convergence
+betterquesting.quest.XoEzTtuPQjyeHTyqp9eY8Q.desc=Running your Dimensionally Transcendent Plasma Forge for an extended period [note](8 hours)[/note] allows the Multidimensional Spaces to align perfectly.%n%nWith your newly acquired technology, you can now tap into these spaces in perfect sync, enabling your plasma forges to operate at incredible speeds.%n%nThe Transdimensional Alignment Matrix allows the DTPF to run with §aPerfect Overclocks§r. To achieve this, you need a full discount, and the extra power cost is offset by using more of the same catalyst.%n%nOverall, it is more efficient and totally worth it.%n%n[note]This process is extremely catalyst-hungry. Ensure you're producing enough to sustain it.%n%nFor recipes without a catalyst, you must specify the catalyst in the GUI by right-clicking the Convergence button, otherwise it will default to Crude.[/note]%n%n§bMath for the curious§r:%n%nTo clear up what exactly happens in the background, here's an explanation on how the extra catalyst values are calculated using an example:%n%nThe example recipe of choice is the molten neutronium recipe using prosaic catalyst, running at 64A UMV (§a8,589,934,592 EU/t§r).%nThe recipe uses §a14,753L§r of Prosaic catalyst and §a36,484,545,600 EU§r per recipe without OCs or the catalyst discount. With the discount, the catalyst amount gets cut in half, meaning §a7,376.5§ L§r of catalyst, which are rounded to §a7,376L§r, and due to the 64A UMV the machine is supplied with the recipe overclocks 3 times, meaning each recipe actually uses §a36,484,545,600 * 2^3 = 291,876,364,800 EU§r. %n%nKnowing the amount of OCs and the base voltage of the recipe, the difference of the needed EU per recipe with and without perfect OC can be calculated, that being §a291,876,364,800 - 36,484,545,600 = 255,391,819,200 extra EU§r due to imperfect OCs.%nTo get the value of needed extra catalyst, this extra EU value has to be divided by the energy density of the relevant catalyst, prosaic in this case.%n%nThe division equates to §a255,391,819,200 EU / 66,768,460 EU/L = 3,825.037 L§r, rounded to §a3,825L§r extra prosaic catalyst per recipe. For the final step, this value has to be multiplied by §a0.5§r as its affected by the discount, meaning the total extra catalyst that gets added to the recipe is §a3,825L * 0.5 = 1,912.5 L§r, rounded to §a1,912L§r.%n%nTo summarise it all in a formula:%nAmount extra catalyst per recipe = §b(B * ((2^x) - 1))/2L§r%nwhere:%n§bB§r is base total EU of the recipe%n§bx§r is the number of overclocks%n§bL§r is the EU/L of the relevant catalyst %n
+
+# Quest: Black Dwarf Matter
+betterquesting.quest.bPYTUdlkSCiRi0eDHHw7tw.name=Black Dwarf Matter
+betterquesting.quest.bPYTUdlkSCiRi0eDHHw7tw.desc=Reinforcing your casings with matter from white dwarfs was a good idea.%n%nYou can now accelerate a solar system until a black dwarf forms. This material will likely be key to observing and understanding what happens next.%n%n[note]This is the second of your three EOH materials. Use it to upgrade your casings to T7.%n%nThe EOH becomes power positive once all the casings are Tier 7.[/note]
+
+# Quest: Stellar Catalyst
+betterquesting.quest.fj2VzJf2Rgev7uY-h3CkJQ.name=Stellar Catalyst
+betterquesting.quest.fj2VzJf2Rgev7uY-h3CkJQ.desc=Your attempts to improve your dimensional catalyst have been futile so far, but with the Raw Stellar Plasma from your Eye of Harmony, you can finally create a stable and more powerful catalyst.%n%nYou will need some higher-tier plasmas to help maintain its stability as well.%n%n[warn]Handle with care. We are not responsible for your base turning into supermassive black holes. /s[/warn]
+
+# Quest: Saving on SpaceTime
+betterquesting.quest.hWXZi-whQfmgWO0EII7g2g.name=Saving on SpaceTime
+betterquesting.quest.hWXZi-whQfmgWO0EII7g2g.desc=SpaceTime is quite a challenge, isn’t it? You should definitely consider upgrading your Component Assembling Lines to save on some of it.%n%n[note]Did you know you can wall-share the component casings? Just turn one CoAL upside down.%n%nThe CoAL will perform Perfect Overclocks for the recipes below its tier.[/note]
+
+# Quest: Subspace Cooling
+betterquesting.quest.hybMIjq9Q9mxxWKEE8gBWQ.name=Subspace Cooling
+betterquesting.quest.hybMIjq9Q9mxxWKEE8gBWQ.desc=Cooling exotic ingots proves to be a much bigger challenge than smelting them.%n%nFortunately, reinforcing some of the casings with your new materials allows you to inject exotic coolants that capture extreme heat in miniature tears of spacetime, helping to cool your ingots a bit faster.%n%nWith Subspace Cooling, you can enable the Vacuum Freezer to achieve Perfect Overclocks… at a cost.%n%nTier 1 will consume SpaceTime in liquid form at [warn]7500 L/s[/warn] and allow for 1 Perfect Overclock.%n%n[note]This cost is very high but static, remaining the same for each recipe being run. So, be selective about cooling your ingots.%n%nThe faster the recipes, the more efficient the cost, so find your optimal balance.[/note]%n%nThe Infinity Cooled Casings replace the Frostproof casings, so you don’t need to worry about damaging your setups.
+
+# Quest: Tier 12 (UMV)
+betterquesting.quest.jlXvqqgIQ_Crha2tW0gEQg.name=Tier 12 (UMV)
+betterquesting.quest.jlXvqqgIQ_Crha2tW0gEQg.desc=Welcome to the current penultimate tier of New Horizons.%n%nThis tier is the tier for upgrading everything and provides access to better parts to help you scale up.%n%nGood Luck.%n%n[warn]This tier is not fully complete. Expect stuff to change.[/warn]
+
+# Quest: An Eye at the End of Time
+betterquesting.quest.kazCPEWoSmiZhR4bkHlEBQ.name=An Eye at the End of Time
+betterquesting.quest.kazCPEWoSmiZhR4bkHlEBQ.desc=So you have made yourself an Eternal DTPF or hopefully a few, and now it is time for the push to the next tier, UXV.%n%n%nIntroducing the final multiblock in the game, and by far the most expensive. %nIt introduces 4 new materials: Raw Stellar Plasma, White and Black Dwarf Matter and finally Universium. %n%nIt has 3 different tiered casings with 9 tiers each: %n%nSpacetime Compression Field Generator:%n- Determines the tier of the planet block that can be run. and decreases the processing time by §c§c§f§c§f3%%§c§f per tier.%n%nTime Dilation Field Generator:%n- Decreases recipe time by §c§f50%%§f per tier, while decreasing the chance of a recipe succeeding by§f §c§f9.25%%§f per tier.%n%nStabilisation Field Generator:%n- Increases the chance of a recipe succeeding by §§5%% §fper tier, while decreasing the output of a recipe by§c§ §f 5%%§f per tier.%n%nLower tier Stabilisation Field Generators have a power output penalty.%n%nFinding the best setup of different casing tiers might be a hard task, so a calculator visualing all the drops and setups has been created: [url]https://docs.google.com/spreadsheets/d/15j30mNnFIWBhwpJGuDrKTfiHBXNEEqyvB_r7ztFWlyQ[/url]%n%n[note]Be sure to read the tooltip of the Eye of Harmony controller, it explains everything in detail! And don't forget that there is a page 2.[/note]%n%n%n%n
+
+# Quest: Shirabon
+betterquesting.quest.o8_pX-OSRJKBGzDsGujvNw.name=Shirabon
+betterquesting.quest.o8_pX-OSRJKBGzDsGujvNw.desc=A helper material needed in some UMV and UXV components. Have fun making millions.%n%n[note]This is extremely slow to make and to process.[/note]
+
+# Quest: UMV Field Generator
+betterquesting.quest.rdzpjzaCS2epgavzZr6L9A.name=UMV Field Generator
+betterquesting.quest.rdzpjzaCS2epgavzZr6L9A.desc=Another Field Generator... you are almost done.
+
+# Quest: UMV Superconductors
+betterquesting.quest.sKLPeimGTFS6_hIyc-SOXA.name=UMV Superconductors
+betterquesting.quest.sKLPeimGTFS6_hIyc-SOXA.desc=One of the last wires you have to make for now.%n%n[note]Hope you're not using these for hooking up power to your pre-existing machines. Consider the Infinity Wire.[/note]
+
+# Quest: Are you Ready?
+betterquesting.quest.v5GltE2BTW-Me_rEqy5uFg.name=Are you Ready?
+betterquesting.quest.v5GltE2BTW-Me_rEqy5uFg.desc=From now on, you’ll be dealing with extremely slow recipes.%n%nConsider finishing up your QFTs and upgrading or replacing your old infrastructure to save on TPS.%n%nYou should definitely upgrade your power generation and infrastructure to handle millions of recipes.%n%nThe Eye of Harmony will be consuming most of your power before it starts generating more than it uses.%n%nMay Colen have mercy on your soul.%n%n[note]Welcome to the waiting lounge.[/note]
+
+# Quest: Fuwusion MK5
+betterquesting.quest.vLnSpTweSki3BaorBNQhxQ.name=Fuwusion MK5
+betterquesting.quest.vLnSpTweSki3BaorBNQhxQ.desc=After seeing how slow Shirabon is to make, you might want to upgrade your Fusion setup.%n%nLike its predecessor, the MK4, this version also supports Perfect Overclocks. Hopefully, this will make your Metastable Oganesson issues a bit more manageable.%n%n[note]You can specify the batch amount in the GUI if you don’t want it to handle one-tick recipes.[/note]%n
+
+
+## Quest Line: Endgame Goals
+betterquesting.questline.AAAAAAAAAAAAAAAAAAAAHQ.name=Endgame Goals
+betterquesting.questline.AAAAAAAAAAAAAAAAAAAAHQ.desc=Collection of endgame objectives, good luck and thanks for playing so far.
+
+# Quest: Magnetohydrodynamically Constrained Starmatter
+betterquesting.quest.52Yelo6KSLGumzXo-_F5DQ.name=Magnetohydrodynamically Constrained Starmatter
+betterquesting.quest.52Yelo6KSLGumzXo-_F5DQ.desc=Or MHDCSM for short.%n%nThis is your primary metal for UXV components. It’s tricky to make and extremely expensive, as all endgame materials should be.%n%nInstead of solidifying it directly, you need to coat Eternity parts with it.%n%nHave fun!
+
+# Quest: Tier 13 (UXV)
+betterquesting.quest.7wI7VuLKRe6lqAJpuYKKJg.name=Tier 13 (UXV)
+betterquesting.quest.7wI7VuLKRe6lqAJpuYKKJg.desc=Welcome to the final tier of NH (for now).%n%nWe hope you enjoy your stay, though be prepared for a lot of waiting.%n%nHave fun crafting 2 Stargates!%n%n[warn]This tier is far from complete. Expect changes.[/warn]%n
 
 # Quest: The Door to Heaven?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKDA.name=The Door to Heaven?
@@ -4147,22 +4353,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKDw.desc=You'll need 7 of these to const
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKEA.name=Stargate Chevron
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKEA.desc=This is required in order to make the stargate work between dimensions, provided you get a second stargate to dial...
 
-# Quest: Nature's Ruin
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKEg.name=Nature's Ruin
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKEg.desc=Infinity axe, never breaks and capable of chopping down an entire tree instantly.%n%n[note]Cuz a levelled up and modified lumber axe is totally not capable of that.[/note]
-
-# Quest: Planet Eater
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKEw.name=Planet Eater
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKEw.desc=Infinity shovel, never breaks and capable of mining a 16x16x16 area instantly.
-
-# Quest: Sword of the Cosmos
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKFA.name=Sword of the Cosmos
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKFA.desc=Able to kill anything, in one hit except another player in full infinity gear. Essentially runs the /kill command on the entity you hit.
-
-# Quest: World Breaker
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKFQ.name=World Breaker
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKFQ.desc=Infinity pickaxe, never breaks, able to break bedrock and capable of mining a 16x16x16 area instantly.
-
 # Quest: You'll Probably Need Quite a Few of These
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKIg.name=You'll Probably Need Quite a Few of These
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKIg.desc=It may not actually store any energy but it'll still be useful for some other endgame items.
@@ -4175,69 +4365,29 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKJQ.desc=Okay so if you actually want to
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKJg.name=What, How?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKJg.desc=You're not supposed to be here... I think you need to go outside and get some sunlight if you unlocked this legitmately...%n%nIn the meantime here's your reward, don't spend it all at once!
 
-# Quest: Chaotic Energy
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKjQ.name=Chaotic Energy
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKjQ.desc=Finally, Infinite RF! ...But what can I even use that for?
-
-# Quest: Longbow of the Heavens
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKnA.name=Longbow of the Heavens
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKnA.desc=Weak compared to both weapons of it's tier, and the weapons it's made of, this bow doesn't use arrows, never breaks, does 10 damage, and has an AoE of 10 more arrows that do 10 damage each fly down each time it strikes.
-
 # Quest: UXV tier
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM4A.name=UXV tier
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM4A.desc=May Dreammaster have mercy on your soul. You have reached the highest craftable tier in the game!
 
-# Quest: You are worthy
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMoQ.name=You are worthy
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMoQ.desc=Go no further if you value your sanity.
+# Quest: Fabricating Solar Systems... in Parallel
+betterquesting.quest.IGVryoMbRu28q08v4uwSuw.name=Fabricating Solar Systems... in Parallel
+betterquesting.quest.IGVryoMbRu28q08v4uwSuw.desc=As you've noticed, UXV components are extremely expensive compared to the amount of Universium you can currently produce.%n%nThe Astral Array Fabricator allows you to run EOH recipes in parallel. You can review the math in the second page of the tooltip.%n%nFor a direct answer, you can use this spreadsheet: [url]https://docs.google.com/spreadsheets/d/15j30mNnFIWBhwpJGuDrKTfiHBXNEEqyvB_r7ztFWlyQ[/url]%n%n[warn]Be aware that the EOH will use Raw Stellar Plasma instead of Hydrogen and Helium if you use Astral Arrays.[/warn]%n%n[note]Make sure you are generating enough power.[/note]
 
-# Quest: Nearly there...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpQ.name=Nearly there...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpQ.desc=So close.
+# Quest: Assembling on Space Steroids
+betterquesting.quest.UVG21mYSQJex90gQWdkpIw.name=Assembling on Space Steroids
+betterquesting.quest.UVG21mYSQJex90gQWdkpIw.desc=Has 64 parallels and consumes ~500b EU/t per module, expensive to run but absolutely worth it.
 
-# Quest: SpaceTime
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqA.name=SpaceTime
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqA.desc=Reality itself bends to your will.
+# Quest: The SUCC
+betterquesting.quest.k0ryGOkkSBOgYUcVY-J4rw.name=The SUCC
+betterquesting.quest.k0ryGOkkSBOgYUcVY-J4rw.desc=Like its predecessor it can run 4 different recipes at once, but this time each recipe has 16 parallels.%n%nA good solution for your Hydrogen and Helium problems.
 
-# Quest: UMV Circuits
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqg.name=UMV Circuits
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqg.desc=Pico circuits, a direct upgrade from Optical Mainframes, these UMV circuits will be required for a lot of future crafts. %n%n%n[note]You will need an UMV powered Assembling Line to get started.[/note]
-
-# Quest: Finally, you are here.
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqw.name=Finally, you are here.
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqw.desc=Just a bit more.
-
-# Quest: UXV Circuits
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrA.name=UXV Circuits
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrA.desc=The final circuit in the game: Quantum Circuit, these will be required for lots of UMV/UXV crafts.
-
-# Quest: Infinity Boots
-betterquesting.quest.AzTPKiXuRWaBTOFhTeV83Q.name=Infinity Boots
-betterquesting.quest.AzTPKiXuRWaBTOFhTeV83Q.desc=An armorset worthy of a God. These boots provide a permanent jump boost and increased running speed.%n%nWhile wearing the complete set, you are completely unkillable.
-
-# Quest: Infinity Pants
-betterquesting.quest.E851J_UMQl6d9EwLLLg6AQ.name=Infinity Pants
-betterquesting.quest.E851J_UMQl6d9EwLLLg6AQ.desc=An armorset worthy of a God. These pants have no special effects on their own but are required to complete the full infinity set.%n%n%nWhile wearing the complete set, you are completely unkillable.
-
-# Quest: Stars, So Many Stars
-betterquesting.quest.QO1gudFvTtKgWe9942dW3Q.name=Stars, So Many Stars
-betterquesting.quest.QO1gudFvTtKgWe9942dW3Q.desc=Eternal coils? Perfect time for stargate trophy number three. %nYou know the drill, you give 2 stargates' worth of stuff, you get your trophy. Simple as that.%n%n§3Our journey through time continues onwards, entering the UMV, aka DTPF era.%n%nSurprisingly, it still is the year 2022, but there have been a huge amount of changes since our last stop in the UEV era. The DTPF exists now, hypogen & eternal coils included, and machine parts up to UMV thus are craftable. Wireless energy is a thing now too, both the LSC and the regular hatch kind, and AE2FC is in the pack, allowing direct fluid crafting (meaning no more volumetric flask shuffling). %nThe power situation hasnt changed much since the UEV era, except for dyson being even more bugged and giving free uncapped infinite power (abusing this was obviously labeled as bugabuse). %nSome other new useful things are the MABS, Integrated Ore Factory, Space Elevator, UIV and UMV singleblocks (and PAs accepting up to 64 UEV+ machines), EIG, EEC, industrial & mega apiary, yottanks, stocking buses, data bank chaining and the Draconic Fusion Crafter.%nThe stargate's cost has now skyrocketed far more than ever before, marking the beginning of this new era of GT:NH endgame, the era of expansion.%n%nThis time around the leading §aGDCloud§3 was challenged by the team §aNeo Caelestia§3, who were progressing at a staggering speed, inching ever closer to being first to gate, but ultimately weren't able to fully catch up and thus §aGDCloud§2§3 once again was first to conquer the challenge on the §a19th of November, 2022§3.%n%nP.S.: You know how this works, right? Here's the list:%n-PCB Factory, Component Assemblyline, AAL, Transcendent Plasma Mixer, EOH, QFT%n-Multi-Amp wireless hatches%n-Sub 1-tick OC, Batch Mode, inbuilt Void Protection on multis%n-Level Maintainer, Stocking Hatches, Crafting Input Buses%n%nP.P.S.: Chaotic capacitor bank? What's that?
-
-# Quest: The Cat is Out of the Box
-betterquesting.quest.RAH2M4DoTTaX5a2Sj4hRcQ.name=The Cat is Out of the Box
-betterquesting.quest.RAH2M4DoTTaX5a2Sj4hRcQ.desc=After many hours of grind, blood, sweat, tears, and a little bit of transcendent metal... %nYou are now finally able to solve mankind's hardest puzzle ever, clicking boxes randomly.%n%nThe §cUncertainty Resolution§r, §oa Dyson user's wet dream§r, will allow you to completely skip that annoying puzzle when you need to set some (probably a lot.) Quantum Computers up.
-
-# Quest: An Eye at the End of Time
-betterquesting.quest.kazCPEWoSmiZhR4bkHlEBQ.name=An Eye at the End of Time
-betterquesting.quest.kazCPEWoSmiZhR4bkHlEBQ.desc=So you have made yourself an Eternal DTPF or hopefully a few, and now it is time for the push to the next tier, UXV.%n%n%nIntroducing the final multiblock in the game, and by far the most expensive. %nIt introduces 4 new materials: Raw Stellar Plasma, White and Black Dwarf Matter and finally Universium. %n%nIt has 3 different tiered casings with 9 tiers each: %n%nSpacetime Compression Field Generator:%n- Determines the tier of the planet block that can be run. and decreases the processing time by §c§c§f§c§f3%%§c§f per tier.%n%nTime Dilation Field Generator:%n- Decreases recipe time by §c§f50%%§f per tier, while decreasing the chance of a recipe succeeding by§f §c§f9.25%%§f per tier.%n%nStabilisation Field Generator:%n- Increases the chance of a recipe succeeding by §§5%% §fper tier, while decreasing the output of a recipe by§c§ §f 5%%§f per tier.%n%nLower tier Stabilisation Field Generators have a power output penalty.%n%nFinding the best setup of different casing tiers might be a hard task, so a calculator visualing all the drops and setups has been created: [url]https://docs.google.com/spreadsheets/d/15j30mNnFIWBhwpJGuDrKTfiHBXNEEqyvB_r7ztFWlyQ[/url]%n%n[note]Be sure to read the tooltip of the Eye of Harmony controller, it explains everything in detail! And don't forget that there is a page 2.[/note]%n%n%n%n
+# Quest: Your lord and saviour, UXV CoAL
+betterquesting.quest.smCKxKkMSeyIAUeFInS4hQ.name=Your lord and saviour, UXV CoAL
+betterquesting.quest.smCKxKkMSeyIAUeFInS4hQ.desc=You want to rush this as soon as possible.%n%nEvery L of Universium matters.
 
 # Quest: Eternity
 betterquesting.quest.wGq5FvuuROyyMPbT_SkMYg.name=Eternity
-betterquesting.quest.wGq5FvuuROyyMPbT_SkMYg.desc=Definitely consider this for the better Magnetohydrodynamically Constrained Star Matter recipe.%n%nKickstarting the loop is expensive and RNG based, you need 20,736L of Universium for the first 5 attempts and a catalyst.%n%nThe QFT recipe has a 25%% chance of yielding Eternity per attempt, you should probably boost the QFT with the plasmas, and focus Eternity.%n%n[note]Did you know that the QFT has a fluid mode? Could be useful for getting molten shirabon out of it.[/note]%n%n[note]Building a full beacon out of Eternity Blocks would be quite silly, right?[/note]%n%n
-
-# Quest: Infinity Breastplate
-betterquesting.quest.y-pBsDI2QGS3B9sGG0Pqsg.name=Infinity Breastplate
-betterquesting.quest.y-pBsDI2QGS3B9sGG0Pqsg.desc=An armorset worthy of a God. This breastplate provides the user infinite creative flight and removes all negative debuffs.%n%nWhile wearing the complete set, you are completely unkillable.
+betterquesting.quest.wGq5FvuuROyyMPbT_SkMYg.desc=Definitely consider this for the improved Magnetohydrodynamically Constrained Star Matter recipe. You’ll also need it to make MHDCSM parts.%n%nKickstarting the loop is expensive and RNG-based. You need 20,736 L of Universium for the first 5 attempts and a catalyst.%n%nThe QFT recipe has a 25%% chance of yielding Eternity per attempt. You should probably boost the QFT with plasmas and focus on producing Eternity.%n%n[note]Did you know the QFT has a fluid mode? It could be useful for extracting molten Shirabon.[/note]%n%n[note]Building a full beacon out of Eternity Blocks might be a bit extravagant, don’t you think?[/note]%n%n
 
 
 ## Quest Line: Fishing, Farming, Cooking
@@ -6101,10 +6251,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMig.desc=You probably have built a lot o
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkQ.name=§6§lInfinity Coil Upgrade
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkQ.desc=Smelting with the ferocity of the universe itself.%n%nThis unbelievable material seemed impossible to manipulate into a coil block form, even though its properties made this desirable. It is incredibly stable even at extreme temperatures, but this also made it unable to pack together for coils.%n%nHowever, the situation changed when you thought about using something more intelligent. By integrating a Wetware or better UHV circuit, the Infinity Coil became a reality, controlled by the ever-watching eyes of the circuitry you've spent months to create. From now on, these eyes will watch over your multiblocks.%n%nProvides 11701 heat. You could upgrade your EBF, though at this point it's more likely to be for your MEBFs or your DTPF.
 
-# Quest: Hypogen Coil Upgrade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkg.name=§6§lHypogen Coil Upgrade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkg.desc=Forged from the blood of an ageless dragon, and melded together by the power of fusion beyond what you thought was the reality. No natural element, or combination of elements, could match up to this glowing orange material, not even the Awakened Draconium you got your hands on before.%n%nWhat truly happened inside that Mk4 Fusion Reactor? What §ois§o§r this material? Its dust pulsates visibly, at different rates depending on the size of the dust itself. Hypogen approaches a state of complete balance as it approaches the block size, and it is obvious to you what needs to be done with it.%n%nIt absorbs and radiates energy without any effort, but it would be stupid to attempt making coils out of this without assistance. Wetware wasn't good enough anymore, and only the most advanced living circuit could withstand the erratic behavior Hypogen demonstrates.%n%nProvides 12601K heat. Almost certainly, this will end up on your DTPF.
-
 # Quest: Clean Implosions?!
 betterquesting.quest.IlCOpa8bR9WbOjSOPxZIlA.name=§l§6§lClean Implosions?!
 betterquesting.quest.IlCOpa8bR9WbOjSOPxZIlA.desc=Introducing the bigger (and better) Implosion Compressor, the Electric Implosion Compressor.%n%nThe Electric Implosion Compressor does not need any explosive and only needs electricity, isn't that very nice!%n%nFurthermore it gains extra parallels 4^(Tier - 1) based on the containment block used in the middle.%n%nTier 1: Neutronium Block%nTier 2: Infinity Block%nTier 3: transcendent Metal Block%nTier 4: Spacetime Block%nTier 5: Universium Block%n%n[note]While the structure preview shows holes in the middle, it requires the full 27 containment blocks to form, once formed the middle 5 blocks will disappear visually, but sometimes when breaking you will get them back (and sometimes you won't). [/note]%n%n[note]The minimum allowed energy hatch tier is one tier below the recipe tier, so let's start with 2 UV energy hatches for now.[/note]
@@ -6695,6 +6841,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAK9g.desc=This is the ZPM version.
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK9w.name=§9§lKinetic Water Power EV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK9w.desc=This is the EV version, it works the same.
 
+# Quest: Who Needs UV Solars When You Have Magic
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKJA.name=Who Needs UV Solars When You Have Magic
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKJA.desc=This single block can produce a maximum of 600m eu/t when in aqua form, that's balanced right... right?
+
 # Quest: Kinetic Wind Power LuV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK_A.name=§9§lKinetic Wind Power LuV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK_A.desc=This is the LuV version.
@@ -6718,14 +6868,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKzg.desc=This allows you to skip the Flu
 # Quest: UHT Resistant Mesh
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL3g.name=UHT Resistant Mesh
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL3g.desc=§o*Slaps UHT Resistant Mesh* This bad boy can withstand so much heat!§r%n%nYou should probably automate this if you want to build and use the Dyson Swarm multiblock.
-
-# Quest: Dyson Swarm Ground Unit
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL3w.name=Dyson Swarm Ground Unit
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL3w.desc=The Dyson Swarm Ground Unit multiblock is basically a solar panel, you just insert Dyson Swarm Modules (how many depends on how much energy you want) and get energy out. There are some complications though:%n- Each hour, n of m modules are destroyed according to this formula: n = m (2 * 0.066) / (exp(-0.00005 * (m - 1))+exp(0.00003 * cps)), where cps is computation per second,%n- Needs 3.6M L/h of Gelid Cryotheum.%n- Up to 10,000 modules can be inserted into a single Dyson Swarm.%n- Dyson Swarm can only accept up to 100k computation.%n%n[note]Note: TecTech's Multi-Amp Dynamo Hatches and Laser Source Hatches are supported.[/note]%n%nThe amount of each part on the right is only the minimum, depending on how many Dynamo Hatches, Input Busses, Input Hatches and Optical Slave Connectors you use, you may need more Energy Receiver Base Casings, Module Deployment Unit Base Casings or Control Center Base Casings.%n%n[warn]This machine will explode if Dynamo buffer is full![/warn]%n%nFun fact: The maximum output is 337B EU/t (limited by 10,000 Modules and the 3.37x dimension bonus of Horus)%n%n(If you don't want to calculate how many modules you need per hour, the number is 64 for max stats)
-
-# Quest: Where Do I Build the Dyson Swarm?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL4A.name=Where Do I Build the Dyson Swarm?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL4A.desc=If you read the Dyson Swarm Ground Unit's tooltip carefully (which you should), you might have noticed, that it mentions a "dimension-dependent factor". The dimension you build the Dyson Swarm multiblock in can greatly affect the real power output.%n%n§lSorted by factor (descending):§r%n§a337%% - Horus%n231%% - Barnarda C%n228%% - Neper%n228%% - α Centauri Bb%n211%% - Mehen belt%n198%% - Maahes%n198%% - Seth%n198%% - Vega B%n194%% - Venus Space Stations%n181%% - Anubis%n176%% - Venus%n161%% - Mercury%n141%% - Barnarda E%n134%% - T Ceti E%n126%% - Barnarda F%n112%% - Ross128b, Ross128ba%n110%% - Earth Space Stations§r%n§6100%% - Overworld, Moon§r%n[warn]89%% - Mars Space Stations%n81%% - Mars, Phobos, Deimos%n61%% - Asteroids%n60%% - Ceres%n48%% - Jupiter Space Stations%n44%% - Europa, Io, Ganymede%n36%% - Saturn Space Stations%n32%% - Enceladus, Titan, Callisto%n25%% - Uranus Space Stations%n23%% - Oberon, Proteus, Miranda%n20%% - Neptune Space Stations%n18%% - Triton%n16%% - Pluto, Kuiper Belt%n15%% - Makemake, Haumea%n1%% - Garden, Mining and Void Worlds%n0%% - All other dimensions[/warn]
 
 # Quest: Quintuple Compressed Solar
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALAA.name=Quintuple Compressed Solar
@@ -7071,10 +7213,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALnQ.desc=... can't hold it back anymore.
 # Quest: Extremely Ultimate and Ultimately Extreme
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM3w.name=Extremely Ultimate and Ultimately Extreme
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM3w.desc=An even more expensive capacitor but it has the same storage? You are reading that right. But it has much faster transfer rates to your wireless power network!
-
-# Quest: Power in the Ether
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMow.name=Power in the Ether
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMow.desc=These new hatches allow you to wirelessly send, store and receive energy from any location in any dimension. They can be placed in any existing multi block structure and will function as normal energy/dynamo hatches. A dynamo hatch will consume EU and store it in a global network linked to your user. The wireless network can store a total of 2^(2^31) EU, far exceeding even a max tier LSC.%n%nYou can share a wireless network with others by adding them to your network with /gt global_energy_join user1 user2. This will make user1 use user2's energy when interacting with the global network. You can leave a network at any time by doing /gt global_energy_join your_name your_name. %n%nYou cannot connect wires to these blocks. These are also designed to be highly lag efficient, meaning EU is added at large intervals to prevent needless calculations from occurring. This will also save you some TPS lag from vast wire networks.%n%n[note]If your calculator is giving up, 2^(2^31) is a number with 646,456,994 digits.[/note]
 
 # Quest: Wireless Power!?
 betterquesting.quest.Dif-0NSERYGdGP7j8xAzPQ.name=Wireless Power!?
@@ -13852,10 +13990,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJlw.desc=Making this will give you unlim
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKGw.name=UV Solar
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKGw.desc=Produces 1A of UV voltage during the day. Useful if you live in a dimension with permanent day (Eg garden).
 
-# Quest: Who Needs UV Solars When You Have Magic
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKJA.name=Who Needs UV Solars When You Have Magic
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKJA.desc=This single block can produce a maximum of 600m eu/t when in aqua form, that's balanced right... right?
-
 # Quest: Transform and...Stay Put Actually
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKqw.name=Transform and...Stay Put Actually
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKqw.desc=Active Transformers will transform power up or down at only a 0.004%% power loss, making using several in a row obsolete, if you can afford it. Unfortunately, it's kinda expensive. On the other hand, you can use it to turn your lasers from your laser hatches, which is probably a better use.%n%nIt doesn't need a Maintenance Hatch, just the I/O Hatches.%n%n[warn]Be sure to turn off Power Pass if you want to edit your machine and don't want it to explode![/warn]
@@ -13867,6 +14001,14 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKyg.desc=This produces power out of Rock
 # Quest: A Steam Tier Multi? Unpossible!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKzA.name=§3§lA Steam Tier Multi? Unpossible!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKzA.desc=It's a larger version of the Steam Macerator. It only works 8 at a time, but is faster. Note that this multi requires [warn]Very Specific[/warn] I/O blocks, don't mess it up.%n%nAs a 3x3 multiblock, it might seem expensive if you're in the Steam age. However, the processing time per ore is so low that you can sustain your beginner's ore processing system with it! The main reason to change off this is the HV Macerator, which unlocks new outputs on top of what you already get.%n%n[note]With this quest you have started your journey on GT++ Multiblocks. However, don't get too excited quite yet. Most of them only unlock in EV or later, including a better version of this macerator.[/note]%n
+
+# Quest: Dyson Swarm Ground Unit
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL3w.name=Dyson Swarm Ground Unit
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL3w.desc=The Dyson Swarm Ground Unit multiblock is basically a solar panel, you just insert Dyson Swarm Modules (how many depends on how much energy you want) and get energy out. There are some complications though:%n- Each hour, n of m modules are destroyed according to this formula: n = m (2 * 0.066) / (exp(-0.00005 * (m - 1))+exp(0.00003 * cps)), where cps is computation per second,%n- Needs 3.6M L/h of Gelid Cryotheum.%n- Up to 10,000 modules can be inserted into a single Dyson Swarm.%n- Dyson Swarm can only accept up to 100k computation.%n%n[note]Note: TecTech's Multi-Amp Dynamo Hatches and Laser Source Hatches are supported.[/note]%n%nThe amount of each part on the right is only the minimum, depending on how many Dynamo Hatches, Input Busses, Input Hatches and Optical Slave Connectors you use, you may need more Energy Receiver Base Casings, Module Deployment Unit Base Casings or Control Center Base Casings.%n%n[warn]This machine will explode if Dynamo buffer is full![/warn]%n%nFun fact: The maximum output is 337B EU/t (limited by 10,000 Modules and the 3.37x dimension bonus of Horus)%n%n(If you don't want to calculate how many modules you need per hour, the number is 64 for max stats)
+
+# Quest: Where Do I Build the Dyson Swarm?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL4A.name=Where Do I Build the Dyson Swarm?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL4A.desc=If you read the Dyson Swarm Ground Unit's tooltip carefully (which you should), you might have noticed, that it mentions a "dimension-dependent factor". The dimension you build the Dyson Swarm multiblock in can greatly affect the real power output.%n%n§lSorted by factor (descending):§r%n§a337%% - Horus%n231%% - Barnarda C%n228%% - Neper%n228%% - α Centauri Bb%n211%% - Mehen belt%n198%% - Maahes%n198%% - Seth%n198%% - Vega B%n194%% - Venus Space Stations%n181%% - Anubis%n176%% - Venus%n161%% - Mercury%n141%% - Barnarda E%n134%% - T Ceti E%n126%% - Barnarda F%n112%% - Ross128b, Ross128ba%n110%% - Earth Space Stations§r%n§6100%% - Overworld, Moon§r%n[warn]89%% - Mars Space Stations%n81%% - Mars, Phobos, Deimos%n61%% - Asteroids%n60%% - Ceres%n48%% - Jupiter Space Stations%n44%% - Europa, Io, Ganymede%n36%% - Saturn Space Stations%n32%% - Enceladus, Titan, Callisto%n25%% - Uranus Space Stations%n23%% - Oberon, Proteus, Miranda%n20%% - Neptune Space Stations%n18%% - Triton%n16%% - Pluto, Kuiper Belt%n15%% - Makemake, Haumea%n1%% - Garden, Mining and Void Worlds%n0%% - All other dimensions[/warn]
 
 # Quest: Machine Interface Fluid I/O
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALKg.name=§5§lMachine Interface Fluid I/O
@@ -13920,9 +14062,17 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMeA.desc=Some turbine materials are not 
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMiQ.name=Gas Planets
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMiQ.desc=You probably also want a good overview of what you can get with your Gas Siphon. So here we go:%n%n%nJupiter§r%n1 Hydrogen - 15000 L/s%n2 Helium - 500 L/s%n3 Nitrogen - 300 L/s%n4 Oxygen - 200 L/s%n%n§oSaturn§r%n1 Hydrogen - 18000 L/s%n2 Helium - 800 L/s%n3 Oxygen - 500 L/s%n4 Liquid Oxygen - 150 L/s%n%n§oUranus§r%n1 Deuterium - 5000 L/s%n2 Neon - 450 L/s%n3 Argon - 250 L/s%n4 Krypton - 100 L/s%n%n§oNeptune§r%n1 Tritium - 3000 L/s%n2 Helium-3 - 500 L/s%n3 Ammonia - 400 L/s%n4 Xenon - 350 L/s
 
+# Quest: Hypogen Coil Upgrade
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkg.name=§6§lHypogen Coil Upgrade
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkg.desc=Forged from the blood of an ageless dragon, and melded together by the power of fusion beyond what you thought was the reality. No natural element, or combination of elements, could match up to this glowing orange material, not even the Awakened Draconium you got your hands on before.%n%nWhat truly happened inside that Mk4 Fusion Reactor? What §ois§o§r this material? Its dust pulsates visibly, at different rates depending on the size of the dust itself. Hypogen approaches a state of complete balance as it approaches the block size, and it is obvious to you what needs to be done with it.%n%nIt absorbs and radiates energy without any effort, but it would be stupid to attempt making coils out of this without assistance. Wetware wasn't good enough anymore, and only the most advanced living circuit could withstand the erratic behavior Hypogen demonstrates.%n%nProvides 12601K heat. Almost certainly, this will end up on your DTPF.
+
 # Quest: Eternal Coil Upgrade
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkw.name=§6§lEternal Coil Upgrade
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkw.desc=Beyond spacetime, beyond reality. You have peered into what never existed and brought into a fluid, and then a solid. It has been stabilized, against all odds. When you look at it, you think that you could hold the entire universe in your hand.%n%nIn the past, you were able to combine almost all materials into one, through an Eternal Singularity, an infinitely dense sample of the universe. However, automating this at the scale of the DTPF proved ridiculous, which would have stopped your progress altogether if not for the discovery of the Energized Tesseract. To physically manifest spacetime itself, you first needed to manifest the fourth spatial dimension, and that is what the Tesseract is: a 4-dimensional cube.%n%nCubes! Almost everything around you is made out of cubes. You have only glimpsed at the reality of the 4-dimensional world, but you have successfully used it to condensate spacetime, which can be arbitrarily molded into the complete Eternal mixture, a process that unfortunately cannot be reversed. Needless to say, living circuits will not suffice to maintain an infinitely dense, infinitely stable, multi-dimensional material.%n%nCurrently, the final upgrade with 13501K. This really makes your DTPF shine!
+
+# Quest: Power in the Ether
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMow.name=Power in the Ether
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMow.desc=These new hatches allow you to wirelessly send, store and receive energy from any location in any dimension. They can be placed in any existing multi block structure and will function as normal energy/dynamo hatches. A dynamo hatch will consume EU and store it in a global network linked to your user. The wireless network can store a total of 2^(2^31) EU, far exceeding even a max tier LSC.%n%nYou can share a wireless network with others by adding them to your network with /gt global_energy_join user1 user2. This will make user1 use user2's energy when interacting with the global network. You can leave a network at any time by doing /gt global_energy_join your_name your_name. %n%nYou cannot connect wires to these blocks. These are also designed to be highly lag efficient, meaning EU is added at large intervals to prevent needless calculations from occurring. This will also save you some TPS lag from vast wire networks.%n%n[note]If your calculator is giving up, 2^(2^31) is a number with 646,456,994 digits.[/note]
 
 # Quest: Tesseract
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpw.name=Tesseract
