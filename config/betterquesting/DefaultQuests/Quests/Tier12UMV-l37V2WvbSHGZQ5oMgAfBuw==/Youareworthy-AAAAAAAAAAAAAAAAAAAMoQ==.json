@@ -1,0 +1,227 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3219,
+      "type:1": 1
+    },
+    "1:10": {
+      "questIDHigh:4": -5918599008967570585,
+      "questIDLow:4": -6232511347414889484
+    }
+  },
+  "questIDLow:4": 3233,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.metaitem.01",
+        "Count:3": 1,
+        "Damage:2": 32416,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "You are worthy",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Go no further if you value your sanity."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 1,
+          "Damage:2": 32416,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "Forestry:beePrincessGE",
+          "Count:3": 1,
+          "tag:10": {
+            "MaxH:3": 40,
+            "Health:3": 40,
+            "IsAnalyzed:1": 1,
+            "Genome:10": {
+              "Chromosomes:9": {
+                "0:10": {
+                  "UID1:8": "extrabees.species.chad",
+                  "UID0:8": "extrabees.species.chad",
+                  "Slot:1": 0
+                },
+                "1:10": {
+                  "UID1:8": "forestry.speedFastest",
+                  "UID0:8": "forestry.speedFastest",
+                  "Slot:1": 1
+                },
+                "2:10": {
+                  "UID1:8": "forestry.lifespanNormal",
+                  "UID0:8": "forestry.lifespanNormal",
+                  "Slot:1": 2
+                },
+                "3:10": {
+                  "UID1:8": "forestry.fertilityMaximum",
+                  "UID0:8": "forestry.fertilityMaximum",
+                  "Slot:1": 3
+                },
+                "4:10": {
+                  "UID1:8": "forestry.toleranceBoth5",
+                  "UID0:8": "forestry.toleranceBoth5",
+                  "Slot:1": 4
+                },
+                "5:10": {
+                  "UID1:8": "forestry.boolTrue",
+                  "UID0:8": "forestry.boolTrue",
+                  "Slot:1": 5
+                },
+                "6:10": {
+                  "UID1:8": "forestry.toleranceBoth5",
+                  "UID0:8": "forestry.toleranceBoth5",
+                  "Slot:1": 7
+                },
+                "7:10": {
+                  "UID1:8": "forestry.boolFalse",
+                  "UID0:8": "forestry.boolFalse",
+                  "Slot:1": 8
+                },
+                "8:10": {
+                  "UID1:8": "forestry.boolFalse",
+                  "UID0:8": "forestry.boolFalse",
+                  "Slot:1": 9
+                },
+                "9:10": {
+                  "UID1:8": "forestry.flowersVanilla",
+                  "UID0:8": "forestry.flowersVanilla",
+                  "Slot:1": 10
+                },
+                "10:10": {
+                  "UID1:8": "forestry.floweringMaximum",
+                  "UID0:8": "forestry.floweringMaximum",
+                  "Slot:1": 11
+                },
+                "11:10": {
+                  "UID1:8": "forestry.territoryLargest",
+                  "UID0:8": "forestry.territoryLargest",
+                  "Slot:1": 12
+                },
+                "12:10": {
+                  "UID1:8": "extrabees.effect.birthday",
+                  "UID0:8": "extrabees.effect.birthday",
+                  "Slot:1": 13
+                }
+              }
+            }
+          },
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "Forestry:beeDroneGE",
+          "Count:3": 1,
+          "tag:10": {
+            "MaxH:3": 40,
+            "Health:3": 40,
+            "IsAnalyzed:1": 1,
+            "Genome:10": {
+              "Chromosomes:9": {
+                "0:10": {
+                  "UID1:8": "extrabees.species.chad",
+                  "UID0:8": "extrabees.species.chad",
+                  "Slot:1": 0
+                },
+                "1:10": {
+                  "UID1:8": "forestry.speedFastest",
+                  "UID0:8": "forestry.speedFastest",
+                  "Slot:1": 1
+                },
+                "2:10": {
+                  "UID1:8": "forestry.lifespanNormal",
+                  "UID0:8": "forestry.lifespanNormal",
+                  "Slot:1": 2
+                },
+                "3:10": {
+                  "UID1:8": "forestry.fertilityMaximum",
+                  "UID0:8": "forestry.fertilityMaximum",
+                  "Slot:1": 3
+                },
+                "4:10": {
+                  "UID1:8": "forestry.toleranceBoth5",
+                  "UID0:8": "forestry.toleranceBoth5",
+                  "Slot:1": 4
+                },
+                "5:10": {
+                  "UID1:8": "forestry.boolTrue",
+                  "UID0:8": "forestry.boolTrue",
+                  "Slot:1": 5
+                },
+                "6:10": {
+                  "UID1:8": "forestry.toleranceBoth5",
+                  "UID0:8": "forestry.toleranceBoth5",
+                  "Slot:1": 7
+                },
+                "7:10": {
+                  "UID1:8": "forestry.boolFalse",
+                  "UID0:8": "forestry.boolFalse",
+                  "Slot:1": 8
+                },
+                "8:10": {
+                  "UID1:8": "forestry.boolFalse",
+                  "UID0:8": "forestry.boolFalse",
+                  "Slot:1": 9
+                },
+                "9:10": {
+                  "UID1:8": "forestry.flowersVanilla",
+                  "UID0:8": "forestry.flowersVanilla",
+                  "Slot:1": 10
+                },
+                "10:10": {
+                  "UID1:8": "forestry.floweringMaximum",
+                  "UID0:8": "forestry.floweringMaximum",
+                  "Slot:1": 11
+                },
+                "11:10": {
+                  "UID1:8": "forestry.territoryLargest",
+                  "UID0:8": "forestry.territoryLargest",
+                  "Slot:1": 12
+                },
+                "12:10": {
+                  "UID1:8": "extrabees.effect.birthday",
+                  "UID0:8": "extrabees.effect.birthday",
+                  "Slot:1": 13
+                }
+              }
+            }
+          },
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}
