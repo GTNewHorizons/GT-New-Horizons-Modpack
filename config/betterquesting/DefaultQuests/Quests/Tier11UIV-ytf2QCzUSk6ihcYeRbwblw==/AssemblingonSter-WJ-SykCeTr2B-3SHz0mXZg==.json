@@ -1,12 +1,26 @@
 {
-  "questIDHigh:4": -3147624397681180429,
+  "questIDHigh:4": 6385984193999818429,
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": -2121010054702348431,
-      "questIDLow:4": -5429883527448864555
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3237,
+      "type:1": 1
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2584,
+      "type:1": 1
+    },
+    "2:10": {
+      "questIDHigh:4": -7059304995623121180,
+      "questIDLow:4": -8476538164944458841
+    },
+    "3:10": {
+      "questIDHigh:4": 2760534389945944436,
+      "questIDLow:4": -8415680337631262256
     }
   },
-  "questIDLow:4": -4618074744092982901,
+  "questIDLow:4": -9080536097015359642,
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
@@ -17,7 +31,7 @@
       "icon:10": {
         "id:8": "gregtech:gt.blockmachines",
         "Count:3": 1,
-        "Damage:2": 2714,
+        "Damage:2": 14005,
         "OreDict:8": ""
       },
       "snd_update:8": "random.levelup",
@@ -25,11 +39,11 @@
       "globalShare:1": 0,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "Waterproof Tech",
+      "name:8": "Assembling on Steroids",
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "With the ability to bend spacetime at your will, you can prevent fluids and electronics from interacting.\n\nFluid containing patterns can be processed.\n\n[note]Otherwise it works like crafting input bus.[/note]"
+      "desc:8": "It has 16 parallels and can utilize advanced superconductors for improved yields in optical part recipes.\n\n[note]You can\u0027t create the Ultimate Battery in one step yet-that\u0027s much further down the line.[/note]"
     }
   },
   "tasks:9": {
@@ -44,7 +58,7 @@
         "0:10": {
           "id:8": "gregtech:gt.blockmachines",
           "Count:3": 1,
-          "Damage:2": 2714,
+          "Damage:2": 14005,
           "OreDict:8": ""
         }
       },

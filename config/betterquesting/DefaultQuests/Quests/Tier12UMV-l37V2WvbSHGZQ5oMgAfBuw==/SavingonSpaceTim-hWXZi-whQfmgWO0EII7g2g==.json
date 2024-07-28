@@ -1,23 +1,23 @@
 {
-  "questIDHigh:4": -3147624397681180429,
+  "questIDHigh:4": -8834415899032075783,
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": -2121010054702348431,
-      "questIDLow:4": -5429883527448864555
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3243
     }
   },
-  "questIDLow:4": -4618074744092982901,
+  "questIDLow:4": -6892498627708657446,
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
       "taskLogic:8": "AND",
       "visibility:8": "NORMAL",
-      "isMain:1": 0,
+      "isMain:1": 1,
       "simultaneous:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.blockmachines",
+        "id:8": "GoodGenerator:componentAssemblylineCasing",
         "Count:3": 1,
-        "Damage:2": 2714,
+        "Damage:2": 11,
         "OreDict:8": ""
       },
       "snd_update:8": "random.levelup",
@@ -25,11 +25,11 @@
       "globalShare:1": 0,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "Waterproof Tech",
+      "name:8": "Saving on SpaceTime",
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "With the ability to bend spacetime at your will, you can prevent fluids and electronics from interacting.\n\nFluid containing patterns can be processed.\n\n[note]Otherwise it works like crafting input bus.[/note]"
+      "desc:8": "SpaceTime is quite a challenge, isn’t it? You should definitely consider upgrading your Component Assembling Lines to save on some of it.\n\n[note]Did you know you can wall-share the component casings? Just turn one CoAL upside down.\n\nThe CoAL will perform Perfect Overclocks for the recipes below its tier.[/note]"
     }
   },
   "tasks:9": {
@@ -42,9 +42,9 @@
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.blockmachines",
-          "Count:3": 1,
-          "Damage:2": 2714,
+          "id:8": "GoodGenerator:componentAssemblylineCasing",
+          "Count:3": 43,
+          "Damage:2": 11,
           "OreDict:8": ""
         }
       },

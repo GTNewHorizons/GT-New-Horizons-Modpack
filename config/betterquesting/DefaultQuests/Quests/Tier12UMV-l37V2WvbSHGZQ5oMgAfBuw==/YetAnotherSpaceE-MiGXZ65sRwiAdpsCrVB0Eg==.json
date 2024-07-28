@@ -1,12 +1,12 @@
 {
-  "questIDHigh:4": -3147624397681180429,
+  "questIDHigh:4": 3612334847691605768,
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": -2121010054702348431,
-      "questIDLow:4": -5429883527448864555
+      "questIDHigh:4": -8190376831060786192,
+      "questIDLow:4": -6087268361248963518
     }
   },
-  "questIDLow:4": -4618074744092982901,
+  "questIDLow:4": -9189987553802947566,
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
@@ -15,9 +15,9 @@
       "isMain:1": 0,
       "simultaneous:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.blockmachines",
+        "id:8": "gtnhintergalactic:gt.blockcasingsSEMotor",
         "Count:3": 1,
-        "Damage:2": 2714,
+        "Damage:2": 3,
         "OreDict:8": ""
       },
       "snd_update:8": "random.levelup",
@@ -25,11 +25,11 @@
       "globalShare:1": 0,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "Waterproof Tech",
+      "name:8": "Yet Another Space Elevator Upgrade",
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "With the ability to bend spacetime at your will, you can prevent fluids and electronics from interacting.\n\nFluid containing patterns can be processed.\n\n[note]Otherwise it works like crafting input bus.[/note]"
+      "desc:8": "This bad boi can handle 18 modules at once.\n\n"
     }
   },
   "tasks:9": {
@@ -42,9 +42,9 @@
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.blockmachines",
+          "id:8": "gtnhintergalactic:gt.blockcasingsSEMotor",
           "Count:3": 1,
-          "Damage:2": 2714,
+          "Damage:2": 3,
           "OreDict:8": ""
         }
       },

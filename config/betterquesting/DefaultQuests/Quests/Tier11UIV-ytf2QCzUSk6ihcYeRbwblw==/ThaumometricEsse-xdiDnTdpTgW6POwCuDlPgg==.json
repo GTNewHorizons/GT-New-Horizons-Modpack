@@ -1,12 +1,12 @@
 {
-  "questIDHigh:4": -3147624397681180429,
+  "questIDHigh:4": -4190454742005494267,
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": -2121010054702348431,
-      "questIDLow:4": -5429883527448864555
+      "questIDHigh:4": -6078296071036190210,
+      "questIDLow:4": -8127302345207551228
     }
   },
-  "questIDLow:4": -4618074744092982901,
+  "questIDLow:4": -5026883587627462782,
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
@@ -15,9 +15,10 @@
       "isMain:1": 0,
       "simultaneous:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.blockmachines",
+        "id:8": "thaumicenergistics:storage.essentia",
         "Count:3": 1,
-        "Damage:2": 2714,
+        "tag:10": {},
+        "Damage:2": 4,
         "OreDict:8": ""
       },
       "snd_update:8": "random.levelup",
@@ -25,11 +26,11 @@
       "globalShare:1": 0,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "Waterproof Tech",
+      "name:8": "Thaumometric Essentia Cell",
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "With the ability to bend spacetime at your will, you can prevent fluids and electronics from interacting.\n\nFluid containing patterns can be processed.\n\n[note]Otherwise it works like crafting input bus.[/note]"
+      "desc:8": "After meddling with the 4th Dimension, you have finally discovered a way to access its unlimited Essentia supply.\n\nThe Thaumometric Essentia Cell is your tool for extracting Essentia from this source.\n\nUnfortunately, you must filter each type of Essentia in your Cell Workbench. If only your technology were more advanced..."
     }
   },
   "tasks:9": {
@@ -42,9 +43,10 @@
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.blockmachines",
+          "id:8": "thaumicenergistics:storage.essentia",
           "Count:3": 1,
-          "Damage:2": 2714,
+          "tag:10": {},
+          "Damage:2": 4,
           "OreDict:8": ""
         }
       },
