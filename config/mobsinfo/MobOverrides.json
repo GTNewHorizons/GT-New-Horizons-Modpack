@@ -23,7 +23,7 @@
         "lootable": true,
         "playerOnly": false,
         "variableChance": false,
-        "variableChanceInfo": [],
+        "chanceModifiers": [],
         "additionalInfo": []
       }
     ],
