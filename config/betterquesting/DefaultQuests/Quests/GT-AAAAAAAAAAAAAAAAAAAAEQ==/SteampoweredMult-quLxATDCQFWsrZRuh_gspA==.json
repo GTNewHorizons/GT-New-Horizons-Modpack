@@ -1,0 +1,37 @@
+{
+  "questIDHigh:4": -6133074755109896107,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -3965147138498412514,
+      "questIDLow:4": -8911182845288729667
+    }
+  },
+  "questIDLow:4": -6003979525766501212,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.blockmachines",
+        "Count:3": 1,
+        "Damage:2": 100,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Steam-powered Multiblocks",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "This quests acts as a centreal space for information regarding all steam multis.\nThings to mention:\n-Specific I/O\n-They process 8 items * Tier\n-Tier 1 is bronze \u0026 Tier 2 is steel\n-Like other multiblocks they will void if they run out of energy (in this case steam)\n-They are more efficient since they are faster than their singleblock counterpart and they use less steam\n-The Tier and amount of püarallel can be seen via the mod thingy\n\n§W§3With this quest, you have started your journey with GT++ Multiblocks. However, don\u0027t get too excited quite yet. While there are some multiblocks accessible in the Steam Age, most of them only unlock in EV or later, including a better version of this macerator.\n\n§rIt only works 8 at a time, but is faster. Note that this multi requires §c§4§lVery Specific§r I/O blocks, don\u0027t mess it up."
+    }
+  },
+  "tasks:9": {},
+  "rewards:9": {}
+}
