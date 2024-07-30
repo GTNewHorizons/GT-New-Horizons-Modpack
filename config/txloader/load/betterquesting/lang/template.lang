@@ -107,7 +107,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEtA.desc=It's time to get yourself a 3x3
 
 # Quest: Cows Are Supposed to Moo!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFww.name=§1§lCows Are Supposed to Moo!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFww.desc=What the...? You noticed that sometimes when you kill something, even a cow or chicken, it explodes! What madness! %n%nTo stop it, use a proper GregTech Knife or Butchery Knife to kill them. Craft a flint GregTech knife with a stick and a piece of flint. %n%nTo see its recipe, see how a generic knife is made - NEI should show you many pages. The recipe you need should be on the last page. You can scroll pages with your mouse wheel.%n%nAs a reward, here's an iron knife to use once the flint one wears out.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFww.desc=What the...? You noticed that sometimes when you kill something, even a cow or chicken, it explodes! What madness! %n%nTo stop it, use a proper GregTech Knife or Butchery Knife to kill them. Craft a flint GregTech knife with a stick and a piece of flint. %n%nTo see its recipe, see how a generic knife is made - NEI should show you many pages. The recipe you need should be on the last page. You can scroll pages with your mouse wheel. %n%n[note]Alternatively you can use the search bar to search for a specific tool material, in this case flint![/note]%n%nAs a reward, here's an iron knife to use once the flint one wears out.
 
 # Quest: Creeping Dread
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHMg.name=§1§lCreeping Dread
@@ -2793,6 +2793,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGjg.desc=Quantumprocessors are your firs
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGjw.name=§b§lQBit Wafer and Chip
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGjw.desc=The Qbit Wafer is made out of a Nano CPU Wafer and either Quantum Eyes and Gallium Arsenide, or IGP and Radon. Cut it for Qbit processor chips.
 
+# Quest: ASoC - Advanced System on a Chip
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGlQ.name=§b§lASoC - Advanced System on a Chip
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGlQ.desc=ASoCs. Advanced system on a chip, will be used for a new multiblock, the Precise Assembler.%n%nAnd just like SoCs, ASoCs will be used to make cheaper HV and EV circuits. %n%nHowever you'll need to wait until ZPM to make the cheaper EV circuits.%n%n
+
 # Quest: Polybenzimidazole
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGmw.name=§b§lPolybenzimidazole
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGmw.desc=Polybenzimidazole or PBI is a synthetic fiber needed in ZPM Hulls and in high tier solar panels, and can also be used to make some other items more efficiently. It has many steps to produce it. Let's start with chlorobenzene, but keep in mind you'll need to complete the other non-platline IV-tier chemical quests too.
@@ -3278,10 +3282,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGkw.desc=You may have noticed that the c
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGlA.name=§c§lCheaper HV circuits
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGlA.desc=You can make Nanoprocessors cheaper than before. You'll need to make an imprint first though.
 
-# Quest: ASoc Advanced System on a chip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGlQ.name=§c§lASoc Advanced System on a chip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGlQ.desc=ASoCs. Advanced system on a chip, will be used for a new multiblock, the Precise Assembler.%n%nAnd just like SoCs, ASoCs will be used to make cheaper HV and EV circuits. %n%nHowever you'll need to wait until ZPM to make the cheaper EV circuits.%n%n
-
 # Quest: Crystalprocessors
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGlg.name=§c§lCrystalprocessors
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGlg.desc=Now that you're this far into LuV, you can make easier IV circuits, as well as your first UV circuit.%n%nAfter crafting each circuit, make an imprint of it to reduce the cost of following ones.
@@ -3471,7 +3471,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEw.name=§l§c§lSun Fusion
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEw.desc=Alternative way to mass produce Sunnarium.
 
 # Quest: Relentless Glue
-betterquesting.quest.eZADH1WASo6NLBUTKjLNGQ.name=Relentless Glue
+betterquesting.quest.eZADH1WASo6NLBUTKjLNGQ.name=§c§lRelentless Glue
 betterquesting.quest.eZADH1WASo6NLBUTKjLNGQ.desc=Ethyl Cyanoacrylate, commonly known as Super Glue is the best glue there is. But with great power comes... great complexity. It's not needed now and probably for the next few tiers, but it will make your recipes more efficient and will be necessary in the lategame.%n%n[note]Technically this line is available in IV, but only optional. Show your true skills by searching the recipes in NEI yourself![/note]
 
 
@@ -3810,7 +3810,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKmQ.desc=After getting your sample you n
 
 # Quest: Actually Copying Cultures
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKmg.name=Actually Copying Cultures
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKmg.desc=To copy a culture, you'll need%n1) A Sterilized Petri Dish%n2) A Plasma Membrane (made from Stemcells, or gotten while making EnzymesSollution)%n3) Stemcells%n4) A Data Orb with the appropriate data on it%n5) Liquid DNA%n6) A LuV Bio Lab%n7) A Clonal Cellular Synthesis Module%n%nYou can change out the Data Orb for one with whatever culture you wish to copy. Keep in mind that it might be easier to make a second culture the normal way, and that there's generally an alternative recipe that uses the fluid it produces to make it with a higher chance.%n%nPS: This recipe is the only one in NEI that uses this module, so you can find it if you look, but the number will change, so I can't specify which page.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKmg.desc=To copy a culture, you'll need%n1) A Sterilized Petri Dish%n2) A Plasma Membrane (made from Stemcells, or gotten while making EnzymesSollution)%n3) Stemcells%n4) A Data Orb with the appropriate data on it%n5) Liquid DNA%n6) A UV Bio Lab%n7) A Clonal Cellular Synthesis Module%n%nYou can change out the Data Orb for one with whatever culture you wish to copy. Keep in mind that it might be easier to make a second culture the normal way, and that there's generally an alternative recipe that uses the fluid it produces to make it with a higher chance.%n%nPS: This recipe is the only one in NEI that uses this module, so you can find it if you look, but the number will change, so I can't specify which page.
 
 # Quest: General Purpose Fermenting Bacteria
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKmw.name=General Purpose Fermenting Bacteria
@@ -3842,7 +3842,7 @@ betterquesting.quest.w4JcJ33CSWGlsKrmyHxnXA.desc=Fabricating crystal SoCs with L
 
 # Quest: Advanced Crystal SoC Production
 betterquesting.quest.yo1cuNvYSU2JAczbJLAfjg.name=Advanced Crystal SoC Production
-betterquesting.quest.yo1cuNvYSU2JAczbJLAfjg.desc=We can process Crystal Chip again with the laser engraver to get the Crystal SoC. As the demand for circuits quantities gradually increased, this method of production became untenable. Did we have a more advanced way to mass produce Crystal SoC?%n%nHere is a new material: Cerium-dropped Lutetium Aluminium Garnet (Ce:LuAG)%nThis LuAG has better performance in making Crystal SoC.(In fact it is a laser crystal material.) If you need a more faster speed of producing Crystal SoC, using LuAG to produce will be a good idea.%n%nFirst step mix Lutetium, Aluminium, Oxygen and a little Cerium to get the material Blend. Then put the blend with molten Lutetium into Autoclave to get the first gem type LuAG. If you have already got Oganesson you can also directly use Oganesson. And then use the gem LuAG and Blend to produce Exquisite gem LuAG in Autoclave.%n%nAfter get the first gem, you can also use Autoclave to grow crystals. Using Vacuum Furnance would be a better choice to produce Exquisite gem LuAG. Depends on your preference, of course.%n%nLutetium, Lutetium, it need a lot of Lutetium. How will you to get lot of Lutetium ? Thorium fission may be a little behind. What about "§6Bee§r"yond ? Or look at Lanthanides Nano Extraction ?
+betterquesting.quest.yo1cuNvYSU2JAczbJLAfjg.desc=We can process Crystal Chip again with the laser engraver to get the Crystal SoC. As the demand for circuits quantities gradually increased, this method of production became untenable. Did we have a more advanced way to mass produce Crystal SoC?%n%nHere is a new material: Cerium-doped Lutetium Aluminium Garnet (Ce:LuAG)%nThis LuAG has better performance in making Crystal SoC.(In fact it is a laser crystal material.) If you need a more faster speed of producing Crystal SoC, using LuAG to produce will be a good idea.%n%nFirst step mix Lutetium, Aluminium, Oxygen and a little Cerium to get the material Blend. Then put the blend with molten Lutetium into Autoclave to get the first gem type LuAG. If you have already got Oganesson you can also directly use Oganesson. And then use the gem LuAG and Blend to produce Exquisite gem LuAG in Autoclave.%n%nAfter you get the first gem, you can also use Autoclave to grow crystals. Using Vacuum Furnance would be a better choice to produce Exquisite gem LuAG. Depends on your preference, of course.%n%nLutetium, Lutetium, it need a lot of Lutetium. How will you to get lot of Lutetium ? Thorium fission may be a little behind. What about "§6Bee§r"yond ? Or look at Lanthanides Nano Extraction ?
 
 
 ## Quest Line: Tier 9 - UHV
@@ -3901,8 +3901,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKQA.desc=I wonder if they're circles bec
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKRQ.name=UHV Energy Hatch
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKRQ.desc=If you want to make the T8 Rocket or the mkIV reactor, you'll need this.
 
-# Quest: Pick-n-Place All Over the Place
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKTA.name=Pick-n-Place All Over the Place
+# Quest: Assembling Living Circuits
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKTA.name=Assembling Living Circuits
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKTA.desc=To make Bioware Boards and Circuits, you need to make a UV Circuit Assembling Machine.
 
 # Quest: The Final Frontier?
@@ -4929,7 +4929,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEpA.desc=Railroads in the nether are dan
 
 # Quest: The Transcontinental Railroad - Electric
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEpQ.name=The Transcontinental Railroad - Electric
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEpQ.desc=Electrical tracks are used together with your electric locomotive. You need to power the rails with energy.%n%nNEI doesn't show the right recipe on the first page. Go through the recipes a bit to find the right one.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEpQ.desc=Electrical tracks are used together with your electric locomotive. You need to power the rails with energy.%n%nNEI doesn't show the right recipe on the first page. Go through the recipes a bit to find the right one.%n%n[note]Alternatively you can use the search bar to search for a specific name, in this case electric tracks![/note]
 
 # Quest: Electric Feeder Unit
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEpg.name=Electric Feeder Unit
@@ -6109,7 +6109,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHKQ.desc=To process the most advanced ma
 
 # Quest: Mega is Betta
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH_A.name=§6§lMega is Betta
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH_A.desc=For someone who needs to blast a truly §lridiculous§r amount of stuff, this is the machine for you. This monster machine can handle up to 256 parallel recipes at a time.%n%nThe glass tier sets the maximum energy hatch tier for this machine.%n%nYou can set Circuit prioritization by Screwdrivering the Controller.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH_A.desc=For someone who needs to blast a truly §lridiculous§r amount of stuff, this is the machine for you. This monster machine can handle up to 256 parallel recipes at a time.%n%nThe glass tier limits the energy hatch tier that you can use. You can even use multiamp hatches from TecTech! If you want to use laser hatches however you need at least UV glass.
 
 # Quest: Frostbite!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH_Q.name=§6§lFrostbite!
