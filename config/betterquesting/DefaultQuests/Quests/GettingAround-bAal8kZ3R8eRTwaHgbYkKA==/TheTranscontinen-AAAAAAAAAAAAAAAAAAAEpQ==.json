@@ -3,11 +3,11 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 866
+      "questIDLow:4": 97
     },
     "1:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 77
+      "questIDLow:4": 866
     }
   },
   "questIDLow:4": 1189,
@@ -38,7 +38,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Electrical tracks are used together with your electric locomotive. You need to power the rails with energy.\n\nNEI doesn\u0027t show the right recipe on the first page. Go through the recipes a bit to find the right one."
+      "desc:8": "Electrical tracks are used together with your electric locomotive. You need to power the rails with energy.\n\nNEI doesn\u0027t show the right recipe on the first page. Go through the recipes a bit to find the right one.\n\n[note]Alternatively you can use the search bar to search for a specific name, in this case electric tracks![/note]"
     }
   },
   "tasks:9": {
