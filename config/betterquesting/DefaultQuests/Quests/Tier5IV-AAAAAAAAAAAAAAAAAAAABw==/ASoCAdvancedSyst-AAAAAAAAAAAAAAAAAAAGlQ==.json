@@ -3,13 +3,9 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 1493
-    },
-    "1:10": {
-      "questIDHigh:4": 0,
       "questIDLow:4": 1671
     },
-    "2:10": {
+    "1:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 1407
     }
@@ -34,7 +30,7 @@
       "globalShare:1": 1,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "§c§lASoc Advanced System on a chip",
+      "name:8": "§b§lASoC - Advanced System on a Chip",
       "isGlobal:1": 0,
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
