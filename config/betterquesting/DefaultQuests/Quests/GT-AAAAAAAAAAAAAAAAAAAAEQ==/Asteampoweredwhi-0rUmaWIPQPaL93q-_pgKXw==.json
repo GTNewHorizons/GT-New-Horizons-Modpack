@@ -29,7 +29,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "How does one separate rare materials in the Steam Age? The answer is by building and using the Steam Centrifuge, of course! By using steam to create a spinning force, this multiblock can separate different materials quickly and easily.\n\nIf you think separation is taking forever, the Steam Centrifuge will speed things up!\n\n§3§3This multiblock can process recipes up to MV Tier, so you don\u0027t necessarily need to build an LV Centrifuge if you have built this bad boy."
+      "desc:8": "How does one separate rare materials in the Steam Age? The answer is by building and using the Steam Centrifuge, of course! By using steam to create a spinning force, this multiblock can separate different materials quickly and easily.\n\nIf you think separation is taking forever, the Steam Centrifuge will speed things up!\n\n§3§3This multiblock can process recipes up to MV Tier, so you don\u0027t necessarily need to build an LV Centrifuge if you have built this bad boy. While it does accept an output hatch for recipes that output a fluid, it does not allow for an input hatch."
     }
   },
   "tasks:9": {
@@ -78,6 +78,12 @@
           "OreDict:8": ""
         },
         "6:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 60,
+          "OreDict:8": ""
+        },
+        "7:10": {
           "id:8": "gregtech:gt.blockmachines",
           "Count:3": 1,
           "Damage:2": 31040,
