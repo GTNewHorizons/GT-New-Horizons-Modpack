@@ -29,9 +29,14 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "This quests acts as a centreal space for information regarding all steam multis.\nThings to mention:\n-Specific I/O\n-They process 8 items * Tier\n-Tier 1 is bronze \u0026 Tier 2 is steel\n-Like other multiblocks they will void if they run out of energy (in this case steam)\n-They are more efficient since they are faster than their singleblock counterpart and they use less steam\n-The Tier and amount of püarallel can be seen via the mod thingy\n\n§W§3With this quest, you have started your journey with GT++ Multiblocks. However, don\u0027t get too excited quite yet. While there are some multiblocks accessible in the Steam Age, most of them only unlock in EV or later, including a better version of this macerator.\n\n§rIt only works 8 at a time, but is faster. Note that this multi requires §c§4§lVery Specific§r I/O blocks, don\u0027t mess it up."
+      "desc:8": "You should have quite the collection of single block Steam machines by now. While these may have gotten you through processing small amounts of materials, there will be a time when you will have to process a multitude of items. This is where multiblocks come in.\n\nWhile these multiblocks have a material cost that is way higher than their single block counterparts, they have certain bonuses: they use less steam, and they can process recipes in parallel, which means that a single recipe cycle can craft multiple items at once, if the steam provided is enough to sustain it.\n\n§TThey do however have some quirks that need to be taken care of:\n\n-These multiblocks require §4§lvery specific§r I/O blocks, use only those that are part of the quest \n-They process 8 items * Tier, where Tier 1 is made of bronze and Tier 2 is made of steel (checkout the Multiblock Preview in NEI which will show you different levels of tiers)\n-Like other multiblocks they will void the items being processed if they run out of energy (in this case steam) mid operation\n-The Tier and amount of parallel processing can be seen via WAILA if you are looking at the controller block\n\n§W§3With this quest, you have started your journey with GT++ Multiblocks. However, don\u0027t get too excited quite yet. While there are some multiblocks accessible in the Steam Age, most of them only unlock in EV or later, including better versions of these multiblocks."
     }
   },
-  "tasks:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
   "rewards:9": {}
 }
