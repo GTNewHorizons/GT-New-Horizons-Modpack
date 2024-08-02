@@ -836,6 +836,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALXw.desc=Are your upgraded cobblestone o
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALYA.name=§3§lBarrel Upgrades Tier 5
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALYA.desc=Are your upgraded cobblestone or dirt barrels full again? No problem, upgrade them some more!
 
+# Quest: Multiblocks in the steam age? Impossible!
+betterquesting.quest.yPj3r4-lQB6EVR5qagKzvQ.name=§3§lMultiblocks in the steam age? Impossible!
+betterquesting.quest.yPj3r4-lQB6EVR5qagKzvQ.desc=The steam machines you have been using until now have served you well, but there will be a time when you need to process even more items. That's where so-called multiblocks come in. There’s a variety of steam multiblocks available to you now: a washer, centrifuge, macerator, compressor, and forge hammer.%n%nGo have a look at the GT++ quest tab!
+
 
 ## Quest Line: Tier 1 - LV
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAAw.name=Tier 1 - LV
@@ -6292,6 +6296,10 @@ betterquesting.quest.tQecVBhjRRyfR3sqeNBrtA.desc=If you ever thought that the st
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAEQ.name=GT++ 
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAEQ.desc=GT++ adds new functionality to GT, including high speed multiblocks.
 
+# Quest: A steam-powered whirl!
+betterquesting.quest.0rUmaWIPQPaL93q-_pgKXw.name=A steam-powered whirl!
+betterquesting.quest.0rUmaWIPQPaL93q-_pgKXw.desc=How does one separate rare materials in the Steam Age? The answer is by building and using the Steam Centrifuge, of course! By using steam to create a spinning force, this multiblock can separate different materials quickly and easily.%n%nIf you think separation is taking forever, the Steam Centrifuge will speed things up!%n%n§3§3This multiblock can process recipes up to MV Tier, so you don't necessarily need to build an LV Centrifuge if you have built this bad boy. While it does accept an output hatch for recipes that output a fluid, it does not allow for an input hatch.
+
 # Quest: Marie Curium?
 betterquesting.quest.3r7tJ7_bTuePzsh-B_jyIQ.name=Marie Curium?
 betterquesting.quest.3r7tJ7_bTuePzsh-B_jyIQ.desc=It's like cured meat... no, not at all, many sacrifices were made on the path to understanding radioactivity, may they be remembered forever. This goes to you, Marie and Pierre Curie.%n%nThis is the only non-plasma produced in a fusion reaction in this entire chain. That's not the important part, though: the important part is that [warn]this is one of the bottlenecks of the chain.[/warn] For every reactor running the final recipe, you will need around 0.144 reactors of this, so you won't make it to a compact at the end with just one mk1 reactor. Expect to follow the count of the second-to-last recipe, the Advanced Nitinol one.
@@ -6420,6 +6428,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKyA.desc=In addition to being a dehydrat
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKyQ.name=Do I Really Need to Make This?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKyQ.desc=Oh wait, yes, you actually need this now! That was supposed to be a rhetorical question!%n%nThe main thing you will probably get out of it is the Quantum Anomaly.%n%n[note]This multi is LuV. But you don't need it until UHV.[/note]
 
+# Quest: Steamy Mincer
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKzA.name=Steamy Mincer
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKzA.desc=This is an upgraded version of your trusty ol' Steam Macerator. As a 3x3 multiblock, it might seem expensive if you're in the Steam Age. However, the processing time per ore is so low that you can sustain your beginner's ore processing system with it!%n%nThe main reason to switch from this is the HV Macerator, which unlocks a slot for additional byproducts gained from the macerating step of ore processing. However, this will do just fine until then!%n%n§3The Steam Grinder can process recipes up to HV Tier, which includes about 97%% of all recipes. You will only ever get the first item shown in the recipe, though, so keep that in mind.
+
 # Quest: MABS
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM1Q.name=MABS
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM1Q.desc=This unholy union between Mega and GT++ must be the work of some madman. It is the ultimate metallurgical furnace to make your alloys with up to 256 parallels. Using better coils and glass also boosts its speed and reduces energy costs! %n%nThe glass tier limits both the energy hatch tier and the recipe tier. As with other multis, UEV glass unlocks all tiers and UV glass is needed for lasers.
@@ -6476,9 +6488,9 @@ betterquesting.quest.LSqzsH4oS7OQrZyolb7C0A.desc=This is the end of the mk3 fusi
 betterquesting.quest.Ng5Ldnf3TZCefB4Mr3u-rQ.name=Zzzincing...
 betterquesting.quest.Ng5Ldnf3TZCefB4Mr3u-rQ.desc=Do you know how much Zinc you have in your body? Very little, but it's important. Now imagine it's all plasma!%n%nThis is a very fast recipe, like Niobium Plasma. The only caveat is that it uses Tritium (not Trinium), a rare isotope of Hydrogen that you can obtain from Deuterium, a less rare isotope. You can pump it directly from Neptune, through the Space Elevator or simply by centrifuging the Deuterium you already automated for Helium Plasma.
 
-# Quest: More Steam, More Pressure!
-betterquesting.quest.Plg8vg0gS9Ks2Ddc5sIVOg.name=More Steam, More Pressure!
-betterquesting.quest.Plg8vg0gS9Ks2Ddc5sIVOg.desc=How do you compress things in the Steam Age? Simple, putting a lot of steam in one place, under high pressure, can apply a force to compress things...%n%nLet's just make it bigger. With the Steam Squasher, you can have a Compressor in a much larger scale, similarly to the Steam Macerator multiblock, which processes 8 recipes at the same time. If you feel like compressing recipes are taking too long, which they probably are, this is a good solution to your problems.%n%nPay close attention to the hatches used for this multi. If they are not the exact ones in this quest, the multi will not form! Once the multi forms, provide lots of steam to get lots of compressed items.
+# Quest: More steam, more pressure!
+betterquesting.quest.Plg8vg0gS9Ks2Ddc5sIVOg.name=More steam, more pressure!
+betterquesting.quest.Plg8vg0gS9Ks2Ddc5sIVOg.desc=How do you compress things in the Steam Age? Simple, putting a lot of steam in one place, under high pressure, can apply a force to compress things...%n%nLet's just make it bigger. With the Steam Squasher, you can have a Compressor in a much larger scale, similarly to the other Steam Multiblocks. If you feel like compressing recipes are taking too long, which they probably are, this is a good solution to your problems.%n%nOnce the multi forms, provide lots of steam to get lots of compressed items.
 
 # Quest: AMERICA!!!!!!!!!
 betterquesting.quest.Qrjs7uh5TcSveEbaFnXFog.name=AMERICA!!!!!!!!!
@@ -6516,6 +6528,14 @@ betterquesting.quest.fLH_QDPRR6mgCK0PL5iWmA.desc=This multiblock is the perfect 
 betterquesting.quest.pLCgOVmqTUCudSXZusnceg.name=This is your Kryptonite!
 betterquesting.quest.pLCgOVmqTUCudSXZusnceg.desc=Here's the special Titanium I promised you. GT++ materials enter the fray here, both with this and the Titansteel you need to add to that to make what comes next!%n%nThat step only comes after fusing Niobium and Zinc into Krypton Plasma. You get a rarer noble gas here than before, the next one will be Xenon. This recipe matches in speed with the next one, which uses Krypton to make Astral Titanium Plasma, by adding in the final plasma of the previous chain, Force Plasma! That's right, each chain needs everything from before to continue. %n%nOnce you have Astral Titanium Plasma, you can move on to the final mk2 step.
 
+# Quest: Steam-powered Multiblocks
+betterquesting.quest.quLxATDCQFWsrZRuh_gspA.name=Steam-powered Multiblocks
+betterquesting.quest.quLxATDCQFWsrZRuh_gspA.desc=You should have quite the collection of single block Steam machines by now. While these may have gotten you through processing small amounts of materials, there will be a time when you will have to process a multitude of items. This is where multiblocks come in.%n%nWhile these multiblocks have a material cost that is way higher than their single block counterparts, they have certain bonuses: they use less steam, and they can process recipes in parallel, which means that a single recipe cycle can craft multiple items at once, if the steam provided is enough to sustain it.%n%n§TThey do however have some quirks that need to be taken care of:%n%n-These multiblocks require §4§lvery specific§r I/O blocks, use only those that are part of the quest %n-They process 8 items * Tier, where Tier 1 is made of bronze and Tier 2 is made of steel (checkout the Multiblock Preview in NEI which will show you different levels of tiers)%n-Like other multiblocks they will void the items being processed if they run out of energy (in this case steam) mid operation%n-The Tier and amount of parallel processing can be seen via WAILA if you are looking at the controller block%n%n§W§3With this quest, you have started your journey with GT++ Multiblocks. However, don't get too excited quite yet. While there are some multiblocks accessible in the Steam Age, most of them only unlock in EV or later, including better versions of these multiblocks.
+
+# Quest: Steam stomping!
+betterquesting.quest.s6AEHSKiQe2XveT_oDZbZg.name=Steam stomping!
+betterquesting.quest.s6AEHSKiQe2XveT_oDZbZg.desc=While the Forge Hammer is quite fast already, why not build this upscaled version and make it even faster? With the Steam Forge Hammer, you can unleash the full force of steam on whatever material you feed it. Watch blocks break apart and rods get smashed together faster than ever-at least until you gain access to more advanced technology.%n%n§3The Steam Forge Hammer can process recipes up to HV Tier, which includes about 98%% of all recipes.
+
 # Quest: Force Plasma - The Mk1 Ending
 betterquesting.quest.tSCw6KSbR8a4TCNWlrmkYQ.name=Force Plasma - The Mk1 Ending
 betterquesting.quest.tSCw6KSbR8a4TCNWlrmkYQ.desc=Once you have the two plasmas from before, fuse them together into a new one, Neon Plasma. If you were to use this directly, you could get Neon! There are other, more useful materials to get later in this process, so keep a lookout for those.%n%nHowever, this is not the final plasma in mk1 recipes. To get it, you need to do the last activation step, which exists in all three chains, and involves adding a non-plasma related material, of the appropriate GT tier, to obtain the powergen plasma. The material you need here is Bedrockium, one you probably have used before. The early game, Compressed Cobblestone method of getting it is a huge burden, so switch to t8 Void Miners or the Space Elevator to automate this.%n%nIf you look at the last recipe, you'll see it's 144L Neon Plasma input to 1000L Force Plasma output. This multiplying makes it so that step, and all final steps, are the slowest ones. You will need 0.144 Neon Plasma reactors for every Force Plasma reactor, which means that 1 Neon reactor feeds nearly 7 Force reactors (6.9444... reactors, more precisely).%n%nOnce you get Force Plasma, this is the end of the mk1 fusion chain. Force Plasma is a 150M fuel value plasma, which means it has a 53.5%% penalty with Infinity Catalyst in XL Plasma Generators. This is better than Helium Plasma with its 86.1%% penalty but still not great for power generation. You probably don't need this in ZPM, but it'll be a stepping stone for your future progression.
@@ -6527,6 +6547,10 @@ betterquesting.quest.w5O5rPL_Q_GDp8lxWMd0DQ.desc=You might already have a Steam 
 # Quest: More Algae Uses
 betterquesting.quest.wgxwGsMBScCIIWzrgyfb8w.name=More Algae Uses
 betterquesting.quest.wgxwGsMBScCIIWzrgyfb8w.desc=Now that you have Titanium, why not make about 79 EV machine casings for some cheap Ammonia? The ratio is about 50mb to one Golden-Brown Algae. At EV you have a 10%% chance to get 8 about every 30 seconds. It also does not require a Chemical Plant, but it will require an MV Assembler and an MV Fluid Extractor at minimum.
+
+# Quest: Pressure washing!
+betterquesting.quest.zorY0c3BQuqLJp7ThOLG-g.name=Pressure washing!
+betterquesting.quest.zorY0c3BQuqLJp7ThOLG-g.desc=If you have been processing the ores you have gathered up until now, you will have come across a variety of crushed ores. Since these are quite dirty, you will have to clean them up to get certain byproducts. But how do you clean up this multitude of crushed ores? By using a Steam Washer, of course! With a steady flow of steam and a bit of water, you can wash away impurities and get purified crushed ores in no time.%n%nIf you’re tired of waiting forever for your ores to clean up, this is your fix!%n%n§3This multiblock has two modes, the default washer one and a simple washer mode. Simple washers process ores considerably faster, but they do not give byproducts. Like other multiblocks, the mode can be toggled by the respective button inside the GUI or by right-clicking the controller with a screwdriver. Since all ore washing recipes are LV, this multiblock can run all of them.
 
 
 ## Quest Line: How to Generate Power
@@ -14001,10 +14025,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKqw.desc=Active Transformers will transf
 # Quest: This is Not How You Get Into Space
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKyg.name=This is Not How You Get Into Space
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKyg.desc=This produces power out of Rocket Fuels. To see how to make them, look at the Space Race tab. These are specifically GT++ Rocket Fuels, and automating them for powergen in this multi will also provide you with endless fuel for your space travels.%n%nThe math regarding the Rocketdyne is complicated. Looking at the controller's tooltip helps, but the main gist of it is like this: provide Carbon Dioxide and make sure it doesn't run out, choose the EU/t you want to get, calculate the amount of fuel you need for the fuel you will use, and then provide enough Liquid Hydrogen to boost the multi, according to the EU/t value.%n%nYou will always want to have the Rocketdyne boosted, for several reasons. Assuming you have at least a buffered IV Dynamo Hatch, outputting close to the maximum on that hatch will lower the fuel efficiency, but not if it's boosted. Additionally, this multi doesn't consume fuel continuously, but with intervals of 1 second between consuming and not consuming, while generating power all the same. Boosting this consumption results in huge fuel efficiency, combined with the high fuel values of the Rocket Fuels.
-
-# Quest: A Steam Tier Multi? Unpossible!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKzA.name=§3§lA Steam Tier Multi? Unpossible!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKzA.desc=It's a larger version of the Steam Macerator. It only works 8 at a time, but is faster. Note that this multi requires [warn]Very Specific[/warn] I/O blocks, don't mess it up.%n%nAs a 3x3 multiblock, it might seem expensive if you're in the Steam age. However, the processing time per ore is so low that you can sustain your beginner's ore processing system with it! The main reason to change off this is the HV Macerator, which unlocks new outputs on top of what you already get.%n%n[note]With this quest you have started your journey on GT++ Multiblocks. However, don't get too excited quite yet. Most of them only unlock in EV or later, including a better version of this macerator.[/note]%n
 
 # Quest: Dyson Swarm Ground Unit
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL3w.name=Dyson Swarm Ground Unit
