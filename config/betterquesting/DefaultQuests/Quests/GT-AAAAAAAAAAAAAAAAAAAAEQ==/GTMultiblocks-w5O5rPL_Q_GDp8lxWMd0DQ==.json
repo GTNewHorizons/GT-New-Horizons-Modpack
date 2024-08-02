@@ -4,6 +4,10 @@
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 176
+    },
+    "1:10": {
+      "questIDHigh:4": -6133074755109896107,
+      "questIDLow:4": -6003979525766501212
     }
   },
   "questIDLow:4": -8959971444972358643,
@@ -23,7 +27,7 @@
       "snd_update:8": "random.levelup",
       "repeatTime:3": -1,
       "globalShare:1": 0,
-      "questLogic:8": "AND",
+      "questLogic:8": "OR",
       "repeat_relative:1": 1,
       "name:8": "GT++ Multiblocks",
       "lockedProgress:1": 0,
