@@ -6,8 +6,9 @@
       "questIDLow:4": 2978
     },
     "1:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 766
+      "questIDHigh:4": -1759268051879246627,
+      "questIDLow:4": -8171783490200761150,
+      "type:1": 1
     }
   },
   "questIDLow:4": 2977,
@@ -35,7 +36,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Then heat up the slurry with steam."
+      "desc:8": "Then heat up the slurry you made with a Fluid Heater."
     }
   },
   "tasks:9": {
