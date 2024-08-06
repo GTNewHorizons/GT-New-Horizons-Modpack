@@ -3,7 +3,7 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 1085
+      "questIDLow:4": 36
     }
   },
   "questIDLow:4": 1095,
@@ -31,7 +31,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "If you found enough gold, you can upgrade your chest to make it an even bigger inventory of 9x9. You can just build a new chest or upgrade the iron chest with a wood-to-gold-chest upgrade item. You can use an assembler to make them a little cheaper too, if you have one."
+      "desc:8": "If you found enough gold, you can upgrade your chest to make it an even bigger inventory of 9x9.\n\n[note]Do you have iron chests that are too small? You can also upgrade with a fitting upgrade item.[/note]"
     }
   },
   "tasks:9": {

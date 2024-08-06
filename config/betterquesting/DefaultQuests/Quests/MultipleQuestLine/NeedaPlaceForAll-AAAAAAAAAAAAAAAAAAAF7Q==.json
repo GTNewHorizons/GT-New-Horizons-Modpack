@@ -4,6 +4,10 @@
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 932
+    },
+    "1:10": {
+      "questIDHigh:4": -5211701503747732636,
+      "questIDLow:4": -8724598716517898559
     }
   },
   "questIDLow:4": 1517,
@@ -31,7 +35,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "How about a compressed chest from Avaritia? This 243 slot chest will hold it\u0027s contents when broken, so no need for a slow-inducing dolly!"
+      "desc:8": "...at last, the final chest, it will keep its inventory even after breaking! Item transportation will become much simpler with this!"
     }
   },
   "tasks:9": {

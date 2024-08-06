@@ -1,37 +1,35 @@
 {
-  "questIDHigh:4": 0,
+  "questIDHigh:4": 4673371915106402541,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 102
+      "questIDLow:4": 36
     }
   },
-  "questIDLow:4": 1094,
+  "questIDLow:4": -6848797731239430532,
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
       "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
       "visibility:8": "NORMAL",
       "isMain:1": 0,
       "simultaneous:1": 0,
       "icon:10": {
         "id:8": "IronChest:BlockIronChest",
         "Count:3": 1,
-        "Damage:2": 2,
+        "Damage:2": 3,
         "OreDict:8": ""
       },
       "snd_update:8": "random.levelup",
       "repeatTime:3": -1,
-      "globalShare:1": 1,
+      "globalShare:1": 0,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "§5§lDiamond Chests... Ooo, Shiny",
-      "isGlobal:1": 0,
+      "name:8": "§2§lCompact Storage",
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "After you build a cutting machine you can make some diamond plates for your new, even bigger diamond chests."
+      "desc:8": "Now that you are starting to find more and more copper, you feel your wood chests are too small to hold all the stuff. \n\n[note]It\u0027s time to upgrade your wooden chests to copper chests! Higher tiers of chests can be upgraded cheaply by using upgrade items, but not all tier chests can be upgraded directly this way. try the \"Wood to Copper Chest Upgrade\", upgrade from wood to a tiered chest will not be chaper.[/note]\n\n[note]Upgraded chests cannot be connected into double chests.[/note]"
     }
   },
   "tasks:9": {
@@ -39,43 +37,14 @@
       "partialMatch:1": 1,
       "autoConsume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
+      "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 4,
-          "Damage:2": 17500,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 2,
-          "Damage:2": 27500,
-          "OreDict:8": ""
-        },
-        "2:10": {
-          "id:8": "minecraft:chest",
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      },
-      "taskID:8": "bq_standard:optional_retrieval"
-    },
-    "1:10": {
-      "partialMatch:1": 1,
-      "autoConsume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
-      "index:3": 1,
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
           "id:8": "IronChest:BlockIronChest",
           "Count:3": 1,
-          "Damage:2": 2,
+          "Damage:2": 3,
           "OreDict:8": ""
         }
       },
@@ -84,19 +53,25 @@
   },
   "rewards:9": {
     "0:10": {
-      "rewardID:8": "bq_standard:item",
+      "rewardID:8": "bq_standard:choice",
       "index:3": 0,
-      "rewards:9": {
+      "choices:9": {
         "0:10": {
-          "id:8": "IronChest:goldDiamondUpgrade",
-          "Count:3": 1,
+          "id:8": "IronChest:woodCopperUpgrade",
+          "Count:3": 3,
           "Damage:2": 0,
           "OreDict:8": ""
         },
         "1:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 8,
+          "Damage:2": 11035,
+          "OreDict:8": ""
+        },
+        "2:10": {
           "id:8": "enhancedlootbags:lootbag",
           "Count:3": 1,
-          "Damage:2": 4,
+          "Damage:2": 2,
           "OreDict:8": ""
         }
       }
@@ -107,7 +82,7 @@
       "rewards:9": {
         "0:10": {
           "id:8": "dreamcraft:item.CoinTechnician",
-          "Count:3": 15,
+          "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": ""
         }
