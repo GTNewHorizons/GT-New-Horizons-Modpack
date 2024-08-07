@@ -31,7 +31,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "With this powerful machine, you can inject gene samples, which allows you to alter any aspect of your bee, tree or butterfly. The gene sample (or pattern) will not be destroyed. The success rate is 100%, and one labware is consumed per injection."
+      "desc:8": "With this powerful machine, you can inject gene samples, which allows you to alter any aspect of your bee, tree or butterfly. The gene sample (or pattern) will not be destroyed.\n\nThe machine has 30% chance to downgrade pristine into ignoble and 80% chance to kill ignoble bees.\n\nOne labware is consumed per operation."
     }
   },
   "tasks:9": {

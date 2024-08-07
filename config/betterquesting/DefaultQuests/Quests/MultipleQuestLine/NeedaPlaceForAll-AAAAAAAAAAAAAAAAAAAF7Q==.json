@@ -3,10 +3,19 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 102
+      "questIDLow:4": 932
+    },
+    "1:10": {
+      "questIDHigh:4": 4668386637438996383,
+      "questIDLow:4": -5548813088822417447,
+      "type:1": 1
+    },
+    "2:10": {
+      "questIDHigh:4": -5211701503747732636,
+      "questIDLow:4": -8724598716517898559
     }
   },
-  "questIDLow:4": 1094,
+  "questIDLow:4": 1517,
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
@@ -16,9 +25,9 @@
       "isMain:1": 0,
       "simultaneous:1": 0,
       "icon:10": {
-        "id:8": "IronChest:BlockIronChest",
+        "id:8": "avaritiaddons:CompressedChest",
         "Count:3": 1,
-        "Damage:2": 2,
+        "Damage:2": 0,
         "OreDict:8": ""
       },
       "snd_update:8": "random.levelup",
@@ -26,12 +35,12 @@
       "globalShare:1": 1,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "§5§lDiamond Chests... Ooo, Shiny",
+      "name:8": "§9§lNeed a Place For All Those Ores?",
       "isGlobal:1": 0,
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "After you build a cutting machine you can make some diamond plates for your new, even bigger diamond chests."
+      "desc:8": "...at last, the final chest, it will keep its inventory even after breaking! Item transportation will become much simpler with this!"
     }
   },
   "tasks:9": {
@@ -44,38 +53,9 @@
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 4,
-          "Damage:2": 17500,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 2,
-          "Damage:2": 27500,
-          "OreDict:8": ""
-        },
-        "2:10": {
-          "id:8": "minecraft:chest",
+          "id:8": "avaritiaddons:CompressedChest",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      },
-      "taskID:8": "bq_standard:optional_retrieval"
-    },
-    "1:10": {
-      "partialMatch:1": 1,
-      "autoConsume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
-      "index:3": 1,
-      "consume:1": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "id:8": "IronChest:BlockIronChest",
-          "Count:3": 1,
-          "Damage:2": 2,
           "OreDict:8": ""
         }
       },
@@ -88,15 +68,9 @@
       "index:3": 0,
       "rewards:9": {
         "0:10": {
-          "id:8": "IronChest:goldDiamondUpgrade",
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "1:10": {
           "id:8": "enhancedlootbags:lootbag",
           "Count:3": 1,
-          "Damage:2": 4,
+          "Damage:2": 6,
           "OreDict:8": ""
         }
       }
@@ -106,8 +80,14 @@
       "index:3": 1,
       "rewards:9": {
         "0:10": {
-          "id:8": "dreamcraft:item.CoinTechnician",
-          "Count:3": 15,
+          "id:8": "dreamcraft:item.CoinTechnicianI",
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "dreamcraft:item.CoinSmithI",
+          "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": ""
         }
