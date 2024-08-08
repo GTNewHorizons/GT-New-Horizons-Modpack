@@ -3,10 +3,10 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 127
+      "questIDLow:4": 102
     }
   },
-  "questIDLow:4": 738,
+  "questIDLow:4": 1094,
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
@@ -16,9 +16,9 @@
       "isMain:1": 0,
       "simultaneous:1": 0,
       "icon:10": {
-        "id:8": "ProjRed|Transportation:projectred.transportation.routingchip",
-        "Count:3": 2,
-        "Damage:2": 1,
+        "id:8": "IronChest:BlockIronChest",
+        "Count:3": 1,
+        "Damage:2": 2,
         "OreDict:8": ""
       },
       "snd_update:8": "random.levelup",
@@ -26,12 +26,12 @@
       "globalShare:1": 1,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "Routed Pipes",
+      "name:8": "§5§lDiamond Chests... Ooo, Shiny",
       "isGlobal:1": 0,
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "There are six types of routed pipes: \n\n-Junction pipe is used to form an intersection that will allow other routed pipes to communicate. \n\n-Interface pipe will connect to an inventory allowing you to extract or insert items, chips can be used to control the logic. \n\n-Request pipe will allow requesting only specific items to be send through pipes.\n\n-Firewall pipe can control which items can pass through them."
+      "desc:8": "After you build a cutting machine you can make some diamond plates for your new, even bigger diamond chests.\n\n[note]Just as with the previous chests you can also upgrade with a fitting upgrade item.[/note]"
     }
   },
   "tasks:9": {
@@ -44,9 +44,38 @@
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "ProjRed|Transportation:projectred.transportation.pipe",
+          "id:8": "gregtech:gt.metaitem.01",
           "Count:3": 4,
-          "Damage:2": 1,
+          "Damage:2": 17500,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 2,
+          "Damage:2": 27500,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "minecraft:chest",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "IronChest:BlockIronChest",
+          "Count:3": 1,
+          "Damage:2": 2,
           "OreDict:8": ""
         }
       },
@@ -55,28 +84,16 @@
   },
   "rewards:9": {
     "0:10": {
-      "rewardID:8": "bq_standard:choice",
+      "rewardID:8": "bq_standard:item",
       "index:3": 0,
-      "choices:9": {
+      "rewards:9": {
         "0:10": {
-          "id:8": "ProjRed|Transportation:projectred.transportation.pipe",
-          "Count:3": 4,
+          "id:8": "IronChest:goldDiamondUpgrade",
+          "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": ""
         },
         "1:10": {
-          "id:8": "ProjRed|Core:projectred.core.part",
-          "Count:3": 2,
-          "Damage:2": 13,
-          "OreDict:8": ""
-        },
-        "2:10": {
-          "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 1,
-          "Damage:2": 17500,
-          "OreDict:8": ""
-        },
-        "3:10": {
           "id:8": "enhancedlootbags:lootbag",
           "Count:3": 1,
           "Damage:2": 4,
