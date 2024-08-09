@@ -31,38 +31,13 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "If you are playing single player (SP), updating the pack means having to reload the questbook. \n\nUse the Default Load Block to do it for you without switching to creative mode - you don\u0027t lose progress, but you might have new quests to complete! Use the items to craft it, then place it and right-click.\n\nSorry, no rewards, other than the satisfaction of knowing it\u0027s you versus the world.\n\nThis block does the same as the command /bq_admin default load."
+      "desc:8": "Thanks to our amazing devs, you no longer have to use a command block to reload your questbook between updates. This means you\u0027ll get all new quests automatically upon updating to a new version of GTNH! Isn\u0027t that convenient?\n\nIf, for whatever reason, you want to manually reload your questbook, you can do so by typing /bq_admin default load in the chat window. You will need to be an admin for it to work, though.\n\nHere\u0027s another questbook in case you already lost the one you spawned with. Don\u0027t forget that it can also be viewed at any time by pressing the Tilde (~) key if you have not changed its keybind.\n\n§3Some command blocks are still used for specific tasks, but they do not concern the average player since they are admin-only and thus are not craftable."
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
-      "autoConsume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
       "index:3": 0,
-      "consume:1": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "id:8": "minecraft:dirt",
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "minecraft:gravel",
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "2:10": {
-          "id:8": "minecraft:stick",
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:checkbox"
     }
   },
   "rewards:9": {
