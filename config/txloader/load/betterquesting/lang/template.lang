@@ -13844,7 +13844,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEsQ.desc=Your fancy new Large Plasma Tur
 
 # Quest: All Alone in the Night
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF1w.name=§1§lAll Alone in the Night
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF1w.desc=If you are playing single player (SP), updating the pack means having to reload the questbook. %n%nUse the Default Load Block to do it for you without switching to creative mode - you don't lose progress, but you might have new quests to complete! Use the items to craft it, then place it and right-click.%n%nSorry, no rewards, other than the satisfaction of knowing it's you versus the world.%n%nThis block does the same as the command /bq_admin default load.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF1w.desc=Thanks to our amazing devs, you no longer have to use a command block to reload your questbook between updates. This means you'll get all new quests automatically upon updating to a new version of GTNH! Isn't that convenient?%n%nIf, for whatever reason, you want to manually reload your questbook, you can do so by typing /bq_admin default load in the chat window. You will need to be an admin for it to work, though.%n%nHere's another questbook in case you already lost the one you spawned with. Don't forget that it can also be viewed at any time by pressing the Tilde (~) key if you have not changed its keybind.%n%n§3Some command blocks are still used for specific tasks, but they do not concern the average player since they are admin-only and thus are not craftable.
 
 # Quest: How the Heck Do I Find Ores?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF2A.name=§2§lHow the Heck Do I Find Ores?
