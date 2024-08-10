@@ -121,10 +121,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHMw.desc=Some spider have nasty modifier
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHNA.name=§1§lPorkchops With Attitude
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHNA.desc=The only zombie pigman to watch out for is the Vampire Pigman. He hardly takes any damage unless you use a wooden sword as a stake, or have a magical sword.
 
-# Quest: Flaming Idiots
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHNQ.name=§1§lFlaming Idiots
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHNQ.desc=Blazes are all infernals, and all nasty. Avoid like a plague. Get awesome weapons, awesome armor, and prepare for a fight. %n%nThe alternative is to figure out a way to destroy them with technology.%n%nThe alternative to the alternative is to figure out a different way to get blazepowder and blaze rods.
-
 # Quest: Tell Me When We Reach 20
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHOQ.name=§1§lTell Me When We Reach 20
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHOQ.desc=Jumping all the time is exhausting and makes you really hungry. %nTo reduce your food depletion, you might want to use stairs instead.
@@ -367,14 +363,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADsQ.desc=Making paper out of wood pulp a
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADsw.name=§2§lPunji Sticks
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADsw.desc=An early game protection moat can be made out of punji sticks. It hurts all mobs/players and additionally gives a slowness II potion effect. Make a trench around your base and put the punji sticks inside.
 
-# Quest: More Compact Storage
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEPQ.name=§2§lMore Compact Storage
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEPQ.desc=Now that you are starting to find more and more iron, you feel your wood chests are too small to hold all the stuff. %n%nIt's time to upgrade your chests to iron chests! You can just build a new chest or upgrade the wood chest with a wood-to-iron-chest upgrade item.
-
-# Quest: Even More Compact Storage
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAERw.name=§2§lEven More Compact Storage
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAERw.desc=If you found enough gold, you can upgrade your chest to make it an even bigger inventory of 9x9. You can just build a new chest or upgrade the iron chest with a wood-to-gold-chest upgrade item. You can use an assembler to make them a little cheaper too, if you have one.
-
 # Quest: Redstone? Haste!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEaQ.name=§2§lRedstone? Haste!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEaQ.desc=Mining and digging can be soooo slow. Get some redstone on your pick, shovel or axe to make it faster. You can use the Crafting Station to upgrade your tool 8 dust at a time. Later when you get a compressor you can use blocks to do 9 per block.
@@ -450,6 +438,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALPA.desc=It looks like you've found a se
 # Quest: The power of prospecting!
 betterquesting.quest.bMKIeFhNQluRks9YzpqEGQ.name=§6§lThe power of prospecting!
 betterquesting.quest.bMKIeFhNQluRks9YzpqEGQ.desc=At the top of your map screen (J by default) there are multiple tabs, some of them will be very useful and will save you a ton of searching!%n%nGT Oreveins - this tab will keep track of the veins for you, to save a vein to map right-click a naturally generated ore (some tools can't right click)%nGT Underground fluids - this will help you later (MV)%nTC Nodes - this tab will keep track of thaumcraft nodes for you (you need to scan them first)%n%n[note]Small Ores are not part of veins and thus do not uncover a vein on the map. However veins generate extra small ores related to the vein in their chunks, so they can still be useful in your search (though not all small ores are related to a nearby vein so don't be fooled).[/note]%n%n[note]Another great interaction is that you can use the NEI search bar in highlight mode (doubleclick it) and then go to the map screen to get the matching uncovered ore veins highlighted![/note]
+
+# Quest: NEI is EVEN MORE POWERFUL NOW?
+betterquesting.quest.pl7uw8oSRhe6L4DmTRfrOQ.name=§2§lNEI is EVEN MORE POWERFUL NOW?
+betterquesting.quest.pl7uw8oSRhe6L4DmTRfrOQ.desc=NEI now automatically collapses similiar items into one slot making browsing much faster! To collapse/uncollapse a group use ALT+LMB.%nYou can also create your own presets with custom groups!%n%n[note]You can disable this functionality in NEI settings[/note]%n%nAlso now NEI has JEI-like Advanced Search:%n%n@ - search by mod (@minecraft)%n%n[note]There are even more special characters that you can use but most of them are off by default (e.g. no need to use # to search in tooltip), below are all the special characters, check which ones are on/off in NEI settings.%n%nSpace is used as a logical AND between different conditions%n# - search by tooltip (#UV-Tier)%n& - search by id: (&95:15 extratrees:door)%n$ - search by ore dictionary ($ore)%n%% - search by subsets (%%block)%n| - logical or. multi-item search (wrench|hammer)%n- - logical not. exclude items that match the following expression (-@minecraft)%n" - multiple words wrapped in quotes are treated as one condition rather than several ("White Stained Glass")%n%nSearch Mode (apply on search parts, not full string):%nPlain - simple string%nExtended - allow only ?, * rules (by default)%nRegex - allow full regex%n%nIn Extended Search Mode:%n? - any character (@min?craft)%n* - any few characters (@m*ft = @minecraft)%nr/.../ - standard java regex (@r/m\w{6}ft/ = @minecraft)[/note]%n%n[note]You can disable this functionality in NEI settingss.[/note]%n%nYou can add bookmarks with the A key while hovering over an item, also:%nHold SHIFT to bookmark the whole recipe%nHold CTRL to bookmark number of items%nHold SHIFT + CTRL to bookmark both recipe and all the number of all the items it contains%n 
 
 
 ## Quest Line: Tier 0.5 - Steam
@@ -764,6 +756,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGzQ.desc=There are a few very useful Net
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH6g.name=§3§lA Better Way to Find Items
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH6g.desc=NEI has a built in search feature for finding an item stored in an inventory nearby. A Stockroom Catalog can give you a list of everything stored in your inventories.%n %nSneak right-click a block with an inventory (a chest, bookcase, barrel, anything with an inventory) to add that inventory to the list of inventories for the catalog to keep track of.%n%nSneak right-click the same block again to remove that block from the list.%n%nA small particle effect will render on any block that has been selected with the catalog when holding the Stockroom Catalog to let you know that block is being tracked.%n%nRight click to open the GUI and see the list. You can sort the list in ascending or descending order by quantity (Count) or alphabetical order.%n%nYou can also see a list of all the inventories that have a particular item and easily add the location of one of those inventories to a stockroom catalog so you can easily find your stuff.%n%nThe Stockroom Catalog can also be copied with the typesetting table and printing press.%n%nClick on the title to change it to anything so you can custom label your stockroom catalog.%n%nClick on the small chest icons on the right hand side of each listing to open the inventory list view. %n%nIf you want, you can craft a waypoint compass and use that to point you towards the chest. Since we have JourneyMaps and NEI, it's not really necessary.%n%n[warn]The Catalog seems to be a bit broken though and doesn't work well with GT items.[/warn]
 
+# Quest: Flaming Idiots
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHNQ.name=§1§lFlaming Idiots
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHNQ.desc=Blazes are all infernals, and all nasty. Avoid like a plague. Get awesome weapons, awesome armor, and prepare for a fight. %n%nThe alternative is to figure out a way to destroy them with technology.%n%nThe alternative to the alternative is to figure out a different way to get blazepowder and blaze rods.
+
 # Quest: Repairing Your Hazmat Suit
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHYA.name=§3§lRepairing Your Hazmat Suit
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHYA.desc=Be careful when wearing your hazmat suit all the time. The durability is not very high. Even just falling a few blocks will damage the boots quickly.%n%nYou can repair your suit long before you can craft a new one in late LV Age, using some rubber sheets and a glue bucket.
@@ -838,7 +834,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALYA.desc=Are your upgraded cobblestone o
 
 # Quest: Multiblocks in the steam age? Impossible!
 betterquesting.quest.yPj3r4-lQB6EVR5qagKzvQ.name=§3§lMultiblocks in the steam age? Impossible!
-betterquesting.quest.yPj3r4-lQB6EVR5qagKzvQ.desc=The steam machines you have been using until now have served you well, but there will be a time when you need to process even more items. That's where so-called multiblocks come in. There’s a variety of steam multiblocks available to you now: a washer, centrifuge, macerator, compressor, and forge hammer.%n%nGo have a look at the GT++ quest tab!
+betterquesting.quest.yPj3r4-lQB6EVR5qagKzvQ.desc=The steam machines you have been using until now have served you well, but there will be a time when you need to process even more items. That's where the so-called multiblocks come in. There’s a variety of steam multiblocks available to you go have a look at the GT++ quest tab!
 
 
 ## Quest Line: Tier 1 - LV
@@ -1216,10 +1212,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEQg.desc=Pumps can do more than pump oil
 # Quest: Diamond Tanks... Ooo, Shiny
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEQw.name=§5§lDiamond Tanks... Ooo, Shiny
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEQw.desc=After you build a cutting machine you can make some diamond plates for your new 64,000L single block tank.
-
-# Quest: Diamond Chests... Ooo, Shiny
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAERg.name=§5§lDiamond Chests... Ooo, Shiny
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAERg.desc=After you build a cutting machine you can make some diamond plates for your new, even bigger diamond chests.
 
 # Quest: Ardite and Cobalt
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEaw.name=§5§lArdite and Cobalt
@@ -2187,10 +2179,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAF-Q.desc=With your HV assembler you can 
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF3g.name=§9§lTesla Would be Proud
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF3g.desc=Tired of sticking your EnderIO items in the capacitor bank to charge it? Time to make a wireless charger.
 
-# Quest: Need a Place For All Those Ores?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF7Q.name=§9§lNeed a Place For All Those Ores?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF7Q.desc=How about a compressed chest from Avaritia? This 243 slot chest will hold it's contents when broken, so no need for a slow-inducing dolly!
-
 # Quest: Separating Gems From the Dust
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF8Q.name=§9§lSeparating Gems From the Dust
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF8Q.desc=The sifter runs sooo slow, you should make an HV sifter to get gems faster. 
@@ -2708,6 +2696,10 @@ betterquesting.quest.JkWQZxq_TECWjHhjywrZZA.desc=Now that you're in EV tier you 
 betterquesting.quest.Jna1jgAySNSs8nS0YMXpLw.name=§a§lEV Field Generators
 betterquesting.quest.Jna1jgAySNSs8nS0YMXpLw.desc=With Field Generators you can make your first Quantum Chests or Quantum Tanks. But the first two should be for your T2 rocket.%n%n[note]Note that the Assembler recipe is more resource efficient.[/note]
 
+# Quest: EXTREME MIXING
+betterquesting.quest.kQL8JceoSMSLDU_2AFjoqw.name=§4§lEXTREME MIXING
+betterquesting.quest.kQL8JceoSMSLDU_2AFjoqw.desc=Well, maybe it's not as extreme as the quest name suggests, but it gets the job done.%n%nYou'll need one anyway so why not make one now and save some time on the mixing?
+
 
 ## Quest Line: Tier 5 - IV
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAABw.name=Tier 5 - IV
@@ -3131,7 +3123,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALQA.desc=You need Sodium Nitrate to proc
 
 # Quest: Heat it Up!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALQQ.name=§b§lHeat it Up!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALQQ.desc=You can make Hot Tetroxide Solution in either the fluid heater or cracker, but the cracker gives twice as much, so use that.%n%nYou only get 2/9 buckets of Steam from 2 steps ago when automating, so use a fluid heater to get the rest.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALQQ.desc=You can make Hot Tetroxide Solution in the fluid heater so get on with it!
 
 # Quest: Why, Bart, Why?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALQw.name=§b§lWhy, Bart, Why?
@@ -5613,9 +5605,17 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIcA.desc=Yet another custom block system
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM3g.name=Catwalks
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM3g.desc=The Catwalks Mod adds several cosmetic blocks to deck out your factory.%n%nScaffolds and Builder's Scaffolds are useful for building up in the air before you get access to flight. They can be climbed like ladders, and break instantly when punched. You will also not fall off of them if you let go of movement keys while climbing. If you right-click the Builder's Scaffold with a solid block, the scaffold will be replaced by that block.%n%nCatwalks can connect to each other to form a wide passageway. You can decorate them by attaching Caution Tape or Rope Lights, the latter provide dim lighting.%n%nCaged Ladders give you a way to move up and down without a risk of falling off. Climbing them is much faster than vanilla ladders.%n%nSupport Columns are purely decorative. They connect to each other in all directions. They also work as ladders.%n%nSturdy Rails let you run minecart tracks across gaps without supports. Right-click the Sturdy Powered Rail with a Blowtorch to power it permanently, you don't need a redstone torch. If you don't have enough distractions already, use them to build a rollercoaster!%n%nThe Blowtorch lets you remove railings or even the floor from a catwalk by right-clicking. Use it to make an opening to let you walk onto the catwalk, or if you don't know what an "OSHA violation" is. The same function can be performed by a GT or Forge-compatible wrench, so you don't actually need to make this.%n
 
+# Quest: Obsidian Chest
+betterquesting.quest.QMlw6Z67T5-y_qflA7On2Q.name=§8Obsidian Chest
+betterquesting.quest.QMlw6Z67T5-y_qflA7On2Q.desc=Combining diamond chest with obsidian allowed you to create a chest that is blastproof!%n%n[note]Just as with the previous chests you can also upgrade with a fitting upgrade item.[/note]
+
 # Quest: A Modern Technology
 betterquesting.quest.VFVruPLHQAeDthuV-s7HGQ.name=A Modern Technology
 betterquesting.quest.VFVruPLHQAeDthuV-s7HGQ.desc=Concrete. Eh sorry, Hempcrete! A new modern technology brought to you via the GTNH Chisel mod. All 16 colors.%n%nThere are a lot of other nice blocks in Chisel. Just type "@chisel" in NEI and look around.
+
+# Quest: Crystal Chest
+betterquesting.quest.e-VLKN-JSRK3V2cmDbm6rw.name=§bCrystal Chest
+betterquesting.quest.e-VLKN-JSRK3V2cmDbm6rw.desc=You've created a chest that allows you to see what's inside, isn't that useful?%n%n[note]Just as with the previous chests you can also upgrade with a fitting upgrade item.[/note]
 
 
 ## Quest Line: Forestry and Multifarms
@@ -6528,9 +6528,9 @@ betterquesting.quest.fLH_QDPRR6mgCK0PL5iWmA.desc=This multiblock is the perfect 
 betterquesting.quest.pLCgOVmqTUCudSXZusnceg.name=This is your Kryptonite!
 betterquesting.quest.pLCgOVmqTUCudSXZusnceg.desc=Here's the special Titanium I promised you. GT++ materials enter the fray here, both with this and the Titansteel you need to add to that to make what comes next!%n%nThat step only comes after fusing Niobium and Zinc into Krypton Plasma. You get a rarer noble gas here than before, the next one will be Xenon. This recipe matches in speed with the next one, which uses Krypton to make Astral Titanium Plasma, by adding in the final plasma of the previous chain, Force Plasma! That's right, each chain needs everything from before to continue. %n%nOnce you have Astral Titanium Plasma, you can move on to the final mk2 step.
 
-# Quest: Steam-powered Multiblocks
-betterquesting.quest.quLxATDCQFWsrZRuh_gspA.name=Steam-powered Multiblocks
-betterquesting.quest.quLxATDCQFWsrZRuh_gspA.desc=You should have quite the collection of single block Steam machines by now. While these may have gotten you through processing small amounts of materials, there will be a time when you will have to process a multitude of items. This is where multiblocks come in.%n%nWhile these multiblocks have a material cost that is way higher than their single block counterparts, they have certain bonuses: they use less steam, and they can process recipes in parallel, which means that a single recipe cycle can craft multiple items at once, if the steam provided is enough to sustain it.%n%n§TThey do however have some quirks that need to be taken care of:%n%n-These multiblocks require §4§lvery specific§r I/O blocks, use only those that are part of the quest %n-They process 8 items * Tier, where Tier 1 is made of bronze and Tier 2 is made of steel (checkout the Multiblock Preview in NEI which will show you different levels of tiers)%n-Like other multiblocks they will void the items being processed if they run out of energy (in this case steam) mid operation%n-The Tier and amount of parallel processing can be seen via WAILA if you are looking at the controller block%n%n§W§3With this quest, you have started your journey with GT++ Multiblocks. However, don't get too excited quite yet. While there are some multiblocks accessible in the Steam Age, most of them only unlock in EV or later, including better versions of these multiblocks.
+# Quest: STEAM-POWERED BREAKTHROUGH
+betterquesting.quest.quLxATDCQFWsrZRuh_gspA.name=§2§lSTEAM-POWERED BREAKTHROUGH
+betterquesting.quest.quLxATDCQFWsrZRuh_gspA.desc=You should have quite the collection of single block Steam machines by now. While these may have gotten you through processing small amounts of materials, there will be a time when you will have to process a multitude of items. This is where multiblocks come in.%n%nWhile these multiblocks have a material cost that is way higher than their single block counterparts, they have certain bonuses: they use less steam, and they can process recipes in parallel, which means that a single recipe cycle can craft multiple items at once, if the steam provided is enough to sustain it.%n%n§TThey do however have some quirks that need to be taken care of:%n%n-These multiblocks require §4§lvery specific§r I/O blocks, use only those that are part of the quest %n-They process 8 items * Tier, where Tier 1 is made of bronze and Tier 2 is made of steel (checkout the Multiblock Preview in NEI which will show you different levels of tiers)%n-Like other multiblocks they will void the items being processed if they run out of energy (in this case steam) mid operation%n-The Tier and amount of parallel processing can be seen via WAILA if you are looking at the controller block%n%n§W[note]With this quest, you have started your journey with GT++ Multiblocks. However, don't get too excited quite yet. While there are some multiblocks accessible in the Steam Age, most of them only unlock in EV or later, including better versions of these multiblocks.[/note]
 
 # Quest: Steam stomping!
 betterquesting.quest.s6AEHSKiQe2XveT_oDZbZg.name=Steam stomping!
@@ -7819,7 +7819,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMeQ.desc=Indium - from Lithium + Silver.
 
 # Quest: Smaller Fusion Is Bigger
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMeg.name=Smaller Fusion Is Bigger
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMeg.desc=It's not smaller, it's compact!%n%nCompact Fusion. If you've been looking for a big multiblock to put together, you have arrived at a very neat thing. There's hardly anything that could beat its size, except for a max height Mega Distillation Tower, but this is instead a wide multi instead of a tall one. It is so wide, in fact, that it cannot fit in one chunk, and instead covers a 3x3 chunk space! Make sure you follow the instructions and the hologram properly, and jump in joy when you have one of these built.%n%nYou can choose one of four tiers for this reactor, in the same way as the normal Fusion Reactors. The Compact controller will need 48 of the regular controllers in the same tier, plus some other materials, and more than 2 thousand blocks in the structure, which are conveniently detailed in the tooltip. It is much bigger than the previous reactors, but it also has a huge number of parallels, starting at 64x with t1 and ending at a maximum of 320x with t5! %n%nThis is the go-to when you have found yourself deep into t3 fusion, perhaps even t4, and you find yourself running short on power. Instead of making a tower of reactors, why not make one of these? The only power issue that you'll have after getting it done is the amount of turbines you will need to eat up all the plasma. You probably know about the XL Plasma Turbine, but you should also know that they force huge penalties on most plasmas, including Helium and Tin, if you use good turbine materials like Infinity. Do you remember those fusion chains mentioned in previous quests? This is the time for them. Check the GT++ tab for more details.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMeg.desc=It's not smaller, it's compact!%n%nCompact Fusion. If you've been looking for a big multiblock to put together, you have arrived at a very neat thing. There's hardly anything that could beat its size, except for a max height Mega Distillation Tower, but this is instead a wide multi instead of a tall one. It is so wide, in fact, that it cannot fit in one chunk, and instead covers a 3x3 chunk space! Make sure you follow the instructions and the hologram properly, and jump in joy when you have one of these built.%n%nYou can choose one of four tiers for this reactor, in the same way as the normal Fusion Reactors. The Compact controller will need 48 of the regular controllers in the same tier, plus some other materials, and more than 2 thousand blocks in the structure, which are conveniently detailed in the tooltip. It is much bigger than the previous reactors, but it also has a huge number of parallels, starting at 64x with t1 and ending at a maximum of 320x with t5! %n%nThis is the go-to when you have found yourself deep into t3 fusion, perhaps even t4, and you find yourself running short on power. Instead of making a tower of reactors, why not make one of these? The only power issue that you'll have after getting it done is the amount of turbines you will need to eat up all the plasma. You probably know about the XL Plasma Turbine, but you should also know that they force huge penalties on most plasmas, including Helium and Tin, if you use good turbine materials like Infinity. Do you remember those fusion chains mentioned in previous quests? This is the time for them. Check the GT++ tab for more details.%n%n[note]Compacts follow different overclocking rules, needing double the startup power and double the voltage instead of just the voltage.[/note]
 
 # Quest: Thorium Tetrafluoride and Fuel 3
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMew.name=Thorium Tetrafluoride and Fuel 3
@@ -7940,7 +7940,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADLg.desc=Every rocket needs a few rocket
 
 # Quest: Rocket Engine
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADLw.name=Rocket Engine
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADLw.desc=Every rocket needs a rocket engine. Better craft two, because the Moon lander needs one also.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADLw.desc=Every rocket needs a rocket engine. Better craft two, because the Moon lander also needs one.
 
 # Quest: Moon Lander
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADMA.name=Moon Lander
@@ -8032,7 +8032,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAF-w.desc=Each rocket needs a Control Com
 
 # Quest: LOX and Bagels
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFWw.name=LOX and Bagels
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFWw.desc=§cNOTE: You cannot directly refill your tanks in a crafting grid anymore!§r%n%nThe LOX canister is an alternate solution to refilling your oxygen tanks.%n%nTo make liquid oxygen you need to put an oxygen cell into a vacuum freezer to get a cell of liquid oxygen. Transfer this liquid oxygen into a tank, and then into a LOX canister.%n%nTo refill your oxygen tanks just put the tank and the LOX canister in the oxygen compressor to transfer oxygen, or use a oxygen collector.%n%nEach LOX canister can fill 4 Heavy Oxygen Tanks, 6 Medium Oxygen Tanks, or 12 Light Oxygen Tanks.%n%nSo much Greggy!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFWw.desc=The LOX canister is an alternate solution to refilling your oxygen tanks.%n%nTo make liquid oxygen you need to put an oxygen cell into a vacuum freezer to get a cell of liquid oxygen. Transfer this liquid oxygen into a tank, and then into a LOX canister.%n%nTo refill your oxygen tanks just put the tank and the LOX canister in the oxygen compressor to transfer oxygen, or use a oxygen collector.%n%nEach LOX canister can fill 4 Heavy Oxygen Tanks, 6 Medium Oxygen Tanks, or 12 Light Oxygen Tanks.%n%nSo much Greggy!
 
 # Quest: Tier 4 Heavy Duty Plates
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF_A.name=Tier 4 Heavy Duty Plates
@@ -8148,7 +8148,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFsQ.desc=Every rocket needs a nose cone.
 
 # Quest: Heavy Rocket Engine
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFsg.name=Heavy Rocket Engine
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFsg.desc=Every rocket needs a rocket engine. A heavy one is needed in the tier 3 rocket.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFsg.desc=Every rocket needs a rocket engine. A heavy one is needed in the tier 3 and 4 rockets.
 
 # Quest: Heavy Rocket Fins
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFsw.name=Heavy Rocket Fins
@@ -8224,7 +8224,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGvw.desc=Every rocket needs a nose cone.
 
 # Quest: Heavy Duty Rocket Engine Tier 3
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGwA.name=Heavy Duty Rocket Engine Tier 3
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGwA.desc=Every rocket needs a rocket engine. A heavy one tier 3 is needed in the tier 5 rocket.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGwA.desc=Every rocket needs a rocket engine. A heavy one tier 3 is needed in the tier 5 and 6 rockets.
 
 # Quest: Heavy Duty Rocket Fins Tier 3
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGwQ.name=Heavy Duty Rocket Fins Tier 3
@@ -8356,7 +8356,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKkA.desc=The distance you need to travel
 
 # Quest: Heavy Duty Rocket Engine Tier 4
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKkQ.name=Heavy Duty Rocket Engine Tier 4
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKkQ.desc=Every rocket needs a rocket engine. A heavy one tier 3 is needed in the tier 5 rocket.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKkQ.desc=Every rocket needs a rocket engine. A heavy one tier 3 is needed in the tier 7 and 8 rockets.
 
 # Quest: Heavy Duty Rocket Fins Tier 4
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKkg.name=Heavy Duty Rocket Fins Tier 4
@@ -8479,22 +8479,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAbw.desc=In order to create or customize
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAcA.name=Cart Modules: Wood Cutter
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAcA.desc=The basic wood cutter will break after a while, but you never have to replace it. It can easily be repaired with diamonds.
 
-# Quest: Project red beginning
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAfw.name=Project red beginning
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAfw.desc=Welcome to Project Red!%n%nThis quest will teach you the basics of Projectred and show you how to set up a Ghetto AE system.%n%nThe Ghetto AE system will be really useful for sorting all of your first items%n%nFirst of all there are different types of pipes: %n%nItem Transport pipes are the most basic pipes, classified as Null-logic. They don't do anything besides connect other pipes together.%nItem Transport pipes only have the ability to take items that enter it and pass them along to another connected pipe. They will NOT connect to inventories at all. In a junction where there is more than 1 possible direction, item payloads will travel in a randomly selected direction.%n %nRouted pipes are the most advanced. These pipes 'communicate' with one-another to form pipe networks, in order to allow for incredibly complicated demand driven systems, with absolutely no redstone circuitry required.%n %nPressurized pipes are pipes that use a pressure based routing system where the payload travels to the closest inventory that can accept it. Finding the closest inventory is influenced by both distance and Pressure Resistance Pipes (which, to the path finder, are 1000 blocks long), but the actual path that items take is only influenced by distance.%n%nHowever, in order to control the logic of the routed pipes you will need special circuit chips.%n%n[warn]Note: I have no idea how PR works, or if this questline is entirely a duplicate, and have zero willpower to read all the boring text and find out, so I just unhid them since no one came forward with any info after I asked. If it should be removed or w/e, make a ticket.[/warn]
-
-# Quest: Can u eat those?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC4Q.name=Can u eat those?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC4Q.desc=No you can't eat them but you can add them to your routed pipes. Without chips routed pipes can't do anything on their own, chips also have a GUI to configure them which can be opened by right clicking. %nThere are 8 types of chips:%n%n-Item extractor chip can be used to send items from its inventory to responder, dynamic responder, terminator and overflow responder chips in a pipe network. %n%n-Item responder chip will request items from the extractor chips in your network which match the filter configured to the inventory connected to the responder chip. Chips with higher priority value will receive items first until the inventory is full then will be sent to other inventories with valid filters and remaining space.%n%n-Dynamic item responder chip will request items from the extractor chips in your network that match items inside the dynamic item responder connected inventory. This chip has to be in the same interface pipe as the item responder chip in order to work. Priority rules apply here as well. %n%n-Item overflow responder works exactly the same as the item responder chip, however it only accepts items that cannot go to an item responder chip, dynamic item responder chip, or item terminator chip. %n%n-Item terminator chip works as a backup for responder chips.%n%n-Item broadcaster chip will show you the inventory connected to the routed request pipe on the pipe network and can be used to retrieve items from it. They can also extract from the side you configure. %n%n-Item stock keeper chip will constantly check the network for items and pull them to its pipe. If the chip is set to pull when empty, it will only pull if the inventory next to it is empty, otherwise it will pull when there are less items in the inventory than configured in the chip.%n%n-Item crafting chips craft things. %n%n-Item crafting extension chips are placed inside the item crafting chips. Make sure you randomize the id.
-
-# Quest: Routed Pipes
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC4g.name=Routed Pipes
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC4g.desc=There are six types of routed pipes: %n%n-Junction pipe is used to form an intersection that will allow other routed pipes to communicate. %n%n-Interface pipe will connect to an inventory allowing you to extract or insert items, chips can be used to control the logic. %n%n-Request pipe will allow requesting only specific items to be send through pipes.%n%n-Firewall pipe can control which items can pass through them.
-
-# Quest: Ghetto ME System
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC4w.name=Ghetto ME System
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC4w.desc=[warn]Using the drawer controller with large amounts of I/O will kill TPS! If you're on a server, do not use drawer cubes, or expect the possibility of it being deleted or you getting banned.[/warn]%n%nNow that you are familiar with the mod it's time to organize items in your base a bit. These are the things you need in order to get a basic extract/insert system.%n%nFirst of all you will need a drawer controller. You can pick it from here or craft it yourself and place it down. Next to it add as much drawers as you want, and make sure they are touching each other or the controller.%n%nThe next step is to connect a routed interface pipe to your drawer controller. Take the item responder chip and configure it to filter mode: blacklist (this will allow you to get any items from your system) and add the chip to the routed interface pipe by right clicking on it. Don't forget the dynamic item responder.%n%nIn order to allow your system to be able to see items you need to add the item broadcast chip TO THE SAME ROUTED INTERFACE PIPE WHICH IS CONNECTED TO THE DRAWER CONTROLLER.%n%nThe last step is to connect a routed request pipe IN THE SAME NETWORK AS THE ROUTED INTERFACE PIPE and right click it to access the GUI. You can only extract items from it. In order to insert items simply right click them on the drawer controller. %n%nYou can find more complex tutorials on youtube for autocrafting.
-
 # Quest: Cart Modules: Solar Power
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEuA.name=Cart Modules: Solar Power
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEuA.desc=Your cart needs power, obviously. A cart can be powered via coal, solar or lava. If you are able to make solar panels you can power your cart with the sun.
@@ -8510,10 +8494,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEug.desc=Your cart needs power, obviousl
 # Quest: Cart Modules: More Storage
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEuw.name=Cart Modules: More Storage
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEuw.desc=After you craft side chests you can add more different chests to the cart. Some sides are reserved for tools so no chest can be placed there.
-
-# Quest: Input chest for Ghetto ME System
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGDA.name=Input chest for Ghetto ME System
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGDA.desc=To be able to put items into the Ghetto ME system you need just a few additional pipes.%nThe Extraction pipe should be connected to the chest you want to take items from.%nInside the Extraction pipe you need to put the Item Extraction chip, and configure it to blacklist if you want it to take all items from the chest.%n%nThe Routed Junction pipe is needed so the items inside the pipes know which direction to take, without this they will just fly around inside the pipes without knowing where to go.%nYou might also need some additional item transport pipes depending on your setup.
 
 # Quest: More Tree Types
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGDw.name=More Tree Types
@@ -8569,7 +8549,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGYA.desc=The item stock keeper looks at 
 
 # Quest: Crafting Chip
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGYQ.name=Crafting Chip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGYQ.desc=The crafting chip does exactly what it says. It's not just for default crafting. You can use it with GT machines. Just put in the matrix that it should insert and the output is what it should extract. A great use for them is in combination with fluid canners or super tanks for filling cells. I would strongly recommend not overusing them. Wait untill you have access to AE2 for autocrafting stuff.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGYQ.desc=The crafting chip does exactly what it says. It's not just for default crafting. You can use it with GT machines. Just put in the matrix that it should insert and the output is what it should extract. A great use for them is in combination with fluid canners or super tanks for filling cells.%n%n%n[note]While these chips are really powerful for your PRT system they become a laghazard relatively quickly, so be careful.[/note]
 
 # Quest: Request Pipe
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGYg.name=Request Pipe
@@ -9404,7 +9384,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJrA.desc=The main processor for 4096k an
 
 # Quest: AE Fluid Storage
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJrQ.name=AE Fluid Storage
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJrQ.desc=This processor is mainly used to craft dual interfaces, as well as some other useful tools from AE2FC like the level maintainer.%n%nDon't want to get rid of the super tanks you have been using up to now? Use the fluid storage bus instead of the fluid storage cells from AE2FC then. Super tanks double in capacity each tier, but the cells quadruple. They're also less expensive for sure. But you decide which to use.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJrQ.desc=The main processor used for 1K, 4K, 16K and 64K fluid components.%nAlso used to craft dual interfaces, as well as some other useful tools from AE2FC like the level maintainer.%n%nDon't want to get rid of the super tanks you have been using up to now? Use the fluid storage bus instead of the fluid storage cells from AE2FC then. Super tanks double in capacity each tier, but the cells quadruple. They're also less expensive for sure. But you decide which to use.
 
 # Quest: 1k Fluid Component
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJrg.name=1k Fluid Component
@@ -9689,7 +9669,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAB_g.desc=Also known as labware. Be prepa
 
 # Quest: Genetic Imprinter
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB_w.name=Genetic Imprinter
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAB_w.desc=With this powerful machine, you can inject gene samples, which allows you to alter any aspect of your bee, tree or butterfly. The gene sample (or pattern) will not be destroyed. The success rate is 100%%, and one labware is consumed per injection.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAB_w.desc=With this powerful machine, you can inject gene samples, which allows you to alter any aspect of your bee, tree or butterfly. The gene sample (or pattern) will not be destroyed.%n%nThe machine has 30%% chance to downgrade pristine into ignoble and 80%% chance to kill ignoble bees.%n%nOne labware is consumed per operation.
 
 # Quest: Genetic Transposer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACAA.name=Genetic Transposer
@@ -10082,7 +10062,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEXA.desc=Common Princess and Foresty Dro
 
 # Quest: Breed some common bees
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEXQ.name=Breed some common bees
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEXQ.desc=To cross breed bees you need two different species of bees. One drone and one princess from different world-gen hives (Meadows and Forestry as an example)%n%nBee Houses do not allow crossbreeding. You need an Apiary to crossbreed them to a new species. Certain frames will help this process. Shortening their lifespan means faster crosses. Increasing Mutation rate means getting mutations and thus rare bees quicker.%n%nCommon Bees produce Honey Combs every 2.2 minutes. Note that production times are an approximation based on the bee's base production speed and the product's rarity. They do not reflect actual production time. %n%nMake sure your bees are pure by checking their genetics with a Beealyzer or GT scanner.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEXQ.desc=To cross breed bees you need two different species of bees. One drone and one princess from different world-gen hives (Meadows and Forest as an example)%n%nBee Houses do not allow crossbreeding. You need an Apiary to crossbreed them to a new species. Certain frames will help this process. Shortening their lifespan means faster crosses. Increasing Mutation rate means getting mutations and thus rare bees quicker.%n%nCommon Bees produce Honey Combs every 2.2 minutes. Note that production times are an approximation based on the bee's base production speed and the product's rarity. They do not reflect actual production time. %n%nMake sure your bees are pure by checking their genetics with a Beealyzer or GT scanner.
 
 # Quest: Breed some noble bees
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEXg.name=Breed some noble bees
@@ -13786,6 +13766,18 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADpg.desc=The next solar panel you can ma
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADpw.name=§6§lPower of the Sun 1x1
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADpw.desc=Put those single EU panels on a block to make them placeable in the world. Use an MV assembler to combine the panel with a ULV hull.
 
+# Quest: More Compact Storage
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEPQ.name=§2§lMore Compact Storage
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEPQ.desc=Now that you are starting to find more and more iron, you feel your copper chests are too small to hold all the stuff. %n%n[note]Do you have copper chests that are too small? You can also upgrade with a fitting upgrade item.[/note]
+
+# Quest: Diamond Chests... Ooo, Shiny
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAERg.name=§5§lDiamond Chests... Ooo, Shiny
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAERg.desc=After you build a cutting machine you can make some diamond plates for your new, even bigger diamond chests.%n%n[note]Just as with the previous chests you can also upgrade with a fitting upgrade item.[/note]
+
+# Quest: Even More Compact Storage
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAERw.name=§2§lEven More Compact Storage
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAERw.desc=If you found enough gold, you can upgrade your chest to make it an even bigger inventory of 9x9.%n%n[note]Do you have iron chests that are too small? You can also upgrade with a fitting upgrade item.[/note]
+
 # Quest: Moron's Guide to Better Trees
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEWw.name=Moron's Guide to Better Trees
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEWw.desc=Forestry trees have a variety of attributes.  Once you get a tree with a useful attribute, you can breed that attribute into other tree species. This way you can get an ultimate tree that combines all the attributes you want - including the type of fruit! you can also extract the genes with Gendustry if you can make the machines.%n%n[warn]Please do your Forestry tree-breeding indoors or underground because butterflies cause lag.[/warn]%n%nKeep in mind that for quests, you will need to breed the species "pure", not a hybrid. You should probably save the crossbreeding until after you get all the good ones.%n%nFor faster tree breeding, enclose your trees so that butterflies cannot escape, and breed bees with better traits for area and pollination speed. There's also frames too if you can afford it. The sieve may also help if you want to do it more exactly if you can make an alveary. You need either bees or butterflies, trees won't pollinate each other.%n%nTrees have the following characteristics:%n§eSaplings/Fertility§r: chance of getting a sapling from a destroyed leaf. Good for making into biomass or other uses. Balsa, Gooseberry and Sweetgum are what you want.%n%nAllele     Drop Chance%nLowest   1%%%nLower    2.5%%%nLow       3.5%%%nAverage 5%%%nHigh      10%%%n%n[warn]Maturation/Matures[/warn]: the growth speed of a sapling into a tree. Important if you plan to cut it down right away for logs. Golden Raspberry is the fastest.%n%nAllele    Time%nSlowest  10%nSlower   7%nSlow      5%nAverage 4%nFast      3%nFaster   2 %nFastest  ?%n%n§dHeight§r: controls how high the tree grows. Giant Sequoia is the best, though it may be a little §otoo§r large.%n%nAllele    Value%nSmallest  25%%%nSmaller   50%%%nSmall      75%%%nAverage 100%%%nLarge    125%%%nLarger   150%%%nLargest  175%%%nGigantic  BIG%n%n§bGirth§r: the width of your tree.  Wider trees have more leaves and logs, but will also need more saplings to begin growing. All saplings must be the same species and girth. The sapling in the NW corner determines the stats of the new tree, and is where bone meal must be applied to mature the tree. The Giant Sequoia is best here too.%n%nAllele/Size%n1x1%n2x2%n3x3%n4x4 %n%nYield: chances of getting a fruit from a destroyed leaf. Orchard Apple and Chili Pepper are the best here.%n%nAllele     Drop Chance%nLowest   2.5%%%nLower    5%%%nLow       10%%%nAverage 20%%%nHigh       30%% %nHigher    ?%%%n%n§6Sappiness§r: the amount of biomass a sapling produces in the Forestry Fermenter. You can boost the Fermenter's output by using honey or fruit juice. Blue Mahoe and Red Maple are the best. NEI doesn't show recipes for analyzed saplings, and probably hybrids too, in the fermenter.%n%nAllele  Forestry Biomass%nLowest   100mB%nLower    200mB%nLow       300mB%nAverage 400mB%nHigh       600mB %n%n[warn]Fireproof[/warn]: applies to the wood. Only the Coast and Giant Sequoia have this.%n%n§7Effect§r: not used in trees, so it's None for any.%n%nBelow is more information on some other parameters:%n%n§2Growth§r: Sipiri trees have Tropical instead of Light, can only be bred in a Biome with temperature 90%%-190%% and humidity 90%%-200%%, and can only grow in 120%%-190%% temp and 90%%-200%% humidity. All other trees just need light to grow.%n%n[note]Territory/Soil[/note]: all trees have Average, whatever that means. Probably something related to the below that never really got used.%n%n§eTolerates§r: if it can be planted on sand or not. Only Desert Acacia and Grandidier's Baobab have this. The trait is either Plains or Plains, Desert.%n%n§5Supports§r: what kind of fruits it can theoretically have. Determined by Species. Only fruits from families listed under this trait can be produced by the tree, regardless of what appears under the tree's Fruits trait. There is a number of trees from the Extra Trees mod that support all 4 types, but none from Forestry itself.%n%n§aFruit§r: determines what fruit or nut it produces. Each fruit/nut provides different advantages:%nPlum and Cherry Plum only produces 100L Fruit Juice, but have a 60%% chance of producing Mulch in the Fluid Extractor or Squeezer.%nPapaya produces 600L Fruit Juice, but only has a 10%% chance to produce Mulch.%nCoconuts produce 300L Seed Oil, but only have a 25%% chance to produce Mulch.%nUse a Forestry Multifarm so you don't have to break the leaf block to get the fruit/nut. Set it to Manual Orchard, and place everything first.%n%n§bFamily§r: Tells you what family of the fruit listed under the Fruits trait is: Pomes, Prunes, Nuts or Jungle.
@@ -13852,7 +13844,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEsQ.desc=Your fancy new Large Plasma Tur
 
 # Quest: All Alone in the Night
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF1w.name=§1§lAll Alone in the Night
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF1w.desc=If you are playing single player (SP), updating the pack means having to reload the questbook. %n%nUse the Default Load Block to do it for you without switching to creative mode - you don't lose progress, but you might have new quests to complete! Use the items to craft it, then place it and right-click.%n%nSorry, no rewards, other than the satisfaction of knowing it's you versus the world.%n%nThis block does the same as the command /bq_admin default load.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF1w.desc=Thanks to our amazing devs, you no longer have to use a command block to reload your questbook between updates. This means you'll get all new quests automatically upon updating to a new version of GTNH! Isn't that convenient?%n%nIf, for whatever reason, you want to manually reload your questbook, you can do so by typing /bq_admin default load in the chat window. You will need to be an admin for it to work, though.%n%nHere's another questbook in case you already lost the one you spawned with. Don't forget that it can also be viewed at any time by pressing the Tilde (~) key if you have not changed its keybind.%n%n§3Some command blocks are still used for specific tasks, but they do not concern the average player since they are admin-only and thus are not craftable.
 
 # Quest: How the Heck Do I Find Ores?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF2A.name=§2§lHow the Heck Do I Find Ores?
@@ -13878,9 +13870,13 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAF3w.desc=...right? So when building mult
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF4Q.name=§2§lNot Enough Items - Now with Bookmarks!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF4Q.desc=More like too many items! Here are some tips for using NEI.%n%nWhen you have your inventory open, you can type the search terms in the text bar at the bottom. Make sure your GUI size is set correctly, or you won't be able to see it. Double-click the bar to highlight any matching items in your inventory or inventories you're looking at. Handy for searching for a specific ore, as they tend to look the same!%n%nEven better, you can use T to search nearby inventories, which will emit some particles. %n%nWe have also provided the special Y command to look for a machine in the world, in case you've forgotten where you placed that Advanced Circuit Assembler.%n%nWe now have an extra-fancy Bookmark feature! The default key is A, but can be changed in the NEI config window. Bookmarks will be on the left side of the inventory, and you can look up their recipes or uses as normal. To move a bookmark, drag it with Shift+LMB. You can even bookmark entire recipes with Shift+A or recipes with amounts using Ctrl+Shift+A.%n%nPressing O will hide NEI, useful for fancy screenshots.
 
-# Quest: NEI Is More Powerful Than You Imagine
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF4g.name=§2§lNEI Is More Powerful Than You Imagine
+# Quest: NEI is More Powerful Than You Imagine
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF4g.name=§2§lNEI is More Powerful Than You Imagine
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF4g.desc=NEI has some really nice advanced features too.%n%nClicking LMB or pressing R on an item shows the recipes to create it. RMB or U show recipes that use the item. Backspace moves you back to the previously browsed recipe. %n%nHold Shift to stop the oredict cycling through items, and to show the oredict entries for the current item under your cursor.%n%nSearch using #oredict to find items that match that oredict; for example, #dyewhite will list all white dyes.%n%nUse * (asterisk) as a wildcard. For example #pipe*bronze will show you bronze pipes of all sizes.%n%nSearch using @mod. to find all items from that mod; for example, @mod.thaumcraft will list all thaumcraft items and blocks. Note that you need the whole name before it works.%n%nYou can even search a subset now with the right text. @mod.thaumcraft->table will search for anything with table in the name, in the mod thaumcraft. %n%n@thaumcraft and @thaumcraft-> will also search for anything from the mod thaumcraft, but only if the name is set correctly on the tooltip of the item. They basically always are though.%n%nIt has even more advanced features than mentioned here, you should check the web for details. Or just play around with the options.
+
+# Quest: Need a Place For All Those Ores?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF7Q.name=§9§lNeed a Place For All Those Ores?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF7Q.desc=...at last, the final chest, it will keep its inventory even after breaking! Item transportation will become much simpler with this!
 
 # Quest: Angel Wings - Combine!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFTA.name=Angel Wings - Combine!
@@ -14129,6 +14125,18 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMzg.desc=Why use a small nozzle to print
 # Quest: Nano Forge Tier 1
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMzw.name=Nano Forge Tier 1
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMzw.desc=There must a be a way to make a nano scale robots to work in a machine. Carbon ones can be made in an assembly line, but very inefficiently. There must be a better way.%n%nWhat about a Nano Forge, able to cut up blocks into nano-thin sheets and then creating the first nanite, which helps create thousands of them in mere seconds.%n%n[note]The Nano Forge is a big multiblock requiring lots of power over the course of a couple minutes. It is able to use TT energy hatches (including lasers). The controller must have a carbon nanite to use tier 1 recipes.[/note]%n%n[note]Despite what NEI might claim there are no minimum voltages for the Nano Forge recipes. If you want to do a recipe you just have to achieve the raw EU/t required, no matter the voltage[/note].
+
+# Quest: Compact Storage
+betterquesting.quest.QNsm_wc0QO2g9C6_-vj2fA.name=§2§lCompact Storage
+betterquesting.quest.QNsm_wc0QO2g9C6_-vj2fA.desc=Now that you are starting to find more and more copper, you feel your wood chests are too small to hold all the stuff. %n%n[note]It's time to upgrade your wooden chests to copper chests! Higher tiers of chests can be upgraded cheaply by using upgrade items, but not all tier chests can be upgraded directly this way. try the "Wood to Copper Chest Upgrade", upgrade from wood to a tiered chest will not be chaper.[/note]%n%n[note]Upgraded chests cannot be connected into double chests.[/note]
+
+# Quest: Steel Chest?
+betterquesting.quest.V4jinTYRSueIrEqn90dRzQ.name=§7§lSteel Chest?
+betterquesting.quest.V4jinTYRSueIrEqn90dRzQ.desc=While being significantly more expensive than gold chest, the steel chest hass less capacity but it can be used in some specialized crafting recipes.%n
+
+# Quest: Dark steel Chest
+betterquesting.quest.t6xRGFm_S2SG6_-xNh8mwQ.name=§8§lDark steel Chest
+betterquesting.quest.t6xRGFm_S2SG6_-xNh8mwQ.desc=After embracing the dark side you get access to the new even bigger dark steel chest... perhaps another upgrade will be available in the future?%n%n[note]Just as with the previous chests you can also upgrade with a fitting upgrade item.[/note]%n
 
 
 ### Quests in no quest lines ###
