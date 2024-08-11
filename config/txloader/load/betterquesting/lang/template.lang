@@ -3226,6 +3226,10 @@ betterquesting.quest.u_-8t2IvRnydvmUx_qdYuA.desc=If you have a stable Samarium r
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAACA.name=Tier 6 - LuV
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAACA.desc=If you have made it this far, you should walk with your head held high - you are at the start of the lategame. Endgame is still a long road ahead of you, but you are now an expert at GTNH and most of the mods it comes with. Congrats, and be proud of yourself.%n%nOnce you're done being proud, start making CALs for better circuits, and work towards making endgame power with the Fusion Reactor, you'll need it.
 
+# Quest: Industrial Water Purification
+betterquesting.quest.-2oHGhi4Q22pvhQHb3IaCA.name=§c§lIndustrial Water Purification
+betterquesting.quest.-2oHGhi4Q22pvhQHb3IaCA.desc=For a while now, you have been able to get away with cutting and engraving your silicon circuit wafers with nothing but the bare metal of your machines. However, this can cause significant imperfections in the final wafer, so now that you are producing even more advanced circuitry such imperfections are no longer tolerable. %n%nWith the ability to make LuV components, you can now make the Water Purification Plant. This multiblock allows you to make purified water, which will be helpful in making wafers of increasing purity and perfection. For your current Naquadah-Doped Wafers, this is not yet necessary, but using purified water may significantly speed up the process, so it's definitely worth checking out.%n%nThe Water Purification Plant does not run recipes itself. Instead, it provides the core logistics for your water purification line to work. Around it you can build water purification units that link to the Water Purification Plant. The plant then provides power and maintenance to the different units, and synchronizes their recipe cycles.
+
 # Quest: Automated Mining
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAyQ.name=§c§lAutomated Mining
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAyQ.desc=The QED enables you to assemble the most convenient device for mining: The ender quarry.%n%nAs 0lafe says, "This small black box is life-changing" and "Sympathy for the amount of dense obsidian plates you need."%n%nGuess you better get compressing!%n%n[warn]NOTE: It's best to place your quarry and markers on orevein boundaries. This way you start getting ores right away, especially from planets.[/warn]
@@ -3466,9 +3470,17 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMBQ.desc=If you're reading this before L
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEw.name=§l§c§lSun Fusion
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEw.desc=Alternative way to mass produce Sunnarium.
 
+# Quest: Ozonation
+betterquesting.quest.E9atHD5uR9CC0G1qEeFDmQ.name=§c§lOzonation
+betterquesting.quest.E9atHD5uR9CC0G1qEeFDmQ.desc=Want even more speed on your wafer processing? Using Grade 2 Purified Water, made by ozonation, you can now reduce processing time by 50%%. To run this machine, you will need to make large amounts of Ozone Gas by bombarding air with a strong laser. If you haven't already, you should definitely make the Hyper-Resolution Laser Engraver multiblock to speed up this process.%n%n[note]This multiblock is very picky about where the ozone input hatch goes. If you can't figure out why it's not forming, chances are you forgot to place this hatch in the correct location. Use the hologram projector to see where it goes.[/note]
+
 # Quest: Relentless Glue
 betterquesting.quest.eZADH1WASo6NLBUTKjLNGQ.name=§c§lRelentless Glue
 betterquesting.quest.eZADH1WASo6NLBUTKjLNGQ.desc=Ethyl Cyanoacrylate, commonly known as Super Glue is the best glue there is. But with great power comes... great complexity. It's not needed now and probably for the next few tiers, but it will make your recipes more efficient and will be necessary in the lategame.%n%n[note]Technically this line is available in IV, but only optional. Show your true skills by searching the recipes in NEI yourself![/note]
+
+# Quest: Clarifier
+betterquesting.quest.mMCFuGqxQTuuLnJgEldztA.name=§c§lClarifier
+betterquesting.quest.mMCFuGqxQTuuLnJgEldztA.desc=The first step in the water purification process is the clarifier. Operating this machine is a simple task, you will just need to maintain a steady supply of Activated Carbon for the filters. Using this machine, you will be able to make Grade 1 Purified Water, which can spead up processing of Naquadah-Doped Boules and Wafers by 25%%.
 
 
 ## Quest Line: Tier 7 - ZPM
@@ -3671,6 +3683,14 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALiw.desc=Smelt it with magnesium dust in
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsw.name=The Final Goal
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsw.desc=Thanks to your help I have managed to create the ultimate energy source: An encased wormhole that drains energy from a synthesized pocket universe, to the point when it reaches heat death. I have no use for it, so you may have it. Thank you for making my dream come true!
 
+# Quest: pH Neutralization
+betterquesting.quest.eon8hLumTS-E7MYJ4TFT3w.name=pH Neutralization
+betterquesting.quest.eon8hLumTS-E7MYJ4TFT3w.desc=If you want to process your Europium-Doped Wafers with a significant speed boost, this machine is for you. Using the pH neutral water you get from this machine, you can process wafers 50%% faster.%n%nThis is the first real complex automation challenge in the waterline, it's up to you to figure out how you want to deal with the pH neutralization process. Have fun!%n%n[note]This multiblock is very picky about where its hatches for acids and bases go. If you can't figure out why it's not forming, chances are you forgot to place these hatches in the correct location. Use the hologram projector to see where they go.[/note]
+
+# Quest: Flocculation
+betterquesting.quest.sZ9d2SzSSLSc9tccXG_L4g.name=Flocculation
+betterquesting.quest.sZ9d2SzSSLSc9tccXG_L4g.desc=You want to start using your new Europium to make even better wafers, but it turns out that your old methods of creating purified water are no longer enough. You will need to use the Flocculation Purification Unit to make even better purified water first. To run this machine, you will need large amounts of Polyaluminium Chloride, but luckily you can get all your Chlorine back if you properly recycle the waste liquid.
+
 
 ## Quest Line: Tier 8 - UV
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAALQ.name=Tier 8 - UV
@@ -3824,9 +3844,17 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAM0w.desc=The Space Elevator is a modular
 betterquesting.quest.LzCq9t0cT4-_TizIr_Iq_A.name=Extract what you want
 betterquesting.quest.LzCq9t0cT4-_TizIr_Iq_A.desc=Directly dissolve and chlorinate of lanthanide ores in Degister to get the concentrated solution of the corresponding ore. Then use the corresponding Extracting Nano Resin to extract the main material in the solution. The rest (Chlorinated Rare Earth Concentrate) is still rich in useful lanthanides. %n%nYou can use any type Extracting Nano Resin to extract the useful things in the rest. What Nano Resin you use, what lanthanide you'll get. Every bucket of Chlorinated Rare Earth Concentrate can do this extraction 3 times. First Concentrate to Enriched Solution, then Enriched Solution to Diluted Solution, then waste liquid.%n%nAfter extracting, the Nano Resin will be "Filled". Put them "Filled" into Electrolyzor then nanites will transfer the "Particles" out from the resin under the influence of electric field. And you can get the Nano Resins and let them go into the next work round, again and again without breaks.%n%nYes, Rare Earth will not be Rare. Bless the Nano Tech.
 
+# Quest: High Energy Laser Purification
+betterquesting.quest.WqDynhbQQ4GdNMKm0BlbcQ.name=High Energy Laser Purification
+betterquesting.quest.WqDynhbQQ4GdNMKm0BlbcQ.desc=For even more pure water, you will need to use strong lasers to precisely bombard the water and remove impurities. As usual with the waterline, this multiblock presents you with a complex automation puzzle to solve. 
+
 # Quest: Nano Resin - Particle Extractors
 betterquesting.quest.gKMT2pblSg69VL5tAtlfxA.name=Nano Resin - Particle Extractors
 betterquesting.quest.gKMT2pblSg69VL5tAtlfxA.desc=Arrange Nanites in P-507 and label them with target particle information in the high-energy laser beam environment of a laser engraver. Then we get the Extracting Unit called "Nano Resin" .%n%nThese Nanites automatically capture the target particles in solution and store them in the resin. It is worth noting that the actual production rate will be limited by the number of Nanites. So if you want to use this method to produce lanthanides in large quantities, you need to prepare more extra Nano Resin.%n%nHere are all 15 types of Extracting Nano Resin.
+
+# Quest: Purifying Water With Plasma
+betterquesting.quest.pMGI_sXdQSKWWFFxTunqvA.name=Purifying Water With Plasma
+betterquesting.quest.pMGI_sXdQSKWWFFxTunqvA.desc=As usual, before you can make use of your Americium to make better wafers, you will need better water. This time, we're going to use plasma to rapidly heat up the water and then cool it back down.%n%nSome of the mechanics may seem similar to how you set up the pH neutralization process, maybe you can expand on what you learned there?%n%n[note]This multiblock is very picky about where its plasma and coolant input hatches go. If you can't figure out why it's not forming, chances are you forgot to place these hatches in the correct location. Use the hologram projector to see where they go.[/note]
 
 # Quest: Use Nano Tech to produce Lanthanides
 betterquesting.quest.rdpQZW1YQ92vgnjgHVW8Jg.name=Use Nano Tech to produce Lanthanides
@@ -4092,7 +4120,7 @@ betterquesting.quest.WIx0jq8hS8ifWxZWTmC5yA.desc=The optical computer is the thi
 
 # Quest: The Quest for Holy Water
 betterquesting.quest.WPoaCPPwTBSyn2dmh5DcBA.name=The Quest for Holy Water
-betterquesting.quest.WPoaCPPwTBSyn2dmh5DcBA.desc=You read it right, your next task is to create purified water. There are 8 grades of purified water, each slightly better than the previous. Which one you make and use is up to you.%n%n[note]You only need to do one task to complete this quest.[/note]
+betterquesting.quest.WPoaCPPwTBSyn2dmh5DcBA.desc=You got to take a well deserved break from the waterline in UHV, but now that you are going to be making optical circuits, your Grade 6 Purified Water will no longer be enough. Using the Degasser, you can remove all the leftover decontaminants from previous processes and make even more pure water, pure enough for Optical Circuits. %n%nThe tooltip and list of requirements looks intimidating. Try breaking it down into small, digestible units of logic and you will quickly arrive at a solution.
 
 # Quest: The Final Frontier!
 betterquesting.quest.X1tb5rwVSVi5SR5rY7vQIw.name=The Final Frontier!
@@ -4105,6 +4133,10 @@ betterquesting.quest._TtL1y6-SfCCNKRrWSvrNQ.desc=At last, you have done it. The 
 # Quest: UEV Energy Hatch
 betterquesting.quest._hHt1iRERrywJiRVFpOnxw.name=UEV Energy Hatch
 betterquesting.quest._hHt1iRERrywJiRVFpOnxw.desc=Another tier, another energy hatch. You can use these to overclock your assembly lines to UIV voltage and speed them up.
+
+# Quest: Absolute Purity
+betterquesting.quest.bNVzOxCORxuo_lhAh13r0A.name=Absolute Purity
+betterquesting.quest.bNVzOxCORxuo_lhAh13r0A.desc=Absolute Baryonic Perfection! This multiblock allows you to create water that is pure even on the subatomic level. Not a single quark is out of place in Grade 8 Purified Water. Thanks to this purity, even more advanced processes are possible, starting with reducing the processing time of Optical Boules and increasing yield on Optical Chips.%n%nWhile the tooltip is certainly a lot less intimidating than the one of the Degasser, automating this process will not be an easy challenge. Have fun solving the puzzle!
 
 # Quest: Cheaper ZPM Circuits
 betterquesting.quest.dYvLkQ-xRnWL8Egy_MnoIg.name=Cheaper ZPM Circuits
