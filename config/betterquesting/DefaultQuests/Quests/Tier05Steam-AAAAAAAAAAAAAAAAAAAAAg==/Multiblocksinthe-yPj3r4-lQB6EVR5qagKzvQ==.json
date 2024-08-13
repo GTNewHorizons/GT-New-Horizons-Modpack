@@ -3,12 +3,7 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 1205,
-      "type:1": 1
-    },
-    "1:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 890
+      "questIDLow:4": 65
     }
   },
   "questIDLow:4": -8911182845288729667,
@@ -20,9 +15,9 @@
       "isMain:1": 0,
       "simultaneous:1": 0,
       "icon:10": {
-        "id:8": "miscutils:blockFrameGtTumbaga",
+        "id:8": "gregtech:gt.blockmachines",
         "Count:3": 1,
-        "Damage:2": 0,
+        "Damage:2": 31041,
         "OreDict:8": ""
       },
       "snd_update:8": "random.levelup",
@@ -34,7 +29,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "The steam machines you have been using until now have served you well, but there will be a time when you need to process even more items. That\u0027s where so-called multiblocks come in. There’s a variety of steam multiblocks available to you now: a washer, centrifuge, macerator, compressor, and forge hammer.\n\nGo have a look at the GT++ quest tab!"
+      "desc:8": "The steam machines you have been using until now have served you well, but there will be a time when you need to process even more items. That\u0027s where the so-called multiblocks come in. There’s a variety of steam multiblocks available to you go have a look at the GT++ quest tab!"
     }
   },
   "tasks:9": {
