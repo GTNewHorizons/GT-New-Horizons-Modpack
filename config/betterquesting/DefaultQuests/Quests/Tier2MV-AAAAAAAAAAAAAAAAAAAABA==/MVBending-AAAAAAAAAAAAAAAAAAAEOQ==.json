@@ -59,9 +59,9 @@
       "index:3": 0,
       "rewards:9": {
         "0:10": {
-          "id:8": "IC2:itemDensePlates",
+          "id:8": "gregtech:gt.metaitem.01",
           "Count:3": 8,
-          "Damage:2": 5,
+          "Damage:2": 22305,
           "OreDict:8": ""
         },
         "1:10": {
