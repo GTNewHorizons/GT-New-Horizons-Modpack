@@ -4,20 +4,24 @@
     "0:10": {
       "questIDHigh:4": -7295214463238520795,
       "questIDLow:4": -8557295371763424843
+    },
+    "1:10": {
+      "questIDHigh:4": -139068609484536132,
+      "questIDLow:4": -5753871526049634361
     }
   },
   "questIDLow:4": -5575624123602641916,
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
-      "taskLogic:8": "OR",
+      "taskLogic:8": "AND",
       "visibility:8": "NORMAL",
       "isMain:1": 1,
       "simultaneous:1": 0,
       "icon:10": {
-        "id:8": "minecraft:water_bucket",
+        "id:8": "gregtech:gt.blockmachines",
         "Count:3": 1,
-        "Damage:2": 0,
+        "Damage:2": 9412,
         "OreDict:8": ""
       },
       "snd_update:8": "random.levelup",
@@ -29,7 +33,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "You read it right, your next task is to create purified water. There are 8 grades of purified water, each slightly better than the previous. Which one you make and use is up to you.\n\n[note]You only need to do one task to complete this quest.[/note]"
+      "desc:8": "You got to take a well deserved break from the waterline in UHV, but now that you are going to be making optical circuits, your Grade 6 Purified Water will no longer be enough. Using the Degasser, you can remove all the leftover decontaminants from previous processes and make even more pure water, pure enough for Optical Circuits. \n\nThe tooltip and list of requirements looks intimidating. Try breaking it down into small, digestible units of logic and you will quickly arrive at a solution."
     }
   },
   "tasks:9": {
@@ -42,9 +46,9 @@
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.metaitem.01",
+          "id:8": "gregtech:gt.blockmachines",
           "Count:3": 1,
-          "Damage:2": 30554,
+          "Damage:2": 9412,
           "OreDict:8": ""
         }
       },
@@ -59,115 +63,31 @@
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.metaitem.01",
+          "id:8": "gregtech:gt.blockcasings9",
           "Count:3": 1,
-          "Damage:2": 30555,
+          "Damage:2": 11,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.blockglass1",
+          "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 4491,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 9413,
           "OreDict:8": ""
         }
       },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "2:10": {
-      "partialMatch:1": 1,
-      "autoConsume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 2,
-      "consume:1": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 1,
-          "Damage:2": 30556,
-          "OreDict:8": ""
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "3:10": {
-      "partialMatch:1": 1,
-      "autoConsume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 3,
-      "consume:1": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 1,
-          "Damage:2": 30557,
-          "OreDict:8": ""
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "4:10": {
-      "partialMatch:1": 1,
-      "autoConsume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 4,
-      "consume:1": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 1,
-          "Damage:2": 30558,
-          "OreDict:8": ""
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "5:10": {
-      "partialMatch:1": 1,
-      "autoConsume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 5,
-      "consume:1": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 1,
-          "Damage:2": 30559,
-          "OreDict:8": ""
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "6:10": {
-      "partialMatch:1": 1,
-      "autoConsume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 6,
-      "consume:1": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 1,
-          "Damage:2": 30560,
-          "OreDict:8": ""
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "7:10": {
-      "partialMatch:1": 1,
-      "autoConsume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 7,
-      "consume:1": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 1,
-          "Damage:2": 30561,
-          "OreDict:8": ""
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   },
   "rewards:9": {
