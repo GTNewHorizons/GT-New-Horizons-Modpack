@@ -445,8 +445,13 @@
 	<ToolTip ItemName="Railcraft:machine.eta:8" ToolTip="Has 3072 buckets capacity per block \nAuto-Output from bottom side \nAuto-Output rate is 1000L/t" NBT=""/>
 
 //Cubic Zirconia
-    <ToolTip ItemName="bartworks:gt.bwMetaGenerateddust:4" ToolTip="§3Check Flawed Crystal recipe in EBF" NBT=""/>
+	<ToolTip ItemName="bartworks:gt.bwMetaGenerateddust:4" ToolTip="§3Check Flawed Crystal recipe in EBF" NBT=""/>
 	<ToolTip ItemName="bartworks:gt.bwMetaGeneratedgem:4" ToolTip="§3Check Flawed Crystal recipe in EBF" NBT=""/>
+
+//Orundum
+	<ToolTip ItemName="bartworks:gt.bwMetaGenerateddust:10023" ToolTip="§3Check Plate recipe in Forming Press" NBT=""/>
+	<ToolTip ItemName="bartworks:gt.bwMetaGeneratedgem:10023" ToolTip="§3Check Plate recipe in Forming Press" NBT=""/>
+	<ToolTip ItemName="bartworks:bw.blockores.01:10023" ToolTip="§3Check Plate recipe in Forming Press" NBT=""/>
 
 //Bee housings
 	<ToolTip ItemName="Forestry:apiculture" ToolTip="Effective production chance as a percent is\n2.8 * b^0.52 * (p + t)^0.52 * s^0.37\nwhere b is the base production chance as a percent,\np is the production modifier (additive, starts at -0.9 for the apiary),\nt is 1 for the apiary, and\ns is the speed value for the bee\nOutputs are generated at the end of every bee tick (27.5 seconds)\nPrimary outputs are rolled once with base chance, once with half base" NBT=""/>
