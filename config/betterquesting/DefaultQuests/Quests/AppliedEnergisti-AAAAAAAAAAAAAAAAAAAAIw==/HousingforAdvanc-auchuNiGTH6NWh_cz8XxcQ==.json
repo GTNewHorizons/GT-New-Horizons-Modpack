@@ -1,16 +1,12 @@
 {
-  "questIDHigh:4": 0,
+  "questIDHigh:4": 7703162765430901886,
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 7703162765430901886,
-      "questIDLow:4": -8261255533218631311
-    },
-    "1:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 2489
+      "questIDHigh:4": -3414325129300259177,
+      "questIDLow:4": -4667288543375339252
     }
   },
-  "questIDLow:4": 2492,
+  "questIDLow:4": -8261255533218631311,
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
@@ -19,10 +15,9 @@
       "isMain:1": 0,
       "simultaneous:1": 0,
       "icon:10": {
-        "id:8": "ae2fc:fluid_storage256",
+        "id:8": "ae2fc:fluid_storage_housing",
         "Count:3": 1,
-        "tag:10": {},
-        "Damage:2": 0,
+        "Damage:2": 1,
         "OreDict:8": ""
       },
       "snd_update:8": "random.levelup",
@@ -30,33 +25,14 @@
       "globalShare:1": 0,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "256k Fluid Storage Cell",
+      "name:8": "Housing for Advanced Fluid Components",
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "These hold 512 ML of a single fluid. They hold a bit more than a Quantum Tank III."
+      "desc:8": "You need to use this for the higher tiered Fluid Cells."
     }
   },
-  "tasks:9": {
-    "0:10": {
-      "partialMatch:1": 1,
-      "autoConsume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 0,
-      "consume:1": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "id:8": "ae2fc:fluid_storage256",
-          "Count:3": 1,
-          "tag:10": {},
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    }
-  },
+  "tasks:9": {},
   "rewards:9": {
     "0:10": {
       "rewardID:8": "bq_standard:item",
