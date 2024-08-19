@@ -71,15 +71,15 @@
           "OreDict:8": ""
         },
         "2:10": {
-          "id:8": "gregtech:gt.blockmachines",
+          "id:8": "gregtech:gt.blockframes",
           "Count:3": 21,
-          "Damage:2": 4180,
+          "Damage:2": 84,
           "OreDict:8": ""
         },
         "3:10": {
-          "id:8": "gregtech:gt.blockmachines",
+          "id:8": "gregtech:gt.blockframes",
           "Count:3": 12,
-          "Damage:2": 4431,
+          "Damage:2": 335,
           "OreDict:8": ""
         },
         "4:10": {

@@ -1,0 +1,95 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 1067327358665575267,
+      "questIDLow:4": -8996825125550293613
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 943
+    }
+  },
+  "questIDLow:4": 2397,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 1,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.blockmachines",
+        "Count:3": 1,
+        "Damage:2": 998,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "OR",
+      "repeat_relative:1": 1,
+      "name:8": "Playing With the Big Boys, Chemically",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "This facility will process certain chemical recipes you\u0027ll need later on, like Rocket Fuels. Keep in mind that recipes can only be made after meeting the required Chemical Plant tier.\n\nIt will need a minecart load of resources, so start mining!\n\nCatalysts are needed in some recipes, place them in the Catalyst Housing. They use durability, this includes ones that don\u0027t look like it.\n\n[note]You can make Silicon Carbide in the mixer, you don\u0027t need the ABS.[/note]\n\nValid solid casings: (Determines CP Tier for recipes)\n1 Strong Bronze Machine Casing\n2 Solid Steel Machine Casing\n3 Sturdy Aluminium Machine Casing\n4 Clean Stainless Steel Machine Casing\n5 Stable Titanium Machine Casing\n6 Robust Tungstensteel Casing\n7 Vigorous Laurenium Machine Casing\n8 Rugged Botmium Machine Casing\n\nValid machine casings: (Determines maximum hatch/bus tier)\nLV-UHV Machine Casing, UHV unlocks any hatch/bus.\n\nValid pipe casings: (+2 Parallels, -20% chance to consume catalyst durability per pipe casing starting with 2 parallels and 100% chance for the first one.)\nBronze\nSteel\nTitanium\nTungstensteel\n\nAll coils from Cupronickel to Eternal are valid. Each one increases speed by +50%, starting at 50% speed for Cupronickel.\n\n[note]Additionally: If you have at least Awakened Draconium Coils and Tungstensteel pipe casings, then no catalyst is consumed at all![/note]\n\n[warn]Don\u0027t use the NEI Preview for the Chemical Plant, it is wrong.[/warn]"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 998,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "miscutils:bookGT",
+          "Count:3": 1,
+          "tag:10": {
+            "stats:10": {
+              "mMeta:3": 5
+            }
+          },
+          "Damage:2": 5,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 2,
+          "Damage:2": 5,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}
