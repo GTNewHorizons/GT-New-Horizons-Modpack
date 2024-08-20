@@ -44,9 +44,9 @@
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.blockframes",
+          "id:8": "gregtech:gt.blockmachines",
           "Count:3": 2,
-          "Damage:2": 19,
+          "Damage:2": 4115,
           "OreDict:8": ""
         },
         "1:10": {

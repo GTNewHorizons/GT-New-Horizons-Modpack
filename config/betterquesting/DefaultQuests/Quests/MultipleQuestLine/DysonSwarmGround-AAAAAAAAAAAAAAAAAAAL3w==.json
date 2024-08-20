@@ -118,21 +118,21 @@
           "OreDict:8": ""
         },
         "12:10": {
-          "id:8": "gregtech:gt.blockframes",
+          "id:8": "gregtech:gt.blockmachines",
           "Count:3": 16,
-          "Damage:2": 28,
+          "Damage:2": 4124,
           "OreDict:8": ""
         },
         "13:10": {
-          "id:8": "gregtech:gt.blockframes",
+          "id:8": "gregtech:gt.blockmachines",
           "Count:3": 23,
-          "Damage:2": 374,
+          "Damage:2": 4470,
           "OreDict:8": ""
         },
         "14:10": {
-          "id:8": "gregtech:gt.blockframes",
+          "id:8": "gregtech:gt.blockmachines",
           "Count:3": 64,
-          "Damage:2": 985,
+          "Damage:2": 5081,
           "OreDict:8": ""
         }
       },
