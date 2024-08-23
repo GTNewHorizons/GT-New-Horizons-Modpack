@@ -72,6 +72,7 @@ config/warptheory/
 !config/GregTech/WorldGeneration.cfg
 !config/GregTech/Unification.cfg
 !config/NEI/collapsibleitems.cfg
+!config/NEI/hiddenitems.cfg
 !config/HungerOverhaul/HungerOverhaul.cfg
 !config/railcraft/blocks.cfg
 !config/railcraft/railcraft.cfg
