@@ -1,0 +1,42 @@
+{
+  "questIDHigh:4": -3516701536499711394,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2699
+    }
+  },
+  "questIDLow:4": -7953419521392865104,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "minecraft:writable_book",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "The Numbers Mason, What Do They Mean?!",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "The following is an all inclusive list of valid rack components and their properties. Anything not listed has no effect on computation or heat. If you are struggling with all the numbers and equations, you might want to check the wiki.\n\n[note]Circuit - Computation - Heat Limit - Heat Constant[/note]\n\nCrystalprocessor - 60 - 2000 - 56\nCrystalprocessor Assembly - 80 - 2000 - 54\nUltimate Crystalcomputer - 100 - 2000 - 52\nCrystalprocessor Mainframe - 120 - 2000 - 50\n\nCPU (Tier 3) - 80 - 2000 - 46\nGraphics Card (Tier 3) - 3 - 100 - 2000 - 44\nAPU (Tier 2) - 120 - 2000 - 42\nAPU (Tier 3) - 240 - 2000 - 40\n\nWetware Processor - 160 - 4000 - 46\nWetwareprocessor Assembly - 180 - 4000 - 44\nWetware Supercomputer - 200 - 4000 - 42\nWetware Mainframe - 220 - 4000 - 40\n\nBioprocessor - 200 - 6000 - 36\nBiowareprocessor Assembly - 220 - 6000 - 34\nBioware Supercomputer - 240 - 6000 - 32\nBio Mainframe - 260 - 6000 - 30\n\nOptical Processor - 200 - 8000 - 26\nOptical Assembly - 220 - 8000 - 24\nOptical Computer - 240 - 8000 - 22\nOptical Mainframe - 260 - 8000 - 20\n\nPico Circuit - 260 - 9500 - 12\nQuantum Circuit - 320 - 10000 - 10\n\n[note]Vent - Heat Limit - Cooling Constant[/note]\n\nHeat Vent - 2000 - 40\nReactor Heat Vent - 4000 - 80\nOverclocked Heat Vent - 6000 - 120\nAdvanced Heat Vent - 8000 - 160\nCooling Core - 10000 - 200"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {}
+}
