@@ -39,8 +39,8 @@
       "partialMatch:1": 1,
       "autoConsume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
-      "index:3": 1,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
@@ -56,8 +56,8 @@
       "partialMatch:1": 1,
       "autoConsume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
-      "index:3": 2,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
@@ -73,8 +73,8 @@
       "partialMatch:1": 1,
       "autoConsume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
-      "index:3": 3,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
@@ -90,8 +90,8 @@
       "partialMatch:1": 1,
       "autoConsume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
-      "index:3": 4,
+      "ignoreNBT:1": 1,
+      "index:3": 3,
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
@@ -107,8 +107,8 @@
       "partialMatch:1": 1,
       "autoConsume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
-      "index:3": 5,
+      "ignoreNBT:1": 1,
+      "index:3": 4,
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
@@ -124,8 +124,8 @@
       "partialMatch:1": 1,
       "autoConsume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
-      "index:3": 6,
+      "ignoreNBT:1": 1,
+      "index:3": 5,
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
@@ -141,8 +141,8 @@
       "partialMatch:1": 1,
       "autoConsume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
-      "index:3": 7,
+      "ignoreNBT:1": 1,
+      "index:3": 6,
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
@@ -158,8 +158,8 @@
       "partialMatch:1": 1,
       "autoConsume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
-      "index:3": 8,
+      "ignoreNBT:1": 1,
+      "index:3": 7,
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
@@ -175,8 +175,8 @@
       "partialMatch:1": 1,
       "autoConsume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
-      "index:3": 9,
+      "ignoreNBT:1": 1,
+      "index:3": 8,
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
@@ -192,8 +192,8 @@
       "partialMatch:1": 1,
       "autoConsume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
-      "index:3": 10,
+      "ignoreNBT:1": 1,
+      "index:3": 9,
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
@@ -209,8 +209,8 @@
       "partialMatch:1": 1,
       "autoConsume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
-      "index:3": 11,
+      "ignoreNBT:1": 1,
+      "index:3": 10,
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
@@ -226,7 +226,24 @@
       "partialMatch:1": 1,
       "autoConsume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 11,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "TConstruct:ToolForgeBlock",
+          "Count:3": 1,
+          "Damage:2": 11,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "12:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
       "index:3": 12,
       "consume:1": 0,
       "requiredItems:9": {
@@ -239,11 +256,11 @@
       },
       "taskID:8": "bq_standard:retrieval"
     },
-    "12:10": {
+    "13:10": {
       "partialMatch:1": 1,
       "autoConsume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
+      "ignoreNBT:1": 1,
       "index:3": 13,
       "consume:1": 0,
       "requiredItems:9": {
@@ -251,23 +268,6 @@
           "id:8": "TConstruct:ToolForgeBlock",
           "Count:3": 1,
           "Damage:2": 13,
-          "OreDict:8": ""
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "13:10": {
-      "partialMatch:1": 1,
-      "autoConsume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
-      "index:3": 14,
-      "consume:1": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "id:8": "TConstruct:ToolForgeBlock",
-          "Count:3": 1,
-          "Damage:2": 11,
           "OreDict:8": ""
         }
       },
