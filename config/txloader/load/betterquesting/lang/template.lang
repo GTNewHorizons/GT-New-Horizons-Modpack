@@ -1826,10 +1826,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAH3g.desc=Sometimes you don't want a 3x3 
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHGw.name=§6§lSilicon Dioxide
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHGw.desc=Get yourself some Silicon Dioxide! Smelting it in your EBF with some carbon is the best way to obtain raw silicon ingots. It is used it a few places but most importantly you can macerate it back down to raw silicon dust. You can also turn the silicon dioxide into raw silicon dust via chemical processes using aluminium or magnesium.%n%nYou can get silicon dioxide easily by centrifuging glass dust or electrolyzing sand.%n%nIf you have raw silicon dust but want silicon dioxide for some reason, you can use an arc furnace or an autoclave.
 
-# Quest: Mobile Trash Can
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHHw.name=§6§lMobile Trash Can
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHHw.desc=GT2's Destructopack is an item alternative to the trashcan provided by ServerUtilities (which can be accessed via a button in your inventory). Both trashcans are mobile and do not need to be placed. Which one you use is, of course, up to you, but both of them are handy for sure!
-
 # Quest: Tantalum Ore
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHKw.name=§6§lTantalum Ore
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHKw.desc=Tantalum is used in the GT (optional) and Ender IO Capacitors, and is also a source for niobium. You can find Tantalite at Y 20-30 on the Overworld and at Y 20-30 in the Nether..%n%n§4Keep in mind you need an HV + Kanthal EBF and an MV Chemical Bath to get Tantalum Ingots.
