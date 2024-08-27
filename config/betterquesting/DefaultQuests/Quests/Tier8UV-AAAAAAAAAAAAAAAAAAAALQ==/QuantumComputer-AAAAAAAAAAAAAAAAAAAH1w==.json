@@ -35,7 +35,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "One of the most incredibly complicated machines, this will serve as the main structure for your Computation generation for the Research Station. \n\nFirst, you\u0027ll need a few things: the Quantum Computer itself, The Uncertainty Resolver, some good circuits and the Computer Racks to hold them, and at least a UV energy hatch (maybe start with a UV 4A energy hatch). The QC will consume 1A of UV, and each rack will use one more. So another important factor is to ONLY turn on the Quantum Computer once you have the desired recipe for the Research Station ready to avoid excess energy loss. Remember to turn the QC on BEFORE the RS. In order for you to build this absolute monster, you\u0027ll need to place down the Quantum Computer at least 1 block above the surface/ground and use the Multiblock Structure Hologram Projector to see where to place everything. The blocks with no dots next to the vents indicate that that space must be empty. Later you\u0027ll want to build a bigger QC. Use a stack of multiple Hologram Projectors to see how that is build. If at some point even a maximum size QC with 24 racks is no longer sufficient, you can also chain multiple QCs. For now, let us focus on a basic setup.\n\nUncertainty Resolver:\nA mini-game that might take you a bit to understand. Your goal is to balance the lights around the focal points. Sometimes, the Schrödinger Status will require some puzzle solving again after a period of time. This is random and incredibly frustrating, especially during operations being done between the Research Station and Quantum Computer(s), so it is important to constantly check the Uncertainty Resolver before you start operations on your Computer. If the puzzle looks too hard or you can\u0027t complete it, just remove it and the controller and re-place them to get a different puzzle.\n\nComputer Racks:\nThe main component within the multiblock to generate Computation. In order to achieve this, you will need to input some circuits and ic2 heat vents; Advanced Heat Vents work best. It is critical that you use Heat Vents to prevent the heat from reaching a catastrophic point. Computer Racks will always melt or explode about 9000 heat (also written as 90 percent, 10000 being 100 percent) but most circuits have much lower thresholds. For our example here we will use Ultimate Crystalcomputers. With these, any heat above 54 percent should be avoided for safety reasons! The maximum heat will be different for different circuits, even if they are of the same tier. You can see the heat for individual racks by scanning them. You cannot remove or insert components until the heat is gone. You can see the overall heat value in the controller\u0027s interface. And most importantly: DO NOT WRENCH THE COMPUTER RACKS IF THEY HAVE HEAT IN THEM. Otherwise, you\u0027re going to get an explosion.\n\nComputation:\nComputation is generated every second and is based on the tier of your circuit. There are, however, differences in between how much computation is generated, even with the same exact tier. For instance, you could use a Master Quantum Computer (Quantum Circuit Series / LuV) or a Wetwareprocessor (Wetware Circuit Series / LuV) which will give you more Computation even though they are of the same tier. If you wish to find out exactly how much Computation a circuit gives; place down a Computer Rack, put a circuit inside and scan it. You can also see the total computation in the controller.\n\nIt will include the following information.\nBase computation: \nAfter overclocking: \u003csame as above unless you specially overclock it\u003e\nHeat Accumulated: \u003cbased on circuits and heat vents, keep a watchful eye on this part as it\u0027s extremely important\u003e\n\nYou can find an overview of circuits with their maximum heat and Computation generation on the GTNH wiki.\n\nUsing the parameters in the GUI, you can overclock and overvolt the QC but we won\u0027t do so for our example setup here.\n\nSending Computation to the Research Station:\nUse the Optical Master Connector in one of the variable spaces on the QC, and the Optical Slave Connector on the RS. Use Optical Fiber Cable to connect them, and make sure to paint all three.\n\nExample setup:\nNow that you\u0027ve understood the concepts and safety of handling of the QC, what are the more optimal setups for your Quantum Computer? For now, we suggest 2 racks with 3 Ultimate Crystalcomputers each, and of course 1 Advanced Heat Vent. This gives you 156 C/s and will get you started with recipes in the Research Station. This is a rather minimal setup though, you should probably think about more optimized (or just larger) setups later!\n\nNow that you understand the QC, it\u0027s time to build it! You\u0027ll need to gather quite a lot of resources."
+      "desc:8": "The Quantum Computer (QC) is an incredibly complicated machine used to generate computation for the Research Station and a few other multiblocks. There are a few things you need to understand before using one.\n\n§lCONSTRUCTION§r. Much like an assembly line, the QC is built as a series of slices. The first and last slice are the only valid locations for hatches. The slices in between are primarily for computer racks. The Multiblock Structure Hologram Projector shows the minimum length QC, but holding multiple in a single stack will show/build longer versions up to the maximum length of 16. There is also a mandatory air block in front of the computer heat vents.\n\n§lOUTPUT§r. Computation is nothing more than an integer input for certain recipes--much like EU. There may exist a minimum throughput requirement, a threshold to reach, or both (NEI will tell you everything). Computation is generated every second by the QC, transmitted by an Optical Transmission Connector, received by an Optical Reception Connector, and \"consumed\" by the machine or process that needs it. There is no storing computation and there can only be ONE transmission or reception hatch connected to the same Optical Fiber Cables at a time. If absolutely necessary, the Network Switch with QOS can split/join connections but know that it takes both power and maintenance to run.\n\nAdditional QC can be chained together using another set of Optical Transmission and Optical Reception Connectors between machines, but they cannot wallshare the same Optical Transmission Connector.\n\n§lUNCERTAINTY§r. The QC has a unique maintenance requirement that can only be corrected by balancing the Schrödinger Matrix inside an Uncertainty Resolver--an additional hatch that must go on either the first or last slice of the machine. Start with the basic Uncertainty Resolver, but know that there are two more tiers unlocked later on that lower the difficulty of the puzzle, or not?\n\nThe interface of the Uncertainty Resolver has the Schrödinger Matrix in the middle and two sets of 8 buttons on the left and right. Clicking on one button and then another will switch the states of the two corresponding cells in the matrix. This means switching their blinking speed (in the basic Uncertainty Resolver) or their shade/color (in the Uncertainty Resolver X). The goal of the puzzle is to balance the states of the matrix around the glowing LED lights, turning all of them green.\n\n§lPARAMETERS§r. In the GUI of the controller, there are two configurable parameters, overclock and overvolt, that change how computation and heat are generated. Higher overclock values contribute the most to computation and higher overvolt values contribute the most to heat. Alone, this would encourage the player to make overclock as high as possible and overvolt as low as possible, but there is a penalty to computation for large differences between these two parameters. Furthermore, overvolt values \u003c1 will cause the QC to randomly drop computation proportional to its distance from 1. It is highly encouraged to play around with these parameters, as all the best setups do.\n\nSee the adjacent quest for more information on computer racks and generating computation."
     }
   },
   "tasks:9": {
@@ -48,48 +48,24 @@
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.blockmachines",
-          "Count:3": 1,
-          "Damage:2": 15430,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "gregtech:gt.blockmachines",
-          "Count:3": 1,
-          "Damage:2": 15441,
-          "OreDict:8": ""
-        },
-        "2:10": {
-          "id:8": "gregtech:gt.blockmachines",
-          "Count:3": 1,
-          "Damage:2": 15470,
-          "OreDict:8": ""
-        },
-        "3:10": {
-          "id:8": "gregtech:gt.blockmachines",
-          "Count:3": 1,
-          "Damage:2": 15103,
-          "OreDict:8": ""
-        },
-        "4:10": {
           "id:8": "tectech:gt.blockcasingsTT",
           "Count:3": 6,
           "Damage:2": 2,
           "OreDict:8": ""
         },
-        "5:10": {
+        "1:10": {
           "id:8": "tectech:gt.blockcasingsTT",
           "Count:3": 17,
           "Damage:2": 1,
           "OreDict:8": ""
         },
-        "6:10": {
+        "2:10": {
           "id:8": "tectech:gt.blockcasingsTT",
           "Count:3": 10,
           "Damage:2": 3,
           "OreDict:8": ""
         },
-        "7:10": {
+        "3:10": {
           "id:8": "gregtech:gt.blockmachines",
           "Count:3": 2,
           "Damage:2": 15450,
@@ -111,23 +87,28 @@
           "Count:3": 1,
           "Damage:2": 15311,
           "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 15430,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 15441,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 15470,
+          "OreDict:8": ""
         }
       },
       "taskID:8": "bq_standard:retrieval"
     }
   },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 0,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "tectech:gt.blockcasingsTT",
-          "Count:3": 20,
-          "Damage:2": 3,
-          "OreDict:8": ""
-        }
-      }
-    }
-  }
+  "rewards:9": {}
 }
