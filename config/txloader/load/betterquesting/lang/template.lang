@@ -8994,6 +8994,10 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAAIw.desc=AE2 focuses on creating a c
 betterquesting.quest.-IWmYEgKSGi0M7rtP59zaw.name=1024k Essentia Component
 betterquesting.quest.-IWmYEgKSGi0M7rtP59zaw.desc=Same as 1k.
 
+# Quest: AE Tier 2 Fluid Storage
+betterquesting.quest.0J3hYoBeTpe_OnXMU9zRDA.name=AE Tier 2 Fluid Storage
+betterquesting.quest.0J3hYoBeTpe_OnXMU9zRDA.desc=This Processor allows you to craft 256k, 1024k, 4096 and 16384k Fluid Storage Components. %n%nThese Components need to be paired with Advanced Fluid Storage Housings to turn them into Fluid Storage Cells.
+
 # Quest: Waterproof Tech
 betterquesting.quest.1FFkSYHcQPO_6U185CKBiw.name=Waterproof Tech
 betterquesting.quest.1FFkSYHcQPO_6U185CKBiw.desc=With the ability to bend spacetime at your will, you can prevent fluids and electronics from interacting.%n%nFluid containing patterns can be processed.%n%n[note]Otherwise it works like crafting input bus.[/note]
@@ -9384,7 +9388,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ9Q.desc=You can use the Wireless Golem 
 
 # Quest: AE Tier 3 Item Storage
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJnw.name=AE Tier 3 Item Storage
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJnw.desc=The main processor for 256k and 1024k cells. You can make these in IV.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJnw.desc=The main processor for 256k and 1024k cells. You can make these in IV.%n%nThese Components need to be paired with Advanced Storage Housings to turn them into Storage Cells.
 
 # Quest: 256k Component
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJoA.name=256k Component
@@ -9438,9 +9442,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJqw.desc=Component of the crafting CPU w
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJrA.name=AE Tier 4 Item Storage
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJrA.desc=The main processor for 4096k and 16384k cells. You'll need to be in LuV for these.
 
-# Quest: AE Fluid Storage
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJrQ.name=AE Fluid Storage
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJrQ.desc=The main processor used for 1K, 4K, 16K and 64K fluid components.%nAlso used to craft dual interfaces, as well as some other useful tools from AE2FC like the level maintainer.%n%nDon't want to get rid of the super tanks you have been using up to now? Use the fluid storage bus instead of the fluid storage cells from AE2FC then. Super tanks double in capacity each tier, but the cells quadruple. They're also less expensive for sure. But you decide which to use.
+# Quest: AE Tier 1 Fluid Storage
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJrQ.name=AE Tier 1 Fluid Storage
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJrQ.desc=The main Processor used for crafting 1K, 4K, 16K and 64K Fluid Storage Components. Additionally, it’s used to craft Dual Interfaces, as well as some other useful tools from AE2FC, like the Level Maintainer.%n%nDon't want to get rid of the Super Tanks you have been using up to now? Use the Fluid Storage Bus instead of the Fluid Storage Cells from AE2FC then. Super Tanks double in capacity each tier, but the Cells quadruple. They're also less expensive for sure. But you decide which to use.
 
 # Quest: 1k Fluid Component
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJrg.name=1k Fluid Component
@@ -9476,7 +9480,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJtQ.desc=These hold over 128 ML of a sin
 
 # Quest: Housing for Advanced Components
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJtw.name=Housing for Advanced Components
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJtw.desc=You need to use this for the higher tiered cells.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJtw.desc=You need to use this for the higher-tiered Cells.
 
 # Quest: 256k Fluid Component
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJuQ.name=256k Fluid Component
@@ -9629,6 +9633,10 @@ betterquesting.quest.Wh0yn2MOQhS-X_8NiPiZJw.desc=Same as 1k.
 # Quest: Ultimate Parallelization...
 betterquesting.quest._bEWg1FHSmKu9MNhlbDlwA.name=§6§lUltimate Parallelization...
 betterquesting.quest._bEWg1FHSmKu9MNhlbDlwA.desc=Allows for parallelization of a single interface, you don't have to copy patterns for multiple interfaces anymore.
+
+# Quest: Housing for Advanced Fluid Components
+betterquesting.quest.auchuNiGTH6NWh_cz8XxcQ.name=Housing for Advanced Fluid Components
+betterquesting.quest.auchuNiGTH6NWh_cz8XxcQ.desc=You need to use this for the higher-tiered Fluid Cells.
 
 # Quest: Slavery is Bad
 betterquesting.quest.cEFNSTdoRvysoNgmtDLdvg.name=Slavery is Bad
