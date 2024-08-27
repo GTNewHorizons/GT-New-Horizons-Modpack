@@ -15,9 +15,9 @@
       "isMain:1": 0,
       "simultaneous:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.blockmachines",
+        "id:8": "gregtech:gt.blockframes",
         "Count:3": 1,
-        "Damage:2": 4731,
+        "Damage:2": 635,
         "OreDict:8": ""
       },
       "snd_update:8": "random.levelup",
