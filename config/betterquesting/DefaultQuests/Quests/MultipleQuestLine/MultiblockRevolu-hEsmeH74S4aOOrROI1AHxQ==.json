@@ -1,0 +1,42 @@
+{
+  "questIDHigh:4": -8913988738481632378,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 65
+    }
+  },
+  "questIDLow:4": -8198041923981670459,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.blockmachines",
+        "Count:3": 1,
+        "Damage:2": 31041,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "§3§lMultiblock Revolution",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "The steam machines you have been using until now have served you well, but there will be a time when you need to process even more items. That\u0027s where the so-called multiblocks come in. There’s a variety of steam multiblocks available to you - go have a look at the Mass Processing quest tab! \n\nThis tab introduces you to a wide range of extremely powerful multiblock machines that can replace your old, worn-out singleblocks (and some that can replace your old multiblocks!). Many of these new machines will require you to handle additional mechanics and requirements, but it will be worth it!\n\nHere are some terms you should be familiar with as you enter the world of multiblocks:\n\nOverclock (OC): \nIf a machine can handle at least 4 times the voltage that is required for a recipe, it will overclock - causing it to require 4x the EU/t but also run 2x as fast. This can happen multiple times!\n\nPerfect Overclock (Often phrased as \"Does not lose efficiency when overclocked):\nSome machines conditionally (or unconditionally) perform perfect overclocks: in this case, the machine will require 4x the EU/t, but it will run 4x as fast instead, leading to both increased speed and no net increase in the total eu usage!\n\nParallel (Often phrased as \"Processes x items\"): \nMachines which parallel act as if they are running multiple of themselves - that is to say, they are able to perform multiple of the same recipe at the same time, using the recipe\u0027s EU/t multiplied by the number of parallels. Machines which parallel will [warn]PRIORITIZE[/warn] this behavior over overclocking, which is good for you! Parallels are more efficient.\n\n[note]When working with multiblocks, if power is interrupted during operation, your inputs will be lost forever... careful![/note]"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {}
+}
