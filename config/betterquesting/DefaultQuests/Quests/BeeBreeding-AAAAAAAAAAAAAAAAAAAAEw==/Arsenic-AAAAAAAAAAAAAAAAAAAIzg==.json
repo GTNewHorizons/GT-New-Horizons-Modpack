@@ -3,16 +3,15 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 2164,
+      "questIDLow:4": 2195,
       "type:1": 1
     },
     "1:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 2156,
-      "type:1": 1
+      "questIDLow:4": 2197
     }
   },
-  "questIDLow:4": 2163,
+  "questIDLow:4": 2254,
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
@@ -28,8 +27,8 @@
           "Genome:10": {
             "Chromosomes:9": {
               "0:10": {
-                "UID1:8": "gregtech.bee.speciesClay",
-                "UID0:8": "gregtech.bee.speciesClay",
+                "UID1:8": "gregtech.bee.speciesArsenic",
+                "UID0:8": "gregtech.bee.speciesArsenic",
                 "Slot:4": 0
               }
             }
@@ -43,12 +42,12 @@
       "globalShare:1": 1,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "Clay bee",
+      "name:8": "Arsenic",
       "isGlobal:1": 0,
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "To breed a Clay bee you must put a Clay block beneath the housing. Clay bees are the bedrock of many important bee lines. Breed them from Industrious and Diligent."
+      "desc:8": "This deadly little princess will get you Arsenic, perfect for use in your circuits. Requires a Block of Arsenic. Breed them from Silver and Zinc."
     }
   },
   "tasks:9": {
@@ -67,8 +66,8 @@
             "Genome:10": {
               "Chromosomes:9": {
                 "0:10": {
-                  "UID1:8": "gregtech.bee.speciesClay",
-                  "UID0:8": "gregtech.bee.speciesClay"
+                  "UID1:8": "gregtech.bee.speciesArsenic",
+                  "UID0:8": "gregtech.bee.speciesArsenic"
                 }
               }
             }

@@ -3,20 +3,18 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 2195,
-      "type:1": 1
+      "questIDLow:4": 3298
     },
     "1:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 2197
+      "questIDLow:4": 372
     }
   },
-  "questIDLow:4": 2254,
+  "questIDLow:4": 3297,
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
       "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
       "visibility:8": "NORMAL",
       "isMain:1": 0,
       "simultaneous:1": 0,
@@ -27,9 +25,8 @@
           "Genome:10": {
             "Chromosomes:9": {
               "0:10": {
-                "UID1:8": "gregtech.bee.speciesArsenic",
-                "UID0:8": "gregtech.bee.speciesArsenic",
-                "Slot:4": 0
+                "UID1:8": "gregtech.bee.speciesEndshard",
+                "UID0:8": "gregtech.bee.speciesEndshard"
               }
             }
           }
@@ -39,15 +36,14 @@
       },
       "snd_update:8": "random.levelup",
       "repeatTime:3": -1,
-      "globalShare:1": 1,
+      "globalShare:1": 0,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "Arsenic Princess",
-      "isGlobal:1": 0,
+      "name:8": "Ender Shard",
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "This deadly little princess will get you Arsenic, perfect for use in your circuits. Requires a Block of Arsenic. Breed them from Silver and Zinc."
+      "desc:8": "Critical for your Ichor production."
     }
   },
   "tasks:9": {
@@ -66,8 +62,8 @@
             "Genome:10": {
               "Chromosomes:9": {
                 "0:10": {
-                  "UID1:8": "gregtech.bee.speciesArsenic",
-                  "UID0:8": "gregtech.bee.speciesArsenic"
+                  "UID1:8": "gregtech.bee.speciesEndshard",
+                  "UID0:8": "gregtech.bee.speciesEndshard"
                 }
               }
             }
@@ -79,18 +75,5 @@
       "taskID:8": "bq_standard:retrieval"
     }
   },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 0,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "enhancedlootbags:lootbag",
-          "Count:3": 1,
-          "Damage:2": 25,
-          "OreDict:8": ""
-        }
-      }
-    }
-  }
+  "rewards:9": {}
 }
