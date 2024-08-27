@@ -899,7 +899,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAZg.desc=An absolutely mandatory machine
 
 # Quest: Getting Ready for Tier 2, MV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAZw.name=§5§lGetting Ready for Tier 2, MV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAZw.desc=In order to proceed forward, you need to get aluminium. A lot of it. But for now, 8 is enough to complete this quest.%n%nYour first option is alumina dust. Probably the best source for alumina is clay or hardened clay from canyons, however you need an MV machine for that, so you need to find an alternative until you have enough dust for your initial setup. For now, you can get it by centrifuging various impure piles from your ores or by smelting ruby, sapphire, or green sapphire in an EBF with carbon. Check the EBF quest in the Multiblock Goals.%n%nYou will also need an EBF to turn the alumina into aluminium ingots. For that you need cryolite. Go visit the Twilight Forest for that and find a Cryolite vein. The related quest "Lead, Galena, Silver and Cryolite" is the Novice Thaumaturgy tab.%n%nYour second option is to use aluminium dust. However, you can not smelt that directly yet, even if you have an EBF. That will require higher heat levels. For now, you will have to either use a Tinker's Smeltery or a GT Compressor to turn the dust into raw aluminium which you can then smelt into ingots in the EBF. Check out the Tier 0 quest for some options to obtain the dust. %n%nBy the time you've completed this, you'll probably be done with most of the tab, but you'll still need Good Circuits (MV) to actually open up the next tier if you haven't done that yet.%n%nYou might also want to check the Getting Around and Without Dying tabs for new unlocks.%n%n[note]If you were exploring Twilight Forest before 2.1.1.4 you won't find any cryolite in existing veins. You'll need to explore new chunks.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAZw.desc=In order to proceed forward, you need to get aluminium. A lot of it. But for now, 8 is enough to complete this quest.%n%nYour first option is alumina dust. Probably the best source for alumina is clay or hardened clay from canyons, however you need an MV machine for that, so you need to find an alternative until you have enough dust for your initial setup. For now, you can get it by centrifuging various impure piles from your ores or by smelting ruby, sapphire, or green sapphire in an EBF with carbon. Check the EBF quest in the Multiblock Goals.%n%nYou will also need an EBF to turn the alumina into aluminium ingots. For that you need cryolite. Go visit the Twilight Forest for that and find a Cryolite vein. The related quest is "Lead, Galena, Silver and Cryolite" is the Novice Thaumaturgy tab.%n%nYour second option is to use aluminium dust. However, you can not smelt that directly yet, even if you have an EBF. That will require higher heat levels. For now, you will have to either use a Tinker's Smeltery or a GT Compressor to turn the dust into raw aluminium which you can then smelt into ingots in the EBF. Check out the Tier 0 quest for some options to obtain the dust. %n%nBy the time you've completed this, you'll probably be done with most of the tab, but you'll still need Good Circuits (MV) to actually open up the next tier if you haven't done that yet.%n%nYou might also want to check the Getting Around and Without Dying tabs for new unlocks.%n%n[note]If you were exploring Twilight Forest before 2.1.1.4 you won't find any cryolite in existing veins. You'll need to explore new chunks.[/note]
 
 # Quest: Your Magic Progression
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAaA.name=§5§lYour Magic Progression
@@ -10056,8 +10056,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABbw.desc=These make fiery blood.
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABcA.name=Ur-Ghast
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABcA.desc=Need a lot of magical wood? Well this bee produces carminite.
 
-# Quest: Snowqueen
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABcQ.name=Snowqueen
+# Quest: Snow Queen
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABcQ.name=Snow Queen
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABcQ.desc=I don't know why you would need a lot of snowqueen blood. But this is the way to do it.
 
 # Quest: Steel
@@ -10244,8 +10244,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIbg.desc=Growing bees are the start of t
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIcg.name=Copper
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIcg.desc=The Copper bee is the first of the metal lines. There are too many metal breeding lines to cover here, but by now you should be able to use NEI to figure out how to breed more bee types. Copper bees require a copper block beneath the bee housing. Breed them from Majestic and Clay.
 
-# Quest: Clay bee
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIcw.name=Clay bee
+# Quest: Clay
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIcw.name=Clay
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIcw.desc=To breed a Clay bee you must put a Clay block beneath the housing. Clay bees are the bedrock of many important bee lines. Breed them from Industrious and Diligent.
 
 # Quest: Industrious
@@ -10256,8 +10256,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIdA.desc=Industrious bees produce pollen
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIdQ.name=Slimeball
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIdQ.desc=Slimeballs aren't super useful, but you can easily breed this bee to make them. It's a necessary step on the way to Oil though. You will need a Congealed Slime Block beneath the bee housing. Breed them from Clay and Marshy.
 
-# Quest: Stickyresin
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIdg.name=Stickyresin
+# Quest: Sticky Resin
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIdg.name=Sticky Resin
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIdg.desc=Never having to use a treetap again?  Sign me up! You'll need to put a Rubber Wood log beneath the bee housing. Breed them from Slimeball and Peat.
 
 # Quest: Oil
@@ -10592,20 +10592,20 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIyw.desc=You might be thinking to yourse
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIzA.name=Celebratory
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIzA.desc=%nThis fun bee doesn't have any useful products, but it does produce a fun effect - constant fireworks! You can breed the effect into other lines, and the color of the fireworks will match the bee. Make the bees require sky and you can disable the effects by covering them up with a piston. Great for a celebration! Breed them from Austere and Excited.
 
-# Quest: Arsenic Princess
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIzg.name=Arsenic Princess
+# Quest: Arsenic
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIzg.name=Arsenic
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIzg.desc=This deadly little princess will get you Arsenic, perfect for use in your circuits. Requires a Block of Arsenic. Breed them from Silver and Zinc.
 
-# Quest: DOB
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAM1g.name=DOB
+# Quest: D-O-B
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAM1g.name=D-O-B
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM1g.desc=It is not the psychedelic drug kicking in. The NEI page is actually correct. You can get a lot of different stuff from this comb.
 
-# Quest: Endshard
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAM4Q.name=Endshard
+# Quest: Ender Shard
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAM4Q.name=Ender Shard
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM4Q.desc=Critical for your Ichor production.
 
-# Quest: Nethershard
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAM4g.name=Nethershard
+# Quest: Nether Shard
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAM4g.name=Nether Shard
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM4g.desc=Critical for your Ichor production.%n%n[note]You will need to breed through a bunch of elemental bees that don't have quests to actually get to it.[/note]
 
 # Quest: Space Bees
