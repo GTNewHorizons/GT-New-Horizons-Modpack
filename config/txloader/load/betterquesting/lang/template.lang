@@ -4835,6 +4835,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALUg.desc=Rotten Flesh is not really heal
 betterquesting.questline.bAal8kZ3R8eRTwaHgbYkKA.name=Getting Around...
 betterquesting.questline.bAal8kZ3R8eRTwaHgbYkKA.desc=Movement can be slow initially. But with some technology or magic, that is easily overcome!
 
+# Quest: Indestructible Vessel
+betterquesting.quest.-MexGhcYQ0OUrr5xgriDXQ.name=Indestructible Vessel
+betterquesting.quest.-MexGhcYQ0OUrr5xgriDXQ.desc=In light of your thaumaturgical research, you have come to the conclusion that Greatwood is, in fact, a great material for constructing a resilient boat. Utilizing this material to its fullest potential has allowed you to construct a boat that is slightly faster and will never break on collision.
+
 # Quest: Relocator
 betterquesting.quest.8QSORTVOSOaUXC6mQurMgA.name=Relocator
 betterquesting.quest.8QSORTVOSOaUXC6mQurMgA.desc=The relocator allows for teleportation to previously marked locations, even between dimensions.%n%n[note]Uses quite a lot of power so a GraviChestPlate or other energy sources are recommended.[/note]
@@ -5046,6 +5050,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALUw.desc=Maybe you were lucky and found 
 # Quest: Travelocity²
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM3Q.name=Travelocity²
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM3Q.desc=Why walk when you can teleport? This upgrade to the staff of traveling can move you even further, even faster, and will never run out of energy.%n%nRight-click:%n * If targeting a travel anchor: teleport to it, 2048 range%n * If looking at a block: teleport to it, 512 range%n * If no block in range: teleport forward, 64 range%n * If looking at a block within 4 range: teleport to the other side of a wall, 16 range%n * No cooldown%n%nShift-right-click:%n * Same as right-click, but ignoring travel anchors%n * Travel anchors will be hidden from view while holding shift%n%n[note]Tip: You won't be able to see travel anchors that are far away, but can still teleport to them if they are in range and chunk-loaded. Try using JourneyMap waypoints to mark anchors![/note]%n%n[note]Note: The right-click and shift-right-click actions are fully configurable. Check the EnderIO Staff Settings configs!%nConfig action values:%n 0: Do nothing%n 1: Teleport to look / forward%n 2: Teleport to anchor%n 3: Teleport to anchor, or to look / forward if no anchor[/note]
+
+# Quest: Let's Go Lava Surfing!
+betterquesting.quest.BC7LS6iHTYW_U0-SuIA4Sg.name=Let's Go Lava Surfing!
+betterquesting.quest.BC7LS6iHTYW_U0-SuIA4Sg.desc=The Thaumium Boat is an upgraded version of your Greatwood Boat. The experience you have gained from manufacturing boats made of magical materials allows you to create a boat that can go even faster. Additionally, the Thaumium coating allows it to sail not only in rivers but also lava streams! Take it with you on your vacation in the Nether and enjoy.
 
 # Quest: Enhanced Charm of Dislocation
 betterquesting.quest.G7ACOCTJRi-bk6XQxZVtIQ.name=Enhanced Charm of Dislocation
