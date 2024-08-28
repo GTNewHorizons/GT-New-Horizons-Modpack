@@ -2,6 +2,10 @@
   "questIDHigh:4": -4190454742005494267,
   "preRequisites:9": {
     "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1396
+    },
+    "1:10": {
       "questIDHigh:4": -6078296071036190210,
       "questIDLow:4": -8127302345207551228
     }
@@ -30,7 +34,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "After meddling with the 4th Dimension, you have finally discovered a way to access its unlimited Essentia supply.\n\nThe Thaumometric Essentia Cell is your tool for extracting Essentia from this source.\n\nUnfortunately, you must filter each type of Essentia in your Cell Workbench. If only your technology were more advanced..."
+      "desc:8": "After meddling with the 4th Dimension, you have finally discovered a way to access its unlimited Essentia supply.\n\nThe Thaumometric Essentia Cell is your tool for extracting Essentia from this source.\n\nUnfortunately, you must filter each type of Essentia in your Cell Workbench. If only your technology were more advanced...\n\nBehold the §5Thaumometric Essentia Cell§r, your unlimited magic credit card. Feeling a little low on essentia? With this baby, you\u0027ll be rolling in it like a wizard in a potion shop! Try to run this well dry — dare ya, it\u0027s like trying to spend Bill Gates\u0027 fortune in a dollar store!"
     }
   },
   "tasks:9": {
