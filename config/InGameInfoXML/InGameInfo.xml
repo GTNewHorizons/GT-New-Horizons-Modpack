@@ -159,10 +159,12 @@
         </line>
         <line>
             <if>
+                <not>
                 <equal>
-                    <var>serverport</var>
-                    <str>-1</str>
+                    <var>nextrain</var>
+                    <str>?</str>
                 </equal>
+                </not>
                 <if>
                     <or>
                         <equal>
@@ -216,12 +218,10 @@
                 </if>
             </if>
             <if>
-                <not>
                 <equal>
-                    <var>serverport</var>
-                    <str>-1</str>
+                    <var>nextrain</var>
+                    <str>?</str>
                 </equal>
-                </not>
                 <if>
                     <or>
                         <equal>
@@ -275,10 +275,12 @@
                 </if>
             </if>
             <if>
+                <not>
                 <equal>
-                    <var>serverport</var>
-                    <str>-1</str>
+                    <var>nextrain</var>
+                    <str>?</str>
                 </equal>
+                </not>
                 <if>
                     <or>
                         <equal>
@@ -326,12 +328,10 @@
                 </if>
             </if>
             <if>
-                <not>
                 <equal>
-                    <var>serverport</var>
-                    <str>-1</str>
+                    <var>nextrain</var>
+                    <str>?</str>
                 </equal>
-                </not>
                 <if>
                     <or>
                         <equal>
@@ -541,10 +541,12 @@
                 </concat>
             </if>
             <if>
+                <not>
                 <equal>
-                    <var>serverport</var>
-                    <str>-1</str>
+                    <var>nextrain</var>
+                    <str>?</str>
                 </equal>
+                </not>
                 <if>
                     <and>
                         <equal>
@@ -725,12 +727,10 @@
                 </if>
             </if>
             <if>
-                <not>
                 <equal>
-                    <var>serverport</var>
-                    <str>-1</str>
+                    <var>nextrain</var>
+                    <str>?</str>
                 </equal>
-                </not>
                 <if>
                     <and>
                         <equal>
