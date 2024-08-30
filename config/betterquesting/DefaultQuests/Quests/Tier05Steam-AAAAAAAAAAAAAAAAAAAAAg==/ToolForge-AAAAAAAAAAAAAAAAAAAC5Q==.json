@@ -44,13 +44,31 @@
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "TConstruct:ToolForgeBlock",
-          "Count:3": 1,
+          "id:8": "TConstruct:heavyPlate",
+          "Count:3": 2,
+          "Damage:2": 15,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "minecraft:iron_block",
+          "Count:3": 4,
           "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "TConstruct:CraftingSlab",
+          "Count:3": 1,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "TConstruct:SearedSlab",
+          "Count:3": 1,
+          "Damage:2": 1,
           "OreDict:8": ""
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:optional_retrieval"
     },
     "1:10": {
       "partialMatch:1": 1,
@@ -63,211 +81,7 @@
         "0:10": {
           "id:8": "TConstruct:ToolForgeBlock",
           "Count:3": 1,
-          "Damage:2": 1,
-          "OreDict:8": ""
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "2:10": {
-      "partialMatch:1": 1,
-      "autoConsume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 2,
-      "consume:1": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "id:8": "TConstruct:ToolForgeBlock",
-          "Count:3": 1,
-          "Damage:2": 2,
-          "OreDict:8": ""
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "3:10": {
-      "partialMatch:1": 1,
-      "autoConsume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 3,
-      "consume:1": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "id:8": "TConstruct:ToolForgeBlock",
-          "Count:3": 1,
-          "Damage:2": 3,
-          "OreDict:8": ""
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "4:10": {
-      "partialMatch:1": 1,
-      "autoConsume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 4,
-      "consume:1": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "id:8": "TConstruct:ToolForgeBlock",
-          "Count:3": 1,
-          "Damage:2": 4,
-          "OreDict:8": ""
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "5:10": {
-      "partialMatch:1": 1,
-      "autoConsume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 5,
-      "consume:1": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "id:8": "TConstruct:ToolForgeBlock",
-          "Count:3": 1,
-          "Damage:2": 5,
-          "OreDict:8": ""
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "6:10": {
-      "partialMatch:1": 1,
-      "autoConsume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 6,
-      "consume:1": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "id:8": "TConstruct:ToolForgeBlock",
-          "Count:3": 1,
-          "Damage:2": 6,
-          "OreDict:8": ""
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "7:10": {
-      "partialMatch:1": 1,
-      "autoConsume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 7,
-      "consume:1": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "id:8": "TConstruct:ToolForgeBlock",
-          "Count:3": 1,
-          "Damage:2": 7,
-          "OreDict:8": ""
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "8:10": {
-      "partialMatch:1": 1,
-      "autoConsume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 8,
-      "consume:1": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "id:8": "TConstruct:ToolForgeBlock",
-          "Count:3": 1,
-          "Damage:2": 8,
-          "OreDict:8": ""
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "9:10": {
-      "partialMatch:1": 1,
-      "autoConsume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 9,
-      "consume:1": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "id:8": "TConstruct:ToolForgeBlock",
-          "Count:3": 1,
-          "Damage:2": 9,
-          "OreDict:8": ""
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "10:10": {
-      "partialMatch:1": 1,
-      "autoConsume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 10,
-      "consume:1": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "id:8": "TConstruct:ToolForgeBlock",
-          "Count:3": 1,
-          "Damage:2": 10,
-          "OreDict:8": ""
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "11:10": {
-      "partialMatch:1": 1,
-      "autoConsume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 11,
-      "consume:1": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "id:8": "TConstruct:ToolForgeBlock",
-          "Count:3": 1,
-          "Damage:2": 11,
-          "OreDict:8": ""
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "12:10": {
-      "partialMatch:1": 1,
-      "autoConsume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 12,
-      "consume:1": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "id:8": "TConstruct:ToolForgeBlock",
-          "Count:3": 1,
-          "Damage:2": 12,
-          "OreDict:8": ""
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "13:10": {
-      "partialMatch:1": 1,
-      "autoConsume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 13,
-      "consume:1": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "id:8": "TConstruct:ToolForgeBlock",
-          "Count:3": 1,
-          "Damage:2": 13,
+          "Damage:2": 32767,
           "OreDict:8": ""
         }
       },
