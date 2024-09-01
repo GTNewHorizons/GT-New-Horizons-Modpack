@@ -4999,17 +4999,17 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHEg.desc=High speed transition and boost
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHwQ.name=So Much Nicer Than Ladders
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHwQ.desc=Elevators are great for fast transportation vertically in your base. Leaving a tinted elevator will stop at the same color elevator. Use some Malisis doors for a nice "real" elevator effect.%nThe rotating elevator will turn the player as they go up or down to face a specific direction. Handy if your elevator shaft is on one side at a floor and a different side at another floor.
 
-# Quest: Better boots with a little pizzazz
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI1A.name=Better boots with a little pizzazz
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI1A.desc=These Electric Boots of the Traveller will give a 2 percent vis discount along with the benefits of the normal Boots.
+# Quest: Better Boots with a little pizzazz
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI1A.name=Better Boots with a little pizzazz
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI1A.desc=Electric Boots of the Traveller grant you a 2%% Vis Discount along with all the benefits of the regular Boots of the Traveller.%n%nIn addition, they come with a wide variety of new features thanks to our amazing magic devs:%n%n- Configurable Jump Boost: You can choose between 0%%, 25%%, 50%%, 75%%, or a 100%% jump boost.%n%n- Configurable Speed Boost: Similar to the jump boost, you can adjust the speed boost percentage to your preference.%n%n- Flight Inertia: When toggled on, this feature cancels inertia while flying, allowing for precise movement even when traveling at high speeds.%n%n- Omnidirectional Movement: This toggle lets you decide whether your speed boost applies in all directions or only while running straight ahead.%n%n[note]None of these keybinds are set by default. The easiest way to configure them is to go into Options -> Controls, turn on the "Category" button, and type "Thaumic Boots." Then, assign keys for the features as needed.[/note]
 
 # Quest: Walk all over you
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI1Q.name=Walk all over you
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI1Q.desc=Nanosuit boots will give the nanosuit benefits along with a massive speed boost, higher jump, and better vis discount. Great boots for the master magical engineer.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI1Q.desc=Nanosuit Boots of the Traveller provide all the benefits of the Nanosuit, plus a massive speed boost, higher jump, and improved Vis Discount. These are the perfect boots for the master magical engineer.
 
 # Quest: Walking across the stars
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI1g.name=Walking across the stars
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI1g.desc=Quantum boots of the traveller, for when you really need to run as fast as the wind. Might cause you some problems standing still! 
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI1g.desc=Quantum Boots of the Traveller, for when you really need to run as fast as the wind. Might cause you some problems standing still! 
 
 # Quest: Flying Like....Mary Poppins?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIDA.name=Flying Like....Mary Poppins?
