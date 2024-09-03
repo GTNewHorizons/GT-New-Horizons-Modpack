@@ -7009,18 +7009,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALlg.desc=For an overclock, MKVI fuel and
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALlw.name=Incomplete Combustion
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALlw.desc=A chemical fuel engine for LuV? Well, if you are a crazy fan of diesel or benzene, you will love it.%n%nThis engine accepts all diesel, gas and also rocket fuel, although the Rocketdyne burns the latter more efficiently. It also needs Combustion Promoter to keep it running.%n%nThis engine consumes all fuel and combustion promoter in its input hatches per second and outputs power depending on the amount of fuel consumed, and its fuel value.%n%nIts efficiency is determined by the Combustion Promoter/Fuel ratio. If the ratio is larger (there is more promoter), the efficiency will be higher. The max efficiency is 150%%, but you cannot achieve this value without inputting an infinite amount of promoter. Expect efficiencies around 130%% for high fuel value fuels like High-Octane Gasoline, unless you spend a LOT of promoter.%n%ne.g. You input 100mB/s of HOG and 1000mB/s of combustion promoter. The efficiency is 149%% and the sum of the HOG fuel value is 250000 EU. The output power will be 250,000 * 149%% / 20 = 18625 EU/t.
 
-# Quest: Large Essentia Generator (Good Generator)
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALmA.name=§6§lLarge Essentia Generator (Good Generator)
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALmA.desc=This Essentia Generator is a rework version of bart's one. The essentia fuel value is different from bart's one and you can find all information about it in the Thaumonomicon.%n%nStarting in EV you can use the 64A Dynamos from TecTech. It currently has tiers all the way to ZPM; if you have a way to produce that much essentia.%n%n[note]PS: The essentia fuel values are still in a test state. They may get changed in the future![/note]
-
-# Quest: Adept Cell
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALmQ.name=§6§lAdept Cell
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALmQ.desc=You can mix different cells in the same generator. It will increase the efficiency.
-
-# Quest: Master Cell
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALmg.name=§6§lMaster Cell
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALmg.desc=Same as Adept one, but will higher efficiency.
-
 # Quest: Advanced Xeninol
 betterquesting.quest.D0JaazeIQ8qctaMx9xTqEw.name=Advanced Xeninol
 betterquesting.quest.D0JaazeIQ8qctaMx9xTqEw.desc=It's here that you might yourself with some useful stuff alongside power. Xenon, which has become very useful in the EBF thanks to noble gas changes in its recipes, and Advanced Nitinol? If you don't already have a Quantum Anomaly setup for it, you can use this. Who knows what'll come in the future?%n%nThese recipes are the same 0.144 ratio ones that you've seen before and, since they're just before the final step, they will bottleneck you on the path to compact reactor setups. The one to focus on is Advanced Nitinol, which is the second last recipe, and where you'll need 9.216, or 10 Mk3 reactors to sustain a Celestial Tungsten compact at the end. If you build a compact here, however, you can feed 6 compacts as long as everything that comes before this is fast enough.
