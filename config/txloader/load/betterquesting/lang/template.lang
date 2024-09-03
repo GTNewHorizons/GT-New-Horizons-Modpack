@@ -4243,10 +4243,6 @@ betterquesting.quest.q6WN7XY8Qf6PNgWTy7RrBA.desc=A bit expensive, but worth the 
 betterquesting.quest.u-1Y-eQ-TLyw-WGi5EEnVA.name=Tier 11 (UIV)
 betterquesting.quest.u-1Y-eQ-TLyw-WGi5EEnVA.desc=Now that you've enjoyed your exotic cookies, let's keep going, shall we?%n%nWelcome to UIV! One of the shortest tiers in NH for now. This tier is mainly about solving your DTPF catalyst problems and getting to Eternal Coils.%n%nThere are a few QOL additions introduced, like the Uncertainty Resolver and the Thaumometric Essentia Cell.%n%nYou also gain access to the Dyson Swarm, an incredibly powerful power generation option.%n%n[warn]This tier is not fully complete. Expect changes.[/warn]
 
-# Quest: Thaumometric Essentia Cell
-betterquesting.quest.xdiDnTdpTgW6POwCuDlPgg.name=Thaumometric Essentia Cell
-betterquesting.quest.xdiDnTdpTgW6POwCuDlPgg.desc=After meddling with the 4th Dimension, you have finally discovered a way to access its unlimited Essentia supply.%n%nThe Thaumometric Essentia Cell is your tool for extracting Essentia from this source.%n%nUnfortunately, you must filter each type of Essentia in your Cell Workbench. If only your technology were more advanced...
-
 
 ## Quest Line: Tier 12 - UMV
 betterquesting.questline.l37V2WvbSHGZQ5oMgAfBuw.name=Tier 12 - UMV
@@ -9040,11 +9036,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAyw.desc=P2P tunnels. You'll probably wa
 
 # Quest: Quantum Storage
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB0g.name=Quantum Storage
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAB0g.desc=Now you §ocould§r connect Quantum Chests to your ME system with storage buses and maybe you are already doing that. But why not use all your new technology to make a Quantum storage cell?%n%nIt only takes a single item type, but you can store more than a billion items! That surely must be enough, right? RIGHT?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAB0g.desc=Now you §ocould§r connect Quantum Chests to your ME System with Storage Buses, and maybe you are already doing that. But why not use all your new technology to make a Quantum Storage Cell?%n%nIt only takes a single item type, but you can store more than a billion items! That surely must be enough, right? RIGHT?
 
 # Quest: A Digital Singularity
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB1A.name=A Digital Singularity
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAB1A.desc=What? You filled up the Quantum storage cell? I hope with something better than Cobblestone. Anyway, you better make something EVEN bigger then.%n%nHmm, adding even more storage capacity to a single cell would result in something so dense in information that it would just collapse into a singularity. So why not be smart about it. Just use an already existing singularity! Build a sturdy casing around it and some connecting components and you should be good. Better use an eternal singularity though to make sure things remain stable.%n%n[note]The Digital Singularity can store more than 4 quintillion items. If you manage to fill one up, please contact the dev team so that they can ban you for cheating, ... eh I mean congratulate you on your achievement, of course![/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAB1A.desc=What? You filled up the Quantum storage cell? I hope it was with something better than Cobblestone. Anyway, you'd better make something EVEN bigger then.%n%nHmm, adding even more storage capacity to a single cell would result in something so dense with information that it would just collapse into a singularity. So why not be smart about it? Just use an already existing singularity! Build a sturdy casing around it and add some connecting components, and you should be good. Better use an eternal singularity, though, to make sure things remain stable.%n%n[note]The Digital Singularity can store more than 4 quintillion items. If you manage to fill one up, please contact the dev team so that they can ban you for cheating... eh, I mean, congratulate you on your achievement, of course![/note]
 
 # Quest: Insurgence
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABbQ.name=Insurgence
@@ -9604,11 +9600,11 @@ betterquesting.quest.MJoHkNK0Ta-zKyJAvV_DBg.desc=It holds over 32GL.
 
 # Quest: And Another Digital Singularity
 betterquesting.quest.O0tN--UDTlCbt5ufLodVqA.name=And Another Digital Singularity
-betterquesting.quest.O0tN--UDTlCbt5ufLodVqA.desc=You really need this?
+betterquesting.quest.O0tN--UDTlCbt5ufLodVqA.desc=Do you really need this?
 
 # Quest: Another Digital Singularity
 betterquesting.quest.QF-_KNlHSnObOPmrJptkwQ.name=Another Digital Singularity
-betterquesting.quest.QF-_KNlHSnObOPmrJptkwQ.desc=You've probbaly drained quite a few of them at this point%n%n[note]Have you heard about YOTTanks?[/note]
+betterquesting.quest.QF-_KNlHSnObOPmrJptkwQ.desc=You've probably drained quite a few of them at this point.%n%n[note]Have you heard about YOTTanks?[/note]
 
 # Quest: 4096k Essentia Component
 betterquesting.quest.QHyLarPvSnCb30EbaBQdaw.name=4096k Essentia Component
@@ -9616,7 +9612,7 @@ betterquesting.quest.QHyLarPvSnCb30EbaBQdaw.desc=Same as 1k.
 
 # Quest: Yet Another Singularity?!?!
 betterquesting.quest.SDGKHP7fQx-c3gUBv4DwuQ.name=Yet Another Singularity?!?!
-betterquesting.quest.SDGKHP7fQx-c3gUBv4DwuQ.desc=Ever wanted to order 10 million billion billion chests and you noticed that your crafting storage was just not big enough?%n%nWell here is your solution provided to you by the good folks over at GTNHCorp (Name Pending).%n%n§c§rThe §cSingularity Crafting Storage§r has a storage of 9,223,372,036,854,775,807 Bytes, which if you can't read numbers is a lot.%n%nEnjoy crafting one :) you need to kill some chaos guardians for it.%n
+betterquesting.quest.SDGKHP7fQx-c3gUBv4DwuQ.desc=Ever wanted to order 10 million billion billion chests and noticed that your crafting storage was just not big enough?%n%nWell, here is your solution, provided to you by the good folks over at GTNHCorp (Name Pending).%n%n§c§rThe §cSingularity Crafting Storage§r has a storage of 9,223,372,036,854,775,807 Bytes, which, if you can't read numbers, is a lot.%n%nEnjoy crafting one :) You'll need to kill some Chaos Guardians for it.%n
 
 # Quest: 256k Essentia Component
 betterquesting.quest.Wh0yn2MOQhS-X_8NiPiZJw.name=256k Essentia Component
@@ -9642,13 +9638,13 @@ betterquesting.quest.iwN50p7pSyyCHDkM-O-D7w.desc=These hold 33,554,432 units of 
 betterquesting.quest.mk3rQ7LUQjC96FsFvDedKA.name=§6§l...with Fluid Support!
 betterquesting.quest.mk3rQ7LUQjC96FsFvDedKA.desc=Now with fluid support!
 
-# Quest: Thaumometric Essentia Cell
-betterquesting.quest.muXTNgpiRE6RZI_x7GW62w.name=Thaumometric Essentia Cell
-betterquesting.quest.muXTNgpiRE6RZI_x7GW62w.desc=Behold the §5Thaumometric Essentia Cell§r, your unlimited magic credit card. Feeling a little low on essentia? With this baby, you'll be rolling in it like a wizard in a potion shop! Try to run this well dry — dare ya, it's like trying to spend Bill Gates' fortune in a dollar store!
-
 # Quest: Optimizing Patterns in Late Game!
 betterquesting.quest.opVg0YQ3RCiBbG62PozSLQ.name=Optimizing Patterns in Late Game!
 betterquesting.quest.opVg0YQ3RCiBbG62PozSLQ.desc=You have probably already seen the button called §6Optimize Patterns§r when making an order in your AE system, now it's time to put it in the good use!%n%nTo unlock this feature, just add a Pattern Optimization Matrix block to your AE system (you only need one).%n%n§l# What does it do?%n§r%nThis feature allows you to multiply patterns that are needed in large amounts.%n%n1. After calculating a big order, just click §6Optimize Patterns§r and you will be welcomed by a new window.%n2. There you specify how much you wish for a singular pattern to be ordered (maximum amount of steps), we recommend putting it at 1000 or 100, [warn]remember that over-optimizing patterns could lead to longer waiting times[/warn]. At this point, you can also disable singular patterns from optimization by clicking on them, but there shouldn't be any unwanted patterns anyway if you already excluded them by toggling a button in unwanted interfaces.%n§%n%n3. Click §6Optimize§r and you are done! Try ordering again to see the changes in pattern steps%n%nAll changes are [warn]permanent and can't be reverted automatically[/warn] so make sure that you have excluded all unwanted interfaces (the §6Allow Pattern Optimization§r button is §7GRAY§r) like:%n- Single Assembly Line interfaces%n- Extreme Crafting interfaces%n- And any interface that doesn't have (almost)infinite buffer at the other side (inf. chest/storage cells)%nPatterns are only multiplied by powers of 2, so your AAL patterns should be safe.%n%n[note]If you are still confused about maximum order steps here's an example:%nOrdering an EOH calculates that it will need 1,000,008 UHV superconductors crafted (41667 steps, 24 UHV SC patterned), now you proceed to optimize patterns and specify that you wish it to do 1000 steps maximum, it will multiply your pattern 64 times to achieve that goal (41667 / 64 ~= 652 which is lower or equal to 1000). After clicking optimize, UHV SC pattern will now output 1536 UHV SC (24 before).[/note]
+
+# Quest: Oceans in a Bottle
+betterquesting.quest.pDcGv1OwTsueRoVXFZ6wHw.name=Oceans in a Bottle
+betterquesting.quest.pDcGv1OwTsueRoVXFZ6wHw.desc=After managing to create an artificial universe capable of storing near-infinite amounts of items, you applied this same technology to your Fluid Digital Singularity Cell to create this truly magnificent piece of tech. This allows you to store up to 5 different types of fluids without the universe collapsing in on itself.
 
 # Quest: Adv. Stocking Bus
 betterquesting.quest.qvZq59qRQ2C5Uzm7J7B4UA.name=Adv. Stocking Bus
@@ -9668,11 +9664,15 @@ betterquesting.quest.tUJaqz9uSwajByFi4gNHzQ.desc=These hold 2,097,152 units of e
 
 # Quest: Essentia Quantum Storage
 betterquesting.quest.y9mYyyz4Qg6iGOYILdKA1A.name=Essentia Quantum Storage
-betterquesting.quest.y9mYyyz4Qg6iGOYILdKA1A.desc=Seems you really want to swim in essentia?
+betterquesting.quest.y9mYyyz4Qg6iGOYILdKA1A.desc=Seems like you really want to swim in essentia?
 
 # Quest: Fluid Quantum Storage
 betterquesting.quest.ylmHogskS-Kdhs9gFrCYmA.name=Fluid Quantum Storage
 betterquesting.quest.ylmHogskS-Kdhs9gFrCYmA.desc=Are you draining an ocean?
+
+# Quest: Universe in a Bottle
+betterquesting.quest.zNBMiy1gQuC_GY0wtQ4cbA.name=Universe in a Bottle
+betterquesting.quest.zNBMiy1gQuC_GY0wtQ4cbA.desc=Those Digital Singularities, while offering a vast amount of space, felt constraining with their ability to store only one type of item... So you came up with something different this time. Having reached the peak of technology, you managed to create and contain an Artificial Universe within a Storage Cell. This allows you to store up to 63 different types of items without the universe collapsing in on itself.
 
 
 ## Quest Line: How to Be(e)
@@ -14185,6 +14185,10 @@ betterquesting.quest.hEsmeH74S4aOOrROI1AHxQ.desc=The steam machines you have bee
 # Quest: Dark Steel Chest
 betterquesting.quest.t6xRGFm_S2SG6_-xNh8mwQ.name=§5§6§lDark Steel Chest
 betterquesting.quest.t6xRGFm_S2SG6_-xNh8mwQ.desc=After embracing the dark side you get access to the new even bigger dark steel chest... perhaps another upgrade will be available in the future?%n%n[note]Just as with the previous chests you can also upgrade with a fitting upgrade item.[/note]%n
+
+# Quest: Thaumometric Essentia Cell
+betterquesting.quest.xdiDnTdpTgW6POwCuDlPgg.name=Thaumometric Essentia Cell
+betterquesting.quest.xdiDnTdpTgW6POwCuDlPgg.desc=After meddling with the 4th Dimension, you've finally discovered a way to access its unlimited Essentia supply. The Thaumometric Essentia Cell is your tool for extracting Essentia from this boundless source—think of it as your unlimited magic credit card.%n%nUnfortunately, you must filter each type of Essentia in your Essentia Cell Workbench. If only your technology were more advanced...
 
 
 ### Quests in no quest lines ###
