@@ -2,6 +2,10 @@
   "questIDHigh:4": -3757804415663717874,
   "preRequisites:9": {
     "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2656
+    },
+    "1:10": {
       "questIDHigh:4": 2731689745124969882,
       "questIDLow:4": -4696434011398522032
     }
@@ -30,7 +34,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Seems you really want to swim in essentia?"
+      "desc:8": "Seems like you really want to swim in essentia?"
     }
   },
   "tasks:9": {
@@ -53,5 +57,24 @@
       "taskID:8": "bq_standard:retrieval"
     }
   },
-  "rewards:9": {}
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinTechnicianII",
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "dreamcraft:item.CoinDarkWizardII",
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
 }

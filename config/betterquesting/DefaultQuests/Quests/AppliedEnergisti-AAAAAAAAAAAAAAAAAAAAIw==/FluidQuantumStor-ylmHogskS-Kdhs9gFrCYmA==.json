@@ -2,6 +2,10 @@
   "questIDHigh:4": -3865909675079480350,
   "preRequisites:9": {
     "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2656
+    },
+    "1:10": {
       "questIDHigh:4": -1948611701130182253,
       "questIDLow:4": -8598630939261560940
     }
@@ -53,5 +57,18 @@
       "taskID:8": "bq_standard:retrieval"
     }
   },
-  "rewards:9": {}
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinTechnicianIII",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
 }

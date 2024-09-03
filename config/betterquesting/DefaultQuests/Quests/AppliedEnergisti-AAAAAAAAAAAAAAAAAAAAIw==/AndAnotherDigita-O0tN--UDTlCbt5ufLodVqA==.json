@@ -4,6 +4,18 @@
     "0:10": {
       "questIDHigh:4": -3757804415663717874,
       "questIDLow:4": -6766405517321273132
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2582
+    },
+    "2:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2588
+    },
+    "3:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 287
     }
   },
   "questIDLow:4": -7226135969109944920,
@@ -30,7 +42,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "You really need this?"
+      "desc:8": "Do you really need this?"
     }
   },
   "tasks:9": {
