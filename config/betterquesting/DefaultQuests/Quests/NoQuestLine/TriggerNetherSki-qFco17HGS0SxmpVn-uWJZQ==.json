@@ -11,7 +11,7 @@
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
       "taskLogic:8": "AND",
-      "visibility:8": "HIDDEN",
+      "visibility:8": "NORMAL",
       "isMain:1": 0,
       "simultaneous:1": 0,
       "icon:10": {
@@ -28,7 +28,7 @@
       "name:8": "Trigger:Nether Skip",
       "lockedProgress:1": 0,
       "autoClaim:1": 1,
-      "isSilent:1": 0,
+      "isSilent:1": 1,
       "desc:8": "No Description"
     }
   },
