@@ -1,0 +1,74 @@
+{
+  "questIDHigh:4": -8448640167904523586,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2625
+    }
+  },
+  "questIDLow:4": -5243481096921136607,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 1,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.blockmachines",
+        "Count:3": 1,
+        "Damage:2": 10506,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "No More (IC) Engraving",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Now that you\u0027ve reached ZPM, you\u0027re going to have to resort to means other than mere laser engraving for your photolithography needs.\n\nOf course, we\u0027re going overkill right away, requiring a full-on particle accelerator setup to produce the ultra-coherent ultra-high-energy light used to etch more advanced ICs.\n\nTo begin with, you\u0027ll need a Source Chamber to produce electrons (at pitifully low energies, of course). Check out NEI for the available recipes, you\u0027ll want the one with the hand-drawn icon.\n\n"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 10506,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "gtnhlanth:casing.shielded_accelerator",
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 4,
+          "Damage:2": 10502,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}
