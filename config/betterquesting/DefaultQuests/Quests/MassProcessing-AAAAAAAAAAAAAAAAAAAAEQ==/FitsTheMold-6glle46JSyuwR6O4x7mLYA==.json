@@ -1,6 +1,11 @@
 {
   "questIDHigh:4": -1582622212697273557,
-  "preRequisites:9": {},
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1416
+    }
+  },
   "questIDLow:4": -5744442785667642528,
   "properties:10": {
     "betterquesting:10": {
@@ -24,7 +29,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "No Description"
+      "desc:8": "Making machines for every mold sounds tiring... fortunately, the Fluid Shaper multiblock can handle any number of molds by using §lSolidifier Hatches§r. This multiblock is also extendable, gaining more parallels if you add additional segments. Be sure to expand it if it\u0027s too slow!\n\n[note]The Fluid Shaper also speeds up as it is running, making it more efficient to do large batches.[/note]"
     }
   },
   "tasks:9": {
