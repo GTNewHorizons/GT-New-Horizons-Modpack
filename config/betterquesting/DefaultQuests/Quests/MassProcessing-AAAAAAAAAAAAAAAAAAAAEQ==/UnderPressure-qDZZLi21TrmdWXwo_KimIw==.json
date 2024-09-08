@@ -1,12 +1,12 @@
 {
-  "questIDHigh:4": 6094344093624257072,
+  "questIDHigh:4": -6325770571725058375,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": -4353932262274808847,
       "questIDLow:4": -8959971444972358643
     }
   },
-  "questIDLow:4": -6585475866071969942,
+  "questIDLow:4": -7108514021348170205,
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
@@ -17,7 +17,7 @@
       "icon:10": {
         "id:8": "gregtech:gt.blockmachines",
         "Count:3": 1,
-        "Damage:2": 686,
+        "Damage:2": 3005,
         "OreDict:8": ""
       },
       "snd_update:8": "random.levelup",
@@ -25,11 +25,11 @@
       "globalShare:1": 0,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "See You Lather",
+      "name:8": "Under Pressure",
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Just in time for the huge number of crystal rods you\u0027ll need to get your Applied Energistics system up and running, the Industrial Precision Lathe!\n\n[note]This multiblock scales based on item pipe casings, but the minimum allowed tier is platinum.[/note]"
+      "desc:8": "Bigger, better, faster. The Large Electric Compressor does about what you would expect."
     }
   },
   "tasks:9": {
@@ -44,7 +44,7 @@
         "0:10": {
           "id:8": "gregtech:gt.blockmachines",
           "Count:3": 1,
-          "Damage:2": 686,
+          "Damage:2": 3005,
           "OreDict:8": ""
         }
       },
@@ -59,15 +59,15 @@
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.blockcasings2",
+          "id:8": "gregtech:gt.blockcasings10",
           "Count:3": 1,
-          "Damage:2": 0,
+          "Damage:2": 4,
           "OreDict:8": ""
         },
         "1:10": {
-          "id:8": "gregtech:gt.blockcasings3",
+          "id:8": "gregtech:gt.blockcasings10",
           "Count:3": 1,
-          "Damage:2": 10,
+          "Damage:2": 5,
           "OreDict:8": ""
         }
       },
