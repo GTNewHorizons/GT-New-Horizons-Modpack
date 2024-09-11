@@ -41,7 +41,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Your Lava boiler has been updated to the latest version. So what\u0027s new?\n\nYou can of course use high level inputs by putting a tank above it. This version is compatible only with Water on the sides and Steam at the back. It also allows for manual user input from Water or Lava container objects.\n\nThe latest version now comes with improved Lava memory handling in the form of an internal tank and advanced garbage collection at the bottom for the resulting obsidian blocks!\n\n§3Did you know? Over 3 billion machines run on Lava!"
+      "desc:8": "Now that you have steel, you can craft a sturdy enough boiler to handle lava. Steam is only outputted in the back, and you require water input on the side and lava input on the top. But as an added benefit, this boiler will reward you with obsidian!\n\n§3Did you know? Over 3 billion machines run on Lava!"
     }
   },
   "tasks:9": {
