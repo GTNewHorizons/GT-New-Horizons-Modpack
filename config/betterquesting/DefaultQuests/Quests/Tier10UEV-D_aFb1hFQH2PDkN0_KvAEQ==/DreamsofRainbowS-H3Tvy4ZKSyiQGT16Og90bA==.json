@@ -66,48 +66,42 @@
           "OreDict:8": ""
         },
         "4:10": {
-          "id:8": "SGCraft:sgCoreCrystal",
-          "Count:3": 2,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "5:10": {
           "id:8": "gregtech:gt.metaitem.01",
           "Count:3": 436,
           "Damage:2": 32649,
           "OreDict:8": ""
         },
-        "6:10": {
+        "5:10": {
           "id:8": "gregtech:gt.metaitem.01",
           "Count:3": 138,
           "Damage:2": 32699,
           "OreDict:8": ""
         },
-        "7:10": {
+        "6:10": {
           "id:8": "gregtech:gt.metaitem.01",
           "Count:3": 10,
           "Damage:2": 32689,
           "OreDict:8": ""
         },
-        "8:10": {
+        "7:10": {
           "id:8": "gregtech:gt.metaitem.01",
           "Count:3": 736,
           "Damage:2": 32679,
           "OreDict:8": ""
         },
-        "9:10": {
+        "8:10": {
           "id:8": "gregtech:gt.blockcasings",
           "Count:3": 124,
           "Damage:2": 15,
           "OreDict:8": ""
         },
-        "10:10": {
+        "9:10": {
           "id:8": "gregtech:gt.blockmetal4",
           "Count:3": 1590,
           "Damage:2": 13,
           "OreDict:8": ""
         },
-        "11:10": {
+        "10:10": {
           "id:8": "gregtech:gt.blockmetal7",
           "Count:3": 1960,
           "Damage:2": 9,
