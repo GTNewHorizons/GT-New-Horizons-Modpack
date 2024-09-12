@@ -518,11 +518,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAPA.desc=This is basically just an upgra
 
 # Quest: Another Use for Java, I Mean Lava
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAPQ.name=§3§lAnother Use for Java, I Mean Lava
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAPQ.desc=Your Lava boiler has been updated to the latest version. So what's new?%n%nYou can of course use high level inputs by putting a tank above it. This version is compatible only with Water on the sides and Steam at the back. It also allows for manual user input from Water or Lava container objects.%n%nThe latest version now comes with improved Lava memory handling in the form of an internal tank and advanced garbage collection at the bottom for the resulting obsidian blocks!%n%n§3Did you know? Over 3 billion machines run on Lava!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAPQ.desc=Now that you have Steel, you can craft a sturdy enough Boiler to handle Lava. Steam is only outputted in the back, and you require Water input on the side and Lava input on the top. But as an added benefit, this Boiler will reward you with Obsidian!%n%n§3Did you know? Over 3 billion machines run on Lava!
 
 # Quest: The Power of the Sun
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAPg.name=§3§lThe Power of the Sun
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAPg.desc=The sun has quite a bit of power, so why not use it to produce steam?%n%nFill it with water on the bottom side to produce steam. Unlike the other boilers, this only outputs steam on the output port side.%n%nYou need silver from small ores to craft Solar Boilers. Later in LV you can get much more in the Twilight Forest.%n%n§3Hint: The solar boiler calcifies and becomes less efficient over time. Later on you can consider using distilled water to avoid calcification.%n
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAPg.desc=The sun has quite a bit of power, so why not use it to produce Steam?%n%nFill it with Water on the bottom side to produce Steam. Unlike the other Boilers, this only outputs Steam on the output port side.%n%nYou need Silver from small ores to craft Solar Boilers. Later in LV you can get much more in the Twilight Forest.%n%n§3Hint: The Simple Solar Boiler calcifies and becomes less efficient over time, dropping down to a minimum of 40L/s. Later on you can consider using Distilled Water to avoid calcification.%n
 
 # Quest: Using Steam to Cook Things
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAPw.name=§3§lUsing Steam to Cook Things
@@ -804,9 +804,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJHA.desc=Your iron doors make your Machi
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJKg.name=§3§lTame an Ocelot to Get a Friend
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJKg.desc=Once you have the required materials, you will need to find an ocelot to tame.%n%nOcelots can be found in Jungle Biomes.%n%nIf you are having trouble finding an ocelot, you can always summon an ocelot using a spawn egg.%n%nYou can tame an ocelot by giving it a raw fish. So add the raw fish to your inventory and select the raw fish in your hotbar.%n%nJust like vanilla Minecraft, a tamed ocelot turns into a cat. The cat will repel creepers.%n%n§3TIP: Make sure you are in a large space when trying to tame the ocelot so that the ocelot has lots of room to move. If you are in a space that is too small, you will not be able to tame the ocelot.%n%nNext, while holding the raw fish, do not move. If you move, you will scare away the ocelot. If you are very still, the ocelot will eventually notice the fish in your hand and begin to walk over to you.
 
-# Quest: HP Solar Boilers
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJVQ.name=§3§lHP Solar Boilers
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJVQ.desc=Once you have some steam machines, you can make HP solar boilers. They have more steam output per second. Otherwise they are the same as normal solar boilers.%n%nFill it with water on the bottom side to produce steam. Unlike the other boilers, this only outputs steam on the output port side.%n%nHint: The solar boiler calcifies and becomes less efficient over time - but it will only drop to 120L/s, [warn]not zero[/warn], like the low pressure ones. Later on you can consider using distilled water to avoid calcification.%n%n[note]You'll need silver from the Twilight Forest (LV+) or from small ores for this.[/note]
+# Quest: Advanced Solar Boilers
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJVQ.name=§3§lAdvanced Solar Boilers
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJVQ.desc=Once you have some Steam machines, you can make Advanced Solar Boilers. They have more Steam output per second. Otherwise they are the same as Simple Solar Boilers.%n%nFill it with Water on the bottom side to produce Steam. Unlike the other Boilers, this only outputs Steam on the output port side.%n%nHint: The Advanced Solar Boiler calcifies and becomes less efficient over time - but it will only drop to 120L/s, not 40L/s, like the Simple Solar Boiler. Later on you can consider using Distilled Water to avoid calcification.%n%n[note]You'll need Silver from the Twilight Forest (LV+) or from small ores for this.[/note]
 
 # Quest: I Know His Name!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJXw.name=§3§lI Know His Name!
@@ -2245,7 +2245,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGsg.desc=The NAND chip is an industrial 
 
 # Quest: Farming a Little Easier
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGyw.name=§9§lFarming a Little Easier
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGyw.desc=Tired of the Multifarm's requirements? The EnderIO Farming Station is available to ease your suffering. It just requires EU and tools, and can be easily upgraded with capacitors. Most normal crops and trees work with it, but unfortunately IC2 crops do not.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGyw.desc=Tired of the Multifarm's requirements? The EnderIO Farming Station is here to ease your suffering. It only requires EU and tools and can be easily upgraded with capacitors. Most standard crops and trees work with it, but unfortunately, IC2 crops do not.%n%n[note]If you want to use it for farming crops from Pam's HarvestCraft, you'll need to provide the crop itself, not the seed, for it to work properly.[/note]
 
 # Quest: Even LARGER Tanks
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHEw.name=§9§lEven LARGER Tanks
@@ -5063,8 +5063,8 @@ betterquesting.quest.U6wfKJSxTiyYvcz-f-76EA.desc=A planar gateway from Thaumic H
 betterquesting.quest.aXAQD7T1SnGCAu0L4iV64w.name=Speed up with the Sash
 betterquesting.quest.aXAQD7T1SnGCAu0L4iV64w.desc=The Sashes from Botania improves your speed passively along with a jump boost and provide Step assist all while fitting in your belt slot, how convenient is that?%n%nYou will need a method of powering them with either the mana tablet or the mana mirror linked to a pool.%n%nThe Soujorner Sash provides the basic speed boost, jump boost and step assist while the Globetrotter provides double the jump height and speed boost.%n%nThe Planestrider is special since it provides a slowly increasing speed boost as long as you are moving. You can even reach up to 11 times the Soujorner Sash speed boost!%n%n[note]You only need to make one Sash to complete the quest.[/note]
 
-# Quest: Alterative to blasting off!?
-betterquesting.quest.iWmU5h_ZSPqAcObmxgW5bw.name=Alterative to blasting off!?
+# Quest: Alternative to blasting off!?
+betterquesting.quest.iWmU5h_ZSPqAcObmxgW5bw.name=Alternative to blasting off!?
 betterquesting.quest.iWmU5h_ZSPqAcObmxgW5bw.desc=Are you sick and tired of using the rocket to blast off every time and want an alternative and faster method? The Enderio Telepad is a 3x3x1 structure that when powered with RF will teleport the player to a set coordinate.%n%nTo set the Coordinate you will need a Coordinate selector tool to mark an area by Shift right clicking to mark. Then Shift right click the middle of the Enderio Telepad pad to set the desired location.%n%nThen stand on the pad and click teleport to be sent in style.%n
 
 # Quest: Teleporter
@@ -6325,7 +6325,7 @@ betterquesting.quest.isBmh7T0Sr63O2m5N4pCIQ.desc=Now that you've reached ZPM, yo
 
 # Quest: Digging Deep for Water
 betterquesting.quest.jreOZVXRQa2sGXViV7-3Gg.name=§6§lDigging Deep for Water
-betterquesting.quest.jreOZVXRQa2sGXViV7-3Gg.desc=Is the Water Tank not cutting it anymore? Have you set up in a dry biome and are in desperate need of more water? Fear not, for the Steam Water Pump can solve your issues! This multiblock is able to produce large amounts of Water if fed with Steam (1500L/s).%n%nLike other steam multiblocks, it can be upgraded by using Steel Frame Boxes instead of Bronze ones, which doubles the Water output at no additional Steam cost.%n%n§3It is, however, still dependent on how humid the biome you are in is, so keep that in mind.
+betterquesting.quest.jreOZVXRQa2sGXViV7-3Gg.desc=Is the Water Tank not cutting it anymore? Have you set up in a dry biome and are in desperate need of more water? Fear not, for the Steam Water Pump can solve your issues! This Multiblock is able to produce large amounts of Water if fed with Steam (1500L/s).%n%nLike other Steam Multiblocks, it can be upgraded by using Steel Frame Boxes instead of Bronze ones, which doubles the Water output at no additional Steam cost.%n%n§3It is, however, still dependent on how humid the Biome you are in is, so keep that in mind.
 
 # Quest: Component Assembly Line
 betterquesting.quest.n7yjRSr0R7O2agebw73FGA.name=§6§l§6§lComponent Assembly Line
@@ -6358,7 +6358,7 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAAEQ.desc=This tab showcases new high
 
 # Quest: A steam-powered whirl!
 betterquesting.quest.0rUmaWIPQPaL93q-_pgKXw.name=A steam-powered whirl!
-betterquesting.quest.0rUmaWIPQPaL93q-_pgKXw.desc=How does one separate rare materials in the Steam Age? The answer is by building and using the Steam Centrifuge, of course! By using steam to create a spinning force, this multiblock can separate different materials quickly and easily.%n%nIf you think separation is taking forever, the Steam Centrifuge will speed things up!%n%n§3§3This multiblock can process recipes up to MV Tier, so you don't necessarily need to build an LV Centrifuge if you have built this bad boy. While it does accept an output hatch for recipes that output a fluid, it does not allow for an input hatch.
+betterquesting.quest.0rUmaWIPQPaL93q-_pgKXw.desc=How does one centrifuge rare materials in the Steam Age? The answer is by building and using the Steam Separator, of course! By using steam to create a spinning force, this Multiblock can separate different materials quickly and easily.%n%nIf you think separation is taking forever, the Steam Separator will speed things up!%n%n§3§3This Multiblock can process recipes up to LV Tier, and does accept an Output Hatch for recipes. But if you are looking to use recipes which require Fluid Inputs, you might have to build an LV Centrifuge in the future.
 
 # Quest: Fits The Mold
 betterquesting.quest.6glle46JSyuwR6O4x7mLYA.name=Fits The Mold
@@ -6482,7 +6482,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKxw.desc=For when your ABS isn't the rig
 
 # Quest: Steamy Mincer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKzA.name=Steamy Mincer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKzA.desc=This is an upgraded version of your trusty ol' Steam Macerator. As a 3x3 multiblock, it might seem expensive if you're in the Steam Age. However, the processing time per ore is so low that you can sustain your beginner's ore processing system with it!%n%nThe main reason to switch from this is the HV Macerator, which unlocks a slot for additional byproducts gained from the macerating step of ore processing. However, this will do just fine until then!%n%n§3The Steam Grinder can process recipes up to HV Tier, which includes about 97%% of all recipes. You will only ever get the first item shown in the recipe, though, so keep that in mind.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKzA.desc=This is an upgraded version of your trusty ol' Steam Macerator. As a 3x3 Multiblock, it might seem expensive if you're in the Steam Age. However, the processing time per ore is so low that you can sustain your beginner's ore processing system with it!%n%nThe main reason to switch from this is the HV Macerator, which unlocks a slot for additional byproducts gained from the macerating step of ore processing. The Steam Grinder, in comparison, will only return the first item shown in the recipe output. However, this will do just fine until HV!%n%n§3The Steam Grinder can only process recipes up to LV Tier.
 
 # Quest: MABS
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM1Q.name=§6§lMABS
@@ -6518,7 +6518,7 @@ betterquesting.quest.VJN1qfd5SjCkm7CXVd9Pag.desc=Just in time for the huge numbe
 
 # Quest: Steam Blender?
 betterquesting.quest.WEwrzX4ZRkSxJ3M6cBesfA.name=Steam Blender?
-betterquesting.quest.WEwrzX4ZRkSxJ3M6cBesfA.desc=Why use fancy wiring and circuitry to blend dusts together when you can do the same thing with steam and pistons? The Steam Mixer is the largest of these steam multiblocks and can handle your mixing needs for a while, being significantly stronger than an LV singleblock mixer.%n%n[note]This multiblock can only process recipes up to LV tier.[/note]
+betterquesting.quest.WEwrzX4ZRkSxJ3M6cBesfA.desc=Why use fancy wiring and circuitry to blend dusts together when you can do the same thing with steam and pistons? The Steam Blender is the largest of these Steam Multiblocks and can handle your mixing needs for a while, having more parallel than an LV singleblock Mixer.%n%n[note]This Multiblock can only process recipes up to LV tier and is unable to process Fluid recipes.[/note]
 
 # Quest: Taking Things Apart
 betterquesting.quest.XA467S8MQtCEPy6L23eEEA.name=Taking Things Apart
@@ -6562,11 +6562,11 @@ betterquesting.quest.qDZZLi21TrmdWXwo_KimIw.desc=Bigger, better, faster. The Lar
 
 # Quest: STEAM-POWERED BREAKTHROUGH
 betterquesting.quest.quLxATDCQFWsrZRuh_gspA.name=STEAM-POWERED BREAKTHROUGH
-betterquesting.quest.quLxATDCQFWsrZRuh_gspA.desc=You should have quite the collection of single block Steam machines by now. While these may have gotten you through processing small amounts of materials, there will be a time when you will have to process a multitude of items. This is where multiblocks come in.%n%nWhile these multiblocks have a material cost that is way higher than their single block counterparts, they have certain bonuses: they use less steam, and they can process recipes in parallel, which means that a single recipe cycle can craft multiple items at once, if the steam provided is enough to sustain it.%n%n§TThey do however have some quirks that need to be taken care of:%n%n-These multiblocks require §4§lvery specific§r I/O blocks, use only those that are part of the quest %n-They process 8 items * Tier, where Tier 1 is made of bronze and Tier 2 is made of steel (checkout the Multiblock Preview in NEI which will show you different levels of tiers)%n-The Tier and amount of parallel processing can be seen via WAILA if you are looking at the controller block%n%n§W[note]With this quest, you have started your journey with Mass Processing. However, don't get too excited quite yet. While there are some multiblocks accessible in the Steam Age, most of them only unlock in EV or later, including better versions of these multiblocks.[/note]
+betterquesting.quest.quLxATDCQFWsrZRuh_gspA.desc=You should have quite the collection of single block Steam machines by now. While these may have gotten you through processing small amounts of materials, there will be a time when you will have to process a multitude of items. This is where Multiblocks come in.%n%nWhile these Multiblocks have a material cost that is way higher than their single block counterparts, they have certain bonuses: they use less Steam, and they can process recipes in parallel, which means that a single recipe cycle can craft multiple items at once, if the Steam provided is enough to sustain it.%n%n§TThey do however have some quirks that need to be taken care of:%n%n-These Multiblocks require §4§lvery specific§r I/O blocks, use only those that are part of the quest %n-They process up to 8 items, where the Basic Tier is made of Bronze and High Pressure Tier is made of Steel (checkout the Multiblock Preview in NEI which will show you different levels of tiers)%n-The Tier and amount of parallel processing can be seen via WAILA if you are looking at the Controller Block%n%n§W[note]With this quest, you have started your journey with Mass Processing. However, don't get too excited quite yet. While there are some Multiblocks accessible in the Steam Age, most of them only unlock in EV or later, including better versions of these Multiblocks.[/note]
 
 # Quest: Steam stomping!
 betterquesting.quest.s6AEHSKiQe2XveT_oDZbZg.name=Steam stomping!
-betterquesting.quest.s6AEHSKiQe2XveT_oDZbZg.desc=While the Forge Hammer is quite fast already, why not build this upscaled version and make it even faster? With the Steam Forge Hammer, you can unleash the full force of steam on whatever material you feed it. Watch blocks break apart and rods get smashed together faster than ever-at least until you gain access to more advanced technology.%n%n§3The Steam Forge Hammer can process recipes up to HV Tier, which includes about 98%% of all recipes.
+betterquesting.quest.s6AEHSKiQe2XveT_oDZbZg.desc=While the Forge Hammer is quite fast already, why not build this upscaled version and make it even faster? With the Steam Presser, you can unleash the full force of steam on whatever material you feed it. Watch blocks break apart and rods get smashed together faster than ever-at least until you gain access to more advanced technology.%n%n§3The Steam Presser can only process recipes up to LV Tier.
 
 # Quest: Superdense
 betterquesting.quest.sB_lbhZZRnmZNjJiF8-1Hg.name=Superdense
@@ -6586,7 +6586,7 @@ betterquesting.quest.wGINqtSuSQKLI_Yk7hAdcA.desc=In HV, you now technically have
 
 # Quest: Pressure washing!
 betterquesting.quest.zorY0c3BQuqLJp7ThOLG-g.name=Pressure washing!
-betterquesting.quest.zorY0c3BQuqLJp7ThOLG-g.desc=If you have been processing the ores you have gathered up until now, you will have come across a variety of crushed ores. Since these are quite dirty, you will have to clean them up to get certain byproducts. But how do you clean up this multitude of crushed ores? By using a Steam Washer, of course! With a steady flow of steam and a bit of water, you can wash away impurities and get purified crushed ores in no time.%n%nIf you’re tired of waiting forever for your ores to clean up, this is your fix!%n%n§3This multiblock has two modes, the default washer one and a simple washer mode. Simple washers process ores considerably faster, but they do not give byproducts. Like other multiblocks, the mode can be toggled by the respective button inside the GUI or by right-clicking the controller with a screwdriver. Since all ore washing recipes are LV, this multiblock can run all of them.
+betterquesting.quest.zorY0c3BQuqLJp7ThOLG-g.desc=If you have been processing the ores you have gathered up until now, you will have come across a variety of crushed ores. Since these are quite dirty, you will have to clean them up to get certain byproducts. But how do you clean up this multitude of crushed ores? By using a Steam Purifier, of course! With a steady flow of Steam and a bit of Water, you can wash away impurities and get Purified Crushed Ores in no time.%n%nIf you're tired of waiting forever for your ores to clean up, this is your fix!%n%n§3This Multiblock has two modes, the default Washer Mode and a Simple Washer Mode. Simple Washers process ores considerably faster, but they do not give byproducts. Like other Mmultiblocks, the mode can be toggled by the respective button inside the GUI or by right-clicking the Controller with a Screwdriver. Since all ore washing recipes are LV, this Multiblock can run all of them.
 
 
 ## Quest Line: How to Generate Power
