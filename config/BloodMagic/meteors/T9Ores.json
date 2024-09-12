@@ -1,0 +1,15 @@
+{
+  "ores": [
+    "oreAwakenedDraconium", "1000",
+    "oreNeodymium", "500",
+    "oreSamarium", "300",
+    "oreNetherStar", "250",
+    "oreTartarite", "60",
+    "oreTengamRaw", "1"
+  ],
+  "radius": 16,
+  "cost": 1000000001,
+  "focusModId": "gregtech",
+  "focusName": "gt.blockmachines",
+  "focusMeta": 14009
+}
