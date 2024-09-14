@@ -29,7 +29,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "During your exploration through the overworld, you discovered a forest filled to the brim with magic. In it, you stumbled upon this interesting little fellow who seems to have an interest in gems and gold. You wonder what fortunes you can receive from this merchant. If only you could find a way to make them warm up to you...\n\n[note]Note: This quest accepts meeting any type of Pech, not just Pech Foragers.[/note]"
+      "desc:8": "During your travels, you\u0027ve heard about a forest filled to the brim with magic. In that forest, there is a rumor about an interesting little fellow who can trade magical artifacts, including infused shards! Supposedly, they scour the world for gems and gold, but are cold to wanderers who have no valuables to their name.\n \nYou wonder if you can find this merchant and obtain their wares. If only there was a tool that could help find this... §5§o\"Magical Forest\"§f§r.\n\n[note]Note: This quest accepts meeting any type of Pech, not just Pech Foragers.[/note]"
     }
   },
   "tasks:9": {
@@ -191,5 +191,36 @@
       "subtypes:1": 1
     }
   },
-  "rewards:9": {}
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "Thaumcraft:ItemLootBag",
+          "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinAdventureI",
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "dreamcraft:item.CoinDarkWizardI",
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
 }
