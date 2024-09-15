@@ -10892,7 +10892,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAA4w.desc=Now you need something on which
 
 # Quest: Infused Stones
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA5Q.name=Infused Stones
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA5Q.desc=This whole place here is filled with magic. No matter where you look at, it's just everywhere. You wonder what happens to regular stone if it's exposed to large amounts of magic for such a long time. Maybe it's time to go mining?%n%nThere are 3 veins. There's amber and cinnabar in each. They aren't super useful, but make sure to keep hold of some at least.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA5Q.desc=This whole place here is filled with magic. No matter where you look at, it's just everywhere. You wonder what happens to regular stone if it's exposed to large amounts of magic for such a long time. Maybe it's time to go mining?%n%nThere are 3 veins. There's amber and cinnabar in each. They aren't super useful, but make sure to keep hold of some at least.%n%nEven when you find these infused stones, they won't drop the infused shards you desparately need. Rather, you have to process the raw ores themselves. The easiest way to do that is to throw these raw ores in your Forge Hammer.%n%nLater when you have a Sifter, you can sift purified ores for more shards. An autoclave can also turn shard dust into a shard. Maybe there's a magical way to do the same thing?
 
 # Quest: Your First Wand
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA5g.name=Your First Wand
@@ -10908,7 +10908,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAA6A.desc=Your wand does a great job in s
 
 # Quest: Getting Shards
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA6Q.name=Getting Shards
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA6Q.desc=Now that you've found all six types of infused stone, you need to break those up in order to get the shards. The easiest way to do that, is to throw these stones in your Forge Hammer. Later when you have a Sifter, you can sift purified ores for more shards. An autoclave can turn shard dust into a shard. Maybe there's a magical way to do the same thing?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA6Q.desc=However you obtained them, you've collected a variety of Infused Shards. Now on how to use them...
 
 # Quest: A "Greater" Wand
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA6g.name=A "Greater" Wand
@@ -11002,9 +11002,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABAw.desc=The struggle is over. You've fi
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABIg.name=Improved Armor: Samurai Style
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABIg.desc=Time to get some decent armor. With this, those infernal monsters won't be as much of a pain as they are now.
 
-# Quest: Useful Plant Life
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABLg.name=Useful Plant Life
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABLg.desc=While regular plants are mostly used to make food, you are wondering if you could get some... "more useful" plant life going...
+# Quest: A New Way to "Farm" Resources
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABLg.name=A New Way to "Farm" Resources
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABLg.desc=While regular plants are mostly used to make food, these magical plants (courtesy of Thaumic Bases) will grow you some good ol' resources!%n%nSpecifically, you have the ability to create Redlon (for Redstone), Metalleat (for Iron). Lucrite (for Gold), and Lazullia (for Lapis Lazuli).%n%nThere's also the fabled "Rainbow Cacti", which should help those who like to build with various colors...
 
 # Quest: Lead, Galena, Silver and Cryolite
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACYg.name=Lead, Galena, Silver and Cryolite
@@ -11088,7 +11088,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFtQ.desc=Don't want to guess at what has
 
 # Quest: Warp Warnings
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAG8g.name=Warp Warnings
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAG8g.desc=Thaumcraft offers considerable power from its devices and tools. But power comes with a price.... That price is represented by Warp: A corruption of the character's mind and soul, inflicting progressively more dire effects upon them. %n%nWhile the effects of warp can range from annoying to deadly, accumulating enough of it can also grant you access to greater power... at the cost of increasing madness, and attention from dark powers. At least, others may call it madness... but is it truly insanity, when the voices in your head grant useful knowledge?%n%nWarp Theory adds a bunch of new Warp Effects to the Player. Be very careful because you don't want to spawn a Wither in your base.%n%n5 warp: Message%n10 warp: Fake Explosion%n15 warp: Coin, Pumpkin%n20 warp: Lay Eggs, Spawn Phantoms%n25 warp: Fake Creeper, Fake Rain%n30 warp: GregTech Fake Sounds, Spawn Bats%n35 warp: Blood, Fake Enderman%n40 warp: Spawn Friendly Creeper%n45 warp: Jump Boost, Nausea%n50 warp: Insomnia, Vis Drain%n55 warp: Thunderstorm%n60 warp: Spawn Fire Bats%n65 warp: Blindness, Poison%n70 warp: Livestock Rain%n75 warp: Spawn Doppelganger%n80 warp: Spawn Endermen, Wither Potion%n85 warp: Wind%n90 warp: Ender Pearl%n95 warp: Blaze Fireball%n100 warp: Litmus Paper, Junk%n110 warp: Obsidian%n120 warp: Lightning%n125 warp: Inventory Swap%n130 warp: Random Teleport%n140 warp: Acceleration%n150 warp: Fake Wither, Inventory Scramble%n160 warp: Countdown Bomb%n170 warp: Mushrooms%n175 warp: Snow%n180 warp: Decay%n190 warp: Swamp%n200 warp: Spawn Wither
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAG8g.desc=Thaumcraft offers considerable power from its devices and tools. But power comes with a price.... That price is represented by Warp: A corruption of the character's mind and soul, inflicting progressively more dire effects upon them. %n%nWhile the effects of warp can range from annoying to deadly, accumulating enough of it can also grant you access to greater power... at the cost of increasing madness, and attention from dark powers. At least, others may call it madness... but is it truly insanity, when the voices in your head grant useful knowledge?%n%nWarp Theory adds a bunch of new Warp Effects to the Player. Be very careful because you don't want to spawn a Wither in your base.%n%n5 warp: Message%n10 warp: Fake Explosion%n15 warp: Coin, Pumpkin%n20 warp: Lay Eggs, Spawn Phantoms%n25 warp: Fake Creeper, Fake Rain%n30 warp: GregTech Fake Sounds, Spawn Bats%n35 warp: Blood, Fake Enderman%n40 warp: Spawn Friendly Creeper%n45 warp: Jump Boost, Nausea%n50 warp: Insomnia, Vis Drain, Strange Noise%n55 warp: Thunderstorm%n60 warp: Spawn Fire Bats%n65 warp: Blindness, Poison%n70 warp: Livestock Rain%n75 warp: Spawn Doppelganger%n80 warp: Spawn Endermen, Wither Potion%n85 warp: Wind%n90 warp: Ender Pearl%n95 warp: Blaze Fireball%n100 warp: Litmus Paper, Junk, Call from the Deep%n110 warp: Obsidian%n120 warp: Lightning%n125 warp: Inventory Swap%n130 warp: Random Teleport%n140 warp: Acceleration%n150 warp: Fake Wither, Inventory Scramble%n160 warp: Countdown Bomb%n170 warp: Mushrooms%n175 warp: Snow%n180 warp: Decay%n190 warp: Swamp%n200 warp: Spawn Wither
 
 # Quest: The Night's Not Dark Anymore
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGHQ.name=The Night's Not Dark Anymore
@@ -11190,6 +11190,10 @@ betterquesting.quest.LUwrS4RnQGilkbdPQ_DrBg.desc=There are many plants that can 
 betterquesting.quest.TjJv9pSOSaW1kwzoTZ9qRw.name=More Health
 betterquesting.quest.TjJv9pSOSaW1kwzoTZ9qRw.desc=No matter how much of a crack shot you become it doesn't help when your twitchy fingers shoot your crossbow before your eyes can notice the tell-tale red lines on one particular type of spider's body. Usually incredible amounts of pain follow...%n%nWith your new wand you are able to craft Red Heart Canisters. A total of ten of them can be put in their own dedicated inventory slot, increasing your maximum health by one heart per.%n%nIt might not be enough, but if it ends up making the difference between standing upright and standing horizontally in a box, you'll be thankful you made these things.
 
+# Quest: A Pechuliar Merchant
+betterquesting.quest.TvVeFhtYQCSmlekVCdADaQ.name=A Pechuliar Merchant
+betterquesting.quest.TvVeFhtYQCSmlekVCdADaQ.desc=During your travels, you've heard about a forest filled to the brim with magic. In that forest, there is a rumor about an interesting little fellow who can trade magical artifacts, including infused shards! Supposedly, they scour the world for gems and gold, but are cold to wanderers who have no valuables to their name.%n %nYou wonder if you can find this merchant and obtain their wares. If only there was a tool that could help find this... §5§o"Magical Forest"§f§r.%n%n[note]Note: This quest accepts meeting any type of Pech, not just Pech Foragers.[/note]
+
 # Quest: Need More Sugar?
 betterquesting.quest.UAWjHTM_SAW95_Cji-9PiA.name=Need More Sugar?
 betterquesting.quest.UAWjHTM_SAW95_Cji-9PiA.desc=With Briar starting to consume you might also want to increase your sugar production.%n%nSweeds are planted on grass, not farmland, and will spread to propogate themselves. Once fully matured they can be harvested for sugar as well as sugar cane.
@@ -11213,6 +11217,10 @@ betterquesting.quest.bfrxXr1iSpGQS8iV95nJeA.desc=More advanced Thaumcraft recipe
 # Quest: Essentia Storage
 betterquesting.quest.cbv93MoJQESfsccTQMCwUA.name=Essentia Storage
 betterquesting.quest.cbv93MoJQESfsccTQMCwUA.desc=At long last, you have all the tools to smelt items into Essentia, keep it stable, and store it for later use.%n%nThe last step was creating Warded Jars, relatively simple creations that keep Essentia in a quasi-liquid state, which makes it easier to keep Essentia from turning into Flux. Unlike phials, which must hold 8 Essentia exactly to keep it stable, Warded Jars can store anywhere from 1 to 64 Essentia.%n%nThese Warded Jars are safe to pick up and carry around, which you suspect will not be the case for most objects storing much more Essentia than these jars do. Right click them with a label to filter that jar to a specific type of Essentia. Use a preset label if the jar is still empty.%n%nSneak-right click with an empty hand to remove a label from a jar, or void the Essentia it contains if it doesn't have a label. Voiding Essentia from jars will not generate Flux, because... magic, I guess. It's very convenient, so just politely don't question it too much.
+
+# Quest: Growing your own Knowledge!
+betterquesting.quest.eWOxG-reT9ewlW0CNXgQNQ.name=Growing your own Knowledge!
+betterquesting.quest.eWOxG-reT9ewlW0CNXgQNQ.desc=Ever thought to yourself "man, why does everything have to use primal aspects so much?" Well now you won't have to worry about that anymore!%n%nMeet the Rosa Mysteria. When the sprout planted on a Crystal Block, it will use that block's essence to grow into an Aspect Shard of the same type! These shards can then be thrown into your Cauldron or Alchemical Furnace, or used as Knowledge Fragments to gain Research Points. Even Mixed Crystals can be used as a catalyst!%n%n[warn]Warning: Planting Rosa Mysteria on Tainted Crystal Blocks will lead to unf§ko§rrs§ke§re§kn   §rco§kn§rs§ke§rq§kue§rnc§ke§r§ks.§r[/warn]
 
 # Quest: Solid, Directional Redstone
 betterquesting.quest.fmeCtrL-SNGqaLb208VSiQ.name=Solid, Directional Redstone
@@ -14365,9 +14373,17 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMjw.desc=No Description
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrw.name=Tool: Never complete
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrw.desc=This quest should never be complete which is useful to hide templates and other things.
 
+# Quest: Trigger: Early Scribing Tools
+betterquesting.quest.S8Z31Xp-RrSdc2A6rOvUzg.name=Trigger: Early Scribing Tools
+betterquesting.quest.S8Z31Xp-RrSdc2A6rOvUzg.desc=No Description
+
 # Quest: Trigger:Styrene-Butadiene rubber
 betterquesting.quest.cQkx83QYT4m3mwovgZIKvA.name=Trigger:Styrene-Butadiene rubber
 betterquesting.quest.cQkx83QYT4m3mwovgZIKvA.desc=No Description
+
+# Quest: Trigger: Profane Wand
+betterquesting.quest.kPOfft_mTjqocCR6z9GhVw.name=Trigger: Profane Wand
+betterquesting.quest.kPOfft_mTjqocCR6z9GhVw.desc=No Description
 
 # Quest: Trigger:Nether Skip
 betterquesting.quest.qFco17HGS0SxmpVn-uWJZQ.name=Trigger:Nether Skip
