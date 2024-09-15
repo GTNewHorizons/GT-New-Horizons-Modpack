@@ -4,6 +4,10 @@
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 229
+    },
+    "1:10": {
+      "questIDHigh:4": 5689557153293549604,
+      "questIDLow:4": -6442987415315414167
     }
   },
   "questIDLow:4": 233,
@@ -24,14 +28,14 @@
       "snd_update:8": "random.levelup",
       "repeatTime:3": -1,
       "globalShare:1": 1,
-      "questLogic:8": "AND",
+      "questLogic:8": "OR",
       "repeat_relative:1": 1,
       "name:8": "Getting Shards",
       "isGlobal:1": 0,
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Now that you\u0027ve found all six types of infused stone, you need to break those up in order to get the shards. The easiest way to do that, is to throw these stones in your Forge Hammer. Later when you have a Sifter, you can sift purified ores for more shards. An autoclave can turn shard dust into a shard. Maybe there\u0027s a magical way to do the same thing?"
+      "desc:8": "However you obtained them, you\u0027ve collected a variety of Infused Shards. Now on how to use them..."
     }
   },
   "tasks:9": {
