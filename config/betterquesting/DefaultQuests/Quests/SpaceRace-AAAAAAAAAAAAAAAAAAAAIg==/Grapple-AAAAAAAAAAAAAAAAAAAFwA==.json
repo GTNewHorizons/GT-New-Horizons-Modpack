@@ -44,9 +44,12 @@
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.metaitem.02",
+          "id:8": "TGregworks:tGregToolPartArrowHead",
           "Count:3": 1,
-          "Damage:2": 14341,
+          "tag:10": {
+            "material:8": "MeteoricSteel"
+          },
+          "Damage:2": 1573,
           "OreDict:8": ""
         },
         "1:10": {
