@@ -10,7 +10,7 @@
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
-      "taskLogic:8": "OR",
+      "taskLogic:8": "AND",
       "partySingleReward:1": 0,
       "visibility:8": "NORMAL",
       "isMain:1": 0,
