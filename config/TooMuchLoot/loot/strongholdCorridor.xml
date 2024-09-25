@@ -76,8 +76,6 @@
     <loot item="ExtraUtilities:divisionSigil" damage="0" weight="4" count_min="1" count_max="1"/>
     <loot item="gregtech:gt.metaitem.02" damage="335" weight="6" count_min="1" count_max="4"/>
     <loot item="gregtech:gt.metaitem.02" damage="3335" weight="6" count_min="1" count_max="4"/>
-    <loot item="gregtech:gt.metaitem.02" damage="25335" weight="6" count_min="16" count_max="48"/>
-    <loot item="gregtech:gt.metaitem.02" damage="25350" weight="6" count_min="8" count_max="24"/>
 	<loot item="gregtech:gt.metaitem.01" damage="11035" weight="9" count_min="2" count_max="6"/>
 	<loot item="gregtech:gt.metaitem.01" damage="11057" weight="8" count_min="4" count_max="16"/>
 	<loot item="gregtech:gt.metaitem.01" damage="11089" weight="10" count_min="2" count_max="6"/>
