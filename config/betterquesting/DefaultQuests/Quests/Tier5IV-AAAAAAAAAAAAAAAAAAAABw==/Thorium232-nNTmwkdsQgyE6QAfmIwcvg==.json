@@ -15,8 +15,12 @@
       "isMain:1": 0,
       "simultaneous:1": 0,
       "icon:10": {
-        "id:8": "miscutils:itemDustThorium232",
+        "id:8": "betterquesting:placeholder",
         "Count:3": 1,
+        "tag:10": {
+          "orig_meta:3": 0,
+          "orig_id:8": "miscutils:itemDustThorium232"
+        },
         "Damage:2": 0,
         "OreDict:8": ""
       },
