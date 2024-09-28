@@ -2049,7 +2049,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAD8w.desc=The Bauxite vein contains two o
 
 # Quest: Rutile
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD9A.name=§9§lRutile
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD9A.desc=You've gotten some Rutile as a byproduct by now, right? Or EBF'd some Ilmenite?%n%nRutile, Chlorine and Carbon makes Titaniumtetrachloride, and some CO. You can recycle this for Carbon if you want or void it.%n%nCombining TiCl4 with Magnesium in an HV EBF will give you a Hot Titanium ingot, and Magnesiumchloride. You can recyle this as well to get all the Magnesium and Chlorine back using some Sodium.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD9A.desc=You've gotten some Rutile as a byproduct by now, right? Or EBF'd some Ilmenite?%n%nRutile, Chlorine and Carbon makes Titaniumtetrachloride, and some CO. You can recycle this for Carbon if you want to. Best use a Large Chemical Reactor in that case to get the full recipe.%n%nCombining TiCl4 with Magnesium in an HV EBF will give you a Hot Titanium ingot, and Magnesiumchloride. You can recyle this as well to get all the Magnesium and Chlorine back using some Sodium.
 
 # Quest: SMD Circuit Components
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD9Q.name=§9§lSMD Circuit Components
@@ -2723,7 +2723,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFgQ.desc=How about lossless 8192 EU Wire
 
 # Quest: IV Mixer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFgg.name=§b§lIV Mixer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFgg.desc=An IV mixer is required for example to mix HSS-S dust or to make IV superconductors.%n%nYou can also check out the GT++ tab and make a multiblock mixer out of this one.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFgg.desc=An IV mixer is required for example to mix HSS-S dust or to make IV superconductors.%n%nYou can also check out the Mass Processing tab and make a multiblock mixer out of this one.
 
 # Quest: You're Gonna Hate This 1-4 in IV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFhQ.name=§b§lYou're Gonna Hate This 1-4 in IV
@@ -3204,6 +3204,10 @@ betterquesting.quest.ZXyJX8zNTQW6swu0OsE03Q.desc=Precipitate samarium ions with 
 # Quest: Wait are you sure?
 betterquesting.quest.fvz-5lJaRAqfsM1hcAYOng.name=§b§lWait are you sure?
 betterquesting.quest.fvz-5lJaRAqfsM1hcAYOng.desc=So for some reason you have decided to pick the EBF option.%n%nWell get ready for a processing line.%n%nFirst you need to react Thorium Dust with Hydrofluoric Acid and eight buckets of Nitric Acid. I hope you have a Nitric Acid setup.%n%nThen react the Thorium Nitrate with Sodium Hydroxide to produce Thorium Hydroxide. Then react with even more Hydrofluoric Acid to get Thorium Tetrafluoride.%n%nThen pump it into a Centrifuge to separate the normal Thorium away from the Thorium 232. Sadly it is still in a liquid form so you will need to blast it with Zinc Chloride and Calcium.%n%nThen finally use your Blast Furnace again for the Zn-Th alloy ingot to separate the Zinc from the Thorium 232 to obtain the Thorium 232 Dust and even get your Zinc back in fluid form.%n%nWell I hope you enjoyed the processing line for Thorium 232 EBF edition.%n
+
+# Quest: A Small Reward: The Infinite Spray Can
+betterquesting.quest.n22vWzZHSu6Gn63EBV1FUw.name=§b§lA Small Reward: The Infinite Spray Can
+betterquesting.quest.n22vWzZHSu6Gn63EBV1FUw.desc=Congratulations! You have completed the Platinum Line. Not many players have the perseverance to accomplish this task. A small reward is in order!%n%nThe [note]Infinite Spray Can[/note] never runs out of paint, and contains all sixteen colors (as well as solvent!) Of course, line mode and Ring of Loki support are included. There are also many convenience features. Middle click to open a color choice GUI. Middle click a painted block to copy its color to the spray can. Left click to cycle the active color (sneak to go backwards.) Sneak middle click to lock the can; while locked, you can't accidentally change the color. Sneak middle click to unlock. %n%nNaturally, you'll have to craft the infinite spray can yourself. It's a Dire Crafting recipe, so hopefully you have a dire crafting table. It requires a lot of platinum line materials, of course. And, apparently, a rainbow cactus, so a small detour into magic will be necessary. And a bunch of random-looking AE2 parts. And an IV world accelerator. And... a fence?%n%nIs this really a reward?
 
 # Quest: Thorium 232?
 betterquesting.quest.nNTmwkdsQgyE6QAfmIwcvg.name=§b§lThorium 232?
