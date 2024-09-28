@@ -3,15 +3,9 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 2321,
-      "type:1": 1
+      "questIDLow:4": 2321
     },
     "1:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 2296,
-      "type:1": 1
-    },
-    "2:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 2878,
       "type:1": 1
@@ -43,7 +37,7 @@
       "globalShare:1": 0,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "A Small Reward: The Infinite Spray Can",
+      "name:8": "§b§lA Small Reward: The Infinite Spray Can",
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
