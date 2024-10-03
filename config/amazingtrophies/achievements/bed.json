@@ -1,0 +1,13 @@
+{
+  "id": "bed",
+  "condition": {
+    "type": "item.pickup",
+    "item": "minecraft:bed"
+  },
+  "page": "GT New Horizons",
+  "x": -6,
+  "y": -7,
+  "icon": {
+    "registryName": "minecraft:bed"
+  }
+}

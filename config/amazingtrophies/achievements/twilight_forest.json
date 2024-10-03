@@ -1,0 +1,14 @@
+{
+  "id": "twilight_forest",
+  "condition": {
+    "type": "dimension.join",
+    "id": -7
+  },
+  "page": "GT New Horizons",
+  "x": -2,
+  "y": -7,
+  "icon": {
+    "registryName": "TwilightForest:tile.TFPortal",
+    "meta": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "nether",
+  "condition": {
+    "type": "achievement",
+    "id": "nether"
+  },
+  "model": {
+    "type": "complex",
+    "keys": {
+      "A": "minecraft:obsidian",
+      "B": "minecraft:portal"
+    },
+    "metadata": {
+      "A": 0,
+      "B": 0
+    },
+    "transpose": true,
+    "structure": [
+      [" AAAA "],
+      [" ABBA "],
+      [" ABBA "],
+      [" ABBA "],
+      [" AAAA "]
+    ]
+  }
+}

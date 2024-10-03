@@ -1,0 +1,13 @@
+{
+  "id": "nether",
+  "condition": {
+    "type": "dimension.join",
+    "id": -1
+  },
+  "page": "GT New Horizons",
+  "x": -4,
+  "y": -7,
+  "icon": {
+    "registryName": "minecraft:portal"
+  }
+}

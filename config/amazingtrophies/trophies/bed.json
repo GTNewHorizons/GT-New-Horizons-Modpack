@@ -1,0 +1,11 @@
+{
+  "id": "bed",
+  "condition": {
+    "type": "achievement",
+    "id": "bed"
+  },
+  "model": {
+    "type": "item",
+    "registryName": "minecraft:bed"
+  }
+}

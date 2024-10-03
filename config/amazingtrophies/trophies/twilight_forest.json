@@ -1,0 +1,25 @@
+{
+  "id": "twilight_forest",
+  "condition": {
+    "type": "achievement",
+    "id": "twilight_forest"
+  },
+  "model": {
+    "type": "complex",
+    "keys": {
+      "A": "minecraft:grass",
+      "B": "TwilightForest:tile.TFPortal",
+      "B": "minecraft:red_flower"
+    },
+    "metadata": {
+      "A": 0,
+      "B": 0,
+      "F": 0,
+    },
+    "transpose": true,
+    "structure": [
+      ["FF  FF", "FF  FF", "FF  FF", "FF  FF"],
+      ["AABBAA", "AABBAA", "AABBAA", "AABBAA"]
+    ]
+  }
+}
