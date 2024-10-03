@@ -9,16 +9,22 @@
     "keys": {
       "A": "minecraft:grass",
       "B": "TwilightForest:tile.TFPortal",
-      "B": "minecraft:red_flower"
+	  "C": "minecraft:red_flower",
+	  "D": "minecraft:red_flower",
+      "F": "minecraft:red_flower",
+	  "E": "minecraft:yellow_flower"
     },
     "metadata": {
       "A": 0,
       "B": 0,
-      "F": 0,
+	  "C": 1,
+	  "D": 2,
+	  "E": 0,
+      "F": 0
     },
     "transpose": true,
     "structure": [
-      ["FF  FF", "FF  FF", "FF  FF", "FF  FF"],
+      ["CFEEFC", "FD  DF", "FD  DF", "CFEEFC"],
       ["AABBAA", "AABBAA", "AABBAA", "AABBAA"]
     ]
   }
