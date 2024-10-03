@@ -16,11 +16,12 @@
     },
     "transpose": true,
     "structure": [
-      ["  AAAA  "],
-      ["  ABBA  "],
-      ["  ABBA  "],
-      ["  ABBA  "],
-      ["  AAAA  "]
+      ["AAAAA"],
+      ["ABBBA"],
+      ["ABBBA"],
+      ["ABBBA"],
+      ["ABBBA"],
+      ["AAAAA"]
     ]
   }
 }
