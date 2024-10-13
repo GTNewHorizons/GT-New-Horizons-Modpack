@@ -228,7 +228,10 @@ arrowKeys = false
 
 numPad = false
 
-transistor = false
+transistor = {
+	type: shapeless
+	input: [{item="gt.metaitem.01", subID=32717}]
+}
 
 chip1 = true
 
