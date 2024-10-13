@@ -31,7 +31,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Summon a Naga.\n\n[note]Only works in the Twilight Forest dim.[/note]\n\n[note]The name of the nagastone is messed up, this is a side effect of allowing any meta #.[/note]"
+      "desc:8": "Summon a Naga.\n\n[note]Only works in the Twilight Forest dim.[/note]"
     }
   },
   "tasks:9": {
@@ -63,13 +63,13 @@
       "autoConsume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
-      "index:3": 1,
+      "index:3": 2,
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "TwilightForest:tile.TFNagastone",
+          "id:8": "TwilightForest:tile.TFNagastoneBody",
           "Count:3": 1,
-          "Damage:2": 32767,
+          "Damage:2": 0,
           "OreDict:8": ""
         }
       },
