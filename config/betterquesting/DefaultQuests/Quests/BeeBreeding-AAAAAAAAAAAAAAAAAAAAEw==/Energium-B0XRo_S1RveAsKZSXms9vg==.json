@@ -185,7 +185,7 @@
       "partialMatch:1": 1,
       "autoConsume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
+      "ignoreNBT:1": 0,
       "index:3": 0,
       "consume:1": 0,
       "requiredItems:9": {
@@ -193,75 +193,12 @@
           "id:8": "Forestry:beePrincessGE",
           "Count:3": 1,
           "tag:10": {
-            "MaxH:3": 60,
-            "Health:3": 60,
-            "IsAnalyzed:1": 1,
             "Genome:10": {
               "Chromosomes:9": {
                 "0:10": {
                   "UID1:8": "gregtech.bee.speciesEnergy",
                   "UID0:8": "gregtech.bee.speciesEnergy",
                   "Slot:1": 0
-                },
-                "1:10": {
-                  "UID1:8": "forestry.speedSlower",
-                  "UID0:8": "forestry.speedSlower",
-                  "Slot:1": 1
-                },
-                "2:10": {
-                  "UID1:8": "forestry.lifespanLonger",
-                  "UID0:8": "forestry.lifespanLonger",
-                  "Slot:1": 2
-                },
-                "3:10": {
-                  "UID1:8": "forestry.fertilityNormal",
-                  "UID0:8": "forestry.fertilityNormal",
-                  "Slot:1": 3
-                },
-                "4:10": {
-                  "UID1:8": "forestry.toleranceDown2",
-                  "UID0:8": "forestry.toleranceDown2",
-                  "Slot:1": 4
-                },
-                "5:10": {
-                  "UID1:8": "forestry.boolTrue",
-                  "UID0:8": "forestry.boolTrue",
-                  "Slot:1": 5
-                },
-                "6:10": {
-                  "UID1:8": "forestry.toleranceBoth1",
-                  "UID0:8": "forestry.toleranceBoth1",
-                  "Slot:1": 7
-                },
-                "7:10": {
-                  "UID1:8": "forestry.boolFalse",
-                  "UID0:8": "forestry.boolFalse",
-                  "Slot:1": 8
-                },
-                "8:10": {
-                  "UID1:8": "forestry.boolFalse",
-                  "UID0:8": "forestry.boolFalse",
-                  "Slot:1": 9
-                },
-                "9:10": {
-                  "UID1:8": "forestry.flowersNether",
-                  "UID0:8": "forestry.flowersNether",
-                  "Slot:1": 10
-                },
-                "10:10": {
-                  "UID1:8": "forestry.floweringAverage",
-                  "UID0:8": "forestry.floweringAverage",
-                  "Slot:1": 11
-                },
-                "11:10": {
-                  "UID1:8": "forestry.territoryAverage",
-                  "UID0:8": "forestry.territoryAverage",
-                  "Slot:1": 12
-                },
-                "12:10": {
-                  "UID1:8": "forestry.effectIgnition",
-                  "UID0:8": "forestry.effectIgnition",
-                  "Slot:1": 13
                 }
               }
             }
