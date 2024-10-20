@@ -10684,9 +10684,29 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAM4g.desc=Critical for your Ichor product
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpg.name=Space Bees
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpg.desc=Breed an industrious with a heroic bee to obtain a space bee. You need the temperature to be icy for that.%n%nJust one small step for you, but a giant leap for beekind.%n%n[note]This is the starting point for many space related bees. Maybe check out NEI to see what you can aim for.[/note]
 
+# Quest: Energium
+betterquesting.quest.B0XRo_S1RveAsKZSXms9vg.name=Energium
+betterquesting.quest.B0XRo_S1RveAsKZSXms9vg.desc=Are you tired of making Energium Dust by mixing Ruby and Redstone Dust? This bee offers a way to acquire it directly - how convenient is that? To breed it, you'll need to place some Hot Coolant below the hive while inside a Boneyard found in the Nether.%n%nUnlike its parents, this bee won't burn down your base—but it will set you on fire if you're not wearing your apiarist suit!
+
+# Quest: Pyrotheum
+betterquesting.quest.YVlqGPZBS8qCkkHlu1BDpg.name=Pyrotheum
+betterquesting.quest.YVlqGPZBS8qCkkHlu1BDpg.desc=Blazing Pyrotheum is needed in large quantities to satisfy the unquenchable thirst of your Volcani. This Bee produces Pyrotheum Dust directly - all you need to do is fluid-extract it (after reaching this point in the breeding chain, of course).%n%nBreed these bees from Energy and Redstone Bees. They aren't picky about conditions, requiring only Hellish temperature. Yay!
+
 # Quest: Essentia
 betterquesting.quest.noSgUClGTO6zMgENR9pwtw.name=Essentia
 betterquesting.quest.noSgUClGTO6zMgENR9pwtw.desc=This bee produces nothing directly but instead sacrifices its lifetime to generate liquid essentia for all your magical needs. To do so, however, it requires an Apimancer's Drainer beneath its housing.%n%nThe speed at which the bee produces essentia is affected by its production speed. You have to right-click the drainer with a filled phial of the desired essentia to lock it to that type.%n%nYou can breed them from chaotic and ordered bees.%n%n§3You can also place up to 9 drainers beneath a single alveary as long as the blocks at the bottom are plain alveary blocks.
+
+# Quest: Lapotron
+betterquesting.quest.rKrpOyRHRvSF7TeFSskG_A.name=Lapotron
+betterquesting.quest.rKrpOyRHRvSF7TeFSskG_A.desc=This magnificent breed of Bee produces a whole plethora of useful resources, including endless amounts of Lapis, Energium, and Lapotron Dust. However, they are somewhat picky when it comes to breeding; you'll need Energium and Lapis Bees as parents, and the process must take place on the Moon under icy temperatures.
+
+# Quest: Furious
+betterquesting.quest.v-1MbhJWRuiGFBX8KEvsUg.name=Furious
+betterquesting.quest.v-1MbhJWRuiGFBX8KEvsUg.desc=If you want to pursue the breeding path toward Lapotron and Pyrotheum Bees, you’ll need to start by breeding some Furious Bees. They can be bred in the nether using Fiendish and Embittered Bees, with the latter found in the wilds of the Nether.%n%nBeware: Furious Bees spawn fire charges downward, so make sure your breeding area is fireproof!
+
+# Quest: Volcanic
+betterquesting.quest.ysj8avl1SESH2ibGOS3qjQ.name=Volcanic
+betterquesting.quest.ysj8avl1SESH2ibGOS3qjQ.desc=One step closer to your goal, these bees can be bred from Furious and Demonic Bees while inside the Nether. Just like their Furious counterparts, they will spawn fire charges while working.
 
 
 ## Quest Line: Hardcore End(er) Expansion
