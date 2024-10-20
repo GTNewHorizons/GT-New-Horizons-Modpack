@@ -1,0 +1,92 @@
+{
+  "questIDHigh:4": 6838269211896792715,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1008
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 486
+    }
+  },
+  "questIDLow:4": -5122202840608450070,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "akashictome:tome",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "§3§lThe one book to rule them all",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "This Tome can store multiple documentation books from other mods. It will be empty when crafted, but you can add books by combining it with the desired book in a crafting grid.\n\nRight-clicking with the Tome in hand will open an interface showing all the added books; clicking on a book will transform the tome into the selected book. To revert it back to the Tome, left-click while sneaking and looking at any block.\n\nTo retrieve a stored book, transform the Tome into the desired book and throw it away while sneaking - this will drop the selected book and leave the tome in your inventory.\n\nI\u0027ll trade you your empty Tome for my Tome that already has my Tinkers and Food books in it, so you can see for yourself.\n\n[warn]The extended version of the Book of Biomes from Witchery is not compatible with this tome. \n\nAdditionally, you should not throw it through the Botania portal. The elves might steal your Tome and return only their own copy of the Lexica Botania.[/warn]"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "akashictome:tome",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "akashictome:tome",
+          "Count:3": 1,
+          "tag:10": {
+            "akashictome:data:10": {
+              "SpiceOfLife:10": {
+                "id:2": 10318,
+                "Count:1": 1,
+                "tag:10": {
+                  "akashictome:definedMod:8": "SpiceOfLife"
+                },
+                "Damage:2": 0
+              },
+              "TConstruct:10": {
+                "id:2": 4618,
+                "Count:1": 1,
+                "tag:10": {
+                  "akashictome:definedMod:8": "TConstruct"
+                },
+                "Damage:2": 0
+              }
+            }
+          },
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}
