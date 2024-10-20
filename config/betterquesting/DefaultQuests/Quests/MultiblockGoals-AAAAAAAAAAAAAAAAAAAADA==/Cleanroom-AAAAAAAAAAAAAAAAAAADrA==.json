@@ -31,7 +31,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "If you want to make more advanced (and cheaper!) circuits you\u0027ll need a cleanroom. The cleanroom is a multiblock between 3x4x3 and 15x15x15 (WxHxL) blocks. The base does not need to be a square; a rectangular shape is fine if it is symmetric around the center. Besides Plascrete Blocks for all edges you\u0027ll need a controller in the top center, Filter Machine Casings for the rest of the top except edges, an energy hatch, and a maintenance hatch. You will also need a reinforced door or some other way to get in and out and machine hulls or diodes if you want to automate it. The door, machine hulls, and diodes are optional. You can use the machine hulls for power input, item input, and item output. Tier does not affect item transfer, so use the cheapest ones for that.\n\nLet\u0027s build a 5x5x5 room. Expanding it vertically is easy to do, or you can make it wider and longer, as long as both X and Z match and are odd. Up to around 5% of the plascrete blocks can be replaced with Reinforced Glass to see into the cleanroom and check on machines. Some other glass like Borosilicate Glass or Warded Glass can be used in even higher percentages.\n\nYou can pass materials through the walls using Machine Hulls. You can pass 1A of power using a Machine Hull as well, or you can use Diodes to pass multiple amps through.\n\nJust be really careful when upgrading your machines to a higher voltage. Be sure to remove the machine hulls and diodes and replace them with the new power tier, or else you will be very sad. You don\u0027t need to do this for ones you only use to pass items through.\n\nIf the Cleanroom has maintenance issues, it will have a chance to void recipes needing a cleanroom (10% per maint issue!). Monitor your cleanroom with a Hand Scanner, Industrial Information Panel, or using a Needs Maintenance Cover and a Redstone Powered Light or Howler Alarm.\n\nAdditionally, the longer the door is open or the cleanroom is off, the lower the efficiency will get, which has a direct correlation to recipe voiding. So open the door as little as possible and keep the cleanroom running! There are ways around using a door though. With an elevator or travel anchor you never actually need to open a door or even use one in the structure! You can even use the elevator block or travel anchor as a floor block to neatly integrate it.\n\nThe power usage of this multiblock is a bit unusual. It starts out at 40 eu/t and then gradually goes down. But even when it uses 40 eu/t - which is usually MV - a single LV energy hatch suffices. Just keep in mind that this makes the Cleanroom an exception, not the rule.\n\n[note]Multiblocks such as the LCR, LPF, or PA count as cleanrooms, so you don\u0027t need to put them in one. You cannot use the bio lab in a PA, so you\u0027ll still need the cleanroom later on.[/note]\n\n[note]Other helpful hints include: using a wireless connector for AE or a transvector interface to skip machine hulls, and that you can use higher tier energy hatches to reach 100% efficiency faster (does not use more power once at 100%).[/note]\n\n[warn]Keep in mind that you cannot use anything in the cleanroom that causes pollution or it will break down.[/warn]"
+      "desc:8": "If you want to make more advanced (and cheaper!) circuits, you will need a Cleanroom. The Cleanroom is an interesting multiblock, because you will be placing other machines §oinside§r of the room!\n\nThe cleanroom is a hollow multiblock between 3x4x3 and 15x15x15 (WxHxL) blocks. The base does not need to be a square; a rectangular shape is fine. The top layer is built out of Filter Machine Casings, except for the edges, which are Plascrete Blocks. The controller needs to be in the center of the top layer. If the width or length of the room are even, then it can be any one of the two (or four) middle blocks. The rest of the structure is built out of Plascrete Blocks.\n\nUp to 30% of those Plascrete Blocks can be replaced by other valid blocks or materials:\n\nA Reinforced Door lets you get in and out of the cleanroom. Make sure to keep the doors closed, or the cleanroom will rapidly lose efficiency. Travel Anchors and Elevators also work, you can even embed them in the floor if you want to.\n\nIn order to automate power and item transport through the walls, you can use Cable Diodes or Machine Hulls. Just be really careful when upgrading your machines to a higher voltage. Be sure to remove the machine hulls and diodes and replace them with the new power tier, or else you will be very sad. You don\u0027t need to do this for ones you only use to pass items through.\n\nIf you want to see inside, you can use any EV+ tier glass (for example, Reinforced Glass or Managlass). If the Cleanroom does not form, mind the 30% limit: often the problem is that you added too much glass.\n\nFinally, the Cleanroom itself will need a Maintenance and Energy Hatch to run. The power usage of this multiblock is a bit unusual. It starts out at 40 EU/t and then gradually goes down. But even when it uses 40 EU/t - which is usually MV - a single LV energy hatch suffices, as long as you give it enough power. Just keep in mind that this makes the Cleanroom an exception, not the rule.\n\nLet\u0027s build a 5x5x5 room for now. You can expand it later as needed. Give it power and let it run until it reaches 100% efficiency. Below 100% efficiency, machines inside the cleanroom have a chance to void outputs, so you want to keep the cleanroom running at all times!\n\nAny maintenance issue reduces the maximum efficiency by 10%. Monitor your cleanroom with a Hand Scanner, Industrial Information Panel, or using a Needs Maintenance Cover and a Redstone Powered Light or Howler Alarm.\n\n\n[note]Multiblocks such as the Large Chemical Reactor or Hyper-Intensity Laser Engraver don\u0027t need to be in a cleanroom. However, you will still need the cleanroom later on for other machines, like Bio Labs.[/note]\n\n[note]Other helpful hints: you can use an AE Wireless Connector or a Transvector Interface for item transport to avoid machine hulls, and use a higher tier energy hatch to reach 100% efficiency faster.[/note]\n\n[warn]Keep in mind that you can not use anything in the cleanroom that causes pollution, or the cleanroom will stop working.[/warn]"
     }
   },
   "tasks:9": {
@@ -44,19 +44,13 @@
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "minecraft:stone_pressure_plate",
-          "Count:3": 2,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "IC2:itemDoorAlloy",
+          "id:8": "gregtech:gt.blockmachines",
           "Count:3": 1,
-          "Damage:2": 0,
+          "Damage:2": 1172,
           "OreDict:8": ""
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
       "partialMatch:1": 1,
@@ -64,6 +58,35 @@
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockreinforced",
+          "Count:3": 76,
+          "Damage:2": 2,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.blockcasings3",
+          "Count:3": 8,
+          "Damage:2": 11,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "IC2:blockAlloyGlass",
+          "Count:3": 6,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
@@ -80,43 +103,14 @@
         },
         "2:10": {
           "id:8": "gregtech:gt.blockmachines",
-          "Count:3": 1,
-          "Damage:2": 12,
-          "OreDict:8": ""
-        },
-        "3:10": {
-          "id:8": "gregtech:gt.blockmachines",
           "Count:3": 2,
           "Damage:2": 11,
           "OreDict:8": ""
         },
-        "4:10": {
+        "3:10": {
           "id:8": "gregtech:gt.blockmachines",
           "Count:3": 1,
           "Damage:2": 12635,
-          "OreDict:8": ""
-        }
-      },
-      "taskID:8": "bq_standard:optional_retrieval"
-    },
-    "2:10": {
-      "partialMatch:1": 1,
-      "autoConsume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 2,
-      "consume:1": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.blockreinforced",
-          "Count:3": 82,
-          "Damage:2": 2,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "gregtech:gt.blockcasings3",
-          "Count:3": 8,
-          "Damage:2": 11,
           "OreDict:8": ""
         }
       },
@@ -131,13 +125,25 @@
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.blockmachines",
+          "id:8": "IC2:itemDoorAlloy",
           "Count:3": 1,
-          "Damage:2": 1172,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "EnderIO:blockTravelAnchor",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "OpenBlocks:elevator",
+          "Count:3": 1,
+          "Damage:2": 0,
           "OreDict:8": ""
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   },
   "rewards:9": {
