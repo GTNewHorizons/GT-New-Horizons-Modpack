@@ -1381,8 +1381,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALpw.desc=Mica is a very rare but useful 
 betterquesting.quest.JRrD8MoLRuCHCD-fFpeNvQ.name=§5§6§l§5§lHandle Resources Like a Bo$$ #2
 betterquesting.quest.JRrD8MoLRuCHCD-fFpeNvQ.desc=A peak of human engineering at your disposal!%n%nThis machine allows you to filter 9 items, and will only output set batches. This allows you to automate processes such as electrolyzing that require different amounts of inputs that may clog the system otherwise.%n%n[note]Is it time for some ore processing automation?[/note]%n[note]This will be immensely useful in MV once you unlock more electorlyzer recipes![/note]
 
-# Quest: New Quest
-betterquesting.quest.b47jlBoHTFGGB3j7nq60Zw.name=New Quest
+# Quest: Keeping things organized
+betterquesting.quest.b47jlBoHTFGGB3j7nq60Zw.name=§5§lKeeping things organized
 betterquesting.quest.b47jlBoHTFGGB3j7nq60Zw.desc=Are you tired of storing Shapes and/or Molds near your Extruders and Solidifiers instead of inside them? Today must be your lucky day, because these item holders let you do exactly that!%n%nThey allow your machines to hold a small number of extra items, though each slot can only store one item at a time. There are three versions of this cover, each offering a different amount of storage:%n%nBasic Item Holder: 9 slots%nGood Item Holder: 12 slots%nAdvanced Item Holder: 15 slots%n%n[note]If that's still not enough space, you can either upgrade them or simply attach multiple holders to your machine of choice.[/note]
 
 
@@ -4276,8 +4276,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJbQ.desc=In order to get to the riches y
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMoQ.name=You are worthy
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMoQ.desc=Go no further if you value your sanity.
 
-# Quest: Not quite there yet.
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqw.name=Not quite there yet.
+# Quest: Not quite there yet
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqw.name=Not quite there yet
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqw.desc=Just a bit more.
 
 # Quest: UXV Circuits
