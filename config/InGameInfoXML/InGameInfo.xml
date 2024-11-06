@@ -1039,10 +1039,10 @@
                     </equal>
                 </and>
                 <concat>
-					<icon>
-                        <str>tinker:textures/items/parts/obsidian_toughbind.png</str>
-                    </icon>
-                    <str> You are at the {darkred}center {white}of the chunk.</str>
+                        <icon>
+                                <str>tinker:textures/items/parts/obsidian_toughbind.png</str>
+                        </icon>
+                <str> You are at the {darkred}center {white}of the chunk.</str>
                 </concat>
             </if>
         </line>
