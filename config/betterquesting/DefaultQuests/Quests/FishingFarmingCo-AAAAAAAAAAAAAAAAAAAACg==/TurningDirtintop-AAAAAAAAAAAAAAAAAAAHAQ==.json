@@ -26,12 +26,12 @@
       "globalShare:1": 1,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "Better(?) Dirt",
+      "name:8": "Turning Dirt into proper Soil",
       "isGlobal:1": 0,
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "With an Assembler and some seedoil, you can turn dirt and sand into Garden Soil.  This optimal soil does not require water nearby and crops do not break when you fall on it.  It can turn into dirt if you run on it, so be careful.\n\nUnlike watered farmland, it doesn\u0027t contribute to the humidity stat or speed up IC2 crops though, so don\u0027t bother when min-maxing.\n\nSame thing for enchanted earth, lamp of growth, sprinklers, etc."
+      "desc:8": "With an Assembler and some Seed Oil, you can turn Dirt and Sand into Garden Soil. This optimal Soil does not require nearby water, and Crops won\u0027t break when you fall on or run near it.\n\nHowever, unlike watered Farmland, it doesn’t contribute to the humidity stat or speed up IC2 crops, so it’s not useful for min-maxing.\n\nThe same goes for Enchanted Earth, the Lamp of Growth, Sprinklers, etc."
     }
   },
   "tasks:9": {
