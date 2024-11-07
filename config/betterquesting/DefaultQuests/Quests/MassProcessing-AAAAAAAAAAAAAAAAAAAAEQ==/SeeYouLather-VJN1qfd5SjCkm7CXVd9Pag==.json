@@ -29,7 +29,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Just in time for the huge number of crystal rods you\u0027ll need to get your Applied Energistics system up and running, the Industrial Precision Lathe!\n\n[note]This multiblock scales based on item pipe casings, but the minimum allowed tier is platinum.[/note]"
+      "desc:8": "Just in time for the huge number of crystal rods you\u0027ll need to get your Applied Energistics system up and running, the Industrial Precision Lathe!\n\nThe number of recipes that can be processed in parallel by the IPL depends on the item pipe casing and the voltage tier:\nParallel \u003d Item Pipe Casing Parallel + 2 * Voltage Tier, where LV is 1.\n\nAdditionally, it gains a speed boost on all recipes according to this formula:\nSpeed Boost \u003d (Item Pipe Casing Speed Factor + Voltage Tier) / 4\nOr equivalently, the recipe time is multiplied by a factor of 4 / (Item Pipe Casing Factor + Voltage Tier).\n[note]Note that this can actually make the processing speed [warn]slower[/warn] if you use low tier item pipe casing and voltage.[/note]\n\nThe parallel and speed factor of the item casing is listed below:\nTin: 1 Parallel, 0.75 Speed Factor\nBrass: 1 Parallel, 0.8 Speed Factor\nElectrum: 2 Parallel, 0.9 Speed Factor\nPlatinum: 4 Parallel, 1 Speed Factor\nOsmium: 8 Parallel, 1.5 Speed Factor\nQuantium: 12 Parallel, 2 Speed Factor\nFluxed Electrum: 16 Parallel, 3 Speed Factor\nBlack Plutonium: 32 Parallel, 4 Speed Factor"
     }
   },
   "tasks:9": {
