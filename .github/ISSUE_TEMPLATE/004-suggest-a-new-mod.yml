@@ -3,6 +3,7 @@ description: Suggest the addition of a new mod.
 labels:
 - "Status: Triage"
 - "Type: Mod Addition"
+- "Suggestion"
 body:
 - type: input
   id: discord
