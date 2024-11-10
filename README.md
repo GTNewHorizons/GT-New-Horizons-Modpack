@@ -7,7 +7,7 @@ Version 2.7.0-beta-3 is out 2024-10-21
 ## What is GT New Horizons?
 
 <p align="justify">
-    You are looking at a big progressive kitchensink pack for Minecraft 1.7.10 balanced around the mod GregTech.<BR><BR>
+    You are looking at a big progressive questing modpack for Minecraft 1.7.10 balanced around the mod GregTech.<BR><BR>
     Over 9 years of development (and still going) have formed a balance and refinement that only a handful of packs can keep up with. We are talking about thousands of recipe tweaks, a massive questbook with over 3000 quests, unique world generation, custom mods coded for the pack, custom Thaumonomicon pages, and many more.
     The main intentions of the pack are a long-lasting experience and tying mods together in a progressive fashion, making it feel more like a single game than a compilation of mods thrown together.<BR><BR>
     To reach this goal, GT New Horizons is using the tiers (basically ages of technology) from GregTech and allocates content of other mods to a fitting point within the progression.<BR><BR>
