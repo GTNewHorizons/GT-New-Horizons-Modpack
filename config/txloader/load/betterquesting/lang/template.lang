@@ -3923,7 +3923,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKPQ.desc=Above this, there are also UEV,
 
 # Quest: UHV Field Generator
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKQA.name=UHV Field Generator
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKQA.desc=I wonder if they're circles because they're basically just wrapped wire, there's certainly enough of it in there.%n%nBTW there's one tier higher than this, find it on the Endgame Goals tab, and start on your §kDeep Dark Portal§r. It's certainly very useful.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKQA.desc=I wonder if they're circles because they're basically just wrapped wire, there's certainly enough of it in there.
 
 # Quest: UHV Energy Hatch
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKRQ.name=UHV Energy Hatch
@@ -5615,7 +5615,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHvQ.desc=The Powered and Wireless Powere
 
 # Quest: What's Behind Door #3?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHvg.name=What's Behind Door #3?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHvg.desc=The Malisis door factory lets you go crazy with all kinds of ideas for custom doors.%n%nA player sensor is a nicer way of opening a door, instead of pushing a button or stepping on a plate...bit unforunate about the ingredients though. %n%nMaybe you can find a use for this block mixer, it's kinda weird and doesn't work right. I was going to throw it out anyways.%n%nThere are some craftable Malisis items as well, check them out in NEI.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHvg.desc=The Malisis Door Factory lets you go crazy with all kinds of ideas for custom doors.%n%nA Player Sensor is a nice way of opening a door. Better than pushing a button or stepping on a plate!%n%nMaybe you can find a use for this block mixer, it's kinda weird and doesn't work right.%n%nThere are some craftable Malisis items as well, check them out in NEI.
 
 # Quest: Build it Bigger
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHvw.name=Build it Bigger
@@ -6033,7 +6033,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACLA.desc=Kids, today we will make some g
 
 # Quest: Low-Pressure Boiler Tank
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACLw.name=§6§lLow-Pressure Boiler Tank
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACLw.desc=The low pressure boiler tank is the easiest way to make steam with an RC boiler. The firebox needs this tank on top to produce steam. The bigger the boiler the slower it heats up, but it will produce more steam when heated up.%n%nExtract steam by attaching a pipe to the boiler tank.%n%nKeep in mind that it consumes many times more fuel to heat up a boiler than to keep it at top temperature.%n%n[note]This variant is very useful for inconsistent operation. It has lower efficiency but heats up singificantly faster than the high pressure variant meaning the fuel will be used more efficiently at the beginning of the operation, the drawback is that this variant is 50%% as efficient as the high pressure one is at max temperature. If instead you want to have a constant high-throughput steam generation use high pressure variant instead.[/note]%n%n[warn]Actual fuel usage depends on the machine size and other factors such as machine temperature, if you want to know the actual number you will need to test it on your own setup.[/warn]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACLw.desc=The low pressure boiler tank is the easiest way to make steam with an RC boiler. The firebox needs this tank on top to produce steam. The bigger the boiler the slower it heats up, but it will produce more steam when heated up.%n%nExtract steam by attaching a pipe to the boiler tank.%n%n[note]This variant is very useful for inconsistent operation. It has lower efficiency but heats up singificantly faster than the high pressure variant meaning the fuel will be used more efficiently at the beginning of the operation, the drawback is that this variant is 50%% as efficient as the high pressure one is at max temperature. If instead you want to have a constant high-throughput steam generation use high pressure variant instead.[/note]%n%n[warn]Actual fuel usage depends on the machine size and other factors such as machine temperature, if you want to know the actual number you will need to test it on your own setup.[/warn]
 
 # Quest: Railcraft Steam Power
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACMA.name=§6§lRailcraft Steam Power
@@ -6045,7 +6045,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACMQ.desc=Cresosote oil into steam! After
 
 # Quest: High-Pressure Boiler Tank
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACMg.name=§6§lHigh-Pressure Boiler Tank
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACMg.desc=After you make steel you are able to craft a high pressure boiler tank. The upgraded version increases the temperature and produces more steam than the low pressure version. It will take longer to warm up, so make sure to keep it well fed!%n%nExtract steam by attaching a pipe to the boiler tank.%n%nKeep in mind that it consumes many times more fuel to heat up a boiler than to keep it at top temperature.%n%n[note]This is better than the low pressure variant only if you keep it working for very long time, if you intend to turn it on and off all the time this will waste a lot of resources! If you keep it at top temperature it will use ~2x more fuel than low pressure and will give ~4x more steam per sec making it 100%% more efficient! If you can't sustain the fuel drain or want a more flexible power source instead use the low pressure variant.[/note]%n%n[warn]Actual fuel usage depends on the machine size and other factors such as machine temperature, if you want to know the actual number you will need to test it on your own setup.[/warn]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACMg.desc=After you make steel you are able to craft a high pressure boiler tank. The upgraded version increases the temperature and produces more steam than the low pressure version. It will take longer to warm up, so make sure to keep it well fed!%n%nExtract steam by attaching a pipe to the boiler tank.%n%n[note]This is better than the low pressure variant only if you keep it working for very long time, if you intend to turn it on and off all the time this will waste a lot of resources! If you keep it at top temperature it will use ~2x more fuel than low pressure and will give ~4x more steam per sec making it 100%% more efficient! If you can't sustain the fuel drain or want a more flexible power source instead use the low pressure variant.[/note]%n%n[warn]Actual fuel usage depends on the machine size and other factors such as machine temperature, if you want to know the actual number you will need to test it on your own setup.[/warn]
 
 # Quest: Dynamite
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC_A.name=§6§lDynamite
@@ -6594,7 +6594,7 @@ betterquesting.quest.wGINqtSuSQKLI_Yk7hAdcA.desc=In HV, you now technically have
 
 # Quest: Pressure washing!
 betterquesting.quest.zorY0c3BQuqLJp7ThOLG-g.name=Pressure washing!
-betterquesting.quest.zorY0c3BQuqLJp7ThOLG-g.desc=If you have been processing the ores you have gathered up until now, you will have come across a variety of crushed ores. Since these are quite dirty, you will have to clean them up to get certain byproducts. But how do you clean up this multitude of crushed ores? By using a Steam Purifier, of course! With a steady flow of Steam and a bit of Water, you can wash away impurities and get Purified Crushed Ores in no time.%n%nIf you're tired of waiting forever for your ores to clean up, this is your fix!%n%n§3This Multiblock has two modes, the default Washer Mode and a Simple Washer Mode. Simple Washers process ores considerably faster, but they do not give byproducts. Like other Mmultiblocks, the mode can be toggled by the respective button inside the GUI or by right-clicking the Controller with a Screwdriver. Since all ore washing recipes are LV, this Multiblock can run all of them.
+betterquesting.quest.zorY0c3BQuqLJp7ThOLG-g.desc=If you have been processing the ores you have gathered up until now, you will have come across a variety of crushed ores. Since these are quite dirty, you will have to clean them up to get certain byproducts. But how do you clean up this multitude of crushed ores? By using a Steam Purifier, of course! With a steady flow of Steam and a bit of Water, you can wash away impurities and get Purified Crushed Ores in no time.%n%nIf you're tired of waiting forever for your ores to clean up, this is your fix!%n%n§3This Multiblock has two modes, the default Washer Mode and a Simple Washer Mode. Simple Washers process ores considerably faster, but they do not give byproducts. Like other Multiblocks, the mode can be toggled by the respective button inside the GUI or by right-clicking the Controller with a Screwdriver. Since all ore washing recipes are LV, this Multiblock can run all of them.
 
 
 ## Quest Line: How to Generate Power
@@ -6947,7 +6947,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKyg.desc=This produces power out of Rock
 
 # Quest: Deep Earth Heating Pump
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKzg.name=Deep Earth Heating Pump
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKzg.desc=This allows you to skip the Fluid Reactor part of a FR setup, by heating the coolant with geothermal energy.%n%nIt's basically free power, but so is using an everburn urn with the LHE, so whatever. This is insanely expensive, so keep that in mind!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKzg.desc=This allows you to skip the Fluid Reactor part of a FR setup, by heating the coolant with geothermal energy.%n%nIt's basically free power!
 
 # Quest: UHT Resistant Mesh
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL3g.name=UHT Resistant Mesh
@@ -8691,6 +8691,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKng.desc=If you do, they're now really g
 ## Quest Line: SFM and Computers
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAHw.name=SFM and Computers
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAHw.desc=SFM and OC have your back for assline automation! And automating other stuff too complex for AE2, like infusion or blood altars. You can do a lot of cool stuff with OC, feel free to give it a try.
+
+# Quest: It's everytime these Transistors
+betterquesting.quest.5mcwk7dYSBydA9KRHbW59A.name=It's everytime these Transistors
+betterquesting.quest.5mcwk7dYSBydA9KRHbW59A.desc=Hello fellow achievement hunter. %n%nLooking for the OC Transistor to get one out of all these achievements?%nLucky you, because now you can craft it and it's realy simple.%n%nJust put one of your first GT Transistors in your 2x2 crafting grid and be happy with it's result. Don't forget to change it back the same way.
 
 # Quest: Welcome to OpenComputers!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAG0Q.name=Welcome to OpenComputers!
