@@ -4698,8 +4698,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHDA.desc=Other magical flowers are possi
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHDQ.name=Stonelillies
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHDQ.desc=Stone lillies allow you to get dusts without having to look for granites, basalt, or marble. A great renewable way to get calcite, fluorine, or bulk aluminium (and a tiny bit of uranium).%n%nThese require the original block directly beneath them to grow properly.%n%nThere is also a Grey stonelilly for stone dust (who needs more of that??) and a Yellow stonelilly for sand or Endstone dust. Handy for the clever chemist!
 
-# Quest: Glowstone
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHDg.name=Glowstone
+# Quest: Growing some Glowstone
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHDg.name=Growing some Glowstone
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHDg.desc=There are a couple of different glowstone crops - glowflower, glowing earth coral, and glowshrooms. Nether wart is a great source of these.
 
 # Quest: Leaves of Steel
@@ -5573,8 +5573,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHsg.desc=Forge Microblocks can be really
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHsw.name=Fancy Lanterns
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHsw.desc=Bibliocraft offers fancy looking lanterns. Make the candles from candleberries or beeswax.
 
-# Quest: Glowstone
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHtA.name=Glowstone
+# Quest: Even small Glowstone shines bright
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHtA.name=Even small Glowstone shines bright
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHtA.desc=Now that you've been to the nether and gathered Glowstone, you can use that for light as well. You can color it to make the block color change (unfortunately 1.7.10 does not support colored lights) or you can use the Forge Microblocks saw to cut it up into tiny nooks to light up areas without taking up much space.%n%nThere are also various glowing plants you can find or breed, such as glowflowers.
 
 # Quest: Basic ProjectRed Illumination
@@ -10700,9 +10700,21 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpg.desc=Breed an industrious with a her
 betterquesting.quest.B0XRo_S1RveAsKZSXms9vg.name=Energium
 betterquesting.quest.B0XRo_S1RveAsKZSXms9vg.desc=Are you tired of making Energium Dust by mixing Ruby and Redstone Dust? This bee offers a way to acquire it directly - how convenient is that? To breed it, you'll need to place some Hot Coolant below the hive while inside a Boneyard found in the Nether.%n%nUnlike its parents, this bee won't burn down your base—but it will set you on fire if you're not wearing your apiarist suit!
 
+# Quest: Glowstone
+betterquesting.quest.NzynzD7HQrmEAf7BFd2A2w.name=Glowstone
+betterquesting.quest.NzynzD7HQrmEAf7BFd2A2w.desc=The Glowstone Princess isn't as picky as her peers. There are no breeding requirements besides the species being Gold and Redstone. Hooray!
+
+# Quest: Sunnarium
+betterquesting.quest.VoQgq6UvTZmo3tpUIZs4Rg.name=Sunnarium
+betterquesting.quest.VoQgq6UvTZmo3tpUIZs4Rg.desc=Not only does this bee produce more Glowstone than its parent species, but it's also capable of producing Sunnarium. However, this requires some technical progress: to breed this bee, you will need to place a Superconducting Coil Block beneath it.
+
 # Quest: Pyrotheum
 betterquesting.quest.YVlqGPZBS8qCkkHlu1BDpg.name=Pyrotheum
 betterquesting.quest.YVlqGPZBS8qCkkHlu1BDpg.desc=Blazing Pyrotheum is needed in large quantities to satisfy the unquenchable thirst of your Volcani. This Bee produces Pyrotheum Dust directly - all you need to do is fluid-extract it (after reaching this point in the breeding chain, of course).%n%nBreed these bees from Energy and Redstone Bees. They aren't picky about conditions, requiring only Hellish temperature. Yay!
+
+# Quest: Gold
+betterquesting.quest.jvKBzB6tRpCQGlnboQxSAA.name=Gold
+betterquesting.quest.jvKBzB6tRpCQGlnboQxSAA.desc=There are a plethora of ways to acquire gold, but here's one more for the dedicated apiarist. This breeding chain will eventually allow you to reach Sunnarium. You'll need a Block of Gold and a biome with a hot temperature. Breed them from Copper and Lead.
 
 # Quest: Essentia
 betterquesting.quest.noSgUClGTO6zMgENR9pwtw.name=Essentia
