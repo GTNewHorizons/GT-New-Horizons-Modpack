@@ -14,9 +14,17 @@ jobs:
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         script: |
-          github.rest.issues.removeLabel({
-            issue_number: context.issue.number,
-            owner: context.repo.owner,
-            repo: context.repo.repo,
-            name: 'Status: Stale'
-          })
+          const labelToRemove = 'Status: Stale';
+          const issueLabels = context.payload.issue.labels.map(label => label.name);
+
+          if (issueLabels.includes(labelToRemove)) {
+            console.log(`Removing label: ${labelToRemove}`);
+            github.rest.issues.removeLabel({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              name: 'Status: Stale'
+            });
+          } else {
+            console.log(`Label ${labelToRemove} is not present, skipping`);
+          }
