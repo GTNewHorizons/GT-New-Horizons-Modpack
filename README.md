@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version 2.7.0-beta-3 is out 2024-10-21
+Version 2.7.0-beta-4 is out 2024-11-18
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
