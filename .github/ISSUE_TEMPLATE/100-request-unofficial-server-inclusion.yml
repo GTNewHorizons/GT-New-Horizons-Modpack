@@ -1,7 +1,7 @@
 name: Request Unofficial Server Inclusion
 description: Request to include your server in the server.dat that ships with the pack.
 labels:
-- "Type: MP Game"
+- "Type: Unofficial Server"
 body:
 - type: input
   id: ip

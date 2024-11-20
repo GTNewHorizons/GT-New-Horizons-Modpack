@@ -1,0 +1,30 @@
+name: Remove stale label on comment
+
+on:
+  issue_comment:
+    types:
+    - created
+
+jobs:
+  stale_remover:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/github-script@v7
+      id: label-script
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        script: |
+          const labelToRemove = 'Status: Stale';
+          const issueLabels = context.payload.issue.labels.map(label => label.name);
+
+          if (issueLabels.includes(labelToRemove)) {
+            console.log(`Removing label: ${labelToRemove}`);
+            github.rest.issues.removeLabel({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              name: 'Status: Stale'
+            });
+          } else {
+            console.log(`Label ${labelToRemove} is not present, skipping`);
+          }

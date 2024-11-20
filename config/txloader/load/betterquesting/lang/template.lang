@@ -131,7 +131,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHQA.desc=If you happen to be near a snow
 
 # Quest: Loading the Chunks
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALOg.name=§1§lLoading the Chunks
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALOg.desc=Minecraft works in chunks - the 16x16 columns of blocks from bedrock to sky. The chunks in a radius around you are simulated or, in other words, chunkloaded. If a chunk is not loaded, nothing happens in it - crops don't grow, machines don't work. Thus, you want to have your base chunkloaded when you're off exploring. Later on, you want your base chunkloaded so things don't spontaneously blow up, especially multi-block machines.%n%nYou can chunkload in a few ways:%n%n1) The ServerUtilities mod. With default settings, you will not be able to chunkload. Feel free to change that in the config if you are in singleplayer (SP) or running your own server.%n%n2) Use four types of Anchors from Railcraft, although they are not craftable until the Low Voltage (LV) tier. In SP, or a server you run, cheat in Admin Anchors to chunkload forever, for free. They're limited on servers to prevent TPS dropping from people chunkloading a base forever when they aren't even there. On the officials, you need to use Ender Fragments, Ender Pearls, or Coins to fuel them. Look at the tooltip on each for how long it will work, and in what chunkloader.%n%n3) Use a Chunkloader from GT++. You'll need EU for it.%n%n4) Use one of the blocks that chunkloads itself. If you do this on a server, expect the admins to possibly get very mad at you if it's not something you're allowed to do. Same for vanilla methods.%n%nDon't use chicken chunks to get anchor-like blocks. It's buggy.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALOg.desc=Minecraft works in chunks - the 16x16 columns of blocks from bedrock to sky. The chunks in a radius around you are simulated or, in other words, chunkloaded. If a chunk is not loaded, nothing happens in it - crops don't grow, machines don't work. Thus, you want to have your base chunkloaded when you're off exploring. Later on, you want your base chunkloaded so things don't spontaneously blow up, especially multi-block machines.%n%nYou can chunkload in a few ways:%n%n1) The ServerUtilities mod. With default settings, you will not be able to chunkload. Feel free to change that in the config if you are in singleplayer (SP) or running your own server.%n%n2) Use four types of Anchors from Railcraft, although they are not craftable until the Low Voltage (LV) tier. In SP, or a server you run, cheat in Admin Anchors to chunkload forever, for free. They're limited on servers to prevent TPS dropping from people chunkloading a base forever when they aren't even there. On the officials, you need to use Ender Fragments, Ender Pearls, or Coins to fuel them. Look at the tooltip on each for how long it will work, and in what chunkloader.%n%n3) Use one of the blocks that chunkloads itself. If you do this on a server, expect the admins to possibly get very mad at you if it's not something you're allowed to do. Same for vanilla methods.%n%nDon't use chicken chunks to get anchor-like blocks. It's buggy.
 
 
 ## Quest Line: Tips and Tricks
@@ -830,7 +830,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALYA.desc=Are your upgraded cobblestone o
 
 # Quest: The one book to rule them all
 betterquesting.quest.XuZpnhWZRou46kensglZ6g.name=§3§lThe one book to rule them all
-betterquesting.quest.XuZpnhWZRou46kensglZ6g.desc=This Tome can store multiple documentation books from other mods. It will be empty when crafted, but you can add books by combining it with the desired book in a crafting grid.%n%nRight-clicking with the Tome in hand will open an interface showing all the added books; clicking on a book will transform the tome into the selected book. To revert it back to the Tome, left-click while sneaking and looking at any block.%n%nTo retrieve a stored book, transform the Tome into the desired book and throw it away while sneaking - this will drop the selected book and leave the tome in your inventory.%n%nI'll trade you your empty Tome for my Tome that already has my Tinkers and Food books in it, so you can see for yourself.%n%n[warn]The extended version of the Book of Biomes from Witchery is not compatible with this tome. %n%nAdditionally, you should not throw it through the Botania portal. The elves might steal your Tome and return only their own copy of the Lexica Botania.[/warn]
+betterquesting.quest.XuZpnhWZRou46kensglZ6g.desc=This Tome can store multiple documentation books from other mods. It will be empty when crafted, but you can add books by combining it with the desired book in a crafting grid.%n%nRight-clicking with the Tome in hand will open an interface showing all the added books; clicking on a book will transform the tome into the selected book. To revert it back to the Tome, left-click while sneaking and looking at any block.%n%nTo retrieve a stored book, transform the Tome into the desired book and throw it away while sneaking - this will drop the selected book and leave the tome in your inventory.%n%n[warn]Some warnings:%n%nThe extended version of the Book of Biomes from Witchery is not compatible with this tome. %n%nYou should not throw it through the Botania portal. The elves might steal your Tome and return only their own copy of the Lexica Botania.[/warn]
 
 
 ## Quest Line: Tier 1 - LV
@@ -1380,6 +1380,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALpw.desc=Mica is a very rare but useful 
 # Quest: Handle Resources Like a Bo$$ #2
 betterquesting.quest.JRrD8MoLRuCHCD-fFpeNvQ.name=§5§6§l§5§lHandle Resources Like a Bo$$ #2
 betterquesting.quest.JRrD8MoLRuCHCD-fFpeNvQ.desc=A peak of human engineering at your disposal!%n%nThis machine allows you to filter 9 items, and will only output set batches. This allows you to automate processes such as electrolyzing that require different amounts of inputs that may clog the system otherwise.%n%n[note]Is it time for some ore processing automation?[/note]%n[note]This will be immensely useful in MV once you unlock more electorlyzer recipes![/note]
+
+# Quest: Keeping things organized
+betterquesting.quest.b47jlBoHTFGGB3j7nq60Zw.name=§5§lKeeping things organized
+betterquesting.quest.b47jlBoHTFGGB3j7nq60Zw.desc=Are you tired of storing Shapes and/or Molds near your Extruders and Solidifiers instead of inside them? Today must be your lucky day, because these item holders let you do exactly that!%n%nThey allow your machines to hold a small number of extra items, though each slot can only store one item at a time. There are three versions of this cover, each offering a different amount of storage:%n%nBasic Item Holder: 9 slots%nGood Item Holder: 12 slots%nAdvanced Item Holder: 15 slots%n%n[note]If that's still not enough space and you are already using the highest tier, you can simply attach multiple holders to your machine of choice.[/note]
 
 
 ## Quest Line: Tier 2 - MV
@@ -3139,7 +3143,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAL_A.desc=Oxalate is really only useful f
 
 # Quest: Glowing Matter
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMBA.name=§b§lGlowing Matter
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMBA.desc=Another way to get Sunnarium! Just throw stacks of Glowing Coral and a tiny bit of UU-Matter in an autoclave and hope for the best.%n%nYou can either use an IC2 crop farm, or have any type of Glowstone farm and combine it with a GT++ Algae Farm.%n%nA farm for Glowing Coral or Glowstone should also help you mass produce other resources like Gold, Redstone, Mercury, etc.%n%n[note]The Large Processing Factory can speed things up, but is also rather expensive to make.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMBA.desc=Another way to get Sunnarium! Just throw stacks of Glowing Coral and a tiny bit of UU-Matter in an autoclave and hope for the best.%n%nYou can either use an IC2 crop farm, or have any type of Glowstone farm and combine it with a GT++ Algae Farm.%n%nA farm for Glowing Coral or Glowstone should also help you mass produce other resources like Gold, Redstone, Mercury, etc.%n%n[note]You may want to check out the Industrial Autoclave for speeding things up, but you will need to be in LuV to build one.[/note]
 
 # Quest: You Can't Be Cerious!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMBw.name=§b§lYou Can't Be Cerious!
@@ -3300,7 +3304,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGmA.desc=A new circuit line, a new board
 
 # Quest: LuV Laser Engraver
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGmQ.name=§9§a§c§lLuV Laser Engraver
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGmQ.desc=The LuV laser engraver is an important part of lategame circuit production. You need to make crystal CPU's for both the crystalprocessor series of circuits, and later on for the wetware series.%n%n[note]If you've made the LPF, you can just upgrade that instead.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGmQ.desc=The LuV laser engraver is an important part of lategame circuit production. You need to make crystal CPU's for both the crystalprocessor series of circuits, and later on for the wetware series.%n%n[note]If you've made the Hyper-Intensity Laser Engraver, you can just upgrade that instead.[/note]
 
 # Quest: Crystalprocessor Assembly
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGrA.name=§c§lCrystalprocessor Assembly
@@ -3613,7 +3617,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKbQ.desc=You'll need Neutronium for UV a
 
 # Quest: Data Bank
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKbw.name=Data Bank
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKbw.desc=By now you probably feel overwhelmed with the number of data sticks needed for your assembly line. TecTech has a solution for you: The Data Bank. It allows you to store more than just 16 data sticks and can be connected to multiple Assembling Lines at the same time.%n%nPlace the controller one block above the ground and use the Multiblock Structure Hologram Projector to see how it is built. You will need a Maintenance Hatch and at least an EV Energy Hatch, though the power requirements can be much higher if you use many Data Access Hatches and Data Bank Master Connectors, for now you should start with an LuV energy hatch. Trying to run the Data Bank and then scanning the controller will tell you how much eu/t is needed.%n%nYou will need more blocks than what is asked for in this quest, as the number of Data Access Hatches and Connectors is up to you. You can have a maximum of 15 combined.%n%nThe Assembly Line Slave Connector replaces your old Data Access Hatch on the Assembling Line. Connect it to a Master Connector on the Data Bank with Optical Fiber Cable and make sure to color the hatches and the cable.%n%n[note]If you can't figure out what blocks to place, pay attention to the tooltip in the bottom-left when using the Multiblock Structure Hologram Projector. In this case the filler blocks are Computer Casing.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKbw.desc=By now you probably feel overwhelmed with the number of data sticks needed for your assembly line. TecTech has a solution for you: The Data Bank. It allows you to store more than just 16 data sticks and can be connected to multiple Assembling Lines at the same time.%n%nPlace the controller one block above the ground and use the Multiblock Structure Hologram Projector to see how it is built. You will need a Maintenance Hatch and at least an EV Energy Hatch, though the power requirements can be much higher if you use many Data Access Hatches and Data Bank Master Connectors, for now you should start with an LuV energy hatch. Trying to run the Data Bank and then scanning the controller will tell you how much eu/t is needed.%n%nYou will need more blocks than what is asked for in this quest, as the number of Data Access Hatches and Connectors is up to you. You can have a maximum of 15 combined.%n%nThe Assembly Line Reception Connector replaces your old Data Access Hatch on the Assembling Line. Connect it to a Master Connector on the Data Bank with Optical Fiber Cable and make sure to color the hatches and the cable.%n%n[note]If you can't figure out what blocks to place, pay attention to the tooltip in the bottom-left when using the Multiblock Structure Hologram Projector. In this case the filler blocks are Computer Casing.[/note]
 
 # Quest: Paint-by-Numbers
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKdg.name=Paint-by-Numbers
@@ -3645,7 +3649,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALgQ.desc=Now, let's neutralize the solut
 
 # Quest: Recycle Trinium
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALgg.name=Recycle Trinium
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALgg.desc=You can get the Trinium dust by reacting it with Hydrogen in LCR or from electrolysis.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALgg.desc=You can get the Trinium dust by reacting it with Hydrogen in an LCR.
 
 # Quest: Linear Accelerator
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALgw.name=Linear Accelerator
@@ -3718,7 +3722,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAH1w.desc=The Quantum Computer (QC) is an
 
 # Quest: Research Station
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH2A.name=Research Station
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH2A.desc=Now that you've started building up your precious Quantum Computer, how about the Research Station? Once again, using the Multiblock Structure Hologram Projector will tell you how to build this Multiblock. There should be 3 empty blocks beneath it so you can see the whole blueprint. Once it is nearly assembled, place down an Energy Hatch, an Optical Slave Connector, and a Maintenance Hatch all on the back side.%n%nOnce fully assembled, you can begin operating recipes at any time, so long as the Quantum Computer is also active and connected. The Research Station requires you to put the item to research within the Object Holder, then a data stick in the Multiblock interface. Once the Computation is fully completed, the data stick that houses all the data of the completed item will be inside the Multiblock Interface.%n%nStill confused? Good, that's the spirit of learning! Always make sure to test these things in creative single player if you wish to find exact measurements and such. Don't forget to ALWAYS COLOR THE OPTICAL HATCHES AND FIBERS!%n%n[note]Note that some researches require a significant amount of amps, so keep that in mind.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH2A.desc=Now that you've started building up your precious Quantum Computer, how about the Research Station? Once again, using the Multiblock Structure Hologram Projector will tell you how to build this Multiblock. There should be 3 empty blocks beneath it so you can see the whole blueprint. Once it is nearly assembled, place down an Energy Hatch, an Optical Reception Connector, and a Maintenance Hatch all on the back side.%n%nOnce fully assembled, you can begin operating recipes at any time, so long as the Quantum Computer is also active and connected. The Research Station requires you to put the item to research within the Object Holder, then a data stick in the Multiblock interface. Once the Computation is fully completed, the data stick that houses all the data of the completed item will be inside the Multiblock Interface.%n%nStill confused? Good, that's the spirit of learning! Always make sure to test these things in creative single player if you wish to find exact measurements and such. Don't forget to ALWAYS COLOR THE OPTICAL HATCHES AND FIBERS!%n%n[note]Note that some researches require a significant amount of amps, so keep that in mind.[/note]
 
 # Quest: Maintenance Free At Last!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHMA.name=Maintenance Free At Last!
@@ -3919,7 +3923,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKPQ.desc=Above this, there are also UEV,
 
 # Quest: UHV Field Generator
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKQA.name=UHV Field Generator
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKQA.desc=I wonder if they're circles because they're basically just wrapped wire, there's certainly enough of it in there.%n%nBTW there's one tier higher than this, find it on the Endgame Goals tab, and start on your §kDeep Dark Portal§r. It's certainly very useful.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKQA.desc=I wonder if they're circles because they're basically just wrapped wire, there's certainly enough of it in there.
 
 # Quest: UHV Energy Hatch
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKRQ.name=UHV Energy Hatch
@@ -4060,7 +4064,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKFw.desc=Good luck with this one, it is 
 
 # Quest: Hypogen
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKGA.name=Hypogen
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKGA.desc=Here it is, the most high tier GT++ material. You will need UIV to process it. So for now that means you can only solidify it in a large processing factory from GT++.%n%n[note]With your first ingot obtained, you can turn to the DTPF to make more. I think that recipe should be a lot better than the MK4 reactor.[/note]%n%n[note]You can also have this cake as a reward for coming this far.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKGA.desc=Here it is, the most high tier GT++ material. You will need UIV to process it. Your Fluid Shaper will do that job just fine for you.%n%n[note]With your first ingot obtained, you can turn to the DTPF to make more. I think that recipe should be a lot better than the MK4 reactor.[/note]%n%n[note]You can also have this cake as a reward for coming this far.[/note]
 
 # Quest: Well This Looks... Shiny?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKHA.name=Well This Looks... Shiny?
@@ -4272,8 +4276,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJbQ.desc=In order to get to the riches y
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMoQ.name=You are worthy
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMoQ.desc=Go no further if you value your sanity.
 
-# Quest: Not quite there yet.
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqw.name=Not quite there yet.
+# Quest: Not quite there yet
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqw.name=Not quite there yet
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqw.desc=Just a bit more.
 
 # Quest: UXV Circuits
@@ -4646,9 +4650,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRw.desc=Once you get some large fields,
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGyQ.name=More Red, Less Wheat
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGyQ.desc=When breeding together crops for an output crop, try to get crops that are close in tier to the output crop, and have similar attributes to the output crop. %n%nFor example, Redwheat has "Red", "Wheat" and "Redstone" attributes and is tier 6. Netherwart has "Red" and is tier 5. Use the cropnalyzer crop prediction mode to see how many points Redwheat has using two Netherwart. %n%nYou'll also want to make sure the light level is between 5-10 for this particular cross breeding to occur. Honestly, it's the worst, condition-wise.%n%nReally though, once you get to MV it's better to make a Glowstone crop and centrifuge it for redstone. Or a redstone block crop. Or just mine it, honestly. Red wheat == Dead wheat.
 
-# Quest: Better(?) Dirt
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHAQ.name=Better(?) Dirt
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHAQ.desc=With an Assembler and some seedoil, you can turn dirt and sand into Garden Soil.  This optimal soil does not require water nearby and crops do not break when you fall on it.  It can turn into dirt if you run on it, so be careful.%n%nUnlike watered farmland, it doesn't contribute to the humidity stat or speed up IC2 crops though, so don't bother when min-maxing.%n%nSame thing for enchanted earth, lamp of growth, sprinklers, etc.
+# Quest: Turning Dirt into proper Soil
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHAQ.name=Turning Dirt into proper Soil
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHAQ.desc=With an Assembler and some Seed Oil, you can turn Dirt and Sand into Garden Soil. This optimal Soil does not require nearby water, and Crops won't break when you fall on or run near it.%n%nHowever, unlike watered Farmland, it doesn’t contribute to the humidity stat or speed up IC2 crops, so it’s not useful for min-maxing.%n%nThe same goes for Enchanted Earth, the Lamp of Growth, Sprinklers, etc.
 
 # Quest: Crop Stats
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHAg.name=Crop Stats
@@ -4694,8 +4698,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHDA.desc=Other magical flowers are possi
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHDQ.name=Stonelillies
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHDQ.desc=Stone lillies allow you to get dusts without having to look for granites, basalt, or marble. A great renewable way to get calcite, fluorine, or bulk aluminium (and a tiny bit of uranium).%n%nThese require the original block directly beneath them to grow properly.%n%nThere is also a Grey stonelilly for stone dust (who needs more of that??) and a Yellow stonelilly for sand or Endstone dust. Handy for the clever chemist!
 
-# Quest: Glowstone
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHDg.name=Glowstone
+# Quest: Growing some Glowstone
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHDg.name=Growing some Glowstone
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHDg.desc=There are a couple of different glowstone crops - glowflower, glowing earth coral, and glowshrooms. Nether wart is a great source of these.
 
 # Quest: Leaves of Steel
@@ -5569,8 +5573,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHsg.desc=Forge Microblocks can be really
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHsw.name=Fancy Lanterns
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHsw.desc=Bibliocraft offers fancy looking lanterns. Make the candles from candleberries or beeswax.
 
-# Quest: Glowstone
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHtA.name=Glowstone
+# Quest: Even small Glowstone shines bright
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHtA.name=Even small Glowstone shines bright
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHtA.desc=Now that you've been to the nether and gathered Glowstone, you can use that for light as well. You can color it to make the block color change (unfortunately 1.7.10 does not support colored lights) or you can use the Forge Microblocks saw to cut it up into tiny nooks to light up areas without taking up much space.%n%nThere are also various glowing plants you can find or breed, such as glowflowers.
 
 # Quest: Basic ProjectRed Illumination
@@ -5611,7 +5615,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHvQ.desc=The Powered and Wireless Powere
 
 # Quest: What's Behind Door #3?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHvg.name=What's Behind Door #3?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHvg.desc=The Malisis door factory lets you go crazy with all kinds of ideas for custom doors.%n%nA player sensor is a nicer way of opening a door, instead of pushing a button or stepping on a plate...bit unforunate about the ingredients though. %n%nMaybe you can find a use for this block mixer, it's kinda weird and doesn't work right. I was going to throw it out anyways.%n%nThere are some craftable Malisis items as well, check them out in NEI.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHvg.desc=The Malisis Door Factory lets you go crazy with all kinds of ideas for custom doors.%n%nA Player Sensor is a nice way of opening a door. Better than pushing a button or stepping on a plate!%n%nMaybe you can find a use for this block mixer, it's kinda weird and doesn't work right.%n%nThere are some craftable Malisis items as well, check them out in NEI.
 
 # Quest: Build it Bigger
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHvw.name=Build it Bigger
@@ -6029,7 +6033,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACLA.desc=Kids, today we will make some g
 
 # Quest: Low-Pressure Boiler Tank
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACLw.name=§6§lLow-Pressure Boiler Tank
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACLw.desc=The low pressure boiler tank is the easiest way to make steam with an RC boiler. The firebox needs this tank on top to produce steam. The bigger the boiler the slower it heats up, but it will produce more steam when heated up.%n%nExtract steam by attaching a pipe to the boiler tank.%n%nKeep in mind that it consumes many times more fuel to heat up a boiler than to keep it at top temperature.%n%n[note]This variant is very useful for inconsistent operation. It has lower efficiency but heats up singificantly faster than the high pressure variant meaning the fuel will be used more efficiently at the beginning of the operation, the drawback is that this variant is 50%% as efficient as the high pressure one is at max temperature. If instead you want to have a constant high-throughput steam generation use high pressure variant instead.[/note]%n%n[warn]Actual fuel usage depends on the machine size and other factors such as machine temperature, if you want to know the actual number you will need to test it on your own setup.[/warn]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACLw.desc=The low pressure boiler tank is the easiest way to make steam with an RC boiler. The firebox needs this tank on top to produce steam. The bigger the boiler the slower it heats up, but it will produce more steam when heated up.%n%nExtract steam by attaching a pipe to the boiler tank.%n%n[note]This variant is very useful for inconsistent operation. It has lower efficiency but heats up singificantly faster than the high pressure variant meaning the fuel will be used more efficiently at the beginning of the operation, the drawback is that this variant is 50%% as efficient as the high pressure one is at max temperature. If instead you want to have a constant high-throughput steam generation use high pressure variant instead.[/note]%n%n[warn]Actual fuel usage depends on the machine size and other factors such as machine temperature, if you want to know the actual number you will need to test it on your own setup.[/warn]
 
 # Quest: Railcraft Steam Power
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACMA.name=§6§lRailcraft Steam Power
@@ -6041,7 +6045,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACMQ.desc=Cresosote oil into steam! After
 
 # Quest: High-Pressure Boiler Tank
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACMg.name=§6§lHigh-Pressure Boiler Tank
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACMg.desc=After you make steel you are able to craft a high pressure boiler tank. The upgraded version increases the temperature and produces more steam than the low pressure version. It will take longer to warm up, so make sure to keep it well fed!%n%nExtract steam by attaching a pipe to the boiler tank.%n%nKeep in mind that it consumes many times more fuel to heat up a boiler than to keep it at top temperature.%n%n[note]This is better than the low pressure variant only if you keep it working for very long time, if you intend to turn it on and off all the time this will waste a lot of resources! If you keep it at top temperature it will use ~2x more fuel than low pressure and will give ~4x more steam per sec making it 100%% more efficient! If you can't sustain the fuel drain or want a more flexible power source instead use the low pressure variant.[/note]%n%n[warn]Actual fuel usage depends on the machine size and other factors such as machine temperature, if you want to know the actual number you will need to test it on your own setup.[/warn]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACMg.desc=After you make steel you are able to craft a high pressure boiler tank. The upgraded version increases the temperature and produces more steam than the low pressure version. It will take longer to warm up, so make sure to keep it well fed!%n%nExtract steam by attaching a pipe to the boiler tank.%n%n[note]This is better than the low pressure variant only if you keep it working for very long time, if you intend to turn it on and off all the time this will waste a lot of resources! If you keep it at top temperature it will use ~2x more fuel than low pressure and will give ~4x more steam per sec making it 100%% more efficient! If you can't sustain the fuel drain or want a more flexible power source instead use the low pressure variant.[/note]%n%n[warn]Actual fuel usage depends on the machine size and other factors such as machine temperature, if you want to know the actual number you will need to test it on your own setup.[/warn]
 
 # Quest: Dynamite
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC_A.name=§6§lDynamite
@@ -6432,8 +6436,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAH8g.desc=Need lots of oxygen or hydrogen
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH8w.name=Frozen Stiff
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH8w.desc=I'm so cold... You'll need a constant supply of Cryotheum to use it.
 
-# Quest: Forge of the Gods
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9A.name=Forge of the Gods
+# Quest: Hephaestus' EBF
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9A.name=Hephaestus' EBF
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9A.desc=The Volcanus Advanced EBF will process items faster than you can believe. You'll need a constant supply of Pyrotheum to use it. And coils.%n%n[note]This multi is IV, but uses 2 ZPM circuits.[/note]
 
 # Quest: Spools and spools
@@ -6518,7 +6522,7 @@ betterquesting.quest.RFgYQ7LAQD-p1gHMaeg5Sg.desc=Upon reaching the land of IV ma
 
 # Quest: See You Lather
 betterquesting.quest.VJN1qfd5SjCkm7CXVd9Pag.name=See You Lather
-betterquesting.quest.VJN1qfd5SjCkm7CXVd9Pag.desc=Just in time for the huge number of crystal rods you'll need to get your Applied Energistics system up and running, the Industrial Precision Lathe!%n%n[note]This multiblock scales based on item pipe casings, but the minimum allowed tier is platinum.[/note]
+betterquesting.quest.VJN1qfd5SjCkm7CXVd9Pag.desc=Just in time for the huge number of crystal rods you'll need to get your Applied Energistics system up and running, the Industrial Precision Lathe!%n%nThe number of recipes that can be processed in parallel by the IPL depends on the item pipe casing and the voltage tier:%nParallel = Item Pipe Casing Parallel + 2 * Voltage Tier, where LV is 1.%n%nAdditionally, it gains a speed boost on all recipes according to this formula:%nSpeed Boost = (Item Pipe Casing Speed Factor + Voltage Tier) / 4%nOr equivalently, the recipe time is multiplied by a factor of 4 / (Item Pipe Casing Factor + Voltage Tier).%n[note]Note that this can actually make the processing speed [warn]slower[/warn] if you use low tier item pipe casing and voltage.[/note]%n%nThe parallel and speed factor of the item casing is listed below:%nTin: 1 Parallel, 0.75 Speed Factor%nBrass: 1 Parallel, 0.8 Speed Factor%nElectrum: 2 Parallel, 0.9 Speed Factor%nPlatinum: 4 Parallel, 1 Speed Factor%nOsmium: 8 Parallel, 1.5 Speed Factor%nQuantium: 12 Parallel, 2 Speed Factor%nFluxed Electrum: 16 Parallel, 3 Speed Factor%nBlack Plutonium: 32 Parallel, 4 Speed Factor
 
 # Quest: Steam Blender?
 betterquesting.quest.WEwrzX4ZRkSxJ3M6cBesfA.name=Steam Blender?
@@ -6590,7 +6594,7 @@ betterquesting.quest.wGINqtSuSQKLI_Yk7hAdcA.desc=In HV, you now technically have
 
 # Quest: Pressure washing!
 betterquesting.quest.zorY0c3BQuqLJp7ThOLG-g.name=Pressure washing!
-betterquesting.quest.zorY0c3BQuqLJp7ThOLG-g.desc=If you have been processing the ores you have gathered up until now, you will have come across a variety of crushed ores. Since these are quite dirty, you will have to clean them up to get certain byproducts. But how do you clean up this multitude of crushed ores? By using a Steam Purifier, of course! With a steady flow of Steam and a bit of Water, you can wash away impurities and get Purified Crushed Ores in no time.%n%nIf you're tired of waiting forever for your ores to clean up, this is your fix!%n%n§3This Multiblock has two modes, the default Washer Mode and a Simple Washer Mode. Simple Washers process ores considerably faster, but they do not give byproducts. Like other Mmultiblocks, the mode can be toggled by the respective button inside the GUI or by right-clicking the Controller with a Screwdriver. Since all ore washing recipes are LV, this Multiblock can run all of them.
+betterquesting.quest.zorY0c3BQuqLJp7ThOLG-g.desc=If you have been processing the ores you have gathered up until now, you will have come across a variety of crushed ores. Since these are quite dirty, you will have to clean them up to get certain byproducts. But how do you clean up this multitude of crushed ores? By using a Steam Purifier, of course! With a steady flow of Steam and a bit of Water, you can wash away impurities and get Purified Crushed Ores in no time.%n%nIf you're tired of waiting forever for your ores to clean up, this is your fix!%n%n§3This Multiblock has two modes, the default Washer Mode and a Simple Washer Mode. Simple Washers process ores considerably faster, but they do not give byproducts. Like other Multiblocks, the mode can be toggled by the respective button inside the GUI or by right-clicking the Controller with a Screwdriver. Since all ore washing recipes are LV, this Multiblock can run all of them.
 
 
 ## Quest Line: How to Generate Power
@@ -6943,7 +6947,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKyg.desc=This produces power out of Rock
 
 # Quest: Deep Earth Heating Pump
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKzg.name=Deep Earth Heating Pump
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKzg.desc=This allows you to skip the Fluid Reactor part of a FR setup, by heating the coolant with geothermal energy.%n%nIt's basically free power, but so is using an everburn urn with the LHE, so whatever. This is insanely expensive, so keep that in mind!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKzg.desc=This allows you to skip the Fluid Reactor part of a FR setup, by heating the coolant with geothermal energy.%n%nIt's basically free power!
 
 # Quest: UHT Resistant Mesh
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL3g.name=UHT Resistant Mesh
@@ -8688,6 +8692,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKng.desc=If you do, they're now really g
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAHw.name=SFM and Computers
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAHw.desc=SFM and OC have your back for assline automation! And automating other stuff too complex for AE2, like infusion or blood altars. You can do a lot of cool stuff with OC, feel free to give it a try.
 
+# Quest: It's everytime these Transistors
+betterquesting.quest.5mcwk7dYSBydA9KRHbW59A.name=It's everytime these Transistors
+betterquesting.quest.5mcwk7dYSBydA9KRHbW59A.desc=Hello fellow achievement hunter. %n%nLooking for the OC Transistor to get one out of all these achievements?%nLucky you, because now you can craft it and it's realy simple.%n%nJust put one of your first GT Transistors in your 2x2 crafting grid and be happy with it's result. Don't forget to change it back the same way.
+
 # Quest: Welcome to OpenComputers!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAG0Q.name=Welcome to OpenComputers!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAG0Q.desc=Hello there, my name is Teirdalin and today we shall embark on one of the most exciting and fun mods; OpenComputers! First things first though, you will need some patience to get through this mod, but it will certainly pay off in the end!
@@ -9040,7 +9048,7 @@ betterquesting.quest.1FFkSYHcQPO_6U185CKBiw.desc=With the ability to bend spacet
 
 # Quest: Cribs
 betterquesting.quest.4pCol8RvR3G0pS2zVqpY1Q.name=Cribs
-betterquesting.quest.4pCol8RvR3G0pS2zVqpY1Q.desc=As your researches for Applied Greg continued, you found a way to combine ME interface's pattern processing ability with input busses, §lcrafting input busses§r! Now, you can directly place patterns into input bus. However, input busses lacked sufficient item space and computational power to process items coming from your ME network. Thus, you added additional storage and circuits.%n%nYou can even place non-consumable items like lenses, molds inside!! However, consumable items won't do anything.%n%nBut, still you lack enough technology to process fluids, they are just not good for electronics.%n%nCrafting input bus is fully isolated from other busses/hatches, so you may have to change your patterns.%n%n[warn]Crafting input slave[/warn] will let you wallshare multiblocks without actually wallsharing them. §lUV-Tier§r%n%n[warn]Crafting input buffer[/warn] will be §9§owaterproof§r. §lUIV-Tier§r
+betterquesting.quest.4pCol8RvR3G0pS2zVqpY1Q.desc=As your researches for Applied Greg continued, you found a way to combine ME interface's pattern processing ability with input busses, §lcrafting input busses§r! Now, you can directly place patterns into input bus. However, input busses lacked sufficient item space and computational power to process items coming from your ME network. Thus, you added additional storage and circuits.%n%nYou can even place non-consumable items like lenses, molds inside!! However, consumable items won't do anything.%n%nBut, still you lack enough technology to process fluids, they are just not good for electronics.%n%nCrafting input bus is fully isolated from other busses/hatches, so you may have to change your patterns.%n%n[warn]Crafting input proxy[/warn] will let you wallshare multiblocks without actually wallsharing them. §lUV-Tier§r%n%n[warn]Crafting input buffer[/warn] will be §9§owaterproof§r. §lUIV-Tier§r
 
 # Quest: Need More Information?
 betterquesting.quest.5ObFHI5BQ5Oxv0yca7morA.name=Need More Information?
@@ -9678,9 +9686,9 @@ betterquesting.quest._bEWg1FHSmKu9MNhlbDlwA.desc=Allows for parallelization of a
 betterquesting.quest.auchuNiGTH6NWh_cz8XxcQ.name=Housing for Advanced Fluid Components
 betterquesting.quest.auchuNiGTH6NWh_cz8XxcQ.desc=You need to use this for the higher-tiered Fluid Cells.
 
-# Quest: Slavery is Bad
-betterquesting.quest.cEFNSTdoRvysoNgmtDLdvg.name=Slavery is Bad
-betterquesting.quest.cEFNSTdoRvysoNgmtDLdvg.desc=You have mastered both interdimensional transportation and wallsharing, why not combine them? %n%nYou can link both crafting input bus/buffer to slaves with data sticks and use it to process patterns with multiple machines, as if you are wallsharing them, but without actually wallsharing them.%n%n[note]Maybe this can reduce lag?[/note]
+# Quest: Crafting Input Proxy
+betterquesting.quest.cEFNSTdoRvysoNgmtDLdvg.name=Crafting Input Proxy
+betterquesting.quest.cEFNSTdoRvysoNgmtDLdvg.desc=You have mastered both interdimensional transportation and wallsharing, why not combine them? %n%nYou can link both crafting input bus/buffer to proxies with data sticks and use it to process patterns with multiple machines, as if you are wallsharing them, but without actually wallsharing them.%n%n[note]Maybe this can reduce lag?[/note]
 
 # Quest: 16384k Essentia Storage Cell
 betterquesting.quest.iwN50p7pSyyCHDkM-O-D7w.name=16384k Essentia Storage Cell
@@ -10692,9 +10700,21 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpg.desc=Breed an industrious with a her
 betterquesting.quest.B0XRo_S1RveAsKZSXms9vg.name=Energium
 betterquesting.quest.B0XRo_S1RveAsKZSXms9vg.desc=Are you tired of making Energium Dust by mixing Ruby and Redstone Dust? This bee offers a way to acquire it directly - how convenient is that? To breed it, you'll need to place some Hot Coolant below the hive while inside a Boneyard found in the Nether.%n%nUnlike its parents, this bee won't burn down your base—but it will set you on fire if you're not wearing your apiarist suit!
 
+# Quest: Glowstone
+betterquesting.quest.NzynzD7HQrmEAf7BFd2A2w.name=Glowstone
+betterquesting.quest.NzynzD7HQrmEAf7BFd2A2w.desc=The Glowstone Princess isn't as picky as her peers. There are no breeding requirements besides the species being Gold and Redstone. Hooray!
+
+# Quest: Sunnarium
+betterquesting.quest.VoQgq6UvTZmo3tpUIZs4Rg.name=Sunnarium
+betterquesting.quest.VoQgq6UvTZmo3tpUIZs4Rg.desc=Not only does this bee produce more Glowstone than its parent species, but it's also capable of producing Sunnarium. However, this requires some technical progress: to breed this bee, you will need to place a Superconducting Coil Block beneath it.
+
 # Quest: Pyrotheum
 betterquesting.quest.YVlqGPZBS8qCkkHlu1BDpg.name=Pyrotheum
 betterquesting.quest.YVlqGPZBS8qCkkHlu1BDpg.desc=Blazing Pyrotheum is needed in large quantities to satisfy the unquenchable thirst of your Volcani. This Bee produces Pyrotheum Dust directly - all you need to do is fluid-extract it (after reaching this point in the breeding chain, of course).%n%nBreed these bees from Energy and Redstone Bees. They aren't picky about conditions, requiring only Hellish temperature. Yay!
+
+# Quest: Gold
+betterquesting.quest.jvKBzB6tRpCQGlnboQxSAA.name=Gold
+betterquesting.quest.jvKBzB6tRpCQGlnboQxSAA.desc=There are a plethora of ways to acquire gold, but here's one more for the dedicated apiarist. This breeding chain will eventually allow you to reach Sunnarium. You'll need a Block of Gold and a biome with a hot temperature. Breed them from Copper and Lead.
 
 # Quest: Essentia
 betterquesting.quest.noSgUClGTO6zMgENR9pwtw.name=Essentia
@@ -14148,7 +14168,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKqw.desc=Active Transformers will transf
 
 # Quest: Dyson Swarm Ground Unit
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL3w.name=Dyson Swarm Ground Unit
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL3w.desc=The Dyson Swarm Ground Unit multiblock is basically a solar panel, you just insert Dyson Swarm Modules (how many depends on how much energy you want) and get energy out. There are some complications though:%n- Each hour, n of m modules are destroyed according to this formula: n = m (2 * 0.066) / (exp(-0.00005 * (m - 1))+exp(0.00003 * cps)), where cps is computation per second,%n- Needs 3.6M L/h of Gelid Cryotheum.%n- Up to 10,000 modules can be inserted into a single Dyson Swarm.%n- Dyson Swarm can only accept up to 100k computation.%n%n[note]Note: TecTech's Multi-Amp Dynamo Hatches and Laser Source Hatches are supported.[/note]%n%nThe amount of each part on the right is only the minimum, depending on how many Dynamo Hatches, Input Busses, Input Hatches and Optical Slave Connectors you use, you may need more Energy Receiver Base Casings, Module Deployment Unit Base Casings or Control Center Base Casings.%n%n[warn]This machine will explode if Dynamo buffer is full![/warn]%n%nFun fact: The maximum output is 337B EU/t (limited by 10,000 Modules and the 3.37x dimension bonus of Horus)%n%n(If you don't want to calculate how many modules you need per hour, the number is 64 for max stats)
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL3w.desc=The Dyson Swarm Ground Unit multiblock is basically a solar panel, you just insert Dyson Swarm Modules (how many depends on how much energy you want) and get energy out. There are some complications though:%n- Each hour, n of m modules are destroyed according to this formula: n = m (2 * 0.066) / (exp(-0.00005 * (m - 1))+exp(0.00003 * cps)), where cps is computation per second,%n- Needs 3.6M L/h of Gelid Cryotheum.%n- Up to 10,000 modules can be inserted into a single Dyson Swarm.%n- Dyson Swarm can only accept up to 100k computation.%n%n[note]Note: TecTech's Multi-Amp Dynamo Hatches and Laser Source Hatches are supported.[/note]%n%nThe amount of each part on the right is only the minimum, depending on how many Dynamo Hatches, Input Busses, Input Hatches and Optical Reception Connectors you use, you may need more Energy Receiver Base Casings, Module Deployment Unit Base Casings or Control Center Base Casings.%n%n[warn]This machine will explode if Dynamo buffer is full![/warn]%n%nFun fact: The maximum output is 337B EU/t (limited by 10,000 Modules and the 3.37x dimension bonus of Horus)%n%n(If you don't want to calculate how many modules you need per hour, the number is 64 for max stats)
 
 # Quest: Where Do I Build the Dyson Swarm?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL4A.name=Where Do I Build the Dyson Swarm?

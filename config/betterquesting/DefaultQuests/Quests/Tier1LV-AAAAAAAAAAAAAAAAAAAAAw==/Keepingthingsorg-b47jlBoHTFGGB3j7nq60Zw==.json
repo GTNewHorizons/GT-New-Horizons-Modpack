@@ -1,23 +1,23 @@
 {
-  "questIDHigh:4": 0,
+  "questIDHigh:4": 8038612610134264913,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 213
+      "questIDLow:4": 97
     }
   },
-  "questIDLow:4": 3076,
+  "questIDLow:4": -8788923125695859609,
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
+      "taskLogic:8": "OR",
       "visibility:8": "NORMAL",
       "isMain:1": 0,
       "simultaneous:1": 0,
       "icon:10": {
-        "id:8": "BiomesOPlenty:coral1",
+        "id:8": "gregtech:gt.metaitem.01",
         "Count:3": 1,
-        "Damage:2": 15,
+        "Damage:2": 32380,
         "OreDict:8": ""
       },
       "snd_update:8": "random.levelup",
@@ -25,11 +25,11 @@
       "globalShare:1": 0,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "§b§lGlowing Matter",
+      "name:8": "§5§lKeeping things organized",
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Another way to get Sunnarium! Just throw stacks of Glowing Coral and a tiny bit of UU-Matter in an autoclave and hope for the best.\n\nYou can either use an IC2 crop farm, or have any type of Glowstone farm and combine it with a GT++ Algae Farm.\n\nA farm for Glowing Coral or Glowstone should also help you mass produce other resources like Gold, Redstone, Mercury, etc.\n\n[note]You may want to check out the Industrial Autoclave for speeding things up, but you will need to be in LuV to build one.[/note]"
+      "desc:8": "Are you tired of storing Shapes and/or Molds near your Extruders and Solidifiers instead of inside them? Today must be your lucky day, because these item holders let you do exactly that!\n\nThey allow your machines to hold a small number of extra items, though each slot can only store one item at a time. There are three versions of this cover, each offering a different amount of storage:\n\nBasic Item Holder: 9 slots\nGood Item Holder: 12 slots\nAdvanced Item Holder: 15 slots\n\n[note]If that\u0027s still not enough space and you are already using the highest tier, you can simply attach multiple holders to your machine of choice.[/note]"
     }
   },
   "tasks:9": {
@@ -42,9 +42,9 @@
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "BiomesOPlenty:coral1",
-          "Count:3": 32,
-          "Damage:2": 15,
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 1,
+          "Damage:2": 32380,
           "OreDict:8": ""
         }
       },
@@ -59,13 +59,13 @@
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "IC2:itemCellEmpty",
+          "id:8": "gregtech:gt.metaitem.01",
           "Count:3": 1,
-          "Damage:2": 3,
+          "Damage:2": 32381,
           "OreDict:8": ""
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     },
     "2:10": {
       "partialMatch:1": 1,
@@ -77,8 +77,8 @@
       "requiredItems:9": {
         "0:10": {
           "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 4,
-          "Damage:2": 2318,
+          "Count:3": 1,
+          "Damage:2": 32382,
           "OreDict:8": ""
         }
       },
@@ -87,19 +87,13 @@
   },
   "rewards:9": {
     "0:10": {
-      "rewardID:8": "bq_standard:choice",
+      "rewardID:8": "bq_standard:item",
       "index:3": 0,
-      "choices:9": {
+      "rewards:9": {
         "0:10": {
-          "id:8": "AdvancedSolarPanel:asp_crafting_items",
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "1:10": {
           "id:8": "enhancedlootbags:lootbag",
           "Count:3": 1,
-          "Damage:2": 8,
+          "Damage:2": 4,
           "OreDict:8": ""
         }
       }
@@ -109,8 +103,8 @@
       "index:3": 1,
       "rewards:9": {
         "0:10": {
-          "id:8": "dreamcraft:item.CoinTechnicianII",
-          "Count:3": 2,
+          "id:8": "dreamcraft:item.CoinTechnician",
+          "Count:3": 15,
           "Damage:2": 0,
           "OreDict:8": ""
         }
