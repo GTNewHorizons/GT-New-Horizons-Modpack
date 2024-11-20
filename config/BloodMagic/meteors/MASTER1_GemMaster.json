@@ -55,7 +55,7 @@
   ],
   "radius": 32,
   "cost": 90000000,
-  "focusModId": "EMT",
-  "focusName": "EMT_GTBLOCK_CASEING",
+  "focusModId": "kubatech",
+  "focusName": "defc.casing",
   "focusMeta": 8
 }
