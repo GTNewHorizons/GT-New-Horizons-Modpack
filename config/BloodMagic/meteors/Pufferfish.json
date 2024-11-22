@@ -1,17 +1,11 @@
 {
   "ores": [
-	"oreBasaltSalt",
-    "75",
-	"oreBasaltRockSalt",
-    "75",
-	"oreBasaltSaltpeter",
-    "200",
-	"oreBasaltBasalticMineralSand",
-    "25",
-	"oreBasaltGraniticMineralSand",
-    "25",
-	"stoneBasalt",
-    "100"
+    "OREDICT:oreBasaltSalt:75",
+    "OREDICT:oreBasaltRockSalt:75",
+    "OREDICT:oreBasaltSaltpeter:200",
+    "OREDICT:oreBasaltBasalticMineralSand:25",
+    "OREDICT:oreBasaltGraniticMineralSand:25",
+    "OREDICT:stoneBasalt:100"
   ],
   "radius": 16,
   "cost": 6666666,
@@ -19,4 +13,3 @@
   "focusName": "fish",
   "focusMeta": 3
 }
-

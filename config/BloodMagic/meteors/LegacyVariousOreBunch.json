@@ -1,21 +1,13 @@
 {
   "ores": [
-    "oreBlackgraniteRutile",
-    "100",
-	"oreBlackgraniteTungstate",
-    "100",
-	"oreBlackgraniteCopper",
-    "300",
-	"oreBlackgraniteSalt",
-    "200",
-	"oreBlackgraniteRockSalt",
-    "200",
-	"oreBlackgraniteMica",
-    "60",
-	"oreBlackgraniteAsbestos",
-    "20",
-	"oreBlackgraniteSoapstone",
-    "20"
+    "OREDICT:oreBlackgraniteRutile:100",
+    "OREDICT:oreBlackgraniteTungstate:100",
+    "OREDICT:oreBlackgraniteCopper:300",
+    "OREDICT:oreBlackgraniteSalt:200",
+    "OREDICT:oreBlackgraniteRockSalt:200",
+    "OREDICT:oreBlackgraniteMica:60",
+    "OREDICT:oreBlackgraniteAsbestos:20",
+    "OREDICT:oreBlackgraniteSoapstone:20"
   ],
   "radius": 9,
   "cost": 750000,
@@ -23,4 +15,3 @@
   "focusName": "nether_star",
   "focusMeta": 0
 }
-

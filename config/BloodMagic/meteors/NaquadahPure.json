@@ -1,13 +1,9 @@
 {
   "ores": [
-	"oreEndstoneNaquadah",
-    "75",
-	"oreEndstoneNaquadahEnriched",
-    "50",
-	"oreEndstoneNaquadria",
-    "15",
-	"oreTiberium",
-    "100"
+    "OREDICT:oreEndstoneNaquadah:75",
+    "OREDICT:oreEndstoneNaquadahEnriched:50",
+    "OREDICT:oreEndstoneNaquadria:15",
+    "OREDICT:oreTiberium:100"
   ],
   "radius": 16,
   "cost": 25000000,
@@ -15,4 +11,3 @@
   "focusName": "gt.metaitem.03",
   "focusMeta": 32091
 }
-
