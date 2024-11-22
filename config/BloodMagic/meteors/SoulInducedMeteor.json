@@ -1,6 +1,7 @@
 {
   "ores": [
-    "OREDICT:soulSand:1000"
+	"soulSand",
+    "1000"
   ],
   "radius": 16,
   "cost": 5000000,
@@ -8,3 +9,4 @@
   "focusName": "soul_sand",
   "focusMeta": 0
 }
+

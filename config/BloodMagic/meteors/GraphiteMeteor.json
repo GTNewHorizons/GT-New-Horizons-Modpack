@@ -1,9 +1,13 @@
 {
   "ores": [
-    "OREDICT:oreBlackgraniteGraphite:500",
-    "OREDICT:oreBlackgraniteDiamond:50",
-    "OREDICT:oreBlackgraniteCoal:200",
-    "OREDICT:stoneGraniteBlack:250"
+    "oreBlackgraniteGraphite",
+    "500",
+	"oreBlackgraniteDiamond",
+    "50",
+	"oreBlackgraniteCoal",
+    "200",
+	"stoneGraniteBlack",
+    "250" 
   ],
   "radius": 13,
   "cost": 420000,
@@ -11,3 +15,4 @@
   "focusName": "gt.metaitem.02",
   "focusMeta": 30500
 }
+
