@@ -1,13 +1,9 @@
 {
   "ores": [
-	"oreEndstoneLead",
-    "100",
-	"oreEndstoneGalena",
-    "200",
-	"oreEndstoneSilver",
-    "100",
-	"oreEndstoneCryolite",
-    "100"
+    "OREDICT:oreEndstoneLead:100",
+    "OREDICT:oreEndstoneGalena:200",
+    "OREDICT:oreEndstoneSilver:100",
+    "OREDICT:oreEndstoneCryolite:100"
   ],
   "radius": 9,
   "cost": 2000000,
@@ -15,4 +11,3 @@
   "focusName": "gt.blockmachines",
   "focusMeta": 214
 }
-

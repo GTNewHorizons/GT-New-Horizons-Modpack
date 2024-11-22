@@ -1,26 +1,20 @@
 {
   "ores": [
-    "oreRedgraniteApatite",
-    "150",
-	"oreRedgraniteTricalciumPhosphate",
-    "150",
-	"oreRedgranitePyrochlore",
-    "100",
-	"oreRedgraniteTantalite",
-    "100",
-	"rockMars",
-    "125",
-	"rockPhobos",
-    "125",
-	"rockDeimos",
-    "125",
-	"rockAsteroids",
-    "125"
+    "OREDICT:oreRedgraniteApatite:150",
+    "OREDICT:oreRedgraniteTricalciumPhosphate:150",
+    "OREDICT:oreRedgranitePyrochlore:100",
+    "OREDICT:oreRedgraniteTantalite:100"
+  ],
+  "filler": [
+    "OREDICT:rockMars:125",
+    "OREDICT:rockPhobos:125",
+    "OREDICT:rockDeimos:125",
+    "OREDICT:rockAsteroids:125"
   ],
   "radius": 18,
   "cost": 1000000,
   "focusModId": "gregtech",
   "focusName": "gt.metaitem.01",
-  "focusMeta": 32672
+  "focusMeta": 32672,
+  "fillerChance": 50
 }
-
