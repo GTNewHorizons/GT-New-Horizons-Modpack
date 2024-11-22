@@ -1,7 +1,9 @@
 {
   "ores": [
-    "OREDICT:oreMarbleSalt:3000",
-    "OREDICT:oreTengamRaw:4"
+	"oreMarbleSalt",
+    "3000",
+	"oreTengamRaw",
+    "4"
   ],
   "radius": 16,
   "cost": 1000000001,
@@ -9,3 +11,4 @@
   "focusName": "tile.machines2",
   "focusMeta": 1
 }
+
