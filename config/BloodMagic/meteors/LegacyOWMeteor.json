@@ -16,13 +16,15 @@
     "OREDICT:oreBlackgraniteLead:40",
     "OREDICT:oreBlackgraniteSilver:50",
     "OREDICT:oreBlackgraniteGold:50",
-    "OREDICT:oreBlackgraniteCassiterite:70",
+    "OREDICT:oreBlackgraniteCassiterite:70"
+  ],
+  "filler": [
     "OREDICT:stoneGraniteBlack:200"
   ],
   "radius": 16,
   "cost": 300000,
   "focusModId": "gregtech",
   "focusName": "gt.metaitem.01",
-  "focusMeta": 32680
+  "focusMeta": 32680,
+  "fillerChance": 18
 }
-

@@ -1,6 +1,6 @@
 {
   "ores": [
-    "OREDICT:oreAwakenedDraconium:1000",
+    "OREDICT:oreDraconiumAwakened:1000",
     "OREDICT:oreNeodymium:500",
     "OREDICT:oreSamarium:300",
     "OREDICT:oreNetherStar:250",
@@ -13,4 +13,3 @@
   "focusName": "gt.blockmachines",
   "focusMeta": 14009
 }
-

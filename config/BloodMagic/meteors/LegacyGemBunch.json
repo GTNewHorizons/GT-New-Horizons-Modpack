@@ -1,6 +1,5 @@
 {
   "ores": [
-    "OREDICT:stoneGraniteBlack:499",
     "OREDICT:oreBlackgraniteDiamond:100",
     "OREDICT:oreBlackgraniteEmerald:50",
     "OREDICT:oreBlackgraniteRuby:50",
@@ -21,10 +20,13 @@
     "OREDICT:oreBlackgraniteLazurite:50",
     "OREDICT:oreBlackgraniteNetherStar:1"
   ],
+  "filler": [
+    "OREDICT:stoneGraniteBlack:499"
+  ],
   "radius": 12,
   "cost": 500000,
   "focusModId": "gregtech",
   "focusName": "gt.metaitem.01",
-  "focusMeta": 24347
+  "focusMeta": 24347,
+  "fillerChance": 44
 }
-

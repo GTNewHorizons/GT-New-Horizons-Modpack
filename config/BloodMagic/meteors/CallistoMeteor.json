@@ -16,13 +16,15 @@
     "OREDICT:oreMarbleLedox:50",
     "OREDICT:oreMarbleUranium:10",
     "OREDICT:oreMarblePlutonium:1",
-    "OREDICT:oreMarbleCallistoIce:125",
+    "OREDICT:oreMarbleCallistoIce:125"
+  ],
+  "filler": [
     "OREDICT:rockCallisto:350"
   ],
   "radius": 20,
   "cost": 1000000,
   "focusModId": "gregtech",
   "focusName": "gt.metaitem.01",
-  "focusMeta": 32464
+  "focusMeta": 32464,
+  "fillerChance": 27
 }
-

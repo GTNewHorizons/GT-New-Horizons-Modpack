@@ -3,7 +3,9 @@
     "OREDICT:oreRedgraniteApatite:150",
     "OREDICT:oreRedgraniteTricalciumPhosphate:150",
     "OREDICT:oreRedgranitePyrochlore:100",
-    "OREDICT:oreRedgraniteTantalite:100",
+    "OREDICT:oreRedgraniteTantalite:100"
+  ],
+  "filler": [
     "OREDICT:rockMars:125",
     "OREDICT:rockPhobos:125",
     "OREDICT:rockDeimos:125",
@@ -13,6 +15,6 @@
   "cost": 1000000,
   "focusModId": "gregtech",
   "focusName": "gt.metaitem.01",
-  "focusMeta": 32672
+  "focusMeta": 32672,
+  "fillerChance": 50
 }
-

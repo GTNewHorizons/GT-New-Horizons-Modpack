@@ -9,13 +9,15 @@
     "OREDICT:oreBlackgraniteAdamantium:25",
     "OREDICT:oreBlackgraniteNeodymium:75",
     "OREDICT:oreBlackgraniteMonazite:75",
-    "OREDICT:oreBlackgraniteMeteoricIron:125",
+    "OREDICT:oreBlackgraniteMeteoricIron:125"
+  ],
+  "filler": [
     "OREDICT:stoneGraniteBlack:250"
   ],
   "radius": 16,
   "cost": 1500000,
   "focusModId": "gregtech",
   "focusName": "gt.metaitem.01",
-  "focusMeta": 32674
+  "focusMeta": 32674,
+  "fillerChance": 28
 }
-

@@ -6,19 +6,21 @@
     "OREDICT:oreMarbleGarnetSand:50",
     "OREDICT:oreMarbleAsbestos:25",
     "OREDICT:oreMarbleDiatomite:25",
-    "OREDICT:stoneMarble:250",
     "OREDICT:oreMarbleBasalticMineralSand:50",
     "OREDICT:oreMarbleGraniticMineralSand:50",
     "OREDICT:oreMarbleFullersEarth:50",
     "OREDICT:oreMarbleGypsum:50",
     "OREDICT:oreMarbleCheese:25",
-    "OREDICT:oreMarbleMica:25",
-    "OREDICT:rockMoon:250"
+    "OREDICT:oreMarbleMica:25"
+  ],
+  "filler": [
+    "OREDICT:rockMoon:250",
+    "OREDICT:stoneMarble:250"
   ],
   "radius": 15,
   "cost": 650000,
   "focusModId": "harvestcraft",
   "focusName": "cheeseItem",
-  "focusMeta": 0
+  "focusMeta": 0,
+  "fillerChance": 50
 }
-

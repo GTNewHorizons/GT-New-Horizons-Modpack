@@ -1,6 +1,5 @@
 {
   "ores": [
-    "OREDICT:endstone:150",
     "OREDICT:oreEndstoneMagnetite:115",
     "OREDICT:oreEndstoneVanadiumMagnetite:75",
     "OREDICT:oreEndstoneGold:75",
@@ -38,10 +37,13 @@
     "OREDICT:oreEndstoneNaquadah:15",
     "OREDICT:oreEndstoneNaquadahEnriched:5"
   ],
+  "filler": [
+    "OREDICT:endstone:150"
+  ],
   "radius": 18,
   "cost": 3250000,
   "focusModId": "gregtech",
   "focusName": "gt.blockmachines",
-  "focusMeta": 1182
+  "focusMeta": 1182,
+  "fillerChance": 7
 }
-
