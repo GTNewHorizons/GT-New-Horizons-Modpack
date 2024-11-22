@@ -1,7 +1,6 @@
 {
   "ores": [
-	"soulSand",
-    "1000"
+    "OREDICT:soulSand:1000"
   ],
   "radius": 16,
   "cost": 5000000,
