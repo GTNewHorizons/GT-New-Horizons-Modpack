@@ -1,19 +1,12 @@
 {
   "ores": [
-	"oreEndstonePlatinum",
-    "150",
-	"oreEndstoneIridium",
-    "75",
-	"oreEndstonePalladium",
-    "75",
-	"oreEndstoneOsmium",
-    "50",
-	"oreCrudeRhodiumMetal",
-    "200",
-	"oreLeachResidue",
-    "200",
-	"oreRarestMetalResidue",
-    "100"
+    "OREDICT:oreEndstonePlatinum:150",
+    "OREDICT:oreEndstoneIridium:75",
+    "OREDICT:oreEndstonePalladium:75",
+    "OREDICT:oreEndstoneOsmium:50",
+    "OREDICT:oreCrudeRhodiumMetal:200",
+    "OREDICT:oreLeachResidue:200",
+    "OREDICT:oreRarestMetalResidue:100"
   ],
   "radius": 14,
   "cost": 12500000,
@@ -21,4 +14,3 @@
   "focusName": "gt.blockmachines",
   "focusMeta": 345
 }
-

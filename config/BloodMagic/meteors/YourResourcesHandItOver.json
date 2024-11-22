@@ -1,29 +1,17 @@
 {
   "ores": [
-	"oreEndstoneBlackPlutonium",
-    "50",
-	"oreEndstoneCosmicNeutronium",
-    "10",
-	"oreEndstoneNaquadah",
-    "50",
-	"oreEndstoneNaquadahEnriched",
-    "55",
-	"oreEndstoneNaquadria",
-    "40",
-	"oreEndstoneNeutronium",
-    "25",
-	"oreEndstoneElectrumFlux",
-    "10",
-	"oreEndstoneIndium",
-    "5",
-	"oreEndstoneAmericium",
-    "10",
-	"oreEndstoneEuropium",
-    "25",
-	"oreEndstoneLutetium",
-    "50",
-	"oreEndstoneInfinityCatalyst",
-    "50"
+    "OREDICT:oreEndstoneBlackPlutonium:50",
+    "OREDICT:oreEndstoneCosmicNeutronium:10",
+    "OREDICT:oreEndstoneNaquadah:50",
+    "OREDICT:oreEndstoneNaquadahEnriched:55",
+    "OREDICT:oreEndstoneNaquadria:40",
+    "OREDICT:oreEndstoneNeutronium:25",
+    "OREDICT:oreEndstoneElectrumFlux:10",
+    "OREDICT:oreEndstoneIndium:5",
+    "OREDICT:oreEndstoneAmericium:10",
+    "OREDICT:oreEndstoneEuropium:25",
+    "OREDICT:oreEndstoneLutetium:50",
+    "OREDICT:oreEndstoneInfinityCatalyst:50"
   ],
   "radius": 18,
   "cost": 125000000,
@@ -31,4 +19,3 @@
   "focusName": "gt.blockmachines",
   "focusMeta": 12526
 }
-
