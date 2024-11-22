@@ -41,7 +41,7 @@
       "partialMatch:1": 1,
       "autoConsume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
+      "ignoreNBT:1": 0,
       "index:3": 0,
       "consume:1": 0,
       "requiredItems:9": {
@@ -51,10 +51,7 @@
           "tag:10": {
             "owner:8": "berriespp",
             "name:8": "Spruce Bonsai",
-            "scan:1": 4,
-            "growth:1": 1,
-            "resistance:1": 1,
-            "gain:1": 1
+            "scan:1": 4
           },
           "Damage:2": 0,
           "OreDict:8": ""
@@ -65,10 +62,7 @@
           "tag:10": {
             "owner:8": "berriespp",
             "name:8": "Oak Bonsai",
-            "scan:1": 4,
-            "growth:1": 1,
-            "resistance:1": 1,
-            "gain:1": 1
+            "scan:1": 4
           },
           "Damage:2": 0,
           "OreDict:8": ""
