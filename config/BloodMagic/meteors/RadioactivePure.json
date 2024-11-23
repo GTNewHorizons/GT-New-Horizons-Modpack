@@ -1,19 +1,12 @@
 {
   "ores": [
-	"oreEndstoneUranium",
-    "60",
-	"oreEndstoneUranium235",
-    "25",
-	"oreEndstoneUraninite",
-    "60",
-	"oreEndstonePitchblende",
-    "60",
-	"oreEndstoneThorium",
-    "150",
-	"oreEndstonePlutonium",
-    "25",
-	"oreEndstonePlutonium241",
-    "1"
+    "OREDICT:oreEndstoneUranium:60",
+    "OREDICT:oreEndstoneUranium235:25",
+    "OREDICT:oreEndstoneUraninite:60",
+    "OREDICT:oreEndstonePitchblende:60",
+    "OREDICT:oreEndstoneThorium:150",
+    "OREDICT:oreEndstonePlutonium:25",
+    "OREDICT:oreEndstonePlutonium241:1"
   ],
   "radius": 12,
   "cost": 2500000,
@@ -21,4 +14,3 @@
   "focusName": "gt.blockmachines",
   "focusMeta": 465
 }
-

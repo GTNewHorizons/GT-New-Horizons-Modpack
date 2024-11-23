@@ -4,15 +4,12 @@
 	"GalaxySpace:titanblocks:1:100",
 	"GalaxySpace:titanblocks:0:50",
 	"minecraft:packed_ice:0:100",
-
 	"GalaxySpace:enceladusblocks:1:850",
 	"GalaxySpace:enceladusblocks:3:100",
 	"GalaxySpace:enceladusblocks:0:50",
-
 	"GalaxySpace:oberonblocks:2:850",
 	"GalaxySpace:oberonblocks:1:100",
 	"GalaxySpace:oberonblocks:0:50",
-
 	"GalaxySpace:mirandablocks:2:850",
 	"GalaxySpace:mirandablocks:1:100",
 	"GalaxySpace:mirandablocks:0:50"
@@ -23,4 +20,3 @@
   "focusName": "item.HeavyDutyPlateTier5",
   "focusMeta": 0
 }
-

@@ -1,25 +1,15 @@
 {
   "ores": [
-	"oreMarbleBauxite",
-    "175",
-	"oreMarbleIlmenite",
-    "125",
-	"oreMarbleAluminium",
-    "75",
-	"oreMarbleChromite",
-    "50",
-	"oreMarbleUvarovite",
-    "75",
-	"oreMarblePerlite",
-    "50",
-	"oreMarbleBastnasite",
-    "100",
-	"oreMarbleNeodymium",
-    "75",
-	"oreMarbleMonazite",
-    "75",
-	"oreMarbleMeteoricIron",
-    "75"
+    "OREDICT:oreMarbleBauxite:175",
+    "OREDICT:oreMarbleIlmenite:125",
+    "OREDICT:oreMarbleAluminium:75",
+    "OREDICT:oreMarbleChromite:50",
+    "OREDICT:oreMarbleUvarovite:75",
+    "OREDICT:oreMarblePerlite:50",
+    "OREDICT:oreMarbleBastnasite:100",
+    "OREDICT:oreMarbleNeodymium:75",
+    "OREDICT:oreMarbleMonazite:75",
+    "OREDICT:oreMarbleMeteoricIron:75"
   ],
   "radius": 16,
   "cost": 2000000,
@@ -27,4 +17,3 @@
   "focusName": "gt.metaitem.01",
   "focusMeta": 32682
 }
-

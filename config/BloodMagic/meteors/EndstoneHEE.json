@@ -1,22 +1,18 @@
 {
   "ores": [
-    "endstone",
-    "799",
-	"oreHeeEndPowder",
-    "100",
-	"oreHeeStardust",
-    "50",
-	"oreHeeIgneousRock",
-    "50",
-	"oreHeeEndium",
-    "50",
-	"oreHeeInstabilityOrb",
-    "1"
+    "OREDICT:oreHeeEndPowder:100",
+    "OREDICT:oreHeeStardust:50",
+    "OREDICT:oreHeeIgneousRock:50",
+    "OREDICT:oreHeeEndium:50",
+    "OREDICT:oreHeeInstabilityOrb:1"
+  ],
+  "filler": [
+    "OREDICT:endstone:799"
   ],
   "radius": 12,
   "cost": 500000,
   "focusModId": "minecraft",
   "focusName": "end_stone",
-  "focusMeta": 0
+  "focusMeta": 0,
+  "fillerChance": 76
 }
-

@@ -1,36 +1,25 @@
 {
   "ores": [
-    "oreMarbleInfusedAir",
-    "75",
-    	"oreMarbleInfusedFire",
-    "75",
-    	"oreMarbleInfusedWater",
-    "75",
-    	"oreMarbleInfusedEarth",
-    "75",
-    	"oreMarbleInfusedOrder",
-    "75",
-   	"oreMarbleInfusedEntropy",
-    "75",
-   	"oreMarbleAmber",
-    "150",
-   	"oreMarbleCinnabar",
-    "250",
-    	"oreMarbleVinteum",
-    "10",
-   	"oreMarbleShadowIron",
-    "10",
-	"oreMarbleInfusedGold",
-    "10",
-   	"oreMarbleShadow",
-    "10",
-	"stoneMarble",
-    "110"
+    "OREDICT:oreMarbleInfusedAir:75",
+    "OREDICT:oreMarbleInfusedFire:75",
+    "OREDICT:oreMarbleInfusedWater:75",
+    "OREDICT:oreMarbleInfusedEarth:75",
+    "OREDICT:oreMarbleInfusedOrder:75",
+    "OREDICT:oreMarbleInfusedEntropy:75",
+    "OREDICT:oreMarbleAmber:150",
+    "OREDICT:oreMarbleCinnabar:250",
+    "OREDICT:oreMarbleVinteum:10",
+    "OREDICT:oreMarbleShadowIron:10",
+    "OREDICT:oreMarbleInfusedGold:10",
+    "OREDICT:oreMarbleShadow:10"
+  ],
+  "filler": [
+    "OREDICT:stoneMarble:110"
   ],
   "radius": 15,
   "cost": 800000,
   "focusModId": "Thaumcraft",
   "focusName": "ItemSanitySoap",
-  "focusMeta": 0
+  "focusMeta": 0,
+  "fillerChance": 11
 }
-

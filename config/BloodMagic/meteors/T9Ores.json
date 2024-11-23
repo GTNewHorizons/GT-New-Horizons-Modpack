@@ -1,11 +1,11 @@
 {
   "ores": [
-    "oreAwakenedDraconium", "1000",
-    "oreNeodymium", "500",
-    "oreSamarium", "300",
-    "oreNetherStar", "250",
-    "oreTartarite", "60",
-    "oreTengamRaw", "1"
+    "OREDICT:oreDraconiumAwakened:1000",
+    "OREDICT:oreNeodymium:500",
+    "OREDICT:oreSamarium:300",
+    "OREDICT:oreNetherStar:250",
+    "OREDICT:oreTartarite:60",
+    "OREDICT:oreTengamRaw:1"
   ],
   "radius": 16,
   "cost": 1000000001,
