@@ -32,7 +32,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "A low tech method to cool down the hot coolant is to use vent covers. Just place the cover on any GregTech block which can contain IC2 coolant and place water in front. The easiest might be just a tank or pipe. This will help until you have access to a Large Heat Exchanger or a Vacuum Freezer.\n\nAn advanced or overclocked reactor vent is much faster than a basic heat vent but you can\u0027t make those yet. Those covers also work with a air in front, but the basic heat vent needs a water block in front. Obviously, all vent covers are faster with water in front than with just air."
+      "desc:8": "A low tech method to cool down the hot coolant is to use vent covers. Just place the cover on any GregTech block which can contain IC2 coolant and place water in front. The easiest might be just a tank or pipe. This will help until you have access to a Large Heat Exchanger or a Vacuum Freezer.\n\nAn advanced or overclocked reactor vent is much faster than a basic heat vent and can work without a water block in front of it, albeit slower. Unfortunately, you can\u0027t make those yet, but you can keep that in mind for later."
     }
   },
   "tasks:9": {
