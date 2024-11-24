@@ -2,8 +2,8 @@
   "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": -5918599008967570585,
-      "questIDLow:4": -6232511347414889484
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3237
     }
   },
   "questIDLow:4": 2413,
@@ -30,7 +30,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "In order to get to the riches you rightfully deserve, you\u0027ll first need to make a Raw Portal, then complete it with more materials. You can then access this dimension that should contain every ore imaginable...\n\n[note]Unfortunately, those tasty ores are locked beneath the mantle of the planet. You\u0027ll need to use a Void Miner to get them out.[/note]"
+      "desc:8": "\nIn order to get to the riches you rightfully deserve, you\u0027ll first need to make a Raw Portal, then complete it with more materials. You can then access this dimension that should contain every ore imaginable...\n\n[note]Unfortunately, those tasty ores are locked beneath the mantle of the planet. You\u0027ll need to use a Void Miner to get them out.[/note]\n\n[note]This should help with the tartarite problems due to Proto-Halkonite Steel Base.[/note]"
     }
   },
   "tasks:9": {

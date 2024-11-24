@@ -33,7 +33,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Introducing the bigger (and better) Implosion Compressor, the Electric Implosion Compressor.\n\nThe Electric Implosion Compressor does not need any explosive and only needs electricity, isn\u0027t that very nice!\n\nFurthermore it gains extra parallels 4^(Tier - 1) based on the containment block used in the middle.\n\nTier 1: Neutronium Block\nTier 2: Infinity Block\nTier 3: transcendent Metal Block\nTier 4: Spacetime Block\nTier 5: Universium Block\n\n[note]While the structure preview shows holes in the middle, it requires the full 27 containment blocks to form, once formed the middle 5 blocks will disappear visually, but sometimes when breaking you will get them back (and sometimes you won\u0027t). [/note]\n\n[note]The minimum allowed energy hatch tier is one tier below the recipe tier, so let\u0027s start with 2 UV energy hatches for now.[/note]"
+      "desc:8": "Introducing the bigger (and better) Implosion Compressor, the Electric Implosion Compressor.\n\nThe Electric Implosion Compressor does not need any explosive and only needs electricity, isn\u0027t that very nice!\n\nFurthermore it gains extra parallels 4^(Tier - 1) based on the containment block used in the middle.\n\nTier 1: Neutronium Block\nTier 2: Infinity Block\nTier 3: transcendent Metal Block\nTier 4: Spacetime Block\nTier 5: Universium Block\n\n[note]While the structure preview shows holes in the middle, it requires the full 27 containment blocks to form, once formed the middle 5 blocks will disappear visually, but sometimes when breaking you will get them back (and sometimes you won\u0027t). [/note]\n\n[note]The minimum allowed energy hatch tier is one tier below the recipe tier, so let\u0027s start with 2 UHV energy hatches for now.[/note]"
     }
   },
   "tasks:9": {
@@ -48,7 +48,7 @@
         "0:10": {
           "id:8": "gregtech:gt.blockmachines",
           "Count:3": 2,
-          "Damage:2": 48,
+          "Damage:2": 49,
           "OreDict:8": ""
         },
         "1:10": {

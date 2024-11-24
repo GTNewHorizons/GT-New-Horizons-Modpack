@@ -29,7 +29,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "This insane machine is used to make MkIII and higher tier naquadah fuel.\n\nIt can\u0027t be overclocked by increasing the input voltage. The only way to overclock it is to use higher tier coils.\n\nIt also supports §9Tec§1Tech§r\u0027s Multi-Amp energy hatches and laser hatches.\n\nExample: The MkIV fuel requires tier 2 coils and the refinery is using tier 3 coils. This gives an overclock similar to fusion, using 2x power and 0.5x time."
+      "desc:8": "This insane machine is used to make MkIII and higher tier naquadah fuel.\n\nIt can\u0027t be overclocked by increasing the input voltage. The only way to overclock it is to use higher tier coils.\n\nIt also supports §9Tec§1Tech§r\u0027s Multi-Amp energy hatches and laser hatches.\n\nExample: The MkIV fuel requires tier 2 coils and the refinery is using tier 3 coils. This gives a perfect overclock, using 4x power and 0.25x time."
     }
   },
   "tasks:9": {
