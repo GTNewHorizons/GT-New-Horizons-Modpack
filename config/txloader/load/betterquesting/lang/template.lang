@@ -75,7 +75,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAB5A.desc=Tired of waiting since your car
 
 # Quest: Goals
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABjA.name=§1§lGoals
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABjA.desc=GregTech New Horizons is a long and intricate mod pack with massive amounts of custom content and over three thousand quests to guide you through it.%n%nWe recommend you set yourself small goals from tier to tier and see how far your journey takes you. %n%nThe ultimate late game goal is to craft a Stargate or two, but the recipe is outrageous, and very few players have ever done so. %n%nIf you need a big goal for your run, we suggest to aim for something less crazy. %nLike going to the moon if it's your first time playing. %nOr making and automating an Assembling Line if you have never done so. %nOr crafting the Tier 8 Rocket which is the last regular rocket and is reached in UHV. 
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABjA.desc=GregTech New Horizons is a long and intricate mod pack with massive amounts of custom content and over three thousand quests to guide you through it.%n%nWe recommend you set yourself small goals from tier to tier and see how far your journey takes you. %n%nThe ultimate late game goal is to craft a Stargate or two, but the recipe is outrageous, and very few players have ever done so. %n%nIf you need a big goal for your run, we suggest to aim for something less crazy. %nLike going to the moon if it's your first time playing. %nOr making and automating an Assembly Line if you have never done so. %nOr crafting the Tier 8 Rocket which is the last regular rocket and is reached in UHV. 
 
 # Quest: Even more challenges needed?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABjQ.name=§1§lEven more challenges needed?
@@ -2999,7 +2999,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJGw.desc=Osmiridium is a quite expensive
 
 # Quest: Keep Soldering On!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKaw.name=§b§lKeep Soldering On!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKaw.desc=You have been using a very basic soldering alloy for a while now. Time for an upgrade! You will need it in your Assembling Line.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKaw.desc=You have been using a very basic soldering alloy for a while now. Time for an upgrade! You will need it in your Assembly Line.
 
 # Quest: Io Trip
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKig.name=§b§lIo Trip
@@ -3264,7 +3264,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAF0g.desc=Some machines need emitters and
 
 # Quest: Tier 6 (LuV)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF1Q.name=§c§lTier 6 (LuV)
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF1Q.desc=LuV-Level. You will need Rhodium-Plated Palladium for machines. Suggested planets and moons to visit: Jupiter's Moon Io, Venus and Mercury. Machine parts will now require an Assembling Line - Check Multiblock Goals for details.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF1Q.desc=LuV-Level. You will need Rhodium-Plated Palladium for machines. Suggested planets and moons to visit: Jupiter's Moon Io, Venus and Mercury. Machine parts will now require an Assembly Line - Check Multiblock Goals for details.
 
 # Quest: Fluid TP for Magic-Haters
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGVQ.name=§c§lFluid TP for Magic-Haters
@@ -3617,7 +3617,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKbQ.desc=You'll need Neutronium for UV a
 
 # Quest: Data Bank
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKbw.name=Data Bank
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKbw.desc=By now you probably feel overwhelmed with the number of data sticks needed for your assembly line. TecTech has a solution for you: The Data Bank. It allows you to store more than just 16 data sticks and can be connected to multiple Assembling Lines at the same time.%n%nPlace the controller one block above the ground and use the Multiblock Structure Hologram Projector to see how it is built. You will need a Maintenance Hatch and at least an EV Energy Hatch, though the power requirements can be much higher if you use many Data Access Hatches and Data Bank Master Connectors, for now you should start with an LuV energy hatch. Trying to run the Data Bank and then scanning the controller will tell you how much eu/t is needed.%n%nYou will need more blocks than what is asked for in this quest, as the number of Data Access Hatches and Connectors is up to you. You can have a maximum of 15 combined.%n%nThe Assembly Line Reception Connector replaces your old Data Access Hatch on the Assembling Line. Connect it to a Master Connector on the Data Bank with Optical Fiber Cable and make sure to color the hatches and the cable.%n%n[note]If you can't figure out what blocks to place, pay attention to the tooltip in the bottom-left when using the Multiblock Structure Hologram Projector. In this case the filler blocks are Computer Casing.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKbw.desc=By now you probably feel overwhelmed with the number of data sticks needed for your Assembly Line. TecTech has a solution for you: The Data Bank. It allows you to store more than just 16 data sticks and can be connected to multiple Assembly Lines at the same time.%n%nPlace the controller one block above the ground and use the Multiblock Structure Hologram Projector to see how it is built. You will need a Maintenance Hatch and at least an EV Energy Hatch, though the power requirements can be much higher if you use many Data Access Hatches and Data Bank Master Connectors, for now you should start with an LuV energy hatch. Trying to run the Data Bank and then scanning the controller will tell you how much eu/t is needed.%n%nYou will need more blocks than what is asked for in this quest, as the number of Data Access Hatches and Connectors is up to you. You can have a maximum of 15 combined.%n%nThe Assembly Line Reception Connector replaces your old Data Access Hatch on the Assembly Line. Connect it to a Master Connector on the Data Bank with Optical Fiber Cable and make sure to color the hatches and the cable.%n%n[note]If you can't figure out what blocks to place, pay attention to the tooltip in the bottom-left when using the Multiblock Structure Hologram Projector. In this case the filler blocks are Computer Casing.[/note]
 
 # Quest: Paint-by-Numbers
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKdg.name=Paint-by-Numbers
@@ -3802,7 +3802,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKXw.desc=The Wetware Supercomputer is a 
 
 # Quest: Wetware Mainframe
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKYA.name=Wetware Mainframe
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKYA.desc=The Wetware Mainframe is the final Wetware Circuit, and it is the first UHV Circuit you can get.%n%nIt's made in the Assembling Line, so there's no imprint.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKYA.desc=The Wetware Mainframe is the final Wetware Circuit, and it is the first UHV Circuit you can get.%n%nIt's made in the Assembly Line, so there's no imprint.
 
 # Quest: Which Doctor? THE Doctor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKbg.name=Which Doctor? THE Doctor
@@ -4201,7 +4201,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpQ.desc=Hope you have loads of transcen
 
 # Quest: UMV Circuits
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqg.name=UMV Circuits
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqg.desc=Pico circuits, a direct upgrade from Optical Mainframes, these UMV circuits will be required for a lot of future crafts. %n%n%n[note]You will need an UMV powered Assembling Line to get started.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqg.desc=Pico circuits, a direct upgrade from Optical Mainframes, these UMV circuits will be required for a lot of future crafts. %n%n%n[note]You will need an UMV powered Assembly Line to get started.[/note]
 
 # Quest: The Real Planet Eater
 betterquesting.quest.GHobGJFEQzK1q96l6oC8wQ.name=The Real Planet Eater
@@ -4229,7 +4229,7 @@ betterquesting.quest.WJ-SykCeTr2B-3SHz0mXZg.desc=It has 16 parallels and can uti
 
 # Quest: UIV Energy Hatch
 betterquesting.quest.fnDuNiloR6iXAea0Lhjgtg.name=UIV Energy Hatch
-betterquesting.quest.fnDuNiloR6iXAea0Lhjgtg.desc=Woah, another Energy Hatch.%n%nYou should probably consider upgrading your Assembling Lines and Precise Assemblers first.
+betterquesting.quest.fnDuNiloR6iXAea0Lhjgtg.desc=Woah, another Energy Hatch.%n%nYou should probably consider upgrading your Assembly Lines and Precise Assemblers first.
 
 # Quest: UIV Superconductors
 betterquesting.quest.kvqtI5rrRrOhi5jhPR-s4A.name=UIV Superconductors
@@ -4314,7 +4314,7 @@ betterquesting.quest.fj2VzJf2Rgev7uY-h3CkJQ.desc=Your attempts to improve your d
 
 # Quest: Saving on SpaceTime
 betterquesting.quest.hWXZi-whQfmgWO0EII7g2g.name=Saving on SpaceTime
-betterquesting.quest.hWXZi-whQfmgWO0EII7g2g.desc=SpaceTime is quite a challenge, isn’t it? You should definitely consider upgrading your Component Assembling Lines to save on some of it.%n%n[note]Did you know you can wall-share the component casings? Just turn one CoAL upside down.%n%nThe CoAL will perform Perfect Overclocks for the recipes below its tier.[/note]
+betterquesting.quest.hWXZi-whQfmgWO0EII7g2g.desc=SpaceTime is quite a challenge, isn’t it? You should definitely consider upgrading your Component Assembly Lines to save on some of it.%n%n[note]Did you know you can wall-share the component casings? Just turn one CoAL upside down.%n%nThe CoAL will perform Perfect Overclocks for the recipes below its tier.[/note]
 
 # Quest: Subspace Cooling
 betterquesting.quest.hybMIjq9Q9mxxWKEE8gBWQ.name=Subspace Cooling
@@ -6119,9 +6119,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADug.desc=After entering the HV age you'v
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEmw.name=§6§lEBF Info
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEmw.desc=You can use a scanner to manually check how your EBF works, or you can make an information panel from nuclear control and always see the status. Make a GT sensor kit and use it on the EBF controller. Place the the sensor card in your info panel. Enable it with a redstone signal.%n%nThe GregTech sensor card can monitor GregTech machines like the EBF, Turbines, and Pyrolyse ovens. This is handy for keeping an eye on maintenance issues for multiblocks.%n%nIf you want to put the panels far from the machines they are monitoring, you will need range upgrades.%n%n[note]There's also a more advanced version.[/note]
 
-# Quest: Assembling Line
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFhA.name=§6§lAssembling Line
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFhA.desc=The Assembling Line (or 'Assline') is an important machine for high tier components in LuV tier and above for making Motors, Pistons, Robot Arms, Pumps and many more.%n%nThe multiblock can be 5-16 blocks long. The minimum length required depends on the number of components and fluids required by the recipe it's crafting. A length of 11 blocks will fit 80 percent of all recipes in GTNH.%n%nThe bottom layer must have on one outer side all the Input Hatches for fluids (4), in the bottom middle layer Input Busses for items (10), and on the end 1 Output Bus. Also on the bottom outer layer must be one Maintainance Hatch. The rest is Solid Steel Machine Casings.%n%nThe second layer on the outer sides left and right are Reinforced Glass and in the middle center Assembling Line Casing.%n%nThe third layer has on the left and right Grate Machine Casings and in the middle Assembler Machine Casings (Note the name change!). The Assembling Line control block and Data Access Hatch are on the opposite edge from the Input Hatches - not at the end with the Output Bus.%n%nThe fourth layer is a single line of Solid Steel Machine Casings in the middle (11), with two Energy Hatches for power. Once you have it built, you can replace the two IV energy hatches with 1 LuV energy hatch.%n%nAutomating the assline is a difficult challenge! You can used advanced tooles like SFM or OpenComputers, but maybe you can figure out how to do it with Enderio or just AE2.%n%nFor more details on using the Assembly Line, check out the wiki page [url]https://wiki.gtnewhorizons.com/wiki/Assembly_Line[/url]%n%n[note]BTW the input busses are ULV to help with your automating, if you don't want to automate it, you can use higher tier ones, unlike the CAL.[/note]%n%n[note]You can have up to 16 input busses. If you use the full 16 you should put the output bus to the side.[/note]
+# Quest: Assembly Line
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFhA.name=§6§lAssembly Line
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFhA.desc=The Assembly Line (or 'Assline') is an important machine for high tier components in LuV tier and above for making Motors, Pistons, Robot Arms, Pumps and many more.%n%nThe multiblock can be 5-16 blocks long. The minimum length required depends on the number of components and fluids required by the recipe it's crafting. A length of 11 blocks will fit 80 percent of all recipes in GTNH.%n%nThe bottom layer must have on one outer side all the Input Hatches for fluids (4), in the bottom middle layer Input Busses for items (10), and on the end 1 Output Bus. Also on the bottom outer layer must be one Maintainance Hatch. The rest is Solid Steel Machine Casings.%n%nThe second layer on the outer sides left and right are Reinforced Glass and in the middle center Assembly Line Casing.%n%nThe third layer has on the left and right Grate Machine Casings and in the middle Assembler Machine Casings (Note the name change!). The Assembly Line control block and Data Access Hatch are on the opposite edge from the Input Hatches - not at the end with the Output Bus.%n%nThe fourth layer is a single line of Solid Steel Machine Casings in the middle (11), with two Energy Hatches for power. Once you have it built, you can replace the two IV energy hatches with 1 LuV energy hatch.%n%nAutomating the assline is a difficult challenge! You can used advanced tooles like SFM or OpenComputers, but maybe you can figure out how to do it with Enderio or just AE2.%n%nFor more details on using the Assembly Line, check out the wiki page [url]https://wiki.gtnewhorizons.com/wiki/Assembly_Line[/url]%n%n[note]BTW the input busses are ULV to help with your automating, if you don't want to automate it, you can use higher tier ones, unlike the CAL.[/note]%n%n[note]You can have up to 16 input busses. If you use the full 16 you should put the output bus to the side.[/note]
 
 # Quest: Data Access Hatches
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAG-w.name=§6§lData Access Hatches
@@ -6502,7 +6502,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMig.desc=You probably have built a lot o
 
 # Quest: Mass Processing in LuV and Beyond
 betterquesting.quest.ECDllKcSQ4SONHHfkfO0yw.name=Mass Processing in LuV and Beyond
-betterquesting.quest.ECDllKcSQ4SONHHfkfO0yw.desc=As you enter LuV and beyond, fewer mass processing multiblocks are available as you replace old setups with new systems and scale up the multiblocks you've already built - there are still some important upgrades in these higher tiers, though. %n%nDefinitely don't miss out on the Circuit Assembling Line or you'll be kicking yourself later.%n%nBe a true GT engineer and finish out your collection!
+betterquesting.quest.ECDllKcSQ4SONHHfkfO0yw.desc=As you enter LuV and beyond, fewer mass processing multiblocks are available as you replace old setups with new systems and scale up the multiblocks you've already built - there are still some important upgrades in these higher tiers, though. %n%nDefinitely don't miss out on the Circuit Assembly Line or you'll be kicking yourself later.%n%nBe a true GT engineer and finish out your collection!
 
 # Quest: Clean Implosions?!
 betterquesting.quest.IlCOpa8bR9WbOjSOPxZIlA.name=Clean Implosions?!
@@ -8878,7 +8878,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAH4w.desc=Variables - Declaration vs Stan
 
 # Quest: Machine Inventory Manager
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHxQ.name=Machine Inventory Manager
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHxQ.desc=The core block of Stacy's...er Steve's Factory Manager. SFM is a high tier automation system. While AE2 can handle a lot of different crafting tasks, SFM can handle even more complex crafting. It's not actually needed for the assembling line. But still, this is one place where you can go that route.%n%nInventory Cables connect the MIM to inventories or tanks.%n%nRight now until some Moron figures it out, your best bet is to experiment, ask for help on Discord, and search Google. The interface resembles most GUI based automation systems like LabView.%n%nThere have been TPS problems caused by poorly designed SFM setups. Make sure your outputs are properly emptied, and don't get filled.%n%nInventory cables are the "basic" cable of SFM. They allow the MIM to interact with an inventory, and act as a connector cable to other cables.%n%nmehdi2344 thinks my jokes suck, but he's an idiot, so there. %n%nThanks to Nori Silverrage for writing up these quests!%n%n[note]BTW, there's a Creative Supplier for creative testing. The Energistics Connector is disabled because it doesn't work correctly.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHxQ.desc=The core block of Stacy's...er Steve's Factory Manager. SFM is a high tier automation system. While AE2 can handle a lot of different crafting tasks, SFM can handle even more complex crafting. It's not actually needed for the Assembly Line. But still, this is one place where you can go that route.%n%nInventory Cables connect the MIM to inventories or tanks.%n%nRight now until some Moron figures it out, your best bet is to experiment, ask for help on Discord, and search Google. The interface resembles most GUI based automation systems like LabView.%n%nThere have been TPS problems caused by poorly designed SFM setups. Make sure your outputs are properly emptied, and don't get filled.%n%nInventory cables are the "basic" cable of SFM. They allow the MIM to interact with an inventory, and act as a connector cable to other cables.%n%nmehdi2344 thinks my jokes suck, but he's an idiot, so there. %n%nThanks to Nori Silverrage for writing up these quests!%n%n[note]BTW, there's a Creative Supplier for creative testing. The Energistics Connector is disabled because it doesn't work correctly.[/note]
 
 # Quest: Moving the Manager 
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHxg.name=Moving the Manager 
@@ -9328,7 +9328,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ1w.desc=All terminals are made from the
 
 # Quest: Easier AL automation
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ2A.name=Easier AL automation
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ2A.desc=Unlike regular pattern terminals, the processing pattern terminal doesn't have a crafting mode. Instead, you have a lot more slots for input and output, and the ability to swap them. Great for your Assembling Line patterns. Why not directly make the fluid option? It is a straight upgrade.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ2A.desc=Unlike regular pattern terminals, the processing pattern terminal doesn't have a crafting mode. Instead, you have a lot more slots for input and output, and the ability to swap them. Great for your Assembly Line patterns. Why not directly make the fluid option? It is a straight upgrade.
 
 # Quest: Making Patterns Quick
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ2Q.name=Making Patterns Quick
@@ -9640,7 +9640,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALPQ.desc=ME Buses are combination of tec
 
 # Quest: AE2 Fluid Crafting
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsg.name=AE2 Fluid Crafting
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsg.desc=Fluid crafting directly integrated in your ME system. NO WAY!%n%nAE2FC is a powerful addon that was backported for GTNH.%n%nNow, what do you need to get that juicy stuff working?%nEvery ME System needs a Fluid Discretizer. It allows for on demand crafting. While you can use AE2FC without Fluid Discretizer for moving fluids, you need a Discretizer for autocrafting.%n%nThen you also need a Fluid Terminal or a Fluid Processing Terminal for the Assembling Line. %n%nWhen creating patterns you will notice your fluids being placed as if they were items. %nYour finished patterns will look blue-ish. Placing those in a Dual Interface will allow AE2 to push the fluids and items both. Note. Fluids are being sent first, then items.%nYou can switch the dual interface on the top right if you want it to keep fluids in stock. %n%nIf you use a blue pattern (fluid pattern) in a normal interface, AE2 will send the fluid as a fluid packet. This is just a representation of the fluid as an item. A fluid decoder can turn it back into a fluid and saves it in the fluid grid.%n%nYou can use an ingredient buffer (large or normal) so your items and fluids sent by a pattern can get stored internally in one block. The normal buffer can hold 9 items and 4 fluids whereas the large one can hold 27 items and 7 fluids. It is not needed, but you can use it to automate things with item and fluid conduits. %n%nIf you want to automate single blocks its as easy as eating chocolate cake while on a diet:%nMake the pattern, make an interface, boom- done! It will automatically insert the fluid in the fluid inventory of a single block machine. %n%nEven automating more difficult things like the Assembling Line becomes much easier with these tools.%n%nIf you need more detailled information, visit the wiki:%n%n[url]https://wiki.gtnewhorizons.com/wiki/AE2FC[/url]%n%n[note]The Extra Cells mod has been removed. Any old components and cells were converted to AE2 and AE2FC parts where possible.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsg.desc=Fluid crafting directly integrated in your ME system. NO WAY!%n%nAE2FC is a powerful addon that was backported for GTNH.%n%nNow, what do you need to get that juicy stuff working?%nEvery ME System needs a Fluid Discretizer. It allows for on demand crafting. While you can use AE2FC without Fluid Discretizer for moving fluids, you need a Discretizer for autocrafting.%n%nThen you also need a Fluid Terminal or a Fluid Processing Terminal for the Assembly Line. %n%nWhen creating patterns you will notice your fluids being placed as if they were items. %nYour finished patterns will look blue-ish. Placing those in a Dual Interface will allow AE2 to push the fluids and items both. Note. Fluids are being sent first, then items.%nYou can switch the dual interface on the top right if you want it to keep fluids in stock. %n%nIf you use a blue pattern (fluid pattern) in a normal interface, AE2 will send the fluid as a fluid packet. This is just a representation of the fluid as an item. A fluid decoder can turn it back into a fluid and saves it in the fluid grid.%n%nYou can use an ingredient buffer (large or normal) so your items and fluids sent by a pattern can get stored internally in one block. The normal buffer can hold 9 items and 4 fluids whereas the large one can hold 27 items and 7 fluids. It is not needed, but you can use it to automate things with item and fluid conduits. %n%nIf you want to automate single blocks its as easy as eating chocolate cake while on a diet:%nMake the pattern, make an interface, boom- done! It will automatically insert the fluid in the fluid inventory of a single block machine. %n%nEven automating more difficult things like the Assembly Line becomes much easier with these tools.%n%nIf you need more detailled information, visit the wiki:%n%n[url]https://wiki.gtnewhorizons.com/wiki/AE2FC[/url]%n%n[note]The Extra Cells mod has been removed. Any old components and cells were converted to AE2 and AE2FC parts where possible.[/note]
 
 # Quest: 4096k Essentia Storage Cell
 betterquesting.quest.G5g_5_24RS6sqhmjFEbf8A.name=4096k Essentia Storage Cell
