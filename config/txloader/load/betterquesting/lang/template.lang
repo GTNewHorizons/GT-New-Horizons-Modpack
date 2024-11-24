@@ -2899,7 +2899,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJAQ.desc=The Platinum Group processing l
 
 # Quest: Second Separation - Ruthenium
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJAg.name=§b§lSecond Separation - Ruthenium
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJAg.desc=For the next step in the process, we will split up the Ruthenium from the Leach Residue. Remember that you can get it from both Platinum Residue and a little bit more from making Rhodium Sulfate Solution.%n%nYou'll need Saltpeter and Saltwater for this. You can pump saltwater or make it, and mine saltpeter or make it too. Given how much KNO3 you need, you should probably automate making it.%n%nFor the steam, you can void it or reuse it for making Hot Ruthenium Tetroxide.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJAg.desc=For the next step in the process, we will split up the Ruthenium from the Leach Residue. Remember that you can get it from both Platinum Residue and a little bit more from making Rhodium Sulfate Solution.%n%nYou'll need Saltpeter and Saltwater for this. You can pump saltwater or make it, and mine saltpeter or make it too. Given how much KNO3 you need, you should probably automate making it.%n%nFor the steam, you can just void it.
 
 # Quest: Re-Solving the Purity Issue
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJAw.name=§b§lRe-Solving the Purity Issue
@@ -3296,7 +3296,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGlg.desc=Now that you're this far into L
 
 # Quest: Crystal Chips
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGlw.name=§c§lCrystal Chips
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGlw.desc=To make these chips you need Europium, as well as an HV Autoclave in the Asteroids dimension (or on your space station) to achieve "low gravity".%n%n[note]Alternatively you can use an LPF anywhere, but not a PA.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGlw.desc=To make these chips you need Europium, as well as an HV Autoclave in the Asteroids dimension (or on your space station) to achieve "low gravity".%n%n[note]Alternatively you can use an Industrial Autoclave.[/note]
 
 # Quest: Elite Circuit Board
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGmA.name=§c§lElite Circuit Board
@@ -4003,7 +4003,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkA.desc=You can now make optical SMDs! 
 
 # Quest: Wait, PBI wasn't the last plastic?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsQ.name=Wait, PBI wasn't the last plastic?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsQ.desc=Let's make a brand new plastic! The trees that you found on Barnada C have very interesting properties. Still, you can't just use the extracted radox substance raw. Some serious refining steps are in order!%n%n§6You'll need it for a ton of stuff like UIV and UMV superconductors, UEV+ hatches, or parts of the Dyson Swarm.§r%n%nCompared to the previous plastics, most of the steps required here are not chemical reactions. They are also very slow, so you might want to use a mega multiblock to help with that. This production line also underlines the necessity of large-scale plasma production. You will only need more going forward.%n%n[note]The Heavy Radox you get as a byproduct can be used for MkV Naquadah Fuel.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsQ.desc=Let's make a brand new plastic! The trees that you found on Barnada C have very interesting properties. Still, you can't just use the extracted radox substance raw. Some serious refining steps are in order!%n%n§6You'll need it for a ton of stuff like UIV and UMV superconductors, UEV+ hatches, or parts of the Dyson Swarm.§r%n%nCompared to the previous plastics, most of the steps required here are not chemical reactions. They are also very slow, so you might want to use a mega multiblock to help with that. This production line also underlines the necessity of large-scale plasma production. You will only need more going forward.%n%n[note]Super Heavy Radox will be needed for Dimensionally Shifted Superfluid, so store some for later.[/note]%n%n[note]The Heavy Radox you get as a byproduct can be used for MkV Naquadah Fuel.[/note]
 
 # Quest: Cheaper LuV Circuits
 betterquesting.quest.Yxrhi0z7SUuvUT3BrsENww.name=Cheaper LuV Circuits
@@ -4026,8 +4026,8 @@ betterquesting.quest.-HJY3n4bQaiGgzsmFcVd6A.desc=Using various carefully picked 
 betterquesting.quest.3yz1WCEzQ_KQxW8p7_29-Q.name=Stopping the Infinity Bleed
 betterquesting.quest.3yz1WCEzQ_KQxW8p7_29-Q.desc=Already struggling to keep up with infinity demand? Not to worry, the component assembly line may just be what you need. You probably have one already. Upgrade it to UEV to allow creating UEV components at a significantly reduced cost.
 
-# Quest: My eyes hurt! #2
-betterquesting.quest.4MzUrkH5QsWnE_4APuHhNg.name=My eyes hurt! #2
+# Quest: My Eyes Hurt! #2
+betterquesting.quest.4MzUrkH5QsWnE_4APuHhNg.name=My Eyes Hurt! #2
 betterquesting.quest.4MzUrkH5QsWnE_4APuHhNg.desc=The optical assembly is the second optical circuit. It is a UHV-tier circuit.
 
 # Quest: Awakened Core
@@ -4082,8 +4082,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKIQ.desc=Congratulations, you've beaten 
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKnA.name=Longbow of the Heavens
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKnA.desc=Weak compared to both weapons of it's tier, and the weapons it's made of, this bow doesn't use arrows, never breaks, does 10 damage, and has an AoE of 10 more arrows that do 10 damage each fly down each time it strikes.
 
-# Quest: My eyes hurt! #4
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpA.name=My eyes hurt! #4
+# Quest: My Eyes Hurt! #4
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpA.name=My Eyes Hurt! #4
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpA.desc=So you finally did it... but there's so much more to do. Onwards comrade!
 
 # Quest: Tesseract
@@ -4098,8 +4098,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsA.desc=For your first batch of Hypogen
 betterquesting.quest.AzTPKiXuRWaBTOFhTeV83Q.name=Infinity Boots
 betterquesting.quest.AzTPKiXuRWaBTOFhTeV83Q.desc=An armorset worthy of a God. These boots provide a permanent jump boost and increased running speed.%n%nWhile wearing the complete set, you are completely unkillable.
 
-# Quest: Something From Nothing, part 3?
-betterquesting.quest.BFpBG-zDQSCr3DieB6Cw5g.name=Something From Nothing, part 3?
+# Quest: Something From Nothing, Part 3?
+betterquesting.quest.BFpBG-zDQSCr3DieB6Cw5g.name=Something From Nothing, Part 3?
 betterquesting.quest.BFpBG-zDQSCr3DieB6Cw5g.desc=Suck up liquids like never before! This module replaces the infinite fluid drilling rig, but has the convenience of being inside your space elevator. Look at the NEI recipes to see which fluids you can pump with this.
 
 # Quest: Infinity Pants
@@ -4114,16 +4114,16 @@ betterquesting.quest.H3Tvy4ZKSyiQGT16Og90bA.desc=UEV energy hatches? Great! Time
 betterquesting.quest.H_S9zi1_SUKG7JkEYgJIiA.name=Assembling in Space
 betterquesting.quest.H_S9zi1_SUKG7JkEYgJIiA.desc=This new Space Elevator module can be used to make lapotron orbs more easily, and to make the raw components for optical circuits.
 
-# Quest: My eyes hurt! #1
-betterquesting.quest.U4zxsdwqTUKsbTATYEJirg.name=My eyes hurt! #1
+# Quest: My Eyes Hurt! #1
+betterquesting.quest.U4zxsdwqTUKsbTATYEJirg.name=My Eyes Hurt! #1
 betterquesting.quest.U4zxsdwqTUKsbTATYEJirg.desc=Finally, you are ready to assemble these new circuits. This is a UV-tier circuit.
 
 # Quest: Using Light to Compute
 betterquesting.quest.VplPMJ0DThWiBNH_Hx5SQA.name=Using Light to Compute
 betterquesting.quest.VplPMJ0DThWiBNH_Hx5SQA.desc=Carefully treating raw computer parts with purified water allows you to make optically enhanced chips. These use light waves to do computations at a speed you previously couldn't imagine. Making them is quite an involved process however.
 
-# Quest: My eyes hurt! #3
-betterquesting.quest.WIx0jq8hS8ifWxZWTmC5yA.name=My eyes hurt! #3
+# Quest: My Eyes Hurt! #3
+betterquesting.quest.WIx0jq8hS8ifWxZWTmC5yA.name=My Eyes Hurt! #3
 betterquesting.quest.WIx0jq8hS8ifWxZWTmC5yA.desc=The optical computer is the third optical circuit. It is a UEV-tier circuit
 
 # Quest: The Quest for Holy Water
@@ -4170,6 +4170,10 @@ betterquesting.quest.k9PA3buhTvK1EJpPfA8ZAg.desc=Welcome to UEV! Now that you've
 betterquesting.quest.msIxGO5gQCWJPmEyp_JhtQ.name=One Last Time
 betterquesting.quest.msIxGO5gQCWJPmEyp_JhtQ.desc=For the final circuit line currently in the game, you will need to make one last circuit assembler.
 
+# Quest: Stabilized Baryonic Matter
+betterquesting.quest.n8PKF63sSSi0y8ZBb2RIKQ.name=Stabilized Baryonic Matter
+betterquesting.quest.n8PKF63sSSi0y8ZBb2RIKQ.desc=After automating Absolute Baryonic Perfection Purification Unit, you slowly start getting Stabilized Baryonic Matter, at a rate of 250mb/parallel every 120 seconds.
+
 # Quest: UEV Superconductors
 betterquesting.quest.s6BLu9oMS86AXyR1FQ1imA.name=UEV Superconductors
 betterquesting.quest.s6BLu9oMS86AXyR1FQ1imA.desc=UEV superconductors, another great infinity sink. You can make the celestial tungsten and advanced nitinol in a laser engraver directly, but this is quite slow. Perhaps consider using the celestial tungsten plasma line?
@@ -4183,13 +4187,25 @@ betterquesting.quest.y-pBsDI2QGS3B9sGG0Pqsg.desc=An armorset worthy of a God. Th
 betterquesting.questline.ytf2QCzUSk6ihcYeRbwblw.name=Tier 11 - UIV
 betterquesting.questline.ytf2QCzUSk6ihcYeRbwblw.desc=Enjoying the pack so far?%n%nAnyways here's your rough guide on the UIV progression.%n
 
-# Quest: A better coolant for your Superconductors
-betterquesting.quest.65KbJVn1T1CSpCdnGfBSqQ.name=A better coolant for your Superconductors
+# Quest: A Better Coolant for Your Superconductors
+betterquesting.quest.65KbJVn1T1CSpCdnGfBSqQ.name=A Better Coolant for Your Superconductors
 betterquesting.quest.65KbJVn1T1CSpCdnGfBSqQ.desc=The subzero temperatures of SpaceTime make it an ideal substitute in all of your superconductor crafts.%n%nYou won’t need billions of Liquid Helium anymore!%n%n[note]The earlier tiers of superconductors are also faster to craft with this.[/note]
+
+# Quest: Ultimate Voltages Require Ultimate Lubricant™!
+betterquesting.quest.8JcG3DR5QU6_FbhIWHm05g.name=Ultimate Voltages Require Ultimate Lubricant™!
+betterquesting.quest.8JcG3DR5QU6_FbhIWHm05g.desc=For your UIV components to work their interdimensional magic, you're going to need some dimensional border easing lubricant to not cause a universal collapse.
+
+# Quest: Another Type of Steel
+betterquesting.quest.8OMu4RdgQhyZqXRid6n-Wg.name=Another Type of Steel
+betterquesting.quest.8OMu4RdgQhyZqXRid6n-Wg.desc=Proto-Halkonite Steel is a super stable material, completely indestructible once formed.%n%nYou first have to make Proto-Halkonite base, which then you pour into components made out of infinity.%n%nAfter getting Creon and Mellion, you can make Proto-Halkonite materials cheaper.
 
 # Quest: Chaotic Core
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB0Q.name=Chaotic Core
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB0Q.desc=In the darkest corners of the End you found a dragon that was different. Raw power streaming out in chaotic fashion, threatening to tear apart reality itself! But even that dragon you defeated. Concentrating that raw power within a core certainly isn't easy but it looks like you found a way.
+
+# Quest: The Darkness of Choice for Edgelords
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJbQ.name=The Darkness of Choice for Edgelords
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJbQ.desc=%nIn order to get to the riches you rightfully deserve, you'll first need to make a Raw Portal, then complete it with more materials. You can then access this dimension that should contain every ore imaginable...%n%n[note]Unfortunately, those tasty ores are locked beneath the mantle of the planet. You'll need to use a Void Miner to get them out.[/note]%n%n[note]This should help with the Tartarite problems due to Proto-Halkonite Steel Base.[/note]
 
 # Quest: Chaotic Energy
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKjQ.name=Chaotic Energy
@@ -4203,6 +4219,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpQ.desc=Hope you have loads of transcen
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqg.name=UMV Circuits
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqg.desc=Pico circuits, a direct upgrade from Optical Mainframes, these UMV circuits will be required for a lot of future crafts. %n%n%n[note]You will need an UMV powered Assembly Line to get started.[/note]
 
+# Quest: Metastable Oganesson
+betterquesting.quest.AOBApHluTUurGwTeOzxj4g.name=Metastable Oganesson
+betterquesting.quest.AOBApHluTUurGwTeOzxj4g.desc=You thought you'd be done with Fusion?
+
 # Quest: The Real Planet Eater
 betterquesting.quest.GHobGJFEQzK1q96l6oC8wQ.name=The Real Planet Eater
 betterquesting.quest.GHobGJFEQzK1q96l6oC8wQ.desc=It has 8 parallels and supports higher tiers of drones.%n%n[note]You can obtain pure platinum group metals with this. It would be a nice boost if you haven't made the QFT for it yet.[/note]
@@ -4213,14 +4233,14 @@ betterquesting.quest.Jk9jZtb6SXSLNX9SND_J0A.desc=Transcendent Metal is the prima
 
 # Quest: Transcendent Plasma Mixer
 betterquesting.quest.KGDOhsZGQv2QqDzGdI_YTg.name=Transcendent Plasma Mixer
-betterquesting.quest.KGDOhsZGQv2QqDzGdI_YTg.desc=Definitely consider making one.%n%nThe Transcendent Plasma Mixer is a powerful asset for all your DTPF catalyst needs.%n%nThe base processing time is always 5 seconds (10 seconds for Stellar, but that comes later). You can specify the number of parallels the machine can run in the GUI.%n%nEach parallel additively increases the power requirement, so you don't lose any efficiency while increasing production!%n%n[note]Most of your power will go here. Consider upgrading your naquadah fuel or creating the Dyson Swarm.[/note]
+betterquesting.quest.KGDOhsZGQv2QqDzGdI_YTg.desc=Definitely consider making one.%n%nThe Transcendent Plasma Mixer is a powerful asset for all your DTPF catalyst needs.%n%nThe base processing time is always 5 seconds. You can specify the number of parallels the machine can run in the GUI.%n%nEach parallel additively increases the power requirement, so you don't lose any efficiency while increasing production!%n%n[note]Most of your power will go here. Consider upgrading your naquadah fuel or creating the Dyson Swarm.[/note]
 
 # Quest: The Cat is Out of the Box
 betterquesting.quest.RAH2M4DoTTaX5a2Sj4hRcQ.name=The Cat is Out of the Box
 betterquesting.quest.RAH2M4DoTTaX5a2Sj4hRcQ.desc=After many hours of grind, blood, sweat, tears, and a little bit of transcendent metal... %nYou are now finally able to solve mankind's hardest puzzle ever, clicking boxes randomly.%n%nThe §cUncertainty Resolution§r, §oa Dyson user's wet dream§r, will allow you to completely skip that annoying puzzle when you need to set some (probably a lot.) Quantum Computers up.
 
-# Quest: Getting More Out Of Your Hypogen
-betterquesting.quest.SoOmxNJvRcqY-ofFsWbyoQ.name=Getting More Out Of Your Hypogen
+# Quest: Getting More Out of Your Hypogen
+betterquesting.quest.SoOmxNJvRcqY-ofFsWbyoQ.name=Getting More Out of Your Hypogen
 betterquesting.quest.SoOmxNJvRcqY-ofFsWbyoQ.desc=Once you get your first Hypogen from Fusion, you can easily duplicate it in your DTPF.%n%nIt is a loop, though, so be cautious.
 
 # Quest: Assembling on Steroids
@@ -4268,25 +4288,17 @@ betterquesting.quest.5vAyoCzxQkSRpjzlDNwtrw.desc=It can run 4 different recipes 
 betterquesting.quest.6rzcSbH2QY2cpChT2zLC_g.name=UMV Energy Hatch
 betterquesting.quest.6rzcSbH2QY2cpChT2zLC_g.desc=The penultimate energy hatch.%n%nHopefully you know what to upgrade first.%n%n[note]Have you checked out wireless energy hatches yet?[/note]
 
-# Quest: The Darkness of Choice for Edgelords
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJbQ.name=The Darkness of Choice for Edgelords
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJbQ.desc=In order to get to the riches you rightfully deserve, you'll first need to make a Raw Portal, then complete it with more materials. You can then access this dimension that should contain every ore imaginable...%n%n[note]Unfortunately, those tasty ores are locked beneath the mantle of the planet. You'll need to use a Void Miner to get them out.[/note]
-
-# Quest: You are worthy
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMoQ.name=You are worthy
+# Quest: You Are Worthy
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMoQ.name=You Are Worthy
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMoQ.desc=Go no further if you value your sanity.
 
-# Quest: Not quite there yet
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqw.name=Not quite there yet
+# Quest: Not Quite There Yet
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqw.name=Not Quite There Yet
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqw.desc=Just a bit more.
 
 # Quest: UXV Circuits
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrA.name=UXV Circuits
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrA.desc=The final circuit in the game: Quantum Circuit, these will be required for lots of UMV/UXV crafts.
-
-# Quest: Metastable Oganesson
-betterquesting.quest.AOBApHluTUurGwTeOzxj4g.name=Metastable Oganesson
-betterquesting.quest.AOBApHluTUurGwTeOzxj4g.desc=You thought you'd be done with Fusion?
 
 # Quest: White Dwarf Matter
 betterquesting.quest.DVLahVNUQ-CvjYwmvkUn-Q.name=White Dwarf Matter
@@ -4393,8 +4405,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKJQ.desc=Okay so if you actually want to
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKJg.name=What, How?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKJg.desc=You're not supposed to be here... I think you need to go outside and get some sunlight if you unlocked this legitimately...%n%nIn the meantime here's your reward, don't spend it all at once!
 
-# Quest: You made it!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAM4A.name=You made it!
+# Quest: You Made It!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAM4A.name=You Made It!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM4A.desc=May Dreammaster have mercy on your soul. You have reached the highest craftable tier in the game!
 
 # Quest: Fabricating Solar Systems... in Parallel
@@ -4409,8 +4421,8 @@ betterquesting.quest.UVG21mYSQJex90gQWdkpIw.desc=Has 64 parallels and consumes ~
 betterquesting.quest.k0ryGOkkSBOgYUcVY-J4rw.name=The SUCC
 betterquesting.quest.k0ryGOkkSBOgYUcVY-J4rw.desc=Like its predecessor it can run 4 different recipes at once, but this time each recipe has 16 parallels.%n%nA good solution for your Hydrogen and Helium problems.
 
-# Quest: Your lord and saviour, UXV CoAL
-betterquesting.quest.smCKxKkMSeyIAUeFInS4hQ.name=Your lord and saviour, UXV CoAL
+# Quest: Your Lord and Saviour, UXV CoAL
+betterquesting.quest.smCKxKkMSeyIAUeFInS4hQ.name=Your Lord and Saviour, UXV CoAL
 betterquesting.quest.smCKxKkMSeyIAUeFInS4hQ.desc=You want to rush this as soon as possible.%n%nEvery L of Universium matters.
 
 # Quest: Eternity
@@ -6005,7 +6017,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAB3Q.desc=This one is optional now. But s
 
 # Quest: An Industrial Mobfarm
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABdQ.name=§6§lAn Industrial Mobfarm
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABdQ.desc=§6§lExtreme Entity Crusher§r is your new and probably the §lbest§r spawner/grinder, with this you are not only able to get drops without any §lTPS§r issues but also with style and §lextreme§r efficiency.%n%nOf course that depends on the quality of your sword, damage and looting are the only stats that matter (weapon is optional since structure requires spikes and if you want to use it you need to add §cULV§r input bus to the structure).%n%nIf normal drops aren't your thing then you can build blood magic ritual "Well of Suffering" on top of the multiblock (you still get items but at a very slow rate).%nAlso generates liquid xp (always 120L) and can spawn infernal mobs if possible (uses x8 power with every infernal spawn so you need to take into account that energy usage will spike once in a while so be prepared for that!).%n%n§lNotes:§r%nIn case of any problems with multiblock animation just use soldering iron on the machine to disable it.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABdQ.desc=§6§lExtreme Entity Crusher§r is your new and probably the §lbest§r spawner/grinder, with this you are not only able to get drops without any §lTPS§r issues but also with style and §lextreme§r efficiency.%n%nOf course that depends on the quality of your sword, damage and looting are the only stats that matter (weapon is optional since structure requires spikes and if you want to use it, put it in to the dedicated slot in controller).%n%nIf normal drops aren't your thing then you can build blood magic ritual "Well of Suffering" on top of the multiblock (you still get items but at a very slow rate).%nAlso generates liquid xp (always 120L) and can spawn infernal mobs if possible (uses x8 power with every infernal spawn so you need to take into account that energy usage will spike once in a while so be prepared for that!).%n%n§lNotes:§r%nIn case of any problems with multiblock animation just use soldering iron on the machine to disable it.
 
 # Quest: Powderbarrels
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC-Q.name=§6§lPowderbarrels
@@ -6494,11 +6506,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKzA.desc=This is an upgraded version of 
 
 # Quest: MABS
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM1Q.name=§6§lMABS
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAM1Q.desc=This unholy union between Mega and GT++ must be the work of some madman. It is the ultimate metallurgical furnace to make your alloys with up to 256 parallels. Using better coils and glass also boosts its speed and reduces energy costs! %n%nThe glass tier limits both the energy hatch tier and the recipe tier. As with other multis, UEV glass unlocks all tiers and UV glass is needed for lasers.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAM1Q.desc=This unholy union between Mega and GT++ must be the work of some madman. It is the ultimate metallurgical furnace to make your alloys with up to 256 parallels. Using better coils and glass also boosts its speed and reduces energy costs! %n%nThe glass tier limits both the energy hatch tier and the recipe tier. As with other multis, UEV glass unlocks all tiers and UV glass is needed for lasers.%n%nGlass tiers gate recipe tiers, for example UHV recipes need UHV glass.
 
 # Quest: Another Chemical Multiblock?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMig.name=§6§lAnother Chemical Multiblock?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMig.desc=You probably have built a lot of Large Chemical Reactors by now. With the powerful 4/4 overclocking it is one of the strongest multiblocks there is. But what if even that is not enough to satisfy your chemical needs? You can't make it faster if the recipe time is already down to 1 tick (=0.05s).%n%nFear not, we have a solution for you: The Mega Chemical Reactor. It lets you do 256 parallels for your LCR recipes! And you can still overclock after that if you provide enough power.%n%nIt only unlocks in LuV as it needs 7 Fusion Coil Blocks. Check with your hologram projector to see how it is built and what you need.%n%nThe glass tier limits the energy hatch tier that you can use. You can even use multiamp hatches from TecTech! If you want to use laser hatches however you need at least UV glass.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMig.desc=You probably have built a lot of Large Chemical Reactors by now. With the powerful 4/4 overclocking it is one of the strongest multiblocks there is. But what if even that is not enough to satisfy your chemical needs? You can't make it faster after using your best energy hatches available.%n%nFear not, we have a solution for you: The Mega Chemical Reactor. It lets you do 256 parallels for your LCR recipes! And you can still overclock after that if you provide enough power.%n%nIt only unlocks in LuV as it needs 7 Fusion Coil Blocks. Check with your hologram projector to see how it is built and what you need.%n%nThe glass tier limits the energy hatch tier that you can use. You can even use multiamp hatches from TecTech! If you want to use laser hatches however you need at least UV glass.
 
 # Quest: Mass Processing in LuV and Beyond
 betterquesting.quest.ECDllKcSQ4SONHHfkfO0yw.name=Mass Processing in LuV and Beyond
@@ -6506,7 +6518,7 @@ betterquesting.quest.ECDllKcSQ4SONHHfkfO0yw.desc=As you enter LuV and beyond, fe
 
 # Quest: Clean Implosions?!
 betterquesting.quest.IlCOpa8bR9WbOjSOPxZIlA.name=Clean Implosions?!
-betterquesting.quest.IlCOpa8bR9WbOjSOPxZIlA.desc=Introducing the bigger (and better) Implosion Compressor, the Electric Implosion Compressor.%n%nThe Electric Implosion Compressor does not need any explosive and only needs electricity, isn't that very nice!%n%nFurthermore it gains extra parallels 4^(Tier - 1) based on the containment block used in the middle.%n%nTier 1: Neutronium Block%nTier 2: Infinity Block%nTier 3: transcendent Metal Block%nTier 4: Spacetime Block%nTier 5: Universium Block%n%n[note]While the structure preview shows holes in the middle, it requires the full 27 containment blocks to form, once formed the middle 5 blocks will disappear visually, but sometimes when breaking you will get them back (and sometimes you won't). [/note]%n%n[note]The minimum allowed energy hatch tier is one tier below the recipe tier, so let's start with 2 UV energy hatches for now.[/note]
+betterquesting.quest.IlCOpa8bR9WbOjSOPxZIlA.desc=Introducing the bigger (and better) Implosion Compressor, the Electric Implosion Compressor.%n%nThe Electric Implosion Compressor does not need any explosive and only needs electricity, isn't that very nice!%n%nFurthermore it gains extra parallels 4^(Tier - 1) based on the containment block used in the middle.%n%nTier 1: Neutronium Block%nTier 2: Infinity Block%nTier 3: transcendent Metal Block%nTier 4: Spacetime Block%nTier 5: Universium Block%n%n[note]While the structure preview shows holes in the middle, it requires the full 27 containment blocks to form, once formed the middle 5 blocks will disappear visually, but sometimes when breaking you will get them back (and sometimes you won't). [/note]%n%n[note]The minimum allowed energy hatch tier is one tier below the recipe tier, so let's start with 2 UHV energy hatches for now.[/note]
 
 # Quest: Extraction Point
 betterquesting.quest.Itn1KOiISHSbXzoDd2BB8w.name=Extraction Point
@@ -6607,7 +6619,7 @@ betterquesting.quest.3r7tJ7_bTuePzsh-B_jyIQ.desc=It's like cured meat... no, not
 
 # Quest: XL Turbo Steam Turbine
 betterquesting.quest.4HoSq97QT3G63VJFeV_0ZQ.name=XL Turbo Steam Turbine
-betterquesting.quest.4HoSq97QT3G63VJFeV_0ZQ.desc=The first of the XL Turbines. Because this is the first, this quest will include an explanation for the mechanics shared across all XL Turbines. %n%nEvery XL Turbine can hold 12 turbine items inside, in the 12 Rotor Assemblies, but their total speed is 16x higher than the regular multiblock equivalent. Make sure all the turbine items inside are of the same material, and also that you can provide enough input to match the flow rate that the multi needs! If you need even more speed, you can enable Fast Mode with a screwdrier on the controller, which triples its speed to 48x. Keep in mind this will chew through the turbine items a lot faster, since their durability goes down faster if the EU output is higher.%n%nThese huge turbines also support TecTech hatches, so you can use buffered dynamos with a much higher output amount than normal, or even laser outputs later on to sustain the hundreds of millions of EU/t that the strongest turbines can produce.%n%nEach of the 5 turbines takes in the same fuels as their smaller counterparts, with some exceptions that will be mentioned in the respective quest. This XL Steam Turbine only consumes Steam, as expected.
+betterquesting.quest.4HoSq97QT3G63VJFeV_0ZQ.desc=The first of the XL Turbines. Because this is the first, this quest will include an explanation for the mechanics shared across all XL Turbines. %n%nEvery XL Turbine can hold 12 turbine items inside, in the 12 Rotor Assemblies, but their total speed is 16x higher than the regular multiblock equivalent. Make sure all the turbine items inside are of the same material, and also that you can provide enough input to match the flow rate that the multi needs! If you need even more speed, you can enable Loose Mode with a screwdrier on the controller, which can greatly increases turbines's flowrate while decreasing the efficiency.%n%nThese huge turbines also support TecTech hatches, so you can use multi-amp dynamos with a much higher output amount than normal, or even laser outputs later on to sustain the hundreds of millions of EU/t that the strongest turbines can produce.%n%nEach of the 5 turbines takes in the same fuels as their smaller counterparts, with some exceptions that will be mentioned in the respective quest. This XL Steam Turbine only consumes Steam, as expected.
 
 # Quest: Calcium Bottlenecking
 betterquesting.quest.9j1Iwd3KRG6jqLI9m6YDKQ.name=Calcium Bottlenecking
@@ -7011,7 +7023,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALDQ.desc=Fluid Nukes, Vac Nukes and Wren
 
 # Quest: Large Naquadah Reactor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALhA.name=Large Naquadah Reactor
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALhA.desc=The multi block version of the naquadah reactor, but it is completely different from the single block ones.%n%nIt uses liquid naquadah or excited nuclear liquid as fuel, and outputs the depleted fuel. You can see the liquid fuel infomation in NEI.%n%nIt consumes 2400 L/s liquid air when running, otherwise it will keep consuming your fuel without outputting power.%n%n[warn]It will explode with more than one types of fuel in its hatches.[/warn]%n%nYou can input in coolant to increase efficiency.%nIC2 Coolant: 1.05x%nSuper Coolant: 1.5x%nCryotheum: 2.75x%nTachyon Rich Temporal Fluid: 5.00x %n%nYou can also input molten metals to increase power.%nMolten Caesium: 2x%nMolten Uranium-235: 3x%nMolten Naquadah: 4x%nMolten Atomic Separation Catalyst: 16x%nSpatially Enlarged Fluid: 64x%nNote: It will consume more fuel to match the output power, unlike coolant which directly increases the power. The molten metal works like 'parallels' for your reactor.%n%nIt also supports §9Tec§1Tech§r's Multi-Amp Dynamo hatches and laser hatches.%n%n[note]PS: This generator has the highest output power in this pack currently, even ahead of the Dyson with Mark VI fuels.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALhA.desc=The multi block version of the naquadah reactor, but it is completely different from the single block ones.%n%nIt uses liquid naquadah or excited nuclear liquid as fuel, and outputs the depleted fuel. You can see the liquid fuel infomation in NEI.%n%nIt consumes 2400 L/s liquid air when running, otherwise it will keep consuming your fuel without outputting power.%n%n[warn]It will explode with more than one types of fuel in its hatches.[/warn]%n%nYou can input in coolant to increase efficiency.%nIC2 Coolant: 1.05x%nSuper Coolant: 1.5x%nCryotheum: 2.75x%nTachyon Rich Temporal Fluid: 5.00x %n%nYou can also input boosters to increase power.%nMolten Caesium: 2x%nMolten Uranium-235: 3x%nMolten Naquadah: 4x%nMolten Atomic Separation Catalyst: 16x%nSpatially Enlarged Fluid: 64x%nNote: It will consume more fuel to match the output power, unlike coolant which directly increases the power. The boosters works like 'parallels' for your reactor.%n%nIt also supports §9Tec§1Tech§r's Multi-Amp Dynamo hatches and laser hatches.%n%n[note]PS: This generator can produce up to 664 billion eu/t with the best coolant, boosters and fuel available.[/note]
 
 # Quest: Nuclear Based Fuel (Th)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALjA.name=Nuclear Based Fuel (Th)
@@ -7027,7 +7039,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALjg.desc=Provides 32,400EU/t output last
 
 # Quest: Naquadah Fuel Refinery
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALjw.name=Naquadah Fuel Refinery
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALjw.desc=This insane machine is used to make MkIII and higher tier naquadah fuel.%n%nIt can't be overclocked by increasing the input voltage. The only way to overclock it is to use higher tier coils.%n%nIt also supports §9Tec§1Tech§r's Multi-Amp energy hatches and laser hatches.%n%nExample: The MkIV fuel requires tier 2 coils and the refinery is using tier 3 coils. This gives an overclock similar to fusion, using 2x power and 0.5x time.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALjw.desc=This insane machine is used to make MkIII and higher tier naquadah fuel.%n%nIt can't be overclocked by increasing the input voltage. The only way to overclock it is to use higher tier coils.%n%nIt also supports §9Tec§1Tech§r's Multi-Amp energy hatches and laser hatches.%n%nExample: The MkIV fuel requires tier 2 coils and the refinery is using tier 3 coils. This gives a perfect overclock, using 4x power and 0.25x time.
 
 # Quest: Tier 2 Coil
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALkA.name=Tier 2 Coil
@@ -7067,7 +7079,7 @@ betterquesting.quest.D0JaazeIQ8qctaMx9xTqEw.desc=It's here that you might yourse
 
 # Quest: Runite Plasma - The Mk2 Conclusion
 betterquesting.quest.DPl-UUZfTAa-ezdD_m8Huw.name=Runite Plasma - The Mk2 Conclusion
-betterquesting.quest.DPl-UUZfTAa-ezdD_m8Huw.desc=To complete this chain, you need to activate the Astral Titanium Plasma you have with a special material, also a GT++ one, called Titansteel. This is a considerable powersink, which is why the input amount is so low at 8L, and it forces you to use 3 ABSs at UV tier to feed one mk2 reactor running the Runite plasma recipe. If you decide to upscale this setup, the best option is to simply build a mega ABS, where you can also use EBF coils to save some EU, and in turn make the powergen chain more efficient.%n%nRunite Plasma has a 350M fuel value, which leaves it free to run on Trinium XLs without penalty, whereas Tin Plasma has a 74.5%% penalty on the same turbines due to having less than half the fuel value. If you want to upscale your plasma powergen to great numbers, this is an option, but the mk3 chain is probably the one to choose.%n%nThe same ratio of 0.144 to 1 reactors also applies here.
+betterquesting.quest.DPl-UUZfTAa-ezdD_m8Huw.desc=To complete this chain, you need to activate the Astral Titanium Plasma you have with a special material, also a GT++ one, called Titansteel. This is a considerable powersink, which is why the input amount is so low at 2L, and it forces you to dedicate an ABS at UV tier to feed one mk2 reactor running the Runite plasma recipe. If you decide to upscale this setup, the best option is to simply build a mega ABS, where you can also use EBF coils to save some EU, and in turn make the powergen chain more efficient.%n%nRunite Plasma has a 350M fuel value, which leaves it free to run on Trinium XLs without penalty, whereas Tin Plasma has a 74.5%% penalty on the same turbines due to having less than half the fuel value. If you want to upscale your plasma powergen to great numbers, this is an option, but the mk3 chain is probably the one to choose.%n%nThe same ratio of 0.144 to 1 reactors also applies here.
 
 # Quest: I'll teach you... how to Praise the Sun!
 betterquesting.quest.Hn_igsosSbKsnATeYgvPgw.name=I'll teach you... how to Praise the Sun!
@@ -7127,7 +7139,7 @@ betterquesting.quest.pLCgOVmqTUCudSXZusnceg.desc=Here's the special Titanium I p
 
 # Quest: Force Plasma - The Mk1 Ending
 betterquesting.quest.tSCw6KSbR8a4TCNWlrmkYQ.name=Force Plasma - The Mk1 Ending
-betterquesting.quest.tSCw6KSbR8a4TCNWlrmkYQ.desc=Once you have the two plasmas from before, fuse them together into a new one, Neon Plasma. If you were to use this directly, you could get Neon! There are other, more useful materials to get later in this process, so keep a lookout for those.%n%nHowever, this is not the final plasma in mk1 recipes. To get it, you need to do the last activation step, which exists in all three chains, and involves adding a non-plasma related material, of the appropriate GT tier, to obtain the powergen plasma. The material you need here is Bedrockium, one you probably have used before. The early game, Compressed Cobblestone method of getting it is a huge burden, so switch to t8 Void Miners or the Space Elevator to automate this.%n%nIf you look at the last recipe, you'll see it's 144L Neon Plasma input to 1000L Force Plasma output. This multiplying makes it so that step, and all final steps, are the slowest ones. You will need 0.144 Neon Plasma reactors for every Force Plasma reactor, which means that 1 Neon reactor feeds nearly 7 Force reactors (6.9444... reactors, more precisely).%n%nOnce you get Force Plasma, this is the end of the mk1 fusion chain. Force Plasma is a 150M fuel value plasma, which means it has a 53.5%% penalty with Infinity Catalyst in XL Plasma Generators. This is better than Helium Plasma with its 86.1%% penalty but still not great for power generation. You probably don't need this in ZPM, but it'll be a stepping stone for your future progression.
+betterquesting.quest.tSCw6KSbR8a4TCNWlrmkYQ.desc=Once you have the two plasmas from before, fuse them together into a new one, Neon Plasma. If you were to use this directly, you could get Neon! There are other, more useful materials to get later in this process, so keep a lookout for those.%n%nHowever, this is not the final plasma in mk1 recipes. To get it, you need to do the last activation step, which exists in all three chains, and involves adding a non-plasma related material, of the appropriate GT tier, to obtain the powergen plasma. The material you need here is Arcanite, one you probably have used before. This step requires you to preferably automate it with ABS, and have a steady supply of Thorium 232.%n%nIf you look at the last recipe, you'll see it's 144L Neon Plasma input to 1000L Force Plasma output. This multiplying makes it so that step, and all final steps, are the slowest ones. You will need 0.144 Neon Plasma reactors for every Force Plasma reactor, which means that 1 Neon reactor feeds nearly 7 Force reactors (6.9444... reactors, more precisely).%n%nOnce you get Force Plasma, this is the end of the mk1 fusion chain. Force Plasma is a 150M fuel value plasma, which means it has a 53.5%% penalty with Infinity Catalyst in XL Plasma Generators. This is better than Helium Plasma with its 86.1%% penalty but still not great for power generation. You probably don't need this in ZPM, but it'll be a stepping stone for your future progression.
 
 # Quest: XL Turbo HP Steam Turbine
 betterquesting.quest.yDY1ALr9QdG8zTbEszNaMw.name=XL Turbo HP Steam Turbine
@@ -7871,7 +7883,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMaw.desc=There are two gas inputs that t
 
 # Quest: Faster Lutetium Excitement
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMbA.name=Faster Lutetium Excitement
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMbA.desc=This quest is late LuV.%n%nYou might have read before that Lutetium is necessary as an input for fusion crafting. In a tier 2 fusion reactor, Lutetium + Chrome = Americium, a required material for many required crafts. Lutetium is a material that is obtained exclusively from breeding, so you're in the right place to find ways to get it.%n%nThe very first method, EV's IC2 Thorium nukes, is the cheapest, but also the slowest. Each fuel rod takes 50000 seconds to deplete, almost 14 hours, with half of a Lutetium Dust per depleted rod. Highly stackable designs, such as the 2-chamber 11 quad rod one, will grant you 22 dust per cycle. After building 10 of those, the rate is still 16 dust per hour. This processing speed isn't good enough to keep progressing forever, and there is no need to make more towers of breeder nukes.%n%nYour 3 main options are:%n%n1) HTGR - fastest but also quite expensive multiblock reactor, unfortunately it requires purified thorium232 you will need to purify it first%n2) Lutetium bees - if you started bees getting it should be quite easy%n3) Spamming IC2 nuclear reactors
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMbA.desc=This quest is late LuV.%n%nYou might have read before that Lutetium is necessary as an input for fusion crafting. In a tier 2 fusion reactor, Lutetium + Chrome = Americium, a required material for many required crafts. Lutetium is a material that is obtained exclusively from breeding, so you're in the right place to find ways to get it.%n%nThe very first method, EV's IC2 Thorium nukes, is the cheapest, but also the slowest. Each fuel rod takes 50000 seconds to deplete, almost 14 hours, with half of a Lutetium Dust per depleted rod. Highly stackable designs, such as the 2-chamber 11 quad rod one, will grant you 22 dust per cycle. After building 10 of those, the rate is still 16 dust per hour. This processing speed isn't good enough to keep progressing forever, and there is no need to make more towers of breeder nukes.%n%nYour 5 main options are:%n%n1) HTGR - fastest but also quite expensive multiblock reactor, unfortunately it requires purified thorium232 you will need to purify it first%n2) Lutetium bees - if you started bees getting it should be quite easy%n3) Spamming IC2 nuclear reactors%n4) Distilling Heavy Naquadah Fuel%n5) Summoning meteors
 
 # Quest: Exciting Liquid Nuking
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMbw.name=Exciting Liquid Nuking
@@ -10154,7 +10166,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABdA.desc=A bit of a misnamed bee. What i
 
 # Quest: Indium
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABhg.name=Indium
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABhg.desc=You can not use the mutatron, and you have to go to Venus. But once you have it this bee is very strong!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABhg.desc=This bee multiplies all sources of Indium by 3x.%nThe Indium bee is available in LuV, or in IV with the help of magic.
 
 # Quest: Osmium
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABhw.name=Osmium
