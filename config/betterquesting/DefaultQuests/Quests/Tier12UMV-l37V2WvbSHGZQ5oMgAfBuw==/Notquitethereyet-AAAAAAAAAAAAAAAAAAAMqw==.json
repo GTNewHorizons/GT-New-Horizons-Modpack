@@ -25,7 +25,7 @@
       "globalShare:1": 0,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "Not quite there yet",
+      "name:8": "Not Quite There Yet",
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
@@ -81,12 +81,6 @@
           "id:8": "gregtech:gt.metaitem.01",
           "Count:3": 1,
           "Damage:2": 32042,
-          "OreDict:8": ""
-        },
-        "7:10": {
-          "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 1,
-          "Damage:2": 32046,
           "OreDict:8": ""
         }
       },

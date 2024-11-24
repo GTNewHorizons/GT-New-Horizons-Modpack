@@ -1,23 +1,23 @@
 {
-  "questIDHigh:4": -5593318159939778068,
+  "questIDHigh:4": -6934476798169429720,
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 3296
+      "questIDHigh:4": 7842301023653611291,
+      "questIDLow:4": -6269476597080921136
     }
   },
-  "questIDLow:4": -8646551172440344443,
+  "questIDLow:4": -5419019742266243031,
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
       "taskLogic:8": "AND",
       "visibility:8": "NORMAL",
-      "isMain:1": 0,
+      "isMain:1": 1,
       "simultaneous:1": 0,
       "icon:10": {
-        "id:8": "GoodGenerator:componentAssemblylineCasing",
+        "id:8": "gregtech:gt.metaitem.01",
         "Count:3": 1,
-        "Damage:2": 12,
+        "Damage:2": 30569,
         "OreDict:8": ""
       },
       "snd_update:8": "random.levelup",
@@ -25,11 +25,11 @@
       "globalShare:1": 0,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "Your Lord and Saviour, UXV CoAL",
+      "name:8": "Stabilized Baryonic Matter",
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "You want to rush this as soon as possible.\n\nEvery L of Universium matters."
+      "desc:8": "After automating Absolute Baryonic Perfection Purification Unit, you slowly start getting Stabilized Baryonic Matter, at a rate of 250mb/parallel every 120 seconds."
     }
   },
   "tasks:9": {
@@ -42,13 +42,17 @@
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "GoodGenerator:componentAssemblylineCasing",
-          "Count:3": 43,
-          "Damage:2": 12,
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 1,
+          "Damage:2": 30569,
           "OreDict:8": ""
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "taskID:8": "bq_standard:checkbox"
     }
   },
   "rewards:9": {}
