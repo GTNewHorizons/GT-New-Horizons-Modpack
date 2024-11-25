@@ -1,16 +1,12 @@
 {
-  "questIDHigh:4": 0,
+  "questIDHigh:4": 6031686481776429608,
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": -6642834327299013486,
-      "questIDLow:4": -9143660827823771849
-    },
-    "1:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 3242
+      "questIDHigh:4": 7851484242627545128,
+      "questIDLow:4": -7959189288003028041
     }
   },
-  "questIDLow:4": 3244,
+  "questIDLow:4": -4905890280735412841,
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
@@ -19,9 +15,9 @@
       "isMain:1": 1,
       "simultaneous:1": 0,
       "icon:10": {
-        "id:8": "dreamcraft:item.QuantumCircuit",
+        "id:8": "gregtech:gt.metaitem.01",
         "Count:3": 1,
-        "Damage:2": 0,
+        "Damage:2": 11143,
         "OreDict:8": ""
       },
       "snd_update:8": "random.levelup",
@@ -29,11 +25,11 @@
       "globalShare:1": 0,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "UXV Circuits",
+      "name:8": "Magnetic Monopole Matter",
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "The final circuit in the game: Quantum Circuit, these will be required for lots of UMV/UXV crafts."
+      "desc:8": "No Description"
     }
   },
   "tasks:9": {
@@ -46,13 +42,17 @@
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "dreamcraft:item.QuantumCircuit",
+          "id:8": "gregtech:gt.metaitem.99",
           "Count:3": 1,
-          "Damage:2": 0,
+          "Damage:2": 143,
           "OreDict:8": ""
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "taskID:8": "bq_standard:checkbox"
     }
   },
   "rewards:9": {}
