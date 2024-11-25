@@ -1,28 +1,28 @@
 {
-  "questIDHigh:4": -6078296071036190210,
+  "questIDHigh:4": -3347613372736060937,
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 3237,
+      "questIDHigh:4": -7295994264991546955,
+      "questIDLow:4": -5675835535531457502,
       "type:1": 1
     },
     "1:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 3242
+      "questIDHigh:4": -6962518690474080185,
+      "questIDLow:4": -6893323685044150631
     }
   },
-  "questIDLow:4": -8127302345207551228,
+  "questIDLow:4": -7880209593223277990,
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
       "taskLogic:8": "AND",
       "visibility:8": "NORMAL",
-      "isMain:1": 0,
+      "isMain:1": 1,
       "simultaneous:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.metaitem.01",
+        "id:8": "gregtech:gt.blockmachines",
         "Count:3": 1,
-        "Damage:2": 32045,
+        "Damage:2": 15415,
         "OreDict:8": ""
       },
       "snd_update:8": "random.levelup",
@@ -30,11 +30,11 @@
       "globalShare:1": 0,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "UIV Field Generator",
+      "name:8": "Heliofusion Exoticizer",
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "A bit expensive, but worth the QOL items you can craft with it."
+      "desc:8": "No Description"
     }
   },
   "tasks:9": {
@@ -47,9 +47,9 @@
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.metaitem.01",
+          "id:8": "gregtech:gt.blockmachines",
           "Count:3": 1,
-          "Damage:2": 32045,
+          "Damage:2": 15415,
           "OreDict:8": ""
         }
       },
