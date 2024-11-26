@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version 2.7.0-RC-1 is out 2024-11-24
+Version 2.7.0-RC-1 is out 2024-11-26
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -254,7 +254,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | --- | --- |
 | [Advanced Solar Panel For 1.7.10 (Unofficial)](https://www.curseforge.com/minecraft/mc-mods/advancedsolarpanels) | 1.7.10 Edition |
 | [AdventureBackpack2](https://github.com/GTNewHorizons/AdventureBackpack2) | 1.2.4-GTNH |
-| [AE2FluidCraft-Rework](https://github.com/GTNewHorizons/AE2FluidCraft-Rework) | 1.3.49-gtnh |
+| [AE2FluidCraft-Rework](https://github.com/GTNewHorizons/AE2FluidCraft-Rework) | 1.3.50-gtnh |
 | [ae2stuff](https://github.com/GTNewHorizons/ae2stuff) | 0.8.4-GTNH |
 | [AFSU](https://github.com/GTNewHorizons/AFSU) | 1.3.1-GTNH |
 | [AkashicTome](https://github.com/GTNewHorizons/AkashicTome) | 1.1.9 |
@@ -263,8 +263,8 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [amunra](https://github.com/GTNewHorizons/amunra) | 0.7.1 |
 | [Angelica](https://github.com/GTNewHorizons/Angelica) | 1.0.0-beta22 |
 | [AngerMod](https://github.com/GTNewHorizons/AngerMod) | 0.8.2 |
-| [AppleCore](https://github.com/GTNewHorizons/AppleCore) | 3.3.3 |
-| [Applied-Energistics-2-Unofficial](https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial) | rv3-beta-477-GTNH |
+| [AppleCore](https://github.com/GTNewHorizons/AppleCore) | 3.3.4 |
+| [Applied-Energistics-2-Unofficial](https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial) | rv3-beta-478-GTNH |
 | [Archaicfix](https://github.com/embeddedt/ArchaicFix) | 0.7.4 |
 | [ArchitectureCraft](https://github.com/GTNewHorizons/ArchitectureCraft) | 1.10.2 |
 | [AsieLib](https://github.com/GTNewHorizons/AsieLib) | 0.6.0 |
@@ -337,13 +337,13 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [ForgeMultipart](https://github.com/GTNewHorizons/ForgeMultipart) | 1.5.0 |
 | [ForgeRelocation](https://github.com/GTNewHorizons/ForgeRelocation) | 0.2.0 |
 | [ForgeRelocationFMP](https://github.com/GTNewHorizons/ForgeRelocationFMP) | 0.2.0 |
-| [Gadomancy](https://github.com/GTNewHorizons/Gadomancy) | 1.3.5 |
+| [Gadomancy](https://github.com/GTNewHorizons/Gadomancy) | 1.3.6 |
 | [Galacticraft](https://github.com/GTNewHorizons/Galacticraft) | 3.2.5-GTNH |
 | [Galaxy-Space-GTNH](https://github.com/GTNewHorizons/Galaxy-Space-GTNH) | 1.1.97-GTNH |
 | [gendustry](https://github.com/GTNewHorizons/gendustry) | 1.8.3-GTNH |
 | [Gravitation-Suite-Neo](https://github.com/GTNewHorizons/Gravitation-Suite-Neo) | 1.2.2 |
 | [Gravitation-Suite-old](https://forum.industrial-craft.net/thread/6915-ic2-exp-1-7-10-gravitation-suite-v2-0-3/) | 2.0.3 |
-| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.50.77 |
+| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.50.79 |
 | [GTNH-Intergalactic](https://github.com/GTNewHorizons/GTNH-Intergalactic) | 1.4.27 |
 | [GTNH-TC-Wands](https://github.com/GTNewHorizons/GTNH-TC-Wands) | 1.4.1 |
 | [GTNHLib](https://github.com/GTNewHorizons/GTNHLib) | 0.5.20 |
@@ -352,7 +352,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [harvestcraft](https://github.com/GTNewHorizons/harvestcraft) | 1.2.3-GTNH |
 | [Healer](https://www.curseforge.com/minecraft/mc-mods/healer) | 1.2.1 |
 | [HelpFixer](https://github.com/GTNewHorizons/HelpFixer) | 1.3.0 |
-| [Hodgepodge](https://github.com/GTNewHorizons/Hodgepodge) | 2.5.80 |
+| [Hodgepodge](https://github.com/GTNewHorizons/Hodgepodge) | 2.5.81 |
 | [HoloInventory](https://github.com/GTNewHorizons/HoloInventory) | 2.4.13-GTNH |
 | [Hunger-Overhaul](https://www.curseforge.com/minecraft/mc-mods/hunger-overhaul) | 1.0.0.104 |
 | [HydroEnergy](https://github.com/GTNewHorizons/HydroEnergy) | 1.3.6 |
@@ -394,7 +394,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [NEI-Integration](https://github.com/GTNewHorizons/NEI-Integration) | 1.4.0 |
 | [neiaddons](https://github.com/GTNewHorizons/neiaddons) | 1.16.0 |
 | [NetherPortalFix](https://github.com/GTNewHorizons/NetherPortalFix) | 1.3.0 |
-| [NewHorizonsCoreMod](https://github.com/GTNewHorizons/NewHorizonsCoreMod) | 2.6.83 |
+| [NewHorizonsCoreMod](https://github.com/GTNewHorizons/NewHorizonsCoreMod) | 2.6.84 |
 | [Nodal-Mechanics](https://github.com/GTNewHorizons/Nodal-Mechanics) | 1.2.1-GTNH |
 | [NotEnoughEnergistics](https://github.com/GTNewHorizons/NotEnoughEnergistics) | 1.6.4 |
 | [NotEnoughIds](https://github.com/GTNewHorizons/NotEnoughIds) | 2.1.6 |
@@ -420,7 +420,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Railcraft](https://github.com/GTNewHorizons/Railcraft) | 9.15.15 |
 | [Random-Things](https://github.com/GTNewHorizons/Random-Things) | 2.5.3 |
 | [Realistic-World-Gen](https://github.com/GTNewHorizons/Realistic-World-Gen) | alpha-1.5.0 |
-| [RemoteIO](https://github.com/GTNewHorizons/RemoteIO) | 2.6.3 |
+| [RemoteIO](https://github.com/GTNewHorizons/RemoteIO) | 2.6.4 |
 | [Roguelike-Dungeons](https://github.com/GTNewHorizons/Roguelike-Dungeons) | 1.6.0-GTNH |
 | [SC2](https://github.com/GTNewHorizons/SC2) | 2.2.0 |
 | [Schematica](https://github.com/GTNewHorizons/Schematica) | 1.11.2-GTNH |
@@ -474,7 +474,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [WailaHarvestability](https://github.com/GTNewHorizons/WailaHarvestability) | 1.2.1-GTNH |
 | [WAILAPlugins](https://github.com/GTNewHorizons/WAILAPlugins) | 0.5.1 |
 | [WanionLib](https://github.com/GTNewHorizons/WanionLib) | 1.9.0 |
-| [WarpTheory](https://github.com/GTNewHorizons/WarpTheory) | 1.4.2-GTNH |
+| [WarpTheory](https://github.com/GTNewHorizons/WarpTheory) | 1.4.3-GTNH |
 | [WAWLA](https://github.com/GTNewHorizons/WAWLA) | 1.3.0-GTNH |
 | [WirelessCraftingTerminal](https://github.com/GTNewHorizons/WirelessCraftingTerminal) | 1.11.7 |
 | [WirelessRedstone-CBE](https://github.com/GTNewHorizons/WirelessRedstone-CBE) | 1.6.1 |
