@@ -1,17 +1,16 @@
 {
-  "questIDHigh:4": 1930161895658832038,
+  "questIDHigh:4": -8986332492408667499,
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": -8986332492408667499,
-      "questIDLow:4": -6067382707378224204,
-      "type:1": 1
-    },
-    "1:10": {
       "questIDHigh:4": -6962518690474080185,
       "questIDLow:4": -6893323685044150631
+    },
+    "1:10": {
+      "questIDHigh:4": 6007149920671187507,
+      "questIDLow:4": -5562896910886444976
     }
   },
-  "questIDLow:4": -9020796615899025430,
+  "questIDLow:4": -6067382707378224204,
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
@@ -22,7 +21,7 @@
       "icon:10": {
         "id:8": "gregtech:gt.blockmachines",
         "Count:3": 1,
-        "Damage:2": 15413,
+        "Damage:2": 15412,
         "OreDict:8": ""
       },
       "snd_update:8": "random.levelup",
@@ -30,11 +29,11 @@
       "globalShare:1": 0,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "§b§lHelioflux Melting Core my Beloved",
+      "name:8": "§b§lAn Even More Mega EBF",
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "As usage of the Forge continues, more data on graviton shards is gathered. It has been found that they can stabilize the outputs of the Forge, allowing for the direct extraction of molten material while it is still close to the heart of the star.\n\n[note]The second module of the Godforge, Helioflux Melting Core allows processing EBF recipes by directly outputting molten metal when possible. This may not always be as efficient as other methods, but the time and scaling saved from Vacuum Freezer steps often more than makes up for this.[/note]\n\n[note]Usage of this module requires the FDIM upgrade.[/note]\n\n[warn]Helioflux Melting Core \u003c3[/warn]\n"
+      "desc:8": "With the project finally completed, and a new material capable of harnessing the power of a neutron star, you decide the natural first application of this immense power could be used for a far superior Blast Furnace. With a little tinkering, you decide a second may be necessary, since this module could easily be retrofitted into an ordinary Furnace as well.\n\n[note]The first module of the Godforge, Helioflare Power Forge can perform EBF recipes and Furnace recipes in separate running modes, toggleable in the UI. Note that the Furnace mode does NOT contribute towards the Conversion milestone![/note]\n\n[note]Usage of this module requires the START upgrade.[/note]"
     }
   },
   "tasks:9": {
@@ -49,7 +48,7 @@
         "0:10": {
           "id:8": "gregtech:gt.blockmachines",
           "Count:3": 1,
-          "Damage:2": 15413,
+          "Damage:2": 15412,
           "OreDict:8": ""
         }
       },
@@ -76,9 +75,9 @@
           "OreDict:8": ""
         },
         "2:10": {
-          "id:8": "tectech:gt.godforgecasing",
+          "id:8": "gregtech:gt.blockcasings5",
           "Count:3": 5,
-          "Damage:2": 8,
+          "Damage:2": 12,
           "OreDict:8": ""
         },
         "3:10": {

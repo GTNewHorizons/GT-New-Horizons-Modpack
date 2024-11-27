@@ -1,23 +1,23 @@
 {
-  "questIDHigh:4": -7833182413052950509,
+  "questIDHigh:4": -5082536925275926677,
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": -5593318159939778068,
-      "questIDLow:4": -8646551172440344443
+      "questIDHigh:4": -7949765678093284760,
+      "questIDLow:4": -7384462910267243515
     }
   },
-  "questIDLow:4": -6890147797704476497,
+  "questIDLow:4": -7995813544306558907,
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
       "taskLogic:8": "AND",
       "visibility:8": "NORMAL",
-      "isMain:1": 0,
+      "isMain:1": 1,
       "simultaneous:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.blockmachines",
+        "id:8": "gregtech:gt.metaitem.01",
         "Count:3": 1,
-        "Damage:2": 14014,
+        "Damage:2": 30584,
         "OreDict:8": ""
       },
       "snd_update:8": "random.levelup",
@@ -25,11 +25,11 @@
       "globalShare:1": 0,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "The SUCC",
+      "name:8": "Raw Stellar Plasma",
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Like its predecessor it can run 4 different recipes at once, but this time each recipe has 16 parallels.\n\nA good solution for your Hydrogen and Helium problems."
+      "desc:8": "Created by all tiers of the Eye of Harmony, Raw Stellar Plasma can be used for several things including Stellar Catalyst.\n\n[note]You may want to be careful with this material, as later running EOH\u0027s with Astral Arrays requires this instead of Hydrogen and Helium, so make sure to never fully run out![/note]"
     }
   },
   "tasks:9": {
@@ -42,13 +42,17 @@
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.blockmachines",
+          "id:8": "gregtech:gt.metaitem.01",
           "Count:3": 1,
-          "Damage:2": 14014,
+          "Damage:2": 30584,
           "OreDict:8": ""
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "taskID:8": "bq_standard:checkbox"
     }
   },
   "rewards:9": {}

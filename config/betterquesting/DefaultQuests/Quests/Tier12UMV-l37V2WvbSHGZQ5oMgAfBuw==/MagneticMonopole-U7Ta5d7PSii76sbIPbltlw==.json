@@ -2,8 +2,12 @@
   "questIDHigh:4": 6031686481776429608,
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 7851484242627545128,
-      "questIDLow:4": -7959189288003028041
+      "questIDHigh:4": -2640443013906741533,
+      "questIDLow:4": -6897090588793529674
+    },
+    "1:10": {
+      "questIDHigh:4": -3347613372736060937,
+      "questIDLow:4": -7880209593223277990
     }
   },
   "questIDLow:4": -4905890280735412841,
@@ -25,11 +29,11 @@
       "globalShare:1": 0,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "Magnetic Monopole Matter",
+      "name:8": "§b§lMagnetic Monopole Matter",
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "No Description"
+      "desc:8": "With total mastery of the Forge of the Gods achieved, it is possible to begin a new universe-spanning initiative. It is now possible to quantize and extract graviton shards for use outside the Forge in powerful new technological endeavours; produce the most exotic plasmas beyond merely periodic elements; and most importantly, begin to understand the immense power of magmatter, a form of matter made entirely of magnetic monopoles with density and stability billions of times that of conventional bosonic matter. It is with this development you realise that the completion of the Forge was not the end goal, but merely a stepping stone to universal transcendence.\n\n[note]Required for UXV components, Magmatter is the second material the Heliofusion Exoticizer can create, and will require a second module. Read the Godforge Information in the UI for more information on how to automate this.[/note]\n\n[note]The creation of Magmatter requires the END upgrade.[/note]\n"
     }
   },
   "tasks:9": {
