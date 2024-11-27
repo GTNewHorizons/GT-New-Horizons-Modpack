@@ -64,7 +64,12 @@
                 <str>minecraft:sapling</str>
                 <num>4</num>
             </icon>
-            <str> Biome: {darkaqua}{biome} {gold}{localtemperature}{white}°F {gold}</str>
+            <str> Biome: {darkaqua}{biome} {gold}</str>
+            <round>
+                <var>localtemperature</var>
+                <num>0</num>
+            </round>
+            <str>{white}°F {gold}</str>
             <round>
                 <div>
                     <sub>
