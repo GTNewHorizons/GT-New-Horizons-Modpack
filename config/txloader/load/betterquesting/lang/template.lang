@@ -3691,6 +3691,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsw.desc=Thanks to your help I have mana
 betterquesting.quest.eon8hLumTS-E7MYJ4TFT3w.name=pH Neutralization
 betterquesting.quest.eon8hLumTS-E7MYJ4TFT3w.desc=If you want to process your Europium-Doped Wafers with a significant speed boost, this machine is for you. Using the pH neutral water you get from this machine, you can process wafers twice as fast.%n%nThis is the first real complex automation challenge in the waterline, it's up to you to figure out how you want to deal with the pH neutralization process. Have fun!%n%n[note]This multiblock is very picky about where its hatches for acids and bases go. If you can't figure out why it's not forming, chances are you forgot to place these hatches in the correct location. Use the hologram projector to see where they go.[/note]
 
+# Quest: Superdense
+betterquesting.quest.sB_lbhZZRnmZNjJiF8-1Hg.name=Superdense
+betterquesting.quest.sB_lbhZZRnmZNjJiF8-1Hg.desc=The advanced machines you are now creating require more advanced materials, as well as more advanced ways to process them. In ZPM, you can construct the Hot Isostatic Pressurization Unit, an upgrade to the Large Electric Compressor. This multiblock heats material to extreme temperatures under extreme pressure, allowing it to create superdense plates with minimal imperfections.%n%nThe HIP Unit heats up while it is running, and must be given some time to cool off. If it reaches its maximum heat threshold, it will significantly slow your recipes or even void the inputs. Use better coils to increase how long it will take to overheat, and use Heat Sensor Hatches to automate it properly.%n%n[note]Can perform compression recipes which say "Requires HIP Unit" in NEI.[/note]
+
 # Quest: Flocculation
 betterquesting.quest.sZ9d2SzSSLSc9tccXG_L4g.name=Flocculation
 betterquesting.quest.sZ9d2SzSSLSc9tccXG_L4g.desc=You want to start using your new Europium to make even better wafers, but it turns out that your old methods of creating purified water are no longer enough. You will need to use the Flocculation Purification Unit to make even better purified water first. To run this machine, you will need large amounts of Polyaluminium Chloride, but luckily you can get all your Chlorine back if you properly recycle the waste liquid.
@@ -4187,9 +4191,17 @@ betterquesting.quest.y-pBsDI2QGS3B9sGG0Pqsg.desc=An armorset worthy of a God. Th
 betterquesting.questline.ytf2QCzUSk6ihcYeRbwblw.name=Tier 11 - UIV
 betterquesting.questline.ytf2QCzUSk6ihcYeRbwblw.desc=Enjoying the pack so far?%n%nAnyways here's your rough guide on the UIV progression.%n
 
+# Quest: Heliofusion Exoticizer
+betterquesting.quest.0YrjX7i4QfeSo98gSE0SWg.name=§b§lHeliofusion Exoticizer
+betterquesting.quest.0YrjX7i4QfeSo98gSE0SWg.desc=Using large quantities of graviton shards creates regions of space so extreme that exotic forms of matter can exist with far greater stability than usual. Unfortunately, this region is so extreme that it is essentially spatially disconnected from the rest of the Forge, unable to utilize existing upgrades to the structure and its other modules.%n%n[note]The fourth and final module of the Godforge, Heliofusion Exoticizer allows for the production of Quark Gluon Plasma and Magmatter. Initially only Quark Gluon Plasma is possible, with Magmatter requiring a much later upgrade. Consult the Godforge Information section of the UI to read how to produce these materials.[/note]%n%n[note]Usage of this module requires the QGPIU upgrade.[/note]%n
+
 # Quest: A Better Coolant for Your Superconductors
 betterquesting.quest.65KbJVn1T1CSpCdnGfBSqQ.name=A Better Coolant for Your Superconductors
 betterquesting.quest.65KbJVn1T1CSpCdnGfBSqQ.desc=The subzero temperatures of SpaceTime make it an ideal substitute in all of your superconductor crafts.%n%nYou won’t need billions of Liquid Helium anymore!%n%n[note]The earlier tiers of superconductors are also faster to craft with this.[/note]
+
+# Quest: Pseudostable Black Hole Containment Field
+betterquesting.quest.6OibD9bRQwq_hBPWz-y9xQ.name=Pseudostable Black Hole Containment Field
+betterquesting.quest.6OibD9bRQwq_hBPWz-y9xQ.desc=As the materials around you achieve transcendental properties, you have found that traditional modes of compression like pistons or gases will not be enough to compact them as densely as you require.%n%nThe solution? Using the sheer force of gravity. By using extreme amounts of explosive force on your fourth-dimensionally engineered tesseracts, you can tear tiny rifts in the fabric of space, enough to create a seed which can birth a black hole. If you can build a machine which can harness it, it will be able to compress even the strongest materials to the most dense states possible.%n%nTaming a black hole is no easy task - even with all of your precautions, it defies your efforts to stabilize it and attempts to collapse itself constantly. Meaningfully extending the lifespan of the black hole will be extremely difficult. By bending spacetime through carefully aligned glass, you can reverse the flow of hawking radiation back into the black hole and keep it completely stable - problematically, however, the amount of spacetime required to maintain this process increases at an exponential rate.%n%nAs the black hole decays, it becomes even more powerful - but be wary, as it will eventually become unstable and you will no longer be able to recover your items from the edge of the event horizon. To safely close the black hole and restart this process, you have engineered a collapser out of the same fourth-dimensional materials.%n%n[note]The Pseudostable Black Hole Containment Field is the most powerful compressor in the game, capable of creating superdense plates out of any material, as well as being able to perform more advanced neutronium compressor recipes that will save incredible amounts of resources.[/note]%n%n[note]You must use programmed circuits in the input buses to determine if the machine will act as a Compressor or Neutronium Compressor![/note]
 
 # Quest: Ultimate Voltages Require Ultimate Lubricant™!
 betterquesting.quest.8JcG3DR5QU6_FbhIWHm05g.name=Ultimate Voltages Require Ultimate Lubricant™!
@@ -4217,7 +4229,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpQ.desc=Hope you have loads of transcen
 
 # Quest: UMV Circuits
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqg.name=UMV Circuits
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqg.desc=Pico circuits, a direct upgrade from Optical Mainframes, these UMV circuits will be required for a lot of future crafts. %n%n%n[note]You will need an UMV powered Assembly Line to get started.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqg.desc=Pico circuits, a direct upgrade from Optical Mainframes, these UMV circuits will be required for a lot of future crafts. %n%n[note]You will need an UMV powered Assembly Line to get started.[/note]%n%n[warn]Rumor has it these circuits may not be around for much longer...[/warn]
 
 # Quest: Metastable Oganesson
 betterquesting.quest.AOBApHluTUurGwTeOzxj4g.name=Metastable Oganesson
@@ -4226,6 +4238,14 @@ betterquesting.quest.AOBApHluTUurGwTeOzxj4g.desc=You thought you'd be done with 
 # Quest: The Real Planet Eater
 betterquesting.quest.GHobGJFEQzK1q96l6oC8wQ.name=The Real Planet Eater
 betterquesting.quest.GHobGJFEQzK1q96l6oC8wQ.desc=It has 8 parallels and supports higher tiers of drones.%n%n[note]You can obtain pure platinum group metals with this. It would be a nice boost if you haven't made the QFT for it yet.[/note]
+
+# Quest: Helioflux Melting Core my Beloved
+betterquesting.quest.GslQBIW9QKaCz7FFpkrv6g.name=§b§lHelioflux Melting Core my Beloved
+betterquesting.quest.GslQBIW9QKaCz7FFpkrv6g.desc=As usage of the Forge continues, more data on graviton shards is gathered. It has been found that they can stabilize the outputs of the Forge, allowing for the direct extraction of molten material while it is still close to the heart of the star.%n%n[note]The second module of the Godforge, Helioflux Melting Core allows processing EBF recipes by directly outputting molten metal when possible. This may not always be as efficient as other methods, but the time and scaling saved from Vacuum Freezer steps often more than makes up for this.[/note]%n%n[note]Usage of this module requires the FDIM upgrade.[/note]%n%n[warn]Helioflux Melting Core <3[/warn]%n
+
+# Quest: Star Fuel and Dark Matter
+betterquesting.quest.II3sjr1cSPOMXaSG70S_eg.name=§b§lStar Fuel and Dark Matter
+betterquesting.quest.II3sjr1cSPOMXaSG70S_eg.desc=In your research on §b§lProject Godforge§r, you determine that you need a new type of fuel to create a neutron star. Naquadah Fuel possesses some of the properties needed, but isn't enough. Stabilizing this fuel with Exotic Catalyst, and drastically increasing the density of the fuel with other things leads you to something that may just work.%n%nDuring this synthesis, you realize that this fuel could be used to make [note]Dark Matter[/note], something you previously had only seen on the Mehen Belt in the Amunra System.%n%n[note]Dark Matter Shards can be found in the Mehen Belt and mined manually, if you don't want to synthesize it.[/note]
 
 # Quest: Haha, Spinny Ingot
 betterquesting.quest.Jk9jZtb6SXSLNX9SND_J0A.name=Haha, Spinny Ingot
@@ -4243,17 +4263,37 @@ betterquesting.quest.RAH2M4DoTTaX5a2Sj4hRcQ.desc=After many hours of grind, bloo
 betterquesting.quest.SoOmxNJvRcqY-ofFsWbyoQ.name=Getting More Out of Your Hypogen
 betterquesting.quest.SoOmxNJvRcqY-ofFsWbyoQ.desc=Once you get your first Hypogen from Fusion, you can easily duplicate it in your DTPF.%n%nIt is a loop, though, so be cautious.
 
+# Quest: No, it's not a Typo
+betterquesting.quest.U12vBo4fQjOyzJ67qH7gUA.name=§b§lNo, it's not a Typo
+betterquesting.quest.U12vBo4fQjOyzJ67qH7gUA.desc=Stabilizing the neutron star of the Godforge was successful, but now you need something new to extract the power out of it into something usable. Your experiments lead you to using the newly discovered Mellion with a Transcendent Metal Nanite to create what seems like a crystal seed of some type, which exhibits perfect thermal conductance.%n%nProcessing this seed further into a solution, you realize you can grow this crystal into a slurry-like solution, which you decide to name [note]Phonon Transfer Medium[/note]. This incredible material displays exactly the properties you were looking for, and decide that now you can move forward with the first module of the Godforge.
+
 # Quest: Assembling on Steroids
 betterquesting.quest.WJ-SykCeTr2B-3SHz0mXZg.name=Assembling on Steroids
 betterquesting.quest.WJ-SykCeTr2B-3SHz0mXZg.desc=It has 16 parallels and can utilize advanced superconductors for improved yields in optical part recipes.%n%n[note]You can't create the Ultimate Battery in one step yet-that's much further down the line.[/note]
+
+# Quest: Crayon and Melon
+betterquesting.quest.WLuCkspyTZqFuqlVVxgyzQ.name=§b§lCrayon and Melon
+betterquesting.quest.WLuCkspyTZqFuqlVVxgyzQ.desc=The Godforge will require new materials with the correct properties to stabilize a neutron star. With your new Transcendent Plasma Mixer and MK5 Fusion Reactor, you learn of a new material which may be suitable, which you name [note]Creon[/note].%n%nThis material is made as a plasma, and must be cooled alongside an extremely sturdy material. You try a curious mixture of dusts, which you decide to name [note]Mellion[/note].%n%n[note]These materials may also be suitable for components you need many of, you may realize UIV components seem to handle these two materials quite well...[/note]
 
 # Quest: UIV Energy Hatch
 betterquesting.quest.fnDuNiloR6iXAea0Lhjgtg.name=UIV Energy Hatch
 betterquesting.quest.fnDuNiloR6iXAea0Lhjgtg.desc=Woah, another Energy Hatch.%n%nYou should probably consider upgrading your Assembly Lines and Precise Assemblers first.
 
+# Quest: An Even More Mega EBF
+betterquesting.quest.g0oiNbRuQpWrzFOS8l-DtA.name=§b§lAn Even More Mega EBF
+betterquesting.quest.g0oiNbRuQpWrzFOS8l-DtA.desc=With the project finally completed, and a new material capable of harnessing the power of a neutron star, you decide the natural first application of this immense power could be used for a far superior Blast Furnace. With a little tinkering, you decide a second may be necessary, since this module could easily be retrofitted into an ordinary Furnace as well.%n%n[note]The first module of the Godforge, Helioflare Power Forge can perform EBF recipes and Furnace recipes in separate running modes, toggleable in the UI. Note that the Furnace mode does NOT contribute towards the Conversion milestone![/note]%n%n[note]Usage of this module requires the START upgrade.[/note]
+
 # Quest: UIV Superconductors
 betterquesting.quest.kvqtI5rrRrOhi5jhPR-s4A.name=UIV Superconductors
 betterquesting.quest.kvqtI5rrRrOhi5jhPR-s4A.desc=Didn't expect the Rhugnor, did you?%n%nAs usual, mix your exotic dusts, blast them, form into wires, and superconduct.
+
+# Quest: Heliothermal Plasma Fabricator
+betterquesting.quest.mr9r3y_kQbWxO2Gm_RvEIg.name=§b§lHeliothermal Plasma Fabricator
+betterquesting.quest.mr9r3y_kQbWxO2Gm_RvEIg.desc=As understanding of graviton shards continues to improve, better control over the materials they manipulate can be achieved. Graviton shards provide an alternative to electromagnetic containment of plasma using spacetime manipulation instead, allowing the Forge to directly output processed materials as plasma.%n%n[note]The third module of the Godforge, Heliothermal Plasma Fabricator can directly convert materials into their plasma form, at the cost of an immense amount of power. This may not be ideal for every plasma, but can save a lot of time on particularly slow ones. Additionally, later upgrades allow the creation of exotic plasmas which cannot be created through other means.[/note]%n%n[note]Usage of this module requires the GPCI upgrade.[/note]%n
+
+# Quest: Project Godforge
+betterquesting.quest.n2AqI9hGSEegVf6hfygemQ.name=§b§lProject Godforge
+betterquesting.quest.n2AqI9hGSEegVf6hfygemQ.desc=With your research now complete, you have finally constructed it - the Forge of the Gods.%n%nThe Forge of the Gods is an immensely powerful structure constructed around a stabilized neutron star - it is so advanced that its full capabilities are not yet understood. However, through continued use, one can slowly upgrade and expand the range of abilities of the Forge, and learn the power hidden in the most extreme parts of the universe: [note]Graviton Shards[/note].%n%nThis esoteric material can only be found where conventional matter and degenerate neutronium crust matter on the surface of a neutron star meet. At this point in space, gravitons are far more common and irradiate this material mixture to create highly unstable graviton shards, which can be used to internally upgrade the Forge. While these shards cannot yet exist outside the extreme conditions of the Forge, with continued research and utilization it may be possible to eventually isolate and extract them outside the Forge - but for what purpose?%n%n[note]Click on the logo in the UI to read more on how to operate the Godforge.[/note]%n
 
 # Quest: Space Modules Galore
 betterquesting.quest.nghPgh6-TuSKXUlzGXGrpw.name=Space Modules Galore
@@ -4271,6 +4311,10 @@ betterquesting.quest.q6WN7XY8Qf6PNgWTy7RrBA.desc=A bit expensive, but worth the 
 betterquesting.quest.u-1Y-eQ-TLyw-WGi5EEnVA.name=Tier 11 (UIV)
 betterquesting.quest.u-1Y-eQ-TLyw-WGi5EEnVA.desc=Now that you've enjoyed your exotic cookies, let's keep going, shall we?%n%nWelcome to UIV! One of the shortest tiers in NH for now. This tier is mainly about solving your DTPF catalyst problems and getting to Eternal Coils.%n%nThere are a few QOL additions introduced, like the Uncertainty Resolver and the Thaumometric Essentia Cell.%n%nYou also gain access to the Dyson Swarm, an incredibly powerful power generation option.%n%n[warn]This tier is not fully complete. Expect changes.[/warn]
 
+# Quest: Fuwusion MK5
+betterquesting.quest.vLnSpTweSki3BaorBNQhxQ.name=Fuwusion MK5
+betterquesting.quest.vLnSpTweSki3BaorBNQhxQ.desc=After seeing how slow Shirabon is to make, you might want to upgrade your Fusion setup.%n%nLike its predecessor, the MK4, this version also supports Perfect Overclocks. Hopefully, this will make your Metastable Oganesson issues a bit more manageable.%n%n[note]You can specify the batch amount in the GUI if you don’t want it to handle one-tick recipes.[/note]%n
+
 
 ## Quest Line: Tier 12 - UMV
 betterquesting.questline.l37V2WvbSHGZQ5oMgAfBuw.name=Tier 12 - UMV
@@ -4279,6 +4323,10 @@ betterquesting.questline.l37V2WvbSHGZQ5oMgAfBuw.desc=Maybe take a break every no
 # Quest: Finally, Universium!
 betterquesting.quest.21tDEYptRuOgSJym30Watg.name=Finally, Universium!
 betterquesting.quest.21tDEYptRuOgSJym30Watg.desc=You’ve finally solved it. Who knew that leaving dead stars long enough would cause your artificial solar system to implode and lead to a Big Bang?%n%nIf only you could tap into that much mass right before it started expanding again, you could literally hold the entire universe in the palm of your hand.%n%nThis is your third and final material from the EOH.%n%n[note]It's mainly used for UXV crafts, but your first few should go in the Eternity loop. The quest for it is located in the Endgame Goals tab.%n%nCongrats! You can now move on to the UXV tier.[/note]
+
+# Quest: Wireless Multi-Amp Hatches
+betterquesting.quest.2TXAUm6oQ0OhtMK79tC5cw.name=Wireless Multi-Amp Hatches
+betterquesting.quest.2TXAUm6oQ0OhtMK79tC5cw.desc=With Shirabon now acquired, you can create 4A, 16A and 64A wireless energy hatches. These are particularly useful for machines which can use multi-amp, but do not need extreme amounts of power warranting a laser hatch.%n%n[note]These used to be needed in large quantities, being the best energy hatch to use on a Processing Array. May they rest in peace.[/note]
 
 # Quest: Guzzling Massive Amounts of Gas
 betterquesting.quest.5vAyoCzxQkSRpjzlDNwtrw.name=Guzzling Massive Amounts of Gas
@@ -4312,9 +4360,21 @@ betterquesting.quest.MiGXZ65sRwiAdpsCrVB0Eg.desc=This bad boi can handle 18 modu
 betterquesting.quest.QO1gudFvTtKgWe9942dW3Q.name=Stars, So Many Stars
 betterquesting.quest.QO1gudFvTtKgWe9942dW3Q.desc=Eternal coils? Perfect time for stargate trophy number three. %nYou know the drill, you give 2 stargates' worth of stuff, you get your trophy. Simple as that.%n%n[note]Our journey through time continues onwards, entering the UMV, aka DTPF era.%n%nSurprisingly, it still is the year 2022, but there have been a huge amount of changes since our last stop in the UEV era. The DTPF exists now, hypogen & eternal coils included, and machine parts up to UMV thus are craftable. Wireless energy is a thing now too, both the LSC and the regular hatch kind, and AE2FC is in the pack, allowing direct fluid crafting (meaning no more volumetric flask shuffling). %nThe power situation hasnt changed much since the UEV era, except for dyson being even more bugged and giving free uncapped infinite power (abusing this was obviously labeled as bugabuse). %nSome other new useful things are the MABS, Integrated Ore Factory, Space Elevator, UIV and UMV singleblocks (and PAs accepting up to 64 UEV+ machines), EIG, EEC, industrial & mega apiary, yottanks, stocking buses, data bank chaining and the Draconic Fusion Crafter.%nThe stargate's cost has now skyrocketed far more than ever before, marking the beginning of this new era of GT:NH endgame, the era of expansion.%n%nThis time around the leading §oGDCloud§r was challenged by the team §oNeo Caelestia§r, who were progressing at a staggering speed, inching ever closer to being first to gate, but ultimately weren't able to fully catch up and thus §oGDCloud§r once again was first to conquer the challenge on the 19th of November, 2022.%n%nP.S.: You know how this works, right? Here's the list:%n-PCB Factory, Component Assemblyline, AAL, Transcendent Plasma Mixer, EOH, QFT%n-Multi-Amp wireless hatches%n-Sub 1-tick OC, Batch Mode, inbuilt Void Protection on multis%n-Level Maintainer, Stocking Hatches, Crafting Input Buses%n%nP.P.S.: Chaotic capacitor bank? What's that?[/note]
 
+# Quest: A Second Ring has Hit the Godforge
+betterquesting.quest.Qjg1J4kuS-6937dCEUqHUw.name=§b§lA Second Ring has Hit the Godforge
+betterquesting.quest.Qjg1J4kuS-6937dCEUqHUw.desc=As additional rings are placed closer to the star at the center of the Forge, the gravitational stress drastically increases on the structure. Graviton shards alleviate these stresses while also creating localized spacetime bridges to link the two rings and their modules’ respective upgrades.%n%n[note]Adding a second ring to your Godforge allows for 4 additional modules, as well as allowing you to pick a second path in the split paths part of the upgrade tree.[/note]%n%n[note]Usage of a second ring requires the CD upgrade.[/note]
+
+# Quest: Magnetic Monopole Matter
+betterquesting.quest.U7Ta5d7PSii76sbIPbltlw.name=§b§lMagnetic Monopole Matter
+betterquesting.quest.U7Ta5d7PSii76sbIPbltlw.desc=With total mastery of the Forge of the Gods achieved, it is possible to begin a new universe-spanning initiative. It is now possible to quantize and extract graviton shards for use outside the Forge in powerful new technological endeavours; produce the most exotic plasmas beyond merely periodic elements; and most importantly, begin to understand the immense power of magmatter, a form of matter made entirely of magnetic monopoles with density and stability billions of times that of conventional bosonic matter. It is with this development you realise that the completion of the Forge was not the end goal, but merely a stepping stone to universal transcendence.%n%n[note]Required for UXV components, Magmatter is the second material the Heliofusion Exoticizer can create, and will require a second module. Read the Godforge Information in the UI for more information on how to automate this.[/note]%n%n[note]The creation of Magmatter requires the END upgrade.[/note]%n
+
 # Quest: Convergence
 betterquesting.quest.XoEzTtuPQjyeHTyqp9eY8Q.name=Convergence
 betterquesting.quest.XoEzTtuPQjyeHTyqp9eY8Q.desc=Running your Dimensionally Transcendent Plasma Forge for an extended period [note](8 hours)[/note] allows the Multidimensional Spaces to align perfectly.%n%nWith your newly acquired technology, you can now tap into these spaces in perfect sync, enabling your plasma forges to operate at incredible speeds.%n%nThe Transdimensional Alignment Matrix allows the DTPF to run with Perfect Overclocks. To achieve this, you need a full discount, and the extra power cost is offset by using more of the same catalyst.%n%nOverall, it is more efficient and totally worth it.%n%nThis process is extremely catalyst-hungry. Ensure you're producing enough to sustain it.%n%nFor recipes without a catalyst, you must specify the catalyst in the GUI by right-clicking the Convergence button, otherwise it will default to Crude.[/note]%n%n[note]Math for the curious:%n%nTo clear up what exactly happens in the background, here's an explanation on how the extra catalyst values are calculated using an example:%n%nThe example recipe of choice is the molten neutronium recipe using prosaic catalyst, running at 64A UMV (8,589,934,592 EU/t).%nThe recipe uses 14,753L of Prosaic catalyst and 36,484,545,600 EU per recipe without OCs or the catalyst discount. With the discount, the catalyst amount gets cut in half, meaning 7,376.5§ L of catalyst, which are rounded to 7,376L, and due to the 64A UMV the machine is supplied with the recipe overclocks 3 times, meaning each recipe actually uses 36,484,545,600 * 2^3 = 291,876,364,800 EU. %n%nKnowing the amount of OCs and the base voltage of the recipe, the difference of the needed EU per recipe with and without perfect OC can be calculated, that being 291,876,364,800 - 36,484,545,600 = 255,391,819,200 extra EU due to imperfect OCs.%nTo get the value of needed extra catalyst, this extra EU value has to be divided by the energy density of the relevant catalyst, prosaic in this case.%n%nThe division equates to 255,391,819,200 EU / 66,768,460 EU/L = 3,825.037 L, rounded to 3,825L extra prosaic catalyst per recipe. For the final step, this value has to be multiplied by 0.5 as its affected by the discount, meaning the total extra catalyst that gets added to the recipe is 3,825L * 0.5 = 1,912.5 L, rounded to 1,912L.%n%nTo summarise it all in a formula:%nAmount extra catalyst per recipe = (B * ((2^x) - 1))/2L%nwhere:%nB is base total EU of the recipe%nx is the number of overclocks%nL is the EU/L of the relevant catalyst [/note]%n
+
+# Quest: What Do I Use This Stuff On?
+betterquesting.quest._Cwgzi_VR5ChWJSIIrzUvg.name=What Do I Use This Stuff On?
+betterquesting.quest._Cwgzi_VR5ChWJSIIrzUvg.desc=White Dwarf Matter, your first main EOH material! I must be able to craft all sorts of cool endgame things with this... right?%n%n[note]Currently, besides EOH casing upgrades, White Dwarf Matter is not used anywhere on its own, often paired with Black Dwarf Matter or other later materials. Save it up for now and keep upgrading that EOH![/note]
 
 # Quest: Black Dwarf Matter
 betterquesting.quest.bPYTUdlkSCiRi0eDHHw7tw.name=Black Dwarf Matter
@@ -4336,6 +4396,10 @@ betterquesting.quest.hybMIjq9Q9mxxWKEE8gBWQ.desc=Cooling exotic ingots proves to
 betterquesting.quest.jlXvqqgIQ_Crha2tW0gEQg.name=Tier 12 (UMV)
 betterquesting.quest.jlXvqqgIQ_Crha2tW0gEQg.desc=Welcome to the current penultimate tier of New Horizons.%n%nThis tier is the tier for upgrading everything and provides access to better parts to help you scale up.%n%nGood Luck.%n%n[warn]This tier is not fully complete. Expect stuff to change.[/warn]
 
+# Quest: The SUCC
+betterquesting.quest.k0ryGOkkSBOgYUcVY-J4rw.name=The SUCC
+betterquesting.quest.k0ryGOkkSBOgYUcVY-J4rw.desc=Like its predecessor it can run 4 different recipes at once, but this time each recipe has 16 parallels.%n%nA good solution for your Hydrogen and Helium problems.%n%n[note]This also requires Eternity to craft.[/note]
+
 # Quest: An Eye at the End of Time
 betterquesting.quest.kazCPEWoSmiZhR4bkHlEBQ.name=An Eye at the End of Time
 betterquesting.quest.kazCPEWoSmiZhR4bkHlEBQ.desc=So you have made yourself an Eternal DTPF or hopefully a few, and now it is time for the push to the next tier, UXV.%n%nIntroducing the final multiblock in the game, and by far the most expensive. %nIt introduces 4 new materials: Raw Stellar Plasma, White and Black Dwarf Matter and finally Universium.%n%nIt has 3 different tiered casings with 9 tiers each: %n%nSpacetime Compression Field Generator:%n- Determines the tier of the planet block that can be run and decreases the processing time by 3%% per tier.%n%nTime Dilation Field Generator:%n- Decreases recipe time by 50%% per tier, while decreasing the chance of a recipe succeeding by 9.25%% per tier.%n%nStabilisation Field Generator:%n- Increases the chance of a recipe succeeding by 5%% per tier, while decreasing the output of a recipe by 5%% per tier.%n%nLower tier Stabilisation Field Generators have a power output penalty.%n%nFinding the best setup of different casing tiers might be a hard task, so a calculator visualing all the drops and setups has been created: [url]https://docs.google.com/spreadsheets/d/15j30mNnFIWBhwpJGuDrKTfiHBXNEEqyvB_r7ztFWlyQ[/url]%n%n[note]Be sure to read the tooltip of the Eye of Harmony controller, it explains everything in detail! Depending on your GUI scale it might have multiple pages.[/note]
@@ -4352,13 +4416,17 @@ betterquesting.quest.rdzpjzaCS2epgavzZr6L9A.desc=Another Field Generator... you 
 betterquesting.quest.sKLPeimGTFS6_hIyc-SOXA.name=UMV Superconductors
 betterquesting.quest.sKLPeimGTFS6_hIyc-SOXA.desc=One of the last wires you have to make for now.%n%n[note]Hope you're not using these for hooking up power to your pre-existing machines. Consider the Infinity Wire.[/note]
 
+# Quest: Tier 4 QFT Catalysts
+betterquesting.quest.u-2IsyxKTLiZuTY417qWKw.name=Tier 4 QFT Catalysts
+betterquesting.quest.u-2IsyxKTLiZuTY417qWKw.desc=With Shirabon now acquired, you can finally create catalysts to use in your Tier 4 QFT.%n%n[note]These are extremely expensive, you may want to look into DTPF convergence, and faster means of creating Metastable Oganesson before you can make many of these.[/note]
+
+# Quest: Raw Stellar Plasma
+betterquesting.quest.uXczmEsfT2uRCSnx8Vm4RQ.name=Raw Stellar Plasma
+betterquesting.quest.uXczmEsfT2uRCSnx8Vm4RQ.desc=Created by all tiers of the Eye of Harmony, Raw Stellar Plasma can be used for several things including Stellar Catalyst.%n%n[note]You may want to be careful with this material, as later running EOH's with Astral Arrays requires this instead of Hydrogen and Helium, so make sure to never fully run out![/note]
+
 # Quest: Are you Ready?
 betterquesting.quest.v5GltE2BTW-Me_rEqy5uFg.name=Are you Ready?
 betterquesting.quest.v5GltE2BTW-Me_rEqy5uFg.desc=From now on, you’ll be dealing with extremely slow recipes.%n%nConsider finishing up your QFTs and upgrading or replacing your old infrastructure to save on TPS.%n%nYou should definitely upgrade your power generation and infrastructure to handle millions of recipes.%n%nThe Eye of Harmony will be consuming most of your power before it starts generating more than it uses.%n%nMay Colen have mercy on your soul.%n%n[note]Welcome to the waiting lounge.[/note]
-
-# Quest: Fuwusion MK5
-betterquesting.quest.vLnSpTweSki3BaorBNQhxQ.name=Fuwusion MK5
-betterquesting.quest.vLnSpTweSki3BaorBNQhxQ.desc=After seeing how slow Shirabon is to make, you might want to upgrade your Fusion setup.%n%nLike its predecessor, the MK4, this version also supports Perfect Overclocks. Hopefully, this will make your Metastable Oganesson issues a bit more manageable.%n%n[note]You can specify the batch amount in the GUI if you don’t want it to handle one-tick recipes.[/note]%n
 
 
 ## Quest Line: Endgame Goals
@@ -4417,9 +4485,9 @@ betterquesting.quest.IGVryoMbRu28q08v4uwSuw.desc=As you've noticed, UXV componen
 betterquesting.quest.UVG21mYSQJex90gQWdkpIw.name=Assembling on Space Steroids
 betterquesting.quest.UVG21mYSQJex90gQWdkpIw.desc=Has 64 parallels and consumes ~500b EU/t per module, expensive to run but absolutely worth it.
 
-# Quest: The SUCC
-betterquesting.quest.k0ryGOkkSBOgYUcVY-J4rw.name=The SUCC
-betterquesting.quest.k0ryGOkkSBOgYUcVY-J4rw.desc=Like its predecessor it can run 4 different recipes at once, but this time each recipe has 16 parallels.%n%nA good solution for your Hydrogen and Helium problems.
+# Quest: Rule of Threes
+betterquesting.quest.bHFEDKAiTwGxaiyZEsmdjg.name=§b§lRule of Threes
+betterquesting.quest.bHFEDKAiTwGxaiyZEsmdjg.desc=The final external structural upgrade to the Forge requires the most advanced understanding of graviton shards and their applications in extreme environments. With this, the last 4 module slots of the Forge of the Gods are available to construct, ascending your operation to unseen heights of technological mastery.%n%n[note]Adding a third and final ring to your Godforge allows for 4 additional modules, as well as allowing you to pick all three paths in the split paths part of the upgrade tree, allowing for a fully upgraded Godforge.[/note]%n%n[note]Usage of a third ring requires the EE upgrade.[/note]
 
 # Quest: Your Lord and Saviour, UXV CoAL
 betterquesting.quest.smCKxKkMSeyIAUeFInS4hQ.name=Your Lord and Saviour, UXV CoAL
@@ -6587,10 +6655,6 @@ betterquesting.quest.quLxATDCQFWsrZRuh_gspA.desc=You should have quite the colle
 # Quest: Steam stomping!
 betterquesting.quest.s6AEHSKiQe2XveT_oDZbZg.name=Steam stomping!
 betterquesting.quest.s6AEHSKiQe2XveT_oDZbZg.desc=While the Forge Hammer is quite fast already, why not build this upscaled version and make it even faster? With the Steam Presser, you can unleash the full force of steam on whatever material you feed it. Watch blocks break apart and rods get smashed together faster than ever-at least until you gain access to more advanced technology.%n%n§3The Steam Presser can only process recipes up to LV Tier.
-
-# Quest: Superdense
-betterquesting.quest.sB_lbhZZRnmZNjJiF8-1Hg.name=Superdense
-betterquesting.quest.sB_lbhZZRnmZNjJiF8-1Hg.desc=The advanced machines you are now creating require more advanced materials, as well as more advanced ways to process them. In ZPM, you can construct the Hot Isostatic Pressurization Unit, an upgrade to the Large Electric Compressor. This multiblock heats material to extreme temperatures under extreme pressure, allowing it to create superdense plates with minimal imperfections.%n%nThe HIP Unit heats up while it is running, and must be given some time to cool off. If it reaches its maximum heat threshold, it will significantly slow your recipes or even void the inputs. Use better coils to increase how long it will take to overheat, and use Heat Sensor Hatches to automate it properly.%n%n[note]Can perform compression recipes which say "Requires HIP Unit" in NEI.[/note]
 
 # Quest: Engraving With Style
 betterquesting.quest.uP_FwHb_QTyAPaoZ80u74A.name=Engraving With Style
@@ -9049,10 +9113,6 @@ betterquesting.quest.-IWmYEgKSGi0M7rtP59zaw.desc=Same as 1k.
 # Quest: AE Tier 2 Fluid Storage
 betterquesting.quest.0J3hYoBeTpe_OnXMU9zRDA.name=AE Tier 2 Fluid Storage
 betterquesting.quest.0J3hYoBeTpe_OnXMU9zRDA.desc=This Processor allows you to craft 256k, 1024k, 4096 and 16384k Fluid Storage Components. %n%nThese Components need to be paired with Advanced Fluid Storage Housings to turn them into Fluid Storage Cells.
-
-# Quest: Waterproof Tech
-betterquesting.quest.1FFkSYHcQPO_6U185CKBiw.name=Waterproof Tech
-betterquesting.quest.1FFkSYHcQPO_6U185CKBiw.desc=With the ability to bend spacetime at your will, you can prevent fluids and electronics from interacting.%n%nFluid containing patterns can be processed.%n%n[note]Otherwise it works like crafting input bus.[/note]
 
 # Quest: Cribs
 betterquesting.quest.4pCol8RvR3G0pS2zVqpY1Q.name=Cribs
@@ -13781,6 +13841,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGmg.desc=Trade three IV lootbags to get 
 
 
 ### Quests in multiple quest lines ###
+
+# Quest: Waterproof Tech
+betterquesting.quest.1FFkSYHcQPO_6U185CKBiw.name=Waterproof Tech
+betterquesting.quest.1FFkSYHcQPO_6U185CKBiw.desc=With the ability to bend spacetime at your will, you can prevent fluids and electronics from interacting.%n%nFluid containing patterns can be processed.%n%n[note]Otherwise it works like crafting input bus.[/note]
 
 # Quest: Integrated Ore Factory - All in One!
 betterquesting.quest.3hN7FykMSJSWSykZiEWvfQ.name=§6§6§6§lIntegrated Ore Factory - All in One!
