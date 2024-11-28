@@ -2,12 +2,8 @@
   "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": -8190376831060786192,
-      "questIDLow:4": -6087268361248963518
-    },
-    "1:10": {
-      "questIDHigh:4": -6642834327299013486,
-      "questIDLow:4": -9143660827823771849
+      "questIDHigh:4": -6083888391161033107,
+      "questIDLow:4": -6861911456329097050
     }
   },
   "questIDLow:4": 3235,
@@ -21,7 +17,7 @@
       "icon:10": {
         "id:8": "gregtech:gt.blockmachines",
         "Count:3": 1,
-        "Damage:2": 346,
+        "Damage:2": 266,
         "OreDict:8": ""
       },
       "snd_update:8": "random.levelup",

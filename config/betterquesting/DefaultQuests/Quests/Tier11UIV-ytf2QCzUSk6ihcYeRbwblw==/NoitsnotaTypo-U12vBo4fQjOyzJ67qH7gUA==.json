@@ -1,0 +1,64 @@
+{
+  "questIDHigh:4": 6007149920671187507,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3281,
+      "type:1": 1
+    },
+    "1:10": {
+      "questIDHigh:4": 6393847662955875738,
+      "questIDLow:4": -8810543536998436147
+    }
+  },
+  "questIDLow:4": -5562896910886444976,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 1,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.metaitem.01",
+        "Count:3": 1,
+        "Damage:2": 30145,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "§b§lNo, it\u0027s not a Typo",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Stabilizing the neutron star of the Godforge was successful, but now you need something new to extract the power out of it into something usable. Your experiments lead you to using the newly discovered Mellion with a Transcendent Metal Nanite to create what seems like a crystal seed of some type, which exhibits perfect thermal conductance.\n\nProcessing this seed further into a solution, you realize you can grow this crystal into a slurry-like solution, which you decide to name [note]Phonon Transfer Medium[/note]. This incredible material displays exactly the properties you were looking for, and decide that now you can move forward with the first module of the Godforge."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 1,
+          "Damage:2": 30145,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {}
+}
