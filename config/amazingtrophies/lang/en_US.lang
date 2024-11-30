@@ -98,6 +98,8 @@ achievement.stargate_2.1.2.3qf=Winning the infinite race
 achievement.stargate_2.1.2.3qf.desc=Craft the UEV Gate
 achievement.stargate_2.2.3=Must... build... more... machines...
 achievement.stargate_2.2.3.desc=Craft the UMV Gate
+achievement.stargate_2.3=Universe collapsed
+achievement.stargate_2.3.desc=Craft the EOH Gate
 
 tile.amazingtrophies.trophy.sacrificial_knife.name=Sacrificial Knife Trophy
 tile.amazingtrophies.trophy.weak_blood_orb.name=Weak Blood Orb Trophy
@@ -149,3 +151,4 @@ tile.amazingtrophies.trophy.unbreakable_tconstruct_tool.name=Unbreakable Tinker'
 tile.amazingtrophies.trophy.stargate_2.1.0.0.name=Gate of Split Origin Trophy
 tile.amazingtrophies.trophy.stargate_2.1.2.3qf.name=Gate of Polychrome Contest Trophy
 tile.amazingtrophies.trophy.stargate_2.2.3.name=Gate of Dimensional Duplicity Trophy
+tile.amazingtrophies.trophy.stargate_2.3.name=Gate of Harmonic Breakthrough Trophy
