@@ -1,0 +1,96 @@
+{
+  "questIDHigh:4": 3120992369410721658,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -1663909569982545142,
+      "questIDLow:4": -4646567102207181371
+    }
+  },
+  "questIDLow:4": -6774427117513567879,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.blockmachines",
+        "Count:3": 1,
+        "Damage:2": 32027,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Balance is Everything",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "You already transcended dimensions, but as your power demands spike to absurd levels, maybe it\u0027s time to transcend matter!\n\nUsing the unbreakable stability of Proto-Halkonite, harnessing the power of [warn]Chaos[/warn] becomes a reality. The  Semi-Stable Antimatter Stabilization Sequencer introduces the concept of Semi-Stable Antimatter, created from Protomatter.\n\nBut it’s a cruel mistress... fail to manage it, and antimatter could void itself into nothingness.\n\nThe Semi-Stable Antimatter is produced in 1 second cycles, the amount generated is based on the total of antimatter currently stocked in it\u0027s 16 Antimatter Hatches and consumes equal amounts of Proto Matter.\n\nThe average change in Antimatter is equal to (§3Antimatter Total§r)^§6§n0.5§r * N(§c§n0.2§r, 0.25), where N is a Gaussian Distribution, meaning the total antimatter change may be negative.\n\nThe Produced Antimatter is distributed between the 16 hatches, sampled from N(§c§n0.2§r, 1). This causes an imbalance between the hatches. To properly automate the antimatter production, it\u0027s vital to always re-balance the amount of antimatter in the hatches. At the end of each cycle, the lowest amount of antimatter present in hatches is recorded, and any hatch that contains more than the lowest amount loses half the difference!\n\nProper use of stabilization fluids can significantly reduce energy usage and boost production:\n\nIt consumes 10,000,000 + (§3Antimatter§r * 1000)^§2§n1.5§r EU/t passively\nMagnetic Stabilization Fluids can mitigate the passive instability and have it\u0027s §2exponent§e§r reduced:\nMolten Purified Tengam Exponent \u003d §2§n1.35§r\nTachyon-Rich Fluid Exponent \u003d §2§n1.2§r\n\nFor each cycle, the SSASS uses (§3Antimatter§r * 10000)^§5§n1.5§r EU\nBy regulating the gravity containment of the forge, this §5exponent§r can also be reduced:\nMolten Spacetime Exponent \u003d §5§n1.45§r\nSpatially Enlarged Fluid Exponent \u003d §5§n1.40§r\nMolten Eternity Exponent \u003d §5§n1.35§r\n\nBy containing the antimatter more compactly, it is possible to generate larger gains per cycle. Containment Stabilization fluids alter the §6exponent§r in the production formula:\nMolten Shirabon Exponent \u003d §6§n0,55§r\nMolthen MHDSCM Exponent \u003d §6§n0,60§r\n\nBy inserting fluids with high energy potential, it\u0027s possible to alter antimatter\u0027s flow in chaos, making their randomness more favorable. Activation Stabilization Fluids alter the §cskew§r of the gaussian distribution, lowering the risks of negative changes in antimatter and favoring better gains.\nDepleted Naquadah Fuel Mk V skew \u003d §c§n0.25§r\nDepleted Naquadah Fuel Mk VI skew \u003d §c§n0.30§r"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 32027,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 16,
+          "Damage:2": 32029,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "GoodGenerator:antimatterContainmentCasing",
+          "Count:3": 512,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "GoodGenerator:magneticFluxCasing",
+          "Count:3": 2274,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "GoodGenerator:gravityStabilizationCasing",
+          "Count:3": 623,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "GoodGenerator:protomatterActivationCoil",
+          "Count:3": 126,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  },
+  "rewards:9": {}
+}
