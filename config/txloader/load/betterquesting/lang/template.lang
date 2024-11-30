@@ -6045,7 +6045,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAATg.desc=Better materials need higher te
 
 # Quest: Nichrome Coil Upgrade
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAATw.name=§6§lNichrome Coil Upgrade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAATw.desc=To reach 3600k so you can process higher tier materials like tungsten, you need nichrome heating coils.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAATw.desc=To reach 3600K so you can process higher tier materials like tungsten, you need nichrome heating coils.
 
 # Quest: Compress All the Things
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAUA.name=§6§lCompress All the Things
@@ -6073,11 +6073,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAVw.desc=Do you want to have tanks that 
 
 # Quest: HSS-G Coil Upgrade
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB2w.name=§6§lHSS-G Coil Upgrade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAB2w.desc=To process more advanced materials like HSS-E, HSS-S and naquadah you need more than 4500K. Time to upgrade your EBF to 5400k.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAB2w.desc=To process more advanced materials like HSS-E, HSS-S and naquadah you need more than 4500K. Time to upgrade your EBF to 5400K.
 
 # Quest: Naquadah Coil Upgrade
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB3A.name=§6§lNaquadah Coil Upgrade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAB3A.desc=To process more advanced materials like naquadah alloy you need more than 6300K. Upgrade your EBF to 7200k to increase the heat.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAB3A.desc=To process more advanced materials like naquadah alloy you need more than 6300K. Upgrade your EBF to 7200K to increase the heat.
 
 # Quest: Naquadah Alloy Coil Upgrade
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB3Q.name=§6§lNaquadah Alloy Coil Upgrade
@@ -6217,7 +6217,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAH6w.desc=If you want energy from Lava an
 
 # Quest: Electrum Flux Coil Upgrade
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHGQ.name=§6§lElectrum Flux Coil Upgrade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHGQ.desc=To process more advanced materials like Cosmic Neutronium, Tritanium and Awakened Draconium you need more than 9000K. Upgrade your EBF to 9900k.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHGQ.desc=To process more advanced materials like Cosmic Neutronium, Tritanium and Awakened Draconium you need more than 9000K. Upgrade your EBF to 9900K.
 
 # Quest: Grinding With Wind
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHKA.name=§6§lGrinding With Wind
@@ -6225,7 +6225,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHKA.desc=The Windmill is a grinder that 
 
 # Quest: Awakened Draconium Coil Upgrade
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHKQ.name=§6§lAwakened Draconium Coil Upgrade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHKQ.desc=To process the most advanced materials like Infinity Catalyst or Infinity you need more than 9900K. Upgrade your EBF to 10800k.%n%n[note]With the heat adjustment included, you can get up to 11601K if you OC with UHV hatches. Not that you need it or anything.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHKQ.desc=To process the most advanced materials like Infinity Catalyst or Infinity you need more than 9900K. Upgrade your EBF to 10800K.%n%n[note]With the heat adjustment included, you can get up to 11601K if you OC with UHV hatches. Not that you need it or anything.[/note]
 
 # Quest: Helium is Not Just for Balloons
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHcA.name=§6§lHelium is Not Just for Balloons
@@ -6313,11 +6313,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALKA.desc=The ability to rotate MBs and v
 
 # Quest: HSS-S Coil Upgrade
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALTA.name=§6§lHSS-S Coil Upgrade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALTA.desc=Technically this coil tier can be skipped. But you need LuV to get the next one, so you should really get these coils for now.%n%n%nTo process more advanced materials like LuV Superconductor Base you need more than 5400K. Time to upgrade your EBF to 6300k.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALTA.desc=Technically this coil tier can be skipped. But you need LuV to get the next one, so you should really get these coils for now.%n%n%nTo process more advanced materials like LuV Superconductor Base you need more than 5400K. Time to upgrade your EBF to 6300K.
 
 # Quest: Trinium Coil Upgrade
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALTQ.name=§6§lTrinium Coil Upgrade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALTQ.desc=To process more advanced materials like neutronium or fluxed electrum you need more than 8100K. Upgrade your EBF to 9001k. (OVER 9000!!!)
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALTQ.desc=To process more advanced materials like neutronium or fluxed electrum you need more than 8100K. Upgrade your EBF to 9001K. (OVER 9000!!!)
 
 # Quest: Neutron Activator
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALeA.name=§6§lNeutron Activator
@@ -6377,7 +6377,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMSA.desc=Milling process is an alternati
 
 # Quest: Infinity Coil Upgrade
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkQ.name=§6§lInfinity Coil Upgrade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkQ.desc=Smelting with the ferocity of the universe itself.%n%nThis unbelievable material seemed impossible to manipulate into a coil block form, even though its properties made this desirable. It is incredibly stable even at extreme temperatures, but this also made it unable to pack together for coils.%n%nHowever, the situation changed when you thought about using something more intelligent. By integrating a Wetware or better UHV circuit, the Infinity Coil became a reality, controlled by the ever-watching eyes of the circuitry you've spent months to create. From now on, these eyes will watch over your multiblocks.%n%nProvides 11701 heat. You could upgrade your EBF, though at this point it's more likely to be for your MEBFs or your DTPF.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkQ.desc=Smelting with the ferocity of the universe itself.%n%nThis unbelievable material seemed impossible to manipulate into a coil block form, even though its properties made this desirable. It is incredibly stable even at extreme temperatures, but this also made it unable to pack together for coils.%n%nHowever, the situation changed when you thought about using something more intelligent. By integrating a Wetware or better UHV circuit, the Infinity Coil became a reality, controlled by the ever-watching eyes of the circuitry you've spent months to create. From now on, these eyes will watch over your multiblocks.%n%nProvides 11701K heat. You could upgrade your EBF, though at this point it's more likely to be for your MEBFs or your DTPF.
 
 # Quest: Algae Pond
 betterquesting.quest.Ds_ok-hRS2ODJNs3LUP9kw.name=Algae Pond
