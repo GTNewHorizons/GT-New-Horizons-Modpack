@@ -463,7 +463,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [ToroHealth](https://github.com/GTNewHorizons/ToroHealth) | 1.1.0 |
 | [Translocators](https://github.com/GTNewHorizons/Translocators) | 1.2.1 |
 | [Travellers Gear](https://www.curseforge.com/minecraft/mc-mods/travellers-gear) | 1.16.6 |
-| [TravellersGearNeo](https://github.com/GTNewHorizons/TravellersGearNeo) | 1.2.2 |
+| [TravellersGearNeo](https://github.com/GTNewHorizons/TravellersGearNeo) | 1.2.3 |
 | [twilightforest](https://github.com/GTNewHorizons/twilightforest) | 2.6.35 |
 | [TX-Loader](https://github.com/GTNewHorizons/TX-Loader) | 1.7.2 |
 | [UniLib](https://legacy.curseforge.com/minecraft/mc-mods/unilib) | 1.0.3 |
