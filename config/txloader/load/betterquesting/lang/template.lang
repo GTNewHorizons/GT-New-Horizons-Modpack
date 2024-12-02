@@ -1648,7 +1648,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADUg.desc=Hopefully you saved some sulfur
 
 # Quest: Acetic Acid
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADVA.name=§6§lAcetic Acid
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADVA.desc=Acetic acid can be made out of oxygen and ethylene. Alternatively, it can be made out of biomass, wood vinegar or vinegar.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADVA.desc=Acetic acid can be made out of Oxygen and Ethylene. Alternatively, it can be made out of Biomass, Wood Vinegar or Vinegar. It is an important part of making Ethenone on your way to Cetane-Boosted Diesel.
 
 # Quest: Iron (III) Chloride
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD_A.name=§6§lIron (III) Chloride
@@ -2265,7 +2265,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHFQ.desc=The next step is to mix methane
 
 # Quest: Polytetrafluoroethylene
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHFg.name=§9§lPolytetrafluoroethylene
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHFg.desc=Molten plastics smell great, don't they? Mix your hydrofluoric acid and chloroform to make tetrafluoroethylene. React the TFE with oxygen to make molten PTFE.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHFg.desc=Molten plastics smell great, don't they? Mix your Hydrofluoric Acid and Chloroform to make Tetrafluoroethylene. React the TFE with oxygen to make molten PTFE.%n%n[note]To get the 125 sheets without any leftovers or anything missing, follow the amounts of the optional quest and use the recipe that uses 1000L of Tetrafluoroethylene and 7000L of Oxygen. [/note]
 
 # Quest: How Much is Too Much Fluid?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHFw.name=§9§lHow Much is Too Much Fluid?
