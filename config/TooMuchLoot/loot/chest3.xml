@@ -6,11 +6,11 @@
 	<loot item="minecraft:cake" damage="0" weight="30" count_min="1" count_max="1"/>
 	<loot item="JABBA:mover" damage="0" weight="10" count_min="1" count_max="1"/>
 	<loot item="dreamcraft:item.SteelBars" damage="0" weight="20" count_min="4" count_max="8"/>
-	<loot item="Forestry:ffarm" damage="0" nbt="{FarmBlock:0}" weight="20" count_min="1" count_max="2"/>
-	<loot item="Forestry:ffarm" damage="2" nbt="{FarmBlock:0}" weight="20" count_min="8" count_max="16"/>
+	<loot item="Forestry:ffarm" damage="0" nbt="{FarmBlock:0}" weight="20" count_min="8" count_max="16"/>
+	<loot item="Forestry:ffarm" damage="2" nbt="{FarmBlock:0}" weight="20" count_min="4" count_max="8"/>
 	<loot item="Forestry:ffarm" damage="3" nbt="{FarmBlock:0}" weight="20" count_min="4" count_max="8"/>
 	<loot item="Forestry:ffarm" damage="4" nbt="{FarmBlock:0}" weight="20" count_min="4" count_max="8"/>
-	<loot item="Forestry:ffarm" damage="5" nbt="{FarmBlock:0}" weight="20" count_min="4" count_max="8"/>
+	<loot item="Forestry:ffarm" damage="5" nbt="{FarmBlock:0}" weight="20" count_min="1" count_max="2"/>
 	<loot item="Forestry:factory" damage="1" weight="10" count_min="1" count_max="1"/>
 	<loot item="EnderIO:blockTank" damage="0" weight="15" count_min="1" count_max="2"/>	
 	<loot item="openmodularturrets:hardWallTierOne" damage="0" weight="25" count_min="10" count_max="20"/>
