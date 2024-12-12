@@ -2,12 +2,8 @@
   "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 1162181130482500484,
-      "questIDLow:4": -8199803816494517045
-    },
-    "1:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 1493
+      "questIDLow:4": 1416
     }
   },
   "questIDLow:4": 2039,
@@ -35,7 +31,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "The Amazon Warehousing Depot is the ultimate for all your packing needs. Got tiny and small dusts coming out of your ears? This is the machine for you.\n\n[note]This multi is LuV.[/note]"
+      "desc:8": "The Amazon Warehousing Depot is the ultimate for all your packing needs. Got tiny and small dusts coming out of your ears? This is the machine for you."
     }
   },
   "tasks:9": {

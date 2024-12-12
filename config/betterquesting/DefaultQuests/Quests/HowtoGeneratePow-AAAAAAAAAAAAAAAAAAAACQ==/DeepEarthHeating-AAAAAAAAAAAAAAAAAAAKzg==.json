@@ -3,15 +3,7 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 1680
-    },
-    "1:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 1905
-    },
-    "2:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 1412
+      "questIDLow:4": 1707
     }
   },
   "questIDLow:4": 2766,
@@ -37,7 +29,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "This allows you to skip the Fluid Reactor part of a FR setup, by heating the coolant with geothermal energy.\n\nIt\u0027s basically free power!"
+      "desc:8": "With the power of §cgeothermal energy§r, the Deep Earth Heating Pump can heat up Coolant or boil Distilled Water to create an energy source from the Earth\u0027s core.\n\nBy using a Heat Exchanger, you can convert the Hot Coolant into steam and use it in your turbines.\n\nAlternatively, you can make it output Superheated Steam directly, but only at 66% of the efficiency the hot coolant can achieve"
     }
   },
   "tasks:9": {

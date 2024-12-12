@@ -1,0 +1,11 @@
+{
+  "id": "stargate_2.3",
+  "condition": {
+    "type": "achievement",
+    "id": "stargate_2.3"
+  },
+  "model": {
+    "type": "item",
+    "registryName": "dreamcraft:item.HarmonicGatePlate"
+  }
+}

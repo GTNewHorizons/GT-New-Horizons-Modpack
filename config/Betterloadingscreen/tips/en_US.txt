@@ -6,66 +6,64 @@
 #Adventurer's backpack? Did you mean integrated crafting grid, bed and fluid
 #
 Infinite water sources are disabled
-Got a question? Join our Discord server: discord.com/invite/EXshrPV
 Don't give ideas to 0lafe
 Don't feed your machines after midnight!
-Make sure you have installed a backup mod
+Don't worry, ServerUtilities takes care of backups
 Material tiers play a role when breaking pipes
 If a machine catches fire, it can explode
 Adding water to an empty but hot Boiler will make a loud bang!
-Avoid eldritch obelisks!
-You can bind the quests menu to a key, instead of using the book
-Pam's gardens can be picked up with right-click
-Placing a garden makes it spread
-Water gardens grow on water
+Avoid Eldritch Obelisks!
+You can bind the questbook to a key to save you from using the item
+Pam's Gardens can be picked up with right-click
+Placing a Garden makes it spread
+Water Gardens grow on water
 Battlegear slots are convenient for holding weapons
-Taking lava without gloves hurts!
+Taking Lava without gloves hurts!
 Watch out, food loses saturation
 Loot Games give helpful rewards
-Using too many translocators can cause TPS lag
+Using too many Translocators can cause TPS lag
 Be sure to check out what you can do with Mouse Tweaks
-Protect your machines on all sides from rain!
+Protect your machines from rain on all sides!
 Build multiblocks within the same chunk!
-You will lose your first piece of aluminium dust in the EBF
+You will lose your first piece of Aluminium dust in the EBF
 Shift-right-clicking with a wrench on a fluid pipe makes it output-only
 The Bending Machine makes plates more efficiently
 Multiblocks can share walls
-You can't use the front side of machines
-Disable a machine with a Soft Mallet if it can not finish a recipe
-Forestry Worktables are a must!
+You can't use the front side of machines for input and output
+Disable a machine with a Soft Mallet if it cannot finish a recipe
+Forestry Worktables are your friend
 Try the Midnight Theme for the questbook
 Try the Realistic Sky resourcepack
 Literally flint and steel!
-Tinker's tools can levelup: more modifiers and mining level bonus!
-Farm Glowflowers for glowstone
-Making steel armour? Check out the Composite Chestplate
-Adventurer's backpack: integrated crafting grid, bed and fluid storage
+Tinker's Tools can levelup: more modifiers and mining level bonus!
+Farm Glowflowers for Glowstone
+Making Steel armour? Check out the Composite Chestplate
+Adventurer's Backpack: integrated crafting grid, bed and fluid storage
 Beware of cable power loss!
 Machines that get a higher Voltage than they can handle go BOOM!
 Loss on uninsulated cables is twice as big as on insulated ones
 Power requirements are based solely on the recipes
 A machine draws electricity from its internal buffer first
-Tinker's faucets can pour fluids and also gasses(!) into containers
+Tinker's Faucets can pour fluids and also gasses(!) into containers
 Beware of pollution!
-Found a bug? Report it on GitHub
-Tinker's smeltery does not double ores
-Be sure to check out the wiki: wiki.gtnewhorizons.com
-Perditio and vanadiumsteel picks and hammers are really fast
+Found a crash or bug? Please report it on GitHub
+Tinker's Smeltery does not double ores
+Be sure to check out our wiki: wiki.gtnewhorizons.com
+Perditio and Vanadiumsteel Pickaxes and Hammers are really fast
 Look for ore chunks by pressing F9 three times
 Nerfs incoming!
-You can plant oreberries on cropsticks
+You can plant Oreberries on Cropsticks, but mind the light level
 IC2 Crops can receive bonus environmental statistics based on biome
 Weeds spread to empty crop sticks and destroy other crops
 Use Machine Hulls or Transvector Interfaces to ease machine access
-Steam in pipes or coming out of machines hurts!
-You can apply Fortune to brittle charcoal if using the Charcoal Pile Igniter
+Steam flowing through pipes or coming out of machines hurts!
+You can use Fortune on Brittle Charcoal from the Charcoal Pile Igniter
 Pay attention to Voltage and Amperage of cables and machines!
 Warp is no fun, got a wither in your base already?
 There are fourteen Voltage tiers: from LV(32V) to MAX(2147483647V)
 Going one Voltage tier up, means quadrupling Voltage requirements
-Ten first Voltage tiers are fully implemented
 Shift-click with a GT-Block on a cable/pipe/etc to auto-connect it
-Read the quest book, it explains many mechanics
+Read the fine questbook, it explains many mechanics
 You can bookmark items with NEI ("a" by default)
 It's NEI, not JEI. Use it frequently.
 Your pick is not ready
@@ -86,10 +84,10 @@ This modpack makes me unhappy. But it's the good kind of unhappy. - LogicFalls
 GTNH you never fail to frustrate, but i love you all the same - Elusive Ent
 I've jabbed my screwdriver and my fist into it every way I can think of. - Axiflare
 Useless coins that are actually useful. - Scribit
-If a fluid cell doesn't work, try using a fluid canner
-Use /xu_tps to see if the server's lagging. 20 TPS is normal!
-Use an elevator to get in your Cleanroom, so you won't lose cleanliness!
-If you aren't lucky enough, try enchanting your lootbags with Fortune III!
+If a fluid cell doesn't work, try using a Fluid Canner
+Use /xu_tps to see if the server's lagging. 20 TPS is normal
+Use an Elevator to get into your Cleanroom, so you won't lose cleanliness!
+Only getting bad drops? Try enchanting your Lootbags with Fortune III!
 You can't enter the Twilight Forest without a Quick And Dirty Portal Generator
 Press T while hovering on an item in NEI to see where it is in your world.
 Using a Circuit Assembler will make circuits cheaper!
@@ -97,7 +95,7 @@ Using a Cleanroom will make circuits even cheaper!
 GT stands for Grind and Tedium
 Don't go out at night! Mobs can have up to 300 HP
 Steam is hot! It will burn Wooden Fluid Pipes
-Don't break rubber trees without a treetap
+Don't break Rubber Trees without a Treetap
 Make Muffler Moint Mup (Point up)
 Your EBF won't work if the muffler doesn't point to the sky!
 Eating too many of the same food will make you hate it!
@@ -108,12 +106,12 @@ When you open a Twilight Portal, you'll get hit by lightning
 #Sometimes it's better to flee than fight some mobs
 Sometimes the best combat strategy is "Run away!"
 You can power machines by putting batteries in their energy slots
-You can charge your jetpack by putting it in the Energy slot of LV machines
+You can charge your Jetpack by putting it in the energy slot of LV machines
 Be prepared to take hours to craft a single machine!
 Oil + Thunder = Fire. Remember to put cobblestone over your oil wells!
 Nuclear Reactor configs give 10x the energy they give in IC2!
-Remember to plant cotton - you'll need a ton of it
-It's aluminIum, not aluminum
+Remember to plant Cotton - you'll need a ton of it
+It's AluminIum, not Aluminum
 #Sometimes it's better to buy than to craft
 Many ingots can only be smelted in the Electric Blast Furnace
 Use F7 to see spots where mobs can spawn!
@@ -125,17 +123,17 @@ Hahahaha, coin quests go brrrrrrr
 If you're making a Project Red system, make sure to use a wall of drawers!
 How many circuits have you crafted in your life?
 JourneyMap: Press [J]
-Not by Vazkii
+Not a modpack by Vazkii
 sqrt(-1) loves you!
-((MultiMC | Prism) > Curse) && (Technic > Curse): true
+((MultiMC | Prism) > Curse) && (Technic > Curse) == true
 All you had to do was follow the damn quest line, CJ!
-Click on an item in the quest book to show its recipe in NEI
-Why not visit GregTech? We have... microcrafting
+Click on an item in the questbook to show its recipe in NEI
+Come to the GregTech-side? We have... microcrafting
 Cables are | || || |_ y
 Varying foods gives hearts!
 You can change InGame Info XML scale in ingame configs
-Look for sulfur in the Nether
-Game mechanics datasheet: bit.ly/gtnh-datasheets
+Look for Sulfur in the Nether
+Game mechanics datasheet: www.gtnewhorizons.com/spreadsheet
 If it's too tedious you're doing it wrong
 Do you also watch your oven while baking food?
 There's always something else you can do while waiting
@@ -148,16 +146,16 @@ Was making HV connection. Missclicked and placed MV engraver - LewisSaber
 Destroyed once a Tier 1 rocket by accidentally pressing shift - Regian
 Visit r/feedthememes!
 I WANT ROCKET I WANT MOON - St4o
-Shift + Right Click on a GregTech Cover to open the menu
+Shift-right click on a GregTech Cover to open the menu
 Looking for Infused Stones? Try putting Amber in an Ore Finder Wand
-Remove plates from machines using a crowbar
+Remove plates and covers from machines using a Crowbar
 To divide items with a ratio, use the Distributor. Configure with a screwdriver
 Stay one tier ahead of DreamMasterXXL!
-You can power machines by putting redstone in their energy slots
+You can power machines by putting Redstone in their energy slots
 UwU
 HV to MV, yes - Threefold
 Daddy Kitten has no power over staff - boubou_19
 Try downloading more RAM
 Try downloading more WAM
 The Item Dislocator is available sooner than you might think!
-Please, refrain from eating optical fiber cable.
+Please, refrain from eating optical fiber cable
