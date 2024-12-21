@@ -381,14 +381,6 @@
 	<ToolTip ItemName="thaumicboots:item.ItemQuantumComet:1" ToolTip="Recharge in a §8EV-tier §7Machine" NBT=""/>
 	<ToolTip ItemName="thaumicboots:item.ItemQuantumComet:325" ToolTip="Recharge in a §8EV-tier §7Machine" NBT=""/>
 	
-//Thaumic Tinkers
-	<ToolTip ItemName="ThaumicTinkerer:fireFire" ToolTip="§4ELEMENTAL firespread disabled" NBT=""/>
-	<ToolTip ItemName="ThaumicTinkerer:fireOrder" ToolTip="§4ELEMENTAL firespread disabled" NBT=""/>        
-	<ToolTip ItemName="ThaumicTinkerer:fireEarth" ToolTip="§4ELEMENTAL firespread disabled" NBT=""/>	
-	<ToolTip ItemName="ThaumicTinkerer:fireWater" ToolTip="§4ELEMENTAL firespread disabled" NBT=""/>		
-	<ToolTip ItemName="ThaumicTinkerer:fireChaos" ToolTip="§4ELEMENTAL firespread disabled" NBT=""/>
-	<ToolTip ItemName="ThaumicTinkerer:fireAir" ToolTip="§4ELEMENTAL firespread disabled" NBT=""/>
-	
 //Tinkers Construct
 	<ToolTip ItemName="TConstruct:Smeltery" ToolTip="§3Some metals processed in smeltery don't meet the purity requirement for GregTech processing." NBT=""/>
 	<ToolTip ItemName="TConstruct:LavaTank" ToolTip="§3Some metals processed in smeltery don't meet the purity requirement for GregTech processing." NBT=""/>
