@@ -90,14 +90,6 @@
         "1:10": {
           "id:8": "miscutils:dustRadium226",
           "Count:3": 8,
-          "tag:10": {
-            "TickableItem:10": {
-              "maxTick:4": 90000,
-              "CreationDate:4": 422439,
-              "Tick:4": 0,
-              "isActive:4": 1
-            }
-          },
           "Damage:2": 0,
           "OreDict:8": ""
         },
