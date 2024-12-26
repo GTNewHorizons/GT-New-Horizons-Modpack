@@ -16,16 +16,8 @@
       "isMain:1": 1,
       "simultaneous:1": 0,
       "icon:10": {
-        "id:8": "gregtech:flintSword",
+        "id:8": "minecraft:wooden_sword",
         "Count:3": 1,
-        "tag:10": {
-          "ench:9": {
-            "0:10": {
-              "lvl:2": 1,
-              "id:2": 20
-            }
-          }
-        },
         "Damage:2": 0,
         "OreDict:8": ""
       },
@@ -34,7 +26,7 @@
       "globalShare:1": 1,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "§1§lSharpness: Over... 5...",
+      "name:8": "§1§lMonster Hunter",
       "isGlobal:1": 0,
       "lockedProgress:1": 1,
       "autoClaim:1": 0,
@@ -53,16 +45,8 @@
       "allowAnvil:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:flintSword",
+          "id:8": "minecraft:wooden_sword",
           "Count:3": 1,
-          "tag:10": {
-            "ench:9": {
-              "0:10": {
-                "lvl:2": 1,
-                "id:2": 20
-              }
-            }
-          },
           "Damage:2": 0,
           "OreDict:8": ""
         }
@@ -74,6 +58,7 @@
     "0:10": {
       "rewardID:8": "bq_standard:item",
       "index:3": 0,
+      "ignoreDisabled:1": 0,
       "rewards:9": {
         "0:10": {
           "id:8": "dreamcraft:item.CoinSmith",

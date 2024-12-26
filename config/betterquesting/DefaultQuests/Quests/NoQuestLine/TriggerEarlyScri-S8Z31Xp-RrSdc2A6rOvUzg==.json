@@ -56,7 +56,8 @@
     "0:10": {
       "questID:8": "AAAAAAAAAAAAAAAAAAAESA\u003d\u003d",
       "rewardID:8": "bq_standard:questcompletion",
-      "index:3": 0
+      "index:3": 0,
+      "ignoreDisabled:1": 1
     }
   }
 }

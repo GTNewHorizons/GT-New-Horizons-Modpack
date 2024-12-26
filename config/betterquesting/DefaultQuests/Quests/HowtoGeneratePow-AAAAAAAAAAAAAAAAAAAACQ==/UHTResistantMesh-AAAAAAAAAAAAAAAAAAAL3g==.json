@@ -15,8 +15,12 @@
       "isMain:1": 0,
       "simultaneous:1": 0,
       "icon:10": {
-        "id:8": "GalaxySpace:item.DysonSwarmParts",
+        "id:8": "betterquesting:placeholder",
         "Count:3": 1,
+        "tag:10": {
+          "orig_meta:3": 3,
+          "orig_id:8": "GalaxySpace:item.DysonSwarmParts"
+        },
         "Damage:2": 3,
         "OreDict:8": ""
       },
@@ -139,14 +143,22 @@
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "GalaxySpace:item.DysonSwarmParts",
+          "id:8": "betterquesting:placeholder",
           "Count:3": 1,
+          "tag:10": {
+            "orig_meta:3": 4,
+            "orig_id:8": "GalaxySpace:item.DysonSwarmParts"
+          },
           "Damage:2": 4,
           "OreDict:8": ""
         },
         "1:10": {
-          "id:8": "GalaxySpace:item.DysonSwarmParts",
+          "id:8": "betterquesting:placeholder",
           "Count:3": 1,
+          "tag:10": {
+            "orig_meta:3": 5,
+            "orig_id:8": "GalaxySpace:item.DysonSwarmParts"
+          },
           "Damage:2": 5,
           "OreDict:8": ""
         }
@@ -162,14 +174,22 @@
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "GalaxySpace:item.DysonSwarmParts",
+          "id:8": "betterquesting:placeholder",
           "Count:3": 4,
+          "tag:10": {
+            "orig_meta:3": 1,
+            "orig_id:8": "GalaxySpace:item.DysonSwarmParts"
+          },
           "Damage:2": 1,
           "OreDict:8": ""
         },
         "1:10": {
-          "id:8": "GalaxySpace:item.DysonSwarmParts",
+          "id:8": "betterquesting:placeholder",
           "Count:3": 4,
+          "tag:10": {
+            "orig_meta:3": 2,
+            "orig_id:8": "GalaxySpace:item.DysonSwarmParts"
+          },
           "Damage:2": 2,
           "OreDict:8": ""
         }
@@ -185,8 +205,12 @@
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "GalaxySpace:item.DysonSwarmParts",
+          "id:8": "betterquesting:placeholder",
           "Count:3": 1,
+          "tag:10": {
+            "orig_meta:3": 3,
+            "orig_id:8": "GalaxySpace:item.DysonSwarmParts"
+          },
           "Damage:2": 3,
           "OreDict:8": ""
         }
@@ -198,6 +222,7 @@
     "0:10": {
       "rewardID:8": "bq_standard:choice",
       "index:3": 0,
+      "ignoreDisabled:1": 0,
       "choices:9": {
         "0:10": {
           "id:8": "enhancedlootbags:lootbag",
@@ -206,8 +231,12 @@
           "OreDict:8": ""
         },
         "1:10": {
-          "id:8": "GalaxySpace:item.DysonSwarmParts",
+          "id:8": "betterquesting:placeholder",
           "Count:3": 16,
+          "tag:10": {
+            "orig_meta:3": 3,
+            "orig_id:8": "GalaxySpace:item.DysonSwarmParts"
+          },
           "Damage:2": 3,
           "OreDict:8": ""
         }
@@ -216,6 +245,7 @@
     "1:10": {
       "rewardID:8": "bq_standard:item",
       "index:3": 1,
+      "ignoreDisabled:1": 0,
       "rewards:9": {
         "0:10": {
           "id:8": "dreamcraft:item.CoinTechnicianIII",

@@ -50,6 +50,7 @@
     "0:10": {
       "rewardID:8": "bq_standard:item",
       "index:3": 0,
+      "ignoreDisabled:1": 0,
       "rewards:9": {
         "0:10": {
           "id:8": "betterquesting:extra_life",
@@ -62,6 +63,7 @@
     "1:10": {
       "rewardID:8": "bq_standard:item",
       "index:3": 1,
+      "ignoreDisabled:1": 0,
       "rewards:9": {
         "0:10": {
           "id:8": "dreamcraft:item.CoinTechnicianII",
@@ -74,6 +76,7 @@
     "2:10": {
       "rewardID:8": "bq_standard:item",
       "index:3": 2,
+      "ignoreDisabled:1": 0,
       "rewards:9": {
         "0:10": {
           "id:8": "dreamcraft:item.CoinDarkWizardII",
@@ -86,6 +89,7 @@
     "3:10": {
       "rewardID:8": "bq_standard:item",
       "index:3": 3,
+      "ignoreDisabled:1": 0,
       "rewards:9": {
         "0:10": {
           "id:8": "dreamcraft:item.CoinSurvivorII",
