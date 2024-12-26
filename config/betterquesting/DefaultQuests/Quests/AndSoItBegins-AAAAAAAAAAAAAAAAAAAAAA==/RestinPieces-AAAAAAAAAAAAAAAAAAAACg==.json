@@ -31,7 +31,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "It\u0027s GLOPPing time! Go kill some pigs to gather meat. If you kill them with flint tool, they will drop cooked porkchops. Now isn\u0027t that useful!"
+      "desc:8": "It\u0027s GLOPPing time! Go kill some pigs to gather meat."
     }
   },
   "tasks:9": {
@@ -176,6 +176,7 @@
     "0:10": {
       "rewardID:8": "bq_standard:item",
       "index:3": 0,
+      "ignoreDisabled:1": 0,
       "rewards:9": {
         "0:10": {
           "id:8": "minecraft:cooked_porkchop",
@@ -188,6 +189,7 @@
     "1:10": {
       "rewardID:8": "bq_standard:item",
       "index:3": 1,
+      "ignoreDisabled:1": 0,
       "rewards:9": {
         "0:10": {
           "id:8": "dreamcraft:item.CoinSurvivor",

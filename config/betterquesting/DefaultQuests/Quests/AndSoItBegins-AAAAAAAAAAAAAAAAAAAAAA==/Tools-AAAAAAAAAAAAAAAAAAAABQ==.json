@@ -16,9 +16,8 @@
       "isMain:1": 1,
       "simultaneous:1": 0,
       "icon:10": {
-        "id:8": "gregtech:flintPickaxe",
+        "id:8": "minecraft:wooden_pickaxe",
         "Count:3": 1,
-        "tag:10": {},
         "Damage:2": 0,
         "OreDict:8": ""
       },
@@ -32,7 +31,7 @@
       "lockedProgress:1": 1,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Now that you\u0027ve got a shelter and a crafting table, you should make some tools, unless you\u0027d like to continue punching trees with your bare hands.\n\nYou should probably make the shovel first so you can get gravel for the rest more easily."
+      "desc:8": "Now that you\u0027ve got a shelter and a crafting table, you should make some tools, unless you\u0027d like to continue punching trees with your bare hands.\n\nYou should probably make the axe first so you can get wood for the rest more easily."
     }
   },
   "tasks:9": {
@@ -46,33 +45,25 @@
       "allowAnvil:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:flintPickaxe",
+          "id:8": "minecraft:wooden_pickaxe",
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": ""
         },
         "1:10": {
-          "id:8": "gregtech:flintShovel",
+          "id:8": "minecraft:wooden_shovel",
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": ""
         },
         "2:10": {
-          "id:8": "gregtech:flintAxe",
+          "id:8": "minecraft:wooden_axe",
           "Count:3": 1,
-          "tag:10": {
-            "ench:9": {
-              "0:10": {
-                "lvl:2": 1,
-                "id:2": 20
-              }
-            }
-          },
           "Damage:2": 0,
           "OreDict:8": ""
         },
         "3:10": {
-          "id:8": "gregtech:flintHoe",
+          "id:8": "minecraft:wooden_hoe",
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": ""
@@ -85,9 +76,10 @@
     "0:10": {
       "rewardID:8": "bq_standard:choice",
       "index:3": 0,
+      "ignoreDisabled:1": 0,
       "choices:9": {
         "0:10": {
-          "id:8": "minecraft:flint",
+          "id:8": "minecraft:planks",
           "Count:3": 10,
           "Damage:2": 0,
           "OreDict:8": ""
@@ -109,6 +101,7 @@
     "1:10": {
       "rewardID:8": "bq_standard:item",
       "index:3": 1,
+      "ignoreDisabled:1": 0,
       "rewards:9": {
         "0:10": {
           "id:8": "dreamcraft:item.CoinSmith",
