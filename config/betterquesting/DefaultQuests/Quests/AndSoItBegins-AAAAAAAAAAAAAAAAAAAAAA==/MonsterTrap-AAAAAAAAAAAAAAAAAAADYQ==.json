@@ -57,6 +57,7 @@
     "0:10": {
       "rewardID:8": "bq_standard:choice",
       "index:3": 0,
+      "ignoreDisabled:1": 0,
       "choices:9": {
         "0:10": {
           "id:8": "minecraft:torch",

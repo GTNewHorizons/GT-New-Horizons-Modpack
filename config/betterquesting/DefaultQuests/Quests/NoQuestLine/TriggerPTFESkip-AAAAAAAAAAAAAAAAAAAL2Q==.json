@@ -55,17 +55,20 @@
     "0:10": {
       "questID:8": "AAAAAAAAAAAAAAAAAAAHFg\u003d\u003d",
       "rewardID:8": "bq_standard:questcompletion",
-      "index:3": 0
+      "index:3": 0,
+      "ignoreDisabled:1": 1
     },
     "1:10": {
       "questID:8": "AAAAAAAAAAAAAAAAAAAHFA\u003d\u003d",
       "rewardID:8": "bq_standard:questcompletion",
-      "index:3": 1
+      "index:3": 1,
+      "ignoreDisabled:1": 1
     },
     "2:10": {
       "questID:8": "AAAAAAAAAAAAAAAAAAAHFQ\u003d\u003d",
       "rewardID:8": "bq_standard:questcompletion",
-      "index:3": 2
+      "index:3": 2,
+      "ignoreDisabled:1": 1
     }
   }
 }

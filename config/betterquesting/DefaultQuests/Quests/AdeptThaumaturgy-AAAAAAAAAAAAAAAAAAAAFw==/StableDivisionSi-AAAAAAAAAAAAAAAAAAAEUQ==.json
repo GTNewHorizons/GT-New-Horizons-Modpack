@@ -488,6 +488,7 @@
     "0:10": {
       "rewardID:8": "bq_standard:item",
       "index:3": 0,
+      "ignoreDisabled:1": 0,
       "rewards:9": {
         "0:10": {
           "id:8": "minecraft:beacon",
@@ -512,6 +513,7 @@
     "1:10": {
       "rewardID:8": "bq_standard:item",
       "index:3": 1,
+      "ignoreDisabled:1": 0,
       "rewards:9": {
         "0:10": {
           "id:8": "dreamcraft:item.CoinSurvivorII",
