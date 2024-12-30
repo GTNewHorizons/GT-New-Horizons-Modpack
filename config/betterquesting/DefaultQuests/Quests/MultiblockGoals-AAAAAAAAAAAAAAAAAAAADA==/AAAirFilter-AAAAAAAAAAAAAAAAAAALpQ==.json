@@ -61,13 +61,13 @@
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "dreamcraft:gt.blockcasingsNH",
+          "id:8": "gregtech:gt.blockcasingsNH",
           "Count:3": 8,
           "Damage:2": 1,
           "OreDict:8": ""
         },
         "1:10": {
-          "id:8": "dreamcraft:gt.blockcasingsNH",
+          "id:8": "gregtech:gt.blockcasingsNH",
           "Count:3": 13,
           "Damage:2": 0,
           "OreDict:8": ""
