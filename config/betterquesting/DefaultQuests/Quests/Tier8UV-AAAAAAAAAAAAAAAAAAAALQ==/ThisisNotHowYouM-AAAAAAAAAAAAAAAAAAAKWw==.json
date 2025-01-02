@@ -1,5 +1,4 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
@@ -14,134 +13,135 @@
       "questIDLow:4": 2635
     }
   },
-  "questIDLow:4": 2651,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL",
-      "isMain:1": 1,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "In order to make Wetware circuits, you\u0027ll need Sterilized Growth Catalyst Medium and Stemcells.\n\nTo begin, you will first need Bacteria which you can get through the Bacterial Vat or the Brewing Machine. The vat recipe is more efficient, but you need a culture for it so you need to start with the brewing recipe. The Bacterial Vat needs at least Bismuth rods in the Radio Hatch for the proper Sievert and at least EV-tier glass to make Bacteria. There are also 3 different recipes, so you can use a higher tier one later if you like.\n\nYou\u0027ll also need Mince Meat and Agar. You\u0027ll want a stable supply of meat such as a fish farm, a standard animal farm, or IC2 Meatrose/Goldfish farm.\n\nAgar has a more complicated processing chain, but it\u0027s nothing compared to Platinum. You\u0027ll need even more meat for it.\n\nUse some of the Bacteria to create an Ova Evolutionis culture (15% chance), and then place that in the Bacterial Vat\u0027s controller. The Bacterial Vat also needs at least Uranium rods in the Radio Hatch for the proper Sievert and at least IV-tier glass to make Raw Growth Catalyst Medium. There are higher tier recipes for this as well.\n\n[note]Cultures are NOT consumed in the Bacterial Vat.[/note]",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "bartworks:BioLabParts",
         "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "bartworks:BioLabParts",
         "tag:10": {
-          "Plasmid:10": {
-            "Rarity:1": 3,
-            "Tier:3": 2,
-            "Name:8": "OvumBac",
-            "Chance:3": 1500
-          },
-          "DNA:10": {
-            "Rarity:1": 3,
-            "Tier:3": 2,
-            "Name:8": "OvumBac",
-            "Chance:3": 1500
-          },
           "Breedable:1": 0,
           "Color:11": [
             223,
             206,
             155
           ],
-          "Rarety:1": 3,
-          "Name:8": "Ova Evolutionis"
-        },
-        "Damage:2": 0,
-        "OreDict:8": ""
+          "DNA:10": {
+            "Chance:3": 1500,
+            "Name:8": "OvumBac",
+            "Rarity:1": 3,
+            "Tier:3": 2
+          },
+          "Name:8": "Ova Evolutionis",
+          "Plasmid:10": {
+            "Chance:3": 1500,
+            "Name:8": "OvumBac",
+            "Rarity:1": 3,
+            "Tier:3": 2
+          },
+          "Rarety:1": 3
+        }
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "This is Not How You Make Cheese",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 1,
       "isSilent:1": 0,
-      "desc:8": "In order to make Wetware circuits, you\u0027ll need Sterilized Growth Catalyst Medium and Stemcells.\n\nTo begin, you will first need Bacteria which you can get through the Bacterial Vat or the Brewing Machine. The vat recipe is more efficient, but you need a culture for it so you need to start with the brewing recipe. The Bacterial Vat needs at least Bismuth rods in the Radio Hatch for the proper Sievert and at least EV-tier glass to make Bacteria. There are also 3 different recipes, so you can use a higher tier one later if you like.\n\nYou\u0027ll also need Mince Meat and Agar. You\u0027ll want a stable supply of meat such as a fish farm, a standard animal farm, or IC2 Meatrose/Goldfish farm.\n\nAgar has a more complicated processing chain, but it\u0027s nothing compared to Platinum. You\u0027ll need even more meat for it.\n\nUse some of the Bacteria to create an Ova Evolutionis culture (15% chance), and then place that in the Bacterial Vat\u0027s controller. The Bacterial Vat also needs at least Uranium rods in the Radio Hatch for the proper Sievert and at least IV-tier glass to make Raw Growth Catalyst Medium. There are higher tier recipes for this as well.\n\n[note]Cultures are NOT consumed in the Bacterial Vat.[/note]"
+      "lockedProgress:1": 0,
+      "name:8": "This is Not How You Make Cheese",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
     }
   },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 2651,
+  "rewards:9": {},
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.metaitem.98",
           "Count:3": 1,
           "Damage:2": 15,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.98"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "dreamcraft:GTNHBioItems",
           "Count:3": 1,
           "Damage:2": 2,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "dreamcraft:GTNHBioItems"
         },
         "1:10": {
-          "id:8": "bartworks:BioLabParts",
           "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "bartworks:BioLabParts",
           "tag:10": {
-            "Plasmid:10": {
-              "Rarity:1": 3,
-              "Tier:3": 2,
-              "Name:8": "OvumBac",
-              "Chance:3": 1500
-            },
-            "DNA:10": {
-              "Rarity:1": 3,
-              "Tier:3": 2,
-              "Name:8": "OvumBac",
-              "Chance:3": 1500
-            },
             "Breedable:1": 0,
             "Color:11": [
               223,
               206,
               155
             ],
-            "Rarety:1": 3,
-            "Name:8": "Ova Evolutionis"
-          },
-          "Damage:2": 0,
-          "OreDict:8": ""
+            "DNA:10": {
+              "Chance:3": 1500,
+              "Name:8": "OvumBac",
+              "Rarity:1": 3,
+              "Tier:3": 2
+            },
+            "Name:8": "Ova Evolutionis",
+            "Plasmid:10": {
+              "Chance:3": 1500,
+              "Name:8": "OvumBac",
+              "Rarity:1": 3,
+              "Tier:3": 2
+            },
+            "Rarety:1": 3
+          }
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
     },
     "2:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 2,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.metaitem.01",
           "Count:3": 1,
           "Damage:2": 30608,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     }
-  },
-  "rewards:9": {}
+  }
 }

@@ -1,5 +1,4 @@
 {
-  "questIDHigh:4": -6731367615052692440,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 6020452548092775746,
@@ -10,50 +9,51 @@
       "questIDLow:4": 1327
     }
   },
-  "questIDLow:4": -9120793416319577555,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "You have probably already seen the button called §6Optimize Patterns§r when making an order in your AE system, now it\u0027s time to put it in the good use!\n\nTo unlock this feature, just add a Pattern Optimization Matrix block to your AE system (you only need one).\n\n§l# What does it do?\n§r\nThis feature allows you to multiply patterns that are needed in large amounts.\n\n1. After calculating a big order, just click §6Optimize Patterns§r and you will be welcomed by a new window.\n2. There you specify how much you wish for a singular pattern to be ordered (maximum amount of steps), we recommend putting it at 1000 or 100, [warn]remember that over-optimizing patterns could lead to longer waiting times[/warn]. At this point, you can also disable singular patterns from optimization by clicking on them, but there shouldn\u0027t be any unwanted patterns anyway if you already excluded them by toggling a button in unwanted interfaces.\n§\n\n3. Click §6Optimize§r and you are done! Try ordering again to see the changes in pattern steps\n\nAll changes are [warn]permanent and can\u0027t be reverted automatically[/warn] so make sure that you have excluded all unwanted interfaces (the §6Allow Pattern Optimization§r button is §7GRAY§r) like:\n- Single Assembly Line interfaces\n- Extreme Crafting interfaces\n- And any interface that doesn\u0027t have (almost)infinite buffer at the other side (inf. chest/storage cells)\nPatterns are only multiplied by powers of 2, so your AAL patterns should be safe.\n\n[note]If you are still confused about maximum order steps here\u0027s an example:\nOrdering an EOH calculates that it will need 1,000,008 UHV superconductors crafted (41667 steps, 24 UHV SC patterned), now you proceed to optimize patterns and specify that you wish it to do 1000 steps maximum, it will multiply your pattern 64 times to achieve that goal (41667 / 64 ~\u003d 652 which is lower or equal to 1000). After clicking optimize, UHV SC pattern will now output 1536 UHV SC (24 before).[/note]",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "appliedenergistics2:tile.BlockPatternOptimizationMatrix",
         "Count:3": 1,
         "Damage:2": 0,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "appliedenergistics2:tile.BlockPatternOptimizationMatrix"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Optimizing Patterns in Late Game!",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "You have probably already seen the button called §6Optimize Patterns§r when making an order in your AE system, now it\u0027s time to put it in the good use!\n\nTo unlock this feature, just add a Pattern Optimization Matrix block to your AE system (you only need one).\n\n§l# What does it do?\n§r\nThis feature allows you to multiply patterns that are needed in large amounts.\n\n1. After calculating a big order, just click §6Optimize Patterns§r and you will be welcomed by a new window.\n2. There you specify how much you wish for a singular pattern to be ordered (maximum amount of steps), we recommend putting it at 1000 or 100, [warn]remember that over-optimizing patterns could lead to longer waiting times[/warn]. At this point, you can also disable singular patterns from optimization by clicking on them, but there shouldn\u0027t be any unwanted patterns anyway if you already excluded them by toggling a button in unwanted interfaces.\n§\n\n3. Click §6Optimize§r and you are done! Try ordering again to see the changes in pattern steps\n\nAll changes are [warn]permanent and can\u0027t be reverted automatically[/warn] so make sure that you have excluded all unwanted interfaces (the §6Allow Pattern Optimization§r button is §7GRAY§r) like:\n- Single Assembly Line interfaces\n- Extreme Crafting interfaces\n- And any interface that doesn\u0027t have (almost)infinite buffer at the other side (inf. chest/storage cells)\nPatterns are only multiplied by powers of 2, so your AAL patterns should be safe.\n\n[note]If you are still confused about maximum order steps here\u0027s an example:\nOrdering an EOH calculates that it will need 1,000,008 UHV superconductors crafted (41667 steps, 24 UHV SC patterned), now you proceed to optimize patterns and specify that you wish it to do 1000 steps maximum, it will multiply your pattern 64 times to achieve that goal (41667 / 64 ~\u003d 652 which is lower or equal to 1000). After clicking optimize, UHV SC pattern will now output 1536 UHV SC (24 before).[/note]"
+      "lockedProgress:1": 0,
+      "name:8": "Optimizing Patterns in Late Game!",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
     }
   },
+  "questIDHigh:4": -6731367615052692440,
+  "questIDLow:4": -9120793416319577555,
+  "rewards:9": {},
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "appliedenergistics2:tile.BlockPatternOptimizationMatrix",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "appliedenergistics2:tile.BlockPatternOptimizationMatrix"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     }
-  },
-  "rewards:9": {}
+  }
 }

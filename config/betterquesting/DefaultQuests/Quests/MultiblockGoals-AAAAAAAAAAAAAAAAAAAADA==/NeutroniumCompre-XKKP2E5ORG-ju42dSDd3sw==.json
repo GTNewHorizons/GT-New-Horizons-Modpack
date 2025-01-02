@@ -1,5 +1,4 @@
 {
-  "questIDHigh:4": 6675055756905956463,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
@@ -10,50 +9,51 @@
       "questIDLow:4": 2614
     }
   },
-  "questIDLow:4": -6648564718221428813,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "In order to compress infinity catalysts and singularities, you\u0027ll need the strongest compressor yet: the Neutronium Compressor. This multiblock channels and controls extreme amounts of pressure through carefully calibrated Active Neutronium Casings, but the sheer magnitude of pressure is too much to produce blocks or superdense plates, as any regular material inserted into the device will be compressed down to a singularity. More advanced singularities should be possible in theory, but you\u0027ll need something even stronger...\n\n[note]Note that singularity recipes require extreme amounts of items! Consider using Super Buses or ME Stocking Input Buses to fit everything in there.[/note]",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.blockmachines",
         "Count:3": 1,
         "Damage:2": 3007,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Neutronium Compressor",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "In order to compress infinity catalysts and singularities, you\u0027ll need the strongest compressor yet: the Neutronium Compressor. This multiblock channels and controls extreme amounts of pressure through carefully calibrated Active Neutronium Casings, but the sheer magnitude of pressure is too much to produce blocks or superdense plates, as any regular material inserted into the device will be compressed down to a singularity. More advanced singularities should be possible in theory, but you\u0027ll need something even stronger...\n\n[note]Note that singularity recipes require extreme amounts of items! Consider using Super Buses or ME Stocking Input Buses to fit everything in there.[/note]"
+      "lockedProgress:1": 0,
+      "name:8": "Neutronium Compressor",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
     }
   },
+  "questIDHigh:4": 6675055756905956463,
+  "questIDLow:4": -6648564718221428813,
+  "rewards:9": {},
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.blockmachines",
           "Count:3": 1,
           "Damage:2": 3007,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     }
-  },
-  "rewards:9": {}
+  }
 }

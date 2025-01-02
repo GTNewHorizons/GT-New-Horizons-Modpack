@@ -1,5 +1,4 @@
 {
-  "questIDHigh:4": 4191930864154070359,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": -9221365056374749165,
@@ -14,76 +13,77 @@
       "questIDLow:4": -5843632203454110643
     }
   },
-  "questIDLow:4": -7352238207613032698,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL",
-      "isMain:1": 1,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "You can\u0027t use this rocket to go to any planet or moon §oand§r it\u0027s the most expensive one - a bad deal? Not quite! The Shuttle Rocket is used to create and access a §1§lMothership§r.\n\nThe Shuttle Rocket needs the same fuel as the T8 Rocket.",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "GalacticraftAmunRa:item.itemShuttle",
         "Count:3": 1,
         "Damage:2": 0,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "GalacticraftAmunRa:item.itemShuttle"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "A T0 Rocket? What?",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 1,
       "isSilent:1": 0,
-      "desc:8": "You can\u0027t use this rocket to go to any planet or moon §oand§r it\u0027s the most expensive one - a bad deal? Not quite! The Shuttle Rocket is used to create and access a §1§lMothership§r.\n\nThe Shuttle Rocket needs the same fuel as the T8 Rocket."
+      "lockedProgress:1": 0,
+      "name:8": "A T0 Rocket? What?",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 4191930864154070359,
+  "questIDLow:4": -7352238207613032698,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 3,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinSpaceIV"
+        },
+        "1:10": {
+          "Count:3": 3,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnicianIV"
+        },
+        "2:10": {
+          "Count:3": 16,
+          "Damage:2": 32095,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.03"
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "GalacticraftAmunRa:item.itemShuttle",
           "Count:3": 1,
           "Damage:2": 32767,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "GalacticraftAmunRa:item.itemShuttle"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 0,
-      "ignoreDisabled:1": 0,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "dreamcraft:item.CoinSpaceIV",
-          "Count:3": 3,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "dreamcraft:item.CoinTechnicianIV",
-          "Count:3": 3,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "2:10": {
-          "id:8": "gregtech:gt.metaitem.03",
-          "Count:3": 16,
-          "Damage:2": 32095,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

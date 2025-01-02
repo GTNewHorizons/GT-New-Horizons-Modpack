@@ -1,104 +1,104 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 1696
     }
   },
-  "questIDLow:4": 2907,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 1,
+      "desc:8": "No Description",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.metaitem.01",
         "Count:3": 1,
         "Damage:2": 2084,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.metaitem.01"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Trigger:Platline Iridium Skip",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 1,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "No Description"
+      "lockedProgress:1": 0,
+      "name:8": "Trigger:Platline Iridium Skip",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 2907,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 0,
+      "questID:8": "AAAAAAAAAAAAAAAAAAAJEQ\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "1:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 1,
+      "questID:8": "AAAAAAAAAAAAAAAAAAAJAA\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "2:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 2,
+      "questID:8": "AAAAAAAAAAAAAAAAAAAJAQ\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "3:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 3,
+      "questID:8": "AAAAAAAAAAAAAAAAAAAJAg\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "4:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 4,
+      "questID:8": "AAAAAAAAAAAAAAAAAAAJCA\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "5:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 5,
+      "questID:8": "AAAAAAAAAAAAAAAAAAAJCQ\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "6:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 6,
+      "questID:8": "AAAAAAAAAAAAAAAAAAAJDA\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "7:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 7,
+      "questID:8": "AAAAAAAAAAAAAAAAAAAJDw\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.metaitem.01",
           "Count:3": 64,
           "Damage:2": 2084,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "questID:8": "AAAAAAAAAAAAAAAAAAAJEQ\u003d\u003d",
-      "rewardID:8": "bq_standard:questcompletion",
-      "index:3": 0,
-      "ignoreDisabled:1": 1
-    },
-    "1:10": {
-      "questID:8": "AAAAAAAAAAAAAAAAAAAJAA\u003d\u003d",
-      "rewardID:8": "bq_standard:questcompletion",
-      "index:3": 1,
-      "ignoreDisabled:1": 1
-    },
-    "2:10": {
-      "questID:8": "AAAAAAAAAAAAAAAAAAAJAQ\u003d\u003d",
-      "rewardID:8": "bq_standard:questcompletion",
-      "index:3": 2,
-      "ignoreDisabled:1": 1
-    },
-    "3:10": {
-      "questID:8": "AAAAAAAAAAAAAAAAAAAJAg\u003d\u003d",
-      "rewardID:8": "bq_standard:questcompletion",
-      "index:3": 3,
-      "ignoreDisabled:1": 1
-    },
-    "4:10": {
-      "questID:8": "AAAAAAAAAAAAAAAAAAAJCA\u003d\u003d",
-      "rewardID:8": "bq_standard:questcompletion",
-      "index:3": 4,
-      "ignoreDisabled:1": 1
-    },
-    "5:10": {
-      "questID:8": "AAAAAAAAAAAAAAAAAAAJCQ\u003d\u003d",
-      "rewardID:8": "bq_standard:questcompletion",
-      "index:3": 5,
-      "ignoreDisabled:1": 1
-    },
-    "6:10": {
-      "questID:8": "AAAAAAAAAAAAAAAAAAAJDA\u003d\u003d",
-      "rewardID:8": "bq_standard:questcompletion",
-      "index:3": 6,
-      "ignoreDisabled:1": 1
-    },
-    "7:10": {
-      "questID:8": "AAAAAAAAAAAAAAAAAAAJDw\u003d\u003d",
-      "rewardID:8": "bq_standard:questcompletion",
-      "index:3": 7,
-      "ignoreDisabled:1": 1
     }
   }
 }

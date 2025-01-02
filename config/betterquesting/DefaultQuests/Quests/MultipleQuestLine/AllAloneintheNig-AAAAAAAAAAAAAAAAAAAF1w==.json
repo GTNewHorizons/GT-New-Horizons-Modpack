@@ -1,58 +1,58 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 1204
     }
   },
-  "questIDLow:4": 1495,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "Thanks to our amazing devs, you no longer have to use a command block to reload your questbook between updates. This means you\u0027ll get all new quests automatically upon updating to a new version of GTNH! Isn\u0027t that convenient?\n\nIf, for whatever reason, you want to manually reload your questbook, you can do so by typing /bq_admin default load in the chat window. You will need to be an admin for it to work, though.\n\nHere\u0027s another questbook in case you already lost the one you spawned with. Don\u0027t forget that it can also be viewed at any time by pressing the Tilde (~) key if you have not changed its keybind.\n\n§3Some command blocks are still used for specific tasks, but they do not concern the average player since they are admin-only and thus are not craftable.",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "minecraft:command_block",
         "Count:3": 1,
         "Damage:2": 0,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "minecraft:command_block"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "§1§lAll Alone in the Night",
       "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Thanks to our amazing devs, you no longer have to use a command block to reload your questbook between updates. This means you\u0027ll get all new quests automatically upon updating to a new version of GTNH! Isn\u0027t that convenient?\n\nIf, for whatever reason, you want to manually reload your questbook, you can do so by typing /bq_admin default load in the chat window. You will need to be an admin for it to work, though.\n\nHere\u0027s another questbook in case you already lost the one you spawned with. Don\u0027t forget that it can also be viewed at any time by pressing the Tilde (~) key if you have not changed its keybind.\n\n§3Some command blocks are still used for specific tasks, but they do not concern the average player since they are admin-only and thus are not craftable."
+      "lockedProgress:1": 0,
+      "name:8": "§1§lAll Alone in the Night",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 1495,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "questbook:ItemQuestBook"
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
       "index:3": 0,
       "taskID:8": "bq_standard:checkbox"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 0,
-      "ignoreDisabled:1": 0,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "questbook:ItemQuestBook",
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }
