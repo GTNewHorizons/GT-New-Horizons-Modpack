@@ -1,5 +1,4 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
@@ -10,56 +9,57 @@
       "questIDLow:4": 1509
     }
   },
-  "questIDLow:4": 3293,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "Why walk when you can teleport? This upgrade to the staff of traveling can move you even further, even faster, and will never run out of energy.\n\nRight-click:\n * If targeting a travel anchor: teleport to it, 2048 range\n * If looking at a block: teleport to it, 512 range\n * If no block in range: teleport forward, 64 range\n * If looking at a block within 4 range: teleport to the other side of a wall, 16 range\n * No cooldown\n\nShift-right-click:\n * Same as right-click, but ignoring travel anchors\n * Travel anchors will be hidden from view while holding shift\n\n[note]Tip: You won\u0027t be able to see travel anchors that are far away, but can still teleport to them if they are in range and chunk-loaded. Try using JourneyMap waypoints to mark anchors![/note]\n\n[note]Note: The right-click and shift-right-click actions are fully configurable. Check the EnderIO Staff Settings configs!\nConfig action values:\n 0: Do nothing\n 1: Teleport to look / forward\n 2: Teleport to anchor\n 3: Teleport to anchor, or to look / forward if no anchor[/note]",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "EnderIO:itemTeleportStaff",
         "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "EnderIO:itemTeleportStaff",
         "tag:10": {
           "Energy:3": 250000
-        },
-        "Damage:2": 0,
-        "OreDict:8": ""
+        }
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Travelocity²",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Why walk when you can teleport? This upgrade to the staff of traveling can move you even further, even faster, and will never run out of energy.\n\nRight-click:\n * If targeting a travel anchor: teleport to it, 2048 range\n * If looking at a block: teleport to it, 512 range\n * If no block in range: teleport forward, 64 range\n * If looking at a block within 4 range: teleport to the other side of a wall, 16 range\n * No cooldown\n\nShift-right-click:\n * Same as right-click, but ignoring travel anchors\n * Travel anchors will be hidden from view while holding shift\n\n[note]Tip: You won\u0027t be able to see travel anchors that are far away, but can still teleport to them if they are in range and chunk-loaded. Try using JourneyMap waypoints to mark anchors![/note]\n\n[note]Note: The right-click and shift-right-click actions are fully configurable. Check the EnderIO Staff Settings configs!\nConfig action values:\n 0: Do nothing\n 1: Teleport to look / forward\n 2: Teleport to anchor\n 3: Teleport to anchor, or to look / forward if no anchor[/note]"
+      "lockedProgress:1": 0,
+      "name:8": "Travelocity²",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
     }
   },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 3293,
+  "rewards:9": {},
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "EnderIO:itemTeleportStaff",
           "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "EnderIO:itemTeleportStaff",
           "tag:10": {
             "Energy:3": 250000
-          },
-          "Damage:2": 0,
-          "OreDict:8": ""
+          }
         }
       },
       "taskID:8": "bq_standard:retrieval"
     }
-  },
-  "rewards:9": {}
+  }
 }

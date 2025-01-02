@@ -1,145 +1,162 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 285
     }
   },
-  "questIDLow:4": 833,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "The warp you have accumulated over time is starting to become a problem. Making bath salts to clean off the warp is only a temporary solution. To truly get rid of it, you need something more powerful, a pure tear. If you collect a few things for me, I will give you one. Think wisely about using it, since it\u0027s a very long journey to unlock it through research.\n\n§3PS: You need an LuV-powered EBF for the osmiridium.",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "WarpTheory:item.warptheory.cleanser",
         "Count:3": 1,
         "Damage:2": 0,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "WarpTheory:item.warptheory.cleanser"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": 12096000,
-      "globalShare:1": 1,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Purge Your Warp",
       "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "The warp you have accumulated over time is starting to become a problem. Making bath salts to clean off the warp is only a temporary solution. To truly get rid of it, you need something more powerful, a pure tear. If you collect a few things for me, I will give you one. Think wisely about using it, since it\u0027s a very long journey to unlock it through research.\n\n§3PS: You need an LuV-powered EBF for the osmiridium."
+      "lockedProgress:1": 0,
+      "name:8": "Purge Your Warp",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": 12096000,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 833,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "WarpTheory:item.warptheory.cleanser"
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 1,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 0,
-      "consume:1": 1,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "minecraft:nether_star",
           "Count:3": 3,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "minecraft:nether_star"
         },
         "1:10": {
-          "id:8": "minecraft:ghast_tear",
           "Count:3": 2,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "minecraft:ghast_tear"
         },
         "2:10": {
-          "id:8": "appliedenergistics2:item.ItemMultiMaterial",
           "Count:3": 2,
           "Damage:2": 11,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "appliedenergistics2:item.ItemMultiMaterial"
         },
         "3:10": {
-          "id:8": "appliedenergistics2:item.ItemMultiMaterial",
           "Count:3": 2,
           "Damage:2": 10,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "appliedenergistics2:item.ItemMultiMaterial"
         },
         "4:10": {
-          "id:8": "gregtech:gt.metaitem.01",
           "Count:3": 2,
           "Damage:2": 24500,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
         },
         "5:10": {
-          "id:8": "Thaumcraft:ItemResource",
           "Count:3": 1,
           "Damage:2": 14,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "Thaumcraft:ItemResource"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 1,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 1,
-      "consume:1": 1,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.metaitem.01",
           "Count:3": 1,
           "Damage:2": 11317,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
         },
         "1:10": {
-          "id:8": "Thaumcraft:ItemResource",
           "Count:3": 2,
           "Damage:2": 16,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "Thaumcraft:ItemResource"
         },
         "2:10": {
-          "id:8": "gregtech:gt.metaitem.02",
           "Count:3": 4,
           "Damage:2": 29500,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
         },
         "3:10": {
-          "id:8": "ThaumicTinkerer:kamiResource",
           "Count:3": 2,
           "Damage:2": 6,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "ThaumicTinkerer:kamiResource"
         },
         "4:10": {
-          "id:8": "ThaumicTinkerer:kamiResource",
           "Count:3": 2,
           "Damage:2": 7,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "ThaumicTinkerer:kamiResource"
         },
         "5:10": {
-          "id:8": "minecraft:ender_eye",
           "Count:3": 2,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "minecraft:ender_eye"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "2:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 1,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 2,
-      "consume:1": 1,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "Thaumcraft:ItemEssence",
           "Count:3": 4,
+          "Damage:2": 1,
+          "OreDict:8": "",
+          "id:8": "Thaumcraft:ItemEssence",
           "tag:10": {
             "Aspects:9": {
               "0:10": {
@@ -147,13 +164,13 @@
                 "key:8": "alienis"
               }
             }
-          },
-          "Damage:2": 1,
-          "OreDict:8": ""
+          }
         },
         "1:10": {
-          "id:8": "Thaumcraft:ItemEssence",
           "Count:3": 4,
+          "Damage:2": 1,
+          "OreDict:8": "",
+          "id:8": "Thaumcraft:ItemEssence",
           "tag:10": {
             "Aspects:9": {
               "0:10": {
@@ -161,13 +178,13 @@
                 "key:8": "permutatio"
               }
             }
-          },
-          "Damage:2": 1,
-          "OreDict:8": ""
+          }
         },
         "2:10": {
-          "id:8": "Thaumcraft:ItemEssence",
           "Count:3": 2,
+          "Damage:2": 1,
+          "OreDict:8": "",
+          "id:8": "Thaumcraft:ItemEssence",
           "tag:10": {
             "Aspects:9": {
               "0:10": {
@@ -175,13 +192,13 @@
                 "key:8": "praecantatio"
               }
             }
-          },
-          "Damage:2": 1,
-          "OreDict:8": ""
+          }
         },
         "3:10": {
-          "id:8": "Thaumcraft:ItemEssence",
           "Count:3": 2,
+          "Damage:2": 1,
+          "OreDict:8": "",
+          "id:8": "Thaumcraft:ItemEssence",
           "tag:10": {
             "Aspects:9": {
               "0:10": {
@@ -189,27 +206,10 @@
                 "key:8": "sano"
               }
             }
-          },
-          "Damage:2": 1,
-          "OreDict:8": ""
+          }
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 0,
-      "ignoreDisabled:1": 0,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "WarpTheory:item.warptheory.cleanser",
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

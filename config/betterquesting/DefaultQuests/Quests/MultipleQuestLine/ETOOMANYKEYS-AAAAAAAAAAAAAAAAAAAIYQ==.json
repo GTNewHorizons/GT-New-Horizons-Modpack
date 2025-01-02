@@ -1,58 +1,58 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 0
     }
   },
-  "questIDLow:4": 2145,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "UNLOCKED",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "ERROR: Too many keys to fit a 104 key keyboard.\n\nThere are many keybinds in this modpack. To avoid conflicts, most of them are unbound by default. Only the ones available from the start are bound. Note that NEI keybinds are found in the NEI menu and not with the rest of the keybinds.\n\nHere is the list of what some of them do :\n\n\nBetterQuesting\nGRAVE - Open Questbook\n\nBattlegear\nR - Draw Weapons - It\u0027s a second hotbar that holds weapons\n\nDraconic Evolution\nV - Place the item you are holding on the block you are looking at\n\nJourneymap\nB - Create a Waypoint\nCtrl+B - Open the Waypoint Manager\nJ - Open Fullscreen Map\n\u003d - Zoom In (works on minimap too)\n- - Zoom out\n\nInventory Tweaks\nR - Sort Inventory\n\nShare Where I am\nINSERT - Places a temporary beam where you are looking at that will be seen by you and other players\nSHIFT + INSERT - Places a temporary beam where §oyou§r are that will be seen by you and other players\nCTRL + INSERT - Shares the position you are looking at with other players\nCTRL + SHIFT + INSERT - Shares your position with other players\n\nWaila - Shows information about what you are looking at\nNUMPAD1 - show/hide the Waila HUD\nNUMPAD3 - shows how to craft what you are looking at\nNUMPAD4 - shows the crafting usages of the thing you are looking at\n\n\n[note]If you have a non-standard keyboard layout, using the java 17-21 version of GTNH §omight§r help you in being able to use certain keys for keybinds.\n[/note]",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "Thaumcraft:ArcaneDoorKey",
         "Count:3": 1,
         "Damage:2": 0,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "Thaumcraft:ArcaneDoorKey"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "§1§lE_TOO_MANY_KEYS",
       "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "ERROR: Too many keys to fit a 104 key keyboard.\n\nThere are many keybinds in this modpack. To avoid conflicts, most of them are unbound by default. Only the ones available from the start are bound. Note that NEI keybinds are found in the NEI menu and not with the rest of the keybinds.\n\nHere is the list of what some of them do :\n\n\nBetterQuesting\nGRAVE - Open Questbook\n\nBattlegear\nR - Draw Weapons - It\u0027s a second hotbar that holds weapons\n\nDraconic Evolution\nV - Place the item you are holding on the block you are looking at\n\nJourneymap\nB - Create a Waypoint\nCtrl+B - Open the Waypoint Manager\nJ - Open Fullscreen Map\n\u003d - Zoom In (works on minimap too)\n- - Zoom out\n\nInventory Tweaks\nR - Sort Inventory\n\nShare Where I am\nINSERT - Places a temporary beam where you are looking at that will be seen by you and other players\nSHIFT + INSERT - Places a temporary beam where §oyou§r are that will be seen by you and other players\nCTRL + INSERT - Shares the position you are looking at with other players\nCTRL + SHIFT + INSERT - Shares your position with other players\n\nWaila - Shows information about what you are looking at\nNUMPAD1 - show/hide the Waila HUD\nNUMPAD3 - shows how to craft what you are looking at\nNUMPAD4 - shows the crafting usages of the thing you are looking at\n\n\n[note]If you have a non-standard keyboard layout, using the java 17-21 version of GTNH §omight§r help you in being able to use certain keys for keybinds.\n[/note]"
+      "lockedProgress:1": 0,
+      "name:8": "§1§lE_TOO_MANY_KEYS",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "UNLOCKED"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 2145,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "harvestcraft:applejuiceItem"
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
       "index:3": 0,
       "taskID:8": "bq_standard:checkbox"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 0,
-      "ignoreDisabled:1": 0,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "harvestcraft:applejuiceItem",
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

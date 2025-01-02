@@ -1,5 +1,4 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
@@ -10,37 +9,38 @@
       "questIDLow:4": 3157
     }
   },
-  "questIDLow:4": 3199,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "If you\u0027ve looked at the wiki setups, you might have seen some that seem harder to automate than others. Particularly, that one with two kinds of Uranium Rods. More than filling empty slots with Reactor Platings to force all the inputs to move to the specific slots where the rods must go, this one needs each rod to go in a specific slot!\n\nThe solution for this is a GT cover. The Robot Arm does the same action of moving items around as the Conveyor, but it moves to specific slots. With this, you can move the Dual Rod to where it needs to be, and the Quad Rods can fill the remaining slots as intended. If you\u0027re using other setups, you can use a similar logic to do your automation.",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "IC2:blockReactorRedstonePort",
         "Count:3": 1,
         "Damage:2": 0,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "IC2:blockReactorRedstonePort"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "OR",
-      "repeat_relative:1": 1,
-      "name:8": "Automation for Fluid Nukes",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "If you\u0027ve looked at the wiki setups, you might have seen some that seem harder to automate than others. Particularly, that one with two kinds of Uranium Rods. More than filling empty slots with Reactor Platings to force all the inputs to move to the specific slots where the rods must go, this one needs each rod to go in a specific slot!\n\nThe solution for this is a GT cover. The Robot Arm does the same action of moving items around as the Conveyor, but it moves to specific slots. With this, you can move the Dual Rod to where it needs to be, and the Quad Rods can fill the remaining slots as intended. If you\u0027re using other setups, you can use a similar logic to do your automation."
+      "lockedProgress:1": 0,
+      "name:8": "Automation for Fluid Nukes",
+      "questLogic:8": "OR",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
     }
   },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 3199,
+  "rewards:9": {},
   "tasks:9": {
     "0:10": {
       "index:3": 0,
       "taskID:8": "bq_standard:checkbox"
     }
-  },
-  "rewards:9": {}
+  }
 }

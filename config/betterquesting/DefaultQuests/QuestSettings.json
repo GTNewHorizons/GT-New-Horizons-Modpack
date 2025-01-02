@@ -1,17 +1,17 @@
 {
-  "format:8": "3.1.0",
   "betterquesting:10": {
+    "editMode:1": 0,
+    "hardcore:1": 0,
+    "home_anchor_x:5": 0.5,
+    "home_anchor_y:5": 0.0,
+    "home_image:8": "dreamcraft:textures/gui/gtnh_title.png",
+    "home_offset_x:3": -128,
+    "home_offset_y:3": 0,
+    "livesDef:3": 3,
     "livesMax:3": 10,
     "pack_name:8": "GT-New-Horizons",
-    "home_anchor_y:5": 0.0,
-    "livesDef:3": 3,
-    "home_anchor_x:5": 0.5,
-    "hardcore:1": 0,
-    "home_image:8": "dreamcraft:textures/gui/gtnh_title.png",
-    "party_enable:1": 1,
     "pack_version:3": 2110,
-    "editMode:1": 0,
-    "home_offset_x:3": -128,
-    "home_offset_y:3": 0
-  }
+    "party_enable:1": 1
+  },
+  "format:8": "3.1.0"
 }

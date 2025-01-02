@@ -1,5 +1,4 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
@@ -10,242 +9,243 @@
       "questIDLow:4": 710
     }
   },
-  "questIDLow:4": 714,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 1,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "Time to open a portal to the Demonic Realm. What could possibly go wrong? (It\u0027s recommended to do this ritual on a space dim, as the demon city will spread quite a bit...)\n\nIt\u0027s complicated to explain, so check a wiki for details on how to actually do it. Remember you need to have 15M LP, so you\u0027ll need 13 Runes of the Orb to start it. Also, you need the Alchemic Calcinator and the other tools in the upper left of the BM thaumcraft tab for working with the belljars.\n\n[note]The OW is now blacklisted for the portal. Too many people did not follow the recommendation and servers had to suffer under it.[/note]",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "AWWayofTime:blockCrystalBelljar",
         "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "AWWayofTime:blockCrystalBelljar",
         "tag:10": {
           "reagentTanks:9": {
             "0:10": {
-              "amount:4": 16000,
               "Reagent:8": "magicales",
+              "amount:4": 16000,
               "capacity:4": 16000
             }
           }
-        },
-        "Damage:2": 0,
-        "OreDict:8": ""
+        }
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Convocation of the Damned",
       "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 1,
       "isSilent:1": 0,
-      "desc:8": "Time to open a portal to the Demonic Realm. What could possibly go wrong? (It\u0027s recommended to do this ritual on a space dim, as the demon city will spread quite a bit...)\n\nIt\u0027s complicated to explain, so check a wiki for details on how to actually do it. Remember you need to have 15M LP, so you\u0027ll need 13 Runes of the Orb to start it. Also, you need the Alchemic Calcinator and the other tools in the upper left of the BM thaumcraft tab for working with the belljars.\n\n[note]The OW is now blacklisted for the portal. Too many people did not follow the recommendation and servers had to suffer under it.[/note]"
+      "lockedProgress:1": 0,
+      "name:8": "Convocation of the Damned",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 714,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "AWWayofTime:demonicSlate"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 18,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      }
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinBloodIII"
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "AWWayofTime:blockCrystalBelljar",
           "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "AWWayofTime:blockCrystalBelljar",
           "tag:10": {
             "reagentTanks:9": {
               "0:10": {
-                "amount:4": 16000,
                 "Reagent:8": "magicales",
+                "amount:4": 16000,
                 "capacity:4": 16000
               }
             }
-          },
-          "Damage:2": 0,
-          "OreDict:8": ""
+          }
         },
         "1:10": {
-          "id:8": "AWWayofTime:blockCrystalBelljar",
           "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "AWWayofTime:blockCrystalBelljar",
           "tag:10": {
             "reagentTanks:9": {
               "0:10": {
-                "amount:4": 16000,
                 "Reagent:8": "potentia",
+                "amount:4": 16000,
                 "capacity:4": 16000
               }
             }
-          },
-          "Damage:2": 0,
-          "OreDict:8": ""
+          }
         },
         "2:10": {
-          "id:8": "AWWayofTime:blockCrystalBelljar",
           "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "AWWayofTime:blockCrystalBelljar",
           "tag:10": {
             "reagentTanks:9": {
               "0:10": {
-                "amount:4": 16000,
                 "Reagent:8": "incendium",
+                "amount:4": 16000,
                 "capacity:4": 16000
               }
             }
-          },
-          "Damage:2": 0,
-          "OreDict:8": ""
+          }
         },
         "3:10": {
-          "id:8": "AWWayofTime:blockCrystalBelljar",
           "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "AWWayofTime:blockCrystalBelljar",
           "tag:10": {
             "reagentTanks:9": {
               "0:10": {
-                "amount:4": 16000,
                 "Reagent:8": "terrae",
+                "amount:4": 16000,
                 "capacity:4": 16000
               }
             }
-          },
-          "Damage:2": 0,
-          "OreDict:8": ""
+          }
         },
         "4:10": {
-          "id:8": "AWWayofTime:blockCrystalBelljar",
           "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "AWWayofTime:blockCrystalBelljar",
           "tag:10": {
             "reagentTanks:9": {
               "0:10": {
-                "amount:4": 16000,
                 "Reagent:8": "tenebrae",
+                "amount:4": 16000,
                 "capacity:4": 16000
               }
             }
-          },
-          "Damage:2": 0,
-          "OreDict:8": ""
+          }
         },
         "5:10": {
-          "id:8": "AWWayofTime:blockCrystalBelljar",
           "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "AWWayofTime:blockCrystalBelljar",
           "tag:10": {
             "reagentTanks:9": {
               "0:10": {
-                "amount:4": 16000,
                 "Reagent:8": "sanctus",
+                "amount:4": 16000,
                 "capacity:4": 16000
               }
             }
-          },
-          "Damage:2": 0,
-          "OreDict:8": ""
+          }
         },
         "6:10": {
-          "id:8": "AWWayofTime:blockCrystalBelljar",
           "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "AWWayofTime:blockCrystalBelljar",
           "tag:10": {
             "reagentTanks:9": {
               "0:10": {
-                "amount:4": 16000,
                 "Reagent:8": "aether",
+                "amount:4": 16000,
                 "capacity:4": 16000
               }
             }
-          },
-          "Damage:2": 0,
-          "OreDict:8": ""
+          }
         },
         "7:10": {
-          "id:8": "AWWayofTime:blockCrystalBelljar",
           "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "AWWayofTime:blockCrystalBelljar",
           "tag:10": {
             "reagentTanks:9": {
               "0:10": {
-                "amount:4": 16000,
                 "Reagent:8": "aquasalus",
+                "amount:4": 16000,
                 "capacity:4": 16000
               }
             }
-          },
-          "Damage:2": 0,
-          "OreDict:8": ""
+          }
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "AWWayofTime:ritualStone",
           "Count:3": 128,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "AWWayofTime:ritualStone"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "2:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 2,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "AWWayofTime:activationCrystal",
           "Count:3": 1,
           "Damage:2": 1,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "AWWayofTime:activationCrystal"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 0,
-      "ignoreDisabled:1": 0,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "AWWayofTime:demonicSlate",
-          "Count:3": 8,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "enhancedlootbags:lootbag",
-          "Count:3": 1,
-          "Damage:2": 18,
-          "OreDict:8": ""
-        }
-      }
-    },
-    "1:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 1,
-      "ignoreDisabled:1": 0,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "dreamcraft:item.CoinBloodIII",
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

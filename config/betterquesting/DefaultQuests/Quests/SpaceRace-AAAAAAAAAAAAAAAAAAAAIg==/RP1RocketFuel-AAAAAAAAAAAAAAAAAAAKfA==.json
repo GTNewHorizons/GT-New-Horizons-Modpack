@@ -1,122 +1,122 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 827
     }
   },
-  "questIDLow:4": 2684,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL",
-      "isMain:1": 1,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "One option to fuel your T1 and T2 rocket is RP-1 Rocket Fuel. First, you\u0027ll need either Diesel or Coal Tar. Coal Tar is the better option on the long run, since you\u0027ll need the other products of distilling it to make other rocket fuels, but for now you can use Diesel.\n\n[note]If you\u0027re using Diesel, you need 20 cells, if using Coal Tar, you need 30. Unless you use a DT, in which case it doesn\u0027t divide evenly anymore.[/note]\n\nDistill it in the Distillery to get Kerosene, then distill it again to get RP-1. You\u0027ll need a Chemical Plant for the last step.\n\nRP-1 Rocket Fuel is a T4 240 EU/t recipe, so you\u0027ll need to make the CP out of Stainless Steel and HV Machine Casings.\n\nSince there is no oxygen in space, you will also need an oxidizer. But since the Galacticraft rocket can only take one fluid we have simplified that a bit. Just combine Liquid Oxygen and RP-1 to make the fully functional RP-1 Rocket Fuel.\n\nIf you\u0027re confused about how to use/make the Chemical Plant, refer to the manual with the same name or the quest in the GT++ quest tab.\n\n[note]PS: You can also use Rocket Fuels for power in Rocket Engines, or the Rocketdyne F-1A Engine multi.[/note]\n\n[warn]Oh, and don\u0027t use the NEI Preview for the Chemical Plant, it is wrong.[/warn]",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "miscutils:RocketFuelMixB",
         "Count:3": 1,
         "Damage:2": 0,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "miscutils:RocketFuelMixB"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "RP-1 Rocket Fuel",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 1,
       "isSilent:1": 0,
-      "desc:8": "One option to fuel your T1 and T2 rocket is RP-1 Rocket Fuel. First, you\u0027ll need either Diesel or Coal Tar. Coal Tar is the better option on the long run, since you\u0027ll need the other products of distilling it to make other rocket fuels, but for now you can use Diesel.\n\n[note]If you\u0027re using Diesel, you need 20 cells, if using Coal Tar, you need 30. Unless you use a DT, in which case it doesn\u0027t divide evenly anymore.[/note]\n\nDistill it in the Distillery to get Kerosene, then distill it again to get RP-1. You\u0027ll need a Chemical Plant for the last step.\n\nRP-1 Rocket Fuel is a T4 240 EU/t recipe, so you\u0027ll need to make the CP out of Stainless Steel and HV Machine Casings.\n\nSince there is no oxygen in space, you will also need an oxidizer. But since the Galacticraft rocket can only take one fluid we have simplified that a bit. Just combine Liquid Oxygen and RP-1 to make the fully functional RP-1 Rocket Fuel.\n\nIf you\u0027re confused about how to use/make the Chemical Plant, refer to the manual with the same name or the quest in the GT++ quest tab.\n\n[note]PS: You can also use Rocket Fuels for power in Rocket Engines, or the Rocketdyne F-1A Engine multi.[/note]\n\n[warn]Oh, and don\u0027t use the NEI Preview for the Chemical Plant, it is wrong.[/warn]"
+      "lockedProgress:1": 0,
+      "name:8": "RP-1 Rocket Fuel",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 2684,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "miscutils:RocketFuelMixB"
+        }
+      }
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnicianII"
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "miscutils:Kerosene",
           "Count:3": 12,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "miscutils:Kerosene"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 2,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "miscutils:RP1Fuel",
           "Count:3": 9,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "miscutils:RP1Fuel"
         },
         "1:10": {
-          "id:8": "gregtech:gt.metaitem.01",
           "Count:3": 36,
           "Damage:2": 30493,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
     },
     "2:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 3,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "miscutils:RocketFuelMixB",
           "Count:3": 27,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "miscutils:RocketFuelMixB"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 0,
-      "ignoreDisabled:1": 0,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "miscutils:RocketFuelMixB",
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
-    },
-    "1:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 1,
-      "ignoreDisabled:1": 0,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "dreamcraft:item.CoinTechnicianII",
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

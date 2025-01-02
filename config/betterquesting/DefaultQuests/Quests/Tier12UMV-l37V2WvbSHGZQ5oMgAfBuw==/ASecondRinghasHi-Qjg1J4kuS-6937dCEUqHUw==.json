@@ -1,5 +1,4 @@
 {
-  "questIDHigh:4": 4771622249120549870,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": -6962518690474080185,
@@ -10,91 +9,92 @@
       "questIDLow:4": -6232511347414889484
     }
   },
-  "questIDLow:4": -4764888386348873901,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL",
-      "isMain:1": 1,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "As additional rings are placed closer to the star at the center of the Forge, the gravitational stress drastically increases on the structure. Graviton shards alleviate these stresses while also creating localized spacetime bridges to link the two rings and their modules’ respective upgrades.\n\n[note]Adding a second ring to your Godforge allows for 4 additional modules, as well as allowing you to pick a second path in the split paths part of the upgrade tree.[/note]\n\n[note]Usage of a second ring requires the CD upgrade.[/note]",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "tectech:gt.godforgecasing",
         "Count:3": 1,
         "Damage:2": 6,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "tectech:gt.godforgecasing"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "§b§lA Second Ring has Hit the Godforge",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 1,
       "isSilent:1": 0,
-      "desc:8": "As additional rings are placed closer to the star at the center of the Forge, the gravitational stress drastically increases on the structure. Graviton shards alleviate these stresses while also creating localized spacetime bridges to link the two rings and their modules’ respective upgrades.\n\n[note]Adding a second ring to your Godforge allows for 4 additional modules, as well as allowing you to pick a second path in the split paths part of the upgrade tree.[/note]\n\n[note]Usage of a second ring requires the CD upgrade.[/note]"
+      "lockedProgress:1": 0,
+      "name:8": "§b§lA Second Ring has Hit the Godforge",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
     }
   },
+  "questIDHigh:4": 4771622249120549870,
+  "questIDLow:4": -4764888386348873901,
+  "rewards:9": {},
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "tectech:gt.godforgecasing",
           "Count:3": 357,
           "Damage:2": 6,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "tectech:gt.godforgecasing"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "tectech:gt.godforgecasing",
           "Count:3": 3336,
           "Damage:2": 3,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "tectech:gt.godforgecasing"
         },
         "1:10": {
-          "id:8": "tectech:gt.godforgecasing",
           "Count:3": 2012,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "tectech:gt.godforgecasing"
         },
         "2:10": {
-          "id:8": "tectech:gt.godforgecasing",
           "Count:3": 240,
           "Damage:2": 1,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "tectech:gt.godforgecasing"
         },
         "3:10": {
-          "id:8": "tectech:gt.godforgecasing",
           "Count:3": 14,
           "Damage:2": 2,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "tectech:gt.godforgecasing"
         },
         "4:10": {
-          "id:8": "tectech:tile.spatiallyTranscendentGravitationalLens",
           "Count:3": 45,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "tectech:tile.spatiallyTranscendentGravitationalLens"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
     }
-  },
-  "rewards:9": {}
+  }
 }

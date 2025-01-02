@@ -1,19 +1,19 @@
 {
-  "questLineIDLow:4": 0,
-  "questLineIDHigh:4": 0,
   "properties:10": {
     "betterquesting:10": {
-      "visibility:8": "NORMAL",
-      "name:8": "And So, It Begins",
-      "icon:10": {
-        "id:8": "minecraft:bed",
-        "Count:3": 1,
-        "Damage:2": 0,
-        "OreDict:8": ""
-      },
       "bg_image:8": "",
       "bg_size:3": 256,
-      "desc:8": "The very first tier, tier zero. This chapter will introduce you to the basic mechanics of this modpack. Mods covered: Vanilla, Pam\u0027s Harvestcraft."
+      "desc:8": "The very first tier, tier zero. This chapter will introduce you to the basic mechanics of this modpack. Mods covered: Vanilla, Pam\u0027s Harvestcraft.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:bed"
+      },
+      "name:8": "And So, It Begins",
+      "visibility:8": "NORMAL"
     }
-  }
+  },
+  "questLineIDHigh:4": 0,
+  "questLineIDLow:4": 0
 }

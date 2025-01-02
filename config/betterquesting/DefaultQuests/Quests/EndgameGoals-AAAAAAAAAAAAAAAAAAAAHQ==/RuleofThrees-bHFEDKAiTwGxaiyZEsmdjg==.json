@@ -1,5 +1,4 @@
 {
-  "questIDHigh:4": 7814101649481420545,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": -5593318159939778068,
@@ -10,91 +9,92 @@
       "questIDLow:4": -6893323685044150631
     }
   },
-  "questIDLow:4": -5662664545508156018,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "The final external structural upgrade to the Forge requires the most advanced understanding of graviton shards and their applications in extreme environments. With this, the last 4 module slots of the Forge of the Gods are available to construct, ascending your operation to unseen heights of technological mastery.\n\n[note]Adding a third and final ring to your Godforge allows for 4 additional modules, as well as allowing you to pick all three paths in the split paths part of the upgrade tree, allowing for a fully upgraded Godforge.[/note]\n\n[note]Usage of a third ring requires the EE upgrade.[/note]",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "tectech:gt.godforgecasing",
         "Count:3": 1,
         "Damage:2": 7,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "tectech:gt.godforgecasing"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "§b§lRule of Threes",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "The final external structural upgrade to the Forge requires the most advanced understanding of graviton shards and their applications in extreme environments. With this, the last 4 module slots of the Forge of the Gods are available to construct, ascending your operation to unseen heights of technological mastery.\n\n[note]Adding a third and final ring to your Godforge allows for 4 additional modules, as well as allowing you to pick all three paths in the split paths part of the upgrade tree, allowing for a fully upgraded Godforge.[/note]\n\n[note]Usage of a third ring requires the EE upgrade.[/note]"
+      "lockedProgress:1": 0,
+      "name:8": "§b§lRule of Threes",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
     }
   },
+  "questIDHigh:4": 7814101649481420545,
+  "questIDLow:4": -5662664545508156018,
+  "rewards:9": {},
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "tectech:gt.godforgecasing",
           "Count:3": 397,
           "Damage:2": 7,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "tectech:gt.godforgecasing"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "tectech:gt.godforgecasing",
           "Count:3": 3726,
           "Damage:2": 3,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "tectech:gt.godforgecasing"
         },
         "1:10": {
-          "id:8": "tectech:gt.godforgecasing",
           "Count:3": 1736,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "tectech:gt.godforgecasing"
         },
         "2:10": {
-          "id:8": "tectech:gt.godforgecasing",
           "Count:3": 312,
           "Damage:2": 1,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "tectech:gt.godforgecasing"
         },
         "3:10": {
-          "id:8": "tectech:gt.godforgecasing",
           "Count:3": 14,
           "Damage:2": 2,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "tectech:gt.godforgecasing"
         },
         "4:10": {
-          "id:8": "tectech:tile.spatiallyTranscendentGravitationalLens",
           "Count:3": 101,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "tectech:tile.spatiallyTranscendentGravitationalLens"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
     }
-  },
-  "rewards:9": {}
+  }
 }

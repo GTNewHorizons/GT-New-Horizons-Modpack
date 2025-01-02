@@ -1,78 +1,78 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 3153
     }
   },
-  "questIDLow:4": 3162,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "There are chemical elements that are very important as building materials for high-tier machines. Unfortunately, some of these elements are very hard to find naturally, if at all, and need to be created by hand. They\u0027re not alloys, not a mix of materials, but they can be a mix of atoms...\n\nEuropium is the first wall that can be solved by fusion, and only by fusion. It is possible to find it in ores, but even the most complicated magic rituals to get them need some Europium to start, which leaves fusion crafting as the most reliable option to automate the entire process. It is a slow craft, but not an expensive one provided you already have the reactor built, since it uses cheap materials as inputs: Hydrogen and Neodymium. Both of these were used extensively for progression, so you should not have any trouble grabbing several hundreds of each to start this reaction.\n\nIt is important that you gather a lot of inputs. Each time the Fusion Reactor changes recipe, it has a start-up period where it needs a large amount of energy to begin crafting. In the case of Europium, you\u0027ll need 150 million EU to start crafting it, and then 7,077,888 EU per ingot of Europium crafted. This does not come out as plasma, so you can\u0027t get energy back from it! Additionally, each ingot takes 14.4 seconds to craft, so you can come out with a few stacks of Europium relatively quickly. During this time, you cannot produce plasma for power, so it\u0027s a good idea to have a good amount of EU stored, or other powergen setups working in the background, while you craft this material.\n\nWith Europium, you can craft a new kind of boule, wafers and many other things! Check NEI to see what you have unlocked.",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.metaitem.01",
         "Count:3": 1,
         "Damage:2": 11070,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.metaitem.01"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Fusion Europium",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "There are chemical elements that are very important as building materials for high-tier machines. Unfortunately, some of these elements are very hard to find naturally, if at all, and need to be created by hand. They\u0027re not alloys, not a mix of materials, but they can be a mix of atoms...\n\nEuropium is the first wall that can be solved by fusion, and only by fusion. It is possible to find it in ores, but even the most complicated magic rituals to get them need some Europium to start, which leaves fusion crafting as the most reliable option to automate the entire process. It is a slow craft, but not an expensive one provided you already have the reactor built, since it uses cheap materials as inputs: Hydrogen and Neodymium. Both of these were used extensively for progression, so you should not have any trouble grabbing several hundreds of each to start this reaction.\n\nIt is important that you gather a lot of inputs. Each time the Fusion Reactor changes recipe, it has a start-up period where it needs a large amount of energy to begin crafting. In the case of Europium, you\u0027ll need 150 million EU to start crafting it, and then 7,077,888 EU per ingot of Europium crafted. This does not come out as plasma, so you can\u0027t get energy back from it! Additionally, each ingot takes 14.4 seconds to craft, so you can come out with a few stacks of Europium relatively quickly. During this time, you cannot produce plasma for power, so it\u0027s a good idea to have a good amount of EU stored, or other powergen setups working in the background, while you craft this material.\n\nWith Europium, you can craft a new kind of boule, wafers and many other things! Check NEI to see what you have unlocked."
+      "lockedProgress:1": 0,
+      "name:8": "Fusion Europium",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
     }
   },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 3162,
+  "rewards:9": {},
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.metaitem.01",
           "Count:3": 48,
           "Damage:2": 30001,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
         },
         "1:10": {
-          "id:8": "gregtech:gt.metaitem.99",
           "Count:3": 16,
           "Damage:2": 67,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.99"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.metaitem.01",
           "Count:3": 1,
           "Damage:2": 17070,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     }
-  },
-  "rewards:9": {}
+  }
 }

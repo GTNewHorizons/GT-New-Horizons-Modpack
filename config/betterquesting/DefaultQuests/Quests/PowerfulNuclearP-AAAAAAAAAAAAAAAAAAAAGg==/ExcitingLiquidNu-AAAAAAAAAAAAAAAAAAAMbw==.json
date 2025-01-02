@@ -1,5 +1,4 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
@@ -10,73 +9,74 @@
       "questIDLow:4": 3180
     }
   },
-  "questIDLow:4": 3183,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "With the reactor built, it\u0027s time to automate the fuel and additives, since there are additives this time. They are optional, so let\u0027s begin with the required inputs.\n\nLiquid Air is trivial to automate: it\u0027s a Vacuum Freezer job. Input energy and Air and output Liquid Air, there are quests for this. The fuels themselves are more complicated, but the three of them follow a similar set of recipes. First, you grab a lot of the radioactive element (Thorium, Uranium or Plutonium), wrap it in a specific foil and then put in an Implosion Compressor to make very dense nuggets. These are into the High Density items you need, which are then mixed with specific dusts to create the basic fuel fluid.\n\nThis part is where it becomes complicated, though. To get the energy out of this radioactive fluid, you need to activate it. Thorium is done by mixing with Helium Plasma (t1 fusion), while the other two are made directly in the Fusion Reactor (t2 fusion). The activated fuels can be thrown directly in the reactor to produce EU, at a very slow pace. Your bottleneck should be the main radioactive element, so make sure you can source it fast enough.\n\nBeing here, you should have a Large Naquadah Reactor ready to go. However, it is true that these Excited Fuels can be used to make fuel rods for IC2 nukes, with much larger heat outputs meant for fluid nukes. You can try to use them there, but there are no simulated setups of any kind for those rods, so it\u0027s going to be a very experimental setup if you ever decide to make it.",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "bartworks:gt.bwMetaGeneratedcell",
         "Count:3": 1,
         "Damage:2": 10003,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "bartworks:gt.bwMetaGeneratedcell"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "OR",
-      "repeat_relative:1": 1,
-      "name:8": "Exciting Liquid Nuking",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "With the reactor built, it\u0027s time to automate the fuel and additives, since there are additives this time. They are optional, so let\u0027s begin with the required inputs.\n\nLiquid Air is trivial to automate: it\u0027s a Vacuum Freezer job. Input energy and Air and output Liquid Air, there are quests for this. The fuels themselves are more complicated, but the three of them follow a similar set of recipes. First, you grab a lot of the radioactive element (Thorium, Uranium or Plutonium), wrap it in a specific foil and then put in an Implosion Compressor to make very dense nuggets. These are into the High Density items you need, which are then mixed with specific dusts to create the basic fuel fluid.\n\nThis part is where it becomes complicated, though. To get the energy out of this radioactive fluid, you need to activate it. Thorium is done by mixing with Helium Plasma (t1 fusion), while the other two are made directly in the Fusion Reactor (t2 fusion). The activated fuels can be thrown directly in the reactor to produce EU, at a very slow pace. Your bottleneck should be the main radioactive element, so make sure you can source it fast enough.\n\nBeing here, you should have a Large Naquadah Reactor ready to go. However, it is true that these Excited Fuels can be used to make fuel rods for IC2 nukes, with much larger heat outputs meant for fluid nukes. You can try to use them there, but there are no simulated setups of any kind for those rods, so it\u0027s going to be a very experimental setup if you ever decide to make it."
+      "lockedProgress:1": 0,
+      "name:8": "Exciting Liquid Nuking",
+      "questLogic:8": "OR",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
     }
   },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 3183,
+  "rewards:9": {},
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "bartworks:gt.bwMetaGeneratedcell",
           "Count:3": 1,
           "Damage:2": 10007,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "bartworks:gt.bwMetaGeneratedcell"
         },
         "1:10": {
-          "id:8": "bartworks:gt.bwMetaGeneratedcell",
           "Count:3": 1,
           "Damage:2": 10011,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "bartworks:gt.bwMetaGeneratedcell"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "bartworks:gt.bwMetaGeneratedcell",
           "Count:3": 1,
           "Damage:2": 10003,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "bartworks:gt.bwMetaGeneratedcell"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     }
-  },
-  "rewards:9": {}
+  }
 }

@@ -1,19 +1,19 @@
 {
-  "questLineIDLow:4": 12,
-  "questLineIDHigh:4": 0,
   "properties:10": {
     "betterquesting:10": {
-      "visibility:8": "UNLOCKED",
-      "name:8": "Multiblock Goals",
-      "icon:10": {
-        "id:8": "gregtech:gt.blockmachines",
-        "Count:3": 1,
-        "Damage:2": 1000,
-        "OreDict:8": ""
-      },
       "bg_image:8": "",
       "bg_size:3": 256,
-      "desc:8": "This set is a global tracker for multiblock structure goals. As you can build several parts of many multiblocks way earlier than the respective tier. Check back often."
+      "desc:8": "This set is a global tracker for multiblock structure goals. As you can build several parts of many multiblocks way earlier than the respective tier. Check back often.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1000,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
+      },
+      "name:8": "Multiblock Goals",
+      "visibility:8": "UNLOCKED"
     }
-  }
+  },
+  "questLineIDHigh:4": 0,
+  "questLineIDLow:4": 12
 }

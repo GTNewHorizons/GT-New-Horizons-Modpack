@@ -1,5 +1,4 @@
 {
-  "questIDHigh:4": -1663909569982545142,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": -1088975140598824420,
@@ -11,85 +10,86 @@
       "questIDLow:4": -6861911456329097050
     }
   },
-  "questIDLow:4": -4646567102207181371,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL",
-      "isMain:1": 1,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "As the materials around you achieve transcendental properties, you have found that traditional modes of compression like pistons or gases will not be enough to compact them as densely as you require.\n\nThe solution? Using the sheer force of gravity. By using extreme amounts of explosive force on your fourth-dimensionally engineered tesseracts, you can tear tiny rifts in the fabric of space, enough to create a seed which can birth a black hole. If you can build a machine which can harness it, it will be able to compress even the strongest materials to the most dense states possible.\n\nTaming a black hole is no easy task - even with all of your precautions, it defies your efforts to stabilize it and attempts to collapse itself constantly. Meaningfully extending the lifespan of the black hole will be extremely difficult. By bending spacetime through carefully aligned glass, you can reverse the flow of hawking radiation back into the black hole and keep it completely stable - problematically, however, the amount of spacetime required to maintain this process increases at an exponential rate.\n\nAs the black hole decays, it becomes even more powerful - but be wary, as it will eventually become unstable and you will no longer be able to recover your items from the edge of the event horizon. To safely close the black hole and restart this process, you have engineered a collapser out of the same fourth-dimensional materials.\n\n[note]The Pseudostable Black Hole Containment Field is the most powerful compressor in the game, capable of creating superdense plates out of any material, as well as being able to perform more advanced neutronium compressor recipes that will save incredible amounts of resources.[/note]\n\n[note]You must use programmed circuits in the input buses to determine if the machine will act as a Compressor or Neutronium Compressor![/note]",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.blockmachines",
         "Count:3": 1,
         "Damage:2": 3008,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Pseudostable Black Hole Containment Field",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 1,
       "isSilent:1": 0,
-      "desc:8": "As the materials around you achieve transcendental properties, you have found that traditional modes of compression like pistons or gases will not be enough to compact them as densely as you require.\n\nThe solution? Using the sheer force of gravity. By using extreme amounts of explosive force on your fourth-dimensionally engineered tesseracts, you can tear tiny rifts in the fabric of space, enough to create a seed which can birth a black hole. If you can build a machine which can harness it, it will be able to compress even the strongest materials to the most dense states possible.\n\nTaming a black hole is no easy task - even with all of your precautions, it defies your efforts to stabilize it and attempts to collapse itself constantly. Meaningfully extending the lifespan of the black hole will be extremely difficult. By bending spacetime through carefully aligned glass, you can reverse the flow of hawking radiation back into the black hole and keep it completely stable - problematically, however, the amount of spacetime required to maintain this process increases at an exponential rate.\n\nAs the black hole decays, it becomes even more powerful - but be wary, as it will eventually become unstable and you will no longer be able to recover your items from the edge of the event horizon. To safely close the black hole and restart this process, you have engineered a collapser out of the same fourth-dimensional materials.\n\n[note]The Pseudostable Black Hole Containment Field is the most powerful compressor in the game, capable of creating superdense plates out of any material, as well as being able to perform more advanced neutronium compressor recipes that will save incredible amounts of resources.[/note]\n\n[note]You must use programmed circuits in the input buses to determine if the machine will act as a Compressor or Neutronium Compressor![/note]"
+      "lockedProgress:1": 0,
+      "name:8": "Pseudostable Black Hole Containment Field",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
     }
   },
+  "questIDHigh:4": -1663909569982545142,
+  "questIDLow:4": -4646567102207181371,
+  "rewards:9": {},
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.blockmachines",
           "Count:3": 1,
           "Damage:2": 3008,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.blockcasings10",
           "Count:3": 3667,
           "Damage:2": 11,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings10"
         },
         "1:10": {
-          "id:8": "gregtech:gt.blockcasings10",
           "Count:3": 950,
           "Damage:2": 12,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings10"
         },
         "2:10": {
-          "id:8": "gregtech:gt.blockglass1",
           "Count:3": 64,
           "Damage:2": 4,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockglass1"
         },
         "3:10": {
-          "id:8": "gregtech:gt.blockframes",
           "Count:3": 144,
           "Damage:2": 325,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockframes"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
     }
-  },
-  "rewards:9": {}
+  }
 }
