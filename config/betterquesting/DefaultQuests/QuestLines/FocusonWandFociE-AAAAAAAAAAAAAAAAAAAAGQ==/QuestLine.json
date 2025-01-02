@@ -1,19 +1,19 @@
 {
-  "questLineIDLow:4": 25,
-  "questLineIDHigh:4": 0,
   "properties:10": {
     "betterquesting:10": {
-      "visibility:8": "UNLOCKED",
-      "name:8": "Focus on Wand Foci \u0026 EMT",
-      "icon:10": {
-        "id:8": "Thaumcraft:FocusPrimal",
-        "Count:3": 1,
-        "Damage:2": 0,
-        "OreDict:8": ""
-      },
       "bg_image:8": "",
       "bg_size:3": 256,
-      "desc:8": "Do you know which wand focus is useful and which not? Also, some EMT stuff."
+      "desc:8": "Do you know which wand focus is useful and which not? Also, some EMT stuff.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "Thaumcraft:FocusPrimal"
+      },
+      "name:8": "Focus on Wand Foci \u0026 EMT",
+      "visibility:8": "UNLOCKED"
     }
-  }
+  },
+  "questLineIDHigh:4": 0,
+  "questLineIDLow:4": 25
 }

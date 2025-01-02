@@ -1,5 +1,4 @@
 {
-  "questIDHigh:4": 7851484242627545128,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": -7949765678093284760,
@@ -11,47 +10,48 @@
       "type:1": 1
     }
   },
-  "questIDLow:4": -7959189288003028041,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL",
-      "isMain:1": 1,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "Reinforcing your casings with matter from white dwarfs was a good idea.\n\nYou can now accelerate a solar system until a black dwarf forms. This material will likely be key to observing and understanding what happens next.\n\nThis is the second of your three EOH materials. Use it to upgrade your casings to T7.\n\n[note]The EOH becomes power positive once all the casings are Tier 7.[/note]",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.metaitem.01",
         "Count:3": 1,
         "Damage:2": 11586,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.metaitem.01"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Black Dwarf Matter",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 1,
       "isSilent:1": 0,
-      "desc:8": "Reinforcing your casings with matter from white dwarfs was a good idea.\n\nYou can now accelerate a solar system until a black dwarf forms. This material will likely be key to observing and understanding what happens next.\n\nThis is the second of your three EOH materials. Use it to upgrade your casings to T7.\n\n[note]The EOH becomes power positive once all the casings are Tier 7.[/note]"
+      "lockedProgress:1": 0,
+      "name:8": "Black Dwarf Matter",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
     }
   },
+  "questIDHigh:4": 7851484242627545128,
+  "questIDLow:4": -7959189288003028041,
+  "rewards:9": {},
   "tasks:9": {
     "0:10": {
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
-      "requiredFluids:9": {
-        "0:10": {
-          "FluidName:8": "molten.blackdwarfmatter",
-          "Amount:3": 144
-        }
-      },
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 144,
+          "FluidName:8": "molten.blackdwarfmatter"
+        }
+      },
       "taskID:8": "bq_standard:fluid"
     }
-  },
-  "rewards:9": {}
+  }
 }

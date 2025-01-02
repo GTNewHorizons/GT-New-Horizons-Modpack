@@ -1,72 +1,72 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 3152
     }
   },
-  "questIDLow:4": 3163,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "A completed Fusion Reactor does not generate any EU on its own, it only consumes it. That said, it\u0027s very simple to generate power from plasma, a one-step process of having a Plasma Turbine. These special turbines only work with plasma and are significantly more expensive than the previous ones, requiring Tungstensteel for the body and Naquadah + Naquadah Alloy for the controller.\n\nFirst, how much plasma can one tier 1 reactor produce? The best option for power at this stage is Helium Plasma, with its cheap inputs, and this takes 6.4 seconds per bucket to generate. Since a bucket is worth 81,920,000 EU, that equates to 640,000 EU/t at 100% efficiency or 960,000 EU/t at 150%. That is almost 8 ZPM amps, a massive power spike compared to the powergen available before this, with almost no processing before the plasma! For most players, fusion is the only source of power for 3 or 4 tiers, and all other ways of getting power are much more complicated and harder to upscale.\n\nThat said, you will still need multiple turbines to actually consume all of the plasma. At LuV, each turbine can only output the equivalent of 1 ZPM amp, so you will need high-efficiency turbines that don\u0027t go above the value of 131,072 EU/t output. Three candidates, in descending order of efficiency, are: Large Rhodium-Palladium at 150% and 124,740 EU/t, Normal Draconium at 145% and 121,800 EU/t and Large Tungstencarbide at 140% and 123,480 EU/t.\n\n[note]Note: the suggestions in this questline might be outdated, and there might be other options that are just as good, if not better. Look through NEI and ask other people, there might be a new setup that can replace the ones in these quests![/note]",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.metaitem.01",
         "Count:3": 1,
         "Damage:2": 31004,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.metaitem.01"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "How Much Power From One Reactor?",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "A completed Fusion Reactor does not generate any EU on its own, it only consumes it. That said, it\u0027s very simple to generate power from plasma, a one-step process of having a Plasma Turbine. These special turbines only work with plasma and are significantly more expensive than the previous ones, requiring Tungstensteel for the body and Naquadah + Naquadah Alloy for the controller.\n\nFirst, how much plasma can one tier 1 reactor produce? The best option for power at this stage is Helium Plasma, with its cheap inputs, and this takes 6.4 seconds per bucket to generate. Since a bucket is worth 81,920,000 EU, that equates to 640,000 EU/t at 100% efficiency or 960,000 EU/t at 150%. That is almost 8 ZPM amps, a massive power spike compared to the powergen available before this, with almost no processing before the plasma! For most players, fusion is the only source of power for 3 or 4 tiers, and all other ways of getting power are much more complicated and harder to upscale.\n\nThat said, you will still need multiple turbines to actually consume all of the plasma. At LuV, each turbine can only output the equivalent of 1 ZPM amp, so you will need high-efficiency turbines that don\u0027t go above the value of 131,072 EU/t output. Three candidates, in descending order of efficiency, are: Large Rhodium-Palladium at 150% and 124,740 EU/t, Normal Draconium at 145% and 121,800 EU/t and Large Tungstencarbide at 140% and 123,480 EU/t.\n\n[note]Note: the suggestions in this questline might be outdated, and there might be other options that are just as good, if not better. Look through NEI and ask other people, there might be a new setup that can replace the ones in these quests![/note]"
+      "lockedProgress:1": 0,
+      "name:8": "How Much Power From One Reactor?",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
     }
   },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 3163,
+  "rewards:9": {},
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.blockmachines",
           "Count:3": 1,
           "Damage:2": 1153,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.blockcasings4",
           "Count:3": 1,
           "Damage:2": 12,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings4"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     }
-  },
-  "rewards:9": {}
+  }
 }
