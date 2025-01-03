@@ -245,7 +245,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAJw.desc=While standard chests are good 
 
 # Quest: You Shall Proceed
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAKA.name=§2§lYou Shall Proceed
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAKA.desc=As you've gathered and crafted all materials and tools you need for your basic steam machinery, you may now proceed to the next tier. Keep in mind that you'll need mountains of resources in order to craft even the simplest things, so you probably should stock up on all ores in this tier. But that's up to you.%n%nAs a special reward, you get a pair of Holo Glasses to look inside your inventories. Place it into the mask slot, and use the keybind to turn it on. Sometimes it gets turned off somehow, so try pressing the button if that happens.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAKA.desc=As you've gathered and crafted all materials and tools you need for your basic steam machinery, you may now proceed to the next tier. Keep in mind that you'll need mountains of resources in order to craft even the simplest things, so you probably should stock up on all ores in this tier. But that's up to you.%n%nAs a special reward, you get a pair of Holo Glasses to look inside your inventories. Place it into the mask slot, and use the keybind to turn it on.%n%n[note]Tip: If you double-click the NEI search field the resulting highlighted search also applies to what you can see with your Holo Glasses![/note]
 
 # Quest: Don't Burn Your Fingers!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAKQ.name=§2§lDon't Burn Your Fingers!
@@ -839,7 +839,7 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAAAw.desc=The first "voltage" tier of
 
 # Quest: Handle Resources Like a Bo$$ #1
 betterquesting.quest.53iZp0DzRzidBo4-kUsWGg.name=§5§6§l§5§lHandle Resources Like a Bo$$ #1
-betterquesting.quest.53iZp0DzRzidBo4-kUsWGg.desc=A peak of human engineering at your disposal!%n%nThis machine allows you to filer by machine recipe type and allows you to effortlessly setup automation. To use it simply put a machine of any type into the GUI to create a filter, e.g. macerator will allow the machine to only accept items that can be macerated. The same machine can be used to create an inverse filter (a button in the GUI) that will allow you to exclude all items that can be processed by that machine. %n%n[note]Is it time for some ore processing automation?[/note]
+betterquesting.quest.53iZp0DzRzidBo4-kUsWGg.desc=A feat of human engineering at your disposal!%n%nThis machine allows you to filter by machine recipe type and allows you to effortlessly set up automations. To use it simply put a machine of any type into the GUI to create a filter, e.g. a Macerator will allow the machine to only accept items that can be macerated. The same machine can be used to create an inverse filter (a button in the GUI) that will allow you to exclude all items that can be processed by that machine.
 
 # Quest: Welcome to Tier 1, LV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAWA.name=§5§r§5§lWelcome to Tier 1, LV
@@ -1239,7 +1239,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEjg.desc=The Nether is full of different
 
 # Quest: Lithium
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEjw.name=§5§lLithium
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEjw.desc=Lithium can be washed out of Lepidolite Ore or centrifuged out of Spodumene Ore. At MV you can electrolyze clay dust for it. Look for canyons to find hardened clay and macerate it for dust.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEjw.desc=Lithium can be washed out of Lepidolite Ore or centrifuged out of either Lepidolite Ore or Spodumene Ore. At MV you can electrolyze clay dust for it. Look for canyons to find hardened clay and macerate it for dust.
 
 # Quest: Sodium
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEkA.name=§5§lSodium
@@ -1379,7 +1379,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALpw.desc=Mica is a very rare but useful 
 
 # Quest: Handle Resources Like a Bo$$ #2
 betterquesting.quest.JRrD8MoLRuCHCD-fFpeNvQ.name=§5§6§l§5§lHandle Resources Like a Bo$$ #2
-betterquesting.quest.JRrD8MoLRuCHCD-fFpeNvQ.desc=A peak of human engineering at your disposal!%n%nThis machine allows you to filter 9 items, and will only output set batches. This allows you to automate processes such as electrolyzing that require different amounts of inputs that may clog the system otherwise.%n%n[note]Is it time for some ore processing automation?[/note]%n[note]This will be immensely useful in MV once you unlock more electorlyzer recipes![/note]
+betterquesting.quest.JRrD8MoLRuCHCD-fFpeNvQ.desc=A feat of human engineering at your disposal!%n%nThis machine allows you to filter 9 items, and will only output set batches. This allows you to automate processes such as electrolyzing that require different amounts of inputs that may clog the system otherwise.%n%n[note]This will be particularly useful in MV once you unlock more electrolysis recipes![/note]
 
 # Quest: Keeping things organized
 betterquesting.quest.b47jlBoHTFGGB3j7nq60Zw.name=§5§lKeeping things organized
