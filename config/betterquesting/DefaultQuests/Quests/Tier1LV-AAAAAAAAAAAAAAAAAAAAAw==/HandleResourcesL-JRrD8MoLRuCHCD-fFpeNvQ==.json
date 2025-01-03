@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "A peak of human engineering at your disposal!\n\nThis machine allows you to filter 9 items, and will only output set batches. This allows you to automate processes such as electrolyzing that require different amounts of inputs that may clog the system otherwise.\n\n[note]Is it time for some ore processing automation?[/note]\n[note]This will be immensely useful in MV once you unlock more electorlyzer recipes![/note]",
+      "desc:8": "A feat of human engineering at your disposal!\n\nThis machine allows you to filter 9 items, and will only output set batches. This allows you to automate processes such as electrolyzing that require different amounts of inputs that may clog the system otherwise.\n\n[note]This will be particularly useful in MV once you unlock more electrolysis recipes![/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 64,
