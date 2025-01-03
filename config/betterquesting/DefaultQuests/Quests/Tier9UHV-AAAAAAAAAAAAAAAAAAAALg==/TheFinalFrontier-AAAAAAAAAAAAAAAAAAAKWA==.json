@@ -1,42 +1,42 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 2616
     }
   },
-  "questIDLow:4": 2648,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL",
-      "isMain:1": 1,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "The last of the normal rocket progression. After this is there is only the Mothership for the T9 system and the Deep Dark, which has all the ores+more.\n\nAlthough you get access to six new planets, there\u0027s only two new veins. And don\u0027t complain that Barnarda should be Barnard, we can\u0027t fix it.\n\nThe Barnarda system is to the NNW, and you can visit Barnada C, E, and F.\nThe α Centauri system is to the NE, and you can vist α Centauri Bb (Proxima Centauri is not visitable). [note]Remember to wear your SpaceSuit![/note]\nThe Tau Ceti system is to the SSW, and you can visit the habitable planet Tau Ceti E.\nThe Vega System is to the WNW, and you can visit the planet Vega B.\n\nThe new veins are Cadmium and Samarium. The ores are Cadmium, Caesium, Cerium, Lanthanum, Neodymium, Samarium, and Tartarite.\n\nYou can get Awakened Draconium from small ores on Barnarda E, Barnarda F, Tau Ceti E, and Vega B.\nYou can get Bedrockium from small ores on Barnarda F.\nYou can get Infinity Catalyst from small ores on Vega B.\n\nIn addition to planet ores and blocks, grab some Barnarda C Saplings and Dirt so you can grow some more if you need it for Radox (lol). You can also grab some more Unknown Crystal Shards from the Rainbow Crystals lying around.\n\nMore importantly you should collect Seaweed from Tau Ceti E. You need it to make UEV circuits, and though you can make it as well, you need some to begin with. The unknown liquid to grow these is however found in lakes and underground on Barnarda C.",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "GalaxySpace:item.Tier8Rocket",
         "Count:3": 1,
         "Damage:2": 0,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "GalaxySpace:item.Tier8Rocket"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "The Final Frontier?",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 1,
       "isSilent:1": 0,
-      "desc:8": "The last of the normal rocket progression. After this is there is only the Mothership for the T9 system and the Deep Dark, which has all the ores+more.\n\nAlthough you get access to six new planets, there\u0027s only two new veins. And don\u0027t complain that Barnarda should be Barnard, we can\u0027t fix it.\n\nThe Barnarda system is to the NNW, and you can visit Barnada C, E, and F.\nThe α Centauri system is to the NE, and you can vist α Centauri Bb (Proxima Centauri is not visitable). [note]Remember to wear your SpaceSuit![/note]\nThe Tau Ceti system is to the SSW, and you can visit the habitable planet Tau Ceti E.\nThe Vega System is to the WNW, and you can visit the planet Vega B.\n\nThe new veins are Cadmium and Samarium. The ores are Cadmium, Caesium, Cerium, Lanthanum, Neodymium, Samarium, and Tartarite.\n\nYou can get Awakened Draconium from small ores on Barnarda E, Barnarda F, Tau Ceti E, and Vega B.\nYou can get Bedrockium from small ores on Barnarda F.\nYou can get Infinity Catalyst from small ores on Vega B.\n\nIn addition to planet ores and blocks, grab some Barnarda C Saplings and Dirt so you can grow some more if you need it for Radox (lol). You can also grab some more Unknown Crystal Shards from the Rainbow Crystals lying around.\n\nMore importantly you should collect Seaweed from Tau Ceti E. You need it to make UEV circuits, and though you can make it as well, you need some to begin with. The unknown liquid to grow these is however found in lakes and underground on Barnarda C."
+      "lockedProgress:1": 0,
+      "name:8": "The Final Frontier?",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
     }
   },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 2648,
+  "rewards:9": {},
   "tasks:9": {
     "0:10": {
       "index:3": 0,
       "taskID:8": "bq_standard:checkbox"
     }
-  },
-  "rewards:9": {}
+  }
 }

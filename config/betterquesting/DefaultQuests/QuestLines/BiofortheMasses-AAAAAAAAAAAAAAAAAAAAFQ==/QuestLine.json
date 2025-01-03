@@ -1,19 +1,19 @@
 {
-  "questLineIDLow:4": 21,
-  "questLineIDHigh:4": 0,
   "properties:10": {
     "betterquesting:10": {
-      "visibility:8": "UNLOCKED",
-      "name:8": "Bio for the Masses",
-      "icon:10": {
-        "id:8": "gregtech:gt.metaitem.02",
-        "Count:3": 1,
-        "Damage:2": 32557,
-        "OreDict:8": ""
-      },
       "bg_image:8": "",
       "bg_size:3": 256,
-      "desc:8": "Questline about powergen that comes from plants and trees."
+      "desc:8": "Questline about powergen that comes from plants and trees.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 32557,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.metaitem.02"
+      },
+      "name:8": "Bio for the Masses",
+      "visibility:8": "UNLOCKED"
     }
-  }
+  },
+  "questLineIDHigh:4": 0,
+  "questLineIDLow:4": 21
 }

@@ -1,19 +1,19 @@
 {
-  "questLineIDLow:4": 34,
-  "questLineIDHigh:4": 0,
   "properties:10": {
     "betterquesting:10": {
-      "visibility:8": "UNLOCKED",
-      "name:8": "Space Race",
-      "icon:10": {
-        "id:8": "GalaxySpace:item.Tier6Rocket",
-        "Count:3": 1,
-        "Damage:2": 4,
-        "OreDict:8": ""
-      },
       "bg_image:8": "",
       "bg_size:3": 256,
-      "desc:8": "A guide to help you start Galacticraft to reach the Moon and beyond"
+      "desc:8": "A guide to help you start Galacticraft to reach the Moon and beyond",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 4,
+        "OreDict:8": "",
+        "id:8": "GalaxySpace:item.Tier6Rocket"
+      },
+      "name:8": "Space Race",
+      "visibility:8": "UNLOCKED"
     }
-  }
+  },
+  "questLineIDHigh:4": 0,
+  "questLineIDLow:4": 34
 }

@@ -1,19 +1,19 @@
 {
-  "questLineIDLow:4": 8,
-  "questLineIDHigh:4": 0,
   "properties:10": {
     "betterquesting:10": {
-      "visibility:8": "UNLOCKED",
-      "name:8": "Tier 6 - LuV",
-      "icon:10": {
-        "id:8": "gregtech:gt.blockmachines",
-        "Count:3": 1,
-        "Damage:2": 1193,
-        "OreDict:8": ""
-      },
       "bg_image:8": "",
       "bg_size:3": 256,
-      "desc:8": "If you have made it this far, you should walk with your head held high - you are at the start of the lategame. Endgame is still a long road ahead of you, but you are now an expert at GTNH and most of the mods it comes with. Congrats, and be proud of yourself.\n\nOnce you\u0027re done being proud, start making CALs for better circuits, and work towards making endgame power with the Fusion Reactor, you\u0027ll need it."
+      "desc:8": "If you have made it this far, you should walk with your head held high - you are at the start of the lategame. Endgame is still a long road ahead of you, but you are now an expert at GTNH and most of the mods it comes with. Congrats, and be proud of yourself.\n\nOnce you\u0027re done being proud, start making CALs for better circuits, and work towards making endgame power with the Fusion Reactor, you\u0027ll need it.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1193,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
+      },
+      "name:8": "Tier 6 - LuV",
+      "visibility:8": "UNLOCKED"
     }
-  }
+  },
+  "questLineIDHigh:4": 0,
+  "questLineIDLow:4": 8
 }

@@ -53,10 +53,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAADA.desc=Epic quest: Kill some sheep! (A
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAADQ.name=§1§lSO...TIRED...MUST...SLEEP...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAADQ.desc=Sleepy time, and the end of the tutorial. %n%nCongratulations! You've built your first hideout, and you should have a steady supply of food by now. %n%nSee you again in Tier 0!
 
-# Quest: What's That...?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAADg.name=§1§lWhat's That...?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAADg.desc=You've seen a lot of trees, but there are a few that look really special. You are sure that these trees are much more than just wood to build your home with or used to get charcoal. You're sure that these will be Very Important soon™.%n%nThe best place to find them is in a Magical Forest, but if you can't find one, you can try a Garden or Cherry Wood Grove. Or just randomly everywhere.%n%nIf you have trouble finding them, you can go to the Coins tab and buy them.
-
 # Quest: Collecting Some Berries
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB1Q.name=§1§lCollecting Some Berries
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB1Q.desc=Are you waiting for the carrots to grow? Go and find some berry bushes and berries. %n%nThe berries are a good source of food, and you can put these bushes around your house to make a wall. It should provide a good protection against all those monsters that want to come into your house and kill you.
@@ -434,6 +430,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALPA.desc=It looks like you've found a se
 # Quest: The power of prospecting!
 betterquesting.quest.bMKIeFhNQluRks9YzpqEGQ.name=§6§lThe power of prospecting!
 betterquesting.quest.bMKIeFhNQluRks9YzpqEGQ.desc=At the top of your map screen (J by default) there are multiple tabs, some of them will be very useful and will save you a ton of searching!%n%nGT Oreveins - this tab will keep track of the veins for you, to save a vein to map right-click a naturally generated ore (some tools can't right click)%nGT Underground fluids - this will help you later (MV)%nTC Nodes - this tab will keep track of thaumcraft nodes for you (you need to scan them first)%n%n[note]Small Ores are not part of veins and thus do not uncover a vein on the map. However veins generate extra small ores related to the vein in their chunks, so they can still be useful in your search (though not all small ores are related to a nearby vein so don't be fooled).[/note]%n%n[note]Another great interaction is that you can use the NEI search bar in highlight mode (doubleclick it) and then go to the map screen to get the matching uncovered ore veins highlighted![/note]
+
+# Quest: Your First Flint Sword
+betterquesting.quest.h_PK8qnyR9CBUoOhT9nwzA.name=§2§lYour First Flint Sword
+betterquesting.quest.h_PK8qnyR9CBUoOhT9nwzA.desc=It's time to upgrade your wooden sword a little.%nCollect flint bones and a stick.%n%nYou won't be able to kill a Wither with it now, but you can upgrade and improve this tool later. You can also repair it with flint.
 
 # Quest: NEI is EVEN MORE POWERFUL NOW?
 betterquesting.quest.pl7uw8oSRhe6L4DmTRfrOQ.name=§2§lNEI is EVEN MORE POWERFUL NOW?
@@ -13881,6 +13881,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAABA.desc=Now that you've made it this fa
 # Quest: Monster Hunter
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAACw.name=§1§lMonster Hunter
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAACw.desc=It's about time to craft something more useful: A sword!%n%nNow that you have a sword, you will get credit for monster kills in the Kill All the Things tab. Watch out, monsters in this world will chew you up and spit you out!%n%nYou can find additional weapon quests on the Getting Around tab.
+
+# Quest: What's That...?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAADg.name=§1§lWhat's That...?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAADg.desc=You've seen a lot of trees, but there are a few that look really special. You are sure that these trees are much more than just wood to build your home with or used to get charcoal. You're sure that these will be Very Important soon™.%n%nThe best place to find them is in a Magical Forest, but if you can't find one, you can try a Garden or Cherry Wood Grove. Or just randomly everywhere.%n%nIf you have trouble finding them, you can go to the Coins tab and buy them.
 
 # Quest: Steam-a-licious!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAARg.name=§3§lSteam-a-licious!

@@ -1,44 +1,44 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 1469
     }
   },
-  "questIDLow:4": 1470,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "Cavernous Vine is a poisonous plant that grows naturally in the Mars underground. It grows from the ceiling down to the floor in the huge caves flooded with Bacterial Sludge, emits light and can trap mobs in it.\n\nAny mob that touches this plant will be poisoned, dragged up and lose health down to 1 health point (half a heart) while trapped in this plant. Mobs that are immune to poison, like Zombies and Skeletons, will not lose health.\n\nThey grow from the bottom face of a solid block down to 1 block away from the floor.\n\nCavernous vines can be broken by hand without taking damage or being poisoned but they will drop nothing. They can be obtained as an item using shears. Even picks with Silk Touch enchant will not obtain anything.\n\nOnce obtained, they can be replanted elsewhere and regrow, like cactus.\n\n[note]That said, they\u0027re still useless.[/note]",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "GalacticraftMars:tile.cavernVines",
         "Count:3": 1,
         "Damage:2": 0,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "GalacticraftMars:tile.cavernVines"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Cavernous Vine",
       "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Cavernous Vine is a poisonous plant that grows naturally in the Mars underground. It grows from the ceiling down to the floor in the huge caves flooded with Bacterial Sludge, emits light and can trap mobs in it.\n\nAny mob that touches this plant will be poisoned, dragged up and lose health down to 1 health point (half a heart) while trapped in this plant. Mobs that are immune to poison, like Zombies and Skeletons, will not lose health.\n\nThey grow from the bottom face of a solid block down to 1 block away from the floor.\n\nCavernous vines can be broken by hand without taking damage or being poisoned but they will drop nothing. They can be obtained as an item using shears. Even picks with Silk Touch enchant will not obtain anything.\n\nOnce obtained, they can be replanted elsewhere and regrow, like cactus.\n\n[note]That said, they\u0027re still useless.[/note]"
+      "lockedProgress:1": 0,
+      "name:8": "Cavernous Vine",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
     }
   },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 1470,
+  "rewards:9": {},
   "tasks:9": {
     "0:10": {
       "index:3": 0,
       "taskID:8": "bq_standard:checkbox"
     }
-  },
-  "rewards:9": {}
+  }
 }
