@@ -99,11 +99,7 @@
           "Count:3": 60,
           "Damage:2": 2,
           "OreDict:8": "",
-          "id:8": "betterquesting:placeholder",
-          "tag:10": {
-            "orig_id:8": "dreamcraft:gt.blockcasingsNH",
-            "orig_meta:3": 2
-          }
+          "id:8": "dreamcraft:gt.blockcasingsNH"
         }
       },
       "taskID:8": "bq_standard:retrieval"
