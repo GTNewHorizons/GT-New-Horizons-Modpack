@@ -104,13 +104,13 @@
           "Count:3": 8,
           "Damage:2": 1,
           "OreDict:8": "",
-          "id:8": "dreamcraft:gt.blockcasingsNH"
+          "id:8": "gregtech:gt.blockcasingsNH"
         },
         "1:10": {
           "Count:3": 13,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:gt.blockcasingsNH"
+          "id:8": "gregtech:gt.blockcasingsNH"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
