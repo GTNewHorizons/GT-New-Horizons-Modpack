@@ -309,10 +309,6 @@
 	<ToolTip ItemName="IC2:itemNanoSaber:26" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
 	<ToolTip ItemName="IC2:plasmaLauncher:1" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
 	<ToolTip ItemName="IC2:plasmaLauncher:26" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemScanner:1" ToolTip="Recharge in a §7LV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemScanner:26" ToolTip="Recharge in a §7LV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemScannerAdv:1" ToolTip="Recharge in a §6MV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemScannerAdv:26" ToolTip="Recharge in a §6MV-tier §7Machine" NBT=""/>
 	<ToolTip ItemName="IC2:obscurator:1" ToolTip="Recharge in a §6MV-tier §7Machine" NBT=""/>
 	<ToolTip ItemName="IC2:obscurator:27" ToolTip="Recharge in a §6MV-tier §7Machine" NBT=""/>
 	<ToolTip ItemName="IC2:itemArmorBatpack:1" ToolTip="Recharge in a §7LV-tier §7Machine" NBT=""/>
