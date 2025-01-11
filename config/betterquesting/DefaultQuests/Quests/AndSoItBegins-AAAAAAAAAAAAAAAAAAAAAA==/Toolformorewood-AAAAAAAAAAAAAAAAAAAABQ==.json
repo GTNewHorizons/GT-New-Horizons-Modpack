@@ -1,51 +1,70 @@
 {
-  "questIDLow:4": 12,
+  "questIDLow:4": 5,
   "questIDHigh:4": 0,
   "tasks:9": {
     "0:10": {
-      "autoConsume:1": 0,
-      "taskID:8": "bq_standard:retrieval",
+      "allowCraft:1": 1,
+      "allowAnvil:1": 0,
+      "taskID:8": "bq_standard:crafting",
+      "allowCraftedFromStatistics:1": 0,
       "index:3": 0,
-      "groupDetect:1": 0,
       "requiredItems:9": {
         "0:10": {
           "Damage:2": 0,
-          "id:8": "minecraft:wool",
-          "OreDict:8": "blockWool",
-          "Count:3": 6
+          "id:8": "minecraft:wooden_axe",
+          "OreDict:8": "",
+          "Count:3": 1
         }
       },
       "partialMatch:1": 1,
-      "consume:1": 0,
-      "ignoreNBT:1": 0
+      "allowSmelt:1": 1,
+      "ignoreNBT:1": 1
     }
   },
   "preRequisites:9": {
     "0:10": {
-      "questIDLow:4": 11,
+      "questIDLow:4": 4,
       "questIDHigh:4": 0
     }
   },
   "rewards:9": {
     "0:10": {
-      "index:3": 0,
-      "rewards:9": {
+      "choices:9": {
         "0:10": {
+          "Damage:2": 0,
+          "id:8": "minecraft:planks",
+          "OreDict:8": "",
+          "Count:3": 10
+        },
+        "1:10": {
+          "Damage:2": 0,
+          "id:8": "minecraft:cookie",
+          "OreDict:8": "",
+          "Count:3": 1
+        },
+        "2:10": {
           "Damage:2": 1,
           "id:8": "enhancedlootbags:lootbag",
           "OreDict:8": "",
           "Count:3": 1
         }
       },
+      "index:3": 0,
       "ignoreDisabled:1": 0,
-      "rewardID:8": "bq_standard:item"
+      "rewardID:8": "bq_standard:choice"
     },
     "1:10": {
       "index:3": 1,
       "rewards:9": {
         "0:10": {
           "Damage:2": 0,
-          "id:8": "dreamcraft:item.CoinSurvivor",
+          "id:8": "dreamcraft:item.CoinSmith",
+          "OreDict:8": "",
+          "Count:3": 5
+        },
+        "1:10": {
+          "Damage:2": 0,
+          "id:8": "dreamcraft:item.CoinTechnician",
           "OreDict:8": "",
           "Count:3": 5
         }
@@ -60,7 +79,7 @@
       "partySingleReward:1": 0,
       "icon:10": {
         "Damage:2": 0,
-        "id:8": "minecraft:wool",
+        "id:8": "minecraft:wooden_axe",
         "OreDict:8": "",
         "Count:3": 1
       },
@@ -68,17 +87,17 @@
       "isSilent:1": 0,
       "questLogic:8": "AND",
       "isMain:1": 1,
-      "lockedProgress:1": 0,
+      "lockedProgress:1": 1,
       "repeat_relative:1": 1,
       "snd_update:8": "random.levelup",
-      "name:8": "§1§lFluffy and Red",
+      "name:8": "§1§lTool for more wood",
       "snd_complete:8": "random.levelup",
       "isGlobal:1": 0,
       "autoClaim:1": 0,
       "taskLogic:8": "AND",
       "simultaneous:1": 0,
       "globalShare:1": 1,
-      "desc:8": "Epic quest: Kill some sheep! (And try to get some wool, for a bed, obviously...)"
+      "desc:8": "Now that you\u0027ve got a shelter and a crafting table, you should make some tools, unless you\u0027d like to continue punching trees with your bare hands.\n\nNow make the axe first so you can get wood for the rest more easily."
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "questIDLow:4": 2,
+  "questIDLow:4": 14,
   "questIDHigh:4": 0,
   "tasks:9": {
     "0:10": {
@@ -9,16 +9,16 @@
       "groupDetect:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "Damage:2": 0,
-          "id:8": "minecraft:gravel",
+          "Damage:2": 1,
+          "id:8": "Thaumcraft:blockCustomPlant",
           "OreDict:8": "",
-          "Count:3": 6
+          "Count:3": 1
         },
         "1:10": {
-          "Damage:2": 0,
-          "id:8": "minecraft:log",
-          "OreDict:8": "logWood",
-          "Count:3": 8
+          "Damage:2": 1,
+          "id:8": "Thaumcraft:blockMagicalLog",
+          "OreDict:8": "",
+          "Count:3": 5
         }
       },
       "partialMatch:1": 1,
@@ -33,19 +33,25 @@
       "requiredItems:9": {
         "0:10": {
           "Damage:2": 0,
-          "id:8": "minecraft:log",
-          "OreDict:8": "logWood",
-          "Count:3": 2
+          "id:8": "Thaumcraft:blockCustomPlant",
+          "OreDict:8": "",
+          "Count:3": 1
+        },
+        "1:10": {
+          "Damage:2": 0,
+          "id:8": "Thaumcraft:blockMagicalLog",
+          "OreDict:8": "",
+          "Count:3": 5
         }
       },
       "partialMatch:1": 1,
-      "consume:1": 1,
+      "consume:1": 0,
       "ignoreNBT:1": 0
     }
   },
   "preRequisites:9": {
     "0:10": {
-      "questIDLow:4": 0,
+      "questIDLow:4": 13,
       "questIDHigh:4": 0
     }
   },
@@ -54,8 +60,8 @@
       "index:3": 0,
       "rewards:9": {
         "0:10": {
-          "Damage:2": 0,
-          "id:8": "minecraft:torch",
+          "Damage:2": 1,
+          "id:8": "enhancedlootbags:lootbag",
           "OreDict:8": "",
           "Count:3": 1
         }
@@ -68,9 +74,15 @@
       "rewards:9": {
         "0:10": {
           "Damage:2": 0,
-          "id:8": "dreamcraft:item.CoinSurvivor",
+          "id:8": "dreamcraft:item.CoinAdventure",
           "OreDict:8": "",
-          "Count:3": 5
+          "Count:3": 10
+        },
+        "1:10": {
+          "Damage:2": 0,
+          "id:8": "dreamcraft:item.CoinDarkWizard",
+          "OreDict:8": "",
+          "Count:3": 10
         }
       },
       "ignoreDisabled:1": 0,
@@ -82,8 +94,8 @@
       "visibility:8": "NORMAL",
       "partySingleReward:1": 0,
       "icon:10": {
-        "Damage:2": 0,
-        "id:8": "minecraft:gravel",
+        "Damage:2": 1,
+        "id:8": "Thaumcraft:blockCustomPlant",
         "OreDict:8": "",
         "Count:3": 1
       },
@@ -94,14 +106,14 @@
       "lockedProgress:1": 0,
       "repeat_relative:1": 1,
       "snd_update:8": "random.levelup",
-      "name:8": "§1§lSticks \u0027n Stones",
+      "name:8": "§1§l§What\u0027s That...?",
       "snd_complete:8": "random.levelup",
       "isGlobal:1": 0,
       "autoClaim:1": 0,
       "taskLogic:8": "AND",
       "simultaneous:1": 0,
       "globalShare:1": 1,
-      "desc:8": "This book has a built-in reading light, lucky you! You can read about quests while you\u0027re waiting for the night to be over, but for now, you may want to get the basics done. If it isn\u0027t dark already, go out and collect some gravel and wood. \n\nKeep in mind that you need food, so look for Pam\u0027s Harvestcraft gardens. Save some of the drops from them for seeds. Alternatively, right-click the gardens with an empty hand to get the garden item itself. If you place it somewhere else, it will spread into more of the same garden up to a limit within that area.\n\nMake sure to read the info-quests linked to the first quest, they have important info!"
+      "desc:8": "You\u0027ve seen a lot of trees, but there are a few that look really special. You are sure that these trees are much more than just wood to build your home with or used to get charcoal. You\u0027re sure that these will be Very Important soon™.\n\nThe best place to find them is in a Magical Forest, but if you can\u0027t find one, you can try a Garden or Cherry Wood Grove. Or just randomly everywhere.\n\nIf you have trouble finding them, you can go to the Coins tab and buy them."
     }
   }
 }

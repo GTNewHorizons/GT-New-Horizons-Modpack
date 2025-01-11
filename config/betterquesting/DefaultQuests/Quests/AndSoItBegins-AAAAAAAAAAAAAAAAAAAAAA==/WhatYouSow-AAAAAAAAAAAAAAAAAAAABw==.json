@@ -1,90 +1,90 @@
 {
+  "questIDLow:4": 7,
+  "questIDHigh:4": 0,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "taskID:8": "bq_standard:retrieval",
+      "index:3": 0,
+      "groupDetect:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Damage:2": 0,
+          "id:8": "minecraft:carrot",
+          "OreDict:8": "",
+          "Count:3": 10
+        }
+      },
+      "partialMatch:1": 1,
+      "consume:1": 0,
+      "ignoreNBT:1": 0
+    }
+  },
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 6
+      "questIDLow:4": 6,
+      "questIDHigh:4": 0
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "Damage:2": 0,
+          "id:8": "minecraft:potato",
+          "OreDict:8": "",
+          "Count:3": 5
+        },
+        "1:10": {
+          "Damage:2": 1,
+          "id:8": "enhancedlootbags:lootbag",
+          "OreDict:8": "",
+          "Count:3": 1
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "rewardID:8": "bq_standard:item"
+    },
+    "1:10": {
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "Damage:2": 0,
+          "id:8": "dreamcraft:item.CoinFarmer",
+          "OreDict:8": "",
+          "Count:3": 5
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "rewardID:8": "bq_standard:item"
     }
   },
   "properties:10": {
     "betterquesting:10": {
-      "autoClaim:1": 0,
-      "desc:8": "If you, by chance, did read the previous quest and planted the carrots, then you\u0027re fine. \n\nMeanwhile, you should turn some more fruits and vegetables into seeds, and increase the size of your farm to get a steady supply of food.",
-      "globalShare:1": 1,
-      "icon:10": {
-        "Count:3": 1,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:carrot"
-      },
-      "isGlobal:1": 0,
-      "isMain:1": 1,
-      "isSilent:1": 0,
-      "lockedProgress:1": 0,
-      "name:8": "§1§l...What You Sow",
+      "visibility:8": "NORMAL",
       "partySingleReward:1": 0,
-      "questLogic:8": "AND",
-      "repeatTime:3": -1,
-      "repeat_relative:1": 1,
-      "simultaneous:1": 0,
-      "snd_complete:8": "random.levelup",
-      "snd_update:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL"
-    }
-  },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 7,
-  "rewards:9": {
-    "0:10": {
-      "ignoreDisabled:1": 0,
-      "index:3": 0,
-      "rewardID:8": "bq_standard:item",
-      "rewards:9": {
-        "0:10": {
-          "Count:3": 5,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "minecraft:potato"
-        },
-        "1:10": {
-          "Count:3": 1,
-          "Damage:2": 1,
-          "OreDict:8": "",
-          "id:8": "enhancedlootbags:lootbag"
-        }
-      }
-    },
-    "1:10": {
-      "ignoreDisabled:1": 0,
-      "index:3": 1,
-      "rewardID:8": "bq_standard:item",
-      "rewards:9": {
-        "0:10": {
-          "Count:3": 5,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinFarmer"
-        }
-      }
-    }
-  },
-  "tasks:9": {
-    "0:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
-      "index:3": 0,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 10,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "minecraft:carrot"
-        }
+      "icon:10": {
+        "Damage:2": 0,
+        "id:8": "minecraft:carrot",
+        "OreDict:8": "",
+        "Count:3": 1
       },
-      "taskID:8": "bq_standard:retrieval"
+      "repeatTime:3": -1,
+      "isSilent:1": 0,
+      "questLogic:8": "AND",
+      "isMain:1": 1,
+      "lockedProgress:1": 0,
+      "repeat_relative:1": 1,
+      "snd_update:8": "random.levelup",
+      "name:8": "§1§l...What You Sow",
+      "snd_complete:8": "random.levelup",
+      "isGlobal:1": 0,
+      "autoClaim:1": 0,
+      "taskLogic:8": "AND",
+      "simultaneous:1": 0,
+      "globalShare:1": 1,
+      "desc:8": "If you, by chance, did read the previous quest and planted the carrots, then you\u0027re fine. \n\nMeanwhile, you should turn some more fruits and vegetables into seeds, and increase the size of your farm to get a steady supply of food."
     }
   }
 }

@@ -1,132 +1,132 @@
 {
+  "questIDLow:4": 440,
+  "questIDHigh:4": 0,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "taskID:8": "bq_standard:optional_retrieval",
+      "index:3": 0,
+      "groupDetect:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Damage:2": 0,
+          "id:8": "minecraft:sapling",
+          "OreDict:8": "",
+          "Count:3": 1
+        },
+        "1:10": {
+          "Damage:2": 0,
+          "id:8": "minecraft:apple",
+          "OreDict:8": "",
+          "Count:3": 1
+        }
+      },
+      "partialMatch:1": 1,
+      "consume:1": 0,
+      "ignoreNBT:1": 0
+    },
+    "1:10": {
+      "allowCraft:1": 1,
+      "allowAnvil:1": 0,
+      "taskID:8": "bq_standard:crafting",
+      "allowCraftedFromStatistics:1": 0,
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Damage:2": 0,
+          "id:8": "harvestcraft:pamappleSapling",
+          "OreDict:8": "",
+          "Count:3": 1
+        }
+      },
+      "partialMatch:1": 1,
+      "allowSmelt:1": 1,
+      "ignoreNBT:1": 0
+    }
+  },
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 4
+      "questIDLow:4": 4,
+      "questIDHigh:4": 0
     }
   },
-  "properties:10": {
-    "betterquesting:10": {
-      "autoClaim:1": 0,
-      "desc:8": "Oak trees that give apples? Who the hell added this to minecraft? \nYou found a way of combining an oak sapling and an apple to get an apple tree sapling. Try to plant one to get a permanent source of food.\n\nOnce you complete this quest, check out the rest of the Quest Tabs. A new one, \"Coins, Coins, Coins\", has unlocked. You\u0027ll want to look through all the quest tabs to make sure something new hasn\u0027t unlocked somewhere else occasionally. There are lots of tabs, so be sure to scroll down!",
-      "globalShare:1": 1,
-      "icon:10": {
-        "Count:3": 1,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "harvestcraft:pamappleSapling"
-      },
-      "isGlobal:1": 0,
-      "isMain:1": 0,
-      "isSilent:1": 0,
-      "lockedProgress:1": 0,
-      "name:8": "§1§lOak Trees Are Not Apple Trees",
-      "partySingleReward:1": 0,
-      "questLogic:8": "AND",
-      "repeatTime:3": -1,
-      "repeat_relative:1": 1,
-      "simultaneous:1": 0,
-      "snd_complete:8": "random.levelup",
-      "snd_update:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL"
-    }
-  },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 440,
   "rewards:9": {
     "0:10": {
       "choices:9": {
         "0:10": {
-          "Count:3": 1,
           "Damage:2": 0,
+          "id:8": "harvestcraft:pampearSapling",
           "OreDict:8": "",
-          "id:8": "harvestcraft:pampearSapling"
+          "Count:3": 1
         },
         "1:10": {
-          "Count:3": 1,
           "Damage:2": 0,
+          "id:8": "harvestcraft:pamcherrySapling",
           "OreDict:8": "",
-          "id:8": "harvestcraft:pamcherrySapling"
+          "Count:3": 1
         },
         "2:10": {
-          "Count:3": 1,
           "Damage:2": 0,
+          "id:8": "harvestcraft:pamorangeSapling",
           "OreDict:8": "",
-          "id:8": "harvestcraft:pamorangeSapling"
+          "Count:3": 1
         },
         "3:10": {
-          "Count:3": 1,
           "Damage:2": 0,
+          "id:8": "harvestcraft:pamwalnutSapling",
           "OreDict:8": "",
-          "id:8": "harvestcraft:pamwalnutSapling"
+          "Count:3": 1
         }
       },
-      "ignoreDisabled:1": 0,
       "index:3": 0,
+      "ignoreDisabled:1": 0,
       "rewardID:8": "bq_standard:choice"
     },
     "1:10": {
-      "ignoreDisabled:1": 0,
       "index:3": 1,
-      "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 2,
           "Damage:2": 0,
+          "id:8": "dreamcraft:item.CoinForestry",
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinForestry"
+          "Count:3": 2
         },
         "1:10": {
-          "Count:3": 2,
           "Damage:2": 0,
+          "id:8": "dreamcraft:item.CoinFarmer",
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinFarmer"
+          "Count:3": 2
         }
-      }
+      },
+      "ignoreDisabled:1": 0,
+      "rewardID:8": "bq_standard:item"
     }
   },
-  "tasks:9": {
-    "0:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
-      "index:3": 0,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "minecraft:sapling"
-        },
-        "1:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "minecraft:apple"
-        }
+  "properties:10": {
+    "betterquesting:10": {
+      "visibility:8": "NORMAL",
+      "partySingleReward:1": 0,
+      "icon:10": {
+        "Damage:2": 0,
+        "id:8": "harvestcraft:pamappleSapling",
+        "OreDict:8": "",
+        "Count:3": 1
       },
-      "taskID:8": "bq_standard:optional_retrieval"
-    },
-    "1:10": {
-      "allowAnvil:1": 0,
-      "allowCraft:1": 1,
-      "allowCraftedFromStatistics:1": 0,
-      "allowSmelt:1": 1,
-      "ignoreNBT:1": 0,
-      "index:3": 1,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "harvestcraft:pamappleSapling"
-        }
-      },
-      "taskID:8": "bq_standard:crafting"
+      "repeatTime:3": -1,
+      "isSilent:1": 0,
+      "questLogic:8": "AND",
+      "isMain:1": 0,
+      "lockedProgress:1": 0,
+      "repeat_relative:1": 1,
+      "snd_update:8": "random.levelup",
+      "name:8": "§1§lOak Trees Are Not Apple Trees",
+      "snd_complete:8": "random.levelup",
+      "isGlobal:1": 0,
+      "autoClaim:1": 0,
+      "taskLogic:8": "AND",
+      "simultaneous:1": 0,
+      "globalShare:1": 1,
+      "desc:8": "Oak trees that give apples? Who the hell added this to minecraft? \nYou found a way of combining an oak sapling and an apple to get an apple tree sapling. Try to plant one to get a permanent source of food.\n\nOnce you complete this quest, check out the rest of the Quest Tabs. A new one, \"Coins, Coins, Coins\", has unlocked. You\u0027ll want to look through all the quest tabs to make sure something new hasn\u0027t unlocked somewhere else occasionally. There are lots of tabs, so be sure to scroll down!"
     }
   }
 }

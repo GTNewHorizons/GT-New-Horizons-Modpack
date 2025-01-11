@@ -1,128 +1,128 @@
 {
-  "preRequisites:9": {
+  "questIDLow:4": 444,
+  "questIDHigh:4": 0,
+  "tasks:9": {
     "0:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 9
-    }
-  },
-  "properties:10": {
-    "betterquesting:10": {
-      "autoClaim:1": 0,
-      "desc:8": "You now have some melon slices or pumpkins but what can you do with them? \n\nYou can just eat them or... use a mallet to get some seeds. OK, let\u0027s craft one. Perhaps you can use this mallet for some other things too.",
-      "globalShare:1": 1,
-      "icon:10": {
-        "Count:3": 1,
-        "Damage:2": 14,
-        "OreDict:8": "",
-        "id:8": "gregtech:gt.metatool.01",
-        "tag:10": {
-          "GT.ToolStats:10": {
-            "MaxDamage:4": 12800,
-            "PrimaryMaterial:8": "Wood",
-            "SecondaryMaterial:8": "Wood"
-          }
+      "autoConsume:1": 0,
+      "taskID:8": "bq_standard:optional_retrieval",
+      "index:3": 0,
+      "groupDetect:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Damage:2": 0,
+          "id:8": "minecraft:stick",
+          "OreDict:8": "stickWood",
+          "Count:3": 1
+        },
+        "1:10": {
+          "Damage:2": 0,
+          "id:8": "minecraft:planks",
+          "OreDict:8": "plankWood",
+          "Count:3": 6
         }
       },
-      "isGlobal:1": 0,
-      "isMain:1": 1,
-      "isSilent:1": 0,
-      "lockedProgress:1": 0,
-      "name:8": "§1§lSoft Mallet Adventure",
-      "partySingleReward:1": 0,
-      "questLogic:8": "AND",
-      "repeatTime:3": -1,
-      "repeat_relative:1": 1,
-      "simultaneous:1": 0,
-      "snd_complete:8": "random.levelup",
-      "snd_update:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL"
+      "partialMatch:1": 1,
+      "consume:1": 0,
+      "ignoreNBT:1": 0
+    },
+    "1:10": {
+      "allowCraft:1": 1,
+      "allowAnvil:1": 0,
+      "taskID:8": "bq_standard:crafting",
+      "allowCraftedFromStatistics:1": 0,
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Damage:2": 14,
+          "id:8": "gregtech:gt.metatool.01",
+          "OreDict:8": "",
+          "tag:10": {
+            "GT.ToolStats:10": {
+              "SecondaryMaterial:8": "Wood",
+              "PrimaryMaterial:8": "Wood",
+              "MaxDamage:4": 12800
+            }
+          },
+          "Count:3": 1
+        }
+      },
+      "partialMatch:1": 1,
+      "allowSmelt:1": 1,
+      "ignoreNBT:1": 0
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 444,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDLow:4": 5,
+      "questIDHigh:4": 0
+    }
+  },
   "rewards:9": {
     "0:10": {
       "choices:9": {
         "0:10": {
-          "Count:3": 2,
           "Damage:2": 0,
+          "id:8": "minecraft:melon",
           "OreDict:8": "",
-          "id:8": "minecraft:melon"
+          "Count:3": 2
         },
         "1:10": {
-          "Count:3": 2,
           "Damage:2": 0,
+          "id:8": "minecraft:pumpkin",
           "OreDict:8": "",
-          "id:8": "minecraft:pumpkin"
+          "Count:3": 2
         }
       },
-      "ignoreDisabled:1": 0,
       "index:3": 0,
+      "ignoreDisabled:1": 0,
       "rewardID:8": "bq_standard:choice"
     },
     "1:10": {
-      "ignoreDisabled:1": 0,
       "index:3": 1,
-      "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 5,
           "Damage:2": 0,
+          "id:8": "dreamcraft:item.CoinTechnician",
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnician"
-        }
-      }
-    }
-  },
-  "tasks:9": {
-    "0:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
-      "index:3": 0,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "stickWood",
-          "id:8": "minecraft:stick"
-        },
-        "1:10": {
-          "Count:3": 6,
-          "Damage:2": 0,
-          "OreDict:8": "plankWood",
-          "id:8": "minecraft:planks"
+          "Count:3": 5
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
-    },
-    "1:10": {
-      "allowAnvil:1": 0,
-      "allowCraft:1": 1,
-      "allowCraftedFromStatistics:1": 0,
-      "allowSmelt:1": 1,
-      "ignoreNBT:1": 0,
-      "index:3": 1,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 1,
-          "Damage:2": 14,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.metatool.01",
-          "tag:10": {
-            "GT.ToolStats:10": {
-              "MaxDamage:4": 12800,
-              "PrimaryMaterial:8": "Wood",
-              "SecondaryMaterial:8": "Wood"
-            }
+      "ignoreDisabled:1": 0,
+      "rewardID:8": "bq_standard:item"
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "visibility:8": "NORMAL",
+      "partySingleReward:1": 0,
+      "icon:10": {
+        "Damage:2": 14,
+        "id:8": "gregtech:gt.metatool.01",
+        "OreDict:8": "",
+        "Count:3": 1,
+        "tag:10": {
+          "GT.ToolStats:10": {
+            "SecondaryMaterial:8": "Wood",
+            "PrimaryMaterial:8": "Wood",
+            "MaxDamage:4": 12800
           }
         }
       },
-      "taskID:8": "bq_standard:crafting"
+      "repeatTime:3": -1,
+      "isSilent:1": 0,
+      "questLogic:8": "AND",
+      "isMain:1": 1,
+      "lockedProgress:1": 0,
+      "repeat_relative:1": 1,
+      "snd_update:8": "random.levelup",
+      "name:8": "§1§lSoft Mallet Adventure",
+      "snd_complete:8": "random.levelup",
+      "isGlobal:1": 0,
+      "autoClaim:1": 0,
+      "taskLogic:8": "AND",
+      "simultaneous:1": 0,
+      "globalShare:1": 1,
+      "desc:8": "You now have some melon slices or pumpkins but what can you do with them? \n\nYou can just eat them or... use a mallet to get some seeds. OK, let\u0027s craft one. Perhaps you can use this mallet for some other things too."
     }
   }
 }

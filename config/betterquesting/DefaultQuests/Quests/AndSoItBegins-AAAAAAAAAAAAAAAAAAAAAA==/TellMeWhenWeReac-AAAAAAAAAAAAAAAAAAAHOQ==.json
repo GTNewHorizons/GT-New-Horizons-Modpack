@@ -1,96 +1,96 @@
 {
+  "questIDLow:4": 1849,
+  "questIDHigh:4": 0,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "taskID:8": "bq_standard:retrieval",
+      "index:3": 0,
+      "groupDetect:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Damage:2": 0,
+          "id:8": "minecraft:oak_stairs",
+          "OreDict:8": "stairWood",
+          "Count:3": 8
+        },
+        "1:10": {
+          "Damage:2": 0,
+          "id:8": "minecraft:stone_stairs",
+          "OreDict:8": "",
+          "Count:3": 8
+        }
+      },
+      "partialMatch:1": 1,
+      "consume:1": 0,
+      "ignoreNBT:1": 0
+    }
+  },
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 5
+      "questIDLow:4": 8,
+      "questIDHigh:4": 0
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "Damage:2": 0,
+          "id:8": "minecraft:ladder",
+          "OreDict:8": "",
+          "Count:3": 64
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "rewardID:8": "bq_standard:item"
+    },
+    "1:10": {
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "Damage:2": 0,
+          "id:8": "dreamcraft:item.CoinForestry",
+          "OreDict:8": "",
+          "Count:3": 10
+        },
+        "1:10": {
+          "Damage:2": 0,
+          "id:8": "harvestcraft:suaderoItem",
+          "OreDict:8": "",
+          "Count:3": 4
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "rewardID:8": "bq_standard:item"
     }
   },
   "properties:10": {
     "betterquesting:10": {
-      "autoClaim:1": 0,
-      "desc:8": "Jumping all the time is exhausting and makes you really hungry. \nTo reduce your food depletion, you might want to use stairs instead.",
-      "globalShare:1": 1,
-      "icon:10": {
-        "Count:3": 1,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:oak_stairs"
-      },
-      "isGlobal:1": 0,
-      "isMain:1": 0,
-      "isSilent:1": 0,
-      "lockedProgress:1": 0,
-      "name:8": "§1§lTell Me When We Reach 20",
+      "visibility:8": "NORMAL",
       "partySingleReward:1": 0,
-      "questLogic:8": "AND",
-      "repeatTime:3": -1,
-      "repeat_relative:1": 1,
-      "simultaneous:1": 0,
-      "snd_complete:8": "random.levelup",
-      "snd_update:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL"
-    }
-  },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 1849,
-  "rewards:9": {
-    "0:10": {
-      "ignoreDisabled:1": 0,
-      "index:3": 0,
-      "rewardID:8": "bq_standard:item",
-      "rewards:9": {
-        "0:10": {
-          "Count:3": 64,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "minecraft:ladder"
-        }
-      }
-    },
-    "1:10": {
-      "ignoreDisabled:1": 0,
-      "index:3": 1,
-      "rewardID:8": "bq_standard:item",
-      "rewards:9": {
-        "0:10": {
-          "Count:3": 10,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinForestry"
-        },
-        "1:10": {
-          "Count:3": 4,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "harvestcraft:suaderoItem"
-        }
-      }
-    }
-  },
-  "tasks:9": {
-    "0:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
-      "index:3": 0,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 8,
-          "Damage:2": 0,
-          "OreDict:8": "stairWood",
-          "id:8": "minecraft:oak_stairs"
-        },
-        "1:10": {
-          "Count:3": 8,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "minecraft:stone_stairs"
-        }
+      "icon:10": {
+        "Damage:2": 0,
+        "id:8": "minecraft:oak_stairs",
+        "OreDict:8": "",
+        "Count:3": 1
       },
-      "taskID:8": "bq_standard:retrieval"
+      "repeatTime:3": -1,
+      "isSilent:1": 0,
+      "questLogic:8": "AND",
+      "isMain:1": 0,
+      "lockedProgress:1": 0,
+      "repeat_relative:1": 1,
+      "snd_update:8": "random.levelup",
+      "name:8": "§1§lTell Me When We Reach 20",
+      "snd_complete:8": "random.levelup",
+      "isGlobal:1": 0,
+      "autoClaim:1": 0,
+      "taskLogic:8": "AND",
+      "simultaneous:1": 0,
+      "globalShare:1": 1,
+      "desc:8": "Jumping all the time is exhausting and makes you really hungry. \nTo reduce your food depletion, you might want to use stairs instead."
     }
   }
 }

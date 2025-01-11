@@ -1,58 +1,58 @@
 {
+  "questIDLow:4": 1842,
+  "questIDHigh:4": 0,
+  "tasks:9": {
+    "0:10": {
+      "taskID:8": "bq_standard:checkbox",
+      "index:3": 0
+    }
+  },
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 1841
+      "questIDLow:4": 1841,
+      "questIDHigh:4": 0
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "Damage:2": 0,
+          "id:8": "minecraft:gunpowder",
+          "OreDict:8": "",
+          "Count:3": 4
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "rewardID:8": "bq_standard:item"
     }
   },
   "properties:10": {
     "betterquesting:10": {
-      "autoClaim:1": 0,
-      "desc:8": "Creepers can make you have a baaaad time. \n\nDrowning Creeper - when it explodes, it surrounds you in a ball of cobble filled with water. Not only do you have to escape, but the cobble is infested with silverfish! And those silverfish are all infernal!  The best way to deal with it is to first escape up or down.  If you have to clear the cobble ball, first clear the water. Surrounding the cobble with a dirt moat will keep the silverfish inside and unable to hide. Put down punjis, quicksand, or lava, and/or spectral glass. Make a wall with a 1x1 window and use that to break the cobbles - fishing silverfish is especially dangerous.\n\nEnder Creeper - Randomly teleports you a short distance - possibly deep underground. ",
-      "globalShare:1": 1,
-      "icon:10": {
-        "Count:3": 1,
-        "Damage:2": 0,
-        "OreDict:8": "",
-        "id:8": "minecraft:gunpowder"
-      },
-      "isGlobal:1": 0,
-      "isMain:1": 0,
-      "isSilent:1": 0,
-      "lockedProgress:1": 0,
-      "name:8": "§1§lCreeping Dread",
+      "visibility:8": "NORMAL",
       "partySingleReward:1": 0,
-      "questLogic:8": "AND",
+      "icon:10": {
+        "Damage:2": 0,
+        "id:8": "minecraft:gunpowder",
+        "OreDict:8": "",
+        "Count:3": 1
+      },
       "repeatTime:3": -1,
+      "isSilent:1": 0,
+      "questLogic:8": "AND",
+      "isMain:1": 0,
+      "lockedProgress:1": 0,
       "repeat_relative:1": 1,
-      "simultaneous:1": 0,
-      "snd_complete:8": "random.levelup",
       "snd_update:8": "random.levelup",
+      "name:8": "§1§lCreeping Dread",
+      "snd_complete:8": "random.levelup",
+      "isGlobal:1": 0,
+      "autoClaim:1": 0,
       "taskLogic:8": "AND",
-      "visibility:8": "NORMAL"
-    }
-  },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 1842,
-  "rewards:9": {
-    "0:10": {
-      "ignoreDisabled:1": 0,
-      "index:3": 0,
-      "rewardID:8": "bq_standard:item",
-      "rewards:9": {
-        "0:10": {
-          "Count:3": 4,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "minecraft:gunpowder"
-        }
-      }
-    }
-  },
-  "tasks:9": {
-    "0:10": {
-      "index:3": 0,
-      "taskID:8": "bq_standard:checkbox"
+      "simultaneous:1": 0,
+      "globalShare:1": 1,
+      "desc:8": "Creepers can make you have a baaaad time. \n\nDrowning Creeper - when it explodes, it surrounds you in a ball of cobble filled with water. Not only do you have to escape, but the cobble is infested with silverfish! And those silverfish are all infernal!  The best way to deal with it is to first escape up or down.  If you have to clear the cobble ball, first clear the water. Surrounding the cobble with a dirt moat will keep the silverfish inside and unable to hide. Put down punjis, quicksand, or lava, and/or spectral glass. Make a wall with a 1x1 window and use that to break the cobbles - fishing silverfish is especially dangerous.\n\nEnder Creeper - Randomly teleports you a short distance - possibly deep underground. "
     }
   }
 }

@@ -1,6 +1,6 @@
 {
-  "questIDLow:4": 2,
-  "questIDHigh:4": 0,
+  "questIDLow:4": -8575987589563031260,
+  "questIDHigh:4": 5183937569328283754,
   "tasks:9": {
     "0:10": {
       "autoConsume:1": 0,
@@ -12,41 +12,18 @@
           "Damage:2": 0,
           "id:8": "minecraft:gravel",
           "OreDict:8": "",
-          "Count:3": 6
-        },
-        "1:10": {
-          "Damage:2": 0,
-          "id:8": "minecraft:log",
-          "OreDict:8": "logWood",
-          "Count:3": 8
+          "Count:3": 32
         }
       },
       "partialMatch:1": 1,
       "consume:1": 0,
       "ignoreNBT:1": 0
-    },
-    "1:10": {
-      "autoConsume:1": 0,
-      "taskID:8": "bq_standard:retrieval",
-      "index:3": 1,
-      "groupDetect:1": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "Damage:2": 0,
-          "id:8": "minecraft:log",
-          "OreDict:8": "logWood",
-          "Count:3": 2
-        }
-      },
-      "partialMatch:1": 1,
-      "consume:1": 1,
-      "ignoreNBT:1": 0
     }
   },
   "preRequisites:9": {
     "0:10": {
-      "questIDLow:4": 0,
-      "questIDHigh:4": 0
+      "questIDLow:4": -6938223370301688661,
+      "questIDHigh:4": 3886848588804801016
     }
   },
   "rewards:9": {
@@ -55,7 +32,7 @@
       "rewards:9": {
         "0:10": {
           "Damage:2": 0,
-          "id:8": "minecraft:torch",
+          "id:8": "minecraft:flint",
           "OreDict:8": "",
           "Count:3": 1
         }
@@ -68,7 +45,7 @@
       "rewards:9": {
         "0:10": {
           "Damage:2": 0,
-          "id:8": "dreamcraft:item.CoinSurvivor",
+          "id:8": "dreamcraft:item.CoinAdventure",
           "OreDict:8": "",
           "Count:3": 5
         }
@@ -94,14 +71,14 @@
       "lockedProgress:1": 0,
       "repeat_relative:1": 1,
       "snd_update:8": "random.levelup",
-      "name:8": "§1§lSticks \u0027n Stones",
+      "name:8": "§1§lGet That Gravel",
       "snd_complete:8": "random.levelup",
       "isGlobal:1": 0,
       "autoClaim:1": 0,
       "taskLogic:8": "AND",
       "simultaneous:1": 0,
       "globalShare:1": 1,
-      "desc:8": "This book has a built-in reading light, lucky you! You can read about quests while you\u0027re waiting for the night to be over, but for now, you may want to get the basics done. If it isn\u0027t dark already, go out and collect some gravel and wood. \n\nKeep in mind that you need food, so look for Pam\u0027s Harvestcraft gardens. Save some of the drops from them for seeds. Alternatively, right-click the gardens with an empty hand to get the garden item itself. If you place it somewhere else, it will spread into more of the same garden up to a limit within that area.\n\nMake sure to read the info-quests linked to the first quest, they have important info!"
+      "desc:8": "With your newly acquired shovel, you can gather gravel faster! \n\nTime to mine some gravel. Yay! You can make a lot of furnaces with these!"
     }
   }
 }
