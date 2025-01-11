@@ -39,9 +39,9 @@
       "choices:9": {
         "0:10": {
           "Count:3": 16,
-          "Damage:2": 2,
+          "Damage:2": 11884,
           "OreDict:8": "",
-          "id:8": "GalacticraftMars:item.null"
+          "id:8": "gregtech:gt.metaitem.01"
         },
         "1:10": {
           "Count:3": 8,
