@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The sensor will sends redstone signals according to the NKE of the Neutron Activator.\n\nIt works like a cover: enter the threshold value in eV, and it will emit a redstone signal when the NKE is at least as high as the threshold.",
+      "desc:8": "The sensor will send redstone signals according to the NKE of the Neutron Activator.\n\nIt works like a cover: enter the threshold value in eV, and it will emit a redstone signal when the NKE is at least as high as the threshold.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,

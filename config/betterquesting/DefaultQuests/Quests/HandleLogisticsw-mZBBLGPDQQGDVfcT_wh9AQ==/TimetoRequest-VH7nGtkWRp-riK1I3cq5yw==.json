@@ -12,7 +12,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Your system now has the capability of providing items for requests, time to request items.\n\nThis Request Logistics Pipe can send out requests that, if the network has items that can fulfill the requests, send the item to the pipe.\n\nAttach an inventory to it so that when items reach the request logistics pipe, they are stored in an inventory and don\u0027t getting yeeted out.",
+      "desc:8": "Your system now has the capability of providing items for requests, time to request items.\n\nThis Request Logistics Pipe can send out requests that, if the network has items that can fulfill the requests, send the item to the pipe.\n\nAttach an inventory to it so that when items reach the request logistics pipe, they are stored in an inventory and don\u0027t get yeeted out.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,

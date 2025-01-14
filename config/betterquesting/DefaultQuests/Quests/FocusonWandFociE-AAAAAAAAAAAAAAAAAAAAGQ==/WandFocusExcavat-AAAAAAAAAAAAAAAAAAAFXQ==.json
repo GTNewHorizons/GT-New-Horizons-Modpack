@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The Wand Focus: Excavation when equipped to a wand, will emit a green beam of light that will mine blocks of any hardness (except for blocks like Bedrock) from a distance.\n\nIts base vis cost is 0.15  terra per tick that it mines a block. It is also used in operating the Arcane Bore.\n\nThis focus can be upgraded at the Focal Manipulator.",
+      "desc:8": "The Wand Focus: Excavation when equipped to a wand, will emit a green beam of light that will mine blocks of any hardness (except for blocks like Bedrock) from a distance.\n\nIts base vis cost is 0.15 terra per tick that it mines a block. It is also used in operating the Arcane Bore.\n\nThis focus can be upgraded at the Focal Manipulator.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

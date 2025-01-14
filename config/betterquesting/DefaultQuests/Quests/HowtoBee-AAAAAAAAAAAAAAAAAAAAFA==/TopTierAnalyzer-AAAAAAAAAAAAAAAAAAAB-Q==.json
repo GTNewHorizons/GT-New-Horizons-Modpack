@@ -19,7 +19,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The best you can get, for all your scanning and analysing needs.",
+      "desc:8": "The best you can get, for all your scanning and analyzing needs.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -31,7 +31,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Top-Tier Analyser",
+      "name:8": "Top-Tier Analyzer",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
