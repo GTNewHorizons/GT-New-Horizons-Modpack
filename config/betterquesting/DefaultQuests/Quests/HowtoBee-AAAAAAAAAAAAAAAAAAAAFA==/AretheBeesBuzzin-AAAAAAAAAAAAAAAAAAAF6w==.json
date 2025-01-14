@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "These frames cause mutations at an increased rate. They\u0027re super useful.\n\nAbout the stats on frames you see when holding shift, you\u0027ll note that some have a different number in brackets next to them, this means that this is the maximum they can be stacked. this only applies to the Extra Bees ones.\n\nThe stats on the frames are also multiplicative instead of additive, so after 4 frames in an alveary, soul frames will max out. On the other hand, accelerated frames will take 9 to get there, but you can just keep on going.\n\nIf you pile up the multipliers, 5x from stimulator, 3x from mutator, and 4x1.8x frames, it\u0027ll get you to 157x, getting you those 1% bees in a single generation!",
+      "desc:8": "These frames cause mutations at an increased rate. They\u0027re super useful.\n\nAbout the stats on frames you see when holding shift, you\u0027ll note that some have a different number in brackets next to them, this means that this is the maximum they can be stacked. This only applies to the Extra Bees ones.\n\nThe stats on the frames are also multiplicative instead of additive, so after 4 frames in an alveary, soul frames will max out. On the other hand, accelerated frames will take 9 to get there, but you can just keep on going.\n\nIf you pile up the multipliers, 5x from stimulator, 3x from mutator, and 4x1.8x frames, it\u0027ll get you to 157x, getting you those 1% bees in a single generation!",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

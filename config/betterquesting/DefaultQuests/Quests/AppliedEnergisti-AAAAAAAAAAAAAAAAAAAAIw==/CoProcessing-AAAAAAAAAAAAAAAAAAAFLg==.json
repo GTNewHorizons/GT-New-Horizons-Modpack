@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Component of the crafting CPU which provides additional item delivery from the CPU to the ME Interface for crafting.\n\nThis can be used to make more assemblers active in parallel for the job, and thus increase overall crafting speed. These only help if your setup has steps properly separated so the system can run multiple tasks in parallel, or even split the same pattern across multiple interfaces.",
+      "desc:8": "Component of the crafting CPU which provides additional item delivery from the CPU to the ME Interface for crafting.\n\nThis can be used to make more assemblers active in parallel for the job, and thus increase overall crafting speed. These only help if your setup has steps properly separated, so the system can run multiple tasks in parallel, or even split the same pattern across multiple interfaces.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Logistics Pipes have automation capability in place, but first, it needs to know what inventory that items inside can be used for requests.\n\nThe Provider module does this job nicely. When you open the interface of the module, there is a 3*3 grid. you can pick what items that the module can provide, or you can leave it empty as \"everything in the inventory can be provided for requests\".",
+      "desc:8": "Logistics Pipes have automation capability in place, but first, it needs to know what inventory that items inside can be used for requests.\n\nThe Provider module does this job nicely. When you open the interface of the module, there is a 3*3 grid. You can pick what items that the module can provide, or you can leave it empty as \"everything in the inventory can be provided for requests\".",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,

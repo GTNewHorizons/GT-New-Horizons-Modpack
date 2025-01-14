@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Variables - Declaration vs Standard\nDeclaration is simply creating a variable with eligible blocks in it. This allows easy updating of workflows. For instance you could have a variable that contains 2 chests. You use it in a nifty for each loop and later add another chest. Simply update the variable and the for each loop will start using it.\n\nStandard variables are able to be inserted into the middle of a workflow (it has input/output) and thus can be modified on the run.\n\nPlease note that for each loops will require a empty variable to work with. This is listed as \"Element\" in the loop.\n\nGlobal vs Local\nGlobal will keep changes to a variable that are done in the workflow, whereas local keeps anything done local to that part of the workflow.",
+      "desc:8": "Variables - Declaration vs Standard\nDeclaration is simply creating a variable with eligible blocks in it. This allows easy updating of workflows. For instance you could have a variable that contains 2 chests. You use it in a nifty for each loop and later add another chest. Simply update the variable and the for each loop will start using it.\n\nStandard variables are able to be inserted into the middle of a workflow (it has input/output) and thus can be modified on the run.\n\nPlease note that for each loop it will require an empty variable to work with. This is listed as \"Element\" in the loop.\n\nGlobal vs Local\nGlobal will keep changes to a variable that are done in the workflow, whereas local keeps anything done local to that part of the workflow.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
