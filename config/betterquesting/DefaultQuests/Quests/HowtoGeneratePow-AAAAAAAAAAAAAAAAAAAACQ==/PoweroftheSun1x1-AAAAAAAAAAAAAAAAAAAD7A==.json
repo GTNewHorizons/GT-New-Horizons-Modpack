@@ -12,9 +12,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 1,
+        "Damage:2": 2734,
         "OreDict:8": "",
-        "id:8": "AdvancedSolarPanel:BlockAdvSolarPanel"
+        "id:8": "gregtech:gt.blockmachines"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -120,9 +120,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 1,
+          "Damage:2": 2734,
           "OreDict:8": "",
-          "id:8": "AdvancedSolarPanel:BlockAdvSolarPanel"
+          "id:8": "gregtech:gt.blockmachines"
         }
       },
       "taskID:8": "bq_standard:retrieval"

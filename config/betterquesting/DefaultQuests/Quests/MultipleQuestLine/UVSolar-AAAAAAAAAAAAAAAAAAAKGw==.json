@@ -16,9 +16,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 0,
+        "Damage:2": 2740,
         "OreDict:8": "",
-        "id:8": "supersolarpanel:PhotonicSolarPanel"
+        "id:8": "gregtech:gt.blockmachines"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
@@ -48,9 +48,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 0,
+          "Damage:2": 2740,
           "OreDict:8": "",
-          "id:8": "supersolarpanel:PhotonicSolarPanel"
+          "id:8": "gregtech:gt.blockmachines"
         }
       },
       "taskID:8": "bq_standard:retrieval"
