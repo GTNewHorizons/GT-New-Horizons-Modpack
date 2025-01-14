@@ -12,7 +12,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Wand Focus: Tainted Storm can be equipped on any wand and will emit a stream of tainted particles which will damage anything in a short distance and inflict Taint Poison for 5 seconds. The focus will also debuff the caster with Flux Flu III for 10 seconds unless enchanted with Antibody. The foci can be enchanted with Frugal, Potency, Enlarge, Antibody and Corrosive. Each cast costs 0.1 Aqua + 0.1 Perditio\n\nThis focus can be upgraded at the Focal Manipulator.",
+      "desc:8": "Wand Focus: Tainted Storm can be equipped on any wand and will emit a stream of tainted particles which will damage anything in a short distance and inflict Taint Poison for 5 seconds. The focus will also debuff the caster with Flux Flu III for 10 seconds unless enchanted with Antibody. The focus can be enchanted with Frugal, Potency, Enlarge, Antibody and Corrosive. Each cast costs 0.1 Aqua + 0.1 Perditio\n\nThis focus can be upgraded at the Focal Manipulator.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

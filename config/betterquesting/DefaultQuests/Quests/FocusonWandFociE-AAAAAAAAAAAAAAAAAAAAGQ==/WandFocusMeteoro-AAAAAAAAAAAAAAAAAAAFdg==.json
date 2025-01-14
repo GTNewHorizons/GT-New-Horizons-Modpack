@@ -16,7 +16,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Wand Focus: Meteorology can be equipped by any wand. When used during rain will stop rain, when used during sunny weather, will start rain. Each cast costs 10 of each primal aspect and will make the caster unable to use any other foci for 30 seconds.",
+      "desc:8": "Wand Focus: Meteorology can be equipped by any wand. When used during rain will stop rain, when used during sunny weather, will start rain. Each cast costs 10 of each primal aspect and will make the caster unable to use any other focus for 30 seconds.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
