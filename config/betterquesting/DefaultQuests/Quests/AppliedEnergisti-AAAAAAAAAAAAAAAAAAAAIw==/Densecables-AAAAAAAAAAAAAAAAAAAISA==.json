@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Dense cables are going to be your network backbones. They can transfer 32 channels and display the number of channels in use. Busses and flat interfaces cannot be placed directly on them.",
+      "desc:8": "Dense cables are going to be your network backbones. They can transfer 32 channels and display the number of channels in use. Buses and flat interfaces cannot be placed directly on them.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
