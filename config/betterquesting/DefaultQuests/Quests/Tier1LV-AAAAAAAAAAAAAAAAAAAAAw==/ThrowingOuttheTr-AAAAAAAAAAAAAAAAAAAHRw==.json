@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Already have barrels full of cobblestone? The voiding drop filter can be set up to automatically void any item on pickup. Cobble, dirt, arrows, saplings, etc. It\u0027s handy for when you don\u0027t have much room for junk.\n\nTo use, rightclick the item filter you get as a reward. Put the things you want voided in the item filter list by clicking in there with them. Esc, then rightclick the voiding drop filter, and put the item filter inside.",
+      "desc:8": "Already have barrels full of cobblestone? The voiding drop filter can be set up to automatically void any item on pickup. Cobble, dirt, arrows, saplings, etc. It\u0027s handy for when you don\u0027t have much room for junk.\n\nTo use, right-click the item filter you get as a reward. Put the things you want voided in the item filter list by clicking in there with them. Esc, then right-click the voiding drop filter, and put the item filter inside.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
