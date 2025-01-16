@@ -1,23 +1,20 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 1440
     }
   },
-  "questIDLow:4": 1439,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "You decided to have a longer stay on the moon and look for a permanent oxygen setup to refill your outdoor gear and building a small Base.\n\nDon\u0027t forget to bring repair stuff for your tools and armor! Dream 2018!",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "thaumcraftneiplugin:Aspect",
         "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "thaumcraftneiplugin:Aspect",
         "tag:10": {
           "Aspects:9": {
             "0:10": {
@@ -25,129 +22,134 @@
               "key:8": "aer"
             }
           }
-        },
-        "Damage:2": 0,
-        "OreDict:8": ""
-      },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Permanent Oxygen Systems",
-      "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
-      "isSilent:1": 0,
-      "desc:8": "You decided to have a longer stay on the moon and look for a permanent oxygen setup to refill your outdoor gear and building a small Base.\n\nDon\u0027t forget to bring repair stuff for your tools and armor! Dream 2018!"
-    }
-  },
-  "tasks:9": {
-    "0:10": {
-      "partialMatch:1": 1,
-      "autoConsume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
-      "index:3": 0,
-      "consume:1": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "id:8": "minecraft:cobblestone",
-          "Count:3": 128,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "minecraft:glass",
-          "Count:3": 64,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "2:10": {
-          "id:8": "GalacticraftCore:tile.oxygenCollector",
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "3:10": {
-          "id:8": "GalacticraftCore:tile.oxygenCompressor",
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "4:10": {
-          "id:8": "GalacticraftCore:tile.distributor",
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "5:10": {
-          "id:8": "GalacticraftCore:tile.oxygenPipe",
-          "Count:3": 10,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "6:10": {
-          "id:8": "minecraft:leaves",
-          "Count:3": 64,
-          "Damage:2": 0,
-          "OreDict:8": "treeLeaves"
-        },
-        "7:10": {
-          "id:8": "minecraft:log",
-          "Count:3": 16,
-          "Damage:2": 0,
-          "OreDict:8": "logWood"
-        },
-        "8:10": {
-          "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 2,
-          "tag:10": {
-            "GT.ItemCharge:4": 1600000
-          },
-          "Damage:2": 32538,
-          "OreDict:8": ""
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "isGlobal:1": 0,
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Permanent Oxygen Systems",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
     }
   },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 1439,
   "rewards:9": {
     "0:10": {
-      "rewardID:8": "bq_standard:item",
+      "ignoreDisabled:1": 0,
       "index:3": 0,
+      "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "id:8": "enhancedlootbags:lootbag",
           "Count:3": 1,
           "Damage:2": 6,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
         },
         "1:10": {
-          "id:8": "GalacticraftCore:item.oxygenTankLightFull",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "GalacticraftCore:item.oxygenTankLightFull"
         }
       }
     },
     "1:10": {
-      "rewardID:8": "bq_standard:item",
+      "ignoreDisabled:1": 0,
       "index:3": 1,
+      "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "id:8": "dreamcraft:item.CoinSpaceII",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinSpaceII"
         },
         "1:10": {
-          "id:8": "dreamcraft:item.CoinSurvivorII",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinSurvivorII"
         }
       }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 128,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:cobblestone"
+        },
+        "1:10": {
+          "Count:3": 64,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:glass"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "GalacticraftCore:tile.oxygenCollector"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "GalacticraftCore:tile.oxygenCompressor"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "GalacticraftCore:tile.distributor"
+        },
+        "5:10": {
+          "Count:3": 10,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "GalacticraftCore:tile.oxygenPipe"
+        },
+        "6:10": {
+          "Count:3": 64,
+          "Damage:2": 0,
+          "OreDict:8": "treeLeaves",
+          "id:8": "minecraft:leaves"
+        },
+        "7:10": {
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": "logWood",
+          "id:8": "minecraft:log"
+        },
+        "8:10": {
+          "Count:3": 2,
+          "Damage:2": 32538,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01",
+          "tag:10": {
+            "GT.ItemCharge:4": 1600000
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

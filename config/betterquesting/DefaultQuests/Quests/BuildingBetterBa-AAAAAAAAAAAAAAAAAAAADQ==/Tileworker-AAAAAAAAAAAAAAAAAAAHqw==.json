@@ -1,298 +1,299 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 1960
     }
   },
-  "questIDLow:4": 1963,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "The tileworker can take the single-color ceramic blocks and turn them into pretty patterned blocks.\n\nAnd contrary to the name, you use ceramic blocks here, not tiles.",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "ExtraTrees:machine",
         "Count:3": 1,
         "Damage:2": 4,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "ExtraTrees:machine"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Tileworker",
       "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "The tileworker can take the single-color ceramic blocks and turn them into pretty patterned blocks.\n\nAnd contrary to the name, you use ceramic blocks here, not tiles."
+      "lockedProgress:1": 0,
+      "name:8": "Tileworker",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 1963,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "Botany:itemFlower",
+          "tag:10": {
+            "Age:4": 2,
+            "Flowered:4": 1,
+            "Genome:10": {
+              "Chromosomes:9": {
+                "0:10": {
+                  "Slot:4": 0,
+                  "UID0:8": "botany.flowers.species.lavender",
+                  "UID1:8": "botany.flowers.species.lavender"
+                },
+                "1:10": {
+                  "Slot:4": 1,
+                  "UID0:8": "botany.colorMediumOrchid",
+                  "UID1:8": "botany.colorMediumOrchid"
+                },
+                "2:10": {
+                  "Slot:4": 2,
+                  "UID0:8": "botany.colorMediumOrchid",
+                  "UID1:8": "botany.colorMediumOrchid"
+                },
+                "3:10": {
+                  "Slot:4": 3,
+                  "UID0:8": "forestry.fertilityHigh",
+                  "UID1:8": "forestry.fertilityHigh"
+                },
+                "4:10": {
+                  "Slot:4": 4,
+                  "UID0:8": "forestry.territoryAverage",
+                  "UID1:8": "forestry.territoryAverage"
+                },
+                "5:10": {
+                  "Slot:4": 5,
+                  "UID0:8": "binnie.flowerEffectNone",
+                  "UID1:8": "binnie.flowerEffectNone"
+                },
+                "6:10": {
+                  "Slot:4": 6,
+                  "UID0:8": "forestry.lifespanNormal",
+                  "UID1:8": "forestry.lifespanNormal"
+                },
+                "7:10": {
+                  "Slot:4": 7,
+                  "UID0:8": "forestry.toleranceDown1",
+                  "UID1:8": "forestry.toleranceDown1"
+                },
+                "8:10": {
+                  "Slot:4": 8,
+                  "UID0:8": "forestry.toleranceDown1",
+                  "UID1:8": "forestry.toleranceDown1"
+                },
+                "9:10": {
+                  "Slot:4": 9,
+                  "UID0:8": "forestry.toleranceUp1",
+                  "UID1:8": "forestry.toleranceUp1"
+                },
+                "10:10": {
+                  "Slot:4": 10,
+                  "UID0:8": "forestry.sappinessLow",
+                  "UID1:8": "forestry.sappinessLow"
+                },
+                "11:10": {
+                  "Slot:4": 11,
+                  "UID0:8": "botany.colorGreen",
+                  "UID1:8": "botany.colorGreen"
+                }
+              }
+            },
+            "IsAnalyzed:4": 0,
+            "Wilt:4": 0
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "Botany:itemFlower",
+          "tag:10": {
+            "Age:4": 2,
+            "Flowered:4": 1,
+            "Genome:10": {
+              "Chromosomes:9": {
+                "0:10": {
+                  "Slot:4": 0,
+                  "UID0:8": "botany.flowers.species.forget",
+                  "UID1:8": "botany.flowers.species.forget"
+                },
+                "1:10": {
+                  "Slot:4": 1,
+                  "UID0:8": "botany.colorLightSteelBlue",
+                  "UID1:8": "botany.colorLightSteelBlue"
+                },
+                "2:10": {
+                  "Slot:4": 2,
+                  "UID0:8": "botany.colorLightSteelBlue",
+                  "UID1:8": "botany.colorLightSteelBlue"
+                },
+                "3:10": {
+                  "Slot:4": 3,
+                  "UID0:8": "forestry.fertilityNormal",
+                  "UID1:8": "forestry.fertilityNormal"
+                },
+                "4:10": {
+                  "Slot:4": 4,
+                  "UID0:8": "forestry.territoryAverage",
+                  "UID1:8": "forestry.territoryAverage"
+                },
+                "5:10": {
+                  "Slot:4": 5,
+                  "UID0:8": "binnie.flowerEffectNone",
+                  "UID1:8": "binnie.flowerEffectNone"
+                },
+                "6:10": {
+                  "Slot:4": 6,
+                  "UID0:8": "forestry.lifespanShort",
+                  "UID1:8": "forestry.lifespanShort"
+                },
+                "7:10": {
+                  "Slot:4": 7,
+                  "UID0:8": "forestry.toleranceUp1",
+                  "UID1:8": "forestry.toleranceUp1"
+                },
+                "8:10": {
+                  "Slot:4": 8,
+                  "UID0:8": "forestry.toleranceUp1",
+                  "UID1:8": "forestry.toleranceUp1"
+                },
+                "9:10": {
+                  "Slot:4": 9,
+                  "UID0:8": "forestry.toleranceNone",
+                  "UID1:8": "forestry.toleranceNone"
+                },
+                "10:10": {
+                  "Slot:4": 10,
+                  "UID0:8": "forestry.sappinessLower",
+                  "UID1:8": "forestry.sappinessLower"
+                },
+                "11:10": {
+                  "Slot:4": 11,
+                  "UID0:8": "botany.colorGreen",
+                  "UID1:8": "botany.colorGreen"
+                }
+              }
+            },
+            "IsAnalyzed:4": 0,
+            "Wilt:4": 0
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "Botany:itemFlower",
+          "tag:10": {
+            "Age:4": 2,
+            "Flowered:4": 1,
+            "Genome:10": {
+              "Chromosomes:9": {
+                "0:10": {
+                  "Slot:4": 0,
+                  "UID0:8": "botany.flowers.species.althea",
+                  "UID1:8": "botany.flowers.species.althea"
+                },
+                "1:10": {
+                  "Slot:4": 1,
+                  "UID0:8": "botany.colorThistle",
+                  "UID1:8": "botany.colorThistle"
+                },
+                "2:10": {
+                  "Slot:4": 2,
+                  "UID0:8": "botany.colorMediumOrchid",
+                  "UID1:8": "botany.colorMediumOrchid"
+                },
+                "3:10": {
+                  "Slot:4": 3,
+                  "UID0:8": "forestry.fertilityLow",
+                  "UID1:8": "forestry.fertilityLow"
+                },
+                "4:10": {
+                  "Slot:4": 4,
+                  "UID0:8": "forestry.territoryAverage",
+                  "UID1:8": "forestry.territoryAverage"
+                },
+                "5:10": {
+                  "Slot:4": 5,
+                  "UID0:8": "binnie.flowerEffectNone",
+                  "UID1:8": "binnie.flowerEffectNone"
+                },
+                "6:10": {
+                  "Slot:4": 6,
+                  "UID0:8": "forestry.lifespanElongated",
+                  "UID1:8": "forestry.lifespanElongated"
+                },
+                "7:10": {
+                  "Slot:4": 7,
+                  "UID0:8": "forestry.toleranceBoth1",
+                  "UID1:8": "forestry.toleranceBoth1"
+                },
+                "8:10": {
+                  "Slot:4": 8,
+                  "UID0:8": "forestry.toleranceNone",
+                  "UID1:8": "forestry.toleranceNone"
+                },
+                "9:10": {
+                  "Slot:4": 9,
+                  "UID0:8": "forestry.toleranceDown1",
+                  "UID1:8": "forestry.toleranceDown1"
+                },
+                "10:10": {
+                  "Slot:4": 10,
+                  "UID0:8": "forestry.sappinessHigh",
+                  "UID1:8": "forestry.sappinessHigh"
+                },
+                "11:10": {
+                  "Slot:4": 11,
+                  "UID0:8": "botany.colorDarkGreen",
+                  "UID1:8": "botany.colorDarkGreen"
+                }
+              }
+            },
+            "IsAnalyzed:4": 0,
+            "Wilt:4": 0
+          }
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "ExtraTrees:machine",
           "Count:3": 1,
           "Damage:2": 4,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "ExtraTrees:machine"
         },
         "1:10": {
-          "id:8": "Botany:misc",
           "Count:3": 4,
           "Damage:2": 6,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "Botany:misc"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 0,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "Botany:itemFlower",
-          "Count:3": 1,
-          "tag:10": {
-            "Wilt:4": 0,
-            "Flowered:4": 1,
-            "IsAnalyzed:4": 0,
-            "Genome:10": {
-              "Chromosomes:9": {
-                "0:10": {
-                  "UID1:8": "botany.flowers.species.lavender",
-                  "UID0:8": "botany.flowers.species.lavender",
-                  "Slot:4": 0
-                },
-                "1:10": {
-                  "UID1:8": "botany.colorMediumOrchid",
-                  "UID0:8": "botany.colorMediumOrchid",
-                  "Slot:4": 1
-                },
-                "2:10": {
-                  "UID1:8": "botany.colorMediumOrchid",
-                  "UID0:8": "botany.colorMediumOrchid",
-                  "Slot:4": 2
-                },
-                "3:10": {
-                  "UID1:8": "forestry.fertilityHigh",
-                  "UID0:8": "forestry.fertilityHigh",
-                  "Slot:4": 3
-                },
-                "4:10": {
-                  "UID1:8": "forestry.territoryAverage",
-                  "UID0:8": "forestry.territoryAverage",
-                  "Slot:4": 4
-                },
-                "5:10": {
-                  "UID1:8": "binnie.flowerEffectNone",
-                  "UID0:8": "binnie.flowerEffectNone",
-                  "Slot:4": 5
-                },
-                "6:10": {
-                  "UID1:8": "forestry.lifespanNormal",
-                  "UID0:8": "forestry.lifespanNormal",
-                  "Slot:4": 6
-                },
-                "7:10": {
-                  "UID1:8": "forestry.toleranceDown1",
-                  "UID0:8": "forestry.toleranceDown1",
-                  "Slot:4": 7
-                },
-                "8:10": {
-                  "UID1:8": "forestry.toleranceDown1",
-                  "UID0:8": "forestry.toleranceDown1",
-                  "Slot:4": 8
-                },
-                "9:10": {
-                  "UID1:8": "forestry.toleranceUp1",
-                  "UID0:8": "forestry.toleranceUp1",
-                  "Slot:4": 9
-                },
-                "10:10": {
-                  "UID1:8": "forestry.sappinessLow",
-                  "UID0:8": "forestry.sappinessLow",
-                  "Slot:4": 10
-                },
-                "11:10": {
-                  "UID1:8": "botany.colorGreen",
-                  "UID0:8": "botany.colorGreen",
-                  "Slot:4": 11
-                }
-              }
-            },
-            "Age:4": 2
-          },
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "Botany:itemFlower",
-          "Count:3": 1,
-          "tag:10": {
-            "Wilt:4": 0,
-            "Flowered:4": 1,
-            "IsAnalyzed:4": 0,
-            "Genome:10": {
-              "Chromosomes:9": {
-                "0:10": {
-                  "UID1:8": "botany.flowers.species.forget",
-                  "UID0:8": "botany.flowers.species.forget",
-                  "Slot:4": 0
-                },
-                "1:10": {
-                  "UID1:8": "botany.colorLightSteelBlue",
-                  "UID0:8": "botany.colorLightSteelBlue",
-                  "Slot:4": 1
-                },
-                "2:10": {
-                  "UID1:8": "botany.colorLightSteelBlue",
-                  "UID0:8": "botany.colorLightSteelBlue",
-                  "Slot:4": 2
-                },
-                "3:10": {
-                  "UID1:8": "forestry.fertilityNormal",
-                  "UID0:8": "forestry.fertilityNormal",
-                  "Slot:4": 3
-                },
-                "4:10": {
-                  "UID1:8": "forestry.territoryAverage",
-                  "UID0:8": "forestry.territoryAverage",
-                  "Slot:4": 4
-                },
-                "5:10": {
-                  "UID1:8": "binnie.flowerEffectNone",
-                  "UID0:8": "binnie.flowerEffectNone",
-                  "Slot:4": 5
-                },
-                "6:10": {
-                  "UID1:8": "forestry.lifespanShort",
-                  "UID0:8": "forestry.lifespanShort",
-                  "Slot:4": 6
-                },
-                "7:10": {
-                  "UID1:8": "forestry.toleranceUp1",
-                  "UID0:8": "forestry.toleranceUp1",
-                  "Slot:4": 7
-                },
-                "8:10": {
-                  "UID1:8": "forestry.toleranceUp1",
-                  "UID0:8": "forestry.toleranceUp1",
-                  "Slot:4": 8
-                },
-                "9:10": {
-                  "UID1:8": "forestry.toleranceNone",
-                  "UID0:8": "forestry.toleranceNone",
-                  "Slot:4": 9
-                },
-                "10:10": {
-                  "UID1:8": "forestry.sappinessLower",
-                  "UID0:8": "forestry.sappinessLower",
-                  "Slot:4": 10
-                },
-                "11:10": {
-                  "UID1:8": "botany.colorGreen",
-                  "UID0:8": "botany.colorGreen",
-                  "Slot:4": 11
-                }
-              }
-            },
-            "Age:4": 2
-          },
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "2:10": {
-          "id:8": "Botany:itemFlower",
-          "Count:3": 1,
-          "tag:10": {
-            "Wilt:4": 0,
-            "Flowered:4": 1,
-            "IsAnalyzed:4": 0,
-            "Genome:10": {
-              "Chromosomes:9": {
-                "0:10": {
-                  "UID1:8": "botany.flowers.species.althea",
-                  "UID0:8": "botany.flowers.species.althea",
-                  "Slot:4": 0
-                },
-                "1:10": {
-                  "UID1:8": "botany.colorThistle",
-                  "UID0:8": "botany.colorThistle",
-                  "Slot:4": 1
-                },
-                "2:10": {
-                  "UID1:8": "botany.colorMediumOrchid",
-                  "UID0:8": "botany.colorMediumOrchid",
-                  "Slot:4": 2
-                },
-                "3:10": {
-                  "UID1:8": "forestry.fertilityLow",
-                  "UID0:8": "forestry.fertilityLow",
-                  "Slot:4": 3
-                },
-                "4:10": {
-                  "UID1:8": "forestry.territoryAverage",
-                  "UID0:8": "forestry.territoryAverage",
-                  "Slot:4": 4
-                },
-                "5:10": {
-                  "UID1:8": "binnie.flowerEffectNone",
-                  "UID0:8": "binnie.flowerEffectNone",
-                  "Slot:4": 5
-                },
-                "6:10": {
-                  "UID1:8": "forestry.lifespanElongated",
-                  "UID0:8": "forestry.lifespanElongated",
-                  "Slot:4": 6
-                },
-                "7:10": {
-                  "UID1:8": "forestry.toleranceBoth1",
-                  "UID0:8": "forestry.toleranceBoth1",
-                  "Slot:4": 7
-                },
-                "8:10": {
-                  "UID1:8": "forestry.toleranceNone",
-                  "UID0:8": "forestry.toleranceNone",
-                  "Slot:4": 8
-                },
-                "9:10": {
-                  "UID1:8": "forestry.toleranceDown1",
-                  "UID0:8": "forestry.toleranceDown1",
-                  "Slot:4": 9
-                },
-                "10:10": {
-                  "UID1:8": "forestry.sappinessHigh",
-                  "UID0:8": "forestry.sappinessHigh",
-                  "Slot:4": 10
-                },
-                "11:10": {
-                  "UID1:8": "botany.colorDarkGreen",
-                  "UID0:8": "botany.colorDarkGreen",
-                  "Slot:4": 11
-                }
-              }
-            },
-            "Age:4": 2
-          },
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

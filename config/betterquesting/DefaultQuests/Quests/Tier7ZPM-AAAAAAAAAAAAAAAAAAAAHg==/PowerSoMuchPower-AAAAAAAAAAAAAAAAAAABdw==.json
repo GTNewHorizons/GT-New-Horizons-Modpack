@@ -1,47 +1,47 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 2610
     }
   },
-  "questIDLow:4": 375,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "If only I could harness it... Well, hello there my friend. I need your help with a project of mine. I want to create an immense power source, but I have a few problems that I need to solve first. Will you help me? You\u0027ll be well rewarded.\n\n[note]The quests to get items will trigger the next part once you hold the item in question.[/note]",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "gregtech:gt.metaitem.01",
         "Count:3": 1,
+        "Damage:2": 32599,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.metaitem.01",
         "tag:10": {
           "GT.ItemCharge:4": 1000000000
-        },
-        "Damage:2": 32599,
-        "OreDict:8": ""
+        }
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Power, So Much Power!",
       "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "If only I could harness it... Well, hello there my friend. I need your help with a project of mine. I want to create an immense power source, but I have a few problems that I need to solve first. Will you help me? You\u0027ll be well rewarded.\n\n[note]The quests to get items will trigger the next part once you hold the item in question.[/note]"
+      "lockedProgress:1": 0,
+      "name:8": "Power, So Much Power!",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
     }
   },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 375,
+  "rewards:9": {},
   "tasks:9": {
     "0:10": {
       "index:3": 0,
       "taskID:8": "bq_standard:checkbox"
     }
-  },
-  "rewards:9": {}
+  }
 }

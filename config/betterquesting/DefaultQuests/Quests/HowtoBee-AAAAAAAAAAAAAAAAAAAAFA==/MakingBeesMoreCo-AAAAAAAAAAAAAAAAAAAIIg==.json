@@ -1,82 +1,83 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 2081
     }
   },
-  "questIDLow:4": 2082,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "The acclimatiser is a key machine for breeding your bees. With lots of power and the appropriate ingredients you can toughen your bees to thrive anywhere. It\u0027s recommend to use an EnderIO capacitor to power this device. However, even with climate hardiness your bees still won\u0027t produce special items unless they are in their favorite climate. Along with the bee, put in these items to adjust the bee\u0027s traits:\n\nSnowball - More cold tolerance\nLava - More heat tolerance\nSand - More dry tolerance\nWater - More wet tolerance\n\nYou should know that the acclimatiser doesn\u0027t return capsules or cells. The amount of items needed is pretty random.\n\n[note]A nice trick is to start with a bee that already has both. Then you can use either direction to increase it further! You don\u0027t need any lava if you do it like this. And no cells either. You can just use sand and snowballs.[/note]",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "Genetics:labMachine",
         "Count:3": 1,
         "Damage:2": 4,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "Genetics:labMachine"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Making Bees More Comfortable",
       "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "The acclimatiser is a key machine for breeding your bees. With lots of power and the appropriate ingredients you can toughen your bees to thrive anywhere. It\u0027s recommend to use an EnderIO capacitor to power this device. However, even with climate hardiness your bees still won\u0027t produce special items unless they are in their favorite climate. Along with the bee, put in these items to adjust the bee\u0027s traits:\n\nSnowball - More cold tolerance\nLava - More heat tolerance\nSand - More dry tolerance\nWater - More wet tolerance\n\nYou should know that the acclimatiser doesn\u0027t return capsules or cells. The amount of items needed is pretty random.\n\n[note]A nice trick is to start with a bee that already has both. Then you can use either direction to increase it further! You don\u0027t need any lava if you do it like this. And no cells either. You can just use sand and snowballs.[/note]"
+      "lockedProgress:1": 0,
+      "name:8": "Making Bees More Comfortable",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 2082,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:snowball"
+        },
+        "1:10": {
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:sand"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "Forestry:waxCapsuleWater"
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "Genetics:labMachine",
           "Count:3": 1,
           "Damage:2": 4,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "Genetics:labMachine"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 0,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "minecraft:snowball",
-          "Count:3": 16,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "minecraft:sand",
-          "Count:3": 16,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "2:10": {
-          "id:8": "Forestry:waxCapsuleWater",
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

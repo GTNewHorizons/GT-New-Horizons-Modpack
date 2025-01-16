@@ -1,5 +1,4 @@
 {
-  "questIDHigh:4": 5460183357000140468,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": -8001876745636131270,
@@ -7,56 +6,58 @@
       "type:1": 2
     }
   },
-  "questIDLow:4": -7101226382307633970,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "HIDDEN",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 1,
+      "desc:8": "No Description",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "Thaumcraft:ItemInkwell",
         "Count:3": 1,
         "Damage:2": 0,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "Thaumcraft:ItemInkwell"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Trigger: Early Scribing Tools",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 1,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "No Description"
+      "lockedProgress:1": 0,
+      "name:8": "Trigger: Early Scribing Tools",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "HIDDEN"
+    }
+  },
+  "questIDHigh:4": 5460183357000140468,
+  "questIDLow:4": -7101226382307633970,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 0,
+      "questID:8": "AAAAAAAAAAAAAAAAAAAESA\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "Thaumcraft:ItemInkwell",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "Thaumcraft:ItemInkwell"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "questID:8": "AAAAAAAAAAAAAAAAAAAESA\u003d\u003d",
-      "rewardID:8": "bq_standard:questcompletion",
-      "index:3": 0
     }
   }
 }

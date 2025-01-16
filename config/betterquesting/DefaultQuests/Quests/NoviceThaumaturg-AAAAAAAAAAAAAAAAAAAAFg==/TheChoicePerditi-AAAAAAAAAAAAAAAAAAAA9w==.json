@@ -1,5 +1,4 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
@@ -32,105 +31,108 @@
       "type:1": 1
     }
   },
-  "questIDLow:4": 247,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "In exchange for 6 clusters, I will give you this node. May it serve you well. Oh, don\u0027t place it too close to another node, or it might start to drain vis...",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "Thaumcraft:BlockJarNodeItem",
         "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "Thaumcraft:BlockJarNodeItem",
         "tag:10": {
-          "nodetype:4": 0,
           "Aspects:9": {
             "0:10": {
               "amount:4": 30,
               "key:8": "perditio"
             }
           },
+          "nodeid:8": "0:-312:64:54",
           "nodemod:4": 1,
-          "nodeid:8": "0:-312:64:54"
-        },
-        "Damage:2": 0,
-        "OreDict:8": ""
-      },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "XOR",
-      "repeat_relative:1": 1,
-      "name:8": "The Choice: Perditio",
-      "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
-      "isSilent:1": 0,
-      "desc:8": "In exchange for 6 clusters, I will give you this node. May it serve you well. Oh, don\u0027t place it too close to another node, or it might start to drain vis..."
-    }
-  },
-  "tasks:9": {
-    "0:10": {
-      "partialMatch:1": 1,
-      "autoConsume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
-      "index:3": 0,
-      "consume:1": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "id:8": "Thaumcraft:blockCrystal",
-          "Count:3": 6,
-          "Damage:2": 5,
-          "OreDict:8": ""
+          "nodetype:4": 0
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "isGlobal:1": 0,
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "The Choice: Perditio",
+      "partySingleReward:1": 0,
+      "questLogic:8": "XOR",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
     }
   },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 247,
   "rewards:9": {
     "0:10": {
-      "rewardID:8": "bq_standard:item",
+      "ignoreDisabled:1": 0,
       "index:3": 0,
+      "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "id:8": "Thaumcraft:BlockJarNodeItem",
           "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "Thaumcraft:BlockJarNodeItem",
           "tag:10": {
-            "nodetype:4": 0,
-            "display:10": {
-              "Lore:9": {
-                "0:8": "Second hand. But who cares?"
-              },
-              "Name:8": "Used Auranode"
-            },
             "Aspects:9": {
               "0:10": {
                 "amount:4": 30,
                 "key:8": "perditio"
               }
             },
+            "display:10": {
+              "Lore:9": {
+                "0:8": "Second hand. But who cares?"
+              },
+              "Name:8": "Used Auranode"
+            },
+            "nodeid:8": "0:-312:64:54",
             "nodemod:4": 1,
-            "nodeid:8": "0:-312:64:54"
-          },
-          "Damage:2": 0,
-          "OreDict:8": ""
+            "nodetype:4": 0
+          }
         }
       }
     },
     "1:10": {
-      "rewardID:8": "bq_standard:item",
+      "ignoreDisabled:1": 0,
       "index:3": 1,
+      "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "id:8": "dreamcraft:item.CoinDarkWizardII",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinDarkWizardII"
         }
       }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 1,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 6,
+          "Damage:2": 5,
+          "OreDict:8": "",
+          "id:8": "Thaumcraft:blockCrystal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

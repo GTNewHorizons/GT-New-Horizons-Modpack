@@ -1,5 +1,4 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
@@ -10,142 +9,144 @@
       "questIDLow:4": 3141
     }
   },
-  "questIDLow:4": 3108,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "No matter which way you used to get wood, you can simplify it. There\u0027s nothing much simpler than just pulling out more and more wood from a multiblock that doesn\u0027t even grow trees! That\u0027s what the Tree Growth Simulator does, with a special input: saws. This multi can replace the bonsais that were used for wood automation, however it is only available in IV. You have two further options in the meantime:\n\nTo continue using bonsais, in case you have gotten good stats on them, you can use the HV version of the Crop Manager, or the multiblock version, the Multifarm. This multi is special because it needs Uranium Rods, which are HV due to needing Eyes of Ender, but it has a massive range to harvest crops, being able to work with 1000+ of them, while only consuming 6 ULV amps when built correctly. It also hydrates and fertilizes automatically, and is much more efficient with the Fertilizer than its competition. Compared to the Crop Manager, it only loses out on the extra drops per harvest.\n\nOther than these two options, you can also grow and harvest trees normally with the EnderIO Farmer, which is a more typical tree automation machine. It\u0027s HV-locked, simple, and reliable and only needs a bit of power to get the wood you need, at a pretty fast rate. Ideally you want to use an unbreakable lumber axe with a tree type that produces a lot of logs (spruce is decent). To crank out a lot of wood you can then use sprinklers with water or a world accelerator.",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.blockmachines",
         "Count:3": 1,
         "Damage:2": 836,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "OR",
-      "repeat_relative:1": 1,
-      "name:8": "Trees Growing Faster",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "No matter which way you used to get wood, you can simplify it. There\u0027s nothing much simpler than just pulling out more and more wood from a multiblock that doesn\u0027t even grow trees! That\u0027s what the Tree Growth Simulator does, with a special input: saws. This multi can replace the bonsais that were used for wood automation, however it is only available in IV. You have two further options in the mean time:\n\nTo continue using bonsais, in case you have gotten good stats on them, you can use the HV version of the Crop Manager, or the multiblock version, the Multifarm. This multi is special because it needs Uranium Rods, which are HV due to needing Eyes of Ender, but it has a massive range to harvest crops, being able to work with 1000+ of them, while only consuming 6 ULV amps when built correctly. It also hydrates and fertilizes automatically, and is much more efficient with the Fertilizer than its competition. Compared to the Crop Manager, it only loses out on the extra drops per harvest.\n\nOther than these two options, you can also grow and harvest trees normally with the EnderIO Farmer, which is a more typical tree automation machine. It\u0027s HV-locked, simple, and reliable and only needs a bit of power to get the wood you need, at a pretty fast rate. Ideally you want to use an unbreakable lumber axe with a tree type that produces a lot of logs (spruce is decent). To crank out a lot of wood you can then use sprinklers with water or a world accelerator."
+      "lockedProgress:1": 0,
+      "name:8": "Trees Growing Faster",
+      "questLogic:8": "OR",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 3108,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "IC2:itemCropSeed",
+          "tag:10": {
+            "gain:1": 1,
+            "growth:1": 1,
+            "name:8": "Oak Bonsai",
+            "owner:8": "berriespp",
+            "resistance:1": 1,
+            "scan:1": 4
+          }
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.blockmachines",
           "Count:3": 1,
           "Damage:2": 836,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.blockmachines",
           "Count:3": 1,
           "Damage:2": 31113,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
     },
     "2:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 2,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "Forestry:ffarm",
           "Count:3": 36,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "Forestry:ffarm",
           "tag:10": {
             "FarmBlock:3": 0
-          },
-          "Damage:2": 0,
-          "OreDict:8": ""
+          }
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
     },
     "3:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 3,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "EnderIO:blockFarmStation",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "EnderIO:blockFarmStation"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
     },
     "4:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 4,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "minecraft:log",
           "Count:3": 64,
           "Damage:2": 1,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "minecraft:log"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 0,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "IC2:itemCropSeed",
-          "Count:3": 1,
-          "tag:10": {
-            "owner:8": "berriespp",
-            "name:8": "Oak Bonsai",
-            "scan:1": 4,
-            "growth:1": 1,
-            "resistance:1": 1,
-            "gain:1": 1
-          },
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

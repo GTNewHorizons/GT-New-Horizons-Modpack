@@ -1,200 +1,203 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 896
     }
   },
-  "questIDLow:4": 740,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 1,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "Now that you\u0027ve hit MV tier, it\u0027s time to get a better ratio when making rods, pipes, wires, plates and many more parts. Most extruder recipes use more than 32 EU/t so you need an MV extruder. After crafting the machine you need extruder shapes for the different types of parts you will want to make.\n\nThere are a few more shapes than the ones listed here. Make sure to have a look.\n\n[note]Most of the Tinkers Gregworks tool parts are made in the extruder. They also have long extrusion times to balance out their usefulness.[/note]",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "gregtech:gt.blockmachines",
         "Count:3": 1,
         "Damage:2": 282,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "§6§lExtrude All the Things",
       "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 1,
       "isSilent:1": 0,
-      "desc:8": "Now that you\u0027ve hit MV tier, it\u0027s time to get a better ratio when making rods, pipes, wires, plates and many more parts. Most extruder recipes use more than 32 EU/t so you need an MV extruder. After crafting the machine you need extruder shapes for the different types of parts you will want to make.\n\nThere are a few more shapes than the ones listed here. Make sure to have a look.\n\n[note]Most of the Tinkers Gregworks tool parts are made in the extruder. They also have long extrusion times to balance out their usefulness.[/note]"
+      "lockedProgress:1": 0,
+      "name:8": "§6§lExtrude All the Things",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
     }
   },
-  "tasks:9": {
-    "0:10": {
-      "partialMatch:1": 1,
-      "autoConsume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 0,
-      "consume:1": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 1,
-          "Damage:2": 32351,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 1,
-          "Damage:2": 32350,
-          "OreDict:8": ""
-        },
-        "2:10": {
-          "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 1,
-          "Damage:2": 32352,
-          "OreDict:8": ""
-        },
-        "3:10": {
-          "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 1,
-          "Damage:2": 32353,
-          "OreDict:8": ""
-        },
-        "4:10": {
-          "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 1,
-          "Damage:2": 32356,
-          "OreDict:8": ""
-        },
-        "5:10": {
-          "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 1,
-          "Damage:2": 32358,
-          "OreDict:8": ""
-        },
-        "6:10": {
-          "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 1,
-          "Damage:2": 32359,
-          "OreDict:8": ""
-        },
-        "7:10": {
-          "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 1,
-          "Damage:2": 32360,
-          "OreDict:8": ""
-        },
-        "8:10": {
-          "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 1,
-          "Damage:2": 32361,
-          "OreDict:8": ""
-        },
-        "9:10": {
-          "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 1,
-          "Damage:2": 32362,
-          "OreDict:8": ""
-        },
-        "10:10": {
-          "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 1,
-          "Damage:2": 32357,
-          "OreDict:8": ""
-        },
-        "11:10": {
-          "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 1,
-          "Damage:2": 32354,
-          "OreDict:8": ""
-        },
-        "12:10": {
-          "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 1,
-          "Damage:2": 32372,
-          "OreDict:8": ""
-        },
-        "13:10": {
-          "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 1,
-          "Damage:2": 32375,
-          "OreDict:8": ""
-        },
-        "14:10": {
-          "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 1,
-          "Damage:2": 32374,
-          "OreDict:8": ""
-        },
-        "15:10": {
-          "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 1,
-          "Damage:2": 32373,
-          "OreDict:8": ""
-        },
-        "16:10": {
-          "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 1,
-          "Damage:2": 32376,
-          "OreDict:8": ""
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "1:10": {
-      "partialMatch:1": 1,
-      "autoConsume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 1,
-      "consume:1": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.blockmachines",
-          "Count:3": 1,
-          "Damage:2": 282,
-          "OreDict:8": ""
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    }
-  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 740,
   "rewards:9": {
     "0:10": {
-      "rewardID:8": "bq_standard:item",
+      "ignoreDisabled:1": 0,
       "index:3": 0,
+      "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "id:8": "enhancedlootbags:lootbag",
           "Count:3": 1,
           "Damage:2": 5,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
         }
       }
     },
     "1:10": {
-      "rewardID:8": "bq_standard:item",
+      "ignoreDisabled:1": 0,
       "index:3": 1,
+      "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "id:8": "dreamcraft:item.CoinTechnicianI",
           "Count:3": 5,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnicianI"
         }
       }
     },
     "2:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 2,
       "questID:8": "AAAAAAAAAAAAAAAAAAACoQ\u003d\u003d",
-      "rewardID:8": "bq_standard:questcompletion",
-      "index:3": 2
+      "rewardID:8": "bq_standard:questcompletion"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32351,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 32350,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 32352,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 32353,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 32356,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 32358,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "Damage:2": 32359,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "7:10": {
+          "Count:3": 1,
+          "Damage:2": 32360,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "8:10": {
+          "Count:3": 1,
+          "Damage:2": 32361,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "9:10": {
+          "Count:3": 1,
+          "Damage:2": 32362,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "10:10": {
+          "Count:3": 1,
+          "Damage:2": 32357,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "11:10": {
+          "Count:3": 1,
+          "Damage:2": 32354,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "12:10": {
+          "Count:3": 1,
+          "Damage:2": 32372,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "13:10": {
+          "Count:3": 1,
+          "Damage:2": 32375,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "14:10": {
+          "Count:3": 1,
+          "Damage:2": 32374,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "15:10": {
+          "Count:3": 1,
+          "Damage:2": 32373,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "16:10": {
+          "Count:3": 1,
+          "Damage:2": 32376,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 282,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

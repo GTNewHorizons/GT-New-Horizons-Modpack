@@ -1,5 +1,4 @@
 {
-  "questIDHigh:4": 7244653316249437730,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 1162181130482500484,
@@ -14,50 +13,51 @@
       "questIDLow:4": 1493
     }
   },
-  "questIDLow:4": -5847927107856321162,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "This is the advanced assembly line from §6GigaGram§rFab.\n\nIt supports item pipelining. That is, it will mimic a real assembly line by consuming ingredients one by one instead of all at start. In effect, it offers a parallelism up to however many item inputs this recipe requires. You can think of an advanced assembly line as a collection of slices which are capable of processing each step independently from other slices. It will start processing once the input bus contents align with any stored data stick. The first slice will consume the input in Bus #1. After (recipe time/number of inputs) time, the first slice\u0027s work is concluded and will start the second slice. At the same time, first slice will look for input in input bus #1. If there are still enough input there slice #1 will start working again.\n\nThe terminal slice (the n-th slice, where n is number of item input in recipe) will put the recipe output in output bus when it has concluded his work. Whenever a non-terminal slice finished its work, it will try to pass the work onto next slice. If the next slice cannot find the materials in its input bus, the just-finished slice will remain in [warn]STUCK[/warn] state and hang the assembly line. To help locate these [warn]STUCK[/warn] assembly lines, the controller\u0027s front face will have its status light turned orange.\n\nThe EU/t cost of this machine is number of slices active multiplied by the original recipe EU/t. [warn]STUCK[/warn] slices do not consume power. It will use the worst energy supplying hatch\u0027s input voltage for recipe tier calculation and normal imperfect overclock. With exotic energy hatches, it can overclock beyond usual voltage tier, but will consume even more power than usual imperfect overclock. Every §2laser overclock§r will 0.3 to power exponent. 1 §2laser overclock§r will have 50% recipe time and use 430% power. 2 §2laser overclocks§r will have 25% recipe time and use 1978% power. Will not overclock beyond 1 tick. Machine first tries to parallelize, then normal imperfect overclock, then §2laser overclock§r.",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.blockmachines",
         "Count:3": 1,
         "Damage:2": 13532,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Advanced Assembly Line",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "This is the advanced assembly line from §6GigaGram§rFab.\n\nIt supports item pipelining. That is, it will mimic a real assembly line by consuming ingredients one by one instead of all at start. In effect, it offers a parallelism up to however many item input this recipe requires. You can think of an advanced assembly line as a collection of slices which are capable of processing each step independently from other slices. It will start processing once the input bus contents align with any stored data stick. The first slice will consume the input in Bus #1. After (recipe time/number of inputs) time, the first slice\u0027s work is concluded and will start the second slice. At the same time, first slice will look for input in input bus #1. If there are still enough input there slice #1 will start working again.\n\nThe terminal slice (the n-th slice, where n is number of item input in recipe) will put the recipe output in output bus when it has concluded his work. Whenever a non-terminal slice finished its work, it will try to pass the work onto next slice. If the next slice cannot find the materials in its input bus, the just-finished slice will remain in [warn]STUCK[/warn] state and hang the assembly line. To help locate these [warn]STUCK[/warn] assembly lines, the controller\u0027s front face will have its status light turned orange.\n\nThe EU/t cost of this machine is number of slices active multiplied by the original recipe EU/t. [warn]STUCK[/warn] slices do not consume power. It will use the worst energy supplying hatch\u0027s input voltage for recipe tier calculation and normal imperfect overclock. With exotic energy hatches, it can overclock beyond usual voltage tier, but will consume even more power than usual imperfect overclock. Every §2laser overclock§r will 0.3 to power exponent. 1 §2laser overclock§r will have 50% recipe time and use 430% power. 2 §2laser overclocks§r will have 25% recipe time and use 1978% power. Will not overclock beyond 1 tick. Machine first tries to parallelize, then normal imperfect overclock, then §2laser overclock§r."
+      "lockedProgress:1": 0,
+      "name:8": "Advanced Assembly Line",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
     }
   },
+  "questIDHigh:4": 7244653316249437730,
+  "questIDLow:4": -5847927107856321162,
+  "rewards:9": {},
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.blockmachines",
           "Count:3": 1,
           "Damage:2": 13532,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     }
-  },
-  "rewards:9": {}
+  }
 }

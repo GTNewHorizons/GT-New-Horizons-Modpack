@@ -1,92 +1,93 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 1301
     }
   },
-  "questIDLow:4": 2532,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "The ME Annihilation Plane destroys blocks as if you had mined them, and places them into the network. The Identity version acts as if silk touch was used.\n\nThe ME Formation Plane does the opposite, it places blocks into the world. You\u0027ll need to tell it what to place/drop though. This can work in both block and item mode.",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "appliedenergistics2:item.ItemMultiPart",
         "Count:3": 1,
         "Damage:2": 300,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "appliedenergistics2:item.ItemMultiPart"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Alpha and Omega",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "The ME Annihilation Plane destroys blocks as if you had mined them, and places them into the network. The Identity version acts as if silk touch was used.\n\nThe ME Formation Plane does the opposite, it places blocks into the world. You\u0027ll need to tell it what to place/drop though. This can work in both block and item mode."
+      "lockedProgress:1": 0,
+      "name:8": "Alpha and Omega",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 2532,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnicianII"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 300,
+          "OreDict:8": "",
+          "id:8": "appliedenergistics2:item.ItemMultiPart"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 320,
+          "OreDict:8": "",
+          "id:8": "appliedenergistics2:item.ItemMultiPart"
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "appliedenergistics2:item.ItemMultiPart",
           "Count:3": 1,
           "Damage:2": 300,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "appliedenergistics2:item.ItemMultiPart"
         },
         "1:10": {
-          "id:8": "appliedenergistics2:item.ItemMultiPart",
           "Count:3": 1,
           "Damage:2": 301,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "appliedenergistics2:item.ItemMultiPart"
         },
         "2:10": {
-          "id:8": "appliedenergistics2:item.ItemMultiPart",
           "Count:3": 1,
           "Damage:2": 320,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "appliedenergistics2:item.ItemMultiPart"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 1,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "dreamcraft:item.CoinTechnicianII",
-          "Count:3": 2,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "appliedenergistics2:item.ItemMultiPart",
-          "Count:3": 1,
-          "Damage:2": 300,
-          "OreDict:8": ""
-        },
-        "2:10": {
-          "id:8": "appliedenergistics2:item.ItemMultiPart",
-          "Count:3": 1,
-          "Damage:2": 320,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

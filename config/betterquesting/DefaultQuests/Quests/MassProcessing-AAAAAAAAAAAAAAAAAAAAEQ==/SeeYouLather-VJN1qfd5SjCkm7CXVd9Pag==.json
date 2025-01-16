@@ -1,91 +1,92 @@
 {
-  "questIDHigh:4": 6094344093624257072,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": -4353932262274808847,
       "questIDLow:4": -8959971444972358643
     }
   },
-  "questIDLow:4": -6585475866071969942,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "Just in time for the huge number of crystal rods you\u0027ll need to get your Applied Energistics system up and running, the Industrial Precision Lathe!\n\nThe number of recipes that can be processed in parallel by the IPL depends on the item pipe casing and the voltage tier:\nParallel \u003d Item Pipe Casing Parallel + 2 * Voltage Tier, where LV is 1.\n\nAdditionally, it gains a speed boost on all recipes according to this formula:\nSpeed Boost \u003d (Item Pipe Casing Speed Factor + Voltage Tier) / 4\nOr equivalently, the recipe time is multiplied by a factor of 4 / (Item Pipe Casing Factor + Voltage Tier).\n[note]Note that this can actually make the processing speed [warn]slower[/warn] if you use low tier item pipe casing and voltage.[/note]\n\nThe parallel and speed factor of the item casing is listed below:\nTin: 1 Parallel, 0.75 Speed Factor\nBrass: 1 Parallel, 0.8 Speed Factor\nElectrum: 2 Parallel, 0.9 Speed Factor\nPlatinum: 4 Parallel, 1 Speed Factor\nOsmium: 8 Parallel, 1.5 Speed Factor\nQuantium: 12 Parallel, 2 Speed Factor\nFluxed Electrum: 16 Parallel, 3 Speed Factor\nBlack Plutonium: 32 Parallel, 4 Speed Factor",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.blockmachines",
         "Count:3": 1,
         "Damage:2": 686,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "See You Lather",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Just in time for the huge number of crystal rods you\u0027ll need to get your Applied Energistics system up and running, the Industrial Precision Lathe!\n\nThe number of recipes that can be processed in parallel by the IPL depends on the item pipe casing and the voltage tier:\nParallel \u003d Item Pipe Casing Parallel + 2 * Voltage Tier, where LV is 1.\n\nAdditionally, it gains a speed boost on all recipes according to this formula:\nSpeed Boost \u003d (Item Pipe Casing Speed Factor + Voltage Tier) / 4\nOr equivalently, the recipe time is multiplied by a factor of 4 / (Item Pipe Casing Factor + Voltage Tier).\n[note]Note that this can actually make the processing speed [warn]slower[/warn] if you use low tier item pipe casing and voltage.[/note]\n\nThe parallel and speed factor of the item casing is listed below:\nTin: 1 Parallel, 0.75 Speed Factor\nBrass: 1 Parallel, 0.8 Speed Factor\nElectrum: 2 Parallel, 0.9 Speed Factor\nPlatinum: 4 Parallel, 1 Speed Factor\nOsmium: 8 Parallel, 1.5 Speed Factor\nQuantium: 12 Parallel, 2 Speed Factor\nFluxed Electrum: 16 Parallel, 3 Speed Factor\nBlack Plutonium: 32 Parallel, 4 Speed Factor"
+      "lockedProgress:1": 0,
+      "name:8": "See You Lather",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 6094344093624257072,
+  "questIDLow:4": -6585475866071969942,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 7,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.blockmachines",
           "Count:3": 1,
           "Damage:2": 686,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.blockcasings2",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings2"
         },
         "1:10": {
-          "id:8": "gregtech:gt.blockcasings3",
           "Count:3": 1,
           "Damage:2": 10,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings3"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 0,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "enhancedlootbags:lootbag",
-          "Count:3": 1,
-          "Damage:2": 7,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

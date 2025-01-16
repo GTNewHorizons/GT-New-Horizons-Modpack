@@ -1,55 +1,55 @@
 {
-  "questIDHigh:4": 934917285194189830,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": -6579582887410381504,
       "questIDLow:4": -5875748521763021702
     }
   },
-  "questIDLow:4": -4721119019196807237,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "To complete this chain, you need to activate the Astral Titanium Plasma you have with a special material, also a GT++ one, called Titansteel. This is a considerable powersink, which is why the input amount is so low at 2L, and it forces you to dedicate an ABS at UV tier to feed one mk2 reactor running the Runite plasma recipe. If you decide to upscale this setup, the best option is to simply build a mega ABS, where you can also use EBF coils to save some EU, and in turn make the powergen chain more efficient.\n\nRunite Plasma has a 350M fuel value, which leaves it free to run on Trinium XLs without penalty, whereas Tin Plasma has a 74.5% penalty on the same turbines due to having less than half the fuel value. If you want to upscale your plasma powergen to great numbers, this is an option, but the mk3 chain is probably the one to choose.\n\nThe same ratio of 0.144 to 1 reactors also applies here.",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "miscutils:itemCellPlasmaRunite",
         "Count:3": 1,
         "Damage:2": 0,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "miscutils:itemCellPlasmaRunite"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Runite Plasma - The Mk2 Conclusion",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "To complete this chain, you need to activate the Astral Titanium Plasma you have with a special material, also a GT++ one, called Titansteel. This is a considerable powersink, which is why the input amount is so low at 2L, and it forces you to dedicate an ABS at UV tier to feed one mk2 reactor running the Runite plasma recipe. If you decide to upscale this setup, the best option is to simply build a mega ABS, where you can also use EBF coils to save some EU, and in turn make the powergen chain more efficient.\n\nRunite Plasma has a 350M fuel value, which leaves it free to run on Trinium XLs without penalty, whereas Tin Plasma has a 74.5% penalty on the same turbines due to having less than half the fuel value. If you want to upscale your plasma powergen to great numbers, this is an option, but the mk3 chain is probably the one to choose.\n\nThe same ratio of 0.144 to 1 reactors also applies here."
+      "lockedProgress:1": 0,
+      "name:8": "Runite Plasma - The Mk2 Conclusion",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
     }
   },
+  "questIDHigh:4": 934917285194189830,
+  "questIDLow:4": -4721119019196807237,
+  "rewards:9": {},
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "miscutils:itemCellPlasmaRunite",
           "Count:3": 64,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "miscutils:itemCellPlasmaRunite"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     }
-  },
-  "rewards:9": {}
+  }
 }

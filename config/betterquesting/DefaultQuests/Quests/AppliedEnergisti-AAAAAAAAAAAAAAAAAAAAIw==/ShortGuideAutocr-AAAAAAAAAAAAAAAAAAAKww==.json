@@ -1,120 +1,120 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 1312
     }
   },
-  "questIDLow:4": 2755,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "This is the main purpose of AE2, so let\u0027s get to it. Plunk down the Crafting Storage and Molecular Assembler, connect the Pattern Terminal to a cable, and attach the ME Interface to the MA (make sure it has power from another side). You could run it without a ME Interface, but you can only do one recipe then. Place a Blank Pattern in the Pattern Terminal, and add the recipe for a Crafting Table, then click the arrow to save it to the pattern. Put this in the ME Interface and you can now request a craft of it. (if the items are in the network, otherwise it\u0027ll fail obviously)\n\nFor processing patterns (machines, anything not regular 3x3 crafting) click the button on the right. You\u0027ll need to specify all I/O for it yourself. You can use this on an ME Interface on a furnace (for example), combined with an ME Import Bus to collect the results. If it\u0027s a machine that auto-ejects (like multis) you can use a ME Interface to collect the results much faster (and with less lag).",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "appliedenergistics2:tile.BlockCraftingStorage",
         "Count:3": 1,
         "Damage:2": 0,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "appliedenergistics2:tile.BlockCraftingStorage"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Short Guide - Autocrafting",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "This is the main purpose of AE2, so let\u0027s get to it. Plunk down the Crafting Storage and Molecular Assembler, connect the Pattern Terminal to a cable, and attach the ME Interface to the MA (make sure it has power from another side). You could run it without a ME Interface, but you can only do one recipe then. Place a Blank Pattern in the Pattern Terminal, and add the recipe for a Crafting Table, then click the arrow to save it to the pattern. Put this in the ME Interface and you can now request a craft of it. (if the items are in the network, otherwise it\u0027ll fail obviously)\n\nFor processing patterns (machines, anything not regular 3x3 crafting) click the button on the right. You\u0027ll need to specify all I/O for it yourself. You can use this on an ME Interface on a furnace (for example), combined with an ME Import Bus to collect the results. If it\u0027s a machine that auto-ejects (like multis) you can use a ME Interface to collect the results much faster (and with less lag)."
+      "lockedProgress:1": 0,
+      "name:8": "Short Guide - Autocrafting",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
     }
   },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 2755,
+  "rewards:9": {},
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "appliedenergistics2:tile.BlockCraftingStorage",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "appliedenergistics2:tile.BlockCraftingStorage"
         },
         "1:10": {
-          "id:8": "appliedenergistics2:tile.BlockMolecularAssembler",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "appliedenergistics2:tile.BlockMolecularAssembler"
         },
         "2:10": {
-          "id:8": "appliedenergistics2:item.ItemMultiPart",
           "Count:3": 1,
           "Damage:2": 340,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "appliedenergistics2:item.ItemMultiPart"
         },
         "3:10": {
-          "id:8": "appliedenergistics2:item.ItemMultiPart",
           "Count:3": 1,
           "Damage:2": 440,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "appliedenergistics2:item.ItemMultiPart"
         },
         "4:10": {
-          "id:8": "appliedenergistics2:item.ItemMultiMaterial",
           "Count:3": 1,
           "Damage:2": 52,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "appliedenergistics2:item.ItemMultiMaterial"
         },
         "5:10": {
-          "id:8": "minecraft:flint",
           "Count:3": 2,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "minecraft:flint"
         },
         "6:10": {
-          "id:8": "minecraft:log",
           "Count:3": 2,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "minecraft:log"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "appliedenergistics2:item.ItemMultiPart",
           "Count:3": 1,
           "Damage:2": 440,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "appliedenergistics2:item.ItemMultiPart"
         },
         "1:10": {
-          "id:8": "appliedenergistics2:item.ItemMultiMaterial",
           "Count:3": 1,
           "Damage:2": 52,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "appliedenergistics2:item.ItemMultiMaterial"
         },
         "2:10": {
-          "id:8": "appliedenergistics2:item.ItemMultiPart",
           "Count:3": 1,
           "Damage:2": 240,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "appliedenergistics2:item.ItemMultiPart"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     }
-  },
-  "rewards:9": {}
+  }
 }

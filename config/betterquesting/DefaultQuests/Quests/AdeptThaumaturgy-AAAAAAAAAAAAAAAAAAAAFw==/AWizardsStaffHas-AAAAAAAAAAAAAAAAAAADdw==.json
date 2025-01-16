@@ -1,120 +1,122 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 878
     }
   },
-  "questIDLow:4": 887,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "Join the core with two wand caps, a twilight forest mob drop, and screws just as for making a wand. A staff cannot be used for crafting, but holds 2.5x as much vis as a corresponding wand. It can even serve as a backup weapon for melee. While it cannot receive weapon enchantments, its damage is decent, and it does not take damage with use (no durability bar).",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "Thaumcraft:WandCasting",
         "Count:3": 1,
+        "Damage:2": 8,
+        "OreDict:8": "",
+        "id:8": "Thaumcraft:WandCasting",
         "tag:10": {
-          "cap:8": "iron",
-          "rod:8": "greatwood_staff",
           "AttributeModifiers:9": {
             "0:10": {
-              "UUIDMost:4": -3801225194067177672,
-              "UUIDLeast:4": -6586624321849018929,
               "Amount:6": 6.0,
               "AttributeName:8": "generic.attackDamage",
+              "Name:8": "Weapon modifier",
               "Operation:4": 0,
-              "Name:8": "Weapon modifier"
+              "UUIDLeast:4": -6586624321849018929,
+              "UUIDMost:4": -3801225194067177672
             }
-          }
-        },
-        "Damage:2": 8,
-        "OreDict:8": ""
-      },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "A Wizard\u0027s Staff Has a Knob on the End",
-      "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
-      "isSilent:1": 0,
-      "desc:8": "Join the core with two wand caps, a twilight forest mob drop, and screws just as for making a wand. A staff cannot be used for crafting, but holds 2.5x as much vis as a corresponding wand. It can even serve as a backup weapon for melee. While it cannot receive weapon enchantments, its damage is decent, and it does not take damage with use (no durability bar)."
-    }
-  },
-  "tasks:9": {
-    "0:10": {
-      "partialMatch:1": 1,
-      "autoConsume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
-      "index:3": 0,
-      "consume:1": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "id:8": "Thaumcraft:WandRod",
-          "Count:3": 1,
-          "Damage:2": 50,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "Thaumcraft:WandCap",
-          "Count:3": 2,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "2:10": {
-          "id:8": "dreamcraft:item.LichBone",
-          "Count:3": 2,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "3:10": {
-          "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 4,
-          "Damage:2": 27366,
-          "OreDict:8": ""
+          },
+          "cap:8": "iron",
+          "rod:8": "greatwood_staff"
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "isGlobal:1": 0,
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "A Wizard\u0027s Staff Has a Knob on the End",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
     }
   },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 887,
   "rewards:9": {
     "0:10": {
-      "rewardID:8": "bq_standard:item",
+      "ignoreDisabled:1": 0,
       "index:3": 0,
+      "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "id:8": "Thaumcraft:WandRod",
           "Count:3": 2,
           "Damage:2": 2,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "Thaumcraft:WandRod"
         },
         "1:10": {
-          "id:8": "Thaumcraft:ItemLootBag",
           "Count:3": 1,
           "Damage:2": 2,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "Thaumcraft:ItemLootBag"
         }
       }
     },
     "1:10": {
-      "rewardID:8": "bq_standard:item",
+      "ignoreDisabled:1": 0,
       "index:3": 1,
+      "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "id:8": "dreamcraft:item.CoinDarkWizardII",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinDarkWizardII"
         }
       }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 50,
+          "OreDict:8": "",
+          "id:8": "Thaumcraft:WandRod"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "Thaumcraft:WandCap"
+        },
+        "2:10": {
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.LichBone"
+        },
+        "3:10": {
+          "Count:3": 4,
+          "Damage:2": 27366,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

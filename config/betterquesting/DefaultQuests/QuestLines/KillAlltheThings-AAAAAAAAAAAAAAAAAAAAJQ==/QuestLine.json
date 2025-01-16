@@ -1,19 +1,19 @@
 {
-  "questLineIDLow:4": 37,
-  "questLineIDHigh:4": 0,
   "properties:10": {
     "betterquesting:10": {
-      "visibility:8": "UNLOCKED",
-      "name:8": "Kill All the Things",
-      "icon:10": {
-        "id:8": "TwilightForest:item.trophy",
-        "Count:3": 1,
-        "Damage:2": 2,
-        "OreDict:8": ""
-      },
       "bg_image:8": "",
       "bg_size:3": 256,
-      "desc:8": "This world is full of nasty things. Time to kill some and improve your reputation."
+      "desc:8": "This world is full of nasty things. Time to kill some and improve your reputation.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2,
+        "OreDict:8": "",
+        "id:8": "TwilightForest:item.trophy"
+      },
+      "name:8": "Kill All the Things",
+      "visibility:8": "UNLOCKED"
     }
-  }
+  },
+  "questLineIDHigh:4": 0,
+  "questLineIDLow:4": 37
 }

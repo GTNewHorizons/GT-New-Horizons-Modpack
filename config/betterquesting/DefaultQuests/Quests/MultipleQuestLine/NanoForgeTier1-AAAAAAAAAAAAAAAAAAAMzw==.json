@@ -1,84 +1,84 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 2649
     }
   },
-  "questIDLow:4": 3279,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL",
-      "isMain:1": 1,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "There must be a way to make a nano scale robots to work in a machine. Carbon ones can be made in an assembly line, but very inefficiently. There must be a better way.\n\nWhat about a Nano Forge, able to cut up blocks into nano-thin sheets and then creating the first nanite, which helps create thousands of them in mere seconds.\n\n[note]The Nano Forge is a big multiblock requiring lots of power over the course of a couple minutes. It is able to use TT energy hatches (including lasers). The controller must have a carbon nanite inside to make tier 1 recipes.[/note]\n\n[note]Despite what NEI might claim there are no minimum voltages for the Nano Forge recipes. If you want to do a recipe you just have to achieve the minimum EU/t required, no matter the voltage[/note].",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.metaitem.03",
         "Count:3": 1,
         "Damage:2": 4010,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.metaitem.03"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Nano Forge Tier 1",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 1,
       "isSilent:1": 0,
-      "desc:8": "There must a be a way to make a nano scale robots to work in a machine. Carbon ones can be made in an assembly line, but very inefficiently. There must be a better way.\n\nWhat about a Nano Forge, able to cut up blocks into nano-thin sheets and then creating the first nanite, which helps create thousands of them in mere seconds.\n\n[note]The Nano Forge is a big multiblock requiring lots of power over the course of a couple minutes. It is able to use TT energy hatches (including lasers). The controller must have a carbon nanite inside to make tier 1 recipes.[/note]\n\n[note]Despite what NEI might claim there are no minimum voltages for the Nano Forge recipes. If you want to do a recipe you just have to achieve the minimum EU/t required, no matter the voltage[/note]."
+      "lockedProgress:1": 0,
+      "name:8": "Nano Forge Tier 1",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
     }
   },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 3279,
+  "rewards:9": {},
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.metaitem.03",
           "Count:3": 1,
           "Damage:2": 4010,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.03"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.blockmachines",
           "Count:3": 1,
           "Damage:2": 357,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
         },
         "1:10": {
-          "id:8": "gregtech:gt.blockcasings8",
           "Count:3": 1,
           "Damage:2": 10,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings8"
         },
         "2:10": {
-          "id:8": "gregtech:gt.blockframes",
           "Count:3": 1,
           "Damage:2": 405,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockframes"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     }
-  },
-  "rewards:9": {}
+  }
 }

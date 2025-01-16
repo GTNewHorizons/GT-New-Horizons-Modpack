@@ -13,7 +13,7 @@ body:
   attributes:
     label: Your GTNH Discord Username
     description: What is your GTNH Discord username? We might need to contact you in person if we need additional info
-    placeholder: "Example: Fake#1234"
+    placeholder: "Example: Fake"
 - type: input
   id: version
   attributes:

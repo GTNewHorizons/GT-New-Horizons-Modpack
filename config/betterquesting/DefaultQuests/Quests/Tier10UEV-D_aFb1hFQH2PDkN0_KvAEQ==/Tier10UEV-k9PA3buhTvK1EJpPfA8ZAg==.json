@@ -1,5 +1,4 @@
 {
-  "questIDHigh:4": -7794674471479980302,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
@@ -10,50 +9,51 @@
       "questIDLow:4": 2665
     }
   },
-  "questIDLow:4": -5399646287042766590,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL",
-      "isMain:1": 1,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "Welcome to UEV! Now that you\u0027ve started making your first infinity, it\u0027s time to start scaling up. In this tier, every component will require infinity. Be prepared to make tons. Your main goal to advance will be to build the Dimensionally Transcendent Plasma Forge, also known as the DTPF. This massive multiblock will unlock new powerful recipes to create infinity, neutronium and other special materials.",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.blockmachines",
         "Count:3": 1,
         "Damage:2": 11230,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Tier 10 (UEV)",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 1,
       "isSilent:1": 0,
-      "desc:8": "Welcome to UEV! Now that you\u0027ve started making your first infinity, it\u0027s time to start scaling up. In this tier, every component will require infinity. Be prepared to make tons. Your main goal to advance will be to build the Dimensionally Transcendent Plasma Forge, also known as the DTPF. This massive multiblock will unlock new powerful recipes to create infinity, neutronium and other special materials."
+      "lockedProgress:1": 0,
+      "name:8": "Tier 10 (UEV)",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
     }
   },
+  "questIDHigh:4": -7794674471479980302,
+  "questIDLow:4": -5399646287042766590,
+  "rewards:9": {},
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.blockmachines",
           "Count:3": 1,
           "Damage:2": 11230,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     }
-  },
-  "rewards:9": {}
+  }
 }

@@ -1,5 +1,4 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
@@ -18,117 +17,119 @@
       "questIDLow:4": 924
     }
   },
-  "questIDLow:4": 925,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "SECRET",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "I guess you\u0027re good at killing things, huh? And if you got this far, maybe making things too? If you want to §oreally§r prove yourself though, head on over to the Endgame Goals tab.",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "JABBA:upgradeCore",
         "Count:3": 1,
         "Damage:2": 10,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "JABBA:upgradeCore"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Killing: Evolved",
       "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "I guess you\u0027re good at killing things, huh? And if you got this far, maybe making things too? If you want to §oreally§r prove yourself though, head on over to the Endgame Goals tab."
+      "lockedProgress:1": 0,
+      "name:8": "Killing: Evolved",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "SECRET"
     }
   },
-  "tasks:9": {
-    "0:10": {
-      "partialMatch:1": 1,
-      "autoConsume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
-      "index:3": 0,
-      "consume:1": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "id:8": "dreamcraft:item.CoinDarkWizardIII",
-          "Count:3": 10,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "dreamcraft:item.CoinAdventureIII",
-          "Count:3": 10,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "2:10": {
-          "id:8": "dreamcraft:item.CoinSurvivorIII",
-          "Count:3": 10,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "3:10": {
-          "id:8": "dreamcraft:item.CoinTechnicianIII",
-          "Count:3": 10,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    }
-  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 925,
   "rewards:9": {
     "0:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 0,
       "choices:9": {
         "0:10": {
-          "id:8": "Thaumcraft:BlockJarNodeItem",
           "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "Thaumcraft:BlockJarNodeItem",
           "tag:10": {
-            "nodetype:4": 0,
-            "display:10": {
-              "Lore:9": {
-                "0:8": "This! Is OP"
-              }
-            },
             "Aspects:9": {
               "0:10": {
                 "amount:4": 1000,
                 "key:8": "instrumentum"
               }
             },
+            "display:10": {
+              "Lore:9": {
+                "0:8": "This! Is OP"
+              }
+            },
+            "nodeid:8": "0:-312:64:54",
             "nodemod:4": 0,
-            "nodeid:8": "0:-312:64:54"
-          },
-          "Damage:2": 0,
-          "OreDict:8": ""
+            "nodetype:4": 0
+          }
         },
         "1:10": {
-          "id:8": "TConstruct:creativeModifier",
           "Count:3": 16,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "TConstruct:creativeModifier"
         },
         "2:10": {
-          "id:8": "ProjRed|Fabrication:projectred.fabrication.icchip",
           "Count:3": 4,
           "Damage:2": 1,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "ProjRed|Fabrication:projectred.fabrication.icchip"
         },
         "3:10": {
-          "id:8": "miscutils:GTPP.bauble.fireprotection.0.name",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "miscutils:GTPP.bauble.fireprotection.0.name"
         }
-      }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 1,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 10,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinDarkWizardIII"
+        },
+        "1:10": {
+          "Count:3": 10,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinAdventureIII"
+        },
+        "2:10": {
+          "Count:3": 10,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinSurvivorIII"
+        },
+        "3:10": {
+          "Count:3": 10,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnicianIII"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

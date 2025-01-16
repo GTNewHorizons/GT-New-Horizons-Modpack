@@ -1,140 +1,142 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 596
     }
   },
-  "questIDLow:4": 1127,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "With your steel tool you are able to mine obsidian. You can make the Reinforcement which gives a reinforced modifier which increases the durability of your tool. Reinforced level X makes a tool unbreakable.\n\n§3PS: In many cases this is not worth it, since the tools don\u0027t degrade that fast, it doesn\u0027t cost much to repair, and you get better materials (with higher durability) to make them out of reasonably fast. Plus, by the time you got it to unbreakable, you\u0027d be auto-mining everything with a miner anyway. Just use redstone, or maybe luck/silky. However, there are a few very nice use cases like lumber axes and tools for automation setups.",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "TConstruct:materials",
         "Count:3": 1,
         "Damage:2": 43,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "TConstruct:materials"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "§3§lReinforced X? Unbreakable",
       "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "With your steel tool you are able to mine obsidian. You can make the Reinforcement which gives a reinforced modifier which increases the durability of your tool. Reinforced level X makes a tool unbreakable.\n\n§3PS: In many cases this is not worth it, since the tools don\u0027t degrade that fast, it doesn\u0027t cost much to repair, and you get better materials (with higher durability) to make them out of reasonably fast. Plus, by the time you got it to unbreakable, you\u0027d be auto-mining everything with a miner anyway. Just use redstone, or maybe luck/silky. However, there are a few very nice use cases like lumber axes and tools for automation setups."
+      "lockedProgress:1": 0,
+      "name:8": "§3§lReinforced X? Unbreakable",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 1127,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:obsidian"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 6,
+          "OreDict:8": "",
+          "id:8": "TConstruct:toolRod"
+        },
+        "2:10": {
+          "Count:3": 4,
+          "Damage:2": 11305,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 10,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinSmith"
+        },
+        "1:10": {
+          "Count:3": 10,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnician"
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "TConstruct:woodPattern",
           "Count:3": 1,
           "Damage:2": 16,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "TConstruct:woodPattern"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "TConstruct:heavyPlate",
           "Count:3": 1,
           "Damage:2": 6,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "TConstruct:heavyPlate"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "2:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 2,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "TConstruct:materials",
           "Count:3": 1,
           "Damage:2": 43,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "TConstruct:materials"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 0,
-      "choices:9": {
-        "0:10": {
-          "id:8": "minecraft:obsidian",
-          "Count:3": 16,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "TConstruct:toolRod",
-          "Count:3": 1,
-          "Damage:2": 6,
-          "OreDict:8": ""
-        },
-        "2:10": {
-          "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 4,
-          "Damage:2": 11305,
-          "OreDict:8": ""
-        },
-        "3:10": {
-          "id:8": "enhancedlootbags:lootbag",
-          "Count:3": 1,
-          "Damage:2": 2,
-          "OreDict:8": ""
-        }
-      }
-    },
-    "1:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 1,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "dreamcraft:item.CoinSmith",
-          "Count:3": 10,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "dreamcraft:item.CoinTechnician",
-          "Count:3": 10,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

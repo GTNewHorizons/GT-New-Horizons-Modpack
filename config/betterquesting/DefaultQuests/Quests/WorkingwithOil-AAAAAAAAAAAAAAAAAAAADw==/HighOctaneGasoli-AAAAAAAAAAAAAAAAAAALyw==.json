@@ -1,5 +1,4 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
@@ -18,101 +17,103 @@
       "questIDLow:4": 3018
     }
   },
-  "questIDLow:4": 3019,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "Gasoline is a regular fuel, as I\u0027m sure you know. Nothing special about it, it\u0027s the same as Diesel but with a different density, for different engines. In real life, it\u0027s incredibly useful for the average person, but in GTNH it\u0027s mostly replaced by Diesel. However, that is about to change.\n\nThis step is by far the most complicated one in the entire chain, but you already automated all the additives you need, so this is just a matter of mixing. This is the EV step, the final step, so put your chemicals together. Add Octane to help the fuel resist compression after putting in the explosive Toluene, mix in the nitrous to juice it up and finish by controlling it with Anti-Knock Agent. Mix this all with Gasoline and you have HOG, the most powerful diesel fuel in the game.\n\nThere is more progression to the oil processing, and more quests from here, but this is it for fuel improvements. What is left for you is unlocking, and building even better generators that can take full advantage of how powerful HOG is. Nuclear Power is likely to be your next step in power, as diesels cannot last forever, but you can still continue through this path.\n\nOh, and congratulations! You have earned this reward.",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.metaitem.01",
         "Count:3": 1,
         "Damage:2": 30998,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.metaitem.01"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "High Octane Gasoline",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Gasoline is a regular fuel, as I\u0027m sure you know. Nothing special about it, it\u0027s the same as Diesel but with a different density, for different engines. In real life, it\u0027s incredibly useful for the average person, but in GTNH it\u0027s mostly replaced by Diesel. However, that is about to change.\n\nThis step is by far the most complicated one in the entire chain, but you already automated all the additives you need, so this is just a matter of mixing. This is the EV step, the final step, so put your chemicals together. Add Octane to help the fuel resist compression after putting in the explosive Toluene, mix in the nitrous to juice it up and finish by controlling it with Anti-Knock Agent. Mix this all with Gasoline and you have HOG, the most powerful diesel fuel in the game.\n\nThere is more progression to the oil processing, and more quests from here, but this is it for fuel improvements. What is left for you is unlocking, and building even better generators that can take full advantage of how powerful HOG is. Nuclear Power is likely to be your next step in power, as diesels cannot last forever, but you can still continue through this path.\n\nOh, and congratulations! You have earned this reward."
+      "lockedProgress:1": 0,
+      "name:8": "High Octane Gasoline",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 3019,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 6,
+          "Damage:2": 5153,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        },
+        "1:10": {
+          "Count:3": 8,
+          "Damage:2": 11085,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "2:10": {
+          "Count:3": 2,
+          "Damage:2": 11316,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "3:10": {
+          "Count:3": 2,
+          "Damage:2": 7,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag",
+          "tag:10": {
+            "ench:9": {
+              "0:10": {
+                "id:2": 35,
+                "lvl:2": 3
+              }
+            }
+          }
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinChemistIII"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnicianIII"
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.metaitem.01",
           "Count:3": 256,
           "Damage:2": 30998,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 0,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.blockmachines",
-          "Count:3": 6,
-          "Damage:2": 5153,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 8,
-          "Damage:2": 11085,
-          "OreDict:8": ""
-        },
-        "2:10": {
-          "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 2,
-          "Damage:2": 11316,
-          "OreDict:8": ""
-        },
-        "3:10": {
-          "id:8": "enhancedlootbags:lootbag",
-          "Count:3": 2,
-          "tag:10": {
-            "ench:9": {
-              "0:10": {
-                "lvl:2": 3,
-                "id:2": 35
-              }
-            }
-          },
-          "Damage:2": 7,
-          "OreDict:8": ""
-        },
-        "4:10": {
-          "id:8": "dreamcraft:item.CoinChemistIII",
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "5:10": {
-          "id:8": "dreamcraft:item.CoinTechnicianIII",
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

@@ -1,185 +1,187 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 803
     }
   },
-  "questIDLow:4": 3143,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "QuantumSuit Bodyarmor allows for flight just like its predecessor, but when you hold shift+space instead of going down you will go slightly up.\nThe next tier - GraviChestPlate - will get rid of this problem altogether.",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "IC2:itemArmorQuantumChestplate",
         "Count:3": 1,
+        "Damage:2": 1,
+        "OreDict:8": "",
+        "id:8": "IC2:itemArmorQuantumChestplate",
         "tag:10": {
           "charge:6": 1.0E7
-        },
-        "Damage:2": 1,
-        "OreDict:8": ""
+        }
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Quantum Chestplate",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "QuantumSuit Bodyarmor allows for flight just like its predecessor, but when you hold shift+space instead of going down you will go slightly up.\nThe next tier - GraviChestPlate - will get rid of this problem altogether."
+      "lockedProgress:1": 0,
+      "name:8": "Quantum Chestplate",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 3143,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 32604,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "IC2:itemPartIridium"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 8,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnicianII"
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "GraviSuite:advNanoChestPlate",
           "Count:3": 1,
-          "tag:10": {
-            "toolXP:6": 0.0,
-            "charge:3": 0,
-            "toolMode:3": 0
-          },
           "Damage:2": 32767,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "GraviSuite:advNanoChestPlate",
+          "tag:10": {
+            "charge:3": 0,
+            "toolMode:3": 0,
+            "toolXP:6": 0.0
+          }
         },
         "1:10": {
-          "id:8": "dreamcraft:item.IridiumAlloyItemCasing",
           "Count:3": 8,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.IridiumAlloyItemCasing"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "dreamcraft:item.QuantumPartChestplate",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.QuantumPartChestplate"
         },
         "1:10": {
-          "id:8": "dreamcraft:item.QuantumCrystal",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.QuantumCrystal"
         },
         "2:10": {
-          "id:8": "gregtech:gt.metaitem.01",
           "Count:3": 2,
           "Damage:2": 32706,
-          "OreDict:8": "circuitMaster"
+          "OreDict:8": "circuitMaster",
+          "id:8": "gregtech:gt.metaitem.01"
         },
         "3:10": {
-          "id:8": "gregtech:gt.blockmachines",
           "Count:3": 6,
           "Damage:2": 1662,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
         },
         "4:10": {
-          "id:8": "gregtech:gt.metaitem.01",
           "Count:3": 1,
           "Damage:2": 32597,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
         },
         "5:10": {
-          "id:8": "gregtech:gt.metaitem.01",
           "Count:3": 3,
           "Damage:2": 32673,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
         },
         "6:10": {
-          "id:8": "gregtech:gt.metaitem.01",
           "Count:3": 2,
           "Damage:2": 32604,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
         },
         "7:10": {
-          "id:8": "gregtech:gt.metaitem.01",
           "Count:3": 4,
           "Damage:2": 27316,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
     },
     "2:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 2,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "IC2:itemArmorQuantumChestplate",
           "Count:3": 1,
+          "Damage:2": 32767,
+          "OreDict:8": "",
+          "id:8": "IC2:itemArmorQuantumChestplate",
           "tag:10": {
             "charge:6": 1.0E7
-          },
-          "Damage:2": 32767,
-          "OreDict:8": ""
+          }
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 0,
-      "choices:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 2,
-          "Damage:2": 32604,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "IC2:itemPartIridium",
-          "Count:3": 4,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "2:10": {
-          "id:8": "enhancedlootbags:lootbag",
-          "Count:3": 1,
-          "Damage:2": 8,
-          "OreDict:8": ""
-        }
-      }
-    },
-    "1:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 1,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "dreamcraft:item.CoinTechnicianII",
-          "Count:3": 5,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

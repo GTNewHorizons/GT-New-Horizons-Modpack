@@ -1,280 +1,282 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 33
     }
   },
-  "questIDLow:4": 862,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "Since vanilla bows are only craftable in the assembling machine and mobs don\u0027t drop them very often you should make a Tinkers bow.\n\nWood would be the best material for now. Craft the bow limbs out of wood and the bow string out of strings. The arrow that has the most durability is bone, so craft the stick out of bone. It is much lighter but less durable than a regular arrow. Use a flint tip to make it repairable with flint.\n\nYou can repair your bow the same way as all the other Tinkers tools. The arrows can be regained by repairing them or picking them up from the floor. The arrows should be in your inventory if you want to pick up the ones you fired. You can\u0027t pick them up if they are in Battlegear slots.",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "TConstruct:ShortBow",
         "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "TConstruct:ShortBow",
         "tag:10": {
           "InfiTool:10": {
-            "BaseDurability:4": 57,
-            "BaseAttack:4": 2,
-            "DrawSpeed:4": 16,
-            "ToolEXP:4": 0,
-            "HarvestLevel:4": 0,
-            "RenderHead:4": 0,
-            "ModDurability:6": 0.0,
-            "Shoddy:6": 0.0,
-            "RenderHandle:4": 0,
             "Accessory:4": 0,
-            "MiningSpeed:4": 150,
-            "Unbreaking:4": 0,
-            "HarvestLevel2:4": 0,
-            "Damage:4": 0,
-            "BonusDurability:4": 0,
-            "TotalDurability:4": 57,
-            "MiningSpeed2:4": 150,
-            "BaseDrawSpeed:4": 16,
-            "Head:4": 0,
             "Attack:4": 2,
-            "Handle:4": 0,
+            "BaseAttack:4": 2,
+            "BaseDrawSpeed:4": 16,
+            "BaseDurability:4": 57,
+            "BonusDurability:4": 0,
             "Broken:4": 0,
-            "RenderAccessory:4": 0,
-            "ToolLevel:4": 1,
+            "Damage:4": 0,
+            "DrawSpeed:4": 16,
             "FlightSpeed:6": 3.0,
-            "Modifiers:4": 0
+            "Handle:4": 0,
+            "HarvestLevel:4": 0,
+            "HarvestLevel2:4": 0,
+            "Head:4": 0,
+            "MiningSpeed:4": 150,
+            "MiningSpeed2:4": 150,
+            "ModDurability:6": 0.0,
+            "Modifiers:4": 0,
+            "RenderAccessory:4": 0,
+            "RenderHandle:4": 0,
+            "RenderHead:4": 0,
+            "Shoddy:6": 0.0,
+            "ToolEXP:4": 0,
+            "ToolLevel:4": 1,
+            "TotalDurability:4": 57,
+            "Unbreaking:4": 0
           },
           "display:10": {
             "Name:8": "Wooden Shortbow"
           }
-        },
-        "Damage:2": 0,
-        "OreDict:8": ""
+        }
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "§2§lYour First Bow",
       "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Since vanilla bows are only craftable in the assembling machine and mobs don\u0027t drop them very often you should make a Tinkers bow.\n\nWood would be the best material for now. Craft the bow limbs out of wood and the bow string out of strings. The arrow that has the most durability is bone, so craft the stick out of bone. It is much lighter but less durable than a regular arrow. Use a flint tip to make it repairable with flint.\n\nYou can repair your bow the same way as all the other Tinkers tools. The arrows can be regained by repairing them or picking them up from the floor. The arrows should be in your inventory if you want to pick up the ones you fired. You can\u0027t pick them up if they are in Battlegear slots."
+      "lockedProgress:1": 0,
+      "name:8": "§2§lYour First Bow",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 862,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 10,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:bone"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "TConstruct:blankPattern"
+        }
+      }
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 10,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinSmith"
+        },
+        "1:10": {
+          "Count:3": 10,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnician"
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "minecraft:string",
           "Count:3": 3,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "minecraft:string"
         },
         "1:10": {
-          "id:8": "minecraft:flint",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "minecraft:flint"
         },
         "2:10": {
-          "id:8": "minecraft:feather",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "minecraft:feather"
         },
         "3:10": {
-          "id:8": "minecraft:planks",
           "Count:3": 3,
           "Damage:2": 0,
-          "OreDict:8": "plankWood"
+          "OreDict:8": "plankWood",
+          "id:8": "minecraft:planks"
         },
         "4:10": {
-          "id:8": "minecraft:bone",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "minecraft:bone"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 2,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "TConstruct:arrowhead",
           "Count:3": 1,
           "Damage:2": 3,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "TConstruct:arrowhead"
         },
         "1:10": {
-          "id:8": "TConstruct:toolRod",
           "Count:3": 1,
           "Damage:2": 5,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "TConstruct:toolRod"
         },
         "2:10": {
-          "id:8": "TConstruct:fletching",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "TConstruct:fletching"
         },
         "3:10": {
-          "id:8": "TConstruct:BowLimbPart",
           "Count:3": 2,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "TConstruct:BowLimbPart"
         },
         "4:10": {
-          "id:8": "TConstruct:bowstring",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "TConstruct:bowstring"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "2:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 3,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "TConstruct:ShortBow",
           "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "TConstruct:ShortBow",
           "tag:10": {
             "InfiTool:10": {
-              "BaseDurability:4": 57,
-              "BaseAttack:4": 2,
-              "DrawSpeed:4": 16,
-              "ToolEXP:4": 0,
-              "HarvestLevel:4": 0,
-              "RenderHead:4": 0,
-              "ModDurability:6": 0.0,
-              "Shoddy:6": 0.0,
-              "RenderHandle:4": 0,
               "Accessory:4": 0,
-              "MiningSpeed:4": 150,
-              "Unbreaking:4": 0,
-              "HarvestLevel2:4": 0,
-              "Damage:4": 0,
-              "BonusDurability:4": 0,
-              "TotalDurability:4": 57,
-              "MiningSpeed2:4": 150,
-              "BaseDrawSpeed:4": 16,
-              "Head:4": 0,
               "Attack:4": 2,
-              "Handle:4": 0,
+              "BaseAttack:4": 2,
+              "BaseDrawSpeed:4": 16,
+              "BaseDurability:4": 57,
+              "BonusDurability:4": 0,
               "Broken:4": 0,
-              "RenderAccessory:4": 0,
-              "ToolLevel:4": 1,
+              "Damage:4": 0,
+              "DrawSpeed:4": 16,
               "FlightSpeed:6": 3.0,
-              "Modifiers:4": 0
+              "Handle:4": 0,
+              "HarvestLevel:4": 0,
+              "HarvestLevel2:4": 0,
+              "Head:4": 0,
+              "MiningSpeed:4": 150,
+              "MiningSpeed2:4": 150,
+              "ModDurability:6": 0.0,
+              "Modifiers:4": 0,
+              "RenderAccessory:4": 0,
+              "RenderHandle:4": 0,
+              "RenderHead:4": 0,
+              "Shoddy:6": 0.0,
+              "ToolEXP:4": 0,
+              "ToolLevel:4": 1,
+              "TotalDurability:4": 57,
+              "Unbreaking:4": 0
             },
             "display:10": {
               "Name:8": "Wooden Shortbow"
             }
-          },
-          "Damage:2": 0,
-          "OreDict:8": ""
+          }
         },
         "1:10": {
-          "id:8": "TConstruct:ArrowAmmo",
           "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "TConstruct:ArrowAmmo",
           "tag:10": {
             "InfiTool:10": {
-              "BreakChance:6": 0.07000000029802322,
-              "BaseDurability:4": 107,
-              "BaseAttack:4": 2,
-              "ToolEXP:4": 0,
-              "HarvestLevel:4": 1,
-              "RenderHead:4": 3,
-              "ModDurability:6": 0.0,
-              "Shoddy:6": 0.0,
-              "RenderHandle:4": 1,
-              "Accuracy:6": 95.0,
               "Accessory:4": 0,
-              "MiningSpeed:4": 400,
-              "Unbreaking:4": 0,
-              "Damage:4": 0,
-              "BonusDurability:4": 0,
-              "TotalDurability:4": 107,
-              "Head:4": 3,
-              "Attack:4": 2,
-              "Handle:4": 1,
-              "Broken:4": 0,
-              "Mass:6": 3.125,
+              "Accuracy:6": 95.0,
               "Ammo:4": 11,
+              "Attack:4": 2,
+              "BaseAttack:4": 2,
+              "BaseDurability:4": 107,
+              "BonusDurability:4": 0,
+              "BreakChance:6": 0.07000000029802322,
+              "Broken:4": 0,
+              "Damage:4": 0,
+              "Handle:4": 1,
+              "HarvestLevel:4": 1,
+              "Head:4": 3,
+              "Mass:6": 3.125,
+              "MiningSpeed:4": 400,
+              "ModDurability:6": 0.0,
+              "Modifiers:4": 0,
               "RenderAccessory:4": 0,
+              "RenderHandle:4": 1,
+              "RenderHead:4": 3,
+              "Shoddy:6": 0.0,
+              "ToolEXP:4": 0,
               "ToolLevel:4": 1,
-              "Modifiers:4": 0
+              "TotalDurability:4": 107,
+              "Unbreaking:4": 0
             },
             "display:10": {
               "Name:8": "Flint Arrows"
             }
-          },
-          "Damage:2": 0,
-          "OreDict:8": ""
+          }
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 0,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "minecraft:bone",
-          "Count:3": 10,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "TConstruct:blankPattern",
-          "Count:3": 2,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
-    },
-    "1:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 1,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "dreamcraft:item.CoinSmith",
-          "Count:3": 10,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "dreamcraft:item.CoinTechnician",
-          "Count:3": 10,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

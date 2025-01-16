@@ -1,183 +1,185 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 1781
     }
   },
-  "questIDLow:4": 1785,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "Putting redstone on my weapon makes it faster. So why don\u0027t I put it on my hands directly!\nThis will increase your mining speed.\n\nHint:\nEvery Armor part has 3 Slots for modification, aside from gloves, which have 5.",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "TConstruct:travelGlove",
         "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "TConstruct:travelGlove",
         "tag:10": {
           "TinkerAccessory:10": {
             "BaseDurability:4": 500,
-            "Built:4": 1,
-            "Tooltip1:8": "Haste",
-            "Effect1:4": 1,
-            "ModifierTip1:8": "Redstone (500/500)",
-            "ModDurability:6": 0.0,
+            "BonusDurability:4": 0,
             "Broken:4": 0,
+            "Built:4": 1,
+            "Damage:4": 0,
+            "Effect1:4": 1,
+            "MiningSpeed:4": 500,
+            "ModDurability:6": 0.0,
+            "ModifierTip1:8": "Redstone (500/500)",
+            "Modifiers:4": 0,
             "Redstone:9": {
               "0:4": 500,
               "1:4": 500,
               "2:4": 1
             },
-            "MiningSpeed:4": 500,
-            "Damage:4": 0,
-            "BonusDurability:4": 0,
-            "Modifiers:4": 0,
+            "Tooltip1:8": "Haste",
             "TotalDurability:4": 500
           }
-        },
-        "Damage:2": 0,
-        "OreDict:8": ""
+        }
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Traveller\u0027s Gloves Upgrades",
       "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Putting redstone on my weapon makes it faster. So why don\u0027t I put it on my hands directly!\nThis will increase your mining speed.\n\nHint:\nEvery Armor part has 3 Slots for modification, aside from gloves, which have 5."
+      "lockedProgress:1": 0,
+      "name:8": "Traveller\u0027s Gloves Upgrades",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 1785,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "TConstruct:slime.pad"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:piston"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 25,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinSmith"
+        },
+        "1:10": {
+          "Count:3": 25,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinSurvivor"
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "TConstruct:travelGlove",
           "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "TConstruct:travelGlove",
           "tag:10": {
             "TinkerAccessory:10": {
               "BaseDurability:4": 500,
+              "BonusDurability:4": 0,
+              "Broken:4": 0,
               "Built:4": 1,
               "Damage:4": 0,
-              "BonusDurability:4": 0,
-              "Modifiers:4": 5,
-              "TotalDurability:4": 500,
               "ModDurability:6": 0.0,
-              "Broken:4": 0
+              "Modifiers:4": 5,
+              "TotalDurability:4": 500
             }
-          },
-          "Damage:2": 0,
-          "OreDict:8": ""
+          }
         },
         "1:10": {
-          "id:8": "minecraft:redstone",
           "Count:3": 5,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "minecraft:redstone"
         },
         "2:10": {
-          "id:8": "minecraft:redstone_block",
           "Count:3": 55,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "minecraft:redstone_block"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "TConstruct:travelGlove",
           "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "TConstruct:travelGlove",
           "tag:10": {
             "TinkerAccessory:10": {
               "BaseDurability:3": 500,
-              "Built:1": 1,
-              "Tooltip1:8": "§4Haste",
-              "Effect1:3": 1,
-              "ModifierTip1:8": "§4Redstone (500/500)",
-              "ModDurability:5": 0.0,
+              "BonusDurability:3": 0,
               "Broken:1": 0,
+              "Built:1": 1,
+              "Damage:3": 0,
+              "Effect1:3": 1,
+              "MiningSpeed:3": 500,
+              "ModDurability:5": 0.0,
+              "ModifierTip1:8": "§4Redstone (500/500)",
+              "Modifiers:3": 0,
               "Redstone:11": [
                 500,
                 500,
                 1
               ],
-              "MiningSpeed:3": 500,
-              "Damage:3": 0,
-              "BonusDurability:3": 0,
-              "TotalDurability:3": 500,
-              "Modifiers:3": 0
+              "Tooltip1:8": "§4Haste",
+              "TotalDurability:3": 500
             }
-          },
-          "Damage:2": 0,
-          "OreDict:8": ""
+          }
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 0,
-      "choices:9": {
-        "0:10": {
-          "id:8": "TConstruct:slime.pad",
-          "Count:3": 2,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "minecraft:piston",
-          "Count:3": 4,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "2:10": {
-          "id:8": "enhancedlootbags:lootbag",
-          "Count:3": 1,
-          "Damage:2": 5,
-          "OreDict:8": ""
-        }
-      }
-    },
-    "1:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 1,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "dreamcraft:item.CoinSmith",
-          "Count:3": 25,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "dreamcraft:item.CoinSurvivor",
-          "Count:3": 25,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

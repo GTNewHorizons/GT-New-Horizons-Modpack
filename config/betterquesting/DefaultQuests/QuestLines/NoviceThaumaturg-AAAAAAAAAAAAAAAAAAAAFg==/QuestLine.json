@@ -1,29 +1,29 @@
 {
-  "questLineIDLow:4": 22,
-  "questLineIDHigh:4": 0,
   "properties:10": {
     "betterquesting:10": {
-      "visibility:8": "UNLOCKED",
-      "name:8": "Novice Thaumaturgy",
-      "icon:10": {
-        "id:8": "Thaumcraft:WandCasting",
-        "Count:3": 1,
-        "tag:10": {
-          "aqua:3": 5000,
-          "terra:3": 5000,
-          "ignis:3": 5000,
-          "cap:8": "gold",
-          "rod:8": "greatwood",
-          "ordo:3": 5000,
-          "perditio:3": 5000,
-          "aer:3": 5000
-        },
-        "Damage:2": 9,
-        "OreDict:8": ""
-      },
       "bg_image:8": "",
       "bg_size:3": 256,
-      "desc:8": "Magic lies beyond. Great achievements, but also a lot of work. I shall be your guide. Follow my instructions, and you shall become a great wizard, like me."
+      "desc:8": "Magic lies beyond. Great achievements, but also a lot of work. I shall be your guide. Follow my instructions, and you shall become a great wizard, like me.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 9,
+        "OreDict:8": "",
+        "id:8": "Thaumcraft:WandCasting",
+        "tag:10": {
+          "aer:3": 5000,
+          "aqua:3": 5000,
+          "cap:8": "gold",
+          "ignis:3": 5000,
+          "ordo:3": 5000,
+          "perditio:3": 5000,
+          "rod:8": "greatwood",
+          "terra:3": 5000
+        }
+      },
+      "name:8": "Novice Thaumaturgy",
+      "visibility:8": "UNLOCKED"
     }
-  }
+  },
+  "questLineIDHigh:4": 0,
+  "questLineIDLow:4": 22
 }

@@ -1,5 +1,4 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
@@ -10,107 +9,110 @@
       "questIDLow:4": -5984592636755449553
     }
   },
-  "questIDLow:4": 186,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 1,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "Mars has a few new ores you need to find like tungsten, uranium and desh. You can centrifuge uranium-238 for U-235 and plutonium-239, which can also be centrifuged to get Pu-241 if you happen to need it.",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "GalacticraftMars:item.spaceshipTier2",
         "Count:3": 1,
         "Damage:2": 0,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "GalacticraftMars:item.spaceshipTier2"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "§a§lDimensional Goal: Mars",
       "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 1,
       "isSilent:1": 0,
-      "desc:8": "Mars has a few new ores you need to find like tungsten, uranium and desh. You can centrifuge uranium-238 for U-235 and plutonium-239, which can also be centrifuged to get Pu-241 if you happen to need it."
+      "lockedProgress:1": 0,
+      "name:8": "§a§lDimensional Goal: Mars",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
     }
   },
-  "tasks:9": {
-    "0:10": {
-      "partialMatch:1": 1,
-      "autoConsume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
-      "index:3": 0,
-      "consume:1": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "id:8": "GalacticraftMars:tile.mars",
-          "Count:3": 8,
-          "Damage:2": 5,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "GalacticraftMars:tile.mars",
-          "Count:3": 8,
-          "Damage:2": 6,
-          "OreDict:8": ""
-        },
-        "2:10": {
-          "id:8": "GalacticraftMars:tile.mars",
-          "Count:3": 8,
-          "Damage:2": 4,
-          "OreDict:8": ""
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    }
-  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 186,
   "rewards:9": {
     "0:10": {
-      "rewardID:8": "bq_standard:item",
+      "ignoreDisabled:1": 0,
       "index:3": 0,
+      "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "id:8": "enhancedlootbags:lootbag",
           "Count:3": 1,
           "Damage:2": 23,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
         },
         "1:10": {
-          "id:8": "enhancedlootbags:lootbag",
           "Count:3": 1,
           "Damage:2": 7,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
         }
       }
     },
     "1:10": {
-      "rewardID:8": "bq_standard:item",
+      "ignoreDisabled:1": 0,
       "index:3": 1,
+      "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "id:8": "dreamcraft:item.CoinAdventureII",
           "Count:3": 2,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinAdventureII"
         },
         "1:10": {
-          "id:8": "dreamcraft:item.CoinSpaceII",
           "Count:3": 2,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinSpaceII"
         },
         "2:10": {
-          "id:8": "dreamcraft:item.CoinTechnicianII",
           "Count:3": 2,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnicianII"
         }
       }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 5,
+          "OreDict:8": "",
+          "id:8": "GalacticraftMars:tile.mars"
+        },
+        "1:10": {
+          "Count:3": 8,
+          "Damage:2": 6,
+          "OreDict:8": "",
+          "id:8": "GalacticraftMars:tile.mars"
+        },
+        "2:10": {
+          "Count:3": 8,
+          "Damage:2": 4,
+          "OreDict:8": "",
+          "id:8": "GalacticraftMars:tile.mars"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }
