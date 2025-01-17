@@ -12,7 +12,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The Crop-Matron is a LV machine that will monitor crops in a 11x11x3 area and automatically apply fertilizer, Weed-EX, and Water as needed. Water can be pumped in directly or use IC2 Universal water cells, normal cells aren\u0027t returned when they\u0027re used.\n\nThe Crop-Matron is rainproof, but make sure you cover up your power supply (you might find a fancy way to do this), or use an LV battery. A Lithium Ion will last about 2 hours. \n\nTilled dirt still requires a nearby water block to be hydrated as the Matron will only water the crop, not the soil. Try putting a lily pad on top so it isn\u0027t annoying to walk on, or using Garden Soil instead.",
+      "desc:8": "The Crop-Matron is a LV machine that will monitor crops in a 11x11x3 area and automatically apply fertilizer, Weed-EX, and Water as needed. Water can be pumped in directly or use IC2 Universal water cells, normal cells aren\u0027t returned when they\u0027re used.\n\nThe Crop-Matron is rainproof, but make sure you cover up your power supply (you might find a fancy way to do this), or use an LV battery. A Lithium Ion will last about 2 hours.\n\nTilled dirt still requires a nearby water block to be hydrated as the Matron will only water the crop, not the soil. Try putting a lily pad on top so it isn\u0027t annoying to walk on, or using Garden Soil instead.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

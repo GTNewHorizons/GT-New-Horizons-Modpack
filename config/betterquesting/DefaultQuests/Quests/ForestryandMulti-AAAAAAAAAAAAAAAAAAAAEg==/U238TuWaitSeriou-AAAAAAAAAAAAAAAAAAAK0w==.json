@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "If you want IC2 crops to work with the multifarm, you now need this. Get the U-238 from thorium, and the endereyes from either your crops, villagers, or the normal way in HV. It also only searches 6 blocks above the farm structure block to prevent lag. So goodbye MF stacking, you always looked dumb, and didn\u0027t make any sense.\n\nThe largest size supports ~1100 crops, while the smallest supports ~600 depending on your layout if you use it for IC2 crops. This is because it will look for crops up to 5 blocks out further than normal in this mode (In the cardinal directions, it\u0027s further out in the corners. Just try it out, it\u0027s hard to describe). They\u0027re the same size as in previous versions, so you don\u0027t need to rejigger them.\n",
+      "desc:8": "If you want IC2 crops to work with the multifarm, you now need this. Get the U-238 from thorium, and the endereyes from either your crops, villagers, or the normal way in HV. It also only searches 6 blocks above the farm structure block to prevent lag. So goodbye MF stacking, you always looked dumb, and didn\u0027t make any sense.\n\nThe largest size supports ~1100 crops, while the smallest supports ~600 depending on your layout if you use it for IC2 crops. This is because it will look for crops up to 5 blocks out further than normal in this mode (In the cardinal directions, it\u0027s further out in the corners. Just try it out, it\u0027s hard to describe). They\u0027re the same size as in previous versions, so you don\u0027t need to rejigger them.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,

@@ -16,7 +16,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "A MK II is nice, but why not make a MK III? This time you will need UV or above hatches, as well as the Fusion Machine Casing MK II. \n\nEach of the up to 16 UV Energy Hatches adds 32768 EU/t power input and 40 MEU starting capacity. Therefore this reactor can handle recipes up to 640M EU at startup.\n\nWhen using it for lower tier recipes, the reactor will double the power needed per recipe, while cutting the processing time in half, both for each tier difference.",
+      "desc:8": "A MK II is nice, but why not make a MK III? This time you will need UV or above hatches, as well as the Fusion Machine Casing MK II.\n\nEach of the up to 16 UV Energy Hatches adds 32768 EU/t power input and 40 MEU starting capacity. Therefore this reactor can handle recipes up to 640M EU at startup.\n\nWhen using it for lower tier recipes, the reactor will double the power needed per recipe, while cutting the processing time in half, both for each tier difference.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

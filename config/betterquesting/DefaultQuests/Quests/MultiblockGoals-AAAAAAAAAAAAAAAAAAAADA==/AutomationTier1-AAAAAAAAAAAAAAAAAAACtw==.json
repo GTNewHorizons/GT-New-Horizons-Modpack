@@ -12,7 +12,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Do you want to automate your smeltery because you\u0027re planning to make stacks and stacks of glass blocks? \n\nNo problem, craft a large bronze pipe and place it under the faucet. Make sure to connect the pipe to the faucet using a wrench. Now the molten fluid will flow inside the pipe. Under or next to the pipe you have to place the casting basins or tables.\n\nA hopper and a chest underneath will auto-output products from the casting blocks. \n\nNOTE: Faucets will output precisely 144L each activation if you toggle it off immediately. That\u0027s going to have some uses later on...",
+      "desc:8": "Do you want to automate your smeltery because you\u0027re planning to make stacks and stacks of glass blocks?\n\nNo problem, craft a large bronze pipe and place it under the faucet. Make sure to connect the pipe to the faucet using a wrench. Now the molten fluid will flow inside the pipe. Under or next to the pipe you have to place the casting basins or tables.\n\nA hopper and a chest underneath will auto-output products from the casting blocks.\n\nNOTE: Faucets will output precisely 144L each activation if you toggle it off immediately. That\u0027s going to have some uses later on...",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

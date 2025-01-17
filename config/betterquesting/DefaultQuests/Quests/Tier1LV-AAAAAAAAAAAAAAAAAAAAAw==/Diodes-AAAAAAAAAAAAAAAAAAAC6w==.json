@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Good circuits need diodes. There are two main ways to craft them. You can crush the Gallium Arsenide crystals to dust and combine that with fine copper wires and molten glass. Once you have solar grade silicon you can use it to make silicon wafers in your EBF to make even more. Note that the wafers are much more efficient on gallium and arsenic, so even a reduced amount is still worth it.\n\nMake sure you check all the NEI recipes for advanced items instead of just using the first one you find. You can use annealed copper wires and polyethylene to increase your output even more. \n",
+      "desc:8": "Good circuits need diodes. There are two main ways to craft them. You can crush the Gallium Arsenide crystals to dust and combine that with fine copper wires and molten glass. Once you have solar grade silicon you can use it to make silicon wafers in your EBF to make even more. Note that the wafers are much more efficient on gallium and arsenic, so even a reduced amount is still worth it.\n\nMake sure you check all the NEI recipes for advanced items instead of just using the first one you find. You can use annealed copper wires and polyethylene to increase your output even more.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
