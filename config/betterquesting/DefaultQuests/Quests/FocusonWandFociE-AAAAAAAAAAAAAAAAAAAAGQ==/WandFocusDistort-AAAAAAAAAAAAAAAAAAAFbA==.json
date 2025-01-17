@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The Wand Focus: Distortion can be equipped on any wand.  It protects the caster from \"ordinary\" projectiles such as arrows, snowballs, and potions. The focus can be enabled by cycling through the foci currently in the player\u0027s inventory, which is done with the F-key. The focus consumes 0.04 Aer and 0.08 Ordo per tick from the Vis stored in the wand while in use.\n\nThis focus can be upgraded at the Focal Manipulator.",
+      "desc:8": "The Wand Focus: Distortion can be equipped on any wand. It protects the caster from \"ordinary\" projectiles such as arrows, snowballs, and potions. The focus can be enabled by cycling through the foci currently in the player\u0027s inventory, which is done with the F-key. The focus consumes 0.04 Aer and 0.08 Ordo per tick from the Vis stored in the wand while in use.\n\nThis focus can be upgraded at the Focal Manipulator.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
