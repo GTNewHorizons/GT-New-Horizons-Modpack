@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "This magical box is amazing. No matter how many are created, they all seem to connect to the same dimension. I can store items in one location, and pull them out somewhere else!\n\nI can use dyes on the top of the box to assign its location, and any box with the same colors will share the same space. Using a diamond on the box locks it to me, and me alone.\n\nShift-rightclicking will remove the diamond and the chest will rejoin the public network.",
+      "desc:8": "This magical box is amazing. No matter how many are created, they all seem to connect to the same dimension. I can store items in one location, and pull them out somewhere else!\n\nI can use dyes on the top of the box to assign its location, and any box with the same colors will share the same space. Using a diamond on the box locks it to me, and me alone.\n\nShift-right-clicking will remove the diamond and the chest will rejoin the public network.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The crowbar comes in a Railcraft (and thaumcraft versions of RC) and a gregtech variant. It is used to manipulate machines from railcraft, remove plates and any other covers (pumps, conveyor modules, etc.) from gregtech pipes and machines as well as breaking certain objects faster, such as tracks. This tool is also used to access certain inventories from Railcraft.\n\nHold a crowbar and shift + right click to attach carts. Click the starting cart then continue to click to add more carts to the link. Carts will act slower the more connections are made.\n\nThe crowbar can be used as a weapon, though it costs twice as much durability on attack (just like any other non weapon tool...).",
+      "desc:8": "The crowbar comes in a Railcraft (and thaumcraft versions of RC) and a gregtech variant. It is used to manipulate machines from railcraft, remove plates and any other covers (pumps, conveyor modules, etc.) from gregtech pipes and machines as well as breaking certain objects faster, such as tracks. This tool is also used to access certain inventories from Railcraft.\n\nHold a crowbar and shift-right-click to attach carts. Click the starting cart then continue to click to add more carts to the link. Carts will act slower the more connections are made.\n\nThe crowbar can be used as a weapon, though it costs twice as much durability on attack (just like any other non weapon tool...).",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

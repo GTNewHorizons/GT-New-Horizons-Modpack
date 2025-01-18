@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The item stock keeper looks at the connecting inventory and keeps item stocked in there. If the item is missing it will keep bothering item broadcasters every few seconds if they have the item and if they can send it. It\u0027s basically like an annoying child. \n\nIt is really useful though. Want a chest that will always have 64 cobble and dirt in it and if you take them they will get replaced? This guy is perfect for that job. It\u0027s great for keeping machines stocked. When stocking GT machines, the top left slot of the 3x3 is equal to the left slot of the machine. Want a chemical reactor that keeps 3 hydrogen cells ready to go to make ammonia, just add nitrogen? This is the chip for you.",
+      "desc:8": "The item stock keeper looks at the connecting inventory and keeps item stocked in there. If the item is missing it will keep bothering item broadcasters every few seconds if they have the item and if they can send it. It\u0027s basically like an annoying child.\n\nIt is really useful though. Want a chest that will always have 64 cobble and dirt in it and if you take them they will get replaced? This guy is perfect for that job. It\u0027s great for keeping machines stocked. When stocking GT machines, the top left slot of the 3x3 is equal to the left slot of the machine. Want a chemical reactor that keeps 3 hydrogen cells ready to go to make ammonia, just add nitrogen? This is the chip for you.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

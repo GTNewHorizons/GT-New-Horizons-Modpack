@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "After distillation, the fluid you got still isn\u0027t that good. It can be used for power, but it\u0027s almost as bad as Oil itself unless you remove the sulfuric content it has. This applies for all the portions that can be distilled from Oil, and as such it\u0027s a required step regardless of which one you\u0027re working with. \n\nTo get clean Light Fuel, the sulfur needs to be drawn out with something that reacts with it, in a Chemical Reactor. What you need is Hydrogen, a relatively common gas that can be electrolyzed from water, or from specific ores (check NEI for all the possible sources). After reacting, you will get Hydrogen Sulfide and the clean Light Fuel, which can be further processed or burned for power at this stage.",
+      "desc:8": "After distillation, the fluid you got still isn\u0027t that good. It can be used for power, but it\u0027s almost as bad as Oil itself unless you remove the sulfuric content it has. This applies for all the portions that can be distilled from Oil, and as such it\u0027s a required step regardless of which one you\u0027re working with.\n\nTo get clean Light Fuel, the sulfur needs to be drawn out with something that reacts with it, in a Chemical Reactor. What you need is Hydrogen, a relatively common gas that can be electrolyzed from water, or from specific ores (check NEI for all the possible sources). After reacting, you will get Hydrogen Sulfide and the clean Light Fuel, which can be further processed or burned for power at this stage.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,

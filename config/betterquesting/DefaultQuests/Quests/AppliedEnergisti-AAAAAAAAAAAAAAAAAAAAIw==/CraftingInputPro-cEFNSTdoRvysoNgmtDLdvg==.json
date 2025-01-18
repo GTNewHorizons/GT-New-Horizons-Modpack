@@ -12,7 +12,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "You have mastered both interdimensional transportation and wallsharing, why not combine them? \n\nYou can link both crafting input bus/buffer to proxies with data sticks and use it to process patterns with multiple machines, as if you are wallsharing them, but without actually wallsharing them.\n\n[note]Maybe this can reduce lag?[/note]",
+      "desc:8": "You have mastered both interdimensional transportation and wallsharing, why not combine them?\n\nYou can link both crafting input bus/buffer to proxies with data sticks and use it to process patterns with multiple machines, as if you are wallsharing them, but without actually wallsharing them.\n\n[note]Maybe this can reduce lag?[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 64,

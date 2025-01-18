@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The Kinetic Generator will transform mechanical energy into electricity. The EU output depends on the KU input. It is most commonly used together with a Kinetic Wind Generator or Kinetic Water Generator. The Kinetic Steam Generator only has one tier, so you should probably use a Steam Turbine instead.\n\nWhen placing a kinetic generator, any time, the \"input\" side is the side facing you.  So you will place the kinetic generator, then the wind/water/steam gen, and then place a rotor inside. Power can be drawn from any side of the kinetic generator, up to the rated amount per side. \n\nWARNING: Breaking a kinetic generator improperly will not return the generator.  Use a GT wrench, and right-CLICK it.  It should drop immediately.  Try again if it just changed directions. ",
+      "desc:8": "The Kinetic Generator will transform mechanical energy into electricity. The EU output depends on the KU input. It is most commonly used together with a Kinetic Wind Generator or Kinetic Water Generator. The Kinetic Steam Generator only has one tier, so you should probably use a Steam Turbine instead.\n\nWhen placing a kinetic generator, any time, the \"input\" side is the side facing you. So you will place the kinetic generator, then the wind/water/steam gen, and then place a rotor inside. Power can be drawn from any side of the kinetic generator, up to the rated amount per side.\n\nWARNING: Breaking a kinetic generator improperly will not return the generator. Use a GT wrench, and right-click it. It should drop immediately. Try again if it just changed directions.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

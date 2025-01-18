@@ -16,7 +16,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Advanced (HV) circuits require an LV circuit assembling machine. Basic (LV) and Good (MV) ones can also be made much more efficiently with this machine. \n\nHowever, all circuit assemblers need higher tier circuits than the other machines of their tier. This means you have to use MV circuits instead of the LV ones you\u0027ve been using until now. I know you want it, so make it already!",
+      "desc:8": "Advanced (HV) circuits require an LV circuit assembling machine. Basic (LV) and Good (MV) ones can also be made much more efficiently with this machine.\n\nHowever, all circuit assemblers need higher tier circuits than the other machines of their tier. This means you have to use MV circuits instead of the LV ones you\u0027ve been using until now. I know you want it, so make it already!",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

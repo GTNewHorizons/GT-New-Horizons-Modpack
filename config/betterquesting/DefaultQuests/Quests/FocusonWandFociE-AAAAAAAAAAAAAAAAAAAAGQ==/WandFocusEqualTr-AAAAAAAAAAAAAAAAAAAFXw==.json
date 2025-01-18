@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Wand Focus: Equal Trade is a wand focus added by Thaumcraft 4. It is used to switch out blocks in the world with blocks in the player\u0027s inventory. Shift right-clicking on a block with it equipped will attune the focus to the block, making it the substitute block. Left-clicking on another block will replace it with the substitute block. Right-clicking will transform a 5x5 area of blocks that have air on one side. This can go through walls or into caves, so be careful. This range can be extended by using a Focal Manipulator. Each use costs 0.05 ordo 0.05 perditio and 0.05 terra.\n\nThis focus can be upgraded at the Focal Manipulator.",
+      "desc:8": "Wand Focus: Equal Trade is a wand focus added by Thaumcraft 4. It is used to switch out blocks in the world with blocks in the player\u0027s inventory. Shift-right-clicking on a block with it equipped will attune the focus to the block, making it the substitute block. Left-clicking on another block will replace it with the substitute block. Right-clicking will transform a 5x5 area of blocks that have air on one side. This can go through walls or into caves, so be careful. This range can be extended by using a Focal Manipulator. Each use costs 0.05 ordo 0.05 perditio and 0.05 terra.\n\nThis focus can be upgraded at the Focal Manipulator.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

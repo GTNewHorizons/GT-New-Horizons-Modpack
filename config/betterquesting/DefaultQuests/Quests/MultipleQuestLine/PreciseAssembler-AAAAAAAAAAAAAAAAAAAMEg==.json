@@ -24,7 +24,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Precise Assembler has two modes: Precise mode and Normal mode.\n\nPrecise mode is used to make some of the advanced components from Good Generator mod.\n\n[note]As name suggests your current casings lack precision to produce these advanced components. \nYou will need at least MK-1 casings for this mode to work.[/note]\n\nNormal mode works as multiblock version of Assembler.\n\n[note]You can\u0027t skip tiers with this. You need singleblock Assembler or GT++ multi to make your first Energy Hatch, then you can use it for Precise Assembler.[/note]",
+      "desc:8": "Precise Assembler has two modes: Precise mode and Normal mode.\n\nPrecise mode is used to make some of the advanced components from Good Generator mod.\n\n[note]As name suggests your current casings lack precision to produce these advanced components.\nYou will need at least MK-1 casings for this mode to work.[/note]\n\nNormal mode works as multiblock version of Assembler.\n\n[note]You can\u0027t skip tiers with this. You need singleblock Assembler or GT++ multi to make your first Energy Hatch, then you can use it for Precise Assembler.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,

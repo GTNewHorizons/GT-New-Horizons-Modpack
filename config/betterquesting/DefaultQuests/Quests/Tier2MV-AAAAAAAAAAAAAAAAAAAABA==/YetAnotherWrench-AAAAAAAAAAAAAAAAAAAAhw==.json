@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The Yeta Wrench is more than just a regular wrench. While holding it, you are able to switch between conduit types, eventually allowing you to remove one specific conduit type from a bundle of many. Ctrl-Mousewheel will switch modes, also Shift-Leftclick allows you to open the configuration interface even if you don\u0027t have access to that side of the conduit.",
+      "desc:8": "The Yeta Wrench is more than just a regular wrench. While holding it, you are able to switch between conduit types, eventually allowing you to remove one specific conduit type from a bundle of many. Ctrl-Mousewheel will switch modes, also shift-left-click allows you to open the configuration interface even if you don\u0027t have access to that side of the conduit.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

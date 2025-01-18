@@ -12,7 +12,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Using Steam as your single power source in HV is pretty difficult. Your fuel automation will have to be very fast, your pipes will have to be very big and the final efficiency of HV Steam Turbines is 66%, much lower than the other generators\u0027 85%. \n\nThis is best used with an efficient furnace, like the GT++ Advanced Furnaces, to power something specific like a farm. Powering your entire automation in your path to an EV, using only these, is a nightmare. If you want more efficiency out of your Steam, consider building a Large Steam Turbine.",
+      "desc:8": "Using Steam as your single power source in HV is pretty difficult. Your fuel automation will have to be very fast, your pipes will have to be very big and the final efficiency of HV Steam Turbines is 66%, much lower than the other generators\u0027 85%.\n\nThis is best used with an efficient furnace, like the GT++ Advanced Furnaces, to power something specific like a farm. Powering your entire automation in your path to an EV, using only these, is a nightmare. If you want more efficiency out of your Steam, consider building a Large Steam Turbine.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

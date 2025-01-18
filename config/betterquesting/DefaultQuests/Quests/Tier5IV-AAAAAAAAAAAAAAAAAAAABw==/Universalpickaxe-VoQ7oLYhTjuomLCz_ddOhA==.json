@@ -13,7 +13,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "This tool can mine blocks instantly, including GregTech blocks or cables. Using leftclick will mine blocks as usual, while enabling accurate mode will allow you to rightclick to harvest blocks 1 by 1, while also applying silk touch.\n\n[note]To enable accurate mode press Mode Switch Key + Right click while holding Vajra.[/note]",
+      "desc:8": "This tool can mine blocks instantly, including GregTech blocks or cables. Using left-click will mine blocks as usual, while enabling accurate mode will allow you to right-click to harvest blocks 1 by 1, while also applying silk touch.\n\n[note]To enable accurate mode press Mode Switch Key + right-click while holding Vajra.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
