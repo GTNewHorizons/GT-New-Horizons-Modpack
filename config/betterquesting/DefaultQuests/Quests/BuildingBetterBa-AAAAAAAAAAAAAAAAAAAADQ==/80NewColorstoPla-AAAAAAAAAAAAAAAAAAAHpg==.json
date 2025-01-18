@@ -1,94 +1,95 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 1956
     }
   },
-  "questIDLow:4": 1958,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "When you plant a vanilla flower, it is already mature. Cut it with shears to get a germling you can replant to make more. Break the flower to get a mature flower. Turn the flower into pigment using a crafting table.\n\nTo get crosses, plant flowers next to empty soil blocks. Keep an eye out for weeds. Eventually a small germling will start growing.\n\nRemember, do this underground or in an enclosure or your TPS will regret it.",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "Botany:pigment",
         "Count:3": 1,
         "Damage:2": 0,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "Botany:pigment"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "80 New Colors to Play With",
       "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "When you plant a vanilla flower, it is already mature. Cut it with a shears to get a germling you can replant to make more. Break the flower to get a mature flower. Turn the flower into pigment using a crafting table.\n\nTo get crosses, plant flowers next to empty soil blocks. Keep an eye out for weeds. Eventually a small germling will start growing.\n\nRemember, do this underground or in an enclosure or your TPS will regret it."
+      "lockedProgress:1": 0,
+      "name:8": "80 New Colors to Play With",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 1958,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 1,
+          "OreDict:8": "",
+          "id:8": "Botany:pigment"
+        },
+        "1:10": {
+          "Count:3": 8,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "Botany:pigment"
+        },
+        "2:10": {
+          "Count:3": 8,
+          "Damage:2": 11,
+          "OreDict:8": "",
+          "id:8": "Botany:pigment"
+        },
+        "3:10": {
+          "Count:3": 8,
+          "Damage:2": 75,
+          "OreDict:8": "",
+          "id:8": "Botany:pigment"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "Botany:pigment",
           "Count:3": 4,
           "Damage:2": 59,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "Botany:pigment"
         },
         "1:10": {
-          "id:8": "Botany:pigment",
           "Count:3": 4,
           "Damage:2": 78,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "Botany:pigment"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 0,
-      "choices:9": {
-        "0:10": {
-          "id:8": "Botany:pigment",
-          "Count:3": 8,
-          "Damage:2": 1,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "Botany:pigment",
-          "Count:3": 8,
-          "Damage:2": 2,
-          "OreDict:8": ""
-        },
-        "2:10": {
-          "id:8": "Botany:pigment",
-          "Count:3": 8,
-          "Damage:2": 11,
-          "OreDict:8": ""
-        },
-        "3:10": {
-          "id:8": "Botany:pigment",
-          "Count:3": 8,
-          "Damage:2": 75,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

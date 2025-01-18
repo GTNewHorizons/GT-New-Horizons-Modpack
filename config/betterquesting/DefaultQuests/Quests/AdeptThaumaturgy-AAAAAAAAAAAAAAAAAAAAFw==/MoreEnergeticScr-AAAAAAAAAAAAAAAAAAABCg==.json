@@ -1,94 +1,96 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 3208
     }
   },
-  "questIDLow:4": 266,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 1,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "Those stainless steel screws don\u0027t work on these rods. Due to the huge amounts of vis those wands can carry, the screws somehow \"melt\" away. I need a material that can handle these energies. I should try energetic alloy next.\n\n§3If you are struggling to make the next wand in this step or one of the next, you should try to get more discount on your gear.\n\nAlso look at the various caps, the better ones are more expensive to craft but give discounts or other benefits. In many situations you might need to start with cheap ones and only make the better caps later.\n\nYou can also improve your wand with augmentations.",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "gregtech:gt.metaitem.01",
         "Count:3": 1,
         "Damage:2": 27366,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.metaitem.01"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "OR",
-      "repeat_relative:1": 1,
-      "name:8": "More Energetic Screws to Finish the New Wand",
       "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 1,
       "isSilent:1": 0,
-      "desc:8": "Those stainless steel screws don\u0027t work on these rods. Due to the huge amounts of vis those wands can carry, the screws somehow \"melt\" away. I need a material that can handle these energies. I should try energetic alloy next.\n\n§3If you are struggling to make the next wand in this step or one of the next, you should try to get more discount on your gear.\n\nAlso look at the various caps, the better ones are more expensive to craft but give discounts or other benefits. In many situations you might need to start with cheap ones and only make the better caps later.\n\nYou can also improve your wand with augmentations."
+      "lockedProgress:1": 0,
+      "name:8": "More Energetic Screws to Finish the New Wand",
+      "partySingleReward:1": 0,
+      "questLogic:8": "OR",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
     }
   },
-  "tasks:9": {
-    "0:10": {
-      "partialMatch:1": 1,
-      "autoConsume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
-      "index:3": 0,
-      "consume:1": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 4,
-          "Damage:2": 27366,
-          "OreDict:8": ""
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    }
-  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 266,
   "rewards:9": {
     "0:10": {
-      "rewardID:8": "bq_standard:item",
+      "ignoreDisabled:1": 0,
       "index:3": 0,
+      "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "id:8": "Thaumcraft:ItemLootBag",
           "Count:3": 1,
           "Damage:2": 1,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "Thaumcraft:ItemLootBag"
         },
         "1:10": {
-          "id:8": "gregtech:gt.metaitem.01",
           "Count:3": 2,
           "Damage:2": 27366,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
         }
       }
     },
     "1:10": {
-      "rewardID:8": "bq_standard:item",
+      "ignoreDisabled:1": 0,
       "index:3": 1,
+      "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "id:8": "dreamcraft:item.CoinTechnicianI",
           "Count:3": 5,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnicianI"
         },
         "1:10": {
-          "id:8": "dreamcraft:item.CoinDarkWizardI",
           "Count:3": 5,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinDarkWizardI"
         }
       }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 27366,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

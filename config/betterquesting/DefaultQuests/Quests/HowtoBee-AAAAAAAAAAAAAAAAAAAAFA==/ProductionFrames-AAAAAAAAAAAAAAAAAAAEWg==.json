@@ -1,100 +1,102 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 1113
     }
   },
-  "questIDLow:4": 1114,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "You can make proven frames or purchase them from a villager. If you can\u0027t find a beekeeper, there are a couple of different options to get one. Rescue a zombie villager, add doors to a village to get them to make kids, or perhaps use a cupid\u0027s bow and arrow...\n\nAbout magic frames:\nThey\u0027re the core of magically endowed frames. They also have a special ability - no maximum production chance. Normal frames are ineffective to get above 16x production (4 frames) but with magic frames you can keep going - just watch out, above 16x you\u0027ll be working your bees so hard they have a chance to degenerate into ignoble ones. This can happen any bee tick, not just when they die. Frames to lower genetic decay will lower the chances of this happening.\n\nOf course, with very long lifespans, high production genes, swarmers, and tons of frames, you may think this is worth it.\n\nNote that normal products have a cap of 200% produced, and specialties 100%.",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "miscutils:frameBusy",
         "Count:3": 1,
         "Damage:2": 0,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "miscutils:frameBusy"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Production Frames",
       "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "You can make proven frames or purchase them from a villager. If you can\u0027t find a beekeeper, there are couple of different options to get one. Rescue a zombie villager, add doors to a village to get them to make kids, or perhaps use a cupid\u0027s bow and arrow...\n\nAbout magic frames:\nThey\u0027re the core of magically endowed frames. They also have a special ability - no maximum production chance. Normal frames are ineffective to get above 16x production (4 frames) but with magic frames you can keep going - just watch out, above 16x you\u0027ll be working your bees so hard they have a chance to degenerate into ignoble ones. This can happen any bee tick, not just when they die. Frames to lower genetic decay will lower the chances of this happening.\n\nOf course, with very long lifespans, high production genes, swarmers, and tons of frames, you may think this is worth it.\n\nNote that normal products have a cap of 200% produced, and specialties 100%."
+      "lockedProgress:1": 0,
+      "name:8": "Production Frames",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
     }
   },
-  "tasks:9": {
-    "0:10": {
-      "partialMatch:1": 1,
-      "autoConsume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 0,
-      "consume:1": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "id:8": "Forestry:frameProven",
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "MagicBees:frameMagic",
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "2:10": {
-          "id:8": "MagicBees:frameResilient",
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "3:10": {
-          "id:8": "miscutils:frameBusy",
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    }
-  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 1114,
   "rewards:9": {
     "0:10": {
-      "rewardID:8": "bq_standard:item",
+      "ignoreDisabled:1": 0,
       "index:3": 0,
+      "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "id:8": "enhancedlootbags:lootbag",
           "Count:3": 1,
           "Damage:2": 26,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
         }
       }
     },
     "1:10": {
-      "rewardID:8": "bq_standard:item",
+      "ignoreDisabled:1": 0,
       "index:3": 1,
+      "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "id:8": "dreamcraft:item.CoinBeesII",
           "Count:3": 2,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinBeesII"
         }
       }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "Forestry:frameProven"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "MagicBees:frameMagic"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "MagicBees:frameResilient"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "miscutils:frameBusy"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

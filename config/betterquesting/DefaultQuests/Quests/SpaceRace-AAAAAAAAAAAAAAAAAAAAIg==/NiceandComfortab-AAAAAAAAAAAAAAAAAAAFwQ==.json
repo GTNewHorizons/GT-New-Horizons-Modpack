@@ -1,178 +1,180 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 1453
     }
   },
-  "questIDLow:4": 1473,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 1,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "These thermal clothes will keep you nice and warm even in the coldest depths of outer space. Tier 3+ planets pretty much all require these.\n\n[note]You\u0027ll also need some PBI.[/note]",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "GalaxySpace:item.ThermalPaddingT2",
         "Count:3": 1,
         "Damage:2": 0,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "GalaxySpace:item.ThermalPaddingT2"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Nice and Comfortable - in Space!",
       "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 1,
       "isSilent:1": 0,
-      "desc:8": "These thermal clothes will keep you nice and warm even in the coldest depths of outer space. Tier 3+ planets pretty much all require these.\n\n[note]You\u0027ll also need some PBI.[/note]"
+      "lockedProgress:1": 0,
+      "name:8": "Nice and Comfortable - in Space!",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 1473,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 5,
+          "OreDict:8": "",
+          "id:8": "GalacticraftMars:item.null"
+        },
+        "1:10": {
+          "Count:3": 16,
+          "Damage:2": 6,
+          "OreDict:8": "",
+          "id:8": "GalacticraftMars:item.itemBasicAsteroids"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.MediumFuelCanister"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 7,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag",
+          "tag:10": {
+            "ench:9": {
+              "0:10": {
+                "id:4": 35,
+                "lvl:4": 3
+              }
+            }
+          }
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinSpaceII"
+        },
+        "1:10": {
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinSmithII"
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "GalacticraftMars:item.itemBasicAsteroids",
           "Count:3": 24,
           "Damage:2": 7,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "GalacticraftMars:item.itemBasicAsteroids"
         },
         "1:10": {
-          "id:8": "dreamcraft:item.TungstenString",
           "Count:3": 216,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.TungstenString"
         },
         "2:10": {
-          "id:8": "gregtech:gt.metaitem.01",
           "Count:3": 192,
           "Damage:2": 29028,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "GalaxySpace:item.ThermalClothT2",
           "Count:3": 24,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "GalaxySpace:item.ThermalClothT2"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
     },
     "2:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 2,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "GalaxySpace:item.ThermalPaddingT2",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "GalaxySpace:item.ThermalPaddingT2"
         },
         "1:10": {
-          "id:8": "GalaxySpace:item.ThermalPaddingT2",
           "Count:3": 1,
           "Damage:2": 1,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "GalaxySpace:item.ThermalPaddingT2"
         },
         "2:10": {
-          "id:8": "GalaxySpace:item.ThermalPaddingT2",
           "Count:3": 1,
           "Damage:2": 2,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "GalaxySpace:item.ThermalPaddingT2"
         },
         "3:10": {
-          "id:8": "GalaxySpace:item.ThermalPaddingT2",
           "Count:3": 1,
           "Damage:2": 3,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "GalaxySpace:item.ThermalPaddingT2"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 0,
-      "choices:9": {
-        "0:10": {
-          "id:8": "GalacticraftMars:item.null",
-          "Count:3": 16,
-          "Damage:2": 5,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "GalacticraftMars:item.itemBasicAsteroids",
-          "Count:3": 16,
-          "Damage:2": 6,
-          "OreDict:8": ""
-        },
-        "2:10": {
-          "id:8": "dreamcraft:item.MediumFuelCanister",
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "3:10": {
-          "id:8": "enhancedlootbags:lootbag",
-          "Count:3": 1,
-          "tag:10": {
-            "ench:9": {
-              "0:10": {
-                "lvl:4": 3,
-                "id:4": 35
-              }
-            }
-          },
-          "Damage:2": 7,
-          "OreDict:8": ""
-        }
-      }
-    },
-    "1:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 1,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "dreamcraft:item.CoinSpaceII",
-          "Count:3": 5,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "dreamcraft:item.CoinSmithII",
-          "Count:3": 5,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

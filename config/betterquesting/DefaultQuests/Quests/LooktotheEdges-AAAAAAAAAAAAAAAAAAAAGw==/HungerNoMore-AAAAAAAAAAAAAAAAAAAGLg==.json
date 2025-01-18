@@ -1,159 +1,161 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 1583
     }
   },
-  "questIDLow:4": 1582,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "The Dream Weaver of Fasting will add a boost to the saturation of a player when they wake up from a good nights sleep, essentially meaning they will not get hungry for the duration of the effect. If the dream weaver is corrupted by a nearby Dream Weaver of Nightmares, the weaver will instead add a hunger effect to the player.",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "witchery:ingredient",
         "Count:3": 1,
         "Damage:2": 5,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "witchery:ingredient"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Hunger No More!",
       "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "The Dream Weaver of Fasting will add a boost to the saturation of a player when they wake up from a good nights sleep, essentially meaning they will not get hungry for the duration of the effect. If the dream weaver is corrupted by a nearby Dream Weaver of Nightmares, the weaver will instead add a hunger effect to the player."
+      "lockedProgress:1": 0,
+      "name:8": "Hunger No More!",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 1582,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "witchery:somniancotton"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "Damage:2": 99,
+          "OreDict:8": "",
+          "id:8": "witchery:ingredient"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 54,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      }
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinSurvivorII"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinWitchII"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinDarkWizardII"
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "witchery:ingredient",
           "Count:3": 1,
           "Damage:2": 101,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "witchery:ingredient"
         },
         "1:10": {
-          "id:8": "witchery:ingredient",
           "Count:3": 2,
           "Damage:2": 100,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "witchery:ingredient"
         },
         "2:10": {
-          "id:8": "minecraft:item_frame",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "minecraft:item_frame"
         },
         "3:10": {
-          "id:8": "minecraft:feather",
           "Count:3": 2,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "minecraft:feather"
         },
         "4:10": {
-          "id:8": "witchery:ingredient",
           "Count:3": 1,
           "Damage:2": 103,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "witchery:ingredient"
         },
         "5:10": {
-          "id:8": "minecraft:potion",
           "Count:3": 1,
           "Damage:2": 16421,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "minecraft:potion"
         },
         "6:10": {
-          "id:8": "witchery:ingredient",
           "Count:3": 1,
           "Damage:2": 29,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "witchery:ingredient"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "witchery:ingredient",
           "Count:3": 1,
           "Damage:2": 5,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "witchery:ingredient"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 0,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "witchery:somniancotton",
-          "Count:3": 4,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "witchery:ingredient",
-          "Count:3": 4,
-          "Damage:2": 99,
-          "OreDict:8": ""
-        },
-        "2:10": {
-          "id:8": "enhancedlootbags:lootbag",
-          "Count:3": 1,
-          "Damage:2": 54,
-          "OreDict:8": ""
-        }
-      }
-    },
-    "1:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 1,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "dreamcraft:item.CoinSurvivorII",
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "dreamcraft:item.CoinWitchII",
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "2:10": {
-          "id:8": "dreamcraft:item.CoinDarkWizardII",
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

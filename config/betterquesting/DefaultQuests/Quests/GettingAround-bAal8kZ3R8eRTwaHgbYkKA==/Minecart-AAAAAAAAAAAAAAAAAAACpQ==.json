@@ -1,161 +1,163 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 36
     }
   },
-  "questIDLow:4": 677,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "After you craft your first cart the journey can begin...\n\nWell, not really. You will need some kind of tracks first.\n\n[note]We here at QuestBook, Inc. do not guarantee the usefulness of minecarts or trains in any way. Especially since you can mine out a vein in a single session once you have a hammer and backpacks.[/note]\n\n[warn]WARNING: Unprotected carts can be knocked off their rails by lightning. Cover the area with blocks to prevent carts from disappearing.[/warn]\n\n[warn]Also, make sure to keep your cart in one chunk, or use chunkloaders covering the whole area the cart works within. Loading/unloading chunks may cause carts to disappear or duplicate.[/warn]\n\n[note]You should only make these if you want to have fun with them, as anything they can do is better done by other methods, including the Long Distance Fluid Pipeline. Excessive minecart and train use on servers may cause lag and you may be asked to switch later anyway.[/note]",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "minecraft:minecart",
         "Count:3": 1,
         "Damage:2": 0,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "minecraft:minecart"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Minecart",
       "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "After you craft your first cart the journey can begin...\n\nWell, not really. You will need some kind of tracks first.\n\n[note]We here at QuestBook, Inc. do not guarantee the usefulness of minecarts or trains in any way. Especially since you can mine out a vein in a single session once you have a hammer and backpacks.[/note]\n\n[warn]WARNING: Unprotected carts can be knocked off their rails by lightning. Cover the area with blocks to prevent carts from disappearing.[/warn]\n\n[warn]Also, make sure to keep your cart in one chunk, or use chunkloaders covering the whole area the cart works within. Loading/unloading chunks may cause carts to disappear or duplicate.[/warn]\n\n[note]You should only make these if you want to have fun with them, as anything they can do is better done by other methods, including the Long Distance Fluid Pipeline. Excessive minecart and train use on servers may cause lag and you may be asked to switch later anyway.[/note]"
+      "lockedProgress:1": 0,
+      "name:8": "Minecart",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 677,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 32100,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "1:10": {
+          "Count:3": 8,
+          "Damage:2": 736,
+          "OreDict:8": "",
+          "id:8": "Railcraft:track",
+          "tag:10": {
+            "track:8": "railcraft:track.slow"
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 32,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 10,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinAdventure"
+        },
+        "1:10": {
+          "Count:3": 10,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnician"
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.metaitem.01",
           "Count:3": 2,
           "Damage:2": 23032,
-          "OreDict:8": "stickAnyIron"
+          "OreDict:8": "stickAnyIron",
+          "id:8": "gregtech:gt.metaitem.01"
         },
         "1:10": {
-          "id:8": "gregtech:gt.metaitem.01",
           "Count:3": 4,
           "Damage:2": 28032,
-          "OreDict:8": "ringAnyIron"
+          "OreDict:8": "ringAnyIron",
+          "id:8": "gregtech:gt.metaitem.01"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.metaitem.01",
           "Count:3": 2,
           "Damage:2": 32100,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
     },
     "2:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 2,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.metaitem.01",
           "Count:3": 3,
           "Damage:2": 17032,
-          "OreDict:8": "plateAnyIron"
+          "OreDict:8": "plateAnyIron",
+          "id:8": "gregtech:gt.metaitem.01"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
     },
     "3:10": {
-      "partialMatch:1": 1,
+      "allowAnvil:1": 0,
+      "allowCraft:1": 1,
       "allowCraftedFromStatistics:1": 0,
       "allowSmelt:1": 1,
       "ignoreNBT:1": 0,
       "index:3": 3,
-      "allowCraft:1": 1,
-      "allowAnvil:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "minecraft:minecart",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "minecraft:minecart"
         }
       },
       "taskID:8": "bq_standard:crafting"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 0,
-      "choices:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 2,
-          "Damage:2": 32100,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "Railcraft:track",
-          "Count:3": 8,
-          "tag:10": {
-            "track:8": "railcraft:track.slow"
-          },
-          "Damage:2": 736,
-          "OreDict:8": ""
-        },
-        "2:10": {
-          "id:8": "enhancedlootbags:lootbag",
-          "Count:3": 1,
-          "Damage:2": 32,
-          "OreDict:8": ""
-        }
-      }
-    },
-    "1:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 1,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "dreamcraft:item.CoinAdventure",
-          "Count:3": 10,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "dreamcraft:item.CoinTechnician",
-          "Count:3": 10,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

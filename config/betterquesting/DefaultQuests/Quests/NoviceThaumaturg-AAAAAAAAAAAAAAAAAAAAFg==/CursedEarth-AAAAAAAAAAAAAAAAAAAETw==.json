@@ -1,5 +1,4 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
@@ -10,83 +9,86 @@
       "questIDLow:4": 1101
     }
   },
-  "questIDLow:4": 1103,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "You can kill the powered-up monsters that spawn on the cursed earth, or just sleep and despawn them. Use a shovel with the silk touch enchantment to dig up the cursed earth blocks. You can use these blocks to make a mob spawner, or place one under a vanilla spawner to let it run even when you\u0027re not around.\n\nWhen setting up a mob spawner in the Nether using Cursed Earth, poor design can cause huge TPS issues.\n\nMake sure the Cursed Earth is not attached to anything from the Nether. For example, you can place it on top of marble, but the marble cannot touch anything in the nether (netherrack, brick, etc.), and must be floating in the air. Also, limit the Cursed Earth to 1 chunk max, with 2 block buffer to the chunk edge, including a wall.",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "ExtraUtilities:cursedearthside",
         "Count:3": 1,
         "Damage:2": 0,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "ExtraUtilities:cursedearthside"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Cursed Earth",
       "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "You can kill the powered-up monsters that spawn on the cursed earth, or just sleep and despawn them. Use a shovel with the silk touch enchantment to dig up the cursed earth blocks. You can use these blocks to make a mob spawner, or place one under a vanilla spawner to let it run even when you\u0027re not around.\n\nWhen setting up a mob spawner in the Nether using Cursed Earth, poor design can cause huge TPS issues.\n\nMake sure the Cursed Earth is not attached to anything from the Nether. For example, you can place it on top of marble, but the marble cannot touch anything in the nether (netherrack, brick, etc), and must be floating in the air. Also, limit the Cursed Earth to 1 chunk max, with 2 block buffer to the chunk edge, including a wall."
+      "lockedProgress:1": 0,
+      "name:8": "Cursed Earth",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
     }
   },
-  "tasks:9": {
-    "0:10": {
-      "partialMatch:1": 1,
-      "autoConsume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
-      "index:3": 0,
-      "consume:1": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "id:8": "ExtraUtilities:cursedearthside",
-          "Count:3": 16,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    }
-  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 1103,
   "rewards:9": {
     "0:10": {
-      "rewardID:8": "bq_standard:item",
+      "ignoreDisabled:1": 0,
       "index:3": 0,
+      "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "id:8": "enhancedlootbags:lootbag",
           "Count:3": 1,
           "Damage:2": 9,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
         }
       }
     },
     "1:10": {
-      "rewardID:8": "bq_standard:item",
+      "ignoreDisabled:1": 0,
       "index:3": 1,
+      "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "id:8": "dreamcraft:item.CoinDarkWizardI",
           "Count:3": 5,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinDarkWizardI"
         },
         "1:10": {
-          "id:8": "dreamcraft:item.CoinSurvivorI",
           "Count:3": 5,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinSurvivorI"
         }
       }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "ExtraUtilities:cursedearthside"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

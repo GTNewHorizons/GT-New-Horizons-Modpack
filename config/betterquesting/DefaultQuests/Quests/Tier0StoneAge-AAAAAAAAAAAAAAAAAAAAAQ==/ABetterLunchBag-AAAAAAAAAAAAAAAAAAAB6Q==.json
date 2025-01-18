@@ -1,115 +1,117 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 36
     }
   },
-  "questIDLow:4": 489,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "Your lunch bag is now abused and rather old so it\u0027s time to get something better. Let\u0027s craft a lunch box which can hold way more food.",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "SpiceOfLife:lunchbox",
         "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "SpiceOfLife:lunchbox",
         "tag:10": {
-          "UUID:8": "60ced69d-32df-413d-ac1d-28b72b4c8621",
           "Inventory:10": {
             "Items:9": {}
           },
-          "Open:4": 0
-        },
-        "Damage:2": 0,
-        "OreDict:8": ""
+          "Open:4": 0,
+          "UUID:8": "60ced69d-32df-413d-ac1d-28b72b4c8621"
+        }
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "§2§lA Better Lunch Bag",
       "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Your lunch bag is now abused and rather old so it\u0027s time to get something better. Let\u0027s craft a lunch box which can hold way more food."
+      "lockedProgress:1": 0,
+      "name:8": "§2§lA Better Lunch Bag",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 489,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "harvestcraft:delightedmealItem"
+        },
+        "1:10": {
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "harvestcraft:supremepizzaItem"
+        },
+        "2:10": {
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "harvestcraft:bltItem"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinSurvivor"
+        },
+        "1:10": {
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnician"
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
+      "allowAnvil:1": 0,
+      "allowCraft:1": 1,
       "allowCraftedFromStatistics:1": 0,
       "allowSmelt:1": 1,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "allowCraft:1": 1,
-      "allowAnvil:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "SpiceOfLife:lunchbox",
           "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "SpiceOfLife:lunchbox",
           "tag:10": {
-            "UUID:8": "60ced69d-32df-413d-ac1d-28b72b4c8621",
             "Inventory:10": {
               "Items:9": {}
             },
-            "Open:4": 0
-          },
-          "Damage:2": 0,
-          "OreDict:8": ""
+            "Open:4": 0,
+            "UUID:8": "60ced69d-32df-413d-ac1d-28b72b4c8621"
+          }
         }
       },
       "taskID:8": "bq_standard:crafting"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 0,
-      "choices:9": {
-        "0:10": {
-          "id:8": "harvestcraft:delightedmealItem",
-          "Count:3": 5,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "harvestcraft:supremepizzaItem",
-          "Count:3": 5,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "2:10": {
-          "id:8": "harvestcraft:bltItem",
-          "Count:3": 5,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
-    },
-    "1:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 1,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "dreamcraft:item.CoinSurvivor",
-          "Count:3": 5,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "dreamcraft:item.CoinTechnician",
-          "Count:3": 5,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

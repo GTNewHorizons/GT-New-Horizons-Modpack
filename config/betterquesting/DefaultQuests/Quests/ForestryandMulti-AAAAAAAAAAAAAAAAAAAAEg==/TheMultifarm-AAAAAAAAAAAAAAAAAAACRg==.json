@@ -1,5 +1,4 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
@@ -10,136 +9,139 @@
       "questIDLow:4": 581
     }
   },
-  "questIDLow:4": 582,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "The smallest farm you can build requires 36 farm blocks (3x4x3 - the largest is 5x4x5 or 100 farm blocks). Place the underlying blocks corresponding to the farm type you built. In this case, Stone Bricks. You can place these blocks beside or under the multi structure, but not the layer above. It will search 6 blocks above these for dirt/farmland/sand/soul sand/humus depending on farm type, with the appropriate crops, saplings, etc. on top of that.\n\nYou can use different modes to collect different crops. Arboretum for trees, infernal for nether wart and so on. You can even mix and match modes on the same farm - cutting trees down for wood in part, and collecting fruit from trees without destroying it in another, for example. So long as they\u0027re on different sides, at least.\n\nYou may need to experiment a bit to see what works, but [url]https://ftbwiki.org/MultiFarm#Managed_Farms[/url] has a decent list, though it doesn\u0027t specify cotton for managed crop farms for example. It might be a GTNH change, I dunno. A number of crops have an added IC2 crop version as well, so you may prefer those for the higher yield if you level them up. Orchard mode works with Pam\u0027s, and Witchery, just to save you some time. Pam\u0027s nether crops however don\u0027t seem to work at all though.",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "Forestry:ffarm",
         "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "Forestry:ffarm",
         "tag:10": {
           "FarmBlock:4": 0
-        },
-        "Damage:2": 0,
-        "OreDict:8": ""
+        }
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "The Multifarm",
       "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "The smallest farm you can build requires 36 farm blocks (3x4x3 - the largest is 5x4x5 or 100 farm blocks). Place the underlying blocks corresponding to the farm type you built. In this case, Stone Bricks. You can place these blocks beside or under the multi structure, but not the layer above. It will search 6 blocks above these for dirt/farmland/sand/soul sand/humus depending on farm type, with the appropriate crops, saplings, etc on top of that.\n\nYou can use different modes to collect different crops. Arboretum for trees, infernal for nether wart and so on. You can even mix and match modes on the same farm - cutting trees down for wood in part, and collecting fruit from trees without destroying it in another, for example. So long as they\u0027re on different sides, at least.\n\nYou may need to experiment a bit to see what works, but [url]https://ftbwiki.org/MultiFarm#Managed_Farms[/url] has a decent list, though it doesn\u0027t specify cotton for managed crop farms for example. It might be a GTNH change, I dunno. A number of crops have an added IC2 crop version as well, so you may prefer those for the higher yield if you level them up. Orchard mode works with Pam\u0027s, and Witchery, just to save you some time. Pam\u0027s nether crops however don\u0027t seem to work at all though."
+      "lockedProgress:1": 0,
+      "name:8": "The Multifarm",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 582,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 9,
+          "Damage:2": 11305,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "1:10": {
+          "Count:3": 9,
+          "Damage:2": 11035,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        }
+      }
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 25,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnician"
+        },
+        "1:10": {
+          "Count:3": 25,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinFarmer"
+        },
+        "2:10": {
+          "Count:3": 25,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinForestry"
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "minecraft:stonebrick",
           "Count:3": 9,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "minecraft:stonebrick"
         },
         "1:10": {
-          "id:8": "gregtech:gt.metaitem.02",
           "Count:3": 36,
           "Damage:2": 18035,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
         },
         "2:10": {
-          "id:8": "gregtech:gt.metaitem.01",
           "Count:3": 36,
           "Damage:2": 27305,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
         },
         "3:10": {
-          "id:8": "Forestry:thermionicTubes",
           "Count:3": 9,
           "Damage:2": 10,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "Forestry:thermionicTubes"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "Forestry:ffarm",
           "Count:3": 36,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "Forestry:ffarm",
           "tag:10": {
             "FarmBlock:4": 0
-          },
-          "Damage:2": 0,
-          "OreDict:8": ""
+          }
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 0,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 9,
-          "Damage:2": 11305,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 9,
-          "Damage:2": 11035,
-          "OreDict:8": ""
-        }
-      }
-    },
-    "1:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 1,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "dreamcraft:item.CoinTechnician",
-          "Count:3": 25,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "dreamcraft:item.CoinFarmer",
-          "Count:3": 25,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "2:10": {
-          "id:8": "dreamcraft:item.CoinForestry",
-          "Count:3": 25,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

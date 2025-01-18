@@ -1,127 +1,127 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 184
     }
   },
-  "questIDLow:4": 2753,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "So you\u0027ve unlocked AE2, but don\u0027t know how to use it? Not to worry, that\u0027s what this questline is for. For a basic (and not completely useless) ME system, make the items on the right first. After you go through the quests to get them normally of course.\n\n[note]You could technically make one with an ME Chest, but there\u0027d be no advantage over using a regular chest.[/note]\n\nConnect power to the Energy Acceptor, place the ME Drive next to it, place a Fluix Cable on top of the ME Drive connect the ME Terminal to the cable. Just put in the Storage cells, and you\u0027re done! Remember you need a Network Tool to see how much power it actually uses. Also, it lets you pick up stuff easier.\n\nTo save power, let\u0027s do a little extra work. Place the Pressure Plate two spaces in front of the ME Terminal, place redstone next to it and beside the Energy Acceptor. Remove the EA and place a Fluix Cable there, and then place the ME Toggle Bus between the Drive and where the Energy Acceptor will be. Then plunk that back down and re-power it. This will cause it to only connect (and thus use power) when you stand on the plate. This tiny network uses about 38 EU by itself, so you should understand that an ME system is not cheap either in materials or power.\n\nYou should make either 1k or 4k storage cells to put into your ME Drive.",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "appliedenergistics2:tile.BlockEnergyAcceptor",
         "Count:3": 1,
         "Damage:2": 0,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "appliedenergistics2:tile.BlockEnergyAcceptor"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Short Guide - A Basic AE2 System",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "So you\u0027ve unlocked AE2, but don\u0027t know how to use it? Not to worry, that\u0027s what this questline is for. For a basic (and not completely useless) ME system, make the items on the right first. After you go through the quests to get them normally of course.\n\n[note]You could technically make one with an ME Chest, but there\u0027d be no advantage over using a regular chest.[/note]\n\nConnect power to the Energy Acceptor, place the ME Drive next to it, place a Fluix Cable on top of the ME Drive connect the ME Terminal to the cable. Just put in the Storage cells, and you\u0027re done! Remember you need a Network Tool to see how much power it actually uses. Also, it lets you pick up stuff easier.\n\nTo save power, let\u0027s do a little extra work. Place the Pressure Plate two spaces in front of the ME Terminal, place redstone next to it and beside the Energy Acceptor. Remove the EA and place a Fluix Cable there, and then place the ME Toggle Bus between the Drive and where the Energy Acceptor will be. Then plunk that back down and re-power it. This will cause it to only connect (and thus use power) when you stand on the plate. This tiny network uses about 38 EU by itself, so you should understand that an ME system is not cheap either in materials or power.\n\nYou should make either 1k or 4k storage cells to put into your ME Drive."
+      "lockedProgress:1": 0,
+      "name:8": "Short Guide - A Basic AE2 System",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
     }
   },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 2753,
+  "rewards:9": {},
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "appliedenergistics2:tile.BlockEnergyAcceptor",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "appliedenergistics2:tile.BlockEnergyAcceptor"
         },
         "1:10": {
-          "id:8": "appliedenergistics2:tile.BlockDrive",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "appliedenergistics2:tile.BlockDrive"
         },
         "2:10": {
-          "id:8": "appliedenergistics2:item.ItemMultiPart",
           "Count:3": 1,
           "Damage:2": 380,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "appliedenergistics2:item.ItemMultiPart"
         },
         "3:10": {
-          "id:8": "appliedenergistics2:item.ItemMultiPart",
           "Count:3": 1,
           "Damage:2": 16,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "appliedenergistics2:item.ItemMultiPart"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "minecraft:stone_pressure_plate",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "minecraft:stone_pressure_plate"
         },
         "1:10": {
-          "id:8": "minecraft:redstone",
           "Count:3": 2,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "minecraft:redstone"
         },
         "2:10": {
-          "id:8": "appliedenergistics2:item.ItemMultiPart",
           "Count:3": 1,
           "Damage:2": 80,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "appliedenergistics2:item.ItemMultiPart"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "2:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 2,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "appliedenergistics2:item.ItemBasicStorageCell.1k",
           "Count:3": 10,
-          "tag:10": {},
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "appliedenergistics2:item.ItemBasicStorageCell.1k",
+          "tag:10": {}
         },
         "1:10": {
-          "id:8": "appliedenergistics2:item.ItemBasicStorageCell.4k",
           "Count:3": 10,
-          "tag:10": {},
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "appliedenergistics2:item.ItemBasicStorageCell.4k",
+          "tag:10": {}
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
     }
-  },
-  "rewards:9": {}
+  }
 }

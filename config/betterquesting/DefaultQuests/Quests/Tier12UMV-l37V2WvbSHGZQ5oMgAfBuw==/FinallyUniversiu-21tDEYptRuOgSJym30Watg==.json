@@ -1,5 +1,4 @@
 {
-  "questIDHigh:4": -2640443013906741533,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": -7949765678093284760,
@@ -11,47 +10,48 @@
       "type:1": 1
     }
   },
-  "questIDLow:4": -6897090588793529674,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL",
-      "isMain:1": 1,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "You’ve finally solved it. Who knew that leaving dead stars long enough would cause your artificial solar system to implode and lead to a Big Bang?\n\nIf only you could tap into that much mass right before it started expanding again, you could literally hold the entire universe in the palm of your hand.\n\nThis is your third and final material from the EOH.\n\n[note]It\u0027s mainly used for UXV crafts, but your first few should go in the Eternity loop. The quest for it is located in the Endgame Goals tab.\n\nCongrats! You can now craft Magnetohydrodynamically Constrained Star Matter (MHDCSM).[/note]",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.metaitem.01",
         "Count:3": 1,
         "Damage:2": 11139,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.metaitem.01"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Finally, Universium!",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 1,
       "isSilent:1": 0,
-      "desc:8": "You’ve finally solved it. Who knew that leaving dead stars long enough would cause your artificial solar system to implode and lead to a Big Bang?\n\nIf only you could tap into that much mass right before it started expanding again, you could literally hold the entire universe in the palm of your hand.\n\nThis is your third and final material from the EOH.\n\n[note]It\u0027s mainly used for UXV crafts, but your first few should go in the Eternity loop. The quest for it is located in the Endgame Goals tab.\n\nCongrats! You can now move on to the UXV tier.[/note]"
+      "lockedProgress:1": 0,
+      "name:8": "Finally, Universium!",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
     }
   },
+  "questIDHigh:4": -2640443013906741533,
+  "questIDLow:4": -6897090588793529674,
+  "rewards:9": {},
   "tasks:9": {
     "0:10": {
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
-      "requiredFluids:9": {
-        "0:10": {
-          "FluidName:8": "molten.universium",
-          "Amount:3": 144
-        }
-      },
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 144,
+          "FluidName:8": "molten.universium"
+        }
+      },
       "taskID:8": "bq_standard:fluid"
     }
-  },
-  "rewards:9": {}
+  }
 }

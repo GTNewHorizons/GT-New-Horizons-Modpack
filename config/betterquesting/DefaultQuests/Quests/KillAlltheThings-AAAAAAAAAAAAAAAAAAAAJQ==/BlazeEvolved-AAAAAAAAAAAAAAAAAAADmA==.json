@@ -1,73 +1,119 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 919
     }
   },
-  "questIDLow:4": 920,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 1,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "In order to proceed to Tier 4 Planets, the blaze boss needs to be killed. Find him in one of the dungeons on Ceres.",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "adventurebackpack:adventureBackpack",
         "Count:3": 1,
+        "Damage:2": 4,
+        "OreDict:8": "",
+        "id:8": "adventurebackpack:adventureBackpack",
         "tag:10": {
           "wearableData:10": {
             "inventory:9": {},
-            "type:1": 4,
             "leftTank:10": {
               "Empty:8": ""
             },
             "rightTank:10": {
               "Empty:8": ""
-            }
+            },
+            "type:1": 4
           }
-        },
-        "Damage:2": 4,
-        "OreDict:8": ""
+        }
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": 1728000,
-      "globalShare:1": 1,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Blaze: Evolved",
       "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 1,
       "isSilent:1": 0,
-      "desc:8": "In order to proceed to Tier 4 Planets, the blaze boss needs to be killed. Find him in one of the dungeons on Ceres."
+      "lockedProgress:1": 0,
+      "name:8": "Blaze: Evolved",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": 1728000,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 920,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 8,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      }
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinSurvivorII"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinDarkWizardII"
+        },
+        "2:10": {
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinAdventureII"
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
-      "visible:1": 0,
-      "invert:1": 0,
-      "range:3": -1,
-      "index:3": 0,
-      "structure:8": "",
+      "biome:3": -1,
+      "dimension:3": 42,
       "hideInfo:1": 0,
+      "index:3": 0,
+      "invert:1": 0,
+      "name:8": "Ceres",
       "posX:3": 0,
       "posY:3": 0,
       "posZ:3": 0,
-      "biome:3": -1,
-      "name:8": "Ceres",
-      "dimension:3": 42,
+      "range:3": -1,
+      "structure:8": "",
+      "taskID:8": "bq_standard:location",
       "taxiCabDist:1": 0,
-      "taskID:8": "bq_standard:location"
+      "visible:1": 0
     },
     "1:10": {
+      "damageType:8": "",
       "ignoreNBT:1": 1,
       "index:3": 1,
+      "required:3": 1,
+      "subtypes:1": 1,
+      "target:8": "GalacticraftCore.EvolvedBossBlaze",
       "targetNBT:10": {
-        "Size:3": 0,
+        "AbsorptionAmount:5": 0.0,
+        "Air:2": 0,
+        "AttackTime:2": 0,
         "Attributes:9": {
           "0:10": {
             "Base:6": 0.0,
@@ -110,60 +156,8 @@
             "Name:8": "generic.attackDamage"
           }
         },
-        "Invulnerable:1": 0,
-        "PortalCooldown:3": 0,
-        "AbsorptionAmount:5": 0.0,
-        "FallDistance:5": 0.0,
-        "DeathTime:2": 0,
-        "DropChances:9": {
-          "0:6": 0.08500000089406967,
-          "1:6": 0.08500000089406967,
-          "2:6": 0.08500000089406967,
-          "3:6": 0.08500000089406967,
-          "4:6": 0.08500000089406967
-        },
-        "roomCoordsY:6": 0.0,
-        "roomCoordsZ:6": 0.0,
-        "PersistenceRequired:1": 0,
-        "HealF:5": 600.0,
-        "id:8": "GalacticraftCore.EvolvedBossBlaze",
-        "Fuse:2": 30,
-        "Motion:9": {
-          "0:6": 0.0,
-          "1:6": 0.0,
-          "2:6": 0.0
-        },
-        "Leashed:1": 0,
-        "UUIDLeast:4": -2265408451657568236,
-        "Health:2": 600,
-        "roomCoordsX:6": 0.0,
-        "Dimension:3": 0,
-        "OnGround:1": 0,
-        "ignited:1": 0,
-        "Air:2": 0,
-        "roomSizeZ:6": 0.0,
-        "Rotation:9": {
-          "0:6": 0.0,
-          "1:6": 0.0
-        },
-        "roomSizeY:6": 0.0,
-        "roomSizeX:6": 0.0,
+        "CanPickUpLoot:1": 0,
         "CreatureInfusion:10": {
-          "PlayerInfusions:11": [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "tumorWarpTemp:3": 0,
           "InfusionCosts:10": {
             "Aspects:9": {}
           },
@@ -181,11 +175,37 @@
             0,
             0
           ],
+          "PlayerInfusions:11": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "sitting:1": 0,
           "toggleClimb:1": 0,
           "toggleInvisible:1": 0,
           "tumorWarp:3": 0,
           "tumorWarpPermanent:3": 0,
-          "sitting:1": 0
+          "tumorWarpTemp:3": 0
+        },
+        "CustomName:8": "",
+        "CustomNameVisible:1": 0,
+        "DeathTime:2": 0,
+        "Dimension:3": 0,
+        "DropChances:9": {
+          "0:6": 0.08500000089406967,
+          "1:6": 0.08500000089406967,
+          "2:6": 0.08500000089406967,
+          "3:6": 0.08500000089406967,
+          "4:6": 0.08500000089406967
         },
         "Equipment:9": {
           "0:10": {},
@@ -194,63 +214,45 @@
           "3:10": {},
           "4:10": {}
         },
-        "UUIDMost:4": 24409945973051,
-        "CustomName:8": "",
+        "ExplosionRadius:1": 3,
+        "FallDistance:5": 0.0,
+        "Fire:2": 0,
+        "Fuse:2": 30,
+        "HealF:5": 600.0,
+        "Health:2": 600,
+        "HurtTime:2": 0,
+        "Invulnerable:1": 0,
+        "Leashed:1": 0,
+        "Motion:9": {
+          "0:6": 0.0,
+          "1:6": 0.0,
+          "2:6": 0.0
+        },
+        "OnGround:1": 0,
+        "PersistenceRequired:1": 0,
+        "PortalCooldown:3": 0,
         "Pos:9": {
           "0:6": 0.0,
           "1:6": 0.0,
           "2:6": 0.0
         },
-        "Fire:2": 0,
-        "CanPickUpLoot:1": 0,
-        "HurtTime:2": 0,
-        "AttackTime:2": 0,
-        "ExplosionRadius:1": 3,
-        "CustomNameVisible:1": 0
+        "Rotation:9": {
+          "0:6": 0.0,
+          "1:6": 0.0
+        },
+        "Size:3": 0,
+        "UUIDLeast:4": -2265408451657568236,
+        "UUIDMost:4": 24409945973051,
+        "id:8": "GalacticraftCore.EvolvedBossBlaze",
+        "ignited:1": 0,
+        "roomCoordsX:6": 0.0,
+        "roomCoordsY:6": 0.0,
+        "roomCoordsZ:6": 0.0,
+        "roomSizeX:6": 0.0,
+        "roomSizeY:6": 0.0,
+        "roomSizeZ:6": 0.0
       },
-      "damageType:8": "",
-      "required:3": 1,
-      "taskID:8": "bq_standard:hunt",
-      "target:8": "GalacticraftCore.EvolvedBossBlaze",
-      "subtypes:1": 1
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 0,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "enhancedlootbags:lootbag",
-          "Count:3": 1,
-          "Damage:2": 8,
-          "OreDict:8": ""
-        }
-      }
-    },
-    "1:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 1,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "dreamcraft:item.CoinSurvivorII",
-          "Count:3": 2,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "dreamcraft:item.CoinDarkWizardII",
-          "Count:3": 2,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "2:10": {
-          "id:8": "dreamcraft:item.CoinAdventureII",
-          "Count:3": 2,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
+      "taskID:8": "bq_standard:hunt"
     }
   }
 }

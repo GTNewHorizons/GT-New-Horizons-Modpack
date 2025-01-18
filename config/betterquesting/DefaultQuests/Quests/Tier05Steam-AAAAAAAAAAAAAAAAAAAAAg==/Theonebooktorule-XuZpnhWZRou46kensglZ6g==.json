@@ -1,5 +1,4 @@
 {
-  "questIDHigh:4": 6838269211896792715,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
@@ -10,50 +9,51 @@
       "questIDLow:4": 486
     }
   },
-  "questIDLow:4": -5122202840608450070,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "This Tome can store multiple documentation books from other mods. It will be empty when crafted, but you can add books by combining it with the desired book in a crafting grid.\n\nRight-clicking with the Tome in hand will open an interface showing all the added books; clicking on a book will transform the tome into the selected book. To revert it back to the Tome, left-click while sneaking.\n\nTo retrieve a stored book, transform the Tome into the desired book and throw it away while sneaking - this will drop the selected book and leave the tome in your inventory.\n\n[warn]Some warnings:\n\nThe extended version of the Book of Biomes from Witchery is not compatible with this tome. \n\nYou should not throw it through the Botania portal. The elves might steal your Tome and return only their own copy of the Lexica Botania.[/warn]",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "akashictome:tome",
         "Count:3": 1,
         "Damage:2": 0,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "akashictome:tome"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "§3§lThe one book to rule them all",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "This Tome can store multiple documentation books from other mods. It will be empty when crafted, but you can add books by combining it with the desired book in a crafting grid.\n\nRight-clicking with the Tome in hand will open an interface showing all the added books; clicking on a book will transform the tome into the selected book. To revert it back to the Tome, left-click while sneaking.\n\nTo retrieve a stored book, transform the Tome into the desired book and throw it away while sneaking - this will drop the selected book and leave the tome in your inventory.\n\n[warn]Some warnings:\n\nThe extended version of the Book of Biomes from Witchery is not compatible with this tome. \n\nYou should not throw it through the Botania portal. The elves might steal your Tome and return only their own copy of the Lexica Botania.[/warn]"
+      "lockedProgress:1": 0,
+      "name:8": "§3§lThe one book to rule them all",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
     }
   },
+  "questIDHigh:4": 6838269211896792715,
+  "questIDLow:4": -5122202840608450070,
+  "rewards:9": {},
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "akashictome:tome",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "akashictome:tome"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     }
-  },
-  "rewards:9": {}
+  }
 }

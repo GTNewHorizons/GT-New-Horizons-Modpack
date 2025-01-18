@@ -1,118 +1,120 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 292
     }
   },
-  "questIDLow:4": 2267,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "Lonely? The Traveling Trunk is a simple companion, giving you some extra space. With upgrades (one per trunk) it can offer you some nice advantages. Like other golems, you can pick it up with the Golemancer\u0027s Bell. Its brain is pretty small though, so it can easily get stuck. You can order it to stay in one spot via the GUI. It will attempt to teleport to you, as long as the chunk is still loaded. It can also follow you into different dimensions.\n\nThey will heal slowly on their own, or faster if you right-click on them with any food, including rotten meat. Keep away from lava.\n\nGolem upgrade effects:\nAer: Moves faster\nEarth: 1 more row of item slots\nFire: Attacks hostile mobs, setting them on fire\nWater: Nearly invulnerable. In SMP, can only be opened or picked up by player who placed it.\nEntropy: Sucks in loose items nearby if it has room\nOrder: Can be picked up with its contents, and nested in other inventories. Don\u0027t be stupid about this.",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "Thaumcraft:TrunkSpawner",
         "Count:3": 1,
         "Damage:2": 0,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "Thaumcraft:TrunkSpawner"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "A Travel Companion",
       "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Lonely? The Traveling Trunk is a simple companion, giving you some extra space. With upgrades (one per trunk) it can offer you some nice advantages. Like other golems, you can pick it up with the Golemancer\u0027s Bell. It\u0027s brain is pretty small though, so it can easily get stuck. You can order it to stay in one spot via the GUI. It will attempt to teleport to you, as long as the chunk is still loaded. It can also follow you into different dimensions.\n\nThey will heal slowly on their own, or faster if you right-click on them with any food, including rotten meat. Keep away from lava.\n\nGolem upgrade effects:\nAer: Moves faster\nEarth: 1 more row of item slots\nFire: Attacks hostile mobs, setting them on fire\nWater: Nearly invulnerable. In SMP, can only be opened or picked up by player who placed it.\nEntropy: Sucks in loose items nearby if it has room\nOrder: Can be picked up with its contents, and nested in other inventories. Don\u0027t be stupid about this."
+      "lockedProgress:1": 0,
+      "name:8": "A Travel Companion",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
     }
   },
-  "tasks:9": {
-    "0:10": {
-      "partialMatch:1": 1,
-      "autoConsume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
-      "index:3": 0,
-      "consume:1": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "id:8": "Thaumcraft:TrunkSpawner",
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    }
-  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 2267,
   "rewards:9": {
     "0:10": {
-      "rewardID:8": "bq_standard:item",
+      "ignoreDisabled:1": 0,
       "index:3": 0,
+      "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "id:8": "Thaumcraft:ItemLootBag",
           "Count:3": 1,
           "Damage:2": 1,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "Thaumcraft:ItemLootBag"
         },
         "1:10": {
-          "id:8": "enhancedlootbags:lootbag",
           "Count:3": 1,
           "Damage:2": 10,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
         }
       }
     },
     "1:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 1,
       "choices:9": {
         "0:10": {
-          "id:8": "Thaumcraft:ItemGolemUpgrade",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "Thaumcraft:ItemGolemUpgrade"
         },
         "1:10": {
-          "id:8": "Thaumcraft:ItemGolemUpgrade",
           "Count:3": 1,
           "Damage:2": 1,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "Thaumcraft:ItemGolemUpgrade"
         },
         "2:10": {
-          "id:8": "Thaumcraft:ItemGolemUpgrade",
           "Count:3": 1,
           "Damage:2": 2,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "Thaumcraft:ItemGolemUpgrade"
         },
         "3:10": {
-          "id:8": "Thaumcraft:ItemGolemUpgrade",
           "Count:3": 1,
           "Damage:2": 3,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "Thaumcraft:ItemGolemUpgrade"
         },
         "4:10": {
-          "id:8": "Thaumcraft:ItemGolemUpgrade",
           "Count:3": 1,
           "Damage:2": 4,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "Thaumcraft:ItemGolemUpgrade"
         },
         "5:10": {
-          "id:8": "Thaumcraft:ItemGolemUpgrade",
           "Count:3": 1,
           "Damage:2": 5,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "Thaumcraft:ItemGolemUpgrade"
         }
-      }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "Thaumcraft:TrunkSpawner"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

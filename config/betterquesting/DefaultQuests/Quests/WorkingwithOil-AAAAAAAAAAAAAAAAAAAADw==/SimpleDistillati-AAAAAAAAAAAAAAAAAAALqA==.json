@@ -1,103 +1,105 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 2986
     }
   },
-  "questIDLow:4": 2984,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "As rich as Oil is, it\u0027s hardly useful for anything in this state. One of the most important parts in the processing chain is distillation, which separates the components of this black mixture by the difference in their boiling points. You can do this in a Distillery, starting in LV, but for now only one of the fractions can be obtained at a time: you must choose which one you want.\n\nLighter fractions are generally more useful than heavier ones, but that doesn\u0027t mean that lightest is best. For now, going for Sulfuric Light Fuel is the best option, since it will become a good source of power after being treated. Don\u0027t use unprocessed oil to power these machines, stick to Steam until you can use something better.\n\n[note]You can find info about the other fractions in the LV tab![/note]",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.blockmachines",
         "Count:3": 1,
         "Damage:2": 531,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Simple Distillation",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "As rich as Oil is, it\u0027s hardly useful for anything in this state. One of the most important parts in the processing chain is distillation, which separates the components of this black mixture by the difference in their boiling points. You can do this in a Distillery, starting in LV, but for now only one of the fractions can be obtained at a time: you must choose which one you want.\n\nLighter fractions are generally more useful than heavier ones, but that doesn\u0027t mean that lightest is best. For now, going for Sulfuric Light Fuel is the best option, since it will become a good source of power after being treated. Don\u0027t use unprocessed oil to power these machines, stick to Steam until you can use something better.\n\n[note]You can find info about the other fractions in the LV tab![/note]"
+      "lockedProgress:1": 0,
+      "name:8": "Simple Distillation",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 2984,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        },
+        "1:10": {
+          "Count:3": 20,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "IC2:itemCellEmpty"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 3,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnicianI"
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.blockmachines",
           "Count:3": 1,
           "Damage:2": 531,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.metaitem.01",
           "Count:3": 12,
           "Damage:2": 30737,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 0,
-      "choices:9": {
-        "0:10": {
-          "id:8": "enhancedlootbags:lootbag",
-          "Count:3": 1,
-          "Damage:2": 4,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "IC2:itemCellEmpty",
-          "Count:3": 20,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
-    },
-    "1:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 1,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "dreamcraft:item.CoinTechnicianI",
-          "Count:3": 3,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

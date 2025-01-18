@@ -1,215 +1,216 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 2133
     }
   },
-  "questIDLow:4": 2134,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "The Cocobolo is a nice tall tree, perfect for mating into your other trees to maximize their yield. Breed it by mating Desert Acacia with Dark Oak.",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "Forestry:sapling",
         "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "Forestry:sapling",
         "tag:10": {
-          "IsAnalyzed:4": 0,
           "Genome:10": {
             "Chromosomes:9": {
               "0:10": {
-                "UID1:8": "forestry.treeCocobolo",
+                "Slot:4": 0,
                 "UID0:8": "forestry.treeCocobolo",
-                "Slot:4": 0
+                "UID1:8": "forestry.treeCocobolo"
               },
               "1:10": {
-                "UID1:8": "forestry.growthLightlevel",
+                "Slot:4": 1,
                 "UID0:8": "forestry.growthLightlevel",
-                "Slot:4": 1
+                "UID1:8": "forestry.growthLightlevel"
               },
               "2:10": {
-                "UID1:8": "forestry.heightLargest",
+                "Slot:4": 2,
                 "UID0:8": "forestry.heightLargest",
-                "Slot:4": 2
+                "UID1:8": "forestry.heightLargest"
               },
               "3:10": {
-                "UID1:8": "forestry.saplingsLower",
+                "Slot:4": 3,
                 "UID0:8": "forestry.saplingsLower",
-                "Slot:4": 3
+                "UID1:8": "forestry.saplingsLower"
               },
               "4:10": {
-                "UID1:8": "forestry.fruitNone",
+                "Slot:4": 4,
                 "UID0:8": "forestry.fruitNone",
-                "Slot:4": 4
+                "UID1:8": "forestry.fruitNone"
               },
               "5:10": {
-                "UID1:8": "forestry.yieldLowest",
+                "Slot:4": 5,
                 "UID0:8": "forestry.yieldLowest",
-                "Slot:4": 5
+                "UID1:8": "forestry.yieldLowest"
               },
               "6:10": {
-                "UID1:8": "forestry.plantTypeNone",
+                "Slot:4": 6,
                 "UID0:8": "forestry.plantTypeNone",
-                "Slot:4": 6
+                "UID1:8": "forestry.plantTypeNone"
               },
               "7:10": {
-                "UID1:8": "forestry.sappinessLowest",
+                "Slot:4": 7,
                 "UID0:8": "forestry.sappinessLowest",
-                "Slot:4": 7
+                "UID1:8": "forestry.sappinessLowest"
               },
               "8:10": {
-                "UID1:8": "forestry.territoryAverage",
+                "Slot:4": 8,
                 "UID0:8": "forestry.territoryAverage",
-                "Slot:4": 8
+                "UID1:8": "forestry.territoryAverage"
               },
               "9:10": {
-                "UID1:8": "forestry.leavesNone",
+                "Slot:4": 9,
                 "UID0:8": "forestry.leavesNone",
-                "Slot:4": 9
+                "UID1:8": "forestry.leavesNone"
               },
               "10:10": {
-                "UID1:8": "forestry.maturationAverage",
+                "Slot:4": 10,
                 "UID0:8": "forestry.maturationAverage",
-                "Slot:4": 10
+                "UID1:8": "forestry.maturationAverage"
               },
               "11:10": {
-                "UID1:8": "forestry.i1d",
+                "Slot:4": 11,
                 "UID0:8": "forestry.i1d",
-                "Slot:4": 11
+                "UID1:8": "forestry.i1d"
               },
               "12:10": {
-                "UID1:8": "forestry.fireproofFalse",
+                "Slot:4": 12,
                 "UID0:8": "forestry.fireproofFalse",
-                "Slot:4": 12
+                "UID1:8": "forestry.fireproofFalse"
+              }
+            }
+          },
+          "IsAnalyzed:4": 0
+        }
+      },
+      "isGlobal:1": 0,
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Cocobolo",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 2134,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 30,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinForestry"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 19,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag",
+          "tag:10": {
+            "ench:9": {
+              "0:10": {
+                "id:4": 35,
+                "lvl:4": 3
               }
             }
           }
-        },
-        "Damage:2": 0,
-        "OreDict:8": ""
-      },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Cocobolo",
-      "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
-      "isSilent:1": 0,
-      "desc:8": "The Cocobolo is a nice tall tree, perfect for mating into your other trees to maximize their yield. Breed it by mating Desert Acacia with Dark Oak."
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "Forestry:sapling",
           "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "Forestry:sapling",
           "tag:10": {
-            "IsAnalyzed:1": 1,
             "Genome:10": {
               "Chromosomes:9": {
                 "0:10": {
-                  "UID1:8": "forestry.treeAcacia",
+                  "Slot:1": 0,
                   "UID0:8": "forestry.treeAcacia",
-                  "Slot:1": 0
+                  "UID1:8": "forestry.treeAcacia"
                 }
               }
-            }
-          },
-          "Damage:2": 0,
-          "OreDict:8": ""
+            },
+            "IsAnalyzed:1": 1
+          }
         },
         "1:10": {
-          "id:8": "Forestry:sapling",
           "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "Forestry:sapling",
           "tag:10": {
-            "IsAnalyzed:1": 1,
             "Genome:10": {
               "Chromosomes:9": {
                 "0:10": {
-                  "UID1:8": "forestry.treeDarkOak",
+                  "Slot:1": 0,
                   "UID0:8": "forestry.treeDarkOak",
-                  "Slot:1": 0
+                  "UID1:8": "forestry.treeDarkOak"
                 }
               }
-            }
-          },
-          "Damage:2": 0,
-          "OreDict:8": ""
+            },
+            "IsAnalyzed:1": 1
+          }
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "Forestry:sapling",
           "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "Forestry:sapling",
           "tag:10": {
-            "IsAnalyzed:1": 1,
             "Genome:10": {
               "Chromosomes:9": {
                 "0:10": {
-                  "UID1:8": "forestry.treeCocobolo",
+                  "Slot:1": 0,
                   "UID0:8": "forestry.treeCocobolo",
-                  "Slot:1": 0
+                  "UID1:8": "forestry.treeCocobolo"
                 }
               }
-            }
-          },
-          "Damage:2": 0,
-          "OreDict:8": ""
+            },
+            "IsAnalyzed:1": 1
+          }
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 0,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "dreamcraft:item.CoinForestry",
-          "Count:3": 30,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "enhancedlootbags:lootbag",
-          "Count:3": 1,
-          "tag:10": {
-            "ench:9": {
-              "0:10": {
-                "lvl:4": 3,
-                "id:4": 35
-              }
-            }
-          },
-          "Damage:2": 19,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

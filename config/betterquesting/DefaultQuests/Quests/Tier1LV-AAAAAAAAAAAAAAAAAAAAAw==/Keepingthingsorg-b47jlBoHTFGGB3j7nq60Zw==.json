@@ -1,114 +1,116 @@
 {
-  "questIDHigh:4": 8038612610134264913,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 97
     }
   },
-  "questIDLow:4": -8788923125695859609,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "OR",
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "Are you tired of storing Shapes and/or Molds near your Extruders and Solidifiers instead of inside them? Today must be your lucky day, because these item holders let you do exactly that!\n\nThey allow your machines to hold a small number of extra items, though each slot can only store one item at a time. There are three versions of this cover, each offering a different amount of storage:\n\nBasic Item Holder: 9 slots\nGood Item Holder: 12 slots\nAdvanced Item Holder: 15 slots\n\n[note]If that\u0027s still not enough space and you are already using the highest tier, you can simply attach multiple holders to your machine of choice.[/note]",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.metaitem.01",
         "Count:3": 1,
         "Damage:2": 32380,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.metaitem.01"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "§5§lKeeping things organized",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Are you tired of storing Shapes and/or Molds near your Extruders and Solidifiers instead of inside them? Today must be your lucky day, because these item holders let you do exactly that!\n\nThey allow your machines to hold a small number of extra items, though each slot can only store one item at a time. There are three versions of this cover, each offering a different amount of storage:\n\nBasic Item Holder: 9 slots\nGood Item Holder: 12 slots\nAdvanced Item Holder: 15 slots\n\n[note]If that\u0027s still not enough space and you are already using the highest tier, you can simply attach multiple holders to your machine of choice.[/note]"
+      "lockedProgress:1": 0,
+      "name:8": "§5§lKeeping things organized",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "OR",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 8038612610134264913,
+  "questIDLow:4": -8788923125695859609,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      }
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 15,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnician"
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.metaitem.01",
           "Count:3": 1,
           "Damage:2": 32380,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.metaitem.01",
           "Count:3": 1,
           "Damage:2": 32381,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "2:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 2,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.metaitem.01",
           "Count:3": 1,
           "Damage:2": 32382,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 0,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "enhancedlootbags:lootbag",
-          "Count:3": 1,
-          "Damage:2": 4,
-          "OreDict:8": ""
-        }
-      }
-    },
-    "1:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 1,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "dreamcraft:item.CoinTechnician",
-          "Count:3": 15,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

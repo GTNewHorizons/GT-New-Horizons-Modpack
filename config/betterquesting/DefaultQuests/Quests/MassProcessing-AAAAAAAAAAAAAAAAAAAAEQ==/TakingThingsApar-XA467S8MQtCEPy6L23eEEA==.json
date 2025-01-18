@@ -1,85 +1,86 @@
 {
-  "questIDHigh:4": 6633304091534312144,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": -6582941143421138107,
       "questIDLow:4": -6615881702968461094
     }
   },
-  "questIDLow:4": -8917357558952918000,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "You probably haven\u0027t thought about the extractor in a while. Is your steam extractor still collecting dust somewhere? Well, if you do find yourself needing to extract things quick, (processing industrial quantities of flowers, maybe?) pick up the Dissection Apparatus.\n\n[note]This multi gets additional parallels based on tier of item pipe casing, so use the best one you can get![/note]",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.blockmachines",
         "Count:3": 1,
         "Damage:2": 3010,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Taking Things Apart",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "You probably haven\u0027t thought about the extractor in a while. Is your steam extractor still collecting dust somewhere? Well, if you do find yourself needing to extract things quick, (processing industrial quantities of flowers, maybe?) pick up the Dissection Apparatus.\n\n[note]This multi gets additional parallels based on tier of item pipe casing, so use the best one you can get![/note]"
+      "lockedProgress:1": 0,
+      "name:8": "Taking Things Apart",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 6633304091534312144,
+  "questIDLow:4": -8917357558952918000,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 6,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.blockmachines",
           "Count:3": 1,
           "Damage:2": 3010,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.blockcasings4",
           "Count:3": 1,
           "Damage:2": 1,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings4"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 0,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "enhancedlootbags:lootbag",
-          "Count:3": 1,
-          "Damage:2": 6,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

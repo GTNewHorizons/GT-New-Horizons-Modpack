@@ -1,5 +1,4 @@
 {
-  "questIDHigh:4": -199482370913580560,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
@@ -18,81 +17,83 @@
       "questIDLow:4": 2590
     }
   },
-  "questIDLow:4": -9064439369025459403,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL",
-      "isMain:1": 1,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "At last, you have done it. The DTPF is a mighty multiblock fueled by large amounts of power and catalyst. Running it constantly for 8 hours or longer reduces catalyst consumption by 50%, so you will want to find a way to automate this to save on expensive catalyst.\n\nYou will need 2112 coil blocks in total. Accepted coil tiers are\n\n- Awakened Draconium\n- Infinity\n- Hypogen\n- Eternal\n\nWhile you can start with Awakened Draconium coils, you will need at least infinity coils to make tesseracts for UIV, so it may be worth it to skip to those immediately\n\n[note]Perhaps it can be used to bake exotic cookies?[/note]",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.blockmachines",
         "Count:3": 1,
         "Damage:2": 1004,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Dimensional Breach Imminent",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 1,
       "isSilent:1": 0,
-      "desc:8": "At last, you have done it. The DTPF is a mighty multiblock fueled by large amounts of power and catalyst. Running it constantly for 8 hours or longer reduces catalyst consumption by 50%, so you will want to find a way to automate this to save on expensive catalyst.\n\nYou will need 2112 coil blocks in total. Accepted coil tiers are\n\n- Awakened Draconium\n- Infinity\n- Hypogen\n- Eternal\n\nWhile you can start with Awakened Draconium coils, you will need at least infinity coils to make tesseracts for UIV, so it may be worth it to skip to those immediately\n\n[note]Perhaps it can be used to bake exotic cookies?[/note]"
+      "lockedProgress:1": 0,
+      "name:8": "Dimensional Breach Imminent",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -199482370913580560,
+  "questIDLow:4": -9064439369025459403,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "harvestcraft:peanutbuttercookiesItem"
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.blockmachines",
           "Count:3": 1,
           "Damage:2": 1004,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
         },
         "1:10": {
-          "id:8": "gregtech:gt.blockcasings",
           "Count:3": 1,
           "Damage:2": 12,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings"
         },
         "2:10": {
-          "id:8": "gregtech:gt.blockcasings",
           "Count:3": 1,
           "Damage:2": 13,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings"
         },
         "3:10": {
-          "id:8": "gregtech:gt.blockcasings",
           "Count:3": 1,
           "Damage:2": 14,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 0,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "harvestcraft:peanutbuttercookiesItem",
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

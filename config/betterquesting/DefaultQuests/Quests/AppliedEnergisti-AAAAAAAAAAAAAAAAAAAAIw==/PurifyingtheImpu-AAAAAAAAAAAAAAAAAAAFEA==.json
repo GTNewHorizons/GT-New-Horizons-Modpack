@@ -1,173 +1,175 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 181
     }
   },
-  "questIDLow:4": 1296,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 1,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "The purified versions of Nether, Certus and Fluix crystals can be grown from seeds made in the assembler from crystal dust and sand.\n\nThey can be grown in-world for free by dropping them in water, or at a much faster rate in a GT Autoclave.\n\n[note]Distilled water reduces the recipe time in the Autoclave by half.[/note]",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "appliedenergistics2:item.ItemMultiMaterial",
         "Count:3": 1,
         "Damage:2": 12,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "appliedenergistics2:item.ItemMultiMaterial"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Purifying the Impure",
       "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 1,
       "isSilent:1": 0,
-      "desc:8": "The purified versions of Nether, Certus and Fluix crystals can be grown from seeds made in the assembler from crystal dust and sand.\n\nThey can be grown in-world for free by dropping them in water, or at a much faster rate in a GT Autoclave.\n\n[note]Distilled water reduces the recipe time in the Autoclave by half.[/note]"
+      "lockedProgress:1": 0,
+      "name:8": "Purifying the Impure",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 1296,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 1,
+          "OreDict:8": "",
+          "id:8": "appliedenergistics2:item.ItemMultiMaterial"
+        },
+        "1:10": {
+          "Count:3": 8,
+          "Damage:2": 8523,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinChemistII"
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "minecraft:sand",
           "Count:3": 48,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "minecraft:sand"
         },
         "1:10": {
-          "id:8": "gregtech:gt.metaitem.01",
           "Count:3": 16,
           "Damage:2": 2522,
-          "OreDict:8": "dustNetherQuartz"
+          "OreDict:8": "dustNetherQuartz",
+          "id:8": "gregtech:gt.metaitem.01"
         },
         "2:10": {
-          "id:8": "gregtech:gt.metaitem.01",
           "Count:3": 16,
           "Damage:2": 2516,
-          "OreDict:8": "dustCertusQuartz"
+          "OreDict:8": "dustCertusQuartz",
+          "id:8": "gregtech:gt.metaitem.01"
         },
         "3:10": {
-          "id:8": "appliedenergistics2:item.ItemMultiMaterial",
           "Count:3": 16,
           "Damage:2": 8,
-          "OreDict:8": "dustFluix"
+          "OreDict:8": "dustFluix",
+          "id:8": "appliedenergistics2:item.ItemMultiMaterial"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "appliedenergistics2:item.ItemCrystalSeed",
           "Count:3": 32,
+          "Damage:2": 600,
+          "OreDict:8": "",
+          "id:8": "appliedenergistics2:item.ItemCrystalSeed",
           "tag:10": {
             "progress:4": 600
-          },
-          "Damage:2": 600,
-          "OreDict:8": ""
+          }
         },
         "1:10": {
-          "id:8": "appliedenergistics2:item.ItemCrystalSeed",
           "Count:3": 32,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "appliedenergistics2:item.ItemCrystalSeed",
           "tag:10": {
             "progress:4": 0
-          },
-          "Damage:2": 0,
-          "OreDict:8": ""
+          }
         },
         "2:10": {
-          "id:8": "appliedenergistics2:item.ItemCrystalSeed",
           "Count:3": 32,
+          "Damage:2": 1200,
+          "OreDict:8": "",
+          "id:8": "appliedenergistics2:item.ItemCrystalSeed",
           "tag:10": {
             "progress:4": 1200
-          },
-          "Damage:2": 1200,
-          "OreDict:8": ""
+          }
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "2:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 2,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "appliedenergistics2:item.ItemMultiMaterial",
           "Count:3": 24,
           "Damage:2": 11,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "appliedenergistics2:item.ItemMultiMaterial"
         },
         "1:10": {
-          "id:8": "appliedenergistics2:item.ItemMultiMaterial",
           "Count:3": 24,
           "Damage:2": 10,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "appliedenergistics2:item.ItemMultiMaterial"
         },
         "2:10": {
-          "id:8": "appliedenergistics2:item.ItemMultiMaterial",
           "Count:3": 24,
           "Damage:2": 12,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "appliedenergistics2:item.ItemMultiMaterial"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 0,
-      "choices:9": {
-        "0:10": {
-          "id:8": "appliedenergistics2:item.ItemMultiMaterial",
-          "Count:3": 8,
-          "Damage:2": 1,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 8,
-          "Damage:2": 8523,
-          "OreDict:8": ""
-        }
-      }
-    },
-    "1:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 1,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "dreamcraft:item.CoinChemistII",
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

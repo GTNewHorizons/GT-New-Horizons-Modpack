@@ -1,22 +1,22 @@
 {
-  "questLineIDLow:4": 11,
-  "questLineIDHigh:4": 0,
   "properties:10": {
     "betterquesting:10": {
-      "visibility:8": "UNLOCKED",
-      "name:8": "...Without Dying",
-      "icon:10": {
-        "id:8": "GraviSuite:graviChestPlate",
-        "Count:3": 1,
-        "tag:10": {
-          "charge:6": 3.0E7
-        },
-        "Damage:2": 1,
-        "OreDict:8": ""
-      },
       "bg_image:8": "",
       "bg_size:3": 256,
-      "desc:8": "In order to not die constantly, you\u0027ll need weapons and armor. There\u0027s also utility stuff adventure backpacks and static defenses for your base."
+      "desc:8": "In order to not die constantly, you\u0027ll need weapons and armor. There\u0027s also utility stuff adventure backpacks and static defenses for your base.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "OreDict:8": "",
+        "id:8": "GraviSuite:graviChestPlate",
+        "tag:10": {
+          "charge:6": 3.0E7
+        }
+      },
+      "name:8": "...Without Dying",
+      "visibility:8": "UNLOCKED"
     }
-  }
+  },
+  "questLineIDHigh:4": 0,
+  "questLineIDLow:4": 11
 }

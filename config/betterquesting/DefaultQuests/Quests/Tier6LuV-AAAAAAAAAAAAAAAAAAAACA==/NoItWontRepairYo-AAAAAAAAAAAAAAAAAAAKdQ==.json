@@ -1,90 +1,90 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 1489
     }
   },
-  "questIDLow:4": 2677,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "The Auto Maintenance Hatch will correct maintenance problems immediately at the cost of some materials. Invaluable if you want to make sure your cleanroom machines won\u0027t void stuff. Or you could just use a howler and do it yourself I guess.",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.blockmachines",
         "Count:3": 1,
         "Damage:2": 111,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "§c§lNo, It Won\u0027t Repair Your Car",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "The Auto Maintenance Hatch will correct maintenance problems immediately at the cost of some materials. Invaluable if you want to make sure your cleanroom machines won\u0027t void stuff. Or you could just use a howler and do it yourself I guess."
+      "lockedProgress:1": 0,
+      "name:8": "§c§lNo, It Won\u0027t Repair Your Car",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
     }
   },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 2677,
+  "rewards:9": {},
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.blockmachines",
           "Count:3": 1,
           "Damage:2": 111,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.metaitem.01",
           "Count:3": 4,
           "Damage:2": 32764,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
         },
         "1:10": {
-          "id:8": "gregtech:gt.metaitem.01",
           "Count:3": 2,
           "Damage:2": 30724,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
         },
         "2:10": {
-          "id:8": "gregtech:gt.metaitem.01",
           "Count:3": 4,
           "Damage:2": 27305,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
         },
         "3:10": {
-          "id:8": "gregtech:gt.metaitem.03",
           "Count:3": 2,
           "Damage:2": 32082,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.03"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
     }
-  },
-  "rewards:9": {}
+  }
 }

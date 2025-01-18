@@ -1,5 +1,4 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
@@ -10,73 +9,74 @@
       "questIDLow:4": 3146
     }
   },
-  "questIDLow:4": 3160,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "The LFTR processing chain has two halves, with the first being in mid-late IV and the second requiring the Assembly Line and more materials to finish. Aside from power, both of these halves have special outputs that can be helpful for progression, but the second half is most likely the one that holds the most value. Regardless, the full processing chain around the reactor and its fuel will keep outputting everything, so it\u0027s worth it to look at what it gives.\n\nLet\u0027s start with the LFTR Fuel 1 outputs, after the fuel is consumed in the reactor. U233 and UF6 are both used to make more fuel. U233 will be used until you have Sparge Towers to improve your fuel production, while UF6 is a part of the good fuel recipe that you always want to use. T Salt is processed in the Reactor Processing Unit to yield Proactinium, which decays into even more U233, and then in the Cold Trap to yield more U233 and UF6.\n\nRemember: U233 is the early source of fuel, UF6 is the one you will switch to as you progress.\n\nMeanwhile, U Salt also processes into more fuel, but with a bonus of automated Phosphorous Dust. Unfortunately, you won\u0027t get a lot of it, but it is still a breeding output from the nuclear fission and is needed for GT++ alloys and other purposes.\n\nTB Salt is very similar to T Salt, but with higher amounts of the same output and also Beryllium Fluoride, whose output grows into more than what you used when you reach the later parts of the chain. Free Beryllium!",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "miscutils:itemCellThoriumBerylliumDepletedMoltenSaltTBSalt",
         "Count:3": 1,
         "Damage:2": 0,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "miscutils:itemCellThoriumBerylliumDepletedMoltenSaltTBSalt"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "OR",
-      "repeat_relative:1": 1,
-      "name:8": "First Half of LFTR Breeding",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "The LFTR processing chain has two halves, with the first being in mid-late IV and the second requiring the Assembly Line and more materials to finish. Aside from power, both of these halves have special outputs that can be helpful for progression, but the second half is most likely the one that holds the most value. Regardless, the full processing chain around the reactor and its fuel will keep outputting everything, so it\u0027s worth it to look at what it gives.\n\nLet\u0027s start with the LFTR Fuel 1 outputs, after the fuel is consumed in the reactor. U233 and UF6 are both used to make more fuel. U233 will be used until you have Sparge Towers to improve your fuel production, while UF6 is a part of the good fuel recipe that you always want to use. T Salt is processed in the Reactor Processing Unit to yield Proactinium, which decays into even more U233, and then in the Cold Trap to yield more U233 and UF6.\n\nRemember: U233 is the early source of fuel, UF6 is the one you will switch to as you progress.\n\nMeanwhile, U Salt also processes into more fuel, but with a bonus of automated Phosphorous Dust. Unfortunately, you won\u0027t get a lot of it, but it is still a breeding output from the nuclear fission and is needed for GT++ alloys and other purposes.\n\nTB Salt is very similar to T Salt, but with higher amounts of the same output and also Beryllium Fluoride, whose output grows into more than what you used when you reach the later parts of the chain. Free Beryllium!"
+      "lockedProgress:1": 0,
+      "name:8": "First Half of LFTR Breeding",
+      "questLogic:8": "OR",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
     }
   },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 3160,
+  "rewards:9": {},
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.blockmachines",
           "Count:3": 1,
           "Damage:2": 31031,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
         },
         "1:10": {
-          "id:8": "gregtech:gt.blockmachines",
           "Count:3": 1,
           "Damage:2": 31033,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "miscutils:itemDustUranium233",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "miscutils:itemDustUranium233"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     }
-  },
-  "rewards:9": {}
+  }
 }

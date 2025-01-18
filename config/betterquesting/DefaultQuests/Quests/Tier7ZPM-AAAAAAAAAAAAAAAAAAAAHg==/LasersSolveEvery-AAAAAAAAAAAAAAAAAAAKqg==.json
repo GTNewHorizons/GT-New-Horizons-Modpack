@@ -1,42 +1,42 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 2006
     }
   },
-  "questIDLow:4": 2730,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "Laser hatches are a high-end way of sending lots of amps of power, so much in fact, that it starts at 32A. This goes 32/64/96/128/256+ and continues from there. They\u0027re also so powerful that only a few machines support them outside of the ever §owonderful§r TecTech: LSC, MBF, MVF, and PSS. Remember to paint the Laser Vacuum Pipes, the Source Hatch, and the Target Hatch. Also, Source \u003d Output, Target \u003d Input. Laser Vacuum Pipes do not split or bend, to turn your laser use [note]Active Transformer[/note]. Later on you can use Laser Vacuum Mirror to bend your Laser Vacuum Pipes, this will however not allow splitting.\n\n[note]Laser hatches can have their operational amperage adjusted in their GUI.[/note]\n\nLaser Converters are basically: Laser Source (on machine) -\u003e Vacuum Pipes -\u003e LC -\u003e 5x output split into X amps, 32 for the first. Make sure to put it into receive mode. Or do it the other way around if you want to go up. It\u0027s basically a transformer that converts laser to/from cables. You can also use them to turn the lasers if you don\u0027t mind 3x the loss on device output (and not sending all the amps) compared to the Active Transformer (because of loss on each output). Just remember to put a battery buffer in between if you want it to work.\n\n[note]You can use the Low Power Laser Pipes if using a \u0027Low Power\u0027 Hatch or Converter, but keep in mind you\u0027ll need to connect them with wire cutters yourself after coloring them.[/note]\n\n[warn]Be careful with using very high amp hatches as every Laser Hatch has 1EU/s * max amps passive power loss. For example, a 256A Laser Source Hatch and 256A Laser Target Hatch will both lose 256 EU/s regardless of the amount of power flowing through.[/warn]",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.blockmachines",
         "Count:3": 1,
         "Damage:2": 15465,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Lasers Solve Everything",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Laser hatches are a high-end way of sending lots of amps of power, so much in fact, that it starts at 32A. This goes 32/64/96/128/256+ and continues from there. They\u0027re also so powerful that only a few machines support them outside of the ever §owonderful§r TecTech: LSC, MEBF, MVF, and PSS. Remember to paint the Laser Vacuum Pipes, the Source Hatch, and the Target Hatch. Also, Source \u003d Output, Target \u003d Input. Laser Vacuum Pipes do not split or bend, to turn your laser use [note]Active Transformer[/note]. Later on you can use Laser Vacuum Mirror to bend your Laser Vacuum Pipes, this will however not allow splitting.\n\n[note]Laser hatches can have their operational amperage adjusted in their GUI.[/note]\n\nLaser Converters are basically: Laser Source (on machine) -\u003e Vacuum Pipes -\u003e LC -\u003e 5x output split into X amps, 32 for the first. Make sure to put it into receive mode. Or do it the other way around if you want to go up. It\u0027s basically a transformer that converts laser to/from cables. You can also use them to turn the lasers if you don\u0027t mind 3x the loss on device output (and not sending all the amps) compared to the Active Transformer (because of loss on each output). Just remember to put a battery buffer in between if you want it to work.\n\n[note]You can use the Low Power Laser Pipes if using a \u0027Low Power\u0027 Hatch or Converter, but keep in mind you\u0027ll need to connect them with wire cutters yourself after coloring them.[/note]\n\n[warn]Be careful with using very high amp hatches as every Laser Hatch has 1EU/s * max amps passive power loss. For example, a 256A Laser Source Hatch and 256A Laser Target Hatch will both lose 256 EU/s regardless of the amount of power flowing through.[/warn]"
+      "lockedProgress:1": 0,
+      "name:8": "Lasers Solve Everything",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
     }
   },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 2730,
+  "rewards:9": {},
   "tasks:9": {
     "0:10": {
       "index:3": 0,
       "taskID:8": "bq_standard:checkbox"
     }
-  },
-  "rewards:9": {}
+  }
 }

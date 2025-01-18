@@ -1,80 +1,81 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 3263
     }
   },
-  "questIDLow:4": 3268,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "The thermalily consumes lava, but it\u0027s not quite as simple as just constantly replenishing a lava pool. There\u0027s a cooldown that you\u0027ll have to account for. Even so, it\u0027s a fairly easy flower to automate if you have a good lava source.",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "Botania:specialFlower",
         "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "Botania:specialFlower",
         "tag:10": {
           "type:8": "thermalily"
-        },
-        "Damage:2": 0,
-        "OreDict:8": ""
+        }
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Obligatory Lava Power",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "The thermalily consumes lava, but it\u0027s not quite as simple as just constantly replenishing a lava pool. There\u0027s a cooldown that you\u0027ll have to account for. Even so, it\u0027s a fairly easy flower to automate if you have a good lava source."
+      "lockedProgress:1": 0,
+      "name:8": "Obligatory Lava Power",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 3268,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 12,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "IC2:itemCellEmpty"
+        },
+        "1:10": {
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinFlowerII"
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "Botania:specialFlower",
           "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "Botania:specialFlower",
           "tag:10": {
             "type:8": "thermalily"
-          },
-          "Damage:2": 0,
-          "OreDict:8": ""
+          }
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 0,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "IC2:itemCellEmpty",
-          "Count:3": 12,
-          "Damage:2": 2,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "dreamcraft:item.CoinFlowerII",
-          "Count:3": 5,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

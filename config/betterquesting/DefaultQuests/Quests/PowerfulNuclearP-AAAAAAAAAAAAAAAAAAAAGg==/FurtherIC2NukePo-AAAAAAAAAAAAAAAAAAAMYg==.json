@@ -1,42 +1,42 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 3167
     }
   },
-  "questIDLow:4": 3170,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "An observant nuclear scientist might have seen many more options for IC2 nukes than those mentioned in the quests up to this point. Thorium, Uranium, Thorium, Uranium... what about all of these other things, what do they do?\n\nUnfortunately, this is where the copying of builds ends. The nuke research that has been done is almost all about the fuel rods that existed from base IC2, namely the Thorium, Uranium and MOX ones. Almost all the others were added with GTNH, and they are more or less ignored by most players. However, not all of them are useless! To see why, keep reading.\n\nGoodGenerators has added two new pairs of Uranium and Plutonium rods: High Density, and Excited. Both of these use a lot more of the element per rod, to the extent where you\u0027ll need stacks and stacks of each to run a single nuke, which means that these are fuels for later in progression, when you have stockpiled a lot of U238. The main difference is that High Density rods output a lot more EU/t with the same heat output, whereas the Excited rods do output a lot more heat than usual. This means that the former are good for vacuum nukes, while the latter are good for fluid nukes. This is true because vac nukes want more EU/t from rods with less heat, to make the coolant cells last longer, while fluid nukes produce Hot Coolant directly from the amount of heat dissipated into the reactor. The Plutonium versions also have MOX-like behavior, while the Uranium ones don\u0027t.\n\nThis is not the end of high-powered nukes, though. There is a special, one-of-a-kind fuel rod called The Core, and there is a single vac nuke setup in the wiki using these things that outputs 7.906.206 EU/t, or about 3 amps of UHV. A truly ridiculous number, matching the truly ridiculous cost of making the fuel itself. This is a setup for a time in which you shouldn\u0027t be using IC2 nukes anymore, a true challenge for the mad nuclear scientist.\n\nWhat else is there? Unfortunately, not much. Every other fuel rod is largely useless. Tiberium rods can breed Zirconium and Xenon, if you need them, Lithium breeds Tritium and the Naquadah rods are unbelievably bad at generating power, which many other better reactors to use the Naquadah in. In terms of power, nothing else is worth using.",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "miscutils:particleBase",
         "Count:3": 1,
         "Damage:2": 24,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "miscutils:particleBase"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Further IC2 Nuke Potential",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "An observant nuclear scientist might have seen many more options for IC2 nukes than those mentioned in the quests up to this point. Thorium, Uranium, Thorium, Uranium... what about all of these other things, what do they do?\n\nUnfortunately, this is where the copying of builds ends. The nuke research that has been done is almost all about the fuel rods that existed from base IC2, namely the Thorium, Uranium and MOX ones. Almost all the others were added with GTNH, and they are more or less ignored by most players. However, not all of them are useless! To see why, keep reading.\n\nGoodGenerators has added two new pairs of Uranium and Plutonium rods: High Density, and Excited. Both of these use a lot more of the element per rod, to the extent where you\u0027ll need stacks and stacks of each to run a single nuke, which means that these are fuels for later in progression, when you have stockpiled a lot of U238. The main difference is that High Density rods output a lot more EU/t with the same heat output, whereas the Excited rods do output a lot more heat than usual. This means that the former are good for vacuum nukes, while the latter are good for fluid nukes. This is true because vac nukes want more EU/t from rods with less heat, to make the coolant cells last longer, while fluid nukes produce Hot Coolant directly from the amount of heat dissipated into the reactor. The Plutonium versions also have MOX-like behavior, while the Uranium ones don\u0027t.\n\nThis is not the end of high-powered nukes, though. There is a special, one-of-a-kind fuel rod called The Core, and there is a single vac nuke setup in the wiki using these things that outputs 7.906.206 EU/t, or about 3 amps of UHV. A truly ridiculous number, matching the truly ridiculous cost of making the fuel itself. This is a setup for a time in which you shouldn\u0027t be using IC2 nukes anymore, a true challenge for the mad nuclear scientist.\n\nWhat else is there? Unfortunately, not much. Every other fuel rod is largely useless. Tiberium rods can breed Zirconium and Xenon, if you need them, Lithium breeds Tritium and the Naquadah rods are unbelievably bad at generating power, which many other better reactors to use the Naquadah in. In terms of power, nothing else is worth using."
+      "lockedProgress:1": 0,
+      "name:8": "Further IC2 Nuke Potential",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
     }
   },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 3170,
+  "rewards:9": {},
   "tasks:9": {
     "0:10": {
       "index:3": 0,
       "taskID:8": "bq_standard:checkbox"
     }
-  },
-  "rewards:9": {}
+  }
 }

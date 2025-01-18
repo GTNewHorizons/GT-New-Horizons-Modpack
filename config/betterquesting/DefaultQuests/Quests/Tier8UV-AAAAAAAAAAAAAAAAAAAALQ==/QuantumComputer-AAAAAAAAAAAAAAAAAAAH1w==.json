@@ -1,5 +1,4 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
@@ -10,105 +9,106 @@
       "questIDLow:4": 2006
     }
   },
-  "questIDLow:4": 2007,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 1,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "The Quantum Computer (QC) is an incredibly complicated machine used to generate computation for the Research Station and a few other multiblocks. There are a few things you need to understand before using one.\n\n§lCONSTRUCTION§r. Much like an assembly line, the QC is built as a series of slices. The first and last slice are the only valid locations for hatches. The slices in between are primarily for computer racks. The Multiblock Structure Hologram Projector shows the minimum length QC, but holding multiple in a single stack will show/build longer versions up to the maximum length of 16. There is also a mandatory air block in front of the computer heat vents.\n\n§lOUTPUT§r. Computation is nothing more than an integer input for certain recipes--much like EU. There may exist a minimum throughput requirement, a threshold to reach, or both (NEI will tell you everything). Computation is generated every second by the QC, transmitted by an Optical Transmission Connector, received by an Optical Reception Connector, and \"consumed\" by the machine or process that needs it. There is no storing computation and there can only be ONE transmission or reception hatch connected to the same Optical Fiber Cables at a time. If absolutely necessary, the Network Switch with QOS can split/join connections but know that it takes both power and maintenance to run.\n\nAdditional QC can be chained together using another set of Optical Transmission and Optical Reception Connectors between machines, but they cannot wallshare the same Optical Transmission Connector.\n\n§lUNCERTAINTY§r. The QC has a unique maintenance requirement that can only be corrected by balancing the Schrödinger Matrix inside an Uncertainty Resolver--an additional hatch that must go on either the first or last slice of the machine. Start with the basic Uncertainty Resolver, but know that there are two more tiers unlocked later on that lower the difficulty of the puzzle, or not?\n\nThe interface of the Uncertainty Resolver has the Schrödinger Matrix in the middle and two sets of 8 buttons on the left and right. Clicking on one button and then another will switch the states of the two corresponding cells in the matrix. This means switching their blinking speed (in the basic Uncertainty Resolver) or their shade/color (in the Uncertainty Resolver X). The goal of the puzzle is to balance the states of the matrix around the glowing LED lights, turning all of them green.\n\n§lPARAMETERS§r. In the GUI of the controller, there are two configurable parameters, overclock and overvolt, that change how computation and heat are generated. Higher overclock values contribute the most to computation and higher overvolt values contribute the most to heat. Alone, this would encourage the player to make overclock as high as possible and overvolt as low as possible, but there is a penalty to computation for large differences between these two parameters. Furthermore, overvolt values \u003c1 will cause the QC to randomly drop computation proportional to its distance from 1. It is highly encouraged to play around with these parameters, as all the best setups do.\n\nSee the adjacent quest for more information on computer racks and generating computation.",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "gregtech:gt.blockmachines",
         "Count:3": 1,
         "Damage:2": 15311,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Quantum Computer",
       "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 1,
       "isSilent:1": 0,
-      "desc:8": "The Quantum Computer (QC) is an incredibly complicated machine used to generate computation for the Research Station and a few other multiblocks. There are a few things you need to understand before using one.\n\n§lCONSTRUCTION§r. Much like an assembly line, the QC is built as a series of slices. The first and last slice are the only valid locations for hatches. The slices in between are primarily for computer racks. The Multiblock Structure Hologram Projector shows the minimum length QC, but holding multiple in a single stack will show/build longer versions up to the maximum length of 16. There is also a mandatory air block in front of the computer heat vents.\n\n§lOUTPUT§r. Computation is nothing more than an integer input for certain recipes--much like EU. There may exist a minimum throughput requirement, a threshold to reach, or both (NEI will tell you everything). Computation is generated every second by the QC, transmitted by an Optical Transmission Connector, received by an Optical Reception Connector, and \"consumed\" by the machine or process that needs it. There is no storing computation and there can only be ONE transmission or reception hatch connected to the same Optical Fiber Cables at a time. If absolutely necessary, the Network Switch with QOS can split/join connections but know that it takes both power and maintenance to run.\n\nAdditional QC can be chained together using another set of Optical Transmission and Optical Reception Connectors between machines, but they cannot wallshare the same Optical Transmission Connector.\n\n§lUNCERTAINTY§r. The QC has a unique maintenance requirement that can only be corrected by balancing the Schrödinger Matrix inside an Uncertainty Resolver--an additional hatch that must go on either the first or last slice of the machine. Start with the basic Uncertainty Resolver, but know that there are two more tiers unlocked later on that lower the difficulty of the puzzle, or not?\n\nThe interface of the Uncertainty Resolver has the Schrödinger Matrix in the middle and two sets of 8 buttons on the left and right. Clicking on one button and then another will switch the states of the two corresponding cells in the matrix. This means switching their blinking speed (in the basic Uncertainty Resolver) or their shade/color (in the Uncertainty Resolver X). The goal of the puzzle is to balance the states of the matrix around the glowing LED lights, turning all of them green.\n\n§lPARAMETERS§r. In the GUI of the controller, there are two configurable parameters, overclock and overvolt, that change how computation and heat are generated. Higher overclock values contribute the most to computation and higher overvolt values contribute the most to heat. Alone, this would encourage the player to make overclock as high as possible and overvolt as low as possible, but there is a penalty to computation for large differences between these two parameters. Furthermore, overvolt values \u003c1 will cause the QC to randomly drop computation proportional to its distance from 1. It is highly encouraged to play around with these parameters, as all the best setups do.\n\nSee the adjacent quest for more information on computer racks and generating computation."
+      "lockedProgress:1": 0,
+      "name:8": "Quantum Computer",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
     }
   },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 2007,
+  "rewards:9": {},
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "tectech:gt.blockcasingsTT",
           "Count:3": 6,
           "Damage:2": 2,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "tectech:gt.blockcasingsTT"
         },
         "1:10": {
-          "id:8": "tectech:gt.blockcasingsTT",
           "Count:3": 17,
           "Damage:2": 1,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "tectech:gt.blockcasingsTT"
         },
         "2:10": {
-          "id:8": "tectech:gt.blockcasingsTT",
           "Count:3": 10,
           "Damage:2": 3,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "tectech:gt.blockcasingsTT"
         },
         "3:10": {
-          "id:8": "gregtech:gt.blockmachines",
           "Count:3": 2,
           "Damage:2": 15450,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.blockmachines",
           "Count:3": 1,
           "Damage:2": 15311,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
         },
         "1:10": {
-          "id:8": "gregtech:gt.blockmachines",
           "Count:3": 1,
           "Damage:2": 15430,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
         },
         "2:10": {
-          "id:8": "gregtech:gt.blockmachines",
           "Count:3": 1,
           "Damage:2": 15441,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
         },
         "3:10": {
-          "id:8": "gregtech:gt.blockmachines",
           "Count:3": 1,
           "Damage:2": 15470,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     }
-  },
-  "rewards:9": {}
+  }
 }

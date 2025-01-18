@@ -1,61 +1,61 @@
 {
-  "questIDHigh:4": -3697109793471377464,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 4152663040910640064,
       "questIDLow:4": -8282566777789973916
     }
   },
-  "questIDLow:4": -6780762385437645051,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "The Ion Thruster is the advanced version of the Rocket Engine. Each Ion Thruster Base provides 25MN of force and holds up to 2,000L of Xenon. Electric power is needed, too.",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "GalacticraftAmunRa:tile.machines2",
         "Count:3": 1,
         "Damage:2": 1,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "GalacticraftAmunRa:tile.machines2"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "§oFast§r Fancy Stripes!",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "The Ion Thruster is the advanced version of the Rocket Engine. Each Ion Thruster Base provides 25MN of force and holds up to 2,000L of Xenon. Electric power is needed, too."
+      "lockedProgress:1": 0,
+      "name:8": "§oFast§r Fancy Stripes!",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
     }
   },
+  "questIDHigh:4": -3697109793471377464,
+  "questIDLow:4": -6780762385437645051,
+  "rewards:9": {},
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "GalacticraftAmunRa:tile.msBoosters1",
           "Count:3": 1,
           "Damage:2": 1,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "GalacticraftAmunRa:tile.msBoosters1"
         },
         "1:10": {
-          "id:8": "GalacticraftAmunRa:tile.machines2",
           "Count:3": 1,
           "Damage:2": 1,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "GalacticraftAmunRa:tile.machines2"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     }
-  },
-  "rewards:9": {}
+  }
 }

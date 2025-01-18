@@ -1,88 +1,90 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 176
     }
   },
-  "questIDLow:4": 190,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "Whether you used magic, steam, oil or biogas for power until now, you will run into problems as you advance to higher tiers. So you\u0027ll need to upgrade your power grid, at least for your EBF(s). So let\u0027s start with something more powerful: A nuclear reactor!\n\nIf you want to know how they work, refer to The Internet or the Reactor Planner at [url]https://github.com/MauveCloud/Ic2ExpReactorPlanner/releases[/url]\n\nNote: The EU multiplier is set to 10x in this pack. That means your nuclear reactor is 10 times more efficient. Make sure to set the planner to GTNH mode under advanced. Also, the base numbers (before 10xing) can be seen on the hover text for all the components.\n\nIf you just want to use them, go to [url]https://wiki.gtnewhorizons.com/wiki/Nuclear_Reactors[/url] for reactor designs. The Thorium 1920 EU one is probably best for now.",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "IC2:blockGenerator",
         "Count:3": 1,
         "Damage:2": 5,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "IC2:blockGenerator"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "§a§lAppropriate Power",
       "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Whether you used magic, steam, oil or biogas for power until now, you will run into problems as you advance to higher tiers. So you\u0027ll need to upgrade your power grid, at least for your EBF(s). So let\u0027s start with something more powerful: A nuclear reactor!\n\nIf you want to know how they work, refer to The Internet or the Reactor Planner at [url]https://github.com/MauveCloud/Ic2ExpReactorPlanner/releases[/url]\n\nNote: The EU multiplier is set to 10x in this pack. That means your nuclear reactor is 10 times more efficient. Make sure to set the planner to GTNH mode under advanced. Also, the base numbers (before 10xing) can be seen on the hover text for all the components.\n\nIf you just want to use them, go to [url]https://wiki.gtnewhorizons.com/wiki/Nuclear_Reactors[/url] for reactor designs. The Thorium 1920 EU one is probably best for now."
+      "lockedProgress:1": 0,
+      "name:8": "§a§lAppropriate Power",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
     }
   },
-  "tasks:9": {
-    "0:10": {
-      "partialMatch:1": 1,
-      "autoConsume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
-      "index:3": 0,
-      "consume:1": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "id:8": "IC2:blockGenerator",
-          "Count:3": 1,
-          "Damage:2": 5,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "IC2:itemFuelRod",
-          "Count:3": 4,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    }
-  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 190,
   "rewards:9": {
     "0:10": {
-      "rewardID:8": "bq_standard:item",
+      "ignoreDisabled:1": 0,
       "index:3": 0,
+      "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "id:8": "IC2NuclearControl:blockNuclearControlMain",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "IC2NuclearControl:blockNuclearControlMain"
         }
       }
     },
     "1:10": {
-      "rewardID:8": "bq_standard:item",
+      "ignoreDisabled:1": 0,
       "index:3": 1,
+      "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "id:8": "dreamcraft:item.CoinTechnicianII",
           "Count:3": 2,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnicianII"
         }
       }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "OreDict:8": "",
+          "id:8": "IC2:blockGenerator"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "IC2:itemFuelRod"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

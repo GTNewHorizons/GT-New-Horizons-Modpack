@@ -1,105 +1,107 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 1835
     }
   },
-  "questIDLow:4": 129,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "All EnderIO machines still require the basic chassis, and it\u0027s almost the same recipe as before; Except that you need plates instead of ingots. But that shouldn\u0027t be a problem at all...",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "EnderIO:itemMachinePart",
         "Count:3": 1,
         "Damage:2": 0,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "EnderIO:itemMachinePart"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "OR",
-      "repeat_relative:1": 1,
-      "name:8": "§6§lMachine Chassis",
       "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "All EnderIO machines still require the basic chassis, and it\u0027s almost the same recipe as before; Except that you need plates instead of ingots. But that shouldn\u0027t be a problem at all..."
+      "lockedProgress:1": 0,
+      "name:8": "§6§lMachine Chassis",
+      "partySingleReward:1": 0,
+      "questLogic:8": "OR",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 129,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "EnderIO:itemBasicCapacitor"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "EnderIO:itemMachinePart"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 25,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnician"
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "EnderIO:itemBasicCapacitor",
           "Count:3": 4,
           "Damage:2": 0,
-          "OreDict:8": "capacitorBasic"
+          "OreDict:8": "capacitorBasic",
+          "id:8": "EnderIO:itemBasicCapacitor"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "EnderIO:itemMachinePart",
           "Count:3": 4,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "EnderIO:itemMachinePart"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 0,
-      "choices:9": {
-        "0:10": {
-          "id:8": "EnderIO:itemBasicCapacitor",
-          "Count:3": 2,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "EnderIO:itemMachinePart",
-          "Count:3": 2,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
-    },
-    "1:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 1,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "dreamcraft:item.CoinTechnician",
-          "Count:3": 25,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

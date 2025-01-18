@@ -1,156 +1,158 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 1781
     }
   },
-  "questIDLow:4": 1782,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "Nightvision is very useful. If you combine your Goggles with a night vision potion (3:00, make sure to make 3 at a time), a golden carrot, and a flint and steel inside the Tinkers Crafting Station you get Night Vision Goggles. Place the Goggles in the Center of the Crafting Station.\n\nHint: Autorepair can be added to the goggles as well.\n\nEvery Armor has 3 slots for modification.",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "TConstruct:travelGoggles",
         "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "TConstruct:travelGoggles",
         "tag:10": {
           "TinkerArmor:10": {
-            "BaseDurability:4": 1035,
             "BaseDefense:6": 0.0,
-            "Night Vision:4": 1,
+            "BaseDurability:4": 1035,
+            "BonusDurability:4": 0,
+            "Broken:4": 0,
             "Built:4": 1,
+            "Damage:4": 0,
+            "DamageReduction:6": 0.0,
+            "Effect1:4": 0,
+            "Effect2:4": 4,
+            "MaxDefense:6": 4.0,
+            "ModDurability:6": 0.0,
+            "ModifierTip1:8": "Night Vision",
+            "ModifierTip2:8": "Moss",
+            "Modifiers:4": 1,
             "Moss:4": 3,
+            "Night Vision:4": 1,
             "Tooltip1:8": "Night Vision",
             "Tooltip2:8": "Auto-Repair",
-            "Effect2:4": 4,
-            "ModifierTip2:8": "Moss",
-            "Effect1:4": 0,
-            "ModifierTip1:8": "Night Vision",
-            "ModDurability:6": 0.0,
-            "DamageReduction:6": 0.0,
-            "Broken:4": 0,
-            "MaxDefense:6": 4.0,
-            "Damage:4": 0,
-            "BonusDurability:4": 0,
-            "Modifiers:4": 1,
             "TotalDurability:4": 1035
           }
-        },
-        "Damage:2": 0,
-        "OreDict:8": ""
+        }
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Traveller\u0027s Goggles Upgrades",
       "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Nightvision is very useful. If you combine your Goggles with a night vision potion (3:00, make sure to make 3 at a time), a golden carrot, and a flint and steel inside the Tinkers Crafting Station you get Night Vision Goggles. Place the Goggles in the Center of the Crafting Station.\n\nHint: Autorepair can be added to the goggles as well.\n\nEvery Armor has 3 slots for modification."
+      "lockedProgress:1": 0,
+      "name:8": "Traveller\u0027s Goggles Upgrades",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 1782,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 6,
+          "OreDict:8": "",
+          "id:8": "TConstruct:materials"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "Damage:2": 8198,
+          "OreDict:8": "",
+          "id:8": "minecraft:potion"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 25,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinSmith"
+        },
+        "1:10": {
+          "Count:3": 25,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinSurvivor"
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "TConstruct:travelGoggles",
           "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "TConstruct:travelGoggles",
           "tag:10": {
             "TinkerArmor:10": {
-              "BaseDurability:4": 1035,
               "BaseDefense:6": 0.0,
-              "Built:4": 1,
-              "MaxDefense:6": 4.0,
-              "Damage:4": 0,
+              "BaseDurability:4": 1035,
               "BonusDurability:4": 0,
-              "Modifiers:4": 3,
-              "TotalDurability:4": 1035,
-              "ModDurability:6": 0.0,
+              "Broken:4": 0,
+              "Built:4": 1,
+              "Damage:4": 0,
               "DamageReduction:6": 0.0,
-              "Broken:4": 0
+              "MaxDefense:6": 4.0,
+              "ModDurability:6": 0.0,
+              "Modifiers:4": 3,
+              "TotalDurability:4": 1035
             }
-          },
-          "Damage:2": 0,
-          "OreDict:8": ""
+          }
         },
         "1:10": {
-          "id:8": "minecraft:flint_and_steel",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "minecraft:flint_and_steel"
         },
         "2:10": {
-          "id:8": "minecraft:golden_carrot",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "minecraft:golden_carrot"
         },
         "3:10": {
-          "id:8": "minecraft:potion",
           "Count:3": 1,
           "Damage:2": 8198,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "minecraft:potion"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 0,
-      "choices:9": {
-        "0:10": {
-          "id:8": "TConstruct:materials",
-          "Count:3": 1,
-          "Damage:2": 6,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "minecraft:potion",
-          "Count:3": 2,
-          "Damage:2": 8198,
-          "OreDict:8": ""
-        },
-        "2:10": {
-          "id:8": "enhancedlootbags:lootbag",
-          "Count:3": 1,
-          "Damage:2": 5,
-          "OreDict:8": ""
-        }
-      }
-    },
-    "1:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 1,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "dreamcraft:item.CoinSmith",
-          "Count:3": 25,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "dreamcraft:item.CoinSurvivor",
-          "Count:3": 25,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

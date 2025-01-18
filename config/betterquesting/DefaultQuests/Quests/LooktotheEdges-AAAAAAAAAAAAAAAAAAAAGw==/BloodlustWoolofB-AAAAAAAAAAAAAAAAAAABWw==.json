@@ -1,87 +1,89 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 335
     }
   },
-  "questIDLow:4": 347,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "In case you just can\u0027t get it to drop.",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "witchery:ingredient",
         "Count:3": 1,
         "Damage:2": 24,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "witchery:ingredient"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Bloodlust: Wool of Bat",
       "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "In case you just can\u0027t get it to drop."
+      "lockedProgress:1": 0,
+      "name:8": "Bloodlust: Wool of Bat",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
     }
   },
-  "tasks:9": {
-    "0:10": {
-      "ignoreNBT:1": 1,
-      "index:3": 0,
-      "targetNBT:10": {},
-      "damageType:8": "",
-      "required:3": 10,
-      "taskID:8": "bq_standard:hunt",
-      "target:8": "witchery.hellhound",
-      "subtypes:1": 1
-    }
-  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 347,
   "rewards:9": {
     "0:10": {
-      "rewardID:8": "bq_standard:item",
+      "ignoreDisabled:1": 0,
       "index:3": 0,
+      "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "id:8": "witchery:ingredient",
           "Count:3": 1,
           "Damage:2": 24,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "witchery:ingredient"
         },
         "1:10": {
-          "id:8": "enhancedlootbags:lootbag",
           "Count:3": 1,
           "Damage:2": 54,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
         }
       }
     },
     "1:10": {
-      "rewardID:8": "bq_standard:item",
+      "ignoreDisabled:1": 0,
       "index:3": 1,
+      "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "id:8": "dreamcraft:item.CoinSurvivorI",
           "Count:3": 5,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinSurvivorI"
         },
         "1:10": {
-          "id:8": "dreamcraft:item.CoinDarkWizardI",
           "Count:3": 5,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinDarkWizardI"
         }
       }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "damageType:8": "",
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "required:3": 10,
+      "subtypes:1": 1,
+      "target:8": "witchery.hellhound",
+      "targetNBT:10": {},
+      "taskID:8": "bq_standard:hunt"
     }
   }
 }

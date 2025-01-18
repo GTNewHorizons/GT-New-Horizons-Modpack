@@ -1,5 +1,4 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
@@ -10,165 +9,169 @@
       "questIDLow:4": 495
     }
   },
-  "questIDLow:4": 1285,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "Diamond Spikes damages mobs (or you!) that touch any side of it other than the bottom. With 7 attack damage, the Spike does as much damage as a Diamond Sword. Mobs will not walk around the block, but will try to walk over it as if it were a regular solid block. Most explosions won\u0027t destroy the Spike because it has a very high blast resistance.\n\nThese can also be enchanted with all the enchantments a regular diamond sword would receive. This includes Looting and Sharpness, which function exactly as it does on a sword. Interestingly, mobs killed by the Diamond Spike will return experience as if killed by the player.\n\nThere are weaker versions, but who wants that? If you happen to want the last hit, you might want the wooden ones though.",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "ExtraUtilities:spike_base_diamond",
         "Count:3": 1,
         "Damage:2": 0,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "ExtraUtilities:spike_base_diamond"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "§5§lDiamond Spikes",
       "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Diamond Spikes damages mobs (or you!) that touch any side of it other than the bottom. With 7 attack damage, the Spike does as much damage as a Diamond Sword. Mobs will not walk around the block, but will try to walk over it as if it were a regular solid block. Most explosions won\u0027t destroy the Spike because it has a very high blast resistance.\n\nThese can also be enchanted with all the enchantments a regular diamond sword would receive. This includes Looting and Sharpness, which function exactly as it does on a sword. Interestingly, mobs killed by the Diamond Spike will return experience as if killed by the player.\n\nThere are weaker versions, but who wants that? If you happen to want the last hit, you might want the wooden ones though."
+      "lockedProgress:1": 0,
+      "name:8": "§5§lDiamond Spikes",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 1285,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "harvestcraft:heartybreakfastItem"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "harvestcraft:epicbaconItem"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      }
+    },
+    "1:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 9,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:diamond"
+        },
+        "1:10": {
+          "Count:3": 12,
+          "Damage:2": 17305,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "2:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 2,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 15,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnician"
+        },
+        "1:10": {
+          "Count:3": 15,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinSurvivor"
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "minecraft:stick",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "minecraft:stick"
         },
         "1:10": {
-          "id:8": "gregtech:gt.metaitem.01",
           "Count:3": 2,
           "Damage:2": 27500,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
         },
         "2:10": {
-          "id:8": "gregtech:gt.metaitem.01",
           "Count:3": 5,
           "Damage:2": 17500,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
         },
         "3:10": {
-          "id:8": "minecraft:diamond_block",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "minecraft:diamond_block"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "minecraft:diamond_sword",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "minecraft:diamond_sword"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
     },
     "2:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 2,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "ExtraUtilities:spike_base_diamond",
           "Count:3": 2,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "ExtraUtilities:spike_base_diamond"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 0,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "harvestcraft:heartybreakfastItem",
-          "Count:3": 2,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "harvestcraft:epicbaconItem",
-          "Count:3": 2,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "2:10": {
-          "id:8": "enhancedlootbags:lootbag",
-          "Count:3": 1,
-          "Damage:2": 4,
-          "OreDict:8": ""
-        }
-      }
-    },
-    "1:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 1,
-      "choices:9": {
-        "0:10": {
-          "id:8": "minecraft:diamond",
-          "Count:3": 9,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 12,
-          "Damage:2": 17305,
-          "OreDict:8": ""
-        }
-      }
-    },
-    "2:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 2,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "dreamcraft:item.CoinTechnician",
-          "Count:3": 15,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "dreamcraft:item.CoinSurvivor",
-          "Count:3": 15,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

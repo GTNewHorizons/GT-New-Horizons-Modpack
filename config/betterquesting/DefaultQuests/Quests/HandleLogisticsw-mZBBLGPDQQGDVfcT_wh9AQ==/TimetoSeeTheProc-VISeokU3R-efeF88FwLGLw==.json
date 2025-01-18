@@ -1,74 +1,75 @@
 {
-  "questIDHigh:4": 6090167015894894567,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": -2377130238576801560,
       "questIDLow:4": -6712615400254826381
     }
   },
-  "questIDLow:4": -6955704912784996817,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "Want to see how the system is handling the request and fix it when you find things get stuck? Here is the upgrade for you.\n\nThe Crafting Monitoring Upgrade can let you view the current progress of the request. So if you find your crafting request is taking an abnormally long time and nothing is crafted by your machines, you may want to take a look here.\n\nIt can be applied to your Logistics Request Table.",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "LogisticsPipes:item.itemUpgrade",
         "Count:3": 1,
         "Damage:2": 41,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "LogisticsPipes:item.itemUpgrade"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Time to See The Process",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Want to see how the system is handling the request and fix it when you find things get stuck? Here is the upgrade for you.\n\nThe Crafting Monitoring Upgrade can let you view the current progress of the request. So if you find your crafting request is taking an abnormally long time and nothing is crafted by your machines, you may want to take a look here.\n\nIt can be applied to your Logistics Request Table."
+      "lockedProgress:1": 0,
+      "name:8": "Time to See The Process",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 6090167015894894567,
+  "questIDLow:4": -6955704912784996817,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        },
+        "1:10": {
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnicianI"
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "LogisticsPipes:item.itemUpgrade",
           "Count:3": 1,
           "Damage:2": 41,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "LogisticsPipes:item.itemUpgrade"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 0,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "enhancedlootbags:lootbag",
-          "Count:3": 1,
-          "Damage:2": 5,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "dreamcraft:item.CoinTechnicianI",
-          "Count:3": 5,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

@@ -1,51 +1,52 @@
 {
-  "questIDHigh:4": -2396217196736196889,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 934917285194189830,
       "questIDLow:4": -4721119019196807237
     }
   },
-  "questIDLow:4": -8084303837458271711,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "It\u0027s like cured meat... no, not at all, many sacrifices were made on the path to understanding radioactivity, may they be remembered forever. This goes to you, Marie and Pierre Curie.\n\nThis is the only non-plasma produced in a fusion reaction in this entire chain. That\u0027s not the important part, though: the important part is that [warn]this is one of the bottlenecks of the chain.[/warn] For every reactor running the final recipe, you will need around 0.144 reactors of this, so you won\u0027t make it to a compact at the end with just one mk1 reactor. Expect to follow the count of the second-to-last recipe, the Advanced Nitinol one.",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "miscutils:itemCellCurium",
         "Count:3": 1,
         "Damage:2": 0,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "miscutils:itemCellCurium"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Marie Curium?",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "It\u0027s like cured meat... no, not at all, many sacrifices were made on the path to understanding radioactivity, may they be remembered forever. This goes to you, Marie and Pierre Curie.\n\nThis is the only non-plasma produced in a fusion reaction in this entire chain. That\u0027s not the important part, though: the important part is that [warn]this is one of the bottlenecks of the chain.[/warn] For every reactor running the final recipe, you will need around 0.144 reactors of this, so you won\u0027t make it to a compact at the end with just one mk1 reactor. Expect to follow the count of the second-to-last recipe, the Advanced Nitinol one."
+      "lockedProgress:1": 0,
+      "name:8": "Marie Curium?",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
     }
   },
+  "questIDHigh:4": -2396217196736196889,
+  "questIDLow:4": -8084303837458271711,
+  "rewards:9": {},
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "miscutils:itemCellCurium",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "miscutils:itemCellCurium"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -54,6 +55,5 @@
       "index:3": 1,
       "taskID:8": "bq_standard:checkbox"
     }
-  },
-  "rewards:9": {}
+  }
 }

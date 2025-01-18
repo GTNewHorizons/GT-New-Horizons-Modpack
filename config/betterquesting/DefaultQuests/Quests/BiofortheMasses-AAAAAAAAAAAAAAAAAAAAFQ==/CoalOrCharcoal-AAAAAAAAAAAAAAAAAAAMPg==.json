@@ -1,114 +1,115 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 3128
     }
   },
-  "questIDLow:4": 3134,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "The Super Fuels are blocks of burnable material, like Coal Blocks, which they need in their crafting recipe. It doesn\u0027t have to be Coal, though: you can do Coal, Charcoal or Coal Coke, and all of them make the same amount of Super Fuel. However, the amount of fluid fuel used changes based on which kind of block you used, which poses a problem.\n\n(We will ignore Lignite Coal, since it is by far the worst option. If you want to use it, dealing with the efficiency problem is up to you.)\n\nThe problem is this: the amount of EU you save by choosing Charcoal instead of the other two is less than the amount of EU that the additional fuel can make. Basically, the most efficient option is Coal Coke, then Coal, then Charcoal. The easiest option to automate is certainly Charcoal, which means this is a choice between ease of automation and fuel efficiency. Even if you use Charcoal, you will still get more EU from the final fuel than what you used as input.\n\nCoal can be automated too, though! There are many ways to do this, but the most popular way of automating items that aren\u0027t renewable by default is usually by using either IC2 crops or Forestry bees, both of which have their own renewable Coal. If you never made progress in either of those, keep in mind that they need time and effort to give you good results, but if you have, then they are great options to make this fuel even more efficiently. Naturally, you will then turn it into Coal Coke with Pyrolyse Ovens, ACOs or ICOs.\n\nStock up on either Charcoal or Coal Coke blocks to continue.",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "minecraft:coal_block",
         "Count:3": 1,
         "Damage:2": 0,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "minecraft:coal_block"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Coal Or Charcoal",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "The Super Fuels are blocks of burnable material, like Coal Blocks, which they need in their crafting recipe. It doesn\u0027t have to be Coal, though: you can do Coal, Charcoal or Coal Coke, and all of them make the same amount of Super Fuel. However, the amount of fluid fuel used changes based on which kind of block you used, which poses a problem.\n\n(We will ignore Lignite Coal, since it is by far the worst option. If you want to use it, dealing with the efficiency problem is up to you.)\n\nThe problem is this: the amount of EU you save by choosing Charcoal instead of the other two is less than the amount of EU that the additional fuel can make. Basically, the most efficient option is Coal Coke, then Coal, then Charcoal. The easiest option to automate is certainly Charcoal, which means this is a choice between ease of automation and fuel efficiency. Even if you use Charcoal, you will still get more EU from the final fuel than what you used as input.\n\nCoal can be automated too, though! There are many ways to do this, but the most popular way of automating items that aren\u0027t renewable by default is usually by using either IC2 crops or Forestry bees, both of which have their own renewable Coal. If you never made progress in either of those, keep in mind that they need time and effort to give you good results, but if you have, then they are great options to make this fuel even more efficiently. Naturally, you will then turn it into Coal Coke with Pyrolyse Ovens, ACOs or ICOs.\n\nStock up on either Charcoal or Coal Coke blocks to continue."
+      "lockedProgress:1": 0,
+      "name:8": "Coal Or Charcoal",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 3134,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 32,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:coal_block"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 7,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnicianIII"
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "dreamcraft:tile.Charcoal",
           "Count:3": 256,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "dreamcraft:tile.Charcoal"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "Railcraft:cube",
           "Count:3": 64,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "Railcraft:cube"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
     },
     "2:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 2,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.blockmachines",
           "Count:3": 1,
           "Damage:2": 244,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 0,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "minecraft:coal_block",
-          "Count:3": 32,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "enhancedlootbags:lootbag",
-          "Count:3": 1,
-          "Damage:2": 7,
-          "OreDict:8": ""
-        },
-        "2:10": {
-          "id:8": "dreamcraft:item.CoinTechnicianIII",
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

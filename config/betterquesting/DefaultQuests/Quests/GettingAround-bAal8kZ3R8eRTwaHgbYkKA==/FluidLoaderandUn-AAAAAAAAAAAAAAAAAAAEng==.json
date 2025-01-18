@@ -1,132 +1,134 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 866
     }
   },
-  "questIDLow:4": 1182,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "If you plan to automate the oil transport from your oil field far away, you need a fluid loader and unloader. A locking track will stop the train as long as oil is loaded or unloaded.\n\n[note]PS: You should probably use the Long Distance Fluid Pipeline once you can make it in LV unless you really love trains.[/note]\n\nFull details on how to use these may require online research (GTNH changes the recipes, not normal Railcraft functionality), but here is a simple list of things to do:\n\n1. Make a loop of track from your base to the oil well.\n2. Place a locking track near the well, and put a fluid loader two blocks above it. The track should be in Locking Mode - use a crowbar to change it.\n3. Use the tank car on the filter in the loader and set it to Immediate mode.\n4. Connect the well to the loader as normal.\n5. Put a fluid unloader under a locking track at your base, and set it the same as the loader.\n6. Automate the locomotive similarly - a fluid loader above a steam locomotive set to manual and filtered to the locomotive.\n\nEither you got it working, you need to do more research, you realized it moves 32 buckets a trip and decided to just walk, or you can go to Discord and ask why anyone would build a train.\n\nItem loaders also exist, but the main use for them may be to refuel your locomotive.",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "Railcraft:machine.gamma",
         "Count:3": 1,
         "Damage:2": 4,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "Railcraft:machine.gamma"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Fluid Loader and Unloader",
       "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "If you plan to automate the oil transport from your oil field far away, you need a fluid loader and unloader. A locking track will stop the train as long as oil is loaded or unloaded.\n\n[note]PS: You should probably use the Long Distance Fluid Pipeline once you can make it in LV unless you really love trains.[/note]\n\nFull details on how to use these may require online research (GTNH changes the recipes, not normal Railcraft functionality), but here is a simple list of things to do:\n\n1. Make a loop of track from your base to the oil well.\n2. Place a locking track near the well, and put a fluid loader two blocks above it. The track should be in Locking Mode - use a crowbar to change it.\n3. Use the tank car on the filter in the loader and set it to Immediate mode.\n4. Connect the well to the loader as normal.\n5. Put a fluid unloader under a locking track at your base, and set it the same as the loader.\n6. Automate the locomotive similarly - a fluid loader above a steam locomotive set to manual and filtered to the locomotive.\n\nEither you got it working, you need to do more research, you realized it moves 32 buckets a trip and decided to just walk, or you can go to Discord and ask why anyone would build a train.\n\nItem loaders also exist, but the main use for them may be to refuel your locomotive."
+      "lockedProgress:1": 0,
+      "name:8": "Fluid Loader and Unloader",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 1182,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 128,
+          "Damage:2": 5103,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 32610,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "2:10": {
+          "Count:3": 64,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:rail"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 32,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 25,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinAdventure"
+        },
+        "1:10": {
+          "Count:3": 25,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnician"
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "Railcraft:machine.gamma",
           "Count:3": 1,
           "Damage:2": 4,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "Railcraft:machine.gamma"
         },
         "1:10": {
-          "id:8": "Railcraft:machine.gamma",
           "Count:3": 1,
           "Damage:2": 5,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "Railcraft:machine.gamma"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "Railcraft:track",
           "Count:3": 2,
+          "Damage:2": 20176,
+          "OreDict:8": "",
+          "id:8": "Railcraft:track",
           "tag:10": {
             "track:8": "railcraft:track.locking"
-          },
-          "Damage:2": 20176,
-          "OreDict:8": ""
+          }
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 0,
-      "choices:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.blockmachines",
-          "Count:3": 128,
-          "Damage:2": 5103,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 1,
-          "Damage:2": 32610,
-          "OreDict:8": ""
-        },
-        "2:10": {
-          "id:8": "minecraft:rail",
-          "Count:3": 64,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "3:10": {
-          "id:8": "enhancedlootbags:lootbag",
-          "Count:3": 1,
-          "Damage:2": 32,
-          "OreDict:8": ""
-        }
-      }
-    },
-    "1:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 1,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "dreamcraft:item.CoinAdventure",
-          "Count:3": 25,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "dreamcraft:item.CoinTechnician",
-          "Count:3": 25,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

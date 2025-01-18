@@ -1,5 +1,4 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
@@ -11,96 +10,99 @@
       "questIDLow:4": 948
     }
   },
-  "questIDLow:4": 73,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 1,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "All machines need a hull to keep their private parts together. Good news is: They are crafted in the same way for every tier, only the materials change.\n\n§3As noted on the tooltip, you can also use a machine hull to pass EU through, at 1A. This can be useful for a 1A diode on Thermos servers, splitting cables from 4A-\u003e1A or in a cleanroom later. You can also pass items or fluids through it.",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "gregtech:gt.blockmachines",
         "Count:3": 1,
         "Damage:2": 11,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "§3§lBasic Crafting: Machine Hulls",
       "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 1,
       "isSilent:1": 0,
-      "desc:8": "All machines need a hull to keep their private parts together. Good news is: They are crafted in the same way for every tier, only the materials change.\n\n§3As noted on the tooltip, you can also use a machine hull to pass EU through, at 1A. This can be useful for a 1A diode on Thermos servers, splitting cables from 4A-\u003e1A or in a cleanroom later. You can also pass items or fluids through it."
+      "lockedProgress:1": 0,
+      "name:8": "§3§lBasic Crafting: Machine Hulls",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 73,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "harvestcraft:poachedpearItem"
+        }
+      }
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 15,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnician"
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
+      "allowAnvil:1": 0,
+      "allowCraft:1": 1,
       "allowCraftedFromStatistics:1": 0,
       "allowSmelt:1": 1,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "allowCraft:1": 1,
-      "allowAnvil:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.blockcasings",
           "Count:3": 1,
           "Damage:2": 1,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings"
         }
       },
       "taskID:8": "bq_standard:crafting"
     },
     "1:10": {
-      "partialMatch:1": 1,
+      "allowAnvil:1": 0,
+      "allowCraft:1": 1,
       "allowCraftedFromStatistics:1": 0,
       "allowSmelt:1": 1,
       "ignoreNBT:1": 1,
       "index:3": 1,
-      "allowCraft:1": 1,
-      "allowAnvil:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.blockmachines",
           "Count:3": 1,
           "Damage:2": 11,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
         }
       },
       "taskID:8": "bq_standard:crafting"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 0,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "harvestcraft:poachedpearItem",
-          "Count:3": 2,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
-    },
-    "1:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 1,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "dreamcraft:item.CoinTechnician",
-          "Count:3": 15,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

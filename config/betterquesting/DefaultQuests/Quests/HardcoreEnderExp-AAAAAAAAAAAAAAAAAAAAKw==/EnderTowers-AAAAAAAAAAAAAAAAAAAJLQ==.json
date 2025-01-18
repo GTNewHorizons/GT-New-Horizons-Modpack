@@ -1,144 +1,146 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 2350
     }
   },
-  "questIDLow:4": 2349,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "Once you\u0027ve explored a bit, you\u0027ll find large towering buildings that increase in difficulty as you go upwards, culminating in a dangerous boss fight.\n\nBe wary and bring strong protective armor!\n\nIf you are incredibly lucky, these towers can also offer rare items or blocks.",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "HardcoreEnderExpansion:obsidian_special_glow",
         "Count:3": 1,
         "Damage:2": 1,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "HardcoreEnderExpansion:obsidian_special_glow"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Ender Towers",
       "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Once you\u0027ve explored a bit, you\u0027ll find large towering buildings that increase in difficulty as you go upwards, culminating in a dangerous boss fight.\n\nBe wary and bring strong protective armor!\n\nIf you are incredibly lucky, these towers can also offer rare items or blocks."
+      "lockedProgress:1": 0,
+      "name:8": "Ender Towers",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 2349,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:magma_cream"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "HardcoreEnderExpansion:enderman_head"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 57,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinAdventureII"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinSurvivorII"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "HardcoreEnderExpansion:knowledge_note",
+          "tag:10": {
+            "pts:1": 55
+          }
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "HardcoreEnderExpansion:obsidian_special",
           "Count:3": 1,
           "Damage:2": 2,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "HardcoreEnderExpansion:obsidian_special"
         },
         "1:10": {
-          "id:8": "HardcoreEnderExpansion:obsidian_special",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "HardcoreEnderExpansion:obsidian_special"
         },
         "2:10": {
-          "id:8": "HardcoreEnderExpansion:obsidian_special_glow",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "HardcoreEnderExpansion:obsidian_special_glow"
         },
         "3:10": {
-          "id:8": "HardcoreEnderExpansion:obsidian_special_glow",
           "Count:3": 1,
           "Damage:2": 1,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "HardcoreEnderExpansion:obsidian_special_glow"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "minecraft:ender_pearl",
           "Count:3": 16,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "minecraft:ender_pearl"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 0,
-      "choices:9": {
-        "0:10": {
-          "id:8": "minecraft:magma_cream",
-          "Count:3": 8,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "HardcoreEnderExpansion:enderman_head",
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "2:10": {
-          "id:8": "enhancedlootbags:lootbag",
-          "Count:3": 1,
-          "Damage:2": 57,
-          "OreDict:8": ""
-        }
-      }
-    },
-    "1:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 1,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "dreamcraft:item.CoinAdventureII",
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "dreamcraft:item.CoinSurvivorII",
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "2:10": {
-          "id:8": "HardcoreEnderExpansion:knowledge_note",
-          "Count:3": 1,
-          "tag:10": {
-            "pts:1": 55
-          },
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }
