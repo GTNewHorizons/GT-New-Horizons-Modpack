@@ -11,7 +11,5 @@
   ],
   "radius": 9,
   "cost": 750000,
-  "focusModId": "minecraft",
-  "focusName": "nether_star",
-  "focusMeta": 0
+  "focusItem": "minecraft:nether_star"
 }

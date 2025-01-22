@@ -8,7 +8,5 @@
   ],
   "radius": 14,
   "cost": 50000000,
-  "focusModId": "gregtech",
-  "focusName": "gt.metaitem.03",
-  "focusMeta": 32094
+  "focusItem": "gregtech:gt.metaitem.03:32094"
 }

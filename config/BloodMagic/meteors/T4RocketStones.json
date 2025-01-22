@@ -11,7 +11,5 @@
   ],
   "radius": 20,
   "cost": 7500000,
-  "focusModId": "dreamcraft",
-  "focusName": "item.HeavyDutyPlateTier4",
-  "focusMeta": 0
+  "focusItem": "dreamcraft:item.HeavyDutyPlateTier4"
 }

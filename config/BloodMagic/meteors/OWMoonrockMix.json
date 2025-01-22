@@ -19,8 +19,6 @@
   ],
   "radius": 15,
   "cost": 650000,
-  "focusModId": "harvestcraft",
-  "focusName": "cheeseItem",
-  "focusMeta": 0,
+  "focusItem": "harvestcraft:cheeseItem",
   "fillerChance": 50
 }

@@ -19,7 +19,5 @@
   ],
   "radius": 8,
   "cost": 123456,
-  "focusModId": "minecraft",
-  "focusName": "melon_block",
-  "focusMeta": 0
+  "focusItem": "minecraft:melon_block"
 }
