@@ -7,7 +7,5 @@
   ],
   "radius": 20,
   "cost": 775000,
-  "focusModId": "minecraft",
-  "focusName": "tnt",
-  "focusMeta": 0
+  "focusItem": "minecraft:tnt"
 }

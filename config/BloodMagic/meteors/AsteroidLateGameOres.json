@@ -21,7 +21,5 @@
   ],
   "radius": 22,
   "cost": 100000000,
-  "focusModId": "gregtech",
-  "focusName": "gt.blockmachines",
-  "focusMeta": 10951
+  "focusItem": "gregtech:gt.blockmachines:10951"
 }

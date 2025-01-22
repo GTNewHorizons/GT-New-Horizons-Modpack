@@ -23,8 +23,6 @@
   ],
   "radius": 16,
   "cost": 300000,
-  "focusModId": "gregtech",
-  "focusName": "gt.metaitem.01",
-  "focusMeta": 32680,
+  "focusItem": "gregtech:gt.metaitem.01:32680",
   "fillerChance": 18
 }

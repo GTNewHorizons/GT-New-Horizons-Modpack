@@ -15,7 +15,5 @@
   ],
   "radius": 20,
   "cost": 1000000,
-  "focusModId": "GalacticraftMars",
-  "focusName": "item.itemBasicAsteroids",
-  "focusMeta": 0
+  "focusItem": "GalacticraftMars:item.itemBasicAsteroids"
 }

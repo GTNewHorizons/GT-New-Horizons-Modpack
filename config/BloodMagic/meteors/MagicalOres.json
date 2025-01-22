@@ -18,8 +18,6 @@
   ],
   "radius": 15,
   "cost": 800000,
-  "focusModId": "Thaumcraft",
-  "focusName": "ItemSanitySoap",
-  "focusMeta": 0,
+  "focusItem": "Thaumcraft:ItemSanitySoap",
   "fillerChance": 11
 }

@@ -11,8 +11,6 @@
   ],
   "radius": 12,
   "cost": 500000,
-  "focusModId": "minecraft",
-  "focusName": "end_stone",
-  "focusMeta": 0,
+  "focusItem": "minecraft:end_stone",
   "fillerChance": 76
 }

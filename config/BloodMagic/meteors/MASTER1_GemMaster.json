@@ -29,7 +29,5 @@
   ],
   "radius": 32,
   "cost": 90000000,
-  "focusModId": "kubatech",
-  "focusName": "defc.casing",
-  "focusMeta": 8
+  "focusItem": "kubatech:defc.casing:8"
 }
