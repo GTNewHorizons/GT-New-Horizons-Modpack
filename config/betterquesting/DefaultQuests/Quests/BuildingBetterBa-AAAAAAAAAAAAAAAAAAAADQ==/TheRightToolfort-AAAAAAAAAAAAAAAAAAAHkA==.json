@@ -42,9 +42,9 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 4,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "TConstruct:GravelOre"
+          "id:8": "dreamcraft:ZincGravelOre"
         }
       }
     }
