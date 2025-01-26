@@ -75,7 +75,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABjA.desc=GregTech New Horizons is a long
 
 # Quest: Even more challenges needed?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABjQ.name=§1§lEven more challenges needed?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABjQ.desc=You have played through most of the pack a few times already? Maybe you even made a Stargate? Or are you just looking for something a bit different? Don't worry, we have a few options for you:%n%n- Play in Hardcore. Either Minecraft Hardcore, or BetterQuesting Hardcore. The latter is a bit more forgiving. Maybe this seems impossible, but people have indeed reached UEV+ in Minecraft Hardcore. Better be prepared to restart a few times. This is obviously not for everybody.%n%n- Never make a rocket. The so called §ono-rocket run§r is somewhat supported by now, you will be able to do almost everything in the pack. Use bees, crops, and blood magic meteors as your main resource production. Be warned though that such a challenge is grindy and slow. For instance, you might need to collect large amounts of aluminium gravel to get your first titanium. Or have to start breeding bees early without much technology to help.%n%n- Skyblock. Yes, really. It is also known as Garden of Grind and it is absolutely brutal. There is no actually supported skyblock version of the pack but some players have figured out the minimal amount of changes needed to make it work. Ask around or search on the official discord channel for all the details. But don't expect any fun down this road.%n%n- Speedrunning. A few players have designed some basic rules and have started to record speedruns to early game goals like the Coke Oven. Ask around or search on the official discord channel for all the details. Maybe you just want to watch how they do it.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABjQ.desc=You have played through most of the pack a few times already? Maybe you even made a Stargate? Or are you just looking for something a bit different? Don't worry, we have a few options for you:%n%n- Play in Hardcore. Either Minecraft Hardcore, or BetterQuesting Hardcore. The latter is a bit more forgiving. Maybe this seems impossible, but people have indeed reached UEV+ in Minecraft Hardcore. Better be prepared to restart a few times. This is obviously not for everybody.%n%n- Never make a rocket. The so called §ono-rocket run§r is somewhat supported by now, you will be able to do almost everything in the pack. Use bees, crops, and blood magic meteors as your main resource production. Be warned though that such a challenge is grindy and slow. For instance, you might need to collect large amounts of andratite ore or via the aluminium bauxite slag route to get your first titanium. Or have to start breeding bees early without much technology to help.%n%n- Skyblock. Yes, really. It is also known as Garden of Grind and it is absolutely brutal. There is no actually supported skyblock version of the pack but some players have figured out the minimal amount of changes needed to make it work. Ask around or search on the official discord channel for all the details. But don't expect any fun down this road.%n%n- Speedrunning. A few players have designed some basic rules and have started to record speedruns to early game goals like the Coke Oven. Ask around or search on the official discord channel for all the details. Maybe you just want to watch how they do it.
 
 # Quest: Oak Trees Are Not Apple Trees
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABuA.name=§1§lOak Trees Are Not Apple Trees
@@ -219,9 +219,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIA.desc=After you found a way to move w
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIQ.name=§2§lTinker-Time
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIQ.desc=While using your flint tools is fun in terms of killing pigs and cows, they are not long-lasting and can't be repaired. Plus Infernals laugh at your attempts to kill them. You discovered how to craft tools that can be repaired and upgraded, but for that you definitely need a more advanced crafting technique.%n%nIf you have to use wood other than oak to make your tables, you can convert them to the default oak wood type to complete this quest.
 
-# Quest: Aluminini...um...?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIg.name=§2§lAluminini...um...?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIg.desc=However it is spelled, you will need it. You can find it in chunks of gravel on the surface.%n%nUse as little as possible and save the rest for when you get a macerator in Steam age, you'll get twice as much.%n%nIf you can't find any, you can get aluminum oreberries to plant from quest rewards, or you can buy them in the Coins tab.%n%nIf you get enough and fully process it, you can also get rutile for titanium out of it. Get a block of that, and you can grow the Titania crop so you can make more out of UUM. The no-rocket run starts here!
+# Quest: Zinc Gravel
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIg.name=§2§lZinc Gravel
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIg.desc=You can find it in chunks of gravel on the surface.%n%nUse as little as possible and save the rest for when you get a macerator in Steam age, you'll get twice as much.%n%nIf you can't find any, you can buy them in the Coins tab.%n%nIf you get enough and fully process it, you can also get gallium for gallium arsenide in LV age.
 
 # Quest: Making Bronze
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIw.name=§2§lMaking Bronze
@@ -237,7 +237,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAJQ.desc=Iron can be found in multiple v
 
 # Quest: Making Better Tools
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAJg.name=§2§lMaking Better Tools
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAJg.desc=With aluminium and copper, you can create a material with a higher melting temperature - Aluminum Brass - which can be used to cast better tools.%n%nFor that, you need a smeltery. See the Multiblock Goals tab for details. You can also grab some extra blocks from some villages, but they don't count towards the quest.%n%nAlternatively, there are also one-time-use clay casts available.%n%nYou can then use your fancy bronze to make better tools with a higher mining level.%n%nRemember, you need to use the pickaxe a bit to gather mining XP if you want the full mining level on your bronze pickaxe. Certain tool upgrades can give that directly if you have an upgrade slot available.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAJg.desc=With zinc and copper, you can create a material with a higher melting temperature - Brass - which can be used to cast better tools.%n%nFor that, you need a smeltery. See the Multiblock Goals tab for details. You can also grab some extra blocks from some villages, but they don't count towards the quest.%n%nAlternatively, there are also one-time-use clay casts available.%n%nYou can then use your fancy bronze to make better tools with a higher mining level.%n%nRemember, you need to use the pickaxe a bit to gather mining XP if you want the full mining level on your bronze pickaxe. Certain tool upgrades can give that directly if you have an upgrade slot available.
 
 # Quest: Better Storage
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAJw.name=§2§lBetter Storage
@@ -399,9 +399,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHPA.desc=...But she'll never stop becaus
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHSA.name=§2§lNo Self-Healing Tools Here...Yet
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHSA.desc=New players might be surprised by finding the Tinker's Construct Ball of Moss in NEI not showing an actual recipe.%n%nIn this pack you have to first gain expertise in Thaumcraft to craft it. Go and become a dangerous wizard, and you'll gain the power needed to craft the Ball of Moss and make your tools heal themselves. Of course, you need to get to the Twilight Forest and get some aluminium ingots before you can begin. The Ball of Moss is in the GTNH tab of the Thaumonomicon, and requires infusion. There are many other great things in the Thaumonomicon, but be wary of warp.%n%nHave a beer to prepare for your long journey.
 
-# Quest: Options For Finding Aluminium in This Tier
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHSg.name=§2§lOptions For Finding Aluminium in This Tier
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHSg.desc=It can be hard to find Aluminum Gravel Ore on old servers or unlucky world seeds.%n%nThe alternatives are:%n- Planting the Aluminum Ore Berries from the Smeltery quest,%n- Searching for aluminium bars in chests,%n- A recipe with XP buckets on a crafting table.%n%nOnce you reach LV, you can get aluminium from processing various ores or smelting Sapphire in an Electric Blast Furnace (EBF).%nAt MV, you can electrolyze clay dust or red granite dust. Check NEI for more options.
+# Quest: Options For Finding Zinc in This Tier
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHSg.name=§2§lOptions For Finding Zinc in This Tier
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHSg.desc=It can be hard to find Zinc Gravel Ore on old servers or unlucky world seeds.%n%nThe alternatives are:%n- Buy the zinc gravel in the Coins Coins coins tab,%n- Searching for small zinc ore in the overworld,%n- A recipe with XP buckets on a crafting table.%n%nOnce you reach LV, you can get zinc from processing various ores like antimony, sphalerite, tetrahedrite and tin.%nCheck NEI for more options.
 
 # Quest: How to Open Your Wooden Doors?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJHQ.name=§2§lHow to Open Your Wooden Doors?
@@ -594,7 +594,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAB8Q.desc=You have found an alternative w
 
 # Quest: Tool Forge
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC5Q.name=§3§lTool Forge
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC5Q.desc=After getting alumite, it's time to craft a tool forge for making bigger (and better) Tinkers tools.%n%n§Y§3You do not have to use iron to create the forge; you can also use other materials like tin or copper, among others.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAC5Q.desc=After getting obzinite, it's time to craft a tool forge for making bigger (and better) Tinkers tools.%n%n§Y§3You do not have to use iron to create the forge; you can also use other materials like tin or copper, among others.
 
 # Quest: One Block Mining is so Old School
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC5g.name=§3§lOne Block Mining is so Old School
@@ -696,9 +696,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEZA.desc=Are your cobblestone or dirt ba
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEZQ.name=§3§lBarrel Upgrades Tier 2
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEZQ.desc=Are your upgraded cobblestone or dirt barrels full again? No problem, upgrade them some more!
 
-# Quest: Alumite
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEZg.name=§3§lAlumite
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEZg.desc=It's upgrade time again. You could in principle make alumite by mixing obsidian, steel and aluminium in the smeltery. But to get a much better yield, you can show you are a GregTech hero and search NEI for an alternate recipe using dusts. Alumite pickaxes are able to mine ardite in the Nether.%n%nLeave the rest of your Alumite as liquid in your smeltery, you'll want it to make the Tool Forge. You need 16 ingots in the smeltery to make 2 Large Plates.
+# Quest: Obzinite
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEZg.name=§3§lObzinite
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEZg.desc=It's upgrade time again. You could in principle make obzinite by mixing obsidian, steel and zinc in the smeltery. But to get a much better yield, you can show you are a GregTech hero and search NEI for an alternate recipe using dusts. Obzinite pickaxes are able to mine ardite in the Nether.%n%nLeave the rest of your Obzinite as liquid in your smeltery, you'll want it to make the Tool Forge. You need 16 ingots in the smeltery to make 2 Large Plates.
 
 # Quest: Reinforced X? Unbreakable
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEZw.name=§3§lReinforced X? Unbreakable
@@ -895,7 +895,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAZg.desc=An absolutely mandatory machine
 
 # Quest: Getting Ready for Tier 2, MV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAZw.name=§5§lGetting Ready for Tier 2, MV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAZw.desc=In order to proceed forward, you need to get aluminium. A lot of it. But for now, 8 is enough to complete this quest.%n%nYour first option is alumina dust. Probably the best source for alumina is clay or hardened clay from canyons, however you need an MV machine for that, so you need to find an alternative until you have enough dust for your initial setup. For now, you can get it by centrifuging various impure piles from your ores or by smelting ruby, sapphire, or green sapphire in an EBF with carbon. Check the EBF quest in the Multiblock Goals.%n%nYou will also need an EBF to turn the alumina into aluminium ingots. For that you need cryolite. Go visit the Twilight Forest for that and find a Cryolite vein. The related quest is "Lead, Galena, Silver and Cryolite" is the Novice Thaumaturgy tab.%n%nYour second option is to use aluminium dust. However, you can not smelt that directly yet, even if you have an EBF. That will require higher heat levels. For now, you will have to either use a Tinker's Smeltery or a GT Compressor to turn the dust into raw aluminium which you can then smelt into ingots in the EBF. Check out the Tier 0 quest for some options to obtain the dust.%n%nBy the time you've completed this, you'll probably be done with most of the tab, but you'll still need Good Circuits (MV) to actually open up the next tier if you haven't done that yet.%n%nYou might also want to check the Getting Around and Without Dying tabs for new unlocks.%n%n[note]If you were exploring Twilight Forest before 2.1.1.4 you won't find any cryolite in existing veins. You'll need to explore new chunks.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAZw.desc=In order to proceed forward, you need to get aluminium. A lot of it. But for now, 8 is enough to complete this quest.%n%nYour first option is alumina dust. Probably the best source for alumina is clay or hardened clay from canyons, however you need an MV machine for that, so you need to find an alternative until you have enough dust for your initial setup. For now, you can get it by centrifuging various impure piles from your ores or by smelting ruby, sapphire, or green sapphire in an EBF with carbon. Check the EBF quest in the Multiblock Goals.%n%nYou will also need an EBF to turn the alumina into aluminium ingots. For that you need cryolite. Go visit the Twilight Forest for that and find a Cryolite vein. The related quest is "Lead, Galena, Silver and Cryolite" is the Novice Thaumaturgy tab.%n%nYour second option is to use aluminium dust. However, you can not smelt that directly yet, even if you have an EBF. That will require higher heat levels. For now, you will have to either use a Tinker's Smeltery or a GT Compressor to turn the dust into raw aluminium which you can then smelt into ingots in the EBF.%n%nBy the time you've completed this, you'll probably be done with most of the tab, but you'll still need Good Circuits (MV) to actually open up the next tier if you haven't done that yet.%n%nYou might also want to check the Getting Around and Without Dying tabs for new unlocks.%n%n[note]If you were exploring Twilight Forest before 2.1.1.4 you won't find any cryolite in existing veins. You'll need to explore new chunks.[/note]
 
 # Quest: Your Magic Progression
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAaA.name=§5§lYour Magic Progression
@@ -971,7 +971,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACHA.desc=Combining cobalt brass and diam
 
 # Quest: A New Alloy - Cobalt Brass
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACHQ.name=§5§lA New Alloy - Cobalt Brass
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACHQ.desc=If you want to cut diamond blocks into plates, it's time to get a new alloy, Cobalt Brass.%n%nFirst you need to make brass out of zinc (only found in small ores in the Overworld, in Nether Sphalerite, or as a centrifuge byproduct from tin or tetrahedrite) and copper. Mix it with aluminium and cobalt dust (you can get it as a byproduct of a couple ores, go searching in the nether, or go to the Twilight Forest for Cobaltite) to get the cobalt brass dust.%n%nNow that you've come this far, we think that you're able to look up the ores that you need by yourself with the help of NEI.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACHQ.desc=If you want to cut diamond blocks into plates, it's time to get a new alloy, Cobalt Brass.%n%nFirst you need to make brass out of zinc (only found in small ores or Tico Zinc Gavel Ore in the Overworld, in Nether Sphalerite, or as a centrifuge byproduct from tin or tetrahedrite) and copper. Mix it with tin and cobalt dust (you can get it as a byproduct of a couple ores, go searching in the nether, or go to the Twilight Forest for Cobaltite) to get the cobalt brass dust.%n%nNow that you've come this far, we think that you're able to look up the ores that you need by yourself with the help of NEI.
 
 # Quest: Electrically Separating Dusts
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACHg.name=§5§lElectrically Separating Dusts
@@ -1223,7 +1223,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEcA.desc=How about lossless 32 EU cables
 
 # Quest: A New Alloy - Magnalium
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEfQ.name=§5§lA New Alloy - Magnalium
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEfQ.desc=Wondering why you need magnalium now? It's not for GT machines but for a material update for your crossbow.%n%nYou already made some Aluminium dust before. Getting Aluminium will become easier once you get an EBF or MV electrolyzer.%n%nCombine Aluminium and Magnesium in your alloy smelter to get Magnalium.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEfQ.desc=Wondering why you need magnalium now? It's not for GT machines but for a material update for your crossbow.%n%nYou already made some Aluminium dust before. Getting Aluminium will become easier once you get an EBF or MV electrolyzer.%nIf you can't find any aluminium, search for chests in the Twilight Forest or kill a few monsters. %n%nCombine Aluminium and Magnesium in your alloy smelter to get Magnalium.
 
 # Quest: Basic Fluid Solidifier
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEgw.name=§5§lBasic Fluid Solidifier
@@ -6037,7 +6037,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAALQ.desc=576 buckets of fluid, that shou
 
 # Quest: You Are Now Prepared, Hopefully!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAASg.name=§f§k§f§l§6§lYou Are Now Prepared, Hopefully!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAASg.desc=No matter where you got this smeltery from, you have one now. Time for some casting!%n%nThe aluminium oreberries can be planted on cropsticks, and macerated to get small quantites of aluminium for molds if you can't find aluminium gravel.%n%nNote: The book says a 3x3 base, but you can make a smeltery with a smaller base. Taller/wider smelteries can do more items at one time, conserving fuel.%n%n[note]The smeltery does not double ores in GTNH. Later machines will help you there.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAASg.desc=No matter where you got this smeltery from, you have one now. Time for some casting!%n%nBuy the zinc gravel in the Coins Coins coins tab if you can't find it.%n%nNote: The book says a 3x3 base, but you can make a smeltery with a smaller base. Taller/wider smelteries can do more items at one time, conserving fuel.%n%n[note]The smeltery does not double ores in GTNH. Later machines will help you there.[/note]
 
 # Quest: The Water Dilemma
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAASw.name=§6§lThe Water Dilemma
@@ -13745,6 +13745,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALYQ.desc=Can't find any Rubber Trees? Ca
 # Quest: Having trouble finding Botania mushrooms?
 betterquesting.quest.ZW-P5BllSP25hEBQTgEBQQ.name=Having trouble finding Botania mushrooms?
 betterquesting.quest.ZW-P5BllSP25hEBQTgEBQQ.desc=Why not exchange a few coins to save yourself the time of combing the Twilight forest for Shimmering mushrooms.
+
+# Quest: Zinc Gravel Ore
+betterquesting.quest.a15LlbgfQAmJqUgrRkvCFg.name=Zinc Gravel Ore
+betterquesting.quest.a15LlbgfQAmJqUgrRkvCFg.desc=Having a hard time finding some Zinc Gravel Ore? I'll trade you some for your hard-earned coins.
 
 # Quest: More SMD Inductors
 betterquesting.quest.b8oLtR7SS86ItajFCriChw.name=More SMD Inductors
