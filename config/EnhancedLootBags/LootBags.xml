@@ -301,7 +301,7 @@
         <Loot Identifier="b1f7fbea-80a0-431c-9e30-c15515dc4399" ItemName="ExtraUtilities:golden_lasso" Amount="1" NBTTag="" Chance="75" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="9185d017-ef7d-435f-9d51-a45629b20c7a" ItemName="gregtech:gt.metaitem.01:30708" Amount="4" NBTTag="" Chance="65" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="b513ea69-ed6e-40bb-9d7b-b41eced57306" ItemName="Natura:florasapling:6" Amount="1" NBTTag="" Chance="75" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="255a9969-ad5b-4f51-ae03-e5c134b7e809" ItemName="TConstruct:GravelOre:4" Amount="16" NBTTag="" Chance="85" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="255a9969-ad5b-4f51-ae03-e5c134b7e809" ItemName="dreamcraft:ZincGravelOre" Amount="16" NBTTag="" Chance="85" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="16e69128-e85b-4676-bb13-ea768969a2fc" ItemName="harvestthenether:glowflowerseedItem" Amount="1" NBTTag="" Chance="85" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="4b6ffee9-bf2a-4cfe-9780-2e2afb21f40e" ItemName="minecraft:rail" Amount="16" NBTTag="" Chance="85" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="7841633f-33cd-4c75-9093-dc17b02b3516" ItemName="minecraft:golden_rail" Amount="4" NBTTag="" Chance="65" LimitedDropCount="0" RandomAmount="false"/>

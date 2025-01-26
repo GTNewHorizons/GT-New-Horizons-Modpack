@@ -651,3 +651,17 @@ tile.zorgBlock.name=Zorg
 tile.ztylBlock.name=Ztyl
 tile.zythBlock.name=Zyth
 tile.glaxx.name=Tinted Glass
+
+# Alumite -> Obzinite renaming in GTNH
+block.brick.alumite.name=Obzinite Brick
+block.fancybrick.alumite.name=Fancy Obzinite Brick
+item.tconstruct.Materials.AlumiteIngot.name=Obzinite Ingot
+item.tconstruct.Materials.AlumiteNugget.name=Obzinite Nugget
+StorageMetals.Alumite.name=Block of Obzinite
+item.tconstruct.bucket.Alumite.name=Molten Obzinite Bucket
+tile.fluid.molten.alumite.name=Molten Obzinite
+LiquidMetal.Alumite.name=Molten Obzinite
+fluid.alumite.molten=Molten Obzinite
+material.alumite=Obzinite
+item.universalSingularities.tinkersConstruct.alumite.name=Obzinite Singularity
+item.iguana.tcon.clayBucket.Alumite.name=Molten Obzinite Clay Bucket

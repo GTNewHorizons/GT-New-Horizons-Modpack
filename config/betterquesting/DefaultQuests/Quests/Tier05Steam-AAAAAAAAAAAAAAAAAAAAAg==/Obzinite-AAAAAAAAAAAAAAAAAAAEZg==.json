@@ -2,25 +2,25 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 1126
+      "questIDLow:4": 65
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "After getting obzinite, it\u0027s time to craft a tool forge for making bigger (and better) Tinkers tools.\n\n§Y§3You do not have to use iron to create the forge; you can also use other materials like tin or copper, among others.",
+      "desc:8": "It\u0027s upgrade time again. You could in principle make obzinite by mixing obsidian, steel and zinc in the smeltery. But to get a much better yield, you can show you are a GregTech hero and search NEI for an alternate recipe using dusts. Obzinite pickaxes are able to mine ardite in the Nether.\n\nLeave the rest of your Obzinite as liquid in your smeltery, you\u0027ll want it to make the Tool Forge. You need 16 ingots in the smeltery to make 2 Large Plates.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 0,
+        "Damage:2": 15,
         "OreDict:8": "",
-        "id:8": "TConstruct:ToolForgeBlock"
+        "id:8": "TConstruct:materials"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§3§lTool Forge",
+      "name:8": "§3§lObzinite",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -33,20 +33,38 @@
     }
   },
   "questIDHigh:4": 0,
-  "questIDLow:4": 741,
+  "questIDLow:4": 1126,
   "rewards:9": {
     "0:10": {
-      "ignoreDisabled:1": 0,
-      "index:3": 0,
-      "rewardID:8": "bq_standard:item",
-      "rewards:9": {
+      "choices:9": {
         "0:10": {
+          "Count:3": 8,
+          "Damage:2": 11305,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 31,
+          "OreDict:8": "",
+          "id:8": "TConstruct:toolRod"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:gold_block"
+        },
+        "3:10": {
           "Count:3": 1,
           "Damage:2": 2,
           "OreDict:8": "",
           "id:8": "enhancedlootbags:lootbag"
         }
-      }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
     },
     "1:10": {
       "ignoreDisabled:1": 0,
@@ -63,6 +81,12 @@
           "Count:3": 10,
           "Damage:2": 0,
           "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinChemist"
+        },
+        "2:10": {
+          "Count:3": 10,
+          "Damage:2": 0,
+          "OreDict:8": "",
           "id:8": "dreamcraft:item.CoinTechnician"
         }
       }
@@ -73,50 +97,15 @@
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
+      "ignoreNBT:1": 0,
       "index:3": 0,
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 2,
+          "Count:3": 1,
           "Damage:2": 15,
-          "OreDict:8": "",
-          "id:8": "TConstruct:heavyPlate"
-        },
-        "1:10": {
-          "Count:3": 4,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "minecraft:iron_block"
-        },
-        "2:10": {
-          "Count:3": 1,
-          "Damage:2": 1,
-          "OreDict:8": "",
-          "id:8": "TConstruct:CraftingSlab"
-        },
-        "3:10": {
-          "Count:3": 1,
-          "Damage:2": 1,
-          "OreDict:8": "",
-          "id:8": "TConstruct:SearedSlab"
-        }
-      },
-      "taskID:8": "bq_standard:optional_retrieval"
-    },
-    "1:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 1,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 1,
-          "Damage:2": 32767,
-          "OreDict:8": "",
-          "id:8": "TConstruct:ToolForgeBlock"
+          "OreDict:8": "ingotAlumite",
+          "id:8": "TConstruct:materials"
         }
       },
       "taskID:8": "bq_standard:retrieval"
