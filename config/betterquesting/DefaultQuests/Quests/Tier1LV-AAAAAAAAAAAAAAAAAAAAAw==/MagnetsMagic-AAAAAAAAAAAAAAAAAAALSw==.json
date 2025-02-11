@@ -95,7 +95,15 @@
           "OreDict:8": "",
           "id:8": "DraconicEvolution:magnet",
           "tag:10": {
-            "MagnetEnabled:1": 0
+            "ConfigProfiles:9": {
+              "0:10": {
+                "Enabled:1": 0
+              },
+              "1:10": {},
+              "2:10": {},
+              "3:10": {},
+              "4:10": {}
+            }
           }
         }
       },
