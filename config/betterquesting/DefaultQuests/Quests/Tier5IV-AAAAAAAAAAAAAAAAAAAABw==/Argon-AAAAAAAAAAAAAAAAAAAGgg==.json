@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "To process some of the new ingots you will find, you need argon. Your first source will come from air, in small amounts. Unlike centrifuging Compressed Air Cells, you\u0027ll need to turn the Air into Liquid Air first in a Vacuum Freezer so you can centrifuge it more efficiently.\n\nYou can make the Air Intake Hatch instead of using a Compresser PA, it\u0027s way better.\n\nDon\u0027t bother with the DT recipe unless you need the other fluids from it, it\u0027s not nearly as good as centrifuging. You also need the Liquid Air Fluid Hatch (only works with Liquid Air!) and Giant Output Hatch when you want to do that.",
+      "desc:8": "To process some of the new ingots you will find, you need argon. Your first source will come from air, in small amounts. Unlike centrifuging Compressed Air Cells, you\u0027ll need to turn the Air into Liquid Air first in a Vacuum Freezer so you can centrifuge it more efficiently.\n\nYou can also make the Air Intake Hatch - it\u0027s much better than spamming compressors!\n\nDon\u0027t bother with the DT recipe unless you need the other fluids from it, it\u0027s not nearly as good as centrifuging. You also need the Liquid Air Fluid Hatch (only works with Liquid Air!) and Giant Output Hatch when you want to do that.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
