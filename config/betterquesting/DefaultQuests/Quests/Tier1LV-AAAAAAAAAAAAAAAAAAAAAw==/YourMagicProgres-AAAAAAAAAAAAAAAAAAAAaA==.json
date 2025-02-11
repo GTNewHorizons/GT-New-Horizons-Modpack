@@ -42,7 +42,51 @@
   },
   "questIDHigh:4": 0,
   "questIDLow:4": 104,
-  "rewards:9": {},
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "Thaumcraft:ItemShard"
+        },
+        "1:10": {
+          "Count:3": 8,
+          "Damage:2": 1,
+          "OreDict:8": "",
+          "id:8": "Thaumcraft:ItemShard"
+        },
+        "2:10": {
+          "Count:3": 8,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "Thaumcraft:ItemShard"
+        },
+        "3:10": {
+          "Count:3": 8,
+          "Damage:2": 3,
+          "OreDict:8": "",
+          "id:8": "Thaumcraft:ItemShard"
+        },
+        "4:10": {
+          "Count:3": 8,
+          "Damage:2": 4,
+          "OreDict:8": "",
+          "id:8": "Thaumcraft:ItemShard"
+        },
+        "5:10": {
+          "Count:3": 8,
+          "Damage:2": 5,
+          "OreDict:8": "",
+          "id:8": "Thaumcraft:ItemShard"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,
