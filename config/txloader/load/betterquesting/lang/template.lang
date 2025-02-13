@@ -3298,8 +3298,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGkw.desc=You may have noticed that the c
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGlA.name=§c§lCheaper HV circuits
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGlA.desc=You can make Nano Processors cheaper than before. You'll need to make an imprint first though.
 
-# Quest: Crystalprocessors
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGlg.name=§c§lCrystalprocessors
+# Quest: Crystal Processors
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGlg.name=§c§lCrystal Processors
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGlg.desc=Now that you're this far into LuV, you can make easier IV circuits, as well as your first UV circuit.%n%nAfter crafting each circuit, make an imprint of it to reduce the cost of following ones.
 
 # Quest: Crystal Chips
@@ -3312,19 +3312,19 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGmA.desc=A new circuit line, a new board
 
 # Quest: LuV Laser Engraver
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGmQ.name=§9§a§c§lLuV Laser Engraver
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGmQ.desc=The LuV laser engraver is an important part of lategame circuit production. You need to make crystal CPU's for both the crystalprocessor series of circuits, and later on for the wetware series.%n%n[note]If you've made the Hyper-Intensity Laser Engraver, you can just upgrade that instead.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGmQ.desc=The LuV laser engraver is an important part of lategame circuit production. You need to make crystal CPU's for both the crystal processor series of circuits, and later on for the wetware series.%n%n[note]If you've made the Hyper-Intensity Laser Engraver, you can just upgrade that instead.[/note]
 
-# Quest: Crystalprocessor Assembly
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGrA.name=§c§lCrystalprocessor Assembly
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGrA.desc=The Crystal Processor Assembly is a LuV Circuit.
+# Quest: Crystal Assembly
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGrA.name=§c§lCrystalAssembly
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGrA.desc=The Crystal Assembly is a LuV Circuit.
 
-# Quest: Ultimate Crystalcomputer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGrQ.name=§c§lUltimate Crystalcomputer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGrQ.desc=The Ultimate Crystalcomputer is a ZPM circuit.
+# Quest: Crystal Supercomputer
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGrQ.name=§c§lCrystal Supercomputer
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGrQ.desc=The Crystal Supercomputer is a ZPM circuit.
 
-# Quest: Crystalprocessor Mainframe
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGrg.name=§c§lCrystalprocessor Mainframe
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGrg.desc=The Crystalprocessor Mainframe is the first UV circuit you can make.
+# Quest: Crystal Mainframe
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGrg.name=§c§lCrystal Mainframe
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGrg.desc=The Crystal Mainframe is the first UV circuit you can make.
 
 # Quest: LuV Superconductors (32,768 EU/t)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGrw.name=§c§lLuV Superconductors (32,768 EU/t)
@@ -3376,7 +3376,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKLw.desc=In order to make a Fusion React
 
 # Quest: Advanced SMDs
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKMA.name=§c§lAdvanced SMDs
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKMA.desc=To craft circuits from the crystalprocessor series and beyond, you'll need these.%n%nIf you use these to make a circuit tier lower than Crystal, it'll use 1/4 the amount compared to normal SMDs, and half the required time.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKMA.desc=To craft circuits from the crystal processor series and beyond, you'll need these.%n%nIf you use these to make a circuit tier lower than Crystal, it'll use 1/4 the amount compared to normal SMDs, and half the required time.
 
 # Quest: Mysterious...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKMQ.name=§c§lMysterious...
@@ -3778,7 +3778,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKSw.desc=To make Wetware Circuits (UHV-T
 
 # Quest: Cheaper IV Circuits
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKTg.name=Cheaper IV Circuits
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKTg.desc=The Crystal SoC will allow you to make Crystalprocessors cheaper.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKTg.desc=The Crystal SoC will allow you to make Crystal Processors cheaper.
 
 # Quest: All Good Things...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKVw.name=All Good Things...
@@ -3826,7 +3826,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKcQ.desc=Now let's make Cosmic Neutroniu
 
 # Quest: Quantum Mechanics is Hot
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKiw.name=Quantum Mechanics is Hot
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKiw.desc=The QC has 2-24 computer racks depending on the length of the machine. Each rack has four total slots for either circuits (to generate heat and computation) or vents (to dissipate heat). Although conceptually similar to a nuclear reactor, the location of the components inside does not matter at all. Every rack is also completely independent from every other rack which means it is not possible to have one rack with all circuits and another with all vents.%n%nThe computation of a rack is the sum of all the components' individual computation. For example, two APU (Tier 3) and two Cooling Cores have 240 + 240 + 0 + 0 = 480 base computation per second. However, computation changes significantly depending on the values for overclock and overvolt:%n%n[note]Computation = Base * (1+overclock^2) / (1+(overclock-overvolt)^2)[/note]%n%nThe heat of a rack is a value between 0 and 10,000 and is reported in the interface of the QC or by using a Portable Scanner on the rack. Every component has a certain heat limit which if exceeded will void that component. Breaking or wrenching a rack while it is hot (>2000) will similarly void the components inside. The QC will explode if the heat exceeds 10,000 but no component has a heat limit greater than that, so don't worry too much about ruining your base.%n%n[note]Heat α HeatConstant * overclock * overvolt^2[/note]%n%nThe power consumption of a rack is 1A ZPM regardless of the components inside. This is in addition to the 1A ZPM of the QC itself. However, these EU/t values are directly proportional to overclock and overvolt which should increase as you unlock better circuits. Be sure to turn on the QC before the research station and only when you need it.%n%n[note]EU/t = 131,072 * overclock * overvolt * (racks + 1)[/note]%n%nTo get you started, craft 4x APU (Tier 3) and 4x Cooling Cores. Place two of each component in the two racks and the QC will safely produce 1,920 computation/s for just 393,215 EU/t (0.75A UV) which is more than enough for researching the Wetware Mainframe. If you would like to further increase the computation/s at the cost of power, adjust the overclock and overvolt values to 1.44 and 1.03, respectively. This will generate 2,526 computation/s at a cost of 583,217 EU/t (1.11A UV).%n%nIf the APUs are too bothersome to craft, try Crystalprocessor Mainframes instead but you will need different overclock and overvolt values to get the most out of them. That goes for every unique combination of circuits and vents.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKiw.desc=The QC has 2-24 computer racks depending on the length of the machine. Each rack has four total slots for either circuits (to generate heat and computation) or vents (to dissipate heat). Although conceptually similar to a nuclear reactor, the location of the components inside does not matter at all. Every rack is also completely independent from every other rack which means it is not possible to have one rack with all circuits and another with all vents.%n%nThe computation of a rack is the sum of all the components' individual computation. For example, two APU (Tier 3) and two Cooling Cores have 240 + 240 + 0 + 0 = 480 base computation per second. However, computation changes significantly depending on the values for overclock and overvolt:%n%n[note]Computation = Base * (1+overclock^2) / (1+(overclock-overvolt)^2)[/note]%n%nThe heat of a rack is a value between 0 and 10,000 and is reported in the interface of the QC or by using a Portable Scanner on the rack. Every component has a certain heat limit which if exceeded will void that component. Breaking or wrenching a rack while it is hot (>2000) will similarly void the components inside. The QC will explode if the heat exceeds 10,000 but no component has a heat limit greater than that, so don't worry too much about ruining your base.%n%n[note]Heat α HeatConstant * overclock * overvolt^2[/note]%n%nThe power consumption of a rack is 1A ZPM regardless of the components inside. This is in addition to the 1A ZPM of the QC itself. However, these EU/t values are directly proportional to overclock and overvolt which should increase as you unlock better circuits. Be sure to turn on the QC before the research station and only when you need it.%n%n[note]EU/t = 131,072 * overclock * overvolt * (racks + 1)[/note]%n%nTo get you started, craft 4x APU (Tier 3) and 4x Cooling Cores. Place two of each component in the two racks and the QC will safely produce 1,920 computation/s for just 393,215 EU/t (0.75A UV) which is more than enough for researching the Wetware Mainframe. If you would like to further increase the computation/s at the cost of power, adjust the overclock and overvolt values to 1.44 and 1.03, respectively. This will generate 2,526 computation/s at a cost of 583,217 EU/t (1.11A UV).%n%nIf the APUs are too bothersome to craft, try Crystal Mainframes instead but you will need different overclock and overvolt values to get the most out of them. That goes for every unique combination of circuits and vents.
 
 # Quest: Fluids for Copying Cultures
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKlw.name=Fluids for Copying Cultures
@@ -6574,7 +6574,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJEA.desc=Well what might happen if you c
 
 # Quest: Circuit Assembly Line
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKKQ.name=Circuit Assembly Line
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKKQ.desc=You'll need all of this to create 4 CALs, enough for a single series of circuits. If you only want one (for the microprocessors for example), just divide by 4.%n%nAssuming you got the necessary imprints on the LuV tab, you can now craft the CALs for the crystalprocessor series. We're starting with 4 since you'll need one per circuit, the imprint is not removable. And yes this means you need one for every circuit type you want to make with the CAL.%n%nAs an Assembly Line, it generally works like the normal one, with different items in each bus, but since it's only one item per CAL, it's far easier to use, and the recipe is cheaper too.%n%nThe CAL uses 'wraps' to make 16 of a circuit at a time (aside from ULV and LV circuits), saving you time, EU, and Soldering Alloy (or Indalloy). You make the wraps in an Assembler with 16 of the item and Polyethylene.%n%n[note]BTW you can change out the Hatches and Buses for better ones, but you still need to keep ingredient order. Also CAL grants perfect overclock.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKKQ.desc=You'll need all of this to create 4 CALs, enough for a single series of circuits. If you only want one (for the microprocessors for example), just divide by 4.%n%nAssuming you got the necessary imprints on the LuV tab, you can now craft the CALs for the crystal processor series. We're starting with 4 since you'll need one per circuit, the imprint is not removable. And yes this means you need one for every circuit type you want to make with the CAL.%n%nAs an Assembly Line, it generally works like the normal one, with different items in each bus, but since it's only one item per CAL, it's far easier to use, and the recipe is cheaper too.%n%nThe CAL uses 'wraps' to make 16 of a circuit at a time (aside from ULV and LV circuits), saving you time, EU, and Soldering Alloy (or Indalloy). You make the wraps in an Assembler with 16 of the item and Polyethylene.%n%n[note]BTW you can change out the Hatches and Buses for better ones, but you still need to keep ingredient order. Also CAL grants perfect overclock.[/note]
 
 # Quest: Cool Guys Don't Look at Explosions
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKxQ.name=Cool Guys Don't Look at Explosions
