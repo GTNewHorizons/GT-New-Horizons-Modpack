@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The Quantumprocessor Mainframe is the first ZPM circuit you can make.",
+      "desc:8": "The Quantum Mainframe is the first ZPM circuit you can make.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -20,7 +20,7 @@
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§b§lQuantumprocessor Mainframe",
+      "name:8": "§b§lQuantum Mainframe",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

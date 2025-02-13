@@ -2476,29 +2476,29 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAE3g.desc=Some machines need emitters and
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE3w.name=§a§lQuantum Eye
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE3w.desc=Quantum eyes are required in EV emitters and sensors. Just infuse your ender eye with radon to get one.
 
-# Quest: Nanoprocessor
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE4A.name=§a§lNanoprocessor
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE4A.desc=This is the Nanoprocessor circuit line. Similar to the previous circuit line, these are four circuits. The §onano§r circuits go all the way to the LuV-tier Nanoprocesser Mainframe.
+# Quest: Nano Processor
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE4A.name=§a§lNano Processor
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE4A.desc=This is the Nano Processor circuit line. Similar to the previous circuit line, these are four circuits. The §onano§r circuits go all the way to the LuV-tier Nano Mainframe.
 
 # Quest: NanoCPU Wafer and Chip
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE4Q.name=§a§lNanoCPU Wafer and Chip
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE4Q.desc=The NanoCPU Wafer is made out of a CPU Wafer with raw carbon fibre and molten glowstone in an EV chemical reactor. Cut it for nano CPU chips.
 
-# Quest: Nanoprocessor Assembly
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE4g.name=§a§lNanoprocessor Assembly
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE4g.desc=The Nanoprocessor Assembly is an EV circuit.
+# Quest: Nano Assembly
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE4g.name=§a§lNano Assembly
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE4g.desc=The Nano Assembly is an EV circuit.
 
-# Quest: Elite Nanocomputer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE4w.name=§a§lElite Nanocomputer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE4w.desc=The elite nanocomputer is an IV circuit.
+# Quest: Nano Supercomputer
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE4w.name=§a§lNano Supercomputer
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE4w.desc=The Nano Supercomputer is an IV circuit.
 
 # Quest: EV Chemical Bath
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE5A.name=§a§f§a§lEV Chemical Bath
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE5A.desc=An HV chemical bath or better is needed for the quantum eye. Better make an EV one so that you can also process Ilmenite better.
 
-# Quest: Nanoprocessor Mainframe
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE7Q.name=§a§lNanoprocessor Mainframe
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE7Q.desc=The nanoprocessor mainframe is the first LuV Circuit, and the end of this circuit line produced in EV. To craft the Tier 2 Rocket and reach Mars, Phobos and Deimos, you need to reach this circuit and make 8 of it.%n%nAfter that, you will be able to progress into IV much more easily, but you will need two more circuits to make the IV Circuit Assembling Machine.
+# Quest: Nano Mainframe
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE7Q.name=§a§lNano Mainframe
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE7Q.desc=The Nano Mainframe is the first LuV Circuit, and the end of this circuit line produced in EV. To craft the Tier 2 Rocket and reach Mars, Phobos and Deimos, you need to reach this circuit and make 8 of it.%n%nAfter that, you will be able to progress into IV much more easily, but you will need two more circuits to make the IV Circuit Assembling Machine.
 
 # Quest: Blue Steel
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE7w.name=§a§lBlue Steel
@@ -2791,7 +2791,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGig.desc=With the IV circuit assembler a
 
 # Quest: Single Step EV Circuits
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGjg.name=§b§lSingle Step EV Circuits
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGjg.desc=Quantumprocessors are your first chance to make EV circuits in a single craft.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGjg.desc=Quantum Processors are your first chance to make EV circuits in a single craft.
 
 # Quest: QBit Wafer and Chip
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGjw.name=§b§lQBit Wafer and Chip
@@ -2857,17 +2857,17 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGpw.desc=Potassium Nitrate is made from 
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGqA.name=§b§lChromium Trioxide
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGqA.desc=Chromium Trioxide is made out of chrome and oxygen in two steps. First you make Chromium Dioxide and then Chromium Trioxide.
 
-# Quest: Quantumprocessor Assembly
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGqQ.name=§b§lQuantumprocessor Assembly
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGqQ.desc=Quantumprocessor Assembly is an IV Circuit.
+# Quest: Quantum Assembly
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGqQ.name=§b§lQuantum Assembly
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGqQ.desc=Quantum Assembly is an IV Circuit.
 
-# Quest: Master Quantumcomputer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGqg.name=§b§lMaster Quantumcomputer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGqg.desc=The Master Quantumcomputer is an LuV Circuit.
+# Quest: Quantum Supercomputer
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGqg.name=§b§lQuantum Supercomputer
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGqg.desc=The Quantum Supercomputer is an LuV Circuit.
 
-# Quest: Quantumprocessor Mainframe
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGqw.name=§b§lQuantumprocessor Mainframe
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGqw.desc=The Quantumprocessor Mainframe is the first ZPM circuit you can make.
+# Quest: Quantum Mainframe
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGqw.name=§b§lQuantum Mainframe
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGqw.desc=The Quantum Mainframe is the first ZPM circuit you can make.
 
 # Quest: Cheaper LV Circuits
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGsA.name=§b§lCheaper LV Circuits
@@ -3296,7 +3296,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGkw.desc=You may have noticed that the c
 
 # Quest: Cheaper HV circuits
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGlA.name=§c§lCheaper HV circuits
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGlA.desc=You can make Nanoprocessors cheaper than before. You'll need to make an imprint first though.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGlA.desc=You can make Nano Processors cheaper than before. You'll need to make an imprint first though.
 
 # Quest: Crystalprocessors
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGlg.name=§c§lCrystalprocessors
@@ -3609,7 +3609,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKSg.desc=To get to the Toxic Everglades,
 
 # Quest: Cheaper EV Circuits
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKTQ.name=Cheaper EV Circuits
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKTQ.desc=With a higher voltage, you can use your ASoCs to make cheaper Quantumprocessors.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKTQ.desc=With a higher voltage, you can use your ASoCs to make cheaper Quantum Processors.
 
 # Quest: Where No One Has Gone Before
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKVg.name=Where No One Has Gone Before
