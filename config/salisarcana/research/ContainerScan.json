@@ -1,0 +1,32 @@
+{
+  "key": "salisarcana:CHESTSCAN",
+  "name": "Container Scanning",
+  "tooltip": "Looking a little closer",
+  "category": "BASICS",
+  "aspects": [
+    {
+      "aspect": "ordo",
+      "amount": 10
+    },
+    {
+      "aspect": "permutatio",
+      "amount": 10
+    },
+    {
+      "aspect": "perditio",
+      "amount": 10
+    }
+  ],
+  "parents": ["DECONSTRUCTOR"],
+  "displayColumn": 8,
+  "displayRow": 3,
+  "icon_item": "minecraft:chest",
+  "complexity": 3,
+  "pages": [
+    {
+      "pageType": "text",
+      "number": 0,
+      "text": "Thanks to your research about deconstructing items, you've learned to look inside other blocks with your Thaumometer by using it to \"deconstruct\" the block magically. You can scan any block that can hold items, such as a chest or hopper, to scan all contained items automatically."
+    }
+  ]
+}
