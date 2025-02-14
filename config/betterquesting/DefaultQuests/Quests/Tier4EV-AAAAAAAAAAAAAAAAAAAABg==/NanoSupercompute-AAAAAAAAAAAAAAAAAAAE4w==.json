@@ -2,17 +2,17 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 1678
+      "questIDLow:4": 1250
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Quantumprocessor Assembly is an IV Circuit.",
+      "desc:8": "The Nano Supercomputer is an IV circuit.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 32086,
+        "Damage:2": 32084,
         "OreDict:8": "",
         "id:8": "gregtech:gt.metaitem.03"
       },
@@ -20,7 +20,7 @@
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§b§lQuantumprocessor Assembly",
+      "name:8": "§a§lNano Supercomputer",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -33,31 +33,31 @@
     }
   },
   "questIDHigh:4": 0,
-  "questIDLow:4": 1705,
+  "questIDLow:4": 1251,
   "rewards:9": {
     "0:10": {
       "choices:9": {
         "0:10": {
           "Count:3": 2,
-          "Damage:2": 32103,
+          "Damage:2": 32102,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.03"
         },
         "1:10": {
-          "Count:3": 32,
-          "Damage:2": 32020,
+          "Count:3": 2,
+          "Damage:2": 32043,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.03"
         },
         "2:10": {
-          "Count:3": 24,
-          "Damage:2": 32182,
+          "Count:3": 4,
+          "Damage:2": 32020,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.03"
         },
         "3:10": {
           "Count:3": 1,
-          "Damage:2": 8,
+          "Damage:2": 7,
           "OreDict:8": "",
           "id:8": "enhancedlootbags:lootbag"
         }
@@ -90,38 +90,38 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 4,
-          "Damage:2": 32103,
+          "Count:3": 1,
+          "Damage:2": 32102,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.03"
         },
         "1:10": {
-          "Count:3": 8,
-          "Damage:2": 32085,
+          "Count:3": 2,
+          "Damage:2": 32083,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.03"
         },
         "2:10": {
+          "Count:3": 8,
+          "Damage:2": 32016,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.03"
+        },
+        "3:10": {
+          "Count:3": 4,
+          "Damage:2": 32043,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.03"
+        },
+        "4:10": {
           "Count:3": 16,
           "Damage:2": 32039,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.03"
         },
-        "3:10": {
-          "Count:3": 48,
-          "Damage:2": 32182,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
-        },
-        "4:10": {
-          "Count:3": 64,
-          "Damage:2": 32020,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
-        },
         "5:10": {
-          "Count:3": 96,
-          "Damage:2": 19085,
+          "Count:3": 16,
+          "Damage:2": 19303,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.02"
         }
@@ -137,8 +137,8 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 4,
-          "Damage:2": 32086,
+          "Count:3": 1,
+          "Damage:2": 32084,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.03"
         }
