@@ -4994,7 +4994,7 @@ gtnh.quest1247.desc=Quantum eyes are required in EV emitters and sensors. Just i
 
 # Quest.1248 - §a§lNano Processor
 gtnh.quest1248.name=§a§lNano Processor
-gtnh.quest1248.desc=There are three variants of advanced circuits. The advanced electronic circuit, the processor assembly and the nano processor. The Nano Processor needs an EV circuit assembling machine to be made. Use your epoxid boards for it.%nA cleanroom is required.
+gtnh.quest1248.desc=There are three variants of advanced circuits. The advanced electronic circuit, the processor assembly and the nanoprocessor. The Nanoprocessor needs an EV circuit assembling machine to be made. Use your epoxid boards for it.%nA cleanroom is required.
 
 # Quest.1249 - §a§lNano CPU Wafer and Chip
 gtnh.quest1249.name=§a§lNano CPU Wafer and Chip
@@ -6714,7 +6714,7 @@ gtnh.quest1677.desc=Fiber Reinforced circuit boards require fiber reinforced epo
 
 # Quest.1678 - §b§lSingle step EV circuits
 gtnh.quest1678.name=§b§lSingle step EV circuits
-gtnh.quest1678.desc=Quantum Processors are your first chance to make EV circuits in a single craft.
+gtnh.quest1678.desc=Quantumprocessors are your first chance to make EV circuits in a single craft.
 
 # Quest.1679 - §b§lQbit Wafer and Chip
 gtnh.quest1679.name=§b§lQbit Wafer and Chip
@@ -6738,14 +6738,14 @@ gtnh.quest1683.desc=You may have noticed that the circuits you're thinking of cr
 
 # Quest.1684 - §c§lCheaper HV circuits
 gtnh.quest1684.name=§c§lCheaper HV circuits
-gtnh.quest1684.desc=You can make Nano Processors cheaper than before. You'll need to make an imprint first though.
+gtnh.quest1684.desc=You can make Nanoprocessors cheaper than before. You'll need to make an imprint first though.
 
 # Quest.1685 - §c§lASoc Advanced System on a chip
 gtnh.quest1685.name=§c§lASoc Advanced System on a chip
 gtnh.quest1685.desc=To make HV and EV circuits much cheaper you need ASoCs. Advanced system on a chip.
 
-# Quest.1686 - §c§lCrystal Processors
-gtnh.quest1686.name=§c§lCrystal Processors
+# Quest.1686 - §c§lCrystalprocessors
+gtnh.quest1686.name=§c§lCrystalprocessors
 gtnh.quest1686.desc=Now that you're this far into LuV, you can make easier IV circuits, as well as your first UV circuit.%n%nAfter crafting each circuit, make an imprint of it to reduce the cost of following ones.
 
 # Quest.1687 - §c§lCrystal Chips
@@ -6758,7 +6758,7 @@ gtnh.quest1688.desc=Elite circuit boards require a Fiber-Reinforced Board, Plati
 
 # Quest.1689 - §9§a§c§lLuV Laser Engraver
 gtnh.quest1689.name=§9§a§c§lLuV Laser Engraver
-gtnh.quest1689.desc=The LuV laser engraver is an important part of lategame circuit production. You need to make crystal CPU's for both the crystal processor series of circuits, and later on for the wetware series.%n%n§3If you've made the LPF, you can just upgrade or OC that instead.
+gtnh.quest1689.desc=The LuV laser engraver is an important part of lategame circuit production. You need to make crystal CPU's for both the crystalprocessor series of circuits, and later on for the wetware series.%n%n§3If you've made the LPF, you can just upgrade or OC that instead.
 
 # Quest.1690 - Tier 6 > Tier 7
 gtnh.quest1690.name=Tier 6 > Tier 7
@@ -6820,29 +6820,29 @@ gtnh.quest1703.desc=Potassium Nitrade is made out of potassium and nitric acid.
 gtnh.quest1704.name=§b§lChromium Trioxide
 gtnh.quest1704.desc=Chromium Trioxide is made out of chrome and oxygen in two steps. First you make Chromium Dioxide and then Chromium Trioxide.
 
-# Quest.1705 - §b§lQuantumAssembly
-gtnh.quest1705.name=§b§lQuantum Assembly
-gtnh.quest1705.desc=Quantum Assembly is an IV Circuit. A cleanroom is needed.
+# Quest.1705 - §b§lQuantum Processor Assembly
+gtnh.quest1705.name=§b§lQuantum Processor Assembly
+gtnh.quest1705.desc=Quantumprocessor Assembly is an IV Circuit. A cleanroom is needed.
 
-# Quest.1706 - §b§lQuantum Supercomputer
-gtnh.quest1706.name=§b§lQuantum Supercomputer
-gtnh.quest1706.desc=The Quantum Supercomputer is an LuV Circuit and needs a cleanroom.
+# Quest.1706 - §b§lMaster Quantum Computer
+gtnh.quest1706.name=§b§lMaster Quantum Computer
+gtnh.quest1706.desc=The Master Quantumcomputer is an LuV Circuit and needs a cleanroom.
 
-# Quest.1707 - §b§lQuantum Mainframe
-gtnh.quest1707.name=§b§lQuantum Mainframe
-gtnh.quest1707.desc=The Quantum Mainframe is the first ZPM circuit you can make.
+# Quest.1707 - §b§lQuantum Processor Mainframe
+gtnh.quest1707.name=§b§lQuantum Processor Mainframe
+gtnh.quest1707.desc=The Quantumprocessor Mainframe is the first ZPM circuit you can make.
 
-# Quest.1708 - §c§lCrystal Assembly
-gtnh.quest1708.name=§c§lCrystal Assembly
-gtnh.quest1708.desc=The Crystal Assembly is a LuV Circuit. A cleanroom is needed.
+# Quest.1708 - §c§lCrystalprocessor Assembly
+gtnh.quest1708.name=§c§lCrystalprocessor Assembly
+gtnh.quest1708.desc=The Crystal Processor Assembly is a LuV Circuit. A cleanroom is needed.
 
-# Quest.1709 - §c§lCrystal Supercomputer
-gtnh.quest1709.name=§c§lCrystal Supercomputer
-gtnh.quest1709.desc=The Crystal Supercomputer is a ZPM circuit. A cleanroom is needed.
+# Quest.1709 - §c§lUltimate Crystal Computer
+gtnh.quest1709.name=§c§lUltimate Crystal Computer
+gtnh.quest1709.desc=The Ultimate Crystalcomputer is a ZPM circuit. A cleanroom is needed.
 
-# Quest.1710 - §c§lCrystal Mainframe
-gtnh.quest1710.name=§c§lCrystal Mainframe
-gtnh.quest1710.desc=The Crystal Mainframe is the first UV circuit you can make. A cleanroom is needed.
+# Quest.1710 - §c§lCrystalprocessor Mainframe
+gtnh.quest1710.name=§c§lCrystalprocessor Mainframe
+gtnh.quest1710.desc=The Crystalprocessor Mainframe is the first UV circuit you can make. A cleanroom is needed.
 
 # Quest.1711 - §c§lSuperconductors 32768 eu/t
 gtnh.quest1711.name=§c§lSuperconductors 32768 eu/t
@@ -8030,7 +8030,7 @@ gtnh.quest2006.desc=Welcome to TecTech! The pinnacle of absolute high-tier machi
 
 # Quest.2007 - Quantum Computer
 gtnh.quest2007.name=Quantum Computer
-gtnh.quest2007.desc=One of the most incredibly complicated machines, this will serve as the main structure for your "Computation" generation for the Research Station. %n%nFirst, you'll need a few things: the Quantum Computer itself, The Uncertainty Resolver, some good circuits and the Computer Racks to hold them, and at least a UV energy hatch (UV 4A suggested). The QC will consume 1A of UV, and each CR will use one more. So another important factor is to ONLY turn on the Quantum Computer once you have the desired recipe for the Research Station ready to avoid excess energy loss. Remember to turn the QC on BEFORE the RS. In order for you to build this absolute monster, you'll need to place down the Quantum Computer at least 1 block above the surface/ground and use the Multiblock Machine Blueprint to see where to place everything. The blocks with no dots next to the vents indicate that that space must be empty.%n%nUncertainty Resolver:%nMuch like a puzzle-solving simulation, it is rather complicated to explain how to solve it, but it's often best just to retrace or undo certain actions and hope for the best. Sometimes, the Schrödinger Status will require some puzzle solving again after a period of time. This is random and incredibly frustrating, especially during operations being done between the Research Station and Quantum Computer(s), so it is important to constantly check the Uncertainty Resolver before you start operations on your Computer. If the puzzle looks too hard or you can't complete it, just remove it and the controller and re-place them to get a different puzzle.%n%nComputer Racks:%nThe main component within the multiblock to generate Computation. In order to achieve this, you will need to input some circuits and ic2 heat vents; Advanced Heat Vents work best. It is critical that you use Heat Vents to prevent the heat from reaching a catastrophic point, 55 percent or above should be avoided for safety reasons. Technically, you could achieve above 55 percent heat capacity or 5500 heat capacity, however the Computer Racks may melt or explode above 5600 or 6000 heat. You can see this for individual Racks by scanning them. You cannot remove or input components until the heat is gone. You can see the overall heat value in the controller's interface. And most importantly: DO NOT WRENCH THE COMPUTER RACKS IF THEY HAVE HEAT IN THEM. Otherwise, you're going to get an explosion.%n%nComputation:%nComputation is generated every second and is based on the tier of your circuit. There are, however, differences in between how much computation is generated, even with the same exact tier. For instance, you could use a Quantum Supercomputer (Quantum Circuit Series / LuV) or a Wetware Processor (Wetware Circuit Series / LuV) which will give you more Computation even though they are of the same tier. If you wish to find out exactly how much Computation a circuit gives; place down a Computer Rack, put a circuit inside and scan it. You can also see the total computation in the controller.%n%nIt will include the following information.%nBase computation: %nAfter overclocking: <numbers, same as above unless you specially overclock it>%nHeat Accumulated: <numbers, based on circuits and heat vents, keep a watchful eye on this part as it's extremely important>%n%nUsing the Parametrizer you can overclock and overvolt, but you never need to, so you may or may not wish to try it.%n%nSending Computation to the Research Station:%nUse the Optical Master Connector in one of the variable spaces on the QC, and the Optical Slave Connector on the RS. Use Optical Fiber Cable to connect them, and make sure to paint all three.%n%nSuggested Build:%nNow that you've understood the concepts and safety of handling of the QC, what are the more optimal setups for your Quantum Computer? For now, I'll suggest 2 racks with 3 Crystal Supercomputers each, and of course 1 Advanced Heat Vent. Do keep in mind that this 156 C/s setup can complete practically 3/4s of the recipes in the Research Station. This is a rather minimal setup compared to some of the more complicated setups.%n%nNow that you understand the QC, it's time to build it! You'll need to gather quite a lot of resources.
+gtnh.quest2007.desc=One of the most incredibly complicated machines, this will serve as the main structure for your "Computation" generation for the Research Station. %n%nFirst, you'll need a few things: the Quantum Computer itself, The Uncertainty Resolver, some good circuits and the Computer Racks to hold them, and at least a UV energy hatch (UV 4A suggested). The QC will consume 1A of UV, and each CR will use one more. So another important factor is to ONLY turn on the Quantum Computer once you have the desired recipe for the Research Station ready to avoid excess energy loss. Remember to turn the QC on BEFORE the RS. In order for you to build this absolute monster, you'll need to place down the Quantum Computer at least 1 block above the surface/ground and use the Multiblock Machine Blueprint to see where to place everything. The blocks with no dots next to the vents indicate that that space must be empty.%n%nUncertainty Resolver:%nMuch like a puzzle-solving simulation, it is rather complicated to explain how to solve it, but it's often best just to retrace or undo certain actions and hope for the best. Sometimes, the Schrödinger Status will require some puzzle solving again after a period of time. This is random and incredibly frustrating, especially during operations being done between the Research Station and Quantum Computer(s), so it is important to constantly check the Uncertainty Resolver before you start operations on your Computer. If the puzzle looks too hard or you can't complete it, just remove it and the controller and re-place them to get a different puzzle.%n%nComputer Racks:%nThe main component within the multiblock to generate Computation. In order to achieve this, you will need to input some circuits and ic2 heat vents; Advanced Heat Vents work best. It is critical that you use Heat Vents to prevent the heat from reaching a catastrophic point, 55 percent or above should be avoided for safety reasons. Technically, you could achieve above 55 percent heat capacity or 5500 heat capacity, however the Computer Racks may melt or explode above 5600 or 6000 heat. You can see this for individual Racks by scanning them. You cannot remove or input components until the heat is gone. You can see the overall heat value in the controller's interface. And most importantly: DO NOT WRENCH THE COMPUTER RACKS IF THEY HAVE HEAT IN THEM. Otherwise, you're going to get an explosion.%n%nComputation:%nComputation is generated every second and is based on the tier of your circuit. There are, however, differences in between how much computation is generated, even with the same exact tier. For instance, you could use a Master Quantum Computer (Quantum Circuit Series / LuV) or a Wetwareprocessor (Wetware Circuit Series / LuV) which will give you more Computation even though they are of the same tier. If you wish to find out exactly how much Computation a circuit gives; place down a Computer Rack, put a circuit inside and scan it. You can also see the total computation in the controller.%n%nIt will include the following information.%nBase computation: %nAfter overclocking: <numbers, same as above unless you specially overclock it>%nHeat Accumulated: <numbers, based on circuits and heat vents, keep a watchful eye on this part as it's extremely important>%n%nUsing the Parametrizer you can overclock and overvolt, but you never need to, so you may or may not wish to try it.%n%nSending Computation to the Research Station:%nUse the Optical Master Connector in one of the variable spaces on the QC, and the Optical Slave Connector on the RS. Use Optical Fiber Cable to connect them, and make sure to paint all three.%n%nSuggested Build:%nNow that you've understood the concepts and safety of handling of the QC, what are the more optimal setups for your Quantum Computer? For now, I'll suggest 2 racks with 3 Ultimate Crystalcomputers each, and of course 1 Advanced Heat Vent. Do keep in mind that this 156 C/s setup can complete practically 3/4s of the recipes in the Research Station. This is a rather minimal setup compared to some of the more complicated setups.%n%nNow that you understand the QC, it's time to build it! You'll need to gather quite a lot of resources.
 
 # Quest.2008 - Research Station
 gtnh.quest2008.name=Research Station
@@ -10406,7 +10406,7 @@ gtnh.quest2600.desc=To make the Circuit Assembly Line imprints you'll need a bun
 
 # Quest.2601 - §c§l§6§e§6§lCircuit Assembly Line
 gtnh.quest2601.name=§c§l§6§e§6§lCircuit Assembly Line
-gtnh.quest2601.desc=You'll need all of these to create 4 CALs, enough for a single series of circuits. If you only want one (for the microprocessors for example), just divide by 4.%n%nAssuming you got the necessary imprints on the LuV tab, you can now craft the CALs for the crystal processor series. We're starting with 4 since you'll need one per circuit, the imprint is not removable. And yes this means you need one for every circuit type you want to make with the CAL.%n%nAs an Assembly Line, it generally works like the normal one, with different items in each bus, but since it's only one item per CAL, it's far easier to use and make.%n%nThe CAL uses 'wraps' to make 16 of a circuit at a time (aside from ULV and LV circuits), saving you time, EU, and Soldering Alloy. You make the wraps in an Assembler with 16 of the item and Polyethylene.%n%n§3BTW you can change out the Input Hatch and the Energy Hatch, but the I/O busses need to be ULV.
+gtnh.quest2601.desc=You'll need all of these to create 4 CALs, enough for a single series of circuits. If you only want one (for the microprocessors for example), just divide by 4.%n%nAssuming you got the necessary imprints on the LuV tab, you can now craft the CALs for the crystalprocessor series. We're starting with 4 since you'll need one per circuit, the imprint is not removable. And yes this means you need one for every circuit type you want to make with the CAL.%n%nAs an Assembly Line, it generally works like the normal one, with different items in each bus, but since it's only one item per CAL, it's far easier to use and make.%n%nThe CAL uses 'wraps' to make 16 of a circuit at a time (aside from ULV and LV circuits), saving you time, EU, and Soldering Alloy. You make the wraps in an Assembler with 16 of the item and Polyethylene.%n%n§3BTW you can change out the Input Hatch and the Energy Hatch, but the I/O busses need to be ULV.
 
 # Quest.2602 - §c§lImprints, They're Important
 gtnh.quest2602.name=§c§lImprints, They're Important
@@ -10434,7 +10434,7 @@ gtnh.quest2607.desc=In order to make a Fusion Reactor you're going to need some 
 
 # Quest.2608 - §c§lAdvanced SMDs
 gtnh.quest2608.name=§c§lAdvanced SMDs
-gtnh.quest2608.desc=To craft circuits from the crystal processor series and beyond, you'll need these.%n%nIf you use these to make a circuit tier lower than Crystal, it'll use 1/4 the amount compared to normal SMDs, and half the required time.
+gtnh.quest2608.desc=To craft circuits from the crystalprocessor series and beyond, you'll need these.%n%nIf you use these to make a circuit tier lower than Crystal, it'll use 1/4 the amount compared to normal SMDs, and half the required time.
 
 # Quest.2609 - §c§lMysterious...
 gtnh.quest2609.name=§c§lMysterious...
@@ -10550,11 +10550,11 @@ gtnh.quest2636.desc=To make the Tier 8 Rocket, and Bioware Circuits, you need to
 
 # Quest.2637 - Cheaper EV Circuits
 gtnh.quest2637.name=Cheaper EV Circuits
-gtnh.quest2637.desc=With a higher voltage, you can use your ASoCs to make cheaper Quantum Processors.
+gtnh.quest2637.desc=With a higher voltage, you can use your ASoCs to make cheaper Quantumprocessors.
 
 # Quest.2638 - Cheaper IV Circuits
 gtnh.quest2638.name=Cheaper IV Circuits
-gtnh.quest2638.desc=The Crystal SoC will allow you to make Crystal Processors cheaper.%n%nUnfortunately, this is the last SoC.
+gtnh.quest2638.desc=The Crystal SoC will allow you to make Crystalprocessors cheaper.%n%nUnfortunately, this is the last SoC.
 
 # Quest.2639 - Tier 6 Heavy Duty Plates
 gtnh.quest2639.name=Tier 6 Heavy Duty Plates
@@ -10616,9 +10616,9 @@ gtnh.quest2652.desc=Another component for the Wetware Circuits is NeuroCPUs. To 
 gtnh.quest2653.name=Your First Wetware Circuit
 gtnh.quest2653.desc=Now that you're this far into ZPM, you can make cheaper LuV Circuits.
 
-# Quest.2654 - Wetware Assembly
-gtnh.quest2654.name=Wetware Assembly
-gtnh.quest2654.desc=The Wetware Assembly is a ZPM Circuit.
+# Quest.2654 - Wetware Processor Assembly
+gtnh.quest2654.name=Wetware Processor Assembly
+gtnh.quest2654.desc=The Wetwareprocessor Assembly is a ZPM Circuit.
 
 # Quest.2655 - Supercomputers and Water
 gtnh.quest2655.name=Supercomputers and Water
@@ -10650,11 +10650,11 @@ gtnh.quest2661.desc=Make a Bio Processing Unit. It is an important component in 
 
 # Quest.2662 - Please... don't let these circuits take over
 gtnh.quest2662.name=Please... don't let these circuits take over
-gtnh.quest2662.desc=The Bioware Processor is the first Bio Circuit you can make. It is a ZPM-Tier circuit.
+gtnh.quest2662.desc=The Bioprocessor is the first Bio Circuit you can make. It is a ZPM-Tier circuit.
 
 # Quest.2663 - Bio Circuit 2: Biological Boogaloo
 gtnh.quest2663.name=Bio Circuit 2: Biological Boogaloo
-gtnh.quest2663.desc=The Bioware Assembly is the second Bio Circuit. It is a UV-Tier circuit.
+gtnh.quest2663.desc=The Bioprocessor Assembly is the second Bio Circuit. It is a UV-Tier circuit.
 
 # Quest.2664 - Supercomputers... with Cells?
 gtnh.quest2664.name=Supercomputers... with Cells?
@@ -10662,7 +10662,7 @@ gtnh.quest2664.desc=The Bioware Supercomputer is the third Bio Circuit. It is a 
 
 # Quest.2665 - Master of Circuits
 gtnh.quest2665.name=Master of Circuits
-gtnh.quest2665.desc=You have done it! This is the final (normal) circuit in the game!%n%nThe Bioware Mainframe is the first and only UEV-Tier Circuit in the game. It requires a TecTech Research Station at 16,000,000 EU/t (16 amps of 1M EU/t).%n%nAlso, there's this thing called going outside. I heard you may like it.
+gtnh.quest2665.desc=You have done it! This is the final (normal) circuit in the game!%n%nThe Bio Mainframe is the first and only UEV-Tier Circuit in the game. It requires a TecTech Research Station at 16,000,000 EU/t (16 amps of 1M EU/t).%n%nAlso, there's this thing called going outside. I heard you may like it.
 
 # Quest.2666 - Magneto Resonatic Circuits
 gtnh.quest2666.name=Magneto Resonatic Circuits
@@ -10798,7 +10798,7 @@ gtnh.quest2698.desc=While you're on Io, you should pick up some ore for Niobium.
 
 # Quest.2699 - Play it Again, Sam
 gtnh.quest2699.name=Play it Again, Sam
-gtnh.quest2699.desc=So if you thought one Quantum Computer was cool, what about two? You can chain them to get more computing power for your research by connecting them with Optical Connectors the same way you connect to the Research Station. The original QC should have the slave to receive the data from the second one.%n%nOf course, this is kinda expensive, so there's actually another option, and that's to simply extend the first one. You can tear down the last two columns of blocks and then use an itemstack of two blueprints to see how a 4 computer rack one would be built. However, you'll need another UV or higher hatch to power it if you use 4 racks, since that will use 5A. You can do the same for up to a 12 stack for 24 computer racks if you want.%n%nIf you use 3 racks with 3 Crystal Mainframes and 1 Advanced Heat Vent each, you'll have enough for the UEV circuit, and it won't overheat either. If you use 7 racks and 14 UHV circuits (2 vents each), you'll be able to research anything less than the Piko and Quantum circuits without overheating.
+gtnh.quest2699.desc=So if you thought one Quantum Computer was cool, what about two? You can chain them to get more computing power for your research by connecting them with Optical Connectors the same way you connect to the Research Station. The original QC should have the slave to receive the data from the second one.%n%nOf course, this is kinda expensive, so there's actually another option, and that's to simply extend the first one. You can tear down the last two columns of blocks and then use an itemstack of two blueprints to see how a 4 computer rack one would be built. However, you'll need another UV or higher hatch to power it if you use 4 racks, since that will use 5A. You can do the same for up to a 12 stack for 24 computer racks if you want.%n%nIf you use 3 racks with 3 Crystalprocessor Mainframes and 1 Advanced Heat Vent each, you'll have enough for the UEV circuit, and it won't overheat either. If you use 7 racks and 14 UHV circuits (2 vents each), you'll be able to research anything less than the Piko and Quantum circuits without overheating.
 
 # Quest.2700 - LSC = MC^2
 gtnh.quest2700.name=LSC = MC^2
