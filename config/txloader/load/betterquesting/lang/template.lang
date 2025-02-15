@@ -2476,29 +2476,29 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAE3g.desc=Some machines need emitters and
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE3w.name=§a§lQuantum Eye
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE3w.desc=Quantum eyes are required in EV emitters and sensors. Just infuse your ender eye with radon to get one.
 
-# Quest: Nanoprocessor
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE4A.name=§a§lNanoprocessor
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE4A.desc=This is the Nanoprocessor circuit line. Similar to the previous circuit line, these are four circuits. The §onano§r circuits go all the way to the LuV-tier Nanoprocesser Mainframe.
+# Quest: Nano Processor
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE4A.name=§a§lNano Processor
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE4A.desc=This is the Nano Processor circuit line. Similar to the previous circuit line, these are four circuits. The §onano§r circuits go all the way to the LuV-tier Nano Mainframe.
 
 # Quest: NanoCPU Wafer and Chip
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE4Q.name=§a§lNanoCPU Wafer and Chip
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE4Q.desc=The NanoCPU Wafer is made out of a CPU Wafer with raw carbon fibre and molten glowstone in an EV chemical reactor. Cut it for nano CPU chips.
 
-# Quest: Nanoprocessor Assembly
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE4g.name=§a§lNanoprocessor Assembly
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE4g.desc=The Nanoprocessor Assembly is an EV circuit.
+# Quest: Nano Assembly
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE4g.name=§a§lNano Assembly
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE4g.desc=The Nano Assembly is an EV circuit.
 
-# Quest: Elite Nanocomputer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE4w.name=§a§lElite Nanocomputer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE4w.desc=The elite nanocomputer is an IV circuit.
+# Quest: Nano Supercomputer
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE4w.name=§a§lNano Supercomputer
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE4w.desc=The Nano Supercomputer is an IV circuit.
 
 # Quest: EV Chemical Bath
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE5A.name=§a§f§a§lEV Chemical Bath
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE5A.desc=An HV chemical bath or better is needed for the quantum eye. Better make an EV one so that you can also process Ilmenite better.
 
-# Quest: Nanoprocessor Mainframe
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE7Q.name=§a§lNanoprocessor Mainframe
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE7Q.desc=The nanoprocessor mainframe is the first LuV Circuit, and the end of this circuit line produced in EV. To craft the Tier 2 Rocket and reach Mars, Phobos and Deimos, you need to reach this circuit and make 8 of it.%n%nAfter that, you will be able to progress into IV much more easily, but you will need two more circuits to make the IV Circuit Assembling Machine.
+# Quest: Nano Mainframe
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE7Q.name=§a§lNano Mainframe
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE7Q.desc=The Nano Mainframe is the first LuV Circuit, and the end of this circuit line produced in EV. To craft the Tier 2 Rocket and reach Mars, Phobos and Deimos, you need to reach this circuit and make 8 of it.%n%nAfter that, you will be able to progress into IV much more easily, but you will need two more circuits to make the IV Circuit Assembling Machine.
 
 # Quest: Blue Steel
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE7w.name=§a§lBlue Steel
@@ -2791,7 +2791,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGig.desc=With the IV circuit assembler a
 
 # Quest: Single Step EV Circuits
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGjg.name=§b§lSingle Step EV Circuits
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGjg.desc=Quantumprocessors are your first chance to make EV circuits in a single craft.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGjg.desc=Quantum Processors are your first chance to make EV circuits in a single craft.
 
 # Quest: QBit Wafer and Chip
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGjw.name=§b§lQBit Wafer and Chip
@@ -2857,17 +2857,17 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGpw.desc=Potassium Nitrate is made from 
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGqA.name=§b§lChromium Trioxide
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGqA.desc=Chromium Trioxide is made out of chrome and oxygen in two steps. First you make Chromium Dioxide and then Chromium Trioxide.
 
-# Quest: Quantumprocessor Assembly
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGqQ.name=§b§lQuantumprocessor Assembly
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGqQ.desc=Quantumprocessor Assembly is an IV Circuit.
+# Quest: Quantum Assembly
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGqQ.name=§b§lQuantum Assembly
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGqQ.desc=Quantum Assembly is an IV Circuit.
 
-# Quest: Master Quantumcomputer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGqg.name=§b§lMaster Quantumcomputer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGqg.desc=The Master Quantumcomputer is an LuV Circuit.
+# Quest: Quantum Supercomputer
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGqg.name=§b§lQuantum Supercomputer
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGqg.desc=The Quantum Supercomputer is an LuV Circuit.
 
-# Quest: Quantumprocessor Mainframe
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGqw.name=§b§lQuantumprocessor Mainframe
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGqw.desc=The Quantumprocessor Mainframe is the first ZPM circuit you can make.
+# Quest: Quantum Mainframe
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGqw.name=§b§lQuantum Mainframe
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGqw.desc=The Quantum Mainframe is the first ZPM circuit you can make.
 
 # Quest: Cheaper LV Circuits
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGsA.name=§b§lCheaper LV Circuits
@@ -3296,10 +3296,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGkw.desc=You may have noticed that the c
 
 # Quest: Cheaper HV circuits
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGlA.name=§c§lCheaper HV circuits
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGlA.desc=You can make Nanoprocessors cheaper than before. You'll need to make an imprint first though.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGlA.desc=You can make Nano Processors cheaper than before. You'll need to make an imprint first though.
 
-# Quest: Crystalprocessors
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGlg.name=§c§lCrystalprocessors
+# Quest: Crystal Processors
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGlg.name=§c§lCrystal Processors
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGlg.desc=Now that you're this far into LuV, you can make easier IV circuits, as well as your first UV circuit.%n%nAfter crafting each circuit, make an imprint of it to reduce the cost of following ones.
 
 # Quest: Crystal Chips
@@ -3312,19 +3312,19 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGmA.desc=A new circuit line, a new board
 
 # Quest: LuV Laser Engraver
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGmQ.name=§9§a§c§lLuV Laser Engraver
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGmQ.desc=The LuV laser engraver is an important part of lategame circuit production. You need to make crystal CPU's for both the crystalprocessor series of circuits, and later on for the wetware series.%n%n[note]If you've made the Hyper-Intensity Laser Engraver, you can just upgrade that instead.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGmQ.desc=The LuV laser engraver is an important part of lategame circuit production. You need to make crystal CPU's for both the crystal processor series of circuits, and later on for the wetware series.%n%n[note]If you've made the Hyper-Intensity Laser Engraver, you can just upgrade that instead.[/note]
 
-# Quest: Crystalprocessor Assembly
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGrA.name=§c§lCrystalprocessor Assembly
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGrA.desc=The Crystal Processor Assembly is a LuV Circuit.
+# Quest: Crystal Assembly
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGrA.name=§c§lCrystal Assembly
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGrA.desc=The Crystal Assembly is a LuV Circuit.
 
-# Quest: Ultimate Crystalcomputer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGrQ.name=§c§lUltimate Crystalcomputer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGrQ.desc=The Ultimate Crystalcomputer is a ZPM circuit.
+# Quest: Crystal Supercomputer
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGrQ.name=§c§lCrystal Supercomputer
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGrQ.desc=The Crystal Supercomputer is a ZPM circuit.
 
-# Quest: Crystalprocessor Mainframe
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGrg.name=§c§lCrystalprocessor Mainframe
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGrg.desc=The Crystalprocessor Mainframe is the first UV circuit you can make.
+# Quest: Crystal Mainframe
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGrg.name=§c§lCrystal Mainframe
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGrg.desc=The Crystal Mainframe is the first UV circuit you can make.
 
 # Quest: LuV Superconductors (32,768 EU/t)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGrw.name=§c§lLuV Superconductors (32,768 EU/t)
@@ -3376,7 +3376,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKLw.desc=In order to make a Fusion React
 
 # Quest: Advanced SMDs
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKMA.name=§c§lAdvanced SMDs
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKMA.desc=To craft circuits from the crystalprocessor series and beyond, you'll need these.%n%nIf you use these to make a circuit tier lower than Crystal, it'll use 1/4 the amount compared to normal SMDs, and half the required time.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKMA.desc=To craft circuits from the crystal processor series and beyond, you'll need these.%n%nIf you use these to make a circuit tier lower than Crystal, it'll use 1/4 the amount compared to normal SMDs, and half the required time.
 
 # Quest: Mysterious...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKMQ.name=§c§lMysterious...
@@ -3609,7 +3609,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKSg.desc=To get to the Toxic Everglades,
 
 # Quest: Cheaper EV Circuits
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKTQ.name=Cheaper EV Circuits
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKTQ.desc=With a higher voltage, you can use your ASoCs to make cheaper Quantumprocessors.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKTQ.desc=With a higher voltage, you can use your ASoCs to make cheaper Quantum Processors.
 
 # Quest: Where No One Has Gone Before
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKVg.name=Where No One Has Gone Before
@@ -3778,7 +3778,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKSw.desc=To make Wetware Circuits (UHV-T
 
 # Quest: Cheaper IV Circuits
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKTg.name=Cheaper IV Circuits
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKTg.desc=The Crystal SoC will allow you to make Crystalprocessors cheaper.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKTg.desc=The Crystal SoC will allow you to make Crystal Processors cheaper.
 
 # Quest: All Good Things...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKVw.name=All Good Things...
@@ -3804,9 +3804,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKXA.desc=Another component for the Wetwa
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKXQ.name=Your First Wetware Circuit
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKXQ.desc=The first Wetware LuV circuit.
 
-# Quest: Wetware Processor Assembly
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKXg.name=Wetware Processor Assembly
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKXg.desc=The Wetwareprocessor Assembly is a ZPM Circuit.
+# Quest: Wetware Assembly
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKXg.name=Wetware Assembly
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKXg.desc=The Wetware Assembly is a ZPM Circuit.
 
 # Quest: Supercomputers and Water
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKXw.name=Supercomputers and Water
@@ -3826,7 +3826,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKcQ.desc=Now let's make Cosmic Neutroniu
 
 # Quest: Quantum Mechanics is Hot
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKiw.name=Quantum Mechanics is Hot
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKiw.desc=The QC has 2-24 computer racks depending on the length of the machine. Each rack has four total slots for either circuits (to generate heat and computation) or vents (to dissipate heat). Although conceptually similar to a nuclear reactor, the location of the components inside does not matter at all. Every rack is also completely independent from every other rack which means it is not possible to have one rack with all circuits and another with all vents.%n%nThe computation of a rack is the sum of all the components' individual computation. For example, two APU (Tier 3) and two Cooling Cores have 240 + 240 + 0 + 0 = 480 base computation per second. However, computation changes significantly depending on the values for overclock and overvolt:%n%n[note]Computation = Base * (1+overclock^2) / (1+(overclock-overvolt)^2)[/note]%n%nThe heat of a rack is a value between 0 and 10,000 and is reported in the interface of the QC or by using a Portable Scanner on the rack. Every component has a certain heat limit which if exceeded will void that component. Breaking or wrenching a rack while it is hot (>2000) will similarly void the components inside. The QC will explode if the heat exceeds 10,000 but no component has a heat limit greater than that, so don't worry too much about ruining your base.%n%n[note]Heat α HeatConstant * overclock * overvolt^2[/note]%n%nThe power consumption of a rack is 1A ZPM regardless of the components inside. This is in addition to the 1A ZPM of the QC itself. However, these EU/t values are directly proportional to overclock and overvolt which should increase as you unlock better circuits. Be sure to turn on the QC before the research station and only when you need it.%n%n[note]EU/t = 131,072 * overclock * overvolt * (racks + 1)[/note]%n%nTo get you started, craft 4x APU (Tier 3) and 4x Cooling Cores. Place two of each component in the two racks and the QC will safely produce 1,920 computation/s for just 393,215 EU/t (0.75A UV) which is more than enough for researching the Wetware Mainframe. If you would like to further increase the computation/s at the cost of power, adjust the overclock and overvolt values to 1.44 and 1.03, respectively. This will generate 2,526 computation/s at a cost of 583,217 EU/t (1.11A UV).%n%nIf the APUs are too bothersome to craft, try Crystalprocessor Mainframes instead but you will need different overclock and overvolt values to get the most out of them. That goes for every unique combination of circuits and vents.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKiw.desc=The QC has 2-24 computer racks depending on the length of the machine. Each rack has four total slots for either circuits (to generate heat and computation) or vents (to dissipate heat). Although conceptually similar to a nuclear reactor, the location of the components inside does not matter at all. Every rack is also completely independent from every other rack which means it is not possible to have one rack with all circuits and another with all vents.%n%nThe computation of a rack is the sum of all the components' individual computation. For example, two APU (Tier 3) and two Cooling Cores have 240 + 240 + 0 + 0 = 480 base computation per second. However, computation changes significantly depending on the values for overclock and overvolt:%n%n[note]Computation = Base * (1+overclock^2) / (1+(overclock-overvolt)^2)[/note]%n%nThe heat of a rack is a value between 0 and 10,000 and is reported in the interface of the QC or by using a Portable Scanner on the rack. Every component has a certain heat limit which if exceeded will void that component. Breaking or wrenching a rack while it is hot (>2000) will similarly void the components inside. The QC will explode if the heat exceeds 10,000 but no component has a heat limit greater than that, so don't worry too much about ruining your base.%n%n[note]Heat α HeatConstant * overclock * overvolt^2[/note]%n%nThe power consumption of a rack is 1A ZPM regardless of the components inside. This is in addition to the 1A ZPM of the QC itself. However, these EU/t values are directly proportional to overclock and overvolt which should increase as you unlock better circuits. Be sure to turn on the QC before the research station and only when you need it.%n%n[note]EU/t = 131,072 * overclock * overvolt * (racks + 1)[/note]%n%nTo get you started, craft 4x APU (Tier 3) and 4x Cooling Cores. Place two of each component in the two racks and the QC will safely produce 1,920 computation/s for just 393,215 EU/t (0.75A UV) which is more than enough for researching the Wetware Mainframe. If you would like to further increase the computation/s at the cost of power, adjust the overclock and overvolt values to 1.44 and 1.03, respectively. This will generate 2,526 computation/s at a cost of 583,217 EU/t (1.11A UV).%n%nIf the APUs are too bothersome to craft, try Crystal Mainframes instead but you will need different overclock and overvolt values to get the most out of them. That goes for every unique combination of circuits and vents.
 
 # Quest: Fluids for Copying Cultures
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKlw.name=Fluids for Copying Cultures
@@ -3967,11 +3967,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKZQ.desc=Make a Bio Processing Unit. It 
 
 # Quest: Please... Don't Let These Circuits Take Over
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKZg.name=Please... Don't Let These Circuits Take Over
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKZg.desc=The Bioprocessor is the first Bio Circuit you can make. It is a ZPM-Tier circuit.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKZg.desc=The Bioware Processor is the first Bio Circuit you can make. It is a ZPM-Tier circuit.
 
 # Quest: Bio Circuit 2: Biological Boogaloo
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKZw.name=Bio Circuit 2: Biological Boogaloo
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKZw.desc=The Bioprocessor Assembly is the second Bio Circuit. It is a UV-Tier circuit.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKZw.desc=The Biopware Assembly is the second Bio Circuit. It is a UV-Tier circuit.
 
 # Quest: Supercomputers... With Cells?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKaA.name=Supercomputers... With Cells?
@@ -3979,7 +3979,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKaA.desc=The Bioware Supercomputer is th
 
 # Quest: Master of Circuits
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKaQ.name=Master of Circuits
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKaQ.desc=The Bio Mainframe is the first UEV-Tier Circuit in the game.%n%nThis is truely an achievement, well done!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKaQ.desc=The Bioware Mainframe is the first UEV-Tier Circuit in the game.%n%nThis is truely an achievement, well done!
 
 # Quest: Compressing the Core of a Star
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKcg.name=Compressing the Core of a Star
@@ -4023,7 +4023,7 @@ betterquesting.quest.Yxrhi0z7SUuvUT3BrsENww.desc=The crystal living chips are mo
 
 # Quest: A Blast to the Past
 betterquesting.quest._vOu6ZYdRiOqLN_5-uBU_A.name=A Blast to the Past
-betterquesting.quest._vOu6ZYdRiOqLN_5-uBU_A.desc=Now that you have the bio mainframe, you have unlocked the first of the stargate trophies!%nYes, there's multiple of them, one for each major iteration of the stargate recipe.%nThese trophies are just that, trophies, and you can try to craft them if you want to compare the costs to today's stargate standards.%nTo complete these quests you have to submit two stargates' worth of materials.%n%n§3Now, let me bestow upon you a short history lesson about this point in GT:NHs past.%n%nThe year is 2020. The bio mainframe was pretty much the end of GT:NH progression at the time, not much above UHV existed or was craftable. This was also the point in the pack where you'd start scaling for stargate, as that too was tiered at UHV. Technically UEV parts were craftable, but their only uses were singleblocks for PAs (which only held up to 16 UEV machines) and the Deep Dark Portal. UEV-UMV energy hatches were craftable, but their recipes were simple hull + wire crafting table recipes%n...and that was about it for UHV+ content.%nWith the recent addition of void miners, the previously thought to be impossible started to seem actually attainable, a set of stargates. Specifically, to §ocraft§3 a set of them, not just find them like others have before.%n%nOne group in particular, known as the §aGigaplex§3, gave it their all and actually managed to do it, to prove that crafting stargates is possible with enough determination.%n%nThus, on the §a16th of February, 2021§3, the first set of crafted stargates had been born.%n%nP.S.: If you want to be as faithful to the challenge as possible, try completing this quest without using any of the modern functionality that didn't exist back then.%nHere's a non-exhaustive list of major things that didn't exist (in no particular order):%n-PCB Factory, Space Elevator, Component Assemblyline, AAL, PrAss, EEC, EIG, Compact Fusions, MCR, MABS%n-Any bee related GT machines%n-Any UEV or above multis%n-XL Turbines, Naq fuel, LEG%n-Sub 1-tick OC, Batch Mode, inbuilt Void Protection on multis%n-Level Maintainer, AE Fluid Crafting, Stocking Buses/Hatches, Crafting Input Buses, ME Output Buses/Hatches, non-recursive AE component recipes%n-Shift-clicking recipes into AE patterns (pain)%n-Early-Midgame QoL such as ghost circuits, visual prospecting, reprogramming circuits with a screwdriver, seeing Assline recipes in NEI before having crafted them, and more%n%nP.P.S: This quest is missing the chaotic capacitors on purpose, because the chaotic core recipe requires spacetime now, but the chaotic capacitor recipe did not change at all since then. All in all the cost for these banks was completely negligible back then and still is today, they only serve as a magic gate for SG.
+betterquesting.quest._vOu6ZYdRiOqLN_5-uBU_A.desc=Now that you have the bioware mainframe, you have unlocked the first of the stargate trophies!%nYes, there's multiple of them, one for each major iteration of the stargate recipe.%nThese trophies are just that, trophies, and you can try to craft them if you want to compare the costs to today's stargate standards.%nTo complete these quests you have to submit two stargates' worth of materials.%n%n§3Now, let me bestow upon you a short history lesson about this point in GT:NHs past.%n%nThe year is 2020. The bio mainframe was pretty much the end of GT:NH progression at the time, not much above UHV existed or was craftable. This was also the point in the pack where you'd start scaling for stargate, as that too was tiered at UHV. Technically UEV parts were craftable, but their only uses were singleblocks for PAs (which only held up to 16 UEV machines) and the Deep Dark Portal. UEV-UMV energy hatches were craftable, but their recipes were simple hull + wire crafting table recipes%n...and that was about it for UHV+ content.%nWith the recent addition of void miners, the previously thought to be impossible started to seem actually attainable, a set of stargates. Specifically, to §ocraft§3 a set of them, not just find them like others have before.%n%nOne group in particular, known as the §aGigaplex§3, gave it their all and actually managed to do it, to prove that crafting stargates is possible with enough determination.%n%nThus, on the §a16th of February, 2021§3, the first set of crafted stargates had been born.%n%nP.S.: If you want to be as faithful to the challenge as possible, try completing this quest without using any of the modern functionality that didn't exist back then.%nHere's a non-exhaustive list of major things that didn't exist (in no particular order):%n-PCB Factory, Space Elevator, Component Assemblyline, AAL, PrAss, EEC, EIG, Compact Fusions, MCR, MABS%n-Any bee related GT machines%n-Any UEV or above multis%n-XL Turbines, Naq fuel, LEG%n-Sub 1-tick OC, Batch Mode, inbuilt Void Protection on multis%n-Level Maintainer, AE Fluid Crafting, Stocking Buses/Hatches, Crafting Input Buses, ME Output Buses/Hatches, non-recursive AE component recipes%n-Shift-clicking recipes into AE patterns (pain)%n-Early-Midgame QoL such as ghost circuits, visual prospecting, reprogramming circuits with a screwdriver, seeing Assline recipes in NEI before having crafted them, and more%n%nP.P.S: This quest is missing the chaotic capacitors on purpose, because the chaotic core recipe requires spacetime now, but the chaotic capacitor recipe did not change at all since then. All in all the cost for these banks was completely negligible back then and still is today, they only serve as a magic gate for SG.
 
 
 ## Quest Line: Tier 10 - UEV
@@ -4136,7 +4136,7 @@ betterquesting.quest.VplPMJ0DThWiBNH_Hx5SQA.desc=Carefully treating raw computer
 
 # Quest: My Eyes Hurt! #3
 betterquesting.quest.WIx0jq8hS8ifWxZWTmC5yA.name=My Eyes Hurt! #3
-betterquesting.quest.WIx0jq8hS8ifWxZWTmC5yA.desc=The optical computer is the third optical circuit. It is a UEV-tier circuit
+betterquesting.quest.WIx0jq8hS8ifWxZWTmC5yA.desc=The optical supercomputer is the third optical circuit. It is a UEV-tier circuit
 
 # Quest: The Quest for Holy Water
 betterquesting.quest.WPoaCPPwTBSyn2dmh5DcBA.name=The Quest for Holy Water
@@ -6574,7 +6574,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJEA.desc=Well what might happen if you c
 
 # Quest: Circuit Assembly Line
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKKQ.name=Circuit Assembly Line
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKKQ.desc=You'll need all of this to create 4 CALs, enough for a single series of circuits. If you only want one (for the microprocessors for example), just divide by 4.%n%nAssuming you got the necessary imprints on the LuV tab, you can now craft the CALs for the crystalprocessor series. We're starting with 4 since you'll need one per circuit, the imprint is not removable. And yes this means you need one for every circuit type you want to make with the CAL.%n%nAs an Assembly Line, it generally works like the normal one, with different items in each bus, but since it's only one item per CAL, it's far easier to use, and the recipe is cheaper too.%n%nThe CAL uses 'wraps' to make 16 of a circuit at a time (aside from ULV and LV circuits), saving you time, EU, and Soldering Alloy (or Indalloy). You make the wraps in an Assembler with 16 of the item and Polyethylene.%n%n[note]BTW you can change out the Hatches and Buses for better ones, but you still need to keep ingredient order. Also CAL grants perfect overclock.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKKQ.desc=You'll need all of this to create 4 CALs, enough for a single series of circuits. If you only want one (for the microprocessors for example), just divide by 4.%n%nAssuming you got the necessary imprints on the LuV tab, you can now craft the CALs for the crystal processor series. We're starting with 4 since you'll need one per circuit, the imprint is not removable. And yes this means you need one for every circuit type you want to make with the CAL.%n%nAs an Assembly Line, it generally works like the normal one, with different items in each bus, but since it's only one item per CAL, it's far easier to use, and the recipe is cheaper too.%n%nThe CAL uses 'wraps' to make 16 of a circuit at a time (aside from ULV and LV circuits), saving you time, EU, and Soldering Alloy (or Indalloy). You make the wraps in an Assembler with 16 of the item and Polyethylene.%n%n[note]BTW you can change out the Hatches and Buses for better ones, but you still need to keep ingredient order. Also CAL grants perfect overclock.[/note]
 
 # Quest: Cool Guys Don't Look at Explosions
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKxQ.name=Cool Guys Don't Look at Explosions
