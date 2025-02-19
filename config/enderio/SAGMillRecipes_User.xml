@@ -117,6 +117,17 @@
     </recipe>
 </recipeGroup>
 
+<recipeGroup name="Thermal Expansion/Foundation" >
+  <recipe name="Obsidian" energyCost="4000" >
+    <input>
+      <itemStack modID="minecraft" itemName="obsidian" />
+    </input>
+    <output>
+      <itemStack oreDictionary="dustObsidian" number="2" />
+    </output>
+  </recipe>
+</recipeGroup>
+
 <recipeGroup name="Vanilla" >
    <recipe name="ClayBlock" energyCost="2400" >
       <input>
