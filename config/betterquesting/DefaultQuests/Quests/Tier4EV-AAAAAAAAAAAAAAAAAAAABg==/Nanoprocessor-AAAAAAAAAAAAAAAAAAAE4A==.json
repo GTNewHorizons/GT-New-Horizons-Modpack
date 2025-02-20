@@ -12,7 +12,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "This is the Nanoprocessor circuit line. Similar to the previous circuit line, these are four circuits. The §onano§r circuits go all the way to the LuV-tier Nanoprocesser Mainframe.",
+      "desc:8": "This is the Nano Processor circuit line. Similar to the previous circuit line, these are four circuits. The §onano§r circuits go all the way to the LuV-tier Nano Mainframe.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -24,7 +24,7 @@
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§a§lNanoprocessor",
+      "name:8": "§a§lNano Processor",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

@@ -82,15 +82,9 @@
         },
         "2:10": {
           "Count:3": 1,
-          "Damage:2": 3,
+          "Damage:2": 11,
           "OreDict:8": "",
-          "id:8": "miscutils:miscutils.blockcasings"
-        },
-        "3:10": {
-          "Count:3": 1,
-          "Damage:2": 1,
-          "OreDict:8": "",
-          "id:8": "miscutils:miscutils.blockcasings"
+          "id:8": "miscutils:gtplusplus.blockcasings.2"
         }
       },
       "taskID:8": "bq_standard:retrieval"

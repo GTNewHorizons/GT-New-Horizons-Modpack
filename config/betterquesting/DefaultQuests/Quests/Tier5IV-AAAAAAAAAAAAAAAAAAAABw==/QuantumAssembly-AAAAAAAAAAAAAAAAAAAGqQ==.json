@@ -2,17 +2,17 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 1708
+      "questIDLow:4": 1678
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The Ultimate Crystalcomputer is a ZPM circuit.",
+      "desc:8": "Quantum Assembly is an IV Circuit.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 32090,
+        "Damage:2": 32086,
         "OreDict:8": "",
         "id:8": "gregtech:gt.metaitem.03"
       },
@@ -20,7 +20,7 @@
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§c§lUltimate Crystalcomputer",
+      "name:8": "§b§lQuantum Assembly",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -33,31 +33,31 @@
     }
   },
   "questIDHigh:4": 0,
-  "questIDLow:4": 1709,
+  "questIDLow:4": 1705,
   "rewards:9": {
     "0:10": {
       "choices:9": {
         "0:10": {
-          "Count:3": 4,
-          "Damage:2": 32104,
+          "Count:3": 2,
+          "Damage:2": 32103,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.03"
         },
         "1:10": {
-          "Count:3": 64,
-          "Damage:2": 32043,
+          "Count:3": 32,
+          "Damage:2": 32020,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.03"
         },
         "2:10": {
-          "Count:3": 64,
-          "Damage:2": 32041,
+          "Count:3": 24,
+          "Damage:2": 32182,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.03"
         },
         "3:10": {
           "Count:3": 1,
-          "Damage:2": 41,
+          "Damage:2": 8,
           "OreDict:8": "",
           "id:8": "enhancedlootbags:lootbag"
         }
@@ -72,7 +72,7 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 5,
+          "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "dreamcraft:item.CoinTechnicianII"
@@ -90,38 +90,38 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 6,
-          "Damage:2": 32104,
+          "Count:3": 4,
+          "Damage:2": 32103,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.03"
         },
         "1:10": {
-          "Count:3": 2,
-          "Damage:2": 32096,
+          "Count:3": 8,
+          "Damage:2": 32085,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.03"
         },
         "2:10": {
-          "Count:3": 24,
+          "Count:3": 16,
           "Damage:2": 32039,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.03"
         },
         "3:10": {
-          "Count:3": 64,
-          "Damage:2": 32043,
+          "Count:3": 48,
+          "Damage:2": 32182,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.03"
         },
         "4:10": {
           "Count:3": 64,
-          "Damage:2": 32041,
+          "Damage:2": 32020,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.03"
         },
         "5:10": {
-          "Count:3": 64,
-          "Damage:2": 19360,
+          "Count:3": 96,
+          "Damage:2": 19085,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.02"
         }
@@ -137,52 +137,10 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 1,
-          "Damage:2": 32090,
+          "Count:3": 4,
+          "Damage:2": 32086,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.03"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "2:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
-      "index:3": 2,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 1,
-          "Damage:2": 1,
-          "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGeneratedItem0",
-          "tag:10": {
-            "Count:1": 1,
-            "Damage:2": 32090
-          }
-        }
-      },
-      "taskID:8": "bq_standard:optional_retrieval"
-    },
-    "3:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
-      "index:3": 3,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGeneratedItem0",
-          "tag:10": {
-            "Count:1": 1,
-            "Damage:2": 32090
-          }
         }
       },
       "taskID:8": "bq_standard:retrieval"
