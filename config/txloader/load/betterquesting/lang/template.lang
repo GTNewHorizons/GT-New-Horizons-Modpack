@@ -1217,6 +1217,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEQg.desc=Pumps can do more than pump oil
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEQw.name=§5§lDiamond Tanks... Ooo, Shiny
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEQw.desc=After you build a cutting machine you can make some diamond plates for your new 64,000L single block tank.
 
+# Quest: Firestone Ore
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE_w.name=§5§lFirestone Ore
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE_w.desc=Firestone ore is used to make some BC machines like the filler, and heats your Railcraft boiler much faster and more effectively than conventional fuels. %nUnforunately, it's in the nether...at the bottom of the lava ocean!%n%nHere are some tips for finding it:%n%n-Firestone only spawns in deep lava, at least 6 blocks deep. It will only replace Netherrack, so a fjord filled with Soul Sand won't have any. Can you think of ways to check the lava depth, and what's down there?%n-Alternatively, if you keep your head at just the correct height above the lava and at the correct angle, you'll be able to see underneath it - surely there must be a hovering jetpack?%n-...or just look for the biome when your cursor is over the JM map. Hell is the default one that has Netherrack.%n%nFirestone can be mined with the GT miners, if you place it within horizontal range. Firestone ore and products will cause random fires to start nearby, so get it into a backpack quickly!
+
 # Quest: Ardite and Cobalt
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEaw.name=§5§lArdite and Cobalt
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEaw.desc=If you have some time you can look for cobalt and ardite in the Nether.%n%nYou've heard rumors of a special wood only found in another land, a forest of Twilight, that can make tools strong enough to mine them.%n%nRemember, you need an electric blast furnace to process these materials before you can make tools with them.
@@ -1392,6 +1396,14 @@ betterquesting.quest.JRrD8MoLRuCHCD-fFpeNvQ.desc=A feat of human engineering at 
 # Quest: Keeping things organized
 betterquesting.quest.b47jlBoHTFGGB3j7nq60Zw.name=§5§lKeeping things organized
 betterquesting.quest.b47jlBoHTFGGB3j7nq60Zw.desc=Are you tired of storing Shapes and/or Molds near your Extruders and Solidifiers instead of inside them? Today must be your lucky day, because these item holders let you do exactly that!%n%nThey allow your machines to hold a small number of extra items, though each slot can only store one item at a time. There are three versions of this cover, each offering a different amount of storage:%n%nBasic Item Holder: 9 slots%nGood Item Holder: 12 slots%nAdvanced Item Holder: 15 slots%n%n[note]If that's still not enough space and you are already using the highest tier, you can simply attach multiple holders to your machine of choice.[/note]
+
+# Quest: Refined Firestone
+betterquesting.quest.njE33db1TxaiJhEBA16E4A.name=§5§lRefined Firestone§5
+betterquesting.quest.njE33db1TxaiJhEBA16E4A.desc=Cut Firestone is the basic shape for producing Refined Firestone.%nUse a Diamond Lens or Flint Lens for cutting.%nIt is then fired with lava in the EBF.%n%nLastly it is thrown into lava and charged by absorbing lava blocks around it.%nIt needs 5000 lava blocks to be fully charged, so a large lava lake is required, preferably in the Nether.%n%n[note]If the firestone breaks, it can be repaired with lava in the EBF and recharged.[/note]
+
+# Quest: Precision Laser Engraver
+betterquesting.quest.vV8Pw_lTTSiMmWOLqkyIWg.name=§5§lPrecision Laser Engraver
+betterquesting.quest.vV8Pw_lTTSiMmWOLqkyIWg.desc=The Precision Laser Engraver does not have many functions in LV, but is needed to create Cut Firestone which can later be filled with lava.
 
 
 ## Quest Line: Tier 2 - MV
@@ -1710,9 +1722,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEOQ.desc=This Plate Bending Machine allo
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAERQ.name=§6§lDid You Run Low On Gold or Redstone?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAERQ.desc=Did you run low on redstone and/or gold? It's no problem with a glowstone flower farm. You can centrifuge glowstone dust to redstone and gold dust. Redstone is also a good source of chrome. You'll need tons of gold for HV, so it's a good idea to set this up before then.%n%n[note]There are actually a couple plants that produce glowstone, pick the one you like![/note]
 
-# Quest: Firestone Ore/Dust
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE_w.name=§6§lFirestone Ore/Dust
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE_w.desc=Firestone ore is used to make some BC machines like the filler, and some other stuff. Unforunately, it's in the nether...at the bottom of the lava ocean!%n%nHere are some tips for finding it:%n%n-Firestone only spawns in deep lava, at least 6 deep. It will only replace netherrack, so a fjord filled with soulsand won't have any. Can you think of ways to check the lava depth, and what's down there?%n-Alternatively, if you keep your head at just the correct height above the lava and at the correct angle, you'll be able to see underneath it - surely there must be a hovering jetpack?%n-...or just look for the biome when your cursor is over the JM map. Hell is the default one that has netherrack.%n%nFirestone can be mined with the GT miners, if you place it within horizontal range. Firestone ore and products will cause random fires to start nearby, so get it into a backpack quickly!
+# Quest: Firestone Ore
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE_w.name=§5§lFirestone Ore
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE_w.desc=Firestone ore is used to make some BC machines like the filler, and heats your Railcraft boiler much faster and more effectively than conventional fuels. %nUnforunately, it's in the nether...at the bottom of the lava ocean!%n%nHere are some tips for finding it:%n%n-Firestone only spawns in deep lava, at least 6 blocks deep. It will only replace Netherrack, so a fjord filled with Soul Sand won't have any. Can you think of ways to check the lava depth, and what's down there?%n-Alternatively, if you keep your head at just the correct height above the lava and at the correct angle, you'll be able to see underneath it - surely there must be a hovering jetpack?%n-...or just look for the biome when your cursor is over the JM map. Hell is the default one that has Netherrack.%n%nFirestone can be mined with the GT miners, if you place it within horizontal range. Firestone ore and products will cause random fires to start nearby, so get it into a backpack quickly!
 
 # Quest: Tier 2 (MV)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEfA.name=§6§lTier 2 (MV)
