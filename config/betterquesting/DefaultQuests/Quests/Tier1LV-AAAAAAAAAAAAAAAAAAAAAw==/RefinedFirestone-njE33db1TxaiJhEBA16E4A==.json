@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The cut firestone is the basic shape for producing the refined firestone. \nUse a diamond lens or a flint lens for cutting.\nIt is then fired with lava in the EBF.\n\nIt is then simply thrown into the lava and charged. \nIt needs 5000 lava blocks to be fully charged, so a large lava lake is required, preferably in the Nether.\n\n[note]If the firestone breaks, it can be repaired with lava in the EBF and recharged.[/note]",
+      "desc:8": "Cut Firestone is the basic shape for producing Refined Firestone.\nUse a Diamond Lens or Flint Lens for cutting.\nIt is then fired with lava in the EBF.\n\nLastly it is thrown into lava and charged by absorbing lava blocks around it.\nIt needs 5000 lava blocks to be fully charged, so a large lava lake is required, preferably in the Nether.\n\n[note]If the firestone breaks, it can be repaired with lava in the EBF and recharged.[/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
