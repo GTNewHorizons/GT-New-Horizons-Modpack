@@ -266,7 +266,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [AlchemyGrate](https://github.com/GTNewHorizons/AlchemyGrate) | 1.2.1-GTNH |
 | [Amazing-Trophies](https://github.com/GTNewHorizons/Amazing-Trophies) | 1.3.0 |
 | [amunra](https://github.com/GTNewHorizons/amunra) | 0.8.1 |
-| [Angelica](https://github.com/GTNewHorizons/Angelica) | 1.0.0-beta35 |
+| [Angelica](https://github.com/GTNewHorizons/Angelica) | 1.0.0-beta29 |
 | [AngerMod](https://github.com/GTNewHorizons/AngerMod) | 0.8.2 |
 | [AppleCore](https://github.com/GTNewHorizons/AppleCore) | 3.3.4 |
 | [Applied-Energistics-2-Unofficial](https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial) | rv3-beta-484-GTNH |
@@ -307,7 +307,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Catwalks-2](https://github.com/GTNewHorizons/Catwalks-2) | 2.3.2-GTNH |
 | [Chisel](https://github.com/GTNewHorizons/Chisel) | 2.15.5-GTNH |
 | [ChiselTones](https://github.com/GTNewHorizons/ChiselTones) | 1.2.0-GTNH |
-| [CodeChickenCore](https://github.com/GTNewHorizons/CodeChickenCore) | 1.3.11 |
+| [CodeChickenCore](https://github.com/GTNewHorizons/CodeChickenCore) | 1.4.1 |
 | [CoFH Core](https://www.curseforge.com/minecraft/mc-mods/cofh-core) | 3.1.4-329 |
 | [Compact Kinetic Generators](https://forum.industrial-craft.net/thread/12724-ic2-exp-1-7-10-compact-kinetic-generators/) | 1.0 |
 | [Computronics](https://github.com/GTNewHorizons/Computronics) | 1.8.5-GTNH |
