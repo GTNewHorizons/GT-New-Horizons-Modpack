@@ -24,7 +24,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Now that you have some Europium, put it to use by making a MK II reactor.\n\nThis one will require the same block placement, but replaces LuV casings with fusion machine casings, superconducting coil blocks with fusion coil blocks, and uses ZPM tier hatches.\n\nEach of the up to 16 ZPM Energy Hatches adds 8192 EU/t power input and 20 MEU starting capacity. Therefore this reactor can handle recipes up to 320M EU at startup. In addition, if you perform a MK I recipe on a MK II, you will overclock it. Fusion overclocking is different than normal GT. It will take 2x the power and the recipe will go 2x faster.",
+      "desc:8": "Now that you have some Europium, put it to use by making a MK II reactor.\n\nThis one will require the same block placement, but replaces LuV casings with fusion machine casings, superconducting coil blocks with fusion coil blocks, and uses ZPM tier hatches.\n\nEach of the up to 16 ZPM Energy Hatches adds 8192 EU/t power input and 20 MEU starting capacity. Therefore this reactor can handle recipes up to 320M EU at startup. In addition, if you perform a MK I recipe on a MK II, you will overclock it. Fusion overclocking is different from normal GT. It will take 2x the power and the recipe will go 2x faster.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
