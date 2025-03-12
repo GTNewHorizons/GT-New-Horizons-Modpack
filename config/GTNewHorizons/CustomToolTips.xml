@@ -3,6 +3,8 @@
 //Misc
 	<ToolTip ItemName="appliedenergistics2:tile.BlockDrive" ToolTip="§4Do not move chests with AE drives; It may corrupt your profile. No refunds!" NBT=""/>
 	<ToolTip ItemName="appliedenergistics2:tile.BlockCreativeEnergyCell" ToolTip="§dInfinite Energy" NBT=""/>
+	<ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:690" ToolTip="§dInfinite Energy" NBT=""/>
+	<ToolTip ItemName="appliedenergistics2:tile.BlockCreativeEnergyController" ToolTip="§dInfinite Energy" NBT=""/>
 	<ToolTip ItemName="cb4bq:BlockREB" ToolTip="§4This block will RESET ALL YOUR QUESTS, starting over from Tier 0. Do NOT build or use unless you really mean it!" NBT=""/> 
 	<ToolTip ItemName="EnderIO:blockFusedQuartz" ToolTip="§4Blast resistance is now 20. DOES NOT PROTECT AGAINST NUKES!" NBT=""/>
 	<ToolTip ItemName="EnderIO:blockTravelAnchor" ToolTip="Cooldown 2 seconds" NBT=""/>
