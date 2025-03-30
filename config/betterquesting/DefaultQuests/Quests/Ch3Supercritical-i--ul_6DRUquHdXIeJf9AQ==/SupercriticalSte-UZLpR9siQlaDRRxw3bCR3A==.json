@@ -1,9 +1,14 @@
 {
-  "preRequisites:9": {},
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -6481891123610105534,
+      "questIDLow:4": -7936427118085993239
+    }
+  },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "To progress any further, you\u0027ll need to make an even hotter form of steam...",
+      "desc:8": "To progress any further, you\u0027ll need to make an even hotter form of steam...\n\nYou have two options for producing §csupercritical§r steam. You can elevate §6superheated §rsteam once more in the Hyper Pressure Reactor by using lava, or you can ask for favors from the elusive Cactus Deity through the §2Cactus Wonder§r.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,

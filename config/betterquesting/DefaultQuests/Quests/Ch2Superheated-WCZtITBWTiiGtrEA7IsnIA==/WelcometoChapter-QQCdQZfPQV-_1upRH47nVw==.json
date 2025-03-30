@@ -1,0 +1,37 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 9100123798970844412,
+      "questIDLow:4": -5302901378561297570
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Everything so far may have been familiar to you if you\u0027re an experienced GTNH player. Not anymore. Now that you have chosen the righteous path of steam over \"electricity\", it can reveal many wonders to you...",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "Railcraft:fluid.steam"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Welcome to Chapter 2",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 4683916517510693215,
+  "questIDLow:4": -4623250333306525865,
+  "rewards:9": {},
+  "tasks:9": {}
+}

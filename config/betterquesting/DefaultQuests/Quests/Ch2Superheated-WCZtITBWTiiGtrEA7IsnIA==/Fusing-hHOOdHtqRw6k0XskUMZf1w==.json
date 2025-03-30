@@ -3,12 +3,16 @@
     "0:10": {
       "questIDHigh:4": 9100123798970844412,
       "questIDLow:4": -5302901378561297570
+    },
+    "1:10": {
+      "questIDHigh:4": 4683916517510693215,
+      "questIDLow:4": -4623250333306525865
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Alloying is getting slow in those tiny alloy smelters of yours. You\u0027re due for an upgrade.",
+      "desc:8": "Alloying is getting slow in those tiny alloy smelters of yours. You\u0027re due for an upgrade.\n\n[note]The steam fuser can perform recipes which require too much steam for a normal alloy smelter to handle, as well as recipes with more than 2 inputs.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,

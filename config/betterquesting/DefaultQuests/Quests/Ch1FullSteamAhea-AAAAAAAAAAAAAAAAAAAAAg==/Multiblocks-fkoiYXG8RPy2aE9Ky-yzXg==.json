@@ -2,13 +2,13 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 65
+      "questIDLow:4": 890
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "You can finally start making multiblock versions of steam machines, and progress to the next age of steam. Leave these fantasies of \"electricity\" and \"wiring\" behind, and march towards a brand new future!\n\n§nYou have unlocked Chapter 2 of the Steam Age: §oSuperheated",
+      "desc:8": "You can finally start making multiblock versions of steam machines, and progress to the next age of steam. Leave these fantasies of \"electricity\" and \"wiring\" behind, and march towards a brand new future!\n\nThis quest lists some multiblock parts you should know about. Don\u0027t forget that many of these multis have a faster steel variant if you upgrade the casings!\n\n§nYou have unlocked Chapter 2 of the Steam Age: §oSuperheated",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -37,6 +37,47 @@
     "0:10": {
       "index:3": 0,
       "taskID:8": "bq_standard:checkbox"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 31040,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 31046,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 31047,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 50,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 60,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

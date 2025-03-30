@@ -1,0 +1,46 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -6481481254757186915,
+      "questIDLow:4": -7269002177862543373
+    },
+    "1:10": {
+      "questIDHigh:4": 1633756464849308354,
+      "questIDLow:4": -6185569870802753927
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Regular steam has been great so far, but some applications will need you to dial the heat up further. For now, you only have one way of making §6superheated§r steam - using your Hyper Pressure Reactor.\n\nNo turning back now.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "IC2:fluidSuperheatedSteam"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Superheated",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 5720336596107873526,
+  "questIDLow:4": -6488991078588587320,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

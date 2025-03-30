@@ -1,14 +1,14 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 5878016958500323926,
-      "questIDLow:4": -8987746210266705444
+      "questIDHigh:4": -107140350456083924,
+      "questIDLow:4": -5396412746099188854
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "wowzer",
+      "desc:8": "You have a feeling that you\u0027ll need a lot more metal... time to build some megastructures.\n\nThis massive macerator requires §csupercritical§r steam.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -44,7 +44,7 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 31041,
+          "Damage:2": 31373,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }
