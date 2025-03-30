@@ -1,0 +1,101 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -7295994264991546955,
+      "questIDLow:4": -5675835535531457502,
+      "type:1": 1
+    },
+    "1:10": {
+      "questIDHigh:4": -6962518690474080185,
+      "questIDLow:4": -6893323685044150631
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Using large quantities of graviton shards creates regions of space so extreme that exotic forms of matter can exist with far greater stability than usual. Unfortunately, this region is so extreme that it is essentially spatially disconnected from the rest of the Forge, unable to utilize existing upgrades to the structure and its other modules.\n\n[note]The fourth and final module of the Godforge, Heliofusion Exoticizer allows for the production of Quark Gluon Plasma and Magmatter. Initially only Quark Gluon Plasma is possible, with Magmatter requiring a much later upgrade. Consult the Godforge Information section of the UI to read how to produce these materials.[/note]\n\n[note]Usage of this module requires the QGPIU upgrade.[/note]",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 15415,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
+      },
+      "isMain:1": 1,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "§b§lHeliofusion Exoticizer",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -3347613372736060937,
+  "questIDLow:4": -7880209593223277990,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 15415,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 20,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "tectech:gt.godforgecasing"
+        },
+        "1:10": {
+          "Count:3": 20,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "tectech:gt.godforgecasing"
+        },
+        "2:10": {
+          "Count:3": 5,
+          "Damage:2": 8,
+          "OreDict:8": "",
+          "id:8": "tectech:gt.godforgecasing"
+        },
+        "3:10": {
+          "Count:3": 5,
+          "Damage:2": 1,
+          "OreDict:8": "",
+          "id:8": "tectech:gt.godforgecasing"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "OreDict:8": "",
+          "id:8": "tectech:gt.godforgecasing"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

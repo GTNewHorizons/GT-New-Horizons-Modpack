@@ -1,0 +1,204 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 33
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "It\u0027s time to upgrade your wooden sword a little.\nCollect flint bones and a stick.\n\nYou won\u0027t be able to kill a Wither with it now, but you can upgrade and improve this tool later. You can also repair it with flint.",
+      "globalShare:1": 1,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "TConstruct:broadsword",
+        "tag:10": {
+          "InfiTool:10": {
+            "Accessory:3": 5,
+            "Attack:3": 6,
+            "BaseAttack:3": 6,
+            "BaseDurability:3": 135,
+            "BonusDurability:3": 0,
+            "Broken:1": 0,
+            "Damage:3": 0,
+            "Handle:3": 0,
+            "HarvestLevel:3": 1,
+            "Head:3": 3,
+            "MiningSpeed:3": 400,
+            "ModDurability:5": 0.0,
+            "Modifiers:3": 0,
+            "RenderAccessory:3": 5,
+            "RenderHandle:3": 0,
+            "RenderHead:3": 3,
+            "Shoddy:5": 0.0,
+            "ToolEXP:4": 0,
+            "ToolLevel:3": 1,
+            "TotalDurability:3": 135,
+            "Unbreaking:3": 0
+          },
+          "display:10": {
+            "Name:8": "Flint Broadsword"
+          }
+        }
+      },
+      "isGlobal:1": 0,
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "§2§lYour First Flint Sword",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -8650347315666466864,
+  "questIDLow:4": -9128088765873917748,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 10,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:flint"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "TConstruct:blankPattern"
+        }
+      }
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 10,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinSmith"
+        },
+        "1:10": {
+          "Count:3": 10,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnician"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:flint"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:bone"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:stick"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 2,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "OreDict:8": "",
+          "id:8": "TConstruct:swordBlade"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "OreDict:8": "",
+          "id:8": "TConstruct:wideGuard"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 3,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "TConstruct:broadsword",
+          "tag:10": {
+            "InfiTool:10": {
+              "Accessory:3": 5,
+              "Attack:3": 6,
+              "BaseAttack:3": 6,
+              "BaseDurability:3": 135,
+              "BonusDurability:3": 0,
+              "Broken:1": 0,
+              "Damage:3": 0,
+              "Handle:3": 0,
+              "HarvestLevel:3": 1,
+              "Head:3": 3,
+              "MiningSpeed:3": 400,
+              "ModDurability:5": 0.0,
+              "Modifiers:3": 0,
+              "RenderAccessory:3": 5,
+              "RenderHandle:3": 0,
+              "RenderHead:3": 3,
+              "Shoddy:5": 0.0,
+              "ToolEXP:4": 0,
+              "ToolLevel:3": 1,
+              "TotalDurability:3": 135,
+              "Unbreaking:3": 0
+            },
+            "display:10": {
+              "Name:8": "Flint Broadsword"
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

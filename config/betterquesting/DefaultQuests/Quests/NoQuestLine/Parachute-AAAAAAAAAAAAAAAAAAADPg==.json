@@ -1,0 +1,114 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 822
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "A parachute is used to prevent death upon re-entry into the Overworld\u0027s atmosphere. The parachute is an essential part of your journey to space. You should never journey into space without it. There will even be a warning if you try to launch without one on you.\n\nUse the assembler to save materials.",
+      "globalShare:1": 1,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 13,
+        "OreDict:8": "",
+        "id:8": "GalacticraftCore:item.parachute"
+      },
+      "isGlobal:1": 0,
+      "isMain:1": 1,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Parachute",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 830,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 6,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "GalacticraftCore:item.canvas"
+        },
+        "1:10": {
+          "Count:3": 16,
+          "Damage:2": 32415,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "2:10": {
+          "Count:3": 16,
+          "Damage:2": 32418,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "3:10": {
+          "Count:3": 16,
+          "Damage:2": 32416,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "4:10": {
+          "Count:3": 16,
+          "Damage:2": 32425,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 6,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnicianII"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 2,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "GalacticraftCore:item.parachute"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

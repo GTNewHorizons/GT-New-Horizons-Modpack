@@ -1,0 +1,103 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1477
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Now that you have some tech, you\u0027ve discovered a way to prospect for ores.\n\nUnfortunately, the tech to make it repairable or rechargeable doesn\u0027t work, so you\u0027ll have to make a new one each time it breaks. It does work better at higher tiers and lasts longer with better materials.\n\nIt doesn\u0027t make a convenient book like the Seismic Prospector, but you can look at the results of scanning on the map, thanks to Visual Prospecting.\n\nIt can be hard to choose a good material for the Basic Prospector. Here are some good choices for you in their respective tiers, the size searched, and the average amount of veins they can scan:\n\nLV Vanadiumsteel 3x3 - 50\nMV Vanadiumsteel 3x3 - 213\nHV Vibrant Alloy 5x5 - 299\nEV Shadow Metal 7x7 - 1080\nIV Oriharukon 7x7 - 2649\n\nAs you can see, the prospectors become better and better with each tier, but it might also be worth looking around for better materials.\n\nGood luck.",
+      "globalShare:1": 1,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.detrav.metatool.01",
+        "tag:10": {
+          "GT.ToolStats:10": {
+            "MaxDamage:4": 1000,
+            "PrimaryMaterial:8": "Steel",
+            "SecondaryMaterial:8": "Steel"
+          }
+        }
+      },
+      "isGlobal:1": 0,
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "§5§6§lPortable Prospecting Tool",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 1482,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32691,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "Damage:2": 32702,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      }
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 25,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnician"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.detrav.metatool.01"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

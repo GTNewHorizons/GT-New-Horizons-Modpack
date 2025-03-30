@@ -1,0 +1,42 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3189
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Uranium - from Gold + Aluminium or Magnesium + Mercury. You should have already left nuclear fission behind, but if you ever need Uranium, you can use this? You should have a lot of it already.\n\nPlutonium - from Helium + Uranium. A quick 1:1 conversion from U238 to P239, but you already have access to Plutonium Ore, so this is probably pointless.\n\nCalifornium - from Beryllium + Plutonium. Mostly used for Oganesson, not very useful for anything else, and you won\u0027t need a lot of this if replicating Oganesson is an option.\n\n(These 3 recipes makes a possible chain to Oganesson, which can be made in t3 fusion. Not that they are necessarily the best option to get it.)\n\nExcited Uranium Fuel - from Hydrogen and Uranium Liquid Fuel. This is for the Naquadah Generator, which is late ZPM, or possibly to use in IC2 nukes, although that\u0027s the worse option. Basically, it\u0027s accelerated nuclear fission, if you have interest in that.\n\nExcited Plutonium Fuel - from Hydrogen and Plutonium Liquid Fuel. Same as above, but from Plutonium. This means it\u0027s more expensive, but also more powerful, and can yield a lot of power in the Naquadah Generator with the right additives.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "dreamcraft:item.MedalWarp"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Optional Tier 2 Fusion",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 3191,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3187
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Tin Plasma is more power-dense, but it\u0027s not a required upgrade. As you scale up, it\u0027s always worth it to look back at Helium Plasma for how renewable it is, something that Tin Plasma has unfortunately lost a bit of. It can be made renewable, but one of its strengths was in the Molecular Transformer recipe that transformed Tin, the output, into Silver, one of the inputs. This recipe is now in the new Molecular Transformer Multiblock and does not scale as well as before. Therefore it might be easier to use void miners for silver or to stick with Helium Plasma.\n\nAs per usual, running a lower tier recipe awards you with an overclock. Unlike other GT machines, though, the Fusion Reactor\u0027s overclock doubles both speed and energy consumption, which maintains the energy consumption per recipe but gives only half of a speed boost that a perfect overclock (like the Large Chemical Reactor) would. This means that a t2 reactor can produce exactly twice as much power as a t1 in the form of plasma output, but the upgrade is bigger than that when taking better turbines into account.\n\nWhat comes next, then? Tier 3 is what is next. There is no new fuel to be used here, your options are either 4x speed on Helium or 2x speed on Tin. After getting the cheaper Americium recipe that\u0027s available on t3, you will be able to make more reactors at a cheaper cost, but this lack of fuel upgrade will still be problematic in your progression. You will have to find other ways to upgrade your power, which will be revealed after this.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "GoodGenerator:compactFusionCoil"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "The Overclocking of the Ages",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 3188,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

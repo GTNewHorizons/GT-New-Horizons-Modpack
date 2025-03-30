@@ -1,0 +1,156 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 36
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "The Ore Finder Wand reduces the tedium of locating needed veins. If you\u0027re not sure how to craft Magnetic Iron Rod for it, check its Shapeless Crafting tab in NEI.\n\nOnce you put an ore sample into the wand, it will tell you if this ore is nearby. When you get close to the target, you will hear the sound, and the wand will tilt down to the point of being upside-down if there\u0027s a lot of target ore nearby.\n\nUse NEI to figure out which ore is the best for your search. If you don\u0027t have the needed ore, some basic ones can be purchased in the Coins tab.\n\nOpen the wand\u0027s inventory with Shift+RMB when looking at the ground. Put the sample ore into the slot.\nThe rod has a 60-block range both up and down, so it can miss a vein that is located very low or if you are above the sea level.\n\nThe rod appears to work based on the GT\u0027s Material system, so anything of the same material will work.\nThat includes crushed ores, dusts, ingots, gems, rods, you name it. For things that don\u0027t belong to a particular Material, the rod appears to search only for that exact block - for instance, you won\u0027t detect small ores with the usual ore block.\n\nIf the detected ore is a part of a vein, you will see a discovery message in the chat, and the vein will be automatically logged into the visual prospecting tab of your journey map.\n\nThe wand also works from inventory and hotbar, so you don\u0027t need to be actively holding it, but you get style points if you do.\n\nThe ore in the wand is stored with the player, not the wand. In other words, remove the ore if you want to give the wand to your teammate.\n\nThe Ore Finder Wand doesn\u0027t work in space! The vast cosmic energies of the sun interfere with its inner workings! Or the devs want you to use something more complicated than a stick. You choose.",
+      "globalShare:1": 1,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "OreDict:8": "",
+        "id:8": "ifu:ifu_buildingKit",
+        "tag:10": {}
+      },
+      "isGlobal:1": 0,
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 1,
+      "name:8": "§2§e§k§l§r§3§2§lDivine Rod of the Gods?",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 1504,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 35,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockores"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 937,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockores"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 870,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockores"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 834,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockores"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:clay"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnician"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": "woodStick",
+          "id:8": "minecraft:stick"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "Damage:2": 23354,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 23032,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "3:10": {
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:redstone"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 28086,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32767,
+          "OreDict:8": "",
+          "id:8": "ifu:ifu_buildingKit"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

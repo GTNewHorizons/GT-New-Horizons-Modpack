@@ -1,0 +1,203 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 11
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "It\u0027s GLOPPing time! Go kill some pigs to gather meat.",
+      "globalShare:1": 1,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:porkchop"
+      },
+      "isGlobal:1": 0,
+      "isMain:1": 1,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "§1§lRest in Pieces",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 10,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:cooked_porkchop"
+        }
+      }
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinSurvivor"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "damageType:8": "",
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "required:3": 5,
+      "subtypes:1": 0,
+      "target:8": "Pig",
+      "targetNBT:10": {
+        "AbsorptionAmount:6": 0.0,
+        "Age:4": 0,
+        "Air:4": 0,
+        "AttackTime:4": 0,
+        "Attributes:9": {
+          "0:10": {
+            "Base:6": 0.0,
+            "Name:8": "weapon.penetrateArmor"
+          },
+          "1:10": {
+            "Base:6": 3.0,
+            "Name:8": "weapon.daze"
+          },
+          "2:10": {
+            "Base:6": 0.0,
+            "Name:8": "weapon.attackSpeed"
+          },
+          "3:10": {
+            "Base:6": 0.0,
+            "Name:8": "weapon.mountedBonus"
+          },
+          "4:10": {
+            "Base:6": 10.0,
+            "Name:8": "generic.maxHealth"
+          },
+          "5:10": {
+            "Base:6": 0.0,
+            "Name:8": "generic.knockbackResistance"
+          },
+          "6:10": {
+            "Base:6": 0.25,
+            "Name:8": "generic.movementSpeed"
+          },
+          "7:10": {
+            "Base:6": 16.0,
+            "Name:8": "generic.followRange"
+          }
+        },
+        "CanPickUpLoot:4": 0,
+        "CreatureInfusion:10": {
+          "InfusionCosts:10": {
+            "Aspects:8": ""
+          },
+          "Infusions:9": {
+            "0:4": 0,
+            "1:4": 0,
+            "2:4": 0,
+            "3:4": 0,
+            "4:4": 0,
+            "5:4": 0,
+            "6:4": 0,
+            "7:4": 0,
+            "8:4": 0,
+            "9:4": 0,
+            "10:4": 0,
+            "11:4": 0
+          },
+          "PlayerInfusions:9": {
+            "0:4": 0,
+            "1:4": 0,
+            "2:4": 0,
+            "3:4": 0,
+            "4:4": 0,
+            "5:4": 0,
+            "6:4": 0,
+            "7:4": 0,
+            "8:4": 0,
+            "9:4": 0,
+            "10:4": 0,
+            "11:4": 0
+          },
+          "sitting:4": 0,
+          "toggleClimb:4": 0,
+          "toggleInvisible:4": 0,
+          "tumorWarp:4": 0,
+          "tumorWarpPermanent:4": 0,
+          "tumorWarpTemp:4": 0
+        },
+        "CustomName:8": "",
+        "CustomNameVisible:4": 0,
+        "DeathTime:4": 0,
+        "Dimension:4": 0,
+        "DropChances:9": {
+          "0:4": 0,
+          "1:4": 0,
+          "2:4": 0,
+          "3:4": 0,
+          "4:4": 0
+        },
+        "Equipment:9": {
+          "0:10": {},
+          "1:10": {},
+          "2:10": {},
+          "3:10": {},
+          "4:10": {}
+        },
+        "FallDistance:6": 0.0,
+        "Fire:4": 0,
+        "HealF:6": 10.0,
+        "Health:4": 10,
+        "HurtTime:4": 0,
+        "InLove:4": 0,
+        "Invulnerable:4": 0,
+        "Leashed:4": 0,
+        "Motion:9": {
+          "0:4": 0,
+          "1:4": 0,
+          "2:4": 0
+        },
+        "OnGround:4": 0,
+        "PersistenceRequired:4": 0,
+        "PortalCooldown:4": 0,
+        "Pos:9": {
+          "0:4": 0,
+          "1:4": 0,
+          "2:4": 0
+        },
+        "Rotation:9": {
+          "0:4": 0,
+          "1:4": 0
+        },
+        "Saddle:4": 0,
+        "UUIDLeast:4": -3998212785627166950,
+        "UUIDMost:4": 14197274275598,
+        "id:8": "Pig"
+      },
+      "taskID:8": "bq_standard:hunt"
+    }
+  }
+}

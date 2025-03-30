@@ -1,0 +1,46 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 7854462172184923159,
+      "questIDLow:4": -5135866447130008070
+    },
+    "1:10": {
+      "questIDHigh:4": -1821924963154441622,
+      "questIDLow:4": -8399516922550336751
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "There are more kinds of ItemSink modules in NEI. Feel free to look through them to find the ItemSink module that suits your needs.\n\nHow they sort items and assign inventory spaces are mostly explained by their item names.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 12,
+        "OreDict:8": "",
+        "id:8": "LogisticsPipes:item.itemModule"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "More ItemSinks in NEI",
+      "questLogic:8": "OR",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 2021394659373695087,
+  "questIDLow:4": -8256300157046271476,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

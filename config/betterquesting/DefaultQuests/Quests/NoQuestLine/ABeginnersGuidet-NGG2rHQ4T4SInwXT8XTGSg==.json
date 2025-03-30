@@ -1,0 +1,56 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -8448640167904523586,
+      "questIDLow:4": -5243481096921136607
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "If you\u0027ve built the Source Chamber already, you may have noticed that particles aren\u0027t produced as items, like GT++ ones are.\n\nInstead they\u0027re transmitted through Beamline Pipes from multi to multi, similar to real life.\n\nEach stream of particles transmitted, or \"beam\", has four properties:\n- §\n§\n§6Particle§r: the type of particle carried by the beam\n- §4Energy§r: the amount of energy the particles have\n§r- §9Focus§r: out of 100, how focused the beam is\n§r- §dAmount§r: a measure of the number of particles in the beam\n\nNote that you can see info about a multi\u0027s input and output beams by using a Tricorder on the controller.\n\nFor the recipes you\u0027ll be interested in, i.e. the ones that actually produce items, there\u0027ll be a threshold for allowed input beam energy, a minimum focus value, and an amount value which determines recipe time (more on that in the Target Chamber quest).\nTake a look some TC recipes for an example of this.\n\n\nHave a photon. To hang on your wall.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "FloodLights:electricIncandescentLightBulb"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "A Beginner\u0027s Guide to Particle Physics",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 3774498814513663876,
+  "questIDLow:4": -8602150355407157686,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "OreDict:8": "",
+          "id:8": "gtnhlanth:particle"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

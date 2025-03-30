@@ -1,0 +1,143 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -5919330363668675619,
+      "questIDLow:4": -5799940466139612122
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Arrange Nanites in P-507 and label them with target particle information in the high-energy laser beam environment of a laser engraver. Then we get the Extracting Unit called \"Nano Resin\".\n\nThese Nanites automatically capture the target particles in solution and store them in the resin. It is worth noting that the actual production rate will be limited by the number of Nanites. So if you want to use this method to produce lanthanides in large quantities, you need to prepare more extra Nano Resin.\n\nHere are all 15 types of Extracting Nano Resin.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2078,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.metaitem.01"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Nano Resin - Particle Extractors",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -9177469786095531506,
+  "questIDLow:4": -4804005527088963644,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 11401,
+          "OreDict:8": "",
+          "id:8": "bartworks:gt.bwMetaGeneratedcell"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 11403,
+          "OreDict:8": "",
+          "id:8": "bartworks:gt.bwMetaGeneratedcell"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 11405,
+          "OreDict:8": "",
+          "id:8": "bartworks:gt.bwMetaGeneratedcell"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 11407,
+          "OreDict:8": "",
+          "id:8": "bartworks:gt.bwMetaGeneratedcell"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 11409,
+          "OreDict:8": "",
+          "id:8": "bartworks:gt.bwMetaGeneratedcell"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 11413,
+          "OreDict:8": "",
+          "id:8": "bartworks:gt.bwMetaGeneratedcell"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "Damage:2": 11415,
+          "OreDict:8": "",
+          "id:8": "bartworks:gt.bwMetaGeneratedcell"
+        },
+        "7:10": {
+          "Count:3": 1,
+          "Damage:2": 11417,
+          "OreDict:8": "",
+          "id:8": "bartworks:gt.bwMetaGeneratedcell"
+        },
+        "8:10": {
+          "Count:3": 1,
+          "Damage:2": 11419,
+          "OreDict:8": "",
+          "id:8": "bartworks:gt.bwMetaGeneratedcell"
+        },
+        "9:10": {
+          "Count:3": 1,
+          "Damage:2": 11421,
+          "OreDict:8": "",
+          "id:8": "bartworks:gt.bwMetaGeneratedcell"
+        },
+        "10:10": {
+          "Count:3": 1,
+          "Damage:2": 11423,
+          "OreDict:8": "",
+          "id:8": "bartworks:gt.bwMetaGeneratedcell"
+        },
+        "11:10": {
+          "Count:3": 1,
+          "Damage:2": 11425,
+          "OreDict:8": "",
+          "id:8": "bartworks:gt.bwMetaGeneratedcell"
+        },
+        "12:10": {
+          "Count:3": 1,
+          "Damage:2": 11427,
+          "OreDict:8": "",
+          "id:8": "bartworks:gt.bwMetaGeneratedcell"
+        },
+        "13:10": {
+          "Count:3": 1,
+          "Damage:2": 11429,
+          "OreDict:8": "",
+          "id:8": "bartworks:gt.bwMetaGeneratedcell"
+        },
+        "14:10": {
+          "Count:3": 1,
+          "Damage:2": 11411,
+          "OreDict:8": "",
+          "id:8": "bartworks:gt.bwMetaGeneratedcell"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

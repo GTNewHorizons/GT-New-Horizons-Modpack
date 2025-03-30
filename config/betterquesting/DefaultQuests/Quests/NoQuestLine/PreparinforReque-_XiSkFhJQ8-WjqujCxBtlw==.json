@@ -1,0 +1,93 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -798473871130869738,
+      "questIDLow:4": -9040111725259888874
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Logistics Pipes have automation capability in place, but first, it needs to know what inventory that items inside can be used for requests.\n\nThe Provider module does this job nicely. When you open the interface of the module, there is a 3*3 grid. You can pick what items that the module can provide, or you can leave it empty as \"everything in the inventory can be provided for requests\".",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 500,
+        "OreDict:8": "",
+        "id:8": "LogisticsPipes:item.itemModule",
+        "tag:10": {
+          "Random-Stack-Prevent:6": 0.05429841658515733,
+          "informationList:9": {
+            "0:8": "Included",
+            "1:8": "Mode: Normal",
+            "2:8": "Filter: ",
+            "3:8": "\u003cinventory\u003e",
+            "4:8": "\u003cthat\u003e"
+          },
+          "moduleInformation:10": {
+            "extractionMode:3": 0,
+            "filterisexclude:1": 0,
+            "isActive:1": 0,
+            "items:9": {},
+            "itemsCount:3": 9,
+            "sneakydirection:3": 6
+          }
+        }
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Preparin\u0027 for Requestin\u0027",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -182234636254362673,
+  "questIDLow:4": -7597946804573803113,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        },
+        "1:10": {
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnicianI"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 500,
+          "OreDict:8": "",
+          "id:8": "LogisticsPipes:item.itemModule"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

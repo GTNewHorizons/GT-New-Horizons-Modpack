@@ -1,0 +1,111 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -6642834327299013486,
+      "questIDLow:4": -9143660827823771849
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3292
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "With Shirabon now acquired, you can finally create catalysts to use in your Tier 4 QFT.\n\n[note]These are extremely expensive, you may want to look into DTPF convergence, and faster means of creating Metastable Oganesson before you can make many of these.[/note]",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 26,
+        "OreDict:8": "",
+        "id:8": "miscutils:item.BasicGenericChemItem",
+        "tag:10": {
+          "catalyst:10": {
+            "Damage:4": 0,
+            "MaxDamage:4": 50
+          }
+        }
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Tier 4 QFT Catalysts",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -4905114116013011784,
+  "questIDLow:4": -7369799697449707989,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 26,
+          "OreDict:8": "",
+          "id:8": "miscutils:item.BasicGenericChemItem",
+          "tag:10": {
+            "catalyst:10": {
+              "Damage:4": 0,
+              "MaxDamage:4": 50
+            }
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 27,
+          "OreDict:8": "",
+          "id:8": "miscutils:item.BasicGenericChemItem",
+          "tag:10": {
+            "catalyst:10": {
+              "Damage:4": 0,
+              "MaxDamage:4": 50
+            }
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 33,
+          "OreDict:8": "",
+          "id:8": "miscutils:item.BasicGenericChemItem",
+          "tag:10": {
+            "catalyst:10": {
+              "Damage:4": 0,
+              "MaxDamage:4": 50
+            }
+          }
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 32,
+          "OreDict:8": "",
+          "id:8": "miscutils:item.BasicGenericChemItem",
+          "tag:10": {
+            "catalyst:10": {
+              "Damage:4": 0,
+              "MaxDamage:4": 50
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

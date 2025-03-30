@@ -1,0 +1,45 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3150
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Each side of this branch will focus on one of the two halves of nuclear fission outputs. This side will focus on generating power from the reactors available here, which is probably why you\u0027re here in the first place.\n\nThese setups share one purpose: when they were created, they were meant to bridge the gap between IC2 nukes and fusion, because there was really nothing else worth using beyond fluid nukes if there were no backups available, or redstone automation was too unreliable for vacuum nukes. Not only is there a full 2-tier gap of one single powergen until fusion, but there\u0027s also a required power input in order to begin a fusion reaction in the first place. This is both boring and difficult to push through, especially with the Assembly Line in the middle, so here we are.\n\nThe first setup you can put together is the LFTR chain, although only one half of it is available in IV. As such, that is where we will start.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 32597,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.metaitem.01",
+        "tag:10": {
+          "GT.ItemCharge:4": 100000000
+        }
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Focus On Power Generation",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 3158,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

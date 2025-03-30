@@ -1,0 +1,126 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 4191930864154070359,
+      "questIDLow:4": -7352238207613032698
+    },
+    "1:10": {
+      "questIDHigh:4": -8926576748713917096,
+      "questIDLow:4": -5127090567145017193
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "The §1§lMothership§r is a Space Station which you can move to a different celestial body (even stars!). It is the only way to get to the outermost system, the Amun-Ra system. That system has six planets and moons you can access. The most important one is Seth, where you can find §aRaw Tengam Ore§r.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 28,
+        "OreDict:8": "",
+        "id:8": "GalacticraftAmunRa:item.baseItem"
+      },
+      "isMain:1": 1,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Can I Build A Mothership For My Father?",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -3089697472671825287,
+  "questIDLow:4": -4765124701548164912,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 26,
+          "OreDict:8": "",
+          "id:8": "GalacticraftAmunRa:item.baseItem"
+        },
+        "1:10": {
+          "Count:3": 16,
+          "Damage:2": 3,
+          "OreDict:8": "",
+          "id:8": "GraviSuite:itemSimpleItem"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinSpaceIV"
+        },
+        "1:10": {
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnicianIV"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "GalacticraftAmunRa:tile.machines1"
+        },
+        "1:10": {
+          "Count:3": 256,
+          "Damage:2": 5,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings8"
+        },
+        "2:10": {
+          "Count:3": 64,
+          "Damage:2": 3,
+          "OreDict:8": "",
+          "id:8": "gtnhintergalactic:item.DysonSwarmParts"
+        },
+        "3:10": {
+          "Count:3": 8,
+          "Damage:2": 32678,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "4:10": {
+          "Count:3": 32,
+          "Damage:2": 0,
+          "OreDict:8": "circuitInfinite",
+          "id:8": "dreamcraft:item.CircuitUHV"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

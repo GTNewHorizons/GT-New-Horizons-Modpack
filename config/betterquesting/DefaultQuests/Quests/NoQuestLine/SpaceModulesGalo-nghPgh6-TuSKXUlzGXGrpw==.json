@@ -1,0 +1,55 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 2760534389945944436,
+      "questIDLow:4": -8415680337631262256
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Better modules will require a more advanced Space Elevator motor to function.\n\nThis upgrade will allow you to access 15 modules on your Space Elevator. If you haven\u0027t built the expansion yet, now might be a good time.\n\n[note]You can enable the Space Elevator expansion in the GUI.[/note]",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2,
+        "OreDict:8": "",
+        "id:8": "gtnhintergalactic:gt.blockcasingsSEMotor"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Space Modules Galore",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -7059304995623121180,
+  "questIDLow:4": -8476538164944458841,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "gtnhintergalactic:gt.blockcasingsSEMotor"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

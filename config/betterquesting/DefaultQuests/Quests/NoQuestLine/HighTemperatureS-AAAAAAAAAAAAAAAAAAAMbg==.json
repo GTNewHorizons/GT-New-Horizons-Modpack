@@ -1,0 +1,99 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3180
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Have you heard of pebble reactors?\n\nIt\u0027s called the High Temperature Gas-cooled Reactor (HTGR), and it uses fuel pebbles and consumes power. However, it doesn\u0027t really make a lot of power, and doesn\u0027t even match the EU/t of THTR, despite being much more expensive. The multiblock structure is basically the same, a huge reactor around 12x12x12 blocks in size, with 500+ casings made with Europium. What it doesn\u0027t make in power, it compensates in breeding, however.\n\nFor the unaware, this is expensive. Pebble reactors work by stuffing the reactor absolutely full of pebbles, and then the reaction will keep going for, essentially, forever. In this case, you will have a fully automated source of almost endless Lutetium, Plutonium and other things that will be explained in the following quests, alongside the production of fuel and the processing of outputs. What this means is that this is an expensive multiblock, but it\u0027s placed at a tier in which this expense is actually reasonable, if there is a need for immense, endless breeding of many outputs.\n\nIf you\u0027re on the fence about building this, check the next quests to learn more about the fuel and outputs.\n\nNotes:\n\nHTGR has an internal buffer for fuel and only one input bus is required (any will do), as well as only one output bus (reactor automatically compresses every 64 burned pellets into one ball, so you need 6 slots or more to avoid problems with voiding at full capacity).\n\nReactor requires only 72k out of 720k pebbles to operate, but running at minimum capacity means that you will not get any bonuses, such as lower recipe time and higher amount of pebbles processed per cycle.\n\nThis multi consumes 1A LuV when operating, no matter how many pebbles are inside, but it also generates Hot Coolant as it runs. If you use it to generate power, you will gain more EU than is consumed by the reactor.\n\nIn this reactor, the throughput increases with the amount of pebbles put into it.\n\nBy typing HTGR in NEI, you can see all the items that are related to this multiblock.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 12791,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "§6§6§6§lHigh Temperature Super Breeder",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 3182,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 10,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnicianIII"
+        }
+      }
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 7,
+          "OreDict:8": "",
+          "id:8": "kubatech:kubaitems"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 531,
+          "Damage:2": 5,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings8"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 12791,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

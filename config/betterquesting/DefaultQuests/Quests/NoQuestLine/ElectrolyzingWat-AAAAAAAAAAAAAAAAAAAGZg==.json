@@ -1,0 +1,81 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1637
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Now let\u0027s automate electrolyzing water into oxygen and hydrogen. You\u0027ll need hydrogen for tons of stuff including desulfurization, obtaining tungsten, and nitric acid production. Oxygen is also useful as I\u0027m sure you noticed when making steel.\n\nHow to set it up:\n\nPlace the electrolyzer down and connect it to water and electricity. Place the 2 super tanks nearby. Set the electrolyzer to produce hydrogen gas and oxygen cells. Use normal GT fluid pipes to output the hydrogen gas into one super tank. That is now your hydrogen storage. Now connect interface pipes to all 3 machines.\n\nFor the electrolyzer put in item stock keeper set to keep 2 empty cells stored. Also put in extractor set to extract oxygen cells.\n\nNow for the oxygen storage put it item responder chip set to accept oxygen cells and extractor set to extract empty cells.\n\nNow put some empty cells inside your default storage chest and don\u0027t forget to have a broadcaster there.",
+      "globalShare:1": 1,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:flowing_water"
+      },
+      "isGlobal:1": 0,
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Electrolyzing Water",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 1638,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 371,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "Damage:2": 4,
+          "OreDict:8": "",
+          "id:8": "ProjRed|Transportation:projectred.transportation.routingchip"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 6,
+          "OreDict:8": "",
+          "id:8": "ProjRed|Transportation:projectred.transportation.routingchip"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "ProjRed|Transportation:projectred.transportation.routingchip"
+        },
+        "4:10": {
+          "Count:3": 3,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "ProjRed|Transportation:projectred.transportation.pipe"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

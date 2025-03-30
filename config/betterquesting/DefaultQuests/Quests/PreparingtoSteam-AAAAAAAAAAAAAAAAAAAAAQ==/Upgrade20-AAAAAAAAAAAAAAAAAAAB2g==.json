@@ -1,0 +1,131 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 472
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 28
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Find iron, copper and tin ore. Very funny... How can you mine these with just a flint pickaxe?\n\nI have an idea; bring me some of the stone you mined with your flint pickaxe and I will give you a better tool head in exchange.\n\nRemember to level it up again either with monster heads or by mining.",
+      "globalShare:1": 1,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "TConstruct:pickaxe",
+        "tag:10": {
+          "InfiTool:10": {
+            "Accessory:4": 2,
+            "Attack:4": 4,
+            "BaseAttack:4": 4,
+            "BaseDurability:4": 225,
+            "BonusDurability:4": 0,
+            "Broken:4": 0,
+            "Built:4": 1,
+            "Damage:4": 0,
+            "Handle:4": 2,
+            "HarvestLevel:4": 2,
+            "HarvestLevelModified:4": 0,
+            "Head:4": 2,
+            "HeadEXP:4": 0,
+            "MiningSpeed:4": 600,
+            "ModDurability:6": 0.0,
+            "Modifiers:4": 0,
+            "RenderAccessory:4": 2,
+            "RenderHandle:4": 2,
+            "RenderHead:4": 2,
+            "Shoddy:6": 0.0,
+            "ToolEXP:4": 0,
+            "ToolLevel:4": 1,
+            "TotalDurability:4": 225,
+            "Unbreaking:4": 1
+          },
+          "display:10": {
+            "Name:8": "Iron Pickaxe"
+          }
+        }
+      },
+      "isGlobal:1": 0,
+      "isMain:1": 1,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "§2§k§l§l§r§2§lUpgrade 2.0",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 474,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "TConstruct:pickaxeHead"
+        }
+      }
+    },
+    "1:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "TConstruct:hatchetHead"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "TConstruct:shovelHead"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 1,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 256,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:cobblestone"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

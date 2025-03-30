@@ -1,0 +1,188 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1521
+    },
+    "1:10": {
+      "questIDHigh:4": -6582941143421138107,
+      "questIDLow:4": -6615881702968461094
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "...out of the purified ores. Anyways, a Large Sifter will increase your sifting speed significantly. What will you do with all these gems??\n\n[note]You need one more casing if you don\u0027t want to use 2 energy hatches.[/note]",
+      "globalShare:1": 1,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 840,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
+      },
+      "isGlobal:1": 0,
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "§9§lShake That Booty...",
+      "partySingleReward:1": 0,
+      "questLogic:8": "OR",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 1420,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:diamond_ore"
+        },
+        "1:10": {
+          "Count:3": 64,
+          "Damage:2": 502,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockores"
+        },
+        "2:10": {
+          "Count:3": 64,
+          "Damage:2": 501,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockores"
+        },
+        "3:10": {
+          "Count:3": 64,
+          "Damage:2": 503,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockores"
+        },
+        "4:10": {
+          "Count:3": 64,
+          "Damage:2": 514,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockores"
+        },
+        "5:10": {
+          "Count:3": 64,
+          "Damage:2": 542,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockores"
+        },
+        "6:10": {
+          "Count:3": 64,
+          "Damage:2": 543,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockores"
+        },
+        "7:10": {
+          "Count:3": 64,
+          "Damage:2": 541,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockores"
+        },
+        "8:10": {
+          "Count:3": 64,
+          "Damage:2": 540,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockores"
+        },
+        "9:10": {
+          "Count:3": 64,
+          "Damage:2": 545,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockores"
+        },
+        "10:10": {
+          "Count:3": 64,
+          "Damage:2": 544,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockores"
+        },
+        "11:10": {
+          "Count:3": 2,
+          "Damage:2": 6,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnicianI"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 18,
+          "Damage:2": 6,
+          "OreDict:8": "",
+          "id:8": "miscutils:gtplusplus.blockcasings.2"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 50,
+          "Damage:2": 5,
+          "OreDict:8": "",
+          "id:8": "miscutils:gtplusplus.blockcasings.2"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 840,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2856
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Right-click the controller while sneaking will invoke an action called §osurvival autoplace§r. This will attempt to build the multiblock with items from your inventory, provided the area this multi occupies is clear of obstacles. Again, like hologram spawning, multiblocks that accept multiple types of tiered components or has variable length, the number of MSHPs you hold in hand will decide which tier of blocks will be placed. It will place correct amount of hatches for you, but will usually orient the hatches towards you, not perpendicular to the surface. It will just place casings for you if you don\u0027t have any hatches in inventory, unless this spot requires the use of a hatch (e.g. the top center spot of EBF).\n\nSurvival autoplace can also take from your alternative inventories, or items that contain/link to an inventory. Currently, this includes:\n- adventure backpacks, either worn or as an item in inventory\n- AE2 portable cells\n- ME networks connected via any AE2 wireless terminal with item access capabilities\n- Forestry backpacks\n- ender chest inventory, if you have the Ender Backpack from Backpacks mod. Note: ordinary backpacks from the Backpacks mod are NOT supported at the moment.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "structurelib:item.structurelib.constructableTrigger"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "§6§lExpert MB-Construction",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 3030,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

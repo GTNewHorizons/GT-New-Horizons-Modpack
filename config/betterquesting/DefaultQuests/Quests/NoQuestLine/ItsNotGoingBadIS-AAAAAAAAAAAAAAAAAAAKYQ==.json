@@ -1,0 +1,117 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2648
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "To make your next tier of circuits (Bio Circuits), you need to make Raw Bio Medium. There are three ways of making it.\n\nThe first one requires Stemcells, Unknown Crystal and T-Ceti Seaweed Extract at LuV voltage and 94 Sievert (Plutonium level) in a Bacterial Vat. It makes Raw Bio Medium at 4:1 ratio.\n\nThe second one is basically the first one, but it requires Infinity Catalyst instead of Tritanium at ZPM voltage and 140 Sievert (Enriched Naquadah level) in a Bacterial Vat. It makes Raw Bio Medium at 1:1 ratio.\n\nThe third one is the most efficient, but it requires Biocells (which you don\u0027t have yet), and 4 dust of Infinity Catalyst at UV voltage and 150 Sievert (Naquadria level) in a Bacterial Vat. It makes Raw Bio Medium at 1:2 ratio.\n\n[note]The second and third ways use a different culture.[/note]",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "dreamcraft:item.TCetiESeaweedExtract"
+      },
+      "isMain:1": 1,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "It\u0027s Not Going Bad, I Swear!",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 2657,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 30608,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.TCetiESeaweedExtract"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "bartworks:BioLabParts",
+          "tag:10": {
+            "Breedable:1": 0,
+            "Color:11": [
+              26,
+              59,
+              137
+            ],
+            "DNA:10": {
+              "Chance:3": 750,
+              "Name:8": "StemCellBac",
+              "Rarity:1": 3,
+              "Tier:3": 3
+            },
+            "Name:8": "Derivantur Cellula Evolutionis",
+            "Plasmid:10": {
+              "Chance:3": 750,
+              "Name:8": "StemCellBac",
+              "Rarity:1": 3,
+              "Tier:3": 3
+            },
+            "Rarety:1": 3
+          }
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 30603,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

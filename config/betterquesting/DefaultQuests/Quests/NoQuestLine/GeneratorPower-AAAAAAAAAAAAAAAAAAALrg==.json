@@ -1,0 +1,46 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 176
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 546
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Welcome to EV! If you thought the previous tier had a big jump in oil processing, you are correct, but now it\u0027s going to jump up all over again!\n\nThis tier does not unlock new processing multis like HV did, but it does bring better, much better generators. From now on, your main generators options will almost always be multiblocks, unless you need an easy-to-move generator for a multiblock miner or something similar. For your diesel fuels, the next step is the Large Combustion Engine (LCE), and there is a quest for it on the Multiblock Goals tab as usual. This, however, is a big investment in Titanium, amongst other things, so I hope you have that processing automated already.\n\nIf you boost the LCE, you will get both a huge boost in EU/t and efficiency. While an HV Diesel Generator had an output of 512 EU/t at 85% efficiency, this expensive multi outputs 6144 EU/t at 150% efficiency! Make sure you have an EV Buffered Dynamo Hatch that can handle this output.\nThere is an equivalent turbine for gases, like the Refinery Gas you might be using to power your oil processing setup, which is cheaper to build but its performance depends on the turbine placed inside it, and you won\u0027t be able to get near the levels of the LCE unless you get some Tungstensteel, and a good metal like Shadow Metal.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockcasings4"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Generator Power",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 2990,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

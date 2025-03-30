@@ -1,0 +1,84 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3158
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "What a complicated name this is. What does it mean?\n\nWell, it\u0027s what is called a molten salt reactor. The Liquid Fluoride part means that the nuclear fuel is actually a liquid, mixed in with fluoride salts. This is a mechanism that makes it more difficult to get the fuel ready for fission, but also makes the process more efficient, gives out more byproducts and also removes the danger of explosion. That\u0027s right, nuclear meltdowns are a thing of the past! The molten salt is designed to flow downwards into a hole where it solidifies, in case the reactor has problems, so it\u0027s impossible for the fission process to continue into an explosive mess.\n\nThere are three downsides, though. One of them was mentioned just above, the fuel needs more processing to be ready for the LFTR, and more input materials to reach the right mixture. After it goes through the reactor, it comes out as depleted, and this part too requires more processing steps, although it gives out a lot more useful chemicals than the single Lutetium/Plutonium the IC2 nuke depletion process gave. Lastly, the molten salt is very hot and very corrosive, which means it would destroy the materials used to build the IC2 nukes. You will need newer, stronger and more expensive materials to build a reactor, not to mention its much larger size.\n\nThe structure for this multi is truly something else. It has not one, but four required Dynamo Hatches, which should all be the Buffered type, either EV, IV or LuV depending on the fuel being fed into the reactor, with better fuels being unlocked at later progression stages. This means that one LFTR makes either 1 LuV amp, 1 ZPM amp or 1 UV amp while running. It also requires 2 Maintenance and 4 Muffler Hatches, when it has no maintenance problems or pollution output! Mysterious are the workings of this reactor.\n\nOther than this, all the inputs and outputs are fluids. The minimum amount you\u0027ll need is 2 inputs and 4 outputs, although one of the outputs comes out over time, and not on recipe finish. This output is Uranium 233, a very rare isotope that can get you deeper into LFTR fuels and more power, hardly obtainable from any other source.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 751,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Liquid Fluorine Thorium Reactor",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 3159,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 751,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        },
+        "1:10": {
+          "Count:3": 35,
+          "Damage:2": 12,
+          "OreDict:8": "",
+          "id:8": "miscutils:miscutils.blockcasings"
+        },
+        "2:10": {
+          "Count:3": 48,
+          "Damage:2": 13,
+          "OreDict:8": "",
+          "id:8": "miscutils:miscutils.blockcasings"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 13,
+          "OreDict:8": "",
+          "id:8": "miscutils:miscutils.blockcasings"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

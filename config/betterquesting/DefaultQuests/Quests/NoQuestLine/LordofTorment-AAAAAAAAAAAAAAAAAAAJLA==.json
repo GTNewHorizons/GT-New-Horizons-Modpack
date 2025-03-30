@@ -1,0 +1,130 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2347
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "A Lord of Torment is a mighty demonic being that is able to create prisons to Torment its victims.\n\nThose foolish enough to summon one of these creatures must prepare for an arduous fight.\n\nA Lord of Torment may only be summoned using the Ritual outlined in a Torment Scroll.\nThese scrolls are hard to come by, but it is rumored that well treated Flame Imps have occasionally given them up.\n\nConsuming the Soul of a Torment Demon grants the ability to Torment others.\n\nIf you are very unlucky and the Lord of Torment disappears when entering the Torment dimension, use the Egg and spawn another one.",
+      "globalShare:1": 1,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 141,
+        "OreDict:8": "",
+        "id:8": "witchery:ingredient"
+      },
+      "isGlobal:1": 0,
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Lord of Torment",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 2348,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 23,
+          "OreDict:8": "",
+          "id:8": "witchery:ingredient"
+        },
+        "1:10": {
+          "Count:3": 5,
+          "Damage:2": 38,
+          "OreDict:8": "",
+          "id:8": "witchery:ingredient"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 6412,
+          "OreDict:8": "",
+          "id:8": "minecraft:spawn_egg"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 55,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinSurvivorII"
+        },
+        "1:10": {
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinWitchII"
+        },
+        "2:10": {
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinDarkWizardII"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 141,
+          "OreDict:8": "",
+          "id:8": "witchery:ingredient"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "biome:3": -1,
+      "dimension:3": 56,
+      "hideInfo:1": 0,
+      "index:3": 1,
+      "invert:1": 0,
+      "name:8": "The real Hell",
+      "posX:3": 0,
+      "posY:3": 0,
+      "posZ:3": 0,
+      "range:3": -1,
+      "structure:8": "",
+      "taskID:8": "bq_standard:location",
+      "taxiCabDist:1": 0,
+      "visible:1": 0
+    }
+  }
+}

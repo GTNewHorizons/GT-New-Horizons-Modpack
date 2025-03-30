@@ -1,0 +1,91 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1989
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "The Factory Labeler allows you to assign unique names to anything that can be connected to a Manager - making it easy to identify when you are setting up commands.\n\nType in the text box to set a label or to searched stored labels - click any stored entry to select it, double-click to edit it. Closing the GUI will set the Labeler to whatever was in the text box at that time.\n\nLeft-click to set labels, right-click to open the gui. Setting a blank label will remove any existing labels.\n\n[note]May or may not be buggy. Will lose the label in MP when relogging, but works fine in SP. It\u0027ll still work until you need to change it though. Have fun![/note]",
+      "globalShare:1": 1,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "StevesAddons:labeler",
+        "tag:10": {
+          "saved:9": {
+            "0:8": "Energy Receiver",
+            "1:8": "Energy Provider",
+            "2:8": "Input Inventory",
+            "3:8": "Input Tank",
+            "4:8": "Output Inventory",
+            "5:8": "Output Tank"
+          }
+        }
+      },
+      "isGlobal:1": 0,
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Naming Names",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 1991,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 7,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "StevesAddons:labeler",
+          "tag:10": {
+            "saved:9": {
+              "0:8": "Energy Receiver",
+              "1:8": "Energy Provider",
+              "2:8": "Input Inventory",
+              "3:8": "Input Tank",
+              "4:8": "Output Inventory",
+              "5:8": "Output Tank"
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

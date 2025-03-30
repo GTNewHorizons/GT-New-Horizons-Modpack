@@ -1,0 +1,103 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3126
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3100
+    },
+    "2:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3101
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Reacting the three chemicals from the steps before with each other, you get a highly energetic fluid that is, for most purposes, equivalent to Diesel. To burn it for power, you cannot use Steam or Gas Turbines, but instead the Combustion Generators that Diesel also uses. They are reasonably efficient, generating 90% of the EU shown in NEI per bucket of fuel, although Biodiesel has a lower fuel value than either Benzene or Diesel, but not by much. Besides the generators, you also need a big enough fuel input per tick to sustain your base, so make sure to expand your setup enough to fuel all of your other automations.\n\nBiodiesel isn\u0027t the only thing you get from this process, though. As a side product, you also get Glycerol. Do not throw this away, it will prove itself useful when making epoxy resin, and possibly in other setups, to save you some work at a later time. When using singleblock Chemical Reactors, the recipe will stop if the Glycerol output is full, a situation in which a super tank will surely come in handy.\n\nWith that said, HV holds a big upgrade to this fuel that you might want to invest in. Keep progressing to check it out!",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 30627,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.metaitem.01"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Biological Diesel",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 3102,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 32,
+          "Damage:2": 30627,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag",
+          "tag:10": {
+            "ench:9": {
+              "0:10": {
+                "id:2": 35,
+                "lvl:2": 3
+              }
+            }
+          }
+        },
+        "2:10": {
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnicianI"
+        },
+        "3:10": {
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinChemistI"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 30627,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

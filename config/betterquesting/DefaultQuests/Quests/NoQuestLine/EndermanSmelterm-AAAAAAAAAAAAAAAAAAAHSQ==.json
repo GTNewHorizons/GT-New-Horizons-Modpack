@@ -1,0 +1,81 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 97
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 745
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Need enderpearls? Getting them by killing endermen can be dangerous. Instead of doing that, put an enderman into a smeltery with hot fluids and use a gem cast to get guaranteed pearls.\n\nThe higher the hit points, the longer they\u0027ll last, so the more pearls you get. If you can find a regenerating enderman, or an enderman spawner, you\u0027ll have all the pearls you would ever want. Later on with EnderIO you can even create your own powered spawner to make endermen on-demand. Or just place it in the End and move the mobs inside.\n\nUse a nametag on a regenerating enderman to make sure he doesn\u0027t despawn. You\u0027ll want to keep him from seeing the sky or else he\u0027ll teleport away.\n\nIf you haven\u0027t found a regen enderman yet, you can buy enderman spawn eggs to put into your smeltery with coins. Maybe you\u0027ll get lucky and get a regenerating one.",
+      "globalShare:1": 1,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:ender_pearl"
+      },
+      "isGlobal:1": 0,
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "§5§lEnderman Smelterman",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 1865,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 58,
+          "OreDict:8": "",
+          "id:8": "minecraft:spawn_egg"
+        },
+        "1:10": {
+          "Count:3": 30,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinSmith"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:name_tag"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

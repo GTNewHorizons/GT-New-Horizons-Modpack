@@ -1,0 +1,75 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1545
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "It\u0027s easy to lose Ore Drilling Plants. You\u0027re a busy engineer, you know? You can\u0027t be bothered to remember trifling things like \"where, in what galactic backwater did I last place my miner.\" You could do something boring like \"write down the location of the miner\" or \"put up a sign with the miner\u0027s location in my ore processing area,\" but there\u0027s a better way.\n\nEnter the Metrics Transmitter Cover. This cover, when attached to a multiblock miner (or any GregTech machine), spawns in a GregTech Advanced Sensor Card paired to the host machine. This card, when inserted into a NuclearCraft Industrial Information Panel, will receive runtime information transmitted by the host machine, including its current location. Additionally, it returns the same information that its lower-tech sibling, the GregTech Sensor Kit, provides. Unlike the GregTech Sensor Kit, the Metrics Transmitter Cover §nworks interdimensionally and at any range without the need of range upgrades.§r In addition, since covers remain on machines when they are dismantled, the paired sensor card §nwill continue to work even if the host machine is relocated, and never needs to be recalibrated.§r This makes it perfect for the Ore Drilling Plant and Oil/Gas/Fluid Drilling Rig, which are deployed in the field and often have to be relocated.\n\nHowever, like always, there\u0027s a catch. If the Metrics Transmitter Cover is detached from its host machine, §nthe paired sensor card will be destroyed.§r Maybe you shouldn\u0027t be using a crowbar around sensitive electronics...",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 32232,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.metaitem.03"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Don\u0027t Lose That Multiblock Miner!",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 8066762646697952752,
+  "questIDLow:4": -8321971917314713709,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "OreDict:8": "",
+          "id:8": "IC2NuclearControl:blockNuclearControlMain"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 7,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32232,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.03"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

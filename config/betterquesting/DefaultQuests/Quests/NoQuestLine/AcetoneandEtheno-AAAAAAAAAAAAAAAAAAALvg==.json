@@ -1,0 +1,75 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3003
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Another ingredient in the making of TNM is Ethenone, which can be made directly from Acetone. This one is a little more organic, which is to say it\u0027s much easier to automate if you chose Benzene or Biomass. From those routes, you can get it from a Wood Vinegar DT, or reacting Acetic Acid with Calcite Dust from a Fermented Biomass DT (get the calcite from electrolyzing Fertilizer). If you used biomass to get Ammonia, you can do it this way.\n\nIf not using plants, though, there are other ways to automate this. Ethenone can be made directly from Acetic Acid and Sulfuric Acid, and this last one should already be automated from cleaning the sulfuric waste from the oil fractions. Acetic Acid, on the other hand, is a mix of Oxygen and Ethylene, a combo that you might have already automated to make Polyethylene. If not, this is a good time to do so.\n\nThe amount of Ethenone you need to make a lot of Cetane-Boosted Diesel is small, so it\u0027s unlikely that you\u0027ll run out of Sulfuric Acid for this. Make sure you automate it all, though.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 30641,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.metaitem.01"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Acetone and Ethenone",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 3006,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 32,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "IC2:itemCellEmpty"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinChemistII"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 30641,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

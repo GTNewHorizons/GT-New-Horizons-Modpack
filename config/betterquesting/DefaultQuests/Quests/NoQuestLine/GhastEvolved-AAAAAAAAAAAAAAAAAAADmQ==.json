@@ -1,0 +1,218 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 920
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Fluffy, fluffier, ghasts! And also big crybabies. This one hides in a dungeon on IO, and holds the key for Tier 5 planets.",
+      "globalShare:1": 1,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 10,
+        "OreDict:8": "",
+        "id:8": "BiomesOPlenty:misc"
+      },
+      "isGlobal:1": 0,
+      "isMain:1": 1,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Ghast: Evolved",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": 1728000,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 921,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 8,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      }
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinSurvivorII"
+        },
+        "1:10": {
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinDarkWizardII"
+        },
+        "2:10": {
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinAdventureII"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "biome:3": -1,
+      "dimension:3": 36,
+      "hideInfo:1": 0,
+      "index:3": 0,
+      "invert:1": 0,
+      "name:8": "IO",
+      "posX:3": 0,
+      "posY:3": 0,
+      "posZ:3": 0,
+      "range:3": -1,
+      "structure:8": "",
+      "taskID:8": "bq_standard:location",
+      "taxiCabDist:1": 0,
+      "visible:1": 0
+    },
+    "1:10": {
+      "damageType:8": "",
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "required:3": 1,
+      "subtypes:1": 1,
+      "target:8": "GalacticraftCore.EvolvedBossGhast",
+      "targetNBT:10": {
+        "AbsorptionAmount:6": 0.0,
+        "Air:4": 0,
+        "AttackTime:4": 0,
+        "Attributes:9": {
+          "0:10": {
+            "Base:6": 600.0,
+            "Name:8": "generic.maxHealth"
+          },
+          "1:10": {
+            "Base:6": 0.0,
+            "Name:8": "generic.knockbackResistance"
+          },
+          "2:10": {
+            "Base:6": 0.05000000074505806,
+            "Name:8": "generic.movementSpeed"
+          },
+          "3:10": {
+            "Base:6": 16.0,
+            "Name:8": "generic.followRange"
+          }
+        },
+        "CanPickUpLoot:4": 0,
+        "CreatureInfusion:10": {
+          "InfusionCosts:10": {
+            "Aspects:8": ""
+          },
+          "Infusions:9": {
+            "0:4": 0,
+            "1:4": 0,
+            "2:4": 0,
+            "3:4": 0,
+            "4:4": 0,
+            "5:4": 0,
+            "6:4": 0,
+            "7:4": 0,
+            "8:4": 0,
+            "9:4": 0,
+            "10:4": 0,
+            "11:4": 0
+          },
+          "PlayerInfusions:9": {
+            "0:4": 0,
+            "1:4": 0,
+            "2:4": 0,
+            "3:4": 0,
+            "4:4": 0,
+            "5:4": 0,
+            "6:4": 0,
+            "7:4": 0,
+            "8:4": 0,
+            "9:4": 0,
+            "10:4": 0,
+            "11:4": 0
+          },
+          "sitting:4": 0,
+          "toggleClimb:4": 0,
+          "toggleInvisible:4": 0,
+          "tumorWarp:4": 0,
+          "tumorWarpPermanent:4": 0,
+          "tumorWarpTemp:4": 0
+        },
+        "CustomName:8": "",
+        "CustomNameVisible:4": 0,
+        "DeathTime:4": 0,
+        "Dimension:4": 0,
+        "DropChances:9": {
+          "0:4": 0,
+          "1:4": 0,
+          "2:4": 0,
+          "3:4": 0,
+          "4:4": 0
+        },
+        "Equipment:9": {
+          "0:10": {},
+          "1:10": {},
+          "2:10": {},
+          "3:10": {},
+          "4:10": {}
+        },
+        "FallDistance:6": 0.0,
+        "Fire:4": 0,
+        "HealF:6": 600.0,
+        "Health:4": 600,
+        "HurtTime:4": 0,
+        "Invulnerable:4": 0,
+        "Leashed:4": 0,
+        "Motion:9": {
+          "0:4": 0,
+          "1:4": 0,
+          "2:4": 0
+        },
+        "OnGround:4": 0,
+        "PersistenceRequired:4": 0,
+        "PortalCooldown:4": 0,
+        "Pos:9": {
+          "0:4": 0,
+          "1:4": 0,
+          "2:4": 0
+        },
+        "Rotation:9": {
+          "0:4": 0,
+          "1:4": 0
+        },
+        "UUIDLeast:4": -1940216915570942457,
+        "UUIDMost:4": 31541628372871,
+        "id:8": "GalacticraftCore.EvolvedBossGhast",
+        "roomCoordsX:6": 0.0,
+        "roomCoordsY:6": 0.0,
+        "roomCoordsZ:6": 0.0,
+        "roomSizeX:6": 0.0,
+        "roomSizeY:6": 0.0,
+        "roomSizeZ:6": 0.0
+      },
+      "taskID:8": "bq_standard:hunt"
+    }
+  }
+}

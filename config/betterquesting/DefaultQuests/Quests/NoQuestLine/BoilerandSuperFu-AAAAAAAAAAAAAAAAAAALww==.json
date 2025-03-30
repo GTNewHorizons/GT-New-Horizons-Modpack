@@ -1,0 +1,100 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2990
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "With the advancements in building materials you\u0027ve made until now, a new kind of generator has been unlocked. The Large Boilers you might have looked at before, and perhaps used, change when you reach Titanium, and if you build one of those, you will get something quite different from the tiers before.\n\nTo start, most burnable items don\u0027t work here. These advanced boilers need to burn much hotter, and as such they only accept specific fuels. The fuel of interest here is one of two, who are built in a sort of chain, in a similar fashion as to how Diesel and CBD worked. There is Solid Super Fuel, and Magic Solid Super Fuel, and they are both created from some coal-like block, some binder and some liquid fuel. You can use CBD for this, but Heavy Fuel and LPG are also options.\n\nWhy go through this route, though? The answer is that this extra processing, although it is difficult to automate, creates fuel that is much more efficient than the fuels that were put into it, and this is because the advanced Large Boilers are slow burners that output Superheated Steam, instead of regular one. This also means that they will need two turbines to convert all the steam into EU, and even more if the amount produced is too much for them. If fuel efficiency is something you\u0027re looking for, you can tackle this challenge and further process your CBD into something even more powerful.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1022,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Boiler and Super Fuel",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 3011,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 7,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        },
+        "1:10": {
+          "Count:3": 6,
+          "Damage:2": 5152,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 20,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnicianII"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1022,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        },
+        "1:10": {
+          "Count:3": 20,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings4"
+        },
+        "2:10": {
+          "Count:3": 64,
+          "Damage:2": 6,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockreinforced"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

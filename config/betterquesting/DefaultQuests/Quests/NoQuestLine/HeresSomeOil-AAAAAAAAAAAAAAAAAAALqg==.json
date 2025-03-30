@@ -1,0 +1,47 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 546
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 547,
+      "type:1": 1
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "[note]Here the oil questlines diverge into two tabs - part about getting every possible output is in the LV tab, part about the usefulness of oil is in the Working with Oil tab, this quest is part of the latter.[/note]\n\nWelcome! This is the questline that shows the path through oil processing towards all the useful items and fluids that can be obtained from it. Working with this black liquid involves a lot of steps that range from LV (Low Voltage), all the way to IV (Insane Voltage), and outputs that are useful at those tiers and beyond.\n\nOil is useful both for generating power, and to automate a lot of chemicals that are important for progression. As you progress, you will be able to get more of it, and get it faster, as well as process it in new ways that improve on the setup that you were using before. It is not a required path for progression in the pack, but it is a very useful one, should you choose to follow it.\n\nThe best way to start working with oil is to extract it from the surface. Oil spouts are visible without having to dig down, and they can be interacted with by using a Pump placed above them, alongside a generator that feeds it some power. You can use some of the Oil to generate this power for now.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockcasings2"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Here\u0027s Some Oil",
+      "questLogic:8": "OR",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 2986,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

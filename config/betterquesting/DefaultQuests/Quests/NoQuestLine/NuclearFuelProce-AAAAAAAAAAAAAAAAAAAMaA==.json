@@ -1,0 +1,118 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3159
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "The previous reactor is useless on its own, unfortunately. Even if you have built it fully, there\u0027s no way to get fuel that it will accept without making another multi that mixes and processes several chemical mixtures into one, the molten salt that generates all that nuclear energy in the LFTR.\n\nThe multi\u0027s name is Reactor Fuel Processing Plant (RFPP), although it\u0027s easier to call it the Fuel Refinery. It\u0027s a mid-late IV multiblock, like the LFTR, especially due to needing 2 ZPM circuits for the Computer Cube used in the controller\u0027s recipe. The other casings are similar to what you\u0027ve made before, and the tooltip gives a good description of what exactly is needed to build the Fuel Refinery.\n\nWhere to put each casing? The bottom two layers are 3x3, and they take the Structural Blocks. On top of the second layer, in the middle block, make a tower of 5 Fluid Containment Blocks, and then cover these with Sealant Blocks, like you would do in a Multiblock Miner. However, the second layer of the 5, from the bottom, uses Reactor Shielding Blocks, 4 of them there instead of the Sealant Blocks. Use the Hologram Projector for assistance if you\u0027re having trouble.\n\nWhen it\u0027s fully built, you can focus on the recipes. Out of the 5 that are available, you can only do one at this time, the Fuel 1 recipe. To make this fuel, you need molten U235, but also Lithium Fluoride, Beryllium Fluoride and Zirconium Tetrafluoride. Each of the these elements can be obtained with relative ease, each in their own way, but Fluorine is the main part of all this, the main component of the molten salt, so it\u0027s a good idea to have a decent source of it. However, the LFTR fuels are also very, very energy dense, so each bucket of Fluorine can bring you a long way.\n\nIf you\u0027re looking through NEI, your first response might be \"There are no recipes for these fluorides other than reprocessing the depleted fuels! How am I supposed to make these?\". The answer is in the dusts: you have to craft the dusts and then fluid extract them into the fluids. There is a spreadsheet which has all the steps in crafting and reprocessing ([url]https://docs.google.com/spreadsheets/d/1_1JGSt5-ELdra6emngUc7XvKSJc-_-RO0yreRIbOrx0/edit?usp\u003dsharing[/url]), to help with how complicated this chain is.\n\nJust make sure you remember, each bucket of fuel is worth many millions, perhaps even billions of EU! Don\u0027t let the 207M EU cost per bucket of Fuel 1 discourage you, it turns into much more energy in the LFTR. Besides, this first fuel is just a stepping stone, so don\u0027t worry about fully automating everything just yet, the final setup is different from this one.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "miscutils:itemDustLFTRFuel1"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Nuclear Fuel Processing",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 3176,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 835,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        },
+        "1:10": {
+          "Count:3": 10,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "miscutils:gtplusplus.blockcasings.2"
+        },
+        "2:10": {
+          "Count:3": 5,
+          "Damage:2": 3,
+          "OreDict:8": "",
+          "id:8": "miscutils:gtplusplus.blockcasings.2"
+        },
+        "3:10": {
+          "Count:3": 4,
+          "Damage:2": 13,
+          "OreDict:8": "",
+          "id:8": "miscutils:miscutils.blockcasings"
+        },
+        "4:10": {
+          "Count:3": 17,
+          "Damage:2": 1,
+          "OreDict:8": "",
+          "id:8": "miscutils:gtplusplus.blockcasings.2"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "OreDict:8": "",
+          "id:8": "miscutils:gtplusplus.blockcasings.2"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "OreDict:8": "",
+          "id:8": "miscutils:bookGT",
+          "tag:10": {
+            "stats:10": {
+              "mMeta:3": 4
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

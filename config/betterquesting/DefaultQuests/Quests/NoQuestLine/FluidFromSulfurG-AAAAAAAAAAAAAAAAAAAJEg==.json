@@ -1,0 +1,105 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2305
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Combine the Rhodium Sulfate you got with Water, and you\u0027ll get Rhodium Sulfate Solution, as well as some more Leech Residue, and Molten Potassium.\n\nYou get just over 13 ingots\u0027 worth of Potassium back, you\u0027ll want to use the fluid solidifier and then macerate it to use it again.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 62,
+        "OreDict:8": "cellRhodiumSulfateSolution",
+        "id:8": "bartworks:gt.bwMetaGeneratedcell"
+      },
+      "isMain:1": 1,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "§b§lFluid From Sulfur Gas",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "CHAIN"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 2322,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 8,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 11,
+          "Damage:2": 61,
+          "OreDict:8": "cellRhodiumSulfate",
+          "id:8": "bartworks:gt.bwMetaGeneratedcell"
+        },
+        "1:10": {
+          "Count:3": 10,
+          "Damage:2": 1,
+          "OreDict:8": "cellWater",
+          "id:8": "IC2:itemCellEmpty"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 11,
+          "Damage:2": 62,
+          "OreDict:8": "cellRhodiumSulfateSolution",
+          "id:8": "bartworks:gt.bwMetaGeneratedcell"
+        },
+        "1:10": {
+          "Count:3": 10,
+          "Damage:2": 60,
+          "OreDict:8": "",
+          "id:8": "bartworks:gt.bwMetaGenerateddustTiny"
+        },
+        "2:10": {
+          "Count:3": 13,
+          "Damage:2": 25,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.99"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

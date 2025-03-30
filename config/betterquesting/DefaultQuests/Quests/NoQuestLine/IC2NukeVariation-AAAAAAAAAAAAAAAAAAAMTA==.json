@@ -1,0 +1,46 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3152
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3151
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "This branch of the questline focuses on the IC2 nukes that work differently from the simple kind that is explored on the branch right next to this one. They are more powerful, but also require more setup.\n\nThe main two kinds are fluid nukes and vacuum nukes, which will be explained in the following quests. However, there are also other obscure types, such as wrench nukes, which might or might not work in the current version.\n\nThose are memes, but if any new viable type of IC2 nuke is ever introduced, it will be explained in this section.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "IC2:fluidSuperheatedSteam"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "IC2 Nuke Variations",
+      "questLogic:8": "OR",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 3148,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

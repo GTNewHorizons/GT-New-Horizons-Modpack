@@ -1,0 +1,43 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 226
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Don\u0027t want to guess at what has what aspect? Just want to get to work? Then scan this stuff. The first set should be scanned in order. If any of them don\u0027t work, try scanning something else first (especially the third set).\n\nWatering Can\nTorch\nCoal\nGrass Block\nTrapdoor\nChest\nGlass Block\nBleached Bone Block\nChicken\nSoul Sand\nPaper\nRotten Flesh\nWheat\nFlint\nObsidian\n\nAsh Cloud\nAny Dye\nWool\nSpider Eye\nSnowball\nMilk Bucket\nVanilla Hoe\nVanilla Pickaxe\nArrow\nVanilla Armor\nQuicksilver\nFence Gate\nIron Nugget\nGold\nZombie Brain\nEnder Pearl\nSlimeball\nTainted Anything. Try overfilling your cauldron to create flux goo to make the slimes (not in your base)\nEthereal Essence (any Aspect) from wisps OR Terra Wart\n\nObzinite Ingot\nPlatinum Metallic Powder\nFine Copper Wire\nMagnetite Dust\nThorium Dust\nA Pig\nNetherrack\nGold Armor\nBed\nLead (not the metal)\nGhast Tear\nClock\nCrystal Matrix Ingot\n\nThe last 5 aspects might only be obtainable by combining aspects or by creating a node that has them. You can combine:\n\nCognito + Ordo\nCognito + Vitium\nVacuos + Motus\nLux + Primordium\nHumanus + Iter\n\n\n\nNote that the above list is for aspects, you may need to scan things like the Nether Portal to unlock certain researches.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 42,
+        "OreDict:8": "",
+        "id:8": "Thaumcraft:ItemThaumonomicon"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Just Tell Me What to Scan Already!",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 1461,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

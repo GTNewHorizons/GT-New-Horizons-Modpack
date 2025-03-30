@@ -1,0 +1,60 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -4847611916767573432,
+      "questIDLow:4": -5258609888143859259
+    },
+    "1:10": {
+      "questIDHigh:4": -7295994264991546955,
+      "questIDLow:4": -5675835535531457502
+    },
+    "2:10": {
+      "questIDHigh:4": -5082536925275926677,
+      "questIDLow:4": -7995813544306558907
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Your attempts to improve your dimensional catalyst have been futile so far, but with the Raw Stellar Plasma from your Eye of Harmony, you can finally create a stable and more powerful catalyst.\n\nYou will need some higher-tier plasmas to help maintain its stability as well.\n\n[warn]Handle with care. We are not responsible for your base turning into supermassive black holes. /s[/warn]",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 30127,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.metaitem.01"
+      },
+      "isMain:1": 1,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Stellar Catalyst",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 9096591528313636359,
+  "questIDLow:4": -5769420916380359643,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "exciteddtsc"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

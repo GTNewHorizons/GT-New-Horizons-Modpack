@@ -1,0 +1,98 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1148
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3117
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "How does all of this organic stuff produce energy, anyways? You burn it, that\u0027s how! The heat from that burning heats up water into Steam, and this can make a Steam Turbine spin, generating rotational energy that can directly be converted into electricity with spinning magnetic fields. Pretty neat, right? The wood/charcoal provides the combustible material, and the atmosphere provides the oxygen to keep the fire going. With some chemistry, and GTNH magic, we can use these principles to generate power in an alternative way.\n\nIt\u0027s pretty much magic, really. Carbon Monoxide (CO) is a valid fuel for Gas Turbines, and it can be made with Charcoal and Oxygen. The CO has more power than the Charcoal used to make it, but the additional Oxygen will make this step not worth it if you get it from electrolyzing water or centrifuging air, since the EU needed for those crafts will make this process inefficient. There is, however, a more efficient way to automate Oxygen production, but you will need crops for it.\n\nYour target is Sugar and an MV Electrolyzer. This will give you Oxygen at almost 1000 EU per bucket. Each bucket of CO produces 24000 EU, made from one Charcoal that produces roughly 16000 EU in Steam, and costing 560 EU per craft. The whole process gives around 6000 EU of free power per Charcoal, around 30% extra power overall!\n\nTo get automated Sugar from crops, you want Sugar Beets. Sugar Canes do the same thing, but with more EU cost to get the Sugar. There are other possible ways but, for now, just get loads of Sugar.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 30674,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.metaitem.01"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Carbon, Chemically",
+      "questLogic:8": "OR",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 3093,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        },
+        "1:10": {
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "IC2:itemCellEmpty"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnician"
+        },
+        "1:10": {
+          "Count:3": 3,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinChemist"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 256,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:sugar"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

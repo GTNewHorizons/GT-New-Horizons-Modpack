@@ -1,0 +1,19 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "bg_image:8": "",
+      "bg_size:3": 256,
+      "desc:8": "Pushing steam to its absolute limits!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 32242,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.metaitem.03"
+      },
+      "name:8": "Ch. 3: Supercritical",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questLineIDHigh:4": -8363274015170411190,
+  "questLineIDLow:4": -5900324879792079615
+}

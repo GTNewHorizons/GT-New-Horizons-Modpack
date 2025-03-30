@@ -1,0 +1,91 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3026
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "If there is someone who found themselves invested in the Large Tungstensteel Boilers, this one is for you. Through the pollution, the multiblock spamming and the chained processing lines you need to get here, you will find that this is a lot of heat for one boiler to handle. Why not make two quad boilers?\n\nYou might be thinking about the number of turbine multis you need to withstand this, but fret not! There are extra large turbines, for the extra large steam enthusiast. You will need twelve turbine items for each multi, and you best bring the best ones you can make! Loose mode is up to you, just go wild with your super fuel.\n\n[warn]You will need an Assembly Line to craft the dynamo needed to complete this quest.[/warn]",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 866,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Hyperheated Steam",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "SECRET"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 3028,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 1023,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        },
+        "1:10": {
+          "Count:3": 150,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings4"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 866,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        },
+        "3:10": {
+          "Count:3": 360,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "miscutils:gtplusplus.blockspecialcasings.1"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 865,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        },
+        "5:10": {
+          "Count:3": 360,
+          "Damage:2": 1,
+          "OreDict:8": "",
+          "id:8": "miscutils:gtplusplus.blockspecialcasings.1"
+        },
+        "6:10": {
+          "Count:3": 2,
+          "Damage:2": 905,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

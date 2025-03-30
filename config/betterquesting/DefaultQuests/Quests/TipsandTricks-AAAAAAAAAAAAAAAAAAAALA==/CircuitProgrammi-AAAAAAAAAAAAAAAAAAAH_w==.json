@@ -1,0 +1,129 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 105
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Some machines have a very, very large number of recipes. To avoid conflicts, many recipes have programmed circuits to ensure that the correct recipe is used. These programmed circuits are not consumed.\n\nIn this modpack, all singleblock GT machines now come with an icon in the GUI on the bottom-right that represents a ghost circuit. Click it or scroll to choose the number you need. If you do that, you don\u0027t have to insert a physical circuit. This is going to be your main option for all single block machines. This option is now also available for input buses of multiblocks, which you will use much later.\n\nThere are a few places throughout the modpack where you still need the physical circuits. You can turn an LV circuit into a programmed circuit in the crafting grid and then program it in various ways:\n\n1) Find a correct crafting recipe with a screwdriver in NEI and use that.\n\n2) Right-click while holding the programmed circuit to open an easy menu. You still need to at least have the screwdriver in your inventory though or it won\u0027t work. Eventually you can also make an electric screwdriver.\n\n3) Use the BartWorks Circuit Programmer. It\u0027s only available in MV, but it does not use any durability and runs on EU.\n\n4) Use the GT++ Circuit Programmer block. It isn\u0027t portable and only available in MV, but it allows for automation.\n\n\nThe tasks in this quest are just the showcase of what programming circuits there are. You can just click the checkmark once you understand how the programmed circuits work.",
+      "globalShare:1": 1,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.integrated_circuit"
+      },
+      "isGlobal:1": 0,
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "§5§lCircuit Programming",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 2047,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.integrated_circuit"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "bartworks:gt.BWCircuitProgrammer",
+          "tag:10": {
+            "charge:6": 10000.0
+          }
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "miscutils:blockCircuitProgrammer"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "3:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 3,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.integrated_circuit"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "4:10": {
+      "index:3": 4,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

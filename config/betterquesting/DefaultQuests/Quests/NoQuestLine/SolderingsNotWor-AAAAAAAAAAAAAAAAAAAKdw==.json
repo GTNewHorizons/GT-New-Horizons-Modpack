@@ -1,0 +1,67 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2659
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2675
+    },
+    "2:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2696
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "After all these advancements, it looks like some things just aren\u0027t meant to be. Every machine that your Assembly Line has crafted works, but the most advanced ones so far seem to be... a bit rough around the edges. Further inspection revealed that Indalloy just isn\u0027t good enough. It seems that Infinity\u0027s neverending vibrations destabilize the joints where the soldering happens, your living circuits have been offering resistance to this crude soldering alloy, however that happens...\n\nIt\u0027s likely that new materials will completely break Indalloy\u0027s ability to get pieces soldered together. Because of that, it\u0027s about time for a new development in this technology, and the previous rejection by your living circuits has given you an excellent idea. Any new material can have some new behavior that will ruin assembling for you, but what if the solder itself learns about these complications and learns how to adjust to them, mutating for them?\n\nThat\u0027s right: §aMutated Living Solder§r.\n\nThis sort of chemistry is only possible in a full-scale Chemical Plant, equipped with the most advanced casing: Botmium. On top of that, the catalyst you need to use has been consumed so thoroughly that you were forced to use Infinity for it, on top of the mutating Naquadria. Your Infinity will be lost to the crafting, still, unless you manage to put [note]Tungstensteel Pipe Casings[/note] and [warn]Awakened Draconium Coils[/warn] in your Chemical Plant, which prevent the catalyst from losing durability. Any better coils also have the same effect.\n\nThe new solder itself is a different story. Wetware technology is too primitive for this, and your Bio Cells have refused to bond with any fluid that would serve as its carrier for soldering. When you tried a mixture of hot Tin and Bismuth, it finally worked, but the soldering didn\u0027t actually work. It looked like the Bio Cells hadn\u0027t learned how to fulfill their new job, which could be fixed by adding an example material as a test subject, something simpler like Infinity Catalyst... but it seemed impossible to bond the cells to the dust. You need more energy... not just loads of EU, something concentrated, hot, fizzling with energy!\n\nYes, everything alive died instantly when you decided to add plasmas instead of hot fluids. No surprise there. However, Bio Cells did survive inside hot fluids, so we just need some temperature control here, and some separation between cell and plasma... yes, Gravi Stars can be used for this. We still need to cool down the plasmas, so that the enhanced cells can mix with them in liquid form, and EU alone would be too expensive. Gelid Cryotheum has proven to be surprisingly efficient, perhaps due to its origins, as a component of a living being, the Blizz.\n\nThere we go! The Mutated Living Solder is now complete. The highly intelligent Bio Cells are energized by the concentrated heat of the plasmas, while keeping a distance from them due to the Gravi Stars\u0027 influence, and they analyze the Infinity Catalyst Dust to learn about material instability. This is a very slow process, but it happens at the same time as the plasmas are slowly cooled, using Cryotheum and EU, until the learning process is complete and the Bio Cells fall into the Tin and Bismuth, now in the liquid form that was shown to work before. Finally, armed with their new knowledge, the cells flow through the Naquadria-based, Infinity-reinforced catalyst so that they can mutate in real-time after researching the material they\u0027re soldering.\n\nThis should work for any future soldering need, regardless of material. Let\u0027s hope so, at least...",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "miscutils:itemCellMutatedLivingSolder"
+      },
+      "isMain:1": 1,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Soldering\u0027s Not Working Anymore",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "OR",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 2679,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "miscutils:itemCellMutatedLivingSolder"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "index:3": 2,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

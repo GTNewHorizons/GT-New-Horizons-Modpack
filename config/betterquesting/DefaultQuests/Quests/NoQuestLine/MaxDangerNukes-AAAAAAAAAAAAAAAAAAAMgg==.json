@@ -1,0 +1,46 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3172
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3167
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Were you courageous enough to build a vac nuke? If so, are you courageous enough to do it in a MOX setup, with high heat?\n\nYes, this is possible, and extremely powerful. However, all the risks you signed up for are exponentially increased, since MOX nukes keep getting better and better the closer the nuke\u0027s temperature is to the critical point. This sort of automation is more complicated than almost any other, and I honestly don\u0027t have any specific guidelines for you.\n\nIf you manage this, do share it on the Discord. I bet people will be surprised.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "chisel:warningSign"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Max Danger Nukes",
+      "questLogic:8": "OR",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 3202,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

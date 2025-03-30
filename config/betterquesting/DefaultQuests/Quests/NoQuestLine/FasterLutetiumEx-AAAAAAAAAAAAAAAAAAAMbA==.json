@@ -1,0 +1,46 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2610
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3179
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "This quest is late LuV.\n\nYou might have read before that Lutetium is necessary as an input for fusion crafting. In a tier 2 fusion reactor, Lutetium + Chrome \u003d Americium, a required material for many required crafts. Lutetium is a material that is obtained exclusively from breeding, so you\u0027re in the right place to find ways to get it.\n\nThe very first method, EV\u0027s IC2 Thorium nukes, is the cheapest, but also the slowest. Each fuel rod takes 50000 seconds to deplete, almost 14 hours, with half of a Lutetium Dust per depleted rod. Highly stackable designs, such as the 2-chamber 11 quad rod one, will grant you 22 dust per cycle. After building 10 of those, the rate is still 16 dust per hour. This processing speed isn\u0027t good enough to keep progressing forever, and there is no need to make more towers of breeder nukes.\n\nYour 5 main options are:\n\n1) HTGR - fastest but also quite expensive multiblock reactor, unfortunately it requires purified thorium232 you will need to purify it first\n2) Lutetium bees - if you started bees getting it should be quite easy\n3) Spamming IC2 nuclear reactors\n4) Distilling Heavy Naquadah Fuel\n5) Summoning meteors",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2078,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.metaitem.01"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Faster Lutetium Excitement",
+      "questLogic:8": "OR",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 3180,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

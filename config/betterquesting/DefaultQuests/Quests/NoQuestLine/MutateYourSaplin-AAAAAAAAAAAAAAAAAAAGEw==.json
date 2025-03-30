@@ -1,0 +1,131 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 334
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Mutandis is a mutagen that is used by witches and warlocks to mutate plants into other species. Simply use Mutandis on small plants, grass, flowers, saplings, etc. and it will be randomly converted to another plant. Mutandis cannot mutate multi-stage plants like wheat and cactus.\n\nMutating plants is the only way to acquire Rowan, Hawthorn and Alder saplings.\n\nMutandis has another interesting property when crafted with raw meat. It seems to mutate it into another type of raw meat. It even seems to have an effect on Rotten Flesh.\n\nSome recipes require Mutandis as an ingredient.\n\nMutandis can be upgraded to Mutandis Extremis to have an effect on a wider variety of plants.\n\nMutandis is made in a Witches\u0027 Cauldron using Mandrake Root, Exhale of the Horned One and an Egg.",
+      "globalShare:1": 1,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 14,
+        "OreDict:8": "",
+        "id:8": "witchery:ingredient"
+      },
+      "isGlobal:1": 0,
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Mutate Your Saplings",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 1555,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:glass_bottle"
+        },
+        "1:10": {
+          "Count:3": 16,
+          "Damage:2": 27,
+          "OreDict:8": "",
+          "id:8": "witchery:ingredient"
+        }
+      }
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 25,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinCook"
+        },
+        "1:10": {
+          "Count:3": 25,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinWitch"
+        },
+        "2:10": {
+          "Count:3": 25,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinDarkWizard"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:egg"
+        },
+        "1:10": {
+          "Count:3": 8,
+          "Damage:2": 22,
+          "OreDict:8": "",
+          "id:8": "witchery:ingredient"
+        },
+        "2:10": {
+          "Count:3": 8,
+          "Damage:2": 31,
+          "OreDict:8": "",
+          "id:8": "witchery:ingredient"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 48,
+          "Damage:2": 14,
+          "OreDict:8": "",
+          "id:8": "witchery:ingredient"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

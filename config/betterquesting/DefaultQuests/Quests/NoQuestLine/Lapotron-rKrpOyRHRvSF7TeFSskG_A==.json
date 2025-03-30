@@ -1,0 +1,159 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 524055433773926135,
+      "questIDLow:4": -9173649568252084802
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2174,
+      "type:1": 1
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "This magnificent breed of Bee produces a whole plethora of useful resources, including endless amounts of Lapis, Energium, and Lapotron Dust. However, they are somewhat picky when it comes to breeding; you\u0027ll need Energium and Lapis Bees as parents, and the process must take place on the Moon under icy temperatures.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "Forestry:beePrincessGE",
+        "tag:10": {
+          "Genome:10": {
+            "Chromosomes:9": {
+              "0:10": {
+                "Slot:1": 0,
+                "UID0:8": "gregtech.bee.speciesLapotron",
+                "UID1:8": "gregtech.bee.speciesLapotron"
+              },
+              "1:10": {
+                "Slot:1": 1,
+                "UID0:8": "forestry.speedSlower",
+                "UID1:8": "forestry.speedSlower"
+              },
+              "2:10": {
+                "Slot:1": 2,
+                "UID0:8": "forestry.lifespanLonger",
+                "UID1:8": "forestry.lifespanLonger"
+              },
+              "3:10": {
+                "Slot:1": 3,
+                "UID0:8": "forestry.fertilityNormal",
+                "UID1:8": "forestry.fertilityNormal"
+              },
+              "4:10": {
+                "Slot:1": 4,
+                "UID0:8": "forestry.toleranceUp1",
+                "UID1:8": "forestry.toleranceUp1"
+              },
+              "5:10": {
+                "Slot:1": 5,
+                "UID0:8": "forestry.boolTrue",
+                "UID1:8": "forestry.boolTrue"
+              },
+              "6:10": {
+                "Slot:1": 7,
+                "UID0:8": "forestry.toleranceBoth1",
+                "UID1:8": "forestry.toleranceBoth1"
+              },
+              "7:10": {
+                "Slot:1": 8,
+                "UID0:8": "forestry.boolFalse",
+                "UID1:8": "forestry.boolFalse"
+              },
+              "8:10": {
+                "Slot:1": 9,
+                "UID0:8": "forestry.boolFalse",
+                "UID1:8": "forestry.boolFalse"
+              },
+              "9:10": {
+                "Slot:1": 10,
+                "UID0:8": "forestry.flowersSnow",
+                "UID1:8": "forestry.flowersSnow"
+              },
+              "10:10": {
+                "Slot:1": 11,
+                "UID0:8": "forestry.floweringAverage",
+                "UID1:8": "forestry.floweringAverage"
+              },
+              "11:10": {
+                "Slot:1": 12,
+                "UID0:8": "forestry.territoryAverage",
+                "UID1:8": "forestry.territoryAverage"
+              },
+              "12:10": {
+                "Slot:1": 13,
+                "UID0:8": "forestry.effectIgnition",
+                "UID1:8": "forestry.effectIgnition"
+              }
+            }
+          },
+          "Health:3": 60,
+          "IsAnalyzed:1": 1,
+          "MaxH:3": 60
+        }
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Lapotron",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -6004730712924141836,
+  "questIDLow:4": -8796313451559844100,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 26,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "Forestry:beePrincessGE",
+          "tag:10": {
+            "Genome:10": {
+              "Chromosomes:9": {
+                "0:10": {
+                  "Slot:1": 0,
+                  "UID0:8": "gregtech.bee.speciesLapotron",
+                  "UID1:8": "gregtech.bee.speciesLapotron"
+                }
+              }
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

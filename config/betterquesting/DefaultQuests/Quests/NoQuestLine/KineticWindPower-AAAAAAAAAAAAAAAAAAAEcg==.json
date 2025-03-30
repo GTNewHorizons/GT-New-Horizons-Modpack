@@ -1,0 +1,155 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1137
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "The Kinetic Wind Generator generates energy from wind power which varies randomly, although certain factors can change this.\n\nUnlike the Windmill, the Kinetic Wind Generator will require maintenance in the form of Rotors. These are needed to run the Kinetic Wind Generator.\nOnce a Rotor is placed inside the GUI, the block is given sufficient space, and the current wind level is adequate for the current rotor, the Kinetic Wind Generator will begin to generate Kinetic Energy.\n\nThis can be converted into EU by using a Kinetic Generator attached to the correct face (the black circle).\n\nAbout Wind\nFirst off, the wind strength of a particular area is affected by 3 factors: Height, Weather, and Chance. The higher up in the world you are, the higher the wind level. Below y64, there is never enough wind to be used, and KWG\u0027s will not function at all. Weather will also give boosts; Rainy weather will give a 20% boost to normal wind levels, and stormy weather will give a 50% boost. The final factor of chance makes the wind strength vary randomly, however there is a limited range of variation.\n\nThe easiest way to check the current wind level in an area is by using a Windmeter. Wind is strongest at around Y160, towards the build limit of Y255 there is very little wind, hence no point attempting to run Windmills that high. While inconvenient, the Wind Generator can run anywhere.",
+      "globalShare:1": 1,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "IC2:blockKineticGenerator"
+      },
+      "isGlobal:1": 0,
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "§9§lKinetic Wind Power HV",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 1138,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 6,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "Damage:2": 12,
+          "OreDict:8": "",
+          "id:8": "IC2:itemRecipePart"
+        },
+        "2:10": {
+          "Count:3": 2,
+          "Damage:2": 21306,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnicianI"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings2"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "Damage:2": 18306,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "2:10": {
+          "Count:3": 2,
+          "Damage:2": 20028,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "3:10": {
+          "Count:3": 4,
+          "Damage:2": 12,
+          "OreDict:8": "",
+          "id:8": "IC2:itemRecipePart"
+        },
+        "4:10": {
+          "Count:3": 2,
+          "Damage:2": 32704,
+          "OreDict:8": "circuitData",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "5:10": {
+          "Count:3": 8,
+          "Damage:2": 18306,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "6:10": {
+          "Count:3": 2,
+          "Damage:2": 1646,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        },
+        "7:10": {
+          "Count:3": 2,
+          "Damage:2": 32602,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "IC2:blockKineticGenerator"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

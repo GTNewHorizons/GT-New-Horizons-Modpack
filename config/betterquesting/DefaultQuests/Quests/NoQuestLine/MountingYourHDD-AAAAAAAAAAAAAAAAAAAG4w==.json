@@ -1,0 +1,63 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1761
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Alright, you have your computer, it says \"Hello World!\" When you start it, and you feel awesome and capable of world domination.\n\nNow let\u0027s set up your HDD. Open .shrc again in the editor, and press ENTER to go down a line after the print, and type in \u0027cd ../\u0027 this will move your viewed directory that\u0027s being viewed to the absolute base directory.\n\nNow go down another line and type in \u0027mount HDD C:\u0027 because why not, it\u0027s Classic; this mounts the file drive into the folder you\u0027re in. Go down another line and type cd \u0027C:/\u0027 save and reboot the computer.\n\nYou\u0027ll now start in C:/ nifty! Try typing \u0027mkdir programs\u0027 and now you have a dedicated directory to put your programs in for the sake of organization.\n\u0027cd programs\u0027 will then take you to programs, and \u0027cd ../\u0027 will take you back a directory; you can also do things like, let\u0027s say you have a folder called apples in C as well but you\u0027re in apples, type \u0027cd ../apples\u0027 and it\u0027ll take you to apples. \u0027..\u0027 essentially just means previous directory and this can be stacked; works with copying files and moving them as well, very useful to know.\n\nBut right now we\u0027re going to do something functional, come over to the next quest and bring your adapter and cables.",
+      "globalShare:1": 1,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 5,
+        "OreDict:8": "",
+        "id:8": "OpenComputers:item"
+      },
+      "isGlobal:1": 0,
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Mounting Your HDD",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 1763,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "OpenComputers:adapter"
+        },
+        "1:10": {
+          "Count:3": 16,
+          "Damage:2": 32767,
+          "OreDict:8": "",
+          "id:8": "OpenComputers:cable"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

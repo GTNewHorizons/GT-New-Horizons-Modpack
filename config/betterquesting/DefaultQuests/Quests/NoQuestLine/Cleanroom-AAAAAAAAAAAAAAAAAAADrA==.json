@@ -1,0 +1,177 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1231
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "If you want to make more advanced (and cheaper!) circuits, you will need a Cleanroom. The Cleanroom is an interesting multiblock, because you will be placing other machines §oinside§r of the room!\n\nThe cleanroom is a hollow multiblock between 3x4x3 and 15x15x15 (WxHxL) blocks. The base does not need to be a square; a rectangular shape is fine. The top layer is built out of Filter Machine Casings, except for the edges, which are Plascrete Blocks. The controller needs to be in the center of the top layer. If the width or length of the room are even, then it can be any one of the two (or four) middle blocks. The rest of the structure is built out of Plascrete Blocks.\n\nUp to 30% of those Plascrete Blocks can be replaced by other valid blocks or materials:\n\nA Reinforced Door lets you get in and out of the cleanroom. Make sure to keep the doors closed, or the cleanroom will rapidly lose efficiency. Travel Anchors and Elevators also work, you can even embed them in the floor if you want to.\n\nIn order to automate power and item transport through the walls, you can use Cable Diodes or Machine Hulls. Just be really careful when upgrading your machines to a higher voltage. Be sure to remove the machine hulls and diodes and replace them with the new power tier, or else you will be very sad. You don\u0027t need to do this for ones you only use to pass items through.\n\nIf you want to see inside, you can use any EV+ tier glass (for example, Reinforced Glass or Managlass). If the Cleanroom does not form, mind the 30% limit: often the problem is that you added too much glass.\n\nFinally, the Cleanroom itself will need a Maintenance and Energy Hatch to run. The power usage of this multiblock is a bit unusual. It starts out at 40 EU/t and then gradually goes down. But even when it uses 40 EU/t - which is usually MV - a single LV energy hatch suffices, as long as you give it enough power. Just keep in mind that this makes the Cleanroom an exception, not the rule.\n\nLet\u0027s build a 5x5x5 room for now. You can expand it later as needed. Give it power and let it run until it reaches 100% efficiency. Below 100% efficiency, machines inside the cleanroom have a chance to void outputs, so you want to keep the cleanroom running at all times!\n\nAny maintenance issue reduces the maximum efficiency by 10%. Monitor your cleanroom with a Hand Scanner, Industrial Information Panel, or using a Needs Maintenance Cover and a Redstone Powered Light or Howler Alarm.\n\n\n[note]Multiblocks such as the Large Chemical Reactor or Hyper-Intensity Laser Engraver don\u0027t need to be in a cleanroom. However, you will still need the cleanroom later on for other machines, like Bio Labs.[/note]\n\n[note]Other helpful hints: you can use an AE Wireless Connector or a Transvector Interface for item transport to avoid machine hulls, and use a higher tier energy hatch to reach 100% efficiency faster.[/note]\n\n[warn]Keep in mind that you can not use anything in the cleanroom that causes pollution, or the cleanroom will stop working.[/warn]",
+      "globalShare:1": 1,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1172,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
+      },
+      "isGlobal:1": 0,
+      "isMain:1": 1,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "§6§lCleanroom",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 940,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 6,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      }
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnicianII"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1172,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 76,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockreinforced"
+        },
+        "1:10": {
+          "Count:3": 8,
+          "Damage:2": 11,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings3"
+        },
+        "2:10": {
+          "Count:3": 6,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "IC2:blockAlloyGlass"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 90,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 41,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        },
+        "2:10": {
+          "Count:3": 2,
+          "Damage:2": 11,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 12635,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "3:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 3,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "IC2:itemDoorAlloy"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "EnderIO:blockTravelAnchor"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "OpenBlocks:elevator"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

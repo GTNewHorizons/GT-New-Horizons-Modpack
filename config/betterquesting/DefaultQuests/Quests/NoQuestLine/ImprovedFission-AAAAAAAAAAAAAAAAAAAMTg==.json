@@ -1,0 +1,42 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3145
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "This branch starts at mid-IV. In this direction, you will find several setups that are related to nuclear fission, the same process that the IC2 nukes do, but in more complex and rewarding ways. Through here, you can get power and breeding byproducts as you would with nukes, but faster and with more variety of options and goals.\n\nThat\u0027s right. If you\u0027ve used IC2 nukes, you might have learned more or less how they work, but the whole system feels a bit dated. That\u0027s no surprise, considering that this is base IC2 content and from 10 years ago or more. Whatever additions GTNH gave to those setups, they were minimal in comparison to the general implementation of those nukes. In fact, some of the new content for those was a result of new nuclear fission content that was sort of backported into nukes.\n\nWe have good progression standards here, though. Once you\u0027ve reached IV, LuV and so on, you will be able to use more advanced ways to work with Thorium and Uranium! These fuels are almost always the focus of the whole thing, with Plutonium coming in from time to time, but each new reactor will demand them to be supplied in a different way for things to work properly. The power generating reactors featured here are the LFTR, the THTR and the Naq-related reactors.\n\nFinally, this questline features many different multis and setups that are often unrelated to each other. Instead of forcing you to build a full LFTR setup before getting access to the THTR, for example, these quests will have simple required tasks, and simple rewards. The optional tasks will have the main expensive crafting, to guide you in building these setups if you\u0027re interested in them.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 835,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Improved Fission",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 3150,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

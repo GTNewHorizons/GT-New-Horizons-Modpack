@@ -1,0 +1,82 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1302
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "You may have noticed that the ME Interface\u0027s GUI is different that before. That is because with this card you can have more patterns, adding 9 more per card up to a total of 36. HOWEVER, it also uses 4 times the energy for every item when crafting, and this is multiplicative for each new card. If doing large crafts, make sure you have some dense energy cells ready.\n\nSo basically: (sum of amounts of items in the pattern) * config multiplier (which is 10 for GTNH). With cards, it\u0027s also multiplied by 4^(number of upgrades)\n\nE.g: (wood log -\u003e planks) in the interface w/o upgrades would draw: 1*10 AE units, which is 5 EU (remember 1 EU \u003d 2 AE)\n(9 charcoal -\u003e charcoal block) compressor recipe in the interface with 3 upgrades will draw 9*10*4^3*0.5 \u003d 2070 EU, but only 45EU without any cards\n\nThey\u0027re kind of expensive, so consider holding off if you can\u0027t afford the material or EU costs. If you remove it, all the extra patterns will pop out, so be careful of that when moving your stuff.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 54,
+        "OreDict:8": "",
+        "id:8": "appliedenergistics2:item.ItemMultiMaterial"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Moar Patterns!",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 2534,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 38,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      }
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnicianII"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 3,
+          "Damage:2": 54,
+          "OreDict:8": "",
+          "id:8": "appliedenergistics2:item.ItemMultiMaterial"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

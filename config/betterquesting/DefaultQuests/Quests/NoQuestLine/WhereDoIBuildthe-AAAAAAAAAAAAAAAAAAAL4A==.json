@@ -1,0 +1,42 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3039
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "If you read the Dyson Swarm Ground Unit\u0027s tooltip carefully (which you should), you might have noticed, that it mentions a \"dimension-dependent factor\". The dimension you build the Dyson Swarm multiblock in can greatly affect the real power output.\n\n§lSorted by factor (descending):§r\n§2337% - Horus\n231% - Barnarda C\n228% - Neper\n228% - α Centauri Bb\n211% - Mehen belt\n198% - Maahes\n198% - Seth\n198% - Vega B\n194% - Venus Space Stations\n181% - Anubis\n176% - Venus\n161% - Mercury\n141% - Barnarda E\n134% - T Ceti E\n126% - Barnarda F\n112% - Ross128b, Ross128ba\n110% - Earth Space Stations§r\n§6100% - Overworld, Moon§r\n[warn]89% - Mars Space Stations\n81% - Mars, Phobos, Deimos\n61% - Asteroids\n60% - Ceres\n48% - Jupiter Space Stations\n44% - Europa, Io, Ganymede\n36% - Saturn Space Stations\n32% - Enceladus, Titan, Callisto\n25% - Uranus Space Stations\n23% - Oberon, Proteus, Miranda\n20% - Neptune Space Stations\n18% - Triton\n16% - Pluto, Kuiper Belt\n15% - Makemake, Haumea\n1% - Garden, Mining and Void Worlds\n0% - All other dimensions[/warn]",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:writable_book"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Where Do I Build the Dyson Swarm?",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 3040,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

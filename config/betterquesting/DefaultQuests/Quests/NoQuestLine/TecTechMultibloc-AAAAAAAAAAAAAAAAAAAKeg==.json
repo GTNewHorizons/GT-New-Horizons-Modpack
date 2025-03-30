@@ -1,0 +1,42 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2005
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "TecTech Multiblock Common Functionality\n\nMultiple Ampere and Laser Hatches Compatibility - to ease power distribution.\n\nPower Pass - Allows connected dynamo hatches to take power from the controller and output it, just like the active transformer does (and that is why the controller always need it in its recipe if that function is enabled...). [warn]Be sure to turn off Power Pass if you want to edit your machine and don\u0027t want it to explode![/warn]\n\nConstructable Interface - Allows visualizing the structure with blueprints (there is an API to implement that for any block, but almost nothing does).\n\nFrom left to right is 1, then clockwise for the rest in TT multi interfaces.\n\n1) Parameters - They are the way of the controller to communicate with player and parameter hatches. Lights indicate status but more detailed information can be seen when moused over. The tooltip contains ID in form of HatchID:ParameterNumber:Direction, Current Status, Current Value, and Short Description.\n\n2) Uncertainty status - These 9 blocks indicate uncertainty status of the machine. If the lights are on, this machine requires an uncertainty resolver. Red \u003d Bad, Green \u003d Good. You need to do the absurd puzzle before using the machine.\n\nControl buttons - Buttons might change their behavior and appearance depending on machine but usually they work like this, starting from top:\n\n3) Power Pass - Toggles Power Pass.\n\n4) Safe Void - Currently unused.\n\n5) Power Switch - Soft Mallet with your finger...\n\n6) Input slot - Standard functionality.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "structurelib:item.structurelib.frontRotationTool"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "TecTech Multiblocks",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 2682,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 1,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1008
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "NEI has a built in search feature for finding an item stored in an inventory nearby. A Stockroom Catalog can give you a list of everything stored in your inventories.\n\nSneak-right-click a block with an inventory (a chest, bookcase, barrel, anything with an inventory) to add that inventory to the list of inventories for the catalog to keep track of.\n\nSneak-right-click the same block again to remove that block from the list.\n\nA small particle effect will render on any block that has been selected with the catalog when holding the Stockroom Catalog to let you know that block is being tracked.\n\nRight-click to open the GUI and see the list. You can sort the list in ascending or descending order by quantity (Count) or alphabetical order.\n\nYou can also see a list of all the inventories that have a particular item and easily add the location of one of those inventories to a stockroom catalog so you can easily find your stuff.\n\nThe Stockroom Catalog can also be copied with the typesetting table and printing press.\n\nClick on the title to change it to anything so you can custom label your stockroom catalog.\n\nClick on the small chest icons on the right hand side of each listing to open the inventory list view.\n\nIf you want, you can craft a waypoint compass and use that to point you towards the chest. Since we have JourneyMaps and NEI, it\u0027s not really necessary.\n\n[warn]The Catalog seems to be a bit broken though and doesn\u0027t work well with GT items.[/warn]",
+      "globalShare:1": 1,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "BiblioCraft:item.StockroomCatalog"
+      },
+      "isGlobal:1": 0,
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "§3§lA Better Way to Find Items",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 2026,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:chest"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "BiblioCraft:item.StockroomCatalog"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

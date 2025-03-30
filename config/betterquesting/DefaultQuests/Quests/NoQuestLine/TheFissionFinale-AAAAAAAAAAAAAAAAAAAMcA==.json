@@ -1,0 +1,46 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3185
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3198
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Here we are, at the end of fission.\n\nAt this time, you have more than entered the fusion tiers. In fact, the last fusion setups go as deep as t2 fusion, so you might be running both fission and fusion at the same time, although the latter is generally easier and more efficient once the structure is built.\n\nOne of the ultimate goals of fission is a filled HTGR, or its younger brother, the THTR, two very expensive multis that can grant you essentially infinite power or breeding products. However, the Naquadah Generator that has those excited nuclear fuels can do much more! The Naquadah fuel line is the reason why it was created, and it can replace t3 fusion and beyond by condensing powergen even more than fusion did, and replace the turbine spam.\n\nThose fuels aren\u0027t exactly nuclear fission, nor fusion, and more of a chemical line, so they were not included here. If interested, look at NEI to see what they have to offer.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2,
+        "OreDict:8": "",
+        "id:8": "miscutils:gtplusplus.blockcasings.4"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "The Fission Finale",
+      "questLogic:8": "OR",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 3184,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

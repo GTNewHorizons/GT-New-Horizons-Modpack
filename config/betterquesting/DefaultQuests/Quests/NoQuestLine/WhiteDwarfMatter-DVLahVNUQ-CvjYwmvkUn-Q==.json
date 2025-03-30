@@ -1,0 +1,52 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -7949765678093284760,
+      "questIDLow:4": -7384462910267243515
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Who knew that creating artificial solar systems would finally allow you to extract the core of a freshly dead star?\n\nWith your current crude casings, you can only accelerate the life of an artificial solar system to observe white dwarfs.\n\nPerhaps this matter will help you push the process even further.\n\n[note]This is one of the three EOH materials. Use it to upgrade your casings up to T4.[/note]",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 11585,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.metaitem.01"
+      },
+      "isMain:1": 1,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "White Dwarf Matter",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 960069936746873824,
+  "questIDLow:4": -5796823047327111175,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 144,
+          "FluidName:8": "molten.whitedwarfmatter"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

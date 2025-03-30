@@ -1,0 +1,77 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1225
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "The core block of Stacy\u0027s...er Steve\u0027s Factory Manager. SFM is a high tier automation system. While AE2 can handle a lot of different crafting tasks, SFM can handle even more complex crafting. It\u0027s not actually needed for the Assembly Line. But still, this is one place where you can go that route.\n\nInventory Cables connect the MIM to inventories or tanks.\n\nRight now until some Moron figures it out, your best bet is to experiment, ask for help on Discord, and search Google. The interface resembles most GUI based automation systems like LabView.\n\nThere have been TPS problems caused by poorly designed SFM setups. Make sure your outputs are properly emptied, and don\u0027t get filled.\n\nInventory cables are the \"basic\" cable of SFM. They allow the MIM to interact with an inventory, and act as a connector cable to other cables.\n\nmehdi2344 thinks my jokes suck, but he\u0027s an idiot, so there.\n\nThanks to Nori Silverrage for writing up these quests!\n\n[note]BTW, there\u0027s a Creative Supplier for creative testing. The Energistics Connector is disabled because it doesn\u0027t work correctly.[/note]",
+      "globalShare:1": 1,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "StevesFactoryManager:BlockMachineManagerName"
+      },
+      "isGlobal:1": 0,
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Machine Inventory Manager",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 1989,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 40,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "StevesFactoryManager:BlockCableName"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "StevesFactoryManager:BlockMachineManagerName"
+        },
+        "1:10": {
+          "Count:3": 24,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "StevesFactoryManager:BlockCableName"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

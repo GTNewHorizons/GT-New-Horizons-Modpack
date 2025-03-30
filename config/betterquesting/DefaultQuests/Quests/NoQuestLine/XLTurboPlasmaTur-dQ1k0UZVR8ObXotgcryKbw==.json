@@ -1,0 +1,89 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1200,
+      "type:1": 1
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2610
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Is plasma flow making the turbines spin? No, it\u0027s just water into steam into water, all recycled inside, 12 times over. Check the XL Steam Turbine quest above for an explanation of the mechanics shared across all turbines.\n\nThis turbine, unlike the others, has very important differences to the regular multi that you have to keep in mind. Given that plasma power is so easy to upscale with the use of compact reactors, XL Plasma Turbines would have to follow suit and bring progression\u0027s EU numbers to ridiculous degrees, off one single plasma. However, this XL now applies an EU/t penalty to its production by comparing the fuel value of the plasma it processes with the rotor material it has inside.\n\nSee [url]https://i.imgur.com/vifsk0P.png[/url] for various combinations of plasmas and materials. Mk1 plasmas are in green, Mk2 in yellow and Mk3 in red. The bottom 3 are the final plasmas of the fusion chains.\n\nThe formula is a bit complicated, but here are some important values:\n\n-\u003e Helium Plasma receives a huge penalty of 86.1% even with Infinity Catalyst, whereas Tin\u0027s penalty is only 53.5%, which means that the number of reactors and XLs with this material is twice the expected amount if using Tin Plasma;\n-\u003e Trinium changes these numbers to 92.4% and 74.5%, respectively;\n-\u003e Infinity further increases the penalty to 97.4% and 91.1%;\n-\u003e Spacetime sets these values to 98.3% and 94.4%.\n\nThis means that, at the UHV/UEV stage, you will no longer be able to rely on these two plasmas with your XLs. For 1-recipe plasmas, your best option is the mk3 Americium Plasma, which has an insignificant 0.8% penalty with Infinity. If you want faster powergen than that, check out the complete fusion chain that ends at Celestial Tungsten Plasma, which has no penalties in the XL Plasma Turbine and has total EU/t numbers compared to Helium\u0027s old ones. Check below for quests regarding the fusion chains.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 16397,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.metaitem.02"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "XL Turbo Plasma Turbine",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 8434508527125743555,
+  "questIDLow:4": -7251205103661839761,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 392,
+          "Damage:2": 4,
+          "OreDict:8": "",
+          "id:8": "miscutils:gtplusplus.blockspecialcasings.1"
+        },
+        "1:10": {
+          "Count:3": 30,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "miscutils:gtplusplus.blockspecialcasings.1"
+        },
+        "2:10": {
+          "Count:3": 12,
+          "Damage:2": 30010,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 31074,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

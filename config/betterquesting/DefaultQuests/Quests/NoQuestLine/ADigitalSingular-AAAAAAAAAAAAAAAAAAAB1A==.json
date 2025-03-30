@@ -1,0 +1,71 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 466
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2582
+    },
+    "2:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2665
+    },
+    "3:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2588
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "What? You filled up the Quantum storage cell? I hope it was with something better than Cobblestone. Anyway, you\u0027d better make something EVEN bigger then.\n\nHmm, adding even more storage capacity to a single cell would result in something so dense with information that it would just collapse into a singularity. So why not be smart about it? Just use an already existing singularity! Build a sturdy casing around it and add some connecting components, and you should be good. Better use an eternal singularity, though, to make sure things remain stable.\n\n[note]The Digital Singularity can store more than 4 quintillion items. If you manage to fill one up, please contact the dev team so that they can ban you for cheating... eh, I mean, congratulate you on your achievement, of course![/note]",
+      "globalShare:1": 1,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "appliedenergistics2:item.ItemExtremeStorageCell.Singularity",
+        "tag:10": {}
+      },
+      "isGlobal:1": 0,
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "A Digital Singularity",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 468,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "appliedenergistics2:item.ItemExtremeStorageCell.Singularity",
+          "tag:10": {}
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
