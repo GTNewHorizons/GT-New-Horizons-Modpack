@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "You\u0027ve been having strange visions lately... spires of gears and valves, spinning in an endless dance. You see things in these visions, technologies you do not fully comprehend.\n\nYou can create them, though. Pipeless steam... if such a thing were possible, you could accomplish almost anything.",
+      "desc:8": "You\u0027ve been having strange visions lately... spires of gears and valves, spinning in an endless dance. You see things in these visions, technologies you do not fully comprehend.\n\nYou can create them, though. Pipeless steam... if such a thing were possible, you could accomplish almost anything.\n\n[note]Use of the pipeless hatches will create a pipeless network, similar to a \"wireless network\", whatever that means. If you\u0027re in multiplayer, you may want to know these commands:\n\n/gt global_steam_display \u003cmember\u003e\n/gt global_steam_join \u003cmember to add\u003e \u003cteam member\u003e\n/gt global_steam_add \u003cmember\u003e \u003camount\u003e [type] \ntype \u003d (sc, sh, or type nothing for regular steam)\n/gt global_steam_set \u003cmember\u003e \u003camount\u003e [type]\n\n[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,

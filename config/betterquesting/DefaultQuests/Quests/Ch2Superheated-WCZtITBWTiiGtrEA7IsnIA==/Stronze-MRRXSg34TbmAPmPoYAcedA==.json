@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Stronze is an alloy of bronze and steel created in an alloy smelter. \n\nIt seems to be particularly good for fluid logistics and can be used to make much larger fluid pipes and hatches.\n\n[note]Output hatches made of Stronze can automatically output to inventories.[/note]",
+      "desc:8": "Stronze is an alloy of bronze and steel created in an alloy smelter. \n\nIt seems to be particularly good for fluid logistics and can be used to make much larger fluid pipes and hatches. It also can be used to make better tools.\n\n[note]Output hatches made of Stronze can automatically output to inventories.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -76,6 +76,20 @@
           "Damage:2": 5322,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 16,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metatool.01",
+          "tag:10": {
+            "GT.ToolStats:10": {
+              "MaxDamage:4": 404800,
+              "Mode:1": 0,
+              "PrimaryMaterial:8": "Stronze",
+              "SecondaryMaterial:8": "Stronze"
+            }
+          }
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

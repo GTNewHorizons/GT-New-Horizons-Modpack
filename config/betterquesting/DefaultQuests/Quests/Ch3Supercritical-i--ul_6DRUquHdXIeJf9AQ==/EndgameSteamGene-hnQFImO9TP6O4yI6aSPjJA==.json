@@ -1,25 +1,25 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": -107140350456083924,
-      "questIDLow:4": -5396412746099188854
+      "questIDHigh:4": 6603103465799634831,
+      "questIDLow:4": -5184782143841790392
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "You have a feeling that you\u0027ll need a lot more metal... time to build some megastructures.\n\nThis massive ore washer requires §csupercritical§r steam.",
+      "desc:8": "Is this really necessary? (Yes)",
       "globalShare:1": 0,
       "icon:10": {
-        "Count:3": 64,
-        "Damage:2": 31374,
+        "Count:3": 1,
+        "Damage:2": 31992,
         "OreDict:8": "",
         "id:8": "gregtech:gt.blockmachines"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "New Quest",
+      "name:8": "Endgame Steam Generation",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -30,8 +30,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": -7695442925993180070,
-  "questIDLow:4": -5990072280737153982,
+  "questIDHigh:4": -8758369730068394754,
+  "questIDLow:4": -8150633266343058652,
   "rewards:9": {},
   "tasks:9": {
     "0:10": {
@@ -44,7 +44,7 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 31374,
+          "Damage:2": 31992,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }
