@@ -12,7 +12,7 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 32246,
+        "Damage:2": 32254,
         "OreDict:8": "",
         "id:8": "gregtech:gt.metaitem.03"
       },
@@ -44,7 +44,7 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 32246,
+          "Damage:2": 32254,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.03"
         }
