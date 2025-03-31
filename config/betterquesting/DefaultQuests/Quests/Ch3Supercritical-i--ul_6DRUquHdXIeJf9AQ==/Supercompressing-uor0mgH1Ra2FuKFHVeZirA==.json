@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "You could probably compress things even further using this new supercritical steam... Perhaps a machine which can shoot highly pressurized jets of the stuff directly onto a material from multiple sides.\n\n§oThis machine can create Superdense Plates!",
+      "desc:8": "You could probably compress things even further using this new §csupercritical§r steam... Perhaps a machine which can shoot highly pressurized jets of the stuff directly onto a material from multiple sides.\n\n[note]§o§rThis machine can create Superdense Plates![/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
