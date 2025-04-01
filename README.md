@@ -185,6 +185,11 @@ play.arcturus-official.eu<BR>
 
 ### US/Canada Servers:<BR>
 
+Apocalyptic Gaming Network<BR>
+IP: GTNH.APOCGAMING.ORG<BR>
+SITE: https://apocgaming.org<BR>
+DISCORD: https://apocgaming.org/discord<BR>
+
 Prospercraft (greylist)<BR>
 http://www.prospercraft.com/ <BR>
 newhorizonsold.prospercraft.com<BR>
