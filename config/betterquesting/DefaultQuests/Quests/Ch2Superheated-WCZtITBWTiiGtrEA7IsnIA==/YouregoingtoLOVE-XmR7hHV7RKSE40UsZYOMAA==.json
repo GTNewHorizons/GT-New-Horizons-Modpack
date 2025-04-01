@@ -12,7 +12,7 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 32249,
+        "Damage:2": 32257,
         "OreDict:8": "",
         "id:8": "gregtech:gt.metaitem.03"
       },
@@ -44,31 +44,31 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 32249,
+          "Damage:2": 32257,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.03"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 32250,
+          "Damage:2": 32261,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.03"
         },
         "2:10": {
           "Count:3": 1,
-          "Damage:2": 32251,
+          "Damage:2": 32258,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.03"
         },
         "3:10": {
           "Count:3": 1,
-          "Damage:2": 32253,
+          "Damage:2": 32259,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.03"
         },
         "4:10": {
           "Count:3": 1,
-          "Damage:2": 32252,
+          "Damage:2": 32260,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.03"
         }
