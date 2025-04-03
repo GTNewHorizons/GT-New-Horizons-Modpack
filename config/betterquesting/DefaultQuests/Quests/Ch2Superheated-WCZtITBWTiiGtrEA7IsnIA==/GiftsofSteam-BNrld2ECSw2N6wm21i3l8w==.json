@@ -50,15 +50,21 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "StorageDrawers:controller"
+          "id:8": "ExtraUtilities:defoliageAxe"
         },
         "1:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "ExtraUtilities:angelRing"
+          "id:8": "StorageDrawers:controller"
         },
         "2:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "ExtraUtilities:angelRing"
+        },
+        "3:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
@@ -73,55 +79,55 @@
             }
           }
         },
-        "3:10": {
+        "4:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "ExtraUtilities:builderswand"
         },
-        "4:10": {
+        "5:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "ExtraUtilities:creativebuilderswand"
         },
-        "5:10": {
+        "6:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "IC2:itemToolbox"
         },
-        "6:10": {
+        "7:10": {
           "Count:3": 1,
           "Damage:2": 32727,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"
         },
-        "7:10": {
+        "8:10": {
           "Count:3": 1,
           "Damage:2": 100,
           "OreDict:8": "",
           "id:8": "Backpack:backpack"
         },
-        "8:10": {
+        "9:10": {
           "Count:3": 1,
           "Damage:2": 200,
           "OreDict:8": "",
           "id:8": "Backpack:backpack"
         },
-        "9:10": {
+        "10:10": {
           "Count:3": 1,
           "Damage:2": 32405,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"
         },
-        "10:10": {
+        "11:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "ExtraUtilities:magnumTorch"
         },
-        "11:10": {
+        "12:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
@@ -139,31 +145,31 @@
             }
           }
         },
-        "12:10": {
+        "13:10": {
           "Count:3": 1,
           "Damage:2": 5747,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         },
-        "13:10": {
+        "14:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "BinnieCore:storage"
         },
-        "14:10": {
+        "15:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "ExtraUtilities:trashcan"
         },
-        "15:10": {
+        "16:10": {
           "Count:3": 1,
           "Damage:2": 1,
           "OreDict:8": "",
           "id:8": "ExtraUtilities:trashcan"
         },
-        "16:10": {
+        "17:10": {
           "Count:3": 1,
           "Damage:2": 1,
           "OreDict:8": "",
@@ -174,7 +180,7 @@
             }
           }
         },
-        "17:10": {
+        "18:10": {
           "Count:3": 1,
           "Damage:2": 1,
           "OreDict:8": "",
