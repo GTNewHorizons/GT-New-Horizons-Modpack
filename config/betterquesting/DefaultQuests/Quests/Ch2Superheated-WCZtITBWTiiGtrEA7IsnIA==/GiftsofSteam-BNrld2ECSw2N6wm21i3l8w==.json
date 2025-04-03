@@ -1,0 +1,197 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 4683916517510693215,
+      "questIDLow:4": -4623250333306525865
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "To make the journey to the steamgate less painful, certain quality of life items are a little easier to craft than you may be used to. Check out this list to see what\u0027s available to you! Some is not available now, but will be later in the steam age.\n\nYou\u0027re welcome!\n\n[note]This is not an exhaustive list of all modified recipes, just the endpoints of useful QoL items that are normally not available in Steam Age.[/note]",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "OreDict:8": "",
+        "id:8": "TConstruct:heartCanister"
+      },
+      "isMain:1": 1,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Gifts of Steam",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 349844221966043917,
+  "questIDLow:4": -8220466013952678413,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "ExtraUtilities:defoliageAxe"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "StorageDrawers:controller"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "ExtraUtilities:angelRing"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "DraconicEvolution:magnet",
+          "tag:10": {
+            "ConfigProfiles:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {},
+              "4:10": {}
+            }
+          }
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "ExtraUtilities:builderswand"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "ExtraUtilities:creativebuilderswand"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "IC2:itemToolbox"
+        },
+        "7:10": {
+          "Count:3": 1,
+          "Damage:2": 32727,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "8:10": {
+          "Count:3": 1,
+          "Damage:2": 100,
+          "OreDict:8": "",
+          "id:8": "Backpack:backpack"
+        },
+        "9:10": {
+          "Count:3": 1,
+          "Damage:2": 200,
+          "OreDict:8": "",
+          "id:8": "Backpack:backpack"
+        },
+        "10:10": {
+          "Count:3": 1,
+          "Damage:2": 32405,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "11:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "ExtraUtilities:magnumTorch"
+        },
+        "12:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "TConstruct:travelGlove",
+          "tag:10": {
+            "TinkerAccessory:10": {
+              "BaseDurability:3": 500,
+              "BonusDurability:3": 0,
+              "Broken:1": 0,
+              "Built:1": 1,
+              "Damage:3": 0,
+              "ModDurability:5": 0.0,
+              "Modifiers:3": 5,
+              "TotalDurability:3": 500
+            }
+          }
+        },
+        "13:10": {
+          "Count:3": 1,
+          "Damage:2": 5747,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        },
+        "14:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "BinnieCore:storage"
+        },
+        "15:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "ExtraUtilities:trashcan"
+        },
+        "16:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "OreDict:8": "",
+          "id:8": "ExtraUtilities:trashcan"
+        },
+        "17:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "OreDict:8": "",
+          "id:8": "RandomThings:dropFilter",
+          "tag:10": {
+            "Inventory:10": {
+              "Items:9": {}
+            }
+          }
+        },
+        "18:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "OreDict:8": "",
+          "id:8": "RandomThings:filter",
+          "tag:10": {
+            "metadata:1": 1,
+            "oreDict:1": 0
+          }
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}
