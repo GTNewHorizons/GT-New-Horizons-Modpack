@@ -1,6 +1,6 @@
 {
   "name": "builtin:loot",
   "inherit": [
-    "loot:custom"
+    "loot_all"
   ]
 }
