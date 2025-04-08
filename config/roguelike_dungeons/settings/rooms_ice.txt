@@ -74,6 +74,7 @@
 				{"mode": "single", "type": "OBSIDIAN"},
 				{"mode": "single", "type": "NETHERFORT"},
 				{"mode": "single", "type": "FIRE"},
+				{"mode": "single", "type": "REWARD"},
                 		{"mode": "single", "type": "SPIDER"},
                 		{"mode": "single", "type": "OBSIDIAN"},
                 		{"mode": "secret", "type": "CAKE"},
