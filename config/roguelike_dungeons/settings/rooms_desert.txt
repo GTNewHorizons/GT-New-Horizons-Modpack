@@ -70,6 +70,7 @@
 		"4": {
 			"rooms": [
 				{"mode": "single", "type": "OBSIDIAN"},
+				{"mode": "single", "type": "REWARD"},
 				{"mode": "single", "type": "NETHERFORT"},
 				{"mode": "single", "type": "FIRE"},
                 		{"mode": "single", "type": "SPIDER"},
