@@ -1,14 +1,6 @@
 {
   "name": "loot_reward",
   "loot_rules": [
-    {"level": [5], "type": "ORE", "each": true, "quantity": 1, "loot": [{"data": {"name": "minecraft:dye", "meta": 4, "min": 2, "max": 3}}]},
-    {"level": [5], "type": "ORE", "each": true, "quantity": 1, "loot": [{"data": {"name": "minecraft:dye", "meta": 4, "min": 2, "max": 3}}]},
-    {"level": [5], "type": "ORE", "each": true, "quantity": 4, "loot": [
-        {"data": {"name": "minecraft:dye", "meta": 4, "min": 2, "max": 3}, "weight": 2},
-        {"data": {"name": "minecraft:dye", "meta": 4, "min": 2, "max": 3}, "weight": 1}
-      ]
-    },
-
 	{"level": 0, "type": "REWARD", "each": true, "quantity": 1, "loot": [
 		{"data": {"name": "minecraft:spawn_egg", "meta": 99, "min": 2, "max": 3}, "weight": 10},
 		{"data": {"name": "ExtraUtilities:golden_lasso", "meta": 0}, "weight": 10},
