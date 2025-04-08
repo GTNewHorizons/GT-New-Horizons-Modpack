@@ -22,11 +22,7 @@
       ]
     },
 	{"level": [0, 1, 2, 3, 4], "type": "STARTER", "each": true, "quantity": 1, "loot": [
-		{"data": {"name": "minecraft:stone_sword", "meta": 0}, "weight": 1},
-		{"data": {"name": "battlegear2:dagger.stone", "meta": 0}, "weight": 1},
-		{"data": {"name": "battlegear2:spear.stone", "meta": 0}, "weight": 1},
-		{"data": {"name": "battlegear2:waraxe.stone", "meta": 0}, "weight": 1},
-		{"data": {"name": "battlegear2:mace.stone", "meta": 0}, "weight": 1}
+		{"data": {"name": "minecraft:stone_sword", "meta": 0}, "weight": 1}
 
       ]
     },
