@@ -1,14 +1,6 @@
 {
   "name": "loot_junk",
   "loot_rules": [
-    {"level": [5], "type": "ORE", "each": true, "quantity": 1, "loot": [{"data": {"name": "minecraft:dye", "meta": 4, "min": 2, "max": 3}}]},
-    {"level": [5], "type": "ORE", "each": true, "quantity": 1, "loot": [{"data": {"name": "minecraft:dye", "meta": 4, "min": 2, "max": 3}}]},
-    {"level": [5], "type": "ORE", "each": true, "quantity": 4, "loot": [
-        {"data": {"name": "minecraft:dye", "meta": 4, "min": 2, "max": 3}, "weight": 2},
-        {"data": {"name": "minecraft:dye", "meta": 4, "min": 2, "max": 3}, "weight": 1}
-      ]
-    },
-
 	{"level": 0, "each": true, "quantity": 8, "loot": [
 		{"data": {"name": "minecraft:clay_ball", "meta": 0, "min": 3, "max": 7}, "weight": 30},
 		{"data": {"name": "minecraft:reeds", "meta": 0, "min": 3, "max": 5}, "weight": 30},
