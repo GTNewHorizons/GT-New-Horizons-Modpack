@@ -1,14 +1,6 @@
 {
 	"name": "loot_music",
 	"loot_rules": [
-		{"level": [5], "type": "BLOCKS", "each": true, "quantity": 1, "loot": [{"data": {"name": "minecraft:dye", "meta": 4, "min": 2, "max": 3}}]},
-		{"level": [5], "type": "BLOCKS", "each": true, "quantity": 1, "loot": [{"data": {"name": "minecraft:dye", "meta": 4, "min": 2, "max": 3}}]},
-		{"level": [5], "type": "BLOCKS", "each": true, "quantity": 4, "loot": [
-			{"data": {"name": "minecraft:dye", "meta": 4, "min": 2, "max": 3}, "weight": 2},
-			{"data": {"name": "minecraft:dye", "meta": 4, "min": 2, "max": 3}, "weight": 1}
-	]
-    },
-
 	{"level": [0, 1, 2, 3, 4], "type": "MUSIC", "each": true, "quantity": 1, "loot": [
 		{"data": {"name": "minecraft:record_11", "meta": 0}, "weight": 10},
 		{"data": {"name": "minecraft:record_13", "meta": 0}, "weight": 10},
