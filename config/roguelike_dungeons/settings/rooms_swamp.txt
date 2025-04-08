@@ -78,6 +78,7 @@
 				{"mode": "random", "type": "NETHER", "weight" : 20},
 				{"mode": "random", "type": "DARKHALL", "weight" : 30},
 				{"mode": "random", "type": "ENIKO", "weight" : 40},
+				{"mode": "single", "type": "REWARD"},
 				{"mode": "random", "type": "MUSIC", "weight" : 3}
 			]
 		}
