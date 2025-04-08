@@ -40,8 +40,7 @@
 		{"data": {"name": "minecraft:leather_chestplate", "meta": 0}, "weight": 10},
 		{"data": {"name": "minecraft:leather_helmet", "meta": 0}, "weight": 10},
 		{"data": {"name": "minecraft:leather_leggings", "meta": 0}, "weight": 10},
-		{"data": {"name": "TConstruct:slime_boots", "meta": 0}, "weight": 4},
-		{"data": {"name": "battlegear2:shield.wood", "meta": 0}, "weight": 15}
+		{"data": {"name": "TConstruct:slime_boots", "meta": 0}, "weight": 4}
 
       ]
     },
@@ -65,8 +64,7 @@
 		{"data": {"name": "minecraft:iron_boots", "meta": 0}, "weight": 8},
 		{"data": {"name": "minecraft:iron_chestplate", "meta": 0}, "weight": 8},
 		{"data": {"name": "minecraft:iron_helmet", "meta": 0}, "weight": 8},
-		{"data": {"name": "minecraft:iron_leggings", "meta": 0}, "weight": 8},
-		{"data": {"name": "battlegear2:shield.hide", "meta": 0}, "weight": 15}
+		{"data": {"name": "minecraft:iron_leggings", "meta": 0}, "weight": 8}
     ]
     },
     {"level": 2, "type": "ARMOUR", "each": true, "quantity": 4, "loot": [
@@ -85,8 +83,7 @@
 		{"data": {"name": "minecraft:iron_boots", "meta": 0}, "weight": 8},
 		{"data": {"name": "minecraft:iron_chestplate", "meta": 0}, "weight": 8},
 		{"data": {"name": "minecraft:iron_helmet", "meta": 0}, "weight": 8},
-		{"data": {"name": "minecraft:iron_leggings", "meta": 0}, "weight": 8},
-		{"data": {"name": "battlegear2:shield.gold", "meta": 0}, "weight": 15}
+		{"data": {"name": "minecraft:iron_leggings", "meta": 0}, "weight": 8}
       ]
     },
     {"level": 3, "type": "ARMOUR", "each": true, "quantity": 4, "loot": [
@@ -101,8 +98,7 @@
 		{"data": {"name": "minecraft:iron_boots", "meta": 0}, "weight": 20},
 		{"data": {"name": "minecraft:iron_chestplate", "meta": 0}, "weight": 20},
 		{"data": {"name": "minecraft:iron_helmet", "meta": 0}, "weight": 20},
-		{"data": {"name": "minecraft:iron_leggings", "meta": 0}, "weight": 20},
-		{"data": {"name": "battlegear2:shield.iron", "meta": 0}, "weight": 15}
+		{"data": {"name": "minecraft:iron_leggings", "meta": 0}, "weight": 20}
     ]
     },
     {
@@ -118,8 +114,7 @@
 		{"data": {"name": "minecraft:diamond_boots", "meta": 0}, "weight": 20},
 		{"data": {"name": "minecraft:diamond_chestplate", "meta": 0}, "weight": 20},
 		{"data": {"name": "minecraft:diamond_helmet", "meta": 0}, "weight": 20},
-		{"data": {"name": "minecraft:diamond_leggings", "meta": 0}, "weight": 20},
-		{"data": {"name": "battlegear2:shield.diamond", "meta": 0}, "weight": 15}
+		{"data": {"name": "minecraft:diamond_leggings", "meta": 0}, "weight": 20}
       ]
     }
   ]
