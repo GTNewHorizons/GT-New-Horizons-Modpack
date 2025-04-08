@@ -77,6 +77,7 @@
                 		{"mode": "single", "type": "SPIDER"},
                 		{"mode": "single", "type": "OBSIDIAN"},
                 		{"mode": "secret", "type": "CAKE"},
+				{"mode": "single", "type": "REWARD"},
 				{"mode": "single", "type": "MESS"},
 				{"mode": "random", "type": "SPIDER", "weight" : 8},
 				{"mode": "random", "type": "NETHER", "weight" : 20},
