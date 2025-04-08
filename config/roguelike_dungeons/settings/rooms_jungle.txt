@@ -1,0 +1,85 @@
+{
+	"name": "rooms_jungle",
+	"levels": {
+		"0": {
+			"rooms": [
+				{"mode": "single", "type": "REWARD"},
+				{"mode": "single", "type": "STORAGE"},
+				{"mode": "single", "type": "STORAGE"},
+                		{"mode": "single", "type": "CAKE"},
+                		{"mode": "single", "type": "MUSIC"},
+				{"mode": "random", "type": "ENIKO", "weight" : 45},
+				{"mode": "random", "type": "CORNER", "weight" : 15},
+				{"mode": "random", "type": "LAB", "weight" : 3},
+				{"mode": "random", "type": "LIBRARY", "weight" : 2},
+				{"mode": "random", "type": "SLIME", "weight" : 8},
+                		{"mode": "secret", "type": "BEDROOM"}
+			]
+		},
+		"1": {
+			"rooms": [
+				{"mode": "single", "type": "REWARD"},
+				{"mode": "single", "type": "MESS"},
+				{"mode": "single", "type": "CREEPER"},
+                		{"mode": "single", "type": "PIT"},
+                		{"mode": "secret", "type": "MUSIC"},
+				{"mode": "random", "type": "ENIKO", "weight" : 35},
+				{"mode": "random", "type": "CORNER", "weight" : 20},
+				{"mode": "random", "type": "MUSIC", "weight" : 2},
+				{"mode": "random", "type": "SLIME", "weight" : 4}
+		
+			]
+		},
+		"2": {
+			"rooms": [
+				{"mode": "single", "type": "REWARD"},
+				{"mode": "single", "type": "OSSUARY"},
+				{"mode": "single", "type": "CREEPER"},
+                		{"mode": "single", "type": "SPIDER"},
+                		{"mode": "single", "type": "PRISON"},
+                		{"mode": "single", "type": "CRYPT"},
+                		{"mode": "single", "type": "MESS"},
+				{"mode": "random", "type": "CRYPT", "weight" : 35},
+				{"mode": "random", "type": "ENIKO", "weight" : 10},
+				{"mode": "random", "type": "CORNER", "weight" : 10},
+				{"mode": "random", "type": "LAB", "weight" : 5},
+				{"mode": "random", "type": "MUSIC", "weight" : 2},
+				{"mode": "secret", "type": "AVIDYA"}
+		
+			]
+		},
+		"3": {
+			"rooms": [
+				{"mode": "single", "type": "REWARD"},
+				{"mode": "single", "type": "OSSUARY"},
+				{"mode": "single", "type": "CREEPER"},
+                		{"mode": "single", "type": "SPIDER"},
+                		{"mode": "single", "type": "CRYPT"},
+                		{"mode": "secret", "type": "MESS"},
+                		{"mode": "single", "type": "ENCHANT"},
+				{"mode": "random", "type": "SLIME", "weight" : 35},
+				{"mode": "random", "type": "PRISON", "weight" : 20},
+				{"mode": "random", "type": "ENIKO", "weight" : 15},
+				{"mode": "random", "type": "MUSIC", "weight" : 2},
+				{"mode": "random", "type": "LAB", "weight" : 5}
+		
+			]
+		},
+		"4": {
+			"rooms": [
+				{"mode": "single", "type": "OBSIDIAN"},
+				{"mode": "single", "type": "NETHERFORT"},
+				{"mode": "single", "type": "FIRE"},
+                		{"mode": "single", "type": "SPIDER"},
+                		{"mode": "single", "type": "OBSIDIAN"},
+                		{"mode": "secret", "type": "CAKE"},
+				{"mode": "single", "type": "MESS"},
+				{"mode": "random", "type": "SPIDER", "weight" : 8},
+				{"mode": "random", "type": "NETHER", "weight" : 20},
+				{"mode": "random", "type": "DARKHALL", "weight" : 30},
+				{"mode": "random", "type": "ENIKO", "weight" : 40},
+				{"mode": "random", "type": "MUSIC", "weight" : 3}
+			]
+		}
+	}
+}

@@ -1,0 +1,8 @@
+// This file replaces the builtin loot with custom loot
+// This works by replacing the ID for the builtin loot with a new definition.
+{
+  "name": "builtin:loot",
+  "inherit": [
+    "loot:custom"
+  ]
+}

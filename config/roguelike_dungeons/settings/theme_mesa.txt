@@ -1,0 +1,81 @@
+{
+    "name": "theme_mesa",
+    "levels": {
+        "0": {
+            "theme": {
+                "base": "ETHO"
+            }
+        },
+        "1": {
+            "theme": {
+                "base": "MINESHAFT"
+            }
+        },
+        "2": {
+            "theme": {
+                "base": "MINESHAFT"
+            }
+        },
+        "3": {
+            "theme": {
+                "base": "SEWER"
+            }
+        },
+        "4": {
+            "theme": {
+                "base": "CAVE",
+			"primary" : {
+				"walls" : {
+					"type" : "WEIGHTED",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "etfuturum:deepslate_bricks"}, "weight" : 100},
+						{"type" : "METABLOCK", "data" : {"name" : "etfuturum:deepslate_bricks", "meta" : "1"}, "weight" : 4},
+						{"type" : "METABLOCK", "data" : {"name" : "etfuturum:deepslate_bricks", "meta" : "4"}, "weight" : 4},
+						{"type" : "METABLOCK", "data" : {"name" : "etfuturum:deepslate_copper_ore", "meta" : 1}, "weight" : 1},
+						{"type" : "METABLOCK", "data" : {"name" : "etfuturum:deepslate_diamond_ore", "meta" : 2}, "weight" : 1}
+						]
+					},
+					"pillar" : {
+						"type" : "METABLOCK",
+						"data" : {
+							"name" : "etfuturum:polished_deepslate",
+							"meta" : "0"
+						}
+					},
+					"floor" : {
+						"type" : "METABLOCK",
+						"data" : {
+							"name" : "etfuturum:sculk",
+							"meta" : "0"
+						}
+					},
+					"stair" : {
+						"type" : "METABLOCK",
+						"data" : {
+							"name" : "etfuturum:deepslate_brick_stairs"
+						}
+					}
+				},
+			"secondary" : {
+				"walls" : {
+					"type" : "METABLOCK",
+					"data" : {
+						"name" : "etfuturum:deepslate_bricks",
+						"meta" : "2"
+						}
+					},
+					"pillar" : {
+						"type" : "METABLOCK",
+						"data" : {
+							"name" : "etfuturum:polished_deepslate",
+							"meta" : "2"
+						}
+					},
+					"stair" : {
+						"type" : "METABLOCK",
+						"data" : {
+							"name" : "etfuturum:deepslate_brick_stairs"
+            }
+        }
+    }
+}}}}
