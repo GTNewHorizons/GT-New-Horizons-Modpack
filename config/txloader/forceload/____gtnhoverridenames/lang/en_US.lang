@@ -585,6 +585,12 @@ tile.blockTaintFibres.name=Taint
 tile.blockTube.name=Essentia Tube
 tile.blockWarded.name=Warded Block
 tile.blockWoodenDevice.name=Wooden Device
+item.WandCap.7.name=Charged Void Metal Cap
+item.WandCap.8.name=Inert Void Metal Cap
+item.ItemResource.16.name=Void Metal Ingot
+item.ItemNugget.7.name=Void Metal Nugget
+tc.research_name.VOIDMETAL=Void Metal
+tc.research_name.CAP_void=Void Metal Wand Caps
 
 # thaumcraftneiplugin
 item.itemAspect.name=Aspect
