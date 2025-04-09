@@ -1,0 +1,179 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 741
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "By making a scythe you are now able to clear 3x3 blocks of vegetation, and to harvest 5x5 tiles of crops! The harvesting ability works on most non-magical crops, including IC2 crops! Keep in mind this scythe will harvest IC2 crops even if they are not fully mature.\n\n§6The quest should accept the tool whatever materials you used.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "TConstruct:scythe",
+        "tag:10": {
+          "InfiTool:10": {
+            "Accessory:3": 16,
+            "Attack:3": 7,
+            "BaseAttack:3": 7,
+            "BaseDurability:3": 2339,
+            "BonusDurability:3": 0,
+            "Broken:1": 0,
+            "Built:1": 1,
+            "Damage:3": 0,
+            "Extra:3": 16,
+            "Handle:3": 16,
+            "HarvestLevel:3": 5,
+            "Head:3": 16,
+            "MiningSpeed:3": 700,
+            "ModDurability:5": 0.0,
+            "Modifiers:3": 0,
+            "RenderAccessory:3": 16,
+            "RenderExtra:3": 16,
+            "RenderHandle:3": 16,
+            "RenderHead:3": 16,
+            "Shoddy:5": 0.0,
+            "ToolEXP:4": 0,
+            "ToolLevel:3": 1,
+            "TotalDurability:3": 2339,
+            "Unbreaking:3": 2
+          },
+          "display:10": {
+            "Name:8": "§fSteel Scythe"
+          }
+        }
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Handpicking Crops is So Old School",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 5764157890012922125,
+  "questIDLow:4": -4815840969987309766,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      }
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 10,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinSmith"
+        },
+        "1:10": {
+          "Count:3": 10,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnician"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 18,
+          "OreDict:8": "",
+          "id:8": "TConstruct:metalPattern"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 15,
+          "OreDict:8": "",
+          "id:8": "TConstruct:metalPattern"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 14,
+          "OreDict:8": "",
+          "id:8": "TConstruct:metalPattern"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "TConstruct:scythe",
+          "tag:10": {
+            "InfiTool:10": {
+              "Accessory:3": 16,
+              "Attack:3": 7,
+              "BaseAttack:3": 7,
+              "BaseDurability:3": 2339,
+              "BonusDurability:3": 0,
+              "Broken:1": 0,
+              "Built:1": 1,
+              "Damage:3": 0,
+              "Extra:3": 16,
+              "Handle:3": 16,
+              "HarvestLevel:3": 5,
+              "Head:3": 16,
+              "MiningSpeed:3": 700,
+              "ModDurability:5": 0.0,
+              "Modifiers:3": 0,
+              "RenderAccessory:3": 16,
+              "RenderExtra:3": 16,
+              "RenderHandle:3": 16,
+              "RenderHead:3": 16,
+              "Shoddy:5": 0.0,
+              "ToolEXP:4": 0,
+              "ToolLevel:3": 1,
+              "TotalDurability:3": 2339,
+              "Unbreaking:3": 2
+            },
+            "display:10": {
+              "Name:8": "Scythe"
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
