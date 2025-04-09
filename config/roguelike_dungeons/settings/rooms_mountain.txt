@@ -1,0 +1,89 @@
+{
+"name": "rooms_mountain",
+	"levels": {
+		"0": {
+			"rooms": [
+				{"mode": "single", "type": "REWARD"},
+				{"mode": "single", "type": "STORAGE"},
+				{"mode": "single", "type": "STORAGE"},
+                		{"mode": "single", "type": "CAKE"},
+                		{"mode": "secret", "type": "MUSIC"},
+                		{"mode": "single", "type": "AVIDYA"},
+				{"mode": "random", "type": "BRICK", "weight" : 35},
+				{"mode": "random", "type": "CORNER", "weight" : 15},
+				{"mode": "random", "type": "ETHO", "weight" : 3},
+				{"mode": "random", "type": "LIBRARY", "weight" : 12},
+				{"mode": "random", "type": "DARKHALL", "weight" : 2},
+                		{"mode": "secret", "type": "BEDROOM"}
+			]
+		},
+		"1": {
+			"rooms": [
+				{"mode": "single", "type": "REWARD"},
+				{"mode": "single", "type": "MESS"},
+				{"mode": "single", "type": "CREEPER"},
+                		{"mode": "single", "type": "PIT"},
+                		{"mode": "secret", "type": "MUSIC"},
+                		{"mode": "single", "type": "ENCHANT"},
+				{"mode": "random", "type": "BRICK", "weight" : 35},
+				{"mode": "random", "type": "CORNER", "weight" : 20},
+				{"mode": "random", "type": "MUSIC", "weight" : 2},
+				{"mode": "random", "type": "FIRE", "weight" : 2},
+				{"mode": "random", "type": "LIBRARY", "weight" : 12}
+		
+			]
+		},
+		"2": {
+			"rooms": [
+				{"mode": "single", "type": "REWARD"},
+				{"mode": "single", "type": "OSSUARY"},
+				{"mode": "single", "type": "CREEPER"},
+                		{"mode": "single", "type": "SPIDER"},
+                		{"mode": "single", "type": "PRISON"},
+                		{"mode": "single", "type": "CRYPT"},
+                		{"mode": "single", "type": "MESS"},
+                		{"mode": "single", "type": "BTEAM"},
+				{"mode": "random", "type": "CRYPT", "weight" : 35},
+				{"mode": "random", "type": "CORNER", "weight" : 10},
+				{"mode": "random", "type": "OSSUARY", "weight" : 5},
+				{"mode": "random", "type": "LIBRARY", "weight" : 5},
+				{"mode": "random", "type": "MUSIC", "weight" : 2},
+				{"mode": "secret", "type": "AVIDYA"}
+		
+			]
+		},
+		"3": {
+			"rooms": [
+				{"mode": "single", "type": "REWARD"},
+				{"mode": "single", "type": "OSSUARY"},
+				{"mode": "single", "type": "CREEPER"},
+                		{"mode": "single", "type": "SPIDER"},
+                		{"mode": "single", "type": "CRYPT"},
+                		{"mode": "secret", "type": "MESS"},
+				{"mode": "random", "type": "SLIME", "weight" : 35},
+				{"mode": "random", "type": "PRISON", "weight" : 20},
+				{"mode": "random", "type": "BRICK", "weight" : 15},
+				{"mode": "random", "type": "MUSIC", "weight" : 2},
+				{"mode": "random", "type": "CREEPER", "weight" : 5}
+		
+			]
+		},
+		"4": {
+			"rooms": [
+				{"mode": "single", "type": "OBSIDIAN"},
+				{"mode": "single", "type": "NETHERFORT"},
+				{"mode": "single", "type": "FIRE"},
+                		{"mode": "single", "type": "SPIDER"},
+                		{"mode": "single", "type": "OBSIDIAN"},
+                		{"mode": "secret", "type": "CAKE"},
+				{"mode": "single", "type": "REWARD"},
+				{"mode": "single", "type": "MESS"},
+				{"mode": "random", "type": "SPIDER", "weight" : 8},
+				{"mode": "random", "type": "NETHER", "weight" : 20},
+				{"mode": "random", "type": "DARKHALL", "weight" : 30},
+				{"mode": "random", "type": "BRICK", "weight" : 40},
+				{"mode": "random", "type": "MUSIC", "weight" : 3}
+			]
+		}
+	}
+}

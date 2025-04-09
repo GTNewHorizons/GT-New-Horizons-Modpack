@@ -1,0 +1,141 @@
+{
+	"name": "loot_tools",
+	"loot_rules": [
+	{"level": [0, 1, 2, 3, 4], "type": "TOOLS", "each": true, "quantity": 2, "loot": [
+		{"data": {"name": "berriespp:itemSpade", "meta": 0}, "weight": 1},
+		{"data": {"name": "berriespp:itemlens", "meta": 0}, "weight": 1},
+		{"data": {"name": "minecraft:flint_and_steel", "meta": 0}, "weight": 1},
+		{"data": {"name": "minecraft:fishing_rod", "meta": 0}, "weight": 1},
+		{"data": {"name": "minecraft:shears", "meta": 0}, "weight": 1},
+		{"data": {"name": "minecraft:lead", "meta": 0}, "weight": 1},
+		{"data": {"name": "minecraft:clock", "meta": 0}, "weight": 1},
+		{"data": {"name": "minecraft:bucket", "meta": 0}, "weight": 1},
+		{"data": {"name": "IguanaTweaksTConstruct:clayBucketFired", "meta": 0}, "weight": 1},
+		{"data": {"name": "IC2:itemTreetap", "meta": 0}, "weight": 1},
+		{"data": {"name": "SpiceOfLife:lunchbox", "meta": 0}, "weight": 1},
+		{"data": {"name": "SpiceOfLife:lunchbag", "meta": 0}, "weight": 1},
+		{"data": {"name": "harvestcraft:mixingbowlItem", "meta": 0}, "weight": 1},
+		{"data": {"name": "harvestcraft:potItem", "meta": 0}, "weight": 1},
+		{"data": {"name": "harvestcraft:saucepanItem", "meta": 0}, "weight": 1},
+		{"data": {"name": "harvestcraft:skillitItem", "meta": 0}, "weight": 1},
+		{"data": {"name": "Forestry:scoop", "meta": 0}, "weight": 1},
+		{"data": {"name": "BiomesOPlenty:scytheDiamond", "meta": 0}, "weight": 1},
+		{"data": {"name": "ifu:ifu_buildingKit", "meta": 10}, "weight": 1},
+		{"data": {"name": "gregtech:gt.metatool.01", "meta": 12}, "weight": 1},
+		{"data": {"name": "gregtech:gt.metatool.01", "meta": 10}, "weight": 1},
+		{"data": {"name": "gregtech:gt.metatool.01", "meta": 18}, "weight": 1},
+		{"data": {"name": "gregtech:gt.metatool.01", "meta": 16}, "weight": 1},
+		{"data": {"name": "gregtech:gt.metatool.01", "meta": 20}, "weight": 1},
+		{"data": {"name": "gregtech:gt.metatool.01", "meta": 36}, "weight": 1},
+		{"data": {"name": "gregtech:gt.metatool.01", "meta": 22}, "weight": 1},
+		{"data": {"name": "gregtech:gt.metatool.01", "meta": 34}, "weight": 1},
+		{"data": {"name": "gregtech:gt.metatool.01", "meta": 14}, "weight": 1},
+		{"data": {"name": "gregtech:gt.metatool.01", "meta": 44}, "weight": 1},
+		{"data": {"name": "gregtech:gt.metatool.01", "meta": 26}, "weight": 1},
+		{"data": {"name": "gregtech:gt.metatool.01", "meta": 46}, "weight": 1},
+		{"data": {"name": "gregtech:gt.metatool.01", "meta": 24}, "weight": 1},
+		{"data": {"name": "BiomesOPlenty:scytheDiamond", "meta": 0}, "weight": 1}
+
+      ]
+    },
+	{"level": 0, "type": "TOOLS", "each": true, "quantity": 2, "loot": [
+		{"data": {"name": "TConstruct:binding", "meta": 0}, "weight": 1},
+		{"data": {"name": "TConstruct:binding", "meta": 3}, "weight": 1},
+		{"data": {"name": "TConstruct:binding", "meta": 4}, "weight": 1},
+		{"data": {"name": "TConstruct:toolRod", "meta": 0}, "weight": 1},
+		{"data": {"name": "TConstruct:toolRod", "meta": 3}, "weight": 1},
+		{"data": {"name": "TConstruct:toolRod", "meta": 4}, "weight": 1},
+		{"data": {"name": "TConstruct:hatchetHead", "meta": 0}, "weight": 1},
+		{"data": {"name": "TConstruct:hatchetHead", "meta": 3}, "weight": 1},
+		{"data": {"name": "TConstruct:hatchetHead", "meta": 4}, "weight": 1},
+		{"data": {"name": "TConstruct:shovelHead", "meta": 0}, "weight": 1},
+		{"data": {"name": "TConstruct:shovelHead", "meta": 3}, "weight": 1},
+		{"data": {"name": "TConstruct:shovelHead", "meta": 4}, "weight": 1}
+
+      ]
+    },
+    {"level": 1, "type": "TOOLS", "each": true, "quantity": 2, "loot": [
+		{"data": {"name": "TConstruct:binding", "meta": 14}, "weight": 1},
+		{"data": {"name": "TConstruct:binding", "meta": 18}, "weight": 1},
+		{"data": {"name": "TConstruct:binding", "meta": 2}, "weight": 1},
+		{"data": {"name": "TConstruct:toolRod", "meta": 14}, "weight": 1},
+		{"data": {"name": "TConstruct:toolRod", "meta": 18}, "weight": 1},
+		{"data": {"name": "TConstruct:toolRod", "meta": 2}, "weight": 1},
+		{"data": {"name": "TConstruct:hatchetHead", "meta": 14}, "weight": 1},
+		{"data": {"name": "TConstruct:hatchetHead", "meta": 18}, "weight": 1},
+		{"data": {"name": "TConstruct:hatchetHead", "meta": 2}, "weight": 1},
+		{"data": {"name": "TConstruct:shovelHead", "meta": 14}, "weight": 1},
+		{"data": {"name": "TConstruct:shovelHead", "meta": 18}, "weight": 1},
+		{"data": {"name": "TConstruct:shovelHead", "meta": 2}, "weight": 1}
+
+    ]
+    },
+    {"level": 2, "type": "TOOLS", "each": true, "quantity": 2, "loot": [
+		{"data": {"name": "TConstruct:binding", "meta": 6}, "weight": 1},
+		{"data": {"name": "TConstruct:binding", "meta": 202}, "weight": 1},
+		{"data": {"name": "TConstruct:binding", "meta": 1595}, "weight": 1},
+		{"data": {"name": "TConstruct:toolRod", "meta": 6}, "weight": 1},
+		{"data": {"name": "TConstruct:toolRod", "meta": 202}, "weight": 1},
+		{"data": {"name": "TConstruct:toolRod", "meta": 1595}, "weight": 1},
+		{"data": {"name": "TConstruct:hatchetHead", "meta": 6}, "weight": 1},
+		{"data": {"name": "TConstruct:hatchetHead", "meta": 202}, "weight": 1},
+		{"data": {"name": "TConstruct:hatchetHead", "meta": 1595}, "weight": 1},
+		{"data": {"name": "TConstruct:shovelHead", "meta": 6}, "weight": 1},
+		{"data": {"name": "TConstruct:shovelHead", "meta": 202}, "weight": 1},
+		{"data": {"name": "TConstruct:shovelHead", "meta": 1595}, "weight": 1},
+		{"data": {"name": "TConstruct:toughRod", "meta": 6}, "weight": 1},
+		{"data": {"name": "TConstruct:toughRod", "meta": 202}, "weight": 1},
+		{"data": {"name": "TConstruct:toughRod", "meta": 1595}, "weight": 1},
+		{"data": {"name": "TConstruct:toughBinding", "meta": 6}, "weight": 1},
+		{"data": {"name": "TConstruct:toughBinding", "meta": 202}, "weight": 1},
+		{"data": {"name": "TConstruct:toughBinding", "meta": 1595}, "weight": 1},
+		{"data": {"name": "TConstruct:heavyPlate", "meta": 6}, "weight": 1},
+		{"data": {"name": "TConstruct:heavyPlate", "meta": 202}, "weight": 1},
+		{"data": {"name": "TConstruct:heavyPlate", "meta": 1595}, "weight": 1}
+      ]
+    },
+    {"level": 3, "type": "TOOLS", "each": true, "quantity": 2, "loot": [
+		{"data": {"name": "TConstruct:excavatorHead", "meta": 16}, "weight": 1},
+		{"data": {"name": "TConstruct:excavatorHead", "meta": 15}, "weight": 1},
+		{"data": {"name": "TConstruct:excavatorHead", "meta": 1647}, "weight": 1},
+		{"data": {"name": "TConstruct:hammerHead", "meta": 16}, "weight": 1},
+		{"data": {"name": "TConstruct:hammerHead", "meta": 15}, "weight": 1},
+		{"data": {"name": "TConstruct:hammerHead", "meta": 1647}, "weight": 1},
+		{"data": {"name": "TConstruct:scytheBlade", "meta": 16}, "weight": 1},
+		{"data": {"name": "TConstruct:scytheBlade", "meta": 6}, "weight": 1},
+		{"data": {"name": "TConstruct:scytheBlade", "meta": 1647}, "weight": 1},
+		{"data": {"name": "TConstruct:toughRod", "meta": 16}, "weight": 1},
+		{"data": {"name": "TConstruct:toughRod", "meta": 15}, "weight": 1},
+		{"data": {"name": "TConstruct:toughRod", "meta": 1647}, "weight": 1},
+		{"data": {"name": "TConstruct:toughBinding", "meta": 16}, "weight": 1},
+		{"data": {"name": "TConstruct:toughBinding", "meta": 15}, "weight": 1},
+		{"data": {"name": "TConstruct:toughBinding", "meta": 1647}, "weight": 1},
+		{"data": {"name": "TConstruct:heavyPlate", "meta": 16}, "weight": 1},
+		{"data": {"name": "TConstruct:heavyPlate", "meta": 15}, "weight": 1},
+		{"data": {"name": "TConstruct:heavyPlate", "meta": 1647}, "weight": 1}
+    ]
+    },
+    {
+      "level": 4, "type": "TOOLS", "each": true, "quantity": 2, "loot": [
+		{"data": {"name": "TConstruct:excavatorHead", "meta": 201}, "weight": 1},
+		{"data": {"name": "TConstruct:excavatorHead", "meta": 11}, "weight": 1},
+		{"data": {"name": "TConstruct:excavatorHead", "meta": 10}, "weight": 1},
+		{"data": {"name": "TConstruct:hammerHead", "meta": 201}, "weight": 1},
+		{"data": {"name": "TConstruct:hammerHead", "meta": 11}, "weight": 1},
+		{"data": {"name": "TConstruct:hammerHead", "meta": 10}, "weight": 1},
+		{"data": {"name": "TConstruct:scytheBlade", "meta": 201}, "weight": 1},
+		{"data": {"name": "TConstruct:scytheBlade", "meta": 11}, "weight": 1},
+		{"data": {"name": "TConstruct:scytheBlade", "meta": 10}, "weight": 1},
+		{"data": {"name": "TConstruct:toughRod", "meta": 201}, "weight": 1},
+		{"data": {"name": "TConstruct:toughRod", "meta": 11}, "weight": 1},
+		{"data": {"name": "TConstruct:toughRod", "meta": 10}, "weight": 1},
+		{"data": {"name": "TConstruct:toughBinding", "meta": 201}, "weight": 1},
+		{"data": {"name": "TConstruct:toughBinding", "meta": 11}, "weight": 1},
+		{"data": {"name": "TConstruct:toughBinding", "meta": 10}, "weight": 1},
+		{"data": {"name": "TConstruct:heavyPlate", "meta": 201}, "weight": 1},
+		{"data": {"name": "TConstruct:heavyPlate", "meta": 11}, "weight": 1},
+		{"data": {"name": "TConstruct:heavyPlate", "meta": 10}, "weight": 1}
+      ]
+    }
+  ]
+}

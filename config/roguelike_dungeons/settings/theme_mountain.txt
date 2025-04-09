@@ -1,0 +1,83 @@
+{
+    "name": "theme_mountain",
+    "levels": {
+        "0": {
+            "theme": {
+                "base": "ENIKO"
+            }
+        },
+        "1": {
+            "theme": {
+                "base": "QUARTZ"
+            }
+        },
+        "2": {
+            "theme": {
+                "base": "ENIKO2"
+            }
+        },
+        "3": {
+            "theme": {
+                "base": "OAK",
+			"primary" : {
+				"walls" : {
+					"type" : "WEIGHTED",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "etfuturum:purpur_block"}, "weight" : 30},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:purpur", "meta" : 4}, "weight" : 1},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:purpur", "meta" : 10}, "weight" : 1}
+						]
+					},
+					"pillar" : {
+						"type" : "METABLOCK",
+						"data" : {
+							"name" : "etfuturum:purpur_pillar",
+							"meta" : "0"
+						}
+					},
+					"floor" : {
+						"type" : "METABLOCK",
+						"data" : {
+							"name" : "etfuturum:end_bricks",
+							"meta" : "0"
+						}
+					},
+					"stair" : {
+						"type" : "METABLOCK",
+						"data" : {
+							"name" : "etfuturum:purpur_stairs"
+						}
+					}
+				},
+			"secondary" : {
+				"walls" : {
+					"type" : "METABLOCK",
+					"data" : {
+						"name" : "minecraft:end_stone",
+						"meta" : "0"
+						}
+					},
+					"pillar" : {
+						"type" : "METABLOCK",
+						"data" : {
+							"name" : "etfuturum:end_bricks",
+							"meta" : "0"
+						}
+					},
+					"stair" : {
+						"type" : "METABLOCK",
+						"data" : {
+							"name" : "minecraft:end_brick_stairs"
+						}
+					}
+				}
+
+        },
+        "4": {
+            "theme": {
+                "base": "NETHER"
+            }
+        }
+}
+    }
+}
