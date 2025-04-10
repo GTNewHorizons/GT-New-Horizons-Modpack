@@ -4,6 +4,7 @@
   	"inherit": [
 		"loot_all",
 		"loot_plains",
+		"loot_plains_temp",
 		"rooms_plains",
 		"size"
 
