@@ -2,7 +2,7 @@
 	"name": "loot_supplies",
 	"loot_rules": [
 
-	{"level": [0, 1, 2, 3, 4], "type": "SUPPLIES", "each": true, "quantity": 3, "loot": [
+	{"level": [0, 1, 2, 3, 4], "type": "SUPPLIES", "each": true, "quantity": 1, "loot": [
 		{"data": {"name": "Forestry:builderBag", "meta": 0, "weight": 10}},
 		{"data": {"name": "Forestry:diggerBag", "meta": 0, "weight": 10}},
 		{"data": {"name": "Forestry:foresterBag", "meta": 0, "weight": 10}},
