@@ -2,7 +2,9 @@
 	"name": "loot_all",
 	"inherit": [
 		"loot_ore",
+		"loot_ore_temp",
 		"loot_blocks",
+		"loot_blocks_temp",
 		"loot_armor",
 		"loot_weapons",
 		"loot_tools",
