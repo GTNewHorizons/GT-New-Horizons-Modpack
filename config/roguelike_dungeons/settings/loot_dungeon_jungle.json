@@ -1,6 +1,14 @@
 {
 "name": "loot_jungle",
 "loot_rules": [
+	{"level": [5], "type": "FOOD", "each": true, "quantity": 1, "loot": [{"data": {"name": "minecraft:dye", "meta": 4, "min": 2, "max": 3}}]},
+	{"level": [5], "type": "FOOD", "each": true, "quantity": 1, "loot": [{"data": {"name": "minecraft:dye", "meta": 4, "min": 2, "max": 3}}]},
+	{"level": [5], "type": "FOOD", "each": true, "quantity": 4, "loot": [
+		{"data": {"name": "minecraft:dye", "meta": 4, "min": 2, "max": 3}, "weight": 2},
+		{"data": {"name": "minecraft:dye", "meta": 4, "min": 2, "max": 3}, "weight": 1}
+      ]
+    },
+
 	{"level": 0, "type": "FOOD", "each": true, "quantity": 5, "loot": [
         	{"data": {"name": "harvestcraft:mangojellyItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
         	{"data": {"name": "harvestcraft:orangejellyItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
