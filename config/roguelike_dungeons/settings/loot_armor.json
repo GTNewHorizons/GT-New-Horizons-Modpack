@@ -103,10 +103,6 @@
     },
     {
       "level": 4, "type": "ARMOUR", "each": true, "quantity": 5, "loot": [
-		{"data": {"name": "battlegear2:knights_armour.boots", "meta": 0}, "weight": 5},
-		{"data": {"name": "battlegear2:knights_armour.helmet", "meta": 0}, "weight": 5},
-		{"data": {"name": "battlegear2:knights_armour.legs", "meta": 0}, "weight": 5},
-		{"data": {"name": "battlegear2:knights_armour.plate", "meta": 0}, "weight": 5},
 		{"data": {"name": "Railcraft:armor.steel.boots", "meta": 0}, "weight": 15},
 		{"data": {"name": "Railcraft:armor.steel.helmet", "meta": 0}, "weight": 15},
 		{"data": {"name": "Railcraft:armor.steel.legs", "meta": 0}, "weight": 15},
