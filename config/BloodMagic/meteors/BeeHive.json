@@ -19,8 +19,8 @@
   "filler": [
     "harvestcraft:beehive:0:80"
   ],
-  "radius": 20,
+  "radius": 7,
   "cost": 5000666,
-  "focusItem": "gendustry:MutatronAdv",
+  "focusItem": "MagicBees:item.frenziedFrame",
   "fillerChance": 20
 }
