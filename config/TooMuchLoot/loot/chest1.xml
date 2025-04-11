@@ -44,7 +44,7 @@
 	<loot item="StorageDrawers:fullDrawers1" damage="0" weight="20" count_min="2" count_max="3"/>
 	<loot item="StorageDrawers:fullDrawers2" damage="0" weight="20" count_min="2" count_max="3"/>
 	<loot item="StorageDrawers:fullDrawers4" damage="0" weight="20" count_min="2" count_max="3"/>
-	<loot item="TConstruct:GravelOre" damage="4" weight="20" count_min="4" count_max="6"/>
+	<loot item="dreamcraft:ZincGravelOre" damage="0" weight="20" count_min="4" count_max="6"/>
 	<loot item="Forestry:factory2" damage="2" weight="10" count_min="1" count_max="1"/>
 	
 </LootGroup>

@@ -8,6 +8,7 @@ item.itemEngineBoost.name=Engine Booster
 item.appliedenergistics2.ItemMaterial.EmptyStorageCell.name=Universal Storage Housing
 tile.appliedenergistics2.BlockCreativeEnergyCell.name=Neutronium Energy Cell
 item.appliedenergistics2.ItemPart.PartCreativeEnergy.name=Neutronium Energy Anchor
+tile.appliedenergistics2.BlockCreativeEnergyController.name=Neutronium-Infused ME Controller
 tile.for.alveary.2.name=Swarmer
 tile.for.alveary.3.name=Alveary Fan
 tile.for.alveary.4.name=Alveary Heater
@@ -584,6 +585,12 @@ tile.blockTaintFibres.name=Taint
 tile.blockTube.name=Essentia Tube
 tile.blockWarded.name=Warded Block
 tile.blockWoodenDevice.name=Wooden Device
+item.WandCap.7.name=Charged Void Metal Cap
+item.WandCap.8.name=Inert Void Metal Cap
+item.ItemResource.16.name=Void Metal Ingot
+item.ItemNugget.7.name=Void Metal Nugget
+tc.research_name.VOIDMETAL=Void Metal
+tc.research_name.CAP_void=Void Metal Wand Caps
 
 # thaumcraftneiplugin
 item.itemAspect.name=Aspect
