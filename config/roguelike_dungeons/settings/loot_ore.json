@@ -50,7 +50,7 @@
         {"data": {"name": "etfuturum:ancient_debris", "meta": 11330, "min": 1, "max": 2}, "weight": 2},
         {"data": {"name": "gregtech:gt.metaitem.01", "meta": 11335, "min": 4, "max": 10}, "weight": 15},
         {"data": {"name": "gregtech:gt.metaitem.01", "meta": 11371, "min": 4, "max": 10}, "weight": 15},
-        {"data": {"name": "gregtech:gt.metaitem.01", "meta": 11383, "min": 4, "max": 6}, "weight": 15},
+        {"data": {"name": "gregtech:gt.metaitem.01", "meta": 11305, "min": 4, "max": 6}, "weight": 15},
         {"data": {"name": "gregtech:gt.metaitem.01", "meta": 11089, "min": 5, "max": 15}, "weight": 30},
 	{"data": {"name": "gregtech:gt.metaitem.01", "meta": 2022, "min": 3, "max": 24}, "weight": 30}
       ]
