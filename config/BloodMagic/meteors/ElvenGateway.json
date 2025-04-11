@@ -1,0 +1,21 @@
+{
+  "ores": [
+    "etfuturum:smooth_quartz:80",
+    "appliedenergistics2:tile.BlockQuartz:60",
+    "Botania:quartzTypeSunny:100",
+    "Botania:quartzTypeBlaze:100",
+    "Botania:quartzTypeRed:100",
+    "Botania:quartzTypeDark:100",
+    "Botania:quartzTypeLavender:100",
+    "Botania:quartzTypeMana:75",
+    "Botania:quartzTypeElf:50"
+  ],
+  "filler": [
+    "Botania:livingwood:200",
+    "Botania:livingrock:200"
+  ],
+  "radius": 22,
+  "cost": 50000000,
+  "focusItem": "Botania:alfheimPortal",
+  "fillerChance": 20
+}
