@@ -50,14 +50,16 @@
     ]
     },
 	{"level": 1, "type": "WEAPONS", "each": true, "quantity": 1, "loot": [
-		{"data": {"name": "Thaumcraft:ItemBowBone", "meta": 0}, "weight": 10},
+		{"data": {"name": "Thaumcraft:ItemBowBone", "meta": 0}, "weight": 3},
+		{"data": {"name": "minecraft:bow", "meta": 0}, "weight": 10},
 		{"data": {"name": "Natura:natura.bow.bloodwood", "meta": 0}, "weight": 5},
 		{"data": {"name": "minecraft:iron_sword", "meta": 0}, "weight": 25}
 
     ]
     },
 	{"level": 2, "type": "WEAPONS", "each": true, "quantity": 1, "loot": [
-		{"data": {"name": "Thaumcraft:ItemBowBone", "meta": 0}, "weight": 10},
+		{"data": {"name": "Thaumcraft:ItemBowBone", "meta": 0}, "weight": 3},
+		{"data": {"name": "minecraft:bow", "meta": 0}, "weight": 10},
 		{"data": {"name": "Natura:natura.bow.ghostwood", "meta": 0}, "weight": 5},
 		{"data": {"name": "minecraft:iron_sword", "meta": 0}, "weight": 25}
       ]
@@ -88,6 +90,7 @@
     },
 	{"level": 3, "type": "WEAPONS", "each": true, "quantity": 1, "loot": [
 		{"data": {"name": "Thaumcraft:ItemBowBone", "meta": 0}, "weight": 10},
+		{"data": {"name": "minecraft:bow", "meta": 0}, "weight": 10},
 		{"data": {"name": "minecraft:diamond_sword", "meta": 0}, "weight": 25}
     ]
     },
