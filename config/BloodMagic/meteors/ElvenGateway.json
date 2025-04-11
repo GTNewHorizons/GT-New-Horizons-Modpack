@@ -1,18 +1,18 @@
 {
   "ores": [
-    "etfuturum:smooth_quartz:80",
-    "appliedenergistics2:tile.BlockQuartz:60",
-    "Botania:quartzTypeSunny:100",
-    "Botania:quartzTypeBlaze:100",
-    "Botania:quartzTypeRed:100",
-    "Botania:quartzTypeDark:100",
-    "Botania:quartzTypeLavender:100",
-    "Botania:quartzTypeMana:75",
-    "Botania:quartzTypeElf:50"
+    "etfuturum:smooth_quartz:0:80",
+    "appliedenergistics2:tile.BlockQuartz:0:60",
+    "Botania:quartzTypeSunny:0:100",
+    "Botania:quartzTypeBlaze:0:100",
+    "Botania:quartzTypeRed:0:100",
+    "Botania:quartzTypeDark:0:100",
+    "Botania:quartzTypeLavender:0:100",
+    "Botania:quartzTypeMana:0:75",
+    "Botania:quartzTypeElf:0:50"
   ],
   "filler": [
-    "Botania:livingwood:200",
-    "Botania:livingrock:200"
+    "Botania:livingwood:0:200",
+    "Botania:livingrock:0:200"
   ],
   "radius": 22,
   "cost": 50000000,
