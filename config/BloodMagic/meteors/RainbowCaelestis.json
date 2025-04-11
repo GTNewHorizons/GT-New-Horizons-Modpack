@@ -15,7 +15,9 @@
     "ExtraUtilities:greenscreen:12:100",
     "ExtraUtilities:greenscreen:13:100",
     "ExtraUtilities:greenscreen:14:100",
-    "ExtraUtilities:greenscreen:15:100"
+    "ExtraUtilities:greenscreen:15:100",
+    "Ztones:tile.laveBlock:12:50",
+    "TwilightForest:tile.CastleBrick:3:50"
   ],
   "filler": [
     "ExtraUtilities:etherealglass:2:200"
