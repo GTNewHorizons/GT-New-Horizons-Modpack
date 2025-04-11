@@ -18,7 +18,7 @@
 
       ]
     },
-	{"level": 0, "type": "ARMOUR", "each": true, "quantity": 4, "loot": [
+	{"level": 0, "type": "ARMOUR", "each": true, "quantity": 2, "loot": [
 		{"data": {"name": "BiomesOPlenty:bootsMud", "meta": 0}, "weight": 10},
 		{"data": {"name": "BiomesOPlenty:chestplateMud", "meta": 0}, "weight": 10},
 		{"data": {"name": "BiomesOPlenty:helmetMud", "meta": 0}, "weight": 10},
@@ -35,7 +35,7 @@
 
       ]
     },
-    {"level": 1, "type": "ARMOUR", "each": true, "quantity": 4, "loot": [
+    {"level": 1, "type": "ARMOUR", "each": true, "quantity": 2, "loot": [
 		{"data": {"name": "harvestcraft:hardenedleatherbootsItem", "meta": 0}, "weight": 13},
 		{"data": {"name": "harvestcraft:hardenedleatherchestItem", "meta": 0}, "weight": 13},
 		{"data": {"name": "harvestcraft:hardenedleatherhelmItem", "meta": 0}, "weight": 13},
@@ -58,7 +58,7 @@
 		{"data": {"name": "minecraft:iron_leggings", "meta": 0}, "weight": 8}
     ]
     },
-    {"level": 2, "type": "ARMOUR", "each": true, "quantity": 4, "loot": [
+    {"level": 2, "type": "ARMOUR", "each": true, "quantity": 2, "loot": [
 		{"data": {"name": "ProjRed|Exploration:projectred.exploration.rubychestplate", "meta": 0}, "weight": 10},
 		{"data": {"name": "ProjRed|Exploration:projectred.exploration.rubyhelmet", "meta": 0}, "weight": 10},
 		{"data": {"name": "ProjRed|Exploration:projectred.exploration.rubyleggings", "meta": 0}, "weight": 10},
@@ -77,7 +77,7 @@
 		{"data": {"name": "minecraft:iron_leggings", "meta": 0}, "weight": 8}
       ]
     },
-    {"level": 3, "type": "ARMOUR", "each": true, "quantity": 4, "loot": [
+    {"level": 3, "type": "ARMOUR", "each": true, "quantity": 2, "loot": [
 		{"data": {"name": "Railcraft:armor.steel.boots", "meta": 0}, "weight": 15},
 		{"data": {"name": "Railcraft:armor.steel.helmet", "meta": 0}, "weight": 15},
 		{"data": {"name": "Railcraft:armor.steel.legs", "meta": 0}, "weight": 15},
@@ -93,7 +93,7 @@
     ]
     },
     {
-      "level": 4, "type": "ARMOUR", "each": true, "quantity": 5, "loot": [
+      "level": 4, "type": "ARMOUR", "each": true, "quantity": 2, "loot": [
 		{"data": {"name": "Railcraft:armor.steel.boots", "meta": 0}, "weight": 15},
 		{"data": {"name": "Railcraft:armor.steel.helmet", "meta": 0}, "weight": 15},
 		{"data": {"name": "Railcraft:armor.steel.legs", "meta": 0}, "weight": 15},
