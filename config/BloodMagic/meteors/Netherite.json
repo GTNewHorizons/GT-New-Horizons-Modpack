@@ -1,0 +1,16 @@
+{
+  "ores": [
+    "Railcraft:brick.nether:2:100",
+    "minecraft:nether_brick:0:80",
+    "etfuturum:red_netherbrick:1:50",
+    "etfuturum:red_netherbrick:0:50",
+    "etfuturum:ancient_debris:0:10"
+  ],
+  "filler": [
+    "minecraft:netherrack:0:200"
+  ],
+  "radius": 22,
+  "cost": 90000000,
+  "focusItem": "etfuturum:netherite_block",
+  "fillerChance": 20
+}
