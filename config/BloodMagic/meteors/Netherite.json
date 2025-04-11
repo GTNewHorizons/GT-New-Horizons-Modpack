@@ -4,13 +4,16 @@
     "minecraft:nether_brick:0:80",
     "etfuturum:red_netherbrick:1:50",
     "etfuturum:red_netherbrick:0:50",
-    "etfuturum:ancient_debris:0:10"
+    "minecraft:soul_sand:0:50",
+    "etfuturum:nether_wart:0:20",
+    "etfuturum:nether_wart:1:20",
+    "etfuturum:shroomlight:0:10"
   ],
   "filler": [
     "minecraft:netherrack:0:200"
   ],
   "radius": 22,
   "cost": 90000000,
-  "focusItem": "etfuturum:netherite_block",
+  "focusItem": "etfuturum:netherite_scrap",
   "fillerChance": 20
 }
