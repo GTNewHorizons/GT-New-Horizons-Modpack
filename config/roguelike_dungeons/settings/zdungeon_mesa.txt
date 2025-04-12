@@ -1,0 +1,14 @@
+{
+	"name": "dungeon_mesa",
+  	"criteria": {"biomeTypes": ["MESA", "WASTELAND", "BEACH", "OCEAN"]},
+  	"inherit": [
+		"loot_all",
+		"loot_mesa",
+		"loot_mesa_temp",
+		"theme_mesa",
+		"tower_mesa",
+		"rooms_mesa",
+		"size"
+
+  ]
+}
