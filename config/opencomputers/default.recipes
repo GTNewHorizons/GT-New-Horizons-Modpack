@@ -249,6 +249,13 @@ beekeeperUpgrade {
           ["oc:circuitChip3", {item="Forestry:beealyzer"}, "oc:circuitChip3"]
           [ingotGold, "oc:materialCircuitBoardPrinted", ingotGold]]
 }
+
+configuratorUpgrade {
+  input: [[ingotIron, "", ingotIron]
+          ["oc:circuitChip1", "oc:wrench", "oc:circuitChip1"]
+          [ingotIron, "oc:materialCircuitBoardPrinted", ingotIron]]
+}
+
 chunkloaderUpgrade {
   input: [[ingotGold, blockGlass, ingotGold]
           ["oc:circuitChip3", eyeOfEnder, "oc:circuitChip3"]
@@ -709,4 +716,15 @@ waypoint {
 appengTunnel {
   type: shapeless
   input: [{item="appliedenergistics2:item.ItemMultiPart", subID=460}, "oc:adapter"]
+}
+
+ritegUpgrade {
+  input: [[nuggetIron, "oc:capacitor", nuggetIron]
+          ["oc:capacitor", "IC2:itemRTGPellet", "oc:capacitor"]
+          [nuggetIron, "oc:generatorUpgrade", nuggetIron]]
+}
+
+tpsCard {
+   input: [["oc:circuitChip1", "minecraft:clock", "oc:analyzer"]
+          ["", "oc:materialCard", ""]]
 }

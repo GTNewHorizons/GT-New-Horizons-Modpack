@@ -11,5 +11,9 @@
 		"claimed_chunks": true,
 		"trash_can": true,
 		"leaderboards": true
+	},
+	"position": {
+		"posX": "0",
+		"posY": "0"
 	}
 }
