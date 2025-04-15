@@ -46,6 +46,7 @@
 		{"data": {"name": "TConstruct:knifeBlade", "meta": 2}, "weight": 1},
 		{"data": {"name": "TConstruct:arrowhead", "meta": 14}, "weight": 1},
 		{"data": {"name": "TConstruct:arrowhead", "meta": 18}, "weight": 1},
+		{"data": {"name": "TConstruct:fletching", "meta": 0}, "weight": 3},
 		{"data": {"name": "TConstruct:arrowhead", "meta": 2}, "weight": 1}
     ]
     },
@@ -73,6 +74,7 @@
 		{"data": {"name": "TConstruct:wideGuard", "meta": 1595}, "weight": 1},
 		{"data": {"name": "TConstruct:handGuard", "meta": 6}, "weight": 1},
 		{"data": {"name": "TConstruct:handGuard", "meta": 202}, "weight": 1},
+		{"data": {"name": "TConstruct:fletching", "meta": 1}, "weight": 3},
 		{"data": {"name": "TConstruct:handGuard", "meta": 1595}, "weight": 1},
 		{"data": {"name": "TConstruct:arrowhead", "meta": 6}, "weight": 1},
 		{"data": {"name": "TConstruct:arrowhead", "meta": 202}, "weight": 1},
@@ -98,6 +100,7 @@
 		{"data": {"name": "TConstruct:SwordBlade", "meta": 16}, "weight": 1},
 		{"data": {"name": "TConstruct:SwordBlade", "meta": 15}, "weight": 1},
 		{"data": {"name": "TConstruct:SwordBlade", "meta": 1647}, "weight": 1},
+		{"data": {"name": "TConstruct:fletching", "meta": 2}, "weight": 3},
 		{"data": {"name": "TConstruct:wideGuard", "meta": 16}, "weight": 1},
 		{"data": {"name": "TConstruct:wideGuard", "meta": 15}, "weight": 1},
 		{"data": {"name": "TConstruct:wideGuard", "meta": 1647}, "weight": 1},
@@ -129,6 +132,7 @@
 		{"data": {"name": "TConstruct:handGuard", "meta": 11}, "weight": 1},
 		{"data": {"name": "TConstruct:handGuard", "meta": 10}, "weight": 1},
 		{"data": {"name": "TConstruct:arrowhead", "meta": 201}, "weight": 1},
+		{"data": {"name": "TConstruct:fletching", "meta": 4}, "weight": 3},
 		{"data": {"name": "TConstruct:arrowhead", "meta": 11}, "weight": 1},
 		{"data": {"name": "TConstruct:arrowhead", "meta": 10}, "weight": 1},
 		{"data": {"name": "TConstruct:largeSwordBlade", "meta": 201}, "weight": 1},
