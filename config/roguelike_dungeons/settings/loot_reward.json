@@ -70,7 +70,7 @@
 		{"data": {"name": "Thaumcraft:WandCasting", "meta": 36}, "weight": 10},
 		{"data": {"name": "JABBA:moverDiamond", "meta": 0}, "weight": 10},
 		{"data": {"name": "TConstruct:creativeModifier", "meta": 0}, "weight": 10},
-		{"data": {"name": "gregtech:gt.detrav.metatool.01", "meta": 2}, "weight": 10},
+		{"data": {"name": "gregtech:gt.detrav.metatool.01", "meta": 2, "nbt" : "{GT.ToolStats:{SecondaryMaterial:\"Steel\",PrimaryMaterial:\"SteelMagnetic\",Mode:0b,MaxDamage:1300L}}"}, "weight": 10},
 		{"data": {"name": "DraconicEvolution:magnet", "meta": 0}, "weight": 10}
       ]
     }
