@@ -40,7 +40,7 @@
 		{"data": {"name": "Thaumcraft:ItemLootBag", "meta": 0}, "weight": 4},
 		{"data": {"name": "minecraft:name_tag", "meta": 0}, "weight": 1},
 		{"data": {"name": "minecraft:string", "meta": 0, "min": 1, "max": 7}, "weight": 20},
-		{"data": {"name": "enhancedlootbags:lootbag", "meta": 1}, "weight": 1},
+		{"data": {"name": "enhancedlootbags:lootbag", "meta": 0}, "weight": 1},
 		{"data": {"name": "enhancedlootbags:lootbag", "meta": 36}, "weight": 1}
     ]
     },
