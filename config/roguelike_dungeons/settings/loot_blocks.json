@@ -7,7 +7,7 @@
 		{"data": {"name": "minecraft:redstone_lamp", "meta": 0, "min": 8, "max": 24}, "weight": 10},
 		{"data": {"name": "chisel:sveltstone", "meta": 0, "min": 48, "max": 64}, "weight": 10},
 		{"data": {"name": "chisel:laboratoryblock", "meta": 0, "min": 48, "max": 64}, "weight": 10},
-		{"data": {"name": "HardcoreEnderExpansion:laboratory_glass", "meta": 0, "min": 48, "max": 64}, "weight": 10},
+		{"data": {"name": "minecraft:stained_glass", "meta": 7, "min": 48, "max": 64}, "weight": 10},
 		{"data": {"name": "minecraft:glass", "meta": 0, "min": 48, "max": 64}, "weight": 10},
 		{"data": {"name": "minecraft:planks", "meta": 1, "min": 48, "max": 64}, "weight": 10},
 		{"data": {"name": "chisel:woolen_clay", "meta": 0, "min": 48, "max": 64}, "weight": 10},
