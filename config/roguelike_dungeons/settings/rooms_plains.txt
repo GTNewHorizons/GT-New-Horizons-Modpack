@@ -1,0 +1,28 @@
+{
+	"name": "rooms_plains",
+	"levels": {
+		"0": {
+			"rooms": [
+				{"mode": "single", "type": "CAKE"},
+				{"mode": "single", "type": "FIRE"},
+				{"mode": "secret", "type": "BEDROOM"},
+				{"mode": "secret", "type": "SMITH"},
+				{"mode": "secret", "type": "FIREWORK"},
+				{"mode": "random", "type": "BRICK", "weight" : 4},
+				{"mode": "random", "type": "CORNER", "weight" : 2}
+			]
+		},
+		"1": {
+			"rooms": [
+				{"mode": "single", "type": "MUSIC"},
+				{"mode": "single", "type": "LAB"},
+				{"mode": "single", "type": "MESS"},
+                		{"mode": "single", "type": "PIT"},
+                		{"mode": "secret", "type": "BTEAM"},
+				{"mode": "random", "type": "CORNER", "weight" : 10},
+				{"mode": "random", "type": "BRICK", "weight" : 3}
+		
+			]
+		}
+	}
+}
