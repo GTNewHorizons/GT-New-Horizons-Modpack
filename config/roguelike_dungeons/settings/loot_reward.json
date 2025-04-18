@@ -63,7 +63,7 @@
     },
     
 	{"level": 4, "type": "REWARD", "each": true, "quantity": 1, "loot": [
-		{"data": {"name": "adventurebackpack:copterPack", "meta": 0}, "weight": 10},
+		{"data": {"name": "adventurebackpack:copterPack", "meta": 0, "nbt" : "{wearableData:{}}"}, "weight": 10},
 		{"data": {"name": "Avaritia:Cosmic_Meatballs", "meta": 0}, "weight": 10},
 		{"data": {"name": "Backpack:backpack", "meta": 100}, "weight": 10},
 		{"data": {"name": "BinnieCore:storage", "meta": 5}, "weight": 10},
