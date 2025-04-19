@@ -1,5 +1,5 @@
 {
-	"name": "loot_potions",
+	"name": "loot_potions_temp",
 	"loot_rules": [
 	{"level": [0, 1, 2, 3, 4], "type": "ARMOR", "each": true, "quantity": 1, "loot": [
 		{"data": {"name": "minecraft:potion", "meta": 16417}, "weight": 1},
