@@ -1,0 +1,14 @@
+{
+	"name": "dungeon_desert",
+  	"criteria": {"biomeTypes": ["SANDY"]},
+  	"inherit": [
+		"loot_all",
+		"loot_desert",
+		"loot_desert_temp",
+		"theme_desert",
+		"tower_desert",
+		"rooms_desert",
+		"size"
+
+  ]
+}

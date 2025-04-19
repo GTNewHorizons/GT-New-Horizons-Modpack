@@ -1,0 +1,31 @@
+{
+    "name": "theme_swamp",
+    "levels": {
+        "0": {
+            "theme": {
+                "base": "DARKHALL"
+            }
+        },
+        "1": {
+            "theme": {
+                "base": "DARKHALL"
+            }
+        },
+             "2": {
+            "theme": {
+                "base": "MUDDY"
+            }
+        },
+             "3": {
+            "theme": {
+                "base": "MOSSY"
+            }
+        },
+     
+        "4": {
+            "theme": {
+                "base": "NETHER"
+            }
+        }
+    }
+}
