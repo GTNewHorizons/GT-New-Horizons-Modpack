@@ -1,15 +1,7 @@
 {
 	"name": "loot_potions_temp",
 	"loot_rules": [
-	{"level": [0, 1, 2, 3, 4], "type": "ARMOR", "each": false, "quantity": 1, "loot": [
-		{"data": {"name": "minecraft:potion", "meta": 16417}, "weight": 1},
-		{"data": {"name": "minecraft:potion", "meta": 8225}, "weight": 1},
-		{"data": {"name": "minecraft:potion", "meta": 8197}, "weight": 1},
-		{"data": {"name": "minecraft:potion", "meta": 8229}, "weight": 1}
-
-      ]
-    },
-	{"level": 0, "type": "ARMOR", "each": false, "quantity": 1, "loot": [
+	{"level": 0, "type": "ARMOR", "each": true, "quantity": 1, "loot": [
 		{"data": {"name": "minecraft:potion", "meta": 16458}, "weight": 1},
 		{"data": {"name": "minecraft:potion", "meta": 8225}, "weight": 1},
 		{"data": {"name": "minecraft:potion", "meta": 8194}, "weight": 1},
@@ -20,7 +12,7 @@
 
       ]
     },
-    {"level": 1, "type": "ARMOR", "each": false, "quantity": 1, "loot": [
+    {"level": 1, "type": "ARMOR", "each": true, "quantity": 1, "loot": [
 		{"data": {"name": "minecraft:potion", "meta": 8225}, "weight": 1},
 		{"data": {"name": "minecraft:potion", "meta": 8194}, "weight": 1},
 		{"data": {"name": "minecraft:potion", "meta": 8226}, "weight": 1},
@@ -35,7 +27,7 @@
 
     ]
     },
-    {"level": 2, "type": "ARMOR", "each": false, "quantity": 1, "loot": [
+    {"level": 2, "type": "ARMOR", "each": true, "quantity": 1, "loot": [
 		{"data": {"name": "minecraft:potion", "meta": 8225}, "weight": 1},
 		{"data": {"name": "minecraft:potion", "meta": 8194}, "weight": 1},
 		{"data": {"name": "minecraft:potion", "meta": 8226}, "weight": 1},
@@ -54,7 +46,7 @@
 		{"data": {"name": "minecraft:potion", "meta": 8265}, "weight": 1}
       ]
     },
-    {"level": 3, "type": "ARMOR", "each": false, "quantity": 1, "loot": [
+    {"level": 3, "type": "ARMOR", "each": true, "quantity": 1, "loot": [
 		{"data": {"name": "minecraft:potion", "meta": 8225}, "weight": 1},
 		{"data": {"name": "minecraft:potion", "meta": 8194}, "weight": 1},
 		{"data": {"name": "minecraft:potion", "meta": 8226}, "weight": 1},
@@ -79,7 +71,7 @@
     ]
     },
     {
-      "level": 4, "type": "ARMOR", "each": false, "quantity": 1, "loot": [
+      "level": 4, "type": "ARMOR", "each": true, "quantity": 1, "loot": [
 		{"data": {"name": "minecraft:potion", "meta": 8225}, "weight": 1},
 		{"data": {"name": "minecraft:potion", "meta": 8194}, "weight": 1},
 		{"data": {"name": "minecraft:potion", "meta": 8226}, "weight": 1},
