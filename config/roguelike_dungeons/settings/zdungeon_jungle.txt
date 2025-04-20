@@ -1,0 +1,14 @@
+{
+	"name": "dungeon_jungle",
+  	"criteria": {"biomeTypes": ["JUNGLE"]},
+  	"inherit": [
+		"loot_all",
+		"loot_jungle",
+		"loot_jungle_temp",
+		"theme_jungle",
+		"tower_jungle",
+		"rooms_jungle",
+		"size"
+
+  ]
+}

@@ -1,0 +1,42 @@
+{
+	"name": "loot_music",
+	"loot_rules": [
+	{"level": [0, 1, 2, 3, 4], "type": "MUSIC", "each": true, "quantity": 1, "loot": [
+		{"data": {"name": "minecraft:record_11", "meta": 0}, "weight": 10},
+		{"data": {"name": "minecraft:record_13", "meta": 0}, "weight": 10},
+		{"data": {"name": "minecraft:record_cat", "meta": 0}, "weight": 10},
+		{"data": {"name": "minecraft:record_blocks", "meta": 0}, "weight": 10},
+		{"data": {"name": "minecraft:record_chirp", "meta": 0}, "weight": 10},
+		{"data": {"name": "minecraft:record_far", "meta": 0}, "weight": 10},
+		{"data": {"name": "minecraft:record_mall", "meta": 0}, "weight": 10},
+		{"data": {"name": "minecraft:record_mellohi", "meta": 0}, "weight": 10},
+		{"data": {"name": "minecraft:record_stal", "meta": 0}, "weight": 10},
+		{"data": {"name": "minecraft:record_strad", "meta": 0}, "weight": 10},
+		{"data": {"name": "minecraft:record_ward", "meta": 0}, "weight": 10},
+		{"data": {"name": "minecraft:record_wait", "meta": 0}, "weight": 10},
+		{"data": {"name": "BiomesOPlenty:record_corruption", "meta": 0}, "weight": 2},
+		{"data": {"name": "BiomesOPlenty:record_wanderer", "meta": 0}, "weight": 10},
+		{"data": {"name": "Botania:recordGaia1", "meta": 0}, "weight": 10},
+		{"data": {"name": "Botania:recordGaia2", "meta": 0}, "weight": 10},
+		{"data": {"name": "etfuturum:otherside_record", "meta": 0}, "weight": 10},
+		{"data": {"name": "HardcoreEnderExpansion:music_disk", "meta": 0}, "weight": 5},
+		{"data": {"name": "HardcoreEnderExpansion:music_disk", "meta": 1}, "weight": 5},
+		{"data": {"name": "HardcoreEnderExpansion:music_disk", "meta": 2}, "weight": 5},
+		{"data": {"name": "HardcoreEnderExpansion:music_disk", "meta": 3}, "weight": 5},
+		{"data": {"name": "HardcoreEnderExpansion:music_disk", "meta": 4}, "weight": 5},
+		{"data": {"name": "HardcoreEnderExpansion:music_disk", "meta": 5}, "weight": 5},
+		{"data": {"name": "HardcoreEnderExpansion:music_disk", "meta": 6}, "weight": 5},
+		{"data": {"name": "HardcoreEnderExpansion:music_disk", "meta": 7}, "weight": 5},
+		{"data": {"name": "HardcoreEnderExpansion:music_disk", "meta": 8}, "weight": 5},
+		{"data": {"name": "HardcoreEnderExpansion:music_disk", "meta": 9}, "weight": 5}
+	]
+	},
+	{"level": [4], "type": "MUSIC", "each": true, "quantity": 1, "loot": [
+		{"data": {"name": "etfuturum:pigstep_record", "meta": 0}, "weight": 30}
+
+      ]
+    }
+  ]
+}
+
+
