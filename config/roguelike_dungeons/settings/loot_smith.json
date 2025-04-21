@@ -7,7 +7,7 @@
 
       ]
     },
-	{"level": [0, 1, 2, 3, 4], "type": "SUPPLIES", "each": true, "quantity": 1, "loot": [
+	{"level": [0, 1, 2, 3, 4], "type": "SMITH", "each": true, "quantity": 1, "loot": [
 		{"data": {"name": "minecraft:iron_sword", "meta": 0}}
 
       ]
