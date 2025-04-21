@@ -111,9 +111,9 @@
 		{"data": {"name": "minecraft:bow", "meta": 0}, "weight": 13},
 		{"data": {"name": "minecraft:diamond_sword", "meta": 0, "nbt" : "{ench:[0:{id:46s,lvl:1s},1:{id:16s,lvl:3s}],display:{Name:\"Smith's Sword\"}}"}, "weight": 7},
 		{"data": {"name": "minecraft:diamond_sword", "meta": 0, "nbt" : "{ench:[0:{id:98s,lvl:5s},1:{id:16s,lvl:3s}],display:{Name:\"Wise Wakizashi\"}}"}, "weight": 7},
-		{"data": {"name": "minecraft:diamond_sword", "meta": 0, "nbt" : "{ench:[0:{id:10s,lvl:1s}],display:{Name:\"Blighted Blade\"}}"}, "weight": 7},
-		{"data": {"name": "minecraft:diamond_sword", "meta": 0, "nbt" : "{ench:[0:{id:45s,lvl:3s}],RepairCost:1,display:{Name:\"Librarian's Liuyedao\"}}"}, "weight": 7},
-		{"data": {"name": "minecraft:diamond_sword", "meta": 0, "nbt" : "{ench:[0:{id:20s,lvl:2s}],display:{Name:\"Kindled Katana\"}}"}, "weight": 7},
+		{"data": {"name": "minecraft:diamond_sword", "meta": 0, "nbt" : "{ench:[0:{id:10s,lvl:1s},1:{id:16s,lvl:3s}],display:{Name:\"Blighted Blade\"}}"}, "weight": 7},
+		{"data": {"name": "minecraft:diamond_sword", "meta": 0, "nbt" : "{ench:[0:{id:45s,lvl:3s},1:{id:17s,lvl:2s}],RepairCost:1,display:{Name:\"Librarian's Liuyedao\"}}"}, "weight": 7},
+		{"data": {"name": "minecraft:diamond_sword", "meta": 0, "nbt" : "{ench:[0:{id:20s,lvl:2s},1:{id:16s,lvl:3s}],display:{Name:\"Kindled Katana\"}}"}, "weight": 7},
 		{"data": {"name": "minecraft:diamond_sword", "meta": 0, "nbt" : "{ench:[0:{id:102s,lvl:6s},1:{id:17s,lvl:6s}],display:{Name:\"Sword of Victory\"}}"}, "weight": 1}
     ]
     },
