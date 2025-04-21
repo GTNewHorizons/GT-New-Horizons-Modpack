@@ -5,15 +5,12 @@
 			"rooms": [
 				{"mode": "single", "type": "PYTAMIDTOMB"},
 				{"mode": "secret", "type": "PYRAMIDTOMB"},
-				{"mode": "single", "type": "FIRE"},
-				{"mode": "single", "type": "CAKE"},
 				{"mode": "random", "type": "PYRAMIDSPAWNER", "weight" : 5},
 				{"mode": "random", "type": "PYRAMIDCORNER", "weight" : 3}
 			]
 		},
 		"1": {
 			"rooms": [
-				{"mode": "single", "type": "PIT"},
 				{"mode": "random", "type": "PYTAMIDTOMB", "weight" : 2},
 				{"mode": "random", "type": "PYRAMIDSPAWNER", "weight" : 10},
 				{"mode": "random", "type": "PYRAMIDCORNER", "weight" : 5}
