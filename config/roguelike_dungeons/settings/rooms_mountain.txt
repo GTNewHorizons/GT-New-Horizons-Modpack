@@ -6,12 +6,13 @@
 				{"mode": "secret", "type": "LIBRARY"},
 				{"mode": "single", "type": "CAKE"},
 				{"mode": "single", "type": "FIRE"},
-				{"mode": "secret", "type": "BEDROOM"},
-				{"mode": "secret", "type": "BEDROOM"},
-				{"mode": "secret", "type": "SMITH"},
 				{"mode": "random", "type": "ENIKO", "weight" : 10},
 				{"mode": "random", "type": "CORNER", "weight" : 3}
-			]
+			],
+			"secrets" : [
+				{"type" : "BEDROOM", "num" : 2},
+				{"type" : "SMITH", "num" : 1}
+		]
 		},
 		"1": {
 			"rooms": [
@@ -19,11 +20,13 @@
 				{"mode": "single", "type": "PIT"},
 				{"mode": "single", "type": "MESS"},
 				{"mode": "single", "type": "LAB"},
-				{"mode": "secret", "type": "ENCHANT"},
 				{"mode": "random", "type": "ENIKO", "weight" : 10},
 				{"mode": "random", "type": "CORNER", "weight" : 3}
 		
-			]
+			],
+			"secrets" : [
+				{"type" : "ENCHANT", "num" : 1}
+		]
 		},
 		"2": {
 			"rooms": [
