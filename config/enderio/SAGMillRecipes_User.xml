@@ -129,6 +129,15 @@
 </recipeGroup>
 
 <recipeGroup name="Vanilla" >
+  <recipe name="BlazeRod" energyCost="2400" >
+      <input>
+        <itemStack modID="minecraft" itemName="blaze_rod" />
+      </input>
+      <output>
+        <itemStack modID="minecraft" itemName="blaze_powder" number="4" />
+        <itemStack modID="gregtech" itemName="gt.metaitem.01" number="1" itemMeta="2022" chance="0.5" />
+      </output>
+    </recipe>
    <recipe name="ClayBlock" energyCost="2400" >
       <input>
         <itemStack modID="minecraft" itemName="clay" />
