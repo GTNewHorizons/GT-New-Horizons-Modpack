@@ -4,7 +4,11 @@
 	{"level": 0, "type": "WEAPONS", "each": true, "quantity": 1, "loot": [
 		{"data": {"name": "minecraft:bow", "meta": 0}, "weight": 10},
 		{"data": {"name": "Natura:natura.bow.darkwood", "meta": 0}, "weight": 5},
-		{"data": {"name": "minecraft:stone_sword", "meta": 0}, "weight": 25}
+		{"data": {"name": "minecraft:stone_sword", "meta": 0, "nbt" : "{ench:[0:{id:102s,lvl:1s},1:{id:17s,lvl:2s}],display:{Name:\"Mesopotamian Mace\"}}"}, "weight": 5},
+		{"data": {"name": "minecraft:stone_sword", "meta": 0, "nbt" : "{ench:[0:{id:19s,lvl:2s}],display:{Name:\"Caveman's Club\"}}"}, "weight": 5},
+		{"data": {"name": "minecraft:stone_sword", "meta": 0, "nbt" : "{ench:[0:{id:16s,lvl:2s},1:{id:34s,lvl:1s}],display:{Name:\"Ancient Acinaces\"}}"}, "weight": 5},
+		{"data": {"name": "minecraft:stone_sword", "meta": 0, "nbt" : "{ench:[0:{id:98s,lvl:1s},1:{id:180s,lvl:1s}],display:{Name:\"Magic Makhaira\"}}"}, "weight": 5},
+		{"data": {"name": "minecraft:stone_sword", "meta": 0, "nbt" : "{ench:[0:{id:18s,lvl:2s},1:{id:19s,lvl:1s}],display:{Name:\"Spider Sica\"}}"}, "weight": 5}
       ]
     },
 	{"level": 0, "type": "WEAPONS", "each": true, "quantity": 4, "loot": [
