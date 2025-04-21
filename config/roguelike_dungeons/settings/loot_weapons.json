@@ -93,7 +93,11 @@
 	{"level": 3, "type": "WEAPONS", "each": true, "quantity": 1, "loot": [
 		{"data": {"name": "Thaumcraft:ItemBowBone", "meta": 0}, "weight": 10},
 		{"data": {"name": "minecraft:bow", "meta": 0}, "weight": 10},
-		{"data": {"name": "minecraft:diamond_sword", "meta": 0}, "weight": 25}
+		{"data": {"name": "minecraft:diamond_sword", "meta": 0, "nbt" : "{ench:[0:{id:46s,lvl:1s},1:{id:16s,lvl:3s}],display:{Name:\"Smith's Sword\"}}"}, "weight": 5},
+		{"data": {"name": "minecraft:diamond_sword", "meta": 0, "nbt" : "{ench:[0:{id:98s,lvl:5s},1:{id:16s,lvl:3s}],display:{Name:\"Wise Wakizashi\"}}"}, "weight": 5},
+		{"data": {"name": "minecraft:diamond_sword", "meta": 0, "nbt" : "{ench:[0:{id:10s,lvl:1s}],display:{Name:\"Blighted Blade\"}}"}, "weight": 5},
+		{"data": {"name": "minecraft:diamond_sword", "meta": 0, "nbt" : "{ench:[0:{id:45s,lvl:3s}],RepairCost:1,display:{Name:\"Librarian's Liuyedao\"}}"}, "weight": 5},
+		{"data": {"name": "minecraft:diamond_sword", "meta": 0, "nbt" : "{ench:[0:{id:20s,lvl:2s}],display:{Name:\"Kindled Katana\"}}"}, "weight": 5}
     ]
     },
 	{"level": 3, "type": "WEAPONS", "each": true, "quantity": 4, "loot": [
@@ -148,7 +152,11 @@
     },
       {"level": 4, "type": "WEAPONS", "each": true, "quantity": 1, "loot": [
 		{"data": {"name": "GalaxySpace:item.QuantBow", "meta": 0}, "weight": 5},
-		{"data": {"name": "minecraft:diamond_sword", "meta": 0}, "weight": 25}
+		{"data": {"name": "minecraft:diamond_sword", "meta": 0, "nbt" : "{ench:[0:{id:180s,lvl:5s}],display:{Name:\"Thanatos's Talwar\"}}"}, "weight": 5},
+		{"data": {"name": "minecraft:diamond_sword", "meta": 0, "nbt" : "{ench:[0:{id:16s,lvl:5s}],display:{Name:\"Warrior's Warblade\"}}"}, "weight": 5},
+		{"data": {"name": "minecraft:diamond_sword", "meta": 0, "nbt" : "{ench:[0:{id:45s,lvl:3s},1:{id:21s,lvl:3s}],display:{Name:\"Gambler's Grave\"}}"}, "weight": 5},
+		{"data": {"name": "minecraft:diamond_sword", "meta": 0, "nbt" : "{ench:[0:{id:18s,lvl:4s},1:{id:46s,lvl:1s}],display:{Name:\"Pest Control Pestilence\"}}"}, "weight": 5},
+		{"data": {"name": "minecraft:diamond_sword", "meta": 0, "nbt" : "{ench:[0:{id:34s,lvl:3s},1:{id:20s,lvl:2s}],display:{Name:\"Fireman's Fury\"}}"}, "weight": 5}
       ]
     }
   ]
