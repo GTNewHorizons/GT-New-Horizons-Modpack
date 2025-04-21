@@ -1,0 +1,11 @@
+{
+	"name": "difficulty",
+	"levels" : {
+		"0" : {
+			"diff" : 2
+		},
+		"1" : {
+			"diff" : 2
+		}
+	}
+}
