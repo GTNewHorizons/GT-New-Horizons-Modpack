@@ -21,7 +21,7 @@
 						"weight" : 2
 					}
 				],
-				"arch" : "ARCH"
+				"arch" : "SQUAREARCH"
 			}
 		},
 		"1" : {
@@ -60,7 +60,7 @@
 						"weight" : 5
 					}
 				],
-				"arch" : "ARCH"
+				"arch" : "SQUAREARCH"
 			}
 		}
 	}
