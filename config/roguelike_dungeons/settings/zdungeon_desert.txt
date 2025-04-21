@@ -9,8 +9,14 @@
 		"tower_desert",
 		"rooms_desert",
 		"segments_desert",
-		"difficulty_desert",
 		"size"
-
-  ]
+	],
+	"levels" : {
+		"0" : {
+			"diff" : 2
+		},
+		"1" : {
+			"diff" : 2
+		}
+	}
 }
