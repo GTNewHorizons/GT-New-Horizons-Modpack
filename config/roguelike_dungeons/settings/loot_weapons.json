@@ -72,7 +72,7 @@
 		{"data": {"name": "Natura:natura.bow.ghostwood", "meta": 0}, "weight": 5},
 		{"data": {"name": "minecraft:wooden_sword", "meta": 0, "nbt" : "{ench:[0:{id:34s,lvl:3s},1:{id:16s,lvl:7s}],display:{Name:\"Noteworthy Naboot\"}}"}, "weight": 5},
 		{"data": {"name": "minecraft:iron_axe", "meta": 0, "nbt" : "{ench:[0:{id:16s,lvl:3s},1:{id:19s,lvl:3s}],display:{Name:\"Mighty Meteor Hammer\"}}"}, "weight": 5},
-		{"data": {"name": "minecraft:iron_sword", "meta": 0, "nbt" : "{ench:[0:{id:99s,lvl:5s}],display:{Name:\"Awakend Angon\"}}"}, "weight": 5},
+		{"data": {"name": "minecraft:iron_sword", "meta": 0, "nbt" : "{ench:[0:{id:99s,lvl:5s}],display:{Name:\"Awakened Angon\"}}"}, "weight": 5},
 		{"data": {"name": "minecraft:iron_sword", "meta": 0, "nbt" : "{ench:[0:{id:180s,lvl:3s},1:{id:98s,lvl:5s}],display:{Name:\"Handy Harpē\"}}"}, "weight": 5},
 		{"data": {"name": "minecraft:iron_sword", "meta": 0, "nbt" : "{ench:[0:{id:8s,lvl:3s},1:{id:18s,lvl:4s}],display:{Name:\"Deadman's Dagger\"}}"} "weight": 5}
       ]
