@@ -1,0 +1,44 @@
+{
+	"name": "rooms_mountain",
+	"levels": {
+		"0": {
+			"rooms": [
+				{"mode": "secret", "type": "LIBRARY"},
+				{"mode": "single", "type": "CAKE"},
+				{"mode": "single", "type": "FIRE"},
+				{"mode": "random", "type": "ENIKO", "weight" : 10},
+				{"mode": "random", "type": "CORNER", "weight" : 3}
+			],
+			"secrets" : [
+				{"type" : "BEDROOM", "num" : 2},
+				{"type" : "SMITH", "num" : 1}
+		]
+		},
+		"1": {
+			"rooms": [
+				{"mode": "single", "type": "FIRE"},
+				{"mode": "single", "type": "PIT"},
+				{"mode": "single", "type": "MESS"},
+				{"mode": "single", "type": "LAB"},
+				{"mode": "random", "type": "ENIKO", "weight" : 10},
+				{"mode": "random", "type": "CORNER", "weight" : 3}
+		
+			],
+			"secrets" : [
+				{"type" : "ENCHANT", "num" : 1}
+		]
+		},
+		"2": {
+			"rooms": [
+
+				{"mode": "random", "type": "BRICK", "weight" : 4},
+				{"mode": "random", "type": "SLIME", "weight" : 7},
+				{"mode": "random", "type": "CORNER", "weight" : 3},
+				{"mode": "random", "type": "SPIDER", "weight" : 2},
+				{"mode": "random", "type": "PIT", "weight" : 2},
+				{"mode": "random", "type": "PRISON", "weight" : 3}
+		
+			]
+		}
+	}
+}
