@@ -13,12 +13,12 @@
 						"weight" : 5
 					},
 					{
-						"type" : "TOMB",
-						"weight" : 1
-					},
-					{
 						"type" : "SKULL",
 						"weight" : 2
+					},
+					{
+						"type" : "TOMB",
+						"weight" : 1
 					}
 				],
 				"arch" : "SQUAREARCH"
