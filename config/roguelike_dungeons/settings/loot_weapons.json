@@ -63,7 +63,7 @@
 		{"data": {"name": "minecraft:iron_axe", "meta": 0, "nbt" : "{ench:[0:{id:16s,lvl:3s}],display:{Name:\"Deadly Dane Axe\"}}"}, "weight": 7},
 		{"data": {"name": "minecraft:iron_sword", "meta": 0, "nbt" : "{ench:[0:{id:17s,lvl:1s},1:{id:19s,lvl:2s}],display:{Name:\"Oppresive Oxborough Dirk\"}}"}, "weight": 7},
 		{"data": {"name": "minecraft:iron_sword", "meta": 0, "nbt" : "{ench:[0:{id:99s,lvl:3s},1:{id:45s,lvl:3s}],display:{Name:\"Handy Harpē\"}}"}, "weight": 7},
-		{"data": {"name": "minecraft:iron_sword", "meta": 0, "nbt" : "{ench:[0:{id:20s,lvl:1s},1:{id:21s,lvl:2s}],display:{Name:\"Dangerous Deer Catcher\"}}"}, "weight": 5},
+		{"data": {"name": "minecraft:iron_sword", "meta": 0, "nbt" : "{ench:[0:{id:20s,lvl:1s},1:{id:21s,lvl:2s}],display:{Name:\"Dangerous Deer Catcher\"}}"}, "weight": 7},
 		{"data": {"name": "minecraft:golden_sword", "meta": 0, "nbt" : "{ench:[0:{id:17s,lvl:7s},1:{id:34s,lvl:5s}],display:{Name:\"Gladius Imperatoria\"}}"}, "weight": 1}
 
 
