@@ -27,10 +27,14 @@
 		{"data": {"name": "TConstruct:leggingsWood", "meta": 0}, "weight": 10},
 		{"data": {"name": "TConstruct:chestplateWood", "meta": 0}, "weight": 10},
 		{"data": {"name": "TConstruct:bootsWood", "meta": 0}, "weight": 10},
-		{"data": {"name": "minecraft:leather_boots", "meta": 0}, "weight": 10},
-		{"data": {"name": "minecraft:leather_chestplate", "meta": 0}, "weight": 10},
-		{"data": {"name": "minecraft:leather_helmet", "meta": 0}, "weight": 10},
-		{"data": {"name": "minecraft:leather_leggings", "meta": 0}, "weight": 10},
+		{"data": {"name": "minecraft:leather_boots", "meta": 0}, "weight": 5},
+		{"data": {"name": "minecraft:leather_boots", "meta": 0, "ntb" : "{display:{color:4154789,Name:\"Crocs\"}}"}, "weight": 5},
+		{"data": {"name": "minecraft:leather_chestplate", "meta": 0}, "weight": 5},
+		{"data": {"name": "minecraft:leather_chestplate", "meta": 0, "nbt" : "{display:{color:11328472,Name:\"Oxford Button Down Shirt\"}}"}, "weight": 5},
+		{"data": {"name": "minecraft:leather_helmet", "meta": 0}, "weight": 5},
+		{"data": {"name": "minecraft:leather_helmet", "meta": 0, "nbt" : "{display:{color:12553267,Name:\"Fedora\"}}"}, "weight": 5},
+		{"data": {"name": "minecraft:leather_leggings", "meta": 0}, "weight": 5},
+		{"data": {"name": "minecraft:leather_leggings", "meta": 0, "nbt" : "{display:{color:10057608,Name:\"pant\"}}"}, "weight": 5},
 		{"data": {"name": "TConstruct:slime_boots", "meta": 0}, "weight": 4}
 
       ]
