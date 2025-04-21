@@ -9,7 +9,11 @@
 				{"mode": "secret", "type": "BEDROOM"},
 				{"mode": "random", "type": "BRICK", "weight" : 4},
 				{"mode": "random", "type": "CORNER", "weight" : 2}
-			]
+			],
+			"secrets" : [
+				{"type" : "BEDROOM", "num" : 1},
+				{"type" : "SMITH", "num" : 1}
+		]
 		},
 		"1": {
 			"rooms": [
