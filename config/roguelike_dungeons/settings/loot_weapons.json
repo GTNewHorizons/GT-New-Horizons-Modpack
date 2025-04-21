@@ -56,9 +56,13 @@
     },
 	{"level": 1, "type": "WEAPONS", "each": true, "quantity": 1, "loot": [
 		{"data": {"name": "Thaumcraft:ItemBowBone", "meta": 0}, "weight": 3},
-		{"data": {"name": "minecraft:bow", "meta": 0}, "weight": 10},
+		{"data": {"name": "minecraft:bow", "meta": 0}, "weight": 5},
 		{"data": {"name": "Natura:natura.bow.bloodwood", "meta": 0}, "weight": 5},
-		{"data": {"name": "minecraft:iron_sword", "meta": 0}, "weight": 25}
+		{"data": {"name": "minecraft:iron_sword", "meta": 0, "nbt" : "{ench:[0:{id:34s,lvl:3s},1:{id:16s,lvl:1s}],display:{Name:\"Great Gladius\"}}"}, "weight": 5},
+		{"data": {"name": "minecraft:iron_axe", "meta": 0, "nbt" : "{ench:[0:{id:16s,lvl:3s}],display:{Name:\"Deadly Dane Axe\"}}"}, "weight": 5},
+		{"data": {"name": "minecraft:iron_sword", "meta": 0, "nbt" : "{ench:[0:{id:17s,lvl:3s},1:{id:19s,lvl:2s}],display:{Name:\"Oppresive Oxborough Dirk\"}}"}, "weight": 5},
+		{"data": {"name": "minecraft:iron_sword", "meta": 0, "nbt" : "{ench:[0:{id:99s,lvl:3s}],display:{Name:\"Handy Harpē\"}}"}, "weight": 5},
+		{"data": {"name": "minecraft:iron_sword", "meta": 0, "nbt" : "{ench:[0:{id:20s,lvl:1s},1:{id:21s,lvl:2s}],display:{Name:\"Dangerous Deer Catcher\"}}"} "weight": 5}
 
     ]
     },
@@ -66,7 +70,11 @@
 		{"data": {"name": "Thaumcraft:ItemBowBone", "meta": 0}, "weight": 3},
 		{"data": {"name": "minecraft:bow", "meta": 0}, "weight": 10},
 		{"data": {"name": "Natura:natura.bow.ghostwood", "meta": 0}, "weight": 5},
-		{"data": {"name": "minecraft:iron_sword", "meta": 0}, "weight": 25}
+		{"data": {"name": "minecraft:wooden_sword", "meta": 0, "nbt" : "{ench:[0:{id:34s,lvl:3s},1:{id:16s,lvl:7s}],display:{Name:\"Noteworthy Naboot\"}}"}, "weight": 5},
+		{"data": {"name": "minecraft:iron_axe", "meta": 0, "nbt" : "{ench:[0:{id:16s,lvl:3s},1:{id:19s,lvl:3s}],display:{Name:\"Mighty Meteor Hammer\"}}"}, "weight": 5},
+		{"data": {"name": "minecraft:iron_sword", "meta": 0, "nbt" : "{ench:[0:{id:99s,lvl:5s}],display:{Name:\"Awakend Angon\"}}"}, "weight": 5},
+		{"data": {"name": "minecraft:iron_sword", "meta": 0, "nbt" : "{ench:[0:{id:180s,lvl:3s},1:{id:98s,lvl:5s}],display:{Name:\"Handy Harpē\"}}"}, "weight": 5},
+		{"data": {"name": "minecraft:iron_sword", "meta": 0, "nbt" : "{ench:[0:{id:8s,lvl:3s},1:{id:18s,lvl:4s}],display:{Name:\"Deadman's Dagger\"}}"} "weight": 5}
       ]
     },
 	{"level": 2, "type": "WEAPONS", "each": true, "quantity": 4, "loot": [
