@@ -51,8 +51,8 @@
         {"data": {"name": "gregtech:gt.metaitem.01", "meta": 11335, "min": 2, "max": 4}, "weight": 15},
         {"data": {"name": "gregtech:gt.metaitem.01", "meta": 11371, "min": 2, "max": 4}, "weight": 15},
         {"data": {"name": "gregtech:gt.metaitem.01", "meta": 11305, "min": 2, "max": 4}, "weight": 15},
-        {"data": {"name": "gregtech:gt.metaitem.01", "meta": 11089, "min": 3, "max": 10}, "weight": 50},
-	{"data": {"name": "gregtech:gt.metaitem.01", "meta": 2022, "min": 3, "max": 24}, "weight": 50}
+        {"data": {"name": "gregtech:gt.metaitem.01", "meta": 11089, "min": 3, "max": 10}, "weight": 40},
+	{"data": {"name": "gregtech:gt.metaitem.01", "meta": 2022, "min": 3, "max": 24}, "weight": 40}
       ]
     }
   ]
