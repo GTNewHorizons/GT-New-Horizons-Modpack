@@ -76,7 +76,7 @@
 		{"data": {"name": "minecraft:wooden_sword", "meta": 0, "nbt" : "{ench:[0:{id:34s,lvl:3s},1:{id:16s,lvl:6s}],display:{Name:\"Noteworthy Naboot\"}}"}, "weight": 7},
 		{"data": {"name": "minecraft:iron_axe", "meta": 0, "nbt" : "{ench:[0:{id:16s,lvl:3s},1:{id:19s,lvl:3s}],display:{Name:\"Mighty Meteor Hammer\"}}"}, "weight": 7},
 		{"data": {"name": "minecraft:iron_sword", "meta": 0, "nbt" : "{ench:[0:{id:99s,lvl:5s},1:{id:21s,lvl:3s}],display:{Name:\"Awakened Angon\"}}"}, "weight": 7},
-		{"data": {"name": "minecraft:iron_sword", "meta": 0, "nbt" : "{ench:[0:{id:180s,lvl:3s},1:{id:45s,lvl:3s}],display:{Name:\"Skillful Saber\"}}"}, "weight": 7},
+		{"data": {"name": "minecraft:iron_sword", "meta": 0, "nbt" : "{ench:[0:{id:18s,lvl:3s},1:{id:45s,lvl:3s}],display:{Name:\"Skillful Saber\"}}"}, "weight": 7},
 		{"data": {"name": "minecraft:iron_sword", "meta": 0, "nbt" : "{ench:[0:{id:8s,lvl:3s},1:{id:18s,lvl:4s}],display:{Name:\"Deadman's Dagger\"}}"}, "weight": 7},
 		{"data": {"name": "minecraft:iron_sword", "meta": 0, "nbt" : "{ench:[0:{id:8s,lvl:3s},1:{id:16s,lvl:7s}],display:{Name:\"Kotetsu\"}}"}, "weight": 1}
       ]
