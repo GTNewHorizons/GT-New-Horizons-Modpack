@@ -35,7 +35,7 @@
       ]
     },
     {"level": 3, "type": "WEAPONS", "each": true, "quantity": 4, "loot": [
-        {"data": {"name": "gregtech:gt.metaitem.01", "meta": 11383, "min": 3, "max": 5}, "weight": 10},
+        {"data": {"name": "miscutils:itemIngotTumbaga", "meta": 0, "min": 3, "max": 8}, "weight": 20},
         {"data": {"name": "gregtech:gt.metaitem.01", "meta": 11033, "min": 3, "max": 5}, "weight": 10},
         {"data": {"name": "gregtech:gt.metaitem.01", "meta": 11880, "min": 4, "max": 10}, "weight": 15},
         {"data": {"name": "minecraft:dye", "meta": 4, "min": 4, "max": 10}, "weight": 15},
