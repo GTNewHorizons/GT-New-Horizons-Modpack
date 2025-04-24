@@ -24,7 +24,7 @@
         {"data": {"name": "minecraft:iron_ingot", "meta": 0, "min": 5, "max": 15}, "weight": 30}
     ]
     },
-    {"level": 2, "type": "WEAPONS", "each": true, "quantity": 2, "loot": [
+    {"level": 2, "type": "WEAPONS", "each": true, "quantity": 3, "loot": [
         {"data": {"name": "gregtech:gt.metaitem.02", "meta": 30501, "min": 1, "max": 2}, "weight": 5},
         {"data": {"name": "gregtech:gt.metaitem.02", "meta": 30500, "min": 1, "max": 2}, "weight": 5},
         {"data": {"name": "gregtech:gt.metaitem.01", "meta": 8502, "min": 2, "max": 3}, "weight": 15},
