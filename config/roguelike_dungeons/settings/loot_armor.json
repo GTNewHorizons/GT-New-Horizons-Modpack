@@ -2,18 +2,23 @@
 	"name": "loot_armor",
 	"loot_rules": [
 	{"level": [0, 1, 2, 3, 4], "type": "ARMOUR", "each": true, "quantity": 1, "loot": [
-		{"data": {"name": "BiblioCraft:item.BiblioGlasses", "meta": 2}, "weight": 1},
-		{"data": {"name": "BiblioCraft:item.BiblioGlasses", "meta": 1}, "weight": 1},
-		{"data": {"name": "BiblioCraft:item.BiblioGlasses", "meta": 0}, "weight": 1},
-		{"data": {"name": "Thaumcraft:ItemBaubleBlanks", "meta": 0}, "weight": 8},
-		{"data": {"name": "Thaumcraft:ItemBaubleBlanks", "meta": 1}, "weight": 8},
-		{"data": {"name": "Thaumcraft:ItemBaubleBlanks", "meta": 2}, "weight": 8},
-		{"data": {"name": "TwilightForest:item.charmOfKeeping1", "meta": 0}, "weight": 6},
-		{"data": {"name": "TwilightForest:item.charmOfKeeping2", "meta": 0}, "weight": 6},
-		{"data": {"name": "TwilightForestitem.charmOfKeeping3", "meta": 0}, "weight": 6},
-		{"data": {"name": "BiomesOPlenty:flippers", "meta": 0}, "weight": 5},
+		{"data": {"name": "BiblioCraft:item.BiblioGlasses", "meta": 2}, "weight": 3},
+		{"data": {"name": "BiblioCraft:item.BiblioGlasses", "meta": 1}, "weight": 3},
+		{"data": {"name": "BiblioCraft:item.BiblioGlasses", "meta": 0}, "weight": 3},
+		{"data": {"name": "Forestry:builderBag", "meta": 0}, "weight": 1},
+		{"data": {"name": "Forestry:diggerBag", "meta": 0}, "weight": 1},
+		{"data": {"name": "Forestry:foresterBag", "meta": 0}, "weight": 1},
+		{"data": {"name": "Forestry:hunterBag", "meta": 0}, "weight": 2},
+		{"data": {"name": "Forestry:minerBag", "meta": 0}, "weight": 1},
+		{"data": {"name": "Thaumcraft:ItemBaubleBlanks", "meta": 0}, "weight": 12},
+		{"data": {"name": "Thaumcraft:ItemBaubleBlanks", "meta": 1}, "weight": 12},
+		{"data": {"name": "Thaumcraft:ItemBaubleBlanks", "meta": 2}, "weight": 12},
+		{"data": {"name": "TwilightForest:item.charmOfKeeping1", "meta": 0}, "weight": 12},
+		{"data": {"name": "TwilightForest:item.charmOfKeeping2", "meta": 0}, "weight": 8},
+		{"data": {"name": "TwilightForestitem.charmOfKeeping3", "meta": 0}, "weight": 4},
+		{"data": {"name": "BiomesOPlenty:flippers", "meta": 0}, "weight": 8},
 		{"data": {"name": "Backpack:backpack", "meta": 0}, "weight": 1},
-		{"data": {"name": "ExtraUtilities:glove", "meta": 0}, "weight": 1}
+		{"data": {"name": "ExtraUtilities:glove", "meta": 0}, "weight": 3}
 
 
       ]

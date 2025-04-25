@@ -24,7 +24,7 @@
         {"data": {"name": "minecraft:iron_ingot", "meta": 0, "min": 5, "max": 15}, "weight": 30}
     ]
     },
-    {"level": 2, "type": "WEAPONS", "each": true, "quantity": 2, "loot": [
+    {"level": 2, "type": "WEAPONS", "each": true, "quantity": 3, "loot": [
         {"data": {"name": "gregtech:gt.metaitem.02", "meta": 30501, "min": 1, "max": 2}, "weight": 5},
         {"data": {"name": "gregtech:gt.metaitem.02", "meta": 30500, "min": 1, "max": 2}, "weight": 5},
         {"data": {"name": "gregtech:gt.metaitem.01", "meta": 8502, "min": 2, "max": 3}, "weight": 15},
@@ -35,7 +35,7 @@
       ]
     },
     {"level": 3, "type": "WEAPONS", "each": true, "quantity": 4, "loot": [
-        {"data": {"name": "gregtech:gt.metaitem.01", "meta": 11383, "min": 3, "max": 5}, "weight": 10},
+        {"data": {"name": "miscutils:itemIngotTumbaga", "meta": 0, "min": 6, "max": 18}, "weight": 20},
         {"data": {"name": "gregtech:gt.metaitem.01", "meta": 11033, "min": 3, "max": 5}, "weight": 10},
         {"data": {"name": "gregtech:gt.metaitem.01", "meta": 11880, "min": 4, "max": 10}, "weight": 15},
         {"data": {"name": "minecraft:dye", "meta": 4, "min": 4, "max": 10}, "weight": 15},
@@ -48,9 +48,9 @@
       "level": 4, "type": "WEAPONS", "each": true, "quantity": 4, "loot": [
         {"data": {"name": "gregtech:gt.metaitem.01", "meta": 2347, "min": 1, "max": 3}, "weight": 8},
         {"data": {"name": "etfuturum:ancient_debris", "meta": 11330, "min": 1, "max": 2}, "weight": 2},
-        {"data": {"name": "gregtech:gt.metaitem.01", "meta": 11335, "min": 4, "max": 10}, "weight": 15},
-        {"data": {"name": "gregtech:gt.metaitem.01", "meta": 11371, "min": 4, "max": 10}, "weight": 15},
-        {"data": {"name": "gregtech:gt.metaitem.01", "meta": 11383, "min": 4, "max": 6}, "weight": 15},
+        {"data": {"name": "gregtech:gt.metaitem.01", "meta": 11335, "min": 2, "max": 4}, "weight": 15},
+        {"data": {"name": "gregtech:gt.metaitem.01", "meta": 11371, "min": 2, "max": 4}, "weight": 15},
+        {"data": {"name": "miscutils:itemIngotTumbaga", "meta": 0, "min": 6, "max": 16}, "weight": 20},
         {"data": {"name": "gregtech:gt.metaitem.01", "meta": 11089, "min": 5, "max": 15}, "weight": 30},
 	{"data": {"name": "gregtech:gt.metaitem.01", "meta": 2022, "min": 3, "max": 24}, "weight": 30}
       ]
