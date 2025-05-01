@@ -176,44 +176,6 @@
 	<ToolTip ItemName="EMT:DrillRockbreaker:27" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
 	<ToolTip ItemName="EMT:ElectricHoeGrowth:1" ToolTip="Recharge in a §6MV-tier §7Machine" NBT=""/>
 	<ToolTip ItemName="EMT:ElectricHoeGrowth:27" ToolTip="Recharge in a §6MV-tier §7Machine" NBT=""/>
-	
-//Enhanced Lootbags	
-	<ToolTip ItemName="enhancedlootbags:lootbag" ToolTip="§3Enchant with a Fortune III Book" NBT=""/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:1" ToolTip="§3Enchant with a Fortune III Book" NBT=""/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:2" ToolTip="§3Enchant with a Fortune III Book" NBT=""/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:3" ToolTip="§3Enchant with a Fortune III Book" NBT=""/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:4" ToolTip="§3Enchant with a Fortune III Book" NBT=""/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:5" ToolTip="§3Enchant with a Fortune III Book" NBT=""/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:6" ToolTip="§3Enchant with a Fortune III Book" NBT=""/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:7" ToolTip="§3Enchant with a Fortune III Book" NBT=""/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:8" ToolTip="§3Enchant with a Fortune III Book" NBT=""/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:9" ToolTip="§3Enchant with a Fortune III Book" NBT=""/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:10" ToolTip="§3Enchant with a Fortune III Book" NBT=""/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:11" ToolTip="§3Enchant with a Fortune III Book" NBT=""/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:12" ToolTip="§3Enchant with a Fortune III Book" NBT=""/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:13" ToolTip="§3Enchant with a Fortune III Book" NBT=""/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:14" ToolTip="§3Enchant with a Fortune III Book" NBT=""/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:15" ToolTip="§3Enchant with a Fortune III Book" NBT=""/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:16" ToolTip="§3Enchant with a Fortune III Book" NBT=""/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:17" ToolTip="§3Enchant with a Fortune III Book" NBT=""/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:18" ToolTip="§3Enchant with a Fortune III Book" NBT=""/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:19" ToolTip="§3Enchant with a Fortune III Book" NBT=""/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:20" ToolTip="§3Enchant with a Fortune III Book" NBT=""/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:21" ToolTip="§3Enchant with a Fortune III Book" NBT=""/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:22" ToolTip="§3Enchant with a Fortune III Book" NBT=""/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:23" ToolTip="§3Enchant with a Fortune III Book" NBT=""/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:24" ToolTip="§3Enchant with a Fortune III Book" NBT=""/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:25" ToolTip="§3Enchant with a Fortune III Book" NBT=""/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:26" ToolTip="§3Enchant with a Fortune III Book" NBT=""/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:27" ToolTip="§3Enchant with a Fortune III Book" NBT=""/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:28" ToolTip="§3Enchant with a Fortune III Book" NBT=""/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:29" ToolTip="§3Enchant with a Fortune III Book" NBT=""/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:30" ToolTip="§3Enchant with a Fortune III Book" NBT=""/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:31" ToolTip="§3Enchant with a Fortune III Book" NBT=""/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:32" ToolTip="§3Enchant with a Fortune III Book" NBT=""/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:33" ToolTip="§3Enchant with a Fortune III Book" NBT=""/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:34" ToolTip="§3Enchant with a Fortune III Book" NBT=""/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:35" ToolTip="§3Enchant with a Fortune III Book" NBT=""/>
 
 //Graviation Suite
 	<ToolTip ItemName="GraviSuite:graviChestPlate:1" ToolTip="Recharge in a §8EV-tier §7Machine" NBT=""/>
