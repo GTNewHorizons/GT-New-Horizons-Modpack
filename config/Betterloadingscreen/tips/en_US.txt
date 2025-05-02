@@ -1,5 +1,5 @@
 #Tips for the loading screen
-#Thanks to 0lafe, boubou19, chochem, interestingusernam3, glowredman, GTNH-Afx237v7, leagris, LewisSaber, Nvidiot, Regian24, richardhendricks, yukieiji and others for tip suggestions
+#Thanks to 0lafe, boubou19, chochem, interestingusernam3, glowredman, GTNH-Afx237v7, leagris, LewisSaber, Nvidiot, Regian24, richardhendricks, yukieiji, FijiAura and others for tip suggestions
 #
 #Maximal characters for a tip: 77 (more can go out of the screen)
 #The line below, including the "#" are 77 chars
@@ -15,6 +15,7 @@ Adding water to an empty but hot Boiler will make a loud bang!
 Avoid Eldritch Obelisks!
 You can bind the questbook to a key to save you from using the item
 Pam's Gardens can be picked up with right-click
+Dont make the LV Extruder!
 Placing a Garden makes it spread
 Water Gardens grow on water
 Battlegear slots are convenient for holding weapons
@@ -31,10 +32,12 @@ The Bending Machine makes plates more efficiently
 Multiblocks can share walls
 You can't use the front side of machines for input and output
 Disable a machine with a Soft Mallet if it cannot finish a recipe
+Villagers periodically "shed" emeralds.
 Forestry Worktables are your friend
 Try the Midnight Theme for the questbook
 Try the Realistic Sky resourcepack
 Literally flint and steel!
+To go faster without sprinting, walk diagonally for about a 40% increase
 Tinker's Tools can levelup: more modifiers and mining level bonus!
 Farm Glowflowers for Glowstone
 Making Steel armour? Check out the Composite Chestplate
@@ -45,6 +48,7 @@ Loss on uninsulated cables is twice as big as on insulated ones
 Power requirements are based solely on the recipes
 A machine draws electricity from its internal buffer first
 Tinker's Faucets can pour fluids and also gasses(!) into containers
+Peaceful mode doesn't restore hunger.
 Beware of pollution!
 Found a crash or bug? Please report it on GitHub
 Tinker's Smeltery does not double ores
@@ -94,6 +98,7 @@ Using a Circuit Assembler will make circuits cheaper!
 Using a Cleanroom will make circuits even cheaper!
 GT stands for Grind and Tedium
 Don't go out at night! Mobs can have up to 300 HP
+Technically an IC2 Modpack!
 Steam is hot! It will burn Wooden Fluid Pipes
 Don't break Rubber Trees without a Treetap
 Make Muffler Moint Mup (Point up)
@@ -133,6 +138,7 @@ Cables are | || || |_ y
 Varying foods gives hearts!
 You can change InGame Info XML scale in ingame configs
 Look for Sulfur in the Nether
+Not like Nomifactory!
 Game mechanics datasheet: www.gtnewhorizons.com/spreadsheet
 If it's too tedious you're doing it wrong
 Do you also watch your oven while baking food?
