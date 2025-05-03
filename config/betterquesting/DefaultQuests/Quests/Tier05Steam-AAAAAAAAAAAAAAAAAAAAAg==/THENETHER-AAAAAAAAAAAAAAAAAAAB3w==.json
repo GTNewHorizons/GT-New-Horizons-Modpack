@@ -173,23 +173,6 @@
   },
   "tasks:9": {
     "0:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
-      "index:3": 0,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 10,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "minecraft:obsidian"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "1:10": {
       "biome:3": -1,
       "dimension:3": -1,
       "hideInfo:1": 0,
@@ -204,6 +187,23 @@
       "taskID:8": "bq_standard:location",
       "taxiCabDist:1": 0,
       "visible:1": 0
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 10,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:obsidian"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

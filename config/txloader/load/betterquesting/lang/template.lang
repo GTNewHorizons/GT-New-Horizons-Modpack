@@ -223,9 +223,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIA.desc=After you found a way to move w
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIQ.name=§2§lTinker-Time
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIQ.desc=While using your flint tools is fun in terms of killing pigs and cows, they are not long-lasting and can't be repaired. Plus Infernals laugh at your attempts to kill them. You discovered how to craft tools that can be repaired and upgraded, but for that you definitely need a more advanced crafting technique.%n%nIf you have to use wood other than oak to make your tables, you can convert them to the default oak wood type to complete this quest.
 
-# Quest: Aluminini...um...?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIg.name=§2§lAluminini...um...?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIg.desc=However it is spelled, you will need it. You can find it in chunks of gravel on the surface.%n%nUse as little as possible and save the rest for when you get a macerator in Steam age, you'll get twice as much.%n%nIf you can't find any, you can get aluminum oreberries to plant from quest rewards, or you can buy them in the Coins tab.%n%nIf you get enough and fully process it, you can also get rutile for titanium out of it. Get a block of that, and you can grow the Titania crop so you can make more out of UUM. The no-rocket run starts here!
+# Quest: Zinc Gravel
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIg.name=§2§lZinc Gravel
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIg.desc=You can find it in chunks of gravel on the surface.%n%nUse as little as possible and save the rest for when you get a macerator in Steam age, you'll get twice as much.%n%nIf you can't find any, you can buy them in the Coins tab.%n%nIf you get enough and fully process it, you can also get gallium for gallium arsenide in LV age.
 
 # Quest: Making Bronze
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIw.name=§2§lMaking Bronze
@@ -1221,9 +1221,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEQg.desc=Pumps can do more than pump oil
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEQw.name=§5§lDiamond Tanks... Ooo, Shiny
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEQw.desc=After you build a cutting machine you can make some diamond plates for your new 64,000L single block tank.
 
-# Quest: Firestone Ore/Dust
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE_w.name=§6§lFirestone Ore/Dust
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE_w.desc=Firestone ore is used to make some BC machines like the filler, and some other stuff. Unfortunately, it's in the nether...at the bottom of the lava ocean!%n%nHere are some tips for finding it:%n%n-Firestone only spawns in deep lava, at least 6 deep. It will only replace netherrack, so a fjord filled with soulsand won't have any. Can you think of ways to check the lava depth, and what's down there?%n-Alternatively, if you keep your head at just the correct height above the lava and at the correct angle, you'll be able to see underneath it - surely there must be a hovering jetpack?%n-...or just look for the biome when your cursor is over the JM map. Hell is the default one that has netherrack.%n%nFirestone can be mined with the GT miners, if you place it within horizontal range. Firestone ore and products will cause random fires to start nearby, so get it into a backpack quickly!
+# Quest: Firestone Ore
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE_w.name=§5§lFirestone Ore
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE_w.desc=Firestone ore is used to make some BC machines like the filler, and heats your Railcraft boiler much faster and more effectively than conventional fuels. %nUnfortunately, it's in the nether...at the bottom of the lava ocean!%n%nHere are some tips for finding it:%n%n-Firestone only spawns in deep lava, at least 6 blocks deep. It will only replace Netherrack, so a fjord filled with Soul Sand won't have any. Can you think of ways to check the lava depth, and what's down there?%n-Alternatively, if you keep your head at just the correct height above the lava and at the correct angle, you'll be able to see underneath it - surely there must be a hovering jetpack?%n-...or just look for the biome when your cursor is over the JM map. Hell is the default one that has Netherrack.%n%nFirestone can be mined with the GT miners, if you place it within horizontal range. Firestone ore and products will cause random fires to start nearby, so get it into a backpack quickly!
 
 # Quest: Ardite and Cobalt
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEaw.name=§5§lArdite and Cobalt
@@ -1726,9 +1726,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEOQ.desc=This Plate Bending Machine allo
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAERQ.name=§6§lDid You Run Low On Gold or Redstone?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAERQ.desc=Did you run low on redstone and/or gold? It's no problem with a glowstone flower farm. You can centrifuge glowstone dust to redstone and gold dust. Redstone is also a good source of chrome. You'll need tons of gold for HV, so it's a good idea to set this up before then.%n%n[note]There are actually a couple plants that produce glowstone, pick the one you like![/note]
 
-# Quest: Firestone Ore/Dust
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE_w.name=§6§lFirestone Ore/Dust
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE_w.desc=Firestone ore is used to make some BC machines like the filler, and some other stuff. Unfortunately, it's in the nether...at the bottom of the lava ocean!%n%nHere are some tips for finding it:%n%n-Firestone only spawns in deep lava, at least 6 deep. It will only replace netherrack, so a fjord filled with soulsand won't have any. Can you think of ways to check the lava depth, and what's down there?%n-Alternatively, if you keep your head at just the correct height above the lava and at the correct angle, you'll be able to see underneath it - surely there must be a hovering jetpack?%n-...or just look for the biome when your cursor is over the JM map. Hell is the default one that has netherrack.%n%nFirestone can be mined with the GT miners, if you place it within horizontal range. Firestone ore and products will cause random fires to start nearby, so get it into a backpack quickly!
+# Quest: Firestone Ore
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE_w.name=§5§lFirestone Ore
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE_w.desc=Firestone ore is used to make some BC machines like the filler, and heats your Railcraft boiler much faster and more effectively than conventional fuels. %nUnfortunately, it's in the nether...at the bottom of the lava ocean!%n%nHere are some tips for finding it:%n%n-Firestone only spawns in deep lava, at least 6 blocks deep. It will only replace Netherrack, so a fjord filled with Soul Sand won't have any. Can you think of ways to check the lava depth, and what's down there?%n-Alternatively, if you keep your head at just the correct height above the lava and at the correct angle, you'll be able to see underneath it - surely there must be a hovering jetpack?%n-...or just look for the biome when your cursor is over the JM map. Hell is the default one that has Netherrack.%n%nFirestone can be mined with the GT miners, if you place it within horizontal range. Firestone ore and products will cause random fires to start nearby, so get it into a backpack quickly!
 
 # Quest: Tier 2 (MV)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEfA.name=§6§lTier 2 (MV)
@@ -5121,15 +5121,15 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHwQ.desc=Elevators are great for fast tr
 
 # Quest: Better Boots with a little pizzazz
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI1A.name=Better Boots with a little pizzazz
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI1A.desc=Electric Boots of the Traveller grant you a 2%% Vis Discount along with all the benefits of the regular Boots of the Traveller.%n%nIn addition, they come with a wide variety of new features thanks to our amazing magic devs:%n%n- Configurable Jump Boost: You can choose between 0%%, 25%%, 50%%, 75%%, or a 100%% jump boost.%n%n- Configurable Speed Boost: Similar to the jump boost, you can adjust the speed boost percentage to your preference.%n%n- Flight Inertia: When toggled on, this feature cancels inertia while flying, allowing for precise movement even when traveling at high speeds.%n%n- Omnidirectional Movement: This toggle lets you decide whether your speed boost applies in all directions or only while running straight ahead.%n%n[note]None of these keybinds are set by default. The easiest way to configure them is to go into Options -> Controls, turn on the "Category" button, and type "Thaumic Boots." Then, assign keys for the features as needed.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI1A.desc=Electric Boots of the Traveller grant you a 2%% Vis Discount along with all the benefits of the regular Boots of the Traveller.%n%nIn addition, they come with a wide variety of new features thanks to our amazing magic devs:%n%n- Configurable Jump Boost: You can choose between 0%%, 25%%, 50%%, 75%%, or a 100%% jump boost.%n%n- Configurable Speed Boost: Similar to the jump boost, you can adjust the speed boost percentage to your preference.%n%n- Flight Inertia: When toggled on, this feature cancels inertia while flying, allowing for precise movement even when traveling at high speeds.%n%n- Omnidirectional Movement: This toggle lets you decide whether your speed boost applies in all directions or only while running straight ahead.%n%n[note]None of these keybinds are set by default. The easiest way to configure them is to go into Options -> Controls, turn on the "Category" button, and type "Thaumic Boots." Then, assign keys for the features as needed.[/note]%n%n[note]If you want to advance in the dark arts you can also make them voidwalker boots.[/note]
 
 # Quest: Walk all over you
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI1Q.name=Walk all over you
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI1Q.desc=Nanosuit Boots of the Traveller provide all the benefits of the Nanosuit, plus a massive speed boost, higher jump, and improved Vis Discount. These are the perfect boots for the master magical engineer.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI1Q.desc=Nanosuit Boots of the Traveller provide all the benefits of the Nanosuit, plus a massive speed boost, higher jump, and improved Vis Discount. These are the perfect boots for the master magical engineer.%n%n[note]If you want to advance in the dark arts you can also make them voidwalker boots.[/note]
 
 # Quest: Walking across the stars
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI1g.name=Walking across the stars
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI1g.desc=Quantum Boots of the Traveller, for when you really need to run as fast as the wind. Might cause you some problems standing still!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI1g.desc=Quantum Boots of the Traveller, for when you really need to run as fast as the wind. Might cause you some problems standing still!%n%n[note]If you want to advance in the dark arts you can also make them voidwalker boots.[/note]
 
 # Quest: Flying Like....Mary Poppins?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIDA.name=Flying Like....Mary Poppins?
@@ -7462,8 +7462,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALmw.desc=You shouldn't click on links fr
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALnA.name=Gotta Pump It Up
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALnA.desc=If you made it this far you may have already noticed that you cannot pour vanilla water into the dam. That’s what a HydroEnergy Pump is for. This multi-block exists in multiple tiers and will allow you to reach higher water levels (= more energy capacity). Provide the pump with vanilla water as input and pipe the fluid output into the dam. Then the dam will slowly fill up. If the dam is full or full for a pump’s voltage tier, it will void the water and energy.%n%nThat's all folks! Nothing too fancy here.%n%nIf you have any further questions, missing information or suggestions please do not hesitate to post on the official GT New Horizons Discord. Please add '@SinTh0r4s' to your post to make sure I’ll see it.
 
-# Quest: Let if flow, let it floww ...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALnQ.name=Let if flow, let it floww ...
+# Quest: Let it flow, let it floww ...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALnQ.name=Let it flow, let it floww ...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALnQ.desc=... can't hold it back anymore. It is time to collect the rewards of your hard work. Connect the fluid output hatch from the dam to the fluid input hatch of this turbine and finally enjoy the power! You can pause this multiblock if you cut the fluid input or use a machine controller. Oh, and you will get your water back in the fluid output hatch.%n%nCongratulations to making it this far! Enjoy your ginormous energy buffer!%n%nIf you have any further questions, missing information or suggestions please do not hesitate to post on the official GT New Horizons Discord. Please add '@SinTh0r4s' to your post to make sure I’ll see it.
 
 # Quest: Extremely Ultimate and Ultimately Extreme
