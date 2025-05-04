@@ -1,0 +1,28 @@
+{
+	"name": "rooms_swamp",
+	"levels": {
+		"0": {
+			"rooms": [
+				{"mode": "single", "type": "CAKE"},
+				{"mode": "single", "type": "FIRE"},
+				{"mode": "single", "type": "DARKHALL"},
+				{"mode": "random", "type": "BRICK", "weight" : 10},
+				{"mode": "random", "type": "CORNER", "weight" : 3}
+			]
+		},
+		"1": {
+			"rooms": [
+				{"mode": "single", "type": "CAKE"},
+				{"mode": "single", "type": "LAB"},
+				{"mode": "single", "type": "SPIDER"},
+                		{"mode": "single", "type": "PIT"},
+				{"mode": "random", "type": "BRICK", "weight" : 10},
+				{"mode": "random", "type": "CORNER", "weight" : 3}
+		
+			],
+			"secrets" : [
+				{"type" : "PRISON", "num" : 1}
+		]
+		}
+	}
+}
