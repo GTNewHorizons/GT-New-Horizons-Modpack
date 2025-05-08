@@ -4,10 +4,11 @@
     "minecraft:nether_brick:0:80",
     "etfuturum:red_netherbrick:1:50",
     "etfuturum:red_netherbrick:0:50",
+    "etfuturum:soul_soil:0:50",
     "minecraft:soul_sand:0:50",
-    "etfuturum:nether_wart:0:20",
-    "etfuturum:nether_wart:1:20",
-    "etfuturum:shroomlight:0:10"
+    "miscutils:blockCompressedObsidian:11:20",
+    "miscutils:blockCompressedObsidian:12:10",
+    "miscutils:blockCompressedObsidian:13:5"
   ],
   "filler": [
     "minecraft:netherrack:0:200"
