@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "You may have noticed that you can make more than just Charcoal in a Coke Oven, you can also make Coke.\n\nThe data below shows the burn time (BT), how long it takes in ticks - 20 ticks is 1 second - and how much creosote (Cr) you gain.\n\nCoal 1600BT + 1800t -\u003e Coal Coke 3200BT + 500l Cr\nWood Log 300BT + 1800t -\u003e Charcoal 1600BT + 250l Cr\nCactus 50BT + 500t -\u003e Cactus Charcoal 400BT + 30l Cr\nCactus Charcoal 400BT + 500t -\u003e Cactus Coke 800BT + 30l Cr\nSugar Cane 50BT + 500t -\u003e Sugar Charcoal 400BT + 30l Cr\nSugar Charcoal 400BT + 500t   -\u003e Sugar Coke 800BT +30l Cr\n\nYou want to save all of your Coke for making Steel in your Bricked Blast Furnace (BBF) later on. As for everything else, check NEI for the uses of each Coal variant, since there are many.",
+      "desc:8": "You may have noticed that you can make more than just Charcoal in a Coke Oven, you can also make Coke.\n\nYou want to save all of your Coke for making Steel in your Bricked Blast Furnace (BBF) later on. As for everything else, check NEI for the uses of each Coal variant, since there are many.\n\n[note]Once you get to the Steam Age, you can compress your Sugar and Cactus Coke for higher efficiency just like regular Coal and Charcoal.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -106,7 +106,7 @@
           "id:8": "minecraft:reeds"
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:optional_retrieval"
     },
     "1:10": {
       "autoConsume:1": 0,
