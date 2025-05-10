@@ -2,13 +2,17 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 169
+      "questIDLow:4": 146
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 142
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The inventory panel is an alternative to a PR or LP storage system. Just like PR, you have to connect every chest/barrel with an item conduit. In addition to that, you also have to install a \"remote awareness\" upgrade into every conduit side you want the panel to see.\n\nWell, they\u0027re all obsolete once you get AE2 though.",
+      "desc:8": "The inventory panel is an alternative to a PR or LP storage system. Just like PR, you have to connect every chest/barrel with an item conduit.\n\nIn addition to that, you also have to install a \"Remote Awareness\" upgrade into every conduit side you want the panel to see, and provide the panel with Nutrient Distillation which you make in The Vat.\n\nWell, they\u0027re all obsolete once you get AE2 though.\n",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
