@@ -1,0 +1,52 @@
+{
+	"name" : "segments_mountain",
+	"levels" : {
+		"0" : {
+			"segments" : {
+				"segments" : [
+					{
+						"type" : "DOOR",
+						"weight" : 7
+					},
+					{
+						"type" : "ANKH",
+						"weight" : 2
+					},
+					{
+						"type" : "PLANT",
+						"weight" : 3
+					},
+					{
+						"type" : "LAMP",
+						"weight" : 1
+					},
+					{
+						"type" : "FLOWERS",
+						"weight" : 1
+					}
+				],
+				"arch" : "ARCH"
+			}
+		},
+		"2" : {
+			"segments" : {
+				"segments" : [
+					{
+						"type" : "SEWER",
+						"weight" : 7
+					},
+					{
+						"type" : "SEWERDRAIN",
+						"weight" : 4
+					},
+					{
+						"type" : "SEWERDOOR",
+						"weight" : 2
+					}
+				],
+				"arch" : "SEWERARCH"
+			}
+		}
+	}
+
+}
