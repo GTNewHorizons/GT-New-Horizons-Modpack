@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "You probably also want a good overview of what you can get with your Gas Siphon. So here we go:\n\n\nJupiter§r\n1 Hydrogen - 15000 L/s\n2 Helium - 500 L/s\n3 Nitrogen - 300 L/s\n4 Oxygen - 200 L/s\n\n§oSaturn§r\n1 Hydrogen - 18000 L/s\n2 Helium - 800 L/s\n3 Oxygen - 500 L/s\n4 Liquid Oxygen - 150 L/s\n\n§oUranus§r\n1 Deuterium - 5000 L/s\n2 Neon - 450 L/s\n3 Argon - 250 L/s\n4 Krypton - 100 L/s\n\n§oNeptune§r\n1 Tritium - 3000 L/s\n2 Helium-3 - 500 L/s\n3 Ammonia - 400 L/s\n4 Xenon - 350 L/s",
+      "desc:8": "You probably also want a good overview of what you can get with your Planetary Gas Siphon, and the tiers of the gas giants. So here we go:\n\nJupiter (Tier 3)\n1 Hydrogen - 15000 L/s\n2 Helium - 500 L/s\n3 Nitrogen - 300 L/s\n4 Oxygen - 200 L/s\n\nSaturn (Tier 5)\n1 Hydrogen - 18000 L/s\n2 Helium - 800 L/s\n3 Oxygen - 500 L/s\n4 Liquid Oxygen - 150 L/s\n\nUranus (Tier 5)\n1 Deuterium - 5000 L/s\n2 Neon - 450 L/s\n3 Argon - 250 L/s\n4 Krypton - 100 L/s\n\nNeptune (Tier 6)\n1 Tritium - 3000 L/s\n2 Helium-3 - 500 L/s\n3 Ammonia - 400 L/s\n4 Xenon - 350 L/s",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
