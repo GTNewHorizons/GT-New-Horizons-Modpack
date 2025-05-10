@@ -4503,7 +4503,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKJQ.desc=Okay so if you actually want to
 
 # Quest: What, How?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKJg.name=What, How?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKJg.desc=You're not supposed to be here... I think you need to go outside and get some sunlight if you unlocked this legitimately...%n%nIn the meantime here's your reward, don't spend it all at once!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKJg.desc=Congratulations, with this final quest, you'll have beaten the hardest challenge in GregTech: New Horizons yet! %n%nThe whole GT:NH Team thanks you for your time spent on this modpack. You are now part of the top 0.5%% of our community!%n%nNow that you made one gate, take this second gate and link them together! (Unless you want to craft the second yourself of course).%n%nDon't hesitate to share your base in #screenshot-brag channel of our Discord server, claim your stargate role, and if you have any feedback on the endgame progression, we will gladly appreciate it!%n%nI guess now it's time for you to go outside, touch grass, or... Make a new run!
 
 # Quest: You Made It!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM4A.name=You Made It!
@@ -4512,6 +4512,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAM4A.desc=May Dreammaster have mercy on y
 # Quest: Fabricating Solar Systems... in Parallel
 betterquesting.quest.IGVryoMbRu28q08v4uwSuw.name=Fabricating Solar Systems... in Parallel
 betterquesting.quest.IGVryoMbRu28q08v4uwSuw.desc=As you've noticed, UXV components are extremely expensive compared to the amount of Universium you can currently produce.%n%nThe Astral Array Fabricator allows you to run EOH recipes in parallel. You can review the math in the second page of the tooltip.%n%nFor a direct answer, you can use this spreadsheet: [url]https://docs.google.com/spreadsheets/d/15j30mNnFIWBhwpJGuDrKTfiHBXNEEqyvB_r7ztFWlyQ[/url]%n%n[warn]Be aware that the EOH will use Raw Stellar Plasma instead of Hydrogen and Helium if you use Astral Arrays.[/warn]%n%n[note]Make sure you are generating enough power.[/note]
+
+# Quest: The Factory Must Grow!
+betterquesting.quest.OCv5OWo6Q9KDfqe1w0ET9w.name=The Factory Must Grow!
+betterquesting.quest.OCv5OWo6Q9KDfqe1w0ET9w.desc=Welcome to the post stargate tier! Now that you successfully managed to make a stargate, what about crafting them in an industrial quantity? Try to craft 5 pairs of gates in the least amount of time, then come in #screenshot-brag to post your time to see where your infrastructure stands in the community!%n%nNote: This quest is entirely optional for those who are attempting the challenge of fully completing the questbook.
 
 # Quest: Assembling on Space Steroids
 betterquesting.quest.UVG21mYSQJex90gQWdkpIw.name=Assembling on Space Steroids
