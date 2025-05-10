@@ -1,19 +1,19 @@
 {
-  "questLineIDLow:4": 13,
-  "questLineIDHigh:4": 0,
   "properties:10": {
     "betterquesting:10": {
-      "visibility:8": "UNLOCKED",
-      "name:8": "Building Better Bases",
-      "icon:10": {
-        "id:8": "chisel:futura",
-        "Count:3": 1,
-        "Damage:2": 3,
-        "OreDict:8": ""
-      },
       "bg_image:8": "",
       "bg_size:3": 256,
-      "desc:8": "Tired of torches everywhere making your base look like a loser built it? Make your base look like a winner with these quests."
+      "desc:8": "Tired of torches everywhere making your base look like a loser built it? Make your base look like a winner with these quests.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 3,
+        "OreDict:8": "",
+        "id:8": "chisel:futura"
+      },
+      "name:8": "Building Better Bases",
+      "visibility:8": "UNLOCKED"
     }
-  }
+  },
+  "questLineIDHigh:4": 0,
+  "questLineIDLow:4": 13
 }

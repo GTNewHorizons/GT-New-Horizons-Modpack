@@ -1,37 +1,52 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 836
     }
   },
-  "questIDLow:4": 1796,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "There are a couple of ways to increase your Gallium.\n\n1. Find Tico zinc gravel ore and process it to get gallium.\n\n2. Breed Zinc Bees and react the Gallium Combs with Hydrochloric Acid. The bee is not too deep in the breeding progression and the processing only requires LV.\n\n3. Use IC2 crops under the Farming tab to get Galvania leaves, to 4x your zinc and sphalerite crushed ores to purified ores.\n\n4. Use the HV macerator on the centrifuged ores to get a 10 percent chance of a whole Gallium dust.\n\n5. Use plentiful Bauxite ores from the Moon.\n\n6. Kill Redcaps/Redcap Sappers in Twilight Forest. Also Kobolds drop Arsenic.\n\n7. Duplicate nugget with Thaumcraft. This requires §lTaboo§r researches, so you might not want to do this.\n\nFor Arsenic, Cobaltite ore in the Twilight Forest is a great source for more information go to the quest \"Cobalt and Arsenic from Cobaltite\".\n\nCobaltite can also be multiplied 4x by the IC2 crop Nickelback.",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "gregtech:gt.metaitem.01",
         "Count:3": 1,
         "Damage:2": 2037,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.metaitem.01"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "§5§lBetter Gallium and Arsenic Sources",
       "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "There are a couple of ways to increase your Gallium.\n\n1. Breed Zinc Bees and react the Gallium Combs with Hydrochloric Acid. The bee is not too deep in the breeding progression and the processing only requires LV.\n\n2. Use IC2 crops under the Farming tab to get Galvania leaves, to 4x your zinc and sphalerite crushed ores to purified ores.\n\n3. Use the HV macerator on the centrifuged ores to get a 10 percent chance of a whole Gallium dust.\n\n4. Use plentiful Bauxite ores from the Moon.\n\n5. Kill Redcaps/Redcap Sappers in Twilight Forest. Also Kobolds drop Arsenic.\n\n6. Duplicate nugget with Thaumcraft. This requires §lTaboo§r researches, so you might not want to do this.\n\nFor Arsenic, Cobaltite ore in the Twilight Forest is a great source for more information go to the quest \"Cobalt and Arsenic from Cobaltite\".\n\nCobaltite can also be multiplied 4x by the IC2 crop Nickelback."
+      "lockedProgress:1": 0,
+      "name:8": "§5§lBetter Gallium and Arsenic Sources",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 1796,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 37,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockores"
+        }
+      }
     }
   },
   "tasks:9": {
@@ -39,6 +54,5 @@
       "index:3": 0,
       "taskID:8": "bq_standard:checkbox"
     }
-  },
-  "rewards:9": {}
+  }
 }

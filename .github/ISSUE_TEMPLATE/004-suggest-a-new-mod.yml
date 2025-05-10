@@ -3,13 +3,14 @@ description: Suggest the addition of a new mod.
 labels:
 - "Status: Triage"
 - "Type: Mod Addition"
+- "Suggestion"
 body:
 - type: input
   id: discord
   attributes:
     label: Your GTNH Discord Username
     description: Leave empty if you don't have one, but this will make it harder to contact you if we need additional info.
-    placeholder: "Example: Fake#1234"
+    placeholder: "Example: Fake"
 - type: input
   id: version
   attributes:

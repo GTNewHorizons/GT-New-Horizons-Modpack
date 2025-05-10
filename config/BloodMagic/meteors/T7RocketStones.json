@@ -6,16 +6,11 @@
 	"GalaxySpace:plutoblocks:1:15",
 	"GalaxySpace:plutoblocks:2:15",
 	"GalaxySpace:plutoblocks:3:15",
-
 	"GalaxySpace:makemakegrunt:1:950",
 	"GalaxySpace:makemakegrunt:0:50",
-
 	"GalaxySpace:haumeablocks:0:1000"
   ],
   "radius": 20,
   "cost": 30000000,
-  "focusModId": "dreamcraft",
-  "focusName": "item.HeavyDutyPlateTier7",
-  "focusMeta": 0
+  "focusItem": "dreamcraft:item.HeavyDutyPlateTier7"
 }
-

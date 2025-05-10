@@ -1,5 +1,4 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
@@ -7,62 +6,64 @@
       "type:1": 1
     }
   },
-  "questIDLow:4": 2876,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "SECRET",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "It looks like you\u0027ve found a secret room hidden...not so deep within the earth. Pretty close to the surface, actually. You can find these all over the place, and have a chance at sweet sweet loot if you\u0027re good at simon says. It counts the highest level you completed, so you can fail the other rounds on purpose to go faster if you don\u0027t think you can do better. BTW, cheaters go to minecraft hell, where all the blocks have hardness -1.\n\nIf you fail with Minesweeper, it blows up. Be sure to make room for escape!\n\nMake sure that no water or oil is flowing into the room because of worldgen, or it will kill you and destroy your grave because of \u0027cheating\u0027. This is a bug.",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "lootgames:LootGamesMasterBlock",
         "Count:3": 1,
         "Damage:2": 0,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "lootgames:LootGamesMasterBlock"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "§2§lLoot Games",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "It looks like you\u0027ve found a secret room hidden...not so deep within the earth. Pretty close to the surface, actually. You can find these all over the place, and have a chance at sweet sweet loot if you\u0027re good at simon says. It counts the highest level you completed, so you can fail the other rounds on purpose to go faster if you don\u0027t think you can do better. BTW, cheaters go to minecraft hell, where all the blocks have hardness -1.\n\nIf you fail with Minesweeper, it blows up. Be sure to make room for escape!\n\nMake sure that no water or oil is flowing into the room because of worldgen, or it will kill you and destroy your grave because of \u0027cheating\u0027. This is a bug."
+      "lockedProgress:1": 0,
+      "name:8": "§2§lLoot Games",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "SECRET"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 2876,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "OreDict:8": "",
+          "id:8": "minecraft:skull",
+          "tag:10": {
+            "RepairCost:3": 2,
+            "display:10": {
+              "Name:8": "Stupid Oil, I swear..."
+            }
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2817,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
       "index:3": 0,
       "taskID:8": "bq_standard:checkbox"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 0,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "minecraft:skull",
-          "Count:3": 1,
-          "tag:10": {
-            "RepairCost:3": 2,
-            "display:10": {
-              "Name:8": "Stupid Oil, I swear..."
-            }
-          },
-          "Damage:2": 3,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 1,
-          "Damage:2": 2817,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

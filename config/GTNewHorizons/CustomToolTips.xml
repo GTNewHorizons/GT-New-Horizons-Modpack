@@ -3,6 +3,8 @@
 //Misc
 	<ToolTip ItemName="appliedenergistics2:tile.BlockDrive" ToolTip="§4Do not move chests with AE drives; It may corrupt your profile. No refunds!" NBT=""/>
 	<ToolTip ItemName="appliedenergistics2:tile.BlockCreativeEnergyCell" ToolTip="§dInfinite Energy" NBT=""/>
+	<ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:690" ToolTip="§dInfinite Energy" NBT=""/>
+	<ToolTip ItemName="appliedenergistics2:tile.BlockCreativeEnergyController" ToolTip="§dInfinite Energy" NBT=""/>
 	<ToolTip ItemName="cb4bq:BlockREB" ToolTip="§4This block will RESET ALL YOUR QUESTS, starting over from Tier 0. Do NOT build or use unless you really mean it!" NBT=""/> 
 	<ToolTip ItemName="EnderIO:blockFusedQuartz" ToolTip="§4Blast resistance is now 20. DOES NOT PROTECT AGAINST NUKES!" NBT=""/>
 	<ToolTip ItemName="EnderIO:blockTravelAnchor" ToolTip="Cooldown 2 seconds" NBT=""/>
@@ -243,6 +245,7 @@
 	<ToolTip ItemName="gregtech:gt.blockmachines:108" ToolTip="§4This furnace is deprecated use bricked blast furnace" NBT=""/>
 	<ToolTip ItemName="gregtech:gt.blockmachines:1154" ToolTip="§4Hot coolant steam output is increased by 5x" NBT=""/>
 	<ToolTip ItemName="gregtech:gt.blockmachines:1157" ToolTip="§bMay you have all the black gold you want, RIP Cerulean" NBT=""/>
+	<ToolTip ItemName="gregtech:gt.metaitem.01:8150" ToolTip="§b§lCrystallized shards stabilized by a maximized Godforge" NBT=""/>
 	
 //Iron Chests
 	<ToolTip ItemName="IronChest:BlockIronChest" ToolTip="6*9 Inventory - 54 Slots" NBT=""/>
@@ -308,10 +311,6 @@
 	<ToolTip ItemName="IC2:itemNanoSaber:26" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
 	<ToolTip ItemName="IC2:plasmaLauncher:1" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
 	<ToolTip ItemName="IC2:plasmaLauncher:26" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemScanner:1" ToolTip="Recharge in a §7LV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemScanner:26" ToolTip="Recharge in a §7LV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemScannerAdv:1" ToolTip="Recharge in a §6MV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemScannerAdv:26" ToolTip="Recharge in a §6MV-tier §7Machine" NBT=""/>
 	<ToolTip ItemName="IC2:obscurator:1" ToolTip="Recharge in a §6MV-tier §7Machine" NBT=""/>
 	<ToolTip ItemName="IC2:obscurator:27" ToolTip="Recharge in a §6MV-tier §7Machine" NBT=""/>
 	<ToolTip ItemName="IC2:itemArmorBatpack:1" ToolTip="Recharge in a §7LV-tier §7Machine" NBT=""/>
@@ -380,14 +379,6 @@
 	<ToolTip ItemName="thaumicboots:item.ItemQuantumComet:1" ToolTip="Recharge in a §8EV-tier §7Machine" NBT=""/>
 	<ToolTip ItemName="thaumicboots:item.ItemQuantumComet:325" ToolTip="Recharge in a §8EV-tier §7Machine" NBT=""/>
 	
-//Thaumic Tinkers
-	<ToolTip ItemName="ThaumicTinkerer:fireFire" ToolTip="§4ELEMENTAL firespread disabled" NBT=""/>
-	<ToolTip ItemName="ThaumicTinkerer:fireOrder" ToolTip="§4ELEMENTAL firespread disabled" NBT=""/>        
-	<ToolTip ItemName="ThaumicTinkerer:fireEarth" ToolTip="§4ELEMENTAL firespread disabled" NBT=""/>	
-	<ToolTip ItemName="ThaumicTinkerer:fireWater" ToolTip="§4ELEMENTAL firespread disabled" NBT=""/>		
-	<ToolTip ItemName="ThaumicTinkerer:fireChaos" ToolTip="§4ELEMENTAL firespread disabled" NBT=""/>
-	<ToolTip ItemName="ThaumicTinkerer:fireAir" ToolTip="§4ELEMENTAL firespread disabled" NBT=""/>
-	
 //Tinkers Construct
 	<ToolTip ItemName="TConstruct:Smeltery" ToolTip="§3Some metals processed in smeltery don't meet the purity requirement for GregTech processing." NBT=""/>
 	<ToolTip ItemName="TConstruct:LavaTank" ToolTip="§3Some metals processed in smeltery don't meet the purity requirement for GregTech processing." NBT=""/>
@@ -395,12 +386,12 @@
 	<ToolTip ItemName="TConstruct:SearedBlock:1" ToolTip="§3Some metals processed in smeltery don't meet the purity requirement for GregTech processing." NBT=""/>
 	<ToolTip ItemName="TConstruct:SearedBlock:2" ToolTip="§3Some metals processed in smeltery don't meet the purity requirement for GregTech processing." NBT=""/>
 	<ToolTip ItemName="TConstruct:CastingChannel" ToolTip="§3Some metals processed in smeltery don't meet the purity requirement for GregTech processing." NBT=""/>
-	<ToolTip ItemName="TConstruct:oreBerries" ToolTip="Can be placed on a empty IC2 Crop." NBT=""/>
-	<ToolTip ItemName="TConstruct:oreBerries:1" ToolTip="Can be placed on a empty IC2 Crop." NBT=""/>
-	<ToolTip ItemName="TConstruct:oreBerries:2" ToolTip="Can be placed on a empty IC2 Crop." NBT=""/>
-	<ToolTip ItemName="TConstruct:oreBerries:3" ToolTip="Can be placed on a empty IC2 Crop." NBT=""/>
-	<ToolTip ItemName="TConstruct:oreBerries:4" ToolTip="Can be placed on a empty IC2 Crop." NBT=""/>
-	<ToolTip ItemName="TConstruct:oreBerries:5" ToolTip="Can be placed on a empty IC2 Crop." NBT=""/>
+	<ToolTip ItemName="TConstruct:oreBerries" ToolTip="Can be placed on an empty IC2 Crop.\nRequires low light to be placed." NBT=""/>
+	<ToolTip ItemName="TConstruct:oreBerries:1" ToolTip="Can be placed on an empty IC2 Crop.\nRequires low light to be placed." NBT=""/>
+	<ToolTip ItemName="TConstruct:oreBerries:2" ToolTip="Can be placed on an empty IC2 Crop.\nRequires low light to be placed." NBT=""/>
+	<ToolTip ItemName="TConstruct:oreBerries:3" ToolTip="Can be placed on an empty IC2 Crop.\nRequires low light to be placed." NBT=""/>
+	<ToolTip ItemName="TConstruct:oreBerries:4" ToolTip="Can be placed on an empty IC2 Crop.\nRequires low light to be placed." NBT=""/>
+	<ToolTip ItemName="TConstruct:oreBerries:5" ToolTip="Can be placed on an empty IC2 Crop.\nRequires low light to be placed." NBT=""/>
 	
 //Railcraft tanks
 //Iron
@@ -445,8 +436,13 @@
 	<ToolTip ItemName="Railcraft:machine.eta:8" ToolTip="Has 3072 buckets capacity per block \nAuto-Output from bottom side \nAuto-Output rate is 1000L/t" NBT=""/>
 
 //Cubic Zirconia
-    <ToolTip ItemName="bartworks:gt.bwMetaGenerateddust:4" ToolTip="§3Check Flawed Crystal recipe in EBF" NBT=""/>
+	<ToolTip ItemName="bartworks:gt.bwMetaGenerateddust:4" ToolTip="§3Check Flawed Crystal recipe in EBF" NBT=""/>
 	<ToolTip ItemName="bartworks:gt.bwMetaGeneratedgem:4" ToolTip="§3Check Flawed Crystal recipe in EBF" NBT=""/>
+
+//Orundum
+	<ToolTip ItemName="bartworks:gt.bwMetaGenerateddust:10023" ToolTip="§3Check Plate recipe in Forming Press" NBT=""/>
+	<ToolTip ItemName="bartworks:gt.bwMetaGeneratedgem:10023" ToolTip="§3Check Plate recipe in Forming Press" NBT=""/>
+	<ToolTip ItemName="bartworks:bw.blockores.01:10023" ToolTip="§3Check Plate recipe in Forming Press" NBT=""/>
 
 //Bee housings
 	<ToolTip ItemName="Forestry:apiculture" ToolTip="Effective production chance as a percent is\n2.8 * b^0.52 * (p + t)^0.52 * s^0.37\nwhere b is the base production chance as a percent,\np is the production modifier (additive, starts at -0.9 for the apiary),\nt is 1 for the apiary, and\ns is the speed value for the bee\nOutputs are generated at the end of every bee tick (27.5 seconds)\nPrimary outputs are rolled once with base chance, once with half base" NBT=""/>
@@ -559,5 +555,54 @@
     <ToolTip ItemName="gendustry:GeneSample" ToolTip="Recharges non-energized nodes with aspects below full" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectVisRecharge"}'/>
     <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns thaumcraft wisps with a uniformly chosen random essentia type from 1-47 inclusive\n(Seems broken, try a powered spawner)" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectWispy"}'/>
     <ToolTip ItemName="gendustry:GeneSample" ToolTip="Gives players wither" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectWithering"}'/>
-
+    // Preconfigured storage buses
+    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 1" NBT='{priority: 1}'/>
+    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 2" NBT='{priority: 2}'/>
+    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 3" NBT='{priority: 3}'/>
+    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 4" NBT='{priority: 4}'/>
+    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 5" NBT='{priority: 5}'/>
+    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 6" NBT='{priority: 6}'/>
+    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 7" NBT='{priority: 7}'/>
+    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 8" NBT='{priority: 8}'/>
+    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 9" NBT='{priority: 9}'/>
+    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 10" NBT='{priority: 10}'/>
+    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 11" NBT='{priority: 11}'/>
+    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 12" NBT='{priority: 12}'/>
+    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 13" NBT='{priority: 13}'/>
+    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 14" NBT='{priority: 14}'/>
+    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 15" NBT='{priority: 15}'/>
+    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 16" NBT='{priority: 16}'/>
+    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 17" NBT='{priority: 17}'/>
+    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 18" NBT='{priority: 18}'/>
+    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 19" NBT='{priority: 19}'/>
+    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 20" NBT='{priority: 20}'/>
+    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 21" NBT='{priority: 21}'/>
+    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 22" NBT='{priority: 22}'/>
+    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 23" NBT='{priority: 23}'/>
+    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 24" NBT='{priority: 24}'/>
+    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 1" NBT='{priority: 1}'/>
+    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 2" NBT='{priority: 2}'/>
+    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 3" NBT='{priority: 3}'/>
+    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 4" NBT='{priority: 4}'/>
+    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 5" NBT='{priority: 5}'/>
+    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 6" NBT='{priority: 6}'/>
+    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 7" NBT='{priority: 7}'/>
+    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 8" NBT='{priority: 8}'/>
+    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 9" NBT='{priority: 9}'/>
+    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 10" NBT='{priority: 10}'/>
+    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 11" NBT='{priority: 11}'/>
+    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 12" NBT='{priority: 12}'/>
+    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 13" NBT='{priority: 13}'/>
+    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 14" NBT='{priority: 14}'/>
+    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 15" NBT='{priority: 15}'/>
+    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 16" NBT='{priority: 16}'/>
+    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 17" NBT='{priority: 17}'/>
+    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 18" NBT='{priority: 18}'/>
+    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 19" NBT='{priority: 19}'/>
+    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 20" NBT='{priority: 20}'/>
+    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 21" NBT='{priority: 21}'/>
+    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 22" NBT='{priority: 22}'/>
+    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 23" NBT='{priority: 23}'/>
+    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 24" NBT='{priority: 24}'/>
+    
 </CustomToolTips>

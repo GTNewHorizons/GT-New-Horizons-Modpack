@@ -1,37 +1,52 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 88
     }
   },
-  "questIDLow:4": 2143,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "Need a map on fuel choices? Well, we don\u0027t have that, but we have suggestions. You can use Steam up to IV, but beyond MV it gets pretty painful.\n\nIn LV you can start refining oil for either Light Fuel for a Combustion Generator or Refinery Gas for a Gas Turbine. Or you can use Creosote in a Semi-Fluid Generator.\n\nOnce you hit MV, you can switch from Steam to renewable Benzene (Gas) from your logs. Other renewable alternatives are Fish Oil or Seed Oil based bio diesel (combustion). Seed Oil can be sourced from Pam\u0027s peanuts, IC2 Rape crop or Forestry tree nuts.\n\nAt MV you can also upgrade your Light Fuel with Heavy Fuel to get Diesel. When you reach HV turn diesel or bio diesel into Cetane Boosted Diesel. In EV, you can make High Octane Gasoline (HOG), but it\u0027s complex, and you\u0027ll need to rejigger your whole oil distillation setup, since it uses different fluids than Cetane does.\n\nEV introduces the Large Gas Turbine, Large Steam Turbine, Large HP Steam Turbine, and Large Combustion Engine, which are more efficient versions of the earlier ones. The first 3 require turbines.\n\nYou can also make Nukes, or Wind and Water Kinetics.\n\nFor low-power operations, or dedicated players willing to set up autocrafting, you can begin using Solar Panels at MV.",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "BiblioCraft:BiblioLamp",
         "Count:3": 1,
         "Damage:2": 0,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "BiblioCraft:BiblioLamp"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "§5§lChoices, Choices",
       "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Need a map on fuel choices? Well, we don\u0027t have that, but we have suggestions. You can use Steam up to IV, but beyond MV it gets pretty painful. \n\nIn LV you can start refining oil for either Light Fuel for a Combustion Generator or Refinery Gas for a Gas Turbine. Or you can use Creosote in a Semi-Fluid Generator.\n\nOnce you hit MV, you can switch from Steam to renewable Benzene (Gas) from your logs. Other renewable alternatives are Fish Oil or Seed Oil based bio diesel (combustion). Seed Oil can be sourced from Pam\u0027s peanuts, IC2 Rape crop or Forestry tree nuts.\n\nAt MV you can also upgrade your Light Fuel with Heavy Fuel to get Diesel. When you reach HV turn diesel or bio diesel into Cetane Boosted Diesel. In EV, you can make High Octane Gasoline (HOG), but it\u0027s complex, and you\u0027ll need to rejigger your whole oil distillation setup, since it uses different fluids than Cetane does.\n\nEV introduces the Large Gas Turbine, Large Steam Turbine, Large HP Steam Turbine, and Large Combustion Engine, which are more efficient versions of the earlier ones. The first 3 require turbines. \n\nYou can also make Nukes, or Wind and Water Kinetics.\n\nFor low-power operations, or dedicated players willing to setup autocrafting, you can begin using Solar Panels at MV."
+      "lockedProgress:1": 0,
+      "name:8": "§5§lChoices, Choices",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 2143,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "harvestcraft:sundayroastItem"
+        }
+      }
     }
   },
   "tasks:9": {
@@ -39,6 +54,5 @@
       "index:3": 0,
       "taskID:8": "bq_standard:checkbox"
     }
-  },
-  "rewards:9": {}
+  }
 }

@@ -1,19 +1,19 @@
 {
-  "questLineIDLow:4": -6735759834341434473,
-  "questLineIDHigh:4": -3830322202564867506,
   "properties:10": {
     "betterquesting:10": {
-      "visibility:8": "UNLOCKED",
-      "name:8": "Tier 11 - UIV",
-      "icon:10": {
-        "id:8": "gregtech:gt.blockmachines",
-        "Count:3": 1,
-        "Damage:2": 14001,
-        "OreDict:8": ""
-      },
       "bg_image:8": "",
       "bg_size:3": 256,
-      "desc:8": "Enjoying the pack so far?\n\nAnyways here\u0027s your rough guide on the UIV progression.\n"
+      "desc:8": "Enjoying the pack so far?\n\nAnyways here\u0027s your rough guide on the UIV progression.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 14001,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
+      },
+      "name:8": "Tier 11 - UIV",
+      "visibility:8": "UNLOCKED"
     }
-  }
+  },
+  "questLineIDHigh:4": -3830322202564867506,
+  "questLineIDLow:4": -6735759834341434473
 }

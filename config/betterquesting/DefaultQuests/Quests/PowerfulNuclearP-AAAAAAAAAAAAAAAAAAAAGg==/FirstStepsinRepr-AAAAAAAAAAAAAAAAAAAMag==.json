@@ -1,72 +1,72 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 3177
     }
   },
-  "questIDLow:4": 3178,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "You now have 4 different fluid outputs running away from your LFTR. Each of them needs specific attention, and all of them are useful.\n\nWhere to start looking? The best way to start is at the end, which is to say, the Fuel Refinery. You want to upgrade to the better fuels as soon as possible, and each one has 2 recipes: one with 4 inputs, similar to the recipe you\u0027ve already done, and one with 2 inputs, focusing on LFTR Fuel Base. The 2-input recipes produce 10x the fuel, so they\u0027re much better, but you can\u0027t use this recipe alone. The Fuel Base can only be made from reprocessing depleted fuel, and you don\u0027t get enough of it to make the same amount of fuel spent. If you perfectly reprocess any of the first two fuels to get Fuel Base, you will come out short and run out of fuel.\n\nGiven that, your strategy will be to use two Fuel Refineries, one for each Fuel 2 recipe, and then change them to Fuel 3 once you\u0027ve built the Assembly Line, which is required to build the final multiblocks in this line. For Fuel 2, get as much Fuel Base as you can from this chain - EBF \u003c- DT \u003c- RPU \u003c- LFTR and put it into one of the refineries, while using the second one to top off on the remaining fuel you need to keep the LFTR going. You can limit the UF4 on the second refinery to not make too much fuel there, or just turn it on and off, and use as much of the better recipe as possible. You will be able to use the better recipe 100% of the time, but only after building a Sparge Tower.\n\nAdditional details on the other outputs you can get from reprocessing can be found on the breeding side of this questline branch.",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.blockmachines",
         "Count:3": 1,
         "Damage:2": 31034,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "First Steps in Reprocessing",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "You now have 4 different fluid outputs running away from your LFTR. Each of them needs specific attention, and all of them are useful. \n\nWhere to start looking? The best way to start is at the end, which is to say, the Fuel Refinery. You want to upgrade to the better fuels as soon as possible, and each one has 2 recipes: one with 4 inputs, similar to the recipe you\u0027ve already done, and one with 2 inputs, focusing on LFTR Fuel Base. The 2-input recipes produce 10x the fuel, so they\u0027re much better, but you can\u0027t use this recipe alone. The Fuel Base can only be made from reprocessing depleted fuel, and you don\u0027t get enough of it to make the same amount of fuel spent. If you perfectly reprocess any of the first two fuels to get Fuel Base, you will come out short and run out of fuel.\n\nGiven that, your strategy will be to use two Fuel Refineries, one for each Fuel 2 recipe, and then change them to Fuel 3 once you\u0027ve built the Assembly Line, which is required to build the final multiblocks in this line. For Fuel 2, get as much Fuel Base as you can from this chain - EBF \u003c- DT \u003c- RPU \u003c- LFTR and put it into one of the refineries, while using the second one to top off on the remaining fuel you need to keep the LFTR going. You can limit the UF4 on the second refinery to not make too much fuel there, or just turn it on and off, and use as much of the better recipe as possible. You will be able to use the better recipe 100% of the time, but only after building a Sparge Tower.\n\nAdditional details on the other outputs you can get from reprocessing can be found on the breeding side of this questline branch."
+      "lockedProgress:1": 0,
+      "name:8": "First Steps in Reprocessing",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
     }
   },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 3178,
+  "rewards:9": {},
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.blockmachines",
           "Count:3": 1,
           "Damage:2": 835,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "miscutils:itemCellLFTRFuel2",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "miscutils:itemCellLFTRFuel2"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     }
-  },
-  "rewards:9": {}
+  }
 }

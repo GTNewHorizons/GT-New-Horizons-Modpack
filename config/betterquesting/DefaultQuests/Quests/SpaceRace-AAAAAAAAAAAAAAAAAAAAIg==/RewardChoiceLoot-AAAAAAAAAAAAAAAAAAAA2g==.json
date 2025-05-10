@@ -1,5 +1,4 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
@@ -10,70 +9,72 @@
       "questIDLow:4": 217
     }
   },
-  "questIDLow:4": 218,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "Don\u0027t need a personal dimension, eh? Well, then you\u0027ll probably be happy with some extra loot. Choose wisely; you can only pick one.\n\n[note]PS: The loot is lame, don\u0027t pick this one.[/note]",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "DraconicEvolution:dezilsMarshmallow",
         "Count:3": 1,
         "Damage:2": 0,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "DraconicEvolution:dezilsMarshmallow"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "XOR",
-      "repeat_relative:1": 1,
-      "name:8": "Reward Choice: Loot",
       "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Don\u0027t need a personal dimension, eh? Well, then you\u0027ll probably be happy with some extra loot. Choose wisely; you can only pick one.\n\n[note]PS: The loot is lame, don\u0027t pick this one.[/note]"
+      "lockedProgress:1": 0,
+      "name:8": "Reward Choice: Loot",
+      "partySingleReward:1": 0,
+      "questLogic:8": "XOR",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 218,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 10,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "Thaumcraft:ItemLootBag"
+        },
+        "1:10": {
+          "Count:3": 10,
+          "Damage:2": 7,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        },
+        "2:10": {
+          "Count:3": 10,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "Thaumcraft:blockLootCrate"
+        },
+        "3:10": {
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "DraconicEvolution:dezilsMarshmallow"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
     }
   },
   "tasks:9": {
     "0:10": {
       "index:3": 0,
       "taskID:8": "bq_standard:checkbox"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 0,
-      "choices:9": {
-        "0:10": {
-          "id:8": "Thaumcraft:ItemLootBag",
-          "Count:3": 10,
-          "Damage:2": 2,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "enhancedlootbags:lootbag",
-          "Count:3": 10,
-          "Damage:2": 7,
-          "OreDict:8": ""
-        },
-        "2:10": {
-          "id:8": "Thaumcraft:blockLootCrate",
-          "Count:3": 10,
-          "Damage:2": 2,
-          "OreDict:8": ""
-        },
-        "3:10": {
-          "id:8": "DraconicEvolution:dezilsMarshmallow",
-          "Count:3": 16,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

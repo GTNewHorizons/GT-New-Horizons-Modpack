@@ -1,143 +1,145 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 2991
     }
   },
-  "questIDLow:4": 2993,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "Despite what the Distillery recipe might have led you to believe, there are many more fractions of Oil than the four you could choose from. However, to get the rest of the oil byproducts, you need to split these four into the others, a process known as cracking. To crack the fuels, they must not be sulfuric, and you will need either Hydrogen (hydro-cracking) or Steam (steam-cracking) to successfully crack. Your Hydrogen source for desulfurizing is hopefully good enough to sustain hydro-cracking, and the Steam you were previously using for power can now be useful to get more out of the Oil you\u0027re pumping.\n\nHeavy Fuel, Light Fuel, Refinery Gas and Naphtha can each be cracked both ways, and with three different intensities: lightly, moderately or severely cracked. This means that each portion has 6 different cracking options, and the products of distilling them can be cracked once more! There are a lot of options here, but a few of them stand out for their usefulness.\n\nThe first one you should try is Refinery Gas. In order to make that, you will need to desulfurize Sulfuric Gas, so make some of that in your Distillery. Currently, you can only crack through the Chemical Reactor, so once you have the Refinery Gas grab some steam and get cracking.\n\n*Hint* You should start by making some Severely-Cracked Refinery Gas\n\n[note]Make x5 as many cells if you don\u0027t want to waste anything.[/note]",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.blockmachines",
         "Count:3": 1,
         "Damage:2": 421,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Basic Cracking",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Despite what the Distillery recipe might have led you to believe, there are many more fractions of Oil than the four you could choose from. However, to get the rest of the oil byproducts, you need to split these four into the others, a process known as cracking. To crack the fuels, they must not be sulfuric, and you will need either Hydrogen (hydro-cracking) or Steam (steam-cracking) to successfully crack. Your Hydrogen source for desulfurizing is hopefully good enough to sustain hydro-cracking, and the Steam you were previously using for power can now be useful to get more out of the Oil you\u0027re pumping.\n\nHeavy Fuel, Light Fuel, Refinery Gas and Naphtha can each be cracked both ways, and with three different intensities: lightly, moderately or severely cracked. This means that each portion has 6 different cracking options, and the products of distilling them can be cracked once more! There are a lot of options here, but a few of them stand out for their usefulness.\n\nThe first one you should try is Refinery Gas. In order to make that, you will need to desulfurize Sulfuric Gas, so make some of that in your Distillery. Currently, you can only crack through the Chemical Reactor, so once you have the Refinery Gas grab some steam and get cracking. \n\n*Hint* You should start by making some Severely-Cracked Refinery Gas\n\n[note]Make x5 as many cells if you don\u0027t want to waste anything.[/note]"
+      "lockedProgress:1": 0,
+      "name:8": "Basic Cracking",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 2993,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 32630,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinChemistI"
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.metaitem.01",
           "Count:3": 10,
           "Damage:2": 30734,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.blockmachines",
           "Count:3": 1,
           "Damage:2": 421,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
     },
     "2:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 2,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.metaitem.01",
           "Count:3": 10,
           "Damage:2": 30735,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
         },
         "1:10": {
-          "id:8": "gregtech:gt.metaitem.98",
           "Count:3": 10,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.98"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
     },
     "3:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 3,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.metaitem.99",
           "Count:3": 8,
           "Damage:2": 15735,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.99"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 0,
-      "choices:9": {
-        "0:10": {
-          "id:8": "enhancedlootbags:lootbag",
-          "Count:3": 1,
-          "Damage:2": 4,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 1,
-          "Damage:2": 32630,
-          "OreDict:8": ""
-        }
-      }
-    },
-    "1:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 1,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "dreamcraft:item.CoinChemistI",
-          "Count:3": 5,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

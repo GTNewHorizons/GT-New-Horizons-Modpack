@@ -2,7 +2,7 @@ name: Report Bug
 description: "Report a bug that does not abruptly end a game session or prevent the start of the game."
 labels:
 - "Status: Triage"
-- "Type: bugMinor"
+- "Bug: Minor"
 body:
 - type: markdown
   attributes:
@@ -14,7 +14,7 @@ body:
   attributes:
     label: Your GTNH Discord Username
     description: Leave empty if you don't have one, but this will make it harder to contact you if we need additional info.
-    placeholder: "Example: Fake#1234"
+    placeholder: "Example: Fake"
 - type: input
   id: version
   attributes:

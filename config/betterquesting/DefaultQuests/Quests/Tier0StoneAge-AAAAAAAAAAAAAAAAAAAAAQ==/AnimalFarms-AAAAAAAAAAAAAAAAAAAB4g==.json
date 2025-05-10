@@ -1,5 +1,4 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
@@ -10,192 +9,195 @@
       "questIDLow:4": 1476
     }
   },
-  "questIDLow:4": 482,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "Trying to get some leather or wool? You\u0027d probably need to spend a lot of time hunting animals and traveling around, or you could simply make a farm to get a decent amount of leather, wool, and meat close to home. Make sure you don\u0027t put too many animals in the pen or they will overcrowd and kill each other. This happens to villagers as well.\n\nAnimals will prioritize moving towards grass blocks over any other blocks, and if there\u0027s no grass blocks around, they prefer lit blocks over dark blocks. You can encourage animals to stay in pens, or at least not crowd the edges, by removing grass from around both sides of the fence and under it, and by placing a torch in the center of the pen. For sheep that need the grass to eat, which reduces time to mature and replaces sheared wool instantly, place it in the center of a cleared out area with a border of non-grass.\n\nAlso, large quantities can cause server lag, especially if they are bumping into each other a lot. So if you are in multiplayer, make sure you limit animals to no more than roughly one per block for small entities like chickens and one per two blocks for large entities like cows.\n\nAs an alternative, most animal and mob drops can be obtained from less laggy IC2 crop farms.",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "OpenBlocks:trophy",
         "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "OpenBlocks:trophy",
         "tag:10": {
           "entity:8": "Cow"
-        },
-        "Damage:2": 0,
-        "OreDict:8": ""
+        }
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "§2§lAnimal Farms",
       "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Trying to get some leather or wool? You\u0027d probably need to spend a lot of time hunting animals and traveling around, or you could simply make a farm to get a decent amount of leather, wool, and meat close to home. Make sure you don\u0027t put too many animals in the pen or they will overcrowd and kill each other. This happens to villagers as well.\n\nAnimals will prioritize moving towards grass blocks over any other blocks, and if there\u0027s no grass blocks around, they prefer lit blocks over dark blocks. You can encourage animals to stay in pens, or at least not crowd the edges, by removing grass from around both sides of the fence and under it, and by placing a torch in the center of the pen. For sheep that need the grass to eat, which reduces time to mature and replaces sheared wool instantly, place it in the center of a cleared out area with a border of non-grass.\n\nAlso, large quantities can cause server lag, especially if they are bumping into each other a lot. So if you are in multiplayer, make sure you limit animals to no more than roughly one per block for small entities like chickens and one per two blocks for large entities like cows.\n\nAs an alternative, most animal and mob drops can be obtained from less laggy IC2 crop farms."
+      "lockedProgress:1": 0,
+      "name:8": "§2§lAnimal Farms",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 482,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "ExtraUtilities:shears"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "TConstruct:mattock",
+          "tag:10": {
+            "InfiTool:10": {
+              "Accessory:4": 314,
+              "Attack:4": 6,
+              "BaseAttack:4": 6,
+              "BaseDurability:4": 67,
+              "BonusDurability:4": 0,
+              "Broken:4": 0,
+              "Built:4": 1,
+              "Damage:4": 0,
+              "Handle:4": 314,
+              "HarvestLevel:4": 6,
+              "HarvestLevel2:4": 6,
+              "Head:4": 314,
+              "MiningSpeed:4": 700,
+              "MiningSpeed2:4": 700,
+              "ModDurability:6": 0.0,
+              "Modifiers:4": 0,
+              "RenderAccessory:4": 314,
+              "RenderHandle:4": 314,
+              "RenderHead:4": 314,
+              "Shoddy:6": 0.0,
+              "ToolEXP:4": 0,
+              "ToolLevel:4": 1,
+              "TotalDurability:4": 67,
+              "Unbreaking:4": 10
+            },
+            "display:10": {
+              "Name:8": "Unstable Induced Mattock"
+            }
+          }
+        },
+        "2:10": {
+          "Count:3": 3,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 20,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinFarmer"
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "minecraft:leather",
           "Count:3": 100,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "minecraft:leather"
         },
         "1:10": {
-          "id:8": "minecraft:beef",
           "Count:3": 100,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "minecraft:beef"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "minecraft:wool",
           "Count:3": 100,
           "Damage:2": 0,
-          "OreDict:8": "blockWool"
+          "OreDict:8": "blockWool",
+          "id:8": "minecraft:wool"
         },
         "1:10": {
-          "id:8": "harvestcraft:muttonrawItem",
           "Count:3": 100,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "harvestcraft:muttonrawItem"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "2:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 2,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "minecraft:porkchop",
           "Count:3": 100,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "minecraft:porkchop"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "3:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 3,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "minecraft:chicken",
           "Count:3": 100,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "minecraft:chicken"
         },
         "1:10": {
-          "id:8": "minecraft:feather",
           "Count:3": 100,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "minecraft:feather"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 0,
-      "choices:9": {
-        "0:10": {
-          "id:8": "ExtraUtilities:shears",
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "TConstruct:mattock",
-          "Count:3": 1,
-          "tag:10": {
-            "InfiTool:10": {
-              "MiningSpeed2:4": 700,
-              "BaseDurability:4": 67,
-              "Head:4": 314,
-              "BaseAttack:4": 6,
-              "Built:4": 1,
-              "ToolEXP:4": 0,
-              "HarvestLevel:4": 6,
-              "Attack:4": 6,
-              "RenderHead:4": 314,
-              "ModDurability:6": 0.0,
-              "Handle:4": 314,
-              "Broken:4": 0,
-              "Shoddy:6": 0.0,
-              "RenderHandle:4": 314,
-              "Accessory:4": 314,
-              "MiningSpeed:4": 700,
-              "RenderAccessory:4": 314,
-              "ToolLevel:4": 1,
-              "Unbreaking:4": 10,
-              "HarvestLevel2:4": 6,
-              "Damage:4": 0,
-              "BonusDurability:4": 0,
-              "Modifiers:4": 0,
-              "TotalDurability:4": 67
-            },
-            "display:10": {
-              "Name:8": "Unstable Induced Mattock"
-            }
-          },
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "2:10": {
-          "id:8": "enhancedlootbags:lootbag",
-          "Count:3": 3,
-          "Damage:2": 2,
-          "OreDict:8": ""
-        }
-      }
-    },
-    "1:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 1,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "dreamcraft:item.CoinFarmer",
-          "Count:3": 20,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

@@ -17,7 +17,7 @@
 		<Drop Identifier="Deer" ItemName="harvestcraft:venisonrawItem" Amount="2" NBTTag="" Chance="50" LimitedDropCount="0" RandomAmount="true"/>	
     </CustomDrop>
 		<CustomDrop EntityClassName="twilightforest.entity.passive.EntityTFMobileFirefly">
-		<Drop Identifier="FireFly" ItemName="TwilightForest:tile.TFFirefly" Amount="2" NBTTag="" Chance="50" LimitedDropCount="0" RandomAmount="true"/>	
+		<Drop Identifier="FireFly" ItemName="TwilightForest:item.critter" Amount="2" NBTTag="" Chance="50" LimitedDropCount="0" RandomAmount="true"/>
     </CustomDrop>
 	<CustomDrop EntityClassName="twilightforest.entity.EntityTFSkeletonDruid">
 		<Drop Identifier="SkeletonDruid" ItemName="minecraft:potion:8193" Amount="1" NBTTag="" Chance="15" LimitedDropCount="0" RandomAmount="true"/>

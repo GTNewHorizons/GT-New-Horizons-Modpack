@@ -1,84 +1,84 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 3154
     }
   },
-  "questIDLow:4": 3156,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "A required intermediate machine between your fluid nukes and your power is the Large Heat Exchanger (LHE). It takes in a hot fluid, in this case Hot Coolant, and transforms Distilled Water into Steam or Superheated Steam depending on how fast the hot fluid is coming in. It\u0027s important to only use Distilled Water here, because the Steam Turbines will output and recycle it back to the LHE.\n\nFor this purpose, you will need around one LHE per fluid nuke if you\u0027re doing one of the good setups from the wiki. None of them will reach the maximum flow one LHE can accept, but any setup above 800 HU will give you Superheated Steam, which is more efficient for EU and what you want to get.\n\nIf your setup does not match that 800 HU threshold, you can use a Hot Coolant buffer and set up a redstone latch so that the Hot Coolant flows in fast enough, until the buffer is almost empty. ProjectRed has a special block that acts as the latch, and you will then need two redstone signals that scale with the amount of fluid stored in your buffer tank. One of the signals should be normal, and the other reversed.",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.blockmachines",
         "Count:3": 1,
         "Damage:2": 1154,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Large Heat Infrastructure",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "A required intermediate machine between your fluid nukes and your power is the Large Heat Exchanger (LHE). It takes in a hot fluid, in this case Hot Coolant, and transforms Distilled Water into Steam or Superheated Steam depending on how fast the hot fluid is coming in. It\u0027s important to only use Distilled Water here, because the Steam Turbines will output and recycle it back to the LHE.\n\nFor this purpose, you will need around one LHE per fluid nuke if you\u0027re doing one of the good setups from the wiki. None of them will reach the maximum flow one LHE can accept, but any setup above 800 HU will give you Superheated Steam, which is more efficient for EU and what you want to get.\n\nIf your setup does not match that 800 HU threshold, you can use a Hot Coolant buffer and set up a redstone latch so that the Hot Coolant flows in fast enough, until the buffer is almost empty. ProjectRed has a special block that acts as the latch, and you will then need two redstone signals that scale with the amount of fluid stored in your buffer tank. One of the signals should be normal, and the other reversed.\n\n"
+      "lockedProgress:1": 0,
+      "name:8": "Large Heat Infrastructure",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
     }
   },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 3156,
+  "rewards:9": {},
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.blockmachines",
           "Count:3": 1,
           "Damage:2": 1154,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
         },
         "1:10": {
-          "id:8": "gregtech:gt.blockcasings4",
           "Count:3": 28,
           "Damage:2": 2,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings4"
         },
         "2:10": {
-          "id:8": "gregtech:gt.blockcasings2",
           "Count:3": 2,
           "Damage:2": 14,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings2"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.blockcasings4",
           "Count:3": 2,
           "Damage:2": 2,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings4"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     }
-  },
-  "rewards:9": {}
+  }
 }

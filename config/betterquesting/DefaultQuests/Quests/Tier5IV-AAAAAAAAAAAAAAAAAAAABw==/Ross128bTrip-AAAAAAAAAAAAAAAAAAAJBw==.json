@@ -1,68 +1,69 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 215
     }
   },
-  "questIDLow:4": 2311,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "Ross128b is a lovely and habitable planet, that does not contain any hostile lifeforms. It offers a several new ore veins and, rumors say, there are ruins of ancient civilizations that left quite a few machines there. You can find this planet to the galactic south.",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "bartworks:bw.blockores.01",
         "Count:3": 1,
         "Damage:2": 8,
-        "OreDict:8": "oreVanadio-Oxy-Dravite"
+        "OreDict:8": "oreVanadio-Oxy-Dravite",
+        "id:8": "bartworks:bw.blockores.01"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "§b§lRoss128b Trip",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Ross128b is a lovely and habitable planet, that does not contain any hostile lifeforms. It offers a several new ore veins and, rumors say, there are ruins of ancient civilisations that left quite a few machines there. You can find this planet to the galactic south."
+      "lockedProgress:1": 0,
+      "name:8": "§b§lRoss128b Trip",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 2311,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinSpaceII"
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
-      "visible:1": 0,
-      "invert:1": 0,
-      "range:3": -1,
-      "index:3": 0,
-      "structure:8": "",
+      "biome:3": -1,
+      "dimension:3": 64,
       "hideInfo:1": 0,
+      "index:3": 0,
+      "invert:1": 0,
+      "name:8": "Ross128b",
       "posX:3": 0,
       "posY:3": 0,
       "posZ:3": 0,
-      "biome:3": -1,
-      "name:8": "Ross128b",
-      "dimension:3": 64,
+      "range:3": -1,
+      "structure:8": "",
+      "taskID:8": "bq_standard:location",
       "taxiCabDist:1": 0,
-      "taskID:8": "bq_standard:location"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 0,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "dreamcraft:item.CoinSpaceII",
-          "Count:3": 5,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
+      "visible:1": 0
     }
   }
 }

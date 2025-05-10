@@ -1,353 +1,356 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 33
     }
   },
-  "questIDLow:4": 472,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 1,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "When your tinkers tables are ready, you can craft your first §oreal§r tool. If you didn\u0027t find a village yet to grab some parts from the chest, you can only craft flint tools.\n\nLet\u0027s start with a pickaxe, an axe, and a shovel.\n\nKeep in mind that most of the original tool parts from Tinker\u0027s Construct are not shown in NEI. That doesn\u0027t mean that you can\u0027t craft them - use the tooltips on patterns and molds as guidance.\n\nYour new tools are weak at first, but the more you use them the better they will get. You get a modifier slot after some levels, needing more as you level it up. They will level up to level 99 if you play long enough, with 20 modifier slots. Tool parts can be replaced for a bit of level XP, however the tool must be fully repaired first.\n\nYou need to level up the mining level each time you replace the parts to unleash the full power of the pickaxe. Stone-\u003eCopper for this pickaxe. If you manage to get a Zombie, Skeleton, or Creeper head, you can use it to skip the level-up process. This doesn\u0027t use up a modifier level, but does change the look until you change the pickaxe part out.\n\nItem\u003dUsable when mining level is X or less\nZombie\u003d1\nSkeleton\u003d2\nCreeper\u003d4\nWither Skeleton\u003d7\nNether Star\u003d8\n\nYou could use a paper binding to add an extra modifier, but you will also get modifiers with tool levels.",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "TConstruct:pickaxe",
         "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "TConstruct:pickaxe",
         "tag:10": {
           "InfiTool:10": {
+            "Accessory:4": 3,
+            "Attack:4": 3,
+            "BaseAttack:4": 3,
             "BaseDurability:4": 56,
+            "BonusDurability:4": 0,
+            "Broken:4": 0,
+            "Built:4": 1,
+            "Damage:4": 0,
+            "Handle:4": 3,
+            "HarvestLevel:4": 0,
+            "HarvestLevelModified:4": 0,
             "Head:4": 3,
             "HeadEXP:4": 0,
-            "BaseAttack:4": 3,
-            "Built:4": 1,
-            "ToolEXP:4": 0,
-            "HarvestLevel:4": 0,
-            "Attack:4": 3,
-            "RenderHead:4": 3,
-            "ModDurability:6": 0.0,
-            "Handle:4": 3,
-            "Broken:4": 0,
-            "Shoddy:6": 0.0,
-            "RenderHandle:4": 3,
-            "Accessory:4": 3,
             "MiningSpeed:4": 400,
-            "RenderAccessory:4": 3,
-            "ToolLevel:4": 1,
-            "HarvestLevelModified:4": 0,
-            "Unbreaking:4": 0,
-            "Damage:4": 0,
-            "BonusDurability:4": 0,
+            "ModDurability:6": 0.0,
             "Modifiers:4": 0,
-            "TotalDurability:4": 56
+            "RenderAccessory:4": 3,
+            "RenderHandle:4": 3,
+            "RenderHead:4": 3,
+            "Shoddy:6": 0.0,
+            "ToolEXP:4": 0,
+            "ToolLevel:4": 1,
+            "TotalDurability:4": 56,
+            "Unbreaking:4": 0
           },
           "display:10": {
             "Name:8": "Flint Pickaxe"
           }
-        },
-        "Damage:2": 0,
-        "OreDict:8": ""
+        }
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "§2§lYour First Tool",
       "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 1,
       "isSilent:1": 0,
-      "desc:8": "When your tinkers tables are ready, you can craft your first §oreal§r tool. If you didn\u0027t find a village yet to grab some parts from the chest, you can only craft flint tools.\n\nLet\u0027s start with a pickaxe, an axe, and a shovel. At this point swords are unobtainable since they need metals like iron or bronze which you will get at a later stage. In the meantime use your gregtech swords.\n\nKeep in mind that most of the original tool parts from Tinker\u0027s Construct are not shown in NEI. That doesn\u0027t mean that you can\u0027t craft them - use the tooltips on patterns and molds as guidance. \n\nYour new tools are weak at first, but the more you use them the better they will get. You get a modifier slot after some levels, needing more as you level it up. They will level up to level 99 if you play long enough, with 20 modifier slots. Tool parts can be replaced for a bit of level XP, however the tool must be fully repaired first.\n\nYou need to level up the mining level each time you replace the parts to unleash the full power of the pickaxe. Stone-\u003eCopper for this pickaxe. If you manage to get a Zombie, Skeleton, or Creeper head, you can use it to skip the level-up process. This doesn\u0027t use up a modifier level, but does change the look until you change the pickaxe part out.\n\nItem\u003dUsable when mining level is X or less\nZombie\u003d1\nSkeleton\u003d2\nCreeper\u003d4\nWither Skeleton\u003d7\nNether Star\u003d8\n\nYou could use a paper binding to add an extra modifier, but you will also get modifiers with tool levels."
+      "lockedProgress:1": 0,
+      "name:8": "§2§lYour First Tool",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 472,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 10,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:flint"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "TConstruct:blankPattern"
+        }
+      }
+    },
+    "1:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "TConstruct:blankPattern"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "2:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 2,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 10,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinSmith"
+        },
+        "1:10": {
+          "Count:3": 10,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnician"
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "TConstruct:blankPattern",
           "Count:3": 4,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "TConstruct:blankPattern"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "TConstruct:woodPattern",
           "Count:3": 1,
           "Damage:2": 2,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "TConstruct:woodPattern"
         },
         "1:10": {
-          "id:8": "TConstruct:woodPattern",
           "Count:3": 1,
           "Damage:2": 4,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "TConstruct:woodPattern"
         },
         "2:10": {
-          "id:8": "TConstruct:woodPattern",
           "Count:3": 1,
           "Damage:2": 9,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "TConstruct:woodPattern"
         },
         "3:10": {
-          "id:8": "TConstruct:woodPattern",
           "Count:3": 1,
           "Damage:2": 3,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "TConstruct:woodPattern"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
     },
     "2:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 2,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "minecraft:flint",
           "Count:3": 3,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "minecraft:flint"
         },
         "1:10": {
-          "id:8": "minecraft:planks",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": "plankWood"
+          "OreDict:8": "plankWood",
+          "id:8": "minecraft:planks"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
     },
     "3:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 3,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "TConstruct:pickaxeHead",
           "Count:3": 1,
           "Damage:2": 3,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "TConstruct:pickaxeHead"
         },
         "1:10": {
-          "id:8": "TConstruct:shovelHead",
           "Count:3": 1,
           "Damage:2": 3,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "TConstruct:shovelHead"
         },
         "2:10": {
-          "id:8": "TConstruct:hatchetHead",
           "Count:3": 1,
           "Damage:2": 3,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "TConstruct:hatchetHead"
         },
         "3:10": {
-          "id:8": "TConstruct:binding",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "TConstruct:binding"
         },
         "4:10": {
-          "id:8": "minecraft:stick",
           "Count:3": 3,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "minecraft:stick"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "4:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 4,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "TConstruct:pickaxe",
           "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "TConstruct:pickaxe",
           "tag:10": {
             "InfiTool:10": {
+              "Accessory:4": 0,
+              "Attack:4": 3,
+              "BaseAttack:4": 3,
               "BaseDurability:4": 113,
+              "BonusDurability:4": 0,
+              "Broken:4": 0,
+              "Damage:4": 0,
+              "Handle:4": 0,
+              "HarvestLevel:4": 0,
+              "HarvestLevelModified:4": 0,
               "Head:4": 3,
               "HeadEXP:4": 0,
-              "BaseAttack:4": 3,
-              "ToolEXP:4": 0,
-              "HarvestLevel:4": 0,
-              "Attack:4": 3,
-              "RenderHead:4": 3,
-              "ModDurability:6": 0.0,
-              "Handle:4": 0,
-              "Broken:4": 0,
-              "Shoddy:6": 0.0,
-              "RenderHandle:4": 0,
-              "Accessory:4": 0,
               "MiningSpeed:4": 400,
-              "RenderAccessory:4": 0,
-              "ToolLevel:4": 1,
-              "HarvestLevelModified:4": 0,
-              "Unbreaking:4": 0,
-              "Damage:4": 0,
-              "BonusDurability:4": 0,
+              "ModDurability:6": 0.0,
               "Modifiers:4": 0,
-              "TotalDurability:4": 113
+              "RenderAccessory:4": 0,
+              "RenderHandle:4": 0,
+              "RenderHead:4": 3,
+              "Shoddy:6": 0.0,
+              "ToolEXP:4": 0,
+              "ToolLevel:4": 1,
+              "TotalDurability:4": 113,
+              "Unbreaking:4": 0
             },
             "display:10": {
               "Name:8": "Flint Pickaxe"
             }
-          },
-          "Damage:2": 0,
-          "OreDict:8": ""
+          }
         },
         "1:10": {
-          "id:8": "TConstruct:hatchet",
           "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "TConstruct:hatchet",
           "tag:10": {
             "InfiTool:10": {
-              "BaseDurability:4": 113,
-              "Head:4": 3,
-              "BaseAttack:4": 5,
-              "ToolEXP:4": 0,
-              "HarvestLevel:4": 1,
               "Attack:4": 5,
-              "RenderHead:4": 3,
-              "ModDurability:6": 0.0,
-              "Handle:4": 0,
-              "Broken:4": 0,
-              "Shoddy:6": 0.0,
-              "RenderHandle:4": 0,
-              "MiningSpeed:4": 400,
-              "ToolLevel:4": 1,
-              "Unbreaking:4": 0,
-              "Damage:4": 0,
+              "BaseAttack:4": 5,
+              "BaseDurability:4": 113,
               "BonusDurability:4": 0,
+              "Broken:4": 0,
+              "Damage:4": 0,
+              "Handle:4": 0,
+              "HarvestLevel:4": 1,
+              "Head:4": 3,
+              "MiningSpeed:4": 400,
+              "ModDurability:6": 0.0,
               "Modifiers:4": 0,
-              "TotalDurability:4": 113
+              "RenderHandle:4": 0,
+              "RenderHead:4": 3,
+              "Shoddy:6": 0.0,
+              "ToolEXP:4": 0,
+              "ToolLevel:4": 1,
+              "TotalDurability:4": 113,
+              "Unbreaking:4": 0
             },
             "display:10": {
               "Name:8": "Flint Hatchet"
             }
-          },
-          "Damage:2": 0,
-          "OreDict:8": ""
+          }
         },
         "2:10": {
-          "id:8": "TConstruct:shovel",
           "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "TConstruct:shovel",
           "tag:10": {
             "InfiTool:10": {
-              "BaseDurability:4": 113,
-              "Head:4": 3,
-              "BaseAttack:4": 4,
-              "ToolEXP:4": 0,
-              "HarvestLevel:4": 1,
               "Attack:4": 4,
-              "RenderHead:4": 3,
-              "ModDurability:6": 0.0,
-              "Handle:4": 0,
-              "Broken:4": 0,
-              "Shoddy:6": 0.0,
-              "RenderHandle:4": 0,
-              "MiningSpeed:4": 400,
-              "ToolLevel:4": 1,
-              "Unbreaking:4": 0,
-              "Damage:4": 0,
+              "BaseAttack:4": 4,
+              "BaseDurability:4": 113,
               "BonusDurability:4": 0,
+              "Broken:4": 0,
+              "Damage:4": 0,
+              "Handle:4": 0,
+              "HarvestLevel:4": 1,
+              "Head:4": 3,
+              "MiningSpeed:4": 400,
+              "ModDurability:6": 0.0,
               "Modifiers:4": 0,
-              "TotalDurability:4": 113
+              "RenderHandle:4": 0,
+              "RenderHead:4": 3,
+              "Shoddy:6": 0.0,
+              "ToolEXP:4": 0,
+              "ToolLevel:4": 1,
+              "TotalDurability:4": 113,
+              "Unbreaking:4": 0
             },
             "display:10": {
               "Name:8": "Flint Shovel"
             }
-          },
-          "Damage:2": 0,
-          "OreDict:8": ""
+          }
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 0,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "minecraft:flint",
-          "Count:3": 10,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "TConstruct:blankPattern",
-          "Count:3": 2,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
-    },
-    "1:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 1,
-      "choices:9": {
-        "0:10": {
-          "id:8": "enhancedlootbags:lootbag",
-          "Count:3": 1,
-          "Damage:2": 1,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "TConstruct:blankPattern",
-          "Count:3": 4,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
-    },
-    "2:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 2,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "dreamcraft:item.CoinSmith",
-          "Count:3": 10,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "dreamcraft:item.CoinTechnician",
-          "Count:3": 10,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

@@ -1,68 +1,69 @@
 {
-  "questIDHigh:4": 5634689188638902693,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 237
     }
   },
-  "questIDLow:4": -5362928539393889721,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "No matter how much of a crack shot you become it doesn\u0027t help when your twitchy fingers shoot your crossbow before your eyes can notice the tell-tale red lines on one particular type of spider\u0027s body. Usually incredible amounts of pain follow...\n\nWith your new wand you are able to craft Red Heart Canisters. A total of ten of them can be put in their own dedicated inventory slot, increasing your maximum health by one heart per.\n\nIt might not be enough, but if it ends up making the difference between standing upright and standing horizontally in a box, you\u0027ll be thankful you made these things.",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "TConstruct:heartCanister",
         "Count:3": 1,
         "Damage:2": 2,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "TConstruct:heartCanister"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "More Health",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "No matter how much of a crack shot you become it doesn\u0027t help when your twitchy fingers shoot your crossbow before your eyes can notice the tell-tale red lines on one particular type of spider\u0027s body. Usually incredible amounts of pain follow...\n\nWith your new wand you are able to craft Red Heart Canisters. A total of ten of them can be put in their own dedicated inventory slot, increasing your maximum health by one heart per.\n\nIt might not be enough, but if it ends up making the difference between standing upright and standing horizontally in a box, you\u0027ll be thankful you made these things."
+      "lockedProgress:1": 0,
+      "name:8": "More Health",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 5634689188638902693,
+  "questIDLow:4": -5362928539393889721,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "TConstruct:heartCanister"
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "TConstruct:heartCanister",
           "Count:3": 1,
           "Damage:2": 2,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "TConstruct:heartCanister"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 0,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "TConstruct:heartCanister",
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

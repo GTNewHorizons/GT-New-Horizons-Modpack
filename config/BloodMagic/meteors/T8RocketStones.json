@@ -2,27 +2,19 @@
   "ores": [
 	"GalaxySpace:barnardaEsubgrunt:0:950",
 	"GalaxySpace:barnardaEgrunt:0:50",
-
 	"GalaxySpace:barnardaFsubgrunt:0:950",
 	"GalaxySpace:barnardaFgrunt:0:50",
-
 	"GalaxySpace:barnardaCdirt:0:100",
 	"GalaxySpace:barnardaCgrass:0:20",
-
 	"GalaxySpace:vegabsubgrunt:0:950",
 	"GalaxySpace:vegabgrunt:0:50",
-
 	"GalaxySpace:tcetieblocks:2:850",
 	"GalaxySpace:tcetieblocks:1:100",
 	"GalaxySpace:tcetieblocks:0:50",
-
 	"GalaxySpace:acentauribbsubgrunt:0:950",
 	"GalaxySpace:acentauribbgrunt:0:50"
   ],
   "radius": 20,
   "cost": 50000000,
-  "focusModId": "dreamcraft",
-  "focusName": "item.HeavyDutyPlateTier8",
-  "focusMeta": 0
+  "focusItem": "dreamcraft:item.HeavyDutyPlateTier8"
 }
-

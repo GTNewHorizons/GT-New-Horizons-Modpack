@@ -1,106 +1,108 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 1631
     }
   },
-  "questIDLow:4": 1632,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "The item stock keeper looks at the connecting inventory and keeps item stocked in there. If the item is missing it will keep bothering item broadcasters every few seconds if they have the item and if they can send it. It\u0027s basically like an annoying child.\n\nIt is really useful though. Want a chest that will always have 64 cobble and dirt in it and if you take them they will get replaced? This guy is perfect for that job. It\u0027s great for keeping machines stocked. When stocking GT machines, the top left slot of the 3x3 is equal to the left slot of the machine. Want a chemical reactor that keeps 3 hydrogen cells ready to go to make ammonia, just add nitrogen? This is the chip for you.",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "ProjRed|Transportation:projectred.transportation.routingchip",
         "Count:3": 1,
         "Damage:2": 6,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "ProjRed|Transportation:projectred.transportation.routingchip"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Item Stock Keeper Chip",
       "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "The item stock keeper looks at the connecting inventory and keeps item stocked in there. If the item is missing it will keep bothering item broadcasters every few seconds if they have the item and if they can send it. It\u0027s basically like an annoying child. \n\nIt is really useful though. Want a chest that will always have 64 cobble and dirt in it and if you take them they will get replaced? This guy is perfect for that job. It\u0027s great for keeping machines stocked. When stocking GT machines, the top left slot of the 3x3 is equal to the left slot of the machine. Want a chemical reactor that keeps 3 hydrogen cells ready to go to make ammonia, just add nitrogen? This is the chip for you."
+      "lockedProgress:1": 0,
+      "name:8": "Item Stock Keeper Chip",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 1632,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "ProjRed|Core:projectred.core.part"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "IC2:itemPartCircuit"
+        },
+        "2:10": {
+          "Count:3": 8,
+          "Damage:2": 2000,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 44,
+          "OreDict:8": "",
+          "id:8": "ProjRed|Core:projectred.core.part"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 15,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnician"
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "ProjRed|Transportation:projectred.transportation.routingchip",
           "Count:3": 1,
           "Damage:2": 6,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "ProjRed|Transportation:projectred.transportation.routingchip"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 0,
-      "choices:9": {
-        "0:10": {
-          "id:8": "ProjRed|Core:projectred.core.part",
-          "Count:3": 2,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "IC2:itemPartCircuit",
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "2:10": {
-          "id:8": "gregtech:gt.blockmachines",
-          "Count:3": 8,
-          "Damage:2": 2000,
-          "OreDict:8": ""
-        },
-        "3:10": {
-          "id:8": "ProjRed|Core:projectred.core.part",
-          "Count:3": 1,
-          "Damage:2": 44,
-          "OreDict:8": ""
-        },
-        "4:10": {
-          "id:8": "enhancedlootbags:lootbag",
-          "Count:3": 1,
-          "Damage:2": 4,
-          "OreDict:8": ""
-        }
-      }
-    },
-    "1:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 1,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "dreamcraft:item.CoinTechnician",
-          "Count:3": 15,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

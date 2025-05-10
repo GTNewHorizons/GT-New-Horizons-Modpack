@@ -1,135 +1,137 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 36
     }
   },
-  "questIDLow:4": 718,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "If you ever wanted to know how crop breeding works, you are in the right place! Get some Crops - the sticks, that is - and some seeds from farming with a hoe or mattock. You can also place some plants and berries directly on crop sticks. Good plants to start with are flowers, wheat, cactus and sugarcane.\n\nMake a plot of farmland with your tool and place water in the middle. For now, make 3x1 plots, separated by a row of dirt or cobble. You want to be able to see the center of each column of 3x1 plots all at once, like this:\nFFFdddFFF\ndddFFFddd\nFFFdddFFF\ndddFFFddd\nFFFdWdFFF\ndddFFFddd\nFFFdddFFF\ndddFFFddd\nFFFdddFFF\nNow place crop sticks in each end of the 3x1 plot. Then place the seeds on the sticks and wait a bit.\n\nWhen they are almost fully grown you can put double crop sticks in the center spots by using crop sticks once more on already placed crop sticks. This center area can now grow new crops, even new species.\n\nWith some luck you might get a new unknown seed which can be scanned later.\n\nWeeds need to be removed with a trowel or spade otherwise your field will become overgrown by them.\n\nUsing 3x1 plots is easy and not much work. Check them every 5-10 minutes to remove weeds and gather new seeds. If you forget, you only lose one or two seeds.\n\nIf you find a really nice seed, you can do 3x3 or 5x5 plots with the nice seed in the middle and others next to it for crossing. But this requires more babysitting since weeds could destroy the whole field.\n\nNote that the more crops next to the double crop stick the faster new plants will show up, up to 4 obviously. This is also the way to get new versions of the same plant, you can\u0027t do it with just one parent like Agricraft.\n\nDon\u0027t leave new crops in these intensive fields. Pull them out and hopefully get a seedbag. Put low stat seeds in production fields that don\u0027t require babysitting. Keep the high stat seeds for more crossing.\n\nCrossing happens when two or more almost-mature crops are next to a double cropstick. There is a high chance of getting the same species as the parents. The rest of the time will be a mutation. For more details, check out the IC2 cropnalyzer quest.",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "IC2:blockCrop",
         "Count:3": 1,
         "Damage:2": 0,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "IC2:blockCrop"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Moron\u0027s Manual to Fecund Farms",
       "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "If you ever wanted to know how crop breeding works, you are in the right place! Get some Crops - the sticks, that is - and some seeds from farming with a hoe or mattock. You can also place some plants and berries directly on crop sticks. Good plants to start with are flowers, wheat, cactus and sugarcane. \n\nMake a plot of farmland with your tool and place water in the middle. For now, make 3x1 plots, separated by a row of dirt or cobble. You want to be able to see the center of each column of 3x1 plots all at once, like this:\nFFFdddFFF\ndddFFFddd\nFFFdddFFF\ndddFFFddd\nFFFdWdFFF\ndddFFFddd\nFFFdddFFF\ndddFFFddd \nFFFdddFFF\nNow place crop sticks in each end of the 3x1 plot. Then place the seeds on the sticks and wait a bit.\n\nWhen they are almost fully grown you can put double crop sticks in the center spots by using crop sticks once more on already placed crop sticks. This center area can now grow new crops, even new species.\n\nWith some luck you might get a new unknown seed which can be scanned later.\n\nWeeds need to be removed with a trowel or spade otherwise your field will become overgrown by them.\n\nUsing 3x1 plots is easy and not much work.  Check them every 5-10 minutes to remove weeds and gather new seeds. If you forget, you only lose one or two seeds. \n\nIf you find a really nice seed, you can do 3x3 or 5x5 plots with the nice seed in the middle and others next to it for crossing. But this requires more babysitting since weeds could destroy the whole field.\n\nNote that the more crops next to the double crop stick the faster new plants will show up, up to 4 obviously. This is also the way to get new versions of the same plant, you can\u0027t do it with just one parent like Agricraft.\n\nDon\u0027t leave new crops in these intensive fields. Pull them out and hopefully get a seedbag. Put low stat seeds in production fields that don\u0027t require babysitting. Keep the high stat seeds for more crossing. \n\nCrossing happens when two or more almost-mature crops are next to a double cropstick. There is a high chance of getting the same species as the parents. The rest of the time will be a mutation. For more details, check out the IC2 cropnalyzer quest."
+      "lockedProgress:1": 0,
+      "name:8": "Moron\u0027s Manual to Fecund Farms",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 718,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "IC2:blockCrop"
+        },
+        "1:10": {
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:carrot"
+        },
+        "2:10": {
+          "Count:3": 16,
+          "Damage:2": 3,
+          "OreDict:8": "",
+          "id:8": "minecraft:dye"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 51,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 15,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinFarmer"
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "IC2:blockCrop",
           "Count:3": 16,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "IC2:blockCrop"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "minecraft:wheat_seeds",
           "Count:3": 2,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "minecraft:wheat_seeds"
         },
         "1:10": {
-          "id:8": "minecraft:reeds",
           "Count:3": 2,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "minecraft:reeds"
         },
         "2:10": {
-          "id:8": "minecraft:carrot",
           "Count:3": 2,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "minecraft:carrot"
         },
         "3:10": {
-          "id:8": "minecraft:potato",
           "Count:3": 2,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "minecraft:potato"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 0,
-      "choices:9": {
-        "0:10": {
-          "id:8": "IC2:blockCrop",
-          "Count:3": 64,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "minecraft:carrot",
-          "Count:3": 16,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "2:10": {
-          "id:8": "minecraft:dye",
-          "Count:3": 16,
-          "Damage:2": 3,
-          "OreDict:8": ""
-        },
-        "3:10": {
-          "id:8": "enhancedlootbags:lootbag",
-          "Count:3": 1,
-          "Damage:2": 51,
-          "OreDict:8": ""
-        }
-      }
-    },
-    "1:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 1,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "dreamcraft:item.CoinFarmer",
-          "Count:3": 15,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

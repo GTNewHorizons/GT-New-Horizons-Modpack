@@ -1,5 +1,4 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
@@ -10,174 +9,177 @@
       "questIDLow:4": 1149
     }
   },
-  "questIDLow:4": 1150,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "It\u0027s time to craft a Crossbow Limb and the Crossbow Body to upgrade your old Wooden Crossbow.",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "TConstruct:Crossbow",
         "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "TConstruct:Crossbow",
         "tag:10": {
           "InfiTool:10": {
-            "RenderExtra:4": 6,
-            "BaseDurability:4": 288,
-            "BaseAttack:4": 2,
-            "DrawSpeed:4": 35,
-            "ToolEXP:4": 0,
-            "HarvestLevel:4": 3,
-            "RenderHead:4": 1602,
-            "ModDurability:6": 0.0,
-            "Shoddy:6": 0.0,
-            "RenderHandle:4": 1602,
             "Accessory:4": 2,
-            "MiningSpeed:4": 600,
-            "Unbreaking:4": 3,
-            "Damage:4": 0,
-            "BonusDurability:4": 0,
-            "TotalDurability:4": 288,
-            "BaseDrawSpeed:4": 35,
-            "Head:4": 1602,
             "Attack:4": 2,
-            "Handle:4": 1602,
+            "BaseAttack:4": 2,
+            "BaseDrawSpeed:4": 35,
+            "BaseDurability:4": 288,
+            "BonusDurability:4": 0,
             "Broken:4": 0,
+            "Damage:4": 0,
+            "DrawSpeed:4": 35,
             "Extra:4": 6,
-            "RenderAccessory:4": 2,
-            "ToolLevel:4": 1,
             "FlightSpeed:6": 5.99399995803833,
-            "Modifiers:4": 0
+            "Handle:4": 1602,
+            "HarvestLevel:4": 3,
+            "Head:4": 1602,
+            "MiningSpeed:4": 600,
+            "ModDurability:6": 0.0,
+            "Modifiers:4": 0,
+            "RenderAccessory:4": 2,
+            "RenderExtra:4": 6,
+            "RenderHandle:4": 1602,
+            "RenderHead:4": 1602,
+            "Shoddy:6": 0.0,
+            "ToolEXP:4": 0,
+            "ToolLevel:4": 1,
+            "TotalDurability:4": 288,
+            "Unbreaking:4": 3
           },
           "display:10": {
             "Name:8": "Magnalium Crossbow"
           }
-        },
-        "Damage:2": 0,
-        "OreDict:8": ""
+        }
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "§5§lMagnalium Crossbow",
       "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "It\u0027s time to craft a Crossbow Limb and the Crossbow Body to upgrade your old Wooden Crossbow."
+      "lockedProgress:1": 0,
+      "name:8": "§5§lMagnalium Crossbow",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 1150,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 7,
+          "OreDict:8": "",
+          "id:8": "Natura:barleyFood"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      }
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 15,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinSmith"
+        },
+        "1:10": {
+          "Count:3": 15,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnician"
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.metaitem.01",
           "Count:3": 9,
           "Damage:2": 11313,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "TConstruct:Cast",
           "Count:3": 1,
           "Damage:2": 1,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "TConstruct:Cast"
         },
         "1:10": {
-          "id:8": "TConstruct:Cast",
           "Count:3": 1,
           "Damage:2": 2,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "TConstruct:Cast"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
     },
     "2:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 2,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "TGregworks:tGregToolPartCrossbowLimb",
           "Count:3": 1,
+          "Damage:2": 1602,
+          "OreDict:8": "",
+          "id:8": "TGregworks:tGregToolPartCrossbowLimb",
           "tag:10": {
             "material:8": "Magnalium"
-          },
-          "Damage:2": 1602,
-          "OreDict:8": ""
+          }
         },
         "1:10": {
-          "id:8": "TGregworks:tGregToolPartCrossbowBody",
           "Count:3": 1,
+          "Damage:2": 1602,
+          "OreDict:8": "",
+          "id:8": "TGregworks:tGregToolPartCrossbowBody",
           "tag:10": {
             "material:8": "Magnalium"
-          },
-          "Damage:2": 1602,
-          "OreDict:8": ""
+          }
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 0,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "Natura:barleyFood",
-          "Count:3": 2,
-          "Damage:2": 7,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "enhancedlootbags:lootbag",
-          "Count:3": 1,
-          "Damage:2": 4,
-          "OreDict:8": ""
-        }
-      }
-    },
-    "1:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 1,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "dreamcraft:item.CoinSmith",
-          "Count:3": 15,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "dreamcraft:item.CoinTechnician",
-          "Count:3": 15,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

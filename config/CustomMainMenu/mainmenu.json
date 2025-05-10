@@ -202,16 +202,22 @@
 			"posY": 0,
 			"alignment": "column_bottom"
 		},
+		"forge": {
+			"text": "menu.gtnh.forge",
+			"posX": 155,
+			"posY": -10,
+			"alignment": "column_bottom"
+		},
 		"version": {
 			"text": "file:mainmenu:version.txt",
 			"posX": 155,
-			"posY": -10,
+			"posY": -20,
 			"alignment": "column_bottom"
 		},
 		"aviators": {
 			"text": "menu.gtnh.aviators",
 			"posX": 150,
-			"posY": -20,
+			"posY": -30,
 			"fontSize": 0.5,
 			"alignment": "column_bottom"
 		}
@@ -245,7 +251,8 @@
 					"mainmenu:textures/bg3.png",
 					"mainmenu:textures/bg4.png",
 					"mainmenu:textures/bg5.png",
-					"mainmenu:textures/bg6.png"
+					"mainmenu:textures/bg6.png",
+					"mainmenu:textures/bg7.png"
 				],
 				"displayDuration": 150,
 				"fadeDuration": 40

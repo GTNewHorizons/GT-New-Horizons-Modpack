@@ -1,19 +1,19 @@
 {
-  "questLineIDLow:4": -8983002216465400575,
-  "questLineIDHigh:4": -7381328130352135935,
   "properties:10": {
     "betterquesting:10": {
-      "visibility:8": "NORMAL",
-      "name:8": "Handle Logistics with Pipes",
-      "icon:10": {
-        "id:8": "LogisticsPipes:item.itemModule",
-        "Count:3": 1,
-        "Damage:2": 5,
-        "OreDict:8": ""
-      },
       "bg_image:8": "",
       "bg_size:3": 256,
-      "desc:8": "No access to AE2 yet? Want to see items zooming around while crafting? Logistics Pipes is for You."
+      "desc:8": "No access to AE2 yet? Want to see items zooming around while crafting? Logistics Pipes is for You.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 5,
+        "OreDict:8": "",
+        "id:8": "LogisticsPipes:item.itemModule"
+      },
+      "name:8": "Handle Logistics with Pipes",
+      "visibility:8": "NORMAL"
     }
-  }
+  },
+  "questLineIDHigh:4": -7381328130352135935,
+  "questLineIDLow:4": -8983002216465400575
 }

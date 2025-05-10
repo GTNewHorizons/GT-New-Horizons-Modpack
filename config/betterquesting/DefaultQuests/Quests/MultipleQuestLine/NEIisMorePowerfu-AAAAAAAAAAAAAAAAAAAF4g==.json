@@ -1,0 +1,58 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1505
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "NEI has some really nice advanced features too.\n\nClicking LMB or pressing R on an item shows the recipes to create it. RMB or U show recipes that use the item. Backspace moves you back to the previously browsed recipe.\n\nHold Shift to stop the oredict cycling through items, and to show the oredict entries for the current item under your cursor.\n\nSearch using @ to find all items from that mod; for example, §o@thaumcraft§r will list all Thaumcraft items and blocks.\n\nYou can combine multiple search terms with a space. §o@thaumcraft table§r will search for anything with table in the name or description, in the mod Thaumcraft.\n\nIt has even more advanced features than mentioned here and many configuration options, you can look in the NEI option menu under Inventory to find a few. Here you can change more things about how the search works (like using regex), toggle collapsible items or the item zoom panel, or configure the history panel to your liking.",
+      "globalShare:1": 1,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:bookshelf"
+      },
+      "isGlobal:1": 0,
+      "isMain:1": 1,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "§2§lNEI is More Powerful Than You Imagine",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 1506,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinSmith"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

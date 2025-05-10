@@ -1,195 +1,197 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 3220
     }
   },
-  "questIDLow:4": 3258,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL",
-      "isMain:1": 1,
-      "simultaneous:1": 0,
-      "icon:10": {
-        "id:8": "Botania:lexicon",
-        "Count:3": 1,
-        "tag:10": {},
-        "Damage:2": 0,
-        "OreDict:8": ""
-      },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "A Botanist\u0027s Best Friend",
-      "lockedProgress:1": 0,
       "autoClaim:1": 0,
+      "desc:8": "Functional flowers are a large part of Botania. Most of them have nuances to how they operate, and these are generally best explained in the Lexica Botania: a codex of all Botania knowledge. This questline will explain the basics, but be sure to keep a copy of the Lexica Botania on hand so you can easily reference the details.\n\nBesides being a repository of useful information, the Lexica Botania has another function: if, while holding it, you look at any Botania block in the world, you can shift-right-click on that block to open up the relevant page.\n\nSomething else you\u0027ll want for functional flowers is a handful of redstone roots. Flowers which have a redstone root in their recipe have the ability to toggle whether they are active by applying a redstone signal. Make a few before you move on.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "Botania:lexicon",
+        "tag:10": {}
+      },
+      "isMain:1": 1,
       "isSilent:1": 0,
-      "desc:8": "Functional flowers are a large part of Botania. Most of them have nuances to how they operate, and these are generally best explained in the Lexica Botania: a codex of all Botania knowledge. This questline will explain the basics, but be sure to keep a copy of the Lexica Botania on hand so you can easily reference the details.\n\nBesides being a repository of useful information, the Lexica Botania has another function: if, while holding it, you look at any Botania block in the world, you can shift+right click on that block to open up the relevant page.\n\nSomething else you\u0027ll want for functional flowers is a handful of redstone roots. Flowers which have a redstone root in their recipe have the ability to toggle whether they are active by applying a redstone signal. Make a few before you move on."
+      "lockedProgress:1": 0,
+      "name:8": "A Botanist\u0027s Best Friend",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 3258,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "Botania:mushroom"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "Damage:2": 1,
+          "OreDict:8": "",
+          "id:8": "Botania:mushroom"
+        },
+        "2:10": {
+          "Count:3": 4,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "Botania:mushroom"
+        },
+        "3:10": {
+          "Count:3": 4,
+          "Damage:2": 3,
+          "OreDict:8": "",
+          "id:8": "Botania:mushroom"
+        },
+        "4:10": {
+          "Count:3": 4,
+          "Damage:2": 4,
+          "OreDict:8": "",
+          "id:8": "Botania:mushroom"
+        },
+        "5:10": {
+          "Count:3": 4,
+          "Damage:2": 5,
+          "OreDict:8": "",
+          "id:8": "Botania:mushroom"
+        },
+        "6:10": {
+          "Count:3": 4,
+          "Damage:2": 6,
+          "OreDict:8": "",
+          "id:8": "Botania:mushroom"
+        },
+        "7:10": {
+          "Count:3": 4,
+          "Damage:2": 7,
+          "OreDict:8": "",
+          "id:8": "Botania:mushroom"
+        },
+        "8:10": {
+          "Count:3": 4,
+          "Damage:2": 8,
+          "OreDict:8": "",
+          "id:8": "Botania:mushroom"
+        },
+        "9:10": {
+          "Count:3": 4,
+          "Damage:2": 9,
+          "OreDict:8": "",
+          "id:8": "Botania:mushroom"
+        },
+        "10:10": {
+          "Count:3": 4,
+          "Damage:2": 10,
+          "OreDict:8": "",
+          "id:8": "Botania:mushroom"
+        },
+        "11:10": {
+          "Count:3": 4,
+          "Damage:2": 11,
+          "OreDict:8": "",
+          "id:8": "Botania:mushroom"
+        },
+        "12:10": {
+          "Count:3": 4,
+          "Damage:2": 12,
+          "OreDict:8": "",
+          "id:8": "Botania:mushroom"
+        },
+        "13:10": {
+          "Count:3": 4,
+          "Damage:2": 13,
+          "OreDict:8": "",
+          "id:8": "Botania:mushroom"
+        },
+        "14:10": {
+          "Count:3": 4,
+          "Damage:2": 14,
+          "OreDict:8": "",
+          "id:8": "Botania:mushroom"
+        },
+        "15:10": {
+          "Count:3": 4,
+          "Damage:2": 15,
+          "OreDict:8": "",
+          "id:8": "Botania:mushroom"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinFlowerI"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "Damage:2": 6,
+          "OreDict:8": "",
+          "id:8": "Botania:manaResource"
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "Botania:lexicon",
           "Count:3": 1,
-          "tag:10": {},
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "Botania:lexicon",
+          "tag:10": {}
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "Botania:manaResource",
           "Count:3": 4,
           "Damage:2": 6,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "Botania:manaResource"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 0,
-      "choices:9": {
-        "0:10": {
-          "id:8": "Botania:mushroom",
-          "Count:3": 4,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "Botania:mushroom",
-          "Count:3": 4,
-          "Damage:2": 1,
-          "OreDict:8": ""
-        },
-        "2:10": {
-          "id:8": "Botania:mushroom",
-          "Count:3": 4,
-          "Damage:2": 2,
-          "OreDict:8": ""
-        },
-        "3:10": {
-          "id:8": "Botania:mushroom",
-          "Count:3": 4,
-          "Damage:2": 3,
-          "OreDict:8": ""
-        },
-        "4:10": {
-          "id:8": "Botania:mushroom",
-          "Count:3": 4,
-          "Damage:2": 4,
-          "OreDict:8": ""
-        },
-        "5:10": {
-          "id:8": "Botania:mushroom",
-          "Count:3": 4,
-          "Damage:2": 5,
-          "OreDict:8": ""
-        },
-        "6:10": {
-          "id:8": "Botania:mushroom",
-          "Count:3": 4,
-          "Damage:2": 6,
-          "OreDict:8": ""
-        },
-        "7:10": {
-          "id:8": "Botania:mushroom",
-          "Count:3": 4,
-          "Damage:2": 7,
-          "OreDict:8": ""
-        },
-        "8:10": {
-          "id:8": "Botania:mushroom",
-          "Count:3": 4,
-          "Damage:2": 8,
-          "OreDict:8": ""
-        },
-        "9:10": {
-          "id:8": "Botania:mushroom",
-          "Count:3": 4,
-          "Damage:2": 9,
-          "OreDict:8": ""
-        },
-        "10:10": {
-          "id:8": "Botania:mushroom",
-          "Count:3": 4,
-          "Damage:2": 10,
-          "OreDict:8": ""
-        },
-        "11:10": {
-          "id:8": "Botania:mushroom",
-          "Count:3": 4,
-          "Damage:2": 11,
-          "OreDict:8": ""
-        },
-        "12:10": {
-          "id:8": "Botania:mushroom",
-          "Count:3": 4,
-          "Damage:2": 12,
-          "OreDict:8": ""
-        },
-        "13:10": {
-          "id:8": "Botania:mushroom",
-          "Count:3": 4,
-          "Damage:2": 13,
-          "OreDict:8": ""
-        },
-        "14:10": {
-          "id:8": "Botania:mushroom",
-          "Count:3": 4,
-          "Damage:2": 14,
-          "OreDict:8": ""
-        },
-        "15:10": {
-          "id:8": "Botania:mushroom",
-          "Count:3": 4,
-          "Damage:2": 15,
-          "OreDict:8": ""
-        }
-      }
-    },
-    "1:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 1,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "dreamcraft:item.CoinFlowerI",
-          "Count:3": 5,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "Botania:manaResource",
-          "Count:3": 2,
-          "Damage:2": 6,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

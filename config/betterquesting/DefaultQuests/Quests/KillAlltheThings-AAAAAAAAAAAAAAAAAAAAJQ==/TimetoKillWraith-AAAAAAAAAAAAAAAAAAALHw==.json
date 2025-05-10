@@ -1,45 +1,97 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 225
     }
   },
-  "questIDLow:4": 2847,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "The Twilight Wraith is a floating spirit and are not initially aggressive towards the player but will become angry when approached. When spotted by a Wraith it can be difficult to lose it, as they are relentless in chasing the player and its ability to phase through blocks. They are found in large Hollow Hills.",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "TwilightForest:item.tfspawnegg",
         "Count:3": 1,
         "Damage:2": 186,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "TwilightForest:item.tfspawnegg"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": 432000,
-      "globalShare:1": 1,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Time to Kill (Wraith)",
       "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "The Twilight Wraith is a floating spirit and are not initially aggressive towards the player but will become angry when approached. When spotted by a Wraith it can be difficult to lose it, as they are relentless in chasing the player and its ability to phase through blocks. They are found in large Hollow Hills. "
+      "lockedProgress:1": 0,
+      "name:8": "Time to Kill (Wraith)",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": 432000,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 2847,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "betterquesting:extra_life"
+        }
+      }
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinDarkWizardI"
+        },
+        "1:10": {
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinSurvivorI"
+        },
+        "2:10": {
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinAdventureI"
+        },
+        "3:10": {
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnicianI"
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
+      "damageType:8": "",
       "ignoreNBT:1": 1,
       "index:3": 0,
+      "required:3": 20,
+      "subtypes:1": 1,
+      "target:8": "TwilightForest.Twilight Wraith",
       "targetNBT:10": {
-        "ForgeData:10": {},
+        "AbsorptionAmount:5": 0.0,
+        "Air:2": 300,
+        "AttackTime:2": 0,
         "Attributes:9": {
           "0:10": {
             "Base:6": 0.0,
@@ -78,55 +130,11 @@
             "Name:8": "generic.attackDamage"
           }
         },
-        "Invulnerable:1": 0,
-        "PortalCooldown:3": 0,
-        "AbsorptionAmount:5": 0.0,
-        "FallDistance:5": 0.0,
-        "DeathTime:2": 0,
-        "DropChances:9": {
-          "0:5": 0.085,
-          "1:5": 0.085,
-          "2:5": 0.085,
-          "3:5": 0.085,
-          "4:5": 0.085
-        },
-        "PersistenceRequired:1": 0,
-        "id:8": "TwilightForest.Twilight Wraith",
-        "HealF:5": 20.0,
-        "Motion:9": {
-          "0:6": 0.0,
-          "1:6": 0.0,
-          "2:6": 0.0
-        },
-        "Leashed:1": 0,
-        "UUIDLeast:4": 1255763847731286346,
-        "Health:2": 20,
-        "Air:2": 300,
-        "OnGround:1": 0,
-        "Dimension:3": 7,
-        "Rotation:9": {
-          "0:5": 4.09002,
-          "1:5": 0.0
-        },
+        "CanPickUpLoot:1": 0,
         "CreatureInfusion:10": {
-          "PlayerInfusions:11": [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
           "InfusionCosts:10": {
             "Aspects:9": {}
           },
-          "tumorWarpTemp:3": 0,
           "Infusions:11": [
             0,
             0,
@@ -141,13 +149,38 @@
             0,
             0
           ],
+          "PlayerInfusions:11": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "sitting:1": 0,
           "toggleClimb:1": 0,
           "toggleInvisible:1": 0,
           "tumorWarp:3": 0,
-          "sitting:1": 0,
-          "tumorWarpPermanent:3": 0
+          "tumorWarpPermanent:3": 0,
+          "tumorWarpTemp:3": 0
         },
-        "UUIDMost:4": 36299653155200,
+        "CustomName:8": "",
+        "CustomNameVisible:1": 0,
+        "DeathTime:2": 0,
+        "Dimension:3": 7,
+        "DropChances:9": {
+          "0:5": 0.085,
+          "1:5": 0.085,
+          "2:5": 0.085,
+          "3:5": 0.085,
+          "4:5": 0.085
+        },
         "Equipment:9": {
           "0:10": {},
           "1:10": {},
@@ -155,68 +188,37 @@
           "3:10": {},
           "4:10": {}
         },
-        "CustomName:8": "",
+        "FallDistance:5": 0.0,
+        "Fire:2": 0,
+        "ForgeData:10": {},
+        "HealF:5": 20.0,
+        "Health:2": 20,
+        "HurtTime:2": 0,
+        "Invulnerable:1": 0,
+        "Leashed:1": 0,
+        "Motion:9": {
+          "0:6": 0.0,
+          "1:6": 0.0,
+          "2:6": 0.0
+        },
+        "OnGround:1": 0,
+        "PersistenceRequired:1": 0,
+        "PortalCooldown:3": 0,
         "Pos:9": {
           "0:6": 0.0,
           "1:6": 0.0,
           "2:6": 0.0
         },
-        "Fire:2": 0,
-        "CanPickUpLoot:1": 0,
-        "HurtTime:2": 0,
-        "oiltweak.inOil:1": 0,
-        "AttackTime:2": 0,
-        "CustomNameVisible:1": 0
+        "Rotation:9": {
+          "0:5": 4.09002,
+          "1:5": 0.0
+        },
+        "UUIDLeast:4": 1255763847731286346,
+        "UUIDMost:4": 36299653155200,
+        "id:8": "TwilightForest.Twilight Wraith",
+        "oiltweak.inOil:1": 0
       },
-      "damageType:8": "",
-      "required:3": 20,
-      "taskID:8": "bq_standard:hunt",
-      "target:8": "TwilightForest.Twilight Wraith",
-      "subtypes:1": 1
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 0,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "betterquesting:extra_life",
-          "Count:3": 1,
-          "Damage:2": 2,
-          "OreDict:8": ""
-        }
-      }
-    },
-    "1:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 1,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "dreamcraft:item.CoinDarkWizardI",
-          "Count:3": 5,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "dreamcraft:item.CoinSurvivorI",
-          "Count:3": 5,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "2:10": {
-          "id:8": "dreamcraft:item.CoinAdventureI",
-          "Count:3": 5,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "3:10": {
-          "id:8": "dreamcraft:item.CoinTechnicianI",
-          "Count:3": 5,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
+      "taskID:8": "bq_standard:hunt"
     }
   }
 }

@@ -2,7 +2,7 @@ name: Suggest a Change
 description: Suggest a change to an existing feature.
 labels:
 - "Status: Triage"
-- "Type: Suggestion"
+- "Suggestion"
 body:
 - type: markdown
   attributes:
@@ -14,7 +14,7 @@ body:
   attributes:
     label: Your GTNH Discord Username
     description: Leave empty if you don't have one, but this will make it harder to contact you if we need additional info.
-    placeholder: "Example: Fake#1234"
+    placeholder: "Example: Fake"
 - type: input
   id: version
   attributes:

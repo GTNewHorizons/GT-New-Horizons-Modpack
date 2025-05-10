@@ -1,57 +1,58 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 0
     }
   },
-  "questIDLow:4": 1834,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "UNLOCKED",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "The GTNH pack is made for the Realistic World Generator (RWG).\n\nIf your setup uses the vanilla-biomes worldgen, you will get huge Mushroom biomes over the map. If you have this problem, please generate a new world with the RWG.\n\nIf you met this problem on a server, put \"level-type\u003drwg\" into the server.properties file and generate a new world.",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "BiomesOPlenty:mushrooms",
         "Count:3": 1,
         "Damage:2": 3,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "BiomesOPlenty:mushrooms"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "§1§lMushroom Biomes? Why Are There So Many?",
       "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "The GTNH pack is made for the Realistic World Generator (RWG).\n \nIf your setup uses the vanilla-biomes worldgen, you will get huge Mushroom biomes over the map. If you have this problem, please generate a new world with the RWG. \n\nIf you met this problem on a server, put \"level-type\u003drwg\" into the server.properties file and generate a new world."
+      "lockedProgress:1": 0,
+      "name:8": "§1§lMushroom Biomes? Why Are There So Many?",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "UNLOCKED"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 1834,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "WitchingGadgets:item.WG_MagicFood"
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
       "index:3": 0,
       "taskID:8": "bq_standard:checkbox"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 0,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "WitchingGadgets:item.WG_MagicFood",
-          "Count:3": 1,
-          "Damage:2": 2,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

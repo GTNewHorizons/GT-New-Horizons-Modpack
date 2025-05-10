@@ -1,94 +1,95 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 3106
     }
   },
-  "questIDLow:4": 3141,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "From Wood Tar, you can selectively filter out the energetic Benzene to use as a power source. This tar is like a fluid equivalent of the Charcoal, and it actually has a lot of useful chemicals hidden inside: to separate them, the tar needs to be heated up to a temperature that will cause some of its components to evaporate, but not others. This is fractional distillation, and the singleblock Distillery, in this case an MV one, can recover only one of the outputs of such distillation.\n\nThere is something that is worth considering, though: Benzene is not the only useful chemical that can be gotten from Wood Tar. In HV, you can get all the outputs at the same time, but right now you can only choose one. Other options that you might want are Toluene and Creosote. The former can be used to make TNT, to do Implosion Compressor crafts, and the latter is useful to make Lubricant, if you ran out of it and are not using Coke Ovens anymore.",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.blockmachines",
         "Count:3": 1,
         "Damage:2": 532,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Distilling Benzene",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "From Wood Tar, you can selectively filter out the energetic Benzene to use as a power source. This tar is like a fluid equivalent of the Charcoal, and it actually has a lot of useful chemicals hidden inside: to separate them, the tar needs to be heated up to a temperature that will cause some of its components to evaporate, but not others. This is fractional distillation, and the singleblock Distillery, in this case an MV one, can recover only one of the outputs of such distillation.\n\nThere is something that is worth considering, though: Benzene is not the only useful chemical that can be gotten from Wood Tar. In HV, you can get all the outputs at the same time, but right now you can only choose one. Other options that you might want are Toluene and Creosote. The former can be used to make TNT, to do Implosion Compressor crafts, and the latter is useful to make Lubricant, if you ran out of it and are not using Coke Ovens anymore. "
+      "lockedProgress:1": 0,
+      "name:8": "Distilling Benzene",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 3141,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 32,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "IC2:itemCellEmpty"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag",
+          "tag:10": {
+            "ench:9": {
+              "0:10": {
+                "id:2": 35,
+                "lvl:2": 3
+              }
+            }
+          }
+        },
+        "2:10": {
+          "Count:3": 3,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinChemistI"
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.blockmachines",
           "Count:3": 1,
           "Damage:2": 532,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
         },
         "1:10": {
-          "id:8": "gregtech:gt.metaitem.01",
           "Count:3": 32,
           "Damage:2": 30686,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 0,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "IC2:itemCellEmpty",
-          "Count:3": 32,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "enhancedlootbags:lootbag",
-          "Count:3": 1,
-          "tag:10": {
-            "ench:9": {
-              "0:10": {
-                "lvl:2": 3,
-                "id:2": 35
-              }
-            }
-          },
-          "Damage:2": 5,
-          "OreDict:8": ""
-        },
-        "2:10": {
-          "id:8": "dreamcraft:item.CoinChemistI",
-          "Count:3": 3,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

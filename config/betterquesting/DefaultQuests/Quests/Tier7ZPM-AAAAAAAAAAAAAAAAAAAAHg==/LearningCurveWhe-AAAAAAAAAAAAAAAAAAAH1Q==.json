@@ -1,44 +1,44 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 2610
     }
   },
-  "questIDLow:4": 2005,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 1,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "Only dangerous cliffs to fly off. TecTech can be the source of adventures, scary and satisfying.\n\nThanks to Piky/Scripted for giving you some guardrails to stay on the road. Scripted/Piky shed blood over these quests for you. Now it\u0027s your turn!\n\nFor additional details on TecTech, check out the wiki at [url]https://github.com/Technus/TecTech/wiki[/url]\n\nYou\u0027ll probably receive better help in Discord, though.",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "structurelib:item.structurelib.constructableTrigger",
         "Count:3": 1,
         "Damage:2": 0,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "structurelib:item.structurelib.constructableTrigger"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Learning Curve? Where We\u0027re Going There Are No Curves",
       "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 1,
       "isSilent:1": 0,
-      "desc:8": "Only dangerous cliffs to fly off. TecTech can be the source of adventures, scary and satisfying. \n\nThanks to Piky/Scripted for giving you some guardrails to stay on the road. Scripted/Piky shed blood over these quests for you. Now it\u0027s your turn!\n\nFor additional details on TecTech, check out the wiki at [url]https://github.com/Technus/TecTech/wiki[/url]\n\nYou\u0027ll probably receive better help in Discord, though."
+      "lockedProgress:1": 0,
+      "name:8": "Learning Curve? Where We\u0027re Going There Are No Curves",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
     }
   },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 2005,
+  "rewards:9": {},
   "tasks:9": {
     "0:10": {
       "index:3": 0,
       "taskID:8": "bq_standard:checkbox"
     }
-  },
-  "rewards:9": {}
+  }
 }

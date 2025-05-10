@@ -1,14 +1,13 @@
 {
   "ores": [
-	"oreMarbleSalt",
-    "3000",
-	"oreTengamRaw",
-    "4"
+    "OREDICT:oreMarbleSalt:69"
+  ],
+  "filler": [
+    "gregtech:gt.blockores:817:72",
+    "OREDICT:oreTengamRaw:1"
   ],
   "radius": 16,
   "cost": 1000000001,
-  "focusModId": "GalacticraftAmunRa",
-  "focusName": "tile.machines2",
-  "focusMeta": 1
+  "focusItem": "GalacticraftAmunRa:tile.machines2:1",
+  "fillerChance": 10
 }
-

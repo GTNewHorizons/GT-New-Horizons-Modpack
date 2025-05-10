@@ -1,5 +1,4 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
@@ -10,81 +9,83 @@
       "questIDLow:4": 3115
     }
   },
-  "questIDLow:4": 3124,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "Ethanol and Methanol are two different chemicals, but they are both outputs from DTing Fermented Biomass or Wood Vinegar. Between the two, you can make Ethylene (and then Polyethylene, by adding Sulfuric Acid and Oxygen), Biodiesel, Dense Hydrazine (GT++ rocket fuel, it\u0027s very powerful in IV, try it), some chemicals for HOG (EV fuel from crude oil), and many other things such as Chloromethane. For future processing lines, you\u0027re going to want to have these stocked up.\n\nThey are both also power sources, if you end up with full super tanks. Their fuel values aren\u0027t the best, with Ethanol at 192k and Methanol at 84k, but they are perfectly capable of fueling your powergen setups, leaving your best fuels free to power your main base. Even if you\u0027re using them for Biodiesel and Polyethylene at the same time, it\u0027s quite likely that you\u0027ll have leftovers. If you have the choice to use any of the two in a recipe, choose Methanol, since Ethanol has a lot more EU per bucket to give.\n\n(Also note that you get almost no Ethanol from Wood Vinegar compared to Methanol. On the Fermented Biomass side, the amounts are the same.)",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.metaitem.01",
         "Count:3": 1,
         "Damage:2": 30706,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.metaitem.01"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "OR",
-      "repeat_relative:1": 1,
-      "name:8": "Alcohols Here",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Ethanol and Methanol are two different chemicals, but they are both outputs from DTing Fermented Biomass or Wood Vinegar. Between the two, you can make Ethylene (and then Polyethylene, by adding Sulfuric Acid and Oxygen), Biodiesel, Dense Hydrazine (GT++ rocket fuel, it\u0027s very powerful in IV, try it), some chemicals for HOG (EV fuel from crude oil), and many other things such as Chloromethane. For future processing lines, you\u0027re going to want to have these stocked up. \n\nThey are both also power sources, if you end up with full super tanks. Their fuel values aren\u0027t the best, with Ethanol at 192k and Methanol at 84k, but they are perfectly capable of fueling your powergen setups, leaving your best fuels free to power your main base. Even if you\u0027re using them for Biodiesel and Polyethylene at the same time, it\u0027s quite likely that you\u0027ll have leftovers. If you have the choice to use any of the two in a recipe, choose Methanol, since Ethanol has a lot more EU per bucket to give.\n\n(Also note that you get almost no Ethanol from Wood Vinegar compared to Methanol. On the Fermented Biomass side, the amounts are the same.)"
+      "lockedProgress:1": 0,
+      "name:8": "Alcohols Here",
+      "questLogic:8": "OR",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 3124,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 10,
+          "OreDict:8": "",
+          "id:8": "ExtraBees:honeyComb"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 6,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        },
+        "2:10": {
+          "Count:3": 3,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinChemistII"
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.metaitem.01",
           "Count:3": 64,
           "Damage:2": 30706,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
         },
         "1:10": {
-          "id:8": "gregtech:gt.metaitem.01",
           "Count:3": 64,
           "Damage:2": 30673,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 0,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "ExtraBees:honeyComb",
-          "Count:3": 1,
-          "Damage:2": 10,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "enhancedlootbags:lootbag",
-          "Count:3": 1,
-          "Damage:2": 6,
-          "OreDict:8": ""
-        },
-        "2:10": {
-          "id:8": "dreamcraft:item.CoinChemistII",
-          "Count:3": 3,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

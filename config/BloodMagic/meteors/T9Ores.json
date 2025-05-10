@@ -1,0 +1,13 @@
+{
+  "ores": [
+    "OREDICT:oreDraconiumAwakened:1000",
+    "OREDICT:oreNeodymium:500",
+    "OREDICT:oreSamarium:300",
+    "OREDICT:oreNetherStar:250",
+    "OREDICT:oreTartarite:60",
+    "OREDICT:oreTengamRaw:1"
+  ],
+  "radius": 16,
+  "cost": 1000000001,
+  "focusItem": "gregtech:gt.blockmachines:14009"
+}

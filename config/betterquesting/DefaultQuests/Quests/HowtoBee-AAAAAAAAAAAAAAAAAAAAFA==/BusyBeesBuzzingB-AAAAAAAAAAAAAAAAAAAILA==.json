@@ -1,100 +1,101 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 1123
     }
   },
-  "questIDLow:4": 2092,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "These upgrades can significantly increase your production rate by keeping your bees from stopping production due to the environment.\n\nRain Shield - Can work through the rain\nLighting - Can work day and night\nAlveary Heater - Increases temperature a flat 20% each (needs power)\nAlveary Fan - Decreases temperature a flat 20% each (needs power)\nAlveary Hygroregulator[sic] - Has two modes, water and lava\nLava - Temp+10%, Humidity-20%\nWater - Temp-10%, Humidity+20%\n\nUnfortunately, there\u0027s no way to make them like caves with a block.",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "ExtraBees:alveary",
         "Count:3": 1,
         "Damage:2": 3,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "ExtraBees:alveary"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Busy Bees Buzzing Boldly",
       "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "These upgrades can significantly increase your production rate by keeping your bees from stopping production due to the environment.\n\nRain Shield - Can work through the rain\nLighting - Can work day and night\nAlveary Heater - Increases temperature a flat 20% each (needs power)\nAlveary Fan - Decreases temperature a flat 20% each (needs power)\nAlveary Hygroregulator[sic] - Has two modes, water and lava\nLava - Temp+10%, Humidity-20%\nWater - Temp-10%, Humidity+20%\n\nUnfortunately, there\u0027s no way to make them like caves with a block."
+      "lockedProgress:1": 0,
+      "name:8": "Busy Bees Buzzing Boldly",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 2092,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "Forestry:alveary"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 26,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "ExtraBees:alveary",
           "Count:3": 1,
           "Damage:2": 2,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "ExtraBees:alveary"
         },
         "1:10": {
-          "id:8": "ExtraBees:alveary",
           "Count:3": 1,
           "Damage:2": 3,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "ExtraBees:alveary"
         },
         "2:10": {
-          "id:8": "Forestry:alveary",
           "Count:3": 1,
           "Damage:2": 4,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "Forestry:alveary"
         },
         "3:10": {
-          "id:8": "Forestry:alveary",
           "Count:3": 1,
           "Damage:2": 3,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "Forestry:alveary"
         },
         "4:10": {
-          "id:8": "Forestry:alveary",
           "Count:3": 1,
           "Damage:2": 5,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "Forestry:alveary"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 0,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "Forestry:alveary",
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "enhancedlootbags:lootbag",
-          "Count:3": 1,
-          "Damage:2": 26,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

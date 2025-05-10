@@ -1,74 +1,75 @@
 {
-  "questIDHigh:4": 5482675134375415055,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": -798473871130869738,
       "questIDLow:4": -9040111725259888874
     }
   },
-  "questIDLow:4": -5588321033523610480,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "A well organized storage system is crucial for a logistics system.\n\nWith the ability to use modules through a chassis, we can now prepare for storage modules.\n\nLogistics Pipes uses ItemSink modules to assign storage spaces.\n\nThis ItemSink modules can be used in 2 ways:\n\n1. Assign the storage of a connected inventory with at most 9 different kinds of items by setting 9 items as filter on the module.\n\n2. Assign a connected inventory as a default route. The default route is a destination for items that have no other valid storage spaces.\n\n§cNote: remember to always check if the default route has additional spaces because items that are stuck in the pipes without a destination will eventually YEET themselves out of the pipes.",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "LogisticsPipes:item.itemModule",
         "Count:3": 1,
         "Damage:2": 1,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "LogisticsPipes:item.itemModule"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Let this Sink in",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "A well organized storage system is crucial for a logistics system. \n\nWith the ability to use modules through a chassis, we can now prepare for storage modules.\n\nLogistics Pipes uses ItemSink modules to assign storage spaces.\n\nThis ItemSink modules can be used in 2 ways:\n\n1. Assign the storage of a connected inventory with at most 9 different kinds of items by setting 9 items as filter on the module.\n\n2. Assign a connected inventory as a default route. The default route is a destination for items that have no other valid storage spaces.\n\n§cNote: remember to always check if the default route has additional spaces because items that are stuck in the pipes without a destination will eventually YEET themselves out of the pipes."
+      "lockedProgress:1": 0,
+      "name:8": "Let this Sink in",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 5482675134375415055,
+  "questIDLow:4": -5588321033523610480,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnicianI"
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "LogisticsPipes:item.itemModule",
           "Count:3": 4,
           "Damage:2": 1,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "LogisticsPipes:item.itemModule"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 0,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "enhancedlootbags:lootbag",
-          "Count:3": 1,
-          "Damage:2": 4,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "dreamcraft:item.CoinTechnicianI",
-          "Count:3": 2,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

@@ -1,57 +1,58 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 2123
     }
   },
-  "questIDLow:4": 1115,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "Forestry trees have a variety of attributes. Once you get a tree with a useful attribute, you can breed that attribute into other tree species. This way you can get an ultimate tree that combines all the attributes you want - including the type of fruit! You can also extract the genes with Gendustry if you can make the machines.\n\n[warn]Please do your Forestry tree-breeding indoors or underground because butterflies cause lag.[/warn]\n\nKeep in mind that for quests, you will need to breed the species \"pure\", not a hybrid. You should probably save the crossbreeding until after you get all the good ones.\n\nFor faster tree breeding, enclose your trees so that butterflies cannot escape, and breed bees with better traits for area and pollination speed. There\u0027s also frames too if you can afford it. The sieve may also help if you want to do it more exactly if you can make an alveary. You need either bees or butterflies, trees won\u0027t pollinate each other.\n\nTrees have the following characteristics:\n§eSaplings/Fertility§r: chance of getting a sapling from a destroyed leaf. Good for making into biomass or other uses. Balsa, Gooseberry and Sweetgum are what you want.\n\nAllele     Drop Chance\nLowest   1%\nLower    2.5%\nLow       3.5%\nAverage 5%\nHigh      10%\n\n[warn]Maturation/Matures[/warn]: the growth speed of a sapling into a tree. Important if you plan to cut it down right away for logs. Golden Raspberry is the fastest.\n\nAllele    Time\nSlowest  10\nSlower   7\nSlow      5\nAverage 4\nFast      3\nFaster   2\nFastest  ?\n\n§dHeight§r: controls how high the tree grows. Giant Sequoia is the best, though it may be a little §otoo§r large.\n\nAllele    Value\nSmallest  25%\nSmaller   50%\nSmall      75%\nAverage 100%\nLarge    125%\nLarger   150%\nLargest  175%\nGigantic  BIG\n\n§bGirth§r: the width of your tree. Wider trees have more leaves and logs, but will also need more saplings to begin growing. All saplings must be the same species and girth. The sapling in the NW corner determines the stats of the new tree, and is where bone meal must be applied to mature the tree. The Giant Sequoia is best here too.\n\nAllele/Size\n1x1\n2x2\n3x3\n4x4\n\nYield: chances of getting a fruit from a destroyed leaf. Orchard Apple and Chili Pepper are the best here.\n\nAllele     Drop Chance\nLowest   2.5%\nLower    5%\nLow       10%\nAverage 20%\nHigh       30%\nHigher    ?%\n\n§6Sappiness§r: the amount of biomass a sapling produces in the Forestry Fermenter. You can boost the Fermenter\u0027s output by using honey or fruit juice. Blue Mahoe and Red Maple are the best. NEI doesn\u0027t show recipes for analyzed saplings, and probably hybrids too, in the fermenter.\n\nAllele  Forestry Biomass\nLowest   100mB\nLower    200mB\nLow       300mB\nAverage 400mB\nHigh       600mB\n\n[warn]Fireproof[/warn]: applies to the wood. Only the Coast and Giant Sequoia have this.\n\n§7Effect§r: not used in trees, so it\u0027s None for any.\n\nBelow is more information on some other parameters:\n\n§2Growth§r: Sipiri trees have Tropical instead of Light, can only be bred in a Biome with temperature 90%-190% and humidity 90%-200%, and can only grow in 120%-190% temp and 90%-200% humidity. All other trees just need light to grow.\n\n[note]Territory/Soil[/note]: all trees have Average, whatever that means. Probably something related to the below that never really got used.\n\n§eTolerates§r: if it can be planted on sand or not. Only Desert Acacia and Grandidier\u0027s Baobab have this. The trait is either Plains or Plains, Desert.\n\n§5Supports§r: what kind of fruits it can theoretically have. Determined by Species. Only fruits from families listed under this trait can be produced by the tree, regardless of what appears under the tree\u0027s Fruits trait. There are a number of trees from the Extra Trees mod that support all 4 types, but none from Forestry itself.\n\n§aFruit§r: determines what fruit or nut it produces. Each fruit/nut provides different advantages:\nPlum and Cherry Plum only produces 100L Fruit Juice, but have a 60% chance of producing Mulch in the Fluid Extractor or Squeezer.\nPapaya produces 600L Fruit Juice, but only has a 10% chance to produce Mulch.\nCoconuts produce 300L Seed Oil, but only have a 25% chance to produce Mulch.\nUse a Forestry Multifarm so you don\u0027t have to break the leaf block to get the fruit/nut. Set it to Manual Orchard, and place everything first.\n\n§bFamily§r: Tells you what family of the fruit listed under the Fruits trait is: Pomes, Prunes, Nuts or Jungle.",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "minecraft:book",
         "Count:3": 1,
         "Damage:2": 0,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "minecraft:book"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "OR",
-      "repeat_relative:1": 1,
-      "name:8": "Moron\u0027s Guide to Better Trees",
       "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Forestry trees have a variety of attributes.  Once you get a tree with a useful attribute, you can breed that attribute into other tree species. This way you can get an ultimate tree that combines all the attributes you want - including the type of fruit! you can also extract the genes with Gendustry if you can make the machines.\n\n[warn]Please do your Forestry tree-breeding indoors or underground because butterflies cause lag.[/warn]\n\nKeep in mind that for quests, you will need to breed the species \"pure\", not a hybrid. You should probably save the crossbreeding until after you get all the good ones.\n\nFor faster tree breeding, enclose your trees so that butterflies cannot escape, and breed bees with better traits for area and pollination speed. There\u0027s also frames too if you can afford it. The sieve may also help if you want to do it more exactly if you can make an alveary. You need either bees or butterflies, trees won\u0027t pollinate each other.\n\nTrees have the following characteristics:\n§eSaplings/Fertility§r: chance of getting a sapling from a destroyed leaf. Good for making into biomass or other uses. Balsa, Gooseberry and Sweetgum are what you want.\n\nAllele     Drop Chance\nLowest   1%\nLower    2.5%\nLow       3.5%\nAverage 5%\nHigh      10%\n\n[warn]Maturation/Matures[/warn]: the growth speed of a sapling into a tree. Important if you plan to cut it down right away for logs. Golden Raspberry is the fastest.\n\nAllele    Time\nSlowest  10\nSlower   7\nSlow      5\nAverage 4\nFast      3\nFaster   2 \nFastest  ?\n\n§dHeight§r: controls how high the tree grows. Giant Sequoia is the best, though it may be a little §otoo§r large.\n\nAllele    Value\nSmallest  25%\nSmaller   50%\nSmall      75%\nAverage 100%\nLarge    125%\nLarger   150%\nLargest  175%\nGigantic  BIG\n\n§bGirth§r: the width of your tree.  Wider trees have more leaves and logs, but will also need more saplings to begin growing. All saplings must be the same species and girth. The sapling in the NW corner determines the stats of the new tree, and is where bone meal must be applied to mature the tree. The Giant Sequoia is best here too.\n\nAllele/Size\n1x1\n2x2\n3x3\n4x4 \n\nYield: chances of getting a fruit from a destroyed leaf. Orchard Apple and Chili Pepper are the best here.\n\nAllele     Drop Chance\nLowest   2.5%\nLower    5%\nLow       10%\nAverage 20%\nHigh       30% \nHigher    ?%\n\n§6Sappiness§r: the amount of biomass a sapling produces in the Forestry Fermenter. You can boost the Fermenter\u0027s output by using honey or fruit juice. Blue Mahoe and Red Maple are the best. NEI doesn\u0027t show recipes for analyzed saplings, and probably hybrids too, in the fermenter.\n\nAllele  Forestry Biomass\nLowest   100mB\nLower    200mB\nLow       300mB\nAverage 400mB\nHigh       600mB \n\n[warn]Fireproof[/warn]: applies to the wood. Only the Coast and Giant Sequoia have this.\n\n§7Effect§r: not used in trees, so it\u0027s None for any.\n\nBelow is more information on some other parameters:\n\n§2Growth§r: Sipiri trees have Tropical instead of Light, can only be bred in a Biome with temperature 90%-190% and humidity 90%-200%, and can only grow in 120%-190% temp and 90%-200% humidity. All other trees just need light to grow.\n\n[note]Territory/Soil[/note]: all trees have Average, whatever that means. Probably something related to the below that never really got used.\n\n§eTolerates§r: if it can be planted on sand or not. Only Desert Acacia and Grandidier\u0027s Baobab have this. The trait is either Plains or Plains, Desert.\n\n§5Supports§r: what kind of fruits it can theoretically have. Determined by Species. Only fruits from families listed under this trait can be produced by the tree, regardless of what appears under the tree\u0027s Fruits trait. There is a number of trees from the Extra Trees mod that support all 4 types, but none from Forestry itself.\n\n§aFruit§r: determines what fruit or nut it produces. Each fruit/nut provides different advantages:\nPlum and Cherry Plum only produces 100L Fruit Juice, but have a 60% chance of producing Mulch in the Fluid Extractor or Squeezer.\nPapaya produces 600L Fruit Juice, but only has a 10% chance to produce Mulch.\nCoconuts produce 300L Seed Oil, but only have a 25% chance to produce Mulch.\nUse a Forestry Multifarm so you don\u0027t have to break the leaf block to get the fruit/nut. Set it to Manual Orchard, and place everything first.\n\n§bFamily§r: Tells you what family of the fruit listed under the Fruits trait is: Pomes, Prunes, Nuts or Jungle."
+      "lockedProgress:1": 0,
+      "name:8": "Moron\u0027s Guide to Better Trees",
+      "partySingleReward:1": 0,
+      "questLogic:8": "OR",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 1115,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:writable_book"
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
       "index:3": 0,
       "taskID:8": "bq_standard:checkbox"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 0,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "minecraft:writable_book",
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

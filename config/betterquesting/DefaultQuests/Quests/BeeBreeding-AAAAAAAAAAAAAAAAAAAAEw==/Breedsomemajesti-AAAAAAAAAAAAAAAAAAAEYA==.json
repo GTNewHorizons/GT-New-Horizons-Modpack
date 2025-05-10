@@ -1,215 +1,217 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 1118
     }
   },
-  "questIDLow:4": 1120,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "Cross breeding noble and cultivated bees can result in majestic bees.\n\nIf you didn\u0027t get it from Wintry bees already, Majestic bees have a very important attribute - high fertility. They will leave 4 drones when they die. This means lots of genetic material for the next generation to work with.\n\nMajestic bees produce dripping combs every 1.5 minutes. Note that production times are an approximation based on the bee\u0027s base production speed and the product\u0027s rarity. They do not reflect actual production time.",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "Forestry:beeQueenGE",
         "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "Forestry:beeQueenGE",
         "tag:10": {
-          "Mate:10": {
-            "Chromosomes:9": {
-              "0:10": {
-                "UID1:8": "forestry.speciesMajestic",
-                "UID0:8": "forestry.speciesMajestic",
-                "Slot:4": 0
-              }
-            }
-          },
           "Genome:10": {
             "Chromosomes:9": {
               "0:10": {
-                "UID1:8": "forestry.speciesMajestic",
+                "Slot:4": 0,
                 "UID0:8": "forestry.speciesMajestic",
-                "Slot:4": 0
+                "UID1:8": "forestry.speciesMajestic"
+              }
+            }
+          },
+          "Mate:10": {
+            "Chromosomes:9": {
+              "0:10": {
+                "Slot:4": 0,
+                "UID0:8": "forestry.speciesMajestic",
+                "UID1:8": "forestry.speciesMajestic"
               }
             }
           }
-        },
-        "Damage:2": 0,
-        "OreDict:8": ""
+        }
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Breed some majestic bees",
       "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Cross breeding noble and cultivated bees can result in majestic bees.\n\nIf you didn\u0027t get it from Wintry bees already, Majestic bees have a very important attribute - high fertility. They will leave 4 drones when they die. This means lots of genetic material for the next generation to work with.\n\nMajestic bees produce dripping combs every 1.5 minutes. Note that production times are an approximation based on the bee\u0027s base production speed and the product\u0027s rarity. They do not reflect actual production time."
+      "lockedProgress:1": 0,
+      "name:8": "Breed some majestic bees",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 1120,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 25,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        },
+        "1:10": {
+          "Count:3": 64,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "Forestry:honeyDrop"
+        },
+        "2:10": {
+          "Count:3": 64,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "Forestry:honeydew"
+        }
+      }
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 25,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinBees"
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "Forestry:beePrincessGE",
           "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "Forestry:beePrincessGE",
           "tag:10": {
             "Genome:10": {
               "Chromosomes:9": {
                 "0:10": {
-                  "UID1:8": "forestry.speciesNoble",
-                  "UID0:8": "forestry.speciesNoble"
+                  "UID0:8": "forestry.speciesNoble",
+                  "UID1:8": "forestry.speciesNoble"
                 }
               }
             }
-          },
-          "Damage:2": 0,
-          "OreDict:8": ""
+          }
         },
         "1:10": {
-          "id:8": "Forestry:beeDroneGE",
           "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "Forestry:beeDroneGE",
           "tag:10": {
             "Genome:10": {
               "Chromosomes:9": {
                 "0:10": {
-                  "UID1:8": "forestry.speciesNoble",
-                  "UID0:8": "forestry.speciesNoble"
+                  "UID0:8": "forestry.speciesNoble",
+                  "UID1:8": "forestry.speciesNoble"
                 }
               }
             }
-          },
-          "Damage:2": 0,
-          "OreDict:8": ""
+          }
         },
         "2:10": {
-          "id:8": "Forestry:beePrincessGE",
           "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "Forestry:beePrincessGE",
           "tag:10": {
             "Genome:10": {
               "Chromosomes:9": {
                 "0:10": {
-                  "UID1:8": "forestry.speciesCultivated",
-                  "UID0:8": "forestry.speciesCultivated"
+                  "UID0:8": "forestry.speciesCultivated",
+                  "UID1:8": "forestry.speciesCultivated"
                 }
               }
             }
-          },
-          "Damage:2": 0,
-          "OreDict:8": ""
+          }
         },
         "3:10": {
-          "id:8": "Forestry:beeDroneGE",
           "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "Forestry:beeDroneGE",
           "tag:10": {
             "Genome:10": {
               "Chromosomes:9": {
                 "0:10": {
-                  "UID1:8": "forestry.speciesCultivated",
-                  "UID0:8": "forestry.speciesCultivated"
+                  "UID0:8": "forestry.speciesCultivated",
+                  "UID1:8": "forestry.speciesCultivated"
                 }
               }
             }
-          },
-          "Damage:2": 0,
-          "OreDict:8": ""
+          }
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "Forestry:beePrincessGE",
           "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "Forestry:beePrincessGE",
           "tag:10": {
             "Genome:10": {
               "Chromosomes:9": {
                 "0:10": {
-                  "UID1:8": "forestry.speciesMajestic",
-                  "UID0:8": "forestry.speciesMajestic"
+                  "UID0:8": "forestry.speciesMajestic",
+                  "UID1:8": "forestry.speciesMajestic"
                 }
               }
             }
-          },
-          "Damage:2": 0,
-          "OreDict:8": ""
+          }
         },
         "1:10": {
-          "id:8": "Forestry:beeDroneGE",
           "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "Forestry:beeDroneGE",
           "tag:10": {
             "Genome:10": {
               "Chromosomes:9": {
                 "0:10": {
-                  "UID1:8": "forestry.speciesMajestic",
-                  "UID0:8": "forestry.speciesMajestic"
+                  "UID0:8": "forestry.speciesMajestic",
+                  "UID1:8": "forestry.speciesMajestic"
                 }
               }
             }
-          },
-          "Damage:2": 0,
-          "OreDict:8": ""
+          }
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 0,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "enhancedlootbags:lootbag",
-          "Count:3": 1,
-          "Damage:2": 25,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "Forestry:honeyDrop",
-          "Count:3": 64,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "2:10": {
-          "id:8": "Forestry:honeydew",
-          "Count:3": 64,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
-    },
-    "1:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 1,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "dreamcraft:item.CoinBees",
-          "Count:3": 25,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

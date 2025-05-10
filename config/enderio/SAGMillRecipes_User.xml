@@ -117,7 +117,27 @@
     </recipe>
 </recipeGroup>
 
+<recipeGroup name="Thermal Expansion/Foundation" >
+  <recipe name="Obsidian" energyCost="4000" >
+    <input>
+      <itemStack modID="minecraft" itemName="obsidian" />
+    </input>
+    <output>
+      <itemStack oreDictionary="dustObsidian" number="2" />
+    </output>
+  </recipe>
+</recipeGroup>
+
 <recipeGroup name="Vanilla" >
+  <recipe name="BlazeRod" energyCost="2400" >
+      <input>
+        <itemStack modID="minecraft" itemName="blaze_rod" />
+      </input>
+      <output>
+        <itemStack modID="minecraft" itemName="blaze_powder" number="4" />
+        <itemStack modID="gregtech" itemName="gt.metaitem.01" number="1" itemMeta="2022" chance="0.5" />
+      </output>
+    </recipe>
    <recipe name="ClayBlock" energyCost="2400" >
       <input>
         <itemStack modID="minecraft" itemName="clay" />

@@ -1,177 +1,179 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 2363
     }
   },
-  "questIDLow:4": 2364,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "The Transference Gem is used to teleport to a marked location.\n\nThe Transference Gem uses Energy and can be charged in an Energy Extraction Table. Shift-right-clicking on a block with a Transference Gem in hand will link the gem to that block.\nThe state of the gem itself will switch to \"Linked\", as seen in its tooltip.\nAfter linking, the player can right-click with a Transference Gem in hand to teleport to the linked block, using some of the Energy stored in the gem.\n\nUsing F3+H to enable detailed item tooltips makes the Transference Gem show the exact coordinates and the dimension of the linked location.\n\nOnce the charge of the Transference Gem becomes lower than 44%, negative effects will appear:\n\nDeflection - the player will be teleported to a random location instead of the linked block.\nVarious negative potion effects, the lower the charge is - the longer they will last:\n\nSlowness II\nNausea I\nWeakness II\nHunger I\n\nEndermen - Angry Endermen will spawn and attack the player.\nItem drop - a random amount of items in player\u0027s inventory will drop to the ground.\nStorm - will cause a 2-3 minute storm. This is the rarest effect.",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "HardcoreEnderExpansion:transference_gem",
         "Count:3": 1,
         "Damage:2": 0,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "HardcoreEnderExpansion:transference_gem"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Transference Gem",
       "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "The Transference Gem is used to teleport to a marked location.\n\nThe Transference Gem uses Energy and can be charged in an Energy Extraction Table. Shift+right-clicking on a block with a Transference Gem in hand will link the gem to that block. \nThe state of the gem itself will switch to \"Linked\", as seen in its tooltip. \nAfter linking, the player can right-click with a Transference Gem in hand to teleport to the linked block, using some of the Energy stored in the gem.\n\nUsing F3+H to enable detailed item tooltips makes the Transference Gem show the exact coordinates and the dimension of the linked location.\n\nOnce the charge of the Transference Gem becomes lower than 44%, negative effects will appear:\n\nDeflection - the player will be teleported to a random location instead of the linked block.\nVarious negative potion effects, the lower the charge is - the longer they will last:\n\nSlowness II\nNausea I\nWeakness II\nHunger I\n\nEndermen - Angry Endermen will spawn and attack the player.\nItem drop - a random amount of items in player\u0027s inventory will drop to the ground.\nStorm - will cause a 2-3 minute storm. This is the most rare effect."
+      "lockedProgress:1": 0,
+      "name:8": "Transference Gem",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 2364,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 4,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.98"
+        },
+        "1:10": {
+          "Count:3": 32,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "HardcoreEnderExpansion:essence"
+        },
+        "2:10": {
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "HardcoreEnderExpansion:endoplasm"
+        },
+        "3:10": {
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "HardcoreEnderExpansion:arcane_shard"
+        },
+        "4:10": {
+          "Count:3": 64,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "HardcoreEnderExpansion:end_powder"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 58,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinSmithII"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinDarkWizardII"
+        },
+        "2:10": {
+          "Count:3": 4,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "HardcoreEnderExpansion:knowledge_note",
+          "tag:10": {
+            "pts:1": 40
+          }
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "HardcoreEnderExpansion:spatial_dash_gem",
           "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "HardcoreEnderExpansion:spatial_dash_gem",
           "tag:10": {
             "engRgnTim:2": 0
-          },
-          "Damage:2": 0,
-          "OreDict:8": ""
+          }
         },
         "1:10": {
-          "id:8": "HardcoreEnderExpansion:arcane_shard",
           "Count:3": 32,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "HardcoreEnderExpansion:arcane_shard"
         },
         "2:10": {
-          "id:8": "HardcoreEnderExpansion:endoplasm",
           "Count:3": 16,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "HardcoreEnderExpansion:endoplasm"
         },
         "3:10": {
-          "id:8": "HardcoreEnderExpansion:essence",
           "Count:3": 64,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "HardcoreEnderExpansion:essence"
         },
         "4:10": {
-          "id:8": "HardcoreEnderExpansion:end_powder",
           "Count:3": 64,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "HardcoreEnderExpansion:end_powder"
         },
         "5:10": {
-          "id:8": "gregtech:gt.metaitem.98",
           "Count:3": 6,
           "Damage:2": 4,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.98"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "HardcoreEnderExpansion:transference_gem",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "HardcoreEnderExpansion:transference_gem"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 0,
-      "choices:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.metaitem.98",
-          "Count:3": 64,
-          "Damage:2": 4,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "HardcoreEnderExpansion:essence",
-          "Count:3": 32,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "2:10": {
-          "id:8": "HardcoreEnderExpansion:endoplasm",
-          "Count:3": 16,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "3:10": {
-          "id:8": "HardcoreEnderExpansion:arcane_shard",
-          "Count:3": 16,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "4:10": {
-          "id:8": "HardcoreEnderExpansion:end_powder",
-          "Count:3": 64,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "5:10": {
-          "id:8": "enhancedlootbags:lootbag",
-          "Count:3": 1,
-          "Damage:2": 58,
-          "OreDict:8": ""
-        }
-      }
-    },
-    "1:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 1,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "dreamcraft:item.CoinSmithII",
-          "Count:3": 2,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "dreamcraft:item.CoinDarkWizardII",
-          "Count:3": 2,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "2:10": {
-          "id:8": "HardcoreEnderExpansion:knowledge_note",
-          "Count:3": 4,
-          "tag:10": {
-            "pts:1": 40
-          },
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

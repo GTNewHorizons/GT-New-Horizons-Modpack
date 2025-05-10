@@ -1,88 +1,90 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 181
     }
   },
-  "questIDLow:4": 203,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 1,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "P2P tunnels. You\u0027ll probably want a bunch of them! They act as teleport points from one place to another for the contained information.\n\nThey can pack up to 32 channels into 1 channel and transport those to the destination P2P bus. Each P2P tunnel requires 1 free channel. P2P connections cannot be nested, but one transport cable can carry multiple P2P connections. For a normal fluix cable, that\u0027s 4 P2P connections, and 16 for dense.\n\nYou can use separate cables to connect input P2Ps to the controller and to transport from the controller to around your base, allowing for 32 output P2Ps on one dense cable. Alternatively you can use an entirely separate controller as a transport network.\n\nGenerally, you\u0027ll want to have the first point be one side of an ME Controller block (remember you can add more!), and the other where some of your machines are.\n\nA nice online guide can be found at [url]https://wiki.gtnewhorizons.com/wiki/Applied_Energistics_2[/url] under P2P tunnels.\n\nIf you want to use one of the P2P tunnels for something §oother§r than ME channels, use an applicable item on the center of the face of the tunnel, (for example, a GT cable for GT EU, redstone for RS signal, an RF conduit for RF, a torch for light, a bucket for fluid, a chest for items, or an OC cable for OC) and it will convert to that type, even if you pick it up. Use a fluix cable to change it back.",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "appliedenergistics2:item.ItemMultiPart",
         "Count:3": 1,
         "Damage:2": 460,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "appliedenergistics2:item.ItemMultiPart"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Bundled AE Channels",
       "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 1,
       "isSilent:1": 0,
-      "desc:8": "P2P tunnels. You\u0027ll probably want a bunch of them! They act as teleport points from one place to another for the contained information.\n\nThey can pack up to 32 channels into 1 channel and transport those to the destination P2P bus. Each P2P tunnel requires 1 free channel. P2P connections cannot be nested, but one transport cable can carry multiple P2P connections. For a normal fluix cable, that\u0027s 4 P2P connections, and 16 for dense.\n\nYou can use separate cables to connect input p2ps to the controller and to transport from the controller to around your base, allowing for 32 output p2ps on one dense cable. Alternatively you can use an entirely separate controller as a transport network.\n\nGenerally, you\u0027ll want to have the first point be one side of an ME Controller block (remember you can add more!), and the other where some of your machines are.\n\nA nice online guide can be found at [url]https://wiki.gtnewhorizons.com/wiki/Applied_Energistics_2[/url] under P2P tunnels.\n\nIf you want to use one of the P2P tunnels for something §oother§r than ME channels, use an applicable item on the center of the face of the tunnel, (for example, a GT cable for GT EU, redstone for RS signal, an RF conduit for RF, a torch for light, a bucket for fluid, a chest for items, or an OC cable for OC) and it will convert to that type, even if you pick it up. Use a fluix cable to change it back."
+      "lockedProgress:1": 0,
+      "name:8": "Bundled AE Channels",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
     }
   },
-  "tasks:9": {
-    "0:10": {
-      "partialMatch:1": 1,
-      "autoConsume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
-      "index:3": 0,
-      "consume:1": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "id:8": "appliedenergistics2:item.ItemMultiPart",
-          "Count:3": 2,
-          "Damage:2": 460,
-          "OreDict:8": ""
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    }
-  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 203,
   "rewards:9": {
     "0:10": {
-      "rewardID:8": "bq_standard:item",
+      "ignoreDisabled:1": 0,
       "index:3": 0,
+      "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "id:8": "enhancedlootbags:lootbag",
           "Count:3": 1,
           "Damage:2": 37,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
         }
       }
     },
     "1:10": {
-      "rewardID:8": "bq_standard:item",
+      "ignoreDisabled:1": 0,
       "index:3": 1,
+      "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "id:8": "dreamcraft:item.CoinDarkWizardII",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinDarkWizardII"
         },
         "1:10": {
-          "id:8": "dreamcraft:item.CoinTechnicianII",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnicianII"
         }
       }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 460,
+          "OreDict:8": "",
+          "id:8": "appliedenergistics2:item.ItemMultiPart"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

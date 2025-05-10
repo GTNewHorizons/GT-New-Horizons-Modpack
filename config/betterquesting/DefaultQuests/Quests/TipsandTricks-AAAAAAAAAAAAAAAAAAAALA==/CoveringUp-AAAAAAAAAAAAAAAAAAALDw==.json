@@ -1,68 +1,69 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 88
     }
   },
-  "questIDLow:4": 2831,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "This quest goes over all of the covers, just in case you forgot or they weren\u0027t mentioned. If they have their own quest, look at it for more info. You can put them on basically any GT block, pipe, machine, tank, etc. Though that doesn\u0027t consider whether it will work right or be useful. Shift-right-click will open a GUI for many of them. For covers that you can adjust the amount of, clicking the left side with a screwdriver goes down, and right goes up. All covers block rain on the side they\u0027re attached to. Generally you can adjust covers with a screwdriver, whether they have a GUI or not. You can remove them with a crowbar if you forgot.\n\n§lFluid-Related Covers:§r\nPump: Transfers fluids at the speed specified on the tooltip.\n\nFluid Regulator: Regulates the rate that fluid can go through it, as well as pumping it. Can work x/s or x/t.\n\nSteam Valve: Moves more, but is only for steam. Only goes to IV. Does not work on SH steam.\n\nOverflow: Voids anything over the specified amount in the tank.\n\nFluid Detector: Will emit a redstone signal (RS) based on fluid fill rate of the tank it\u0027s on. By default, empty\u003d15, full\u003d0. Use inverted mode to swap. Useful on tanks and hatches.\n\nEnder Fluid Link: Cover version of ender tanks to TP fluid around. Doesn\u0027t connect to ender tanks though.\n\nDrain Module: Protects from rain on that side, and will fill the tank with water from rain if it can. Useless.\n\nFluid Filter: Filters fluid going through it. Click with a cell to set it.\n\nShutter: Blocks items/fluids when active. Use it with a machine controller and RS. Does not visually disconnect/block. You place it between the pipes, and put the MC on the same pipe.\n\n§lItem-Related Covers:§r\nConveyor: Sends items. Use an item pipe in import mode or on a GT block/machine.\n\nRobot Arm: Sends from a specific slot in the machine it\u0027s on (internal) to another specific slot in a block next to it (adjacent). Keep going through numbers until you get it right, it seems to change per machine. If the output slot is full, it won\u0027t output. There need to be a valid block with slots to send to or the settings won\u0027t save.\n\nItem Detector: Will emit RS based on item fill rate of the block it\u0027s on. By default, empty\u003d0, full\u003d15. Detects by filled slots, so doesn\u0027t work right with the super/quantum chests. Probably better for buses.\n\nItem Filter: This one is work-in-progress that is not yet finished. Feel free to contribute.\n\n§lEU-Related Covers:§r\nEnergy Detector: Will emit RS based on EU fill rate of the batbuff/tank it\u0027s on. By default, empty\u003d0, full\u003d15. Make sure to set it to include batteries. Can also detect steam for some reason.\n\nPower Pass Upgrade: Read the tooltip, then ask Bart how it works, he didn\u0027t bother telling anyone. He\u0027ll probably just tell you the code is the best documentation, just like the Tectech guys. May not actually be finished/work, either.\n\nTesla Coil/Tesla Coil Rich Edition: Use with the Tesla Tower to send EU wirelessly or something.\n\n§lOther Covers:§r\nPlayer Detector: Detects players. About 10 block range. [warn]Currently owner/other is inverted on non-pipes due to some bug or another.[/warn]\n\nActivity Detector: Detects either recipe progress or idleness. 0%\u003d0 RS, ~95%\u003d14 by default. In idle mode, idleness is 15, and is 0 when running by default.\n\nMachine Controller: Turns machine on/off based on RS. Disable machine will keep it off regardless of RS state. Safe Mode only works on MBs. If a MB runs out of power, it will normally turn off, but a MC will turn it back on, continuing to void stuff. This will set it to the disable machine state instead. You will also get a notification. [warn]Safe mode is currently broken?[/warn]\n\nNeeds Maintenance: Emits RS if it meets the condition specified. Rotor\u003dturbine?\n\nRedstone Transmitter/Receiver (In/Out): OK, these things are confusing, so listen closely. First, set a frequency, either by using the GUI, or using the original way: right-clicking it with an item. Empty hand \u003d 0, other items \u003d their item ID. Be careful not to reset it to 0 by accident. Honestly, just use the GUI. You can set it to private or not, it\u0027s the same kind of thing as EnderStorage, so you don\u0027t blare RS across the server. Channel state \u003d RS level.\n\nRT(O) sets the channel state based on the redstone level sent from outside to the specific side. You can TP an RS from this to the RR(O).\nRT(I) sets the channel state based on redstone level that would be emitted from the machine itself. [warn]Always sends 15, so it\u0027s useless.[/warn]\nRR(O) outputs redstone level based on channel state. You can TP RS from the RT(O) to here.\nRR(I) controls whether a machine can work based on channel state, just like a machine controller cover does. If it has 0 RS, it stays off. At least 1, and it turns on. You send the signal from elsewhere with the RT(O).\nRR(I) can also be used in conjunction with other covers whose states talk about conditional.\n\nIC2 Heat vents: Speeds up machines a tiny amount? Also looks neat. TODO: someone please look at the code to see what it actually does.\n\nCrafting Table: Adds a crafting table to the block you can use. Mostly cosmetic.\n\nPlanks/Plates/Foils: Blocks I/O on that side. Use a screwdriver to set allowed types of stuff through. Blocks everything by default. Set the output to another side first to avoid changing its settings too. You\u0027ll probably \u0027use\u0027 this by accident at least once.\n\nComputer Monitor: Adds a visual look. Cosmetic-only cover.\n\nLens: Cosmetic-only cover.\n\nYou can also use AE2 facades as cosmetic covers.",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.metaitem.02",
         "Count:3": 1,
         "Damage:2": 32470,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.metaitem.02"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Covering Up",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "This quest goes over all of the covers, just in case you forgot or they weren\u0027t mentioned. If they have their own quest, look at it for more info. You can put them on basically any GT block, pipe, machine, tank, etc. Though that doesn\u0027t consider whether it will work right or be useful. Shift-Right-Click will open a GUI for many of them. For covers that you can adjust the amount of, clicking the left side with a screwdriver goes down, and right goes up. All covers block rain on the side they\u0027re attached to. Generally you can adjust covers with a screwdriver, whether they have a GUI or not. You can remove them with a crowbar if you forgot.\n\n§lFluid-Related Covers:§r\nPump: Transfers fluids at the speed specified on the tooltip.\n\nFluid Regulator: Regulates the rate that fluid can go through it, as well as pumping it. Can work x/s or x/t.\n\nSteam Valve: Moves more, but is only for steam. Only goes to IV. Does not work on SH steam.\n\nOverflow: Voids anything over the specified amount in the tank.\n\nFluid Detector: Will emit a redstone signal (RS) based on fluid fill rate of the tank it\u0027s on. By default, empty\u003d15, full\u003d0. Use inverted mode to swap. Useful on tanks and hatches.\n\nEnder Fluid Link: Cover version of ender tanks to TP fluid around. Doesn\u0027t connect to ender tanks though.\n\nDrain Module: Protects from rain on that side, and will fill the tank with water from rain if it can. Useless.\n\nFluid Filter: Filters fluid going through it. Click with a cell to set it.\n\nShutter: Blocks items/fluids when active. Use it with a machine controller and RS. Does not visually disconnect/block. You place it between the pipes, and put the MC on the same pipe.\n\n§lItem-Related Covers:§r\nConveyor: Sends items. Use an item pipe in import mode or on a GT block/machine.\n\nRobot Arm: Sends from a specific slot in the machine it\u0027s on (internal) to another specific slot in a block next to it (adjacent). Keep going through numbers until you get it right, it seems to change per machine. If the output slot is full, it won\u0027t output. There need to be a valid block with slots to send to or the settings won\u0027t save.\n\nItem Detector: Will emit RS based on item fill rate of the block it\u0027s on. By default, empty\u003d0, full\u003d15. Detects by filled slots, so doesn\u0027t work right with the super/quantum chests. Probably better for busses.\n\nItem Filter: This one is work-in-progress that is not yet finished. Feel free to contribute.\n\n§lEU-Related Covers:§r\nEnergy Detector: Will emit RS based on EU fill rate of the batbuff/tank it\u0027s on. By default, empty\u003d0, full\u003d15. Make sure to set it to include batteries. Can also detect steam for some reason.\n\nPower Pass Upgrade: Read the tooltip, then ask Bart how it works, he didn\u0027t bother telling anyone. He\u0027ll probably just tell you the code is the best documentation, just like the Tectech guys. May not actually be finished/work, either.\n\nTesla Coil/Tesla Coil Rich Edition: Use with the tesla tower to send EU wirelessly or something. \n\n§lOther Covers:§r\nPlayer Detector: Detects players. About 10 block range. [warn]Currently owner/other is inverted on non-pipes due to some bug or another.[/warn]\n\nActivity Detector: Detects either recipe progress or idleness. 0%\u003d0 RS, ~95%\u003d14 by default. In idle mode, idleness is 15, and is 0 when running by default.\n\nMachine Controller: Turns machine on/off based on RS. Disable machine will keep it off regardless of RS state. Safe Mode only works on MBs. If a MB runs out of power, it will normally turn off, but a MC will turn it back on, continuing to void stuff. This will set it to the disable machine state instead. You will also get a notification. [warn]Safe mode is currently broken?[/warn]\n\nNeeds Maintenance: Emits RS if it meets the condition specified. Rotor\u003dturbine?\n\nRedstone Transmitter/Receiver (In/Out): OK, these things are confusing, so listen closely. First, set a frequency, either by using the GUI, or using the original way: right clicking it with an item. Empty hand \u003d 0, other items \u003d their item ID. Be careful not to reset it to 0 by accident. Honestly, just use the GUI. You can set it to private or not, it\u0027s the same kind of thing as EnderStorage, so you don\u0027t blare RS across the server. Channel state \u003d RS level.\n\nRT(O) sets the channel state based on the redstone level sent from outside to the specific side. You can TP a RS from this to the RR(O).\nRT(I) sets the channel state based on redstone level that would be emitted from the machine itself. [warn]Always sends 15, so it\u0027s useless.[/warn]\nRR(O) outputs redstone level based on channel state. You can TP RS from the RT(O) to here.\nRR(I) controls whether a machine can work based on channel state, just like a machine controller cover does. If it has 0 RS, it stays off. At least 1, and it turns on. You send the signal from elsewhere with the RT(O).\nRR(I) can also be used in conjunction with other covers whose states talk about conditional.\n\nIC2 Heat vents: Speeds up machines a tiny amount? Also looks neat. TODO: someone please look at the code to see what it actually does.\n\nCrafting Table: Adds a crafting table to the block you can use. Mostly cosmetic.\n\nPlanks/Plates/Foils: Blocks I/O on that side. Use a screwdriver to set allowed types of stuff through. Blocks everything by default. Set the output to another side first to avoid changing its settings too. You\u0027ll probably \u0027use\u0027 this by accident at least once.\n\nComputer Monitor: Adds a visual look. Cosmetic-only cover.\n\nLens: Cosmetic-only cover.\n\nYou can also use AE2 facades as cosmetic covers."
+      "lockedProgress:1": 0,
+      "name:8": "Covering Up",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 2831,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 20,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metatool.01",
+          "tag:10": {
+            "GT.ToolStats:10": {
+              "MaxDamage:4": 51200,
+              "PrimaryMaterial:8": "Steel",
+              "SecondaryMaterial:8": "Steel"
+            },
+            "ench:9": {
+              "0:10": {
+                "id:2": 16,
+                "lvl:2": 2
+              }
+            }
+          }
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
       "index:3": 0,
       "taskID:8": "bq_standard:checkbox"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 0,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.metatool.01",
-          "Count:3": 1,
-          "tag:10": {
-            "ench:9": {
-              "0:10": {
-                "lvl:2": 2,
-                "id:2": 16
-              }
-            },
-            "GT.ToolStats:10": {
-              "PrimaryMaterial:8": "Steel",
-              "MaxDamage:4": 51200,
-              "SecondaryMaterial:8": "Steel"
-            }
-          },
-          "Damage:2": 20,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

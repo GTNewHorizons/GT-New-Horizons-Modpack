@@ -1,220 +1,223 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 65
     }
   },
-  "questIDLow:4": 558,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "After you made your first steel, you are able to craft a small backpack. It has 36 slots, which is a bit more than a small chest. Later you can make it even larger.\n\nYou can have at most four of these backpacks in your inventory.\n\nYou can put one on your back and set it to automatically pick up stuff. In your controls, check that the command \"Open Backpacks\" has a key and doesn\u0027t have conflicts. The key only works after the backpack is added to the back slot, which can be done by using Shift+\u003cOpen Backpacks Key\u003e.\n§r\nYou can rename your backpack by pressing Shift+RMB when holding it in your hand.",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "Backpack:backpack",
         "Count:3": 1,
         "Damage:2": 0,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "Backpack:backpack"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "§3§lHow Can I Carry All These Items?",
       "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "After you made your first steel, you are able to craft a small backpack. It has 36 slots, which is a bit more than a small chest. Later you can make it even larger. \n\nYou can have at most four of these backpacks in your inventory.\n\nYou can put one on your back and set it to automatically pick up stuff. In your controls, check that the command \"Open Backpacks\" has a key and doesn\u0027t have conflicts. The key only works after the backpack is added to the back slot, which can be done by using Shift+\u003cOpen Backpacks Key\u003e.\n§r\nYou can rename your backpack by pressing Shift+RMB when holding it in your hand."
+      "lockedProgress:1": 0,
+      "name:8": "§3§lHow Can I Carry All These Items?",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 558,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "ExtraUtilities:paintbrush"
+        }
+      }
+    },
+    "1:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 10,
+          "Damage:2": 32414,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "1:10": {
+          "Count:3": 10,
+          "Damage:2": 32415,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "2:10": {
+          "Count:3": 10,
+          "Damage:2": 32416,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "3:10": {
+          "Count:3": 10,
+          "Damage:2": 32417,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "4:10": {
+          "Count:3": 10,
+          "Damage:2": 32419,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "5:10": {
+          "Count:3": 10,
+          "Damage:2": 32418,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "6:10": {
+          "Count:3": 10,
+          "Damage:2": 32420,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "7:10": {
+          "Count:3": 10,
+          "Damage:2": 32421,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "8:10": {
+          "Count:3": 10,
+          "Damage:2": 32422,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "9:10": {
+          "Count:3": 10,
+          "Damage:2": 32423,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "10:10": {
+          "Count:3": 10,
+          "Damage:2": 32424,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "11:10": {
+          "Count:3": 10,
+          "Damage:2": 32425,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "12:10": {
+          "Count:3": 10,
+          "Damage:2": 32426,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "13:10": {
+          "Count:3": 10,
+          "Damage:2": 32427,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "14:10": {
+          "Count:3": 10,
+          "Damage:2": 32428,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "15:10": {
+          "Count:3": 10,
+          "Damage:2": 32429,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "2:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 2,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 10,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinSurvivor"
+        },
+        "1:10": {
+          "Count:3": 10,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnician"
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.metaitem.01",
           "Count:3": 1,
           "Damage:2": 28305,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
         },
         "1:10": {
-          "id:8": "harvestcraft:wovencottonItem",
           "Count:3": 3,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "harvestcraft:wovencottonItem"
         },
         "2:10": {
-          "id:8": "Backpack:tannedLeather",
           "Count:3": 5,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "Backpack:tannedLeather"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
+      "allowAnvil:1": 0,
+      "allowCraft:1": 1,
       "allowCraftedFromStatistics:1": 0,
       "allowSmelt:1": 1,
       "ignoreNBT:1": 1,
       "index:3": 1,
-      "allowCraft:1": 1,
-      "allowAnvil:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "Backpack:backpack",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "Backpack:backpack"
         }
       },
       "taskID:8": "bq_standard:crafting"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 0,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "ExtraUtilities:paintbrush",
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
-    },
-    "1:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 1,
-      "choices:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.metaitem.02",
-          "Count:3": 10,
-          "Damage:2": 32414,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "gregtech:gt.metaitem.02",
-          "Count:3": 10,
-          "Damage:2": 32415,
-          "OreDict:8": ""
-        },
-        "2:10": {
-          "id:8": "gregtech:gt.metaitem.02",
-          "Count:3": 10,
-          "Damage:2": 32416,
-          "OreDict:8": ""
-        },
-        "3:10": {
-          "id:8": "gregtech:gt.metaitem.02",
-          "Count:3": 10,
-          "Damage:2": 32417,
-          "OreDict:8": ""
-        },
-        "4:10": {
-          "id:8": "gregtech:gt.metaitem.02",
-          "Count:3": 10,
-          "Damage:2": 32419,
-          "OreDict:8": ""
-        },
-        "5:10": {
-          "id:8": "gregtech:gt.metaitem.02",
-          "Count:3": 10,
-          "Damage:2": 32418,
-          "OreDict:8": ""
-        },
-        "6:10": {
-          "id:8": "gregtech:gt.metaitem.02",
-          "Count:3": 10,
-          "Damage:2": 32420,
-          "OreDict:8": ""
-        },
-        "7:10": {
-          "id:8": "gregtech:gt.metaitem.02",
-          "Count:3": 10,
-          "Damage:2": 32421,
-          "OreDict:8": ""
-        },
-        "8:10": {
-          "id:8": "gregtech:gt.metaitem.02",
-          "Count:3": 10,
-          "Damage:2": 32422,
-          "OreDict:8": ""
-        },
-        "9:10": {
-          "id:8": "gregtech:gt.metaitem.02",
-          "Count:3": 10,
-          "Damage:2": 32423,
-          "OreDict:8": ""
-        },
-        "10:10": {
-          "id:8": "gregtech:gt.metaitem.02",
-          "Count:3": 10,
-          "Damage:2": 32424,
-          "OreDict:8": ""
-        },
-        "11:10": {
-          "id:8": "gregtech:gt.metaitem.02",
-          "Count:3": 10,
-          "Damage:2": 32425,
-          "OreDict:8": ""
-        },
-        "12:10": {
-          "id:8": "gregtech:gt.metaitem.02",
-          "Count:3": 10,
-          "Damage:2": 32426,
-          "OreDict:8": ""
-        },
-        "13:10": {
-          "id:8": "gregtech:gt.metaitem.02",
-          "Count:3": 10,
-          "Damage:2": 32427,
-          "OreDict:8": ""
-        },
-        "14:10": {
-          "id:8": "gregtech:gt.metaitem.02",
-          "Count:3": 10,
-          "Damage:2": 32428,
-          "OreDict:8": ""
-        },
-        "15:10": {
-          "id:8": "gregtech:gt.metaitem.02",
-          "Count:3": 10,
-          "Damage:2": 32429,
-          "OreDict:8": ""
-        }
-      }
-    },
-    "2:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 2,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "dreamcraft:item.CoinSurvivor",
-          "Count:3": 10,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "dreamcraft:item.CoinTechnician",
-          "Count:3": 10,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

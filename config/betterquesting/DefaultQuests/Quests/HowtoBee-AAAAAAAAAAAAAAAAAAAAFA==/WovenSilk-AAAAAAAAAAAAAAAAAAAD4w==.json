@@ -1,5 +1,4 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
@@ -10,331 +9,334 @@
       "questIDLow:4": 539
     }
   },
-  "questIDLow:4": 995,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "Centrifuge your silky propoli to get some silk wisp at a chance of 60 percent. Put 9 silk wisp in the Forestry carpenter or GregTech assembler to get woven silk.\n\nThis fine fabric can be used for crafting Apiarist\u0027s Clothes or to upgrade a Forestry Backpacks to 45 slots.",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "Forestry:craftingMaterial",
         "Count:3": 1,
         "Damage:2": 3,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "Forestry:craftingMaterial"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Woven Silk",
       "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Centrifuge your silky propoli to get some silk wisp at a chance of 60 percent. Put 9 silk wisp in the Forestry carpenter or GregTech assembler to get woven silk. \n\nThis fine fabric can be used for crafting Apiarist\u0027s Clothes or to upgrade a Forestry Backpacks to 45 slots."
+      "lockedProgress:1": 0,
+      "name:8": "Woven Silk",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
     }
   },
-  "tasks:9": {
-    "0:10": {
-      "partialMatch:1": 1,
-      "autoConsume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 0,
-      "consume:1": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "id:8": "Forestry:craftingMaterial",
-          "Count:3": 216,
-          "Damage:2": 2,
-          "OreDict:8": ""
-        }
-      },
-      "taskID:8": "bq_standard:optional_retrieval"
-    },
-    "1:10": {
-      "partialMatch:1": 1,
-      "autoConsume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
-      "index:3": 1,
-      "consume:1": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "id:8": "Forestry:craftingMaterial",
-          "Count:3": 24,
-          "Damage:2": 3,
-          "OreDict:8": ""
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    }
-  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 995,
   "rewards:9": {
     "0:10": {
-      "rewardID:8": "bq_standard:item",
+      "ignoreDisabled:1": 0,
       "index:3": 0,
+      "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "id:8": "enhancedlootbags:lootbag",
           "Count:3": 1,
+          "Damage:2": 25,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag",
           "tag:10": {
             "ench:9": {
               "0:10": {
-                "lvl:4": 3,
-                "id:4": 35
+                "id:4": 35,
+                "lvl:4": 3
               }
             }
-          },
-          "Damage:2": 25,
-          "OreDict:8": ""
+          }
         },
         "1:10": {
-          "id:8": "Forestry:beeQueenGE",
           "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "Forestry:beeQueenGE",
           "tag:10": {
-            "MaxH:4": 10,
-            "Mate:10": {
+            "Genome:10": {
               "Chromosomes:9": {
                 "0:10": {
-                  "UID1:8": "forestry.speciesCultivated",
+                  "Slot:4": 0,
                   "UID0:8": "forestry.speciesCultivated",
-                  "Slot:4": 0
+                  "UID1:8": "forestry.speciesCultivated"
                 },
                 "1:10": {
-                  "UID1:8": "forestry.speedFast",
+                  "Slot:4": 1,
                   "UID0:8": "forestry.speedFast",
-                  "Slot:4": 1
+                  "UID1:8": "forestry.speedFast"
                 },
                 "2:10": {
-                  "UID1:8": "forestry.lifespanShortest",
+                  "Slot:4": 2,
                   "UID0:8": "forestry.lifespanShortest",
-                  "Slot:4": 2
+                  "UID1:8": "forestry.lifespanShortest"
                 },
                 "3:10": {
-                  "UID1:8": "forestry.fertilityNormal",
+                  "Slot:4": 3,
                   "UID0:8": "forestry.fertilityNormal",
-                  "Slot:4": 3
+                  "UID1:8": "forestry.fertilityNormal"
                 },
                 "4:10": {
-                  "UID1:8": "forestry.toleranceNone",
+                  "Slot:4": 4,
                   "UID0:8": "forestry.toleranceNone",
-                  "Slot:4": 4
+                  "UID1:8": "forestry.toleranceNone"
                 },
                 "5:10": {
-                  "UID1:8": "forestry.boolFalse",
+                  "Slot:4": 5,
                   "UID0:8": "forestry.boolFalse",
-                  "Slot:4": 5
+                  "UID1:8": "forestry.boolFalse"
                 },
                 "6:10": {
-                  "UID1:8": "forestry.toleranceNone",
+                  "Slot:4": 7,
                   "UID0:8": "forestry.toleranceNone",
-                  "Slot:4": 7
+                  "UID1:8": "forestry.toleranceNone"
                 },
                 "7:10": {
-                  "UID1:8": "forestry.boolFalse",
+                  "Slot:4": 8,
                   "UID0:8": "forestry.boolFalse",
-                  "Slot:4": 8
+                  "UID1:8": "forestry.boolFalse"
                 },
                 "8:10": {
-                  "UID1:8": "forestry.boolFalse",
+                  "Slot:4": 9,
                   "UID0:8": "forestry.boolFalse",
-                  "Slot:4": 9
+                  "UID1:8": "forestry.boolFalse"
                 },
                 "9:10": {
-                  "UID1:8": "forestry.flowersVanilla",
+                  "Slot:4": 10,
                   "UID0:8": "forestry.flowersVanilla",
-                  "Slot:4": 10
+                  "UID1:8": "forestry.flowersVanilla"
                 },
                 "10:10": {
-                  "UID1:8": "forestry.floweringSlowest",
+                  "Slot:4": 11,
                   "UID0:8": "forestry.floweringSlowest",
-                  "Slot:4": 11
+                  "UID1:8": "forestry.floweringSlowest"
                 },
                 "11:10": {
-                  "UID1:8": "forestry.territoryAverage",
+                  "Slot:4": 12,
                   "UID0:8": "forestry.territoryAverage",
-                  "Slot:4": 12
+                  "UID1:8": "forestry.territoryAverage"
                 },
                 "12:10": {
-                  "UID1:8": "forestry.effectNone",
+                  "Slot:4": 13,
                   "UID0:8": "forestry.effectNone",
-                  "Slot:4": 13
+                  "UID1:8": "forestry.effectNone"
                 }
               }
             },
             "Health:4": 10,
             "IsAnalyzed:4": 1,
-            "Genome:10": {
+            "Mate:10": {
               "Chromosomes:9": {
                 "0:10": {
-                  "UID1:8": "forestry.speciesCultivated",
+                  "Slot:4": 0,
                   "UID0:8": "forestry.speciesCultivated",
-                  "Slot:4": 0
+                  "UID1:8": "forestry.speciesCultivated"
                 },
                 "1:10": {
-                  "UID1:8": "forestry.speedFast",
+                  "Slot:4": 1,
                   "UID0:8": "forestry.speedFast",
-                  "Slot:4": 1
+                  "UID1:8": "forestry.speedFast"
                 },
                 "2:10": {
-                  "UID1:8": "forestry.lifespanShortest",
+                  "Slot:4": 2,
                   "UID0:8": "forestry.lifespanShortest",
-                  "Slot:4": 2
+                  "UID1:8": "forestry.lifespanShortest"
                 },
                 "3:10": {
-                  "UID1:8": "forestry.fertilityNormal",
+                  "Slot:4": 3,
                   "UID0:8": "forestry.fertilityNormal",
-                  "Slot:4": 3
+                  "UID1:8": "forestry.fertilityNormal"
                 },
                 "4:10": {
-                  "UID1:8": "forestry.toleranceNone",
+                  "Slot:4": 4,
                   "UID0:8": "forestry.toleranceNone",
-                  "Slot:4": 4
+                  "UID1:8": "forestry.toleranceNone"
                 },
                 "5:10": {
-                  "UID1:8": "forestry.boolFalse",
+                  "Slot:4": 5,
                   "UID0:8": "forestry.boolFalse",
-                  "Slot:4": 5
+                  "UID1:8": "forestry.boolFalse"
                 },
                 "6:10": {
-                  "UID1:8": "forestry.toleranceNone",
+                  "Slot:4": 7,
                   "UID0:8": "forestry.toleranceNone",
-                  "Slot:4": 7
+                  "UID1:8": "forestry.toleranceNone"
                 },
                 "7:10": {
-                  "UID1:8": "forestry.boolFalse",
+                  "Slot:4": 8,
                   "UID0:8": "forestry.boolFalse",
-                  "Slot:4": 8
+                  "UID1:8": "forestry.boolFalse"
                 },
                 "8:10": {
-                  "UID1:8": "forestry.boolFalse",
+                  "Slot:4": 9,
                   "UID0:8": "forestry.boolFalse",
-                  "Slot:4": 9
+                  "UID1:8": "forestry.boolFalse"
                 },
                 "9:10": {
-                  "UID1:8": "forestry.flowersVanilla",
+                  "Slot:4": 10,
                   "UID0:8": "forestry.flowersVanilla",
-                  "Slot:4": 10
+                  "UID1:8": "forestry.flowersVanilla"
                 },
                 "10:10": {
-                  "UID1:8": "forestry.floweringSlowest",
+                  "Slot:4": 11,
                   "UID0:8": "forestry.floweringSlowest",
-                  "Slot:4": 11
+                  "UID1:8": "forestry.floweringSlowest"
                 },
                 "11:10": {
-                  "UID1:8": "forestry.territoryAverage",
+                  "Slot:4": 12,
                   "UID0:8": "forestry.territoryAverage",
-                  "Slot:4": 12
+                  "UID1:8": "forestry.territoryAverage"
                 },
                 "12:10": {
-                  "UID1:8": "forestry.effectNone",
+                  "Slot:4": 13,
                   "UID0:8": "forestry.effectNone",
-                  "Slot:4": 13
+                  "UID1:8": "forestry.effectNone"
                 }
               }
-            }
-          },
-          "Damage:2": 0,
-          "OreDict:8": ""
+            },
+            "MaxH:4": 10
+          }
         },
         "2:10": {
-          "id:8": "Forestry:beeDroneGE",
           "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "Forestry:beeDroneGE",
           "tag:10": {
-            "MaxH:4": 10,
-            "Health:4": 10,
-            "IsAnalyzed:4": 1,
             "Genome:10": {
               "Chromosomes:9": {
                 "0:10": {
-                  "UID1:8": "forestry.speciesCultivated",
+                  "Slot:4": 0,
                   "UID0:8": "forestry.speciesCultivated",
-                  "Slot:4": 0
+                  "UID1:8": "forestry.speciesCultivated"
                 },
                 "1:10": {
-                  "UID1:8": "forestry.speedFast",
+                  "Slot:4": 1,
                   "UID0:8": "forestry.speedFast",
-                  "Slot:4": 1
+                  "UID1:8": "forestry.speedFast"
                 },
                 "2:10": {
-                  "UID1:8": "forestry.lifespanShortest",
+                  "Slot:4": 2,
                   "UID0:8": "forestry.lifespanShortest",
-                  "Slot:4": 2
+                  "UID1:8": "forestry.lifespanShortest"
                 },
                 "3:10": {
-                  "UID1:8": "forestry.fertilityNormal",
+                  "Slot:4": 3,
                   "UID0:8": "forestry.fertilityNormal",
-                  "Slot:4": 3
+                  "UID1:8": "forestry.fertilityNormal"
                 },
                 "4:10": {
-                  "UID1:8": "forestry.toleranceNone",
+                  "Slot:4": 4,
                   "UID0:8": "forestry.toleranceNone",
-                  "Slot:4": 4
+                  "UID1:8": "forestry.toleranceNone"
                 },
                 "5:10": {
-                  "UID1:8": "forestry.boolFalse",
+                  "Slot:4": 5,
                   "UID0:8": "forestry.boolFalse",
-                  "Slot:4": 5
+                  "UID1:8": "forestry.boolFalse"
                 },
                 "6:10": {
-                  "UID1:8": "forestry.toleranceNone",
+                  "Slot:4": 7,
                   "UID0:8": "forestry.toleranceNone",
-                  "Slot:4": 7
+                  "UID1:8": "forestry.toleranceNone"
                 },
                 "7:10": {
-                  "UID1:8": "forestry.boolFalse",
+                  "Slot:4": 8,
                   "UID0:8": "forestry.boolFalse",
-                  "Slot:4": 8
+                  "UID1:8": "forestry.boolFalse"
                 },
                 "8:10": {
-                  "UID1:8": "forestry.boolFalse",
+                  "Slot:4": 9,
                   "UID0:8": "forestry.boolFalse",
-                  "Slot:4": 9
+                  "UID1:8": "forestry.boolFalse"
                 },
                 "9:10": {
-                  "UID1:8": "forestry.flowersVanilla",
+                  "Slot:4": 10,
                   "UID0:8": "forestry.flowersVanilla",
-                  "Slot:4": 10
+                  "UID1:8": "forestry.flowersVanilla"
                 },
                 "10:10": {
-                  "UID1:8": "forestry.floweringSlowest",
+                  "Slot:4": 11,
                   "UID0:8": "forestry.floweringSlowest",
-                  "Slot:4": 11
+                  "UID1:8": "forestry.floweringSlowest"
                 },
                 "11:10": {
-                  "UID1:8": "forestry.territoryAverage",
+                  "Slot:4": 12,
                   "UID0:8": "forestry.territoryAverage",
-                  "Slot:4": 12
+                  "UID1:8": "forestry.territoryAverage"
                 },
                 "12:10": {
-                  "UID1:8": "forestry.effectNone",
+                  "Slot:4": 13,
                   "UID0:8": "forestry.effectNone",
-                  "Slot:4": 13
+                  "UID1:8": "forestry.effectNone"
                 }
               }
-            }
-          },
-          "Damage:2": 0,
-          "OreDict:8": ""
+            },
+            "Health:4": 10,
+            "IsAnalyzed:4": 1,
+            "MaxH:4": 10
+          }
         }
       }
     },
     "1:10": {
-      "rewardID:8": "bq_standard:item",
+      "ignoreDisabled:1": 0,
       "index:3": 1,
+      "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "id:8": "dreamcraft:item.CoinBeesI",
           "Count:3": 5,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinBeesI"
         }
       }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 216,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "Forestry:craftingMaterial"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 24,
+          "Damage:2": 3,
+          "OreDict:8": "",
+          "id:8": "Forestry:craftingMaterial"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

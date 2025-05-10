@@ -1,5 +1,4 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
@@ -14,115 +13,118 @@
       "questIDLow:4": 1740
     }
   },
-  "questIDLow:4": 1654,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "Once you have a GT boiler or Large Combustion Engine with a long startup time, you may wish to automate turning it on/off to save fuel, since extra power or Steam will just be voided. Additionally, the bigger your Steam/EU buffer is, the less time your generators will spend heating up, which makes them more efficient.\n\nUse a Machine Controller Cover on the controller for that. You can put it on top, bottom, or sides next to a casing - casings will transmit the redstone signal. You can use a Soldering Iron and Fine Soldering Alloy Wire to set the Redstone Output of a controller block to strong. When set to Strong it can go through a casing, but not hatches, buses, or other blocks. Use it with an activity detector if you want to receive a signal from the controller rather than turning it on/off with one.\n\nWith a Machine Controller Cover, you can use redstone to turn the machine on and off. This is handy if you don\u0027t want to use a Soft Hammer to disable a machine yourself constantly.\n\nThe best way to do that is with an RS latch. One input will turn the machine on, and one input will turn the machine off. Use a comparator attached to a valve to measure the steam level in your multiblock Iron or Steel Tank. Invert the signal to turn on your boiler when the steam level is low. When the steam level signal is high, turn your boiler off. Use a trail of redstone to lower the signal strength. Because of boiler/turbine warmup, try to set the ON strength to 30 percent of capacity and OFF strength to about 90 percent.\n\nRed alloy wire will hold a redstone signal for a longer distance than normal redstone, while redstone conduits will go indefinitely. You can also use amplified redcrystal to improve the strength of the signal for a long distance, repeating as necessary.\n\nYou can use an Energy Detector Cover in Normal Electrical Storage (including batteries) mode to monitor the power in a battery buffer and use it to enable/disable generators in a similar way. Change mode using a screwdriver. If you use a dense redcrystal, it will only allow signal through at a certain level, perfect for automating this kind of thing.\n\nFor a video version, check out this video: [url]https://www.youtube.com/watch?v\u003djPfnifJEO64[/url]",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "gregtech:gt.metaitem.01",
         "Count:3": 1,
         "Damage:2": 32730,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.metaitem.01"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "OR",
-      "repeat_relative:1": 1,
-      "name:8": "§6§lAutomating Power On/Off",
       "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Once you have a GT boiler or Large Combustion Engine with a long startup time, you may wish to automate turning it on/off to save fuel, since extra power or Steam will just be voided. Additionally, the bigger your Steam/EU buffer is, the less time your generators will spend heating up, which makes them more efficient. \n\nUse a Machine Controller Cover on the controller for that. You can put it on top, bottom, or sides next to a casing - casings will transmit the redstone signal. You can use a Soldering Iron and Fine Soldering Alloy Wire to set the Redstone Output of a controller block to strong. When set to Strong it can go through a casing, but not hatches, buses, or other blocks. Use it with an activity detector if you want to receive a signal from the controller rather than turning it on/off with one.\n\nWith a Machine Controller Cover, you can use redstone to turn the machine on and off. This is handy if you don\u0027t want to use a Soft Hammer to disable a machine yourself constantly.\n \nThe best way to do that is with an RS latch. One input will turn the machine on, and one input will turn the machine off. Use a comparator attached to a valve to measure the steam level in your multiblock Iron or Steel Tank. Invert the signal to turn on your boiler when the steam level is low. When the steam level signal is high, turn your boiler off. Use a trail of redstone to lower the signal strength. Because of boiler/turbine warmup, try to set the ON strength to 30 percent of capacity and OFF strength to about 90 percent.\n\nRed alloy wire will hold a redstone signal for a longer distance than normal redstone, while redstone conduits will go indefinitely. You can also use amplified redcrystal to improve the strength of the signal for a long distance, repeating as necessary. \n\nYou can use a Energy Detector Cover in Normal Electrical Storage (including batteries) mode to monitor the power in a battery buffer and use it to enable/disable generators in a similar way. Change mode using a screwdriver. If you use a dense redcrystal, it will only allow signal through at a certain level, perfect for automating this kind of thing.\n\nYou can use MCCs on more than just generators though, you can use it on any multiblock and most singleblocks. This is useful to prevent voiding of materials. Unlike GT++ multies that will halt if full, a non-GT++ multi will void the items or liquids and keep on working, potentially voiding huge amounts of materials. You\u0027ll want to use them in combination with Fluid or Item Detection Covers on the output hatch or bus.\n\nFor a video version, check out this video: [url]https://www.youtube.com/watch?v\u003djPfnifJEO64[/url]"
+      "lockedProgress:1": 0,
+      "name:8": "§6§lAutomating Power On/Off",
+      "partySingleReward:1": 0,
+      "questLogic:8": "OR",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
     }
   },
-  "tasks:9": {
-    "0:10": {
-      "partialMatch:1": 1,
-      "autoConsume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
-      "index:3": 0,
-      "consume:1": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 1,
-          "Damage:2": 32730,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "ProjRed|Integration:projectred.integration.gate",
-          "Count:3": 1,
-          "Damage:2": 12,
-          "OreDict:8": ""
-        },
-        "2:10": {
-          "id:8": "ProjRed|Integration:projectred.integration.gate",
-          "Count:3": 1,
-          "Damage:2": 2,
-          "OreDict:8": ""
-        },
-        "3:10": {
-          "id:8": "minecraft:redstone",
-          "Count:3": 16,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "4:10": {
-          "id:8": "ProjRed|Transmission:projectred.transmission.wire",
-          "Count:3": 8,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    }
-  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 1654,
   "rewards:9": {
     "0:10": {
-      "rewardID:8": "bq_standard:item",
+      "ignoreDisabled:1": 0,
       "index:3": 0,
+      "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "id:8": "gregtech:gt.metaitem.01",
           "Count:3": 2,
           "Damage:2": 32734,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
         }
       }
     },
     "1:10": {
-      "rewardID:8": "bq_standard:item",
+      "ignoreDisabled:1": 0,
       "index:3": 1,
+      "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "id:8": "dreamcraft:item.CoinTechnicianI",
           "Count:3": 5,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnicianI"
         },
         "1:10": {
-          "id:8": "enhancedlootbags:lootbag",
           "Count:3": 2,
+          "Damage:2": 4,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag",
           "tag:10": {
             "ench:9": {
               "0:10": {
-                "lvl:4": 3,
-                "id:4": 35
+                "id:4": 35,
+                "lvl:4": 3
               }
             }
-          },
-          "Damage:2": 4,
-          "OreDict:8": ""
+          }
         }
       }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32730,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 12,
+          "OreDict:8": "",
+          "id:8": "ProjRed|Integration:projectred.integration.gate"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "ProjRed|Integration:projectred.integration.gate"
+        },
+        "3:10": {
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:redstone"
+        },
+        "4:10": {
+          "Count:3": 8,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "ProjRed|Transmission:projectred.transmission.wire"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

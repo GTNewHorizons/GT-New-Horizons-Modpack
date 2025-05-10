@@ -1,0 +1,72 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2622
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1199
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Are you sick and tired of using the rocket to blast off every time and want an alternative and faster method? The Enderio Telepad is a 3x3x1 structure that when powered with RF will teleport the player to a set coordinate.\n\nTo set the Coordinate you will need a Coordinate selector tool to mark an area by shift-right-clicking to mark. Then shift-right-click the middle of the Enderio Telepad pad to set the desired location.\n\nThen stand on the pad and click teleport to be sent in style.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 9,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "EnderIO:blockTelePad"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Alternative to blasting off!?",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -8545135101861082886,
+  "questIDLow:4": -9191592960624051857,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 9,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "EnderIO:blockTelePad"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "EnderIO:itemCoordSelector",
+          "tag:10": {
+            "bc:x:3": 160,
+            "bc:y:3": 73,
+            "bc:z:3": 323,
+            "default:1": 0,
+            "dimension:3": 0
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

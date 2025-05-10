@@ -1,5 +1,4 @@
 {
-  "questIDHigh:4": -1952656661982133357,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
@@ -11,75 +10,78 @@
       "questIDLow:4": 2537
     }
   },
-  "questIDLow:4": -5638703973738633044,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "A brand-new tool for you, amigo.\n\nThis little buddy not only has a larger card slot than the normal one, but also can show more information about your network storage.\n\nClicking the component icon can switch between ITEM, FLUID, and ESSENTIA details.\n\n[warn]NOTE:\n|  unit  |      range   |\n|    B   |    0~2^10   |\n|   KB   | 2^10~2^20 |\n|   MB   | 2^20~2^30 |\n|   GB   | 2^30~2^40 |\n|   TB   | 2^40~2^50 |\n|   PB   | 2^50~2^60 |\n|   EB   | 2^60~2^70 |\n|   ZB   | 2^70~2^80 |\n|   YB   | 2^80~2^90 |\n|   BB   | over 2^90  |[/warn]",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "appliedenergistics2:item.ToolAdvancedNetworkTool",
         "Count:3": 1,
         "Damage:2": 0,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "appliedenergistics2:item.ToolAdvancedNetworkTool"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Need More Information?",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "A brand new tool for you, amigo.\n\nThis little buddy not only has a larger card slot than the normal one, but also can show more information about your network storage.\n\nClicking the component icon can switch between ITEM, FLUID, and ESSENTIA details.\n\n[warn]NOTE:\n|  unit  |      range   |\n|    B   |    0~2^10   |\n|   KB   | 2^10~2^20 |\n|   MB   | 2^20~2^30 |\n|   GB   | 2^30~2^40 |\n|   TB   | 2^40~2^50 |\n|   PB   | 2^50~2^60 |\n|   EB   | 2^60~2^70 |\n|   ZB   | 2^70~2^80 |\n|   YB   | 2^80~2^90 |\n|   BB   | over 2^90  |[/warn]"
+      "lockedProgress:1": 0,
+      "name:8": "Need More Information?",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
     }
   },
-  "tasks:9": {
-    "0:10": {
-      "partialMatch:1": 1,
-      "autoConsume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 0,
-      "consume:1": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "id:8": "appliedenergistics2:item.ToolAdvancedNetworkTool",
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    }
-  },
+  "questIDHigh:4": -1952656661982133357,
+  "questIDLow:4": -5638703973738633044,
   "rewards:9": {
     "0:10": {
-      "rewardID:8": "bq_standard:item",
+      "ignoreDisabled:1": 0,
       "index:3": 0,
+      "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "id:8": "enhancedlootbags:lootbag",
           "Count:3": 1,
           "Damage:2": 37,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
         }
       }
     },
     "1:10": {
-      "rewardID:8": "bq_standard:item",
+      "ignoreDisabled:1": 0,
       "index:3": 1,
+      "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "id:8": "dreamcraft:item.CoinTechnicianII",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnicianII"
         }
       }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "appliedenergistics2:item.ToolAdvancedNetworkTool"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

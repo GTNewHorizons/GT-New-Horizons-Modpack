@@ -1,57 +1,58 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 0
     }
   },
-  "questIDLow:4": 1501,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "UNLOCKED",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "The mod ServerUtilities (SU) is included in the pack to backup your world. You can adjust save path, frequency, and the number of backups to keep in its settings at \u0027.minecraft\\serverutilities\\serverutilities.cfg\u0027.\n\nIf you need to restore from a backup, you can find them in the backups folder in the instance directory.\n\nRemember that the mods JourneyMap and Thaumcraft Node Tracker store information outside of what most solutions backup, so please backup your journeymap and tcnodetracker folders yourself.\n\nThe Thaumcraft data is a little buggy, losing scanned aspect data and Thaumonomicon data, so consider backing it up as well. The file is at \u0027saves\\\u003cworldname\u003e\\playerdata\\\u003cnameofplayer\u003e.thaum\u0027.\n\nIf you move to another drive or computer, don\u0027t forget to migrate all the backed up files, not just the world folder.",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "adventurebackpack:blockCampFire",
         "Count:3": 1,
         "Damage:2": 0,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "adventurebackpack:blockCampFire"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "§1§lBackup Your Stuff...",
       "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "The mod AromaBackup (AB) is included in the pack to backup your world. \nYou can adjust save path, frequency, and the number of backups to keep in its settings at \u0027config\\aroma1997\u0027. \nYou can also use another mod like ServerUtilities, or even an external program. \nDon\u0027t use several backup mods at once - it will just waste your CPU power and storage space.\n\nIf you need to restore from a backup, the ones from AB are found in the backups folder in the instance directory, not the world save directory.\n\nRemember that the mods JourneyMap and Thaumcraft Node Tracker store information outside of what most solutions back up, so please backup your journeymap and tcnodetracker folders yourself. \n\nThe Thaumcraft data is a little buggy, losing scanned aspect data and Thaumonomicon data, so consider backing it up as well. The file is at \u0027saves\\\u003cworldname\u003e\\playerdata\\\u003cnameofplayer\u003e.thaum\u0027.\n\nIf you move to another drive or computer, don\u0027t forget to migrate all the backed up files, not just the world folder."
+      "lockedProgress:1": 0,
+      "name:8": "§1§lBackup Your Stuff...",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "UNLOCKED"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 1501,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnician"
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
       "index:3": 0,
       "taskID:8": "bq_standard:checkbox"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 0,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "dreamcraft:item.CoinTechnician",
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

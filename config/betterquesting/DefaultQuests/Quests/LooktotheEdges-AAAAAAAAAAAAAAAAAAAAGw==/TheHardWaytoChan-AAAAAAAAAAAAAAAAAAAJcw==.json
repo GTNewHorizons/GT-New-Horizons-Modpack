@@ -1,44 +1,78 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 2417
     }
   },
-  "questIDLow:4": 2419,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "Ok, to have a ritual with a size greater than zero, you need to get Coven Witches to acknowledge you and then agree to help you out. To get them to deign to speak with you, you can either infuse yourself or bind a familiar. In this quest line we\u0027ll be covering binding a familiar, but for the people who want to do infusion, you just need to make the appropriate item: Ghost of the Light, Soul of the World, Spirit of Otherwhere, or Infernal Animus, and do the appropriate Rite of Infusion. Be sure to have a Death Protection Poppet to protect you, because the ritual kills you. If playing hardcore, definitely test in a separate world first.\n\nTo bind a familiar, first summon a Demon and tear out its heart. No, seriously, go do it. Use an Arthana with Looting III for the best chances. If you don\u0027t know how to summon one, refer to page 49/50 of the Circle Magic book for the correct Rite of Summoning.\n\nYou\u0027ll need a Mutating Sprig for the next part.",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "witchery:ingredient",
         "Count:3": 1,
         "Damage:2": 23,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "witchery:ingredient"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "The Hard Way to Change Biomes",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Ok, to have a ritual with a size greater than zero, you need to get Coven Witches to acknowledge you and then agree to help you out. To get them to deign to speak with you, you can either infuse yourself or bind a familiar. In this quest line we\u0027ll be covering binding a familiar, but for the people who want to do infusion, you just need to make the appropriate item: Ghost of the Light, Soul of the World, Spirit of Otherwhere, or Infernal Animus, and do the appropriate Rite of Infusion. Be sure to have a Death Protection Poppet to protect you, because the ritual kills you. If playing hardcore, definitely test in a separate world first.\n\nTo bind a familiar, first, summon a Demon and tear out it\u0027s heart. No, seriously, go do it. Use an Arthana with Looting III for the best chances. If you don\u0027t know how to summon one, refer to page 49/50 of the Circle Magic book for the correct Rite of Summoning.\n\nYou\u0027ll need a Mutating Sprig for the next part."
+      "lockedProgress:1": 0,
+      "name:8": "The Hard Way to Change Biomes",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 2419,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 53,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      }
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinWitchII"
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
+      "damageType:8": "",
       "ignoreNBT:1": 1,
       "index:3": 0,
+      "required:3": 1,
+      "subtypes:1": 1,
+      "target:8": "witchery.demon",
       "targetNBT:10": {
-        "ForgeData:10": {},
+        "AbsorptionAmount:5": 0.0,
+        "Air:2": 300,
+        "AttackTime:2": 0,
         "Attributes:9": {
           "0:10": {
             "Base:6": 0.0,
@@ -73,56 +107,11 @@
             "Name:8": "generic.followRange"
           }
         },
-        "Invulnerable:1": 0,
-        "PortalCooldown:3": 0,
-        "AbsorptionAmount:5": 0.0,
-        "FallDistance:5": 0.0,
-        "DeathTime:2": 0,
-        "DropChances:9": {
-          "0:5": 0.085,
-          "1:5": 0.085,
-          "2:5": 0.085,
-          "3:5": 0.085,
-          "4:5": 0.085
-        },
-        "PersistenceRequired:1": 0,
-        "id:8": "witchery.demon",
-        "HealF:5": 100.0,
-        "Motion:9": {
-          "0:6": 0.0,
-          "1:6": 0.0,
-          "2:6": 0.0
-        },
-        "Leashed:1": 0,
-        "UUIDLeast:4": 7337207164978935855,
-        "Health:2": 100,
-        "PlayerCreated:1": 0,
-        "Air:2": 300,
-        "OnGround:1": 0,
-        "Dimension:3": 0,
-        "Rotation:9": {
-          "0:5": 0.91762996,
-          "1:5": 0.0
-        },
+        "CanPickUpLoot:1": 0,
         "CreatureInfusion:10": {
-          "PlayerInfusions:11": [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
           "InfusionCosts:10": {
             "Aspects:9": {}
           },
-          "tumorWarpTemp:3": 0,
           "Infusions:11": [
             0,
             0,
@@ -137,13 +126,38 @@
             0,
             0
           ],
+          "PlayerInfusions:11": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "sitting:1": 0,
           "toggleClimb:1": 0,
           "toggleInvisible:1": 0,
           "tumorWarp:3": 0,
-          "sitting:1": 0,
-          "tumorWarpPermanent:3": 0
+          "tumorWarpPermanent:3": 0,
+          "tumorWarpTemp:3": 0
         },
-        "UUIDMost:4": 886795321338100,
+        "CustomName:8": "",
+        "CustomNameVisible:1": 0,
+        "DeathTime:2": 0,
+        "Dimension:3": 0,
+        "DropChances:9": {
+          "0:5": 0.085,
+          "1:5": 0.085,
+          "2:5": 0.085,
+          "3:5": 0.085,
+          "4:5": 0.085
+        },
         "Equipment:9": {
           "0:10": {},
           "1:10": {},
@@ -151,67 +165,55 @@
           "3:10": {},
           "4:10": {}
         },
-        "CustomName:8": "",
+        "FallDistance:5": 0.0,
+        "Fire:2": 0,
+        "ForgeData:10": {},
+        "HealF:5": 100.0,
+        "Health:2": 100,
+        "HurtTime:2": 0,
+        "Invulnerable:1": 0,
+        "Leashed:1": 0,
+        "Motion:9": {
+          "0:6": 0.0,
+          "1:6": 0.0,
+          "2:6": 0.0
+        },
+        "OnGround:1": 0,
+        "PersistenceRequired:1": 0,
+        "PlayerCreated:1": 0,
+        "PortalCooldown:3": 0,
         "Pos:9": {
           "0:6": 0.0,
           "1:6": 0.0,
           "2:6": 0.0
         },
-        "Fire:2": 0,
-        "CanPickUpLoot:1": 0,
-        "HurtTime:2": 0,
-        "oiltweak.inOil:1": 0,
-        "AttackTime:2": 0,
-        "CustomNameVisible:1": 0
+        "Rotation:9": {
+          "0:5": 0.91762996,
+          "1:5": 0.0
+        },
+        "UUIDLeast:4": 7337207164978935855,
+        "UUIDMost:4": 886795321338100,
+        "id:8": "witchery.demon",
+        "oiltweak.inOil:1": 0
       },
-      "damageType:8": "",
-      "required:3": 1,
-      "taskID:8": "bq_standard:hunt",
-      "target:8": "witchery.demon",
-      "subtypes:1": 1
+      "taskID:8": "bq_standard:hunt"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "witchery:ingredient",
           "Count:3": 1,
           "Damage:2": 23,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "witchery:ingredient"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 0,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "enhancedlootbags:lootbag",
-          "Count:3": 1,
-          "Damage:2": 53,
-          "OreDict:8": ""
-        }
-      }
-    },
-    "1:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 1,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "dreamcraft:item.CoinWitchII",
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

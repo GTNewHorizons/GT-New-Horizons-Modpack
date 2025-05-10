@@ -1,5 +1,4 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
@@ -10,37 +9,38 @@
       "questIDLow:4": 546
     }
   },
-  "questIDLow:4": 2988,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "In HV, your oil processing options soar to new levels of complexity, and efficiency. Many of the processing multis that can be used are unlocked in this tier, and one of the most iconic is the Distillation Tower, the direct upgrade of the Distillery.\n\nThis tower can do actual fractional distillation, a process used in real life petrochemistry to separate oil into many different parts, based on their boiling points. The tall structure is required for the process, because the condensation of the vapors occurs in different temperatures. And since heating is only applied at the bottom, temperature drops the higher the vapor travels. This means that compounds with higher boiling points will condense sooner and will end up lower in the column, the opposite is also applicable for compounds with low boiling points.\n\nThat said, the Distillation Tower replaces Distilleries by allowing you to collect all fractions at once, from the same amount of input. This means that the tower is both more efficient, and also allows automation of all the outputs at the same time, but this comes at a cost: the controller needs EV circuits, which require a built Cleanroom, and the structure blocks are mostly made of Stainless Steel. Not only that, but the tower\u0027s height depends on the recipe, since each output needs its own height level to successfully be extracted. A max-height, 12-block tall DT can cost almost a dozen stacks of stainless to build, a very expensive multi for the tier.\n\nInstead of doing that, the first DT you should build is a 5-block tall one, to distill the Oil you\u0027re pumping out of reservoirs. Doing this, you can get all the fractions at once, for a reasonably cheap multi, compared to its maximum size.",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.blockcasings4",
         "Count:3": 1,
         "Damage:2": 1,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockcasings4"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Distillation Tower",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "In HV, your oil processing options soar to new levels of complexity, and efficiency. Many of the processing multis that can be used are unlocked in this tier, and one of the most iconic is the Distillation Tower, the direct upgrade of the Distillery.\n\nThis tower can do actual fractional distillation, a process used in real life petrochemistry to separate oil into many different parts, based on their boiling points. The tall structure is required for the process, because the condensation of the vapours occurs in different temperatures. And since heating is only applied at the bottom, temperature drops the higher the vapour travels. This means that compounds with higher boiling points will condense sooner and will end up lower in the column, the opposite is also applicable for compounds with low boiling points.\n\nThat said, the Distillation Tower replaces Distilleries by allowing you to collect all fractions at once, from the same amount of input. This means that the tower is both more efficient, and also allows automation of all the outputs at the same time, but this comes at a cost: the controller needs EV circuits, which require a built Cleanroom, and the structure blocks are mostly made of Stainless Steel. Not only that, but the tower\u0027s height depends on the recipe, since each output needs its own height level to successfully be extracted. A max-height, 12-block tall DT can cost almost a dozen stacks of stainless to build, a very expensive multi for the tier.\n\nInstead of doing that, the first DT you should build is a 5-block tall one, to distill the Oil you\u0027re pumping out of reservoirs. Doing this, you can get all the fractions at once, for a reasonably cheap multi, compared to its maximum size."
+      "lockedProgress:1": 0,
+      "name:8": "Distillation Tower",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
     }
   },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 2988,
+  "rewards:9": {},
   "tasks:9": {
     "0:10": {
       "index:3": 0,
       "taskID:8": "bq_standard:checkbox"
     }
-  },
-  "rewards:9": {}
+  }
 }

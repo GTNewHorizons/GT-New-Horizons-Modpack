@@ -1,5 +1,4 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
@@ -10,160 +9,163 @@
       "questIDLow:4": 2424
     }
   },
-  "questIDLow:4": 2425,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "You\u0027re almost there! To actually use the ritual, you need to recruit a coven first. Find some Coven Witches and complete their quests:\nThe means to control the dead -\u003e Necromantic Stone\nThe beating means to master the infernal dimension -\u003e Demon Heart\nI must perform many curses, bring me the necessary brew -\u003e Brew of the Grotesquex5\nI desire to predict the future -\u003e Crystal Ball\nOr just fight something.\n\nOnce completed, they\u0027ll disappear until you need them. They will sometimes appear near your spawn point if you walk by it, so don\u0027t position it over lava or something, since they CAN die and reduce the number of your coven. You can have 6, with one extra appearing for Cauldron work. Consider keeping some extras around in a dungeon just in case.\n\nAfter you recruit your coven, you just need a few things for the ritual itself: Spider Eye, Toe of Frog, Wool of Bat, Tongue of Dog, Owlet\u0027s Wing, Attuned Stone, and Attuned Stone (Charged).\n\nTo specify the biome, look in the Book of Biomes, and find 1) the type (Forest, Plains, etc.), and 2) the number. Type determines the foci used, and number determines the amount of Glowstone Dust used to get that specific biome. Make sure to pack up a ritual circle into a circle talisman so you don\u0027t have to redraw it, and bring some cobblestone to make a flat area (15x15, any height). Try not to do it at night unless you like dealing with infernals.\n\nTo actually do the ritual, have the ritual circle on the ground, the items (including the foci and Glowstone) in the circle, and right-click the center with the Seer\u0027s Stone.\n\nThe area affected is determined by the number of witches in your coven. It\u0027s 16 * (size of coven - 3) radius in a circular area, so 16/32/48 if it doesn\u0027t fail.\n\nUnfortunately, sometimes after logging out and back in again, you may find that it didn\u0027t work correctly in specific chunks, this is (possibly) due to a lack of chunk updates and it not saving the changed biome ID correctly. Just redoing the ritual doesn\u0027t really help, you\u0027ll just get patches in the same places, however placing water after the ritual and before logging out may help with this. Or use chickens. Lots of chickens.\n\nAlso, if you already have crops in the area, they\u0027ll disappear until a block update or relog.\n\n[note]PS: To pack your circle back up, you need to bring your altar with you.[/note]",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "witchery:ingredient",
         "Count:3": 1,
         "Damage:2": 106,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "witchery:ingredient"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Greenhouses on Mountains, Hell on Earth",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "You\u0027re almost there! To actually use the ritual, you need to recruit a coven first. Find some Coven Witches and complete their quests:\nThe means to control the dead -\u003e Necromantic Stone\nThe beating means to master the infernal dimension -\u003e Demon Heart\nI must perform many curses, bring me the necessary brew -\u003e Brew of the Grotesquex5\nI desire to predict the future -\u003e Crystal Ball\nOr just fight something.\n\nOnce completed, they\u0027ll disappear until you need them. They will sometimes appear near your spawn point if you walk by it, so don\u0027t position it over lava or something, since they CAN die and reduce the number of your coven. You can have 6, with one extra appearing for Cauldron work. Consider keeping some extras around in a dungeon just in case.\n\nAfter you recruit your coven, you just need a few things for the ritual itself: Spider Eye, Toe of Frog, Wool of Bat, Tongue of Dog, Owlet\u0027s Wing, Attuned Stone, and Attuned Stone (Charged).\n\nTo specify the biome, look in the Book of Biomes, and find 1) the type (Forest, Plains, etc), and 2) the number. Type determines the foci used, and number determines the amount of Glowstone Dust used to get that specific biome. Make sure to pack up a ritual circle into a circle talisman so you don\u0027t have to redraw it, and bring some cobblestone to make a flat area (15x15, any height). Try not to do it at night unless you like dealing with infernals.\n\nTo actually do the ritual, have the ritual circle on the ground, the items (including the foci and Glowstone) in the circle, and right-click the center with the Seer\u0027s Stone.\n\nThe area affected is determined by the number of witches in your coven. It\u0027s 16 * (size of coven - 3) radius in a circular area, so 16/32/48 if it doesn\u0027t fail.\n\nUnfortunately, sometimes after logging out and back in again you may find that it didn\u0027t work correctly in specific chunks, this is (possibly) due to lack of chunk updates and it not saving the changed biome ID correctly. Just redoing the ritual doesn\u0027t really help, you\u0027ll just get patches in the same places, however placing water after the ritual and before logging out may help with this. Or use chickens. Lots of chickens.\n\nAlso, if you already have crops in the area, they\u0027ll disappear until a block update or relog.\n\n[note]PS: To pack your circle back up, you need to bring your altar with you.[/note]"
+      "lockedProgress:1": 0,
+      "name:8": "Greenhouses on Mountains, Hell on Earth",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
     }
   },
-  "tasks:9": {
-    "0:10": {
-      "partialMatch:1": 1,
-      "autoConsume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
-      "index:3": 0,
-      "consume:1": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "id:8": "minecraft:spider_eye",
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "witchery:ingredient",
-          "Count:3": 1,
-          "Damage:2": 90,
-          "OreDict:8": ""
-        },
-        "2:10": {
-          "id:8": "witchery:ingredient",
-          "Count:3": 1,
-          "Damage:2": 24,
-          "OreDict:8": ""
-        },
-        "3:10": {
-          "id:8": "witchery:ingredient",
-          "Count:3": 1,
-          "Damage:2": 25,
-          "OreDict:8": ""
-        },
-        "4:10": {
-          "id:8": "witchery:ingredient",
-          "Count:3": 1,
-          "Damage:2": 89,
-          "OreDict:8": ""
-        },
-        "5:10": {
-          "id:8": "witchery:ingredient",
-          "Count:3": 1,
-          "Damage:2": 10,
-          "OreDict:8": ""
-        },
-        "6:10": {
-          "id:8": "witchery:ingredient",
-          "Count:3": 1,
-          "Damage:2": 11,
-          "OreDict:8": ""
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    }
-  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 2425,
   "rewards:9": {
     "0:10": {
-      "rewardID:8": "bq_standard:item",
+      "ignoreDisabled:1": 0,
       "index:3": 0,
+      "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "id:8": "enhancedlootbags:lootbag",
           "Count:3": 1,
           "Damage:2": 56,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
         },
         "1:10": {
-          "id:8": "minecraft:spider_eye",
           "Count:3": 8,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "minecraft:spider_eye"
         },
         "2:10": {
-          "id:8": "witchery:ingredient",
           "Count:3": 8,
           "Damage:2": 90,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "witchery:ingredient"
         },
         "3:10": {
-          "id:8": "witchery:ingredient",
           "Count:3": 8,
           "Damage:2": 24,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "witchery:ingredient"
         },
         "4:10": {
-          "id:8": "witchery:ingredient",
           "Count:3": 8,
           "Damage:2": 25,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "witchery:ingredient"
         },
         "5:10": {
-          "id:8": "witchery:ingredient",
           "Count:3": 8,
           "Damage:2": 89,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "witchery:ingredient"
         },
         "6:10": {
-          "id:8": "witchery:ingredient",
           "Count:3": 8,
           "Damage:2": 10,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "witchery:ingredient"
         },
         "7:10": {
-          "id:8": "witchery:ingredient",
           "Count:3": 8,
           "Damage:2": 11,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "witchery:ingredient"
         },
         "8:10": {
-          "id:8": "minecraft:glowstone_dust",
           "Count:3": 64,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "minecraft:glowstone_dust"
         }
       }
     },
     "1:10": {
-      "rewardID:8": "bq_standard:item",
+      "ignoreDisabled:1": 0,
       "index:3": 1,
+      "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "id:8": "dreamcraft:item.CoinWitchII",
           "Count:3": 5,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinWitchII"
         }
       }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:spider_eye"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 90,
+          "OreDict:8": "",
+          "id:8": "witchery:ingredient"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 24,
+          "OreDict:8": "",
+          "id:8": "witchery:ingredient"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 25,
+          "OreDict:8": "",
+          "id:8": "witchery:ingredient"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 89,
+          "OreDict:8": "",
+          "id:8": "witchery:ingredient"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 10,
+          "OreDict:8": "",
+          "id:8": "witchery:ingredient"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "Damage:2": 11,
+          "OreDict:8": "",
+          "id:8": "witchery:ingredient"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

@@ -1,7 +1,7 @@
 name: Report Crash
 description: "Report a bug that abruptly ends a game session or prevents the start of the game."
 labels:
-- "Type: Crash"
+- "Crash"
 - "Status: Triage"
 body:
 - type: markdown
@@ -14,7 +14,7 @@ body:
   attributes:
     label: Your GTNH Discord Username
     description: Leave empty if you don't have one, but this will make it harder to contact you if we need additional info. 
-    placeholder: "Example: Fake#1234"
+    placeholder: "Example: Fake"
 - type: input
   id: version
   attributes:

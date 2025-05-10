@@ -1,98 +1,99 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 36
     }
   },
-  "questIDLow:4": 2402,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 1,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "The crowbar is the GT tool used to remove a cover off of a machine, pipe, or wire. Covers can be decorative, functional like pumps and conveyors, or for safety, like putting a wooden plank over your steam pipes so they don\u0027t burn you.\n\nSorry, it only comes in blue!\n\nYes, we know there are also red crowbars, but they are from Railcraft and generally inferior. Better ignore them.",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "gregtech:gt.metatool.01",
         "Count:3": 1,
+        "Damage:2": 20,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.metatool.01",
         "tag:10": {
           "GT.ToolStats:10": {
-            "PrimaryMaterial:8": "Neutronium",
             "MaxDamage:4": 65536000,
+            "PrimaryMaterial:8": "Neutronium",
             "SecondaryMaterial:8": "Neutronium"
           }
-        },
-        "Damage:2": 20,
-        "OreDict:8": ""
+        }
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "§2§lGot a Flat Tire?",
-      "isGlobal:1": 0,
-      "lockedProgress:1": 0,
       "ignoreNBT:1": 1,
-      "autoClaim:1": 0,
+      "isGlobal:1": 0,
+      "isMain:1": 1,
       "isSilent:1": 0,
-      "desc:8": "The crowbar is the GT tool used to remove a cover off of a machine, pipe, or wire. Covers can be decorative, functional like pumps and conveyors, or for safety, like putting a wooden plank over your steam pipes so they don\u0027t burn you.\n\nSorry, it only comes in blue!\n\nYes, we know there are also red crowbars, but they are from Railcraft and generally inferior. Better ignore them."
+      "lockedProgress:1": 0,
+      "name:8": "§2§lGot a Flat Tire?",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 2402,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnician"
+        },
+        "1:10": {
+          "Count:3": 3,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "harvestcraft:friedriceItem"
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
+      "allowAnvil:1": 0,
+      "allowCraft:1": 1,
       "allowCraftedFromStatistics:1": 0,
       "allowSmelt:1": 1,
       "ignoreNBT:1": 1,
       "index:3": 5,
-      "allowCraft:1": 1,
-      "allowAnvil:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.metatool.01",
           "Count:3": 1,
+          "Damage:2": 20,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metatool.01",
           "tag:10": {
+            "GT.ToolStats:10": {
+              "MaxDamage:4": 25600,
+              "PrimaryMaterial:8": "Iron",
+              "SecondaryMaterial:8": "Iron"
+            },
             "ench:9": {
               "0:10": {
-                "lvl:2": 1,
-                "id:2": 16
+                "id:2": 16,
+                "lvl:2": 1
               }
-            },
-            "GT.ToolStats:10": {
-              "PrimaryMaterial:8": "Iron",
-              "MaxDamage:4": 25600,
-              "SecondaryMaterial:8": "Iron"
             }
-          },
-          "Damage:2": 20,
-          "OreDict:8": ""
+          }
         }
       },
       "taskID:8": "bq_standard:crafting"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 0,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "dreamcraft:item.CoinTechnician",
-          "Count:3": 5,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "harvestcraft:friedriceItem",
-          "Count:3": 3,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

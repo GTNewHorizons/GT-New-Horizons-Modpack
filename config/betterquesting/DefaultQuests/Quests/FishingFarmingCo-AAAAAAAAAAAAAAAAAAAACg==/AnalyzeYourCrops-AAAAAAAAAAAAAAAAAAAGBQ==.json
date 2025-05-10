@@ -1,5 +1,4 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
@@ -10,118 +9,121 @@
       "questIDLow:4": 103
     }
   },
-  "questIDLow:4": 1541,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
-      "icon:10": {
-        "id:8": "IC2:itemCropnalyzer",
-        "Count:3": 1,
-        "tag:10": {
-          "uid:4": -73442049,
-          "charge:6": 100000.0,
-          "Items:9": {}
-        },
-        "Damage:2": 1,
-        "OreDict:8": ""
-      },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Analyze Your Crops",
-      "isGlobal:1": 0,
-      "lockedProgress:1": 0,
       "autoClaim:1": 0,
+      "desc:8": "The cropnalyzer is a powered tool used to analyze IC2 crop seedbags. Charge it by placing it in an MV machine; it is recommended to also place an MV battery in it to keep it fully charged. To fully analyze a seed bag, you will need to put it through the cropnalyzer four times. If the crop is already planted, it is better to analyze it with the portable scanner instead of breaking it just to scan it - you have a chance of losing the seed every time you break it.\n\nThe cropnalyzer also has a feature called the IC2 Crop Calculator, where you can find the mix of outputs of breeding together any crops. To access the calculator, hit the IC2 side inventory key while holding the cropnalyzer. You can select any crops available and discover what plants have decent percentages of a result. And no, you can\u0027t do the reverse, search for the crops.zip on discord for that (it doesn\u0027t have micadia though).\n\nYou can choose up to four crops to breed together. Then click \"process\" and the bottom row will show the possible crossbreeding outputs, and their weights. You can use the + and - gui buttons to scroll through the row(s) of crops. You can also use a button in the GUI to sort the rows by tier or weight. You can invert the sorting by hitting the sorting button while holding shift.\n\nWhen trying to get a specific crop, you generally want to maximize its percentage. Do this by breeding 2-4 of the same plant together (more is faster). There is no advantage to crossing plant types, it just reduces the % chance of getting what you want, contrary to what you might think.\n\nUse the crops guide at [url]https://wiki.gtnewhorizons.com/wiki/IC2_Crops_List[/url] for more details.\n\nA large field of stickreeds has a good chance at making lots of valuable crosses. This is because it\u0027s decently high tier (they randomly mutate to tiers nearby mostly), and it\u0027s really fast, so you can get it to a high stat fast, which you should probably do first. Mutations are random, you can get transformium from stickreed, so keep that in mind. You do tend to get similar crops, so if you want metals, get the metal crops for example. Go to the wiki or spreadsheet (not up to date) to see the attributes that govern similarity.",
+      "globalShare:1": 1,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "OreDict:8": "",
+        "id:8": "IC2:itemCropnalyzer",
+        "tag:10": {
+          "Items:9": {},
+          "charge:6": 100000.0,
+          "uid:4": -73442049
+        }
+      },
+      "isGlobal:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "The cropnalyzer is a powered tool used to analyze IC2 crop seedbags. Charge it by placing it in an MV machine; recommended to put an MV battery in it as well to keep it full. To fully analyze a seed bag, you will need to put it through the cropnalyzer four times. If the crop is already planted, it is better to analyze it with the portable scanner instead of breaking it just to scan it - you have a chance of losing the seed every time you break it.\n\nThe cropnalyzer also has a feature called the IC2 Crop Calculator, where you can find the mix of outputs of breeding together any crops. To access the calculator, hit the IC2 side inventory key while holding the cropnalyzer.  You can select any crops available and discover what plants have decent percentages of a result. And no, you can\u0027t do the reverse, search for the crops.zip on discord for that (it doesn\u0027t have micadia though).\n\nYou can choose up to four crops to breed together. Then click \"process\" and the bottom row will show the possible crossbreeding outputs, and their weights. You can use the + and - gui buttons to scroll through the row(s) of crops. You can also use a button in the GUI to sort the rows by tier or weight. You can invert the sorting by hitting the sorting button while holding shift.\n\nWhen trying to get a specific crop, you generally want to maximize its percentage. Do this by breeding 2-4 of the same plant together (more is faster). There is no advantage to crossing plant types, it just reduces the % chance of getting what you want, contrary to what you might think.\n\nUse the crops guide at [url]https://wiki.gtnewhorizons.com/wiki/IC2_Crops_List[/url] for more details.\n\nA large field of stickreeds has a good chance at making lots of valuable crosses. This is because it\u0027s decently high tier (they randomly mutate to tiers nearby mostly), and it\u0027s really fast, so you can get it to a high stat fast, which you should probably do first. Mutations are random, you can get transformium from stickreed, so keep that in mind. You do tend to get similar crops, so if you want metals, get the metal crops for example. Go to the wiki or spreadsheet (not up to date) to see the attributes that govern similarity."
+      "lockedProgress:1": 0,
+      "name:8": "Analyze Your Crops",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 1541,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "IC2:itemCropSeed",
+          "tag:10": {
+            "gain:4": 1,
+            "growth:4": 1,
+            "name:8": "Glowflower",
+            "owner:8": "berriespp",
+            "resistance:4": 1,
+            "scan:4": 4
+          }
+        },
+        "1:10": {
+          "Count:3": 32,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "IC2:blockCrop"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 51,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 30,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnician"
+        },
+        "1:10": {
+          "Count:3": 30,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinFarmer"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 32529,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01",
+          "tag:10": {
+            "GT.ItemCharge:4": 200000
+          }
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 0,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "IC2:itemCropnalyzer",
           "Count:3": 1,
-          "tag:10": {},
           "Damage:2": 32767,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "IC2:itemCropnalyzer",
+          "tag:10": {}
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 0,
-      "choices:9": {
-        "0:10": {
-          "id:8": "IC2:itemCropSeed",
-          "Count:3": 4,
-          "tag:10": {
-            "owner:8": "berriespp",
-            "name:8": "Glowflower",
-            "scan:4": 4,
-            "growth:4": 1,
-            "resistance:4": 1,
-            "gain:4": 1
-          },
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "IC2:blockCrop",
-          "Count:3": 32,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "2:10": {
-          "id:8": "enhancedlootbags:lootbag",
-          "Count:3": 1,
-          "Damage:2": 51,
-          "OreDict:8": ""
-        }
-      }
-    },
-    "1:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 1,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "dreamcraft:item.CoinTechnician",
-          "Count:3": 30,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "dreamcraft:item.CoinFarmer",
-          "Count:3": 30,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "2:10": {
-          "id:8": "gregtech:gt.metaitem.01",
-          "Count:3": 1,
-          "tag:10": {
-            "GT.ItemCharge:4": 200000
-          },
-          "Damage:2": 32529,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

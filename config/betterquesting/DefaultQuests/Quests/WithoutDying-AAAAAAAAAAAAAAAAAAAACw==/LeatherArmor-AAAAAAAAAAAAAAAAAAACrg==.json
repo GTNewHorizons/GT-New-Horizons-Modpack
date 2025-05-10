@@ -1,214 +1,216 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 42
     }
   },
-  "questIDLow:4": 686,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "partySingleReward:1": 0,
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "Killing some cows will give you enough leather to craft a complete set of leather armor.\n\nHint: You are able to dye this armor.",
+      "globalShare:1": 1,
       "icon:10": {
-        "id:8": "minecraft:leather_chestplate",
         "Count:3": 1,
         "Damage:2": 0,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "minecraft:leather_chestplate"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 1,
-      "questLogic:8": "OR",
-      "repeat_relative:1": 1,
-      "name:8": "Leather Armor",
       "isGlobal:1": 0,
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Killing some cows will give you enough leather to craft a complete set of leather armor. \n\nHint: You are able to dye this armor."
+      "lockedProgress:1": 0,
+      "name:8": "Leather Armor",
+      "partySingleReward:1": 0,
+      "questLogic:8": "OR",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 686,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 0,
+          "OreDict:8": "dyeBlack",
+          "id:8": "minecraft:dye"
+        },
+        "1:10": {
+          "Count:3": 8,
+          "Damage:2": 1,
+          "OreDict:8": "dyeRed",
+          "id:8": "minecraft:dye"
+        },
+        "2:10": {
+          "Count:3": 8,
+          "Damage:2": 2,
+          "OreDict:8": "dyeGreen",
+          "id:8": "minecraft:dye"
+        },
+        "3:10": {
+          "Count:3": 8,
+          "Damage:2": 3,
+          "OreDict:8": "dyeBrown",
+          "id:8": "minecraft:dye"
+        },
+        "4:10": {
+          "Count:3": 8,
+          "Damage:2": 4,
+          "OreDict:8": "dyeBlue",
+          "id:8": "minecraft:dye"
+        },
+        "5:10": {
+          "Count:3": 8,
+          "Damage:2": 5,
+          "OreDict:8": "dyePurple",
+          "id:8": "minecraft:dye"
+        },
+        "6:10": {
+          "Count:3": 8,
+          "Damage:2": 6,
+          "OreDict:8": "dyeCyan",
+          "id:8": "minecraft:dye"
+        },
+        "7:10": {
+          "Count:3": 8,
+          "Damage:2": 7,
+          "OreDict:8": "dyeLightGray",
+          "id:8": "minecraft:dye"
+        },
+        "8:10": {
+          "Count:3": 8,
+          "Damage:2": 8,
+          "OreDict:8": "dyeGray",
+          "id:8": "minecraft:dye"
+        },
+        "9:10": {
+          "Count:3": 8,
+          "Damage:2": 9,
+          "OreDict:8": "dyePink",
+          "id:8": "minecraft:dye"
+        },
+        "10:10": {
+          "Count:3": 8,
+          "Damage:2": 10,
+          "OreDict:8": "dyeLime",
+          "id:8": "minecraft:dye"
+        },
+        "11:10": {
+          "Count:3": 8,
+          "Damage:2": 11,
+          "OreDict:8": "dyeYellow",
+          "id:8": "minecraft:dye"
+        },
+        "12:10": {
+          "Count:3": 8,
+          "Damage:2": 12,
+          "OreDict:8": "dyeLightBlue",
+          "id:8": "minecraft:dye"
+        },
+        "13:10": {
+          "Count:3": 8,
+          "Damage:2": 13,
+          "OreDict:8": "dyeMagenta",
+          "id:8": "minecraft:dye"
+        },
+        "14:10": {
+          "Count:3": 8,
+          "Damage:2": 14,
+          "OreDict:8": "dyeOrange",
+          "id:8": "minecraft:dye"
+        },
+        "15:10": {
+          "Count:3": 8,
+          "Damage:2": 15,
+          "OreDict:8": "dyeWhite",
+          "id:8": "minecraft:dye"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinSmith"
+        },
+        "1:10": {
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinSurvivor"
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "minecraft:leather",
           "Count:3": 24,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "minecraft:leather"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
+      "allowAnvil:1": 0,
+      "allowCraft:1": 1,
       "allowCraftedFromStatistics:1": 0,
       "allowSmelt:1": 1,
       "ignoreNBT:1": 0,
       "index:3": 1,
-      "allowCraft:1": 1,
-      "allowAnvil:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "minecraft:leather_helmet",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "minecraft:leather_helmet"
         },
         "1:10": {
-          "id:8": "minecraft:leather_chestplate",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "minecraft:leather_chestplate"
         },
         "2:10": {
-          "id:8": "minecraft:leather_leggings",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "minecraft:leather_leggings"
         },
         "3:10": {
-          "id:8": "minecraft:leather_boots",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "minecraft:leather_boots"
         }
       },
       "taskID:8": "bq_standard:crafting"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 0,
-      "choices:9": {
-        "0:10": {
-          "id:8": "minecraft:dye",
-          "Count:3": 8,
-          "Damage:2": 0,
-          "OreDict:8": "dyeBlack"
-        },
-        "1:10": {
-          "id:8": "minecraft:dye",
-          "Count:3": 8,
-          "Damage:2": 1,
-          "OreDict:8": "dyeRed"
-        },
-        "2:10": {
-          "id:8": "minecraft:dye",
-          "Count:3": 8,
-          "Damage:2": 2,
-          "OreDict:8": "dyeGreen"
-        },
-        "3:10": {
-          "id:8": "minecraft:dye",
-          "Count:3": 8,
-          "Damage:2": 3,
-          "OreDict:8": "dyeBrown"
-        },
-        "4:10": {
-          "id:8": "minecraft:dye",
-          "Count:3": 8,
-          "Damage:2": 4,
-          "OreDict:8": "dyeBlue"
-        },
-        "5:10": {
-          "id:8": "minecraft:dye",
-          "Count:3": 8,
-          "Damage:2": 5,
-          "OreDict:8": "dyePurple"
-        },
-        "6:10": {
-          "id:8": "minecraft:dye",
-          "Count:3": 8,
-          "Damage:2": 6,
-          "OreDict:8": "dyeCyan"
-        },
-        "7:10": {
-          "id:8": "minecraft:dye",
-          "Count:3": 8,
-          "Damage:2": 7,
-          "OreDict:8": "dyeLightGray"
-        },
-        "8:10": {
-          "id:8": "minecraft:dye",
-          "Count:3": 8,
-          "Damage:2": 8,
-          "OreDict:8": "dyeGray"
-        },
-        "9:10": {
-          "id:8": "minecraft:dye",
-          "Count:3": 8,
-          "Damage:2": 9,
-          "OreDict:8": "dyePink"
-        },
-        "10:10": {
-          "id:8": "minecraft:dye",
-          "Count:3": 8,
-          "Damage:2": 10,
-          "OreDict:8": "dyeLime"
-        },
-        "11:10": {
-          "id:8": "minecraft:dye",
-          "Count:3": 8,
-          "Damage:2": 11,
-          "OreDict:8": "dyeYellow"
-        },
-        "12:10": {
-          "id:8": "minecraft:dye",
-          "Count:3": 8,
-          "Damage:2": 12,
-          "OreDict:8": "dyeLightBlue"
-        },
-        "13:10": {
-          "id:8": "minecraft:dye",
-          "Count:3": 8,
-          "Damage:2": 13,
-          "OreDict:8": "dyeMagenta"
-        },
-        "14:10": {
-          "id:8": "minecraft:dye",
-          "Count:3": 8,
-          "Damage:2": 14,
-          "OreDict:8": "dyeOrange"
-        },
-        "15:10": {
-          "id:8": "minecraft:dye",
-          "Count:3": 8,
-          "Damage:2": 15,
-          "OreDict:8": "dyeWhite"
-        }
-      }
-    },
-    "1:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 1,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "dreamcraft:item.CoinSmith",
-          "Count:3": 5,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "dreamcraft:item.CoinSurvivor",
-          "Count:3": 5,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

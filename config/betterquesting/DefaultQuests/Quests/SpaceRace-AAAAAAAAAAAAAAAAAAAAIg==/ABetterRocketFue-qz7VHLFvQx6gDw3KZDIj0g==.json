@@ -1,5 +1,4 @@
 {
-  "questIDHigh:4": -6107209725455154402,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
@@ -10,37 +9,38 @@
       "questIDLow:4": 557
     }
   },
-  "questIDLow:4": -6913291740074859566,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL",
-      "isMain:1": 1,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "If you want to go further than Mars you need a better rocket fuel. From here on out there is only one choice. The Chemical Plant is at the heart of the production. If you don\u0027t have one yet, you should have a look at it. It has 4 separate tier system and might be a bit over whelming at first, but there is a minecraft book that can tell you everything about it. Also check out the quest for the Chemical Plant in the GT++ quest tab.\n\n[warn]Don\u0027t use the NEI Preview for the Chemical Plant, it is wrong.[/warn]",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.blockmachines",
         "Count:3": 1,
         "Damage:2": 998,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "OR",
-      "repeat_relative:1": 1,
-      "name:8": "A Better Rocket Fuel",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 1,
       "isSilent:1": 0,
-      "desc:8": "If you want to go further than Mars you need a better rocket fuel. From here on out there is only one choice. The Chemical Plant is at the heart of the production. If you dont have one yet, you should have a look at it. It has 4 separate tier system and might be a bit over whelming at first, but there is a minecraft book that can tell you everything about it. Also check out the quest for the Chemical Plant in the GT++ quest tab.\n\n[warn]Don\u0027t use the NEI Preview for the Chemical Plant, it is wrong.[/warn]"
+      "lockedProgress:1": 0,
+      "name:8": "A Better Rocket Fuel",
+      "questLogic:8": "OR",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
     }
   },
+  "questIDHigh:4": -6107209725455154402,
+  "questIDLow:4": -6913291740074859566,
+  "rewards:9": {},
   "tasks:9": {
     "0:10": {
       "index:3": 0,
       "taskID:8": "bq_standard:checkbox"
     }
-  },
-  "rewards:9": {}
+  }
 }

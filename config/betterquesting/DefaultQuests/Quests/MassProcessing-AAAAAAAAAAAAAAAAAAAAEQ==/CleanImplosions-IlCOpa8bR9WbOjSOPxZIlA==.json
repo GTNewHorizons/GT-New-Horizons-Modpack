@@ -1,0 +1,104 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 80
+    },
+    "1:10": {
+      "questIDHigh:4": 1162181130482500484,
+      "questIDLow:4": -8199803816494517045
+    },
+    "2:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2621
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Introducing the bigger (and better) Implosion Compressor, the Electric Implosion Compressor.\n\nThe Electric Implosion Compressor does not need any explosive and only needs electricity, isn\u0027t that very nice!\n\nFurthermore it gains extra parallels 4^(Tier - 1) based on the containment block used in the middle.\n\nTier 1: Neutronium Block\nTier 2: Infinity Block\nTier 3: transcendent Metal Block\nTier 4: Spacetime Block\nTier 5: Universium Block\n\n[note]While the structure preview shows holes in the middle, it requires the full 27 containment blocks to form, once formed the middle 5 blocks will disappear visually, but sometimes when breaking you will get them back (and sometimes you won\u0027t). [/note]\n\n[note]The minimum allowed energy hatch tier is one tier below the recipe tier, so let\u0027s start with 2 UHV energy hatches for now.[/note]",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 12734,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Clean Implosions?!",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 2472633037684950997,
+  "questIDLow:4": -7261433663633078124,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 49,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        },
+        "1:10": {
+          "Count:3": 27,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmetal5"
+        },
+        "2:10": {
+          "Count:3": 31,
+          "Damage:2": 1,
+          "OreDict:8": "",
+          "id:8": "bartworks:BW_Machinery_Casings"
+        },
+        "3:10": {
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings2"
+        },
+        "4:10": {
+          "Count:3": 4,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "bartworks:BW_Machinery_Casings"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 12734,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
