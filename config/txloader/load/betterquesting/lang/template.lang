@@ -12512,6 +12512,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMxw.desc=Just try to dream of gold.
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAHA.name=Paying the Highest Price
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAHA.desc=When regular magic just won't cover it, pay demons to do it for you! The cost might scare some people... But no risk no fun!
 
+# Quest: Incense Crucible
+betterquesting.quest.1PpNSMRMR_-6fCQnguQX-A.name=Incense Crucible
+betterquesting.quest.1PpNSMRMR_-6fCQnguQX-A.desc=The forefather of the 1.12.2 Incense Altar.%n%nThe bonuses it gives are mostly similar, but the way it works is completely different.%nEach incense is meant to be tiered one after another. Currently you can only use §eWood Ash§r and §4Byrrus (Red)§r.%n%nWhite smoke will come out when there is an incense in the crucible, and the crucible will light up when it finds a player to increase the incense value of.%nOnce the player has an incense value greater than 0, their sacrificial knife will get super-charged, allowing the player to completely sacrifice all of their hearts but one.%n%nPutting §eWood Ash§r in the crucible will increase the incense value from §90§r to §9400§r.%n§4Byrrus§r increases it from §9400§r to §9800§r. It cannot get you from §90§r to §a§9800§r alone.%n%nThe LP you get from self-sacrifice will get a boost depending on your §9Incense Value§r.%n%n§dLP§r = §d200LP§r * §cHeartSacrificed§r * §bIncenseModifier§r%n%n§bIncenseModifier§r = §9IncenseValue§r * 0.001
+
 # Quest: Tier 2 Sigils
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA5A.name=Tier 2 Sigils
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA5A.desc=With Reinforced Slates, you can make new sigils.
@@ -12783,6 +12787,14 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJnA.desc=But why is it transparent?%n%n[
 # Quest: Ritual Dismantler
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJng.name=Ritual Dismantler
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJng.desc=Use this to quickly dismantle a ritual.
+
+# Quest: Jeremy Fragrance
+betterquesting.quest.FiNzfQEmSlOHb8fuC-FWBw.name=Jeremy Fragrance
+betterquesting.quest.FiNzfQEmSlOHb8fuC-FWBw.desc=The peak of all Incenses.%n%n§dPurpura§r will increase your Incense from §92400§r to §93500§r.
+
+# Quest: Smelling Even Better
+betterquesting.quest.MFGBdpO5TH6jRZXJSQistA.name=Smelling Even Better
+betterquesting.quest.MFGBdpO5TH6jRZXJSQistA.desc=§3Livens§r will increase your Incense from §9800§r to §91500§r.%n§aViridis§r will increase it even further from §91500§r to §92400§r.
 
 # Quest: Summon the Meteor!
 betterquesting.quest.s4B77B7FSamWlvHY8hfqqA.name=Summon the Meteor!
