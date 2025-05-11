@@ -1887,7 +1887,6 @@
         <Loot Identifier="a00b915c-223b-4e8e-a06b-44186c3368d0" ItemName="OpenComputers:item:83" Amount="1" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="0d90ca91-a09b-4a78-91e1-4216af813884" ItemName="OpenComputers:item:63" Amount="1" NBTTag="" Chance="65" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="bdbc0bac-d8ee-41f5-893f-c98988dd24bd" ItemName="OpenComputers:item:54" Amount="1" NBTTag="" Chance="65" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="58b74cf6-f06d-47c8-b998-c03eb9bac1c6" ItemName="OpenComputers:eeprom" Amount="1" NBTTag="{oc:data:{oc:readonly:0b,oc:eeprom:[1617 bytes],oc:label:&quot;EEPROM (Lua BIOS)&quot;}}" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="fcdc1466-405c-4e3b-bf3d-56fca7c0fdcc" ItemName="computronics:computronics.colorfulLamp" Amount="1" NBTTag="" Chance="65" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="2b61659b-f076-4414-a3a0-5a9292a9fcc7" ItemName="computronics:computronics.chatBox" Amount="1" NBTTag="" Chance="65" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="d90b909f-0c3b-4fe9-b703-614f17f5c376" ItemName="computronics:computronics.camera" Amount="1" NBTTag="" Chance="65" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
