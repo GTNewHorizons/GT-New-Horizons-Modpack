@@ -1,7 +1,7 @@
 {
 "name": "loot_mountain",
 "loot_rules": [
-	{"level": 0, "type": "FOOD", "each": true, "quantity": 5, "loot": [
+	{"level": 0, "loot_pools": [{"type": "FOOD", "each": true, "quantity": 5}, {"type": "ARMOUR", "each": true, "quantity": 3}], "loot": [
         	{"data": {"name": "harvestcraft:applejuiceItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
         	{"data": {"name": "harvestcraft:melonjuiceItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
         	{"data": {"name": "harvestcraft:carrotjuiceItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
@@ -43,7 +43,7 @@
         	{"data": {"name": "adventurebackpack:melonJuiceBottle", "meta": 0, "min": 1, "max": 3}, "weight": 10}
       ]
     },
-	{"level": 1, "type": "FOOD", "each": true, "quantity": 6, "loot": [
+	{"level": 1, "loot_pools": [{"type": "FOOD", "each": true, "quantity": 5}, {"type": "ARMOUR", "each": true, "quantity": 3}], "loot": [
         	{"data": {"name": "harvestcraft:cherrysodaItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
         	{"data": {"name": "harvestcraft:colasodaItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
         	{"data": {"name": "harvestcraft:gingersodaItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
@@ -68,7 +68,7 @@
         	{"data": {"name": "gregtech:gt.metaitem.01", "meta": 2624, "min": 1, "max": 3}, "weight": 1}
     ]
     },
-    {"level": 2, "type": "FOOD", "each": true, "quantity": 6, "loot": [
+    {"level": 2, "loot_pools": [{"type": "FOOD", "each": true, "quantity": 6}, {"type": "ARMOUR", "each": true, "quantity": 3}], "loot": [
         	{"data": {"name": "harvestcraft:raspberryicedteaItem", "meta": 0, "min": 1, "max": 3}, "weight": 20},
         	{"data": {"name": "harvestcraft:chaiteaItem", "meta": 0, "min": 1, "max": 3}, "weight": 20},
         	{"data": {"name": "harvestcraft:teaItem", "meta": 0, "min": 1, "max": 3}, "weight": 20},
@@ -95,7 +95,7 @@
         	{"data": {"name": "gregtech:gt.metaitem.02", "meta": 32002, "min": 1, "max": 3}, "weight": 10}
       ]
     },
-	{"level": 4, "type": "FOOD", "each": true, "quantity": 6, "loot": [
+	{"level": 4, "loot_pools": [{"type": "FOOD", "each": true, "quantity": 6}, {"type": "ARMOUR", "each": true, "quantity": 4}], "loot": [
         	{"data": {"name": "gregtech:gt.metaitem.02", "meta": 32102, "min": 1, "max": 3}, "weight": 10},
         	{"data": {"name": "gregtech:gt.metaitem.02", "meta": 32105, "min": 1, "max": 3}, "weight": 10},
         	{"data": {"name": "gregtech:gt.metaitem.02", "meta": 32110, "min": 1, "max": 3}, "weight": 10},
@@ -112,7 +112,7 @@
     ]
     },
     {
-	"level": 3, "type": "FOOD", "each": true, "quantity": 6, "loot": [
+	"level": 3, "loot_pools": [{"type": "FOOD", "each": true, "quantity": 6}, {"type": "ARMOUR", "each": true, "quantity": 4}], "loot": [
         	{"data": {"name": "harvestcraft:asparagussoupItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
         	{"data": {"name": "harvestcraft:potatosoupItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
         	{"data": {"name": "harvestcraft:ricesoupItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
