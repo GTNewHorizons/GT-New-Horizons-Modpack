@@ -1,7 +1,7 @@
 {
 "name": "loot_jungle",
 "loot_rules": [
-	{"level": 0, "type": "FOOD", "each": true, "quantity": 5, "loot": [
+	{"level": 0, "loot_pools": [{"type": "FOOD", "each": true, "quantity": 5}, {"type": "ARMOUR", "each": true, "quantity": 3}], "loot": [
         	{"data": {"name": "harvestcraft:mangojellyItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
         	{"data": {"name": "harvestcraft:orangejellyItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
         	{"data": {"name": "harvestcraft:papayajellyItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
@@ -30,7 +30,7 @@
 
       ]
     },
-	{"level": 2, "type": "FOOD", "each": true, "quantity": 6, "loot": [
+	{"level": 2, "loot_pools": [{"type": "FOOD", "each": true, "quantity": 5}, {"type": "ARMOUR", "each": true, "quantity": 3}], "loot": [
         	{"data": {"name": "harvestcraft:porksausageItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
         	{"data": {"name": "harvestcraft:raspberrytrifleItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
         	{"data": {"name": "harvestcraft:sausageItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
@@ -44,7 +44,7 @@
         	{"data": {"name": "harvestcraft:pickeledonionsItem", "meta": 0, "min": 1, "max": 3}, "weight": 10}
     ]
     },
-    {"level": 1, "type": "FOOD", "each": true, "quantity": 6, "loot": [
+    {"level": 1, "loot_pools": [{"type": "FOOD", "each": true, "quantity": 5}, {"type": "ARMOUR", "each": true, "quantity": 4}], "loot": [
         	{"data": {"name": "harvestcraft:creamcookieItem", "meta": 0, "min": 1, "max": 3}, "weight": 20},
         	{"data": {"name": "harvestcraft:creamofavocadosoupItem", "meta": 0, "min": 1, "max": 3}, "weight": 20},
         	{"data": {"name": "harvestcraft:creamedbroccolisoupItem", "meta": 0, "min": 1, "max": 3}, "weight": 20},
@@ -53,7 +53,7 @@
         	{"data": {"name": "harvestcraft:coconutcreamItem", "meta": 0, "min": 1, "max": 3}, "weight": 20}
       ]
     },
-	{"level": 3, "type": "FOOD", "each": true, "quantity": 6, "loot": [
+	{"level": 3, "loot_pools": [{"type": "FOOD", "each": true, "quantity": 6}, {"type": "ARMOUR", "each": true, "quantity": 4}], "loot": [
         	{"data": {"name": "harvestcraft:chickensandwichItem", "meta": 0, "min": 1, "max": 3}, "weight": 20},
         	{"data": {"name": "harvestcraft:fishsandwichItem", "meta": 0, "min": 1, "max": 3}, "weight": 20},
         	{"data": {"name": "harvestcraft:leafychickensandwichItem", "meta": 0, "min": 1, "max": 3}, "weight": 20},
@@ -69,7 +69,7 @@
     ]
     },
     {
-	"level": 4, "type": "FOOD", "each": true, "quantity": 6, "loot": [
+	"level": 4, "loot_pools": [{"type": "FOOD", "each": true, "quantity": 6}, {"type": "ARMOUR", "each": true, "quantity": 4}], "loot": [
         	{"data": {"name": "harvestcraft:beetburgerItem", "meta": 0, "min": 1, "max": 3}, "weight": 20},
         	{"data": {"name": "harvestcraft:baconmushroomburgerItem", "meta": 0, "min": 1, "max": 3}, "weight": 20},
         	{"data": {"name": "harvestcraft:deluxecheeseburgerItem", "meta": 0, "min": 1, "max": 3}, "weight": 20},
