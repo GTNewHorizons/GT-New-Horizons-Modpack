@@ -2,7 +2,7 @@
 	"name": "loot_blocks",
 	"loot_rules": [
 
-	{"level": [0, 1, 2, 3, 4], "type": "BLOCKS", "each": true, "quantity": 5, "loot": [
+	{"level": [0, 1, 2, 3, 4], "loot_pools": [{"type": "BLOCKS", "each": true, "quantity": 5}, {"type": "TOOLS", "each": true, "quantity": 2}], "loot": [
 		{"data": {"name": "chisel:hempcrete", "meta": 14, "min": 48, "max": 64}, "weight": 10},
 		{"data": {"name": "minecraft:redstone_lamp", "meta": 0, "min": 8, "max": 24}, "weight": 10},
 		{"data": {"name": "chisel:sveltstone", "meta": 0, "min": 48, "max": 64}, "weight": 10},
@@ -21,7 +21,7 @@
 		{"data": {"name": "Ztones:tile.bittBlock", "meta": 0, "min": 48, "max": 64}, "weight": 10},
 		{"data": {"name": "Ztones:tile.tankBlock", "meta": 0, "min": 48, "max": 64}, "weight": 10},
 		{"data": {"name": "Ztones:tile.zestBlock", "meta": 0, "min": 48, "max": 64}, "weight": 10},
-		{"data": {"name": "Ztones:tile.auroraBlock", "meta": 0, "min": 48, "max": 64}, "weight": 70},
+		{"data": {"name": "Ztones:tile.auroraBlock", "meta": 0, "min": 48, "max": 64}, "weight": 50},
 		{"data": {"name": "etfuturum:smooth_stone", "meta": 0, "min": 48, "max": 64}, "weight": 10},
 		{"data": {"name": "etfuturum:light_blue_bed", "meta": 0, "min": 1, "max": 2}, "weight": 10},
 		{"data": {"name": "etfuturum:sapling", "meta": 0, "min": 1, "max": 2}, "weight": 10},
