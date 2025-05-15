@@ -1,7 +1,7 @@
 {
 "name": "loot_swamp",
 "loot_rules": [
-	{"level": 0, "type": "FOOD", "each": true, "quantity": 5, "loot": [
+	{"level": 0, "loot_pools": [{"type": "FOOD", "each": true, "quantity": 5}, {"type": "ARMOUR", "each": true, "quantity": 3}], "loot": [
         	{"data": {"name": "harvestcraft:anchovyrawItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
         	{"data": {"name": "harvestcraft:bassrawItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
         	{"data": {"name": "harvestcraft:herringrawItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
@@ -41,7 +41,7 @@
 
       ]
     },
-	{"level": 1, "type": "FOOD", "each": true, "quantity": 6, "loot": [
+	{"level": 1, "loot_pools": [{"type": "FOOD", "each": true, "quantity": 5}, {"type": "ARMOUR", "each": true, "quantity": 3}], "loot": [
         	{"data": {"name": "harvestcraft:anchovyrawItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
         	{"data": {"name": "harvestcraft:bassrawItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
         	{"data": {"name": "harvestcraft:herringrawItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
@@ -80,7 +80,7 @@
         	{"data": {"name": "berriespp:foodGoldfish", "meta": 1, "min": 1, "max": 3}, "weight": 10}
     ]
     },
-    {"level": 2, "type": "FOOD", "each": true, "quantity": 6, "loot": [
+    {"level": 2, "loot_pools": [{"type": "FOOD", "each": true, "quantity": 6}, {"type": "ARMOUR", "each": true, "quantity": 3}], "loot": [
         	{"data": {"name": "harvestcraft:sushiItem", "meta": 0, "min": 1, "max": 3}, "weight": 20},
         	{"data": {"name": "harvestcraft:leafyfishsandwichItem", "meta": 0, "min": 1, "max": 3}, "weight": 20},
         	{"data": {"name": "harvestcraft:fishtacoItem", "meta": 0, "min": 1, "max": 3}, "weight": 20},
@@ -92,7 +92,7 @@
         	{"data": {"name": "harvestcraft:californiarollItem", "meta": 0, "min": 1, "max": 3}, "weight": 20}
       ]
     },
-	{"level": 3, "type": "FOOD", "each": true, "quantity": 6, "loot": [
+	{"level": 3, "loot_pools": [{"type": "FOOD", "each": true, "quantity": 6}, {"type": "ARMOUR", "each": true, "quantity": 4}], "loot": [
         	{"data": {"name": "harvestcraft:sushiItem", "meta": 0, "min": 1, "max": 3}, "weight": 20},
         	{"data": {"name": "harvestcraft:leafyfishsandwichItem", "meta": 0, "min": 1, "max": 3}, "weight": 20},
         	{"data": {"name": "harvestcraft:fishtacoItem", "meta": 0, "min": 1, "max": 3}, "weight": 20},
@@ -105,7 +105,7 @@
     ]
     },
     {
-	"level": 4, "type": "FOOD", "each": true, "quantity": 6, "loot": [
+	"level": 4, "loot_pools": [{"type": "FOOD", "each": true, "quantity": 6}, {"type": "ARMOUR", "each": true, "quantity": 4}], "loot": [
         	{"data": {"name": "harvestcraft:sushiItem", "meta": 0, "min": 1, "max": 3}, "weight": 20},
         	{"data": {"name": "harvestcraft:leafyfishsandwichItem", "meta": 0, "min": 1, "max": 3}, "weight": 20},
         	{"data": {"name": "harvestcraft:fishtacoItem", "meta": 0, "min": 1, "max": 3}, "weight": 20},
