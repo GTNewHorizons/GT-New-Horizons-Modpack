@@ -1,0 +1,6 @@
+{
+  "name": "builtin:loot",
+  "inherit": [
+    "loot_all"
+  ]
+}

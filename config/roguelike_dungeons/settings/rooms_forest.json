@@ -1,0 +1,30 @@
+{
+	"name": "rooms_forest",
+	"levels": {
+		"0": {
+			"rooms": [
+				{"mode": "secret", "type": "SMITH"},
+				{"mode": "single", "type": "CAKE"},
+				{"mode": "single", "type": "FIRE"},
+				{"mode": "secret", "type": "BEDROOM"},
+				{"mode": "random", "type": "BRICK", "weight" : 4},
+				{"mode": "random", "type": "CORNER", "weight" : 2}
+			],
+			"secrets" : [
+				{"type" : "BEDROOM", "num" : 1},
+				{"type" : "SMITH", "num" : 1}
+		]
+		},
+		"1": {
+			"rooms": [
+				{"mode": "single", "type": "MUSIC"},
+				{"mode": "single", "type": "PIT"},
+				{"mode": "single", "type": "MESS"},
+				{"mode": "single", "type": "LAB"},
+				{"mode": "random", "type": "CORNER", "weight" : 10},
+				{"mode": "random", "type": "BRICK", "weight" : 3}
+		
+			]
+		}
+	}
+}

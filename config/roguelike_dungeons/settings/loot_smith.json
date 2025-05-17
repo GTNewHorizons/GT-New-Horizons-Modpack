@@ -1,0 +1,16 @@
+{
+	"name": "loot_smith",
+	"loot_rules": [
+
+	{"level": [0, 1, 2, 3, 4], "type": "SMITH", "each": true, "quantity": 1, "loot": [
+		{"data": {"name": "minecraft:bucket", "meta": 0}}
+
+      ]
+    },
+	{"level": [0, 1, 2, 3, 4], "type": "SMITH", "each": true, "quantity": 1, "loot": [
+		{"data": {"name": "minecraft:iron_sword", "meta": 0, "nbt" : "{ench:[0:{id:20s,lvl:2s}],display:{Name:\"Hero's Sword\"}}"}}
+
+      ]
+    }
+  ]
+}

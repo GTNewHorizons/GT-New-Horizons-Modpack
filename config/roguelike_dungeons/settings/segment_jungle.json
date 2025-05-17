@@ -1,0 +1,177 @@
+{
+	"name" : "segments_jungle",
+	"levels" : {
+		"0" : {
+			"segments" : {
+				"segments" : [
+					{
+						"type" : "SHELF",
+						"weight" : 2
+					},
+					{
+						"type" : "INSET",
+						"weight" : 2
+					},
+					{
+						"type" : "JUNGLE",
+						"weight" : 5
+					},
+					{
+						"type" : "SKULL",
+						"weight" : 1
+					},
+					{
+						"type" : "ARROW",
+						"weight" : 1
+					},
+					{
+						"type" : "CELL",
+						"weight" : 1
+					},
+					{
+						"type" : "SILVERFISH",
+						"weight" : 1
+					},
+					{
+						"type" : "CHEST",
+						"weight" : 1
+					},
+					{
+						"type" : "SPAWNER",
+						"weight" : 2
+					}
+				],
+				"arch" : "MOSSYARCH"
+			}
+		},
+		"1" : {
+			"segments" : {
+				"segments" : [
+					{
+						"type" : "SHELF",
+						"weight" : 2
+					},
+					{
+						"type" : "INSET",
+						"weight" : 2
+					},
+					{
+						"type" : "JUNGLE",
+						"weight" : 5
+					},
+					{
+						"type" : "SKULL",
+						"weight" : 1
+					},
+					{
+						"type" : "ARROW",
+						"weight" : 1
+					},
+					{
+						"type" : "CELL",
+						"weight" : 1
+					},
+					{
+						"type" : "SILVERFISH",
+						"weight" : 1
+					},
+					{
+						"type" : "CHEST",
+						"weight" : 1
+					},
+					{
+						"type" : "SPAWNER",
+						"weight" : 2
+					}
+				],
+				"arch" : "MOSSYARCH"
+			}
+		},
+		"2" : {
+			"segments" : {
+				"segments" : [
+					{
+						"type" : "SHELF",
+						"weight" : 2
+					},
+					{
+						"type" : "INSET",
+						"weight" : 2
+					},
+					{
+						"type" : "JUNGLE",
+						"weight" : 5
+					},
+					{
+						"type" : "SKULL",
+						"weight" : 1
+					},
+					{
+						"type" : "ARROW",
+						"weight" : 1
+					},
+					{
+						"type" : "CELL",
+						"weight" : 1
+					},
+					{
+						"type" : "SILVERFISH",
+						"weight" : 1
+					},
+					{
+						"type" : "CHEST",
+						"weight" : 1
+					},
+					{
+						"type" : "SPAWNER",
+						"weight" : 2
+					}
+				],
+				"arch" : "MOSSYARCH"
+			}
+		},
+		"3" : {
+			"segments" : {
+				"segments" : [
+					{
+						"type" : "SHELF",
+						"weight" : 2
+					},
+					{
+						"type" : "INSET",
+						"weight" : 2
+					},
+					{
+						"type" : "JUNGLE",
+						"weight" : 5
+					},
+					{
+						"type" : "SKULL",
+						"weight" : 1
+					},
+					{
+						"type" : "ARROW",
+						"weight" : 1
+					},
+					{
+						"type" : "CELL",
+						"weight" : 1
+					},
+					{
+						"type" : "SILVERFISH",
+						"weight" : 1
+					},
+					{
+						"type" : "CHEST",
+						"weight" : 1
+					},
+					{
+						"type" : "SPAWNER",
+						"weight" : 2
+					}
+				],
+				"arch" : "MOSSYARCH"
+			}
+		}
+	}
+}

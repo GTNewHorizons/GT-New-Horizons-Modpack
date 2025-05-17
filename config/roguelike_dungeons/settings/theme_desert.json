@@ -1,0 +1,31 @@
+{
+    "name": "theme_desert",
+    "levels": {
+        "0": {
+            "theme": {
+                "base": "PYRAMID"
+            }
+        },
+        "1": {
+            "theme": {
+                "base": "SANDSTONE"
+            }
+        },
+             "2": {
+            "theme": {
+                "base": "SANDSTONERED"
+            }
+        },
+             "3": {
+            "theme": {
+                "base": "CRYPT"
+            }
+        },
+     
+        "4": {
+            "theme": {
+                "base": "NETHER"
+            }
+        }
+    }
+}
