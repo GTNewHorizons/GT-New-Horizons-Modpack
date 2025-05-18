@@ -2,29 +2,24 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 1995,
-      "type:1": 1
-    },
-    "1:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 238
+      "questIDLow:4": 424
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Pipe some liquid Instrumentum into this bad boy and you can repair anything with Vanilla durability!\n\n§b§3[note]Doesn\u0027t work on Blood Magic potions, TiC tools, GT tools and tools with charge. Every point of Instrumentum equals eight points of durability.[/note]",
+      "desc:8": "The peak of all Incenses.\n\n§dPurpura§r will increase your Incense from §92400§r to §93500§r.",
       "globalShare:1": 0,
       "icon:10": {
-        "Count:3": 1,
-        "Damage:2": 0,
+        "Count:3": 62,
+        "Damage:2": 4,
         "OreDict:8": "",
-        "id:8": "ThaumicTinkerer:repairer"
+        "id:8": "AWWayofTime:bloodMagicIncenseItem"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Infinite Durability",
+      "name:8": "Jeremy Fragrance",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -35,40 +30,27 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": -3945860769927051470,
-  "questIDLow:4": -7017820600167427633,
+  "questIDHigh:4": 1595245673746680403,
+  "questIDLow:4": -8687505330958936569,
   "rewards:9": {
     "0:10": {
       "choices:9": {
         "0:10": {
-          "Count:3": 32,
-          "Damage:2": 26305,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
-        },
-        "1:10": {
           "Count:3": 1,
-          "Damage:2": 9,
+          "Damage:2": 17,
           "OreDict:8": "",
           "id:8": "enhancedlootbags:lootbag"
+        },
+        "1:10": {
+          "Count:3": 16,
+          "Damage:2": 3,
+          "OreDict:8": "",
+          "id:8": "AWWayofTime:bloodMagicIncenseItem"
         }
       },
       "ignoreDisabled:1": 0,
       "index:3": 0,
       "rewardID:8": "bq_standard:choice"
-    },
-    "1:10": {
-      "ignoreDisabled:1": 0,
-      "index:3": 1,
-      "rewardID:8": "bq_standard:item",
-      "rewards:9": {
-        "0:10": {
-          "Count:3": 5,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinDarkWizardI"
-        }
-      }
     }
   },
   "tasks:9": {
@@ -82,9 +64,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 0,
+          "Damage:2": 4,
           "OreDict:8": "",
-          "id:8": "ThaumicTinkerer:repairer"
+          "id:8": "AWWayofTime:bloodMagicIncenseItem"
         }
       },
       "taskID:8": "bq_standard:retrieval"

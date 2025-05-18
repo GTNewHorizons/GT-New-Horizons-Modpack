@@ -1,0 +1,102 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 164
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 407
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "The forefather of the 1.12.2 Incense Altar.\n\nThe bonuses it gives are mostly similar, but the way it works is completely different.\nEach incense is meant to be tiered one after another. Currently you can only use §eWood Ash§r and §4Byrrus (Red)§r.\n\nWhite smoke will come out when there is an incense in the crucible, and the crucible will light up when it finds a player to increase the incense value of.\nOnce the player has an incense value greater than 0, their sacrificial knife will get super-charged, allowing the player to completely sacrifice all of their hearts but one.\n\nPutting §eWood Ash§r in the crucible will increase the incense value from §90§r to §9400§r.\n§4Byrrus§r increases it from §9400§r to §9800§r. It cannot get you from §90§r to §a§9800§r alone.\n\nThe LP you get from self-sacrifice will get a boost depending on your §9Incense Value§r.\n\n§dLP§r \u003d §d200LP§r * §cHeartSacrificed§r * §bIncenseModifier§r\n\n§bIncenseModifier§r \u003d §9IncenseValue§r * 0.001",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 64,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "AWWayofTime:blockCrucible"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Incense Crucible",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -3100080418564847617,
+  "questIDLow:4": -5009088933424523272,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 16,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        },
+        "1:10": {
+          "Count:3": 64,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "AWWayofTime:bloodMagicIncenseItem"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "AWWayofTime:blockCrucible"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "AWWayofTime:bloodMagicIncenseItem"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "OreDict:8": "",
+          "id:8": "AWWayofTime:bloodMagicIncenseItem"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}
