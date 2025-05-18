@@ -1,0 +1,29 @@
+{
+  "ores": [
+    "ExtraUtilities:greenscreen:0:100",
+    "ExtraUtilities:greenscreen:1:100",
+    "ExtraUtilities:greenscreen:2:100",
+    "ExtraUtilities:greenscreen:3:100",
+    "ExtraUtilities:greenscreen:4:100",
+    "ExtraUtilities:greenscreen:5:100",
+    "ExtraUtilities:greenscreen:6:100",
+    "ExtraUtilities:greenscreen:7:100",
+    "ExtraUtilities:greenscreen:8:100",
+    "ExtraUtilities:greenscreen:9:100",
+    "ExtraUtilities:greenscreen:10:100",
+    "ExtraUtilities:greenscreen:11:100",
+    "ExtraUtilities:greenscreen:12:100",
+    "ExtraUtilities:greenscreen:13:100",
+    "ExtraUtilities:greenscreen:14:100",
+    "ExtraUtilities:greenscreen:15:100",
+    "Ztones:tile.laveBlock:12:50",
+    "TwilightForest:tile.CastleBrick:3:50"
+  ],
+  "filler": [
+    "ExtraUtilities:etherealglass:2:200"
+  ],
+  "radius": 22,
+  "cost": 5000200,
+  "focusItem": "universalsingularities:universal.extraUtilities.singularity",
+  "fillerChance": 20
+}
