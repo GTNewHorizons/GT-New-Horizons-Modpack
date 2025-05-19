@@ -1,0 +1,15 @@
+{
+	"name": "dungeon_mesa",
+  	"criteria": {"biomeTypes": ["MESA"]},
+  	"inherit": [
+		"loot_all",
+		"loot_mesa",
+		"loot_mesa_temp",
+		"theme_mesa",
+		"tower_mesa",
+		"rooms_mesa",
+		"segments_mesa",
+		"size"
+
+  ]
+}
