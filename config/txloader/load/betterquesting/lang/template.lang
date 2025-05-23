@@ -5782,9 +5782,13 @@ betterquesting.quest.e-VLKN-JSRK3V2cmDbm6rw.desc=You've created a chest that all
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAEg.name=Forestry and Multifarms
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAEg.desc=Automated Farms, tree breeding, and more.....
 
-# Quest: Forestry core block
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACQQ.name=Forestry core block
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACQQ.desc=This sturdy casing is the basis for almost all machines in Forestry, essentially being the forestry equivalent of a machine casing.
+# Quest: THE RAINMAKER
+betterquesting.quest.3N-sNy89SWawxdvYsFWk5A.name=THE RAINMAKER
+betterquesting.quest.3N-sNy89SWawxdvYsFWk5A.desc=The Rainmaker is a Forestry block capable of stopping/producing rain & creating thunderstorms. %n%nThe Rainmaker has no GUI, but can be right clicked with §9§f§93 §fdifferent capsules.%n%n§4Iodine Capsule: Produces Rain%n%nPhosphoric Iodine Capsule: Produces a Thunderstorm%n%nDissipation Charge: Stops Rain%n%n§fThe Rainmaker requires around ~30 seconds after activation for the §o§9rain §fand§9 thunderstorm §fto start. §fThe dissipation charge will stop the rain after a few seconds until the next activation.
+
+# Quest: Forestry Core Block
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACQQ.name=Forestry Core Block
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACQQ.desc=This sturdy casing is the basis for almost all machines in Forestry, essentially being the Forestry equivalent of a machine casing.
 
 # Quest: The Carpenter
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACQg.name=The Carpenter
@@ -6045,6 +6049,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALOA.desc=You can get Orange by combining
 # Quest: Golden Raspberry
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALOQ.name=Golden Raspberry
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALOQ.desc=You can get Golden Raspberry by combining Raspberry and Orange.%n%n[warn]Fastest Maturity Get![/warn]%n%n[note]That probably took forever, huh? BTW, it probably would've been faster to make more multifarms or farming stations instead.[/note]%n%n[note]Also, you still gotta create the ultimate hybrid, too.[/note]
+
+# Quest: Forestry Core Block #2
+betterquesting.quest.X54R4jrtQu2rI9j4eHC7lw.name=Forestry Core Block #2
+betterquesting.quest.X54R4jrtQu2rI9j4eHC7lw.desc=The upgraded casing for Forestry, used in multiple recipes for endgame Gendustry items and the Rainmaker. 
 
 
 ## Quest Line: Multiblock Goals
@@ -6542,7 +6550,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7A.desc=The Industrial Centrifuge is th
 
 # Quest: Bask in the currents
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7Q.name=Bask in the currents
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7Q.desc=The best source for hundreds of thousands of glass for...something? I dunno, think of something interesting and impress me!%n%nThe "effective" voltage for the High Current Arc furnace is one tier lower than the energy hatch. For example, with an MV tier energy hatch, it will do LV tier arc furnace recipes.%n%nThis machine also does plasma arc furnace recipes.%n%n[note]This multi is LuV and requires Thorium 232.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7Q.desc=The best source for hundreds of thousands of glass for...something? I dunno, think of something interesting and impress me!%n%nThis machine also does plasma arc furnace recipes.%n%n[note]This multi is LuV and requires Thorium 232.[/note]
 
 # Quest: Bate Bate Chocolate
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7g.name=Bate Bate Chocolate
