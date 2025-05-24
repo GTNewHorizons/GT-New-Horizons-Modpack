@@ -8,6 +8,6 @@
     "OREDICT:oreTengamRaw:1"
   ],
   "radius": 16,
-  "cost": 1000000001,
+  "cost": 2147483647,
   "focusItem": "gregtech:gt.blockmachines:14009"
 }
