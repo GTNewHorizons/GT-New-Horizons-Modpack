@@ -100,7 +100,7 @@
           "id:8": "dreamcraft:item.TwilightCrystal"
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:optional_retrieval"
     },
     "1:10": {
       "biome:3": -1,
