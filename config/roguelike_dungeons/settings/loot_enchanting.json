@@ -5,8 +5,8 @@
 		{"data": {"name": "enchanted_book", "nbt" : "{StoredEnchantments:[0:{id:35s,lvl:1s}]}"}, "weight": 8},
 		{"data": {"name": "enchanted_book", "nbt" : "{StoredEnchantments:[0:{id:35s,lvl:2s}]}"}, "weight": 4},
 		{"data": {"name": "enchanted_book", "nbt" : "{StoredEnchantments:[0:{id:35s,lvl:3s}]}"}, "weight": 1},
-		{"data": {"name": "minecraft:expirience_bottle", "meta": 0, "min": 12, "max": 34}, "weight": 10},
-		{"data": {"name": "minecraft:dye", "meta": 4, "min": 32, "max": 40}, "weight": 10}
+		{"data": {"name": "Automagy:phialExtra", "meta": 0, "min": 1, "max": 4}, "weight": 6},
+		{"data": {"name": "minecraft:dye", "meta": 4, "min": 20, "max": 32}, "weight": 8}
       ]
     },
 		
