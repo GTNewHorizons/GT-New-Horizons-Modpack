@@ -1,14 +1,12 @@
 {
 	"name": "loot_enchanting",
 	"loot_rules": [
-	{"level": [0, 1, 2, 3, 4], "type": "ENCHANTING", "each": true, "quantity": 3, "loot": [
+	{"level": [0, 1, 2, 3, 4], "loot_pools": [{"type": "ENCHANTING", "each": true, "quantity": 3}, {"type": "TOOLS", "each": true, "quantity": 1}], "loot": [
 		{"data": {"name": "enchanted_book", "nbt" : "{StoredEnchantments:[0:{id:35s,lvl:1s}]}"}, "weight": 8},
 		{"data": {"name": "enchanted_book", "nbt" : "{StoredEnchantments:[0:{id:35s,lvl:2s}]}"}, "weight": 4},
 		{"data": {"name": "enchanted_book", "nbt" : "{StoredEnchantments:[0:{id:35s,lvl:3s}]}"}, "weight": 1},
 		{"data": {"name": "minecraft:expirience_bottle", "meta": 0, "min": 12, "max": 34}, "weight": 10},
 		{"data": {"name": "minecraft:dye", "meta": 4, "min": 32, "max": 40}, "weight": 10}
-
-
       ]
     },
 		
@@ -17,7 +15,7 @@
       ]
     },
 		
-	{"level": 0, "type": "ENCHANTING", "each": true, "quantity": 3, "loot": [
+	{"level": 0, "loot_pools": [{"type": "ENCHANTING", "each": true, "quantity": 3}, {"type": "TOOLS", "each": true, "quantity": 1}], "loot": [
 		{"data": {"name": "enchanted_book", "nbt" : "{StoredEnchantments:[0:{id:0s,lvl:1s}]}"}, "weight": 1},
 		{"data": {"name": "enchanted_book", "nbt" : "{StoredEnchantments:[0:{id:17s,lvl:2s}]}"}, "weight": 1},
 		{"data": {"name": "enchanted_book", "nbt" : "{StoredEnchantments:[0:{id:19s,lvl:1s}]}"}, "weight": 1},
@@ -27,7 +25,7 @@
 
       ]
     },
-    {"level": 1, "type": "ENCHANTING", "each": true, "quantity": 3, "loot": [
+    {"level": 1, "loot_pools": [{"type": "ENCHANTING", "each": true, "quantity": 3}, {"type": "TOOLS", "each": true, "quantity": 1}], "loot": [
 		{"data": {"name": "enchanted_book", "nbt" : "{StoredEnchantments:[0:{id:197s,lvl:1s}]}"}, "weight": 1},
 		{"data": {"name": "enchanted_book", "nbt" : "{StoredEnchantments:[0:{id:126s,lvl:1s}]}"}, "weight": 1},
 		{"data": {"name": "enchanted_book", "nbt" : "{StoredEnchantments:[0:{id:100s,lvl:1s}]}"}, "weight": 1},
@@ -36,7 +34,7 @@
 		{"data": {"name": "enchanted_book", "nbt" : "{StoredEnchantments:[0:{id:6s,lvl:1s}]}"}, "weight": 1}
     ]
     },
-    {"level": 2, "type": "ENCHANTING", "each": true, "quantity": 3, "loot": [
+    {"level": 2, "loot_pools": [{"type": "ENCHANTING", "each": true, "quantity": 3}, {"type": "TOOLS", "each": true, "quantity": 1}], "loot": [
 		{"data": {"name": "enchanted_book", "nbt" : "{StoredEnchantments:[0:{id:48s,lvl:3s},1:{id:33s,lvl:1s}]}"}, "weight": 1},
 		{"data": {"name": "enchanted_book", "nbt" : "{StoredEnchantments:[0:{id:34s,lvl:3s}]}"}, "weight": 1},
 		{"data": {"name": "enchanted_book", "nbt" : "{StoredEnchantments:[0:{id:3s,lvl:3s}]}"}, "weight": 1},
@@ -45,7 +43,7 @@
 		{"data": {"name": "enchanted_book", "nbt" : "{StoredEnchantments:[0:{id:101s,lvl:2s}]}"}, "weight": 1}
       ]
     },
-    {"level": 3, "type": "ENCHANTING", "each": true, "quantity": 3, "loot": [
+    {"level": 3, "loot_pools": [{"type": "ENCHANTING", "each": true, "quantity": 3}, {"type": "TOOLS", "each": true, "quantity": 1}], "loot": [
 		{"data": {"name": "enchanted_book", "nbt" : "{StoredEnchantments:[0:{id:21s,lvl:3s}]}"}, "weight": 1},
 		{"data": {"name": "enchanted_book", "nbt" : "{StoredEnchantments:[0:{id:16s,lvl:4s}]}"}, "weight": 1},
 		{"data": {"name": "enchanted_book", "nbt" : "{StoredEnchantments:[0:{id:4s,lvl:4s}]}"}, "weight": 1},
@@ -54,7 +52,7 @@
 		{"data": {"name": "enchanted_book", "nbt" : "{StoredEnchantments:[0:{id:18s,lvl:4s},1:{id:48s,lvl:4s},2:{id:100s,lvl:3s}]}"}, "weight": 1}
     ]
     },
-    {"level": 4, "type": "ENCHANTING", "each": true, "quantity": 3, "loot": [
+    {"level": 4, "loot_pools": [{"type": "ENCHANTING", "each": true, "quantity": 3}, {"type": "TOOLS", "each": true, "quantity": 1}], "loot": [
 		{"data": {"name": "enchanted_book", "nbt" : "{StoredEnchantments:[0:{id:127s,lvl:5s},1:{id:129s,lvl:5s}]}"}, "weight": 1},
 		{"data": {"name": "enchanted_book", "nbt" : "{StoredEnchantments:[0:{id:211s,lvl:2s},1:{id:48s,lvl:3s},2:{id:9s,lvl:1s}]}"}, "weight": 1},
 		{"data": {"name": "enchanted_book", "nbt" : "{StoredEnchantments:[0:{id:16s,lvl:6s}]}"}, "weight": 1},
