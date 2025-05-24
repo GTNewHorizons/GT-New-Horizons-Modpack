@@ -1,0 +1,26 @@
+{
+  "ores": [
+    "ExtraBees:hive:0:40",
+    "ExtraBees:hive:1:40",
+    "Forestry:beehives:1:40",
+    "ExtraBees:hive:3:40",
+    "Forestry:beehives:4:40",
+    "Forestry:beehives:3:40",
+    "Forestry:beehives:2:30",
+    "Forestry:beehives:7:30",
+    "Forestry:beehives:6:30",
+    "ExtraBees:hive:2:25",
+    "MagicBees:hive:2:20",
+    "MagicBees:hive:0:20",
+    "MagicBees:hive:1:20",
+    "BiomesOPlenty:hive:1:95",
+    "etfuturum:honey_block:0:100"
+  ],
+  "filler": [
+    "harvestcraft:beehive:0:80"
+  ],
+  "radius": 7,
+  "cost": 500666,
+  "focusItem": "MagicBees:item.frenziedFrame",
+  "fillerChance": 20
+}

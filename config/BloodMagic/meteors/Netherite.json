@@ -1,0 +1,20 @@
+{
+  "ores": [
+    "Railcraft:brick.nether:2:100",
+    "minecraft:nether_brick:0:80",
+    "etfuturum:red_netherbrick:1:50",
+    "etfuturum:red_netherbrick:0:50",
+    "etfuturum:soul_soil:0:50",
+    "minecraft:soul_sand:0:50",
+    "miscutils:blockCompressedObsidian:11:20",
+    "miscutils:blockCompressedObsidian:12:10",
+    "miscutils:blockCompressedObsidian:13:5"
+  ],
+  "filler": [
+    "minecraft:netherrack:0:200"
+  ],
+  "radius": 22,
+  "cost": 9876543,
+  "focusItem": "etfuturum:netherite_scrap",
+  "fillerChance": 20
+}
