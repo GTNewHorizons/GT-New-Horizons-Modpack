@@ -1,0 +1,137 @@
+{
+  "stone": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "steam",
+        "stream": false
+      }
+    ]
+  },
+  "steam": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "",
+        "stream": false
+      }
+    ]
+  },
+  "lv": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "",
+        "stream": false
+      }
+    ]
+  },
+  "mv": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "",
+        "stream": false
+      }
+    ]
+  },
+  "hv": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "",
+        "stream": false
+      }
+    ]
+  },
+  "ev": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "",
+        "stream": false
+      }
+    ]
+  },
+  "iv": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "",
+        "stream": false
+      }
+    ]
+  },
+  "luv": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "",
+        "stream": false
+      }
+    ]
+  },
+  "zpm": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "",
+        "stream": false
+      }
+    ]
+  },
+  "uv": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "",
+        "stream": false
+      }
+    ]
+  },
+  "uhv": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "",
+        "stream": false
+      }
+    ]
+  },
+  "uev": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "",
+        "stream": false
+      }
+    ]
+  },
+  "uiv": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "",
+        "stream": false
+      }
+    ]
+  },
+  "umv": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "",
+        "stream": false
+      }
+    ]
+  },
+  "stargate": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "",
+        "stream": false
+      }
+    ]
+  }
+}
