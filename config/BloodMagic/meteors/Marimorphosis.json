@@ -1,0 +1,19 @@
+{
+  "ores": [
+    "Botania:biomeStoneA:2:100",
+    "Botania:biomeStoneA:3:100",
+    "Botania:biomeStoneA:0:100",
+    "Botania:biomeStoneA:1:100",
+    "Botania:biomeStoneA:4:100",
+    "Botania:biomeStoneA:5:100",
+    "Botania:biomeStoneA:6:100",
+    "Botania:biomeStoneA:7:100"
+  ],
+  "filler": [
+    "BiomesOPlenty:mud:1:200"
+  ],
+  "radius": 22,
+  "cost": 600000,
+  "focusItem": "BloodArsenal:amorphic_catalyst",
+  "fillerChance": 20
+}

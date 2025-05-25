@@ -1,0 +1,16 @@
+{
+  "ores": [
+    "minecraft:ice:0:90",
+    "minecraft:packed_ice:0:85",
+    "BiomesOPlenty:hardIce:0:80",
+    "etfuturum:blue_ice:0:75",
+    "minecraft:snow:0:50"
+  ],
+  "filler": [
+    "etfuturum:magma:0:100"
+  ],
+  "radius": 20,
+  "cost": 275000,
+  "focusItem": "etfuturum:blue_ice",
+  "fillerChance": 20
+}
