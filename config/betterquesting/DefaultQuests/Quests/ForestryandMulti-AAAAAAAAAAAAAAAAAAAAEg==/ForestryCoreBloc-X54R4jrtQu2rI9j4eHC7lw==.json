@@ -1,31 +1,25 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 1162181130482500484,
-      "questIDLow:4": -8199803816494517045
-    },
-    "1:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 1493
+      "questIDLow:4": 577
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The best source for hundreds of thousands of glass for...something? I dunno, think of something interesting and impress me!\n\nThis machine also does plasma arc furnace recipes.\n\n[note]This multi is LuV and requires Thorium 232.[/note]",
-      "globalShare:1": 1,
+      "desc:8": "The upgraded casing for Forestry, used in multiple recipes for endgame Gendustry items and the Rainmaker. ",
+      "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 862,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.blockmachines"
+        "id:8": "Forestry:hardenedMachine"
       },
-      "isGlobal:1": 0,
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Bask in the currents",
-      "partySingleReward:1": 0,
+      "name:8": "Forestry Core Block #2",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -36,8 +30,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 2029,
+  "questIDHigh:4": 6889964143272346349,
+  "questIDLow:4": -6114805307354858601,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -46,7 +40,7 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 41,
+          "Damage:2": 19,
           "OreDict:8": "",
           "id:8": "enhancedlootbags:lootbag"
         }
@@ -64,15 +58,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 862,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
-        },
-        "1:10": {
-          "Count:3": 1,
-          "Damage:2": 3,
-          "OreDict:8": "",
-          "id:8": "miscutils:gtplusplus.blockcasings.4"
+          "id:8": "Forestry:hardenedMachine"
         }
       },
       "taskID:8": "bq_standard:retrieval"
