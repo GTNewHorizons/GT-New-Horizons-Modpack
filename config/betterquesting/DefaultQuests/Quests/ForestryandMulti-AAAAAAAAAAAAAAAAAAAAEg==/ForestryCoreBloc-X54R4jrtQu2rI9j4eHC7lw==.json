@@ -2,28 +2,26 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 634
+      "questIDLow:4": 577
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Trade three Fast Food lootbags to get a better one: Slow Food. (Since when is slow food better?)",
-      "globalShare:1": 1,
+      "desc:8": "The upgraded casing for Forestry, used in multiple recipes for endgame Gendustry items and the Rainmaker. ",
+      "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 29,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "enhancedlootbags:lootbag"
+        "id:8": "Forestry:hardenedMachine"
       },
-      "isGlobal:1": 0,
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Fast Food \u003e Slow Food Lootbag Trade",
-      "partySingleReward:1": 0,
+      "name:8": "Forestry Core Block #2",
       "questLogic:8": "AND",
-      "repeatTime:3": 0,
+      "repeatTime:3": -1,
       "repeat_relative:1": 1,
       "simultaneous:1": 0,
       "snd_complete:8": "random.levelup",
@@ -32,8 +30,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 678,
+  "questIDHigh:4": 6889964143272346349,
+  "questIDLow:4": -6114805307354858601,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -42,7 +40,7 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 29,
+          "Damage:2": 19,
           "OreDict:8": "",
           "id:8": "enhancedlootbags:lootbag"
         }
@@ -52,17 +50,17 @@
   "tasks:9": {
     "0:10": {
       "autoConsume:1": 0,
-      "consume:1": 1,
+      "consume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
+      "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 3,
-          "Damage:2": 28,
+          "Count:3": 1,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "enhancedlootbags:lootbag"
+          "id:8": "Forestry:hardenedMachine"
         }
       },
       "taskID:8": "bq_standard:retrieval"
