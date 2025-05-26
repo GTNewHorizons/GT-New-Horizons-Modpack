@@ -1926,7 +1926,6 @@
         <Loot Identifier="a068d666-06dd-4e4a-a11e-976afb2f5d54" ItemName="gregtech:gt.metaitem.01:32751" Amount="1" NBTTag="" Chance="25" ItemGroup="batbuff" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="49551538-9c72-4b77-b0c1-14111ec21b73" ItemName="minecraft:gold_block" Amount="1" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="be8bf162-1816-45e8-98cc-65907264e845" ItemName="TConstruct:oreBerries:3" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="105efb5f-0157-46fa-96d2-e31376d88c38" ItemName="gregtech:gt.metatool.01:40" Amount="1" NBTTag="{ench:[0:{lvl:1s,id:35s}],GT.ToolStats:{PrimaryMaterial:&quot;IronWood&quot;,MaxDamage:153600L,SecondaryMaterial:&quot;Wood&quot;}}" Chance="50" ItemGroup="" LimitedDropCount="4" RandomAmount="false"/>
         <Loot Identifier="25538e53-245f-46b1-b913-f0441f56c062" ItemName="gregtech:gt.blockmetal4:6" Amount="1" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="c0b8f184-7ab2-4228-ad15-94b5328fee61" ItemName="Ztones:cleanDirt" Amount="64" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="7d2c1dfb-9050-49e0-a4e8-c9db01dadac2" ItemName="Forestry:ffarm:3" Amount="1" NBTTag="{FarmBlock:0}" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
