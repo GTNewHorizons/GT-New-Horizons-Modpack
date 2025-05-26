@@ -125,6 +125,15 @@
       }
     ]
   },
+  "uxv": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "",
+        "stream": false
+      }
+    ]
+  },
   "stargate": {
     "category": "player",
     "sounds": [
