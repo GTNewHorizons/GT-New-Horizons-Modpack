@@ -223,9 +223,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIA.desc=After you found a way to move w
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIQ.name=§2§lTinker-Time
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIQ.desc=While using your flint tools is fun in terms of killing pigs and cows, they are not long-lasting and can't be repaired. Plus Infernals laugh at your attempts to kill them. You discovered how to craft tools that can be repaired and upgraded, but for that you definitely need a more advanced crafting technique.%n%nIf you have to use wood other than oak to make your tables, you can convert them to the default oak wood type to complete this quest.
 
-# Quest: Aluminini...um...?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIg.name=§2§lAluminini...um...?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIg.desc=However it is spelled, you will need it. You can find it in chunks of gravel on the surface.%n%nUse as little as possible and save the rest for when you get a macerator in Steam age, you'll get twice as much.%n%nIf you can't find any, you can get aluminum oreberries to plant from quest rewards, or you can buy them in the Coins tab.%n%nIf you get enough and fully process it, you can also get rutile for titanium out of it. Get a block of that, and you can grow the Titania crop so you can make more out of UUM. The no-rocket run starts here!
+# Quest: Zinc Gravel
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIg.name=§2§lZinc Gravel
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIg.desc=You can find it in chunks of gravel on the surface.%n%nUse as little as possible and save the rest for when you get a macerator in Steam age, you'll get twice as much.%n%nIf you can't find any, you can buy them in the Coins tab.%n%nIf you get enough and fully process it, you can also get gallium for gallium arsenide in LV age.
 
 # Quest: Making Bronze
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIw.name=§2§lMaking Bronze
@@ -421,7 +421,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKoA.desc=Want to clear out shrubbery but
 
 # Quest: Personally, I Prefer Pepsi™
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKoQ.name=§2§lPersonally, I Prefer Pepsi™
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKoQ.desc=You may have noticed that you can make more than just Charcoal in a Coke Oven, you can also make Coke.%n%nThe data below shows the burn time (BT), how long it takes in ticks - 20 ticks is 1 second - and how much creosote (Cr) you gain.%n%nCoal 1600BT + 1800t -> Coal Coke 3200BT + 500l Cr%nWood Log 300BT + 1800t -> Charcoal 1600BT + 250l Cr%nCactus 50BT + 500t -> Cactus Charcoal 400BT + 30l Cr%nCactus Charcoal 400BT + 500t -> Cactus Coke 800BT + 30l Cr%nSugar Cane 50BT + 500t -> Sugar Charcoal 400BT + 30l Cr%nSugar Charcoal 400BT + 500t   -> Sugar Coke 800BT +30l Cr%n%nYou want to save all of your Coke for making Steel in your Bricked Blast Furnace (BBF) later on. As for everything else, check NEI for the uses of each Coal variant, since there are many.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKoQ.desc=You may have noticed that you can make more than just Charcoal in a Coke Oven, you can also make Coke.%n%nYou want to save all of your Coke for making Steel in your Bricked Blast Furnace (BBF) later on. As for everything else, check NEI for the uses of each Coal variant, since there are many.%n%n[note]Once you get to the Steam Age, you can compress your Sugar and Cactus Coke for higher efficiency just like regular Coal and Charcoal.[/note]
 
 # Quest: More Food, More Hearts
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKsQ.name=§2§lMore Food, More Hearts
@@ -704,9 +704,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEZA.desc=Are your cobblestone or dirt ba
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEZQ.name=§3§lBarrel Upgrades Tier 2
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEZQ.desc=Are your upgraded cobblestone or dirt barrels full again? No problem, upgrade them some more!
 
-# Quest: Alumite
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEZg.name=§3§lAlumite
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEZg.desc=It's upgrade time again. You could in principle make alumite by mixing obsidian, steel and aluminium in the smeltery. But to get a much better yield, you can show you are a GregTech hero and search NEI for an alternate recipe using dusts. Alumite pickaxes are able to mine ardite in the Nether.%n%nLeave the rest of your Alumite as liquid in your smeltery, you'll want it to make the Tool Forge. You need 16 ingots in the smeltery to make 2 Large Plates.
+# Quest: Obzinite
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEZg.name=§3§lObzinite
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEZg.desc=It's upgrade time again. You could in principle make obzinite by mixing obsidian, steel and zinc in the smeltery. But to get a much better yield, you can show you are a GregTech hero and search NEI for an alternate recipe using dusts. Obzinite pickaxes are able to mine ardite in the Nether.%n%nLeave the rest of your Obzinite as liquid in your smeltery, you'll want it to make the Tool Forge. You need 16 ingots in the smeltery to make 2 Large Plates.
 
 # Quest: Reinforced X? Unbreakable
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEZw.name=§3§lReinforced X? Unbreakable
@@ -1221,10 +1221,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEQg.desc=Pumps can do more than pump oil
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEQw.name=§5§lDiamond Tanks... Ooo, Shiny
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEQw.desc=After you build a cutting machine you can make some diamond plates for your new 64,000L single block tank.
 
-# Quest: Firestone Ore/Dust
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE_w.name=§6§lFirestone Ore/Dust
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE_w.desc=Firestone ore is used to make some BC machines like the filler, and some other stuff. Unfortunately, it's in the nether...at the bottom of the lava ocean!%n%nHere are some tips for finding it:%n%n-Firestone only spawns in deep lava, at least 6 deep. It will only replace netherrack, so a fjord filled with soulsand won't have any. Can you think of ways to check the lava depth, and what's down there?%n-Alternatively, if you keep your head at just the correct height above the lava and at the correct angle, you'll be able to see underneath it - surely there must be a hovering jetpack?%n-...or just look for the biome when your cursor is over the JM map. Hell is the default one that has netherrack.%n%nFirestone can be mined with the GT miners, if you place it within horizontal range. Firestone ore and products will cause random fires to start nearby, so get it into a backpack quickly!
-
 # Quest: Ardite and Cobalt
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEaw.name=§5§lArdite and Cobalt
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEaw.desc=If you have some time you can look for cobalt and ardite in the Nether.%n%nYou've heard rumors of a special wood only found in another land, a forest of Twilight, that can make tools strong enough to mine them.%n%nRemember, you need an electric blast furnace to process these materials before you can make tools with them.
@@ -1726,10 +1722,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEOQ.desc=This Plate Bending Machine allo
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAERQ.name=§6§lDid You Run Low On Gold or Redstone?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAERQ.desc=Did you run low on redstone and/or gold? It's no problem with a glowstone flower farm. You can centrifuge glowstone dust to redstone and gold dust. Redstone is also a good source of chrome. You'll need tons of gold for HV, so it's a good idea to set this up before then.%n%n[note]There are actually a couple plants that produce glowstone, pick the one you like![/note]
 
-# Quest: Firestone Ore/Dust
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE_w.name=§6§lFirestone Ore/Dust
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE_w.desc=Firestone ore is used to make some BC machines like the filler, and some other stuff. Unfortunately, it's in the nether...at the bottom of the lava ocean!%n%nHere are some tips for finding it:%n%n-Firestone only spawns in deep lava, at least 6 deep. It will only replace netherrack, so a fjord filled with soulsand won't have any. Can you think of ways to check the lava depth, and what's down there?%n-Alternatively, if you keep your head at just the correct height above the lava and at the correct angle, you'll be able to see underneath it - surely there must be a hovering jetpack?%n-...or just look for the biome when your cursor is over the JM map. Hell is the default one that has netherrack.%n%nFirestone can be mined with the GT miners, if you place it within horizontal range. Firestone ore and products will cause random fires to start nearby, so get it into a backpack quickly!
-
 # Quest: Tier 2 (MV)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEfA.name=§6§lTier 2 (MV)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEfA.desc=The MV Machine Hull needs aluminium. You're also gonna need aluminium for every MV machine part, so keep that EBF truckin'.%n%nHere are some tips on where to start:%n- MV Electrolyzer makes getting aluminium easier.%n- MV Extruder makes parts cheaper.%n- MV Miner saves your time.%n%nHave you read the quest Safety First for details about mixing tiers?%nSending MV to an LV machine causes it to explode.%nSending MV voltage over LV cables causes them to melt, which causes fire that will likely cause the machines to blow up.%nAdditionally, recipes done in a tier higher than the original one (not ULV, ULV counts as LV) are overclocked (OC'd). The OC'd recipes use 4x power but complete 2x faster.
@@ -2013,7 +2005,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAog.desc=HV is about getting to the moon
 
 # Quest: I See Everything
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAow.name=§9§lI See Everything
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAow.desc=The inventory panel is an alternative to a PR or LP storage system. Just like PR, you have to connect every chest/barrel with an item conduit. In addition to that, you also have to install a "remote awareness" upgrade into every conduit side you want the panel to see.%n%nWell, they're all obsolete once you get AE2 though.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAow.desc=The inventory panel is an alternative to a PR or LP storage system. Just like PR, you have to connect every chest/barrel with an item conduit.%n%nIn addition to that, you also have to install a "Remote Awareness" upgrade into every conduit side you want the panel to see, and provide the panel with Nutrient Distillation which you make in The Vat.%n%nWell, they're all obsolete once you get AE2 though.%n
 
 # Quest: Soul Eater
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAApQ.name=§9§lSoul Eater
@@ -2285,7 +2277,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHFA.desc=To make PTFE, aka Teflon, you o
 
 # Quest: Chloroform
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHFQ.name=§9§lChloroform
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHFQ.desc=The next step is to mix methane and chlorine to make chloroform. Make sure you have your circuit set correctly.%n%nNow is probably a good time to look at stockpiling chlorine. Look for salt ores, or lapis veins. You can also make salt water with ghast tears. Better get started with IC2 crops, you'll need a lot of chlorine later!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHFQ.desc=The next step is to mix methane and chlorine to make chloroform. Make sure you have your circuit set correctly.%n%nNow is probably a good time to look at stockpiling chlorine. Look for salt ores, or lapis veins. You can also make salt water with ghast tears. Better get started with IC2 crops, you'll need a lot of chlorine later!%n%n[note]Lucky for you though, in this line we can recover all of our Chlorine.[/note]
 
 # Quest: Polytetrafluoroethylene
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHFg.name=§9§lPolytetrafluoroethylene
@@ -4430,7 +4422,7 @@ betterquesting.quest.k0ryGOkkSBOgYUcVY-J4rw.desc=Like its predecessor it can run
 
 # Quest: An Eye at the End of Time
 betterquesting.quest.kazCPEWoSmiZhR4bkHlEBQ.name=An Eye at the End of Time
-betterquesting.quest.kazCPEWoSmiZhR4bkHlEBQ.desc=So you have made yourself an Eternal DTPF or hopefully a few, and now it is time for the push to the next tier, UXV.%n%nIntroducing the final multiblock in the game, and by far the most expensive.%nIt introduces 4 new materials: Raw Stellar Plasma, White and Black Dwarf Matter and finally Universium.%n%nIt has 3 different tiered casings with 9 tiers each:%n%nSpacetime Compression Field Generator:%n- Determines the tier of the planet block that can be run and decreases the processing time by 3%% per tier.%n%nTime Dilation Field Generator:%n- Decreases recipe time by 50%% per tier, while decreasing the chance of a recipe succeeding by 9.25%% per tier.%n%nStabilisation Field Generator:%n- Increases the chance of a recipe succeeding by 5%% per tier, while decreasing the output of a recipe by 5%% per tier.%n%nLower tier Stabilisation Field Generators have a power output penalty.%n%nFinding the best setup of different casing tiers might be a hard task, so a calculator visualing all the drops and setups has been created: [url]https://docs.google.com/spreadsheets/d/15j30mNnFIWBhwpJGuDrKTfiHBXNEEqyvB_r7ztFWlyQ[/url]%n%n[note]Be sure to read the tooltip of the Eye of Harmony controller, it explains everything in detail! Depending on your GUI scale it might have multiple pages.[/note]
+betterquesting.quest.kazCPEWoSmiZhR4bkHlEBQ.desc=So you have made yourself an Eternal DTPF or hopefully a few, and now it is time for the push to the next tier, UXV.%n%nIntroducing the final multiblock in the game, and by far the most expensive.%nIt introduces 4 new materials: Raw Stellar Plasma, White and Black Dwarf Matter and finally Universium.%n%nIt has 3 different tiered casings with 9 tiers each:%n%nSpacetime Compression Field Generator:%n- Determines the tier of the planet block that can be run and decreases the processing time by 3%% per tier.%n%nTime Dilation Field Generator:%n- Decreases recipe time by 50%% per tier, while decreasing the chance of a recipe succeeding by 9.25%% per tier.%n%nStabilisation Field Generator:%n- Increases the chance of a recipe succeeding by 5%% per tier, while decreasing the output of a recipe by 5%% per tier.%n%nLower tier Stabilisation Field Generators have a power output penalty.%n%nFinding the best setup of different casing tiers might be a hard task, so a calculator visualing all the drops and setups has been created: [url]https://docs.google.com/spreadsheets/d/15j30mNnFIWBhwpJGuDrKTfiHBXNEEqyvB_r7ztFWlyQ[/url]%n%n[note]Be sure to read the tooltip of the Eye of Harmony controller, it explains everything in detail! Depending on your GUI scale it might have multiple pages.[/note]%n%n[note]Well... it explains mostly everything. The Eye of Harmony has an inbuilt pity system to make sure you don't lose your mind. Here's a quick rundown on how it operates:%n%n(All chances are decimals here)%nThere is a counter C that starts at the current recipe success chance P. If a recipe fails, (1-P)*P is added to C. If C reaches >= 1, the next roll is guaranteed to succeed and C resets to P. %nIf a recipe succeeds before C reaches >= 1, it resets in a similar manner.%nIf you switch recipes, C will be reset to P of the new recipe, even if the next roll would be a guarantee.%nThe guarantee can be cancelled out by overflow penalties as they apply after the pity does. However, they do not reset C, so the guarantee is shifted to the next recipe cycle.%nIf parallels are > 1, pity doesnt apply.[/note]%n
 
 # Quest: Storing Computation in the Cloud
 betterquesting.quest.lBuQcNYjQ8-YsMFqW6U1tQ.name=Storing Computation in the Cloud
@@ -4503,7 +4495,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKJQ.desc=Okay so if you actually want to
 
 # Quest: What, How?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKJg.name=What, How?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKJg.desc=You're not supposed to be here... I think you need to go outside and get some sunlight if you unlocked this legitimately...%n%nIn the meantime here's your reward, don't spend it all at once!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKJg.desc=Congratulations, with this final quest, you'll have beaten the hardest challenge in GregTech: New Horizons yet! %n%nThe whole GT:NH Team thanks you for your time spent on this modpack. You are now part of the top 0.5%% of our community!%n%nNow that you made one gate, take this second gate and link them together! (Unless you want to craft the second yourself of course).%n%nDon't hesitate to share your base in #screenshot-brag channel of our Discord server, claim your stargate role, and if you have any feedback on the endgame progression, we will gladly appreciate it!%n%nI guess now it's time for you to go outside, touch grass, or... continue onwards?
 
 # Quest: You Made It!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM4A.name=You Made It!
@@ -4512,6 +4504,14 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAM4A.desc=May Dreammaster have mercy on y
 # Quest: Fabricating Solar Systems... in Parallel
 betterquesting.quest.IGVryoMbRu28q08v4uwSuw.name=Fabricating Solar Systems... in Parallel
 betterquesting.quest.IGVryoMbRu28q08v4uwSuw.desc=As you've noticed, UXV components are extremely expensive compared to the amount of Universium you can currently produce.%n%nThe Astral Array Fabricator allows you to run EOH recipes in parallel. You can review the math in the second page of the tooltip.%n%nFor a direct answer, you can use this spreadsheet: [url]https://docs.google.com/spreadsheets/d/15j30mNnFIWBhwpJGuDrKTfiHBXNEEqyvB_r7ztFWlyQ[/url]%n%n[warn]Be aware that the EOH will use Raw Stellar Plasma instead of Hydrogen and Helium if you use Astral Arrays.[/warn]%n%n[note]Make sure you are generating enough power.[/note]
+
+# Quest: See You Next Time!
+betterquesting.quest.KNM9ICNAQIa8NaFoXwCC9g.name=See You Next Time!
+betterquesting.quest.KNM9ICNAQIa8NaFoXwCC9g.desc=Still want more? Consider doing another run! Maybe even with some restrictions if you want to spice it up a bit. Check the first quest chapter for some recommendations!%n%nThere's also roles to be earned for completing the pack two or even three times if you want an extra incentive.%n%n[note]If you are going for 100%% questbook completion, you can choose between this quest or 'The Factory Must Grow!', both are valid options.%nBe wary that choosing one will lock you out of the other though.[/note]
+
+# Quest: The Factory Must Grow!
+betterquesting.quest.OCv5OWo6Q9KDfqe1w0ET9w.name=The Factory Must Grow!
+betterquesting.quest.OCv5OWo6Q9KDfqe1w0ET9w.desc=A single stargate pair wasn't enough for you?%n%nWell then, time to build a network.%n%nWelcome to the post-stargate tier! %n%nNow that you successfully managed to make a stargate, what about crafting them in industrial quantities? Try to craft 5 pairs of gates in the least amount of time, then come in #screenshot-brag and post your time to see where your infrastructure stands in the community!%n%n[note]If you are going for 100%% questbook completion, you can choose between this quest or 'See You Next Time!', both are valid options.%nBe wary that choosing one will lock you out of the other though.%n%nEnjoy your round of Minesweeper![/note]%n
 
 # Quest: Assembling on Space Steroids
 betterquesting.quest.UVG21mYSQJex90gQWdkpIw.name=Assembling on Space Steroids
@@ -4951,6 +4951,10 @@ betterquesting.questline.bAal8kZ3R8eRTwaHgbYkKA.desc=Movement can be slow initia
 betterquesting.quest.-MexGhcYQ0OUrr5xgriDXQ.name=Indestructible Vessel
 betterquesting.quest.-MexGhcYQ0OUrr5xgriDXQ.desc=In light of your thaumaturgical research, you have come to the conclusion that Greatwood is, in fact, a great material for constructing a resilient boat. Utilizing this material to its fullest potential has allowed you to construct a boat that is slightly faster and will never break on collision.
 
+# Quest: Basic Flight Potion
+betterquesting.quest.4LY2S8QsSw-JdMGrF8FUsQ.name=Basic Flight Potion
+betterquesting.quest.4LY2S8QsSw-JdMGrF8FUsQ.desc=Tired of jetpacks? Want normal flight with no strings attached? Look no further!%n%nUsing your brand new MV Assembler and a Chicken Trophy, you can craft a basic Potion of Flight from Blood Magic, giving you 7 minutes of Creative flight with 8 uses before you have to make a new one.%n%n[note]Chicken Trophies are a rare drop from killing chickens.[/note]%n%n[note]Once you unlock Blood Magic, you can craft your own Flight Potion Flasks with a duration of up to 19 minutes, and refill them with any Filling Agent and Blood Orb in an Alchemic Chemistry set.[/note]%n
+
 # Quest: Relocator
 betterquesting.quest.8QSORTVOSOaUXC6mQurMgA.name=Relocator
 betterquesting.quest.8QSORTVOSOaUXC6mQurMgA.desc=The relocator allows for teleportation to previously marked locations, even between dimensions.%n%n[note]Uses quite a lot of power so a GraviChestPlate or other energy sources are recommended.[/note]
@@ -5121,15 +5125,15 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHwQ.desc=Elevators are great for fast tr
 
 # Quest: Better Boots with a little pizzazz
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI1A.name=Better Boots with a little pizzazz
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI1A.desc=Electric Boots of the Traveller grant you a 2%% Vis Discount along with all the benefits of the regular Boots of the Traveller.%n%nIn addition, they come with a wide variety of new features thanks to our amazing magic devs:%n%n- Configurable Jump Boost: You can choose between 0%%, 25%%, 50%%, 75%%, or a 100%% jump boost.%n%n- Configurable Speed Boost: Similar to the jump boost, you can adjust the speed boost percentage to your preference.%n%n- Flight Inertia: When toggled on, this feature cancels inertia while flying, allowing for precise movement even when traveling at high speeds.%n%n- Omnidirectional Movement: This toggle lets you decide whether your speed boost applies in all directions or only while running straight ahead.%n%n[note]None of these keybinds are set by default. The easiest way to configure them is to go into Options -> Controls, turn on the "Category" button, and type "Thaumic Boots." Then, assign keys for the features as needed.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI1A.desc=Electric Boots of the Traveller grant you a 2%% Vis Discount along with all the benefits of the regular Boots of the Traveller.%n%nIn addition, they come with a wide variety of new features thanks to our amazing magic devs:%n%n- Configurable Jump Boost: You can choose between 0%%, 25%%, 50%%, 75%%, or a 100%% jump boost.%n%n- Configurable Speed Boost: Similar to the jump boost, you can adjust the speed boost percentage to your preference.%n%n- Flight Inertia: When toggled on, this feature cancels inertia while flying, allowing for precise movement even when traveling at high speeds.%n%n- Omnidirectional Movement: This toggle lets you decide whether your speed boost applies in all directions or only while running straight ahead.%n%n[note]None of these keybinds are set by default. The easiest way to configure them is to go into Options -> Controls, turn on the "Category" button, and type "Thaumic Boots." Then, assign keys for the features as needed.[/note]%n%n[note]If you want to advance in the dark arts you can also make them voidwalker boots.[/note]
 
 # Quest: Walk all over you
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI1Q.name=Walk all over you
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI1Q.desc=Nanosuit Boots of the Traveller provide all the benefits of the Nanosuit, plus a massive speed boost, higher jump, and improved Vis Discount. These are the perfect boots for the master magical engineer.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI1Q.desc=Nanosuit Boots of the Traveller provide all the benefits of the Nanosuit, plus a massive speed boost, higher jump, and improved Vis Discount. These are the perfect boots for the master magical engineer.%n%n[note]If you want to advance in the dark arts you can also make them voidwalker boots.[/note]
 
 # Quest: Walking across the stars
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI1g.name=Walking across the stars
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI1g.desc=Quantum Boots of the Traveller, for when you really need to run as fast as the wind. Might cause you some problems standing still!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI1g.desc=Quantum Boots of the Traveller, for when you really need to run as fast as the wind. Might cause you some problems standing still!%n%n[note]If you want to advance in the dark arts you can also make them voidwalker boots.[/note]
 
 # Quest: Flying Like....Mary Poppins?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIDA.name=Flying Like....Mary Poppins?
@@ -5778,9 +5782,13 @@ betterquesting.quest.e-VLKN-JSRK3V2cmDbm6rw.desc=You've created a chest that all
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAEg.name=Forestry and Multifarms
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAEg.desc=Automated Farms, tree breeding, and more.....
 
-# Quest: Forestry core block
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACQQ.name=Forestry core block
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACQQ.desc=This sturdy casing is the basis for almost all machines in Forestry, essentially being the forestry equivalent of a machine casing.
+# Quest: THE RAINMAKER
+betterquesting.quest.3N-sNy89SWawxdvYsFWk5A.name=THE RAINMAKER
+betterquesting.quest.3N-sNy89SWawxdvYsFWk5A.desc=The Rainmaker is a Forestry block capable of stopping/producing rain & creating thunderstorms. %n%nThe Rainmaker has no GUI, but can be right clicked with §9§f§93 §fdifferent capsules.%n%n§4Iodine Capsule: Produces Rain%n%nPhosphoric Iodine Capsule: Produces a Thunderstorm%n%nDissipation Charge: Stops Rain%n%n§fThe Rainmaker requires around ~30 seconds after activation for the §o§9rain §fand§9 thunderstorm §fto start. §fThe dissipation charge will stop the rain after a few seconds until the next activation.
+
+# Quest: Forestry Core Block
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACQQ.name=Forestry Core Block
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACQQ.desc=This sturdy casing is the basis for almost all machines in Forestry, essentially being the Forestry equivalent of a machine casing.
 
 # Quest: The Carpenter
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACQg.name=The Carpenter
@@ -6041,6 +6049,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALOA.desc=You can get Orange by combining
 # Quest: Golden Raspberry
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALOQ.name=Golden Raspberry
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALOQ.desc=You can get Golden Raspberry by combining Raspberry and Orange.%n%n[warn]Fastest Maturity Get![/warn]%n%n[note]That probably took forever, huh? BTW, it probably would've been faster to make more multifarms or farming stations instead.[/note]%n%n[note]Also, you still gotta create the ultimate hybrid, too.[/note]
+
+# Quest: Forestry Core Block #2
+betterquesting.quest.X54R4jrtQu2rI9j4eHC7lw.name=Forestry Core Block #2
+betterquesting.quest.X54R4jrtQu2rI9j4eHC7lw.desc=The upgraded casing for Forestry, used in multiple recipes for endgame Gendustry items and the Rainmaker. 
 
 
 ## Quest Line: Multiblock Goals
@@ -6435,6 +6447,10 @@ betterquesting.quest.XKKP2E5ORG-ju42dSDd3sw.desc=In order to compress infinity c
 betterquesting.quest.Y1kiJC_kRGKkW7h3qOPI8A.name=Hundreds of Thousands of eV
 betterquesting.quest.Y1kiJC_kRGKkW7h3qOPI8A.desc=A Linear Accelerator (LINAC) can be used to boost the energy of your beam, provided the beam's particles are charged. You'll need to constantly provide it with coolant for it to run, otherwise you'll have maintenance issues every time it runs dry.%n%nOutput energy can be increased by increasing EU/t (scales with the cbrt) or increasing length (scales linearly). The latter also decreases focus, however.%n%nFocus in turn can be improved by using a better/lower temperature coolant (options listed on tooltip).%n%nNote that Amount remains unchanged.
 
+# Quest: Playing with Colors!
+betterquesting.quest.Z_jn8qzFQr6FWHzmt2i3Aw.name=§6§lPlaying with Colors!
+betterquesting.quest.Z_jn8qzFQr6FWHzmt2i3Aw.desc=Multiblock machines enforce input separation based on hatch color. Inputs from Input Busses and Input Hatches will only interact if they share the same color. Un-dyed inputs act as wildcards compatible with any color.%n%nColor can be applied using a Spray Can and removed with a Spray Can Solvent. An Infinite Spray Can becomes available later in progression.%n%n§6Now §2go §3have §4fun§5!!!
+
 # Quest: Don't Lose That Multiblock Miner!
 betterquesting.quest.b_Ll4zvSRfCMgmqiBa4Xkw.name=Don't Lose That Multiblock Miner!
 betterquesting.quest.b_Ll4zvSRfCMgmqiBa4Xkw.desc=It's easy to lose Ore Drilling Plants. You're a busy engineer, you know? You can't be bothered to remember trifling things like "where, in what galactic backwater did I last place my miner." You could do something boring like "write down the location of the miner" or "put up a sign with the miner's location in my ore processing area," but there's a better way.%n%nEnter the Metrics Transmitter Cover. This cover, when attached to a multiblock miner (or any GregTech machine), spawns in a GregTech Advanced Sensor Card paired to the host machine. This card, when inserted into a NuclearCraft Industrial Information Panel, will receive runtime information transmitted by the host machine, including its current location. Additionally, it returns the same information that its lower-tech sibling, the GregTech Sensor Kit, provides. Unlike the GregTech Sensor Kit, the Metrics Transmitter Cover §nworks interdimensionally and at any range without the need of range upgrades.§r In addition, since covers remain on machines when they are dismantled, the paired sensor card §nwill continue to work even if the host machine is relocated, and never needs to be recalibrated.§r This makes it perfect for the Ore Drilling Plant and Oil/Gas/Fluid Drilling Rig, which are deployed in the field and often have to be relocated.%n%nHowever, like always, there's a catch. If the Metrics Transmitter Cover is detached from its host machine, §nthe paired sensor card will be destroyed.§r Maybe you shouldn't be using a crowbar around sensitive electronics...
@@ -6534,7 +6550,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7A.desc=The Industrial Centrifuge is th
 
 # Quest: Bask in the currents
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7Q.name=Bask in the currents
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7Q.desc=The best source for hundreds of thousands of glass for...something? I dunno, think of something interesting and impress me!%n%nThe "effective" voltage for the High Current Arc furnace is one tier lower than the energy hatch. For example, with an MV tier energy hatch, it will do LV tier arc furnace recipes.%n%nThis machine also does plasma arc furnace recipes.%n%n[note]This multi is LuV and requires Thorium 232.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7Q.desc=The best source for hundreds of thousands of glass for...something? I dunno, think of something interesting and impress me!%n%nThis machine also does plasma arc furnace recipes.%n%n[note]This multi is LuV and requires Thorium 232.[/note]
 
 # Quest: Bate Bate Chocolate
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7g.name=Bate Bate Chocolate
@@ -7195,7 +7211,7 @@ betterquesting.quest.J2ok3rFLS7quyIlHPaN0FQ.desc=At UV you unlock the ability to
 
 # Quest: Balance is Everything
 betterquesting.quest.K0_-BjVuR3qh_GZt19SReQ.name=Balance is Everything
-betterquesting.quest.K0_-BjVuR3qh_GZt19SReQ.desc=You already transcended dimensions, but as your power demands spike to absurd levels, maybe it's time to transcend matter!%n%nUsing the unbreakable stability of Proto-Halkonite, harnessing the power of [warn]Chaos[/warn] becomes a reality. The Semi-Stable Antimatter Stabilization Sequencer introduces the concept of Semi-Stable Antimatter, created from Protomatter.%n%nBut it’s a cruel mistress... fail to manage it, and antimatter could void itself into nothingness.%n%nThe Semi-Stable Antimatter is produced in 1 second cycles, the amount generated is based on the total of antimatter currently stocked in its 16 Antimatter Hatches and consumes equal amounts of Proto Matter.%n%nThe average change in Antimatter is equal to (§3Antimatter Total§r)^§6§n0.5§r * N(§c§n0.2§r, 0.25), where N is a Gaussian Distribution, meaning the total antimatter change may be negative.%n%nThe Produced Antimatter is distributed between the 16 hatches, sampled from N(§c§n0.2§r, 1). This causes an imbalance between the hatches. To properly automate the antimatter production, it's vital to always re-balance the amount of antimatter in the hatches. At the end of each cycle, the lowest amount of antimatter present in hatches is recorded, and any hatch that contains more than the lowest amount loses half the difference!%n%nProper use of stabilization fluids can significantly reduce energy usage and boost production:%n%nIt consumes 10,000,000 + (§3Antimatter§r * 1000)^§2§n1.5§r EU/t passively%nMagnetic Stabilization Fluids can mitigate the passive instability and have it's §2exponent§e§r reduced:%nMolten Purified Tengam Exponent = §2§n1.35§r%nTachyon-Rich Fluid Exponent = §2§n1.2§r%n%nFor each cycle, the SSASS uses (§3Antimatter§r * 10000)^§5§n1.5§r EU%nBy regulating the gravity containment of the forge, this §5exponent§r can also be reduced:%nMolten Spacetime Exponent = §5§n1.45§r%nSpatially Enlarged Fluid Exponent = §5§n1.40§r%nMolten Eternity Exponent = §5§n1.35§r%n%nBy containing the antimatter more compactly, it is possible to generate larger gains per cycle. Containment Stabilization fluids alter the §6exponent§r in the production formula:%nMolten Shirabon Exponent = §6§n0,55§r%nMolthen MHDSCM Exponent = §6§n0,60§r%n%nBy inserting fluids with high energy potential, it's possible to alter antimatter's flow in chaos, making their randomness more favorable. Activation Stabilization Fluids alter the §cskew§r of the gaussian distribution, lowering the risks of negative changes in antimatter and favoring better gains.%nDepleted Naquadah Fuel Mk V skew = §c§n0.25§r%nDepleted Naquadah Fuel Mk VI skew = §c§n0.30§r
+betterquesting.quest.K0_-BjVuR3qh_GZt19SReQ.desc=You already transcended dimensions, but as your power demands spike to absurd levels, maybe it's time to transcend matter!%n%nUsing the unbreakable stability of Proto-Halkonite, harnessing the power of [warn]Chaos[/warn] becomes a reality. The  Semi-Stable Antimatter Stabilization Sequencer introduces the concept of Semi-Stable Antimatter, created from Protomatter.%n%nBut it’s a cruel mistress... fail to manage it, and antimatter could void itself into nothingness.%n%nThe Semi-Stable Antimatter is produced in 1 second cycles, the amount generated is based on the total of antimatter currently stocked in it's 16 Antimatter Hatches and consumes equal amounts of Proto Matter.%n%nEach cycle, the base production of antimatter per hatch is:%n(1/16)*§((§3Antimatter§§§r)^(0.5 + §6§nC§r).%nThen each hatch will pull a random number from a normal distribution of 0.2 + §b§nA §rand a variance of 1, multiplying the base production with it, meaning the total antimatter change may be negative.%n%nThis causes an imbalance between the hatches. To properly automate the antimatter production, it's vital to always re-balance the amount of antimatter in the hatches. At the end of each cycle, the lowest amount of antimatter present in hatches is recorded, and any hatch that contains more than the lowest amount loses half the difference!%n%nProper use of stabilization fluids can significantly reduce energy usage and boost production:%n%nIt consumes 10,000,000 + (§3Antimatter§r * 1000)^§ (1.5 - §2§nM§r§)) EU/t passively%nMagnetic Stabilization Fluids can mitigate the passive instability and have its §2exponent§e§r reduced:%nMolten Purified Tengam Exponent = §2§n0.1§r%nTachyon-Rich Fluid Exponent = §2§n0.2§r%nMolten MagMatter = §2§n0.3§r%n%nFor each cycle, the SSASS uses (§3Antimatter§r * 10000)^(1.5 - §5§nG§r) EU%nBy regulating the gravity containment of the forge, this §5exponent§r can also be reduced:%nMolten Spacetime Exponent = §5§n0.05§r%nSpatially Enlarged Fluid Exponent = §5§n0.10§r%nMolten Eternity Exponent = §5§n0.15§r%n%nBy containing the antimatter more compactly, it is possible to generate larger gains per cycle. Containment Stabilization fluids alter the §6exponent§r in the production formula:%nMolten Shirabon Exponent = §6§n0,05§r%nMolthen MHDSCM Exponent = §6§n0,10§r%n%nBy inserting fluids with high energy potential, it's possible to alter antimatter's flow in chaos, making their randomness more favorable. Activation Stabilization Fluids alter the §baverage§r of the gaussian distribution, lowering the risks of negative changes in antimatter and favoring better gains.%nDepleted Naquadah Fuel Mk V average = §c§%n§b§n0.05§r%nDepleted Naquadah Fuel Mk VI average = §c§n§b§n0.10§r
 
 # Quest: Naquadah Based Fuel MkVI
 betterquesting.quest.KHL_yx4XTKOtsHHZ60ZZpg.name=Naquadah Based Fuel MkVI
@@ -7235,7 +7251,7 @@ betterquesting.quest.X_rOgp6GRKiyGzwRV_p7GA.desc=Do you remember Niobium-Titaniu
 
 # Quest: Harnessing Chaos
 betterquesting.quest._O6stWM3RR-qJdcvs0i-Mw.name=Harnessing Chaos
-betterquesting.quest._O6stWM3RR-qJdcvs0i-Mw.desc=You’ve mastered antimatter production, but raw antimatter alone won't run your machines. To turn that potential into unparalleled power, it’s time to [warn]harness the chaos[/warn] itself!%n%n[quest]Introducing the Shielded Lagrangian Annihilation Matrix![/quest]%n%nThe SLAM creates raw energy by reacting the Semi-Stable Antimatter with normal matter in a controlled environment.%n%nEvery cycle, the generator will react all antimatter and matter in hatches instantly, converting it all into energy directly. The EU output is based on the equal amounts of antimatter and matter annihilated. Therefore, imbalance between the amounts will waste your precious energy.%n%nDepending on the matter used to annihilate, the antimatter amount gets an exponent applied to it, directly increasing the amount of energy produced from 1L of antimatter - this means the more you annihilate in one go, the more efficient it is!%n%nThe maximum EU for a cycle is limited by the capacity of all laser source hatches on the structure (limited to 64), even on wireless mode.%n%n[note]It can't output more than 9.22e18 EU in a cycle, or just below 43 16M UXV Laser Sources (If you're crazy enough for it)%n[/note]%n%nThe Formula and the exponents for each of the possible matters are:%n%nGenerated EU = (§3Antimatter§r^§6exponent§r) * 1,000,000,000%n%nMolten Copper - §61.00§r%nMolten UIV SC Base - §61.02§r%nMolten UMV SC Base - §61.03§r%nMolten Black Dwarf Matter - §61.04§r
+betterquesting.quest._O6stWM3RR-qJdcvs0i-Mw.desc=You’ve mastered antimatter production, but raw antimatter alone won't run your machines. To turn that potential into unparalleled power, it’s time to [warn]harness the chaos[/warn] itself!%n%n[quest]Introducing the Shielded Lagrangian Annihilation Matrix![/quest]%n%nThe SLAM creates raw energy by reacting the Semi-Stable Antimatter with normal matter in a controlled environment.%n%nEvery cycle, the generator will react all antimatter and matter in hatches instantly, converting it all into energy directly. The EU output is based on the equal amounts of antimatter and matter annihilated. Therefore, imbalance between the amounts will waste your precious energy.%n%nDepending on the matter used to annihilate, the antimatter amount gets an exponent applied to it, directly increasing the amount of energy produced from 1L of antimatter - this means the more you annihilate in one go, the more efficient it is!%n%nThe maximum EU for a cycle is limited by the capacity of all laser source hatches on the structure (limited to 64), even on wireless mode.%n%n[note]It can't output more than 9.22e18 EU in a cycle, or just below 43 16M UXV Laser Sources (If you're crazy enough for it)%n[/note]%n%nThe Formula and the exponents for each of the possible matters are:%n%nGenerated EU = (§3Antimatter§r^§6exponent§r) * 1,000,000,000%n%nMolten Copper - §61.00§r%nMolten Superconductor Base UIV - §61.02§r%nMolten Superconductor Base UMV - §61.03§r
 
 # Quest: Welcome to the Plasma Chain
 betterquesting.quest.bNiieqPgSFqwFpC2DZkj-g.name=Welcome to the Plasma Chain
@@ -7462,8 +7478,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALmw.desc=You shouldn't click on links fr
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALnA.name=Gotta Pump It Up
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALnA.desc=If you made it this far you may have already noticed that you cannot pour vanilla water into the dam. That’s what a HydroEnergy Pump is for. This multi-block exists in multiple tiers and will allow you to reach higher water levels (= more energy capacity). Provide the pump with vanilla water as input and pipe the fluid output into the dam. Then the dam will slowly fill up. If the dam is full or full for a pump’s voltage tier, it will void the water and energy.%n%nThat's all folks! Nothing too fancy here.%n%nIf you have any further questions, missing information or suggestions please do not hesitate to post on the official GT New Horizons Discord. Please add '@SinTh0r4s' to your post to make sure I’ll see it.
 
-# Quest: Let if flow, let it floww ...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALnQ.name=Let if flow, let it floww ...
+# Quest: Let it flow, let it floww ...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALnQ.name=Let it flow, let it floww ...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALnQ.desc=... can't hold it back anymore. It is time to collect the rewards of your hard work. Connect the fluid output hatch from the dam to the fluid input hatch of this turbine and finally enjoy the power! You can pause this multiblock if you cut the fluid input or use a machine controller. Oh, and you will get your water back in the fluid output hatch.%n%nCongratulations to making it this far! Enjoy your ginormous energy buffer!%n%nIf you have any further questions, missing information or suggestions please do not hesitate to post on the official GT New Horizons Discord. Please add '@SinTh0r4s' to your post to make sure I’ll see it.
 
 # Quest: Extremely Ultimate and Ultimately Extreme
@@ -10470,7 +10486,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIdg.desc=Never having to use a treetap a
 
 # Quest: Oil
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIdw.name=Oil
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIdw.desc=Finally, Black Gold. The Oil bee, with proper...encouragement...can take care of all your power and chemical needs for quite some time. An alternate bee, Distilled, provides slightly more oil but has a longer breeding chain. It is below the Magical bees. Breed them from Coal and Stickyresin.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIdw.desc=Finally, Black Gold. The Oil bee, with proper... encouragement... can take care of all your power and chemical needs for quite some time. An alternate bee, Oily, provides slightly more oil but has a longer breeding chain. It is below the Magical bees. Breed them from Coal and Stickyresin.
 
 # Quest: Coal
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIeA.name=Coal
@@ -11405,6 +11421,10 @@ betterquesting.quest.jvbdUzcgTfGX820wUPhxCQ.desc=The Remote Comparator makes it 
 # Quest: Tube Madness
 betterquesting.quest.xoH_knd-RV-22QEfLUtuDA.name=Tube Madness
 betterquesting.quest.xoH_knd-RV-22QEfLUtuDA.desc=So you want to move essentia from your Alchemical furnace to your warded Jars without getting it all gunked up with different essentia types?%n%nWell you came to the right place, with the use of buffered tubes and your handy wand you can move your essentia in tubes to fill all your jars without having to manually break and replace one jar at a time.%n%nTo create a simple setup place the buffered tubes in a main line from your Arcane Alembic with tubes coming out of the main buffered tube line. These standard tubes will then go directly into a warded jar. To get the essentia to flow correctly into the buffered tubes, shift-right-click the output side of the buffered tube with your wand untill it is red. This will change the band to a red band which will limit the suction of the Essentia.%n%nThe Essentia will be forced from the buffered tube to a normal tube then into your Warded jars. Chain your buffered tubes as needed untill all your Warded Jars will fit.%n§4%nNote: This system will get gunked up with essentia if any of your Warded Jars are full!%n%n§rIf you would like more information please check out the guide 'A Thaumaturge Guide to Laying Pipe' by xlstadal for more indepth Thaumcraft 4 Tube knowledge.%n%n§9§n[url]https://docs.google.com/document/d/1fMvJ5HbeOdy4UgBMe47cggis02idxWoMDgK81SgowEo[/url]§r
+
+# Quest: Infinite Durability
+betterquesting.quest.yT18iStZRzKem7FYnZoRzw.name=Infinite Durability
+betterquesting.quest.yT18iStZRzKem7FYnZoRzw.desc=Pipe some liquid Instrumentum into this bad boy and you can repair anything with Vanilla durability!%n%n§b§3[note]Doesn't work on Blood Magic potions, TiC tools, GT tools and tools with charge. Every point of Instrumentum equals eight points of durability.[/note]
 
 
 ## Quest Line: Adept Thaumaturgy
@@ -12496,6 +12516,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMxw.desc=Just try to dream of gold.
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAHA.name=Paying the Highest Price
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAHA.desc=When regular magic just won't cover it, pay demons to do it for you! The cost might scare some people... But no risk no fun!
 
+# Quest: Incense Crucible
+betterquesting.quest.1PpNSMRMR_-6fCQnguQX-A.name=Incense Crucible
+betterquesting.quest.1PpNSMRMR_-6fCQnguQX-A.desc=The forefather of the 1.12.2 Incense Altar.%n%nThe bonuses it gives are mostly similar, but the way it works is completely different.%nEach incense is meant to be tiered one after another. Currently you can only use §eWood Ash§r and §4Byrrus (Red)§r.%n%nWhite smoke will come out when there is an incense in the crucible, and the crucible will light up when it finds a player to increase the incense value of.%nOnce the player has an incense value greater than 0, their sacrificial knife will get super-charged, allowing the player to completely sacrifice all of their hearts but one.%n%nPutting §eWood Ash§r in the crucible will increase the incense value from §90§r to §9400§r.%n§4Byrrus§r increases it from §9400§r to §9800§r. It cannot get you from §90§r to §a§9800§r alone.%n%nThe LP you get from self-sacrifice will get a boost depending on your §9Incense Value§r.%n%n§dLP§r = §d200LP§r * §cHeartSacrificed§r * §bIncenseModifier§r%n%n§bIncenseModifier§r = §9IncenseValue§r * 0.001
+
 # Quest: Tier 2 Sigils
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA5A.name=Tier 2 Sigils
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA5A.desc=With Reinforced Slates, you can make new sigils.
@@ -12767,6 +12791,14 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJnA.desc=But why is it transparent?%n%n[
 # Quest: Ritual Dismantler
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJng.name=Ritual Dismantler
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJng.desc=Use this to quickly dismantle a ritual.
+
+# Quest: Jeremy Fragrance
+betterquesting.quest.FiNzfQEmSlOHb8fuC-FWBw.name=Jeremy Fragrance
+betterquesting.quest.FiNzfQEmSlOHb8fuC-FWBw.desc=The peak of all Incenses.%n%n§dPurpura§r will increase your Incense from §92400§r to §93500§r.
+
+# Quest: Smelling Even Better
+betterquesting.quest.MFGBdpO5TH6jRZXJSQistA.name=Smelling Even Better
+betterquesting.quest.MFGBdpO5TH6jRZXJSQistA.desc=§3Livens§r will increase your Incense from §9800§r to §91500§r.%n§aViridis§r will increase it even further from §91500§r to §92400§r.
 
 # Quest: Summon the Meteor!
 betterquesting.quest.s4B77B7FSamWlvHY8hfqqA.name=Summon the Meteor!
@@ -14074,6 +14106,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAERw.desc=If you found enough gold, you c
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEWw.name=Moron's Guide to Better Trees
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEWw.desc=Forestry trees have a variety of attributes. Once you get a tree with a useful attribute, you can breed that attribute into other tree species. This way you can get an ultimate tree that combines all the attributes you want - including the type of fruit! You can also extract the genes with Gendustry if you can make the machines.%n%n[warn]Please do your Forestry tree-breeding indoors or underground because butterflies cause lag.[/warn]%n%nKeep in mind that for quests, you will need to breed the species "pure", not a hybrid. You should probably save the crossbreeding until after you get all the good ones.%n%nFor faster tree breeding, enclose your trees so that butterflies cannot escape, and breed bees with better traits for area and pollination speed. There's also frames too if you can afford it. The sieve may also help if you want to do it more exactly if you can make an alveary. You need either bees or butterflies, trees won't pollinate each other.%n%nTrees have the following characteristics:%n§eSaplings/Fertility§r: chance of getting a sapling from a destroyed leaf. Good for making into biomass or other uses. Balsa, Gooseberry and Sweetgum are what you want.%n%nAllele     Drop Chance%nLowest   1%%%nLower    2.5%%%nLow       3.5%%%nAverage 5%%%nHigh      10%%%n%n[warn]Maturation/Matures[/warn]: the growth speed of a sapling into a tree. Important if you plan to cut it down right away for logs. Golden Raspberry is the fastest.%n%nAllele    Time%nSlowest  10%nSlower   7%nSlow      5%nAverage 4%nFast      3%nFaster   2%nFastest  ?%n%n§dHeight§r: controls how high the tree grows. Giant Sequoia is the best, though it may be a little §otoo§r large.%n%nAllele    Value%nSmallest  25%%%nSmaller   50%%%nSmall      75%%%nAverage 100%%%nLarge    125%%%nLarger   150%%%nLargest  175%%%nGigantic  BIG%n%n§bGirth§r: the width of your tree. Wider trees have more leaves and logs, but will also need more saplings to begin growing. All saplings must be the same species and girth. The sapling in the NW corner determines the stats of the new tree, and is where bone meal must be applied to mature the tree. The Giant Sequoia is best here too.%n%nAllele/Size%n1x1%n2x2%n3x3%n4x4%n%nYield: chances of getting a fruit from a destroyed leaf. Orchard Apple and Chili Pepper are the best here.%n%nAllele     Drop Chance%nLowest   2.5%%%nLower    5%%%nLow       10%%%nAverage 20%%%nHigh       30%%%nHigher    ?%%%n%n§6Sappiness§r: the amount of biomass a sapling produces in the Forestry Fermenter. You can boost the Fermenter's output by using honey or fruit juice. Blue Mahoe and Red Maple are the best. NEI doesn't show recipes for analyzed saplings, and probably hybrids too, in the fermenter.%n%nAllele  Forestry Biomass%nLowest   100mB%nLower    200mB%nLow       300mB%nAverage 400mB%nHigh       600mB%n%n[warn]Fireproof[/warn]: applies to the wood. Only the Coast and Giant Sequoia have this.%n%n§7Effect§r: not used in trees, so it's None for any.%n%nBelow is more information on some other parameters:%n%n§2Growth§r: Sipiri trees have Tropical instead of Light, can only be bred in a Biome with temperature 90%%-190%% and humidity 90%%-200%%, and can only grow in 120%%-190%% temp and 90%%-200%% humidity. All other trees just need light to grow.%n%n[note]Territory/Soil[/note]: all trees have Average, whatever that means. Probably something related to the below that never really got used.%n%n§eTolerates§r: if it can be planted on sand or not. Only Desert Acacia and Grandidier's Baobab have this. The trait is either Plains or Plains, Desert.%n%n§5Supports§r: what kind of fruits it can theoretically have. Determined by Species. Only fruits from families listed under this trait can be produced by the tree, regardless of what appears under the tree's Fruits trait. There are a number of trees from the Extra Trees mod that support all 4 types, but none from Forestry itself.%n%n§aFruit§r: determines what fruit or nut it produces. Each fruit/nut provides different advantages:%nPlum and Cherry Plum only produces 100L Fruit Juice, but have a 60%% chance of producing Mulch in the Fluid Extractor or Squeezer.%nPapaya produces 600L Fruit Juice, but only has a 10%% chance to produce Mulch.%nCoconuts produce 300L Seed Oil, but only have a 25%% chance to produce Mulch.%nUse a Forestry Multifarm so you don't have to break the leaf block to get the fruit/nut. Set it to Manual Orchard, and place everything first.%n%n§bFamily§r: Tells you what family of the fruit listed under the Fruits trait is: Pomes, Prunes, Nuts or Jungle.
 
+# Quest: Firestone Ore/Dust
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE_w.name=§6§lFirestone Ore/Dust
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE_w.desc=Firestone ore is used to make some BC machines like the filler, and some other stuff. Unfortunately, it's in the nether...at the bottom of the lava ocean!%n%nHere are some tips for finding it:%n%n-Firestone only spawns in deep lava, at least 6 deep. It will only replace netherrack, so a fjord filled with soulsand won't have any. Can you think of ways to check the lava depth, and what's down there?%n-Alternatively, if you keep your head at just the correct height above the lava and at the correct angle, you'll be able to see underneath it - surely there must be a hovering jetpack?%n-...or just look for the biome when your cursor is over the JM map. Hell is the default one that has netherrack.%n%nFirestone can be mined with the GT miners, if you place it within horizontal range. Firestone ore and products will cause random fires to start nearby, so get it into a backpack quickly!
+
 # Quest: Kinetic Power HV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEcQ.name=§9§lKinetic Power HV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEcQ.desc=The Kinetic Generator will transform mechanical energy into electricity. The EU output depends on the KU input. It is most commonly used together with a Kinetic Wind Generator or Kinetic Water Generator. The Kinetic Steam Generator only has one tier, so you should probably use a Steam Turbine instead.%n%nWhen placing a kinetic generator, any time, the "input" side is the side facing you. So you will place the kinetic generator, then the wind/water/steam gen, and then place a rotor inside. Power can be drawn from any side of the kinetic generator, up to the rated amount per side.%n%nWARNING: Breaking a kinetic generator improperly will not return the generator. Use a GT wrench, and right-click it. It should drop immediately. Try again if it just changed directions.
@@ -14180,7 +14216,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFWg.desc=The arcane lamp creates additio
 
 # Quest: Mallard Rust Smelly
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFiA.name=§b§lMallard Rust Smelly
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFiA.desc=Or is it Alloy Blast Smelter? Well, that makes more sense. This multiblock creates the higher tier alloys needed for more advanced multiblocks and your soldering needs. It directly smelts ingredients into liquids. You can even melt down metals like Tungsten faster too! Until you get better coils for your EBF at least.%n%n[note]Can only have one energy hatch.[/note]%n%n[note]Most of the multiblocks you can now make are optional, but quite powerful upgrades to your current singleblock setups. Not only do they provide more speed, they also have a bit of advanced functionality: you can also electrolyze materials without using cells or use a single multiblock for many different extruder shapes. They also act as cleanrooms where needed.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFiA.desc=Or is it Alloy Blast Smelter? Well, that makes more sense. This multiblock creates the higher tier alloys needed for more advanced multiblocks and your soldering needs. It directly smelts ingredients into liquids. You can even melt down metals like Tungsten faster too! Until you get better coils for your EBF at least.%n%n[note]Most of the multiblocks you can now make are optional, but quite powerful upgrades to your current singleblock setups. Not only do they provide more speed, they also have a bit of advanced functionality: you can also electrolyze materials without using cells or use a single multiblock for many different extruder shapes. They also act as cleanrooms where needed.[/note]
 
 # Quest: Shake That Booty...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjA.name=§9§lShake That Booty...
@@ -14368,7 +14404,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMeA.desc=Some turbine materials are not 
 
 # Quest: Gas Planets
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMiQ.name=Gas Planets
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMiQ.desc=You probably also want a good overview of what you can get with your Gas Siphon. So here we go:%n%n%nJupiter§r%n1 Hydrogen - 15000 L/s%n2 Helium - 500 L/s%n3 Nitrogen - 300 L/s%n4 Oxygen - 200 L/s%n%n§oSaturn§r%n1 Hydrogen - 18000 L/s%n2 Helium - 800 L/s%n3 Oxygen - 500 L/s%n4 Liquid Oxygen - 150 L/s%n%n§oUranus§r%n1 Deuterium - 5000 L/s%n2 Neon - 450 L/s%n3 Argon - 250 L/s%n4 Krypton - 100 L/s%n%n§oNeptune§r%n1 Tritium - 3000 L/s%n2 Helium-3 - 500 L/s%n3 Ammonia - 400 L/s%n4 Xenon - 350 L/s
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMiQ.desc=You probably also want a good overview of what you can get with your Planetary Gas Siphon, and the tiers of the gas giants. So here we go:%n%nJupiter (Tier 3)%n1 Hydrogen - 15000 L/s%n2 Helium - 500 L/s%n3 Nitrogen - 300 L/s%n4 Oxygen - 200 L/s%n%nSaturn (Tier 5)%n1 Hydrogen - 18000 L/s%n2 Helium - 800 L/s%n3 Oxygen - 500 L/s%n4 Liquid Oxygen - 150 L/s%n%nUranus (Tier 5)%n1 Deuterium - 5000 L/s%n2 Neon - 450 L/s%n3 Argon - 250 L/s%n4 Krypton - 100 L/s%n%nNeptune (Tier 6)%n1 Tritium - 3000 L/s%n2 Helium-3 - 500 L/s%n3 Ammonia - 400 L/s%n4 Xenon - 350 L/s
 
 # Quest: Hypogen Coil Upgrade
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkg.name=§6§lHypogen Coil Upgrade

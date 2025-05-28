@@ -1,0 +1,120 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2598
+    },
+    "1:10": {
+      "questIDHigh:4": 2941762189842727046,
+      "questIDLow:4": -4884820751170895114
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "A single stargate pair wasn\u0027t enough for you?\n\nWell then, time to build a network.\n\nWelcome to the post-stargate tier! \n\nNow that you successfully managed to make a stargate, what about crafting them in industrial quantities? Try to craft 5 pairs of gates in the least amount of time, then come in #screenshot-brag and post your time to see where your infrastructure stands in the community!\n\n[note]If you are going for 100% questbook completion, you can choose between this quest or \u0027See You Next Time!\u0027, both are valid options.\nBe wary that choosing one will lock you out of the other though.\n\nEnjoy your round of Minesweeper![/note]\n",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1145,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "The Factory Must Grow!",
+      "questLogic:8": "XOR",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "SECRET"
+    }
+  },
+  "questIDHigh:4": 4047602715113178066,
+  "questIDLow:4": -8971549008568708105,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "tectech:Eye of Harmony Renderer",
+          "tag:10": {
+            "display:10": {
+              "Name:8": "Greetings from the Celestial Council"
+            }
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "lootgames:ms_activator"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 80,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "SGCraft:stargateRing"
+        },
+        "1:10": {
+          "Count:3": 70,
+          "Damage:2": 1,
+          "OreDict:8": "",
+          "id:8": "SGCraft:stargateRing"
+        },
+        "2:10": {
+          "Count:3": 10,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "SGCraft:stargateBase"
+        },
+        "3:10": {
+          "Count:3": 10,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "SGCraft:rfPowerUnit"
+        },
+        "4:10": {
+          "Count:3": 10,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "SGCraft:sgIrisUpgrade"
+        },
+        "5:10": {
+          "Count:3": 10,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "SGCraft:sgChevronUpgrade"
+        },
+        "6:10": {
+          "Count:3": 10,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "SGCraft:stargateController"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -25,6 +25,15 @@ jobs:
               repo: context.repo.repo,
               name: 'Status: Stale'
             });
+
+            console.log('Reopening issue if necessary');
+            github.rest.issues.update({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open'
+            });
+
           } else {
             console.log(`Label ${labelToRemove} is not present, skipping`);
           }
