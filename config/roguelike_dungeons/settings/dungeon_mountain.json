@@ -4,12 +4,9 @@
   	"inherit": [
 		"loot_all",
 		"loot_mountain",
-		"loot_mountain_temp",
 		"theme_mountain",
 		"tower_mountain",
 		"rooms_mountain",
-		"segments_mountain",
-		"size"
-
+		"segments_mountain"
   ]
 }

@@ -4,12 +4,7 @@
   	"inherit": [
 		"loot_all",
 		"loot_forest",
-		"loot_forest_temp",
-		"theme_forest",
 		"tower_forest",
-		"rooms_forest",
-		"segments_forest",
-		"size"
-	
+		"rooms_forest"
   ]
 }

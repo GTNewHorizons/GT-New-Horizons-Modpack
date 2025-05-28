@@ -4,12 +4,10 @@
   	"inherit": [
 		"loot_all",
 		"loot_desert",
-		"loot_desert_temp",
 		"theme_desert",
 		"tower_desert",
 		"rooms_desert",
-		"segments_desert",
-		"size"
+		"segments_desert"
 	],
 	"levels" : {
 		"0" : {

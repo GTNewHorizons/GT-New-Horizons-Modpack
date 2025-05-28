@@ -1,0 +1,31 @@
+{
+  "name": "theme_mesa",
+  "levels": {
+    "0": {
+      "theme": {
+        "base": "ETHOTOWER"
+      }
+    },
+    "1": {
+      "theme": {
+        "base": "ETHOTOWER"
+      }
+    },
+    "2": {
+      "theme": {
+        "base": "CRYPT"
+      }
+    },
+    "3": {
+      "theme": {
+        "base": "CRYPT"
+      }
+    },
+
+    "4": {
+      "theme": {
+        "base": "NETHER"
+      }
+    }
+  }
+}
