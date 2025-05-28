@@ -10,6 +10,7 @@
     "minecraft:nether_brick:0:40",
     "etfuturum:red_netherbrick:1:10",
     "etfuturum:red_netherbrick:0:10",
+    "etfuturum:crying_obsidian:0:10",
     "etfuturum:ancient_debris:0:1"
   ],
   "filler": [
@@ -17,6 +18,6 @@
   ],
   "radius": 3,
   "cost": 6669666,
-  "focusItem": "ThaumicTinkerer:kamiResource:6",
+  "focusItem": "gregtech:gt.blockcasings4:7",
   "fillerChance": 90
 }
