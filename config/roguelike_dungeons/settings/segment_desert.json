@@ -1,0 +1,68 @@
+{
+	"name" : "segments_desert",
+	"levels" : {
+		"0" : {
+			"segments" : {
+				"segments" : [
+					{
+						"type" : "DOOR",
+						"weight" : 10
+					},
+					{
+						"type" : "ANKH",
+						"weight" : 5
+					},
+					{
+						"type" : "SKULL",
+						"weight" : 2
+					},
+					{
+						"type" : "TOMB",
+						"weight" : 1
+					}
+				],
+				"arch" : "SQUAREARCH"
+			}
+		},
+		"1" : {
+			"segments" : {
+				"segments" : [
+					{
+						"type" : "DOOR",
+						"weight" : 10
+					},
+					{
+						"type" : "SPAWNER",
+						"weight" : 1
+					},
+					{
+						"type" : "INSET",
+						"weight" : 5
+					},
+					{
+						"type" : "CHEST",
+						"weight" : 1
+					},
+					{
+						"type" : "ANKH",
+						"weight" : 1
+					},
+					{
+						"type" : "SKULL",
+						"weight" : 2
+					},
+					{
+						"type" : "TOMB",
+						"weight" : 1
+					},
+					{
+						"type" : "SHELF",
+						"weight" : 5
+					}
+				],
+				"arch" : "SQUAREARCH"
+			}
+		}
+	}
+
+}

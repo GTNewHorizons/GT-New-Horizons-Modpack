@@ -1,0 +1,25 @@
+{
+	"name": "dungeon_jungle",
+  	"criteria": {"biomeTypes": ["JUNGLE"]},
+  	"inherit": [
+		"loot_all",
+		"loot_jungle",
+		"theme_jungle",
+		"tower_jungle",
+		"segments_jungle"
+  ],
+	"levels" : {
+		"0" : {
+			"diff" : 3
+		},
+		"1" : {
+			"diff" : 3
+		},
+		"2" : {
+			"diff" : 3
+		},
+		"3" : {
+			"diff" : 3
+		}
+	}
+}

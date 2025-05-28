@@ -1,0 +1,12 @@
+{
+	"name": "dungeon_swamp",
+  	"criteria": {"biomeTypes": ["SWAMP"]},
+  	"inherit": [
+		"loot_all",
+		"loot_swamp",
+		"theme_swamp",
+		"tower_swamp",
+		"rooms_swamp",
+		"segments_swamp"
+  ]
+}

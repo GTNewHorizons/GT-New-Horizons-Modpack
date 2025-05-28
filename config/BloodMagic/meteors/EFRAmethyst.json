@@ -1,0 +1,19 @@
+{
+  "ores": [
+    "etfuturum:amethyst_block:0:95",
+    "etfuturum:calcite:0:90",
+    "etfuturum:deepslate:0:80",
+    "etfuturum:blackstone:0:80",
+    "etfuturum:bone:0:40",
+    "etfuturum:gilded_blackstone:0:20",
+    "BiomesOPlenty:gemOre:0:25",
+    "minecraft:monster_egg:1:10"
+  ],
+  "filler": [
+    "etfuturum:tuff:0:200"
+  ],
+  "radius": 22,
+  "cost": 234567,
+  "focusItem": "etfuturum:amethyst_cluster_2:6",
+  "fillerChance": 20
+}
