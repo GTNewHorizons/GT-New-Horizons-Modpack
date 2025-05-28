@@ -1,0 +1,7 @@
+{
+	"name": "tower_ice",
+		"tower": {
+		"type": "BUNKER",
+		"theme": {"base": "GREY"}
+	}
+}

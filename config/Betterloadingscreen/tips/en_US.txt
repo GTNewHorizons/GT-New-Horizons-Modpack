@@ -1,5 +1,5 @@
 #Tips for the loading screen
-#Thanks to 0lafe, boubou19, chochem, interestingusernam3, glowredman, GTNH-Afx237v7, leagris, LewisSaber, Nvidiot, Regian24, richardhendricks, yukieiji and others for tip suggestions
+#Thanks to 0lafe, boubou19, chochem, interestingusernam3, glowredman, GTNH-Afx237v7, leagris, LewisSaber, Nvidiot, Regian24, richardhendricks, yukieiji, FijiAura and others for tip suggestions
 #
 #Maximal characters for a tip: 77 (more can go out of the screen)
 #The line below, including the "#" are 77 chars
@@ -15,6 +15,7 @@ Adding water to an empty but hot Boiler will make a loud bang!
 Avoid Eldritch Obelisks!
 You can bind the questbook to a key to save you from using the item
 Pam's Gardens can be picked up with right-click
+Don't make the LV Extruder without checking the recipes' voltage!
 Placing a Garden makes it spread
 Water Gardens grow on water
 Battlegear slots are convenient for holding weapons
@@ -31,10 +32,12 @@ The Bending Machine makes plates more efficiently
 Multiblocks can share walls
 You can't use the front side of machines for input and output
 Disable a machine with a Soft Mallet if it cannot finish a recipe
+Villagers periodically "shed" emeralds.
 Forestry Worktables are your friend
 Try the Midnight Theme for the questbook
 Try the Realistic Sky resourcepack
 Literally flint and steel!
+To go faster without sprinting, walk diagonally for about a 40% increase
 Tinker's Tools can levelup: more modifiers and mining level bonus!
 Farm Glowflowers for Glowstone
 Making Steel armour? Check out the Composite Chestplate
@@ -45,6 +48,7 @@ Loss on uninsulated cables is twice as big as on insulated ones
 Power requirements are based solely on the recipes
 A machine draws electricity from its internal buffer first
 Tinker's Faucets can pour fluids and also gasses(!) into containers
+Peaceful mode doesn't restore hunger.
 Beware of pollution!
 Found a crash or bug? Please report it on GitHub
 Tinker's Smeltery does not double ores
@@ -67,6 +71,7 @@ Read the fine questbook, it explains many mechanics
 You can bookmark items with NEI ("a" by default)
 It's NEI, not JEI. Use it frequently.
 Your pick is not ready
+1.7.10's Life Support!
 Put the "Mine" back in Minecraft
 This pack is pushing my mental capacity - thcv
 Noooooooooooooooo! (after cleanroom explosion) - moronwmachinegun
@@ -138,7 +143,6 @@ If it's too tedious you're doing it wrong
 Do you also watch your oven while baking food?
 There's always something else you can do while waiting
 Use F3 + S to reload the sound if it's gone
-Life's all about opening issues, not closing them - Rongmario
 Batteries can be charged and discharged in the same slot
 3D-printed Lave 12 is the future - Sampsa
 Don't hold machines in your hotbar when playing with cables
@@ -164,3 +168,4 @@ We had the name before nintendo
 has polished andesite, 10/10 modpack - S_hach23
 The Item Dislocator is available sooner than you might think!
 Please, refrain from eating optical fiber cable
+Natgas is the fuel of speedrunners! Try it :) ~ Pxx500
