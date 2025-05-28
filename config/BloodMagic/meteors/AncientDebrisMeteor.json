@@ -15,8 +15,8 @@
   "filler": [
     "minecraft:netherrack:0:80"
   ],
-  "radius": 7,
+  "radius": 3,
   "cost": 6669666,
   "focusItem": "ThaumicTinkerer:kamiResource:6",
-  "fillerChance": 50
+  "fillerChance": 90
 }
