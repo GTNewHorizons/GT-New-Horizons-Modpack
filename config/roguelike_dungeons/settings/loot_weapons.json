@@ -13,9 +13,9 @@
       ]
     },
 	{"level": 0, "type": "WEAPONS", "each": true, "quantity": 4, "loot": [
-		{"data": {"name": "TConstruct:SwordBlade", "meta": 0}, "weight": 1},
-		{"data": {"name": "TConstruct:SwordBlade", "meta": 3}, "weight": 1},
-		{"data": {"name": "TConstruct:SwordBlade", "meta": 4}, "weight": 1},
+		{"data": {"name": "TConstruct:swordBlade", "meta": 0}, "weight": 1},
+		{"data": {"name": "TConstruct:swordBlade", "meta": 3}, "weight": 1},
+		{"data": {"name": "TConstruct:swordBlade", "meta": 4}, "weight": 1},
 		{"data": {"name": "TConstruct:wideGuard", "meta": 0}, "weight": 1},
 		{"data": {"name": "TConstruct:wideGuard", "meta": 3}, "weight": 1},
 		{"data": {"name": "TConstruct:wideGuard", "meta": 4}, "weight": 1},
@@ -34,9 +34,9 @@
       ]
     },
 	{"level": 1, "type": "WEAPONS", "each": true, "quantity": 4, "loot": [
-		{"data": {"name": "TConstruct:SwordBlade", "meta": 14}, "weight": 1},
-		{"data": {"name": "TConstruct:SwordBlade", "meta": 18}, "weight": 1},
-		{"data": {"name": "TConstruct:SwordBlade", "meta": 2}, "weight": 1},
+		{"data": {"name": "TConstruct:swordBlade", "meta": 14}, "weight": 1},
+		{"data": {"name": "TConstruct:swordBlade", "meta": 18}, "weight": 1},
+		{"data": {"name": "TConstruct:swordBlade", "meta": 2}, "weight": 1},
 		{"data": {"name": "TConstruct:wideGuard", "meta": 14}, "weight": 1},
 		{"data": {"name": "TConstruct:wideGuard", "meta": 18}, "weight": 1},
 		{"data": {"name": "TConstruct:wideGuard", "meta": 2}, "weight": 1},
@@ -82,9 +82,9 @@
       ]
     },
 	{"level": 2, "type": "WEAPONS", "each": true, "quantity": 4, "loot": [
-		{"data": {"name": "TConstruct:SwordBlade", "meta": 6}, "weight": 1},
-		{"data": {"name": "TConstruct:SwordBlade", "meta": 202}, "weight": 1},
-		{"data": {"name": "TConstruct:SwordBlade", "meta": 1595}, "weight": 1},
+		{"data": {"name": "TConstruct:swordBlade", "meta": 6}, "weight": 1},
+		{"data": {"name": "TConstruct:swordBlade", "meta": 202}, "weight": 1},
+		{"data": {"name": "TConstruct:swordBlade", "meta": 1595}, "weight": 1},
 		{"data": {"name": "TConstruct:wideGuard", "meta": 6}, "weight": 1},
 		{"data": {"name": "TConstruct:wideGuard", "meta": 202}, "weight": 1},
 		{"data": {"name": "TConstruct:wideGuard", "meta": 1595}, "weight": 1},
@@ -118,9 +118,9 @@
     ]
     },
 	{"level": 3, "type": "WEAPONS", "each": true, "quantity": 4, "loot": [
-		{"data": {"name": "TConstruct:SwordBlade", "meta": 16}, "weight": 1},
-		{"data": {"name": "TConstruct:SwordBlade", "meta": 15}, "weight": 1},
-		{"data": {"name": "TConstruct:SwordBlade", "meta": 1647}, "weight": 1},
+		{"data": {"name": "TConstruct:swordBlade", "meta": 16}, "weight": 1},
+		{"data": {"name": "TConstruct:swordBlade", "meta": 15}, "weight": 1},
+		{"data": {"name": "TConstruct:swordBlade", "meta": 1647}, "weight": 1},
 		{"data": {"name": "TConstruct:fletching", "meta": 2}, "weight": 3},
 		{"data": {"name": "TConstruct:wideGuard", "meta": 16}, "weight": 1},
 		{"data": {"name": "TConstruct:wideGuard", "meta": 15}, "weight": 1},
@@ -143,9 +143,9 @@
       ]
     },
 	{"level": 4, "type": "WEAPONS", "each": true, "quantity": 4, "loot": [
-		{"data": {"name": "TConstruct:SwordBlade", "meta": 201}, "weight": 1},
-		{"data": {"name": "TConstruct:SwordBlade", "meta": 11}, "weight": 1},
-		{"data": {"name": "TConstruct:SwordBlade", "meta": 10}, "weight": 1},
+		{"data": {"name": "TConstruct:swordBlade", "meta": 201}, "weight": 1},
+		{"data": {"name": "TConstruct:swordBlade", "meta": 11}, "weight": 1},
+		{"data": {"name": "TConstruct:swordBlade", "meta": 10}, "weight": 1},
 		{"data": {"name": "TConstruct:wideGuard", "meta": 201}, "weight": 1},
 		{"data": {"name": "TConstruct:wideGuard", "meta": 11}, "weight": 1},
 		{"data": {"name": "TConstruct:wideGuard", "meta": 10}, "weight": 1},

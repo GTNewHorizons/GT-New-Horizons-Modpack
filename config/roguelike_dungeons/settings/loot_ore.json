@@ -41,7 +41,7 @@
         {"data": {"name": "minecraft:dye", "meta": 4, "min": 4, "max": 10}, "weight": 15},
         {"data": {"name": "gregtech:gt.metaitem.01", "meta": 11308, "min": 4, "max": 6}, "weight": 15},
         {"data": {"name": "gregtech:gt.metaitem.01", "meta": 11300, "min": 5, "max": 15}, "weight": 30},
-	{"data": {"name": "minecraft:redstone_dust", "meta": 0, "min": 3, "max": 24}, "weight": 30}
+	{"data": {"name": "minecraft:redstone", "meta": 0, "min": 3, "max": 24}, "weight": 30}
     ]
     },
     {

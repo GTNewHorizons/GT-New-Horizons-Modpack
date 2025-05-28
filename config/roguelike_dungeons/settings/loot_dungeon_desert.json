@@ -6,7 +6,7 @@
         	{"data": {"name": "harvestcraft:clamcookedItem", "meta": 0, "min": 1, "max": 3}, "weight": 1},
         	{"data": {"name": "harvestcraft:crabcookedItem", "meta": 0, "min": 1, "max": 3}, "weight": 1},
         	{"data": {"name": "harvestcraft:crayfishcookedItem", "meta": 0, "min": 1, "max": 3}, "weight": 1},
-        	{"data": {"name": "harvestcraft:froglegscookedItem", "meta": 0, "min": 1, "max": 3}, "weight": 1},
+        	{"data": {"name": "harvestcraft:frogcookedItem", "meta": 0, "min": 1, "max": 3}, "weight": 1},
         	{"data": {"name": "harvestcraft:muttoncookedItem", "meta": 0, "min": 1, "max": 3}, "weight": 1},
         	{"data": {"name": "harvestcraft:octopuscookedItem", "meta": 0, "min": 1, "max": 3}, "weight": 1},
         	{"data": {"name": "harvestcraft:rabbitcookedItem", "meta": 0, "min": 1, "max": 3}, "weight": 1},
@@ -21,18 +21,18 @@
         	{"data": {"name": "miscutils:item.BasicMetaFood", "meta": 3, "min": 1, "max": 3}, "weight": 1},
         	{"data": {"name": "miscutils:item.BasicMetaFood", "meta": 1, "min": 1, "max": 3}, "weight": 1},
         	{"data": {"name": "miscutils:item.BasicMetaFood", "meta": 5, "min": 1, "max": 3}, "weight": 1},
-        	{"data": {"name": "minecraft:cooked_fish", "meta": 0, "min": 1, "max": 3}, "weight": 1},
-        	{"data": {"name": "minecraft:cooked_fish", "meta": 1, "min": 1, "max": 3}, "weight": 1},
+        	{"data": {"name": "minecraft:cooked_fished", "meta": 0, "min": 1, "max": 3}, "weight": 1},
+        	{"data": {"name": "minecraft:cooked_fished", "meta": 1, "min": 1, "max": 3}, "weight": 1},
         	{"data": {"name": "minecraft:cooked_porkchop", "meta": 0, "min": 1, "max": 3}, "weight": 1},
         	{"data": {"name": "minecraft:cooked_beef", "meta": 0, "min": 1, "max": 3}, "weight": 1},
         	{"data": {"name": "minecraft:cooked_chicken", "meta": 0, "min": 1, "max": 3}, "weight": 1},
-        	{"data": {"name": "Natura:cooked_impmeat", "meta": 1, "min": 1, "max": 3}, "weight": 1},
+        	{"data": {"name": "Natura:impmeat", "meta": 1, "min": 1, "max": 3}, "weight": 1},
         	{"data": {"name": "ThaumicHorizons:meatCookedTH", "meta": 0, "min": 1, "max": 3}, "weight": 1},
         	{"data": {"name": "TwilightForest:item.venisonCooked", "meta": 0, "min": 1, "max": 3}, "weight": 1}
       ]
     },
 	{"level": 1, "loot_pools": [{"type": "FOOD", "each": true, "quantity": 5}, {"type": "ARMOUR", "each": true, "quantity": 3}], "loot": [
-        	{"data": {"name": "harvestcraft:pistaciobakedsalmonItem", "meta": 0, "min": 1, "max": 3}, "weight": 1},
+        	{"data": {"name": "harvestcraft:pistachiobakedsalmonItem", "meta": 0, "min": 1, "max": 3}, "weight": 1},
         	{"data": {"name": "harvestcraft:scallionbakedpotatoItem", "meta": 0, "min": 1, "max": 3}, "weight": 1},
         	{"data": {"name": "harvestcraft:bakedbeetsItem", "meta": 0, "min": 1, "max": 3}, "weight": 1},
         	{"data": {"name": "harvestcraft:bakedbeansItem", "meta": 0, "min": 1, "max": 3}, "weight": 1},
@@ -40,11 +40,11 @@
         	{"data": {"name": "harvestcraft:loadedbakedpotatoItem", "meta": 0, "min": 1, "max": 3}, "weight": 1},
         	{"data": {"name": "harvestcraft:bakedsweetpotatoItem", "meta": 0, "min": 1, "max": 3}, "weight": 1},
         	{"data": {"name": "minecraft:baked_potato", "meta": 0, "min": 1, "max": 3}, "weight": 1},
-        	{"data": {"name": "gregtechtt:gt.metaitem.02", "meta": 32570, "min": 1, "max": 3}, "weight": 1}
+        	{"data": {"name": "gregtech:gt.metaitem.02", "meta": 32570, "min": 1, "max": 3}, "weight": 1}
     ]
     },
     {"level": 2, "loot_pools": [{"type": "FOOD", "each": true, "quantity": 6}, {"type": "ARMOUR", "each": true, "quantity": 3}], "loot": [
-        	{"data": {"name": "harvestcraft:pistaciobakedsalmonItem", "meta": 0, "min": 1, "max": 3}, "weight": 1},
+        	{"data": {"name": "harvestcraft:pistachiobakedsalmonItem", "meta": 0, "min": 1, "max": 3}, "weight": 1},
         	{"data": {"name": "harvestcraft:scallionbakedpotatoItem", "meta": 0, "min": 1, "max": 3}, "weight": 1},
         	{"data": {"name": "harvestcraft:bakedbeetsItem", "meta": 0, "min": 1, "max": 3}, "weight": 1},
         	{"data": {"name": "harvestcraft:bakedbeansItem", "meta": 0, "min": 1, "max": 3}, "weight": 1},
@@ -52,7 +52,7 @@
         	{"data": {"name": "harvestcraft:loadedbakedpotatoItem", "meta": 0, "min": 1, "max": 3}, "weight": 1},
         	{"data": {"name": "harvestcraft:bakedsweetpotatoItem", "meta": 0, "min": 1, "max": 3}, "weight": 1},
         	{"data": {"name": "minecraft:baked_potato", "meta": 0, "min": 1, "max": 3}, "weight": 1},
-        	{"data": {"name": "gregtechtt:gt.metaitem.02", "meta": 32570, "min": 1, "max": 3}, "weight": 1}
+        	{"data": {"name": "gregtech:gt.metaitem.02", "meta": 32570, "min": 1, "max": 3}, "weight": 1}
       ]
     },
 	{"level": 3, "loot_pools": [{"type": "FOOD", "each": true, "quantity": 6}, {"type": "ARMOUR", "each": true, "quantity": 4}], "loot": [
@@ -64,7 +64,7 @@
         	{"data": {"name": "harvestcraft:ovenroastedcauliflowerItem", "meta": 0, "min": 1, "max": 3}, "weight": 1},
         	{"data": {"name": "harvestcraft:roastedchestnutItem", "meta": 0, "min": 1, "max": 3}, "weight": 1},
         	{"data": {"name": "harvestcraft:roastchickenItem", "meta": 0, "min": 1, "max": 3}, "weight": 1},
-        	{"data": {"name": "gregtechtt:gt.metaitem.02", "meta": 32201, "min": 1, "max": 3}, "weight": 1}
+        	{"data": {"name": "gregtech:gt.metaitem.02", "meta": 32201, "min": 1, "max": 3}, "weight": 1}
     ]
     },
     {

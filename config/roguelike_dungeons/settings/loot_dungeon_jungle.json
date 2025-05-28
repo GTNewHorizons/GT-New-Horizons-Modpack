@@ -8,12 +8,12 @@
         	{"data": {"name": "harvestcraft:peachjellyItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
         	{"data": {"name": "harvestcraft:pomegranatejellyItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
         	{"data": {"name": "harvestcraft:raspberryjellyItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
-        	{"data": {"name": "harvestcraft:starfriutjellyItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
+        	{"data": {"name": "harvestcraft:starfruitjellyItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
         	{"data": {"name": "harvestcraft:strawberryjellyItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
         	{"data": {"name": "harvestcraft:watermelonjellyItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
         	{"data": {"name": "harvestcraft:apricotjellyItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
         	{"data": {"name": "harvestcraft:figjellyItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
-        	{"data": {"name": "harvestcraft:grapefriutjellyItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
+        	{"data": {"name": "harvestcraft:grapefruitjellyItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
         	{"data": {"name": "harvestcraft:persimmonjellyItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
         	{"data": {"name": "harvestcraft:pearjellyItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
         	{"data": {"name": "harvestcraft:plumjellyItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
@@ -40,8 +40,8 @@
         	{"data": {"name": "harvestcraft:dimsumItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
         	{"data": {"name": "harvestcraft:friedpecanokraItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
         	{"data": {"name": "harvestcraft:bbqpulledporkItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
-        	{"data": {"name": "harvestcraft:peperoniItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
-        	{"data": {"name": "harvestcraft:pickeledonionsItem", "meta": 0, "min": 1, "max": 3}, "weight": 10}
+        	{"data": {"name": "harvestcraft:pepperoniItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
+        	{"data": {"name": "harvestcraft:pickledonionsItem", "meta": 0, "min": 1, "max": 3}, "weight": 10}
     ]
     },
     {"level": 1, "loot_pools": [{"type": "FOOD", "each": true, "quantity": 5}, {"type": "ARMOUR", "each": true, "quantity": 4}], "loot": [

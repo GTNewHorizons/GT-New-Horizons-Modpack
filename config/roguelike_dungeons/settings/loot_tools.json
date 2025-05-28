@@ -3,7 +3,7 @@
 	"loot_rules": [
 	{"level": [0, 1, 2, 3, 4], "type": "TOOLS", "each": true, "quantity": 2, "loot": [
 		{"data": {"name": "berriespp:itemSpade", "meta": 0}, "weight": 2},
-		{"data": {"name": "berriespp:itemlens", "meta": 0}, "weight": 2},
+		{"data": {"name": "berriespp:itemLens", "meta": 0}, "weight": 2},
 		{"data": {"name": "minecraft:flint_and_steel", "meta": 0}, "weight": 4},
 		{"data": {"name": "minecraft:fishing_rod", "meta": 0}, "weight": 2},
 		{"data": {"name": "minecraft:shears", "meta": 0}, "weight": 3},
@@ -17,7 +17,7 @@
 		{"data": {"name": "harvestcraft:mixingbowlItem", "meta": 0}, "weight": 4},
 		{"data": {"name": "harvestcraft:potItem", "meta": 0}, "weight": 4},
 		{"data": {"name": "harvestcraft:saucepanItem", "meta": 0}, "weight": 4},
-		{"data": {"name": "harvestcraft:skillitItem", "meta": 0}, "weight": 4},
+		{"data": {"name": "harvestcraft:skilletItem", "meta": 0}, "weight": 4},
 		{"data": {"name": "Forestry:scoop", "meta": 0}, "weight": 5},
 		{"data": {"name": "ifu:ifu_buildingKit", "meta": 10}, "weight": 1},
 		{"data": {"name": "gregtech:gt.metatool.01", "meta": 12, "nbt" : "{ench:[0:{id:16s,lvl:2s}],GT.ToolStats:{SecondaryMaterial:\"Wood\",PrimaryMaterial:\"Steel\",Mode:0b,MaxDamage:51200L}}"}, "weight": 3},
