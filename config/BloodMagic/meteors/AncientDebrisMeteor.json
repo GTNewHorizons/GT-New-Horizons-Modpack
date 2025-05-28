@@ -10,10 +10,10 @@
     "minecraft:nether_brick:0:40",
     "etfuturum:red_netherbrick:1:10",
     "etfuturum:red_netherbrick:0:10",
-    "etfuturum:ancient_debris:0:2"
+    "etfuturum:ancient_debris:0:1"
   ],
   "filler": [
-    "minecraft:netherrack:0:80"
+    "minecraft:netherrack:0:90"
   ],
   "radius": 3,
   "cost": 6669666,
