@@ -1,0 +1,66 @@
+{
+	"name": "loot_enchanting",
+	"loot_rules": [
+	{"level": [0, 1, 2, 3, 4], "loot_pools": [{"type": "ENCHANTING", "each": true, "quantity": 3}, {"type": "TOOLS", "each": true, "quantity": 1}], "loot": [
+		{"data": {"name": "enchanted_book", "nbt" : "{StoredEnchantments:[0:{id:35s,lvl:1s}]}"}, "weight": 8},
+		{"data": {"name": "enchanted_book", "nbt" : "{StoredEnchantments:[0:{id:35s,lvl:2s}]}"}, "weight": 4},
+		{"data": {"name": "enchanted_book", "nbt" : "{StoredEnchantments:[0:{id:35s,lvl:3s}]}"}, "weight": 1},
+		{"data": {"name": "Automagy:phialExtra", "meta": 0, "min": 1, "max": 4}, "weight": 6},
+		{"data": {"name": "minecraft:redstone", "meta": 0, "min": 20, "max": 32}, "weight": 8},
+		{"data": {"name": "minecraft:dye", "meta": 4, "min": 20, "max": 32}, "weight": 8}
+      ]
+    },
+		
+	{"level": [0, 1, 2, 3, 4], "type": "ENCHANTING", "each": true, "quantity": 8, "loot": [
+		{"data": {"name": "minecraft:book", "meta": 0, "min": 1, "max": 3}, "weight": 10}
+      ]
+    },
+		
+	{"level": 0, "loot_pools": [{"type": "ENCHANTING", "each": true, "quantity": 3}, {"type": "TOOLS", "each": true, "quantity": 1}], "loot": [
+		{"data": {"name": "enchanted_book", "nbt" : "{StoredEnchantments:[0:{id:0s,lvl:1s}]}"}, "weight": 1},
+		{"data": {"name": "enchanted_book", "nbt" : "{StoredEnchantments:[0:{id:17s,lvl:2s}]}"}, "weight": 1},
+		{"data": {"name": "enchanted_book", "nbt" : "{StoredEnchantments:[0:{id:19s,lvl:1s}]}"}, "weight": 1},
+		{"data": {"name": "enchanted_book", "nbt" : "{StoredEnchantments:[0:{id:180s,lvl:1s}]}"}, "weight": 1},
+		{"data": {"name": "enchanted_book", "nbt" : "{StoredEnchantments:[0:{id:16s,lvl:1s}]}"}, "weight": 1},
+		{"data": {"name": "enchanted_book", "nbt" : "{StoredEnchantments:[0:{id:32s,lvl:1s}]}"}, "weight": 1}
+
+      ]
+    },
+    {"level": 1, "loot_pools": [{"type": "ENCHANTING", "each": true, "quantity": 3}, {"type": "TOOLS", "each": true, "quantity": 1}], "loot": [
+		{"data": {"name": "enchanted_book", "nbt" : "{StoredEnchantments:[0:{id:197s,lvl:1s}]}"}, "weight": 1},
+		{"data": {"name": "enchanted_book", "nbt" : "{StoredEnchantments:[0:{id:126s,lvl:1s}]}"}, "weight": 1},
+		{"data": {"name": "enchanted_book", "nbt" : "{StoredEnchantments:[0:{id:100s,lvl:1s}]}"}, "weight": 1},
+		{"data": {"name": "enchanted_book", "nbt" : "{StoredEnchantments:[0:{id:32s,lvl:2s}]}"}, "weight": 1},
+		{"data": {"name": "enchanted_book", "nbt" : "{StoredEnchantments:[0:{id:62s,lvl:1s}]}"}, "weight": 1},
+		{"data": {"name": "enchanted_book", "nbt" : "{StoredEnchantments:[0:{id:6s,lvl:1s}]}"}, "weight": 1}
+    ]
+    },
+    {"level": 2, "loot_pools": [{"type": "ENCHANTING", "each": true, "quantity": 3}, {"type": "TOOLS", "each": true, "quantity": 1}], "loot": [
+		{"data": {"name": "enchanted_book", "nbt" : "{StoredEnchantments:[0:{id:48s,lvl:3s},1:{id:33s,lvl:1s}]}"}, "weight": 1},
+		{"data": {"name": "enchanted_book", "nbt" : "{StoredEnchantments:[0:{id:34s,lvl:3s}]}"}, "weight": 1},
+		{"data": {"name": "enchanted_book", "nbt" : "{StoredEnchantments:[0:{id:3s,lvl:3s}]}"}, "weight": 1},
+		{"data": {"name": "enchanted_book", "nbt" : "{StoredEnchantments:[0:{id:19s,lvl:2s}]}"}, "weight": 1},
+		{"data": {"name": "enchanted_book", "nbt" : "{StoredEnchantments:[0:{id:98s,lvl:5s}]}"}, "weight": 1},
+		{"data": {"name": "enchanted_book", "nbt" : "{StoredEnchantments:[0:{id:101s,lvl:2s}]}"}, "weight": 1}
+      ]
+    },
+    {"level": 3, "loot_pools": [{"type": "ENCHANTING", "each": true, "quantity": 3}, {"type": "TOOLS", "each": true, "quantity": 1}], "loot": [
+		{"data": {"name": "enchanted_book", "nbt" : "{StoredEnchantments:[0:{id:21s,lvl:3s}]}"}, "weight": 1},
+		{"data": {"name": "enchanted_book", "nbt" : "{StoredEnchantments:[0:{id:16s,lvl:4s}]}"}, "weight": 1},
+		{"data": {"name": "enchanted_book", "nbt" : "{StoredEnchantments:[0:{id:4s,lvl:4s}]}"}, "weight": 1},
+		{"data": {"name": "enchanted_book", "nbt" : "{StoredEnchantments:[0:{id:70s,lvl:3s}]}"}, "weight": 1},
+		{"data": {"name": "enchanted_book", "nbt" : "{StoredEnchantments:[0:{id:34s,lvl:3s}]}"}, "weight": 1},
+		{"data": {"name": "enchanted_book", "nbt" : "{StoredEnchantments:[0:{id:18s,lvl:4s},1:{id:48s,lvl:4s},2:{id:100s,lvl:3s}]}"}, "weight": 1}
+    ]
+    },
+    {"level": 4, "loot_pools": [{"type": "ENCHANTING", "each": true, "quantity": 3}, {"type": "TOOLS", "each": true, "quantity": 1}], "loot": [
+		{"data": {"name": "enchanted_book", "nbt" : "{StoredEnchantments:[0:{id:127s,lvl:5s},1:{id:129s,lvl:5s}]}"}, "weight": 1},
+		{"data": {"name": "enchanted_book", "nbt" : "{StoredEnchantments:[0:{id:211s,lvl:2s},1:{id:48s,lvl:3s},2:{id:9s,lvl:1s}]}"}, "weight": 1},
+		{"data": {"name": "enchanted_book", "nbt" : "{StoredEnchantments:[0:{id:16s,lvl:6s}]}"}, "weight": 1},
+		{"data": {"name": "enchanted_book", "nbt" : "{StoredEnchantments:[0:{id:153s,lvl:3s},1:{id:46s,lvl:1s}]}"}, "weight": 1},
+		{"data": {"name": "enchanted_book", "nbt" : "{RepairCost:1,StoredEnchantments:[0:{id:98s,lvl:5s},1:{id:68s,lvl:1s}]}"}, "weight": 1},
+		{"data": {"name": "enchanted_book", "nbt" : "{StoredEnchantments:[0:{id:17s,lvl:5s},1:{id:20s,lvl:2s}]}"}, "weight": 1}
+      ]
+    }
+  ]
+}

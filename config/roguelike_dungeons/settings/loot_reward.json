@@ -1,0 +1,77 @@
+{
+  "name": "loot_reward",
+  "loot_rules": [
+	{"level": 0, "type": "REWARD", "each": true, "quantity": 1, "loot": [
+		{"data": {"name": "minecraft:spawn_egg", "meta": 99, "min": 2, "max": 3}, "weight": 10},
+		{"data": {"name": "ExtraUtilities:golden_lasso", "meta": 0}, "weight": 10},
+		{"data": {"name": "JABBA:mover", "meta": 0}, "weight": 10},
+		{"data": {"name": "Forestry:factory2", "meta": 2, "min": 4, "max": 5}, "weight": 10},
+		{"data": {"name": "minecraft:obsidian", "meta": 0, "min": 10, "max": 11}, "weight": 10},
+		{"data": {"name": "minecraft:saddle", "meta": 0}, "weight": 10},
+		{"data": {"name": "IronChest:BlockIronChest", "meta": 4}, "weight": 10},
+		{"data": {"name": "TConstruct:slimesling", "meta": 0}, "weight": 10},
+		{"data": {"name": "TConstruct:materials", "meta": 7}, "weight": 10},
+		{"data": {"name": "gregtech:gt.blockmachines", "meta": 817}, "weight": 10},
+		{"data": {"name": "ExtraUtilities:sound_muffler", "meta": 0}, "weight": 5},
+		{"data": {"name": "ExtraUtilities:sound_muffler", "meta": 1}, "weight": 5}
+      ]
+    },
+	{"level": 1, "type": "REWARD", "each": true, "quantity": 1, "loot": [
+		{"data": {"name": "chisel:obsidianChisel", "meta": 0}, "weight": 10},
+		{"data": {"name": "IronChest:BlockIronChest", "meta": 6}, "weight": 10},
+		{"data": {"name": "IC2:itemArmorAlloyChestplate", "meta": 0}, "weight": 10},
+		{"data": {"name": "TConstruct:materials", "meta": 26}, "weight": 10},
+		{"data": {"name": "ExtraUtilities:spike_base_diamond", "meta": 0}, "weight": 10},
+		{"data": {"name": "ExtraUtilities:trading_post", "meta": 0}, "weight": 10},
+		{"data": {"name": "ArchitectureCraft:sawbench", "meta": 0}, "weight": 10},
+		{"data": {"name": "OpenBlocks:hangglider", "meta": 0}, "weight": 10},
+		{"data": {"name": "Backpack:workbenchbackpack", "meta": 0}, "weight": 10},
+		{"data": {"name": "naturescompass:NaturesCompass", "meta": 0}, "weight": 10},
+		{"data": {"name": "gregtech:gt.blockmachines", "meta": 9250}, "weight": 5},
+		{"data": {"name": "gregtech:gt.blockmachines", "meta": 9330}, "weight": 5}
+    ]
+    },
+	{"level": 2, "type": "REWARD", "each": true, "quantity": 1, "loot": [
+		{"data": {"name": "adventurebackpack:adventureBackpack", "meta": 24}, "weight": 10},
+		{"data": {"name": "etfuturum:totem_of_undying", "meta": 0}, "weight": 10},
+		{"data": {"name": "IronChest:BlockIronChest", "meta": 2}, "weight": 10},
+		{"data": {"name": "gregtech:gt.metaitem.01", "meta": 32727}, "weight": 10},
+		{"data": {"name": "TConstruct:materials", "meta": 8}, "weight": 10},
+		{"data": {"name": "malisisdoors:door_factory", "meta": 0}, "weight": 10},
+		{"data": {"name": "OpenBlocks:guide", "meta": 0}, "weight": 10},
+		{"data": {"name": "ExtraTrees:machine", "meta": 1}, "weight": 3},
+		{"data": {"name": "ExtraTrees:machine", "meta": 2}, "weight": 3},
+		{"data": {"name": "ExtraTrees:machine", "meta": 3}, "weight": 2},
+		{"data": {"name": "ExtraTrees:machine", "meta": 4}, "weight": 2}
+      ]
+    },
+	{"level": 3, "type": "REWARD", "each": true, "quantity": 1, "loot": [
+		{"data": {"name": "TConstruct:materials", "meta": 6}, "weight": 10},
+		{"data": {"name": "Avaritia:Ultimate_Stew", "meta": 0}, "weight": 10},
+		{"data": {"name": "BinnieCore:storage", "meta": 3}, "weight": 10},
+		{"data": {"name": "ExtraUtilities:chandelier", "meta": 0, "min": 5, "max": 8}, "weight": 10},
+		{"data": {"name": "Forestry:beealyzer", "meta": 0}, "weight": 3},
+		{"data": {"name": "Forestry:flutterlyzer", "meta": 0}, "weight": 3},
+		{"data": {"name": "Forestry:treealyzer", "meta": 0}, "weight": 3},
+		{"data": {"name": "MagicBees:frameOblivion", "meta": 0}, "weight": 10},
+		{"data": {"name": "OpenBlocks:builder_guide", "meta": 0}, "weight": 10},
+		{"data": {"name": "ThaumicHorizons:boatThaumium", "meta": 0}, "weight": 10},
+		{"data": {"name": "OpenBlocks:elevator", "meta": 0, "min": 2, "max": 3}, "weight": 10},
+		{"data": {"name": "Thaumcraft:blockMetalDevice", "meta": 6, "min": 6, "max": 8}, "weight": 10}
+    ]
+    },
+    
+	{"level": 4, "type": "REWARD", "each": true, "quantity": 1, "loot": [
+		{"data": {"name": "adventurebackpack:copterPack", "meta": 0, "nbt" : "{wearableData:{}}"}, "weight": 10},
+		{"data": {"name": "Avaritia:Cosmic_Meatballs", "meta": 0}, "weight": 10},
+		{"data": {"name": "Backpack:backpack", "meta": 100}, "weight": 10},
+		{"data": {"name": "BinnieCore:storage", "meta": 5}, "weight": 10},
+		{"data": {"name": "Thaumcraft:WandCasting", "meta": 36}, "weight": 10},
+		{"data": {"name": "JABBA:moverDiamond", "meta": 0}, "weight": 10},
+		{"data": {"name": "TConstruct:creativeModifier", "meta": 0}, "weight": 10},
+		{"data": {"name": "gregtech:gt.detrav.metatool.01", "meta": 2, "nbt" : "{GT.ToolStats:{SecondaryMaterial:\"Steel\",PrimaryMaterial:\"SteelMagnetic\",Mode:0b,MaxDamage:1300L}}"}, "weight": 10},
+		{"data": {"name": "DraconicEvolution:magnet", "meta": 0}, "weight": 10}
+      ]
+    }
+  ]
+}
