@@ -1,0 +1,38 @@
+{
+	"name": "loot_starter",
+	"loot_rules": [
+
+	{"level": [0, 1, 2, 3, 4], "type": "STARTER", "each": true, "quantity": 1, "loot": [
+		{"data": {"name": "IguanaTweaksTConstruct:clayBucketMilk", "meta": 0, "weight": 10}}
+
+      ]
+    },
+	{"level": [0, 1, 2, 3, 4], "type": "STARTER", "each": true, "quantity": 1, "loot": [
+		{"data": {"name": "minecraft:leather_chestplate", "meta": 0}}
+
+      ]
+    },
+	{"level": [0, 1, 2, 3, 4], "type": "STARTER", "each": true, "quantity": 1, "loot": [
+		{"data": {"name": "minecraft:bow", "meta": 0}}
+
+      ]
+    },
+	{"level": [0, 1, 2, 3, 4], "type": "STARTER", "each": true, "quantity": 1, "loot": [
+		{"data": {"name": "minecraft:stone_sword", "meta": 0}, "weight": 1}
+
+      ]
+    },
+	{"level": [0, 1, 2, 3, 4], "type": "STARTER", "each": true, "quantity": 8, "loot": [
+		{"data": {"name": "minecraft:bread", "meta": 0}},
+		{"data": {"name": "minecraft:cooked_beef", "meta": 0}}
+
+      ]
+    },
+	{"level": [0, 1, 2, 3, 4], "type": "STARTER", "each": true, "quantity": 4, "loot": [
+		{"data": {"name": "minecraft:torch", "meta": 0, "min": 4, "max": 12}},
+		{"data": {"name": "minecraft:arrow", "meta": 0, "min": 2, "max": 8}}
+
+      ]
+    }
+  ]
+}

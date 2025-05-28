@@ -1,0 +1,7 @@
+{
+	"name": "tower_jungle",
+		"tower": {
+		"type": "JUNGLE",
+		"theme": {"base": "JUNGLE"}
+	}
+}

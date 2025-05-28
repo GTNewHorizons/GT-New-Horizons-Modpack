@@ -12,7 +12,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "You\u0027re not supposed to be here... I think you need to go outside and get some sunlight if you unlocked this legitimately...\n\nIn the meantime here\u0027s your reward, don\u0027t spend it all at once!",
+      "desc:8": "Congratulations, with this final quest, you\u0027ll have beaten the hardest challenge in GregTech: New Horizons yet! \n\nThe whole GT:NH Team thanks you for your time spent on this modpack. You are now part of the top 0.5% of our community!\n\nNow that you made one gate, take this second gate and link them together! (Unless you want to craft the second yourself of course).\n\nDon\u0027t hesitate to share your base in #screenshot-brag channel of our Discord server, claim your stargate role, and if you have any feedback on the endgame progression, we will gladly appreciate it!\n\nI guess now it\u0027s time for you to go outside, touch grass, or... continue onwards?",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -43,16 +43,46 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 4,
+          "Count:3": 8,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "minecraft:iron_ingot"
+          "id:8": "SGCraft:stargateRing"
         },
         "1:10": {
-          "Count:3": 3,
+          "Count:3": 7,
+          "Damage:2": 1,
+          "OreDict:8": "",
+          "id:8": "SGCraft:stargateRing"
+        },
+        "2:10": {
+          "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "minecraft:stick"
+          "id:8": "SGCraft:stargateBase"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "SGCraft:rfPowerUnit"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "SGCraft:sgIrisUpgrade"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "SGCraft:sgChevronUpgrade"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "SGCraft:stargateController"
         }
       }
     }

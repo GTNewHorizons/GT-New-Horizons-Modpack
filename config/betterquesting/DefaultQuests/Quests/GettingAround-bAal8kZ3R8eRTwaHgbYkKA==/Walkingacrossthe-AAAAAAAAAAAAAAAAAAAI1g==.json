@@ -13,7 +13,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Quantum Boots of the Traveller, for when you really need to run as fast as the wind. Might cause you some problems standing still!",
+      "desc:8": "Quantum Boots of the Traveller, for when you really need to run as fast as the wind. Might cause you some problems standing still!\n\n[note]If you want to advance in the dark arts you can also make them voidwalker boots.[/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -36,7 +36,7 @@
       "simultaneous:1": 0,
       "snd_complete:8": "random.levelup",
       "snd_update:8": "random.levelup",
-      "taskLogic:8": "AND",
+      "taskLogic:8": "OR",
       "visibility:8": "NORMAL"
     }
   },
@@ -85,6 +85,23 @@
           "Damage:2": 32767,
           "OreDict:8": "",
           "id:8": "EMT:QuantumBootsTraveller"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32767,
+          "OreDict:8": "",
+          "id:8": "thaumicboots:item.ItemQuantumVoid"
         }
       },
       "taskID:8": "bq_standard:retrieval"

@@ -1,0 +1,16 @@
+{
+  "ores": [
+    "etfuturum:honey_block:0:95",
+    "BiomesOPlenty:honeyBlock:0:90",
+    "etfuturum:honeycomb_block:0:85",
+    "BiomesOPlenty:hive:3:80",
+    "BiomesOPlenty:hive:0:80"
+  ],
+  "filler": [
+    "BiomesOPlenty:hive:2:150"
+  ],
+  "radius": 20,
+  "cost": 800050,
+  "focusItem": "etfuturum:honeycomb",
+  "fillerChance": 20
+}

@@ -1,0 +1,21 @@
+{
+	"name": "loot_all",
+	"inherit": [
+		"loot_ore",
+		"loot_blocks",
+		"loot_armor",
+		"loot_weapons",
+		"loot_tools",
+		"loot_starter",
+		"loot_enchanting",
+		"loot_reward",
+		"loot_supplies",
+		"loot_smith",
+		"loot_junk",
+		"loot_potions",
+		"loot_music"
+	],
+	"overrides" : [
+		"LOOTRULES"
+	]
+}

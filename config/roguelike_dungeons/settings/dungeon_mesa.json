@@ -1,0 +1,10 @@
+{
+	"name": "dungeon_mesa",
+  	"criteria": {"biomeTypes": ["MESA"]},
+  	"inherit": [
+		"loot_all",
+		"loot_hot_food",
+		"theme_mesa",
+		"tower_mesa"
+  ]
+}
