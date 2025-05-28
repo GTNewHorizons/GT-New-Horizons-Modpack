@@ -8,5 +8,10 @@
 		"tower_mountain",
 		"rooms_mountain",
 		"segments_mountain"
-  ]
+  ],
+	"levels" : {
+		"2" : {
+			"diff" : 4
+		}
+	}
 }
