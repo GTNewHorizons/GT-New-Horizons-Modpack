@@ -3,7 +3,7 @@
   	"criteria": {"biomeTypes": ["MESA"]},
   	"inherit": [
 		"loot_all",
-		"loot_mesa",
+		"loot_hot_food",
 		"theme_mesa",
 		"tower_mesa"
   ]

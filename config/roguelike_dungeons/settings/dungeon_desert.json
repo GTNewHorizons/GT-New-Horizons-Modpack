@@ -3,7 +3,7 @@
   	"criteria": {"biomeTypes": ["SANDY"]},
   	"inherit": [
 		"loot_all",
-		"loot_desert",
+		"loot_hot_food",
 		"theme_desert",
 		"tower_desert",
 		"rooms_desert",
