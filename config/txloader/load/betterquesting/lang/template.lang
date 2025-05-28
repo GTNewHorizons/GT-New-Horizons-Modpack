@@ -636,9 +636,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACVA.desc=It's upgrade time. Unlock redst
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACcQ.name=§3§lMoving Your Tanks, Chests, and Barrels
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACcQ.desc=Want to move your chests and barrels without spilling all the things (buildcraft™)? No problem! Make a dolly and you can carry your full chests, barrels or storage drawers anywhere you want. But be warned, you will get a slowness debuff so hopefully you don't have to travel very far. You can also move non-portable buildcraft and iron tanks without losing fluids, and worktables without losing stored recipes.%n%nShift-right-click an empty dolly to collapse it. It won't carry anything until you unfold it, but it will stack and can go in your backpack.%n%n§3PS: Later on you can fly or make a traveller's belt to get around the debuff.§r
 
-# Quest: One Anvil... Better Make That Two!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACtg.name=§3§lOne Anvil... Better Make That Two!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACtg.desc=With your brand-new Compressor you are able to make some metal blocks for your new anvil. Better craft two anvils, one will be required for the forge hammer.%n%n§3With the anvil you can repair, rename and enchant armor and tools.§r
+# Quest: One Anvil...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACtg.name=§3§lOne Anvil...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACtg.desc=With your brand-new Compressor you are able to make some metal blocks for your new anvil. You're required to craft at least one for the Forge Hammer.%n%n§3With the anvil you can repair, rename and enchant armor and tools.§r
 
 # Quest: Accelerated Plant Growth
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACwQ.name=§3§lAccelerated Plant Growth
@@ -843,6 +843,10 @@ betterquesting.quest.T_5nD6d8QQ29KrInOSI_Og.desc=By making a scythe you are now 
 # Quest: The one book to rule them all
 betterquesting.quest.XuZpnhWZRou46kensglZ6g.name=§3§lThe one book to rule them all
 betterquesting.quest.XuZpnhWZRou46kensglZ6g.desc=This Tome can store multiple documentation books from other mods. It will be empty when crafted, but you can add books by combining it with the desired book in a crafting grid.%n%nRight-clicking with the Tome in hand will open an interface showing all the added books; clicking on a book will transform the tome into the selected book. To revert it back to the Tome, left-click while sneaking.%n%nTo retrieve a stored book, transform the Tome into the desired book and throw it away while sneaking - this will drop the selected book and leave the tome in your inventory.%n%n[warn]Some warnings:%n%nThe extended version of the Book of Biomes from Witchery is not compatible with this tome.%n%nYou should not throw it through the Botania portal. The elves might steal your Tome and return only their own copy of the Lexica Botania.[/warn]
+
+# Quest: Better Make that Two!
+betterquesting.quest.fRHWhPgpRyyvSRZpL1Pkbw.name=§3§lBetter Make that Two!
+betterquesting.quest.fRHWhPgpRyyvSRZpL1Pkbw.desc=You may need a second anvil! %n%nOne would have been for the Forge Hammer and another for general repairing or renaming!
 
 
 ## Quest Line: Tier 1 - LV
