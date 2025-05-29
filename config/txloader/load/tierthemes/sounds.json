@@ -1,5 +1,5 @@
 {
-  "stone": {
+  "steam": {
     "category": "player",
     "sounds": [
       {
@@ -8,20 +8,11 @@
       }
     ]
   },
-  "steam": {
-    "category": "player",
-    "sounds": [
-      {
-        "name": "",
-        "stream": false
-      }
-    ]
-  },
   "lv": {
     "category": "player",
     "sounds": [
       {
-        "name": "",
+        "name": "lv",
         "stream": false
       }
     ]
@@ -30,7 +21,7 @@
     "category": "player",
     "sounds": [
       {
-        "name": "",
+        "name": "mv",
         "stream": false
       }
     ]
@@ -39,7 +30,7 @@
     "category": "player",
     "sounds": [
       {
-        "name": "",
+        "name": "hv",
         "stream": false
       }
     ]
@@ -48,7 +39,7 @@
     "category": "player",
     "sounds": [
       {
-        "name": "",
+        "name": "ev",
         "stream": false
       }
     ]
@@ -57,7 +48,7 @@
     "category": "player",
     "sounds": [
       {
-        "name": "",
+        "name": "iv",
         "stream": false
       }
     ]
@@ -66,7 +57,7 @@
     "category": "player",
     "sounds": [
       {
-        "name": "",
+        "name": "luv-uv",
         "stream": false
       }
     ]
@@ -75,7 +66,7 @@
     "category": "player",
     "sounds": [
       {
-        "name": "",
+        "name": "luv-uv",
         "stream": false
       }
     ]
@@ -84,7 +75,7 @@
     "category": "player",
     "sounds": [
       {
-        "name": "",
+        "name": "luv-uv",
         "stream": false
       }
     ]
@@ -93,7 +84,7 @@
     "category": "player",
     "sounds": [
       {
-        "name": "",
+        "name": "uhv-uxv",
         "stream": false
       }
     ]
@@ -102,7 +93,7 @@
     "category": "player",
     "sounds": [
       {
-        "name": "",
+        "name": "uhv-uxv",
         "stream": false
       }
     ]
@@ -111,7 +102,7 @@
     "category": "player",
     "sounds": [
       {
-        "name": "",
+        "name": "uhv-uxv",
         "stream": false
       }
     ]
@@ -120,7 +111,7 @@
     "category": "player",
     "sounds": [
       {
-        "name": "",
+        "name": "uhv-uxv",
         "stream": false
       }
     ]
@@ -129,7 +120,7 @@
     "category": "player",
     "sounds": [
       {
-        "name": "",
+        "name": "uhv-uxv",
         "stream": false
       }
     ]
@@ -138,7 +129,7 @@
     "category": "player",
     "sounds": [
       {
-        "name": "",
+        "name": "stargate",
         "stream": false
       }
     ]
