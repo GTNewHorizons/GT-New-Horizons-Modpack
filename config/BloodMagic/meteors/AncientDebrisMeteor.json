@@ -1,0 +1,23 @@
+{
+  "ores": [
+    "minecraft:soul_sand:0:90",
+    "etfuturum:soul_soil:0:80",
+    "minecraft:obsidian:0:80",
+    "etfuturum:magma:0:80",
+    "gregtech:gt.blockgranites:8:60",
+    "gregtech:gt.blockgranites:0:50",
+    "Railcraft:brick.nether:2:40",
+    "minecraft:nether_brick:0:40",
+    "etfuturum:red_netherbrick:1:10",
+    "etfuturum:red_netherbrick:0:10",
+    "etfuturum:crying_obsidian:0:10",
+    "etfuturum:ancient_debris:0:2"
+  ],
+  "filler": [
+    "minecraft:netherrack:0:90"
+  ],
+  "radius": 3,
+  "cost": 6669666,
+  "focusItem": "gregtech:gt.blockcasings4:7",
+  "fillerChance": 90
+}
