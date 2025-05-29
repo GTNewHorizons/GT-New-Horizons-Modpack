@@ -46,13 +46,21 @@
           "Count:3": 1,
           "Damage:2": 32746,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGeneratedItem0"
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "bartworks:gt.bwMetaGeneratedItem0",
+            "orig_meta:3": 32746
+          }
         },
         "1:10": {
           "Count:3": 1,
           "Damage:2": 32699,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGeneratedItem0"
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "bartworks:gt.bwMetaGeneratedItem0",
+            "orig_meta:3": 32699
+          }
         },
         "2:10": {
           "Count:3": 16,
