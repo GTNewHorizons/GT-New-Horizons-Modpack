@@ -9798,6 +9798,10 @@ betterquesting.quest.Hbq2zJcoQbWK20-2A-kI1Q.desc=You might find yourself setting
 betterquesting.quest.JejpWZ7ATZq-0uomP4c7UA.name=16384k Essentia Component
 betterquesting.quest.JejpWZ7ATZq-0uomP4c7UA.desc=Same as 1k.
 
+# Quest: Hyper Acceleration!
+betterquesting.quest.KM9gm3HCTa2OGPWlHHl4fw.name=Hyper Acceleration!
+betterquesting.quest.KM9gm3HCTa2OGPWlHHl4fw.desc=Hyper-Acceleration cards are a faster version of the basic accleration cards. %n%n[note]Hyper-Acceleration cards can only be placed in:[/note]%n%n§cME IO Port (3)%nME Fluid Import Bus (4)%nME Fluid Export Bus (4)%n%n§r%nIn an IO Port, the Hyper-Acceleration Card will transfer items at a rate of: %n%n§61x Cards: 4,096 items/tick%n2x Cards: 32,768 items/tick%n3x Cards: 262,144 items/tick%n%n§rIn ME Fluid Buses, the Hyper-Acceleration Card will transfer fluids at a rate of:%n%n§61x Cards: 4,096,000 mb/tick%n2x Cards: 32,768,000 mb/tick%n3x Cards: 262,144,000 mb/tick%n%n
+
 # Quest: 16384k Fluid Storage Cell
 betterquesting.quest.MJoHkNK0Ta-zKyJAvV_DBg.name=16384k Fluid Storage Cell
 betterquesting.quest.MJoHkNK0Ta-zKyJAvV_DBg.desc=It holds over 32GL.
@@ -9837,6 +9841,10 @@ betterquesting.quest.cEFNSTdoRvysoNgmtDLdvg.desc=You have mastered both interdim
 # Quest: 16384k Essentia Storage Cell
 betterquesting.quest.iwN50p7pSyyCHDkM-O-D7w.name=16384k Essentia Storage Cell
 betterquesting.quest.iwN50p7pSyyCHDkM-O-D7w.desc=These hold 33,554,432 units of essentia.%n%nAnd can hold 60 types.
+
+# Quest: Going Superluminal
+betterquesting.quest.kBjBqQR5Q-GWh4olyHmXXg.name=Going Superluminal
+betterquesting.quest.kBjBqQR5Q-GWh4olyHmXXg.desc=The Superluminal Acceleration card is the fastest AE card that you can use to transfer items or fluids.%n%n[note]Superluminal Acceleration cards can only be placed in:[/note]%n%n§cME IO Port (3)%n§§§f%nIn an IO Port, the Superluminal Acceleration Card will transfer items at a rate of: %n%n§61x Cards: 33,554,432 items/tick%n2x Cards: 2,147,483,648 items/tick%n3x Cards: 137,438,953,472 items/tick%n%n§rIn an IO Port, the Superluminal Acceleration Card will transfer fluids at a rate of:%n%n§61x Cards: 33,554,432,000 mb/tick%n2x Cards: 2,147,483,648,000 mb/tick%n3x Cards: 137,438,953,472,000 mb/tick%n
 
 # Quest: Wireless 2.5 - All in One
 betterquesting.quest.mYdFnW4UQ2WXHshmj7BH2w.name=Wireless 2.5 - All in One
