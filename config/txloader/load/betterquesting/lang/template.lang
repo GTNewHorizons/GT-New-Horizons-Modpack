@@ -3223,7 +3223,7 @@ betterquesting.quest.VCXYSn_PTZ6kY3d6kFTFwg.desc=This Special bus is rather pric
 
 # Quest: Universal pickaxe, Vajra
 betterquesting.quest.VoQ7oLYhTjuomLCz_ddOhA.name=§b§lUniversal pickaxe, Vajra
-betterquesting.quest.VoQ7oLYhTjuomLCz_ddOhA.desc=This tool can mine blocks instantly, including GregTech blocks or cables. Using left-click will mine blocks as usual, while enabling accurate mode will allow you to right-click to harvest blocks 1 by 1, while also applying silk touch.%n%n[note]To enable accurate mode press Mode Switch Key + right-click while holding Vajra.[/note]
+betterquesting.quest.VoQ7oLYhTjuomLCz_ddOhA.desc=This tool can mine blocks instantly, including GregTech blocks or cables. %n%nUsing left-click will mine blocks as usual, right-clicking will harvest blocks 1 by 1. Enabling silk touch will work for both. %n%n[note]To enable silk touch mode Shift+Right Click air while holding the Vajra.[/note]%n%n[warn]If you already have a Vajra built before GTNH version 2.8, you can put it in the crafting grid to swap it to the new version[/warn]
 
 # Quest: Concentrated Samarium
 betterquesting.quest.ZXyJX8zNTQW6swu0OsE03Q.name=§b§lConcentrated Samarium
@@ -7494,6 +7494,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAM3w.desc=An even more expensive capacito
 betterquesting.quest.Dif-0NSERYGdGP7j8xAzPQ.name=Wireless Power!?
 betterquesting.quest.Dif-0NSERYGdGP7j8xAzPQ.desc=Are you sick and tired of having cables all around your base? Are you tired of having to upgrade your cables constantly to handle different amperage amounts? Are you a fan of lightning bolts zapping around your base?%n%nThen this multiblock is for you, the Telsa Tower comes with high amperage output and full TecTech energy hatch support with this powerful multiblock.%n%nTo get started you will need to fill the tower with capacitors matching the tier of the Primary Tesla Windings within the capacitor bank. The Tesla Winding determines the tier of power that the tower transfers power at and the amount of capacitors determines the maximum amperage that can be output.%n%nA total of 16 capacitors can be placed into one capacitor bank so you might need many banks depending on your power needs.%n%nOnce the tower is constructed click open the controller to configure the maximum transfer distance of the tower to fit the needs of your base. The range setting is currently buggy which means that at least for now you can do so without needing any plasmas. This option is called “Tesla Towers Transfer Radius Setting”.%n%nNow that your tower is all configured how do you get power out of it to your machines? Well I am glad you asked. To get power to the machines of the base you will need to use the Tesla Coil Covers. Place them on your machines, energy hatches and even transformers to get power flowing from the tower. Energy hatches are a bit picky however and the hatch likes to be facing upwards to receive power.%n%n[warn]Warning! The Tesla Tower will output only one tier of amp such as EV, IV etc. When upgrading the Primary Tesla Windings, please make sure to check that all of your coil covers and transceivers in the base can handle the upgraded power. Failure to do so will result in a machine explosion.[/warn]%n%n[warn]Failure to turn off the controller before adjustment can also cause an explosion.[/warn]
 
+# Quest: Power Goggles
+betterquesting.quest.GvlZG9IESmW2qsEMw-hkIw.name=Power Goggles
+betterquesting.quest.GvlZG9IESmW2qsEMw-hkIw.desc=Wanna see how your LSC is doing but don't want to run to it or your information panel every time? Get yourself a pair of §c§o§6§oPower Goggles §rto see your energy storage straight from the HUD!%n%nBy §l§adefault§f §r§rthe goggles are §3§cunlinked §rand will monitor the amount of energy in your wireless network. %n%n§6§f§6§fTo link the goggles to an LSC, Right Click the controller with the goggles in your hand. Shift+Right Click§f §o§f§e§6§fair§r §6§fto unlink.%n%n§rIf you wish to move or modify the display you can do so by opening the power goggles config menu!%n%n[warn]Make sure to check your keybinds! There's also a keybind for toggling the power chart![/warn]
+
 # Quest: At last, the final capacitor!
 betterquesting.quest.vrE4rYLuSnmmtAklayd6gw.name=§6§lAt last, the final capacitor!
 betterquesting.quest.vrE4rYLuSnmmtAklayd6gw.desc=This is the last capacitor so we can't get much higher unfortunately.
@@ -8200,7 +8204,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADMw.desc=Every rocket needs fuel storage
 
 # Quest: Rocket Launch Pad
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADNA.name=Rocket Launch Pad
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADNA.desc=Every rocket needs a launch pad. Build a 3x3 launch pad and place your rocket on top of it.%n%nStorms and other events that affect entities can knock your rocket off (but not lightning warp anymore), so make sure to not leave it alone.%n%n[warn]Before liftoff, make sure you clear the airspace above you![/warn]%n%nBe sure to check out [url]https://wiki.gtnewhorizons.com/wiki/Rockets[/url] for a Departure Checklist!%n%n[note]Also note that they emit pollution, lots of it. So either put it far from your base, or use a scrubber while launching. You probably won't have to worry until T4 or so though.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADNA.desc=Every rocket needs a launch pad. Build a 3x3 launch pad and place your rocket on top of it.%n%nStorms and other events that affect entities can knock your rocket off (but not lightning warp anymore), so make sure to not leave it alone.%n%n[warn]Before liftoff, make sure you clear the airspace above you![/warn]%n%nBe sure to check out [url]https://wiki.gtnewhorizons.com/wiki/Rocket[/url] for a Departure Checklist!%n%n[note]Also note that they emit pollution, lots of it. So either put it far from your base, or use a scrubber while launching. You probably won't have to worry until T4 or so though.[/note]
 
 # Quest: Gas 'Er Up
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADNQ.name=Gas 'Er Up
@@ -9798,6 +9802,10 @@ betterquesting.quest.Hbq2zJcoQbWK20-2A-kI1Q.desc=You might find yourself setting
 betterquesting.quest.JejpWZ7ATZq-0uomP4c7UA.name=16384k Essentia Component
 betterquesting.quest.JejpWZ7ATZq-0uomP4c7UA.desc=Same as 1k.
 
+# Quest: Hyper Acceleration!
+betterquesting.quest.KM9gm3HCTa2OGPWlHHl4fw.name=Hyper Acceleration!
+betterquesting.quest.KM9gm3HCTa2OGPWlHHl4fw.desc=Hyper-Acceleration cards are a faster version of the basic accleration cards. %n%n[note]Hyper-Acceleration cards can only be placed in:[/note]%n%n§cME IO Port (3)%nME Fluid Import Bus (4)%nME Fluid Export Bus (4)%n%n§r%nIn an IO Port, the Hyper-Acceleration Card will transfer items at a rate of: %n%n§61x Cards: 4,096 items/tick%n2x Cards: 32,768 items/tick%n3x Cards: 262,144 items/tick%n%n§rIn ME Fluid Buses, the Hyper-Acceleration Card will transfer fluids at a rate of:%n%n§61x Cards: 4,096,000 mb/tick%n2x Cards: 32,768,000 mb/tick%n3x Cards: 262,144,000 mb/tick%n%n
+
 # Quest: 16384k Fluid Storage Cell
 betterquesting.quest.MJoHkNK0Ta-zKyJAvV_DBg.name=16384k Fluid Storage Cell
 betterquesting.quest.MJoHkNK0Ta-zKyJAvV_DBg.desc=It holds over 32GL.
@@ -9837,6 +9845,10 @@ betterquesting.quest.cEFNSTdoRvysoNgmtDLdvg.desc=You have mastered both interdim
 # Quest: 16384k Essentia Storage Cell
 betterquesting.quest.iwN50p7pSyyCHDkM-O-D7w.name=16384k Essentia Storage Cell
 betterquesting.quest.iwN50p7pSyyCHDkM-O-D7w.desc=These hold 33,554,432 units of essentia.%n%nAnd can hold 60 types.
+
+# Quest: Going Superluminal
+betterquesting.quest.kBjBqQR5Q-GWh4olyHmXXg.name=Going Superluminal
+betterquesting.quest.kBjBqQR5Q-GWh4olyHmXXg.desc=The Superluminal Acceleration card is the fastest AE card that you can use to transfer items or fluids.%n%n[note]Superluminal Acceleration cards can only be placed in:[/note]%n%n§cME IO Port (3)%n§§§f%nIn an IO Port, the Superluminal Acceleration Card will transfer items at a rate of: %n%n§61x Cards: 33,554,432 items/tick%n2x Cards: 2,147,483,648 items/tick%n3x Cards: 137,438,953,472 items/tick%n%n§rIn an IO Port, the Superluminal Acceleration Card will transfer fluids at a rate of:%n%n§61x Cards: 33,554,432,000 mb/tick%n2x Cards: 2,147,483,648,000 mb/tick%n3x Cards: 137,438,953,472,000 mb/tick%n
 
 # Quest: Wireless 2.5 - All in One
 betterquesting.quest.mYdFnW4UQ2WXHshmj7BH2w.name=Wireless 2.5 - All in One
