@@ -1,0 +1,20 @@
+{
+	"name": "dungeon_desert",
+  	"criteria": {"biomeTypes": ["SANDY"]},
+  	"inherit": [
+		"loot_all",
+		"loot_hot_food",
+		"theme_desert",
+		"tower_desert",
+		"rooms_desert",
+		"segments_desert"
+	],
+	"levels" : {
+		"0" : {
+			"diff" : 2
+		},
+		"1" : {
+			"diff" : 2
+		}
+	}
+}

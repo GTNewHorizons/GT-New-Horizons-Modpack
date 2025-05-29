@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "With your brand-new Compressor you are able to make some metal blocks for your new anvil. Better craft two anvils, one will be required for the forge hammer.\n\n§3With the anvil you can repair, rename and enchant armor and tools.§r",
+      "desc:8": "With your brand-new Compressor you are able to make some metal blocks for your new anvil. You\u0027re required to craft at least one for the Forge Hammer.\n\n§3With the anvil you can repair, rename and enchant armor and tools.§r",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -20,7 +20,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§3§lOne Anvil... Better Make That Two!",
+      "name:8": "§3§lOne Anvil...",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -84,19 +84,19 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 10,
+          "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "blockIron",
           "id:8": "minecraft:iron_block"
         },
         "1:10": {
-          "Count:3": 4,
+          "Count:3": 2,
           "Damage:2": 17032,
           "OreDict:8": "plateIron",
           "id:8": "gregtech:gt.metaitem.01"
         },
         "2:10": {
-          "Count:3": 4,
+          "Count:3": 2,
           "Damage:2": 27032,
           "OreDict:8": "screwAnyIron",
           "id:8": "gregtech:gt.metaitem.01"
@@ -114,7 +114,7 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 2,
+          "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "minecraft:anvil"
