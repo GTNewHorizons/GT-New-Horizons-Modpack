@@ -21,7 +21,7 @@
                 		{"mode": "single", "type": "LAB"},
 				{"mode": "random", "type": "BRICK", "weight" : 35},
 				{"mode": "random", "type": "CORNER", "weight" : 20},
-				{"mode": "random", "type": "MUSIC", "weight" : 2},
+				{"mode": "random", "type": "MUSIC", "weight" : 1},
 				{"mode": "random", "type": "FIRE", "weight" : 2}
 		
 			],
