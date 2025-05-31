@@ -4,7 +4,6 @@
 		"0": {
 			"rooms": [
 				{"mode": "single", "type": "STORAGE"},
-				{"mode": "single", "type": "STORAGE"},
                 		{"mode": "single", "type": "CAKE"},
                 		{"mode": "single", "type": "LAB"},
 				{"mode": "random", "type": "BRICK", "weight" : 45},
@@ -19,7 +18,7 @@
 		"1": {
 			"rooms": [
                 		{"mode": "single", "type": "PIT"},
-				{"mode": "single", "type": "TREETHO"},
+                		{"mode": "single", "type": "LAB"},
 				{"mode": "random", "type": "BRICK", "weight" : 35},
 				{"mode": "random", "type": "CORNER", "weight" : 20},
 				{"mode": "random", "type": "MUSIC", "weight" : 2},
@@ -56,7 +55,6 @@
                 		{"mode": "single", "type": "SPIDER"},
                 		{"mode": "single", "type": "CRYPT"},
                 		{"mode": "single", "type": "LAB"},
-                		{"mode": "single", "type": "ENCHANT"},
 				{"mode": "random", "type": "SLIME", "weight" : 35},
 				{"mode": "random", "type": "PRISON", "weight" : 20},
 				{"mode": "random", "type": "BRICK", "weight" : 15},
@@ -70,12 +68,11 @@
 		},
 		"4": {
 			"rooms": [
-				{"mode": "single", "type": "OBSIDIAN"},
 				{"mode": "single", "type": "NETHERFORT"},
 				{"mode": "single", "type": "FIRE"},
                 		{"mode": "single", "type": "SPIDER"},
                 		{"mode": "single", "type": "OBSIDIAN"},
-				{"mode": "single", "type": "MESS"},
+				{"mode": "single", "type": "LAB"},
 				{"mode": "random", "type": "SPIDER", "weight" : 8},
 				{"mode": "random", "type": "NETHER", "weight" : 20},
 				{"mode": "random", "type": "DARKHALL", "weight" : 30},
