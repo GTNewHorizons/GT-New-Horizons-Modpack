@@ -1,0 +1,24 @@
+{
+	"name": "rooms_desert",
+	"levels": {
+		"0": {
+			"rooms": [
+				{"mode": "single", "type": "PYRAMIDTOMB"},
+				{"mode": "random", "type": "PYRAMIDSPAWNER", "weight" : 5},
+				{"mode": "random", "type": "PYRAMIDCORNER", "weight" : 3}
+			],
+			"secrets" : [
+				{"type" : "PYRAMIDTOMB", "num" : 1}
+		]
+		},
+		"1": {
+			"rooms": [
+				{"mode": "single", "type": "PIT"},
+				{"mode": "random", "type": "PYRAMIDTOMB", "weight" : 2},
+				{"mode": "random", "type": "PYRAMIDSPAWNER", "weight" : 10},
+				{"mode": "random", "type": "PYRAMIDCORNER", "weight" : 5}
+		
+			]
+		}
+	}
+}

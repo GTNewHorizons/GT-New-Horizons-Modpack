@@ -1,0 +1,52 @@
+{
+	"name" : "segments_swamp",
+	"levels" : {
+		"0" : {
+			"segments" : {
+				"segments" : [
+					{
+						"type" : "DOOR",
+						"weight" : 8
+					},
+					{
+						"type" : "LAMP",
+						"weight" : 2
+					},
+					{
+						"type" : "FLOWERS",
+						"weight" : 1
+					},
+					{
+						"type" : "MUSHROOM",
+						"weight" : 2
+					}
+				],
+				"arch" : "ARCH"
+			}
+		},
+		"1" : {
+			"segments" : {
+				"segments" : [
+					{
+						"type" : "DOOR",
+						"weight" : 10
+					},
+					{
+						"type" : "SHELF",
+						"weight" : 4
+					},
+					{
+						"type" : "INSET",
+						"weight" : 4
+					},
+					{
+						"type" : "MUSHROOM",
+						"weight" : 3
+					}
+				],
+				"arch" : "ARCH"
+			}
+		}
+	}
+
+}
