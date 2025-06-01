@@ -13,7 +13,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Multiblock machines enforce input separation based on hatch color. Inputs from Input Busses and Input Hatches will only interact if they share the same color. Un-dyed inputs act as wildcards compatible with any color.\n\nColor can be applied using a Spray Can and removed with a Spray Can Solvent. An Infinite Spray Can becomes available later in progression.\n\n§6Now §2go §3have §4fun§5!!!",
+      "desc:8": "Multiblock machines enforce input separation based on hatch color. Inputs from Input Buses and Input Hatches will only interact if they share the same color. Un-dyed inputs act as wildcards compatible with any color.\n\nColor can be applied using a Spray Can and removed with a Spray Can Solvent. An Infinite Spray Can becomes available later in progression.\n\n§6Now §2go §3have §4fun§5!!!",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
