@@ -20,11 +20,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-<<<<<<<< HEAD:config/betterquesting/DefaultQuests/Quests/FishingFarmingCo-AAAAAAAAAAAAAAAAAAAACg==/PotatoesCarrotsP-AAAAAAAAAAAAAAAAAAAC0w==.json
       "name:8": "Potatoes, Carrots, Pumpkins and Melons",
-========
-      "name:8": "Potatos, Carrots, Pumpkins and Melons", //TODO: Fix Potatoes
->>>>>>>> c839868f4d3a9f6a2ac58af1f0b6652f49a21e29:config/betterquesting/DefaultQuests/Quests/FishingFarmingCo-AAAAAAAAAAAAAAAAAAAACg==/PotatosCarrotsPu-AAAAAAAAAAAAAAAAAAAC0w==.json
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
