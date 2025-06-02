@@ -1,0 +1,181 @@
+{
+	"name": "loot_weapons",
+	"loot_rules": [
+	{"level": 0, "type": "WEAPONS", "each": true, "quantity": 1, "loot": [
+		{"data": {"name": "minecraft:bow", "meta": 0}, "weight": 13},
+		{"data": {"name": "Natura:natura.bow.darkwood", "meta": 0}, "weight": 7},
+		{"data": {"name": "minecraft:stone_sword", "meta": 0, "nbt" : "{ench:[0:{id:102s,lvl:1s},1:{id:17s,lvl:1s}],display:{Name:\"Mesopotamian Mace\"}}"}, "weight": 7},
+		{"data": {"name": "minecraft:stone_sword", "meta": 0, "nbt" : "{ench:[0:{id:19s,lvl:2s}],display:{Name:\"Caveman's Club\"}}"}, "weight": 7},
+		{"data": {"name": "minecraft:wooden_sword", "meta": 0, "nbt" : "{ench:[0:{id:16s,lvl:2s},1:{id:34s,lvl:1s}],display:{Name:\"Ancient Acinaces\"}}"}, "weight": 7},
+		{"data": {"name": "minecraft:stone_sword", "meta": 0, "nbt" : "{ench:[0:{id:98s,lvl:1s},1:{id:180s,lvl:1s}],display:{Name:\"Magic Makhaira\"}}"}, "weight": 7},
+		{"data": {"name": "minecraft:stone_sword", "meta": 0, "nbt" : "{ench:[0:{id:18s,lvl:2s},1:{id:19s,lvl:1s}],display:{Name:\"Spider Sica\"}}"}, "weight": 7},
+		{"data": {"name": "minecraft:stick", "meta": 0, "nbt" : "{ench:[0:{id:19s,lvl:5s}],display:{Name:\"Hercales' Club\"}}"}, "weight": 1}
+      ]
+    },
+	{"level": 0, "type": "WEAPONS", "each": true, "quantity": 4, "loot": [
+		{"data": {"name": "TConstruct:swordBlade", "meta": 0}, "weight": 1},
+		{"data": {"name": "TConstruct:swordBlade", "meta": 3}, "weight": 1},
+		{"data": {"name": "TConstruct:swordBlade", "meta": 4}, "weight": 1},
+		{"data": {"name": "TConstruct:wideGuard", "meta": 0}, "weight": 1},
+		{"data": {"name": "TConstruct:wideGuard", "meta": 3}, "weight": 1},
+		{"data": {"name": "TConstruct:wideGuard", "meta": 4}, "weight": 1},
+		{"data": {"name": "TConstruct:handGuard", "meta": 0}, "weight": 1},
+		{"data": {"name": "TConstruct:handGuard", "meta": 3}, "weight": 1},
+		{"data": {"name": "TConstruct:handGuard", "meta": 4}, "weight": 1},
+		{"data": {"name": "TConstruct:frypanHead", "meta": 0}, "weight": 1},
+		{"data": {"name": "TConstruct:frypanHead", "meta": 3}, "weight": 1},
+		{"data": {"name": "TConstruct:frypanHead", "meta": 4}, "weight": 1},
+		{"data": {"name": "TConstruct:knifeBlade", "meta": 0}, "weight": 1},
+		{"data": {"name": "TConstruct:knifeBlade", "meta": 3}, "weight": 1},
+		{"data": {"name": "TConstruct:knifeBlade", "meta": 4}, "weight": 1},
+		{"data": {"name": "TConstruct:arrowhead", "meta": 0}, "weight": 1},
+		{"data": {"name": "TConstruct:arrowhead", "meta": 3}, "weight": 1},
+		{"data": {"name": "TConstruct:arrowhead", "meta": 4}, "weight": 1}
+      ]
+    },
+	{"level": 1, "type": "WEAPONS", "each": true, "quantity": 4, "loot": [
+		{"data": {"name": "TConstruct:swordBlade", "meta": 14}, "weight": 1},
+		{"data": {"name": "TConstruct:swordBlade", "meta": 18}, "weight": 1},
+		{"data": {"name": "TConstruct:swordBlade", "meta": 2}, "weight": 1},
+		{"data": {"name": "TConstruct:wideGuard", "meta": 14}, "weight": 1},
+		{"data": {"name": "TConstruct:wideGuard", "meta": 18}, "weight": 1},
+		{"data": {"name": "TConstruct:wideGuard", "meta": 2}, "weight": 1},
+		{"data": {"name": "TConstruct:handGuard", "meta": 14}, "weight": 1},
+		{"data": {"name": "TConstruct:handGuard", "meta": 18}, "weight": 1},
+		{"data": {"name": "TConstruct:handGuard", "meta": 2}, "weight": 1},
+		{"data": {"name": "TConstruct:frypanHead", "meta": 14}, "weight": 1},
+		{"data": {"name": "TConstruct:frypanHead", "meta": 18}, "weight": 1},
+		{"data": {"name": "TConstruct:frypanHead", "meta": 2}, "weight": 1},
+		{"data": {"name": "TConstruct:knifeBlade", "meta": 14}, "weight": 1},
+		{"data": {"name": "TConstruct:knifeBlade", "meta": 18}, "weight": 1},
+		{"data": {"name": "TConstruct:knifeBlade", "meta": 2}, "weight": 1},
+		{"data": {"name": "TConstruct:arrowhead", "meta": 14}, "weight": 1},
+		{"data": {"name": "TConstruct:arrowhead", "meta": 18}, "weight": 1},
+		{"data": {"name": "TConstruct:fletching", "meta": 0}, "weight": 3},
+		{"data": {"name": "TConstruct:arrowhead", "meta": 2}, "weight": 1}
+    ]
+    },
+	{"level": 1, "type": "WEAPONS", "each": true, "quantity": 1, "loot": [
+		{"data": {"name": "Thaumcraft:ItemBowBone", "meta": 0}, "weight": 5},
+		{"data": {"name": "minecraft:bow", "meta": 0}, "weight": 7},
+		{"data": {"name": "Natura:natura.bow.bloodwood", "meta": 0}, "weight": 7},
+		{"data": {"name": "minecraft:iron_sword", "meta": 0, "nbt" : "{ench:[0:{id:34s,lvl:3s},1:{id:16s,lvl:1s}],display:{Name:\"Great Gladius\"}}"}, "weight": 7},
+		{"data": {"name": "minecraft:iron_axe", "meta": 0, "nbt" : "{ench:[0:{id:16s,lvl:3s}],display:{Name:\"Deadly Dane Axe\"}}"}, "weight": 7},
+		{"data": {"name": "minecraft:iron_sword", "meta": 0, "nbt" : "{ench:[0:{id:17s,lvl:1s},1:{id:19s,lvl:2s}],display:{Name:\"Oppresive Oxborough Dirk\"}}"}, "weight": 7},
+		{"data": {"name": "minecraft:iron_sword", "meta": 0, "nbt" : "{ench:[0:{id:99s,lvl:3s},1:{id:45s,lvl:3s}],display:{Name:\"Handy Harpē\"}}"}, "weight": 7},
+		{"data": {"name": "minecraft:iron_sword", "meta": 0, "nbt" : "{ench:[0:{id:20s,lvl:1s},1:{id:21s,lvl:2s}],display:{Name:\"Dangerous Deer Catcher\"}}"}, "weight": 7},
+		{"data": {"name": "minecraft:golden_sword", "meta": 0, "nbt" : "{ench:[0:{id:17s,lvl:7s},1:{id:34s,lvl:5s}],display:{Name:\"Gladius Imperatoria\"}}"}, "weight": 1}
+
+
+    ]
+    },
+	{"level": 2, "type": "WEAPONS", "each": true, "quantity": 1, "loot": [
+		{"data": {"name": "Thaumcraft:ItemBowBone", "meta": 0}, "weight": 5},
+		{"data": {"name": "minecraft:bow", "meta": 0}, "weight": 13},
+		{"data": {"name": "Natura:natura.bow.ghostwood", "meta": 0}, "weight": 7},
+		{"data": {"name": "minecraft:wooden_sword", "meta": 0, "nbt" : "{ench:[0:{id:34s,lvl:3s},1:{id:16s,lvl:6s}],display:{Name:\"Noteworthy Naboot\"}}"}, "weight": 7},
+		{"data": {"name": "minecraft:iron_axe", "meta": 0, "nbt" : "{ench:[0:{id:16s,lvl:3s},1:{id:19s,lvl:3s}],display:{Name:\"Mighty Meteor Hammer\"}}"}, "weight": 7},
+		{"data": {"name": "minecraft:iron_sword", "meta": 0, "nbt" : "{ench:[0:{id:99s,lvl:5s},1:{id:21s,lvl:3s}],display:{Name:\"Awakened Angon\"}}"}, "weight": 7},
+		{"data": {"name": "minecraft:iron_sword", "meta": 0, "nbt" : "{ench:[0:{id:18s,lvl:3s},1:{id:45s,lvl:3s}],display:{Name:\"Skillful Saber\"}}"}, "weight": 7},
+		{"data": {"name": "minecraft:iron_sword", "meta": 0, "nbt" : "{ench:[0:{id:8s,lvl:3s},1:{id:18s,lvl:4s}],display:{Name:\"Deadman's Dagger\"}}"}, "weight": 7},
+		{"data": {"name": "minecraft:iron_sword", "meta": 0, "nbt" : "{ench:[0:{id:8s,lvl:3s},1:{id:16s,lvl:7s}],display:{Name:\"Kotetsu\"}}"}, "weight": 1}
+      ]
+    },
+	{"level": 2, "type": "WEAPONS", "each": true, "quantity": 4, "loot": [
+		{"data": {"name": "TConstruct:swordBlade", "meta": 6}, "weight": 1},
+		{"data": {"name": "TConstruct:swordBlade", "meta": 202}, "weight": 1},
+		{"data": {"name": "TConstruct:swordBlade", "meta": 1595}, "weight": 1},
+		{"data": {"name": "TConstruct:wideGuard", "meta": 6}, "weight": 1},
+		{"data": {"name": "TConstruct:wideGuard", "meta": 202}, "weight": 1},
+		{"data": {"name": "TConstruct:wideGuard", "meta": 1595}, "weight": 1},
+		{"data": {"name": "TConstruct:handGuard", "meta": 6}, "weight": 1},
+		{"data": {"name": "TConstruct:handGuard", "meta": 202}, "weight": 1},
+		{"data": {"name": "TConstruct:fletching", "meta": 1}, "weight": 3},
+		{"data": {"name": "TConstruct:handGuard", "meta": 1595}, "weight": 1},
+		{"data": {"name": "TConstruct:arrowhead", "meta": 6}, "weight": 1},
+		{"data": {"name": "TConstruct:arrowhead", "meta": 202}, "weight": 1},
+		{"data": {"name": "TConstruct:arrowhead", "meta": 1595}, "weight": 1},
+		{"data": {"name": "TConstruct:largeSwordBlade", "meta": 6}, "weight": 1},
+		{"data": {"name": "TConstruct:largeSwordBlade", "meta": 202}, "weight": 1},
+		{"data": {"name": "TConstruct:largeSwordBlade", "meta": 1595}, "weight": 1},
+		{"data": {"name": "TConstruct:BowLimbPart", "meta": 6}, "weight": 1},
+		{"data": {"name": "TConstruct:BowLimbPart", "meta": 202}, "weight": 1},
+		{"data": {"name": "TConstruct:BowLimbPart", "meta": 1595}, "weight": 1},
+		{"data": {"name": "TConstruct:CrossbowLimbPart", "meta": 6}, "weight": 1},
+		{"data": {"name": "TConstruct:CrossbowLimbPart", "meta": 202}, "weight": 1},
+		{"data": {"name": "TConstruct:CrossbowLimbPart", "meta": 1595}, "weight": 1}
+      ]
+    },
+	{"level": 3, "type": "WEAPONS", "each": true, "quantity": 1, "loot": [
+		{"data": {"name": "Thaumcraft:ItemBowBone", "meta": 0}, "weight": 10},
+		{"data": {"name": "minecraft:bow", "meta": 0}, "weight": 13},
+		{"data": {"name": "minecraft:diamond_sword", "meta": 0, "nbt" : "{ench:[0:{id:46s,lvl:1s},1:{id:16s,lvl:3s}],display:{Name:\"Smith's Sword\"}}"}, "weight": 7},
+		{"data": {"name": "minecraft:diamond_sword", "meta": 0, "nbt" : "{ench:[0:{id:98s,lvl:5s},1:{id:16s,lvl:3s}],display:{Name:\"Wise Wakizashi\"}}"}, "weight": 7},
+		{"data": {"name": "minecraft:diamond_sword", "meta": 0, "nbt" : "{ench:[0:{id:10s,lvl:1s},1:{id:16s,lvl:3s}],display:{Name:\"Blighted Blade\"}}"}, "weight": 7},
+		{"data": {"name": "minecraft:diamond_sword", "meta": 0, "nbt" : "{ench:[0:{id:45s,lvl:3s},1:{id:17s,lvl:2s}],RepairCost:1,display:{Name:\"Librarian's Liuyedao\"}}"}, "weight": 7},
+		{"data": {"name": "minecraft:diamond_sword", "meta": 0, "nbt" : "{ench:[0:{id:20s,lvl:2s},1:{id:16s,lvl:3s}],display:{Name:\"Kindled Katana\"}}"}, "weight": 7},
+		{"data": {"name": "minecraft:diamond_sword", "meta": 0, "nbt" : "{ench:[0:{id:21s,lvl:3s},1:{id:16s,lvl:2s},2:{id:45s,lvl:5s}],display:{Name:\"Sword of Victory\"}}"}, "weight": 1}
+    ]
+    },
+	{"level": 3, "type": "WEAPONS", "each": true, "quantity": 4, "loot": [
+		{"data": {"name": "TConstruct:swordBlade", "meta": 16}, "weight": 1},
+		{"data": {"name": "TConstruct:swordBlade", "meta": 15}, "weight": 1},
+		{"data": {"name": "TConstruct:swordBlade", "meta": 1647}, "weight": 1},
+		{"data": {"name": "TConstruct:fletching", "meta": 2}, "weight": 3},
+		{"data": {"name": "TConstruct:wideGuard", "meta": 16}, "weight": 1},
+		{"data": {"name": "TConstruct:wideGuard", "meta": 15}, "weight": 1},
+		{"data": {"name": "TConstruct:wideGuard", "meta": 1647}, "weight": 1},
+		{"data": {"name": "TConstruct:handGuard", "meta": 16}, "weight": 1},
+		{"data": {"name": "TConstruct:handGuard", "meta": 6}, "weight": 1},
+		{"data": {"name": "TConstruct:handGuard", "meta": 1647}, "weight": 1},
+		{"data": {"name": "TConstruct:arrowhead", "meta": 16}, "weight": 1},
+		{"data": {"name": "TConstruct:arrowhead", "meta": 15}, "weight": 1},
+		{"data": {"name": "TConstruct:arrowhead", "meta": 1647}, "weight": 1},
+		{"data": {"name": "TConstruct:largeSwordBlade", "meta": 16}, "weight": 1},
+		{"data": {"name": "TConstruct:largeSwordBlade", "meta": 15}, "weight": 1},
+		{"data": {"name": "TConstruct:largeSwordBlade", "meta": 1647}, "weight": 1},
+		{"data": {"name": "TConstruct:BowLimbPart", "meta": 16}, "weight": 1},
+		{"data": {"name": "TConstruct:BowLimbPart", "meta": 15}, "weight": 1},
+		{"data": {"name": "TConstruct:BowLimbPart", "meta": 1647}, "weight": 1},
+		{"data": {"name": "TConstruct:CrossbowLimbPart", "meta": 16}, "weight": 1},
+		{"data": {"name": "TConstruct:CrossbowLimbPart", "meta": 15}, "weight": 1},
+		{"data": {"name": "TConstruct:CrossbowLimbPart", "meta": 1647}, "weight": 1}
+      ]
+    },
+	{"level": 4, "type": "WEAPONS", "each": true, "quantity": 4, "loot": [
+		{"data": {"name": "TConstruct:swordBlade", "meta": 201}, "weight": 1},
+		{"data": {"name": "TConstruct:swordBlade", "meta": 11}, "weight": 1},
+		{"data": {"name": "TConstruct:swordBlade", "meta": 10}, "weight": 1},
+		{"data": {"name": "TConstruct:wideGuard", "meta": 201}, "weight": 1},
+		{"data": {"name": "TConstruct:wideGuard", "meta": 11}, "weight": 1},
+		{"data": {"name": "TConstruct:wideGuard", "meta": 10}, "weight": 1},
+		{"data": {"name": "TConstruct:handGuard", "meta": 201}, "weight": 1},
+		{"data": {"name": "TConstruct:handGuard", "meta": 11}, "weight": 1},
+		{"data": {"name": "TConstruct:handGuard", "meta": 10}, "weight": 1},
+		{"data": {"name": "TConstruct:arrowhead", "meta": 201}, "weight": 1},
+		{"data": {"name": "TConstruct:fletching", "meta": 4}, "weight": 3},
+		{"data": {"name": "TConstruct:arrowhead", "meta": 11}, "weight": 1},
+		{"data": {"name": "TConstruct:arrowhead", "meta": 10}, "weight": 1},
+		{"data": {"name": "TConstruct:largeSwordBlade", "meta": 201}, "weight": 1},
+		{"data": {"name": "TConstruct:largeSwordBlade", "meta": 11}, "weight": 1},
+		{"data": {"name": "TConstruct:largeSwordBlade", "meta": 10}, "weight": 1},
+		{"data": {"name": "TConstruct:BowLimbPart", "meta": 201}, "weight": 1},
+		{"data": {"name": "TConstruct:BowLimbPart", "meta": 11}, "weight": 1},
+		{"data": {"name": "TConstruct:BowLimbPart", "meta": 10}, "weight": 1},
+		{"data": {"name": "TConstruct:CrossbowLimbPart", "meta": 201}, "weight": 1},
+		{"data": {"name": "TConstruct:CrossbowLimbPart", "meta": 11}, "weight": 1},
+		{"data": {"name": "TConstruct:CrossbowLimbPart", "meta": 10}, "weight": 1}
+      ]
+    },
+      {"level": 4, "type": "WEAPONS", "each": true, "quantity": 1, "loot": [
+		{"data": {"name": "GalaxySpace:item.QuantBow", "meta": 0}, "weight": 7},
+		{"data": {"name": "minecraft:diamond_sword", "meta": 0, "nbt" : "{ench:[0:{id:180s,lvl:5s},1:{id:16s,lvl:2s}],display:{Name:\"Thanatos' Talwar\"}}"}, "weight": 7},
+		{"data": {"name": "minecraft:diamond_sword", "meta": 0, "nbt" : "{ench:[0:{id:16s,lvl:5s}],display:{Name:\"Warrior's Warblade\"}}"}, "weight": 7},
+		{"data": {"name": "minecraft:diamond_sword", "meta": 0, "nbt" : "{ench:[0:{id:45s,lvl:3s},1:{id:21s,lvl:3s}],display:{Name:\"Gambler's Grave\"}}"}, "weight": 7},
+		{"data": {"name": "minecraft:diamond_sword", "meta": 0, "nbt" : "{ench:[0:{id:18s,lvl:6s},1:{id:46s,lvl:1s}],display:{Name:\"Pest Control Pestilence\"}}"}, "weight": 7},
+		{"data": {"name": "minecraft:diamond_sword", "meta": 0, "nbt" : "{ench:[0:{id:34s,lvl:3s},1:{id:20s,lvl:2s},2{id:16s,lvl:2s}],display:{Name:\"Fireman's Fury\"}}"}, "weight": 7},
+	      	{"data": {"name": "minecraft:diamond_sword", "meta": 0, "nbt" : "{ench:[0:{id:16s,lvl:7s},1:{id:20s,lvl:2s}],display:{Name:\"Excalibur\"}}"}, "weight":1}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+    "name": "theme_desert",
+    "levels": {
+        "0": {
+            "theme": {
+                "base": "PYRAMID"
+            }
+        },
+        "1": {
+            "theme": {
+                "base": "SANDSTONE"
+            }
+        },
+        "2": {
+            "theme": {
+                "base": "SANDSTONERED",
+			"primary" : {
+				"walls" : {
+					"type" : "WEIGHTED",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "etfuturum:red_sandstone"}, "weight" : 94},
+						{"type" : "METABLOCK", "data" : {"name" : "minecraft:sand", "meta" : 1}, "weight" : 5},
+						{"type" : "METABLOCK", "data" : {"name" : "etfuturum:red_sandstone", "meta" : 1}, "weight" : 3},
+						{"type" : "METABLOCK", "data" : {"name" : "etfuturum:red_sandstone", "meta" : 2}, "weight" : 3}
+						]
+					},
+					"pillar" : {
+						"type" : "METABLOCK",
+						"data" : {
+							"name" : "etfuturum:smooth_red_sandstone",
+							"meta" : "0"
+						}
+					},
+					"stair" : {
+						"type" : "METABLOCK",
+						"data" : {
+							"name" : "etfuturum:red_sandstone_stairs"
+						}
+					}
+				},
+			"secondary" : {
+				"walls" : {
+					"type" : "METABLOCK",
+					"data" : {
+						"name" : "etfuturum:red_sandstone",
+						"meta" : "1"
+						}
+					},
+					"pillar" : {
+						"type" : "METABLOCK",
+						"data" : {
+							"name" : "etfuturum:smooth_red_sandstone",
+							"meta" : "0"
+						}
+					},
+					"stair" : {
+						"type" : "METABLOCK",
+						"data" : {
+							"name" : "etfuturum:red_sandstone_stairs"
+						}
+					}
+				}
+
+        },
+        "3": {
+            "theme": {
+                "base": "CRYPT"
+            }
+        },
+        "4": {
+            "theme": {
+                "base": "NETHER"
+            }
+        }
+    }
+}
+}

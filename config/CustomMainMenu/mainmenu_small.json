@@ -217,6 +217,13 @@
 		"aviators": {
 			"text": "menu.gtnh.aviators",
 			"posX": 305,
+			"posY": -35,
+			"fontSize": 0.5,
+			"alignment": "column_bottom"
+		},
+		"sol": {
+			"text": "menu.gtnh.sol",
+			"posX": 305,
 			"posY": -30,
 			"fontSize": 0.5,
 			"alignment": "column_bottom"

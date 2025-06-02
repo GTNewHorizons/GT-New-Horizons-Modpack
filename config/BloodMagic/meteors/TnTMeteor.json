@@ -1,0 +1,15 @@
+{
+  "ores": [
+    "IC2:blockITNT:0:90",
+    "BloodArsenal:blood_tnt:0:80",
+    "minecraft:tnt:0:80",
+    "minecraft:redstone_lamp:0:30:"
+  ],
+  "filler": [
+    "chisel:redstone_block:14:10"
+  ],
+  "radius": 16,
+  "cost": 6667666,
+  "focusItem": "BloodArsenal:blood_tnt:0",
+  "fillerChance": 20
+}
