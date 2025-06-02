@@ -1,0 +1,17 @@
+{
+  "galacticraft.musicSpace": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "music/absolutezero",
+        "stream": true,
+	"weight": 3
+      },
+      {
+        "name": "music/nebulalullaby",
+        "stream": true,
+	"weight": 3
+      }
+    ]
+  }
+}

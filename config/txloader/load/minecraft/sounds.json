@@ -1,0 +1,12 @@
+{
+  "music.game": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "music/game/flora",
+        "stream": true,
+        "weight": 3
+      }
+    ]
+  }
+}

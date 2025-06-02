@@ -1,0 +1,7 @@
+{
+	"name": "tower_mesa",
+		"tower": {
+		"type": "ETHO",
+		"theme": {"base": "ETHOTOWER"}
+	}
+}

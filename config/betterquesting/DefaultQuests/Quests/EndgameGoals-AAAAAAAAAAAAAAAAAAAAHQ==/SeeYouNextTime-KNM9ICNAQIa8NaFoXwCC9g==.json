@@ -1,0 +1,68 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2598
+    },
+    "1:10": {
+      "questIDHigh:4": 4047602715113178066,
+      "questIDLow:4": -8971549008568708105
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Still want more? Consider doing another run! Maybe even with some restrictions if you want to spice it up a bit. Check the first quest chapter for some recommendations!\n\nThere\u0027s also roles to be earned for completing the pack two or even three times if you want an extra incentive.\n\n[note]If you are going for 100% questbook completion, you can choose between this quest or \u0027The Factory Must Grow!\u0027, both are valid options.\nBe wary that choosing one will lock you out of the other though.[/note]",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "thaumcraftneiplugin:Aspect",
+        "tag:10": {
+          "Aspects:9": {
+            "0:10": {
+              "amount:3": 2,
+              "key:8": "permutatio"
+            }
+          }
+        }
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "See You Next Time!",
+      "questLogic:8": "XOR",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "SECRET"
+    }
+  },
+  "questIDHigh:4": 2941762189842727046,
+  "questIDLow:4": -4884820751170895114,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 8192,
+          "Damage:2": 32416,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}
