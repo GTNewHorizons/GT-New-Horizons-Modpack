@@ -2392,6 +2392,10 @@ betterquesting.quest.wLYoO7hsT_SOuJGzbgDMhg.desc=Let's make some NaK coolant!
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAABg.name=Tier 4 - EV
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAABg.desc=Welcome to EV! You have successfully gone to the moon and processed Titanium. You are now getting extreme levels of energy. In this tier you will unlock Nuclear energy, and Applied Energistics 2.
 
+# Quest: The Redstone Sniffer
+betterquesting.quest.07lxVb9wQWSSoZRcvIswZQ.name=The Redstone Sniffer
+betterquesting.quest.07lxVb9wQWSSoZRcvIswZQ.desc=Ever wonder where your redstone transmitters are? Or wish they were labeled? Maybe your teammate placed one down, didn't tell you, and now you're stuck wondering what private frequency they placed?%n%nNow, you have a way to do all of that.%n%nIntroducing the §6Redstone Sniffer§f!%n%nFor §cregular wireless redstone§f, the sniffer will list all currently used frequencies, tell you whether that frequency is private, and gives you an option to label it. %n%nFor §cadvanced wireless covers§f, the sniffer will additionally tell you where that cover is currently located, including in other dimensions, and offers you the option to also highlight or teleport to it. 
+
 # Quest: Pulverize the Planet
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA1A.name=§a§lPulverize the Planet
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA1A.desc=Literally. You can grind the rock of most planets, to get a chance for...stuff. It depends on the planet. Does consume quite a bit of power, but can really help you out.%n%nFor Tungstate, you can centrifuge previously macerated moon dust, macerate end stone with an HV+ macerator and then centrifuge it, or centrifuge endergoo (found all over the end, does not give back buckets).%n%nIf you want to make your rocket, you need to get at least a little before you can get to a planet with the ore. However, keep in mind that you'll need an EBF with TPV Coils to smelt Tungstensteel Dust into the ingot!%n%n[note]Do one of the tasks.[/note]
