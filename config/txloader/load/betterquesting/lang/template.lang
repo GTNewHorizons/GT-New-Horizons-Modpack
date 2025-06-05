@@ -9214,6 +9214,10 @@ betterquesting.quest.5ObFHI5BQ5Oxv0yca7morA.desc=A brand-new tool for you, amigo
 betterquesting.quest.5PUj-2T3QZOIq4a33qGXlA.name=16384k Fluid Component
 betterquesting.quest.5PUj-2T3QZOIq4a33qGXlA.desc=Final one (so far)
 
+# Quest: Knowing your Throughput! 
+betterquesting.quest.8RZ1YKxCQACS3_7rdoHMMA.name=Knowing your Throughput! 
+betterquesting.quest.8RZ1YKxCQACS3_7rdoHMMA.desc=[quest]ME Throughput Monitor[/quest]%n%nThe ME Througput Monitor will show the speed of items entering your network. %n%nClicking with an item will add it to the monitor.%n%nUse a §awrench§f to lock the monitor.%n%nWhen the monitor is locked, use §cShift+Right Click§f to change the measured time frame. %n%nModes: %n%n§6Per Tick%nPer Second%nPer Minute%nPer Hour%n%n
+
 # Quest: It's Storage Time!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAsg.name=It's Storage Time!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAsg.desc=To make an AE system, you'll need all 4 patterns, collect them all! If you hit EV without getting all of them, you can also make them yourself.%n%n[note]BTW, you need a ton of Titanium to do AE2, so if you can't make it, you won't get much of anywhere.[/note]
@@ -9838,6 +9842,10 @@ betterquesting.quest.QHyLarPvSnCb30EbaBQdaw.desc=Same as 1k.
 betterquesting.quest.SDGKHP7fQx-c3gUBv4DwuQ.name=Yet Another Singularity?!?!
 betterquesting.quest.SDGKHP7fQx-c3gUBv4DwuQ.desc=Ever wanted to order 10 million billion billion chests and noticed that your crafting storage was just not big enough?%n%nWell, here is your solution, provided to you by the good folks over at GTNHCorp (Name Pending).%n%n§c§rThe §cSingularity Crafting Storage§r has a storage of 9,223,372,036,854,775,807 Bytes, which, if you can't read numbers, is a lot.%n%nEnjoy crafting one :) You'll need to kill some Chaos Guardians for it.
 
+# Quest: Cards for AE2 Nerds!
+betterquesting.quest.TP2PEGHQRnGKgKYFziEjrg.name=Cards for AE2 Nerds!
+betterquesting.quest.TP2PEGHQRnGKgKYFziEjrg.desc=[quest]Equal Distribution, Fake Crafting, Locking, and Advanced Blocking Cards![/quest]%n%n§6Equal Distribution Card: %n%n§fThe Equal Distribution Card will evenly divide a cell's capacity between types or partitions. %n%n§6Fake Crafting Card: %n%n§fThe Fake Crafting Card will tell your ME System to complete a craft without expecting the final resulting item. %n%nThis can be handy for creating fake patterns for entire multiblocks or setups by collecting the individual items needed in one craft. %n%nThe card can only be inserted into: %n%n§cME Dual Interface%nME Interface%nP2P Tunnel - ME Dual Interface%n%n§6Locking Card: %n%n§f§rThe Locking Card allows an interface to optionally block new crafts from being started for one of the following conditions:%n%n§cWhile Redstone is low%nWhile Redstone is high%nAfter a craft has been pushed, until a redstone pulse is received%nAfter a craft has been pushed, until the results have returned to the same interface%n%n§6§r§6Advanced Blocking Card: %n%n§f§rThe Advanced Blocking Card is able to ignore non-consumables in a subnet for more complicated automations. %n%nIn a standard subnet, where two interfaces are facing each other, the Advanced Blocking Card is to be §9placed on the §9§lsubnet§f §9interface. %n%n%n
+
 # Quest: 256k Essentia Component
 betterquesting.quest.Wh0yn2MOQhS-X_8NiPiZJw.name=256k Essentia Component
 betterquesting.quest.Wh0yn2MOQhS-X_8NiPiZJw.desc=Same as 1k.
@@ -9889,6 +9897,10 @@ betterquesting.quest.s2TL3i06Tb2WvPvdt1utyg.desc=These hold 524,288 units of ess
 # Quest: Stocking Fluids
 betterquesting.quest.soyN9ODlQmmjrKEyKBNENA.name=Stocking Fluids
 betterquesting.quest.soyN9ODlQmmjrKEyKBNENA.desc=Works like stocking input bus but for fluids.%n%n[note]You need only one to complete the quest.[/note]
+
+# Quest: Even More Basic Cards! 
+betterquesting.quest.suQSf7Z-QICknl3I1RfymA.name=Even More Basic Cards! 
+betterquesting.quest.suQSf7Z-QICknl3I1RfymA.desc=[quest]Overflow Void, Pattern Refiller, and Sticky Cards[/quest]%n%n§6Overflow Void Card: %n%n§fOverflow Void Cards will cause the ME Storage Cell to void excess inputs%n%n§6Pattern Refiller Card: %n%n§fThe Pattern Refiller card will refill empty patterns in your Processing and Fluid Processing Terminals%n%n§6Sticky Card: %n%n§e§fSticky Cards are useful if you want your ME System to only store a filtered item in one location across your entire network. %n%n[warn]Be careful with where you use sticky cards as they can lead to your passive systems jamming. [/warn]%n§f
 
 # Quest: 1024k Essentia Storage Cell
 betterquesting.quest.tUJaqz9uSwajByFi4gNHzQ.name=1024k Essentia Storage Cell
