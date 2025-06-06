@@ -1,0 +1,88 @@
+{
+"name": "loot_jungle",
+"loot_rules": [
+	{"level": 0, "loot_pools": [{"type": "FOOD", "each": true, "quantity": 5}, {"type": "ARMOUR", "each": true, "quantity": 3}], "loot": [
+        	{"data": {"name": "harvestcraft:mangojellyItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
+        	{"data": {"name": "harvestcraft:orangejellyItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
+        	{"data": {"name": "harvestcraft:papayajellyItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
+        	{"data": {"name": "harvestcraft:peachjellyItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
+        	{"data": {"name": "harvestcraft:pomegranatejellyItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
+        	{"data": {"name": "harvestcraft:raspberryjellyItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
+        	{"data": {"name": "harvestcraft:starfruitjellyItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
+        	{"data": {"name": "harvestcraft:strawberryjellyItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
+        	{"data": {"name": "harvestcraft:watermelonjellyItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
+        	{"data": {"name": "harvestcraft:apricotjellyItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
+        	{"data": {"name": "harvestcraft:figjellyItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
+        	{"data": {"name": "harvestcraft:grapefruitjellyItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
+        	{"data": {"name": "harvestcraft:persimmonjellyItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
+        	{"data": {"name": "harvestcraft:pearjellyItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
+        	{"data": {"name": "harvestcraft:plumjellyItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
+        	{"data": {"name": "harvestcraft:limejellyItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
+        	{"data": {"name": "harvestcraft:grapejellyItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
+        	{"data": {"name": "harvestcraft:applejellyItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
+        	{"data": {"name": "harvestcraft:blackberryjellyItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
+        	{"data": {"name": "harvestcraft:blueberryjellyItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
+        	{"data": {"name": "harvestcraft:cherryjellyItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
+        	{"data": {"name": "harvestcraft:cranberryjellyItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
+        	{"data": {"name": "harvestcraft:kiwijellyItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
+        	{"data": {"name": "harvestcraft:lemonjellyItem", "meta": 0, "min": 1, "max": 3}, "weight": 10}
+
+
+      ]
+    },
+	{"level": 2, "loot_pools": [{"type": "FOOD", "each": true, "quantity": 5}, {"type": "ARMOUR", "each": true, "quantity": 3}], "loot": [
+        	{"data": {"name": "harvestcraft:porksausageItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
+        	{"data": {"name": "harvestcraft:raspberrytrifleItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
+        	{"data": {"name": "harvestcraft:sausageItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
+        	{"data": {"name": "harvestcraft:sausagerollItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
+        	{"data": {"name": "harvestcraft:museliItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
+        	{"data": {"name": "harvestcraft:carprawItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
+        	{"data": {"name": "harvestcraft:dimsumItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
+        	{"data": {"name": "harvestcraft:friedpecanokraItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
+        	{"data": {"name": "harvestcraft:bbqpulledporkItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
+        	{"data": {"name": "harvestcraft:pepperoniItem", "meta": 0, "min": 1, "max": 3}, "weight": 10},
+        	{"data": {"name": "harvestcraft:pickledonionsItem", "meta": 0, "min": 1, "max": 3}, "weight": 10}
+    ]
+    },
+    {"level": 1, "loot_pools": [{"type": "FOOD", "each": true, "quantity": 5}, {"type": "ARMOUR", "each": true, "quantity": 4}], "loot": [
+        	{"data": {"name": "harvestcraft:creamcookieItem", "meta": 0, "min": 1, "max": 3}, "weight": 20},
+        	{"data": {"name": "harvestcraft:creamofavocadosoupItem", "meta": 0, "min": 1, "max": 3}, "weight": 20},
+        	{"data": {"name": "harvestcraft:creamedbroccolisoupItem", "meta": 0, "min": 1, "max": 3}, "weight": 20},
+        	{"data": {"name": "harvestcraft:creamedcornItem", "meta": 0, "min": 1, "max": 3}, "weight": 20},
+        	{"data": {"name": "harvestcraft:peachesandcreamoatmealItem", "meta": 0, "min": 1, "max": 3}, "weight": 20},
+        	{"data": {"name": "harvestcraft:coconutcreamItem", "meta": 0, "min": 1, "max": 3}, "weight": 20}
+      ]
+    },
+	{"level": 3, "loot_pools": [{"type": "FOOD", "each": true, "quantity": 6}, {"type": "ARMOUR", "each": true, "quantity": 4}], "loot": [
+        	{"data": {"name": "harvestcraft:chickensandwichItem", "meta": 0, "min": 1, "max": 3}, "weight": 20},
+        	{"data": {"name": "harvestcraft:fishsandwichItem", "meta": 0, "min": 1, "max": 3}, "weight": 20},
+        	{"data": {"name": "harvestcraft:leafychickensandwichItem", "meta": 0, "min": 1, "max": 3}, "weight": 20},
+        	{"data": {"name": "harvestcraft:leafyfishsandwichItem", "meta": 0, "min": 1, "max": 3}, "weight": 20},
+        	{"data": {"name": "gregtech:gt.metaitem.02", "meta": 32231, "min": 1, "max": 3}, "weight": 20},
+        	{"data": {"name": "gregtech:gt.metaitem.02", "meta": 32232, "min": 1, "max": 3}, "weight": 20},
+        	{"data": {"name": "gregtech:gt.metaitem.02", "meta": 32244, "min": 1, "max": 3}, "weight": 20},
+        	{"data": {"name": "gregtech:gt.metaitem.02", "meta": 32243, "min": 1, "max": 3}, "weight": 20},
+        	{"data": {"name": "gregtech:gt.metaitem.02", "meta": 32242, "min": 1, "max": 3}, "weight": 20},
+        	{"data": {"name": "gregtech:gt.metaitem.02", "meta": 32241, "min": 1, "max": 3}, "weight": 20},
+        	{"data": {"name": "gregtech:gt.metaitem.02", "meta": 32234, "min": 1, "max": 3}, "weight": 20},
+        	{"data": {"name": "gregtech:gt.metaitem.02", "meta": 32233, "min": 1, "max": 3}, "weight": 20}
+    ]
+    },
+    {
+	"level": 4, "loot_pools": [{"type": "FOOD", "each": true, "quantity": 6}, {"type": "ARMOUR", "each": true, "quantity": 4}], "loot": [
+        	{"data": {"name": "harvestcraft:beetburgerItem", "meta": 0, "min": 1, "max": 3}, "weight": 20},
+        	{"data": {"name": "harvestcraft:baconmushroomburgerItem", "meta": 0, "min": 1, "max": 3}, "weight": 20},
+        	{"data": {"name": "harvestcraft:deluxecheeseburgerItem", "meta": 0, "min": 1, "max": 3}, "weight": 20},
+        	{"data": {"name": "harvestcraft:onionhamburgerItem", "meta": 0, "min": 1, "max": 3}, "weight": 20},
+        	{"data": {"name": "harvestcraft:coleslawburgerItem", "meta": 0, "min": 1, "max": 3}, "weight": 20},
+        	{"data": {"name": "harvestcraft:baconcheeseburgerItem", "meta": 0, "min": 1, "max": 3}, "weight": 20},
+        	{"data": {"name": "harvestcraft:cheeseburgerItem", "meta": 0, "min": 1, "max": 3}, "weight": 20},
+        	{"data": {"name": "harvestcraft:hamburgerItem", "meta": 0, "min": 1, "max": 3}, "weight": 20},
+        	{"data": {"name": "gregtech:gt.metaitem.02", "meta": 32221, "min": 1, "max": 3}, "weight": 20},
+        	{"data": {"name": "gregtech:gt.metaitem.02", "meta": 32222, "min": 1, "max": 3}, "weight": 20},
+        	{"data": {"name": "gregtech:gt.metaitem.02", "meta": 32223, "min": 1, "max": 3}, "weight": 20},
+        	{"data": {"name": "gregtech:gt.metaitem.02", "meta": 32224, "min": 1, "max": 3}, "weight": 20}
+      ]
+    }
+  ]
+}

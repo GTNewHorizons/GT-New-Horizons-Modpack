@@ -1,0 +1,31 @@
+{
+	"name": "loot_supplies",
+	"loot_rules": [
+
+	{"level": [0, 1, 2, 3, 4], "type": "SUPPLIES", "each": true, "quantity": 1, "loot": [
+		{"data": {"name": "Forestry:builderBag", "meta": 0, "weight": 10}},
+		{"data": {"name": "Forestry:diggerBag", "meta": 0, "weight": 10}},
+		{"data": {"name": "Forestry:foresterBag", "meta": 0, "weight": 10}},
+		{"data": {"name": "Forestry:hunterBag", "meta": 0, "weight": 25}},
+		{"data": {"name": "Forestry:minerBag", "meta": 0, "weight": 10}}
+
+      ]
+    },
+	{"level": [0, 1, 2, 3, 4], "type": "SUPPLIES", "each": true, "quantity": 1, "loot": [
+		{"data": {"name": "minecraft:bucket", "meta": 0}}
+
+      ]
+    },
+	{"level": [0, 1, 2, 3, 4], "type": "SUPPLIES", "each": true, "quantity": 2, "loot": [
+		{"data": {"name": "minecraft:golden_apple", "meta": 0}}
+
+      ]
+    },
+	{"level": [0, 1, 2, 3, 4], "type": "SUPPLIES", "each": true, "quantity": 6, "loot": [
+		{"data": {"name": "minecraft:torch", "meta": 0, "min": 4, "max": 24}},
+		{"data": {"name": "minecraft:arrow", "meta": 0, "min": 2, "max": 16}}
+
+      ]
+    }
+  ]
+}

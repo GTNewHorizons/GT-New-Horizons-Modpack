@@ -1,0 +1,9 @@
+{
+	"name": "dungeon_plains",
+  	"criteria": {"biomeTypes": ["PLAINS"]},
+  	"inherit": [
+		"loot_all",
+		"loot_plains",
+		"rooms_plains"
+  ]
+}

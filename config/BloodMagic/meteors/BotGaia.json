@@ -1,0 +1,22 @@
+{
+  "ores": [
+    "Botania:customBrick:4:90",
+    "Botania:seaLamp:0:80",
+    "Botania:prismarine:1:80",
+    "Botania:prismarine:2:80",
+    "Botania:livingwood:5:60",
+    "Botania:storage:0:50",
+    "dreamcraft:tile.ManaPearl:0:40",
+    "dreamcraft:tile.ManaPowder:0:40",
+    "Botania:storage:2:10",
+    "dreamcraft:tile.PixieDust:0:10",
+    "dreamcraft:tile.Gaia:0:2"
+  ],
+  "filler": [
+    "Botania:prismarine:0:80"
+  ],
+  "radius": 7,
+  "cost": 1000000001,
+  "focusItem": "Botania:laputaShard:19",
+  "fillerChance": 50
+}
