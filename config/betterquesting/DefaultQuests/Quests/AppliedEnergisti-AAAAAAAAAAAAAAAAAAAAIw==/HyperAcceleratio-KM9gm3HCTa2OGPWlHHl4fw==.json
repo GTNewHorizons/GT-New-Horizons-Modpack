@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Hyper-Acceleration cards are a faster version of the basic acceleration cards. \n\n[note]Hyper-Acceleration cards can only be placed in:[/note]\n\n§cME IO Port (3)\nME Fluid Import Bus (4)\nME Fluid Export Bus (4)\n\n§r\nIn an IO Port, the Hyper-Acceleration Card will transfer items at a rate of: \n\n§61x Cards: 4,096 items/tick\n2x Cards: 32,768 items/tick\n3x Cards: 262,144 items/tick\n\n§rIn ME Fluid Buses, the Hyper-Acceleration Card will transfer fluids at a rate of:\n\n§61x Cards: 4,096,000 mb/tick\n2x Cards: 32,768,000 mb/tick\n3x Cards: 262,144,000 mb/tick\n\n",
+      "desc:8": "Hyper-Acceleration cards are a faster version of the basic acceleration cards. \n\n[note]Hyper-Acceleration cards can only be placed in:[/note]\n\n§cME IO Port (3)\nME Fluid Import Bus (4)\nME Fluid Export Bus (4)\n\n§rIn an IO Port, the Hyper-Acceleration Card will transfer items at a rate of: \n\n§61x Cards: 4,096 items/tick\n2x Cards: 32,768 items/tick\n3x Cards: 262,144 items/tick\n\n§rIn ME Fluid Buses, the Hyper-Acceleration Card will transfer fluids at a rate of:\n\n§61x Cards: 4,096,000 mb/tick\n2x Cards: 32,768,000 mb/tick\n3x Cards: 262,144,000 mb/tick\n",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,

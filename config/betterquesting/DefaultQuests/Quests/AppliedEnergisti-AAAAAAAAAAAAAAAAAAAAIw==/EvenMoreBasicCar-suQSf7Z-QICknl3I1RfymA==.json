@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "[quest]Overflow Void, Pattern Refiller, and Sticky Cards[/quest]\n\n§6Overflow Void Card: \n\n§fOverflow Void Cards will cause the ME Storage Cell to void excess inputs\n\n§6Pattern Refiller Card: \n\n§fThe Pattern Refiller card will refill empty patterns in your Processing and Fluid Processing Terminals\n\n§6Sticky Card: \n\n§e§fSticky Cards are useful if you want your ME System to only store a filtered item in one location across your entire network. \n\n[warn]Be careful with where you use sticky cards as they can lead to your passive systems jamming. [/warn]\n§f",
+      "desc:8": "[quest]Overflow Void, Pattern Refiller, and Sticky Cards[/quest]\n\n§6Overflow Void Card:§r \n\nOverflow Void Cards will cause the ME Storage Cell to void excess inputs\n\n§6Pattern Refiller Card:§r \n\nThe Pattern Refiller card will refill empty patterns in your Processing and Fluid Processing Terminals.\n\n§6Sticky Card:§r \n\nSticky Cards are useful if you want your ME System to only store a filtered item in one location across your entire network. \n\n[warn]Be careful with where you use sticky cards as they can lead to your passive systems jamming. [/warn]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,

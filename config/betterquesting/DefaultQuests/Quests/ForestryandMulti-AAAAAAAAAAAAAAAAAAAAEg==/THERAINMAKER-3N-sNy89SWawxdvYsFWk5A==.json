@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The Rainmaker is a Forestry block capable of stopping/producing rain \u0026 creating thunderstorms. \n\nThe Rainmaker has no GUI, but can be right clicked with §9§f§93 §fdifferent capsules.\n\n§4Iodine Capsule: Produces Rain\n\nPhosphoric Iodine Capsule: Produces a Thunderstorm\n\nDissipation Charge: Stops Rain\n\n§fThe Rainmaker requires around ~30 seconds after activation for the §o§9rain §fand§9 thunderstorm §fto start. §fThe dissipation charge will stop the rain after a few seconds until the next activation.",
+      "desc:8": "The Rainmaker is a Forestry block capable of stopping/producing rain \u0026 creating thunderstorms.\n\nThe Rainmaker has no GUI, but can be right clicked with §a3§r different capsules:\n\n§cIodine Capsule:§r Produces Rain\n\n§cPhosphoric Iodine Capsule:§r Produces a Thunderstorm\n\n§cDissipation Charge:§r Stops Rain\n\nThe Rainmaker requires around ~30 seconds after activation for the §9rain§r and §9thunderstorm§r to start.\n\nThe dissipation charge will stop the rain after a few seconds until the next activation. ",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
