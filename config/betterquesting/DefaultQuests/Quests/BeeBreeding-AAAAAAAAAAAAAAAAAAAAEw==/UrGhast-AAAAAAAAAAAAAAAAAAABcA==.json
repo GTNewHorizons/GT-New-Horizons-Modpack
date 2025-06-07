@@ -12,7 +12,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Need a lot of magical wood? Well this bee produces carminite.",
+      "desc:8": "Need a lot of magical wood? Well, this bee produces carminite.\n\n[note]This bee requires a Thaumcraft Thaumium block below the apiary to be bred. To get the correct one, chisel a GT Thaumium block[/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
