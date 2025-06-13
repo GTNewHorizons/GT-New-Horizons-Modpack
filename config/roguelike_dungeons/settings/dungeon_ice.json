@@ -1,0 +1,12 @@
+{
+	"name": "dungeon_ice",
+  	"criteria": {"biomeTypes": ["SNOWY"]},
+  	"inherit": [
+		"loot_all",
+		"loot_ice",
+		"theme_ice",
+		"tower_ice",
+		"rooms_ice"
+
+  ]
+}
