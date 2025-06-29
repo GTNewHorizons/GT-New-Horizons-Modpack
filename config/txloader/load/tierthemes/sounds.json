@@ -1,0 +1,137 @@
+{
+  "steam": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "steam",
+        "stream": false
+      }
+    ]
+  },
+  "lv": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "lv",
+        "stream": false
+      }
+    ]
+  },
+  "mv": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "mv",
+        "stream": false
+      }
+    ]
+  },
+  "hv": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "hv",
+        "stream": false
+      }
+    ]
+  },
+  "ev": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "ev",
+        "stream": false
+      }
+    ]
+  },
+  "iv": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "iv",
+        "stream": false
+      }
+    ]
+  },
+  "luv": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "luv-uv",
+        "stream": false
+      }
+    ]
+  },
+  "zpm": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "luv-uv",
+        "stream": false
+      }
+    ]
+  },
+  "uv": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "luv-uv",
+        "stream": false
+      }
+    ]
+  },
+  "uhv": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "uhv-uxv",
+        "stream": false
+      }
+    ]
+  },
+  "uev": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "uhv-uxv",
+        "stream": false
+      }
+    ]
+  },
+  "uiv": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "uhv-uxv",
+        "stream": false
+      }
+    ]
+  },
+  "umv": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "uhv-uxv",
+        "stream": false
+      }
+    ]
+  },
+  "uxv": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "uhv-uxv",
+        "stream": false
+      }
+    ]
+  },
+  "stargate": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "stargate",
+        "stream": false
+      }
+    ]
+  }
+}
