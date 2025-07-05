@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The Manipulator requires both XP levels and centi-vis in order to upgrade foci. Each Focus can be upgraded a total of five times, with the level and vis cost increasing by 8 for each upgrade. Some upgrades can be applied only at certain levels (often only at level 3), and others have prerequisite upgrades. Some upgrades like Frugal and Potency can be applied multiple times. All upgrades are permanent, and there is currently no way to remove them.",
+      "desc:8": "The Focal Manipulator requires both XP levels and centi-vis in order to upgrade foci. Each focus can be upgraded a total of five times, with the level cost increasing by 8 and the vis cost doubling for each upgrade.\n\nMost foci accept Frugal (lowers the vis cost to cast by 10% per level) and Potency (increases damage dealt or improves the focus in another way if it doesn't deal damage) at every level. Foci with an area of effect (like Wand Focus: Equal Trade) accept Enlarge, which usually expands the max area by one block in each direction. Some foci have special upgrades that can only be applied at certain levels (often level 3 or 5), some of which have prerequisite upgrades. See the Focus on Wand Foci & EMT tab for more information about focal upgrades and their effects.\n\nIf you regret your past decisions, you can remove upgrades in the Focal Manipulator if you have the Focal Disenchanting research. It will even refund some of the XP!",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
