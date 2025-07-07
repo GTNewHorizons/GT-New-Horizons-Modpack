@@ -3,28 +3,24 @@
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 238
-    },
-    "1:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 1279
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The Wand Focus: Nine Hells is truly a weapon worthy of your skills. It can fire creatures of the Nether at your enemies!\n\n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]\n§5Frugal§r: Lowers vis cost to cast by 10% per level\n§5Potency§r: Increases damage dealt every level\n§5Bat Bombs§r (level 3): Summoned bats always explode on contact\n§5Devil Bats§r (level 3): Summoned bats are larger, do more damage, and stay around for longer\n§5Vampire Bats§r (level 5): Summoned bats will heal themselves and the caster when they deal damage",
+      "desc:8": "The Wand Focus: Maintenance will fix all problems of a multiblock machine when used on its Maintenance Hatch. It won\u0027t prevent future issues, but it sure beats recharging your Soldering Iron for the 6th time.\n\n[note]This focus accepts the following upgrade in the Focal Manipulator:[/note]\n§F§5Frugal§r: Lowers vis cost to cast by 10% per level",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "Thaumcraft:FocusHellbat"
+        "id:8": "EMT:MaintenanceFocus"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "An Appropriate Weapon",
+      "name:8": "But Duct Tape Already is Magical!",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -36,8 +32,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 289,
+  "questIDHigh:4": -7526997529465109008,
+  "questIDLow:4": -7381838222159086836,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -45,16 +41,16 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 2,
-          "Damage:2": 9,
-          "OreDict:8": "",
-          "id:8": "Thaumcraft:ItemSpawnerEgg"
-        },
-        "1:10": {
           "Count:3": 1,
           "Damage:2": 10,
           "OreDict:8": "",
           "id:8": "enhancedlootbags:lootbag"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "Thaumcraft:ItemLootBag"
         }
       }
     },
@@ -85,7 +81,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "Thaumcraft:FocusHellbat"
+          "id:8": "EMT:MaintenanceFocus"
         }
       },
       "taskID:8": "bq_standard:retrieval"
