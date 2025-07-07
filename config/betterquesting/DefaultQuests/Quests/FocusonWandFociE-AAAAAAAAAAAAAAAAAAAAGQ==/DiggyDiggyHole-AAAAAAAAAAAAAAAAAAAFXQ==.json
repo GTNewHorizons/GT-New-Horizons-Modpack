@@ -8,19 +8,19 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Wand Focus: Equal Trade is a wand focus added by Thaumcraft 4. It is used to switch out blocks in the world with blocks in the player\u0027s inventory. Shift-right-clicking on a block with it equipped will attune the focus to the block, making it the substitute block. Left-clicking on another block will replace it with the substitute block. Right-clicking will transform a 5x5 area of blocks that have air on one side. This can go through walls or into caves, so be careful. This range can be extended by using a Focal Manipulator. Each use costs 0.05 ordo 0.05 perditio and 0.05 terra.\n\nThis focus can be upgraded at the Focal Manipulator.",
+      "desc:8": "The Wand Focus: Excavation emits a green beam of light that will mine blocks of any hardness (except for unbreakable blocks like Bedrock) from a distance.\n\nThis focus is also required to operate the Arcane Bore. Upgrading foci to be used in the Bore with §5Enlarge§r is highly recommended, as it increases the radius by 1 per level.\n\n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]\n§5Frugal§r: Lowers vis cost to cast by 10% per level\n§\n§5Potency§r: Increases block breaking speed every level\n§5Treasure§r: Acts like vanilla Fortune, but does not apply to GT ores\n§5Enlarge§r (even levels): Breaks an extra adjacent block per level\n§5Dowsing§r (level 3): May drop Thaumcraft Native Ores from ores, but does not apply to GT ores\n§5Silk Touch§r (level 5): Acts like vanilla Silk Touch\n",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "Thaumcraft:FocusTrade"
+        "id:8": "Thaumcraft:FocusExcavation"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Wand Focus Equal Trade",
+      "name:8": "Diggy Diggy Hole",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -33,7 +33,7 @@
     }
   },
   "questIDHigh:4": 0,
-  "questIDLow:4": 1375,
+  "questIDLow:4": 1373,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -81,7 +81,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "Thaumcraft:FocusTrade"
+          "id:8": "Thaumcraft:FocusExcavation"
         }
       },
       "taskID:8": "bq_standard:retrieval"

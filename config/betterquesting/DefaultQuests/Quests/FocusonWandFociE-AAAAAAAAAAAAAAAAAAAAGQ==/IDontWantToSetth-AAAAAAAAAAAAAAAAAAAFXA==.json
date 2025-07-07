@@ -8,19 +8,19 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The Wand Focus: Frost when equipped to a wand will launch a ball of ice that can bounce off of blocks and mobs if their hardness is high enough. It will inflict Slowness on mobs, freeze water and solidify lava. Its base vis cost is 0.05 aqua 0.02 ignis and 0.02 perditio per cast.\n\nThis focus can be upgraded at the Focal Manipulator.",
+      "desc:8": "The Wand Focus: Fire is a basic wand focus that is able to spew a short-range cone of fire that deals damage and sets mobs ablaze.\n\n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]\n§5Frugal§r: Lowers vis cost to cast by 10% per level\n§5Potency§r: Increases damage dealt every level\n§5Alchemist\u0027s Fire§r: Hit mobs burn for longer and lights blocks on fire\n§5Fireball§r: The focus now shoots a large, explosive ball of fire which sets the ground on fire if paired with §5Alchemist\u0027s Fire§r\n§5Fire Beam§r: Concentrates the cone of fire into a beam that does more damage and shoots farther",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "Thaumcraft:FocusFrost"
+        "id:8": "Thaumcraft:FocusFire"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Wand Focus Frost",
+      "name:8": "I Don\u0027t Want To Set the World on Fire",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -33,7 +33,7 @@
     }
   },
   "questIDHigh:4": 0,
-  "questIDLow:4": 1376,
+  "questIDLow:4": 1372,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -48,7 +48,7 @@
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 1,
+          "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "Thaumcraft:ItemLootBag"
         }
@@ -60,10 +60,10 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 5,
+          "Count:3": 25,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinDarkWizardI"
+          "id:8": "dreamcraft:item.CoinDarkWizard"
         }
       }
     }
@@ -81,7 +81,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "Thaumcraft:FocusFrost"
+          "id:8": "Thaumcraft:FocusFire"
         }
       },
       "taskID:8": "bq_standard:retrieval"

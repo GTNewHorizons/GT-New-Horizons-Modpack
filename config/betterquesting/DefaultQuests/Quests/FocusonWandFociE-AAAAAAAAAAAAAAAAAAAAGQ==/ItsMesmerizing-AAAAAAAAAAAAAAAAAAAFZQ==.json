@@ -8,19 +8,19 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The Wand Focus: Excavation when equipped to a wand, will emit a green beam of light that will mine blocks of any hardness (except for blocks like Bedrock) from a distance.\n\nIts base vis cost is 0.15 terra per tick that it mines a block. It is also used in operating the Arcane Bore.\n\nThis focus can be upgraded at the Focal Manipulator.",
+      "desc:8": "The Wand Focus: Primal will hurl an orb of primal energy with right-click. The orb explodes on impact, and has a small chance to cause other effects. It sometimes creates taint when it lands, and it can even create a node if it destroys the block it impacts. Its base vis cost constantly fluctuates. [note]Maybe studying it and its projectiles will give you a better understanding of vis.[/note]\n\n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]\n§5Frugal§r: Lowers vis cost to cast by 10% per level\n§5Seeker§r (level 3): The orb homes in on the closest target, but loses some of its special effects like creating taint or nodes\n",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "Thaumcraft:FocusExcavation"
+        "id:8": "Thaumcraft:FocusPrimal"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Wand Focus Excavation",
+      "name:8": "It\u0027s Mesmerizing...",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -33,7 +33,7 @@
     }
   },
   "questIDHigh:4": 0,
-  "questIDLow:4": 1373,
+  "questIDLow:4": 1381,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -42,13 +42,13 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 9,
+          "Damage:2": 10,
           "OreDict:8": "",
           "id:8": "enhancedlootbags:lootbag"
         },
         "1:10": {
-          "Count:3": 1,
-          "Damage:2": 1,
+          "Count:3": 2,
+          "Damage:2": 2,
           "OreDict:8": "",
           "id:8": "Thaumcraft:ItemLootBag"
         }
@@ -60,10 +60,10 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 5,
+          "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinDarkWizardI"
+          "id:8": "dreamcraft:item.CoinDarkWizardII"
         }
       }
     }
@@ -81,7 +81,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "Thaumcraft:FocusExcavation"
+          "id:8": "Thaumcraft:FocusPrimal"
         }
       },
       "taskID:8": "bq_standard:retrieval"

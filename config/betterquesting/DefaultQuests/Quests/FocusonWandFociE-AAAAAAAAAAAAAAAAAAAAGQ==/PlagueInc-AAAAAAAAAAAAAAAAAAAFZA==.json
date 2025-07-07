@@ -2,25 +2,25 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 227
+      "questIDLow:4": 230
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The Wand Focus: Fire is a basic wand focus. When equipped to a wand, it will be able to spew a short-range cone of fire by holding down the right mouse button. Its base vis cost is 0.1 ignis per second.\n\nThis focus can be upgraded at the Focal Manipulator.",
+      "desc:8": "The Pech\u0027s Curse is a rare wand focus which cannot be crafted by the player. It can only be obtained from a Pech Mage -- either by bartering valuable items or by killing it for its wand to drop. Pech Mages are rare and the drop chance is quite low, so bartering is recommended. [warn]If attacked, the Pech will use this focus against you![/warn]\n\nThis focus fires a small ball of energy with a bright bluish-green trail. This missile is affected by gravity, so the shots need to be \"arced\" to hit distant targets. When the shot hits a mob, it does one heart of damage and randomly inflicts one of several effects on the target: Poison, Weakness, or Slowness.\n\n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]\n§5Frugal§r: Lowers vis cost to cast by 10% per level\n§5Potency§r: Increases potency of the applied effect. Being able to apply Weakness 3 to mobs might be useful for Blood Magic...\n§5Extend§r (even levels): Extends the duration of the applied effect\n§5Nightshade§r (level 5): Applies all three effects at once",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "Thaumcraft:FocusFire"
+        "id:8": "Thaumcraft:FocusPech"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Wand Focus Fire",
+      "name:8": "Plague Inc.",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -33,7 +33,7 @@
     }
   },
   "questIDHigh:4": 0,
-  "questIDLow:4": 1372,
+  "questIDLow:4": 1380,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -42,13 +42,13 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 9,
+          "Damage:2": 10,
           "OreDict:8": "",
           "id:8": "enhancedlootbags:lootbag"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 0,
+          "Damage:2": 2,
           "OreDict:8": "",
           "id:8": "Thaumcraft:ItemLootBag"
         }
@@ -60,10 +60,10 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 25,
+          "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinDarkWizard"
+          "id:8": "dreamcraft:item.CoinDarkWizardII"
         }
       }
     }
@@ -81,7 +81,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "Thaumcraft:FocusFire"
+          "id:8": "Thaumcraft:FocusPech"
         }
       },
       "taskID:8": "bq_standard:retrieval"

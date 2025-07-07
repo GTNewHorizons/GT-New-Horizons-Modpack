@@ -2,25 +2,25 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 238
+      "questIDLow:4": 227
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The Wand Focus: Portable Hole when equipped to a wand will create a temporary 3x3 hole centered on the targeted block that will go 32 blocks. Some blocks cannot be passed through, such as Bedrock. Its base vis cost is 0.1 aer and 0.1 perditio per cast.\n\nThis focus can be upgraded at the Focal Manipulator.",
+      "desc:8": "The Wand Focus: Frost will launch a ball of ice that can bounce off of blocks and mobs.\n\n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]\n§F§5Frugal§r: Lowers vis cost to cast by 10% per level\n§5Potency§r: Increases damage dealt every level\n§5Alchemist\u0027s Frost§r (odd levels): Applies Slowness to hit mobs. Higher levels increase the potency of the effect\n§5Scattershot§r (level 3): The focus now shoots a volley of shards that break on impact. The normal damage immunity timer is ignored, so multiple shards can hit the same mob at once and all will deal damage. §5Potency§r increases the number of shards instead of the damage\n§5Ice Boulder§r (level 3): The focus now shoots a larger, bouncier, and deadlier ball of ice",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "Thaumcraft:FocusPortableHole"
+        "id:8": "Thaumcraft:FocusFrost"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Wand Focus Portable Hole",
+      "name:8": "Snowball Fight!",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -33,7 +33,7 @@
     }
   },
   "questIDHigh:4": 0,
-  "questIDLow:4": 1378,
+  "questIDLow:4": 1376,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -42,13 +42,13 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 10,
+          "Damage:2": 9,
           "OreDict:8": "",
           "id:8": "enhancedlootbags:lootbag"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 2,
+          "Damage:2": 1,
           "OreDict:8": "",
           "id:8": "Thaumcraft:ItemLootBag"
         }
@@ -60,10 +60,10 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 1,
+          "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinDarkWizardII"
+          "id:8": "dreamcraft:item.CoinDarkWizardI"
         }
       }
     }
@@ -81,7 +81,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "Thaumcraft:FocusPortableHole"
+          "id:8": "Thaumcraft:FocusFrost"
         }
       },
       "taskID:8": "bq_standard:retrieval"
