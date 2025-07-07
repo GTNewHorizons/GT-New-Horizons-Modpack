@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Wand Focus: Vis Shard can be equipped on any wand. While equipped, it can be right-clicked to cast a homing projectile which deals 2-5 damage points. This projectile can bounce off of solid blocks. If the target is not hit in 10 seconds, the projectile disappears. This focus can be enchanted with Frugal, Potency and Persistent.\n\nThis focus can be upgraded at the Focal Manipulator.",
+      "desc:8": "The Wand Focus: Vis Shard can be used to cast a homing projectile which deals 35 damage. This projectile can bounce off of solid blocks. If the target is not hit in 10 seconds, the projectile disappears.\n\n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]\n§5Frugal§r: Lowers vis cost to cast by 10% per level\n§5Potency§r: Increases damage dealt every level\n§5Persistent§r (level 5): The shard will seek another target if its current one dies or gets out of range",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -20,7 +20,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Wand Focus Vis Shard",
+      "name:8": "Heat-Seeking Vis-sile",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

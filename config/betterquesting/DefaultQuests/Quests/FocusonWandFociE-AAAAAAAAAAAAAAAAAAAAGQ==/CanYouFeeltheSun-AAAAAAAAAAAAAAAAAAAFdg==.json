@@ -20,7 +20,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Wand Focus: Meteorology can be equipped by any wand. When used during rain will stop rain, when used during sunny weather, will start rain. Each cast costs 10 of each primal aspect and will make the caster unable to use any other focus for 30 seconds.",
+      "desc:8": "The Wand Focus: Meteorology can be used to start or stop rain at will. The perfect thing for Water Infused Solar Panels!\n\n[note]This focus accepts the following upgrade in the Focal Manipulator:[/note]\n§F§5Frugal§r: Lowers vis cost to cast by 10% per level",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -32,7 +32,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Wand Focus Meteorology",
+      "name:8": "Can You Feel the Sunshine?",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

@@ -2,25 +2,29 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 1393
+      "questIDLow:4": 1378
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 284
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Wand Focus: Tainted Shockwave will release a powerful shockwave around the caster which travels 15-20 blocks and will damage all mobs in the radius and push them back the same as a Knockback II enchantment. After using this focus the caster will be unable to use any other magic for 15 seconds. The focus can be enchanted with Frugal and Enlarge, each level of Enlarge will add 1 block to the shockwave radius. Each cast costs 10 Aqua + 5 Ordo + 10 Terra + 10 Perditio.\n\nThis focus can be upgraded at the Focal Manipulator.",
+      "desc:8": "The Wand Focus: Dark Matter allows the player to shoot the same projectiles as Eldritch Guardians. Can be upgraded with Potency, Frugal, Sanity, Diffusion and Corrosive. For each projectile cast the player will get Temporary Warp. This will not happen if the focus is enchanted with Sanity. Enchanting the focus with Diffusion will change its firing mode from single projectiles to short-range black gas which acts as a flamethrower.\n\n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]\n§5Frugal§r: Lowers vis cost to cast by 10% per level\n§5Potency§r: Increases damage dealt and increases the number of bubbles every level\n§5Corrosive (level 3): The caster will no longer get Flux Flu\n§5Diffusion§r (level ): The tainted bubbles fan out across a wider area\n§5Sanity§r (level 5): The tainted bubbles inflict the Wither effect instead of Poison",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "TaintedMagic:ItemFocusTaintedBlast"
+        "id:8": "TaintedMagic:ItemFocusEldritch"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Wand Focus Tainted Shockwave",
+      "name:8": "A Taste of Their Own Medicine",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -33,7 +37,7 @@
     }
   },
   "questIDHigh:4": 0,
-  "questIDLow:4": 1394,
+  "questIDLow:4": 1396,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -47,7 +51,7 @@
           "id:8": "enhancedlootbags:lootbag"
         },
         "1:10": {
-          "Count:3": 1,
+          "Count:3": 2,
           "Damage:2": 2,
           "OreDict:8": "",
           "id:8": "Thaumcraft:ItemLootBag"
@@ -60,7 +64,7 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 2,
+          "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "dreamcraft:item.CoinDarkWizardII"
@@ -81,7 +85,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "TaintedMagic:ItemFocusTaintedBlast"
+          "id:8": "TaintedMagic:ItemFocusEldritch"
         }
       },
       "taskID:8": "bq_standard:retrieval"

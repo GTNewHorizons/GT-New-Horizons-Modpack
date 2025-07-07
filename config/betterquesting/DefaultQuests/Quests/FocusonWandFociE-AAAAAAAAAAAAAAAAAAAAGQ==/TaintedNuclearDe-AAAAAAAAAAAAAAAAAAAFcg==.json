@@ -2,29 +2,25 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 1378
-    },
-    "1:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 284
+      "questIDLow:4": 1393
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Wand Focus: Dark Matter allows the player to cast the projectiles Eldritch Guardians cast. Can be upgraded with Potency, Frugal, Sanity, Diffusion and Corrosive. For each projectile cast the player will get Temporary Warp. This will not happen if the focus is enchanted with Sanity. Enchanting the focus with Diffusion will change its firing mode from single projectiles to short-range black gas which acts as a flamethrower.\n\nEach cast costs 0.2 Ignis + 0.2 Perditio. With Corrosive each cast will cost additionally 0.2 Aqua + 0.3 Ignis\n\nThis focus can be upgraded at the Focal Manipulator.",
+      "desc:8": "The Wand Focus: Tainted Shockwave will release a powerful shockwave around the caster which travels 10 blocks away, damaging all mobs in the radius and launching them into the air. After using this focus, the caster will be unable to use any other foci for 6 seconds.\n\n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]\n§5Frugal§r: Lowers vis cost to cast by 10% per level\n§5Potency§r: Increases damage dealt every level\n§5Enlarge§r: Increases the radius by 2 blocks per level. This also adds 2.5 Perditio, Terra, and Aqua to the casting cost per level",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "TaintedMagic:ItemFocusEldritch"
+        "id:8": "TaintedMagic:ItemFocusTaintedBlast"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Wand Focus Dark Matter",
+      "name:8": "Tainted Nuclear Detonation",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -37,7 +33,7 @@
     }
   },
   "questIDHigh:4": 0,
-  "questIDLow:4": 1396,
+  "questIDLow:4": 1394,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -51,7 +47,7 @@
           "id:8": "enhancedlootbags:lootbag"
         },
         "1:10": {
-          "Count:3": 2,
+          "Count:3": 1,
           "Damage:2": 2,
           "OreDict:8": "",
           "id:8": "Thaumcraft:ItemLootBag"
@@ -64,7 +60,7 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 5,
+          "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "dreamcraft:item.CoinDarkWizardII"
@@ -85,7 +81,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "TaintedMagic:ItemFocusEldritch"
+          "id:8": "TaintedMagic:ItemFocusTaintedBlast"
         }
       },
       "taskID:8": "bq_standard:retrieval"
