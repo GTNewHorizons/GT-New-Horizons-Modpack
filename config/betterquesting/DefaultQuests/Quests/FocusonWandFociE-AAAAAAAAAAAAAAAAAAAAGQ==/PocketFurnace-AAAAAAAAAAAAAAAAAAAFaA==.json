@@ -2,13 +2,9 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 227
-    },
-    "1:10": {
-      "questIDHigh:4": 0,
       "questIDLow:4": 1372
     },
-    "2:10": {
+    "1:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 1373
     }
@@ -16,7 +12,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The Wand Focus: Efreet\u0027s Flame is a Wand Focus that smelts blocks like a Furnace would when pointed and fired at them. It shoots a beam similar to the Wand Focus: Excavation. Each usage consumes 0.45 Ignis and 0.12 Perditio\n\nThis focus can be upgraded at the Focal Manipulator.",
+      "desc:8": "Wand Focus: Efreet\u0027s Flame shoots a beam similar to the Wand Focus: Excavation that smelts blocks like a Furnace.\n\n[note]This focus accepts the following upgrade in the Focal Manipulator:[/note]\n§F§5Frugal§r: Lowers vis cost to cast by 10% per level",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -28,7 +24,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Wand Focus Efreet\u0027s Flame",
+      "name:8": "Pocket Furnace",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

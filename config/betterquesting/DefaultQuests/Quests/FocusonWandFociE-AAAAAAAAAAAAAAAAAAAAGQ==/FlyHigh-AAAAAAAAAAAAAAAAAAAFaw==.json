@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The Wand Focus: Uprising is a wand focus that propels the player in the direction they\u0027re facing. When used, the focus consumes 0.15 Aer per cast.\n\nThis focus can be upgraded at the Focal Manipulator.",
+      "desc:8": "The Wand Focus: Uprising propels its caster forward. It works well to gain height to glide for long distances or to scale tall obstacles. Fall damage is only reset when cast, so be careful when using it!\n\n[note]This focus accepts the following upgrade in the Focal Manipulator:[/note]\n§F§5Frugal§r: Lowers vis cost to cast by 10% per level",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -20,7 +20,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Wand Focus Uprising",
+      "name:8": "Fly High!",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

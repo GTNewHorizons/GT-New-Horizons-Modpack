@@ -2,29 +2,25 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 1380
-    },
-    "1:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 238
+      "questIDLow:4": 1387
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The Wand Focus: Mending is a wand focus that will slowly mend the Caster\u0027s wounds by expending Vis. The Focus consumes 0.45 Aqua and 0.45 Terra per cast, healing half a heart (1 health).\n\nThis focus can be upgraded at the Focal Manipulator.",
+      "desc:8": "The Wand Focus: Distortion protects the caster from \"ordinary\" projectiles such as arrows, snowballs, and potions while right-click is held.\n\n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]\n§F§5Frugal§r: Lowers vis cost to cast by 10% per level\n§5Enlarge§r (even levels): Expands the projectile deflection range by 1 block in each direction per level",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "ThaumicTinkerer:focusHeal"
+        "id:8": "ThaumicTinkerer:focusDeflect"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Wand Focus Mending",
+      "name:8": "Projectile Protection V",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -37,7 +33,7 @@
     }
   },
   "questIDHigh:4": 0,
-  "questIDLow:4": 1386,
+  "questIDLow:4": 1388,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -46,13 +42,13 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 10,
+          "Damage:2": 9,
           "OreDict:8": "",
           "id:8": "enhancedlootbags:lootbag"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 2,
+          "Damage:2": 1,
           "OreDict:8": "",
           "id:8": "Thaumcraft:ItemLootBag"
         }
@@ -64,10 +60,10 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 1,
+          "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinDarkWizardII"
+          "id:8": "dreamcraft:item.CoinDarkWizardI"
         }
       }
     }
@@ -85,7 +81,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "ThaumicTinkerer:focusHeal"
+          "id:8": "ThaumicTinkerer:focusDeflect"
         }
       },
       "taskID:8": "bq_standard:retrieval"

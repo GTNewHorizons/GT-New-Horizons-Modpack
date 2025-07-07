@@ -2,25 +2,25 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 1378
+      "questIDLow:4": 238
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The Wand Focus: Ender Rift is a Wand Focus that opens the vanilla Ender Chest remotely when the player right-clicks with it. When used, the focus consumes 0.9 Ordo + 0.9 Perditio\n\nThis focus can be upgraded at the Focal Manipulator.",
+      "desc:8": "The Wand Focus: Portable Hole will create a temporary 3x3x32 hole centered on the targeted block. Some blocks cannot be passed through, such as Bedrock or blocks warded by the Wand Focus: Warding.\n\n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]\n§F§5Frugal§r: Lowers vis cost to cast by 10% per level\n§5Enlarge§r§r: Extends the hole by 8 blocks per level\n§5Extend§r: The hole will stay open 3 seconds longer for every level",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "ThaumicTinkerer:focusEnderChest"
+        "id:8": "Thaumcraft:FocusPortableHole"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Wand Focus Ender Rift",
+      "name:8": "Keep it Away from Bags of Holding",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -33,7 +33,7 @@
     }
   },
   "questIDHigh:4": 0,
-  "questIDLow:4": 1389,
+  "questIDLow:4": 1378,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -81,7 +81,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "ThaumicTinkerer:focusEnderChest"
+          "id:8": "Thaumcraft:FocusPortableHole"
         }
       },
       "taskID:8": "bq_standard:retrieval"

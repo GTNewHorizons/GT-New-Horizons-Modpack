@@ -2,29 +2,29 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 238
+      "questIDLow:4": 1387
     },
     "1:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 1375
+      "questIDLow:4": 238
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Wand Focus: Dislocation allows the user to take and place any blocks, even Tile Entities and things usually unobtainable, like Aura Nodes, Energized Nodes, Spawners, planted IC2 Crops, and others.\n\n[warn]Please use responsibly, and don\u0027t move things you shouldn\u0027t, like door halves, or some multiblock parts, unless you like the idea of world corruption destroying your world. That said, if you\u0027ve backed up and play SP, do whatever, so long as you don\u0027t complain to us about it.[/warn]\n\n[note]Moving Nodes can cause massive Flux explosions, so handle with care.[/note]\n\nIt uses:\n5 Ordo + 5 Perditio + 1 Terra to take any solid block.\n25 Ordo + 25 Perditio + 5 Terra to take any block with tile entities (such as Chest).\n100 Ordo + 100 Perditio + 20 Terra to take Mob Spawner.\n\nThis focus can be upgraded at the Focal Manipulator.",
+      "desc:8": "The Wand Focus: Telekinesis is a wand focus that can move nearby dropped items. It either moves them where you are pointing with the wand or toward you while sneaking.\n\n[note]This focus accepts the following upgrade in the Focal Manipulator:[/note]\n§F§5Frugal§r: Lowers vis cost to cast by 10% per level",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "ThaumicTinkerer:focusDislocation"
+        "id:8": "ThaumicTinkerer:focusTelekinesis"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Wand Focus Dislocation",
+      "name:8": "It Can\u0027t Bend Spoons",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -37,7 +37,7 @@
     }
   },
   "questIDHigh:4": 0,
-  "questIDLow:4": 1385,
+  "questIDLow:4": 1390,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -46,13 +46,13 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 10,
+          "Damage:2": 9,
           "OreDict:8": "",
           "id:8": "enhancedlootbags:lootbag"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 2,
+          "Damage:2": 1,
           "OreDict:8": "",
           "id:8": "Thaumcraft:ItemLootBag"
         }
@@ -64,10 +64,10 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 1,
+          "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinDarkWizardII"
+          "id:8": "dreamcraft:item.CoinDarkWizardI"
         }
       }
     }
@@ -85,7 +85,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "ThaumicTinkerer:focusDislocation"
+          "id:8": "ThaumicTinkerer:focusTelekinesis"
         }
       },
       "taskID:8": "bq_standard:retrieval"
