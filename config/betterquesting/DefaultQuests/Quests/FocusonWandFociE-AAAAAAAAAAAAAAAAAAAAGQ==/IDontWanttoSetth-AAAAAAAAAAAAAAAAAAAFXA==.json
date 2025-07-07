@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Wand Focus: Fire is a basic wand focus that is able to spew a short-range cone of fire that deals damage and sets mobs ablaze.\n\n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]\n§5Frugal§r: Lowers vis cost to cast by 10% per level\n§5Potency§r: Increases damage dealt every level\n§5Alchemist\u0027s Fire§r: Hit mobs burn for longer and lights blocks on fire\n§5Fireball§r: The focus now shoots a large, explosive ball of fire which sets the ground on fire if paired with §5Alchemist\u0027s Fire§r\n§5Fire Beam§r: Concentrates the cone of fire into a beam that does more damage and shoots farther",
+      "desc:8": "Wand Focus: Fire is a basic wand focus that is able to spew a short-range cone of fire that deals damage and sets mobs ablaze.\n\n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]\n§5Frugal§r: Lowers vis cost to cast by 10% per level\n§5Potency§r: Increases damage dealt every level\n§5Alchemist\u0027s Fire§r (even levels): Hit mobs burn for longer and lights blocks on fire\n§5Fireball§r (level 3): The focus now shoots a large, explosive ball of fire which sets the ground on fire if paired with §5Alchemist\u0027s Fire§r\n§5Fire Beam§r (level 3): Concentrates the cone of fire into a beam that does more damage and shoots farther",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
