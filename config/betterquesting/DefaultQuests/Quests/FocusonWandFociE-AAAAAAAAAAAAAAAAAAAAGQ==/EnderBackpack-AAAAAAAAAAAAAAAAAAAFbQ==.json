@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The Wand Focus: Ender Rift opens your vanilla Personal Ender Chest when used. It can also be attuned to an Ender Chest from Ender Storage with shift-right-click. Shift-right-click a block of obsidian to set it back to your Personal Ender Chest.\n\n[note]This focus accepts the following upgrade in the Focal Manipulator:[/note]\n§F§5Frugal§r: Lowers vis cost to cast by 10% per level",
+      "desc:8": "The Wand Focus: Ender Rift opens your vanilla Personal Ender Chest when used. It can also be attuned to an Ender Chest from Ender Storage with shift-right-click. Shift-right-click a block of obsidian to set it back to your Personal Ender Chest.\n\n[note]This focus accepts the following upgrade in the Focal Manipulator:[/note]\n§5Frugal§r: Lowers vis cost to cast by 10% per level",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

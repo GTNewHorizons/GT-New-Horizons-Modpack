@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The Wand Focus: Blink is a very powerful focus that allows its user to teleport anywhere in sight, as long as the destination is less than 50 blocks away. There is no teleport cooldown, so it can be used to travel very quickly in the right conditions.\n\n[note]This focus accepts the following upgrade in the Focal Manipulator:[/note]\n§F§5Frugal§r: Lowers vis cost to cast by 10% per level",
+      "desc:8": "The Wand Focus: Blink is a very powerful focus that allows its user to teleport anywhere in sight, as long as the destination is less than 50 blocks away. There is no teleport cooldown, so it can be used to travel very quickly in the right conditions.\n\n[note]This focus accepts the following upgrade in the Focal Manipulator:[/note]\n§5Frugal§r: Lowers vis cost to cast by 10% per level",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

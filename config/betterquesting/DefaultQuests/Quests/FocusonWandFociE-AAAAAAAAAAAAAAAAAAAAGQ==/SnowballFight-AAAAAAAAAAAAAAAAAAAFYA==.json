@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The Wand Focus: Frost will launch a ball of ice that can bounce off of blocks and mobs.\n\n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]\n§F§5Frugal§r: Lowers vis cost to cast by 10% per level\n§5Potency§r: Increases damage dealt every level\n§5Alchemist\u0027s Frost§r (odd levels): Applies Slowness to hit mobs. Higher levels increase the potency of the effect\n§5Scattershot§r (level 3): The focus now shoots a volley of shards that break on impact. The normal damage immunity timer is ignored, so multiple shards can hit the same mob at once and all will deal damage. §5Potency§r increases the number of shards instead of the damage\n§5Ice Boulder§r (level 3): The focus now shoots a larger, bouncier, and deadlier ball of ice",
+      "desc:8": "The Wand Focus: Frost will launch a ball of ice that can bounce off of blocks and mobs.\n\n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]\n§5Frugal§r: Lowers vis cost to cast by 10% per level\n§5Potency§r: Increases damage dealt every level\n§5Alchemist\u0027s Frost§r (odd levels): Applies Slowness to hit mobs. Higher levels increase the potency of the effect\n§5Scattershot§r (level 3): The focus now shoots a volley of shards that break on impact. The normal damage immunity timer is ignored, so multiple shards can hit the same mob at once and all will deal damage. §5Potency§r increases the number of shards instead of the damage\n§5Ice Boulder§r (level 3): The focus now shoots a larger, bouncier, and deadlier ball of ice",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

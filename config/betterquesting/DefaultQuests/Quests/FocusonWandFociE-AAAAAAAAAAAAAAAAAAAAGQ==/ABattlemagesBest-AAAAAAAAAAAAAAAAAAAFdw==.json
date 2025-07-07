@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The Wand Focus: Mage\u0027s Mace can be equipped by any wand and will boost its attack damage to 30 hearts. Equipping it to a staff will deal double damage.\n\n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]\n§5Frugal§r: Lowers vis cost to cast by 10% per level\n§5Potency§r: Increases damage dealt every level\n§5Bloodlust§r: Slain mobs may drop Crystal Blood like when killed with a Crystal Dagger",
+      "desc:8": "The Wand Focus: Mage\u0027s Mace can be equipped by any wand and will boost its attack damage to 30 hearts. Equipping it to a staff will deal double damage.\n\n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]\n§5Frugal§r: Lowers vis cost to cast by 10% per level\n§5Potency§r: Increases damage dealt every level\n§5Bloodlust§r (level 5): Slain mobs may drop Crystal Blood like when killed with a Crystal Dagger",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

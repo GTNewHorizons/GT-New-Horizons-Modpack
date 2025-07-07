@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The Wand Focus: Distortion protects the caster from \"ordinary\" projectiles such as arrows, snowballs, and potions while right-click is held.\n\n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]\n§F§5Frugal§r: Lowers vis cost to cast by 10% per level\n§5Enlarge§r (even levels): Expands the projectile deflection range by 1 block in each direction per level",
+      "desc:8": "The Wand Focus: Distortion protects the caster from \"ordinary\" projectiles such as arrows, snowballs, and potions while right-click is held.\n\n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]\n§5Frugal§r: Lowers vis cost to cast by 10% per level\n§5Enlarge§r (even levels): Expands the projectile deflection range by 1 block in each direction per level",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
