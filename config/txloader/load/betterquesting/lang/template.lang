@@ -11679,10 +11679,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEUQ.desc=The second ritual will not be a
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEpw.name=Magic "Staffter"
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEpw.desc=It is also possible to create a bizarre hybrid of staff and scepter (sometimes called a "staffter"), by using a staff core instead of a wand core in the scepter recipe. The resulting device can neither hold a focus nor be placed in a crafting table, but it can still be used to activate constructs, or as a "vis battery" for Repair-enchanted equipment or Runic shielding.
 
-# Quest: Pimp Your Wand Focus
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFZg.name=Pimp Your Wand Focus
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFZg.desc=The Manipulator requires both XP levels and centi-vis in order to upgrade foci. Each Focus can be upgraded a total of five times, with the level and vis cost increasing by 8 for each upgrade. Some upgrades can be applied only at certain levels (often only at level 3), and others have prerequisite upgrades. Some upgrades like Frugal and Potency can be applied multiple times. All upgrades are permanent, and there is currently no way to remove them.
-
 # Quest: Advanced Node Stabilizer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFZw.name=Advanced Node Stabilizer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFZw.desc=The advanced node stabilizer acts like a normal node stabilizer but with key differences. It will still stop the node it affects from being drained but the node can still drain from other, lesser nodes. It also has a higher chance to improve fading and unstable nodes. The downside is that any nodes it affects will have their recharge rates effectively reduced to nothing. They will recharge at an extremely reduced rate.
@@ -11868,10 +11864,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABSA.desc=Hermione's first years bag.
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABSQ.name=Where Do the Items Go?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABSQ.desc=It's probably better not to ask...
 
-# Quest: Magical Waystones
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABSg.name=Magical Waystones
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABSg.desc=This can be used to go back to a Celestial Gateway if you have a bound Celestial Pearl in your hotbar. It will use the leftmost one in your hotbar, so you can carry multiple to travel around with!
-
 # Quest: Why Walk...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABSw.name=Why Walk...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABSw.desc=...when you can teleport? This little device allows you to teleport around almost for free. Is it cheaty? Is it OP? Nope, it's a celestial gateway!%n%n10 can be set per device, so get creative! ...Unless you want to go to other Dims, which it can't do. But hey, faster travel around your base!
@@ -11911,7 +11903,7 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAAGQ.desc=Do you know which wand focu
 
 # Quest: An Appropriate Weapon
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABIQ.name=An Appropriate Weapon
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABIQ.desc=I should a weapon worthy of my skills. Something then can fire creatures of the nether at enemies!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABIQ.desc=The Wand Focus: Nine Hells is truly a weapon worthy of your skills. It can fire creatures of the Nether at your enemies!%n%n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]%n§5Frugal§r: Lowers vis cost to cast by 10%% per level%n§5Potency§r: Increases damage dealt every level%n§5Bat Bombs§r (level 3): Summoned bats always explode on contact%n§5Devil Bats§r (level 3): Summoned bats are larger, do more damage, and stay around for longer%n§5Vampire Bats§r (level 5): Summoned bats will heal themselves and the caster when they deal damage
 
 # Quest: Dropped in Asgard, Fallen to Earth
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFQg.name=Dropped in Asgard, Fallen to Earth
@@ -11943,7 +11935,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFTg.desc=This device allows you to charg
 
 # Quest: Press and Hold the B Button to Block!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFTw.name=Press and Hold the B Button to Block!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFTw.desc=This focus allows you to block any incoming damage. Sneak away if you're fighting an enemy too strong for you!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFTw.desc=The Wand Focus: Shield creates a shield around you which blocks any incoming damage and removes potion effects. Sneak away if you're fighting an enemy too strong for you!%n%n[note]This focus accepts the following upgrade in the Focal Manipulator:[/note]%n§5Frugal§r: Lowers vis cost to cast by 10%% per level
 
 # Quest: Reactor Shielding 2.0
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFUA.name=Reactor Shielding 2.0
@@ -11957,109 +11949,117 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFUQ.desc=You found a yellow-ish glowing 
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFUg.name=The One Ring
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFUg.desc=So you found it. The One Ring, forged by a mighty Dark Wizard. A strange feeling tells you to put it on. The Ring seems to whisper to you as well...%n%n[warn]Yeah, maybe don't do that. Unless you like tons of warp and withers spawning on your ass, blowing up your base.[/warn]%n%nThe ring may make you §1invisible§r and §1invincible§r, but not only does it collect §5warp§r itself, it piles it on you as well. After an hour the amount SIGNIFICANTLY increases so try not to wear it that long unless you have a pure tear handy. You can also expect other effects, and the ring to not want to come off either.
 
-# Quest: Wand Focus Fire
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFXA.name=Wand Focus Fire
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFXA.desc=The Wand Focus: Fire is a basic wand focus. When equipped to a wand, it will be able to spew a short-range cone of fire by holding down the right mouse button. Its base vis cost is 0.1 ignis per second.%n%nThis focus can be upgraded at the Focal Manipulator.
+# Quest: I Don't Want to Set the World on Fire
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFXA.name=I Don't Want to Set the World on Fire
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFXA.desc=Wand Focus: Fire is a basic wand focus that is able to spew a short-range cone of fire that deals damage and sets mobs ablaze.%n%n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]%n§5Frugal§r: Lowers vis cost to cast by 10%% per level%n§5Potency§r: Increases damage dealt every level%n§5Alchemist's Fire§r (even levels): Hit mobs burn for longer and lights blocks on fire%n§5Fireball§r (level 3): The focus now shoots a large, explosive ball of fire which sets the ground on fire if paired with §5Alchemist's Fire§r%n§5Fire Beam§r (level 3): Concentrates the cone of fire into a beam that does more damage and shoots farther
 
-# Quest: Wand Focus Excavation
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFXQ.name=Wand Focus Excavation
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFXQ.desc=The Wand Focus: Excavation when equipped to a wand, will emit a green beam of light that will mine blocks of any hardness (except for blocks like Bedrock) from a distance.%n%nIts base vis cost is 0.15 terra per tick that it mines a block. It is also used in operating the Arcane Bore.%n%nThis focus can be upgraded at the Focal Manipulator.
+# Quest: Diggy Diggy Hole
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFXQ.name=Diggy Diggy Hole
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFXQ.desc=The Wand Focus: Excavation emits a green beam of light that will mine blocks of any hardness (except for unbreakable blocks like Bedrock) from a distance.%n%nThis focus is also required to operate the Arcane Bore. Upgrading foci to be used in the Bore with §5Enlarge§r is highly recommended, as it increases the radius by 1 per level.%n%n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]%n§5Frugal§r: Lowers vis cost to cast by 10%% per level%n§5Potency§r: Increases block breaking speed every level%n§5Treasure§r: Acts like vanilla Fortune, but does not apply to GT ores%n§5Enlarge§r (even levels): Breaks an extra adjacent block per level%n§5Dowsing§r (level 3): May drop Thaumcraft Native Ores from ores, but does not apply to GT ores%n§5Silk Touch§r (level 5): Acts like vanilla Silk Touch%n
 
-# Quest: Wand Focus Shock
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFXg.name=Wand Focus Shock
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFXg.desc=The Wand Focus: Shock when equipped to a wand will shoot a bolt of lightning when the right mouse button is pressed. It homes in slightly to the nearest mob/player from where it is aimed. Its base vis cost is 0.25 air per cast.%n%nThis focus can be upgraded at the Focal Manipulator.
+# Quest: Bzzap!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFXg.name=Bzzap!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFXg.desc=The Wand Focus: Shock will shoot a bolt of lightning. It homes in slightly to the nearest mob/player from where it is aimed. It is even fast enough to hit Endermen before they can teleport away!%n%n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]%n§5Frugal§r: Lowers vis cost to cast by 10%% per level%n§5Potency§r: Increases damage dealt every level%n§5Chain Lightning§r (level 3): The lightning bolt now arcs to two nearby creatures. Great for dealing with bats from warp!%n§5Earth Shock§r (level 3): The focus now shoots a ball of lightning that leaves the ground electrified%n§5Enlarge§r (requires §5Chain Lightning§r): The lightning bolt arcs to two additional targets per level. Show those bats who's boss!
 
-# Quest: Wand Focus Equal Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFXw.name=Wand Focus Equal Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFXw.desc=Wand Focus: Equal Trade is a wand focus added by Thaumcraft 4. It is used to switch out blocks in the world with blocks in the player's inventory. Shift-right-clicking on a block with it equipped will attune the focus to the block, making it the substitute block. Left-clicking on another block will replace it with the substitute block. Right-clicking will transform a 5x5 area of blocks that have air on one side. This can go through walls or into caves, so be careful. This range can be extended by using a Focal Manipulator. Each use costs 0.05 ordo 0.05 perditio and 0.05 terra.%n%nThis focus can be upgraded at the Focal Manipulator.
+# Quest: Trade Offer
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFXw.name=Trade Offer
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFXw.desc=Wand Focus: Equal Trade is able to switch out blocks in the world with blocks in the player's inventory. Shift-right-click on a block to attune the focus to the block. Once attuned to a block, left-click on a single block to replace it with the substitute block. Right-click will transform a contiguous 5x5x5 area of the same block that has air on at least one side. This can go through thin walls or into caves, so be careful. Very useful for upgrading EBF coils or for swapping other blocks that are slow to break like Obsidian! It cannot be used to break or place blocks with Tile Entities like chests.%n%n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]%n§5Frugal§r: Lowers vis cost to cast by 10%% per level%n§5Enlarge§r: Expands the maximum range by 1 block in each direction per level%n§5Treasure§r (level 3): Works like vanilla Fortune%n§5Architect§r (level 3): Allows the focus's working area to be modified with the Misc Wand Toggle keybind. Sneaking with the keybind changes which axes are modified. This upgrade also changes the working area to a plane, so be sure to test this upgrade out before committing to it and applying further upgrades%n§5Silk Touch§r (level 5): Works like vanilla Silk Touch
 
-# Quest: Wand Focus Frost
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFYA.name=Wand Focus Frost
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFYA.desc=The Wand Focus: Frost when equipped to a wand will launch a ball of ice that can bounce off of blocks and mobs if their hardness is high enough. It will inflict Slowness on mobs, freeze water and solidify lava. Its base vis cost is 0.05 aqua 0.02 ignis and 0.02 perditio per cast.%n%nThis focus can be upgraded at the Focal Manipulator.
+# Quest: Snowball Fight!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFYA.name=Snowball Fight!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFYA.desc=The Wand Focus: Frost will launch a ball of ice that can bounce off of blocks and mobs.%n%n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]%n§5Frugal§r: Lowers vis cost to cast by 10%% per level%n§5Potency§r: Increases damage dealt every level%n§5Alchemist's Frost§r (odd levels): Applies Slowness to hit mobs. Higher levels increase the potency of the effect%n§5Scattershot§r (level 3): The focus now shoots a volley of shards that break on impact. The normal damage immunity timer is ignored, so multiple shards can hit the same mob at once and all will deal damage. §5Potency§r increases the number of shards instead of the damage%n§5Ice Boulder§r (level 3): The focus now shoots a larger, bouncier, and deadlier ball of ice
 
-# Quest: Wand Focus Warding
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFYQ.name=Wand Focus Warding
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFYQ.desc=The Wand Focus: Warding can be used to make blocks invincible. To ward a block, right-click on it with a wand or staff with this focus on it. This will make the block invincible until it is unwarded by right-clicking it again with the wand. If you attempt to ward glass or other non-opaque blocks, it will break the glass instead. There is a block known as warded glass available within the warded arcana research. You cannot ward Tile Entities either. Take note that only the player who warded the block can unward it.%n%nWarded Blocks are completely indestructible and will produce particle effects similar to runic shielding when the owner or another player tries to break it. Also, blocks that are affected by gravity (such as sand and gravel) will not fall when warded. Warded blocks cannot be affected by any outside influence such as redstone and pistons. The only way to break the warded block is via the owner right-clicking with a wand in hand. Warding a block costs 0.1 aqua, 0.25 ordo and 0.25 terra.%n%nSpecial Note: Warded blocks emit light.%n%nThis focus can be upgraded at the Focal Manipulator.
+# Quest: Magical Base Defense
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFYQ.name=Magical Base Defense
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFYQ.desc=The Wand Focus: Warding can be used to make blocks invincible with right-click. Warding may be removed by right-clicking it again. It is not able to ward transparent blocks like Glass or non-full blocks like slabs, but there is a block known as Warded Glass available with the Warded Arcana research if you want a protected transparent block. It is also unable to ward blocks with Tile Entities like chests. Take note that only the player who warded the block can unward it.%n%nHolding a wand with this focus will show an outline on nearby blocks you have warded. They look normal otherwise. Warded Blocks are [note]completely indestructible[/note] and will produce particle effects similar to runic shielding when a player tries to break them. Blocks will lose any special properties when warded: sand or gravel will not fall, grass will not grow, and packed ice will no longer be slippery. Warded blocks cannot be affected by any outside influence such as redstone or pistons. The only way to break the warded block is via the owner right-clicking with a wand with this focus.%n%n[note]Special Note: Warded blocks emit light. They can also cause quite a bit of lag if used at scale.[/note]%n%n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]%n§5Frugal§r: Lowers vis cost to cast by 10%% per level%n§%n§5Architect§r (level 2): Allows the focus's working area to be modified with the Misc Wand Toggle keybind. Sneaking with the keybind changes which axes are modified. This upgrade increases the maximum area to 7x7x7%n§5Enlarge§r (Requires §5Architect§r)§r: Expands the maximum range by 1 block in each direction per level
 
-# Quest: Wand Focus Portable Hole
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFYg.name=Wand Focus Portable Hole
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFYg.desc=The Wand Focus: Portable Hole when equipped to a wand will create a temporary 3x3 hole centered on the targeted block that will go 32 blocks. Some blocks cannot be passed through, such as Bedrock. Its base vis cost is 0.1 aer and 0.1 perditio per cast.%n%nThis focus can be upgraded at the Focal Manipulator.
+# Quest: Keep it Away from Bags of Holding
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFYg.name=Keep it Away from Bags of Holding
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFYg.desc=The Wand Focus: Portable Hole will create a temporary 3x3x32 hole centered on the targeted block. Some blocks cannot be passed through, such as Bedrock or blocks warded by the Wand Focus: Warding.%n%n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]%n§5Frugal§r: Lowers vis cost to cast by 10%% per level%n§5Enlarge§r: Extends the hole by 8 blocks per level%n§5Extend§r: The hole will stay open 3 seconds longer for every level
 
-# Quest: Wand Focus Pech's Curse
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFZA.name=Wand Focus Pech's Curse
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFZA.desc=The Pech's Curse is a rare wand focus which cannot be crafted by the player. It can only be obtained from a Pech Thaumaturge -- either by trading, or by killing it for the drop. (If attacked, the Pech will use it against you!)  Its vis cost per shot is 0.1 Perditio, 0.1 Terra and 0.1 Aqua.%n%nThe focus fires a small ball of energy with a bright bluish-green trail. This missile is affected by gravity, so the shots need to be "arced" to hit distant targets. When the shot hits a mob, it does one heart of damage and randomly inflicts one of several effects on the target: Poison, Weakness, or Slowness. A 5th-level upgrade to the focus can make it give all the effects at once.%n%nThis focus can be upgraded at the Focal Manipulator.
+# Quest: Plague Inc.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFZA.name=Plague Inc.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFZA.desc=The Wand Focus: Pech's Curse is a rare wand focus which cannot be crafted by players. It can only be obtained from a Pech Mage -- either by bartering valuable items or by killing it for its wand to drop. Pech Mages are rare and the drop chance is quite low, so bartering is recommended. [warn]If attacked, the Pech will use this focus against you![/warn]%n%nThis focus fires a small ball of energy with a bright bluish-green trail. This missile is affected by gravity, so the shots need to be "arced" to hit distant targets. When the shot hits a mob, it does one heart of damage and randomly inflicts one of several effects on the target: Poison, Weakness, or Slowness.%n%n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]%n§5Frugal§r: Lowers vis cost to cast by 10%% per level%n§5Potency§r: Increases potency of the applied effect. Being able to apply Weakness III to mobs might be useful for Blood Magic...%n§5Extend§r (even levels): Extends the duration of the applied effect%n§5Nightshade§r (level 5): Applies all three effects at once
 
-# Quest: Wand Focus Primal
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFZQ.name=Wand Focus Primal
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFZQ.desc=The Wand Focus: Primal will hurl an orb of primal energy while holding right-click with it equipped. The orb explodes on impact, and has a small chance to cause other effects, such as creating taint, or a node at the impact site. Its base vis cost changes every tick.%n%nThis focus can be upgraded at the Focal Manipulator.
+# Quest: It's Mesmerizing...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFZQ.name=It's Mesmerizing...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFZQ.desc=The Wand Focus: Primal will hurl an orb of primal energy with right-click. The orb explodes on impact, and it has a small chance to cause other effects. It sometimes creates taint when it lands, and it very rarely creates a node if it destroys the block it impacts. Its base vis cost constantly fluctuates. [note]Maybe studying it and its projectiles will give you a better understanding of vis.[/note]%n%n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]%n§5Frugal§r: Lowers vis cost to cast by 10%% per level%n§5Seeker§r (level 3): The orb homes in on the closest target, but loses some of its special effects like creating taint or nodes%n
 
-# Quest: Wand Focus Efreet's Flame
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFaA.name=Wand Focus Efreet's Flame
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFaA.desc=The Wand Focus: Efreet's Flame is a Wand Focus that smelts blocks like a Furnace would when pointed and fired at them. It shoots a beam similar to the Wand Focus: Excavation. Each usage consumes 0.45 Ignis and 0.12 Perditio%n%nThis focus can be upgraded at the Focal Manipulator.
+# Quest: Pocket Furnace
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFaA.name=Pocket Furnace
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFaA.desc=Wand Focus: Efreet's Flame shoots a beam similar to the Wand Focus: Excavation that smelts blocks like a Furnace.%n%n[note]This focus accepts the following upgrade in the Focal Manipulator:[/note]%n§5Frugal§r: Lowers vis cost to cast by 10%% per level
 
-# Quest: Wand Focus Dislocation
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFaQ.name=Wand Focus Dislocation
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFaQ.desc=Wand Focus: Dislocation allows the user to take and place any blocks, even Tile Entities and things usually unobtainable, like Aura Nodes, Energized Nodes, Spawners, planted IC2 Crops, and others.%n%n[warn]Please use responsibly, and don't move things you shouldn't, like door halves, or some multiblock parts, unless you like the idea of world corruption destroying your world. That said, if you've backed up and play SP, do whatever, so long as you don't complain to us about it.[/warn]%n%n[note]Moving Nodes can cause massive Flux explosions, so handle with care.[/note]%n%nIt uses:%n5 Ordo + 5 Perditio + 1 Terra to take any solid block.%n25 Ordo + 25 Perditio + 5 Terra to take any block with tile entities (such as Chest).%n100 Ordo + 100 Perditio + 20 Terra to take Mob Spawner.%n%nThis focus can be upgraded at the Focal Manipulator.
+# Quest: Pocket Dolly
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFaQ.name=Pocket Dolly
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFaQ.desc=Wand Focus: Dislocation is a very useful focus that allows its user to take and place nearly any block, even Tile Entities and one that usually can't be moved, like Mob Spawners, planted IC2 Crops, and more.%n%n[warn]Please use responsibly, and don't move things you shouldn't, like door halves, or some multiblock parts, unless you like the idea of world corruption destroying your world. That said, if you're in SP and make a backup, do whatever you want, just know the risks.[/warn]%n%nIt uses:%n5 Ordo + 5 Perditio + 1 Terra to take any mundane block.%n25 Ordo + 25 Perditio + 5 Terra to take any block with a tile entity (such as a Chest).%n100 Ordo + 100 Perditio + 20 Terra to take a Mob Spawner.%n%n[note]This focus accepts the following upgrade in the Focal Manipulator:[/note]%n§5Frugal§r: Lowers vis cost to cast by 10%% per level
 
-# Quest: Wand Focus Mending
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFag.name=Wand Focus Mending
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFag.desc=The Wand Focus: Mending is a wand focus that will slowly mend the Caster's wounds by expending Vis. The Focus consumes 0.45 Aqua and 0.45 Terra per cast, healing half a heart (1 health).%n%nThis focus can be upgraded at the Focal Manipulator.
+# Quest: Medic!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFag.name=Medic!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFag.desc=The Wand Focus: Mending is a wand focus that will slowly mend the caster's wounds by expending Vis. It heals half a heart at a time. It's an invaluable tool in a Blood Mage's arsenal.%n%n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]%n§5Frugal§r: Lowers vis cost to cast by 10%% per level%n§5Potency§r: Increases healing by half a heart per level.
 
-# Quest: Wand Focus Uprising
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFaw.name=Wand Focus Uprising
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFaw.desc=The Wand Focus: Uprising is a wand focus that propels the player in the direction they're facing. When used, the focus consumes 0.15 Aer per cast.%n%nThis focus can be upgraded at the Focal Manipulator.
+# Quest: Fly High!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFaw.name=Fly High!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFaw.desc=The Wand Focus: Uprising propels its caster forward. It works well to gain height to glide for long distances or to scale tall obstacles. Fall damage is only reset when cast, so be careful when using it!%n%n[note]This focus accepts the following upgrade in the Focal Manipulator:[/note]%n§5Frugal§r: Lowers vis cost to cast by 10%% per level
 
-# Quest: Wand Focus Distortion
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFbA.name=Wand Focus Distortion
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFbA.desc=The Wand Focus: Distortion can be equipped on any wand. It protects the caster from "ordinary" projectiles such as arrows, snowballs, and potions. The focus can be enabled by cycling through the foci currently in the player's inventory, which is done with the F-key. The focus consumes 0.04 Aer and 0.08 Ordo per tick from the Vis stored in the wand while in use.%n%nThis focus can be upgraded at the Focal Manipulator.
+# Quest: Projectile Protection V
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFbA.name=Projectile Protection V
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFbA.desc=The Wand Focus: Distortion protects the caster from "ordinary" projectiles such as arrows, snowballs, and potions while right-click is held.%n%n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]%n§5Frugal§r: Lowers vis cost to cast by 10%% per level%n§5Enlarge§r (even levels): Expands the projectile deflection range by 1 block in each direction per level
 
-# Quest: Wand Focus Ender Rift
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFbQ.name=Wand Focus Ender Rift
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFbQ.desc=The Wand Focus: Ender Rift is a Wand Focus that opens the vanilla Ender Chest remotely when the player right-clicks with it. When used, the focus consumes 0.9 Ordo + 0.9 Perditio%n%nThis focus can be upgraded at the Focal Manipulator.
+# Quest: Ender Backpack
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFbQ.name=Ender Backpack
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFbQ.desc=The Wand Focus: Ender Rift opens your vanilla Personal Ender Chest when used. It can also be attuned to an Ender Chest from Ender Storage with shift-right-click. Shift-right-click a block of obsidian to set it back to your Personal Ender Chest.%n%n[note]This focus accepts the following upgrade in the Focal Manipulator:[/note]%n§5Frugal§r: Lowers vis cost to cast by 10%% per level
 
-# Quest: Wand Focus Telekinesis
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFbg.name=Wand Focus Telekinesis
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFbg.desc=Wand Focus: Telekinesis is a wand focus that can move nearby objects such as dropped items, arrows etc. where you are pointing with the wand, or towards you if you hold the shift key while using it. Consumes 0.05 Aer + 0.05 Perditio per tick used.%n%nThis focus can be upgraded at the Focal Manipulator.
+# Quest: It Can't Bend Spoons
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFbg.name=It Can't Bend Spoons
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFbg.desc=The Wand Focus: Telekinesis is a wand focus that can move nearby dropped items. It either moves them where you are pointing with the wand or toward you while sneaking.%n%n[note]This focus accepts the following upgrade in the Focal Manipulator:[/note]%n§5Frugal§r: Lowers vis cost to cast by 10%% per level
 
-# Quest: Wand Focus Experience Drain
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFbw.name=Wand Focus Experience Drain
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFbw.desc=Wand Focus: Experience Drain will drain the player's experience at a rate of 15 xp per tick, restoring vis at a rather fast rate.
+# Quest: Knowledge is Power
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFbw.name=Knowledge is Power
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFbw.desc=The Wand Focus: Experience Drain will drain the player's experience at a rate of 15 xp per tick to restore vis at a rather fast rate.%n%n[note]This focus cannot be upgraded in the Focal Manipulator[/note]
 
 # Quest: Wand Focus Shadow Beam
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFcA.name=Wand Focus Shadow Beam
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFcA.desc=Wand Focus: Shadowbeam shoots a beam of energy that is reflected by any block and damages everything it passes through. The beam travels a rather short distance though. Consumes 0.15 Aer + 0.25 Ordo + 0.25 Perditio per cast.%n%nThis focus can be upgraded at the Focal Manipulator.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFcA.desc=The Wand Focus: Shadowbeam shoots a beam of dark energy that is reflected by any block and damages everything it passes through. The beam travels about 40 blocks and does about 100 damage.%n%n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]%n§5Frugal§r: Lowers vis cost to cast by 10%% per level%n§5Potency§r: Increases damage dealt every level
 
-# Quest: Wand Focus Tainted Storm
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFcQ.name=Wand Focus Tainted Storm
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFcQ.desc=Wand Focus: Tainted Storm can be equipped on any wand and will emit a stream of tainted particles which will damage anything in a short distance and inflict Taint Poison for 5 seconds. The focus will also debuff the caster with Flux Flu III for 10 seconds unless enchanted with Antibody. The focus can be enchanted with Frugal, Potency, Enlarge, Antibody and Corrosive. Each cast costs 0.1 Aqua + 0.1 Perditio%n%nThis focus can be upgraded at the Focal Manipulator.
+# Quest: Weaponized Blight
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFcQ.name=Weaponized Blight
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFcQ.desc=The Wand Focus: Tainted Storm will emit a stream of tainted bubbles which damage anything in a short distance and inflict Poison for 5 seconds. The focus may also debuff the caster with Flux Flu III for 50 seconds.%n%n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]%n§5Frugal§r: Lowers vis cost to cast by 10%% per level%n§5Potency§r: Increases damage dealt and increases the number of bubbles every level%n§5Tainturgy§r (level 3): The caster will no longer get Flux Flu. This adds 0.6 Ordo to the casting cost%n§5Enlarge§r (level 4): The tainted bubbles fan out across a wider area. This adds 0.6 Aer and Aqua to the casting cost%n§5Corrosive§r (level 5): The tainted bubbles inflict the Wither effect instead of Poison. This adds 0.6 Perditio and Ignis to the casting cost
 
-# Quest: Wand Focus Tainted Shockwave
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFcg.name=Wand Focus Tainted Shockwave
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFcg.desc=Wand Focus: Tainted Shockwave will release a powerful shockwave around the caster which travels 15-20 blocks and will damage all mobs in the radius and push them back the same as a Knockback II enchantment. After using this focus the caster will be unable to use any other magic for 15 seconds. The focus can be enchanted with Frugal and Enlarge, each level of Enlarge will add 1 block to the shockwave radius. Each cast costs 10 Aqua + 5 Ordo + 10 Terra + 10 Perditio.%n%nThis focus can be upgraded at the Focal Manipulator.
+# Quest: Tainted Nuclear Detonation
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFcg.name=Tainted Nuclear Detonation
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFcg.desc=The Wand Focus: Tainted Shockwave will release a powerful shockwave around the caster which travels 10 blocks away, damaging all mobs in the radius and launching them into the air. After using this focus, the caster will be unable to use any other foci for 6 seconds.%n%n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]%n§5Frugal§r: Lowers vis cost to cast by 10%% per level%n§5Potency§r: Increases damage dealt every level%n§5Enlarge§r: Increases the radius by 2 blocks per level. This also adds 2.5 Perditio, Terra, and Aqua to the casting cost per level
 
-# Quest: Wand Focus Vis Shard
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFcw.name=Wand Focus Vis Shard
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFcw.desc=Wand Focus: Vis Shard can be equipped on any wand. While equipped, it can be right-clicked to cast a homing projectile which deals 2-5 damage points. This projectile can bounce off of solid blocks. If the target is not hit in 10 seconds, the projectile disappears. This focus can be enchanted with Frugal, Potency and Persistent.%n%nThis focus can be upgraded at the Focal Manipulator.
+# Quest: Heat-Seeking Vis-sile
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFcw.name=Heat-Seeking Vis-sile
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFcw.desc=The Wand Focus: Vis Shard can be used to cast a homing projectile which deals 35 damage. This projectile can bounce off of solid blocks. If the target is not hit in 10 seconds, the projectile disappears.%n%n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]%n§5Frugal§r: Lowers vis cost to cast by 10%% per level%n§5Potency§r: Increases damage dealt every level%n§5Persistent§r (level 5): The shard will seek another target if its current one dies or gets out of range
 
-# Quest: Wand Focus Dark Matter
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFdA.name=Wand Focus Dark Matter
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFdA.desc=Wand Focus: Dark Matter allows the player to cast the projectiles Eldritch Guardians cast. Can be upgraded with Potency, Frugal, Sanity, Diffusion and Corrosive. For each projectile cast the player will get Temporary Warp. This will not happen if the focus is enchanted with Sanity. Enchanting the focus with Diffusion will change its firing mode from single projectiles to short-range black gas which acts as a flamethrower.%n%nEach cast costs 0.2 Ignis + 0.2 Perditio. With Corrosive each cast will cost additionally 0.2 Aqua + 0.3 Ignis%n%nThis focus can be upgraded at the Focal Manipulator.
+# Quest: A Taste of Their Own Medicine
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFdA.name=A Taste of Their Own Medicine
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFdA.desc=The Wand Focus: Dark Matter allows its wielder to shoot the same projectiles as Eldritch Guardians. There is a chance for the caster to gain sticky warp for each projectile cast.%n%n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]%n§5Frugal§r: Lowers vis cost to cast by 10%% per level%n§5Potency§r: Increases damage dealt every level%n§5Corrosive§r (level 3): The orbs now inflict the Wither effect upon their targets%n§5Sanity§r (level 5): The caster will not gain warp from using this focus
 
-# Quest: Wand Focus Time
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFdQ.name=Wand Focus Time
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFdQ.desc=Wand Focus: Time can be equipped by any wand. When used during day, will set the time to dusk. When used during night, will set the time to sunrise. Each cast costs 10 of all primal aspects and will make the player unable to use any other focus for 30 seconds.
+# Quest: So Take Me Back in Time...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFdQ.name=So Take Me Back in Time...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFdQ.desc=The Wand Focus: Time can be used to move time forward by 12 hours. Using this focus at noon will set the time to midnight, while using it at dusk will make it dawn. This focus will also make the player unable to use any other foci for 30 seconds.%n%n[note]This focus accepts the following upgrade in the Focal Manipulator:[/note]%n§5Frugal§r: Lowers vis cost to cast by 10%% per level
 
-# Quest: Wand Focus Meteorology
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFdg.name=Wand Focus Meteorology
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFdg.desc=Wand Focus: Meteorology can be equipped by any wand. When used during rain will stop rain, when used during sunny weather, will start rain. Each cast costs 10 of each primal aspect and will make the caster unable to use any other focus for 30 seconds.
+# Quest: Can You Feel the Sunshine?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFdg.name=Can You Feel the Sunshine?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFdg.desc=The Wand Focus: Meteorology can be used to start or stop rain at will. The perfect thing for Water Infused Solar Panels!%n%n[note]This focus accepts the following upgrade in the Focal Manipulator:[/note]%n§5Frugal§r: Lowers vis cost to cast by 10%% per level
 
-# Quest: Wand Focus Mage's Mace
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFdw.name=Wand Focus Mage's Mace
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFdw.desc=Wand Focus: Mage's Mace can be equipped by any wand and will boost attack damage up to 15 hearts. It can be enchanted with Frugal, Potency and Bloodlust. Each attack with this focus costs 0.5 Perditio.%n%nThis focus can be upgraded at the Focal Manipulator.
+# Quest: A Battlemage's Best Friend
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFdw.name=A Battlemage's Best Friend
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFdw.desc=The Wand Focus: Mage's Mace can be equipped by any wand and will boost its attack damage to 30 hearts. Equipping it to a staff will deal double damage.%n%n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]%n§5Frugal§r: Lowers vis cost to cast by 10%% per level%n§5Potency§r: Increases damage dealt every level%n§5Bloodlust§r (level 5): Slain mobs may drop Crystal Blood like when killed with a Crystal Dagger
 
-# Quest: Wand Focus Blink
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFeA.name=Wand Focus Blink
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFeA.desc=Wand Focus: Blink is a very powerful focus allowing to teleport whenever you click, as long as the destination is less than 50 blocks away from you. But, as there is no teleport cooldown, you can travel extremely fast with it. Consumes 3 Perditio per cast.%n%nThis focus can be upgraded at the Focal Manipulator.
+# Quest: Walking is Too Hard...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFeA.name=Walking is Too Hard...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFeA.desc=The Wand Focus: Blink is a very powerful focus that allows its user to teleport anywhere in sight, as long as the destination is less than 50 blocks away. There is no teleport cooldown, so it can be used to travel very quickly in the right conditions.%n%n[note]This focus accepts the following upgrade in the Focal Manipulator:[/note]%n§5Frugal§r: Lowers vis cost to cast by 10%% per level
+
+# Quest: Scrub, Scrub, Scrub...
+betterquesting.quest.bGdFghCeQfuBhAeMWxJJ8A.name=Scrub, Scrub, Scrub...
+betterquesting.quest.bGdFghCeQfuBhAeMWxJJ8A.desc=The Wand Focus: Flux Scrubber is an incredibly useful focus for the messy or insane thaumaturge. It creates a beam that sucks up flux goo and gas.%n%n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]%n§5Frugal§r: Lowers vis cost to cast by 10%% per level%n§5Potency§r: Speeds up flux cleanup%n§5Crystallization§r: Drops Crystallized Potentia when cleaning up flux at level 1. Drops Crystallized Essence of a random aspect at level 2. Mutually exclusive with §5Warping§r and §5Calming§r%n§5Warping§r: Gives its user temporary warp when used to clean flux. Mutually exclusive with §5Crystallization§r%n§5Calming§r (level 5, requires §5Warping§r): Negates the effect of §5Warping§r. Removes some temporary or sticky warp when used to clean flux. Mutually exclusive with §5Crystallization§r
+
+# Quest: But Duct Tape Already is Magical!
+betterquesting.quest.l4q7oG79RfCZjnE_Ys57DA.name=But Duct Tape Already is Magical!
+betterquesting.quest.l4q7oG79RfCZjnE_Ys57DA.desc=The Wand Focus: Maintenance will fix all problems of a multiblock machine when used on its Maintenance Hatch. It won't prevent future issues, but it sure beats recharging your Soldering Iron for the 6th time.%n%n[note]This focus accepts the following upgrade in the Focal Manipulator:[/note]%n§5Frugal§r: Lowers vis cost to cast by 10%% per level
 
 
 ## Quest Line: Flower Power
@@ -14054,6 +14054,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAxQ.desc=Heat vents are a passive way to
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB2Q.name=§2§lMaking a Better Sword
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB2Q.desc=Now it's time to make your first tinkers sword. First you have to make a blade, a type of guard, and tool rod cast forms. Melt some bronze in the smeltery and cast your tool parts. Tadaa... your first tinkers sword. There are 4 types of guard, changing them gets you a different sword type, see the tinker's book for details.
 
+# Quest: Magical Waystones
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABSg.name=Magical Waystones
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABSg.desc=This can be used to go back to a Celestial Gateway if you have a bound Celestial Pearl in your hotbar. It will use the leftmost one in your hotbar, so you can carry multiple to travel around with!
+
 # Quest: Industrial 3D Copying Machine
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABgw.name=Industrial 3D Copying Machine
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABgw.desc=Need large amounts of chiseled blocks? This is the machine for you.
@@ -14273,6 +14277,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFTA.desc=The last step is to combine the
 # Quest: Light It Up!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFWg.name=Light It Up!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFWg.desc=The arcane lamp creates additional light sources which acts like a Torch in a sphere with a radius of 16 blocks centered on it. This will include caves or other areas behind walls. That might be useful...%n%nWhen attached to the base of an arcane bore, the arcane lamp gains an additional ability: It will light up the tunnel that the bore digs.
+
+# Quest: Pimp Your Wand Focus
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFZg.name=Pimp Your Wand Focus
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFZg.desc=The Focal Manipulator requires both XP levels and centi-vis in order to upgrade foci. Each focus can be upgraded a total of five times, with the level cost increasing by 8 and the vis cost doubling for each upgrade.%n%nMost foci accept Frugal (lowers the vis cost to cast by 10%% per level) and Potency (increases damage dealt or improves the focus in another way if it doesn't deal damage) at every level. Foci with an area of effect (like Wand Focus: Equal Trade) accept Enlarge, which usually expands the max area by one block in each direction. Some foci have special upgrades that can only be applied at certain levels (often level 3 or 5), some of which have prerequisite upgrades. See the Focus on Wand Foci & EMT tab for more information about focal upgrades and their effects.%n%nIf you regret your past decisions, you can remove upgrades in the Focal Manipulator if you have the Focal Disenchanting research. It will even refund some of the XP!
 
 # Quest: Mallard Rust Smelly
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFiA.name=§b§lMallard Rust Smelly
