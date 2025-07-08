@@ -8,18 +8,18 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "With access to even better materials, you can upgrade to a t3 QFT. In this tier, two new skips are available: the final naqline skip and the stem cell skip.\n\nThe second item - Superconductor Rare-Earth Composite. This contributes to promoting the flow of energy, instead of stabilizing the structure like the previous item. Given that damage can be automatically repaired, the focus now is to make it easier for the energy to flow from one component to the next and allow for more energy input into the multi. The existing superconductors can\u0027t handle quantum flow well, so this composite can be used instead to remove all resistance to flow across the outer shell of the structure, thanks to the unique composition of the transitions between the rare-earth elements present in the composite. The transition from one to the next is so gradual that the quantum flow has no obstacles or loose ends to escape from.",
+      "desc:8": "With access to even more advanced materials, you can upgrade your QFT to tier 3 by replacing the §bCosmic Fabric Manipulator§f casings with §bInfinity Infused Manipulator§§§f casings. This tier unlocks two powerful new skips: the §6final naqline skip§f and the §6stem cell skip§f.\n\nThis new casing requires even more advanced materials still, including the §bSuperconductor Rare-Earth Composite§f, which can only be crafted in a tier 2 QFT. Unlike §bHyper-Stable Self-Healing Adhesive§f, which focused on structural integrity, this composite is designed purely for energy transmission. With automatic self-repair now fully handled, we can shift our focus to increasing the energy flow between components and into the multi itself.\n\nStandard superconductors break down under quantum stress - but this composite eliminates all resistance across the outer shell. Its precisely layered rare-earth elements create such gradual transitions that quantum flow moves effortlessly, with no losses or destabilizing effects.\n\n§oWhat will you discover next?!",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 13,
+        "Damage:2": 9,
         "OreDict:8": "",
         "id:8": "miscutils:gtplusplus.blockcasings.5"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Tier 3 Focusing",
+      "name:8": "Tier 3 Manipulating",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -49,14 +49,20 @@
           "id:8": "miscutils:gtplusplus.blockcasings.5"
         },
         "1:10": {
-          "Count:3": 142,
-          "Damage:2": 13,
+          "Count:3": 1,
+          "Damage:2": 24,
           "OreDict:8": "",
-          "id:8": "miscutils:gtplusplus.blockcasings.5"
+          "id:8": "miscutils:item.BasicGenericChemItem",
+          "tag:10": {
+            "catalyst:10": {
+              "Damage:4": 0,
+              "MaxDamage:4": 50
+            }
+          }
         },
         "2:10": {
           "Count:3": 1,
-          "Damage:2": 24,
+          "Damage:2": 25,
           "OreDict:8": "",
           "id:8": "miscutils:item.BasicGenericChemItem",
           "tag:10": {
