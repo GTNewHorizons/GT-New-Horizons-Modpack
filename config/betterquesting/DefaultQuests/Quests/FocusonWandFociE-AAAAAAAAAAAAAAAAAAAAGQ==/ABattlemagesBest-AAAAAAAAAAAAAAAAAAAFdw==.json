@@ -3,28 +3,24 @@
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 238
-    },
-    "1:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 1279
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The Wand Focus: Nine Hells is truly a weapon worthy of your skills. It can fire creatures of the Nether at your enemies!\n\n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]\n§5Frugal§r: Lowers vis cost to cast by 10% per level\n§5Potency§r: Increases damage dealt every level\n§5Bat Bombs§r (level 3): Summoned bats always explode on contact\n§5Devil Bats§r (level 3): Summoned bats are larger, do more damage, and stay around for longer\n§5Vampire Bats§r (level 5): Summoned bats will heal themselves and the caster when they deal damage",
+      "desc:8": "The Wand Focus: Mage\u0027s Mace can be equipped by any wand and will boost its attack damage to 30 hearts. Equipping it to a staff will deal double damage.\n\n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]\n§5Frugal§r: Lowers vis cost to cast by 10% per level\n§5Potency§r: Increases damage dealt every level\n§5Bloodlust§r (level 5): Slain mobs may drop Crystal Blood like when killed with a Crystal Dagger",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "Thaumcraft:FocusHellbat"
+        "id:8": "TaintedMagic:ItemFocusMageMace"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "An Appropriate Weapon",
+      "name:8": "A Battlemage\u0027s Best Friend",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -37,7 +33,7 @@
     }
   },
   "questIDHigh:4": 0,
-  "questIDLow:4": 289,
+  "questIDLow:4": 1399,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -45,16 +41,16 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 2,
+          "Count:3": 1,
           "Damage:2": 9,
           "OreDict:8": "",
-          "id:8": "Thaumcraft:ItemSpawnerEgg"
+          "id:8": "enhancedlootbags:lootbag"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 10,
+          "Damage:2": 1,
           "OreDict:8": "",
-          "id:8": "enhancedlootbags:lootbag"
+          "id:8": "Thaumcraft:ItemLootBag"
         }
       }
     },
@@ -64,10 +60,10 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 1,
+          "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinDarkWizardII"
+          "id:8": "dreamcraft:item.CoinDarkWizardI"
         }
       }
     }
@@ -85,7 +81,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "Thaumcraft:FocusHellbat"
+          "id:8": "TaintedMagic:ItemFocusMageMace"
         }
       },
       "taskID:8": "bq_standard:retrieval"
