@@ -2,29 +2,25 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 238
-    },
-    "1:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 1279
+      "questIDLow:4": 230
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The Wand Focus: Nine Hells is truly a weapon worthy of your skills. It can fire creatures of the Nether at your enemies!\n\n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]\n§5Frugal§r: Lowers vis cost to cast by 10% per level\n§5Potency§r: Increases damage dealt every level\n§5Bat Bombs§r (level 3): Summoned bats always explode on contact\n§5Devil Bats§r (level 3): Summoned bats are larger, do more damage, and stay around for longer\n§5Vampire Bats§r (level 5): Summoned bats will heal themselves and the caster when they deal damage",
+      "desc:8": "The Wand Focus: Pech\u0027s Curse is a rare wand focus which cannot be crafted by players. It can only be obtained from a Pech Mage -- either by bartering valuable items or by killing it for its wand to drop. Pech Mages are rare and the drop chance is quite low, so bartering is recommended. [warn]If attacked, the Pech will use this focus against you![/warn]\n\nThis focus fires a small ball of energy with a bright bluish-green trail. This missile is affected by gravity, so the shots need to be \"arced\" to hit distant targets. When the shot hits a mob, it does one heart of damage and randomly inflicts one of several effects on the target: Poison, Weakness, or Slowness.\n\n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]\n§5Frugal§r: Lowers vis cost to cast by 10% per level\n§5Potency§r: Increases potency of the applied effect. Being able to apply Weakness III to mobs might be useful for Blood Magic...\n§5Extend§r (even levels): Extends the duration of the applied effect\n§5Nightshade§r (level 5): Applies all three effects at once",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "Thaumcraft:FocusHellbat"
+        "id:8": "Thaumcraft:FocusPech"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "An Appropriate Weapon",
+      "name:8": "Plague Inc.",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -37,7 +33,7 @@
     }
   },
   "questIDHigh:4": 0,
-  "questIDLow:4": 289,
+  "questIDLow:4": 1380,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -45,16 +41,16 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 2,
-          "Damage:2": 9,
-          "OreDict:8": "",
-          "id:8": "Thaumcraft:ItemSpawnerEgg"
-        },
-        "1:10": {
           "Count:3": 1,
           "Damage:2": 10,
           "OreDict:8": "",
           "id:8": "enhancedlootbags:lootbag"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "Thaumcraft:ItemLootBag"
         }
       }
     },
@@ -85,7 +81,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "Thaumcraft:FocusHellbat"
+          "id:8": "Thaumcraft:FocusPech"
         }
       },
       "taskID:8": "bq_standard:retrieval"
