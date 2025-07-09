@@ -151,14 +151,10 @@
           "Count:3": 1,
           "Damage:2": 1,
           "OreDict:8": "",
-          "id:8": "betterquesting:placeholder",
+          "id:8": "bartworks:gt.bwMetaGeneratedItem0",
           "tag:10": {
-            "orig_id:8": "bartworks:gt.bwMetaGeneratedItem0",
-            "orig_meta:3": 1,
-            "orig_tag:10": {
-              "Count:1": 1,
-              "Damage:2": 32096
-            }
+            "Count:1": 1,
+            "Damage:2": 32096
           }
         }
       },
@@ -176,14 +172,10 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "betterquesting:placeholder",
+          "id:8": "bartworks:gt.bwMetaGeneratedItem0",
           "tag:10": {
-            "orig_id:8": "bartworks:gt.bwMetaGeneratedItem0",
-            "orig_meta:3": 0,
-            "orig_tag:10": {
-              "Count:1": 1,
-              "Damage:2": 32096
-            }
+            "Count:1": 1,
+            "Damage:2": 32096
           }
         }
       },

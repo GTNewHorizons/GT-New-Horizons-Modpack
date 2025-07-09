@@ -14,11 +14,7 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "betterquesting:placeholder",
-        "tag:10": {
-          "orig_id:8": "bartworks:gt.bwMetaGeneratedItem0",
-          "orig_meta:3": 0
-        }
+        "id:8": "bartworks:gt.bwMetaGeneratedItem0"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
@@ -56,11 +52,7 @@
           "Count:3": 8,
           "Damage:2": 3,
           "OreDict:8": "",
-          "id:8": "betterquesting:placeholder",
-          "tag:10": {
-            "orig_id:8": "bartworks:gt.bwMetaGeneratedItem0",
-            "orig_meta:3": 3
-          }
+          "id:8": "bartworks:gt.bwMetaGeneratedItem0"
         },
         "2:10": {
           "Count:3": 1,
