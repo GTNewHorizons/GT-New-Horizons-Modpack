@@ -22,7 +22,11 @@
         "Count:3": 1,
         "Damage:2": 3,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.bwMetaGeneratedItem0"
+        "id:8": "betterquesting:placeholder",
+        "tag:10": {
+          "orig_id:8": "bartworks:gt.bwMetaGeneratedItem0",
+          "orig_meta:3": 3
+        }
       },
       "isMain:1": 1,
       "isSilent:1": 0,
@@ -130,7 +134,11 @@
           "Count:3": 18,
           "Damage:2": 2,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.bwMetaGeneratedItem0"
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "bartworks:gt.bwMetaGeneratedItem0",
+            "orig_meta:3": 2
+          }
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -147,7 +155,11 @@
           "Count:3": 8,
           "Damage:2": 3,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.bwMetaGeneratedItem0"
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "bartworks:gt.bwMetaGeneratedItem0",
+            "orig_meta:3": 3
+          }
         }
       },
       "taskID:8": "bq_standard:retrieval"
