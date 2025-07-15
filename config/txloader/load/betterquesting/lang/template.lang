@@ -229,7 +229,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIA.desc=After you found a way to move w
 
 # Quest: Tinker-Time
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIQ.name=§2§lTinker-Time
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIQ.desc=While using your flint tools is fun in terms of killing pigs and cows, they are not long-lasting and can't be repaired. Plus Infernals laugh at your attempts to kill them. You discovered how to craft tools that can be repaired and upgraded, but for that you definitely need a more advanced crafting technique.%n%nIf you have to use wood other than oak to make your tables, you can convert them to the default oak wood type to complete this quest.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIQ.desc=While using your wooden tools is fun in terms of killing pigs and cows, they are not long-lasting and can't be repaired. Plus Infernals laugh at your attempts to kill them. You discovered how to craft tools that can be repaired and upgraded, but for that you definitely need a more advanced crafting technique.%n%nIf you have to use wood other than oak to make your tables, you can convert them to the default oak wood type to complete this quest.
 
 # Quest: Zinc Gravel
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIg.name=§2§lZinc Gravel
@@ -13772,7 +13772,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ9g.desc=Want some enderman heads? Buy s
 
 # Quest: Iron Ore exchange
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJKQ.name=Iron Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJKQ.desc=You can exchange your Stack of GT Iron Ore for vanilla Iron Ore.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJKQ.desc=You can exchange your Stack of GT Iron Ore / Raw Iron Ore for vanilla Iron Ore.
 
 # Quest: Indium Dust
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJUg.name=Indium Dust
@@ -13796,43 +13796,43 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJYQ.desc=Normally you find Monastic dron
 
 # Quest: Gold Ore exchange
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJew.name=Gold Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJew.desc=You can exchange your Stack of GT Gold Ore for vanilla Gold Ore.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJew.desc=You can exchange your Stack of GT Gold Ore / Raw Gold Ore for vanilla Gold Ore.
 
 # Quest: Coal Ore exchange
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJfA.name=Coal Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJfA.desc=You can exchange your Stack of GT Coal Ore for vanilla Coal Ore.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJfA.desc=You can exchange your Stack of GT Coal Ore / Raw Coal Ore for vanilla Coal Ore.
 
 # Quest: Lapis Ore exchange
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJfQ.name=Lapis Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJfQ.desc=You can exchange your Stack of GT Lapis Ore for vanilla Lapis Ore.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJfQ.desc=You can exchange your Stack of GT Lapis Ore / Raw Lapis Ore for vanilla Lapis Ore.
 
 # Quest: Diamond Ore exchange
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJfg.name=Diamond Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJfg.desc=You can exchange your Stack of GT Diamond Ore for vanilla Diamond Ore.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJfg.desc=You can exchange your Stack of GT Diamond Ore / Raw Diamond Ore for vanilla Diamond Ore.
 
 # Quest: Redstone Ore exchange
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJfw.name=Redstone Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJfw.desc=You can exchange your Stack of GT Redstone Ore for vanilla Redstone Ore.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJfw.desc=You can exchange your Stack of GT Redstone Ore / Raw Redstone Ore for vanilla Redstone Ore.
 
 # Quest: Netherquartz Ore exchange
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJgA.name=Netherquartz Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJgA.desc=You can exchange your Stack of GT Nether Quartz Ore for vanilla Nether Quartz Ore.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJgA.desc=You can exchange your Stack of GT Nether Quartz Ore / Raw Nether Quartz Ore for vanilla Nether Quartz Ore.
 
 # Quest: Copper Ore exchange
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJgQ.name=Copper Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJgQ.desc=You can exchange your Stack of GT Copper Ore for IC2 Copper Ore.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJgQ.desc=You can exchange your Stack of GT Copper Ore / Raw Copper Ore for IC2 Copper Ore.
 
 # Quest: Tin Ore exchange
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJgg.name=Tin Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJgg.desc=You can exchange your Stack of GT Tin Ore for IC2 Tin Ore.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJgg.desc=You can exchange your Stack of GT Tin Ore / Raw Tin Ore for IC2 Tin Ore.
 
 # Quest: Uranium Ore exchange
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJgw.name=Uranium Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJgw.desc=You can exchange your Stack of GT Uranium Ore for IC2 Uranium Ore.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJgw.desc=You can exchange your Stack of GT Uranium Ore / Raw Uranium Ore for IC2 Uranium Ore.
 
 # Quest: Lead Ore exchange
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJhA.name=Lead Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJhA.desc=You can exchange your Stack of GT Lead Ore for IC2 Lead Ore.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJhA.desc=You can exchange your Stack of GT Lead Ore / Raw Lead Ore for IC2 Lead Ore.
 
 # Quest: Holo Glasses
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJhg.name=Holo Glasses

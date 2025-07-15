@@ -131,7 +131,7 @@
         "0:10": {
           "Count:3": 10,
           "Damage:2": 0,
-          "OreDict:8": "",
+          "OreDict:8": "pressurePlateWood",
           "id:8": "minecraft:wooden_pressure_plate"
         }
       },
@@ -148,7 +148,7 @@
         "0:10": {
           "Count:3": 10,
           "Damage:2": 0,
-          "OreDict:8": "",
+          "OreDict:8": "buttonWood",
           "id:8": "minecraft:wooden_button"
         }
       },
