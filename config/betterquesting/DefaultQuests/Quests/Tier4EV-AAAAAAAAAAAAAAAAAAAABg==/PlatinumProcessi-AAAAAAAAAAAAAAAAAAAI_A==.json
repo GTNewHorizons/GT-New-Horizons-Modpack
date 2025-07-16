@@ -58,13 +58,13 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 10,
-          "Damage:2": 30640,
-          "OreDict:8": "cellDilutedSulfuricAcid",
+          "Count:3": 15,
+          "Damage:2": 30683,
+          "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"
         },
         "1:10": {
-          "Count:3": 10,
+          "Count:3": 5,
           "Damage:2": 30653,
           "OreDict:8": "cellNitricAcid",
           "id:8": "gregtech:gt.metaitem.01"
