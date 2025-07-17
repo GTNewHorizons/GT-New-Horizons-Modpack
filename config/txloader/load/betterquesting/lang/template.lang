@@ -5173,7 +5173,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIDw.desc=No mage wants to be restricted 
 
 # Quest: Flying Like a Eag - I Mean Raven
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIEg.name=Flying Like a Eag - I Mean Raven
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIEg.desc=This cloak is a nice substitute for the Glider. There are plenty of other magical items worth a look in the Witching Gadgets tab.%nIf you want to toggle gliding with a key - configure binding for "Active Ability 1" in control settings and, having item in hand, send "/travellersgear bind 1" to chat.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIEg.desc=This cloak is a nice substitute for the Glider. There are plenty of other magical items worth a look in the Witching Gadgets tab.%nIf you want to toggle gliding with a key - configure binding for "Hotkey for activating some worn items" in control settings.
 
 # Quest: 'Easy' Teleportation
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJnQ.name='Easy' Teleportation
