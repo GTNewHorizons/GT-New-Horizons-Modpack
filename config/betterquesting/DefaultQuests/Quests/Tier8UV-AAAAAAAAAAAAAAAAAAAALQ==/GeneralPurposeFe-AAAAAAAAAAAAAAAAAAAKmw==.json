@@ -71,22 +71,23 @@
           "OreDict:8": "",
           "id:8": "bartworks:BioLabParts",
           "tag:10": {
-            "Breedable:1": 0,
+            "Breedable:1": 1,
             "Color:11": [
-              110,
-              40,
-              25
+              149,
+              132,
+              75
             ],
             "DNA:10": {
               "Chance:3": 10000,
-              "Name:8": "beta-Lactamase",
+              "Name:8": "Escherichia koli",
               "Rarity:1": 1,
               "Tier:3": 0
             },
-            "Name:8": "Escherichia cadaver",
+            "Fluid:8": "escherichiakolifluid",
+            "Name:8": "Escherichia koli",
             "Plasmid:10": {
               "Chance:3": 10000,
-              "Name:8": "beta-Lactamase",
+              "Name:8": "Escherichia koli",
               "Rarity:1": 1,
               "Tier:3": 0
             },
@@ -371,7 +372,7 @@
             ],
             "DNA:10": {
               "Chance:3": 10000,
-              "Name:8": "beta-Lactamase",
+              "Name:8": "Escherichia koli",
               "Rarity:1": 1,
               "Tier:3": 0
             },

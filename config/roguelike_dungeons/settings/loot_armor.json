@@ -1,0 +1,117 @@
+{
+	"name": "loot_armor",
+	"loot_rules": [
+	{"level": [0, 1, 2, 3, 4], "type": "ARMOUR", "each": true, "quantity": 1, "loot": [
+		{"data": {"name": "BiblioCraft:item.BiblioGlasses", "meta": 2}, "weight": 3},
+		{"data": {"name": "BiblioCraft:item.BiblioGlasses", "meta": 1}, "weight": 3},
+		{"data": {"name": "BiblioCraft:item.BiblioGlasses", "meta": 0}, "weight": 3},
+		{"data": {"name": "Forestry:builderBag", "meta": 0}, "weight": 1},
+		{"data": {"name": "Forestry:diggerBag", "meta": 0}, "weight": 1},
+		{"data": {"name": "Forestry:foresterBag", "meta": 0}, "weight": 1},
+		{"data": {"name": "Forestry:hunterBag", "meta": 0}, "weight": 2},
+		{"data": {"name": "Forestry:minerBag", "meta": 0}, "weight": 1},
+		{"data": {"name": "Thaumcraft:ItemBaubleBlanks", "meta": 0}, "weight": 12},
+		{"data": {"name": "Thaumcraft:ItemBaubleBlanks", "meta": 1}, "weight": 12},
+		{"data": {"name": "Thaumcraft:ItemBaubleBlanks", "meta": 2}, "weight": 12},
+		{"data": {"name": "TwilightForest:item.charmOfKeeping1", "meta": 0}, "weight": 12},
+		{"data": {"name": "TwilightForest:item.charmOfKeeping2", "meta": 0}, "weight": 8},
+		{"data": {"name": "TwilightForest:item.charmOfKeeping3", "meta": 0}, "weight": 4},
+		{"data": {"name": "BiomesOPlenty:flippers", "meta": 0}, "weight": 8},
+		{"data": {"name": "Backpack:backpack", "meta": 0}, "weight": 1},
+		{"data": {"name": "ExtraUtilities:glove", "meta": 0}, "weight": 3}
+
+
+      ]
+    },
+	{"level": 0, "type": "ARMOUR", "each": true, "quantity": 2, "loot": [
+		{"data": {"name": "BiomesOPlenty:bootsMud", "meta": 0}, "weight": 10},
+		{"data": {"name": "BiomesOPlenty:chestplateMud", "meta": 0}, "weight": 10},
+		{"data": {"name": "BiomesOPlenty:helmetMud", "meta": 0}, "weight": 10},
+		{"data": {"name": "BiomesOPlenty:leggingsMud", "meta": 0}, "weight": 10},
+		{"data": {"name": "TConstruct:helmetWood", "meta": 0}, "weight": 10},
+		{"data": {"name": "TConstruct:leggingsWood", "meta": 0}, "weight": 10},
+		{"data": {"name": "TConstruct:chestplateWood", "meta": 0}, "weight": 10},
+		{"data": {"name": "TConstruct:bootsWood", "meta": 0}, "weight": 10},
+		{"data": {"name": "minecraft:leather_boots", "meta": 0}, "weight": 5},
+		{"data": {"name": "minecraft:leather_boots", "meta": 0, "ntb" : "{display:{color:4154789,Name:\"Crocs\"}}"}, "weight": 5},
+		{"data": {"name": "minecraft:leather_chestplate", "meta": 0}, "weight": 5},
+		{"data": {"name": "minecraft:leather_chestplate", "meta": 0, "nbt" : "{display:{color:11328472,Name:\"Oxford Button Down Shirt\"}}"}, "weight": 5},
+		{"data": {"name": "minecraft:leather_helmet", "meta": 0}, "weight": 5},
+		{"data": {"name": "minecraft:leather_helmet", "meta": 0, "nbt" : "{display:{color:12553267,Name:\"Fedora\"}}"}, "weight": 5},
+		{"data": {"name": "minecraft:leather_leggings", "meta": 0}, "weight": 5},
+		{"data": {"name": "minecraft:leather_leggings", "meta": 0, "nbt" : "{display:{color:10057608,Name:\"pant\"}}"}, "weight": 5},
+		{"data": {"name": "TConstruct:slime_boots", "meta": 0}, "weight": 4}
+
+      ]
+    },
+    {"level": 1, "type": "ARMOUR", "each": true, "quantity": 2, "loot": [
+		{"data": {"name": "harvestcraft:hardenedleatherbootsItem", "meta": 0}, "weight": 13},
+		{"data": {"name": "harvestcraft:hardenedleatherchestItem", "meta": 0}, "weight": 13},
+		{"data": {"name": "harvestcraft:hardenedleatherhelmItem", "meta": 0}, "weight": 13},
+		{"data": {"name": "harvestcraft:hardenedleatherleggingsItem", "meta": 0}, "weight": 13},
+		{"data": {"name": "harvestthenether:quartzbootsItem", "meta": 0}, "weight": 10},
+		{"data": {"name": "harvestthenether:quartzchestItem", "meta": 0}, "weight": 10},
+		{"data": {"name": "harvestthenether:quartzhelmItem", "meta": 0}, "weight": 10},
+		{"data": {"name": "harvestthenether:quartzleggingsItem", "meta": 0}, "weight": 10},
+		{"data": {"name": "adventurebackpack:adventureHat", "meta": 0}, "weight": 5},
+		{"data": {"name": "adventurebackpack:adventurePants", "meta": 0}, "weight": 5},
+		{"data": {"name": "adventurebackpack:adventureSuit", "meta": 0}, "weight": 5},
+		{"data": {"name": "adventurebackpack:pistonBoots", "meta": 0}, "weight": 5},
+		{"data": {"name": "minecraft:golden_boots", "meta": 0}, "weight": 20},
+		{"data": {"name": "minecraft:golden_chestplate", "meta": 0}, "weight": 20},
+		{"data": {"name": "minecraft:golden_helmet", "meta": 0}, "weight": 20},
+		{"data": {"name": "minecraft:golden_leggings", "meta": 0}, "weight": 20},
+		{"data": {"name": "minecraft:iron_boots", "meta": 0}, "weight": 8},
+		{"data": {"name": "minecraft:iron_chestplate", "meta": 0}, "weight": 8},
+		{"data": {"name": "minecraft:iron_helmet", "meta": 0}, "weight": 8},
+		{"data": {"name": "minecraft:iron_leggings", "meta": 0}, "weight": 8}
+    ]
+    },
+    {"level": 2, "type": "ARMOUR", "each": true, "quantity": 2, "loot": [
+		{"data": {"name": "ProjRed|Exploration:projectred.exploration.rubychestplate", "meta": 0}, "weight": 10},
+		{"data": {"name": "ProjRed|Exploration:projectred.exploration.rubyhelmet", "meta": 0}, "weight": 10},
+		{"data": {"name": "ProjRed|Exploration:projectred.exploration.rubyleggings", "meta": 0}, "weight": 10},
+		{"data": {"name": "ProjRed|Exploration:projectred.exploration.rubyboots", "meta": 0}, "weight": 10},
+		{"data": {"name": "ProjRed|Exploration:projectred.exploration.sapphireboots", "meta": 0}, "weight": 10},
+		{"data": {"name": "ProjRed|Exploration:projectred.exploration.sapphirechestplate", "meta": 0}, "weight": 10},
+		{"data": {"name": "ProjRed|Exploration:projectred.exploration.sapphirehelmet", "meta": 0}, "weight": 10},
+		{"data": {"name": "ProjRed|Exploration:projectred.exploration.sapphireleggings", "meta": 0}, "weight": 10},
+		{"data": {"name": "minecraft:chainmail_boots", "meta": 0}, "weight": 10},
+		{"data": {"name": "minecraft:chainmail_chestplate", "meta": 0}, "weight": 10},
+		{"data": {"name": "minecraft:chainmail_helmet", "meta": 0}, "weight": 10},
+		{"data": {"name": "minecraft:chainmail_leggings", "meta": 0}, "weight": 10},
+		{"data": {"name": "minecraft:iron_boots", "meta": 0}, "weight": 8},
+		{"data": {"name": "minecraft:iron_chestplate", "meta": 0}, "weight": 8},
+		{"data": {"name": "minecraft:iron_helmet", "meta": 0}, "weight": 8},
+		{"data": {"name": "minecraft:iron_leggings", "meta": 0}, "weight": 8}
+      ]
+    },
+    {"level": 3, "type": "ARMOUR", "each": true, "quantity": 2, "loot": [
+		{"data": {"name": "Railcraft:armor.steel.boots", "meta": 0}, "weight": 15},
+		{"data": {"name": "Railcraft:armor.steel.helmet", "meta": 0}, "weight": 15},
+		{"data": {"name": "Railcraft:armor.steel.legs", "meta": 0}, "weight": 15},
+		{"data": {"name": "Railcraft:armor.steel.plate", "meta": 0}, "weight": 15},
+		{"data": {"name": "minecraft:diamond_boots", "meta": 0}, "weight": 20},
+		{"data": {"name": "minecraft:diamond_chestplate", "meta": 0}, "weight": 20},
+		{"data": {"name": "minecraft:diamond_helmet", "meta": 0}, "weight": 20},
+		{"data": {"name": "minecraft:diamond_leggings", "meta": 0}, "weight": 20},
+		{"data": {"name": "minecraft:iron_boots", "meta": 0}, "weight": 20},
+		{"data": {"name": "minecraft:iron_chestplate", "meta": 0}, "weight": 20},
+		{"data": {"name": "minecraft:iron_helmet", "meta": 0}, "weight": 20},
+		{"data": {"name": "minecraft:iron_leggings", "meta": 0}, "weight": 20}
+    ]
+    },
+    {
+      "level": 4, "type": "ARMOUR", "each": true, "quantity": 2, "loot": [
+		{"data": {"name": "Railcraft:armor.steel.boots", "meta": 0}, "weight": 15},
+		{"data": {"name": "Railcraft:armor.steel.helmet", "meta": 0}, "weight": 15},
+		{"data": {"name": "Railcraft:armor.steel.legs", "meta": 0}, "weight": 15},
+		{"data": {"name": "Railcraft:armor.steel.plate", "meta": 0}, "weight": 15},
+		{"data": {"name": "minecraft:diamond_boots", "meta": 0}, "weight": 20},
+		{"data": {"name": "minecraft:diamond_chestplate", "meta": 0}, "weight": 20},
+		{"data": {"name": "minecraft:diamond_helmet", "meta": 0}, "weight": 20},
+		{"data": {"name": "minecraft:diamond_leggings", "meta": 0}, "weight": 20}
+      ]
+    }
+  ]
+}

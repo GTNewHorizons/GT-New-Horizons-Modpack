@@ -1,0 +1,17 @@
+{
+	"name": "dungeon_mountain",
+  	"criteria": {"biomeTypes": ["MOUNTAIN"]},
+  	"inherit": [
+		"loot_all",
+		"loot_mountain",
+		"theme_mountain",
+		"tower_mountain",
+		"rooms_mountain",
+		"segments_mountain"
+  ],
+	"levels" : {
+		"2" : {
+			"diff" : 4
+		}
+	}
+}
