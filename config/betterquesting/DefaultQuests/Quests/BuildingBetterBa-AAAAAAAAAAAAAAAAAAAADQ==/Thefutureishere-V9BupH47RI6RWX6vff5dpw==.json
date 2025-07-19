@@ -1,29 +1,25 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 7711305138843765648,
-      "questIDLow:4": -6187271507874007224
-    },
-    "1:10": {
-      "questIDHigh:4": 6327679129227052174,
-      "questIDLow:4": -7973202373084553817
+      "questIDHigh:4": 0,
+      "questIDLow:4": 54
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The Copper barrel has 45 slots.",
+      "desc:8": "EFR adds with it vanilla Barrels (not to be confused with JABBA barrels). These are essentially like chests, but they can be placed next to each other and opened with a block above them. And you can upgrade them! Great for those compact machine setups.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "etfuturum:copper_barrel"
+        "id:8": "etfuturum:barrel"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§2§lCopper Barrel",
+      "name:8": "§2§lThe future is here!",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -34,14 +30,14 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": -855892024644843576,
-  "questIDLow:4": -8376729936404801255,
+  "questIDHigh:4": 6327679129227052174,
+  "questIDLow:4": -7973202373084553817,
   "rewards:9": {
     "0:10": {
       "choices:9": {
         "0:10": {
           "Count:3": 16,
-          "Damage:2": 17035,
+          "Damage:2": 17809,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"
         },
@@ -83,7 +79,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "etfuturum:copper_barrel"
+          "id:8": "etfuturum:barrel"
         }
       },
       "taskID:8": "bq_standard:retrieval"
