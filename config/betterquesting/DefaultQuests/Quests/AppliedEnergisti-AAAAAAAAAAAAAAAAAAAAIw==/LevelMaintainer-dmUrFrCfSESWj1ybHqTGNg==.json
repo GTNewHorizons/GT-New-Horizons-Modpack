@@ -2,26 +2,24 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 1231
+      "questIDLow:4": 2477
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The HV miner is faster, has longer range, and has more fortune than the previous two. If you want a better one, look in the multiblock tab. It\u0027s recommend to take one with you to the Moon to gather meteoric iron.",
-      "globalShare:1": 1,
+      "desc:8": "The ME Level Maintainer is another cool addition of AE2FC. Choose an item or fluid and an amount to maintain, and the Level Maintainer will attempt to call patterns to keep crafting the item until it reaches the threshold you configured. You can also configure the crafting batch size.\n\n[note]For fluid crafts, put in a fluid drop and don\u0027t drag from NEI.[/note]",
+      "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 681,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.blockmachines"
+        "id:8": "ae2fc:level_maintainer"
       },
-      "isGlobal:1": 0,
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§9§lAuto Mining HV",
-      "partySingleReward:1": 0,
+      "name:8": "Level Maintainer",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -32,8 +30,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 932,
+  "questIDHigh:4": 8531272445575776324,
+  "questIDLow:4": -7597752225046936010,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -41,14 +39,8 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 64,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "IC2:blockMiningPipe"
-        },
-        "1:10": {
           "Count:3": 1,
-          "Damage:2": 6,
+          "Damage:2": 37,
           "OreDict:8": "",
           "id:8": "enhancedlootbags:lootbag"
         }
@@ -60,18 +52,12 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 5,
+          "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianI"
+          "id:8": "dreamcraft:item.CoinTechnicianII"
         }
       }
-    },
-    "2:10": {
-      "ignoreDisabled:1": 1,
-      "index:3": 2,
-      "questID:8": "AAAAAAAAAAAAAAAAAAADow\u003d\u003d",
-      "rewardID:8": "bq_standard:questcompletion"
     }
   },
   "tasks:9": {
@@ -85,9 +71,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 681,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "ae2fc:level_maintainer"
         }
       },
       "taskID:8": "bq_standard:retrieval"
