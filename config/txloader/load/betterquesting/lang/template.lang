@@ -3723,6 +3723,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALiw.desc=Smelt it with magnesium dust in
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsw.name=The Final Goal
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsw.desc=Thanks to your help I have managed to create the ultimate energy source: An encased wormhole that drains energy from a synthesized pocket universe, to the point when it reaches heat death. I have no use for it, so you may have it. Thank you for making my dream come true!
 
+# Quest: Never Hungry Again
+betterquesting.quest.YqImjtIqSZCc-Mlri03SEA.name=Never Hungry Again
+betterquesting.quest.YqImjtIqSZCc-Mlri03SEA.desc=Congratulations! You have gracefully served your penance; no longer shall you be bound by the woes of hunger. %n%nWith this new trinket (equipable in a baubles slot) you will automatically have your hunger and saturation replenished, so long as the nanobooster stays charged.%n%nAdditionally it will do it's best to keep you healed, though it cannot ward off death completely on its own.%n%n[note]P.S. Upgrading your wireless charger might be a good idea![/note]
+
 # Quest: pH Neutralization
 betterquesting.quest.eon8hLumTS-E7MYJ4TFT3w.name=pH Neutralization
 betterquesting.quest.eon8hLumTS-E7MYJ4TFT3w.desc=If you want to process your Europium-Doped Wafers with a significant speed boost, this machine is for you. Using the pH neutral water you get from this machine, you can process wafers twice as fast.%n%nThis is the first real complex automation challenge in the waterline, it's up to you to figure out how you want to deal with the pH neutralization process. Have fun!%n%n[note]This multiblock is very picky about where its hatches for acids and bases go. If you can't figure out why it's not forming, chances are you forgot to place these hatches in the correct location. Use the hologram projector to see where they go.[/note]
@@ -4961,6 +4965,14 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALTw.desc=Say thanks to mitch for backpor
 # Quest: Crispy Rotten Flesh
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALUg.name=Crispy Rotten Flesh
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALUg.desc=Rotten Flesh is not really healthy. It doesn't satisfy your hunger. What if you try to dry?
+
+# Quest: Never Hungry Again
+betterquesting.quest.hvukogcPRX-hht60vc0Zgw.name=Never Hungry Again
+betterquesting.quest.hvukogcPRX-hht60vc0Zgw.desc=Congratulations! You have gracefully served your penance; no longer shall you be bound by the woes of hunger. %n%nWith this new trinket (equipable in a baubles slot) you will automatically have your hunger and saturation replenished, so long as the nanobooster stays charged.%n%nAdditionally it will do it's best to keep you healed, though it cannot ward off death completely on its own.%n%n[note]P.S. Upgrading your wireless charger might be a good idea![/note]
+
+# Quest: A Magical Lunchbox?
+betterquesting.quest.ogXyVJTpQ8ONbZthhrupqg.name=A Magical Lunchbox?
+betterquesting.quest.ogXyVJTpQ8ONbZthhrupqg.desc=Given sufficient magical prowess, the Thaumaturgist need not waste their time physically consuming food. The Talisman of Nourishment can hold up to 1000 hunger and 1000 saturation points, and will feed you automatically. %n%nYou can fill it up by placing food items on your hotbar, the more valuable the food, the more points added.%n%n[note]Careful not to place food items you want to keep in your hotbar while you have it on you![/note]
 
 
 ## Quest Line: Getting Around...
