@@ -2408,6 +2408,10 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAABg.desc=Welcome to EV! You have suc
 betterquesting.quest.07lxVb9wQWSSoZRcvIswZQ.name=The Redstone Sniffer
 betterquesting.quest.07lxVb9wQWSSoZRcvIswZQ.desc=Ever wonder where your redstone transmitters are? Or wish they were labeled? Maybe your teammate placed one down, didn't tell you, and now you're stuck wondering what private frequency they placed?%n%nNow, you have a way to do all of that.%n%nIntroducing the §6Redstone Sniffer§r!%n%nFor §cregular wireless redstone§f§r, the sniffer will list all currently used frequencies, tell you whether that frequency is private, and gives you an option to label it.%n%nFor §cadvanced wireless covers§f§r, the sniffer will additionally tell you where that cover is currently located, including in other dimensions, and offers you the option to also highlight or teleport to it. 
 
+# Quest: Raw Carbon Fibre
+betterquesting.quest.0fzaxas8R8OJzvYvqX5d9w.name=§a§lRaw Carbon Fibre
+betterquesting.quest.0fzaxas8R8OJzvYvqX5d9w.desc=Alternatively, you can use Raw Carbon Fibre for your Reinforced Circuit Boards.%n%n[note]You can use Epoxid to get a better yield on it![/note]
+
 # Quest: Pulverize the Planet
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA1A.name=§a§lPulverize the Planet
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA1A.desc=Literally. You can grind the rock of most planets, to get a chance for...stuff. It depends on the planet. Does consume quite a bit of power, but can really help you out.%n%nFor Tungstate, you can centrifuge previously macerated moon dust, macerate end stone with an HV+ macerator and then centrifuge it, or centrifuge endergoo (found all over the end, does not give back buckets).%n%nIf you want to make your rocket, you need to get at least a little before you can get to a planet with the ore. However, keep in mind that you'll need an EBF with TPV Coils to smelt Tungstensteel Dust into the ingot!%n%n[note]Do one of the tasks.[/note]
@@ -2610,7 +2614,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGiw.desc=Glass Fiber is used in Fiber Re
 
 # Quest: Fiber Reinforced Epoxid Sheet
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGjA.name=§a§lFiber Reinforced Epoxid Sheet
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGjA.desc=Fiber Reinforced Epoxid Sheets are needed for More Advanced Circuit Boards. Mix glass fiber with epoxid to get your sheets. Alternatively you can use raw carbon fiber. But we're making you do this because...re-writing the quest would be annoying.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGjA.desc=Fiber Reinforced Epoxid Sheets are needed for More Advanced Circuit Boards. Mix glass fiber or carbon fibre with epoxid to get your sheets.
 
 # Quest: Empty Fiber Reinforced Glass Board
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGjQ.name=§a§lEmpty Fiber Reinforced Glass Board
@@ -2698,7 +2702,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJkQ.desc=Combine Dichlorobenzene with So
 
 # Quest: Higher Tier Cables
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJkg.name=§a§lHigher Tier Cables
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJkg.desc=To make higher tier cables, you'll want to make them with Polyphenylene Sulfide Foils and Silicone. You'll need both Tungsten and Platinum in IV-tier.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJkg.desc=To make higher tier cables, you'll want to make them with Polyphenylene Sulfide Foils and Silicone or Styrene-Butadiene Rubber.%nYou'll need both Tungsten and Platinum in IV-tier.
 
 # Quest: Advanced Ilmenite Processing
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKAg.name=§a§f§a§lAdvanced Ilmenite Processing
@@ -3722,6 +3726,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALiw.desc=Smelt it with magnesium dust in
 # Quest: The Final Goal
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsw.name=The Final Goal
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsw.desc=Thanks to your help I have managed to create the ultimate energy source: An encased wormhole that drains energy from a synthesized pocket universe, to the point when it reaches heat death. I have no use for it, so you may have it. Thank you for making my dream come true!
+
+# Quest: Never Hungry Again
+betterquesting.quest.YqImjtIqSZCc-Mlri03SEA.name=Never Hungry Again
+betterquesting.quest.YqImjtIqSZCc-Mlri03SEA.desc=Congratulations! You have gracefully served your penance; no longer shall you be bound by the woes of hunger. %n%nWith this new trinket (equipable in a baubles slot) you will automatically have your hunger and saturation replenished, so long as the nanobooster stays charged.%n%nAdditionally it will do it's best to keep you healed, though it cannot ward off death completely on its own.%n%n[note]P.S. Upgrading your wireless charger might be a good idea![/note]
 
 # Quest: pH Neutralization
 betterquesting.quest.eon8hLumTS-E7MYJ4TFT3w.name=pH Neutralization
@@ -4962,6 +4970,14 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALTw.desc=Say thanks to mitch for backpor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALUg.name=Crispy Rotten Flesh
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALUg.desc=Rotten Flesh is not really healthy. It doesn't satisfy your hunger. What if you try to dry?
 
+# Quest: Never Hungry Again
+betterquesting.quest.hvukogcPRX-hht60vc0Zgw.name=Never Hungry Again
+betterquesting.quest.hvukogcPRX-hht60vc0Zgw.desc=Congratulations! You have gracefully served your penance; no longer shall you be bound by the woes of hunger. %n%nWith this new trinket (equipable in a baubles slot) you will automatically have your hunger and saturation replenished, so long as the nanobooster stays charged.%n%nAdditionally it will do it's best to keep you healed, though it cannot ward off death completely on its own.%n%n[note]P.S. Upgrading your wireless charger might be a good idea![/note]
+
+# Quest: A Magical Lunchbox?
+betterquesting.quest.ogXyVJTpQ8ONbZthhrupqg.name=A Magical Lunchbox?
+betterquesting.quest.ogXyVJTpQ8ONbZthhrupqg.desc=Given sufficient magical prowess, the Thaumaturgist need not waste their time physically consuming food. The Talisman of Nourishment can hold up to 1000 hunger and 1000 saturation points, and will feed you automatically. %n%nYou can fill it up by placing food items on your hotbar, the more valuable the food, the more points added.%n%n[note]Careful not to place food items you want to keep in your hotbar while you have it on you![/note]
+
 
 ## Quest Line: Getting Around...
 betterquesting.questline.bAal8kZ3R8eRTwaHgbYkKA.name=Getting Around...
@@ -5577,6 +5593,14 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAADQ.desc=Tired of torches everywhere
 betterquesting.quest.-bMT3fEYTeqtRL-62o_EHQ.name=Basic Creative Flight
 betterquesting.quest.-bMT3fEYTeqtRL-62o_EHQ.desc=[quest]Advanced MagLev Pylon I (MV)[/quest]%n%nConsumes §c1A§r while powered. %n%nThe MV Pylon has a §c16§r block radius (33x33x33 cube centered around the pylon)%n%nRadius is §9halved§r if the pylon is unpowered. 
 
+# Quest: Steel Barrel
+betterquesting.quest.25yJ-u9OSG-GiMnQY9vWfQ.name=§3§lSteel Barrel
+betterquesting.quest.25yJ-u9OSG-GiMnQY9vWfQ.desc=The Steel barrel also has 72 slots.
+
+# Quest: Copper Barrel
+betterquesting.quest.9B9CvQD0R8iLv-CBMTYZGQ.name=§2§lCopper Barrel
+betterquesting.quest.9B9CvQD0R8iLv-CBMTYZGQ.desc=The Copper barrel has 45 slots.
+
 # Quest: Building Made Easy
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACWQ.name=Building Made Easy
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACWQ.desc=Placing blocks by hand can be tedious. Wouldn't it be nice to be able to place blocks like "Another 9 here"? Well, good news. Get yourself some of the various building blocks, and I shall reward you with something nice.%n%nYou could also just craft it (or the better one) with unstable ingots yourself, too.%n%nYou can upgrade to the various other BBWs too.
@@ -5785,9 +5809,21 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIcA.desc=Yet another custom block system
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM3g.name=Catwalks
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM3g.desc=The Catwalks Mod adds several cosmetic blocks to deck out your factory.%n%nScaffolds and Builder's Scaffolds are useful for building up in the air before you get access to flight. They can be climbed like ladders, and break instantly when punched. You will also not fall off of them if you let go of movement keys while climbing. If you right-click the Builder's Scaffold with a solid block, the scaffold will be replaced by that block.%n%nCatwalks can connect to each other to form a wide passageway. You can decorate them by attaching Caution Tape or Rope Lights, the latter provide dim lighting.%n%nCaged Ladders give you a way to move up and down without a risk of falling off. Climbing them is much faster than vanilla ladders.%n%nSupport Columns are purely decorative. They connect to each other in all directions. They also work as ladders.%n%nSturdy Rails let you run minecart tracks across gaps without supports. Right-click the Sturdy Powered Rail with a Blowtorch to power it permanently, you don't need a redstone torch. If you don't have enough distractions already, use them to build a rollercoaster!%n%nThe Blowtorch lets you remove railings or even the floor from a catwalk by right-clicking. Use it to make an opening to let you walk onto the catwalk, or if you don't know what an "OSHA violation" is. The same function can be performed by a GT or Forge-compatible wrench, so you don't actually need to make this.
 
+# Quest: Gold Barrel
+betterquesting.quest.GuylOTxSSraeAtj16fZ9-w.name=§3§lGold Barrel
+betterquesting.quest.GuylOTxSSraeAtj16fZ9-w.desc=The Gold barrel has 81 slots.
+
+# Quest: Obsidian Barrel
+betterquesting.quest.KfgATF33ToiE0aYS4pp04Q.name=§5§6§lObsidian Barrel
+betterquesting.quest.KfgATF33ToiE0aYS4pp04Q.desc=The Obsidian barrel holds as many items as the Diamond one, and is also immune to explosions.
+
 # Quest: Double the Radius = Double the Fun!
 betterquesting.quest.LaLMF5rFQ0SxAZ5o-C-r5Q.name=Double the Radius = Double the Fun!
 betterquesting.quest.LaLMF5rFQ0SxAZ5o-C-r5Q.desc=[quest]Advanced MagLev Pylon II (HV)[/quest]%n%nThe HV Pylon has a §c32§r block radius (65x65x65 cube centered around the pylon)%n%nRadius is §9halved§r if the pylon is unpowered. 
+
+# Quest: Diamond Barrel
+betterquesting.quest.PjAewUoJTnilPpIT-Ce0tA.name=§5§lDiamond Barrel
+betterquesting.quest.PjAewUoJTnilPpIT-Ce0tA.desc=The Diamond barrel has 108 slots.
 
 # Quest: Obsidian Chest
 betterquesting.quest.QMlw6Z67T5-y_qflA7On2Q.name=§8Obsidian Chest
@@ -5797,13 +5833,29 @@ betterquesting.quest.QMlw6Z67T5-y_qflA7On2Q.desc=Combining diamond chest with ob
 betterquesting.quest.U0LzQUUkRIi-cY3ZpT4uiQ.name=Constructing Additional Pylons!
 betterquesting.quest.U0LzQUUkRIi-cY3ZpT4uiQ.desc=[quest]Advanced MagLev Pylon III (EV)[/quest]%n%nThe EV Pylon has a §c48§r block radius (97x97x97 cube centered around the pylon)%n%nRadius is §9halved§r if the pylon is unpowered. %n%n[note]The Protoss would be very happy with you[/note]
 
+# Quest: The future is here!
+betterquesting.quest.V9BupH47RI6RWX6vff5dpw.name=§2§lThe future is here!
+betterquesting.quest.V9BupH47RI6RWX6vff5dpw.desc=EFR adds with it vanilla Barrels (not to be confused with JABBA barrels). These are essentially like chests, but they can be placed next to each other and opened with a block above them. And you can upgrade them! Great for those compact machine setups.
+
 # Quest: A Modern Technology
 betterquesting.quest.VFVruPLHQAeDthuV-s7HGQ.name=A Modern Technology
 betterquesting.quest.VFVruPLHQAeDthuV-s7HGQ.desc=Concrete. Eh sorry, Hempcrete! A new modern technology brought to you via the GTNH Chisel mod. All 16 colors.%n%nThere are a lot of other nice blocks in Chisel. Just type "@chisel" in NEI and look around.
 
+# Quest: Dark Steel Barrel
+betterquesting.quest.dNDuychlSiqlrMhfnEKK_w.name=§5§6§lDark Steel Barrel
+betterquesting.quest.dNDuychlSiqlrMhfnEKK_w.desc=The Dark Steel barrel holds 135 items! And is also immune to explosions.
+
 # Quest: Crystal Chest
 betterquesting.quest.e-VLKN-JSRK3V2cmDbm6rw.name=§bCrystal Chest
 betterquesting.quest.e-VLKN-JSRK3V2cmDbm6rw.desc=You've created a chest that allows you to see what's inside, isn't that useful?%n%n[note]Just as with the previous chests you can also upgrade with a fitting upgrade item.[/note]
+
+# Quest: Silver Barrel
+betterquesting.quest.fhzjYvdATJuUQTMUO1pVvA.name=§3§lSilver Barrel
+betterquesting.quest.fhzjYvdATJuUQTMUO1pVvA.desc=The Silver barrel has 72 slots.
+
+# Quest: Iron Barrel
+betterquesting.quest.ne_onBK6TP2F_ySPabM7Lw.name=§2§lIron Barrel
+betterquesting.quest.ne_onBK6TP2F_ySPabM7Lw.desc=The Iron barrel has 54 slots.
 
 
 ## Quest Line: Forestry and Multifarms
@@ -6090,6 +6142,10 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAADA.desc=This set is a global tracke
 # Quest: Something From Nothing pt 2
 betterquesting.quest.-1GoIXIXR029oc0Ge6sRGg.name=§6§lSomething From Nothing pt 2
 betterquesting.quest.-1GoIXIXR029oc0Ge6sRGg.desc=This multiblock works just as a normal drilling rig, but with the power of §5§l§oTechnology §rit won't reduce the underground field size so the output will always be the same.
+
+# Quest: Distill the Atmosphere
+betterquesting.quest.7p2Sqx7dR8mfVCNUYEUIuQ.name=§6§lDistill the Atmosphere
+betterquesting.quest.7p2Sqx7dR8mfVCNUYEUIuQ.desc=Using the Vacuum Freezer you can create Liquid Air. Liquid Air can be centrifuged into additional gases you won't get when centrifuging normal compressed air, but if you gather enough you can distill it into much more gases. %n%nMake these special hatches to hold and store the amounts outputted.
 
 # Quest: Collision Course
 betterquesting.quest.9Pc7p99ASnybsIbWmmg0LQ.name=Collision Course
@@ -9881,6 +9937,10 @@ betterquesting.quest.auchuNiGTH6NWh_cz8XxcQ.desc=You need to use this for the hi
 # Quest: Crafting Input Proxy
 betterquesting.quest.cEFNSTdoRvysoNgmtDLdvg.name=Crafting Input Proxy
 betterquesting.quest.cEFNSTdoRvysoNgmtDLdvg.desc=You have mastered both interdimensional transportation and wallsharing, why not combine them?%n%nYou can link both crafting input bus/buffer to proxies with data sticks and use it to process patterns with multiple machines, as if you are wallsharing them, but without actually wallsharing them.%n%n[note]Maybe this can reduce lag?[/note]
+
+# Quest: Level Maintainer
+betterquesting.quest.dmUrFrCfSESWj1ybHqTGNg.name=Level Maintainer
+betterquesting.quest.dmUrFrCfSESWj1ybHqTGNg.desc=The ME Level Maintainer is another cool addition of AE2FC. Choose an item or fluid and an amount to maintain, and the Level Maintainer will attempt to call patterns to keep crafting the item until it reaches the threshold you configured. You can also configure the crafting batch size.%n%n[note]For fluid crafts, put in a fluid drop and don't drag from NEI.[/note]
 
 # Quest: 16384k Essentia Storage Cell
 betterquesting.quest.iwN50p7pSyyCHDkM-O-D7w.name=16384k Essentia Storage Cell
