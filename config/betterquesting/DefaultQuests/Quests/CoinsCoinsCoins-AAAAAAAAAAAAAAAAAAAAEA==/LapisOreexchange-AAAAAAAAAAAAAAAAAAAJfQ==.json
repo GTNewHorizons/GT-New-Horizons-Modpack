@@ -75,7 +75,7 @@
     },
     "1:10": {
       "autoConsume:1": 0,
-      "consume:1": 0,
+      "consume:1": 1,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 1,
