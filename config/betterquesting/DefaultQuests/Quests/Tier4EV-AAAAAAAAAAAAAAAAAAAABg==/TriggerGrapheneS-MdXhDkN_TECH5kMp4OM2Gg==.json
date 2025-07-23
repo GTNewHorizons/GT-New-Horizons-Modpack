@@ -2,7 +2,7 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 943
+      "questIDLow:4": 176
     }
   },
   "properties:10": {
@@ -12,14 +12,14 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 17636,
+        "Damage:2": 2819,
         "OreDict:8": "",
         "id:8": "gregtech:gt.metaitem.01"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Trigger:Polystyrene Skip",
+      "name:8": "Trigger:Graphene Skip",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -30,31 +30,31 @@
       "visibility:8": "HIDDEN"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 3034,
+  "questIDHigh:4": 3591023729276046400,
+  "questIDLow:4": -8654155786800122342,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 1,
       "index:3": 0,
-      "questID:8": "AAAAAAAAAAAAAAAAAAAKBQ\u003d\u003d",
+      "questID:8": "AAAAAAAAAAAAAAAAAAABzQ\u003d\u003d",
       "rewardID:8": "bq_standard:questcompletion"
     },
     "1:10": {
       "ignoreDisabled:1": 1,
       "index:3": 1,
-      "questID:8": "AAAAAAAAAAAAAAAAAAAGTw\u003d\u003d",
+      "questID:8": "AAAAAAAAAAAAAAAAAAABzA\u003d\u003d",
       "rewardID:8": "bq_standard:questcompletion"
     },
     "2:10": {
       "ignoreDisabled:1": 1,
       "index:3": 2,
-      "questID:8": "AAAAAAAAAAAAAAAAAAAGUQ\u003d\u003d",
+      "questID:8": "AAAAAAAAAAAAAAAAAAAByw\u003d\u003d",
       "rewardID:8": "bq_standard:questcompletion"
     },
     "3:10": {
       "ignoreDisabled:1": 1,
       "index:3": 3,
-      "questID:8": "AAAAAAAAAAAAAAAAAAAGVA\u003d\u003d",
+      "questID:8": "AAAAAAAAAAAAAAAAAAABig\u003d\u003d",
       "rewardID:8": "bq_standard:questcompletion"
     }
   },
@@ -69,7 +69,7 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 128,
-          "Damage:2": 17636,
+          "Damage:2": 2819,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"
         }
