@@ -14597,112 +14597,112 @@ betterquesting.quest.xdiDnTdpTgW6POwCuDlPgg.desc=After meddling with the 4th Dim
 
 ### Quests in no quest lines ###
 
-# Quest: Trigger LoC
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABww.name=Trigger LoC
+# Quest: Trigger: LoC
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABww.name=Trigger: LoC
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABww.desc=Triggered by having a "Lamp of Cinders" in your inventory.
 
-# Quest: Trigger Singularity
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABxA.name=Trigger Singularity
+# Quest: Trigger: Singularity
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABxA.name=Trigger: Singularity
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABxA.desc=Triggered by making a singularity.
 
-# Quest: Trigger Shard of Creation
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABxQ.name=Trigger Shard of Creation
+# Quest: Trigger: Shard of Creation
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABxQ.name=Trigger: Shard of Creation
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABxQ.desc=Triggered by making a "Shard of Creation".
 
-# Quest: Trigger Life and Soul Shard
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABxg.name=Trigger Life and Soul Shard
+# Quest: Trigger: Life and Soul Shard
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABxg.name=Trigger: Life and Soul Shard
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABxg.desc=Triggered by making a "Life Shard" and a "Soul Shard".
 
-# Quest: Trigger Unknown Crystal
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABxw.name=Trigger Unknown Crystal
+# Quest: Trigger: Unknown Crystal
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABxw.name=Trigger: Unknown Crystal
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABxw.desc=Triggered by finding a "Mysterious Crystal".
 
-# Quest: Trigger Life
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAByA.name=Trigger Life
+# Quest: Trigger: Life
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAByA.name=Trigger: Life
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAByA.desc=Triggers the Life Canister Quest after a Wither death.
 
-# Quest: Trigger:Ring
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFUw.name=Trigger:Ring
+# Quest: Trigger: Ring
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFUw.name=Trigger: Ring
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFUw.desc=No Description
 
-# Quest: Trigger:Mjolnir
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFVA.name=Trigger:Mjolnir
+# Quest: Trigger: Mjolnir
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFVA.name=Trigger: Mjolnir
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFVA.desc=Find a Mjolnir
 
-# Quest: Trigger:Ballthingy
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFVQ.name=Trigger:Ballthingy
+# Quest: Trigger: Ballthingy
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFVQ.name=Trigger: Ballthingy
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFVQ.desc=Find? or make an LS
 
-# Quest: Trigger:CtH (unlock)
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAISw.name=Trigger:CtH (unlock)
+# Quest: Trigger: CtH (unlock)
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAISw.name=Trigger: CtH (unlock)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAISw.desc=Complete collecting the hybrids to trigger
 
 # Quest: Bees Template
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIbw.name=Bees Template
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIbw.desc=Get the princess bee and reward bag in NEI first.%nCopy this quest.%nPress Icon and set the icon to the bee.%nChange the name, description, and rewards.%n%nPress Task, and select the stone, and replace it with the princess.%nBefore closing, select the ... next to the bee name and press Raw NBT%nGo into Tag, Genome, Chromosomes. The first one is the name and must stay.%nGo inside there and delete the first entry, keep both of the species so players%nmust have purebreeds.%nDelete the rest of the chromosomes.%nDelete the rest of the entries for Genome.%n%nPress Requirements. Remove the Infinity unlock requirement and select the required bee quests. Use the common bees quest if nothing applies.%n%nChange Show:Hidden to Show:Normal.%n%nTo reduce waste in the questbook file ideally you should also go into the advanced options, then press ... for the icon, and remove unnecessary NBT there as well. Just leave the species as above.%n%n%n§3You can change the visibility of requirements by pressing the eye symbol in the requirements menu.
 
-# Quest: Trigger:Silicone Rubber Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL2A.name=Trigger:Silicone Rubber Skip
+# Quest: Trigger: Silicone Rubber Skip
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL2A.name=Trigger: Silicone Rubber Skip
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL2A.desc=No Description
 
-# Quest: Trigger:PTFE Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL2Q.name=Trigger:PTFE Skip
+# Quest: Trigger: PTFE Skip
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL2Q.name=Trigger: PTFE Skip
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL2Q.desc=No Description
 
-# Quest: Trigger:Polystyrene Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL2g.name=Trigger:Polystyrene Skip
+# Quest: Trigger: Polystyrene Skip
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL2g.name=Trigger: Polystyrene Skip
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL2g.desc=No Description
 
-# Quest: Trigger:Epoxid Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL2w.name=Trigger:Epoxid Skip
+# Quest: Trigger: Epoxid Skip
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL2w.name=Trigger: Epoxid Skip
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL2w.desc=No Description
 
-# Quest: Trigger:Naqline Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL3A.name=Trigger:Naqline Skip
+# Quest: Trigger: Naqline Skip
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL3A.name=Trigger: Naqline Skip
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL3A.desc=No Description
 
-# Quest: Trigger:Loot Game
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALOw.name=Trigger:Loot Game
+# Quest: Trigger: Loot Game
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALOw.name=Trigger: Loot Game
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALOw.desc=Find a loot game room
 
-# Quest: Trigger Flippers
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALVA.name=Trigger Flippers
+# Quest: Trigger: Flippers
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALVA.name=Trigger: Flippers
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALVA.desc=
 
-# Quest: Trigger:Titanium Moon Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALVQ.name=Trigger:Titanium Moon Skip
+# Quest: Trigger: Titanium Moon Skip
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALVQ.name=Trigger: Titanium Moon Skip
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALVQ.desc=No Description
 
-# Quest: Trigger:Platline Platinum Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALVg.name=Trigger:Platline Platinum Skip
+# Quest: Trigger: Platline Platinum Skip
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALVg.name=Trigger: Platline Platinum Skip
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALVg.desc=No Description
 
-# Quest: Trigger:PBI Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALVw.name=Trigger:PBI Skip
+# Quest: Trigger: PBI Skip
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALVw.name=Trigger: PBI Skip
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALVw.desc=No Description
 
-# Quest: Trigger:Platline Palladium Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALWA.name=Trigger:Platline Palladium Skip
+# Quest: Trigger: Platline Palladium Skip
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALWA.name=Trigger: Platline Palladium Skip
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALWA.desc=No Description
 
-# Quest: Trigger:Platline Rhodium Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALWQ.name=Trigger:Platline Rhodium Skip
+# Quest: Trigger: Platline Rhodium Skip
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALWQ.name=Trigger: Platline Rhodium Skip
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALWQ.desc=No Description
 
-# Quest: Trigger:Platline Ruthenium Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALWg.name=Trigger:Platline Ruthenium Skip
+# Quest: Trigger: Platline Ruthenium Skip
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALWg.name=Trigger: Platline Ruthenium Skip
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALWg.desc=No Description
 
-# Quest: Trigger:Platline Iridium Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALWw.name=Trigger:Platline Iridium Skip
+# Quest: Trigger: Platline Iridium Skip
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALWw.name=Trigger: Platline Iridium Skip
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALWw.desc=No Description
 
-# Quest: Trigger:Platline Osmium Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALXA.name=Trigger:Platline Osmium Skip
+# Quest: Trigger: Platline Osmium Skip
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALXA.name=Trigger: Platline Osmium Skip
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALXA.desc=No Description
 
-# Quest: Trigger:Tungstensteel Mars Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALXQ.name=Trigger:Tungstensteel Mars Skip
+# Quest: Trigger: Tungstensteel Mars Skip
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALXQ.name=Trigger: Tungstensteel Mars Skip
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALXQ.desc=No Description
 
 # Quest: Trigger: Obtain Sunnarium
@@ -14717,24 +14717,28 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMjw.desc=No Description
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrw.name=Tool: Never complete
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrw.desc=This quest should never be complete which is useful to hide templates and other things.
 
+# Quest: Trigger: Graphene Skip
+betterquesting.quest.MdXhDkN_TECH5kMp4OM2Gg.name=Trigger: Graphene Skip
+betterquesting.quest.MdXhDkN_TECH5kMp4OM2Gg.desc=No Description
+
 # Quest: Trigger: Early Scribing Tools
 betterquesting.quest.S8Z31Xp-RrSdc2A6rOvUzg.name=Trigger: Early Scribing Tools
 betterquesting.quest.S8Z31Xp-RrSdc2A6rOvUzg.desc=No Description
 
-# Quest: Trigger:Styrene-Butadiene rubber
-betterquesting.quest.cQkx83QYT4m3mwovgZIKvA.name=Trigger:Styrene-Butadiene rubber
+# Quest: Trigger: Styrene-Butadiene Rubber Skip
+betterquesting.quest.cQkx83QYT4m3mwovgZIKvA.name=Trigger: Styrene-Butadiene Rubber Skip
 betterquesting.quest.cQkx83QYT4m3mwovgZIKvA.desc=No Description
 
-# Quest: Trigger:Polyphenylene Sulfide Skip
-betterquesting.quest.gg1I91tdRK2us5ETzB2VjA.name=Trigger:Polyphenylene Sulfide Skip
+# Quest: Trigger: Polyphenylene Sulfide Skip
+betterquesting.quest.gg1I91tdRK2us5ETzB2VjA.name=Trigger: Polyphenylene Sulfide Skip
 betterquesting.quest.gg1I91tdRK2us5ETzB2VjA.desc=No Description
 
 # Quest: Trigger: Profane Wand
 betterquesting.quest.kPOfft_mTjqocCR6z9GhVw.name=Trigger: Profane Wand
 betterquesting.quest.kPOfft_mTjqocCR6z9GhVw.desc=No Description
 
-# Quest: Trigger:Nether Skip
-betterquesting.quest.qFco17HGS0SxmpVn-uWJZQ.name=Trigger:Nether Skip
+# Quest: Trigger: Nether Skip
+betterquesting.quest.qFco17HGS0SxmpVn-uWJZQ.name=Trigger: Nether Skip
 betterquesting.quest.qFco17HGS0SxmpVn-uWJZQ.desc=No Description
 
 # Quest: Trigger: LV Extruder Skip
