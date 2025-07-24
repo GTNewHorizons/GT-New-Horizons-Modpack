@@ -1115,7 +1115,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACfw.desc=Another distillate you can make
 
 # Quest: LPG
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACgA.name=§5§lLPG
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACgA.desc=Centrifuging Butane or Propane gives you LPG with a burn value of 320,000 EU, the same as naphtha.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACgA.desc=Centrifuging Butane or Propane gives you LPG with a burn value of 320,000 EU.
 
 # Quest: Naphtha
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACgQ.name=§5§lNaphtha
@@ -2237,7 +2237,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGTA.desc=EV motors need Neodymium. Rare 
 
 # Quest: Synthetic Rubber
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGTw.name=§9§lSynthetic Rubber
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGTw.desc=Want to make the synthetic rubber styrene-butadiene?%n%nI'll show you a way you can get it. You'll need an Oil Cracker and a Distillation Tower. There are different ways to do it and this quest is only an example of how you can make it.%n%nThe first step is to crack your Naphtha with steam.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGTw.desc=Want to make the synthetic rubber styrene-butadiene?%n%nI'll show you a way you can get it. You'll need an Oil Cracker and a Distillation Tower. There are different ways to do it and this quest is only an example of how you can make it.%n%nThe first step is to crack your Naphtha with steam.%n%n§6Already automated Styrene-Butadiene rubber or Polystyrene? Hold 128 sheets of each to skip their respective questline.
 
 # Quest: Distillation
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGUQ.name=§9§lDistillation
@@ -2257,7 +2257,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGfA.desc=Add sulfur to the raw dust to g
 
 # Quest: Silicone Rubber
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGfQ.name=§9§lSilicone Rubber
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGfQ.desc=Want to make the synthetic rubber Silicone? As the first step you need Chloromethane.%n%nYou can use 2 Chlorine and 1 Methane per Chloromethane in your chemical reactor. Alternatively you can use Methanol and Hydrochloric Acid.%n%nThere are different ways to do it and this quest is only an example of how you can make it.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGfQ.desc=Want to make the synthetic rubber Silicone? As the first step you need Chloromethane.%n%nYou can use 2 Chlorine and 1 Methane per Chloromethane in your chemical reactor. Alternatively you can use Methanol and Hydrochloric Acid.%n%nThere are different ways to do it and this quest is only an example of how you can make it.%n%n§6Already automated Silicone Rubber? Hold 128 sheets to skip this questline.
 
 # Quest: Dimethyldichlorosilane
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGfg.name=§9§lDimethyldichlorosilane
@@ -2289,7 +2289,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHEw.desc=4000 buckets not enough storage
 
 # Quest: Teflon Don
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHFA.name=§9§lTeflon Don
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHFA.desc=To make PTFE, aka Teflon, you only need a few steps.%n%nThe first one is hydrofluoric acid. If you haven't reached the moon yet, the best sources for fluorine might be cryolite. Other options are treating Sand or Sandstone in a Chemical Plant for some Fluorite Ore, and centrifuging stone dust or black granite dust for biotite. You can also get small amounts from Lepidolite in salt veins and Mica. Mix it with some hydrogen to get hydrofluoric acid.%n%nIf you have reached the moon, you can also process Bastnasite ore.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHFA.desc=To make PTFE, aka Teflon, you only need a few steps.%n%nThe first one is hydrofluoric acid. If you haven't reached the moon yet, the best sources for fluorine might be cryolite. Other options are treating Sand or Sandstone in a Chemical Plant for some Fluorite Ore, and centrifuging stone dust or black granite dust for biotite. You can also get small amounts from Lepidolite in salt veins and Mica. Mix it with some hydrogen to get hydrofluoric acid.%n%nIf you have reached the moon, you can also process Bastnasite ore.%n%n§6Already automated PTFE? Hold 128 sheets to skip this questline.
 
 # Quest: Chloroform
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHFQ.name=§9§lChloroform
@@ -2446,7 +2446,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAyA.desc=Like the chandelier, the magnum
 
 # Quest: Graphene
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABig.name=§a§k§r§a§lGraphene
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABig.desc=For IV motors you will need Graphene. Graphene is a material that is just one atom layer thick. It has very favorable electric properties. To create though you will have to make some Graphene you can use a powerful adhesive to pull a single layer of material away from Graphite.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABig.desc=Graphene is a material that is just one atom layer thick. It has very favorable electric properties. To create though you will have to make some Graphene you can use a powerful adhesive to pull a single layer of material away from Graphite.
 
 # Quest: Advanced Glue
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAByw.name=§a§k§r§a§lAdvanced Glue
@@ -2458,7 +2458,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABzA.desc=You know how polymerization wor
 
 # Quest: Vinyl Acetate
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABzQ.name=§a§k§r§a§lVinyl Acetate
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABzQ.desc=This organic compound is just a stepping stone.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABzQ.desc=Graphene is required for IV motors. This organic compound is just a stepping stone.%n%n§6Already automated Graphene? Hold 128 dust to complete this questline.
 
 # Quest: Indium
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD7Q.name=§a§lIndium
@@ -2542,7 +2542,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAExw.desc=An EV circuit assembler require
 
 # Quest: Epoxid
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEyA.name=§a§lEpoxid
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEyA.desc=Epoxid is needed for Advanced Circuits boards. You need Sodium Hydroxide, Epichlorohydrin and Bispenol A to make it.%n%nYou can also use the molten form for some other things you might want to check out.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEyA.desc=Epoxid is needed for Advanced Circuits boards. You need Sodium Hydroxide, Epichlorohydrin and Bispenol A to make it.%n%nYou can also use the molten form for some other things you might want to check out.%n%n[note]Using a Large Chemical Reactor? You might be able to skip some steps, look around NEI to find out more.[/note]
 
 # Quest: Epichlorohydrin
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEzA.name=§a§lEpichlorohydrin
@@ -2550,11 +2550,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEzA.desc=Epichlorohydrin is another prod
 
 # Quest: Phenol
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEzQ.name=§a§lPhenol
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEzQ.desc=The easiest way is to get phenol out of heavy fuel. There are other ways, like getting it out of wood tar from a pyrolyse oven, isopropylbenzene and oxygen, or chlorobenzene and water.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEzQ.desc=The next circuit line requires Epoxid. To start, let's get some Phenol.%n%nThe easiest way is to get phenol out of heavy fuel. There are other ways, like getting it out of wood tar from a pyrolyse oven, isopropylbenzene and oxygen, or chlorobenzene and water.%n%n§6Already automated Epoxid? Hold 128 sheets to skip this questline.
 
 # Quest: Bisphenol A
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEzg.name=§a§lBisphenol A
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEzg.desc=To get Bisphenol A you need to combine Phenol, Acetone and HCl in a chemical reactor.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEzg.desc=The next step towards Epoxid is to get Bisphenol A. You will need to combine Phenol, Acetone and HCl in a chemical reactor.
 
 # Quest: HSS-G
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF0w.name=§a§lHSS-G
@@ -2694,7 +2694,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJVw.desc=Now that you have drums, you wa
 
 # Quest: Dichlorobenzene
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJkA.name=§a§lDichlorobenzene
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJkA.desc=To make higher tier cables, you'll have to put a little more effort in. Let's start with Dichlorobenzene.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJkA.desc=To make higher tier cables, you'll have to use Polyphenylene Sulfide to coat them. Let's start with Dichlorobenzene.%n%n§6Already automated Polyphenylene Sulfide? Hold 128 sheets to skip this questline.
 
 # Quest: Polyphenylene Sulfide
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJkQ.name=§a§lPolyphenylene Sulfide
@@ -2702,7 +2702,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJkQ.desc=Combine Dichlorobenzene with So
 
 # Quest: Higher Tier Cables
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJkg.name=§a§lHigher Tier Cables
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJkg.desc=To make higher tier cables, you'll want to make them with Polyphenylene Sulfide Foils and Silicone or Styrene-Butadiene Rubber.%nYou'll need both Tungsten and Platinum in IV-tier.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJkg.desc=Now you can use Polyphenylene Sulfide Foils and Silicone or Styrene-Butadiene Rubber to coat higher tier cables.%nYou'll need both Tungsten and Platinum in IV-tier.
 
 # Quest: Advanced Ilmenite Processing
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKAg.name=§a§f§a§lAdvanced Ilmenite Processing
@@ -2835,7 +2835,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGlQ.desc=ASoCs. Advanced system on a chi
 
 # Quest: Polybenzimidazole
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGmw.name=§b§lPolybenzimidazole
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGmw.desc=Polybenzimidazole or PBI is a synthetic fiber needed in ZPM Hulls and in high tier solar panels, and can also be used to make some other items more efficiently. It has many steps to produce it. Let's start with chlorobenzene, but keep in mind you'll need to complete the other non-platline IV-tier chemical quests too.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGmw.desc=Polybenzimidazole or PBI is a synthetic fiber needed in ZPM Hulls and in high tier solar panels, and can also be used to make some other items more efficiently. It has many steps to produce it. Let's start with chlorobenzene, but keep in mind you'll need to complete the other non-platline IV-tier chemical quests too.%n%n§6Already automated PBI? Hold 256 sheets to skip this questline.
 
 # Quest: Nitration Mixture
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGnA.name=§b§lNitration Mixture
@@ -5593,14 +5593,6 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAADQ.desc=Tired of torches everywhere
 betterquesting.quest.-bMT3fEYTeqtRL-62o_EHQ.name=Basic Creative Flight
 betterquesting.quest.-bMT3fEYTeqtRL-62o_EHQ.desc=[quest]Advanced MagLev Pylon I (MV)[/quest]%n%nConsumes §c1A§r while powered. %n%nThe MV Pylon has a §c16§r block radius (33x33x33 cube centered around the pylon)%n%nRadius is §9halved§r if the pylon is unpowered. 
 
-# Quest: Steel Barrel
-betterquesting.quest.25yJ-u9OSG-GiMnQY9vWfQ.name=§3§lSteel Barrel
-betterquesting.quest.25yJ-u9OSG-GiMnQY9vWfQ.desc=The Steel barrel also has 72 slots.
-
-# Quest: Copper Barrel
-betterquesting.quest.9B9CvQD0R8iLv-CBMTYZGQ.name=§2§lCopper Barrel
-betterquesting.quest.9B9CvQD0R8iLv-CBMTYZGQ.desc=The Copper barrel has 45 slots.
-
 # Quest: Building Made Easy
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACWQ.name=Building Made Easy
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACWQ.desc=Placing blocks by hand can be tedious. Wouldn't it be nice to be able to place blocks like "Another 9 here"? Well, good news. Get yourself some of the various building blocks, and I shall reward you with something nice.%n%nYou could also just craft it (or the better one) with unstable ingots yourself, too.%n%nYou can upgrade to the various other BBWs too.
@@ -5809,10 +5801,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIcA.desc=Yet another custom block system
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM3g.name=Catwalks
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM3g.desc=The Catwalks Mod adds several cosmetic blocks to deck out your factory.%n%nScaffolds and Builder's Scaffolds are useful for building up in the air before you get access to flight. They can be climbed like ladders, and break instantly when punched. You will also not fall off of them if you let go of movement keys while climbing. If you right-click the Builder's Scaffold with a solid block, the scaffold will be replaced by that block.%n%nCatwalks can connect to each other to form a wide passageway. You can decorate them by attaching Caution Tape or Rope Lights, the latter provide dim lighting.%n%nCaged Ladders give you a way to move up and down without a risk of falling off. Climbing them is much faster than vanilla ladders.%n%nSupport Columns are purely decorative. They connect to each other in all directions. They also work as ladders.%n%nSturdy Rails let you run minecart tracks across gaps without supports. Right-click the Sturdy Powered Rail with a Blowtorch to power it permanently, you don't need a redstone torch. If you don't have enough distractions already, use them to build a rollercoaster!%n%nThe Blowtorch lets you remove railings or even the floor from a catwalk by right-clicking. Use it to make an opening to let you walk onto the catwalk, or if you don't know what an "OSHA violation" is. The same function can be performed by a GT or Forge-compatible wrench, so you don't actually need to make this.
 
-# Quest: Gold Barrel
-betterquesting.quest.GuylOTxSSraeAtj16fZ9-w.name=§3§lGold Barrel
-betterquesting.quest.GuylOTxSSraeAtj16fZ9-w.desc=The Gold barrel has 81 slots.
-
 # Quest: Obsidian Barrel
 betterquesting.quest.KfgATF33ToiE0aYS4pp04Q.name=§5§6§lObsidian Barrel
 betterquesting.quest.KfgATF33ToiE0aYS4pp04Q.desc=The Obsidian barrel holds as many items as the Diamond one, and is also immune to explosions.
@@ -5821,10 +5809,6 @@ betterquesting.quest.KfgATF33ToiE0aYS4pp04Q.desc=The Obsidian barrel holds as ma
 betterquesting.quest.LaLMF5rFQ0SxAZ5o-C-r5Q.name=Double the Radius = Double the Fun!
 betterquesting.quest.LaLMF5rFQ0SxAZ5o-C-r5Q.desc=[quest]Advanced MagLev Pylon II (HV)[/quest]%n%nThe HV Pylon has a §c32§r block radius (65x65x65 cube centered around the pylon)%n%nRadius is §9halved§r if the pylon is unpowered. 
 
-# Quest: Diamond Barrel
-betterquesting.quest.PjAewUoJTnilPpIT-Ce0tA.name=§5§lDiamond Barrel
-betterquesting.quest.PjAewUoJTnilPpIT-Ce0tA.desc=The Diamond barrel has 108 slots.
-
 # Quest: Obsidian Chest
 betterquesting.quest.QMlw6Z67T5-y_qflA7On2Q.name=§8Obsidian Chest
 betterquesting.quest.QMlw6Z67T5-y_qflA7On2Q.desc=Combining diamond chest with obsidian allowed you to create a chest that is blastproof!%n%n[note]Just as with the previous chests you can also upgrade with a fitting upgrade item.[/note]
@@ -5832,10 +5816,6 @@ betterquesting.quest.QMlw6Z67T5-y_qflA7On2Q.desc=Combining diamond chest with ob
 # Quest: Constructing Additional Pylons!
 betterquesting.quest.U0LzQUUkRIi-cY3ZpT4uiQ.name=Constructing Additional Pylons!
 betterquesting.quest.U0LzQUUkRIi-cY3ZpT4uiQ.desc=[quest]Advanced MagLev Pylon III (EV)[/quest]%n%nThe EV Pylon has a §c48§r block radius (97x97x97 cube centered around the pylon)%n%nRadius is §9halved§r if the pylon is unpowered. %n%n[note]The Protoss would be very happy with you[/note]
-
-# Quest: The future is here!
-betterquesting.quest.V9BupH47RI6RWX6vff5dpw.name=§2§lThe future is here!
-betterquesting.quest.V9BupH47RI6RWX6vff5dpw.desc=EFR adds with it vanilla Barrels (not to be confused with JABBA barrels). These are essentially like chests, but they can be placed next to each other and opened with a block above them. And you can upgrade them! Great for those compact machine setups.
 
 # Quest: A Modern Technology
 betterquesting.quest.VFVruPLHQAeDthuV-s7HGQ.name=A Modern Technology
@@ -5848,14 +5828,6 @@ betterquesting.quest.dNDuychlSiqlrMhfnEKK_w.desc=The Dark Steel barrel holds 135
 # Quest: Crystal Chest
 betterquesting.quest.e-VLKN-JSRK3V2cmDbm6rw.name=§bCrystal Chest
 betterquesting.quest.e-VLKN-JSRK3V2cmDbm6rw.desc=You've created a chest that allows you to see what's inside, isn't that useful?%n%n[note]Just as with the previous chests you can also upgrade with a fitting upgrade item.[/note]
-
-# Quest: Silver Barrel
-betterquesting.quest.fhzjYvdATJuUQTMUO1pVvA.name=§3§lSilver Barrel
-betterquesting.quest.fhzjYvdATJuUQTMUO1pVvA.desc=The Silver barrel has 72 slots.
-
-# Quest: Iron Barrel
-betterquesting.quest.ne_onBK6TP2F_ySPabM7Lw.name=§2§lIron Barrel
-betterquesting.quest.ne_onBK6TP2F_ySPabM7Lw.desc=The Iron barrel has 54 slots.
 
 
 ## Quest Line: Forestry and Multifarms
@@ -6145,7 +6117,7 @@ betterquesting.quest.-1GoIXIXR029oc0Ge6sRGg.desc=This multiblock works just as a
 
 # Quest: Distill the Atmosphere
 betterquesting.quest.7p2Sqx7dR8mfVCNUYEUIuQ.name=§6§lDistill the Atmosphere
-betterquesting.quest.7p2Sqx7dR8mfVCNUYEUIuQ.desc=Using the Vacuum Freezer you can create Liquid Air. Liquid Air can be centrifuged into additional gases you won't get when centrifuging normal compressed air, but if you gather enough you can distill it into much more gases. %n%nMake these special hatches to hold and store the amounts outputted.
+betterquesting.quest.7p2Sqx7dR8mfVCNUYEUIuQ.desc=Using the Vacuum Freezer you can create Liquid Air. Liquid Air can be centrifuged into additional gases you won't get when centrifuging normal compressed air. If you can gather enough Liquid Air you can instead distill it into a larger quantity and variety of rare gases.%n%nMake these special hatches to hold and store the amounts required for this recipe.
 
 # Quest: Collision Course
 betterquesting.quest.9Pc7p99ASnybsIbWmmg0LQ.name=Collision Course
@@ -14058,9 +14030,17 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGmg.desc=Trade three IV lootbags to get 
 betterquesting.quest.1FFkSYHcQPO_6U185CKBiw.name=Waterproof Tech
 betterquesting.quest.1FFkSYHcQPO_6U185CKBiw.desc=With the ability to bend spacetime at your will, you can prevent fluids and electronics from interacting.%n%nFluid containing patterns can be processed.%n%n[note]Otherwise it works like crafting input bus.[/note]
 
+# Quest: Steel Barrel
+betterquesting.quest.25yJ-u9OSG-GiMnQY9vWfQ.name=§3§lSteel Barrel
+betterquesting.quest.25yJ-u9OSG-GiMnQY9vWfQ.desc=The Steel barrel also has 72 slots.
+
 # Quest: Integrated Ore Factory - All in One!
 betterquesting.quest.3hN7FykMSJSWSykZiEWvfQ.name=§6§6§6§lIntegrated Ore Factory - All in One!
 betterquesting.quest.3hN7FykMSJSWSykZiEWvfQ.desc=The Integrated Ore Factory allows you to process ores through multiple processes at once.
+
+# Quest: Copper Barrel
+betterquesting.quest.9B9CvQD0R8iLv-CBMTYZGQ.name=§2§lCopper Barrel
+betterquesting.quest.9B9CvQD0R8iLv-CBMTYZGQ.desc=The Copper barrel has 45 slots.
 
 # Quest: Main Quests and Secondary Quests
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAABA.name=§1§lMain Quests and Secondary Quests
@@ -14574,6 +14554,14 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMzg.desc=Why use a small nozzle to print
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMzw.name=Nano Forge Tier 1
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMzw.desc=There must be a way to make a nano scale robots to work in a machine. Carbon ones can be made in an assembly line, but very inefficiently. There must be a better way.%n%nWhat about a Nano Forge, able to cut up blocks into nano-thin sheets and then creating the first nanite, which helps create thousands of them in mere seconds.%n%n[note]The Nano Forge is a big multiblock requiring lots of power over the course of a couple minutes. It is able to use TT energy hatches (including lasers). The controller must have a carbon nanite inside to make tier 1 recipes.[/note]%n%n[note]Despite what NEI might claim there are no minimum voltages for the Nano Forge recipes. If you want to do a recipe you just have to achieve the minimum EU/t required, no matter the voltage[/note].
 
+# Quest: Gold Barrel
+betterquesting.quest.GuylOTxSSraeAtj16fZ9-w.name=§3§lGold Barrel
+betterquesting.quest.GuylOTxSSraeAtj16fZ9-w.desc=The Gold barrel has 81 slots.
+
+# Quest: Diamond Barrel
+betterquesting.quest.PjAewUoJTnilPpIT-Ce0tA.name=§5§lDiamond Barrel
+betterquesting.quest.PjAewUoJTnilPpIT-Ce0tA.desc=The Diamond barrel has 108 slots.
+
 # Quest: Compact Storage
 betterquesting.quest.QNsm_wc0QO2g9C6_-vj2fA.name=§2§lCompact Storage
 betterquesting.quest.QNsm_wc0QO2g9C6_-vj2fA.desc=Now that you are starting to find more and more copper, you feel your wood chests are too small to hold all the stuff.%n%n[note]It's time to upgrade your wooden chests to copper chests! Higher tiers of chests can be upgraded cheaply by using upgrade items, but not all tier chests can be upgraded directly this way. You can also try the "Wood to Copper Chest Upgrade", but upgrading from wood to a tiered chest will not be any cheaper.[/note]%n%n[note]Upgraded chests cannot be connected into double chests.[/note]
@@ -14582,9 +14570,21 @@ betterquesting.quest.QNsm_wc0QO2g9C6_-vj2fA.desc=Now that you are starting to fi
 betterquesting.quest.V4jinTYRSueIrEqn90dRzQ.name=§3§lSteel Chest?
 betterquesting.quest.V4jinTYRSueIrEqn90dRzQ.desc=While being significantly more expensive than gold chest, the steel chest has less capacity but it can be used in some specialized crafting recipes.
 
+# Quest: The future is here!
+betterquesting.quest.V9BupH47RI6RWX6vff5dpw.name=§2§lThe future is here!
+betterquesting.quest.V9BupH47RI6RWX6vff5dpw.desc=EFR adds with it vanilla Barrels (not to be confused with JABBA barrels). These are essentially like chests, but they can be placed next to each other and opened with a block above them. And you can upgrade them! Great for those compact machine setups.
+
+# Quest: Silver Barrel
+betterquesting.quest.fhzjYvdATJuUQTMUO1pVvA.name=§3§lSilver Barrel
+betterquesting.quest.fhzjYvdATJuUQTMUO1pVvA.desc=The Silver barrel has 72 slots.
+
 # Quest: Multiblock Revolution
 betterquesting.quest.hEsmeH74S4aOOrROI1AHxQ.name=§3§lMultiblock Revolution
 betterquesting.quest.hEsmeH74S4aOOrROI1AHxQ.desc=The steam machines you have been using until now have served you well, but there will be a time when you need to process even more items. That's where the so-called multiblocks come in. There's a variety of steam multiblocks available to you - go have a look at the Mass Processing quest tab!%n%nThis tab introduces you to a wide range of extremely powerful multiblock machines that can replace your old, worn-out singleblocks (and some that can replace your old multiblocks!). Many of these new machines will require you to handle additional mechanics and requirements, but it will be worth it!%n%nHere are some terms you should be familiar with as you enter the world of multiblocks:%n%nOverclock (OC):%nIf a machine can handle at least 4 times the voltage that is required for a recipe, it will overclock - causing it to require 4x the EU/t but also run 2x as fast. This can happen multiple times!%n%nPerfect Overclock (Often phrased as "Does not lose efficiency when overclocked):%nSome machines conditionally (or unconditionally) perform perfect overclocks: in this case, the machine will require 4x the EU/t, but it will run 4x as fast instead, leading to both increased speed and no net increase in the total eu usage!%n%nParallel (Often phrased as "Processes x items"):%nMachines which parallel act as if they are running multiple of themselves - that is to say, they are able to perform multiple of the same recipe at the same time, using the recipe's EU/t multiplied by the number of parallels. Machines which parallel will [warn]PRIORITIZE[/warn] this behavior over overclocking, which is good for you! Parallels are more efficient.%n%n[note]When working with multiblocks, if power is interrupted during operation, your inputs will be lost forever... careful![/note]
+
+# Quest: Iron Barrel
+betterquesting.quest.ne_onBK6TP2F_ySPabM7Lw.name=§2§lIron Barrel
+betterquesting.quest.ne_onBK6TP2F_ySPabM7Lw.desc=The Iron barrel has 54 slots.
 
 # Quest: Dark Steel Chest
 betterquesting.quest.t6xRGFm_S2SG6_-xNh8mwQ.name=§5§6§lDark Steel Chest
@@ -14724,6 +14724,10 @@ betterquesting.quest.S8Z31Xp-RrSdc2A6rOvUzg.desc=No Description
 # Quest: Trigger:Styrene-Butadiene rubber
 betterquesting.quest.cQkx83QYT4m3mwovgZIKvA.name=Trigger:Styrene-Butadiene rubber
 betterquesting.quest.cQkx83QYT4m3mwovgZIKvA.desc=No Description
+
+# Quest: Trigger:Polyphenylene Sulfide Skip
+betterquesting.quest.gg1I91tdRK2us5ETzB2VjA.name=Trigger:Polyphenylene Sulfide Skip
+betterquesting.quest.gg1I91tdRK2us5ETzB2VjA.desc=No Description
 
 # Quest: Trigger: Profane Wand
 betterquesting.quest.kPOfft_mTjqocCR6z9GhVw.name=Trigger: Profane Wand
