@@ -14,7 +14,8 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.Double_Thoriumcell"
+        "id:8": "gregtech:gt.rodThorium2",
+        "tag:10": {}
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -44,7 +45,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.Quad_Thoriumcell",
+          "id:8": "gregtech:gt.rodThorium4",
           "tag:10": {}
         }
       }
@@ -76,7 +77,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.Double_Thoriumcell",
+          "id:8": "gregtech:gt.rodThorium2",
           "tag:10": {}
         }
       },
@@ -94,7 +95,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.Quad_Thoriumcell",
+          "id:8": "gregtech:gt.rodThorium4",
           "tag:10": {}
         }
       },
