@@ -2,17 +2,13 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 1664
-    },
-    "1:10": {
-      "questIDHigh:4": 0,
       "questIDLow:4": 2449
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "To make higher tier cables, you\u0027ll want to make them with Polyphenylene Sulfide Foils and Silicone. You\u0027ll need both Tungsten and Platinum in IV-tier.",
+      "desc:8": "Now you can use Polyphenylene Sulfide Foils and Silicone or Styrene-Butadiene Rubber to coat higher tier cables.\nYou\u0027ll need both Tungsten and Platinum in IV-tier.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -119,6 +115,47 @@
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 1680,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "Damage:2": 1640,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        },
+        "2:10": {
+          "Count:3": 4,
+          "Damage:2": 29631,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 635,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.99"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 2649,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 2,
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
