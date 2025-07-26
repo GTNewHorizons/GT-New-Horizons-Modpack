@@ -11392,7 +11392,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAH_g.desc=Now that you have lead you can 
 
 # Quest: 3 Plus 4, Carry the 2...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHeA.name=3 Plus 4, Carry the 2...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHeA.desc=When doing infusions, it's always good to know how close you are in stability. Once you get to HV you can make an Arcane Abacus to track your infusions. This makes infusions 100 percent safe, right??
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHeA.desc=When doing infusions, it's always good to know how close you are in stability. The Arcane Abacus will tell you at a quick glance how stable your infusion altar is, and any asymmetries present. %n%nFor now, you can have one in exchange for a few types of common infusion stabilization blocks- but if you need to replace it, it will cost you some circuits!
 
 # Quest: What Are You, a Seamstress?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHyw.name=What Are You, a Seamstress?
@@ -11461,6 +11461,10 @@ betterquesting.quest.JyVKlIbSSiaXjYfQ2FFLhQ.desc=Now that you have started using
 # Quest: Growing Glowstone the Magical Way
 betterquesting.quest.LUwrS4RnQGilkbdPQ_DrBg.name=Growing Glowstone the Magical Way
 betterquesting.quest.LUwrS4RnQGilkbdPQ_DrBg.desc=There are many plants that can provide you with Glowstone Dust. But the best one might just be Glieonia. This magical plant, once matured, can be harvested for two Glowstone Dust directly.
+
+# Quest: Shadow Metal
+betterquesting.quest.NO4JlNzcR_-1gaQi-kb3JA.name=Shadow Metal
+betterquesting.quest.NO4JlNzcR_-1gaQi-kb3JA.desc=Shadow Metal is an extremely useful metal in the early game. It can be easily made via the crucible and refined once you unlock the vacuum freezer. %n%nIt's high durability makes it a fantastic candidate for handheld tools, prospector scanners, turbines, and even wand caps later down the line.%n%nStart off by making 5 ores, and doubling that using a macerator.%n%n[note]Hint: You can find the research early on in the Maleficia section of the Thaumonomicon[/note]
 
 # Quest: More Health
 betterquesting.quest.TjJv9pSOSaW1kwzoTZ9qRw.name=More Health
