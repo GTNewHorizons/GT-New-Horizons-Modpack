@@ -11527,6 +11527,10 @@ betterquesting.quest.yT18iStZRzKem7FYnZoRzw.desc=Pipe some liquid Instrumentum i
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAFw.name=Adept Thaumaturgy
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAFw.desc=Warp included.
 
+# Quest: Smoke Your Normal Warp Away
+betterquesting.quest.6pH9sRoUSbCDG8eWqXS_ow.name=Smoke Your Normal Warp Away
+betterquesting.quest.6pH9sRoUSbCDG8eWqXS_ow.desc=Having too much normal warp? Saniziting Soap is too expensive for you?%n%nWell, luckily for you, you can remove your Warp using a Silverwood Smoking Pipe and some Relaxing Tobacco. This is a fairly cheap and sustainable option for removing your Normal warp (assuming you have a good option to get a lot of Vis).%n%nIt also has a chance to reduce your temporary warp.%n%n[note]The chance to reduce your normal warp per Relaxing Tobacco is 10%%, so you'll be needing a bunch of it.[/note]%n
+
 # Quest: Adept Thaumaturgy
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABBA.name=Adept Thaumaturgy
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABBA.desc=I have mastered the basics. Master warned me about forbidden magic, but it sounds so promising. I think a bit of the forbidden can't hurt...
@@ -11693,7 +11697,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEHw.desc=After a few forbidden researche
 
 # Quest: Bathing the Warp Effects Away
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAESQ.name=Bathing the Warp Effects Away
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAESQ.desc=Litmus paper will tell you how high your warp level is, but how can you get rid of the nasty warp effects? Bath salt will help you by prohibiting warp effects for a short period. Just throw the salt into a 1x1 water hole and jump inside. You will feel relieved a bit after bathing.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAESQ.desc=Litmus paper will tell you how high your warp level is, but how can you get rid of the nasty warp effects? Bath salt will help you by prohibiting warp effects for a short period. Just throw the salt into a 1x1 water hole and jump inside. You will feel relieved a bit after bathing.%n%n[note]Note: The more permanent warp you have, the shorter the duration.[/note]
 
 # Quest: Bathing in a Spa. Automated Warp Removal
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAESg.name=Bathing in a Spa. Automated Warp Removal
@@ -11701,7 +11705,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAESg.desc=Bathing in a spa will automate 
 
 # Quest: Temp Warp Remover Soap
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAESw.name=Temp Warp Remover Soap
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAESw.desc=This soap is very special. It will remove temporary warp and has a small chance to also remove some normal warp, if you are lucky. Taking a bath first increases your chances.%n%nHint: You need to chisel your tallow block for the recipe to work.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAESw.desc=This soap is very special. It will remove temporary warp and has a small chance to also remove some normal warp, if you are lucky. Taking a bath first increases your chances.%n%nThis can later be upgraded to remove your permanent warp.%n%n%n[note]Hint: You need to chisel your tallow block for the recipe to work.[/note]
 
 # Quest: Beacon
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAETg.name=Beacon
@@ -11803,9 +11807,21 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMiA.desc=So many options for my next wan
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMyA.name=Ignore the Glint in Their Eyes
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMyA.desc=Well this is a bad idea, but since when has that stopped you before, golems with brains, what could go wrong?%n%n§2§b§3You only need to complete one task.
 
+# Quest: The BEST Soap!
+betterquesting.quest.Jl453zbkSfC4pl9kglgy6A.name=The BEST Soap!
+betterquesting.quest.Jl453zbkSfC4pl9kglgy6A.desc=Finally, you can now reduce your permanent warp.%n%nThe chance to reduce your permanent warp is 10%%, increased to 25%% if you have the Warp Ward effect and further increased to 40%% if you're standing in Purifying Liquid. %n%n[warn]This soap has some side effects. Make sure you have a way to remove your normal (and temporary) warp.[/warn]%n%n
+
 # Quest: ...or are they?
 betterquesting.quest.LIZCdBLfQquQpULGmFDixw.name=...or are they?
 betterquesting.quest.LIZCdBLfQquQpULGmFDixw.desc=These caps are even better than thaumium!
+
+# Quest: Check Your Warp For Free!
+betterquesting.quest.TBMfXgORRHuggrozS7vsVA.name=Check Your Warp For Free!
+betterquesting.quest.TBMfXgORRHuggrozS7vsVA.desc=Don't want to spend your Salis Mundus on Litmus Paper anymore? This device can significantly reduce your Litmus Paper useage!%n%nWhile holding this item, you gain a HUD Icon on the top left of your screen, which tells you how much warp you have. It does not tell you the exact warp values, but it helps you estimate it.%n%nHere's how to read it:%nYour §l§5§lPermanent Warp§r is displayed as a dark purple bar%nYour §5Normal Warp§r is displayed as a light purple bar%nYour §dTemporary Warp§r is displayed as a pink bar%n%nThe bar is full at 100 total warp.
+
+# Quest: Who Came Up With This Name??
+betterquesting.quest.lMDEhTDISSG1u2HYaZVg9w.name=Who Came Up With This Name??
+betterquesting.quest.lMDEhTDISSG1u2HYaZVg9w.desc=Sanitizing Soap isn't strong enough to keep up? %n%nThis soap has a 50%% Chance to reduce your normal warp, increased to 75%% if you have the Warp Ward effect (obtained by Purifying Bath Salts) and increased to 100%% if you're standing inside of the purifying fluid. %nThis soap also has a 100%% chance to cleanse §lall§r of your temporary warp!%n%nIn case you're wondering how to pronounce it: Don't even bother trying.%n
 
 
 ## Quest Line: Kaaami, Haaaami, ... HA!
