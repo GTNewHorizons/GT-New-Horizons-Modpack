@@ -2,29 +2,24 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 285,
-      "type:1": 1
-    },
-    "1:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 1055
+      "questIDLow:4": 1099
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "They\u0027re a pain to make, and only work if you have 50+ warp, but if you\u0027re wondering if you have dementia from all the chest scrambling, they may be for you. Check the warp theory tab in the thaumonomicon for this and the related items.",
+      "desc:8": "Sanitizing Soap isn\u0027t strong enough to keep up? \n\nThis soap has a 50% Chance to reduce your normal warp, increased to 75% if you have the Warp Ward effect (obtained by Purifying Bath Salts) and increased to 100% if you\u0027re standing inside of the purifying fluid. \nThis soap also has a 100% chance to cleanse §lall§r of your temporary warp!\n\nIn case you\u0027re wondering how to pronounce it: Don\u0027t even bother trying.\n",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "WarpTheory:item.warptheory.cleanserminor"
+        "id:8": "thaumicinsurgence:item.ItemSanitySoapAlpha"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Purge...Some of Your Warp?",
+      "name:8": "Who Came Up With This Name??",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -35,38 +30,44 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 2773,
+  "questIDHigh:4": -7727960884239644383,
+  "questIDLow:4": -5351576150087474953,
   "rewards:9": {
     "0:10": {
-      "ignoreDisabled:1": 0,
-      "index:3": 0,
-      "rewardID:8": "bq_standard:item",
-      "rewards:9": {
+      "choices:9": {
         "0:10": {
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "WarpTheory:item.warptheory.cleanserminor"
+          "id:8": "thaumicinsurgence:item.ItemSanitySoapAlpha"
         },
         "1:10": {
-          "Count:3": 1,
-          "Damage:2": 10,
+          "Count:3": 4,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "enhancedlootbags:lootbag"
+          "id:8": "Thaumcraft:ItemSanitySoap"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "OreDict:8": "",
+          "id:8": "Thaumcraft:ItemLootBag"
         }
-      }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 2,
+      "rewardID:8": "bq_standard:choice"
     },
     "1:10": {
       "ignoreDisabled:1": 0,
-      "index:3": 1,
+      "index:3": 3,
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 2,
+          "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinDarkWizardII"
+          "id:8": "dreamcraft:item.CoinDarkWizardI"
         }
       }
     }
@@ -84,7 +85,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "WarpTheory:item.warptheory.cleanserminor"
+          "id:8": "thaumicinsurgence:item.ItemSanitySoapAlpha"
         }
       },
       "taskID:8": "bq_standard:retrieval"
