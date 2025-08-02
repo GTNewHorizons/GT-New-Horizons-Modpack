@@ -1,0 +1,30 @@
+{
+    "name": "theme_ice",
+    "levels": {
+        "0": {
+            "theme": {
+                "base": "SPRUCE"
+            }
+        },
+        "1": {
+            "theme": {
+                "base": "SNOW"
+            }
+        },
+        "2": {
+            "theme": {
+                "base": "ENIICE"
+            }
+        },
+        "3": {
+            "theme": {
+                "base": "SEWER"
+            }
+        },
+        "4": {
+            "theme": {
+                "base": "ICE"
+            }
+        }
+    }
+}
