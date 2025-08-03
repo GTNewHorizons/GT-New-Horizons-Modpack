@@ -14,7 +14,7 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.sunnariumCell",
+        "id:8": "gregtech:gt.depletedRodGlowstone",
         "tag:10": {}
       },
       "isMain:1": 0,
@@ -80,7 +80,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.glowstoneCell"
+          "id:8": "gregtech:gt.rodGlowstone"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -97,7 +97,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.sunnariumCell",
+          "id:8": "gregtech:gt.depletedRodGlowstone",
           "tag:10": {}
         }
       },

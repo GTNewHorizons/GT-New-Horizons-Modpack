@@ -19,7 +19,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Trigger:Silicone Rubber Skip",
+      "name:8": "Trigger: Silicone Rubber Skip",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -68,7 +68,7 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 64,
+          "Count:3": 128,
           "Damage:2": 17471,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"
