@@ -2057,7 +2057,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAD-g.desc=Integrated Processors need cent
 
 # Quest: Small Coil
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD-w.name=§9§lSmall Coil
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD-w.desc=The Processor Assembly circuit needs some small coils. You can make these a couple different ways.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD-w.desc=The Processor Assembly circuit needs some small coils. You can make these a couple different ways.%n%n[note]If you're an overachiever and created SMD Inductors already you may hold 24 in your hand to skip this quest.[/note]
 
 # Quest: Upgraded RF Batteries
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD2w.name=§9§lUpgraded RF Batteries
@@ -14748,6 +14748,10 @@ betterquesting.quest.S8Z31Xp-RrSdc2A6rOvUzg.desc=No Description
 # Quest: Trigger: Styrene-Butadiene Rubber Skip
 betterquesting.quest.cQkx83QYT4m3mwovgZIKvA.name=Trigger: Styrene-Butadiene Rubber Skip
 betterquesting.quest.cQkx83QYT4m3mwovgZIKvA.desc=No Description
+
+# Quest: Trigger: SMD Inductor Skip
+betterquesting.quest.f9GkFpTbRruEZReIz7sGuA.name=Trigger: SMD Inductor Skip
+betterquesting.quest.f9GkFpTbRruEZReIz7sGuA.desc=No Description
 
 # Quest: Trigger: Polyphenylene Sulfide Skip
 betterquesting.quest.gg1I91tdRK2us5ETzB2VjA.name=Trigger: Polyphenylene Sulfide Skip
