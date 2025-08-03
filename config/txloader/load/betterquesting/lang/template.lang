@@ -1616,7 +1616,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADDg.desc=To make wafers, you need to mak
 
 # Quest: Transistor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADEQ.name=§6§lTransistor
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADEQ.desc=For the next tier we need advanced circuits. To make advanced circuits, you need transistors.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADEQ.desc=For the next tier we need advanced circuits. To make advanced circuits, you need transistors.%n%n[note]If you already made SMD Transistors you can hold 16 of them to skip this quest![/note]
 
 # Quest: MV Precision Laser Engraver
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADFw.name=§6§lMV Precision Laser Engraver
