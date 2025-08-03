@@ -21,7 +21,7 @@
       "lockedProgress:1": 0,
       "name:8": "Shulker",
       "questLogic:8": "AND",
-      "repeatTime:3": -1,
+      "repeatTime:3": 72000,
       "repeat_relative:1": 1,
       "simultaneous:1": 0,
       "snd_complete:8": "random.levelup",
