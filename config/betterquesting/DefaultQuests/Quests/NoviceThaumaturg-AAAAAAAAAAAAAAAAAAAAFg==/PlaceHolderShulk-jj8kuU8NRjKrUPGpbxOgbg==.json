@@ -2,7 +2,7 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 1517
+      "questIDLow:4": 230
     }
   },
   "properties:10": {
@@ -14,12 +14,12 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "DraconicEvolution:draconiumChest"
+        "id:8": "minecraft:nether_star"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "New Quest",
+      "name:8": "PlaceHolder - Shulker Box",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -30,8 +30,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": -7046960721774359377,
-  "questIDLow:4": -4980171706292986537,
+  "questIDHigh:4": -8196792418477193678,
+  "questIDLow:4": -6102111785071697810,
   "rewards:9": {},
   "tasks:9": {}
 }
