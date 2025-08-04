@@ -119,9 +119,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 16,
-          "Damage:2": 0,
+          "Damage:2": 5340,
           "OreDict:8": "",
-          "id:8": "GalacticraftCore:item.meteoricIronRaw"
+          "id:8": "gregtech:gt.metaitem.03"
         }
       },
       "taskID:8": "bq_standard:retrieval"
