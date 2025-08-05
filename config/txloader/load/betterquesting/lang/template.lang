@@ -409,7 +409,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHPA.desc=...But she'll never stop becaus
 
 # Quest: No Self-Healing Tools Here...Yet
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHSA.name=§2§lNo Self-Healing Tools Here...Yet
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHSA.desc=New players might be surprised by finding the Tinker's Construct Ball of Moss in NEI not showing an actual recipe.%n%nIn this pack you have to first gain expertise in Thaumcraft to craft it. Go and become a dangerous wizard, and you'll gain the power needed to craft the Ball of Moss and make your tools heal themselves. Of course, you need to get to the Twilight Forest and get some aluminium ingots before you can begin. The Ball of Moss is in the GTNH tab of the Thaumonomicon, and requires infusion. There are many other great things in the Thaumonomicon, but be wary of warp.%n%nHave a beer to prepare for your long journey.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHSA.desc=In this pack you have to first gain expertise in Thaumcraft to craft the Tinker's Construct Ball of Moss. Go and become a dangerous wizard, and you'll gain the power needed to craft the Ball of Moss and make your tools heal themselves. Of course, you need to get to the Twilight Forest and get some aluminium ingots before you can begin. The Ball of Moss is in the GTNH tab of the Thaumonomicon, and requires infusion. There are many other great things in the Thaumonomicon, but be wary of warp.%n%nHave a beer to prepare for your long journey.
 
 # Quest: Options For Finding Zinc in This Tier
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHSg.name=§2§lOptions For Finding Zinc in This Tier
@@ -1616,7 +1616,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADDg.desc=To make wafers, you need to mak
 
 # Quest: Transistor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADEQ.name=§6§lTransistor
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADEQ.desc=For the next tier we need advanced circuits. To make advanced circuits, you need transistors.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADEQ.desc=For the next tier we need advanced circuits. To make advanced circuits, you need transistors.%n%n[note]If you already made SMD Transistors you can hold 16 of them to skip this quest![/note]
 
 # Quest: MV Precision Laser Engraver
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADFw.name=§6§lMV Precision Laser Engraver
@@ -2057,7 +2057,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAD-g.desc=Integrated Processors need cent
 
 # Quest: Small Coil
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD-w.name=§9§lSmall Coil
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD-w.desc=The Processor Assembly circuit needs some small coils. You can make these a couple different ways.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD-w.desc=The Processor Assembly circuit needs some small coils. You can make these a couple different ways.%n%n[note]If you're an overachiever and created SMD Inductors already you may hold 24 in your hand to skip this quest.[/note]
 
 # Quest: Upgraded RF Batteries
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD2w.name=§9§lUpgraded RF Batteries
@@ -5021,7 +5021,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACig.desc=The copterpack is the first jet
 
 # Quest: Electric Jetpack
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACiw.name=Electric Jetpack
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACiw.desc=Your first electrical jetpack. You need to hit the IC2 mode-switch key to toggle between normal mode and hover mode while holding down the jump key. When descending, remember to shut off hover mode or else you'll drain your jetpack.%n%nThe only limitation is that you can't fly higher than Y-185.%n%nFor charging on the go, you can craft a charging crystal from ic2 charging components. You have to take the backpack out of the armor slot and put it in your hotbar and activate the charger by sneak-clicking. There are better models than this one old one I don't need any more. Look in NEI.%n%nLater on GT++ charging packs are belts that can charge everything in your inventory including armor. Check NEI for the recipe.%n%nFinally, the GT++ wireless charger will charge everything in your inventory, including the jetpack, from your base at long ranges. A quest is unlocked once you finish your nanosuit. Just remember when you are off world or in the Nether that your jetpack isn't charging!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACiw.desc=Your first electrical jetpack, It can be charged in any LV machine. You need to hit the IC2 mode-switch key to toggle between normal mode and hover mode while holding down the jump key. When descending, remember to shut off hover mode or else you'll drain your jetpack.%n%nThe only limitation is that you can't fly higher than Y-185.%n%nFor charging on the go, you can craft a charging crystal from ic2 charging components. You have to take the backpack out of the armor slot and put it in your hotbar and activate the charger by sneak-clicking. %n%nFinally, the GT++ wireless charger will charge everything in your inventory, including the jetpack, from your base at long ranges. A quest is unlocked once you finish your nanosuit. Just remember when you are off world or in the Nether that your jetpack isn't charging!
 
 # Quest: Fueled Jetpack
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACjA.name=Fueled Jetpack
@@ -5801,6 +5801,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIcA.desc=Yet another custom block system
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM3g.name=Catwalks
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM3g.desc=The Catwalks Mod adds several cosmetic blocks to deck out your factory.%n%nScaffolds and Builder's Scaffolds are useful for building up in the air before you get access to flight. They can be climbed like ladders, and break instantly when punched. You will also not fall off of them if you let go of movement keys while climbing. If you right-click the Builder's Scaffold with a solid block, the scaffold will be replaced by that block.%n%nCatwalks can connect to each other to form a wide passageway. You can decorate them by attaching Caution Tape or Rope Lights, the latter provide dim lighting.%n%nCaged Ladders give you a way to move up and down without a risk of falling off. Climbing them is much faster than vanilla ladders.%n%nSupport Columns are purely decorative. They connect to each other in all directions. They also work as ladders.%n%nSturdy Rails let you run minecart tracks across gaps without supports. Right-click the Sturdy Powered Rail with a Blowtorch to power it permanently, you don't need a redstone torch. If you don't have enough distractions already, use them to build a rollercoaster!%n%nThe Blowtorch lets you remove railings or even the floor from a catwalk by right-clicking. Use it to make an opening to let you walk onto the catwalk, or if you don't know what an "OSHA violation" is. The same function can be performed by a GT or Forge-compatible wrench, so you don't actually need to make this.
 
+# Quest: Crystal Shulker Box
+betterquesting.quest.DSkXvzhRSKiwFLJywGDMRg.name=§5§6§lCrystal Shulker Box
+betterquesting.quest.DSkXvzhRSKiwFLJywGDMRg.desc=An enhanced version of the Diamond Shulker that allows you to see the contents within.%n%nHas §n108§n§n§n§n§n§n§n§r slots.%n%n[note]Can be Dyed![/note]
+
 # Quest: Obsidian Barrel
 betterquesting.quest.KfgATF33ToiE0aYS4pp04Q.name=§5§6§lObsidian Barrel
 betterquesting.quest.KfgATF33ToiE0aYS4pp04Q.desc=The Obsidian barrel holds as many items as the Diamond one, and is also immune to explosions.
@@ -5809,9 +5813,17 @@ betterquesting.quest.KfgATF33ToiE0aYS4pp04Q.desc=The Obsidian barrel holds as ma
 betterquesting.quest.LaLMF5rFQ0SxAZ5o-C-r5Q.name=Double the Radius = Double the Fun!
 betterquesting.quest.LaLMF5rFQ0SxAZ5o-C-r5Q.desc=[quest]Advanced MagLev Pylon II (HV)[/quest]%n%nThe HV Pylon has a §c32§r block radius (65x65x65 cube centered around the pylon)%n%nRadius is §9halved§r if the pylon is unpowered. 
 
+# Quest: Obsidian Shulker Box
+betterquesting.quest.MbFXZcovQ1GRxQCeS2PUuw.name=§5§6§lObsidian Shulker Box
+betterquesting.quest.MbFXZcovQ1GRxQCeS2PUuw.desc=The portable equivalent of the Obsidian Barrel that retains it's explosion-proof qualities.%n%nHas §n108§n§n§n§n§n§n§n§r slots.%n%n[note]Can be Dyed![/note]
+
 # Quest: Obsidian Chest
 betterquesting.quest.QMlw6Z67T5-y_qflA7On2Q.name=§8Obsidian Chest
 betterquesting.quest.QMlw6Z67T5-y_qflA7On2Q.desc=Combining diamond chest with obsidian allowed you to create a chest that is blastproof!%n%n[note]Just as with the previous chests you can also upgrade with a fitting upgrade item.[/note]
+
+# Quest: Iron Shulker Box
+betterquesting.quest.StA9TvxxSi2n2c7wQdCAFA.name=§2§lIron Shulker Box
+betterquesting.quest.StA9TvxxSi2n2c7wQdCAFA.desc=The portable equivalent of the Iron Barrel.%n%nHas §n54§n§n§n§n§n§n§n§r slots.%n%n[note]Can be Dyed![/note]
 
 # Quest: Constructing Additional Pylons!
 betterquesting.quest.U0LzQUUkRIi-cY3ZpT4uiQ.name=Constructing Additional Pylons!
@@ -5821,13 +5833,37 @@ betterquesting.quest.U0LzQUUkRIi-cY3ZpT4uiQ.desc=[quest]Advanced MagLev Pylon II
 betterquesting.quest.VFVruPLHQAeDthuV-s7HGQ.name=A Modern Technology
 betterquesting.quest.VFVruPLHQAeDthuV-s7HGQ.desc=Concrete. Eh sorry, Hempcrete! A new modern technology brought to you via the GTNH Chisel mod. All 16 colors.%n%nThere are a lot of other nice blocks in Chisel. Just type "@chisel" in NEI and look around.
 
+# Quest: Gold Shulker Box
+betterquesting.quest.YFUK2QflT1G3_WC8XBp2Wg.name=§3§lGold Shulker Box
+betterquesting.quest.YFUK2QflT1G3_WC8XBp2Wg.desc=The portable equivalent of the Gold Barrel.%n%nHas §n81§n§n§n§n§n§n§n§r slots.%n%n[note]Can be Dyed![/note]
+
+# Quest: Shulker Upgrades
+betterquesting.quest.Zza5BrD7TduqKby_b3wQsQ.name=§3§lShulker Upgrades
+betterquesting.quest.Zza5BrD7TduqKby_b3wQsQ.desc=Shulker boxes in need of an upgrade? No need to gather all new shells, there are 9 upgrade items availible. They will preserve the inventory of your shulker so there is no need to empty it beforehand. %n%n§n§A§r§lAvailible Upgrades:§l§r%nVanilla -) Copper%nVanilla -) Iron%nCopper -) Iron%nCopper -) Silver%nIron -) Gold%nSilver -) Gold%nGold -) Diamond%nDiamond -) Crystal%nDiamond -) Obsidian%n%n[note]Hint: You can also use these upgrades to avoid the 50 vis wand requirement of the higher tier shulkers.[/note]%n
+
+# Quest: Diamond Shulker Box
+betterquesting.quest.aIt1E54yQaSOg4CMz-Xegw.name=§5§lDiamond Shulker Box
+betterquesting.quest.aIt1E54yQaSOg4CMz-Xegw.desc=The portable equivalent of the Diamond Barrel, you'll need to either upgrade your wand or take advantage of the Gold -) Diamond shulker box upgrade.%n%nHas §n108§n§n§n§n§n§n§n§r slots.%n%n[note]Can be Dyed![/note]
+
 # Quest: Dark Steel Barrel
 betterquesting.quest.dNDuychlSiqlrMhfnEKK_w.name=§5§6§lDark Steel Barrel
 betterquesting.quest.dNDuychlSiqlrMhfnEKK_w.desc=The Dark Steel barrel holds 135 items! And is also immune to explosions.
 
+# Quest: Copper Shulker Box
+betterquesting.quest.dbax1OsmRpWMg6Pt4tE_ig.name=§2§lCopper Shulker Box
+betterquesting.quest.dbax1OsmRpWMg6Pt4tE_ig.desc=The portable equivalent of the Copper Barrel.%n%nHas §n45§n§n§n§n§n§n§n§r slots.%n%n[note]Can be Dyed![/note]
+
 # Quest: Crystal Chest
 betterquesting.quest.e-VLKN-JSRK3V2cmDbm6rw.name=§bCrystal Chest
 betterquesting.quest.e-VLKN-JSRK3V2cmDbm6rw.desc=You've created a chest that allows you to see what's inside, isn't that useful?%n%n[note]Just as with the previous chests you can also upgrade with a fitting upgrade item.[/note]
+
+# Quest: Silver Shulker Box
+betterquesting.quest.nc1Pqje3RIe_Yp6WoPOFzg.name=§3§lSilver Shulker Box
+betterquesting.quest.nc1Pqje3RIe_Yp6WoPOFzg.desc=The portable equivalent of the Silver Barrel.%n%nHas §n72§n§n§n§n§n§n§n§r slots.%n%n[note]Can be Dyed![/note]
+
+# Quest: Draconic Chest
+betterquesting.quest.njQqj1iCTK-64uA4HfSdVw.name=§5§6§lDraconic Chest
+betterquesting.quest.njQqj1iCTK-64uA4HfSdVw.desc=The Draconic Chest is a special upgrade of the compressed chest. In addition to a large inventory size and being able to retain it's contents, it has a crafting station and a furnace integrated directly into it. %n%nThe smelting module can be powered by EU or RF and has an internal buffer of it's own. It can smelt up to 5 items at a time.
 
 
 ## Quest Line: Forestry and Multifarms
@@ -6337,7 +6373,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHcA.desc=Higher tier superconducting wir
 
 # Quest: Hot Hot Hot!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIFQ.name=§6§lHot Hot Hot!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIFQ.desc=Once you build your vacuum freezer, you're going to have to carry around hot ingots all the time (assuming you don't automate it). Your old gloves are falling apart, and take up both hands. I think there's a way to glue them together so you can carry hot items with just one hand. Give me some parts and I'll do it for you.%n%n[note]PS: The particle effect is active all the time, so if you don't like that, don't do this quest or don't wear them.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIFQ.desc=Once you build your vacuum freezer, you're going to have to carry around hot ingots all the time (assuming you don't automate it). Your old gloves are falling apart, and take up both hands. I think there's a way to glue them together so you can carry hot items with just one hand. Give me some parts and I'll do it for you.
 
 # Quest: Playing With the Big Boys, Chemically
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJXQ.name=Playing With the Big Boys, Chemically
@@ -11392,7 +11428,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAH_g.desc=Now that you have lead you can 
 
 # Quest: 3 Plus 4, Carry the 2...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHeA.name=3 Plus 4, Carry the 2...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHeA.desc=When doing infusions, it's always good to know how close you are in stability. Once you get to HV you can make an Arcane Abacus to track your infusions. This makes infusions 100 percent safe, right??
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHeA.desc=When doing infusions, it's always good to know how close you are in stability. The Arcane Abacus will tell you at a quick glance how stable your infusion altar is, and any asymmetries present. %n%nFor now, you can have one in exchange for a few types of common infusion stabilization blocks- but if you need to replace it, it will cost you some circuits!
 
 # Quest: What Are You, a Seamstress?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHyw.name=What Are You, a Seamstress?
@@ -11462,6 +11498,10 @@ betterquesting.quest.JyVKlIbSSiaXjYfQ2FFLhQ.desc=Now that you have started using
 betterquesting.quest.LUwrS4RnQGilkbdPQ_DrBg.name=Growing Glowstone the Magical Way
 betterquesting.quest.LUwrS4RnQGilkbdPQ_DrBg.desc=There are many plants that can provide you with Glowstone Dust. But the best one might just be Glieonia. This magical plant, once matured, can be harvested for two Glowstone Dust directly.
 
+# Quest: Shadow Metal
+betterquesting.quest.NO4JlNzcR_-1gaQi-kb3JA.name=Shadow Metal
+betterquesting.quest.NO4JlNzcR_-1gaQi-kb3JA.desc=Shadow Metal is an extremely useful metal in the early game. It can be easily made via the crucible and refined once you unlock the vacuum freezer. %n%nIt's high durability makes it a fantastic candidate for handheld tools, prospector scanners, turbines, and even wand caps later down the line.%n%nStart off by making 5 ores, and doubling that using a macerator.%n%n[note]Hint: You can find the research early on in the Maleficia section of the Thaumonomicon[/note]
+
 # Quest: More Health
 betterquesting.quest.TjJv9pSOSaW1kwzoTZ9qRw.name=More Health
 betterquesting.quest.TjJv9pSOSaW1kwzoTZ9qRw.desc=No matter how much of a crack shot you become it doesn't help when your twitchy fingers shoot your crossbow before your eyes can notice the tell-tale red lines on one particular type of spider's body. Usually incredible amounts of pain follow...%n%nWith your new wand you are able to craft Red Heart Canisters. A total of ten of them can be put in their own dedicated inventory slot, increasing your maximum health by one heart per.%n%nIt might not be enough, but if it ends up making the difference between standing upright and standing horizontally in a box, you'll be thankful you made these things.
@@ -11522,6 +11562,10 @@ betterquesting.quest.yT18iStZRzKem7FYnZoRzw.desc=Pipe some liquid Instrumentum i
 ## Quest Line: Adept Thaumaturgy
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAFw.name=Adept Thaumaturgy
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAFw.desc=Warp included.
+
+# Quest: Smoke Your Normal Warp Away
+betterquesting.quest.6pH9sRoUSbCDG8eWqXS_ow.name=Smoke Your Normal Warp Away
+betterquesting.quest.6pH9sRoUSbCDG8eWqXS_ow.desc=Having too much normal warp? Saniziting Soap is too expensive for you?%n%nWell, luckily for you, you can remove your Warp using a Silverwood Smoking Pipe and some Relaxing Tobacco. This is a fairly cheap and sustainable option for removing your Normal warp (assuming you have a good option to get a lot of Vis).%n%nIt also has a chance to reduce your temporary warp.%n%n[note]The chance to reduce your normal warp per Relaxing Tobacco is 10%%, so you'll be needing a bunch of it.[/note]%n
 
 # Quest: Adept Thaumaturgy
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABBA.name=Adept Thaumaturgy
@@ -11689,7 +11733,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEHw.desc=After a few forbidden researche
 
 # Quest: Bathing the Warp Effects Away
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAESQ.name=Bathing the Warp Effects Away
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAESQ.desc=Litmus paper will tell you how high your warp level is, but how can you get rid of the nasty warp effects? Bath salt will help you by prohibiting warp effects for a short period. Just throw the salt into a 1x1 water hole and jump inside. You will feel relieved a bit after bathing.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAESQ.desc=Litmus paper will tell you how high your warp level is, but how can you get rid of the nasty warp effects? Bath salt will help you by prohibiting warp effects for a short period. Just throw the salt into a 1x1 water hole and jump inside. You will feel relieved a bit after bathing.%n%n[note]Note: The more permanent warp you have, the shorter the duration.[/note]
 
 # Quest: Bathing in a Spa. Automated Warp Removal
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAESg.name=Bathing in a Spa. Automated Warp Removal
@@ -11697,7 +11741,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAESg.desc=Bathing in a spa will automate 
 
 # Quest: Temp Warp Remover Soap
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAESw.name=Temp Warp Remover Soap
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAESw.desc=This soap is very special. It will remove temporary warp and has a small chance to also remove some normal warp, if you are lucky. Taking a bath first increases your chances.%n%nHint: You need to chisel your tallow block for the recipe to work.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAESw.desc=This soap is very special. It will remove temporary warp and has a small chance to also remove some normal warp, if you are lucky. Taking a bath first increases your chances.%n%nThis can later be upgraded to remove your permanent warp.%n%n%n[note]Hint: You need to chisel your tallow block for the recipe to work.[/note]
 
 # Quest: Beacon
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAETg.name=Beacon
@@ -11799,9 +11843,21 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMiA.desc=So many options for my next wan
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMyA.name=Ignore the Glint in Their Eyes
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMyA.desc=Well this is a bad idea, but since when has that stopped you before, golems with brains, what could go wrong?%n%n§2§b§3You only need to complete one task.
 
+# Quest: The BEST Soap!
+betterquesting.quest.Jl453zbkSfC4pl9kglgy6A.name=The BEST Soap!
+betterquesting.quest.Jl453zbkSfC4pl9kglgy6A.desc=Finally, you can now reduce your permanent warp.%n%nThe chance to reduce your permanent warp is 10%%, increased to 25%% if you have the Warp Ward effect and further increased to 40%% if you're standing in Purifying Liquid. %n%n[warn]This soap has some side effects. Make sure you have a way to remove your normal (and temporary) warp.[/warn]%n%n
+
 # Quest: ...or are they?
 betterquesting.quest.LIZCdBLfQquQpULGmFDixw.name=...or are they?
 betterquesting.quest.LIZCdBLfQquQpULGmFDixw.desc=These caps are even better than thaumium!
+
+# Quest: Check Your Warp For Free!
+betterquesting.quest.TBMfXgORRHuggrozS7vsVA.name=Check Your Warp For Free!
+betterquesting.quest.TBMfXgORRHuggrozS7vsVA.desc=Don't want to spend your Salis Mundus on Litmus Paper anymore? This device can significantly reduce your Litmus Paper useage!%n%nWhile holding this item, you gain a HUD Icon on the top left of your screen, which tells you how much warp you have. It does not tell you the exact warp values, but it helps you estimate it.%n%nHere's how to read it:%nYour §l§5§lPermanent Warp§r is displayed as a dark purple bar%nYour §5Normal Warp§r is displayed as a light purple bar%nYour §dTemporary Warp§r is displayed as a pink bar%n%nThe bar is full at 100 total warp.
+
+# Quest: Who Came Up With This Name??
+betterquesting.quest.lMDEhTDISSG1u2HYaZVg9w.name=Who Came Up With This Name??
+betterquesting.quest.lMDEhTDISSG1u2HYaZVg9w.desc=Sanitizing Soap isn't strong enough to keep up? %n%nThis soap has a 50%% Chance to reduce your normal warp, increased to 75%% if you have the Warp Ward effect (obtained by Purifying Bath Salts) and increased to 100%% if you're standing inside of the purifying fluid. %nThis soap also has a 100%% chance to cleanse §lall§r of your temporary warp!%n%nIn case you're wondering how to pronounce it: Don't even bother trying.%n
 
 
 ## Quest Line: Kaaami, Haaaami, ... HA!
@@ -13898,6 +13954,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKtw.desc=Finally, a use for those bloody
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALYQ.name=Sticky Matter
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALYQ.desc=Can't find any Rubber Trees? Can't build a water tank? Too lazy to make a tree tap? Buy a stack of sticky resin for some coins.
 
+# Quest: Shulker
+betterquesting.quest.C8FHZDizTnax3tt7HvnkBw.name=Shulker
+betterquesting.quest.C8FHZDizTnax3tt7HvnkBw.desc=I would carry out this battle indoors if I were you...
+
 # Quest: Having trouble finding Botania mushrooms?
 betterquesting.quest.ZW-P5BllSP25hEBQTgEBQQ.name=Having trouble finding Botania mushrooms?
 betterquesting.quest.ZW-P5BllSP25hEBQTgEBQQ.desc=Why not exchange a few coins to save yourself the time of combing the Twilight forest for Shimmering mushrooms.
@@ -14364,7 +14424,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHMQ.desc=If you haven't noticed, this wo
 
 # Quest: Moron's Manual for Effective EBFing
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHPQ.name=§6§lMoron's Manual for Effective EBFing
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHPQ.desc=Welcome to the latest Moron's Manual, Effective EBFing! This manual covers common problems encountered when using the GregTech 1000 Electric Blast Furnace.%n%nSetup%nWhen setting up your EBF, make sure to place it a few chunks away from things pollution affects, like farmland. Pollution is nobody's friend!%n%nDuring setup, make sure the center of the EBF is hollow. Sometimes things can sneak in there without you noticing, like a Thaumcraft light orb!%n%nMake sure your muffler faces §lout§r, not §lin§r. The EBF can't work if it is not spreading those delightful odors!%n%nWhen placing your power hatches, make sure to minimize the distance between any generators and the EBF. Especially at LV, those few blocks make a big difference! Every amp of energy traveling over a cable loses a little bit - and you'll need as much as you can get! Your best setup is to put two generators right next to each hatch, with a 2A cable. If you're poor, you could use 2 battery buffers with 2 batteries each directly attached to each hatch. Make sure to top off the buffers' generators. If you make 9 slot battery buffers, you can fill them up over time to get longer running time until you get stable power.%n%nOutput hatches and buses will automatically push into tanks and inventories placed next to them such as chests or BC tanks. They will also void if they're full, so keep an eye on them!%n%nWhen building multiple EBFs, the GregTech 1000 Electric Blast Furnace can share walls. This can save you on input and output hatches too. Not recommended for energy and maintenance hatches!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHPQ.desc=Welcome to the latest Moron's Manual, Effective EBFing! This manual covers common problems encountered when using the GregTech 1000 Electric Blast Furnace.%n%nSetup%nWhen setting up your EBF, make sure to place it a few chunks away from things pollution affects, like farmland. Pollution is nobody's friend!%n%nDuring setup, make sure the center of the EBF is hollow. Sometimes things can sneak in there without you noticing, like a Thaumcraft light orb!%n%nMake sure your muffler hatch is placed on the top middle block. The EBF can't work if it is not spreading those delightful odors!%n%nWhen placing your power hatches, make sure to minimize the distance between any generators and the EBF. Especially at LV, those few blocks make a big difference! Every amp of energy traveling over a cable loses a little bit - and you'll need as much as you can get! Your best setup is to put two generators right next to each hatch, with a 2A cable. If you're poor, you could use 2 battery buffers with 2 batteries each directly attached to each hatch. Make sure to top off the buffers' generators. If you make 9 slot battery buffers, you can fill them up over time to get longer running time until you get stable power.%n%nOutput hatches and buses will automatically push into tanks and inventories placed next to them such as chests or BC tanks. They will also void if they're full, so keep an eye on them!%n%nWhen building multiple EBFs, the GregTech 1000 Electric Blast Furnace can share walls. This can save you on input and output hatches too. Not recommended for energy and maintenance hatches!
 
 # Quest: Circuit Programming
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH_w.name=§5§lCircuit Programming
@@ -14554,6 +14614,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMzg.desc=Why use a small nozzle to print
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMzw.name=Nano Forge Tier 1
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMzw.desc=There must be a way to make a nano scale robots to work in a machine. Carbon ones can be made in an assembly line, but very inefficiently. There must be a better way.%n%nWhat about a Nano Forge, able to cut up blocks into nano-thin sheets and then creating the first nanite, which helps create thousands of them in mere seconds.%n%n[note]The Nano Forge is a big multiblock requiring lots of power over the course of a couple minutes. It is able to use TT energy hatches (including lasers). The controller must have a carbon nanite inside to make tier 1 recipes.[/note]%n%n[note]Despite what NEI might claim there are no minimum voltages for the Nano Forge recipes. If you want to do a recipe you just have to achieve the minimum EU/t required, no matter the voltage[/note].
 
+# Quest: A Portable Barrel?
+betterquesting.quest.EDtFbLVvQX2Y5mQp84W9bw.name=§2§lA Portable Barrel?
+betterquesting.quest.EDtFbLVvQX2Y5mQp84W9bw.desc=As an upgrade to the barrels, EFR also adds the ever-familiar shulker box! The shulker box allows you to portably tote it's contents. You can find the research for them in the New Horizons tab of the Thaumonomicon.%n%nThese have seven additional tiers much like the barrels and chests that give you additional storage space. %n%nYou can dye any tier by shapelessly crafting them with a dye, and undye them by shapelessly crafting them alone. They §nwill§r retain their inventory. %n%n[note]Checkout the coins tab if you're looking for shells![/note]
+
 # Quest: Gold Barrel
 betterquesting.quest.GuylOTxSSraeAtj16fZ9-w.name=§3§lGold Barrel
 betterquesting.quest.GuylOTxSSraeAtj16fZ9-w.desc=The Gold barrel has 81 slots.
@@ -14728,6 +14792,10 @@ betterquesting.quest.S8Z31Xp-RrSdc2A6rOvUzg.desc=No Description
 # Quest: Trigger: Styrene-Butadiene Rubber Skip
 betterquesting.quest.cQkx83QYT4m3mwovgZIKvA.name=Trigger: Styrene-Butadiene Rubber Skip
 betterquesting.quest.cQkx83QYT4m3mwovgZIKvA.desc=No Description
+
+# Quest: Trigger: SMD Inductor Skip
+betterquesting.quest.f9GkFpTbRruEZReIz7sGuA.name=Trigger: SMD Inductor Skip
+betterquesting.quest.f9GkFpTbRruEZReIz7sGuA.desc=No Description
 
 # Quest: Trigger: Polyphenylene Sulfide Skip
 betterquesting.quest.gg1I91tdRK2us5ETzB2VjA.name=Trigger: Polyphenylene Sulfide Skip

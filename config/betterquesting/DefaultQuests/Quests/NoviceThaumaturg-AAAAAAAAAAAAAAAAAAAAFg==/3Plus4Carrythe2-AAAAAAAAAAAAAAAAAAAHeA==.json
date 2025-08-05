@@ -2,17 +2,13 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 1232
-    },
-    "1:10": {
-      "questIDHigh:4": 0,
       "questIDLow:4": 238
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "When doing infusions, it\u0027s always good to know how close you are in stability. Once you get to HV you can make an Arcane Abacus to track your infusions. This makes infusions 100 percent safe, right??",
+      "desc:8": "When doing infusions, it\u0027s always good to know how close you are in stability. The Arcane Abacus will tell you at a quick glance how stable your infusion altar is, and any asymmetries present. \n\nFor now, you can have one in exchange for a few types of common infusion stabilization blocks- but if you need to replace it, it will cost you some circuits!",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -45,10 +41,10 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 4,
-          "Damage:2": 0,
+          "Count:3": 1,
+          "Damage:2": 7,
           "OreDict:8": "",
-          "id:8": "minecraft:skull"
+          "id:8": "WitchingGadgets:item.WG_Material"
         }
       }
     },
@@ -75,7 +71,7 @@
   "tasks:9": {
     "0:10": {
       "autoConsume:1": 0,
-      "consume:1": 0,
+      "consume:1": 1,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 0,
@@ -83,9 +79,33 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 7,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "WitchingGadgets:item.WG_Material"
+          "id:8": "minecraft:skull"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "OreDict:8": "",
+          "id:8": "minecraft:skull"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "minecraft:skull"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 6,
+          "OreDict:8": "",
+          "id:8": "Thaumcraft:blockCrystal"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "thaumicbases:quicksilverBlock"
         }
       },
       "taskID:8": "bq_standard:retrieval"

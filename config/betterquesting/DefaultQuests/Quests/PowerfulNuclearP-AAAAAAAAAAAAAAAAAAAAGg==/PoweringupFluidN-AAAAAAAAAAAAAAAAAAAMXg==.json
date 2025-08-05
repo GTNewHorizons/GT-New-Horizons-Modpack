@@ -46,7 +46,7 @@
           "Count:3": 8,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.Quad_Thoriumcell",
+          "id:8": "gregtech:gt.rodThorium4",
           "tag:10": {}
         }
       },
@@ -64,14 +64,14 @@
           "Count:3": 3,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.reactorUraniumQuad",
+          "id:8": "gregtech:gt.rodUranium4",
           "tag:10": {}
         },
         "1:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.reactorUraniumDual",
+          "id:8": "gregtech:gt.rodUranium2",
           "tag:10": {}
         }
       },
