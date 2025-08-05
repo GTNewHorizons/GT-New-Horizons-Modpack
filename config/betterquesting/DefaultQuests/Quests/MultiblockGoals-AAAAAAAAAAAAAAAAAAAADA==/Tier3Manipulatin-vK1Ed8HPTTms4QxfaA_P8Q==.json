@@ -1,25 +1,25 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 3291
+      "questIDHigh:4": 3602109966171458981,
+      "questIDLow:4": -5211315330207694591
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "§lFinally, you have done it§r! You can now upgrade your QFT to the ultimate tier by replacing your §bInfinity Infused Manipulator§f casings with §bSpaceTime Continuum Ripper§f casings. This final upgrade unlocks all skips, including the §6bio cell§f skip, the §6kevlar skip§f and the §6radox + xenoxene skip§f.\n\nEven with all previous upgrades, the final leap remained out of reach. Chemical skips for foundational components used in the earlier stages of the QFT, such as bioware circuits, were still impossible - §ountil now§r. Reaching the theoretical limit of the QFT demands a material far beyond anything seen before, hidden deep within the second half of the Naquadah line.\n\nThe material you require will be your magnum opus - the §bBlack Body Naquadria Supersolid§f. This extraordinary substance acts as a perfect black body - absorbing all radiation without reflection - and behaves as a supersolid, flowing like a fluid with zero viscosity. Combining these properties in a single material ensures stable, effortless quantum energy flow at any voltage level, even at the MAX tier!\n\nWith this breakthrough, your QFT is fully unlocked, capable of creating components up to the UHV tier.",
+      "desc:8": "With access to even more advanced materials, you can upgrade your QFT to tier 3 by replacing the §b§3Cosmic Fabric Manipulator§f §rcasings with §b§3§b§3Infinity Infused Manipulator§§§f §rcasings. This tier unlocks two powerful new skips: the §6§6final naqline skip§f §rand the §6§6stem cell skip§f§r.\n\nThis new casing requires even more advanced materials still, including the §b§3Superconductor Rare-Earth Composite§f§r, which can only be crafted in a tier 2 QFT. Unlike §b§3Hyper-Stable Self-Healing Adhesive§f§r, which focused on structural integrity, this composite is designed purely for energy transmission. With automatic self-repair now fully handled, we can shift our focus to increasing the energy flow between components and into the multi itself.\n\nStandard superconductors break down under quantum stress - but this composite eliminates all resistance across the outer shell. Its precisely layered rare-earth elements create such gradual transitions that quantum flow moves effortlessly, with no losses or destabilizing effects.\n\n§oWhat will you discover next?!",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 10,
+        "Damage:2": 9,
         "OreDict:8": "",
         "id:8": "miscutils:gtplusplus.blockcasings.5"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Tier 4 Manipulating",
+      "name:8": "Tier 3 Manipulating",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -30,8 +30,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 3292,
+  "questIDHigh:4": -4851145942464770759,
+  "questIDLow:4": -5989492425518755855,
   "rewards:9": {},
   "tasks:9": {
     "0:10": {
@@ -44,13 +44,13 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 236,
-          "Damage:2": 10,
+          "Damage:2": 9,
           "OreDict:8": "",
           "id:8": "miscutils:gtplusplus.blockcasings.5"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 27,
+          "Damage:2": 24,
           "OreDict:8": "",
           "id:8": "miscutils:item.BasicGenericChemItem",
           "tag:10": {
@@ -62,7 +62,7 @@
         },
         "2:10": {
           "Count:3": 1,
-          "Damage:2": 26,
+          "Damage:2": 25,
           "OreDict:8": "",
           "id:8": "miscutils:item.BasicGenericChemItem",
           "tag:10": {

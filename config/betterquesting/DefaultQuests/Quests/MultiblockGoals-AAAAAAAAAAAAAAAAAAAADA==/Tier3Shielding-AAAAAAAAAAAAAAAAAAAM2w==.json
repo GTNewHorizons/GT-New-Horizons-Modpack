@@ -1,14 +1,14 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 4571339031049424232,
-      "questIDLow:4": -7920018155195746435
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3290
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Consider improving your QFT\u0027s focusing capabilities even further by replacing your §bCosmic Fabric Shielding Core§f casings with §bInfinity Infused Shielding Core§f casings. Like the tier 3 manipulators, these also require §bSuperconductor Rare-Earth Composite§f.",
+      "desc:8": "Consider improving your QFT\u0027s focusing capabilities even further by replacing your §§§3Cosmic Fabric Shielding Core§f §rcasings with §b§3Infinity Infused Shielding Core§f §rcasings. Like the tier 3 manipulators, these also require §b§3Superconductor Rare-Earth Composite§f§r.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -30,8 +30,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 1320246240330925970,
-  "questIDLow:4": -7466713021843784952,
+  "questIDHigh:4": 0,
+  "questIDLow:4": 3291,
   "rewards:9": {},
   "tasks:9": {
     "0:10": {

@@ -2,24 +2,24 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 3288
+      "questIDLow:4": 1302
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Consider improving your QFT\u0027s focusing capabilities by replacing your §bNeutron Shielding Core§f casings with §bCosmic Fabric Shielding Core§f casings. Like the tier 2 manipulators, these also require §bHyper-Stable Self-Healing Adhesive§f.",
+      "desc:8": "Allows for parallelization of a single interface, you don\u0027t have to copy patterns for multiple interfaces anymore.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 11,
+        "Damage:2": 471,
         "OreDict:8": "",
-        "id:8": "miscutils:gtplusplus.blockcasings.5"
+        "id:8": "appliedenergistics2:item.ItemMultiPart"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Tier 2 Shielding",
+      "name:8": "§6§lUltimate Parallelization...",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -30,8 +30,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 4571339031049424232,
-  "questIDLow:4": -7920018155195746435,
+  "questIDHigh:4": -166326957975844254,
+  "questIDLow:4": -5839827992902048320,
   "rewards:9": {},
   "tasks:9": {
     "0:10": {
@@ -43,10 +43,10 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 142,
-          "Damage:2": 12,
+          "Count:3": 1,
+          "Damage:2": 471,
           "OreDict:8": "",
-          "id:8": "miscutils:gtplusplus.blockcasings.5"
+          "id:8": "appliedenergistics2:item.ItemMultiPart"
         }
       },
       "taskID:8": "bq_standard:retrieval"
