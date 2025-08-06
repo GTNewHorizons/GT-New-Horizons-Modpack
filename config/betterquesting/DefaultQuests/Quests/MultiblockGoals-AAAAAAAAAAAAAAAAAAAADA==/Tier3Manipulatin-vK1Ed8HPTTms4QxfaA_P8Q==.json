@@ -1,0 +1,79 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 3602109966171458981,
+      "questIDLow:4": -5211315330207694591
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "With access to even more advanced materials, you can upgrade your QFT to tier 3 by replacing the §b§3Cosmic Fabric Manipulator§f §rcasings with §b§3§b§3Infinity Infused Manipulator§§§f §rcasings. This tier unlocks two powerful new skips: the §6§6final naqline skip§f §rand the §6§6stem cell skip§f§r.\n\nThis new casing requires even more advanced materials still, including the §b§3Superconductor Rare-Earth Composite§f§r, which can only be crafted in a tier 2 QFT. Unlike §b§3Hyper-Stable Self-Healing Adhesive§f§r, which focused on structural integrity, this composite is designed purely for energy transmission. With automatic self-repair now fully handled, we can shift our focus to increasing the energy flow between components and into the multi itself.\n\nStandard superconductors break down under quantum stress - but this composite eliminates all resistance across the outer shell. Its precisely layered rare-earth elements create such gradual transitions that quantum flow moves effortlessly, with no losses or destabilizing effects.\n\n§oWhat will you discover next?!",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 9,
+        "OreDict:8": "",
+        "id:8": "miscutils:gtplusplus.blockcasings.5"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Tier 3 Manipulating",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -4851145942464770759,
+  "questIDLow:4": -5989492425518755855,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 236,
+          "Damage:2": 9,
+          "OreDict:8": "",
+          "id:8": "miscutils:gtplusplus.blockcasings.5"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 24,
+          "OreDict:8": "",
+          "id:8": "miscutils:item.BasicGenericChemItem",
+          "tag:10": {
+            "catalyst:10": {
+              "Damage:4": 0,
+              "MaxDamage:4": 50
+            }
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 25,
+          "OreDict:8": "",
+          "id:8": "miscutils:item.BasicGenericChemItem",
+          "tag:10": {
+            "catalyst:10": {
+              "Damage:4": 0,
+              "MaxDamage:4": 50
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
