@@ -6,131 +6,131 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAAAA.name=And So, It Begins
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAAA.desc=The very first tier, tier zero. This chapter will introduce you to the basic mechanics of this modpack. Mods covered: Vanilla, Pam's Harvestcraft.
 
 # Quest: Your First Night
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAAA.name=§d§3§2§1§lYour First Night
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAAA.name=§9§lYour First Night
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAAA.desc=Hello, friend, and welcome to GTNH!%n%nDon't get used to things being nice and comfy, because in about ten minutes the sun will set, and unlike Vanilla Minecraft, there's no light whatsoever at night but plenty of Infernal mobs coming to get you. So your first task is to find food and shelter for the night.%n%nBut by the end of this questtab you will have a bed to make things easier.%n%nYou don't need to keep this book. Even if you don't have the item, you can press Tilde (~) to view it at any time...unless you decided to change the keybind.%n%nIf you need any extra help or just want to hang out, feel free to visit our Discord server at [url]https://discord.gg/gtnh[/url]. And yes, the links are clickable! On the Discord, select your tech tier in #role-select - it will help people to tailor their advice to your situation.%n%nMany GTNH topics are explained in our Wiki at [url]https://wiki.gtnewhorizons.com/wiki/Main_Page[/url]. It does not have the same extent and structure as the Questbook, but some things are much better with pictures and tables! The wiki also has tips on extra topics like what additional mods might work with the pack, how GTNH can be installed for modern Java versions or how to set up a server.%n%nAdditionally, there is a spreadsheet at [url]https://www.gtnewhorizons.com/spreadsheet[/url] for the info you would want a spreadsheet for.%n%nIf you play through a launcher that relies on [warn]CurseForge[/warn], be aware that it doesn't always work properly. It doesn't play well with all the custom versions of mods that this pack has. So if you have any problems, first switch to another launcher like MultiMC, Prism, or Technic. The wiki has instructions there as well. The latest version of the pack is available on the Discord channel from #announcements or with the !download command.%n%nHopefully you didn't get munched by a monster while reading this, good luck!
 
 # Quest: Where's the Flint?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAAQ.name=§1§lWhere's the Flint?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAAQ.name=§9§lWhere's the Flint?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAAQ.desc=As you might have noticed when collecting gravel, no Flint dropped for you.%n%nWell, there is a... recipe for that. Look up Flint in Not Enough Items (NEI) and craft some!%n%nThe search field of NEI is at the bottom of the screen when you open your inventory. The results are on the right side.
 
 # Quest: Sticks 'n Stones
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAAg.name=§1§lSticks 'n Stones
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAAg.name=§9§lSticks 'n Stones
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAAg.desc=This book has a built-in reading light, lucky you! You can read about quests while you're waiting for the night to be over, but for now, you may want to get the basics done. If it isn't dark already, go out and collect some gravel and wood.%n%nKeep in mind that you need food, so look for Pam's Harvestcraft gardens. Save some of the drops from them for seeds. Alternatively, right-click the gardens with an empty hand to get the garden item itself. If you place it somewhere else, it will spread into more of the same garden up to a limit within that area.%n%nMake sure to read the info-quests linked to the first quest, they have important info!
 
 # Quest: Storage For Days
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAAw.name=§1§lStorage For Days
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAAw.name=§9§lStorage For Days
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAAw.desc=Now that you've gotten your tools and are about to go collect a bunch of stuff, it's time to make some storage for it.%nTake some of your wood, and craft a chest. You will need 4 wood, 4 planks, and 1 flint.
 
 # Quest: Tools
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAABQ.name=§1§lTools
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAABQ.name=§9§lTools
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAABQ.desc=Now that you've got a shelter and a crafting table, you should make some tools, unless you'd like to continue punching trees with your bare hands.%n%nYou should probably make the axe first so you can get wood for the rest more easily.
 
 # Quest: You Reap...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAABg.name=§1§lYou Reap...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAABg.name=§9§lYou Reap...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAABg.desc=You won't always get food rewards from the quests, so it might be a good idea to take care of that problem.%n%nAs you've crafted a hoe already, go and find some water nearby to make a field. With this modpack you can only make farmland within range of water. Let's trade some sticks for a carrot, so you can start your own farm.%n%nTo get other wheat, use a hoe on grass away from water. You'll get Witchery seeds too - save those for later.%n%nStart planting a Cotton field because it's a key early-game resource.%n%nYou can also get seeds from villages, and grow the seeds from the Pam's garden food.
 
 # Quest: ...What You Sow
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAABw.name=§1§l...What You Sow
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAABw.name=§9§l...What You Sow
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAABw.desc=If you, by chance, did read the previous quest and planted the carrots, then you're fine.%n%nMeanwhile, you should turn some more fruits and vegetables into seeds, and increase the size of your farm to get a steady supply of food.
 
 # Quest: Get That Stone
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAACA.name=§1§lGet That Stone
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAACA.name=§9§lGet That Stone
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAACA.desc=Look at you, with your shiny wooden pickaxe!%n%nTime to mine some cobblestone. Yay! You can even improve your dirt hut!
 
 # Quest: Fire, Fire, Grandpa!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAACQ.name=§1§lFire, Fire, Grandpa!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAACQ.name=§9§lFire, Fire, Grandpa!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAACQ.desc=Time to burn some stuff, isn't it? You can't make charcoal in it, but you sure will find some usage for it soon™.
 
 # Quest: Rest in Pieces
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAACg.name=§1§lRest in Pieces
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAACg.name=§9§lRest in Pieces
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAACg.desc=It's GLOPPing time! Go kill some pigs to gather meat.
 
 # Quest: Fluffy and Red
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAADA.name=§1§lFluffy and Red
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAADA.name=§9§lFluffy and Red
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAADA.desc=Epic quest: Kill some sheep! (And try to get some wool, for a bed, obviously...)
 
 # Quest: SO...TIRED...MUST...SLEEP...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAADQ.name=§1§lSO...TIRED...MUST...SLEEP...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAADQ.name=§9§lSO...TIRED...MUST...SLEEP...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAADQ.desc=Sleepy time, and the end of the tutorial.%n%nCongratulations! You've built your first hideout, and you should have a steady supply of food by now.%n%nSee you again in Tier 0!
 
 # Quest: Collecting Some Berries
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAB1Q.name=§1§lCollecting Some Berries
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAB1Q.name=§9§lCollecting Some Berries
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB1Q.desc=Are you waiting for the carrots to grow? Go and find some berry bushes and berries.%n%nThe berries are a good source of food, and you can put these bushes around your house to make a wall. It should provide a good protection against all those monsters that want to come into your house and kill you.
 
 # Quest: Berry Medley
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAB1g.name=§1§lBerry Medley
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAB1g.name=§9§lBerry Medley
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB1g.desc=Hmmm... what can you do with all those berries? Just eating? You will see that they have a very low saturation level. Let's plant the new berry bushes and mix the berries to make some better food.
 
 # Quest: Food Variants
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAB1w.name=§2§1§lFood Variants
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAB1w.name=§9§lFood Variants
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB1w.desc=Maybe you noticed already that eating the same food too often is very boring and not healthy anymore. Some food like tea leaf can be taken to the furnace and processed further. So take a break and drink a cup of tea. Maybe munch some tasty raisins as they are very nice.
 
 # Quest: Can You Hear the Carrots Grow?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAB5A.name=§1§lCan You Hear the Carrots Grow?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAB5A.name=§9§lCan You Hear the Carrots Grow?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB5A.desc=Tired of waiting since your carrots grow sooooo slowly?%n%nBone meal will help you to grow food in seconds.%n%nChop down some trees to get a bit of bone meal as a reward.
 
 # Quest: Goals
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABjA.name=§1§lGoals
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABjA.name=§9§lGoals
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABjA.desc=GregTech New Horizons is a long and intricate mod pack with massive amounts of custom content and over three thousand quests to guide you through it.%n%nWe recommend you set yourself small goals from tier to tier and see how far your journey takes you.%n%nThe ultimate late game goal is to craft a Stargate or two, but the recipe is outrageous, and very few players have ever done so.%n%nIf you need a big goal for your run, we suggest to aim for something less crazy.%nLike going to the moon if it's your first time playing.%nOr making and automating an Assembly Line if you have never done so.%nOr crafting the Tier 8 Rocket which is the last regular rocket and is reached in UHV.
 
 # Quest: Even more challenges needed?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABjQ.name=§1§lEven more challenges needed?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABjQ.name=§9§lEven more challenges needed?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABjQ.desc=You have played through most of the pack a few times already? Maybe you even made a Stargate? Or are you just looking for something a bit different? Don't worry, we have a few options for you:%n%n- Play in Hardcore. Either Minecraft Hardcore, or BetterQuesting Hardcore. The latter is a bit more forgiving. Maybe this seems impossible, but people have indeed reached UEV+ in Minecraft Hardcore. Better be prepared to restart a few times. This is obviously not for everybody.%n%n- Never make a rocket. The so called §ono-rocket run§r is somewhat supported by now, you will be able to do almost everything in the pack. Use bees, crops, and blood magic meteors as your main resource production. Be warned though that such a challenge is grindy and slow. For instance, you might need to collect large amounts of andratite ore or via the aluminium bauxite slag route to get your first titanium. Or have to start breeding bees early without much technology to help.%n%n- Skyblock. Yes, really. It is also known as Garden of Grind and it is absolutely brutal. There is no actually supported skyblock version of the pack but some players have figured out the minimal amount of changes needed to make it work. Ask around or search on the official discord channel for all the details. But don't expect any fun down this road.%n%n- Speedrunning. A few players have designed some basic rules and have started to record speedruns to early game goals like the Coke Oven. Ask around or search on the official discord channel for all the details. Maybe you just want to watch how they do it.
 
 # Quest: Oak Trees Are Not Apple Trees
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABuA.name=§1§lOak Trees Are Not Apple Trees
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABuA.name=§9§lOak Trees Are Not Apple Trees
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABuA.desc=Oak trees that give apples? Who the hell added this to minecraft?%nYou found a way of combining an oak sapling and an apple to get an apple tree sapling. Try to plant one to get a permanent source of food.%n%nOnce you complete this quest, check out the rest of the Quest Tabs. A new one, "Coins, Coins, Coins", has unlocked. You'll want to look through all the quest tabs to make sure something new hasn't unlocked somewhere else occasionally. There are lots of tabs, so be sure to scroll down!
 
 # Quest: "Baked" Potatoes
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABug.name=§1§l"Baked" Potatoes
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABug.name=§9§l"Baked" Potatoes
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABug.desc=Eating raw potatoes isn't that healthy, as you might have noticed. Some potatoes are green and poisonous already. After you get a furnace you can make delicious baked potatoes as another food alternative. Put a baked potato on a stick to make it even more delicious.
 
 # Quest: Soft Mallet Adventure
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABvA.name=§1§lSoft Mallet Adventure
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABvA.name=§9§lSoft Mallet Adventure
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABvA.desc=You now have some melon slices or pumpkins but what can you do with them?%n%nYou can just eat them or... use a mallet to get some seeds. OK, let's craft one. Perhaps you can use this mallet for some other things too.
 
 # Quest: Monster Trap
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADYQ.name=§1§lMonster Trap
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADYQ.name=§9§lMonster Trap
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADYQ.desc=If you're lucky enough to spawn near a sand- or rainforest biome, you can find some quicksand.%n%nCollect a stack of it, dig a small ditch, and fill it with the quicksand to protect your "dirt base" home. Just don't fall in!
 
 # Quest: Bamboo Fence
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADsg.name=§1§lBamboo Fence
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADsg.name=§9§lBamboo Fence
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADsg.desc=Maybe you're lucky and started in a bamboo forest. Bamboo is a very useful tree since it grows really fast and when you break the bottom-most block, the whole thing comes apart.%n%nYou can use them as sticks, or you can place the bamboo sticks to grow and make a three-block-tall wall to protect your base. You can also use Berry Bushes for that, assuming you don't want to spend materials on fences.
 
 # Quest: Crafting Time
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEtA.name=§1§lCrafting Time
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEtA.name=§9§lCrafting Time
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEtA.desc=It's time to get yourself a 3x3 crafting area. Use your flint and some wood to build one!
 
 # Quest: Cows Are Supposed to Moo!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFww.name=§1§lCows Are Supposed to Moo!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFww.name=§9§lCows Are Supposed to Moo!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFww.desc=What the...? You noticed that sometimes when you kill something, even a cow or chicken, it explodes! What madness!%n%nTo stop it, use a proper GregTech Knife or Butchery Knife to kill them. Craft a flint GregTech knife with a stick and a piece of flint.%n%nTo see its recipe, see how a generic knife is made - NEI should show you many pages. The recipe you need should be on the last page. You can scroll pages with your mouse wheel.%n%n[note]Alternatively you can use the search bar to search for a specific tool material, in this case flint![/note]%n%nAs a reward, here's an iron knife to use once the flint one wears out.
 
 # Quest: Creeping Dread
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHMg.name=§1§lCreeping Dread
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHMg.name=§9§lCreeping Dread
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHMg.desc=Creepers can make you have a baaaad time.%n%nDrowning Creeper - when it explodes, it surrounds you in a ball of cobble filled with water. Not only do you have to escape, but the cobble is infested with silverfish! And those silverfish are all infernal! The best way to deal with it is to first escape up or down. If you have to clear the cobble ball, first clear the water. Surrounding the cobble with a dirt moat will keep the silverfish inside and unable to hide. Put down punjis, quicksand, or lava, and/or spectral glass. Make a wall with a 1x1 window and use that to break the cobbles - fishing silverfish is especially dangerous.%n%nEnder Creeper - Randomly teleports you a short distance - possibly deep underground.
 
 # Quest: Caught in the Web
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHMw.name=§1§lCaught in the Web
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHMw.name=§9§lCaught in the Web
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHMw.desc=Some spider have nasty modifiers:%n%nWitch spiders reflect missile damage back at you. If you see a red X on their back, draw your melee weapon and prepare for close combat...%n%nMother spiders will spawn a lot of baby spiders on death, some of which may be infernal.%n%nA flying spider can grab the oblivious flier.%n%nGhost spiders are partially invisible and can pass through thin walls.
 
 # Quest: Porkchops With Attitude
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHNA.name=§1§lPorkchops With Attitude
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHNA.name=§9§lPorkchops With Attitude
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHNA.desc=The only zombie pigman to watch out for is the Vampire Pigman. He hardly takes any damage unless you use a wooden sword as a stake, or have a magical sword.
 
 # Quest: Tell Me When We Reach 20
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHOQ.name=§1§lTell Me When We Reach 20
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHOQ.name=§9§lTell Me When We Reach 20
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHOQ.desc=Jumping all the time is exhausting and makes you really hungry.%nTo reduce your food depletion, you might want to use stairs instead.
 
 # Quest: Staying Cool in the Heat
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHQA.name=§1§lStaying Cool in the Heat
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHQA.name=§9§lStaying Cool in the Heat
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHQA.desc=If you happen to be near a snowy biome, you can harvest the snow to make delicious smoothies. They are more satiating than eating the berries by themselves.
 
 # Quest: Loading the Chunks
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALOg.name=§1§lLoading the Chunks
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALOg.name=§9§lLoading the Chunks
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALOg.desc=Minecraft works in chunks - the 16x16 columns of blocks from bedrock to sky. The chunks in a radius around you are simulated or, in other words, chunkloaded. If a chunk is not loaded, nothing happens in it - crops don't grow, machines don't work. Thus, you want to have your base chunkloaded when you're off exploring. Later on, you want your base chunkloaded so things don't spontaneously blow up, especially multi-block machines.%n%nYou can chunkload in a few ways:%n%n1) The ServerUtilities mod. With default settings, you will not be able to chunkload. Feel free to change that in the config if you are in singleplayer (SP) or running your own server.%n%n2) Use four types of Anchors from Railcraft, although they are not craftable until the Low Voltage (LV) tier. In SP, or a server you run, cheat in Admin Anchors to chunkload forever, for free. They're limited on servers to prevent TPS dropping from people chunkloading a base forever when they aren't even there. On the officials, you need to use Ender Fragments, Ender Pearls, or Coins to fuel them. Look at the tooltip on each for how long it will work, and in what chunkloader.%n%n3) Use one of the blocks that chunkloads itself. If you do this on a server, expect the admins to possibly get very mad at you if it's not something you're allowed to do. Same for vanilla methods.%n%nDon't use chicken chunks to get anchor-like blocks. It's buggy.
 
 # Quest: Permanent Offhand!
-betterquesting.quest.U7JoxM0mRaWx0MYriD2LtQ.name=Permanent Offhand!
+betterquesting.quest.U7JoxM0mRaWx0MYriD2LtQ.name=§9§lPermanent Offhand!
 betterquesting.quest.U7JoxM0mRaWx0MYriD2LtQ.desc=With the release of version 2.8 of GTNH, the modern offhand slot has been backported and is available for every player. %n%nWith this, we say goodbye to the Battlegear slots of before. The three slots on either side of your hotbar, default key "G", are no longer!%n%nDefault Keybind to swap between mainhand and offhand: §9F§r%n%n[warn]Any items that were in the Battlegear slots should return to your inventory or dropped on the ground if your inventory is full.[/warn]%n%n[note]You can also toggle various Torch Tweaks in Backhand's mod client configs. They are disabled by default, but you may find them useful if you love holding torches in your offhand.[/note]
 
 
@@ -14119,15 +14119,15 @@ betterquesting.quest.9B9CvQD0R8iLv-CBMTYZGQ.name=§2§lCopper Barrel
 betterquesting.quest.9B9CvQD0R8iLv-CBMTYZGQ.desc=The Copper barrel has 45 slots.
 
 # Quest: Main Quests and Secondary Quests
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAABA.name=§1§lMain Quests and Secondary Quests
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAABA.name=§9§lMain Quests and Secondary Quests
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAABA.desc=Now that you've made it this far, you might notice how the two new quests look different.%n%nThe quest with the jagged edges is a main quest - it is linked to other main quests by a thick line. You must complete main quests to unlock the next tier and to progress in general. If you can't progress, go back to previous tiers and look for uncompleted main quests.%n%nThe other quest is an optional quest, and is not needed to unlock new tiers. However, optional quests often introduce you to useful items or processes.%n%nWhat are the coins for? You can use them to purchase things in the "Coins, Coins, Coins" questbook tab - you have to scroll to the bottom once it unlocks!%n%nIn case you started in a bad biome, here's enough coins to purchase some saplings.
 
 # Quest: Monster Hunter
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAACw.name=§1§lMonster Hunter
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAACw.name=§9§lMonster Hunter
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAACw.desc=It's about time to craft something more useful: A sword!%n%nNow that you have a sword, you will get credit for monster kills in the Kill All the Things tab. Watch out, monsters in this world will chew you up and spit you out!%n%nYou can find additional weapon quests on the Getting Around tab.
 
 # Quest: What's That...?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAADg.name=§1§lWhat's That...?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAADg.name=§9§lWhat's That...?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAADg.desc=You've seen a lot of trees, but there are a few that look really special. You are sure that these trees are much more than just wood to build your home with or used to get charcoal. You're sure that these will be Very Important soon™.%n%nThe best place to find them is in a Magical Forest, but if you can't find one, you can try a Garden or Cherry Wood Grove. Or just randomly everywhere.%n%nIf you have trouble finding them, you can go to the Coins tab and buy them.
 
 # Quest: Steam-a-licious!
@@ -14183,15 +14183,15 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABhA.name=§6§lDraconic Evolution
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABhA.desc=You have tinkered long and hard to try to combine magic and technology. It looks like you finally found a way! Combining your powers as a thaumaturge and blood mage with your UHV technology you think you have found a way to distill the power of a dragon into a small core. This machine can do it, you are sure. If only you know how precisely to assembler such a core.%n%n[note]Use a hologram projector to see how it is built. You can also upgrade your draconic cores but for that you need the higher tier schematics and you need to upgrade the multiblock.[/note]
 
 # Quest: Shields UP
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABvg.name=§1§lShields UP
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABvg.name=§9§lShields UP
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABvg.desc=With a sword in one hand, what can you do with the other? Right, you need a shield. Let's make one.
 
 # Quest: Shield Update
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABwA.name=§1§lShield Update
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABwA.name=§9§lShield Update
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABwA.desc=Your wooden shield is very weak. So you should make a better one. Looks like you need some leather, so go and find some cows.
 
 # Quest: Your First 'Long Range' Weapon
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABwg.name=§1§lYour First 'Long Range' Weapon
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABwg.name=§9§lYour First 'Long Range' Weapon
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABwg.desc=You can't make a vanilla bow or Tinkers weapons yet, but you can make a spear!%n%nSome monsters will become much easier to kill with this long-range weapon.
 
 # Quest: Exploding Fluids For Power
@@ -14351,7 +14351,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEsQ.name=§a§b§c§d§e§f§d§l§l§c�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEsQ.desc=Your fancy new Large Plasma Turbine will need a rotor to go inside of it.%n%nYou can make it out of any GT material, but the best right now is NORMAL Draconium. [warn]Always test in Creative first![/warn]%n%nWhen using turbines, be careful of flow rates. To find the optimal flow rate, you divide the optimal energy flow rate listed on the turbine, by the energy value for the plasma. You can also use the Large Turbine Calculator (there's a link on the main spreadsheet, which is linked to in discord), or scan the multiblock's controller while feeding it a minimal amount of plasma to see what the optimal flow is. Make sure to use a Fluid Regulator set to this flow rate for highest fuel efficiency, or go beyond it to get more EU/t at a cost to efficiency, with Plasma Turbines being the best at retaining efficiency beyond the optimal flow.%n%nIf you go beyond the optimal flow, you will get a higher EU/t value, but less fuel efficiency, and the maximum EU/t value depends on the turbine type and its Overflow Efficiency tier. For this type of turbine, tier 1 reaches the max at 250%% of optimal flow to produce 158%% of the EU/t, tier 2 reaches the max at 400%% of optimal flow to produce 214%% of the EU/t and tier 3 reaches the max at 550%% of optimal flow to produce 301%% of the EU/t. The closer you get to this maximum, the more fuel efficiency you're throwing away.%n%nThe choice is yours!%n%n[note]For a lot of extra information on fusion, check out the new quest line called Powerful Nuclear Physics.[/note]
 
 # Quest: All Alone in the Night
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF1w.name=§1§lAll Alone in the Night
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF1w.name=§9§lAll Alone in the Night
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF1w.desc=Thanks to our amazing devs, you no longer have to use a command block to reload your questbook between updates. This means you'll get all new quests automatically upon updating to a new version of GTNH! Isn't that convenient?%n%nIf, for whatever reason, you want to manually reload your questbook, you can do so by typing /bq_admin default load in the chat window. You will need to be an admin for it to work, though.%n%nHere's another questbook in case you already lost the one you spawned with. Don't forget that it can also be viewed at any time by pressing the Tilde (~) key if you have not changed its keybind.%n%n§3Some command blocks are still used for specific tasks, but they do not concern the average player since they are admin-only and thus are not craftable.
 
 # Quest: How the Heck Do I Find Ores?
@@ -14363,11 +14363,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAF2Q.name=§2§lDigging Deeper
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF2Q.desc=Now that you know what an Ore Chunk is, dig all the way down to bedrock to find if there is a vein located in it.%n%nCheck out an ore in NEI to see where you can find a vein that contains it. Search for it and click on it to get this info, among other things.%n%nThere are many types of ores, even just for getting one material like Iron, so don't stick to only one ore.%n%nYou can also search small ores in NEI, but not all of them are used.
 
 # Quest: Better Questing?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF3A.name=§1§lBetter Questing?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF3A.name=§9§lBetter Questing?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF3A.desc=Better Questing has a number of useful commands for the questbook (QB). You need to have cheats enabled to use them.%n%n/bq_admin default load%nUse this command to update your QB after you update the modpack. It reloads the quest database from the file. Your save file stores a version of the QB that can be different from the one in the file.%n%n/bq_admin edit%nToggles editing quests. Pressing RMB on the quest will open a context menu to share it or copy its ID.%n%n/bq_admin reset all <Player>%nResets all quests. Use this if you want to start over, or are editing the QB. You should specify the player as well if it is a server, otherwise you can skip that part.%n%n/bq_admin reset <ID> <Player>%nResets a specific quest, defined by the quest ID. Sometimes it may be easier to go into Edit Mode > Designer Tool to specify what to reset.%n%n/bq_admin complete <number> <Player>%nCompletes a specific quest, similarly to the above. You can still claim the rewards. Use this command if a quest is broken, and then report it on GitHub, but please check if it's already reported.%n%n/bq_admin default save%nSaves changes to the QB after editing it.%n%n/bq_copyquests <PlayerWithQuestsCompleted> <NewPlayer>%nIf you want to sync the quests with someone in your party, then use this. They won't get any rewards for that though.%n%n/bq_admin hardcore%nEnables BQ3 Hardcore Mode. You only start with 3 lives, so best of luck. Additional life hearts are available in the Kill all the Things tab.%n%nAside from the consume-type quests, a quest counts for everyone in the party if one person finished it. However, if someone joined your party later, you need to get them up to speed first either through /bq_copyquests above, or manually. Otherwise, your quest completion won't count for them because the requirements for that quest are not fulfilled for them.%n%nIf your singleplayer world does not have cheats enabled, go to the ESC screen, open to LAN, then enable cheats. This makes pausing impossible until you reload afterwards. If you host a server, you can run the commands in the command line, without "/". You can also edit the level.dat file, and set 'allowCommands' to 1, but make sure to backup your world before doing that.%n%n[warn]For quests to save properly, you must be online and logged into your Mojang account when starting the game. Sorry, it's a limitation of Better Questing.[/warn]
 
 # Quest: Backup Your Stuff...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF3Q.name=§1§lBackup Your Stuff...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF3Q.name=§9§lBackup Your Stuff...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF3Q.desc=The mod ServerUtilities (SU) is included in the pack to backup your world. You can adjust save path, frequency, and the number of backups to keep in its settings at '.minecraft\serverutilities\serverutilities.cfg'.%n%nIf you need to restore from a backup, you can find them in the backups folder in the instance directory.%n%nRemember that the mods JourneyMap and Thaumcraft Node Tracker store information outside of what most solutions backup, so please backup your journeymap and tcnodetracker folders yourself.%n%nThe Thaumcraft data is a little buggy, losing scanned aspect data and Thaumonomicon data, so consider backing it up as well. The file is at 'saves\<worldname>\playerdata\<nameofplayer>.thaum'.%n%nIf you move to another drive or computer, don't forget to migrate all the backed up files, not just the world folder.
 
 # Quest: Nobody Wants an Explosion...
@@ -14431,11 +14431,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHHQ.name=§5§lCable Diodes
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHHQ.desc=Sometimes you just need a Diode, either to prevent burning up cables when splitting off a main line, or on a Thermos Server's chunk borders. Make one 4A Diode and get a 2A one for free!
 
 # Quest: Mushroom Biomes? Why Are There So Many?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHKg.name=§1§lMushroom Biomes? Why Are There So Many?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHKg.name=§9§lMushroom Biomes? Why Are There So Many?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHKg.desc=The GTNH pack is made for the Realistic World Generator (RWG).%n%nIf your setup uses the vanilla-biomes worldgen, you will get huge Mushroom biomes over the map. If you have this problem, please generate a new world with the RWG.%n%nIf you met this problem on a server, put "level-type=rwg" into the server.properties file and generate a new world.
 
 # Quest: Moron's Manual for Massacring Monsters
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHMQ.name=§1§lMoron's Manual for Massacring Monsters
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHMQ.name=§9§lMoron's Manual for Massacring Monsters
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHMQ.desc=If you haven't noticed, this world is a true hellscape full of Special Mobs and Infernals around every corner. Unlike in vanilla, a player has to actually stay aware and pay attention to what they are fighting. Here are some tips.%n%nIf an infernal has Vengeance, don't shoot it with your 56-damage crossbow!%n%nA high health infernal with regeneration is hard to kill. Even worse if it is a witch that can also heal herself. In those cases, run like hell, or bring a soul vial to capture it and throw it into Mount Doom.%n%nWatch out for zombies with fishing poles - they can pull you to them. And zombies with a bow and arrow - they can shoot you back!
 
 # Quest: Moron's Manual for Effective EBFing
@@ -14471,7 +14471,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIYA.name=§6§lDon't Put a Finger in Tha
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIYA.desc=If you want to pass multiple amps through your cleanroom walls, use a one-way Diode. Also handy to limit power when branching off a main power line to trunk lines that normally will not use as many amps, but that you want to prevent catching fire.
 
 # Quest: E_TOO_MANY_KEYS
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIYQ.name=§1§lE_TOO_MANY_KEYS
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIYQ.name=§9§lE_TOO_MANY_KEYS
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIYQ.desc=ERROR: Too many keys to fit a 104 key keyboard.%n%nThere are many keybinds in this modpack. To avoid conflicts, most of them are unbound by default. Only the ones available from the start are bound. Note that NEI keybinds are found in the NEI menu and not with the rest of the keybinds.%n%nHere is the list of what some of them do :%n%n%nBetterQuesting%nGRAVE - Open Questbook%n%nDraconic Evolution%nV - Place the item you are holding on the block you are looking at%n%nJourneymap%nB - Create a Waypoint%nCtrl+B - Open the Waypoint Manager%nJ - Open Fullscreen Map%n= - Zoom In (works on minimap too)%n- - Zoom out%n%nInventory Tweaks%nR - Sort Inventory%n%nShare Where I am%nINSERT - Places a temporary beam where you are looking at that will be seen by you and other players%nSHIFT + INSERT - Places a temporary beam where §oyou§r are that will be seen by you and other players%nCTRL + INSERT - Shares the position you are looking at with other players%nCTRL + SHIFT + INSERT - Shares your position with other players%n%nWaila - Shows information about what you are looking at%nNUMPAD1 - show/hide the Waila HUD%nNUMPAD3 - shows how to craft what you are looking at%nNUMPAD4 - shows the crafting usages of the thing you are looking at%n%n%n[note]If you have a non-standard keyboard layout, using the java 17-21 version of GTNH §omight§r help you in being able to use certain keys for keybinds.%n[/note]
 
 # Quest: Safety First
@@ -14503,7 +14503,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJZA.name=§e§d§c§6§lObtaining Ender 
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJZA.desc=You can hunt endermen the Vanilla way to get a chance at Ender Pearls, you can purchase Endermen spawn eggs, or try your luck in the End.%n%nOr you can get cruel, and stuff one into a smeltery to melt it down into delicious Liquid Ender and cast pearls from it.%n%nYou monster.%n%nSome of the dungeons have Spawner of Enderman, so you can do whatever you want with it.%n%nTo prevent endermen from teleporting, make sure to cover the smeltery so they don't see the sky.%n%nIf you manage to put a regenerating endermen in there, tag it so it doesn't despawn, and make sure your smeltery is not in a claimed chunk on a server.
 
 # Quest: Numbers in the Corner?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJZg.name=§1§lNumbers in the Corner?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJZg.name=§9§lNumbers in the Corner?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJZg.desc=What's with the numbers in the corner? That is the In-Game Info (IGI) mod. Some of the info it gives is useful right away, some of it shines later on in progression.%n%nFor now, the most important thing it does is showing if you are in an ore chunk. Further quests will explain what it means.%n%nIf you want to hide it, type "/igi disable" in the chat. Type "/igi enable" if you want to turn it back on.%n%nThe command "/igi config" opens the configuration window to control its position, scale, and size.%n%nThe command "/xu_tps" from the mod Extra Utilities toggles numbers to measure ticktime in milliseconds and the TPS (Ticks Per Second). TPS is a measure of how well your server is running. The ideal TPS is 20.00 (meaning a ticktime of at most 50.00). If your TPS is less than 15, things are going to start lagging noticeably. At 10 or less TPS, it is going to be hard to play.%nThe tooltip shows three types of measurement: instantaneous, average, and worst-case. Each one first shows the ticktime and then the TPS in brackets.%n%nIf you need suggestions on solving TPS problems, feel free to ask for help in the GTNH Discord.%n%nWhile GTNH comes with recommended default settings, in particular when it comes to balance, there are many commands and configurations to customize your experience. They range from accessibility or debug tools to visual customization all the way to various cheats. You can find a small overview on [url]https://wiki.gtnewhorizons.com/wiki/Commands_and_Configurations[/url].
 
 # Quest: Bringing the Biome to You
