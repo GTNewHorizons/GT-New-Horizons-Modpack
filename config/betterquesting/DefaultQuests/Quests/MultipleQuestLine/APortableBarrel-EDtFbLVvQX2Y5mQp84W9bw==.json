@@ -40,13 +40,13 @@
     "0:10": {
       "choices:9": {
         "0:10": {
-          "Count:3": 4,
+          "Count:3": 2,
           "Damage:2": 14,
           "OreDict:8": "",
           "id:8": "Thaumcraft:ItemResource"
         },
         "1:10": {
-          "Count:3": 2,
+          "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "etfuturum:shulker_shell"
