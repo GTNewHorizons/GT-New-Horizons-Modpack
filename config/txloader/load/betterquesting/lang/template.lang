@@ -6770,7 +6770,7 @@ betterquesting.quest.RFgYQ7LAQD-p1gHMaeg5Sg.desc=Upon reaching the land of IV ma
 
 # Quest: See You Lather
 betterquesting.quest.VJN1qfd5SjCkm7CXVd9Pag.name=See You Lather
-betterquesting.quest.VJN1qfd5SjCkm7CXVd9Pag.desc=Just in time for the huge number of crystal rods you'll need to get your Applied Energistics system up and running, the Industrial Precision Lathe!%n%nThe number of recipes that can be processed in parallel by the IPL depends on the item pipe casing and the voltage tier:%nParallel = Item Pipe Casing Tier * 8%n%nAdditionally, it has a 300%% speed boost on all recipes compared to the singleblock of that voltage and only consumes 80%% of the EU/t normally required
+betterquesting.quest.VJN1qfd5SjCkm7CXVd9Pag.desc=Just in time for the huge number of crystal rods you'll need to get your Applied Energistics system up and running, the Industrial Precision Lathe!%n%nThe number of recipes that can be processed in parallel by the IPL depends on the item pipe casing.§l%n§§§r§6§9(Parallel = Item Pipe Casing Tier * 8)§r%n%nAdditionally, it has a 300%% speed boost on all recipes compared to the singleblock of that voltage and only consumes 80%% of the EU/t normally required
 
 # Quest: Steam Blender?
 betterquesting.quest.WEwrzX4ZRkSxJ3M6cBesfA.name=Steam Blender?
