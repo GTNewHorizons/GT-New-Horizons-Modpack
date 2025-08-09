@@ -11871,6 +11871,10 @@ betterquesting.quest.TBMfXgORRHuggrozS7vsVA.desc=Don't want to spend your Salis 
 betterquesting.quest.lMDEhTDISSG1u2HYaZVg9w.name=Who Came Up With This Name??
 betterquesting.quest.lMDEhTDISSG1u2HYaZVg9w.desc=Sanitizing Soap isn't strong enough to keep up? %n%nThis soap has a 50%% Chance to reduce your normal warp, increased to 75%% if you have the Warp Ward effect (obtained by Purifying Bath Salts) and increased to 100%% if you're standing inside of the purifying fluid. %nThis soap also has a 100%% chance to cleanse §lall§r of your temporary warp!%n%nIn case you're wondering how to pronounce it: Don't even bother trying.%n
 
+# Quest: Research Completer
+betterquesting.quest.q9PTMZlaR-GCnyoGNoO8Pw.name=Research Completer
+betterquesting.quest.q9PTMZlaR-GCnyoGNoO8Pw.desc=Let's face it... nobody (sane) wants to do all of their research manually!%n%nNow that you've learned how to collect nodes and create a wand recharging pedestal you can make the research completer. This quest shows the minimum required blocks but the structure can be up to 13 in length.%n%nThis machine will consume EU and eat nodes placed in the center of it in exchange for completing research notes given to it. If you're using a long machine it's highly recommended you use node stabilizers underneath your nodes to prevent them from destroying each other.%n%n[note]Of course you need to §lresearch§r the Research Completer, you'll find it in the electro-magic tools tab.[/note]
+
 
 ## Quest Line: Kaaami, Haaaami, ... HA!
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAGA.name=Kaaami, Haaaami, ... HA!
