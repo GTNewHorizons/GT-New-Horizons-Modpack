@@ -1,0 +1,98 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1446
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 1,
+      "desc:8": "No Description",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "GalacticraftMars:item.itemTier3Rocket"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 1,
+      "lockedProgress:1": 0,
+      "name:8": "Trigger: Rocket Tier 3 Skip",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 5345846927737507786,
+  "questIDLow:4": -8070258895445230809,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 0,
+      "questID:8": "AAAAAAAAAAAAAAAAAAAFsw\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "1:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 1,
+      "questID:8": "AAAAAAAAAAAAAAAAAAAFsg\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "2:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 2,
+      "questID:8": "AAAAAAAAAAAAAAAAAAAFsA\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "3:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 3,
+      "questID:8": "AAAAAAAAAAAAAAAAAAAFsQ\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "4:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 4,
+      "questID:8": "AAAAAAAAAAAAAAAAAAAFqA\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "5:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 5,
+      "questID:8": "AAAAAAAAAAAAAAAAAAAFtA\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "6:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 6,
+      "questID:8": "AAAAAAAAAAAAAAAAAAAFrQ\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "GalacticraftMars:item.itemTier3Rocket"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
