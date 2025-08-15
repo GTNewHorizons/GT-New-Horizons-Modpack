@@ -8272,7 +8272,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADKQ.desc=The Avaritia 9x9 dire crafting 
 
 # Quest: Rocket Tier 1
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADKg.name=Rocket Tier 1
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADKg.desc=After hours of hard work and a few stacks of TNT your first rocket is finally ready. But before you can go to the Moon you need to actually craft it.%n%n§cIf you've crafted the rocket with a chest, there's a crafting table recipe that will turn it into the normal rocket that completes this quest. Check NEI.§r
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADKg.desc=After hours of hard work and a few stacks of TNT your first rocket is finally ready. But before you can go to the Moon you need to actually craft it.%n%n§cIf you've crafted the rocket with a chest, there's a crafting table recipe that will turn it into the normal rocket that completes this quest. Check NEI.§r%n%n[note]In case you forgot to complete any, holding the rocket in your hand will unlock all pre-requisite quests in addition to this one.[/note]
 
 # Quest: Tier 1 Control Computer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADKw.name=Tier 1 Control Computer
@@ -8392,7 +8392,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAF_A.desc=Rockets require heavy duty plat
 
 # Quest: Rocket Tier 4
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF_w.name=Rocket Tier 4
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF_w.desc=After weeks of hard work and a thousand stacks of iTNT your fourth rocket is finally ready.%n%nYou need to use Dense Hydrazine Rocket Fuel.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF_w.desc=After weeks of hard work and a thousand stacks of iTNT your fourth rocket is finally ready.%n%nYou need to use Dense Hydrazine Rocket Fuel.%n%n[note]In case you forgot to complete any, holding the rocket in your hand will unlock all pre-requisite quests in addition to this one.[/note]
 
 # Quest: Find Some Meteoric Iron
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFkg.name=Find Some Meteoric Iron
@@ -8408,7 +8408,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFlA.desc=Each rocket needs a Control Com
 
 # Quest: Rocket Tier 2
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFlQ.name=Rocket Tier 2
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFlQ.desc=After hours of hard work and tons of stacks of iTNT your second rocket is finally ready. But before you can go to Mars you need to craft a few more things.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFlQ.desc=After hours of hard work and tons of stacks of iTNT your second rocket is finally ready. But before you can go to Mars you need to craft a few more things.%n%n[note]In case you forgot to complete any, holding the rocket in your hand will unlock all pre-requisite quests in addition to this one.[/note]
 
 # Quest: Recycle Your Rocket and Save the Environment
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFlg.name=Recycle Your Rocket and Save the Environment
@@ -8488,7 +8488,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFrQ.desc=Rockets require heavy duty plat
 
 # Quest: Rocket Tier 3
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFrg.name=Rocket Tier 3
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFrg.desc=After days of hard work and a hundred tons of stacks of iTNT your third rocket is finally ready.%n%nYou need to use Dense Hydrazine Rocket Fuel or better to fuel it.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFrg.desc=After days of hard work and a hundred tons of stacks of iTNT your third rocket is finally ready.%n%nYou need to use Dense Hydrazine Rocket Fuel or better to fuel it.%n%n[note]In case you forgot to complete any, holding the rocket in your hand will unlock all pre-requisite quests in addition to this one.[/note]
 
 # Quest: Tier 3 Lander
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFsA.name=Tier 3 Lander
@@ -8568,7 +8568,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGvQ.desc=Each rocket needs a Control Com
 
 # Quest: Rocket Tier 5
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGvg.name=Rocket Tier 5
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGvg.desc=After a month of hard work and ten thousand stacks of iTNT your fifth rocket is finally ready.%n%nYou need to use CN3H7O3 (Purple) Rocket Fuel or better to fuel it.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGvg.desc=After a month of hard work and ten thousand stacks of iTNT your fifth rocket is finally ready.%n%nYou need to use CN3H7O3 (Purple) Rocket Fuel or better to fuel it.%n%n[note]In case you forgot to complete any, holding the rocket in your hand will unlock all pre-requisite quests in addition to this one.[/note]
 
 # Quest: Heavy Duty Nose Cone Tier 3
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGvw.name=Heavy Duty Nose Cone Tier 3
@@ -8632,7 +8632,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKTw.desc=Rockets require heavy duty plat
 
 # Quest: Rocket Tier 6
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKUA.name=Rocket Tier 6
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKUA.desc=After building this, you can visit more planets.%n%nYou need to use CN3H7O3 (Purple) Rocket Fuel or better to fuel it.%n%n[note]If you want to make this rocket in ZPM, you'll need to use the GT++ Assembler multi.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKUA.desc=After building this, you can visit more planets.%n%nYou need to use CN3H7O3 (Purple) Rocket Fuel or better to fuel it.%n%n§cIf you want to make this rocket in ZPM, you'll need to use the GT++ Assembler multi.§r%n%n[note]In case you forgot to complete any, holding the rocket in your hand will unlock all pre-requisite quests in addition to this one.[/note]
 
 # Quest: Tier 7 Heavy Duty Plates
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKUQ.name=Tier 7 Heavy Duty Plates
@@ -8640,7 +8640,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKUQ.desc=Rockets require heavy duty plat
 
 # Quest: Rocket Tier 7
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKUg.name=Rocket Tier 7
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKUg.desc=You can now visit the planets on the edge of the solar system with this rocket.%n%nYou need to use H8N4C2O4 (Green) Rocket Fuel to fuel it.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKUg.desc=You can now visit the planets on the edge of the solar system with this rocket.%n%nYou need to use H8N4C2O4 (Green) Rocket Fuel to fuel it.%n%n[note]In case you forgot to complete any, holding the rocket in your hand will unlock all pre-requisite quests in addition to this one.[/note]
 
 # Quest: Tier 8 Heavy Duty Plates
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKUw.name=Tier 8 Heavy Duty Plates
@@ -8648,7 +8648,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKUw.desc=Rockets require heavy duty plat
 
 # Quest: Rocket Tier 8
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKVA.name=Rocket Tier 8
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKVA.desc=You can travel to other solar systems with this, the T8 rocket.%n%nWhat, you visited other star systems before? There, was, uh, like, a nebula you couldn't go past to these ones. That makes sense, right?%n%nYou need to use H8N4C2O4 (Green) Rocket Fuel to fuel it.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKVA.desc=You can travel to other solar systems with this, the T8 rocket.%n%nWhat, you visited other star systems before? There, was, uh, like, a nebula you couldn't go past to these ones. That makes sense, right?%n%nYou need to use H8N4C2O4 (Green) Rocket Fuel to fuel it.%n%n[note]In case you forgot to complete any, holding the rocket in your hand will unlock all pre-requisite quests in addition to this one.[/note]
 
 # Quest: RP-1 Rocket Fuel
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKfA.name=RP-1 Rocket Fuel
@@ -8740,7 +8740,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKpA.desc=The Ultra Heavy oxygen tank is 
 
 # Quest: NASA Workbench
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKuA.name=NASA Workbench
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKuA.desc=The NASA Workbench is used to craft your rockets and other related vehicles. Build it to start your journey into space.%n%n[note]Hint: Check out the nether star recipe which uses null catalyst and salis mundus. Null catalyst can be duplicated by adding magma cream, blaze powder and a tiny pile of nether star dust.[/note]%n%n[note]Also, if you're having trouble getting the wither skulls, you can make a Cleaver or the Skullfire Sword to help with that.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKuA.desc=The NASA Workbench is used to craft your rockets and other related vehicles. Build it to start your journey into space.%n%n[note]Hint: Check out the nether star recipe which uses null catalyst and salis mundus. Null catalyst can be duplicated by adding magma cream, blaze powder and a tiny pile of nether star dust.[/note]%n%n[note]Also, if you're having trouble getting the wither skulls, you can make a Cleaver or the Skullfire Sword to help with that.[/note]%n%n[warn]For ALL Rocket Quests: If you forget to complete a part quest before crafting the rocket, you can simply hold the completed rocket and those quests will autocomplete, no need to make duplicate parts.[/warn]
 
 # Quest: Proteus Dungeon
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKvg.name=Proteus Dungeon
@@ -8772,7 +8772,7 @@ betterquesting.quest.OaE5CLFfQ8CNDmlmBWB6ZA.desc=A Rocket Engine is needed to ac
 
 # Quest: A T0 Rocket? What?
 betterquesting.quest.Oiy66UDmTVeZ95pN0yunBg.name=A T0 Rocket? What?
-betterquesting.quest.Oiy66UDmTVeZ95pN0yunBg.desc=You can't use this rocket to go to any planet or moon §oand§r it's the most expensive one - a bad deal? Not quite! The Shuttle Rocket is used to create and access a §1§lMothership§r.%n%nThe Shuttle Rocket needs the same fuel as the T8 Rocket.
+betterquesting.quest.Oiy66UDmTVeZ95pN0yunBg.desc=You can't use this rocket to go to any planet or moon §oand§r it's the most expensive one - a bad deal? Not quite! The Shuttle Rocket is used to create and access a §1§lMothership§r.%n%nThe Shuttle Rocket needs the same fuel as the T8 Rocket.%n%n[note]In case you forgot to complete any, holding the rocket in your hand will unlock all pre-requisite quests in addition to this one.[/note]
 
 # Quest: No Boss Needed! How Sad!
 betterquesting.quest.gAchVo6VSBO5lRyjs6Rpow.name=No Boss Needed! How Sad!
@@ -14677,6 +14677,10 @@ betterquesting.quest.xdiDnTdpTgW6POwCuDlPgg.desc=After meddling with the 4th Dim
 
 ### Quests in no quest lines ###
 
+# Quest: Trigger: Rocket Shuttle Skip
+betterquesting.quest.87VYEeyaTWGSnRhRwAhrLw.name=Trigger: Rocket Shuttle Skip
+betterquesting.quest.87VYEeyaTWGSnRhRwAhrLw.desc=No Description
+
 # Quest: Trigger: LoC
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABww.name=Trigger: LoC
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABww.desc=Triggered by having a "Lamp of Cinders" in your inventory.
@@ -14805,9 +14809,29 @@ betterquesting.quest.MdXhDkN_TECH5kMp4OM2Gg.desc=No Description
 betterquesting.quest.S8Z31Xp-RrSdc2A6rOvUzg.name=Trigger: Early Scribing Tools
 betterquesting.quest.S8Z31Xp-RrSdc2A6rOvUzg.desc=No Description
 
+# Quest: Trigger: Rocket Tier 3 Skip
+betterquesting.quest.SjBDdQ9oT8qQAK5K64z7Jw.name=Trigger: Rocket Tier 3 Skip
+betterquesting.quest.SjBDdQ9oT8qQAK5K64z7Jw.desc=No Description
+
+# Quest: Trigger: Rocket Tier 4 Skip
+betterquesting.quest.ThhwoFJASzGjsSjyGqCROQ.name=Trigger: Rocket Tier 4 Skip
+betterquesting.quest.ThhwoFJASzGjsSjyGqCROQ.desc=No Description
+
+# Quest: Trigger: Rocket Tier 1 Skip
+betterquesting.quest.VoVbERmlQRGNglekP68u-Q.name=Trigger: Rocket Tier 1 Skip
+betterquesting.quest.VoVbERmlQRGNglekP68u-Q.desc=No Description
+
+# Quest: Trigger: Rocket Tier 5 Skip
+betterquesting.quest.aPHM7QnaQEmVjOJwYbMp8Q.name=Trigger: Rocket Tier 5 Skip
+betterquesting.quest.aPHM7QnaQEmVjOJwYbMp8Q.desc=No Description
+
 # Quest: Trigger: Styrene-Butadiene Rubber Skip
 betterquesting.quest.cQkx83QYT4m3mwovgZIKvA.name=Trigger: Styrene-Butadiene Rubber Skip
 betterquesting.quest.cQkx83QYT4m3mwovgZIKvA.desc=No Description
+
+# Quest: Trigger: Rocket Tier 2 Skip
+betterquesting.quest.duath_FBQVqyzgYn4PicxA.name=Trigger: Rocket Tier 2 Skip
+betterquesting.quest.duath_FBQVqyzgYn4PicxA.desc=No Description
 
 # Quest: Trigger: SMD Inductor Skip
 betterquesting.quest.f9GkFpTbRruEZReIz7sGuA.name=Trigger: SMD Inductor Skip
@@ -14816,6 +14840,10 @@ betterquesting.quest.f9GkFpTbRruEZReIz7sGuA.desc=No Description
 # Quest: Trigger: Polyphenylene Sulfide Skip
 betterquesting.quest.gg1I91tdRK2us5ETzB2VjA.name=Trigger: Polyphenylene Sulfide Skip
 betterquesting.quest.gg1I91tdRK2us5ETzB2VjA.desc=No Description
+
+# Quest: Trigger: Rocket Tier 7 Skip
+betterquesting.quest.jAZpo1cHR56fqHckKP14lw.name=Trigger: Rocket Tier 7 Skip
+betterquesting.quest.jAZpo1cHR56fqHckKP14lw.desc=No Description
 
 # Quest: Trigger: Profane Wand
 betterquesting.quest.kPOfft_mTjqocCR6z9GhVw.name=Trigger: Profane Wand
@@ -14828,3 +14856,11 @@ betterquesting.quest.qFco17HGS0SxmpVn-uWJZQ.desc=No Description
 # Quest: Trigger: LV Extruder Skip
 betterquesting.quest.sIP_FoxIRaeE08GesBwYcQ.name=Trigger: LV Extruder Skip
 betterquesting.quest.sIP_FoxIRaeE08GesBwYcQ.desc=No Description
+
+# Quest: Trigger: Rocket Tier 6 Skip
+betterquesting.quest.xcpJ6bs3R-i9KuADhiHOXw.name=Trigger: Rocket Tier 6 Skip
+betterquesting.quest.xcpJ6bs3R-i9KuADhiHOXw.desc=No Description
+
+# Quest: Trigger: Rocket Tier 8 Skip
+betterquesting.quest.zDoZ8PcTSFWF8Jh5diM0_Q.name=Trigger: Rocket Tier 8 Skip
+betterquesting.quest.zDoZ8PcTSFWF8Jh5diM0_Q.desc=No Description
