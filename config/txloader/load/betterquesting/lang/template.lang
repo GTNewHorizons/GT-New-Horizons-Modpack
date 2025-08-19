@@ -2478,7 +2478,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADXQ.desc=Tungstensteel is needed in all 
 
 # Quest: Empty Epoxid Board
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE0g.name=§a§lEmpty Epoxid Board
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE0g.desc=Epoxid circuit boards require an epoxid plate, gold foil and sulfuric acid to make an empty board. By adding electrum foil and Iron(III) Chloride or Sodium Persulfate you can craft an Advanced Circuit Board.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE0g.desc=Epoxid circuit boards require an epoxid plate, gold foil and sulfuric acid to make an empty board. By adding electrum foil and Iron(III) Chloride or Sodium Persulfate you can craft an Advanced Circuit Board.%n%n[note]If you went the scrapbox route instead to avoid making epoxy, hold 64 Advanced Circuit Boards in your hand to unlock this quest.[/note]
 
 # Quest: Radon Loop
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE2Q.name=§a§lRadon Loop
@@ -7552,7 +7552,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIZQ.desc=The Lapotronic Energy Orb is th
 
 # Quest: One BILLION EU
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIZg.name=One BILLION EU
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIZg.desc=If you want a stationary battery, you can make an AFSU capable of storing up to 1 billion EU and charging items. You can pick it up with a wrench, but you'll lose a percentage of the stored EU. Make sure you right-click, not left-click. Left-clicking will cause it to lose all stored EU.%n%nAs an alternative, if you can afford them, try the GT++ Energy Buffers. They are more expensive and cannot charge items, but store more, don't lose any EU, and can be configured from 1-16A. See the GT++ tab for details.%n%n[note]These can apparently draw infinite amps, so maybe use a diode or something if you like having the power on.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIZg.desc=If you want a stationary battery, you can make an AFSU capable of storing up to 1 billion EU and charging items. You can pick it up with a wrench, but you'll lose a percentage of the stored EU. Make sure you right-click, not left-click. Left-clicking will cause it to lose all stored EU.%n%nAs an alternative, if you can afford them, try the GT++ Energy Buffers. They are more expensive and cannot charge items, but store more, don't lose any EU, and can be configured from 1-16A.%n%n[note]These can apparently draw infinite amps, so maybe use a diode or something if you like having the power on.[/note]
 
 # Quest: Storage of the Gods
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKGg.name=Storage of the Gods
@@ -14848,6 +14848,10 @@ betterquesting.quest.jAZpo1cHR56fqHckKP14lw.desc=No Description
 # Quest: Trigger: Profane Wand
 betterquesting.quest.kPOfft_mTjqocCR6z9GhVw.name=Trigger: Profane Wand
 betterquesting.quest.kPOfft_mTjqocCR6z9GhVw.desc=No Description
+
+# Quest: Trigger: Epoxy Board Skip
+betterquesting.quest.kZ6QmUGzTCitYMg_BdiVeQ.name=Trigger: Epoxy Board Skip
+betterquesting.quest.kZ6QmUGzTCitYMg_BdiVeQ.desc=No Description
 
 # Quest: Trigger: Nether Skip
 betterquesting.quest.qFco17HGS0SxmpVn-uWJZQ.name=Trigger: Nether Skip
