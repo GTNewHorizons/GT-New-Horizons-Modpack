@@ -4752,11 +4752,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBQ.desc=The cropnalyzer is a powered to
 
 # Quest: Crop Automation
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBg.name=Crop Automation
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBg.desc=The Crop-Matron is a LV machine that will monitor crops in a 11x11x3 area and automatically apply fertilizer, Weed-EX, and Water as needed. Water can be pumped in directly or use IC2 Universal water cells, normal cells aren't returned when they're used.%n%nThe Crop-Matron is rainproof, but make sure you cover up your power supply (you might find a fancy way to do this), or use an LV battery. A Lithium Ion will last about 2 hours.%n%nTilled dirt still requires a nearby water block to be hydrated as the Matron will only water the crop, not the soil. Try putting a lily pad on top so it isn't annoying to walk on, or using Garden Soil instead.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBg.desc=The Crop Manager is a LV machine that will monitor crops in a 11x5x11 area and automatically apply fertilizer, Weed-EX, and Water as needed. Water can be pumped in directly or use IC2 Universal water cells, normal cells aren't returned when they're used.%n%nThe Crop Manager is NOT rainproof, but you can cover it with a water source block just fine!%n%nTilled dirt still requires a nearby water block to be hydrated as the Manager will only water the crop, not the soil. Try putting a lily pad on top so it isn't annoying to walk on, or using Garden Soil instead.
 
 # Quest: Weed Ex
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBw.name=Weed Ex
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBw.desc=Weed-EX is used to prevent the growth of Weeds on empty Crop blocks at the cost of some weed-EX. Damage to the crop's quality is illusory, and not true. We have people that have looked at the code, we assure you. §oUnless§r it counts as a weed (venomilia Gr 8+, any other crop Gr 24+), then it loses maybe 1 stat. Maybe. And you can just increase it again too. And it might not take effect even then if you don't apply too much, like a crop matron won't.%n%nUsage:%nWhile holding Weed-Ex, right-click on a Crop to apply it. It can also be placed in a Crop-Matron to automatically apply it to your crops.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBw.desc=Weed-EX is used to prevent the growth of Weeds on empty Crop blocks at the cost of some weed-EX. Damage to the crop's quality is illusory, and not true. We have people that have looked at the code, we assure you. §oUnless§r it counts as a weed (venomilia Gr 8+, any other crop Gr 24+), then it loses maybe 1 stat. Maybe. And you can just increase it again too. And it might not take effect even then if you don't apply too much, like a crop matron won't.%n%nUsage:%nWhile holding Weed-Ex, right-click on a Crop to apply it. It can also be placed in a Crop Manager to automatically apply it to your crops.
 
 # Quest: Reed and Resin
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGQA.name=Reed and Resin
@@ -4873,10 +4873,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHPw.desc=Now that you have dough, there 
 # Quest: No Chicken Escapes!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHQQ.name=No Chicken Escapes!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHQQ.desc=Do you like pies? I sure do! There are many varieties of pies available for you. The chicken pot pie is one of the easiest to make. Just a chicken, potato, carrot, and some dough. The fruit pies are a little simpler, so they don't quite restore as much saturation, but are great for filling tummies while you wait for the best foods to wear off.
-
-# Quest: Robotic Crop Pickers
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHRg.name=Robotic Crop Pickers
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHRg.desc=The Crop Harvester will pick your crops in an 11x11x3 range for you. Since the multifarm is now HV, you'll want to consider making these to automate your crops.%n%nYou'll need a cropnalyzer in it if you want it to harvest at the optimal time. Otherwise, it will attempt to harvest them whenever it's possible. For example, you want it for stickreed, or it will harvest at stage 2 (harvesting sugar canes) instead of 4 (harvesting sticky resin).
 
 # Quest: You Can't Tell Them Apart Either?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHgA.name=You Can't Tell Them Apart Either?
