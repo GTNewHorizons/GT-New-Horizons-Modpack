@@ -19,10 +19,8 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "ae2wct:wirelessCraftingTerminal",
-        "tag:10": {
-          "internalCurrentPower:6": 6400000.0
-        }
+        "id:8": "ae2fc:wireless_ultra_terminal",
+        "tag:10": {}
       },
       "isMain:1": 0,
       "isSilent:1": 0,
@@ -81,14 +79,8 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "ae2wct:wirelessCraftingTerminal",
+          "id:8": "ae2fc:wireless_ultra_terminal",
           "tag:10": {}
-        },
-        "1:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "ae2wct:magnetCard"
         }
       },
       "taskID:8": "bq_standard:retrieval"
