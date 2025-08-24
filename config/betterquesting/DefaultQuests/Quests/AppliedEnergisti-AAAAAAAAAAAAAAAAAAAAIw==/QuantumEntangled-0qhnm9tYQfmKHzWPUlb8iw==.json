@@ -8,21 +8,18 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Caution! Use with utmost care! This cell does exactly what it says. It deletes everything you put on there. So better make sure you have precise control over what can actually go there.",
-      "globalShare:1": 1,
+      "desc:8": "To make an entangled pair for usage in the quantum ring, put the Singularity and Enderpearl Dust on the ground, then use an explosion (Tiny TNT works well) to create two Quantum Entangled Singularities.\n\n[note]QESs are each a unique pair and will only work with one another.[/note]",
+      "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 0,
+        "Damage:2": 48,
         "OreDict:8": "",
-        "id:8": "appliedenergistics2:item.ItemVoidStorageCell",
-        "tag:10": {}
+        "id:8": "appliedenergistics2:item.ItemMultiMaterial"
       },
-      "isGlobal:1": 0,
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "That is not storage!",
-      "partySingleReward:1": 0,
+      "name:8": "Quantum Entangled Singularities",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -33,8 +30,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 374,
+  "questIDHigh:4": -3267247610559708679,
+  "questIDLow:4": -8494011482519438197,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -43,7 +40,7 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 37,
+          "Damage:2": 38,
           "OreDict:8": "",
           "id:8": "enhancedlootbags:lootbag"
         }
@@ -55,7 +52,7 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 1,
+          "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "dreamcraft:item.CoinTechnicianII"
@@ -74,10 +71,38 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
+          "Damage:2": 47,
+          "OreDict:8": "",
+          "id:8": "appliedenergistics2:item.ItemMultiMaterial"
+        },
+        "1:10": {
+          "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "appliedenergistics2:item.ItemVoidStorageCell",
-          "tag:10": {}
+          "id:8": "appliedenergistics2:tile.BlockTinyTNT"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 2532,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 48,
+          "OreDict:8": "",
+          "id:8": "appliedenergistics2:item.ItemMultiMaterial"
         }
       },
       "taskID:8": "bq_standard:retrieval"
