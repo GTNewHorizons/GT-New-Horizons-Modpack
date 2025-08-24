@@ -89,7 +89,7 @@
       "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
-      "index:3": 1,
+      "index:3": 2,
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
@@ -97,38 +97,6 @@
           "Damage:2": 47,
           "OreDict:8": "",
           "id:8": "appliedenergistics2:item.ItemMultiMaterial"
-        },
-        "1:10": {
-          "Count:3": 1,
-          "Damage:2": 2532,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
-        },
-        "2:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "appliedenergistics2:tile.BlockTinyTNT"
-        }
-      },
-      "taskID:8": "bq_standard:optional_retrieval"
-    },
-    "2:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 2,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 2,
-          "Damage:2": 48,
-          "OreDict:8": "",
-          "id:8": "appliedenergistics2:item.ItemMultiMaterial",
-          "tag:10": {
-            "freq:4": 158881248091102
-          }
         }
       },
       "taskID:8": "bq_standard:retrieval"
