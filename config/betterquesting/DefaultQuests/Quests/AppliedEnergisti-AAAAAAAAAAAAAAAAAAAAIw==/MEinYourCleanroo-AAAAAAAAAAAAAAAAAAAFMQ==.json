@@ -18,7 +18,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Wireless Connectors are a close range Quantum Network Bridge alternative.\nConnections are point-to-point - you can\u0027t connect more than 2 blocks together. Each block will use 10 + distance * ln(distance^2 + 3) AE/t. Does not work across dimensions. Power needs to be provided on only one side. Up to 32 channels can be transferred through the connection. Can connect directly to dense cables. The Wireless Connector itself does not use any channels.",
+      "desc:8": "Wireless Connectors are a close range Quantum Network Bridge alternative.\n\nConnections are point-to-point - you can\u0027t connect more than 2 blocks together. Each block will use 10 + distance * ln(distance^2 + 3) AE/t. Does not work across dimensions. Power needs to be provided on only one side. Up to 32 channels can be transferred through the connection. Can connect directly to dense cables. The Wireless Connector itself does not use any channels.\n\n[note]Also, these are more TPS friendly than large chains of dense cables![/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
