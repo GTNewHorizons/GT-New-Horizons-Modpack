@@ -2474,7 +2474,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADXQ.desc=Tungstensteel is needed in all 
 
 # Quest: Empty Epoxid Board
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE0g.name=§a§lEmpty Epoxid Board
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE0g.desc=Epoxid circuit boards require an epoxid plate, gold foil and sulfuric acid to make an empty board. By adding electrum foil and Iron(III) Chloride or Sodium Persulfate you can craft an Advanced Circuit Board.%n%n[note]If you went the scrapbox route instead to avoid making epoxy, hold 64 Advanced Circuit Boards in your hand to unlock this quest.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE0g.desc=Epoxid circuit boards require an epoxid plate, gold foil and sulfuric acid to make an empty board. By adding electrum foil and Iron(III) Chloride or Sodium Persulfate you can craft an Advanced Circuit Board.%n%n[note]If you used IC2 Scrapboxes to obtain the empty boards instead of using epoxy, hold 64 Advanced Circuit Boards in your hand to unlock this quest.[/note]
 
 # Quest: Radon Loop
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE2Q.name=§a§lRadon Loop
@@ -14248,7 +14248,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADXw.desc=The bronze javelin is a bit exp
 
 # Quest: Your First Flint Throwing Knife
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADYA.name=§2§lYour First Flint Throwing Knife
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADYA.desc=Is the bone bow too expensive for your taste? Then make a flint throwing knife instead. You need flint and a stick to get 12 knives. The durability and the attack damage are very low but it still helps with killing mobs from a safe distance.%n%nThe knives should be in your inventory if you want to pick up the ones you fired. You can't pick them up if the knives are in Battlegear slots.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADYA.desc=Is the bone bow too expensive for your taste? Then make a flint throwing knife instead. You need flint and a stick to get 12 knives. The durability and the attack damage are very low but it still helps with killing mobs from a safe distance.%n%nThe knives should be in your inventory if you want to pick up the ones you fired.
 
 # Quest: Power of the Sun
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADpQ.name=§6§lPower of the Sun
