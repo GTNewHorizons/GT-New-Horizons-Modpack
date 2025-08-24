@@ -53,8 +53,12 @@
           "Count:3": 40,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.rodUranium4",
-          "tag:10": {}
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gregtech:gt.rodUranium4",
+            "orig_meta:3": 0,
+            "orig_tag:10": {}
+          }
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
