@@ -5,14 +5,14 @@
       "questIDLow:4": 1493
     },
     "1:10": {
-      "questIDHigh:4": -6127592698954038432,
-      "questIDLow:4": -5092663277638354864
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2877
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "As your researches for Applied Greg continued, you found a way to combine ME interface\u0027s pattern processing ability with input buses, §lcrafting input buses§r! Now, you can directly place patterns into input bus. However, input buses lacked sufficient item space and computational power to process items coming from your ME network. Thus, you added additional storage and circuits.\n\nYou can even place non-consumable items like lenses, molds inside!! However, consumable items won\u0027t do anything.\n\nBut, still you lack enough technology to process fluids, they are just not good for electronics.\n\nCrafting input bus is fully isolated from other buses/hatches, so you may have to change your patterns.\n\n[warn]Crafting input proxy[/warn] will let you wallshare multiblocks without actually wallsharing them. §lUV-Tier§r\n\n[warn]Crafting input buffer[/warn] will be §9§owaterproof§r. §lUIV-Tier§r",
+      "desc:8": "As your researches for Applied Greg continued, you found a way to combine ME interface\u0027s pattern processing ability with input buses, §lcrafting input buses§r! Now, you can directly place patterns into input bus. However, input buses lacked sufficient item space and computational power to process items coming from your ME network. Thus, you added additional storage and circuits.\n\nYou can even place non-consumable items like lenses, molds inside!! However, consumable items won\u0027t do anything.\n\nBut, still you lack enough technology to process fluids, they are just not good for electronics.\n\nCrafting input bus is fully isolated from other buses/hatches, so you may have to change your patterns.\n\n[warn]Crafting input proxy[/warn] will let you wallshare multiblocks without actually wallsharing them. §lUIV-Tier§r\n\n[warn]Crafting input buffer[/warn] will be §9§owaterproof§r. §lUEV-Tier§r",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 64,
