@@ -14,12 +14,8 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "betterquesting:placeholder",
-        "tag:10": {
-          "orig_id:8": "gregtech:gt.rodThorium",
-          "orig_meta:3": 0,
-          "orig_tag:10": {}
-        }
+        "id:8": "gregtech:gt.rodThorium",
+        "tag:10": {}
       },
       "isMain:1": 0,
       "isSilent:1": 0,
@@ -63,12 +59,8 @@
           "Count:3": 10,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "betterquesting:placeholder",
-          "tag:10": {
-            "orig_id:8": "gregtech:gt.rodThorium4",
-            "orig_meta:3": 0,
-            "orig_tag:10": {}
-          }
+          "id:8": "gregtech:gt.rodThorium4",
+          "tag:10": {}
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -85,12 +77,8 @@
           "Count:3": 10,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "betterquesting:placeholder",
-          "tag:10": {
-            "orig_id:8": "gregtech:gt.rodThorium",
-            "orig_meta:3": 0,
-            "orig_tag:10": {}
-          }
+          "id:8": "gregtech:gt.rodThorium",
+          "tag:10": {}
         }
       },
       "taskID:8": "bq_standard:retrieval"
