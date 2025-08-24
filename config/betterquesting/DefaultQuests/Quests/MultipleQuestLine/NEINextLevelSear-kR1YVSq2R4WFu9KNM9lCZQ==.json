@@ -1,0 +1,56 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -6458462290926483945,
+      "questIDLow:4": -5030660532125308103
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "NEI search got improved even further!\n\nSelect a search mode extended+ to try it out!\n\nExtended+ works pretty much like extended, but it doesn\u0027t support * and ? expanding in the names. Also the following symbols have to be escaped with a `\\`: `-` (dash) `\u003c` and `\u003e` (less-than and more-than) `^` (caret) `{` and `}` (curly brackets) `|` (vertical bar) `\\` (backslash) ` ` (space) `\"` (quote) alongside with the prefixes that you have enabled like §5@§r or §b$§r.\n\nExamples: §5@§oElectro\\-Magic§r, §oiron\\ ingot§r, §oPB\\\u0026J§r.\n\nExtended+ adds some QoL to your everyday search experience and an improved recipe search (next quest). In the following backticks `` are used around the search queries. You don\u0027t need them when searching.\n\nWant to search for something without having to put a backslash before every other symbol? Use quotes! You could use a quote inside quotes too, but you would have to escape it. Like this: `§6\"§r\\\"§6\"§r`.\n\nUse curly brackets §7{}§r to group conditions. Searching for `§7{§rmytryl§7|§rmanasteel§7}§r hammer head` would show you hammer heads made out of mytryl or manasteel.\n\nSpace is no longer necessary to use. So `§7{§rmytryl§7|§rmanasteel§7}§rhammer` works too!\n\nThere\u0027s a space mode support, so if you want your spaces to work literally turn it on!\n\nQuotes no longer require a closing quote. So you could search for `§6\"§riron ingot` and it would work! You still do need a quote if you want your quotes to end though.\n\nRegex syntax got simplified (though the old one is still supported). Now instead of `§br/§rsome regex§b/§r` you could search for `§b/§rsome regex` and it would work too! You still do need a slash if you want your regex to end. Regex doesn\u0027t require escaping, the same way quotes don\u0027t, with the only exception being the `/`. So to find a slash with a regex you would search with `§b/§r\\/`.\n\nYou can use quotes or regex after prefix to search with them instead of a plain text. For example, use `§5@§6\"§5chest minecarts§r` to search for items from the §9Iron Chest Minecarts§r mod. Or `§5@§b/§5chest minecarts§r` to do the same with a regex.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:bookshelf"
+      },
+      "isMain:1": 1,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "§2§lNEI Next Level Search",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -7990133041073338491,
+  "questIDLow:4": -8810216742118145435,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnician"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}
