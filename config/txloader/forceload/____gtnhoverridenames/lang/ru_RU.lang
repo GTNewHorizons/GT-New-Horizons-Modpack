@@ -51,7 +51,7 @@ item.SC2:standard_hull.name=Обычный корпус вагонетки
 item.SC2:wooden_hull.name=Деревянный корпус вагонетки
 tile.blockCapBank.creative.name=Творческий блок конденсаторов
 HellBarkCase.name=Витрина из адского дерева
-tile.enderChest.name=Личный сундук Эндера
+tile.enderChest.name=Личный сундук Края
 itemIrradiantReinforcedPlate.name=Излучающая армированная иридиевая пластина
 
 
@@ -370,7 +370,7 @@ ic2.itemBatChargeRE.name=Заряжающий аккумулятор
 ic2.itemBatCrystal.name=Энергетический кристалл
 ic2.itemBatLamaCrystal.name=Лазуротроновый кристалл
 ic2.itemBatRE.name=Аккумулятор
-ic2.itemBatREDischarged.name=Незаряженный аккумулятор
+ic2.itemBatREDischarged.name=Аккумулятор (Пустой)
 ic2.itemBatSU.name=Одноразовая батарейка
 ic2.itemBiochaff.name=Отходы
 ic2.itemBoat.name=Лодка
@@ -577,7 +577,7 @@ tile.blockJar.name=Банка
 tile.blockMagicalLeaves.name=Листва
 tile.blockMagicalLog.name=Древесина
 tile.blockMetalDevice.name=Металлическое устройство
-tile.blockPortalNothing.name=Портал
+tile.blockPortalNothing.name=Портал в никуда
 tile.blockStoneDevice.name=Каменное устройство
 tile.blockTable.name=Стол
 tile.blockTaint.name=Заражённое
@@ -657,7 +657,7 @@ tile.zoneBlock.name=Zone
 tile.zorgBlock.name=Zorg
 tile.ztylBlock.name=Ztyl
 tile.zythBlock.name=Zyth
-tile.glaxx.name=Tinted Glass
+tile.glaxx.name=Тонированное стекло
 
 # Alumite -> Obzinite renaming in GTNH
 block.brick.alumite.name=Обзинитовый кирпич
