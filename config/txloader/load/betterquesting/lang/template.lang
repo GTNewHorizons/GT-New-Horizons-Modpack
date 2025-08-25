@@ -9290,9 +9290,13 @@ betterquesting.quest.-IWmYEgKSGi0M7rtP59zaw.desc=Same as 1k.
 betterquesting.quest.0J3hYoBeTpe_OnXMU9zRDA.name=AE Tier 2 Fluid Storage
 betterquesting.quest.0J3hYoBeTpe_OnXMU9zRDA.desc=This Processor allows you to craft 256k, 1024k, 4096 and 16384k Fluid Storage Components.%n%nThese Components need to be paired with Advanced Fluid Storage Housings to turn them into Fluid Storage Cells.
 
+# Quest: Quantum Entangled Singularities
+betterquesting.quest.0qhnm9tYQfmKHzWPUlb8iw.name=Quantum Entangled Singularities
+betterquesting.quest.0qhnm9tYQfmKHzWPUlb8iw.desc=To make an entangled pair for usage in the quantum ring, put the Singularity and Enderpearl Dust on the ground, then use an explosion (Tiny TNT works well) to create two Quantum Entangled Singularities.%n%n[note]QESs are each a unique pair and will only work with one another.[/note]
+
 # Quest: Cribs
 betterquesting.quest.4pCol8RvR3G0pS2zVqpY1Q.name=Cribs
-betterquesting.quest.4pCol8RvR3G0pS2zVqpY1Q.desc=As your researches for Applied Greg continued, you found a way to combine ME interface's pattern processing ability with input buses, §lcrafting input buses§r! Now, you can directly place patterns into input bus. However, input buses lacked sufficient item space and computational power to process items coming from your ME network. Thus, you added additional storage and circuits.%n%nYou can even place non-consumable items like lenses, molds inside!! However, consumable items won't do anything.%n%nBut, still you lack enough technology to process fluids, they are just not good for electronics.%n%nCrafting input bus is fully isolated from other buses/hatches, so you may have to change your patterns.%n%n[warn]Crafting input proxy[/warn] will let you wallshare multiblocks without actually wallsharing them. §lUV-Tier§r%n%n[warn]Crafting input buffer[/warn] will be §9§owaterproof§r. §lUIV-Tier§r
+betterquesting.quest.4pCol8RvR3G0pS2zVqpY1Q.desc=As your researches for Applied Greg continued, you found a way to combine ME interface's pattern processing ability with input buses, §lcrafting input buses§r! Now, you can directly place patterns into input bus. However, input buses lacked sufficient item space and computational power to process items coming from your ME network. Thus, you added additional storage and circuits.%n%nYou can even place non-consumable items like lenses, molds inside!! However, consumable items won't do anything.%n%nBut, still you lack enough technology to process fluids, they are just not good for electronics.%n%nCrafting input bus is fully isolated from other buses/hatches, so you may have to change your patterns.%n%n[warn]Crafting input proxy[/warn] will let you wallshare multiblocks without actually wallsharing them. §lUIV-Tier§r%n%n[warn]Crafting input buffer[/warn] will be §9§owaterproof§r. §lUEV-Tier§r
 
 # Quest: Need More Information?
 betterquesting.quest.5ObFHI5BQ5Oxv0yca7morA.name=Need More Information?
@@ -9354,9 +9358,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAB1A.desc=What? You filled up the Quantum
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABbQ.name=Insurgence
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABbQ.desc=Is your infusion very slow? And, alas, to resolve that you need a world accelerator. That probably causes a lot of lag.%n%nWell no longer! Try out the new Infusion Interceptor. Read more about it on the Thaumic Insurgence page in your Thaumonomicon.
 
-# Quest: That is not storage!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABdg.name=That is not storage!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABdg.desc=Caution! Use with utmost care! This cell does exactly what it says. It deletes everything you put on there. So better make sure you have precise control over what can actually go there.
+# Quest: Item Void Cell
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABdg.name=Item Void Cell
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABdg.desc=[warn]Caution! Use with utmost care! This cell does exactly what it says. It deletes everything you put on there. So better make sure you have precise control over what can actually go there.[/warn]%n%n[note]Will only void items, not fluids[/note]
 
 # Quest: Co-Processing x16
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABiA.name=Co-Processing x16
@@ -9385,10 +9389,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAE6A.desc=Largest vanilla storage compone
 # Quest: 64k Crafting Storage
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE6Q.name=64k Crafting Storage
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE6Q.desc=Component of the crafting CPU which provides 65,536 bytes of storage for crafting.
-
-# Quest: Wireless Boosters
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE6g.name=Wireless Boosters
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE6g.desc=The Wireless Booster is used to increase the range of the ME Wireless Access Point, and stack up to 64.
 
 # Quest: Filling Tanks
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE6w.name=Filling Tanks
@@ -9430,8 +9430,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFEg.desc=Allows you to configure which u
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFEw.name=Dense Boys
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFEw.desc=Giving your network even more stability. Dense energy cells store AE energy up to 16 million units. They do not accept power directly but are used to buffer power in an already existing ME Network.
 
-# Quest: ME in the Ether
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFFA.name=ME in the Ether
+# Quest: Wireless Applied Energistics Terminal
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFFA.name=Wireless Applied Energistics Terminal
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFFA.desc=After you link up the wireless terminal in the ME security terminal, it grants portable access to the ME network. Put it into a charger to recharge it.%n%nHolds 1.6m AE in its battery and drains 1 AE/t for each block you are away from the nearest ME wireless access point.%n%nCharge your Wireless Terminals (and the successors) with an EIO Wireless Charger if you don't want to wait a century for them to charge.
 
 # Quest: Annihilation and Formation
@@ -9520,7 +9520,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFMA.desc=A specialized version of the ME
 
 # Quest: ME in Your Cleanroom
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFMQ.name=ME in Your Cleanroom
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFMQ.desc=Wireless Connectors are a close range Quantum Network Bridge alternative.%nConnections are point-to-point - you can't connect more than 2 blocks together. Each block will use 10 + distance * ln(distance^2 + 3) AE/t. Does not work across dimensions. Power needs to be provided on only one side. Up to 32 channels can be transferred through the connection. Can connect directly to dense cables. The Wireless Connector itself does not use any channels.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFMQ.desc=Wireless Connectors are a close range Quantum Network Bridge alternative.%n%nConnections are point-to-point - you can't connect more than 2 blocks together. Each block will use 10 + distance * ln(distance^2 + 3) AE/t. Does not work across dimensions. Power needs to be provided on only one side. Up to 32 channels can be transferred through the connection. Can connect directly to dense cables. The Wireless Connector itself does not use any channels.%n%n[note]Also, these are more TPS friendly than large chains of dense cables![/note]
 
 # Quest: Ore Dictionary Output
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFMg.name=Ore Dictionary Output
@@ -9528,7 +9528,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFMg.desc=The ME ore dictionary export ca
 
 # Quest: To Link P2P Buses
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFMw.name=To Link P2P Buses
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFMw.desc=A small item that can be used to store, copy, and paste settings. Shift-right-click on a configurable object to save the settings onto the memory card, then right-click on any other block of the same type to paste the settings. Shift-right-click on a non-configurable object (or the air) to clear. They are also used to link the input P2P tunnel to the corresponding output P2P tunnels. They can also link Vis Relays to compatible devices.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFMw.desc=A small item that can be used to store, copy, and paste settings. Shift-right-click on a configurable object to save the settings onto the memory card, then right-click on any other block of the same type to paste the settings. Shift-right-click on a non-configurable object (or the air) to clear. They are also used to link the input P2P tunnel to the corresponding output P2P tunnels. They can also link Vis Relays to compatible devices.%n%nIf you're doing more advanced operations in a large network of P2Ps, it's recommended you use the advanced memory card. It has a helpful UI that allows you to visualize and set names, inputs, and outputs of P2P tunnels. %n%n[note]Remember P2Ps can only have 1 input! The only exception being fluid P2Ps whos input can function as an output and whos outputs can function as an input.[/note]
 
 # Quest: Smart cables
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIRw.name=Smart cables
@@ -9632,7 +9632,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ5g.desc=You may have noticed that the M
 
 # Quest: Singular Singularities Signify Something
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ5w.name=Singular Singularities Signify Something
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ5w.desc=Quest names are hard sometimes, ok? To make a Singularity (for the Quantum Network Bridge), you'll need to dump 512,000 items into the Matter Condenser set to Singularity Mode, while using a 64k component or higher.%n%nThen put the Singularity and Enderpearl Dust on the ground and use an explosion (Tiny TNT works well) to create two Quantum Entangled Singularities.%n%nQESs are each a unique pair.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ5w.desc=Quest names are hard sometimes, ok? To make a Singularity (for the Quantum Network Bridge), you'll need to dump 512,000 items into the Matter Condenser set to Singularity Mode, while using a 64k component or higher.%n%nThese singularities have a few purposes. Primarily they are used in creating quantum entangled singularities for the quantum ring, but they can also be used to create void cells and a couple other useful items.
 
 # Quest: Quantum Bridging Your Outposts
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ6A.name=Quantum Bridging Your Outposts
@@ -9656,7 +9656,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ7A.desc=The ME Fluid Auto Filler will a
 
 # Quest: Wireless 2.0
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ7g.name=Wireless 2.0
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ7g.desc=This is the good wireless terminal. It even has crafting. There's a bit of lag when you open it, but the convenience it worth it, right? You can't pull out fluids, but you can hold on to the universal one if you want.%n%nThe Magnet Card does not pull items to you. Instead, it allows you to automatically deposit them into the network. You can right-click to change the white/blacklist, or shift-right-click to change the mode.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ7g.desc=This is the good wireless terminal. It allows you to combine 6 different types of terminals into one ultimate terminal for usage on the go; Crafting, Patterning, Fluid, Essentia, Interface, & Level Emitter.%n%nIf you make the full version, it even allows you to program large fluid processing patterns without needing LuV parts to make the terminal first.%n%n[note]Recommended to set a keybind for this so you don't need to keep it in your hotbar.[/note]
 
 # Quest: Cut the Power!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ8A.name=Cut the Power!
@@ -9894,6 +9894,14 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALPQ.desc=ME Buses are combination of tec
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsg.name=AE2 Fluid Crafting
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsg.desc=Fluid crafting directly integrated in your ME system. NO WAY!%n%nAE2FC is a powerful addon that was backported for GTNH.%n%nNow, what do you need to get that juicy stuff working?%nEvery ME System needs a Fluid Discretizer. It allows for on demand crafting. While you can use AE2FC without Fluid Discretizer for moving fluids, you need a Discretizer for autocrafting.%n%nThen you also need a Fluid Terminal or a Fluid Processing Terminal for the Assembly Line.%n%nWhen creating patterns you will notice your fluids being placed as if they were items.%nYour finished patterns will look blue-ish. Placing those in a Dual Interface will allow AE2 to push the fluids and items both. Note. Fluids are being sent first, then items.%nYou can switch the dual interface on the top right if you want it to keep fluids in stock.%n%nIf you use a blue pattern (fluid pattern) in a normal interface, AE2 will send the fluid as a fluid packet. This is just a representation of the fluid as an item. A fluid decoder can turn it back into a fluid and saves it in the fluid grid.%n%nYou can use an ingredient buffer (large or normal) so your items and fluids sent by a pattern can get stored internally in one block. The normal buffer can hold 9 items and 4 fluids whereas the large one can hold 27 items and 7 fluids. It is not needed, but you can use it to automate things with item and fluid conduits.%n%nIf you want to automate single blocks it's as easy as eating chocolate cake while on a diet:%nMake the pattern, make an interface, boom- done! It will automatically insert the fluid in the fluid inventory of a single block machine.%n%nEven automating more difficult things like the Assembly Line becomes much easier with these tools.%n%nIf you need more detailed information, visit the wiki:%n%n[url]https://wiki.gtnewhorizons.com/wiki/AE2FC[/url]%n%n[note]The Extra Cells mod has been removed. Any old components and cells were converted to AE2 and AE2FC parts where possible.[/note]
 
+# Quest: Starting Your AE2 Journey
+betterquesting.quest.BKJ_IdnHR6ideLC6NnyyPg.name=§5§lStarting Your AE2 Journey
+betterquesting.quest.BKJ_IdnHR6ideLC6NnyyPg.desc=§nApplied Energistics 2 is an integral part of GTNH gameplay. %n§r%nAE2 is the primary networking and logistics management mod in GTNH for Items, Fluids, and Crafting. You will use it starting from EV and onward for most automations you perform. Given the sheer density of this modpack there are a variety of unique tools and features added specifically to aid in your adventure. Most of these tools are covered in this quest tab.%n%nThere is a lot to learn, but don't feel overburdened! Your abilities will continue to grow the more time you spend with it. There are a wide variety of helpful resources to take advantage of in addition to this book when it comes to learning:%n%n§2§2§1§b§r§21. The Wiki:§r§r§o§o §o§o§r[url]§o§o§rhttps://wiki.gtnewhorizons.com/wiki/Applied_Energistics_2[/url]%n%n§r- The Wiki has a lot of great starter information on what various systems do. They also have a lot of machine specific automation tutorials so be sure to check the Wiki if you're struggling or want a point of reference.%n%n%n§b§r§22. The Discord: §o§r[url]https://discord.gg/EXshrPV[/url]%n%n§r- The Discord is full of experienced AE2ers', check out #ae2-help to find plenty of people who will take time to help you figure something out.%n%n%n§b§r§23. Video Tutorials: §r[url]§o§rhttps://www.youtube.com/watch?v=LUYVmIAEC-I[/url]%n%n§r- There are a lot of great GTNH content creators who make high quality video tutorials for this. Here is a link to AE2 Fundamentals by IX. There's an advanced version as well.
+
+# Quest: Advanced Wireless Setup Kit
+betterquesting.quest.CbUsVtoETCy-CB3AlgHRjg.name=Advanced Wireless Setup Kit
+betterquesting.quest.CbUsVtoETCy-CB3AlgHRjg.desc=The Advanced Wireless Setup Kit is a must have for heavy wireless users. Instead of being a 1:1 back and forth it allows you to enter a "queuing mode" and a "binding mode" where you can select multiple targets at one time to bind in a row.%n%nWhen binding to connectors, the kit will bind connectors in the exact order that they were queued in. %n%nTo clear a queue and reset the kit, just shapelessly craft it into itself in your inventory.
+
 # Quest: 4096k Essentia Storage Cell
 betterquesting.quest.G5g_5_24RS6sqhmjFEbf8A.name=4096k Essentia Storage Cell
 betterquesting.quest.G5g_5_24RS6sqhmjFEbf8A.desc=These hold 8,388,608 units of essentia.%n%nAnd can hold 48 types.
@@ -9910,9 +9918,17 @@ betterquesting.quest.JejpWZ7ATZq-0uomP4c7UA.desc=Same as 1k.
 betterquesting.quest.KM9gm3HCTa2OGPWlHHl4fw.name=Hyper Acceleration!
 betterquesting.quest.KM9gm3HCTa2OGPWlHHl4fw.desc=Hyper-Acceleration cards are a faster version of the basic acceleration cards. %n%n[note]Hyper-Acceleration cards can only be placed in:[/note]%n%n§cME IO Port (3)%nME Fluid Import Bus (4)%nME Fluid Export Bus (4)%n%n§rIn an IO Port, the Hyper-Acceleration Card will transfer items at a rate of: %n%n§61x Cards: 4,096 items/tick%n2x Cards: 32,768 items/tick%n3x Cards: 262,144 items/tick%n%n§rIn ME Fluid Buses, the Hyper-Acceleration Card will transfer fluids at a rate of:%n%n§61x Cards: 4,096,000 mb/tick%n2x Cards: 32,768,000 mb/tick%n3x Cards: 262,144,000 mb/tick%n
 
+# Quest: Advanced Neutronium Tech
+betterquesting.quest.LsZndSrhSAGSi60QlbnDtg.name=Advanced Neutronium Tech
+betterquesting.quest.LsZndSrhSAGSi60QlbnDtg.desc=Now that you've unlocked the neutronium energy cell, you can combine it with other objects to make powerful upgrades to your AE capabilities.%n%nCombining with an ME controller gives you a controller with infinite energy.%n%nCombining with a cable anchor & quartz fiber gives you a replacement for the quartz fiber cable that has infinite energy.%n%nCombining with an advanced card will give you an energy card that will allow you to upgrade your wireless terminal to have infinite energy, wherever you go.%n%n[note]It is HIGHLY recommended you use these tools wherever possible on main-nets and sub-nets as they are huge TPS savers[/note]
+
 # Quest: 16384k Fluid Storage Cell
 betterquesting.quest.MJoHkNK0Ta-zKyJAvV_DBg.name=16384k Fluid Storage Cell
 betterquesting.quest.MJoHkNK0Ta-zKyJAvV_DBg.desc=It holds over 32GL.
+
+# Quest: Super Stock Replenisher
+betterquesting.quest.MPYhN1gKQ3isYpgLbtfDJA.name=Super Stock Replenisher
+betterquesting.quest.MPYhN1gKQ3isYpgLbtfDJA.desc=The Super Stock Replenisher is an incredibly useful item, especially for those pesky loop automations!%n%nTo use, put a storage cell in the empty slot (item vs fluid & type amount do not matter) and you can set up to 63 items & 9 fluids to be stocked by the machine. The total quantity of both items and fluids are determined by the byte size of the storage cell.%n%nWhen an item / fluid is stocked, it will pull it from the ME network it is attached to and those items / fluids will become invisible to your network. You can then use a storage bus to make these items visible to a subnet. Items will not be able to re-enter the block once pulled out.%n%n[note]When an item or fluid is erased from the stocker or when the stocker is broken, everything will return to the network the stocker was attached too, so no need to panic about losing items.[/note]
 
 # Quest: And Another Digital Singularity
 betterquesting.quest.O0tN--UDTlCbt5ufLodVqA.name=And Another Digital Singularity
@@ -9962,9 +9978,9 @@ betterquesting.quest.iwN50p7pSyyCHDkM-O-D7w.desc=These hold 33,554,432 units of 
 betterquesting.quest.kBjBqQR5Q-GWh4olyHmXXg.name=Going Superluminal
 betterquesting.quest.kBjBqQR5Q-GWh4olyHmXXg.desc=The Superluminal Acceleration card is the fastest AE card that you can use to transfer items or fluids.%n%n[note]Superluminal Acceleration cards can only be placed in:[/note]%n%n§cME IO Port (3)§r%n%nIn an IO Port, the Superluminal Acceleration Card will transfer items at a rate of:%n%n§61x Cards: 33,554,432 items/tick%n2x Cards: 2,147,483,648 items/tick%n3x Cards: 137,438,953,472 items/tick%n%n§rIn an IO Port, the Superluminal Acceleration Card will transfer fluids at a rate of:%n%n§61x Cards: 33,554,432,000 mb/tick%n2x Cards: 2,147,483,648,000 mb/tick%n3x Cards: 137,438,953,472,000 mb/tick%n%n
 
-# Quest: Wireless 2.5 - All in One
-betterquesting.quest.mYdFnW4UQ2WXHshmj7BH2w.name=Wireless 2.5 - All in One
-betterquesting.quest.mYdFnW4UQ2WXHshmj7BH2w.desc=By combining various wireless terminals, you can create the ultimate 7-in-1 wireless terminal.%n%n§3You can combine this with infinity booster card for unlimited range across all dimensions.
+# Quest: Fluid Void Cell
+betterquesting.quest.krGyRorETXqDuJdbU3K5tA.name=Fluid Void Cell
+betterquesting.quest.krGyRorETXqDuJdbU3K5tA.desc=[warn]Caution! Use with utmost care! This cell does exactly what it says. It deletes everything you put on there. So better make sure you have precise control over what can actually go there.[/warn]%n%n[note]Will only void fluids, not items[/note]
 
 # Quest: ...with Fluid Support!
 betterquesting.quest.mk3rQ7LUQjC96FsFvDedKA.name=§6§l...with Fluid Support!
@@ -9993,6 +10009,10 @@ betterquesting.quest.soyN9ODlQmmjrKEyKBNENA.desc=Works like stocking input bus b
 # Quest: Even More Basic Cards! 
 betterquesting.quest.suQSf7Z-QICknl3I1RfymA.name=Even More Basic Cards! 
 betterquesting.quest.suQSf7Z-QICknl3I1RfymA.desc=[quest]Overflow Void, Pattern Refiller, and Sticky Cards[/quest]%n%n§6Overflow Void Card:§r %n%nOverflow Void Cards will cause the ME Storage Cell to void excess inputs%n%n§6Pattern Refiller Card:§r %n%nThe Pattern Refiller card will refill empty patterns in your Processing and Fluid Processing Terminals.%n%n§6Sticky Card:§r %n%nSticky Cards are useful if you want your ME System to only store a filtered item in one location across your entire network. %n%n[warn]Be careful with where you use sticky cards as they can lead to your passive systems jamming. [/warn]
+
+# Quest: Wireless HUBs
+betterquesting.quest.tM8pT_W3RCqZNDAovERxFg.name=Wireless HUBs
+betterquesting.quest.tM8pT_W3RCqZNDAovERxFg.desc=The Wireless Connector also has a HUB upgrade! These Wireless HUBs can be linked to many wireless connectors at once so you won't need to spam a chunk of 1:1 connectors into one spot. Keep in mind there is still a 32 channel limitation.%n%n[note]Great for placing on controller faces![/note]
 
 # Quest: 1024k Essentia Storage Cell
 betterquesting.quest.tUJaqz9uSwajByFi4gNHzQ.name=1024k Essentia Storage Cell
@@ -14488,7 +14508,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ4A.desc=This block provides unlimited A
 
 # Quest: Wireless 3.0
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ7w.name=Wireless 3.0
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ7w.desc=This upgrade allows unlimited range. You don't even need a Wireless Access Point!%n%n[warn]Extremely buggy, unfortunately. May randomly disappear, or fall out of the terminal at any time.[/warn]%n%n[note]Many bugs were fixed. Maybe it's better now?[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ7w.desc=This upgrade allows unlimited range. You don't even need a Wireless Access Point!
 
 # Quest: Obtaining Ender Pearls
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJZA.name=§e§d§c§6§lObtaining Ender Pearls
@@ -14676,7 +14696,7 @@ betterquesting.quest.t6xRGFm_S2SG6_-xNh8mwQ.desc=After embracing the dark side y
 
 # Quest: Thaumometric Essentia Cell
 betterquesting.quest.xdiDnTdpTgW6POwCuDlPgg.name=Thaumometric Essentia Cell
-betterquesting.quest.xdiDnTdpTgW6POwCuDlPgg.desc=After meddling with the 4th Dimension, you've finally discovered a way to access its unlimited Essentia supply. The Thaumometric Essentia Cell is your tool for extracting Essentia from this boundless source—think of it as your unlimited magic credit card.%n%nUnfortunately, you must filter each type of Essentia in your Essentia Cell Workbench. If only your technology were more advanced...
+betterquesting.quest.xdiDnTdpTgW6POwCuDlPgg.desc=After meddling with the 4th Dimension, you've finally discovered a way to access its unlimited Essentia supply. The Thaumometric Essentia Cell is your tool for extracting Essentia from this boundless source—think of it as your unlimited magic credit card.
 
 
 ### Quests in no quest lines ###
