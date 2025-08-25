@@ -2,27 +2,25 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 1319
+      "questIDLow:4": 2535
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Caution! Use with utmost care! This cell does exactly what it says. It deletes everything you put on there. So better make sure you have precise control over what can actually go there.",
-      "globalShare:1": 1,
+      "desc:8": "[warn]Caution! Use with utmost care! This cell does exactly what it says. It deletes everything you put on there. So better make sure you have precise control over what can actually go there.[/warn]\n\n[note]Will only void fluids, not items[/note]",
+      "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "appliedenergistics2:item.ItemVoidStorageCell",
+        "id:8": "ae2fc:fluid_storage.void",
         "tag:10": {}
       },
-      "isGlobal:1": 0,
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "That is not storage!",
-      "partySingleReward:1": 0,
+      "name:8": "Fluid Void Cell",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -33,8 +31,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 374,
+  "questIDHigh:4": -7876318257248711302,
+  "questIDLow:4": -8955241440528385612,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -76,7 +74,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "appliedenergistics2:item.ItemVoidStorageCell",
+          "id:8": "ae2fc:fluid_storage.void",
           "tag:10": {}
         }
       },

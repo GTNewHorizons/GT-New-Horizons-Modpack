@@ -13,16 +13,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "This is the good wireless terminal. It even has crafting. There\u0027s a bit of lag when you open it, but the convenience it worth it, right? You can\u0027t pull out fluids, but you can hold on to the universal one if you want.\n\nThe Magnet Card does not pull items to you. Instead, it allows you to automatically deposit them into the network. You can right-click to change the white/blacklist, or shift-right-click to change the mode.",
+      "desc:8": "This is the good wireless terminal. It allows you to combine 6 different types of terminals into one ultimate terminal for usage on the go; Crafting, Patterning, Fluid, Essentia, Interface, \u0026 Level Emitter.\n\nIf you make the full version, it even allows you to program large fluid processing patterns without needing LuV parts to make the terminal first.\n\n[note]Recommended to set a keybind for this so you don\u0027t need to keep it in your hotbar.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "ae2wct:wirelessCraftingTerminal",
-        "tag:10": {
-          "internalCurrentPower:6": 6400000.0
-        }
+        "id:8": "ae2fc:wireless_ultra_terminal",
+        "tag:10": {}
       },
       "isMain:1": 0,
       "isSilent:1": 0,
@@ -81,14 +79,8 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "ae2wct:wirelessCraftingTerminal",
+          "id:8": "ae2fc:wireless_ultra_terminal",
           "tag:10": {}
-        },
-        "1:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "ae2wct:magnetCard"
         }
       },
       "taskID:8": "bq_standard:retrieval"
