@@ -2732,6 +2732,10 @@ betterquesting.quest.JkWQZxq_TECWjHhjywrZZA.desc=Now that you're in EV tier you 
 betterquesting.quest.Jna1jgAySNSs8nS0YMXpLw.name=§a§lEV Field Generators
 betterquesting.quest.Jna1jgAySNSs8nS0YMXpLw.desc=With Field Generators you can make your first Quantum Chests or Quantum Tanks. But the first two should be for your T2 rocket.%n%n[note]Note that the Assembler recipe is more resource efficient.[/note]
 
+# Quest: Supersized Buses
+betterquesting.quest.Mt25IP2aShSSUBhZ1GGItg.name=§b§lSupersized Buses
+betterquesting.quest.Mt25IP2aShSSUBhZ1GGItg.desc=Input and output buses not holding enough for you?%n%nUpgrade your buses to the Super bus and enjoy increased slots.%n%n[note]To get Molten Silicon Carbide without an ABS, you can make Silicon Carbide Dust in a Mixer, then smelt it and fluid extract.[/note]
+
 # Quest: EXTREME MIXING
 betterquesting.quest.kQL8JceoSMSLDU_2AFjoqw.name=§a§lEXTREME MIXING
 betterquesting.quest.kQL8JceoSMSLDU_2AFjoqw.desc=Well, maybe it's not as extreme as the quest name suggests, but it gets the job done.%n%nYou'll need one anyway so why not make one now and save some time on the mixing?
@@ -3224,10 +3228,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEA.desc=(And Gadolinium)%n%nEasy, right
 # Quest: Getting Samarium in IV
 betterquesting.quest.CW9oIeA0ShWo7euZXUx72A.name=§b§lGetting Samarium in IV
 betterquesting.quest.CW9oIeA0ShWo7euZXUx72A.desc=Mix Samarium chloride dust with Salt. Electrolyze the result and the Samarium dust will be separated out.%n%nSodium and chlorine can also be fully recovered.%n%nYou also get some additional residue. It does not have any uses currently but might be useful in the future.
-
-# Quest: Supersized Buses
-betterquesting.quest.Mt25IP2aShSSUBhZ1GGItg.name=§b§lSupersized Buses
-betterquesting.quest.Mt25IP2aShSSUBhZ1GGItg.desc=Input and output buses not holding enough for you?%n%nUpgrade your buses to the Super bus and enjoy increased slots.
 
 # Quest: The sane option
 betterquesting.quest.SIqmtgRmTj-EsZlXpCdyWQ.name=§b§lThe sane option
@@ -6612,6 +6612,10 @@ betterquesting.quest.3SzKMSj0StOAOzVmInDjZQ.desc=Start your own local brewery wi
 betterquesting.quest.6glle46JSyuwR6O4x7mLYA.name=Fits The Mold
 betterquesting.quest.6glle46JSyuwR6O4x7mLYA.desc=Making machines for every mold sounds tiring... fortunately, the Fluid Shaper multiblock can handle any number of molds by using §lSolidifier Hatches§r. This multiblock is also extendable, gaining more parallels if you add additional segments. Be sure to expand it if it's too slow!%n%n[note]The Fluid Shaper also speeds up as it is running, making it more efficient to do large batches.[/note]
 
+# Quest: T2 Maceration Stack 
+betterquesting.quest.A4rEQOAXQsaa26Ib_nzkHg.name=T2 Maceration Stack 
+betterquesting.quest.A4rEQOAXQsaa26Ib_nzkHg.desc=Upgrade your Maceration Stack by replacing all the casings with Maceration Stack Casings and then placing the Upgrade Chip into the slot in the controller.%n%nThe Tier 2 Maceration stack has 4x more parallels!
+
 # Quest: Smelt All the Things Stack-Wise...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAVQ.name=Smelt All the Things Stack-Wise...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAVQ.desc=...with this great invention! Upgrade power and coils to smelt absolutely ridiculous amounts of items.
@@ -7390,6 +7394,10 @@ betterquesting.quest.yDY1ALr9QdG8zTbEszNaMw.desc=High pressure, superheated load
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAIQ.name=Storing and Transforming EU
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAIQ.desc=You can find ways to store EU here and ways to transform between voltages.
 
+# Quest: IV 16A Hatches
+betterquesting.quest.-H2HWiVlTn-1IT2aaXhLkg.name=IV 16A Hatches
+betterquesting.quest.-H2HWiVlTn-1IT2aaXhLkg.desc=These ones do 16A.
+
 # Quest: Can we get much higher?
 betterquesting.quest.13PWs3MhTUOgkIQq8EKhaQ.name=Can we get much higher?
 betterquesting.quest.13PWs3MhTUOgkIQq8EKhaQ.desc=With the EU transfer rates!
@@ -7598,9 +7606,29 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAM3w.desc=An even more expensive capacito
 betterquesting.quest.Dif-0NSERYGdGP7j8xAzPQ.name=Wireless Power!?
 betterquesting.quest.Dif-0NSERYGdGP7j8xAzPQ.desc=Are you sick and tired of having cables all around your base? Are you tired of having to upgrade your cables constantly to handle different amperage amounts? Are you a fan of lightning bolts zapping around your base?%n%nThen this multiblock is for you, the Telsa Tower comes with high amperage output and full TecTech energy hatch support with this powerful multiblock.%n%nTo get started you will need to fill the tower with capacitors matching the tier of the Primary Tesla Windings within the capacitor bank. The Tesla Winding determines the tier of power that the tower transfers power at and the amount of capacitors determines the maximum amperage that can be output.%n%nA total of 16 capacitors can be placed into one capacitor bank so you might need many banks depending on your power needs.%n%nOnce the tower is constructed click open the controller to configure the maximum transfer distance of the tower to fit the needs of your base. The range setting is currently buggy which means that at least for now you can do so without needing any plasmas. This option is called “Tesla Towers Transfer Radius Setting”.%n%nNow that your tower is all configured how do you get power out of it to your machines? Well I am glad you asked. To get power to the machines of the base you will need to use the Tesla Coil Covers. Place them on your machines, energy hatches and even transformers to get power flowing from the tower. Energy hatches are a bit picky however and the hatch likes to be facing upwards to receive power.%n%n[warn]Warning! The Tesla Tower will output only one tier of amp such as EV, IV etc. When upgrading the Primary Tesla Windings, please make sure to check that all of your coil covers and transceivers in the base can handle the upgraded power. Failure to do so will result in a machine explosion.[/warn]%n%n[warn]Failure to turn off the controller before adjustment can also cause an explosion.[/warn]
 
+# Quest: EV 4A Hatches
+betterquesting.quest.EOlpI83vT36jaFwDH7pS7w.name=EV 4A Hatches
+betterquesting.quest.EOlpI83vT36jaFwDH7pS7w.desc=To insert and extract many amps from your LSC, make these special hatches.%n%nSome multiblocks can also accept multi-amp hatches.
+
 # Quest: Power Goggles
 betterquesting.quest.GvlZG9IESmW2qsEMw-hkIw.name=Power Goggles
 betterquesting.quest.GvlZG9IESmW2qsEMw-hkIw.desc=Wanna see how your LSC is doing but don't want to run to it or your information panel every time? Get yourself a pair of §6§oPower Goggles§r to see your energy storage straight from the HUD!%n%nBy §adefault§f§r the goggles are §cunlinked§r and will monitor the amount of energy in your wireless network.%n%nTo link the goggles to an LSC, §cRight+Click§r the controller with the goggles in your hand. §cShift+Right Click§f§r air to unlink.%n%nIf you wish to move or modify the display you can do so by opening the power goggles config menu!%n%n[warn]Make sure to check your keybinds! There's also a keybind for toggling the power chart![/warn]
+
+# Quest: EV 64A Hatches
+betterquesting.quest.M_HRDMb8Q2GnvpgfgsRnRw.name=EV 64A Hatches
+betterquesting.quest.M_HRDMb8Q2GnvpgfgsRnRw.desc=You get the idea, these ones do 64A!
+
+# Quest: IV 64A Hatches
+betterquesting.quest.UuBSfl0oRLqUL92DUyXMOw.name=IV 64A Hatches
+betterquesting.quest.UuBSfl0oRLqUL92DUyXMOw.desc=The final multi-amp hatches for IV, 64A!
+
+# Quest: IV 4A Hatches
+betterquesting.quest.crSDPHDOT1m9OXmI4mUFbQ.name=IV 4A Hatches
+betterquesting.quest.crSDPHDOT1m9OXmI4mUFbQ.desc=Same as the EV Multi-amp hatches, use these to extract and insert many amps from your LSC.
+
+# Quest: EV 16A Hatches
+betterquesting.quest.iR0UzvKrRJmM8oY2SNCZjA.name=EV 16A Hatches
+betterquesting.quest.iR0UzvKrRJmM8oY2SNCZjA.desc=These ones can extract and insert 16A.
 
 # Quest: At last, the final capacitor!
 betterquesting.quest.vrE4rYLuSnmmtAklayd6gw.name=§6§lAt last, the final capacitor!
