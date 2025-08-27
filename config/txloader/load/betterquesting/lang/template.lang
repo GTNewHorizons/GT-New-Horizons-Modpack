@@ -6768,6 +6768,10 @@ betterquesting.quest.VJN1qfd5SjCkm7CXVd9Pag.desc=Just in time for the huge numbe
 betterquesting.quest.WEwrzX4ZRkSxJ3M6cBesfA.name=Steam Blender?
 betterquesting.quest.WEwrzX4ZRkSxJ3M6cBesfA.desc=Why use fancy wiring and circuitry to blend dusts together when you can do the same thing with steam and pistons? The Steam Blender is the largest of these Steam Multiblocks and can handle your mixing needs for a while, having more parallel than an LV singleblock Mixer.%n%n[note]This Multiblock can only process recipes up to LV tier.[/note]
 
+# Quest: Steam Fusing?
+betterquesting.quest.WGhhKERfRTiJXKZEPoRf1Q.name=Steam Fusing?
+betterquesting.quest.WGhhKERfRTiJXKZEPoRf1Q.desc=Singleblock Alloy Smelters not fast enough for you? Look no further than the Steam Fuser. This will make light work of your alloy smelter tasks at a fraction of the steam cost and a much faster speed. %n(Check out the tooltip for more info!)%n%n[note]Will only process up to LV tier recipes[/note]
+
 # Quest: Taking Things Apart
 betterquesting.quest.XA467S8MQtCEPy6L23eEEA.name=Taking Things Apart
 betterquesting.quest.XA467S8MQtCEPy6L23eEEA.desc=You probably haven't thought about the extractor in a while. Is your steam extractor still collecting dust somewhere? Well, if you do find yourself needing to extract things quick, (processing industrial quantities of flowers, maybe?) pick up the Dissection Apparatus.%n%n[note]This multi gets additional parallels based on tier of item pipe casing, so use the best one you can get![/note]
