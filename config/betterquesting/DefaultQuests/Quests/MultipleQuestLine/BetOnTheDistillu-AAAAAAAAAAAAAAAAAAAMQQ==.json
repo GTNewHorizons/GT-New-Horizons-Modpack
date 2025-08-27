@@ -77,21 +77,32 @@
           "Damage:2": 31021,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 200,
+          "Damage:2": 1,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings4"
         },
         "1:10": {
           "Count:3": 1,
           "Damage:2": 32151,
           "OreDict:8": "",
           "id:8": "miscutils:MU-metaitem.01"
-        },
-        "2:10": {
-          "Count:3": 200,
-          "Damage:2": 1,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings4"
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }
