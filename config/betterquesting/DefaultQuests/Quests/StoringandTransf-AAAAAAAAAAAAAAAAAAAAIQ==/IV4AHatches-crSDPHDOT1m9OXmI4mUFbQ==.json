@@ -2,40 +2,36 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 1416
-    },
-    "1:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 3133
+      "questIDLow:4": 2830
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "IV brings forth GT++ multis, including an upgrade for the Distillation Tower, called the Dangote Distillus. In structure, it\u0027s exactly the same as the DT, but it uses a different controller that has a more complicated recipe. It needs more expensive items, and it\u0027s also locked to an IV Chemical Plant, which makes it a very expensive craft if it is the only use you have for that plant.\n\nThat said, it solves the issue of DTs being slow, and those are essentially the backbone of all of these renewable setups. How many quad DTs are you going to need for reliable IV/LuV power, I might ask? Just go for it.",
+      "desc:8": "Same as the EV Multi-amp hatches, use these to extract and insert many amps from your LSC.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 31021,
+        "Damage:2": 15100,
         "OreDict:8": "",
         "id:8": "gregtech:gt.blockmachines"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Bet On The Distillus",
-      "questLogic:8": "OR",
+      "name:8": "IV 4A Hatches",
+      "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
       "simultaneous:1": 0,
       "snd_complete:8": "random.levelup",
       "snd_update:8": "random.levelup",
-      "taskLogic:8": "AND",
+      "taskLogic:8": "OR",
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 3137,
+  "questIDHigh:4": 8265375511745548121,
+  "questIDLow:4": -4811681098047879827,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -44,21 +40,9 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 8,
-          "OreDict:8": "",
-          "id:8": "enhancedlootbags:lootbag"
-        },
-        "1:10": {
-          "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "dreamcraft:item.CoinTechnicianIII"
-        },
-        "2:10": {
-          "Count:3": 2,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinChemistIII"
         }
       }
     }
@@ -74,7 +58,7 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 31021,
+          "Damage:2": 15100,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }
@@ -90,19 +74,13 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 200,
-          "Damage:2": 1,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings4"
-        },
-        "1:10": {
           "Count:3": 1,
-          "Damage:2": 32151,
+          "Damage:2": 15200,
           "OreDict:8": "",
-          "id:8": "miscutils:MU-metaitem.01"
+          "id:8": "gregtech:gt.blockmachines"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

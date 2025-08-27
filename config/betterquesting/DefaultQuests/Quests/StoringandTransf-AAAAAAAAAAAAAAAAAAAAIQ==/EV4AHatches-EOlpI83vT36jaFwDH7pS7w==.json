@@ -1,37 +1,37 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": -6582941143421138107,
-      "questIDLow:4": -6615881702968461094
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2023
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Start your own local brewery with the BBB! You can use it to make tons of potions, obscure alcoholic drinks, or, more likely, industrial quantities of lubricant.",
+      "desc:8": "To insert and extract many amps from your LSC, make these special hatches.\n\nSome multiblocks can also accept multi-amp hatches.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 3011,
+        "Damage:2": 15109,
         "OreDict:8": "",
         "id:8": "gregtech:gt.blockmachines"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Big Beautiful Brewery",
+      "name:8": "EV 4A Hatches",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
       "simultaneous:1": 0,
       "snd_complete:8": "random.levelup",
       "snd_update:8": "random.levelup",
-      "taskLogic:8": "AND",
+      "taskLogic:8": "OR",
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": -2509408579862902061,
-  "questIDLow:4": -9206706300448087195,
+  "questIDHigh:4": 1218620776680214398,
+  "questIDLow:4": -6671981679462427921,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -39,10 +39,10 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 1,
-          "Damage:2": 6,
+          "Count:3": 2,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "enhancedlootbags:lootbag"
+          "id:8": "dreamcraft:item.CoinTechnicianII"
         }
       }
     }
@@ -58,7 +58,7 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 3011,
+          "Damage:2": 15109,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }
@@ -74,19 +74,13 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 14,
-          "Damage:2": 15,
+          "Count:3": 1,
+          "Damage:2": 15209,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings10"
-        },
-        "1:10": {
-          "Count:3": 4,
-          "Damage:2": 305,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
+          "id:8": "gregtech:gt.blockmachines"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

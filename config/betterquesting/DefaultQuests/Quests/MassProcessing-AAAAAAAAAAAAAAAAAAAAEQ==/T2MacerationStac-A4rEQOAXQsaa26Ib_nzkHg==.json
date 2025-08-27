@@ -1,25 +1,34 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": -6582941143421138107,
-      "questIDLow:4": -6615881702968461094
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1416
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1707
+    },
+    "2:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1421,
+      "type:1": 1
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Start your own local brewery with the BBB! You can use it to make tons of potions, obscure alcoholic drinks, or, more likely, industrial quantities of lubricant.",
+      "desc:8": "Upgrade your Maceration Stack by replacing all the casings with Maceration Stack Casings and then placing the Upgrade Chip into the slot in the controller.\n\nThe Tier 2 Maceration stack has 4x more parallels!",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 3011,
+        "Damage:2": 32152,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.blockmachines"
+        "id:8": "miscutils:MU-metaitem.01"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Big Beautiful Brewery",
+      "name:8": "T2 Maceration Stack ",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -30,8 +39,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": -2509408579862902061,
-  "questIDLow:4": -9206706300448087195,
+  "questIDHigh:4": 255232111816426182,
+  "questIDLow:4": -7288053330851601378,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -40,7 +49,7 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 6,
+          "Damage:2": 8,
           "OreDict:8": "",
           "id:8": "enhancedlootbags:lootbag"
         }
@@ -58,35 +67,18 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 3011,
+          "Damage:2": 32152,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "miscutils:MU-metaitem.01"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 7,
+          "OreDict:8": "",
+          "id:8": "miscutils:miscutils.blockcasings"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    },
-    "1:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 1,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 14,
-          "Damage:2": 15,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings10"
-        },
-        "1:10": {
-          "Count:3": 4,
-          "Damage:2": 305,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
-        }
-      },
-      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }
