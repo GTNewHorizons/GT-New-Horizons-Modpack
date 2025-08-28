@@ -6648,10 +6648,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjg.desc=...go round and round, all the 
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjw.name=Dancing in circles
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjw.desc=Spinning around, getting hot - sounds like a dance. Or a thermal centrifuge. Build a large thermal refinery to get the most out of your ores.%n%nYou can use Noise Hazard Signs instead of Thermal Processing Casings, as long as you have at least 8 Thermal Processing Casings.%n%nThe muffler goes on the bottom layer.
 
-# Quest: Industrial Coke Oven
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH-A.name=Industrial Coke Oven
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH-A.desc=Swimming in logs? Turn those logs into clean burning charcoal! The Industrial Coke Oven is a 3x3x3 multiblock that runs much faster than those gigangic Pyrolyse Ovens. With one of these, you can replace several of those, since it does up to 24x parallels.%n%nYou'll be able to effectively retire the Pyros from now on, unless there's some very fast recipe that they can keep up with. To turn Wood into Charcoal, for example, this ICO can keep up with an entire farm as long as you provide it enough Nitrogen for the job!
-
 # Quest: I think I'm going to be sick
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7A.name=I think I'm going to be sick
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7A.desc=The Industrial Centrifuge is the solution to those thousands of ore you'll get with the multiblock ore drill.
@@ -7967,10 +7963,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMNw.desc=Having moved another tier, you 
 # Quest: CBD Into Steam
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMOA.name=CBD Into Steam
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMOA.desc=There are no more Diesel-related upgrades for the CBD. To continue using Combustion Generators, or the LCE, you can only make your setup bigger or upgrade energy hatches. There is, however, a more power-dense fuel that uses CBD in its recipe, but there's a catch: it's a solid fuel, to be used in steam boilers, which gives it advantages and disadvantages.%n%nEverything from this quest onwards is about those solid fuels. There are two versions, one with additional inputs over the other, and they both follow the same logic: they need to be converted to Steam, which is hard to transport, convert into EU and basically require the EV and IV Large Steam Boilers. However, the combination of these fuels and those boilers is much, much more fuel efficient than before, if you are willing to face the additional challenges in this kind of setup.%n%nHow does it generally go? If you already have CBD, you can get power from it by putting it directly in Combustion Generators. In this line, though, you need to automate Fuel Binder, add blocks of Charcoal, Coal or Coal Coke and then put the Super Fuel in a Titanium or Tungstensteel Large Boiler, where you get Superheated Steam. After that, you need an HP Steam Turbine multi, followed by a regular Steam Turbine multi, and the setup is complete.%n%nIf you want to continue, then you'll need at least one Titanium Large Boiler. Build one.
-
-# Quest: Industrial Coke Oven
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMOQ.name=Industrial Coke Oven
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMOQ.desc=Your EV endeavors might push you into a GT++ multiblock, despite most of those being IV-tier. This happens because the special alloys used to put them together need to be crafted in an Alloy Blast Smelter, which is IV, but the Industrial Coke Oven (ICO) does not!%n%nWhat does it do? It's in the name, it's a really fast Coke Oven. So fast, in fact, that it can replace a few dozen Pyrolyse Ovens. It actually takes its recipes from that multi, so you also get the additional fluid, such as Charcoal Byproducts, alongside the greatly increased processing speed. The caveat is that this multi needs both Titanium and Tungsten, although only a small amount of the latter. You can get that much from processing End Stone Dust, Ender Goo or Moon Dust.%n%nYou can also choose between two types of casings. One of them does 12x parallels and the other does 24x parallels, which means the multi can do that amount of recipes at the same time per craft, if it receives enough power to do so. Since they're both quite cheap, you should use the better casings.
 
 # Quest: Mass Distilled Water
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMOg.name=Mass Distilled Water
@@ -14605,6 +14597,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAM1w.desc=Learning more about the world a
 # Quest: Precise Assembler
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEg.name=Precise Assembler
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEg.desc=Precise Assembler has two modes: Precise mode and Normal mode.%n%nPrecise mode is used to make some of the advanced components from Good Generator mod.%n%n[note]As name suggests your current casings lack precision to produce these advanced components.%nYou will need at least MK-1 casings for this mode to work.[/note]%n%nNormal mode works as multiblock version of Assembler.%n%n[note]You can't skip tiers with this. You need singleblock Assembler or GT++ multi to make your first Energy Hatch, then you can use it for Precise Assembler.[/note]
+
+# Quest: Industrial Coke Oven
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMOQ.name=Industrial Coke Oven
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMOQ.desc=Your EV endeavors might push you into a GT++ multiblock, despite most of those being IV-tier. This happens because the special alloys used to put them together need to be crafted in an Alloy Blast Smelter, which is IV, but the Industrial Coke Oven (ICO) does not!%n%nWhat does it do? It's in the name, it's a really fast Coke Oven. So fast, in fact, that it can replace a few dozen Pyrolyse Ovens. It actually takes its recipes from that multi, so you also get the additional fluid, such as Charcoal Byproducts, alongside the greatly increased processing speed. The caveat is that this multi needs Titanium, Platinum, and a little bit of Tungsten. You can get unprocessed Platinum from Nickel or Meteoric Iron & you can get Tungsten from processing End Stone Dust, Ender Goo or Moon Dust.%n%nIn EV you'll have to stick to the heat resistant casing, which offers 18 parallels. When you unlock HSS-S in IV however you can upgrade to the heat proof casings for an upgrade to 30 parallels.
 
 # Quest: Bet On The Distillus
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMQQ.name=Bet On The Distillus
