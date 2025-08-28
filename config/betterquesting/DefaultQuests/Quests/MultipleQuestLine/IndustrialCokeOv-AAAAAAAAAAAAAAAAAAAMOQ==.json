@@ -3,12 +3,16 @@
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 3127
+    },
+    "1:10": {
+      "questIDHigh:4": -4353932262274808847,
+      "questIDLow:4": -8959971444972358643
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Your EV endeavors might push you into a GT++ multiblock, despite most of those being IV-tier. This happens because the special alloys used to put them together need to be crafted in an Alloy Blast Smelter, which is IV, but the Industrial Coke Oven (ICO) does not!\n\nWhat does it do? It\u0027s in the name, it\u0027s a really fast Coke Oven. So fast, in fact, that it can replace a few dozen Pyrolyse Ovens. It actually takes its recipes from that multi, so you also get the additional fluid, such as Charcoal Byproducts, alongside the greatly increased processing speed. The caveat is that this multi needs both Titanium and Tungsten, although only a small amount of the latter. You can get that much from processing End Stone Dust, Ender Goo or Moon Dust.\n\nYou can also choose between two types of casings. One of them does 12x parallels and the other does 24x parallels, which means the multi can do that amount of recipes at the same time per craft, if it receives enough power to do so. Since they\u0027re both quite cheap, you should use the better casings.",
+      "desc:8": "Your EV endeavors might push you into a GT++ multiblock, despite most of those being IV-tier. This happens because the special alloys used to put them together need to be crafted in an Alloy Blast Smelter, which is IV, but the Industrial Coke Oven (ICO) does not!\n\nWhat does it do? It\u0027s in the name, it\u0027s a really fast Coke Oven. So fast, in fact, that it can replace a few dozen Pyrolyse Ovens. It actually takes its recipes from that multi, so you also get the additional fluid, such as Charcoal Byproducts, alongside the greatly increased processing speed. The caveat is that this multi needs Titanium, Platinum, and a little bit of Tungsten. You can get unprocessed Platinum from Nickel or Meteoric Iron \u0026 you can get Tungsten from processing End Stone Dust, Ender Goo or Moon Dust.\n\nIn EV you\u0027ll have to stick to the heat resistant casing, which offers 18 parallels. When you unlock HSS-S in IV however you can upgrade to the heat proof casings for an upgrade to 30 parallels.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -20,7 +24,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Industrial Coke Oven",
-      "questLogic:8": "AND",
+      "questLogic:8": "OR",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
       "simultaneous:1": 0,
@@ -83,18 +87,46 @@
         },
         "1:10": {
           "Count:3": 8,
-          "Damage:2": 3,
-          "OreDict:8": "",
-          "id:8": "miscutils:miscutils.blockcasings"
-        },
-        "2:10": {
-          "Count:3": 8,
           "Damage:2": 1,
           "OreDict:8": "",
           "id:8": "miscutils:miscutils.blockcasings"
         }
       },
       "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "miscutils:miscutils.blockcasings"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 3,
+          "OreDict:8": "",
+          "id:8": "miscutils:miscutils.blockcasings"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }
