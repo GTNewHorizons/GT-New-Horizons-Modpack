@@ -3057,9 +3057,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAL-Q.desc=Now to filter the leached conce
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL-g.name=§b§lThe Start of Cerium
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL-g.desc=This line will guide you through obtaining elemental cerium.%n%nFirst, react your cerium dioxide with ammonium chloride for some cerium chloride.
 
-# Quest: Compounding With Oxalate
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL-w.name=§b§lCompounding With Oxalate
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL-w.desc=Combining your cerium chloride with oxalate yields you cerium oxalate. This can then be heated (in your EBF(s), of course) to get §oanother §rcerium oxide.
+# Quest: Compounding With Oxalic Acid
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL-w.name=§b§lCompounding With Oxalic Acid
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL-w.desc=Combining your cerium chloride with oxalic acid yields you cerium oxalate. This can then be heated (in your EBF(s), of course) to get §oanother §rcerium oxide.
 
 # Quest: Monazite
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL4w.name=§b§lMonazite
@@ -3177,9 +3177,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALRA.desc=You just need to run your Ruthe
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALZg.name=§b§lEven Betterer Magnetic Rods
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALZg.desc=Like before, you're going to need better rods for your motors next tier. Build this to make your Magnetic Samarium Rods.
 
-# Quest: Oxalate
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL_A.name=§b§lOxalate
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL_A.desc=Oxalate is really only useful for cerium processing. Go ahead and make a bit.%n%nThere are a couple options for this so just look through NEI and pick whichever is most suitable for you.
+# Quest: Oxalalic Acid
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL_A.name=§b§lOxalalic Acid
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL_A.desc=Oxalic Acid is really only useful for cerium processing. Go ahead and make a bit.%n%nThere are a couple options for this so just look through NEI and pick whichever is most suitable for you.
 
 # Quest: Glowing Matter
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMBA.name=§b§lGlowing Matter
@@ -3669,7 +3669,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKew.desc=Many TecTech multis can be cust
 
 # Quest: Lasers Solve Everything
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKqg.name=Lasers Solve Everything
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKqg.desc=Laser hatches are a high-end way of sending lots of amps of power, so much in fact, that it starts at 32A. This goes 32/64/96/128/256+ and continues from there. They're also so powerful that only a few machines support them outside of the ever §owonderful§r TecTech: LSC, MBF, MVF, and PSS. Remember to paint the Laser Vacuum Pipes, the Source Hatch, and the Target Hatch. Also, Source = Output, Target = Input. Laser Vacuum Pipes do not split or bend, to turn your laser use [note]Active Transformer[/note]. Later on you can use Laser Vacuum Mirror to bend your Laser Vacuum Pipes, this will however not allow splitting.%n%n[note]Laser hatches can have their operational amperage adjusted in their GUI.[/note]%n%nLaser Converters are basically: Laser Source (on machine) -> Vacuum Pipes -> LC -> 5x output split into X amps, 32 for the first. Make sure to put it into receive mode. Or do it the other way around if you want to go up. It's basically a transformer that converts laser to/from cables. You can also use them to turn the lasers if you don't mind 3x the loss on device output (and not sending all the amps) compared to the Active Transformer (because of loss on each output). Just remember to put a battery buffer in between if you want it to work.%n%n[note]You can use the Low Power Laser Pipes if using a 'Low Power' Hatch or Converter, but keep in mind you'll need to connect them with wire cutters yourself after coloring them.[/note]%n%n[warn]Be careful with using very high amp hatches as every Laser Hatch has 1EU/s * max amps passive power loss. For example, a 256A Laser Source Hatch and 256A Laser Target Hatch will both lose 256 EU/s regardless of the amount of power flowing through.[/warn]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKqg.desc=Laser hatches are a high-end way of sending lots of amps of power, so much in fact, that it starts at 256A. This goes 1024/4096/16384+ and continues from there. They're also so powerful that only a few machines support them outside of the ever §owonderful§r TecTech: LSC, MBF, MVF, and PSS. Remember to paint the Laser Vacuum Pipes, the Source Hatch, and the Target Hatch. Also, Source = Output, Target = Input. Laser Vacuum Pipes do not split or bend, to turn your laser use [note]Active Transformer[/note]. Later on you can use Laser Vacuum Mirror to bend your Laser Vacuum Pipes, this will however not allow splitting.%n%n[note]Laser hatches can have their operational amperage adjusted in their GUI.[/note]%n%n[warn]Be careful with using very high amp hatches as every Laser Hatch has 1EU/s * max amps passive power loss. For example, a 256A Laser Source Hatch and 256A Laser Target Hatch will both lose 256 EU/s regardless of the amount of power flowing through.[/warn]
 
 # Quest: Enriched Naquadah Ingot
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALZw.name=Enriched Naquadah Ingot
@@ -6774,7 +6774,7 @@ betterquesting.quest.WEwrzX4ZRkSxJ3M6cBesfA.desc=Why use fancy wiring and circui
 
 # Quest: Steam Fusing?
 betterquesting.quest.WGhhKERfRTiJXKZEPoRf1Q.name=Steam Fusing?
-betterquesting.quest.WGhhKERfRTiJXKZEPoRf1Q.desc=Singleblock Alloy Smelters not fast enough for you? Look no further than the Steam Fuser. This will make light work of your alloy smelter tasks at a fraction of the steam cost and a much faster speed. %n(Check out the tooltip for more info!)%n%n[note]Will only process up to LV tier recipes[/note]
+betterquesting.quest.WGhhKERfRTiJXKZEPoRf1Q.desc=Singleblock Alloy Smelters not fast enough for you? Look no further than the Steam Fuser. This will make light work of your alloy smelter tasks at a fraction of the steam cost and a much faster speed. %n(Check out the tooltip for more info!)%n%nWhile the NEI requirements show borosilicate glass, you can substitute any HV tier glass in it's place like warded glass, quite clear glass, or fused quartz. If you end up using borosilicate; boron can be obtained from electrolyzing borax.%n%n[note]Will only process up to LV tier recipes[/note]
 
 # Quest: Taking Things Apart
 betterquesting.quest.XA467S8MQtCEPy6L23eEEA.name=Taking Things Apart
@@ -12252,7 +12252,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMnA.desc=The infusion altar will allow y
 
 # Quest: Terrasteel
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMnQ.name=Terrasteel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMnQ.desc=To get some advanced tools and equipment you will need some terrasteel. This is done using a dedicated machine.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMnQ.desc=To get some advanced tools and equipment you will need some terrasteel. This is done using a dedicated machine.%n%nYou'll need to layout the blocks underneath the plate as described in the Lexica Botania. Then place a spark on top of the plate nearby a mana pool with a large stockpile of mana. Lastly you'll place a mana diamond, mana pearl, and mana steel onto the plate to begin the transformation.
 
 # Quest: Alfheim
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMng.name=Alfheim
