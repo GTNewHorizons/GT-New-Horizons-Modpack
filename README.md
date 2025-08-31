@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version 2.8.0-beta-2 is out 2025-07-27
+Version 2.8.0-beta-3 is out 2025-08-31
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
