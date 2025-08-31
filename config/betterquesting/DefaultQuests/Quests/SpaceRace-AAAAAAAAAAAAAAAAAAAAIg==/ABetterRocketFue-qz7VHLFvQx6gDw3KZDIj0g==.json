@@ -1,18 +1,18 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 2684
+      "questIDHigh:4": -3372014326028549311,
+      "questIDLow:4": -8306054735867726258
     },
     "1:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 557
+      "questIDLow:4": 2684
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "If you want to go further than Mars you need a better rocket fuel. From here on out there is only one choice. The Chemical Plant is at the heart of the production. If you don\u0027t have one yet, you should have a look at it. It has 4 separate tier system and might be a bit over whelming at first, but there is a minecraft book that can tell you everything about it. Also check out the quest for the Chemical Plant in the GT++ quest tab.",
+      "desc:8": "If you want to go further than Mars you need a better rocket fuel. From here on out there is only one choice. The Chemical Plant is at the heart of the production. If you don\u0027t have one yet, you should have a look at it. It has 4 separate tiering systems and might be a bit overwhelming at first, but there is a Minecraft book that can tell you everything about it. \n\n[note]Also, check out the quest for the Chemical Plant in the [quest]Multiblock Goals[/quest] quest tab.[/note]\n\n§6If you already automated one of the upcoming rocket fuels, simply hold 32 cells of it to skip all quests leading up to it!",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,

@@ -36,7 +36,21 @@
   },
   "questIDHigh:4": 0,
   "questIDLow:4": 2690,
-  "rewards:9": {},
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 2052,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "autoConsume:1": 0,
@@ -88,11 +102,7 @@
           "id:8": "miscutils:2Ethylanthrahydroquinone"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
-    },
-    "2:10": {
-      "index:3": 2,
-      "taskID:8": "bq_standard:checkbox"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

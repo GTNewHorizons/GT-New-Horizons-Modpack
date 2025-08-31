@@ -2,24 +2,24 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 2394
+      "questIDLow:4": 827
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Mix Hydrazine and Methanol in a Titanium Chemical Plant to make Dense Hydrazine for your Tier 3 and 4 Rockets.",
+      "desc:8": "The other option is Cetane-Boosted Diesel. \n\nYou will need to mix either Diesel or Bio Diesel with Tetranitromethane. Check out the related quests in [quest]Tier 3 - HV[/quest] or [quest]Working with Oil[/quest] tabs for more information.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 0,
+        "Damage:2": 30709,
         "OreDict:8": "",
-        "id:8": "miscutils:RocketFuelMixD"
+        "id:8": "gregtech:gt.metaitem.01"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Dense Hydrazine",
+      "name:8": "Cetane Boosted Diesel",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -30,8 +30,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 2686,
+  "questIDHigh:4": -3372014326028549311,
+  "questIDLow:4": -8306054735867726258,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -40,15 +40,22 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 8,
+          "Damage:2": 30639,
           "OreDict:8": "",
-          "id:8": "enhancedlootbags:lootbag"
-        },
-        "1:10": {
+          "id:8": "gregtech:gt.metaitem.01"
+        }
+      }
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinChemistIII"
+          "id:8": "dreamcraft:item.CoinTechnicianII"
         }
       }
     }
@@ -59,37 +66,14 @@
       "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
-      "index:3": 0,
+      "index:3": 3,
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 4,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "miscutils:Hydrazine"
-        },
-        "1:10": {
-          "Count:3": 6,
-          "Damage:2": 30673,
+          "Count:3": 24,
+          "Damage:2": 30709,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"
-        }
-      },
-      "taskID:8": "bq_standard:optional_retrieval"
-    },
-    "1:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 1,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 10,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "miscutils:RocketFuelMixD"
         }
       },
       "taskID:8": "bq_standard:retrieval"
