@@ -2522,7 +2522,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAE4w.desc=The Nano Supercomputer is an IV
 
 # Quest: EV Chemical Bath
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE5A.name=§a§f§a§lEV Chemical Bath
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE5A.desc=An HV chemical bath or better is needed for the quantum eye. Better make an EV one so that you can also process Ilmenite better.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE5A.desc=An HV chemical bath or better is needed for the quantum eye. If you make an EV one you can also process Ilmenite better.
 
 # Quest: Nano Mainframe
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE7Q.name=§a§lNano Mainframe
@@ -7291,7 +7291,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALlA.desc=88 540 000 EU/t lasting 5s per 
 
 # Quest: Naquadah Based Fuel MkV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALlQ.name=Naquadah Based Fuel MkV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALlQ.desc=399 576 000 EU/t at 8s per liter. Sourcing the infinity dust and heavy radox might prove problematic until later.%n%nThe alternate recipe still requires the same amount of infinity to make the spacetime, but you get 50%% extra output for a little bit of transcendent metal.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALlQ.desc=399 576 000 EU/t at 8s per liter. Sourcing the infinity dust and heavy radox might prove problematic until later.%n%nThe alternate recipe requires mellion & creon but you get 50%% extra output for a little bit of transcendent metal.
 
 # Quest: Tier 3 Coil
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALlg.name=Tier 3 Coil
@@ -7323,7 +7323,7 @@ betterquesting.quest.K0_-BjVuR3qh_GZt19SReQ.desc=You already transcended dimensi
 
 # Quest: Naquadah Based Fuel MkVI
 betterquesting.quest.KHL_yx4XTKOtsHHZ60ZZpg.name=Naquadah Based Fuel MkVI
-betterquesting.quest.KHL_yx4XTKOtsHHZ60ZZpg.desc=2 077 795 200 EU/t at 12s per liter. A truly immense amount of power, with a hefty cost. You will need a lot of infrastructure to run the refinery, but doing so will reward you with trillions of EU/t.%n%nThe astral titanium and celestial tungsten for alternate recipe can be sourced from laser engravers or the Plasma Fuel Line.%n%nThe tritanium can be sourced using fusion reactors, or by mining in the Deep Dark.%n%nThe shirabon will require an immense amount of fusion reactors and DTPFs to sustain.%n%nAfter Eye of Harmony, white dwarf matter can be used to improve the yield for even more power.%n%nYou will also want to consider the Tachyon Rich Temporal Fluid to get the most out of the Mark VI.
+betterquesting.quest.KHL_yx4XTKOtsHHZ60ZZpg.desc=2 077 795 200 EU/t at 12s per liter. A truly immense amount of power, with a hefty cost. You will need a lot of infrastructure to run the refinery, but doing so will reward you with trillions of EU/t.%n%nThe astral titanium and celestial tungsten for alternate recipe can be sourced from laser engravers or the Plasma Fuel Line.%n%nThe tritanium can be sourced using fusion reactors, or by mining in the Deep Dark.%n%nThe shirabon will require an immense amount of fusion reactors and DTPFs to sustain.%n%nAfter Eye of Harmony, condensed raw stellar plasma can be used to improve the yield for even more power.%n%nYou will also want to consider the Tachyon Rich Temporal Fluid to get the most out of the Mark VI.
 
 # Quest: Tier 4 Coil
 betterquesting.quest.KlI9Fbh9SsK4ckVNMJqGFA.name=Tier 4 Coil
@@ -14729,6 +14729,10 @@ betterquesting.quest.xdiDnTdpTgW6POwCuDlPgg.desc=After meddling with the 4th Dim
 
 ### Quests in no quest lines ###
 
+# Quest: Trigger: Nano Boots of the Traveller Skip
+betterquesting.quest.5RrDJZBfTligyX8_wR-EDA.name=Trigger: Nano Boots of the Traveller Skip
+betterquesting.quest.5RrDJZBfTligyX8_wR-EDA.desc=
+
 # Quest: Trigger: Rocket Shuttle Skip
 betterquesting.quest.87VYEeyaTWGSnRhRwAhrLw.name=Trigger: Rocket Shuttle Skip
 betterquesting.quest.87VYEeyaTWGSnRhRwAhrLw.desc=No Description
@@ -14864,6 +14868,14 @@ betterquesting.quest.S8Z31Xp-RrSdc2A6rOvUzg.desc=No Description
 # Quest: Trigger: Rocket Tier 3 Skip
 betterquesting.quest.SjBDdQ9oT8qQAK5K64z7Jw.name=Trigger: Rocket Tier 3 Skip
 betterquesting.quest.SjBDdQ9oT8qQAK5K64z7Jw.desc=No Description
+
+# Quest: Trigger: Electric Boots of the Traveller Skip
+betterquesting.quest.SsBfuluoR5m5D-dEuoKgsg.name=Trigger: Electric Boots of the Traveller Skip
+betterquesting.quest.SsBfuluoR5m5D-dEuoKgsg.desc=
+
+# Quest: Trigger: Boots of the Traveller Skip
+betterquesting.quest.TakFzrg7Rfew3UivxIIzvw.name=Trigger: Boots of the Traveller Skip
+betterquesting.quest.TakFzrg7Rfew3UivxIIzvw.desc=
 
 # Quest: Trigger: Rocket Tier 4 Skip
 betterquesting.quest.ThhwoFJASzGjsSjyGqCROQ.name=Trigger: Rocket Tier 4 Skip
