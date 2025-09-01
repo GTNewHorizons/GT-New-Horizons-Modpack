@@ -2522,7 +2522,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAE4w.desc=The Nano Supercomputer is an IV
 
 # Quest: EV Chemical Bath
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE5A.name=§a§f§a§lEV Chemical Bath
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE5A.desc=An HV chemical bath or better is needed for the quantum eye. Better make an EV one so that you can also process Ilmenite better.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE5A.desc=An HV chemical bath or better is needed for the quantum eye. If you make an EV one you can also process Ilmenite better.
 
 # Quest: Nano Mainframe
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE7Q.name=§a§lNano Mainframe
@@ -2731,6 +2731,10 @@ betterquesting.quest.JkWQZxq_TECWjHhjywrZZA.desc=Now that you're in EV tier you 
 # Quest: EV Field Generators
 betterquesting.quest.Jna1jgAySNSs8nS0YMXpLw.name=§a§lEV Field Generators
 betterquesting.quest.Jna1jgAySNSs8nS0YMXpLw.desc=With Field Generators you can make your first Quantum Chests or Quantum Tanks. But the first two should be for your T2 rocket.%n%n[note]Note that the Assembler recipe is more resource efficient.[/note]
+
+# Quest: Supersized Buses
+betterquesting.quest.Mt25IP2aShSSUBhZ1GGItg.name=§b§lSupersized Buses
+betterquesting.quest.Mt25IP2aShSSUBhZ1GGItg.desc=Input and output buses not holding enough for you?%n%nUpgrade your buses to the Super bus and enjoy increased slots.%n%n[note]To get Molten Silicon Carbide without an ABS, you can make Silicon Carbide Dust in a Mixer, then smelt it and fluid extract.[/note]
 
 # Quest: EXTREME MIXING
 betterquesting.quest.kQL8JceoSMSLDU_2AFjoqw.name=§a§lEXTREME MIXING
@@ -3053,9 +3057,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAL-Q.desc=Now to filter the leached conce
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL-g.name=§b§lThe Start of Cerium
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL-g.desc=This line will guide you through obtaining elemental cerium.%n%nFirst, react your cerium dioxide with ammonium chloride for some cerium chloride.
 
-# Quest: Compounding With Oxalate
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL-w.name=§b§lCompounding With Oxalate
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL-w.desc=Combining your cerium chloride with oxalate yields you cerium oxalate. This can then be heated (in your EBF(s), of course) to get §oanother §rcerium oxide.
+# Quest: Compounding With Oxalic Acid
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL-w.name=§b§lCompounding With Oxalic Acid
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL-w.desc=Combining your cerium chloride with oxalic acid yields you cerium oxalate. This can then be heated (in your EBF(s), of course) to get §oanother §rcerium oxide.
 
 # Quest: Monazite
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL4w.name=§b§lMonazite
@@ -3173,9 +3177,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALRA.desc=You just need to run your Ruthe
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALZg.name=§b§lEven Betterer Magnetic Rods
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALZg.desc=Like before, you're going to need better rods for your motors next tier. Build this to make your Magnetic Samarium Rods.
 
-# Quest: Oxalate
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL_A.name=§b§lOxalate
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL_A.desc=Oxalate is really only useful for cerium processing. Go ahead and make a bit.%n%nThere are a couple options for this so just look through NEI and pick whichever is most suitable for you.
+# Quest: Oxalalic Acid
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL_A.name=§b§lOxalalic Acid
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL_A.desc=Oxalic Acid is really only useful for cerium processing. Go ahead and make a bit.%n%nThere are a couple options for this so just look through NEI and pick whichever is most suitable for you.
 
 # Quest: Glowing Matter
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMBA.name=§b§lGlowing Matter
@@ -3224,10 +3228,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEA.desc=(And Gadolinium)%n%nEasy, right
 # Quest: Getting Samarium in IV
 betterquesting.quest.CW9oIeA0ShWo7euZXUx72A.name=§b§lGetting Samarium in IV
 betterquesting.quest.CW9oIeA0ShWo7euZXUx72A.desc=Mix Samarium chloride dust with Salt. Electrolyze the result and the Samarium dust will be separated out.%n%nSodium and chlorine can also be fully recovered.%n%nYou also get some additional residue. It does not have any uses currently but might be useful in the future.
-
-# Quest: Supersized Buses
-betterquesting.quest.Mt25IP2aShSSUBhZ1GGItg.name=§b§lSupersized Buses
-betterquesting.quest.Mt25IP2aShSSUBhZ1GGItg.desc=Input and output buses not holding enough for you?%n%nUpgrade your buses to the Super bus and enjoy increased slots.
 
 # Quest: The sane option
 betterquesting.quest.SIqmtgRmTj-EsZlXpCdyWQ.name=§b§lThe sane option
@@ -3669,7 +3669,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKew.desc=Many TecTech multis can be cust
 
 # Quest: Lasers Solve Everything
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKqg.name=Lasers Solve Everything
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKqg.desc=Laser hatches are a high-end way of sending lots of amps of power, so much in fact, that it starts at 32A. This goes 32/64/96/128/256+ and continues from there. They're also so powerful that only a few machines support them outside of the ever §owonderful§r TecTech: LSC, MBF, MVF, and PSS. Remember to paint the Laser Vacuum Pipes, the Source Hatch, and the Target Hatch. Also, Source = Output, Target = Input. Laser Vacuum Pipes do not split or bend, to turn your laser use [note]Active Transformer[/note]. Later on you can use Laser Vacuum Mirror to bend your Laser Vacuum Pipes, this will however not allow splitting.%n%n[note]Laser hatches can have their operational amperage adjusted in their GUI.[/note]%n%nLaser Converters are basically: Laser Source (on machine) -> Vacuum Pipes -> LC -> 5x output split into X amps, 32 for the first. Make sure to put it into receive mode. Or do it the other way around if you want to go up. It's basically a transformer that converts laser to/from cables. You can also use them to turn the lasers if you don't mind 3x the loss on device output (and not sending all the amps) compared to the Active Transformer (because of loss on each output). Just remember to put a battery buffer in between if you want it to work.%n%n[note]You can use the Low Power Laser Pipes if using a 'Low Power' Hatch or Converter, but keep in mind you'll need to connect them with wire cutters yourself after coloring them.[/note]%n%n[warn]Be careful with using very high amp hatches as every Laser Hatch has 1EU/s * max amps passive power loss. For example, a 256A Laser Source Hatch and 256A Laser Target Hatch will both lose 256 EU/s regardless of the amount of power flowing through.[/warn]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKqg.desc=Laser hatches are a high-end way of sending lots of amps of power, so much in fact, that it starts at 256A. This goes 1024/4096/16384+ and continues from there. They're also so powerful that only a few machines support them outside of the ever §owonderful§r TecTech: LSC, MBF, MVF, and PSS. Remember to paint the Laser Vacuum Pipes, the Source Hatch, and the Target Hatch. Also, Source = Output, Target = Input. Laser Vacuum Pipes do not split or bend, to turn your laser use [note]Active Transformer[/note]. Later on you can use Laser Vacuum Mirror to bend your Laser Vacuum Pipes, this will however not allow splitting.%n%n[note]Laser hatches can have their operational amperage adjusted in their GUI.[/note]%n%n[warn]Be careful with using very high amp hatches as every Laser Hatch has 1EU/s * max amps passive power loss. For example, a 256A Laser Source Hatch and 256A Laser Target Hatch will both lose 256 EU/s regardless of the amount of power flowing through.[/warn]
 
 # Quest: Enriched Naquadah Ingot
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALZw.name=Enriched Naquadah Ingot
@@ -6612,6 +6612,10 @@ betterquesting.quest.3SzKMSj0StOAOzVmInDjZQ.desc=Start your own local brewery wi
 betterquesting.quest.6glle46JSyuwR6O4x7mLYA.name=Fits The Mold
 betterquesting.quest.6glle46JSyuwR6O4x7mLYA.desc=Making machines for every mold sounds tiring... fortunately, the Fluid Shaper multiblock can handle any number of molds by using §lSolidifier Hatches§r. This multiblock is also extendable, gaining more parallels if you add additional segments. Be sure to expand it if it's too slow!%n%n[note]The Fluid Shaper also speeds up as it is running, making it more efficient to do large batches.[/note]
 
+# Quest: T2 Maceration Stack 
+betterquesting.quest.A4rEQOAXQsaa26Ib_nzkHg.name=T2 Maceration Stack 
+betterquesting.quest.A4rEQOAXQsaa26Ib_nzkHg.desc=Upgrade your Maceration Stack by replacing all the casings with Maceration Stack Casings and then placing the Upgrade Chip into the slot in the controller.%n%nThe Tier 2 Maceration stack has 4x more parallels!
+
 # Quest: Smelt All the Things Stack-Wise...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAVQ.name=Smelt All the Things Stack-Wise...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAVQ.desc=...with this great invention! Upgrade power and coils to smelt absolutely ridiculous amounts of items.
@@ -6643,10 +6647,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjg.desc=...go round and round, all the 
 # Quest: Dancing in circles
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjw.name=Dancing in circles
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjw.desc=Spinning around, getting hot - sounds like a dance. Or a thermal centrifuge. Build a large thermal refinery to get the most out of your ores.%n%nYou can use Noise Hazard Signs instead of Thermal Processing Casings, as long as you have at least 8 Thermal Processing Casings.%n%nThe muffler goes on the bottom layer.
-
-# Quest: Industrial Coke Oven
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH-A.name=Industrial Coke Oven
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH-A.desc=Swimming in logs? Turn those logs into clean burning charcoal! The Industrial Coke Oven is a 3x3x3 multiblock that runs much faster than those gigangic Pyrolyse Ovens. With one of these, you can replace several of those, since it does up to 24x parallels.%n%nYou'll be able to effectively retire the Pyros from now on, unless there's some very fast recipe that they can keep up with. To turn Wood into Charcoal, for example, this ICO can keep up with an entire farm as long as you provide it enough Nitrogen for the job!
 
 # Quest: I think I'm going to be sick
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7A.name=I think I'm going to be sick
@@ -6770,7 +6770,7 @@ betterquesting.quest.WEwrzX4ZRkSxJ3M6cBesfA.desc=Why use fancy wiring and circui
 
 # Quest: Steam Fusing?
 betterquesting.quest.WGhhKERfRTiJXKZEPoRf1Q.name=Steam Fusing?
-betterquesting.quest.WGhhKERfRTiJXKZEPoRf1Q.desc=Singleblock Alloy Smelters not fast enough for you? Look no further than the Steam Fuser. This will make light work of your alloy smelter tasks at a fraction of the steam cost and a much faster speed. %n(Check out the tooltip for more info!)%n%n[note]Will only process up to LV tier recipes[/note]
+betterquesting.quest.WGhhKERfRTiJXKZEPoRf1Q.desc=Singleblock Alloy Smelters not fast enough for you? Look no further than the Steam Fuser. This will make light work of your alloy smelter tasks at a fraction of the steam cost and a much faster speed. %n(Check out the tooltip for more info!)%n%nWhile the NEI requirements show borosilicate glass, you can substitute any HV tier glass in it's place like warded glass, quite clear glass, or fused quartz. If you end up using borosilicate; boron can be obtained from electrolyzing borax.%n%n[note]Will only process up to LV tier recipes[/note]
 
 # Quest: Taking Things Apart
 betterquesting.quest.XA467S8MQtCEPy6L23eEEA.name=Taking Things Apart
@@ -7291,7 +7291,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALlA.desc=88 540 000 EU/t lasting 5s per 
 
 # Quest: Naquadah Based Fuel MkV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALlQ.name=Naquadah Based Fuel MkV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALlQ.desc=399 576 000 EU/t at 8s per liter. Sourcing the infinity dust and heavy radox might prove problematic until later.%n%nThe alternate recipe still requires the same amount of infinity to make the spacetime, but you get 50%% extra output for a little bit of transcendent metal.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALlQ.desc=399 576 000 EU/t at 8s per liter. Sourcing the infinity dust and heavy radox might prove problematic until later.%n%nThe alternate recipe requires mellion & creon but you get 50%% extra output for a little bit of transcendent metal.
 
 # Quest: Tier 3 Coil
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALlg.name=Tier 3 Coil
@@ -7323,7 +7323,7 @@ betterquesting.quest.K0_-BjVuR3qh_GZt19SReQ.desc=You already transcended dimensi
 
 # Quest: Naquadah Based Fuel MkVI
 betterquesting.quest.KHL_yx4XTKOtsHHZ60ZZpg.name=Naquadah Based Fuel MkVI
-betterquesting.quest.KHL_yx4XTKOtsHHZ60ZZpg.desc=2 077 795 200 EU/t at 12s per liter. A truly immense amount of power, with a hefty cost. You will need a lot of infrastructure to run the refinery, but doing so will reward you with trillions of EU/t.%n%nThe astral titanium and celestial tungsten for alternate recipe can be sourced from laser engravers or the Plasma Fuel Line.%n%nThe tritanium can be sourced using fusion reactors, or by mining in the Deep Dark.%n%nThe shirabon will require an immense amount of fusion reactors and DTPFs to sustain.%n%nAfter Eye of Harmony, white dwarf matter can be used to improve the yield for even more power.%n%nYou will also want to consider the Tachyon Rich Temporal Fluid to get the most out of the Mark VI.
+betterquesting.quest.KHL_yx4XTKOtsHHZ60ZZpg.desc=2 077 795 200 EU/t at 12s per liter. A truly immense amount of power, with a hefty cost. You will need a lot of infrastructure to run the refinery, but doing so will reward you with trillions of EU/t.%n%nThe astral titanium and celestial tungsten for alternate recipe can be sourced from laser engravers or the Plasma Fuel Line.%n%nThe tritanium can be sourced using fusion reactors, or by mining in the Deep Dark.%n%nThe shirabon will require an immense amount of fusion reactors and DTPFs to sustain.%n%nAfter Eye of Harmony, condensed raw stellar plasma can be used to improve the yield for even more power.%n%nYou will also want to consider the Tachyon Rich Temporal Fluid to get the most out of the Mark VI.
 
 # Quest: Tier 4 Coil
 betterquesting.quest.KlI9Fbh9SsK4ckVNMJqGFA.name=Tier 4 Coil
@@ -7389,6 +7389,10 @@ betterquesting.quest.yDY1ALr9QdG8zTbEszNaMw.desc=High pressure, superheated load
 ## Quest Line: Storing and Transforming EU
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAIQ.name=Storing and Transforming EU
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAIQ.desc=You can find ways to store EU here and ways to transform between voltages.
+
+# Quest: IV 16A Hatches
+betterquesting.quest.-H2HWiVlTn-1IT2aaXhLkg.name=IV 16A Hatches
+betterquesting.quest.-H2HWiVlTn-1IT2aaXhLkg.desc=These ones do 16A.
 
 # Quest: Can we get much higher?
 betterquesting.quest.13PWs3MhTUOgkIQq8EKhaQ.name=Can we get much higher?
@@ -7598,9 +7602,29 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAM3w.desc=An even more expensive capacito
 betterquesting.quest.Dif-0NSERYGdGP7j8xAzPQ.name=Wireless Power!?
 betterquesting.quest.Dif-0NSERYGdGP7j8xAzPQ.desc=Are you sick and tired of having cables all around your base? Are you tired of having to upgrade your cables constantly to handle different amperage amounts? Are you a fan of lightning bolts zapping around your base?%n%nThen this multiblock is for you, the Telsa Tower comes with high amperage output and full TecTech energy hatch support with this powerful multiblock.%n%nTo get started you will need to fill the tower with capacitors matching the tier of the Primary Tesla Windings within the capacitor bank. The Tesla Winding determines the tier of power that the tower transfers power at and the amount of capacitors determines the maximum amperage that can be output.%n%nA total of 16 capacitors can be placed into one capacitor bank so you might need many banks depending on your power needs.%n%nOnce the tower is constructed click open the controller to configure the maximum transfer distance of the tower to fit the needs of your base. The range setting is currently buggy which means that at least for now you can do so without needing any plasmas. This option is called “Tesla Towers Transfer Radius Setting”.%n%nNow that your tower is all configured how do you get power out of it to your machines? Well I am glad you asked. To get power to the machines of the base you will need to use the Tesla Coil Covers. Place them on your machines, energy hatches and even transformers to get power flowing from the tower. Energy hatches are a bit picky however and the hatch likes to be facing upwards to receive power.%n%n[warn]Warning! The Tesla Tower will output only one tier of amp such as EV, IV etc. When upgrading the Primary Tesla Windings, please make sure to check that all of your coil covers and transceivers in the base can handle the upgraded power. Failure to do so will result in a machine explosion.[/warn]%n%n[warn]Failure to turn off the controller before adjustment can also cause an explosion.[/warn]
 
+# Quest: EV 4A Hatches
+betterquesting.quest.EOlpI83vT36jaFwDH7pS7w.name=EV 4A Hatches
+betterquesting.quest.EOlpI83vT36jaFwDH7pS7w.desc=To insert and extract many amps from your LSC, make these special hatches.%n%nSome multiblocks can also accept multi-amp hatches.
+
 # Quest: Power Goggles
 betterquesting.quest.GvlZG9IESmW2qsEMw-hkIw.name=Power Goggles
 betterquesting.quest.GvlZG9IESmW2qsEMw-hkIw.desc=Wanna see how your LSC is doing but don't want to run to it or your information panel every time? Get yourself a pair of §6§oPower Goggles§r to see your energy storage straight from the HUD!%n%nBy §adefault§f§r the goggles are §cunlinked§r and will monitor the amount of energy in your wireless network.%n%nTo link the goggles to an LSC, §cRight+Click§r the controller with the goggles in your hand. §cShift+Right Click§f§r air to unlink.%n%nIf you wish to move or modify the display you can do so by opening the power goggles config menu!%n%n[warn]Make sure to check your keybinds! There's also a keybind for toggling the power chart![/warn]
+
+# Quest: EV 64A Hatches
+betterquesting.quest.M_HRDMb8Q2GnvpgfgsRnRw.name=EV 64A Hatches
+betterquesting.quest.M_HRDMb8Q2GnvpgfgsRnRw.desc=You get the idea, these ones do 64A!
+
+# Quest: IV 64A Hatches
+betterquesting.quest.UuBSfl0oRLqUL92DUyXMOw.name=IV 64A Hatches
+betterquesting.quest.UuBSfl0oRLqUL92DUyXMOw.desc=The final multi-amp hatches for IV, 64A!
+
+# Quest: IV 4A Hatches
+betterquesting.quest.crSDPHDOT1m9OXmI4mUFbQ.name=IV 4A Hatches
+betterquesting.quest.crSDPHDOT1m9OXmI4mUFbQ.desc=Same as the EV Multi-amp hatches, use these to extract and insert many amps from your LSC.
+
+# Quest: EV 16A Hatches
+betterquesting.quest.iR0UzvKrRJmM8oY2SNCZjA.name=EV 16A Hatches
+betterquesting.quest.iR0UzvKrRJmM8oY2SNCZjA.desc=These ones can extract and insert 16A.
 
 # Quest: At last, the final capacitor!
 betterquesting.quest.vrE4rYLuSnmmtAklayd6gw.name=§6§lAt last, the final capacitor!
@@ -7939,10 +7963,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMNw.desc=Having moved another tier, you 
 # Quest: CBD Into Steam
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMOA.name=CBD Into Steam
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMOA.desc=There are no more Diesel-related upgrades for the CBD. To continue using Combustion Generators, or the LCE, you can only make your setup bigger or upgrade energy hatches. There is, however, a more power-dense fuel that uses CBD in its recipe, but there's a catch: it's a solid fuel, to be used in steam boilers, which gives it advantages and disadvantages.%n%nEverything from this quest onwards is about those solid fuels. There are two versions, one with additional inputs over the other, and they both follow the same logic: they need to be converted to Steam, which is hard to transport, convert into EU and basically require the EV and IV Large Steam Boilers. However, the combination of these fuels and those boilers is much, much more fuel efficient than before, if you are willing to face the additional challenges in this kind of setup.%n%nHow does it generally go? If you already have CBD, you can get power from it by putting it directly in Combustion Generators. In this line, though, you need to automate Fuel Binder, add blocks of Charcoal, Coal or Coal Coke and then put the Super Fuel in a Titanium or Tungstensteel Large Boiler, where you get Superheated Steam. After that, you need an HP Steam Turbine multi, followed by a regular Steam Turbine multi, and the setup is complete.%n%nIf you want to continue, then you'll need at least one Titanium Large Boiler. Build one.
-
-# Quest: Industrial Coke Oven
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMOQ.name=Industrial Coke Oven
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMOQ.desc=Your EV endeavors might push you into a GT++ multiblock, despite most of those being IV-tier. This happens because the special alloys used to put them together need to be crafted in an Alloy Blast Smelter, which is IV, but the Industrial Coke Oven (ICO) does not!%n%nWhat does it do? It's in the name, it's a really fast Coke Oven. So fast, in fact, that it can replace a few dozen Pyrolyse Ovens. It actually takes its recipes from that multi, so you also get the additional fluid, such as Charcoal Byproducts, alongside the greatly increased processing speed. The caveat is that this multi needs both Titanium and Tungsten, although only a small amount of the latter. You can get that much from processing End Stone Dust, Ender Goo or Moon Dust.%n%nYou can also choose between two types of casings. One of them does 12x parallels and the other does 24x parallels, which means the multi can do that amount of recipes at the same time per craft, if it receives enough power to do so. Since they're both quite cheap, you should use the better casings.
 
 # Quest: Mass Distilled Water
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMOg.name=Mass Distilled Water
@@ -12224,7 +12244,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMnA.desc=The infusion altar will allow y
 
 # Quest: Terrasteel
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMnQ.name=Terrasteel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMnQ.desc=To get some advanced tools and equipment you will need some terrasteel. This is done using a dedicated machine.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMnQ.desc=To get some advanced tools and equipment you will need some terrasteel. This is done using a dedicated machine.%n%nYou'll need to layout the blocks underneath the plate as described in the Lexica Botania. Then place a spark on top of the plate nearby a mana pool with a large stockpile of mana. Lastly you'll place a mana diamond, mana pearl, and mana steel onto the plate to begin the transformation.
 
 # Quest: Alfheim
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMng.name=Alfheim
@@ -13229,8 +13249,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALEQ.desc=Christmas is canceled this year
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALEg.name=Time to Kill (Wild Boar)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALEg.desc=Delicious roasted wild boar. Mmm... very tasty.
 
-# Quest: Time to Kill (Rabbit)
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALEw.name=Time to Kill (Rabbit)
+# Quest: Time to Kill (Forest Bunny)
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALEw.name=Time to Kill (Forest Bunny)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALEw.desc=Oh, how cute this little rabbit is. Pow! .... oh it's dead?
 
 # Quest: Time to Kill (Raven)
@@ -13296,6 +13316,26 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALJQ.desc=They are highly explosive and m
 # Quest: Time to Kill (Imp)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALJg.name=Time to Kill (Imp)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALJg.desc=Imps are little orange creatures who run through the whole nether. They are peaceful and they won't attack you either.%n%nKill a few to get their leather and build fireproof armor.
+
+# Quest: Time to Kill (Shulker)
+betterquesting.quest.PpBmbfhnSGqI7R_Mm_vJGw.name=Time to Kill (Shulker)
+betterquesting.quest.PpBmbfhnSGqI7R_Mm_vJGw.desc=The Shulker doesn't spawn naturally so you will need to obtain it's spawn egg to complete this quest. You can do so in the coins tab or through crafting.
+
+# Quest: Time to Kill (Rabbit)
+betterquesting.quest.UfPfIUITQrG1E1G33eQ__g.name=Time to Kill (Rabbit)
+betterquesting.quest.UfPfIUITQrG1E1G33eQ__g.desc=It's a shame to kill something so adorable... oh well, do it anyway.
+
+# Quest: Time to Kill (Husk)
+betterquesting.quest.Wz1LEV9eQomLVXDpK18ysQ.name=Time to Kill (Husk)
+betterquesting.quest.Wz1LEV9eQomLVXDpK18ysQ.desc=A Husk is a variant of Zombie that spawns in deserts! They attack like Zombies, except they inflict hunger and refuse to burn in the sunlight.
+
+# Quest: Time to Kill (Fox)
+betterquesting.quest.aZbgSe36TnSB3O4ZwkSlJw.name=Time to Kill (Fox)
+betterquesting.quest.aZbgSe36TnSB3O4ZwkSlJw.desc=The Fox can be found in colder biomes. Make sure you're properly equip to hunt, they're quite quick!
+
+# Quest: Time to Kill (Stray)
+betterquesting.quest.z6Xaal6yTVi4fqEFCChoGg.name=Time to Kill (Stray)
+betterquesting.quest.z6Xaal6yTVi4fqEFCChoGg.desc=The Stray is a variety of Skeleton you will find in colder biomes. Watch out for their arrows; they can have special effects!
 
 
 ## Quest Line: Coins, Coins, Coins
@@ -14578,6 +14618,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAM1w.desc=Learning more about the world a
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEg.name=Precise Assembler
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEg.desc=Precise Assembler has two modes: Precise mode and Normal mode.%n%nPrecise mode is used to make some of the advanced components from Good Generator mod.%n%n[note]As name suggests your current casings lack precision to produce these advanced components.%nYou will need at least MK-1 casings for this mode to work.[/note]%n%nNormal mode works as multiblock version of Assembler.%n%n[note]You can't skip tiers with this. You need singleblock Assembler or GT++ multi to make your first Energy Hatch, then you can use it for Precise Assembler.[/note]
 
+# Quest: Industrial Coke Oven
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMOQ.name=Industrial Coke Oven
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMOQ.desc=Your EV endeavors might push you into a GT++ multiblock, despite most of those being IV-tier. This happens because the special alloys used to put them together need to be crafted in an Alloy Blast Smelter, which is IV, but the Industrial Coke Oven (ICO) does not!%n%nWhat does it do? It's in the name, it's a really fast Coke Oven. So fast, in fact, that it can replace a few dozen Pyrolyse Ovens. It actually takes its recipes from that multi, so you also get the additional fluid, such as Charcoal Byproducts, alongside the greatly increased processing speed. The caveat is that this multi needs Titanium, Platinum, and a little bit of Tungsten. You can get unprocessed Platinum from Nickel or Meteoric Iron & you can get Tungsten from processing End Stone Dust, Ender Goo or Moon Dust.%n%nIn EV you'll have to stick to the heat resistant casing, which offers 18 parallels. When you unlock HSS-S in IV however you can upgrade to the heat proof casings for an upgrade to 30 parallels.
+
 # Quest: Bet On The Distillus
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMQQ.name=Bet On The Distillus
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMQQ.desc=IV brings forth GT++ multis, including an upgrade for the Distillation Tower, called the Dangote Distillus. In structure, it's exactly the same as the DT, but it uses a different controller that has a more complicated recipe. It needs more expensive items, and it's also locked to an IV Chemical Plant, which makes it a very expensive craft if it is the only use you have for that plant.%n%nThat said, it solves the issue of DTs being slow, and those are essentially the backbone of all of these renewable setups. How many quad DTs are you going to need for reliable IV/LuV power, I might ask? Just go for it.
@@ -14704,6 +14748,10 @@ betterquesting.quest.xdiDnTdpTgW6POwCuDlPgg.desc=After meddling with the 4th Dim
 
 
 ### Quests in no quest lines ###
+
+# Quest: Trigger: Nano Boots of the Traveller Skip
+betterquesting.quest.5RrDJZBfTligyX8_wR-EDA.name=Trigger: Nano Boots of the Traveller Skip
+betterquesting.quest.5RrDJZBfTligyX8_wR-EDA.desc=
 
 # Quest: Trigger: Rocket Shuttle Skip
 betterquesting.quest.87VYEeyaTWGSnRhRwAhrLw.name=Trigger: Rocket Shuttle Skip
@@ -14840,6 +14888,14 @@ betterquesting.quest.S8Z31Xp-RrSdc2A6rOvUzg.desc=No Description
 # Quest: Trigger: Rocket Tier 3 Skip
 betterquesting.quest.SjBDdQ9oT8qQAK5K64z7Jw.name=Trigger: Rocket Tier 3 Skip
 betterquesting.quest.SjBDdQ9oT8qQAK5K64z7Jw.desc=No Description
+
+# Quest: Trigger: Electric Boots of the Traveller Skip
+betterquesting.quest.SsBfuluoR5m5D-dEuoKgsg.name=Trigger: Electric Boots of the Traveller Skip
+betterquesting.quest.SsBfuluoR5m5D-dEuoKgsg.desc=
+
+# Quest: Trigger: Boots of the Traveller Skip
+betterquesting.quest.TakFzrg7Rfew3UivxIIzvw.name=Trigger: Boots of the Traveller Skip
+betterquesting.quest.TakFzrg7Rfew3UivxIIzvw.desc=
 
 # Quest: Trigger: Rocket Tier 4 Skip
 betterquesting.quest.ThhwoFJASzGjsSjyGqCROQ.name=Trigger: Rocket Tier 4 Skip
