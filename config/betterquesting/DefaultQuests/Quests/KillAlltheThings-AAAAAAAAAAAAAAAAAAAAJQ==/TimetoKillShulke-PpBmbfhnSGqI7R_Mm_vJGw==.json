@@ -47,6 +47,12 @@
           "Damage:2": 2,
           "OreDict:8": "",
           "id:8": "betterquesting:extra_life"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "etfuturum:shulker_shell"
         }
       }
     },
