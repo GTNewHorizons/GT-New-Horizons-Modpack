@@ -6,7 +6,7 @@
     },
     "1:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 2310
+      "questIDLow:4": 2878
     }
   },
   "properties:10": {
@@ -23,7 +23,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "2-Ethylanthrahydroquinone",
+      "name:8": "§9§l2-Ethylanthrahydroquinone",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
