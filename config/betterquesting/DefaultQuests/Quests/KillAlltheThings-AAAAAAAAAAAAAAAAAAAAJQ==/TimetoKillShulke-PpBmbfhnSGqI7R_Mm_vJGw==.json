@@ -21,7 +21,7 @@
       "lockedProgress:1": 0,
       "name:8": "Time to Kill (Shulker)",
       "questLogic:8": "AND",
-      "repeatTime:3": -1,
+      "repeatTime:3": 432000,
       "repeat_relative:1": 1,
       "simultaneous:1": 0,
       "snd_complete:8": "random.levelup",
@@ -32,7 +32,27 @@
   },
   "questIDHigh:4": 4508215849502853226,
   "questIDLow:4": -8580166751420167909,
-  "rewards:9": {},
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "betterquesting:extra_life"
+        }
+      }
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {}
+    }
+  },
   "tasks:9": {
     "0:10": {
       "damageType:8": "",
