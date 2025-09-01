@@ -2,28 +2,26 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 225
+      "questIDLow:4": 11
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Oh, how cute this little rabbit is. Pow! .... oh it\u0027s dead?",
-      "globalShare:1": 1,
+      "desc:8": "No Description",
+      "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 0,
+        "Damage:2": 502,
         "OreDict:8": "",
-        "id:8": "harvestcraft:rabbitrawItem"
+        "id:8": "minecraft:spawn_egg"
       },
-      "isGlobal:1": 0,
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Time to Kill (Rabbit)",
-      "partySingleReward:1": 0,
+      "name:8": "Time to Kill (Husk)",
       "questLogic:8": "AND",
-      "repeatTime:3": 432000,
+      "repeatTime:3": -1,
       "repeat_relative:1": 1,
       "simultaneous:1": 0,
       "snd_complete:8": "random.levelup",
@@ -32,108 +30,70 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 2835,
-  "rewards:9": {
-    "0:10": {
-      "ignoreDisabled:1": 0,
-      "index:3": 0,
-      "rewardID:8": "bq_standard:item",
-      "rewards:9": {
-        "0:10": {
-          "Count:3": 1,
-          "Damage:2": 2,
-          "OreDict:8": "",
-          "id:8": "betterquesting:extra_life"
-        },
-        "1:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "Thaumcraft:ItemLootBag"
-        }
-      }
-    },
-    "1:10": {
-      "ignoreDisabled:1": 0,
-      "index:3": 1,
-      "rewardID:8": "bq_standard:item",
-      "rewards:9": {
-        "0:10": {
-          "Count:3": 5,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinDarkWizardI"
-        },
-        "1:10": {
-          "Count:3": 5,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinSurvivorI"
-        },
-        "2:10": {
-          "Count:3": 5,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinAdventureI"
-        },
-        "3:10": {
-          "Count:3": 5,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianI"
-        }
-      }
-    }
-  },
+  "questIDHigh:4": 6574493569017332361,
+  "questIDLow:4": -8406688982659812687,
+  "rewards:9": {},
   "tasks:9": {
     "0:10": {
       "damageType:8": "",
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "required:3": 20,
+      "required:3": 10,
       "subtypes:1": 1,
-      "target:8": "TwilightForest.Forest Bunny",
+      "target:8": "etfuturum.husk",
       "targetNBT:10": {
         "AbsorptionAmount:5": 0.0,
         "Air:2": 300,
         "AttackTime:2": 0,
         "Attributes:9": {
           "0:10": {
+            "Base:6": -2.0,
+            "Name:8": "tc.mobmod"
+          },
+          "1:10": {
             "Base:6": 0.0,
             "Name:8": "weapon.penetrateArmor"
           },
-          "1:10": {
+          "2:10": {
             "Base:6": 3.0,
             "Name:8": "weapon.daze"
           },
-          "2:10": {
+          "3:10": {
             "Base:6": 0.0,
             "Name:8": "weapon.attackSpeed"
           },
-          "3:10": {
+          "4:10": {
             "Base:6": 0.0,
             "Name:8": "weapon.mountedBonus"
           },
-          "4:10": {
-            "Base:6": 3.0,
+          "5:10": {
+            "Base:6": 20.0,
             "Name:8": "generic.maxHealth"
           },
-          "5:10": {
+          "6:10": {
             "Base:6": 0.0,
             "Name:8": "generic.knockbackResistance"
           },
-          "6:10": {
-            "Base:6": 0.3,
+          "7:10": {
+            "Base:6": 0.23000000417232513,
             "Name:8": "generic.movementSpeed"
           },
-          "7:10": {
-            "Base:6": 16.0,
+          "8:10": {
+            "Base:6": 40.0,
             "Name:8": "generic.followRange"
+          },
+          "9:10": {
+            "Base:6": 3.0,
+            "Name:8": "generic.attackDamage"
+          },
+          "10:10": {
+            "Base:6": 0.08080081978737177,
+            "Name:8": "zombie.spawnReinforcements"
           }
         },
-        "BunnyType:3": 1,
+        "CanBreakDoors:1": 0,
         "CanPickUpLoot:1": 0,
+        "ConversionTime:3": -1,
         "CreatureInfusion:10": {
           "InfusionCosts:10": {
             "Aspects:9": {}
@@ -176,7 +136,7 @@
         "CustomName:8": "",
         "CustomNameVisible:1": 0,
         "DeathTime:2": 0,
-        "Dimension:3": 0,
+        "Dimension:3": 180,
         "DropChances:9": {
           "0:5": 0.085,
           "1:5": 0.085,
@@ -194,8 +154,8 @@
         "FallDistance:5": 0.0,
         "Fire:2": 0,
         "ForgeData:10": {},
-        "HealF:5": 3.0,
-        "Health:2": 3,
+        "HealF:5": 20.0,
+        "Health:2": 20,
         "HurtTime:2": 0,
         "Invulnerable:1": 0,
         "Leashed:1": 0,
@@ -213,12 +173,12 @@
           "2:6": 0.0
         },
         "Rotation:9": {
-          "0:5": 5.796676,
+          "0:5": 4.7492585,
           "1:5": 0.0
         },
-        "UUIDLeast:4": -4483331288481283162,
-        "UUIDMost:4": 1284515586561300,
-        "id:8": "TwilightForest.Forest Bunny",
+        "UUIDLeast:4": -9041908549895551427,
+        "UUIDMost:4": -947386581541958885,
+        "id:8": "etfuturum.husk",
         "oiltweak.inOil:1": 0
       },
       "taskID:8": "bq_standard:hunt"
