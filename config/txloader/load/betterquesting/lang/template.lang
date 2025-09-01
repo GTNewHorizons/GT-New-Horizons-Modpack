@@ -13249,8 +13249,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALEQ.desc=Christmas is canceled this year
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALEg.name=Time to Kill (Wild Boar)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALEg.desc=Delicious roasted wild boar. Mmm... very tasty.
 
-# Quest: Time to Kill (Rabbit)
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALEw.name=Time to Kill (Rabbit)
+# Quest: Time to Kill (Forest Bunny)
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALEw.name=Time to Kill (Forest Bunny)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALEw.desc=Oh, how cute this little rabbit is. Pow! .... oh it's dead?
 
 # Quest: Time to Kill (Raven)
@@ -13316,6 +13316,26 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALJQ.desc=They are highly explosive and m
 # Quest: Time to Kill (Imp)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALJg.name=Time to Kill (Imp)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALJg.desc=Imps are little orange creatures who run through the whole nether. They are peaceful and they won't attack you either.%n%nKill a few to get their leather and build fireproof armor.
+
+# Quest: Time to Kill (Shulker)
+betterquesting.quest.PpBmbfhnSGqI7R_Mm_vJGw.name=Time to Kill (Shulker)
+betterquesting.quest.PpBmbfhnSGqI7R_Mm_vJGw.desc=The Shulker doesn't spawn naturally so you will need to obtain it's spawn egg to complete this quest. You can do so in the coins tab or through crafting.
+
+# Quest: Time to Kill (Rabbit)
+betterquesting.quest.UfPfIUITQrG1E1G33eQ__g.name=Time to Kill (Rabbit)
+betterquesting.quest.UfPfIUITQrG1E1G33eQ__g.desc=It's a shame to kill something so adorable... oh well, do it anyway.
+
+# Quest: Time to Kill (Husk)
+betterquesting.quest.Wz1LEV9eQomLVXDpK18ysQ.name=Time to Kill (Husk)
+betterquesting.quest.Wz1LEV9eQomLVXDpK18ysQ.desc=A Husk is a variant of Zombie that spawns in deserts! They attack like Zombies, except they inflict hunger and refuse to burn in the sunlight.
+
+# Quest: Time to Kill (Fox)
+betterquesting.quest.aZbgSe36TnSB3O4ZwkSlJw.name=Time to Kill (Fox)
+betterquesting.quest.aZbgSe36TnSB3O4ZwkSlJw.desc=The Fox can be found in colder biomes. Make sure you're properly equip to hunt, they're quite quick!
+
+# Quest: Time to Kill (Stray)
+betterquesting.quest.z6Xaal6yTVi4fqEFCChoGg.name=Time to Kill (Stray)
+betterquesting.quest.z6Xaal6yTVi4fqEFCChoGg.desc=The Stray is a variety of Skeleton you will find in colder biomes. Watch out for their arrows; they can have special effects!
 
 
 ## Quest Line: Coins, Coins, Coins
