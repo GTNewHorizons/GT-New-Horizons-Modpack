@@ -1375,7 +1375,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALIg.desc=Wouldn't it be great if you cou
 
 # Quest: Prison Gangs are Obsolete
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALLQ.name=§5§lPrison Gangs are Obsolete
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALLQ.desc=Want lots of cobble, stone, or obsidian? This is the machine for you!%n%nCobble: Water and lava on 2 of the sides.%nStone: Water on a side, lava on top.%nObsidian: Either of the above, and redstone in the machine.%n%nYou of course need to power it. If you don't want to spend power on cobble, do it the ExU way with the WIU.%n%nYou need to toggle the ghost circuit to circuit 1 to get obsidian.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALLQ.desc=Want lots of cobble, stone, obsidian, or another type of rock? This is the machine for you!%n%n§lCobble:§r Water and lava on the side.%n§lStone:§r Water on the side, lava on top.%n§lObsidian:§r Lava on top or side, Water on side, and redstone in the machine.%n§lNetherrack:§r Lava on top or side, Water on side, and glowstone in the machine.%n§lBasalt:§r Lava on side, soul sand below, and one packed ice in the machine.%n§lCobbled Deepslate:§r Lava on side, soul sand below, and one magma block in the machine.%n%nYou of course need to power it. If you don't want to spend power on cobble, do it the ExU way with the WIU.%n%nYou need to toggle the ghost circuit to circuit 1 or 6 depending on the recipe, check NEI.
 
 # Quest: Magnets != Magic
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALSw.name=§5§lMagnets != Magic
@@ -2706,7 +2706,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKAg.desc=Get the most out of your Ilmeni
 
 # Quest: Water, Fast
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKog.name=§a§lWater, Fast
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKog.desc=The Remote IO Water Reservoir works like the Everfull Urn in that you can pull water out as fast as you can pull it out, but you can use all the sides to do so.%n%nYou can further upgrade it into a reservoir hatch, which can be used as an input hatch directly. Producing massive amounts of distilled water with a DT has never been easier!%n%n§3Maybe those massive amounts of water could be condensed into something useful...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKog.desc=The Remote IO Water Reservoir works like the Everfull Urn in that you can pull water out as fast as you need. Additionally, you can pull water from any side of the block.%n%nYou can further upgrade it into a reservoir hatch, which can be used as an input hatch directly. Producing massive amounts of distilled water with a DT has never been easier!%n%n§3Maybe those massive amounts of water could be condensed into something useful...
 
 # Quest: Tungstate Processing - Step 1
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALSQ.name=§a§lTungstate Processing - Step 1
@@ -3177,8 +3177,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALRA.desc=You just need to run your Ruthe
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALZg.name=§b§lEven Betterer Magnetic Rods
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALZg.desc=Like before, you're going to need better rods for your motors next tier. Build this to make your Magnetic Samarium Rods.
 
-# Quest: Oxalalic Acid
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL_A.name=§b§lOxalalic Acid
+# Quest: Oxalic Acid
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL_A.name=§b§lOxalic Acid
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL_A.desc=Oxalic Acid is really only useful for cerium processing. Go ahead and make a bit.%n%nThere are a couple options for this so just look through NEI and pick whichever is most suitable for you.
 
 # Quest: Glowing Matter
@@ -13335,11 +13335,11 @@ betterquesting.quest.Wz1LEV9eQomLVXDpK18ysQ.desc=A Husk is a variant of Zombie t
 
 # Quest: Time to Kill (Fox)
 betterquesting.quest.aZbgSe36TnSB3O4ZwkSlJw.name=Time to Kill (Fox)
-betterquesting.quest.aZbgSe36TnSB3O4ZwkSlJw.desc=The Fox can be found in colder biomes. Make sure you're properly equip to hunt, they're quite quick!
+betterquesting.quest.aZbgSe36TnSB3O4ZwkSlJw.desc=The Fox can be found in colder biomes. Make sure you're properly equipped, they're quite quick!
 
 # Quest: Time to Kill (Stray)
 betterquesting.quest.z6Xaal6yTVi4fqEFCChoGg.name=Time to Kill (Stray)
-betterquesting.quest.z6Xaal6yTVi4fqEFCChoGg.desc=The Stray is a variety of Skeleton you will find in colder biomes. Watch out for their arrows; they can have special effects!
+betterquesting.quest.z6Xaal6yTVi4fqEFCChoGg.desc=The Stray is a variety of Skeleton you will find in colder biomes. Watch out for their arrows; they can have a slowness effect!
 
 
 ## Quest Line: Coins, Coins, Coins
