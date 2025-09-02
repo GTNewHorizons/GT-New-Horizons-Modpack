@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "If you\u0027ve built Distillation Towers to improve your Oil or Benzene processing line, you might have ended up with some extra fuels that are semi-fluids, such as Heavy Fuel or Creosote. If you\u0027ve accumulated them so much that they\u0027ve started voiding, you can instead make an HV Semi-fluid Generator and get free power out of them!\n\nThe Creosote from one DT that is processing Wood Tar is enough to power the DT itself, depending on the fuel efficiency. One HV generator is just enough to power it.",
+      "desc:8": "If you\u0027ve built Distillation Towers to improve your Oil or Benzene processing line, you might have ended up with some extra fuels that are semifluids, such as Heavy Fuel or Creosote. If you\u0027ve accumulated them so much that they\u0027ve started voiding, you can instead make an HV Semifluid Generator and get free power out of them!\n\nThe Creosote from one DT that is processing Wood Tar is enough to power the DT itself, depending on the fuel efficiency. One HV generator is just enough to power it.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
