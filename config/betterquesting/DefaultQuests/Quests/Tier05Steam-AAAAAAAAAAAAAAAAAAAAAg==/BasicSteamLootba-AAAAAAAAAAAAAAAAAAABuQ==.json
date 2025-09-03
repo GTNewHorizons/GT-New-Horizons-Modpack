@@ -2,17 +2,17 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 634
+      "questIDLow:4": 44
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Trade three Fast Food lootbags to get a better one: Slow Food. (Since when is slow food better?)",
+      "desc:8": "Trade three Basic lootbags to get a better one: Steam.\n\nAfter you\u0027ve completed the Steam tab and head into LV you will unlock recipes to uptier your lootbags in the assembler, but for now here is a quest to do so! (Repeatable)",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 29,
+        "Damage:2": 2,
         "OreDict:8": "",
         "id:8": "enhancedlootbags:lootbag"
       },
@@ -20,7 +20,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Fast Food \u003e Slow Food Lootbag Trade",
+      "name:8": "Basic \u003e Steam Lootbag Trade",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": 0,
@@ -33,7 +33,7 @@
     }
   },
   "questIDHigh:4": 0,
-  "questIDLow:4": 678,
+  "questIDLow:4": 441,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -42,7 +42,7 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 29,
+          "Damage:2": 2,
           "OreDict:8": "",
           "id:8": "enhancedlootbags:lootbag"
         }
@@ -60,7 +60,7 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 3,
-          "Damage:2": 28,
+          "Damage:2": 1,
           "OreDict:8": "",
           "id:8": "enhancedlootbags:lootbag"
         }
