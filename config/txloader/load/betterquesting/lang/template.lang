@@ -150,6 +150,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ-w.desc=So you're probably wondering wh
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALDw.name=Covering Up
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALDw.desc=This quest goes over all of the covers, just in case you forgot or they weren't mentioned. If they have their own quest, look at it for more info. You can put them on basically any GT block, pipe, machine, tank, etc. Though that doesn't consider whether it will work right or be useful. Shift-right-click will open a GUI for many of them. For covers that you can adjust the amount of, clicking the left side with a screwdriver goes down, and right goes up. All covers block rain on the side they're attached to. Generally you can adjust covers with a screwdriver, whether they have a GUI or not. You can remove them with a crowbar if you forgot.%n%n§lFluid-Related Covers:§r%nPump: Transfers fluids at the speed specified on the tooltip.%n%nFluid Regulator: Regulates the rate that fluid can go through it, as well as pumping it. Can work x/s or x/t.%n%nSteam Valve: Moves more, but is only for steam. Only goes to IV. Does not work on SH steam.%n%nOverflow: Voids anything over the specified amount in the tank.%n%nFluid Detector: Will emit a redstone signal (RS) based on fluid fill rate of the tank it's on. By default, empty=15, full=0. Use inverted mode to swap. Useful on tanks and hatches.%n%nEnder Fluid Link: Cover version of ender tanks to TP fluid around. Doesn't connect to ender tanks though.%n%nDrain Module: Protects from rain on that side, and will fill the tank with water from rain if it can. Useless.%n%nFluid Filter: Filters fluid going through it. Click with a cell to set it.%n%nShutter: Blocks items/fluids when active. Use it with a machine controller and RS. Does not visually disconnect/block. You place it between the pipes, and put the MC on the same pipe.%n%n§lItem-Related Covers:§r%nConveyor: Sends items. Use an item pipe in import mode or on a GT block/machine.%n%nRobot Arm: Sends from a specific slot in the machine it's on (internal) to another specific slot in a block next to it (adjacent). Keep going through numbers until you get it right, it seems to change per machine. If the output slot is full, it won't output. There need to be a valid block with slots to send to or the settings won't save.%n%nItem Detector: Will emit RS based on item fill rate of the block it's on. By default, empty=0, full=15. Detects by filled slots, so doesn't work right with the super/quantum chests. Probably better for buses.%n%nItem Filter: This one is work-in-progress that is not yet finished. Feel free to contribute.%n%n§lEU-Related Covers:§r%nEnergy Detector: Will emit RS based on EU fill rate of the batbuff/tank it's on. By default, empty=0, full=15. Make sure to set it to include batteries. Can also detect steam for some reason.%n%nPower Pass Upgrade: Read the tooltip, then ask Bart how it works, he didn't bother telling anyone. He'll probably just tell you the code is the best documentation, just like the Tectech guys. May not actually be finished/work, either.%n%nTesla Coil/Tesla Coil Rich Edition: Use with the Tesla Tower to send EU wirelessly or something.%n%n§lOther Covers:§r%nPlayer Detector: Detects players. About 10 block range. [warn]Currently owner/other is inverted on non-pipes due to some bug or another.[/warn]%n%nActivity Detector: Detects either recipe progress or idleness. 0%%=0 RS, ~95%%=14 by default. In idle mode, idleness is 15, and is 0 when running by default.%n%nMachine Controller: Turns machine on/off based on RS. Disable machine will keep it off regardless of RS state. Safe Mode only works on MBs. If a MB runs out of power, it will normally turn off, but a MC will turn it back on, continuing to void stuff. This will set it to the disable machine state instead. You will also get a notification. [warn]Safe mode is currently broken?[/warn]%n%nNeeds Maintenance: Emits RS if it meets the condition specified. Rotor=turbine?%n%nRedstone Transmitter/Receiver (In/Out): OK, these things are confusing, so listen closely. First, set a frequency, either by using the GUI, or using the original way: right-clicking it with an item. Empty hand = 0, other items = their item ID. Be careful not to reset it to 0 by accident. Honestly, just use the GUI. You can set it to private or not, it's the same kind of thing as EnderStorage, so you don't blare RS across the server. Channel state = RS level.%n%nRT(O) sets the channel state based on the redstone level sent from outside to the specific side. You can TP an RS from this to the RR(O).%nRT(I) sets the channel state based on redstone level that would be emitted from the machine itself. [warn]Always sends 15, so it's useless.[/warn]%nRR(O) outputs redstone level based on channel state. You can TP RS from the RT(O) to here.%nRR(I) controls whether a machine can work based on channel state, just like a machine controller cover does. If it has 0 RS, it stays off. At least 1, and it turns on. You send the signal from elsewhere with the RT(O).%nRR(I) can also be used in conjunction with other covers whose states talk about conditional.%n%nIC2 Heat vents: Speeds up machines a tiny amount? Also looks neat. TODO: someone please look at the code to see what it actually does.%n%nCrafting Table: Adds a crafting table to the block you can use. Mostly cosmetic.%n%nPlanks/Plates/Foils: Blocks I/O on that side. Use a screwdriver to set allowed types of stuff through. Blocks everything by default. Set the output to another side first to avoid changing its settings too. You'll probably 'use' this by accident at least once.%n%nComputer Monitor: Adds a visual look. Cosmetic-only cover.%n%nLens: Cosmetic-only cover.%n%nYou can also use AE2 facades as cosmetic covers.
 
+# Quest: Lootbag Uptiering
+betterquesting.quest.ZM4oSqeWQRW1Y-zoE01ivg.name=Lootbag Uptiering
+betterquesting.quest.ZM4oSqeWQRW1Y-zoE01ivg.desc=In GTNH, the lootbags are quite useful tools for boosting your resources. There are a wide variety of lootbag types, and those types all have upgrade paths to get better resources.%n%nThere are two paths you can take when it comes to upgrading your lootbags, you can either enchant it with fortune, or you can upgrade the bag itself. Enchanting the lootbag with fortune will increase the chances of more rare drops being given to you on opening, while upgrading the bag itself will change the item pool to that of the upgraded bag. Notably, if you uptier the bag itself, it will cost 3 of the previous bag tier, so make sure it's worthwhile to upgrade before you do so!%n%n§2If you're looking to maximize your advantage it's recommended you both uptier your lootbag AND apply the fortune upgrade. %n§r%n[note]Be sure to use NEI to see all of this information. Use 'U' on your lootbag and you will be able to see the potential drops, the drop chances based on fortune levels, and you will be able to see recipes for uptiering the bag.[/note]%n
+
 
 ## Quest Line: Tier 0 - Stone Age
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAAQ.name=Tier 0 - Stone Age
@@ -603,6 +607,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAB8A.desc=Making rubber is now more compl
 # Quest: Lit Way to Get Charred
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB8Q.name=§3§lLit Way to Get Charred
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB8Q.desc=The "Charcoal Pile Igniter" is an alternative option for mass-producing charcoal. It does not consume any power or steam, but generates a lot of pollution. Follow the steps below to get it working.%n%n1. Build a brick floor no bigger than 11x11 in size.%n2. Place 1-5 layers of logs atop the brick floor. No air gaps allowed.%n3. Place the Charcoal Pile Igniter above the top-center log.%n4. Surround the remaining logs in dirt or grass.%n5. The Charcoal Pile Igniter immediately starts processing%n6. After some time, the logs are converted to brittle charcoal blocks.%n7. Break the blocks with an axe for the charcoal (Luck/Fortune has NO effect on the drop rates).%n%nIf this is your first multiblock, read the extended tooltip (hold shift) for construction requirements, or visit [url]wiki.gtnewhorizons.com/wiki/Charcoal_Pile_Igniter[/url] for more information and step-by-step images.
+
+# Quest: Basic > Steam Lootbag Trade
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABuQ.name=Basic > Steam Lootbag Trade
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABuQ.desc=Trade three Basic lootbags to get a better one: Steam.%n%nAfter you've completed the Steam tab and head into LV you will unlock recipes to uptier your lootbags in the assembler, but for now here is a quest to do so! (Repeatable)
 
 # Quest: Tool Forge
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC5Q.name=§3§lTool Forge
@@ -4653,6 +4661,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAD8Q.desc=Fishing can be very boring. Why
 # Quest: Fresh Water and Milk
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD8g.name=Fresh Water and Milk
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD8g.desc=Many cooking recipes need milk and water. Crafting it in the crafting table can be very tedious.%n%nIt is much easier using a Forestry worktable. Move all your buckets into the worktable, and shift-click to craft them all at once.
+
+# Quest: Chef Training
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADWg.name=Chef Training
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADWg.desc=I need some ingredients to help me train since they don't grow well where I am, could you provide some? I'll give you the results in return.%n%n[note]You only need to turn in one set each time you complete the quest.[/note]
 
 # Quest: Wheaty Juice
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE-A.name=Wheaty Juice
@@ -14058,106 +14070,6 @@ betterquesting.quest.la9w2qsKRhSIm-9-4cnWwg.desc=Want some blaze rods? Buy some!
 ## Quest Line: Reward Area
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAKg.name=Reward Area
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAKg.desc=Upgrade your loot bags!
-
-# Quest: Steam > LV Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABtw.name=Steam > LV Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABtw.desc=Trade three Steam lootbags to get a better one: LV.
-
-# Quest: Basic > Steam Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABuQ.name=Basic > Steam Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABuQ.desc=Trade three Basic lootbags to get a better one: Steam.
-
-# Quest: LV > MV Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABuw.name=LV > MV Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABuw.desc=Trade three LV lootbags to get a better one: MV.
-
-# Quest: MV > HV Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABvQ.name=MV > HV Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABvQ.desc=Trade three MV lootbags to get a better one: HV.
-
-# Quest: HV > EV Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABvw.name=HV > EV Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABvw.desc=Trade three HV lootbags to get a better one: EV.
-
-# Quest: EV > IV Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABwQ.name=EV > IV Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABwQ.desc=Trade three EV lootbags to get a better one: IV.
-
-# Quest: Forest Ranger Basic > Forest Ranger Advanced Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACNA.name=Forest Ranger Basic > Forest Ranger Advanced Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACNA.desc=Trade three Forest Ranger Basic lootbags to get a better one: Forest Ranger Advanced.
-
-# Quest: Forest Ranger Advanced > Forest Ranger Expert Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACNQ.name=Forest Ranger Advanced > Forest Ranger Expert Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACNQ.desc=Trade three Forest Ranger Advanced lootbags to get a better one: Forest Ranger Expert.
-
-# Quest: Space Invaders Moon > Space Invaders Mars Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACNg.name=Space Invaders Moon > Space Invaders Mars Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACNg.desc=Trade three Space Invaders Moon lootbags to get a better one: Space Invaders Mars.
-
-# Quest: Space Invaders Mars > Space Invaders Asteroids Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACNw.name=Space Invaders Mars > Space Invaders Asteroids Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACNw.desc=Trade three Space Invaders Mars lootbags to get a better one: Space Invaders Asteroids.
-
-# Quest: Magic Novice > Magic Adept Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACOA.name=Magic Novice > Magic Adept Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACOA.desc=Trade three Magic Novice lootbags to get a better one: Magic Adept.
-
-# Quest: Magic Adept > Magic Master Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACOQ.name=Magic Adept > Magic Master Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACOQ.desc=Trade three Magic Adept lootbags to get a better one: Magic Master.
-
-# Quest: Magic Master > Magic Grandmaster Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACOg.name=Magic Master > Magic Grandmaster Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACOg.desc=Trade three Magic Master lootbags to get a better one: Magic Grandmaster.
-
-# Quest: Magic Grandmaster > Magic Grandmaster Unique Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACOw.name=Magic Grandmaster > Magic Grandmaster Unique Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACOw.desc=Trade sixteen Magic Grandmaster lootbags to get a better one: Magic Grandmaster Unique.%n%n[note]PS: You can only get each of the rewards once, and there are 6 different ones.[/note]
-
-# Quest: BM Novice > BM Adept Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACPA.name=BM Novice > BM Adept Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACPA.desc=Trade three BM Novice lootbags to get a better one: BM Adept.
-
-# Quest: BM Adept > BM Master Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACPQ.name=BM Adept > BM Master Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACPQ.desc=Trade three BM Adept lootbags to get a better one: BM Master.
-
-# Quest: Bees Basic > Bees Advanced Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACPg.name=Bees Basic > Bees Advanced Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACPg.desc=Trade three Bees Basic lootbags to get a better one: Bees Advanced.
-
-# Quest: Bee Advanced > Bees Expert Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACPw.name=Bee Advanced > Bees Expert Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACPw.desc=Trade three Bees Advanced lootbags to get a better one: Bees Expert.
-
-# Quest: Fast Food > Slow Food Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACpg.name=Fast Food > Slow Food Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACpg.desc=Trade three Fast Food lootbags to get a better one: Slow Food. (Since when is slow food better?)
-
-# Quest: Slow Food > Haute Cuisine Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACpw.name=Slow Food > Haute Cuisine Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACpw.desc=Trade three Slow Food lootbags to get a better one: Haute Cuisine.
-
-# Quest: Haute Cuisine > Dessert Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACqA.name=Haute Cuisine > Dessert Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACqA.desc=Trade six Haute Cuisine lootbags to get a better one: Dessert.%n%n[note]BTW, there's only the marshmallow in this one, so it's not really worth it.[/note]
-
-# Quest: Transportation Class 3 > Transportation Class 2 Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACqQ.name=Transportation Class 3 > Transportation Class 2 Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACqQ.desc=Trade three Transportation Class 3 lootbags to get a better one: Transportation Class 2.
-
-# Quest: Transportation Class 2 > Transportation Class 1 Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACqg.name=Transportation Class 2 > Transportation Class 1 Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACqg.desc=Trade three Transportation Class 2 lootbags to get a better one: Transportation Class 1.
-
-# Quest: Chef Training
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADWg.name=Chef Training
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADWg.desc=I need some ingredients to help me train since they don't grow well where I am, could you provide some? I'll give you the results in return.%n%n[note]You only need to turn in one set each time you complete the quest.[/note]
-
-# Quest: IV > LuV Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGmg.name=IV > LuV Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGmg.desc=Trade three IV lootbags to get a better one: LuV.
 
 
 ### Quests in multiple quest lines ###
