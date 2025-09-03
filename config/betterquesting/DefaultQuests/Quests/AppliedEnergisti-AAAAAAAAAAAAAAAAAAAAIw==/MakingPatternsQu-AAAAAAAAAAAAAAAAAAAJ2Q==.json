@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The Pattern Encoder will allow you to use NEIs shift-click ? button functionality to create a crafting pattern even if you don\u0027t have the appropriate items.\n\nHowever, you can also drag the items from NEI to do the same thing, though much slower, because you have to look up each component. This is vastly less useful for processing patterns, since it\u0027s always 64 items though.",
+      "desc:8": "The Pattern Encoder will allow you to use NEI\u0027s shift-click ? button functionality to create a crafting pattern even if you don\u0027t have the appropriate items.\n\nHowever, you can also drag the items from NEI to do the same thing, though much slower, because you have to look up each component. This is vastly less useful for processing patterns, since it\u0027s always 64 items though.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
