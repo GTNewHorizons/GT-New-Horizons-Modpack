@@ -1,5 +1,10 @@
 {
-  "preRequisites:9": {},
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2599
+    }
+  },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
@@ -11,10 +16,10 @@
         "OreDict:8": "",
         "id:8": "etfuturum:ancient_debris"
       },
-      "isMain:1": 0,
+      "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Ancient Debris",
+      "name:8": "Behold: The Netherite Line",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
