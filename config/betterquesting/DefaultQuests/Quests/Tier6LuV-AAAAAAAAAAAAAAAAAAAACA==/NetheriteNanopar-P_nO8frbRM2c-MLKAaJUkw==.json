@@ -1,0 +1,37 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -5884694281668179525,
+      "questIDLow:4": -6315858637026935192
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "No Description",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 32245,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.metaitem.03"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Netherite Nanoparticles",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 4609943232281527501,
+  "questIDLow:4": -7135739436701952877,
+  "rewards:9": {},
+  "tasks:9": {}
+}

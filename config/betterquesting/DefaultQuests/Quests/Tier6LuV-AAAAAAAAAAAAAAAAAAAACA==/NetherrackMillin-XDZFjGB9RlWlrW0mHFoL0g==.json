@@ -1,0 +1,37 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 168326707788926946,
+      "questIDLow:4": -8682800239418763402
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "No Description",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "miscutils:milledNetherrack"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Netherrack Milling",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 6644574769448306261,
+  "questIDLow:4": -6508425876028650542,
+  "rewards:9": {},
+  "tasks:9": {}
+}

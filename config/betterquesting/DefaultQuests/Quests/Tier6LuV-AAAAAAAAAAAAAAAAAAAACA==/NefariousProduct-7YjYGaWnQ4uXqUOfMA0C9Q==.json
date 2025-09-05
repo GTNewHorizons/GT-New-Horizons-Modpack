@@ -1,0 +1,37 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -4053448052452735947,
+      "questIDLow:4": -8616244885351402047
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "No Description",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 32242,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.metaitem.03"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Nefarious Production",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -1330576085222997109,
+  "questIDLow:4": -7518403751933312267,
+  "rewards:9": {},
+  "tasks:9": {}
+}
