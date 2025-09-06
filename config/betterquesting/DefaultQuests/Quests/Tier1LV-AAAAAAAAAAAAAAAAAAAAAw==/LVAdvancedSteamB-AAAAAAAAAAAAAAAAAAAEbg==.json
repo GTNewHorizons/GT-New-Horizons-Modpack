@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The LV GT++ Steam Boiler is the next machine you can build to produce steam more efficiently than with the High Pressure Boiler. It won\u0027t use fuel up unless it starts to run low on steam, so it\u0027s very efficient.",
+      "desc:8": "The LV GT++ Steam Boiler is the next machine you can build to produce steam more efficiently than with the previous single block boilers. It won\u0027t use fuel unless it cools below 100 degrees and gains a higher efficiency with longer burning fuels.\n\n[note]Fortunately, it won\u0027t explode if you let it run dry but it §nwill waste fuel§r if there is no water present.[/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

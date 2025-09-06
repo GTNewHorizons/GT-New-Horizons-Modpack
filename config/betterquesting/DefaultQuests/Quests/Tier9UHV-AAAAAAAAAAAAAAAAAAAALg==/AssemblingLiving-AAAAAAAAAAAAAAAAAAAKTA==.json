@@ -12,7 +12,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "To make Bioware Boards and Circuits, you need to make a UV Circuit Assembling Machine.",
+      "desc:8": "To make Bioware Boards and Circuits, you need to either make a UV Circuit Assembling Machine or obtain a UHV energy hatch for your circuit assembly machine.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -30,7 +30,7 @@
       "simultaneous:1": 0,
       "snd_complete:8": "random.levelup",
       "snd_update:8": "random.levelup",
-      "taskLogic:8": "AND",
+      "taskLogic:8": "OR",
       "visibility:8": "NORMAL"
     }
   },
@@ -49,6 +49,23 @@
         "0:10": {
           "Count:3": 1,
           "Damage:2": 1187,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 49,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }

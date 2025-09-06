@@ -13,7 +13,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "To make Wetware Circuits (UHV-Tier Circuits), you need to make a ZPM Circuit Assembling Machine.\n\nWhat? Did you think that just because you made the multi you can skip out making the singleblock? Well, too bad! You still need to use it to make the first circuit for the imprints.",
+      "desc:8": "To make Wetware Circuits (UHV-Tier Circuits), you need to make either a ZPM Circuit Assembling Machine, or a UV energy hatch for your Circuit Assembly Machine.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -31,7 +31,7 @@
       "simultaneous:1": 0,
       "snd_complete:8": "random.levelup",
       "snd_update:8": "random.levelup",
-      "taskLogic:8": "AND",
+      "taskLogic:8": "OR",
       "visibility:8": "NORMAL"
     }
   },
@@ -50,6 +50,23 @@
         "0:10": {
           "Count:3": 1,
           "Damage:2": 1186,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 48,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }
