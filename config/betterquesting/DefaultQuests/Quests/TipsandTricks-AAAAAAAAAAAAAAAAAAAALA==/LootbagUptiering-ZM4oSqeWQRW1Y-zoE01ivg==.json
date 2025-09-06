@@ -1,0 +1,50 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 5
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "In GTNH, the lootbags are quite useful tools for boosting your resources. There are a wide variety of lootbag types, and those types all have upgrade paths to get better resources.\n\nThere are two paths you can take when it comes to upgrading your lootbags, you can either enchant it with fortune, or you can upgrade the bag itself. Enchanting the lootbag with fortune will increase the chances of more rare drops being given to you on opening, while upgrading the bag itself will change the item pool to that of the upgraded bag. Notably, if you uptier the bag itself, it will cost 3 of the previous bag tier, so make sure it\u0027s worthwhile to upgrade before you do so!\n\n§2If you\u0027re looking to maximize your advantage it\u0027s recommended you both uptier your lootbag AND apply the fortune upgrade. \n§r\n[note]Be sure to use NEI to see all of this information. Use \u0027U\u0027 on your lootbag and you will be able to see the potential drops, the drop chances based on fortune levels, and you will be able to see recipes for uptiering the bag.[/note]\n",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 44,
+        "OreDict:8": "",
+        "id:8": "enhancedlootbags:lootbag",
+        "tag:10": {
+          "ench:9": {
+            "0:10": {
+              "id:2": 35,
+              "lvl:2": 3
+            }
+          }
+        }
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Lootbag Uptiering",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 7263787550099521813,
+  "questIDLow:4": -5376193048649833794,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}
