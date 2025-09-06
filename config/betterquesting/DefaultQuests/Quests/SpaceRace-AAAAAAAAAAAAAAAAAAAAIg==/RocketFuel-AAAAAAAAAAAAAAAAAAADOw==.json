@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "For every flight the rocket needs some fuel. So refine some fuel for your rocket.\n\nFor your T1/2 rockets you have 2 options. You can either use Cetane-Boosted Diesel or make RP-1 rocket fuel. We will have a look at RP-1 rocket fuel in the next quest.\n\nYou\u0027ll need something with more oomph for the later rockets.\n\nFor the moon, a full rocket leaving from the OW should have enough fuel left to make it back. But you might want to take extra just in case.\n\nRocket Fuel usage is not based on either the destination or the type of fuel used, but instead the rocket itself, with higher tiers both storing more fuel, and consuming less. Also, the gravity of the planet affects how much fuel is used, with lower gravity locations using less fuel to launch.",
+      "desc:8": "For every flight the rocket needs some fuel. So refine some fuel for your rocket.\nThis quest chain will guide you through the progression of rocket fuels.\n\nFor your T1 \u0026 T2 rockets you have 2 options. You can either use Cetane-Boosted Diesel or make RP-1 rocket fuel.\n\nFor the moon, a full rocket leaving from the Overworld should have enough fuel left to make it back, but you might want to take extra just in case.\n\n[note]Rocket Fuel usage is not based on the destination nor the type of fuel used. Rather, it is based on the tier of the rocket, with higher tiers both storing more fuel, and consuming less. Also, the gravity of the planet affects how much fuel is used, with lower gravity locations using less fuel to launch.[/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -20,7 +20,7 @@
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Rocket Fuel",
+      "name:8": "§9§lRocket Fuel",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

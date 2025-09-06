@@ -1,0 +1,156 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2610
+    },
+    "1:10": {
+      "questIDHigh:4": -6107209725455154402,
+      "questIDLow:4": -6913291740074859566
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 1,
+      "desc:8": "No Description",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "miscutils:RocketFuelMixA"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 1,
+      "lockedProgress:1": 0,
+      "name:8": "Trigger: H8N4C2O4 (Green) Rocket Fuel Skip",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "HIDDEN"
+    }
+  },
+  "questIDHigh:4": -5965545959312897978,
+  "questIDLow:4": -5544061567531113456,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 0,
+      "questID:8": "AAAAAAAAAAAAAAAAAAAKfQ\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "1:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 1,
+      "questID:8": "AAAAAAAAAAAAAAAAAAAKhg\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "2:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 2,
+      "questID:8": "AAAAAAAAAAAAAAAAAAAKhQ\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "3:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 3,
+      "questID:8": "AAAAAAAAAAAAAAAAAAAKhA\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "4:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 4,
+      "questID:8": "AAAAAAAAAAAAAAAAAAAKgw\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "5:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 5,
+      "questID:8": "AAAAAAAAAAAAAAAAAAAKgg\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "6:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 6,
+      "questID:8": "AAAAAAAAAAAAAAAAAAAJXA\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "7:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 7,
+      "questID:8": "AAAAAAAAAAAAAAAAAAAJWg\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "8:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 8,
+      "questID:8": "AAAAAAAAAAAAAAAAAAAKfg\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "9:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 9,
+      "questID:8": "AAAAAAAAAAAAAAAAAAAKfw\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "10:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 10,
+      "questID:8": "AAAAAAAAAAAAAAAAAAAKgA\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "11:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 11,
+      "questID:8": "AAAAAAAAAAAAAAAAAAAJWw\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "12:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 12,
+      "questID:8": "AAAAAAAAAAAAAAAAAAADWQ\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "13:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 13,
+      "questID:8": "AAAAAAAAAAAAAAAAAAADWA\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "14:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 14,
+      "questID:8": "AAAAAAAAAAAAAAAAAAAI9Q\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "15:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 15,
+      "questID:8": "AAAAAAAAAAAAAAAAAAAKhw\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 32,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "miscutils:RocketFuelMixA"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
