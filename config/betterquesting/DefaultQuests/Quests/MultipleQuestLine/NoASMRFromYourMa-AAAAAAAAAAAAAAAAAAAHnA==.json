@@ -2,19 +2,19 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 759
+      "questIDLow:4": 36
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "If the sounds of your machines are driving you crazy, you can add a muffler upgrade to block them out.\n\nNOTE: This also means you won\u0027t hear when the machine is out of energy. Also, once applied the upgrade cannot be removed.",
+      "desc:8": "If the sounds of your machines are driving you crazy, you can muffle their sound to block them out! Simply shift right click on it with a hard hammer in order to toggle it\u0027s muffling mode.\n\n[warn]NOTE: This also means you won\u0027t hear when the machine is out of energy.[/warn]\n\n[note]P.S. Here\u0027s a free sound muffler block for any farm animals you may have around![/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 32727,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.01"
+        "id:8": "ExtraUtilities:sound_muffler"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -51,21 +51,8 @@
   },
   "tasks:9": {
     "0:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
-      "index:3": 0,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 1,
-          "Damage:2": 32727,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
+      "index:3": 1,
+      "taskID:8": "bq_standard:checkbox"
     }
   }
 }
