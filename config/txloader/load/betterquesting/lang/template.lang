@@ -249,7 +249,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAJA.desc=In order to craft even basic ma
 
 # Quest: Getting Iron
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAJQ.name=§2§lGetting Iron
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAJQ.desc=Iron can be found in multiple veins.%nMagnetite veins (Y 30-180), Chalcopyrite veins (Y 5-60), and Limonite veins (Y 10-40) all contain iron ore.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAJQ.desc=Iron can be found in multiple veins, and there are many types of ores that will smelt down into iron ingots such as magnetite, brown / yellow limonite, banded iron, roasted iron, and granitic / basaltic mineral sand.%n%n§lIron-Rich Veins:%n§rMagnetite veins (Y 60-180)%nChalcopyrite veins (Y 5-60) %nGold veins (Y 30-60)%nLimonite veins (Y 10-40)%n%n[note]You can use NEI to see information for all of the ore veins in the game![/note]
 
 # Quest: Making Better Tools
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAJg.name=§2§lMaking Better Tools
@@ -397,7 +397,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAG_g.desc=For your new House you need som
 
 # Quest: When All You Have is a Hammer...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGyg.name=§2§lWhen All You Have is a Hammer...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGyg.desc=...the whole world looks like a nail. When looking for good tool materials, see "GregTech Material Tools" tab in NEI. Remember that NEI bookmarks are your friends.%n%nThe GT tools each have special uses.%n%nScrewdriver - Used on covers to change their behavior.%n%nWrench - Used to change the output direction on a GT machine, or to break it. Can also disconnect/connect pipes or enable their built in shutter.%n%nCrowbar - Remove covers from machines or pipes.%n%nWire cutters - Connecting/disconnecting/breaking wires/cables.%n%nSoft mallet - Turning machines on/off.%n%nHammer - Prospecting for ores in a limited way in front of you, and smashing ore blocks into crushed ores.%n%nOn a side note, Tin Pipes need a Steel Wrench to dismantle, so don't place them randomly.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGyg.desc=...the whole world looks like a nail. %n%nWhen looking for good tool materials, see "GregTech Material Tools" tab in NEI. Remember that NEI bookmarks are your friends.%n%nThe GT tools each have special uses.%n%n§lScrewdriver§r - Used on covers to change their behavior or on machines to change their input mode.%n%n§lWrench§r - Used to change the output direction on a GT machine, or to break it. Can also disconnect/connect pipes or enable their built in shutter.%n%n§lCrowbar§r - Remove covers from machines or pipes.%n%n§lWire cutters§r - Connecting/disconnecting/breaking wires/cables.%n%n§lSoft mallet§r - Turning machines on/off.%n%n§lHammer§r - Prospecting for ores in a limited way in front of you, smashing ore blocks into crushed ores, and muffling machine sounds.%n%n§lPlunger§r - Drain fluids from a machine or tank%n%n[note]On a side note, Tin Pipes need a Steel Wrench to dismantle, so don't place them randomly, and pay attention to material levels![/note]
 
 # Quest: Circle Shapes Give Me Comfort
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHJw.name=§2§lCircle Shapes Give Me Comfort
@@ -1243,7 +1243,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEaw.desc=If you have some time you can l
 
 # Quest: LV Advanced Steam Boiler
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEbg.name=§5§lLV Advanced Steam Boiler
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEbg.desc=The LV GT++ Steam Boiler is the next machine you can build to produce steam more efficiently than with the High Pressure Boiler. It won't use fuel up unless it starts to run low on steam, so it's very efficient.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEbg.desc=The LV GT++ Steam Boiler is the next machine you can build to produce steam more efficiently than with the previous single block boilers. It won't use fuel unless it cools below 100 degrees and gains a higher efficiency with longer burning fuels.%n%n[note]Fortunately, it won't explode if you let it run dry but it §nwill waste fuel§r if there is no water present.[/note]
 
 # Quest: Lossless LV Cables
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEcA.name=§5§lLossless LV Cables
@@ -3814,7 +3814,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKSQ.desc=You need Quantum Power ICs for 
 
 # Quest: Circuits, Assemble!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKSw.name=Circuits, Assemble!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKSw.desc=To make Wetware Circuits (UHV-Tier Circuits), you need to make a ZPM Circuit Assembling Machine.%n%nWhat? Did you think that just because you made the multi you can skip out making the singleblock? Well, too bad! You still need to use it to make the first circuit for the imprints.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKSw.desc=To make Wetware Circuits (UHV-Tier Circuits), you need to make either a ZPM Circuit Assembling Machine, or a UV energy hatch for your Circuit Assembly Machine.
 
 # Quest: Cheaper IV Circuits
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKTg.name=Cheaper IV Circuits
@@ -3983,7 +3983,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKRQ.desc=If you want to make the T8 Rock
 
 # Quest: Assembling Living Circuits
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKTA.name=Assembling Living Circuits
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKTA.desc=To make Bioware Boards and Circuits, you need to make a UV Circuit Assembling Machine.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKTA.desc=To make Bioware Boards and Circuits, you need to either make a UV Circuit Assembling Machine or obtain a UHV energy hatch for your circuit assembly machine.
 
 # Quest: The Final Frontier?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKWA.name=The Final Frontier?
@@ -4220,7 +4220,7 @@ betterquesting.quest.k9PA3buhTvK1EJpPfA8ZAg.desc=Welcome to UEV! Now that you've
 
 # Quest: One Last Time
 betterquesting.quest.msIxGO5gQCWJPmEyp_JhtQ.name=One Last Time
-betterquesting.quest.msIxGO5gQCWJPmEyp_JhtQ.desc=For the final circuit line currently in the game, you will need to make one last circuit assembler.
+betterquesting.quest.msIxGO5gQCWJPmEyp_JhtQ.desc=For the final circuit line currently in the game, you will need to either make one last circuit assembler, or a UEV hatch for your circuit assembly machine.
 
 # Quest: Stabilized Baryonic Matter
 betterquesting.quest.n8PKF63sSSi0y8ZBb2RIKQ.name=Stabilized Baryonic Matter
@@ -5656,10 +5656,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHmg.desc=The Iron wand will last longer 
 # Quest: Mid-Tier Wand
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHmw.name=Mid-Tier Wand
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHmw.desc=The next tier up wand is the Diamond wand. Has all kinds of fun modes. Just be careful using it, would hate to place a bunch of blocks accidentally!
-
-# Quest: No ASMR From Your Machines?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHnA.name=No ASMR From Your Machines?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHnA.desc=If the sounds of your machines are driving you crazy, you can add a muffler upgrade to block them out.%n%nNOTE: This also means you won't hear when the machine is out of energy. Also, once applied the upgrade cannot be removed.
 
 # Quest: Botany
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHoA.name=Botany
@@ -14603,7 +14599,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMzw.desc=There must be a way to make a n
 
 # Quest: A Portable Barrel?
 betterquesting.quest.EDtFbLVvQX2Y5mQp84W9bw.name=§2§lA Portable Barrel?
-betterquesting.quest.EDtFbLVvQX2Y5mQp84W9bw.desc=As an upgrade to the barrels, EFR also adds the ever-familiar shulker box! The shulker box allows you to portably tote it's contents. You can find the research for them in the New Horizons tab of the Thaumonomicon.%n%nThese have seven additional tiers much like the barrels and chests that give you additional storage space. %n%nYou can dye any tier by shapelessly crafting them with a dye, and undye them by shapelessly crafting them alone. They §nwill§r retain their inventory. %n%n[note]Checkout the coins tab if you're looking for shells![/note]
+betterquesting.quest.EDtFbLVvQX2Y5mQp84W9bw.desc=As an upgrade to the barrels, EFR also adds the ever-familiar shulker box! The shulker box allows you to portably tote it's contents. You can find the research for them in the New Horizons tab of the Thaumonomicon.%n%nThese have seven additional tiers much like the barrels and chests that give you additional storage space. %n%nYou can dye any tier by shapelessly crafting them with a dye, and undye them by shapelessly crafting them alone. They §nwill§r retain their inventory. %n%n[note]There are many ways to obtain shulker shells:%n1. Fighting Shulkers in the Twilight Forest Lich & Ghast Queen Towers.%n2. Fighting Shulkers from the eggs in the Coins tab%n3. Manually crafting the shells[/note]
 
 # Quest: Gold Barrel
 betterquesting.quest.GuylOTxSSraeAtj16fZ9-w.name=§3§lGold Barrel
@@ -14619,7 +14615,7 @@ betterquesting.quest.QNsm_wc0QO2g9C6_-vj2fA.desc=Now that you are starting to fi
 
 # Quest: Steel Chest?
 betterquesting.quest.V4jinTYRSueIrEqn90dRzQ.name=§3§lSteel Chest?
-betterquesting.quest.V4jinTYRSueIrEqn90dRzQ.desc=While being significantly more expensive than gold chest, the steel chest has less capacity but it can be used in some specialized crafting recipes.
+betterquesting.quest.V4jinTYRSueIrEqn90dRzQ.desc=While being significantly more expensive than a gold chest, the steel chest has less capacity but it can be used in some specialized crafting recipes.
 
 # Quest: The future is here!
 betterquesting.quest.V9BupH47RI6RWX6vff5dpw.name=§2§lThe future is here!
