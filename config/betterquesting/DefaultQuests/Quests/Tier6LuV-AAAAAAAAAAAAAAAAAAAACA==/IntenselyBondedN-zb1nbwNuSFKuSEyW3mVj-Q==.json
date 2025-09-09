@@ -7,6 +7,10 @@
     "1:10": {
       "questIDHigh:4": 4609943232281527501,
       "questIDLow:4": -7135739436701952877
+    },
+    "2:10": {
+      "questIDHigh:4": 6663888139911712121,
+      "questIDLow:4": -5243213396002962424
     }
   },
   "properties:10": {
@@ -37,5 +41,75 @@
   "questIDHigh:4": -3621624798839420846,
   "questIDLow:4": -5888372301926931463,
   "rewards:9": {},
-  "tasks:9": {}
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32245,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.03"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 125,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.99"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32245,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.03"
+        },
+        "1:10": {
+          "Count:3": 32,
+          "Damage:2": 169,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.comb"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 125,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.99"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32246,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.03"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
 }
