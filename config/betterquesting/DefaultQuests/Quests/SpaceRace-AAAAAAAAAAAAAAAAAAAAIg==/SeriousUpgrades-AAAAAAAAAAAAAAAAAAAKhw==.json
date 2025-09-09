@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "So if you thought \u0027hey, the purple stuff wasn\u0027t that bad, why not make the green?\u0027, well, first of all, you may need professional help. Second, you\u0027re going to need to be in ZPM to make the casings you need, full stop. You need a ZPM ABS for the components, so come back once you\u0027ve made a ZPM Energy Hatch.\n\nYou can probably figure most of it out on your own, but keep in mind that some of the materials need to be created in the ABS, solidified, macerated, and then used in another ABS recipe. The examples here are Hastelloy-N for Lafium Compound and, Rhenium for Laurenium. Rhenium itself is made with a nonstandard ABS recipe. You also need Dysprosium which requires either making Rare Earth (III) or going to the Toxic Everglades. And either Rare Earth (II) or Rare Earth (III) for Ytterbium unless, again, you visit the Everglades for it. [warn]The Everglades ore veins might be very hard to find, due to their rarity.[/warn] You could also get Ytterbium from Almandine Ore if you are willing to try GT++ Milling and Froth Flotation.\n\nHave fun with that!\n\n[note]You\u0027ll almost certainly need more than this, but the exact amount, as always, depends on your hatches and buses.[/note]",
+      "desc:8": "So if you thought \u0027hey, the purple stuff wasn\u0027t that bad, why not make the green?\u0027, well, first of all, you may need professional help. Second, you\u0027re going to need to be in ZPM to make the casings you need, full stop. You need a ZPM ABS for the components, so come back once you\u0027ve made a ZPM Energy Hatch.\n\nYou can probably figure most of it out on your own, but keep in mind that some of the materials need to be created in the ABS, solidified, macerated, and then used in another ABS recipe. The examples here are Hastelloy-N for Lafium Compound and, Rhenium for Laurenium. Rhenium itself is made with a nonstandard ABS recipe. You also need Dysprosium which requires either making Rare Earth (III) or going to the Toxic Everglades. You'll also need either Rare Earth (II) or Rare Earth (III) for Ytterbium unless, again, you visit the Everglades for it. [warn]The Everglades ore veins might be very hard to find, due to their rarity.[/warn] You could also get Ytterbium from Almandine Ore if you are willing to try GT++ Milling and Froth Flotation.\n\nHave fun with that!\n\n[note]You\u0027ll almost certainly need more than this, but the exact amount, as always, depends on your hatches and buses.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -19,7 +19,7 @@
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Serious Upgrades",
+      "name:8": "§9§lSerious Upgrades",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -32,7 +32,27 @@
   },
   "questIDHigh:4": 0,
   "questIDLow:4": 2695,
-  "rewards:9": {},
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 42,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnicianIII"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "autoConsume:1": 0,

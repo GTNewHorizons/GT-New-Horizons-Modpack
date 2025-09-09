@@ -36,40 +36,27 @@
   "questIDLow:4": 857,
   "rewards:9": {
     "0:10": {
-      "choices:9": {
-        "0:10": {
-          "Count:3": 8,
-          "Damage:2": 30673,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
-        },
-        "1:10": {
-          "Count:3": 16,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "IC2:itemCellEmpty"
-        },
-        "2:10": {
-          "Count:3": 1,
-          "Damage:2": 6,
-          "OreDict:8": "",
-          "id:8": "enhancedlootbags:lootbag"
-        }
-      },
-      "ignoreDisabled:1": 0,
-      "index:3": 0,
-      "rewardID:8": "bq_standard:choice"
-    },
-    "1:10": {
       "ignoreDisabled:1": 0,
       "index:3": 1,
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 5,
+          "Count:3": 32,
+          "Damage:2": 30673,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 6,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        },
+        "2:10": {
+          "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinChemistI"
+          "id:8": "dreamcraft:item.CoinChemistII"
         }
       }
     }
@@ -125,11 +112,7 @@
           "id:8": "miscutils:Formaldehyde"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
-    },
-    "2:10": {
-      "index:3": 2,
-      "taskID:8": "bq_standard:checkbox"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }
