@@ -109,35 +109,29 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 8,
-          "Damage:2": 22,
-          "OreDict:8": "",
-          "id:8": "witchery:ingredient"
-        },
-        "1:10": {
-          "Count:3": 8,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "minecraft:nether_wart"
         },
-        "2:10": {
+        "1:10": {
           "Count:3": 8,
           "Damage:2": 37,
           "OreDict:8": "",
           "id:8": "witchery:ingredient"
         },
-        "3:10": {
+        "2:10": {
           "Count:3": 8,
           "Damage:2": 29,
           "OreDict:8": "",
           "id:8": "witchery:ingredient"
         },
-        "4:10": {
+        "3:10": {
           "Count:3": 8,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "minecraft:diamond"
         },
-        "5:10": {
+        "4:10": {
           "Count:3": 1,
           "Damage:2": 53,
           "OreDict:8": "",
