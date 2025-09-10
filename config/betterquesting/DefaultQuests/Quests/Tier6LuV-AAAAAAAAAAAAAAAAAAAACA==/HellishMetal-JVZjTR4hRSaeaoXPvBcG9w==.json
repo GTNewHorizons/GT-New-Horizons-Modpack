@@ -9,7 +9,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "No Description",
+      "desc:8": "",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -86,9 +86,9 @@
         },
         "2:10": {
           "Count:3": 8,
-          "Damage:2": 0,
+          "Damage:2": 2541,
           "OreDict:8": "",
-          "id:8": "miscutils:itemDustInfusedFire"
+          "id:8": "gregtech:gt.metaitem.01"
         },
         "3:10": {
           "Count:3": 8,

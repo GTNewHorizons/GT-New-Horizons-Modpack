@@ -3,12 +3,17 @@
     "0:10": {
       "questIDHigh:4": -1330576085222997109,
       "questIDLow:4": -7518403751933312267
+    },
+    "1:10": {
+      "questIDHigh:4": -330443813993036947,
+      "questIDLow:4": -6215508413557630456,
+      "type:1": 2
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "No Description",
+      "desc:8": "Using purified water, you\u0027re able to crack the Nefarious Gas from the previous step into Nefarious Oil.\n\n[note]If you are proactive and setup grade 2 water production, you unlock a recipe that produces much more oil, with much less water, in much less time. §[[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
