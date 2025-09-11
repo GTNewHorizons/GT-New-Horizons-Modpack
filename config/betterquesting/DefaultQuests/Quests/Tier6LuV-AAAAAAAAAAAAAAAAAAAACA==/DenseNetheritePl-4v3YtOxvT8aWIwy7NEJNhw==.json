@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Once you\u0027ve managed to aquire 36 of these intensely bonded nanoparticles you can finally create your first Netherite material: The §4§lDense Netherite Plate§r.\n\nYou will need one of these for the §3§lMk1 Fusion Reactor§r, which is required to create the rest of the Netherite materials.",
+      "desc:8": "Once you\u0027ve managed to aquire 36 of these Intensely Bonded Netherite Nanoparticles you can finally create your very first Netherite material: The §4§lDense Netherite Plate§r.\n\nYou will need one of these for the §3§lMk1 Fusion Reactor§r, which is required to create the rest of the Netherite materials.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -32,7 +32,54 @@
   },
   "questIDHigh:4": -2090276380457611322,
   "questIDLow:4": -7628239345660310137,
-  "rewards:9": {},
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 32246,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.03"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 41,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag",
+          "tag:10": {
+            "ench:9": {
+              "0:10": {
+                "id:2": 35,
+                "lvl:2": 3
+              }
+            }
+          }
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnicianIII"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinChemistIII"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "autoConsume:1": 0,

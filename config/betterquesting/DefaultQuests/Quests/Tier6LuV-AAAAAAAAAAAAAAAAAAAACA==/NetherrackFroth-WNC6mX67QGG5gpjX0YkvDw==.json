@@ -12,7 +12,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "To get Netherrack Froth, you can combine your milling products with your Nefarious Oil in a Flotation Cell. \n\n[note]It would be wise to make a robust setup for this.[/note]",
+      "desc:8": "To get §4Netherrack Froth§r, you can combine your milling products with your Nefarious Oil in a §5§lFlotation Cell§r. \n\n[note]It would be wise to make a robust setup for this.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -36,7 +36,21 @@
   },
   "questIDHigh:4": 6399820238912438369,
   "questIDLow:4": -5079329377019678961,
-  "rewards:9": {},
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinChemistIII"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "autoConsume:1": 0,

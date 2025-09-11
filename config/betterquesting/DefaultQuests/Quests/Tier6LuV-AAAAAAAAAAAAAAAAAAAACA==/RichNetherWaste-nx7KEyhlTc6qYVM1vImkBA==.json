@@ -12,7 +12,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "One of the ways you will be using the Poor Nether Waste is to create Rich Nether Waste using the Hellish Mud you obtained earlier from the Nether Semifluid distillation. \n\nWe will be using the Rich Nether Waste for the next step, and it will continue to be valuable for a while, though it does eventually become unecessary to the line when you reach §4§lUHV.",
+      "desc:8": "§nOne§r of the ways you will be using the Poor Nether Waste is to combine it with the Hellish Mud you obtained earlier in the §5§lMixer§r to create §4Rich Nether Waste§r. \n\nWe will be using the Rich Nether Waste for the next step, and it will continue to be valuable for a while, though it does eventually become unecessary to the line when you reach §4§lUHV.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -23,7 +23,7 @@
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Rich Waste",
+      "name:8": "Rich Nether Waste",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -36,7 +36,21 @@
   },
   "questIDHigh:4": -6980920188746773042,
   "questIDLow:4": -6169558524259359740,
-  "rewards:9": {},
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinChemistIII"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "autoConsume:1": 0,

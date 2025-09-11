@@ -9,7 +9,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Regular Netherite Nanoparticles alone don\u0027t have enough density to compress into Netherite... they require a strong and somewhat magical binding agent. \n\nHellish Metal should be the perfect candidate.\n\n[note]If you\u0027ve gone the distance to make an infusion setup, you can create this at a very notable discount compared to the electrolysis recipe.[/note]",
+      "desc:8": "Regular Netherite Nanoparticles alone don\u0027t have enough density to compress into Netherite... they require a strong and somewhat magical binding agent. \n\n§4Hellish Metal§r should be the perfect candidate, you can either fabricate it in the §5§lElectrolyzer§r or §5§lInfuse§r it.\n\n[note]The Infusion recipe is much cheaper, but can only be used by those who have been proactive in their magic infrastructure.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -33,7 +33,27 @@
   },
   "questIDHigh:4": 2690447010269578534,
   "questIDLow:4": -7031660740925257993,
-  "rewards:9": {},
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinSmithIII"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinDarkWizardIII"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "autoConsume:1": 0,

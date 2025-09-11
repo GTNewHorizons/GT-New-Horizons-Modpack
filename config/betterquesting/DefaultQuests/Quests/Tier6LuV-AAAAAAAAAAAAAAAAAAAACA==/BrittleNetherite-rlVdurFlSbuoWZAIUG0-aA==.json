@@ -12,7 +12,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "You\u0027re so close... just a few more steps.\n\nNow that you\u0027ve attained the Netherite Scrap Seeds, you can combine them with Poor Nether Waste for a §2§l50%§r chance to get 3 Brittle Netherite Scraps. As a bonus, there\u0027s even a §2§l50%§r chance that you get your Netherite Scrap Seed back to run the recipe over again. \n\n[note]Don\u0027t worry, this is the last Netherite recipe based on chance.[/note]",
+      "desc:8": "You\u0027re so close... just a few more steps.\n\nNow that you\u0027ve attained the Netherite Scrap Seeds, you can combine them with Poor Nether Waste in a §5§lChemical Bath§r for a §2§l50%§r chance to get 3 §4Brittle Netherite Scraps§r. As a bonus, there\u0027s even a §2§l50%§r chance that you get your Netherite Scrap Seed back to run the recipe over again. \n\n[note]Don\u0027t worry, this is the last Netherite recipe based on chance.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -36,7 +36,21 @@
   },
   "questIDHigh:4": -5884694281668179525,
   "questIDLow:4": -6315858637026935192,
-  "rewards:9": {},
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinChemistIII"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "autoConsume:1": 0,

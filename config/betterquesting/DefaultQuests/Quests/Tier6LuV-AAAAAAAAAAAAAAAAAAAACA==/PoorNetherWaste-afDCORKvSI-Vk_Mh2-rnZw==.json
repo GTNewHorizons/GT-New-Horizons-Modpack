@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Once you\u0027ve gathered enough Froth, it can run through a vacuum furnace to get a number of useful resources. Most importantly though, this is where we extract Poor Nether Waste; a very valuable fluid to the Netherite line.",
+      "desc:8": "Once you\u0027ve gathered enough froth, it can run through a §5§lVacuum Furnace§r to get a number of useful resources. Most importantly though, this is where we extract §4Poor Nether Waste§r; a quite valuable fluid to the Netherite line.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -19,7 +19,7 @@
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Poor Waste",
+      "name:8": "Poor Nether Waste",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -32,7 +32,21 @@
   },
   "questIDHigh:4": 7633814918775392399,
   "questIDLow:4": -7668518413732747417,
-  "rewards:9": {},
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinChemistIII"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "autoConsume:1": 0,

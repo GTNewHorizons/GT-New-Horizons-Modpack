@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Netherite Nanoparticles can be made from macerating your newly attained Brittle Netherite Scraps.\n\n[note]Almost seems too easy doesn\u0027t it?[/note]",
+      "desc:8": "§4Netherite Nanoparticles§r can be made from §5§lMacerating§r your newly attained Brittle Netherite Scraps.\n\n[note]Almost seems too easy doesn\u0027t it?[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -32,7 +32,21 @@
   },
   "questIDHigh:4": 4609943232281527501,
   "questIDLow:4": -7135739436701952877,
-  "rewards:9": {},
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnicianIII"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "autoConsume:1": 0,

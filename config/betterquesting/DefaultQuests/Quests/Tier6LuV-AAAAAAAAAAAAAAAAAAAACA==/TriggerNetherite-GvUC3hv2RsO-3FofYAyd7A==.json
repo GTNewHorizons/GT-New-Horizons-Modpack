@@ -122,6 +122,12 @@
       "index:3": 14,
       "questID:8": "XHri9NpgTXm3PF0yMayECA\u003d\u003d",
       "rewardID:8": "bq_standard:questcompletion"
+    },
+    "15:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 15,
+      "questID:8": "4v3YtOxvT8aWIwy7NEJNhw\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
     }
   },
   "tasks:9": {
@@ -151,10 +157,10 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 1,
-          "Damage:2": 1193,
+          "Count:3": 64,
+          "Damage:2": 32246,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "gregtech:gt.metaitem.03"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -169,9 +175,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 16,
-          "Damage:2": 11132,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "etfuturum:netherite_ingot"
         }
       },
       "taskID:8": "bq_standard:retrieval"

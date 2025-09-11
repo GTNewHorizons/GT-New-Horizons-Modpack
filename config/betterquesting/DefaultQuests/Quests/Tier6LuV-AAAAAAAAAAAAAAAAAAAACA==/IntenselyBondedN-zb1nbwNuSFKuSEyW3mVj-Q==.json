@@ -21,7 +21,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "At long last... the final ingredient needed before making Netherite materials.\n\nThrough the combination of the Netherite Nanoparticles and Hellish Metal in the EBF, you can create §4§lIntensely Bonded Netherite Nanoparticles.§r\n\nThese are not only the pre-requisite ingredient for the dense netherite plate that you need for the Fusion Reactor, but also the pre-requisite material for making the rest of the Netherite parts after you create the Fusion Reactor so be sure to stockpile and manufacture as many as you can. \n\n[note]Keep in mind this recipe does require Naquadah Alloy coils![/note]",
+      "desc:8": "At long last... the final ingredient needed before making Netherite materials.\n\nThrough the combination of the Netherite Nanoparticles and Hellish Metal in the §5§lEBF§r, you can create §4Intensely Bonded Netherite Nanoparticles.§r\n\nThese are not only the primary pre-requisite ingredients for the dense Netherite plate that you need for the Fusion Reactor, but also the pre-requisite material for making the rest of the Netherite parts after you create the Fusion Reactor; so be sure to stockpile and manufacture as many as you can. \n\n[note]Keep in mind this recipe does require Naquadah Alloy coils![/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -45,7 +45,52 @@
   },
   "questIDHigh:4": -3621624798839420846,
   "questIDLow:4": -5888372301926931463,
-  "rewards:9": {},
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 32246,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.03"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 41,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnicianIII"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinChemistIII"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinSmithIII"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "autoConsume:1": 0,

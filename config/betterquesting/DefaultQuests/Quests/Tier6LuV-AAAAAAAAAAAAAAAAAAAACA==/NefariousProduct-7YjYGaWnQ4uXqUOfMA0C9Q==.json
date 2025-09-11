@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Now that you\u0027re producing Nether Semifluid, you can run it through a distillation tower to start extracting the nefarious products. You will need the Heavy Hellish Mud later in the line, and you\u0027ll need the Nefarious Gas for the next step.\n\n[note]Don\u0027t neglect the byproducts! There are a lot of useful bonus resources to be collected.[/note]",
+      "desc:8": "Now that you\u0027re producing Nether Semifluid§r, you can run it through a §5§lDistillation Tower§r to start extracting the nefarious products. You will need the §4Heavy Hellish Mud§r later in the line, and you\u0027ll need the §4Nefarious Gas§r for the next step.\n\n[note]Don\u0027t neglect the byproducts! There are a lot of useful bonus resources to be collected.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -32,7 +32,34 @@
   },
   "questIDHigh:4": -1330576085222997109,
   "questIDLow:4": -7518403751933312267,
-  "rewards:9": {},
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 41,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      }
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinChemistIII"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "autoConsume:1": 0,
