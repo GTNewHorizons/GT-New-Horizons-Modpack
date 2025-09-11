@@ -3540,7 +3540,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEw.desc=Alternative way to mass produce
 
 # Quest: Behold: The Netherite Line
 betterquesting.quest.AlYEP7f4T-KHgH8vicSXdg.name=§c§lBehold: The Netherite Line
-betterquesting.quest.AlYEP7f4T-KHgH8vicSXdg.desc=You didn't seriously think you only needed to do the Naquadah line in LuV did you? Well if so; better brace yourself for the Netherite line!%n%nDon't panic, it's a relatively straight-forward line so long as you can wrap your head around minor processing loops and percent based output. Fortunately you have a quest book to guide you through your initial setup.%n%nBe warned- you will need at least §2§lGrade 1 Purified Water§r and§5§l Naquadah Alloy§r to make it through this entire line.%n%n§3This questline will start you off with the three primary things you must prepare in order to begin:%n%n§l- Milled Netherrack%n- Nether Air%n- Ancient Debris Collection§r%n%n§3For at least one and likely two of those you will need to journey into the nether, so make sure you're prepared equipment wise!§r%n%n[warn]If you already created the line and do not wish to complete the individual quests, hold one of these three item sets in your hand after completing this quest: [/warn]%n%n§4§l- 1 Dense Netherite Plate%n- 64 Intensely Bonded Netherite Nanoparticles%n- 16 Netherite Ingots 
+betterquesting.quest.AlYEP7f4T-KHgH8vicSXdg.desc=You didn't seriously think you only needed to do the Naquadah line in LuV did you? Well if so; better brace yourself for the Netherite line!%n%nDon't panic, it's a relatively straight-forward line so long as you can wrap your head around minor processing loops and percent based output. Fortunately you have a quest book to guide you through your initial setup.%n%nBe warned- you will need at least §2§lGrade 1 Purified Water§r and§5§l Naquadah Coils§r to make it through this entire line.%n%n§3This questline will start you off with the three primary things you must prepare in order to begin:%n%n§l- Milled Netherrack%n- Nether Air%n- Ancient Debris Collection§r%n%n§3For at least one and likely two of those you will need to journey into the nether, so make sure you're prepared equipment wise!§r%n%n[warn]If you already created the line and do not wish to complete the individual quests, hold one of these three item sets in your hand after completing this quest: [/warn]%n%n§4§l- 1 Dense Netherite Plate%n- 64 Intensely Bonded Netherite Nanoparticles%n- 16 Netherite Ingots 
 
 # Quest: Ozonation
 betterquesting.quest.E9atHD5uR9CC0G1qEeFDmQ.name=§c§lOzonation
@@ -3596,7 +3596,7 @@ betterquesting.quest.x79CeO4ORDWIbPLtdtp1wQ.desc=Ever take a deep breath while r
 
 # Quest: Intensely Bonded Netherite Nanoparticles
 betterquesting.quest.zb1nbwNuSFKuSEyW3mVj-Q.name=§c§lIntensely Bonded Netherite Nanoparticles
-betterquesting.quest.zb1nbwNuSFKuSEyW3mVj-Q.desc=At long last... the final ingredient needed before making Netherite materials.%n%nThrough the combination of the Netherite Nanoparticles and Hellish Metal in the §5§lEBF§r, you can create §4Intensely Bonded Netherite Nanoparticles.§r As an added bonus for those who have invested in bees, using the combs from a Netherite Queen, will reward you with §2§l2x§r the product.%n%nThese are not only the primary pre-requisite ingredients for the Dense Netherite Plate that you need for the §3§lFusion Reactor§r, but also the pre-requisite material for making the rest of the Netherite parts after you have created one; so be sure to stockpile and manufacture as many of these nanoparticles as you can. %n%n[note]Keep in mind this recipe does require Naquadah Alloy coils![/note]
+betterquesting.quest.zb1nbwNuSFKuSEyW3mVj-Q.desc=At long last... the final ingredient needed before making Netherite materials.%n%nThrough the combination of the Netherite Nanoparticles and Hellish Metal in the §5§lEBF§r, you can create §4Intensely Bonded Netherite Nanoparticles.§r As an added bonus for those who have invested in bees, using the combs from a Netherite Queen, will reward you with §2§l2x§r the product.%n%nThese are not only the primary pre-requisite ingredients for the Dense Netherite Plate that you need for the §3§lFusion Reactor§r, but also the pre-requisite material for making the rest of the Netherite parts after you have created one; so be sure to stockpile and manufacture as many of these nanoparticles as you can. %n%n[note]Keep in mind this recipe does require Naquadah coils![/note]
 
 
 ## Quest Line: Tier 7 - ZPM
@@ -14423,7 +14423,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAF7Q.desc=...at last, the final chest, it
 
 # Quest: Angel Wings - Combine!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFTA.name=Angel Wings - Combine!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFTA.desc=The last step is to combine the quantum armor with your quantum wings. [note]This is not nearly as good as the other option, the GraviChestPlate.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFTA.desc=The Angel Wings aren't very protective on their own. Crafting the Infused Quantum Chestplate allows you to combine with the Angel Wings to have a functional and protective combination!%n%n[note]This is still not nearly as good as the other option, the GraviChestPlate.[/note]
 
 # Quest: Light It Up!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFWg.name=Light It Up!
