@@ -131,7 +131,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALOg.desc=Minecraft works in chunks - the
 
 # Quest: Permanent Offhand!
 betterquesting.quest.U7JoxM0mRaWx0MYriD2LtQ.name=§9§lPermanent Offhand!
-betterquesting.quest.U7JoxM0mRaWx0MYriD2LtQ.desc=With the release of version 2.8 of GTNH, the modern offhand slot has been backported and is available for every player. %n%nWith this, we say goodbye to the Battlegear slots of before. The three slots on either side of your hotbar, default key "G", are no longer!%n%nDefault Keybind to swap between mainhand and offhand: §9F§r%n%n[warn]Any items that were in the Battlegear slots should return to your inventory or dropped on the ground if your inventory is full.[/warn]%n%n[note]You can also toggle various Torch Tweaks in Backhand's mod client configs. They are disabled by default, but you may find them useful if you love holding torches in your offhand.[/note]
+betterquesting.quest.U7JoxM0mRaWx0MYriD2LtQ.desc=With the release of version 2.8 of GTNH, the modern offhand slot has been backported and is available for every player. %n%nWith this, we say goodbye to the Battlegear slots of before. The three slots on either side of your hotbar, default key "G", are no longer!%n%nThis feature also works with any item that opens a GUI, like a backpack for example. This makes inventory management easier and helps with certain tedious tasks.%n%nDefault Keybind to swap between mainhand and offhand: §9F§r%n%n[warn]Any items that were in the Battlegear slots should return to your inventory or dropped on the ground if your inventory is full.[/warn]%n%n[note]You can also toggle various Torch Tweaks in Backhand's mod client configs. They are disabled by default, but you may find them useful if you love holding torches in your offhand.[/note]
 
 
 ## Quest Line: Tips and Tricks
@@ -249,7 +249,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAJA.desc=In order to craft even basic ma
 
 # Quest: Getting Iron
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAJQ.name=§2§lGetting Iron
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAJQ.desc=Iron can be found in multiple veins.%nMagnetite veins (Y 30-180), Chalcopyrite veins (Y 5-60), and Limonite veins (Y 10-40) all contain iron ore.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAJQ.desc=Iron can be found in multiple veins, and there are many types of ores that will smelt down into iron ingots such as magnetite, brown / yellow limonite, banded iron, roasted iron, and granitic / basaltic mineral sand.%n%n§lIron-Rich Veins:%n§rMagnetite veins (Y 60-180)%nChalcopyrite veins (Y 5-60) %nGold veins (Y 30-60)%nLimonite veins (Y 10-40)%n%n[note]You can use NEI to see information for all of the ore veins in the game![/note]
 
 # Quest: Making Better Tools
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAJg.name=§2§lMaking Better Tools
@@ -397,7 +397,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAG_g.desc=For your new House you need som
 
 # Quest: When All You Have is a Hammer...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGyg.name=§2§lWhen All You Have is a Hammer...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGyg.desc=...the whole world looks like a nail. When looking for good tool materials, see "GregTech Material Tools" tab in NEI. Remember that NEI bookmarks are your friends.%n%nThe GT tools each have special uses.%n%nScrewdriver - Used on covers to change their behavior.%n%nWrench - Used to change the output direction on a GT machine, or to break it. Can also disconnect/connect pipes or enable their built in shutter.%n%nCrowbar - Remove covers from machines or pipes.%n%nWire cutters - Connecting/disconnecting/breaking wires/cables.%n%nSoft mallet - Turning machines on/off.%n%nHammer - Prospecting for ores in a limited way in front of you, and smashing ore blocks into crushed ores.%n%nOn a side note, Tin Pipes need a Steel Wrench to dismantle, so don't place them randomly.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGyg.desc=...the whole world looks like a nail. %n%nWhen looking for good tool materials, see "GregTech Material Tools" tab in NEI. Remember that NEI bookmarks are your friends.%n%nThe GT tools each have special uses.%n%n§lScrewdriver§r - Used on covers to change their behavior or on machines to change their input mode.%n%n§lWrench§r - Used to change the output direction on a GT machine, or to break it. Can also disconnect/connect pipes or enable their built in shutter.%n%n§lCrowbar§r - Remove covers from machines or pipes.%n%n§lWire cutters§r - Connecting/disconnecting/breaking wires/cables.%n%n§lSoft mallet§r - Turning machines on/off.%n%n§lHammer§r - Prospecting for ores in a limited way in front of you, smashing ore blocks into crushed ores, and muffling machine sounds.%n%n§lPlunger§r - Drain fluids from a machine or tank%n%n[note]On a side note, Tin Pipes need a Steel Wrench to dismantle, so don't place them randomly, and pay attention to material levels![/note]
 
 # Quest: Circle Shapes Give Me Comfort
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHJw.name=§2§lCircle Shapes Give Me Comfort
@@ -1243,7 +1243,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEaw.desc=If you have some time you can l
 
 # Quest: LV Advanced Steam Boiler
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEbg.name=§5§lLV Advanced Steam Boiler
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEbg.desc=The LV GT++ Steam Boiler is the next machine you can build to produce steam more efficiently than with the High Pressure Boiler. It won't use fuel up unless it starts to run low on steam, so it's very efficient.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEbg.desc=The LV GT++ Steam Boiler is the next machine you can build to produce steam more efficiently than with the previous single block boilers. It won't use fuel unless it cools below 100 degrees and gains a higher efficiency with longer burning fuels.%n%n[note]Fortunately, it won't explode if you let it run dry but it §nwill waste fuel§r if there is no water present.[/note]
 
 # Quest: Lossless LV Cables
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEcA.name=§5§lLossless LV Cables
@@ -3814,7 +3814,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKSQ.desc=You need Quantum Power ICs for 
 
 # Quest: Circuits, Assemble!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKSw.name=Circuits, Assemble!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKSw.desc=To make Wetware Circuits (UHV-Tier Circuits), you need to make a ZPM Circuit Assembling Machine.%n%nWhat? Did you think that just because you made the multi you can skip out making the singleblock? Well, too bad! You still need to use it to make the first circuit for the imprints.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKSw.desc=To make Wetware Circuits (UHV-Tier Circuits), you need to make either a ZPM Circuit Assembling Machine, or a UV energy hatch for your Circuit Assembly Machine.
 
 # Quest: Cheaper IV Circuits
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKTg.name=Cheaper IV Circuits
@@ -3983,7 +3983,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKRQ.desc=If you want to make the T8 Rock
 
 # Quest: Assembling Living Circuits
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKTA.name=Assembling Living Circuits
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKTA.desc=To make Bioware Boards and Circuits, you need to make a UV Circuit Assembling Machine.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKTA.desc=To make Bioware Boards and Circuits, you need to either make a UV Circuit Assembling Machine or obtain a UHV energy hatch for your circuit assembly machine.
 
 # Quest: The Final Frontier?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKWA.name=The Final Frontier?
@@ -4220,7 +4220,7 @@ betterquesting.quest.k9PA3buhTvK1EJpPfA8ZAg.desc=Welcome to UEV! Now that you've
 
 # Quest: One Last Time
 betterquesting.quest.msIxGO5gQCWJPmEyp_JhtQ.name=One Last Time
-betterquesting.quest.msIxGO5gQCWJPmEyp_JhtQ.desc=For the final circuit line currently in the game, you will need to make one last circuit assembler.
+betterquesting.quest.msIxGO5gQCWJPmEyp_JhtQ.desc=For the final circuit line currently in the game, you will need to either make one last circuit assembler, or a UEV hatch for your circuit assembly machine.
 
 # Quest: Stabilized Baryonic Matter
 betterquesting.quest.n8PKF63sSSi0y8ZBb2RIKQ.name=Stabilized Baryonic Matter
@@ -5656,10 +5656,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHmg.desc=The Iron wand will last longer 
 # Quest: Mid-Tier Wand
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHmw.name=Mid-Tier Wand
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHmw.desc=The next tier up wand is the Diamond wand. Has all kinds of fun modes. Just be careful using it, would hate to place a bunch of blocks accidentally!
-
-# Quest: No ASMR From Your Machines?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHnA.name=No ASMR From Your Machines?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHnA.desc=If the sounds of your machines are driving you crazy, you can add a muffler upgrade to block them out.%n%nNOTE: This also means you won't hear when the machine is out of energy. Also, once applied the upgrade cannot be removed.
 
 # Quest: Botany
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHoA.name=Botany
@@ -8258,6 +8254,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMhw.desc=At this point, why not? You sho
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAIg.name=Space Race
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAIg.desc=A guide to help you start Galacticraft to reach the Moon and beyond
 
+# Quest: Cetane Boosted Diesel
+betterquesting.quest.0TQy1g-KQ0GMuvc5n6c2Tg.name=§9§lCetane Boosted Diesel
+betterquesting.quest.0TQy1g-KQ0GMuvc5n6c2Tg.desc=The other option is Cetane-Boosted Diesel. %n%nYou will need to mix either Diesel or Bio Diesel with Tetranitromethane. Check out the related quests in [quest]Tier 3 - HV[/quest] or [quest]Working with Oil[/quest] tabs for more information.
+
 # Quest: Can I Build A Mothership For My Father?
 betterquesting.quest.1R8whL35Qnm93uBUpchI0A.name=Can I Build A Mothership For My Father?
 betterquesting.quest.1R8whL35Qnm93uBUpchI0A.desc=The §1§lMothership§r is a Space Station which you can move to a different celestial body (even stars!). It is the only way to get to the outermost system, the Amun-Ra system. That system has six planets and moons you can access. The most important one is Seth, where you can find §aRaw Tengam Ore§r.
@@ -8283,8 +8283,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAA2g.name=Reward Choice: Loot
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA2g.desc=Don't need a personal dimension, eh? Well, then you'll probably be happy with some extra loot. Choose wisely; you can only pick one.%n%n[note]PS: The loot is lame, don't pick this one.[/note]
 
 # Quest: H8N4C2O4 (Green) Rocket Fuel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAkw.name=H8N4C2O4 (Green) Rocket Fuel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAkw.desc=This is the final Rocket Fuel. With this, you can go anywhere. If you have the right rocket, of course.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAkw.name=§2§lH8N4C2O4 (Green) Rocket Fuel
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAkw.desc=Combine your Nitrogen Tetroxide and 1,1-Dimethylhydrazine in a Laurenium (Tier 7) Chemical Plant to make the green rocket fuel.%n%nThis is the final Rocket Fuel. With this, you can go anywhere. If you have the right rocket, of course.
 
 # Quest: Load and Unload the Rocket
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAzA.name=Load and Unload the Rocket
@@ -8359,8 +8359,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADOA.name=Oxygen Tanks
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADOA.desc=The Light oxygen tank is an oxygen storage tank that can hold up to 1000 units of air. It is used to provide a portable source of oxygen while in areas that do not have an oxygen source of their own.%n%nUsage:%nUp to two oxygen tanks can be worn at a time. To wear any type of oxygen tank, open your inventory and click on the Galacticraft tab at the top of the menu. Here you will see the available spots for your various types of equipment. Simply place your tank(s) in one of the slots with a gray picture of an oxygen tank. Other types of oxygen tanks include the medium oxygen tank, which holds twice the amount of oxygen as a light tank, and the heavy oxygen tank, which holds three times the amount of a light tank.
 
 # Quest: Rocket Fuel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADOw.name=Rocket Fuel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADOw.desc=For every flight the rocket needs some fuel. So refine some fuel for your rocket.%n%nFor your T1/2 rockets you have 2 options. You can either use Cetane-Boosted Diesel or make RP-1 rocket fuel. We will have a look at RP-1 rocket fuel in the next quest.%n%nYou'll need something with more oomph for the later rockets.%n%nFor the moon, a full rocket leaving from the OW should have enough fuel left to make it back. But you might want to take extra just in case.%n%nRocket Fuel usage is not based on either the destination or the type of fuel used, but instead the rocket itself, with higher tiers both storing more fuel, and consuming less. Also, the gravity of the planet affects how much fuel is used, with lower gravity locations using less fuel to launch.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADOw.name=§9§lRocket Fuel
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADOw.desc=For every flight the rocket needs some fuel. So refine some fuel for your rocket.%nThis quest chain will guide you through the progression of rocket fuels.%n%nFor your T1 & T2 rockets you have 2 options. You can either use Cetane-Boosted Diesel or make RP-1 rocket fuel.%n%nFor the moon, a full rocket leaving from the Overworld should have enough fuel left to make it back, but you might want to take extra just in case.%n%n[note]Rocket Fuel usage is not based on the destination nor the type of fuel used. Rather, it is based on the tier of the rocket, with higher tiers both storing more fuel, and consuming less. Also, the gravity of the planet affects how much fuel is used, with lower gravity locations using less fuel to launch.[/note]
 
 # Quest: Oxygen Collector
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADPA.name=Oxygen Collector
@@ -8384,7 +8384,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADQA.desc=The basic wafer is used for cre
 
 # Quest: 1,1-Dimethylhydrazine
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADWA.name=§9§l1,1-Dimethylhydrazine
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADWA.desc=To make 1,1-Dimethylhydrazine you need to combine some Hydrazine and Formaldehyde with Hydrogen along with a Formaldehyde Catalyst in a Chemical Plant.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADWA.desc=Use your Formaldehyde to make 1,1-Dimethylhydrazine. You need to combine it with some Hydrazine and Hydrogen along with a Formaldehyde Catalyst in a Chemical Plant.
 
 # Quest: Formaldehyde
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADWQ.name=§9§lFormaldehyde
@@ -8640,19 +8640,19 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGzw.desc=Mars is rich in Salt Water and 
 
 # Quest: Nitrogen Tetroxide
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI9Q.name=§b§a§9§lNitrogen Tetroxide
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI9Q.desc=To make Nitrogen Tetroxide you need to combine some Copper Dust and Nitric Acid along with an Orange Metal Catalyst in a Chemical Plant. It needs Palladium, so make sure you have some.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI9Q.desc=Another ingredient for the final rocket fuel is Nitrogen Tetroxide. Combine some Copper Dust and Nitric Acid along with an Orange Metal Catalyst in the Chemical Plant. 
 
 # Quest: Hydrazine
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJWg.name=Hydrazine
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJWg.name=§9§lHydrazine
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJWg.desc=Hydrazine is made from Ammonia and Hydrogen Peroxide.
 
 # Quest: Formaldehyde Catalyst
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJWw.name=Formaldehyde Catalyst
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJWw.desc=Making Formaldehyde will require a catalyst. You can make it by mixing Iron and Vanadium, and placing the mix into a carrier.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJWw.name=§9§lFormaldehyde Catalyst
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJWw.desc=Time for the last tier of Rocket Fuel. First, make some Formaldehyde. It will require a catalyst. You can make it by mixing Iron and Vanadium, and placing the mix into a carrier.
 
 # Quest: Hydrogen Peroxide
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJXA.name=Hydrogen Peroxide
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJXA.desc=To make Hydrogen Peroxide you combine Air (or Oxygen), 2-Ethylanthrahydroquinone, and Anthracene in a Chemical Plant.%n%nYou can fully recycle 2-Ethylanthraquinone, so don't make a bunch of them.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJXA.name=§9§lHydrogen Peroxide
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJXA.desc=To make Hydrogen Peroxide you combine Oxygen (or Air), 2-Ethylanthrahydroquinone, and Anthracene in a Chemical Plant.%n%n[note]You can fully recycle the 2-Ethylanthraquinone, so don't make a bunch of it.[/note]
 
 # Quest: Tier 6 Heavy Duty Plates
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKTw.name=Tier 6 Heavy Duty Plates
@@ -8679,48 +8679,48 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKVA.name=Rocket Tier 8
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKVA.desc=You can travel to other solar systems with this, the T8 rocket.%n%nWhat, you visited other star systems before? There, was, uh, like, a nebula you couldn't go past to these ones. That makes sense, right?%n%nYou need to use H8N4C2O4 (Green) Rocket Fuel to fuel it.%n%n[note]In case you forgot to complete any, holding the rocket in your hand will unlock all pre-requisite quests in addition to this one.[/note]
 
 # Quest: RP-1 Rocket Fuel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKfA.name=RP-1 Rocket Fuel
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKfA.name=§9§lRP-1 Rocket Fuel
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKfA.desc=One option to fuel your T1 and T2 rocket is RP-1 Rocket Fuel. First, you'll need either Diesel or Coal Tar. Coal Tar is the better option on the long run, since you'll need the other products of distilling it to make other rocket fuels, but for now you can use Diesel.%n%n[note]If you're using Diesel, you need 20 cells, if using Coal Tar, you need 30. Unless you use a DT, in which case it doesn't divide evenly anymore.[/note]%n%nDistill it in the Distillery to get Kerosene, then distill it again to get RP-1. You'll need a Chemical Plant for the last step.%n%nRP-1 Rocket Fuel is a T4 240 EU/t recipe, so you'll need to make the CP out of Stainless Steel and HV Machine Casings.%n%nSince there is no oxygen in space, you will also need an oxidizer. But since the Galacticraft rocket can only take one fluid we have simplified that a bit. Just combine Liquid Oxygen and RP-1 to make the fully functional RP-1 Rocket Fuel.%n%nIf you're confused about how to use/make the Chemical Plant, refer to the manual with the same name or the quest in the GT++ quest tab.%n%n[note]PS: You can also use Rocket Fuels for power in Rocket Engines, or the Rocketdyne F-1A Engine multi.[/note]
 
 # Quest: Coal Tar Distilling
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKfQ.name=Coal Tar Distilling
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKfQ.desc=There are two ways to make Phthalic Acid. One is explored here, the other in the IV quest tab. However, we don't just need the Coal Tar for that, we also need it for Anthracene!%n%nIn order to distill Coal Tar, you need to get some first. To do so, run Charcoal, Lignite, Coal, or Coal Coke though either the Industrial Coke Oven or the Pyrolyse Oven.%n%nSince you need multiple products, use a Distillery Tower to get them all. Everything other than Naphtha is used to make Rocket Fuels.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKfQ.name=§9§lCoal Tar Distilling
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKfQ.desc=The next tier of rocket fuel is Dense Hydrazine. To start, let's make Phthalic Acid.%n%nThere are two ways to make Phthalic Acid. One is explored here, the other in the IV quest tab. However, we don't just need the Coal Tar for that, we also need it for Anthracene!%n%nIn order to distill Coal Tar, you need to get some first. To do so, run Charcoal, Lignite, Coal, or Coal Coke though either the Industrial Coke Oven or the Pyrolyse Oven.%n%nSince you need multiple products, use a Distillery Tower to get them all. Everything other than Naphtha is used to make Rocket Fuels.
 
 # Quest: Dense Hydrazine
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKfg.name=Dense Hydrazine
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKfg.desc=Dense Hydrazine is needed starting from rocket tier 3, so you should make some if you want to keep exploring space.%n%nIt's a T5 240 EU/t recipe, so you'll need to build Chemical Plant out of Titanium.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKfg.name=§4§lDense Hydrazine
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKfg.desc=Mix Hydrazine and Methanol in a Titanium Chemical Plant to make Dense Hydrazine for your Tier 3 and 4 Rockets.
 
 # Quest: Monomethylhydrazine
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKfw.name=Monomethylhydrazine
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKfw.desc=You'll need this if you want to make CN3H7O3 (Purple) Rocket Fuel. It's also made in the Chemical Plant.%n%n[note]Look up recipe for CN3H7O3 to properly see recipe for Monomethylhydrazine.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKfw.name=§9§lMonomethylhydrazine
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKfw.desc=For Tier 5 and 6 rockets you'll need to make CN3H7O3 (Purple) Rocket Fuel. %n%nTo start, make some Monomethylhydrazine.
 
 # Quest: CN3H7O3 (Purple) Rocket Fuel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKgA.name=CN3H7O3 (Purple) Rocket Fuel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKgA.desc=To make CN3H7O3 for your T5 rocket, you'll need to combine Monomethylhydrazine and Nitric Acid in a Chemical Plant. Make sure to upgrade your casings to Tungstensteel.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKgA.name=§5§lCN3H7O3 (Purple) Rocket Fuel
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKgA.desc=Combine Monomethylhydrazine and Nitric Acid in a Chemical Plant. Make sure to upgrade your casings to Tungstensteel.
 
 # Quest: 2-Ethylanthrahydroquinone
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKgg.name=2-Ethylanthrahydroquinone
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKgg.name=§9§l2-Ethylanthrahydroquinone
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKgg.desc=To make this complicated sounding chemical, combine the similarly named 2-Ethylanthraquinone and Hydrogen along with an Orange Catalyst in the Chemical Plant.%n%n[note]You need Palladium to make the Catalyst, so keep that in mind.[/note]
 
 # Quest: 2-Ethylanthraquinone
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKgw.name=2-Ethylanthraquinone
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKgw.name=§9§l2-Ethylanthraquinone
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKgw.desc=Does anyone else wonder why these chemicals have numbers in the name? No? Just me? Moving on, to make it, combine Phthalic Anhydride and Ethylbenzene in the Chemical Plant to make 2-Ethylanthraquinone.%n%nBTW the other recipe that makes this is used later in the processing chain. You can loop the 2-Ethylanthraquinone so you don't have to make more if you don't want to scale up.%n%n[note]You need Palladium for the next quest.[/note]
 
 # Quest: How Do You Even Pronounce This?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKhA.name=How Do You Even Pronounce This?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKhA.name=§9§lHow Do You Even Pronounce This?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKhA.desc=To make Phthalic Anhydride, use a dehydrator.
 
 # Quest: Phthalic Acid, The Cool Kids' Way
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKhQ.name=Phthalic Acid, The Cool Kids' Way
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKhQ.name=§9§lPhthalic Acid, The Cool Kids' Way
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKhQ.desc=Make Phthalic Acid out of Naphthalene and Lithium in a Chemical Reactor.%n%nIronically, you can't make this out of Naphtha.
 
 # Quest: Naphthalene
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKhg.name=Naphthalene
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKhg.desc=To make Naphthalene, combine your Coal Oil Tar with Sulfuric Acid to get Sulfuric Coal Tar Oil.%n%nThen distill it to get Naphthalene. Seem easy? It gets harder.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKhg.name=§9§lNaphthalene
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKhg.desc=To make Naphthalene, combine your Coal Tar Oil with Sulfuric Acid to get Sulfuric Coal Tar Oil, then distill it to get Naphthalene. Seems easy? It gets harder.
 
 # Quest: Serious Upgrades
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKhw.name=Serious Upgrades
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKhw.desc=So if you thought 'hey, the purple stuff wasn't that bad, why not make the green?', well, first of all, you may need professional help. Second, you're going to need to be in ZPM to make the casings you need, full stop. You need a ZPM ABS for the components, so come back once you've made a ZPM Energy Hatch.%n%nYou can probably figure most of it out on your own, but keep in mind that some of the materials need to be created in the ABS, solidified, macerated, and then used in another ABS recipe. The examples here are Hastelloy-N for Lafium Compound and, Rhenium for Laurenium. Rhenium itself is made with a nonstandard ABS recipe. You also need Dysprosium which requires either making Rare Earth (III) or going to the Toxic Everglades. And either Rare Earth (II) or Rare Earth (III) for Ytterbium unless, again, you visit the Everglades for it. [warn]The Everglades ore veins might be very hard to find, due to their rarity.[/warn] You could also get Ytterbium from Almandine Ore if you are willing to try GT++ Milling and Froth Flotation.%n%nHave fun with that!%n%n[note]You'll almost certainly need more than this, but the exact amount, as always, depends on your hatches and buses.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKhw.name=§9§lSerious Upgrades
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKhw.desc=So if you thought 'hey, the purple stuff wasn't that bad, why not make the green?', well, first of all, you may need professional help. Second, you're going to need to be in ZPM to make the casings you need, full stop. You need a ZPM ABS for the components, so come back once you've made a ZPM Energy Hatch.%n%nYou can probably figure most of it out on your own, but keep in mind that some of the materials need to be created in the ABS, solidified, macerated, and then used in another ABS recipe. The examples here are Hastelloy-N for Lafium Compound and, Rhenium for Laurenium. Rhenium itself is made with a nonstandard ABS recipe. You also need Dysprosium which requires either making Rare Earth (III) or going to the Toxic Everglades. You'll also need either Rare Earth (II) or Rare Earth (III) for Ytterbium unless, again, you visit the Everglades for it. [warn]The Everglades ore veins might be very hard to find, due to their rarity.[/warn] You could also get Ytterbium from Almandine Ore if you are willing to try GT++ Milling and Froth Flotation.%n%nHave fun with that!%n%n[note]You'll almost certainly need more than this, but the exact amount, as always, depends on your hatches and buses.[/note]
 
 # Quest: Tier 7 Control Computer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKjg.name=Tier 7 Control Computer
@@ -8811,8 +8811,8 @@ betterquesting.quest.hB5tvfilRVi42OpLLhCwlw.name=Don't Tell Me I Need To Read A 
 betterquesting.quest.hB5tvfilRVi42OpLLhCwlw.desc=The Mothership Navigation Console is used to select the Mothership's destination.
 
 # Quest: A Better Rocket Fuel
-betterquesting.quest.qz7VHLFvQx6gDw3KZDIj0g.name=A Better Rocket Fuel
-betterquesting.quest.qz7VHLFvQx6gDw3KZDIj0g.desc=If you want to go further than Mars you need a better rocket fuel. From here on out there is only one choice. The Chemical Plant is at the heart of the production. If you don't have one yet, you should have a look at it. It has 4 separate tier system and might be a bit over whelming at first, but there is a minecraft book that can tell you everything about it. Also check out the quest for the Chemical Plant in the GT++ quest tab.
+betterquesting.quest.qz7VHLFvQx6gDw3KZDIj0g.name=§9§lA Better Rocket Fuel
+betterquesting.quest.qz7VHLFvQx6gDw3KZDIj0g.desc=If you want to go further than Mars you need a better rocket fuel. From here on out, there is only one choice: the ExxonMobil Chemical Plant. If you don't have one yet, you should have a look at it. It has 4 separate tiering systems and might be a bit overwhelming at first. %n%n[note]Check out the quest for the Chemical Plant in the [quest]Multiblock Goals[/quest] quest tab for more information.[/note]%n%n§6If you already automated one of the upcoming rocket fuels, simply hold 32 cells of it to skip all quests leading up to it!
 
 # Quest: Does It Contain A Black Hole?
 betterquesting.quest.rfqcIf4uT--m6nYPenl8PQ.name=Does It Contain A Black Hole?
@@ -12693,7 +12693,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJcQ.desc=There are two ways to change bi
 
 # Quest: The Easy Way to Change Biomes
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJcg.name=The Easy Way to Change Biomes
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJcg.desc=So you want the easy way? Ok, go get this stuff:%nMandrake Root, Nether Wart, Tear of the Goddess, Diamond Vapor, and a Diamond.%n%nThen toss it in the Witch's Cauldron IN THAT ORDER, before also tossing in a page from the Book of Biomes (Extended) (craft it with a piece of paper while on the page of the biome you want), followed by a bit of Gunpowder.%nThen just use a bottle to get the brew. If wearing your Robes or Hat, you may even get more than one! You may get even more if you have a ton of brewing expertise.%n%nIf it failed, you may not have enough Altar Power: you need 5450 at least. Try placing down a Dragon Egg or Demon Heart if you're close. For more details on altar power, check the wiki page here [url]https://ftbwiki.org/Altar[/url].%n%nIf you want to have more than a single changed block, then add Glowstone Dust, Blaze Rod and Attuned Stone (Charged) in that order to increase the effect (and Altar Power cost slightly) by +1 for each. Do this before adding in the page.%n%nFor more detailed info, check out the Witches' Brews book. Click on Brewing, then go to the Brews: Step-by-step page. This should tell you what you need to know. For what each of the brews actually does, see the Effects page. Only Effects use Capacity, and you can have multiple.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJcg.desc=So you want the easy way? Understandable. The only prerequisite is an altar with at least 5,450 power. Try placing many different crops around the altar and a Dragon Egg on top to boost it. Otherwise, the process is as simple as dropping the following items into the Witch's Cauldron §b[warn]IN ORDER[/warn]§r.%n%n  1. Netherwart (+2 Capacity)%n  2. Tear of the Goddess (+2 Capacity)%n  3. Diamond Vapor (+2 Capacity)%n  4. Diamond (+2 Capacity)%n%n§7  5. Optional, Glowstone Dust (+1 Radius)%n  6. Optional, Blaze Rod (+1 Radius)%n  7. Optional, Charged Attuned Stone (+1 Radius)§r%n%n  8. Book of Biomes Page (Chooses Biome)%n  9. Gunpowder (Add Splash Effect)%n  10. Collect with Glass Bottle (Requires 5,450 Altar Power)%n%nThe maximum radius is 4 blocks, if all three optional ingredients are included. You may get more than one brew if you are wearing your robes/hat, or have a ton of witchery brewing expertise.%n%n[note]For more detailed info, check out the Witches' Brews book. Click on Brewing, then go to the Brews: Step-by-step page. That should tell you what you need to know. To learn what each of the brews do, see the Effects page.[/note]
 
 # Quest: The Hard Way to Change Biomes
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJcw.name=The Hard Way to Change Biomes
@@ -14603,7 +14603,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMzw.desc=There must be a way to make a n
 
 # Quest: A Portable Barrel?
 betterquesting.quest.EDtFbLVvQX2Y5mQp84W9bw.name=§2§lA Portable Barrel?
-betterquesting.quest.EDtFbLVvQX2Y5mQp84W9bw.desc=As an upgrade to the barrels, EFR also adds the ever-familiar shulker box! The shulker box allows you to portably tote it's contents. You can find the research for them in the New Horizons tab of the Thaumonomicon.%n%nThese have seven additional tiers much like the barrels and chests that give you additional storage space. %n%nYou can dye any tier by shapelessly crafting them with a dye, and undye them by shapelessly crafting them alone. They §nwill§r retain their inventory. %n%n[note]Checkout the coins tab if you're looking for shells![/note]
+betterquesting.quest.EDtFbLVvQX2Y5mQp84W9bw.desc=As an upgrade to the barrels, EFR also adds the ever-familiar shulker box! The shulker box allows you to portably tote it's contents. You can find the research for them in the New Horizons tab of the Thaumonomicon.%n%nThese have seven additional tiers much like the barrels and chests that give you additional storage space. %n%nYou can dye any tier by shapelessly crafting them with a dye, and undye them by shapelessly crafting them alone. They §nwill§r retain their inventory. %n%n[note]There are many ways to obtain shulker shells:%n1. Fighting Shulkers in the Twilight Forest Lich & Ghast Queen Towers.%n2. Fighting Shulkers from the eggs in the Coins tab%n3. Manually crafting the shells[/note]
 
 # Quest: Gold Barrel
 betterquesting.quest.GuylOTxSSraeAtj16fZ9-w.name=§3§lGold Barrel
@@ -14619,7 +14619,7 @@ betterquesting.quest.QNsm_wc0QO2g9C6_-vj2fA.desc=Now that you are starting to fi
 
 # Quest: Steel Chest?
 betterquesting.quest.V4jinTYRSueIrEqn90dRzQ.name=§3§lSteel Chest?
-betterquesting.quest.V4jinTYRSueIrEqn90dRzQ.desc=While being significantly more expensive than gold chest, the steel chest has less capacity but it can be used in some specialized crafting recipes.
+betterquesting.quest.V4jinTYRSueIrEqn90dRzQ.desc=While being significantly more expensive than a gold chest, the steel chest has less capacity but it can be used in some specialized crafting recipes.
 
 # Quest: The future is here!
 betterquesting.quest.V9BupH47RI6RWX6vff5dpw.name=§2§lThe future is here!
@@ -14788,6 +14788,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMjw.desc=No Description
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrw.name=Tool: Never complete
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrw.desc=This quest should never be complete which is useful to hide templates and other things.
 
+# Quest: Trigger: Dense Hydrazine Skip
+betterquesting.quest.CSYjTrFrQwi2XzCFUOAIjg.name=Trigger: Dense Hydrazine Skip
+betterquesting.quest.CSYjTrFrQwi2XzCFUOAIjg.desc=No Description
+
 # Quest: Trigger: Graphene Skip
 betterquesting.quest.MdXhDkN_TECH5kMp4OM2Gg.name=Trigger: Graphene Skip
 betterquesting.quest.MdXhDkN_TECH5kMp4OM2Gg.desc=No Description
@@ -14852,9 +14856,17 @@ betterquesting.quest.kZ6QmUGzTCitYMg_BdiVeQ.desc=No Description
 betterquesting.quest.qFco17HGS0SxmpVn-uWJZQ.name=Trigger: Nether Skip
 betterquesting.quest.qFco17HGS0SxmpVn-uWJZQ.desc=No Description
 
+# Quest: Trigger: H8N4C2O4 (Green) Rocket Fuel Skip
+betterquesting.quest.rTYfjovjSEazD4lgxmmkEA.name=Trigger: H8N4C2O4 (Green) Rocket Fuel Skip
+betterquesting.quest.rTYfjovjSEazD4lgxmmkEA.desc=No Description
+
 # Quest: Trigger: LV Extruder Skip
 betterquesting.quest.sIP_FoxIRaeE08GesBwYcQ.name=Trigger: LV Extruder Skip
 betterquesting.quest.sIP_FoxIRaeE08GesBwYcQ.desc=No Description
+
+# Quest: Trigger: CN3H7O3 (Purple) Rocket Fuel Skip
+betterquesting.quest.vP1W1MPQTOa4kzbCpQJzOQ.name=Trigger: CN3H7O3 (Purple) Rocket Fuel Skip
+betterquesting.quest.vP1W1MPQTOa4kzbCpQJzOQ.desc=No Description
 
 # Quest: Trigger: Rocket Tier 6 Skip
 betterquesting.quest.xcpJ6bs3R-i9KuADhiHOXw.name=Trigger: Rocket Tier 6 Skip
