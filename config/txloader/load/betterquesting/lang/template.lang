@@ -3282,6 +3282,26 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAACA.desc=If you have made it this fa
 betterquesting.quest.-2oHGhi4Q22pvhQHb3IaCA.name=§c§lIndustrial Water Purification
 betterquesting.quest.-2oHGhi4Q22pvhQHb3IaCA.desc=For a while now, you have been able to get away with cutting and engraving your silicon circuit wafers with nothing but the bare metal of your machines. However, this can cause significant imperfections in the final wafer, so now that you are producing even more advanced circuitry such imperfections are no longer tolerable.%n%nWith the ability to make LuV components, you can now make the Water Purification Plant. This multiblock allows you to make purified water, which will be helpful in making wafers of increasing purity and perfection. For your current Naquadah-Doped Wafers, this is not yet necessary, but using purified water may significantly speed up the process, so it's definitely worth checking out.%n%nThe Water Purification Plant does not run recipes itself. Instead, it provides the core logistics for your water purification line to work. Around it you can build water purification units that link to the Water Purification Plant. The plant then provides power and maintenance to the different units, and synchronizes their recipe cycles.
 
+# Quest: Netherite Scrap Seed
+betterquesting.quest.01C00SMsRUyKUD2zJht8tA.name=§c§lNetherite Scrap Seed
+betterquesting.quest.01C00SMsRUyKUD2zJht8tA.desc=Finally, we can start putting some of that Netherite Scrap to use!%n%nCombine the Hot Neterite Scrap and some Rich Nether Waste in an §5§lAutoclave§r for a §2§l10%%§r chance at getting a §4Netherite Scrap Seed§r. %n%nNotably, as mentioned before, the Netherite Scrap gets recycled during this recipe so it only really costs Rich Nether Waste to create. Given the low probability, you want the recipe to be running as often as possible.%n%n%n%n
+
+# Quest: Dense Netherite Plate
+betterquesting.quest.4v3YtOxvT8aWIwy7NEJNhw.name=§c§lDense Netherite Plate
+betterquesting.quest.4v3YtOxvT8aWIwy7NEJNhw.desc=Once you've managed to aquire 36 of these Intensely Bonded Netherite Nanoparticles you can finally create your very first Netherite material: The §4§lDense Netherite Plate§r.%n%nYou will need one of these for the §3§lMk1 Fusion Reactor§r, which is required to create the rest of the Netherite materials.
+
+# Quest: Nefarious Production
+betterquesting.quest.7YjYGaWnQ4uXqUOfMA0C9Q.name=§c§lNefarious Production
+betterquesting.quest.7YjYGaWnQ4uXqUOfMA0C9Q.desc=Now that you're producing Nether Semifluid§r, you can run it through a §5§lDistillation Tower§r to start extracting the nefarious products. You will need the §4Heavy Hellish Mud§r later in the line, and you'll need the §4Nefarious Gas§r for the next step.%n%n[note]Don't neglect the byproducts! There are a lot of useful bonus resources to be collected.[/note]
+
+# Quest: Hot Netherite Scrap
+betterquesting.quest.8zpQos1hR1CbwmWldvxSpg.name=§c§lHot Netherite Scrap
+betterquesting.quest.8zpQos1hR1CbwmWldvxSpg.desc=Heating up the Netherite Scrap is a rather quick and cheap process; simply throwing it in the §5§lChemical Bath§r with a little lava ought to do the trick! %n%nBear in mind though, you will be re-heating this scrap many times over so it's definitely recommended to have a substantial supply of lava to be able to pull from. 
+
+# Quest: Netherite Materials
+betterquesting.quest.9dt9i3MYRa-NB6KROtAYFA.name=§c§lNetherite Materials
+betterquesting.quest.9dt9i3MYRa-NB6KROtAYFA.desc=Now that you've completed the Netherite line and successfully set up your Mk1 Fusion Reactor, you finally have access to the ingredients necessary for creating all of the different §4Netherite materials§r. %n%nThese will be important for the rest of the game and are used often in a variety of items and materials, so it's important to make upgrades to your line both in terms of power and recipe usage as you continue to progress through the tiers.%n%n[note]UHV power and the QFT are the biggest milestones in terms of recipe upgrades for the line.[/note]
+
 # Quest: Automated Mining
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAyQ.name=§c§lAutomated Mining
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAyQ.desc=The QED enables you to assemble the most convenient device for mining: The ender quarry.%n%nAs 0lafe says, "This small black box is life-changing" and "Sympathy for the amount of dense obsidian plates you need."%n%nGuess you better get compressing!%n%n[warn]NOTE: It's best to place your quarry and markers on ore vein boundaries. This way you start getting ores right away, especially from planets.[/warn]
@@ -3518,9 +3538,41 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMBQ.desc=If you're reading this before L
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEw.name=§l§c§lSun Fusion
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEw.desc=Alternative way to mass produce Sunnarium.
 
+# Quest: Behold: The Netherite Line
+betterquesting.quest.AlYEP7f4T-KHgH8vicSXdg.name=§c§lBehold: The Netherite Line
+betterquesting.quest.AlYEP7f4T-KHgH8vicSXdg.desc=You didn't seriously think you only needed to do the Naquadah line in LuV did you? Well if so; better brace yourself for the Netherite line!%n%nDon't panic, it's a relatively straight-forward line so long as you can wrap your head around minor processing loops and percent based output. Fortunately you have a quest book to guide you through your initial setup.%n%nBe warned- you will need at least §2§lGrade 1 Purified Water§r and§5§l Naquadah Alloy§r to make it through this entire line.%n%n§3This questline will start you off with the three primary things you must prepare in order to begin:%n%n§l- Milled Netherrack%n- Nether Air%n- Ancient Debris Collection§r%n%n§3For at least one and likely two of those you will need to journey into the nether, so make sure you're prepared equipment wise!§r%n%n[warn]If you already created the line and do not wish to complete the individual quests, hold one of these three item sets in your hand after completing this quest: [/warn]%n%n§4§l- 1 Dense Netherite Plate%n- 64 Intensely Bonded Netherite Nanoparticles%n- 16 Netherite Ingots 
+
 # Quest: Ozonation
 betterquesting.quest.E9atHD5uR9CC0G1qEeFDmQ.name=§c§lOzonation
 betterquesting.quest.E9atHD5uR9CC0G1qEeFDmQ.desc=Want even more speed on your wafer processing? Using Grade 2 Purified Water, made by ozonation, you can now reduce processing time by 50%%. To run this machine, you will need to make large amounts of Ozone Gas by bombarding air with a strong laser. If you haven't already, you should definitely make the Hyper-Intensity Laser Engraver multiblock to speed up this process.%n%n[note]This multiblock is very picky about where the ozone input hatch goes. If you can't figure out why it's not forming, chances are you forgot to place this hatch in the correct location. Use the hologram projector to see where it goes.[/note]
+
+# Quest: Hellish Metal
+betterquesting.quest.JVZjTR4hRSaeaoXPvBcG9w.name=§c§lHellish Metal
+betterquesting.quest.JVZjTR4hRSaeaoXPvBcG9w.desc=Regular Netherite Nanoparticles alone don't have enough density to compress into Netherite... they require a strong and somewhat magical binding agent. %n%n§4Hellish Metal§r should be the perfect candidate, you can either fabricate it in the §5§lElectrolyzer§r or §5§lInfuse§r it.%n%n[note]The Infusion recipe is much cheaper, but can only be used by those who have been proactive in their magic infrastructure.[/note]
+
+# Quest: Nefarious Oil
+betterquesting.quest.KGBrxQRsSneYMzNHBll9Bg.name=§c§lNefarious Oil
+betterquesting.quest.KGBrxQRsSneYMzNHBll9Bg.desc=Using purified water, you can use an §5§lOil Cracker§r to convert the Nefarious Gas from the previous step into §4Nefarious Oil§r.%n%n[note]If you are proactive and setup grade 2 water production, you unlock a recipe that produces much more oil, with much less water, in much less time. §[[/note]
+
+# Quest: Netherite Nanoparticles
+betterquesting.quest.P_nO8frbRM2c-MLKAaJUkw.name=§c§lNetherite Nanoparticles
+betterquesting.quest.P_nO8frbRM2c-MLKAaJUkw.desc=§4Netherite Nanoparticles§r can be made from §5§lMacerating§r your newly attained Brittle Netherite Scraps.%n%n[note]Almost seems too easy doesn't it?[/note]
+
+# Quest: Netherite Scrap
+betterquesting.quest.SmLW-ht6TrKSmAUDyDoNqg.name=§c§lNetherite Scrap
+betterquesting.quest.SmLW-ht6TrKSmAUDyDoNqg.desc=Netherite Scrap is an integral part of the Netherite refinement process and fortunately you don't need very much of it. Technically you §nonly need two§r§r pieces of scrap, as they will constantly cycle from hot to cool while never actually being used up in the process §(§(§3(though, having more scrap handy could improve your setup efficiency).%n%n§rYou can obtain Netherite Scrap by either §5smelting§r Ancient Debris or using a §5§lForge Hammer§r on it. Though considering the forge hammer offers a §2§l25%%§r chance at gaining an additional scrap, you would be a little crazy to choose the former.%n%nIf you're wondering where you can find Ancient Debris, try scouring the Nether. It's more likely to spawn lower near the lava, and is found sporadically like small ores are rather than being in large veins like usual GT ores. §3Miners can also collect it!%n%n§r[warn]If you don't feel like leaving home, or are lacking blocks within your nether dimension, there is also a §lmeteor§r that can alleviate your Ancient Debris woes.[/warn]
+
+# Quest: Netherrack Froth
+betterquesting.quest.WNC6mX67QGG5gpjX0YkvDw.name=§c§lNetherrack Froth
+betterquesting.quest.WNC6mX67QGG5gpjX0YkvDw.desc=To get §4Netherrack Froth§r, you can combine your milling products with your Nefarious Oil in a §5§lFlotation Cell§r. %n%n[note]It would be wise to make a robust setup for this.[/note]
+
+# Quest: Netherrack Milling
+betterquesting.quest.XDZFjGB9RlWlrW0mHFoL0g.name=§c§lNetherrack Milling
+betterquesting.quest.XDZFjGB9RlWlrW0mHFoL0g.desc=With the Netherite line comes the first mandatory usage of the §5§lIsamill Grinding Machine§r, which you will need to create§4 Milled Netherrack§r. You will require a lot of this so be prudent in keeping up with your netherrack and milling ball production. %n%nFor netherrack, the best methods of production are through the rock breaker using glowstone dust, or through compressing netherrack dust that you may have obtained a stash of through mining.%n%nFor the milling balls, you have two options:%n%n§2§l- Soapstone ->§r§2 Cheaper, 50%% as effective as Alumina%n§3§l- Alumina ->§r§3 More Expensive, 2x as effective as Soapstone
+
+# Quest: Poor Nether Waste
+betterquesting.quest.afDCORKvSI-Vk_Mh2-rnZw.name=§c§lPoor Nether Waste
+betterquesting.quest.afDCORKvSI-Vk_Mh2-rnZw.desc=Once you've gathered enough froth, it can run through a §5§lVacuum Furnace§r to get a number of useful resources. Most importantly though, this is where we extract §4Poor Nether Waste§r; a quite valuable fluid to the Netherite line.
 
 # Quest: Relentless Glue
 betterquesting.quest.eZADH1WASo6NLBUTKjLNGQ.name=§c§lRelentless Glue
@@ -3529,6 +3581,22 @@ betterquesting.quest.eZADH1WASo6NLBUTKjLNGQ.desc=Ethyl Cyanoacrylate, commonly k
 # Quest: Clarifier
 betterquesting.quest.mMCFuGqxQTuuLnJgEldztA.name=§c§lClarifier
 betterquesting.quest.mMCFuGqxQTuuLnJgEldztA.desc=The first step in the water purification process is the clarifier. Operating this machine is a simple task, you will just need to maintain a steady supply of Activated Carbon for the filters. Using this machine, you will be able to make Grade 1 Purified Water, which can speed up processing of Naquadah-Doped Boules and Wafers by 25%%.
+
+# Quest: Rich Nether Waste
+betterquesting.quest.nx7KEyhlTc6qYVM1vImkBA.name=§c§lRich Nether Waste
+betterquesting.quest.nx7KEyhlTc6qYVM1vImkBA.desc=§nOne§r of the ways you will be using the Poor Nether Waste is to combine it with the Hellish Mud you obtained earlier in the §5§lMixer§r to create §4Rich Nether Waste§r. %n%nWe will be using the Rich Nether Waste for the next step, and it will continue to be valuable for a while, though it does eventually become unecessary to the line when you reach §4§lUHV.
+
+# Quest: Brittle Netherite Scrap
+betterquesting.quest.rlVdurFlSbuoWZAIUG0-aA.name=§c§lBrittle Netherite Scrap
+betterquesting.quest.rlVdurFlSbuoWZAIUG0-aA.desc=You're so close... just a few more steps.%n%nNow that you've attained the Netherite Scrap Seeds, you can combine them with Poor Nether Waste in a §5§lChemical Bath§r for a §2§l50%%§r chance to get 3 §4Brittle Netherite Scraps§r. As a bonus, there's even a §2§l50%%§r chance that you get your Netherite Scrap Seed back to run the recipe over again. %n%n[note]Don't worry, this is the last Netherite recipe based on chance.[/note]
+
+# Quest: Nether Air & Semifluid
+betterquesting.quest.x79CeO4ORDWIbPLtdtp1wQ.name=§c§lNether Air & Semifluid
+betterquesting.quest.x79CeO4ORDWIbPLtdtp1wQ.desc=Ever take a deep breath while roaming the nether and start to feel lightheaded or dizzy? Turns out that's from the highly toxic air. There may be no saving our lungs, but at least we can take advantage of this dense air for our own material gain!%n%nIf you haven't already been taking advantage of the Nether Air for it's sulfurous properties, (talking to you, Nitrobenzene lovers) you'll need to take advantage of it now for making §4Nether Semifluid§r.%n%nSetup a §5§lVacuum Freezer§r in the nether and attach an§2§l Air Intake Hatch§r to start collecting the Nether Air. You can move onto the next step once you've started Semifluid production. 
+
+# Quest: Intensely Bonded Netherite Nanoparticles
+betterquesting.quest.zb1nbwNuSFKuSEyW3mVj-Q.name=§c§lIntensely Bonded Netherite Nanoparticles
+betterquesting.quest.zb1nbwNuSFKuSEyW3mVj-Q.desc=At long last... the final ingredient needed before making Netherite materials.%n%nThrough the combination of the Netherite Nanoparticles and Hellish Metal in the §5§lEBF§r, you can create §4Intensely Bonded Netherite Nanoparticles.§r As an added bonus for those who have invested in bees, using the combs from a Netherite Queen, will reward you with §2§l2x§r the product.%n%nThese are not only the primary pre-requisite ingredients for the Dense Netherite Plate that you need for the §3§lFusion Reactor§r, but also the pre-requisite material for making the rest of the Netherite parts after you have created one; so be sure to stockpile and manufacture as many of these nanoparticles as you can. %n%n[note]Keep in mind this recipe does require Naquadah Alloy coils![/note]
 
 
 ## Quest Line: Tier 7 - ZPM
@@ -6525,7 +6593,7 @@ betterquesting.quest.Ds_ok-hRS2ODJNs3LUP9kw.desc=Sustainability. It's not the na
 
 # Quest: Tier 2 Manipulating
 betterquesting.quest.Mf1D7e-LTaW3rbBRYmxBAQ.name=Tier 2 Manipulating
-betterquesting.quest.Mf1D7e-LTaW3rbBRYmxBAQ.desc=After significant progression, you'll be able to upgrade the QFT to tier 2 by replacing the §b§3Neutron Pulse Manipulator§f §rcasings § with §b§3Cosmic Fabric Manipulator§f §rcasings. Once installed, the QFT can perform the §6§6monaline skip§f §rand the §6§6first two naqline skips§f§r.%n%n§rThese casings require more advanced materials, including §b§3Hyper-Stable Self-Healing Adhesive§f§r, which can only be crafted in a tier 1 QFT. This adhesive isn’t just excellent at sticking things together - it’s also built to withstand the intense energy flow of a tier 2, 3, or even tier 4 QFT! §o%n%nWho knows what kinds of materials you’ll need after this?!
+betterquesting.quest.Mf1D7e-LTaW3rbBRYmxBAQ.desc=After significant progression, you'll be able to upgrade the QFT to tier 2 by replacing the §b§3Neutron Pulse Manipulator§f §rcasings § with §b§3Cosmic Fabric Manipulator§f §rcasings. Once installed, the QFT can perform the §6§6monaline skip§f,§r § the §6§6first two naqline skips§f§r, and the §6netherite line skip§r.%n%n§rThese casings require more advanced materials, including §b§3Hyper-Stable Self-Healing Adhesive§f§r, which can only be crafted in a tier 1 QFT. This adhesive isn’t just excellent at sticking things together - it’s also built to withstand the intense energy flow of a tier 2, 3, or even tier 4 QFT! §o%n%nWho knows what kinds of materials you’ll need after this?!
 
 # Quest: A Beginner's Guide to Particle Physics
 betterquesting.quest.NGG2rHQ4T4SInwXT8XTGSg.name=A Beginner's Guide to Particle Physics
@@ -14791,6 +14859,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrw.desc=This quest should never be comp
 # Quest: Trigger: Dense Hydrazine Skip
 betterquesting.quest.CSYjTrFrQwi2XzCFUOAIjg.name=Trigger: Dense Hydrazine Skip
 betterquesting.quest.CSYjTrFrQwi2XzCFUOAIjg.desc=No Description
+
+# Quest: Trigger: Netherite Skip
+betterquesting.quest.GvUC3hv2RsO-3FofYAyd7A.name=Trigger: Netherite Skip
+betterquesting.quest.GvUC3hv2RsO-3FofYAyd7A.desc=No Description
 
 # Quest: Trigger: Graphene Skip
 betterquesting.quest.MdXhDkN_TECH5kMp4OM2Gg.name=Trigger: Graphene Skip
