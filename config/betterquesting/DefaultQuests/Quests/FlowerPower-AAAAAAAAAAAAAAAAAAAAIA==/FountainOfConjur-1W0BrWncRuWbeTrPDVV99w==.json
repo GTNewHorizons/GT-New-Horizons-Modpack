@@ -2,24 +2,28 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
+      "questIDLow:4": 1413
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
       "questIDLow:4": 3230
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Put the 4 pylons down and shift-right-click the terrasteel ingot on the beacon to summon the Gaia Guardian.",
+      "desc:8": "No Description",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 5,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "Botania:manaResource"
+        "id:8": "botanichorizons:automatedConjurationPool"
       },
-      "isMain:1": 1,
+      "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Round One... FIGHT!",
+      "name:8": "Fountain Of Conjuration",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -30,19 +34,44 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 3231,
+  "questIDHigh:4": -3067793926852426011,
+  "questIDLow:4": -7243693864692384265,
   "rewards:9": {
     "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 5,
+          "OreDict:8": "",
+          "id:8": "Botania:quartz"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "Damage:2": 4,
+          "OreDict:8": "",
+          "id:8": "Botania:manaResource"
+        }
+      },
       "ignoreDisabled:1": 0,
       "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 10,
+          "Count:3": 3,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "dreamcraft:item.CoinFlowerIII"
+        },
+        "1:10": {
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnicianII"
         }
       }
     }
@@ -57,25 +86,31 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 4,
-          "Damage:2": 2,
+          "Count:3": 26,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "Botania:pylon"
+          "id:8": "Botania:livingrock"
         },
         "1:10": {
+          "Count:3": 9,
+          "Damage:2": 1,
+          "OreDict:8": "",
+          "id:8": "Botania:quartzTypeElf"
+        },
+        "2:10": {
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "Botania:quartzSlabElfHalf"
+        },
+        "3:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "minecraft:beacon"
-        },
-        "2:10": {
-          "Count:3": 1,
-          "Damage:2": 4,
-          "OreDict:8": "",
-          "id:8": "Botania:manaResource"
+          "id:8": "Botania:pool"
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:optional_retrieval"
     },
     "1:10": {
       "autoConsume:1": 0,
@@ -87,9 +122,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 5,
-          "OreDict:8": "eternalLifeEssence",
-          "id:8": "Botania:manaResource"
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "botanichorizons:automatedConjurationPool"
         }
       },
       "taskID:8": "bq_standard:retrieval"

@@ -2,24 +2,28 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 3220
+      "questIDLow:4": 3224
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1231
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The first item you want to make is the Petal Apothecary. A mushroom is needed to anoint it and give it its restorative properties.\n\nTo operate it, fill it with a bucket of water to keep the plants hydrated. After that you can add the ingredients by dropping them on top.\n\nEach craft requires some magical ingredients, but also one or more regular flowers from the world that can function as a stable base. Once you\u0027ve added all the ingredients, finish the craft by adding a seed. Any vanilla seed will do.",
+      "desc:8": "The Mana Fountain is an incredibly useful piece of technology made available to you after perfecting the HV Robot Arm.\n\n",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "Botania:altar"
+        "id:8": "botanichorizons:automatedCraftingPool"
       },
-      "isMain:1": 1,
+      "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Flower Grafting",
+      "name:8": "Mana Fountain",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -30,19 +34,44 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 3221,
+  "questIDHigh:4": 1224892504375445106,
+  "questIDLow:4": -9054185358983654723,
   "rewards:9": {
     "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 1,
+          "OreDict:8": "",
+          "id:8": "Botania:quartz"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "Botania:manaResource"
+        }
+      },
       "ignoreDisabled:1": 0,
       "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinFlowerI"
+          "id:8": "dreamcraft:item.CoinFlowerII"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnicianII"
         }
       }
     }
@@ -57,34 +86,28 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 2,
-          "Damage:2": 17305,
-          "OreDict:8": "plateSteel",
-          "id:8": "gregtech:gt.metaitem.01"
+          "Count:3": 26,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "Botania:livingrock"
         },
         "1:10": {
-          "Count:3": 2,
-          "Damage:2": 27305,
+          "Count:3": 9,
+          "Damage:2": 1,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "Botania:quartzTypeMana"
         },
         "2:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "minecraft:cauldron"
-        },
-        "3:10": {
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "minecraft:stone"
+          "id:8": "Botania:quartzSlabManaHalf"
         },
-        "4:10": {
+        "3:10": {
           "Count:3": 1,
-          "Damage:2": 10,
-          "OreDict:8": "blockSilver",
-          "id:8": "gregtech:gt.blockmetal6"
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "Botania:pool"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -101,7 +124,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "Botania:altar"
+          "id:8": "botanichorizons:automatedCraftingPool"
         }
       },
       "taskID:8": "bq_standard:retrieval"
