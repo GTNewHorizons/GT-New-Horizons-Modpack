@@ -1,6 +1,6 @@
 {
 	"name": "dungeon_swamp",
-  	"criteria": {"biomeTypes": ["SWAMP"]},
+  	"criteria": {"biomeTypes": ["SWAMP", "RIVER"]},
   	"inherit": [
 		"loot_all",
 		"loot_swamp",
