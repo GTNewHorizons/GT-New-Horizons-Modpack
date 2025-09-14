@@ -12,7 +12,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "No Description",
+      "desc:8": "The Synthetic Elven Gateway is an advanced and easily automatable version of the normal Elven Gateway. As a result it is much quicker, less TPS intensive, and AE2 compatible.\n\nMuch like the Mana Fountain, the controller can be given mana via a mana spreader or spark \u0026 item input can happen from any face, while item output is restricted to the bottom.\n\n[note]While running, this uses more mana passively than a normal Elven Gateway does, so be sure you have adequate mana production![/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
