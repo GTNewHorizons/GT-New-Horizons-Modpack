@@ -12,7 +12,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Time to open a portal to the Demonic Realm. What could possibly go wrong? (It\u0027s recommended to do this ritual in a space dimension, as the demon city spreads up to 1000x1000 blocks)\n\nRequirements:\n- 15M LP (Archmage Blood Orb and \u003e\u003d 13 Runes of the Orb)\n- 8 Crystal Belljars (one filled with each of: magicales, potentia, incendium, terrae, tenebrae, sanctus, aether, and aquasalus)\n- 1 Sacrifice (Bottle a lesser demon/elemental in a soul vial)\n- 1 Master Ritual Stone, 128 Ritual Stones, and 1 Blood Altar\n- 1 Awakened Activation Crystal\n\nSteps to the Ritual:\n1. Use a Ritual Diviner to place all the Ritual Stones.\n2. Place the Belljars atop the 8 pillars surrounding the center.\n3. Link the Belljars to the Master Ritual Stone.\n4. Place the Blood Altar on top of the Master Ritual Stone.\n5. Start the ritual with the Awakened Activation Crystal.\n6. The Belljars are drained of their reagents.\n7. Kill the lesser demon/elemental with a Dagger of Sacrifice.\n8. The Demon Portal is opened.\n\nFor more details and images, visit [url]wiki.gtnewhorizons.com/wiki/Convocation_of_the_Damned[/url]\n\n[warn]The OW is now blacklisted for the portal. Too many people did not follow the recommendation and servers suffered for it. It also does not work well in the Personal Dimension.[/warn]",
+      "desc:8": "Time to open a portal to the Demonic Realm. What could possibly go wrong? (It\u0027s recommended to do this ritual in a space dimension, as the demon city spreads up to 1000x1000 blocks)\n\n[note]You should also be starting the ritual from the ground rather than in the air for the best results![/note]\n\nRequirements:\n- 15M LP (Archmage Blood Orb and \u003e\u003d 13 Runes of the Orb)\n- 8 Crystal Belljars (one filled with each of: magicales, potentia, incendium, terrae, tenebrae, sanctus, aether, and aquasalus)\n- 1 Sacrifice (Bottle a lesser demon/elemental in a soul vial)\n- 1 Master Ritual Stone, 128 Ritual Stones, and 1 Blood Altar\n- 1 Awakened Activation Crystal\n\nSteps to the Ritual:\n1. Use a Ritual Diviner to place all the Ritual Stones.\n2. Place the Belljars atop the 8 pillars surrounding the center.\n3. Link the Belljars to the Master Ritual Stone.\n4. Place the Blood Altar on top of the Master Ritual Stone.\n5. Start the ritual with the Awakened Activation Crystal.\n6. The Belljars are drained of their reagents.\n7. Kill the lesser demon/elemental with a Dagger of Sacrifice.\n8. The Demon Portal is opened.\n\nFor more details and images, visit [url]wiki.gtnewhorizons.com/wiki/Convocation_of_the_Damned[/url]\n\n[warn]The OW is now blacklisted for the portal. Too many people did not follow the recommendation and servers suffered for it. It also does not work well in the Personal Dimension.[/warn]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -242,7 +242,8 @@
           "Count:3": 1,
           "Damage:2": 1,
           "OreDict:8": "",
-          "id:8": "AWWayofTime:activationCrystal"
+          "id:8": "AWWayofTime:activationCrystal",
+          "tag:10": {}
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
