@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "No Description",
+      "desc:8": "The MKIII is the final upgrade in the Matter Manipulator series, and grants you access to it\u0027s most heightened capabilities. With §210x§r the EU storage as the MKII, it also boasts an §5§lUnlimited§r block range and can handle placing §21024 Blocks / Second§r.\n\nFeature wise, the MKIII comes with all of the same abilities as the MKII, except now with the ability to use the §3§lQuantum Uplink§r, though you won\u0027t be able to build that multiblock until §4§lUV§r.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -69,6 +69,12 @@
               }
             }
           }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 27,
+          "OreDict:8": "",
+          "id:8": "matter-manipulator:metaitem"
         }
       }
     },
