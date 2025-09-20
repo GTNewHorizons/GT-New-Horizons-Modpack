@@ -3,12 +3,22 @@
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 160
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1232,
+      "type:1": 1
+    },
+    "2:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1871,
+      "type:1": 1
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The §4§lMatter Manipulator§r is an extremely powerful tool that you can use during your entire playthrough. It is essentially a survival version of world-edit that is custom made for the GTNH player\u0027s convenience.\n\nThe §3§lPrototype Matter Manipulator§r is expectedly the least powerful, most rudimentary version. You can only use the §5§lGeometry Mode§r to create and manipulate shapes for use in building. You will §nnot§r be able to remove blocks until you install an upgrade unlocked in §2§lEV§r.\n\nFor the most accurate and detailed information visit: [url]https://github.com/RecursivePineapple/MatterManipulator/blob/master/README.md[/url]\n\n[note]The best way to learn about it is to use it! Experiment with the UI and become familiar with how it works.[/note]\n\n",
+      "desc:8": "The §4§lMatter Manipulator§r is an extremely powerful tool that you can use during your entire playthrough. It is essentially a survival version of world-edit that is custom made for the GTNH player\u0027s convenience.\n\nThe §3§lPrototype Matter Manipulator§r is expectedly the least powerful, most rudimentary version. You can only use the §5§lGeometry Mode§r to create and manipulate shapes for use in building. You will §nnot§r be able to remove blocks until you install an upgrade unlocked in §2§lEV§r.\n\nFor the most accurate and detailed information visit: [url]https://github.com/RecursivePineapple/MatterManipulator/blob/master/README.md[/url]\n\n[note]The best way to learn about it is to use it! Experiment with the UI and become familiar with how it works.[/note]\n\n[warn]Checkout the Building Better Bases tab for the complete Manipulator questline.[/warn]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -37,7 +47,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Prototype Matter Manipulator",
+      "name:8": "§9§lPrototype Matter Manipulator",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

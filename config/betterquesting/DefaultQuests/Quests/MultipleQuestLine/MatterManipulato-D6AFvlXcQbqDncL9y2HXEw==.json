@@ -2,13 +2,18 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
+      "questIDLow:4": 1680,
+      "type:1": 1
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
       "questIDLow:4": 1493
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The MKII is the penultimate upgrade in the Matter Manipulator line. This one being much more powerful, storing §210x§o§r the power, with a range of §2128 Blocks§r, and the ability to place §2256 Blocks/Second§r.\n\nIn addition to all of the MKI features you now unlock §5two powerful new modes§r:\n\n§l- Copy / Paste§r: Copy a selection of blocks and paste it as many times as you\u0027d like. Works best with GT \u0026 AE2.\n\n§l- Move§r: Similar to Copy / Paste, but will physically relocate something already built.\n\nHere is a short list of things that are copied / moved with the MM, the more complete list is on the Readme, but this should give you a general idea of how versatile it is.\n§3\n§lGregTech:§r\n\n- Pipe/Cable connections\n- Machine colour\n- Machine front \u0026 output directions\n- Basic machine settings (auto outputs, etc)\n- Hatch settings (sorting, stack limiting, etc)\n- Multi machine settings (void protection, batch mode, etc)\n- Multi rotation\n- Covers\n- Strong redstone output\n- Custom names\n- Ghost circuits\n- Bus/hatch item/fluid lock\n- Modes (for machines that use the new mode system)\n- Data stick data\n§3\n§lAE2:§r\n\nME output bus/hatch capacity\n- TecTech machine input parameters\n- The colour\n- The orientation\n- The configuration\n- The upgrades\n- Custom names\n- Any stored cells (will also automatically configure cells \u0026 install their upgrades)\n- Any patterns (will encode but not decode patterns)\n- Priority Settings\n- P2P Settings\n- OreDict / Regular Filter",
+      "desc:8": "The MKII is the penultimate upgrade in the Matter Manipulator line. This one being much more powerful, storing §210x§o§r the power, with a range of §2128 Blocks§r, and the ability to place §2256 Blocks/Second§r.\n\nIn addition to all of the MKI features you now unlock §5two powerful new modes§r:\n\n§l- Copy / Paste§r: Copy a selection of blocks and paste it as many times as you\u0027d like. Works best with GT \u0026 AE2.\n\n§l- Move§r: Similar to Copy / Paste, but will physically relocate something already built.\n\nHere is a short list of things that are copied / moved with the MM, the more complete list is on the Readme, but this should give you a general idea of how versatile it is.\n§3\n§lGregTech:§r\n\n- Pipe/Cable connections\n- Machine color\n- Machine front \u0026 output directions\n- Basic machine settings (auto outputs, etc)\n- Hatch settings (sorting, stack limiting, etc)\n- Multi machine settings (void protection, batch mode, etc)\n- Multi rotation\n- Covers\n- Strong redstone output\n- Custom names\n- Ghost circuits\n- Bus/hatch item/fluid lock\n- Modes (for machines that use the new mode system)\n- Data stick data\n§3\n§lAE2:§r\n\nME output bus/hatch capacity\n- TecTech machine input parameters\n- The color\n- The orientation\n- The configuration\n- The upgrades\n- Custom names\n- Any stored cells (will also automatically configure cells \u0026 install their upgrades)\n- Any patterns (will encode but not decode patterns)\n- Priority Settings\n- P2P Settings\n- OreDict / Regular Filter",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -37,7 +42,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Matter Manipulator MKII",
+      "name:8": "§c§lMatter Manipulator MKII",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
