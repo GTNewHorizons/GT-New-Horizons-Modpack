@@ -47,19 +47,19 @@
           "Count:3": 64,
           "Damage:2": 944,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores"
+          "id:8": "gregtech:gt.blockores2"
         },
         "2:10": {
           "Count:3": 64,
           "Damage:2": 810,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores"
+          "id:8": "gregtech:gt.blockores2"
         },
         "3:10": {
           "Count:3": 64,
           "Damage:2": 526,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores"
+          "id:8": "gregtech:gt.blockores2"
         }
       },
       "ignoreDisabled:1": 0,
