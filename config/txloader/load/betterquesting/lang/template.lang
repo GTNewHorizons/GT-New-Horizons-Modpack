@@ -289,7 +289,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAB4A.desc=Another copper source is "malac
 
 # Quest: Creosote
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB4Q.name=§l§2§lCreosote
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAB4Q.desc=I guess you already turned some wood into charcoal and wonder what to do with all this creosote? Well, you can burn it in a normal Furnace to cook your food or anything else, or you can make some torches with it. You can save up on the Coal variants, while at the same time keeping the Coke Oven running for the items you really need.%n%nYou can use a Bucket to pick up the Creosote, but not a Clay Bucket, either through the icon in the machine's interface, or by right-clicking the Coke Oven with an empty bucket in hand.%n%nYou will eventually want to automate Coke Ovens, and that's when you can use it to generate power. This is mostly LV content, but the singleblock option is the GT++ Semifluid Generator, whereas the multiblock option is the Railcraft Liquid Fueled Boiler. You'll unlock the quests for these when the time comes.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAB4Q.desc=I guess you already turned some wood into charcoal and wonder what to do with all this creosote? Well, you can burn it in a normal Furnace to cook your food or anything else, or you can make some torches with it. You can save up on the Coal variants, while at the same time keeping the Coke Oven running for the items you really need.%n%nYou can use an Iron or Clay Bucket to pick up the Creosote, either through the icon in the machine's interface, or by right-clicking the Coke Oven with an empty bucket in hand.%n%nYou will eventually want to automate Coke Ovens, and that's when you can use it to generate power. This is mostly LV content, but the singleblock option is the GT++ Semifluid Generator, whereas the multiblock option is the Railcraft Liquid Fueled Boiler. You'll unlock the quests for these when the time comes.
 
 # Quest: Animal Farms
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB4g.name=§2§lAnimal Farms
@@ -12434,6 +12434,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMxg.desc=...there is no way a bee should
 betterquesting.quest.EP-xPjNWRnKCWRJjGzySvQ.name=Mana Fountain
 betterquesting.quest.EP-xPjNWRnKCWRJjGzySvQ.desc=The Mana Fountain allows for quick and seamless automation of Mana Pool recipes.%n%nYou can assemble the multiblock as specified in the Lexica Botania / NEI. After it's assembled, right clicking it using the Wand of the Forest will show you whether it's complete and the amount of internally stored mana.%n%nYou can send the controller mana directly by either using a spreader or a spark much like a Mana Pool. Technically you don't have to use the Mana Pool in the center of the multiblock for it to function, but it is placed conveniently so that you can (plus, it doesn't hurt to have an extra buffer).%n%nItems are allowed to input from any side of the controller, but can only output from the bottom. For early automation, it's recommended to just use hoppers. Once you uinlock AE2 however you can simply place an interface underneath the controller with the appropriate patterns and it should push and pull items automatically.%n%n[warn]You cannot craft Alchemy or Conjuration recipes using this multiblock, those are separate multiblocks that you will unlock with more advanced robot arm technology.[/warn]%n%n[note]This structure can absolutely wall-share. It has the perfect design to be able to share 4 different Mana Fountains between the center pool.[/note]%n
 
+# Quest: Asgardandelion
+betterquesting.quest.M7CE2a0uSOSZZsyNloB0zg.name=Asgardandelion
+betterquesting.quest.M7CE2a0uSOSZZsyNloB0zg.desc=A passive mana generating flower that can produce a never-ending torrent of mana.
+
 # Quest: Fountain Of Alchemy
 betterquesting.quest.MJgg4KT4Q1Gi-2hgQ9Sz6w.name=Fountain Of Alchemy
 betterquesting.quest.MJgg4KT4Q1Gi-2hgQ9Sz6w.desc=The Fountain of Alchemy as you may guess, is functionally just like the Mana Fountain, except it can handle the recipes that you would typically need an Alchemy Rune underneath a Mana Pool for.%n%nIf you need any further details about it's functionality, check out the Mana Fountain quest or the Lexica Botania.%n%n[warn]This cannot do regular Mana Pool recipes, only Alchemy recipes.[/warn]%n%n[note]If, for whatever reason, you needed an abundance of prismarine in the future... perhaps a quad Fountain of Alchemy would be an excellent aid in obtaining that.[/note]
@@ -12441,6 +12445,26 @@ betterquesting.quest.MJgg4KT4Q1Gi-2hgQ9Sz6w.desc=The Fountain of Alchemy as you 
 # Quest: Synthetic Elven Gateway
 betterquesting.quest.V76lvP8lSsewcKfwxHirPw.name=Synthetic Elven Gateway
 betterquesting.quest.V76lvP8lSsewcKfwxHirPw.desc=The Synthetic Elven Gateway is an advanced and easily automatable version of the normal Elven Gateway. As a result it is much quicker, less TPS intensive, and AE2 compatible.%n%nMuch like the Mana Fountain, the controller can be given mana via a mana spreader or spark & item input can happen from any face, while item output is restricted to the bottom.%n%n[note]While running, this uses more mana passively than a normal Elven Gateway does, so be sure you have adequate mana production![/note]
+
+# Quest: Laputa I
+betterquesting.quest.YO0JcMSOQVa3-WoWP1l78Q.name=Laputa I
+betterquesting.quest.YO0JcMSOQVa3-WoWP1l78Q.desc=The item when used will raise a sphere of land into the air, centered on the selected block. The radius of the sphere and the height elevated are determined by the Shard Power. The process is not instant, and instead will move each block at a time until every block within a radius is moved. Blocks that rely on walls or floors, such as torches and crops, will drop in the process, as the required support is not moved alongside.
+
+# Quest: The Everlasting Guilty Pool
+betterquesting.quest.cejGOPB2QiuW5833Z5ontA.name=The Everlasting Guilty Pool
+betterquesting.quest.cejGOPB2QiuW5833Z5ontA.desc=Mana for all of your needs, endless amounts of mana. 
+
+# Quest: LAPUTA XX
+betterquesting.quest.hHjJCOZtR-GM69bGHq845w.name=LAPUTA XX
+betterquesting.quest.hHjJCOZtR-GM69bGHq845w.desc=The most powerfull version of the Laputa shard... Maybe instead of using it you should think about meteors.
+
+# Quest: Loonium
+betterquesting.quest.r3fKz87vRk23Tv2TRGarvg.name=Loonium
+betterquesting.quest.r3fKz87vRk23Tv2TRGarvg.desc=This flower uses mana to randomly produce dungeon loot that would be found in chests in your world. This loot drops as items. It can be disabled at will by applying a redstone signal.%n%n[note]Here you have a list of all possible drops[/note]%n%n[url]https://docs.google.com/spreadsheets/d/1EzFQYnL53GdzXxs6H2lVM2QJEgNEAUG1vSS-15DPPSM/edit?gid=0#gid=0[/url]
+
+# Quest: Creative Mana Tablet
+betterquesting.quest.ykz6BsyOTl2m_xfS28ofXA.name=Creative Mana Tablet
+betterquesting.quest.ykz6BsyOTl2m_xfS28ofXA.desc=This tablet holds the power of gaia in your hands, it gives infinite mana to any tool you have...
 
 
 ## Quest Line: Look to the Edges
