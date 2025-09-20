@@ -2,26 +2,27 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 2098
+      "questIDLow:4": 3232
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The final step is inoculation. Currently the most cost effective machine capable of inserting genes is the Inoculator. This uses Bacteria Vector, created by incubating Bacteria and Blaze Powder, to transfer the gene into organisms.\n\nOnly the young stage of organisms can be injected, which are larvae (bees), pollen (trees and flowers) and caterpillars (butterflies). Bee larvae can be converted into drones by incubating with Liquid Growth Medium.",
-      "globalShare:1": 1,
+      "desc:8": "This flower uses mana to randomly produce dungeon loot that would be found in chests in your world. This loot drops as items. It can be disabled at will by applying a redstone signal.\n\n[note]Here you have a list of all possible drops[/note]\n\n[url]https://docs.google.com/spreadsheets/d/1EzFQYnL53GdzXxs6H2lVM2QJEgNEAUG1vSS-15DPPSM/edit?gid\u003d0#gid\u003d0[/url]",
+      "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 3,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "Genetics:machine"
+        "id:8": "Botania:specialFlower",
+        "tag:10": {
+          "type:8": "loonium"
+        }
       },
-      "isGlobal:1": 0,
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Inoculator",
-      "partySingleReward:1": 0,
+      "name:8": "Loonium",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -32,8 +33,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 2103,
+  "questIDHigh:4": -5802946600964766131,
+  "questIDLow:4": -5237970507635708994,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -41,16 +42,16 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 8,
-          "Damage:2": 772,
+          "Count:3": 1,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "BinnieCore:containerCylinder"
+          "id:8": "EMT:TaintedMjolnir"
         },
         "1:10": {
-          "Count:3": 1,
-          "Damage:2": 26,
+          "Count:3": 5,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "enhancedlootbags:lootbag"
+          "id:8": "dreamcraft:item.CoinFlowerII"
         }
       }
     }
@@ -60,15 +61,18 @@
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
+      "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 3,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "Genetics:machine"
+          "id:8": "Botania:specialFlower",
+          "tag:10": {
+            "type:8": "loonium"
+          }
         }
       },
       "taskID:8": "bq_standard:retrieval"

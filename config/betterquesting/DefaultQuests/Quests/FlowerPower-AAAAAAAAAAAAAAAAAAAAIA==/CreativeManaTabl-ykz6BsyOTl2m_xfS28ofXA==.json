@@ -1,27 +1,29 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 2098
+      "questIDHigh:4": 6984248977060151638,
+      "questIDLow:4": -5190000451783132175
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The final step is inoculation. Currently the most cost effective machine capable of inserting genes is the Inoculator. This uses Bacteria Vector, created by incubating Bacteria and Blaze Powder, to transfer the gene into organisms.\n\nOnly the young stage of organisms can be injected, which are larvae (bees), pollen (trees and flowers) and caterpillars (butterflies). Bee larvae can be converted into drones by incubating with Liquid Growth Medium.",
-      "globalShare:1": 1,
+      "desc:8": "This tablet holds the power of gaia in your hands, it gives infinite mana to any tool you have...",
+      "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 3,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "Genetics:machine"
+        "id:8": "Botania:manaTablet",
+        "tag:10": {
+          "creative:1": 1,
+          "mana:3": 500000
+        }
       },
-      "isGlobal:1": 0,
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Inoculator",
-      "partySingleReward:1": 0,
+      "name:8": "Creative Mana Tablet",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -32,8 +34,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 2103,
+  "questIDHigh:4": -3869443072709472675,
+  "questIDLow:4": -6413381149954269348,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -42,15 +44,15 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 8,
-          "Damage:2": 772,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "BinnieCore:containerCylinder"
+          "id:8": "Botania:blackLotus"
         },
         "1:10": {
-          "Count:3": 1,
-          "Damage:2": 26,
+          "Count:3": 6,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "enhancedlootbags:lootbag"
+          "id:8": "dreamcraft:item.CoinFlowerIII"
         }
       }
     }
@@ -60,15 +62,19 @@
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
+      "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 3,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "Genetics:machine"
+          "id:8": "Botania:manaTablet",
+          "tag:10": {
+            "creative:1": 1,
+            "mana:3": 500000
+          }
         }
       },
       "taskID:8": "bq_standard:retrieval"
