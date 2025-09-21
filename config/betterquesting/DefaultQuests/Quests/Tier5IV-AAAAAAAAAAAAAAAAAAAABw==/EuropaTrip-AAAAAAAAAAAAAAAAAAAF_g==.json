@@ -80,7 +80,7 @@
       "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
-      "index:3": 0,
+      "index:3": 2,
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
@@ -114,7 +114,7 @@
       "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
-      "index:3": 2,
+      "index:3": 0,
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
