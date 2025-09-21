@@ -1,25 +1,33 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 2627
+      "questIDHigh:4": -7295214463238520795,
+      "questIDLow:4": -8557295371763424843
+    },
+    "1:10": {
+      "questIDHigh:4": 6530486220488721281,
+      "questIDLow:4": -7118851089254229135
+    },
+    "2:10": {
+      "questIDHigh:4": -139068609484536132,
+      "questIDLow:4": -5753871526049634361
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "If you want to process your Europium-Doped Wafers with a significant speed boost, this machine is for you. Using the pH neutral water you get from this machine, you can process wafers twice as fast.\n\nThis is the first real complex automation challenge in the waterline, it\u0027s up to you to figure out how you want to deal with the pH neutralization process. Have fun!\n\n[note]This multiblock is very picky about where its hatches for acids and bases go. If you can\u0027t figure out why it\u0027s not forming, chances are you forgot to place these hatches in the correct location. Use the hologram projector to see where they go.[/note]",
+      "desc:8": "You got to take a well deserved break from the waterline in UHV, but now that you are going to be making optical circuits, your Grade 6 Purified Water will no longer be enough. Using the Degasser, you can remove all the leftover decontaminants from previous processes and make even more pure water, pure enough for Optical Circuits.\n\nThe tooltip and list of requirements looks intimidating. Try breaking it down into small, digestible units of logic and you will quickly arrive at a solution.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 9406,
+        "Damage:2": 9412,
         "OreDict:8": "",
         "id:8": "gregtech:gt.blockmachines"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "pH Neutralization",
+      "name:8": "The Quest for Holy Water",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -30,9 +38,23 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 8829866191450688815,
-  "questIDLow:4": -8868495820464237601,
-  "rewards:9": {},
+  "questIDHigh:4": 6411465645269994516,
+  "questIDLow:4": -5575624123602641916,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 9649,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "autoConsume:1": 0,
@@ -44,7 +66,7 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 9406,
+          "Damage:2": 9412,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }
@@ -60,32 +82,26 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 134,
-          "Damage:2": 8,
+          "Count:3": 1,
+          "Damage:2": 11,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockcasings9"
         },
         "1:10": {
-          "Count:3": 15,
-          "Damage:2": 7,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings9"
-        },
-        "2:10": {
-          "Count:3": 18,
-          "Damage:2": 0,
+          "Count:3": 1,
+          "Damage:2": 2,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockglass1"
         },
-        "3:10": {
-          "Count:3": 48,
-          "Damage:2": 325,
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 395,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockframes"
         },
-        "4:10": {
-          "Count:3": 2,
-          "Damage:2": 9407,
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 9413,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }

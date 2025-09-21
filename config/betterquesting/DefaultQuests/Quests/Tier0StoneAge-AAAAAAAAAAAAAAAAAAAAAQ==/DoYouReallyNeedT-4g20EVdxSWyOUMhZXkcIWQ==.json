@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "There are many more backpacks: Coiners, thaumaturges, trackmanns...",
+      "desc:8": "There are many more backpacks: Coiners, thaumaturges, trackmanns...\n\n[note]Hint: Scroll to the Bottom[/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -20,7 +20,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 1,
-      "name:8": "§2§lYou Need Them All part 2",
+      "name:8": "§2§lDo You Really Need Them All?",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -28,7 +28,7 @@
       "simultaneous:1": 0,
       "snd_complete:8": "random.levelup",
       "snd_update:8": "random.levelup",
-      "taskLogic:8": "AND",
+      "taskLogic:8": "OR",
       "visibility:8": "NORMAL"
     }
   },
@@ -195,6 +195,10 @@
         }
       },
       "taskID:8": "bq_standard:crafting"
+    },
+    "5:10": {
+      "index:3": 5,
+      "taskID:8": "bq_standard:checkbox"
     }
   }
 }
