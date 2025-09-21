@@ -11971,6 +11971,10 @@ betterquesting.quest.Jl453zbkSfC4pl9kglgy6A.desc=Finally, you can now reduce you
 betterquesting.quest.LIZCdBLfQquQpULGmFDixw.name=...or are they?
 betterquesting.quest.LIZCdBLfQquQpULGmFDixw.desc=These caps are even better than thaumium!
 
+# Quest: Dynamism Tablets
+betterquesting.quest.PFguzsBlTrKLXNv9miH-xg.name=Dynamism Tablets
+betterquesting.quest.PFguzsBlTrKLXNv9miH-xg.desc=The dynamism tablet is a block that simulates the functionality of a left and right-click autoclicker. It can be obtained fairly early in the game (early-mid HV), and is a useful tool for simple automation.%n%nUpon placing, the tablet will target the block that it's facing (the direction is indicated by a small dot on the overlay) and will start once you give it an item in its slot. It can also place the held item on the block below it.%n%nIt can be configured to either left/right click and also has an option to only be active when it receives a redstone pulse. Hoppers or item pipes of any sort also allow the tablet to receive items.%n%nNote that some special mob drops or special interactions (like BM sacrificial knife) are disabled for the dynamism tablet. However, they do work with Tinkers Tools%n%n[note]This item has received a rework in 2.8 and has had most of its bugs fixed. If you still encounter any bugs, feel free to report it on our GitHub page or discord server.[/note]
+
 # Quest: Check Your Warp For Free!
 betterquesting.quest.TBMfXgORRHuggrozS7vsVA.name=Check Your Warp For Free!
 betterquesting.quest.TBMfXgORRHuggrozS7vsVA.desc=Don't want to spend your Salis Mundus on Litmus Paper anymore? This device can significantly reduce your Litmus Paper usage!%n%nWhile holding this item, you gain a HUD Icon on the top left of your screen, which tells you how much warp you have. It does not tell you the exact warp values, but it helps you estimate it.%n%nHere's how to read it:%nYour §l§5§lPermanent Warp§r is displayed as a dark purple bar%nYour §5Normal Warp§r is displayed as a light purple bar%nYour §dTemporary Warp§r is displayed as a pink bar%n%nThe bar is full at 100 total warp.
