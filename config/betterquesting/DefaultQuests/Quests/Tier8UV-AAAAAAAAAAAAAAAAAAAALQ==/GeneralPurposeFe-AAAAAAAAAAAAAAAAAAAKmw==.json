@@ -117,7 +117,7 @@
           }
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:optional_retrieval"
     },
     "1:10": {
       "autoConsume:1": 0,
@@ -179,7 +179,7 @@
           }
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:optional_retrieval"
     },
     "2:10": {
       "autoConsume:1": 0,
@@ -228,7 +228,7 @@
           "id:8": "gregtech:gt.metaitem.98"
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:optional_retrieval"
     },
     "3:10": {
       "autoConsume:1": 0,
@@ -245,7 +245,7 @@
           "id:8": "bartworks:BioLabModules"
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:optional_retrieval"
     },
     "4:10": {
       "autoConsume:1": 0,
@@ -268,7 +268,7 @@
           }
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:optional_retrieval"
     },
     "5:10": {
       "autoConsume:1": 0,
@@ -331,7 +331,7 @@
           "id:8": "IC2:itemCellEmpty"
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:optional_retrieval"
     },
     "6:10": {
       "autoConsume:1": 0,
@@ -348,7 +348,7 @@
           "id:8": "bartworks:BioLabModules"
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:optional_retrieval"
     },
     "7:10": {
       "autoConsume:1": 0,
