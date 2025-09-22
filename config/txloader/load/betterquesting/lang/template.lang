@@ -1982,10 +1982,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMjQ.desc=As a second step, we combine th
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMjg.name=§6§lSalty from all the silicon?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMjg.desc=If you are salty about the ingredients needed to purify silicon, I got good news for you! You can recover all of the chlorine and sodium you used by electrolyzing the salt you got!%n%n[note]You can also use zinc instead of sodium, the first reaction is longer but the recycling is much cheaper.[/note]
 
-# Quest: Creative Flight... kinda! 
-betterquesting.quest.W9yEXO2sQFaPbSV6N6vqjQ.name=Creative Flight... kinda! 
-betterquesting.quest.W9yEXO2sQFaPbSV6N6vqjQ.desc=With a MagLev Harness you can now fly anywhere*!%n%n*...as long as you are within range of a pylon. %n%nConsumes §c1A§r while powered. %n%nThe MV Pylon has a §c16§r block radius (33x33x33 cube centered around the pylon)%n%nRadius is §9halved§r if the pylon is unpowered. %n%n[note]You might consider constructing additional ones[/note]
-
 
 ## Quest Line: Tier 3 - HV
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAABQ.name=Tier 3 - HV
@@ -5617,10 +5613,6 @@ betterquesting.quest.tgH86mIERWKIh8OAleKrSw.desc=First available in LV, the Mob 
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAADQ.name=Building Better Bases
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAADQ.desc=Tired of torches everywhere making your base look like a loser built it? Make your base look like a winner with these quests.
 
-# Quest: Basic Creative Flight
-betterquesting.quest.-bMT3fEYTeqtRL-62o_EHQ.name=Basic Creative Flight
-betterquesting.quest.-bMT3fEYTeqtRL-62o_EHQ.desc=[quest]Advanced MagLev Pylon I (MV)[/quest]%n%nConsumes §c1A§r while powered. %n%nThe MV Pylon has a §c16§r block radius (33x33x33 cube centered around the pylon)%n%nRadius is §9halved§r if the pylon is unpowered. 
-
 # Quest: Building Made Easy
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACWQ.name=Building Made Easy
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACWQ.desc=Placing blocks by hand can be tedious. Wouldn't it be nice to be able to place blocks like "Another 9 here"? Well, good news. Get yourself some of the various building blocks, and I shall reward you with something nice.%n%nYou could also just craft it (or the better one) with unstable ingots yourself, too.%n%nYou can upgrade to the various other BBWs too.
@@ -6601,7 +6593,7 @@ betterquesting.quest.eur7SqfIT8GEE_NxscJj8Q.desc=So you've created the Chemical 
 
 # Quest: Nano Forge Tier 4
 betterquesting.quest.hUEbNbngSA6JxT_Pjq8DNw.name=Nano Forge Tier 4
-betterquesting.quest.hUEbNbngSA6JxT_Pjq8DNw.desc=The Transcendent Nanite has the required speed and complexity to create even the most complex nanites... but that doesn't necessarily insinuate that it is sufficient for your demands. You need a nanite that will perform at peak efficacy; a nanite that will outperform all other nanites to aid your own nanite production. Clearly then you must choose the Eternity Nanite! But you suspect that you'll need a far more complicated structure to be able to contain such a process.%n%n[note]Does not allow for any new recipes, but allows a greater speed at the cost of assembling a more expensive structure.[/note]
+betterquesting.quest.hUEbNbngSA6JxT_Pjq8DNw.desc=The Transcendent nanite has the required complexity and speed to create most nanites, but lacks the strength required to handle the exotic, hyper-dense, magnetic forms of matter you need to manipulate in order to advance. Fortunately with Eternity, you have found an ample replacement that should be up to the task... But you suspect that you'll need a far more complicated structure to be able to contain such a process.%n%n[note]Grants the ability to create §lMagmatter Nanites§r in addition to a greater speed at the cost of assembling a more expensive structure.[/note]
 
 # Quest: No More (IC) Engraving
 betterquesting.quest.isBmh7T0Sr63O2m5N4pCIQ.name=No More (IC) Engraving
@@ -14763,7 +14755,7 @@ betterquesting.quest._zwtTNh-SG6B4wp221XPcQ.desc=The MKIII is the final upgrade 
 
 # Quest: Creative Flight With MagLev
 betterquesting.quest.a-g__0y_SGyed_E6IkIrsg.name=§6§lCreative Flight With MagLev
-betterquesting.quest.a-g__0y_SGyed_E6IkIrsg.desc=Getting annoyed trying to reach pipes and conduits around your base? Look no further than the §5§lMagLev Harness§r!%n%nWith the MagLev, you can have creative flight whenever you are within range of a MagLev Pylon and have the Harness equip.%n%nThis will work even when unpowered, however the range of the Pylon gets doubled when it's given §21A§r of it's corresponding tier of power. The MagLev will only draw power while you are in-range, not passively. A Harness can only be tethered to one Pylon at a time, but a Pylon can attach to any number of Harnesses. Will only consume 1A §nregardless§r of how many Harnesses are tethered to the Pylon§r.%n%n[note]Check the tooltip to see the range of your chosen Pylon![/note]
+betterquesting.quest.a-g__0y_SGyed_E6IkIrsg.desc=Getting annoyed trying to reach pipes and conduits around your base? Look no further than the §5§lMagLev Harness§r!%n%nWith the MagLev, you can have creative flight whenever you are within range of a MagLev Pylon and have the Harness equip.%n%nThis will work even when unpowered, however the range of the Pylon gets doubled when it's given §21A§r of it's corresponding tier of power. The MagLev will only draw power while you are in-range, not passively. A Harness can only be tethered to one Pylon at a time, but a Pylon can attach to any number of Harnesses. Will only consume 1A §nregardless§r of how many Harnesses are tethered to the Pylon§r.%n%n[note]Check the tooltip to see the range of your chosen Pylon, the MV one has a maximum range of 16 (33 x 33 x 33) when powered![/note]
 
 # Quest: Absolute Purity
 betterquesting.quest.bNVzOxCORxuo_lhAh13r0A.name=Absolute Purity
