@@ -6963,14 +6963,12 @@
 {"gtFluidName":"dimensionallyshiftedsuperfluid"}
 {"gtFluidName":"dimethylbenzene"}
 {"gtFluidName":"diphenylisophtalate"}
-{"gtFluidName":"enrichednaquadria"}
 {"gtFluidName":"ethyltertbutylether"}
 {"gtFluidName":"exciteddtcc"}
 {"gtFluidName":"exciteddtec"}
 {"gtFluidName":"exciteddtpc"}
 {"gtFluidName":"exciteddtrc"}
 {"gtFluidName":"exciteddtsc"}
-{"gtFluidName":"fluidnaqudahfuel"}
 {"gtFluidName":"gammabutyrolactone"}
 {"gtFluidName":"gas_gas"}
 {"gtFluidName":"gas_natural_gas"}
@@ -7031,7 +7029,6 @@
 {"gtFluidName":"molten.energeticsilver"}
 {"gtFluidName":"molten.enhancedgalgadorian"}
 {"gtFluidName":"molten.enrichedholmium"}
-{"gtFluidName":"molten.enrichednaquadahfuel"}
 {"gtFluidName":"molten.epoxid"}
 {"gtFluidName":"molten.epoxidfiberreinforced"}
 {"gtFluidName":"molten.eternity"}
@@ -7075,7 +7072,6 @@
 {"gtFluidName":"molten.naquadahalloy"}
 {"gtFluidName":"molten.naquadahenriched"}
 {"gtFluidName":"molten.naquadria"}
-{"gtFluidName":"molten.naquadriafuel"}
 {"gtFluidName":"molten.neodymiummagnetic"}
 {"gtFluidName":"molten.nichrome"}
 {"gtFluidName":"molten.nickelaluminide"}
@@ -7130,7 +7126,6 @@
 {"gtFluidName":"molten.superconductoruivbase"}
 {"gtFluidName":"molten.superconductorumvbase"}
 {"gtFluidName":"molten.tartarite"}
-{"gtFluidName":"molten.teflon"}
 {"gtFluidName":"molten.tengamattuned"}
 {"gtFluidName":"molten.tengampurified"}
 {"gtFluidName":"molten.terrasteel"}
@@ -7162,7 +7157,6 @@
 {"gtFluidName":"moltenexohalkonitebase"}
 {"gtFluidName":"nitrofuel"}
 {"gtFluidName":"nmethylpyrolidone"}
-{"gtFluidName":"oxalate"}
 {"gtFluidName":"phononcrystalsolution"}
 {"gtFluidName":"phononmedium"}
 {"gtFluidName":"phosphoricacid_gt5u"}
@@ -7183,7 +7177,6 @@
 {"gtFluidName":"aluminumbrass.molten"}
 {"gtFluidName":"molten.desh"}
 {"gtFluidName":"molten.meteoriciron"}
-{"gtFluidName":"molten.teflon"}
 {"gtFluidName":"molten.titanium"}
 ; gt.recipe.fluidheater
 {"gtFluidName":"acetone"}
@@ -7515,14 +7508,12 @@
 {"Damage":"49S","strId":"bartworks:gt.bwMetaGenerateddust"}
 {"Damage":"49S","strId":"bartworks:gt.bwMetaGenerateddustTiny"}
 {"gtFluidName":"acetone"}
-{"gtFluidName":"enrichednaquadria"}
 {"gtFluidName":"ethyleneoxide"}
 {"gtFluidName":"methylamine"}
 {"gtFluidName":"molten.plastic"}
 {"gtFluidName":"molten.polystyrene"}
 {"gtFluidName":"molten.polytetrafluoroethylene"}
 {"gtFluidName":"molten.polyvinylchloride"}
-{"gtFluidName":"oxalate"}
 {"gtFluidName":"platinum concentrate"}
 {"gtFluidName":"polyvinylacetate"}
 {"gtFluidName":"thorium tetrafluoride"}
@@ -8917,7 +8908,6 @@
 {"Damage":"0S","strId":"miscutils:itemIngotSelenium"}
 {"Damage":"11019S","strId":"gregtech:gt.metaitem.01"}
 {"gtFluidName":"molten.precious metals alloy"}
-{"gtFluidName":"molten.teflon"}
 ; gtpp.recipe.category.abs_non_alloy_recipes
 {"gtFluidName":"molten.ademic steel"}
 {"gtFluidName":"molten.meteoriciron"}
