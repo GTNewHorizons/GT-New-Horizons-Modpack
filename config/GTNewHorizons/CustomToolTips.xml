@@ -228,12 +228,7 @@
 	<ToolTip ItemName="TConstruct:SearedBlock:1" ToolTip="§3Some metals processed in smeltery don't meet the purity requirement for GregTech processing." NBT=""/>
 	<ToolTip ItemName="TConstruct:SearedBlock:2" ToolTip="§3Some metals processed in smeltery don't meet the purity requirement for GregTech processing." NBT=""/>
 	<ToolTip ItemName="TConstruct:CastingChannel" ToolTip="§3Some metals processed in smeltery don't meet the purity requirement for GregTech processing." NBT=""/>
-	<ToolTip ItemName="TConstruct:oreBerries" ToolTip="Can be placed on an empty IC2 Crop.\nRequires low light to be placed." NBT=""/>
-	<ToolTip ItemName="TConstruct:oreBerries:1" ToolTip="Can be placed on an empty IC2 Crop.\nRequires low light to be placed." NBT=""/>
-	<ToolTip ItemName="TConstruct:oreBerries:2" ToolTip="Can be placed on an empty IC2 Crop.\nRequires low light to be placed." NBT=""/>
-	<ToolTip ItemName="TConstruct:oreBerries:3" ToolTip="Can be placed on an empty IC2 Crop.\nRequires low light to be placed." NBT=""/>
-	<ToolTip ItemName="TConstruct:oreBerries:4" ToolTip="Can be placed on an empty IC2 Crop.\nRequires low light to be placed." NBT=""/>
-	<ToolTip ItemName="TConstruct:oreBerries:5" ToolTip="Can be placed on an empty IC2 Crop.\nRequires low light to be placed." NBT=""/>
+	<ToolTip ItemName="TConstruct:oreBerries" ToolTip="Can be placed on an empty IC2 Crop.\nRequires low light to be placed." NBT="" MetaStart="0" MetaEnd="5"/>
 
 //Railcraft tanks
 //Iron
