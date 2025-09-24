@@ -245,7 +245,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIw.desc=Now that you've found copper an
 
 # Quest: Important Tools
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAJA.name=§2§lImportant Tools
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAJA.desc=In order to craft even basic machines, you'll need new tools. Most of them can be replaced by machines later. For now, you should become familiar with each of their recipes, as you will need a lot of these tools, starting today.%n%nYour new tools can also be used to make Railcraft water tanks, a very useful multiblock considering the finite water feature.%n%nThere are also electric versions of the tools, you can upgrade later if you want. Also, there are many versions of the tools, they generally follow the same rules as tinkers parts in terms of how good they are, similarly to turbines. You can look at the spreadsheet for more info on GT tool stats.%n%nFor this quest, you can use whatever materials you want. The gem version of the saw is crafted differently to metal versions. Higher tier tools need steel or tungstensteel rods instead of sticks.%n%n[note]If you want to know the recipe for a tool using your specific material, be sure to take advantage of the magnifying glass icon at the top of the tool list so you can search for it.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAJA.desc=In order to craft even basic machines, you'll need new tools. Most of them can be replaced by machines later. For now, you should become familiar with each of their recipes, as you will need a lot of these tools, starting today.%n%nYour new tools can also be used to make Railcraft water tanks, a very useful multiblock considering the finite water feature.%n%nThere are also electric versions of the tools, you can upgrade later if you want. Also, there are many versions of the tools, they generally follow the same rules as tinkers parts in terms of how good they are, similarly to turbines. You can look at the spreadsheet for more info on GT tool stats.%n%nFor this quest, you can use whatever materials you want. The gem version of the saw is crafted differently to metal versions. Higher tier tools need steel or tungstensteel rods instead of sticks.%n%n[note]If you want to know the recipe for a tool using your specific material, be sure to take advantage of the magnifying glass icon at the top of the tool list so you can search for it. (Try out Iron for these quests!)[/note]
 
 # Quest: Getting Iron
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAJQ.name=§2§lGetting Iron
@@ -3587,6 +3587,14 @@ betterquesting.quest.zb1nbwNuSFKuSEyW3mVj-Q.desc=At long last... the final ingre
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAHg.name=Tier 7 - ZPM
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAHg.desc=Congratulations, you've completed the platline, assline, CAL, §oand§r fusion reactor and made it to the Zero Point Module tier. You're well into the late game now, but there's still a lot of stuff to do. Good luck!
 
+# Quest: Prismatic Naquadah Composite Slurry
+betterquesting.quest.-wpUfFlVT5GytSWoT6QAdg.name=Prismatic Naquadah Composite Slurry
+betterquesting.quest.-wpUfFlVT5GytSWoT6QAdg.desc=Why stop at §2Prismatic Naquadah§r? Given it's pliant nature you suspect that it may be advantageous to use it's unique strength to form new, much more durable, foil types.%n%nCombing the §2Prismatic Naquadah§r with your choice of §2binding powder§r in a §5§lMixer§r and you'll create exactly the type of substance you were looking for; A §3Prismatic Naquadah Composite Slurry§r to mold into foil. 
+
+# Quest: Prismatic Acid
+betterquesting.quest.9CIs8MP4TBuyRgn8lDu3Mg.name=Prismatic Acid
+betterquesting.quest.9CIs8MP4TBuyRgn8lDu3Mg.desc=Almost there I promise!%n%nNow that you have obtained the §2Prismatic Gas§o§r, you must cool it down in a §5§lVacuum Freezer§r with the assistance of §2Liquid Nitrogen§r. This will give you §3Prismatic Acid§r.%n%n[warn]Aside from continuing down this line, you can also use Prismatic Acid in the processing of Gaia blocks later.[/warn]%n
+
 # Quest: Power, So Much Power!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABdw.name=Power, So Much Power!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABdw.desc=If only I could harness it... Well, hello there my friend. I need your help with a project of mine. I want to create an immense power source, but I have a few problems that I need to solve first. Will you help me? You'll be well rewarded.%n%n[note]The quests to get items will trigger the next part once you hold the item in question.[/note]
@@ -3737,7 +3745,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALZw.desc=Ah, you made it.%n%nYou can cho
 
 # Quest: Enriched Naquadah Time
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALaA.name=Enriched Naquadah Time
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALaA.desc=The enriched naquadah line is much shorter than the naquadah line, and easier. It's used for fuel or Neuro Processing Units which are UV content, so if you don't want to build a line for it, just ignore these quests.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALaA.desc=The Enriched Naquadah line is much shorter than the Naquadah line, and easier. It's used for fuel or Neuro Processing Units which are UV content, and it's also used in the Prismarine line to make Prismatic Naquadah; something you will need for Trinium Coils.%n%n[warn]Hold 16 enriched Naquadah Ingot / Dust to skip this questline.[/warn]
 
 # Quest: Concentration
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALgQ.name=Concentration
@@ -3757,7 +3765,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALhQ.desc=So it is a circle?
 
 # Quest: N.N.Q.Q.N.Q.Q
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALhg.name=N.N.Q.Q.N.Q.Q
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALhg.desc=Do you want some naquadria?%n%nUnfortunately, the naquadria dust has become repulsive naquadria oxide mixture dust because of a NERF. You have to build a line for it, like the naquadah.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALhg.desc=Do you want some naquadria?%n%nUnfortunately, the naquadria dust has become repulsive naquadria oxide mixture dust because of a NERF. You have to build a line for it, like the naquadah.%n%n[warn]Hold 16 Naquadria Ingots / Dust to skip this questline.[/warn]
 
 # Quest: Purification
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALhw.name=Purification
@@ -3783,9 +3791,53 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALiw.desc=Smelt it with magnesium dust in
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsw.name=The Final Goal
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsw.desc=Thanks to your help I have managed to create the ultimate energy source: An encased wormhole that drains energy from a synthesized pocket universe, to the point when it reaches heat death. I have no use for it, so you may have it. Thank you for making my dream come true!
 
+# Quest: Prismarine Recycling Pt. 2
+betterquesting.quest.AQMaWAiIRo6vNTAxqopS_Q.name=Prismarine Recycling Pt. 2
+betterquesting.quest.AQMaWAiIRo6vNTAxqopS_Q.desc=You'll notice after processing your first Prismarine Precipitates you are left with a second §2Contaminated Prismarine Solution§r. You can also recycle this for added §3Prismarine Solution§o§r and §3Prismarine-Rich Nitrobenzene Solution§r. Again, technically optional, but highly recommended.%n%n[warn]If you didn't setup the recycling for the Contaminated Hydrogen Peroxide then you'll want to now since this recycling actively produces it.[/warn]
+
+# Quest: Prismarine Solution
+betterquesting.quest.J9eklidSTbyHgMgImYT3-g.name=Prismarine Solution
+betterquesting.quest.J9eklidSTbyHgMgImYT3-g.desc=After you've managed to grab some §2Prismarine§r, you must process it with §2Industrial Strength Hydrofluoric Acid§r and §2Hydrogen Peroxide§r in the §5§lDissolution Tank§r. Using these ingredients you can make your very first batch of §3Prismarine Solution§r.%n%n[warn]After you've managed to create your first batch of Industrial Strength HF, it's highly recommended to check the Chemical Plant recipes for further creation of it![/warn]
+
+# Quest: Prismarine!? What Do I Need That For?
+betterquesting.quest.JhZaTiUfTH2AfBcHulTMVA.name=Prismarine!? What Do I Need That For?
+betterquesting.quest.JhZaTiUfTH2AfBcHulTMVA.desc=§5§lPrismarine§r is an ancient material long reumored to have originated from structures found deep within the ocean. Learning how to create this is extremely important, and may lead to advancements in technology with further exploration into the substrate.%n%nYou can get Prismarine in a few different ways as shown resource-wise by the optional tasks:%n%n§31. Through Botania by transmutating §nNether Quartz§r§3 directly to §nPrismarine§r§3 via an §nAlchemical Catalyst or the Fountain of Alchemy§r%n§r%n§22. Using §nRed Algae Biomass§r§2 and §nCertus Quartz§r §2dust in an §nAutoclave%n§r%n§c3. Using §nRed Algae Biomass§r§c and §nPrismatic Combs§r §cin an §nAutoclave.%n§r%nWhich method you choose is entirely up to you and dependent on what infrastructure you have setup thus-far. Either way you would be wise to make a robust setup as you will be needing a decent amount of Prismarine in the future.%n%n[warn]Hold 16 Naquarite Insulator Foil to skip the Prismarine line Quests.[/warn]
+
+# Quest: Prismatic Gas
+betterquesting.quest.Oh_EQhvBQUqHeVcUyifCXQ.name=Prismatic Gas
+betterquesting.quest.Oh_EQhvBQUqHeVcUyifCXQ.desc=The §2Prismatic Crystal§r will then be processed in a §5§lVacuum Furnace§r with §2Boron Plasma§r in order to successfully convert it to the highly sought after §3Prismatic Gas§r.
+
+# Quest: Naquarite Universal Insulator Foil
+betterquesting.quest.fVoSLYPcSmKd-gLhBJHK9A.name=Naquarite Universal Insulator Foil
+betterquesting.quest.fVoSLYPcSmKd-gLhBJHK9A.desc=Finally, you can combine the §2Radiation-Proof Composite Sheet§r with §2Netherite Foil§r and §2Manyullyn§r in the §5§lForming Press§r to create §3Naquarite Universal Insulator Foil§r. This incredibly strong foil can be used to bind ingredients to all of your future coils due to it's unrivaled radiation and heat resistance. 
+
+# Quest: Prismarine Precipitate
+betterquesting.quest.fc7Q6J-BThCf_NbvM0ki2Q.name=Prismarine Precipitate
+betterquesting.quest.fc7Q6J-BThCf_NbvM0ki2Q.desc=After creating the §2Prismarine-Rich Nitrobenzene Solution§r, you'll need to process it using a §5§lChemical Plant§r with §2Strontium Hydroxide§r. Once processed, you can successfully obtain your first §3Prismarine Precipitate§r.%n%n[warn]The Strontium is completely recyclable in the line, so no need to worry about it's continuous production.[/warn]
+
+# Quest: Prismarine Recycling
+betterquesting.quest.kWoNH5tTQX2VIFmkui4YKA.name=Prismarine Recycling
+betterquesting.quest.kWoNH5tTQX2VIFmkui4YKA.desc=§2Prismarine-Contaminated Hydrogen Peroxide§r is a byproduct of a couple different recipes in this line, it's best to recycle it for the bonus §3Prismarine Solution§r. Of course, you don't have to, but it would be ill-advised to avoid it.
+
 # Quest: Superdense
 betterquesting.quest.sB_lbhZZRnmZNjJiF8-1Hg.name=Superdense
 betterquesting.quest.sB_lbhZZRnmZNjJiF8-1Hg.desc=The advanced machines you are now creating require more advanced materials, as well as more advanced ways to process them. In ZPM, you can construct the Hot Isostatic Pressurization Unit, an upgrade to the Large Electric Compressor. This multiblock heats material to extreme temperatures under extreme pressure, allowing it to create superdense plates with minimal imperfections.%n%nThe HIP Unit heats up while it is running, and must be given some time to cool off. If it reaches its maximum heat threshold, it will significantly slow your recipes or even void the inputs. Use better coils to increase how long it will take to overheat, and use Heat Sensor Hatches to automate it properly.%n%n[note]Can perform compression recipes which say "Requires HIP Unit" in NEI.[/note]
+
+# Quest: Prismatic Naquadah Composite Sheet
+betterquesting.quest.sHI1n7unRWecpNcyBAgUfw.name=Prismatic Naquadah Composite Sheet
+betterquesting.quest.sHI1n7unRWecpNcyBAgUfw.desc=§5§lDehydrating§r this §2Prismatic Naquqdah Composite Slurry§r over the top of §2Tungsten Carbide§r & §2Lead foil§r creates a completely §3Radiation-Proof Composite Sheet§r. This will prove to be very useful in protecting your environment from radiation emitting structures.
+
+# Quest: Prismatic Crystal
+betterquesting.quest.xQE-vyLyTeCn0SEIHjbkNQ.name=Prismatic Crystal
+betterquesting.quest.xQE-vyLyTeCn0SEIHjbkNQ.desc=After finally getting the §2Prismarine Precipitate§r, the logical next step is to crystallize the Prismarine into a §3Prismatic Crystal§r. Using a §2Magneto-Resonance Lens§r we can do this in a §5§lLaser Engraver§r with the assistance of §2Molten Crystalline Alloy§r.
+
+# Quest: Prismarine-Rich Nitrobenzene Solution
+betterquesting.quest.ydavD3O5QcKvxk2wIDtakw.name=Prismarine-Rich Nitrobenzene Solution
+betterquesting.quest.ydavD3O5QcKvxk2wIDtakw.desc=After you've gotten ahold of some §2Prismarine Solution§r, combine it with §2Nitrobenzene§r in a §5§lChemical Bath§r in order to create a §3rich solution mixture§r. %n%nAdditionally, you will start to receive some §3Prismarine-Contaminated Hydrogen Peroxide§r byproduct.
+
+# Quest: Prismatic Naquadah
+betterquesting.quest.zIDk7MniRMGE9u_1Slo2qg.name=Prismatic Naquadah
+betterquesting.quest.zIDk7MniRMGE9u_1Slo2qg.desc=Woah, a new metal?%n%nBy combining the forces of your newly created §2Enriched Naquqdah§r and §2Prismatic Acid§r in the §5Alloy Blast Smelter§r, you find that a new metal forms; §3Prismatic Naquadah§r. %n%n[warn]This extremely strong, yet pliant material will be used in quite a few different structures and materials going forth.[/warn]
 
 
 ## Quest Line: Tier 8 - UV
@@ -4293,7 +4345,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAB0Q.desc=In the darkest corners of the E
 
 # Quest: The Darkness of Choice for Edgelords
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJbQ.name=The Darkness of Choice for Edgelords
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJbQ.desc=%nIn order to get to the riches you rightfully deserve, you'll first need to make a Raw Portal, then complete it with more materials. You can then access this dimension that should contain every ore imaginable...%n%n[note]Unfortunately, those tasty ores are locked beneath the mantle of the planet. You'll need to use a Void Miner to get them out.[/note]%n%n[note]This should help with the Tartarite problems due to Proto-Halkonite Steel Base.[/note]%n%n[warn]If there is ever an ore that you need but cannot find, it's guarenteed to be gatherable from this dimension.[/warn]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJbQ.desc=%nIn order to get to the riches you rightfully deserve, you'll first need to make a Raw Portal, then complete it with more materials. You can then access this dimension that should contain every ore imaginable...%n%n[note]Unfortunately, those tasty ores are locked beneath the mantle of the planet. You'll need to use a Void Miner to get them out.[/note]%n%n[note]This should help with the Tartarite problems due to Proto-Halkonite Steel Base.[/note]%n%n[warn]If there is ever an ore that you need but cannot find, it's guaranteed to be gatherable from this dimension.[/warn]
 
 # Quest: Chaotic Energy
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKjQ.name=Chaotic Energy
@@ -14832,6 +14884,10 @@ betterquesting.quest.5pXaevjTR-atLo3tdEZMEw.desc=No Description
 betterquesting.quest.87VYEeyaTWGSnRhRwAhrLw.name=Trigger: Rocket Shuttle Skip
 betterquesting.quest.87VYEeyaTWGSnRhRwAhrLw.desc=No Description
 
+# Quest: Trigger: Naquadria Skip
+betterquesting.quest.8EErMy6nSaORxRLGLEKZMQ.name=Trigger: Naquadria Skip
+betterquesting.quest.8EErMy6nSaORxRLGLEKZMQ.desc=No Description
+
 # Quest: Trigger: Samarium Skip
 betterquesting.quest.8_u1r5cyR92lkZZTVvPRag.name=Trigger: Samarium Skip
 betterquesting.quest.8_u1r5cyR92lkZZTVvPRag.desc=No Description
@@ -14976,6 +15032,10 @@ betterquesting.quest.GvUC3hv2RsO-3FofYAyd7A.desc=No Description
 betterquesting.quest.KcPyyBL4Rre8QMDg3T4kqA.name=Trigger: Cerium Skip
 betterquesting.quest.KcPyyBL4Rre8QMDg3T4kqA.desc=No Description
 
+# Quest: Trigger: Enriched Naquadah Skip
+betterquesting.quest.ML49smX4QgWaltUeO9c3bA.name=Trigger: Enriched Naquadah Skip
+betterquesting.quest.ML49smX4QgWaltUeO9c3bA.desc=No Description
+
 # Quest: Trigger: Graphene Skip
 betterquesting.quest.MdXhDkN_TECH5kMp4OM2Gg.name=Trigger: Graphene Skip
 betterquesting.quest.MdXhDkN_TECH5kMp4OM2Gg.desc=No Description
@@ -15047,6 +15107,10 @@ betterquesting.quest.rTYfjovjSEazD4lgxmmkEA.desc=No Description
 # Quest: Trigger: LV Extruder Skip
 betterquesting.quest.sIP_FoxIRaeE08GesBwYcQ.name=Trigger: LV Extruder Skip
 betterquesting.quest.sIP_FoxIRaeE08GesBwYcQ.desc=No Description
+
+# Quest: Trigger: Prismarine Line Skip
+betterquesting.quest.v-EF1CLsQt-AlNOHrXUP6w.name=Trigger: Prismarine Line Skip
+betterquesting.quest.v-EF1CLsQt-AlNOHrXUP6w.desc=No Description
 
 # Quest: Trigger: CN3H7O3 (Purple) Rocket Fuel Skip
 betterquesting.quest.vP1W1MPQTOa4kzbCpQJzOQ.name=Trigger: CN3H7O3 (Purple) Rocket Fuel Skip
