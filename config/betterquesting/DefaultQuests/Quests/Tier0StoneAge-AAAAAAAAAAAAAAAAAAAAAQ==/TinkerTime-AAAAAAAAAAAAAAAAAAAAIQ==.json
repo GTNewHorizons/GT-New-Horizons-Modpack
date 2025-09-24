@@ -80,7 +80,7 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 1,
+          "Damage:2": 32767,
           "OreDict:8": "",
           "id:8": "TConstruct:ToolStationBlock"
         },
