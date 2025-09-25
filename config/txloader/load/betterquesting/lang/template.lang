@@ -233,7 +233,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIA.desc=After you found a way to move w
 
 # Quest: Tinker-Time
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIQ.name=§2§lTinker-Time
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIQ.desc=While using your wooden tools is fun in terms of killing pigs and cows, they are not long-lasting and can't be repaired. Plus Infernals laugh at your attempts to kill them. You discovered how to craft tools that can be repaired and upgraded, but for that you definitely need a more advanced crafting technique.%n%nIf you have to use wood other than oak to make your tables, you can convert them to the default oak wood type to complete this quest.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIQ.desc=While using your wooden tools is fun in terms of killing pigs and cows, they are not long-lasting and can't be repaired. Plus Infernals laugh at your attempts to kill them. You discovered how to craft tools that can be repaired and upgraded, but for that you definitely need a more advanced crafting technique.%n%n[note]If you don't have access to oak wood for creating your Part Builder, you can shapelessly craft yours into the oak variant for purposes of completing this quest[/note]
 
 # Quest: Zinc Gravel
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIg.name=§2§lZinc Gravel
@@ -3444,7 +3444,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKeA.desc=When making Raw Crystal Chips, 
 
 # Quest: Ether Strike!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALaQ.name=§c§lEther Strike!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALaQ.desc=The naquadah is so inert that most acids won't react with it, so you need a more powerful kind of acid to dissolve it.%n%nLet's prepare some necessary organic solvent to make the acid.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALaQ.desc=The naquadah is so inert that most acids won't react with it, so you need a more powerful kind of acid to dissolve it.%n%nLet's prepare some necessary organic solvent to make the acid.%n%n[warn]If you have already created the Naquadah line, hold 64 Naquadah Ingot / Dust to skip these quests.[/warn]
 
 # Quest: Antimony and Chlorine
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALag.name=§c§lAntimony and Chlorine
@@ -3589,7 +3589,7 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAAHg.desc=Congratulations, you've com
 
 # Quest: Prismatic Naquadah Composite Slurry
 betterquesting.quest.-wpUfFlVT5GytSWoT6QAdg.name=Prismatic Naquadah Composite Slurry
-betterquesting.quest.-wpUfFlVT5GytSWoT6QAdg.desc=Why stop at §2Prismatic Naquadah§r? Given it's pliant nature you suspect that it may be advantageous to use it's unique strength to form new, much more durable, foil types.%n%nCombing the §2Prismatic Naquadah§r with your choice of §2binding powder§r in a §5§lMixer§r and you'll create exactly the type of substance you were looking for; A §3Prismatic Naquadah Composite Slurry§r to mold into foil. 
+betterquesting.quest.-wpUfFlVT5GytSWoT6QAdg.desc=Why stop at §2Prismatic Naquadah§r? Given it's malleable nature you suspect that it may be advantageous to use it's unique strength to form new, much more durable, foil types.%n%nCombing the §2Prismatic Naquadah§r with your choice of §2binding powder§r in a §5§lMixer§r and you'll create exactly the type of substance you were looking for; A §3Prismatic Naquadah Composite Slurry§r to mold into foil. 
 
 # Quest: Prismatic Acid
 betterquesting.quest.9CIs8MP4TBuyRgn8lDu3Mg.name=Prismatic Acid
@@ -3797,11 +3797,11 @@ betterquesting.quest.AQMaWAiIRo6vNTAxqopS_Q.desc=You'll notice after processing 
 
 # Quest: Prismarine Solution
 betterquesting.quest.J9eklidSTbyHgMgImYT3-g.name=Prismarine Solution
-betterquesting.quest.J9eklidSTbyHgMgImYT3-g.desc=After you've managed to grab some §2Prismarine§r, you must process it with §2Industrial Strength Hydrofluoric Acid§r and §2Hydrogen Peroxide§r in the §5§lDissolution Tank§r. Using these ingredients you can make your very first batch of §3Prismarine Solution§r.%n%n[warn]After you've managed to create your first batch of Industrial Strength HF, it's highly recommended to check the Chemical Plant recipes for further creation of it![/warn]
+betterquesting.quest.J9eklidSTbyHgMgImYT3-g.desc=After you've managed to grab some §2Prismarine§r, you must process it with §2Industrial Strength Hydrofluoric Acid§r and §2Hydrogen Peroxide§r in the §5§lDissolution Tank§r. Using these ingredients you can make your very first batch of §3Prismarine Solution§r.%n%n[warn]After you've created your first batch of Industrial Strength HF, it's highly recommended to check the Chemical Plant recipes for further creation of it![/warn]
 
 # Quest: Prismarine!? What Do I Need That For?
 betterquesting.quest.JhZaTiUfTH2AfBcHulTMVA.name=Prismarine!? What Do I Need That For?
-betterquesting.quest.JhZaTiUfTH2AfBcHulTMVA.desc=§5§lPrismarine§r is an ancient material long reumored to have originated from structures found deep within the ocean. Learning how to create this is extremely important, and may lead to advancements in technology with further exploration into the substrate.%n%nYou can get Prismarine in a few different ways as shown resource-wise by the optional tasks:%n%n§31. Through Botania by transmutating §nNether Quartz§r§3 directly to §nPrismarine§r§3 via an §nAlchemical Catalyst or the Fountain of Alchemy§r%n§r%n§22. Using §nRed Algae Biomass§r§2 and §nCertus Quartz§r §2dust in an §nAutoclave%n§r%n§c3. Using §nRed Algae Biomass§r§c and §nPrismatic Combs§r §cin an §nAutoclave.%n§r%nWhich method you choose is entirely up to you and dependent on what infrastructure you have setup thus-far. Either way you would be wise to make a robust setup as you will be needing a decent amount of Prismarine in the future.%n%n[warn]Hold 16 Naquarite Insulator Foil to skip the Prismarine line Quests.[/warn]
+betterquesting.quest.JhZaTiUfTH2AfBcHulTMVA.desc=§5§lPrismarine§r is an ancient material long rumored to have originated from structures found deep within the ocean. Learning how to create this is extremely important, and may lead to advancements in technology with further exploration into the substrate.%n%nYou can get Prismarine in a few different ways as shown resource-wise by the optional tasks:%n%n§31. Through Botania by transmutating §nNether Quartz§r§3 directly to §nPrismarine§r§3 via an §nAlchemical Catalyst or the Fountain of Alchemy§r%n§r%n§22. Using §nRed Algae Biomass§r§2 and §nCertus Quartz§r §2dust in an §nAutoclave%n§r%n§c3. Using §nRed Algae Biomass§r§c and §nPrismatic Combs§r §cin an §nAutoclave.%n§r%nWhich method you choose is entirely up to you and dependent on what infrastructure you have setup thus-far. Either way you would be wise to make a robust setup as you will be needing a decent amount of Prismarine in the future.%n%n[warn]Hold 16 Naquarite Insulator Foil to skip the Prismarine line Quests.[/warn]
 
 # Quest: Prismatic Gas
 betterquesting.quest.Oh_EQhvBQUqHeVcUyifCXQ.name=Prismatic Gas
@@ -3813,7 +3813,7 @@ betterquesting.quest.fVoSLYPcSmKd-gLhBJHK9A.desc=Finally, you can combine the §
 
 # Quest: Prismarine Precipitate
 betterquesting.quest.fc7Q6J-BThCf_NbvM0ki2Q.name=Prismarine Precipitate
-betterquesting.quest.fc7Q6J-BThCf_NbvM0ki2Q.desc=After creating the §2Prismarine-Rich Nitrobenzene Solution§r, you'll need to process it using a §5§lChemical Plant§r with §2Strontium Hydroxide§r. Once processed, you can successfully obtain your first §3Prismarine Precipitate§r.%n%n[warn]The Strontium is completely recyclable in the line, so no need to worry about it's continuous production.[/warn]
+betterquesting.quest.fc7Q6J-BThCf_NbvM0ki2Q.desc=After creating the §2Prismarine-Rich Nitrobenzene Solution§r, you'll need to process it using a §5§lChemical Plant§r with §2Strontium Hydroxide§r. Once processed, you can successfully obtain your first §3Prismarine Precipitate§r.%n%n[warn]The Strontium is completely recyclable within the line, so no need to worry about it's continuous injection.[/warn]
 
 # Quest: Prismarine Recycling
 betterquesting.quest.kWoNH5tTQX2VIFmkui4YKA.name=Prismarine Recycling
@@ -3837,7 +3837,7 @@ betterquesting.quest.ydavD3O5QcKvxk2wIDtakw.desc=After you've gotten ahold of so
 
 # Quest: Prismatic Naquadah
 betterquesting.quest.zIDk7MniRMGE9u_1Slo2qg.name=Prismatic Naquadah
-betterquesting.quest.zIDk7MniRMGE9u_1Slo2qg.desc=Woah, a new metal?%n%nBy combining the forces of your newly created §2Enriched Naquqdah§r and §2Prismatic Acid§r in the §5Alloy Blast Smelter§r, you find that a new metal forms; §3Prismatic Naquadah§r. %n%n[warn]This extremely strong, yet pliant material will be used in quite a few different structures and materials going forth.[/warn]
+betterquesting.quest.zIDk7MniRMGE9u_1Slo2qg.desc=Woah, a new metal?%n%nBy combining the forces of your newly created §2Enriched Naquqdah§r and §2Prismatic Acid§r in the §5§lAlloy Blast Smelter§r, you find that a new metal forms; §3Prismatic Naquadah§r. %n%n[warn]This extremely strong, yet shockingly pliant material will be used in quite a few different structures and materials going forth.[/warn]
 
 
 ## Quest Line: Tier 8 - UV
@@ -7471,7 +7471,7 @@ betterquesting.quest._O6stWM3RR-qJdcvs0i-Mw.desc=You've mastered antimatter prod
 
 # Quest: Welcome to the Plasma Chain
 betterquesting.quest.bNiieqPgSFqwFpC2DZkj-g.name=Welcome to the Plasma Chain
-betterquesting.quest.bNiieqPgSFqwFpC2DZkj-g.desc=Hello there! If you've unlocked fusion, you can start this questline, but keep in mind that it's divided into three segments (the three fusion chains): one for each tier of Fusion Reactor, from Mk1 to Mk3.%n%nThere is a spreadsheet for all these chains, although it has some reactor count numbers that aren't right. To see it, check the Excel spreadsheet that set these numbers, in the following GitHub link: [url]https://github.com/GTNewHorizons/GTplusplus/pull/669[/url]%n%nThese quests follow the process of creating some truly powerful plasmas that are useful for power generation at the beginning of endgame, when you've scaled up your setup to a Compact Fusion Reactor and XL Plasma Turbines. As you might have seen before, those huge turbines can go very fast with good materials, like Trinium or Infinity, but they will apply EU/t penalties according to the fuel value of the plasma used. This means that Helium and Tin Plasma are both much weaker there than they were in Large Plasma Turbines.%n%nThe end product of this whole process is Celestial Tungsten Plasma, which has no penalties even at Spacetime and can somewhat match what Helium Plasma would have produced, per compact reactor. The last step is the slowest, but, if there are no other bottlenecks, you can expect around §2§lover 8 billion EU/t§r assuming a single compact doing the last step with huge infinity turbines in a plasma XL.%n%nHowever, getting there won't be easy. This whole process uses 15 fusion recipes in total, and a lot more material automation than any of the simple fusion setups. This questline will help explain what is simple, not simple, or possibly a bottleneck. If you complete this, you will be sustained in powergen until the Dyson Swarm, or whatever other option appears later on, and it will continue being useful later on!
+betterquesting.quest.bNiieqPgSFqwFpC2DZkj-g.desc=Hello there! If you've unlocked fusion, you can start this questline, but keep in mind that it's divided into three segments (the three fusion chains): one for each tier of Fusion Reactor, from Mk1 to Mk3.%n%nThere are more fine details surrounding plasma power generation you can access by using the following Wiki link: [url]https://wiki.gtnewhorizons.com/wiki/Fusion_Reactor[/url]%n%nThese quests follow the process of creating some truly powerful plasmas that are useful for power generation at the beginning of endgame, when you've scaled up your setup to a Compact Fusion Reactor and XL Plasma Turbines. As you might have seen before, those huge turbines can go very fast with good materials, like Trinium or Infinity, but they will apply EU/t penalties according to the fuel value of the plasma used. This means that Helium and Tin Plasma are both much weaker there than they were in Large Plasma Turbines.%n%nThe end product of this whole process is Celestial Tungsten Plasma, which has no penalties even at Spacetime and can somewhat match what Helium Plasma would have produced, per compact reactor. The last step is the slowest, but, if there are no other bottlenecks, you can expect around §2§lover 8 billion EU/t§r assuming a single compact doing the last step with huge infinity turbines in a plasma XL.%n%nHowever, getting there won't be easy. This whole process uses 15 fusion recipes in total, and a lot more material automation than any of the simple fusion setups. This questline will help explain what is simple, not simple, or possibly a bottleneck. If you complete this, you will be sustained in powergen until the Dyson Swarm, or whatever other option appears later on, and it will continue being useful later on!
 
 # Quest: XL Turbo SC Steam Turbine
 betterquesting.quest.bz_RazGFSl6k7fUkEt1Lzw.name=XL Turbo SC Steam Turbine

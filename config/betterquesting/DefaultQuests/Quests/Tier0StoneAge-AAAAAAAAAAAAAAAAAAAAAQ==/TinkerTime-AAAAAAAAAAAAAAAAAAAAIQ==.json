@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "While using your wooden tools is fun in terms of killing pigs and cows, they are not long-lasting and can\u0027t be repaired. Plus Infernals laugh at your attempts to kill them. You discovered how to craft tools that can be repaired and upgraded, but for that you definitely need a more advanced crafting technique.\n\nIf you have to use wood other than oak to make your tables, you can convert them to the default oak wood type to complete this quest.",
+      "desc:8": "While using your wooden tools is fun in terms of killing pigs and cows, they are not long-lasting and can\u0027t be repaired. Plus Infernals laugh at your attempts to kill them. You discovered how to craft tools that can be repaired and upgraded, but for that you definitely need a more advanced crafting technique.\n\n[note]If you don\u0027t have access to oak wood for creating your Part Builder, you can shapelessly craft yours into the oak variant for purposes of completing this quest[/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -80,7 +80,7 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 32767,
+          "Damage:2": 1,
           "OreDict:8": "",
           "id:8": "TConstruct:ToolStationBlock"
         },
