@@ -38,12 +38,10 @@ body:
     description: What Java version are you using? It's worth mentioning that if you play on Java9+ you should try update to latest minor release (e.g. prefer Java 17.0.6 over 17.0.2) of that version.
     options:
     - Java 8
-    - Java 9
-    - Java 11
     - Java 17
-    - Java 19
-    - Java 20
     - Java 21
+    - Java 24
+    - Java 25
     - Other versions in between
   validations:
     required: true
