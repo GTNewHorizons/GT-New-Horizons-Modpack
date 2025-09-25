@@ -1,0 +1,175 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1493
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 1,
+      "desc:8": "No Description",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2324,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.metaitem.01"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 1,
+      "lockedProgress:1": 0,
+      "name:8": "Trigger: Naqline Skip",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "OR",
+      "visibility:8": "HIDDEN"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 3036,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 0,
+      "questID:8": "AAAAAAAAAAAAAAAAAAALaQ\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "1:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 1,
+      "questID:8": "AAAAAAAAAAAAAAAAAAALag\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "2:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 2,
+      "questID:8": "AAAAAAAAAAAAAAAAAAALbA\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "3:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 3,
+      "questID:8": "AAAAAAAAAAAAAAAAAAALbQ\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "4:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 4,
+      "questID:8": "AAAAAAAAAAAAAAAAAAALbg\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "5:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 5,
+      "questID:8": "AAAAAAAAAAAAAAAAAAALbw\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "6:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 6,
+      "questID:8": "AAAAAAAAAAAAAAAAAAALcA\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "7:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 7,
+      "questID:8": "AAAAAAAAAAAAAAAAAAALcQ\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "8:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 8,
+      "questID:8": "AAAAAAAAAAAAAAAAAAALdg\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "9:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 9,
+      "questID:8": "AAAAAAAAAAAAAAAAAAALdw\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "10:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 10,
+      "questID:8": "AAAAAAAAAAAAAAAAAAALcg\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "11:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 11,
+      "questID:8": "AAAAAAAAAAAAAAAAAAALfA\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "12:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 12,
+      "questID:8": "AAAAAAAAAAAAAAAAAAALfQ\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "13:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 13,
+      "questID:8": "AAAAAAAAAAAAAAAAAAALdA\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "14:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 14,
+      "questID:8": "AAAAAAAAAAAAAAAAAAALdQ\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "15:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 15,
+      "questID:8": "AAAAAAAAAAAAAAAAAAALaw\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "16:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 16,
+      "questID:8": "AAAAAAAAAAAAAAAAAAALcw\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 2324,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 11324,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
