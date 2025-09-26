@@ -24,9 +24,9 @@
 	<ToolTip ItemName="StevesCarts:CartModule:61" ToolTip="§dPerpetual Locomotion" NBT=""/>
 
 //Bags
-	<ToolTip ItemName="Backpack:backpack" ToolTip="4*9 Inventory - 36 Slots" NBT="" MetaStart="0" MetaEnd="16"/>
-	<ToolTip ItemName="Backpack:backpack" ToolTip="7*9 Inventory - 63 Slots" NBT="" MetaStart="100" MetaEnd="116"/>
-	<ToolTip ItemName="Backpack:backpack" ToolTip="10*9 Inventory - 90 Slots" NBT="" MetaStart="200" MetaEnd="216"/>
+	<ToolTip ItemName="Backpack:backpack" ToolTip="36 Slots" NBT="" MetaStart="0" MetaEnd="16"/>
+	<ToolTip ItemName="Backpack:backpack" ToolTip="63 Slots" NBT="" MetaStart="100" MetaEnd="116"/>
+	<ToolTip ItemName="Backpack:backpack" ToolTip="90 Slots" NBT="" MetaStart="200" MetaEnd="216"/>
 	<ToolTip ItemName="Backpack:backpack:17" ToolTip="Crafting Backpack with 9 Inventory Slots" NBT=""/>
 	<ToolTip ItemName="Backpack:backpack:217" ToolTip="Crafting Backpack with 18 Inventory Slots" NBT=""/>
 	<ToolTip ItemName="Backpack:backpack:31999" ToolTip="§4Disabled Item; No recipe" NBT=""/>
