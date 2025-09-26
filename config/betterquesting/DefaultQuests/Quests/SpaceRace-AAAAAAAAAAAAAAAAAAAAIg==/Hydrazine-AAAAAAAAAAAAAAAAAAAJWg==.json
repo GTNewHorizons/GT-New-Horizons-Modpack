@@ -23,7 +23,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Hydrazine",
+      "name:8": "§9§lHydrazine",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -37,7 +37,27 @@
   },
   "questIDHigh:4": 0,
   "questIDLow:4": 2394,
-  "rewards:9": {},
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 30659,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnicianII"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "autoConsume:1": 0,
@@ -77,11 +97,7 @@
           "id:8": "miscutils:Hydrazine"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
-    },
-    "2:10": {
-      "index:3": 2,
-      "taskID:8": "bq_standard:checkbox"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

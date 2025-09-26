@@ -6,13 +6,13 @@
     },
     "1:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 2613
+      "questIDLow:4": 2610
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "This multi is dedicated to producing UUM and Scrap. It is one of the hardest GT++ multis to craft, but you will be able to replicate many things if you get it working.\n\n[note]This multi is UV.[/note]",
+      "desc:8": "This multi is dedicated to producing UUM and Scrap. It is one of the hardest GT++ multis to craft, but you will be able to replicate many things if you get it working.\n\n[note]This multi is traditionally UV but can technically be made in ZPM.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,

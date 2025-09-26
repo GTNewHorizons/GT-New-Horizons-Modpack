@@ -1,0 +1,56 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -7990133041073338491,
+      "questIDLow:4": -8810216742118145435
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "NEI recipe search got improved even further!\n\nSelect a search mode extended+ to try it out!\n\nHere backticks `` are used around the search queries. You don\u0027t need them when searching.\n\nBy default the search works like in the extended mode, searching in §lany§r of the inputs and outputs of a recipe. So if you search a recipe by `§1-§rdust`, it would return all the recipes where there\u0027s at least one item that doesn\u0027t have §o\"dust\"§r.\n\nLet\u0027s say you want to search only in §linputs§r. Put §a\u003c§r before your search query to do that! For example `§a\u003c§riron` returns all the recipes with §o\"iron\"§r in one of the §linputs§r, `§a\u003c§rsteel§5@gregtech§r` returns the recipes with at least one item from mods, containing §9Gregtech§r in their name, with §o\"steel\"§r.\n\nBut then, if you search by `§a\u003c§1-§rdust` it still returns the recipes with §o\"dust\"§r on the left. Why is that? Because §a\u003c§r searches among §lany§r items. So if there\u0027s one item that doesn\u0027t have §o\"dust\"§r, then it would still match the recipe, even if the rest of the inputs are dusts.\n\nTo solve this use §a\u003c\u0026§r instead. Like this: `§a\u003c\u0026§1-§rdust`. It returns §lall§r the recipes without §o\"dust\"§r among the inputs! §a\u003c\u0026§r sets a §lstrict§r condition on §lall§r inputs, unlike §a\u003c§r that sets a condition on §lany§r input.\n\nTo filter the §loutputs§r use §a\u003e§r and §a\u003e\u0026§r. They work the same way, but allow you to filter the §loutputs§r of a recipe. So `§a\u003e§rgold` gives you the recipes with at least one §loutput§r with §o\"gold\"§r. And `§a\u003e\u0026§rgold` gives you the recipes with §o\"gold\"§r in every outputted item.\n\nWant to combine multiple conditions? Sure, just put them one after another in any order. E.g. you could search for `§a\u003c§riron§a\u003e§rsteel`, `§a\u003c\u0026§r §1-§b$dust§r §a\u003c§r cell`, `§a\u003e\u0026§1-§rdust cell`.\n\nOr even for `dust§a\u003e§rcell`. Here the non-prefixed part works like default, searching among §lany§r items from the inputs or outputs. So this query returns the recipes with §o\"dust\"§r in one of the inputs or outputs and §o\"cell\"§r in one of the outputs.\n\nIn some recipes you might have items that don\u0027t belong to inputs or outputs. In order to filter them use `§a^§r` and `§a^\u0026§r` respectively.\n\nYou could add spaces for readability too, because (unless you have space mode on) spaces could be used anywhere while in extended+ mode.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:bookshelf"
+      },
+      "isMain:1": 1,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "§2§lNEI Next Level Recipe Search",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -8762838053115180989,
+  "questIDLow:4": -5617553811869142035,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnician"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

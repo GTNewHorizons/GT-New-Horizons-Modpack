@@ -28,7 +28,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "After hours of hard work and a few stacks of TNT your first rocket is finally ready. But before you can go to the Moon you need to actually craft it.\n\n§cIf you\u0027ve crafted the rocket with a chest, there\u0027s a crafting table recipe that will turn it into the normal rocket that completes this quest. Check NEI.§r",
+      "desc:8": "After hours of hard work and a few stacks of TNT your first rocket is finally ready. But before you can go to the Moon you need to actually craft it.\n\n§cIf you\u0027ve crafted the rocket with a chest, there\u0027s a crafting table recipe that will turn it into the normal rocket that completes this quest. Check NEI.§r\n\n[note]In case you forgot to complete any, holding the rocket in your hand will unlock all pre-requisite quests in addition to this one.[/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -71,12 +71,6 @@
         },
         "2:10": {
           "Count:3": 1,
-          "Damage:2": 22,
-          "OreDict:8": "",
-          "id:8": "enhancedlootbags:lootbag"
-        },
-        "3:10": {
-          "Count:3": 1,
           "Damage:2": 6,
           "OreDict:8": "",
           "id:8": "enhancedlootbags:lootbag"
@@ -102,6 +96,12 @@
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "dreamcraft:item.CoinTechnicianII"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 22,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
         }
       }
     }

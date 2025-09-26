@@ -1,0 +1,100 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2611
+    },
+    "1:10": {
+      "questIDHigh:4": 1429520268554815440,
+      "questIDLow:4": -9020589751289166951
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "You want to start using your new Europium to make even better wafers, but it turns out that your old methods of creating purified water are no longer enough. You will need to use the Flocculation Purification Unit to make even better purified water first. To run this machine, you will need large amounts of Polyaluminium Chloride, but luckily you can get all your Chlorine back if you properly recycle the waste liquid.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 9405,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
+      },
+      "isMain:1": 1,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Flocculation",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -5647692220358047564,
+  "questIDLow:4": -7136280042712085534,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 9405,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 56,
+          "Damage:2": 6,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings9"
+        },
+        "1:10": {
+          "Count:3": 30,
+          "Damage:2": 4,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings9"
+        },
+        "2:10": {
+          "Count:3": 16,
+          "Damage:2": 5,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings9"
+        },
+        "3:10": {
+          "Count:3": 12,
+          "Damage:2": 319,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockframes"
+        },
+        "4:10": {
+          "Count:3": 9,
+          "Damage:2": 11,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings3"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

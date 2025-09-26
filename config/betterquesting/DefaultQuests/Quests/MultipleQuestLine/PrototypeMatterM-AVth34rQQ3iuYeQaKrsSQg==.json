@@ -1,0 +1,183 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 160
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1232,
+      "type:1": 1
+    },
+    "2:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1871,
+      "type:1": 1
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "The §4§lMatter Manipulator§r is an extremely powerful tool that you can use during your entire playthrough. It is essentially a survival version of world-edit that is custom made for the GTNH player\u0027s convenience.\n\nThe §3§lPrototype Matter Manipulator§r is expectedly the least powerful, most rudimentary version. You can only use the §5§lGeometry Mode§r to create and manipulate shapes for use in building. You will §nnot§r be able to remove blocks until you install an upgrade unlocked in §2§lEV§r.\n\nFor the most accurate and detailed information visit: [url]https://github.com/RecursivePineapple/MatterManipulator/blob/master/README.md[/url]\n\n[note]The best way to learn about it is to use it! Experiment with the UI and become familiar with how it works.[/note]\n\n[warn]Checkout the Building Better Bases tab for the complete Manipulator questline.[/warn]",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "matter-manipulator:itemMatterManipulator0",
+        "tag:10": {
+          "charge:6": 1.0E7,
+          "config:10": {
+            "blockSelectMode:8": "ALL",
+            "cables:10": {
+              "b:8": "true",
+              "id:1": 0,
+              "m:1": 0
+            },
+            "placeMode:8": "GEOMETRY",
+            "removeMode:8": "ALL",
+            "shape:8": "LINE"
+          },
+          "dv:1": 0,
+          "installedUpgrades:9": {},
+          "jv:1": 0,
+          "upgradeProvidedCapabilities:1": 0
+        }
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "§9§lPrototype Matter Manipulator",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 97779429653103480,
+  "questIDLow:4": -5881168837331971518,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 6,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag",
+          "tag:10": {
+            "ench:9": {
+              "0:10": {
+                "id:2": 35,
+                "lvl:2": 3
+              }
+            }
+          }
+        }
+      }
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnicianI"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinDarkWizardI"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "OreDict:8": "",
+          "id:8": "matter-manipulator:metaitem"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "OreDict:8": "",
+          "id:8": "matter-manipulator:metaitem"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "matter-manipulator:metaitem"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "OreDict:8": "",
+          "id:8": "matter-manipulator:metaitem"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "OreDict:8": "",
+          "id:8": "matter-manipulator:metaitem"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32767,
+          "OreDict:8": "",
+          "id:8": "matter-manipulator:itemMatterManipulator0",
+          "tag:10": {
+            "charge:5": 0.0,
+            "config:10": {
+              "blockSelectMode:8": "ALL",
+              "cables:10": {
+                "b:8": "true",
+                "id:1": 0,
+                "m:1": 0
+              },
+              "placeMode:8": "GEOMETRY",
+              "removeMode:8": "ALL",
+              "shape:8": "LINE"
+            },
+            "dv:1": 0,
+            "installedUpgrades:9": {},
+            "jv:1": 0,
+            "upgradeProvidedCapabilities:1": 0
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
