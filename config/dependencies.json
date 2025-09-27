@@ -607,7 +607,7 @@
     "path": "mods/structurelib-1.4.23.jar",
     "url": "https://downloads.gtnewhorizons.com/Mods_for_Twitch/structurelib-1.4.23.jar"
   },
-    {
+  {
     "path": "mods/supersolarpanel-1.1.4.jar",
     "url": "https://downloads.gtnewhorizons.com/Mods_for_Twitch/supersolarpanel-1.1.4.jar"
   },
@@ -634,6 +634,10 @@
     {
     "path": "mods/TGregworks-1.7.10-GTNH-1.0.28.jar",
     "url": "https://downloads.gtnewhorizons.com/Mods_for_Twitch/TGregworks-1.7.10-GTNH-1.0.28.jar"
+  },
+  {
+    "path": "mods/Thaumcraft-1.7.10-4.2.3.5a.jar",
+    "url": "https://downloads.gtnewhorizons.com/Mods_for_Twitch/Thaumcraft-1.7.10-4.2.3.5a.jar"
   },
   {
     "path": "mods/ThaumcraftMobAspects-1.2.1-GTNH.jar",
