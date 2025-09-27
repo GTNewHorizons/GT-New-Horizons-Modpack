@@ -1,0 +1,120 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -55119287362369426,
+      "questIDLow:4": -9087408117501276303
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2008
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "The §5§lQuantum Uplink§r is a multi made specifically for the Matter Manipulator that is unlocked with the aid of §4§lUV§r tech. \n\nThis allows the Matter Manipulator to connect to your ME system over an §2infinite range§r, and §3across dimensions§r. The tool can be linked by placing it into the controller while the uplink is active. The uplink will take a continous 1A of ZPM power to function.\n\nAdditionally, you can now use it to create fake ME patterns upon selecting an area. This will make it quick to order all of the parts needed for Copy \u0026 Pasting in an area. \n\n[warn]The Uplink is powerful, but at a cost. Moving all items / fluids from the AE system will cost a small amount of plasma per transfer. \n\nSpecifically: 16k EU of plasma per item / per 1000L of fluid[/warn]",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2731,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Quantum Uplink",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -8244664434415023384,
+  "questIDLow:4": -5958780612107171344,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 43,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 120,
+          "Damage:2": 7,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings8"
+        },
+        "1:10": {
+          "Count:3": 24,
+          "Damage:2": 8,
+          "OreDict:8": "",
+          "id:8": "miscutils:miscutils.blockcasings"
+        },
+        "2:10": {
+          "Count:3": 4,
+          "Damage:2": 325,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockframes"
+        },
+        "3:10": {
+          "Count:3": 20,
+          "Damage:2": 868,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockframes"
+        },
+        "4:10": {
+          "Count:3": 2,
+          "Damage:2": 10,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings8"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 2732,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2731,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

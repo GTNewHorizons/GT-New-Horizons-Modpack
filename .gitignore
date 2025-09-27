@@ -80,6 +80,7 @@ config/WitcheryExtras
 !config/GregTech/Unification.cfg
 !config/NEI/collapsibleitems.cfg
 !config/NEI/hiddenitems.cfg
+!config/NEI/subsets
 !config/HungerOverhaul/HungerOverhaul.cfg
 !config/railcraft/blocks.cfg
 !config/railcraft/railcraft.cfg

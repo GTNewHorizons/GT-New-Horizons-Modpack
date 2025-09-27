@@ -1,0 +1,180 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 168326707788926946,
+      "questIDLow:4": -8682800239418763402
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 1,
+      "desc:8": "No Description",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 22132,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.metaitem.01"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 1,
+      "lockedProgress:1": 0,
+      "name:8": "Trigger: Netherite Skip",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "OR",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 1942461967255357123,
+  "questIDLow:4": -4693777620824973844,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 0,
+      "questID:8": "XDZFjGB9RlWlrW0mHFoL0g\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "1:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 1,
+      "questID:8": "WNC6mX67QGG5gpjX0YkvDw\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "2:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 2,
+      "questID:8": "afDCORKvSI-Vk_Mh2-rnZw\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "3:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 3,
+      "questID:8": "KGBrxQRsSneYMzNHBll9Bg\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "4:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 4,
+      "questID:8": "x79CeO4ORDWIbPLtdtp1wQ\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "5:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 5,
+      "questID:8": "7YjYGaWnQ4uXqUOfMA0C9Q\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "6:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 6,
+      "questID:8": "nx7KEyhlTc6qYVM1vImkBA\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "7:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 7,
+      "questID:8": "SmLW-ht6TrKSmAUDyDoNqg\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "8:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 8,
+      "questID:8": "01C00SMsRUyKUD2zJht8tA\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "9:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 9,
+      "questID:8": "rlVdurFlSbuoWZAIUG0-aA\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "10:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 10,
+      "questID:8": "P_nO8frbRM2c-MLKAaJUkw\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "11:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 11,
+      "questID:8": "JVZjTR4hRSaeaoXPvBcG9w\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "12:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 12,
+      "questID:8": "zb1nbwNuSFKuSEyW3mVj-Q\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "13:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 13,
+      "questID:8": "8zpQos1hR1CbwmWldvxSpg\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "14:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 15,
+      "questID:8": "4v3YtOxvT8aWIwy7NEJNhw\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 22132,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 32246,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.03"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "etfuturum:netherite_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

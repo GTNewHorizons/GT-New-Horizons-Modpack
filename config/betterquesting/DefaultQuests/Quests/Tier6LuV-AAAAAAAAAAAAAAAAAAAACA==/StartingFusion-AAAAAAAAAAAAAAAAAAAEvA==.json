@@ -5,8 +5,17 @@
       "questIDLow:4": 1680
     },
     "1:10": {
+      "questIDHigh:4": -2090276380457611322,
+      "questIDLow:4": -7628239345660310137
+    },
+    "2:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 2607
+    },
+    "3:10": {
+      "questIDHigh:4": -7439799557305581253,
+      "questIDLow:4": -5895649105231252556,
+      "type:1": 1
     }
   },
   "properties:10": {

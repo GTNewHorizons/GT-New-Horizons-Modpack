@@ -1,0 +1,91 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3289
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "After significant progression, you\u0027ll be able to upgrade the QFT to tier 2 by replacing the §b§3Neutron Pulse Manipulator§f §rcasings § with §b§3Cosmic Fabric Manipulator§f §rcasings. Once installed, the QFT can perform the §6§6monaline skip§f,§r § the §6§6first two naqline skips§f§r, and the §6netherite line skip§r.\n\n§rThese casings require more advanced materials, including §b§3Hyper-Stable Self-Healing Adhesive§f§r, which can only be crafted in a tier 1 QFT. This adhesive isn’t just excellent at sticking things together - it’s also built to withstand the intense energy flow of a tier 2, 3, or even tier 4 QFT! §o\n\nWho knows what kinds of materials you’ll need after this?!",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 8,
+        "OreDict:8": "",
+        "id:8": "miscutils:gtplusplus.blockcasings.5"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Tier 2 Manipulating",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 3602109966171458981,
+  "questIDLow:4": -5211315330207694591,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 236,
+          "Damage:2": 8,
+          "OreDict:8": "",
+          "id:8": "miscutils:gtplusplus.blockcasings.5"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 22,
+          "OreDict:8": "",
+          "id:8": "miscutils:item.BasicGenericChemItem",
+          "tag:10": {
+            "catalyst:10": {
+              "Damage:4": 0,
+              "MaxDamage:4": 50
+            }
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 23,
+          "OreDict:8": "",
+          "id:8": "miscutils:item.BasicGenericChemItem",
+          "tag:10": {
+            "catalyst:10": {
+              "Damage:4": 0,
+              "MaxDamage:4": 50
+            }
+          }
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 34,
+          "OreDict:8": "",
+          "id:8": "miscutils:item.BasicGenericChemItem",
+          "tag:10": {
+            "catalyst:10": {
+              "Damage:4": 0,
+              "MaxDamage:4": 50
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

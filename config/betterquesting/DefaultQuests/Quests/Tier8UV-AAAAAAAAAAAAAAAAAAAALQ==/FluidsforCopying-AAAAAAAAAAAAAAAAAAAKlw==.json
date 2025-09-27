@@ -95,7 +95,7 @@
           }
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:optional_retrieval"
     },
     "1:10": {
       "autoConsume:1": 0,
@@ -112,7 +112,7 @@
           "id:8": "gregtech:gt.metaitem.98"
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:optional_retrieval"
     },
     "2:10": {
       "autoConsume:1": 0,
@@ -135,7 +135,7 @@
           "id:8": "gregtech:gt.metaitem.98"
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:optional_retrieval"
     },
     "3:10": {
       "autoConsume:1": 0,

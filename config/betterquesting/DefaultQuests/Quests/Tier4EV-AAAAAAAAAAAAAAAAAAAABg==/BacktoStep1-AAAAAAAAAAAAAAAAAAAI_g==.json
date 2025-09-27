@@ -64,7 +64,7 @@
         "0:10": {
           "Count:3": 1,
           "Damage:2": 46,
-          "OreDict:8": "dustRefinedPlatinumSalt",
+          "OreDict:8": "",
           "id:8": "bartworks:gt.bwMetaGenerateddust"
         }
       },
@@ -81,7 +81,7 @@
         "0:10": {
           "Count:3": 1,
           "Damage:2": 47,
-          "OreDict:8": "dustPlatinumMetallicPowder",
+          "OreDict:8": "",
           "id:8": "bartworks:gt.bwMetaGenerateddust"
         }
       },

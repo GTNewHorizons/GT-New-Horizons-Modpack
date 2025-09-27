@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "In order to continue with bees, to mutate and breed them as you like, you need mutagen. This greenish, smelly liquid needs to be refined from bacterial sludge that seems to be available only on Mars. You will be able to continue, once you\u0027ve arrived there.\n\nIn the meantime you can start working with the Genetics mod, since we all know Gendustry is too easy... Check out the recipes and you\u0027ll understand why you should look into the Genetics mod.\n\n[note]Make sure to make more with the Vat once you can actually make it.[/note]",
+      "desc:8": "In order to continue with bees, to mutate and breed them as you like, you need mutagen. This greenish, smelly liquid needs to be refined from bacterial sludge that seems to be most readily available from fluid pockets on Mars. You will be able to continue, once you\u0027ve acquired this.\n\nIn the meantime you can start working with the Genetics mod, since we all know Gendustry is too easy... Check out the recipes and you\u0027ll understand why you should look into the Genetics mod.\n\n[note]Make sure to make more with the Vat once you can actually make it.[/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -230,20 +230,21 @@
   },
   "tasks:9": {
     "0:10": {
-      "biome:3": -1,
-      "dimension:3": 29,
-      "hideInfo:1": 0,
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
       "index:3": 0,
-      "invert:1": 0,
-      "name:8": "Visit Mars",
-      "posX:3": 0,
-      "posY:3": 0,
-      "posZ:3": 0,
-      "range:3": -1,
-      "structure:8": "",
-      "taskID:8": "bq_standard:location",
-      "taxiCabDist:1": 0,
-      "visible:1": 0
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "GalacticraftMars:item.bucketSludge"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }
