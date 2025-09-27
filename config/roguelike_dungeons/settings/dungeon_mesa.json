@@ -1,6 +1,6 @@
 {
 	"name": "dungeon_mesa",
-  	"criteria": {"biomeTypes": ["MESA"]},
+  	"criteria": {"biomeTypes": ["MESA", "OCEAN"]},
   	"inherit": [
 		"loot_all",
 		"loot_hot_food",
