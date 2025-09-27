@@ -265,7 +265,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAKA.desc=As you've gathered and crafted 
 
 # Quest: Don't Burn Your Fingers!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAKQ.name=§2§lDon't Burn Your Fingers!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAKQ.desc=You have decided it's time to make some tasty pizza, but your fingers got burned badly. Reading an ancient cookbook you discovered a pair of magical items that would allow you to carry anything hot, even lava in a bucket.%n%n§6§5The gloves have to be placed in the Baubles ring slots of Thaumcraft. You also have to place each in the correct slot, you'll get a notification if it's wrong.%n%n§rFor the protection effect, the hot item has to be in your active slot. I wonder if there is some way to carry more than a few buckets at a time?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAKQ.desc=You have decided it's time to make some tasty pizza, but your fingers got burned badly. Reading an ancient cookbook you discovered a pair of magical items that would allow you to carry anything hot, even lava in a bucket.%n%n§6§5The gloves have to be placed in the Baubles ring slots. Order does not matter.%n%n§rFor the protection effect, the hot item has to be in your active slot. I wonder if there is some way to carry more than a few buckets at a time?
 
 # Quest: Cow Tipper
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAKg.name=§2§r§2§lCow Tipper
