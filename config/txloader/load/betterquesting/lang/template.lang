@@ -2097,7 +2097,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAD9Q.desc=Surface-mount devices are more 
 
 # Quest: Workstations, Your First EV Circuit
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD9g.name=§9§lWorkstations, Your First EV Circuit
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD9g.desc=Your first EV circuit is the Workstation.%n%nYou can make Blue Alloy with Silver and Electrotine in an Alloy Smelter. If you don't have Electrotine, you can make it from Redstone and Electrum in a Mixer. Have fun!%n%nAlso note that using the fluid solidifier is way faster than the extruder for Blue Alloy.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD9g.desc=Your first EV circuit is the Workstation.%n%nYou can make Blue Alloy with Silver and Electrotine in an Alloy Smelter. If you don't have Electrotine, you can make it from Redstone and Electrum in a Mixer. Have fun!
 
 # Quest: Playing With Dust
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADAQ.name=§9§lPlaying With Dust
@@ -3292,7 +3292,7 @@ betterquesting.quest.8zpQos1hR1CbwmWldvxSpg.desc=Heating up the Netherite Scrap 
 
 # Quest: Netherite Materials
 betterquesting.quest.9dt9i3MYRa-NB6KROtAYFA.name=§c§lNetherite Materials
-betterquesting.quest.9dt9i3MYRa-NB6KROtAYFA.desc=Now that you've completed the Netherite line and successfully set up your Mk1 Fusion Reactor, you finally have access to the ingredients necessary for creating all of the different §4Netherite materials§r. %n%nThese will be important for the rest of the game and are used often in a variety of items and materials, so it's important to make upgrades to your line both in terms of power and recipe usage as you continue to progress through the tiers.%n%n[note]UHV power and the QFT are the biggest milestones in terms of recipe upgrades for the line.[/note]
+betterquesting.quest.9dt9i3MYRa-NB6KROtAYFA.desc=Now that you've completed the Netherite line and successfully set up your Mk1 Fusion Reactor, you finally have access to §5§lBoron Plasma§r, which is necessary for creating all of the different §4§lNetherite materials§r. %n%nThese will be important for the rest of the game and are used often in a variety of items and materials, so it's important to make upgrades to your line both in terms of power and recipe usage as you continue to progress through the tiers.%n%n[note]UHV power and the QFT are the biggest milestones in terms of recipe upgrades for the line.[/note]
 
 # Quest: Automated Mining
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAyQ.name=§c§lAutomated Mining
@@ -5065,7 +5065,7 @@ betterquesting.quest.-MexGhcYQ0OUrr5xgriDXQ.desc=In light of your thaumaturgical
 
 # Quest: Basic Flight Potion
 betterquesting.quest.4LY2S8QsSw-JdMGrF8FUsQ.name=Basic Flight Potion
-betterquesting.quest.4LY2S8QsSw-JdMGrF8FUsQ.desc=Tired of jetpacks? Want normal flight with no strings attached? Look no further!%n%nUsing your brand new MV Assembler and a Chicken Trophy, you can craft a basic Potion of Flight from Blood Magic, giving you 7 minutes of Creative flight with 8 uses before you have to make a new one.%n%n[note]Chicken Trophies are a rare drop from killing chickens.[/note]%n%n[note]Once you unlock Blood Magic, you can craft your own Flight Potion Flasks with a duration of up to 19 minutes, and refill them with any Filling Agent and Blood Orb in an Alchemic Chemistry set.[/note]%n
+betterquesting.quest.4LY2S8QsSw-JdMGrF8FUsQ.desc=Tired of jetpacks? Want normal flight with no strings attached? Look no further!%n%nUsing your brand new MV Assembler and a Chicken Trophy, you can craft a basic Potion of Flight from Blood Magic, giving you 7 minutes of Creative flight with 8 uses before you have to make a new one.%n%n[note]Chicken Trophies are a rare drop from killing chickens.[/note]%n%n[note]Once you unlock Blood Magic, you can craft your own Flight Potion Flasks with a duration of up to 19 minutes, and refill them with any Filling Agent in an Alchemic Chemistry set.[/note]%n
 
 # Quest: Relocator
 betterquesting.quest.8QSORTVOSOaUXC6mQurMgA.name=Relocator
@@ -7505,6 +7505,10 @@ betterquesting.quest.-H2HWiVlTn-1IT2aaXhLkg.desc=These ones do 16A.
 # Quest: Can we get much higher?
 betterquesting.quest.13PWs3MhTUOgkIQq8EKhaQ.name=Can we get much higher?
 betterquesting.quest.13PWs3MhTUOgkIQq8EKhaQ.desc=With the EU transfer rates!
+
+# Quest: Energized Wireless Dynamo Hatch
+betterquesting.quest.49YfyyG5R8KKRRUKePOqfQ.name=Energized Wireless Dynamo Hatch
+betterquesting.quest.49YfyyG5R8KKRRUKePOqfQ.desc=The §5§lEnergized Wireless Dynamo Hatch§r acts just as you may expect; it will inject EU directly from an energy-producing multiblock into your wireless EU network. No need for those pesky laser conduits and LSC middlemen!%n%n[warn]The dynamo transfer rate is the same as the laser source it's crafted with: §l65kA UMV§r§r. Also has a very large internal storage.[/warn]%n%n[note]Great for §lDyson§r & §lLarge Naquadah Reactor§r.[/note]
 
 # Quest: MV Battery Hulls
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC9g.name=MV Battery Hulls
@@ -13479,7 +13483,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALJg.desc=Imps are little orange creature
 
 # Quest: Time to Kill (Shulker)
 betterquesting.quest.PpBmbfhnSGqI7R_Mm_vJGw.name=Time to Kill (Shulker)
-betterquesting.quest.PpBmbfhnSGqI7R_Mm_vJGw.desc=The Shulker doesn't spawn naturally so you will need to obtain it's spawn egg to complete this quest. You can do so in the coins tab or through crafting.
+betterquesting.quest.PpBmbfhnSGqI7R_Mm_vJGw.desc=The Shulker can spawn in the Lich or Ghast Queen Tower in the Twilight Forest. You can also optionally obtain it's spawn egg either with the crafting recipe or through the repeatable quest.
 
 # Quest: Time to Kill (Rabbit)
 betterquesting.quest.UfPfIUITQrG1E1G33eQ__g.name=Time to Kill (Rabbit)
@@ -14427,7 +14431,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEdQ.desc=The Windmeter measures wind str
 
 # Quest: Sending the Power Back
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEeQ.name=§9§lSending the Power Back
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEeQ.desc=Kinetic generator compatibility has been improved so that you no longer need transformers, you can connect directly with a cable. But why not use your transformer to send the power back to base more efficiently, it's a loss of about 57/512EU per A just going from 160 straight down to 63 without it. If you transform up (after going through 1 block of cable to transform it to GT power), you only lose about 57/2048EU per A, much better.%n%n[warn]IC2 machines don't care about rain, but remember to cover your transformer.[/warn]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEeQ.desc=Kinetic generator compatibility has been improved so that you no longer need transformers, you can connect directly with a cable. But why not use your transformer to send the power back to base more efficiently, it's a loss of about 97EU per HV amp just going from 160 straight down to 63 without it. If you transform up (after going through 1 block of cable to transform it to GT power), you only lose about 97EU per EV amp, which saves 4x the energy in regard to cable loss.%n%n[warn]IC2 machines don't care about rain, but remember to cover your transformer.[/warn]
 
 # Quest: GT6-Styled Pipes
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEeg.name=§2§lGT6-Styled Pipes
@@ -14719,7 +14723,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkw.desc=Beyond spacetime, beyond realit
 
 # Quest: Power in the Ether
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMow.name=Power in the Ether
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMow.desc=These new hatches allow you to wirelessly send, store and receive energy from any location in any dimension. They can be placed in any existing multi block structure and will function as normal energy/dynamo hatches. A dynamo hatch will consume EU and store it in a global network linked to your user. The wireless network can store a total of 2^(2^31) EU, far exceeding even a max tier LSC.%n%nYou can share a wireless network with others by adding them to your network with /gt global_energy_join user1 user2. This will make user1 use user2's energy when interacting with the global network. You can leave a network at any time by doing /gt global_energy_join your_name your_name.%n%nYou cannot connect wires to these blocks. These are also designed to be highly lag efficient, meaning EU is added at large intervals to prevent needless calculations from occurring. This will also save you some TPS lag from vast wire networks.%n%n[note]If your calculator is giving up, 2^(2^31) is a number with 646,456,994 digits.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMow.desc=These new hatches allow you to wirelessly store and receive energy from any location in any dimension. They can be placed in any existing multi block structure and will function as normal energy hatches. %n%nAdditionally, the wireless covers can be used for singleblock machines such as a World Accelerator or a BioLab.%n%nThe wireless network can store a total of 2^(2^31) EU, far exceeding even a max tier LSC.%n%nYou can share a wireless network with others by adding them to your network with §5/gt global_energy_join §3user1§r §2user2§r. This will make §3user1§r use §2user2's§r energy when interacting with the global network. You can leave a network at any time by doing §5/gt global_energy_join§r §4your_name your_name§r.%n%nYou cannot connect wires to these blocks. These are also designed to be highly lag efficient, meaning EU is added at large intervals to prevent needless calculations from occurring. This will also save you some TPS lag from vast wire networks.%n%n[note]If your calculator is giving up, 2^(2^31) is a number with 646,456,994 digits.[/note]
 
 # Quest: PCB Factory
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMyQ.name=PCB Factory
