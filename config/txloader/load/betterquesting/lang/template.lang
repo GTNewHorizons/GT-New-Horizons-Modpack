@@ -31,7 +31,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAABg.desc=You won't always get food rewar
 
 # Quest: ...What You Sow
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAABw.name=§9§l...What You Sow
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAABw.desc=If you, by chance, did read the previous quest and planted the carrots, then you're fine.%n%nMeanwhile, you should turn some more fruits and vegetables into seeds, and increase the size of your farm to get a steady supply of food.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAABw.desc=If, by chance, you did read the previous quest and planted the carrots, then you're fine.%n%nMeanwhile, you should turn some more fruits and vegetables into seeds, and increase the size of your farm to get a steady supply of food.
 
 # Quest: Get That Stone
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAACA.name=§9§lGet That Stone
@@ -237,7 +237,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIQ.desc=While using your wooden tools i
 
 # Quest: Zinc Gravel
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIg.name=§2§lZinc Gravel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIg.desc=You can find it in chunks of gravel on the surface.%n%nUse as little as possible and save the rest for when you get a macerator in Steam age, you'll get twice as much.%n%nIf you can't find any, you can buy them in the Coins tab.%n%nIf you get enough and fully process it, you can also get gallium for gallium arsenide in LV age.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIg.desc=You can find it in chunks of gravel on the surface.%n%nUse as little as possible and save the rest for when you get a macerator in Steam age, you'll get twice as much.%n%nIf you can't find any, you can buy them in the Coins tab.%n%nIf you get enough and fully process it, you can also get Gallium for Gallium Arsenide in LV age.
 
 # Quest: Making Bronze
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIw.name=§2§lMaking Bronze
@@ -415,9 +415,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHPA.desc=...But she'll never stop becaus
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHSA.name=§2§lNo Self-Healing Tools Here...Yet
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHSA.desc=In this pack you have to first gain expertise in Thaumcraft to craft the Tinker's Construct Ball of Moss. Go and become a dangerous wizard, and you'll gain the power needed to craft the Ball of Moss and make your tools heal themselves. Of course, you need to get to the Twilight Forest and get some aluminium ingots before you can begin. The Ball of Moss is in the GTNH tab of the Thaumonomicon, and requires infusion. There are many other great things in the Thaumonomicon, but be wary of warp.%n%nHave a beer to prepare for your long journey.
 
-# Quest: Options For Finding Zinc in This Tier
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHSg.name=§2§lOptions For Finding Zinc in This Tier
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHSg.desc=It can be hard to find Zinc Gravel Ore on old servers or unlucky world seeds.%n%nThe alternatives are:%n- Buy the zinc gravel in the Coins Coins coins tab,%n- Searching for small zinc ore in the overworld,%n- A recipe with XP buckets on a crafting table.%n%nOnce you reach LV, you can get zinc from processing various ores like antimony, sphalerite, tetrahedrite and tin.%nCheck NEI for more options.
+# Quest: Options For Finding Zinc
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHSg.name=§2§lOptions For Finding Zinc
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHSg.desc=It can be hard to find Zinc Gravel Ore on old servers or unlucky world seeds.%n%nThe alternatives are:%n- Buy the Zinc Gravel Ore in the Coins, Coins, Coins tab,%n- Search for Small Zinc Ore in the overworld,%n- Use the recipe with XP buckets in a crafting table.%n%nOnce you reach LV, you can get zinc from processing various ores like antimony, sphalerite, tetrahedrite and tin.%nCheck NEI for more options.
 
 # Quest: How to Open Your Wooden Doors?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJHQ.name=§2§lHow to Open Your Wooden Doors?
@@ -14243,7 +14243,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAABA.desc=Now that you've made it this fa
 
 # Quest: Monster Hunter
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAACw.name=§9§lMonster Hunter
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAACw.desc=It's about time to craft something more useful: A sword!%n%nNow that you have a sword, you will get credit for monster kills in the Kill All the Things tab. Watch out, monsters in this world will chew you up and spit you out!%n%nYou can find additional weapon quests on the Getting Around tab.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAACw.desc=It's about time to craft something more useful: A sword!%n%nNow that you have a sword, you will get credit for monster kills in the Kill All the Things tab. Watch out, monsters in this world will chew you up and spit you out!%n%nYou can find additional weapon quests on the ...Without Dying tab.
 
 # Quest: What's That...?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAADg.name=§9§lWhat's That...?
