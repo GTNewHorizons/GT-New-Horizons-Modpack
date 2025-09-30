@@ -1,6 +1,6 @@
 {
 	"name": "dungeon_mountain",
-  	"criteria": {"biomeTypes": ["MOUNTAIN"]},
+  	"criteria": {"biomeTypes": ["MOUNTAIN", "HILLS"]},
   	"inherit": [
 		"loot_all",
 		"loot_mountain",
