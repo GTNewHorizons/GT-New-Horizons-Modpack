@@ -12,19 +12,19 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Sleepy time, and the end of the tutorial.\n\nCongratulations! You\u0027ve built your first hideout, and you should have a steady supply of food by now.\n\nSee you again in Tier 0!",
+      "desc:8": "Sleepy time, and the end of the tutorial.\n\nCongratulations! You\u0027ve built your first hideout, and you should have a steady supply of food by now.\n\nSee you again in Tier 0!\n\n[note](Any color bed will complete this quest)[/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "minecraft:bed"
+        "id:8": "etfuturum:white_bed"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 1,
-      "name:8": "§1§lSO...TIRED...MUST...SLEEP...",
+      "name:8": "§9§lSO...TIRED...MUST...SLEEP...",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -90,8 +90,8 @@
         "0:10": {
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "minecraft:bed"
+          "OreDict:8": "bedWood",
+          "id:8": "etfuturum:white_bed"
         }
       },
       "taskID:8": "bq_standard:retrieval"

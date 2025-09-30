@@ -167,8 +167,43 @@
         <itemStack modID="minecraft" itemName="string" number="3" />
       </output>
     </recipe>
+    <recipe name="Wheat" energyCost="800" >
+      <input>
+        <itemStack modID="minecraft" itemName="wheat" />
+      </input>
+      <output>
+        <itemStack oreDictionary="foodFlour" number="2" />
+        <itemStack modID="minecraft" itemName="wheat_seeds" chance="0.2" />
+      </output>
+    </recipe>
 </recipeGroup>
 
+  <recipeGroup name="Common Ores/Ingots/Blocks" >
+    <recipe name="AluminumOre" energyCost="2400" >
+      <input>
+        <itemStack oreDictionary="oreAluminum" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustAluminium" number="2" />
+      </output>
+    </recipe>
+    <recipe name="AluminumIngot" energyCost="2400" >
+      <input>
+        <itemStack oreDictionary="ingotAluminum" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustAluminium" />
+      </output>
+    </recipe>
+    <recipe name="AluminumBlock" energyCost="3600" >
+      <input>
+        <itemStack oreDictionary="blockAluminum" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustAluminium" number="9" />
+      </output>
+    </recipe>
+  </recipeGroup>
 
   <!-- Some recipes to balance vanilla stuff of SAGMill -->
  <recipeGroup name="GTAntiOP_Vanilla">
@@ -187,7 +222,7 @@
       </input>
       <output>
         <itemStack oreDictionary="dustCoal" number="1" />
-		<itemStack oreDictionary="dustCoal" number="1" chance="0.5" />
+	<itemStack oreDictionary="dustCoal" number="1" chance="0.5" />
       </output>
     </recipe>
 </recipeGroup>
@@ -15941,9 +15976,21 @@
 
 </recipeGroup>
 
+  <recipeGroup name="Natura" >
+    <recipe name="Barley" energyCost="800" >
+      <input>
+        <itemStack modID="Natura" itemName="barleyFood" />
+      </input>
+      <output>
+        <itemStack oreDictionary="foodFlour" number="2" />
+        <itemStack modID="Natura" itemName="barley.seed" chance="0.2" />
+      </output>
+    </recipe>
+  </recipeGroup>
+
 
   
-<grindingBalls>     
+  <grindingBalls>
     <!-- Flint lasts longer, but does only power saving -->
     <grindingBall id="Flint" grindingMultiplier="1" chanceMultiplier="1" powerMultiplier="0.85"
       durationRF="600000">

@@ -6,9 +6,13 @@
     },
     "1:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 1238
+      "questIDLow:4": 1236
     },
     "2:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1238
+    },
+    "3:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 940
     }
@@ -16,7 +20,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Nand is used for data sticks, data orbs, and UV circuits. NOR chips are needed for data orbs and LuV circuits. You can get these by cutting NAND and NOR wafers. Just worry about the data sticks for now.",
+      "desc:8": "NAND is used for data sticks, data orbs, and UV circuits. NOR chips are needed for data orbs and LuV circuits. You can get these by cutting NAND and NOR wafers. Just worry about the data sticks for now.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

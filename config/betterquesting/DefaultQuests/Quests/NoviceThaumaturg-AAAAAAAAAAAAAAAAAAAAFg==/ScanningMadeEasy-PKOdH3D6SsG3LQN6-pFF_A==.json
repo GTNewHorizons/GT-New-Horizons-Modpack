@@ -1,0 +1,56 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 226
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "We get it; The early-game of thaumcraft sucks and you don\u0027t want to throw every one of your 1000 items on the ground and scan them. That\u0027s why we added 2 cool QoL features which makes this tedious task very quick and easy.\n\n1. You don\u0027t actually have to throw the item on the ground. You can scan it directly from your inventory! Simply hover it over the item you want to scan, and after a short duration it will be scanned.\n\n2. You\u0027ve probably accumulated dozens of double chests full of junk that you don\u0027t want to sift through and scan, so there\u0027s a second feature now: Scanning entire chests! Simply shift right-click while hovering over a chest with your thaumometer and it\u0027ll scan EVERY item inside of the chest. Though be beware, this strong feature requires a bit of research. \n[note]To unlock the research, go to your Thaumonomicon, open \"Basic Information\" (the first tab), and complete this research path: Research -\u003e Research Expertise -\u003e Deconstruction Table -\u003e Container Scanning[/note]",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:chest"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Scanning Made Easy",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 4369508821844511425,
+  "questIDLow:4": -5247534164092041732,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "Thaumcraft:ItemLootBag"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

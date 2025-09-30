@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Wow, your first handmade §oehm§r machine made bow. You find out that you can put the bow in the mine and blade battlegears slots. Now it\u0027s time to make a quiver and maybe some arrows.\n\nTo place arrows in the quiver, put the quiver and the stack of arrows in a crafting grid. Make sure the Gameplay key Special is deconflicted. By default, it is Z. When you have the bow selected, use Z to swap arrow slots in the quiver.\n\nWhile it seems like these might be worthless, these arrows do have special uses. You really want to share a cookie with friends, don\u0027t you?\n\nLet\u0027s go hunt a bit.",
+      "desc:8": "Wow, your first handmade §oehm§r machine made bow. Now it\u0027s time to make a quiver and maybe some arrows.\n\nTo place arrows in the quiver, put the quiver and the stack of arrows in a crafting grid. Make sure the Gameplay key Special doesn\u0027t conflict with other keybinds. By default, it is Z. When you have the bow selected, use Z to swap arrow slots in the quiver.\n\nWhile it seems like these might be worthless, these arrows do have special uses. You really want to share a cookie with friends, don\u0027t you?\n\nLet\u0027s go hunt a bit.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

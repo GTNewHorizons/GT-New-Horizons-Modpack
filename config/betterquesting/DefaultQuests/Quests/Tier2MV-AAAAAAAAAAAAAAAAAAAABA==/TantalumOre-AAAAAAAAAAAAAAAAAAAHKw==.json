@@ -92,6 +92,41 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,
+          "Damage:2": 5921,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.03"
+        },
+        "1:10": {
+          "Count:3": 64,
+          "Damage:2": 5838,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.03"
+        },
+        "2:10": {
+          "Count:3": 64,
+          "Damage:2": 5943,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.03"
+        },
+        "3:10": {
+          "Count:3": 64,
+          "Damage:2": 5831,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.03"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 64,
           "Damage:2": 921,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockores2"
@@ -117,12 +152,12 @@
       },
       "taskID:8": "bq_standard:retrieval"
     },
-    "1:10": {
+    "2:10": {
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
-      "index:3": 1,
+      "index:3": 2,
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
@@ -148,41 +183,6 @@
           "Damage:2": 1831,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockores2"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "2:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
-      "index:3": 2,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 64,
-          "Damage:2": 5921,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
-        },
-        "1:10": {
-          "Count:3": 64,
-          "Damage:2": 5838,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
-        },
-        "2:10": {
-          "Count:3": 64,
-          "Damage:2": 5943,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
-        },
-        "3:10": {
-          "Count:3": 64,
-          "Damage:2": 5831,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
         }
       },
       "taskID:8": "bq_standard:retrieval"

@@ -70,9 +70,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 5,
-          "Damage:2": 368,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores2"
+          "id:8": "TaintedMagic:BlockShadowOre"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

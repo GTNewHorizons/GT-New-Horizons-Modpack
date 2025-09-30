@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "It can be hard to find Zinc Gravel Ore on old servers or unlucky world seeds.\n\nThe alternatives are:\n- Buy the zinc gravel in the Coins Coins coins tab,\n- Searching for small zinc ore in the overworld,\n- A recipe with XP buckets on a crafting table.\n\nOnce you reach LV, you can get zinc from processing various ores like antimony, sphalerite, tetrahedrite and tin.\nCheck NEI for more options.",
+      "desc:8": "It can be hard to find Zinc Gravel Ore on old servers or unlucky world seeds.\n\nThe alternatives are:\n- Buy the Zinc Gravel Ore in the Coins, Coins, Coins tab,\n- Search for Small Zinc Ore in the overworld,\n- Use the recipe with XP buckets in a crafting table.\n\nOnce you reach LV, you can get zinc from processing various ores like antimony, sphalerite, tetrahedrite and tin.\nCheck NEI for more options.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -20,7 +20,7 @@
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§2§lOptions For Finding Zinc in This Tier",
+      "name:8": "§2§lOptions For Finding Zinc",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

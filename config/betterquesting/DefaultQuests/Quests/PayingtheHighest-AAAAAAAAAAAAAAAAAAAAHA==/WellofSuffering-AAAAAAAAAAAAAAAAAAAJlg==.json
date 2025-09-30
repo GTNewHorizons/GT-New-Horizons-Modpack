@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The Well of Suffering damages mobs in a 6 block radius and feeds blood gained from them into an altar that is also within 6 blocks. Each mob costs 2 LP to damage, but give 10LP back. You can use Runes of Sacrifice to increase this. Very useful for automation!",
+      "desc:8": "The Well of Suffering damages mobs in a 6 block radius and feeds blood gained from them into an altar that is also within 6 blocks. Each mob costs 2 LP to damage, but give 10LP back. You can use Runes of Sacrifice to increase this. Very useful for automation!\n\n[note]Instead of feeding it live mobs, you can also use the Extreme Entity Crusher (EEC) set to ritual mode for the same effect![/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,

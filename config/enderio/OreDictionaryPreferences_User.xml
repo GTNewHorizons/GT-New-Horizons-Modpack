@@ -3,5 +3,60 @@ Entries in this file take precedence over the values in the core file
 -->
 
 <OreDictionaryPreferences>
+  <preference oreDictionary="dustGold" >
+    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2086" />
+  </preference>
+  <preference oreDictionary="dustCopper" >
+    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2035" />
+  </preference>
+  <preference oreDictionary="dustIron" >
+    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2032" />
+  </preference>
+  <preference oreDictionary="dustEnderPearl" >
+    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2532" />
+  </preference>
+  <preference oreDictionary="dustCoal" >
+    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2535" />
+  </preference>
+  <preference oreDictionary="dustLapis" >
+    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2526" />
+  </preference>
+  <preference oreDictionary="pulpWood" >
+    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2809" />
+  </preference>
+  <preference oreDictionary="dustAluminium" >
+    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2019" />
+  </preference>
+  <preference oreDictionary="dustBronze" >
+    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2300" />
+  </preference>
+  <preference oreDictionary="dustSilver" >
+    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2054" />
+  </preference>
+  <preference oreDictionary="dustLead" >
+    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2089" />
+  </preference>
+  <preference oreDictionary="dustTin" >
+    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2057" />
+  </preference>
+  <preference oreDictionary="dustSulfur" >
+    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2022" />
+  </preference>
+  <preference oreDictionary="dustArdite" >
+    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2382" />
+  </preference>
+  <preference oreDictionary="dustCobalt" >
+    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2033" />
+  </preference>
+  <preference oreDictionary="dustManyullyn" >
+    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2386" />
+  </preference>
+  <preference oreDictionary="foodFlour" >
+    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2881" />
+  </preference>
+  <preference oreDictionary="dustObsidian" >
+    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2804" />
+  </preference>
+
 
 </OreDictionaryPreferences>
