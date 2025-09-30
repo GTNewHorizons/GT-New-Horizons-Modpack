@@ -3,12 +3,16 @@
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 1558
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3226
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "An attuned stone is a diamond that has been infused with natural magic in a fiery medium. Attuned stones can be used to link non-magical devices to the magical currents present in the world, and are one of the main ingredients in crafting distilleries, kettles, altar foci and poppet shelves.\n\nThe other main use of attuned stones is to act as a portable power source for circle magic rites, when a nearby altar is not available. To act in such a way, the attuned stone must first be charged with a Rite of Charging.",
+      "desc:8": "An attuned stone is a Mana Diamond that has been further infused with natural magic in a fiery medium. Attuned stones can be used to link non-magical devices to the magical currents present in the world, and are one of the main ingredients in crafting distilleries, kettles, altar foci and poppet shelves.\n\nThe other main use of attuned stones is to act as a portable power source for circle magic rites, when a nearby altar is not available. To act in such a way, the attuned stone must first be charged with a Rite of Charging.\n\n[note]If you haven\u0027t yet obtained a Mana Diamond, checkout the Flower Power tab for more information![/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -85,9 +89,9 @@
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 0,
+          "Damage:2": 2,
           "OreDict:8": "",
-          "id:8": "minecraft:diamond"
+          "id:8": "Botania:manaResource"
         },
         "2:10": {
           "Count:3": 1,

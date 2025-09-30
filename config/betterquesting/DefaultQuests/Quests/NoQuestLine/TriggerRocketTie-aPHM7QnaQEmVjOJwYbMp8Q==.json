@@ -1,0 +1,98 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1723
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 1,
+      "desc:8": "No Description",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "GalaxySpace:item.Tier5Rocket"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 1,
+      "lockedProgress:1": 0,
+      "name:8": "Trigger: Rocket Tier 5 Skip",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 7562050567776387145,
+  "questIDLow:4": -7670507093015451151,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 0,
+      "questID:8": "AAAAAAAAAAAAAAAAAAAGvA\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "1:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 1,
+      "questID:8": "AAAAAAAAAAAAAAAAAAAGvw\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "2:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 2,
+      "questID:8": "AAAAAAAAAAAAAAAAAAAGwQ\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "3:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 3,
+      "questID:8": "AAAAAAAAAAAAAAAAAAAGww\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "4:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 4,
+      "questID:8": "AAAAAAAAAAAAAAAAAAAGvQ\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "5:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 5,
+      "questID:8": "AAAAAAAAAAAAAAAAAAAGwg\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "6:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 6,
+      "questID:8": "AAAAAAAAAAAAAAAAAAAGwA\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "GalaxySpace:item.Tier5Rocket"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

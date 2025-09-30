@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "With an Assembler and some Seed Oil, you can turn Dirt and Sand into Garden Soil. This optimal Soil does not require nearby water, and Crops won\u0027t break when you fall on or run near it.\n\nHowever, unlike watered Farmland, it doesn’t contribute to the humidity stat or speed up IC2 crops, so it’s not useful for min-maxing.\n\nThe same goes for Enchanted Earth, the Lamp of Growth, Sprinklers, etc.",
+      "desc:8": "With an Assembler and some Seed Oil, you can turn Dirt and Sand into Garden Soil. This optimal Soil does not require nearby water, and Crops won\u0027t break when you fall on or run near it.\n\nHowever, unlike watered Farmland, it doesn\u0027t contribute to the humidity stat or speed up IC2 crops, so it\u0027s not useful for min-maxing.\n\nThe same goes for Enchanted Earth, the Lamp of Growth, Sprinklers, etc.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

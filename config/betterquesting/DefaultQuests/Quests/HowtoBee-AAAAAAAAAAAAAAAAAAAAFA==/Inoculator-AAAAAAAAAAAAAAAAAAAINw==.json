@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The final step is inoculation. Currently the only machine capable of inserting genes is the Inoculator. This uses Bacteria Vector, created by incubating Bacteria and Blaze Powder, to transfer the gene into organisms.\n\nOnly the young stage of organisms can be injected, which are larvae (bees), pollen (trees and flowers) and caterpillars (butterflies). Bee larvae can be converted into drones by incubating with Liquid Growth Medium.",
+      "desc:8": "The final step is inoculation. Currently the most cost effective machine capable of inserting genes is the Inoculator. This uses Bacteria Vector, created by incubating Bacteria and Blaze Powder, to transfer the gene into organisms.\n\nOnly the young stage of organisms can be injected, which are larvae (bees), pollen (trees and flowers) and caterpillars (butterflies). Bee larvae can be converted into drones by incubating with Liquid Growth Medium.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

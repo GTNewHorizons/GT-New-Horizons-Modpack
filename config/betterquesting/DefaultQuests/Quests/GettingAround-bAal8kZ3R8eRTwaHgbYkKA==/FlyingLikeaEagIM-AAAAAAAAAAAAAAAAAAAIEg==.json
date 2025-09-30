@@ -18,7 +18,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "This cloak is a nice substitute for the Glider. There are plenty of other magical items worth a look in the Witching Gadgets tab.\nIf you want to toggle gliding with a key - configure binding for \"Active Ability 1\" in control settings and, having item in hand, send \"/travellersgear bind 1\" to chat.",
+      "desc:8": "This cloak is a nice substitute for the Glider. There are plenty of other magical items worth a look in the Witching Gadgets tab.\nIf you want to toggle gliding with a key - configure binding for \"Hotkey for activating some worn items\" in control settings.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

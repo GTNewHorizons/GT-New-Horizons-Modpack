@@ -6,13 +6,13 @@
     },
     "1:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 2613
+      "questIDLow:4": 2610
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "This multiblock will allow you to use all that UU-Matter that your Matter Fabricator makes, not that you don\u0027t have anything else to do with it...\n\n[note]This multi is UV.[/note]",
+      "desc:8": "This multiblock will allow you to use all that UU-Matter that your Matter Fabricator makes, not that you don\u0027t have anything else to do with it...\n\n[note]This multi is traditionally UV, but can technically be made in ZPM.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 64,

@@ -2,17 +2,17 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 238
+      "questIDLow:4": 86
     },
     "1:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 79
+      "questIDLow:4": 238
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "This focus allows you to block any incoming damage. Sneak away if you\u0027re fighting an enemy too strong for you!",
+      "desc:8": "The Wand Focus: Shield creates a shield around you which blocks any incoming damage and removes potion effects. Sneak away if you\u0027re fighting an enemy too strong for you!\n\n[note]This focus accepts the following upgrade in the Focal Manipulator:[/note]\n§5Frugal§r: Lowers vis cost to cast by 10% per level",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

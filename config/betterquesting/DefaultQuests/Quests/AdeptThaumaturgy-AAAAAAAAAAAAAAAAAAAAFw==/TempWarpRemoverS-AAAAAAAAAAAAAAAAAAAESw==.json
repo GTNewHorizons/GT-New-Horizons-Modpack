@@ -2,13 +2,13 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 1097
+      "questIDLow:4": 1055
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "This soap is very special. It will remove temporary warp and has a small chance to also remove some normal warp, if you are lucky. Taking a bath first increases your chances.\n\nHint: You need to chisel your tallow block for the recipe to work.",
+      "desc:8": "This soap is very special. It will remove temporary warp and has a small chance to also remove some normal warp, if you are lucky. Taking a bath first increases your chances.\n\nThis can later be upgraded to remove your permanent warp.\n\n\n[note]Hint: You need to chisel your tallow block for the recipe to work.[/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

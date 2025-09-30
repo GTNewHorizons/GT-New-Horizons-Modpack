@@ -1,0 +1,90 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 238
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "The Wand Focus: Warding can be used to make blocks invincible with right-click. Warding may be removed by right-clicking it again. It is not able to ward transparent blocks like Glass or non-full blocks like slabs, but there is a block known as Warded Glass available with the Warded Arcana research if you want a protected transparent block. It is also unable to ward blocks with Tile Entities like chests. Take note that only the player who warded the block can unward it.\n\nHolding a wand with this focus will show an outline on nearby blocks you have warded. They look normal otherwise. Warded Blocks are [note]completely indestructible[/note] and will produce particle effects similar to runic shielding when a player tries to break them. Blocks will lose any special properties when warded: sand or gravel will not fall, grass will not grow, and packed ice will no longer be slippery. Warded blocks cannot be affected by any outside influence such as redstone or pistons. The only way to break the warded block is via the owner right-clicking with a wand with this focus.\n\n[note]Special Note: Warded blocks emit light. They can also cause quite a bit of lag if used at scale.[/note]\n\n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]\n§5Frugal§r: Lowers vis cost to cast by 10% per level\n§\n§5Architect§r (level 2): Allows the focus\u0027s working area to be modified with the Misc Wand Toggle keybind. Sneaking with the keybind changes which axes are modified. This upgrade increases the maximum area to 7x7x7\n§5Enlarge§r (Requires §5Architect§r)§r: Expands the maximum range by 1 block in each direction per level",
+      "globalShare:1": 1,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "Thaumcraft:FocusWarding"
+      },
+      "isGlobal:1": 0,
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Magical Base Defense",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 1377,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 10,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "Thaumcraft:ItemLootBag"
+        }
+      }
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinDarkWizardII"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "Thaumcraft:FocusWarding"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

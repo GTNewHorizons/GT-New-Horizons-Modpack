@@ -3,12 +3,16 @@
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 1675
+    },
+    "1:10": {
+      "questIDHigh:4": -3315534683135260733,
+      "questIDLow:4": -8516599160743502345
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Fiber Reinforced Epoxid Sheets are needed for More Advanced Circuit Boards. Mix glass fiber with epoxid to get your sheets. Alternatively you can use raw carbon fiber. But we\u0027re making you do this because...re-writing the quest would be annoying.",
+      "desc:8": "Fiber Reinforced Epoxid Sheets are needed for More Advanced Circuit Boards. Mix glass fiber or carbon fiber with epoxid to get your sheets.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -22,7 +26,7 @@
       "lockedProgress:1": 0,
       "name:8": "§a§lFiber Reinforced Epoxid Sheet",
       "partySingleReward:1": 0,
-      "questLogic:8": "AND",
+      "questLogic:8": "OR",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
       "simultaneous:1": 0,
@@ -104,6 +108,29 @@
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 15,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "IC2:itemPartCarbonFibre"
+        },
+        "1:10": {
+          "Count:3": 15,
+          "Damage:2": 470,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.99"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {

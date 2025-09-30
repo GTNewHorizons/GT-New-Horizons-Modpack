@@ -1,0 +1,87 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2539
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "[quest]Equal Distribution, Fake Crafting, Locking, and Advanced Blocking Cards![/quest]\n\n§6Equal Distribution Card:§r\n\nThe Equal Distribution Card will evenly divide a cell\u0027s capacity between types or partitions.\n\n§6Fake Crafting Card:§r \n\nThe Fake Crafting Card will tell your ME System to complete a craft without expecting the final resulting item. \n\nThis can be handy for creating fake patterns for entire multiblocks or setups by collecting the individual items needed in one craft.\n\nThe card can only be inserted into:\n\n§cME Dual Interface\nME Interface\nP2P Tunnel - ME Dual Interface§r \n\n§6Locking Card:§r \n\nThe Locking Card allows an interface to optionally block new crafts from being started for one of the following conditions:\n\n§cWhile Redstone is low\nWhile Redstone is high\nAfter a craft has been pushed, until a redstone pulse is received\nAfter a craft has been pushed, until the results have returned to the same interface§r\n\n§6Advanced Blocking Card:§r\n\nThe Advanced Blocking Card is able to ignore non-consumables in a subnet for more complicated automations. \n\nIn a standard subnet, where two interfaces are facing each other, the Advanced Blocking Card is to be §9placed on the §lsubnet interface.§f",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 63,
+        "OreDict:8": "",
+        "id:8": "appliedenergistics2:item.ItemMultiMaterial"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Cards for AE2 Nerds!",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 5547747616513607281,
+  "questIDLow:4": -8466584755593206866,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 38,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 69,
+          "OreDict:8": "",
+          "id:8": "appliedenergistics2:item.ItemMultiMaterial"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 66,
+          "OreDict:8": "",
+          "id:8": "appliedenergistics2:item.ItemMultiMaterial"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 65,
+          "OreDict:8": "",
+          "id:8": "appliedenergistics2:item.ItemMultiMaterial"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 63,
+          "OreDict:8": "",
+          "id:8": "appliedenergistics2:item.ItemMultiMaterial"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

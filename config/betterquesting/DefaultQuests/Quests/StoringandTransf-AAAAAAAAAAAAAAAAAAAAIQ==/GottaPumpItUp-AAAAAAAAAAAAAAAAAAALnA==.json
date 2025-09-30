@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "If you made it this far you may have already noticed that you cannot pour vanilla water into the dam. That’s what a HydroEnergy Pump is for. This multi-block exists in multiple tiers and will allow you to reach higher water levels (\u003d more energy capacity). Provide the pump with vanilla water as input and pipe the fluid output into the dam. Then the dam will slowly fill up. If the dam is full or full for a pump’s voltage tier, it will void the water and energy.\n\nThat\u0027s all folks! Nothing too fancy here.\n\nIf you have any further questions, missing information or suggestions please do not hesitate to post on the official GT New Horizons Discord. Please add \u0027@SinTh0r4s\u0027 to your post to make sure I’ll see it.",
+      "desc:8": "If you made it this far you may have already noticed that you cannot pour vanilla water into the dam. That\u0027s what a HydroEnergy Pump is for. This multi-block exists in multiple tiers and will allow you to reach higher water levels (\u003d more energy capacity). Provide the pump with vanilla water as input and pipe the fluid output into the dam. Then the dam will slowly fill up. If the dam is full or full for a pump\u0027s voltage tier, it will void the water and energy.\n\nThat\u0027s all folks! Nothing too fancy here.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

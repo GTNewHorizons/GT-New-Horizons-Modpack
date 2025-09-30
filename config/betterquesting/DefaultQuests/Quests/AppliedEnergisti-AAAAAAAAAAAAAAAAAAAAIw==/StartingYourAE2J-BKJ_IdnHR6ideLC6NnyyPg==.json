@@ -1,0 +1,50 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 176
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 693
+    },
+    "2:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1166
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "§nApplied Energistics 2 is an integral part of GTNH gameplay. \n§r\nAE2 is the primary networking and logistics management mod in GTNH for Items, Fluids, and Crafting. You will use it starting from EV and onward for most automations you perform. Given the sheer density of this modpack there are a variety of unique tools and features added specifically to aid in your adventure. Most of these tools are covered in this quest tab.\n\nThere is a lot to learn, but don\u0027t feel overburdened! Your abilities will continue to grow the more time you spend with it. There are a wide variety of helpful resources to take advantage of in addition to this book when it comes to learning:\n\n§2§2§1§b§r§21. The Wiki:§r§r§o§o §o§o§r[url]§o§o§rhttps://wiki.gtnewhorizons.com/wiki/Applied_Energistics_2[/url]\n\n§r- The Wiki has a lot of great starter information on what various systems do. They also have a lot of machine specific automation tutorials so be sure to check the Wiki if you\u0027re struggling or want a point of reference.\n\n\n§b§r§22. The Discord: §o§r[url]https://discord.gg/gtnh[/url]\n\n§r- The Discord is full of experienced AE2ers\u0027, check out #ae2-help to find plenty of people who will take time to help you figure something out.\n\n\n§b§r§23. Video Tutorials: §r[url]§o§rhttps://www.youtube.com/watch?v\u003dLUYVmIAEC-I[/url]\n\n§r- There are a lot of great GTNH content creators who make high quality video tutorials for this. Here is a link to AE2 Fundamentals by IX. There\u0027s an advanced version as well.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:book"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "§5§lStarting Your AE2 Journey",
+      "questLogic:8": "OR",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 333969105743202216,
+  "questIDLow:4": -7099730498725039554,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

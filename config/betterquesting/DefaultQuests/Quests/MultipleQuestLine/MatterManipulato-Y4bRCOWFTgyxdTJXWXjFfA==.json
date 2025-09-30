@@ -1,0 +1,178 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 213
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1414,
+      "type:1": 1
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "The MKI is where you really start unlocking the potential of the Matter Manipulator. This new one has a §264 Block§r range and a §264 Block/Second§r speed limit.\n\nUnlike it\u0027s prototype predecessor, this now has §53 new modes§r made available to you:\n\n§l- Geometry§r: Places standard blocks in a selected and configurable shape.\n\n§l- Cable§r: Allows you to place AE and GT cables \u0026 pipes in lines (and connecting them automatically).\n\n§l- Exchange§r: Allows you to swap large swaths of blocks like the TC Equal Trade Focus.\n\nAdditionally, it can now connect to your §5AE network§r for automatically transferring items and liquids. You can link the tool in your security terminal and use it while within wireless range.\n\nWhen something is placed into the world, the tool will §3pull§r from inventories in this order:\n1 - ME system\n2 - Player\u0027s inventory\n3 - Uplink§r\n\nWhen something is removed from the world, the tool will §3push§r into inventories in this order:\n1 - ME system\n2 - Uplink\n3 - Player\u0027s inventory\n4 - The Ground (Items Only)\n\n[note]This also comes stock with the ability to remove blocks, so there is no need for another excavation upgrade.[/note]",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "matter-manipulator:itemMatterManipulator1",
+        "tag:10": {
+          "charge:6": 1.0E8,
+          "config:10": {
+            "blockSelectMode:8": "ALL",
+            "cables:10": {
+              "b:8": "true",
+              "id:1": 0,
+              "m:1": 0
+            },
+            "placeMode:8": "GEOMETRY",
+            "removeMode:8": "ALL",
+            "shape:8": "LINE"
+          },
+          "dv:1": 0,
+          "installedUpgrades:9": {},
+          "jv:1": 0,
+          "upgradeProvidedCapabilities:1": 0
+        }
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "§b§lMatter Manipulator MKI",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 7171649292774755852,
+  "questIDLow:4": -5659562005976529540,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 8,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag",
+          "tag:10": {
+            "ench:9": {
+              "0:10": {
+                "id:2": 35,
+                "lvl:2": 3
+              }
+            }
+          }
+        }
+      }
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnicianII"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 10,
+          "OreDict:8": "",
+          "id:8": "matter-manipulator:metaitem"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 8,
+          "OreDict:8": "",
+          "id:8": "matter-manipulator:metaitem"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 7,
+          "OreDict:8": "",
+          "id:8": "matter-manipulator:metaitem"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 6,
+          "OreDict:8": "",
+          "id:8": "matter-manipulator:metaitem"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 9,
+          "OreDict:8": "",
+          "id:8": "matter-manipulator:metaitem"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 21,
+          "OreDict:8": "",
+          "id:8": "matter-manipulator:metaitem"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32767,
+          "OreDict:8": "",
+          "id:8": "matter-manipulator:itemMatterManipulator1",
+          "tag:10": {
+            "charge:6": 1.0E8,
+            "config:10": {
+              "blockSelectMode:8": "ALL",
+              "cables:10": {
+                "b:8": "true",
+                "id:1": 0,
+                "m:1": 0
+              },
+              "placeMode:8": "GEOMETRY",
+              "removeMode:8": "ALL",
+              "shape:8": "LINE"
+            },
+            "dv:1": 0,
+            "installedUpgrades:9": {},
+            "jv:1": 0,
+            "upgradeProvidedCapabilities:1": 0
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

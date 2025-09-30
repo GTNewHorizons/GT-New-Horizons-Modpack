@@ -1,0 +1,133 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1680
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3230
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "The Synthetic Elven Gateway is an advanced and easily automatable version of the normal Elven Gateway. As a result it is much quicker, less TPS intensive, and AE2 compatible.\n\nMuch like the Mana Fountain, the controller can be given mana via a mana spreader or spark \u0026 item input can happen from any face, while item output is restricted to the bottom.\n\n[note]While running, this uses more mana passively than a normal Elven Gateway does, so be sure you have adequate mana production![/note]",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "botanichorizons:automatedAlfPortal"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Synthetic Elven Gateway",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 6322673158027823815,
+  "questIDLow:4": -5732897673112409281,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 4,
+          "OreDict:8": "",
+          "id:8": "Botania:manaResource"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "Damage:2": 9,
+          "OreDict:8": "",
+          "id:8": "Botania:manaResource"
+        },
+        "2:10": {
+          "Count:3": 8,
+          "Damage:2": 8,
+          "OreDict:8": "",
+          "id:8": "Botania:manaResource"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinFlowerIII"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnicianIII"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 68,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "Botania:livingwood"
+        },
+        "1:10": {
+          "Count:3": 12,
+          "Damage:2": 5,
+          "OreDict:8": "",
+          "id:8": "Botania:livingwood"
+        },
+        "2:10": {
+          "Count:3": 5,
+          "Damage:2": 1,
+          "OreDict:8": "",
+          "id:8": "Botania:pylon"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "botanichorizons:automatedAlfPortal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

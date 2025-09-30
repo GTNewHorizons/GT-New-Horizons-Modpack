@@ -14,7 +14,7 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "GoodGenerator:rodCompressedUranium4",
+        "id:8": "gregtech:gt.rodHighDensityUranium4",
         "tag:10": {}
       },
       "isMain:1": 0,
@@ -47,14 +47,14 @@
           "Count:3": 10,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "GoodGenerator:rodCompressedUranium4",
+          "id:8": "gregtech:gt.rodHighDensityUranium4",
           "tag:10": {}
         },
         "1:10": {
           "Count:3": 10,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "GoodGenerator:rodCompressedPlutonium4",
+          "id:8": "gregtech:gt.rodHighDensityPlutonium4",
           "tag:10": {}
         }
       },
@@ -72,7 +72,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "GoodGenerator:rodCompressedUranium4",
+          "id:8": "gregtech:gt.rodHighDensityUranium4",
           "tag:10": {}
         }
       },
