@@ -127,19 +127,19 @@
           "Count:3": 64,
           "Damage:2": 1840,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores"
+          "id:8": "gregtech:gt.blockores2"
         },
         "1:10": {
           "Count:3": 32,
           "Damage:2": 1035,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores"
+          "id:8": "gregtech:gt.blockores2"
         },
         "2:10": {
           "Count:3": 16,
           "Damage:2": 1945,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores"
+          "id:8": "gregtech:gt.blockores2"
         }
       },
       "taskID:8": "bq_standard:retrieval"

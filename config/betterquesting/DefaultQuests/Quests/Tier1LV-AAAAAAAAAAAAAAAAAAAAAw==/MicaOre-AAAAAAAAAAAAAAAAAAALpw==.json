@@ -116,25 +116,25 @@
           "Count:3": 32,
           "Damage:2": 901,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores"
+          "id:8": "gregtech:gt.blockores2"
         },
         "1:10": {
           "Count:3": 32,
           "Damage:2": 924,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores"
+          "id:8": "gregtech:gt.blockores2"
         },
         "2:10": {
           "Count:3": 32,
           "Damage:2": 824,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores"
+          "id:8": "gregtech:gt.blockores2"
         },
         "3:10": {
           "Count:3": 16,
           "Damage:2": 919,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores"
+          "id:8": "gregtech:gt.blockores2"
         }
       },
       "taskID:8": "bq_standard:retrieval"

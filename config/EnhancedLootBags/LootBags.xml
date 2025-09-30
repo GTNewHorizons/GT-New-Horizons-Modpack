@@ -843,7 +843,7 @@
         <Loot Identifier="51635a8e-9008-4075-bda2-80ff7ca8f52a" ItemName="gregtech:gt.blockmachines:47" Amount="4" NBTTag="" Chance="90" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="b5e162da-ac7a-4075-b3b6-00d7d5d08446" ItemName="gregtech:gt.metaitem.03:32105" Amount="32" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="92539180-9f52-49b0-b380-a2638ed3e72d" ItemName="gregtech:gt.blockmachines:1806" Amount="64" NBTTag="" Chance="80" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="8b3dc34e-f151-486a-ab11-b6a83e433820" ItemName="gregtech:gt.blockores:327" Amount="32" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="8b3dc34e-f151-486a-ab11-b6a83e433820" ItemName="gregtech:gt.blockores2:327" Amount="32" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="b162dc8a-4e18-45e9-a4a6-908d81731bfd" ItemName="berriespp:BppPotions:8" Amount="32" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
     <LootGroup GroupMetaID="44" GroupName="dreamcraft.lootbag.group.tier_9_uhv" Rarity="4" MinItems="1" MaxItems="2" CombineTrashGroup="true" TrashGroup="43" LootbagIcon="enhancedlootbags:uhv">
