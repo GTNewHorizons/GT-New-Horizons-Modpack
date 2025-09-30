@@ -103,7 +103,7 @@
         "0:10": {
           "Count:3": 32,
           "Damage:2": 0,
-          "OreDict:8": "",
+          "OreDict:8": "fenceWood",
           "id:8": "minecraft:fence"
         },
         "1:10": {
