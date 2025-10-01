@@ -6,7 +6,7 @@
     },
     "1:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 88
+      "questIDLow:4": 1148
     },
     "2:10": {
       "questIDHigh:4": 6327679129227052174,
@@ -57,9 +57,9 @@
         },
         "2:10": {
           "Count:3": 1,
-          "Damage:2": 9,
+          "Damage:2": 1,
           "OreDict:8": "",
-          "id:8": "enhancedlootbags:lootbag"
+          "id:8": "etfuturum:shulker_box_upgrade"
         }
       },
       "ignoreDisabled:1": 0,
