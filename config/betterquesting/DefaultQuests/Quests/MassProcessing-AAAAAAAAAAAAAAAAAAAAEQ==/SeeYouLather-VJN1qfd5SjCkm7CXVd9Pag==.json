@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Just in time for the huge number of crystal rods you\u0027ll need to get your Applied Energistics system up and running, the Industrial Precision Lathe!\n\nThe number of recipes that can be processed in parallel by the IPL depends on the item pipe casing.§l\n§§§r§6§9(Parallel \u003d Item Pipe Casing Tier * 8)§r\n\nAdditionally, it has a 300% speed boost on all recipes compared to the singleblock of that voltage and only consumes 80% of the EU/t normally required",
+      "desc:8": "Just in time for the huge number of crystal rods you\u0027ll need to get your Applied Energistics system up and running, the Industrial Precision Lathe!\n\nThe number of recipes that can be processed in parallel by the IPL depends on the item pipe casing.\n§9(Parallel \u003d Item Pipe Casing Tier * 8)§r\n\nAdditionally, it has a 300% speed boost on all recipes compared to the singleblock of that voltage and only consumes 80% of the EU/t normally required",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
