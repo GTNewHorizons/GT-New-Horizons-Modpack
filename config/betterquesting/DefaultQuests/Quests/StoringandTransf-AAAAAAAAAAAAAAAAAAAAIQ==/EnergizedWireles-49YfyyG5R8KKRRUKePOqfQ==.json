@@ -12,7 +12,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The §5§lEnergized Wireless Dynamo Hatch§r acts just as you may expect; it will inject EU directly from an energy-producing multiblock into your wireless EU network. No need for those pesky laser conduits and LSC middlemen!\n\n[warn]The dynamo transfer rate is the same as the laser source it\u0027s crafted with: §l65kA UMV§r§r. Also has a very large internal storage.[/warn]\n\n[note]Great for §lDyson§r \u0026 §lLarge Naquadah Reactor§r.[/note]",
+      "desc:8": "The §5§lEnergized Wireless Dynamo Hatch§r acts just as you may expect; it will inject EU directly from an energy-producing multiblock into your wireless EU network. No need for those pesky laser conduits and LSC middlemen!\n\n[warn]The dynamo transfer rate is the same as the laser source it\u0027s crafted with: §l65kA UMV§r. Also has a very large internal storage.[/warn]\n\n[note]Great for §lDyson§r \u0026 §lLarge Naquadah Reactor§r.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
