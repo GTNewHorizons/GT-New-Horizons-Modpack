@@ -3304,7 +3304,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAyg.desc=If an ender quarry won't satisf
 
 # Quest: Starting Fusion
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEvA.name=§c§lStarting Fusion
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEvA.desc=Fusion is a valuable tool you will be using for the rest of the game. It's used to create unique materials & plasmas. It can also be used as a very powerful power source when combined with plasma turbines.%n%nFor your first reactor, you will need a controller, 2-16 fluid input hatches, 1-16 fluid output hatches, and 16 energy hatches. All hatches have to be LuV tier or better. Each hatch provides 2048 EU/t for the recipe, and has a storage capacity of 10M EU.%n%nThis means you can do any fusion recipe that takes 32768 EU/t or less, and has a startup cost of 160M EU or less. Using more fluid hatches means you need less fusion casings. While this doesn't matter as much for the mk1 reactor, this principle helps tremendously with the higher reactor tiers.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEvA.desc=Now that your power needs are increasing, you need a way to keep up with demand. To generate over 1A ZPM with a single machine you have two options: solars, and fusion.%n%nWhile solars are simpler to set up, solars cap out at 524288 EU/t. Fusion can reach levels close to eight times that with the right setup.%n%nFor your first reactor, you will need a controller, 1-16 fluid input hatches, 1-16 fluid output hatches, and 16 LuV+ energy hatches. Each energy hatch has an energy capacity of 10M EU and draws up to 2048 EU/t.%n%nThat means you can do any fusion recipe with a start cost of 160M EU or less, and takes 32768 EU/t or less. Using more fluid hatches means you need less fusion casings. While this doesn't matter as much for the mk1 reactor, this principle helps tremendously with the higher reactor tiers.
 
 # Quest: Getting Europium
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEvQ.name=§c§lGetting Europium
@@ -3645,7 +3645,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAByQ.desc=The Energy Infuser is the tech 
 
 # Quest: Fusion Reactor MKII - Bigger, Better, Fusor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAErQ.name=Fusion Reactor MKII - Bigger, Better, Fusor
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAErQ.desc=Now that you have some Europium, put it to use by making a MK II reactor.%n%nThis one will require the same block placement, but replaces LuV casings with fusion machine casings, superconducting coil blocks with fusion coil blocks, and uses ZPM tier hatches.%n%nEach of the up to 16 ZPM Energy Hatches adds 8192 EU/t power input and 20 MEU starting capacity. Therefore this reactor can handle recipes up to 320M EU at startup. In addition, if you perform a MK I recipe on a MK II, you will overclock it. Fusion overclocking is different from normal GT. It will take 2x the power and the recipe will go 2x faster.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAErQ.desc=Now that you have some Europium, put it to use by making a MK II reactor.%n%nThis one requires the same block placement, but replaces the LuV casings with fusion machine casings and the superconducting coil blocks with fusion coil blocks. The energy hatches must now be at least ZPM too.%n%nEach energy hatch has an energy capacity of 20M EU and draws up to 8192 EU/t. That means it can handle start costs up to 320M EU and power consumption up to 131072 EU/t. Furthermore, MK I recipes in a MK II reactor are granted a 2/2 perfect overclock which doubles the speed and power consumption.
 
 # Quest: Making Americium
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAErw.name=Making Americium
@@ -3846,7 +3846,7 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAALQ.desc=Ultimate Voltage! This is t
 
 # Quest: Upgrading the Reactor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAErg.name=Upgrading the Reactor
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAErg.desc=A MK II is nice, but why not make a MK III? This time you will need UV or above hatches, as well as the Fusion Machine Casing MK II.%n%nEach of the up to 16 UV Energy Hatches adds 32768 EU/t power input and 40 MEU starting capacity. Therefore this reactor can handle recipes up to 640M EU at startup.%n%nWhen using it for lower tier recipes, the reactor will double the power needed per recipe, while cutting the processing time in half, both for each tier difference.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAErg.desc=A MK II is nice, but why not make a MK III? This time you need UV+ energy hatches, as well as the Fusion Machine Casing MK II.%n%nEach energy hatch has an energy capacity of 40M EU and draws up to 32768 EU/t. That means it can handle start costs up to 640M EU and power consumption up to 131072 EU/t.%n%nThe MK III reactor also grants a 2/2 perfect overclock for every machine tier above the minimum recipe tier.
 
 # Quest: I Put Fusion in Your Fusion so you Can Fusion While You Fusion
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEsg.name=I Put Fusion in Your Fusion so you Can Fusion While You Fusion
@@ -4196,7 +4196,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKFQ.desc=Infinity pickaxe, never breaks,
 
 # Quest: Galaxy in a Bottle...?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKFw.name=Galaxy in a Bottle...?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKFw.desc=Good luck with this one, it is many many many times harder than the previous tiers. Required to make extremely endgame materials such as hypogen.%n%nYou may notice the mk4 recipes are §oquite§o §rslow, perhaps consider making a compact reactor instead?%n%n[note]You only have to complete one task to finish this quest.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKFw.desc=Good luck with this one, it is many times harder than the previous tiers. It is required to make extremely endgame materials such as hypogen.%n%nThe MK IV reactor grants 4/4 perfect overclocks for every machine tier above the minimum recipe tier instead of the 2/2 perfect overclocks from the previous tiers. That means the speed and power consumption are both quadrupled instead of doubled each time.%n%nRegardless, you may notice the MK IV recipes are §oquite§o §rslow, perhaps consider making a Compact Fusion Reactor instead?%n%n[note]You only have to complete one task to finish this quest.[/note]
 
 # Quest: Hypogen
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKGA.name=Hypogen
@@ -4441,7 +4441,7 @@ betterquesting.quest.u-1Y-eQ-TLyw-WGi5EEnVA.desc=Now that you've enjoyed your ex
 
 # Quest: Fuwusion MK5
 betterquesting.quest.vLnSpTweSki3BaorBNQhxQ.name=Fuwusion MK5
-betterquesting.quest.vLnSpTweSki3BaorBNQhxQ.desc=After seeing how slow Shirabon is to make, you might want to upgrade your Fusion setup.%n%nLike its predecessor, the MK4, this version also supports Perfect Overclocks. Hopefully, this will make your Metastable Oganesson issues a bit more manageable.%n%n[note]You can specify the batch amount in the GUI if you don't want it to handle one-tick recipes.[/note]
+betterquesting.quest.vLnSpTweSki3BaorBNQhxQ.desc=After seeing how slow Shirabon is to make, you might want to upgrade your Fusion setup.%n%nLike its predecessor, the MK4, this version also supports 4/4 perfect overclocks. Hopefully, this will make your Metastable Oganesson issues a bit more manageable.%n%n[note]You can specify the batch amount in the GUI if you don't want it to handle one-tick recipes.[/note]
 
 
 ## Quest Line: Tier 12 - UMV
