@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Tired of waiting around for hours with radium in your inventory, waiting for it to decay? With a lead-lined box you can safely leave your radium in it and it\u0027ll decay while you do real work.\n\n[note]You may not be able to shift-click items in and out, but pipes still work. You can not use a WA.[/note]",
+      "desc:8": "Tired of waiting around for hours with radium in your inventory, waiting for it to decay? With a §5Lead-Lined Box§r you can safely leave your radium in it and it\u0027ll decay while you do real work.\n\n[note]You may not be able to shift-click items in and out, but pipes still work. You can not use a WA.[/note]\n\nAdditionally, you can also choose to use the §5Decay Warehouse§r for this task; it\u0027s more efficient but comes at a much higher cost. (More info in Multiblock Goals tab)",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -60,7 +60,7 @@
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
+      "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
       "requiredItems:9": {
@@ -69,9 +69,15 @@
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "miscutils:blockDecayablesChest"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 15751,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:optional_retrieval"
     },
     "1:10": {
       "autoConsume:1": 0,
