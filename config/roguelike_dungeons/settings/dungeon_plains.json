@@ -10,7 +10,7 @@
 			{"level": 0, "each": true, "quantity": 8, "loot": [
 			{"data": {"name": "minecraft:web", "meta": 0, "min": 3, "max": 5}, "weight": 10},
 			{"data": {"name": "minecraft:gravel", "meta": 0, "min": 6, "max": 12}, "weight": 30},
-			{"data": {"name": "BiomesOPlenty:gems", "meta": 5, "min": 1, "max": 1}, "weight": 5},
+			{"data": {"name": "BiomesOPlenty:gems", "meta": 2, "min": 1, "max": 1}, "weight": 5},
 			{"data": {"name": "minecraft:tallgrass", "meta": 1, "min": 1, "max": 2}, "weight": 30}
 			]
 			}
