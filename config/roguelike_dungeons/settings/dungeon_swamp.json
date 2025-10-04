@@ -9,6 +9,7 @@
 		"rooms_swamp",
 		"segments_swamp"
   ],
+	"loot_rules": [
 				{"level": 0, "each": true, "quantity": 8, "loot": [
 			{"data": {"name": "minecraft:waterlily", "meta": 0, "min": 3, "max": 5}, "weight": 30},
 			{"data": {"name": "minecraft:vine", "meta": 0, "min": 6, "max": 12}, "weight": 30},
