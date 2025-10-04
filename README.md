@@ -163,10 +163,10 @@ eta.gtnewhorizons.com<BR>
 
 Official EU Test Server(whitelist)<BR>
 
-For experiementals:<BR>
+For experimentals:<BR>
 zeta.gtnewhorizons.com<BR>
 
-For daylies:<BR>
+For dailies:<BR>
 iota.gtnewhorizons.com<BR>
 
 Modded Minecraft Club Falkenstein, Germany (open)<BR>
