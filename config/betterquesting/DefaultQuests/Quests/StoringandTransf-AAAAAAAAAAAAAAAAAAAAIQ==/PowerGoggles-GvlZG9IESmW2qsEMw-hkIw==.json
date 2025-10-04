@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Wanna see how your LSC is doing but don\u0027t want to run to it or your information panel every time? Get yourself a pair of §6§oPower Goggles§r to see your energy storage straight from the HUD!\n\nBy §adefault§f§r the goggles are §cunlinked§r and will monitor the amount of energy in your wireless network.\n\nTo link the goggles to an LSC, §cRight+Click§r the controller with the goggles in your hand. §cShift+Right Click§f§r air to unlink.\n\nIf you wish to move or modify the display you can do so by opening the power goggles config menu!\n\n[warn]Make sure to check your keybinds! There\u0027s also a keybind for toggling the power chart![/warn]",
+      "desc:8": "Wanna see how your LSC is doing but don\u0027t want to run to it or your information panel every time? Get yourself a pair of §6§oPower Goggles§r to see your energy storage straight from the HUD!\n\nBy §adefault§r the goggles are §cunlinked§r and will monitor the amount of energy in your wireless network.\n\nTo link the goggles to an LSC, §cRight+Click§r the controller with the goggles in your hand. §cShift+Right Click§r air to unlink.\n\nIf you wish to move or modify the display you can do so by opening the power goggles config menu!\n\n[warn]Make sure to check your keybinds! There\u0027s also a keybind for toggling the power chart![/warn]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,

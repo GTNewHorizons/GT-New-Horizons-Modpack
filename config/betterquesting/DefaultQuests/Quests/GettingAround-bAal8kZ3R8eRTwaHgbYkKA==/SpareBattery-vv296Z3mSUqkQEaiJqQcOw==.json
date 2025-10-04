@@ -1,25 +1,28 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": -6133074755109896107,
-      "questIDLow:4": -6003979525766501212
+      "questIDHigh:4": 0,
+      "questIDLow:4": 651
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "How does one centrifuge rare materials in the Steam Age? The answer is by building and using the Steam Separator, of course! By using steam to create a spinning force, this Multiblock can separate different materials quickly and easily.\n\nIf you think separation is taking forever, the Steam Separator will speed things up!\n\n§3This Multiblock can process recipes up to LV Tier, and does accept an Output Hatch for recipes. But if you are looking to use recipes which require Fluid Inputs, you might have to build an LV Centrifuge in the future.",
+      "desc:8": "The Electric Jetpack may be useful for flight, but it doesn\u0027t seem to last very long. \n\nIf only there was an integrated upgradable battery pack you could keep on your player to extend it\u0027s range...\n\nOh wait, there is!\n\nThe §5§lCharge Pack§r can be used as a battery pack for charging items both in your hotbar and armor equip to your person. Simply place it in the belt bauble slot and it should be fully functional! The HV one should serve you nicely for now.\n\n[note]You can upgrade the Charge Pack as you unlock items that require higher voltages for charging. The Charge Pack will charge anything of-tier or lower- but not higher.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 31080,
+        "Damage:2": 1,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.blockmachines"
+        "id:8": "miscutils:GTPP.BattPack.03.name",
+        "tag:10": {
+          "charge:6": 3072000.0
+        }
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "A steam-powered whirl!",
+      "name:8": "Spare Battery",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -30,26 +33,26 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": -3263660120901467914,
-  "questIDLow:4": -8361079222456284577,
+  "questIDHigh:4": -4684379226321303222,
+  "questIDLow:4": -6611206590732952517,
   "rewards:9": {
     "0:10": {
       "choices:9": {
         "0:10": {
-          "Count:3": 16,
-          "Damage:2": 11300,
+          "Count:3": 2,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "IC2:itemPartCircuitAdv"
         },
         "1:10": {
-          "Count:3": 4,
-          "Damage:2": 11305,
+          "Count:3": 1,
+          "Damage:2": 32692,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"
         },
         "2:10": {
           "Count:3": 1,
-          "Damage:2": 2,
+          "Damage:2": 6,
           "OreDict:8": "",
           "id:8": "enhancedlootbags:lootbag"
         }
@@ -64,10 +67,10 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 50,
+          "Count:3": 8,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnician"
+          "id:8": "dreamcraft:item.CoinTechnicianI"
         }
       }
     }
@@ -82,52 +85,46 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 70,
-          "Damage:2": 10,
+          "Count:3": 8,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings"
+          "id:8": "miscutils:itemPlateTantalumCarbide"
         },
         "1:10": {
-          "Count:3": 8,
-          "Damage:2": 2,
+          "Count:3": 12,
+          "Damage:2": 28028,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings2"
+          "id:8": "gregtech:gt.metaitem.01"
         },
         "2:10": {
-          "Count:3": 4,
-          "Damage:2": 12,
+          "Count:3": 6,
+          "Damage:2": 1423,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings2"
+          "id:8": "gregtech:gt.blockmachines"
         },
         "3:10": {
-          "Count:3": 3,
-          "Damage:2": 13,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings3"
+          "Count:3": 4,
+          "Damage:2": 0,
+          "OreDict:8": "circuitAdvanced",
+          "id:8": "IC2:itemPartCircuitAdv"
         },
         "4:10": {
-          "Count:3": 1,
-          "Damage:2": 31046,
+          "Count:3": 4,
+          "Damage:2": 32538,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "gregtech:gt.metaitem.01"
         },
         "5:10": {
-          "Count:3": 1,
-          "Damage:2": 31047,
+          "Count:3": 4,
+          "Damage:2": 32692,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "gregtech:gt.metaitem.01"
         },
         "6:10": {
-          "Count:3": 1,
-          "Damage:2": 60,
+          "Count:3": 4,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
-        },
-        "7:10": {
-          "Count:3": 1,
-          "Damage:2": 31040,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "miscutils:itemCellTantalumCarbide"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -142,9 +139,12 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 31080,
+          "Damage:2": 32767,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "miscutils:GTPP.BattPack.03.name",
+          "tag:10": {
+            "charge:6": 3072000.0
+          }
         }
       },
       "taskID:8": "bq_standard:retrieval"
