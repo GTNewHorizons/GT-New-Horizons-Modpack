@@ -166,7 +166,7 @@ Official EU Test Server(whitelist)<BR>
 For experiementals:<BR>
 zeta.gtnewhorizons.com<BR>
 
-For daylies:<BR>
+For dailies:<BR>
 iota.gtnewhorizons.com<BR>
 
 Modded Minecraft Club Falkenstein, Germany (open)<BR>
