@@ -73,67 +73,8 @@
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
-      "index:3": 0,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 16,
-          "Damage:2": 5543,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
-        },
-        "1:10": {
-          "Count:3": 16,
-          "Damage:2": 5541,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
-        },
-        "2:10": {
-          "Count:3": 16,
-          "Damage:2": 5540,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
-        },
-        "3:10": {
-          "Count:3": 16,
-          "Damage:2": 5542,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
-        },
-        "4:10": {
-          "Count:3": 16,
-          "Damage:2": 5545,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
-        },
-        "5:10": {
-          "Count:3": 16,
-          "Damage:2": 5544,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
-        },
-        "6:10": {
-          "Count:3": 16,
-          "Damage:2": 5514,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
-        },
-        "7:10": {
-          "Count:3": 16,
-          "Damage:2": 5826,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "1:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
       "ignoreNBT:1": 1,
-      "index:3": 1,
+      "index:3": 0,
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
@@ -183,6 +124,65 @@
           "Damage:2": 826,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockores"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 5543,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.03"
+        },
+        "1:10": {
+          "Count:3": 16,
+          "Damage:2": 5541,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.03"
+        },
+        "2:10": {
+          "Count:3": 16,
+          "Damage:2": 5540,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.03"
+        },
+        "3:10": {
+          "Count:3": 16,
+          "Damage:2": 5542,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.03"
+        },
+        "4:10": {
+          "Count:3": 16,
+          "Damage:2": 5545,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.03"
+        },
+        "5:10": {
+          "Count:3": 16,
+          "Damage:2": 5544,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.03"
+        },
+        "6:10": {
+          "Count:3": 16,
+          "Damage:2": 5514,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.03"
+        },
+        "7:10": {
+          "Count:3": 16,
+          "Damage:2": 5826,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.03"
         }
       },
       "taskID:8": "bq_standard:retrieval"
