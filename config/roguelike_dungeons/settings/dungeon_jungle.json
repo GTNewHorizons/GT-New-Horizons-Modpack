@@ -23,7 +23,7 @@
 		}
 	},
 			"loot_rules": [
-			{"level": 0, "each": true, "quantity": 8, "loot": [
+			{"level": [0, 1, 2, 3, 4], "each": true, "quantity": 8, "loot": [
 			{"data": {"name": "minecraft:leaves", "meta": 3, "min": 3, "max": 5}, "weight": 30},
 			{"data": {"name": "minecraft:vine", "meta": 0, "min": 3, "max": 12}, "weight": 30},
 			{"data": {"name": "BiomesOPlenty:gems", "meta": 3, "min": 1, "max": 1}, "weight": 5},
