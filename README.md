@@ -163,7 +163,7 @@ eta.gtnewhorizons.com<BR>
 
 Official EU Test Server(whitelist)<BR>
 
-For experiementals:<BR>
+For experimentals:<BR>
 zeta.gtnewhorizons.com<BR>
 
 For dailies:<BR>
