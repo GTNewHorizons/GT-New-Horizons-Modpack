@@ -115,7 +115,7 @@
 		{"data": {"name": "minecraft:diamond_chestplate", "meta": 0}, "weight": 20},
 		{"data": {"name": "minecraft:diamond_helmet", "meta": 0}, "weight": 20},
 		{"data": {"name": "minecraft:diamond_leggings", "meta": 0}, "weight": 20},
-		{"data": {"name": "etfuturum:netherite_helmet", "meta": 0, "nbt" : "{ench:[0:{lvl:6s,id:0s},1:{lvl:3s,id:34s}]},display:{Name:\"Ancient Crown\"}}"}, "weight": 3},
+		{"data": {"name": "etfuturum:netherite_helmet", "meta": 0, "nbt" : "{ench:[0:{lvl:6s,id:0s},1:{lvl:3s,id:34s}]},display:{Name:\"Ancient Crown\"}}"}, "weight": 3}
       ]
     }
   ]
