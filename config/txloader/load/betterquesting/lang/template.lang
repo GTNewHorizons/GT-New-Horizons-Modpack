@@ -2650,7 +2650,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHYw.desc=For more tungsten and tungstens
 
 # Quest: What's in the Box?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHhQ.name=§a§lWhat's in the Box?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHhQ.desc=Tired of waiting around for hours with radium in your inventory, waiting for it to decay? With a §5Lead-Lined Box§r you can safely leave your radium in it and it'll decay while you do real work.%n%n[note]You may not be able to shift-click items in and out, but pipes still work. You can not use a WA.[/note]%n%nAdditionally, you can also choose to use the §5Decay Warehouse§r for this task; it's more efficient but comes at a much higher cost. (More info in Multiblock Goals tab)
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHhQ.desc=Tired of waiting around for hours with radium in your inventory, waiting for it to decay? With a §5Lead-Lined Box§r you can safely leave your radium in it and it'll decay while you do real work.%n%n[note]Pipes work with it, but you can not use a WA.[/note]%n%nAdditionally, you can also choose to use the §5Decay Warehouse§r for this task; it's more efficient but comes at a much higher cost. (More info in Multiblock Goals tab)
 
 # Quest: Platinum Processing, Step 4
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI-A.name=§a§lPlatinum Processing, Step 4
