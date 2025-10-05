@@ -58,7 +58,7 @@
 		{"data": {"name": "adventurebackpack:adventurePants", "meta": 0}, "weight": 5},
 		{"data": {"name": "adventurebackpack:adventureSuit", "meta": 0}, "weight": 5},
 		{"data": {"name": "adventurebackpack:pistonBoots", "meta": 0}, "weight": 5},
-		{"data": {"name": "minecraft:golden_boots", "meta": 0, "nbt" : "{ench:[0:{id:212s,lvl:2s}],display:{Name:\"Commfortable Cuirass\"}}"}, "weight": 10},
+		{"data": {"name": "minecraft:golden_boots", "meta": 0, "nbt" : "{ench:[0:{id:212s,lvl:2s}],display:{Name:\"Comfortable Cuirass\"}}"}, "weight": 10},
 		{"data": {"name": "minecraft:golden_chestplate", "meta": 0, "nbt" : "{ench:[0:{id:212s,lvl:2s}],display:{Name:\"Comfortable Cuirass\"}}"}, "weight": 10},
 		{"data": {"name": "minecraft:golden_helmet", "meta": 0, "nbt" : "{ench:[0:{id:212s,lvl:2s}],display:{Name:\"Comfortable Cuirass\"}}"}, "weight": 10},
 		{"data": {"name": "minecraft:golden_leggings", "meta": 0, "nbt" : "{ench:[0:{id:212s,lvl:2s}],display:{Name:\"Comfortable Cuirass\"}}"}, "weight": 10},
