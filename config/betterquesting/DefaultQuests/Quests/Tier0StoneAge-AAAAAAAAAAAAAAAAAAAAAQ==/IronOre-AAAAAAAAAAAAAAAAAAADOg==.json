@@ -128,31 +128,31 @@
           "Count:3": 16,
           "Damage:2": 917,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores"
+          "id:8": "gregtech:gt.blockores2"
         },
         "1:10": {
           "Count:3": 16,
           "Damage:2": 32,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores"
+          "id:8": "gregtech:gt.blockores2"
         },
         "2:10": {
           "Count:3": 16,
           "Damage:2": 870,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores"
+          "id:8": "gregtech:gt.blockores2"
         },
         "3:10": {
           "Count:3": 16,
           "Damage:2": 931,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores"
+          "id:8": "gregtech:gt.blockores2"
         },
         "4:10": {
           "Count:3": 16,
           "Damage:2": 930,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores"
+          "id:8": "gregtech:gt.blockores2"
         }
       },
       "taskID:8": "bq_standard:retrieval"
