@@ -6451,43 +6451,6 @@
 			},
 			"label:8": "Oblivion Hive"
 		},
-		"119:10": {
-			"trades:9": {
-				"0:10": {
-					"toItems:9": {
-						"0:10": {
-							"Damage:2": 0,
-							"id:8": "minecraft:dirt",
-							"OreDict:8": "",
-							"Count:3": 64
-						}
-					},
-					"displayItem:10": {
-						"Damage:2": 0,
-						"id:8": "vendingmachine:placeholder",
-						"OreDict:8": "",
-						"Count:3": 1
-					},
-					"fromItems:9": {
-						"0:10": {
-							"Damage:2": 0,
-							"id:8": "minecraft:stone",
-							"OreDict:8": "",
-							"Count:3": 64
-						}
-					}
-				}
-			},
-			"requirements:9": {},
-			"category:8": "misc",
-			"cooldown:3": 1200,
-			"maxTrades:3": -1,
-			"id:10": {
-				"tradeGroupIDLow:4": -5818400732674949356,
-				"tradeGroupIDHigh:4": 3365699171666512004
-			},
-			"label:8": "test"
-		},
 		"120:10": {
 			"trades:9": {
 				"0:10": {
