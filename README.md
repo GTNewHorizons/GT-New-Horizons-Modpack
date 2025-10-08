@@ -2,8 +2,6 @@
 
 Version 2.8.0 is out 2025-09-27
 
-[![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
-
 ## What is GT New Horizons?
 
 <p align="justify">
@@ -119,7 +117,7 @@ and <a href="https://www.yourkit.com/youmonitor/">YourKit YouMonitor</a>.
 
 ***Questing***<BR>
 <p align="justify">
-    GT New Horizons comes with over 3000 quests that will guide the player through the maze that modded Minecraft can be.<BR>
+    GT New Horizons comes with over 3500+ quests that will guide the player through the maze that modded Minecraft can be.<BR>
     <BR>
     The texts will inform you what's required to progress so you don't have to watch tutorials or ask others as often. The questbook can even save you the time to type into NEI, just click the items displayed in the quest and it will display the recipe through NEI, quite handy, right?<BR>
     <BR>
@@ -164,7 +162,12 @@ epsilon.gtnewhorizons.com<BR>
 eta.gtnewhorizons.com<BR>
 
 Official EU Test Server(whitelist)<BR>
+
+For experimentals:<BR>
 zeta.gtnewhorizons.com<BR>
+
+For dailies:<BR>
+iota.gtnewhorizons.com<BR>
 
 Modded Minecraft Club Falkenstein, Germany (open)<BR>
 https://www.moddedminecraft.club/ <BR>
@@ -237,9 +240,9 @@ IP: gtnh.114-7.com
 MultiMC Downloads: http://downloads.gtnewhorizons.com/Multi_mc_downloads/ <BR>
 Technic Launcher Link: http://www.technicpack.net/modpack/mcnewhorizons.677387 <BR>
 Curse Link: https://minecraft.curseforge.com/projects/gt-new-horizons <BR>
-Discord Link: https://discord.gg/EXshrPV <BR>
+Discord Link: https://discord.gg/gtnh <BR>
 Website Link: https://www.gtnewhorizons.com/ <BR>
-WIKI Link: https://gtnh.miraheze.org/wiki/Main_Page
+WIKI Link: https://wiki.gtnewhorizons.com/wiki/Main_Page<BR>
 
 ### Contributing
 
