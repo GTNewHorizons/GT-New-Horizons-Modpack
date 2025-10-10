@@ -2,6 +2,6 @@
 	"name": "tower_ice",
 		"tower": {
 		"type": "BUNKER",
-		"theme": {"base": "ICE"}
+		"theme": {"base": "GREY"}
 	}
 }
