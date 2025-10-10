@@ -2732,8 +2732,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMAg.desc=Your good old singleblock Molec
 betterquesting.quest.JkWQZxq_TECWjHhjywrZZA.name=§a§lFour fluids in the one Hatch!
 betterquesting.quest.JkWQZxq_TECWjHhjywrZZA.desc=Now that you're in EV tier you now have access to the Quadruple input hatches. These hatches can hold four different fluids in the one hatch which saves valuable spots in your multiblocks.%n%nPerfect to be placed in your EBFs.
 
-# Quest: EV Field Generators
-betterquesting.quest.Jna1jgAySNSs8nS0YMXpLw.name=§a§lEV Field Generators
+# Quest: EV Field Generator
+betterquesting.quest.Jna1jgAySNSs8nS0YMXpLw.name=§a§lEV Field Generator
 betterquesting.quest.Jna1jgAySNSs8nS0YMXpLw.desc=With Field Generators you can make your first Quantum Chests or Quantum Tanks. But the first two should be for your T2 rocket.%n%n[note]Note that the Assembler recipe is more resource efficient.[/note]
 
 # Quest: Supersized Buses
@@ -2748,6 +2748,10 @@ betterquesting.quest.kQL8JceoSMSLDU_2AFjoqw.desc=Well, maybe it's not as extreme
 ## Quest Line: Tier 5 - IV
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAABw.name=Tier 5 - IV
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAABw.desc=This tier is all about the platline, and making the assembly line. They're both super hard, but necessary. This is probably where most people drop out. Good luck!
+
+# Quest: IV Field Generator
+betterquesting.quest.6ENNFc4RS3u2sQFL5fnz1A.name=§b§lIV Field Generator
+betterquesting.quest.6ENNFc4RS3u2sQFL5fnz1A.desc=Oh look, the latest and greatest field generator! I wonder what you'll end up using these for... maybe a Tree Growth Simulator? Maybe a new Matter Manipulator?
 
 # Quest: Tier 5 (IV)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA1Q.name=§b§lTier 5 (IV)
@@ -5506,7 +5510,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADBw.desc=These are the first parts you w
 
 # Quest: Seeing Things Brighter
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADCA.name=Seeing Things Brighter
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADCA.desc=The nano helmet is a bit special. It will provide you with night vision as long as you have energy!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADCA.desc=The nano helmet is a bit special. It will provide you with night vision as long as you have energy!%n%n[note]If you got these from a lootbag, hold these in your hand after completing the "Carbon Parts" quest to skip this quest.[/note]
 
 # Quest: Carbon Skin
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADCw.name=Carbon Skin
@@ -7724,7 +7728,7 @@ betterquesting.quest.EOlpI83vT36jaFwDH7pS7w.desc=To insert and extract many amps
 
 # Quest: Power Goggles
 betterquesting.quest.GvlZG9IESmW2qsEMw-hkIw.name=Power Goggles
-betterquesting.quest.GvlZG9IESmW2qsEMw-hkIw.desc=Wanna see how your LSC is doing but don't want to run to it or your information panel every time? Get yourself a pair of §6§oPower Goggles§r to see your energy storage straight from the HUD!%n%nBy §adefault§r the goggles are §cunlinked§r and will monitor the amount of energy in your wireless network.%n%nTo link the goggles to an LSC, §cRight+Click§r the controller with the goggles in your hand. §cShift+Right Click§r air to unlink.%n%nIf you wish to move or modify the display you can do so by opening the power goggles config menu!%n%n[warn]Make sure to check your keybinds! There's also a keybind for toggling the power chart![/warn]
+betterquesting.quest.GvlZG9IESmW2qsEMw-hkIw.desc=Wanna see how your LSC is doing but don't want to run to it or your information panel every time? Get yourself a pair of §6§oPower Goggles§r to see your energy storage straight from the HUD!%n%nBy §adefault§r the goggles are §cunlinked§r and will monitor the amount of energy in your wireless network.%n%nTo link the goggles to an LSC, §cRight+Click§r the controller with the goggles in your hand. §cShift+Right Click§r air to unlink.%n%nIf you wish to move or modify the display you can do so by opening the power goggles config menu!%n%n[warn]Make sure to check your keybinds! There's also a keybind for toggling the power chart!%n%nOr, if you don't wanna deal with that, you can use the /powergoggles command[/warn]
 
 # Quest: EV 64A Hatches
 betterquesting.quest.M_HRDMb8Q2GnvpgfgsRnRw.name=EV 64A Hatches
@@ -14595,7 +14599,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIYA.desc=If you want to pass multiple am
 
 # Quest: E_TOO_MANY_KEYS
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIYQ.name=§9§lE_TOO_MANY_KEYS
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIYQ.desc=ERROR: Too many keys to fit a 104 key keyboard.%n%nThere are many keybinds in this modpack. To avoid conflicts, most of them are unbound by default. Only the ones available from the start are bound. Note that NEI keybinds are found in the NEI menu and not with the rest of the keybinds.%n%nHere is the list of what some of them do :%n%nBetterQuesting%nGRAVE - Open Questbook%n%nDraconic Evolution%nV - Place the item you are holding on the block you are looking at%n%nJourneymap%nB - Create a Waypoint%nCtrl+B - Open the Waypoint Manager%nJ - Open Fullscreen Map%n= - Zoom In (works on minimap too)%n- - Zoom out%n%nInventory Tweaks%nR - Sort Inventory%n%nShare Where I am%nINSERT - Places a temporary beam where you are looking at that will be seen by you and other players%nSHIFT + INSERT - Places a temporary beam where §oyou§r are that will be seen by you and other players%nCTRL + INSERT - Shares the position you are looking at with other players%nCTRL + SHIFT + INSERT - Shares your position with other players%n%nWaila - Shows information about what you are looking at%nNUMPAD1 - show/hide the Waila HUD%nNUMPAD3 - shows how to craft what you are looking at%nNUMPAD4 - shows the crafting usages of the thing you are looking at%n%n[note]If you have a non-standard keyboard layout, using the java 17-21 version of GTNH §omight§r help you in being able to use certain keys for keybinds.%n[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIYQ.desc=ERROR: Too many keys to fit a 104 key keyboard.%n%nThere are many keybinds in this modpack. To avoid conflicts, most of them are unbound by default. Only the ones available from the start are bound. Note that NEI keybinds are found in the NEI menu and not with the rest of the keybinds.%n%nHere is the list of what some of them do :%n%nBetterQuesting%nGRAVE - Open Questbook%n%nDraconic Evolution%nV - Place the item you are holding on the block you are looking at%n%nJourneymap%nB - Create a Waypoint%nCtrl+B - Open the Waypoint Manager%nJ - Open Fullscreen Map%n= - Zoom In (works on minimap too)%n- - Zoom out%n%nInventory Tweaks%nR - Sort Inventory%n%nShare Where I am%nINSERT - Places a temporary beam where you are looking at that will be seen by you and other players%nSHIFT + INSERT - Places a temporary beam where §oyou§r are that will be seen by you and other players%nCTRL + INSERT - Shares the position you are looking at with other players%nCTRL + SHIFT + INSERT - Shares your position with other players%n%nWaila - Shows information about what you are looking at%nNUMPAD1 - show/hide the Waila HUD%nNUMPAD3 - shows how to craft what you are looking at%nNUMPAD4 - shows the crafting usages of the thing you are looking at%n%n[note]If you have a non-standard keyboard layout, using the Java 17-25 version of GTNH §omight§r help you in being able to use certain keys for keybinds.%n[/note]
 
 # Quest: Safety First
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIcQ.name=§3§lSafety First
@@ -14817,6 +14821,10 @@ betterquesting.quest._zwtTNh-SG6B4wp221XPcQ.desc=The MKIII is the final upgrade 
 betterquesting.quest.a-g__0y_SGyed_E6IkIrsg.name=§6§lCreative Flight With MagLev
 betterquesting.quest.a-g__0y_SGyed_E6IkIrsg.desc=Getting annoyed trying to reach pipes and conduits around your base? Look no further than the §5§lMagLev Harness§r!%n%nWith the MagLev, you can have creative flight whenever you are within range of a MagLev Pylon and have the Harness equip.%n%nThis will work even when unpowered, however the range of the Pylon gets doubled when it's given §21A§r of it's corresponding tier of power. The MagLev will only draw power while you are in-range, not passively. A Harness can only be tethered to one Pylon at a time, but a Pylon can attach to any number of Harnesses. Will only consume 1A §nregardless§r of how many Harnesses are tethered to the Pylon§r.%n%n[note]Check the tooltip to see the range of your chosen Pylon, the MV one has a maximum range of 16 (33 x 33 x 33) when powered![/note]
 
+# Quest: Powerfail Notifications
+betterquesting.quest.a59175-ZS16kxwUW_BCuEQ.name=§6§lPowerfail Notifications
+betterquesting.quest.a59175-ZS16kxwUW_BCuEQ.desc=Congratuations on your first EBF!%n%nThroughout your GTNH gameplay you will end up creating hundreds of multiblocks, and will very likely run into a multitude of power failures at some point. %n%nFortunately, we have a dedicated system for helping you stay informed of exactly when and where these power failures occur §3(though the 'why' portion is up to you to figure out!)§r.%n%nWhen a multiblock powerfails, you will receive a notification in §5chat§r, in addition to a visible icon on §5screen§r, and an icon visible on your §5map§r. %n%n§lYou can clear these notifications by§r:%n- Clicking into the multiblock that has powerfailed%n- Deleting the notification in JourneyMap%n- Typing §4/powerfails clear§r%n%nFor those playing §2multiplayer§r, anyone who is on your §2team§r will receive the §2same notifications§r. §2§nOne person§r clearing a notification should clear it for§2 §nall players§r.%n%n[note]This feature uses the same team system as wireless EU. Use </gt §4global_energy_join§r §1[User Joining] [User to Join]§r> to team up.[/note]%n%nAll of these features can be turned off in the gregtech config. If you want the on screen icon to disappear use §4§l/powerfails hide§r. For all in-game options use §4§l/powerfails help§r.
+
 # Quest: Absolute Purity
 betterquesting.quest.bNVzOxCORxuo_lhAh13r0A.name=Absolute Purity
 betterquesting.quest.bNVzOxCORxuo_lhAh13r0A.desc=Absolute Baryonic Perfection! This multiblock allows you to create water that is pure even on the subatomic level. Not a single quark is out of place in Grade 8 Purified Water. Thanks to this purity, even more advanced processes are possible, starting with reducing the processing time of Optical Boules and increasing yield on Optical Chips.%n%nWhile the tooltip is certainly a lot less intimidating than the one of the Degasser, automating this process will not be an easy challenge. Have fun solving the puzzle!
@@ -14883,6 +14891,10 @@ betterquesting.quest.xdiDnTdpTgW6POwCuDlPgg.desc=After meddling with the 4th Dim
 # Quest: Trigger: Nano Boots of the Traveller Skip
 betterquesting.quest.5RrDJZBfTligyX8_wR-EDA.name=Trigger: Nano Boots of the Traveller Skip
 betterquesting.quest.5RrDJZBfTligyX8_wR-EDA.desc=
+
+# Quest: Trigger: Nightvision Goggle Skip
+betterquesting.quest.5bnuPY-USBW37JbkO5VzOw.name=Trigger: Nightvision Goggle Skip
+betterquesting.quest.5bnuPY-USBW37JbkO5VzOw.desc=Skip is here for those who get the goggles in a lootbag
 
 # Quest: Trigger: Hafnium Skip
 betterquesting.quest.5pXaevjTR-atLo3tdEZMEw.name=Trigger: Hafnium Skip
