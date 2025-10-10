@@ -1,0 +1,20 @@
+{
+	"name": "dungeon_ice",
+  	"criteria": {"biomeTypes": ["SNOWY"]},
+  	"inherit": [
+		"loot_all",
+		"loot_ice",
+		"theme_ice",
+		"tower_ice",
+		"rooms_ice"
+  ],
+					"loot_rules": [
+			{"level": [0, 1, 2, 3, 4], "each": true, "quantity": 6, "loot": [
+			{"data": {"name": "minecraft:snowball", "meta": 0, "min": 3, "max": 5}, "weight": 30},
+			{"data": {"name": "minecraft:ice", "meta": 0, "min": 6, "max": 8}, "weight": 30},
+			{"data": {"name": "BiomesOPlenty:gems", "meta": 4, "min": 1, "max": 1}, "weight": 5},
+			{"data": {"name": "minecraft:snow", "meta": 0, "min": 1, "max": 2}, "weight": 10}
+			]
+			}
+		]
+}
