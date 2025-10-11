@@ -12,7 +12,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Surface-mount devices are more advanced circuit parts. They\u0027re needed for circuits starting next tier and are cheaper to craft than basic capacitors, transitors, diodes and resistors. Once you get a reliable polyethylene setup, you can save a lot of resources by using SMD components.\n\nBe sure to check how much gallium you have available. It might not be worth it to use SMD diodes and transistors until you have a steady supply with an HV macerator or bees. Also look into IC2 crops to 4x your zinc, sphalerite, and bauxite.",
+      "desc:8": "Surface-mount devices are more advanced circuit parts. They\u0027re needed for circuits starting next tier and are cheaper to craft than basic capacitors, transistors, diodes and resistors. Once you get a reliable polyethylene setup, you can save a lot of resources by using SMD components.\n\nBe sure to check how much gallium you have available. It might not be worth it to use SMD diodes and transistors until you have a steady supply with an HV macerator or bees. Also look into IC2 crops to 4x your zinc, sphalerite, and bauxite.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

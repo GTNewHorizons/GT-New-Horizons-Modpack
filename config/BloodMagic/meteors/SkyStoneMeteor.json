@@ -1,0 +1,19 @@
+{
+  "ores": [
+    "appliedenergistics2:tile.BlockSkyStone:0:95",
+    "appliedenergistics2:tile.BlockSkyStone:1:90",
+    "ExtraUtilities:color_lightgem:15:80",
+    "ExtraUtilities:color_obsidian:15:80",
+    "chisel:grimstone:14:40",
+    "appliedenergistics2:tile.OreQuart:0:20",
+    "appliedenergistics2:tile.OreQuartzCharged:0:25",
+    "GalacticraftAmunRa:tile.baseBlockRock:0:10"
+  ],
+  "filler": [
+    "chisel:futura:2:200"
+  ],
+  "radius": 22,
+  "cost": 600002,
+  "focusItem": "appliedenergistics2:tile.BlockSkyChest:1",
+  "fillerChance": 20
+}

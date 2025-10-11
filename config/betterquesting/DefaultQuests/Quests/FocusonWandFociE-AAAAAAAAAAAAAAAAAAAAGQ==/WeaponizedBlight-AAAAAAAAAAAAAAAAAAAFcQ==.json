@@ -1,0 +1,94 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1380
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 238
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "The Wand Focus: Tainted Storm will emit a stream of tainted bubbles which damage anything in a short distance and inflict Poison for 5 seconds. The focus may also debuff the caster with Flux Flu III for 50 seconds.\n\n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]\n§5Frugal§r: Lowers vis cost to cast by 10% per level\n§5Potency§r: Increases damage dealt and increases the number of bubbles every level\n§5Tainturgy§r (level 3): The caster will no longer get Flux Flu. This adds 0.6 Ordo to the casting cost\n§5Enlarge§r (level 4): The tainted bubbles fan out across a wider area. This adds 0.6 Aer and Aqua to the casting cost\n§5Corrosive§r (level 5): The tainted bubbles inflict the Wither effect instead of Poison. This adds 0.6 Perditio and Ignis to the casting cost",
+      "globalShare:1": 1,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "TaintedMagic:ItemFocusTaint"
+      },
+      "isGlobal:1": 0,
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Weaponized Blight",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 1393,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 10,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "Thaumcraft:ItemLootBag"
+        }
+      }
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinDarkWizardII"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "TaintedMagic:ItemFocusTaint"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

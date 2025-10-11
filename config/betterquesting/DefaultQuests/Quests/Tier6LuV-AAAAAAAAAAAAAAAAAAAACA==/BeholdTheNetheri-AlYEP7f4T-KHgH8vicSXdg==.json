@@ -1,0 +1,42 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2599
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "You didn\u0027t seriously think you only needed to do the Naquadah line in LuV did you? Well if so; better brace yourself for the Netherite line!\n\nDon\u0027t panic, it\u0027s a relatively straight-forward line so long as you can wrap your head around minor processing loops and percent based output. Fortunately you have a quest book to guide you through your initial setup.\n\nBe warned- you will need at least §2§lGrade 1 Purified Water§r and§5§l Naquadah Coils§r to make it through this entire line.\n\n§3This questline will start you off with the three primary things you must prepare in order to begin:\n\n§l- Milled Netherrack\n- Nether Air\n- Ancient Debris Collection§r\n\n§3For at least one and likely two of those you will need to journey into the nether, so make sure you\u0027re prepared equipment wise!§r\n\n[warn]If you already created the line and do not wish to complete the individual quests, hold one of these three item sets in your hand after completing this quest: [/warn]\n\n§4§l- 1 Dense Netherite Plate\n- 64 Intensely Bonded Netherite Nanoparticles\n- 16 Netherite Ingots ",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "etfuturum:ancient_debris"
+      },
+      "isMain:1": 1,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "§c§lBehold: The Netherite Line",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 168326707788926946,
+  "questIDLow:4": -8682800239418763402,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

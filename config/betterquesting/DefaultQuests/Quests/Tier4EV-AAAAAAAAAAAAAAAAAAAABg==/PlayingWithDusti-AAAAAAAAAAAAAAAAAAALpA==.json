@@ -20,7 +20,7 @@
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§a§9§a§9§l§9§a§lPlaying With Dust in EV",
+      "name:8": "§a§lPlaying With Dust in EV",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -66,6 +66,12 @@
           "id:8": "dreamcraft:item.CoinTechnicianII"
         }
       }
+    },
+    "2:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 2,
+      "questID:8": "AAAAAAAAAAAAAAAAAAADAQ\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
     }
   },
   "tasks:9": {

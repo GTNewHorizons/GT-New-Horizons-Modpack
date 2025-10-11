@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "This chip stores the items in a connected inventory. It designates a storage for items that have no other place to go. It is strongly recomended to have a default storage for items in every pipe system, otherwise bad stuff can happen. Best used with a large chest (diamond for example).\n\nIt seems to have some bugs though, so don\u0027t craft more than one without testing it first.\n\nYou might have to just use a normal item responder and add the items you want routed back to your overflow spot.",
+      "desc:8": "This chip stores the items in a connected inventory. It designates a storage for items that have no other place to go. It is strongly recommended to have a default storage for items in every pipe system, otherwise bad stuff can happen. Best used with a large chest (diamond for example).\n\nIt seems to have some bugs though, so don\u0027t craft more than one without testing it first.\n\nYou might have to just use a normal item responder and add the items you want routed back to your overflow spot.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

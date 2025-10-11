@@ -1,0 +1,69 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 2940675302440979885,
+      "questIDLow:4": -8207540231386597249
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "The Superluminal Acceleration card is the fastest AE card that you can use to transfer items or fluids.\n\n[note]Superluminal Acceleration cards can only be placed in:[/note]\n\n§cME IO Port (3)§r\n\nIn an IO Port, the Superluminal Acceleration Card will transfer items at a rate of:\n\n§61x Cards: 33,554,432 items/tick\n2x Cards: 2,147,483,648 items/tick\n3x Cards: 137,438,953,472 items/tick\n\n§rIn an IO Port, the Superluminal Acceleration Card will transfer fluids at a rate of:\n\n§61x Cards: 33,554,432,000 mb/tick\n2x Cards: 2,147,483,648,000 mb/tick\n3x Cards: 137,438,953,472,000 mb/tick\n\n",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 67,
+        "OreDict:8": "",
+        "id:8": "appliedenergistics2:item.ItemMultiMaterial"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Going Superluminal",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -8063482201138183199,
+  "questIDLow:4": -7599953951282587810,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 38,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 67,
+          "OreDict:8": "",
+          "id:8": "appliedenergistics2:item.ItemMultiMaterial"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

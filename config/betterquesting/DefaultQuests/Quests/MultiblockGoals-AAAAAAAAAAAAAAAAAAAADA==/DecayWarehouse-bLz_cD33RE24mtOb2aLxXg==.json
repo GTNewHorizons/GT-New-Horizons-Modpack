@@ -1,0 +1,72 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1480
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "The Decay Warehouse stores a single type of radioactive isotope and allows it to decay over time. \n\nThe decay speed of the isotope is §adependent§r on its half-life.\n\nIsotopes will decay §9regardless§r of whether the warehouse is on or powered. \n\nThe Warehouse\u0027s capacity equals the chest\u0027s capacity divided by §c400§r.\n\nCapacity of the multiblock for each chest:\n\n§6Super Chest I:§r §c10,000\n§6Super Chest II:§r §c20,000\n§6Super Chest III:§r §c40,000\n§6Super Chest IV:§r §c80,000\n§6Super Chest V:§r §c160,000\n§6Quantum Chest I:§r §c320,000\n§6Quantum Chest II:§r §c640,000\n§6Quantum Chest III:§r §c1,280,000\n§6Quantum Chest IV:§r §c2,560,000\n§6Quantum Chest V:§r §c5,368,000§r\n\n[note]Right click the controller with a §aScrewdriver§r to dump stored isotopes into an output bus.\n\nRight click the controller with a §aPlunger§r to empty it. [/note]\n\n[warn]The Warehouse\u0027s contents are §nvoided§r when the controller is broken[/warn]",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 15751,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Decay Warehouse",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 7835418309258855501,
+  "questIDLow:4": -5144566957992644258,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 15751,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 135,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

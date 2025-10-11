@@ -1,0 +1,99 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 168326707788926946,
+      "questIDLow:4": -8682800239418763402
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Netherite Scrap is an integral part of the Netherite refinement process and fortunately you don\u0027t need very much of it. Technically you §nonly need two§r pieces of scrap, as they will constantly cycle from hot to cool while never actually being used up in the process §3(though, having more scrap handy could improve your setup efficiency).§r\n\nYou can obtain Netherite Scrap by either §5smelting§r Ancient Debris or using a §5§lForge Hammer§r on it. Though considering the forge hammer offers a §2§l25%§r chance at gaining an additional scrap, you would be a little crazy to choose the former.\n\nIf you\u0027re wondering where you can find Ancient Debris, try scouring the Nether. It\u0027s more likely to spawn lower near the lava, and is found sporadically like small ores are rather than being in large veins like usual GT ores. §3Miners can also collect it!§r\n\n[warn]If you don\u0027t feel like leaving home, or are lacking blocks within your nether dimension, there is also a §lmeteor§r that can alleviate your Ancient Debris woes.[/warn]",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "etfuturum:netherite_scrap"
+      },
+      "isMain:1": 1,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "§c§lNetherite Scrap",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 5360082876215479986,
+  "questIDLow:4": -7883545633909764694,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 41,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      }
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinAdventureIII"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "etfuturum:ancient_debris"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "etfuturum:netherite_scrap"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

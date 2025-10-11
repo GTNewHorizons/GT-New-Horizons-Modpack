@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "It\u0027s about time to craft something more useful: A sword!\n\nNow that you have a sword, you will get credit for monster kills in the Kill All the Things tab. Watch out, monsters in this world will chew you up and spit you out!\n\nYou can find additional weapon quests on the Getting Around tab.",
+      "desc:8": "It\u0027s about time to craft something more useful: A sword!\n\nNow that you have a sword, you will get credit for monster kills in the Kill All the Things tab. Watch out, monsters in this world will chew you up and spit you out!\n\nYou can find additional weapon quests on the ...Without Dying tab.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -20,7 +20,7 @@
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 1,
-      "name:8": "§1§lMonster Hunter",
+      "name:8": "§9§lMonster Hunter",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

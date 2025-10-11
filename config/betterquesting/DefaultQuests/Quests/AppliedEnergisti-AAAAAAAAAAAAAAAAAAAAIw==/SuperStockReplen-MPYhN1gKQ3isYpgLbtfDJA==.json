@@ -1,0 +1,60 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -5580929755334229399,
+      "questIDLow:4": -6652765312740277196
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2877,
+      "type:1": 1
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "The Super Stock Replenisher is an incredibly useful item, especially for those pesky loop automations!\n\nTo use, put a storage cell in the empty slot (item vs fluid \u0026 type amount do not matter) and you can set up to 63 items \u0026 9 fluids to be stocked by the machine. The total quantity of both items and fluids are determined by the byte size of the storage cell.\n\nWhen an item / fluid is stocked, it will pull it from the ME network it is attached to and those items / fluids will become invisible to your network. You can then use a storage bus to make these items visible to a subnet. Items will not be able to re-enter the block once pulled out.\n\n[note]When an item or fluid is erased from the stocker or when the stocker is broken, everything will return to the network the stocker was attached too, so no need to panic about losing items.[/note]",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "ae2fc:super_stock_replenisher"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Super Stock Replenisher",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 3528043879675347832,
+  "questIDLow:4": -6025086176596606172,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "ae2fc:super_stock_replenisher"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

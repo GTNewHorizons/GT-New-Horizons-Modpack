@@ -104,9 +104,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 128,
-          "Damage:2": 878,
+          "Damage:2": 5878,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores"
+          "id:8": "gregtech:gt.metaitem.03"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -121,9 +121,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 128,
-          "Damage:2": 5878,
+          "Damage:2": 878,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
+          "id:8": "gregtech:gt.blockores"
         }
       },
       "taskID:8": "bq_standard:retrieval"

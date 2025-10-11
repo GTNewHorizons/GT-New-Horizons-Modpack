@@ -1,0 +1,46 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 1169604861435527549,
+      "questIDLow:4": -7429140403958989457
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1148
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Shulker boxes in need of an upgrade? Now that you\u0027re in MV and have access to §dCrystalline Pink Slime§r dust they can be! No need to gather all new shells, there are 9 upgrade items available. They will preserve the inventory of your shulker so there is no need to empty it beforehand.\n\n§lAvailable Upgrades:§r\nVanilla -\u003e Copper\nVanilla -\u003e Iron\nCopper -\u003e Iron\nCopper -\u003e Silver\nIron -\u003e Gold\nSilver -\u003e Gold\nGold -\u003e Diamond\nDiamond -\u003e Crystal\nDiamond -\u003e Obsidian\n\n[note]Hint: You can also use these upgrades to avoid the 50 vis wand requirement of the higher tier shulkers.[/note]\n",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 3,
+        "OreDict:8": "",
+        "id:8": "etfuturum:shulker_box_upgrade"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "§3§lShulker Upgrades",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 7437335273039154651,
+  "questIDLow:4": -6185205082821488463,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

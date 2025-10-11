@@ -1,0 +1,92 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2628
+    },
+    "1:10": {
+      "questIDHigh:4": -730852476632676945,
+      "questIDLow:4": -8284474244884064236
+    },
+    "2:10": {
+      "questIDHigh:4": 8829866191450688815,
+      "questIDLow:4": -8868495820464237601
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "As usual, before you can make use of your Americium to make better wafers, you will need better water. This time, we\u0027re going to use plasma to rapidly heat up the water and then cool it back down.\n\nSome of the mechanics may seem similar to how you set up the pH neutralization process, maybe you can expand on what you learned there?\n\n[note]This multiblock is very picky about where its plasma and coolant input hatches go. If you can\u0027t figure out why it\u0027s not forming, chances are you forgot to place these hatches in the correct location. Use the hologram projector to see where they go.[/note]",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 9408,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
+      },
+      "isMain:1": 1,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Purifying Water With Plasma",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -6574823353161531102,
+  "questIDLow:4": -7613245622972716356,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 9408,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings9"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 11,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings9"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 992,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockframes"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

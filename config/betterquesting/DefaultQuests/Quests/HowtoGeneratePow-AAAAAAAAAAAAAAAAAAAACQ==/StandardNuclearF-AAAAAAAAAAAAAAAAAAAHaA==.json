@@ -18,7 +18,7 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.Naquadahcell",
+        "id:8": "gregtech:gt.rodNaquadah",
         "tag:10": {}
       },
       "isGlobal:1": 0,
@@ -80,7 +80,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.Naquadahcell",
+          "id:8": "gregtech:gt.rodNaquadah",
           "tag:10": {}
         }
       },

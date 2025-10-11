@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The Remote IO Water Reservoir works like the Everfull Urn in that you can pull water out as fast as you can pull it out, but you can use all the sides to do so.\n\nYou can further upgrade it into a reservoir hatch, which can be used as an input hatch directly. Producing massive amounts of distilled water with a DT has never been easier!\n\n§3Maybe those massive amounts of water could be condensed into something useful...",
+      "desc:8": "The Remote IO Water Reservoir works like the Everfull Urn in that you can pull water out as fast as you need. Additionally, you can pull water from any side of the block.\n\nYou can further upgrade it into a reservoir hatch, which can be used as an input hatch directly. Producing massive amounts of distilled water with a DT has never been easier!\n\n§3Maybe those massive amounts of water could be condensed into something useful...",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,

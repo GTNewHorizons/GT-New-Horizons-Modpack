@@ -58,9 +58,9 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 10,
-          "Damage:2": 30640,
-          "OreDict:8": "cellDilutedSulfuricAcid",
+          "Count:3": 30,
+          "Damage:2": 30683,
+          "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"
         },
         "1:10": {
@@ -81,7 +81,7 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 20,
+          "Count:3": 40,
           "Damage:2": 48,
           "OreDict:8": "cellAquaRegia",
           "id:8": "bartworks:gt.bwMetaGeneratedcell"

@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "When breeding together crops for an output crop, try to get crops that are close in tier to the output crop, and have similar attributes to the output crop.\n\nFor example, Redwheat has \"Red\", \"Wheat\" and \"Redstone\" attributes and is tier 6. Netherwart has \"Red\" and is tier 5. Use the cropnalyzer crop prediction mode to see how many points Redwheat has using two Netherwart.\n\nYou\u0027ll also want to make sure the light level is between 5-10 for this particular cross breeding to occur. Honestly, it\u0027s the worst, condition-wise.\n\nReally though, once you get to MV it\u0027s better to make a Glowstone crop and centrifuge it for redstone. Or a redstone block crop. Or just mine it, honestly. Red wheat \u003d\u003d Dead wheat.",
+      "desc:8": "When breeding together crops for an output crop, try to get crops that are close in tier to the output crop, and have similar attributes to the output crop.\n\nFor example, Redwheat has \"Red\", \"Wheat\" and \"Redstone\" attributes and is tier 6. Nether Wart has \"Red\" and is tier 5. Use the cropnalyzer crop prediction mode to see how many points Redwheat has using two Nether Wart.\n\nYou\u0027ll also want to make sure the light level is between 5-10 for this particular cross breeding to occur. Honestly, it\u0027s the worst, condition-wise.\n\nReally though, once you get to MV it\u0027s better to make a Glowstone crop and centrifuge it for redstone. Or a redstone block crop. Or just mine it, honestly. Red wheat \u003d\u003d Dead wheat.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

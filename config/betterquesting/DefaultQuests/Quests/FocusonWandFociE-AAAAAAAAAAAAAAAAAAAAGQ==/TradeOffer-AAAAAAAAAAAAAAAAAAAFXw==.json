@@ -1,0 +1,90 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 227
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Wand Focus: Equal Trade is able to switch out blocks in the world with blocks in the player\u0027s inventory. Shift-right-click on a block to attune the focus to the block. Once attuned to a block, left-click on a single block to replace it with the substitute block. Right-click will transform a contiguous 5x5x5 area of the same block that has air on at least one side. This can go through thin walls or into caves, so be careful. Very useful for upgrading EBF coils or for swapping other blocks that are slow to break like Obsidian! It cannot be used to break or place blocks with Tile Entities like chests.\n\n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]\n§5Frugal§r: Lowers vis cost to cast by 10% per level\n§5Enlarge§r: Expands the maximum range by 1 block in each direction per level\n§5Treasure§r (level 3): Works like vanilla Fortune\n§5Architect§r (level 3): Allows the focus\u0027s working area to be modified with the Misc Wand Toggle keybind. Sneaking with the keybind changes which axes are modified. This upgrade also changes the working area to a plane, so be sure to test this upgrade out before committing to it and applying further upgrades\n§5Silk Touch§r (level 5): Works like vanilla Silk Touch",
+      "globalShare:1": 1,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "Thaumcraft:FocusTrade"
+      },
+      "isGlobal:1": 0,
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Trade Offer",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 1375,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 9,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "OreDict:8": "",
+          "id:8": "Thaumcraft:ItemLootBag"
+        }
+      }
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinDarkWizardI"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "Thaumcraft:FocusTrade"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

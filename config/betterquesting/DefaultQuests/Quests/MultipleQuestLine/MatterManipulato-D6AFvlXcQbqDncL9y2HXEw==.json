@@ -1,0 +1,178 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1680,
+      "type:1": 1
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1493
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "The MKII is the penultimate upgrade in the Matter Manipulator line. This one being much more powerful, storing §210x§r the power, with a range of §2128 Blocks§r, and the ability to place §2256 Blocks/Second§r.\n\nIn addition to all of the MKI features you now unlock §5two powerful new modes§r:\n\n§l- Copy / Paste§r: Copy a selection of blocks and paste it as many times as you\u0027d like. Works best with GT \u0026 AE2.\n\n§l- Move§r: Similar to Copy / Paste, but will physically relocate something already built.\n\nHere is a short list of things that are copied / moved with the MM, the more complete list is on the Readme, but this should give you a general idea of how versatile it is.\n§3§lGregTech:§r\n\n- Pipe/Cable connections\n- Machine color\n- Machine front \u0026 output directions\n- Basic machine settings (auto outputs, etc)\n- Hatch settings (sorting, stack limiting, etc)\n- Multi machine settings (void protection, batch mode, etc)\n- Multi rotation\n- Covers\n- Strong redstone output\n- Custom names\n- Ghost circuits\n- Bus/hatch item/fluid lock\n- Modes (for machines that use the new mode system)\n- Data stick data\n- TecTech machine input parameters\n- ME output bus/hatch capacity\n§3§lAE2:§r\n\n- Any coloring\n- The orientation\n- The configuration\n- The upgrades\n- Custom names\n- Any stored cells (will also automatically configure cells \u0026 install their upgrades)\n- Any patterns (will encode but not decode patterns)\n- Priority Settings\n- P2P Settings\n- OreDict / Regular Filter",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "matter-manipulator:itemMatterManipulator2",
+        "tag:10": {
+          "charge:6": 1.0E9,
+          "config:10": {
+            "blockSelectMode:8": "ALL",
+            "cables:10": {
+              "b:8": "true",
+              "id:1": 0,
+              "m:1": 0
+            },
+            "placeMode:8": "GEOMETRY",
+            "removeMode:8": "ALL",
+            "shape:8": "LINE"
+          },
+          "dv:1": 0,
+          "installedUpgrades:9": {},
+          "jv:1": 0,
+          "upgradeProvidedCapabilities:1": 0
+        }
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "§c§lMatter Manipulator MKII",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 1125906221885047226,
+  "questIDLow:4": -8962793288102717677,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 41,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag",
+          "tag:10": {
+            "ench:9": {
+              "0:10": {
+                "id:2": 35,
+                "lvl:2": 3
+              }
+            }
+          }
+        }
+      }
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnicianIII"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 15,
+          "OreDict:8": "",
+          "id:8": "matter-manipulator:metaitem"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 13,
+          "OreDict:8": "",
+          "id:8": "matter-manipulator:metaitem"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 12,
+          "OreDict:8": "",
+          "id:8": "matter-manipulator:metaitem"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 11,
+          "OreDict:8": "",
+          "id:8": "matter-manipulator:metaitem"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 14,
+          "OreDict:8": "",
+          "id:8": "matter-manipulator:metaitem"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 21,
+          "OreDict:8": "",
+          "id:8": "matter-manipulator:metaitem"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32767,
+          "OreDict:8": "",
+          "id:8": "matter-manipulator:itemMatterManipulator2",
+          "tag:10": {
+            "charge:6": 1.0E9,
+            "config:10": {
+              "blockSelectMode:8": "ALL",
+              "cables:10": {
+                "b:8": "true",
+                "id:1": 0,
+                "m:1": 0
+              },
+              "placeMode:8": "GEOMETRY",
+              "removeMode:8": "ALL",
+              "shape:8": "LINE"
+            },
+            "dv:1": 0,
+            "installedUpgrades:9": {},
+            "jv:1": 0,
+            "upgradeProvidedCapabilities:1": 0
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

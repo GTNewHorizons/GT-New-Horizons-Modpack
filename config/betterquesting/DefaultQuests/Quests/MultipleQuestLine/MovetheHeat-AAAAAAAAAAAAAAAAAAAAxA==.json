@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Reactors heat up, so you need to \"move the heat away\" to somewhere else. Either read a wiki and try to comprehend how these work, or give up and just use the versions on the wiki.",
+      "desc:8": "Heat exchangers are a passive way to pull heat from the reactor or adjacent components and spread it out across a wider area. Their performance is measured in heat units per tick (Hu/t), and there are a few different types that all work slightly differently. [note]Moving heat around is not enough on its own. Heat vents or coolant cells are required to actually dissipate it.[/note]\n\nHeat Exchanger: Pulls 4 Hu/t from the reactor and 12 Hu/t from adjacent components.\n\nAdvanced Heat Exchanger: Pulls 8 Hu/t from the reactor and 24 Hu/t from adjacent components.\n\nReactor Heat Exchanger: Pulls 72 Hu/t from the reactor.\n\nComponent Heat Exchanger: Pulls 36 Hu/t from adjacent components.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

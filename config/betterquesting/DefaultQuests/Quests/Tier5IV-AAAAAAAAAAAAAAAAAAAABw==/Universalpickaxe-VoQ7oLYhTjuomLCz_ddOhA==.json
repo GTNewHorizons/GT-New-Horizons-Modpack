@@ -13,16 +13,13 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "This tool can mine blocks instantly, including GregTech blocks or cables. Using left-click will mine blocks as usual, while enabling accurate mode will allow you to right-click to harvest blocks 1 by 1, while also applying silk touch.\n\n[note]To enable accurate mode press Mode Switch Key + right-click while holding Vajra.[/note]",
+      "desc:8": "This tool can mine blocks instantly, including GregTech blocks or cables. \n\nUsing left-click will mine blocks as usual, right-clicking will harvest blocks 1 by 1. Enabling silk touch will work for both. \n\n[note]To enable silk touch mode Shift+Right Click air while holding the Vajra.[/note]\n\n[warn]If you already have a Vajra built before GTNH version 2.8, you can put it in the crafting grid to swap it to the new version[/warn]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 1,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "GraviSuite:vajra",
-        "tag:10": {
-          "charge:6": 1.0E7
-        }
+        "id:8": "gregtech:gt.Tool_Vajra"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
@@ -72,14 +69,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 27,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "GraviSuite:vajra",
-          "tag:10": {
-            "charge:3": 0,
-            "toolMode:3": 0,
-            "toolXP:6": 0.0
-          }
+          "id:8": "gregtech:gt.Tool_Vajra"
         }
       },
       "taskID:8": "bq_standard:retrieval"

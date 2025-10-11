@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "A small item that can be used to store, copy, and paste settings. Shift-right-click on a configurable object to save the settings onto the memory card, then right-click on any other block of the same type to paste the settings. Shift-right-click on a non-configurable object (or the air) to clear. They are also used to link the input P2P tunnel to the corresponding output P2P tunnels. They can also link Vis Relays to compatible devices.",
+      "desc:8": "A small item that can be used to store, copy, and paste settings. Shift-right-click on a configurable object to save the settings onto the memory card, then right-click on any other block of the same type to paste the settings. Shift-right-click on a non-configurable object (or the air) to clear. They are also used to link the input P2P tunnel to the corresponding output P2P tunnels. They can also link Vis Relays to compatible devices.\n\nIf you\u0027re doing more advanced operations in a large network of P2Ps, it\u0027s recommended you use the advanced memory card. It has a helpful UI that allows you to visualize and set names, inputs, and outputs of P2P tunnels. \n\n[note]Remember P2Ps can only have 1 input! The only exception being fluid P2Ps whose input can function as an output and whose outputs can function as an input.[/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -93,6 +93,27 @@
         }
       },
       "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "betterp2p:advanced_memory_card",
+          "tag:10": {
+            "gui:1": 3,
+            "selectedIndex:10": {}
+          }
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

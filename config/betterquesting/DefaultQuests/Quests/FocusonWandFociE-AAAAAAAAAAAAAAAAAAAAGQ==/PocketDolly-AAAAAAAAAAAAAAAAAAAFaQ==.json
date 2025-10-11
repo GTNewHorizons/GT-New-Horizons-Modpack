@@ -1,0 +1,94 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 238
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1375
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Wand Focus: Dislocation is a very useful focus that allows its user to take and place nearly any block, even Tile Entities and one that usually can\u0027t be moved, like Mob Spawners, planted IC2 Crops, and more.\n\n[warn]Please use responsibly, and don\u0027t move things you shouldn\u0027t, like door halves, or some multiblock parts, unless you like the idea of world corruption destroying your world. That said, if you\u0027re in SP and make a backup, do whatever you want, just know the risks.[/warn]\n\nIt uses:\n5 Ordo + 5 Perditio + 1 Terra to take any mundane block.\n25 Ordo + 25 Perditio + 5 Terra to take any block with a tile entity (such as a Chest).\n100 Ordo + 100 Perditio + 20 Terra to take a Mob Spawner.\n\n[note]This focus accepts the following upgrade in the Focal Manipulator:[/note]\n§5Frugal§r: Lowers vis cost to cast by 10% per level",
+      "globalShare:1": 1,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "ThaumicTinkerer:focusDislocation"
+      },
+      "isGlobal:1": 0,
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Pocket Dolly",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 1385,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 10,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "Thaumcraft:ItemLootBag"
+        }
+      }
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinDarkWizardII"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "ThaumicTinkerer:focusDislocation"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "You can\u0027t just move the heat around, eventually you need to get rid of it. Just like the exchangers, there are different types of vents, each of them has a certain usage. Same as the other quest, either read a wiki and try to comprehend how these work, or give up and just use the versions on the wiki.",
+      "desc:8": "Heat vents are a passive way to remove heat from your reactor. Their performance is measured in heat units per tick (Hu/t), and there are a few different types that all work slightly differently.\n\nThese heat vents simply cool themselves after absorbing heat from adjacent fuel rods and heat exchangers:\n\nHeat Vent: Cools itself by 6 Hu/t\n\nAdvanced Heat Vent: Cools itself by 12 Hu/t\n\nThese heat vents absorb heat and cool themselves much like the ones above, but they also pull heat directly from the reactor core to themselves:\n\nReactor Heat Vent: Cools itself by 5 Hu/t and the reactor by 5 Hu/t\n\nOverclocked Heat Vent: Cools itself by 20 Hu/t and the reactor by 36 Hu/t[note]Since it pulls more heat from the reactor than it dissipates, these are prone to melting if their heat is not balanced by a heat exchanger[/note]\n\nThe Component Heat Vent works differently to the other vents. Rather than absorbing heat and cooling itself or the reactor, it simply cools adjacent components (but not fuel rods) by 4 Hu/t",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

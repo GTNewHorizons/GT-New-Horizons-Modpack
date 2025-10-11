@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "This chip also stores items in connected invetory. It designates a storage for items that are set in the filter of this chip. They do not actively request for items, they only serve as a destination for items to go. You can open up the menu by right-clicking the chip. There you can set which items should it accept and the priority. Items will go to item responders with higher priority first.",
+      "desc:8": "This chip also stores items in connected inventory. It designates a storage for items that are set in the filter of this chip. They do not actively request for items, they only serve as a destination for items to go. You can open up the menu by right-clicking the chip. There you can set which items should it accept and the priority. Items will go to item responders with higher priority first.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

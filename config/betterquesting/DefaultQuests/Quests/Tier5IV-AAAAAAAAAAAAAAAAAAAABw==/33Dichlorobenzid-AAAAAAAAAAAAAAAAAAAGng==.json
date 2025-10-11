@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Mixing 2-nitrochlorbenzene with copper dust gives you 3,3 Dichlorobenzidine in an EV Chemical Reactor.",
+      "desc:8": "Mixing 2-nitrochlorobenzene with copper dust gives you 3,3 Dichlorobenzidine in an EV Chemical Reactor.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -20,7 +20,7 @@
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§c§b§l3,3 Dichlorobenzidine",
+      "name:8": "§b§l3,3 Dichlorobenzidine",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

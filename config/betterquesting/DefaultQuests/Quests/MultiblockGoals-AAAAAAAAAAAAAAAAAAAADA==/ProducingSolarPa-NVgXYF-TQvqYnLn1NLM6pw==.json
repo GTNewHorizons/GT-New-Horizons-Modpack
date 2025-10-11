@@ -1,0 +1,55 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 770
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "[quest]The Solar Factory![/quest]\n\nThe structure has tiers, each of which allow greater production than the previous tier. \n\nRecipes in NEI display the minimum wafer tier required. \nWafer Tiers: \n\n§6Monocrystalline\nPhosphorous\nNaquadah\nEuropium\nAmericium\nPhotonically Prepared\nPhotonically Enhanced§r\n\nMachine parallels are based on Precise Casing Tier:\n\n§6MK-I: §c8x§r\n§6MK-II: §c16x§r\n§6MK-III: §c32x§r\n§6MK-IV: §c64x§r\n\n§lTier §b2:§r\n\n§aSupports Multi-Amp energy hatches§r\n§c25%§r more outputs for every Wafer tier §oabove§r the minimum required.\nThe bonus to outputs occurs after parallels, but §9cannot be greater§r than §c100%§r\nLV-LuV Solar Panels can be made without the previous panel, but at a higher cost.\n\n§lTier §b3:§r\n\n§aSupports Laser Energy hatches§r\nBonus per increased wafer tier is increased to §c50%§r\nZPM-UV Solar Panels can be made without the previous panel, but at a higher cost.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 367,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Producing Solar Panels in BULK!!",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 3843847984648504058,
+  "questIDLow:4": -7449875220775355737,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 367,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

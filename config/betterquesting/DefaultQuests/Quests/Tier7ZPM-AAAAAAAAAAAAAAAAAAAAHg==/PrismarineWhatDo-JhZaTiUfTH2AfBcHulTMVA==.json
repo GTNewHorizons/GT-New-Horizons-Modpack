@@ -1,0 +1,151 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2610
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "§5§lPrismarine§r is an ancient material long rumored to have originated from structures found deep within the ocean. Learning how to create this is extremely important, and may lead to advancements in technology with further exploration into the substrate.\n\nYou can get Prismarine in a few different ways as shown resource-wise by the optional tasks:\n\n§31. Through Botania by transmutating §nNether Quartz§r§3 directly to §nPrismarine§r§3 via an §nAlchemical Catalyst or the Fountain of Alchemy§r\n§r\n§22. Using §nRed Algae Biomass§r§2 and §nCertus Quartz§r §2dust in an §nAutoclave\n§r\n§c3. Using §nRed Algae Biomass§r§c and §nPrismatic Combs§r §cin an §nAutoclave.\n§r\nWhich method you choose is entirely up to you and dependent on what infrastructure you have setup thus-far. Either way you would be wise to make a robust setup as you will be needing a decent amount of Prismarine in the future.\n\n[warn]Hold 16 Naquarite Insulator Foil to skip the Prismarine line Quests.[/warn]",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 10,
+        "OreDict:8": "",
+        "id:8": "Botania:manaResource"
+      },
+      "isMain:1": 1,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Prismarine!? What Do I Need That For?",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 2744480314605653117,
+  "questIDLow:4": -9188443817784325036,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 128,
+          "Damage:2": 10,
+          "OreDict:8": "",
+          "id:8": "Botania:manaResource"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 42,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinChemistIII"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:quartz"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 256,
+          "Damage:2": 4,
+          "OreDict:8": "",
+          "id:8": "miscutils:item.BasicAgrichemItem"
+        },
+        "1:10": {
+          "Count:3": 256,
+          "Damage:2": 2516,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 128,
+          "Damage:2": 4,
+          "OreDict:8": "",
+          "id:8": "miscutils:item.BasicAgrichemItem"
+        },
+        "1:10": {
+          "Count:3": 128,
+          "Damage:2": 170,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.comb"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "3:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 3,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 10,
+          "OreDict:8": "",
+          "id:8": "Botania:manaResource"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

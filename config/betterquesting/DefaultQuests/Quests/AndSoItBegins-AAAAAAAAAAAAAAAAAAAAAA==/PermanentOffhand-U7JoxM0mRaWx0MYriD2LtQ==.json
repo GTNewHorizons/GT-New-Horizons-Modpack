@@ -1,0 +1,56 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 0
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "With the release of version 2.8 of GTNH, the modern offhand slot has been backported and is available for every player. \n\nWith this, we say goodbye to the Battlegear slots of before. The three slots on either side of your hotbar, default key \"G\", are no longer!\n\nThis feature also works with any item that opens a GUI, like a backpack for example. This makes inventory management easier and helps with certain tedious tasks.\n\nDefault Keybind to swap between mainhand and offhand: §9F§r\n\n[warn]Any items that were in the Battlegear slots should return to your inventory or dropped on the ground if your inventory is full.[/warn]\n\n[note]You can also toggle various Torch Tweaks in Backhand\u0027s mod client configs. They are disabled by default, but you may find them useful if you love holding torches in your offhand.[/note]",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:torch"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "§9§lPermanent Offhand!",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 6030998045467231653,
+  "questIDLow:4": -5633785243568862283,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32565,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

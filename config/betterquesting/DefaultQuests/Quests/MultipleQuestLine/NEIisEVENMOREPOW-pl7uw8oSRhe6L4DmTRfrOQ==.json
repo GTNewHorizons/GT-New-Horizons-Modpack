@@ -1,0 +1,56 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1506
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "NEI now automatically collapses similar items into one slot making browsing much faster! To collapse/uncollapse a group use ALT+LMB.\nYou can also create your own presets with custom groups!\n\n[note]You can disable this functionality in NEI settings[/note]\n\nAlso now NEI has JEI-like Advanced Search:\n\n@ - search by mod (@minecraft)\n\n[note]There are even more special characters that you can use but most of them are off by default (e.g. no need to use # to search in tooltip), below are all the special characters, check which ones are on/off in NEI settings.\n\nSpace is used as a logical AND between different conditions\n# - search by tooltip (#UV-Tier)\n\u0026 - search by id: (\u002695:15 extratrees:door)\n$ - search by ore dictionary ($ore)\n% - search by subsets (%block)\n| - logical or. multi-item search (wrench|hammer)\n- - logical not. exclude items that match the following expression (-@minecraft)\n\" - multiple words wrapped in quotes are treated as one condition rather than several (\"White Stained Glass\")\n\nSearch Mode (apply on search parts, not full string):\nPlain - simple string\nExtended - allow only ?, * rules (by default)\nRegex - allow full regex\n\nIn Extended Search Mode:\n? - any character (@min?craft)\n* - any few characters (@m*ft \u003d @minecraft)\nr/.../ - standard java regex (@r/m\\w{6}ft/ \u003d @minecraft)[/note]\n\n[note]You can disable this functionality in NEI settings.[/note]\n\nYou can add bookmarks with the A key while hovering over an item, also:\nHold SHIFT to bookmark the whole recipe\nHold CTRL to bookmark number of items\nHold SHIFT + CTRL to bookmark both recipe and all the number of all the items it contains",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:bookshelf"
+      },
+      "isMain:1": 1,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "§2§lNEI is EVEN MORE POWERFUL NOW?",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -6458462290926483945,
+  "questIDLow:4": -5030660532125308103,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnician"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}
