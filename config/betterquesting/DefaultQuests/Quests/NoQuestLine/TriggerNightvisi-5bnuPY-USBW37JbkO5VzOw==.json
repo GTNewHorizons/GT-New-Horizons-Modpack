@@ -2,28 +2,32 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 1014
+      "questIDLow:4": 753
     },
     "1:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 2463
+      "questIDLow:4": 838
+    },
+    "2:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 775
     }
   },
   "properties:10": {
     "betterquesting:10": {
-      "autoClaim:1": 0,
-      "desc:8": "They work the same as the previous ones, but hold more once you make it into something.",
+      "autoClaim:1": 1,
+      "desc:8": "Skip is here for those who get the goggles in a lootbag",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 57,
+        "Damage:2": 32767,
         "OreDict:8": "",
-        "id:8": "appliedenergistics2:item.ItemMultiMaterial"
+        "id:8": "IC2:itemNightvisionGoggles"
       },
       "isMain:1": 0,
-      "isSilent:1": 0,
+      "isSilent:1": 1,
       "lockedProgress:1": 0,
-      "name:8": "256k Component",
+      "name:8": "Trigger: Nightvision Goggle Skip",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -34,34 +38,20 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 2464,
+  "questIDHigh:4": -1893220220163307499,
+  "questIDLow:4": -5193610363268664517,
   "rewards:9": {
     "0:10": {
-      "ignoreDisabled:1": 0,
+      "ignoreDisabled:1": 1,
       "index:3": 0,
-      "rewardID:8": "bq_standard:item",
-      "rewards:9": {
-        "0:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "dreamcraft:item.EmeraldAdvancedCoreChip"
-        }
-      }
+      "questID:8": "AAAAAAAAAAAAAAAAAAADHA\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
     },
     "1:10": {
-      "ignoreDisabled:1": 0,
+      "ignoreDisabled:1": 1,
       "index:3": 1,
-      "rewardID:8": "bq_standard:item",
-      "rewards:9": {
-        "0:10": {
-          "Count:3": 4,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianII"
-        }
-      }
+      "questID:8": "AAAAAAAAAAAAAAAAAAADHQ\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
     }
   },
   "tasks:9": {
@@ -75,9 +65,12 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 57,
+          "Damage:2": 32767,
           "OreDict:8": "",
-          "id:8": "appliedenergistics2:item.ItemMultiMaterial"
+          "id:8": "IC2:itemNightvisionGoggles",
+          "tag:10": {
+            "charge:6": 200000.0
+          }
         }
       },
       "taskID:8": "bq_standard:retrieval"
