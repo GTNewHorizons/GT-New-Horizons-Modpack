@@ -1,5 +1,7 @@
 {
   "ores": [
+    "etfuturum:honey_block:0:100",
+    "BiomesOPlenty:hive:1:95",
     "Forestry:beehives:1:40",
     "Forestry:beehives:2:40",
     "Forestry:beehives:3:40",
@@ -15,9 +17,7 @@
     "MagicBees:hive:3:20",
     "Forestry:beehives:5:8",
     "MagicBees:hive:4:8",
-    "MagicBees:hive:5:8",
-    "BiomesOPlenty:hive:1:95",
-    "etfuturum:honey_block:0:100"
+    "MagicBees:hive:5:8"
   ],
   "filler": [
     "harvestcraft:beehive:0:80"
