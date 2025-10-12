@@ -1,8 +1,17 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 7533243528826208676,
-      "questIDLow:4": -8177551156102963581
+      "questIDHigh:4": 1169604861435527549,
+      "questIDLow:4": -7429140403958989457
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1148
+    },
+    "2:10": {
+      "questIDHigh:4": 4481115444753288824,
+      "questIDLow:4": -6539628994429995852,
+      "type:1": 1
     }
   },
   "properties:10": {
@@ -95,7 +104,7 @@
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
+      "ignoreNBT:1": 0,
       "index:3": 0,
       "partialMatch:1": 1,
       "requiredItems:9": {
