@@ -1,13 +1,17 @@
 {
   "preRequisites:9": {
     "0:10": {
+      "questIDHigh:4": 1169604861435527549,
+      "questIDLow:4": -7429140403958989457
+    },
+    "1:10": {
       "questIDHigh:4": 3024167477773291144,
       "questIDLow:4": -8876130790529141535,
       "type:1": 1
     },
-    "1:10": {
-      "questIDHigh:4": 7533243528826208676,
-      "questIDLow:4": -8177551156102963581
+    "2:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1148
     }
   },
   "properties:10": {
@@ -29,7 +33,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§6§lObsidian Shulker Box",
-      "questLogic:8": "OR",
+      "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
       "simultaneous:1": 0,
@@ -100,7 +104,7 @@
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
+      "ignoreNBT:1": 0,
       "index:3": 0,
       "partialMatch:1": 1,
       "requiredItems:9": {
