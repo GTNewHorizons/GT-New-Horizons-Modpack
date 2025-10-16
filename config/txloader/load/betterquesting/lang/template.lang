@@ -165,7 +165,7 @@ betterquesting.quest.4g20EVdxSWyOUMhZXkcIWQ.desc=There are many more backpacks: 
 
 # Quest: A Better Furnace!
 betterquesting.quest.5EdKBIyDTYa7xhnSCUZmiQ.name=A Better Furnace!
-betterquesting.quest.5EdKBIyDTYa7xhnSCUZmiQ.desc=Build a Blast Furnace!%n%nEnjoy faster smelting for your metals!
+betterquesting.quest.5EdKBIyDTYa7xhnSCUZmiQ.desc=Build a Blast Furnace!%n%nEnjoy faster smelting for your metals!%n%n[warn]Will not process all items that a regular furnace will. Check NEI for more detail.[/warn]
 
 # Quest: Ready, Set, Go!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAADw.name=§2§lReady, Set, Go!
@@ -1668,7 +1668,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADTg.desc=Oxygen can be made in lots of d
 
 # Quest: Ethylene
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADTw.name=§6§lEthylene
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADTw.desc=You can make ethylene several different ways%n%n- Ethanol and sulfuric acid in a Chemical Reactor%n- Ethanol in a Chemical Dehydrator%n- Distilling various gases (i.e. wood gas) in a Distillery%n- Obtain it from Oil in the Working with Oil tab%n%n[note]You will need much more than 4 cells later on so keep that in mind.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADTw.desc=You can make ethylene several different ways%n%n- Ethanol and sulfuric acid in a Chemical Reactor%n- Ethanol in a Chemical Dehydrator%n- Distilling various gases (i.e. wood gas) in a Distillery%n- Obtain it from Oil in the Working with Oil tab%n%n[note]You will need much more than 12 cells later on so keep that in mind.[/note]
 
 # Quest: Seed Oil
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADUA.name=§6§lSeed Oil
@@ -4240,7 +4240,7 @@ betterquesting.quest.AzTPKiXuRWaBTOFhTeV83Q.desc=An armor set worthy of a God. T
 
 # Quest: Something From Nothing, Part 3?
 betterquesting.quest.BFpBG-zDQSCr3DieB6Cw5g.name=Something From Nothing, Part 3?
-betterquesting.quest.BFpBG-zDQSCr3DieB6Cw5g.desc=Suck up liquids like never before! This module replaces the infinite fluid drilling rig, but has the convenience of being inside your space elevator. Look at the NEI recipes to see which fluids you can pump with this.
+betterquesting.quest.BFpBG-zDQSCr3DieB6Cw5g.desc=Suck up liquids like never before! This module replaces the infinite fluid drilling rig, but has the convenience of being inside your space elevator. Look at the NEI recipes to see which fluids you can pump with this.%n%n[note]Will require MK-II motors on Space Elevator to function.[/note]
 
 # Quest: Infinity Pants
 betterquesting.quest.E851J_UMQl6d9EwLLLg6AQ.name=Infinity Pants
@@ -12525,7 +12525,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABTA.desc=In order to get started with yo
 
 # Quest: Offerings
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABTQ.name=Offerings
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABTQ.desc=For all your offering needs. And of course, it looks fancy!%n%nAn altar is created by placing six altar blocks in a 2x3 pattern or by placing nine altar blocks in a 3x3 pattern.; you will know it's correct when a red cloth appears over the top of the altar.%n%nRight-clicking on it will bring up a screen showing how much power the altar has collected, how much it can collect and its current recharge rate. It is important to check that there is sufficient available power to perform a given rite or use a distillery, or certain kettle or cauldron recipes.%n%nThe maximum amount of power available is determined by how many natural items are in the vicinity of the altar: dirt, grass, trees, plants, etc. all contribute; stone and sand do not. The important thing is to have a diverse mix of different plants, trees and crops (plants from other mods are supported to an extent as well).%n%nCertain objects (or foci) placed on the altar boost its focusing capabilities. This can increase the rate at which the altar replenishes focus, the focus capacity, and the focus range. Only one of each type of item (skull, chalice, etc.) has an effect. There may also be other less savory foci that dark magic practitioners could make use of. %n%n [note]P.S. The 3x3 Altar doesn't provide any practical benefits over its 3x2 counterpart, however enjoy the increased ability to center it within your builds.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABTQ.desc=For all your offering needs. And of course, it looks fancy!%n%nAn altar is created by placing six altar blocks in a 2x3 pattern or by placing nine altar blocks in a 3x3 pattern. You will know it's correct when a red cloth appears over the top of the altar.%n%nRight-clicking on it will bring up a screen showing how much power the altar has collected, how much it can collect and its current recharge rate. It is important to check that there is sufficient available power to perform a given rite or use a distillery, or certain kettle or cauldron recipes.%n%nThe maximum amount of power available is determined by how many natural items are in the vicinity of the altar: dirt, grass, trees, plants, etc. all contribute; stone and sand do not. The important thing is to have a diverse mix of different plants, trees and crops (plants from other mods are supported to an extent as well).%n%nCertain objects (or foci) placed on the altar boost its focusing capabilities. This can increase the rate at which the altar replenishes focus, the focus capacity, and the focus range. Only one of each type of item (skull, chalice, etc.) has an effect. There may also be other less savory foci that dark magic practitioners could make use of. %n%n [note]P.S. The 3x3 Altar doesn't provide any practical benefits over its 3x2 counterpart, however enjoy the increased ability to center it within your builds.[/note]
 
 # Quest: ...Cauldron Bubble
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABTg.name=...Cauldron Bubble
