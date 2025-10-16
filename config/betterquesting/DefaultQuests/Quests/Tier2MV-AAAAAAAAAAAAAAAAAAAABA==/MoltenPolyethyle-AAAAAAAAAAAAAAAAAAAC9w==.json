@@ -94,13 +94,13 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 4,
+          "Count:3": 12,
           "Damage:2": 30677,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"
         },
         "1:10": {
-          "Count:3": 28,
+          "Count:3": 84,
           "Damage:2": 30013,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"
@@ -117,7 +117,7 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 41,
+          "Count:3": 125,
           "Damage:2": 874,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.99"
