@@ -1098,7 +1098,7 @@
 							"value:3": 250
 						}
 					],
-					"fromItems:9": [
+					"nonConsumedItems:9": [
 						{
 							"Count:3": 1,
 							"Damage:3": 3,
@@ -1379,7 +1379,7 @@
 							"value:3": 100
 						}
 					],
-					"fromItems:9": [
+					"nonConsumedItems:9": [
 						{
 							"Count:3": 1,
 							"Damage:2": 0,
@@ -1605,7 +1605,7 @@
 							"value:3": 500
 						}
 					],
-					"fromItems:9": [
+					"nonConsumedItems:9": [
 						{
 							"Count:3": 1,
 							"Damage:3": 0,
@@ -1743,7 +1743,7 @@
 							"value:3": 4
 						}
 					],
-					"fromItems:9": [
+					"nonConsumedItems:9": [
 						{
 							"Count:3": 1,
 							"Damage:3": 1,
@@ -1967,7 +1967,7 @@
 							"value:3": 150
 						}
 					],
-					"fromItems:9": [
+					"nonConsumedItems:9": [
 						{
 							"Count:3": 1,
 							"Damage:3": 1,
@@ -2646,7 +2646,7 @@
 							"value:3": 100
 						}
 					],
-					"fromItems:9": [
+					"nonConsumedItems:9": [
 						{
 							"Count:3": 1,
 							"Damage:3": 0,
@@ -3501,7 +3501,7 @@
 							"value:3": 10
 						}
 					],
-					"fromItems:9": [
+					"nonConsumedItems:9": [
 						{
 							"Count:3": 1,
 							"Damage:3": 2,
@@ -3948,7 +3948,7 @@
 							"value:3": 25
 						}
 					],
-					"fromItems:9": [
+					"nonConsumedItems:9": [
 						{
 							"Count:3": 1,
 							"Damage:3": 0,
@@ -4002,7 +4002,7 @@
 							"value:3": 500
 						}
 					],
-					"fromItems:9": [
+					"nonConsumedItems:9": [
 						{
 							"Count:3": 1,
 							"Damage:3": 0,
@@ -7283,7 +7283,7 @@
 							"value:3": 70
 						}
 					],
-					"fromItems:9": [
+					"nonConsumedItems:9": [
 						{
 							"Count:3": 1,
 							"Damage:3": 8,

@@ -78,6 +78,7 @@ config/WitcheryExtras
 !config/GregTech/Recipes.cfg
 !config/GregTech/WorldGeneration.cfg
 !config/GregTech/Unification.cfg
+!config/NEI/defaultbookmarkcontainers.cfg
 !config/NEI/collapsibleitems.cfg
 !config/NEI/hiddenitems.cfg
 !config/NEI/subsets
