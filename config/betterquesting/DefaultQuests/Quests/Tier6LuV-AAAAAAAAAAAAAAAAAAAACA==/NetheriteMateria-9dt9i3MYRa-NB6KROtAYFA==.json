@@ -3,12 +3,16 @@
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 1212
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2029
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Now that you\u0027ve completed the Netherite line and successfully set up your Mk1 Fusion Reactor, you finally have access to the ingredients necessary for creating all of the different §4Netherite materials§r. \n\nThese will be important for the rest of the game and are used often in a variety of items and materials, so it\u0027s important to make upgrades to your line both in terms of power and recipe usage as you continue to progress through the tiers.\n\n[note]UHV power and the QFT are the biggest milestones in terms of recipe upgrades for the line.[/note]",
+      "desc:8": "Now that you\u0027ve completed the Netherite line and successfully set up your Mk1 Fusion Reactor, you finally have access to §5§lBoron Plasma§r, which is necessary for creating all of the different §4§lNetherite materials§r. \n\nThese will be important for the rest of the game and are used often in a variety of items and materials, so it\u0027s important to make upgrades to your line both in terms of power and recipe usage as you continue to progress through the tiers.\n\n[note]UHV power and the QFT are the biggest milestones in terms of recipe upgrades for the line.[/note]\n\n[warn]You must use a High-Current Industrial (Plasma) Arc Furnace, a regular one isn\u0027t powerful enough.[/warn]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -74,41 +78,12 @@
       "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
-      "index:3": 0,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 1,
-          "Damage:2": 11323,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
-        },
-        "1:10": {
-          "Count:3": 1,
-          "Damage:2": 32246,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
-        },
-        "2:10": {
-          "Count:3": 1,
-          "Damage:2": 31009,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
-        }
-      },
-      "taskID:8": "bq_standard:optional_retrieval"
-    },
-    "1:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
       "index:3": 1,
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 11132,
+          "Damage:2": 31009,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"
         }
