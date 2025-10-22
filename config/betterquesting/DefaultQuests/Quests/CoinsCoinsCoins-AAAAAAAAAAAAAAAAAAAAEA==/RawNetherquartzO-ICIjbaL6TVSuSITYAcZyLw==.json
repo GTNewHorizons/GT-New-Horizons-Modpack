@@ -12,15 +12,15 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 0,
+        "Damage:2": 5522,
         "OreDict:8": "",
-        "id:8": "minecraft:quartz_ore"
+        "id:8": "gregtech:gt.metaitem.03"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Netherquartz Ore Exchange",
+      "name:8": "Raw Netherquartz Ore Exchange",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": 24000,
@@ -32,8 +32,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 2432,
+  "questIDHigh:4": 2315452112214576468,
+  "questIDLow:4": -5888310449509338577,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,

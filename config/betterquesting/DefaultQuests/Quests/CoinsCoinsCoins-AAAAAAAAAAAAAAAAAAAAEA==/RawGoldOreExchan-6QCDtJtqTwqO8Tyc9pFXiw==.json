@@ -2,25 +2,25 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 479
+      "questIDLow:4": 826
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "You can exchange your Stack of GT Nether Quartz Ore / Raw Nether Quartz Ore for vanilla Nether Quartz Ore.",
+      "desc:8": "You can exchange your Stack of GT Gold Ore / Raw Gold Ore for vanilla Gold Ore.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 0,
+        "Damage:2": 5086,
         "OreDict:8": "",
-        "id:8": "minecraft:quartz_ore"
+        "id:8": "gregtech:gt.metaitem.03"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Netherquartz Ore Exchange",
+      "name:8": "Raw Gold Ore Exchange",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": 24000,
@@ -32,8 +32,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 2432,
+  "questIDHigh:4": -1657179851147555062,
+  "questIDLow:4": -8146663606087231605,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -44,7 +44,7 @@
           "Count:3": 64,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "minecraft:quartz_ore"
+          "id:8": "minecraft:gold_ore"
         }
       }
     }
@@ -66,7 +66,7 @@
         },
         "1:10": {
           "Count:3": 64,
-          "Damage:2": 1522,
+          "Damage:2": 86,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockores"
         }
@@ -89,7 +89,7 @@
         },
         "1:10": {
           "Count:3": 64,
-          "Damage:2": 5522,
+          "Damage:2": 5086,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.03"
         }

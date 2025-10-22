@@ -2,25 +2,25 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 479
+      "questIDLow:4": 31
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "You can exchange your Stack of GT Nether Quartz Ore / Raw Nether Quartz Ore for vanilla Nether Quartz Ore.",
+      "desc:8": "You can exchange your Stack of GT Tin Ore / Raw Tin Ore for IC2 Tin Ore.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 0,
+        "Damage:2": 5057,
         "OreDict:8": "",
-        "id:8": "minecraft:quartz_ore"
+        "id:8": "gregtech:gt.metaitem.03"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Netherquartz Ore Exchange",
+      "name:8": "Raw Tin Ore Exchange",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": 24000,
@@ -32,8 +32,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 2432,
+  "questIDHigh:4": 3614899307475259201,
+  "questIDLow:4": -5743099320722310498,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -44,7 +44,7 @@
           "Count:3": 64,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "minecraft:quartz_ore"
+          "id:8": "IC2:blockOreTin"
         }
       }
     }
@@ -66,7 +66,7 @@
         },
         "1:10": {
           "Count:3": 64,
-          "Damage:2": 1522,
+          "Damage:2": 57,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockores"
         }
@@ -89,7 +89,7 @@
         },
         "1:10": {
           "Count:3": 64,
-          "Damage:2": 5522,
+          "Damage:2": 5057,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.03"
         }
