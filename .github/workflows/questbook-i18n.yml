@@ -2,8 +2,7 @@ name: Quest Book I18N
 
 on:
   push:
-    branches:
-      - [ master, release/** ]
+    branches: [ master, release/** ]
     paths:
       - config/betterquesting/DefaultQuests/QuestLinesOrder.txt
       - config/betterquesting/DefaultQuests/QuestLines/*.json
