@@ -8,19 +8,19 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "You can exchange your stack of GT Gold Ore for vanilla Gold Ore.",
+      "desc:8": "You can exchange your stack of Raw Iron Ore for vanilla Iron Ore.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 0,
+        "Damage:2": 5032,
         "OreDict:8": "",
-        "id:8": "minecraft:gold_ore"
+        "id:8": "gregtech:gt.metaitem.03"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Gold Ore Exchange",
+      "name:8": "Raw Iron Ore Exchange",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": 24000,
@@ -32,8 +32,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 2427,
+  "questIDHigh:4": -7409958530292559993,
+  "questIDLow:4": -4634880186865065000,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -44,7 +44,7 @@
           "Count:3": 64,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "minecraft:gold_ore"
+          "id:8": "minecraft:iron_ore"
         }
       }
     }
@@ -54,8 +54,8 @@
       "autoConsume:1": 0,
       "consume:1": 1,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
-      "index:3": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
@@ -66,9 +66,9 @@
         },
         "1:10": {
           "Count:3": 64,
-          "Damage:2": 86,
+          "Damage:2": 5032,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores"
+          "id:8": "gregtech:gt.metaitem.03"
         }
       },
       "taskID:8": "bq_standard:retrieval"

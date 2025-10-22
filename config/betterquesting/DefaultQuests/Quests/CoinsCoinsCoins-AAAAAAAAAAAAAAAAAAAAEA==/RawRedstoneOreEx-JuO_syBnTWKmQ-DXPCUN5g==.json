@@ -2,25 +2,25 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 826
+      "questIDLow:4": 494
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "You can exchange your stack of GT Gold Ore for vanilla Gold Ore.",
+      "desc:8": "You can exchange your stack of Raw Redstone Ore for vanilla Redstone Ore.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 0,
+        "Damage:2": 5810,
         "OreDict:8": "",
-        "id:8": "minecraft:gold_ore"
+        "id:8": "gregtech:gt.metaitem.03"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Gold Ore Exchange",
+      "name:8": "Raw Redstone Ore Exchange",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": 24000,
@@ -32,8 +32,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 2427,
+  "questIDHigh:4": 2802294169218272610,
+  "questIDLow:4": -6466077424942248474,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -44,7 +44,7 @@
           "Count:3": 64,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "minecraft:gold_ore"
+          "id:8": "minecraft:redstone_ore"
         }
       }
     }
@@ -54,8 +54,8 @@
       "autoConsume:1": 0,
       "consume:1": 1,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
-      "index:3": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
@@ -66,9 +66,9 @@
         },
         "1:10": {
           "Count:3": 64,
-          "Damage:2": 86,
+          "Damage:2": 5810,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores"
+          "id:8": "gregtech:gt.metaitem.03"
         }
       },
       "taskID:8": "bq_standard:retrieval"
