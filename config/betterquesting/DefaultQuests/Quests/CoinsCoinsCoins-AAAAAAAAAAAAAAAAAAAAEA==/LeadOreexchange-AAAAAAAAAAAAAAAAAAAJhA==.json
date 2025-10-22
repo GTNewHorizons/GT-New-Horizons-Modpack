@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "You can exchange your Stack of GT Lead Ore / Raw Lead Ore for IC2 Lead Ore.",
+      "desc:8": "You can exchange your stack of GT Lead Ore for IC2 Lead Ore.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -20,7 +20,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Lead Ore exchange",
+      "name:8": "Lead Ore Exchange",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": 24000,
@@ -69,29 +69,6 @@
           "Damage:2": 89,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockores"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "1:10": {
-      "autoConsume:1": 0,
-      "consume:1": 1,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 1,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 50,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinSmith"
-        },
-        "1:10": {
-          "Count:3": 64,
-          "Damage:2": 5089,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
         }
       },
       "taskID:8": "bq_standard:retrieval"
