@@ -19,15 +19,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v5
       - name: Setup Python
-        uses: actions/setup-python@v3
+        uses: actions/setup-python@v6
         with:
           python-version: '3.10'
       - name: Generate Quest Book I18N Files
         run: python .github/scripts/questbook-i18n.py
       - name: Create PR
-        uses: peter-evans/create-pull-request@v4.0.0
+        uses: peter-evans/create-pull-request@v7
         with:
           title: Update Quest Book I18N
           body: Automated changes by Quest Book I18N workflow.
