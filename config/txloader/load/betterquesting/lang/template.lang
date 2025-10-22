@@ -13514,6 +13514,14 @@ betterquesting.quest.z6Xaal6yTVi4fqEFCChoGg.desc=The Stray is a variety of Skele
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAEA.name=Coins, Coins, Coins
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAEA.desc=These quests will give you something to use your Coins on. So come on in and buy some useful or fancy stuff.
 
+# Quest: Raw Copper Ore Exchange
+betterquesting.quest.4pqjjXlTSE6txFNXxiv9rA.name=Raw Copper Ore Exchange
+betterquesting.quest.4pqjjXlTSE6txFNXxiv9rA.desc=You can exchange your stack of Raw Copper Ore for IC2 Copper Ore.
+
+# Quest: Raw Gold Ore Exchange
+betterquesting.quest.6QCDtJtqTwqO8Tyc9pFXiw.name=Raw Gold Ore Exchange
+betterquesting.quest.6QCDtJtqTwqO8Tyc9pFXiw.desc=You can exchange your stack of Raw Gold Ore for vanilla Gold Ore.
+
 # Quest: Ethanol
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD0A.name=Ethanol
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD0A.desc=Want some ethanol? Buy some!
@@ -14102,9 +14110,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIaA.desc=Truly the fuel of idiots!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ9g.name=Enderman Head
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ9g.desc=Want some enderman heads? Buy some!
 
-# Quest: Iron Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJKQ.name=Iron Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJKQ.desc=You can exchange your Stack of GT Iron Ore / Raw Iron Ore for vanilla Iron Ore.
+# Quest: Iron Ore Exchange
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJKQ.name=Iron Ore Exchange
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJKQ.desc=You can exchange your stack of GT Iron Ore for vanilla Iron Ore.
 
 # Quest: Indium Dust
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJUg.name=Indium Dust
@@ -14126,45 +14134,45 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJYA.desc=Normally you find Steadfast dro
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJYQ.name=Monastic Bees
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJYQ.desc=Normally you find Monastic drones by trading with Beekeeper villagers. If you haven't been lucky yet, your villages are all dead, or if your server owners are cruel and disable villages, you can buy some here.%n%n[note]It's expensive to encourage you to try looking really hard, and to try and heal zombie villagers. Good luck![/note]
 
-# Quest: Gold Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJew.name=Gold Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJew.desc=You can exchange your Stack of GT Gold Ore / Raw Gold Ore for vanilla Gold Ore.
+# Quest: Gold Ore Exchange
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJew.name=Gold Ore Exchange
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJew.desc=You can exchange your stack of GT Gold Ore for vanilla Gold Ore.
 
-# Quest: Coal Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJfA.name=Coal Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJfA.desc=You can exchange your Stack of GT Coal Ore / Raw Coal Ore for vanilla Coal Ore.
+# Quest: Coal Ore Exchange
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJfA.name=Coal Ore Exchange
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJfA.desc=You can exchange your stack of GT Coal Ore for vanilla Coal Ore.
 
-# Quest: Lapis Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJfQ.name=Lapis Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJfQ.desc=You can exchange your Stack of GT Lapis Ore / Raw Lapis Ore for vanilla Lapis Ore.
+# Quest: Lapis Ore Exchange
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJfQ.name=Lapis Ore Exchange
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJfQ.desc=You can exchange your stack of GT Lapis Ore for vanilla Lapis Ore.
 
-# Quest: Diamond Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJfg.name=Diamond Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJfg.desc=You can exchange your Stack of GT Diamond Ore / Raw Diamond Ore for vanilla Diamond Ore.
+# Quest: Diamond Ore Exchange
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJfg.name=Diamond Ore Exchange
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJfg.desc=You can exchange your stack of GT Diamond Ore for vanilla Diamond Ore.
 
-# Quest: Redstone Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJfw.name=Redstone Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJfw.desc=You can exchange your Stack of GT Redstone Ore / Raw Redstone Ore for vanilla Redstone Ore.
+# Quest: Redstone Ore Exchange
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJfw.name=Redstone Ore Exchange
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJfw.desc=You can exchange your stack of GT Redstone Ore for vanilla Redstone Ore.
 
-# Quest: Netherquartz Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJgA.name=Netherquartz Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJgA.desc=You can exchange your Stack of GT Nether Quartz Ore / Raw Nether Quartz Ore for vanilla Nether Quartz Ore.
+# Quest: Netherquartz Ore Exchange
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJgA.name=Netherquartz Ore Exchange
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJgA.desc=You can exchange your stack of GT Nether Quartz Ore for vanilla Nether Quartz Ore.
 
-# Quest: Copper Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJgQ.name=Copper Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJgQ.desc=You can exchange your Stack of GT Copper Ore / Raw Copper Ore for IC2 Copper Ore.
+# Quest: Copper Ore Exchange
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJgQ.name=Copper Ore Exchange
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJgQ.desc=You can exchange your stack of GT Copper Ore for IC2 Copper Ore.
 
-# Quest: Tin Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJgg.name=Tin Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJgg.desc=You can exchange your Stack of GT Tin Ore / Raw Tin Ore for IC2 Tin Ore.
+# Quest: Tin Ore Exchange
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJgg.name=Tin Ore Exchange
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJgg.desc=You can exchange your stack of GT Tin Ore for IC2 Tin Ore.
 
-# Quest: Uranium Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJgw.name=Uranium Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJgw.desc=You can exchange your Stack of GT Uranium Ore / Raw Uranium Ore for IC2 Uranium Ore.
+# Quest: Uranium Ore Exchange
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJgw.name=Uranium Ore Exchange
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJgw.desc=You can exchange your stack of GT Uranium Ore for IC2 Uranium Ore.
 
-# Quest: Lead Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJhA.name=Lead Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJhA.desc=You can exchange your Stack of GT Lead Ore / Raw Lead Ore for IC2 Lead Ore.
+# Quest: Lead Ore Exchange
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJhA.name=Lead Ore Exchange
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJhA.desc=You can exchange your stack of GT Lead Ore for IC2 Lead Ore.
 
 # Quest: Holo Glasses
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJhg.name=Holo Glasses
@@ -14198,9 +14206,37 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKtw.desc=Finally, a use for those bloody
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALYQ.name=Sticky Matter
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALYQ.desc=Can't find any Rubber Trees? Can't build a water tank? Too lazy to make a tree tap? Buy a stack of sticky resin for some coins.
 
+# Quest: Raw Uranium Ore Exchange
+betterquesting.quest.BROwnPTiTWC2lhdY6Eenng.name=Raw Uranium Ore Exchange
+betterquesting.quest.BROwnPTiTWC2lhdY6Eenng.desc=You can exchange your stack of Raw Uranium Ore for IC2 Uranium Ore.
+
 # Quest: Shulker
 betterquesting.quest.C8FHZDizTnax3tt7HvnkBw.name=Shulker
 betterquesting.quest.C8FHZDizTnax3tt7HvnkBw.desc=I would carry out this battle indoors if I were you...
+
+# Quest: Raw Netherquartz Ore Exchange
+betterquesting.quest.ICIjbaL6TVSuSITYAcZyLw.name=Raw Netherquartz Ore Exchange
+betterquesting.quest.ICIjbaL6TVSuSITYAcZyLw.desc=You can exchange your stack of Raw Nether Quartz Ore for vanilla Nether Quartz Ore.
+
+# Quest: Raw Redstone Ore Exchange
+betterquesting.quest.JuO_syBnTWKmQ-DXPCUN5g.name=Raw Redstone Ore Exchange
+betterquesting.quest.JuO_syBnTWKmQ-DXPCUN5g.desc=You can exchange your stack of Raw Redstone Ore for vanilla Redstone Ore.
+
+# Quest: Raw Tin Ore Exchange
+betterquesting.quest.MiqzxIDeT0GwTGmYlo86ng.name=Raw Tin Ore Exchange
+betterquesting.quest.MiqzxIDeT0GwTGmYlo86ng.desc=You can exchange your stack of Raw Tin Ore for IC2 Tin Ore.
+
+# Quest: Raw Lead Ore Exchange
+betterquesting.quest.Rtbsz4XBSq2gg3KM4eyg7A.name=Raw Lead Ore Exchange
+betterquesting.quest.Rtbsz4XBSq2gg3KM4eyg7A.desc=You can exchange your stack of Raw Lead Ore for IC2 Lead Ore.
+
+# Quest: Raw Coal Ore Exchange
+betterquesting.quest.UfqhH_YFR4mUCSIUAFvaEg.name=Raw Coal Ore Exchange
+betterquesting.quest.UfqhH_YFR4mUCSIUAFvaEg.desc=You can exchange your stack of Raw Coal Ore for vanilla Coal Ore.
+
+# Quest: Raw Lapis Ore Exchange
+betterquesting.quest.VjIdDoz-QLeLZVVDu1QXLg.name=Raw Lapis Ore Exchange
+betterquesting.quest.VjIdDoz-QLeLZVVDu1QXLg.desc=You can exchange your stack of Raw Lapis Ore for vanilla Lapis Ore.
 
 # Quest: Having trouble finding Botania mushrooms?
 betterquesting.quest.ZW-P5BllSP25hEBQTgEBQQ.name=Having trouble finding Botania mushrooms?
@@ -14218,9 +14254,17 @@ betterquesting.quest.b8oLtR7SS86ItajFCriChw.desc=Want some SMD inductors? Buy so
 betterquesting.quest.beN48jZMRCqH2QGlTH7nTg.name=TNT and iTNT
 betterquesting.quest.beN48jZMRCqH2QGlTH7nTg.desc=Want some TNT or iTNT? Buy some!
 
+# Quest: Raw Diamond Ore Exchange
+betterquesting.quest.jUp1K4QFQaOvMNK7B4wTnA.name=Raw Diamond Ore Exchange
+betterquesting.quest.jUp1K4QFQaOvMNK7B4wTnA.desc=You can exchange your stack of Raw Diamond Ore for vanilla Diamond Ore.
+
 # Quest: Blaze Rods
 betterquesting.quest.la9w2qsKRhSIm-9-4cnWwg.name=Blaze Rods
 betterquesting.quest.la9w2qsKRhSIm-9-4cnWwg.desc=Want some blaze rods? Buy some!
+
+# Quest: Raw Iron Ore Exchange
+betterquesting.quest.mSqJ-fGJT4e_rZkG1Wlj2A.name=Raw Iron Ore Exchange
+betterquesting.quest.mSqJ-fGJT4e_rZkG1Wlj2A.desc=You can exchange your stack of Raw Iron Ore for vanilla Iron Ore.
 
 
 ### Quests in multiple quest lines ###
