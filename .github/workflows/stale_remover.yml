@@ -9,7 +9,7 @@ jobs:
   stale_remover:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/github-script@v7
+    - uses: actions/github-script@v8
       id: label-script
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
