@@ -991,7 +991,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACGg.desc=Macerating ores usually doubles
 
 # Quest: Round and Round and Round...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACGw.name=§5§lRound and Round and Round...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACGw.desc=After purification of your ore dust, you can centrifuge it to get even more byproducts out of the dust. On top of that, you can process many items into their more useful byproducts with this machine, such as Sticky Resin and Brick Dust.%n%nIt's always useful to check NEI for Centrifuge and Electrolyzer recipes for any item/fluid you may need. It might just be that you can get that from stuff you already have in your base!%n%n[note]Use the checkbox if you rather use the steam multiblock.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACGw.desc=After purification of your ore dust, you can centrifuge it to get even more byproducts out of the dust. On top of that, you can process many items into their more useful byproducts with this machine, such as Sticky Resin and Brick Dust.%n%nIt's always useful to check NEI for Centrifuge and Electrolyzer recipes for any item/fluid you may need. It might just be that you can get that from stuff you already have in your base!
 
 # Quest: A Truly Sharp Saw Blade
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACHA.name=§5§lA Truly Sharp Saw Blade
@@ -3817,7 +3817,7 @@ betterquesting.quest.fVoSLYPcSmKd-gLhBJHK9A.desc=Finally, you can combine the §
 
 # Quest: Prismarine Precipitate
 betterquesting.quest.fc7Q6J-BThCf_NbvM0ki2Q.name=Prismarine Precipitate
-betterquesting.quest.fc7Q6J-BThCf_NbvM0ki2Q.desc=After creating the §2Prismarine-Rich Nitrobenzene Solution§r, you'll need to process it using a §5§lChemical Plant§r with §2Strontium Hydroxide§r. Once processed, you can successfully obtain your first §3Prismarine Precipitate§r.%n%n[warn]The Strontium is completely recyclable within the line, so no need to worry about it's continuous injection.[/warn]
+betterquesting.quest.fc7Q6J-BThCf_NbvM0ki2Q.desc=After creating the §2Prismarine-Rich Nitrobenzene Solution§r, you'll need to process it using a §5§lChemical Plant§r with §2Strontium Hydroxide§r. Once processed, you can successfully obtain your first §3Prismarine Precipitate§r.%n%n[warn]The Strontium is completely recyclable within the line, so no need to worry about it's continuous injection.[/warn]%n%n[note]If you have not gotten Strontium yet, you can obtain it from Strontium Oxide based on Rare Earth 3 or from Spessartine Froth.[/note]
 
 # Quest: Prismarine Recycling
 betterquesting.quest.kWoNH5tTQX2VIFmkui4YKA.name=Prismarine Recycling
@@ -4139,7 +4139,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKnQ.desc=To make the next tier plastic, 
 
 # Quest: Optical SMDs
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkA.name=Optical SMDs
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkA.desc=You can now make optical SMDs! They are required for all circuits beyond UEV.%n%nSome of the materials are made in the ABS. Maybe it's time to add a few.%n%n[note]If you have not gotten any strontium yet, you can obtain it from strontium oxide based on Rare Earth 3, from spessartine froth or from a Deep Dark void miner.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkA.desc=You can now make optical SMDs! They are required for all circuits beyond UEV.%n%nSome of the materials are made in the ABS. Maybe it's time to add a few.
 
 # Quest: Wait, PBI wasn't the last plastic?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsQ.name=Wait, PBI wasn't the last plastic?
@@ -6661,7 +6661,7 @@ betterquesting.quest.isBmh7T0Sr63O2m5N4pCIQ.desc=Now that you've reached ZPM, yo
 
 # Quest: Digging Deep for Water
 betterquesting.quest.jreOZVXRQa2sGXViV7-3Gg.name=§6§lDigging Deep for Water
-betterquesting.quest.jreOZVXRQa2sGXViV7-3Gg.desc=Is the Water Tank not cutting it anymore? Have you set up in a dry biome and are in desperate need of more water? Fear not, for the Steam Water Pump can solve your issues! This Multiblock is able to produce large amounts of Water if fed with Steam (1500L/s).%n%nLike other Steam Multiblocks, it can be upgraded by using Steel Frame Boxes instead of Bronze ones, which doubles the Water output at no additional Steam cost.%n%n§4It is, however, still dependent on how humid the Biome you are in is, so keep that in mind.§r%n%n[note]P.S. The optional quest item count includes the cost for the controller. [/note]
+betterquesting.quest.jreOZVXRQa2sGXViV7-3Gg.desc=Is the Water Tank not cutting it anymore? Have you set up in a dry biome and are in desperate need of more water? Fear not, for the Steam Water Pump can solve your issues! This Multiblock is able to produce large amounts of Water if fed with Steam (1500L/s).%n%nLike other Steam Multiblocks, it can be upgraded by using Steel Frame Boxes instead of Bronze ones, which doubles the Water output at no additional Steam cost.%n%n§4It is, however, still dependent on how humid the Biome you are in is, so keep that in mind.§r%n%n§9Hint: You can find small lead ore in the Nether!§r%n%n[note]P.S. The optional quest item count includes the cost for the controller. [/note]
 
 # Quest: UMV Glass
 betterquesting.quest.m5N5Q9QEREyzF1B4eObk0Q.name=§6§lUMV Glass
