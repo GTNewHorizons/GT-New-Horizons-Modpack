@@ -17,7 +17,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The portable equivalent of the Obsidian Barrel that retains it\u0027s explosion-proof qualities.\n\nHas §n108§r slots.\n\n[note]Can be Dyed![/note]",
+      "desc:8": "The portable equivalent of the Obsidian Barrel that retains it\u0027s explosion-proof qualities.\n\nHas §n108§r slots.\n\n[note]Can be dyed![/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -64,15 +64,7 @@
           "Count:3": 1,
           "Damage:2": 9,
           "OreDict:8": "",
-          "id:8": "enhancedlootbags:lootbag",
-          "tag:10": {
-            "ench:9": {
-              "0:10": {
-                "id:2": 35,
-                "lvl:2": 3
-              }
-            }
-          }
+          "id:8": "enhancedlootbags:lootbag"
         }
       },
       "ignoreDisabled:1": 0,
