@@ -8,7 +8,7 @@ jobs:
   stale_closer:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/stale@v8
+    - uses: actions/stale@v10
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         close-issue-message: 'Closing this issue because it has been stale with no responses for over 7 days.'
