@@ -17,7 +17,7 @@ jobs:
     steps:
       - name: Parse issue
         id: parse
-        uses: onmax/issue-form-parser@v1.4
+        uses: onmax/issue-form-parser@v1.6
         with:
           issue_number: ${{ github.event_name == 'workflow_dispatch' && inputs.issue_number || github.event.issue.number }}
       - name: Annotate issue
@@ -27,7 +27,7 @@ jobs:
           formdata: ${{ steps.parse.outputs.payload }}
       - name: Post comment
         if: ${{ steps.annotate.outputs.comments != ''}}
-        uses: peter-evans/create-or-update-comment@v4.0.0
+        uses: peter-evans/create-or-update-comment@v5.0.0
         with:
           body: ${{ steps.annotate.outputs.comments }}
           issue-number: ${{ github.event_name == 'workflow_dispatch' && inputs.issue_number || github.event.issue.number }}
