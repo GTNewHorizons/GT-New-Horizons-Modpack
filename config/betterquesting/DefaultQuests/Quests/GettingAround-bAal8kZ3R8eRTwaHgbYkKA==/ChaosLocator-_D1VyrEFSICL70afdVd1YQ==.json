@@ -12,7 +12,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "This device is fashioned to greatly accelerate the hunt for chaos shards, by teleporting you straight to them! \n\nSimply enter any number from -1000 to 1000 in the coordinate fields and you will be teleported directly to a chaos island, even across dimensions. \nHow convenient!\n\n[note]You will still have to fight the chaos guardian though, this isn\u0027t a cosmic superweapon.[/note]\n\n",
+      "desc:8": "This device is fashioned to greatly accelerate the hunt for chaos shards, by teleporting you straight to them! \n\nSimply enter any number from -1000 to 1000 in the coordinate fields, click the button and you will be teleported directly to a chaos island, even across dimensions. \nHow convenient!\n\n[note]You will still have to fight the chaos guardian though, this isn\u0027t a cosmic superweapon.[/note]\n\n",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
