@@ -466,7 +466,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAEA.desc=Storing more than 16 buckets of
 
 # Quest: Welcome to Tier 0.5, Steam!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAALA.name=§3§lWelcome to Tier 0.5, Steam!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAALA.desc=Welcome, and well done so far! This tier is all about your first machines, getting more stuff from your ores and making bronze ingots in a more efficient manner.%n%nFor water, check out the Water Siding Tank multiblock in the Multiblock goals tab.%n%nTo connect up your boilers, be sure to provide water from the bottom, they'll accept only water from this side, so no risk of melting your pipe. Wooden pipes are fine for this. Make sure you never run out of water - [warn]adding water to a dry hot boiler will cause it to explode![/warn]%n%nSteam will come out from the sides. Remember, steam is hot! It will destroy wooden pipes. And it can burn you if you walk on bronze pipes full of steam. Cover them with wooden planks or paper. Or just don't walk on/next to them.%n%nAnd no, you can't automate it. Make an electric one if you want to do that.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAALA.desc=Welcome, and well done so far! This tier is all about your first machines, getting more stuff from your ores and making bronze ingots in a more efficient manner.%n%nFor water, check out the Water Tank multiblock in the §9"Water Dilemma"§r quest. (Multiblock Goals tab)%n%nTo connect up your boilers, be sure to provide water from the bottom, they'll accept only water from this side, so no risk of melting your pipe. Wooden pipes are fine for this. Make sure you never run out of water - [warn]adding water to a dry hot boiler will cause it to explode![/warn]%n%nSteam will come out from the sides. Remember, steam is hot! It will destroy wooden pipes. And it can burn you if you walk on bronze pipes full of steam. Cover them with wooden planks or paper. Or just don't walk on/next to them.%n%nAnd no, you can't automate it. Make an electric one if you want to do that.
 
 # Quest: More Advanced Alloys
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAALg.name=§3§lMore Advanced Alloys
@@ -5306,6 +5306,10 @@ betterquesting.quest.SxCNz5_RSym0Q-uKaG2JRA.desc=They have limited durability. S
 # Quest: Planar Gateways
 betterquesting.quest.U6wfKJSxTiyYvcz-f-76EA.name=Planar Gateways
 betterquesting.quest.U6wfKJSxTiyYvcz-f-76EA.desc=A planar gateway from Thaumic Horizons lets you travel to a pocket dimension. Setting up multiple gateways (up to 4) to the pocket dimension even allows for travel to other dimensions!
+
+# Quest: Chaos Locator
+betterquesting.quest._D1VyrEFSICL70afdVd1YQ.name=Chaos Locator
+betterquesting.quest._D1VyrEFSICL70afdVd1YQ.desc=This device is fashioned to greatly accelerate the hunt for chaos shards, by teleporting you straight to them! %n%nSimply enter any number from -1000 to 1000 in the coordinate fields, click the button and you will be teleported directly to a chaos island, even across dimensions. %nHow convenient!%n%n[note]You will still have to fight the chaos guardian though, this isn't a cosmic superweapon.[/note]%n%n
 
 # Quest: Speed up with the Sash
 betterquesting.quest.aXAQD7T1SnGCAu0L4iV64w.name=Speed up with the Sash
@@ -14375,7 +14379,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADJw.desc=For your quantum armor you need
 
 # Quest: Your First Bow
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADXg.name=§2§lYour First Bow
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADXg.desc=Since vanilla bows are only craftable in the assembling machine and mobs don't drop them very often you should make a Tinkers bow.%n%nWood would be the best material for now. Craft the bow limbs out of wood and the bow string out of strings. The arrow that has the most durability is bone, so craft the stick out of bone. It is much lighter but less durable than a regular arrow. Use a flint tip to make it repairable with flint.%n%nYou can repair your bow the same way as all the other Tinkers tools. The arrows can be regained by repairing them or picking them up from the floor. The arrows should be in your inventory if you want to pick up the ones you fired. You can't pick them up if they are in Battlegear slots.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADXg.desc=Since vanilla bows are only craftable in the assembling machine and mobs don't drop them very often you should make a Tinkers bow.%n%nWood would be the best material for now. Craft the bow limbs out of wood and the bow string out of strings. The arrow that has the most durability is bone, so craft the stick out of bone. It is much lighter but less durable than a regular arrow. Use a flint tip to make it repairable with flint.%n%nYou can repair your bow the same way as all the other Tinkers tools. The arrows can be regained by repairing them or picking them up from the floor. The arrows should be in your inventory if you want to pick up the ones you fired.
 
 # Quest: Bronze Javelin
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADXw.name=§2§lBronze Javelin
