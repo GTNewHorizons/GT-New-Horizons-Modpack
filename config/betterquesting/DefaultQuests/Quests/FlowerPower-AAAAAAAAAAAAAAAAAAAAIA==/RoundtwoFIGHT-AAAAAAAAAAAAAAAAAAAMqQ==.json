@@ -75,7 +75,7 @@
           "id:8": "Botania:manaResource"
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:optional_retrieval"
     },
     "1:10": {
       "autoConsume:1": 0,
