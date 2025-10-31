@@ -389,7 +389,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFxA.desc=This knife is not going to work
 
 # Quest: Rare Ores
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGCg.name=§2§lRare Ores
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGCg.desc=Did you look for days to find Diamonds, Redstone, Tantalite, Certus Quartz, or Mica?%n%nWell for a few mixes you can use different ores like Coal for Diamond Vein or Quarzite Ore for Certus Quartz Vein. Mica ore mix can be found if you have Cassiterite Ore, but not the Cassiterite Sand.%n%nTetrahedrite in the nether can be found with copper ore.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGCg.desc=Did you look for days to find Diamonds, Redstone, Tantalite, Certus Quartz, or Mica?%n%nWell for a few mixes you can use different ores like Coal for Diamond Vein or Quartzite Ore for Certus Quartz Vein. Mica ore mix can be found if you have Cassiterite Ore, but not the Cassiterite Sand.%n%nTetrahedrite in the nether can be found with copper ore.
 
 # Quest: Wooden Door
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAG_g.name=§2§lWooden Door
@@ -3404,7 +3404,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKKA.desc=To make the Circuit Assembly Li
 
 # Quest: Imprints, They're Important
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKKg.name=§c§lImprints, They're Important
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKKg.desc=Now that you've finally gotten all the materials to make your imprints, you can make them as you get your new circuits. You'll need to slice the circuits for the imprint in either a tier-appropriate slicing machine, or the Cutting Factory in slicing mode.%n%nTo use the imprints, place them in the CAL controller's item slot. The CAL will be imprinted once you turn it on. You can see what it's imprinted with by using a portable scanner on the controller. You can also swap out controllers if you're too lazy to make more CALs.%n%n[note]If you already have an imprint for an earlier version of a recipe, you don't need to make another, it works with both recipes.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKKg.desc=Now that you've finally gotten all the materials to make your imprints, you can make them as you get your new circuits. You'll need to slice the circuits for the imprint in a Cutting Machine using a Slicer Blade.%n%nTo use the imprints, place them in the CAL controller's item slot. The CAL will be imprinted once you turn it on. You can see what it's imprinted with by using a portable scanner on the controller. You can also swap out controllers if you're too lazy to make more CALs.%n%n[note]If you already have an imprint for an earlier version of a recipe, you don't need to make another, it works with both recipes.[/note]
 
 # Quest: Fetching Tellurium
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKKw.name=§c§lFetching Tellurium
@@ -11716,7 +11716,7 @@ betterquesting.quest.ad_fPxg-ThqyyuppTrG1gQ.desc=One such improvement is the Adv
 
 # Quest: Understanding Wand Progression
 betterquesting.quest.bfrxXr1iSpGQS8iV95nJeA.name=Understanding Wand Progression
-betterquesting.quest.bfrxXr1iSpGQS8iV95nJeA.desc=More advanced Thaumcraft recipes require larger and larger amounts of vis that your initial wands can't handle. You need to progress bit by bit to increase your capabilities. The progression is two-fold:%n%nFirst, you need to craft more advanced wands, the Greatwood Wand is next. And secondly, you need to improve your crafting discounts. They reduce the vis cost of crafts and thus also let you craft higher vis recipes.%n%nIn your progression you will need to rely on both aspects. Better wands and higher discounts. However, as you progress, there are many different ways on how to proceed. Some ways focus more on discounts, others more on wands. Therefore, the questbook can only give you some general advice.%n%nFor example, when making a new wand type, it is always cheapest to first make it with iron caps and then try to improve it afterwards. However, if you are able to obtain enough discounts you can directly make the wand with gold caps or better, skipping the iron capped wand.%n%nBut before all these options really open up, let us work on that Greatwood Wand!
+betterquesting.quest.bfrxXr1iSpGQS8iV95nJeA.desc=More advanced Thaumcraft recipes require larger and larger amounts of vis that your initial wands can't handle. You need to progress bit by bit to increase your capabilities. The progression is two-fold:%n%nFirst, you need to craft more advanced wands, the Greatwood Wand is next. And secondly, you need to improve your crafting discounts. They reduce the vis cost of crafts and thus also let you craft higher vis recipes.%n%nIn your progression you will need to rely on both aspects. Better wands and higher discounts. However, as you progress, there are many different ways on how to proceed. Some ways focus more on discounts, others more on wands. Therefore, the questbook can only give you some general advice.%n%nFor example, when making a new wand type, it is always cheapest to first make it with iron caps and then try to improve it afterwards. One way you can improve your wand is by swapping the cores & caps for higher tiers as you unlock them §3(see "Substitution" research)§r. However, if you are able to obtain enough discounts you can directly make the wand with gold caps or better, skipping the iron capped wand altogether.%n%nBut before all these options really open up, let us work on that Greatwood Wand!
 
 # Quest: Essentia Storage
 betterquesting.quest.cbv93MoJQESfsccTQMCwUA.name=Essentia Storage
@@ -11885,7 +11885,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABLA.desc=As you do more and more infusio
 
 # Quest: One Does Not Simply...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABLQ.name=One Does Not Simply...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABLQ.desc=...play with magic. Be warned, these fires are very dangerous! But who doesn't want a patch of snow in the nether?%n%nFire spread is disabled in the configs of servers to prevent massive lag and world destruction.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABLQ.desc=...play with magic. Be warned, these fires are very dangerous! But who doesn't want a patch of snow in the nether?%n%n[warn]Fire spread can be disabled in the configs of servers to prevent massive lag and world destruction.[/warn]
 
 # Quest: Pushing the Limits
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABLw.name=Pushing the Limits
