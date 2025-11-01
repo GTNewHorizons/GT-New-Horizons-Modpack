@@ -9318,7 +9318,36 @@
 					]
 				}
 			]
-		}
+		},
+		{
+            "category:8": "misc",
+            "cooldown:3": -1,
+			"id:10": {
+				"tradeGroupIDHigh:4": 1111111,
+				"tradeGroupIDLow:4": -222222222
+			},
+            "maxTrades:3": 1,
+            "requirements:9": [],
+            "trades:9": [
+                {
+				"displayItem:10": {
+						"Count:3": 1,
+						"Damage:2": 0,
+						"OreDict:8": "",
+						"id:8": "vendingmachine:placeholder"
+					},
+                    "fromCurrency:9": [],
+                    "toItems:9": [
+                    {
+                            "Count:3": 1,
+                            "Damage:2": 0,
+                            "OreDict:8": "",
+                            "id:8": "personalspace:personalPortal"
+                        }
+                    ]
+                }
+            ]
+        }
 	],
 	"version:3": 1
 }
