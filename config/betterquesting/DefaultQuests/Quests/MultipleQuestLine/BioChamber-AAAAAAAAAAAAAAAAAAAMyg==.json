@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "With new technology comes the need for adaptation! In order to create §9Wetware§r \u0026 §cBioware§r boards you need a chamber that is capable of properly maintaining the neurons while they are installed to the board. Fortunately, the §5§lBio Chamber§r is a simple upgrade and doesn\u0027t require many resources. \n\nAfter its construction, you can link it to the PCB Factory by left-clicking the Bio Chamber Controller using a Data Stick, and right-clicking that data stick onto the PCB Factory Controller. One Bio Chamber can connect to any number of PCB Factories within a §2§l16§r block radius.\n\n[note]You can use any tier of glass.[/note]",
+      "desc:8": "With new technology comes the need for adaptation! In order to create §9Wetware§r \u0026 §cBioware§r boards you need a chamber that is capable of properly maintaining the neurons while they are installed to the board. Fortunately, the §5§lBio Chamber§r is a simple upgrade and doesn\u0027t require many resources. \n\nAfter its construction, you can link it to the PCB Factory by left-clicking the PCB Factory Controller using a Data Stick, and right-clicking that data stick onto the Bio Chamber Controller. One Bio Chamber can connect to any number of PCB Factories within a §2§l16§r block radius.\n\n[note]You can use any tier of glass.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
