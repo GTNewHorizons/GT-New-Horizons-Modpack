@@ -48,6 +48,12 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
+          "Damage:2": 9415,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        },
+        "1:10": {
+          "Count:3": 1,
           "Damage:2": 4054,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.03"
@@ -64,19 +70,19 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 1,
-          "Damage:2": 12,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings8"
-        },
-        "1:10": {
-          "Count:3": 1,
+          "Count:3": 34,
           "Damage:2": 328,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockframes"
+        },
+        "1:10": {
+          "Count:3": 158,
+          "Damage:2": 12,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings8"
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }
