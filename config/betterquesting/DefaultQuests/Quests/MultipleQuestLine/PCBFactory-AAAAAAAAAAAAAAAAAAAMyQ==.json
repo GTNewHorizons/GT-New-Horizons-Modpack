@@ -122,7 +122,7 @@
           "id:8": "bartworks:BW_GlasBlocks"
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }
