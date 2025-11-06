@@ -12,7 +12,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "With the control of spacetime you have achieved and its 0K temperature it would be possible to make an even better cooling unit. A casing able to keep its room temperature very low and nanites which can transfer heat effectively because of their small bodies. This doesn\u0027t quite work and some coolant is still needed, but water freezes at those temperatures so super coolant will be our choice.\n\n[note]The Thermosink Radiator allows for 4/4 OC making it possible to speed through recipes. It requires 10/s of super coolant in its hatch, it\u0027s in the same place as the Liquid Cooling Tower.[/note]\n\n[warn]This upgrade is incompatible with its lower tier predecessor.[/warn]",
+      "desc:8": "With your newfound ability to manipulate spacetime you have found a way to sustain cosmically low temperatures. It is now possible to make an even better cooling unit. A casing able to keep its room temperature very low and nanites which can transfer heat effectively because of their small bodies. You will still need coolant, though water won\u0027t cut it any longer given its high freezing point. If only there was some kind of super... coolant...\n\nThe §5Tier 2§r Coolant Tower now allows for a §24x§r Speed boost for the same §c4x§r EU cost, making it possible to speed through recipes much quicker. It requires §910 L/s§r of §nSuper Coolant§r to operate while running.\n\n[warn]This upgrade is incompatible with its lower tier predecessor.[/warn]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -23,7 +23,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Thermosink Radiator",
+      "name:8": "Liquid Cooling Tower Tier 2",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -47,37 +47,48 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 1,
+          "Count:3": 48,
           "Damage:2": 14,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockcasings8"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 20,
+          "Damage:2": 15,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings2"
         },
         "1:10": {
-          "Count:3": 1,
+          "Count:3": 40,
           "Damage:2": 103,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockframes"
         },
         "2:10": {
-          "Count:3": 1,
+          "Count:3": 39,
           "Damage:2": 12,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockcasings8"
         },
         "3:10": {
-          "Count:3": 1,
-          "Damage:2": 15,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings2"
-        },
-        "4:10": {
-          "Count:3": 1,
+          "Count:3": 8,
           "Damage:2": 15,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockcasings"
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

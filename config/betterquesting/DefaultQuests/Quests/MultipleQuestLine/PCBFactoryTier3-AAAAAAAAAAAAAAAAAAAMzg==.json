@@ -12,7 +12,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Why use a small nozzle to print out the conductor on the board when one can just build it using nanites? Well the silver nanite isn\u0027t rigid enough for that so a new nanite will be needed... and so will new casings. Heard that celestial tungsten is a good candidate for a frame. Quantum can be used for the protection as these nanites will be forever flying around inside.\n\nThe structure will need to change as it needs to be a bit bigger and taller.\n\n[note]Works the same as the Tier 2 in most cases, but allows the player to use even less resources by using a gold nanite.[/note]",
+      "desc:8": "Why use a small nozzle to print out the conductor on the board when you can just build it using nanites? Unfortunately, the Silver Nanite isn\u0027t rigid enough for that so a §6Gold Nanite§r will be needed... and so will new casings. Celestial tungsten should be a good candidate for a frame, and Quantum can be used for the protection for all these nanites flying around inside.\n\nThe structure will need to be bigger and taller to fit this more advanced technology, hopefully you prepared enough space!\n\n[note]Works the same as the Tier 2, with the advantage of requiring less resource intensive Gold Nanites.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -64,19 +64,19 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 1,
-          "Damage:2": 13,
+          "Count:3": 76,
+          "Damage:2": 10,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockcasings8"
         },
         "1:10": {
-          "Count:3": 1,
-          "Damage:2": 10,
+          "Count:3": 286,
+          "Damage:2": 13,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockcasings8"
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }
