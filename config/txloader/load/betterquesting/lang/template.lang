@@ -8500,7 +8500,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADWQ.desc=Combining Oxygen and Methanol a
 
 # Quest: Space Station
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEKw.name=Space Station
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEKw.desc=You can build a space station if you want. You can add up to four spin thrusters to your station to rotate it.%n%nDays on space stations last longer than on the overworld, so you can generate more solar power.%n%n§oYou can build space stations here:§r%nMoon - T1%nMars - T2%nJupiter - T3%nVenus - T4%nSaturn - T5%nUranus - T5%nNeptune - T6%n%n§bHint:§r Each task corresponds to one space station (they are in the same order). You need to complete at least one task to complete the quest.%n%n§cNote:§r It is likely that you will loose your rocket when flying back to earth or another space station. Make sure you have an alternative way to return (some form of teleportation) or use another planet/moon as proxy (if you get an error while doing so, you spawn on the planet/moon and can launch your rocket again).
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEKw.desc=You can build a space station if you want. You can add up to four spin thrusters to your station to rotate it.%n%nDays on space stations last longer than on the overworld, so you can generate more solar power.%n%n§oYou can build space stations here:§r%n§21§r. Moon - §9T1%n§22§r. Mars - §9T2%n§23§r. Jupiter - §9T3%n§24§r. Venus - §9T4%n§25§r. Saturn - §9T5%n§26§r. Uranus - §9T5%n§27§r. Neptune - §9T6§r%n%nEach §2Retrieval Task§r in this quest corresponds (in order) to the resources you will need in order to §2build a space station§r at one of the planets listed above. The "§9T#§r" afterwards refers to the §9tier of rocket§r you will need to get there.%n%n[note]You will need to complete at least one task to complete this quest![/note]%n%n[warn]It is likely that you will loose your rocket when flying back to earth or another space station. Make sure you have an alternative way to return (some form of teleportation) or use another planet/moon as proxy (if you get an error while doing so, you spawn on the planet/moon and can launch your rocket again).[/warn]
 
 # Quest: Are You Prepared?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAELA.name=Are You Prepared?
@@ -9126,7 +9126,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAG2Q.desc=Cache me outside.%n%nYour CPU w
 
 # Quest: Computer Case
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAG2g.name=Computer Case
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAG2g.desc=100 Percent Waterproof.%n%nThe computer base is the HUB of all your computer parts essentially. It takes two memory sticks, a BIOs rom, a CPU, and a hard drive at the very least to run your computer.%n%nThe power converter allows you to power it from your GregTech power grid, and the floppy drive will allow you to install your operating system onto the hard drive. Both parts are essential but both for some strange reason requires the T2 microchips to craft; so I'll let you trade the materials+T1 Microchips for some. Don't lose them!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAG2g.desc=100 Percent Waterproof.%n%nThe computer base is the HUB of all your computer parts essentially. It takes two memory sticks, a BIOs rom, a CPU, and a hard drive at the very least to run your computer.%n%nThe power converter allows you to power it from your GregTech power grid, and the floppy drive will allow you to install your operating system onto the hard drive.
 
 # Quest: My Little Scrench
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAG2w.name=My Little Scrench
