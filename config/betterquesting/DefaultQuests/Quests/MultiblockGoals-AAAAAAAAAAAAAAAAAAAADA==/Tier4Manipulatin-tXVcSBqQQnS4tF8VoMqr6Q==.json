@@ -1,0 +1,79 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -4851145942464770759,
+      "questIDLow:4": -5989492425518755855
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "§lFinally, you have done it§r! You can now upgrade your QFT to the ultimate tier by replacing your §3Infinity Infused Manipulator§r casings with §3SpaceTime Continuum Ripper§r casings. This final upgrade unlocks all skips, including the §6bio cell skip, the kevlar skip and the radox + xenoxene skip§r.\n\nEven with all previous upgrades, the final leap remained out of reach. Chemical skips for foundational components used in the earlier stages of the QFT, such as bioware circuits, were still impossible - §ountil now§r. Reaching the theoretical limit of the QFT demands a material far beyond anything seen before, hidden deep within the second half of the Naquadah line.\n\nThe material you require will be your magnum opus - the §3Black Body Naquadria Supersolid§r. This extraordinary substance acts as a perfect black body - absorbing all radiation without reflection - and behaves as a supersolid, flowing like a fluid with zero viscosity. Combining these properties in a single material ensures stable, effortless quantum energy flow at any voltage level, even at the MAX tier!\n\nWith this breakthrough, your QFT is fully unlocked, capable of creating components up to the UHV tier.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 10,
+        "OreDict:8": "",
+        "id:8": "miscutils:gtplusplus.blockcasings.5"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Tier 4 Manipulating",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -5371285515816385932,
+  "questIDLow:4": -5137376728426304535,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 236,
+          "Damage:2": 10,
+          "OreDict:8": "",
+          "id:8": "miscutils:gtplusplus.blockcasings.5"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 27,
+          "OreDict:8": "",
+          "id:8": "miscutils:item.BasicGenericChemItem",
+          "tag:10": {
+            "catalyst:10": {
+              "Damage:4": 0,
+              "MaxDamage:4": 50
+            }
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 26,
+          "OreDict:8": "",
+          "id:8": "miscutils:item.BasicGenericChemItem",
+          "tag:10": {
+            "catalyst:10": {
+              "Damage:4": 0,
+              "MaxDamage:4": 50
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -12,7 +12,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Hooray! All my Platinum Metal is now a fluid.... Time to add the second chemical to re-crystallise the dust.\n\nYou do different things with each of the results:\n\nReprecipitated Platinum: Go to step 4, the last step.\nPlatinum Salt: Go to the recycling step.\nPalladium Enriched Ammonia: Keep it like the Platinum Residue until IV. Or process it now if you like, but you don\u0027t §oneed§r it until later.\nOthers: Can be reused.",
+      "desc:8": "Hooray! All my Platinum Metal is now a fluid.... Time to add the second chemical to recrystallize the dust.\n\nYou do different things with each of the results:\n\nReprecipitated Platinum: Go to step 4, the last step.\nPlatinum Salt: Go to the recycling step.\nPalladium Enriched Ammonia: Keep it like the Platinum Residue until IV. Or process it now if you like, but you don\u0027t §oneed§r it until later.\nOthers: Can be reused.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -62,15 +62,15 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 20,
+          "Count:3": 40,
           "Damage:2": 44,
-          "OreDict:8": "cellPlatinumConcentrate",
+          "OreDict:8": "",
           "id:8": "bartworks:gt.bwMetaGeneratedcell"
         },
         "1:10": {
-          "Count:3": 2,
+          "Count:3": 4,
           "Damage:2": 50,
-          "OreDict:8": "cellAmmoniumChloride",
+          "OreDict:8": "",
           "id:8": "bartworks:gt.bwMetaGeneratedcell"
         }
       },
@@ -87,7 +87,7 @@
         "0:10": {
           "Count:3": 160,
           "Damage:2": 45,
-          "OreDict:8": "dustTinyPlatinumSalt",
+          "OreDict:8": "",
           "id:8": "bartworks:gt.bwMetaGenerateddustTiny"
         },
         "1:10": {
@@ -97,21 +97,21 @@
           "id:8": "bartworks:gt.bwMetaGenerateddustTiny"
         },
         "2:10": {
-          "Count:3": 2,
+          "Count:3": 4,
           "Damage:2": 52,
-          "OreDict:8": "cellPalladiumEnrichedAmmonia",
+          "OreDict:8": "",
           "id:8": "bartworks:gt.bwMetaGeneratedcell"
         },
         "3:10": {
-          "Count:3": 10,
-          "Damage:2": 30640,
-          "OreDict:8": "cellDilutedSulfuricAcid",
+          "Count:3": 30,
+          "Damage:2": 30683,
+          "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"
         },
         "4:10": {
           "Count:3": 10,
           "Damage:2": 30717,
-          "OreDict:8": "cellNitrogenDioxide",
+          "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"
         }
       },

@@ -21,7 +21,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 1,
-      "name:8": "§2§e§k§l§r§3§2§lDivine Rod of the Gods?",
+      "name:8": "§2§lDivine Rod of the Gods?",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -42,25 +42,25 @@
           "Count:3": 1,
           "Damage:2": 35,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores"
+          "id:8": "gregtech:gt.blockores2"
         },
         "1:10": {
           "Count:3": 1,
           "Damage:2": 937,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores"
+          "id:8": "gregtech:gt.blockores2"
         },
         "2:10": {
           "Count:3": 1,
           "Damage:2": 870,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores"
+          "id:8": "gregtech:gt.blockores2"
         },
         "3:10": {
           "Count:3": 1,
           "Damage:2": 834,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores"
+          "id:8": "gregtech:gt.blockores2"
         },
         "4:10": {
           "Count:3": 1,

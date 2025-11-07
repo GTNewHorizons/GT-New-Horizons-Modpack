@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Now that you have a vacuum freezer, you can liquify compressed air cells and centrifuge them for rare gases. You\u0027ll need those to make the incandescent bulb for these lights. As long as they have EU, these lights can shoot a beam or do narrow or wide cones. Use the wrench to change modes, and shift-right-click to invert.\n\nIt\u0027s better to provide power to an Ender IO capacitor and then power these machines with RF, instead of powering directly with GT EU, because they don\u0027t work well with GT\u0027s EU amp system, and will draw a whole EU packet for a single RF.",
+      "desc:8": "Now that you have a vacuum freezer, you can liquefy compressed air cells and centrifuge them for rare gases. You\u0027ll need those to make the incandescent bulb for these lights. As long as they have EU, these lights can shoot a beam or do narrow or wide cones. Use the wrench to change modes, and shift-right-click to invert.\n\nIt\u0027s better to provide power to an Ender IO capacitor and then power these machines with RF, instead of powering directly with GT EU, because they don\u0027t work well with GT\u0027s EU amp system, and will draw a whole EU packet for a single RF.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

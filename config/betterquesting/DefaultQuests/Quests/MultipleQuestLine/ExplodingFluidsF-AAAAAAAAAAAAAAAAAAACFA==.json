@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The Combustion Generator produces EU from several fluids and spends fuel only when necessary. Some fluids are more popular than others, but the Oil processing line has a different combustion fluid in every tier from LV to EV, and all of them are burned in these generators.\n\nTo start, LV is the tier of Light Fuel. It is worth much more than the Oil itself for generating power, so you should distill and dessulfurize the Oil to get clean Light Fuel and use it for power. It\u0027s a great way to run your base, and can be upgraded further in the next tiers. Check the \"Working with Oil\" tab for more information, once you\u0027ve made a Pump and found some Oil.\n\nIf you\u0027re dealing with Oil processing, this is the type of generator you\u0027ll use the most.§r",
+      "desc:8": "The Combustion Generator produces EU from several fluids and spends fuel only when necessary. Some fluids are more popular than others, but the Oil processing line has a different combustion fluid in every tier from LV to EV, and all of them are burned in these generators.\n\nTo start, LV is the tier of Light Fuel. It is worth much more than the Oil itself for generating power, so you should distill and desulfurize the Oil to get clean Light Fuel and use it for power. It\u0027s a great way to run your base, and can be upgraded further in the next tiers. Check the \"Working with Oil\" tab for more information, once you\u0027ve made a Pump and found some Oil.\n\nIf you\u0027re dealing with Oil processing, this is the type of generator you\u0027ll use the most.§r",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

@@ -64,15 +64,15 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 10,
+          "Count:3": 4,
           "Damage:2": 30683,
-          "OreDict:8": "cellHydrochloricAcid_GT5U",
+          "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"
         },
         "1:10": {
-          "Count:3": 10,
+          "Count:3": 4,
           "Damage:2": 30659,
-          "OreDict:8": "cellAmmonia",
+          "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"
         }
       },
@@ -87,9 +87,9 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 10,
+          "Count:3": 4,
           "Damage:2": 50,
-          "OreDict:8": "cellAmmoniumChloride",
+          "OreDict:8": "",
           "id:8": "bartworks:gt.bwMetaGeneratedcell"
         }
       },

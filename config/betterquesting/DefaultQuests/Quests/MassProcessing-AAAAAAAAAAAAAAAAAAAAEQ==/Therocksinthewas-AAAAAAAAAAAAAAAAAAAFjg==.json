@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "...go round and round, all the live long day. A large orewashing plant gets your rocks nice and clean. You can switch between Ore Washer and Chemical Bath modes with a screwdriver.",
+      "desc:8": "...go round and round, all the live long day. A large ore washing plant gets your rocks nice and clean. You can switch between Ore Washer and Chemical Bath modes with a screwdriver.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -47,19 +47,19 @@
           "Count:3": 64,
           "Damage:2": 944,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores"
+          "id:8": "gregtech:gt.blockores2"
         },
         "2:10": {
           "Count:3": 64,
           "Damage:2": 810,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores"
+          "id:8": "gregtech:gt.blockores2"
         },
         "3:10": {
           "Count:3": 64,
           "Damage:2": 526,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores"
+          "id:8": "gregtech:gt.blockores2"
         }
       },
       "ignoreDisabled:1": 0,

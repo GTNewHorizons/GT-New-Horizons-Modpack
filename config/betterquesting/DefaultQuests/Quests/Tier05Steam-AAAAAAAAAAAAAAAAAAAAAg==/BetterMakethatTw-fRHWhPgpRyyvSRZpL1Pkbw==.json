@@ -2,8 +2,7 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 694,
-      "type:1": 1
+      "questIDLow:4": 694
     }
   },
   "properties:10": {
@@ -56,9 +55,10 @@
   },
   "tasks:9": {
     "0:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
+      "allowAnvil:1": 0,
+      "allowCraft:1": 1,
+      "allowCraftedFromStatistics:1": 0,
+      "allowSmelt:1": 1,
       "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
@@ -70,7 +70,7 @@
           "id:8": "minecraft:anvil"
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:crafting"
     }
   }
 }

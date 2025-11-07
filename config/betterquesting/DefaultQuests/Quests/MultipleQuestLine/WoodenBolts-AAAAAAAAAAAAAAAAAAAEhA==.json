@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Your crossbow need some ammo to shoot with. Let\u0027s craft some wooden bolts. For now, you can put either iron, obzinite, or steel on the tip of your bolts using the Smeltery. For higher tier bolts and tips you will need to pump metals into a Fluid Solidifier with the correct tool rod inserted.\n\n[warn]For upgrades:[/warn]\n[note]Nether Quartz - More damage\nMoss - Self-Repair (unlock in GTNH Thaumcraft tab)[/note]",
+      "desc:8": "Your crossbow need some ammo to shoot with. Let\u0027s craft some wooden bolts. For now, you can put either iron, obzinite, or steel on the tip of your bolts using the Smeltery. For higher tier bolts and tips you will need to pump metals into a Fluid Solidifier with the correct tool rod inserted.\n\n[warn]For upgrades:[/warn]\n§lNether Quartz§r - More damage\n§lMoss§r - Self-Repair (unlock in GTNH Thaumcraft tab)\n\n[note]You can store these in a bauble slot to save on inventory space![/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

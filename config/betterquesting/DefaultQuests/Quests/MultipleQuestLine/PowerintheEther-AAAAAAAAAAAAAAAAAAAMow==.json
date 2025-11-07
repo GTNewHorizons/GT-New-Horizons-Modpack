@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "These new hatches allow you to wirelessly send, store and receive energy from any location in any dimension. They can be placed in any existing multi block structure and will function as normal energy/dynamo hatches. A dynamo hatch will consume EU and store it in a global network linked to your user. The wireless network can store a total of 2^(2^31) EU, far exceeding even a max tier LSC.\n\nYou can share a wireless network with others by adding them to your network with /gt global_energy_join user1 user2. This will make user1 use user2\u0027s energy when interacting with the global network. You can leave a network at any time by doing /gt global_energy_join your_name your_name.\n\nYou cannot connect wires to these blocks. These are also designed to be highly lag efficient, meaning EU is added at large intervals to prevent needless calculations from occurring. This will also save you some TPS lag from vast wire networks.\n\n[note]If your calculator is giving up, 2^(2^31) is a number with 646,456,994 digits.[/note]",
+      "desc:8": "These new hatches allow you to wirelessly store and receive energy from any location in any dimension. They can be placed in any existing multi block structure and will function as normal energy hatches. \n\nAdditionally, the wireless covers can be used for singleblock machines such as a World Accelerator or a BioLab.\n\nThe wireless network can store a total of 2^(2^31) EU, far exceeding even a max tier LSC.\n\nYou can share a wireless network with others by adding them to your network with §5/gt global_energy_join §3user1§r §2user2§r. This will make §3user1§r use §2user2\u0027s§r energy when interacting with the global network. You can leave a network at any time by doing §5/gt global_energy_join§r §4your_name your_name§r.\n\nYou cannot connect wires to these blocks. These are also designed to be highly lag efficient, meaning EU is added at large intervals to prevent needless calculations from occurring. This will also save you some TPS lag from vast wire networks.\n\n[note]If your calculator is giving up, 2^(2^31) is a number with 646,456,994 digits.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -61,9 +61,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 287,
+          "Damage:2": 32383,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "gregtech:gt.metaitem.01"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

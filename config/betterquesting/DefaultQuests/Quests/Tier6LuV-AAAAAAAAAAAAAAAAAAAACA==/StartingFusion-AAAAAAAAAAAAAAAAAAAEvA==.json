@@ -5,14 +5,23 @@
       "questIDLow:4": 1680
     },
     "1:10": {
+      "questIDHigh:4": -2090276380457611322,
+      "questIDLow:4": -7628239345660310137
+    },
+    "2:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 2607
+    },
+    "3:10": {
+      "questIDHigh:4": -7439799557305581253,
+      "questIDLow:4": -5895649105231252556,
+      "type:1": 1
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Now that your power needs are increasing, you need a way to keep up with demand. To generate over 1A ZPM with a single machine you have two options: solars, and fusion.\n\nWhile solars are simpler to set up, solars cap out at 524288 EU/t. Fusion can reach levels close to eight times that with the right setup.\n\nFor your first reactor, you will need a controller, 2-16 fluid input hatches, 1-16 fluid output hatches, and 16 energy hatches. All hatches have to be LuV tier or better. Each hatch provides 2048 EU/t for the recipe, and has a storage capacity of 10M eu.\n\nThis means you can do any fusion recipe that takes less than 32768 EU/t or less, and has a startup cost of 160M EU or less. Using more fluid hatches means you need less fusion casings. While this doesn\u0027t matter as much for the mk1 reactor, this principle helps tremendously with the higher reactor tiers.",
+      "desc:8": "Nuclear fusion is the next major step in your progression, and to accomplish it you will need a Fusion Reactor Mark I. You will unlock new materials across the next few tiers with fusion, making this a required multiblock. Europium is what you will need first to make it to ZPM.\n\nAt the same time, fusion can generate power for you, primarily via Helium Plasma in this first tier. The speed of the reactor can make for significant EU/t, but actually consuming this plasma fast enough at this early stage is difficult. You will have Large Plasma Turbines, which can run a buffered dynamo for 4 output amps. This might require a lot of spam compared to powergen setups you might be using, such as UCFE, vac nukes or other options. Later, you will unlock XL turbines and a fusion line for them. \n\nFor your first reactor, you will need a controller, 1-16 fluid input hatches, 1-16 fluid output hatches, and 16 LuV+ energy hatches. Each energy hatch has an energy capacity of 10M EU and draws up to 2048 EU/t.\n\nThat means you can do any fusion recipe with a start cost of 160M EU or less, and takes 32768 EU/t or less. Using more fluid hatches means you need less fusion casings. While this doesn\u0027t matter as much for the mk1 reactor, this principle helps tremendously with the higher reactor tiers.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -24,7 +33,7 @@
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§l§c§lStarting Fusion",
+      "name:8": "§c§lStarting Fusion",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -109,35 +118,6 @@
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 0,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 2,
-          "Damage:2": 56,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
-        },
-        "1:10": {
-          "Count:3": 1,
-          "Damage:2": 66,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
-        },
-        "2:10": {
-          "Count:3": 16,
-          "Damage:2": 46,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
-        }
-      },
-      "taskID:8": "bq_standard:optional_retrieval"
-    },
-    "1:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 1,
       "partialMatch:1": 1,
@@ -153,11 +133,17 @@
           "Damage:2": 6,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockcasings"
+        },
+        "2:10": {
+          "Count:3": 16,
+          "Damage:2": 46,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
     },
-    "2:10": {
+    "1:10": {
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,

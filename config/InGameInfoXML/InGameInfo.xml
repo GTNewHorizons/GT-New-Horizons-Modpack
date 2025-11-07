@@ -115,7 +115,7 @@
             <icon>
                 <str>minecraft:torch</str>
             </icon>
-            <str> Light: </str>
+            <str> Light: Real </str>
             <max>
                 <var>light</var>
                 <num>7.5</num>
@@ -123,7 +123,23 @@
                 <str>{red}</str>
             </max>
             <var>light</var>
-            <str> {white}(Feet: </str>
+            <str>{white}, Sky </str>
+            <max>
+                <var>lightsun</var>
+                <num>7.5</num>
+                <str>{yellow}</str>
+                <str>{red}</str>
+            </max>
+            <var>lightsun</var>
+            <str>{white}, Block </str>
+            <max>
+                <var>lightnosun</var>
+                <num>7.5</num>
+                <str>{yellow}</str>
+                <str>{red}</str>
+            </max>
+            <var>lightnosun</var>
+            <str>{white} (Feet: rl</str>
             <max>
                 <var>lightfeet</var>
                 <num>7.5</num>
@@ -131,7 +147,23 @@
                 <str>{red}</str>
             </max>
             <var>lightfeet</var>
-            <str>{white})</str>
+            <str>{white}, sl</str>
+            <max>
+                <var>lightsunfeet</var>
+                <num>7.5</num>
+                <str>{yellow}</str>
+                <str>{red}</str>
+            </max>
+            <var>lightsunfeet</var>
+            <str>{white}, bl</str>
+            <max>
+                <var>lightnosunfeet</var>
+                <num>7.5</num>
+                <str>{yellow}</str>
+                <str>{red}</str>
+            </max>
+            <var>lightnosunfeet</var>
+	    <str>{white})</str>
         </line>
         <line>
             <icon>

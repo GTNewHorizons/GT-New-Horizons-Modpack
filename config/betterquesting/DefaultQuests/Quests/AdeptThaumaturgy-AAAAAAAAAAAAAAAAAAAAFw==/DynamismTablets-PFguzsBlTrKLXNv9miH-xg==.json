@@ -1,0 +1,88 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 260
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "The Dynamism tablet is a block that simulates the functionality of a left and right-click autoclicker. It can be obtained fairly early in the game (early-mid MV), and is a useful tool for simple automation.\n\nUpon placing, the tablet will target the block that it\u0027s facing (the direction is indicated by a small dot on the overlay) and will start once you give it an item in its slot. If it holds a block/seed/sapling, it can also place it on the block below it.\n\nIt can be configured to either left/right click and also has an option to only be active when it receives a redstone signal. Hoppers or item pipes of any sort also allow the tablet to receive items.\n\nNote that some special mob drops or special interactions (like BM sacrificial knife) are disabled for the Dynamism tablet. However, they do work with Tinkers Tools.\n\n[note]This item has received a rework in 2.8 and has had most of its bugs fixed. If you still encounter any bugs, feel free to report it on our GitHub page or discord server.[/note]",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "ThaumicTinkerer:animationTablet"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Dynamism Tablets",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 4348276905752219314,
+  "questIDLow:4": -8404600922321060154,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 100,
+          "OreDict:8": "",
+          "id:8": "Thaumcraft:ItemGolemCore"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 10,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinDarkWizardI"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "ThaumicTinkerer:animationTablet"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

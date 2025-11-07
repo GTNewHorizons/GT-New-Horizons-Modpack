@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The heart of your ME network. You can inject energy into here as well to power your network, but you probably want to save all available spaces for networking. Without this, you\u0027re limited to 8 channels.\n\nThis is a multiblock, and can be expanded up to 7x7x7, and can have 2 adjacent blocks in at most 1 axis, or it will be disabled. Whatever that means, just try it out, ok? You can only have one per network.\n\nAbout channels:\nGenerally, every device uses a channel unless specified otherwise. If you don\u0027t have enough, that device will not function. If you can\u0027t determine what\u0027s causing your network problems, try looking at the lines on the smart and dense cables, or use a network visualizer.",
+      "desc:8": "The heart of your ME network. You can inject energy into here as well to power your network, but you probably want to save all available spaces for networking. Without this, you\u0027re limited to 8 channels.\n\nThis is a multiblock, and can be expanded up to 7x7x7, and can have 2 adjacent blocks in at most 1 axis, or it will be disabled. Whatever that means, just try it out, OK? You can only have one per network.\n\nAbout channels:\nGenerally, every device uses a channel unless specified otherwise. If you don\u0027t have enough, that device will not function. If you can\u0027t determine what\u0027s causing your network problems, try looking at the lines on the smart and dense cables, or use a network visualizer.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

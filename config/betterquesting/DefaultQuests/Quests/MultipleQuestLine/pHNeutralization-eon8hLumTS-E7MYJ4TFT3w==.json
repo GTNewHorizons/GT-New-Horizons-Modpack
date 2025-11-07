@@ -1,0 +1,100 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2627
+    },
+    "1:10": {
+      "questIDHigh:4": -5647692220358047564,
+      "questIDLow:4": -7136280042712085534
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "If you want to process your Europium-Doped Wafers with a significant speed boost, this machine is for you. Using the pH neutral water you get from this machine, you can process wafers twice as fast.\n\nThis is the first real complex automation challenge in the waterline, it\u0027s up to you to figure out how you want to deal with the pH neutralization process. Have fun!\n\n[note]This multiblock is very picky about where its hatches for acids and bases go. If you can\u0027t figure out why it\u0027s not forming, chances are you forgot to place these hatches in the correct location. Use the hologram projector to see where they go.[/note]",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 9406,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
+      },
+      "isMain:1": 1,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "pH Neutralization",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 8829866191450688815,
+  "questIDLow:4": -8868495820464237601,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 9406,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 134,
+          "Damage:2": 8,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings9"
+        },
+        "1:10": {
+          "Count:3": 15,
+          "Damage:2": 7,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings9"
+        },
+        "2:10": {
+          "Count:3": 18,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockglass1"
+        },
+        "3:10": {
+          "Count:3": 48,
+          "Damage:2": 325,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockframes"
+        },
+        "4:10": {
+          "Count:3": 2,
+          "Damage:2": 9407,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

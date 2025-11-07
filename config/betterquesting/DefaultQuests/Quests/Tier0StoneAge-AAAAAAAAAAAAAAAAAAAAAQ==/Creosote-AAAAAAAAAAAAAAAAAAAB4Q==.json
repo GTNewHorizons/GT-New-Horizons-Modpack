@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "I guess you already turned some wood into charcoal and wonder what to do with all this creosote? Well, you can burn it in a normal Furnace to cook your food or anything else, or you can make some torches with it. You can save up on the Coal variants, while at the same time keeping the Coke Oven running for the items you really need.\n\nYou can use a Bucket to pick up the Creosote, but not a Clay Bucket, either through the icon in the machine\u0027s interface, or by right-clicking the Coke Oven with an empty bucket in hand.\n\nYou will eventually want to automate Coke Ovens, and that\u0027s when you can use it to generate power. This is mostly LV content, but the singleblock option is the GT++ Semifluid Generator, whereas the multiblock option is the Railcraft Liquid Fueled Boiler. You\u0027ll unlock the quests for these when the time comes.",
+      "desc:8": "I guess you already turned some wood into charcoal and wonder what to do with all this creosote? Well, you can burn it in a normal Furnace to cook your food or anything else, or you can make some torches with it. You can save up on the Coal variants, while at the same time keeping the Coke Oven running for the items you really need.\n\nYou can use an Iron or Clay Bucket to pick up the Creosote, either through the icon in the machine\u0027s interface, or by right-clicking the Coke Oven with an empty bucket in hand.\n\nYou will eventually want to automate Coke Ovens, and that\u0027s when you can use it to generate power. This is mostly LV content, but the singleblock option is the GT++ Semifluid Generator, whereas the multiblock option is the Railcraft Liquid Fueled Boiler. You\u0027ll unlock the quests for these when the time comes.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -20,7 +20,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§l§2§lCreosote",
+      "name:8": "§2§lCreosote",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -28,7 +28,7 @@
       "simultaneous:1": 0,
       "snd_complete:8": "random.levelup",
       "snd_update:8": "random.levelup",
-      "taskLogic:8": "AND",
+      "taskLogic:8": "OR",
       "visibility:8": "NORMAL"
     }
   },
@@ -69,6 +69,23 @@
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "Railcraft:fluid.creosote.bucket"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "IguanaTweaksTConstruct:clayBucketCreosote"
         }
       },
       "taskID:8": "bq_standard:retrieval"

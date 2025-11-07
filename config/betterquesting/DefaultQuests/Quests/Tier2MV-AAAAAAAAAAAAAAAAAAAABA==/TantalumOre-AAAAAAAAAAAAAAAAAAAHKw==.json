@@ -14,7 +14,7 @@
         "Count:3": 1,
         "Damage:2": 921,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.blockores"
+        "id:8": "gregtech:gt.blockores2"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -92,76 +92,6 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 921,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores"
-        },
-        "1:10": {
-          "Count:3": 64,
-          "Damage:2": 838,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores"
-        },
-        "2:10": {
-          "Count:3": 64,
-          "Damage:2": 943,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores"
-        },
-        "3:10": {
-          "Count:3": 64,
-          "Damage:2": 831,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "1:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
-      "index:3": 1,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 32,
-          "Damage:2": 1921,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores"
-        },
-        "1:10": {
-          "Count:3": 32,
-          "Damage:2": 1838,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores"
-        },
-        "2:10": {
-          "Count:3": 32,
-          "Damage:2": 1943,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores"
-        },
-        "3:10": {
-          "Count:3": 32,
-          "Damage:2": 1831,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "2:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
-      "index:3": 2,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 64,
           "Damage:2": 5921,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.03"
@@ -183,6 +113,76 @@
           "Damage:2": 5831,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.03"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 921,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockores2"
+        },
+        "1:10": {
+          "Count:3": 64,
+          "Damage:2": 838,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockores2"
+        },
+        "2:10": {
+          "Count:3": 64,
+          "Damage:2": 943,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockores2"
+        },
+        "3:10": {
+          "Count:3": 64,
+          "Damage:2": 831,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockores2"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 2,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 32,
+          "Damage:2": 1921,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockores2"
+        },
+        "1:10": {
+          "Count:3": 32,
+          "Damage:2": 1838,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockores2"
+        },
+        "2:10": {
+          "Count:3": 32,
+          "Damage:2": 1943,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockores2"
+        },
+        "3:10": {
+          "Count:3": 32,
+          "Damage:2": 1831,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockores2"
         }
       },
       "taskID:8": "bq_standard:retrieval"

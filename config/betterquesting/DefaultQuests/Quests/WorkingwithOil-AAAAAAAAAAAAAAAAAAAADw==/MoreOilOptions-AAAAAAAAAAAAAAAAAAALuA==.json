@@ -8,13 +8,13 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Alongside the Oil Drilling Rig, there are other sources you can explore. For Heavy Oil, a good source might be Oilsands Ore, which is found in rare veins at high altitudes. If you find one, you will have a large amount of Heavy Fuel to make Diesel with after processing.\n\nThere are also renewable sources of Oil, namely from IC2 crops and bees. The Oilberry crop can produce it indefinitely, but at a very slow rate, whereas bees can do it much faster, particularly Refined Bees, but they are much harder to obtain.\n\nYou can also get more out of the Oil by cracking it in specific ways. Lightly Hydrocracked Heavy Fuel, for example, gives 60% of the input amount as Light Fuel, which can be helpful if you have an excess of Heavy, and not enough Light to make Diesel.",
+      "desc:8": "Alongside the Oil Drilling Rig, there are other sources you can explore. For Heavy Oil, a good source might be Oilsands Ore, which is found in rare veins at high altitudes. If you find one, you will have a large amount of Heavy Fuel to make Diesel with after processing.\n\nThere are also renewable sources of Oil, namely from IC2 crops and bees. The Oilberry crop can produce it indefinitely, but at a very slow rate, whereas bees can do it much faster, particularly Refined Bees, but they are much harder to obtain.\n\nYou can also get more out of the Oil by cracking it in specific ways. Lightly Hydro-Cracked Heavy Fuel, for example, gives 60% of the input amount as Light Fuel, which can be helpful if you have an excess of Heavy, and not enough Light to make Diesel.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 878,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.blockores"
+        "id:8": "gregtech:gt.blockores2"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
@@ -42,7 +42,7 @@
           "Count:3": 32,
           "Damage:2": 878,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores"
+          "id:8": "gregtech:gt.blockores2"
         }
       }
     }

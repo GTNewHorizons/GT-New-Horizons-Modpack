@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Kinetic generator compatibility has been improved so that you no longer need transformers, you can connect directly with a cable. But why not use your transformer to send the power back to base more efficiently, it\u0027s a loss of about 57/512EU per A just going from 160 straight down to 63 without it. If you transform up (after going through 1 block of cable to transform it to GT power), you only lose about 57/2048EU per A, much better.\n\n[warn]IC2 machines don\u0027t care about rain, but remember to cover your transformer.[/warn]",
+      "desc:8": "Kinetic generator compatibility has been improved so that you no longer need transformers, you can connect directly with a cable. But why not use your transformer to send the power back to base more efficiently, it\u0027s a loss of about 97EU per HV amp just going from 160 straight down to 63 without it. If you transform up (after going through 1 block of cable to transform it to GT power), you only lose about 97EU per EV amp, which saves 4x the energy in regard to cable loss.\n\n[warn]IC2 machines don\u0027t care about rain, but remember to cover your transformer.[/warn]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

@@ -12,7 +12,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "With your woven silk you can upgrade your Forestry backpacks. Each Pack has 45 slots.\n\nYou need a carpenter, your old backpack and a bit of seed oil.\n\nIf the recipe isn\u0027t working, put the bag in a crafting grid to reset its nbt data. After removing anything in it of course.",
+      "desc:8": "With your woven silk you can upgrade your Forestry backpacks. Each Pack has 45 slots.\n\nYou need a carpenter, your old backpack and a bit of seed oil.\n\nIf the recipe isn\u0027t working, put the bag in a crafting grid to reset its NBT data. After removing anything in it of course.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

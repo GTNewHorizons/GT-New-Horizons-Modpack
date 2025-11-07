@@ -3,6 +3,10 @@
     "0:10": {
       "questIDHigh:4": -4801101343377634008,
       "questIDLow:4": -8315505785454163878
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1279
     }
   },
   "properties:10": {
@@ -20,7 +24,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§5§lRefined Firestone§5",
+      "name:8": "§5§lRefined Firestone",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

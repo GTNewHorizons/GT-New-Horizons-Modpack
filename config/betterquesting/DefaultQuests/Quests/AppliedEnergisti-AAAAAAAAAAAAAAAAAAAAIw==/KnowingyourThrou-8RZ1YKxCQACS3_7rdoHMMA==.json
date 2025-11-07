@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "[quest]ME Throughput Monitor[/quest]\n\nThe ME Througput Monitor will show the speed of items entering your network.\n\nClicking with an item will add it to the monitor.\n\nUse a §aWrench§f§r to lock the monitor\n\nWhen the monitor is locked, use §cShift+Right Click§f§r to change the measured time frame. \n\nModes: \n\n§6Per Tick\nPer Second\nPer Minute\nPer Hour",
+      "desc:8": "[quest]ME Throughput Monitor[/quest]\n\nThe ME Throughput Monitor will show the speed of items entering your network.\n\nClicking with an item will add it to the monitor.\n\nUse a §aWrench§r to lock the monitor\n\nWhen the monitor is locked, use §cShift+Right Click§r to change the measured time frame. \n\nModes: \n\n§6Per Tick\nPer Second\nPer Minute\nPer Hour",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
