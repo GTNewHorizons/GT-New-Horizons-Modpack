@@ -5,9 +5,20 @@
     "id": "coke_oven"
   },
   "model": {
-    "type": "item",
-    "registryName": "Railcraft:machine.alpha",
-    "meta": 7,
-    "yawOffset": 180.0
+    "type": "complex",
+    "keys": {
+      "B": "gregtech:gt.blockcasings12",
+      "C": "gregtech:gt.blockmachines"
+    },
+    "metadata": {
+      "B": 0,
+      "C": 236
+    },
+    "transpose": true,
+    "structure": [
+      ["BBB", "BBB", "BBB"],
+      ["BCB", "B B", "BBB"],
+      ["BBB", "BBB", "BBB"]
+    ]
   }
 }
