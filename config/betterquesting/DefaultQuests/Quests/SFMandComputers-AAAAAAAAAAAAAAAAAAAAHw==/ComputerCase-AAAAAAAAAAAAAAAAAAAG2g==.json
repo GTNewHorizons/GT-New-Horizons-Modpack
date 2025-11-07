@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "100 Percent Waterproof.\n\nThe computer base is the HUB of all your computer parts essentially. It takes two memory sticks, a BIOs rom, a CPU, and a hard drive at the very least to run your computer.\n\nThe power converter allows you to power it from your GregTech power grid, and the floppy drive will allow you to install your operating system onto the hard drive. Both parts are essential but both for some strange reason requires the T2 microchips to craft; so I\u0027ll let you trade the materials+T1 Microchips for some. Don\u0027t lose them!",
+      "desc:8": "100 Percent Waterproof.\n\nThe computer base is the HUB of all your computer parts essentially. It takes two memory sticks, a BIOs rom, a CPU, and a hard drive at the very least to run your computer.\n\nThe power converter allows you to power it from your GregTech power grid, and the floppy drive will allow you to install your operating system onto the hard drive.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -41,18 +41,6 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "OpenComputers:powerConverter"
-        },
-        "1:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "OpenComputers:diskDrive"
-        },
-        "2:10": {
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
@@ -147,7 +135,7 @@
     },
     "2:10": {
       "autoConsume:1": 0,
-      "consume:1": 1,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 2,
@@ -190,14 +178,31 @@
           "id:8": "OpenComputers:item"
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:optional_retrieval"
     },
     "3:10": {
       "autoConsume:1": 0,
-      "consume:1": 1,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 3,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "OpenComputers:diskDrive"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "4:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 4,
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
@@ -229,6 +234,23 @@
           "Damage:2": 22,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "5:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 5,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "OpenComputers:powerConverter"
         }
       },
       "taskID:8": "bq_standard:retrieval"
