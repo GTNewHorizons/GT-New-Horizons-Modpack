@@ -6,8 +6,8 @@
   },
   "model": {
     "type": "item",
-    "registryName": "Railcraft:machine.alpha",
-    "meta": 7,
+    "registryName": "gregtech:gt.blockmachines",
+    "meta": 236,
     "yawOffset": 180.0
   }
 }
