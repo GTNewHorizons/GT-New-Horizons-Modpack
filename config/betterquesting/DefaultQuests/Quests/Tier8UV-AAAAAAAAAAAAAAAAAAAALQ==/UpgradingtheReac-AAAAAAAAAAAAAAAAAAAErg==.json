@@ -16,7 +16,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "A MK II is nice, but why not make a MK III? This time you need UV+ energy hatches, as well as the Fusion Machine Casing MK II.\n\nEach energy hatch has an energy capacity of 40M EU and draws up to 32768 EU/t. That means it can handle start costs up to 640M EU and power consumption up to 131072 EU/t.\n\nThe MK III reactor also grants a 2/2 perfect overclock for every machine tier above the minimum recipe tier.",
+      "desc:8": "A MK II is nice, but why not make a MK III? This time you need UV+ energy hatches, as well as the Fusion Machine Casing MK II.\n\nEach energy hatch has an energy capacity of 40M EU and draws up to 32768 EU/t. That means it can handle start costs up to 640M EU and power consumption up to 524288 EU/t.\n\nThe MK III reactor also grants a 2/2 perfect overclock for every machine tier above the minimum recipe tier.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

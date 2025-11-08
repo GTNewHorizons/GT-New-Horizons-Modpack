@@ -1,0 +1,62 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 7703162765430901886,
+      "questIDLow:4": -8261255533218631311,
+      "type:1": 2
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2623
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "The ME Fluid Infinity Water Storage provides §24.5P§r water directly to your AE system, That\u0027s the equivalent of 2.25 million reservoir hatches, all conveniently packaged into one drive. \nMight come in handy...\n\n[note]Have fun making those fluid packets![/note]",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "ae2fc:fluid_storage.infinity.water",
+        "tag:10": {}
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Infinite Water Cell",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 1810298291960562416,
+  "questIDLow:4": -5277210864538635347,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "ae2fc:fluid_storage.infinity.water",
+          "tag:10": {}
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

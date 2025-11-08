@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "All those boards made in a chemical reactor. It\u0027s time to stop that, there must be a more efficient way to make them. After a couple days of research I have found one, a factory designed to print out circuit boards.\n\nThe PCB Factory is able to use a wide range of plastics to create circuit boards ready to be used. The printing mechanism overheats when it tries to overclock currently, so I will have to find a way to make that work later. Boards with neurons on them will also take a bit before they can be made, but it won\u0027t be hard to achieve.\n\n§2Trace size: the trace size represents the lines between components, which are needed to transmit the electrical signals on the circuit. One can make it smaller to slow down the machine, but use less resources, or make it bigger to make it faster, but use more resources.\n\n§1Formulas:\n- 10000/(TraceSize/100) Production\n- RecipeDuration/TraceSize^2 Time\n\n§2Using the GUI, the player can go to the configuration menu. There they can change the trace size or add new parts to the multiblock. One can also change where they are placed around the multiblock.§r\n\n[note]Make sure to set the configuration you want before using the structure lib blueprint for autobuild.[/note]",
+      "desc:8": "Using a Chemical Reactor to create circuit boards has become quite inefficient... it\u0027s time for a proper solution! After some research you have found a more efficient method; a factory designed to print out circuit boards.\n\nThe PCB Factory is able to use a wide range of plastics to create circuit boards ready to be used. The printing mechanism overheats when it tries to overclock currently, so I will have to find a way to make that work later. Boards with neurons on them will also require a modification before they can be made, but that shouldn\u0027t be hard to achieve.\n\n§2Trace size: the trace size represents the lines between components, which are needed to transmit the electrical signals on the circuit. One can make it smaller to slow down the machine, but use less resources, or make it bigger to make it faster, but use more resources.\n\n§1Formulas:\n- 10000/(TraceSize/100) Production\n- RecipeDuration/TraceSize^2 Time\n\n§2Using the GUI, the player can go to the configuration menu. There they can change the trace size or add new parts to the multiblock. One can also change where they are placed around the multiblock.§r\n\n[note]Make sure to set the configuration you want before using the structure lib blueprint for autobuild.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -86,7 +86,7 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 72,
+          "Count:3": 71,
           "Damage:2": 11,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockcasings8"
@@ -114,9 +114,15 @@
           "Damage:2": 10,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockcasings3"
+        },
+        "5:10": {
+          "Count:3": 25,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "bartworks:BW_GlasBlocks"
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }
