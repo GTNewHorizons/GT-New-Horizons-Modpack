@@ -6,6 +6,7 @@
   },
   "model": {
     "type": "item",
-    "registryName": "AWWayofTime:Altar"
+    "registryName": "AWWayofTime:Altar",
+    "yOffset": -0.3
   }
 }
