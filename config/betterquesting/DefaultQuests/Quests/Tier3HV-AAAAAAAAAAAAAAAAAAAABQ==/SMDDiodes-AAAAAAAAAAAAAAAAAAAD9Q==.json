@@ -2,25 +2,30 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 752
+      "questIDLow:4": 770,
+      "type:1": 1
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2295
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "For the next tier we need advanced circuits. To make advanced circuits, you need transistors.",
+      "desc:8": "With Platinum in hand, you consider making some SMD diodes. Eventually, in EV, they will be required. But for now it is up to you if you have enough Gallium and Platinum to use them.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 32717,
+        "Damage:2": 32016,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.01"
+        "id:8": "gregtech:gt.metaitem.03"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§6§lTransistor",
+      "name:8": "§9§lSMD Diodes",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -33,32 +38,26 @@
     }
   },
   "questIDHigh:4": 0,
-  "questIDLow:4": 785,
+  "questIDLow:4": 1013,
   "rewards:9": {
     "0:10": {
-      "choices:9": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
         "0:10": {
-          "Count:3": 4,
-          "Damage:2": 32717,
+          "Count:3": 32,
+          "Damage:2": 2874,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 32719,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
-        },
-        "2:10": {
-          "Count:3": 1,
-          "Damage:2": 5,
+          "Damage:2": 6,
           "OreDict:8": "",
           "id:8": "enhancedlootbags:lootbag"
         }
-      },
-      "ignoreDisabled:1": 0,
-      "index:3": 0,
-      "rewardID:8": "bq_standard:choice"
+      }
     },
     "1:10": {
       "ignoreDisabled:1": 0,
@@ -66,10 +65,10 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 5,
+          "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianI"
+          "id:8": "dreamcraft:item.CoinTechnicianII"
         }
       }
     }
@@ -79,38 +78,15 @@
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
+      "ignoreNBT:1": 0,
       "index:3": 0,
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 32,
-          "Damage:2": 19057,
+          "Count:3": 64,
+          "Damage:2": 32016,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.02"
-        },
-        "1:10": {
-          "Count:3": 4,
-          "Damage:2": 17856,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
-        }
-      },
-      "taskID:8": "bq_standard:optional_retrieval"
-    },
-    "1:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 1,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 24,
-          "Damage:2": 32717,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "gregtech:gt.metaitem.03"
         }
       },
       "taskID:8": "bq_standard:retrieval"
