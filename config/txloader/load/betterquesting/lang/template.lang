@@ -164,7 +164,7 @@ betterquesting.quest.4g20EVdxSWyOUMhZXkcIWQ.name=§2§lDo You Really Need Them A
 betterquesting.quest.4g20EVdxSWyOUMhZXkcIWQ.desc=There are many more backpacks: Coiners, thaumaturges, trackmanns...%n%n[note]Hint: Scroll to the Bottom[/note]
 
 # Quest: A Better Furnace!
-betterquesting.quest.5EdKBIyDTYa7xhnSCUZmiQ.name=A Better Furnace!
+betterquesting.quest.5EdKBIyDTYa7xhnSCUZmiQ.name=§2§lA Better Furnace!
 betterquesting.quest.5EdKBIyDTYa7xhnSCUZmiQ.desc=Build a Blast Furnace!%n%nEnjoy faster smelting for your metals!%n%n[warn]Will not process all items that a regular furnace will. Check NEI for more detail.[/warn]
 
 # Quest: Ready, Set, Go!
@@ -201,7 +201,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAFw.desc=You tried to move water with yo
 
 # Quest: Getting (Char)coal
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAGA.name=§2§lGetting (Char)coal
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAGA.desc=Now you can make the bricks for your first multiblock structure. 104 bricks to be exact. Good that you just collected a lot of resources! What a coincidence...%n%nThe bricks you'll need are somewhat special. Make sure to craft the correct ones. With that done, let's build a coke oven to get some charcoal or coal coke! It may be useful to note that the oven doesn't automatically output its fluid contents. Faucets and pumps can help to change that.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAGA.desc=Now you can make the bricks for your first multiblock structure. 108 bricks to be exact. Good that you just collected a lot of resources! What a coincidence...%n%nThe bricks you'll need are somewhat special. Make sure to craft the correct ones. With that done, let's build a coke oven to get some charcoal or coal coke! It may be useful to note that the oven doesn't automatically output its fluid contents. Later you will unlock a special hatch to change that.
 
 # Quest: Forming Press v0.1
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAGg.name=§2§lForming Press v0.1
@@ -446,6 +446,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALPA.desc=It looks like you've found a se
 # Quest: Coins! Coins! Coins!
 betterquesting.quest.McmojGJJS3m8fS6c4olJmQ.name=§2§lCoins! Coins! Coins!
 betterquesting.quest.McmojGJJS3m8fS6c4olJmQ.desc=Finally, a use for all of these coins!%n%nThe §5§lVending Machine§r is a unique multiblock that allows you to exchange coins for valuable resources. You will progressively unlock new trades as you complete quests. Quests that unlock Vending Machine trades upon completion will show this information under the section labeled "§lAssociated Vending Machine Exchanges§r".%n%nAlternatively you can click "§2U§r" on the Vending Machine in NEI to see all available trades and what quests they are unlocked by. If an item can be traded for it will show up when clicking "§2R§r" under the Vending Machine tab.%n%nYou can put your coins directly into the input and they will appear in the internal storage. Additional inputs §3(including non-consumable)§r should be placed here as well. There is also a button for ejecting the coins if you need to reclaim them. %n%n[warn]Be aware, some trades have much longer timeout periods between claims![/warn]%n%n
+
+# Quest: Automated Coke Oven
+betterquesting.quest.XABK1llCToa6KKcF5Z69GA.name=§2§lAutomated Coke Oven
+betterquesting.quest.XABK1llCToa6KKcF5Z69GA.desc=Now that you're able to create bronze pipes, you can finally create the Coke Oven Hatch! This hatch allows you to finally automate the Coke Oven.%n%nEach hatch can be switched between: Item Input, Item Output, & Fluid Output by right-clicking it with a screwdriver. From there, you can use pipes to transport the items or fluid to wherever it needs to go.%n%nMake two using the bronze pipes you just crafted and you can have a third for free. %n%n[note]This hatch will auto-output.[/note]
 
 # Quest: The power of prospecting!
 betterquesting.quest.bMKIeFhNQluRks9YzpqEGQ.name=§6§lThe power of prospecting!
@@ -6397,11 +6401,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACug.desc=Not even two BBFs are fast enou
 
 # Quest: Why One Coke Oven When You Can Have Ten?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACuw.name=§6§lWhy One Coke Oven When You Can Have Ten?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACuw.desc=Your bricked blast furnace uses coal like hell and your steam boilers do too? Well it's time to make more coke ovens and automate them a bit. Wooden fluid pipes and tin item pipes will help you reach your goal. You can use either faucets with redstone clocks or LV pumps to empty the creosote. For the charcoal, hoppers are easy to get once you have an assembler.%n%nUnlike GregTech multiblocks, coke ovens must have 1 space separating each oven.%n%nSearch NEI for a more efficient way to make coke oven bricks.%n%nRemember that tin item pipes require a steel wrench to dismantle them.%n%nThe whole coke-oven process generates a lot of pollution, so consider putting it further away.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACuw.desc=Your bricked blast furnace uses coal like hell and your steam boilers do too? Well it's time to make more coke ovens and automate them a bit. The Coke Oven Hatch, Wooden Fluid Pipes, and Tin Item Pipes will help you reach your goal.%n%nSince this is a GT multiblock, it can wallshare bricks and hatches. The amount of bricks required for this quest is the minimum for creating 10 wallshared Coke Ovens.%n%nRemember that tin item pipes require a steel wrench to dismantle them.%n%n[note]Search NEI for a more efficient way to make coke oven bricks.[/note]%n%n[warn]The whole coke-oven process generates a lot of pollution, so consider putting it further away.[/warn]
 
 # Quest: Still Not Enough Charcoal?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADDQ.name=§6§lStill Not Enough Charcoal?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADDQ.desc=This oven is the best way to get charcoal and creosote (x50 faster than Railcraft's coke oven) and other byproducts. You will need tons of bronze, iron and steel to build it, but it's worth it. Finally, it will be possible to dismantle the charcoal pit.%n%nWith Cupronickel coils the oven is a bit slower. Each coil tier speeds up the charcoal production.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADDQ.desc=This oven is the best way to get charcoal and creosote (x50 faster than the Coke Oven) and other byproducts. You will need tons of bronze, iron and steel to build it, but it's worth it. Finally, it will be possible to dismantle the charcoal pit.%n%nWith Cupronickel coils the oven is a bit slower. Each coil tier speeds up the charcoal production.
 
 # Quest: It's Time to Get More Steam
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADEA.name=§6§lIt's Time to Get More Steam
@@ -7211,7 +7215,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAK4w.desc=In HV, you unlock yet another g
 
 # Quest: Putting the 'Semi' Back Into Generators LV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK5A.name=Putting the 'Semi' Back Into Generators LV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK5A.desc=You've probably collected a ton of Creosote and have little to use it on. To fix that, build a Semifluid Generator and use it alongside Steam as a secondary power source! Singleblock generators will only use fuel if there is EU demand, so you might end up with a filled Creosote buffer if you aren't consuming enough EU.%n%nTo extract the Creosote from your Coke Ovens, you can use buckets or cells to do it by hand, or the TiCon Faucet into GT fluid pipes, or an Electric Pump cover from You're Going to Hate This #2.%n%nThere are other options to burn Creosote, like the Railcraft Liquid Boilers, but this is much cheaper and easier to set up, while still being efficient with Creosote (6x as efficient as Combustion Generators).
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK5A.desc=You've probably collected a ton of Creosote and have little to use it on. To fix that, build a Semifluid Generator and use it alongside Steam as a secondary power source! Singleblock generators will only use fuel if there is EU demand, so you might end up with a filled Creosote buffer if you aren't consuming enough EU.%n%nTo extract the Creosote from your Coke Ovens, you can use a Coke Oven Hatch and some fluid pipes of your choice.%n%nThere are other options to burn Creosote, like the Railcraft Liquid Boilers, but this is much cheaper and easier to set up, while still being efficient with Creosote (6x as efficient as Combustion Generators).
 
 # Quest: Putting the 'Semi' Back Into Generators MV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK5Q.name=Putting the 'Semi' Back Into Generators MV
@@ -11608,7 +11612,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHLQ.desc=Ironwood is a much harder and d
 
 # Quest: Low on Sticks?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHLg.name=Low on Sticks?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHLg.desc=If you stay in the Twilight Forest for more than a few minutes you'll find Canopy Trees. This big tree generates a lot of logs for your Coke ovens and some roots when planted which give sticks. Be careful that no building or chest right beside or above the tree otherwise the tree replaces it. You might find a use for this, to sinfully get above a ceiling you really shouldn't.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHLg.desc=If you stay in the Twilight Forest for more than a few minutes you'll find Canopy Trees. This big tree generates a lot of logs for your Coke Ovens and some roots when planted which give sticks. Be careful that no building or chest right beside or above the tree otherwise the tree replaces it. You might find a use for this, to sinfully get above a ceiling you really shouldn't.
 
 # Quest: A Better Fluid Pipe
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH_g.name=A Better Fluid Pipe
