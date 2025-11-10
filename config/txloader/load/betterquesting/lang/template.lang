@@ -1624,7 +1624,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADDg.desc=To make wafers, you need to mak
 
 # Quest: Transistor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADEQ.name=§6§lTransistor
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADEQ.desc=For the next tier we need advanced circuits. To make advanced circuits, you need transistors.%n%n[note]If you already made SMD Transistors you can hold 16 of them to skip this quest![/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADEQ.desc=For the next tier we need advanced circuits. To make advanced circuits, you need transistors.
 
 # Quest: MV Precision Laser Engraver
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADFw.name=§6§lMV Precision Laser Engraver
@@ -1942,10 +1942,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJaQ.desc=Rare Earth processing may have 
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJbg.name=§6§lToo Many Items? Unpossible!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJbg.desc=Too many items getting you down? Just slap this badboy on a drawer, and any items you put in over the maximum will be automatically voided for you! More useful in combination with a Drawer Controller admittedly.
 
-# Quest: Hangover From All That Glue?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKsA.name=§6§lHangover From All That Glue?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKsA.desc=Surface-mount devices are more advanced circuits parts. They're needed for the EV tier+ circuit line and are cheaper to craft than the basic versions, if you have the right materials. You need an MV Assembler and some molten polyethylene. For now, resistors are probably the only ones you can make with any ease.
-
 # Quest: Make a better Distillery
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL_Q.name=§6§lMake a better Distillery
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL_Q.desc=To produce methanol and ethanol much faster, craft a mv distillery.
@@ -2061,7 +2057,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAD-g.desc=Integrated Processors need cent
 
 # Quest: Small Coil
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD-w.name=§9§lSmall Coil
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD-w.desc=The Processor Assembly circuit needs some small coils. You can make these a couple different ways.%n%n[note]If you're an overachiever and created SMD Inductors already you may hold 24 in your hand to skip this quest.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD-w.desc=The Processor Assembly circuit needs some small coils. You can make these a couple different ways.%n%n[note]If you somehow got SMD Inductors already, you may hold 24 in your hand to skip this quest.[/note]
 
 # Quest: Upgraded RF Batteries
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD2w.name=§9§lUpgraded RF Batteries
@@ -2095,9 +2091,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAD8w.desc=The Bauxite vein contains two o
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD9A.name=§9§lRutile
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD9A.desc=You've gotten some Rutile as a byproduct by now, right? Or EBF'd some Ilmenite?%n%nRutile, Chlorine and Carbon makes Titaniumtetrachloride, and some CO. You can recycle this for Carbon if you want to. Best use a Large Chemical Reactor in that case to get the full recipe.%n%nCombining TiCl4 with Magnesium in an HV EBF will give you a Hot Titanium ingot, and Magnesiumchloride. You can recycle this as well to get all the Magnesium and Chlorine back using some Sodium.
 
-# Quest: SMD Circuit Components
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD9Q.name=§9§lSMD Circuit Components
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD9Q.desc=Surface-mount devices are more advanced circuit parts. They're needed for circuits starting next tier and are cheaper to craft than basic capacitors, transistors, diodes and resistors. Once you get a reliable polyethylene setup, you can save a lot of resources by using SMD components.%n%nBe sure to check how much gallium you have available. It might not be worth it to use SMD diodes and transistors until you have a steady supply with an HV macerator or bees. Also look into IC2 crops to 4x your zinc, sphalerite, and bauxite.
+# Quest: SMD Diodes
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD9Q.name=§9§lSMD Diodes
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD9Q.desc=With Platinum in hand, you consider making some SMD diodes. Eventually, in EV, they will be required. But for now it is up to you if you have enough Gallium and Platinum to use them.
 
 # Quest: Workstations, Your First EV Circuit
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD9g.name=§9§lWorkstations, Your First EV Circuit
@@ -2374,6 +2370,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKBg.desc=The Bio Lab is a multi-use bioe
 # Quest: Petri Dishes, Not for Eating
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKBw.name=§9§lPetri Dishes, Not for Eating
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKBw.desc=You'll need petri dishes to hold the cultures. You can make them out of borosilicate, styrene, or PTFE.%n%nThe petri dishes must then be sterilized to allow cultures to grow on them. You can use ethanol, methanol, ammonia, or chlorine to sterilize them.
+
+# Quest: Hangover From All That Glue?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKsA.name=§9§lHangover From All That Glue?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKsA.desc=Surface-mount devices are more advanced circuits parts. They're needed for the EV tier+ circuit line and are cheaper to craft than the basic versions, if you have the right materials. You need an HV Assembler and some molten polyethylene.%n%nBe sure to check how much gallium you have available. It might not be worth it to use SMD transistors until you have a steady supply with an HV macerator or bees. Also look into IC2 crops to 4x your zinc, sphalerite, and bauxite.
 
 # Quest: Better Magnetic Rods
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALZQ.name=§9§lBetter Magnetic Rods
@@ -15035,10 +15035,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALXQ.desc=No Description
 # Quest: Trigger: Obtain Sunnarium
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMBg.name=Trigger: Obtain Sunnarium
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMBg.desc=No Description
-
-# Quest: Trigger: SMD Transistor Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMjw.name=Trigger: SMD Transistor Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMjw.desc=No Description
 
 # Quest: Tool: Never complete
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrw.name=Tool: Never complete

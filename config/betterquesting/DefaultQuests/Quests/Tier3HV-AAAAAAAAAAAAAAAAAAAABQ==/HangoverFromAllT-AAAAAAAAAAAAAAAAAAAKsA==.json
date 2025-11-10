@@ -2,30 +2,28 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 2295
+      "questIDLow:4": 770
     },
     "1:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 1598
+      "questIDLow:4": 759
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Surface-mount devices are more advanced circuit parts. They\u0027re needed for circuits starting next tier and are cheaper to craft than basic capacitors, transistors, diodes and resistors. Once you get a reliable polyethylene setup, you can save a lot of resources by using SMD components.\n\nBe sure to check how much gallium you have available. It might not be worth it to use SMD diodes and transistors until you have a steady supply with an HV macerator or bees. Also look into IC2 crops to 4x your zinc, sphalerite, and bauxite.",
-      "globalShare:1": 1,
+      "desc:8": "Surface-mount devices are more advanced circuits parts. They\u0027re needed for the EV tier+ circuit line and are cheaper to craft than the basic versions, if you have the right materials. You need an HV Assembler and some molten polyethylene.\n\nBe sure to check how much gallium you have available. It might not be worth it to use SMD transistors until you have a steady supply with an HV macerator or bees. Also look into IC2 crops to 4x your zinc, sphalerite, and bauxite.",
+      "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 32016,
+        "Damage:2": 32011,
         "OreDict:8": "",
         "id:8": "gregtech:gt.metaitem.03"
       },
-      "isGlobal:1": 0,
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§9§lSMD Circuit Components",
-      "partySingleReward:1": 0,
+      "name:8": "§9§lHangover From All That Glue?",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -37,7 +35,7 @@
     }
   },
   "questIDHigh:4": 0,
-  "questIDLow:4": 1013,
+  "questIDLow:4": 2736,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -45,12 +43,6 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 32,
-          "Damage:2": 2874,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
-        },
-        "1:10": {
           "Count:3": 1,
           "Damage:2": 6,
           "OreDict:8": "",
@@ -64,10 +56,16 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 1,
+          "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianII"
+          "id:8": "dreamcraft:item.CoinChemistI"
+        },
+        "1:10": {
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnicianI"
         }
       }
     }
@@ -77,13 +75,13 @@
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
-      "index:3": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 64,
-          "Damage:2": 32016,
+          "Count:3": 16,
+          "Damage:2": 32011,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.03"
         },
@@ -94,7 +92,7 @@
           "id:8": "gregtech:gt.metaitem.03"
         },
         "2:10": {
-          "Count:3": 12,
+          "Count:3": 16,
           "Damage:2": 32020,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.03"
