@@ -2,29 +2,30 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 68
+      "questIDLow:4": 770,
+      "type:1": 1
     },
     "1:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 1598
+      "questIDLow:4": 2295
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "If you have a relatively large area you need to light up without using electricity, you can use these floodlights. They can take normal furnace fuels, including blocks and compressed blocks. They do require some electronic components to make, but can send out a beam a long ways, or various cone shapes a shorter distance. Use the wrench to change modes, and shift-right-click to invert.",
+      "desc:8": "With Platinum in hand, you consider making some SMD diodes. Eventually, in EV, they will be required. But for now it is up to you if you have enough Gallium and Platinum to use them.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 0,
+        "Damage:2": 32016,
         "OreDict:8": "",
-        "id:8": "FloodLights:carbonFloodlight"
+        "id:8": "gregtech:gt.metaitem.03"
       },
       "isGlobal:1": 0,
-      "isMain:1": 0,
+      "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Lighting Up a Large Area, Without Electricity",
+      "name:8": "§9§lSMD Diodes",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -37,7 +38,7 @@
     }
   },
   "questIDHigh:4": 0,
-  "questIDLow:4": 1978,
+  "questIDLow:4": 1013,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -45,16 +46,29 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 4,
-          "Damage:2": 0,
+          "Count:3": 32,
+          "Damage:2": 2874,
           "OreDict:8": "",
-          "id:8": "FloodLights:carbonFloodlight"
+          "id:8": "gregtech:gt.metaitem.01"
         },
         "1:10": {
-          "Count:3": 64,
+          "Count:3": 1,
+          "Damage:2": 6,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      }
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:tile.CompressedCharcoal"
+          "id:8": "dreamcraft:item.CoinTechnicianII"
         }
       }
     }
@@ -69,10 +83,10 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
+          "Count:3": 64,
+          "Damage:2": 32016,
           "OreDict:8": "",
-          "id:8": "FloodLights:carbonFloodlight"
+          "id:8": "gregtech:gt.metaitem.03"
         }
       },
       "taskID:8": "bq_standard:retrieval"

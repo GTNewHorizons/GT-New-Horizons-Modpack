@@ -79,7 +79,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABjQ.desc=You have played through most of
 
 # Quest: Oak Trees Are Not Apple Trees
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABuA.name=§9§lOak Trees Are Not Apple Trees
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABuA.desc=Oak trees that give apples? Who the hell added this to minecraft?%nYou found a way of combining an oak sapling and an apple to get an apple tree sapling. Try to plant one to get a permanent source of food.%n%nOnce you complete this quest, check out the rest of the Quest Tabs. A new one, "Coins, Coins, Coins", has unlocked. You'll want to look through all the quest tabs to make sure something new hasn't unlocked somewhere else occasionally. There are lots of tabs, so be sure to scroll down!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABuA.desc=Oak trees that give apples? Who the hell added this to minecraft?%nYou found a way of combining an oak sapling and an apple to get an apple tree sapling. Try to plant one to get a permanent source of food.
 
 # Quest: "Baked" Potatoes
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABug.name=§9§l"Baked" Potatoes
@@ -87,7 +87,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABug.desc=Eating raw potatoes isn't that 
 
 # Quest: Soft Mallet Adventure
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABvA.name=§9§lSoft Mallet Adventure
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABvA.desc=You now have some melon slices or pumpkins but what can you do with them?%n%nYou can just eat them or... use a mallet to get some seeds. OK, let's craft one. Perhaps you can use this mallet for some other things too.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABvA.desc=You now have some melon slices or pumpkins but what can you do with them?%n%nYou can just eat them or... use a mallet to get some seeds. OK, let's craft one. Perhaps you can use this mallet for some other things too.%n%n[note]Once you complete this quest, check out the rest of the Quest Tabs. A new one, "... Without Dying", has unlocked. You'll want to look through all the quest tabs to make sure something new hasn't unlocked somewhere else occasionally. There are lots of tabs, so be sure to scroll down![/note]
 
 # Quest: Monster Trap
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADYQ.name=§9§lMonster Trap
@@ -164,7 +164,7 @@ betterquesting.quest.4g20EVdxSWyOUMhZXkcIWQ.name=§2§lDo You Really Need Them A
 betterquesting.quest.4g20EVdxSWyOUMhZXkcIWQ.desc=There are many more backpacks: Coiners, thaumaturges, trackmanns...%n%n[note]Hint: Scroll to the Bottom[/note]
 
 # Quest: A Better Furnace!
-betterquesting.quest.5EdKBIyDTYa7xhnSCUZmiQ.name=A Better Furnace!
+betterquesting.quest.5EdKBIyDTYa7xhnSCUZmiQ.name=§2§lA Better Furnace!
 betterquesting.quest.5EdKBIyDTYa7xhnSCUZmiQ.desc=Build a Blast Furnace!%n%nEnjoy faster smelting for your metals!%n%n[warn]Will not process all items that a regular furnace will. Check NEI for more detail.[/warn]
 
 # Quest: Ready, Set, Go!
@@ -201,7 +201,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAFw.desc=You tried to move water with yo
 
 # Quest: Getting (Char)coal
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAGA.name=§2§lGetting (Char)coal
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAGA.desc=Now you can make the bricks for your first multiblock structure. 104 bricks to be exact. Good that you just collected a lot of resources! What a coincidence...%n%nThe bricks you'll need are somewhat special. Make sure to craft the correct ones. With that done, let's build a coke oven to get some charcoal or coal coke! It may be useful to note that the oven doesn't automatically output its fluid contents. Faucets and pumps can help to change that.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAGA.desc=Now you can make the bricks for your first multiblock structure. 108 bricks to be exact. Good that you just collected a lot of resources! What a coincidence...%n%nThe bricks you'll need are somewhat special. Make sure to craft the correct ones. With that done, let's build a coke oven to get some charcoal or coal coke! It may be useful to note that the oven doesn't automatically output its fluid contents. Later you will unlock a special hatch to change that.
 
 # Quest: Forming Press v0.1
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAGg.name=§2§lForming Press v0.1
@@ -237,7 +237,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIQ.desc=While using your wooden tools i
 
 # Quest: Zinc Gravel
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIg.name=§2§lZinc Gravel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIg.desc=You can find it in chunks of gravel on the surface.%n%nUse as little as possible and save the rest for when you get a macerator in Steam age, you'll get twice as much.%n%nIf you can't find any, you can buy them in the Coins tab.%n%nIf you get enough and fully process it, you can also get Gallium for Gallium Arsenide in LV age.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIg.desc=You can find it in chunks of gravel on the surface.%n%nUse as little as possible and save the rest for when you get a Macerator in Steam age, you'll get twice as much.%n%nIf you can't find any, you can buy them in the Vending Machine.%n%nIf you get enough and fully process it, you can also get Gallium for Gallium Arsenide in LV age.
 
 # Quest: Making Bronze
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIw.name=§2§lMaking Bronze
@@ -377,7 +377,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEaQ.desc=Mining and digging can be soooo
 
 # Quest: Divine Rod of the Gods?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF4A.name=§2§lDivine Rod of the Gods?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF4A.desc=The Ore Finder Wand reduces the tedium of locating needed veins. If you're not sure how to craft Magnetic Iron Rod for it, check its Shapeless Crafting tab in NEI.%n%nOnce you put an ore sample into the wand, it will tell you if this ore is nearby. When you get close to the target, you will hear the sound, and the wand will tilt down to the point of being upside-down if there's a lot of target ore nearby.%n%nUse NEI to figure out which ore is the best for your search. If you don't have the needed ore, some basic ones can be purchased in the Coins tab.%n%nOpen the wand's inventory with Shift+RMB when looking at the ground. Put the sample ore into the slot.%nThe rod has a 60-block range both up and down, so it can miss a vein that is located very low or if you are above the sea level.%n%nThe rod appears to work based on the GT's Material system, so anything of the same material will work.%nThat includes crushed ores, dusts, ingots, gems, rods, you name it. For things that don't belong to a particular Material, the rod appears to search only for that exact block - for instance, you won't detect small ores with the usual ore block.%n%nIf the detected ore is a part of a vein, you will see a discovery message in the chat, and the vein will be automatically logged into the visual prospecting tab of your journey map.%n%nThe wand also works from inventory and hotbar, so you don't need to be actively holding it, but you get style points if you do.%n%nThe ore in the wand is stored with the player, not the wand. In other words, remove the ore if you want to give the wand to your teammate.%n%nThe Ore Finder Wand doesn't work in space! The vast cosmic energies of the sun interfere with its inner workings! Or the devs want you to use something more complicated than a stick. You choose.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF4A.desc=The Ore Finder Wand reduces the tedium of locating needed veins. If you're not sure how to craft Magnetic Iron Rod for it, check its Shapeless Crafting tab in NEI.%n%nOnce you put an ore sample into the wand, it will tell you if this ore is nearby. When you get close to the target, you will hear the sound, and the wand will tilt down to the point of being upside-down if there's a lot of target ore nearby.%n%nUse NEI to figure out which ore is the best for your search. If you don't have the needed ore, some basic ones can be purchased in the Vending Machine.%n%nOpen the wand's inventory with Shift+RMB when looking at the ground. Put the sample ore into the slot.%nThe rod has a 60-block range both up and down, so it can miss a vein that is located very low or if you are above the sea level.%n%nThe rod appears to work based on the GT's Material system, so anything of the same material will work.%nThat includes crushed ores, dusts, ingots, gems, rods, you name it. For things that don't belong to a particular Material, the rod appears to search only for that exact block - for instance, you won't detect small ores with the usual ore block.%n%nIf the detected ore is a part of a vein, you will see a discovery message in the chat, and the vein will be automatically logged into the visual prospecting tab of your journey map.%n%nThe wand also works from inventory and hotbar, so you don't need to be actively holding it, but you get style points if you do.%n%nThe ore in the wand is stored with the player, not the wand. In other words, remove the ore if you want to give the wand to your teammate.%n%nThe Ore Finder Wand doesn't work in space! The vast cosmic energies of the sun interfere with its inner workings! Or the devs want you to use something more complicated than a stick. You choose.
 
 # Quest: A Better Crafting Table
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF5A.name=§2§lA Better Crafting Table
@@ -421,7 +421,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHSg.desc=It can be hard to find Zinc Gra
 
 # Quest: How to Open Your Wooden Doors?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJHQ.name=§2§lHow to Open Your Wooden Doors?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJHQ.desc=Wooden doors make your House safer. Let's craft some wooden Pressure plates and Buttons to open these Doors.%n%nDoors will open when they receive a redstone signal, and close again after it stops. If you place the plates on either side of a door, it will open when you step on it. Or a monster does. Double doors will open together.%n%nYou'll need to use Oak for this quest. Purchase some saplings from the Coins tab if you don't have any nearby.%n%nPressure plates will send a redstone signal when an entity is on top of them. There are different types, like items or not, or mobs/player/any entity/etc.%n%nButtons will emit one for about 2 seconds before resetting.%n%nLevers will emit a signal until switched back off.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJHQ.desc=Wooden doors make your House safer. Let's craft some wooden Pressure plates and Buttons to open these Doors.%n%nDoors will open when they receive a redstone signal, and close again after it stops. If you place the plates on either side of a door, it will open when you step on it. Or a monster does. Double doors will open together.%n%nYou'll need to use Oak for this quest. Purchase some saplings from the Vending Machine if you don't have any nearby.%n%nPressure plates will send a redstone signal when an entity is on top of them. There are different types, like items or not, or mobs/player/any entity/etc.%n%nButtons will emit one for about 2 seconds before resetting.%n%nLevers will emit a signal until switched back off.
 
 # Quest: Got a Flat Tire?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJYg.name=§2§lGot a Flat Tire?
@@ -446,6 +446,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALPA.desc=It looks like you've found a se
 # Quest: Coins! Coins! Coins!
 betterquesting.quest.McmojGJJS3m8fS6c4olJmQ.name=§2§lCoins! Coins! Coins!
 betterquesting.quest.McmojGJJS3m8fS6c4olJmQ.desc=Finally, a use for all of these coins!%n%nThe §5§lVending Machine§r is a unique multiblock that allows you to exchange coins for valuable resources. You will progressively unlock new trades as you complete quests. Quests that unlock Vending Machine trades upon completion will show this information under the section labeled "§lAssociated Vending Machine Exchanges§r".%n%nAlternatively you can click "§2U§r" on the Vending Machine in NEI to see all available trades and what quests they are unlocked by. If an item can be traded for it will show up when clicking "§2R§r" under the Vending Machine tab.%n%nYou can put your coins directly into the input and they will appear in the internal storage. Additional inputs §3(including non-consumable)§r should be placed here as well. There is also a button for ejecting the coins if you need to reclaim them. %n%n[warn]Be aware, some trades have much longer timeout periods between claims![/warn]%n%n
+
+# Quest: Automated Coke Oven
+betterquesting.quest.XABK1llCToa6KKcF5Z69GA.name=§2§lAutomated Coke Oven
+betterquesting.quest.XABK1llCToa6KKcF5Z69GA.desc=Now that you're able to create bronze pipes, you can finally create the Coke Oven Hatch! This hatch allows you to finally automate the Coke Oven.%n%nEach hatch can be switched between: Item Input, Item Output, & Fluid Output by right-clicking it with a screwdriver. From there, you can use pipes to transport the items or fluid to wherever it needs to go.%n%nMake two using the bronze pipes you just crafted and you can have a third for free. %n%n[note]This hatch will auto-output.[/note]
 
 # Quest: The power of prospecting!
 betterquesting.quest.bMKIeFhNQluRks9YzpqEGQ.name=§6§lThe power of prospecting!
@@ -931,7 +935,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAZw.desc=In order to proceed forward, yo
 
 # Quest: Your Magic Progression
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAaA.name=§5§lYour Magic Progression
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAaA.desc=Now that you're able to produce Aluminium, you may dig into magic. If you haven't unlocked basic thaumaturgy, try to find a Silverwood and a Greatwood sapling.%n%nThere is a coin quest that lets you purchase these saplings. If you haven't found any yet, go check it out!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAaA.desc=Now that you're able to produce Aluminium, you may dig into magic. If you haven't unlocked basic thaumaturgy, try to find a Silverwood and a Greatwood sapling.%n%nThere is a coin trade that lets you purchase these saplings. If you haven't found any yet, go check it out!
 
 # Quest: Saving Metal With Bending
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAaQ.name=§5§lSaving Metal With Bending
@@ -1560,7 +1564,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAC6g.desc=To turn your solar grade dust i
 
 # Quest: Are You Prepared For HV?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC7Q.name=§6§lAre You Prepared For HV?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC7Q.desc=Stainless steel will be the tier material for HV. Use an MV mixer to produce the dust.%n%nManganese can be acquired as ore byproducts from spessartine, pyrolusite and tantalite ore. You can also pull them apart to get even more. Alternatively you can take apart Red Garnet dusts. If you get desperate, you can buy some ore from the Coins tab.%n%nChrome can be electrolyzed out of ruby dust. You can get ruby dust from redstone if the ruby in redstone veins isn't enough.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAC7Q.desc=Stainless steel will be the tier material for HV. Use an MV mixer to produce the dust.%n%nManganese can be acquired as ore byproducts from spessartine, pyrolusite and tantalite ore. You can also pull them apart to get even more. Alternatively you can take apart Red Garnet dusts. If you get desperate, you can buy some ore from the Vending Machine.%n%nChrome can be electrolyzed out of ruby dust. You can get ruby dust from redstone if the ruby in redstone veins isn't enough.
 
 # Quest: Molten Plastic
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC7g.name=§6§lMolten Plastic
@@ -1624,7 +1628,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADDg.desc=To make wafers, you need to mak
 
 # Quest: Transistor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADEQ.name=§6§lTransistor
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADEQ.desc=For the next tier we need advanced circuits. To make advanced circuits, you need transistors.%n%n[note]If you already made SMD Transistors you can hold 16 of them to skip this quest![/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADEQ.desc=For the next tier we need advanced circuits. To make advanced circuits, you need transistors.
 
 # Quest: MV Precision Laser Engraver
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADFw.name=§6§lMV Precision Laser Engraver
@@ -1942,10 +1946,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJaQ.desc=Rare Earth processing may have 
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJbg.name=§6§lToo Many Items? Unpossible!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJbg.desc=Too many items getting you down? Just slap this badboy on a drawer, and any items you put in over the maximum will be automatically voided for you! More useful in combination with a Drawer Controller admittedly.
 
-# Quest: Hangover From All That Glue?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKsA.name=§6§lHangover From All That Glue?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKsA.desc=Surface-mount devices are more advanced circuits parts. They're needed for the EV tier+ circuit line and are cheaper to craft than the basic versions, if you have the right materials. You need an MV Assembler and some molten polyethylene. For now, resistors are probably the only ones you can make with any ease.
-
 # Quest: Make a better Distillery
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL_Q.name=§6§lMake a better Distillery
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL_Q.desc=To produce methanol and ethanol much faster, craft a mv distillery.
@@ -2061,7 +2061,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAD-g.desc=Integrated Processors need cent
 
 # Quest: Small Coil
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD-w.name=§9§lSmall Coil
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD-w.desc=The Processor Assembly circuit needs some small coils. You can make these a couple different ways.%n%n[note]If you're an overachiever and created SMD Inductors already you may hold 24 in your hand to skip this quest.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD-w.desc=The Processor Assembly circuit needs some small coils. You can make these a couple different ways.%n%n[note]If you somehow got SMD Inductors already, you may hold 24 in your hand to skip this quest.[/note]
 
 # Quest: Upgraded RF Batteries
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD2w.name=§9§lUpgraded RF Batteries
@@ -2095,9 +2095,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAD8w.desc=The Bauxite vein contains two o
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD9A.name=§9§lRutile
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD9A.desc=You've gotten some Rutile as a byproduct by now, right? Or EBF'd some Ilmenite?%n%nRutile, Chlorine and Carbon makes Titaniumtetrachloride, and some CO. You can recycle this for Carbon if you want to. Best use a Large Chemical Reactor in that case to get the full recipe.%n%nCombining TiCl4 with Magnesium in an HV EBF will give you a Hot Titanium ingot, and Magnesiumchloride. You can recycle this as well to get all the Magnesium and Chlorine back using some Sodium.
 
-# Quest: SMD Circuit Components
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD9Q.name=§9§lSMD Circuit Components
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD9Q.desc=Surface-mount devices are more advanced circuit parts. They're needed for circuits starting next tier and are cheaper to craft than basic capacitors, transistors, diodes and resistors. Once you get a reliable polyethylene setup, you can save a lot of resources by using SMD components.%n%nBe sure to check how much gallium you have available. It might not be worth it to use SMD diodes and transistors until you have a steady supply with an HV macerator or bees. Also look into IC2 crops to 4x your zinc, sphalerite, and bauxite.
+# Quest: SMD Diodes
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD9Q.name=§9§lSMD Diodes
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD9Q.desc=With Platinum in hand, you consider making some SMD diodes. Eventually, in EV, they will be required. But for now it is up to you if you have enough Gallium and Platinum to use them.
 
 # Quest: Workstations, Your First EV Circuit
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD9g.name=§9§lWorkstations, Your First EV Circuit
@@ -2374,6 +2374,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKBg.desc=The Bio Lab is a multi-use bioe
 # Quest: Petri Dishes, Not for Eating
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKBw.name=§9§lPetri Dishes, Not for Eating
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKBw.desc=You'll need petri dishes to hold the cultures. You can make them out of borosilicate, styrene, or PTFE.%n%nThe petri dishes must then be sterilized to allow cultures to grow on them. You can use ethanol, methanol, ammonia, or chlorine to sterilize them.
+
+# Quest: Hangover From All That Glue?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKsA.name=§9§lHangover From All That Glue?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKsA.desc=Surface-mount devices are more advanced circuits parts. They're needed for the EV tier+ circuit line and are cheaper to craft than the basic versions, if you have the right materials. You need an HV Assembler and some molten polyethylene.%n%nBe sure to check how much gallium you have available. It might not be worth it to use SMD transistors until you have a steady supply with an HV macerator or bees. Also look into IC2 crops to 4x your zinc, sphalerite, and bauxite.
 
 # Quest: Better Magnetic Rods
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALZQ.name=§9§lBetter Magnetic Rods
@@ -3854,7 +3858,7 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAALQ.desc=Ultimate Voltage! This is t
 
 # Quest: Upgrading the Reactor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAErg.name=Upgrading the Reactor
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAErg.desc=A MK II is nice, but why not make a MK III? This time you need UV+ energy hatches, as well as the Fusion Machine Casing MK II.%n%nEach energy hatch has an energy capacity of 40M EU and draws up to 32768 EU/t. That means it can handle start costs up to 640M EU and power consumption up to 131072 EU/t.%n%nThe MK III reactor also grants a 2/2 perfect overclock for every machine tier above the minimum recipe tier.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAErg.desc=A MK II is nice, but why not make a MK III? This time you need UV+ energy hatches, as well as the Fusion Machine Casing MK II.%n%nEach energy hatch has an energy capacity of 40M EU and draws up to 32768 EU/t. That means it can handle start costs up to 640M EU and power consumption up to 524288 EU/t.%n%nThe MK III reactor also grants a 2/2 perfect overclock for every machine tier above the minimum recipe tier.
 
 # Quest: I Put Fusion in Your Fusion so you Can Fusion While You Fusion
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEsg.name=I Put Fusion in Your Fusion so you Can Fusion While You Fusion
@@ -4860,7 +4864,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGQA.desc=One of the first useful crops y
 
 # Quest: Metals From the Earth
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGQQ.name=Metals From the Earth
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGQQ.desc=With higher tier crops you can even increase your ore production. Mixing some of these fibers and leaves with crushed ores can quadruple your output, and some can even be converted directly to dust. Later you can mix these materials to make purified ore with some UU matter.%n%nShow me your ability to get these metal crops and I'll give you some more fertilizer and some decent stat seedbags of rarer crops. Good source crops are essence berries or any of the oreberries.%n%nYou will need the proper oreblock beneath the crop to reach 100 percent maturity. For best growing conditions use dirt in between the ore block and the crop.%n%nFor Ferru and Aurelia you will have to use a block of metal instead of a GT ore block - a vanilla ore block automined from the Twilight Forest will however work. You can also buy some from the coins tab. WAILA will tell you if the crop will accept the block you are using.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGQQ.desc=With higher tier crops you can even increase your ore production. Mixing some of these fibers and leaves with crushed ores can quadruple your output, and some can even be converted directly to dust. Later you can mix these materials to make purified ore with some UU matter.%n%nShow me your ability to get these metal crops and I'll give you some more fertilizer and some decent stat seedbags of rarer crops. Good source crops are essence berries or any of the oreberries.%n%nYou will need the proper oreblock beneath the crop to reach 100 percent maturity. For best growing conditions use dirt in between the ore block and the crop.%n%nFor Ferru and Aurelia you will have to use a block of metal instead of a GT ore block - a vanilla ore block automined from the Twilight Forest will however work. You can also buy some from the Vending Machine. WAILA will tell you if the crop will accept the block you are using.
 
 # Quest: Water, Water, Everywhere
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGQg.name=Water, Water, Everywhere
@@ -5016,7 +5020,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHnw.desc=Need an infinite source of knig
 
 # Quest: Do You Taste Metal?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI2A.name=Do You Taste Metal?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI2A.desc=Metal oreberries are a great source of new seeds. You can breed some or buy some from the Coins shop. I need some Copper myself, so give me some berries please.%n%nMetal oreberries require a block of that metal to fully mature, but you can harvest a reduced amount before then. Pretty much everything else that needs a block can't be harvested before maturity though. Look at the seedbag to see what it wants. You can also go to the wiki for the exact blocks. Usually, you can use an ore or metal block for those that have them.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI2A.desc=Metal oreberries are a great source of new seeds. You can breed some or buy some from the Vending Machine. I need some Copper myself, so give me some berries please.%n%nMetal oreberries require a block of that metal to fully mature, but you can harvest a reduced amount before then. Pretty much everything else that needs a block can't be harvested before maturity though. Look at the seedbag to see what it wants. You can also go to the wiki for the exact blocks. Usually, you can use an ore or metal block for those that have them.
 
 # Quest: Deep Blue Sea of Sapphires
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI2Q.name=Deep Blue Sea of Sapphires
@@ -6265,7 +6269,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAALQ.desc=576 buckets of fluid, that shou
 
 # Quest: You Are Now Prepared, Hopefully!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAASg.name=§6§lYou Are Now Prepared, Hopefully!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAASg.desc=No matter where you got this smeltery from, you have one now. Time for some casting!%n%nBuy the zinc gravel in the Coins Coins coins tab if you can't find it.%n%nNote: The book says a 3x3 base, but you can make a smeltery with a smaller base. Taller/wider smelteries can do more items at one time, conserving fuel.%n%n[note]The smeltery does not double ores in GTNH. Later machines will help you there.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAASg.desc=No matter where you got this smeltery from, you have one now. Time for some casting!%n%nNote: The book says to make a 3x3 base, but you can make a smeltery with a smaller or wider base. Taller/wider smelteries can do more items at one time, conserving fuel.%n%n[note]The smeltery does not double ores in GTNH. Later machines will help you there.[/note]
 
 # Quest: The Water Dilemma
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAASw.name=§6§lThe Water Dilemma
@@ -6397,11 +6401,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACug.desc=Not even two BBFs are fast enou
 
 # Quest: Why One Coke Oven When You Can Have Ten?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACuw.name=§6§lWhy One Coke Oven When You Can Have Ten?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACuw.desc=Your bricked blast furnace uses coal like hell and your steam boilers do too? Well it's time to make more coke ovens and automate them a bit. Wooden fluid pipes and tin item pipes will help you reach your goal. You can use either faucets with redstone clocks or LV pumps to empty the creosote. For the charcoal, hoppers are easy to get once you have an assembler.%n%nUnlike GregTech multiblocks, coke ovens must have 1 space separating each oven.%n%nSearch NEI for a more efficient way to make coke oven bricks.%n%nRemember that tin item pipes require a steel wrench to dismantle them.%n%nThe whole coke-oven process generates a lot of pollution, so consider putting it further away.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACuw.desc=Your bricked blast furnace uses coal like hell and your steam boilers do too? Well it's time to make more coke ovens and automate them a bit. The Coke Oven Hatch, Wooden Fluid Pipes, and Tin Item Pipes will help you reach your goal.%n%nSince this is a GT multiblock, it can wallshare bricks and hatches. The amount of bricks required for this quest is the minimum for creating 10 wallshared Coke Ovens.%n%nRemember that tin item pipes require a steel wrench to dismantle them.%n%n[note]Search NEI for a more efficient way to make coke oven bricks.[/note]%n%n[warn]The whole coke-oven process generates a lot of pollution, so consider putting it further away.[/warn]
 
 # Quest: Still Not Enough Charcoal?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADDQ.name=§6§lStill Not Enough Charcoal?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADDQ.desc=This oven is the best way to get charcoal and creosote (x50 faster than Railcraft's coke oven) and other byproducts. You will need tons of bronze, iron and steel to build it, but it's worth it. Finally, it will be possible to dismantle the charcoal pit.%n%nWith Cupronickel coils the oven is a bit slower. Each coil tier speeds up the charcoal production.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADDQ.desc=This oven is the best way to get charcoal and creosote (x50 faster than the Coke Oven) and other byproducts. You will need tons of bronze, iron and steel to build it, but it's worth it. Finally, it will be possible to dismantle the charcoal pit.%n%nWith Cupronickel coils the oven is a bit slower. Each coil tier speeds up the charcoal production.
 
 # Quest: It's Time to Get More Steam
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADEA.name=§6§lIt's Time to Get More Steam
@@ -7211,7 +7215,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAK4w.desc=In HV, you unlock yet another g
 
 # Quest: Putting the 'Semi' Back Into Generators LV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK5A.name=Putting the 'Semi' Back Into Generators LV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK5A.desc=You've probably collected a ton of Creosote and have little to use it on. To fix that, build a Semifluid Generator and use it alongside Steam as a secondary power source! Singleblock generators will only use fuel if there is EU demand, so you might end up with a filled Creosote buffer if you aren't consuming enough EU.%n%nTo extract the Creosote from your Coke Ovens, you can use buckets or cells to do it by hand, or the TiCon Faucet into GT fluid pipes, or an Electric Pump cover from You're Going to Hate This #2.%n%nThere are other options to burn Creosote, like the Railcraft Liquid Boilers, but this is much cheaper and easier to set up, while still being efficient with Creosote (6x as efficient as Combustion Generators).
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK5A.desc=You've probably collected a ton of Creosote and have little to use it on. To fix that, build a Semifluid Generator and use it alongside Steam as a secondary power source! Singleblock generators will only use fuel if there is EU demand, so you might end up with a filled Creosote buffer if you aren't consuming enough EU.%n%nTo extract the Creosote from your Coke Ovens, you can use a Coke Oven Hatch and some fluid pipes of your choice.%n%nThere are other options to burn Creosote, like the Railcraft Liquid Boilers, but this is much cheaper and easier to set up, while still being efficient with Creosote (6x as efficient as Combustion Generators).
 
 # Quest: Putting the 'Semi' Back Into Generators MV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK5Q.name=Putting the 'Semi' Back Into Generators MV
@@ -8512,7 +8516,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADWQ.desc=Combining Oxygen and Methanol a
 
 # Quest: Space Station
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEKw.name=Space Station
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEKw.desc=You can build a space station if you want. You can add up to four spin thrusters to your station to rotate it.%n%nDays on space stations last longer than on the overworld, so you can generate more solar power.%n%n§oYou can build space stations here:§r%nMoon - T1%nMars - T2%nJupiter - T3%nVenus - T4%nSaturn - T5%nUranus - T5%nNeptune - T6%n%n§bHint:§r Each task corresponds to one space station (they are in the same order). You need to complete at least one task to complete the quest.%n%n§cNote:§r It is likely that you will loose your rocket when flying back to earth or another space station. Make sure you have an alternative way to return (some form of teleportation) or use another planet/moon as proxy (if you get an error while doing so, you spawn on the planet/moon and can launch your rocket again).
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEKw.desc=You can build a space station if you want. You can add up to four spin thrusters to your station to rotate it.%n%nDays on space stations last longer than on the overworld, so you can generate more solar power.%n%n§oYou can build space stations here:§r%n§21§r. Moon - §9T1%n§22§r. Mars - §9T2%n§23§r. Jupiter - §9T3%n§24§r. Venus - §9T4%n§25§r. Saturn - §9T5%n§26§r. Uranus - §9T5%n§27§r. Neptune - §9T6§r%n%nEach §2Retrieval Task§r in this quest corresponds (in order) to the resources you will need in order to §2build a space station§r at one of the planets listed above. The "§9T#§r" afterwards refers to the §9tier of rocket§r you will need to get there.%n%n[note]You will need to complete at least one task to complete this quest![/note]%n%n[warn]It is likely that you will loose your rocket when flying back to earth or another space station. Make sure you have an alternative way to return (some form of teleportation) or use another planet/moon as proxy (if you get an error while doing so, you spawn on the planet/moon and can launch your rocket again).[/warn]
 
 # Quest: Are You Prepared?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAELA.name=Are You Prepared?
@@ -9138,7 +9142,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAG2Q.desc=Cache me outside.%n%nYour CPU w
 
 # Quest: Computer Case
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAG2g.name=Computer Case
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAG2g.desc=100 Percent Waterproof.%n%nThe computer base is the HUB of all your computer parts essentially. It takes two memory sticks, a BIOs rom, a CPU, and a hard drive at the very least to run your computer.%n%nThe power converter allows you to power it from your GregTech power grid, and the floppy drive will allow you to install your operating system onto the hard drive. Both parts are essential but both for some strange reason requires the T2 microchips to craft; so I'll let you trade the materials+T1 Microchips for some. Don't lose them!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAG2g.desc=100 Percent Waterproof.%n%nThe computer base is the HUB of all your computer parts essentially. It takes two memory sticks, a BIOs rom, a CPU, and a hard drive at the very least to run your computer.%n%nThe power converter allows you to power it from your GregTech power grid, and the floppy drive will allow you to install your operating system onto the hard drive.
 
 # Quest: My Little Scrench
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAG2w.name=My Little Scrench
@@ -9672,7 +9676,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFLw.desc=Save patterns onto these to do 
 
 # Quest: Pattern Terminal
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFMA.name=Pattern Terminal
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFMA.desc=A specialized version of the ME crafting terminal designed to encode blank patterns into encoded patterns.%n%nLets you browse the contents of your network like other terminals, but also contains an area for designing patterns. There are two modes for pattern encoding. Crafting patterns, and processing patterns. Processing patterns are designed for use with machines that do not use standard crafting recipes - such as furnaces, or other machines. To select between modes, click the button to the right of the interface: when it shows a standard crafting table, it will create crafting patterns, and when it shows a furnace, it will create processing patterns.%n%nFor crafting patterns ("Crafts..."), you specify the input crafting materials on a standard 3x3 crafting grid, and the output materials are determined automatically.%n%nFor processing patterns ("Creates..."), you specify the input materials and output materials, including quantity, by placing stacks of items in the interface. If a processing operation is not guaranteed to succeed (such as secondary products from some machines), it will not work correctly as a processing pattern.%n%nWhen designing crafting patterns you can click the output to extract a crafted item as long as you have the materials required to craft the item.%nDon't forget to enable oredict substitution where needed.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFMA.desc=A specialized version of the ME crafting terminal designed to encode blank patterns into encoded patterns.%n%nLets you browse the contents of your network like other terminals, but also contains an area for designing patterns. There are two modes for pattern encoding. Crafting patterns, and processing patterns. Processing patterns are designed for use with machines that do not use standard crafting recipes - such as furnaces, or other machines. To select between modes, click the button to the right of the interface: when it shows a standard crafting table, it will create crafting patterns, and when it shows a furnace, it will create processing patterns.%n%nFor crafting patterns ("Crafts..."), you specify the input crafting materials on a standard 3x3 crafting grid, and the output materials are determined automatically.%n%nFor processing patterns ("Creates..."), you specify the input materials and output materials, including quantity, by placing stacks of items in the interface. If a processing operation is not guaranteed to succeed (such as secondary products from some machines), it will not work correctly as a processing pattern.%n%nWhen designing crafting patterns you can click the output to extract a crafted item as long as you have the materials required to craft the item.%n%n[warn]Be cautious about accidentally enabling oredict substitution, it's rarely used and you will keep it disabled 99%% of the time.[/warn]
 
 # Quest: ME in Your Cleanroom
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFMQ.name=ME in Your Cleanroom
@@ -9984,7 +9988,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJxA.desc=Same as 1k.
 
 # Quest: 1k Essentia Storage Cell
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJxQ.name=1k Essentia Storage Cell
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJxQ.desc=Unlike the item version, these can only hold 12 types of essentia each. This tier holds 2,048 units if you fill it with a single type of essentia. If you fill it with 12 different types of essentia, you can have about 168 units of each. If you want one for every type of essentia, you'll need 67 of them. You'll want to make the essentia terminal to see what you have. They consume the same amount of AE as the item ones.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJxQ.desc=Unlike the item version, these can only hold 12 types of essentia each. This tier holds 2,048 units if you fill it with a single type of essentia. If you fill it with 12 different types of essentia, you can have about 168 units of each. If you want one for every type of essentia, you'll need 69 of them. You'll want to make the essentia terminal to see what you have. They consume the same amount of AE as the item ones.
 
 # Quest: 4k Essentia Storage Cell
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJxg.name=4k Essentia Storage Cell
@@ -10718,7 +10722,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAI6Q.desc=Ancient bees are the first step
 
 # Quest: Ocean
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI6g.name=Ocean
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI6g.desc=The Ocean bee can be hard to breed since some servers use a worldgen that prevents ocean biomes from appearing. You might have luck trying in a Twilight Forest lake - you'll know you are in the right biome if you see Water Creepers! If you have trouble locating an appropriate spot, you can also purchase Ocean bees from the Coins tab. Breed them from Diligent and Water.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI6g.desc=The Ocean bee can be hard to breed since some servers use a worldgen that prevents ocean biomes from appearing. You might have luck trying in a Twilight Forest lake - you'll know you are in the right biome if you see Water Creepers! If you have trouble locating an appropriate spot, you can also purchase Ocean bees from the Vending Machine. Breed them from Diligent and Water.
 
 # Quest: Resinous
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI6w.name=Resinous
@@ -11608,7 +11612,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHLQ.desc=Ironwood is a much harder and d
 
 # Quest: Low on Sticks?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHLg.name=Low on Sticks?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHLg.desc=If you stay in the Twilight Forest for more than a few minutes you'll find Canopy Trees. This big tree generates a lot of logs for your Coke ovens and some roots when planted which give sticks. Be careful that no building or chest right beside or above the tree otherwise the tree replaces it. You might find a use for this, to sinfully get above a ceiling you really shouldn't.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHLg.desc=If you stay in the Twilight Forest for more than a few minutes you'll find Canopy Trees. This big tree generates a lot of logs for your Coke Ovens and some roots when planted which give sticks. Be careful that no building or chest right beside or above the tree otherwise the tree replaces it. You might find a use for this, to sinfully get above a ceiling you really shouldn't.
 
 # Quest: A Better Fluid Pipe
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH_g.name=A Better Fluid Pipe
@@ -13259,7 +13263,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADhQ.desc=OK so there is this maze. And t
 
 # Quest: A Big Ugly Snake
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADhg.name=A Big Ugly Snake
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADhg.desc=Required for your first wand, and in general, an ugly creature.%n%n[note]To progress in TF, you need to follow the achievements. They frequently bug out, so drop and pickup everything that dropped from the bosses. Yes, right after you picked it up the first time. It's dumb, we know.[/note]%n%n[note]Also, BQ3 has a tendency to bug out detecting boss kills if you don't melee them, so if you want to complete these quests, use the spawn eggs from the coins tab and melee them when they get low on health if you missed them the first time.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADhg.desc=Required for your first wand, and in general, an ugly creature.%n%n[note]To progress in TF, you need to follow the achievements. They can be finicky, so make sure to check if you got the achievement each time. If not, try to drop and pickup everything that dropped from the bosses.[/note]%n%n[note]If you have problems completing the quest, you can also use the Spawn Eggs from the Vending Machine to try again.[/note]
 
 # Quest: Adventure Time!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADhw.name=Adventure Time!
@@ -13351,7 +13355,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADnA.desc=The final frontier... A... wolf
 
 # Quest: Killing: Evolved
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADnQ.name=Killing: Evolved
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADnQ.desc=I guess you're good at killing things, huh? And if you got this far, maybe making things too? If you want to §oreally§r prove yourself though, head on over to the Endgame Goals tab.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADnQ.desc=I guess you're good at killing things, huh? And if you got this far, maybe making things too?
 
 # Quest: Time to Kill (Bat)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIGQ.name=Time to Kill (Bat)
@@ -13522,719 +13526,6 @@ betterquesting.quest.z6Xaal6yTVi4fqEFCChoGg.name=Time to Kill (Stray)
 betterquesting.quest.z6Xaal6yTVi4fqEFCChoGg.desc=The Stray is a variety of Skeleton you will find in colder biomes. Watch out for their arrows; they can have a slowness effect!
 
 
-## Quest Line: Coins, Coins, Coins
-betterquesting.questline.AAAAAAAAAAAAAAAAAAAAEA.name=Coins, Coins, Coins
-betterquesting.questline.AAAAAAAAAAAAAAAAAAAAEA.desc=These quests will give you something to use your Coins on. So come on in and buy some useful or fancy stuff.
-
-# Quest: Ethanol
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD0A.name=Ethanol
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD0A.desc=Want some ethanol? Buy some!
-
-# Quest: Oxygen
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD0Q.name=Oxygen
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD0Q.desc=Want some oxygen? Buy some!
-
-# Quest: Nitrogen
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD0g.name=Nitrogen
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD0g.desc=Want some nitrogen? Buy some!
-
-# Quest: Hydrogen
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD0w.name=Hydrogen
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD0w.desc=Want some hydrogen? Buy some!
-
-# Quest: Glue
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD1A.name=Glue
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD1A.desc=Want some glue? Buy some!
-
-# Quest: Lubricant
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD1Q.name=Lubricant
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD1Q.desc=Want some lubricant? Buy some!
-
-# Quest: Sulfuric Acid
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD1g.name=Sulfuric Acid
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD1g.desc=Want some sulfuric acid? Buy some!
-
-# Quest: Engineering Processors
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD1w.name=Engineering Processors
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD1w.desc=Want some engineering processors? Buy some!
-
-# Quest: Magical Saplings
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD2A.name=Magical Saplings
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD2A.desc=Silverwood saplings are always rare to find. Want some? Buy now, and I'll throw in some Greatwood ones too!
-
-# Quest: Magnetic Steel Rods
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD_g.name=Magnetic Steel Rods
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD_g.desc=Want some magnetic steel rods for motors? Buy some!
-
-# Quest: Aluminium Rods
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD_w.name=Aluminium Rods
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD_w.desc=Want some aluminium rods? Buy some!
-
-# Quest: Maple Syrup?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADaA.name=Maple Syrup?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADaA.desc=Spent hours and hours trying to find some maple trees? Why not use your forest ranger coins to buy a sapling?
-
-# Quest: Seed Bags
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADaQ.name=Seed Bags
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADaQ.desc=Finding some special "Pam's HarvestCraft" seeds can be very difficult. With your farmer coins you can buy some seedbags.
-
-# Quest: Witch
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADcA.name=Witch
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADcA.desc=You feel lonely. What's cooking?
-
-# Quest: Pigmen
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADcQ.name=Pigmen
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADcQ.desc=You feel lonely. Do you want some bacon?
-
-# Quest: Blaze
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADcg.name=Blaze
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADcg.desc=You feel lonely. Let me warm you up a bit.
-
-# Quest: Magma Cube
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADcw.name=Magma Cube
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADcw.desc=You feel lonely, and bouncy.
-
-# Quest: Enderman
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADdA.name=Enderman
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADdA.desc=You feel lonely. Don't look me in the eyes!
-
-# Quest: Cave Spider
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADdQ.name=Cave Spider
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADdQ.desc=You feel lonely. Let me sing itsy-bitsy spider for you.
-
-# Quest: Ghast
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADdg.name=Ghast
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADdg.desc=You feel lonely. At least you're not a big cry-baby?
-
-# Quest: Silverfish
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADeA.name=Silverfish
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADeA.desc=You feel lonely. Let me be as annoying as possible.
-
-# Quest: Garden Bags
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADtQ.name=Garden Bags
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADtQ.desc=Finding some special "Pam's HarvestCraft" gardens can be very difficult. With your farmer coins you can buy some garden bags.%n%n[note]This includes the nether version BTW.[/note]
-
-# Quest: XP Berries
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADtg.name=XP Berries
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADtg.desc=And a few XP berries for cash.
-
-# Quest: Piston
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADuw.name=Piston
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADuw.desc=Want some pistons? Buy some!
-
-# Quest: Bronze Fluid Pipes
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADvA.name=Bronze Fluid Pipes
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADvA.desc=Want some bronze fluid pipes? Buy some!
-
-# Quest: Magnetic Iron Rods
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADvQ.name=Magnetic Iron Rods
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADvQ.desc=Want some magnetic iron rods for motors? Buy some!
-
-# Quest: Tin Rotors
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADvg.name=Tin Rotors
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADvg.desc=Want some tin rotors? Buy some!
-
-# Quest: Iron Rods
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADvw.name=Iron Rods
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADvw.desc=Want some iron rods? Buy some!
-
-# Quest: Brass Rods
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADwA.name=Brass Rods
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADwA.desc=Want some brass rods? Buy some!
-
-# Quest: Certus Quartz
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADwQ.name=Certus Quartz
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADwQ.desc=Want some certus quartz? Buy some!
-
-# Quest: Basic Circuit Boards
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADww.name=Basic Circuit Boards
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADww.desc=Want some basic circuit boards? Buy some!
-
-# Quest: Good Circuit Boards
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADxA.name=Good Circuit Boards
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADxA.desc=Want some good circuit boards? Buy some!
-
-# Quest: Vacuum Tubes
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADxQ.name=Vacuum Tubes
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADxQ.desc=Want some vacuum tubes? Buy some!
-
-# Quest: Resistors
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADxg.name=Resistors
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADxg.desc=Want some resistors? Buy some!
-
-# Quest: Diodes
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADxw.name=Diodes
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADxw.desc=Want some diodes? Buy some!
-
-# Quest: Wafers
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADyA.name=Wafers
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADyA.desc=Want some wafers? Buy some!
-
-# Quest: Transistors
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADyQ.name=Transistors
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADyQ.desc=Want some transistors? Buy some!
-
-# Quest: RAM
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADyg.name=RAM
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADyg.desc=Want some RAM chips? Buy some!
-
-# Quest: Integrated Logic Circuits
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADyw.name=Integrated Logic Circuits
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADyw.desc=Want some integrated logic circuit chips? Buy some!
-
-# Quest: Oil
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADzA.name=Oil
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADzA.desc=Want some oil? Buy some!
-
-# Quest: Creosote
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADzQ.name=Creosote
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADzQ.desc=Want some creosote? Buy some!
-
-# Quest: Naphtha
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADzg.name=Naphtha
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADzg.desc=Want some naphtha? Buy some!
-
-# Quest: Methane
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADzw.name=Methane
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADzw.desc=Want some methane? Buy some!
-
-# Quest: Bronze Rotors
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEAA.name=Bronze Rotors
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEAA.desc=Want some bronze rotors? Buy some!
-
-# Quest: Steel Fluid Pipes
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEAQ.name=Steel Fluid Pipes
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEAQ.desc=Want some steel fluid pipes? Buy some!
-
-# Quest: Electrum Rods
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEAg.name=Electrum Rods
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEAg.desc=Want some electrum rods? Buy some!
-
-# Quest: Flawless Emeralds
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEAw.name=Flawless Emeralds
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEAw.desc=Want some flawless emeralds? Buy some!
-
-# Quest: Ender Pearl
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEBA.name=Ender Pearl
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEBA.desc=Want some ender pearls? Buy some!
-
-# Quest: Magnetic Neodymium Rods
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEBQ.name=Magnetic Neodymium Rods
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEBQ.desc=Want some magnetic neodymium rods for motors? Buy some!
-
-# Quest: Stainless Steel Rods
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEBg.name=Stainless Steel Rods
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEBg.desc=Want some stainless steel rods? Buy some!
-
-# Quest: Steel rotors
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEBw.name=Steel rotors
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEBw.desc=Want some steel rotors? Buy some!
-
-# Quest: Stainless Steel Fluid Pipes
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAECA.name=Stainless Steel Fluid Pipes
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAECA.desc=Want some stainless steel fluid pipes? Buy some!
-
-# Quest: Chrome Rods
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAECQ.name=Chrome Rods
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAECQ.desc=Want some chrome rods? Buy some!
-
-# Quest: Ender Eyes
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAECg.name=Ender Eyes
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAECg.desc=Want some ender eyes? Buy some!
-
-# Quest: Plastic Circuit Boards
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEDA.name=Plastic Circuit Boards
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEDA.desc=Want some plastic circuit boards? Buy some!
-
-# Quest: Central Processing Units
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEDQ.name=Central Processing Units
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEDQ.desc=Want some central processing unit chips? Buy some!
-
-# Quest: SMD Resistors
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEDg.name=SMD Resistors
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEDg.desc=Want some SMD resistors? Buy some!
-
-# Quest: SMD Diodes
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEDw.name=SMD Diodes
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEDw.desc=Want some SMD diodes? Buy some!
-
-# Quest: SMD Transistors
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEEA.name=SMD Transistors
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEEA.desc=Want some SMD transistors? Buy some!
-
-# Quest: SMD Capacitor
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEEQ.name=SMD Capacitor
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEEQ.desc=Want some SMD capacitors? Buy some!
-
-# Quest: Logic Processors
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEEg.name=Logic Processors
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEEg.desc=Want some logic processors? Buy some!
-
-# Quest: Chlorine
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEEw.name=Chlorine
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEEw.desc=Want some chlorine? Buy some!
-
-# Quest: Iron (III) Chloride
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEFA.name=Iron (III) Chloride
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEFA.desc=Want some iron (III) chloride? Buy some!
-
-# Quest: Sodium Persulfate
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEFQ.name=Sodium Persulfate
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEFQ.desc=Want some sodium persulfate? Buy some!
-
-# Quest: Pyrochlore Ore
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEFg.name=Pyrochlore Ore
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEFg.desc=Can't find Pyrochlore ore because of old worldgen? Buy some Ores.
-
-# Quest: Forest Hive
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEFw.name=Forest Hive
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEFw.desc=Want some Forest Bees? Buy some!
-
-# Quest: Deep Hive
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEGA.name=Deep Hive
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEGA.desc=Want some Attuned Bees? Buy some!
-
-# Quest: Ender Hive
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEGQ.name=Ender Hive
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEGQ.desc=Want some Ender Bees? Buy some!
-
-# Quest: Bee Houses
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEGg.name=Bee Houses
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEGg.desc=Want some bee houses? Buy some!
-
-# Quest: Apiary
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEGw.name=Apiary
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEGw.desc=Want some Apiaries? Buy some!
-
-# Quest: Impregnated Frames
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEHA.name=Impregnated Frames
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEHA.desc=Want some impregnated frames? Buy some!
-
-# Quest: Infernal Hive
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEHQ.name=Infernal Hive
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEHQ.desc=Want some Infernal Bees? Buy some!
-
-# Quest: Oblivion Hive
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEHg.name=Oblivion Hive
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEHg.desc=Want some Oblivion Bees? Buy some!
-
-# Quest: Meadow Hive
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEIA.name=Meadow Hive
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEIA.desc=Want some Meadows Bees? Buy some!
-
-# Quest: Modest Hive
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEIQ.name=Modest Hive
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEIQ.desc=Want some Modest Bees? Buy some!
-
-# Quest: Tropical Hive
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEIg.name=Tropical Hive
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEIg.desc=Want some Tropical Bees? Buy some!
-
-# Quest: Wintry Hive
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEIw.name=Wintry Hive
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEIw.desc=Want some Wintry Bees? Buy some!
-
-# Quest: Marshy Hive
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEJA.name=Marshy Hive
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEJA.desc=Want some Marshy Bees? Buy some!
-
-# Quest: Water Hive
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEJQ.name=Water Hive
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEJQ.desc=Want some Water Bees? Buy some!
-
-# Quest: Rocky Hive
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEJg.name=Rocky Hive
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEJg.desc=Want some Rocky Bees? Buy some!
-
-# Quest: Nether Hive
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEJw.name=Nether Hive
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEJw.desc=Want some Embittered Bees? Buy some!
-
-# Quest: Curious Hive
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEKA.name=Curious Hive
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEKA.desc=Want some Mystical Bees? Buy some!
-
-# Quest: Unusual Hive
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEKQ.name=Unusual Hive
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEKQ.desc=Want some Unusual Bees? Buy some!
-
-# Quest: Resonating Hive
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEKg.name=Resonating Hive
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEKg.desc=Want some Sorcerous Bees? Buy some!
-
-# Quest: Vanilla Saplings
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAELQ.name=Vanilla Saplings
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAELQ.desc=You spawned in a desert and need Oak or Birch saplings? No problem! For five forest ranger coins you can select which one you want to buy.
-
-# Quest: Naga
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEMQ.name=Naga
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEMQ.desc=Summon a Naga.%n%n[note]Only works in the Twilight Forest dim.[/note]
-
-# Quest: Lich
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEMg.name=Lich
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEMg.desc=Summon a Lich.%n%n[note]Only works in the Twilight Forest dim.[/note]
-
-# Quest: Minoshroom
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEMw.name=Minoshroom
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEMw.desc=Summon a Minoshroom.%n%n[note]Only works in the Twilight Forest dim.[/note]
-
-# Quest: Hydra
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAENA.name=Hydra
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAENA.desc=Summon a Hydra.%n%n[note]Only works in the Twilight Forest dim.[/note]
-
-# Quest: Knight Phantom
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAENQ.name=Knight Phantom
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAENQ.desc=Summon a Knight Phantom.%n%n[note]Only works in the Twilight Forest dim.[/note]
-
-# Quest: Ur-Ghast
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAENg.name=Ur-Ghast
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAENg.desc=Summon an Ur-Ghast.%n%n[note]Only works in the Twilight Forest dim.[/note]
-
-# Quest: Yeti
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAENw.name=Yeti
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAENw.desc=Summon a Yeti.%n%n[note]Only works in the Twilight Forest dim.[/note]
-
-# Quest: Snow Queen
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEOA.name=Snow Queen
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEOA.desc=Summon a Snow Queen.%n%n[note]Only works in the Twilight Forest dim.[/note]
-
-# Quest: Red Alloy Cables
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEiQ.name=Red Alloy Cables
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEiQ.desc=Want some red alloy cables? Buy some!
-
-# Quest: Tin Cables
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEig.name=Tin Cables
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEig.desc=Want some tin cables? Buy some!
-
-# Quest: Copper Wires
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEiw.name=Copper Wires
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEiw.desc=Want some copper wires? Buy some!
-
-# Quest: Rubber Ingots
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEjQ.name=Rubber Ingots
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEjQ.desc=Want some rubber ingots? Buy some!
-
-# Quest: Bath Salt
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEkQ.name=Bath Salt
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEkQ.desc=Ugh, you feel so dirty. Go and take a bath.
-
-# Quest: Bath Soap
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEkg.name=Bath Soap
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEkg.desc=Ugh, you feel so dirty. Get some soap and take a long hot bath to get rid of some of that nasty Warp.
-
-# Quest: Damascus Steel Ingots
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEkw.name=Damascus Steel Ingots
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEkw.desc=Damascus steel is very durable and useful for GT tools. Buy some!
-
-# Quest: Wrought Iron Ingots
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAElQ.name=Wrought Iron Ingots
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAElQ.desc=Want some wrought iron ingots? Buy some!
-
-# Quest: Steel Ingots
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAElg.name=Steel Ingots
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAElg.desc=Want some steel ingots? Buy some!
-
-# Quest: Aluminium Ingots
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAElw.name=Aluminium Ingots
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAElw.desc=Want some aluminium ingots? Buy some!
-
-# Quest: Stainless Steel Ingots
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEmA.name=Stainless Steel Ingots
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEmA.desc=Want some stainless steel ingots? Buy some!
-
-# Quest: Aluminum Berries
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEqA.name=Aluminum Berries
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEqA.desc=And a few aluminum berries for cash.
-
-# Quest: Gold Berries
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEqQ.name=Gold Berries
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEqQ.desc=And a few gold berries for cash.
-
-# Quest: Iron Berries
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEqg.name=Iron Berries
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEqg.desc=And a few iron berries for cash.
-
-# Quest: Copper Berries
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEqw.name=Copper Berries
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEqw.desc=And a few copper berries for cash.
-
-# Quest: Tin Berries
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAErA.name=Tin Berries
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAErA.desc=And a few tin berries for cash.
-
-# Quest: Light Fuel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEtg.name=Light Fuel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEtg.desc=Want some light fuel? Buy some!
-
-# Quest: Heavy Fuel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEtw.name=Heavy Fuel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEtw.desc=Want some heavy fuel? Buy some!
-
-# Quest: Can't Find Those Ores?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF8w.name=Can't Find Those Ores?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF8w.desc=Having trouble locating some of the basic Ores? Trade in some coins for ore blocks to use in the Ore Finder Wand.%n%nIf you're clever, you can use one ore block to find a vein containing another ore block to use to find another vein. For example, if you choose Redstone, you can use that to find Cinnabar, which can be used to find Thaumcraft Aspect Shard Ores in the Twilight Forest. Experiment and find some combos!
-
-# Quest: Vishroom
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFBw.name=Vishroom
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFBw.desc=Magic mushrooms whoooo!
-
-# Quest: Dragon Essence
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFEQ.name=Dragon Essence
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFEQ.desc=Need some Dragon essence? Buy some!
-
-# Quest: Dragon Essence II
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFGw.name=Dragon Essence II
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFGw.desc=Need some Dragon essence? Buy some!
-
-# Quest: Ocean Bees
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFVg.name=Ocean Bees
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFVg.desc=Want some Ocean Bees? Since some servers don't generate ocean biomes, buy some!
-
-# Quest: Calculation Processors
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFkQ.name=Calculation Processors
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFkQ.desc=Want some calculation processors? Buy some!
-
-# Quest: ME Glass Cables
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFng.name=ME Glass Cables
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFng.desc=Want some ME glass cables? Buy some!
-
-# Quest: Fluix Crystals
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFrw.name=Fluix Crystals
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFrw.desc=Want some fluix crystals? Buy some!
-
-# Quest: Rubber Rings
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFxw.name=Rubber Rings
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFxw.desc=Want some rubber rings? Buy some!
-
-# Quest: Olive Saplings
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAG9A.name=Olive Saplings
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAG9A.desc=Olive trees can't be found in the overworld, so buy one with coins.
-
-# Quest: Annealed Copper Cables
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGSA.name=Annealed Copper Cables
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGSA.desc=Want some annealed copper cables? Buy some!
-
-# Quest: Gold Cables
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGSQ.name=Gold Cables
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGSQ.desc=Want some gold cables? Buy some!
-
-# Quest: Cupronickel 2x Wires
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGSg.name=Cupronickel 2x Wires
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGSg.desc=Want some cupronickel wires? Buy some!
-
-# Quest: Electrum 4x Wires
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGSw.name=Electrum 4x Wires
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGSw.desc=Want some electrum wires? Buy some!
-
-# Quest: Silver 2x Cables
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGUA.name=Silver 2x Cables
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGUA.desc=Want some silver cables? Buy some!
-
-# Quest: Copper Cables
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGUg.name=Copper Cables
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGUg.desc=Want some copper cables? Buy some!
-
-# Quest: Rubber Sheets
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGUw.name=Rubber Sheets
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGUw.desc=Want some rubber sheets? Buy some!
-
-# Quest: Salt for Your Salty Mouth
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGbA.name=Salt for Your Salty Mouth
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGbA.desc=Modpack too easy? Tired of all the quests making the game trivial? Hateposting in GitHub about the noobs making steam too powerful? Well here's a quest for you to turn all those OP coins into salt.
-
-# Quest: Calcite Getting you Down?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHGA.name=Calcite Getting you Down?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHGA.desc=Having a hard time finding that Lapis vein for some calcite? I'll trade you some for your hard-earned coins and some stone.
-
-# Quest: Need Some Leather?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHQw.name=Need Some Leather?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHQw.desc=Buy some leather with coins.
-
-# Quest: Need Some Wool?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHRA.name=Need Some Wool?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHRA.desc=Buy some wool with coins.
-
-# Quest: Buy Some Eggs
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHRQ.name=Buy Some Eggs
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHRQ.desc=Buy some eggs with coins.
-
-# Quest: Clay for Pennies
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHWQ.name=Clay for Pennies
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHWQ.desc=Hard to find that clay? Have a stack for some coins.
-
-# Quest: Tired of Grinding Reeds?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHWg.name=Tired of Grinding Reeds?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHWg.desc=I can trade you some chad for coins.
-
-# Quest: Glassy Eyed
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHWw.name=Glassy Eyed
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHWw.desc=...from all the mortars you have to use to make glass dust? Have some for a low, low price.
-
-# Quest: Shhh, Don't Tell 0lafe...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHXA.name=Shhh, Don't Tell 0lafe...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHXA.desc=But here is a nice quest to get cheap fish catchers!
-
-# Quest: Wood for Sheep?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHXQ.name=Wood for Sheep?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHXQ.desc=No, thanks! But how about some crop sticks for coins and a log?
-
-# Quest: Manure for Fertilizer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHXg.name=Manure for Fertilizer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHXg.desc=I mean, what else are you going to do with this junk?
-
-# Quest: Healing Axe 2.0
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHYQ.name=Healing Axe 2.0
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHYQ.desc=What, you lost the axe? Well you can craft your own if you dip into Thaumcraft a bit, but if you hate magic, here's another.
-
-# Quest: Fluorine
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHZA.name=Fluorine
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHZA.desc=Want some fluorine? Buy some!
-
-# Quest: Manganese Ore
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHZw.name=Manganese Ore
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHZw.desc=Can't find Manganese ore because it's not generated early game and you need to grow your Pyrolusium crop? Buy some Ores.
-
-# Quest: Cotton and String
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHjg.name=Cotton and String
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHjg.desc=With some farmer coins I'll trade you cotton and string. Perfect for making tanned leather!
-
-# Quest: Chocolate is Bad For You...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIIA.name=Chocolate is Bad For You...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIIA.desc=...but sure is great for production! Chocolate frames in apiaries and alvearies will boost output, but cause shortened life. This can be useful for the devious beekeeper...
-
-# Quest: You Can't Spell Lignite Without Ignite
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIZw.name=You Can't Spell Lignite Without Ignite
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIZw.desc=Truly the fuel of the gods!
-
-# Quest: Who Would Use This Garbage??
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIaA.name=Who Would Use This Garbage??
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIaA.desc=Truly the fuel of idiots!
-
-# Quest: Enderman Head
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ9g.name=Enderman Head
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ9g.desc=Want some enderman heads? Buy some!
-
-# Quest: Iron Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJKQ.name=Iron Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJKQ.desc=You can exchange your Stack of GT Iron Ore / Raw Iron Ore for vanilla Iron Ore.
-
-# Quest: Indium Dust
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJUg.name=Indium Dust
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJUg.desc=Want some Indium? Buy §msome§r one!
-
-# Quest: Wormwood
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJVA.name=Wormwood
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJVA.desc=Due to a mod conflict, you can't make Wormwood the normal way. So you can buy some with coins.
-
-# Quest: Horn of the Hunt
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJWA.name=Horn of the Hunt
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJWA.desc=Did you goof and somehow lose the Horned Huntsman before you could kill him? Well... You can summon him again using the hard way, or pay coins to get another horn.
-
-# Quest: Steadfast Bees
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJYA.name=Steadfast Bees
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJYA.desc=Normally you find Steadfast drones in dungeon loot chests. If you haven't been lucky yet, they're all picked over, or if your server owners are cruel and disable dungeons, you can buy some here.
-
-# Quest: Monastic Bees
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJYQ.name=Monastic Bees
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJYQ.desc=Normally you find Monastic drones by trading with Beekeeper villagers. If you haven't been lucky yet, your villages are all dead, or if your server owners are cruel and disable villages, you can buy some here.%n%n[note]It's expensive to encourage you to try looking really hard, and to try and heal zombie villagers. Good luck![/note]
-
-# Quest: Gold Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJew.name=Gold Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJew.desc=You can exchange your Stack of GT Gold Ore / Raw Gold Ore for vanilla Gold Ore.
-
-# Quest: Coal Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJfA.name=Coal Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJfA.desc=You can exchange your Stack of GT Coal Ore / Raw Coal Ore for vanilla Coal Ore.
-
-# Quest: Lapis Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJfQ.name=Lapis Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJfQ.desc=You can exchange your Stack of GT Lapis Ore / Raw Lapis Ore for vanilla Lapis Ore.
-
-# Quest: Diamond Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJfg.name=Diamond Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJfg.desc=You can exchange your Stack of GT Diamond Ore / Raw Diamond Ore for vanilla Diamond Ore.
-
-# Quest: Redstone Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJfw.name=Redstone Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJfw.desc=You can exchange your Stack of GT Redstone Ore / Raw Redstone Ore for vanilla Redstone Ore.
-
-# Quest: Netherquartz Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJgA.name=Netherquartz Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJgA.desc=You can exchange your Stack of GT Nether Quartz Ore / Raw Nether Quartz Ore for vanilla Nether Quartz Ore.
-
-# Quest: Copper Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJgQ.name=Copper Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJgQ.desc=You can exchange your Stack of GT Copper Ore / Raw Copper Ore for IC2 Copper Ore.
-
-# Quest: Tin Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJgg.name=Tin Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJgg.desc=You can exchange your Stack of GT Tin Ore / Raw Tin Ore for IC2 Tin Ore.
-
-# Quest: Uranium Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJgw.name=Uranium Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJgw.desc=You can exchange your Stack of GT Uranium Ore / Raw Uranium Ore for IC2 Uranium Ore.
-
-# Quest: Lead Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJhA.name=Lead Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJhA.desc=You can exchange your Stack of GT Lead Ore / Raw Lead Ore for IC2 Lead Ore.
-
-# Quest: Holo Glasses
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJhg.name=Holo Glasses
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJhg.desc=What? Lost your Holo Glasses already? Well here's a replacement. Well sure, it costs a few coins too, be more careful next time!
-
-# Quest: Ironically, It's Not Used in AE2 Anymore
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKsg.name=Ironically, It's Not Used in AE2 Anymore
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKsg.desc=Need some Sky Stone, but it's all picked over? Buy some!%n%n[note]PS: The presses are craftable at EV.[/note]
-
-# Quest: Fire is Cool
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKsw.name=Fire is Cool
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKsw.desc=Want some more of those fire jets or smoking blocks from TF? Buy some!%n%n[note]You can also make them into redstone controlled versions too![/note]
-
-# Quest: Dragon Warrior
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKtA.name=Dragon Warrior
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKtA.desc=Did your Dragon Heart drop into the void somehow? Or maybe you just want more? Buy one!
-
-# Quest: T1 BM Slates
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKtQ.name=T1 BM Slates
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKtQ.desc=Finally, a use for those bloody coins! Buy some slates!
-
-# Quest: T2 BM Slates
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKtg.name=T2 BM Slates
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKtg.desc=Finally, a use for those bloody coins! Buy some slates!
-
-# Quest: T3 BM Slates
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKtw.name=T3 BM Slates
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKtw.desc=Finally, a use for those bloody coins! Buy some slates!
-
-# Quest: Sticky Matter
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALYQ.name=Sticky Matter
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALYQ.desc=Can't find any Rubber Trees? Can't build a water tank? Too lazy to make a tree tap? Buy a stack of sticky resin for some coins.
-
-# Quest: Shulker
-betterquesting.quest.C8FHZDizTnax3tt7HvnkBw.name=Shulker
-betterquesting.quest.C8FHZDizTnax3tt7HvnkBw.desc=I would carry out this battle indoors if I were you...
-
-# Quest: Having trouble finding Botania mushrooms?
-betterquesting.quest.ZW-P5BllSP25hEBQTgEBQQ.name=Having trouble finding Botania mushrooms?
-betterquesting.quest.ZW-P5BllSP25hEBQTgEBQQ.desc=Why not exchange a few coins to save yourself the time of combing the Twilight forest for Shimmering mushrooms.
-
-# Quest: Zinc Gravel Ore
-betterquesting.quest.a15LlbgfQAmJqUgrRkvCFg.name=Zinc Gravel Ore
-betterquesting.quest.a15LlbgfQAmJqUgrRkvCFg.desc=Having a hard time finding some Zinc Gravel Ore? I'll trade you some for your hard-earned coins.
-
-# Quest: More SMD Inductors
-betterquesting.quest.b8oLtR7SS86ItajFCriChw.name=More SMD Inductors
-betterquesting.quest.b8oLtR7SS86ItajFCriChw.desc=Want some SMD inductors? Buy some!
-
-# Quest: TNT and iTNT
-betterquesting.quest.beN48jZMRCqH2QGlTH7nTg.name=TNT and iTNT
-betterquesting.quest.beN48jZMRCqH2QGlTH7nTg.desc=Want some TNT or iTNT? Buy some!
-
-# Quest: Blaze Rods
-betterquesting.quest.la9w2qsKRhSIm-9-4cnWwg.name=Blaze Rods
-betterquesting.quest.la9w2qsKRhSIm-9-4cnWwg.desc=Want some blaze rods? Buy some!
-
-
 ### Quests in multiple quest lines ###
 
 # Quest: Industrial Water Purification
@@ -14259,7 +13550,7 @@ betterquesting.quest.9B9CvQD0R8iLv-CBMTYZGQ.desc=The Copper barrel has 45 slots.
 
 # Quest: Main Quests and Secondary Quests
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAABA.name=§9§lMain Quests and Secondary Quests
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAABA.desc=Now that you've made it this far, you might notice how the two new quests look different.%n%nThe quest with the jagged edges is a main quest - it is linked to other main quests by a thick line. You must complete main quests to unlock the next tier and to progress in general. If you can't progress, go back to previous tiers and look for uncompleted main quests.%n%nThe other quest is an optional quest, and is not needed to unlock new tiers. However, optional quests often introduce you to useful items or processes.%n%nWhat are the coins for? You can use them to purchase things in the "Coins, Coins, Coins" questbook tab - you have to scroll to the bottom once it unlocks!%n%nIn case you started in a bad biome, here's enough coins to purchase some saplings.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAABA.desc=Now that you've made it this far, you might notice how the two new quests look different.%n%nThe quest with the jagged edges is a main quest - it is linked to other main quests by a thick line. You must complete main quests to unlock the next tier and to progress in general. If you can't progress, go back to previous tiers and look for uncompleted main quests.%n%nThe other quest is an optional quest, and is not needed to unlock new tiers. However, optional quests often introduce you to useful items or processes.%n%nWhat are the coins for? Starting in Stone Age, you can use them to purchase things in a Vending Machine.%n%nIn case you started in a bad biome, here's enough coins to purchase some saplings once you get to the Vending Machine.
 
 # Quest: Monster Hunter
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAACw.name=§9§lMonster Hunter
@@ -14267,7 +13558,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAACw.desc=It's about time to craft someth
 
 # Quest: What's That...?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAADg.name=§9§lWhat's That...?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAADg.desc=You've seen a lot of trees, but there are a few that look really special. You are sure that these trees are much more than just wood to build your home with or used to get charcoal. You're sure that these will be Very Important soon™.%n%nThe best place to find them is in a Magical Forest, but if you can't find one, you can try a Garden or Cherry Wood Grove. Or just randomly everywhere.%n%nIf you have trouble finding them, you can go to the Coins tab and buy them.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAADg.desc=You've seen a lot of trees, but there are a few that look really special. You are sure that these trees are much more than just wood to build your home with or used to get charcoal. You're sure that these will be Very Important soon™.%n%nThe best place to find them is in a Magical Forest, but if you can't find one, you can try a Garden or Cherry Wood Grove. Or just randomly everywhere.%n%nIf you have trouble finding them, you can use the Vending Machine in Stone Age.
 
 # Quest: Steam-a-licious!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAARg.name=§3§lSteam-a-licious!
@@ -14515,7 +13806,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAF3Q.desc=The mod ServerUtilities (SU) is
 
 # Quest: Nobody Wants an Explosion...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF3w.name=§6§lNobody Wants an Explosion...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF3w.desc=...right? So when building multiblocks, make sure you:%n%n1. Don't cross chunk boundaries with the multiblock.%n%n2. If possible, don't rely on resources coming from outside the chunk. Make sure you source your water locally.%n%nKeep in mind that electric machines don't like getting rain or snow on them. They'll start fires, and those fires have a chance of causing an explosion. This explosion will explode other machines, cascading until your whole base is a hole in the ground. This is one of the reason backups are a thing. Stay safe out there!%n%nIf worse comes to worst, there is logs/Explosion.log that tracks what caused an explosion. However, this file appears to reset on world load.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF3w.desc=...right? So when building multiblocks, make sure you keep in mind that electric machines don't like getting rain or snow on them. They'll start fires, and those fires have a chance of causing an explosion. This explosion will explode other machines, cascading until your whole base is a hole in the ground. This is one of the reason backups are a thing. Stay safe out there!%n%nIf worse comes to worst, there is logs/Explosion.log that tracks what caused an explosion. However, this file appears to reset on world load.
 
 # Quest: Not Enough Items - Now with Bookmarks and Recent History!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF4Q.name=§2§lNot Enough Items - Now with Bookmarks and Recent History!
@@ -14791,7 +14082,7 @@ betterquesting.quest.E9atHD5uR9CC0G1qEeFDmQ.desc=Want even more speed on your wa
 
 # Quest: A Portable Barrel?
 betterquesting.quest.EDtFbLVvQX2Y5mQp84W9bw.name=§2§lA Portable Barrel?
-betterquesting.quest.EDtFbLVvQX2Y5mQp84W9bw.desc=As an upgrade to the barrels, EFR also adds the ever-familiar shulker box! The shulker box allows you to comfortably tote around its contents. You can find the research for them in the New Horizons tab of the Thaumonomicon.%n%nThese have seven additional tiers much like the barrels and chests that give you additional storage space. %n%nYou can dye any tier by shapelessly crafting them with a dye, and undye them by shapelessly crafting them alone. They §nwill§r retain their inventory. %n%n[note]There are many ways to obtain shulker shells:%n1. Fighting Shulkers in the Twilight Forest Lich & Ghast Queen Towers.%n2. Fighting Shulkers from the eggs in the Coins tab.%n3. Manually crafting the shells.[/note]
+betterquesting.quest.EDtFbLVvQX2Y5mQp84W9bw.desc=As an upgrade to the barrels, EFR also adds the ever-familiar shulker box! The shulker box allows you to comfortably tote around its contents. You can find the research for them in the New Horizons tab of the Thaumonomicon.%n%nThese have seven additional tiers much like the barrels and chests that give you additional storage space. %n%nYou can dye any tier by shapelessly crafting them with a dye, and undye them by shapelessly crafting them alone. They §nwill§r retain their inventory. %n%n[note]There are many ways to obtain shulker shells:%n1. Fighting Shulkers in the Twilight Forest Lich & Ghast Queen Towers.%n2. Fighting Shulkers from the eggs you get from the Vending Machine.%n3. Manually crafting the shells.[/note]
 
 # Quest: Gold Barrel
 betterquesting.quest.GuylOTxSSraeAtj16fZ9-w.name=§3§lGold Barrel
@@ -15035,10 +14326,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALXQ.desc=No Description
 # Quest: Trigger: Obtain Sunnarium
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMBg.name=Trigger: Obtain Sunnarium
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMBg.desc=No Description
-
-# Quest: Trigger: SMD Transistor Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMjw.name=Trigger: SMD Transistor Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMjw.desc=No Description
 
 # Quest: Tool: Never complete
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrw.name=Tool: Never complete
