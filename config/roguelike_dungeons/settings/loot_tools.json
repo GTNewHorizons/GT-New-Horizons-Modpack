@@ -31,7 +31,7 @@
 		{"data": {"name": "gregtech:gt.metatool.01", "meta": 14, "nbt" : "{ench:[0:{id:19s,lvl:2s}],GT.ToolStats:{SecondaryMaterial:\"Wood\",PrimaryMaterial:\"Rubber\",Mode:0b,MaxDamage:25600L}}"}, "weight": 3},
 		{"data": {"name": "gregtech:gt.metatool.01", "meta": 44, "nbt" : "{ench:[0:{id:16s,lvl:2s}],GT.ToolStats:{SecondaryMaterial:\"Wood\",PrimaryMaterial:\"Steel\",Mode:0b,MaxDamage:51200L}}"}, "weight": 3},
 		{"data": {"name": "gregtech:gt.metatool.01", "meta": 26, "nbt" : "{ench:[0:{id:16s,lvl:2s}],GT.ToolStats:{SecondaryMaterial:\"Wood\",PrimaryMaterial:\"Steel\",Mode:0b,MaxDamage:51200L}}"}, "weight": 3},
-		{"data": {"name": "gregtech:gt.metatool.01", "meta": 46, "nbt" : "{ench:[0:{id:16s,lvl:2s}],GT.ToolStats:{SecondaryMaterial:\"Wood\",PrimaryMaterial:\"Steel\",Mode:0b,MaxDamage:51200L}}"}, "weight": 3},
+		{"data": {"name": "gregtech:gt.metatool.01", "meta": 46, "nbt" : "{ench:[0:{id:16s,lvl:2s}],GT.ToolStats:{SecondaryMaterial:\"Aluminium\",PrimaryMaterial:\"Aluminium\",Mode:0b,MaxDamage:12800L}}"}, "weight": 3},
 		{"data": {"name": "gregtech:gt.metatool.01", "meta": 24, "nbt" : "{ench:[0:{id:16s,lvl:2s}],GT.ToolStats:{SecondaryMaterial:\"Wood\",PrimaryMaterial:\"Steel\",Mode:0b,MaxDamage:51200L}}"}, "weight": 3},
 		{"data": {"name": "BiomesOPlenty:scytheDiamond", "meta": 0}, "weight": 2}
 

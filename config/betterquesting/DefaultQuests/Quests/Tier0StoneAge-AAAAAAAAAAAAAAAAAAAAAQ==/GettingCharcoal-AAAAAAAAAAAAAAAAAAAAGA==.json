@@ -12,19 +12,19 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Now you can make the bricks for your first multiblock structure. 104 bricks to be exact. Good that you just collected a lot of resources! What a coincidence...\n\nThe bricks you\u0027ll need are somewhat special. Make sure to craft the correct ones. With that done, let\u0027s build a coke oven to get some charcoal or coal coke! It may be useful to note that the oven doesn\u0027t automatically output its fluid contents. Faucets and pumps can help to change that.",
+      "desc:8": "Now you can make the bricks for your first multiblock structure. 108 bricks to be exact. Good that you just collected a lot of resources! What a coincidence...\n\nThe bricks you\u0027ll need are somewhat special. Make sure to craft the correct ones. With that done, let\u0027s build a coke oven to get some charcoal or coal coke! It may be useful to note that the oven doesn\u0027t automatically output its fluid contents. Later you will unlock a special hatch to change that.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 7,
+        "Damage:2": 236,
         "OreDict:8": "",
-        "id:8": "Railcraft:machine.alpha"
+        "id:8": "gregtech:gt.blockmachines"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 1,
-      "name:8": "§2§lGetting (Char)coal",
+      "name:8": "§a§lGetting (Char)coal",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -76,7 +76,7 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 104,
+          "Count:3": 108,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "dreamcraft:item.UnfiredCokeOvenBrick"
@@ -93,10 +93,16 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 104,
+          "Count:3": 108,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "dreamcraft:item.CokeOvenBrick"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:furnace"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -111,10 +117,16 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 26,
-          "Damage:2": 7,
+          "Count:3": 1,
+          "Damage:2": 236,
           "OreDict:8": "",
-          "id:8": "Railcraft:machine.alpha"
+          "id:8": "gregtech:gt.blockmachines"
+        },
+        "1:10": {
+          "Count:3": 25,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings12"
         }
       },
       "taskID:8": "bq_standard:crafting"

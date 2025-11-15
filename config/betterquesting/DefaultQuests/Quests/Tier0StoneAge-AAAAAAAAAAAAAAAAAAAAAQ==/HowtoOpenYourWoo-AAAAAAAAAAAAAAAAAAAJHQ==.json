@@ -12,7 +12,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Wooden doors make your House safer. Let\u0027s craft some wooden Pressure plates and Buttons to open these Doors.\n\nDoors will open when they receive a redstone signal, and close again after it stops. If you place the plates on either side of a door, it will open when you step on it. Or a monster does. Double doors will open together.\n\nYou\u0027ll need to use Oak for this quest. Purchase some saplings from the Coins tab if you don\u0027t have any nearby.\n\nPressure plates will send a redstone signal when an entity is on top of them. There are different types, like items or not, or mobs/player/any entity/etc.\n\nButtons will emit one for about 2 seconds before resetting.\n\nLevers will emit a signal until switched back off.",
+      "desc:8": "Wooden doors make your House safer. Let\u0027s craft some wooden Pressure plates and Buttons to open these Doors.\n\nDoors will open when they receive a redstone signal, and close again after it stops. If you place the plates on either side of a door, it will open when you step on it. Or a monster does. Double doors will open together.\n\nYou\u0027ll need to use Oak for this quest. Purchase some saplings from the Vending Machine if you don\u0027t have any nearby.\n\nPressure plates will send a redstone signal when an entity is on top of them. There are different types, like items or not, or mobs/player/any entity/etc.\n\nButtons will emit one for about 2 seconds before resetting.\n\nLevers will emit a signal until switched back off.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -24,7 +24,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 1,
-      "name:8": "§2§lHow to Open Your Wooden Doors?",
+      "name:8": "§a§lHow to Open Your Wooden Doors?",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

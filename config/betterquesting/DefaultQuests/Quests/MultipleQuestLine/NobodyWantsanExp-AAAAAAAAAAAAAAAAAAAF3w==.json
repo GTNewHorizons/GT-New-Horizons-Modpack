@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "...right? So when building multiblocks, make sure you:\n\n1. Don\u0027t cross chunk boundaries with the multiblock.\n\n2. If possible, don\u0027t rely on resources coming from outside the chunk. Make sure you source your water locally.\n\nKeep in mind that electric machines don\u0027t like getting rain or snow on them. They\u0027ll start fires, and those fires have a chance of causing an explosion. This explosion will explode other machines, cascading until your whole base is a hole in the ground. This is one of the reason backups are a thing. Stay safe out there!\n\nIf worse comes to worst, there is logs/Explosion.log that tracks what caused an explosion. However, this file appears to reset on world load.",
+      "desc:8": "...right? So when building multiblocks, make sure you keep in mind that electric machines don\u0027t like getting rain or snow on them. They\u0027ll start fires, and those fires have a chance of causing an explosion. This explosion will explode other machines, cascading until your whole base is a hole in the ground. This is one of the reason backups are a thing. Stay safe out there!\n\nIf worse comes to worst, there is logs/Explosion.log that tracks what caused an explosion. However, this file appears to reset on world load.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

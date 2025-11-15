@@ -12,18 +12,18 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "I have started to hit the limit of the multiblock without overclocking it, so I decided to give it a liquid cooling tower. This will allow it to overclock like every other multi with 2x Speed and 4x EU/t.\n\nI will need to provide some distilled water to its hatch to absorb any excess heat.\n\n[note]The Liquid Cooling Tower allows the Multiblock to have 2/4 OC at the cost of 10L/s of distilled water when running. The input hatch is placed in the bottom center of the Liquid Cooling Tower.[/note]",
+      "desc:8": "Starting to hit the production limit of the PCB Factory? Let\u0027s install a §5§lCooling Tower§r; this will allow any PCB Factory within its range to overclock with §22x§r Speed in exchange for §c4x§r EU and §910L/s§r of §nDistilled Water§r while running.\n\nYou can connect this to the PCB Factory by first left-clicking the PCB Factory Controller and then right-clicking the Cooling Tower Controller. One Cooling Tower can connect to any number of PCB Factories within a §216§r block radius.\n\n[note]The input hatch is placed in the bottom center of the Liquid Cooling Tower.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 0,
+        "Damage:2": 731,
         "OreDict:8": "",
-        "id:8": "IC2:upgradeModule"
+        "id:8": "gregtech:gt.blockmachines"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Liquid Cooling Tower",
+      "name:8": "§4§l§nLiquid Cooling Tower",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -43,41 +43,58 @@
       "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
-      "index:3": 0,
+      "index:3": 1,
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
+          "Damage:2": 731,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 20,
+          "Damage:2": 15,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings2"
+        },
+        "1:10": {
+          "Count:3": 40,
           "Damage:2": 335,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockframes"
         },
-        "1:10": {
-          "Count:3": 1,
-          "Damage:2": 10,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings8"
-        },
         "2:10": {
-          "Count:3": 1,
+          "Count:3": 19,
           "Damage:2": 12,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockcasings8"
         },
         "3:10": {
-          "Count:3": 1,
+          "Count:3": 12,
           "Damage:2": 4,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockcasings8"
         },
         "4:10": {
-          "Count:3": 1,
-          "Damage:2": 15,
+          "Count:3": 68,
+          "Damage:2": 10,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings2"
+          "id:8": "gregtech:gt.blockcasings8"
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }
