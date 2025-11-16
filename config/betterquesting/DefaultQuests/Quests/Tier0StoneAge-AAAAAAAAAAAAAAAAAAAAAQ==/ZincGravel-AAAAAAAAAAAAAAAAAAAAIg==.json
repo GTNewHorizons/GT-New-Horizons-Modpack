@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "You can find it in chunks of gravel on the surface.\n\nUse as little as possible and save the rest for when you get a macerator in Steam age, you\u0027ll get twice as much.\n\nIf you can\u0027t find any, you can buy them in the Coins tab.\n\nIf you get enough and fully process it, you can also get Gallium for Gallium Arsenide in LV age.",
+      "desc:8": "You can find it in chunks of gravel on the surface.\n\nUse as little as possible and save the rest for when you get a Macerator in Steam age, you\u0027ll get twice as much.\n\nIf you can\u0027t find any, you can buy them in the Vending Machine.\n\nIf you get enough and fully process it, you can also get Gallium for Gallium Arsenide in LV age.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -20,7 +20,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§2§lZinc Gravel",
+      "name:8": "§a§lZinc Gravel",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
