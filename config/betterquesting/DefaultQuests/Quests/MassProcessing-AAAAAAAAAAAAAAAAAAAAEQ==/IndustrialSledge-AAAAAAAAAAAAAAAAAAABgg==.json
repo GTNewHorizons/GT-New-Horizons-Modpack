@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "A multiblock forge hammer.",
+      "desc:8": "A multiblock forge hammer. You will need to put an anvil in the center; the tier you choose will influence the maximum parallel amount of the machine.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -63,15 +63,73 @@
           "Damage:2": 31075,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
-        },
-        "1:10": {
-          "Count:3": 1,
-          "Damage:2": 6,
-          "OreDict:8": "",
-          "id:8": "miscutils:gtplusplus.blockcasings.5"
         }
       },
       "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 18,
+          "Damage:2": 6,
+          "OreDict:8": "",
+          "id:8": "miscutils:gtplusplus.blockcasings.5"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 91,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:anvil"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "Railcraft:anvil"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "EnderIO:blockDarkSteelAnvil"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "thaumicbases:thaumicAnvil"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "thaumicbases:voidAnvil"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

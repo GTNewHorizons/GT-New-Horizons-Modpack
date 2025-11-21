@@ -12,7 +12,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The best source for hundreds of thousands of glass for...something? I dunno, think of something interesting and impress me!\n\nThis machine also does plasma arc furnace recipes.\n\n[note]This multi is LuV and requires Thorium 232.[/note]",
+      "desc:8": "The best source for hundreds of thousands of glass for...something? I dunno, think of something interesting and impress me!\n\nThis machine also does plasma arc furnace recipes, though you\u0027ll need to expand its size to maximum (7x7x3) in order to perform them.\n\n[note]This multi is LuV and requires Thorium 232.[/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -24,7 +24,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Bask in the currents",
+      "name:8": "Bask In The Currents",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -67,15 +67,32 @@
           "Damage:2": 862,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
-        },
-        "1:10": {
-          "Count:3": 1,
-          "Damage:2": 3,
-          "OreDict:8": "",
-          "id:8": "miscutils:gtplusplus.blockcasings.4"
         }
       },
       "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 18,
+          "Damage:2": 3,
+          "OreDict:8": "",
+          "id:8": "miscutils:gtplusplus.blockcasings.4"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 91,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

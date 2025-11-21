@@ -78,10 +78,40 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 1,
+          "Count:3": 146,
           "Damage:2": 3,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockcasings10"
+        },
+        "1:10": {
+          "Count:3": 42,
+          "Damage:2": 473,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockframes"
+        },
+        "2:10": {
+          "Count:3": 42,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "bartworks:BW_GlasBlocks"
+        },
+        "3:10": {
+          "Count:3": 14,
+          "Damage:2": 12,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings2"
+        },
+        "4:10": {
+          "Count:3": 7,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings5"
+        },
+        "5:10": {
+          "Count:3": 7,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings11"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
