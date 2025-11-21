@@ -6732,96 +6732,96 @@ betterquesting.quest.wgxwGsMBScCIIWzrgyfb8w.desc=Now that you have Titanium, why
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAEQ.name=Mass Processing
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAEQ.desc=This tab showcases new high-speed multiblocks to replace your old machines as they become available. Check back regularly!
 
-# Quest: A steam-powered whirl!
-betterquesting.quest.0rUmaWIPQPaL93q-_pgKXw.name=A steam-powered whirl!
+# Quest: A Steam-Powered Whirl!
+betterquesting.quest.0rUmaWIPQPaL93q-_pgKXw.name=§c§lA Steam-Powered Whirl!
 betterquesting.quest.0rUmaWIPQPaL93q-_pgKXw.desc=How does one centrifuge rare materials in the Steam Age? The answer is by building and using the Steam Separator, of course! By using steam to create a spinning force, this Multiblock can separate different materials quickly and easily.%n%nIf you think separation is taking forever, the Steam Separator will speed things up!%n%n§3This Multiblock can process recipes up to LV Tier, and does accept an Output Hatch for recipes. But if you are looking to use recipes which require Fluid Inputs, you might have to build an LV Centrifuge in the future.
 
 # Quest: Big Beautiful Brewery
-betterquesting.quest.3SzKMSj0StOAOzVmInDjZQ.name=Big Beautiful Brewery
+betterquesting.quest.3SzKMSj0StOAOzVmInDjZQ.name=§5§lBig Beautiful Brewery
 betterquesting.quest.3SzKMSj0StOAOzVmInDjZQ.desc=Start your own local brewery with the BBB! You can use it to make tons of potions, obscure alcoholic drinks, or, more likely, industrial quantities of lubricant.
 
 # Quest: Fits The Mold
-betterquesting.quest.6glle46JSyuwR6O4x7mLYA.name=Fits The Mold
+betterquesting.quest.6glle46JSyuwR6O4x7mLYA.name=§9§lFits The Mold
 betterquesting.quest.6glle46JSyuwR6O4x7mLYA.desc=Making machines for every mold sounds tiring... fortunately, the Fluid Shaper multiblock can handle any number of molds by using §lSolidifier Hatches§r. This multiblock is also extendable, gaining more parallels if you add additional segments. Be sure to expand it if it's too slow!%n%n[note]The Fluid Shaper also speeds up as it is running, making it more efficient to do large batches.[/note]
 
 # Quest: T2 Maceration Stack 
-betterquesting.quest.A4rEQOAXQsaa26Ib_nzkHg.name=T2 Maceration Stack 
+betterquesting.quest.A4rEQOAXQsaa26Ib_nzkHg.name=§9§lT2 Maceration Stack 
 betterquesting.quest.A4rEQOAXQsaa26Ib_nzkHg.desc=Upgrade your Maceration Stack by replacing all the casings with Maceration Stack Casings and then placing the Upgrade Chip into the slot in the controller.%n%nThe Tier 2 Maceration stack has 4x more parallels!
 
-# Quest: Smelt All the Things Stack-Wise...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAVQ.name=Smelt All the Things Stack-Wise...
+# Quest: Smelt All The Things Stack-Wise...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAVQ.name=§5§lSmelt All The Things Stack-Wise...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAVQ.desc=...with this great invention! Upgrade power and coils to smelt absolutely ridiculous amounts of items.
 
 # Quest: Industrial Sledgehammer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABgg.name=Industrial Sledgehammer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABgg.desc=A multiblock forge hammer.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABgg.name=§9§lIndustrial Sledgehammer
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABgg.desc=A multiblock forge hammer. You will need to put an anvil in the center; the tier you choose will influence the maximum parallel amount of the machine.
 
-# Quest: A volcano for your base.
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABhQ.name=A volcano for your base.
+# Quest: A Volcano For Your Base.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABhQ.name=§9§lA Volcano For Your Base.
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABhQ.desc=The ultimate machine for cobblestone production. Or maybe to turn redstone into obsidian on a large scale for a renewable production of Silicon, Magnesium, Iron, and Oxygen.
 
 # Quest: You Smell Like a Distillery!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADAA.name=You Smell Like a Distillery!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADAA.name=§5§lYou Smell Like a Distillery!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADAA.desc=This bad boy will tremendously boost the byproducts of your cracked fuel or pyrolyse oven. This way you can make industrial TNT, polyethylene, polytetrafluoroethylene and other plastics more efficiently. You'll also need this for the platline.%n%nYou'll need to make EV circuits in a cleanroom to build this machine.%n%nFor hatches, you can choose your own tier. 1 MV energy does most of the useful recipes. 2 MV energy or 1 HV energy hatch will cover almost all the rest.%n%nYou will need 1 input hatch, and at least 5 output hatches. An output bus will capture any solid outputs.%n%n[note]PS: I listed all the DT recipes on the spreadsheet for you to look at in a convenient format. Now you can easily compare which oil path to take![/note]
 
 # Quest: Bring Me My Vat of Polyethylene!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADbA.name=Bring Me My Vat of Polyethylene!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADbA.desc=Tired of using small cells to process chemicals? Build a Large Chemical Reactor and you can just pipe in and out fluids. Or use the glorious large fluid cells to deliver and remove fluids from the hatches.%n%nYou can decide if the reactor should void any extra products when the outputs are full or not by toggling the void mode in the GUI!%n%nThere are also recipes specific to only the LCR, sometimes even allowing you to skip a step, so keep your eyes open for that.%n%nAdditionally, as a multiblock, LCR also counts as a cleanroom for any cleanroom recipes.%n%nYou will also need:%n1 Maintenance Hatch%n1-2 Energy Hatches%n0+ Input Bus (if a recipe has an item input. For full automation, you should probably use 1 for each material)%n0-1 Output Bus (if a recipe has an item output)%n2+ Input Hatch (use 1 for every fluid)%n1+ Output Hatch (same as above)%n%nYou can use a screwdriver on an output hatch to cycle through its modes. Use shift-right-click to go directly to specific fluid mode, then lock the fluid with a cell for easier automation. This works on more than just the LCR.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADbA.name=§5§lBring Me My Vat of Polyethylene!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADbA.desc=Tired of using small cells to process chemicals? Build a Large Chemical Reactor and you can just pipe in and out fluids. Or use the glorious large fluid cells to deliver and remove fluids from the hatches.%n%nYou can decide if the reactor should void any extra products when the outputs are full or not by toggling the void mode in the GUI!%n%nThere are also recipes specific to only the LCR, sometimes even allowing you to skip a step, so keep your eyes open for that.%n%nAdditionally, as a multiblock, LCR also counts as a cleanroom for any cleanroom recipes.%n%nYou will also need:%n1 Maintenance Hatch%n1-2 Energy Hatches%n0+ Input Bus (if a recipe has an item input. For full automation, you should probably use 1 for each material)%n0-1 Output Bus (if a recipe has an item output)%n2+ Input Hatch (use 1 for every fluid)%n1+ Output Hatch (same as above)%n%nYou can use a screwdriver on an output hatch to cycle through its modes. Use shift-right-click to go directly to specific fluid mode, then lock the fluid with a cell for easier automation. This works on more than just the LCR.%n%n[note]You can use any type of coil to form the structure, but there is no benefit accrued from using higher tiers.[/note]
 
 # Quest: Hulk Smash!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjQ.name=Hulk Smash!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjQ.name=§8§lHulk Smash!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjQ.desc=Mass destruction! Or at least, lots and lots of crushed ores. Build a maceration stack to keep up with all the ores you are getting. In IV you can upgrade the Multi to be much better with an upgrade chip and better casings.
 
-# Quest: The rocks in the washer...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjg.name=The rocks in the washer...
+# Quest: The Rocks In The Washer...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjg.name=§8§lThe Rocks In The Washer...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjg.desc=...go round and round, all the live long day. A large ore washing plant gets your rocks nice and clean. You can switch between Ore Washer and Chemical Bath modes with a screwdriver.
 
-# Quest: Dancing in circles
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjw.name=Dancing in circles
+# Quest: Dancing In Circles
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjw.name=§8§lDancing In Circles
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjw.desc=Spinning around, getting hot - sounds like a dance. Or a thermal centrifuge. Build a large thermal refinery to get the most out of your ores.%n%nYou can use Noise Hazard Signs instead of Thermal Processing Casings, as long as you have at least 8 Thermal Processing Casings.%n%nThe muffler goes on the bottom layer.
 
-# Quest: I think I'm going to be sick
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7A.name=I think I'm going to be sick
+# Quest: I Think I'm Going to be Sick
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7A.name=§8§lI Think I'm Going to be Sick
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7A.desc=The Industrial Centrifuge is the solution to those thousands of ore you'll get with the multiblock ore drill.
 
-# Quest: Bask in the currents
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7Q.name=Bask in the currents
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7Q.desc=The best source for hundreds of thousands of glass for...something? I dunno, think of something interesting and impress me!%n%nThis machine also does plasma arc furnace recipes.%n%n[note]This multi is LuV and requires Thorium 232.[/note]
+# Quest: Bask In The Currents
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7Q.name=§d§lBask In The Currents
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7Q.desc=The best source for hundreds of thousands of glass for...something? I dunno, think of something interesting and impress me!%n%nThis machine also does plasma arc furnace recipes, though you'll need to expand its size to maximum (7x7x3) in order to perform them.%n%n[note]This multi is LuV and requires Thorium 232.[/note]
 
 # Quest: Bate Bate Chocolate
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7g.name=Bate Bate Chocolate
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7g.name=§9§lBate Bate Chocolate
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7g.desc=Abuela, will you teach us the chocolate song?%nCon mucho gusto%nWill you sing the chocolate song with us?%nGreat, sing along with Abuela!%n%nBate bate chocolate%nBate bate chocolate%nBate bate chocolate%nBate bate chocolate%n%nMix your chocolate, chocolate%nMix your chocolate, chocolate%nBate bate chocolate%nBate bate chocolate
 
-# Quest: Play doh for big girls and boys
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7w.name=Play doh for big girls and boys
+# Quest: Play-Doh For Big Girls and Boys
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7w.name=§9§lPlay-Doh For Big Girls and Boys
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7w.desc=I never wanna grow up, I wanna play with my mega extrusion machine.%nAnd in case you didn't read the description in NEI: You can use multiple input buses with a different extruder shape in each and then throw the items to extrude into the bus with the appropriate shape.
 
-# Quest: Best thing since sliced bread
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH8A.name=Best thing since sliced bread
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH8A.desc=When all you have is a machine full of knives, everything starts looking like bread. You can switch between Cutting Machine and Slicing Machine modes with a screwdriver.%n%nBluebine 2019!
+# Quest: Best Thing Since Sliced Bread
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH8A.name=§9§lBest Thing Since Sliced Bread
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH8A.desc=When all you have is a machine full of knives, everything starts looking like bread. You can switch between Cutting Machine and Slicing Machine modes with a screwdriver.
 
 # Quest: ZzzZZZzzzZtt
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH8g.name=ZzzZZZzzzZtt
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH8g.name=§9§lZzzZZZzzzZtt
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH8g.desc=Need lots of oxygen or hydrogen, or just want to rip apart materials for tons of aluminium?
 
 # Quest: Frozen Stiff
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH8w.name=Frozen Stiff
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH8w.name=§9§lFrozen Stiff
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH8w.desc=I'm so cold... You'll need a constant supply of Cryotheum to use it.
 
 # Quest: Hephaestus' EBF
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9A.name=Hephaestus' EBF
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9A.name=§9§lHephaestus' EBF
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9A.desc=The Volcanus Advanced EBF will process items faster than you can believe. You'll need a constant supply of Pyrotheum to use it. And coils.%n%n[note]This multi is IV, but uses 2 ZPM circuits.[/note]
 
-# Quest: Spools and spools
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9Q.name=Spools and spools
+# Quest: Spools and Spools
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9Q.name=§9§lSpools and Spools
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9Q.desc=Need enough wire to go around the world? Here you go.
 
-# Quest: Bender more bending
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9g.name=Bender more bending
+# Quest: Bender, More Bending!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9g.name=§8§lBender, More Bending!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9g.desc=When you need plates by the thousands. You can switch between Bending Machine and Forming Press modes with a screwdriver.
 
-# Quest: Bezos would be proud
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9w.name=Bezos would be proud
+# Quest: Bezos Would Be Proud
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9w.name=§9§lBezos Would Be Proud
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9w.desc=The Amazon Warehousing Depot is the ultimate for all your packing needs. Got tiny and small dusts coming out of your ears? This is the machine for you.
 
 # Quest: Mega is Betta
@@ -6832,12 +6832,12 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAH_A.desc=For someone who needs to blast 
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH_Q.name=§6§lFrostbite!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH_Q.desc=This mega vac freezer can handle up to 256 items.
 
-# Quest: Empty the oceans
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIBQ.name=Empty the oceans
+# Quest: Empty The Oceans
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIBQ.name=§9§lEmpty The Oceans
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIBQ.desc=If you stuck with fish for bio diesel this long, you can now make the Zhuhai Fishing Port to get cartloads of fish and other byproducts.
 
-# Quest: Putting all those workers out of jobs
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIBg.name=Putting all those workers out of jobs
+# Quest: Putting All Those Workers Out of Jobs
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIBg.name=§b§lPutting All Those Workers Out of Jobs
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIBg.desc=The large scale auto-assembler will put things together for you, in volume. This multi is available in ZPM.%n%n[note]While it unlocks much later, has much fewer parallels, and has no TT energy hatch support in contrast to the Precise Assembler, it has one upside: If you use two energy hatches you can craft items of the next tier.[/note]
 
 # Quest: Tower of Babylon
@@ -6845,23 +6845,23 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJEA.name=§6§lTower of Babylon
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJEA.desc=Well what might happen if you combine 64 Distillation Towers in one...? You know... you get a 61 Block tall Multiblock.%n%nThis can handle up to 256 Recipes at once.
 
 # Quest: Circuit Assembly Line
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKKQ.name=Circuit Assembly Line
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKKQ.name=§d§lCircuit Assembly Line
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKKQ.desc=You'll need all of this to create 4 CALs, enough for a single series of circuits. If you only want one (for the microprocessors for example), just divide by 4.%n%nAssuming you got the necessary imprints on the LuV tab, you can now craft the CALs for the crystal processor series. We're starting with 4 since you'll need one per circuit, the imprint is not removable. And yes this means you need one for every circuit type you want to make with the CAL.%n%nAs an Assembly Line, it generally works like the normal one, with different items in each bus, but since it's only one item per CAL, it's far easier to use, and the recipe is cheaper too.%n%nThe CAL uses 'wraps' to make 16 of a circuit at a time (aside from ULV and LV circuits), saving you time, EU, and Soldering Alloy (or Indalloy). You make the wraps in an Assembler with 16 of the item and Polyethylene.%n%n[note]BTW you can change out the Hatches and Buses for better ones, but you still need to keep ingredient order. Also CAL grants perfect overclock.[/note]
 
-# Quest: Cool Guys Don't Look at Explosions
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKxQ.name=Cool Guys Don't Look at Explosions
+# Quest: Cool Guys Don't Look At Explosions
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKxQ.name=§9§lCool Guys Don't Look At Explosions
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKxQ.desc=They automate them instead.%n%n[note]This multi is IV, but uses platline mats and ZPM circuits.[/note]
 
-# Quest: Let me fabricate a new universe...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKxg.name=Let me fabricate a new universe...
+# Quest: Let Me Fabricate a New Universe...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKxg.name=§b§lLet Me Fabricate a New Universe...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKxg.desc=This multi is dedicated to producing UUM and Scrap. It is one of the hardest GT++ multis to craft, but you will be able to replicate many things if you get it working.%n%n[note]This multi is traditionally UV but can technically be made in ZPM.[/note]
 
-# Quest: I Want SOLIDS not LIQUIDS!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKxw.name=I Want SOLIDS not LIQUIDS!
+# Quest: I Want SOLIDS Not LIQUIDS!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKxw.name=§9§lI Want SOLIDS Not LIQUIDS!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKxw.desc=For when your ABS isn't the right machine. Also uses coils.%n%nNote that this is a multiblock version of the alloy smelter, not a solid version of the alloy blast smelter.
 
 # Quest: Steamy Mincer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKzA.name=Steamy Mincer
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKzA.name=§c§lSteamy Mincer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKzA.desc=This is an upgraded version of your trusty ol' Steam Macerator. As a 3x3 Multiblock, it might seem expensive if you're in the Steam Age. However, the processing time per ore is so low that you can sustain your beginner's ore processing system with it!%n%nThe main reason to switch from this is the HV Macerator, which unlocks a slot for additional byproducts gained from the macerating step of ore processing. The Steam Grinder, in comparison, will only return the first item shown in the recipe output. However, this will do just fine until HV!%n%n§3The Steam Grinder can only process recipes up to LV Tier.
 
 # Quest: MABS
@@ -6873,103 +6873,103 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMig.name=§6§lAnother Chemical Multiblo
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMig.desc=You probably have built a lot of Large Chemical Reactors by now. With the powerful 4/4 overclocking it is one of the strongest multiblocks there is. But what if even that is not enough to satisfy your chemical needs? You can't make it faster after using your best energy hatches available.%n%nFear not, we have a solution for you: The Mega Chemical Reactor. It lets you do 256 parallels for your LCR recipes! And you can still overclock after that if you provide enough power.%n%nIt only unlocks in LuV as it needs 7 Fusion Coil Blocks. Check with your hologram projector to see how it is built and what you need.%n%nThe glass tier limits the energy hatch tier that you can use. You can even use multiamp hatches from TecTech! If you want to use laser hatches however you need at least UV glass.
 
 # Quest: Mass Processing in LuV and Beyond
-betterquesting.quest.ECDllKcSQ4SONHHfkfO0yw.name=Mass Processing in LuV and Beyond
+betterquesting.quest.ECDllKcSQ4SONHHfkfO0yw.name=§d§lMass Processing in LuV and Beyond
 betterquesting.quest.ECDllKcSQ4SONHHfkfO0yw.desc=As you enter LuV and beyond, fewer mass processing multiblocks are available as you replace old setups with new systems and scale up the multiblocks you've already built - there are still some important upgrades in these higher tiers, though.%n%nDefinitely don't miss out on the Circuit Assembly Line or you'll be kicking yourself later.%n%nBe a true GT engineer and finish out your collection!
 
 # Quest: Clean Implosions?!
-betterquesting.quest.IlCOpa8bR9WbOjSOPxZIlA.name=Clean Implosions?!
+betterquesting.quest.IlCOpa8bR9WbOjSOPxZIlA.name=§4§l§nClean Implosions?!
 betterquesting.quest.IlCOpa8bR9WbOjSOPxZIlA.desc=Introducing the bigger (and better) Implosion Compressor, the Electric Implosion Compressor.%n%nThe Electric Implosion Compressor does not need any explosive and only needs electricity, isn't that very nice!%n%nFurthermore it gains extra parallels 4^(Tier - 1) based on the containment block used in the middle.%n%nTier 1: Neutronium Block%nTier 2: Infinity Block%nTier 3: transcendent Metal Block%nTier 4: Spacetime Block%nTier 5: Universium Block%n%n[note]While the structure preview shows holes in the middle, it requires the full 27 containment blocks to form, once formed the middle 5 blocks will disappear visually, but sometimes when breaking you will get them back (and sometimes you won't). [/note]%n%n[note]The minimum allowed energy hatch tier is one tier below the recipe tier, so let's start with 2 UHV energy hatches for now.[/note]
 
 # Quest: Extraction Point
-betterquesting.quest.Itn1KOiISHSbXzoDd2BB8w.name=Extraction Point
+betterquesting.quest.Itn1KOiISHSbXzoDd2BB8w.name=§8§lExtraction Point
 betterquesting.quest.Itn1KOiISHSbXzoDd2BB8w.desc=Nothing turns solids to liquids faster than the Large Fluid Extractor - not yet, anyways. You'll need to make both Heating and Solenoid Coils for this multiblock.%n%n[note]This multiblock is technically EV, but it will demand a lot of tungstensteel.[/note]
 
-# Quest: More steam, more pressure!
-betterquesting.quest.Plg8vg0gS9Ks2Ddc5sIVOg.name=More steam, more pressure!
+# Quest: More Steam, More Pressure!
+betterquesting.quest.Plg8vg0gS9Ks2Ddc5sIVOg.name=§c§lMore Steam, More Pressure!
 betterquesting.quest.Plg8vg0gS9Ks2Ddc5sIVOg.desc=How do you compress things in the Steam Age? Simple, putting a lot of steam in one place, under high pressure, can apply a force to compress things...%n%nLet's just make it bigger. With the Steam Squasher, you can have a Compressor in a much larger scale, similarly to the other Steam Multiblocks. If you feel like compressing recipes are taking too long, which they probably are, this is a good solution to your problems.%n%nOnce the multi forms, provide lots of steam to get lots of compressed items.
 
 # Quest: Insane Voltage Multiblocks
-betterquesting.quest.RFgYQ7LAQD-p1gHMaeg5Sg.name=Insane Voltage Multiblocks
+betterquesting.quest.RFgYQ7LAQD-p1gHMaeg5Sg.name=§9§lInsane Voltage Multiblocks
 betterquesting.quest.RFgYQ7LAQD-p1gHMaeg5Sg.desc=Upon reaching the land of IV machinery, you can put together even more multis and speed up your automation!%n%nMany of the multiblocks from IV tier onwards use special alloys, which either need to be cooked like any ingots you've used before (in a Furnace or EBF), but there are also alloys which have to be made in the Alloy Blast Smelter (ABS), as a fluid, which then needs to be solidified.%n%nThe multis that need ABS alloys are further down. To unlock their quests, you will first need to craft the ABS itself. However, there is a large assortment of machines you can craft without it, just by having the respective IV singleblock equivalent and some other resources.%n%nThose will be here... but you might be able to find some more, if you look closely through NEI. Good luck!
 
 # Quest: See You Lather
-betterquesting.quest.VJN1qfd5SjCkm7CXVd9Pag.name=See You Lather
+betterquesting.quest.VJN1qfd5SjCkm7CXVd9Pag.name=§8§lSee You Lather
 betterquesting.quest.VJN1qfd5SjCkm7CXVd9Pag.desc=Just in time for the huge number of crystal rods you'll need to get your Applied Energistics system up and running, the Industrial Precision Lathe!%n%nThe number of recipes that can be processed in parallel by the IPL depends on the item pipe casing.%n§9(Parallel = Item Pipe Casing Tier * 8)§r%n%nAdditionally, it has a 300%% speed boost on all recipes compared to the singleblock of that voltage and only consumes 80%% of the EU/t normally required
 
 # Quest: Steam Blender?
-betterquesting.quest.WEwrzX4ZRkSxJ3M6cBesfA.name=Steam Blender?
+betterquesting.quest.WEwrzX4ZRkSxJ3M6cBesfA.name=§c§lSteam Blender?
 betterquesting.quest.WEwrzX4ZRkSxJ3M6cBesfA.desc=Why use fancy wiring and circuitry to blend dusts together when you can do the same thing with steam and pistons? The Steam Blender is the largest of these Steam Multiblocks and can handle your mixing needs for a while, having more parallel than an LV singleblock Mixer.%n%n[note]This Multiblock can only process recipes up to LV tier.[/note]
 
 # Quest: Steam Fusing?
-betterquesting.quest.WGhhKERfRTiJXKZEPoRf1Q.name=Steam Fusing?
+betterquesting.quest.WGhhKERfRTiJXKZEPoRf1Q.name=§c§lSteam Fusing?
 betterquesting.quest.WGhhKERfRTiJXKZEPoRf1Q.desc=Singleblock Alloy Smelters not fast enough for you? Look no further than the Steam Fuser. This will make light work of your alloy smelter tasks at a fraction of the steam cost and a much faster speed. %n(Check out the tooltip for more info!)%n%nWhile the NEI requirements show borosilicate glass, you can substitute any HV tier glass in it's place like warded glass, quite clear glass, or fused quartz. If you end up using borosilicate; boron can be obtained from electrolyzing borax.%n%n[note]Will only process up to LV tier recipes[/note]
 
 # Quest: Taking Things Apart
-betterquesting.quest.XA467S8MQtCEPy6L23eEEA.name=Taking Things Apart
+betterquesting.quest.XA467S8MQtCEPy6L23eEEA.name=§5§lTaking Things Apart
 betterquesting.quest.XA467S8MQtCEPy6L23eEEA.desc=You probably haven't thought about the extractor in a while. Is your steam extractor still collecting dust somewhere? Well, if you do find yourself needing to extract things quick, (processing industrial quantities of flowers, maybe?) pick up the Dissection Apparatus.%n%n[note]This multi gets additional parallels based on tier of item pipe casing, so use the best one you can get![/note]
 
 # Quest: Advanced Assembly Line
-betterquesting.quest.ZIotzqvnRiKu1_1Hb9i1dg.name=Advanced Assembly Line
+betterquesting.quest.ZIotzqvnRiKu1_1Hb9i1dg.name=§d§lAdvanced Assembly Line
 betterquesting.quest.ZIotzqvnRiKu1_1Hb9i1dg.desc=This is the advanced assembly line from §6GigaGram§rFab.%n%nIt supports item pipelining. That is, it will mimic a real assembly line by consuming ingredients one by one instead of all at start. In effect, it offers a parallelism up to however many item inputs this recipe requires. You can think of an advanced assembly line as a collection of slices which are capable of processing each step independently from other slices. It will start processing once the input bus contents align with any stored data stick. The first slice will consume the input in Bus #1. After (recipe time/number of inputs) time, the first slice's work is concluded and will start the second slice. At the same time, first slice will look for input in input bus #1. If there are still enough input there slice #1 will start working again.%n%nThe terminal slice (the n-th slice, where n is number of item input in recipe) will put the recipe output in output bus when it has concluded his work. Whenever a non-terminal slice finished its work, it will try to pass the work onto next slice. If the next slice cannot find the materials in its input bus, the just-finished slice will remain in [warn]STUCK[/warn] state and hang the assembly line. To help locate these [warn]STUCK[/warn] assembly lines, the controller's front face will have its status light turned orange.%n%nThe EU/t cost of this machine is number of slices active multiplied by the original recipe EU/t. [warn]STUCK[/warn] slices do not consume power. It will use the worst energy supplying hatch's input voltage for recipe tier calculation and normal imperfect overclock. With exotic energy hatches, it can overclock beyond usual voltage tier, but will consume even more power than usual imperfect overclock. Every §2laser overclock§r will 0.3 to power exponent. 1 §2laser overclock§r will have 50%% recipe time and use 430%% power. 2 §2laser overclocks§r will have 25%% recipe time and use 1978%% power. Will not overclock beyond 1 tick. Machine first tries to parallelize, then normal imperfect overclock, then §2laser overclock§r.
 
 # Quest: Advanced Autoclaving
-betterquesting.quest._dFgSThoQTWgM696ykr2Gw.name=Advanced Autoclaving
+betterquesting.quest._dFgSThoQTWgM696ykr2Gw.name=§d§lAdvanced Autoclaving
 betterquesting.quest._dFgSThoQTWgM696ykr2Gw.desc=In LuV, you can make the Industrial Autoclave. This is a huge multiblock with many scaling factors - it is also extremely powerful. You'll definitely want to pick one of these up to process crystal chips quickly for the crystal circuit line.%n%n[note]Coils, pipe casings, and item pipe casings are all extremely important to this multi's scaling. Use the best ones you have![/note]
 
-# Quest: ...with the power of science!
-betterquesting.quest.bLAFkZX-RHGRFAz-C93aeQ.name=...with the power of science!
+# Quest: ...With The Power of Science!
+betterquesting.quest.bLAFkZX-RHGRFAz-C93aeQ.name=§b§l...With The Power of Science!
 betterquesting.quest.bLAFkZX-RHGRFAz-C93aeQ.desc=This multiblock will allow you to use all that UU-Matter that your Matter Fabricator makes, not that you don't have anything else to do with it...%n%n[note]This multi is traditionally UV, but can technically be made in ZPM.[/note]
 
 # Quest: You've Gotta Keep 'Em Separated
-betterquesting.quest.bkEol9zuRiiCMwMUopFHhg.name=You've Gotta Keep 'Em Separated
+betterquesting.quest.bkEol9zuRiiCMwMUopFHhg.name=§9§lYou've Gotta Keep 'Em Separated
 betterquesting.quest.bkEol9zuRiiCMwMUopFHhg.desc=When you need to polarize magnets or separate magnetic materials, look to the MFE! This multiblock requires an electromagnet to be inserted into its housing - better magnets, better bonuses. In IV, you'll be stuck with an Iron Electromagnet, though.%n%n[note]At the final tier of electromagnet, you can use TecTech multi-amp hatches. Might be good to remember when you're processing a certain magnetic material...[/note]
 
 # Quest: Cracking the World
 betterquesting.quest.d5Fxz8ClQQCXy9GN_m9BrA.name=§6§lCracking the World
 betterquesting.quest.d5Fxz8ClQQCXy9GN_m9BrA.desc=How much oil do you need? Or maybe it's Naquadah Fuel you're after, or Radox... either way, this massive structure can handle it, boasting 256 parallels.
 
-# Quest: An End to Deforestation
-betterquesting.quest.fLH_QDPRR6mgCK0PL5iWmA.name=An End to Deforestation
+# Quest: An End To Deforestation
+betterquesting.quest.fLH_QDPRR6mgCK0PL5iWmA.name=§9§lAn End To Deforestation
 betterquesting.quest.fLH_QDPRR6mgCK0PL5iWmA.desc=This multiblock is the perfect solution to high-speed tree farming. Do you need wood for charcoal or benzene power? Nuts for seed oil? Leaf blocks for decoration? Look no further!%n%nThe Tree Growth Simulator can farm almost any tree in the game, and produces all the items you would get by chopping it down normally. All this in a compact 3x3x3 cube, without any lag from growing a real tree.%n%nFirst, place any sapling in the controller slot of the multiblock. Then, insert tools appropriate to the part of the tree you want to harvest in an input bus. Give the machine power, turn it on, and be ready to get flooded by the outputs.%n%nDifferent tools are required to gather different parts of the tree:%n - Saw for logs%n - Branch Cutter for saplings%n - Shears for leaves%n - Knife for fruit%nBetter versions of the tools (Chainsaw, Grafter, ...) will increase the yield! Check the tooltip of the controller block for details.%n%nYou can even use multiple different tools together, and the machine will harvest several different products at the same time!%n%nNote that the tools used will slowly lose durability, so for long-term operation you might want to set up some automatic replacement.%n%n[note]While this machine only requires IV, it is quite expensive to make early in the tier. You will need 16 ZPM circuits and some fancy alloys.[/note]
 
-# Quest: Can it!
-betterquesting.quest.gMRufFtRRRa30LE21boFNQ.name=Can it!
+# Quest: Can It!
+betterquesting.quest.gMRufFtRRRa30LE21boFNQ.name=§5§lCan It!
 betterquesting.quest.gMRufFtRRRa30LE21boFNQ.desc=If you've ever needed to wait on a Canning Machine to fill up your supply of tin cans, or for a Fluid Canning Machine to make mountains of coolant, consider the TurboCan Pro. This multiblock acts as both machines and has significant bonuses - when the time comes that you decide you need it!
 
 # Quest: Spinmatron-2737
-betterquesting.quest.p4BZRIJZQKON4zmHeIqcoA.name=Spinmatron-2737
+betterquesting.quest.p4BZRIJZQKON4zmHeIqcoA.name=§b§lSpinmatron-2737
 betterquesting.quest.p4BZRIJZQKON4zmHeIqcoA.desc=Tired of spamming Centrifuges already? %n%nAlas, with your newfound ZPM technology you can finally fabricate a Centrifuge with some real power; §5§lThe Spinmatron-2737§r!%n%nThe Spinmatron§r comes with a litany of advantages compared to the regular centrifuge multiblock, including a §2§l3x§r Speed boost, a §2§l30%%§r reduction in EU usage, and a malleable number of parallels.%n%nUnlike the generic turbine that comes stock in a normal Centrifuge, the Spinmatron§r graciously allows you to choose the quality of the turbines that go into the machine. You can add between §9§l2-8§r turbines depending on the machine tier, each turbine will increase the parallel amount by [§94 * Turbine Material Tier§r]. §3(You'll want to avoid using smaller, non-huge turbines!)§r%n%nThis efficiency comes at a cost however, and will require [§9Recipe Tier * 10§r] L/s of §5Kerosene§r in order to run. This can optionally be switched out with §5Biocatalyzed Propulsion Fluid§r for a §2§l1.25x§r parallel multiplier once you've reached §4UEV§r.%n%nAdditionally there are three modes that come unique to the Spinmatron:%n%n- §dLight§r -> Gives increased speed in exchange for only being able to process [§9Voltage Tier - 3§r] recipes%n%n- §6Normal§r -> No changes%n%n- §aHeavy§r -> Grants the ability to craft Heavy Mode dependent recipes in exchange for reducing your parallels by §c§l32x§r and consuming §5Biocatalyzed Propulsion Fluid§r.%n%n[note]Checkout the tooltip for more information![/note]%n%n[warn]Use the GUI for adding turbines; don't add them to the rotor assemblies.[/warn]
 
 # Quest: High Voltage Multiblocks
-betterquesting.quest.pKSx6HEUS0WkL6qkwo742g.name=High Voltage Multiblocks
+betterquesting.quest.pKSx6HEUS0WkL6qkwo742g.name=§5§lHigh Voltage Multiblocks
 betterquesting.quest.pKSx6HEUS0WkL6qkwo742g.desc=Time to scale up production! In HV, a handful of new powerful multiblocks are available to you. In particular, take a look at the §lLarge Chemical Reactor§r, which always perfectly overclocks, as well as the §lDistillation Tower§r, which will allow you to get all byproducts from distillation instead of targeting just one.
 
 # Quest: Under Pressure
-betterquesting.quest.qDZZLi21TrmdWXwo_KimIw.name=Under Pressure
+betterquesting.quest.qDZZLi21TrmdWXwo_KimIw.name=§8§lUnder Pressure
 betterquesting.quest.qDZZLi21TrmdWXwo_KimIw.desc=Bigger, better, faster. The Large Electric Compressor does about what you would expect.
 
 # Quest: STEAM-POWERED BREAKTHROUGH
-betterquesting.quest.quLxATDCQFWsrZRuh_gspA.name=STEAM-POWERED BREAKTHROUGH
+betterquesting.quest.quLxATDCQFWsrZRuh_gspA.name=§c§lSTEAM-POWERED BREAKTHROUGH
 betterquesting.quest.quLxATDCQFWsrZRuh_gspA.desc=You should have quite the collection of single block Steam machines by now. While these may have gotten you through processing small amounts of materials, there will be a time when you will have to process a multitude of items. This is where Multiblocks come in.%n%nWhile these Multiblocks have a material cost that is way higher than their single block counterparts, they have certain bonuses: they use less Steam, and they can process recipes in parallel, which means that a single recipe cycle can craft multiple items at once, if the Steam provided is enough to sustain it.%n%nThey do however have some quirks that need to be taken care of:%n%n-These Multiblocks require §4§lvery specific§r I/O blocks, use only those that are part of the quest%n-They process up to 8 items, where the Basic Tier is made of Bronze and High Pressure Tier is made of Steel (checkout the Multiblock Preview in NEI which will show you different levels of tiers)%n-The Tier and amount of parallel processing can be seen via WAILA if you are looking at the Controller Block%n%n[note]With this quest, you have started your journey with Mass Processing. However, don't get too excited quite yet. While there are some Multiblocks accessible in the Steam Age, most of them only unlock in EV or later, including better versions of these Multiblocks.[/note]
 
-# Quest: Steam stomping!
-betterquesting.quest.s6AEHSKiQe2XveT_oDZbZg.name=Steam stomping!
+# Quest: Steam Stomping!
+betterquesting.quest.s6AEHSKiQe2XveT_oDZbZg.name=§c§lSteam Stomping!
 betterquesting.quest.s6AEHSKiQe2XveT_oDZbZg.desc=While the Forge Hammer is quite fast already, why not build this upscaled version and make it even faster? With the Steam Presser, you can unleash the full force of steam on whatever material you feed it. Watch blocks break apart and rods get smashed together faster than ever-at least until you gain access to more advanced technology.%n%n§3The Steam Presser can only process recipes up to LV Tier.
 
 # Quest: Engraving With Style
-betterquesting.quest.uP_FwHb_QTyAPaoZ80u74A.name=Engraving With Style
+betterquesting.quest.uP_FwHb_QTyAPaoZ80u74A.name=§9§lEngraving With Style
 betterquesting.quest.uP_FwHb_QTyAPaoZ80u74A.desc=Sick of having to swap out lenses or make tens of laser engravers for your cleanroom? The Hyper-Intensity Laser Engraver is here for you. This multiblock can handle all of your engraving needs.%n%nBy using more powerful §lLaser Source Hatches§r in the structure, you can gain more parallels and run higher tier recipes.%n%n[note]Laser source hatches are usually used for power transmission, but not here! No matter what laser hatch you use, it will NOT change the power input of HILE - it is determined by the standard energy hatch as usual.[/note]
 
 # Quest: Extreme Voltage Multiblocks
-betterquesting.quest.w5O5rPL_Q_GDp8lxWMd0DQ.name=Extreme Voltage Multiblocks
+betterquesting.quest.w5O5rPL_Q_GDp8lxWMd0DQ.name=§8§lExtreme Voltage Multiblocks
 betterquesting.quest.w5O5rPL_Q_GDp8lxWMd0DQ.desc=You might already have a Steam Multiblock or the Large Sifter. But in EV, IV, and the following tiers you unlock multiblocks for (almost) every GT machine. And some more on top of that!%n%nMost of them are made to do the same GT processing as the singleblock machines you've been using, but much faster. The multis can have up to three bonuses: energy savings, faster recipe time and parallels, which mean that a single recipe cycle can craft multiple items at once, if the power provided is enough to sustain it.%n%nThe variety of structures and intricacies of these new multis can go far beyond simpler multis like the EBF, LCR or VF. While some are simple cuboids, others come with more diverse mechanics and conditions to work properly. In return, they can be extremely powerful, so keep an eye out for them!
 
 # Quest: Megalomania
-betterquesting.quest.wGINqtSuSQKLI_Yk7hAdcA.name=Megalomania
+betterquesting.quest.wGINqtSuSQKLI_Yk7hAdcA.name=§6§lMegalomania
 betterquesting.quest.wGINqtSuSQKLI_Yk7hAdcA.desc=In HV, you now technically have the ability to construct Megas for some machines. These absolute titans will boost your production to levels never-before-seen, at a price. These multiblocks have two major benefits:%n-They innately have 256 parallels.%n-They can use TecTech exotic hatches, allowing you to empty out tremendous amounts of power into them.%n%n[note]To get real benefit from these multis, you will want to use lots of power and take advantage of their extreme parallelization - consider whether or not you can actually make use of these before you go off building a Mega Blast Furnace in HV...[/note]
 
-# Quest: Pressure washing!
-betterquesting.quest.zorY0c3BQuqLJp7ThOLG-g.name=Pressure washing!
+# Quest: Pressure Washing!
+betterquesting.quest.zorY0c3BQuqLJp7ThOLG-g.name=§c§lPressure Washing!
 betterquesting.quest.zorY0c3BQuqLJp7ThOLG-g.desc=If you have been processing the ores you have gathered until now, you will have come across a variety of crushed ores. Since these are quite dirty, you will have to clean them up to get certain byproducts. But how do you clean up this multitude of crushed ores? By using a Steam Purifier, of course! With a steady flow of Steam and a bit of Water, you can wash away impurities and get Purified Crushed Ores in no time.%n%nIf you're tired of waiting forever for your ores to clean up, this is your fix!%n%n§3This Multiblock has two modes, the default Washer Mode and a Simple Washer Mode. Simple Washers process ores considerably faster, but they do not give byproducts. Like other Multiblocks, the mode can be toggled by the respective button inside the GUI or by right-clicking the Controller with a Screwdriver. Since all ore washing recipes are LV, this Multiblock can run all of them.
 
 
@@ -13609,7 +13609,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABSg.name=Magical Waystones
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABSg.desc=This can be used to go back to a Celestial Gateway if you have a bound Celestial Pearl in your hotbar. It will use the leftmost one in your hotbar, so you can carry multiple to travel around with!
 
 # Quest: Industrial 3D Copying Machine
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABgw.name=Industrial 3D Copying Machine
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABgw.name=§8§lIndustrial 3D Copying Machine
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABgw.desc=Need large amounts of chiseled blocks? This is the machine for you.
 
 # Quest: Draconic Evolution
@@ -13693,7 +13693,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADYA.name=§a§lYour First Flint Throwing
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADYA.desc=Is the bone bow too expensive for your taste? Then make a flint throwing knife instead. You need flint and a stick to get 12 knives. The durability and the attack damage are very low but it still helps with killing mobs from a safe distance.%n%nThe knives should be in your inventory if you want to pick up the ones you fired.
 
 # Quest: Smelt All the Things...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADZg.name=§6§lSmelt All the Things...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADZg.name=§c§lSmelt All the Things...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADZg.desc=Smelting up to eight items at once sound nice? With a bit of bronze & steel you can make a §5§lSteam Hearth§r for all your furnace needs!%n%nAside from having §2§l8x§r the parallels and §2§l25%%§r more speed, it's also significantly less steam intensive (per parallel) than the High Pressure Steam Furnace. Not only that, but depending on your input you can further increase your speed bonus by taking advantage of two special modes: §cBlasting§r and §9Smoking§r.%n%nIn §cBlast Mode§r, the Steam Hearth will smelt at §2§l2x§r speed & use §4§l2x§r steam for all §nmetals§r, just like with the §5EFR Blast Furnace§r. %n%nIn §9Smoke Mode§r, the Steam Hearth will smelt at §2§l2x§r speed & use §4§l2x§r steam for all §nfood-based recipes§r, just like with the §5EFR Smoker§r.%n%nUpgrading this multiblock to its §6High Pressure§r variant also gives §2§l2x§r speed & §4§l2x§r steam usage.%n%n[note]You can use a screwdriver to quickly swap between modes on the machine![/note]
 
 # Quest: Power of the Sun
@@ -13993,15 +13993,15 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAM1w.name=§5§l§nChemical Pseudo-Alterc
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM1w.desc=Learning more about the world and its ways is a sign of wisdom. However, the truly wise are the ones who know what is unimportant and can be skipped. For a true breacher of technology, the constraints of physics and chemistry are not essential. To skip past their technicalities, the Quantum Force Transformer comes into play.%n%nThis multi is meant to replicate the most popular and important processing lines in the pack's progression, mostly those related to chemistry. Because of recursion in recipes, where earlier tier materials are required to craft higher tier equivalents, there are a lot of early processing lines that stay up through progression. Even worse, they often need more and more machines to keep up with increasing speed demands. To save on lag, this multi will do those processing lines in one step and without most of the extra chemicals that are added to purify the inputs into the outputs.%n%nThe Quantum Force Transformer (QFT) is unlocked in UEV, after Optical Mainframes have been crafted, and with the addition of a single Eternal Singularity and other materials. It's a tall, 15x15 multiblock with many different casings, including two that are upgradable and decide the two tiers of the multi. Although it's available in UEV, the upgraded casings require more and more expensive materials, while also unlocking skips for more advanced processing lines. For example, a platline skip can be done in the earliest QFT tier, whereas a Kevlar skip can only be done in the last tier.%n%nEach recipe that the QFT has represents a single processing line or a big part of a line. The inputs for the early plastic skip, for example, are the basic components of the plastics on a molecular level (Carbon, Hydrogen, Oxygen, etc.), and not the multi-step chemicals that were used half a dozen tiers earlier. All recipes have 3 or more outputs, and every output has a chance to appear: the chance for each is 100%% divided by the number of outputs. To increase it, there are additional mechanics that can be used.%n%nSimply put, the QFT uses huge amounts of energy and quantum field stabilization to disassemble simple molecules and assemble them into more complex ones, without needing additives or constrained processes. The only addition to the base inputs that the multi requires is a specific catalyst, which the smart circuits use to guide the materials into what they ultimately transform into, but they are never consumed or lost in any way.%n%nThis direct process simplifies long processing chains to one step, but it has two consequences: it makes the process expensive, given the extreme conditions needed to undergo the transformation (in a similar way to fusion), but it also generates many different outputs at once, none of which are guaranteed, and it's impossible to choose between them without adding something else into the setup to alter the conditions inside the QFT in some way. Throwing more energy into the multi won't do anything, and better materials don't seem to work, so what is the next step? That is what the next two quests will answer.%n%n[note]Tip: Use multiple Bulk Catalyst Housings to run additional QFT recipes within the same structure[/note]
 
 # Quest: Precise Assembler
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEg.name=Precise Assembler
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEg.name=§9§lPrecise Assembler
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEg.desc=Precise Assembler has two modes: Precise mode and Normal mode.%n%nPrecise mode is used to make some of the advanced components from Good Generator mod.%n%n[note]As name suggests your current casings lack precision to produce these advanced components.%nYou will need at least MK-1 casings for this mode to work.[/note]%n%nNormal mode works as multiblock version of Assembler.%n%n[note]You can't skip tiers with this. You need singleblock Assembler or GT++ multi to make your first Energy Hatch, then you can use it for Precise Assembler.[/note]
 
 # Quest: Industrial Coke Oven
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMOQ.name=Industrial Coke Oven
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMOQ.name=§8§lIndustrial Coke Oven
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMOQ.desc=Your EV endeavors might push you into a GT++ multiblock, despite most of those being IV-tier. This happens because the special alloys used to put them together need to be crafted in an Alloy Blast Smelter, which is IV, but the Industrial Coke Oven (ICO) does not!%n%nWhat does it do? It's in the name, it's a really fast Coke Oven. So fast, in fact, that it can replace a few dozen Pyrolyse Ovens. It actually takes its recipes from that multi, so you also get the additional fluid, such as Charcoal Byproducts, alongside the greatly increased processing speed. The caveat is that this multi needs Titanium, Platinum, and a little bit of Tungsten. You can get unprocessed Platinum from Nickel or Meteoric Iron & you can get Tungsten from processing End Stone Dust, Ender Goo or Moon Dust.%n%nIn EV you'll have to stick to the heat resistant casing, which offers 18 parallels. When you unlock HSS-S in IV however you can upgrade to the heat proof casings for an upgrade to 30 parallels.
 
 # Quest: Bet On The Distillus
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMQQ.name=Bet On The Distillus
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMQQ.name=§9§lBet On The Distillus
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMQQ.desc=IV brings forth GT++ multis, including an upgrade for the Distillation Tower called the Dangote Distillus. Its structure is exactly the same as the DT, but it requires a muffler hatch and uses a different controller with a more expensive recipe.%n%nIt's also locked behind an IV Chemical Plant, which makes it a very expensive craft if it is the only use you have for that plant.%n%nThat said, it solves the issue of DTs being slow, and those are the backbone of many renewable setups. How many quad DTs are you going to need for reliable IV/LuV power, you might ask? Just go for it.%n%n[note]You can also use it to do single block Distillery recipes that can't be done in the DT, like making Sodium Potassium. However, that requires a max height tower.[/note]
 
 # Quest: Faster Crops
@@ -14093,7 +14093,7 @@ betterquesting.quest.PjAewUoJTnilPpIT-Ce0tA.name=§2§lDiamond Barrel
 betterquesting.quest.PjAewUoJTnilPpIT-Ce0tA.desc=The Diamond barrel has 108 slots.
 
 # Quest: Large Molecular Assembler
-betterquesting.quest.Q10xj-OrTE67wsWuTNCAAQ.name=Large Molecular Assembler
+betterquesting.quest.Q10xj-OrTE67wsWuTNCAAQ.name=§9§lLarge Molecular Assembler
 betterquesting.quest.Q10xj-OrTE67wsWuTNCAAQ.desc=The Large Molecular Assembler is exactly how it sounds; a very quick molecular assembler with a much bigger inventory for crafting patterns. %n%nThis can handle up to 1024 crafts per second at the maximum energy usage making it up to 100x faster than a molecular assembler. Check out the Wiki for specifics: [url]https://wiki.gtnewhorizons.com/wiki/Large_Molecular_Assembler[/url]%n%nThe LMA controller hooks up directly to your main network in order to function, and all recipes must be placed inside input buses attached to the machine in order to be recognized. Will not require an output bus.%n%n[note]Super Buses are highly recommended![/note]%n%n[warn]This machine can absolutely wall-share, but be careful about the placement of your input bus or all machines may not be used.[/warn]
 
 # Quest: Compact Storage
