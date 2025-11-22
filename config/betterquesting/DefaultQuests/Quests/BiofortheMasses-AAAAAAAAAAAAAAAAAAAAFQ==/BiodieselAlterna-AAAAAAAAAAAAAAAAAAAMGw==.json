@@ -30,7 +30,7 @@
       "simultaneous:1": 0,
       "snd_complete:8": "random.levelup",
       "snd_update:8": "random.levelup",
-      "taskLogic:8": "AND",
+      "taskLogic:8": "OR",
       "visibility:8": "NORMAL"
     }
   },
@@ -85,7 +85,7 @@
           "id:8": "gregtech:gt.metaitem.02"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
       "autoConsume:1": 0,
@@ -102,7 +102,7 @@
           "id:8": "harvestcraft:peanutItem"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     },
     "2:10": {
       "autoConsume:1": 0,
@@ -117,23 +117,6 @@
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "minecraft:fish"
-        }
-      },
-      "taskID:8": "bq_standard:optional_retrieval"
-    },
-    "3:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 3,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 1,
-          "Damage:2": 512,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
         }
       },
       "taskID:8": "bq_standard:retrieval"
