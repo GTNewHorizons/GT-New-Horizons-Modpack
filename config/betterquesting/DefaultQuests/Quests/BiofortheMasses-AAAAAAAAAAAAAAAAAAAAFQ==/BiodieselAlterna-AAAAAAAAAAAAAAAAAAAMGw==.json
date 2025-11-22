@@ -24,7 +24,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Biodiesel Alternative",
-      "questLogic:8": "OR",
+      "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
       "simultaneous:1": 0,
