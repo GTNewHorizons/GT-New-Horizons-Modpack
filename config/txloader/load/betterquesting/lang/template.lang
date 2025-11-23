@@ -770,7 +770,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAG_Q.desc=For your new Factory you need i
 
 # Quest: Bowl Full of Spaghetti
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGxw.name=§c§lBowl Full of Spaghetti
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGxw.desc=Or at least factories full of item pipes. With these simple item pipes and conveyors you can take items out of one machine and feed them immediately into a second machine.%n%nLater on you can make better item pipes. Search for "item pipe" in NEI for options.%n%n[warn]You'll need a Steel Wrench to remove them. Don't place them down unless you're sure of the location until you have one.[/warn]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGxw.desc=Or at least factories full of item pipes. You can take items out of one machine using a hopper pointing directly into your pipes, and from there deliver them to a second machine.%n%nLater on you can make better item pipes. Search for "item pipe" in NEI for options.%n%n[warn]You'll need a Steel Wrench to remove them. Don't place them down unless you're sure of the location until you have one.[/warn]
 
 # Quest: Nice Nether Trees
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGzQ.name=§c§lNice Nether Trees
@@ -1776,7 +1776,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAF1g.desc=Time for a second EBF!%n%nYou c
 
 # Quest: All the Crops You Could Want
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF7g.name=§6§lAll the Crops You Could Want
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF7g.desc=Tired of applying bone meal or fertilizer by hand? A sprinkler can take water and boost your crop growth rate. Bone meal or fertilizer will make it work even faster.%n%n[note]Note that the sprinkler does not work with IC2 crops.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF7g.desc=Tired of applying bone meal or fertilizer by hand? A sprinkler can take water and boost your crop growth rate. Bone meal will make it work even faster.%n%n[note]Note that the sprinkler does not work with IC2 crops.[/note]
 
 # Quest: Large Aluminium Fluid Cells
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF8A.name=§6§lLarge Aluminium Fluid Cells
@@ -6184,7 +6184,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAK0w.desc=If you want IC2 crops to work w
 
 # Quest: BEGONE, LAG! Also, Bats
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK1A.name=BEGONE, LAG! Also, Bats
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK1A.desc=Lag = Butterflies in this case, since they like to pile up just outside of chunk loading range. Also, they're annoying since they convert regular trees into more forestry ones, one leaf block at a time. Which causes more of the buggers to spawn. Fortunately, the settings we use prevent too many from being present at once, but still, they're annoying.%n%nThe solution to this is to kill them. Also, the bats. Stupid Thaumcraft warp. Use the (potentially unfinished) Pest Killer to do so.%n%nNotes: Hydrogen Cyanide has a recipe now. Both it and Formaldehyde require a Chemical Plant. It doesn't appear to use any of the Formaldehyde up though. The range is apparently 5x5 chunks, not blocks. It also only runs once every 30s or so?%n%n[note]PS: If you experience problems using it (more than already mentioned), raise a ticket on GitHub.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK1A.desc=Lag = Butterflies in this case, since they like to pile up just outside of chunk loading range. Also, they're annoying since they convert regular trees into more forestry ones, one leaf block at a time. Which causes more of the buggers to spawn. Fortunately, the settings we use prevent too many from being present at once, but still, they're annoying.%n%nThe solution to this is to kill them. Also, the bats. Stupid Thaumcraft warp. Use the (potentially unfinished) Pest Killer to do so.%n%nNotes: Hydrogen Cyanide has a recipe now. Both it and Formaldehyde require a Chemical Plant. The range is apparently 5x5 chunks, not blocks. It also only runs once every 30s or so?%n%n[note]PS: If you experience problems using it (more than already mentioned), raise a ticket on GitHub.[/note]
 
 # Quest: Papaya
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKIA.name=Papaya
@@ -7716,7 +7716,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKrg.desc=It holds more than the previous
 
 # Quest: Lapotronic Capacitor (UV)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKrw.name=Lapotronic Capacitor (UV)
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKrw.desc=It holds more than the previous tier, other than that there is no difference. Your LSC can hold between 5.4T and 81T EU with these.%n%n[note]Requires IV-tier Glass.%n%nPS: The last tier is on the Endgame Goals tab.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKrw.desc=It holds more than the previous tier, other than that there is no difference. Your LSC can hold between 5.4T and 81T EU with these.%n%n[note]Requires IV-tier Glass.[/note]
 
 # Quest: Lapotronic Capacitor (IV)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALTg.name=Lapotronic Capacitor (IV)
@@ -13034,7 +13034,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABrw.desc=Time to assemble your armor. Yo
 
 # Quest: A Bloodmage's Sword
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABsA.name=A Bloodmage's Sword
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABsA.desc=Diamonds and emeralds are limited in their ability to store LP. With this sword, you are able to get the crystallized souls from your enemies. Time to go hunting.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABsA.desc=Diamonds and emeralds are limited in their ability to store LP. With this sword, you are able to get the crystallized souls from your enemies. Time to go hunting.%n%n[warn]While active, all bound tools, including this sword, will actively draw LP from your network. This can have deadly consequences if you run out of LP, so be sure you have a reliable source.[/warn]
 
 # Quest: Rituals
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABsQ.name=Rituals
