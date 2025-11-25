@@ -762,7 +762,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAG_Q.desc=For your new Factory you need i
 
 # Quest: Bowl Full of Spaghetti
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGxw.name=§3§lBowl Full of Spaghetti
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGxw.desc=Or at least factories full of item pipes. With these simple item pipes and conveyors you can take items out of one machine and feed them immediately into a second machine.%n%nLater on you can make better item pipes. Search for "item pipe" in NEI for options.%n%n[warn]You'll need a Steel Wrench to remove them. Don't place them down unless you're sure of the location until you have one.[/warn]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGxw.desc=Or at least factories full of item pipes. You can take items out of one machine using a hopper pointing directly into your pipes, and from there deliver them to a second machine.%n%nLater on you can make better item pipes. Search for "item pipe" in NEI for options.%n%n[warn]You'll need a Steel Wrench to remove them. Don't place them down unless you're sure of the location until you have one.[/warn]
 
 # Quest: Nice Nether Trees
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGzQ.name=§3§lNice Nether Trees
@@ -1768,7 +1768,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAF1g.desc=Time for a second EBF!%n%nYou c
 
 # Quest: All the Crops You Could Want
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF7g.name=§6§lAll the Crops You Could Want
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF7g.desc=Tired of applying bone meal or fertilizer by hand? A sprinkler can take water and boost your crop growth rate. Bone meal or fertilizer will make it work even faster.%n%n[note]Note that the sprinkler does not work with IC2 crops.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF7g.desc=Tired of applying bone meal or fertilizer by hand? A sprinkler can take water and boost your crop growth rate. Bone meal will make it work even faster.%n%n[note]Note that the sprinkler does not work with IC2 crops.[/note]
 
 # Quest: Large Aluminium Fluid Cells
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF8A.name=§6§lLarge Aluminium Fluid Cells
@@ -6168,7 +6168,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAK0w.desc=If you want IC2 crops to work w
 
 # Quest: BEGONE, LAG! Also, Bats
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK1A.name=BEGONE, LAG! Also, Bats
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK1A.desc=Lag = Butterflies in this case, since they like to pile up just outside of chunk loading range. Also, they're annoying since they convert regular trees into more forestry ones, one leaf block at a time. Which causes more of the buggers to spawn. Fortunately, the settings we use prevent too many from being present at once, but still, they're annoying.%n%nThe solution to this is to kill them. Also, the bats. Stupid Thaumcraft warp. Use the (potentially unfinished) Pest Killer to do so.%n%nNotes: Hydrogen Cyanide has a recipe now. Both it and Formaldehyde require a Chemical Plant. It doesn't appear to use any of the Formaldehyde up though. The range is apparently 5x5 chunks, not blocks. It also only runs once every 30s or so?%n%n[note]PS: If you experience problems using it (more than already mentioned), raise a ticket on GitHub.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK1A.desc=Lag = Butterflies in this case, since they like to pile up just outside of chunk loading range. Also, they're annoying since they convert regular trees into more forestry ones, one leaf block at a time. Which causes more of the buggers to spawn. Fortunately, the settings we use prevent too many from being present at once, but still, they're annoying.%n%nThe solution to this is to kill them. Also, the bats. Stupid Thaumcraft warp. Use the (potentially unfinished) Pest Killer to do so.%n%nNotes: Hydrogen Cyanide has a recipe now. Both it and Formaldehyde require a Chemical Plant. The range is apparently 5x5 chunks, not blocks. It also only runs once every 30s or so?%n%n[note]PS: If you experience problems using it (more than already mentioned), raise a ticket on GitHub.[/note]
 
 # Quest: Papaya
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKIA.name=Papaya
@@ -7700,7 +7700,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKrg.desc=It holds more than the previous
 
 # Quest: Lapotronic Capacitor (UV)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKrw.name=Lapotronic Capacitor (UV)
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKrw.desc=It holds more than the previous tier, other than that there is no difference. Your LSC can hold between 5.4T and 81T EU with these.%n%n[note]Requires IV-tier Glass.%n%nPS: The last tier is on the Endgame Goals tab.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKrw.desc=It holds more than the previous tier, other than that there is no difference. Your LSC can hold between 5.4T and 81T EU with these.%n%n[note]Requires IV-tier Glass.[/note]
 
 # Quest: Lapotronic Capacitor (IV)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALTg.name=Lapotronic Capacitor (IV)
@@ -8090,7 +8090,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMOA.desc=There are no more Diesel-relate
 
 # Quest: Mass Distilled Water
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMOg.name=Mass Distilled Water
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMOg.desc=Water is completely free, that much is obvious. Distilled Water, though? It's the same input, but it needs a machine to process it into this version, and you best not choose singleblock Distilleries to do this, because they are incredibly slow and will never keep up with your demands.%n%nThe obvious option is a Distillation Tower. The less obvious option is a Steam Turbine multi, which outputs Distilled Water that is supposedly piped back to where the steam is made. However, there are several steam producers that use regular water, so you can try that? The DT is the simplest and most direct option, though. 3-high is the minimum, so you have to build it like that. It doesn't need a lot of power, it will fill up a tank of any size over time since the water input is completely free.%n%nTo prevent it from running continuously, though, here's a neat trick, in case you haven't done it already: take the output hatch on the second layer, where the Distilled Water comes from, and put it directly above the DT controller. Then, put a Fluid Detector Cover on the bottom side of the hatch and a Machine Controller Cover on the top side of the controller, so that the covers are facing each other. Set the controller cover to "Disable with Redstone", and the DT will stop after the fluid tank you've chosen is full. When it gets full, the output hatch will get stuck with some water, and it will send a redstone signal that stops the DT.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMOg.desc=Water is completely free, that much is obvious. Distilled Water, though? It's the same input, but it needs a machine to process it into this version, and you best not choose singleblock Distilleries to do this, because they are incredibly slow and will never keep up with your demands.%n%nThe obvious option is a Distillation Tower. The less obvious option is a Steam Turbine multi, which outputs Distilled Water that is supposedly piped back to where the steam is made. However, there are several steam producers that use regular water, so you can try that? The DT is the simplest and most direct option, though. 3-high is the minimum, so you have to build it like that. It doesn't need a lot of power, it will fill up a tank of any size over time since the water input is completely free.
 
 # Quest: Nitric And Sulfuric Acid
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMOw.name=Nitric And Sulfuric Acid
@@ -13022,7 +13022,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABrw.desc=Time to assemble your armor. Yo
 
 # Quest: A Bloodmage's Sword
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABsA.name=A Bloodmage's Sword
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABsA.desc=Diamonds and emeralds are limited in their ability to store LP. With this sword, you are able to get the crystallized souls from your enemies. Time to go hunting.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABsA.desc=Diamonds and emeralds are limited in their ability to store LP. With this sword, you are able to get the crystallized souls from your enemies. Time to go hunting.%n%n[warn]While active, all bound tools, including this sword, will actively draw LP from your network. This can have deadly consequences if you run out of LP, so be sure you have a reliable source.[/warn]
 
 # Quest: Rituals
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABsQ.name=Rituals
