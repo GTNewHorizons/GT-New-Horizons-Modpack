@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Or at least factories full of item pipes. With these simple item pipes and conveyors you can take items out of one machine and feed them immediately into a second machine.\n\nLater on you can make better item pipes. Search for \"item pipe\" in NEI for options.\n\n[warn]You\u0027ll need a Steel Wrench to remove them. Don\u0027t place them down unless you\u0027re sure of the location until you have one.[/warn]",
+      "desc:8": "Or at least factories full of item pipes. You can take items out of one machine using a hopper pointing directly into your pipes, and from there deliver them to a second machine.\n\nLater on you can make better item pipes. Search for \"item pipe\" in NEI for options.\n\n[warn]You\u0027ll need a Steel Wrench to remove them. Don\u0027t place them down unless you\u0027re sure of the location until you have one.[/warn]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
