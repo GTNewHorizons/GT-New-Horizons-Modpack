@@ -923,7 +923,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAZg.desc=An absolutely mandatory machine
 
 # Quest: Getting Ready for Tier 2, MV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAZw.name=§5§lGetting Ready for Tier 2, MV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAZw.desc=In order to proceed forward, you need to get aluminium. A lot of it. But for now, 8 is enough to complete this quest.%n%nYour first option is alumina dust. Probably the best source for alumina is clay or hardened clay from canyons, however you need an MV machine for that, so you need to find an alternative until you have enough dust for your initial setup. For now, you can get it by centrifuging various impure piles from your ores or by smelting ruby, sapphire, or green sapphire in an EBF with carbon. Check the EBF quest in the Multiblock Goals.%n%nYou will also need an EBF to turn the alumina into aluminium ingots. For that you need cryolite. Go visit the Twilight Forest for that and find a Cryolite vein. The related quest is "Lead, Galena, Silver and Cryolite" is the Novice Thaumaturgy tab.%n%nYour second option is to use aluminium dust. However, you can not smelt that directly yet, even if you have an EBF. That will require higher heat levels. For now, you will have to either use a Tinker's Smeltery or a GT Compressor to turn the dust into raw aluminium which you can then smelt into ingots in the EBF.%n%nBy the time you've completed this, you'll probably be done with most of the tab, but you'll still need Good Circuits (MV) to actually open up the next tier if you haven't done that yet.%n%nYou might also want to check the Getting Around and Without Dying tabs for new unlocks.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAZw.desc=In order to proceed forward, you need to get Raw Aluminum. A lot of it. But for now, 8 is enough to complete this quest.%n%nYour first option is alumina dust. Probably the best source for alumina is clay or hardened clay from canyons, however you need an MV machine for that, so you need to find an alternative until you have enough dust for your initial setup. For now, you can get it by centrifuging various impure piles from your ores or by smelting ruby, sapphire, or green sapphire in an EBF with carbon. Check the EBF quest in the Multiblock Goals.%n%nYou will also need an EBF to turn the alumina into aluminium ingots. For that you need cryolite. Go visit the Twilight Forest for that and find a Cryolite vein. The related quest is "Lead, Galena, Silver and Cryolite" is the Novice Thaumaturgy tab.%n%nYour second option is to use aluminium dust. However, you can not smelt that directly yet, even if you have an EBF. That will require higher heat levels. For now, you will have to either use a Tinker's Smeltery or a GT Compressor to turn the dust into raw aluminium which you can then smelt into ingots in the EBF.%n%nBy the time you've completed this, you'll probably be done with most of the tab, but you'll still need Good Circuits (MV) to actually open up the next tier if you haven't done that yet.%n%nYou might also want to check the Getting Around and Without Dying tabs for new unlocks.
 
 # Quest: Your Magic Progression
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAaA.name=§5§lYour Magic Progression
@@ -3412,7 +3412,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKKg.desc=Now that you've finally gotten 
 
 # Quest: Fetching Tellurium
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKKw.name=§c§lFetching Tellurium
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKKw.desc=For Tellurium, you can do it these ways:%n%n1) EBF Crushed Lead Ore for 2 Tellurium Nuggets%n2) If you have old worldgen, you can get it from Temagamite practically anywhere (it was broken so it currently doesn't generate), or Mercury if it has been fixed%n3) Make Rare Earth (III) out of Rare Earth using the strongest of acids and get it from Alburnite%n4) Toxic Everglades again%n5) Once you have a Void Miner, you can place it in the Overworld to obtain Tellurium.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKKw.desc=For Tellurium, you can do it these ways:%n%n1) EBF Crushed Lead Ore for 2 Tellurium Nuggets%n2) Make Rare Earth (III) out of Rare Earth using the strongest of acids and get it from Alburnite%n3) Toxic Everglades%n4) Once you have a Void Miner, you can place it in the Overworld to obtain Tellurium.
 
 # Quest: Fetching Cubic Zirconia
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKLA.name=§c§lFetching Cubic Zirconia
@@ -7027,7 +7027,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADqQ.desc=Put those 32 EU panels on a blo
 
 # Quest: Compressed Solar LV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFNA.name=Compressed Solar LV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFNA.desc=The power of the sun x10. This solar panel works like 10 regular ones, but costs only 9. How is this possible? Magic! NOTE: They give out GT EU. NO TRANSFORMER NEEDED!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFNA.desc=The power of the sun x10. This solar panel works like 10 regular ones, but costs only 8. How is this possible? Magic! NOTE: They give out GT EU. NO TRANSFORMER NEEDED!
 
 # Quest: Essentia Generator: Potentia
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFNQ.name=Essentia Generator: Potentia
@@ -7043,7 +7043,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFNw.desc=Compressed Solar Panels can be 
 
 # Quest: Double Compressed Solar
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFOA.name=Double Compressed Solar
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFOA.desc=100EU/t for 72x1EU/t Solars? Sounds like a good deal. Get one of these. They can be Infused as well.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFOA.desc=100EU/t for 64x1EU/t Solars? Sounds like a good deal. Get one of these. They can be Infused as well.
 
 # Quest: Even More Infused
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFOQ.name=Even More Infused
@@ -7051,7 +7051,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFOQ.desc=You can infuse double or triple
 
 # Quest: Triple Compressed Solar
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFOg.name=Triple Compressed Solar
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFOg.desc=Triple Compressed Solars. Yes, that's right. They are a bit more expensive than their lower counterparts, 576 Solars in total. But they give out 1,000 GT EU per tick and have no need to be cleaned. How so? Magic.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFOg.desc=Triple Compressed Solars. Yes, that's right. They are a bit more expensive than their lower counterparts, 512 Solars in total. But they give out 1,000 GT EU per tick and have no need to be cleaned. How so? Magic.
 
 # Quest: Essentia Generator: Ignis
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFOw.name=Essentia Generator: Ignis
@@ -7283,7 +7283,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAK9w.desc=This is the EV version, it work
 
 # Quest: Who Needs UV Solars When You Have Magic
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKJA.name=Who Needs UV Solars When You Have Magic
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKJA.desc=This single block can produce a maximum of 600m EU/t when in aqua form, that's balanced right... right?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKJA.desc=16,777,216 Solars!!! This single block can produce a maximum of 600m EU/t when in aqua form, that's balanced right... right?
 
 # Quest: Kinetic Wind Power LuV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK_A.name=§9§lKinetic Wind Power LuV
@@ -7299,7 +7299,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAK_g.desc=This is the ZPM version.
 
 # Quest: Quadruple Compressed Solar
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK_w.name=Quadruple Compressed Solar
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK_w.desc=Puts out 10000-32768 EU/t.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK_w.desc=4096 Solars! Puts out 10000-32768 EU/t.
 
 # Quest: This is Not How You Get Into Space
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKyg.name=This is Not How You Get Into Space
@@ -7315,15 +7315,15 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAL3g.desc=§o*Slaps UHT Resistant Mesh* T
 
 # Quest: Quintuple Compressed Solar
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALAA.name=Quintuple Compressed Solar
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALAA.desc=Puts out 100,000-131,072 EU/t.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALAA.desc=32,768 Solars! Puts out 100,000-131,072 EU/t.
 
 # Quest: Sextuple Compressed Solar
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALAQ.name=Sextuple Compressed Solar
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALAQ.desc=Puts out 1,000,000-2,097,152 EU/t.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALAQ.desc=262,144 Solars! Puts out 1,000,000-2,097,152 EU/t.
 
 # Quest: Septuple Compressed Solar
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALAg.name=Septuple Compressed Solar
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALAg.desc=Puts out 10,000,000-33,554,432 EU/t.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALAg.desc=2,097,152 Solars! Puts out 10,000,000-33,554,432 EU/t.
 
 # Quest: Toss Your Magic Junk in Here LV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALAw.name=Toss Your Magic Junk in Here LV
@@ -7648,7 +7648,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHJQ.desc=24 Stacks of LESU Casings. Thes
 
 # Quest: L.E.S.U. Upgrade - LuV Tier
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHJg.name=L.E.S.U. Upgrade - LuV Tier
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHJg.desc=To reach the highest Voltage Tier the LESU can offer, you need to add an additional amount of LESU Casings. 8193 Casings in total (all upgrades below and these additional) enable the LuV Input Voltage. To submit these you'll need to use the Submit Station from the Steam Tab, since your inventory isn't big enough to hold 96 Stacks.%n%n[note]I mean you could do that, but maybe just check the box once your autocrafting is done.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHJg.desc=To reach the highest Voltage Tier the LESU can offer, you need to add an additional amount of LESU Casings. 8193 Casings in total (all upgrades below and these additional) enable the LuV Input Voltage.%n%n[note]I mean you could do that, but maybe just check the box once your autocrafting is done.[/note]
 
 # Quest: Transformers, Roll Out!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHgg.name=Transformers, Roll Out!
