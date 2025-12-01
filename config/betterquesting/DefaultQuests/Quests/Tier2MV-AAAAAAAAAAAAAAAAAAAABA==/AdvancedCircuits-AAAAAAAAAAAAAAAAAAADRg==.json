@@ -94,37 +94,37 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 4,
+          "Count:3": 8,
           "Damage:2": 32079,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.03"
         },
         "1:10": {
-          "Count:3": 8,
+          "Count:3": 16,
           "Damage:2": 32037,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.03"
         },
         "2:10": {
-          "Count:3": 8,
+          "Count:3": 16,
           "Damage:2": 32039,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.03"
         },
         "3:10": {
-          "Count:3": 16,
+          "Count:3": 32,
           "Damage:2": 32717,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"
         },
         "4:10": {
-          "Count:3": 32,
+          "Count:3": 64,
           "Damage:2": 19303,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.02"
         },
         "5:10": {
-          "Count:3": 32,
+          "Count:3": 64,
           "Damage:2": 26345,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"
@@ -141,7 +141,7 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 4,
+          "Count:3": 8,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "IC2:itemPartCircuitAdv"
