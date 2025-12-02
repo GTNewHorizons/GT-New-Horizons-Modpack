@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "High tier chemical recipes like ammonia need an HV chemical reactor.",
+      "desc:8": "There are a number of chemical recipes that are unlocked with an §5HV Chemical Reactor§r; you will finally be able to make Ender Eyes, Ammonia, Gelled Toluene, and plenty of other useful components. \n\nAlternatively, if you\u0027re up for it, you can head over to the Mass Processing tab and build yourself a §5Large Chemical Reactor§r (LCR) instead! In addition to having a more efficient overclock, the LCR can input multiple liquids so you won\u0027t need to mess with those pesky cells any longer. \n\n[note]If you choose to go the LCR route, be sure to take a look at the PTFE questline just ahead of this one, starting with \"Teflon Don\".[/note]\n",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -28,7 +28,7 @@
       "simultaneous:1": 0,
       "snd_complete:8": "random.levelup",
       "snd_update:8": "random.levelup",
-      "taskLogic:8": "OR",
+      "taskLogic:8": "AND",
       "visibility:8": "NORMAL"
     }
   },
@@ -96,24 +96,11 @@
           "id:8": "gregtech:gt.blockmachines"
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:optional_retrieval"
     },
     "1:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 1,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 1,
-          "Damage:2": 1169,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
+      "index:3": 2,
+      "taskID:8": "bq_standard:checkbox"
     }
   }
 }
