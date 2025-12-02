@@ -36,31 +36,6 @@
   "questIDLow:4": 943,
   "rewards:9": {
     "0:10": {
-      "choices:9": {
-        "0:10": {
-          "Count:3": 1,
-          "Damage:2": 6,
-          "OreDict:8": "",
-          "id:8": "enhancedlootbags:lootbag"
-        },
-        "1:10": {
-          "Count:3": 4,
-          "Damage:2": 5683,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
-        },
-        "2:10": {
-          "Count:3": 2,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "IC2:itemPartCircuitAdv"
-        }
-      },
-      "ignoreDisabled:1": 0,
-      "index:3": 0,
-      "rewardID:8": "bq_standard:choice"
-    },
-    "1:10": {
       "ignoreDisabled:1": 0,
       "index:3": 1,
       "rewardID:8": "bq_standard:item",
@@ -73,7 +48,7 @@
         }
       }
     },
-    "2:10": {
+    "1:10": {
       "ignoreDisabled:1": 1,
       "index:3": 2,
       "questID:8": "AAAAAAAAAAAAAAAAAAAG0A\u003d\u003d",
