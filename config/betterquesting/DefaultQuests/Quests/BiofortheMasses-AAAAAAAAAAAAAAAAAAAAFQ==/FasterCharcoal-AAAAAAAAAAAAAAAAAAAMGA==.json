@@ -8,13 +8,13 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Even if you have more wood, this won\u0027t help your power issues that much. Using it directly as fuel isn\u0027t going to do much for you as you move forward, and turning it into Charcoal will be very important. You have already built a Coke Oven, maybe more than one, but each one takes 90 seconds to produce one Charcoal, an abysmal rate. Unfortunately, there isn\u0027t any faster option in this tier, so you will have to build more of these ovens. How many, exactly?\n\nThere are many different goals you might want to go for, but a good metric for your power needs is a setup with 19 Coke Ovens. This number will create both Charcoal and Creosote Oil at a rate that will run two max-sized LP (Low Pressure) Railcraft Boilers, one solid and one liquid, with the quest for those coming right after this one. If you automate this entire setup, it will produce around 2 amps of MV, which are equivalent to 8 amps of LV, plenty of power for this tier and enough to advance you to the next one.\n\nAfter building these Coke Ovens, you will need to automate them. There are a few ways to do this, but one of the cheapest ones is to use Item Pipes, made with Tin for example, with a Conveyor Module in the wood chest/drawer to put the wood in the ovens, and then one Hopper below each oven, into more Item Pipes, to gather the Charcoal. The Creosote is a bit harder to extract, but you can do it with Tinkers\u0027 Faucets on the side of each Coke Oven, with a Wooden Fluid Pipe directly under the faucet. You will need to keep reactivating them with redstone, which means you\u0027ll also need a redstone clock (there\u0027s a block dedicated to this purpose, named Redstone Clock, from Extra Utilities).",
+      "desc:8": "Even if you have more wood, this won\u0027t help your power issues that much. Using it directly as fuel isn\u0027t going to do much for you as you move forward, and turning it into Charcoal will be very important. You have already built a Coke Oven, maybe more than one, but each one takes 90 seconds to produce one Charcoal, an abysmal rate. Unfortunately, there isn\u0027t any faster option in this tier, so you will have to build more of these ovens. How many, exactly?\n\nThere are many different goals you might want to go for, but a good metric for your power needs is a setup with 19 Coke Ovens. This number will create both Charcoal and Creosote Oil at a rate that will run two max-sized LP (Low Pressure) Railcraft Boilers, one solid and one liquid, with the quest for those coming right after this one. If you automate this entire setup, it will produce around 2 amps of MV, which are equivalent to 8 amps of LV, plenty of power for this tier and enough to advance you to the next one.\n\nAfter building these Coke Ovens, you will want to automate them. You can do this using a Coke Oven Hatch. A screwdriver will change the modes between input, output, and fluid output. You can use hoppers and item pipes to push and pull items from the hatches. Additionally. the hatch itself will automatically dispense fluid so you can simply hook that directly to a pipeline, no faucets or pumps required.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 7,
+        "Damage:2": 236,
         "OreDict:8": "",
-        "id:8": "Railcraft:machine.alpha"
+        "id:8": "gregtech:gt.blockmachines"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
@@ -75,10 +75,16 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 494,
-          "Damage:2": 7,
+          "Count:3": 19,
+          "Damage:2": 236,
           "OreDict:8": "",
-          "id:8": "Railcraft:machine.alpha"
+          "id:8": "gregtech:gt.blockmachines"
+        },
+        "1:10": {
+          "Count:3": 265,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings12"
         }
       },
       "taskID:8": "bq_standard:retrieval"
