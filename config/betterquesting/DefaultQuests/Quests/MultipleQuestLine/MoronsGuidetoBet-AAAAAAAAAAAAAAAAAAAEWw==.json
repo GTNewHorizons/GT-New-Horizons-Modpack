@@ -2,7 +2,7 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 2123
+      "questIDLow:4": 2084
     }
   },
   "properties:10": {
@@ -22,7 +22,7 @@
       "lockedProgress:1": 0,
       "name:8": "Moron\u0027s Guide to Better Trees",
       "partySingleReward:1": 0,
-      "questLogic:8": "OR",
+      "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
       "simultaneous:1": 0,

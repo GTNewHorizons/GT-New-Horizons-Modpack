@@ -1532,19 +1532,19 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAC-A.desc=If you looked through NEI you m
 
 # Quest: Bio Fuels
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC2g.name=§6§lBio Fuels
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC2g.desc=You've been using steam, creosote, and possibly oil plus their byproducts to generate power. It's time to start making bio diesel. The first step is to make plant balls out of organic materials. You can use wheat, sugarcane, apples, saplings or, well, practically anything. Indigo blossoms are 4:1 and unlike the rest of the IC2 crops with the same ratio, not really useful for anything else. Realistically, you'll probably just use saplings though, since you'll want/need a tree farm anyway.%n%nBe sure you have a Forestry multifarm, Steve's Carts Farm, IC2 Crop Sticks with a harvester, or whatever, because you need plenty of bio materials for constant bio diesel production.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAC2g.desc=You've been using Steam, Creosote, or possibly Oil to generate power. It's time to start making Bio Diesel. The first step is to make Plantballs out of organic materials. You can use Wheat, Sugar Canes, Apples, Saplings or, well, practically anything. Indigo Blossoms are 4:1 and unlike the rest of the IC2 crops with the same ratio, not really useful for anything else. Realistically, you'll probably just use saplings though, since you'll want/need a tree farm anyway.%n%nBe sure you have a Forestry Multifarm, Steve's Carts Farm, IC2 Crop Sticks with a harvester, or whatever, because you need plenty of bio materials for constant Bio Diesel production.
 
 # Quest: Plantballs
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC2w.name=§6§lPlantballs
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC2w.desc=Next you should compress plantballs out of your wheat.%n%nThe MV compressor is twice as fast as the LV. You might think this means using it is a good idea. Well, it depends. Remember it also uses 4x the power. This means you spend 2x the EU in total to get the same amount of EU out. If you overclock too much in your fuel production setup, you end up with an EU deficit! Overclocking once is usually well worth it though.%n%nEventually you want to use multiblocks for better speeds and efficiency!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAC2w.desc=Next you should compress Plantballs out of your bio materials.%n%nThe MV Compressor is twice as fast as the LV one. You might think this means using it is a good idea. Well, it depends. Remember it also uses 4x the power. This means you spend 2x the EU in total to get the same amount of EU out. If you overclock too much in your fuel production setup, you end up with an EU deficit! Overclocking once is usually well worth it though.%n%nEventually you want to use multiblocks for better speeds and efficiency!
 
 # Quest: Plant Mass
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC3A.name=§6§lPlant Mass
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC3A.desc=Macerate the plantballs down to plant mass for better processing. The HV macerator has an extra slot so you can get more, but it's not worth it power-wise, same for EV and IV.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAC3A.desc=Macerate the Plantballs down to Plant Mass for better processing. The HV Macerator has an extra slot so you can get more, but it's not worth it power-wise, same for EV and IV.
 
 # Quest: Bio Chaff
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC3Q.name=§6§lBio Chaff
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC3Q.desc=Plant mass needs to be centrifuged into bio chaff, the base material to make biomass.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAC3Q.desc=Plant Mass needs to be centrifuged into Bio Chaff, the base material to make biomass.
 
 # Quest: Way One: IC2 Fluid Canner
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC3g.name=§6§lWay One: IC2 Fluid Canner
@@ -1552,11 +1552,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAC3g.desc=The first way you get biomass o
 
 # Quest: Way Two: Brewery
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC3w.name=§6§lWay Two: Brewery
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC3w.desc=If you are lucky and find some brewing stands or have started using Thaumcraft to make one, you can craft a brewery. You get 1000mb of biomass out of 1000mb water and 1 bio chaff. Use Distilled water to get a better ratio and a much faster recipe.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAC3w.desc=If you are lucky and find a Brewing Stand or have started using Thaumcraft to make one, you can craft a Brewery. You get 1000mb of Biomass out of 1000mb Water and 1 Bio Chaff. Use Distilled Water to get a better ratio and a much faster recipe.
 
 # Quest: Fermented Biomass
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC4A.name=§6§lFermented Biomass
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC4A.desc=Fermenting your biomass allows you to get more products out of it like methanol, ethanol, ammonia, etc.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAC4A.desc=Fermenting your Biomass allows you to get more products out of it like Methanol, Ethanol, Ammonia, etc.
 
 # Quest: Extrude All the Things
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC5A.name=§6§lExtrude All the Things
@@ -1660,19 +1660,19 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADRg.desc=Finally, the HV circuit! To mak
 
 # Quest: Methane Gas
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADSg.name=§6§lMethane Gas
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADSg.desc=Methane gas has a burn value of 104,000 EU per cell and can be burned in the gas turbine.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADSg.desc=Methane gas has a burn value of 104,000 EU per cell and can be burned in the Gas Turbine.
 
 # Quest: Methanol
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADSw.name=§6§lMethanol
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADSw.desc=Methanol has a burn value of 84,000 EU per cell and can be used to make bio diesel and other fluids. It's also used to make certain rocket fuels.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADSw.desc=Methanol has a burn value of 84,000 EU per cell and can be used to make Bio Diesel and other fluids. It's also used to make certain rocket fuels.
 
 # Quest: Ethanol
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADTA.name=§6§lEthanol
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADTA.desc=Ethanol has a burn value of 192,000 EU per cell can be used to make bio diesel and other fluids.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADTA.desc=Ethanol has a burn value of 192,000 EU per cell can be used to make Bio Diesel and other fluids.
 
 # Quest: Bio Diesel Fuel
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADTQ.name=§6§lBio Diesel Fuel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADTQ.desc=With ethanol or methanol and seed oil or fish oil you can make bio diesel. Its burn value is 320,000 EU per cell, less than regular diesel, but more renewable. Diesel or bio diesel are needed for cetane-boosted diesel.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADTQ.desc=With Ethanol or Methanol and Seed Oil or Fish Oil you can make Bio Diesel. Its burn value is 320,000 EU per cell, less than regular Diesel, but more renewable. Diesel or Bio Diesel are needed for Cetane-Boosted Diesel.
 
 # Quest: O like Oxygen
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADTg.name=§6§lO like Oxygen
@@ -1800,7 +1800,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFKg.desc=The MV centrifuge is twice as f
 
 # Quest: Biomass
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFKw.name=§6§lBiomass
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFKw.desc=Chose the IC2 or the gregtech way to make biomass. Water and Bio Chaff is needed.%n%nYou can also use the pyrolyze oven to make biomass in a more efficient way if you make it.%n%nNote that forestry has its own biomass as well. It can also be made into fermented biomass like this kind. Choose which kind you want to make later on yourself.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFKw.desc=Choose the IC2 or the GregTech way to make Biomass. Water and Bio Chaff is needed.%n%nYou can also use the Pyrolyze Oven to make Biomass in a more efficient way if you make it.%n%nNote that Forestry has its own Biomass as well. It can also be turned into Fermented Biomass.
 
 # Quest: Advanced Fluid Extractor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFLA.name=§6§lAdvanced Fluid Extractor
@@ -1952,7 +1952,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJbg.desc=Too many items getting you down
 
 # Quest: Make a better Distillery
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL_Q.name=§6§lMake a better Distillery
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL_Q.desc=To produce methanol and ethanol much faster, craft a mv distillery.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL_Q.desc=To produce Methanol and Ethanol much faster, craft a MV Distillery.
 
 # Quest: Way Three: Pyrolyse Oven
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL_g.name=§6§lWay Three: Pyrolyse Oven
@@ -6285,7 +6285,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAATA.desc=You need steel? Uhh... fine. Le
 
 # Quest: EBF-Time
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAATQ.name=§6§lEBF-Time
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAATQ.desc=In order to get aluminium ingots, you need an Electric Blast Furnace. It's another very important step towards victory, so let's get started.%n%nGetting the Mica for the heating coils might be a little tricky, but you can use a substitute for the first tier of coils.%nYou need 2 LV hatches with 4A of 32V total, or 3 LV hatches with MOOOORE power if the multiblock is not fully repaired.%nIn order to not scrape by for Nickel, check out the quest Source of Nickel in the Novice Thaumaturgy tab.%n%nA few recipes produce CO2/SO2 as a fluid. This fluid can be collected by placing a fluid output hatch on the top layer of the EBF. You could also enable fluid voiding in the EBF controller block GUI. For recipes with such a CO2/SO2 output you must do one or the other or the EBF will not start.%nThe amount of fluid recovered depends on the tier of the muffler hatch.%n%nBart's Platinum Series recipes output fluids on the BOTTOM and are NOT affected by the muffler hatch tier, so if you want to do Platinum Stuff later, remember that.%n%nBefore the launch, don't forget to fix maintenance issues and put a programmed circuit if necessary.%n%nIf you want a really fancy EBF, you can add more input fluid hatches and store different fluids in each one.%n%nThe EBF also has a heat adjustment of 100K for each power tier above or below MV. You can only make LV energy hatches right now, but installing two LV energy hatches will overclock the EBF to MV power, eliminating the 100K penalty and setting the initial heat to 1801K.%n%nAs you upgrade your EBF over the course of the game, this heat adjustment will increase. Two MV energy hatches (overclocking to HV) will add +100K, two HV energy hatches (overclocking to EV) will give +200K, and so on. Coils only set the base value. This adjustment does not apply to the Volcanus.%n%nIf the pollution gets really bad, check in GT++ Multiblocks for a pollution scrubber, or upgrade your Muffler.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAATQ.desc=In order to get aluminium ingots, you need an Electric Blast Furnace. It's another very important step towards victory, so let's get started.%n%nGetting the Mica for the heating coils might be a little tricky, but you can use a substitute for the first tier of coils.%nYou need 2 LV hatches with 4A of 32V total, or 3 LV hatches with MOOOORE power if the multiblock is not fully repaired.%nIn order to not scrape by for Nickel, check out the quest Source of Nickel in the Novice Thaumaturgy tab.%n%nFor recipes with a fluid output you need to either enable fluid voiding in the EBF controller block GUI or add an output hatch. Otherwise the EBF will not start.%n%nBefore the launch, don't forget to fix maintenance issues and put a programmed circuit if necessary.%n%nIf you want a really fancy EBF, you can add more input fluid hatches and store different fluids in each one.%n%nThe EBF also has a heat adjustment of 100K for each power tier above or below MV. You can only make LV energy hatches right now, but installing two LV energy hatches will overclock the EBF to MV power, eliminating the 100K penalty and setting the initial heat to 1801K.%n%nAs you upgrade your EBF over the course of the game, this heat adjustment will increase. Two MV energy hatches (overclocking to HV) will add +100K, two HV energy hatches (overclocking to EV) will give +200K, and so on. Coils only set the base value. This adjustment does not apply to the Volcanus.%n%nIf the pollution gets really bad, check in GT++ Multiblocks for a pollution scrubber, or upgrade your Muffler.
 
 # Quest: More Heat - Kanthal Coil Upgrade
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAATg.name=§6§lMore Heat - Kanthal Coil Upgrade
@@ -6405,7 +6405,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACug.desc=Not even two BBFs are fast enou
 
 # Quest: Why One Coke Oven When You Can Have Ten?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACuw.name=§6§lWhy One Coke Oven When You Can Have Ten?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACuw.desc=Your bricked blast furnace uses coal like hell and your steam boilers do too? Well it's time to make more coke ovens and automate them a bit. The Coke Oven Hatch, Wooden Fluid Pipes, and Tin Item Pipes will help you reach your goal.%n%nSince this is a GT multiblock, it can wallshare bricks and hatches. The amount of bricks required for this quest is the minimum for creating 10 wallshared Coke Ovens.%n%nRemember that tin item pipes require a steel wrench to dismantle them.%n%n[note]Search NEI for a more efficient way to make coke oven bricks.[/note]%n%n[warn]The whole coke-oven process generates a lot of pollution, so consider putting it further away.[/warn]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACuw.desc=Your Bricked Blast Furnace uses coal like hell and your steam boilers do too? Well it's time to make more coke ovens and automate them a bit. The Coke Oven Hatch, Wooden Fluid Pipes, and Tin Item Pipes will help you reach your goal.%n%nSince this is a GT multiblock, it can wallshare bricks and hatches. The amount of bricks required for this quest is the minimum for creating 10 wallshared Coke Ovens.%n%nRemember that tin item pipes require a steel wrench to dismantle them.%n%n[note]Search NEI for a more efficient way to make coke oven bricks.[/note]%n%n[warn]The whole coke-oven process generates a lot of pollution, so consider putting it further away.[/warn]
 
 # Quest: Still Not Enough Charcoal?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADDQ.name=§6§lStill Not Enough Charcoal?
@@ -7974,7 +7974,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMFw.desc=When it comes to power from woo
 
 # Quest: Faster Charcoal
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMGA.name=Faster Charcoal
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMGA.desc=Even if you have more wood, this won't help your power issues that much. Using it directly as fuel isn't going to do much for you as you move forward, and turning it into Charcoal will be very important. You have already built a Coke Oven, maybe more than one, but each one takes 90 seconds to produce one Charcoal, an abysmal rate. Unfortunately, there isn't any faster option in this tier, so you will have to build more of these ovens. How many, exactly?%n%nThere are many different goals you might want to go for, but a good metric for your power needs is a setup with 19 Coke Ovens. This number will create both Charcoal and Creosote Oil at a rate that will run two max-sized LP (Low Pressure) Railcraft Boilers, one solid and one liquid, with the quest for those coming right after this one. If you automate this entire setup, it will produce around 2 amps of MV, which are equivalent to 8 amps of LV, plenty of power for this tier and enough to advance you to the next one.%n%nAfter building these Coke Ovens, you will need to automate them. There are a few ways to do this, but one of the cheapest ones is to use Item Pipes, made with Tin for example, with a Conveyor Module in the wood chest/drawer to put the wood in the ovens, and then one Hopper below each oven, into more Item Pipes, to gather the Charcoal. The Creosote is a bit harder to extract, but you can do it with Tinkers' Faucets on the side of each Coke Oven, with a Wooden Fluid Pipe directly under the faucet. You will need to keep reactivating them with redstone, which means you'll also need a redstone clock (there's a block dedicated to this purpose, named Redstone Clock, from Extra Utilities).
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMGA.desc=Even if you have more wood, this won't help your power issues that much. Using it directly as fuel isn't going to do much for you as you move forward, and turning it into Charcoal will be very important. You have already built a Coke Oven, maybe more than one, but each one takes 90 seconds to produce one Charcoal, an abysmal rate. Unfortunately, there isn't any faster option in this tier, so you will have to build more of these ovens. How many, exactly?%n%nThere are many different goals you might want to go for, but a good metric for your power needs is a setup with 19 Coke Ovens. This number will create both Charcoal and Creosote Oil at a rate that will run two max-sized LP (Low Pressure) Railcraft Boilers, one solid and one liquid, with the quest for those coming right after this one. If you automate this entire setup, it will produce around 2 amps of MV, which are equivalent to 8 amps of LV, plenty of power for this tier and enough to advance you to the next one.%n%nAfter building these Coke Ovens, you will want to automate them. You can do this using a Coke Oven Hatch. A screwdriver will change the modes between input, output, and fluid output. You can use hoppers and item pipes to push and pull items from the hatches. Additionally. the hatch itself will automatically dispense fluid so you can simply hook that directly to a pipeline, no faucets or pumps required.
 
 # Quest: Two Big Ovens
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMGQ.name=Two Big Ovens
@@ -8428,7 +8428,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADKQ.desc=The Avaritia 9x9 dire crafting 
 
 # Quest: Rocket Tier 1
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADKg.name=Rocket Tier 1
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADKg.desc=After hours of hard work and a few stacks of TNT your first rocket is finally ready. But before you can go to the Moon you need to actually craft it.%n%n§cIf you've crafted the rocket with a chest, there's a crafting table recipe that will turn it into the normal rocket that completes this quest. Check NEI.§r%n%n[note]In case you forgot to complete any, holding the rocket in your hand will unlock all pre-requisite quests in addition to this one.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADKg.desc=After hours of hard work and a few stacks of TNT your first rocket is finally ready. But before you can go to the Moon you need to actually craft it.%n%n[note]If you've crafted the rocket with a chest, there's a crafting table recipe that will turn it into the normal rocket that completes this quest. Check NEI.[/note]%n%n[note]Holding the rocket in your hand will unlock all pre-requisite quests in addition to this one. This also works for all the following rockets.[/note]
 
 # Quest: Tier 1 Control Computer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADKw.name=Tier 1 Control Computer
@@ -8548,7 +8548,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAF_A.desc=Rockets require heavy duty plat
 
 # Quest: Rocket Tier 4
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF_w.name=Rocket Tier 4
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF_w.desc=After weeks of hard work and a thousand stacks of iTNT your fourth rocket is finally ready.%n%nYou need to use Dense Hydrazine Rocket Fuel.%n%n[note]In case you forgot to complete any, holding the rocket in your hand will unlock all pre-requisite quests in addition to this one.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF_w.desc=After weeks of hard work and a thousand stacks of iTNT your fourth rocket is finally ready.%n%nYou need to use Dense Hydrazine Rocket Fuel.
 
 # Quest: Find Some Meteoric Iron
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFkg.name=Find Some Meteoric Iron
@@ -8564,7 +8564,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFlA.desc=Each rocket needs a Control Com
 
 # Quest: Rocket Tier 2
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFlQ.name=Rocket Tier 2
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFlQ.desc=After hours of hard work and tons of stacks of iTNT your second rocket is finally ready. But before you can go to Mars you need to craft a few more things.%n%n[note]In case you forgot to complete any, holding the rocket in your hand will unlock all pre-requisite quests in addition to this one.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFlQ.desc=After hours of hard work and tons of stacks of iTNT your second rocket is finally ready. But before you can go to Mars you need to craft a few more things.
 
 # Quest: Recycle Your Rocket and Save the Environment
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFlg.name=Recycle Your Rocket and Save the Environment
@@ -8580,7 +8580,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFmA.desc=The Mars lander is required for
 
 # Quest: Moon Dungeon
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFmQ.name=Moon Dungeon
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFmQ.desc=While looking around for meteoric iron you might find a moon dungeon. The entrance looks like a deep hole. Go and kill the Boss Monster. It will drop the key for the chest in the next room with the schematics for tier 2 rockets.%n%nKill the Boss Monster again in a different dungeon if you want an extra tier 2 schematic to exchange for a moon buggy schematic.%n%nPlace the schematic in the NASA Workbench and unlock it on the last tab. This will unlock it for your character, so you can move the workbench if you want.%n%n[note]If you've made the chip in an older version, you can turn it back into a schematic in a PLE.[/note]%n%n[note]All dungeons work the same, just with a different boss. Also, sometimes the boss room or chest room doesn't generate, you'll need to find another dungeon.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFmQ.desc=While looking around for meteoric iron you might find a moon dungeon. The entrance looks like a deep hole. Go and kill the Boss Monster. It will drop the key for the chest in the next room with the schematics for tier 2 rockets.%n%nKill the Boss Monster again in a different dungeon if you want an extra tier 2 schematic to exchange for a moon buggy schematic.%n%nPlace the schematic in the NASA Workbench and unlock it on the last tab. This will unlock it for your character, so you can move the workbench if you want.%n%n[note]All dungeons work the same, just with a different boss. Also, sometimes the boss room or chest room doesn't generate, you'll need to find another dungeon.[/note]
 
 # Quest: Moon Patrol
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFmg.name=Moon Patrol
@@ -8644,7 +8644,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFrQ.desc=Rockets require heavy duty plat
 
 # Quest: Rocket Tier 3
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFrg.name=Rocket Tier 3
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFrg.desc=After days of hard work and a hundred tons of stacks of iTNT your third rocket is finally ready.%n%nYou need to use Dense Hydrazine Rocket Fuel or better to fuel it.%n%n[note]In case you forgot to complete any, holding the rocket in your hand will unlock all pre-requisite quests in addition to this one.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFrg.desc=After days of hard work and a hundred tons of stacks of iTNT your third rocket is finally ready.%n%nYou need to use Dense Hydrazine Rocket Fuel or better to fuel it.
 
 # Quest: Tier 3 Lander
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFsA.name=Tier 3 Lander
@@ -8724,7 +8724,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGvQ.desc=Each rocket needs a Control Com
 
 # Quest: Rocket Tier 5
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGvg.name=Rocket Tier 5
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGvg.desc=After a month of hard work and ten thousand stacks of iTNT your fifth rocket is finally ready.%n%nYou need to use CN3H7O3 (Purple) Rocket Fuel or better to fuel it.%n%n[note]In case you forgot to complete any, holding the rocket in your hand will unlock all pre-requisite quests in addition to this one.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGvg.desc=After a month of hard work and ten thousand stacks of iTNT your fifth rocket is finally ready.%n%nYou need to use CN3H7O3 (Purple) Rocket Fuel or better to fuel it.
 
 # Quest: Heavy Duty Nose Cone Tier 3
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGvw.name=Heavy Duty Nose Cone Tier 3
@@ -8788,7 +8788,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKTw.desc=Rockets require heavy duty plat
 
 # Quest: Rocket Tier 6
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKUA.name=Rocket Tier 6
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKUA.desc=After building this, you can visit more planets.%n%nYou need to use CN3H7O3 (Purple) Rocket Fuel or better to fuel it.%n%n§cIf you want to make this rocket in ZPM, you'll need to use the GT++ Assembler multi.§r%n%n[note]In case you forgot to complete any, holding the rocket in your hand will unlock all pre-requisite quests in addition to this one.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKUA.desc=After building this, you can visit more planets.%n%nYou need to use CN3H7O3 (Purple) Rocket Fuel or better to fuel it.%n%n§cIf you want to make this rocket in ZPM, you'll need to use the GT++ Assembler multi.§r
 
 # Quest: Tier 7 Heavy Duty Plates
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKUQ.name=Tier 7 Heavy Duty Plates
@@ -8796,7 +8796,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKUQ.desc=Rockets require heavy duty plat
 
 # Quest: Rocket Tier 7
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKUg.name=Rocket Tier 7
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKUg.desc=You can now visit the planets on the edge of the solar system with this rocket.%n%nYou need to use H8N4C2O4 (Green) Rocket Fuel to fuel it.%n%n[note]In case you forgot to complete any, holding the rocket in your hand will unlock all pre-requisite quests in addition to this one.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKUg.desc=You can now visit the planets on the edge of the solar system with this rocket.%n%nYou need to use H8N4C2O4 (Green) Rocket Fuel to fuel it.
 
 # Quest: Tier 8 Heavy Duty Plates
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKUw.name=Tier 8 Heavy Duty Plates
@@ -8804,7 +8804,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKUw.desc=Rockets require heavy duty plat
 
 # Quest: Rocket Tier 8
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKVA.name=Rocket Tier 8
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKVA.desc=You can travel to other solar systems with this, the T8 rocket.%n%nWhat, you visited other star systems before? There, was, uh, like, a nebula you couldn't go past to these ones. That makes sense, right?%n%nYou need to use H8N4C2O4 (Green) Rocket Fuel to fuel it.%n%n[note]In case you forgot to complete any, holding the rocket in your hand will unlock all pre-requisite quests in addition to this one.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKVA.desc=You can travel to other solar systems with this, the T8 rocket.%n%nWhat, you visited other star systems before? There, was, uh, like, a nebula you couldn't go past to these ones. That makes sense, right?%n%nYou need to use H8N4C2O4 (Green) Rocket Fuel to fuel it.
 
 # Quest: RP-1 Rocket Fuel
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKfA.name=§9§lRP-1 Rocket Fuel
@@ -14250,10 +14250,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFVA.desc=Find a Mjolnir
 # Quest: Trigger: Ballthingy
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFVQ.name=Trigger: Ballthingy
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFVQ.desc=Find? or make an LS
-
-# Quest: Trigger: CtH (unlock)
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAISw.name=Trigger: CtH (unlock)
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAISw.desc=Complete collecting the hybrids to trigger
 
 # Quest: Bees Template
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIbw.name=Bees Template
