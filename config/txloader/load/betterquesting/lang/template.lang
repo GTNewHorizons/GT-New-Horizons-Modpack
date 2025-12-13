@@ -4024,6 +4024,10 @@ betterquesting.quest.w4JcJ33CSWGlsKrmyHxnXA.desc=Fabricating Crystal SoCs with L
 betterquesting.quest.yo1cuNvYSU2JAczbJLAfjg.name=§2§l§nAdvanced Crystal SoC Production
 betterquesting.quest.yo1cuNvYSU2JAczbJLAfjg.desc=We can process Crystal Processing Units in a Laser Engraver to get the Crystal SoC. But as our demand for circuits gradually increases, this method of production is becoming untenable. We need a more advanced way to mass produce Crystal SoCs!%n%nFor that we use a new material, Cerium-doped Lutetium Aluminium Garnet (Ce:LuAG). LuAG has better performance when making Crystal SoCs - in fact it is a laser crystal material.%n%nFirst, mix Lutetium, Aluminium, Oxygen, and a little Cerium to get the material blend. Then put the blend with Molten Lutetium into an Autoclave to get a regular LuAG gem. If you have already got Oganesson you can also directly use that. As the second step, use the LuAG gem and more of the blend to produce Exquisite LuAG Gems.%n%nAfter you get the first gem, you can also use your Autoclave to grow crystals. Using the Vacuum Furnace might be a better choice to produce Exquisite LuAG Gems.%n%nLutetium, Lutetium, it needs a lot of Lutetium. How will you get a lot of Lutetium? Check out the Powerful Nuclear Physics quest tab!
 
+# Quest: Elastic Singularity
+betterquesting.quest.zmLCpjodTjOklgwPb5bGSA.name=§2§l§nElastic Singularity
+betterquesting.quest.zmLCpjodTjOklgwPb5bGSA.desc=Now that you've created the Neutronium Compressor, you finally have access to the Elastic Singularity for enhancing your §5§lL.A.T.E.X.§r cable coater.%n%nWith it, you will recieve a §2§l25%%§r rubber discount, §2§l2§r additional parallels, and the ability to use multiamp hatches. %n%nYou are now truly a cable master.
+
 
 ## Quest Line: Tier 9 - UHV
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAALg.name=Tier 9 - UHV
@@ -4123,7 +4127,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKaQ.desc=The Bioware Mainframe is the fi
 
 # Quest: Compressing the Core of a Star
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKcg.name=§4§l§nCompressing the Core of a Star
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKcg.desc=The next material is Infinity Catalyst. Infinity Catalyst needs to be compressed with insane amounts of force. The only machine capable of doing that is a Neutronium Compressor. Check out the Neutronium Compressor quest in Multiblock Goals.%n%nTo make the Catalyst, go to Vega B to get the dust. Then use the Neutronium Compressor to make Infinity Catalyst with 64 of the dust.%n%nYou can also do the insane Avaritia recipe to make the Infinity Catalyst, if you want a challenge :P%n%n[note]The compressor can also be used to make singularities, culminating in the Eternal Singularity, used in the alternate recipe.[/note]%n%n[note]If you want to automate singularity creation you can just click with the middle mouse button to modify the number of items in a pattern beyond the normal limits.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKcg.desc=The next material is Infinity Catalyst. Infinity Catalyst needs to be compressed with insane amounts of force. The only machine capable of doing that is a Neutronium Compressor. Check out the Neutronium Compressor quest in Multiblock Goals if you haven't made one yet.%n%nTo make the Catalyst, go to Vega B to get the dust. Then use the Neutronium Compressor to make Infinity Catalyst with 64 of the dust.%n%nYou can also do the insane Avaritia recipe to make the Infinity Catalyst, if you want a challenge :P%n%n[note]The compressor can also be used to make singularities, culminating in the Eternal Singularity, used in the alternate recipe.[/note]%n%n[note]If you want to automate singularity creation you can just click with the middle mouse button to modify the number of items in a pattern beyond the normal limits.[/note]
 
 # Quest: One Ingot, Infinite Power
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKcw.name=§4§l§nOne Ingot, Infinite Power
@@ -6643,10 +6647,6 @@ betterquesting.quest.NVgXYF-TQvqYnLn1NLM6pw.desc=[quest]The Solar Factory![/ques
 betterquesting.quest.QfQHCy0PRn-rABmKuvwQfw.name=Synchrotron (No Relation to the Catalyst)
 betterquesting.quest.QfQHCy0PRn-rABmKuvwQfw.desc=To actually produce some light for photolithography, you'll need to accelerate your electrons in a Synchrotron. Like with the LINAC, providing it with coolant is necessary to keep it running.%n%nYou can increase the energy of the produced photons by increasing EU/t, or increasing the tier of all four Antenna Casings inside.%n%nTo improve focus, you can use a better coolant, and the output amount increases with both EU/t and antennae tier.%n%nYes, you need all four energy hatches.
 
-# Quest: Neutronium Compressor
-betterquesting.quest.XKKP2E5ORG-ju42dSDd3sw.name=Neutronium Compressor
-betterquesting.quest.XKKP2E5ORG-ju42dSDd3sw.desc=In order to compress infinity catalysts and singularities, you'll need the strongest compressor yet: the Neutronium Compressor. This multiblock channels and controls extreme amounts of pressure through carefully calibrated Active Neutronium Casings, but the sheer magnitude of pressure is too much to produce blocks or superdense plates, as any regular material inserted into the device will be compressed down to a singularity. More advanced singularities should be possible in theory, but you'll need something even stronger...%n%n[note]Note that singularity recipes require extreme amounts of items! Consider using Super Buses or ME Stocking Input Buses to fit everything in there.[/note]
-
 # Quest: Hundreds of Thousands of eV
 betterquesting.quest.Y1kiJC_kRGKkW7h3qOPI8A.name=Hundreds of Thousands of eV
 betterquesting.quest.Y1kiJC_kRGKkW7h3qOPI8A.desc=A Linear Accelerator (LINAC) can be used to boost the energy of your beam, provided the beam's particles are charged. You'll need to constantly provide it with coolant for it to run, otherwise you'll have maintenance issues every time it runs dry.%n%nOutput energy can be increased by increasing EU/t (scales with the cbrt) or increasing length (scales linearly). The latter also decreases focus, however.%n%nFocus in turn can be improved by using a better/lower temperature coolant (options listed on tooltip).%n%nNote that Amount remains unchanged.
@@ -6891,6 +6891,10 @@ betterquesting.quest.Plg8vg0gS9Ks2Ddc5sIVOg.desc=How do you compress things in t
 # Quest: Insane Voltage Multiblocks
 betterquesting.quest.RFgYQ7LAQD-p1gHMaeg5Sg.name=§9§lInsane Voltage Multiblocks
 betterquesting.quest.RFgYQ7LAQD-p1gHMaeg5Sg.desc=Upon reaching the land of IV machinery, you can put together even more multis and speed up your automation!%n%nMany of the multiblocks from IV tier onwards use special alloys, which either need to be cooked like any ingots you've used before (in a Furnace or EBF), but there are also alloys which have to be made in the Alloy Blast Smelter (ABS), as a fluid, which then needs to be solidified.%n%nThe multis that need ABS alloys are further down. To unlock their quests, you will first need to craft the ABS itself. However, there is a large assortment of machines you can craft without it, just by having the respective IV singleblock equivalent and some other resources.%n%nThose will be here... but you might be able to find some more, if you look closely through NEI. Good luck!
+
+# Quest: L.A.T.E.X. Cable Coater
+betterquesting.quest.RV7RYWwgRSaI4oNfhfZljw.name=§5§lL.A.T.E.X. Cable Coater
+betterquesting.quest.RV7RYWwgRSaI4oNfhfZljw.desc=The §5L§raminated §5A§rpplication and §5T§rhermal §5E§rnclosure e§5X§rpert (§5L.A.T.E.X.§r) is a multiblock dedicated to coating cables.%n%nYou will be making a LOT of cables during your playthrough... Why bog down your assembler when you can use the LATEX instead? The LATEX gives §2§2§2§2§l2x§r§r§r§r the speed with a §3§3§3§3§l15%%§r§r§r§r EU discount, and generously offers §6§6§6§6§l8§r§r§r§r parallels per voltage tier.%n%nIf that's not convincing enough, you also get an additive §2§l6.25%%§r rubber discount per Item Pipe Casing tier.%n%n[note]Once you eventually reach UV, you will be able to create an Elastic Singularity for additional perks![/note] %n%n
 
 # Quest: See You Lather
 betterquesting.quest.VJN1qfd5SjCkm7CXVd9Pag.name=§8§lSee You Lather
@@ -14115,6 +14119,10 @@ betterquesting.quest.WPoaCPPwTBSyn2dmh5DcBA.desc=You got to take a well deserved
 # Quest: High Energy Laser Purification
 betterquesting.quest.WqDynhbQQ4GdNMKm0BlbcQ.name=§2§l§nHigh Energy Laser Purification
 betterquesting.quest.WqDynhbQQ4GdNMKm0BlbcQ.desc=For even more pure water, you will need to use strong lasers to precisely bombard the water and remove impurities. As usual with the waterline, this multiblock presents you with a complex automation puzzle to solve.
+
+# Quest: Neutronium Compressor
+betterquesting.quest.XKKP2E5ORG-ju42dSDd3sw.name=§2§l§nNeutronium Compressor
+betterquesting.quest.XKKP2E5ORG-ju42dSDd3sw.desc=In order to compress singularities and eventually infinity catalysts, you'll need the strongest compressor yet: the Neutronium Compressor. This multiblock channels and controls extreme amounts of pressure through carefully calibrated Active Neutronium Casings, but the sheer magnitude of pressure is too much to produce blocks or superdense plates, as any regular material inserted into the device will be compressed down to a singularity. More advanced singularities should be possible in theory, but you'll need something even stronger...%n%n[note]Note that singularity recipes require extreme amounts of items! Consider using Super Buses or ME Stocking Input Buses to fit everything in there.[/note]
 
 # Quest: Matter Manipulator MKI
 betterquesting.quest.Y4bRCOWFTgyxdTJXWXjFfA.name=§9§lMatter Manipulator MKI
