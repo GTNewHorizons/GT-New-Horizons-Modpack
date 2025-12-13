@@ -2,17 +2,23 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 2673
+      "questIDLow:4": 2656
     },
     "1:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 2614
+      "questIDLow:4": 2673,
+      "type:1": 1
+    },
+    "2:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2614,
+      "type:1": 1
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "In order to compress infinity catalysts and singularities, you\u0027ll need the strongest compressor yet: the Neutronium Compressor. This multiblock channels and controls extreme amounts of pressure through carefully calibrated Active Neutronium Casings, but the sheer magnitude of pressure is too much to produce blocks or superdense plates, as any regular material inserted into the device will be compressed down to a singularity. More advanced singularities should be possible in theory, but you\u0027ll need something even stronger...\n\n[note]Note that singularity recipes require extreme amounts of items! Consider using Super Buses or ME Stocking Input Buses to fit everything in there.[/note]",
+      "desc:8": "In order to compress singularities and eventually infinity catalysts, you\u0027ll need the strongest compressor yet: the Neutronium Compressor. This multiblock channels and controls extreme amounts of pressure through carefully calibrated Active Neutronium Casings, but the sheer magnitude of pressure is too much to produce blocks or superdense plates, as any regular material inserted into the device will be compressed down to a singularity. More advanced singularities should be possible in theory, but you\u0027ll need something even stronger...\n\n[note]Note that singularity recipes require extreme amounts of items! Consider using Super Buses or ME Stocking Input Buses to fit everything in there.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
