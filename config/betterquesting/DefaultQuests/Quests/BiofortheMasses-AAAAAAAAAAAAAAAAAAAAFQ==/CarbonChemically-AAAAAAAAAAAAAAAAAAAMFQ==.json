@@ -2,10 +2,6 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 1148
-    },
-    "1:10": {
-      "questIDHigh:4": 0,
       "questIDLow:4": 3117
     }
   },
@@ -24,7 +20,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Carbon, Chemically",
-      "questLogic:8": "OR",
+      "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
       "simultaneous:1": 0,
