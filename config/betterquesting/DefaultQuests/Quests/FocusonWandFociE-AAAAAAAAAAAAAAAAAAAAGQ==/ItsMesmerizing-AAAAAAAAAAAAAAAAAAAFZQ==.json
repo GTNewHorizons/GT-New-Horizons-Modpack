@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The Wand Focus: Primal will hurl an orb of primal energy with right-click. The orb explodes on impact, and it has a small chance to cause other effects. It sometimes creates taint when it lands, and it very rarely creates a node if it destroys the block it impacts. Its base vis cost constantly fluctuates. [note]Maybe studying it and its projectiles will give you a better understanding of vis.[/note]\n\n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]\n§5Frugal§r: Lowers vis cost to cast by 10% per level\n§5Seeker§r (level 3): The orb homes in on the closest target, but loses some of its special effects like creating taint or nodes\n",
+      "desc:8": "The Wand Focus: Primal will hurl an orb of primal energy with right-click. The orb explodes on impact, and it has a small chance to cause other effects. It sometimes creates taint when it lands, and it very rarely creates a node if it destroys the block it impacts. Its base vis cost constantly fluctuates. [note]Maybe studying it and its projectiles will give you a better understanding of vis.[/note]\n\n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]\n§5Frugal§r: Lowers vis cost to cast by 10% per level\n§5Seeker§r (level 3): The orb homes in on the closest target, but loses some of its special effects like creating taint or nodes",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
