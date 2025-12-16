@@ -2658,7 +2658,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHhQ.desc=Tired of waiting around for hou
 
 # Quest: Platinum Processing, Step 4
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI-A.name=§a§lPlatinum Processing, Step 4
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI-A.desc=Platinum Chloride? You promised Pure Platinum Metal at a much higher efficiency than just smelting it! No worries, just react the Platinum Chloride with Calcium and you're done. The calcium and chlorine can be recycled as well!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI-A.desc=Platinum Chloride? You were promised Pure Platinum Metal at a much higher efficiency than just smelting it! No worries, just react the Platinum Chloride with Calcium and you're done. The Calcium and Chlorine can be recycled as well!
 
 # Quest: Platinum Processing, Step 3
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI-Q.name=§a§lPlatinum Processing, Step 3
@@ -3990,7 +3990,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKmw.desc=So if you looked in NEI and tri
 
 # Quest: Kevlar
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM0g.name=Kevlar
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAM0g.desc=There is a new material that can be used for some high tier crafts. The production line is long and tedious but you should know how to use NEI by now, right?%n%n[note]Hint: If you don't feel like automating a 52 step chemical line, you could also have a look at the Kevlar bee and the new QFT if you are sufficiently high tier.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAM0g.desc=There is a new material that can be used for some high tier crafts. The production line is long and tedious but you should know how to use NEI by now, right?%n%n[note]Hint: If you don't feel like automating a 52 step chemical line, you could also have a look at the Kevlar bee.[/note]
 
 # Quest: Space Elevator
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM0w.name=Space Elevator
@@ -8908,7 +8908,7 @@ betterquesting.quest.FMul7onaSFmWwPZRUSR3FA.desc=This block can be used to confi
 
 # Quest: Fancy Stripes!
 betterquesting.quest.OaE5CLFfQ8CNDmlmBWB6ZA.name=Fancy Stripes!
-betterquesting.quest.OaE5CLFfQ8CNDmlmBWB6ZA.desc=A Rocket Engine is needed to accelerate your Mothership. Each Rocket Engine consists of one Rocket Engine Jet and 1 to 10 Rocket Engine Base blocks placed in a vertical line. Each Rocket Engine Base provides 2MN of force and holds up to 10,000L of Naquadah Based Liquid Fuel Mk II.%n%n[note]The Mothership is configured to have a fixed weight of 1500kg. So feel free to design a big and fancy spaceship. The amount of engines you need stays the same.[/note]
+betterquesting.quest.OaE5CLFfQ8CNDmlmBWB6ZA.desc=A Rocket Engine is needed to accelerate your Mothership. Each Rocket Engine consists of one Rocket Engine Jet and 1 to 10 Rocket Engine Base blocks placed in a line. Each Rocket Engine Base provides 2MN of force and holds up to 10,000L of Naquadah Based Liquid Fuel Mk II.%n%n[note]The Mothership is configured to have a fixed weight of 1500kg. So feel free to design a big and fancy spaceship. The amount of engines you need stays the same.[/note]
 
 # Quest: A T0 Rocket? What?
 betterquesting.quest.Oiy66UDmTVeZ95pN0yunBg.name=A T0 Rocket? What?
@@ -9130,7 +9130,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAG2Q.desc=Cache me outside.%n%nYour CPU w
 
 # Quest: Computer Case
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAG2g.name=Computer Case
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAG2g.desc=100 Percent Waterproof.%n%nThe computer base is the HUB of all your computer parts essentially. It takes two memory sticks, a BIOs rom, a CPU, and a hard drive at the very least to run your computer.%n%nThe power converter allows you to power it from your GregTech power grid, and the floppy drive will allow you to install your operating system onto the hard drive.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAG2g.desc=100 Percent Waterproof.%n%nThe Computer Case is the HUB of all your computer parts essentially. It takes two memory sticks, a BIOs rom, a CPU, and a hard drive at the very least to run your computer.%n%nThe power converter allows you to power it from your GregTech power grid, and the floppy drive will allow you to install your operating system onto the hard drive.
 
 # Quest: My Little Scrench
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAG2w.name=My Little Scrench
