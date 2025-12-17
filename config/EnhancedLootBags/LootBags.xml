@@ -874,12 +874,12 @@
         <Loot Identifier="80ce8d56-179f-4a00-b41e-c3b10d7036fe" ItemName="Thaumcraft:ItemEssence" Amount="32" NBTTag="" Chance="55" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="6ab61bcc-c27b-44ee-8228-67695ae7d96a" ItemName="Thaumcraft:blockChestHungry" Amount="1" NBTTag="" Chance="60" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="79837345-2c8f-4ae3-8d89-be9d251ba1d4" ItemName="Thaumcraft:blockMetalDevice:7" Amount="1" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="0e1892b5-abc4-4947-8a8d-bebf08cf1e8f" ItemName="Thaumcraft:blockCosmeticSolid:7" Amount="8" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="34b3c8af-939d-45ba-bc55-f162b391f178" ItemName="Thaumcraft:blockTube:6" Amount="16" NBTTag="" Chance="35" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="c13d6f36-af76-4b65-a796-5ba8221b8c59" ItemName="Thaumcraft:blockTube:5" Amount="16" NBTTag="" Chance="35" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="9a90d0ba-333a-4bcb-a9c7-8f0a307261ac" ItemName="Thaumcraft:blockTube:3" Amount="16" NBTTag="" Chance="35" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="9b86b6e4-0710-40e2-ba2e-7bbff5e64032" ItemName="Thaumcraft:blockTube" Amount="16" NBTTag="" Chance="35" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="a3ec0a28-7595-49cb-8ad3-b8b9fe81c677" ItemName="Thaumcraft:ItemThaumometer" Amount="1" NBTTag="" Chance="30" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="d85f5d44-24ab-4099-ad3d-ad2b21b1a356" ItemName="Automagy:blockThirstyTank" Amount="1" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
     <LootGroup GroupMetaID="10" GroupName="dreamcraft.lootbag.group.magic_adept" Rarity="1" MinItems="1" MaxItems="2" CombineTrashGroup="true" TrashGroup="9" LootbagIcon="enhancedlootbags:magic2">
         <Loot Identifier="5f49e3bd-1557-46ce-83ec-5be066b4a2b0" ItemName="Thaumcraft:BlockJarFilledItem" Amount="1" NBTTag="{Aspects:[0:{amount:64,key:&quot;perfodio&quot;}]}" Chance="45" LimitedDropCount="0" RandomAmount="false"/>
