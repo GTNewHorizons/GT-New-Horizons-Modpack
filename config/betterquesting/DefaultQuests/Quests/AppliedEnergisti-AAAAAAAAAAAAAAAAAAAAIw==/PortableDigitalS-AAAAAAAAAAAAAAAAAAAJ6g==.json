@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "They\u0027re exactly what they sound like.\n\nThe first is for items and acts like a terminal. It can hold 4,032 of a single item.\n\nThe second is for liquids, and acts like the fluid terminal. It can hold 128 buckets of a single liquid.\n\nIt costs AE to put things in, take them out, or have the interface open. Use the Wireless Charger from EIO if you don\u0027t want it to take forever.",
+      "desc:8": "They\u0027re exactly what they sound like.\n\nThe first is for items and acts like a terminal. It can hold 4,032 of a single item.\n\nThe second is for liquids, and also acts like a terminal. It can hold 128 buckets of a single liquid.\n\nIt costs AE to put things in, take them out, or have the interface open. Use the Wireless Charger from EIO if you don\u0027t want it to take forever.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,

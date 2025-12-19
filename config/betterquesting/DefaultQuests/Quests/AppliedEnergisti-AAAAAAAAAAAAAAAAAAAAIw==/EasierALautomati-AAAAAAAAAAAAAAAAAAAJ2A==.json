@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Unlike regular pattern terminals, the processing pattern terminal doesn\u0027t have a crafting mode. Instead, you have a lot more slots for input and output, and the ability to swap them. Great for your Assembly Line patterns. Why not directly make the fluid option? It is a straight upgrade.",
+      "desc:8": "Unlike regular pattern terminals, the processing pattern terminal doesn\u0027t have a crafting mode. Instead, you have a lot more slots for input and output, and the ability to swap them. Great for your Assembly Line patterns.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 64,
@@ -71,9 +71,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 0,
+          "Damage:2": 500,
           "OreDict:8": "",
-          "id:8": "ae2fc:part_fluid_pattern_terminal_ex"
+          "id:8": "appliedenergistics2:item.ItemMultiPart"
         }
       },
       "taskID:8": "bq_standard:retrieval"
