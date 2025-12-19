@@ -1,33 +1,29 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": -7295214463238520795,
-      "questIDLow:4": -8557295371763424843
+      "questIDHigh:4": -6582941143421138107,
+      "questIDLow:4": -6615881702968461094
     },
     "1:10": {
-      "questIDHigh:4": 6530486220488721281,
-      "questIDLow:4": -7118851089254229135
-    },
-    "2:10": {
-      "questIDHigh:4": -139068609484536132,
-      "questIDLow:4": -5753871526049634361
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1014
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "You got to take a well deserved break from the waterline in UHV, but now that you are going to be making optical circuits, your Grade 6 Purified Water will no longer be enough. Using the Degasser, you can remove all the leftover decontaminants from previous processes and make even more pure water, pure enough for Optical Circuits.\n\nThe tooltip and list of requirements looks intimidating. Try breaking it down into small, digestible units of logic and you will quickly arrive at a solution.",
+      "desc:8": "The §5L§raminated §5A§rpplication and §5T§rhermal §5E§rnclosure e§5X§rpert (§5L.A.T.E.X.§r) is a multiblock dedicated to coating cables.\n\nYou will be making a LOT of cables during your playthrough... Why bog down your assembler when you can use the LATEX instead? The LATEX gives §2§l2x§r the speed with a §3§l15%§r EU discount, and generously offers §6§l8§r parallels per voltage tier.\n\nIf that\u0027s not convincing enough, you also get an additive §2§l6.25%§r rubber discount per Item Pipe Casing tier.\n\n[note]Once you eventually reach UV, you will be able to create an Elastic Singularity for additional perks![/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 9412,
+        "Damage:2": 15752,
         "OreDict:8": "",
         "id:8": "gregtech:gt.blockmachines"
       },
-      "isMain:1": 1,
+      "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§5§l§nThe Quest for Holy Water",
+      "name:8": "§5§lL.A.T.E.X. Cable Coater",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -38,8 +34,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 6411465645269994516,
-  "questIDLow:4": -5575624123602641916,
+  "questIDHigh:4": 4998662852783916326,
+  "questIDLow:4": -8583153493522094705,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -47,10 +43,10 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 16,
-          "Damage:2": 9649,
+          "Count:3": 1,
+          "Damage:2": 6,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "enhancedlootbags:lootbag"
         }
       }
     }
@@ -66,7 +62,7 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 9412,
+          "Damage:2": 15752,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }
@@ -82,28 +78,28 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 800,
-          "Damage:2": 11,
+          "Count:3": 36,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings9"
+          "id:8": "gregtech:gt.blockcasings8"
         },
         "1:10": {
-          "Count:3": 621,
-          "Damage:2": 2,
+          "Count:3": 32,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockglass1"
+          "id:8": "bartworks:BW_GlasBlocks"
         },
         "2:10": {
-          "Count:3": 124,
-          "Damage:2": 395,
+          "Count:3": 16,
+          "Damage:2": 649,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockframes"
         },
         "3:10": {
-          "Count:3": 1,
-          "Damage:2": 9413,
+          "Count:3": 6,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "gregtech:gt.blockcasings11"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

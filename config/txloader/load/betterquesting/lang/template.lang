@@ -152,7 +152,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALDw.desc=This quest goes over all of the
 
 # Quest: Lootbag Uptiering
 betterquesting.quest.ZM4oSqeWQRW1Y-zoE01ivg.name=Lootbag Uptiering
-betterquesting.quest.ZM4oSqeWQRW1Y-zoE01ivg.desc=In GTNH, the lootbags are quite useful tools for boosting your resources. There are a wide variety of lootbag types, and those types all have upgrade paths to get better resources.%n%nThere are two paths you can take when it comes to upgrading your lootbags, you can either enchant it with fortune, or you can upgrade the bag itself. Enchanting the lootbag with fortune will increase the chances of more rare drops being given to you on opening, while upgrading the bag itself will change the item pool to that of the upgraded bag. Notably, if you uptier the bag itself, it will cost 3 of the previous bag tier, so make sure it's worthwhile to upgrade before you do so!%n%n§2If you're looking to maximize your advantage it's recommended you both uptier your lootbag AND apply the fortune upgrade. %n§r%n[note]Be sure to use NEI to see all of this information. Use 'U' on your lootbag and you will be able to see the potential drops, the drop chances based on fortune levels, and you will be able to see recipes for uptiering the bag.[/note]%n
+betterquesting.quest.ZM4oSqeWQRW1Y-zoE01ivg.desc=In GTNH, the lootbags are quite useful tools for boosting your resources. There are a wide variety of lootbag types, and those types all have upgrade paths to get better resources.%n%nThere are two paths you can take when it comes to upgrading your lootbags, you can either enchant it with fortune, or you can upgrade the bag itself. Enchanting the lootbag with fortune will increase the chances of more rare drops being given to you on opening, while upgrading the bag itself will change the item pool to that of the upgraded bag. Notably, if you uptier the bag itself, it will cost 3 of the previous bag tier, so make sure it's worthwhile to upgrade before you do so!%n%n§2If you're looking to maximize your advantage it's recommended you both uptier your lootbag AND apply the fortune upgrade. %n§r%n[note]Be sure to use NEI to see all of this information. Use 'U' on your lootbag and you will be able to see the potential drops, the drop chances based on fortune levels, and you will be able to see recipes for uptiering the bag.[/note]
 
 
 ## Quest Line: Tier 0 - Stone Age
@@ -445,7 +445,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALPA.desc=It looks like you've found a se
 
 # Quest: Coins! Coins! Coins!
 betterquesting.quest.McmojGJJS3m8fS6c4olJmQ.name=§a§lCoins! Coins! Coins!
-betterquesting.quest.McmojGJJS3m8fS6c4olJmQ.desc=Finally, a use for all of these coins!%n%nThe §5§lVending Machine§r is a unique multiblock that allows you to exchange coins for valuable resources. You will progressively unlock new trades as you complete quests. Quests that unlock Vending Machine trades upon completion will show this information under the section labeled "§lAssociated Vending Machine Exchanges§r".%n%nAlternatively you can click "§2U§r" on the Vending Machine in NEI to see all available trades and what quests they are unlocked by. If an item can be traded for it will show up when clicking "§2R§r" under the Vending Machine tab.%n%nYou can put your coins directly into the input and they will appear in the internal storage. Additional inputs §3(including non-consumable)§r should be placed here as well. There is also a button for ejecting the coins if you need to reclaim them. %n%n[warn]Be aware, some trades have much longer timeout periods between claims![/warn]%n%n
+betterquesting.quest.McmojGJJS3m8fS6c4olJmQ.desc=Finally, a use for all of these coins!%n%nThe §5§lVending Machine§r is a unique multiblock that allows you to exchange coins for valuable resources. You will progressively unlock new trades as you complete quests. Quests that unlock Vending Machine trades upon completion will show this information under the section labeled "§lAssociated Vending Machine Exchanges§r".%n%nAlternatively you can click "§2U§r" on the Vending Machine in NEI to see all available trades and what quests they are unlocked by. If an item can be traded for it will show up when clicking "§2R§r" under the Vending Machine tab.%n%nYou can put your coins directly into the input and they will appear in the internal storage. Additional inputs §3(including non-consumable)§r should be placed here as well. There is also a button for ejecting the coins if you need to reclaim them. %n%n[warn]Be aware, some trades have much longer timeout periods between claims![/warn]
 
 # Quest: Automated Coke Oven
 betterquesting.quest.XABK1llCToa6KKcF5Z69GA.name=§a§lAutomated Coke Oven
@@ -461,7 +461,7 @@ betterquesting.quest.bbaqMVmnQFyjDT-CHJKqQQ.desc=Now that you got your first pap
 
 # Quest: Your First Flint Sword
 betterquesting.quest.h_PK8qnyR9CBUoOhT9nwzA.name=§a§lYour First Flint Sword
-betterquesting.quest.h_PK8qnyR9CBUoOhT9nwzA.desc=It's time to upgrade your wooden sword a little.%nCollect flint bones and a stick.%n%nYou won't be able to kill a Wither with it now, but you can upgrade and improve this tool later. You can also repair it with flint.
+betterquesting.quest.h_PK8qnyR9CBUoOhT9nwzA.desc=It's time to upgrade your wooden sword a little.%n%nYou only need one stick, one bone, and one flint to create the new weapon. However, it's recommended that you gather extra flint since it can be used to repair the sword.%n%nYou won't be able to kill a Wither with it now, but you can upgrade and improve this tool later.
 
 
 ## Quest Line: Tier 0.5 - Steam
@@ -702,7 +702,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADrg.desc=The Plunger is used to clear li
 
 # Quest: Better Than Iron
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADtA.name=§c§lBetter Than Iron
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADtA.desc=But not as good as steel. Mostly, this is used in machine hulls, or in tools if you don't want to use steel up for that.%n%nTo make wrought iron, you need a tinkers smelter to melt some iron ingots down and cast nuggets; or use an ingot and a saw to get your nuggets. Now put these in a furnace to get wrought iron nuggets. With the compressor, you can compress the nuggets into ingots.%n%n§3Hint: Crushed or purified iron ore (not a mixed version like pyrite, look for Iron Ore in Chalcopyrite veins) can be smelted to iron nuggets directly. Or you can use an alloy smelter to turn iron ingots into nuggets faster than a smeltery. You can also use a saw to cut up iron ingots into nuggets.%n%nLater on, you can use an arc furnace to make wrought iron ingots directly.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADtA.desc=But not as good as steel. Mostly, this is used in machine hulls, or in tools if you don't want to use steel up for that.%n%nTo make wrought iron, you either need to use a Tinkers' Smeltery to melt some Iron Ingots down and cast into Iron Nuggets, or use an Iron Ingot and a saw to craft Iron Nuggets. Now put these in a furnace to get Wrought Iron Nuggets. With the Compressor, you can compress the nuggets into ingots.%n%n§3Hint: Crushed or purified iron ore (not a mixed version like pyrite, look for Iron Ore in Chalcopyrite veins) can be smelted to iron nuggets directly. %n%nYou can optionally use an Alloy Smelter to turn iron ingots into nuggets faster than a smeltery. %n%nLater on, you can use an Arc Furnace to make Wrought Iron Ingots directly.
 
 # Quest: New Source of Glowstone
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAERA.name=§c§lNew Source of Glowstone
@@ -1107,7 +1107,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACbQ.desc=A second source for sodium is g
 
 # Quest: How to Get Sodium and Lithium
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACbg.name=§2§lHow to Get Sodium and Lithium
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACbg.desc=Salt ore mixes can be found in the Overworld between Y 50-70.%n%nSalt isn't only used to get sodium, it's an important ingredient in many pam's harvestcraft food recipes.%n%nLepidolite and spodumene are good sources of lithium for your batteries. Later on you can get a lot more in different ways.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACbg.desc=Salt ore mixes can be found in the Overworld between Y 50-70.%n%nSalt isn't only used to get sodium, it's an important ingredient in many Pam's HarvestCraft food recipes.%n%nLepidolite and spodumene are good sources of lithium for your batteries. Later on you can get a lot more in different ways.
 
 # Quest: Cadmium
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACbw.name=§2§lCadmium
@@ -1532,19 +1532,19 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAC-A.desc=If you looked through NEI you m
 
 # Quest: Bio Fuels
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC2g.name=§6§lBio Fuels
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC2g.desc=You've been using steam, creosote, and possibly oil plus their byproducts to generate power. It's time to start making bio diesel. The first step is to make plant balls out of organic materials. You can use wheat, sugarcane, apples, saplings or, well, practically anything. Indigo blossoms are 4:1 and unlike the rest of the IC2 crops with the same ratio, not really useful for anything else. Realistically, you'll probably just use saplings though, since you'll want/need a tree farm anyway.%n%nBe sure you have a Forestry multifarm, Steve's Carts Farm, IC2 Crop Sticks with a harvester, or whatever, because you need plenty of bio materials for constant bio diesel production.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAC2g.desc=You've been using Steam, Creosote, or possibly Oil to generate power. It's time to start making Bio Diesel. The first step is to make Plantballs out of organic materials. You can use Wheat, Sugar Canes, Apples, Saplings or, well, practically anything. Indigo Blossoms are 4:1 and unlike the rest of the IC2 crops with the same ratio, not really useful for anything else. Realistically, you'll probably just use saplings though, since you'll want/need a tree farm anyway.%n%nBe sure you have a Forestry Multifarm, Steve's Carts Farm, IC2 Crop Sticks with a harvester, or whatever, because you need plenty of bio materials for constant Bio Diesel production.
 
 # Quest: Plantballs
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC2w.name=§6§lPlantballs
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC2w.desc=Next you should compress plantballs out of your wheat.%n%nThe MV compressor is twice as fast as the LV. You might think this means using it is a good idea. Well, it depends. Remember it also uses 4x the power. This means you spend 2x the EU in total to get the same amount of EU out. If you overclock too much in your fuel production setup, you end up with an EU deficit! Overclocking once is usually well worth it though.%n%nEventually you want to use multiblocks for better speeds and efficiency!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAC2w.desc=Next you should compress Plantballs out of your bio materials.%n%nThe MV Compressor is twice as fast as the LV one. You might think this means using it is a good idea. Well, it depends. Remember it also uses 4x the power. This means you spend 2x the EU in total to get the same amount of EU out. If you overclock too much in your fuel production setup, you end up with an EU deficit! Overclocking once is usually well worth it though.%n%nEventually you want to use multiblocks for better speeds and efficiency!
 
 # Quest: Plant Mass
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC3A.name=§6§lPlant Mass
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC3A.desc=Macerate the plantballs down to plant mass for better processing. The HV macerator has an extra slot so you can get more, but it's not worth it power-wise, same for EV and IV.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAC3A.desc=Macerate the Plantballs down to Plant Mass for better processing. The HV Macerator has an extra slot so you can get more, but it's not worth it power-wise, same for EV and IV.
 
 # Quest: Bio Chaff
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC3Q.name=§6§lBio Chaff
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC3Q.desc=Plant mass needs to be centrifuged into bio chaff, the base material to make biomass.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAC3Q.desc=Plant Mass needs to be centrifuged into Bio Chaff, the base material to make biomass.
 
 # Quest: Way One: IC2 Fluid Canner
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC3g.name=§6§lWay One: IC2 Fluid Canner
@@ -1552,11 +1552,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAC3g.desc=The first way you get biomass o
 
 # Quest: Way Two: Brewery
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC3w.name=§6§lWay Two: Brewery
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC3w.desc=If you are lucky and find some brewing stands or have started using Thaumcraft to make one, you can craft a brewery. You get 1000mb of biomass out of 1000mb water and 1 bio chaff. Use Distilled water to get a better ratio and a much faster recipe.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAC3w.desc=If you are lucky and find a Brewing Stand or have started using Thaumcraft to make one, you can craft a Brewery. You get 1000mb of Biomass out of 1000mb Water and 1 Bio Chaff. Use Distilled Water to get a better ratio and a much faster recipe.
 
 # Quest: Fermented Biomass
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC4A.name=§6§lFermented Biomass
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC4A.desc=Fermenting your biomass allows you to get more products out of it like methanol, ethanol, ammonia, etc.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAC4A.desc=Fermenting your Biomass allows you to get more products out of it like Methanol, Ethanol, Ammonia, etc.
 
 # Quest: Extrude All the Things
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC5A.name=§6§lExtrude All the Things
@@ -1660,19 +1660,19 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADRg.desc=Finally, the HV circuit! To mak
 
 # Quest: Methane Gas
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADSg.name=§6§lMethane Gas
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADSg.desc=Methane gas has a burn value of 104,000 EU per cell and can be burned in the gas turbine.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADSg.desc=Methane gas has a burn value of 104,000 EU per cell and can be burned in the Gas Turbine.
 
 # Quest: Methanol
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADSw.name=§6§lMethanol
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADSw.desc=Methanol has a burn value of 84,000 EU per cell and can be used to make bio diesel and other fluids. It's also used to make certain rocket fuels.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADSw.desc=Methanol has a burn value of 84,000 EU per cell and can be used to make Bio Diesel and other fluids. It's also used to make certain rocket fuels.
 
 # Quest: Ethanol
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADTA.name=§6§lEthanol
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADTA.desc=Ethanol has a burn value of 192,000 EU per cell can be used to make bio diesel and other fluids.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADTA.desc=Ethanol has a burn value of 192,000 EU per cell can be used to make Bio Diesel and other fluids.
 
 # Quest: Bio Diesel Fuel
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADTQ.name=§6§lBio Diesel Fuel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADTQ.desc=With ethanol or methanol and seed oil or fish oil you can make bio diesel. Its burn value is 320,000 EU per cell, less than regular diesel, but more renewable. Diesel or bio diesel are needed for cetane-boosted diesel.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADTQ.desc=With Ethanol or Methanol and Seed Oil or Fish Oil you can make Bio Diesel. Its burn value is 320,000 EU per cell, less than regular Diesel, but more renewable. Diesel or Bio Diesel are needed for Cetane-Boosted Diesel.
 
 # Quest: O like Oxygen
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADTg.name=§6§lO like Oxygen
@@ -1800,7 +1800,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFKg.desc=The MV centrifuge is twice as f
 
 # Quest: Biomass
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFKw.name=§6§lBiomass
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFKw.desc=Chose the IC2 or the gregtech way to make biomass. Water and Bio Chaff is needed.%n%nYou can also use the pyrolyze oven to make biomass in a more efficient way if you make it.%n%nNote that forestry has its own biomass as well. It can also be made into fermented biomass like this kind. Choose which kind you want to make later on yourself.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFKw.desc=Choose the IC2 or the GregTech way to make Biomass. Water and Bio Chaff is needed.%n%nYou can also use the Pyrolyze Oven to make Biomass in a more efficient way if you make it.%n%nNote that Forestry has its own Biomass as well. It can also be turned into Fermented Biomass.
 
 # Quest: Advanced Fluid Extractor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFLA.name=§6§lAdvanced Fluid Extractor
@@ -1952,7 +1952,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJbg.desc=Too many items getting you down
 
 # Quest: Make a better Distillery
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL_Q.name=§6§lMake a better Distillery
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL_Q.desc=To produce methanol and ethanol much faster, craft a mv distillery.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL_Q.desc=To produce Methanol and Ethanol much faster, craft a MV Distillery.
 
 # Quest: Way Three: Pyrolyse Oven
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL_g.name=§6§lWay Three: Pyrolyse Oven
@@ -2029,7 +2029,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAog.desc=HV is about getting to the moon
 
 # Quest: I See Everything
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAow.name=§5§lI See Everything
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAow.desc=The inventory panel is an alternative to a PR or LP storage system. Just like PR, you have to connect every chest/barrel with an item conduit.%n%nIn addition to that, you also have to install a "Remote Awareness" upgrade into every conduit side you want the panel to see, and provide the panel with Nutrient Distillation which you make in The Vat.%n%nWell, they're all obsolete once you get AE2 though.%n
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAow.desc=The inventory panel is an alternative to a PR or LP storage system. Just like PR, you have to connect every chest/barrel with an item conduit.%n%nIn addition to that, you also have to install a "Remote Awareness" upgrade into every conduit side you want the panel to see, and provide the panel with Nutrient Distillation which you make in The Vat.%n%nWell, they're all obsolete once you get AE2 though.
 
 # Quest: Soul Eater
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAApQ.name=§5§lSoul Eater
@@ -2153,7 +2153,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADpA.desc=The HV miner is faster, has lon
 
 # Quest: Performing Chemical Experiments at HV Level
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADrw.name=§5§lPerforming Chemical Experiments at HV Level
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADrw.desc=There are a number of chemical recipes that are unlocked with an §5HV Chemical Reactor§r; you will finally be able to make Ender Eyes, Ammonia, Gelled Toluene, and plenty of other useful components. %n%nAlternatively, if you're up for it, you can head over to the Mass Processing tab and build yourself a §5Large Chemical Reactor§r (LCR) instead! In addition to having a more efficient overclock, the LCR can input multiple liquids so you won't need to mess with those pesky cells any longer. %n%n[note]If you choose to go the LCR route, be sure to take a look at the PTFE questline just ahead of this one, starting with "Teflon Don".[/note]%n
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADrw.desc=There are a number of chemical recipes that are unlocked with an §5HV Chemical Reactor§r; you will finally be able to make Ender Eyes, Ammonia, Gelled Toluene, and plenty of other useful components. %n%nAlternatively, if you're up for it, you can head over to the Mass Processing tab and build yourself a §5Large Chemical Reactor§r (LCR) instead! In addition to having a more efficient overclock, the LCR can input multiple liquids so you won't need to mess with those pesky cells any longer. %n%n[note]If you choose to go the LCR route, be sure to take a look at the PTFE questline just ahead of this one, starting with "Teflon Don".[/note]
 
 # Quest: You're Gonna Hate This 5 and 6 in HV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE0A.name=§5§lYou're Gonna Hate This 5 and 6 in HV
@@ -2666,7 +2666,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHhQ.desc=Tired of waiting around for hou
 
 # Quest: Platinum Processing, Step 4
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI-A.name=§8§lPlatinum Processing, Step 4
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI-A.desc=Platinum Chloride? You promised Pure Platinum Metal at a much higher efficiency than just smelting it! No worries, just react the Platinum Chloride with Calcium and you're done. The calcium and chlorine can be recycled as well!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI-A.desc=Platinum Chloride? You were promised Pure Platinum Metal at a much higher efficiency than just smelting it! No worries, just react the Platinum Chloride with Calcium and you're done. The Calcium and Chlorine can be recycled as well!
 
 # Quest: Platinum Processing, Step 3
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI-Q.name=§8§lPlatinum Processing, Step 3
@@ -3609,7 +3609,7 @@ betterquesting.quest.-wpUfFlVT5GytSWoT6QAdg.desc=Why stop at §2Prismatic Naquad
 
 # Quest: Prismatic Acid
 betterquesting.quest.9CIs8MP4TBuyRgn8lDu3Mg.name=§b§lPrismatic Acid
-betterquesting.quest.9CIs8MP4TBuyRgn8lDu3Mg.desc=Almost there I promise!%n%nNow that you have obtained the §2Prismatic Gas§o§r, you must cool it down in a §5§lVacuum Freezer§r with the assistance of §2Liquid Nitrogen§r. This will give you §3Prismatic Acid§r.%n%n[warn]Aside from continuing down this line, you can also use Prismatic Acid in the processing of Gaia blocks later.[/warn]%n
+betterquesting.quest.9CIs8MP4TBuyRgn8lDu3Mg.desc=Almost there I promise!%n%nNow that you have obtained the §2Prismatic Gas§o§r, you must cool it down in a §5§lVacuum Freezer§r with the assistance of §2Liquid Nitrogen§r. This will give you §3Prismatic Acid§r.%n%n[warn]Aside from continuing down this line, you can also use Prismatic Acid in the processing of Gaia blocks later.[/warn]
 
 # Quest: Power, So Much Power!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABdw.name=§b§lPower, So Much Power!
@@ -3829,7 +3829,7 @@ betterquesting.quest.fVoSLYPcSmKd-gLhBJHK9A.desc=Finally, you can combine the §
 
 # Quest: Prismarine Precipitate
 betterquesting.quest.fc7Q6J-BThCf_NbvM0ki2Q.name=§b§lPrismarine Precipitate
-betterquesting.quest.fc7Q6J-BThCf_NbvM0ki2Q.desc=After creating the §2Prismarine-Rich Nitrobenzene Solution§r, you'll need to process it using a §5§lChemical Plant§r with §2Strontium Hydroxide§r. Once processed, you can successfully obtain your first §3Prismarine Precipitate§r.%n%n[warn]The Strontium is completely recyclable within the line, so no need to worry about it's continuous injection.[/warn]%n%n[note]If you have not gotten Strontium yet, you can obtain it from Strontium Oxide based on Rare Earth 3 or from Spessartine Froth.[/note]
+betterquesting.quest.fc7Q6J-BThCf_NbvM0ki2Q.desc=After creating the §2Prismarine-Rich Nitrobenzene Solution§r, you'll need to process it using a §5§lChemical Plant§r with §2Strontium Hydroxide§r. Once processed, you can successfully obtain your first §3Prismarine Precipitate§r.%n%n[warn]This line produces excess Strontium, so no need to worry about its continuous injection.[/warn]%n%n[note]If you have not gotten Strontium yet, you can obtain it from Strontium Oxide based on Rare Earth 3 or from Spessartine Froth.[/note]
 
 # Quest: Prismarine Recycling
 betterquesting.quest.kWoNH5tTQX2VIFmkui4YKA.name=§b§lPrismarine Recycling
@@ -3998,7 +3998,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKmw.desc=So if you looked in NEI and tri
 
 # Quest: Kevlar
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM0g.name=§2§l§nKevlar
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAM0g.desc=There is a new material that can be used for some high tier crafts. The production line is long and tedious but you should know how to use NEI by now, right?%n%n[note]Hint: If you don't feel like automating a 52 step chemical line, you could also have a look at the Kevlar bee and the new QFT if you are sufficiently high tier.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAM0g.desc=There is a new material that can be used for some high tier crafts. The production line is long and tedious but you should know how to use NEI by now, right?%n%n[note]Hint: If you don't feel like automating a 52 step chemical line, you could also have a look at the Kevlar bee.[/note]
 
 # Quest: Space Elevator
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM0w.name=§2§l§nSpace Elevator
@@ -4023,6 +4023,10 @@ betterquesting.quest.w4JcJ33CSWGlsKrmyHxnXA.desc=Fabricating Crystal SoCs with L
 # Quest: Advanced Crystal SoC Production
 betterquesting.quest.yo1cuNvYSU2JAczbJLAfjg.name=§2§l§nAdvanced Crystal SoC Production
 betterquesting.quest.yo1cuNvYSU2JAczbJLAfjg.desc=We can process Crystal Processing Units in a Laser Engraver to get the Crystal SoC. But as our demand for circuits gradually increases, this method of production is becoming untenable. We need a more advanced way to mass produce Crystal SoCs!%n%nFor that we use a new material, Cerium-doped Lutetium Aluminium Garnet (Ce:LuAG). LuAG has better performance when making Crystal SoCs - in fact it is a laser crystal material.%n%nFirst, mix Lutetium, Aluminium, Oxygen, and a little Cerium to get the material blend. Then put the blend with Molten Lutetium into an Autoclave to get a regular LuAG gem. If you have already got Oganesson you can also directly use that. As the second step, use the LuAG gem and more of the blend to produce Exquisite LuAG Gems.%n%nAfter you get the first gem, you can also use your Autoclave to grow crystals. Using the Vacuum Furnace might be a better choice to produce Exquisite LuAG Gems.%n%nLutetium, Lutetium, it needs a lot of Lutetium. How will you get a lot of Lutetium? Check out the Powerful Nuclear Physics quest tab!
+
+# Quest: Elastic Singularity
+betterquesting.quest.zmLCpjodTjOklgwPb5bGSA.name=§2§l§nElastic Singularity
+betterquesting.quest.zmLCpjodTjOklgwPb5bGSA.desc=Now that you've created the Neutronium Compressor, you finally have access to the Elastic Singularity for enhancing your §5§lL.A.T.E.X.§r cable coater.%n%nWith it, you will recieve a §2§l25%%§r rubber discount, §2§l2§r additional parallels, and the ability to use multiamp hatches. %n%nYou are now truly a cable master.
 
 
 ## Quest Line: Tier 9 - UHV
@@ -4123,7 +4127,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKaQ.desc=The Bioware Mainframe is the fi
 
 # Quest: Compressing the Core of a Star
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKcg.name=§4§l§nCompressing the Core of a Star
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKcg.desc=The next material is Infinity Catalyst. Infinity Catalyst needs to be compressed with insane amounts of force. The only machine capable of doing that is a Neutronium Compressor. Check out the Neutronium Compressor quest in Multiblock Goals.%n%nTo make the Catalyst, go to Vega B to get the dust. Then use the Neutronium Compressor to make Infinity Catalyst with 64 of the dust.%n%nYou can also do the insane Avaritia recipe to make the Infinity Catalyst, if you want a challenge :P%n%n[note]The compressor can also be used to make singularities, culminating in the Eternal Singularity, used in the alternate recipe.[/note]%n%n[note]If you want to automate singularity creation you can just click with the middle mouse button to modify the number of items in a pattern beyond the normal limits.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKcg.desc=The next material is Infinity Catalyst. Infinity Catalyst needs to be compressed with insane amounts of force. The only machine capable of doing that is a Neutronium Compressor. Check out the Neutronium Compressor quest in Multiblock Goals if you haven't made one yet.%n%nTo make the Catalyst, go to Vega B to get the dust. Then use the Neutronium Compressor to make Infinity Catalyst with 64 of the dust.%n%nYou can also do the insane Avaritia recipe to make the Infinity Catalyst, if you want a challenge :P%n%n[note]The compressor can also be used to make singularities, culminating in the Eternal Singularity, used in the alternate recipe.[/note]%n%n[note]If you want to automate singularity creation you can just click with the middle mouse button to modify the number of items in a pattern beyond the normal limits.[/note]
 
 # Quest: One Ingot, Infinite Power
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKcw.name=§4§l§nOne Ingot, Infinite Power
@@ -4550,7 +4554,7 @@ betterquesting.quest.k0ryGOkkSBOgYUcVY-J4rw.desc=Like its predecessor it can run
 
 # Quest: An Eye at the End of Time
 betterquesting.quest.kazCPEWoSmiZhR4bkHlEBQ.name=§c§l§nAn Eye at the End of Time
-betterquesting.quest.kazCPEWoSmiZhR4bkHlEBQ.desc=So you have made yourself an Eternal DTPF or hopefully a few, and now it is time for the push to the next tier, UXV.%n%nIntroducing the final multiblock in the game, and by far the most expensive.%nIt introduces 4 new materials: Raw Stellar Plasma, White and Black Dwarf Matter and finally Universium.%n%nIt has 3 different tiered casings with 9 tiers each:%n%nSpacetime Compression Field Generator:%n- Determines the tier of the planet block that can be run and decreases the processing time by 3%% per tier.%n%nTime Dilation Field Generator:%n- Decreases recipe time by 50%% per tier, while decreasing the chance of a recipe succeeding by 9.25%% per tier.%n%nStabilisation Field Generator:%n- Increases the chance of a recipe succeeding by 5%% per tier, while decreasing the output of a recipe by 5%% per tier.%n%nLower tier Stabilization Field Generators have a power output penalty.%n%nFinding the best setup of different casing tiers might be a hard task, so a calculator visualizing all the drops and setups has been created: [url]https://docs.google.com/spreadsheets/d/15j30mNnFIWBhwpJGuDrKTfiHBXNEEqyvB_r7ztFWlyQ[/url]%n%n[note]Be sure to read the tooltip of the Eye of Harmony controller, it explains everything in detail! Depending on your GUI scale it might have multiple pages.[/note]%n%n[note]Well... it explains mostly everything. The Eye of Harmony has an inbuilt pity system to make sure you don't lose your mind. Here's a quick rundown on how it operates:%n%n(All chances are decimals here)%nThere is a counter C that starts at the current recipe success chance P. If a recipe fails, (1-P)*P is added to C. If C reaches >= 1, the next roll is guaranteed to succeed and C resets to P. %nIf a recipe succeeds before C reaches >= 1, it resets in a similar manner.%nIf you switch recipes, C will be reset to P of the new recipe, even if the next roll would be a guarantee.%nThe guarantee can be canceled out by overflow penalties as they apply after the pity does. However, they do not reset C, so the guarantee is shifted to the next recipe cycle.%nIf parallels are > 1, pity doesn't apply.[/note]%n
+betterquesting.quest.kazCPEWoSmiZhR4bkHlEBQ.desc=So you have made yourself an Eternal DTPF or hopefully a few, and now it is time for the push to the next tier, UXV.%n%nIntroducing the final multiblock in the game, and by far the most expensive.%nIt introduces 4 new materials: Raw Stellar Plasma, White and Black Dwarf Matter and finally Universium.%n%nIt has 3 different tiered casings with 9 tiers each:%n%nSpacetime Compression Field Generator:%n- Determines the tier of the planet block that can be run and decreases the processing time by 3%% per tier.%n%nTime Dilation Field Generator:%n- Decreases recipe time by 50%% per tier, while decreasing the chance of a recipe succeeding by 9.25%% per tier.%n%nStabilisation Field Generator:%n- Increases the chance of a recipe succeeding by 5%% per tier, while decreasing the output of a recipe by 5%% per tier.%n%nLower tier Stabilization Field Generators have a power output penalty.%n%nFinding the best setup of different casing tiers might be a hard task, so a calculator visualizing all the drops and setups has been created: [url]https://docs.google.com/spreadsheets/d/15j30mNnFIWBhwpJGuDrKTfiHBXNEEqyvB_r7ztFWlyQ[/url]%n%n[note]Be sure to read the tooltip of the Eye of Harmony controller, it explains everything in detail! Depending on your GUI scale it might have multiple pages.[/note]%n%n[note]Well... it explains mostly everything. The Eye of Harmony has an inbuilt pity system to make sure you don't lose your mind. Here's a quick rundown on how it operates:%n%n(All chances are decimals here)%nThere is a counter C that starts at the current recipe success chance P. If a recipe fails, (1-P)*P is added to C. If C reaches >= 1, the next roll is guaranteed to succeed and C resets to P. %nIf a recipe succeeds before C reaches >= 1, it resets in a similar manner.%nIf you switch recipes, C will be reset to P of the new recipe, even if the next roll would be a guarantee.%nThe guarantee can be canceled out by overflow penalties as they apply after the pity does. However, they do not reset C, so the guarantee is shifted to the next recipe cycle.%nIf parallels are > 1, pity doesn't apply.[/note]
 
 # Quest: Storing Computation in the Cloud
 betterquesting.quest.lBuQcNYjQ8-YsMFqW6U1tQ.name=§c§l§nStoring Computation in the Cloud
@@ -4635,11 +4639,11 @@ betterquesting.quest.IGVryoMbRu28q08v4uwSuw.desc=As you've noticed, UXV componen
 
 # Quest: See You Next Time!
 betterquesting.quest.KNM9ICNAQIa8NaFoXwCC9g.name=§6§l§nSee You Next Time!
-betterquesting.quest.KNM9ICNAQIa8NaFoXwCC9g.desc=Still want more? Consider doing another run! Maybe even with some restrictions if you want to spice it up a bit. Check the first quest chapter for some recommendations!%n%nThere's also roles to be earned for completing the pack two or even three times if you want an extra incentive.%n%n[note]If you are going for 100%% questbook completion, you can choose between this quest or 'The Factory Must Grow!', both are valid options.%nBe wary that choosing one will lock you out of the other though.[/note]
+betterquesting.quest.KNM9ICNAQIa8NaFoXwCC9g.desc=Still want more? Consider doing another run! Maybe even with some restrictions if you want to spice it up a bit. Check the first quest chapter for some recommendations!%n%nThere's also roles to be earned for completing the pack two or even three times if you want an extra incentive.%n%n[note]This quest and “The Factory Must Grow!” are mutually exclusive; completing one will lock the other.%n%nIf you are going for 100%% questbook completion, don't panic, finishing either quest still allows the tab to receive a green check (much like the previous XOR quests).[/note]
 
 # Quest: The Factory Must Grow!
 betterquesting.quest.OCv5OWo6Q9KDfqe1w0ET9w.name=§6§l§nThe Factory Must Grow!
-betterquesting.quest.OCv5OWo6Q9KDfqe1w0ET9w.desc=A single stargate pair wasn't enough for you?%n%nWell then, time to build a network.%n%nWelcome to the post-stargate tier! %n%nNow that you successfully managed to make a stargate, what about crafting them in industrial quantities? Try to craft 5 pairs of gates in the least amount of time, then come in #screenshot-brag and post your time to see where your infrastructure stands in the community!%n%n[note]If you are going for 100%% questbook completion, you can choose between this quest or 'See You Next Time!', both are valid options.%nBe wary that choosing one will lock you out of the other though.%n%nEnjoy your round of Minesweeper![/note]%n
+betterquesting.quest.OCv5OWo6Q9KDfqe1w0ET9w.desc=A single stargate pair wasn't enough for you?%n%nWell then, time to build a network.%n%nWelcome to the post-stargate tier! %n%nNow that you successfully managed to make a stargate, what about crafting them in industrial quantities? Try to craft 5 pairs of gates in the least amount of time, then come in #screenshot-brag and post your time to see where your infrastructure stands in the community!%n%n[note]This quest and “See You Next Time!” are mutually exclusive; completing one will lock the other.%n%nIf you are going for 100%% questbook completion, don't panic, finishing either quest still allows the tab to receive a green check (much like the previous XOR quests).[/note]%n%n§dEnjoy your round of Minesweeper!
 
 # Quest: Assembling on Space Steroids
 betterquesting.quest.UVG21mYSQJex90gQWdkpIw.name=§4§l§nAssembling on Space Steroids
@@ -5085,7 +5089,7 @@ betterquesting.quest.-MexGhcYQ0OUrr5xgriDXQ.desc=In light of your thaumaturgical
 
 # Quest: Basic Flight Potion
 betterquesting.quest.4LY2S8QsSw-JdMGrF8FUsQ.name=Basic Flight Potion
-betterquesting.quest.4LY2S8QsSw-JdMGrF8FUsQ.desc=Tired of jetpacks? Want normal flight with no strings attached? Look no further!%n%nUsing your brand new MV Assembler and a Chicken Trophy, you can craft a basic Potion of Flight from Blood Magic, giving you 7 minutes of Creative flight with 8 uses before you have to make a new one.%n%n[note]Chicken Trophies are a rare drop from killing chickens.[/note]%n%n[note]Once you unlock Blood Magic, you can craft your own Flight Potion Flasks with a duration of up to 19 minutes, and refill them with any Filling Agent in an Alchemic Chemistry set.[/note]%n
+betterquesting.quest.4LY2S8QsSw-JdMGrF8FUsQ.desc=Tired of jetpacks? Want normal flight with no strings attached? Look no further!%n%nUsing your brand new MV Assembler and a Chicken Trophy, you can craft a basic Potion of Flight from Blood Magic, giving you 7 minutes of Creative flight with 8 uses before you have to make a new one.%n%n[note]Chicken Trophies are a rare drop from killing chickens.[/note]%n%n[note]Once you unlock Blood Magic, you can craft your own Flight Potion Flasks with a duration of up to 19 minutes, and refill them with any Filling Agent in an Alchemic Chemistry set.[/note]
 
 # Quest: Relocator
 betterquesting.quest.8QSORTVOSOaUXC6mQurMgA.name=Relocator
@@ -5321,7 +5325,7 @@ betterquesting.quest.U6wfKJSxTiyYvcz-f-76EA.desc=A planar gateway from Thaumic H
 
 # Quest: Chaos Locator
 betterquesting.quest._D1VyrEFSICL70afdVd1YQ.name=Chaos Locator
-betterquesting.quest._D1VyrEFSICL70afdVd1YQ.desc=This device is fashioned to greatly accelerate the hunt for chaos shards, by teleporting you straight to them! %n%nSimply enter any number from -1000 to 1000 in the coordinate fields, click the button and you will be teleported directly to a chaos island, even across dimensions. %nHow convenient!%n%n[note]You will still have to fight the chaos guardian though, this isn't a cosmic superweapon.[/note]%n%n
+betterquesting.quest._D1VyrEFSICL70afdVd1YQ.desc=This device is fashioned to greatly accelerate the hunt for chaos shards, by teleporting you straight to them! %n%nSimply enter any number from -1000 to 1000 in the coordinate fields, click the button and you will be teleported directly to a chaos island, even across dimensions. %nHow convenient!%n%n[note]You will still have to fight the chaos guardian though, this isn't a cosmic superweapon.[/note]
 
 # Quest: Speed up with the Sash
 betterquesting.quest.aXAQD7T1SnGCAu0L4iV64w.name=Speed up with the Sash
@@ -6285,7 +6289,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAATA.desc=You need steel? Uhh... fine. Le
 
 # Quest: EBF-Time
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAATQ.name=§6§lEBF-Time
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAATQ.desc=In order to get aluminium ingots, you need an Electric Blast Furnace. It's another very important step towards victory, so let's get started.%n%nGetting the Mica for the heating coils might be a little tricky, but you can use a substitute for the first tier of coils.%nYou need 2 LV hatches with 4A of 32V total, or 3 LV hatches with MOOOORE power if the multiblock is not fully repaired.%nIn order to not scrape by for Nickel, check out the quest Source of Nickel in the Novice Thaumaturgy tab.%n%nA few recipes produce CO2/SO2 as a fluid. This fluid can be collected by placing a fluid output hatch on the top layer of the EBF. You could also enable fluid voiding in the EBF controller block GUI. For recipes with such a CO2/SO2 output you must do one or the other or the EBF will not start.%nThe amount of fluid recovered depends on the tier of the muffler hatch.%n%nBart's Platinum Series recipes output fluids on the BOTTOM and are NOT affected by the muffler hatch tier, so if you want to do Platinum Stuff later, remember that.%n%nBefore the launch, don't forget to fix maintenance issues and put a programmed circuit if necessary.%n%nIf you want a really fancy EBF, you can add more input fluid hatches and store different fluids in each one.%n%nThe EBF also has a heat adjustment of 100K for each power tier above or below MV. You can only make LV energy hatches right now, but installing two LV energy hatches will overclock the EBF to MV power, eliminating the 100K penalty and setting the initial heat to 1801K.%n%nAs you upgrade your EBF over the course of the game, this heat adjustment will increase. Two MV energy hatches (overclocking to HV) will add +100K, two HV energy hatches (overclocking to EV) will give +200K, and so on. Coils only set the base value. This adjustment does not apply to the Volcanus.%n%nIf the pollution gets really bad, check in GT++ Multiblocks for a pollution scrubber, or upgrade your Muffler.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAATQ.desc=In order to get aluminium ingots, you need an Electric Blast Furnace. It's another very important step towards victory, so let's get started.%n%nGetting the Mica for the heating coils might be a little tricky, but you can use a substitute for the first tier of coils.%nYou need 2 LV hatches with 4A of 32V total, or 3 LV hatches with MOOOORE power if the multiblock is not fully repaired.%nIn order to not scrape by for Nickel, check out the quest Source of Nickel in the Novice Thaumaturgy tab.%n%nFor recipes with a fluid output you need to either enable fluid voiding in the EBF controller block GUI or add an output hatch. Otherwise the EBF will not start.%n%nBefore the launch, don't forget to fix maintenance issues and put a programmed circuit if necessary.%n%nIf you want a really fancy EBF, you can add more input fluid hatches and store different fluids in each one.%n%nThe EBF also has a heat adjustment of 100K for each power tier above or below MV. You can only make LV energy hatches right now, but installing two LV energy hatches will overclock the EBF to MV power, eliminating the 100K penalty and setting the initial heat to 1801K.%n%nAs you upgrade your EBF over the course of the game, this heat adjustment will increase. Two MV energy hatches (overclocking to HV) will add +100K, two HV energy hatches (overclocking to EV) will give +200K, and so on. Coils only set the base value. This adjustment does not apply to the Volcanus.%n%nIf the pollution gets really bad, check in GT++ Multiblocks for a pollution scrubber, or upgrade your Muffler.
 
 # Quest: More Heat - Kanthal Coil Upgrade
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAATg.name=§6§lMore Heat - Kanthal Coil Upgrade
@@ -6349,7 +6353,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAC-w.desc=Industrial TNT is the HV varian
 
 # Quest: Better Than Duct Tape
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC8w.name=§6§lBetter Than Duct Tape
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC8w.desc=Using a soldering iron tool to remove the "burned out circuits" message is cheaper than duct tape.%n%nThe soldering iron requires one soldering material item and 10,000 EU. Valid soldering materials are fine wires, rods, and ingots made from either tin, lead, or soldering alloy. The soldering iron will consume the first such material it finds in the player's inventory. Since you'll likely have more than enough, Fine Wires of Soldering Alloy are probably best.%n%nOther uses for the soldering iron:%n%n- It will adjust the redstone strength from weak to strong emitted by GT machines.%n- While holding it all pipes, wires, and cables will look very small, so that you can see everything past them, and also be sure of the exact connections.%n- Shift right-clicking on a some machines with it will allow you to toggle multi-stack input, which can be very useful for automating certain assembler recipes.%n%nIn order to "complete" this quest you'll need to charge the soldering iron after you craft it.%n%nFor the other problems other tools are necessary. Keep in mind that you can put all needed tools in a toolbox to fix all problems in one click.%n%nPossible problems                Tool to fix%n"Pipe is loose."                    Wrench%n"Screws are loose."           Screwdriver%n"Something is stuck."            Soft Mallet%n"Platings are dented."           Hammer%n"Circuitry burned out."    Soldering Iron%n"That doesn't belong there."   Crowbar
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAC8w.desc=Using a soldering iron tool to remove the "burned out circuits" message is cheaper than duct tape.%n%nThe soldering iron requires one soldering material item and 10,000 EU. Valid soldering materials are fine wires, rods, and ingots made from either tin, lead, or soldering alloy. The soldering iron will consume the first such material it finds in the player's inventory. Since you'll likely have more than enough, Fine Wires of Soldering Alloy are probably best.%n%nOther uses for the soldering iron:%n%n- It will adjust the redstone strength from weak to strong emitted by GT machines.%n- While holding it all pipes, wires, and cables will look very small, so that you can see everything past them, and also be sure of the exact connections.%n- Shift right-clicking on some machines with it will allow you to toggle multi-stack input, which can be very useful for automating certain assembler recipes.%n%nIn order to "complete" this quest you'll need to charge the soldering iron after you craft it.%n%nFor the other problems other tools are necessary. Keep in mind that you can put all needed tools in a toolbox to fix all problems in one click.%n%nPossible problems                Tool to fix%n"Pipe is loose."                    Wrench%n"Screws are loose."           Screwdriver%n"Something is stuck."            Soft Mallet%n"Platings are dented."           Hammer%n"Circuitry burned out."    Soldering Iron%n"That doesn't belong there."   Crowbar
 
 # Quest: Less Power Loss
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC9A.name=§6§lLess Power Loss
@@ -6405,7 +6409,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACug.desc=Not even two BBFs are fast enou
 
 # Quest: Why One Coke Oven When You Can Have Ten?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACuw.name=§6§lWhy One Coke Oven When You Can Have Ten?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACuw.desc=Your bricked blast furnace uses coal like hell and your steam boilers do too? Well it's time to make more coke ovens and automate them a bit. The Coke Oven Hatch, Wooden Fluid Pipes, and Tin Item Pipes will help you reach your goal.%n%nSince this is a GT multiblock, it can wallshare bricks and hatches. The amount of bricks required for this quest is the minimum for creating 10 wallshared Coke Ovens.%n%nRemember that tin item pipes require a steel wrench to dismantle them.%n%n[note]Search NEI for a more efficient way to make coke oven bricks.[/note]%n%n[warn]The whole coke-oven process generates a lot of pollution, so consider putting it further away.[/warn]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACuw.desc=Your Bricked Blast Furnace uses coal like hell and your steam boilers do too? Well it's time to make more coke ovens and automate them a bit. The Coke Oven Hatch, Wooden Fluid Pipes, and Tin Item Pipes will help you reach your goal.%n%nSince this is a GT multiblock, it can wallshare bricks and hatches. The amount of bricks required for this quest is the minimum for creating 10 wallshared Coke Ovens.%n%nRemember that tin item pipes require a steel wrench to dismantle them.%n%n[note]Search NEI for a more efficient way to make coke oven bricks.[/note]%n%n[warn]The whole coke-oven process generates a lot of pollution, so consider putting it further away.[/warn]
 
 # Quest: Still Not Enough Charcoal?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADDQ.name=§6§lStill Not Enough Charcoal?
@@ -6642,10 +6646,6 @@ betterquesting.quest.NVgXYF-TQvqYnLn1NLM6pw.desc=[quest]The Solar Factory![/ques
 # Quest: Synchrotron (No Relation to the Catalyst)
 betterquesting.quest.QfQHCy0PRn-rABmKuvwQfw.name=Synchrotron (No Relation to the Catalyst)
 betterquesting.quest.QfQHCy0PRn-rABmKuvwQfw.desc=To actually produce some light for photolithography, you'll need to accelerate your electrons in a Synchrotron. Like with the LINAC, providing it with coolant is necessary to keep it running.%n%nYou can increase the energy of the produced photons by increasing EU/t, or increasing the tier of all four Antenna Casings inside.%n%nTo improve focus, you can use a better coolant, and the output amount increases with both EU/t and antennae tier.%n%nYes, you need all four energy hatches.
-
-# Quest: Neutronium Compressor
-betterquesting.quest.XKKP2E5ORG-ju42dSDd3sw.name=Neutronium Compressor
-betterquesting.quest.XKKP2E5ORG-ju42dSDd3sw.desc=In order to compress infinity catalysts and singularities, you'll need the strongest compressor yet: the Neutronium Compressor. This multiblock channels and controls extreme amounts of pressure through carefully calibrated Active Neutronium Casings, but the sheer magnitude of pressure is too much to produce blocks or superdense plates, as any regular material inserted into the device will be compressed down to a singularity. More advanced singularities should be possible in theory, but you'll need something even stronger...%n%n[note]Note that singularity recipes require extreme amounts of items! Consider using Super Buses or ME Stocking Input Buses to fit everything in there.[/note]
 
 # Quest: Hundreds of Thousands of eV
 betterquesting.quest.Y1kiJC_kRGKkW7h3qOPI8A.name=Hundreds of Thousands of eV
@@ -6891,6 +6891,10 @@ betterquesting.quest.Plg8vg0gS9Ks2Ddc5sIVOg.desc=How do you compress things in t
 # Quest: Insane Voltage Multiblocks
 betterquesting.quest.RFgYQ7LAQD-p1gHMaeg5Sg.name=§9§lInsane Voltage Multiblocks
 betterquesting.quest.RFgYQ7LAQD-p1gHMaeg5Sg.desc=Upon reaching the land of IV machinery, you can put together even more multis and speed up your automation!%n%nMany of the multiblocks from IV tier onwards use special alloys, which either need to be cooked like any ingots you've used before (in a Furnace or EBF), but there are also alloys which have to be made in the Alloy Blast Smelter (ABS), as a fluid, which then needs to be solidified.%n%nThe multis that need ABS alloys are further down. To unlock their quests, you will first need to craft the ABS itself. However, there is a large assortment of machines you can craft without it, just by having the respective IV singleblock equivalent and some other resources.%n%nThose will be here... but you might be able to find some more, if you look closely through NEI. Good luck!
+
+# Quest: L.A.T.E.X. Cable Coater
+betterquesting.quest.RV7RYWwgRSaI4oNfhfZljw.name=§5§lL.A.T.E.X. Cable Coater
+betterquesting.quest.RV7RYWwgRSaI4oNfhfZljw.desc=The §5L§raminated §5A§rpplication and §5T§rhermal §5E§rnclosure e§5X§rpert (§5L.A.T.E.X.§r) is a multiblock dedicated to coating cables.%n%nYou will be making a LOT of cables during your playthrough... Why bog down your assembler when you can use the LATEX instead? The LATEX gives §2§l2x§r the speed with a §3§l15%%§r EU discount, and generously offers §6§l8§r parallels per voltage tier.%n%nIf that's not convincing enough, you also get an additive §2§l6.25%%§r rubber discount per Item Pipe Casing tier.%n%n[note]Once you eventually reach UV, you will be able to create an Elastic Singularity for additional perks![/note]
 
 # Quest: See You Lather
 betterquesting.quest.VJN1qfd5SjCkm7CXVd9Pag.name=§8§lSee You Lather
@@ -7974,7 +7978,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMFw.desc=When it comes to power from woo
 
 # Quest: Faster Charcoal
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMGA.name=Faster Charcoal
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMGA.desc=Even if you have more wood, this won't help your power issues that much. Using it directly as fuel isn't going to do much for you as you move forward, and turning it into Charcoal will be very important. You have already built a Coke Oven, maybe more than one, but each one takes 90 seconds to produce one Charcoal, an abysmal rate. Unfortunately, there isn't any faster option in this tier, so you will have to build more of these ovens. How many, exactly?%n%nThere are many different goals you might want to go for, but a good metric for your power needs is a setup with 19 Coke Ovens. This number will create both Charcoal and Creosote Oil at a rate that will run two max-sized LP (Low Pressure) Railcraft Boilers, one solid and one liquid, with the quest for those coming right after this one. If you automate this entire setup, it will produce around 2 amps of MV, which are equivalent to 8 amps of LV, plenty of power for this tier and enough to advance you to the next one.%n%nAfter building these Coke Ovens, you will need to automate them. There are a few ways to do this, but one of the cheapest ones is to use Item Pipes, made with Tin for example, with a Conveyor Module in the wood chest/drawer to put the wood in the ovens, and then one Hopper below each oven, into more Item Pipes, to gather the Charcoal. The Creosote is a bit harder to extract, but you can do it with Tinkers' Faucets on the side of each Coke Oven, with a Wooden Fluid Pipe directly under the faucet. You will need to keep reactivating them with redstone, which means you'll also need a redstone clock (there's a block dedicated to this purpose, named Redstone Clock, from Extra Utilities).
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMGA.desc=Even if you have more wood, this won't help your power issues that much. Using it directly as fuel isn't going to do much for you as you move forward, and turning it into Charcoal will be very important. You have already built a Coke Oven, maybe more than one, but each one takes 90 seconds to produce one Charcoal, an abysmal rate. Unfortunately, there isn't any faster option in this tier, so you will have to build more of these ovens. How many, exactly?%n%nThere are many different goals you might want to go for, but a good metric for your power needs is a setup with 19 Coke Ovens. This number will create both Charcoal and Creosote Oil at a rate that will run two max-sized LP (Low Pressure) Railcraft Boilers, one solid and one liquid, with the quest for those coming right after this one. If you automate this entire setup, it will produce around 2 amps of MV, which are equivalent to 8 amps of LV, plenty of power for this tier and enough to advance you to the next one.%n%nAfter building these Coke Ovens, you will want to automate them. You can do this using a Coke Oven Hatch. A screwdriver will change the modes between input, output, and fluid output. You can use hoppers and item pipes to push and pull items from the hatches. Additionally. the hatch itself will automatically dispense fluid so you can simply hook that directly to a pipeline, no faucets or pumps required.
 
 # Quest: Two Big Ovens
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMGQ.name=Two Big Ovens
@@ -8428,7 +8432,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADKQ.desc=The Avaritia 9x9 dire crafting 
 
 # Quest: Rocket Tier 1
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADKg.name=Rocket Tier 1
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADKg.desc=After hours of hard work and a few stacks of TNT your first rocket is finally ready. But before you can go to the Moon you need to actually craft it.%n%n§cIf you've crafted the rocket with a chest, there's a crafting table recipe that will turn it into the normal rocket that completes this quest. Check NEI.§r%n%n[note]In case you forgot to complete any, holding the rocket in your hand will unlock all pre-requisite quests in addition to this one.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADKg.desc=After hours of hard work and a few stacks of TNT your first rocket is finally ready. But before you can go to the Moon you need to actually craft it.%n%n[note]If you've crafted the rocket with a chest, there's a crafting table recipe that will turn it into the normal rocket that completes this quest. Check NEI.[/note]%n%n[note]Holding the rocket in your hand will unlock all pre-requisite quests in addition to this one. This also works for all the following rockets.[/note]
 
 # Quest: Tier 1 Control Computer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADKw.name=Tier 1 Control Computer
@@ -8548,7 +8552,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAF_A.desc=Rockets require heavy duty plat
 
 # Quest: Rocket Tier 4
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF_w.name=Rocket Tier 4
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF_w.desc=After weeks of hard work and a thousand stacks of iTNT your fourth rocket is finally ready.%n%nYou need to use Dense Hydrazine Rocket Fuel.%n%n[note]In case you forgot to complete any, holding the rocket in your hand will unlock all pre-requisite quests in addition to this one.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF_w.desc=After weeks of hard work and a thousand stacks of iTNT your fourth rocket is finally ready.%n%nYou need to use Dense Hydrazine Rocket Fuel.
 
 # Quest: Find Some Meteoric Iron
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFkg.name=Find Some Meteoric Iron
@@ -8564,7 +8568,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFlA.desc=Each rocket needs a Control Com
 
 # Quest: Rocket Tier 2
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFlQ.name=Rocket Tier 2
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFlQ.desc=After hours of hard work and tons of stacks of iTNT your second rocket is finally ready. But before you can go to Mars you need to craft a few more things.%n%n[note]In case you forgot to complete any, holding the rocket in your hand will unlock all pre-requisite quests in addition to this one.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFlQ.desc=After hours of hard work and tons of stacks of iTNT your second rocket is finally ready. But before you can go to Mars you need to craft a few more things.
 
 # Quest: Recycle Your Rocket and Save the Environment
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFlg.name=Recycle Your Rocket and Save the Environment
@@ -8580,7 +8584,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFmA.desc=The Mars lander is required for
 
 # Quest: Moon Dungeon
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFmQ.name=Moon Dungeon
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFmQ.desc=While looking around for meteoric iron you might find a moon dungeon. The entrance looks like a deep hole. Go and kill the Boss Monster. It will drop the key for the chest in the next room with the schematics for tier 2 rockets.%n%nKill the Boss Monster again in a different dungeon if you want an extra tier 2 schematic to exchange for a moon buggy schematic.%n%nPlace the schematic in the NASA Workbench and unlock it on the last tab. This will unlock it for your character, so you can move the workbench if you want.%n%n[note]If you've made the chip in an older version, you can turn it back into a schematic in a PLE.[/note]%n%n[note]All dungeons work the same, just with a different boss. Also, sometimes the boss room or chest room doesn't generate, you'll need to find another dungeon.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFmQ.desc=While looking around for meteoric iron you might find a moon dungeon. The entrance looks like a deep hole. Go and kill the Boss Monster. It will drop the key for the chest in the next room with the schematics for tier 2 rockets.%n%nKill the Boss Monster again in a different dungeon if you want an extra tier 2 schematic to exchange for a moon buggy schematic.%n%nPlace the schematic in the NASA Workbench and unlock it on the last tab. This will unlock it for your character, so you can move the workbench if you want.%n%n[note]All dungeons work the same, just with a different boss. Also, sometimes the boss room or chest room doesn't generate, you'll need to find another dungeon.[/note]
 
 # Quest: Moon Patrol
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFmg.name=Moon Patrol
@@ -8644,7 +8648,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFrQ.desc=Rockets require heavy duty plat
 
 # Quest: Rocket Tier 3
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFrg.name=Rocket Tier 3
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFrg.desc=After days of hard work and a hundred tons of stacks of iTNT your third rocket is finally ready.%n%nYou need to use Dense Hydrazine Rocket Fuel or better to fuel it.%n%n[note]In case you forgot to complete any, holding the rocket in your hand will unlock all pre-requisite quests in addition to this one.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFrg.desc=After days of hard work and a hundred tons of stacks of iTNT your third rocket is finally ready.%n%nYou need to use Dense Hydrazine Rocket Fuel or better to fuel it.
 
 # Quest: Tier 3 Lander
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFsA.name=Tier 3 Lander
@@ -8724,7 +8728,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGvQ.desc=Each rocket needs a Control Com
 
 # Quest: Rocket Tier 5
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGvg.name=Rocket Tier 5
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGvg.desc=After a month of hard work and ten thousand stacks of iTNT your fifth rocket is finally ready.%n%nYou need to use CN3H7O3 (Purple) Rocket Fuel or better to fuel it.%n%n[note]In case you forgot to complete any, holding the rocket in your hand will unlock all pre-requisite quests in addition to this one.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGvg.desc=After a month of hard work and ten thousand stacks of iTNT your fifth rocket is finally ready.%n%nYou need to use CN3H7O3 (Purple) Rocket Fuel or better to fuel it.
 
 # Quest: Heavy Duty Nose Cone Tier 3
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGvw.name=Heavy Duty Nose Cone Tier 3
@@ -8788,7 +8792,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKTw.desc=Rockets require heavy duty plat
 
 # Quest: Rocket Tier 6
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKUA.name=Rocket Tier 6
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKUA.desc=After building this, you can visit more planets.%n%nYou need to use CN3H7O3 (Purple) Rocket Fuel or better to fuel it.%n%n§cIf you want to make this rocket in ZPM, you'll need to use the GT++ Assembler multi.§r%n%n[note]In case you forgot to complete any, holding the rocket in your hand will unlock all pre-requisite quests in addition to this one.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKUA.desc=After building this, you can visit more planets.%n%nYou need to use CN3H7O3 (Purple) Rocket Fuel or better to fuel it.%n%n§cIf you want to make this rocket in ZPM, you'll need to use the GT++ Assembler multi.§r
 
 # Quest: Tier 7 Heavy Duty Plates
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKUQ.name=Tier 7 Heavy Duty Plates
@@ -8796,7 +8800,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKUQ.desc=Rockets require heavy duty plat
 
 # Quest: Rocket Tier 7
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKUg.name=Rocket Tier 7
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKUg.desc=You can now visit the planets on the edge of the solar system with this rocket.%n%nYou need to use H8N4C2O4 (Green) Rocket Fuel to fuel it.%n%n[note]In case you forgot to complete any, holding the rocket in your hand will unlock all pre-requisite quests in addition to this one.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKUg.desc=You can now visit the planets on the edge of the solar system with this rocket.%n%nYou need to use H8N4C2O4 (Green) Rocket Fuel to fuel it.
 
 # Quest: Tier 8 Heavy Duty Plates
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKUw.name=Tier 8 Heavy Duty Plates
@@ -8804,7 +8808,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKUw.desc=Rockets require heavy duty plat
 
 # Quest: Rocket Tier 8
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKVA.name=Rocket Tier 8
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKVA.desc=You can travel to other solar systems with this, the T8 rocket.%n%nWhat, you visited other star systems before? There, was, uh, like, a nebula you couldn't go past to these ones. That makes sense, right?%n%nYou need to use H8N4C2O4 (Green) Rocket Fuel to fuel it.%n%n[note]In case you forgot to complete any, holding the rocket in your hand will unlock all pre-requisite quests in addition to this one.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKVA.desc=You can travel to other solar systems with this, the T8 rocket.%n%nWhat, you visited other star systems before? There, was, uh, like, a nebula you couldn't go past to these ones. That makes sense, right?%n%nYou need to use H8N4C2O4 (Green) Rocket Fuel to fuel it.
 
 # Quest: RP-1 Rocket Fuel
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKfA.name=§9§lRP-1 Rocket Fuel
@@ -8924,7 +8928,7 @@ betterquesting.quest.FMul7onaSFmWwPZRUSR3FA.desc=This block can be used to confi
 
 # Quest: Fancy Stripes!
 betterquesting.quest.OaE5CLFfQ8CNDmlmBWB6ZA.name=Fancy Stripes!
-betterquesting.quest.OaE5CLFfQ8CNDmlmBWB6ZA.desc=A Rocket Engine is needed to accelerate your Mothership. Each Rocket Engine consists of one Rocket Engine Jet and 1 to 10 Rocket Engine Base blocks placed in a vertical line. Each Rocket Engine Base provides 2MN of force and holds up to 10,000L of Naquadah Based Liquid Fuel Mk II.%n%n[note]The Mothership is configured to have a fixed weight of 1500kg. So feel free to design a big and fancy spaceship. The amount of engines you need stays the same.[/note]
+betterquesting.quest.OaE5CLFfQ8CNDmlmBWB6ZA.desc=A Rocket Engine is needed to accelerate your Mothership. Each Rocket Engine consists of one Rocket Engine Jet and 1 to 10 Rocket Engine Base blocks placed in a line. Each Rocket Engine Base provides 2MN of force and holds up to 10,000L of Naquadah Based Liquid Fuel Mk II.%n%n[note]The Mothership is configured to have a fixed weight of 1500kg. So feel free to design a big and fancy spaceship. The amount of engines you need stays the same.[/note]
 
 # Quest: A T0 Rocket? What?
 betterquesting.quest.Oiy66UDmTVeZ95pN0yunBg.name=A T0 Rocket? What?
@@ -9146,7 +9150,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAG2Q.desc=Cache me outside.%n%nYour CPU w
 
 # Quest: Computer Case
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAG2g.name=Computer Case
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAG2g.desc=100 Percent Waterproof.%n%nThe computer base is the HUB of all your computer parts essentially. It takes two memory sticks, a BIOs rom, a CPU, and a hard drive at the very least to run your computer.%n%nThe power converter allows you to power it from your GregTech power grid, and the floppy drive will allow you to install your operating system onto the hard drive.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAG2g.desc=100 Percent Waterproof.%n%nThe Computer Case is the HUB of all your computer parts essentially. It takes two memory sticks, a BIOs rom, a CPU, and a hard drive at the very least to run your computer.%n%nThe power converter allows you to power it from your GregTech power grid, and the floppy drive will allow you to install your operating system onto the hard drive.
 
 # Quest: My Little Scrench
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAG2w.name=My Little Scrench
@@ -10080,7 +10084,7 @@ betterquesting.quest.JejpWZ7ATZq-0uomP4c7UA.desc=Same as 1k.
 
 # Quest: Hyper Acceleration!
 betterquesting.quest.KM9gm3HCTa2OGPWlHHl4fw.name=Hyper Acceleration!
-betterquesting.quest.KM9gm3HCTa2OGPWlHHl4fw.desc=Hyper-Acceleration cards are a faster version of the basic acceleration cards. %n%n[note]Hyper-Acceleration cards can only be placed in:[/note]%n%n§cME IO Port (3)%nME Fluid Import Bus (4)%nME Fluid Export Bus (4)%n%n§rIn an IO Port, the Hyper-Acceleration Card will transfer items at a rate of: %n%n§61x Cards: 4,096 items/tick%n2x Cards: 32,768 items/tick%n3x Cards: 262,144 items/tick%n%n§rIn ME Fluid Buses, the Hyper-Acceleration Card will transfer fluids at a rate of:%n%n§61x Cards: 4,096,000 mb/tick%n2x Cards: 32,768,000 mb/tick%n3x Cards: 262,144,000 mb/tick%n
+betterquesting.quest.KM9gm3HCTa2OGPWlHHl4fw.desc=Hyper-Acceleration cards are a faster version of the basic acceleration cards. %n%n[note]Hyper-Acceleration cards can only be placed in:[/note]%n%n§cME IO Port (3)%nME Fluid Import Bus (4)%nME Fluid Export Bus (4)%n%n§rIn an IO Port, the Hyper-Acceleration Card will transfer items at a rate of: %n%n§61x Cards: 4,096 items/tick%n2x Cards: 32,768 items/tick%n3x Cards: 262,144 items/tick%n%n§rIn ME Fluid Buses, the Hyper-Acceleration Card will transfer fluids at a rate of:%n%n§61x Cards: 4,096,000 mb/tick%n2x Cards: 32,768,000 mb/tick%n3x Cards: 262,144,000 mb/tick
 
 # Quest: Advanced Neutronium Tech
 betterquesting.quest.LsZndSrhSAGSi60QlbnDtg.name=Advanced Neutronium Tech
@@ -10144,7 +10148,7 @@ betterquesting.quest.iwN50p7pSyyCHDkM-O-D7w.desc=These hold 33,554,432 units of 
 
 # Quest: Going Superluminal
 betterquesting.quest.kBjBqQR5Q-GWh4olyHmXXg.name=Going Superluminal
-betterquesting.quest.kBjBqQR5Q-GWh4olyHmXXg.desc=The Superluminal Acceleration card is the fastest AE card that you can use to transfer items or fluids.%n%n[note]Superluminal Acceleration cards can only be placed in:[/note]%n%n§cME IO Port (3)§r%n%nIn an IO Port, the Superluminal Acceleration Card will transfer items at a rate of:%n%n§61x Cards: 33,554,432 items/tick%n2x Cards: 2,147,483,648 items/tick%n3x Cards: 137,438,953,472 items/tick%n%n§rIn an IO Port, the Superluminal Acceleration Card will transfer fluids at a rate of:%n%n§61x Cards: 33,554,432,000 mb/tick%n2x Cards: 2,147,483,648,000 mb/tick%n3x Cards: 137,438,953,472,000 mb/tick%n%n
+betterquesting.quest.kBjBqQR5Q-GWh4olyHmXXg.desc=The Superluminal Acceleration card is the fastest AE card that you can use to transfer items or fluids.%n%n[note]Superluminal Acceleration cards can only be placed in:[/note]%n%n§cME IO Port (3)§r%n%nIn an IO Port, the Superluminal Acceleration Card will transfer items at a rate of:%n%n§61x Cards: 33,554,432 items/tick%n2x Cards: 2,147,483,648 items/tick%n3x Cards: 137,438,953,472 items/tick%n%n§rIn an IO Port, the Superluminal Acceleration Card will transfer fluids at a rate of:%n%n§61x Cards: 33,554,432,000 mb/tick%n2x Cards: 2,147,483,648,000 mb/tick%n3x Cards: 137,438,953,472,000 mb/tick
 
 # Quest: Fluid Void Cell
 betterquesting.quest.krGyRorETXqDuJdbU3K5tA.name=Fluid Void Cell
@@ -11765,7 +11769,7 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAAFw.desc=Warp included.
 
 # Quest: Smoke Your Normal Warp Away
 betterquesting.quest.6pH9sRoUSbCDG8eWqXS_ow.name=Smoke Your Normal Warp Away
-betterquesting.quest.6pH9sRoUSbCDG8eWqXS_ow.desc=Having too much normal warp? Sanitizing Soap is too expensive for you?%n%nWell, luckily for you, you can remove your Warp using a Silverwood Smoking Pipe and some Relaxing Tobacco. This is a fairly cheap and sustainable option for removing your Normal warp (assuming you have a good option to get a lot of Vis).%n%nIt also has a chance to reduce your temporary warp.%n%n[note]The chance to reduce your normal warp per Relaxing Tobacco is 10%%, so you'll be needing a bunch of it.[/note]%n
+betterquesting.quest.6pH9sRoUSbCDG8eWqXS_ow.desc=Having too much normal warp? Sanitizing Soap is too expensive for you?%n%nWell, luckily for you, you can remove your Warp using a Silverwood Smoking Pipe and some Relaxing Tobacco. This is a fairly cheap and sustainable option for removing your Normal warp (assuming you have a good option to get a lot of Vis).%n%nIt also has a chance to reduce your temporary warp.%n%n[note]The chance to reduce your normal warp per Relaxing Tobacco is 10%%, so you'll be needing a bunch of it.[/note]
 
 # Quest: Adept Thaumaturgy
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABBA.name=Adept Thaumaturgy
@@ -12045,7 +12049,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMyA.desc=Well this is a bad idea, but si
 
 # Quest: The BEST Soap!
 betterquesting.quest.Jl453zbkSfC4pl9kglgy6A.name=The BEST Soap!
-betterquesting.quest.Jl453zbkSfC4pl9kglgy6A.desc=Finally, you can now reduce your permanent warp.%n%nThe chance to reduce your permanent warp is 10%%, increased to 25%% if you have the Warp Ward effect and further increased to 40%% if you're standing in Purifying Liquid. %n%n[warn]This soap has some side effects. Make sure you have a way to remove your normal (and temporary) warp.[/warn]%n%n
+betterquesting.quest.Jl453zbkSfC4pl9kglgy6A.desc=Finally, you can now reduce your permanent warp.%n%nThe chance to reduce your permanent warp is 10%%, increased to 25%% if you have the Warp Ward effect and further increased to 40%% if you're standing in Purifying Liquid. %n%n[warn]This soap has some side effects. Make sure you have a way to remove your normal (and temporary) warp.[/warn]
 
 # Quest: ...or are they?
 betterquesting.quest.LIZCdBLfQquQpULGmFDixw.name=...or are they?
@@ -12061,7 +12065,7 @@ betterquesting.quest.TBMfXgORRHuggrozS7vsVA.desc=Don't want to spend your Salis 
 
 # Quest: Who Came Up With This Name??
 betterquesting.quest.lMDEhTDISSG1u2HYaZVg9w.name=Who Came Up With This Name??
-betterquesting.quest.lMDEhTDISSG1u2HYaZVg9w.desc=Sanitizing Soap isn't strong enough to keep up? %n%nThis soap has a 50%% Chance to reduce your normal warp, increased to 75%% if you have the Warp Ward effect (obtained by Purifying Bath Salts) and increased to 100%% if you're standing inside of the purifying fluid. %nThis soap also has a 100%% chance to cleanse §lall§r of your temporary warp!%n%nIn case you're wondering how to pronounce it: Don't even bother trying.%n
+betterquesting.quest.lMDEhTDISSG1u2HYaZVg9w.desc=Sanitizing Soap isn't strong enough to keep up? %n%nThis soap has a 50%% Chance to reduce your normal warp, increased to 75%% if you have the Warp Ward effect (obtained by Purifying Bath Salts) and increased to 100%% if you're standing inside of the purifying fluid. %nThis soap also has a 100%% chance to cleanse §lall§r of your temporary warp!%n%nIn case you're wondering how to pronounce it: Don't even bother trying.
 
 # Quest: Research Completer
 betterquesting.quest.q9PTMZlaR-GCnyoGNoO8Pw.name=Research Completer
@@ -12247,7 +12251,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFXA.desc=Wand Focus: Fire is a basic wan
 
 # Quest: Diggy Diggy Hole
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFXQ.name=Diggy Diggy Hole
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFXQ.desc=The Wand Focus: Excavation emits a green beam of light that will mine blocks of any hardness (except for unbreakable blocks like Bedrock) from a distance.%n%nThis focus is also required to operate the Arcane Bore. Upgrading foci to be used in the Bore with §5Enlarge§r is highly recommended, as it increases the radius by 1 per level.%n%n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]%n§5Frugal§r: Lowers vis cost to cast by 10%% per level%n§5Potency§r: Increases block breaking speed every level%n§5Treasure§r: Acts like vanilla Fortune, but does not apply to GT ores%n§5Enlarge§r (even levels): Breaks an extra adjacent block per level%n§5Dowsing§r (level 3): May drop Thaumcraft Native Ores from ores, but does not apply to GT ores%n§5Silk Touch§r (level 5): Acts like vanilla Silk Touch%n
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFXQ.desc=The Wand Focus: Excavation emits a green beam of light that will mine blocks of any hardness (except for unbreakable blocks like Bedrock) from a distance.%n%nThis focus is also required to operate the Arcane Bore. Upgrading foci to be used in the Bore with §5Enlarge§r is highly recommended, as it increases the radius by 1 per level.%n%n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]%n§5Frugal§r: Lowers vis cost to cast by 10%% per level%n§5Potency§r: Increases block breaking speed every level%n§5Treasure§r: Acts like vanilla Fortune, but does not apply to GT ores%n§5Enlarge§r (even levels): Breaks an extra adjacent block per level%n§5Dowsing§r (level 3): May drop Thaumcraft Native Ores from ores, but does not apply to GT ores%n§5Silk Touch§r (level 5): Acts like vanilla Silk Touch
 
 # Quest: Bzzap!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFXg.name=Bzzap!
@@ -12275,7 +12279,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFZA.desc=The Wand Focus: Pech's Curse is
 
 # Quest: It's Mesmerizing...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFZQ.name=It's Mesmerizing...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFZQ.desc=The Wand Focus: Primal will hurl an orb of primal energy with right-click. The orb explodes on impact, and it has a small chance to cause other effects. It sometimes creates taint when it lands, and it very rarely creates a node if it destroys the block it impacts. Its base vis cost constantly fluctuates. [note]Maybe studying it and its projectiles will give you a better understanding of vis.[/note]%n%n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]%n§5Frugal§r: Lowers vis cost to cast by 10%% per level%n§5Seeker§r (level 3): The orb homes in on the closest target, but loses some of its special effects like creating taint or nodes%n
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFZQ.desc=The Wand Focus: Primal will hurl an orb of primal energy with right-click. The orb explodes on impact, and it has a small chance to cause other effects. It sometimes creates taint when it lands, and it very rarely creates a node if it destroys the block it impacts. Its base vis cost constantly fluctuates. [note]Maybe studying it and its projectiles will give you a better understanding of vis.[/note]%n%n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]%n§5Frugal§r: Lowers vis cost to cast by 10%% per level%n§5Seeker§r (level 3): The orb homes in on the closest target, but loses some of its special effects like creating taint or nodes
 
 # Quest: Pocket Furnace
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFaA.name=Pocket Furnace
@@ -12500,7 +12504,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMxg.desc=...there is no way a bee should
 
 # Quest: Mana Fountain
 betterquesting.quest.EP-xPjNWRnKCWRJjGzySvQ.name=Mana Fountain
-betterquesting.quest.EP-xPjNWRnKCWRJjGzySvQ.desc=The Mana Fountain allows for quick and seamless automation of Mana Pool recipes.%n%nYou can assemble the multiblock as specified in the Lexica Botania / NEI. After it's assembled, right clicking it using the Wand of the Forest will show you whether it's complete and the amount of internally stored mana.%n%nYou can send the controller mana directly by either using a spreader or a spark much like a Mana Pool. Technically you don't have to use the Mana Pool in the center of the multiblock for it to function, but it is placed conveniently so that you can (plus, it doesn't hurt to have an extra buffer).%n%nItems are allowed to input from any side of the controller, but can only output from the bottom. For early automation, it's recommended to just use hoppers. Once you uinlock AE2 however you can simply place an interface underneath the controller with the appropriate patterns and it should push and pull items automatically.%n%n[warn]You cannot craft Alchemy or Conjuration recipes using this multiblock, those are separate multiblocks that you will unlock with more advanced robot arm technology.[/warn]%n%n[note]This structure can absolutely wall-share. It has the perfect design to be able to share 4 different Mana Fountains between the center pool.[/note]%n
+betterquesting.quest.EP-xPjNWRnKCWRJjGzySvQ.desc=The Mana Fountain allows for quick and seamless automation of Mana Pool recipes.%n%nYou can assemble the multiblock as specified in the Lexica Botania / NEI. After it's assembled, right clicking it using the Wand of the Forest will show you whether it's complete and the amount of internally stored mana.%n%nYou can send the controller mana directly by either using a spreader or a spark much like a Mana Pool. Technically you don't have to use the Mana Pool in the center of the multiblock for it to function, but it is placed conveniently so that you can (plus, it doesn't hurt to have an extra buffer).%n%nItems are allowed to input from any side of the controller, but can only output from the bottom. For early automation, it's recommended to just use hoppers. Once you uinlock AE2 however you can simply place an interface underneath the controller with the appropriate patterns and it should push and pull items automatically.%n%n[warn]You cannot craft Alchemy or Conjuration recipes using this multiblock, those are separate multiblocks that you will unlock with more advanced robot arm technology.[/warn]%n%n[note]This structure can absolutely wall-share. It has the perfect design to be able to share 4 different Mana Fountains between the center pool.[/note]
 
 # Quest: Asgardandelion
 betterquesting.quest.M7CE2a0uSOSZZsyNloB0zg.name=Asgardandelion
@@ -13467,7 +13471,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALGA.desc=The druid skeleton is always in
 
 # Quest: Time to Kill (Kobold)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALGQ.name=Time to Kill (Kobold)
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALGQ.desc=Kobold spawners can be found in Hollow Hills. It will spawn almost anywhere that is dark within the Twilight Forest dimension and tends to spawn in large groups.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALGQ.desc=Kobolds can often be found in Hollow Hills. They will spawn almost anywhere that is dark within the Twilight Forest dimension and tend to spawn in large groups.
 
 # Quest: Time to Kill (Redcap)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALGg.name=Time to Kill (Redcap)
@@ -14013,7 +14017,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMXQ.name=UV Power Per Turbine
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMXQ.desc=Once you progress enough in ZPM to make ZPM Dynamo Hatches, you can increase each turbine's output to 524,288 EU/t. At this number, you'll be a lot less limited by the turbine material, and it's possible to increase the total power output of one Fusion Reactor considerably. You can cover the total Helium Plasma output from one reactor with 3 Plasma Turbines, if you choose the right materials:%n%nLarge High Durability Compound Steel 235%% 473,759 EU/t%nLarge Atomic Separation Catalyst 206%% 409,663 EU/t%nLarge Adamantium 206%% 413,280 EU/t%nLarge Draconium 175%% 220,500 EU/t (durable)%nLarge Neutronium 165%% 249,480 EU/t (very durable)%n%nThe power output and final efficiency can vary a lot, based on which turbines you're using. Some of them, like Ichorium and Neutronium, last basically forever, while others will need to be replaced from time to time but offer higher efficiency. If you want to get more power per turbine, to reach closer to the dynamo's limit, you can increase the flow of plasma to the turbine, but be careful! You can't go beyond the dynamo's limit, and you will also lose efficiency as you increase the flow amount. More concrete values for efficiency loss can be found in the Plasma Turbine quest in the LuV page.%n%nMake a normal or buffered ZPM dynamo to complete the quest.%n%n[note]Also, check out the XL Plasma Turbine.[/note]
 
 # Quest: High Temperature Gas-cooled Reactor
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMbg.name=§6§6§6§lHigh Temperature Gas-cooled Reactor
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMbg.name=§6§lHigh Temperature Gas-cooled Reactor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMbg.desc=Have you heard of gas-cooled reactors? Have you heard of Pebble Bed reactors? Well now you have both!%n%nThe High Temperature Gas-cooled Reactor (HTGR) uses specially prepared fuel pellets to heat coolant gas (helium) that's pumped in a closed loop through the reactor and heat exchangers. The reactor requires a constant supply of helium gas and power in order to power the pump that keeps the coolant loop working.%n%nThis reactor allows breeding of rare resources (§5Indium§r,§9Osmium§r), fissile materials (§aU235§r,§cPu239§r,§4Pu241§r), can supply you with §dLutetium§r and also unlocks alternative recipes for §dEuropium§r and §7Americium§r via the elusive §2Promethium§r.%n%nThe disadvantage of this reactor is it's expensive nature. Pebble reactors work by stuffing the reactor full of pebbles, none of which require rare resources but rather a large amount of common ones. Even though a lot can be recycled, you still need to keep the reactor filled to get decent speed. As a reward for this upkeep cost, you get a decent production for many different outputs.%n[note]%nNotes:%n%nHTGR has an internal buffer for fuel and gets faster the more fuel you put inside according to the formula §6eff=1-(1-x)^3§r%n%nThis multi consumes 0.2A IV when operating and this amount increases when lacking helium gas. %nThe amount of Helium gas increases with the amount of helium gas stored.%n%nReactor speeds up immensely when supplied with either/both IC2 Coolant or Water, if the amount of supplied fluid is not full the bonus speed is applied linearly.%n%nBy typing HTGR in NEI, you can see all the items that are related to this multiblock.%n%nFor exact numbers visit HTGR-Controller-Tooltip.as/always%n[/note]
 
 # Quest: Two Million Turbines
@@ -14034,7 +14038,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkg.desc=Forged from the blood of an age
 
 # Quest: Eternal Coil Upgrade
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkw.name=§9§l§nEternal Coil Upgrade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkw.desc=Beyond spacetime, beyond reality. You have peered into what never existed and brought into a fluid, and then a solid. It has been stabilized, against all odds. When you look at it, you think that you could hold the entire universe in your hand.%n%nIn the past, you were able to combine almost all materials into one, through an Eternal Singularity, an infinitely dense sample of the universe. However, automating this at the scale of the DTPF proved ridiculous, which would have stopped your progress altogether if not for the discovery of the Energized Tesseract. To physically manifest spacetime itself, you first needed to manifest the fourth spatial dimension, and that is what the Tesseract is: a 4-dimensional cube.%n%nCubes! Almost everything around you is made out of cubes. You have only glimpsed at the reality of the 4-dimensional world, but you have successfully used it to condensate spacetime, which can be arbitrarily molded into the complete Eternal mixture, a process that unfortunately cannot be reversed. Needless to say, living circuits will not suffice to maintain an infinitely dense, infinitely stable, multi-dimensional material.%n%nCurrently, the final upgrade with 13501K. This really makes your DTPF shine!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkw.desc=Beyond spacetime, beyond reality. You have peered into what never existed and brought into a fluid, and then a solid. It has been stabilized, against all odds. When you look at it, you think that you could hold the entire universe in your hand.%n%nIn the past, you were able to combine almost all materials into one, through an Eternal Singularity, an infinitely dense sample of the universe. However, automating this at the scale of the DTPF proved ridiculous, which would have stopped your progress altogether if not for the discovery of the Energized Tesseract. To physically manifest spacetime itself, you first needed to manifest the fourth spatial dimension, and that is what the Tesseract is: a 4-dimensional cube.%n%nCubes! Almost everything around you is made out of cubes. You have only glimpsed at the reality of the 4-dimensional world, but you have successfully used it to condensate spacetime, which can be arbitrarily molded into the complete Eternal mixture. Needless to say, living circuits will not suffice to maintain an infinitely dense, infinitely stable, multi-dimensional material.%n%nCurrently, the final upgrade with 13501K. This really makes your DTPF shine!
 
 # Quest: Power in the Ether
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMow.name=§9§l§nPower in the Ether
@@ -14115,6 +14119,10 @@ betterquesting.quest.WPoaCPPwTBSyn2dmh5DcBA.desc=You got to take a well deserved
 # Quest: High Energy Laser Purification
 betterquesting.quest.WqDynhbQQ4GdNMKm0BlbcQ.name=§2§l§nHigh Energy Laser Purification
 betterquesting.quest.WqDynhbQQ4GdNMKm0BlbcQ.desc=For even more pure water, you will need to use strong lasers to precisely bombard the water and remove impurities. As usual with the waterline, this multiblock presents you with a complex automation puzzle to solve.
+
+# Quest: Neutronium Compressor
+betterquesting.quest.XKKP2E5ORG-ju42dSDd3sw.name=§2§l§nNeutronium Compressor
+betterquesting.quest.XKKP2E5ORG-ju42dSDd3sw.desc=In order to compress singularities and eventually infinity catalysts, you'll need the strongest compressor yet: the Neutronium Compressor. This multiblock channels and controls extreme amounts of pressure through carefully calibrated Active Neutronium Casings, but the sheer magnitude of pressure is too much to produce blocks or superdense plates, as any regular material inserted into the device will be compressed down to a singularity. More advanced singularities should be possible in theory, but you'll need something even stronger...%n%n[note]Note that singularity recipes require extreme amounts of items! Consider using Super Buses or ME Stocking Input Buses to fit everything in there.[/note]
 
 # Quest: Matter Manipulator MKI
 betterquesting.quest.Y4bRCOWFTgyxdTJXWXjFfA.name=§9§lMatter Manipulator MKI
@@ -14250,10 +14258,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFVA.desc=Find a Mjolnir
 # Quest: Trigger: Ballthingy
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFVQ.name=Trigger: Ballthingy
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFVQ.desc=Find? or make an LS
-
-# Quest: Trigger: CtH (unlock)
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAISw.name=Trigger: CtH (unlock)
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAISw.desc=Complete collecting the hybrids to trigger
 
 # Quest: Bees Template
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIbw.name=Bees Template
