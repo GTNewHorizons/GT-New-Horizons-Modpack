@@ -11718,6 +11718,10 @@ betterquesting.quest.TvVeFhtYQCSmlekVCdADaQ.desc=During your travels, you've hea
 betterquesting.quest.UAWjHTM_SAW95_Cji-9PiA.name=Need More Sugar?
 betterquesting.quest.UAWjHTM_SAW95_Cji-9PiA.desc=With Briar starting to consume you might also want to increase your sugar production.%n%nSweeds are planted on grass, not farmland, and will spread to propagate themselves. Once fully matured they can be harvested for sugar as well as sugar cane.
 
+# Quest: Thaumic Dendrology
+betterquesting.quest.VJvOr8S8R3SMamYdt0yyFw.name=Thaumic Dendrology
+betterquesting.quest.VJvOr8S8R3SMamYdt0yyFw.desc=Thaumcraft saplings can be quite useful early on, now that you have access to infusion you can create them. Each type has a special trait:%n%n§6§lGolden Oak§r - Drops Golden Apples as opposed to regular Apples.%n%n§c§lNether§r - Creates a miniature nether biome upon placement that can spawn mobs- be careful! Placing the leaves from this tree on top of a block will cause that block to turn into its nether counterpart.%n%n§d§lEnder§r - Creates a miniature end biome upon placement that can also spawn mobs. Placing the leaves from this tree on top of a block will cause that block to turn into its end counterpart. (§3A great source of Endstone§r)%n%n§b§lPeaceful§r - Gathers passive creatures underneath its leaves. The types of animals attracted depends on the biome its planted in.
+
 # Quest: Keeping Out the Riff-Raff
 betterquesting.quest._N4B3gVMTZOoUdf9--7aPQ.name=Keeping Out the Riff-Raff
 betterquesting.quest._N4B3gVMTZOoUdf9--7aPQ.desc=You're starting to get tired of having to build everything like some kind of fortress just to make sure no unwanted guests come in. Sure, that's just the nature of living in a world where infinite hoards of restless undead haunt every other dark corner, but is having a secure entryway that isn't conveniently door-shaped too much to ask?%n%nNot anymore. Paving Stone of Warding, assuming nothing sits on top of it, will project a two block tall invisible force-field above itself that block non-player mobs from passing through, at least the common riff-raff. As a bonus spiders cannot climb the force-field, so no need for overhangs to keep them out too.%n%nThat said, since the force-field cannot tell an arrow fired by you from one fired §oat you§r, mundane objects will still pass through regardless. And the force-field does as much to block line of sight as the term §oinvisible§r would suggest.%n%nOf course, you're not concerned about that part. Being able to shoot things with your crossbow while they can't reach you is very much in §oyour§r favor, all told.
@@ -11753,6 +11757,10 @@ betterquesting.quest.gVqhKJAoTfudKA5xUWMzMg.desc=When you get poisoned or wither
 # Quest: Counting Items
 betterquesting.quest.jvbdUzcgTfGX820wUPhxCQ.name=Counting Items
 betterquesting.quest.jvbdUzcgTfGX820wUPhxCQ.desc=The Remote Comparator makes it significantly easier to get comparator signals out of whatever block you want, but looking at your storage chests you can't help but see no reason to bother. So what if they're nearly full? You want to know what they're nearly full §oof§r.%n%nTally Boxes can be pointed at a container - either directly or, using a Remote Comparator, remotely - and given a Runic Whitelist that specifies conditions where you want a Tally Box to send a redstone signal. Quantity, metadata and NBT matching are options, as is using a basic name filter.%n%nNote that the redstone side is always opposite the reading side, and Remote Comparators must be placed on top of Tally Boxes to work together, meaning redstone is always output on the down face in that case.%n%n[note]Runic Whitelists don't let you use NEI ghost items to set their filters, unfortunately.[/note]
+
+# Quest: Magical Plants
+betterquesting.quest.oNdPEYVuQc2t0oqunOovUg.name=Magical Plants
+betterquesting.quest.oNdPEYVuQc2t0oqunOovUg.desc=Now that you've made a crucible you can create a bunch of unique Thaumcraft plants. Some of these are incredibly useful so you'll want to take a close look.%n%nThe research for most of these can be found under Thaumic Bases, starting with "Thaumic Nature".%n%n[note]Aside from these, there are more plant types unlocked in the future as you continue to progress.[/note]
 
 # Quest: Tube Madness
 betterquesting.quest.xoH_knd-RV-22QEfLUtuDA.name=Tube Madness
