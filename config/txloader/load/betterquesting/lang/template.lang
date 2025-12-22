@@ -1399,7 +1399,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALLQ.desc=Want lots of cobble, stone, obs
 
 # Quest: Magnets != Magic
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALSw.name=§2§lMagnets != Magic
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALSw.desc=Tired of running after ore or other blocks? Use a magnet! It has a limited range, but who cares? Just remember to turn it on.%n%nIn HV you can craft it into the better one, if you still need a magnet by then.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALSw.desc=Tired of running after ore or other blocks? Use a magnet! It has a limited range, but who cares? Just remember to turn it on.%n%nIn HV you can craft it into the better one, if you still need a magnet by then.%n%n[note]Tips:%n- This can be toggled using the "Toggle Magnet" Draconic Evolution keybind%n%n- The collection noise it makes can be disabled in the Draconic Evoution mod settings.[/note]
 
 # Quest: Cobalt and Arsenic from Cobaltite
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALYg.name=§2§lCobalt and Arsenic from Cobaltite
@@ -1427,7 +1427,7 @@ betterquesting.quest.b47jlBoHTFGGB3j7nq60Zw.desc=Are you tired of storing Shapes
 
 # Quest: Refined Firestone
 betterquesting.quest.njE33db1TxaiJhEBA16E4A.name=§2§lRefined Firestone
-betterquesting.quest.njE33db1TxaiJhEBA16E4A.desc=Cut Firestone is the basic shape for producing Refined Firestone.%nUse a Diamond Lens or Flint Lens for cutting.%nIt is then fired with lava in the EBF.%n%nLastly it is thrown into lava and charged by absorbing lava blocks around it.%nIt needs 5000 lava blocks to be fully charged, so a large lava lake is required, preferably in the Nether.%n%n[note]If the firestone breaks, it can be repaired with lava in the EBF and recharged.[/note]
+betterquesting.quest.njE33db1TxaiJhEBA16E4A.desc=Cut Firestone is the basic shape for producing Refined Firestone.%nUse a Diamond Lens or Flint Lens for cutting.%nIt is then fired with lava in the EBF.%n%nLastly it is thrown into lava and charged by absorbing lava blocks around it.%nIt needs 5000 lava blocks to be fully charged, so a large lava lake is required, preferably in the Nether.%n%nThis is most often used to heat up Steam Boilers very quickly or as a fuel. Additionally, it can function as a Flint and Steel.%n%n[note]If the firestone breaks, it can be repaired with lava in the EBF and recharged.[/note]
 
 # Quest: Precision Laser Engraver
 betterquesting.quest.vV8Pw_lTTSiMmWOLqkyIWg.name=§2§lPrecision Laser Engraver
@@ -5913,10 +5913,6 @@ betterquesting.quest.DSkXvzhRSKiwFLJywGDMRg.desc=An enhanced version of the Diam
 betterquesting.quest.KfgATF33ToiE0aYS4pp04Q.name=§6§lObsidian Barrel
 betterquesting.quest.KfgATF33ToiE0aYS4pp04Q.desc=The Obsidian barrel holds as many items as the Diamond one, and is also immune to explosions.
 
-# Quest: Double the Radius = Double the Fun!
-betterquesting.quest.LaLMF5rFQ0SxAZ5o-C-r5Q.name=Double the Radius = Double the Fun!
-betterquesting.quest.LaLMF5rFQ0SxAZ5o-C-r5Q.desc=[quest]Advanced MagLev Pylon II (HV)[/quest]%n%nThe HV Pylon has a §c32§r block radius (65x65x65 cube centered around the pylon)%n%nRadius is §9halved§r if the pylon is unpowered. 
-
 # Quest: Obsidian Shulker Box
 betterquesting.quest.MbFXZcovQ1GRxQCeS2PUuw.name=§6§lObsidian Shulker Box
 betterquesting.quest.MbFXZcovQ1GRxQCeS2PUuw.desc=The portable equivalent of the Obsidian Barrel that retains it's explosion-proof qualities.%n%nHas §n108§r slots.%n%n[note]Can be dyed![/note]
@@ -5932,10 +5928,6 @@ betterquesting.quest.QMlw6Z67T5-y_qflA7On2Q.desc=Combining diamond chest with ob
 # Quest: Iron Shulker Box
 betterquesting.quest.StA9TvxxSi2n2c7wQdCAFA.name=§2§lIron Shulker Box
 betterquesting.quest.StA9TvxxSi2n2c7wQdCAFA.desc=The portable equivalent of the Iron Barrel.%n%nHas §n54§r slots.%n%n[note]Can be dyed![/note]
-
-# Quest: Constructing Additional Pylons!
-betterquesting.quest.U0LzQUUkRIi-cY3ZpT4uiQ.name=Constructing Additional Pylons!
-betterquesting.quest.U0LzQUUkRIi-cY3ZpT4uiQ.desc=[quest]Advanced MagLev Pylon III (EV)[/quest]%n%nThe EV Pylon has a §c48§r block radius (97x97x97 cube centered around the pylon)%n%nRadius is §9halved§r if the pylon is unpowered. %n%n[note]The Protoss would be very happy with you[/note]
 
 # Quest: A Modern Technology
 betterquesting.quest.VFVruPLHQAeDthuV-s7HGQ.name=A Modern Technology
@@ -14134,7 +14126,7 @@ betterquesting.quest._zwtTNh-SG6B4wp221XPcQ.desc=The MKIII is the final upgrade 
 
 # Quest: Creative Flight With MagLev
 betterquesting.quest.a-g__0y_SGyed_E6IkIrsg.name=§6§lCreative Flight With MagLev
-betterquesting.quest.a-g__0y_SGyed_E6IkIrsg.desc=Getting annoyed trying to reach pipes and conduits around your base? Look no further than the §5§lMagLev Harness§r!%n%nWith the MagLev, you can have creative flight whenever you are within range of a MagLev Pylon and have the Harness equip.%n%nThis will work even when unpowered, however the range of the Pylon gets doubled when it's given §21A§r of it's corresponding tier of power. The MagLev will only draw power while you are in-range, not passively. A Harness can only be tethered to one Pylon at a time, but a Pylon can attach to any number of Harnesses. Will only consume 1A §nregardless§r of how many Harnesses are tethered to the Pylon§r.%n%n[note]Check the tooltip to see the range of your chosen Pylon, the MV one has a maximum range of 16 (33 x 33 x 33) when powered![/note]
+betterquesting.quest.a-g__0y_SGyed_E6IkIrsg.desc=Getting annoyed trying to reach pipes and conduits around your base? Look no further than the §5§lMagLev Harness§r!%n%nWith the MagLev, you can have creative flight whenever you are within range of a MagLev Pylon and have the Harness equip.%n%nThis will work at half of the range when unpowered, you unlock the full range when it's given §21A§r of it's corresponding tier of power. The MagLev will only draw power while you are in-range, not passively. A Harness can only be tethered to one Pylon at a time, but a Pylon can attach to any number of Harnesses. Will only consume 1A §nregardless§r of how many Harnesses are tethered to the Pylon§r.%n%nThe §6MV Pylon§r has a §c16§r block radius (33x33x33 cube centered around the pylon)%n%nThe §5HV Pylon§r has a §c32§r block radius (65x65x65 cube centered around the pylon)%n%nThe §8EV Pylon§r has a §c48§r block radius (97x97x97 cube centered around the pylon)
 
 # Quest: Powerfail Notifications
 betterquesting.quest.a59175-ZS16kxwUW_BCuEQ.name=§6§lPowerfail Notifications
