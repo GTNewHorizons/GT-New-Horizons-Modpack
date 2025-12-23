@@ -23,7 +23,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Bet On The Distillus",
+      "name:8": "§9§lBet On The Distillus",
       "questLogic:8": "OR",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -98,10 +98,16 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 200,
+          "Count:3": 80,
           "Damage:2": 1,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockcasings4"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 91,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

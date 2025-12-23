@@ -12,7 +12,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "With the Nano Forge built, we can upgrade our production of circuit boards for free, but the nanites need a container to hold them. The current casings aren\u0027t enough, we need to find an alternative casing.\n\nAfter some research, infinity as a frame and enriched holmium as the protection layer seems to work well. It can be allowed to let through nanites to go into the printer base so that extra material can be directly removed instead of trying to go slower.\n\n[note]Allows the player to use the tier 2 recipes with the use of a silver nanite in the input bus. This also unlocks parallels of the PCB Factory with said formula: Log2(x) parallels, where x is the amount of nanites in the input bus.[/note]",
+      "desc:8": "With the Nano Forge built, we can upgrade our production of circuit boards using Silver Nanites. Due to the nature of the nanites however, you will need both new structure casings and a special §5Nanite Containment Bus§r.\n\nFor the structure casings, you find that using infinity as a frame and enriched holmium as the protection layer works well. It can be allowed to let through nanites to go into the printer base so that extra material can be directly removed instead of trying to go slower.\n\nWith this new upgrade you can finally use §3Tier 2 recipes§r. Additionally, by placing extra nanites into the Nanite Containment Bus, you can boost your parallel amount by §2Amount^.75§r up to §2256§r parallels.\n\n[note]P.S. For those who don\u0027t feel like doing math, that\u0027s §n1638§r nanites to reach the maximum parallel amount.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -23,7 +23,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "PCB Factory Tier 2",
+      "name:8": "§4§l§nPCB Factory Tier 2",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -48,6 +48,12 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
+          "Damage:2": 9415,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        },
+        "1:10": {
+          "Count:3": 1,
           "Damage:2": 4054,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.03"
@@ -64,19 +70,19 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 1,
-          "Damage:2": 12,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings8"
-        },
-        "1:10": {
-          "Count:3": 1,
+          "Count:3": 34,
           "Damage:2": 328,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockframes"
+        },
+        "1:10": {
+          "Count:3": 158,
+          "Damage:2": 12,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings8"
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

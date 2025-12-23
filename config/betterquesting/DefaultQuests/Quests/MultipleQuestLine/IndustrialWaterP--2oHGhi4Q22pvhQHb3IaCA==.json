@@ -19,7 +19,7 @@
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§c§lIndustrial Water Purification",
+      "name:8": "§d§lIndustrial Water Purification",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -82,13 +82,13 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 77,
+          "Count:3": 71,
           "Damage:2": 4,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockcasings9"
         },
         "1:10": {
-          "Count:3": 71,
+          "Count:3": 77,
           "Damage:2": 5,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockcasings9"
@@ -104,6 +104,12 @@
           "Damage:2": 81,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockframes"
+        },
+        "4:10": {
+          "Count:3": 6,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blocktintedglass"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

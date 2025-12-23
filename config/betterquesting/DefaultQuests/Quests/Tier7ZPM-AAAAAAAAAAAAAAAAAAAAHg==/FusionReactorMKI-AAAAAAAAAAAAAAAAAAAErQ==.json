@@ -24,7 +24,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Now that you have some Europium, put it to use by making a MK II reactor.\n\nThis one will require the same block placement, but replaces LuV casings with fusion machine casings, superconducting coil blocks with fusion coil blocks, and uses ZPM tier hatches.\n\nEach of the up to 16 ZPM Energy Hatches adds 8192 EU/t power input and 20 MEU starting capacity. Therefore this reactor can handle recipes up to 320M EU at startup. In addition, if you perform a MK I recipe on a MK II, you will overclock it. Fusion overclocking is different from normal GT. It will take 2x the power and the recipe will go 2x faster.",
+      "desc:8": "Now that you have some Europium, put it to use by making a MK II reactor.\n\nThis one requires the same block placement, but replaces the LuV casings with fusion machine casings and the superconducting coil blocks with fusion coil blocks. The energy hatches must now be at least ZPM too.\n\nEach energy hatch has an energy capacity of 20M EU and draws up to 8192 EU/t. That means it can handle start costs up to 320M EU and power consumption up to 131072 EU/t. Furthermore, MK I recipes in a MK II reactor are granted a 2/2 perfect overclock which doubles the speed and power consumption.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -36,7 +36,7 @@
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Fusion Reactor MKII - Bigger, Better, Fusor",
+      "name:8": "§b§lFusion Reactor MKII - Bigger, Better, Fusor",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -114,35 +114,6 @@
       "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
-      "index:3": 0,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 1,
-          "Damage:2": 47,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
-        },
-        "1:10": {
-          "Count:3": 1,
-          "Damage:2": 67,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
-        },
-        "2:10": {
-          "Count:3": 2,
-          "Damage:2": 57,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
-        }
-      },
-      "taskID:8": "bq_standard:optional_retrieval"
-    },
-    "1:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
       "index:3": 1,
       "partialMatch:1": 1,
       "requiredItems:9": {
@@ -157,11 +128,17 @@
           "Damage:2": 7,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockcasings4"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 47,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
     },
-    "2:10": {
+    "1:10": {
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,

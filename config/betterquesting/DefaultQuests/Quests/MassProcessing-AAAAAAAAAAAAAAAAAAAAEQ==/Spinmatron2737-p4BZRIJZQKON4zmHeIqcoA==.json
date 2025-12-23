@@ -1,0 +1,181 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 1162181130482500484,
+      "questIDLow:4": -8199803816494517045
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2610
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Tired of spamming Centrifuges already? \n\nAlas, with your newfound ZPM technology you can finally fabricate a Centrifuge with some real power; §5§lThe Spinmatron-2737§r!\n\nThe Spinmatron§r comes with a litany of advantages compared to the regular centrifuge multiblock, including a §2§l3x§r Speed boost, a §2§l30%§r reduction in EU usage, and a malleable number of parallels.\n\nUnlike the generic turbine that comes stock in a normal Centrifuge, the Spinmatron§r graciously allows you to choose the quality of the turbines that go into the machine. You can add between §9§l2-8§r turbines depending on the machine tier, each turbine will increase the parallel amount by [§94 * Turbine Material Tier§r]. §3(You\u0027ll want to avoid using smaller, non-huge turbines!)§r\n\nThis efficiency comes at a cost however, and will require [§9Recipe Tier * 10§r] L/s of §5Kerosene§r in order to run. This can optionally be switched out with §5Biocatalyzed Propulsion Fluid§r for a §2§l1.25x§r parallel multiplier once you\u0027ve reached §4UEV§r.\n\nAdditionally there are three modes that come unique to the Spinmatron:\n\n- §dLight§r -\u003e Gives increased speed in exchange for only being able to process [§9Voltage Tier - 3§r] recipes\n\n- §6Normal§r -\u003e No changes\n\n- §aHeavy§r -\u003e Grants the ability to craft Heavy Mode dependent recipes in exchange for reducing your parallels by §c§l32x§r and consuming §5Biocatalyzed Propulsion Fluid§r.\n\n[note]Checkout the tooltip for more information![/note]\n\n[warn]Use the GUI for adding turbines; don\u0027t add them to the rotor assemblies.[/warn]",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1033,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "§b§lSpinmatron-2737",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -6376998921577086813,
+  "questIDLow:4": -8222665240642675552,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 27,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "harvestcraft:octopusrawItem",
+          "tag:10": {
+            "RepairCost:3": 2,
+            "display:10": {
+              "Name:8": "Noctopus"
+            }
+          }
+        },
+        "1:10": {
+          "Count:3": 37,
+          "Damage:2": 2030,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01",
+          "tag:10": {
+            "RepairCost:3": 2,
+            "display:10": {
+              "Name:8": "Chrom Dust"
+            }
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 42,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 2,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 3,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinTechnicianIII"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1033,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 709,
+          "Damage:2": 9,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings12"
+        },
+        "1:10": {
+          "Count:3": 264,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "GoodGenerator:supercriticalFluidTurbineCasing"
+        },
+        "2:10": {
+          "Count:3": 160,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings9"
+        },
+        "3:10": {
+          "Count:3": 144,
+          "Damage:2": 6,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockglass1"
+        },
+        "4:10": {
+          "Count:3": 81,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "bartworks:BW_GlasBlocks"
+        },
+        "5:10": {
+          "Count:3": 56,
+          "Damage:2": 13,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmetal4"
+        },
+        "6:10": {
+          "Count:3": 54,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "miscutils:gtplusplus.blockcasings.5"
+        },
+        "7:10": {
+          "Count:3": 24,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "miscutils:gtplusplus.blockspecialcasings.1"
+        },
+        "8:10": {
+          "Count:3": 9,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "miscutils:blockFrameGtPikyonium64B"
+        },
+        "9:10": {
+          "Count:3": 8,
+          "Damage:2": 30010,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

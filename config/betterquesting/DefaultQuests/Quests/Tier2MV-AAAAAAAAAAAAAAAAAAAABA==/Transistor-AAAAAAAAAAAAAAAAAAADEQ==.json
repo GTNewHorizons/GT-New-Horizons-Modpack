@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "For the next tier we need advanced circuits. To make advanced circuits, you need transistors.\n\n[note]If you already made SMD Transistors you can hold 16 of them to skip this quest![/note]",
+      "desc:8": "For the next tier we need advanced circuits. To make advanced circuits, you need transistors.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -84,13 +84,13 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 32,
+          "Count:3": 48,
           "Damage:2": 19057,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.02"
         },
         "1:10": {
-          "Count:3": 4,
+          "Count:3": 6,
           "Damage:2": 17856,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"
@@ -107,7 +107,7 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 24,
+          "Count:3": 36,
           "Damage:2": 32717,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"

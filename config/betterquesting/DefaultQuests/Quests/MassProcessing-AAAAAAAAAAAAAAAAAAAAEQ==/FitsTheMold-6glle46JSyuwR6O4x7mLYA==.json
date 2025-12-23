@@ -19,7 +19,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Fits The Mold",
+      "name:8": "§9§lFits The Mold",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -74,16 +74,40 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 1,
+          "Count:3": 115,
           "Damage:2": 13,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockcasings10"
         },
         "1:10": {
-          "Count:3": 1,
+          "Count:3": 14,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "bartworks:BW_GlasBlocks"
+        },
+        "2:10": {
+          "Count:3": 13,
           "Damage:2": 14,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockcasings10"
+        },
+        "3:10": {
+          "Count:3": 4,
+          "Damage:2": 11,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings"
+        },
+        "4:10": {
+          "Count:3": 4,
+          "Damage:2": 1,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings4"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 31781,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

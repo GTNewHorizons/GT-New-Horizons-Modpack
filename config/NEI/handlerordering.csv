@@ -272,8 +272,9 @@ extreme,50
 ic2.neiIntegration.core.recipehandler.ScrapboxRecipeHandler,75
 enhancedlootbags,99
 bq_quest,100
-gt.recipe.fluidcanner,100
-forestry.factory.recipes.nei.NEIHandlerBottler,100
+com.cubefury.vendingmachine.integration.nei.NeiRecipeHandler,101
+gt.recipe.fluidcanner,110
+forestry.factory.recipes.nei.NEIHandlerBottler,110
 gt.recipe.scanner,500
 gt.recipe.researchStation,500
 gt.recipe.spaceResearch,500

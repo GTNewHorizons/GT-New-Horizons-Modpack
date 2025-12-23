@@ -17,7 +17,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The portable equivalent of the Diamond Barrel, you\u0027ll need to either upgrade your wand or take advantage of the Gold -) Diamond shulker box upgrade.\n\nHas §n108§n§n§n§n§n§n§n§r slots.\n\n[note]Can be Dyed![/note]",
+      "desc:8": "The portable equivalent of the Diamond Barrel, you\u0027ll need to either upgrade your wand or take advantage of the Gold to Diamond Shulker Box Upgrade.\n\nHas §n108§r slots.\n\n[note]Can be dyed![/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -64,15 +64,7 @@
           "Count:3": 1,
           "Damage:2": 9,
           "OreDict:8": "",
-          "id:8": "enhancedlootbags:lootbag",
-          "tag:10": {
-            "ench:9": {
-              "0:10": {
-                "id:2": 35,
-                "lvl:2": 3
-              }
-            }
-          }
+          "id:8": "enhancedlootbags:lootbag"
         }
       },
       "ignoreDisabled:1": 0,
@@ -104,7 +96,7 @@
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
+      "ignoreNBT:1": 0,
       "index:3": 0,
       "partialMatch:1": 1,
       "requiredItems:9": {

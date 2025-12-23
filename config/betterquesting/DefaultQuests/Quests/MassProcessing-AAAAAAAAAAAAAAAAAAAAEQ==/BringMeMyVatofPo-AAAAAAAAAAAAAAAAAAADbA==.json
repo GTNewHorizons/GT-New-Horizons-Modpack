@@ -12,7 +12,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Tired of using small cells to process chemicals? Build a Large Chemical Reactor and you can just pipe in and out fluids. Or use the glorious large fluid cells to deliver and remove fluids from the hatches.\n\nYou can decide if the reactor should void any extra products when the outputs are full or not by toggling the void mode in the GUI!\n\nThere are also recipes specific to only the LCR, sometimes even allowing you to skip a step, so keep your eyes open for that.\n\nAdditionally, as a multiblock, LCR also counts as a cleanroom for any cleanroom recipes.\n\nYou will also need:\n1 Maintenance Hatch\n1-2 Energy Hatches\n0+ Input Bus (if a recipe has an item input. For full automation, you should probably use 1 for each material)\n0-1 Output Bus (if a recipe has an item output)\n2+ Input Hatch (use 1 for every fluid)\n1+ Output Hatch (same as above)\n\nYou can use a screwdriver on an output hatch to cycle through its modes. Use shift-right-click to go directly to specific fluid mode, then lock the fluid with a cell for easier automation. This works on more than just the LCR.",
+      "desc:8": "Tired of using small cells to process chemicals? Build a Large Chemical Reactor and you can just pipe in and out fluids. Or use the glorious large fluid cells to deliver and remove fluids from the hatches.\n\nYou can decide if the reactor should void any extra products when the outputs are full or not by toggling the void mode in the GUI!\n\nThere are also recipes specific to only the LCR, sometimes even allowing you to skip a step, so keep your eyes open for that.\n\nAdditionally, as a multiblock, LCR also counts as a cleanroom for any cleanroom recipes.\n\nYou will also need:\n1 Maintenance Hatch\n1-2 Energy Hatches\n0+ Input Bus (if a recipe has an item input. For full automation, you should probably use 1 for each material)\n0-1 Output Bus (if a recipe has an item output)\n2+ Input Hatch (use 1 for every fluid)\n1+ Output Hatch (same as above)\n\nYou can use a screwdriver on an output hatch to cycle through its modes. Use shift-right-click to go directly to specific fluid mode, then lock the fluid with a cell for easier automation. This works on more than just the LCR.\n\n[note]You can use any type of coil to form the structure, but there is no benefit accrued from using higher tiers.[/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -24,7 +24,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Bring Me My Vat of Polyethylene!",
+      "name:8": "§5§lBring Me My Vat of Polyethylene!",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -113,22 +113,22 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 1,
-          "Damage:2": 1,
+          "Count:3": 18,
+          "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockcasings8"
         },
         "1:10": {
           "Count:3": 1,
+          "Damage:2": 1,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings8"
+        },
+        "2:10": {
+          "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockcasings5"
-        },
-        "2:10": {
-          "Count:3": 8,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings8"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

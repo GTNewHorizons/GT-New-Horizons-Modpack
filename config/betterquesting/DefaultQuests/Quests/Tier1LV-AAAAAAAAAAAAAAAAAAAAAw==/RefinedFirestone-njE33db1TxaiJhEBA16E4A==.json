@@ -3,12 +3,16 @@
     "0:10": {
       "questIDHigh:4": -4801101343377634008,
       "questIDLow:4": -8315505785454163878
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1279
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Cut Firestone is the basic shape for producing Refined Firestone.\nUse a Diamond Lens or Flint Lens for cutting.\nIt is then fired with lava in the EBF.\n\nLastly it is thrown into lava and charged by absorbing lava blocks around it.\nIt needs 5000 lava blocks to be fully charged, so a large lava lake is required, preferably in the Nether.\n\n[note]If the firestone breaks, it can be repaired with lava in the EBF and recharged.[/note]",
+      "desc:8": "Cut Firestone is the basic shape for producing Refined Firestone.\nUse a Diamond Lens or Flint Lens for cutting.\nIt is then fired with lava in the EBF.\n\nLastly it is thrown into lava and charged by absorbing lava blocks around it.\nIt needs 5000 lava blocks to be fully charged, so a large lava lake is required, preferably in the Nether.\n\nThis is most often used to heat up Steam Boilers very quickly or as a fuel. Additionally, it can function as a Flint and Steel.\n\n[note]If the firestone breaks, it can be repaired with lava in the EBF and recharged.[/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -20,7 +24,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§5§lRefined Firestone§5",
+      "name:8": "§2§lRefined Firestone",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

@@ -5,6 +5,16 @@
       "questIDLow:4": 770
     },
     "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1236,
+      "type:1": 1
+    },
+    "2:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 990,
+      "type:1": 1
+    },
+    "3:10": {
       "questIDHigh:4": -6524472933804260988,
       "questIDLow:4": -6650556070435655322
     }
@@ -24,7 +34,7 @@
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§9§e§9§lHV Energy Hatch",
+      "name:8": "§5§lHV Energy Hatch",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

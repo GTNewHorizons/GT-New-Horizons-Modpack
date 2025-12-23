@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "But not as good as steel. Mostly, this is used in machine hulls, or in tools if you don\u0027t want to use steel up for that.\n\nTo make wrought iron, you need a tinkers smelter to melt some iron ingots down and cast nuggets; or use an ingot and a saw to get your nuggets. Now put these in a furnace to get wrought iron nuggets. With the compressor, you can compress the nuggets into ingots.\n\n§3Hint: Crushed or purified iron ore (not a mixed version like pyrite, look for Iron Ore in Chalcopyrite veins) can be smelted to iron nuggets directly. Or you can use an alloy smelter to turn iron ingots into nuggets faster than a smeltery. You can also use a saw to cut up iron ingots into nuggets.\n\nLater on, you can use an arc furnace to make wrought iron ingots directly.",
+      "desc:8": "But not as good as steel. Mostly, this is used in machine hulls, or in tools if you don\u0027t want to use steel up for that.\n\nTo make wrought iron, you either need to use a Tinkers\u0027 Smeltery to melt some Iron Ingots down and cast into Iron Nuggets, or use an Iron Ingot and a saw to craft Iron Nuggets. Now put these in a furnace to get Wrought Iron Nuggets. With the Compressor, you can compress the nuggets into ingots.\n\n§3Hint: Crushed or purified iron ore (not a mixed version like pyrite, look for Iron Ore in Chalcopyrite veins) can be smelted to iron nuggets directly. \n\nYou can optionally use an Alloy Smelter to turn iron ingots into nuggets faster than a smeltery. \n\nLater on, you can use an Arc Furnace to make Wrought Iron Ingots directly.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -20,7 +20,7 @@
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§3§lBetter Than Iron",
+      "name:8": "§c§lBetter Than Iron",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

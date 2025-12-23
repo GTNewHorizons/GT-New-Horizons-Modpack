@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "After seeing how slow Shirabon is to make, you might want to upgrade your Fusion setup.\n\nLike its predecessor, the MK4, this version also supports Perfect Overclocks. Hopefully, this will make your Metastable Oganesson issues a bit more manageable.\n\n[note]You can specify the batch amount in the GUI if you don\u0027t want it to handle one-tick recipes.[/note]",
+      "desc:8": "After seeing how slow Shirabon is to make, you might want to upgrade your Fusion setup.\n\nLike its predecessor, the MK4, this version also supports 4/4 perfect overclocks. Hopefully, this will make your Metastable Oganesson issues a bit more manageable.\n\n[note]You can specify the batch amount in the GUI if you don\u0027t want it to handle one-tick recipes.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -19,7 +19,7 @@
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Fuwusion MK5",
+      "name:8": "§9§l§nFuwusion MK5",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

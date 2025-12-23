@@ -116,35 +116,6 @@
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    },
-    "1:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
-      "index:3": 1,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 16,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "Railcraft:track",
-          "tag:10": {
-            "track:8": "railcraft:track.speed.boost"
-          }
-        },
-        "1:10": {
-          "Count:3": 16,
-          "Damage:2": 26865,
-          "OreDict:8": "",
-          "id:8": "Railcraft:track",
-          "tag:10": {
-            "track:8": "railcraft:track.speed.transition"
-          }
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

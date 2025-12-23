@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Distill the antimony pentachloride solution to get the pure antimony pentachloride liquid. You can recycle §c§6ALL§r of the ether.",
+      "desc:8": "Distill the antimony pentachloride solution to get the pure antimony pentachloride liquid. You can recycle §6ALL§r of the ether.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -19,7 +19,7 @@
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§c§lSeparate Solvent",
+      "name:8": "§d§lSeparate Solvent",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

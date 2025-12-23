@@ -27,7 +27,7 @@
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "The Quest for Holy Water",
+      "name:8": "§5§l§nThe Quest for Holy Water",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -82,19 +82,19 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 1,
+          "Count:3": 800,
           "Damage:2": 11,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockcasings9"
         },
         "1:10": {
-          "Count:3": 1,
+          "Count:3": 621,
           "Damage:2": 2,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockglass1"
         },
         "2:10": {
-          "Count:3": 1,
+          "Count:3": 124,
           "Damage:2": 395,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockframes"

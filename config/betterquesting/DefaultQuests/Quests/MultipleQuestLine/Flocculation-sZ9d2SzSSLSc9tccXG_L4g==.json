@@ -23,7 +23,7 @@
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Flocculation",
+      "name:8": "§b§lFlocculation",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -64,7 +64,7 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 56,
+          "Count:3": 61,
           "Damage:2": 6,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockcasings9"
@@ -92,6 +92,12 @@
           "Damage:2": 11,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockcasings3"
+        },
+        "5:10": {
+          "Count:3": 6,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blocktintedglass"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

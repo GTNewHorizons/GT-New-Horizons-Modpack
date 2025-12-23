@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "After getting obzinite, it\u0027s time to craft a tool forge for making bigger (and better) Tinkers tools.\n\n§Y§3You do not have to use iron to create the forge; you can also use other materials like tin or copper, among others.",
+      "desc:8": "After getting obzinite, it\u0027s time to craft a tool forge for making bigger (and better) Tinkers tools.\n\n§3You do not have to use iron to create the forge; you can also use other materials like tin or copper, among others.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -20,7 +20,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§3§lTool Forge",
+      "name:8": "§c§lTool Forge",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

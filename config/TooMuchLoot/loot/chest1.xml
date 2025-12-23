@@ -22,7 +22,7 @@
 	<loot item="Railcraft:machine.beta" damage="3" weight="20" count_min="2" count_max="4"/>
 	<loot item="Railcraft:machine.beta" damage="5" weight="5" count_min="1" count_max="2"/>
 	<loot item="IC2:itemTreetap" damage="0" weight="30" count_min="1" count_max="2"/>
-	<loot item="IC2:blockMachine" damage="1" weight="20" count_min="1" count_max="2"/>
+	<loot item="etfuturum:blast_furnace" damage="0" weight="20" count_min="1" count_max="2"/>
 	<loot item="BuildCraft|Factory:tankBlock" damage="0" weight="20" count_min="2" count_max="4"/>
 	<loot item="gregtech:gt.metaitem.02" damage="18035" weight="20" count_min="4" count_max="6"/>
 	<loot item="gregtech:gt.metaitem.02" damage="18057" weight="20" count_min="4" count_max="6"/>

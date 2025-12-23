@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "It\u0027s time to upgrade your wooden sword a little.\nCollect flint bones and a stick.\n\nYou won\u0027t be able to kill a Wither with it now, but you can upgrade and improve this tool later. You can also repair it with flint.",
+      "desc:8": "It\u0027s time to upgrade your wooden sword a little.\n\nYou only need one stick, one bone, and one flint to create the new weapon. However, it\u0027s recommended that you gather extra flint since it can be used to repair the sword.\n\nYou won\u0027t be able to kill a Wither with it now, but you can upgrade and improve this tool later.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -48,7 +48,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§2§lYour First Flint Sword",
+      "name:8": "§a§lYour First Flint Sword",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

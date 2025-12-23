@@ -12,7 +12,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "No matter where you got this smeltery from, you have one now. Time for some casting!\n\nBuy the zinc gravel in the Coins Coins coins tab if you can\u0027t find it.\n\nNote: The book says a 3x3 base, but you can make a smeltery with a smaller base. Taller/wider smelteries can do more items at one time, conserving fuel.\n\n[note]The smeltery does not double ores in GTNH. Later machines will help you there.[/note]",
+      "desc:8": "No matter where you got this smeltery from, you have one now. Time for some casting!\n\nNote: The book says to make a 3x3 base, but you can make a smeltery with a smaller or wider base. Taller/wider smelteries can do more items at one time, conserving fuel.\n\n[note]The smeltery does not double ores in GTNH. Later machines will help you there.[/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -24,7 +24,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 1,
-      "name:8": "§f§k§f§l§6§lYou Are Now Prepared, Hopefully!",
+      "name:8": "§6§lYou Are Now Prepared, Hopefully!",
       "partySingleReward:1": 0,
       "questLogic:8": "OR",
       "repeatTime:3": -1,

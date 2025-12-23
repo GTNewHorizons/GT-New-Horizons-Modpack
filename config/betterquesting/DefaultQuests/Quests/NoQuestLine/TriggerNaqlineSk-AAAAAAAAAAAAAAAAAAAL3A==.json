@@ -27,7 +27,7 @@
       "snd_complete:8": "random.levelup",
       "snd_update:8": "random.levelup",
       "taskLogic:8": "OR",
-      "visibility:8": "HIDDEN"
+      "visibility:8": "NORMAL"
     }
   },
   "questIDHigh:4": 0,
