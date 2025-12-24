@@ -12,7 +12,7 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 11007,
+        "Damage:2": 3,
         "OreDict:8": "",
         "id:8": "bartworks:gt.bwMetaGeneratedingot"
       },
@@ -88,7 +88,7 @@
         "0:10": {
           "Count:3": 1,
           "Damage:2": 3,
-          "OreDict:8": "ingotZirconium",
+          "OreDict:8": "",
           "id:8": "bartworks:gt.bwMetaGeneratedingot"
         }
       },
