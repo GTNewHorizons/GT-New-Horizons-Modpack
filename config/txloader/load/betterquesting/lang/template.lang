@@ -3091,7 +3091,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAL5A.desc=That mud on its own is far too 
 
 # Quest: Zirconia-Hafnia Blend
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL5Q.name=§9§lZirconia-Hafnia Blend
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL5Q.desc=This process is a little involved so I'll guide you through it. First, centrifuge the dust you got from the dissolution tank.%n%nBecause Hafnium and Zirconium are refractory metals, like Titanium and Zirconium,%nthey have very similar process to it and each other.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL5Q.desc=This process is a little involved so I'll guide you through it. First, centrifuge the dust you got from the dissolution tank.%n%nBecause Hafnium and Zirconium are refractory metals like Titanium, they use a similar process.
 
 # Quest: Sifting the Goodness Out
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL5g.name=§9§lSifting the Goodness Out
@@ -11906,10 +11906,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABMA.desc=Finally, a device where you can
 # Quest: Crying Obsidian...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABMQ.name=Crying Obsidian...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABMQ.desc=...it mourns the dead. This might come in handy for some cases. By placing 2 on top of each other, you're able to set your respawn point to that location, without the need for a bed. It's up to you to imagine the possibilities...
-
-# Quest: Useful Trees
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABMg.name=Useful Trees
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABMg.desc=Just like plants, there are trees that will attract various friendly and "not so friendly" creatures. (No warranty when placed in desolated biome!)
 
 # Quest: Purge Your Warp
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADQQ.name=Purge Your Warp
