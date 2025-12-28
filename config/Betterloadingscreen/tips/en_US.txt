@@ -12,7 +12,7 @@ Material tiers play a role when breaking pipes
 If a machine catches fire, it can explode
 Adding water to an empty but hot Boiler will make a loud bang!
 Avoid Eldritch Obelisks!
-You can bind the questbook to a key to save you from using the item
+You can bind the questbook to a key to save you from using a slot
 Pam's Gardens can be picked up with right-click
 Don't make the LV Extruder without checking the recipes' voltage!
 Placing a Garden makes it spread
@@ -31,8 +31,8 @@ The Bending Machine makes plates more efficiently
 Multiblocks can share walls
 You can't use the front face of machines for input and output
 Disable a machine with a Soft Mallet if it cannot finish a recipe
-Villagers periodically "shed" emeralds.
-Forestry Worktables are your friend
+Villagers periodically "shed" emeralds
+Forestry Worktables are your friends
 Try the Midnight Theme for the questbook
 Try the Realistic Sky resourcepack (it's already included)
 Literally flint and steel!
@@ -47,7 +47,7 @@ Loss on uninsulated cables is twice as big as on insulated ones
 Power requirements are based solely on the recipes
 A machine draws electricity from its internal buffer first
 Tinker's Faucets can pour fluids and also gasses(!) into containers
-Peaceful mode doesn't restore hunger.
+Peaceful mode doesn't restore hunger
 Beware of pollution!
 Found a crash or bug? Please report it on GitHub
 Tinker's Smeltery does not double ores
@@ -67,8 +67,8 @@ There are fourteen Voltage tiers: from LV(32V) to MAX(2147483647V)
 Going one Voltage tier up, means quadrupling Voltage requirements
 Shift-click with a GT-Block on a cable/pipe/etc to auto-connect it
 Read the fine questbook, it explains many mechanics
-You can bookmark items with NEI ("a" by default)
-It's NEI, not JEI. Use it frequently.
+You can bookmark items with NEI ("A" by default)
+It's NEI, not JEI. Use it frequently
 Your pick is not ready
 1.7.10's Life Support!
 Put the "Mine" back in Minecraft
@@ -93,7 +93,8 @@ Use /xu_tps to see if the server's lagging. 20 TPS is normal
 Use an Elevator to get into your Cleanroom, so you won't lose cleanliness!
 Only getting bad drops? Try enchanting your Lootbags with Fortune III!
 You can't enter the Twilight Forest without a Quick And Dirty Portal Generator
-Press T while hovering on an item in NEI to see where it is in your world.
+Press T while hovering on an item to see where it is in nearby inventories
+Press Y while hovering on a machine in NEI to see where you placed it
 Using a Circuit Assembler will make circuits cheaper!
 Using a Cleanroom will make circuits even cheaper!
 GT stands for Grind and Tedium
@@ -106,10 +107,11 @@ With the power of Duct Tape, I solved all of your maintenance problems!
 When you open a Twilight Portal, you'll get hit by lightning
 Sometimes the best combat strategy is "Run away!"
 You can power machines by putting batteries in their energy slots
+You can power machines by putting Redstone in their energy slots
 You can charge your Jetpack by putting it in the energy slot of LV machines
 Be prepared to take hours to craft a single machine!
 Oil + Thunder = Fire. Remember to put cobblestone over your oil wells!
-Nuclear Reactor configs give 10x the energy they give in IC2!
+Nuclear Reactors give 10x the energy they give in IC2!
 Remember to plant Cotton - you'll need a ton of it
 It's AluminIum, not Aluminum
 #Sometimes it's better to buy than to craft
@@ -118,7 +120,7 @@ Use F7 to see spots where mobs can spawn!
 Use F9 to see chunk borders!
 Need seed oil for Forestry? Plant some peanuts
 Microcrafting is love, microcrafting is life
-Hahahaha, coin quests go brrrrrrr
+Hahahaha, coins in a vending machine go brrrrrrr
 If you're making a Project Red system, make sure to use a wall of drawers!
 How many circuits have you crafted in your life?
 JourneyMap: Press [J]
@@ -137,7 +139,7 @@ Game mechanics datasheet: www.gtnewhorizons.com/spreadsheet
 If it's too tedious you're doing it wrong
 Do you also watch your oven while baking food?
 There's always something else you can do while waiting
-If the sound is gone you can press a "Refresh sounds" button in sound settings
+You can press the "Refresh sounds" button in sound settings if they're gone
 Batteries can be charged and discharged in the same slot
 3D-printed Lave 12 is the future - Sampsa
 Don't hold machines in your hotbar when playing with cables
@@ -151,7 +153,6 @@ Remove plates and covers from machines using a Crowbar
 To divide items with a ratio, use the Distributor. Configure with a screwdriver
 Stay one tier ahead of DreamMasterXXL!
 What's a "Fabric Loader"?
-You can power machines by putting Redstone in their energy slots
 UwU
 HV to MV, yes - Threefold
 Daddy Kitten has no power over staff - boubou_19
