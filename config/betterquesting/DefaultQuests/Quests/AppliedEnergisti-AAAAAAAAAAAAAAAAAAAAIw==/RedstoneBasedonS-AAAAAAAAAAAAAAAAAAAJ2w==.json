@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "This device will turn on (or off) a redstone signal based on how much of an item, fluid, or energy you specify (or energy in the network if you select the mode) you have in your network. \n\nTo add an item, left-click your desired item into the blank space between the 1000 numbers to add, click again while holding nothing to remove. \n\nTo add a fluid, left-control-click a cell containing your desired fluid into the blank space, removable in the same fashion.",
+      "desc:8": "This device will turn on (or off) a redstone signal based on how much of an item, fluid, or energy you specify you have in your network. The \u0027Level Type\u0027 will toggle between Item / Fluid mode and Energy mode.\n\nTo add an item, left-click your desired item into the blank space between the 1000 numbers to add, click again while holding nothing to remove. \n\nTo add a fluid, left-control-click a cell containing your desired fluid into the blank space, removable in the same fashion.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
