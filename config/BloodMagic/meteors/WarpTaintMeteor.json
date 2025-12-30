@@ -1,12 +1,22 @@
 {
   "ores": [
-
+    "Thaumcraft:blockTaint:0:80",
+    "Thaumcraft:blockTaint:1:80",
+    "Natura:soil.tainted:0:60",
+    "ForbiddenMagic:TaintBlock:0:50",
+    "chisel:voidstone:6:50",
+    "Thaumcraft:blockFluxGoo:0:20",
+    "Thaumcraft:blockFluxGas:0:20",
+    "thaumicbases:crystalBlock:7:8",
+    "Thaumcraft:blockCosmeticSolid:8:7",
+    "chisel:glotek:9:7",
+    "TaintedMagic:BlockShadowOre:0:5"
   ],
   "filler": [
-    ""
+    "Thaumcraft:blockEldritch:10:40"
   ],
-  "radius": 3,
-  "cost": 6669666,
-  "focusItem": "",
-  "fillerChance": 20
+  "radius": 17,
+  "cost": 700700,
+  "focusItem": "ForbiddenMagic:FMResource:3",
+  "fillerChance": 30
 }
