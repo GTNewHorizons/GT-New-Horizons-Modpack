@@ -1,0 +1,27 @@
+{
+  "ores": [
+    "minecraft:coal_ore:0:90",
+    "minecraft:iron_ore:0:90",
+    "minecraft:lapis_ore:0:85",
+    "minecraft:redstone_ore:0:85",
+    "minecraft:gold_ore:0:80",
+    "minecraft:diamond_ore:0:80",
+    "minecraft:emerald_ore:0:70",
+    "minecraft:quartz_ore:0:70",
+    "Thaumcraft:blockCustomOre:7:60",
+    "Thaumcraft:blockCustomOre:0:60",
+    "Thaumcraft:blockCustomOre:1:30",
+    "Thaumcraft:blockCustomOre:2:30",
+    "Thaumcraft:blockCustomOre:3:30",
+    "Thaumcraft:blockCustomOre:4:30",
+    "Thaumcraft:blockCustomOre:5:30",
+    "Thaumcraft:blockCustomOre:6:30"
+  ],
+  "filler": [
+    "TwilightForest:tile.TrollSteinn:0:30"
+  ],
+  "radius": 13,
+  "cost": 800800,
+  "focusItem": "Botania:starfield",
+  "fillerChance": 20
+}
