@@ -1,15 +1,22 @@
 {
   "ores": [
     "IC2:blockITNT:0:90",
-    "BloodArsenal:blood_tnt:0:80",
-    "minecraft:tnt:0:80",
-    "minecraft:redstone_lamp:0:30"
+    "miscutils:blockMiningExplosives:0:80",
+    "gregtech:gt.blockreinforced:5:70",
+    "TConstruct:explosive.slime:2:60",
+    "TConstruct:explosive.slime:0:60",
+    "ThaumicHorizons:alchemite:0:40",
+    "BloodArsenal:blood_tnt:0:30",
+    "minecraft:tnt:0:20",
+    "EnderZoo:blockEnderCharge:0:10",
+    "EnderZoo:blockConfusingCharge:0:10",
+    "ProjRed|Illumination:projectred.illumination.lamp:30:10"
   ],
   "filler": [
     "chisel:redstone_block:14:10"
   ],
-  "radius": 16,
+  "radius": 22,
   "cost": 6667666,
   "focusItem": "BloodArsenal:blood_tnt:0",
-  "fillerChance": 20
+  "fillerChance": 10
 }
