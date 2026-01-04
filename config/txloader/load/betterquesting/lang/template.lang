@@ -235,17 +235,13 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIA.desc=After you found a way to move w
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIQ.name=§a§lTinker-Time
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIQ.desc=While using your wooden tools is fun in terms of killing pigs and cows, they are not long-lasting and can't be repaired. Plus Infernals laugh at your attempts to kill them. You discovered how to craft tools that can be repaired and upgraded, but for that you definitely need a more advanced crafting technique.%n%n[note]If you don't have access to oak wood for creating your Part Builder, you can shapelessly craft yours into the oak variant for purposes of completing this quest[/note]
 
-# Quest: Zinc Gravel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIg.name=§a§lZinc Gravel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIg.desc=You can find it in chunks of gravel on the surface.%n%nUse as little as possible and save the rest for when you get a Macerator in Steam age, you'll get twice as much.%n%nIf you can't find any, you can buy them in the Vending Machine.%n%nIf you get enough and fully process it, you can also get Gallium for Gallium Arsenide in LV age.
-
 # Quest: Making Bronze
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIw.name=§a§lMaking Bronze
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIw.desc=Now that you've found copper and tin, you should make yourself some bronze. Use your macer... mortar to grind up some copper and tin ingots, and mix them together!
 
 # Quest: Important Tools
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAJA.name=§a§lImportant Tools
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAJA.desc=In order to craft even basic machines, you'll need new tools. Most of them can be replaced by machines later. For now, you should become familiar with each of their recipes, as you will need a lot of these tools, starting today.%n%nYour new tools can also be used to make Railcraft water tanks, a very useful multiblock considering the finite water feature.%n%nThere are also electric versions of the tools, you can upgrade later if you want. Also, there are many versions of the tools, they generally follow the same rules as tinkers parts in terms of how good they are, similarly to turbines. You can look at the spreadsheet for more info on GT tool stats.%n%nFor this quest, you can use whatever materials you want. The gem version of the saw is crafted differently to metal versions. Higher tier tools need steel or tungstensteel rods instead of sticks.%n%n[note]If you want to know the recipe for a tool using your specific material, be sure to take advantage of the magnifying glass icon at the top of the tool list so you can search for it. (Try out Iron for these quests!)[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAJA.desc=In order to craft even basic machines, you'll need new tools. Most of them can be replaced by machines later. For now, you should become familiar with each of their recipes, as you will need a lot of these tools, starting today.%n%nYour new tools can also be used to make Railcraft water tanks, a very useful multiblock considering the finite water feature.%n%nThere are also electric versions of the tools, you can upgrade later if you want. Also, there are many versions of the tools, they generally follow the same rules as tinkers parts in terms of how good they are, similarly to turbines. You can look at the spreadsheet for more info on GT tool stats.%n%nFor this quest, you can use whatever materials you want. The gem version of the saw is crafted differently to metal versions. Higher tier tools need steel or tungstensteel rods instead of sticks.%n%n[note]If you want to know the recipe for a tool using your specific material, be sure to take advantage of the magnifying glass icon at the top of the list of tools seen from viewing the recipe in NEI so you can search for the material easily. (Try it out using Iron for these quests!)[/note]
 
 # Quest: Getting Iron
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAJQ.name=§a§lGetting Iron
@@ -417,7 +413,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHSA.desc=In this pack you have to first 
 
 # Quest: Options For Finding Zinc
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHSg.name=§a§lOptions For Finding Zinc
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHSg.desc=It can be hard to find Zinc Gravel Ore on old servers or unlucky world seeds.%n%nThe alternatives are:%n- Buy the Zinc Gravel Ore in the Coins, Coins, Coins tab,%n- Search for Small Zinc Ore in the overworld,%n- Use the recipe with XP buckets in a crafting table.%n%nOnce you reach LV, you can get zinc from processing various ores like antimony, sphalerite, tetrahedrite and tin.%nCheck NEI for more options.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHSg.desc=The primary way of getting Zinc early on is via small chunks for Zinc Gravel Ore that can be found on the surface%n%nIf you're having trouble finding Zinc Gravel due to an unlucky world seed or playing on an old server, there are alternative ways made available for you to obtain it:%n%n1. Search for Small Zinc Ore in the overworld%n2. Use the recipe with XP buckets in a crafting table%n3. Buy the Zinc Gravel Ore in the Vending Machine (Unlocked later in this tab!)%n%n[note]Once you reach LV, you can get Zinc from processing various ores like Antimony, Sphalerite, Tetrahedrite and Tin. You will also be able to macerate the gravel ore for twice the product so save what you can until then![/note]
 
 # Quest: How to Open Your Wooden Doors?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJHQ.name=§a§lHow to Open Your Wooden Doors?
@@ -1990,6 +1986,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMjQ.desc=As a second step, we combine th
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMjg.name=§6§lSalty from all the silicon?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMjg.desc=If you are salty about the ingredients needed to purify silicon, I got good news for you! You can recover all of the chlorine and sodium you used by electrolyzing the salt you got!%n%n[note]You can also use zinc instead of sodium, the first reaction is longer but the recycling is much cheaper.[/note]
 
+# Quest: Dislocator Inhibitor
+betterquesting.quest.epVKHW7jSUiiLW4BPCqv9g.name=§6§lDislocator Inhibitor
+betterquesting.quest.epVKHW7jSUiiLW4BPCqv9g.desc=Tired of your magnet picking up everything? Fortunately, with the advent of Dark Steel this no longer needs to be an issue.%n%nThe Dislocator Inhibitor will restrict the function of the Draconic Evolution Item Dislocator within a customizable range of up to 16 blocks. You can stop it from picking up items entirely, or configure a whitelist or blacklist of your choosing. Additionally, you can choose whether it is always active or only enabled by a redstone signal.
+
 
 ## Quest Line: Tier 3 - HV
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAABQ.name=Tier 3 - HV
@@ -2747,10 +2747,6 @@ betterquesting.quest.JkWQZxq_TECWjHhjywrZZA.desc=Now that you're in EV tier you 
 # Quest: EV Field Generator
 betterquesting.quest.Jna1jgAySNSs8nS0YMXpLw.name=§8§lEV Field Generator
 betterquesting.quest.Jna1jgAySNSs8nS0YMXpLw.desc=With Field Generators you can make your first Quantum Chests or Quantum Tanks. But the first two should be for your T2 rocket.%n%n[note]Note that the Assembler recipe is more resource efficient.[/note]
-
-# Quest: Supersized Buses
-betterquesting.quest.Mt25IP2aShSSUBhZ1GGItg.name=§8§lSupersized Buses
-betterquesting.quest.Mt25IP2aShSSUBhZ1GGItg.desc=Input and output buses not holding enough for you?%n%nUpgrade your buses to the Super bus and enjoy increased slots.%n%n[note]To get Molten Silicon Carbide without an ABS, you can make Silicon Carbide Dust in a Mixer, then smelt it and fluid extract.[/note]
 
 # Quest: EXTREME MIXING
 betterquesting.quest.kQL8JceoSMSLDU_2AFjoqw.name=§8§lEXTREME MIXING
@@ -3866,7 +3862,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAErg.desc=A MK II is nice, but why not ma
 
 # Quest: I Put Fusion in Your Fusion so you Can Fusion While You Fusion
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEsg.name=§2§l§nI Put Fusion in Your Fusion so you Can Fusion While You Fusion
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEsg.desc=To make Oganesson, you'll need to make Californium. To make that, you'll need Beryllium and Plutonium 239, all in the Fusion Reactor. After the two fusion chains, you'll have the best noble gas in the pack, which is used in several places.%n%nIn this tier, you can send it to Void Miners, to increase their ore production speed, or EBFs, to make them run faster, although the EBF option is too weak right now (changes coming soon). Later on, Oganesson will be used in other places, like the optical circuit line, or to produce Metastable Oganesson, which is needed in much larger quantities later on.%n%nOganesson replication is on the way out, and the fusion recipe has improved a lot, so there is no longer an incentive to replicate and your Fusion Reactor should keep running for Og.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEsg.desc=To make Oganesson, you'll need to make Californium. To make that, you'll need Beryllium and Plutonium 239, all in the Fusion Reactor. After the two fusion chains, you'll have the best noble gas in the pack, which is used in several places.%n%nIn this tier, you can send it to Void Miners, to increase their ore production speed, or EBFs, to make them run faster, although the EBF option is too weak right now (changes coming soon). Later on, Oganesson will be used in other places, like the optical circuit line, or to produce Metastable Oganesson, which is needed in much larger quantities later on.
 
 # Quest: Time for Another Reactor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEsw.name=§2§l§nTime for Another Reactor
@@ -3878,7 +3874,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAH-Q.desc=These boules are the last ones,
 
 # Quest: Quantum Computer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH1w.name=§2§l§nQuantum Computer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH1w.desc=The Quantum Computer (QC) is an incredibly complicated machine used to generate computation for the Research Station and a few other multiblocks. There are a few things you need to understand before using one.%n%n§lCONSTRUCTION§r. Much like an assembly line, the QC is built as a series of slices. The first and last slice are the only valid locations for hatches. The slices in between are primarily for computer racks. The Multiblock Structure Hologram Projector shows the minimum length QC, but holding multiple in a single stack will show/build longer versions up to the maximum length of 16. There is also a mandatory air block in front of the computer heat vents.%n%n§lOUTPUT§r. Computation is nothing more than an integer input for certain recipes--much like EU. There may exist a minimum throughput requirement, a threshold to reach, or both (NEI will tell you everything). Computation is generated every second by the QC, transmitted by an Optical Transmission Connector, received by an Optical Reception Connector, and "consumed" by the machine or process that needs it. There is no storing computation and there can only be ONE transmission or reception hatch connected to the same Optical Fiber Cables at a time. If absolutely necessary, the Network Switch with QoS can split/join connections but know that it takes both power and maintenance to run.%n%nAdditional QC can be chained together using another set of Optical Transmission and Optical Reception Connectors between machines, but they cannot wallshare the same Optical Transmission Connector.%n%n§lUNCERTAINTY§r. The QC has a unique maintenance requirement that can only be corrected by balancing the Schrödinger Matrix inside an Uncertainty Resolver--an additional hatch that must go on either the first or last slice of the machine. Start with the basic Uncertainty Resolver, but know that there are two more tiers unlocked later on that lower the difficulty of the puzzle, or not?%n%nThe interface of the Uncertainty Resolver has the Schrödinger Matrix in the middle and two sets of 8 buttons on the left and right. Clicking on one button and then another will switch the states of the two corresponding cells in the matrix. This means switching their blinking speed (in the basic Uncertainty Resolver) or their shade/color (in the Uncertainty Resolver X). The goal of the puzzle is to balance the states of the matrix around the glowing LED lights, turning all of them green.%n%n§lPARAMETERS§r. In the GUI of the controller, there are two configurable parameters, overclock and overvolt, that change how computation and heat are generated. Higher overclock values contribute the most to computation and higher overvolt values contribute the most to heat. Alone, this would encourage the player to make overclock as high as possible and overvolt as low as possible, but there is a penalty to computation for large differences between these two parameters. Furthermore, overvolt values <1 will cause the QC to randomly drop computation proportional to its distance from 1. It is highly encouraged to play around with these parameters, as all the best setups do.%n%nSee the adjacent quest for more information on computer racks and generating computation.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH1w.desc=The Quantum Computer (QC) is an incredibly complicated machine used to generate computation for the Research Station and a few other multiblocks. There are a few things you need to understand before using one.%n%n§lCONSTRUCTION§r. Much like an assembly line, the QC is built as a series of slices. The first and last slice are the only valid locations for hatches. The slices in between are primarily for computer racks. The Multiblock Structure Hologram Projector shows the minimum length QC, but holding multiple in a single stack will show/build longer versions up to the maximum length of 16. There is also a mandatory air block in front of the computer heat vents.%n%n§lOUTPUT§r. Computation is nothing more than an integer input for certain recipes--much like EU. There may exist a minimum throughput requirement, a threshold to reach, or both (NEI will tell you everything). Computation is generated every second by the QC, transmitted by an Optical Transmission Connector, received by an Optical Reception Connector, and "consumed" by the machine or process that needs it. There is no storing computation and there can only be ONE transmission or reception hatch connected to the same Optical Fiber Cables at a time. If absolutely necessary, the Network Switch with QoS can split/join connections but know that it takes both power and maintenance to run.%n%nAdditional QC can be chained together using another set of Optical Transmission and Optical Reception Connectors between machines, but they cannot wallshare the same Optical Transmission Connector.%n%n§lUNCERTAINTY§r. The QC has a unique maintenance requirement that can only be corrected by balancing the Schrödinger Matrix inside an Uncertainty Resolver- an additional hatch that must go on either the first or last slice of the machine. Start with the Uncertainty Resolver X, but know that there is another tier unlocked later on (Uncertainty Resolution) that will solve the puzzle on its own.%n%nThe interface of the Uncertainty Resolver X has the Schrödinger Matrix in the middle and two sets of 8 buttons on the left and right. Clicking on one button and then another will switch the states of the two corresponding cells in the matrix. This means switching their shade/color. The goal of the puzzle is to balance the states of the matrix around the glowing LED lights, turning all of them green.%n%n§lPARAMETERS§r. In the GUI of the controller, there are two configurable parameters, overclock and overvolt, that change how computation and heat are generated. Higher overclock values contribute the most to computation and higher overvolt values contribute the most to heat. Alone, this would encourage the player to make overclock as high as possible and overvolt as low as possible, but there is a penalty to computation for large differences between these two parameters. Furthermore, overvolt values <1 will cause the QC to randomly drop computation proportional to its distance from 1. It is highly encouraged to play around with these parameters, as all the best setups do.%n%nSee the adjacent quest for more information on computer racks and generating computation.
 
 # Quest: Research Station
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH2A.name=§2§l§nResearch Station
@@ -4916,7 +4912,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHAw.desc=You can even create metals not 
 
 # Quest: New Threads
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHBQ.name=New Threads
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHBQ.desc=Tired of killing spiders for string? Grow some flax for an easy non-biting source of string.%n%nYou can also directly place Cotton seeds on cropsticks to grow cotton that way. With some Corium in the next quest, you can get easy tanned leather.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHBQ.desc=Tired of killing spiders for string? Grow some flax for an easy non-biting source of string.%n%nWith some Corium in the next quest, you can get easy tanned leather.
 
 # Quest: The Ground is Crying
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHBg.name=The Ground is Crying
@@ -6645,7 +6641,7 @@ betterquesting.quest.Y1kiJC_kRGKkW7h3qOPI8A.desc=A Linear Accelerator (LINAC) ca
 
 # Quest: Playing with Colors!
 betterquesting.quest.Z_jn8qzFQr6FWHzmt2i3Aw.name=§6§lPlaying with Colors!
-betterquesting.quest.Z_jn8qzFQr6FWHzmt2i3Aw.desc=Multiblock machines enforce input separation based on hatch color. Inputs from Input Buses and Input Hatches will only interact if they share the same color. Un-dyed inputs act as wildcards compatible with any color.%n%nColor can be applied using a Spray Can and removed with a Spray Can Solvent. An Infinite Spray Can becomes available later in progression.%n%n§6Now §2go §3have §4fun§5!!!
+betterquesting.quest.Z_jn8qzFQr6FWHzmt2i3Aw.desc=Multiblock machines enforce input separation based on hatch color. Inputs from Input Buses and Input Hatches will only interact if they share the same color. Un-dyed inputs act as wildcards compatible with any color.%n%nColor can be applied using a Spray Can and removed with a Spray Can Solvent. An Infinite Spray Can becomes available later in progression.%n%n[note]For more advanced users, note that the priority of dyed hatches is ordered exactly how the vanilla dyes are in NEI, from highest (black) to lowest (white).[/note]%n%n§6Now §2go §3have §4fun§5!!!
 
 # Quest: Decay Warehouse
 betterquesting.quest.bLz_cD33RE24mtOb2aLxXg.name=Decay Warehouse
@@ -6947,6 +6943,10 @@ betterquesting.quest.qDZZLi21TrmdWXwo_KimIw.desc=Bigger, better, faster. The Lar
 # Quest: STEAM-POWERED BREAKTHROUGH
 betterquesting.quest.quLxATDCQFWsrZRuh_gspA.name=§c§lSTEAM-POWERED BREAKTHROUGH
 betterquesting.quest.quLxATDCQFWsrZRuh_gspA.desc=You should have quite the collection of single block Steam machines by now. While these may have gotten you through processing small amounts of materials, there will be a time when you will have to process a multitude of items. This is where Multiblocks come in.%n%nWhile these Multiblocks have a material cost that is way higher than their single block counterparts, they have certain bonuses: they use less Steam, and they can process recipes in parallel, which means that a single recipe cycle can craft multiple items at once, if the Steam provided is enough to sustain it.%n%nThey do however have some quirks that need to be taken care of:%n%n-These Multiblocks require §4§lvery specific§r I/O blocks, use only those that are part of the quest%n-They process up to 8 items, where the Basic Tier is made of Bronze and High Pressure Tier is made of Steel (checkout the Multiblock Preview in NEI which will show you different levels of tiers)%n-The Tier and amount of parallel processing can be seen via WAILA if you are looking at the Controller Block%n%n[note]With this quest, you have started your journey with Mass Processing. However, don't get too excited quite yet. While there are some Multiblocks accessible in the Steam Age, most of them only unlock in EV or later, including better versions of these Multiblocks.[/note]
+
+# Quest: Thermic Heating Device
+betterquesting.quest.rVvLhN6YTUKhminacygRVg.name=§9§lThermic Heating Device
+betterquesting.quest.rVvLhN6YTUKhminacygRVg.desc=The §5§lThermic Heating Device§r is the multiblock edition of the Fluid Heater, offering §6§l8§r parallels per voltage tier at over §2§l2x§r the speed and for only §3§l90%%§r of the EU cost.%n%nThis can be useful now for Bauxite and Ruthenium processing but if you choose not to use it then definitely keep it in mind for later as you will eventually want it for Growth Catalyst!
 
 # Quest: Steam Stomping!
 betterquesting.quest.s6AEHSKiQe2XveT_oDZbZg.name=§c§lSteam Stomping!
@@ -9748,19 +9748,15 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ2g.desc=The ME Storage Monitor allows y
 
 # Quest: Redstone Based on Storage Level
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ2w.name=Redstone Based on Storage Level
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ2w.desc=This device will turn on (or off) a redstone signal based on how much of an item you specify (or energy in the network if you select the mode) you have in your network. Left-click an item into the space between the 1000 numbers to add, click again while holding nothing to remove.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ2w.desc=This device will turn on (or off) a redstone signal based on how much of an item, fluid, or energy you specify you have in your network. The 'Level Type' will toggle between Item / Fluid mode and Energy mode.%n%nTo add an item, left-click your desired item into the blank space between the 1000 numbers to add, click again while holding nothing to remove. %n%nTo add a fluid, left-control-click a cell containing your desired fluid into the blank space, removable in the same fashion.
 
 # Quest: Why Do I Need to Know How Much Manure Slurry I Have?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ3A.name=Why Do I Need to Know How Much Manure Slurry I Have?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ3A.desc=These are the fluid versions.
 
-# Quest: Out of Polytetrafluoroethylene? Turn on the LCR!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ3Q.name=Out of Polytetrafluoroethylene? Turn on the LCR!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ3Q.desc=It's basically the same as a fluid detector cover, except it detects based on what's in your network. Click a cell into the center to specify, and an empty hand to clear.
-
 # Quest: Essentia Level Emitter
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ3g.name=Essentia Level Emitter
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ3g.desc=Same as the other two, but for essentia.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ3g.desc=Same as the other, but for essentia.
 
 # Quest: Was I Out of Nebrisum, or Was it Terminus?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ3w.name=Was I Out of Nebrisum, or Was it Terminus?
@@ -11821,11 +11817,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABGA.desc=Eyes. Yes. Eyes! I need eyes, m
 
 # Quest: Really (Really!) Dark Magic
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABGQ.name=Really (Really!) Dark Magic
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABGQ.desc=Fools. FOOLS I say! They know nothing! This book will guide me, yes. Yes it will, my precious. It will lead us to even more POWER!%n%nAvailable in your local bookstore, and also occasionally found on Crimson Knights and Crimson Clerics.
-
-# Quest: Secrets
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABGg.name=Secrets
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABGg.desc=I can feel it. Yess. Yeeeess. We will gain more power nigh. Nigh! Yes. My precious. The voices gave me a hint, there is a dimension filled with unbelievable sources of magic energy. I must go there. I must! The crimson people know the secret. I will rip them aparrrt... They will tell me!%n%n§3NOTE: You might want to set up a spawner because you'll likely need to kill a lot of these guys for the book you need for the next task. Additionally, they're spawned by the Clerics, which DO NOT RESPAWN.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABGQ.desc=Fools. FOOLS I say! They know nothing! This book will guide me, yes. Yes it will, my precious. It will lead us to even more POWER!%n%nAvailable in your local bookstore, and also occasionally found on Crimson Knights and Crimson Clerics.%n%n[note]NOTE: If you plan on hunting Crimson Knights & Crimson Clerics, you might want to set up a spawner because you'll likely need to kill a lot of these guys to obtain this book.[/note]
 
 # Quest: Find the Key
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABGw.name=Find the Key
@@ -13596,6 +13588,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAxQ.desc=Heat vents are a passive way to
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB2Q.name=§a§lMaking a Better Sword
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB2Q.desc=Now it's time to make your first quality tinkers sword. First you have to make a blade, a type of guard, and tool rod cast forms. Melt some bronze in the smeltery and cast your tool parts. Tadaa... your first tinkers sword. There are 4 types of guard, changing them gets you a different sword type, see the tinker's book for details.
 
+# Quest: Time To Kill (Crimson Knight)
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABGg.name=Time To Kill (Crimson Knight)
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABGg.desc=I can feel it. Yess. Yeeeess. We will gain more power nigh. Nigh! Yes. My precious. The voices gave me a hint, there is a dimension filled with unbelievable sources of magic energy. I must go there. I must! The crimson people know the secret. I will rip them aparrrt... They will tell me!%n%n§3NOTE: The Knights are spawned by the Clerics, but the Clerics DO NOT RESPAWN after killed.
+
 # Quest: Magical Waystones
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABSg.name=Magical Waystones
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABSg.desc=This can be used to go back to a Celestial Gateway if you have a bound Celestial Pearl in your hotbar. It will use the leftmost one in your hotbar, so you can carry multiple to travel around with!
@@ -14086,7 +14082,7 @@ betterquesting.quest.PjAewUoJTnilPpIT-Ce0tA.desc=The Diamond barrel has 108 slot
 
 # Quest: Large Molecular Assembler
 betterquesting.quest.Q10xj-OrTE67wsWuTNCAAQ.name=§9§lLarge Molecular Assembler
-betterquesting.quest.Q10xj-OrTE67wsWuTNCAAQ.desc=The Large Molecular Assembler is exactly how it sounds; a very quick molecular assembler with a much bigger inventory for crafting patterns. %n%nThis can handle up to 1024 crafts per second at the maximum energy usage making it up to 100x faster than a molecular assembler. Check out the Wiki for specifics: [url]https://wiki.gtnewhorizons.com/wiki/Large_Molecular_Assembler[/url]%n%nThe LMA controller hooks up directly to your main network in order to function, and all recipes must be placed inside input buses attached to the machine in order to be recognized. Will not require an output bus.%n%n[note]Super Buses are highly recommended![/note]%n%n[warn]This machine can absolutely wall-share, but be careful about the placement of your input bus or all machines may not be used.[/warn]
+betterquesting.quest.Q10xj-OrTE67wsWuTNCAAQ.desc=The Large Molecular Assembler is exactly how it sounds; a very quick molecular assembler with a much bigger inventory for crafting patterns. %n%nThis can handle up to 1024 crafts per second at the maximum energy usage making it up to 100x faster than a molecular assembler. Check out the Wiki for specifics: [url]https://wiki.gtnewhorizons.com/wiki/Large_Molecular_Assembler[/url]%n%nThe LMA controller hooks up directly to your main network in order to function, and all recipes must be placed inside input buses attached to the machine in order to be recognized. Will not require an output bus.%n%n[note]High capacity Input Buses are highly recommended![/note]%n%n[warn]This machine can absolutely wall-share, but be careful about the placement of your input bus or all machines may not be used.[/warn]
 
 # Quest: Compact Storage
 betterquesting.quest.QNsm_wc0QO2g9C6_-vj2fA.name=§a§lCompact Storage
@@ -14126,7 +14122,7 @@ betterquesting.quest.a-g__0y_SGyed_E6IkIrsg.desc=Getting annoyed trying to reach
 
 # Quest: Powerfail Notifications
 betterquesting.quest.a59175-ZS16kxwUW_BCuEQ.name=§6§lPowerfail Notifications
-betterquesting.quest.a59175-ZS16kxwUW_BCuEQ.desc=Congratuations on your first EBF!%n%nThroughout your GTNH gameplay you will end up creating hundreds of multiblocks, and will very likely run into a multitude of power failures at some point. %n%nFortunately, we have a dedicated system for helping you stay informed of exactly when and where these power failures occur §3(though the 'why' portion is up to you to figure out!)§r.%n%nWhen a multiblock powerfails, you will receive a notification in §5chat§r, in addition to a visible icon on §5screen§r, and an icon visible on your §5map§r. %n%n§lYou can clear these notifications by§r:%n- Clicking into the multiblock that has powerfailed%n- Deleting the notification in JourneyMap%n- Typing §4/powerfails clear§r%n%nFor those playing §2multiplayer§r, anyone who is on your §2team§r will receive the §2same notifications§r. §2§nOne person§r clearing a notification should clear it for§2 §nall players§r.%n%n[note]This feature uses the same team system as wireless EU. Use </gt §4global_energy_join§r §1[User Joining] [User to Join]§r> to team up.[/note]%n%nAll of these features can be turned off in the gregtech config. If you want the on screen icon to disappear use §4§l/powerfails hide§r. For all in-game options use §4§l/powerfails help§r.
+betterquesting.quest.a59175-ZS16kxwUW_BCuEQ.desc=Congratuations on your first EBF!%n%nThroughout your GTNH gameplay you will end up creating hundreds of multiblocks, and will very likely run into a multitude of power failures at some point. %n%nFortunately, we have a dedicated system for helping you stay informed of exactly when and where these power failures occur §3(though the 'why' portion is up to you to figure out!)§r.%n%nWhen a multiblock powerfails, you will receive a notification in §5chat§r, in addition to a visible icon on §5screen§r, and an icon visible on your §5map§r. %n%n§lYou can clear these notifications by§r:%n- Clicking into the multiblock that has powerfailed%n- Deleting the notification in JourneyMap%n- Typing §4/powerfails clear§r%n%nFor those playing §2multiplayer§r, anyone who is on your §2team§r will receive the §2same notifications§r. §2§nOne person§r clearing a notification should clear it for§2 §nall players§r.%n%n[note]This feature uses the same team system as wireless EU. Use <§c/sp invite§r §1[Player Name]§r> to team up.[/note]%n%nAll of these features can be turned off in the gregtech config. If you want the on screen icon to disappear use §4§l/powerfails hide§r. For all in-game options use §4§l/powerfails help§r.
 
 # Quest: Absolute Purity
 betterquesting.quest.bNVzOxCORxuo_lhAh13r0A.name=§5§l§nAbsolute Purity
