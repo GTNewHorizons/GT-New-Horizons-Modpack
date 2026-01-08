@@ -47,7 +47,7 @@
     {
       "level": 4, "loot_pools": [{"type": "ORE", "each": true, "quantity": 8}, {"type": "WEAPONS", "each": true, "quantity": 3}], "loot": [
         {"data": {"name": "gregtech:gt.metaitem.01", "meta": 2347, "min": 3, "max": 5}, "weight": 9},
-        {"data": {"name": "etfuturum:ancient_debris", "meta": 11330, "min": 1, "max": 2}, "weight": 6},
+        {"data": {"name": "etfuturum:ancient_debris", "meta": 0, "min": 1, "max": 2}, "weight": 6},
         {"data": {"name": "gregtech:gt.metaitem.01", "meta": 11335, "min": 2, "max": 4}, "weight": 15},
         {"data": {"name": "gregtech:gt.metaitem.01", "meta": 11371, "min": 2, "max": 4}, "weight": 15},
         {"data": {"name": "gregtech:gt.metaitem.01", "meta": 11305, "min": 2, "max": 4}, "weight": 15},
