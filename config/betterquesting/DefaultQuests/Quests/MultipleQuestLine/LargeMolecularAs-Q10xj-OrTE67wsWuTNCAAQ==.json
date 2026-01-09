@@ -12,7 +12,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The Large Molecular Assembler is exactly how it sounds; a very quick molecular assembler with a much bigger inventory for crafting patterns. \n\nThis can handle up to 1024 crafts per second at the maximum energy usage making it up to 100x faster than a molecular assembler. Check out the Wiki for specifics: [url]https://wiki.gtnewhorizons.com/wiki/Large_Molecular_Assembler[/url]\n\nThe LMA controller hooks up directly to your main network in order to function, and all recipes must be placed inside input buses attached to the machine in order to be recognized. Will not require an output bus.\n\n[note]Super Buses are highly recommended![/note]\n\n[warn]This machine can absolutely wall-share, but be careful about the placement of your input bus or all machines may not be used.[/warn]",
+      "desc:8": "The Large Molecular Assembler is exactly how it sounds; a very quick molecular assembler with a much bigger inventory for crafting patterns. \n\nThis can handle up to 1024 crafts per second at the maximum energy usage making it up to 100x faster than a molecular assembler. Check out the Wiki for specifics: [url]https://wiki.gtnewhorizons.com/wiki/Large_Molecular_Assembler[/url]\n\nThe LMA controller hooks up directly to your main network in order to function, and all recipes must be placed inside input buses attached to the machine in order to be recognized. Will not require an output bus.\n\n[note]High capacity Input Buses are highly recommended![/note]\n\n[warn]This machine can absolutely wall-share, but be careful about the placement of your input bus or all machines may not be used.[/warn]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,

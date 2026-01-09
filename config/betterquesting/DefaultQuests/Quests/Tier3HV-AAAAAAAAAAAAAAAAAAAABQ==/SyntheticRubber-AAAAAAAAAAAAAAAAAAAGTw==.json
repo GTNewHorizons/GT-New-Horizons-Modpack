@@ -86,7 +86,7 @@
         "1:10": {
           "Count:3": 20,
           "Damage:2": 14,
-          "OreDict:8": "",
+          "OreDict:8": "cellMoltenWater",
           "id:8": "IC2:itemCellEmpty"
         }
       },

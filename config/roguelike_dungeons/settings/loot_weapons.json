@@ -173,7 +173,7 @@
 		{"data": {"name": "minecraft:diamond_sword", "meta": 0, "nbt" : "{ench:[0:{id:16s,lvl:5s}],display:{Name:\"Warrior's Warblade\"}}"}, "weight": 7},
 		{"data": {"name": "minecraft:diamond_sword", "meta": 0, "nbt" : "{ench:[0:{id:45s,lvl:3s},1:{id:21s,lvl:3s}],display:{Name:\"Gambler's Grave\"}}"}, "weight": 7},
 		{"data": {"name": "minecraft:diamond_sword", "meta": 0, "nbt" : "{ench:[0:{id:18s,lvl:6s},1:{id:46s,lvl:1s}],display:{Name:\"Pest Control Pestilence\"}}"}, "weight": 7},
-		{"data": {"name": "minecraft:diamond_sword", "meta": 0, "nbt" : "{ench:[0:{id:34s,lvl:3s},1:{id:20s,lvl:2s},2{id:16s,lvl:2s}],display:{Name:\"Fireman's Fury\"}}"}, "weight": 7},
+		{"data": {"name": "minecraft:diamond_sword", "meta": 0, "nbt" : "{ench:[0:{id:34s,lvl:3s},1:{id:20s,lvl:2s},2:{id:16s,lvl:2s}],display:{Name:\"Fireman's Fury\"}}"}, "weight": 7},
 	    {"data": {"name": "minecraft:diamond_sword", "meta": 0, "nbt" : "{ench:[0:{id:16s,lvl:7s},1:{id:20s,lvl:2s}],display:{Name:\"Excalibur\"}}"}, "weight":2}
       ]
     }

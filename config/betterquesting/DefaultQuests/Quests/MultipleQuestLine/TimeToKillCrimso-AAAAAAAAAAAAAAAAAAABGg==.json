@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "I can feel it. Yess. Yeeeess. We will gain more power nigh. Nigh! Yes. My precious. The voices gave me a hint, there is a dimension filled with unbelievable sources of magic energy. I must go there. I must! The crimson people know the secret. I will rip them aparrrt... They will tell me!\n\n§3NOTE: You might want to set up a spawner because you\u0027ll likely need to kill a lot of these guys for the book you need for the next task. Additionally, they\u0027re spawned by the Clerics, which DO NOT RESPAWN.",
+      "desc:8": "I can feel it. Yess. Yeeeess. We will gain more power nigh. Nigh! Yes. My precious. The voices gave me a hint, there is a dimension filled with unbelievable sources of magic energy. I must go there. I must! The crimson people know the secret. I will rip them aparrrt... They will tell me!\n\n§3NOTE: The Knights are spawned by the Clerics, but the Clerics DO NOT RESPAWN after killed.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -17,18 +17,18 @@
         "id:8": "Thaumcraft:ItemHelmetCultistRobe"
       },
       "isGlobal:1": 0,
-      "isMain:1": 1,
+      "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Secrets",
+      "name:8": "Time To Kill (Crimson Knight)",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
-      "repeatTime:3": -1,
+      "repeatTime:3": 432000,
       "repeat_relative:1": 1,
       "simultaneous:1": 0,
       "snd_complete:8": "random.levelup",
       "snd_update:8": "random.levelup",
-      "taskLogic:8": "OR",
+      "taskLogic:8": "AND",
       "visibility:8": "NORMAL"
     }
   },
@@ -42,9 +42,9 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 10,
+          "Damage:2": 2,
           "OreDict:8": "",
-          "id:8": "enhancedlootbags:lootbag"
+          "id:8": "betterquesting:extra_life"
         }
       }
     },
@@ -79,7 +79,7 @@
       "damageType:8": "",
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "required:3": 4,
+      "required:3": 10,
       "subtypes:1": 1,
       "target:8": "Thaumcraft.CultistKnight",
       "targetNBT:10": {},
