@@ -18,7 +18,7 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "dreamcraft:item.HeavyDutyPlateTier5"
+        "id:8": "dreamcraft:HeavyDutyPlateTier5"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
@@ -45,13 +45,13 @@
           "Count:3": 8,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.HeavyDutyPlateTier4"
+          "id:8": "dreamcraft:HeavyDutyPlateTier4"
         },
         "1:10": {
           "Count:3": 16,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.QuantinumCompressedPlate"
+          "id:8": "dreamcraft:QuantinumCompressedPlate"
         },
         "2:10": {
           "Count:3": 256,
@@ -87,13 +87,13 @@
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinSpaceIII"
+          "id:8": "dreamcraft:CoinSpaceIII"
         },
         "1:10": {
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianIII"
+          "id:8": "dreamcraft:CoinTechnicianIII"
         }
       }
     }
@@ -111,13 +111,13 @@
           "Count:3": 61,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.HeavyDutyPlateTier4"
+          "id:8": "dreamcraft:HeavyDutyPlateTier4"
         },
         "1:10": {
           "Count:3": 488,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.QuantinumCompressedPlate"
+          "id:8": "dreamcraft:QuantinumCompressedPlate"
         },
         "2:10": {
           "Count:3": 488,
@@ -140,7 +140,7 @@
           "Count:3": 61,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.HeavyDutyAlloyIngotT5"
+          "id:8": "dreamcraft:HeavyDutyAlloyIngotT5"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -157,7 +157,7 @@
           "Count:3": 61,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.HeavyDutyPlateTier5"
+          "id:8": "dreamcraft:HeavyDutyPlateTier5"
         }
       },
       "taskID:8": "bq_standard:retrieval"

@@ -18,7 +18,7 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "dreamcraft:item.QuantumCrystal"
+        "id:8": "dreamcraft:QuantumCrystal"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -51,7 +51,7 @@
           "Count:3": 60,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.LapotronDust"
+          "id:8": "dreamcraft:LapotronDust"
         },
         "2:10": {
           "Count:3": 4,
@@ -73,7 +73,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianII"
+          "id:8": "dreamcraft:CoinTechnicianII"
         }
       }
     }
@@ -108,7 +108,7 @@
           "Count:3": 4,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.QuantumCrystal"
+          "id:8": "dreamcraft:QuantumCrystal"
         }
       },
       "taskID:8": "bq_standard:retrieval"

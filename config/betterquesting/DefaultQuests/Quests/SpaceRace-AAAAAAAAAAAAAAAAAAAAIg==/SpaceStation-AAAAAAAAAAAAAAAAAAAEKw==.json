@@ -69,7 +69,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianII"
+          "id:8": "dreamcraft:CoinTechnicianII"
         }
       }
     }
@@ -169,7 +169,7 @@
           "Count:3": 4,
           "Damage:2": 0,
           "OreDict:8": "circuitData",
-          "id:8": "dreamcraft:item.CircuitEV"
+          "id:8": "dreamcraft:CircuitEV"
         },
         "3:10": {
           "Count:3": 1,
@@ -204,7 +204,7 @@
           "Count:3": 4,
           "Damage:2": 0,
           "OreDict:8": "circuitElite",
-          "id:8": "dreamcraft:item.CircuitIV"
+          "id:8": "dreamcraft:CircuitIV"
         },
         "3:10": {
           "Count:3": 1,
@@ -239,7 +239,7 @@
           "Count:3": 4,
           "Damage:2": 0,
           "OreDict:8": "circuitMaster",
-          "id:8": "dreamcraft:item.CircuitLuV"
+          "id:8": "dreamcraft:CircuitLuV"
         },
         "3:10": {
           "Count:3": 1,
@@ -274,7 +274,7 @@
           "Count:3": 4,
           "Damage:2": 0,
           "OreDict:8": "circuitMaster",
-          "id:8": "dreamcraft:item.CircuitLuV"
+          "id:8": "dreamcraft:CircuitLuV"
         },
         "3:10": {
           "Count:3": 1,
@@ -309,7 +309,7 @@
           "Count:3": 4,
           "Damage:2": 0,
           "OreDict:8": "circuitUltimate",
-          "id:8": "dreamcraft:item.CircuitZPM"
+          "id:8": "dreamcraft:CircuitZPM"
         },
         "3:10": {
           "Count:3": 1,

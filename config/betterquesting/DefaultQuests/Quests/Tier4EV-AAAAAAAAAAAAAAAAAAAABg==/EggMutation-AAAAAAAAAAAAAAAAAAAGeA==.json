@@ -14,7 +14,7 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "dreamcraft:item.MutatedEgg"
+        "id:8": "dreamcraft:MutatedEgg"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -69,13 +69,13 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianII"
+          "id:8": "dreamcraft:CoinTechnicianII"
         },
         "1:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinChemistII"
+          "id:8": "dreamcraft:CoinChemistII"
         }
       }
     }
@@ -93,7 +93,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.TheBigEgg"
+          "id:8": "dreamcraft:TheBigEgg"
         },
         "1:10": {
           "Count:3": 64,
@@ -122,7 +122,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.MutatedEgg"
+          "id:8": "dreamcraft:MutatedEgg"
         }
       },
       "taskID:8": "bq_standard:retrieval"

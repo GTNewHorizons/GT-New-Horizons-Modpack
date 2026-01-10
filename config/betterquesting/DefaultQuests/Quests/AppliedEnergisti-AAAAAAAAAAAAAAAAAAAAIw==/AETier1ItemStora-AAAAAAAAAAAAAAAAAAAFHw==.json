@@ -14,7 +14,7 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "dreamcraft:item.LogicProcessorItemGoldCore"
+        "id:8": "dreamcraft:LogicProcessorItemGoldCore"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
@@ -47,13 +47,13 @@
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.GoldCoreChip"
+          "id:8": "dreamcraft:GoldCoreChip"
         },
         "2:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.LogicProcessorItemGoldCore"
+          "id:8": "dreamcraft:LogicProcessorItemGoldCore"
         }
       },
       "ignoreDisabled:1": 0,
@@ -69,7 +69,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianII"
+          "id:8": "dreamcraft:CoinTechnicianII"
         }
       }
     }
@@ -87,7 +87,7 @@
           "Count:3": 4,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.LogicProcessorItemGoldCore"
+          "id:8": "dreamcraft:LogicProcessorItemGoldCore"
         }
       },
       "taskID:8": "bq_standard:retrieval"

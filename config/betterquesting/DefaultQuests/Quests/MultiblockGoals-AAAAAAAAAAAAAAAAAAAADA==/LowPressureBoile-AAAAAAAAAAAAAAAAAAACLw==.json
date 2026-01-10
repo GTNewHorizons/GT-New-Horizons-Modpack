@@ -45,7 +45,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.SteelBars"
+          "id:8": "dreamcraft:SteelBars"
         },
         "1:10": {
           "Count:3": 4,
@@ -79,7 +79,7 @@
           "Count:3": 10,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnician"
+          "id:8": "dreamcraft:CoinTechnician"
         }
       }
     }

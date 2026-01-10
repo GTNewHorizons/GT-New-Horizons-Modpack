@@ -14,7 +14,7 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "dreamcraft:item.Marshmallow"
+        "id:8": "dreamcraft:Marshmallow"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -63,7 +63,7 @@
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianII"
+          "id:8": "dreamcraft:CoinTechnicianII"
         }
       }
     }
@@ -81,7 +81,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.GlowingMarshmallow"
+          "id:8": "dreamcraft:GlowingMarshmallow"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -98,7 +98,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.Marshmallow"
+          "id:8": "dreamcraft:Marshmallow"
         }
       },
       "taskID:8": "bq_standard:retrieval"

@@ -57,7 +57,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinBloodII"
+          "id:8": "dreamcraft:CoinBloodII"
         }
       }
     }
@@ -75,7 +75,7 @@
           "Count:3": 9,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.ArcaneSlate"
+          "id:8": "dreamcraft:ArcaneSlate"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

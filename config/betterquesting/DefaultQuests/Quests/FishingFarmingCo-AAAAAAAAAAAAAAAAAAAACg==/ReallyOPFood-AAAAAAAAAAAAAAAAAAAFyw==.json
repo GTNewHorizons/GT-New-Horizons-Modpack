@@ -18,7 +18,7 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "dreamcraft:item.MalformedSlush"
+        "id:8": "dreamcraft:MalformedSlush"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -67,19 +67,19 @@
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianII"
+          "id:8": "dreamcraft:CoinTechnicianII"
         },
         "1:10": {
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinCookII"
+          "id:8": "dreamcraft:CoinCookII"
         },
         "2:10": {
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinChemistII"
+          "id:8": "dreamcraft:CoinChemistII"
         }
       }
     }
@@ -138,7 +138,7 @@
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.MalformedSlush"
+          "id:8": "dreamcraft:MalformedSlush"
         }
       },
       "taskID:8": "bq_standard:retrieval"

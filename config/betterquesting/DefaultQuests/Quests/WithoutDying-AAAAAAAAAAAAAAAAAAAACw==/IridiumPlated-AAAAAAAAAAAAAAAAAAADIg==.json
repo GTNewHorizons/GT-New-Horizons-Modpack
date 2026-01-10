@@ -26,7 +26,7 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "dreamcraft:item.QuantumPartHelmet"
+        "id:8": "dreamcraft:QuantumPartHelmet"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -81,13 +81,13 @@
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinSmithII"
+          "id:8": "dreamcraft:CoinSmithII"
         },
         "1:10": {
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianII"
+          "id:8": "dreamcraft:CoinTechnicianII"
         }
       }
     }
@@ -105,7 +105,7 @@
           "Count:3": 16,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.IridiumAlloyItemCasing"
+          "id:8": "dreamcraft:IridiumAlloyItemCasing"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -122,19 +122,19 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.NanoScubaHelmet"
+          "id:8": "dreamcraft:NanoScubaHelmet"
         },
         "1:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.NanoPlatedLeggings"
+          "id:8": "dreamcraft:NanoPlatedLeggings"
         },
         "2:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.NanoRubberBoots"
+          "id:8": "dreamcraft:NanoRubberBoots"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -151,13 +151,13 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.QuantumPartHelmetEmpty"
+          "id:8": "dreamcraft:QuantumPartHelmetEmpty"
         },
         "1:10": {
           "Count:3": 8,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.ReinforcedGlassLense"
+          "id:8": "dreamcraft:ReinforcedGlassLense"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -174,19 +174,19 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.QuantumPartHelmet"
+          "id:8": "dreamcraft:QuantumPartHelmet"
         },
         "1:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.QuantumPartLeggings"
+          "id:8": "dreamcraft:QuantumPartLeggings"
         },
         "2:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.QuantumPartBoots"
+          "id:8": "dreamcraft:QuantumPartBoots"
         }
       },
       "taskID:8": "bq_standard:retrieval"
