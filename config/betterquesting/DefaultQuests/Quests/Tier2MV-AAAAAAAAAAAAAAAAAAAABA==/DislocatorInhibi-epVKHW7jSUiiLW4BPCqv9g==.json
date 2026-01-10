@@ -2,24 +2,24 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 185
+      "questIDLow:4": 138
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The ME Fluid Terminal allows you to directly input and output fluids from the network using buckets, cells, and other fluid-containing items. Put a filled cell (or other item) in the bottom left to have the contents deposited into the network, and the cell moved to the output slot. For the reverse, select a fluid and insert an empty cell, and it\u0027ll fill it.",
+      "desc:8": "Tired of your magnet picking up everything? Fortunately, with the advent of Dark Steel this no longer needs to be an issue.\n\nThe Dislocator Inhibitor will restrict the function of the Draconic Evolution Item Dislocator within a customizable range of up to 16 blocks. You can stop it from picking up items entirely, or configure a whitelist or blacklist of your choosing. Additionally, you can choose whether it is always active or only enabled by a redstone signal.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "ae2fc:part_fluid_terminal"
+        "id:8": "DraconicEvolution:dislocatorInhibitor"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "The Fluid Terminal",
+      "name:8": "§6§lDislocator Inhibitor",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -30,21 +30,27 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 2518,
+  "questIDHigh:4": 8833047734431992136,
+  "questIDLow:4": -6760626514029793290,
   "rewards:9": {
     "0:10": {
-      "ignoreDisabled:1": 0,
-      "index:3": 0,
-      "rewardID:8": "bq_standard:item",
-      "rewards:9": {
+      "choices:9": {
         "0:10": {
+          "Count:3": 2,
+          "Damage:2": 11364,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "1:10": {
           "Count:3": 1,
-          "Damage:2": 37,
+          "Damage:2": 5,
           "OreDict:8": "",
           "id:8": "enhancedlootbags:lootbag"
         }
-      }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
     },
     "1:10": {
       "ignoreDisabled:1": 0,
@@ -52,10 +58,10 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 1,
+          "Count:3": 25,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianII"
+          "id:8": "dreamcraft:item.CoinTechnician"
         }
       }
     }
@@ -73,7 +79,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "ae2fc:part_fluid_terminal"
+          "id:8": "DraconicEvolution:dislocatorInhibitor"
         }
       },
       "taskID:8": "bq_standard:retrieval"

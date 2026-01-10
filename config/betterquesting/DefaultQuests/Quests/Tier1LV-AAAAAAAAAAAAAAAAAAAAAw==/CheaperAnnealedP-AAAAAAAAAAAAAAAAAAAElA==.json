@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "It\u0027s even faster and cheaper to make annealed copper in the arc furnace than in the electric blast furnace. Annealed copper is a very good material for cables in MV. It only loses 1 EU per block.",
+      "desc:8": "It\u0027s both cheaper and faster to make Annealed Copper in the Arc Furnace as opposed to the Electric Blast Furnace. \n\nYou may find this to be quite useful as an MV cable material since it only loses 1 EU per block.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -82,23 +82,6 @@
   },
   "tasks:9": {
     "0:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
-      "index:3": 0,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 64,
-          "Damage:2": 11035,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "1:10": {
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
