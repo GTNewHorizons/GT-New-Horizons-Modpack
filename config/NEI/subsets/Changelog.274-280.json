@@ -3734,11 +3734,11 @@
 {"Damage":"6S","strId":"ggfab:gt.ggfab.d1"}
 {"Damage":"7S","strId":"ggfab:gt.ggfab.d1"}
 ; gt.recipe.arcfurnace
-{"Damage":"0S","strId":"dreamcraft:item.HeavyDutyAlloyIngotT4"}
-{"Damage":"0S","strId":"dreamcraft:item.HeavyDutyAlloyIngotT5"}
-{"Damage":"0S","strId":"dreamcraft:item.HeavyDutyAlloyIngotT6"}
-{"Damage":"0S","strId":"dreamcraft:item.HeavyDutyAlloyIngotT7"}
-{"Damage":"0S","strId":"dreamcraft:item.HeavyDutyAlloyIngotT8"}
+{"Damage":"0S","strId":"dreamcraft:HeavyDutyAlloyIngotT4"}
+{"Damage":"0S","strId":"dreamcraft:HeavyDutyAlloyIngotT5"}
+{"Damage":"0S","strId":"dreamcraft:HeavyDutyAlloyIngotT6"}
+{"Damage":"0S","strId":"dreamcraft:HeavyDutyAlloyIngotT7"}
+{"Damage":"0S","strId":"dreamcraft:HeavyDutyAlloyIngotT8"}
 {"Damage":"32462S","strId":"gregtech:gt.metaitem.01"}
 {"Damage":"32463S","strId":"gregtech:gt.metaitem.01"}
 {"Damage":"32464S","strId":"gregtech:gt.metaitem.01"}
@@ -3774,14 +3774,14 @@
 {"Damage":"0S","strId":"bartworks:gt.Double_Tiberiumcell"}
 {"Damage":"0S","strId":"bartworks:gt.Quad_Tiberiumcell"}
 {"Damage":"0S","strId":"dreamcraft:gt.blockcasingsNH"}
-{"Damage":"0S","strId":"dreamcraft:item.IrradiantReinforcedAluminiumPlate"}
-{"Damage":"0S","strId":"dreamcraft:item.IrradiantReinforcedBedrockiumPlate"}
-{"Damage":"0S","strId":"dreamcraft:item.IrradiantReinforcedChromePlate"}
-{"Damage":"0S","strId":"dreamcraft:item.IrradiantReinforcedNaquadriaPlate"}
-{"Damage":"0S","strId":"dreamcraft:item.IrradiantReinforcedNeutroniumPlate"}
-{"Damage":"0S","strId":"dreamcraft:item.IrradiantReinforcedTitaniumPlate"}
-{"Damage":"0S","strId":"dreamcraft:item.IrradiantReinforcedTungstenPlate"}
-{"Damage":"0S","strId":"dreamcraft:item.IrradiantReinforcedTungstenSteelPlate"}
+{"Damage":"0S","strId":"dreamcraft:IrradiantReinforcedAluminiumPlate"}
+{"Damage":"0S","strId":"dreamcraft:IrradiantReinforcedBedrockiumPlate"}
+{"Damage":"0S","strId":"dreamcraft:IrradiantReinforcedChromePlate"}
+{"Damage":"0S","strId":"dreamcraft:IrradiantReinforcedNaquadriaPlate"}
+{"Damage":"0S","strId":"dreamcraft:IrradiantReinforcedNeutroniumPlate"}
+{"Damage":"0S","strId":"dreamcraft:IrradiantReinforcedTitaniumPlate"}
+{"Damage":"0S","strId":"dreamcraft:IrradiantReinforcedTungstenPlate"}
+{"Damage":"0S","strId":"dreamcraft:IrradiantReinforcedTungstenSteelPlate"}
 {"Damage":"0S","strId":"gregtech:gt.Double_MNqCell"}
 {"Damage":"0S","strId":"gregtech:gt.Double_Naquadahcell"}
 {"Damage":"0S","strId":"gregtech:gt.Double_Thoriumcell"}
@@ -8778,7 +8778,7 @@
 {"Damage":"96S","strId":"bartworks:gt.bwMetaGeneratedplateTriple"}
 ; gt.recipe.mixer
 {"Damage":"0S","strId":"Forestry:soil"}
-{"Damage":"0S","strId":"dreamcraft:item.LapotronDust"}
+{"Damage":"0S","strId":"dreamcraft:LapotronDust"}
 {"Damage":"0S","strId":"gregtech:gt.glowstoneCell"}
 {"Damage":"0S","strId":"miscutils:itemCellHydrogenChlorideMix"}
 {"Damage":"0S","strId":"miscutils:itemCellSolarSaltCold"}
@@ -9074,7 +9074,7 @@
 {"gtFluidName":"oxygen"}
 ; gtpp.recipe.multimixer
 {"Damage":"0S","strId":"Forestry:soil"}
-{"Damage":"0S","strId":"dreamcraft:item.LapotronDust"}
+{"Damage":"0S","strId":"dreamcraft:LapotronDust"}
 {"Damage":"0S","strId":"gregtech:gt.glowstoneCell"}
 {"Damage":"0S","strId":"miscutils:itemDustGrisium"}
 {"Damage":"0S","strId":"miscutils:itemDustMaragingSteel250"}
@@ -9210,7 +9210,7 @@
 {"Damage":"0S","strId":"ThaumicTinkerer:repairer"}
 {"Damage":"0S","strId":"WarpTheory:item.warptheory.cleanserminor"}
 {"Damage":"0S","strId":"WitchingGadgets:item.WG_Baubles"}
-{"Damage":"0S","strId":"dreamcraft:item.WitherProtectionRing"}
+{"Damage":"0S","strId":"dreamcraft:WitherProtectionRing"}
 {"Damage":"0S","strId":"gadomancy:ItemAuraCore"}
 {"Damage":"0S","strId":"gadomancy:ItemEtherealFamiliar","tag":{"aspect":"ignis","augments":{"fire":3}}}
 {"Damage":"0S","strId":"gadomancy:ItemEtherealFamiliar","tag":{"aspect":"telum","augments":{"weakness":3}}}
@@ -9325,7 +9325,7 @@
 {"Damage":"0S","strId":"Thaumcraft:FocusTrade"}
 {"Damage":"0S","strId":"Thaumcraft:blockStoneDevice"}
 {"Damage":"0S","strId":"WitchingGadgets:item.WG_Kama"}
-{"Damage":"0S","strId":"dreamcraft:item.WeakOrb"}
+{"Damage":"0S","strId":"dreamcraft:WeakOrb"}
 {"Damage":"0S","strId":"witchery:distilleryidle"}
 {"Damage":"0S","strId":"witchery:witchesovenidle"}
 {"Damage":"10S","strId":"witchery:ingredient"}

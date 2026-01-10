@@ -77,7 +77,7 @@
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianII"
+          "id:8": "dreamcraft:CoinTechnicianII"
         }
       }
     }
@@ -160,7 +160,7 @@
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.IrradiantReinforcedTungstenSteelPlate"
+          "id:8": "dreamcraft:IrradiantReinforcedTungstenSteelPlate"
         },
         "7:10": {
           "Count:3": 6,

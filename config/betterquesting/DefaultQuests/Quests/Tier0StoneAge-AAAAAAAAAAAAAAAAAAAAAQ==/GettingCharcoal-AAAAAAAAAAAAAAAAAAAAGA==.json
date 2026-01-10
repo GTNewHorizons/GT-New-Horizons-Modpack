@@ -61,7 +61,7 @@
           "Count:3": 10,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnician"
+          "id:8": "dreamcraft:CoinTechnician"
         }
       }
     }
@@ -79,7 +79,7 @@
           "Count:3": 108,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.UnfiredCokeOvenBrick"
+          "id:8": "dreamcraft:UnfiredCokeOvenBrick"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -96,7 +96,7 @@
           "Count:3": 108,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CokeOvenBrick"
+          "id:8": "dreamcraft:CokeOvenBrick"
         },
         "1:10": {
           "Count:3": 1,

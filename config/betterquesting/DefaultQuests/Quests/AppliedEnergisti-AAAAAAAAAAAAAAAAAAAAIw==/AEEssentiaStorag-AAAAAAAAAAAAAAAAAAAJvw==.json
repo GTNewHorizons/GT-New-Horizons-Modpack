@@ -14,7 +14,7 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "dreamcraft:item.EngineeringProcessorEssentiaPulsatingCore"
+        "id:8": "dreamcraft:EngineeringProcessorEssentiaPulsatingCore"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
@@ -42,7 +42,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.EssentiaCircuit"
+          "id:8": "dreamcraft:EssentiaCircuit"
         }
       }
     },
@@ -55,13 +55,13 @@
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianII"
+          "id:8": "dreamcraft:CoinTechnicianII"
         },
         "1:10": {
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinDarkWizardII"
+          "id:8": "dreamcraft:CoinDarkWizardII"
         }
       }
     }
@@ -79,7 +79,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.EngineeringProcessorEssentiaPulsatingCore"
+          "id:8": "dreamcraft:EngineeringProcessorEssentiaPulsatingCore"
         }
       },
       "taskID:8": "bq_standard:retrieval"
