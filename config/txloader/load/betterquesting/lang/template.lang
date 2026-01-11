@@ -63,7 +63,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAB1g.desc=Hmmm... what can you do with al
 
 # Quest: Food Variants
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB1w.name=§9§lFood Variants
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAB1w.desc=Maybe you noticed already that eating the same food too often is very boring and not healthy anymore. Some food like tea leaf can be taken to the furnace and processed further. So take a break and drink a cup of tea. Maybe munch some tasty raisins as they are very nice.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAB1w.desc=Maybe you noticed already that eating the same food too often is very boring and not as healthy. Some food like Grapes can be cooked into other unique foods. You can also smelt Fresh Water into Boiling Water and combine that with a Tea Leaf for a delicious cup of tea.
 
 # Quest: Can You Hear the Carrots Grow?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB5A.name=§9§lCan You Hear the Carrots Grow?
@@ -470,7 +470,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAEA.desc=Storing more than 16 buckets of
 
 # Quest: Welcome to Tier 0.5, Steam!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAALA.name=§c§lWelcome to Tier 0.5, Steam!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAALA.desc=Welcome, and well done so far! This tier is all about your first machines, getting more stuff from your ores and making bronze ingots in a more efficient manner.%n%nFor water, check out the Water Tank multiblock in the §9"Water Dilemma"§r quest. (Multiblock Goals tab)%n%nTo connect up your boilers, be sure to provide water from the bottom, they'll accept only water from this side, so no risk of melting your pipe. Wooden pipes are fine for this. Make sure you never run out of water - [warn]adding water to a dry hot boiler will cause it to explode![/warn]%n%nSteam will come out from the sides. Remember, steam is hot! It will destroy wooden pipes. And it can burn you if you walk on bronze pipes full of steam. Cover them with wooden planks or paper. Or just don't walk on/next to them.%n%nAnd no, you can't automate it. Make an electric one if you want to do that.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAALA.desc=Welcome, and well done so far! This tier is all about your first machines, getting more stuff from your ores and making bronze ingots in a more efficient manner.%n%nFor water, check out the Water Tank multiblock in the §9"Water Dilemma"§r quest. (Multiblock Goals tab)%n%nTo connect up your boilers, be sure to provide water from the bottom, they'll accept only water from this side, so no risk of melting your pipe. Wooden pipes are fine for this. Make sure you never run out of water - [warn]adding water to a dry hot boiler will cause it to explode![/warn]%n%nSteam will come out from the sides. Remember, steam is hot! It will destroy wooden pipes. And it can burn you if you walk on bronze pipes full of steam. Cover them with wooden planks or paper. Or just don't walk on/next to them.%n%nAnd no, you can't automate it. Make an electric one if you want to do that.%n%n[note]Tip: Water is consumed at a rate of 1L of water per 160L of steam for all boilers unless otherwise noted.[/note]
 
 # Quest: More Advanced Alloys
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAALg.name=§c§lMore Advanced Alloys
@@ -872,6 +872,10 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAAAw.desc=The first "voltage" tier of
 # Quest: Handle Resources Like a Bo$$ #1
 betterquesting.quest.53iZp0DzRzidBo4-kUsWGg.name=§2§lHandle Resources Like a Bo$$ #1
 betterquesting.quest.53iZp0DzRzidBo4-kUsWGg.desc=A feat of human engineering at your disposal!%n%nThis machine allows you to filter by machine recipe type and allows you to effortlessly set up automations. To use it simply put a machine of any type into the GUI to create a filter, e.g. a Macerator will allow the machine to only accept items that can be macerated. The same machine can be used to create an inverse filter (a button in the GUI) that will allow you to exclude all items that can be processed by that machine.
+
+# Quest: Certus Quartz Tank
+betterquesting.quest.7S9hEFF5TsW3ud7wK8_wVQ.name=§2§lCertus Quartz Tank
+betterquesting.quest.7S9hEFF5TsW3ud7wK8_wVQ.desc=Finally, a cool looking tank! It can store up to §932,000 L§r, just like the Ultra Low Voltage Fluid Tank or Large Aluminium Fluid Cell, and comes with some nice QoL features:%n%n- They stack up to 64 items per slot, making it possible to store §92,048,000 L§r in a single slot!%n%n- Tanks can be placed on top of each other to form a connected tower. When filling higher tanks, the fluid will automatically flow down. You can also drain fluid from higher tanks even if the fluid is only stored in tanks below.%n%n- You can use an §lEmpty Cell§r, a §lLarge Fluid Cell§r or any other §lfluid container§r to fill or drain a tank on right click. If the fluid container in your hand is not empty, right-click will always try to fill the tank from it.%n%n[warn]§lNote: The tank keeps its contents only when right-clicked with a wrench. Breaking it with a pickaxe will void the stored fluid.§r[/warn]
 
 # Quest: Welcome to Tier 1, LV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAWA.name=§2§lWelcome to Tier 1, LV
@@ -1283,7 +1287,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEkA.desc=Sodium can be washed out of Gla
 
 # Quest: Cheaper Annealed Production
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAElA.name=§2§lCheaper Annealed Production
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAElA.desc=It's even faster and cheaper to make annealed copper in the arc furnace than in the electric blast furnace. Annealed copper is a very good material for cables in MV. It only loses 1 EU per block.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAElA.desc=It's both cheaper and faster to make Annealed Copper in the Arc Furnace as opposed to the Electric Blast Furnace. %n%nYou may find this to be quite useful as an MV cable material since it only loses 1 EU per block.
 
 # Quest: Personal Chunkloading
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF-A.name=§2§lPersonal Chunkloading
@@ -1423,7 +1427,7 @@ betterquesting.quest.b47jlBoHTFGGB3j7nq60Zw.desc=Are you tired of storing Shapes
 
 # Quest: Refined Firestone
 betterquesting.quest.njE33db1TxaiJhEBA16E4A.name=§2§lRefined Firestone
-betterquesting.quest.njE33db1TxaiJhEBA16E4A.desc=Cut Firestone is the basic shape for producing Refined Firestone.%nUse a Diamond Lens or Flint Lens for cutting.%nIt is then fired with lava in the EBF.%n%nLastly it is thrown into lava and charged by absorbing lava blocks around it.%nIt needs 5000 lava blocks to be fully charged, so a large lava lake is required, preferably in the Nether.%n%nThis is most often used to heat up Steam Boilers very quickly or as a fuel. Additionally, it can function as a Flint and Steel.%n%n[note]If the firestone breaks, it can be repaired with lava in the EBF and recharged.[/note]
+betterquesting.quest.njE33db1TxaiJhEBA16E4A.desc=Cut Firestone is the basic shape for producing Refined Firestone.%nUse a Diamond or Firestone Lens for cutting.%nIt is then fired with lava in the EBF.%n%nLastly it is thrown into lava and charged by absorbing lava blocks around it.%nIt needs 5000 lava blocks to be fully charged, so a large lava lake is required, preferably in the Nether.%n%nThis is most often used to heat up Steam Boilers very quickly or as a fuel. Additionally, it can function as a Flint and Steel.%n%n[note]If the firestone breaks, it can be repaired with lava in the EBF and recharged.[/note]
 
 # Quest: Precision Laser Engraver
 betterquesting.quest.vV8Pw_lTTSiMmWOLqkyIWg.name=§2§lPrecision Laser Engraver
@@ -1541,10 +1545,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAC3A.desc=Macerate the Plantballs down to
 # Quest: Bio Chaff
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC3Q.name=§6§lBio Chaff
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC3Q.desc=Plant Mass needs to be centrifuged into Bio Chaff, the base material to make biomass.
-
-# Quest: Way One: IC2 Fluid Canner
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC3g.name=§6§lWay One: IC2 Fluid Canner
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC3g.desc=The first way you get biomass out of bio chaff is to use the IC2 Fluid Canner. One bucket of water and one bio chaff gives one bucket of biomass.%n%n[warn]This option is not really recommended. You should focus on GT machines, not IC2. It also has some buggy interaction with normal cells, you might need to use universal cells.[/warn]
 
 # Quest: Way Two: Brewery
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC3w.name=§6§lWay Two: Brewery
@@ -2458,7 +2458,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAyA.desc=Like the chandelier, the magnum
 
 # Quest: Graphene
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABig.name=§8§lGraphene
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABig.desc=Graphene is a material that is just one atom layer thick. It has very favorable electric properties. To create though you will have to make some Graphene you can use a powerful adhesive to pull a single layer of material away from Graphite.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABig.desc=Graphene is a material that is only one atom thick and has favorable electrical properties. To produce it, a strong adhesive can be used to peel single atomic layers from graphite. The stronger the glue used, the more efficient the production becomes.
 
 # Quest: Advanced Glue
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAByw.name=§8§lAdvanced Glue
@@ -6405,7 +6405,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADDQ.desc=This oven is the best way to ge
 
 # Quest: It's Time to Get More Steam
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADEA.name=§6§lIt's Time to Get More Steam
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADEA.desc=As soon as you have the ability to store energy in large quantities, it would be necessary to have a way to generate energy in large quantities. You need a large bronze boiler. But in order to make this boiler, you will need a mountain of bronze. This boiler produces 800L of steam per tick. This is enough to run 10 basic steam turbines.%n%nThe large boiler can use either water or distilled water. Water is consumed at a rate of 1L of water per 150L of steam.%n%nTo make a large boiler you must make a 3x3x5 structure with Bronze Pipe Casings in the center of the middle 3 levels. The lowest level must contain at least 1 or 2 input hatches, 1 or 2 input buses, 3 or 4 fireboxes, 1 muffler, and one maintenance hatch. The lowest level can not contain any plated bricks. All hatches, buses, and mufflers must have their back side touching a firebox. The output hatch can be placed on any of the upper 4 levels.%n%n§cWarning: Different from other boilers, Large Boilers must contain water at all times while active. If at any point the Boiler runs out of water while it is active, it will explode.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADEA.desc=As soon as you have the ability to store energy in large quantities, it would be necessary to have a way to generate energy in large quantities. You need a large bronze boiler. But in order to make this boiler, you will need a mountain of bronze. This boiler produces 800L of steam per tick. This is enough to run 10 basic steam turbines.%n%nThe large boiler can use either water or distilled water. Water is consumed at a rate of 1L of water per 160L of steam.%n%nTo make a large boiler you must make a 3x3x5 structure with Bronze Pipe Casings in the center of the middle 3 levels. The lowest level must contain at least 1 or 2 input hatches, 1 or 2 input buses, 3 or 4 fireboxes, 1 muffler, and one maintenance hatch. The lowest level can not contain any plated bricks. All hatches, buses, and mufflers must have their back side touching a firebox. The output hatch can be placed on any of the upper 4 levels.%n%n§cWarning: Different from other boilers, Large Boilers must contain water at all times while active. If at any point the Boiler runs out of water while it is active, it will explode.
 
 # Quest: Steam is Never Enough
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADEg.name=§6§lSteam is Never Enough
@@ -6786,7 +6786,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7w.desc=I never wanna grow up, I wanna 
 
 # Quest: Best Thing Since Sliced Bread
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH8A.name=§9§lBest Thing Since Sliced Bread
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH8A.desc=When all you have is a machine full of knives, everything starts looking like bread. You can switch between Cutting Machine and Slicing Machine modes with a screwdriver.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH8A.desc=When all you have is a machine full of knives, everything starts looking like bread.
 
 # Quest: ZzzZZZzzzZtt
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH8g.name=§9§lZzzZZZzzzZtt
@@ -9134,7 +9134,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAG1w.desc=See the digital world.%n%nYour 
 
 # Quest: Control Units
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAG2A.name=Control Units
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAG2A.desc=So controlling! Strangely enough, this part takes an HV circuit to craft; so here's some to make your first computer parts in exchange for MV circuits in their place. Don't spend them all in one place!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAG2A.desc=Control Units are used for a variety of crafts, but most namely CPUs and GPUs. You will be needing quite a few of these, let's just make 16 for now.
 
 # Quest: What Did the Data Say to the CPU?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAG2Q.name=What Did the Data Say to the CPU?
