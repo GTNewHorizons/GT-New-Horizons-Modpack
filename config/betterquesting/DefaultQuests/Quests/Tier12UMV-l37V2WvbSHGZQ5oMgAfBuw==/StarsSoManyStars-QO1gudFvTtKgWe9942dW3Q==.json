@@ -18,7 +18,7 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "dreamcraft:item.MedalWarp"
+        "id:8": "dreamcraft:MedalWarp"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
@@ -69,31 +69,31 @@
           "Count:3": 625,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.DimensionalGatePlate"
+          "id:8": "dreamcraft:DimensionalGatePlate"
         },
         "1:10": {
           "Count:3": 342,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.DimensionalChevron"
+          "id:8": "dreamcraft:DimensionalChevron"
         },
         "2:10": {
           "Count:3": 1470,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.DimensionalFramePart"
+          "id:8": "dreamcraft:DimensionalFramePart"
         },
         "3:10": {
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.StargateCrystalAncients"
+          "id:8": "dreamcraft:StargateCrystalAncients"
         },
         "4:10": {
           "Count:3": 82,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.DimensionalQuantumCircuit"
+          "id:8": "dreamcraft:DimensionalQuantumCircuit"
         },
         "5:10": {
           "Count:3": 436,

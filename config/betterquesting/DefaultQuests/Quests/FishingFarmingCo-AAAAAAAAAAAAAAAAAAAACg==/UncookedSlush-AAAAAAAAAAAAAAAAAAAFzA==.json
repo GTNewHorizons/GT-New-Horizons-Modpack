@@ -14,7 +14,7 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "dreamcraft:item.UncookedSlush"
+        "id:8": "dreamcraft:UncookedSlush"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -63,7 +63,7 @@
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianII"
+          "id:8": "dreamcraft:CoinTechnicianII"
         }
       }
     }
@@ -81,7 +81,7 @@
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.MalformedSlush"
+          "id:8": "dreamcraft:MalformedSlush"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -115,7 +115,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.MarshmallowFormMold"
+          "id:8": "dreamcraft:MarshmallowFormMold"
         },
         "1:10": {
           "Count:3": 4,
@@ -138,7 +138,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.MarshmallowForm"
+          "id:8": "dreamcraft:MarshmallowForm"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -155,7 +155,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.UncookedSlush"
+          "id:8": "dreamcraft:UncookedSlush"
         }
       },
       "taskID:8": "bq_standard:retrieval"

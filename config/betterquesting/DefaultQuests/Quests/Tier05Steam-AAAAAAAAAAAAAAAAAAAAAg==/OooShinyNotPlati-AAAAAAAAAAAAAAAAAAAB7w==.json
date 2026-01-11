@@ -88,13 +88,13 @@
           "Count:3": 10,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinAdventure"
+          "id:8": "dreamcraft:CoinAdventure"
         },
         "1:10": {
           "Count:3": 10,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinDarkWizard"
+          "id:8": "dreamcraft:CoinDarkWizard"
         }
       }
     }

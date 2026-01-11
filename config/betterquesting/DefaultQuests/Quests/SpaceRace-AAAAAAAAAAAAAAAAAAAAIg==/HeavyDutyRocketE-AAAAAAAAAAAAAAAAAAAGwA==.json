@@ -14,7 +14,7 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "dreamcraft:item.HeavyDutyRocketEngineTier3"
+        "id:8": "dreamcraft:HeavyDutyRocketEngineTier3"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
@@ -41,13 +41,13 @@
           "Count:3": 16,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.QuantinumCompressedPlate"
+          "id:8": "dreamcraft:QuantinumCompressedPlate"
         },
         "1:10": {
           "Count:3": 16,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.LedoxCompressedPlate"
+          "id:8": "dreamcraft:LedoxCompressedPlate"
         },
         "2:10": {
           "Count:3": 32,
@@ -75,7 +75,7 @@
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianIII"
+          "id:8": "dreamcraft:CoinTechnicianIII"
         }
       }
     }
@@ -93,13 +93,13 @@
           "Count:3": 20,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.HeavyDutyPlateTier5"
+          "id:8": "dreamcraft:HeavyDutyPlateTier5"
         },
         "1:10": {
           "Count:3": 8,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.Tier2Booster"
+          "id:8": "dreamcraft:Tier2Booster"
         },
         "2:10": {
           "Count:3": 8,
@@ -122,7 +122,7 @@
           "Count:3": 4,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.HeavyDutyRocketEngineTier3"
+          "id:8": "dreamcraft:HeavyDutyRocketEngineTier3"
         }
       },
       "taskID:8": "bq_standard:retrieval"
