@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The purified versions of Nether, Certus and Fluix crystals can be grown from seeds made in the assembler from crystal dust and sand.\n\nThey can be grown in-world for free by dropping them in water, or at a much faster rate in a GT Autoclave.\n\n[note]Distilled water reduces the recipe time in the Autoclave by half.[/note]",
+      "desc:8": "The purified versions of Nether, Certus and Fluix crystals can be grown from seeds made in the assembler from crystal dust and sand.\n\nYou may need the Pure Nether Quartz later, but for now let\u0027s create some Pure Fluix Crystal and Pure Certus Quartz Crystal.\n\nThey can be grown in-world for free by dropping them in water, or at a much faster rate in a GT Autoclave.\n\n[note]Distilled water reduces the recipe time in the Autoclave by half.[/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -78,24 +78,18 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 48,
+          "Count:3": 32,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "minecraft:sand"
         },
         "1:10": {
           "Count:3": 16,
-          "Damage:2": 2522,
-          "OreDict:8": "dustNetherQuartz",
-          "id:8": "gregtech:gt.metaitem.01"
-        },
-        "2:10": {
-          "Count:3": 16,
           "Damage:2": 2516,
           "OreDict:8": "dustCertusQuartz",
           "id:8": "gregtech:gt.metaitem.01"
         },
-        "3:10": {
+        "2:10": {
           "Count:3": 16,
           "Damage:2": 8,
           "OreDict:8": "dustFluix",
@@ -114,15 +108,6 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 32,
-          "Damage:2": 600,
-          "OreDict:8": "",
-          "id:8": "appliedenergistics2:item.ItemCrystalSeed",
-          "tag:10": {
-            "progress:4": 600
-          }
-        },
-        "1:10": {
-          "Count:3": 32,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "appliedenergistics2:item.ItemCrystalSeed",
@@ -130,7 +115,7 @@
             "progress:4": 0
           }
         },
-        "2:10": {
+        "1:10": {
           "Count:3": 32,
           "Damage:2": 1200,
           "OreDict:8": "",
@@ -152,17 +137,11 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 24,
-          "Damage:2": 11,
-          "OreDict:8": "",
-          "id:8": "appliedenergistics2:item.ItemMultiMaterial"
-        },
-        "1:10": {
-          "Count:3": 24,
           "Damage:2": 10,
           "OreDict:8": "",
           "id:8": "appliedenergistics2:item.ItemMultiMaterial"
         },
-        "2:10": {
+        "1:10": {
           "Count:3": 24,
           "Damage:2": 12,
           "OreDict:8": "",
