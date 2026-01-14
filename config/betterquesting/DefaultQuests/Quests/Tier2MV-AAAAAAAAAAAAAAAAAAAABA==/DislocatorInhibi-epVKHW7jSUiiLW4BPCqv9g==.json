@@ -2,26 +2,24 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 733
+      "questIDLow:4": 138
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "If you are lucky and find a Brewing Stand or have started using Thaumcraft to make one, you can craft a Brewery. You get 1000mb of Biomass out of 1000mb Water and 1 Bio Chaff. Use Distilled Water to get a better ratio and a much faster recipe.",
-      "globalShare:1": 1,
+      "desc:8": "Tired of your magnet picking up everything? Fortunately, with the advent of Dark Steel this no longer needs to be an issue.\n\nThe Dislocator Inhibitor will restrict the function of the Draconic Evolution Item Dislocator within a customizable range of up to 16 blocks. You can stop it from picking up items entirely, or configure a whitelist or blacklist of your choosing. Additionally, you can choose whether it is always active or only enabled by a redstone signal.",
+      "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 492,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.blockmachines"
+        "id:8": "DraconicEvolution:dislocatorInhibitor"
       },
-      "isGlobal:1": 0,
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§6§lWay Two: Brewery",
-      "partySingleReward:1": 0,
+      "name:8": "§6§lDislocator Inhibitor",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -32,30 +30,18 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 735,
+  "questIDHigh:4": 8833047734431992136,
+  "questIDLow:4": -6760626514029793290,
   "rewards:9": {
     "0:10": {
       "choices:9": {
         "0:10": {
-          "Count:3": 4,
-          "Damage:2": 1366,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
-        },
-        "1:10": {
-          "Count:3": 1,
-          "Damage:2": 32702,
+          "Count:3": 2,
+          "Damage:2": 11364,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"
         },
-        "2:10": {
-          "Count:3": 2,
-          "Damage:2": 21300,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.02"
-        },
-        "3:10": {
+        "1:10": {
           "Count:3": 1,
           "Damage:2": 5,
           "OreDict:8": "",
@@ -91,9 +77,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 492,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "DraconicEvolution:dislocatorInhibitor"
         }
       },
       "taskID:8": "bq_standard:retrieval"

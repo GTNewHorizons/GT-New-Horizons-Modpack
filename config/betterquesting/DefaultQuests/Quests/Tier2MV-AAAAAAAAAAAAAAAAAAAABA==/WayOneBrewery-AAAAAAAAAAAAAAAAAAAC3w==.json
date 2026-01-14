@@ -2,25 +2,25 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 474
+      "questIDLow:4": 733
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "You can find it in chunks of gravel on the surface.\n\nUse as little as possible and save the rest for when you get a Macerator in Steam age, you\u0027ll get twice as much.\n\nIf you can\u0027t find any, you can buy them in the Vending Machine.\n\nIf you get enough and fully process it, you can also get Gallium for Gallium Arsenide in LV age.",
+      "desc:8": "If you are lucky and find a Brewing Stand or have started using Thaumcraft to make one, you can craft a Brewery. You get 1000mb of Biomass out of 1000mb Water and 1 Bio Chaff. Use Distilled Water to get a better ratio and a much faster recipe.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 0,
+        "Damage:2": 492,
         "OreDict:8": "",
-        "id:8": "dreamcraft:ZincGravelOre"
+        "id:8": "gregtech:gt.blockmachines"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§a§lZinc Gravel",
+      "name:8": "§6§lWay One: Brewery",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -33,26 +33,38 @@
     }
   },
   "questIDHigh:4": 0,
-  "questIDLow:4": 34,
+  "questIDLow:4": 735,
   "rewards:9": {
     "0:10": {
-      "ignoreDisabled:1": 0,
-      "index:3": 0,
-      "rewardID:8": "bq_standard:item",
-      "rewards:9": {
+      "choices:9": {
         "0:10": {
+          "Count:3": 4,
+          "Damage:2": 1366,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        },
+        "1:10": {
           "Count:3": 1,
-          "Damage:2": 32233,
+          "Damage:2": 32702,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "2:10": {
+          "Count:3": 2,
+          "Damage:2": 21300,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.02"
         },
-        "1:10": {
-          "Count:3": 16,
-          "Damage:2": 0,
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
           "OreDict:8": "",
-          "id:8": "dreamcraft:ZincGravelOre"
+          "id:8": "enhancedlootbags:lootbag"
         }
-      }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
     },
     "1:10": {
       "ignoreDisabled:1": 0,
@@ -60,10 +72,10 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 5,
+          "Count:3": 25,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinAdventure"
+          "id:8": "dreamcraft:item.CoinTechnician"
         }
       }
     }
@@ -73,15 +85,15 @@
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
+      "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 4,
-          "Damage:2": 0,
+          "Count:3": 1,
+          "Damage:2": 492,
           "OreDict:8": "",
-          "id:8": "dreamcraft:ZincGravelOre"
+          "id:8": "gregtech:gt.blockmachines"
         }
       },
       "taskID:8": "bq_standard:retrieval"

@@ -2,7 +2,8 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 230
+      "questIDLow:4": 230,
+      "type:1": 2
     }
   },
   "properties:10": {

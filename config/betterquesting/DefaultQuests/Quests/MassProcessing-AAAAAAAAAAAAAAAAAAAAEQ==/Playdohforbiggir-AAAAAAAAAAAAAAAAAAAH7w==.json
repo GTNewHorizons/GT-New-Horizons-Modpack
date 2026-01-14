@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "I never wanna grow up, I wanna play with my mega extrusion machine.\nAnd in case you didn\u0027t read the description in NEI: You can use multiple input buses with a different extruder shape in each and then throw the items to extrude into the bus with the appropriate shape.",
+      "desc:8": "I never wanna grow up, I wanna play with my mega extrusion machine.\nAnd in case you didn\u0027t read the description in NEI: You can use multiple input buses with a different extruder shape in each and then throw the items to extrude into the bus with the appropriate shape.\n\nAlternatively, you can also use an Extrusion Bus. These are more expensive but come pre-loaded with all of the extruder shapes so you can manually set them without needing to create one.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -84,6 +84,41 @@
         "1:10": {
           "Count:3": 1,
           "Damage:2": 91,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 31785,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 31786,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 31787,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 31788,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }

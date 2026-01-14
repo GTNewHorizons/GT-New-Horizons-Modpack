@@ -1,25 +1,25 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 176
+      "questIDHigh:4": 4924712871570456639,
+      "questIDLow:4": -6208773058821867190
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Input and output buses not holding enough for you?\n\nUpgrade your buses to the Super bus and enjoy increased slots.\n\n[note]To get Molten Silicon Carbide without an ABS, you can make Silicon Carbide Dust in a Mixer, then smelt it and fluid extract.[/note]",
+      "desc:8": "The §5§lThermic Heating Device§r is the multiblock edition of the Fluid Heater, offering §6§l8§r parallels per voltage tier at over §2§l2x§r the speed and for only §3§l90%§r of the EU cost.\n\nThis can be useful now for Bauxite and Ruthenium processing but if you choose not to use it then definitely keep it in mind for later as you will eventually want it for Growth Catalyst!",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 30022,
+        "Damage:2": 31077,
         "OreDict:8": "",
         "id:8": "gregtech:gt.blockmachines"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§8§lSupersized Buses",
+      "name:8": "§9§lThermic Heating Device",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -30,8 +30,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 3665289223094290964,
-  "questIDLow:4": -7903790571940902730,
+  "questIDHigh:4": -5954942310736704190,
+  "questIDLow:4": -6802078268978097834,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -40,7 +40,7 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 7,
+          "Damage:2": 8,
           "OreDict:8": "",
           "id:8": "enhancedlootbags:lootbag"
         }
@@ -58,18 +58,41 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 30022,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
-        },
-        "1:10": {
-          "Count:3": 1,
-          "Damage:2": 30032,
+          "Damage:2": 31077,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }
       },
       "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 47,
+          "Damage:2": 11,
+          "OreDict:8": "",
+          "id:8": "miscutils:gtplusplus.blockcasings.2"
+        },
+        "1:10": {
+          "Count:3": 35,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "miscutils:gtplusplus.blockcasings.3"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 91,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }
