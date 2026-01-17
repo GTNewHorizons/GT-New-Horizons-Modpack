@@ -1546,8 +1546,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAC3A.desc=Macerate the Plantballs down to
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC3Q.name=§6§lBio Chaff
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC3Q.desc=Plant Mass needs to be centrifuged into Bio Chaff, the base material to make biomass.
 
-# Quest: Way Two: Brewery
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC3w.name=§6§lWay Two: Brewery
+# Quest: Way One: Brewery
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAC3w.name=§6§lWay One: Brewery
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC3w.desc=If you are lucky and find a Brewing Stand or have started using Thaumcraft to make one, you can craft a Brewery. You get 1000mb of Biomass out of 1000mb Water and 1 Bio Chaff. Use Distilled Water to get a better ratio and a much faster recipe.
 
 # Quest: Fermented Biomass
@@ -1804,7 +1804,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFLA.desc=The MV fluid extractor is twice
 
 # Quest: MV Superconductors (128 EU/t)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFfA.name=§6§lMV Superconductors (128 EU/t)
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFfA.desc=How about lossless 128 EU Wires? Pentacadmiummagnesiumhexaoxide is a superconductor wire and will transfer your energy without any loss. Every Voltage going forward has a superconductor wire with zero loss.%n%nMix Cadmium, Magnesium and Oxygen in an MV mixer. Next, the base dust needs an EBF with Kanthal Coils to be smelted. A vacuum freezer is also required to cool it down. Make some MV Superconductor Base Wires and use an Assembler to combine these wires with Helium, Stainless Steel pipes and MV pumps to get your 128 EU/t superconductor wires.%n%n[note]Whether these are worth it to save a little power or not is up to you of course. Also note that although they're wires, you aren't hurt by coming into contact with them.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFfA.desc=How about lossless 128 EU Wires? Pentacadmiummagnesiumhexaoxide is a superconductor wire and will transfer your energy without any loss. Every Voltage going forward has a superconductor wire with zero loss.%n%nMix Cadmium, Magnesium and Oxygen in an MV mixer. Next, the base dust needs an EBF with Kanthal Coils to be smelted. Make some MV Superconductor Base Wires and use an Assembler to combine these wires with Helium, Stainless Steel pipes and MV pumps to get your 128 EU/t superconductor wires.%n%n[note]Whether these are worth it to save a little power or not is up to you of course. Also note that although they're wires, you aren't hurt by coming into contact with them.[/note]
 
 # Quest: Cough Cough - Something Needs to Be Done About the Smell
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFiQ.name=§6§lCough Cough - Something Needs to Be Done About the Smell
@@ -1950,8 +1950,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJbg.desc=Too many items getting you down
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL_Q.name=§6§lMake a better Distillery
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL_Q.desc=To produce Methanol and Ethanol much faster, craft a MV Distillery.
 
-# Quest: Way Three: Pyrolyse Oven
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL_g.name=§6§lWay Three: Pyrolyse Oven
+# Quest: Way Two: Pyrolyse Oven
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL_g.name=§6§lWay Two: Pyrolyse Oven
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL_g.desc=By using the Pyrolyse Oven, you are able to reap the rewards of coil speed increases.%n%nYou can also side-step the need for a Fermenter. Check out NEI to see which way suits you best. The GT++ Industrial Coke Oven will allow you to do this as well.%n%n(You only have to submit one of these)
 
 # Quest: Cooling Kanthal
@@ -4520,10 +4520,6 @@ betterquesting.quest.U7Ta5d7PSii76sbIPbltlw.desc=With total mastery of the Forge
 betterquesting.quest.XoEzTtuPQjyeHTyqp9eY8Q.name=§c§l§nConvergence
 betterquesting.quest.XoEzTtuPQjyeHTyqp9eY8Q.desc=Running your Dimensionally Transcendent Plasma Forge for an extended period [note](8 hours)[/note] allows the Multidimensional Spaces to align perfectly.%n%nWith your newly acquired technology, you can now tap into these spaces in perfect sync, enabling your plasma forges to operate at incredible speeds.%n%nThe Transdimensional Alignment Matrix allows the DTPF to run with Perfect Overclocks. To achieve this, you need a full discount, and the extra power cost is offset by using more of the same catalyst.%n%nOverall, it is more efficient and totally worth it.%n%nThis process is extremely catalyst-hungry. Ensure you're producing enough to sustain it.%n%nFor recipes without a catalyst, you must specify the catalyst in the GUI by right-clicking the Convergence button, otherwise it will default to Crude.[/note]%n%n[note]Math for the curious:%n%nTo clear up what exactly happens in the background, here's an explanation on how the extra catalyst values are calculated using an example:%n%nThe example recipe of choice is the molten neutronium recipe using prosaic catalyst, running at 64A UMV (8,589,934,592 EU/t).%nThe recipe uses 14,753L of Prosaic catalyst and 36,484,545,600 EU per recipe without OCs or the catalyst discount. With the discount, the catalyst amount gets cut in half, meaning 7,376.5L of catalyst, which are rounded to 7,376L, and due to the 64A UMV the machine is supplied with the recipe overclocks 3 times, meaning each recipe actually uses 36,484,545,600 * 2^3 = 291,876,364,800 EU.%n%nKnowing the amount of OCs and the base voltage of the recipe, the difference of the needed EU per recipe with and without perfect OC can be calculated, that being 291,876,364,800 - 36,484,545,600 = 255,391,819,200 extra EU due to imperfect OCs.%nTo get the value of needed extra catalyst, this extra EU value has to be divided by the energy density of the relevant catalyst, prosaic in this case.%n%nThe division equates to 255,391,819,200 EU / 66,768,460 EU/L = 3,825.037 L, rounded to 3,825L extra prosaic catalyst per recipe. For the final step, this value has to be multiplied by 0.5 as it's affected by the discount, meaning the total extra catalyst that gets added to the recipe is 3,825L * 0.5 = 1,912.5 L, rounded to 1,912L.%n%nTo summarize it all in a formula:%nAmount extra catalyst per recipe = (B * ((2^x) - 1))/2L%nwhere:%nB is base total EU of the recipe%nx is the number of overclocks%nL is the EU/L of the relevant catalyst [/note]
 
-# Quest: What Do I Use This Stuff On?
-betterquesting.quest._Cwgzi_VR5ChWJSIIrzUvg.name=§c§l§nWhat Do I Use This Stuff On?
-betterquesting.quest._Cwgzi_VR5ChWJSIIrzUvg.desc=White Dwarf Matter, your first main EOH material! I must be able to craft all sorts of cool endgame things with this... right?%n%n[note]Currently, besides EOH casing upgrades, White Dwarf Matter is not used anywhere on its own, often paired with Black Dwarf Matter or other later materials. Save it up for now and keep upgrading that EOH![/note]
-
 # Quest: Black Dwarf Matter
 betterquesting.quest.bPYTUdlkSCiRi0eDHHw7tw.name=§c§l§nBlack Dwarf Matter
 betterquesting.quest.bPYTUdlkSCiRi0eDHHw7tw.desc=Reinforcing your casings with matter from white dwarfs was a good idea.%n%nYou can now accelerate a solar system until a black dwarf forms. This material will likely be key to observing and understanding what happens next.%n%nThis is the second of your three EOH materials. Use it to upgrade your casings to T7.%n%n[note]The EOH becomes power positive once all the casings are Tier 7.[/note]
@@ -6730,7 +6726,7 @@ betterquesting.quest.3SzKMSj0StOAOzVmInDjZQ.desc=Start your own local brewery wi
 
 # Quest: Fits The Mold
 betterquesting.quest.6glle46JSyuwR6O4x7mLYA.name=§9§lFits The Mold
-betterquesting.quest.6glle46JSyuwR6O4x7mLYA.desc=Making machines for every mold sounds tiring... fortunately, the Fluid Shaper multiblock can handle any number of molds by using §lSolidifier Hatches§r. This multiblock is also extendable, gaining more parallels if you add additional segments. Be sure to expand it if it's too slow!%n%n[note]The Fluid Shaper also speeds up as it is running, making it more efficient to do large batches.[/note]
+betterquesting.quest.6glle46JSyuwR6O4x7mLYA.desc=Making machines for every mold sounds tiring... fortunately, the Mass Solidifier multiblock can handle any number of molds by using §lSolidifier Hatches§r.%n%n[note]The Mass Solidifier also speeds up as it is running, making it more efficient to do large batches.[/note]
 
 # Quest: T2 Maceration Stack 
 betterquesting.quest.A4rEQOAXQsaa26Ib_nzkHg.name=§9§lT2 Maceration Stack 
@@ -6782,7 +6778,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7g.desc=Abuela, will you teach us the c
 
 # Quest: Play-Doh For Big Girls and Boys
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7w.name=§9§lPlay-Doh For Big Girls and Boys
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7w.desc=I never wanna grow up, I wanna play with my mega extrusion machine.%nAnd in case you didn't read the description in NEI: You can use multiple input buses with a different extruder shape in each and then throw the items to extrude into the bus with the appropriate shape.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7w.desc=I never wanna grow up, I wanna play with my mega extrusion machine.%nAnd in case you didn't read the description in NEI: You can use multiple input buses with a different extruder shape in each and then throw the items to extrude into the bus with the appropriate shape.%n%nAlternatively, you can also use an Extrusion Bus. These are more expensive but come pre-loaded with all of the extruder shapes so you can manually set them without needing to create one.
 
 # Quest: Best Thing Since Sliced Bread
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH8A.name=§9§lBest Thing Since Sliced Bread
@@ -7978,7 +7974,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMGQ.desc=With 19 Coke Ovens automated, y
 
 # Quest: The Benzene Tier
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMGg.name=The Benzene Tier
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMGg.desc=Having walked into MV, you are soon going to be able to produce and consume Benzene. It's more efficient than burning the Charcoal in a boiler, but you will still need to provide a lot of wood to make sure you have consistent, abundant power. It's heavily recommended that you automate this wood input, if you haven't already, possibly with an MV Crop Manager instead of the LV one, or with the Crop Harvester from IC2.%n%nFor automation, you're still stuck with using bonsais, not regular trees. HV will provide a few options that don't need crops, but for now you might want to increase your crop stats by crossbreeding. Planting saplings on cropsticks creates 1/1/1 bonsais, which are much slower than their high-stat variants. If you want to invest in crops, you can later use the high stats to get more of a several dozen different items that crops can output, but you should start with Stickreed to develop your crop stats, not bonsais.%n%nDon't throw away your saplings, either! They will be useful later on, so save up as many as you can.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMGg.desc=Having walked into MV, you are soon going to be able to produce and consume Benzene. It's more efficient than burning the Charcoal in a boiler, but you will still need to provide a lot of wood to make sure you have consistent, abundant power. It's heavily recommended that you automate this wood input, if you haven't already, possibly with an MV Crop Manager instead of the LV one, or with the Crop Harvester from IC2.%n%nFor automation, you're still stuck with using bonsais, not regular trees. HV will provide a few options that don't need crops, but for now you might want to increase your crop stats by crossbreeding. Planting saplings on cropsticks creates 1/1/1 bonsais, which are much slower than their high-stat variants. If you want to invest in crops, you can later use the high stats to get more of a several dozen different items that crops can output, but you should start with Stickreed to develop your crop stats, not bonsais.%n%nDon't throw away your saplings, either! They will be useful later on, so save up as many as you can.%n%n[warn]You must scan the seeds in order to complete the quest task.[/warn]
 
 # Quest: Biodiesel Alternative
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMGw.name=Biodiesel Alternative
@@ -9580,7 +9576,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFDw.desc=The crystal growth chamber is u
 
 # Quest: Purifying the Impure
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFEA.name=Purifying the Impure
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFEA.desc=The purified versions of Nether, Certus and Fluix crystals can be grown from seeds made in the assembler from crystal dust and sand.%n%nThey can be grown in-world for free by dropping them in water, or at a much faster rate in a GT Autoclave.%n%n[note]Distilled water reduces the recipe time in the Autoclave by half.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFEA.desc=The purified versions of Nether, Certus and Fluix crystals can be grown from seeds made in the assembler from crystal dust and sand.%n%nYou may need the Pure Nether Quartz later, but for now let's create some Pure Fluix Crystal and Pure Certus Quartz Crystal.%n%nThey can be grown in-world for free by dropping them in water, or at a much faster rate in a GT Autoclave.%n%n[note]Distilled water reduces the recipe time in the Autoclave by half.[/note]
 
 # Quest: Wireless Setup
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFEg.name=Wireless Setup
@@ -13185,6 +13181,10 @@ betterquesting.quest.s4B77B7FSamWlvHY8hfqqA.desc=The Mark of the Falling Tower i
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAJQ.name=Kill All the Things
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAJQ.desc=This world is full of nasty things. Time to kill some and improve your reputation.
 
+# Quest: Time To Kill (Crimson Knight)
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABGg.name=Time To Kill (Crimson Knight)
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABGg.desc=I can feel it. Yess. Yeeeess. We will gain more power nigh. Nigh! Yes. My precious. The voices gave me a hint, there is a dimension filled with unbelievable sources of magic energy. I must go there. I must! The crimson people know the secret. I will rip them aparrrt... They will tell me!%n%n§3NOTE: The Knights are spawned by the Clerics, but the Clerics DO NOT RESPAWN after killed.
+
 # Quest: Kill Baba Yaga
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABjg.name=Kill Baba Yaga
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABjg.desc=Baba Yaga is a witch (or one of a trio of sisters of the same name), who appears as a deformed and/or ferocious-looking elderly woman. She flies around in a mortar and wields a pestle. She dwells deep in the forest, in a hut usually described as standing on chicken legs, with a fence decorated with human skulls. Baba Yaga may help or hinder those that encounter or seek her out.
@@ -13588,17 +13588,13 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAxQ.desc=Heat vents are a passive way to
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB2Q.name=§a§lMaking a Better Sword
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB2Q.desc=Now it's time to make your first quality tinkers sword. First you have to make a blade, a type of guard, and tool rod cast forms. Melt some bronze in the smeltery and cast your tool parts. Tadaa... your first tinkers sword. There are 4 types of guard, changing them gets you a different sword type, see the tinker's book for details.
 
-# Quest: Time To Kill (Crimson Knight)
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABGg.name=Time To Kill (Crimson Knight)
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABGg.desc=I can feel it. Yess. Yeeeess. We will gain more power nigh. Nigh! Yes. My precious. The voices gave me a hint, there is a dimension filled with unbelievable sources of magic energy. I must go there. I must! The crimson people know the secret. I will rip them aparrrt... They will tell me!%n%n§3NOTE: The Knights are spawned by the Clerics, but the Clerics DO NOT RESPAWN after killed.
-
 # Quest: Magical Waystones
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABSg.name=Magical Waystones
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABSg.desc=This can be used to go back to a Celestial Gateway if you have a bound Celestial Pearl in your hotbar. It will use the leftmost one in your hotbar, so you can carry multiple to travel around with!
 
 # Quest: Industrial 3D Copying Machine
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABgw.name=§8§lIndustrial 3D Copying Machine
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABgw.desc=Need large amounts of chiseled blocks? This is the machine for you.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABgw.desc=Need large amounts of chiseled blocks? This is the machine for you.%n%nIt is recommended to use the Chisel Bus for automation, as it allows you to define recipes for multiple block types without needing to manually swap them in the controller, unlike the standard Input Bus.
 
 # Quest: Draconic Evolution
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABhA.name=§4§l§nDraconic Evolution
