@@ -16,7 +16,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "This jetpack uses IC2 biogas and can fly up to Y-245. You can switch between hover and normal mode using the IC2 mode-switch key.\n\nYour jetpack can be (re-)fueled in the IC2 fluid canner with 30 buckets/cells worth of biogas.",
+      "desc:8": "This jetpack uses IC2 biogas and can fly up to Y-245. You can switch between hover and normal mode using the IC2 mode-switch key.\n\nAn empty jetpack can be (re-)fueled in a fluid tank filled with biogas.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
