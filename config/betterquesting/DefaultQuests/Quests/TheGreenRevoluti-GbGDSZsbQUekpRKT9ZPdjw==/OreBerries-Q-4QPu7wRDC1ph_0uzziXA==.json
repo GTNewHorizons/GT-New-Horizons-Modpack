@@ -1,0 +1,51 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -2647233573521112555,
+      "questIDLow:4": -8137730701819231368
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Ore Berries are a shockingly diverse and useful set of crops, a number of which you\u0027ll have already received from previous questbook rewards. However, they can give more than just the basic minerals.\n\nAll of these crops will only grow in dark enviroments, with a sub-soil of their related material.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "Thaumcraft:ItemNugget"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Ore Berries",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 4894867707481048112,
+  "questIDLow:4": -5357559570736815524,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinFarmer"
+        }
+      }
+    }
+  },
+  "tasks:9": {}
+}

@@ -1,0 +1,56 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -3386790291524794961,
+      "questIDLow:4": -5427043695285873838
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "A key part of CropsNH is improving the stats of your crops. There is always a chance for this to occur whenever a new crop grows - whether by self propogation or crossing...\r\n\r\n\r\n§aGrowth§r:\n- How fast it grows, with higher \u003d faster. Specifically it increases the growth points your crop gets per tick. If it gets to 24+, your crop acts like a weed, so make sure you increase that resistancey.\r\n\r\n§9Gain§r:\r\r\n- With higher levels of gain, you get more when you harvest your crops! Pretty self explanitory.\r\n\r\n§eResistance§r:\r\r\n- A resistance of 10 will guarantee a seed drop with a spade\r. 20 and 30 will drop 2 or 3 seeds, respectively. A resistance of 31 will guarantee a seed drop without a spade.\r\n\r\n- If the Growth stat is greater than 23, resistance will help prevent weeds from spreading. \rA resistance of 31 will stop the crop from spreading weeds entirely.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:filled_map"
+      },
+      "isMain:1": 1,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Improving Your Crops",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 2770,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinFarmer"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

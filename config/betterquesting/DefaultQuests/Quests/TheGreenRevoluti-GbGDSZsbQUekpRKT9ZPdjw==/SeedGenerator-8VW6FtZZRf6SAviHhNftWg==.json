@@ -1,0 +1,55 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 3958176424477410122,
+      "questIDLow:4": -8623991914351216440
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Seed Duplication Rework\r\nUnlocked in LV as the recipe no longer requires a field generator.\r\nUsing the Seed Generator, players can replicate an existing seed as long as they provide the needed Enriched Fertilizer.\r\nSome crops may require an item as a catalyst to be replicated\r\nFerru will require iron ingots/blocks.\r\nBlazereed will require blaze rods/blaze blocks.\r\nSalty Roots will require salt or rock salt.\r\nFertilizer cost is based on the stats of the seed\r\n100L per stat, so 31/31/31 sed will require 9.3KL fertilizer per seed \r\nBase processing time of 20 seconds (LV @ 30eu/t)\r\nThe goal is about 15 minutes of runtime for a basic multi or field on a minimum-tier machine.\r\nSeeds can be blacklisted (e.g., Primordial Perl)\r\nThis will be indicated in the seed’s tooltip.\r\nSetting the crossing threshold to -1 will blacklist the seed.\r\n",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 28025,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Seed Generator",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -1056733930300291586,
+  "questIDLow:4": -7925499133285634726,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 28013,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

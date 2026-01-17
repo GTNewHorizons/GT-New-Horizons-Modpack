@@ -1,0 +1,97 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1920
+    },
+    "1:10": {
+      "questIDHigh:4": 4631800270022788259,
+      "questIDLow:4": -7525738023791412446
+    },
+    "2:10": {
+      "questIDHigh:4": 3473513429173684160,
+      "questIDLow:4": -8613513165363217437
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "With both carrot and potato seeds in hand, you are now ready to breed your first new species of crop. Sugarcane.\n\nSugarcane will only be produced on top of sand, so plant your potato and carrot seeds next to a double crop stick placed on sand.\n\nBeyond soil and sub-soil, there are many other enviromental requirements for different crop species. I really cannot understate the importance of using NEI to research what your target crops need.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "CropsNH:genericSeed",
+        "tag:10": {
+          "crop:8": "CropsNH:sugarCane",
+          "ga:1": 1,
+          "gr:1": 1,
+          "re:1": 1,
+          "scan:1": 1
+        }
+      },
+      "isMain:1": 1,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Your First Crossbreed",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -6543480815848173757,
+  "questIDLow:4": -5430924456326445571,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:item.CoinFarmer"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 51,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "CropsNH:genericSeed",
+          "tag:10": {
+            "crop:8": "CropsNH:sugarCane",
+            "ga:1": 1,
+            "gr:1": 1,
+            "re:1": 1,
+            "scan:1": 1
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
