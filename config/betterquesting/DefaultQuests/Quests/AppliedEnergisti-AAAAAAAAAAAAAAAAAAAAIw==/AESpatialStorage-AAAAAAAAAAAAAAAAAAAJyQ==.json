@@ -14,7 +14,7 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "dreamcraft:item.EngineeringProcessorSpatialPulsatingCore"
+        "id:8": "dreamcraft:EngineeringProcessorSpatialPulsatingCore"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
@@ -42,7 +42,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.PulsatingSpatialCoreChip"
+          "id:8": "dreamcraft:PulsatingSpatialCoreChip"
         }
       }
     },
@@ -55,13 +55,13 @@
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianII"
+          "id:8": "dreamcraft:CoinTechnicianII"
         },
         "1:10": {
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinAdventureII"
+          "id:8": "dreamcraft:CoinAdventureII"
         }
       }
     }
@@ -79,7 +79,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.EngineeringProcessorSpatialPulsatingCore"
+          "id:8": "dreamcraft:EngineeringProcessorSpatialPulsatingCore"
         }
       },
       "taskID:8": "bq_standard:retrieval"

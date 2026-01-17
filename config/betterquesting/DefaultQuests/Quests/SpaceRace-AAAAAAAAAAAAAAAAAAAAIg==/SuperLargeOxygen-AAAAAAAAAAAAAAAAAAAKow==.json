@@ -57,7 +57,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.WaferTier3"
+          "id:8": "dreamcraft:WaferTier3"
         },
         "3:10": {
           "Count:3": 1,
@@ -79,7 +79,7 @@
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianII"
+          "id:8": "dreamcraft:CoinTechnicianII"
         }
       }
     }
@@ -103,7 +103,7 @@
           "Count:3": 14,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.TitaniumDualCompressedPlates"
+          "id:8": "dreamcraft:TitaniumDualCompressedPlates"
         },
         "2:10": {
           "Count:3": 2,

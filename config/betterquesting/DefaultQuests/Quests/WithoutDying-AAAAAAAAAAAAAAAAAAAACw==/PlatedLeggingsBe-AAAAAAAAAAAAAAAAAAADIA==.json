@@ -18,7 +18,7 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "dreamcraft:item.NanoPlatedLeggings"
+        "id:8": "dreamcraft:NanoPlatedLeggings"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -73,13 +73,13 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinSmithII"
+          "id:8": "dreamcraft:CoinSmithII"
         },
         "1:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianII"
+          "id:8": "dreamcraft:CoinTechnicianII"
         }
       }
     }
@@ -120,7 +120,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.NanoPlatedLeggings"
+          "id:8": "dreamcraft:NanoPlatedLeggings"
         }
       },
       "taskID:8": "bq_standard:retrieval"

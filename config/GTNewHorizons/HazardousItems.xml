@@ -15,24 +15,24 @@
     <Item ItemName="IguanaTweaksTConstruct:clayBucketLava" ExactNameMatch="true" OnContactCheck="true" InventoryCheck="true">
         <DamageEffect Source="gregtech:hot" Amount="1"/>
     </Item>
-    <Item ItemName="dreamcraft:item.BedrockiumPlate" ExactNameMatch="true" OnContactCheck="true" InventoryCheck="true">
+    <Item ItemName="dreamcraft:BedrockiumPlate" ExactNameMatch="true" OnContactCheck="true" InventoryCheck="true">
         <PotionEffect PotionID="2" TickDuration="200" Level="4"/>
     </Item>
     <Item ItemName="MagicBees:capsule.magic:2" ExactNameMatch="true" OnContactCheck="true" InventoryCheck="true">
         <DamageEffect Source="gregtech:hot" Amount="1"/>
     </Item>
-    <Item ItemName="dreamcraft:item.GlowingMarshmallow" ExactNameMatch="true" OnContactCheck="true" InventoryCheck="true">
+    <Item ItemName="dreamcraft:GlowingMarshmallow" ExactNameMatch="true" OnContactCheck="true" InventoryCheck="true">
         <DamageEffect Source="gregtech:hot" Amount="1"/>
         <PotionEffect PotionID="25" TickDuration="100" Level="1"/>
     </Item>
-    <Item ItemName="dreamcraft:item.MalformedSlush" ExactNameMatch="true" OnContactCheck="true" InventoryCheck="true">
+    <Item ItemName="dreamcraft:MalformedSlush" ExactNameMatch="true" OnContactCheck="true" InventoryCheck="true">
         <PotionEffect PotionID="15" TickDuration="200" Level="1"/>
     </Item>
-    <Item ItemName="dreamcraft:item.UncookedSlush" ExactNameMatch="true" OnContactCheck="true" InventoryCheck="true">
+    <Item ItemName="dreamcraft:UncookedSlush" ExactNameMatch="true" OnContactCheck="true" InventoryCheck="true">
         <PotionEffect PotionID="15" TickDuration="200" Level="1"/>
         <PotionEffect PotionID="17" TickDuration="600" Level="1"/>
     </Item>
-    <Item ItemName="dreamcraft:item.Marshmallow" ExactNameMatch="true" OnContactCheck="true" InventoryCheck="true">
+    <Item ItemName="dreamcraft:Marshmallow" ExactNameMatch="true" OnContactCheck="true" InventoryCheck="true">
         <PotionEffect PotionID="18" TickDuration="600" Level="1"/>
         <PotionEffect PotionID="9" TickDuration="200" Level="1"/>
     </Item>

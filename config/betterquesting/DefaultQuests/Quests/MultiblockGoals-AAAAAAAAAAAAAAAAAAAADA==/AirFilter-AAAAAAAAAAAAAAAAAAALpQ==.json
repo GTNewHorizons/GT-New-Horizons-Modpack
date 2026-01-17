@@ -53,7 +53,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.AdsorptionFilter"
+          "id:8": "dreamcraft:AdsorptionFilter"
         }
       },
       "ignoreDisabled:1": 0,
@@ -69,7 +69,7 @@
           "Count:3": 75,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnician"
+          "id:8": "dreamcraft:CoinTechnician"
         }
       }
     }

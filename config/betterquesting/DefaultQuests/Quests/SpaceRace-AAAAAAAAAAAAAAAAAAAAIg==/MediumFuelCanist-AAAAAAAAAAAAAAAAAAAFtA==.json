@@ -14,7 +14,7 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "dreamcraft:item.MediumFuelCanister"
+        "id:8": "dreamcraft:MediumFuelCanister"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
@@ -75,7 +75,7 @@
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianII"
+          "id:8": "dreamcraft:CoinTechnicianII"
         }
       }
     }
@@ -93,13 +93,13 @@
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.DeshDualCompressedPlates"
+          "id:8": "dreamcraft:DeshDualCompressedPlates"
         },
         "1:10": {
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.TitaniumDualCompressedPlates"
+          "id:8": "dreamcraft:TitaniumDualCompressedPlates"
         },
         "2:10": {
           "Count:3": 8,
@@ -122,7 +122,7 @@
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.MediumFuelCanister"
+          "id:8": "dreamcraft:MediumFuelCanister"
         }
       },
       "taskID:8": "bq_standard:retrieval"
