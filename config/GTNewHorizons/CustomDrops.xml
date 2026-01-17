@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CustomDrops>
 	<CustomDrop EntityClassName="twilightforest.entity.boss.EntityTFLich">
-        <Drop Identifier="Litch_LitchBone" ItemName="dreamcraft:item.LichBone" Amount="6" NBTTag="" Chance="100" LimitedDropCount="50" RandomAmount="true"/>
+        <Drop Identifier="Litch_LitchBone" ItemName="dreamcraft:LichBone" Amount="6" NBTTag="" Chance="100" LimitedDropCount="50" RandomAmount="true"/>
 		<Drop Identifier="Litch_Ofanix" ItemName="Ztones:ofanix" Amount="1" NBTTag="" Chance="100" LimitedDropCount="0" RandomAmount="false"/>
     </CustomDrop>
 		<CustomDrop EntityClassName="twilightforest.entity.EntityTFDeathTome">
-        <Drop Identifier="Litch_LitchBone" ItemName="dreamcraft:item.LichBoneChip" Amount="2" NBTTag="" Chance="33" LimitedDropCount="0" RandomAmount="true"/>
+        <Drop Identifier="Litch_LitchBone" ItemName="dreamcraft:LichBoneChip" Amount="2" NBTTag="" Chance="33" LimitedDropCount="0" RandomAmount="true"/>
     </CustomDrop>
 	<CustomDrop EntityClassName="twilightforest.entity.boss.EntityTFSnowQueen">
-		<Drop Identifier="Bloodqueen_Blood" ItemName="dreamcraft:item.SnowQueenBlood" Amount="6" NBTTag="" Chance="100" LimitedDropCount="50" RandomAmount="true"/>	
+		<Drop Identifier="Bloodqueen_Blood" ItemName="dreamcraft:SnowQueenBlood" Amount="6" NBTTag="" Chance="100" LimitedDropCount="50" RandomAmount="true"/>	
     </CustomDrop>
 		<CustomDrop EntityClassName="twilightforest.entity.passive.EntityTFBunny">
 		<Drop Identifier="Rabbit" ItemName="harvestcraft:rabbitrawItem" Amount="2" NBTTag="" Chance="75" LimitedDropCount="0" RandomAmount="true"/>	
@@ -76,8 +76,8 @@
 		<Drop Identifier="Kobolt" ItemName="Thaumcraft:ItemLootBag" Amount="1" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="true"/>	
 		<Drop Identifier="Kobolt" ItemName="gregtech:gt.metaitem.01:2019" Amount="4" NBTTag="" Chance="15" LimitedDropCount="0" RandomAmount="true"/>
 		<Drop Identifier="Kobolt" ItemName="gregtech:gt.metaitem.01:11019" Amount="2" NBTTag="" Chance="10" LimitedDropCount="0" RandomAmount="true"/>
-		<Drop Identifier="Kobolt" ItemName="dreamcraft:item.NagaScaleChip" Amount="4" NBTTag="" Chance="7" LimitedDropCount="0" RandomAmount="true"/>	
-		<Drop Identifier="Kobolt" ItemName="dreamcraft:item.NagaScaleFragment" Amount="2" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="true"/>	
+		<Drop Identifier="Kobolt" ItemName="dreamcraft:NagaScaleChip" Amount="4" NBTTag="" Chance="7" LimitedDropCount="0" RandomAmount="true"/>	
+		<Drop Identifier="Kobolt" ItemName="dreamcraft:NagaScaleFragment" Amount="2" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="true"/>	
 		<Drop Identifier="Kobolt" ItemName="TwilightForest:item.nagaScale" Amount="1" NBTTag="" Chance="1" LimitedDropCount="0" RandomAmount="true"/>	
 		<Drop Identifier="Kobolt" ItemName="witchery:ingredient:148" Amount="1" NBTTag="" Chance="4" LimitedDropCount="0" RandomAmount="true"/>	
 		<Drop Identifier="Kobolt" ItemName="gregtech:gt.metaitem.01:1039" Amount="2" NBTTag="" Chance="15" LimitedDropCount="0" RandomAmount="true"/>	
@@ -99,8 +99,8 @@
 		<Drop Identifier="SlimeBeetle" ItemName="TConstruct:slime.gel:1" Amount="1" NBTTag="" Chance="50" LimitedDropCount="0" RandomAmount="true"/>	
 		<Drop Identifier="SlimeBeetle" ItemName="TConstruct:slime.gel:2" Amount="1" NBTTag="" Chance="30" LimitedDropCount="0" RandomAmount="true"/>
 		<Drop Identifier="SlimeBeetle" ItemName="gregtech:gt.metaitem.01:11019" Amount="1" NBTTag="" Chance="10" LimitedDropCount="0" RandomAmount="true"/>
-		<Drop Identifier="SlimeBeetle" ItemName="dreamcraft:item.NagaScaleChip" Amount="1" NBTTag="" Chance="7" LimitedDropCount="0" RandomAmount="true"/>	
-		<Drop Identifier="SlimeBeetle" ItemName="dreamcraft:item.NagaScaleFragment" Amount="1" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="true"/>	
+		<Drop Identifier="SlimeBeetle" ItemName="dreamcraft:NagaScaleChip" Amount="1" NBTTag="" Chance="7" LimitedDropCount="0" RandomAmount="true"/>	
+		<Drop Identifier="SlimeBeetle" ItemName="dreamcraft:NagaScaleFragment" Amount="1" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="true"/>	
 		<Drop Identifier="SlimeBeetle" ItemName="TConstruct:strangeFood" Amount="4" NBTTag="" Chance="60" LimitedDropCount="0" RandomAmount="true"/>	
 		<Drop Identifier="SlimeBeetle" ItemName="minecraft:slime_ball" Amount="4" NBTTag="" Chance="70" LimitedDropCount="0" RandomAmount="true"/>	
 		<Drop Identifier="SlimeBeetle" ItemName="TConstruct:materials:1" Amount="1" NBTTag="" Chance="15" LimitedDropCount="0" RandomAmount="true"/>	

@@ -216,19 +216,19 @@
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinSmithI"
+          "id:8": "dreamcraft:CoinSmithI"
         },
         "1:10": {
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinBeesI"
+          "id:8": "dreamcraft:CoinBeesI"
         },
         "2:10": {
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinSurvivorI"
+          "id:8": "dreamcraft:CoinSurvivorI"
         }
       }
     }
