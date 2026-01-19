@@ -1,0 +1,13 @@
+
+name: Optimize images
+
+on:
+  pull_request:
+    branches: [ master, main, release/** ]
+  push:
+    branches: [ master, main, release/** ]
+
+jobs:
+  optimize-images:
+    uses: GTNewHorizons/GTNH-Actions-Workflows/.github/workflows/optimize-images.yml@master
+    secrets: inherit
