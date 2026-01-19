@@ -3,23 +3,27 @@
     "0:10": {
       "questIDHigh:4": -1224350904333220370,
       "questIDLow:4": -6509950608256890330
+    },
+    "1:10": {
+      "questIDHigh:4": -3591845481632939088,
+      "questIDLow:4": -5463418681646836872
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "As you\u0027ve noticed, UXV components are extremely expensive compared to the amount of Universium you can currently produce.\n\nThe Astral Array Fabricator allows you to run EOH recipes in parallel. You can review the math in the second page of the tooltip.\n\nFor a direct answer, you can use this spreadsheet: [url]https://docs.google.com/spreadsheets/d/15j30mNnFIWBhwpJGuDrKTfiHBXNEEqyvB_r7ztFWlyQ[/url]\n\n[warn]Be aware that the EOH will use Raw Stellar Plasma instead of Hydrogen and Helium if you use Astral Arrays.[/warn]\n\n[note]Make sure you are generating enough power.[/note]",
+      "desc:8": "No Description",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 0,
+        "Damage:2": 3,
         "OreDict:8": "",
-        "id:8": "tectech:item.tm.itemAstralArrayFabricator"
+        "id:8": "gregtech:gt.foundrycasings"
       },
-      "isMain:1": 1,
+      "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§4§l§nFabricating Solar Systems... in Parallel",
+      "name:8": "T3 Exo-Foundry",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -30,8 +34,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 2334390499388638957,
-  "questIDLow:4": -4851697106472398149,
+  "questIDHigh:4": -8594556957412865457,
+  "questIDLow:4": -5759848961423993121,
   "rewards:9": {},
   "tasks:9": {
     "0:10": {
@@ -44,9 +48,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 0,
+          "Damage:2": 3,
           "OreDict:8": "",
-          "id:8": "tectech:item.tm.itemAstralArrayFabricator"
+          "id:8": "gregtech:gt.foundrycasings"
         }
       },
       "taskID:8": "bq_standard:retrieval"

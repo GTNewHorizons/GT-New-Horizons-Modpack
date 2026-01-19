@@ -1,8 +1,17 @@
 {
   "preRequisites:9": {
     "0:10": {
+      "questIDHigh:4": -6083888391161033107,
+      "questIDLow:4": -6861911456329097050
+    },
+    "1:10": {
       "questIDHigh:4": -3591845481632939088,
       "questIDLow:4": -5463418681646836872
+    },
+    "2:10": {
+      "questIDHigh:4": -1110411240280604338,
+      "questIDLow:4": -4677630017092864794,
+      "type:1": 1
     }
   },
   "properties:10": {
@@ -12,14 +21,14 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 4,
+        "Damage:2": 9,
         "OreDict:8": "",
         "id:8": "gregtech:gt.foundrycasings"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Universal Collapser",
+      "name:8": "Hypercooler",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -30,8 +39,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 7297915850773121817,
-  "questIDLow:4": -7294266854031749810,
+  "questIDHigh:4": -8680342280631926115,
+  "questIDLow:4": -8996400694357366622,
   "rewards:9": {},
   "tasks:9": {
     "0:10": {
@@ -44,7 +53,7 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 4,
+          "Damage:2": 9,
           "OreDict:8": "",
           "id:8": "gregtech:gt.foundrycasings"
         }
@@ -60,64 +69,52 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 72,
-          "Damage:2": 11,
+          "Count:3": 64,
+          "Damage:2": 389,
           "OreDict:8": "",
-          "id:8": "tectech:gt.blockcasingsBA0"
+          "id:8": "gregtech:gt.sheetmetal"
         },
         "1:10": {
           "Count:3": 48,
-          "Damage:2": 10,
+          "Damage:2": 394,
           "OreDict:8": "",
-          "id:8": "tectech:gt.blockcasingsBA0"
+          "id:8": "gregtech:gt.blockframes"
         },
         "2:10": {
-          "Count:3": 40,
-          "Damage:2": 583,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
-        },
-        "3:10": {
-          "Count:3": 28,
-          "Damage:2": 6,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmetal9"
-        },
-        "4:10": {
-          "Count:3": 28,
-          "Damage:2": 7,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmetal9"
-        },
-        "5:10": {
-          "Count:3": 16,
-          "Damage:2": 139,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
-        },
-        "6:10": {
-          "Count:3": 8,
-          "Damage:2": 585,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
-        },
-        "7:10": {
-          "Count:3": 8,
-          "Damage:2": 586,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
-        },
-        "8:10": {
-          "Count:3": 4,
-          "Damage:2": 4,
+          "Count:3": 36,
+          "Damage:2": 9,
           "OreDict:8": "",
           "id:8": "gregtech:gt.foundrycasings"
         },
-        "9:10": {
-          "Count:3": 4,
-          "Damage:2": 13,
+        "3:10": {
+          "Count:3": 32,
+          "Damage:2": 3,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmetal9"
+          "id:8": "gregtech:gt.blockglass1"
+        },
+        "4:10": {
+          "Count:3": 20,
+          "Damage:2": 14,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings8"
+        },
+        "5:10": {
+          "Count:3": 19,
+          "Damage:2": 10,
+          "OreDict:8": "",
+          "id:8": "miscutils:gtplusplus.blockcasings.3"
+        },
+        "6:10": {
+          "Count:3": 16,
+          "Damage:2": 985,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.sheetmetal"
+        },
+        "7:10": {
+          "Count:3": 1,
+          "Damage:2": 50,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
