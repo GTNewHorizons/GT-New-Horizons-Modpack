@@ -10046,10 +10046,6 @@ betterquesting.quest.CbUsVtoETCy-CB3AlgHRjg.desc=The Advanced Wireless Setup Kit
 betterquesting.quest.G5g_5_24RS6sqhmjFEbf8A.name=4096k Essentia Storage Cell
 betterquesting.quest.G5g_5_24RS6sqhmjFEbf8A.desc=These hold 8,388,608 units of essentia.%n%nAnd can hold 48 types.
 
-# Quest: Infinite Water Cell
-betterquesting.quest.GR94tIXOQvC2w5SttlezrQ.name=Infinite Water Cell
-betterquesting.quest.GR94tIXOQvC2w5SttlezrQ.desc=The ME Fluid Infinity Water Storage provides §24.5P§r water directly to your AE system, That's the equivalent of 2.25 million reservoir hatches, all conveniently packaged into one drive. %nMight come in handy...%n%n[note]Have fun making those fluid packets![/note]
-
 # Quest: Get Your Priorities Straight
 betterquesting.quest.Hbq2zJcoQbWK20-2A-kI1Q.name=Get Your Priorities Straight
 betterquesting.quest.Hbq2zJcoQbWK20-2A-kI1Q.desc=You might find yourself setting up complicated systems involving many storage buses with differing priorities. To make it less tedious, grab a priority card!%n%nThis tool allows you to set many buses to the same priority with a single click... but better yet, it also features §nincrement and decrement modes!§r Every time you click on a bus, the priority will be set to one higher/lower than the previous bus you clicked, so setting up large arrays of descending priorities is a breeze.
@@ -14067,6 +14063,10 @@ betterquesting.quest.E9atHD5uR9CC0G1qEeFDmQ.desc=Want even more speed on your wa
 # Quest: A Portable Barrel?
 betterquesting.quest.EDtFbLVvQX2Y5mQp84W9bw.name=§2§lA Portable Barrel?
 betterquesting.quest.EDtFbLVvQX2Y5mQp84W9bw.desc=As an upgrade to the barrels, EFR also adds the ever-familiar shulker box! The shulker box allows you to comfortably tote around its contents. You can find the research for them in the New Horizons tab of the Thaumonomicon.%n%nThese have seven additional tiers much like the barrels and chests that give you additional storage space. %n%nYou can dye any tier by shapelessly crafting them with a dye, and undye them by shapelessly crafting them alone. They §nwill§r retain their inventory. %n%n[note]There are many ways to obtain shulker shells:%n1. Fighting Shulkers in the Twilight Forest Lich & Ghast Queen Towers.%n2. Fighting Shulkers from the eggs you get from the Vending Machine.%n3. Manually crafting the shells.[/note]
+
+# Quest: Infinite Water Cell
+betterquesting.quest.GR94tIXOQvC2w5SttlezrQ.name=§2§l§nInfinite Water Cell
+betterquesting.quest.GR94tIXOQvC2w5SttlezrQ.desc=The ME Fluid Infinity Water Storage provides §24.5P§r water directly to your AE system, That's the equivalent of 2.25 million reservoir hatches, all conveniently packaged into one drive. %nMight come in handy...
 
 # Quest: Gold Barrel
 betterquesting.quest.GuylOTxSSraeAtj16fZ9-w.name=§c§lGold Barrel
