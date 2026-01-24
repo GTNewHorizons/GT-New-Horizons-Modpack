@@ -3,9 +3,23 @@
     "category": "music",
     "sounds": [
       {
-        "name": "music/game/flora",
+        "name": "dreamcraft:music/flora_sol_ix",
         "stream": true,
         "weight": 3
+      }
+    ]
+  },
+  "music.menu": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "dreamcraft:music/absolute_zero_sol_ix",
+        "stream": true
+      },
+      {
+        "name": "dreamcraft:music/sweet_dreams_aviators",
+        "stream": true
       }
     ]
   }

@@ -14,7 +14,7 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "dreamcraft:tile.BronzePlatedReinforcedStone"
+        "id:8": "dreamcraft:BronzePlatedReinforcedStone"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -62,7 +62,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:tile.BronzePlatedReinforcedStone"
+          "id:8": "dreamcraft:BronzePlatedReinforcedStone"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -79,7 +79,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:tile.SteelPlatedReinforcedStone"
+          "id:8": "dreamcraft:SteelPlatedReinforcedStone"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -96,7 +96,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:tile.TitaniumPlatedReinforcedStone"
+          "id:8": "dreamcraft:TitaniumPlatedReinforcedStone"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -113,7 +113,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:tile.TungstensteelPlatedReinforcedStone"
+          "id:8": "dreamcraft:TungstensteelPlatedReinforcedStone"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -130,7 +130,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:tile.NaquadahPlatedReinforcedStone"
+          "id:8": "dreamcraft:NaquadahPlatedReinforcedStone"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -147,7 +147,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:tile.NeutroniumPlatedReinforcedStone"
+          "id:8": "dreamcraft:NeutroniumPlatedReinforcedStone"
         }
       },
       "taskID:8": "bq_standard:retrieval"
