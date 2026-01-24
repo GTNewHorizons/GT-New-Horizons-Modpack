@@ -54,7 +54,7 @@
           "Count:3": 4,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.SteelBars"
+          "id:8": "dreamcraft:SteelBars"
         },
         "2:10": {
           "Count:3": 1,
@@ -73,13 +73,13 @@
           "Count:3": 20,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnician"
+          "id:8": "dreamcraft:CoinTechnician"
         },
         "1:10": {
           "Count:3": 20,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinFarmer"
+          "id:8": "dreamcraft:CoinFarmer"
         }
       }
     }
