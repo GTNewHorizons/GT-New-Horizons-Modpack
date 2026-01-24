@@ -65,15 +65,15 @@
 	<ToolTip ItemName="dreamcraft:CarbonPartHelmet" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
 	<ToolTip ItemName="dreamcraft:CarbonPartBoots" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
 	<ToolTip ItemName="dreamcraft:CarbonPartLeggings" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
-	<ToolTip ItemName="dreamcraft:tile.BloodyThaumium" ToolTip="§5Used for Blood Altar Tier 3 Pillars" NBT=""/>
-	<ToolTip ItemName="dreamcraft:tile.BloodyVoid" ToolTip="§5Used for Blood Altar Tier 4 Pillars" NBT=""/>
-	<ToolTip ItemName="dreamcraft:tile.BloodyIchorium" ToolTip="§5Used for Blood Altar Tier 6 Pillars" NBT=""/>
-	<ToolTip ItemName="dreamcraft:tile.BronzePlatedReinforcedStone" ToolTip="§3Hardness 60 §4Blast Resistance 200" NBT=""/>
-	<ToolTip ItemName="dreamcraft:tile.SteelPlatedReinforcedStone" ToolTip="§3Hardness 150 §4Blast Resistance 325" NBT=""/>
-	<ToolTip ItemName="dreamcraft:tile.TitaniumPlatedReinforcedStone" ToolTip="§3Hardness 200 §4Blast Resistance 450" NBT=""/>
-	<ToolTip ItemName="dreamcraft:tile.TungstensteelPlatedReinforcedStone" ToolTip="§3Hardness 250 §4Blast Resistance 575" NBT=""/>
-	<ToolTip ItemName="dreamcraft:tile.NaquadahPlatedReinforcedStone" ToolTip="§3Hardness 500 §4Blast Resistance 700" NBT=""/>
-	<ToolTip ItemName="dreamcraft:tile.NeutroniumPlatedReinforcedStone" ToolTip="§3Hardness 750 §4Blast Resistance 2000" NBT=""/>
+	<ToolTip ItemName="dreamcraft:BloodyThaumium" ToolTip="§5Used for Blood Altar Tier 3 Pillars" NBT=""/>
+	<ToolTip ItemName="dreamcraft:BloodyVoid" ToolTip="§5Used for Blood Altar Tier 4 Pillars" NBT=""/>
+	<ToolTip ItemName="dreamcraft:BloodyIchorium" ToolTip="§5Used for Blood Altar Tier 6 Pillars" NBT=""/>
+	<ToolTip ItemName="dreamcraft:BronzePlatedReinforcedStone" ToolTip="§3Hardness 60 §4Blast Resistance 200" NBT=""/>
+	<ToolTip ItemName="dreamcraft:SteelPlatedReinforcedStone" ToolTip="§3Hardness 150 §4Blast Resistance 325" NBT=""/>
+	<ToolTip ItemName="dreamcraft:TitaniumPlatedReinforcedStone" ToolTip="§3Hardness 200 §4Blast Resistance 450" NBT=""/>
+	<ToolTip ItemName="dreamcraft:TungstensteelPlatedReinforcedStone" ToolTip="§3Hardness 250 §4Blast Resistance 575" NBT=""/>
+	<ToolTip ItemName="dreamcraft:NaquadahPlatedReinforcedStone" ToolTip="§3Hardness 500 §4Blast Resistance 700" NBT=""/>
+	<ToolTip ItemName="dreamcraft:NeutroniumPlatedReinforcedStone" ToolTip="§3Hardness 750 §4Blast Resistance 2000" NBT=""/>
 	<ToolTip ItemName="EnderZoo:enderFragment" ToolTip="§11H Use in Personal Chunkloader" NBT=""/>
 	<ToolTip ItemName="dreamcraft:CoinChunkloaderTierI" ToolTip="§412H Chunkloader Coin, 24H in Passive Chunkloader, 48H in Personal Chunkloader" NBT=""/>
 	<ToolTip ItemName="dreamcraft:CoinChunkloaderTierII" ToolTip="§624H Chunkloader Coin, 48H in Passive Chunkloader, 96H in Personal Chunkloader" NBT=""/>
