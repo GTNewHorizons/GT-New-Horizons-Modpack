@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "If you want to pass multiple amps through your cleanroom walls, use a one-way Diode. Also handy to limit power when branching off a main power line to trunk lines that normally will not use as many amps, but that you want to prevent catching fire.",
+      "desc:8": "If you want to pass multiple amps through your cleanroom walls, use a one-way Diode. Also handy to limit power when branching off a main power line to trunk lines that normally will not use as many amps, but that you want to prevent catching fire.\n\nYou can make an HV version right away because soon you'll need to run HV machines in the cleanroom. Don't forget to put a transformer to run your MV machines for now though",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -28,7 +28,7 @@
       "simultaneous:1": 0,
       "snd_complete:8": "random.levelup",
       "snd_update:8": "random.levelup",
-      "taskLogic:8": "AND",
+      "taskLogic:8": "OR",
       "visibility:8": "NORMAL"
     }
   },
@@ -61,6 +61,23 @@
         "0:10": {
           "Count:3": 1,
           "Damage:2": 12635,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 12636,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }
