@@ -17,7 +17,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "No Description",
+      "desc:8": "The §5§lHeliocast Reinforcement§r (HR) module is the final §nExo-Foundry§r module unlocked in §9§lUIV§r. \n\nThe HR module finally allows you access to §9§lUIV+§r Fluid Solidifier recipes. Now you can cool Hypogen or create advanced reinforced glass types using the Foundry.\n\nThe HR module is also unique in being able to pair with itself. Having two or more §5HR§r modules on your Foundry will unlock \"§6Superstable Core§r\" and give these bonuses:\n\n- Two or more HR modules grant §2+75%§r speed \u0026 §c-10%§r EU per HR\n- Three or more HR modules grant §3+6§r Parallels per voltage tier \u0026 §2+0.1§r overclock factor per HR\n- Four total HR modules grant §2+2§r full overclocks\n\n[note]Note these are compounding effects; e.g. having three HR modules will grant those listed bonuses in addition to the bonuses attained from two HR modules.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,

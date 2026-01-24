@@ -5,6 +5,11 @@
       "questIDLow:4": -4646567102207181371
     },
     "1:10": {
+      "questIDHigh:4": 6393847662955875738,
+      "questIDLow:4": -8810543536998436147,
+      "type:1": 1
+    },
+    "2:10": {
       "questIDHigh:4": -3591845481632939088,
       "questIDLow:4": -5463418681646836872
     }
@@ -12,7 +17,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "No Description",
+      "desc:8": "Now that you\u0027ve unlocked the BHC \u0026 started Creon / Mellion production you can finally upgrade your Exo-Foundry!\n\nThese §6§lEternal Magnetic Chassis§r will allow your Foundry to have a maximum of three modules.\n\n[note]Checkout the Wiki if you need ideas on which modules to choose [url]https://wiki.gtnewhorizons.com/wiki/Exo-Foundry[/url][/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,

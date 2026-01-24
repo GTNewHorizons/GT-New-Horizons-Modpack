@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The Proto-Volt Stabilizer module (PVS) is one of the first three modules you unlock right away for use in the Exo-Foundry.\n\nThe PVS module is great for saving power. It will give an EU discount equal to (100 - ((100 - 10x) * 0.8^x))% where x is the number of PVS modules installed to the Foundry. \n\nSo, for a T1 Foundry, you can attain a 28% EU discount with one PVS module, and a 49% EU discount with two.\n\n[note]This can be combined with other modules unlocked in the future for further EU discounts and other special effects![/note]",
+      "desc:8": "The §5§lProto-Volt Stabilizer§r (PVS) module is one of the first three modules you unlock right away for use in the §nExo-Foundry§r.\n\nThe PVS module is a welcome addition for those who want to save power. It will give an EU discount equal to §2(100 - ((100 - 10x) * 0.8^x))%§r where x is the number of PVS modules installed to the Foundry. \n\nSo, for a T1 Foundry, you can attain a §c28%§r EU discount with one PVS module, and a §c49%§r EU discount with two.\n\n[note]This can be combined with other modules unlocked in the future for further EU discounts and other special effects![/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,

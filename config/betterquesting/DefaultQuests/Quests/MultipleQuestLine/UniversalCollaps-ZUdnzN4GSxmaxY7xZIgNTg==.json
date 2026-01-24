@@ -12,7 +12,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "No Description",
+      "desc:8": "The §5Universal Collapser§r (UC) module is the final module unlock for the §nExo-Foundry§r.\n\nThe UC module grants an imperfect overclock to the Foundry (§22x§r speed in exchange for §44x§r power) and increases the minimum number of casings by 20, leaving space for only 5 inputs (without an SCB module installed).\n\nThis becomes much more powerful if paired with the §5Hypercooler§r (HC) module to achieve \"§6Realized Potential§r\", giving a partial perfect overclock (§22x§r Speed in exchange for §42x§r power) and allowing eternity to be used as a coolant which grant an additional §23§r imperfect overclocks for doing so.\n\n[warn]Only one of these modules may be installed per Foundry.[/warn]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,

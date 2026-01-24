@@ -17,7 +17,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "No Description",
+      "desc:8": "The §5§lHypercooler§r (HC) module is the first §9§lUIV§r tier module you unlock for the §nExo-Foundry§r.\n\nThe HC module will require one of three different types of coolant be supplied to it via input hatch in exchange for giving overclock bonuses to the Foundry. The input hatch can be set in replacement of any Cryogenic Casing.\n\nAllowed Coolant Types:\n1. Supercoolant (§c100L/s§r) -\u003e §21§r Overclock\n2. Spacetime (§c50L/s§r) -\u003e §22§r Overclocks\n3. Eternity (§c25L/s§r) -\u003e §23§r Overclocks\n\n[note]Eternity can not actually be used as a coolant unless paired with another module unlocked later in UXV.[/note]\n\n[warn]Only one of these modules may be installed per Foundry.[/warn]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
