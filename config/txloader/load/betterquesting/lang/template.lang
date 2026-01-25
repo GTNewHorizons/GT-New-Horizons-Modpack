@@ -4411,6 +4411,10 @@ betterquesting.quest.SoOmxNJvRcqY-ofFsWbyoQ.desc=Once you get your first Hypogen
 betterquesting.quest.U12vBo4fQjOyzJ67qH7gUA.name=§9§l§nNo, it's not a Typo
 betterquesting.quest.U12vBo4fQjOyzJ67qH7gUA.desc=Stabilizing the neutron star of the Godforge was successful, but now you need something new to extract the power out of it into something usable. Your experiments lead you to using the newly discovered Mellion with a Transcendent Metal Nanite to create what seems like a crystal seed of some type, which exhibits perfect thermal conductance.%n%nProcessing this seed further into a solution, you realize you can grow this crystal into a slurry-like solution, which you decide to name [note]Phonon Transfer Medium[/note]. This incredible material displays exactly the properties you were looking for, and decide that now you can move forward with the second module of the Godforge.
 
+# Quest: T2 Exo-Foundry
+betterquesting.quest.UIg8uIZxS8K_JVlg7eZR9g.name=§9§l§nT2 Exo-Foundry
+betterquesting.quest.UIg8uIZxS8K_JVlg7eZR9g.desc=Now that you've unlocked the BHC & started Creon / Mellion production you can finally upgrade your §nExo-Foundry§r!%n%nThese §6§lEternal Magnetic Chassis§r will allow your Foundry to have a maximum of three modules.%n%n[note]Checkout the Wiki if you need ideas on which modules to choose [url]https://wiki.gtnewhorizons.com/wiki/Exo-Foundry[/url][/note]
+
 # Quest: Assembling on Steroids
 betterquesting.quest.WJ-SykCeTr2B-3SHz0mXZg.name=§9§l§nAssembling on Steroids
 betterquesting.quest.WJ-SykCeTr2B-3SHz0mXZg.desc=It has 16 parallels and can utilize advanced superconductors for improved yields in optical part recipes.%n%n[note]You can't create the Ultimate Battery in one step yet-that's much further down the line.[/note]
@@ -4644,6 +4648,10 @@ betterquesting.quest.bHFEDKAiTwGxaiyZEsmdjg.desc=The final external structural u
 # Quest: Simulating a Solar System
 betterquesting.quest.hNdNrT_aSKaYi_TnT7cowA.name=§4§l§nSimulating a Solar System
 betterquesting.quest.hNdNrT_aSKaYi_TnT7cowA.desc=Almost as expensive as the real one, right? Not to worry, this stargate and the current are only just the beginning.%n%n[note]Our journey reaches the current end, entering the UXV, aka EOH era.%n%nThe year is 2023, and the game continues to be pushed further and further. The EOH exists now, along with machine parts up to UXV. Multiblocks have gained endless amounts of quality of life, including sub 1-tick OC, batch mode, void protection, and numerous AE2 additions like Crafting Input Buses, Stocking Hatches, Level Maintainers and more. Automation has never been easier, yet the goal has never been placed farther. Naquadah Fuel now has many tiers and can compete into the late-game, even competing with (now fixed) Dyson, but outclassed by the huge amount of power a maximized EOH can make (12.8 TEU/t!).%n%nInitially the stargate recipe seemed impossible, requiring months of runtime on hundreds of maximized EOHs, requiring some adjustments to be more realistic to attain. After this was changed, the race began again, this time between §aJohny709§r and §aGDCloud§r. §aJohny§r burned out towards the end, and §aGDCloud§r was surpassed by a silent contender, §aStarStack§r, being the first to conquer this challenge on the §a26th of June, 2023§r.%n%nBeyond just the first, this era marked the beginning of the Group Run Era, with large runs such as §aBallers Run§r (setting this era into motion), §aBee Run§r (affecting wide change on the NH project and its management as a whole), and §aCell Run 2§r (the fastest ever Stargate run, in only 73 days, popularizing many automation techniques like Level Maintained lines).%n%nAdditionally, this version saw the first player achieve GTNH Gods, reaching Stargate in a 3rd run, earned by §aGDCloud§r as a part of §aCell Run 2§r on the §a23rd of June, 2024§r. Later this Stargate would see three others reach this goal, §aRamspace§r on the §a29th of September, 2024§r, and §aStaffiX§r and §aserenibyss§r in a group run on the §a17th of November, 2024§r.%n%nP.S.: Here's the list as usual:%n-Many new processing multiblocks like HILE, Fluid Shaper, Industrial Autoclave, etc.%n-Forge of the Gods, Black Hole Compressor, Antimatter power generation, Precise Assembler T4%n-DTPF Convergence, Component Assembly Line tiered bonuses, Mega Vac Subspace Cooling, MK5 fusion skips for Metastable Oganesson%n-Wireless Data Hatches, Wireless Optical Hatches, Uncertainty Resolution%n-Artificial Universe Cells, smart blocking mode[/note]
+
+# Quest: T3 Exo-Foundry
+betterquesting.quest.iLn_-6-LSk-wEOfi9muW3w.name=§4§l§nT3 Exo-Foundry
+betterquesting.quest.iLn_-6-LSk-wEOfi9muW3w.desc=Now that you have your hands on Eternity you can upgrade your §nExo-Foundry§r to the final tier!%n%nThe §6§lCelestial Magnetic Chassis§r will allow your Foundry to have a maximum of four modules installed, unlocking the most powerful combinations.%n%n[note]Checkout the Wiki if you need ideas on which modules to choose [url]https://wiki.gtnewhorizons.com/wiki/Exo-Foundry[/url][/note]
 
 # Quest: Your Lord and Saviour, UXV CoAL
 betterquesting.quest.smCKxKkMSeyIAUeFInS4hQ.name=§4§l§nYour Lord and Saviour, UXV CoAL
@@ -13524,6 +13532,14 @@ betterquesting.quest.25yJ-u9OSG-GiMnQY9vWfQ.desc=The Steel barrel also has 72 sl
 betterquesting.quest.3hN7FykMSJSWSykZiEWvfQ.name=§4§l§nIntegrated Ore Factory - All in One!
 betterquesting.quest.3hN7FykMSJSWSykZiEWvfQ.desc=The Integrated Ore Factory allows you to process ores through multiple processes at once.
 
+# Quest: Proto-Volt Stabilizer
+betterquesting.quest.4EIiMvbnT4S7X8CC4X4Clw.name=§5§l§nProto-Volt Stabilizer
+betterquesting.quest.4EIiMvbnT4S7X8CC4X4Clw.desc=The §5§lProto-Volt Stabilizer§r (PVS) module is one of the first three modules you unlock right away for use in the §nExo-Foundry§r.%n%nThe PVS module is a welcome addition for those who want to save power. It will give an EU discount equal to §2(100 - ((100 - 10x) * 0.8^x))%%§r where x is the number of PVS modules installed to the Foundry. %n%nSo, for a T1 Foundry, you can attain a §c28%%§r EU discount with one PVS module, and a §c49%%§r EU discount with two.%n%n[note]This can be combined with other modules unlocked in the future for further EU discounts and other special effects![/note]
+
+# Quest: Streamlined Casters
+betterquesting.quest.8BGpDDsCTrOjJ4DlZN0WQw.name=§5§l§nStreamlined Casters
+betterquesting.quest.8BGpDDsCTrOjJ4DlZN0WQw.desc=The §5§lStreamlined Casters§r (SC) module is one of the first three modules you unlock right away for use in the §nExo-Foundry§r.%n%nThe SC module functions as a powerful §2150%%§r speed bonus for the Foundry. If that's not enough for you, you can further amplify by another §2150%%§r for every SC module you install.%n%nIf this module paired with §5Superdense Casting Basins§r (SCB) module, you will unlock the "§6Optimum Production§r" bonus for §36§r extra parallels per voltage tier and a further §275%%§r speed increase.%n%n[note]This bonus is stackable with bonuses obtained from other modules you will unlock in the future![/note]
+
 # Quest: Copper Barrel
 betterquesting.quest.9B9CvQD0R8iLv-CBMTYZGQ.name=§c§lCopper Barrel
 betterquesting.quest.9B9CvQD0R8iLv-CBMTYZGQ.desc=The Copper barrel has 45 slots.
@@ -14060,6 +14076,10 @@ betterquesting.quest.E9atHD5uR9CC0G1qEeFDmQ.desc=Want even more speed on your wa
 betterquesting.quest.EDtFbLVvQX2Y5mQp84W9bw.name=§2§lA Portable Barrel?
 betterquesting.quest.EDtFbLVvQX2Y5mQp84W9bw.desc=As an upgrade to the barrels, EFR also adds the ever-familiar shulker box! The shulker box allows you to comfortably tote around its contents. You can find the research for them in the New Horizons tab of the Thaumonomicon.%n%nThese have seven additional tiers much like the barrels and chests that give you additional storage space. %n%nYou can dye any tier by shapelessly crafting them with a dye, and undye them by shapelessly crafting them alone. They §nwill§r retain their inventory. %n%n[note]There are many ways to obtain shulker shells:%n1. Fighting Shulkers in the Twilight Forest Lich & Ghast Queen Towers.%n2. Fighting Shulkers from the eggs you get from the Vending Machine.%n3. Manually crafting the shells.[/note]
 
+# Quest: Superdense Casting Basins
+betterquesting.quest.EWAWhpFvQY6nvgVeXSZoNQ.name=§5§l§nSuperdense Casting Basins
+betterquesting.quest.EWAWhpFvQY6nvgVeXSZoNQ.desc=The §5§lSuperdense Casting Basin§r (SCB) module is one of the first three modules you unlock right away for use in the §nExo-Foundry§r.%n%nThe SCB adds §312§r parallels per voltage tier and reduces the minimum number of Foundry casings by §236§r, giving you space for more inputs. %n%nIf this module paired with the §5Streamlined Casters§r (SC) module, you will unlock "§6Optimum Production§r", a bonus giving §36§r extra parallels per voltage tier and a §275%%§r speed increase.
+
 # Quest: Infinite Water Cell
 betterquesting.quest.GR94tIXOQvC2w5SttlezrQ.name=§2§l§nInfinite Water Cell
 betterquesting.quest.GR94tIXOQvC2w5SttlezrQ.desc=The ME Fluid Infinity Water Storage provides §24.5P§r water directly to your AE system, That's the equivalent of 2.25 million reservoir hatches, all conveniently packaged into one drive. %nMight come in handy...
@@ -14067,6 +14087,10 @@ betterquesting.quest.GR94tIXOQvC2w5SttlezrQ.desc=The ME Fluid Infinity Water Sto
 # Quest: Gold Barrel
 betterquesting.quest.GuylOTxSSraeAtj16fZ9-w.name=§c§lGold Barrel
 betterquesting.quest.GuylOTxSSraeAtj16fZ9-w.desc=The Gold barrel has 81 slots.
+
+# Quest: Heliocast Reinforcement
+betterquesting.quest.JCfcbke6SGO9KCPqXsTyaQ.name=§9§l§nHeliocast Reinforcement
+betterquesting.quest.JCfcbke6SGO9KCPqXsTyaQ.desc=The §5§lHeliocast Reinforcement§r (HR) module is the final §nExo-Foundry§r module unlocked in §9§lUIV§r. %n%nThe HR module finally allows you access to §9§lUIV+§r Fluid Solidifier recipes. Now you can cool Hypogen or create advanced reinforced glass types using the Foundry.%n%nThe HR module is also unique in being able to pair with itself. Having two or more §5HR§r modules on your Foundry will unlock "§6Superstable Core§r" and give these bonuses:%n%n- Two or more HR modules grant §2+75%%§r speed & §c-10%%§r EU per HR%n- Three or more HR modules grant §3+6§r Parallels per voltage tier & §2+0.1§r overclock factor per HR%n- Four total HR modules grant §2+2§r full overclocks%n%n[note]Note these are compounding effects; e.g. having three HR modules will grant those listed bonuses in addition to the bonuses attained from two HR modules.[/note]
 
 # Quest: Diamond Barrel
 betterquesting.quest.PjAewUoJTnilPpIT-Ce0tA.name=§2§lDiamond Barrel
@@ -14079,6 +14103,10 @@ betterquesting.quest.Q10xj-OrTE67wsWuTNCAAQ.desc=The Large Molecular Assembler i
 # Quest: Compact Storage
 betterquesting.quest.QNsm_wc0QO2g9C6_-vj2fA.name=§a§lCompact Storage
 betterquesting.quest.QNsm_wc0QO2g9C6_-vj2fA.desc=Now that you are starting to find more and more copper, you feel your wood chests are too small to hold all the stuff.%n%n[note]It's time to upgrade your wooden chests to copper chests! Higher tiers of chests can be upgraded cheaply by using upgrade items, but not all tier chests can be upgraded directly this way. You can also try the "Wood to Copper Chest Upgrade", but upgrading from wood to a tiered chest will not be any cheaper.[/note]%n%n[note]Upgraded chests cannot be connected into double chests.[/note]
+
+# Quest: Sentient Overclocker
+betterquesting.quest.Rg0l66VnRsKlUZ0VTO3ilA.name=§c§l§nSentient Overclocker
+betterquesting.quest.Rg0l66VnRsKlUZ0VTO3ilA.desc=The §5§lSentient Overclocker§r (SO) module is the sixth module of the §nExo-Foundry§r, and the only one unlocked in §c§lUMV§r.%n%nThe SO module, as you might imagine, increases the overclock factor of the Foundry by §20.35§r. This means that for every overclock provided to this machine, it will give a §235%%§r speed boost. %n%nFor example, if your Foundry has 1 overclock it should run at §32x§r base speed. However with this module it would instead run at §22.35x§r base speed (235%%). This then compounds if another overclock is added, so instead of running at §32x§r the speed of the first overclock, it will run again at §22.35x§r the speed of the first overclock, bringing it to a total of §25.52x§r speed (552%%).%n%nAdditionally, this module can pair with the §5Proto-Volt Stabilizer§r (PVS) module to unlock "§6Harmonic Efficiency§r" giving the Foundry a §c50%%§r EU discount and an additional §20.1§r overclock factor (2.45x§r instead of 2.35x).%n%n[warn]Only one of these modules may be installed per Foundry.[/warn]
 
 # Quest: Steel Chest?
 betterquesting.quest.V4jinTYRSueIrEqn90dRzQ.name=§c§lSteel Chest?
@@ -14104,6 +14132,10 @@ betterquesting.quest.XKKP2E5ORG-ju42dSDd3sw.desc=In order to compress singularit
 betterquesting.quest.Y4bRCOWFTgyxdTJXWXjFfA.name=§9§lMatter Manipulator MKI
 betterquesting.quest.Y4bRCOWFTgyxdTJXWXjFfA.desc=The MKI is where you really start unlocking the potential of the Matter Manipulator. It has a §264 Block§r range and a §264 Block/Second§r speed limit.%n%nUnlike it's prototype predecessor, you now have §5§l3 modes§r available:%n%n- §5§lGeometry§r: Places standard blocks in a selected and configurable shape.%n%n- §5§lCable§r: Allows you to place AE and GT cables & pipes in lines (and connect them automatically).%n%n- §5§lExchange§r: Allows you to swap large swaths of blocks like the TC Equal Trade Focus.%n%nAdditionally, the MKI can connect to your AE network to automatically transfer items and liquids. You can link the tool in your security terminal and use it while within wireless range.%n%nWhen something is placed in the world, the tool will §lpull§r from inventories in this order:%n1 - ME system%n2 - Player's inventory%n3 - Uplink§r%n%nWhen something is removed from the world, the tool will §lpush§r into inventories in this order:%n1 - ME system%n2 - Uplink%n3 - Player's inventory%n4 - The Ground (Items Only)%n%n[note]The MKI also comes with the ability to remove blocks, so there is no need for another excavation upgrade.[/note]
 
+# Quest: Universal Collapser
+betterquesting.quest.ZUdnzN4GSxmaxY7xZIgNTg.name=§4§l§nUniversal Collapser
+betterquesting.quest.ZUdnzN4GSxmaxY7xZIgNTg.desc=The §5Universal Collapser§r (UC) module is the final module unlock for the §nExo-Foundry§r.%n%nThe UC module grants an imperfect overclock to the Foundry (§22x§r speed in exchange for §44x§r power) and increases the minimum number of casings by 20, leaving space for only 5 inputs (without an SCB module installed).%n%nThis becomes much more powerful if paired with the §5Hypercooler§r (HC) module to achieve "§6Realized Potential§r", giving a partial perfect overclock (§22x§r Speed in exchange for §42x§r power) and allowing eternity to be used as a coolant which grant an additional §23§r imperfect overclocks for doing so.%n%n[warn]Only one of these modules may be installed per Foundry.[/warn]
+
 # Quest: Matter Manipulator MKIII
 betterquesting.quest._zwtTNh-SG6B4wp221XPcQ.name=§b§lMatter Manipulator MKIII
 betterquesting.quest._zwtTNh-SG6B4wp221XPcQ.desc=The MKIII is the final upgrade in the Matter Manipulator series, and grants you access to it's most heightened capabilities. With §210x§r the EU storage as the MKII, it also boasts an §5§lunlimited§r block range and can handle placing §21024 Blocks / Second§r.%n%nThe MKIII comes with all of the features of the MKII, except now with the ability to also use the §5§lQuantum Uplink§r, though you won't be able to build that multiblock until UV.
@@ -14127,6 +14159,10 @@ betterquesting.quest.eon8hLumTS-E7MYJ4TFT3w.desc=If you want to process your Eur
 # Quest: Silver Barrel
 betterquesting.quest.fhzjYvdATJuUQTMUO1pVvA.name=§c§lSilver Barrel
 betterquesting.quest.fhzjYvdATJuUQTMUO1pVvA.desc=The Silver barrel has 72 slots.
+
+# Quest: Hypercooler
+betterquesting.quest.h4k6r6ohQp2DJl07w8Boog.name=§9§l§nHypercooler
+betterquesting.quest.h4k6r6ohQp2DJl07w8Boog.desc=The §5§lHypercooler§r (HC) module is the first §9§lUIV§r tier module you unlock for the §nExo-Foundry§r.%n%nThe HC module will require one of three different types of coolant be supplied to it via input hatch in exchange for giving overclock bonuses to the Foundry. The input hatch can be set in replacement of any Cryogenic Casing.%n%nAllowed Coolant Types:%n1. Supercoolant (§c100L/s§r) -> §21§r Overclock%n2. Spacetime (§c50L/s§r) -> §22§r Overclocks%n3. Eternity (§c25L/s§r) -> §23§r Overclocks%n%n[note]Eternity can not actually be used as a coolant unless paired with another module unlocked later in UXV.[/note]%n%n[warn]Only one of these modules may be installed per Foundry.[/warn]
 
 # Quest: Multiblock Revolution
 betterquesting.quest.hEsmeH74S4aOOrROI1AHxQ.name=§c§lMultiblock Revolution
@@ -14175,6 +14211,10 @@ betterquesting.quest.t6xRGFm_S2SG6_-xNh8mwQ.desc=After embracing the dark side y
 # Quest: Thaumometric Essentia Cell
 betterquesting.quest.xdiDnTdpTgW6POwCuDlPgg.name=§9§l§nThaumometric Essentia Cell
 betterquesting.quest.xdiDnTdpTgW6POwCuDlPgg.desc=After meddling with the 4th Dimension, you've finally discovered a way to access its unlimited Essentia supply. The Thaumometric Essentia Cell is your tool for extracting Essentia from this boundless source—think of it as your unlimited magic credit card.
+
+# Quest: Exo-Foundry
+betterquesting.quest.ziczkJstQ7C0LgmnzTUTeA.name=§5§l§nExo-Foundry
+betterquesting.quest.ziczkJstQ7C0LgmnzTUTeA.desc=You didn't think we were going to force you to use the Mass Solidifier for the rest of the game did you? Imagine being compelled to make hundreds of those for gate... that would just be cruel!%n%n§lIntroducing the Exo-Foundry!§r %n%nThe §5Exo-Foundry§r is a direct upgrade to the §5Mass Solidifier§r, and just a few of them will be powerful enough to support your infrastructure for the rest of the game. But let's start off with one for now.%n%nThere are three separate tiers, and seven different modules. Each tier allows you to place more modules on the machine starting with two at T1 and ending with four at T3. Each module has it's own special set of abilities and you can combine them in unique ways to get a Foundry with the best fit for your infrastructure.%n%nThe questbook will explain the function of each module type, however the best way to view the information altogether is to use the GUI of the Foundry itself and the tooltips visible on the individual blocks. %n%n[note]For even more information regarding the precise mathematics of module combinations and interactions you can also check out the Wiki: [url]https://wiki.gtnewhorizons.com/wiki/Exo-Foundry[/url][/note]
 
 
 ### Quests in no quest lines ###
