@@ -21,7 +21,6 @@
     <loot item="Railcraft:part.rail" damage="3" weight="20" count_min="6" count_max="18"/>
     <loot item="Railcraft:part.rail" damage="4" weight="20" count_min="6" count_max="18"/>
     <loot item="Railcraft:fuel.coke" damage="0" weight="20" count_min="4" count_max="16"/>
-    <loot item="Railcraft:part.gear" damage="3" weight="5" count_min="1" count_max="8"/>
     <loot item="Railcraft:cart.tnt.wood" damage="0" weight="5" count_min="1" count_max="3"/>
     <loot item="Railcraft:cart.work" damage="0" weight="8" count_min="1" count_max="1"/>
     <loot item="Railcraft:tool.surveyor" damage="0" weight="5" count_min="1" count_max="1"/>

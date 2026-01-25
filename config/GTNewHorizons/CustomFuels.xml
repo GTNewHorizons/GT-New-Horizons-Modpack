@@ -2,22 +2,22 @@
 <CustomFuels>
     <FuelItem ItemName="minecraft:diamond" BurnTime="102400"/>
 	<FuelItem ItemName="minecraft:diamond_block" BurnTime="1024000"/>
-	<FuelItem ItemName="dreamcraft:tile.Charcoal" BurnTime="16000"/>
-	<FuelItem ItemName="dreamcraft:tile.CompressedCharcoal" BurnTime="144000"/>
-	<FuelItem ItemName="dreamcraft:tile.CompressedCoal" BurnTime="144000"/>
-	<FuelItem ItemName="dreamcraft:tile.CompressedCoalCoke" BurnTime="288000"/>
-	<FuelItem ItemName="dreamcraft:tile.DoubleCompressedCharcoal" BurnTime="1296000"/>
-	<FuelItem ItemName="dreamcraft:tile.DoubleCompressedCoal" BurnTime="1296000"/>
-	<FuelItem ItemName="dreamcraft:tile.DoubleCompressedCoalCoke" BurnTime="2592000"/>
-	<FuelItem ItemName="dreamcraft:tile.TripleCompressedCharcoal" BurnTime="11664000"/>
-	<FuelItem ItemName="dreamcraft:tile.TripleCompressedCoal" BurnTime="11664000"/>
-	<FuelItem ItemName="dreamcraft:tile.TripleCompressedCoalCoke" BurnTime="23328000"/>
-	<FuelItem ItemName="dreamcraft:tile.QuadrupleCompressedCharcoal" BurnTime="104976000"/>
-	<FuelItem ItemName="dreamcraft:tile.QuadrupleCompressedCoal" BurnTime="104976000"/>
-	<FuelItem ItemName="dreamcraft:tile.QuadrupleCompressedCoalCoke" BurnTime="209952000"/>
-	<FuelItem ItemName="dreamcraft:tile.QuintupleCompressedCharcoal" BurnTime="944784000"/>
-	<FuelItem ItemName="dreamcraft:tile.QuintupleCompressedCoal" BurnTime="944784000"/>
-	<FuelItem ItemName="dreamcraft:tile.QuintupleCompressedCoalCoke" BurnTime="1889568000"/>
+	<FuelItem ItemName="dreamcraft:Charcoal" BurnTime="16000"/>
+	<FuelItem ItemName="dreamcraft:CompressedCharcoal" BurnTime="144000"/>
+	<FuelItem ItemName="dreamcraft:CompressedCoal" BurnTime="144000"/>
+	<FuelItem ItemName="dreamcraft:CompressedCoalCoke" BurnTime="288000"/>
+	<FuelItem ItemName="dreamcraft:DoubleCompressedCharcoal" BurnTime="1296000"/>
+	<FuelItem ItemName="dreamcraft:DoubleCompressedCoal" BurnTime="1296000"/>
+	<FuelItem ItemName="dreamcraft:DoubleCompressedCoalCoke" BurnTime="2592000"/>
+	<FuelItem ItemName="dreamcraft:TripleCompressedCharcoal" BurnTime="11664000"/>
+	<FuelItem ItemName="dreamcraft:TripleCompressedCoal" BurnTime="11664000"/>
+	<FuelItem ItemName="dreamcraft:TripleCompressedCoalCoke" BurnTime="23328000"/>
+	<FuelItem ItemName="dreamcraft:QuadrupleCompressedCharcoal" BurnTime="104976000"/>
+	<FuelItem ItemName="dreamcraft:QuadrupleCompressedCoal" BurnTime="104976000"/>
+	<FuelItem ItemName="dreamcraft:QuadrupleCompressedCoalCoke" BurnTime="209952000"/>
+	<FuelItem ItemName="dreamcraft:QuintupleCompressedCharcoal" BurnTime="944784000"/>
+	<FuelItem ItemName="dreamcraft:QuintupleCompressedCoal" BurnTime="944784000"/>
+	<FuelItem ItemName="dreamcraft:QuintupleCompressedCoalCoke" BurnTime="1889568000"/>
 	<FuelItem ItemName="universalsingularities:universal.vanilla.singularity" BurnTime="58272000"/>
 	<FuelItem ItemName="universalsingularities:universal.general.singularity:3" BurnTime="116528000"/>
 	<FuelItem ItemName="Thaumcraft:ItemResource" BurnTime="8000"/>
