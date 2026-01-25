@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "If you want to pass multiple amps through your cleanroom walls, use a one-way Diode. Also handy to limit power when branching off a main power line to trunk lines that normally will not use as many amps, but that you want to prevent catching fire.\n\nYou can make an HV version right away because soon you'll need to run HV machines in the cleanroom. Don't forget to put a transformer to run your MV machines for now though",
+      "desc:8": "If you want to pass multiple amps through your cleanroom walls, use a one-way Diode. It's also handy when branching off a main power line to limit amps in thinner branches and prevent them from overloading and catching fire.\n\nAn MV Diode will suffice for now, but you can also consider making an HV Diode since you would need to run HV machines in the near future, and you won't have to wait for 100% cleanroom efficiency when upgrading to HV.\n\n[note]P.S.: Don't forget about an MV transformer if you choose the HV Diode way.[/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
