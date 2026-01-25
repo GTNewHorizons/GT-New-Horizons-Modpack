@@ -18,7 +18,7 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "dreamcraft:tile.BloodyThaumium"
+        "id:8": "dreamcraft:BloodyThaumium"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
@@ -102,7 +102,7 @@
           "Count:3": 8,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:tile.BloodyThaumium"
+          "id:8": "dreamcraft:BloodyThaumium"
         }
       },
       "taskID:8": "bq_standard:retrieval"

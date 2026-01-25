@@ -1089,10 +1089,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAC_w.desc=Tired of looking for ores by ha
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACaA.name=§2§lMercury
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACaA.desc=Mercury can be centrifuged out of redstone. If you find some cinnabar ore in a redstone vein or one of the infused stone veins you can use that too.
 
-# Quest: Fluid Canner
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACaQ.name=§2§lFluid Canner
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACaQ.desc=The fluid canner used to be the main way to fill cells, single-use batteries, and coolant cells. It was needed because direct interaction with cells was limited.%n%nNow everything is much easier and cells almost always work as expected, so you likely won't need this, even for molten redstone.%n%nHowever, if you want an electric hoe or treetap, you'll need to make IC2 batteries in a fluid canner.%n%nAnother interesting thing about this is it also works as a fluid uncanner. And maybe later you could fill a Lighter with it.
-
 # Quest: Sulfuric Acid
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACag.name=§2§lSulfuric Acid
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACag.desc=Combining sulfur trioxide and water in the chemical reactor will give you sulfuric acid for your single use acid batteries. You'll need to make sulfur dioxide first.%n%nOn the other hand if you've made some light fuel you'll have some spare hydrogen sulfide you can also turn into sulfuric acid (after a couple steps), and if you've automated it, you'll be drowning in it honestly. Once you can make an LCR, you can skip directly from HS to SA in one step. Keep in mind that you'll need all that acid for making stuff instead of for single use batteries by then.
@@ -1115,7 +1111,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACbw.desc=You can get Cadmium from Sphale
 
 # Quest: Basic Canner
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACcA.name=§2§lBasic Canner
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACcA.desc=The canning machine is used to fill batteries, fill cells with stuff (usually dust, not used that often), or to fill tin cans with any kind of food (HV+).%n%nAt LV-HV tier you can make batteries with sodium, cadmium, or lithium.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACcA.desc=The canning machine is used to fill batteries, fill or empty containers with fluids or ocassionally dusts, or to fill tin cans with any kind of food (HV+).%n%nAt LV-HV tier you can make batteries with sodium, cadmium, or lithium.
 
 # Quest: Portable Mob Spawners...? Cool!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACcg.name=§2§lPortable Mob Spawners...? Cool!
@@ -1812,7 +1808,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFiQ.desc=Birds falling out of the sky, f
 
 # Quest: You're Gonna Hate This in MV Too #6
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFxQ.name=§6§lYou're Gonna Hate This in MV Too #6
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFxQ.desc=The sixth item you'll need a lot of. For the scanner and the seismic prospector.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFxQ.desc=The sixth item you'll need a lot of, namely for the Scanner and the Seismic Prospector.
 
 # Quest: You're Gonna Hate This in MV Too #5
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFxg.name=§6§lYou're Gonna Hate This in MV Too #5
@@ -2157,7 +2153,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADrw.desc=There are a number of chemical 
 
 # Quest: You're Gonna Hate This 5 and 6 in HV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE0A.name=§5§lYou're Gonna Hate This 5 and 6 in HV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE0A.desc=Some machines need emitters and sensors, like the analyzer or the circuit assembler.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE0A.desc=Some machines need Emitters and Sensors, like the Scanner or the Circuit Assembler.
 
 # Quest: Ender Eyes
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE0Q.name=§5§lEnder Eyes
@@ -2514,7 +2510,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAE3Q.desc=Pumps, pistons, conveyor module
 
 # Quest: You're Gonna Hate This 5 and 6 in EV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE3g.name=§8§lYou're Gonna Hate This 5 and 6 in EV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE3g.desc=Some machines need emitters and sensors, like the analyzer or the circuit assembler.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE3g.desc=Some machines need Emitters and Sensors, like the Scanner or the Circuit Assembler.
 
 # Quest: Quantum Eye
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE3w.name=§8§lQuantum Eye
@@ -2602,7 +2598,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGdA.desc=Combine Sodium and Sulfur to ge
 
 # Quest: One Dragon Egg is Not Enough Mr Bond
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGdw.name=§8§lOne Dragon Egg is Not Enough Mr Bond
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGdw.desc=Dragon eggs are very rare and only drop after a dragon's death. How about I show you a way to recreate this powerful item out of a monster spawn egg?%n%nLet's start with step one. Using a mob spawn egg (any work, you can purchase one from the CCC tab if you do not have one), growth medium, and bacteria to create a bigger egg. This process needs one hour.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGdw.desc=Dragon eggs are very rare and only drop after a dragon's death. How about I show you a way to recreate this powerful item out of a monster spawn egg?%n%nLet's start with step one. Using a mob spawn egg (any work, you can purchase one from the Vending Machine if you do not have one), growth medium, and bacteria to create a bigger egg. This process needs one hour.
 
 # Quest: Egg Mutation
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGeA.name=§8§lEgg Mutation
@@ -2795,7 +2791,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFhQ.desc=Pumps, pistons, conveyor module
 
 # Quest: You're Gonna Hate This 5 and 6 in IV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFhg.name=§9§lYou're Gonna Hate This 5 and 6 in IV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFhg.desc=Some machines need emitters and sensors, like the analyzer or the circuit assembler.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFhg.desc=Some machines need Emitters and Sensors, like the Scanner or the Circuit Assembler.
 
 # Quest: Ceres Trip
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGAg.name=§9§lCeres Trip
@@ -3328,7 +3324,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAF0Q.desc=Pumps, pistons, conveyor module
 
 # Quest: Now You're Really Gonna Hate This 5 and 6 in LuV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF0g.name=§d§lNow You're Really Gonna Hate This 5 and 6 in LuV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF0g.desc=Some machines need emitters and sensors, like the analyzer or the circuit assembler.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF0g.desc=Some machines need Emitters and Sensors, like the Scanner or the Circuit Assembler.
 
 # Quest: Tier 6 (LuV)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF1Q.name=§d§lTier 6 (LuV)
@@ -3416,15 +3412,15 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKKg.desc=Now that you've finally gotten 
 
 # Quest: Fetching Tellurium
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKKw.name=§d§lFetching Tellurium
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKKw.desc=For Tellurium, you can do it these ways:%n%n1) EBF Crushed Lead Ore for 2 Tellurium Nuggets%n2) Make Rare Earth (III) out of Rare Earth using the strongest of acids and get it from Alburnite%n3) Toxic Everglades%n4) Once you have a Void Miner, you can place it in the Overworld to obtain Tellurium.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKKw.desc=For Tellurium, you can do it these ways:%n%n1) EBF Crushed Lead Ore for 2 Tellurium Nuggets%n2) Make Rare Earth (III) out of Rare Earth using the strongest of acids and get it from Alburnite%n3) Toxic Everglades%n4) Once you have a Void Miner, you can place it in the Overworld to obtain Tellurium.%n5) Process Platinum Ore in an Isamill Grinder & Flotation Cell for the froth, then set in a Vacuum Furnace.
 
 # Quest: Fetching Cubic Zirconia
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKLA.name=§d§lFetching Cubic Zirconia
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKLA.desc=For Cubic Zirconia, you'll need to combine Zirconium and Yttrium Oxide in the EBF as well. Fortunately you only need the dusts.%n%nYou can get Zirconium from:%n1) The Red Zircon ore on Ross128b <- Do this one%n2) Sifting Cassiterite, Tin, or Ilmenite <- Do this one if you hate Ross%n%nOxygen isn't hard to get, but the Yttrium more than makes up for it. You have a couple options:%n1) Make Rare Earth (I) out of Rare Earth (see the MV quest) and get it out of Xenotime%n2) Make Rare Earth (II) out of Rare Earth using a stronger acid and get it from Yttriaite%n3) When you have a T6 rocket, you can pick some Yttrium ore up from Triton, making you cry at how much easier it is%n4) In ZPM you can try going to the Toxic Everglades to grab weird GT++ ores, some of which have Yttrium in them (Yay RNG ore worldgen!)%n%nTo get Rare Earth you §ocan§r use Redstone or Skystone, but you can also get it out of Monazite directly or some other ores as a byproduct. Hopefully you saved it up?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKLA.desc=For Cubic Zirconia, you'll need to combine Zirconium and Yttrium Oxide in the EBF as well. Fortunately you only need the dusts.%n%nYou can get Zirconium from:%n1) The Red Zircon ore on Ross128b <- Do this one%n2) Sifting Cassiterite, Tin, or Ilmenite <- Do this one if you hate Ross%n%nOxygen isn't hard to get, but the Yttrium more than makes up for it. You have a couple options:%n1) Make Rare Earth (I) out of Rare Earth (see the MV quest)%n2) Make Rare Earth (II) out of Rare Earth using a stronger acid and get it from Yttriaite%n3) When you have a T6 rocket, you can pick some Yttrium ore up from Triton, making you cry at how much easier it is%n4) In ZPM you can try going to the Toxic Everglades to grab weird GT++ ores, some of which have Yttrium in them (Yay RNG ore worldgen!)%n5) Process Almandine Ore (found in Twilight Forest) in an Isamill Grinder & Flotation Cell for the froth, then set in a Vacuum Furnace.%n%nTo get Rare Earth you §ocan§r use Redstone or Skystone, but you can also get it out of Monazite directly or some other ores as a byproduct. Hopefully you saved it up?
 
 # Quest: Fetching Prasiolite
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKLQ.name=§d§lFetching Prasiolite
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKLQ.desc=For Prasiolite you'll want to put Quartzite and Amethyst in an EBF to get Flawed Prasiolite. You'll need to either use the Implosion Compressor or Precision Laser Engraver to up the quality to Exquisite. You'll also need the dust version as well, so don't convert them all.%n%nFor the amount of Amethyst you'll need, you'll want to make a stop on Venus.%n%nIf you have a T5 rocket, you can get the ore from Ross128ba directly and run it through the sifter.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKLQ.desc=For Prasiolite you'll want to put Quartzite and Amethyst in an EBF to get Flawed Prasiolite. You'll need to either use the Implosion Compressor or Precision Laser Engraver to up the quality to Exquisite. You'll also need the dust version as well, so don't convert them all.%n%nYou can find Amethyst in caves on the Overworld, but for the amount you'll need, you might want to make a stop on Venus.%n%nIf you have a T5 rocket, you can get the ore from Ross128ba directly and run it through the sifter.
 
 # Quest: RNG is Definitely Good Game Design
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKLg.name=§d§lRNG is Definitely Good Game Design
@@ -4353,7 +4349,7 @@ betterquesting.quest.6OibD9bRQwq_hBPWz-y9xQ.desc=As the materials around you ach
 
 # Quest: Ultimate Voltages Require Ultimate Lubricant™!
 betterquesting.quest.8JcG3DR5QU6_FbhIWHm05g.name=§9§l§nUltimate Voltages Require Ultimate Lubricant™!
-betterquesting.quest.8JcG3DR5QU6_FbhIWHm05g.desc=For your UIV components to work their interdimensional magic, you're going to need some dimensional border easing lubricant to not cause a universal collapse.
+betterquesting.quest.8JcG3DR5QU6_FbhIWHm05g.desc=For your UIV components to work their interdimensional magic, you're going to need some dimensional border easing lubricant to not cause a universal collapse.%n%n[note]Tip: You can use this in place of Lubricant in your Cutting Machine for faster processing![/note]
 
 # Quest: Another Type of Steel
 betterquesting.quest.8OMu4RdgQhyZqXRid6n-Wg.name=§9§l§nAnother Type of Steel
@@ -7632,7 +7628,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHHA.desc=The L.E.S.U. is one of the olde
 
 # Quest: Manual Transformer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHHg.name=Manual Transformer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHHg.desc=Annoyed by building chains of transformers? Don't want an Explosion Risk at your base? Want to use these fancy 64A Hatches and Dynamos from TecTech to convert your power? Make a Manual Dynamo and convert it all!%n%n[note]Also needs a muffler, energy hatch, and dynamo. Not guaranteed to work, wishing you all the best though.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHHg.desc=Annoyed by building chains of transformers? Don't want an Explosion Risk at your base? Want to use these fancy 64A Hatches and Dynamos from TecTech to convert your power? Make a Manual Dynamo and convert it all!%n%nHatches placed must be touching a Transformer-Winding block, with dynamo hatches being on the top and energy hatches being on the bottom. The height of the Transformer-Winding blocks can be optionally extended up to 8 blocks.%n%n[note]Also needs a muffler, energy hatch, and dynamo. Not guaranteed to work, wishing you all the best though.[/note]
 
 # Quest: L.E.S.U. Upgrade - LV Tier
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHIQ.name=L.E.S.U. Upgrade - LV Tier
@@ -8143,7 +8139,7 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAAGg.desc=A series of questlines dedi
 
 # Quest: Basis for All Reactors
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMSQ.name=Basis for All Reactors
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMSQ.desc=Nuclear energy is first available in EV. However, it comes in all shapes and forms, and it can be hard to choose one kind of setup to use amongst all of those that are available. To start this questbook page, this first quest will be a summary of how nuclear power can be produced, and when it is available. Other quests down the line will have more details about each specific setup, but this is an overview of all of them.%n%nThe first nuclear source you have access to is the Industrialcraft 2 Nuclear Reactor, usually called a nuke. It's a small singleblock that can have additional chambers attached to it to make a multiblock structure, and the amount of chambers decides the amount of space available for the nuke's components. Inside it, fuel rods with radioactive materials generate power, and every other item serves to control the temperature of the reactor and keep it from exploding. It generates EU directly, but it can be upgraded to a fluid nuke, which outputs hot coolant instead, for the Large Heat Exchanger, but with more efficiency. Lastly, there's also the vacuum nuke, which is very similar to regular nukes but it cools down by using Coolant Cells, which wear out and are only reusable by using Vacuum Freezers. Usual fuels for all of these are Thorium, in EV, and Uranium, in IV.%n%nBetween IV and LuV, there's another kind of reactor, the Liquid Fluoride Thorium Reactor (LFTR). In this large multi, the Thorium and Uranium are mixed with very hot, molten salts (which need to be prepared in another multi), improving the power generation at the cost of additional processing. It's an expensive setup, but the depleted fuel can be recycled into many more byproducts than usual, especially at LuV, where you can get almost all the noble gases amongst other things, alongside huge amounts of power.%n%nAt those same tiers (albeit mostly for LuV and above), there are also two larger multis, the Thorium High Temperature Reactor (THTR) and the High Temperature Gas-cooled Reactor (HTGR). The THTR is mostly for power, needing an input of about 0.5 IV amps and outputting LuV power at a varied amount of amps, whereas the HTGR is a breeder reactor, outputting 1/20 the amount of hot coolant, which is where the power generation comes from, but with much better ratios for breeding into Lutetium and other elements.%n%nAnother kind of nuclear reactor is the Good Generators Naquadah Reactor, which coincidentally has recipes to consume Thorium Liquid Fuel and Uranium Liquid Fuel, alongside the several types of Naquadah fuel that exist. With these two, this reactor can process those elements much faster than regular nukes, which is helpful for power and for breeding, but it requires more processing until those fuels are ready to be consumed. Additionally, there are fuel rods for the IC2 nukes that use different Thorium and Uranium fuels, more or less related to these.%n%nIn LuV and beyond, there's also fusion power. The infamous GregTech Fusion Reactors work by fusing two elements into a new one, which is often a required step for progression, but they also turn the power they require into exponentially more in the way of plasma. Helium and Tin Plasma are some of the most used for power, and putting them into Plasma Turbines is an excellent source of power for lategame, in ZPM to UEV and so on. There are 4 tiers to the regular Fusion Reactors, but there is also compact fusion and some other kinks to fusion that you might explore later on.%n%nThis page will mostly serve to guide you into making a choice between all of these possibilities. It's pretty much guaranteed that you'll use at least 2-3 of these setups, so try to get comfortable with these quest descriptions.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMSQ.desc=Nuclear energy is first available in EV. However, it comes in all shapes and forms, and it can be hard to choose one kind of setup to use amongst all of those that are available. To start this questbook page, this first quest will be a summary of how nuclear power can be produced, and when it is available. Other quests down the line will have more details about each specific setup, but this is an overview of all of them.%n%nThe first nuclear source you have access to is the Industrialcraft 2 Nuclear Reactor, usually called a nuke. It's a small singleblock that can have additional chambers attached to it to make a multiblock structure, and the amount of chambers decides the amount of space available for the nuke's components. Inside it, fuel rods with radioactive materials generate power, and every other item serves to control the temperature of the reactor and keep it from exploding. It generates EU directly, but it can be upgraded to a fluid nuke, which outputs hot coolant instead, for the Large Heat Exchanger, but with more efficiency. Lastly, there's also the vacuum nuke, which is very similar to regular nukes but it cools down by using Coolant Cells, which wear out and are only reusable by using Vacuum Freezers. Usual fuels for all of these are Thorium, in EV, and Uranium, in IV.%n%nBetween IV and LuV, there's another kind of reactor, the Liquid Fluoride Thorium Reactor (LFTR). In this large multi, the Thorium and Uranium are mixed with very hot, molten salts (which need to be prepared in another multi), improving the power generation at the cost of additional processing. It's an expensive setup, but the depleted fuel can be recycled into many more byproducts than usual, especially at LuV, where you can get almost all the noble gases amongst other things, alongside huge amounts of power.%n%nAt those same tiers (albeit mostly for LuV and above), there are also two larger multis, the Thorium High Temperature Reactor (THTR) and the High Temperature Gas-cooled Reactor (HTGR). The THTR is mostly for power, needing an input of about 0.5 IV amps and outputting LuV power at a varied amount of amps, whereas the HTGR is a breeder reactor, outputting 1/20 the amount of hot coolant, which is where the power generation comes from, but with much better ratios for breeding into Lutetium and other elements.%n%nAnother kind of nuclear reactor is the Good Generators Naquadah Reactor, which coincidentally has recipes to consume Thorium Liquid Fuel and Uranium Liquid Fuel, alongside the several types of Naquadah fuel that exist. With these two, this reactor can process those elements much faster than regular nukes, which is helpful for power and for breeding, but it requires more processing until those fuels are ready to be consumed. Additionally, there are fuel rods for the IC2 nukes that use different Thorium and Uranium fuels, more or less related to these.%n%nIn LuV and beyond, there's also fusion power. The infamous GregTech Fusion Reactors work by fusing two elements into a new one, which is often a required step for progression, but they also turn the power they require into exponentially more in the way of plasma. Helium and Tin Plasma are some of the most used for power, and putting them into Plasma Turbines is an excellent source of power for lategame, in ZPM to UEV and so on. There are 5 tiers to the regular Fusion Reactors, but there is also compact fusion and some other kinks to fusion that you might explore later on.%n%nThis page will mostly serve to guide you into making a choice between all of these possibilities. It's pretty much guaranteed that you'll use at least 2-3 of these setups, so try to get comfortable with these quest descriptions.
 
 # Quest: Focus on Breeding
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMSg.name=Focus on Breeding
@@ -10046,10 +10042,6 @@ betterquesting.quest.CbUsVtoETCy-CB3AlgHRjg.desc=The Advanced Wireless Setup Kit
 betterquesting.quest.G5g_5_24RS6sqhmjFEbf8A.name=4096k Essentia Storage Cell
 betterquesting.quest.G5g_5_24RS6sqhmjFEbf8A.desc=These hold 8,388,608 units of essentia.%n%nAnd can hold 48 types.
 
-# Quest: Infinite Water Cell
-betterquesting.quest.GR94tIXOQvC2w5SttlezrQ.name=Infinite Water Cell
-betterquesting.quest.GR94tIXOQvC2w5SttlezrQ.desc=The ME Fluid Infinity Water Storage provides §24.5P§r water directly to your AE system, That's the equivalent of 2.25 million reservoir hatches, all conveniently packaged into one drive. %nMight come in handy...%n%n[note]Have fun making those fluid packets![/note]
-
 # Quest: Get Your Priorities Straight
 betterquesting.quest.Hbq2zJcoQbWK20-2A-kI1Q.name=Get Your Priorities Straight
 betterquesting.quest.Hbq2zJcoQbWK20-2A-kI1Q.desc=You might find yourself setting up complicated systems involving many storage buses with differing priorities. To make it less tedious, grab a priority card!%n%nThis tool allows you to set many buses to the same priority with a single click... but better yet, it also features §nincrement and decrement modes!§r Every time you click on a bus, the priority will be set to one higher/lower than the previous bus you clicked, so setting up large arrays of descending priorities is a breeze.
@@ -10140,7 +10132,7 @@ betterquesting.quest.opVg0YQ3RCiBbG62PozSLQ.desc=You have probably already seen 
 
 # Quest: Oceans in a Bottle
 betterquesting.quest.pDcGv1OwTsueRoVXFZ6wHw.name=Oceans in a Bottle
-betterquesting.quest.pDcGv1OwTsueRoVXFZ6wHw.desc=After managing to create an artificial universe capable of storing near-infinite amounts of items, you applied this same technology to your Fluid Digital Singularity Cell to create this truly magnificent piece of tech. This allows you to store up to 5 different types of fluids without the universe collapsing in on itself.
+betterquesting.quest.pDcGv1OwTsueRoVXFZ6wHw.desc=After managing to create an artificial universe capable of storing near-infinite amounts of items, you applied this same technology to your Fluid Digital Singularity Cell to create this truly magnificent piece of tech. This allows you to store up to 63 different types of fluids without the universe collapsing in on itself.
 
 # Quest: Adv. Stocking Bus
 betterquesting.quest.qvZq59qRQ2C5Uzm7J7B4UA.name=Adv. Stocking Bus
@@ -14067,6 +14059,10 @@ betterquesting.quest.E9atHD5uR9CC0G1qEeFDmQ.desc=Want even more speed on your wa
 # Quest: A Portable Barrel?
 betterquesting.quest.EDtFbLVvQX2Y5mQp84W9bw.name=§2§lA Portable Barrel?
 betterquesting.quest.EDtFbLVvQX2Y5mQp84W9bw.desc=As an upgrade to the barrels, EFR also adds the ever-familiar shulker box! The shulker box allows you to comfortably tote around its contents. You can find the research for them in the New Horizons tab of the Thaumonomicon.%n%nThese have seven additional tiers much like the barrels and chests that give you additional storage space. %n%nYou can dye any tier by shapelessly crafting them with a dye, and undye them by shapelessly crafting them alone. They §nwill§r retain their inventory. %n%n[note]There are many ways to obtain shulker shells:%n1. Fighting Shulkers in the Twilight Forest Lich & Ghast Queen Towers.%n2. Fighting Shulkers from the eggs you get from the Vending Machine.%n3. Manually crafting the shells.[/note]
+
+# Quest: Infinite Water Cell
+betterquesting.quest.GR94tIXOQvC2w5SttlezrQ.name=§2§l§nInfinite Water Cell
+betterquesting.quest.GR94tIXOQvC2w5SttlezrQ.desc=The ME Fluid Infinity Water Storage provides §24.5P§r water directly to your AE system, That's the equivalent of 2.25 million reservoir hatches, all conveniently packaged into one drive. %nMight come in handy...
 
 # Quest: Gold Barrel
 betterquesting.quest.GuylOTxSSraeAtj16fZ9-w.name=§c§lGold Barrel
