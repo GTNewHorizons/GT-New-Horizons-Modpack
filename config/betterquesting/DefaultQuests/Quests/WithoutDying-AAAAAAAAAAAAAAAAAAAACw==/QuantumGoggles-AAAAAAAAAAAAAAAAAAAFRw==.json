@@ -44,25 +44,6 @@
   "questIDLow:4": 1351,
   "rewards:9": {
     "0:10": {
-      "ignoreDisabled:1": 0,
-      "index:3": 0,
-      "rewardID:8": "bq_standard:item",
-      "rewards:9": {
-        "0:10": {
-          "Count:3": 5,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinDarkWizardII"
-        },
-        "1:10": {
-          "Count:3": 5,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianII"
-        }
-      }
-    },
-    "1:10": {
       "choices:9": {
         "0:10": {
           "Count:3": 5,
@@ -84,8 +65,27 @@
         }
       },
       "ignoreDisabled:1": 0,
-      "index:3": 1,
+      "index:3": 0,
       "rewardID:8": "bq_standard:choice"
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:CoinTechnicianII"
+        },
+        "1:10": {
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:CoinDarkWizardII"
+        }
+      }
     }
   },
   "tasks:9": {

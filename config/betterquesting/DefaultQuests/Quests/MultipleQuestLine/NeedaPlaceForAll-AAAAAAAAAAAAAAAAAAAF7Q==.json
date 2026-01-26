@@ -2,7 +2,7 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 932
+      "questIDLow:4": 81
     },
     "1:10": {
       "questIDHigh:4": 4668386637438996383,
@@ -12,6 +12,10 @@
     "2:10": {
       "questIDHigh:4": -5211701503747732636,
       "questIDLow:4": -8724598716517898559
+    },
+    "3:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1231
     }
   },
   "properties:10": {
@@ -66,13 +70,13 @@
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianI"
+          "id:8": "dreamcraft:CoinTechnicianI"
         },
         "1:10": {
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinSmithI"
+          "id:8": "dreamcraft:CoinSmithI"
         }
       }
     }

@@ -13,7 +13,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Finally, a use for all of these coins!\n\nThe §5§lVending Machine§r is a unique multiblock that allows you to exchange coins for valuable resources. You will progressively unlock new trades as you complete quests. Quests that unlock Vending Machine trades upon completion will show this information under the section labeled \"§lAssociated Vending Machine Exchanges§r\".\n\nAlternatively you can click \"§2U§r\" on the Vending Machine in NEI to see all available trades and what quests they are unlocked by. If an item can be traded for it will show up when clicking \"§2R§r\" under the Vending Machine tab.\n\nYou can put your coins directly into the input and they will appear in the internal storage. Additional inputs §3(including non-consumable)§r should be placed here as well. There is also a button for ejecting the coins if you need to reclaim them. \n\n[warn]Be aware, some trades have much longer timeout periods between claims![/warn]\n\n",
+      "desc:8": "Finally, a use for all of these coins!\n\nThe §5§lVending Machine§r is a unique multiblock that allows you to exchange coins for valuable resources. You will progressively unlock new trades as you complete quests. Quests that unlock Vending Machine trades upon completion will show this information under the section labeled \"§lAssociated Vending Machine Exchanges§r\".\n\nAlternatively you can click \"§2U§r\" on the Vending Machine in NEI to see all available trades and what quests they are unlocked by. If an item can be traded for it will show up when clicking \"§2R§r\" under the Vending Machine tab.\n\nYou can put your coins directly into the input and they will appear in the internal storage. Additional inputs §3(including non-consumable)§r should be placed here as well. There is also a button for ejecting the coins if you need to reclaim them. \n\n[warn]Be aware, some trades have much longer timeout periods between claims![/warn]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -64,7 +64,7 @@
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianI"
+          "id:8": "dreamcraft:CoinTechnicianI"
         }
       },
       "ignoreDisabled:1": 0,
@@ -80,7 +80,7 @@
           "Count:3": 10,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnician"
+          "id:8": "dreamcraft:CoinTechnician"
         }
       }
     }

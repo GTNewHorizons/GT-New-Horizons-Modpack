@@ -1,0 +1,31 @@
+{
+  "ores": [
+    "minecraft:sand:1:80",
+    "minecraft:sand:0:70",
+    "chisel:hempcretesand:0:60",
+    "chisel:hempcretesand:1:50",
+    "chisel:hempcretesand:2:50",
+    "chisel:hempcretesand:3:50",
+    "chisel:hempcretesand:4:50",
+    "chisel:hempcretesand:5:50",
+    "chisel:hempcretesand:6:50",
+    "chisel:hempcretesand:7:50",
+    "chisel:hempcretesand:8:50",
+    "chisel:hempcretesand:9:50",
+    "chisel:hempcretesand:10:50",
+    "chisel:hempcretesand:11:50",
+    "chisel:hempcretesand:12:50",
+    "chisel:hempcretesand:13:50",
+    "chisel:hempcretesand:14:50",
+    "chisel:hempcretesand:15:50",
+    "GalacticraftAmunRa:tile.baseFalling:1:5",
+    "minecraft:gravel:0:3"
+  ],
+  "filler": [
+    "BiomesOPlenty:hardSand:0:40"
+  ],
+  "radius": 20,
+  "cost": 700000,
+  "focusItem": "BiomesOPlenty:mud:1",
+  "fillerChance": 20
+}

@@ -47,7 +47,7 @@
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianI"
+          "id:8": "dreamcraft:CoinTechnicianI"
         }
       }
     }
@@ -57,7 +57,7 @@
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
+      "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
       "requiredItems:9": {
@@ -67,7 +67,7 @@
           "OreDict:8": "",
           "id:8": "EnderIO:itemMagnet",
           "tag:10": {
-            "Energy:4": 0
+            "Energy:3": 100000
           }
         }
       },

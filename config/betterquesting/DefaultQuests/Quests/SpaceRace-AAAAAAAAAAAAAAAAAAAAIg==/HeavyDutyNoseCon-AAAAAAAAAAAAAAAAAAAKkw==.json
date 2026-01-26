@@ -14,7 +14,7 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "dreamcraft:item.HeavyDutyNoseConeTier4"
+        "id:8": "dreamcraft:HeavyDutyNoseConeTier4"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
@@ -41,7 +41,7 @@
           "Count:3": 8,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.LeadOriharukonPlate"
+          "id:8": "dreamcraft:LeadOriharukonPlate"
         },
         "1:10": {
           "Count:3": 8,
@@ -53,7 +53,7 @@
           "Count:3": 16,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.MysteriousCrystalCompressedPlate"
+          "id:8": "dreamcraft:MysteriousCrystalCompressedPlate"
         },
         "3:10": {
           "Count:3": 1,
@@ -75,7 +75,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianIV"
+          "id:8": "dreamcraft:CoinTechnicianIV"
         }
       }
     }
@@ -93,13 +93,13 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.HeavyDutyNoseConeTier3"
+          "id:8": "dreamcraft:HeavyDutyNoseConeTier3"
         },
         "1:10": {
           "Count:3": 4,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.HeavyDutyPlateTier7"
+          "id:8": "dreamcraft:HeavyDutyPlateTier7"
         },
         "2:10": {
           "Count:3": 2,
@@ -122,7 +122,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.HeavyDutyNoseConeTier4"
+          "id:8": "dreamcraft:HeavyDutyNoseConeTier4"
         }
       },
       "taskID:8": "bq_standard:retrieval"

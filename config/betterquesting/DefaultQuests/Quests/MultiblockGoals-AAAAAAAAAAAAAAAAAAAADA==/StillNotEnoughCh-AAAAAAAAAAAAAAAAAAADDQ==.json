@@ -51,7 +51,7 @@
           "Count:3": 3,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:tile.TripleCompressedCharcoal"
+          "id:8": "dreamcraft:TripleCompressedCharcoal"
         }
       },
       "ignoreDisabled:1": 0,
@@ -67,7 +67,7 @@
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianI"
+          "id:8": "dreamcraft:CoinTechnicianI"
         }
       }
     }

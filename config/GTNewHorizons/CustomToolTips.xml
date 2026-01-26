@@ -48,46 +48,46 @@
 	<ToolTip ItemName="chisel:obsidianChisel" ToolTip="§5Chisel from Chisel Mod" NBT=""/>
 
 //Core Mod
-	<ToolTip ItemName="dreamcraft:item.OvenGlove" ToolTip="§3Put both Gloves in the Baubles Ring Slot" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.OvenGlove:1" ToolTip="§3Put both Gloves in the Baubles Ring Slot" NBT=""/>
+	<ToolTip ItemName="dreamcraft:OvenGlove" ToolTip="§3Put both Gloves in the Baubles Ring Slot" NBT=""/>
+	<ToolTip ItemName="dreamcraft:OvenGlove:1" ToolTip="§3Put both Gloves in the Baubles Ring Slot" NBT=""/>
 	<ToolTip ItemName="dreamcraft:dreamcraft_Pollution_bucket" ToolTip="§4Very toxic" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.NanoScubaHelmet" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.NanoPlatedLeggings" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.NanoChestJetPack" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.NanoRubberBoots" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.CarbonPartChestplate" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.QuantumPartHelmetEmpty" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.QuantumPartHelmet" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.QuantumPartLeggings" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.QuantumPartChestplate" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.QuantumPartBoots" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.CarbonPartHelmetNightVision" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.CarbonPartHelmet" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.CarbonPartBoots" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.CarbonPartLeggings" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
-	<ToolTip ItemName="dreamcraft:tile.BloodyThaumium" ToolTip="§5Used for Blood Altar Tier 3 Pillars" NBT=""/>
-	<ToolTip ItemName="dreamcraft:tile.BloodyVoid" ToolTip="§5Used for Blood Altar Tier 4 Pillars" NBT=""/>
-	<ToolTip ItemName="dreamcraft:tile.BloodyIchorium" ToolTip="§5Used for Blood Altar Tier 6 Pillars" NBT=""/>
-	<ToolTip ItemName="dreamcraft:tile.BronzePlatedReinforcedStone" ToolTip="§3Hardness 60 §4Blast Resistance 200" NBT=""/>
-	<ToolTip ItemName="dreamcraft:tile.SteelPlatedReinforcedStone" ToolTip="§3Hardness 150 §4Blast Resistance 325" NBT=""/>
-	<ToolTip ItemName="dreamcraft:tile.TitaniumPlatedReinforcedStone" ToolTip="§3Hardness 200 §4Blast Resistance 450" NBT=""/>
-	<ToolTip ItemName="dreamcraft:tile.TungstensteelPlatedReinforcedStone" ToolTip="§3Hardness 250 §4Blast Resistance 575" NBT=""/>
-	<ToolTip ItemName="dreamcraft:tile.NaquadahPlatedReinforcedStone" ToolTip="§3Hardness 500 §4Blast Resistance 700" NBT=""/>
-	<ToolTip ItemName="dreamcraft:tile.NeutroniumPlatedReinforcedStone" ToolTip="§3Hardness 750 §4Blast Resistance 2000" NBT=""/>
+	<ToolTip ItemName="dreamcraft:NanoScubaHelmet" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
+	<ToolTip ItemName="dreamcraft:NanoPlatedLeggings" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
+	<ToolTip ItemName="dreamcraft:NanoChestJetPack" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
+	<ToolTip ItemName="dreamcraft:NanoRubberBoots" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
+	<ToolTip ItemName="dreamcraft:CarbonPartChestplate" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
+	<ToolTip ItemName="dreamcraft:QuantumPartHelmetEmpty" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
+	<ToolTip ItemName="dreamcraft:QuantumPartHelmet" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
+	<ToolTip ItemName="dreamcraft:QuantumPartLeggings" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
+	<ToolTip ItemName="dreamcraft:QuantumPartChestplate" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
+	<ToolTip ItemName="dreamcraft:QuantumPartBoots" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
+	<ToolTip ItemName="dreamcraft:CarbonPartHelmetNightVision" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
+	<ToolTip ItemName="dreamcraft:CarbonPartHelmet" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
+	<ToolTip ItemName="dreamcraft:CarbonPartBoots" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
+	<ToolTip ItemName="dreamcraft:CarbonPartLeggings" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
+	<ToolTip ItemName="dreamcraft:BloodyThaumium" ToolTip="§5Used for Blood Altar Tier 3 Pillars" NBT=""/>
+	<ToolTip ItemName="dreamcraft:BloodyVoid" ToolTip="§5Used for Blood Altar Tier 4 Pillars" NBT=""/>
+	<ToolTip ItemName="dreamcraft:BloodyIchorium" ToolTip="§5Used for Blood Altar Tier 6 Pillars" NBT=""/>
+	<ToolTip ItemName="dreamcraft:BronzePlatedReinforcedStone" ToolTip="§3Hardness 60 §4Blast Resistance 200" NBT=""/>
+	<ToolTip ItemName="dreamcraft:SteelPlatedReinforcedStone" ToolTip="§3Hardness 150 §4Blast Resistance 325" NBT=""/>
+	<ToolTip ItemName="dreamcraft:TitaniumPlatedReinforcedStone" ToolTip="§3Hardness 200 §4Blast Resistance 450" NBT=""/>
+	<ToolTip ItemName="dreamcraft:TungstensteelPlatedReinforcedStone" ToolTip="§3Hardness 250 §4Blast Resistance 575" NBT=""/>
+	<ToolTip ItemName="dreamcraft:NaquadahPlatedReinforcedStone" ToolTip="§3Hardness 500 §4Blast Resistance 700" NBT=""/>
+	<ToolTip ItemName="dreamcraft:NeutroniumPlatedReinforcedStone" ToolTip="§3Hardness 750 §4Blast Resistance 2000" NBT=""/>
 	<ToolTip ItemName="EnderZoo:enderFragment" ToolTip="§11H Use in Personal Chunkloader" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.CoinChunkloaderTierI" ToolTip="§412H Chunkloader Coin, 24H in Passive Chunkloader, 48H in Personal Chunkloader" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.CoinChunkloaderTierII" ToolTip="§624H Chunkloader Coin, 48H in Passive Chunkloader, 96H in Personal Chunkloader" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.CoinChunkloaderTierIII" ToolTip="§248H Chunkloader Coin, 96H in Passive Chunkloader, 192H in Personal Chunkloader" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.CoinChunkloaderTierIV" ToolTip="§896H Chunkloader Coin, 192H in Passive Chunkloader, 384H in Personal Chunkloader" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.CoinChunkloaderTierV" ToolTip="§7192H Chunkloader Coin, 384H in Passive Chunkloader, 768H in Personal Chunkloader" NBT=""/>
+	<ToolTip ItemName="dreamcraft:CoinChunkloaderTierI" ToolTip="§412H Chunkloader Coin, 24H in Passive Chunkloader, 48H in Personal Chunkloader" NBT=""/>
+	<ToolTip ItemName="dreamcraft:CoinChunkloaderTierII" ToolTip="§624H Chunkloader Coin, 48H in Passive Chunkloader, 96H in Personal Chunkloader" NBT=""/>
+	<ToolTip ItemName="dreamcraft:CoinChunkloaderTierIII" ToolTip="§248H Chunkloader Coin, 96H in Passive Chunkloader, 192H in Personal Chunkloader" NBT=""/>
+	<ToolTip ItemName="dreamcraft:CoinChunkloaderTierIV" ToolTip="§896H Chunkloader Coin, 192H in Passive Chunkloader, 384H in Personal Chunkloader" NBT=""/>
+	<ToolTip ItemName="dreamcraft:CoinChunkloaderTierV" ToolTip="§7192H Chunkloader Coin, 384H in Passive Chunkloader, 768H in Personal Chunkloader" NBT=""/>
 	<ToolTip ItemName="minecraft:ender_pearl" ToolTip="§81H Chunkloader Use in Passive and 4H in Personal Chunkloader" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.CoinDonation" ToolTip="§4Can be used for Donation on Servers only" NBT=""/>
+	<ToolTip ItemName="dreamcraft:CoinDonation" ToolTip="§4Can be used for Donation on Servers only" NBT=""/>
 
 //Draconic Evolution
-	<ToolTip ItemName="dreamcraft:item.MalformedSlush" ToolTip="§2I hope you are not going to eat this later." NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.UncookedSlush" ToolTip="§4Heating up makes food better?" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.GlowingMarshmallow" ToolTip="§5Is it me or it just gained pixels from all that heat." NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.Marshmallow" ToolTip="§6I have a very wired feeling." NBT=""/>
+	<ToolTip ItemName="dreamcraft:MalformedSlush" ToolTip="§2I hope you are not going to eat this later." NBT=""/>
+	<ToolTip ItemName="dreamcraft:UncookedSlush" ToolTip="§4Heating up makes food better?" NBT=""/>
+	<ToolTip ItemName="dreamcraft:GlowingMarshmallow" ToolTip="§5Is it me or it just gained pixels from all that heat." NBT=""/>
+	<ToolTip ItemName="dreamcraft:Marshmallow" ToolTip="§6I have a very wired feeling." NBT=""/>
 
 //Electro-Magic Tools
 	<ToolTip ItemName="EMT:NanosuitGogglesRevealing" ToolTip="Recharge in a §eHV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="27"/>

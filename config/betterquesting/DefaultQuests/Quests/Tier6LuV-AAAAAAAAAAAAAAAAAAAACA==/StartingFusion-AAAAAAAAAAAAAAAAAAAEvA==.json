@@ -11,11 +11,6 @@
     "2:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 2607
-    },
-    "3:10": {
-      "questIDHigh:4": -7439799557305581253,
-      "questIDLow:4": -5895649105231252556,
-      "type:1": 1
     }
   },
   "properties:10": {
@@ -108,7 +103,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianIII"
+          "id:8": "dreamcraft:CoinTechnicianIII"
         }
       }
     }

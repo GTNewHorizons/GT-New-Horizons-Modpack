@@ -77,7 +77,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianII"
+          "id:8": "dreamcraft:CoinTechnicianII"
         }
       }
     }
@@ -135,7 +135,7 @@
           "Count:3": 36,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.StainlessSteelBars"
+          "id:8": "dreamcraft:StainlessSteelBars"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

@@ -65,7 +65,7 @@
           "Count:3": 50,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnician"
+          "id:8": "dreamcraft:CoinTechnician"
         }
       }
     }
@@ -129,7 +129,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.WoodenBrickForm"
+          "id:8": "dreamcraft:WoodenBrickForm"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -146,7 +146,7 @@
           "Count:3": 162,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.UnfiredSearedBrick"
+          "id:8": "dreamcraft:UnfiredSearedBrick"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

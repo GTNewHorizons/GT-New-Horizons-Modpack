@@ -2,13 +2,13 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 282
+      "questIDLow:4": 286
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Fools. FOOLS I say! They know nothing! This book will guide me, yes. Yes it will, my precious. It will lead us to even more POWER!\n\nAvailable in your local bookstore, and also occasionally found on Crimson Knights and Crimson Clerics.",
+      "desc:8": "Fools. FOOLS I say! They know nothing! This book will guide me, yes. Yes it will, my precious. It will lead us to even more POWER!\n\nAvailable in your local bookstore, and also occasionally found on Crimson Knights and Crimson Clerics.\n\n[note]NOTE: If you plan on hunting Crimson Knights \u0026 Crimson Clerics, you might want to set up a spawner because you\u0027ll likely need to kill a lot of these guys to obtain this book.[/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -57,7 +57,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinDarkWizardII"
+          "id:8": "dreamcraft:CoinDarkWizardII"
         }
       }
     }

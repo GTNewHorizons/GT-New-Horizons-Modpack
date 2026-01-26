@@ -3,7 +3,7 @@
 
 	<loot item="minecraft:brewing_stand" damage="0" weight="5" count_min="1" count_max="1"/>
 	<loot item="minecraft:enchanting_table" damage="0" weight="5" count_min="1" count_max="1"/>
-	<loot item="dreamcraft:item.AluminiumBars" damage="0" weight="20" count_min="4" count_max="8"/>
+	<loot item="dreamcraft:AluminiumBars" damage="0" weight="20" count_min="4" count_max="8"/>
 	<loot item="ProjRed|Transportation:projectred.transportation.pipe" damage="0" weight="20" count_min="4" count_max="8"/>
 	<loot item="ProjRed|Core:projectred.core.part" damage="44" weight="20" count_min="4" count_max="8"/>
 	<loot item="Forestry:chipsets" damage="0" nbt="{T:0s}" weight="10" count_min="1" count_max="2"/>

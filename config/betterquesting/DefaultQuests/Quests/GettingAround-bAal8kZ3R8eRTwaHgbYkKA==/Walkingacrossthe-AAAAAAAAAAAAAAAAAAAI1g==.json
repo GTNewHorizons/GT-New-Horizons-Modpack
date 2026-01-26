@@ -44,7 +44,7 @@
   "questIDLow:4": 2262,
   "rewards:9": {
     "0:10": {
-      "choices:9": {
+      "rewards:9": {
         "0:10": {
           "Count:3": 3,
           "Damage:2": 11,
@@ -58,17 +58,24 @@
               }
             }
           }
-        },
-        "1:10": {
-          "Count:3": 2,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinDarkWizardII"
         }
       },
       "ignoreDisabled:1": 0,
       "index:3": 0,
-      "rewardID:8": "bq_standard:choice"
+      "rewardID:8": "bq_standard:item"
+    },
+    "1:10": {
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:CoinDarkWizardII"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item"
     }
   },
   "tasks:9": {

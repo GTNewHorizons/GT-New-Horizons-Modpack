@@ -47,7 +47,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.EmeraldAdvancedCoreChip"
+          "id:8": "dreamcraft:EmeraldAdvancedCoreChip"
         }
       }
     },
@@ -60,7 +60,7 @@
           "Count:3": 4,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianII"
+          "id:8": "dreamcraft:CoinTechnicianII"
         }
       }
     }
