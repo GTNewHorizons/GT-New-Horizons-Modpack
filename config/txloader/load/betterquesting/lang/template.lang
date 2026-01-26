@@ -13894,7 +13894,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIGA.desc=Indeed you will be crying over 
 
 # Quest: Don't Put a Finger in That Socket
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIYA.name=§6§lDon't Put a Finger in That Socket
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIYA.desc=If you want to pass multiple amps through your cleanroom walls, use a one-way Diode. Also handy to limit power when branching off a main power line to trunk lines that normally will not use as many amps, but that you want to prevent catching fire.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIYA.desc=If you want to pass multiple amps through your cleanroom walls, use a one-way Diode. It's also handy when branching off a main power line to limit amps in thinner branches and prevent them from overloading and catching fire.%n%nAn MV Diode will suffice for now, but you can also consider making an HV Diode since you will need to run HV machines in the near future, and you won't have to wait for 100%% cleanroom efficiency again when upgrading to HV.%n%n[note]P.S.: Don't forget to use an HV->MV transformer if you choose the HV Diode.[/note]
 
 # Quest: E_TOO_MANY_KEYS
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIYQ.name=§9§lE_TOO_MANY_KEYS
