@@ -43,9 +43,6 @@
   "questIDLow:4": 1352,
   "rewards:9": {
     "0:10": {
-      "ignoreDisabled:1": 0,
-      "index:3": 0,
-      "rewardID:8": "bq_standard:choice",
       "choices:9": {
         "0:10": {
           "Count:3": 1,
@@ -59,7 +56,10 @@
           "OreDict:8": "",
           "id:8": "enhancedlootbags:lootbag"
         }
-      }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
     },
     "1:10": {
       "ignoreDisabled:1": 0,
