@@ -1868,7 +1868,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHGw.desc=Get yourself some Silicon Dioxi
 
 # Quest: Tantalum Ore
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHKw.name=§6§lTantalum Ore
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHKw.desc=Tantalum is used in the GT (optional) and Ender IO Capacitors, and is also a source for niobium. You can find Tantalite at Y 20-30 on the Overworld and at Y 20-30 in the Nether.%n%n§4Keep in mind you need an HV + Kanthal EBF and an MV Chemical Bath to get Tantalum Ingots.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHKw.desc=Tantalum is used in many important GT recipes, and is also a source for niobium. You can find Tantalite at Y 20-30 on the Overworld and at Y 20-30 in the Nether.%n%n[note]Tip: The Manganese you get from these ores can be used for EnderIO capacitors.[/note]%n%n§4Keep in mind you need an HV + Kanthal EBF and an MV Chemical Bath to get Tantalum Ingots.
 
 # Quest: All We Are is Dust in the Wind
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHOg.name=§6§lAll We Are is Dust in the Wind
@@ -3332,7 +3332,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAF1Q.desc=LuV-Level. You will need Rhodiu
 
 # Quest: Fluid TP for Magic-Haters
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGVQ.name=§d§lFluid TP for Magic-Haters
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGVQ.desc=Hate magic (and fluid P2P), but still want to TP fluids? TT has your back with the Ender Fluid Link Cover!%n%nPlace one on a tank and open the GUI.%nChannel: Covers with the same text will connect.%n%nPublic: Links to any of the same color not set to private. Use an internet program to find out what the numbers mean, and get colors you like.%nPrivate: Does not link to public version of that color. Meaningless in SP.%n%nImport: Exports from attached tank.%nExport: Send to attached tank.%n%nYou can use multiple as inputs and/or outputs. It runs at 8000L/t.%n%nYou can send §ofrom§r an output hatch or §oto§r an input hatch for multis. Probably won't work well for anything with multiple I/O, like a singleblock Chemical Reactor.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGVQ.desc=Hate magic (and fluid P2P), but still want to TP fluids? TT has your back with the Ender Fluid Link Cover!%n%nPlace one on a tank and open the GUI.%nChannel: Covers with the same text will connect.%n%nPublic: Links to any of the same color not set to private. Use an internet program to find out what the numbers mean, and get colors you like.%nPrivate: Does not link to public version of that color. Meaningless in SP.%n%nImport: Exports from attached tank and "into the cover"%nExport: Send to attached tank "from the cover"%n%nYou can use multiple as inputs and/or outputs. It runs at 8000L/t.%n%nYou can send §ofrom§r an output hatch or §oto§r an input hatch for multis. Probably won't work well for anything with multiple I/O, like a singleblock Chemical Reactor.
 
 # Quest: Thought Emitters Were Bad Enough?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGkA.name=§d§lThought Emitters Were Bad Enough?
@@ -4018,7 +4018,7 @@ betterquesting.quest.yo1cuNvYSU2JAczbJLAfjg.desc=We can process Crystal Processi
 
 # Quest: Elastic Singularity
 betterquesting.quest.zmLCpjodTjOklgwPb5bGSA.name=§2§l§nElastic Singularity
-betterquesting.quest.zmLCpjodTjOklgwPb5bGSA.desc=Now that you've created the Neutronium Compressor, you finally have access to the Elastic Singularity for enhancing your §5§lL.A.T.E.X.§r cable coater.%n%nWith it, you will recieve a §2§l25%%§r rubber discount, §2§l2§r additional parallels, and the ability to use multiamp hatches. %n%nYou are now truly a cable master.
+betterquesting.quest.zmLCpjodTjOklgwPb5bGSA.desc=Now that you've created the Neutronium Compressor, you finally have access to the Elastic Singularity for enhancing your §5§lL.A.T.E.X.§r cable coater.%n%nWith it, you will receive a §2§l25%%§r rubber discount, §2§l2§r additional parallels, and the ability to use multiamp hatches. %n%nYou are now truly a cable master.
 
 
 ## Quest Line: Tier 9 - UHV
@@ -4325,6 +4325,10 @@ betterquesting.quest.pLB6Sb0FSZ65cjWJ_Q4IIg.desc=Wireless Data Bank Transmission
 # Quest: UEV Superconductors
 betterquesting.quest.s6BLu9oMS86AXyR1FQ1imA.name=§5§l§nUEV Superconductors
 betterquesting.quest.s6BLu9oMS86AXyR1FQ1imA.desc=UEV superconductors, another great infinity sink. You can make the celestial tungsten and advanced nitinol in a laser engraver directly, but this is quite slow. Perhaps consider using the celestial tungsten plasma line?
+
+# Quest: UEV Field Generator
+betterquesting.quest.uUtOQgjtTCS5AWZPWG0qUQ.name=§5§l§nUEV Field Generator
+betterquesting.quest.uUtOQgjtTCS5AWZPWG0qUQ.desc=Expensive but worth it. These will allow you to create powerful machines like the QFT and the Foundry.
 
 # Quest: Infinity Breastplate
 betterquesting.quest.y-pBsDI2QGS3B9sGG0Pqsg.name=§5§l§nInfinity Breastplate
@@ -6926,7 +6930,7 @@ betterquesting.quest.fLH_QDPRR6mgCK0PL5iWmA.desc=This multiblock is the perfect 
 
 # Quest: Can It!
 betterquesting.quest.gMRufFtRRRa30LE21boFNQ.name=§5§lCan It!
-betterquesting.quest.gMRufFtRRRa30LE21boFNQ.desc=If you've ever needed to wait on a Canning Machine to fill up your supply of tin cans, or for a Fluid Canning Machine to make mountains of coolant, consider the TurboCan Pro. This multiblock acts as both machines and has significant bonuses - when the time comes that you decide you need it!
+betterquesting.quest.gMRufFtRRRa30LE21boFNQ.desc=If you've ever needed to wait on a Canning Machine to fill up your supply of tin cans, or  to make mountains of coolant, consider the TurboCan Pro. This multiblock acts as both machines and has significant bonuses - when the time comes that you decide you need it!
 
 # Quest: Spinmatron-2737
 betterquesting.quest.p4BZRIJZQKON4zmHeIqcoA.name=§b§lSpinmatron-2737
@@ -7119,7 +7123,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHTg.desc=The MV Combustion Generator bur
 
 # Quest: Fluid Regulator
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHZQ.name=§6§lFluid Regulator
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHZQ.desc=Turbines require precise amounts of fluids or else they will [warn]explode[/warn]. Use the fluid regulator on the pipe attached to the input bus to control the rate of fluids into the turbine. To raise the fluid limit, look at the right side of the regulator and:%n%n1L - Right-click with an empty hand%n16L - Right-click with a screwdriver%n256L - Right-click with a screwdriver while sneaking%n%nTo lower the fluid limit, do the same while looking at the left side.%n%nUse the Large Turbine Calculator and the Turbine stats sheet on the spreadsheet to find what to set it to (after deciding on a fuel). At GTNH, we do the math for you! For this at least.%n%n[note]If you shift-right-click on it you can use the interface which is more precise.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHZQ.desc=Turbines require precise amounts of fluids, and to moderate that you'll want a Fluid Regulator. Use the Fluid Regulator on the pipe attached to the input bus to control the rate of fluids into the turbine. To raise the fluid limit, look at the right side of the regulator and:%n%n1L - Right-click with an empty hand%n16L - Right-click with a screwdriver%n256L - Right-click with a screwdriver while sneaking%n%nTo lower the fluid limit, do the same while looking at the left side.%n%nUse the Large Turbine Calculator and the Turbine stats sheet on the spreadsheet to find what to set it to (after deciding on a fuel). At GTNH, we do the math for you! For this at least.%n%n[note]If you shift-right-click on it you can use the interface which is more precise.[/note]
 
 # Quest: Gas Turbine
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHZg.name=§6§lGas Turbine
@@ -8134,7 +8138,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMQg.desc=The last of the Large Boilers i
 
 # Quest: Huge Turbines And Loose Mode
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMQw.name=Huge Turbines And Loose Mode
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMQw.desc=If you are invested in making good IV power from Super Fuel, you will need a lot of Turbine multis. Their EU/t at optimal flow is much too low for you to survive with only one or two. However, there are several things you should consider in regards to these turbines, and the fuel you're using.%n%nIn summary, this fuel is very, very efficient. Turbines can be made faster by losing some efficiency. You have more than enough fuel efficiency to spare!%n%nLet's review this in more detail. Turbines produce EU based on the flow rate of the fuel that they are consuming. Their optimal flow represents the highest fuel efficiency they can reach (140%% or 150%% for the good turbines in these tiers), but you can increase the flow beyond that point and still get a higher EU/t value. However, the fuel becomes less efficient. A good tradeoff, if you need it.%n%nSteam loses efficiency quickly if you do this, though. The right way to pull this off with Steam Turbines is to switch to Loose mode, a mode unique to them, which makes the optimal flow shoot way up at a considerable loss to fuel efficiency. The jump in EU/t is so high, however, that you can replace a whole squadron of turbines with just one or two, as you can see if you look at the turbine items' tooltips.%n%nEach setup has their own details, so you will have to work things out and make personal decisions about how you will manage the turbines. Just make sure to not let the EU/t value go beyond the maximum that the dynamo hatch can output, or you will have problems!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMQw.desc=If you are invested in making good IV power from Super Fuel, you will need a lot of Turbine multis. Their EU/t at optimal flow is much too low for you to survive with only one or two. However, there are several things you should consider in regards to these turbines, and the fuel you're using.%n%nIn summary, this fuel is very, very efficient. Turbines can be made faster by losing some efficiency. You have more than enough fuel efficiency to spare!%n%nLet's review this in more detail. Turbines produce EU based on the flow rate of the fuel that they are consuming. Their optimal flow represents the highest fuel efficiency they can reach (140%% or 150%% for the good turbines in these tiers), but you can increase the flow beyond that point and still get a higher EU/t value. However, the fuel becomes less efficient. A good tradeoff, if you need it.%n%nSteam loses efficiency quickly if you do this, though. The right way to pull this off with Steam Turbines is to switch to Loose mode, a mode unique to them, which makes the optimal flow shoot way up at a considerable loss to fuel efficiency. The jump in EU/t is so high, however, that you can replace a whole squadron of turbines with just one or two, as you can see if you look at the turbine items' tooltips.%n%nEach setup has their own details, so you will have to work things out and make personal decisions about how you will manage the turbines. Just make sure to not let the EU/t value go beyond the maximum that the dynamo hatch can output, or you will waste power!
 
 # Quest: Distilling Benzene
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMRQ.name=Distilling Benzene
@@ -9668,7 +9672,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFJw.desc=The main processor for 16k and 
 
 # Quest: Co-Processing
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFLg.name=Co-Processing
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFLg.desc=Component of the crafting CPU which provides additional item delivery from the CPU to the ME Interface for crafting.%n%nThis can be used to make more assemblers active in parallel for the job, and thus increase overall crafting speed. These only help if your setup has steps properly separated, so the system can run multiple tasks in parallel, or even split the same pattern across multiple interfaces.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFLg.desc=Component of the crafting CPU which provides additional item delivery from the CPU to the ME Interface for crafting.%n%nThis can be used to make more machines active in parallel for the job, and thus increase overall crafting speed. %n%nEvery Co-Processor adds one AE2 operation per tick. AE2 uses operations to push items to interfaces, this speeds up the rate at which it can push into your machines. As a side benefit, AE2 will split a task between multiple interfaces with the same pattern (or simulated pattern like with P2P Interface). This means if you have two interfaces with the same pattern for the same item AE2 with no co-processors will only push to one of those interfaces until it is full (so, if the craft is small it may not split it at all) whereas with a co-processor it will round robin between the two by splitting its operations per tick.
 
 # Quest: Recipe Patterns
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFLw.name=Recipe Patterns
@@ -10790,7 +10794,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIdg.desc=Never having to use a treetap a
 
 # Quest: Oil
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIdw.name=Oil
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIdw.desc=Finally, Black Gold. The Oil bee, with proper... encouragement... can take care of all your power and chemical needs for quite some time. An alternate bee, Oily, provides slightly more oil but has a longer breeding chain. It is below the Magical bees. Breed them from Coal and Sticky Resin.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIdw.desc=Finally, Black Gold. The Oil bee, with proper... encouragement... can take care of all your power and chemical needs for quite some time. An alternate bee, Oily, requires less processing to get oil but has a longer breeding chain. It is below the Magical bees. Breed them from Coal and Sticky Resin.
 
 # Quest: Coal
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIeA.name=Coal
@@ -14214,7 +14218,7 @@ betterquesting.quest.xdiDnTdpTgW6POwCuDlPgg.desc=After meddling with the 4th Dim
 
 # Quest: Exo-Foundry
 betterquesting.quest.ziczkJstQ7C0LgmnzTUTeA.name=§5§l§nExo-Foundry
-betterquesting.quest.ziczkJstQ7C0LgmnzTUTeA.desc=You didn't think we were going to force you to use the Mass Solidifier for the rest of the game did you? Imagine being compelled to make hundreds of those for gate... that would just be cruel!%n%n§lIntroducing the Exo-Foundry!§r %n%nThe §5Exo-Foundry§r is a direct upgrade to the §5Mass Solidifier§r, and just a few of them will be powerful enough to support your infrastructure for the rest of the game. But let's start off with one for now.%n%nThere are three separate tiers, and seven different modules. Each tier allows you to place more modules on the machine starting with two at T1 and ending with four at T3. Each module has it's own special set of abilities and you can combine them in unique ways to get a Foundry with the best fit for your infrastructure.%n%nThe questbook will explain the function of each module type, however the best way to view the information altogether is to use the GUI of the Foundry itself and the tooltips visible on the individual blocks. %n%n[note]For even more information regarding the precise mathematics of module combinations and interactions you can also check out the Wiki: [url]https://wiki.gtnewhorizons.com/wiki/Exo-Foundry[/url][/note]
+betterquesting.quest.ziczkJstQ7C0LgmnzTUTeA.desc=You didn't think we were going to force you to use the Mass Solidifier for the rest of the game did you? Imagine being compelled to make hundreds of those for gate... that would just be cruel!%n%n§lIntroducing the Exo-Foundry!§r %n%nThe §5§lExo-Foundry§r is a direct upgrade to the §5Mass Solidifier§r, and just a few of them will be powerful enough to support your infrastructure for the rest of the game. But let's start off with one for now.%n%nThere are three separate tiers, and seven different modules. Each tier allows you to place more modules on the machine starting with two at T1 and ending with four at T3. Each module has it's own special set of abilities and you can combine them in unique ways to get a Foundry with the best fit for your infrastructure.%n%nThe questbook will explain the function of each module type, however the best way to view the information altogether is to use the GUI of the Foundry itself and the tooltips visible on the individual blocks. %n%n[note]For even more information regarding the precise mathematics of module combinations and interactions you can also check out the Wiki: [url]https://wiki.gtnewhorizons.com/wiki/Exo-Foundry[/url][/note]
 
 
 ### Quests in no quest lines ###
