@@ -2,13 +2,13 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 128
+      "questIDLow:4": 1867
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Tantalum is used in the GT (optional) and Ender IO Capacitors, and is also a source for niobium. You can find Tantalite at Y 20-30 on the Overworld and at Y 20-30 in the Nether.\n\n§4Keep in mind you need an HV + Kanthal EBF and an MV Chemical Bath to get Tantalum Ingots.",
+      "desc:8": "Tantalum is used in many important GT recipes, and is also a source for niobium. You can find Tantalite at Y 20-30 on the Overworld and at Y 20-30 in the Nether.\n\n[note]Tip: The Manganese you get from these ores can be used for EnderIO capacitors.[/note]\n\n§4Keep in mind you need an HV + Kanthal EBF and an MV Chemical Bath to get Tantalum Ingots.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
