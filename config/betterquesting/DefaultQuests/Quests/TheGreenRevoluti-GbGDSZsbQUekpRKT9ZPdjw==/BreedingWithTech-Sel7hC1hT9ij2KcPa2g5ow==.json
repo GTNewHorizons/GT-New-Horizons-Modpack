@@ -1,0 +1,55 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 3958176424477410122,
+      "questIDLow:4": -8623991914351216440
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "The Crop Breeder is a new single-block machine that allows players to breed new crops deterministically. It will consume two seeds (the parents), some sort of fertilizer and an optional catalyzer item for material-based plants. (usually a block of the material for ore-related crops)\r\n\nIt uses enriched liquid fertilizer to breed crops.\r\nThe cost is 1000L per tier of the offspring crop + 500L for each start point the new seed will have (it uses the average of the parents)\r\nSo a 31/31/31 tier 5 offspring would cost 51KL to breed.\n\nThe capacity should ensure that high-stat crop breeding using the breeder requires at least an HV breeding machine due to its fluid capacity. (It should be fine for those who can breed crops manually, since breeding machine-locked crops start appearing in HV.)\r\nThe base recipe time is 20 seconds and increases based on the tier of the material the crop outputs.\r\nThe power usage to breed any specific crop is based on it’s output materials.\r\nIdidine, osmianth and stargtatium are all IV recipes,\r\nTitania is EV\r\nBauxia is MV\r\nBecause the seed duplicator exists, I plan to have it eat the seeds if breeding fails.\r\nBred crops will always have stats that are the average of their parents; breeding two maxed-out crops will always give a maxed-out offspring.\r\nSuccess chance starts at 50% and increases by 10% for every tier past MV, meaning that at ZPM, it’s guaranteed. \r\nWith bees, having enough tubes and or maddening frames will guarantee the breeding even at earlier stages, so I’m fine with starting it with a higher chance, given that you can’t speed up the process at the minimum tier.\r\nI swear to god, if anybody makes it so there is no way to guarantee an output later on, I will teach you why the Canadians are responsible for a good chunk of the Geneva Convention. The hate I have for my luck is not to be underestimated. \r\nFor context: The first time I tried the success chance after implementing it, I failed 16 times in a row with a 50% chance.\r\n",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 28025,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Breeding With Technology",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 5325923841969573848,
+  "questIDLow:4": -6640373965889455709,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 28025,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

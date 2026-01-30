@@ -1,0 +1,43 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1510
+    },
+    "1:10": {
+      "questIDHigh:4": -3386790291524794961,
+      "questIDLow:4": -5427043695285873838,
+      "type:1": 2
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Instead of just using a biome-based modifier for nutrients and humidity, a crop will look for the tags of the biome it’s in and apply a modifier based on the number of “favoured” tags found in the biome.\r\n\nHaving the proper biome tags will provide a significant “nutrient” boost to your crops, resulting in a noticeable effect on growth speed. (+14 nutrient points per tag)\r\nYou can only benefit from up to 2 biome tags.\r\nIt is still possible to simulate up to 1 preferred biome tag by planting your crops in a high-humidity (80%+) location.\r\nThe bonus scales linearly with humidity between 50% and 80%.\r\nValues below 50% will not provide any bonuses.\r\nValues above 80% will cap the bonus at the equivalent of 1 preferred biome tag.\r\nIf any favoured biome tag is present in the current biome, the high humidity bonus will be ignored.\r\n",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "naturescompass:NaturesCompass",
+        "tag:10": {}
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Enviromental Preferences",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 2164260398161413693,
+  "questIDLow:4": -8567606770791078099,
+  "rewards:9": {},
+  "tasks:9": {}
+}
