@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CustomToolTips>
 //Misc
-	<ToolTip ItemName="appliedenergistics2:tile.BlockDrive" ToolTip="§4Do not move chests with AE drives; It may corrupt your profile. No refunds!" NBT=""/>
-	<ToolTip ItemName="appliedenergistics2:tile.BlockCreativeEnergyCell" ToolTip="§dInfinite Energy" NBT=""/>
-	<ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:690" ToolTip="§dInfinite Energy" NBT=""/>
-	<ToolTip ItemName="appliedenergistics2:tile.BlockCreativeEnergyController" ToolTip="§dInfinite Energy" NBT=""/>
 	<ToolTip ItemName="cb4bq:BlockREB" ToolTip="§4This block will RESET ALL YOUR QUESTS, starting over from Tier 0. Do NOT build or use unless you really mean it!" NBT=""/>
 	<ToolTip ItemName="EnderIO:blockFusedQuartz" ToolTip="§4Blast resistance is now 20. DOES NOT PROTECT AGAINST NUKES!" NBT=""/>
 	<ToolTip ItemName="EnderIO:blockTravelAnchor" ToolTip="Cooldown 2 seconds" NBT=""/>
@@ -290,30 +286,6 @@
 	<ToolTip ItemName="MagicBees:visAuraProvider" ToolTip="Must be within 6 blocks of magic apiary" NBT=""/>
 
 // Preconfigured storage buses
-    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 1" NBT='{priority: 1}'/>
-    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 2" NBT='{priority: 2}'/>
-    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 3" NBT='{priority: 3}'/>
-    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 4" NBT='{priority: 4}'/>
-    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 5" NBT='{priority: 5}'/>
-    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 6" NBT='{priority: 6}'/>
-    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 7" NBT='{priority: 7}'/>
-    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 8" NBT='{priority: 8}'/>
-    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 9" NBT='{priority: 9}'/>
-    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 10" NBT='{priority: 10}'/>
-    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 11" NBT='{priority: 11}'/>
-    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 12" NBT='{priority: 12}'/>
-    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 13" NBT='{priority: 13}'/>
-    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 14" NBT='{priority: 14}'/>
-    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 15" NBT='{priority: 15}'/>
-    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 16" NBT='{priority: 16}'/>
-    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 17" NBT='{priority: 17}'/>
-    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 18" NBT='{priority: 18}'/>
-    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 19" NBT='{priority: 19}'/>
-    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 20" NBT='{priority: 20}'/>
-    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 21" NBT='{priority: 21}'/>
-    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 22" NBT='{priority: 22}'/>
-    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 23" NBT='{priority: 23}'/>
-    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 24" NBT='{priority: 24}'/>
     <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 1" NBT='{priority: 1}'/>
     <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 2" NBT='{priority: 2}'/>
     <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 3" NBT='{priority: 3}'/>
