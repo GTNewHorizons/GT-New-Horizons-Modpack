@@ -31,17 +31,6 @@
 	<ToolTip ItemName="Backpack:backpack:217" ToolTip="Crafting Backpack with 18 Inventory Slots" NBT=""/>
 	<ToolTip ItemName="Backpack:backpack:31999" ToolTip="§4Disabled Item; No recipe" NBT=""/>
 
-//Buildcraft
-	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepowerdiamond" ToolTip="§310240 RF/t" NBT=""/>
-	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepoweremerald" ToolTip="§22560 RF/t" NBT=""/>
-	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepowergold" ToolTip="§62560 RF/t" NBT=""/>
-	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepoweriron" ToolTip="§91280 RF/t" NBT=""/>
-	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepowerquartz" ToolTip="§8640 RF/t" NBT=""/>
-	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepowerwood" ToolTip="§2320 RF/t" NBT=""/>
-	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepowersandstone" ToolTip="§5320 RF/t" NBT=""/>
-	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepowerstone" ToolTip="§b160 RF/t" NBT=""/>
-	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepowercobblestone" ToolTip="§480 RF/t" NBT=""/>
-
 //Chisel
 	<ToolTip ItemName="chisel:chisel" ToolTip="§5Chisel from chisel Mod" NBT=""/>
 	<ToolTip ItemName="chisel:diamondChisel" ToolTip="§5Chisel from Chisel Mod" NBT=""/>
