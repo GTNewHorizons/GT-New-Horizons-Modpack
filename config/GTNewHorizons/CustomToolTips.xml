@@ -27,17 +27,6 @@
 	<ToolTip ItemName="Backpack:backpack:217" ToolTip="Crafting Backpack with 18 Inventory Slots" NBT=""/>
 	<ToolTip ItemName="Backpack:backpack:31999" ToolTip="§4Disabled Item; No recipe" NBT=""/>
 
-//Buildcraft
-	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepowerdiamond" ToolTip="§310240 RF/t" NBT=""/>
-	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepoweremerald" ToolTip="§22560 RF/t" NBT=""/>
-	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepowergold" ToolTip="§62560 RF/t" NBT=""/>
-	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepoweriron" ToolTip="§91280 RF/t" NBT=""/>
-	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepowerquartz" ToolTip="§8640 RF/t" NBT=""/>
-	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepowerwood" ToolTip="§2320 RF/t" NBT=""/>
-	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepowersandstone" ToolTip="§5320 RF/t" NBT=""/>
-	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepowerstone" ToolTip="§b160 RF/t" NBT=""/>
-	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepowercobblestone" ToolTip="§480 RF/t" NBT=""/>
-
 //Chisel
 	<ToolTip ItemName="chisel:chisel" ToolTip="§5Chisel from chisel Mod" NBT=""/>
 	<ToolTip ItemName="chisel:diamondChisel" ToolTip="§5Chisel from Chisel Mod" NBT=""/>
@@ -125,29 +114,6 @@
 	<ToolTip ItemName="gregtech:gt.blockmachines:1154" ToolTip="§4Hot coolant steam output is increased by 5x" NBT=""/>
 	<ToolTip ItemName="gregtech:gt.blockmachines:1157" ToolTip="§bMay you have all the black gold you want, RIP Cerulean" NBT=""/>
 	<ToolTip ItemName="gregtech:gt.metaitem.01:8150" ToolTip="§b§lCrystallized shards stabilized by a maximized Godforge" NBT=""/>
-
-//Iron Chests
-	<ToolTip ItemName="IronChest:BlockIronChest" ToolTip="6*9 Inventory - 54 Slots" NBT=""/>
-	<ToolTip ItemName="IronChest:BlockIronChest:1" ToolTip="9*9 Inventory - 81 Slots" NBT=""/>
-	<ToolTip ItemName="IronChest:BlockIronChest:3" ToolTip="5*9 Inventory - 45 Slots" NBT=""/>
-	<ToolTip ItemName="IronChest:BlockIronChest:4" ToolTip="8*9 Inventory - 72 Slots" NBT=""/>
-	<ToolTip ItemName="IronChest:BlockIronChest:2" ToolTip="12*9 Inventory - 108 Slots" NBT=""/>
-	<ToolTip ItemName="IronChest:BlockIronChest:5" ToolTip="12*9 Inventory - 108 Slots" NBT=""/>
-	<ToolTip ItemName="IronChest:BlockIronChest:6" ToolTip="12*9 Inventory - 108 Slots §4Blast Proof" NBT=""/>
-	<ToolTip ItemName="IronChest:BlockIronChest:9" ToolTip="15*9 Inventory - 135 Slots" NBT=""/>
-
-//Iron Tanks
-	<ToolTip ItemName="BuildCraft|Factory:tankBlock" ToolTip="Stores up to 16 Buckets of one Liquid §4Not portable, use a dolly" NBT=""/>
-	<ToolTip ItemName="irontank:ironTank" ToolTip="Stores up to 32 Buckets of one Liquid §4Not portable, use a dolly" NBT=""/>
-	<ToolTip ItemName="irontank:goldTank" ToolTip="Stores up to 48 Buckets of one Liquid §4Not portable, use a dolly" NBT=""/>
-	<ToolTip ItemName="irontank:diamondTank" ToolTip="Stores up to 64 Buckets of one Liquid §4Not portable, use a dolly" NBT=""/>
-	<ToolTip ItemName="irontank:obsidianTank" ToolTip="Stores up to 64 Buckets of one Liquid §4Not portable, use a dolly (Blast Proof)" NBT=""/>
-	<ToolTip ItemName="irontank:copperTank" ToolTip="Stores up to 27 Buckets of one Liquid §4Not portable, use a dolly" NBT=""/>
-	<ToolTip ItemName="irontank:silverTank" ToolTip="Stores up to 43 Buckets of one Liquid §4Not portable, use a dolly" NBT=""/>
-	<ToolTip ItemName="irontank:emeraldTank" ToolTip="Stores up to 96 Buckets of one Liquid §4Not portable, use a dolly" NBT=""/>
-	<ToolTip ItemName="irontank:stainlesssteelTank" ToolTip="Stores up to 128 Buckets of one Liquid §4Not portable, use a dolly" NBT=""/>
-	<ToolTip ItemName="irontank:titaniumTank" ToolTip="Stores up to 256 Buckets of one Liquid §4Not portable, use a dolly" NBT=""/>
-	<ToolTip ItemName="irontank:tungstensteelTank" ToolTip="Stores up to 512 Buckets of one Liquid §4Not portable, use a dolly" NBT=""/>
 
 //IC2
 	<ToolTip ItemName="IC2:itemNightvisionGoggles" ToolTip="Recharge in a §7LV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="27"/>
@@ -284,31 +250,5 @@
 	<ToolTip ItemName="MagicBees:magicApiary" ToolTip="Effective production chance as a percent is\n2.8 * b^0.52 * (p + t)^0.52 * s^0.37\nwhere b is the base production chance as a percent,\np is the production modifier (additive, starts at -0.1 for the magic apiary),\nt is 1 for the magic apiary, and\ns is the speed value for the bee\nOutputs are generated at the end of every bee tick (27.5 seconds)\nPrimary outputs are rolled once with base chance, once with half\nWhen boosted, base p becomes 0.8, Mutation: 2x, Lifespan: 0.5x" NBT=""/>
 	<ToolTip ItemName="MagicBees:manaAuraProvider" ToolTip="Must be within 6 blocks of magic apiary" NBT=""/>
 	<ToolTip ItemName="MagicBees:visAuraProvider" ToolTip="Must be within 6 blocks of magic apiary" NBT=""/>
-
-// Preconfigured storage buses
-    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 1" NBT='{priority: 1}'/>
-    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 2" NBT='{priority: 2}'/>
-    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 3" NBT='{priority: 3}'/>
-    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 4" NBT='{priority: 4}'/>
-    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 5" NBT='{priority: 5}'/>
-    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 6" NBT='{priority: 6}'/>
-    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 7" NBT='{priority: 7}'/>
-    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 8" NBT='{priority: 8}'/>
-    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 9" NBT='{priority: 9}'/>
-    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 10" NBT='{priority: 10}'/>
-    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 11" NBT='{priority: 11}'/>
-    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 12" NBT='{priority: 12}'/>
-    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 13" NBT='{priority: 13}'/>
-    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 14" NBT='{priority: 14}'/>
-    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 15" NBT='{priority: 15}'/>
-    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 16" NBT='{priority: 16}'/>
-    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 17" NBT='{priority: 17}'/>
-    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 18" NBT='{priority: 18}'/>
-    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 19" NBT='{priority: 19}'/>
-    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 20" NBT='{priority: 20}'/>
-    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 21" NBT='{priority: 21}'/>
-    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 22" NBT='{priority: 22}'/>
-    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 23" NBT='{priority: 23}'/>
-    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 24" NBT='{priority: 24}'/>
 
 </CustomToolTips>
