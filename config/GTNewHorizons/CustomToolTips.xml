@@ -192,48 +192,6 @@
 	<ToolTip ItemName="TConstruct:CastingChannel" ToolTip="§3Some metals processed in smeltery don't meet the purity requirement for GregTech processing." NBT=""/>
 	<ToolTip ItemName="TConstruct:oreBerries" ToolTip="Can be placed on an empty IC2 Crop.\nRequires low light to be placed." NBT="" MetaStart="0" MetaEnd="5"/>
 
-//Railcraft tanks
-//Iron
-	<ToolTip ItemName="Railcraft:machine.beta" ToolTip="Has 16 buckets capacity per block" NBT=""/>
-	<ToolTip ItemName="Railcraft:machine.beta:1" ToolTip="Has 16 buckets capacity per block" NBT=""/>
-	<ToolTip ItemName="Railcraft:machine.beta:2" ToolTip="Has 16 buckets capacity per block \nAuto-Output from bottom side \nAuto-Output rate is 1000L/t" NBT=""/>
-//Steel
-	<ToolTip ItemName="Railcraft:machine.beta:13" ToolTip="Has 32 buckets capacity per block" NBT=""/>
-	<ToolTip ItemName="Railcraft:machine.beta:14" ToolTip="Has 32 buckets capacity per block" NBT=""/>
-	<ToolTip ItemName="Railcraft:machine.beta:15" ToolTip="Has 32 buckets capacity per block \nAuto-Output from bottom side \nAuto-Output rate is 1000L/t" NBT=""/>
-//Aluminium
-	<ToolTip ItemName="Railcraft:machine.zeta" ToolTip="Has 64 buckets capacity per block" NBT=""/>
-	<ToolTip ItemName="Railcraft:machine.zeta:1" ToolTip="Has 64 buckets capacity per block" NBT=""/>
-	<ToolTip ItemName="Railcraft:machine.zeta:2" ToolTip="Has 64 buckets capacity per block \nAuto-Output from bottom side \nAuto-Output rate is 1000L/t" NBT=""/>
-//Stainless
-	<ToolTip ItemName="Railcraft:machine.zeta:3" ToolTip="Has 128 buckets capacity per block" NBT=""/>
-	<ToolTip ItemName="Railcraft:machine.zeta:4" ToolTip="Has 128 buckets capacity per block" NBT=""/>
-	<ToolTip ItemName="Railcraft:machine.zeta:5" ToolTip="Has 128 buckets capacity per block \nAuto-Output from bottom side \nAuto-Output rate is 1000L/t" NBT=""/>
-//Titanium
-	<ToolTip ItemName="Railcraft:machine.zeta:6" ToolTip="Has 256 buckets capacity per block" NBT=""/>
-	<ToolTip ItemName="Railcraft:machine.zeta:7" ToolTip="Has 256 buckets capacity per block" NBT=""/>
-	<ToolTip ItemName="Railcraft:machine.zeta:8" ToolTip="Has 256 buckets capacity per block \nAuto-Output from bottom side \nAuto-Output rate is 1000L/t" NBT=""/>
-//Tungstensteel
-	<ToolTip ItemName="Railcraft:machine.zeta:9" ToolTip="Has 512 buckets capacity per block" NBT=""/>
-	<ToolTip ItemName="Railcraft:machine.zeta:10" ToolTip="Has 512 buckets capacity per block" NBT=""/>
-	<ToolTip ItemName="Railcraft:machine.zeta:11" ToolTip="Has 512 buckets capacity per block \nAuto-Output from bottom side \nAuto-Output rate is 1000L/t" NBT=""/>
-//Palladium
-	<ToolTip ItemName="Railcraft:machine.zeta:12" ToolTip="Has 1024 buckets capacity per block" NBT=""/>
-	<ToolTip ItemName="Railcraft:machine.zeta:13" ToolTip="Has 1024 buckets capacity per block" NBT=""/>
-	<ToolTip ItemName="Railcraft:machine.zeta:14" ToolTip="Has 1024 buckets capacity per block \nAuto-Output from bottom side \nAuto-Output rate is 1000L/t" NBT=""/>
-//Iridium
-	<ToolTip ItemName="Railcraft:machine.eta" ToolTip="Has 1536 buckets capacity per block" NBT=""/>
-	<ToolTip ItemName="Railcraft:machine.eta:1" ToolTip="Has 1536 buckets capacity per block" NBT=""/>
-	<ToolTip ItemName="Railcraft:machine.eta:2" ToolTip="Has 1536 buckets capacity per block \nAuto-Output from bottom side \nAuto-Output rate is 1000L/t" NBT=""/>
-//Osmium
-	<ToolTip ItemName="Railcraft:machine.eta:3" ToolTip= "Has 2048 buckets capacity per block" NBT=""/>
-	<ToolTip ItemName="Railcraft:machine.eta:4" ToolTip="Has 2048 buckets capacity per block" NBT=""/>
-	<ToolTip ItemName="Railcraft:machine.eta:5" ToolTip="Has 2048 buckets capacity per block \nAuto-Output from bottom side \nAuto-Output rate is 1000L/t" NBT=""/>
-//Neutronium
-	<ToolTip ItemName="Railcraft:machine.eta:6" ToolTip="Has 3072 buckets capacity per block" NBT=""/>
-	<ToolTip ItemName="Railcraft:machine.eta:7" ToolTip="Has 3072 buckets capacity per block" NBT=""/>
-	<ToolTip ItemName="Railcraft:machine.eta:8" ToolTip="Has 3072 buckets capacity per block \nAuto-Output from bottom side \nAuto-Output rate is 1000L/t" NBT=""/>
-
 //Cubic Zirconia
 	<ToolTip ItemName="bartworks:gt.bwMetaGenerateddust:4" ToolTip="§3Check Flawed Crystal recipe in EBF" NBT=""/>
 	<ToolTip ItemName="bartworks:gt.bwMetaGeneratedgem:4" ToolTip="§3Check Flawed Crystal recipe in EBF" NBT=""/>
