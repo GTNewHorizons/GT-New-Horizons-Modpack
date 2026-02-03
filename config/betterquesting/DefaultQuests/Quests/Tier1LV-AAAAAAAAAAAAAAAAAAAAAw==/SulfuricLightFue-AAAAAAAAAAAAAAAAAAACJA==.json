@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "You can distill your oil into light sulfuric fuel, that has a burn value of 40,000 EU.",
+      "desc:8": "You can distill your oil into Sulfuric Light Fuel, which has a burn value of 40,000 EU.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -20,7 +20,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§2§lLight Sulfuric Fuel",
+      "name:8": "§2§lSulfuric Light Fuel",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

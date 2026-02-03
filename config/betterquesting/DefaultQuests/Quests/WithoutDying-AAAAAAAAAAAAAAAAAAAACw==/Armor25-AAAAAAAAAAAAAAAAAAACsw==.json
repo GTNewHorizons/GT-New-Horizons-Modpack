@@ -155,10 +155,9 @@
       "taskID:8": "bq_standard:optional_retrieval"
     },
     "1:10": {
-      "allowAnvil:1": 0,
-      "allowCraft:1": 1,
-      "allowCraftedFromStatistics:1": 0,
-      "allowSmelt:1": 1,
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 1,
       "partialMatch:1": 1,
