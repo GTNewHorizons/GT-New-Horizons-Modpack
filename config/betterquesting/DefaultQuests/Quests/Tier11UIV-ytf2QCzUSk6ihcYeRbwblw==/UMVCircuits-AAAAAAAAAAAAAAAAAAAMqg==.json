@@ -18,12 +18,12 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "dreamcraft:item.PikoCircuit"
+        "id:8": "dreamcraft:PikoCircuit"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "UMV Circuits",
+      "name:8": "§9§l§nUMV Circuits",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -50,7 +50,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.PikoCircuit"
+          "id:8": "dreamcraft:PikoCircuit"
         }
       },
       "taskID:8": "bq_standard:retrieval"

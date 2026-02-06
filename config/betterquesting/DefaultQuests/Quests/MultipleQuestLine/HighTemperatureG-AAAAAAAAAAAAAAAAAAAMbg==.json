@@ -1,0 +1,90 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 213
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1707
+    },
+    "2:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3180
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Have you heard of gas-cooled reactors? Have you heard of Pebble Bed reactors? Well now you have both!\n\nThe High Temperature Gas-cooled Reactor (HTGR) uses specially prepared fuel pellets to heat coolant gas (helium) that\u0027s pumped in a closed loop through the reactor and heat exchangers. The reactor requires a constant supply of helium gas and power in order to power the pump that keeps the coolant loop working.\n\nThis reactor allows breeding of rare resources (§5Indium§r,§9Osmium§r), fissile materials (§aU235§r,§cPu239§r,§4Pu241§r), can supply you with §dLutetium§r and also unlocks alternative recipes for §dEuropium§r and §7Americium§r via the elusive §2Promethium§r.\n\nThe disadvantage of this reactor is it\u0027s expensive nature. Pebble reactors work by stuffing the reactor full of pebbles, none of which require rare resources but rather a large amount of common ones. Even though a lot can be recycled, you still need to keep the reactor filled to get decent speed. As a reward for this upkeep cost, you get a decent production for many different outputs.\n[note]\nNotes:\n\nHTGR has an internal buffer for fuel and gets faster the more fuel you put inside according to the formula §6eff\u003d1-(1-x)^3§r\n\nThis multi consumes 0.2A IV when operating and this amount increases when lacking helium gas. \nThe amount of Helium gas increases with the amount of helium gas stored.\n\nReactor speeds up immensely when supplied with either/both IC2 Coolant or Water, if the amount of supplied fluid is not full the bonus speed is applied linearly.\n\nBy typing HTGR in NEI, you can see all the items that are related to this multiblock.\n\nFor exact numbers visit HTGR-Controller-Tooltip.as/always\n[/note]",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 12791,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "§6§lHigh Temperature Gas-cooled Reactor",
+      "questLogic:8": "OR",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 3182,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 10,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:CoinTechnicianIII"
+        }
+      }
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 7,
+          "OreDict:8": "",
+          "id:8": "kubatech:kubaitems"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 12791,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

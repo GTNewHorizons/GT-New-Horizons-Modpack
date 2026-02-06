@@ -20,7 +20,7 @@
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§a§9§a§9§l§9§a§lPlaying With Dust in EV",
+      "name:8": "§8§lPlaying With Dust in EV",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -47,7 +47,7 @@
           "Count:3": 30,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.LapotronDust"
+          "id:8": "dreamcraft:LapotronDust"
         }
       },
       "ignoreDisabled:1": 0,
@@ -63,7 +63,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianII"
+          "id:8": "dreamcraft:CoinTechnicianII"
         }
       }
     },

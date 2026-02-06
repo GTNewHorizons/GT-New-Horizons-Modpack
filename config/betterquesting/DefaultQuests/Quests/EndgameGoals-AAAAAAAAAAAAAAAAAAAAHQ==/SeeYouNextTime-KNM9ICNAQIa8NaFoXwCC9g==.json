@@ -12,7 +12,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Still want more? Consider doing another run! Maybe even with some restrictions if you want to spice it up a bit. Check the first quest chapter for some recommendations!\n\nThere\u0027s also roles to be earned for completing the pack two or even three times if you want an extra incentive.\n\n[note]If you are going for 100% questbook completion, you can choose between this quest or \u0027The Factory Must Grow!\u0027, both are valid options.\nBe wary that choosing one will lock you out of the other though.[/note]",
+      "desc:8": "Still want more? Consider doing another run! Maybe even with some restrictions if you want to spice it up a bit. Check the first quest chapter for some recommendations!\n\nThere\u0027s also roles to be earned for completing the pack two or even three times if you want an extra incentive.\n\n[note]This quest and “The Factory Must Grow!” are mutually exclusive; completing one will lock the other.\r\n\r\nIf you are going for 100% questbook completion, don\u0027t panic, finishing either quest still allows the tab to receive a green check (much like the previous XOR quests).[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -31,7 +31,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "See You Next Time!",
+      "name:8": "§6§l§nSee You Next Time!",
       "questLogic:8": "XOR",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Having too much normal warp? Sanitizing Soap is too expensive for you?\n\nWell, luckily for you, you can remove your Warp using a Silverwood Smoking Pipe and some Relaxing Tobacco. This is a fairly cheap and sustainable option for removing your Normal warp (assuming you have a good option to get a lot of Vis).\n\nIt also has a chance to reduce your temporary warp.\n\n[note]The chance to reduce your normal warp per Relaxing Tobacco is 10%, so you\u0027ll be needing a bunch of it.[/note]\n",
+      "desc:8": "Having too much normal warp? Sanitizing Soap is too expensive for you?\n\nWell, luckily for you, you can remove your Warp using a Silverwood Smoking Pipe and some Relaxing Tobacco. This is a fairly cheap and sustainable option for removing your Normal warp (assuming you have a good option to get a lot of Vis).\n\nIt also has a chance to reduce your temporary warp.\n\n[note]The chance to reduce your normal warp per Relaxing Tobacco is 10%, so you\u0027ll be needing a bunch of it.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -104,7 +104,7 @@
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinDarkWizardI"
+          "id:8": "dreamcraft:CoinDarkWizardI"
         },
         "1:10": {
           "Count:3": 1,

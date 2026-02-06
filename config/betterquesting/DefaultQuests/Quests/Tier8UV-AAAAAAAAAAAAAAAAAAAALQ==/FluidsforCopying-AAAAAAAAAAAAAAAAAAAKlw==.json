@@ -42,7 +42,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Fluids for Copying Cultures",
+      "name:8": "§2§l§nFluids for Copying Cultures",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -95,7 +95,7 @@
           }
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:optional_retrieval"
     },
     "1:10": {
       "autoConsume:1": 0,
@@ -112,7 +112,7 @@
           "id:8": "gregtech:gt.metaitem.98"
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:optional_retrieval"
     },
     "2:10": {
       "autoConsume:1": 0,
@@ -135,7 +135,7 @@
           "id:8": "gregtech:gt.metaitem.98"
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:optional_retrieval"
     },
     "3:10": {
       "autoConsume:1": 0,

@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "For Cubic Zirconia, you\u0027ll need to combine Zirconium and Yttrium Oxide in the EBF as well. Fortunately you only need the dusts.\n\nYou can get Zirconium from:\n1) The Red Zircon ore on Ross128b \u003c- Do this one\n2) Sifting Cassiterite, Tin, or Ilmenite \u003c- Do this one if you hate Ross\n\nOxygen isn\u0027t hard to get, but the Yttrium more than makes up for it. You have a couple options:\n1) Make Rare Earth (I) out of Rare Earth (see the MV quest) and get it out of Xenotime\n2) Make Rare Earth (II) out of Rare Earth using a stronger acid and get it from Yttriaite\n3) When you have a T6 rocket, you can pick some Yttrium ore up from Triton, making you cry at how much easier it is\n4) In ZPM you can try going to the Toxic Everglades to grab weird GT++ ores, some of which have Yttrium in them (Yay RNG ore worldgen!)\n\nTo get Rare Earth you §ocan§r use Redstone or Skystone, but you can also get it out of Monazite directly or some other ores as a byproduct. Hopefully you saved it up?",
+      "desc:8": "For Cubic Zirconia, you\u0027ll need to combine Zirconium and Yttrium Oxide in the EBF as well. Fortunately you only need the dusts.\n\nYou can get Zirconium from:\n1) The Red Zircon ore on Ross128b \u003c- Do this one\n2) Sifting Cassiterite, Tin, or Ilmenite \u003c- Do this one if you hate Ross\n\nOxygen isn\u0027t hard to get, but the Yttrium more than makes up for it. You have a couple options:\n1) Make Rare Earth (I) out of Rare Earth (see the MV quest)\n2) Make Rare Earth (II) out of Rare Earth using a stronger acid and get it from Yttriaite\n3) When you have a T6 rocket, you can pick some Yttrium ore up from Triton, making you cry at how much easier it is\n4) In ZPM you can try going to the Toxic Everglades to grab weird GT++ ores, some of which have Yttrium in them (Yay RNG ore worldgen!)\n5) Process Almandine Ore (found in Twilight Forest) in an Isamill Grinder \u0026 Flotation Cell for the froth, then set in a Vacuum Furnace.\n\nTo get Rare Earth you §ocan§r use Redstone or Skystone, but you can also get it out of Monazite directly or some other ores as a byproduct. Hopefully you saved it up?",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -19,7 +19,7 @@
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§c§lFetching Cubic Zirconia",
+      "name:8": "§d§lFetching Cubic Zirconia",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Since vanilla bows are only craftable in the assembling machine and mobs don\u0027t drop them very often you should make a Tinkers bow.\n\nWood would be the best material for now. Craft the bow limbs out of wood and the bow string out of strings. The arrow that has the most durability is bone, so craft the stick out of bone. It is much lighter but less durable than a regular arrow. Use a flint tip to make it repairable with flint.\n\nYou can repair your bow the same way as all the other Tinkers tools. The arrows can be regained by repairing them or picking them up from the floor. The arrows should be in your inventory if you want to pick up the ones you fired. You can\u0027t pick them up if they are in Battlegear slots.",
+      "desc:8": "Since vanilla bows are only craftable in the assembling machine and mobs don\u0027t drop them very often you should make a Tinkers bow.\n\nWood would be the best material for now. Craft the bow limbs out of wood and the bow string out of strings. The arrow that has the most durability is bone, so craft the stick out of bone. It is much lighter but less durable than a regular arrow. Use a flint tip to make it repairable with flint.\n\nYou can repair your bow the same way as all the other Tinkers tools. The arrows can be regained by repairing them or picking them up from the floor. The arrows should be in your inventory if you want to pick up the ones you fired.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -53,7 +53,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§2§lYour First Bow",
+      "name:8": "§a§lYour First Bow",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -96,13 +96,13 @@
           "Count:3": 10,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinSmith"
+          "id:8": "dreamcraft:CoinSmith"
         },
         "1:10": {
           "Count:3": 10,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnician"
+          "id:8": "dreamcraft:CoinTechnician"
         }
       }
     }

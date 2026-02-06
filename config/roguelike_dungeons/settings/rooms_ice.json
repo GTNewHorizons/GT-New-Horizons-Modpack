@@ -1,0 +1,83 @@
+{
+	"name": "rooms_ice",
+	"levels": {
+		"0": {
+			"rooms": [
+				{"mode": "single", "type": "STORAGE"},
+                		{"mode": "single", "type": "CAKE"},
+                		{"mode": "single", "type": "LAB"},
+				{"mode": "random", "type": "BRICK", "weight" : 45},
+				{"mode": "random", "type": "CORNER", "weight" : 15},
+				{"mode": "random", "type": "LIBRARY", "weight" : 2},
+				{"mode": "random", "type": "DARKHALL", "weight" : 8}
+			],
+			"secrets" : [
+				{"type" : "TREETHO", "num" : 1}
+			]
+		},
+		"1": {
+			"rooms": [
+                		{"mode": "single", "type": "PIT"},
+                		{"mode": "single", "type": "LAB"},
+				{"mode": "random", "type": "BRICK", "weight" : 35},
+				{"mode": "random", "type": "CORNER", "weight" : 20},
+				{"mode": "random", "type": "FIRE", "weight" : 2}
+		
+			],
+			"secrets" : [
+				{"type" : "BEDROOM", "num" : 1}
+			]
+		},
+		"2": {
+			"rooms": [
+				{"mode": "single", "type": "OSSUARY"},
+				{"mode": "single", "type": "CREEPER"},
+                		{"mode": "single", "type": "SPIDER"},
+                		{"mode": "single", "type": "PRISON"},
+                		{"mode": "single", "type": "CRYPT"},
+                		{"mode": "single", "type": "LAB"},
+				{"mode": "random", "type": "CRYPT", "weight" : 35},
+				{"mode": "random", "type": "BRICK", "weight" : 10},
+				{"mode": "random", "type": "CORNER", "weight" : 10},
+				{"mode": "random", "type": "OSSUARY", "weight" : 5}
+		
+			],
+			"secrets" : [
+				{"type" : "AVIDYA", "num" : 1}
+			]
+		},
+		"3": {
+			"rooms": [
+				{"mode": "single", "type": "OSSUARY"},
+				{"mode": "single", "type": "CREEPER"},
+                		{"mode": "single", "type": "SPIDER"},
+                		{"mode": "single", "type": "CRYPT"},
+                		{"mode": "single", "type": "LAB"},
+				{"mode": "random", "type": "SLIME", "weight" : 35},
+				{"mode": "random", "type": "PRISON", "weight" : 20},
+				{"mode": "random", "type": "BRICK", "weight" : 15},
+				{"mode": "random", "type": "CREEPER", "weight" : 5}
+		
+			],
+			"secrets" : [
+				{"type" : "MESS", "num" : 1}
+			]
+		},
+		"4": {
+			"rooms": [
+				{"mode": "single", "type": "NETHERFORT"},
+				{"mode": "single", "type": "FIRE"},
+                		{"mode": "single", "type": "SPIDER"},
+                		{"mode": "single", "type": "OBSIDIAN"},
+				{"mode": "single", "type": "LAB"},
+				{"mode": "random", "type": "SPIDER", "weight" : 8},
+				{"mode": "random", "type": "NETHER", "weight" : 20},
+				{"mode": "random", "type": "DARKHALL", "weight" : 30},
+				{"mode": "random", "type": "BRICK", "weight" : 40}
+			],
+			"secrets" : [
+				{"type" : "MUSIC", "num" : 1}
+			]
+		}
+	}
+}

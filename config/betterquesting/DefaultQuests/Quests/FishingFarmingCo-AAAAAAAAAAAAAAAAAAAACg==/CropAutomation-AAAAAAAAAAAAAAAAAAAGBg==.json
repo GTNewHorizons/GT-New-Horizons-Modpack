@@ -6,7 +6,7 @@
     },
     "1:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 103
+      "questIDLow:4": 88
     }
   },
   "properties:10": {
@@ -73,13 +73,13 @@
           "Count:3": 30,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnician"
+          "id:8": "dreamcraft:CoinTechnician"
         },
         "1:10": {
           "Count:3": 30,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinFarmer"
+          "id:8": "dreamcraft:CoinFarmer"
         }
       }
     }

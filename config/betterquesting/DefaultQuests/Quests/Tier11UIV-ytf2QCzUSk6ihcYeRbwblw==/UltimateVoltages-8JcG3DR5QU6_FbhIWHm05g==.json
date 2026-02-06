@@ -12,7 +12,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "For your UIV components to work their interdimensional magic, you\u0027re going to need some dimensional border easing lubricant to not cause a universal collapse.",
+      "desc:8": "For your UIV components to work their interdimensional magic, you\u0027re going to need some dimensional border easing lubricant to not cause a universal collapse.\n\n[note]Tip: You can use this in place of Lubricant in your Cutting Machine for faster processing![/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -23,7 +23,7 @@
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Ultimate Voltages Require Ultimate Lubricant™!",
+      "name:8": "§9§l§nUltimate Voltages Require Ultimate Lubricant™!",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

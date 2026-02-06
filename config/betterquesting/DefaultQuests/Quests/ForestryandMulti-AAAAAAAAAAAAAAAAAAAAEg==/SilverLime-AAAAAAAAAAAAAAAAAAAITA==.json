@@ -2,7 +2,7 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 2123
+      "questIDLow:4": 2084
     }
   },
   "properties:10": {
@@ -116,7 +116,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinForestryI"
+          "id:8": "dreamcraft:CoinForestryI"
         },
         "1:10": {
           "Count:3": 1,

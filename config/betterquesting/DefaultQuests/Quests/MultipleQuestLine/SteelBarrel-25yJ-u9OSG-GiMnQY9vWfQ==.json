@@ -6,7 +6,8 @@
     },
     "1:10": {
       "questIDHigh:4": 6327679129227052174,
-      "questIDLow:4": -7973202373084553817
+      "questIDLow:4": -7973202373084553817,
+      "type:1": 1
     }
   },
   "properties:10": {
@@ -23,7 +24,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§3§lSteel Barrel",
+      "name:8": "§c§lSteel Barrel",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -65,7 +66,7 @@
           "Count:3": 10,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnician"
+          "id:8": "dreamcraft:CoinTechnician"
         }
       }
     }

@@ -8,13 +8,13 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Macerate the plantballs down to plant mass for better processing. The HV macerator has an extra slot so you can get more, but it\u0027s not worth it power-wise, same for EV and IV.",
+      "desc:8": "Macerate the Plantballs down to Plant Mass for better processing. The HV Macerator has an extra slot so you can get more, but it\u0027s not worth it power-wise, same for EV and IV.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "dreamcraft:item.MaceratedPlantmass"
+        "id:8": "dreamcraft:MaceratedPlantmass"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -75,7 +75,7 @@
           "Count:3": 25,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnician"
+          "id:8": "dreamcraft:CoinTechnician"
         }
       }
     }
@@ -93,7 +93,7 @@
           "Count:3": 64,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.MaceratedPlantmass"
+          "id:8": "dreamcraft:MaceratedPlantmass"
         }
       },
       "taskID:8": "bq_standard:retrieval"

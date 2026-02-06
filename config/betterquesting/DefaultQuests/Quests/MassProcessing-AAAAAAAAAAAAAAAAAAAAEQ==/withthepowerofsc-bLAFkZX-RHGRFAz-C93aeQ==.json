@@ -6,13 +6,13 @@
     },
     "1:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 2613
+      "questIDLow:4": 2610
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "This multiblock will allow you to use all that UU-Matter that your Matter Fabricator makes, not that you don\u0027t have anything else to do with it...\n\n[note]This multi is UV.[/note]",
+      "desc:8": "This multiblock will allow you to use all that UU-Matter that your Matter Fabricator makes, not that you don\u0027t have anything else to do with it...\n\n[note]This multi is traditionally UV, but can technically be made in ZPM.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 64,
@@ -23,7 +23,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "...with the power of science!",
+      "name:8": "§b§l...With The Power of Science!",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -51,15 +51,74 @@
           "Damage:2": 31050,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
-        },
-        "1:10": {
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
           "Count:3": 138,
           "Damage:2": 3,
           "OreDict:8": "",
           "id:8": "miscutils:gtplusplus.blockcasings.5"
+        },
+        "1:10": {
+          "Count:3": 24,
+          "Damage:2": 9,
+          "OreDict:8": "",
+          "id:8": "miscutils:miscutils.blockcasings"
+        },
+        "2:10": {
+          "Count:3": 24,
+          "Damage:2": 13,
+          "OreDict:8": "",
+          "id:8": "miscutils:gtplusplus.blockspecialcasings.1"
+        },
+        "3:10": {
+          "Count:3": 24,
+          "Damage:2": 8,
+          "OreDict:8": "",
+          "id:8": "miscutils:miscutils.blockcasings"
+        },
+        "4:10": {
+          "Count:3": 24,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "miscutils:gtplusplus.blockspecialcasings.3"
+        },
+        "5:10": {
+          "Count:3": 20,
+          "Damage:2": 12,
+          "OreDict:8": "",
+          "id:8": "miscutils:gtplusplus.blockspecialcasings.1"
+        },
+        "6:10": {
+          "Count:3": 16,
+          "Damage:2": 6,
+          "OreDict:8": "",
+          "id:8": "miscutils:gtplusplus.blockspecialcasings.3"
+        },
+        "7:10": {
+          "Count:3": 1,
+          "Damage:2": 31051,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        },
+        "8:10": {
+          "Count:3": 1,
+          "Damage:2": 91,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

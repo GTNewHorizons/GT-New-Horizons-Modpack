@@ -2,7 +2,7 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 1253
+      "questIDLow:4": 1319
     }
   },
   "properties:10": {
@@ -41,13 +41,13 @@
           "Count:3": 32,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.ChargedCertusQuartzDust"
+          "id:8": "dreamcraft:ChargedCertusQuartzDust"
         },
         "1:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.EngineeringProcessorItemDiamondCore"
+          "id:8": "dreamcraft:EngineeringProcessorItemDiamondCore"
         },
         "2:10": {
           "Count:3": 1,
@@ -69,7 +69,7 @@
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianII"
+          "id:8": "dreamcraft:CoinTechnicianII"
         }
       }
     }

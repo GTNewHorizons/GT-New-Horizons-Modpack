@@ -14,7 +14,7 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "dreamcraft:item.GlowingMarshmallow"
+        "id:8": "dreamcraft:GlowingMarshmallow"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -63,13 +63,13 @@
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianII"
+          "id:8": "dreamcraft:CoinTechnicianII"
         },
         "1:10": {
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinCookII"
+          "id:8": "dreamcraft:CoinCookII"
         }
       }
     }
@@ -93,7 +93,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.UncookedSlush"
+          "id:8": "dreamcraft:UncookedSlush"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -110,7 +110,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.GlowingMarshmallow"
+          "id:8": "dreamcraft:GlowingMarshmallow"
         }
       },
       "taskID:8": "bq_standard:retrieval"

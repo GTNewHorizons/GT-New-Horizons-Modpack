@@ -17,7 +17,7 @@
         "id:8": "gregtech:gt.metaitem.01"
       },
       "isMain:1": 0,
-      "isSilent:1": 0,
+      "isSilent:1": 1,
       "lockedProgress:1": 0,
       "name:8": "Trigger: Tungstensteel Mars Skip",
       "questLogic:8": "AND",
@@ -38,6 +38,12 @@
       "index:3": 0,
       "questID:8": "AAAAAAAAAAAAAAAAAAADXQ\u003d\u003d",
       "rewardID:8": "bq_standard:questcompletion"
+    },
+    "1:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 1,
+      "questID:8": "AAAAAAAAAAAAAAAAAAAJVg\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
     }
   },
   "tasks:9": {
@@ -50,7 +56,7 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 64,
+          "Count:3": 128,
           "Damage:2": 11316,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"

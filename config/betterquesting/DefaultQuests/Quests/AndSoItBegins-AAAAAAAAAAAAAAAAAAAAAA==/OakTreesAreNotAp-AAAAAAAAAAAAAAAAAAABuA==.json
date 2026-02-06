@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Oak trees that give apples? Who the hell added this to minecraft?\nYou found a way of combining an oak sapling and an apple to get an apple tree sapling. Try to plant one to get a permanent source of food.\n\nOnce you complete this quest, check out the rest of the Quest Tabs. A new one, \"Coins, Coins, Coins\", has unlocked. You\u0027ll want to look through all the quest tabs to make sure something new hasn\u0027t unlocked somewhere else occasionally. There are lots of tabs, so be sure to scroll down!",
+      "desc:8": "Oak trees that give apples? Who the hell added this to minecraft?\nYou found a way of combining an oak sapling and an apple to get an apple tree sapling. Try to plant one to get a permanent source of food.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -75,13 +75,13 @@
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinForestry"
+          "id:8": "dreamcraft:CoinForestry"
         },
         "1:10": {
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinFarmer"
+          "id:8": "dreamcraft:CoinFarmer"
         }
       }
     }

@@ -19,7 +19,7 @@
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "What are all these flowers even for?",
+      "name:8": "What Are All These Flowers Even For?",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -114,7 +114,7 @@
           "Count:3": 15,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinFlowerI"
+          "id:8": "dreamcraft:CoinFlowerI"
         },
         "1:10": {
           "Count:3": 4,

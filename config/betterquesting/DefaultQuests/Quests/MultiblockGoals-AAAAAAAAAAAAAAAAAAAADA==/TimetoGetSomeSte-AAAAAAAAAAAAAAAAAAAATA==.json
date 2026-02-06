@@ -63,7 +63,7 @@
           "Count:3": 50,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnician"
+          "id:8": "dreamcraft:CoinTechnician"
         }
       }
     },
@@ -156,9 +156,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 1,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "IC2:blockMachine"
+          "id:8": "etfuturum:blast_furnace"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -210,7 +210,7 @@
           "Count:3": 432,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.UnfiredClayBrick"
+          "id:8": "dreamcraft:UnfiredClayBrick"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Eternal singularity, requires nearly every resource in GTNH to construct. A stargate will require hundreds of thousands of these in total.\n\n§3§3§3§3It can be mass produced after spacetime. 4 eternal singularity is enough for now to move on.",
+      "desc:8": "Eternal singularity, requires nearly every resource in GTNH to construct. A stargate will require hundreds of thousands of these in total.\n\n§3It can be mass produced after spacetime. 4 eternal singularity is enough for now to move on.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -19,7 +19,7 @@
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Well This Looks... Shiny?",
+      "name:8": "§5§l§nWell This Looks... Shiny?",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

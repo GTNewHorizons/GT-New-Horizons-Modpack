@@ -70,7 +70,7 @@
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianII"
+          "id:8": "dreamcraft:CoinTechnicianII"
         }
       }
     }
@@ -99,7 +99,7 @@
           "Count:3": 8,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.IridiumAlloyItemCasing"
+          "id:8": "dreamcraft:IridiumAlloyItemCasing"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -116,13 +116,13 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.QuantumPartChestplate"
+          "id:8": "dreamcraft:QuantumPartChestplate"
         },
         "1:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.QuantumCrystal"
+          "id:8": "dreamcraft:QuantumCrystal"
         },
         "2:10": {
           "Count:3": 2,

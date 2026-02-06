@@ -24,7 +24,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "With ethanol or methanol and seed oil or fish oil you can make bio diesel. Its burn value is 320,000 EU per cell, less than regular diesel, but more renewable. Diesel or bio diesel are needed for cetane-boosted diesel.",
+      "desc:8": "With Ethanol or Methanol and Seed Oil or Fish Oil you can make Bio Diesel. Its burn value is 320,000 EU per cell, less than regular Diesel, but more renewable. Diesel or Bio Diesel are needed for Cetane-Boosted Diesel.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -91,7 +91,7 @@
           "Count:3": 25,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinChemist"
+          "id:8": "dreamcraft:CoinChemist"
         }
       }
     }

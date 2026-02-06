@@ -8,13 +8,13 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "You have decided it\u0027s time to make some tasty pizza, but your fingers got burned badly. Reading an ancient cookbook you discovered a pair of magical items that would allow you to carry anything hot, even lava in a bucket.\n\n§6§5The gloves have to be placed in the Baubles ring slots of Thaumcraft. You also have to place each in the correct slot, you\u0027ll get a notification if it\u0027s wrong.\n\n§rFor the protection effect, the hot item has to be in your active slot. I wonder if there is some way to carry more than a few buckets at a time?",
+      "desc:8": "You have decided it\u0027s time to make some tasty pizza, but your fingers got burned badly. Reading an ancient cookbook you discovered a pair of magical items that would allow you to carry anything hot, even lava in a bucket.\n\n§5The gloves have to be placed in the Baubles ring slots. Order does not matter.\n\n§rFor the protection effect, the hot item has to be in your active slot. I wonder if there is some way to carry more than a few buckets at a time?",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "dreamcraft:item.OvenGlove",
+        "id:8": "dreamcraft:OvenGlove",
         "tag:10": {
           "Durability:4": 1000
         }
@@ -23,7 +23,7 @@
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§2§lDon\u0027t Burn Your Fingers!",
+      "name:8": "§a§lDon\u0027t Burn Your Fingers!",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -60,7 +60,7 @@
           "Count:3": 10,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnician"
+          "id:8": "dreamcraft:CoinTechnician"
         }
       }
     }
@@ -108,7 +108,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.OvenGlove",
+          "id:8": "dreamcraft:OvenGlove",
           "tag:10": {
             "Durability:3": 1000
           }
@@ -117,7 +117,7 @@
           "Count:3": 1,
           "Damage:2": 1,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.OvenGlove",
+          "id:8": "dreamcraft:OvenGlove",
           "tag:10": {
             "Durability:3": 1000
           }

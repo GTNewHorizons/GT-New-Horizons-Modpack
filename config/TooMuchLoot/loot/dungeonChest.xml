@@ -57,7 +57,6 @@
     <loot item="TConstruct:heartCanister" damage="1" weight="5" count_min="1" count_max="1"/>
     <loot item="OpenComputers:item" damage="4" weight="5" count_min="1" count_max="1"/>
     <loot item="EMT:TaintedMjolnir" damage="0" weight="25" count_min="0" count_max="1"/>
-    <loot item="EMT:BaseBaubles" damage="0" weight="15" count_min="0" count_max="1"/>
     <loot item="openmodularturrets:disposeItemTurret" damage="0" weight="15" count_min="1" count_max="2"/>
     <loot item="openmodularturrets:baseTierWood" damage="0" weight="15" count_min="1" count_max="1"/>
     <loot item="openmodularturrets:leverBlock" damage="0" weight="15" count_min="1" count_max="1"/>

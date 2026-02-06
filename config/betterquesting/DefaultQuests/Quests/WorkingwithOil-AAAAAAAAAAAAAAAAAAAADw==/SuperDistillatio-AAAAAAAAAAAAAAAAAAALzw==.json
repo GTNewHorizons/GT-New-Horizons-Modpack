@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Your tallest and closest buddy, the Distillation Tower. You\u0027ve relied on it so much, haven\u0027t you? It\u0027s time to take it down.\n\nNo, not really, but you can do better now. The catch is that the upgrade to this, the Dangote Distillus, is special in the sense that its crafting recipe is in the Chemical Plant, and the one you have to build for this recipe is very expensive. Should you decide to accept the costs, though, you can build a Dangote in much the same way as the DT, and even upgrade it to tier 2 for better performance (look in NEI for a Distillus Chip, you have to put it in the controller).\n\nIn summary, this multi runs faster than the DT by doing parallels, a recipe done multiple times at once. A quad DT that you were using to distill Oil can be replaced by a Dangote, and so on. Since distillation is usually a bottleneck in speed for oil processing, this multi should prove useful.",
+      "desc:8": "Your tallest and closest buddy, the Distillation Tower. You\u0027ve relied on it so much, haven\u0027t you? It\u0027s time to take it down.\n\nNo, not really, but you can do better now. The catch is that the upgrade to this, the Dangote Distillus, is special in the sense that its crafting recipe is in the Chemical Plant, and the one you have to build for this recipe is very expensive. Should you decide to accept the costs, though, you can build a Dangote in much the same way as the DT.\n\nIn summary, this multi runs faster than the DT by doing parallels, a recipe done multiple times at once. A quad DT that you were using to distill Oil can be replaced by a Dangote, and so on. Since distillation is usually a bottleneck in speed for oil processing, this multi should prove useful.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -62,13 +62,13 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianIII"
+          "id:8": "dreamcraft:CoinTechnicianIII"
         },
         "3:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinChemistIII"
+          "id:8": "dreamcraft:CoinChemistIII"
         }
       }
     }
@@ -87,12 +87,6 @@
           "Damage:2": 31021,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
-        },
-        "1:10": {
-          "Count:3": 1,
-          "Damage:2": 32151,
-          "OreDict:8": "",
-          "id:8": "miscutils:MU-metaitem.01"
         }
       },
       "taskID:8": "bq_standard:retrieval"

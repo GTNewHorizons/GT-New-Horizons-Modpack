@@ -13,7 +13,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The \"Charcoal Pile Igniter\" is an alternative option for mass-producing charcoal. It does not consume any power or steam, but generates a lot of pollution. Follow the steps below to get it working.\n\n1. Build a brick floor no bigger than 11x11 in size.\n2. Place 1-5 layers of logs atop the brick floor. No air gaps allowed.\n3. Place the Charcoal Pile Igniter above the top-center log.\n4. Surround the remaining logs in dirt or grass.\n5. The Charcoal Pile Igniter immediately starts processing\n6. After some time, the logs are converted to brittle charcoal blocks.\n7. Break the blocks with an axe for the charcoal (Luck/Fortune has NO effect on the drop rates).\n\nIf this is your first multiblock, read the extended tooltip (hold shift) for construction requirements, or visit [url]wiki.gtnewhorizons.com/wiki/Charcoal_Pile_Igniter[/url] for more information and step-by-step images.",
+      "desc:8": "The \"Charcoal Pile Igniter\" is an alternative option for mass-producing charcoal. It does not consume any power or steam, but generates a lot of pollution. Follow the steps below to get it working.\n\n1. Build a brick floor no bigger than 11x11 in size.\n2. Place 1-5 layers of logs atop the brick floor. No air gaps allowed.\n3. Place the Charcoal Pile Igniter above the top-center log.\n4. Surround the remaining logs in dirt or grass.\n5. The Charcoal Pile Igniter immediately starts processing\n6. After some time, the logs are converted to brittle charcoal blocks.\n7. Break the blocks with an axe for the charcoal (Luck/Fortune has NO effect on the drop rates).\n\nIf this is your first multiblock, read the extended tooltip (hold shift) for construction requirements, or visit [url]https://wiki.gtnewhorizons.com/wiki/Charcoal_Pile_Igniter[/url] for more information and step-by-step images.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -25,7 +25,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§3§lLit Way to Get Charred",
+      "name:8": "§c§lLit Way to Get Charred",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -87,7 +87,7 @@
           "Count:3": 10,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnician"
+          "id:8": "dreamcraft:CoinTechnician"
         }
       }
     }

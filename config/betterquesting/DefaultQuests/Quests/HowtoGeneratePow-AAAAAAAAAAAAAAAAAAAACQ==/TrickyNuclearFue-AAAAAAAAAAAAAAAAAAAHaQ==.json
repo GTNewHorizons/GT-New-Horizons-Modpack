@@ -48,7 +48,7 @@
           "id:8": "gregtech:gt.metaitem.01"
         },
         "1:10": {
-          "Count:3": 4,
+          "Count:3": 8,
           "Damage:2": 11316,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"
@@ -70,7 +70,7 @@
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianII"
+          "id:8": "dreamcraft:CoinTechnicianII"
         }
       }
     }

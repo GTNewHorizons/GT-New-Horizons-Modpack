@@ -3,10 +3,6 @@
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 49
-    },
-    "1:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 38
     }
   },
   "properties:10": {
@@ -24,7 +20,7 @@
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 1,
-      "name:8": "§3§lMacerator v1.0!",
+      "name:8": "§c§lMacerator v1.0!",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -61,7 +57,7 @@
           "Count:3": 15,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnician"
+          "id:8": "dreamcraft:CoinTechnician"
         }
       }
     }

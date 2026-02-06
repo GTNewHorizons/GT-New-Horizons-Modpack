@@ -50,7 +50,7 @@
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinChemistI"
+          "id:8": "dreamcraft:CoinChemistI"
         }
       }
     }
@@ -65,13 +65,13 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 4,
+          "Count:3": 6,
           "Damage:2": 30972,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"
         },
         "1:10": {
-          "Count:3": 8,
+          "Count:3": 12,
           "Damage:2": 30001,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"
@@ -88,13 +88,13 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 4,
+          "Count:3": 6,
           "Damage:2": 2856,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"
         },
         "1:10": {
-          "Count:3": 12,
+          "Count:3": 18,
           "Damage:2": 30683,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"

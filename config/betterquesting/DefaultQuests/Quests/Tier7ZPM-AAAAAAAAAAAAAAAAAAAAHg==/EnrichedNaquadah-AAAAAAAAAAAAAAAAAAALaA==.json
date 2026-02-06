@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The enriched naquadah line is much shorter than the naquadah line, and easier. It\u0027s used for fuel or Neuro Processing Units which are UV content, so if you don\u0027t want to build a line for it, just ignore these quests.",
+      "desc:8": "The Enriched Naquadah line is much shorter than the Naquadah line, and easier. It\u0027s used for fuel or Neuro Processing Units which are UV content, and it\u0027s also used in the Prismarine line to make Prismatic Naquadah; something you will need for Trinium Coils.\n\n[warn]Hold 16 enriched Naquadah Ingot / Dust to skip this questline.[/warn]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -16,10 +16,10 @@
         "OreDict:8": "",
         "id:8": "bartworks:gt.bwMetaGeneratedcell"
       },
-      "isMain:1": 0,
+      "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Enriched Naquadah Time",
+      "name:8": "§b§lEnriched Naquadah Time",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

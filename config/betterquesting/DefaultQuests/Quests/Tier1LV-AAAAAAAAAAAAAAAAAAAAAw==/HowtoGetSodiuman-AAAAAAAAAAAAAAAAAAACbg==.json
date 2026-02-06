@@ -8,19 +8,19 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Salt ore mixes can be found in the Overworld between Y 50-70.\n\nSalt isn\u0027t only used to get sodium, it\u0027s an important ingredient in many pam\u0027s harvestcraft food recipes.\n\nLepidolite and spodumene are good sources of lithium for your batteries. Later on you can get a lot more in different ways.",
+      "desc:8": "Salt ore mixes can be found in the Overworld between Y 50-70.\n\nSalt isn\u0027t only used to get sodium, it\u0027s an important ingredient in many Pam\u0027s HarvestCraft food recipes.\n\nLepidolite and spodumene are good sources of lithium for your batteries. Later on you can get a lot more in different ways.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 817,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.blockores"
+        "id:8": "gregtech:gt.blockores2"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§5§lHow to Get Sodium and Lithium",
+      "name:8": "§2§lHow to Get Sodium and Lithium",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -69,7 +69,7 @@
           "Count:3": 3,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinAdventureI"
+          "id:8": "dreamcraft:CoinAdventureI"
         }
       }
     }
@@ -81,41 +81,6 @@
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 0,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 32,
-          "Damage:2": 817,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores"
-        },
-        "1:10": {
-          "Count:3": 32,
-          "Damage:2": 944,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores"
-        },
-        "2:10": {
-          "Count:3": 32,
-          "Damage:2": 907,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores"
-        },
-        "3:10": {
-          "Count:3": 16,
-          "Damage:2": 920,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "1:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
-      "index:3": 1,
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
@@ -141,6 +106,41 @@
           "Damage:2": 5920,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.03"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 32,
+          "Damage:2": 817,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockores2"
+        },
+        "1:10": {
+          "Count:3": 32,
+          "Damage:2": 944,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockores2"
+        },
+        "2:10": {
+          "Count:3": 32,
+          "Damage:2": 907,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockores2"
+        },
+        "3:10": {
+          "Count:3": 16,
+          "Damage:2": 920,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockores2"
         }
       },
       "taskID:8": "bq_standard:retrieval"

@@ -14,12 +14,12 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "dreamcraft:item.MedalEngineer"
+        "id:8": "dreamcraft:MedalEngineer"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Dreams of Rainbow... Stargates?",
+      "name:8": "§5§l§nDreams of Rainbow... Stargates?",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -65,31 +65,31 @@
           "Count:3": 625,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.PolychromeGatePlate"
+          "id:8": "dreamcraft:PolychromeGatePlate"
         },
         "1:10": {
           "Count:3": 342,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.PolychromeChevron"
+          "id:8": "dreamcraft:PolychromeChevron"
         },
         "2:10": {
           "Count:3": 1470,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.PolychromeFramePart"
+          "id:8": "dreamcraft:PolychromeFramePart"
         },
         "3:10": {
           "Count:3": 82,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.PolychromeQuantumCircuit"
+          "id:8": "dreamcraft:PolychromeQuantumCircuit"
         },
         "4:10": {
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.StargateCrystalAncients"
+          "id:8": "dreamcraft:StargateCrystalAncients"
         },
         "5:10": {
           "Count:3": 436,

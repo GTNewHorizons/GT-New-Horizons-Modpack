@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "It\u0027s time to feed your new coke oven with some wood to get more charcoal. You\u0027re looking for the most efficient way to plant trees. Try to find some spruce saplings and some jungle saplings. Both can be planted in a 2x2 grid to get bigger trees.\n\n[warn]Warning label: Do not put your pets in the microwave to dry them. And do not plant any of these rewards in the middle of your base.[/warn]",
+      "desc:8": "It\u0027s time to feed your new coke oven with some wood to get more charcoal. You\u0027re looking for the most efficient way to plant trees. Try to find some spruce saplings and some jungle saplings. Both can be planted in a 2x2 grid to get bigger trees.\n\nThe Rainforest Oak is also a great source of wood, and only needs one sapling. Be warned though, this tree is §lmuch taller§r than the Jungle or Spruce trees\n\n[warn]Warning label: Do not put your pets in the microwave to dry them. And do not plant any of these rewards in the middle of your base.[/warn]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -20,7 +20,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§2§lYou Need MOOOOOOORE Wood",
+      "name:8": "§a§lYou Need MOOOOOOORE Wood",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -69,19 +69,19 @@
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinFarmer"
+          "id:8": "dreamcraft:CoinFarmer"
         },
         "1:10": {
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinForestry"
+          "id:8": "dreamcraft:CoinForestry"
         },
         "2:10": {
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinAdventure"
+          "id:8": "dreamcraft:CoinAdventure"
         }
       }
     }
@@ -106,6 +106,23 @@
           "Damage:2": 3,
           "OreDict:8": "",
           "id:8": "minecraft:sapling"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "miscutils:blockRainforestOakSapling"
         }
       },
       "taskID:8": "bq_standard:retrieval"

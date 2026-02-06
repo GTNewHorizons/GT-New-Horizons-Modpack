@@ -6,10 +6,6 @@
       "type:1": 1
     },
     "1:10": {
-      "questIDHigh:4": -5503315474457539634,
-      "questIDLow:4": -9196591828784291176
-    },
-    "2:10": {
       "questIDHigh:4": 6240105828909796885,
       "questIDLow:4": -6772057045989436864
     }
@@ -28,7 +24,7 @@
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Download More RAM",
+      "name:8": "§5§l§nDownload More RAM",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

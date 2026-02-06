@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "...play with magic. Be warned, these fires are very dangerous! But who doesn\u0027t want a patch of snow in the nether?\n\nFire spread is disabled in the configs of servers to prevent massive lag and world destruction.",
+      "desc:8": "...play with magic. Be warned, these fires are very dangerous! But who doesn\u0027t want a patch of snow in the nether?\n\n[warn]Fire spread can be disabled in the configs of servers to prevent massive lag and world destruction.[/warn]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -57,13 +57,13 @@
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinChemistI"
+          "id:8": "dreamcraft:CoinChemistI"
         },
         "1:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinDarkWizardII"
+          "id:8": "dreamcraft:CoinDarkWizardII"
         }
       }
     }

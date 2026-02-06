@@ -17,7 +17,7 @@
         "id:8": "gregtech:gt.metaitem.01"
       },
       "isMain:1": 0,
-      "isSilent:1": 0,
+      "isSilent:1": 1,
       "lockedProgress:1": 0,
       "name:8": "Trigger: PTFE Skip",
       "questLogic:8": "AND",
@@ -27,7 +27,7 @@
       "snd_complete:8": "random.levelup",
       "snd_update:8": "random.levelup",
       "taskLogic:8": "AND",
-      "visibility:8": "HIDDEN"
+      "visibility:8": "NORMAL"
     }
   },
   "questIDHigh:4": 0,

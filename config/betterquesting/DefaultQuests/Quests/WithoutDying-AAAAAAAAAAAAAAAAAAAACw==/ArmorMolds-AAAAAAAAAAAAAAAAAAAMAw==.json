@@ -14,7 +14,7 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "dreamcraft:item.MoldChestplate"
+        "id:8": "dreamcraft:MoldChestplate"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -75,7 +75,7 @@
           "Count:3": 15,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinSurvivor"
+          "id:8": "dreamcraft:CoinSurvivor"
         }
       }
     }
@@ -93,25 +93,25 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.MoldHelmet"
+          "id:8": "dreamcraft:MoldHelmet"
         },
         "1:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.MoldChestplate"
+          "id:8": "dreamcraft:MoldChestplate"
         },
         "2:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.MoldLeggings"
+          "id:8": "dreamcraft:MoldLeggings"
         },
         "3:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.MoldBoots"
+          "id:8": "dreamcraft:MoldBoots"
         }
       },
       "taskID:8": "bq_standard:retrieval"

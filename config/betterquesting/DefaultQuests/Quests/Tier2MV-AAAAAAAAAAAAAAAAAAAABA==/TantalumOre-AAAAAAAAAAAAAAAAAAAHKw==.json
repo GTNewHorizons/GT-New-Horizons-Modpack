@@ -2,19 +2,19 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 128
+      "questIDLow:4": 1867
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Tantalum is used in the GT (optional) and Ender IO Capacitors, and is also a source for niobium. You can find Tantalite at Y 20-30 on the Overworld and at Y 20-30 in the Nether.\n\n§4Keep in mind you need an HV + Kanthal EBF and an MV Chemical Bath to get Tantalum Ingots.",
+      "desc:8": "Tantalum is used in many important GT recipes, and is also a source for niobium. You can find Tantalite at Y 20-30 on the Overworld and at Y 20-30 in the Nether.\n\n[note]Tip: The Manganese you get from these ores can be used for EnderIO capacitors.[/note]\n\n§4Keep in mind you need an HV + Kanthal EBF and an MV Chemical Bath to get Tantalum Ingots.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 921,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.blockores"
+        "id:8": "gregtech:gt.blockores2"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -76,7 +76,7 @@
           "Count:3": 50,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinAdventure"
+          "id:8": "dreamcraft:CoinAdventure"
         }
       }
     }
@@ -88,76 +88,6 @@
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 0,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 64,
-          "Damage:2": 921,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores"
-        },
-        "1:10": {
-          "Count:3": 64,
-          "Damage:2": 838,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores"
-        },
-        "2:10": {
-          "Count:3": 64,
-          "Damage:2": 943,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores"
-        },
-        "3:10": {
-          "Count:3": 64,
-          "Damage:2": 831,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "1:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
-      "index:3": 1,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 32,
-          "Damage:2": 1921,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores"
-        },
-        "1:10": {
-          "Count:3": 32,
-          "Damage:2": 1838,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores"
-        },
-        "2:10": {
-          "Count:3": 32,
-          "Damage:2": 1943,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores"
-        },
-        "3:10": {
-          "Count:3": 32,
-          "Damage:2": 1831,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "2:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
-      "index:3": 2,
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
@@ -183,6 +113,76 @@
           "Damage:2": 5831,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.03"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 921,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockores2"
+        },
+        "1:10": {
+          "Count:3": 64,
+          "Damage:2": 838,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockores2"
+        },
+        "2:10": {
+          "Count:3": 64,
+          "Damage:2": 943,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockores2"
+        },
+        "3:10": {
+          "Count:3": 64,
+          "Damage:2": 831,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockores2"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 2,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 32,
+          "Damage:2": 1921,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockores2"
+        },
+        "1:10": {
+          "Count:3": 32,
+          "Damage:2": 1838,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockores2"
+        },
+        "2:10": {
+          "Count:3": 32,
+          "Damage:2": 1943,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockores2"
+        },
+        "3:10": {
+          "Count:3": 32,
+          "Damage:2": 1831,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockores2"
         }
       },
       "taskID:8": "bq_standard:retrieval"

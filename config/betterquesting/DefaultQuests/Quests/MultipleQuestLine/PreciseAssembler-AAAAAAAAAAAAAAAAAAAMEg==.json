@@ -35,7 +35,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Precise Assembler",
+      "name:8": "§9§lPrecise Assembler",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -81,31 +81,13 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 42,
-          "Damage:2": 0,
+          "Count:3": 1,
+          "Damage:2": 32018,
           "OreDict:8": "",
-          "id:8": "GoodGenerator:impreciseUnitCasing"
-        },
-        "1:10": {
-          "Count:3": 21,
-          "Damage:2": 5,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings"
-        },
-        "2:10": {
-          "Count:3": 12,
-          "Damage:2": 316,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockframes"
-        },
-        "3:10": {
-          "Count:3": 42,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "IC2:blockAlloyGlass"
+          "id:8": "gregtech:gt.blockmachines"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
       "autoConsume:1": 0,
@@ -116,13 +98,37 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
+          "Count:3": 79,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "GoodGenerator:impreciseUnitCasing"
+        },
+        "1:10": {
+          "Count:3": 42,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "bartworks:BW_GlasBlocks"
+        },
+        "2:10": {
+          "Count:3": 21,
+          "Damage:2": 5,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings"
+        },
+        "3:10": {
+          "Count:3": 12,
+          "Damage:2": 316,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockframes"
+        },
+        "4:10": {
           "Count:3": 1,
-          "Damage:2": 32018,
+          "Damage:2": 91,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

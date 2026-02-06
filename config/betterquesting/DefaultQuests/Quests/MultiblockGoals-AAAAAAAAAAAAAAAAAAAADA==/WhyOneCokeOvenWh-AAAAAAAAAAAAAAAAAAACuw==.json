@@ -12,13 +12,13 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Your bricked blast furnace uses coal like hell and your steam boilers do too? Well it\u0027s time to make more coke ovens and automate them a bit. Wooden fluid pipes and tin item pipes will help you reach your goal. You can use either faucets with redstone clocks or LV pumps to empty the creosote. For the charcoal, hoppers are easy to get once you have an assembler.\n\nUnlike GregTech multiblocks, coke ovens must have 1 space separating each oven.\n\nSearch NEI for a more efficient way to make coke oven bricks.\n\nRemember that tin item pipes require a steel wrench to dismantle them.\n\nThe whole coke-oven process generates a lot of pollution, so consider putting it further away.",
+      "desc:8": "Your Bricked Blast Furnace uses coal like hell and your steam boilers do too? Well it\u0027s time to make more coke ovens and automate them a bit. The Coke Oven Hatch, Wooden Fluid Pipes, and Tin Item Pipes will help you reach your goal.\n\nSince this is a GT multiblock, it can wallshare bricks and hatches. The amount of bricks required for this quest is the minimum for creating 10 wallshared Coke Ovens.\n\nRemember that tin item pipes require a steel wrench to dismantle them.\n\n[note]Search NEI for a more efficient way to make coke oven bricks.[/note]\n\n[warn]The whole coke-oven process generates a lot of pollution, so consider putting it further away.[/warn]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 7,
+        "Damage:2": 236,
         "OreDict:8": "",
-        "id:8": "Railcraft:machine.alpha"
+        "id:8": "gregtech:gt.blockmachines"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -92,7 +92,7 @@
           "Count:3": 100,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnician"
+          "id:8": "dreamcraft:CoinTechnician"
         }
       }
     }
@@ -107,10 +107,16 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 260,
-          "Damage:2": 7,
+          "Count:3": 10,
+          "Damage:2": 236,
           "OreDict:8": "",
-          "id:8": "Railcraft:machine.alpha"
+          "id:8": "gregtech:gt.blockmachines"
+        },
+        "1:10": {
+          "Count:3": 136,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings12"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -124,10 +130,10 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 2,
-          "Damage:2": 0,
+          "Count:3": 9,
+          "Damage:2": 237,
           "OreDict:8": "",
-          "id:8": "JABBA:barrel"
+          "id:8": "gregtech:gt.blockmachines"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -164,16 +170,10 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 11,
-          "Damage:2": 32630,
+          "Count:3": 2,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
-        },
-        "1:10": {
-          "Count:3": 10,
-          "Damage:2": 32610,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "JABBA:barrel"
         }
       },
       "taskID:8": "bq_standard:retrieval"

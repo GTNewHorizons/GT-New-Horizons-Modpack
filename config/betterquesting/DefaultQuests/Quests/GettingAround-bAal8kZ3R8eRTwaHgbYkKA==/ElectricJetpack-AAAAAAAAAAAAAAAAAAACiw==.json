@@ -12,7 +12,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Your first electrical jetpack, It can be charged in any LV machine. You need to hit the IC2 mode-switch key to toggle between normal mode and hover mode while holding down the jump key. When descending, remember to shut off hover mode or else you\u0027ll drain your jetpack.\n\nThe only limitation is that you can\u0027t fly higher than Y-185.\n\nFor charging on the go, you can craft a charging crystal from ic2 charging components. You have to take the backpack out of the armor slot and put it in your hotbar and activate the charger by sneak-clicking. \n\nFinally, the GT++ wireless charger will charge everything in your inventory, including the jetpack, from your base at long ranges. A quest is unlocked once you finish your nanosuit. Just remember when you are off world or in the Nether that your jetpack isn\u0027t charging!",
+      "desc:8": "Your first electrical jetpack, It can be charged in any LV machine. You need to hit the IC2 mode-switch key to toggle between normal mode and hover mode while holding down the jump key. When descending, remember to shut off hover mode or else you\u0027ll drain your jetpack.\n\nThe only limitation is that you can\u0027t fly higher than Y-185.\n\nFor charging on the go, you can craft a charging crystal from ic2 charging components. You have to take the backpack out of the armor slot and put it in your hotbar and activate the charger by sneak-clicking.\n\nLater on GT++ charge packs are belts that can charge everything in your inventory including armor. Check NEI for the recipe.\n\nFinally, the GT++ wireless charger will charge everything in your inventory, including the jetpack, from your base at long ranges. A quest is unlocked once you finish your nanosuit. Just remember when you are off world or in the Nether that your jetpack isn\u0027t charging!",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -85,7 +85,7 @@
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianI"
+          "id:8": "dreamcraft:CoinTechnicianI"
         }
       }
     }

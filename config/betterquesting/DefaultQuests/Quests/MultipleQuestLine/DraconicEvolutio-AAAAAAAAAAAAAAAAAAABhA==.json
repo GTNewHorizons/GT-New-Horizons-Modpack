@@ -15,6 +15,10 @@
     "3:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 284
+    },
+    "4:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3231
     }
   },
   "properties:10": {
@@ -32,7 +36,7 @@
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§6§lDraconic Evolution",
+      "name:8": "§4§l§nDraconic Evolution",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

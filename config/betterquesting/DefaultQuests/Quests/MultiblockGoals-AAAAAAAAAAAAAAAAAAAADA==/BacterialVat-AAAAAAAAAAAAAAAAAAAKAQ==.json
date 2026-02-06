@@ -12,7 +12,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The Bacterial Vat is a unique multiblock machine with its own recipes. But it also has advanced versions of many brewery recipes.\n\nThe Vat isn\u0027t mandatory in this tier, but there are many useful recipes and you\u0027ll need it later on, so let\u0027s build one!\n\nAll recipes require a §cculture§r, some recipes require a specific §cGlass-Tier.\n\n§rThe culture is made in a BioLab and §lput in the controller.\n\n§l§rThe Glass-Tier is calculated as LV \u003d Tier 1, so this quest requires you to make tier 3 glass.",
+      "desc:8": "The Bacterial Vat is a unique multiblock machine with its own recipes. But it also has advanced versions of many brewery recipes.\n\nThe Vat isn\u0027t mandatory in this tier, but there are many useful recipes and you\u0027ll need it later on, so let\u0027s build one!\n\nAll recipes require a §cculture§r, some recipes require a specific §cGlass-Tier.§r\n\nThe culture is made in a BioLab and §lput in the controller.§r\n\nThe Glass-Tier is calculated as LV \u003d Tier 1, so this quest requires you to make tier 3 glass.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -67,7 +67,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianII"
+          "id:8": "dreamcraft:CoinTechnicianII"
         }
       }
     }

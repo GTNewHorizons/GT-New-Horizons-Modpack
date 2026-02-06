@@ -14,13 +14,13 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "dreamcraft:item.WoodenBrickForm"
+        "id:8": "dreamcraft:WoodenBrickForm"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§2§lForming Press v0.1",
+      "name:8": "§a§lForming Press v0.1",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -44,7 +44,7 @@
           "Count:3": 10,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnician"
+          "id:8": "dreamcraft:CoinTechnician"
         }
       }
     }
@@ -93,7 +93,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.WoodenBrickForm"
+          "id:8": "dreamcraft:WoodenBrickForm"
         }
       },
       "taskID:8": "bq_standard:retrieval"

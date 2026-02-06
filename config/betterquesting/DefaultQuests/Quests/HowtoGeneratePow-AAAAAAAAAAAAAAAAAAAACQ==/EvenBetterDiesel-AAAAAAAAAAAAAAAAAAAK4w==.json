@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "In HV, you unlock yet another generator, but also Cetane-Boosted Diesel. After a bunch of reactions, you can get a superpowered combustion fuel that is worth §a1M EU per bucket§a§r and run it for quite a while on these improved generators. You will also unlock the Distillation Tower here, so you might get even more fuel that you can burn in these generators.\n\nUnfortunately, the next fuel, unlocked in EV, doesn\u0027t come from Diesel. It\u0027s a completely different processing line, should you wish to tackle it later.",
+      "desc:8": "In HV, you unlock yet another generator, but also Cetane-Boosted Diesel. After a bunch of reactions, you can get a superpowered combustion fuel that is worth §a1M EU per bucket§r and run it for quite a while on these improved generators. You will also unlock the Distillation Tower here, so you might get even more fuel that you can burn in these generators.\n\nUnfortunately, the next fuel, unlocked in EV, doesn\u0027t come from Diesel. It\u0027s a completely different processing line, should you wish to tackle it later.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -69,7 +69,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianII"
+          "id:8": "dreamcraft:CoinTechnicianII"
         }
       }
     }

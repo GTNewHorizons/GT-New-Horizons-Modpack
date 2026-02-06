@@ -16,19 +16,19 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Dragon eggs are very rare and only drop after a dragon\u0027s death. How about I show you a way to recreate this powerful item out of a monster spawn egg?\n\nLet\u0027s start with step one. Using a mob spawn egg (any work, you can purchase one from the CCC tab if you do not have one), growth medium, and bacteria to create a bigger egg. This process needs one hour.",
+      "desc:8": "Dragon eggs are very rare and only drop after a dragon\u0027s death. How about I show you a way to recreate this powerful item out of a monster spawn egg?\n\nLet\u0027s start with step one. Using a mob spawn egg (any work, you can purchase one from the Vending Machine if you do not have one), growth medium, and bacteria to create a bigger egg. This process needs one hour.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "dreamcraft:item.TheBigEgg"
+        "id:8": "dreamcraft:TheBigEgg"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§a§lOne Dragon Egg is Not Enough Mr Bond",
+      "name:8": "§8§lOne Dragon Egg is Not Enough Mr Bond",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -77,13 +77,13 @@
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianI"
+          "id:8": "dreamcraft:CoinTechnicianI"
         },
         "1:10": {
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinChemistI"
+          "id:8": "dreamcraft:CoinChemistI"
         }
       }
     }
@@ -124,7 +124,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.TheBigEgg"
+          "id:8": "dreamcraft:TheBigEgg"
         }
       },
       "taskID:8": "bq_standard:retrieval"

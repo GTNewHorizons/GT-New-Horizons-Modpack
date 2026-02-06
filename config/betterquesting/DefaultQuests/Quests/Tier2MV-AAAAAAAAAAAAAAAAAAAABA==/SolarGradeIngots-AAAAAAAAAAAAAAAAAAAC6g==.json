@@ -50,7 +50,7 @@
     "0:10": {
       "choices:9": {
         "0:10": {
-          "Count:3": 4,
+          "Count:3": 6,
           "Damage:2": 2856,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"
@@ -75,13 +75,13 @@
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinSmithI"
+          "id:8": "dreamcraft:CoinSmithI"
         },
         "1:10": {
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianI"
+          "id:8": "dreamcraft:CoinTechnicianI"
         }
       }
     }
@@ -96,7 +96,7 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 4,
+          "Count:3": 6,
           "Damage:2": 11856,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"

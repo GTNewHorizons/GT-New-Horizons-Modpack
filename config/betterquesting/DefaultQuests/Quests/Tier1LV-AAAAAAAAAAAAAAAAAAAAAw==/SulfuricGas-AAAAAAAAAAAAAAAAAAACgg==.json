@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Another distillate for your gas turbine you can make out of oil is sulfuric gas with a burn value of 25,000 EU per cell.",
+      "desc:8": "Another distillate for your gas turbine you can make out of oil is Sulfuric Gas which has a burn value of 25,000 EU per cell.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -20,7 +20,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§5§lSulfuric Gas",
+      "name:8": "§2§lSulfuric Gas",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -63,7 +63,7 @@
           "Count:3": 15,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinChemist"
+          "id:8": "dreamcraft:CoinChemist"
         }
       }
     }

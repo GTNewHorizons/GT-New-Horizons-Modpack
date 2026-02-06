@@ -18,7 +18,7 @@
         "Count:3": 64,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "dreamcraft:item.BioOrganicMesh"
+        "id:8": "dreamcraft:BioOrganicMesh"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -73,13 +73,13 @@
           "Count:3": 25,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinChemist"
+          "id:8": "dreamcraft:CoinChemist"
         },
         "1:10": {
           "Count:3": 25,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinFarmer"
+          "id:8": "dreamcraft:CoinFarmer"
         }
       }
     }
@@ -97,7 +97,7 @@
           "Count:3": 48,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.RawBioFiber"
+          "id:8": "dreamcraft:RawBioFiber"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -114,7 +114,7 @@
           "Count:3": 24,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.BioOrganicMesh"
+          "id:8": "dreamcraft:BioOrganicMesh"
         }
       },
       "taskID:8": "bq_standard:retrieval"

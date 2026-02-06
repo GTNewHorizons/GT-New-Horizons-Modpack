@@ -17,7 +17,7 @@
         "id:8": "bartworks:gt.bwMetaGenerateddust"
       },
       "isMain:1": 0,
-      "isSilent:1": 0,
+      "isSilent:1": 1,
       "lockedProgress:1": 0,
       "name:8": "Trigger: Platline Ruthenium Skip",
       "questLogic:8": "AND",

@@ -6,13 +6,18 @@
     },
     "1:10": {
       "questIDHigh:4": 1940107204733586102,
-      "questIDLow:4": -7060842715059683845
+      "questIDLow:4": -7060842715059683845,
+      "type:1": 1
+    },
+    "2:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1148
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The portable equivalent of the Gold Barrel.\n\nHas §n81§n§n§n§n§n§n§n§r slots.\n\n[note]Can be Dyed![/note]",
+      "desc:8": "The portable equivalent of the Gold Barrel.\n\nHas §n81§r slots.\n\n[note]Can be dyed![/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -75,13 +80,13 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianI"
+          "id:8": "dreamcraft:CoinTechnicianI"
         },
         "1:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinDarkWizardI"
+          "id:8": "dreamcraft:CoinDarkWizardI"
         }
       }
     }
@@ -91,7 +96,7 @@
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
+      "ignoreNBT:1": 0,
       "index:3": 0,
       "partialMatch:1": 1,
       "requiredItems:9": {

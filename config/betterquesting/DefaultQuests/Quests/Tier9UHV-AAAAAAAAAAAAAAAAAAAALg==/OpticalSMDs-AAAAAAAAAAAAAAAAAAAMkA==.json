@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "You can now make optical SMDs! They are required for all circuits beyond UEV.\n\nSome of the materials are made in the ABS. Maybe it\u0027s time to add a few.\n\n[note]If you have not gotten any strontium yet, you can obtain it from strontium oxide based on Rare Earth 3, from spessartine froth or from a Deep Dark void miner.[/note]",
+      "desc:8": "You can now make optical SMDs! They are required for all circuits beyond UEV.\n\nSome of the materials are made in the ABS. Maybe it\u0027s time to add a few.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -19,7 +19,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Optical SMDs",
+      "name:8": "§4§l§nOptical SMDs",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

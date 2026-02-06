@@ -2,7 +2,7 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 1262
+      "questIDLow:4": 1143
     },
     "1:10": {
       "questIDHigh:4": 0,
@@ -29,7 +29,7 @@
       "lockedProgress:1": 0,
       "name:8": "EV Sunnarium Battery",
       "partySingleReward:1": 0,
-      "questLogic:8": "AND",
+      "questLogic:8": "OR",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
       "simultaneous:1": 0,
@@ -76,7 +76,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianII"
+          "id:8": "dreamcraft:CoinTechnicianII"
         }
       }
     }

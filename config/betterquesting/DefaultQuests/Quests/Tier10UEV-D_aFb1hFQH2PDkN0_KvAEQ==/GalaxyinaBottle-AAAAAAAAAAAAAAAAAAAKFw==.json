@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Good luck with this one, it is many many many times harder than the previous tiers. Required to make extremely endgame materials such as hypogen.\n\nYou may notice the mk4 recipes are §oquite§o §rslow, perhaps consider making a compact reactor instead?\n\n[note]You only have to complete one task to finish this quest.[/note]",
+      "desc:8": "Good luck with this one, it is many times harder than the previous tiers. It is required to make extremely endgame materials such as hypogen.\n\nThe MK IV reactor grants 4/4 perfect overclocks for every machine tier above the minimum recipe tier instead of the 2/2 perfect overclocks from the previous tiers. That means the speed and power consumption are both quadrupled instead of doubled each time.\n\nRegardless, you may notice the MK IV recipes are §oquite§o §rslow, perhaps consider making a Compact Fusion Reactor instead?\n\n[note]You only have to complete one task to finish this quest.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -19,7 +19,7 @@
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Galaxy in a Bottle...?",
+      "name:8": "§5§l§nGalaxy in a Bottle...?",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -61,7 +61,7 @@
           "id:8": "miscutils:gtplusplus.blockcasings.3"
         },
         "3:10": {
-          "Count:3": 16,
+          "Count:3": 1,
           "Damage:2": 49,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"

@@ -2,9 +2,13 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 230
+      "questIDLow:4": 241
     },
     "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 88
+    },
+    "2:10": {
       "questIDHigh:4": 6327679129227052174,
       "questIDLow:4": -7973202373084553817
     }
@@ -12,7 +16,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "As an upgrade to the barrels, EFR also adds the ever-familiar shulker box! The shulker box allows you to portably tote it\u0027s contents. You can find the research for them in the New Horizons tab of the Thaumonomicon.\n\nThese have seven additional tiers much like the barrels and chests that give you additional storage space. \n\nYou can dye any tier by shapelessly crafting them with a dye, and undye them by shapelessly crafting them alone. They §nwill§r retain their inventory. \n\n[note]There are many ways to obtain shulker shells:\n1. Fighting Shulkers in the Twilight Forest Lich \u0026 Ghast Queen Towers.\n2. Fighting Shulkers from the eggs in the Coins tab\n3. Manually crafting the shells[/note]",
+      "desc:8": "As an upgrade to the barrels, EFR also adds the ever-familiar shulker box! The shulker box allows you to comfortably tote around its contents. You can find the research for them in the New Horizons tab of the Thaumonomicon.\n\nThese have seven additional tiers much like the barrels and chests that give you additional storage space. \n\nYou can dye any tier by shapelessly crafting them with a dye, and undye them by shapelessly crafting them alone. They §nwill§r retain their inventory. \n\n[note]There are many ways to obtain shulker shells:\n1. Fighting Shulkers in the Twilight Forest Lich \u0026 Ghast Queen Towers.\n2. Fighting Shulkers from the eggs you get from the Vending Machine.\n3. Manually crafting the shells.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -53,9 +57,9 @@
         },
         "2:10": {
           "Count:3": 1,
-          "Damage:2": 1,
+          "Damage:2": 9,
           "OreDict:8": "",
-          "id:8": "etfuturum:shulker_box_upgrade"
+          "id:8": "enhancedlootbags:lootbag"
         }
       },
       "ignoreDisabled:1": 0,
@@ -71,13 +75,13 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianI"
+          "id:8": "dreamcraft:CoinTechnicianI"
         },
         "1:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinDarkWizardI"
+          "id:8": "dreamcraft:CoinDarkWizardI"
         }
       }
     }
@@ -87,7 +91,7 @@
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
+      "ignoreNBT:1": 0,
       "index:3": 0,
       "partialMatch:1": 1,
       "requiredItems:9": {
@@ -95,7 +99,10 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "etfuturum:shulker_box"
+          "id:8": "etfuturum:shulker_box",
+          "tag:10": {
+            "Type:1": 0
+          }
         }
       },
       "taskID:8": "bq_standard:retrieval"

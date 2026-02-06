@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "You can build a space station if you want. You can add up to four spin thrusters to your station to rotate it.\n\nDays on space stations last longer than on the overworld, so you can generate more solar power.\n\n§oYou can build space stations here:§r\nMoon - T1\nMars - T2\nJupiter - T3\nVenus - T4\nSaturn - T5\nUranus - T5\nNeptune - T6\n\n§bHint:§r Each task corresponds to one space station (they are in the same order). You need to complete at least one task to complete the quest.\n\n§cNote:§r It is likely that you will loose your rocket when flying back to earth or another space station. Make sure you have an alternative way to return (some form of teleportation) or use another planet/moon as proxy (if you get an error while doing so, you spawn on the planet/moon and can launch your rocket again).",
+      "desc:8": "You can build a space station if you want. You can add up to four spin thrusters to your station to rotate it.\n\nDays on space stations last longer than on the overworld, so you can generate more solar power.\n\n§oYou can build space stations here:§r\n§21§r. Moon - §9T1\n§22§r. Mars - §9T2\n§23§r. Jupiter - §9T3\n§24§r. Venus - §9T4\n§25§r. Saturn - §9T5\n§26§r. Uranus - §9T5\n§27§r. Neptune - §9T6§r\n\nEach §2Retrieval Task§r in this quest corresponds (in order) to the resources you will need in order to §2build a space station§r at one of the planets listed above. The \"§9T#§r\" afterwards refers to the §9tier of rocket§r you will need to get there.\n\n[note]You will need to complete at least one task to complete this quest![/note]\n\n[warn]It is likely that you will loose your rocket when flying back to earth or another space station. Make sure you have an alternative way to return (some form of teleportation) or use another planet/moon as proxy (if you get an error while doing so, you spawn on the planet/moon and can launch your rocket again).[/warn]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -69,7 +69,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianII"
+          "id:8": "dreamcraft:CoinTechnicianII"
         }
       }
     }
@@ -169,7 +169,7 @@
           "Count:3": 4,
           "Damage:2": 0,
           "OreDict:8": "circuitData",
-          "id:8": "dreamcraft:item.CircuitEV"
+          "id:8": "dreamcraft:CircuitEV"
         },
         "3:10": {
           "Count:3": 1,
@@ -204,7 +204,7 @@
           "Count:3": 4,
           "Damage:2": 0,
           "OreDict:8": "circuitElite",
-          "id:8": "dreamcraft:item.CircuitIV"
+          "id:8": "dreamcraft:CircuitIV"
         },
         "3:10": {
           "Count:3": 1,
@@ -239,7 +239,7 @@
           "Count:3": 4,
           "Damage:2": 0,
           "OreDict:8": "circuitMaster",
-          "id:8": "dreamcraft:item.CircuitLuV"
+          "id:8": "dreamcraft:CircuitLuV"
         },
         "3:10": {
           "Count:3": 1,
@@ -274,7 +274,7 @@
           "Count:3": 4,
           "Damage:2": 0,
           "OreDict:8": "circuitMaster",
-          "id:8": "dreamcraft:item.CircuitLuV"
+          "id:8": "dreamcraft:CircuitLuV"
         },
         "3:10": {
           "Count:3": 1,
@@ -309,7 +309,7 @@
           "Count:3": 4,
           "Damage:2": 0,
           "OreDict:8": "circuitUltimate",
-          "id:8": "dreamcraft:item.CircuitZPM"
+          "id:8": "dreamcraft:CircuitZPM"
         },
         "3:10": {
           "Count:3": 1,

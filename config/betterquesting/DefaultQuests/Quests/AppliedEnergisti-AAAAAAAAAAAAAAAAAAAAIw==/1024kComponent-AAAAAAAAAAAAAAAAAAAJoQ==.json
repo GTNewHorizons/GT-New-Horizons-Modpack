@@ -2,7 +2,11 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 2464
+      "questIDLow:4": 1225
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2463
     }
   },
   "properties:10": {
@@ -42,7 +46,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.EmeraldAdvancedCoreChip"
+          "id:8": "dreamcraft:EmeraldAdvancedCoreChip"
         }
       }
     },
@@ -55,7 +59,7 @@
           "Count:3": 4,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianII"
+          "id:8": "dreamcraft:CoinTechnicianII"
         }
       }
     }

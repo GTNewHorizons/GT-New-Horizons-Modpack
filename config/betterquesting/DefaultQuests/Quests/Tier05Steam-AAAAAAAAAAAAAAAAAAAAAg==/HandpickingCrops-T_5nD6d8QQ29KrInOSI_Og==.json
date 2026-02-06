@@ -43,14 +43,14 @@
             "Unbreaking:3": 2
           },
           "display:10": {
-            "Name:8": "§fSteel Scythe"
+            "Name:8": "§c§lSteel Scythe"
           }
         }
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Handpicking Crops is So Old School",
+      "name:8": "§c§lHandpicking Crops is So Old School",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -86,13 +86,13 @@
           "Count:3": 10,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinSmith"
+          "id:8": "dreamcraft:CoinSmith"
         },
         "1:10": {
           "Count:3": 10,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnician"
+          "id:8": "dreamcraft:CoinTechnician"
         }
       }
     }

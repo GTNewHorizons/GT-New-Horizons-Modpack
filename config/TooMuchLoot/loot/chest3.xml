@@ -5,7 +5,7 @@
 	<loot item="minecraft:blaze_rod" damage="0" weight="10" count_min="1" count_max="2"/>
 	<loot item="minecraft:cake" damage="0" weight="30" count_min="1" count_max="1"/>
 	<loot item="JABBA:mover" damage="0" weight="10" count_min="1" count_max="1"/>
-	<loot item="dreamcraft:item.SteelBars" damage="0" weight="20" count_min="4" count_max="8"/>
+	<loot item="dreamcraft:SteelBars" damage="0" weight="20" count_min="4" count_max="8"/>
 	<loot item="Forestry:ffarm" damage="0" nbt="{FarmBlock:0}" weight="20" count_min="8" count_max="16"/>
 	<loot item="Forestry:ffarm" damage="2" nbt="{FarmBlock:0}" weight="20" count_min="4" count_max="8"/>
 	<loot item="Forestry:ffarm" damage="3" nbt="{FarmBlock:0}" weight="20" count_min="4" count_max="8"/>
@@ -40,7 +40,6 @@
 	<loot item="gregtech:gt.metaitem.01" damage="32650" weight="5" count_min="1" count_max="1"/>
 	<loot item="gregtech:gt.metaitem.01" damage="32680" weight="5" count_min="1" count_max="1"/>
 	<loot item="gregtech:gt.metaitem.01" damage="32690" weight="5" count_min="1" count_max="1"/>
-	<loot item="gregtech:gt.metaitem.01" damage="32727" weight="20" count_min="1" count_max="2"/>
 	<loot item="gregtech:gt.metaitem.01" damage="32730" weight="15" count_min="1" count_max="1"/>
 	<loot item="gregtech:gt.metaitem.01" damage="32731" weight="15" count_min="1" count_max="1"/>
 	<loot item="gregtech:gt.metaitem.01" damage="32732" weight="15" count_min="1" count_max="1"/>
