@@ -17,10 +17,10 @@
         "id:8": "minecraft:quartz_ore"
       },
       "isGlobal:1": 0,
-      "isMain:1": 0,
+      "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§5§lQuartzite Veins",
+      "name:8": "§2§lQuartzite Veins",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -94,7 +94,7 @@
           "Count:3": 15,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinAdventure"
+          "id:8": "dreamcraft:CoinAdventure"
         }
       }
     }
@@ -106,35 +106,6 @@
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 0,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 32,
-          "Damage:2": 1523,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores"
-        },
-        "1:10": {
-          "Count:3": 32,
-          "Damage:2": 1904,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores"
-        },
-        "2:10": {
-          "Count:3": 48,
-          "Damage:2": 1516,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "1:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
-      "index:3": 1,
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
@@ -154,6 +125,35 @@
           "Damage:2": 5516,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.03"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 32,
+          "Damage:2": 1523,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockores2"
+        },
+        "1:10": {
+          "Count:3": 32,
+          "Damage:2": 1904,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockores2"
+        },
+        "2:10": {
+          "Count:3": 48,
+          "Damage:2": 1516,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockores2"
         }
       },
       "taskID:8": "bq_standard:retrieval"

@@ -1,10 +1,19 @@
 {
   "preRequisites:9": {
     "0:10": {
+      "questIDHigh:4": 3612334847691605768,
+      "questIDLow:4": -9189987553802947566,
+      "type:1": 2
+    },
+    "1:10": {
+      "questIDHigh:4": 960069936746873824,
+      "questIDLow:4": -5796823047327111175
+    },
+    "2:10": {
       "questIDHigh:4": -4581646162533137172,
       "questIDLow:4": -5606710145730409374
     },
-    "1:10": {
+    "3:10": {
       "questIDHigh:4": 7851484242627545128,
       "questIDLow:4": -7959189288003028041
     }
@@ -23,7 +32,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "The SUCC",
+      "name:8": "§c§l§nThe SUCC",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

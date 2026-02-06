@@ -19,7 +19,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Use Nano Tech to produce Lanthanides",
+      "name:8": "§2§l§nUse Nano Tech to produce Lanthanides",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -63,7 +63,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.MysteriousCrystalLens"
+          "id:8": "dreamcraft:MysteriousCrystalLens"
         }
       },
       "taskID:8": "bq_standard:retrieval"

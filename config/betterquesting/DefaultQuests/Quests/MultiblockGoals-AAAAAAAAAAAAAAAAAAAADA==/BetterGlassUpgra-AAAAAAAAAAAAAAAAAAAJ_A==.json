@@ -2,7 +2,8 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 2561
+      "questIDLow:4": 2561,
+      "type:1": 1
     },
     "1:10": {
       "questIDHigh:4": 0,
@@ -77,7 +78,7 @@
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianII"
+          "id:8": "dreamcraft:CoinTechnicianII"
         }
       }
     }

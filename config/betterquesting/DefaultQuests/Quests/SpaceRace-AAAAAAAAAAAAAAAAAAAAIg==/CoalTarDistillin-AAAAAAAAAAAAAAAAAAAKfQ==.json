@@ -12,7 +12,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "There are two ways to make Phthalic Acid. One is explored here, the other in the IV quest tab. However, we don\u0027t just need the Coal Tar for that, we also need it for Anthracene!\n\nIn order to distill Coal Tar, you need to get some first. To do so, run Charcoal, Lignite, Coal, or Coal Coke though either the Industrial Coke Oven or the Pyrolyse Oven.\n\nSince you need multiple products, use a Distillery Tower to get them all. Everything other than Naphtha is used to make Rocket Fuels.",
+      "desc:8": "The next tier of rocket fuel is Dense Hydrazine. To start, let\u0027s make Phthalic Acid.\n\nThere are two ways to make Phthalic Acid. One is explored here, the other in the IV quest tab. However, we don\u0027t just need the Coal Tar for that, we also need it for Anthracene!\n\nIn order to distill Coal Tar, you need to get some first. To do so, run Charcoal, Lignite, Coal, or Coal Coke though either the Industrial Coke Oven or the Pyrolyse Oven.\n\nSince you need multiple products, use a Distillery Tower to get them all. Everything other than Naphtha is used to make Rocket Fuels.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -23,7 +23,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Coal Tar Distilling",
+      "name:8": "§9§lCoal Tar Distilling",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -36,7 +36,27 @@
   },
   "questIDHigh:4": 0,
   "questIDLow:4": 2685,
-  "rewards:9": {},
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 6,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:CoinChemistII"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "autoConsume:1": 0,
@@ -70,35 +90,25 @@
           "id:8": "miscutils:CoalTarOil"
         },
         "1:10": {
-          "Count:3": 2,
-          "Damage:2": 30739,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
-        },
-        "2:10": {
           "Count:3": 3,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "miscutils:Ethylbenzene"
         },
-        "3:10": {
+        "2:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "miscutils:Anthracene"
         },
-        "4:10": {
+        "3:10": {
           "Count:3": 8,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "miscutils:Kerosene"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
-    },
-    "2:10": {
-      "index:3": 2,
-      "taskID:8": "bq_standard:checkbox"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

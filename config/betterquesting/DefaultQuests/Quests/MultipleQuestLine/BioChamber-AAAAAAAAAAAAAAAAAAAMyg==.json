@@ -8,18 +8,18 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "As I got new technologies, I have seen the need to make a chamber where the circuit board can contain neurons for the wetware boards or the upcoming bioware boards.\n\nThe Bio Chamber is a simple upgrade, it doesn\u0027t require many resources. Don\u0027t know why I didn\u0027t make it earlier.\n\n[note]It can use any glass.[/note]",
+      "desc:8": "With new technology comes the need for adaptation! In order to create §9Wetware§r \u0026 §cBioware§r boards you need a chamber that is capable of properly maintaining the neurons while they are installed to the board. Fortunately, the §5§lBio Chamber§r is a simple upgrade and doesn\u0027t require many resources. \n\nAfter its construction, you can link it to the PCB Factory by left-clicking the PCB Factory Controller using a Data Stick, and right-clicking that data stick onto the Bio Chamber Controller. One Bio Chamber can connect to any number of PCB Factories within a §216§r block radius.\n\n[note]You can use any tier of glass.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 32006,
+        "Damage:2": 730,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.03"
+        "id:8": "gregtech:gt.blockmachines"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Bio Chamber",
+      "name:8": "§2§l§nBio Chamber",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -44,18 +44,41 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 1,
+          "Damage:2": 730,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings4"
-        },
-        "1:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "IC2:blockAlloyGlass"
+          "id:8": "gregtech:gt.blockmachines"
         }
       },
       "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 40,
+          "Damage:2": 335,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockframes"
+        },
+        "1:10": {
+          "Count:3": 72,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "bartworks:BW_GlasBlocks"
+        },
+        "2:10": {
+          "Count:3": 67,
+          "Damage:2": 1,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings4"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

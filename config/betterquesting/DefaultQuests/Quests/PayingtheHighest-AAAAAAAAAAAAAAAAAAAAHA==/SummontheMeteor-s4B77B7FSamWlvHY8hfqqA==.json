@@ -14,7 +14,7 @@
         "Count:3": 1,
         "Damage:2": 2398,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.blockores"
+        "id:8": "gregtech:gt.blockores2"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
@@ -55,7 +55,7 @@
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinBloodII"
+          "id:8": "dreamcraft:CoinBloodII"
         }
       }
     }

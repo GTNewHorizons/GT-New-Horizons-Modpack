@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Now that you\u0027ve made it this far, you might notice how the two new quests look different.\n\nThe quest with the jagged edges is a main quest - it is linked to other main quests by a thick line. You must complete main quests to unlock the next tier and to progress in general. If you can\u0027t progress, go back to previous tiers and look for uncompleted main quests.\n\nThe other quest is an optional quest, and is not needed to unlock new tiers. However, optional quests often introduce you to useful items or processes.\n\nWhat are the coins for? You can use them to purchase things in the \"Coins, Coins, Coins\" questbook tab - you have to scroll to the bottom once it unlocks!\n\nIn case you started in a bad biome, here\u0027s enough coins to purchase some saplings.",
+      "desc:8": "Now that you\u0027ve made it this far, you might notice how the two new quests look different.\n\nThe quest with the jagged edges is a main quest - it is linked to other main quests by a thick line. You must complete main quests to unlock the next tier and to progress in general. If you can\u0027t progress, go back to previous tiers and look for uncompleted main quests.\n\nThe other quest is an optional quest, and is not needed to unlock new tiers. However, optional quests often introduce you to useful items or processes.\n\nWhat are the coins for? Starting in Stone Age, you can use them to purchase things in a Vending Machine.\n\nIn case you started in a bad biome, here\u0027s enough coins to purchase some saplings once you get to the Vending Machine.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -50,7 +50,7 @@
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinForestry"
+          "id:8": "dreamcraft:CoinForestry"
         }
       }
     }

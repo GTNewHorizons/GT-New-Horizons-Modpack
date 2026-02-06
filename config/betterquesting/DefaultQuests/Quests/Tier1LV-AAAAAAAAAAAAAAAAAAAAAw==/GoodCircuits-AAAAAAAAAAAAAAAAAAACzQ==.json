@@ -24,7 +24,7 @@
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§5§lGood Circuits",
+      "name:8": "§2§lGood Circuits",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -67,7 +67,7 @@
           "Count:3": 3,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianI"
+          "id:8": "dreamcraft:CoinTechnicianI"
         }
       }
     }

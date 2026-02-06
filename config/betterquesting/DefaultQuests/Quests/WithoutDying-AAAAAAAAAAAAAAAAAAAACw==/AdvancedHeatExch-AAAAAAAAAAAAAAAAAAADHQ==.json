@@ -2,11 +2,7 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 753
-    },
-    "1:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 794
+      "questIDLow:4": 1014
     }
   },
   "properties:10": {
@@ -51,11 +47,11 @@
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.ReinforcedGlassLense"
+          "id:8": "dreamcraft:ReinforcedGlassLense"
         },
         "2:10": {
           "Count:3": 1,
-          "Damage:2": 5,
+          "Damage:2": 6,
           "OreDict:8": "",
           "id:8": "enhancedlootbags:lootbag"
         }
@@ -73,7 +69,7 @@
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianI"
+          "id:8": "dreamcraft:CoinTechnicianI"
         }
       }
     }
@@ -88,7 +84,7 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 8,
+          "Count:3": 4,
           "Damage:2": 17526,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"

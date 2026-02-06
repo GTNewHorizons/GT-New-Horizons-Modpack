@@ -1,15 +1,23 @@
 {
   "preRequisites:9": {
     "0:10": {
+      "questIDHigh:4": -5094892507915006940,
+      "questIDLow:4": -5115695210744173999
+    },
+    "1:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 3236
     },
-    "1:10": {
+    "2:10": {
+      "questIDHigh:4": -730852476632676945,
+      "questIDLow:4": -8284474244884064236
+    },
+    "3:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 2583,
       "type:1": 1
     },
-    "2:10": {
+    "4:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 2588,
       "type:1": 1
@@ -26,10 +34,10 @@
         "OreDict:8": "",
         "id:8": "gregtech:gt.blockmachines"
       },
-      "isMain:1": 0,
+      "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Chemical Pseudo-Altercations",
+      "name:8": "§5§l§nChemical Pseudo-Altercations",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

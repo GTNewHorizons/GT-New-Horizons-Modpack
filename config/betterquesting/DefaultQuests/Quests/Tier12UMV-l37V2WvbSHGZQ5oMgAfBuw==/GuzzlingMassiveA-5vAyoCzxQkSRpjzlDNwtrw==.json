@@ -3,6 +3,10 @@
     "0:10": {
       "questIDHigh:4": -8190376831060786192,
       "questIDLow:4": -6087268361248963518
+    },
+    "1:10": {
+      "questIDHigh:4": -7059304995623121180,
+      "questIDLow:4": -8476538164944458841
     }
   },
   "properties:10": {
@@ -19,7 +23,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Guzzling Massive Amounts of Gas",
+      "name:8": "§c§l§nGuzzling Massive Amounts of Gas",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

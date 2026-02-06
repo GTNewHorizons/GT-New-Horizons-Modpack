@@ -12,7 +12,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "This oven is the best way to get charcoal and creosote (x50 faster than Railcraft\u0027s coke oven) and other byproducts. You will need tons of bronze, iron and steel to build it, but it\u0027s worth it. Finally, it will be possible to dismantle the charcoal pit.\n\nWith Cupronickel coils the oven is a bit slower. Each coil tier speeds up the charcoal production.",
+      "desc:8": "This oven is the best way to get charcoal and creosote (x50 faster than the Coke Oven) and other byproducts. You will need tons of bronze, iron and steel to build it, but it\u0027s worth it. Finally, it will be possible to dismantle the charcoal pit.\n\nWith Cupronickel coils the oven is a bit slower. Each coil tier speeds up the charcoal production.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -51,7 +51,7 @@
           "Count:3": 3,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:tile.TripleCompressedCharcoal"
+          "id:8": "dreamcraft:TripleCompressedCharcoal"
         }
       },
       "ignoreDisabled:1": 0,
@@ -67,7 +67,7 @@
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianI"
+          "id:8": "dreamcraft:CoinTechnicianI"
         }
       }
     }

@@ -53,7 +53,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.MediumFuelCanister"
+          "id:8": "dreamcraft:MediumFuelCanister"
         },
         "3:10": {
           "Count:3": 1,
@@ -83,13 +83,13 @@
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinSpaceII"
+          "id:8": "dreamcraft:CoinSpaceII"
         },
         "1:10": {
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinSmithII"
+          "id:8": "dreamcraft:CoinSmithII"
         }
       }
     }
@@ -113,7 +113,7 @@
           "Count:3": 216,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.TungstenString"
+          "id:8": "dreamcraft:TungstenString"
         },
         "2:10": {
           "Count:3": 192,

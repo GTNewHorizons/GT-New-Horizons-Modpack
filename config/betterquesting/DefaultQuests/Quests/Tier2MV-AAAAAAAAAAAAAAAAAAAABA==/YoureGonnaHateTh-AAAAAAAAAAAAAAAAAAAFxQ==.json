@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The sixth item you\u0027ll need a lot of. For the scanner and the seismic prospector.",
+      "desc:8": "The sixth item you\u0027ll need a lot of, namely for the Scanner and the Seismic Prospector.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -63,7 +63,7 @@
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianI"
+          "id:8": "dreamcraft:CoinTechnicianI"
         }
       }
     }

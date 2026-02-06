@@ -20,7 +20,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "I guess you\u0027re good at killing things, huh? And if you got this far, maybe making things too? If you want to §oreally§r prove yourself though, head on over to the Endgame Goals tab.",
+      "desc:8": "I guess you\u0027re good at killing things, huh? And if you got this far, maybe making things too?",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -108,25 +108,25 @@
           "Count:3": 10,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinDarkWizardIII"
+          "id:8": "dreamcraft:CoinDarkWizardIII"
         },
         "1:10": {
           "Count:3": 10,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinAdventureIII"
+          "id:8": "dreamcraft:CoinAdventureIII"
         },
         "2:10": {
           "Count:3": 10,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinSurvivorIII"
+          "id:8": "dreamcraft:CoinSurvivorIII"
         },
         "3:10": {
           "Count:3": 10,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianIII"
+          "id:8": "dreamcraft:CoinTechnicianIII"
         }
       },
       "taskID:8": "bq_standard:retrieval"

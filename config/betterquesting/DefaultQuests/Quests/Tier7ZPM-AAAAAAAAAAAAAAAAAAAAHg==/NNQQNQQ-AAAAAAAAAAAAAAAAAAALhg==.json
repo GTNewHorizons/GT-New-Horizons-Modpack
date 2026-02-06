@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Do you want some naquadria?\n\nUnfortunately, the naquadria dust has become repulsive naquadria oxide mixture dust because of a NERF. You have to build a line for it, like the naquadah.",
+      "desc:8": "Do you want some naquadria?\n\nUnfortunately, the naquadria dust has become repulsive naquadria oxide mixture dust because of a NERF. You have to build a line for it, like the naquadah.\n\n[warn]Hold 16 Naquadria Ingots / Dust to skip this questline.[/warn]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -19,7 +19,7 @@
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "N.N.Q.Q.N.Q.Q",
+      "name:8": "§b§lN.N.Q.Q.N.Q.Q",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -42,7 +42,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinChemistIV"
+          "id:8": "dreamcraft:CoinChemistIV"
         }
       }
     }

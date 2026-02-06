@@ -19,7 +19,7 @@
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§b§lNot Quite Ferromagnetic...",
+      "name:8": "§9§lNot Quite Ferromagnetic...",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -42,7 +42,7 @@
           "Count:3": 3,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinChemistIII"
+          "id:8": "dreamcraft:CoinChemistIII"
         }
       }
     }

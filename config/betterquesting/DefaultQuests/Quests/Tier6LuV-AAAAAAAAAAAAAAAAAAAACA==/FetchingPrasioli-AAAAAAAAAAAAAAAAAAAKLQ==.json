@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "For Prasiolite you\u0027ll want to put Quartzite and Amethyst in an EBF to get Flawed Prasiolite. You\u0027ll need to either use the Implosion Compressor or Precision Laser Engraver to up the quality to Exquisite. You\u0027ll also need the dust version as well, so don\u0027t convert them all.\n\nFor the amount of Amethyst you\u0027ll need, you\u0027ll want to make a stop on Venus.\n\nIf you have a T5 rocket, you can get the ore from Ross128ba directly and run it through the sifter.",
+      "desc:8": "For Prasiolite you\u0027ll want to put Quartzite and Amethyst in an EBF to get Flawed Prasiolite. You\u0027ll need to either use the Implosion Compressor or Precision Laser Engraver to up the quality to Exquisite. You\u0027ll also need the dust version as well, so don\u0027t convert them all.\n\nYou can find Amethyst in caves on the Overworld, but for the amount you\u0027ll need, you might want to make a stop on Venus.\n\nIf you have a T5 rocket, you can get the ore from Ross128ba directly and run it through the sifter.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -19,7 +19,7 @@
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§c§lFetching Prasiolite",
+      "name:8": "§d§lFetching Prasiolite",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

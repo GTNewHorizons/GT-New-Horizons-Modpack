@@ -69,7 +69,7 @@
           "Count:3": 25,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnician"
+          "id:8": "dreamcraft:CoinTechnician"
         }
       }
     }
@@ -111,7 +111,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.AluminiumIronPlate"
+          "id:8": "dreamcraft:AluminiumIronPlate"
         },
         "5:10": {
           "Count:3": 2,

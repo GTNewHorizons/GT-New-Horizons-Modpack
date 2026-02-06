@@ -1,0 +1,123 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -5094892507915006940,
+      "questIDLow:4": -5115695210744173999
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3236
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "You didn\u0027t think we were going to force you to use the Mass Solidifier for the rest of the game did you? Imagine being compelled to make hundreds of those for gate... that would just be cruel!\n\n§lIntroducing the Exo-Foundry!§r \n\nThe §5§lExo-Foundry§r is a direct upgrade to the §5Mass Solidifier§r, and just a few of them will be powerful enough to support your infrastructure for the rest of the game. But let\u0027s start off with one for now.\n\nThere are three separate tiers, and seven different modules. Each tier allows you to place more modules on the machine starting with two at T1 and ending with four at T3. Each module has it\u0027s own special set of abilities and you can combine them in unique ways to get a Foundry with the best fit for your infrastructure.\n\nThe questbook will explain the function of each module type, however the best way to view the information altogether is to use the GUI of the Foundry itself and the tooltips visible on the individual blocks. \n\n[note]For even more information regarding the precise mathematics of module combinations and interactions you can also check out the Wiki: [url]https://wiki.gtnewhorizons.com/wiki/Exo-Foundry[/url][/note]",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 14050,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
+      },
+      "isMain:1": 1,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "§5§l§nExo-Foundry",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -3591845481632939088,
+  "questIDLow:4": -5463418681646836872,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 14050,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 260,
+          "Damage:2": 1,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.foundrycasings"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 548,
+          "Damage:2": 7,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockglass1"
+        },
+        "1:10": {
+          "Count:3": 489,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.foundrycasings"
+        },
+        "2:10": {
+          "Count:3": 281,
+          "Damage:2": 11,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.foundrycasings"
+        },
+        "3:10": {
+          "Count:3": 224,
+          "Damage:2": 132,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockframes"
+        },
+        "4:10": {
+          "Count:3": 196,
+          "Damage:2": 12,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.foundrycasings"
+        },
+        "5:10": {
+          "Count:3": 172,
+          "Damage:2": 7,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings11"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

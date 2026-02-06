@@ -68,7 +68,7 @@
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinDarkWizardI"
+          "id:8": "dreamcraft:CoinDarkWizardI"
         }
       }
     }
@@ -98,7 +98,7 @@
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.LichBone"
+          "id:8": "dreamcraft:LichBone"
         },
         "3:10": {
           "Count:3": 2,

@@ -14,12 +14,12 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "dreamcraft:item.MedalBuilder"
+        "id:8": "dreamcraft:MedalBuilder"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Simulating a Solar System",
+      "name:8": "§4§l§nSimulating a Solar System",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -65,31 +65,31 @@
           "Count:3": 640,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.HarmonicGatePlate"
+          "id:8": "dreamcraft:HarmonicGatePlate"
         },
         "1:10": {
           "Count:3": 414,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.HarmonicChevron"
+          "id:8": "dreamcraft:HarmonicChevron"
         },
         "2:10": {
           "Count:3": 1642,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.HarmonicFramePart"
+          "id:8": "dreamcraft:HarmonicFramePart"
         },
         "3:10": {
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.StargateCrystalAncients"
+          "id:8": "dreamcraft:StargateCrystalAncients"
         },
         "4:10": {
           "Count:3": 106,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.QuantumCircuit"
+          "id:8": "dreamcraft:QuantumCircuit"
         },
         "5:10": {
           "Count:3": 540,

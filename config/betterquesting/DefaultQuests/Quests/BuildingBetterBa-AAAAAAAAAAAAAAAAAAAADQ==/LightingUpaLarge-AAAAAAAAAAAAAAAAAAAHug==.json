@@ -2,11 +2,11 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 97
+      "questIDLow:4": 68
     },
     "1:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 68
+      "questIDLow:4": 1598
     }
   },
   "properties:10": {
@@ -54,7 +54,7 @@
           "Count:3": 64,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:tile.CompressedCharcoal"
+          "id:8": "dreamcraft:CompressedCharcoal"
         }
       }
     }

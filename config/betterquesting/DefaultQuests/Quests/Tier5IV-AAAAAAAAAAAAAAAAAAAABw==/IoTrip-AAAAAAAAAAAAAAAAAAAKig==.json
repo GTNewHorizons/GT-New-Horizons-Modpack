@@ -14,12 +14,12 @@
         "Count:3": 16,
         "Damage:2": 607,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.blockores"
+        "id:8": "gregtech:gt.blockores2"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§b§lIo Trip",
+      "name:8": "§9§lIo Trip",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

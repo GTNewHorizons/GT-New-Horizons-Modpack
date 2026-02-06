@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Diamonds and emeralds are limited in their ability to store LP. With this sword, you are able to get the crystallized souls from your enemies. Time to go hunting.",
+      "desc:8": "Diamonds and emeralds are limited in their ability to store LP. With this sword, you are able to get the crystallized souls from your enemies. Time to go hunting.\n\n[warn]While active, all bound tools, including this sword, will actively draw LP from your network. This can have deadly consequences if you run out of LP, so be sure you have a reliable source.[/warn]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -57,19 +57,19 @@
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinSurvivorII"
+          "id:8": "dreamcraft:CoinSurvivorII"
         },
         "1:10": {
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinSmithII"
+          "id:8": "dreamcraft:CoinSmithII"
         },
         "2:10": {
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinBloodII"
+          "id:8": "dreamcraft:CoinBloodII"
         }
       }
     }
@@ -87,7 +87,8 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "AWWayofTime:energySword"
+          "id:8": "AWWayofTime:energySword",
+          "tag:10": {}
         }
       },
       "taskID:8": "bq_standard:retrieval"

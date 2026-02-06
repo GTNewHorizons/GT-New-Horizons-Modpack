@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Ethanol has a burn value of 192,000 EU per cell can be used to make bio diesel and other fluids.",
+      "desc:8": "Ethanol has a burn value of 192,000 EU per cell can be used to make Bio Diesel and other fluids.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -75,7 +75,7 @@
           "Count:3": 25,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinChemist"
+          "id:8": "dreamcraft:CoinChemist"
         }
       }
     }

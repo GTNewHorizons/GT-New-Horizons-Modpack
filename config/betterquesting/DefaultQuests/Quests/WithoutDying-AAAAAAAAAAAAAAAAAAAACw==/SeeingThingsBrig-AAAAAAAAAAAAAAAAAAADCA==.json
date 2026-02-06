@@ -16,7 +16,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The nano helmet is a bit special. It will provide you with night vision as long as you have energy!",
+      "desc:8": "The nano helmet is a bit special. It will provide you with night vision as long as you have energy!\n\n[note]If you got these from a lootbag, hold these in your hand after completing the \"Carbon Parts\" quest to skip this quest.[/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -66,7 +66,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.NanoCrystal"
+          "id:8": "dreamcraft:NanoCrystal"
         }
       },
       "ignoreDisabled:1": 0,
@@ -82,13 +82,13 @@
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinSmithI"
+          "id:8": "dreamcraft:CoinSmithI"
         },
         "1:10": {
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianI"
+          "id:8": "dreamcraft:CoinTechnicianI"
         }
       }
     }

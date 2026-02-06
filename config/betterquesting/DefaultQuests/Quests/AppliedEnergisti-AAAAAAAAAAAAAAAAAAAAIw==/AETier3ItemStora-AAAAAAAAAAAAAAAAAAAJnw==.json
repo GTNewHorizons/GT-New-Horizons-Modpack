@@ -2,7 +2,11 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 1256
+      "questIDLow:4": 1890
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1319
     }
   },
   "properties:10": {
@@ -14,7 +18,7 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "dreamcraft:item.EngineeringProcessorItemEmeraldCore"
+        "id:8": "dreamcraft:EngineeringProcessorItemEmeraldCore"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
@@ -42,7 +46,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.EmeraldAdvancedCoreChip"
+          "id:8": "dreamcraft:EmeraldAdvancedCoreChip"
         }
       }
     },
@@ -55,7 +59,7 @@
           "Count:3": 4,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianII"
+          "id:8": "dreamcraft:CoinTechnicianII"
         }
       }
     }
@@ -73,7 +77,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.EngineeringProcessorItemEmeraldCore"
+          "id:8": "dreamcraft:EngineeringProcessorItemEmeraldCore"
         }
       },
       "taskID:8": "bq_standard:retrieval"

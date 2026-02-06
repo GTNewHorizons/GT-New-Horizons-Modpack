@@ -22,7 +22,7 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "dreamcraft:tile.BloodyVoid"
+        "id:8": "dreamcraft:BloodyVoid"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
@@ -65,7 +65,7 @@
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinBloodII"
+          "id:8": "dreamcraft:CoinBloodII"
         }
       }
     }
@@ -118,7 +118,7 @@
           "Count:3": 16,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:tile.BloodyVoid"
+          "id:8": "dreamcraft:BloodyVoid"
         }
       },
       "taskID:8": "bq_standard:retrieval"

@@ -1,34 +1,34 @@
 {
   "name": "loot_junk",
   "loot_rules": [
-	{"level": 0, "each": true, "quantity": 8, "loot": [
-		{"data": {"name": "minecraft:clay_ball", "meta": 0, "min": 3, "max": 7}, "weight": 30},
-		{"data": {"name": "minecraft:reeds", "meta": 0, "min": 3, "max": 5}, "weight": 30},
-		{"data": {"name": "minecraft:bone", "meta": 0, "min": 3, "max": 5}, "weight": 30},
-		{"data": {"name": "minecraft:sand", "meta": 0, "min": 3, "max": 7}, "weight": 30},
-		{"data": {"name": "minecraft:stick", "meta": 0, "min": 3, "max": 7}, "weight": 30},
-		{"data": {"name": "minecraft:coal", "meta": 0, "min": 1, "max": 4}, "weight": 30},
-		{"data": {"name": "minecraft:gravel", "meta": 0, "min": 3, "max": 7}, "weight": 30},
+	{"level": 0, "each": true, "quantity": 6, "loot": [
+		{"data": {"name": "minecraft:clay_ball", "meta": 0, "min": 3, "max": 16}, "weight": 30},
+		{"data": {"name": "minecraft:reeds", "meta": 0, "min": 3, "max": 12}, "weight": 30},
+		{"data": {"name": "minecraft:bone", "meta": 0, "min": 3, "max": 12}, "weight": 30},
+		{"data": {"name": "minecraft:sand", "meta": 0, "min": 3, "max": 30}, "weight": 30},
+		{"data": {"name": "minecraft:stick", "meta": 0, "min": 3, "max": 12}, "weight": 30},
+		{"data": {"name": "minecraft:coal", "meta": 0, "min": 1, "max": 8}, "weight": 30},
+		{"data": {"name": "minecraft:gravel", "meta": 0, "min": 3, "max": 30}, "weight": 30},
 		{"data": {"name": "minecraft:leather", "meta": 0, "min": 2, "max": 4}, "weight": 30},
 		{"data": {"name": "minecraft:arrow", "meta": 0, "min": 3, "max": 9}, "weight": 30},
 		{"data": {"name": "minecraft:flint", "meta": 0, "min": 3, "max": 7}, "weight": 30},
 		{"data": {"name": "minecraft:rotten_flesh", "meta": 0, "min": 1, "max": 3}, "weight": 30},
 		{"data": {"name": "Thaumcraft:ItemLootBag", "meta": 0}, "weight": 3},
 		{"data": {"name": "Natura:barleyFood", "meta": 3, "min": 1, "max": 7}, "weight": 20},
-		{"data": {"name": "minecraft:name_tag", "meta": 0}, "weight": 1},
-		{"data": {"name": "enhancedlootbags:lootbag", "meta": 0}, "weight": 1}
+		{"data": {"name": "minecraft:name_tag", "meta": 0}, "weight": 2},
+		{"data": {"name": "enhancedlootbags:lootbag", "meta": 0}, "weight": 2}
 
       ]
     },
-	{"level": 1, "each": true, "quantity": 8, "loot": [
-		{"data": {"name": "minecraft:clay_ball", "meta": 0, "min": 3, "max": 7}, "weight": 30},
-		{"data": {"name": "minecraft:paper", "meta": 0, "min": 3, "max": 5}, "weight": 30},
-		{"data": {"name": "minecraft:sand", "meta": 0, "min": 3, "max": 7}, "weight": 30},
-		{"data": {"name": "minecraft:torch", "meta": 0, "min": 3, "max": 7}, "weight": 30},
-		{"data": {"name": "minecraft:coal", "meta": 0, "min": 1, "max": 4}, "weight": 30},
-		{"data": {"name": "minecraft:gunpowder", "meta": 0, "min": 1, "max": 4}, "weight": 30},
-		{"data": {"name": "minecraft:gravel", "meta": 0, "min": 3, "max": 7}, "weight": 30},
-		{"data": {"name": "Backpack:tannedLeather", "meta": 0, "min": 2, "max": 4}, "weight": 30},
+	{"level": 1, "each": true, "quantity": 6, "loot": [
+		{"data": {"name": "minecraft:clay_ball", "meta": 0, "min": 3, "max": 20}, "weight": 30},
+		{"data": {"name": "minecraft:paper", "meta": 0, "min": 3, "max": 12}, "weight": 30},
+		{"data": {"name": "minecraft:sand", "meta": 0, "min": 3, "max": 30}, "weight": 30},
+		{"data": {"name": "minecraft:torch", "meta": 0, "min": 3, "max": 12}, "weight": 30},
+		{"data": {"name": "minecraft:coal", "meta": 0, "min": 1, "max": 7}, "weight": 30},
+		{"data": {"name": "minecraft:gunpowder", "meta": 0, "min": 1, "max": 7}, "weight": 30},
+		{"data": {"name": "minecraft:gravel", "meta": 0, "min": 3, "max": 30}, "weight": 30},
+		{"data": {"name": "Backpack:tannedLeather", "meta": 0, "min": 1, "max": 2}, "weight": 10},
 		{"data": {"name": "minecraft:dye", "meta": 4, "min": 4, "max": 10}, "weight": 15},
 		{"data": {"name": "minecraft:arrow", "meta": 0, "min": 3, "max": 9}, "weight": 15},
 		{"data": {"name": "minecraft:redstone", "meta": 0, "min": 3, "max": 24}, "weight": 20},
@@ -36,19 +36,19 @@
 		{"data": {"name": "etfuturum:tipped_arrow", "meta": 8266, "min": 3, "max": 9}, "weight": 2},
 		{"data": {"name": "etfuturum:tipped_arrow", "meta": 8229, "min": 3, "max": 9}, "weight": 2},
 		{"data": {"name": "minecraft:flint", "meta": 0, "min": 3, "max": 7}, "weight": 30},
-		{"data": {"name": "minecraft:bone", "meta": 0, "min": 1, "max": 3}, "weight": 30},
+		{"data": {"name": "minecraft:bone", "meta": 0, "min": 1, "max": 12}, "weight": 30},
 		{"data": {"name": "Thaumcraft:ItemLootBag", "meta": 0}, "weight": 4},
 		{"data": {"name": "minecraft:name_tag", "meta": 0}, "weight": 1},
-		{"data": {"name": "minecraft:string", "meta": 0, "min": 1, "max": 7}, "weight": 20},
-		{"data": {"name": "enhancedlootbags:lootbag", "meta": 0}, "weight": 1},
-		{"data": {"name": "enhancedlootbags:lootbag", "meta": 36}, "weight": 1}
+		{"data": {"name": "minecraft:string", "meta": 0, "min": 1, "max": 12}, "weight": 20},
+		{"data": {"name": "enhancedlootbags:lootbag", "meta": 0}, "weight": 2},
+		{"data": {"name": "enhancedlootbags:lootbag", "meta": 36}, "weight":1}
     ]
     },
-	{"level": 2, "each": true, "quantity": 8, "loot": [
+	{"level": 2, "each": true, "quantity": 6, "loot": [
 		{"data": {"name": "minecraft:book", "meta": 0, "min": 3, "max": 5}, "weight": 30},
 		{"data": {"name": "TConstruct:blankPattern", "meta": 0, "min": 1, "max": 3}, "weight": 10},
-		{"data": {"name": "minecraft:torch", "meta": 0, "min": 3, "max": 7}, "weight": 30},
-		{"data": {"name": "minecraft:coal", "meta": 0, "min": 1, "max": 4}, "weight": 30},
+		{"data": {"name": "minecraft:torch", "meta": 0, "min": 3, "max": 12}, "weight": 30},
+		{"data": {"name": "minecraft:coal", "meta": 0, "min": 1, "max": 12}, "weight": 30},
 		{"data": {"name": "minecraft:gunpowder", "meta": 0, "min": 1, "max": 4}, "weight": 50},
 		{"data": {"name": "etfuturum:tipped_arrow", "meta": 8264, "min": 3, "max": 14}, "weight": 20},
 		{"data": {"name": "etfuturum:tipped_arrow", "meta": 8266, "min": 3, "max": 9}, "weight": 5},
@@ -58,7 +58,7 @@
 		{"data": {"name": "minecraft:name_tag", "meta": 0}, "weight": 1},
 		{"data": {"name": "minecraft:redstone", "meta": 0, "min": 3, "max": 24}, "weight": 20},
 		{"data": {"name": "minecraft:string", "meta": 0, "min": 1, "max": 7}, "weight": 60},
-		{"data": {"name": "minecraft:bone", "meta": 0, "min": 1, "max": 7}, "weight": 60},
+		{"data": {"name": "minecraft:bone", "meta": 0, "min": 1, "max": 12}, "weight": 60},
 		{"data": {"name": "gregtech:gt.metaitem.02", "meta": 30503}, "weight": 2},
 		{"data": {"name": "minecraft:dye", "meta": 4, "min": 4, "max": 10}, "weight": 15},
 		{"data": {"name": "gregtech:gt.blockreinforced", "meta": 5, "min": 2, "max": 4}, "weight": 10},
@@ -67,11 +67,11 @@
 		{"data": {"name": "enhancedlootbags:lootbag", "meta": 36}, "weight": 1}
       ]
     },
-	{"level": 3, "each": true, "quantity": 8, "loot": [
+	{"level": 3, "each": true, "quantity": 6, "loot": [
 		{"data": {"name": "minecraft:book", "meta": 0, "min": 3, "max": 5}, "weight": 30},
 		{"data": {"name": "minecraft:ender_pearl", "meta": 0, "min": 3, "max": 5}, "weight": 10},
 		{"data": {"name": "TConstruct:blankPattern", "meta": 0, "min": 1, "max": 3}, "weight": 10},
-		{"data": {"name": "minecraft:torch", "meta": 0, "min": 3, "max": 7}, "weight": 30},
+		{"data": {"name": "minecraft:torch", "meta": 0, "min": 3, "max": 14}, "weight": 30},
 		{"data": {"name": "gregtech:gt.blockreinforced", "meta": 5, "min": 2, "max": 4}, "weight": 50},
 		{"data": {"name": "etfuturum:tipped_arrow", "meta": 8264, "min": 3, "max": 14}, "weight": 40},
 		{"data": {"name": "etfuturum:tipped_arrow", "meta": 8266, "min": 3, "max": 9}, "weight": 10},
@@ -81,16 +81,16 @@
 		{"data": {"name": "minecraft:name_tag", "meta": 0}, "weight": 1},
 		{"data": {"name": "minecraft:redstone", "meta": 0, "min": 3, "max": 24}, "weight": 20},
 		{"data": {"name": "minecraft:string", "meta": 0, "min": 1, "max": 7}, "weight": 20},
-		{"data": {"name": "minecraft:bone", "meta": 0, "min": 1, "max": 7}, "weight": 20},
-		{"data": {"name": "enhancedlootbags:lootbag", "meta": 2}, "weight": 1},
-	        {"data": {"name": "minecraft:dye", "meta": 4, "min": 4, "max": 10}, "weight": 15},
+		{"data": {"name": "minecraft:bone", "meta": 0, "min": 1, "max": 14}, "weight": 20},
+	    {"data": {"name": "minecraft:dye", "meta": 4, "min": 4, "max": 10}, "weight": 15},
+		{"data": {"name": "enhancedlootbags:lootbag", "meta": 35}, "weight": 1},
 		{"data": {"name": "enhancedlootbags:lootbag", "meta": 51}, "weight": 1},
 		{"data": {"name": "enhancedlootbags:lootbag", "meta": 25}, "weight": 1},
 		{"data": {"name": "enhancedlootbags:lootbag", "meta": 28}, "weight": 1}
     ]
     },
     {
-      "level": 4, "each": true, "quantity": 8, "loot": [
+      "level": 4, "each": true, "quantity": 6, "loot": [
 		{"data": {"name": "minecraft:book", "meta": 0, "min": 3, "max": 5}, "weight": 30},
 		{"data": {"name": "minecraft:ender_pearl", "meta": 0, "min": 3, "max": 5}, "weight": 20},
 		{"data": {"name": "TConstruct:blankPattern", "meta": 0, "min": 1, "max": 3}, "weight": 10},
@@ -100,12 +100,12 @@
 		{"data": {"name": "etfuturum:tipped_arrow", "meta": 8266, "min": 3, "max": 9}, "weight": 5},
 		{"data": {"name": "etfuturum:tipped_arrow", "meta": 8229, "min": 3, "max": 9}, "weight": 5},
 		{"data": {"name": "minecraft:ghast_tear", "meta": 0, "min": 1, "max": 3}, "weight": 10},
-	        {"data": {"name": "minecraft:dye", "meta": 4, "min": 4, "max": 10}, "weight": 35},
+        {"data": {"name": "minecraft:dye", "meta": 4, "min": 4, "max": 10}, "weight": 35},
 		{"data": {"name": "Thaumcraft:ItemLootBag", "meta": 2}, "weight": 4},
-	        {"data": {"name": "minecraft:redstone", "meta": 0, "min": 3, "max": 24}, "weight": 20},
-		{"data": {"name": "minecraft:name_tag", "meta": 0}, "weight": 1},
+        {"data": {"name": "minecraft:redstone", "meta": 0, "min": 3, "max": 24}, "weight": 20},
+		{"data": {"name": "minecraft:name_tag", "meta": 0}, "weight": 2},
 		{"data": {"name": "minecraft:magma_cream", "meta": 0, "min": 1, "max": 7}, "weight": 20},
-		{"data": {"name": "enhancedlootbags:lootbag", "meta": 2}, "weight": 1},
+		{"data": {"name": "enhancedlootbags:lootbag", "meta": 35}, "weight": 1},
 		{"data": {"name": "enhancedlootbags:lootbag", "meta": 51}, "weight": 1},
 		{"data": {"name": "enhancedlootbags:lootbag", "meta": 25}, "weight": 1},
 		{"data": {"name": "enhancedlootbags:lootbag", "meta": 28}, "weight": 1}

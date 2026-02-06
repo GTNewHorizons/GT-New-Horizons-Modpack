@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Potassium Nitrate is made from Potassium and Nitric Acid.\nIf you have some saltpeter you can use that instead.\n\n\nPotassium nitrate can only be crafted while saltpeter has many different sources.\nPick the one you prefer, only one is needed to complete the quest.",
+      "desc:8": "Potassium Nitrate is made from Potassium and Nitric Acid.\nIf you have some saltpeter you can use that instead.\n\nPotassium nitrate can only be crafted while saltpeter has many different sources.\nPick the one you prefer, only one is needed to complete the quest.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -20,7 +20,7 @@
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§b§lPotassium Nitrate",
+      "name:8": "§9§lPotassium Nitrate",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -57,13 +57,13 @@
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinChemistII"
+          "id:8": "dreamcraft:CoinChemistII"
         },
         "1:10": {
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianII"
+          "id:8": "dreamcraft:CoinTechnicianII"
         }
       }
     }

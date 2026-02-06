@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "...What\u0027s this low-purity hafnium stuff?\n\nWell, because you of course want your hafnium to be of the highest quality, you\u0027re going to have to do a little more than just EBF it with a little magnesium.\n\nGo ahead and react it with some Iodine. If you\u0027re not too sure where to get Iodine, have a look at Seaweed Ash. (hint: you\u0027ll need to look at small piles)\n\nNote that both the liquid and dust forms of iodine are optional, so you can complete the quest with one. Or none!",
+      "desc:8": "...What\u0027s this low-purity hafnium stuff?\n\nWell, because you of course want your hafnium to be of the highest quality, you\u0027re going to have to do a little more than just EBF it with a little magnesium.\n\nGo ahead and react it with some Iodine. If you\u0027re not too sure where to get Iodine, have a look at Seaweed Ash. (hint: you\u0027ll need to look at small piles)",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -19,7 +19,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§b§lWe Ain\u0027t Running a Farm!",
+      "name:8": "§9§lWe Ain\u0027t Running a Farm!",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -42,7 +42,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinChemistIII"
+          "id:8": "dreamcraft:CoinChemistIII"
         }
       }
     }

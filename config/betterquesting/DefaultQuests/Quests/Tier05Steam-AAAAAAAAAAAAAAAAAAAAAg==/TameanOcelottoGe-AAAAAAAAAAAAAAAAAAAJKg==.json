@@ -20,7 +20,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§3§lTame an Ocelot to Get a Friend",
+      "name:8": "§c§lTame an Ocelot to Get a Friend",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -69,7 +69,7 @@
           "Count:3": 10,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinSurvivor"
+          "id:8": "dreamcraft:CoinSurvivor"
         }
       }
     }
@@ -103,7 +103,7 @@
         "0:10": {
           "Count:3": 32,
           "Damage:2": 0,
-          "OreDict:8": "",
+          "OreDict:8": "fenceWood",
           "id:8": "minecraft:fence"
         },
         "1:10": {

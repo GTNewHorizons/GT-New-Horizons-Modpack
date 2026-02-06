@@ -23,7 +23,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Dyson Swarm Ground Unit",
+      "name:8": "§9§l§nDyson Swarm Ground Unit",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -73,13 +73,13 @@
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianIV"
+          "id:8": "dreamcraft:CoinTechnicianIV"
         },
         "1:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinSpaceIV"
+          "id:8": "dreamcraft:CoinSpaceIV"
         }
       }
     }

@@ -6,9 +6,13 @@
     },
     "1:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 1238
+      "questIDLow:4": 1236
     },
     "2:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1238
+    },
+    "3:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 940
     }
@@ -28,7 +32,7 @@
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§9§lNOR and NAND Chips",
+      "name:8": "§5§lNOR and NAND Chips",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -65,7 +69,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianII"
+          "id:8": "dreamcraft:CoinTechnicianII"
         }
       }
     }

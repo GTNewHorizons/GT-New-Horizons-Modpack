@@ -16,7 +16,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "A MK II is nice, but why not make a MK III? This time you will need UV or above hatches, as well as the Fusion Machine Casing MK II.\n\nEach of the up to 16 UV Energy Hatches adds 32768 EU/t power input and 40 MEU starting capacity. Therefore this reactor can handle recipes up to 640M EU at startup.\n\nWhen using it for lower tier recipes, the reactor will double the power needed per recipe, while cutting the processing time in half, both for each tier difference.",
+      "desc:8": "A MK II is nice, but why not make a MK III? This time you need UV+ energy hatches, as well as the Fusion Machine Casing MK II.\n\nEach energy hatch has an energy capacity of 40M EU and draws up to 32768 EU/t. That means it can handle start costs up to 640M EU and power consumption up to 524288 EU/t.\n\nThe MK III reactor also grants a 2/2 perfect overclock for every machine tier above the minimum recipe tier.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -28,7 +28,7 @@
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Upgrading the Reactor",
+      "name:8": "§2§l§nUpgrading the Reactor",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -95,42 +95,13 @@
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianIII"
+          "id:8": "dreamcraft:CoinTechnicianIII"
         }
       }
     }
   },
   "tasks:9": {
     "0:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 0,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 2,
-          "Damage:2": 58,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
-        },
-        "1:10": {
-          "Count:3": 1,
-          "Damage:2": 68,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
-        },
-        "2:10": {
-          "Count:3": 1,
-          "Damage:2": 48,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
-        }
-      },
-      "taskID:8": "bq_standard:optional_retrieval"
-    },
-    "1:10": {
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
@@ -149,11 +120,17 @@
           "Damage:2": 8,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockcasings4"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 48,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
     },
-    "2:10": {
+    "1:10": {
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,

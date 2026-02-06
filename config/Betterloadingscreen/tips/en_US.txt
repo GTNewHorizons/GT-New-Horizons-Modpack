@@ -2,45 +2,44 @@
 #Thanks to 0lafe, boubou19, chochem, interestingusernam3, glowredman, GTNH-Afx237v7, leagris, LewisSaber, Nvidiot, Regian24, richardhendricks, yukieiji, FijiAura and others for tip suggestions
 #
 #Maximal characters for a tip: 77 (more can go out of the screen)
-#The line below, including the "#" are 77 chars
-#Adventurer's backpack? Did you mean integrated crafting grid, bed and fluid
+#Use the line below as a reference
+############################################################################
 #
 Infinite water sources are disabled
-Don't give ideas to 0lafe
 Don't feed your machines after midnight!
 Don't worry, ServerUtilities takes care of backups
 Material tiers play a role when breaking pipes
 If a machine catches fire, it can explode
 Adding water to an empty but hot Boiler will make a loud bang!
 Avoid Eldritch Obelisks!
-You can bind the questbook to a key to save you from using the item
+You can bind the questbook to a key to save you from using a slot
 Pam's Gardens can be picked up with right-click
 Don't make the LV Extruder without checking the recipes' voltage!
 Placing a Garden makes it spread
 Water Gardens grow on water
 Press [F] to swap with your offhand
-Taking Lava without gloves hurts!
+Handling Lava without gloves hurts!
 Watch out, food loses saturation
 Loot Games give helpful rewards
 Using too many Translocators can cause TPS lag
 Be sure to check out what you can do with Mouse Tweaks
 Protect your machines from rain on all sides!
-Build multiblocks within the same chunk!
+Building multiblocks across chunk boundaries? Be sure they are chunk loaded!
 You will lose your first piece of Aluminium dust in the EBF
 Shift-right-clicking with a wrench on a fluid pipe makes it output-only
 The Bending Machine makes plates more efficiently
 Multiblocks can share walls
-You can't use the front side of machines for input and output
+You can't use the front face of machines for input and output
 Disable a machine with a Soft Mallet if it cannot finish a recipe
-Villagers periodically "shed" emeralds.
-Forestry Worktables are your friend
+Villagers periodically "shed" emeralds
+Forestry Worktables are your friends
 Try the Midnight Theme for the questbook
-Try the Realistic Sky resourcepack
+Try the Realistic Sky resourcepack (it's already included)
 Literally flint and steel!
 To go faster without sprinting, walk diagonally for about a 40% increase
-Tinker's Tools can levelup: more modifiers and mining level bonus!
+Tinker's Tools can level up: more modifiers and mining level bonus!
 Farm Glowflowers for Glowstone
-Making Steel armour? Check out the Composite Chestplate
+Making Steel armor? Check out the Composite Chestplate
 Adventurer's Backpack: integrated crafting grid, bed and fluid storage
 Beware of cable power loss!
 Machines that get a higher Voltage than they can handle go BOOM!
@@ -48,7 +47,7 @@ Loss on uninsulated cables is twice as big as on insulated ones
 Power requirements are based solely on the recipes
 A machine draws electricity from its internal buffer first
 Tinker's Faucets can pour fluids and also gasses(!) into containers
-Peaceful mode doesn't restore hunger.
+Peaceful mode doesn't restore hunger
 Beware of pollution!
 Found a crash or bug? Please report it on GitHub
 Tinker's Smeltery does not double ores
@@ -61,15 +60,15 @@ IC2 Crops can receive bonus environmental statistics based on biome
 Weeds spread to empty crop sticks and destroy other crops
 Use Machine Hulls or Transvector Interfaces to ease machine access
 Steam flowing through pipes or coming out of machines hurts!
-Fortune does NOT increase drops from Brittle Charcoal from the Charcoal Pile Igniter
+Fortune is useless on Brittle Charcoal
 Pay attention to Voltage and Amperage of cables and machines!
 Warp is no fun, got a wither in your base already?
 There are fourteen Voltage tiers: from LV(32V) to MAX(2147483647V)
 Going one Voltage tier up, means quadrupling Voltage requirements
 Shift-click with a GT-Block on a cable/pipe/etc to auto-connect it
 Read the fine questbook, it explains many mechanics
-You can bookmark items with NEI ("a" by default)
-It's NEI, not JEI. Use it frequently.
+You can bookmark items with NEI ("A" by default)
+It's NEI, not JEI. Use it frequently
 Your pick is not ready
 1.7.10's Life Support!
 Put the "Mine" back in Minecraft
@@ -94,7 +93,8 @@ Use /xu_tps to see if the server's lagging. 20 TPS is normal
 Use an Elevator to get into your Cleanroom, so you won't lose cleanliness!
 Only getting bad drops? Try enchanting your Lootbags with Fortune III!
 You can't enter the Twilight Forest without a Quick And Dirty Portal Generator
-Press T while hovering on an item in NEI to see where it is in your world.
+Press T while hovering on an item to see where it is in nearby inventories
+Press Y while hovering on a machine in NEI to see where you placed it
 Using a Circuit Assembler will make circuits cheaper!
 Using a Cleanroom will make circuits even cheaper!
 GT stands for Grind and Tedium
@@ -102,17 +102,16 @@ Don't go out at night! Mobs can have up to 300 HP
 Steam is hot! It will burn Wooden Fluid Pipes
 Don't break Rubber Trees without a Treetap
 Eating too many of the same food will make you hate it!
-#Remember to check if there are Natura clouds when you launch a rocket!
 Abandon all vanilla knowledge all ye who enter here
 With the power of Duct Tape, I solved all of your maintenance problems!
 When you open a Twilight Portal, you'll get hit by lightning
-#Sometimes it's better to flee than fight some mobs
 Sometimes the best combat strategy is "Run away!"
 You can power machines by putting batteries in their energy slots
+You can power machines by putting Redstone in their energy slots
 You can charge your Jetpack by putting it in the energy slot of LV machines
 Be prepared to take hours to craft a single machine!
 Oil + Thunder = Fire. Remember to put cobblestone over your oil wells!
-Nuclear Reactor configs give 10x the energy they give in IC2!
+Nuclear Reactors give 10x the energy they give in IC2!
 Remember to plant Cotton - you'll need a ton of it
 It's AluminIum, not Aluminum
 #Sometimes it's better to buy than to craft
@@ -121,8 +120,7 @@ Use F7 to see spots where mobs can spawn!
 Use F9 to see chunk borders!
 Need seed oil for Forestry? Plant some peanuts
 Microcrafting is love, microcrafting is life
-Meta-Tip! You can see the list of loading screen tips in the config
-Hahahaha, coin quests go brrrrrrr
+Hahahaha, coins in a vending machine go brrrrrrr
 If you're making a Project Red system, make sure to use a wall of drawers!
 How many circuits have you crafted in your life?
 JourneyMap: Press [J]
@@ -131,7 +129,8 @@ sqrt(-1) loves you!
 ((MultiMC | Prism) > Curse) && (Technic > Curse) == true
 All you had to do was follow the damn quest line, CJ!
 Click on an item in the questbook to show its recipe in NEI
-Come to the GregTech-side? We have... microcrafting
+Come to the GregTech side? We have... microcrafting
+Come to the GregTech side! We have NEI autocrafting!
 Cables are | || || |_ y
 Varying foods gives hearts!
 You can change InGame Info XML scale in ingame configs
@@ -140,7 +139,7 @@ Game mechanics datasheet: www.gtnewhorizons.com/spreadsheet
 If it's too tedious you're doing it wrong
 Do you also watch your oven while baking food?
 There's always something else you can do while waiting
-Use F3 + S to reload the sound if it's gone
+You can press the "Refresh sounds" button in sound settings if they're gone
 Batteries can be charged and discharged in the same slot
 3D-printed Lave 12 is the future - Sampsa
 Don't hold machines in your hotbar when playing with cables
@@ -154,7 +153,6 @@ Remove plates and covers from machines using a Crowbar
 To divide items with a ratio, use the Distributor. Configure with a screwdriver
 Stay one tier ahead of DreamMasterXXL!
 What's a "Fabric Loader"?
-You can power machines by putting Redstone in their energy slots
 UwU
 HV to MV, yes - Threefold
 Daddy Kitten has no power over staff - boubou_19
@@ -167,3 +165,4 @@ has polished andesite, 10/10 modpack - S_hach23
 The Item Dislocator is available sooner than you might think!
 Please, refrain from eating optical fiber cable
 Natgas is the fuel of speedrunners! Try it :) ~ Pxx500
+O(n^2) down to O(n)?! Toggle bus meta begins NOW!

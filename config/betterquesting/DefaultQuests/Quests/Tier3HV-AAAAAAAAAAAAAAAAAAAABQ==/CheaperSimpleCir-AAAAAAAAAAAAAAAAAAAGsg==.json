@@ -20,7 +20,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§8§9§lCheaper Simple Circuit",
+      "name:8": "§5§lCheaper Simple Circuit",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -69,7 +69,7 @@
           "Count:3": 25,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnician"
+          "id:8": "dreamcraft:CoinTechnician"
         }
       }
     }
@@ -84,25 +84,25 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 8,
+          "Count:3": 6,
           "Damage:2": 32101,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.03"
         },
         "1:10": {
-          "Count:3": 8,
+          "Count:3": 6,
           "Damage:2": 32061,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.03"
         },
         "2:10": {
-          "Count:3": 8,
+          "Count:3": 6,
           "Damage:2": 26308,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"
         },
         "3:10": {
-          "Count:3": 8,
+          "Count:3": 6,
           "Damage:2": 19035,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.02"
@@ -114,12 +114,29 @@
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
-      "index:3": 1,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 64,
+          "Count:3": 6,
+          "Damage:2": 32081,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 3,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 48,
           "Damage:2": 32075,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.03"

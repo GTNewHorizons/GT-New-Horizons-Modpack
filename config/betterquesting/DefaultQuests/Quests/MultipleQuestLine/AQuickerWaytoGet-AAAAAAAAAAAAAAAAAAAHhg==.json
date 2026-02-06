@@ -20,7 +20,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§2§lA Quicker Way to Get Around",
+      "name:8": "§a§lA Quicker Way to Get Around",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -63,7 +63,7 @@
           "Count:3": 3,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinAdventure"
+          "id:8": "dreamcraft:CoinAdventure"
         }
       }
     }
@@ -92,7 +92,7 @@
         "2:10": {
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": "",
+          "OreDict:8": "fenceWood",
           "id:8": "minecraft:fence"
         }
       },

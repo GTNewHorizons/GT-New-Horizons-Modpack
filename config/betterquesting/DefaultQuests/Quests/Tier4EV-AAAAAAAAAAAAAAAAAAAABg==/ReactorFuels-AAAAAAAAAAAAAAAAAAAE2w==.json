@@ -18,13 +18,13 @@
         "Count:3": 1,
         "Damage:2": 4873,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.blockores"
+        "id:8": "gregtech:gt.blockores2"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§a§lReactor Fuels",
+      "name:8": "§8§lReactor Fuels",
       "partySingleReward:1": 0,
       "questLogic:8": "OR",
       "repeatTime:3": -1,
@@ -61,13 +61,13 @@
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinSpaceII"
+          "id:8": "dreamcraft:CoinSpaceII"
         },
         "1:10": {
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinAdventureII"
+          "id:8": "dreamcraft:CoinAdventureII"
         }
       }
     }
@@ -82,16 +82,16 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 64,
-          "Damage:2": 4873,
+          "Count:3": 192,
+          "Damage:2": 5873,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores"
+          "id:8": "gregtech:gt.metaitem.01"
         },
         "1:10": {
-          "Count:3": 48,
-          "Damage:2": 4922,
+          "Count:3": 144,
+          "Damage:2": 5922,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores"
+          "id:8": "gregtech:gt.metaitem.01"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -100,31 +100,8 @@
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 1,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 64,
-          "Damage:2": 873,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores"
-        },
-        "1:10": {
-          "Count:3": 48,
-          "Damage:2": 922,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "2:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
       "ignoreNBT:1": 0,
-      "index:3": 2,
+      "index:3": 1,
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
@@ -138,6 +115,29 @@
           "Damage:2": 5922,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.03"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 873,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockores2"
+        },
+        "1:10": {
+          "Count:3": 48,
+          "Damage:2": 922,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockores2"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -151,16 +151,16 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 192,
-          "Damage:2": 5873,
+          "Count:3": 64,
+          "Damage:2": 4873,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "gregtech:gt.blockores2"
         },
         "1:10": {
-          "Count:3": 144,
-          "Damage:2": 5922,
+          "Count:3": 48,
+          "Damage:2": 4922,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "gregtech:gt.blockores2"
         }
       },
       "taskID:8": "bq_standard:retrieval"

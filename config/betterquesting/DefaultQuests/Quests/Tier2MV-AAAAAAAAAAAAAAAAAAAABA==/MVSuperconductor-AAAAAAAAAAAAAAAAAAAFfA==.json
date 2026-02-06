@@ -12,7 +12,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "How about lossless 128 EU Wires? Pentacadmiummagnesiumhexaoxide is a superconductor wire and will transfer your energy without any loss. Every Voltage going forward has a superconductor wire with zero loss.\n\nMix Cadmium, Magnesium and Oxygen in an MV mixer. Next, the base dust needs an EBF with Kanthal Coils to be smelted. A vacuum freezer is also required to cool it down. Make some MV Superconductor Base Wires and use an Assembler to combine these wires with Helium, Stainless Steel pipes and MV pumps to get your 128 EU/t superconductor wires.\n\n[note]Whether these are worth it to save a little power or not is up to you of course. Also note that although they\u0027re wires, you aren\u0027t hurt by coming into contact with them.[/note]",
+      "desc:8": "How about lossless 128 EU Wires? Pentacadmiummagnesiumhexaoxide is a superconductor wire and will transfer your energy without any loss. Every Voltage going forward has a superconductor wire with zero loss.\n\nMix Cadmium, Magnesium and Oxygen in an MV mixer. Next, the base dust needs an EBF with Kanthal Coils to be smelted. Make some MV Superconductor Base Wires and use an Assembler to combine these wires with Helium, Stainless Steel pipes and MV pumps to get your 128 EU/t superconductor wires.\n\n[note]Whether these are worth it to save a little power or not is up to you of course. Also note that although they\u0027re wires, you aren\u0027t hurt by coming into contact with them.[/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -61,19 +61,19 @@
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinSmithI"
+          "id:8": "dreamcraft:CoinSmithI"
         },
         "1:10": {
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinChemistI"
+          "id:8": "dreamcraft:CoinChemistI"
         },
         "2:10": {
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinDarkWizardI"
+          "id:8": "dreamcraft:CoinDarkWizardI"
         }
       }
     }

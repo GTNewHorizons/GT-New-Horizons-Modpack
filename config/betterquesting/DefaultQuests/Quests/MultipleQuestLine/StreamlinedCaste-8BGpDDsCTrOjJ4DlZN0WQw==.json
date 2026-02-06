@@ -1,0 +1,102 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -3591845481632939088,
+      "questIDLow:4": -5463418681646836872
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "The §5§lStreamlined Casters§r (SC) module is one of the first three modules you unlock right away for use in the §nExo-Foundry§r.\n\nThe SC module functions as a powerful §2150%§r speed bonus for the Foundry. If that\u0027s not enough for you, you can further amplify by another §2150%§r for every SC module you install.\n\nIf this module paired with §5Superdense Casting Basins§r (SCB) module, you will unlock the \"§6Optimum Production§r\" bonus for §36§r extra parallels per voltage tier and a further §275%§r speed increase.\n\n[note]This bonus is stackable with bonuses obtained from other modules you will unlock in the future![/note]",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 10,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.foundrycasings"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "§5§l§nStreamlined Casters",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -1147950560008057165,
+  "questIDLow:4": -6690236998707505597,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 10,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.foundrycasings"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 10,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.foundrycasings"
+        },
+        "1:10": {
+          "Count:3": 28,
+          "Damage:2": 974,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockframes"
+        },
+        "2:10": {
+          "Count:3": 24,
+          "Damage:2": 329,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockframes"
+        },
+        "3:10": {
+          "Count:3": 16,
+          "Damage:2": 974,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.sheetmetal"
+        },
+        "4:10": {
+          "Count:3": 12,
+          "Damage:2": 3,
+          "OreDict:8": "",
+          "id:8": "miscutils:gtplusplus.blockcasings.5"
+        },
+        "5:10": {
+          "Count:3": 12,
+          "Damage:2": 13,
+          "OreDict:8": "",
+          "id:8": "miscutils:gtplusplus.blockspecialcasings.1"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

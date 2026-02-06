@@ -1,8 +1,8 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": -7794674471479980302,
-      "questIDLow:4": -5399646287042766590
+      "questIDHigh:4": -199482370913580560,
+      "questIDLow:4": -9064439369025459403
     }
   },
   "properties:10": {
@@ -19,7 +19,7 @@
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Fueling the DTPF",
+      "name:8": "§5§l§nFueling the DTPF",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

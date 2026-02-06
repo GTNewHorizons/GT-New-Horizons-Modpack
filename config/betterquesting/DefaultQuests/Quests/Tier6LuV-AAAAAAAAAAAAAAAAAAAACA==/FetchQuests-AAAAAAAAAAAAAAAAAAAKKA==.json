@@ -14,7 +14,7 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "dreamcraft:item.OvenGlove",
+        "id:8": "dreamcraft:OvenGlove",
         "tag:10": {
           "Durability:3": 1000
         }
@@ -22,7 +22,7 @@
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§c§lFetch Quests",
+      "name:8": "§d§lFetch Quests",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Ever wonder where your redstone transmitters are? Or wish they were labeled? Maybe your teammate placed one down, didn\u0027t tell you, and now you\u0027re stuck wondering what private frequency they placed?\n\nNow, you have a way to do all of that.\n\nIntroducing the §6Redstone Sniffer§r!\n\nFor §cregular wireless redstone§f§r, the sniffer will list all currently used frequencies, tell you whether that frequency is private, and gives you an option to label it.\n\nFor §cadvanced wireless covers§f§r, the sniffer will additionally tell you where that cover is currently located, including in other dimensions, and offers you the option to also highlight or teleport to it. ",
+      "desc:8": "Ever wonder where your redstone transmitters are? Or wish they were labeled? Maybe your teammate placed one down, didn\u0027t tell you, and now you\u0027re stuck wondering what private frequency they placed?\n\nNow, you have a way to do all of that.\n\nIntroducing the §6Redstone Sniffer§r!\n\nFor §cregular wireless redstone§r, the sniffer will list all currently used frequencies, tell you whether that frequency is private, and gives you an option to label it.\n\nFor §cadvanced wireless covers§r, the sniffer will additionally tell you where that cover is currently located, including in other dimensions, and offers you the option to also highlight or teleport to it. ",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -22,7 +22,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "The Redstone Sniffer",
+      "name:8": "§8§lThe Redstone Sniffer",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

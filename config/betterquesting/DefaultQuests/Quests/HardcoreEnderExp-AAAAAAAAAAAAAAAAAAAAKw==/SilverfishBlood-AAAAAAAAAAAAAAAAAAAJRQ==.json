@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Using a normal sword, the chance of it dropping Blood per Silverfish is 1 in 56.\nGolden swords increase the chance to 1 in 14.\n\n\nIt is used to brew Infestation Remedy.",
+      "desc:8": "Using a normal sword, the chance of it dropping Blood per Silverfish is 1 in 56.\nGolden swords increase the chance to 1 in 14.\n\nIt is used to brew Infestation Remedy.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -75,13 +75,13 @@
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinSurvivorII"
+          "id:8": "dreamcraft:CoinSurvivorII"
         },
         "1:10": {
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinDarkWizardII"
+          "id:8": "dreamcraft:CoinDarkWizardII"
         },
         "2:10": {
           "Count:3": 3,

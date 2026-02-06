@@ -18,13 +18,13 @@
         "Count:3": 1,
         "Damage:2": 98,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.blockores"
+        "id:8": "gregtech:gt.blockores2"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§a§lPure Uranium Ores",
+      "name:8": "§8§lPure Uranium Ores",
       "partySingleReward:1": 0,
       "questLogic:8": "OR",
       "repeatTime:3": -1,
@@ -61,13 +61,13 @@
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinSpaceII"
+          "id:8": "dreamcraft:CoinSpaceII"
         },
         "1:10": {
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinAdventureII"
+          "id:8": "dreamcraft:CoinAdventureII"
         }
       }
     }
@@ -85,13 +85,13 @@
           "Count:3": 64,
           "Damage:2": 922,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores"
+          "id:8": "gregtech:gt.blockores2"
         },
         "1:10": {
           "Count:3": 48,
           "Damage:2": 98,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockores"
+          "id:8": "gregtech:gt.blockores2"
         }
       },
       "taskID:8": "bq_standard:retrieval"

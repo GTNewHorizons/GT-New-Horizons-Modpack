@@ -20,7 +20,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§9§lHV Extruder",
+      "name:8": "§5§lHV Extruder",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -46,7 +46,7 @@
         "1:10": {
           "Count:3": 2,
           "Damage:2": 0,
-          "OreDict:8": "circuitAdvanced",
+          "OreDict:8": "",
           "id:8": "IC2:itemPartCircuitAdv"
         }
       },
@@ -69,7 +69,7 @@
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianI"
+          "id:8": "dreamcraft:CoinTechnicianI"
         }
       }
     }

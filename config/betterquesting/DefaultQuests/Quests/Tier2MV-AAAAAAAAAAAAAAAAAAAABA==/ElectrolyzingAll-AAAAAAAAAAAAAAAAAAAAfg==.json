@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Collected a lot of dusts you can\u0027t do anything with since you started with macerating, washing and centrifuging ores? It\u0027s finally time to get all the useful materials out of them.\n\nThis machine is §overy §o§rimportant for your MV progression. If you find a biome with tons of Stained or Hardened Clay, you can process it here, plus some other machines, into Sodium, Lithium, Silicon, Aluminium and Oxygen!",
+      "desc:8": "Collected a lot of dusts you can\u0027t do anything with since you started with macerating, washing and centrifuging ores? It\u0027s finally time to get all the useful materials out of them.\n\nThis machine is §overy§r important for your MV progression. If you find a biome with tons of Stained or Hardened Clay, you can process it here, plus some other machines, into Sodium, Lithium, Silicon, Aluminium and Oxygen!",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -57,7 +57,7 @@
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianI"
+          "id:8": "dreamcraft:CoinTechnicianI"
         }
       }
     }

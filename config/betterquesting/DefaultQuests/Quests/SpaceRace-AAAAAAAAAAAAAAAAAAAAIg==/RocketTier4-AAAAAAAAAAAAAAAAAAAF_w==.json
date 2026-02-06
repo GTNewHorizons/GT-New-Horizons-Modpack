@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "After weeks of hard work and a thousand stacks of iTNT your fourth rocket is finally ready.\n\nYou need to use Dense Hydrazine Rocket Fuel.\n\n[note]In case you forgot to complete any, holding the rocket in your hand will unlock all pre-requisite quests in addition to this one.[/note]",
+      "desc:8": "After weeks of hard work and a thousand stacks of iTNT your fourth rocket is finally ready.\n\nYou need to use Dense Hydrazine Rocket Fuel.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -75,13 +75,13 @@
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinSpaceIII"
+          "id:8": "dreamcraft:CoinSpaceIII"
         },
         "1:10": {
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianIII"
+          "id:8": "dreamcraft:CoinTechnicianIII"
         }
       }
     }

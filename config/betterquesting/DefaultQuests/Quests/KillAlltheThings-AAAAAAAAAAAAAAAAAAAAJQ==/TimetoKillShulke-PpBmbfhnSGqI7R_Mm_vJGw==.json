@@ -2,17 +2,13 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 230
-    },
-    "1:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 11
+      "questIDLow:4": 225
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The Shulker doesn\u0027t spawn naturally so you will need to obtain it\u0027s spawn egg to complete this quest. You can do so in the coins tab or through crafting.",
+      "desc:8": "The Shulker can spawn in the Lich or Ghast Queen Tower in the Twilight Forest. You can also optionally obtain it\u0027s spawn egg either with the crafting recipe or through the repeatable quest.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -65,25 +61,25 @@
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinDarkWizardI"
+          "id:8": "dreamcraft:CoinDarkWizardI"
         },
         "1:10": {
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinSurvivorI"
+          "id:8": "dreamcraft:CoinSurvivorI"
         },
         "2:10": {
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinAdventureI"
+          "id:8": "dreamcraft:CoinAdventureI"
         },
         "3:10": {
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianI"
+          "id:8": "dreamcraft:CoinTechnicianI"
         }
       }
     }

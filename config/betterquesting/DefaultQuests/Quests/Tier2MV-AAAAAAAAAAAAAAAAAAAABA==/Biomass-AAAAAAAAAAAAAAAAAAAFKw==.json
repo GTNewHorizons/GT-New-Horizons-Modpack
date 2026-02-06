@@ -2,13 +2,9 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 734
-    },
-    "1:10": {
-      "questIDHigh:4": 0,
       "questIDLow:4": 3070
     },
-    "2:10": {
+    "1:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 735
     }
@@ -16,7 +12,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Chose the IC2 or the gregtech way to make biomass. Water and Bio Chaff is needed.\n\nYou can also use the pyrolyze oven to make biomass in a more efficient way if you make it.\n\nNote that forestry has its own biomass as well. It can also be made into fermented biomass like this kind. Choose which kind you want to make later on yourself.",
+      "desc:8": "Choose the IC2 or the GregTech way to make Biomass. Water and Bio Chaff is needed.\n\nYou can also use the Pyrolyze Oven to make Biomass in a more efficient way if you make it.\n\nNote that Forestry has its own Biomass as well. It can also be turned into Fermented Biomass.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -28,7 +24,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§5§6§lBiomass",
+      "name:8": "§6§lBiomass",
       "partySingleReward:1": 0,
       "questLogic:8": "OR",
       "repeatTime:3": -1,
@@ -83,13 +79,13 @@
           "Count:3": 25,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinChemist"
+          "id:8": "dreamcraft:CoinChemist"
         },
         "1:10": {
           "Count:3": 25,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnician"
+          "id:8": "dreamcraft:CoinTechnician"
         }
       }
     }

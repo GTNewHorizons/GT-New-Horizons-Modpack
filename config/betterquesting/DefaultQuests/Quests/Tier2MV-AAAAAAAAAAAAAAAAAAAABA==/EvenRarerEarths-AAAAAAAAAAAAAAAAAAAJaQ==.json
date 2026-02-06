@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Rare Earth processing may have been ignored, but you believe your new Dehydrator can finally make it worthwhile. First, you need to use some Sulfuric Acid to melt off any impurities in a Chemical Bath, leaving you with Crushed Rare Earth (I). After that you need to process it like a normal ore until you get Rare Earth (I) Dust.\n\nAfter running the Dust through your Dehydrator, you get a number of strange materials, only some of which you recognize. But if you run these materials through an Electrolyzer or through the Dehydrator again, you may get some use out of them. Some of them may take quite a few to do so, but you §o§o§r§h§ohave§r been stockpiling, right? You\u0027ll need 204 Rare Earth.\n\nYou believe if you had more powerful acids and machines, you could extract even more valuable materials out of the Rare Earth.",
+      "desc:8": "Rare Earth processing may have been ignored, but you believe your new Dehydrator can finally make it worthwhile. First, you need to use some Sulfuric Acid to melt off any impurities in a Chemical Bath, leaving you with Crushed Rare Earth (I). After that you need to process it like a normal ore until you get Rare Earth (I) Dust.\n\nAfter running the Dust through your Dehydrator, you get a number of strange materials, only some of which you recognize. But if you run these materials through an Electrolyzer or through the Dehydrator again, you may get some use out of them. Some of them may take quite a few to do so, but you §ohave§r been stockpiling, right? You\u0027ll need 204 Rare Earth.\n\nYou believe if you had more powerful acids and machines, you could extract even more valuable materials out of the Rare Earth.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -68,19 +68,19 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinChemistII"
+          "id:8": "dreamcraft:CoinChemistII"
         },
         "1:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinSmithII"
+          "id:8": "dreamcraft:CoinSmithII"
         },
         "2:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianII"
+          "id:8": "dreamcraft:CoinTechnicianII"
         }
       }
     }

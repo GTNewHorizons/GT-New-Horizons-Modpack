@@ -14,13 +14,13 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "dreamcraft:item.MoonStoneDust"
+        "id:8": "dreamcraft:MoonStoneDust"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§a§lPulverize the Planet",
+      "name:8": "§8§lPulverize the Planet",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -63,7 +63,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinAdventureII"
+          "id:8": "dreamcraft:CoinAdventureII"
         }
       }
     }
@@ -81,7 +81,7 @@
           "Count:3": 16,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.MoonStoneDust"
+          "id:8": "dreamcraft:MoonStoneDust"
         }
       },
       "taskID:8": "bq_standard:retrieval"

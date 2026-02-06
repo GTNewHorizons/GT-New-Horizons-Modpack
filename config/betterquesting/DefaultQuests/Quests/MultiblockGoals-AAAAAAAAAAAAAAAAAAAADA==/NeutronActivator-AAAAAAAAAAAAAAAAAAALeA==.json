@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "You will need machine to process the naquadah in the future.\n\nThis machine is different from most multis. It needs to use [warn]Neutron Accelerator[/warn] this special hatch instead of energy hatch to keep it running.\n\nThe accelerator will increase its Neutron Kinetic Energy (NKE) and when the NKE is between the requested number which you can see in NEI, the machine will work and output the right products. However, if you turn on the Neutron Activator when NKE doesn\u0027t meet the requirement, it will still consume your input material but output trash. So be careful with the NKE when you run this machine.\n\nWhen all Neutron Accelerators aren\u0027t running, NKE will decrease 72keV/s.\n\nNeutron Activator will explode when NKE is over 1200MeV.\n\n§dYou can enable batch mode with wire cutters.§r\n\n[note]The more height/speed casings you have, the more inefficient the EU-\u003eeV conversion becomes, so you then need more power. The math is as follows: Multiply recipe time by 0.9 for each height above 4 and multiply eV you get from your input power by 0.95 for each height above 4.[/note]",
+      "desc:8": "The Neutron Activator is a unique machine that you will use for processing Naquadah, and eventually Naquadah Fuel should you choose to do so.\n\nUnlike traditional multis, instead of using a regular energy hatch, this machine relies on a Neutron Accelerator that will need to be regulated by a Sensor Hatch. §3(The Neutron Accelerator needs to be provided power just like an energy hatch)§r\n\nThe accelerator will increase its Neutron Kinetic Energy (NKE) and when the NKE is between the requested number which you can see in NEI, the machine will work and output the right products. However, if you turn on the Neutron Activator when NKE doesn\u0027t meet the requirement, it will still consume your input material but output trash. So be careful with the NKE when you run this machine.\n\nWhen all Neutron Accelerators aren\u0027t running, NKE will decrease 72keV/s.\n\nNeutron Activator will explode when NKE is over 1200MeV.\n\n§dYou can enable batch mode with wire cutters.§r\n\n[note]The more height/speed casings you have, the more inefficient the EU-\u003eeV conversion becomes, so you then need more power. The math is as follows: Multiply recipe time by 0.9 for each height above 4 and multiply eV you get from your input power by 0.95 for each height above 4.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -63,7 +63,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianIII"
+          "id:8": "dreamcraft:CoinTechnicianIII"
         }
       }
     }

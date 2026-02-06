@@ -9,7 +9,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The naquadah is so inert that most acids won\u0027t react with it, so you need a more powerful kind of acid to dissolve it.\n\nLet\u0027s prepare some necessary organic solvent to make the acid.",
+      "desc:8": "The naquadah is so inert that most acids won\u0027t react with it, so you need a more powerful kind of acid to dissolve it.\n\nLet\u0027s prepare some necessary organic solvent to make the acid.\n\n[warn]If you have already created the Naquadah line, hold 64 Naquadah Ingot / Dust to skip these quests.[/warn]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -20,7 +20,7 @@
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§c§lEther Strike!",
+      "name:8": "§d§lEther Strike!",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -43,7 +43,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinChemistIII"
+          "id:8": "dreamcraft:CoinChemistIII"
         }
       }
     },

@@ -12,7 +12,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Unlike the item version, these can only hold 12 types of essentia each. This tier holds 2,048 units if you fill it with a single type of essentia. If you fill it with 12 different types of essentia, you can have about 168 units of each. If you want one for every type of essentia, you\u0027ll need 67 of them. You\u0027ll want to make the essentia terminal to see what you have. They consume the same amount of AE as the item ones.",
+      "desc:8": "Unlike the item version, these can only hold 12 types of essentia each. This tier holds 2,048 units if you fill it with a single type of essentia. If you fill it with 12 different types of essentia, you can have about 168 units of each. If you want one for every type of essentia, you\u0027ll need 69 of them. You\u0027ll want to make the essentia terminal to see what you have. They consume the same amount of AE as the item ones.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -47,7 +47,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.EssentiaCircuit"
+          "id:8": "dreamcraft:EssentiaCircuit"
         }
       }
     },
@@ -60,13 +60,13 @@
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianII"
+          "id:8": "dreamcraft:CoinTechnicianII"
         },
         "1:10": {
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinDarkWizardII"
+          "id:8": "dreamcraft:CoinDarkWizardII"
         }
       }
     }

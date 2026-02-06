@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The canning machine is used to fill batteries, fill cells with stuff (usually dust, not used that often), or to fill tin cans with any kind of food (HV+).\n\nAt LV-HV tier you can make batteries with sodium, cadmium, or lithium.",
+      "desc:8": "The canning machine is used to fill batteries, fill or empty containers with fluids or ocassionally dusts, or to fill tin cans with any kind of food (HV+).\n\nAt LV-HV tier you can make batteries with sodium, cadmium, or lithium.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -20,7 +20,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§5§lBasic Canner",
+      "name:8": "§2§lBasic Canner",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -57,7 +57,7 @@
           "Count:3": 3,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianI"
+          "id:8": "dreamcraft:CoinTechnicianI"
         }
       }
     }

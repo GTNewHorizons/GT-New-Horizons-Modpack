@@ -9,7 +9,7 @@
 		{"data": {"name": "minecraft:wooden_sword", "meta": 0, "nbt" : "{ench:[0:{id:16s,lvl:2s},1:{id:34s,lvl:1s}],display:{Name:\"Ancient Acinaces\"}}"}, "weight": 7},
 		{"data": {"name": "minecraft:stone_sword", "meta": 0, "nbt" : "{ench:[0:{id:98s,lvl:1s},1:{id:180s,lvl:1s}],display:{Name:\"Magic Makhaira\"}}"}, "weight": 7},
 		{"data": {"name": "minecraft:stone_sword", "meta": 0, "nbt" : "{ench:[0:{id:18s,lvl:2s},1:{id:19s,lvl:1s}],display:{Name:\"Spider Sica\"}}"}, "weight": 7},
-		{"data": {"name": "minecraft:stick", "meta": 0, "nbt" : "{ench:[0:{id:19s,lvl:5s}],display:{Name:\"Hercales' Club\"}}"}, "weight": 1}
+		{"data": {"name": "minecraft:stick", "meta": 0, "nbt" : "{ench:[0:{id:19s,lvl:5s}],display:{Name:\"Hercales' Club\"}}"}, "weight": 2}
       ]
     },
 	{"level": 0, "type": "WEAPONS", "each": true, "quantity": 4, "loot": [
@@ -64,7 +64,7 @@
 		{"data": {"name": "minecraft:iron_sword", "meta": 0, "nbt" : "{ench:[0:{id:17s,lvl:1s},1:{id:19s,lvl:2s}],display:{Name:\"Oppresive Oxborough Dirk\"}}"}, "weight": 7},
 		{"data": {"name": "minecraft:iron_sword", "meta": 0, "nbt" : "{ench:[0:{id:99s,lvl:3s},1:{id:45s,lvl:3s}],display:{Name:\"Handy Harpē\"}}"}, "weight": 7},
 		{"data": {"name": "minecraft:iron_sword", "meta": 0, "nbt" : "{ench:[0:{id:20s,lvl:1s},1:{id:21s,lvl:2s}],display:{Name:\"Dangerous Deer Catcher\"}}"}, "weight": 7},
-		{"data": {"name": "minecraft:golden_sword", "meta": 0, "nbt" : "{ench:[0:{id:17s,lvl:7s},1:{id:34s,lvl:5s}],display:{Name:\"Gladius Imperatoria\"}}"}, "weight": 1}
+		{"data": {"name": "minecraft:golden_sword", "meta": 0, "nbt" : "{ench:[0:{id:17s,lvl:7s},1:{id:34s,lvl:5s}],display:{Name:\"Gladius Imperatoria\"}}"}, "weight": 2}
 
 
     ]
@@ -78,7 +78,7 @@
 		{"data": {"name": "minecraft:iron_sword", "meta": 0, "nbt" : "{ench:[0:{id:99s,lvl:5s},1:{id:21s,lvl:3s}],display:{Name:\"Awakened Angon\"}}"}, "weight": 7},
 		{"data": {"name": "minecraft:iron_sword", "meta": 0, "nbt" : "{ench:[0:{id:18s,lvl:3s},1:{id:45s,lvl:3s}],display:{Name:\"Skillful Saber\"}}"}, "weight": 7},
 		{"data": {"name": "minecraft:iron_sword", "meta": 0, "nbt" : "{ench:[0:{id:8s,lvl:3s},1:{id:18s,lvl:4s}],display:{Name:\"Deadman's Dagger\"}}"}, "weight": 7},
-		{"data": {"name": "minecraft:iron_sword", "meta": 0, "nbt" : "{ench:[0:{id:8s,lvl:3s},1:{id:16s,lvl:7s}],display:{Name:\"Kotetsu\"}}"}, "weight": 1}
+		{"data": {"name": "minecraft:iron_sword", "meta": 0, "nbt" : "{ench:[0:{id:8s,lvl:3s},1:{id:16s,lvl:7s}],display:{Name:\"Kotetsu\"}}"}, "weight": 2}
       ]
     },
 	{"level": 2, "type": "WEAPONS", "each": true, "quantity": 4, "loot": [
@@ -114,7 +114,7 @@
 		{"data": {"name": "minecraft:diamond_sword", "meta": 0, "nbt" : "{ench:[0:{id:10s,lvl:1s},1:{id:16s,lvl:3s}],display:{Name:\"Blighted Blade\"}}"}, "weight": 7},
 		{"data": {"name": "minecraft:diamond_sword", "meta": 0, "nbt" : "{ench:[0:{id:45s,lvl:3s},1:{id:17s,lvl:2s}],RepairCost:1,display:{Name:\"Librarian's Liuyedao\"}}"}, "weight": 7},
 		{"data": {"name": "minecraft:diamond_sword", "meta": 0, "nbt" : "{ench:[0:{id:20s,lvl:2s},1:{id:16s,lvl:3s}],display:{Name:\"Kindled Katana\"}}"}, "weight": 7},
-		{"data": {"name": "minecraft:diamond_sword", "meta": 0, "nbt" : "{ench:[0:{id:21s,lvl:3s},1:{id:16s,lvl:2s},2:{id:45s,lvl:5s}],display:{Name:\"Sword of Victory\"}}"}, "weight": 1}
+		{"data": {"name": "minecraft:diamond_sword", "meta": 0, "nbt" : "{ench:[0:{id:21s,lvl:3s},1:{id:16s,lvl:2s},2:{id:45s,lvl:5s}],display:{Name:\"Sword of Victory\"}}"}, "weight": 2}
     ]
     },
 	{"level": 3, "type": "WEAPONS", "each": true, "quantity": 4, "loot": [
@@ -173,8 +173,8 @@
 		{"data": {"name": "minecraft:diamond_sword", "meta": 0, "nbt" : "{ench:[0:{id:16s,lvl:5s}],display:{Name:\"Warrior's Warblade\"}}"}, "weight": 7},
 		{"data": {"name": "minecraft:diamond_sword", "meta": 0, "nbt" : "{ench:[0:{id:45s,lvl:3s},1:{id:21s,lvl:3s}],display:{Name:\"Gambler's Grave\"}}"}, "weight": 7},
 		{"data": {"name": "minecraft:diamond_sword", "meta": 0, "nbt" : "{ench:[0:{id:18s,lvl:6s},1:{id:46s,lvl:1s}],display:{Name:\"Pest Control Pestilence\"}}"}, "weight": 7},
-		{"data": {"name": "minecraft:diamond_sword", "meta": 0, "nbt" : "{ench:[0:{id:34s,lvl:3s},1:{id:20s,lvl:2s},2{id:16s,lvl:2s}],display:{Name:\"Fireman's Fury\"}}"}, "weight": 7},
-	      	{"data": {"name": "minecraft:diamond_sword", "meta": 0, "nbt" : "{ench:[0:{id:16s,lvl:7s},1:{id:20s,lvl:2s}],display:{Name:\"Excalibur\"}}"}, "weight":1}
+		{"data": {"name": "minecraft:diamond_sword", "meta": 0, "nbt" : "{ench:[0:{id:34s,lvl:3s},1:{id:20s,lvl:2s},2:{id:16s,lvl:2s}],display:{Name:\"Fireman's Fury\"}}"}, "weight": 7},
+	    {"data": {"name": "minecraft:diamond_sword", "meta": 0, "nbt" : "{ench:[0:{id:16s,lvl:7s},1:{id:20s,lvl:2s}],display:{Name:\"Excalibur\"}}"}, "weight":2}
       ]
     }
   ]

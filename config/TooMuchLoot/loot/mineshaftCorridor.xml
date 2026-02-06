@@ -34,7 +34,6 @@
     <loot item="minecraft:hopper_minecart" damage="0" weight="5" count_min="1" count_max="1"/>
     <loot item="Railcraft:part.tie" damage="0" weight="20" count_min="4" count_max="16"/>
     <loot item="Railcraft:fuel.coke" damage="0" weight="20" count_min="4" count_max="16"/>
-    <loot item="Railcraft:part.gear" damage="3" weight="5" count_min="1" count_max="8"/>
     <loot item="Railcraft:cube" damage="2" weight="5" count_min="1" count_max="1"/>
     <loot item="Railcraft:cart.tnt.wood" damage="0" weight="5" count_min="1" count_max="3"/>
     <loot item="Railcraft:cart.work" damage="0" weight="8" count_min="1" count_max="1"/>
@@ -100,8 +99,6 @@
     <loot item="gregtech:gt.metaitem.01" damage="8528" weight="4" count_min="1" count_max="4"/>
     <loot item="gregtech:gt.metaitem.01" damage="8502" weight="2" count_min="1" count_max="4"/>
     <loot item="minecraft:emerald" damage="0" weight="2" count_min="1" count_max="4"/>
-    <loot item="gregtech:gt.metaitem.02" damage="1335" weight="1" count_min="1" count_max="4"/>
-    <loot item="gregtech:gt.metaitem.02" damage="2335" weight="1" count_min="1" count_max="4"/>
 	<loot item="gregtech:gt.metaitem.01" damage="11035" weight="9" count_min="2" count_max="6"/>
 	<loot item="gregtech:gt.metaitem.01" damage="11057" weight="8" count_min="4" count_max="16"/>
 	<loot item="gregtech:gt.metaitem.01" damage="11018" weight="10" count_min="2" count_max="8"/>

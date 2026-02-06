@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "To make Naphthalene, combine your Coal Oil Tar with Sulfuric Acid to get Sulfuric Coal Tar Oil.\n\nThen distill it to get Naphthalene. Seem easy? It gets harder.",
+      "desc:8": "To make Naphthalene, combine your Coal Tar Oil with Sulfuric Acid to get Sulfuric Coal Tar Oil, then distill it to get Naphthalene. Seems easy? It gets harder.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -19,7 +19,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Naphthalene",
+      "name:8": "§9§lNaphthalene",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -32,7 +32,27 @@
   },
   "questIDHigh:4": 0,
   "questIDLow:4": 2694,
-  "rewards:9": {},
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 6,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:CoinChemistII"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "autoConsume:1": 0,
@@ -89,11 +109,7 @@
           "id:8": "miscutils:Naphthalene"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
-    },
-    "3:10": {
-      "index:3": 3,
-      "taskID:8": "bq_standard:checkbox"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

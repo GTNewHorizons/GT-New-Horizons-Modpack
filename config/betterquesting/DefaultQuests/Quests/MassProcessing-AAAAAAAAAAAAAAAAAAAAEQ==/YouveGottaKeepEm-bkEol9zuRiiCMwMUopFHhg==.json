@@ -19,7 +19,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "You\u0027ve Gotta Keep \u0027Em Separated",
+      "name:8": "§9§lYou\u0027ve Gotta Keep \u0027Em Separated",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -61,24 +61,6 @@
           "Damage:2": 358,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
-        },
-        "1:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings10"
-        },
-        "2:10": {
-          "Count:3": 1,
-          "Damage:2": 359,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
-        },
-        "3:10": {
-          "Count:3": 1,
-          "Damage:2": 32345,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -88,28 +70,69 @@
       "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
-      "index:3": 1,
+      "index:3": 2,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 73,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings10"
+        },
+        "1:10": {
+          "Count:3": 37,
+          "Damage:2": 356,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockframes"
+        },
+        "2:10": {
+          "Count:3": 12,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "bartworks:BW_GlasBlocks"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 359,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 3,
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 32346,
+          "Damage:2": 32345,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 32347,
+          "Damage:2": 32346,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"
         },
         "2:10": {
           "Count:3": 1,
-          "Damage:2": 32348,
+          "Damage:2": 32347,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"
         },
         "3:10": {
+          "Count:3": 1,
+          "Damage:2": 32348,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "4:10": {
           "Count:3": 1,
           "Damage:2": 32349,
           "OreDict:8": "",

@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CustomToolTips>
 //Misc
-	<ToolTip ItemName="appliedenergistics2:tile.BlockDrive" ToolTip="§4Do not move chests with AE drives; It may corrupt your profile. No refunds!" NBT=""/>
-	<ToolTip ItemName="appliedenergistics2:tile.BlockCreativeEnergyCell" ToolTip="§dInfinite Energy" NBT=""/>
-	<ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:690" ToolTip="§dInfinite Energy" NBT=""/>
-	<ToolTip ItemName="appliedenergistics2:tile.BlockCreativeEnergyController" ToolTip="§dInfinite Energy" NBT=""/>
-	<ToolTip ItemName="cb4bq:BlockREB" ToolTip="§4This block will RESET ALL YOUR QUESTS, starting over from Tier 0. Do NOT build or use unless you really mean it!" NBT=""/> 
+	<ToolTip ItemName="cb4bq:BlockREB" ToolTip="§4This block will RESET ALL YOUR QUESTS, starting over from Tier 0. Do NOT build or use unless you really mean it!" NBT=""/>
 	<ToolTip ItemName="EnderIO:blockFusedQuartz" ToolTip="§4Blast resistance is now 20. DOES NOT PROTECT AGAINST NUKES!" NBT=""/>
 	<ToolTip ItemName="EnderIO:blockTravelAnchor" ToolTip="Cooldown 2 seconds" NBT=""/>
 	<ToolTip ItemName="EnderIO:blockCapBank" ToolTip="§dInfinite Energy" NBT="{type:&quot;CREATIVE&quot;,storedEnergyRF:2500000}"/>
@@ -22,298 +18,153 @@
 	<ToolTip ItemName="Thaumcraft:ItemManaBean" ToolTip="§4left click disabled" NBT=""/>
 	<ToolTip ItemName="Thaumcraft:WandCasting:36" ToolTip="§4Prolonged use is not recommended..." NBT=""/>
 	<ToolTip ItemName="StevesCarts:CartModule:61" ToolTip="§dPerpetual Locomotion" NBT=""/>
-	
+
 //Bags
-	<ToolTip ItemName="Backpack:backpack" ToolTip="4*9 Inventory - 36 Slots" NBT=""/>
-	<ToolTip ItemName="Backpack:backpack:1" ToolTip="4*9 Inventory - 36 Slots" NBT=""/>
-	<ToolTip ItemName="Backpack:backpack:2" ToolTip="4*9 Inventory - 36 Slots" NBT=""/>
-	<ToolTip ItemName="Backpack:backpack:3" ToolTip="4*9 Inventory - 36 Slots" NBT=""/>
-	<ToolTip ItemName="Backpack:backpack:4" ToolTip="4*9 Inventory - 36 Slots" NBT=""/>
-	<ToolTip ItemName="Backpack:backpack:5" ToolTip="4*9 Inventory - 36 Slots" NBT=""/>
-	<ToolTip ItemName="Backpack:backpack:6" ToolTip="4*9 Inventory - 36 Slots" NBT=""/>
-	<ToolTip ItemName="Backpack:backpack:7" ToolTip="4*9 Inventory - 36 Slots" NBT=""/>
-	<ToolTip ItemName="Backpack:backpack:8" ToolTip="4*9 Inventory - 36 Slots" NBT=""/>
-	<ToolTip ItemName="Backpack:backpack:9" ToolTip="4*9 Inventory - 36 Slots" NBT=""/>
-	<ToolTip ItemName="Backpack:backpack:10" ToolTip="4*9 Inventory - 36 Slots" NBT=""/>
-	<ToolTip ItemName="Backpack:backpack:11" ToolTip="4*9 Inventory - 36 Slots" NBT=""/>
-	<ToolTip ItemName="Backpack:backpack:12" ToolTip="4*9 Inventory - 36 Slots" NBT=""/>
-	<ToolTip ItemName="Backpack:backpack:13" ToolTip="4*9 Inventory - 36 Slots" NBT=""/>
-	<ToolTip ItemName="Backpack:backpack:14" ToolTip="4*9 Inventory - 36 Slots" NBT=""/>
-	<ToolTip ItemName="Backpack:backpack:15" ToolTip="4*9 Inventory - 36 Slots" NBT=""/>
-	<ToolTip ItemName="Backpack:backpack:16" ToolTip="4*9 Inventory - 36 Slots" NBT=""/>
-	<ToolTip ItemName="Backpack:backpack:100" ToolTip="7*9 Inventory - 63 Slots" NBT=""/>
-	<ToolTip ItemName="Backpack:backpack:101" ToolTip="7*9 Inventory - 63 Slots" NBT=""/>
-	<ToolTip ItemName="Backpack:backpack:102" ToolTip="7*9 Inventory - 63 Slots" NBT=""/>
-	<ToolTip ItemName="Backpack:backpack:103" ToolTip="7*9 Inventory - 63 Slots" NBT=""/>
-	<ToolTip ItemName="Backpack:backpack:104" ToolTip="7*9 Inventory - 63 Slots" NBT=""/>
-	<ToolTip ItemName="Backpack:backpack:105" ToolTip="7*9 Inventory - 63 Slots" NBT=""/>
-	<ToolTip ItemName="Backpack:backpack:106" ToolTip="7*9 Inventory - 63 Slots" NBT=""/>
-	<ToolTip ItemName="Backpack:backpack:107" ToolTip="7*9 Inventory - 63 Slots" NBT=""/>
-	<ToolTip ItemName="Backpack:backpack:108" ToolTip="7*9 Inventory - 63 Slots" NBT=""/>
-	<ToolTip ItemName="Backpack:backpack:109" ToolTip="7*9 Inventory - 63 Slots" NBT=""/>
-	<ToolTip ItemName="Backpack:backpack:110" ToolTip="7*9 Inventory - 63 Slots" NBT=""/>
-	<ToolTip ItemName="Backpack:backpack:111" ToolTip="7*9 Inventory - 63 Slots" NBT=""/>
-	<ToolTip ItemName="Backpack:backpack:112" ToolTip="7*9 Inventory - 63 Slots" NBT=""/>
-	<ToolTip ItemName="Backpack:backpack:113" ToolTip="7*9 Inventory - 63 Slots" NBT=""/>
-	<ToolTip ItemName="Backpack:backpack:114" ToolTip="7*9 Inventory - 63 Slots" NBT=""/>
-	<ToolTip ItemName="Backpack:backpack:115" ToolTip="7*9 Inventory - 63 Slots" NBT=""/>
-	<ToolTip ItemName="Backpack:backpack:116" ToolTip="7*9 Inventory - 63 Slots" NBT=""/>
-	<ToolTip ItemName="Backpack:backpack:200" ToolTip="10*9 Inventory - 90 Slots" NBT=""/>
-	<ToolTip ItemName="Backpack:backpack:201" ToolTip="10*9 Inventory - 90 Slots" NBT=""/>
-	<ToolTip ItemName="Backpack:backpack:202" ToolTip="10*9 Inventory - 90 Slots" NBT=""/>
-	<ToolTip ItemName="Backpack:backpack:203" ToolTip="10*9 Inventory - 90 Slots" NBT=""/>
-	<ToolTip ItemName="Backpack:backpack:204" ToolTip="10*9 Inventory - 90 Slots" NBT=""/>
-	<ToolTip ItemName="Backpack:backpack:205" ToolTip="10*9 Inventory - 90 Slots" NBT=""/>
-	<ToolTip ItemName="Backpack:backpack:206" ToolTip="10*9 Inventory - 90 Slots" NBT=""/>
-	<ToolTip ItemName="Backpack:backpack:207" ToolTip="10*9 Inventory - 90 Slots" NBT=""/>
-	<ToolTip ItemName="Backpack:backpack:208" ToolTip="10*9 Inventory - 90 Slots" NBT=""/>
-	<ToolTip ItemName="Backpack:backpack:209" ToolTip="10*9 Inventory - 90 Slots" NBT=""/>
-	<ToolTip ItemName="Backpack:backpack:210" ToolTip="10*9 Inventory - 90 Slots" NBT=""/>
-	<ToolTip ItemName="Backpack:backpack:211" ToolTip="10*9 Inventory - 90 Slots" NBT=""/>
-	<ToolTip ItemName="Backpack:backpack:212" ToolTip="10*9 Inventory - 90 Slots" NBT=""/>
-	<ToolTip ItemName="Backpack:backpack:213" ToolTip="10*9 Inventory - 90 Slots" NBT=""/>
-	<ToolTip ItemName="Backpack:backpack:214" ToolTip="10*9 Inventory - 90 Slots" NBT=""/>
-	<ToolTip ItemName="Backpack:backpack:215" ToolTip="10*9 Inventory - 90 Slots" NBT=""/>
-	<ToolTip ItemName="Backpack:backpack:216" ToolTip="10*9 Inventory - 90 Slots" NBT=""/>
+	<ToolTip ItemName="Backpack:backpack" ToolTip="36 Slots" NBT="" MetaStart="0" MetaEnd="16"/>
+	<ToolTip ItemName="Backpack:backpack" ToolTip="63 Slots" NBT="" MetaStart="100" MetaEnd="116"/>
+	<ToolTip ItemName="Backpack:backpack" ToolTip="90 Slots" NBT="" MetaStart="200" MetaEnd="216"/>
 	<ToolTip ItemName="Backpack:backpack:17" ToolTip="Crafting Backpack with 9 Inventory Slots" NBT=""/>
 	<ToolTip ItemName="Backpack:backpack:217" ToolTip="Crafting Backpack with 18 Inventory Slots" NBT=""/>
 	<ToolTip ItemName="Backpack:backpack:31999" ToolTip="§4Disabled Item; No recipe" NBT=""/>
-	
-//Buildcraft
-	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepowerdiamond" ToolTip="§310240 RF/t" NBT=""/>
-	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepoweremerald" ToolTip="§22560 RF/t" NBT=""/>
-	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepowergold" ToolTip="§62560 RF/t" NBT=""/>
-	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepoweriron" ToolTip="§91280 RF/t" NBT=""/>
-	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepowerquartz" ToolTip="§8640 RF/t" NBT=""/>
-	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepowerwood" ToolTip="§2320 RF/t" NBT=""/>
-	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepowersandstone" ToolTip="§5320 RF/t" NBT=""/>
-	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepowerstone" ToolTip="§b160 RF/t" NBT=""/>
-	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepowercobblestone" ToolTip="§480 RF/t" NBT=""/>
-	
+
 //Chisel
 	<ToolTip ItemName="chisel:chisel" ToolTip="§5Chisel from chisel Mod" NBT=""/>
 	<ToolTip ItemName="chisel:diamondChisel" ToolTip="§5Chisel from Chisel Mod" NBT=""/>
 	<ToolTip ItemName="chisel:obsidianChisel" ToolTip="§5Chisel from Chisel Mod" NBT=""/>
-			
+
 //Core Mod
-	<ToolTip ItemName="dreamcraft:item.OvenGlove" ToolTip="§3Put both Gloves in the Baubles Ring Slot" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.OvenGlove:1" ToolTip="§3Put both Gloves in the Baubles Ring Slot" NBT=""/>
+	<ToolTip ItemName="dreamcraft:OvenGlove" ToolTip="§3Put both Gloves in the Baubles Ring Slot" NBT=""/>
+	<ToolTip ItemName="dreamcraft:OvenGlove:1" ToolTip="§3Put both Gloves in the Baubles Ring Slot" NBT=""/>
 	<ToolTip ItemName="dreamcraft:dreamcraft_Pollution_bucket" ToolTip="§4Very toxic" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.NanoScubaHelmet" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.NanoPlatedLeggings" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.NanoChestJetPack" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.NanoRubberBoots" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.CarbonPartChestplate" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.QuantumPartHelmetEmpty" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.QuantumPartHelmet" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.QuantumPartLeggings" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.QuantumPartChestplate" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.QuantumPartBoots" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.CarbonPartHelmetNightVision" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.CarbonPartHelmet" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.CarbonPartBoots" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.CarbonPartLeggings" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
-	<ToolTip ItemName="dreamcraft:tile.BloodyThaumium" ToolTip="§5Used for Blood Altar Tier 3 Pillars" NBT=""/>
-	<ToolTip ItemName="dreamcraft:tile.BloodyVoid" ToolTip="§5Used for Blood Altar Tier 4 Pillars" NBT=""/>
-	<ToolTip ItemName="dreamcraft:tile.BloodyIchorium" ToolTip="§5Used for Blood Altar Tier 6 Pillars" NBT=""/>
-	<ToolTip ItemName="dreamcraft:tile.BronzePlatedReinforcedStone" ToolTip="§3Hardness 60 §4Blast Resistance 200" NBT=""/>
-	<ToolTip ItemName="dreamcraft:tile.SteelPlatedReinforcedStone" ToolTip="§3Hardness 150 §4Blast Resistance 325" NBT=""/>
-	<ToolTip ItemName="dreamcraft:tile.TitaniumPlatedReinforcedStone" ToolTip="§3Hardness 200 §4Blast Resistance 450" NBT=""/>
-	<ToolTip ItemName="dreamcraft:tile.TungstensteelPlatedReinforcedStone" ToolTip="§3Hardness 250 §4Blast Resistance 575" NBT=""/>
-	<ToolTip ItemName="dreamcraft:tile.NaquadahPlatedReinforcedStone" ToolTip="§3Hardness 500 §4Blast Resistance 700" NBT=""/>
-	<ToolTip ItemName="dreamcraft:tile.NeutroniumPlatedReinforcedStone" ToolTip="§3Hardness 750 §4Blast Resistance 2000" NBT=""/>
+	<ToolTip ItemName="dreamcraft:NanoScubaHelmet" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
+	<ToolTip ItemName="dreamcraft:NanoPlatedLeggings" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
+	<ToolTip ItemName="dreamcraft:NanoChestJetPack" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
+	<ToolTip ItemName="dreamcraft:NanoRubberBoots" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
+	<ToolTip ItemName="dreamcraft:CarbonPartChestplate" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
+	<ToolTip ItemName="dreamcraft:QuantumPartHelmetEmpty" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
+	<ToolTip ItemName="dreamcraft:QuantumPartHelmet" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
+	<ToolTip ItemName="dreamcraft:QuantumPartLeggings" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
+	<ToolTip ItemName="dreamcraft:QuantumPartChestplate" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
+	<ToolTip ItemName="dreamcraft:QuantumPartBoots" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
+	<ToolTip ItemName="dreamcraft:CarbonPartHelmetNightVision" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
+	<ToolTip ItemName="dreamcraft:CarbonPartHelmet" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
+	<ToolTip ItemName="dreamcraft:CarbonPartBoots" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
+	<ToolTip ItemName="dreamcraft:CarbonPartLeggings" ToolTip="§4Don't try to wear this, you can't" NBT=""/>
+	<ToolTip ItemName="dreamcraft:BloodyThaumium" ToolTip="§5Used for Blood Altar Tier 3 Pillars" NBT=""/>
+	<ToolTip ItemName="dreamcraft:BloodyVoid" ToolTip="§5Used for Blood Altar Tier 4 Pillars" NBT=""/>
+	<ToolTip ItemName="dreamcraft:BloodyIchorium" ToolTip="§5Used for Blood Altar Tier 6 Pillars" NBT=""/>
+	<ToolTip ItemName="dreamcraft:BronzePlatedReinforcedStone" ToolTip="§3Hardness 60 §4Blast Resistance 200" NBT=""/>
+	<ToolTip ItemName="dreamcraft:SteelPlatedReinforcedStone" ToolTip="§3Hardness 150 §4Blast Resistance 325" NBT=""/>
+	<ToolTip ItemName="dreamcraft:TitaniumPlatedReinforcedStone" ToolTip="§3Hardness 200 §4Blast Resistance 450" NBT=""/>
+	<ToolTip ItemName="dreamcraft:TungstensteelPlatedReinforcedStone" ToolTip="§3Hardness 250 §4Blast Resistance 575" NBT=""/>
+	<ToolTip ItemName="dreamcraft:NaquadahPlatedReinforcedStone" ToolTip="§3Hardness 500 §4Blast Resistance 700" NBT=""/>
+	<ToolTip ItemName="dreamcraft:NeutroniumPlatedReinforcedStone" ToolTip="§3Hardness 750 §4Blast Resistance 2000" NBT=""/>
 	<ToolTip ItemName="EnderZoo:enderFragment" ToolTip="§11H Use in Personal Chunkloader" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.CoinChunkloaderTierI" ToolTip="§412H Chunkloader Coin, 24H in Passive Chunkloader, 48H in Personal Chunkloader" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.CoinChunkloaderTierII" ToolTip="§624H Chunkloader Coin, 48H in Passive Chunkloader, 96H in Personal Chunkloader" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.CoinChunkloaderTierIII" ToolTip="§248H Chunkloader Coin, 96H in Passive Chunkloader, 192H in Personal Chunkloader" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.CoinChunkloaderTierIV" ToolTip="§896H Chunkloader Coin, 192H in Passive Chunkloader, 384H in Personal Chunkloader" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.CoinChunkloaderTierV" ToolTip="§7192H Chunkloader Coin, 384H in Passive Chunkloader, 768H in Personal Chunkloader" NBT=""/>
+	<ToolTip ItemName="dreamcraft:CoinChunkloaderTierI" ToolTip="§412H Chunkloader Coin, 24H in Passive Chunkloader, 48H in Personal Chunkloader" NBT=""/>
+	<ToolTip ItemName="dreamcraft:CoinChunkloaderTierII" ToolTip="§624H Chunkloader Coin, 48H in Passive Chunkloader, 96H in Personal Chunkloader" NBT=""/>
+	<ToolTip ItemName="dreamcraft:CoinChunkloaderTierIII" ToolTip="§248H Chunkloader Coin, 96H in Passive Chunkloader, 192H in Personal Chunkloader" NBT=""/>
+	<ToolTip ItemName="dreamcraft:CoinChunkloaderTierIV" ToolTip="§896H Chunkloader Coin, 192H in Passive Chunkloader, 384H in Personal Chunkloader" NBT=""/>
+	<ToolTip ItemName="dreamcraft:CoinChunkloaderTierV" ToolTip="§7192H Chunkloader Coin, 384H in Passive Chunkloader, 768H in Personal Chunkloader" NBT=""/>
 	<ToolTip ItemName="minecraft:ender_pearl" ToolTip="§81H Chunkloader Use in Passive and 4H in Personal Chunkloader" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.CoinDonation" ToolTip="§4Can be used for Donation on Servers only" NBT=""/>
-	
+	<ToolTip ItemName="dreamcraft:CoinDonation" ToolTip="§4Can be used for Donation on Servers only" NBT=""/>
+
 //Draconic Evolution
-	<ToolTip ItemName="dreamcraft:item.MalformedSlush" ToolTip="§2I hope you are not going to eat this later." NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.UncookedSlush" ToolTip="§4Heating up makes food better?" NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.GlowingMarshmallow" ToolTip="§5Is it me or it just gained pixels from all that heat." NBT=""/>
-	<ToolTip ItemName="dreamcraft:item.Marshmallow" ToolTip="§6I have a very wired feeling." NBT=""/>
+	<ToolTip ItemName="dreamcraft:MalformedSlush" ToolTip="§2I hope you are not going to eat this later." NBT=""/>
+	<ToolTip ItemName="dreamcraft:UncookedSlush" ToolTip="§4Heating up makes food better?" NBT=""/>
+	<ToolTip ItemName="dreamcraft:GlowingMarshmallow" ToolTip="§5Is it me or it just gained pixels from all that heat." NBT=""/>
+	<ToolTip ItemName="dreamcraft:Marshmallow" ToolTip="§6I have a very wired feeling." NBT=""/>
 
 //Electro-Magic Tools
-	<ToolTip ItemName="EMT:NanosuitGogglesRevealing:1" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="EMT:NanosuitGogglesRevealing:27" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="EMT:NanosuitGogglesRevealing:1" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="EMT:NanosuitGogglesRevealing:27" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="EMT:NanosuitWing:1" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="EMT:NanosuitWing:27" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="EMT:NanoBootsTraveller:1" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="EMT:NanoBootsTraveller:27" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="EMT:QuantumGogglesRevealing:1" ToolTip="Recharge in a §8EV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="EMT:QuantumGogglesRevealing:27" ToolTip="Recharge in a §8EV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="EMT:QuantumWing:1" ToolTip="Recharge in a §8EV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="EMT:QuantumWing:27" ToolTip="Recharge in a §8EV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="EMT:QuantumGogglesRevealing:1" ToolTip="Recharge in a §8EV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="EMT:QuantumGogglesRevealing:27" ToolTip="Recharge in a §8EV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="EMT:itemArmorQuantumChestplate:1" ToolTip="Recharge in a §8EV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="EMT:itemArmorQuantumChestplate:27" ToolTip="Recharge in a §8EV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="EMT:SuperchargedMjolnir:1" ToolTip="Recharge in a §8EV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="EMT:SuperchargedMjolnir:27" ToolTip="Recharge in a §8EV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="EMT:ElectricScribingTools:1" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="EMT:ElectricScribingTools:27" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="EMT:ThaumiumDrill:1" ToolTip="Recharge in a §6MV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="EMT:ThaumiumDrill:27" ToolTip="Recharge in a §6MV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="EMT:DiamondChainsaw:1" ToolTip="Recharge in a §6MV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="EMT:DiamondChainsaw:27" ToolTip="Recharge in a §6MV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="EMT:ThaumiumChainsaw:1" ToolTip="Recharge in a §6MV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="EMT:ThaumiumChainsaw:27" ToolTip="Recharge in a §6MV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="EMT:Omnitool:1" ToolTip="Recharge in a §6MV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="EMT:Omnitool:27" ToolTip="Recharge in a §6MV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="EMT:Diamond Omnitool:1" ToolTip="Recharge in a §6MV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="EMT:Diamond Omnitool:27" ToolTip="Recharge in a §6MV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="EMT:ThaumiumOmnitool:1" ToolTip="Recharge in a §6MV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="EMT:ThaumiumOmnitool:27" ToolTip="Recharge in a §6MV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="EMT:ChainsawStream:1" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="EMT:ChainsawStream:27" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="EMT:DrillRockbreaker:1" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="EMT:DrillRockbreaker:27" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="EMT:ElectricHoeGrowth:1" ToolTip="Recharge in a §6MV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="EMT:ElectricHoeGrowth:27" ToolTip="Recharge in a §6MV-tier §7Machine" NBT=""/>
+	<ToolTip ItemName="EMT:NanosuitGogglesRevealing" ToolTip="Recharge in a §eHV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="27"/>
+	<ToolTip ItemName="EMT:NanosuitWing" ToolTip="Recharge in a §eHV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="27"/>
+	<ToolTip ItemName="EMT:NanoBootsTraveller" ToolTip="Recharge in a §eHV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="27"/>
+	<ToolTip ItemName="EMT:QuantumGogglesRevealing" ToolTip="Recharge in a §8EV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="27"/>
+	<ToolTip ItemName="EMT:QuantumWing" ToolTip="Recharge in a §8EV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="27"/>
+	<ToolTip ItemName="EMT:QuantumBootsTraveller" ToolTip="Recharge in a §8EV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="27"/>
+	<ToolTip ItemName="EMT:itemArmorQuantumChestplate" ToolTip="Recharge in a §8EV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="27"/>
+	<ToolTip ItemName="EMT:SuperchargedMjolnir" ToolTip="Recharge in a §8EV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="27"/>
+	<ToolTip ItemName="EMT:ElectricScribingTools" ToolTip="Recharge in a §eHV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="27"/>
+	<ToolTip ItemName="EMT:ThaumiumDrill" ToolTip="Recharge in a §6MV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="27"/>
+	<ToolTip ItemName="EMT:DiamondChainsaw" ToolTip="Recharge in a §6MV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="27"/>
+	<ToolTip ItemName="EMT:ThaumiumChainsaw" ToolTip="Recharge in a §6MV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="27"/>
+	<ToolTip ItemName="EMT:Omnitool" ToolTip="Recharge in a §6MV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="27"/>
+	<ToolTip ItemName="EMT:Diamond Omnitool" ToolTip="Recharge in a §6MV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="27"/>
+	<ToolTip ItemName="EMT:ThaumiumOmnitool" ToolTip="Recharge in a §6MV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="27"/>
+	<ToolTip ItemName="EMT:ChainsawStream" ToolTip="Recharge in a §eHV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="27"/>
+	<ToolTip ItemName="EMT:DrillRockbreaker" ToolTip="Recharge in a §eHV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="27"/>
+	<ToolTip ItemName="EMT:ElectricHoeGrowth" ToolTip="Recharge in a §6MV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="27"/>
 
 //Graviation Suite
-	<ToolTip ItemName="GraviSuite:graviChestPlate:1" ToolTip="Recharge in a §8EV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="GraviSuite:graviChestPlate:27" ToolTip="Recharge in a §8EV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="GraviSuite:advNanoChestPlate:1" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="GraviSuite:advNanoChestPlate:27" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="GraviSuite:ultimateLappack:1" ToolTip="Recharge in a §8EV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="GraviSuite:ultimateLappack:27" ToolTip="Recharge in a §8EV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="GraviSuite:advLappack:1" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="GraviSuite:advLappack:27" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="GraviSuite:advJetpack:1" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="GraviSuite:advJetpack:27" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="GraviSuite:vajra:1" ToolTip="Recharge in a §8EV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="GraviSuite:vajra:27" ToolTip="Recharge in a §8EV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="GraviSuite:advDDrill:1" ToolTip="Recharge in a §8EV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="GraviSuite:advDDrill:27" ToolTip="Recharge in a §8EV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="GraviSuite:advChainsaw:1" ToolTip="Recharge in a §6MV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="GraviSuite:advChainsaw:27" ToolTip="Recharge in a §6MV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="GraviSuite:graviTool:1" ToolTip="Recharge in a §6MV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="GraviSuite:graviTool:27" ToolTip="Recharge in a §6MV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="GraviSuite:relocator:1" ToolTip="Recharge in a §8EV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="GraviSuite:relocator:27" ToolTip="Recharge in a §8EV-tier §7Machine" NBT=""/>
-	
-//Gravitation Suite Neo
-	<ToolTip ItemName="gravisuiteneo:epicLappack:1" ToolTip="Recharge in a §aIV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="gravisuiteneo:epicLappack:27" ToolTip="Recharge in a §aIV-tier §7Machine" NBT=""/>
+	<ToolTip ItemName="GraviSuite:graviChestPlate" ToolTip="Recharge in a §8EV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="27"/>
+	<ToolTip ItemName="GraviSuite:advNanoChestPlate" ToolTip="Recharge in a §eHV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="27"/>
+	<ToolTip ItemName="GraviSuite:ultimateLappack" ToolTip="Recharge in a §8EV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="27"/>
+	<ToolTip ItemName="GraviSuite:advLappack" ToolTip="Recharge in a §eHV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="27"/>
+	<ToolTip ItemName="GraviSuite:advJetpack" ToolTip="Recharge in a §eHV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="27"/>
+	<ToolTip ItemName="GraviSuite:vajra" ToolTip="Recharge in a §8EV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="27"/>
+	<ToolTip ItemName="GraviSuite:advDDrill" ToolTip="Recharge in a §8EV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="27"/>
+	<ToolTip ItemName="GraviSuite:advChainsaw" ToolTip="Recharge in a §6MV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="27"/>
+	<ToolTip ItemName="GraviSuite:graviTool" ToolTip="Recharge in a §6MV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="27"/>
+	<ToolTip ItemName="GraviSuite:relocator" ToolTip="Recharge in a §8EV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="27"/>
 
-//Gregtech	
+//Gravitation Suite Neo
+	<ToolTip ItemName="gravisuiteneo:epicLappack" ToolTip="Recharge in a §aIV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="27"/>
+
+//Gregtech
 	<ToolTip ItemName="gregtech:gt.blockmachines:108" ToolTip="§4This furnace is deprecated use bricked blast furnace" NBT=""/>
 	<ToolTip ItemName="gregtech:gt.blockmachines:1154" ToolTip="§4Hot coolant steam output is increased by 5x" NBT=""/>
 	<ToolTip ItemName="gregtech:gt.blockmachines:1157" ToolTip="§bMay you have all the black gold you want, RIP Cerulean" NBT=""/>
 	<ToolTip ItemName="gregtech:gt.metaitem.01:8150" ToolTip="§b§lCrystallized shards stabilized by a maximized Godforge" NBT=""/>
-	
-//Iron Chests
-	<ToolTip ItemName="IronChest:BlockIronChest" ToolTip="6*9 Inventory - 54 Slots" NBT=""/>
-	<ToolTip ItemName="IronChest:BlockIronChest:1" ToolTip="9*9 Inventory - 81 Slots" NBT=""/>
-	<ToolTip ItemName="IronChest:BlockIronChest:3" ToolTip="5*9 Inventory - 45 Slots" NBT=""/>
-	<ToolTip ItemName="IronChest:BlockIronChest:4" ToolTip="8*9 Inventory - 72 Slots" NBT=""/>
-	<ToolTip ItemName="IronChest:BlockIronChest:2" ToolTip="12*9 Inventory - 108 Slots" NBT=""/>
-	<ToolTip ItemName="IronChest:BlockIronChest:5" ToolTip="12*9 Inventory - 108 Slots" NBT=""/>
-	<ToolTip ItemName="IronChest:BlockIronChest:6" ToolTip="12*9 Inventory - 108 Slots §4Blast Proof" NBT=""/>
-	<ToolTip ItemName="IronChest:BlockIronChest:9" ToolTip="15*9 Inventory - 135 Slots" NBT=""/>
-	
-//Iron Tanks
-	<ToolTip ItemName="BuildCraft|Factory:tankBlock" ToolTip="Stores up to 16 Buckets of one Liquid §4Not portable, use a dolly" NBT=""/>
-	<ToolTip ItemName="irontank:ironTank" ToolTip="Stores up to 32 Buckets of one Liquid §4Not portable, use a dolly" NBT=""/>
-	<ToolTip ItemName="irontank:goldTank" ToolTip="Stores up to 48 Buckets of one Liquid §4Not portable, use a dolly" NBT=""/>
-	<ToolTip ItemName="irontank:diamondTank" ToolTip="Stores up to 64 Buckets of one Liquid §4Not portable, use a dolly" NBT=""/>
-	<ToolTip ItemName="irontank:obsidianTank" ToolTip="Stores up to 64 Buckets of one Liquid §4Not portable, use a dolly (Blast Proof)" NBT=""/>
-	<ToolTip ItemName="irontank:copperTank" ToolTip="Stores up to 27 Buckets of one Liquid §4Not portable, use a dolly" NBT=""/>
-	<ToolTip ItemName="irontank:silverTank" ToolTip="Stores up to 43 Buckets of one Liquid §4Not portable, use a dolly" NBT=""/>
-	<ToolTip ItemName="irontank:emeraldTank" ToolTip="Stores up to 96 Buckets of one Liquid §4Not portable, use a dolly" NBT=""/>	
-	<ToolTip ItemName="irontank:stainlesssteelTank" ToolTip="Stores up to 128 Buckets of one Liquid §4Not portable, use a dolly" NBT=""/>
-	<ToolTip ItemName="irontank:titaniumTank" ToolTip="Stores up to 256 Buckets of one Liquid §4Not portable, use a dolly" NBT=""/>
-	<ToolTip ItemName="irontank:tungstensteelTank" ToolTip="Stores up to 512 Buckets of one Liquid §4Not portable, use a dolly" NBT=""/>
 
 //IC2
-	<ToolTip ItemName="IC2:itemNightvisionGoggles:1" ToolTip="Recharge in a §7LV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemNightvisionGoggles:27" ToolTip="Recharge in a §7LV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemArmorNanoHelmet:1" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemArmorNanoHelmet:27" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemArmorNanoChestplate:1" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemArmorNanoChestplate:27" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemArmorNanoLegs:1" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemArmorNanoLegs:27" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemArmorNanoBoots:1" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemArmorNanoBoots:27" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemArmorQuantumHelmet:1" ToolTip="Recharge in a §8EV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemArmorQuantumHelmet:27" ToolTip="Recharge in a §8EV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemArmorQuantumChestplate:1" ToolTip="Recharge in a §8EV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemArmorQuantumChestplate:27" ToolTip="Recharge in a §8EV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemArmorQuantumLegs:1" ToolTip="Recharge in a §8EV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemArmorQuantumLegs:27" ToolTip="Recharge in a §8EV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemArmorQuantumBoots:1" ToolTip="Recharge in a §8EV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemArmorQuantumBoots:27" ToolTip="Recharge in a §8EV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemArmorJetpackElectric:1" ToolTip="Recharge in a §7LV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemArmorJetpackElectric:27" ToolTip="Recharge in a §7LV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemToolDrill:1" ToolTip="Recharge in a §7LV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemToolDrill:26" ToolTip="Recharge in a §7LV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemToolDDrill:1" ToolTip="Recharge in a §7LV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemToolDDrill:26" ToolTip="Recharge in a §7LV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemToolIridiumDrill:1" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemToolIridiumDrill:26" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemToolChainsaw:1" ToolTip="Recharge in a §7LV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemToolChainsaw:26" ToolTip="Recharge in a §7LV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemToolChainsaw:1" ToolTip="Recharge in a §7LV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemToolChainsaw:26" ToolTip="Recharge in a §7LV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemToolWrenchElectric:1" ToolTip="Recharge in a §7LV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemToolWrenchElectric:27" ToolTip="Recharge in a §7LV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemTreetapElectric:1" ToolTip="Recharge in a §7LV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemTreetapElectric:26" ToolTip="Recharge in a §7LV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemToolMiningLaser:1" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemToolMiningLaser:26" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemNanoSaber:1" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemNanoSaber:26" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:plasmaLauncher:1" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:plasmaLauncher:26" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:obscurator:1" ToolTip="Recharge in a §6MV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:obscurator:27" ToolTip="Recharge in a §6MV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemArmorBatpack:1" ToolTip="Recharge in a §7LV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemArmorBatpack:27" ToolTip="Recharge in a §7LV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:obscurator:1" ToolTip="Recharge in a §6MV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:obscurator:27" ToolTip="Recharge in a §6MV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemArmorAdvBatpack:1" ToolTip="Recharge in a §6MV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemArmorAdvBatpack:27" ToolTip="Recharge in a §6MV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemArmorEnergypack:1" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemArmorEnergypack:27" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemBatRE:1" ToolTip="§7LV-tier" NBT=""/>
+	<ToolTip ItemName="IC2:itemNightvisionGoggles" ToolTip="Recharge in a §7LV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="27"/>
+	<ToolTip ItemName="IC2:itemArmorNanoHelmet" ToolTip="Recharge in a §eHV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="27"/>
+	<ToolTip ItemName="IC2:itemArmorNanoChestplate" ToolTip="Recharge in a §eHV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="27"/>
+	<ToolTip ItemName="IC2:itemArmorNanoLegs" ToolTip="Recharge in a §eHV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="27"/>
+	<ToolTip ItemName="IC2:itemArmorNanoBoots" ToolTip="Recharge in a §eHV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="27"/>
+	<ToolTip ItemName="IC2:itemArmorQuantumHelmet" ToolTip="Recharge in a §8EV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="27"/>
+	<ToolTip ItemName="IC2:itemArmorQuantumChestplate" ToolTip="Recharge in a §8EV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="27"/>
+	<ToolTip ItemName="IC2:itemArmorQuantumLegs" ToolTip="Recharge in a §8EV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="27"/>
+	<ToolTip ItemName="IC2:itemArmorQuantumBoots" ToolTip="Recharge in a §8EV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="27"/>
+	<ToolTip ItemName="IC2:itemArmorJetpackElectric" ToolTip="Recharge in a §7LV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="27"/>
+	<ToolTip ItemName="IC2:itemToolDrill" ToolTip="Recharge in a §7LV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="26"/>
+	<ToolTip ItemName="IC2:itemToolDDrill" ToolTip="Recharge in a §7LV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="26"/>
+	<ToolTip ItemName="IC2:itemToolIridiumDrill" ToolTip="Recharge in a §eHV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="26"/>
+	<ToolTip ItemName="IC2:itemToolChainsaw" ToolTip="Recharge in a §7LV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="26"/>
+	<ToolTip ItemName="IC2:itemToolChainsaw" ToolTip="Recharge in a §7LV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="26"/>
+	<ToolTip ItemName="IC2:itemToolWrenchElectric" ToolTip="Recharge in a §7LV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="27"/>
+	<ToolTip ItemName="IC2:itemTreetapElectric" ToolTip="Recharge in a §7LV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="26"/>
+	<ToolTip ItemName="IC2:itemToolMiningLaser" ToolTip="Recharge in a §eHV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="26"/>
+	<ToolTip ItemName="IC2:itemNanoSaber" ToolTip="Recharge in a §eHV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="26"/>
+	<ToolTip ItemName="IC2:plasmaLauncher" ToolTip="Recharge in a §eHV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="26"/>
+	<ToolTip ItemName="IC2:obscurator" ToolTip="Recharge in a §6MV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="27"/>
+	<ToolTip ItemName="IC2:itemArmorBatpack" ToolTip="Recharge in a §7LV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="27"/>
+	<ToolTip ItemName="IC2:obscurator" ToolTip="Recharge in a §6MV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="27"/>
+	<ToolTip ItemName="IC2:itemArmorAdvBatpack" ToolTip="Recharge in a §6MV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="27"/>
+	<ToolTip ItemName="IC2:itemArmorEnergypack" ToolTip="Recharge in a §eHV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="27"/>
+	<ToolTip ItemName="IC2:itemBatRE" ToolTip="§7LV-tier" NBT="" MetaStart="1" MetaEnd="27"/>
 	<ToolTip ItemName="IC2:itemBatREDischarged" ToolTip="§7LV-tier" NBT=""/>
-	<ToolTip ItemName="IC2:itemAdvBat:1" ToolTip="§6MV-tier" NBT=""/>
-	<ToolTip ItemName="IC2:itemAdvBat:26" ToolTip="§6MV-tier" NBT=""/>
-	<ToolTip ItemName="IC2:itemBatCrystal:1" ToolTip="§eHV-tier" NBT=""/>
-	<ToolTip ItemName="IC2:itemBatCrystal:26" ToolTip="§eHV-tier" NBT=""/>
-	<ToolTip ItemName="IC2:itemBatLamaCrystal:1" ToolTip="§8EV-tier" NBT=""/>
-	<ToolTip ItemName="IC2:itemBatLamaCrystal:26" ToolTip="§8EV-tier" NBT=""/>
-	<ToolTip ItemName="IC2:itemBatChargeRE:1" ToolTip="Recharge in a §7LV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemBatChargeRE:26" ToolTip="Recharge in a §7LV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemBatChargeAdv:1" ToolTip="Recharge in a §6MV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemBatChargeAdv:26" ToolTip="Recharge in a §6MV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemBatChargeCrystal:1" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemBatChargeCrystal:26" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemBatChargeLamaCrystal:1" ToolTip="Recharge in a §8EV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="IC2:itemBatChargeLamaCrystal:26" ToolTip="Recharge in a §8EV-tier §7Machine" NBT=""/>
+	<ToolTip ItemName="IC2:itemAdvBat" ToolTip="§6MV-tier" NBT="" MetaStart="1" MetaEnd="26"/>
+	<ToolTip ItemName="IC2:itemBatCrystal" ToolTip="§eHV-tier" NBT="" MetaStart="1" MetaEnd="26"/>
+	<ToolTip ItemName="IC2:itemBatLamaCrystal" ToolTip="§8EV-tier" NBT="" MetaStart="1" MetaEnd="26"/>
+	<ToolTip ItemName="IC2:itemBatChargeRE" ToolTip="Recharge in a §7LV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="26"/>
+	<ToolTip ItemName="IC2:itemBatChargeAdv" ToolTip="Recharge in a §6MV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="26"/>
+	<ToolTip ItemName="IC2:itemBatChargeCrystal" ToolTip="Recharge in a §eHV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="26"/>
+	<ToolTip ItemName="IC2:itemBatChargeLamaCrystal" ToolTip="Recharge in a §8EV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="26"/>
 	<ToolTip ItemName="IC2:itemPartCircuit" ToolTip="§7LV-tier" NBT=""/>
 	<ToolTip ItemName="IC2:itemPartCircuitAdv" ToolTip="§eHV-tier" NBT=""/>
-	
+
 //OMT - AddOns
 	<ToolTip ItemName="openmodularturrets:solarPanelAddon" ToolTip="§4Disabled Item; No recipe" NBT=""/>
 	<ToolTip ItemName="openmodularturrets:redstoneReactorAddon" ToolTip="§4Disabled Item; No recipe" NBT=""/>
 	<ToolTip ItemName="openmodularturrets:potentiaAddon" ToolTip="§4Disabled Item; No recipe" NBT=""/>
-		
+
 //OMT - Fences
 	<ToolTip ItemName="openmodularturrets:fenceTierOne" ToolTip="Hardness: 10 - Blast Resistance: 10" NBT=""/>
 	<ToolTip ItemName="openmodularturrets:fenceTierTwo" ToolTip="Hardness: 20 - Blast Resistance: 20" NBT=""/>
 	<ToolTip ItemName="openmodularturrets:fenceTierThree" ToolTip="Hardness: 30 - Blast Resistance: 30" NBT=""/>
 	<ToolTip ItemName="openmodularturrets:fenceTierFour" ToolTip="Hardness: 50 - Blast Resistance: 50" NBT=""/>
 	<ToolTip ItemName="openmodularturrets:fenceTierFive" ToolTip="Hardness: 80 - Blast Resistance: 80" NBT=""/>
-	
+
 //OMT - Walls
 	<ToolTip ItemName="openmodularturrets:hardWallTierOne" ToolTip="Hardness: 10 - Blast Resistance: 10" NBT=""/>
 	<ToolTip ItemName="openmodularturrets:hardWallTierTwo" ToolTip="Hardness: 20 - Blast Resistance: 20" NBT=""/>
@@ -322,25 +173,16 @@
 	<ToolTip ItemName="openmodularturrets:hardWallTierFive" ToolTip="Hardness: 80 - Blast Resistance: 80" NBT=""/>
 
 //Thaumic Boots
-	<ToolTip ItemName="thaumicboots:item.ItemElectricVoid:1" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="thaumicboots:item.ItemElectricVoid:325" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="thaumicboots:item.ItemNanoVoid:1" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="thaumicboots:item.ItemNanoVoid:325" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="thaumicboots:item.ItemQuantumVoid:1" ToolTip="Recharge in a §8EV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="thaumicboots:item.ItemQuantumVoid:325" ToolTip="Recharge in a §8EV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="thaumicboots:item.ItemElectricMeteor:1" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="thaumicboots:item.ItemElectricMeteor:325" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="thaumicboots:item.ItemNanoMeteor:1" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="thaumicboots:item.ItemNanoMeteor:325" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="thaumicboots:item.ItemQuantumMeteor:1" ToolTip="Recharge in a §8EV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="thaumicboots:item.ItemQuantumMeteor:325" ToolTip="Recharge in a §8EV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="thaumicboots:item.ItemElectricComet:1" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="thaumicboots:item.ItemElectricComet:325" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="thaumicboots:item.ItemNanoComet:1" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="thaumicboots:item.ItemNanoComet:325" ToolTip="Recharge in a §eHV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="thaumicboots:item.ItemQuantumComet:1" ToolTip="Recharge in a §8EV-tier §7Machine" NBT=""/>
-	<ToolTip ItemName="thaumicboots:item.ItemQuantumComet:325" ToolTip="Recharge in a §8EV-tier §7Machine" NBT=""/>
-	
+	<ToolTip ItemName="thaumicboots:item.ItemElectricVoid" ToolTip="Recharge in a §eHV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="325"/>
+	<ToolTip ItemName="thaumicboots:item.ItemNanoVoid" ToolTip="Recharge in a §eHV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="325"/>
+	<ToolTip ItemName="thaumicboots:item.ItemQuantumVoid" ToolTip="Recharge in a §8EV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="325"/>
+	<ToolTip ItemName="thaumicboots:item.ItemElectricMeteor" ToolTip="Recharge in a §eHV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="325"/>
+	<ToolTip ItemName="thaumicboots:item.ItemNanoMeteor" ToolTip="Recharge in a §eHV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="325"/>
+	<ToolTip ItemName="thaumicboots:item.ItemQuantumMeteor" ToolTip="Recharge in a §8EV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="325"/>
+	<ToolTip ItemName="thaumicboots:item.ItemElectricComet" ToolTip="Recharge in a §eHV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="325"/>
+	<ToolTip ItemName="thaumicboots:item.ItemNanoComet" ToolTip="Recharge in a §eHV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="325"/>
+	<ToolTip ItemName="thaumicboots:item.ItemQuantumComet" ToolTip="Recharge in a §8EV-tier §7Machine" NBT="" MetaStart="1" MetaEnd="325"/>
+
 //Tinkers Construct
 	<ToolTip ItemName="TConstruct:Smeltery" ToolTip="§3Some metals processed in smeltery don't meet the purity requirement for GregTech processing." NBT=""/>
 	<ToolTip ItemName="TConstruct:LavaTank" ToolTip="§3Some metals processed in smeltery don't meet the purity requirement for GregTech processing." NBT=""/>
@@ -348,54 +190,7 @@
 	<ToolTip ItemName="TConstruct:SearedBlock:1" ToolTip="§3Some metals processed in smeltery don't meet the purity requirement for GregTech processing." NBT=""/>
 	<ToolTip ItemName="TConstruct:SearedBlock:2" ToolTip="§3Some metals processed in smeltery don't meet the purity requirement for GregTech processing." NBT=""/>
 	<ToolTip ItemName="TConstruct:CastingChannel" ToolTip="§3Some metals processed in smeltery don't meet the purity requirement for GregTech processing." NBT=""/>
-	<ToolTip ItemName="TConstruct:oreBerries" ToolTip="Can be placed on an empty IC2 Crop.\nRequires low light to be placed." NBT=""/>
-	<ToolTip ItemName="TConstruct:oreBerries:1" ToolTip="Can be placed on an empty IC2 Crop.\nRequires low light to be placed." NBT=""/>
-	<ToolTip ItemName="TConstruct:oreBerries:2" ToolTip="Can be placed on an empty IC2 Crop.\nRequires low light to be placed." NBT=""/>
-	<ToolTip ItemName="TConstruct:oreBerries:3" ToolTip="Can be placed on an empty IC2 Crop.\nRequires low light to be placed." NBT=""/>
-	<ToolTip ItemName="TConstruct:oreBerries:4" ToolTip="Can be placed on an empty IC2 Crop.\nRequires low light to be placed." NBT=""/>
-	<ToolTip ItemName="TConstruct:oreBerries:5" ToolTip="Can be placed on an empty IC2 Crop.\nRequires low light to be placed." NBT=""/>
-	
-//Railcraft tanks
-//Iron
-	<ToolTip ItemName="Railcraft:machine.beta" ToolTip="Has 16 buckets capacity per block" NBT=""/>
-	<ToolTip ItemName="Railcraft:machine.beta:1" ToolTip="Has 16 buckets capacity per block" NBT=""/>
-	<ToolTip ItemName="Railcraft:machine.beta:2" ToolTip="Has 16 buckets capacity per block \nAuto-Output from bottom side \nAuto-Output rate is 1000L/t" NBT=""/>
-//Steel
-	<ToolTip ItemName="Railcraft:machine.beta:13" ToolTip="Has 32 buckets capacity per block" NBT=""/>
-	<ToolTip ItemName="Railcraft:machine.beta:14" ToolTip="Has 32 buckets capacity per block" NBT=""/>
-	<ToolTip ItemName="Railcraft:machine.beta:15" ToolTip="Has 32 buckets capacity per block \nAuto-Output from bottom side \nAuto-Output rate is 1000L/t" NBT=""/>
-//Aluminium
-	<ToolTip ItemName="Railcraft:machine.zeta" ToolTip="Has 64 buckets capacity per block" NBT=""/>
-	<ToolTip ItemName="Railcraft:machine.zeta:1" ToolTip="Has 64 buckets capacity per block" NBT=""/>
-	<ToolTip ItemName="Railcraft:machine.zeta:2" ToolTip="Has 64 buckets capacity per block \nAuto-Output from bottom side \nAuto-Output rate is 1000L/t" NBT=""/>
-//Stainless
-	<ToolTip ItemName="Railcraft:machine.zeta:3" ToolTip="Has 128 buckets capacity per block" NBT=""/>
-	<ToolTip ItemName="Railcraft:machine.zeta:4" ToolTip="Has 128 buckets capacity per block" NBT=""/>
-	<ToolTip ItemName="Railcraft:machine.zeta:5" ToolTip="Has 128 buckets capacity per block \nAuto-Output from bottom side \nAuto-Output rate is 1000L/t" NBT=""/>
-//Titanium
-	<ToolTip ItemName="Railcraft:machine.zeta:6" ToolTip="Has 256 buckets capacity per block" NBT=""/>
-	<ToolTip ItemName="Railcraft:machine.zeta:7" ToolTip="Has 256 buckets capacity per block" NBT=""/>
-	<ToolTip ItemName="Railcraft:machine.zeta:8" ToolTip="Has 256 buckets capacity per block \nAuto-Output from bottom side \nAuto-Output rate is 1000L/t" NBT=""/>
-//Tungstensteel
-	<ToolTip ItemName="Railcraft:machine.zeta:9" ToolTip="Has 512 buckets capacity per block" NBT=""/>
-	<ToolTip ItemName="Railcraft:machine.zeta:10" ToolTip="Has 512 buckets capacity per block" NBT=""/>
-	<ToolTip ItemName="Railcraft:machine.zeta:11" ToolTip="Has 512 buckets capacity per block \nAuto-Output from bottom side \nAuto-Output rate is 1000L/t" NBT=""/>
-//Palladium
-	<ToolTip ItemName="Railcraft:machine.zeta:12" ToolTip="Has 1024 buckets capacity per block" NBT=""/>
-	<ToolTip ItemName="Railcraft:machine.zeta:13" ToolTip="Has 1024 buckets capacity per block" NBT=""/>
-	<ToolTip ItemName="Railcraft:machine.zeta:14" ToolTip="Has 1024 buckets capacity per block \nAuto-Output from bottom side \nAuto-Output rate is 1000L/t" NBT=""/>
-//Iridium
-	<ToolTip ItemName="Railcraft:machine.eta" ToolTip="Has 1536 buckets capacity per block" NBT=""/>
-	<ToolTip ItemName="Railcraft:machine.eta:1" ToolTip="Has 1536 buckets capacity per block" NBT=""/>
-	<ToolTip ItemName="Railcraft:machine.eta:2" ToolTip="Has 1536 buckets capacity per block \nAuto-Output from bottom side \nAuto-Output rate is 1000L/t" NBT=""/>
-//Osmium
-	<ToolTip ItemName="Railcraft:machine.eta:3" ToolTip= "Has 2048 buckets capacity per block" NBT=""/>
-	<ToolTip ItemName="Railcraft:machine.eta:4" ToolTip="Has 2048 buckets capacity per block" NBT=""/>
-	<ToolTip ItemName="Railcraft:machine.eta:5" ToolTip="Has 2048 buckets capacity per block \nAuto-Output from bottom side \nAuto-Output rate is 1000L/t" NBT=""/>
-//Neutronium
-	<ToolTip ItemName="Railcraft:machine.eta:6" ToolTip="Has 3072 buckets capacity per block" NBT=""/>
-	<ToolTip ItemName="Railcraft:machine.eta:7" ToolTip="Has 3072 buckets capacity per block" NBT=""/>
-	<ToolTip ItemName="Railcraft:machine.eta:8" ToolTip="Has 3072 buckets capacity per block \nAuto-Output from bottom side \nAuto-Output rate is 1000L/t" NBT=""/>
+	<ToolTip ItemName="TConstruct:oreBerries" ToolTip="Can be placed on an empty IC2 Crop.\nRequires low light to be placed." NBT="" MetaStart="0" MetaEnd="5"/>
 
 //Cubic Zirconia
 	<ToolTip ItemName="bartworks:gt.bwMetaGenerateddust:4" ToolTip="§3Check Flawed Crystal recipe in EBF" NBT=""/>
@@ -414,157 +209,4 @@
 	<ToolTip ItemName="MagicBees:manaAuraProvider" ToolTip="Must be within 6 blocks of magic apiary" NBT=""/>
 	<ToolTip ItemName="MagicBees:visAuraProvider" ToolTip="Must be within 6 blocks of magic apiary" NBT=""/>
 
-//Bee Gene Samples
-//Note to future editors: in XML the way to "escape" double quotes is to put them in single-quoted strings.  It's also possible to use the entity escape sequence &quot; or
-//unicode escape sequence \u0022.  \" is right out.  Be very warned that entity escape sequences are even parsed in (at least these nonstandard) comments, so misspelling an
-//XML entity name will result in the CustomToolTips module failing to load
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Speed: 1.2 (1.07x production overall)" NBT='{species: "rootBees", chromosome: 1, allele: "forestry.speedFast"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Speed: 1.4 (1.13x production overall)" NBT='{species: "rootBees", chromosome: 1, allele: "forestry.speedFaster"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Speed: 1.7 (1.22x production overall)" NBT='{species: "rootBees", chromosome: 1, allele: "forestry.speedFastest"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Speed: 1.0 (1.0x production overall)" NBT='{species: "rootBees", chromosome: 1, allele: "forestry.speedNormal"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Speed: 0.8 (0.92x production overall)" NBT='{species: "rootBees", chromosome: 1, allele: "forestry.speedSlow"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Speed: 0.6 (0.83x production overall)" NBT='{species: "rootBees", chromosome: 1, allele: "forestry.speedSlower"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Speed: 0.3 (0.64x production overall)" NBT='{species: "rootBees", chromosome: 1, allele: "forestry.speedSlowest"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Speed: 2.0 (1.29x production overall)" NBT='{species: "rootBees", chromosome: 1, allele: "magicbees.speedBlinding"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Base Bee Ticks: 45 (31:10.0 after beekeeping mode)" NBT='{species: "rootBees", chromosome: 2, allele: "forestry.lifespanElongated"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Base Bee Ticks: 50 (34:22.5 after beekeeping mode)" NBT='{species: "rootBees", chromosome: 2, allele: "forestry.lifespanLong"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Base Bee Ticks: 60 (41:15.0 after beekeeping mode)" NBT='{species: "rootBees", chromosome: 2, allele: "forestry.lifespanLonger"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Base Bee Ticks: 70 (48:07.5 after beekeeping mode)" NBT='{species: "rootBees", chromosome: 2, allele: "forestry.lifespanLongest"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Base Bee Ticks: 40 (27:30.0 after beekeeping mode)" NBT='{species: "rootBees", chromosome: 2, allele: "forestry.lifespanNormal"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Base Bee Ticks: 30 (20:37.5 after beekeeping mode)" NBT='{species: "rootBees", chromosome: 2, allele: "forestry.lifespanShort"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Base Bee Ticks: 35 (24:17.5 after beekeeping mode)" NBT='{species: "rootBees", chromosome: 2, allele: "forestry.lifespanShortened"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Base Bee Ticks: 20 (13:45.0 after beekeeping mode)" NBT='{species: "rootBees", chromosome: 2, allele: "forestry.lifespanShorter"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Base Bee Ticks: 10 (6:52.5 after beekeeping mode)" NBT='{species: "rootBees", chromosome: 2, allele: "forestry.lifespanShortest"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Base Bee Ticks: 600 (6:52:30.0 after beekeeping mode)" NBT='{species: "rootBees", chromosome: 2, allele: "gregtech.lifeEon"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Flower Search / Effect: 9x6x9\nFlower Spread / Pollination: 27x18x27" NBT='{species: "rootBees", chromosome: 12, allele: "forestry.territoryAverage"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Flower Search / Effect: 11x8x11\nFlower Spread / Pollination: 33x24x33" NBT='{species: "rootBees", chromosome: 12, allele: "forestry.territoryLarge"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Flower Search / Effect: 13x12x13\nFlower Spread / Pollination: 39x36x39" NBT='{species: "rootBees", chromosome: 12, allele: "forestry.territoryLarger"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Flower Search / Effect: 15x13x15\nFlower Spread / Pollination: 45x39x45" NBT='{species: "rootBees", chromosome: 12, allele: "forestry.territoryLargest"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Turns dirt blocks into sand" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.acid"}'/>
-    // note: this is supposed to spawn fireworks on certain devs' birthdays, but it accidentally copies the effect of fireworks instead
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns fireworks (color dependent on bee color)" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.birthday"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Gives players blindness" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.blindness"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip='Bonemeals forestry/extratrees tree "fruits"' NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.bonemeal_fruit"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Bonemeals vanilla mushrooms" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.bonemeal_mushroom"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Bonemeals saplings" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.bonemeal_sapling"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns randomthings ectoplasms" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.ectoplasm"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns fireworks (color dependent on bee color)" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.fireworks"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Gives players jump boost" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.gravity"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Sets players' saturation and hunger to zero" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.hunger"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns semi-real lightning strikes\n(damage entities and light fires\nbut don't activate lightning generators)" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.lightning"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns falling fire charges" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.meteor"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Adds 5 RF at a time to RF receivers" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.power"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Deals damage very quickly" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.radioactive"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Gives players slowness" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.slow"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns creepers in low light.\nNot to be confused with Creeper, a separate effect" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.spawn_creeper"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns skeletons in low light" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.spawn_skeleton"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns zombies and angry zombies in low light" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.spawn_zombie"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Randomly teleport mobs/players a short distance" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.teleport"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Adds 100mb of water to a nearby tank at random, very slow intervals" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.water"}'/>
-    // note: unclear if this is supposed to actually deal damage, but it doesn't
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Applies wither fx, but no damage" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.wither"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Deals damage (slowest damaging trait)" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectAggressive"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Gives players regeneration" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectBeatific"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Causes fake creeper explosions centered on players.\nThese don't damage blocks but do deal a lot of damage\nthat bypasses normal armor.\nNot to be confused with Creepers, a separate effect" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectCreeper"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Gives players nausea" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectDrunkard"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Gives players xp" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectExploration"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Add random ticks to plants in range\n(does not work on IC2 crops)" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectFertile"}'/>
-    // note: probably a bug: fireworks should be easter colored, whatever that means (pink, yellow, and green?)
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns fireworks rockets with no shape, color, or trail set" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectFestiveEaster"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Turns water into ice" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectGlacial"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Attacks monsters" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectHeroic"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Sets players on fire" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectIgnition"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Gives players poison" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectMiasmic"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Deals large amounts of damage" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectMisanthropic"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Converts grass and sky-exposed dirt to mycelium,\nforce grows vanilla mushrooms (directly invokes big mushroom gen,\nskips bonemeal), and converts cows to mooshrooms" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectMycophilic"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Does nothing" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectNone"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Does damage (slower than unstable) and breaks blocks\nanywhere in the queen's territory except the central block,\nnor vanilla forestry bee housing blocks.  Notably will break\nextrabees/magicbees bee housing blocks" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectRadioactive"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns skeletons, blazes, or zombies if their drops are present" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectReanimation"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Adds an AI task to mobs to avoid players" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectRepulsion"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns creepers, endermen, spiders, cave spiders, ghasts,\nor ender dragons if their drops are present" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectResurrection"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Creates cosmetic snow fx" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectSnowing"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Converts saplings to BarnardaC saplings under certain conditions:\n1) the sapling must be suitably magical\n(a Tree of Transformation Sapling from a dungeon atop a twilight oak should do)\n2) the dimension must also be magically active\n(try in the Spectre, Bedrock, Last Millenium, or Pocket Plane)" NBT='{species: "rootBees", chromosome: 13, allele: "gregtech.effectTreetwister"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Does nothing in GTNH (spawns Ars Magica Wisps or\nHecates if Ars Magica is installed)" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectAMWisp"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns blazes" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectAblaze"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns bats and firebats" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectBatty"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns cows" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectBovine"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns angry zombies" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectBrainy"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns wolves" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectCanine"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns ocelots" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectCatty"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns chickens" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectChicken"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Converts stone -> cobblestone -> moss stone,\nstone bricks -> cracked stone bricks -> mossy stone bricks,\ngravel -> sand, and\ncobblestone walls -> mossy cobblestone walls" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectCrumbling"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Cures players of potion effects" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectCurative"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Gives players haste\nSadly it will not dig a hole for you" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectDigSpeed"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Converts stone -> livingrock and logs -> livingwood" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectDreaming"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns ghasts" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectGhastly"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns horses" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectHorse"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Gives players invisibility" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectInvisibility"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Does nothing in GTNH (spawns mana creepers/mana vortices if Ars Magica is installed)" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectManaDrain"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Gives players swiftness" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectMoveSpeed"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Adds random aspects to nodes, including jarred nodes" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectNodeEmpower"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Removes special types besides pure from nodes,\nand makes normal nodes pure, including jarred nodes" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectNodePurifying"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Removes special types besides hungry from nodes,\nand makes normal nodes hungry, including jarred nodes" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectNodeRavening"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Upgrades nodes fading -> pale -> normal -> bright, including jarred nodes" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectNodeRepair"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Removes special types besides tainted from nodes,\nand makes normal nodes tainted, including jarred nodes" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectNodeTainting"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns pigs" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectPorcine"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns sheep" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectSheep"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Gives players slowness\nSorry, it won't speed up any machines or itself" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectSlowSpeed"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns spiders (no cave spiders)" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectSpidery"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Does nothing in GTNH (spawns Basalzes if Thermal Foundation is installed)" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectTEBasalz"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Does nothing in GTNH (spawns Blitzes if Thermal Foundation is installed)" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectTEBlitz"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Does nothing in GTNH (spawns Blizzes if Thermal Foundation is installed)" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectTEBlizzy"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Converts sand -> sandstone in deserts or\nstone/cobblestone -> abyssal/quarried stone in\nplaces it would naturally spawn\nNote: the ore drilling plant will also replace relevant ores with these when\nreplacing with cobblestone is enabled" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectTransmuting"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Recharges non-energized nodes with aspects below full" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectVisRecharge"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns thaumcraft wisps with a uniformly chosen random essentia type from 1-47 inclusive\n(Seems broken, try a powered spawner)" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectWispy"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Gives players wither" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectWithering"}'/>
-    // Preconfigured storage buses
-    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 1" NBT='{priority: 1}'/>
-    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 2" NBT='{priority: 2}'/>
-    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 3" NBT='{priority: 3}'/>
-    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 4" NBT='{priority: 4}'/>
-    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 5" NBT='{priority: 5}'/>
-    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 6" NBT='{priority: 6}'/>
-    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 7" NBT='{priority: 7}'/>
-    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 8" NBT='{priority: 8}'/>
-    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 9" NBT='{priority: 9}'/>
-    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 10" NBT='{priority: 10}'/>
-    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 11" NBT='{priority: 11}'/>
-    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 12" NBT='{priority: 12}'/>
-    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 13" NBT='{priority: 13}'/>
-    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 14" NBT='{priority: 14}'/>
-    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 15" NBT='{priority: 15}'/>
-    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 16" NBT='{priority: 16}'/>
-    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 17" NBT='{priority: 17}'/>
-    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 18" NBT='{priority: 18}'/>
-    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 19" NBT='{priority: 19}'/>
-    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 20" NBT='{priority: 20}'/>
-    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 21" NBT='{priority: 21}'/>
-    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 22" NBT='{priority: 22}'/>
-    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 23" NBT='{priority: 23}'/>
-    <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="Preconfigured storage priority: 24" NBT='{priority: 24}'/>
-    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 1" NBT='{priority: 1}'/>
-    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 2" NBT='{priority: 2}'/>
-    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 3" NBT='{priority: 3}'/>
-    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 4" NBT='{priority: 4}'/>
-    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 5" NBT='{priority: 5}'/>
-    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 6" NBT='{priority: 6}'/>
-    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 7" NBT='{priority: 7}'/>
-    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 8" NBT='{priority: 8}'/>
-    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 9" NBT='{priority: 9}'/>
-    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 10" NBT='{priority: 10}'/>
-    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 11" NBT='{priority: 11}'/>
-    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 12" NBT='{priority: 12}'/>
-    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 13" NBT='{priority: 13}'/>
-    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 14" NBT='{priority: 14}'/>
-    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 15" NBT='{priority: 15}'/>
-    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 16" NBT='{priority: 16}'/>
-    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 17" NBT='{priority: 17}'/>
-    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 18" NBT='{priority: 18}'/>
-    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 19" NBT='{priority: 19}'/>
-    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 20" NBT='{priority: 20}'/>
-    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 21" NBT='{priority: 21}'/>
-    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 22" NBT='{priority: 22}'/>
-    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 23" NBT='{priority: 23}'/>
-    <ToolTip ItemName="ae2fc:part_fluid_storage_bus" ToolTip="Preconfigured storage priority: 24" NBT='{priority: 24}'/>
-    
 </CustomToolTips>
