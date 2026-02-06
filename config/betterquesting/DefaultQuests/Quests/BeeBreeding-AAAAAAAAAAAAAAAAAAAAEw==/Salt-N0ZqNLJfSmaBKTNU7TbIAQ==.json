@@ -1,0 +1,103 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2163,
+      "type:1": 1
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2198,
+      "type:1": 1
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "At this point, you may have noticed that these higher-tier metal combs can\u0027t be extracted with a centrifuge. Instead, you need to pass them through a chemical reactor with some hydrochloric acid. This will leave you in a pickle. Here you are, trying to reach post-scarcity, and now you\u0027re limited by chlorine.\n\nSpeaking of pickles, hydrochloric acid is kind of like a pickle, right? After all, you make both with salt! The salt bee is perfect for this. Well, the apatite bee line can get you some salt and also some phosphorus for phosphoric acid, but you have to start on ash bees first. Meanwhile, you\u0027ll likely take care of the salt bee\u0027s pre-requisites on your way through getting all the major ores.\n\nBreed them from clay and aluminium bees on top of a block of salt.\n\nThey will produce salt combs, borax dust, slag combs, and trace lithium combs. The salt combs will require at least an MV-tier centrifuge, but at least it doesn\u0027t require processing with acid in a chemical reactor!\n\n[note]Breeder\u0027s Notes:\n\nThere are two challenges with this bee:\n\n1. The 5% chance of mutation. You may consider trying the escritoire minigame to get a boost to this chance. If so, favor aluminium drones because you\u0027re probably on your way to the other bees derived from aluminium ancestry, and they all only have a 5% chance anyways. They could all use a little boost.\n\n2. The humidity swing between clay and aluminium species. Clay bees want it wet, and both aluminium and salt bees want it completely arid. If you can\u0027t manipulate the climate or the tolerances of any of the bees, consider starting by plugging clay drones into a modest princess. This has a good chance to get you a clay princess that prefers a dryer climate. You can then do all your breeding exclusively in an arid biome.\n\n[/note]",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "Forestry:beePrincessGE",
+        "tag:10": {
+          "Genome:10": {
+            "Chromosomes:9": {
+              "0:10": {
+                "Slot:1": 0,
+                "UID0:8": "gregtech.bee.speciesSalty",
+                "UID1:8": "gregtech.bee.speciesSalty"
+              }
+            }
+          }
+        }
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Salt",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 3982987695019215462,
+  "questIDLow:4": -9139717528921651199,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 26,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "harvestcraft:blackpepperItem"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "Forestry:beePrincessGE",
+          "tag:10": {
+            "Genome:10": {
+              "Chromosomes:9": {
+                "0:10": {
+                  "Slot:1": 0,
+                  "UID0:8": "gregtech.bee.speciesSalty",
+                  "UID1:8": "gregtech.bee.speciesSalty"
+                }
+              }
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
