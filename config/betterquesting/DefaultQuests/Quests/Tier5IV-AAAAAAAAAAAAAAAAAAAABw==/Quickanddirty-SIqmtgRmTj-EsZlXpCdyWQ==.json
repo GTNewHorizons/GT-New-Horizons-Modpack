@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "So you choose the sane two step processing option?\n\nGreat choice.\n\nTo get started you will need to create a Titanium tier Chemical Plant with §nat least HV tier machine casings.§r It can be HV tier casings as two HV tier energy hatches will overclock the multiblock to EV.\n\nOnce completed, place in your Borax Dust. Then in the second step feed in your Thorium Dust with some Distilled Water.\n\nThen you have your Thorium 232 Dust, nice and easy.",
+      "desc:8": "So you choose the quick two step processing option?\n\nGreat choice.\n\nTo get started you will need to create a Titanium tier Chemical Plant with §nat least HV tier machine casings.§r It can be HV tier casings as two HV tier energy hatches will overclock the multiblock to EV.\n\nOnce completed, place in your Borax Dust. Then in the second step feed in your Thorium Dust with some Distilled Water.\n\nThen you have your Thorium 232 Dust, nice and easy.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -19,7 +19,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§9§lThe sane option",
+      "name:8": "§9§lQuick and dirty",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

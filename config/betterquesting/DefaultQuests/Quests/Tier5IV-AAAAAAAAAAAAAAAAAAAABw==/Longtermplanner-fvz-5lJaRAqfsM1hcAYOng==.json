@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "So for some reason you have decided to pick the EBF option.\n\nWell get ready for a processing line.\n\nFirst you need to react Thorium Dust with Hydrofluoric Acid and eight buckets of Nitric Acid. I hope you have a Nitric Acid setup.\n\nThen react the Thorium Nitrate with Sodium Hydroxide to produce Thorium Hydroxide. Then react with even more Hydrofluoric Acid to get Thorium Tetrafluoride.\n\nThen pump it into a Centrifuge to separate the normal Thorium away from the Thorium 232. Sadly it is still in a liquid form so you will need to blast it with Zinc Chloride and Calcium.\n\nThen finally use your Blast Furnace again for the Zn-Th alloy ingot to separate the Zinc from the Thorium 232 to obtain the Thorium 232 Dust and even get your Zinc back in fluid form.\n\nWell I hope you enjoyed the processing line for Thorium 232 EBF edition.",
+      "desc:8": "Well get ready for a processing line.\n\nFirst you need to react Thorium Dust with Hydrofluoric Acid and eight buckets of Nitric Acid. I hope you have a Nitric Acid setup.\n\nThen react the Thorium Nitrate with Sodium Hydroxide to produce Thorium Hydroxide. Then react with even more Hydrofluoric Acid to get Thorium Tetrafluoride.\n\nThen pump it into a Centrifuge to separate the normal Thorium away from the Thorium 232. Sadly it is still in a liquid form so you will need to blast it with Zinc Chloride and Calcium.\n\nThen finally use your Blast Furnace again for the Zn-Th alloy ingot to separate the Zinc from the Thorium 232 to obtain the Thorium 232 Dust and even get your Zinc back in fluid form.\n\nWell I hope you enjoyed the processing line for Thorium 232 EBF edition.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -19,7 +19,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§9§lWait are you sure?",
+      "name:8": "§9§lLong term planner?",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
