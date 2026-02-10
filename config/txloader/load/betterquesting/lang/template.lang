@@ -6186,10 +6186,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIVw.desc=The Blue Mahoe has the most sap
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK0w.name=U-238 Tu-Wait, Seriously?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK0w.desc=If you want IC2 crops to work with the multifarm, you now need this. Get the U-238 from thorium, and the endereyes from either your crops, villagers, or the normal way in HV. It also only searches 6 blocks above the farm structure block to prevent lag. So goodbye MF stacking, you always looked dumb, and didn't make any sense.%n%nThe largest size supports ~1100 crops, while the smallest supports ~600 depending on your layout if you use it for IC2 crops. This is because it will look for crops up to 5 blocks out further than normal in this mode (In the cardinal directions, it's further out in the corners. Just try it out, it's hard to describe). They're the same size as in previous versions, so you don't need to rejigger them.
 
-# Quest: BEGONE, LAG! Also, Bats
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK1A.name=BEGONE, LAG! Also, Bats
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK1A.desc=Lag = Butterflies in this case, since they like to pile up just outside of chunk loading range. Also, they're annoying since they convert regular trees into more forestry ones, one leaf block at a time. Which causes more of the buggers to spawn. Fortunately, the settings we use prevent too many from being present at once, but still, they're annoying.%n%nThe solution to this is to kill them. Also, the bats. Stupid Thaumcraft warp. Use the (potentially unfinished) Pest Killer to do so.%n%nNotes: Hydrogen Cyanide has a recipe now. Both it and Formaldehyde require a Chemical Plant. The range is apparently 5x5 chunks, not blocks. It also only runs once every 30s or so?%n%n[note]PS: If you experience problems using it (more than already mentioned), raise a ticket on GitHub.[/note]
-
 # Quest: Papaya
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKIA.name=Papaya
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKIA.desc=The Papaya tree produces Papayas, which produce the most Fruit Juice. Sluuuurp!%n%n§aPapaya and Fruit Juice Get!
