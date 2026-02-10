@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Unlike regular Pattern Terminals, the Processing Pattern Terminal doesn\u0027t have a crafting mode. Instead, you have a lot more slots for input and output, and the ability to swap them. Great for your Assembly Line patterns.",
+      "desc:8": "Unlike regular Pattern Terminals, the Processing Pattern Terminal doesn\u0027t have a crafting mode. Instead, you have a lot more slots for input and output, and the ability to swap them. Great for your Assembly Line patterns.\n\n[note]If you need to rename an item for use in a specific pattern, you can use Ctrl + Middle-Click to set the name of the item straight from the terminal. Very handy for some Forming Press \u0026 Assembly Line recipes![/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 64,
@@ -19,7 +19,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Easier AL automation",
+      "name:8": "Easier AL Automation",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
