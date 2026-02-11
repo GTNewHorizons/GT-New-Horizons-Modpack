@@ -1,0 +1,108 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 500
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Infernal bees are mundane: you get them from hives, and they have no ancestors.\n\nInfernal hives are in The Nether, surrounded by nether quartz. Avoid large nether quartz blobs in ore chunks. Instead, look for little pockets of nether quartz. Any ghast-infested, open area will show a few dabs of them. Alternately, if you\u0027re tunneling around, you\u0027ll inevitably bump into some of these small pockets.\n\nZombie pigmen will get mad if they spot you nibbling on their quartz, so consider just breaking away the netherrack around the quartz to see that it\u0027s a solid cluster that could surround a hive. If so, you are just one or two mining hammer swings away from a likely infernal hive.\n\nThere\u0027s another way to get these hives: §obuy them with coins ka-ching!\n§o§r\nTheir molten combs are nice for a mundane bee. They centrifuge down to refractory wax, which can be used for fireproof wood and refractory capsules.\n\n[warn]Infernal bees have an aggressive trait, so they\u0027ll damage entities--namely, you--when you are within their territory. You want an apiarist\u0027s suit before you start working with them. Alternately, if you set them up in an isolated spot, you can just run real fast. This isn\u0027t sustainable for all types of aggressive bees, by the way.[/warn]\n\n[note]Breeder\u0027s Notes: You can run these bees in the Overworld if you can find a hot/arid climate. When in doubt, drop down the apiary and look at what it claims the climate is in the upper right of its GUI. They may not be jubilant, but you can get drones out of them for breeding. Then you don\u0027t have to run back and forth to The Nether to run a cycle with a fussy queen while cross-breeding.\n\nUse nether wart to keep them happy, and don\u0027t forget some soul sand!\n\nThey don\u0027t cross breed with other mundane bees into stuff like common and cultivated bees, so you can convert another mundane princess to an infernal princess if you have the drones. Just take some care with this. For example, if you try this with an arctic princess, you could wind up with an infernal princess that needs a scorching/arid climate, but also needs snow to pollinate.\n[/note]",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "Forestry:beePrincessGE",
+        "tag:10": {
+          "Genome:10": {
+            "Chromosomes:9": {
+              "0:10": {
+                "Slot:1": 0,
+                "UID0:8": "magicbees.speciesInfernal",
+                "UID1:8": "magicbees.speciesInfernal"
+              }
+            }
+          }
+        }
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Infernal",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 5356328383237934658,
+  "questIDLow:4": -6706848260873273195,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 25,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "Forestry:beePrincessGE",
+          "tag:10": {
+            "Genome:10": {
+              "Chromosomes:9": {
+                "0:10": {
+                  "Slot:1": 0,
+                  "UID0:8": "magicbees.speciesInfernal",
+                  "UID1:8": "magicbees.speciesInfernal"
+                }
+              }
+            }
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "Forestry:beeDroneGE",
+          "tag:10": {
+            "Genome:10": {
+              "Chromosomes:9": {
+                "0:10": {
+                  "Slot:1": 0,
+                  "UID0:8": "magicbees.speciesInfernal",
+                  "UID1:8": "magicbees.speciesInfernal"
+                }
+              }
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

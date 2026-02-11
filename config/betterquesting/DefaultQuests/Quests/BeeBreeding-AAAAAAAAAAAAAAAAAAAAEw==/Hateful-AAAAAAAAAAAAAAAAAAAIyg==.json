@@ -1,6 +1,10 @@
 {
   "preRequisites:9": {
     "0:10": {
+      "questIDHigh:4": 5356328383237934658,
+      "questIDLow:4": -6706848260873273195
+    },
+    "1:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 2213,
       "type:1": 1
@@ -9,7 +13,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "You can feel the waves of hate radiating out of her eyes. Don\u0027t even think about getting close without an Apiarist Suit. Must be bred in the Nether. Breed them from Eldritch and Infernal.",
+      "desc:8": "You can feel the waves of hate radiating out of her eyes. Don\u0027t even think about getting close without an Apiarist Suit. Must be bred in the Nether. Breed them from Eldritch and Infernal.\n\n[note]Breeder\u0027s Notes: Infernal bees are used to make both this species and spiteful, which is next in line from hateful. That means you\u0027ll probably start winding up with spitefuls while trying to make this species. Since this is a progression to more interesting species, you could say it doesn\u0027t matter, but:\n\n1. Skipping straight to spiteful means not getting this quest done and then losing your progression.\n2. Maybe you want to do a smoldering bee, which needs this one.\n\nWhat we recommend is tucking away any spitefuls you get and just act like that didn\u0027t happen until you finish this bee. If the princess starts turning spiteful and you don\u0027t want to just start a new one, you\u0027d want to pump it with infernal or eldritch (pick one!) until you\u0027ve cleaned out the spiteful trait.[/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
