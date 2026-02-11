@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The Industrial Centrifuge is the solution to those thousands of ore you\u0027ll get with the multiblock ore drill.",
+      "desc:8": "The §5§lIndustrial Centrifuge§r is the best solution for handling the thousands of ores being produced by the multiblock ore drill. You will eventually want to have an array of these running, though one or two is fine to start.\n\nThis multiblock gives you §3§l6§r parallels per voltage tier, operates at §2§l2.25x§r the speed, and grants a §c§l10%§r EU discount. This makes it a far better alternative to both singleblock Centrifuges and the Steam Separator. ",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -60,7 +60,7 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 790,
+          "Damage:2": 15512,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }
@@ -76,12 +76,24 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 18,
+          "Count:3": 30,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "miscutils:miscutils.blockcasings"
         },
         "1:10": {
+          "Count:3": 24,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "miscutils:blockFrameGtEglinSteel"
+        },
+        "2:10": {
+          "Count:3": 18,
+          "Damage:2": 6,
+          "OreDict:8": "",
+          "id:8": "miscutils:gtplusplus.blockcasings.2"
+        },
+        "3:10": {
           "Count:3": 1,
           "Damage:2": 91,
           "OreDict:8": "",
