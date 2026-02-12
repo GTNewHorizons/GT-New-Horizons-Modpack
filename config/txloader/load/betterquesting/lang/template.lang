@@ -6778,7 +6778,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjw.desc=Spinning around, getting hot - 
 
 # Quest: I Think I'm Going to be Sick
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7A.name=§8§lI Think I'm Going to be Sick
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7A.desc=The Industrial Centrifuge is the solution to those thousands of ore you'll get with the multiblock ore drill.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7A.desc=The §5§lIndustrial Centrifuge§r is the best solution for handling the thousands of ores being produced by the multiblock ore drill. You will eventually want to have an array of these running, though one or two is fine to start.%n%nThis multiblock gives you §3§l6§r parallels per voltage tier, operates at §2§l2.25x§r the speed, and grants a §c§l10%%§r EU discount. This makes it a far better alternative to both singleblock Centrifuges and the Steam Separator. 
 
 # Quest: Bask In The Currents
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7Q.name=§d§lBask In The Currents
@@ -6810,7 +6810,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9A.desc=The Volcanus Advanced EBF will 
 
 # Quest: Spools and Spools
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9Q.name=§9§lSpools and Spools
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9Q.desc=Need enough wire to go around the world? Here you go.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9Q.desc=Need enough wire to go around the world? Here you go.%n%nThe §5§lIndustrial Wire Factory§r is the only Wiremill multiblock, delivering §3§l4§r parallels per voltage tier, a §c2§l5%%§r EU discount, and a scalable speed bonus of §2§l+50%%§r per Item Pipe Casing tier, ranging from §2§l1.5x§r speed while using Tin to an impressive §2§l5x§r speed while using Black Plutonium.%n%n[note]The glass tier is irrelevant, use whatever is best for you![/note]
 
 # Quest: Bender, More Bending!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9g.name=§8§lBender, More Bending!
