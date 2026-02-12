@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Need enough wire to go around the world? Here you go.",
+      "desc:8": "Need enough wire to go around the world? Here you go.\n\nThe §5§lIndustrial Wire Factory§r is the only Wiremill multiblock, delivering §3§l4§r parallels per voltage tier, a §c2§l5%§r EU discount, and a scalable speed bonus of §2§l+50%§r per Item Pipe Casing tier, ranging from §2§l1.5x§r speed while using Tin to an impressive §2§l5x§r speed while using Black Plutonium.\n\n[note]The glass tier is irrelevant, use whatever is best for you![/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -60,7 +60,7 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 798,
+          "Damage:2": 15511,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }
@@ -76,12 +76,24 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 36,
+          "Count:3": 35,
           "Damage:2": 6,
           "OreDict:8": "",
           "id:8": "miscutils:miscutils.blockcasings"
         },
         "1:10": {
+          "Count:3": 15,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "bartworks:BW_GlasBlocks"
+        },
+        "2:10": {
+          "Count:3": 3,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings11"
+        },
+        "3:10": {
           "Count:3": 1,
           "Damage:2": 91,
           "OreDict:8": "",
