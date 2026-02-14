@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "So you want the easy way? Understandable. The only prerequisite is an altar with at least 5,450 power. Try placing many different crops around the altar and a Dragon Egg on top to boost it. Otherwise, the process is as simple as dropping the following items into the Witch\u0027s Cauldron §b[warn]IN ORDER[/warn]§r.\n\n  1. Netherwart (+2 Capacity)\n  2. Tear of the Goddess (+2 Capacity)\n  3. Diamond Vapor (+2 Capacity)\n  4. Diamond (+2 Capacity)\n\n§7  5. Optional, Glowstone Dust (+1 Radius)\n  6. Optional, Blaze Rod (+1 Radius)\n  7. Optional, Charged Attuned Stone (+1 Radius)§r\n\n  8. Book of Biomes Page (Chooses Biome)\n  9. Gunpowder (Add Splash Effect)\n  10. Collect with Glass Bottle (Requires 5,450 Altar Power)\n\nThe maximum radius is 4 blocks, if all three optional ingredients are included. You may get more than one brew if you are wearing your robes/hat, or have a ton of witchery brewing expertise.\n\nYou can optionally substitute in a §5Nether Star§r for §5+4 Capacity§r in place of the Tear of the Goddess and the Diamond Vapor if you have the extra resources and want to skip the distillery-produced items.\n\n[note]For more detailed info, check out the Witches\u0027 Brews book. Click on Brewing, then go to the Brews: Step-by-step page. That should tell you what you need to know. To learn what each of the brews do, see the Effects page.[/note]",
+      "desc:8": "So you want the easy way? Understandable. The only prerequisite is an altar with at least 5,450 power. Try placing many different crops around the altar and a Dragon Egg on top to boost it. Otherwise, the process is as simple as dropping the following items into the Witch\u0027s Cauldron §b[warn]IN ORDER[/warn]§r.\n\n  1. Netherwart (+2 Capacity)\n  2. Tear of the Goddess (+2 Capacity)\n  3. Diamond Vapor (+2 Capacity)\n  4. Diamond (+2 Capacity)\n\n§7  5. Optional, Glowstone Dust (+1 Radius)\n  6. Optional, Blaze Rod (+1 Radius)\n  7. Optional, Charged Attuned Stone (+1 Radius)§r\n\n  8. Book of Biomes Page (Chooses Biome; Any Biome OK)\n  9. Gunpowder (Add Splash Effect)\n  10. Collect with Glass Bottle (Requires 5,450 Altar Power)\n\nThe maximum radius is 4 blocks, if all three optional ingredients are included. You may get more than one brew if you are wearing your robes/hat, or have a ton of witchery brewing expertise.\n\nYou can optionally substitute in a §5Nether Star§r for §5+4 Capacity§r in place of the Tear of the Goddess and the Diamond Vapor if you have the extra resources and want to skip the distillery-produced items.\n\n[note]For more detailed info, check out the Witches\u0027 Brews book. Click on Brewing, then go to the Brews: Step-by-step page. That should tell you what you need to know. To learn what each of the brews do, see the Effects page.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 8,
@@ -230,7 +230,7 @@
           "Count:3": 1,
           "Damage:2": 32767,
           "OreDict:8": "",
-          "id:8": "witchery:bookbiomes2"
+          "id:8": "witchery:biomenote"
         },
         "1:10": {
           "Count:3": 1,
