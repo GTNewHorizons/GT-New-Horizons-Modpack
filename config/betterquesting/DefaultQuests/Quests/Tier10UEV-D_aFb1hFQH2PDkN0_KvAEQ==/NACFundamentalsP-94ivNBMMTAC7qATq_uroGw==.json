@@ -1,0 +1,129 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 8348724939136321554,
+      "questIDLow:4": -6966981174478510993
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "We get it, this isn\u0027t the most exciting piece of the puzzle. However, the §5§nFundamentals Package§r is essential to the entire operation.\n\nAllowing things such as:\n- Part Preparation for your surface mounted devices\n- Wafer Cutting for your advanced silicon parts among others\n- Wire Tracing for all your Fine Wires\n- Superconductor Splitting for your most expensive circuits\n- Encasement Wrapping for all your Mainframe needs\n- Board Immersion for the base of your circuits*\n\n§oNote*: The Board Immersion Device requires a proper setup to ensure fluid purity. Read the owner\u0027s manual (tooltip) to see how to properly utilize this module.§r\n\n",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 9511,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "§5§l§nNAC§r§5§n™§r§5§n§l: Fundamentals Package",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -610045111315969024,
+  "questIDLow:4": -4924680785183971301,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "harvestcraft:octopusrawItem",
+          "tag:10": {
+            "RepairCost:3": 2,
+            "display:10": {
+              "Name:8": "Noctopus"
+            }
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 32,
+          "OreDict:8": "",
+          "id:8": "universalsingularities:universal.general.singularity",
+          "tag:10": {
+            "RepairCost:3": 2,
+            "display:10": {
+              "Name:8": "Auynonularity"
+            }
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "chisel:marble",
+          "tag:10": {
+            "RepairCost:3": 2,
+            "display:10": {
+              "Name:8": "Junestone"
+            }
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 9505,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 9508,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 9509,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 9511,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 9513,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 9506,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

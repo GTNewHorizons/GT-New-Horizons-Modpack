@@ -1,0 +1,75 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 8348724939136321554,
+      "questIDLow:4": -6966981174478510993
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "So you\u0027ve chosen the §5§nWetware and Bioware Package§r for your newly purchased NAC™. A wise choice, as these are some of the most important circuits you will make. See the attached owner\u0027s manual for installation instructions.\n\n§oGet it while you can! A two for one deal on circuit lines!§r\n\n§n§lAccelerated Biological Coordinator Owner\u0027s Manual:§r\r\n\r\nThe NAC™ will track the most recent 100,000 circuits crafted, and can be calibrated to a specific circuit type by reaching a certain percentage of circuits of this type. At 60% (60,000) wetware circuits crafted, the NAC™ will become \"fully calibrated\" towards wetware circuits, and the same applies for bioware circuits.\n\nDepending on which calibration has been achieved, the Biological Coordinator will provide one of two bonuses:\n- If calibrated to §nWetware§r, Growth Catalyst Medium usage is reduced to zero\n- If calibrated to §nBioware§r, both Growth Catalyst Medium and Bio Catalyst Medium usage is reduced to zero",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 9514,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "§5§l§nNAC§r§5§n™§r§5§n§l: Wetware and Bioware Package",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 3748456518927993976,
+  "questIDLow:4": -6982069182951646233,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "modernmarkings:tile.wall_marking_number_4",
+          "tag:10": {
+            "RepairCost:3": 2,
+            "display:10": {
+              "Name:8": "FourIsTheWallMarking"
+            }
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 9514,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

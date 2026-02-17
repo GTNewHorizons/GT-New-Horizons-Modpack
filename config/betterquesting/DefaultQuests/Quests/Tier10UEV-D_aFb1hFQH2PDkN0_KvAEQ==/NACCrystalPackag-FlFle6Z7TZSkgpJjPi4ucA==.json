@@ -1,0 +1,75 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 8348724939136321554,
+      "questIDLow:4": -6966981174478510993
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Now that you have the core pieces of the NAC™ platform, it\u0027s time to decide what circuit you would like to make. The §5§nCrystal Package§r allows for the creation of Crystal Circuits much more efficiently than other methods. See the attached owner\u0027s manual for installation instructions.\n\n§oIf you purchase in the next 72 hours, this package is 50% off! Please.. make a NAC™ for crystal circuits, CAL\u0027s aren\u0027t as good we promise..§r\n\n\n§n§lUltra-high Energy Etching Array Owner\u0027s Manual:§r\n\nThe NAC™ will track the most recent 100,000 circuits crafted, and can be calibrated to a specific circuit type by reaching a certain percentage of circuits of this type. At 60% (60,000) crystal circuits crafted, the NAC™ will become \"fully calibrated\" towards crystal circuits.\n\nOnce that has been met, the Laser Source Hatch on the Etching Array will provide two bonuses:\n- The §nEU Cost§r will be divided by each amperage interval over 256A. Example - 1,024A will divide by 2, 4,096A will divide by 3, etc.\n- The §nRecipe Duration§r will be divided by (hatch tier - 9). Example - UIV will divide by 2, UMV will divide by 3, etc.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 9507,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "§5§l§nNAC§r§5§n™§r§5§n§l: Crystal Package",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 1608178123696459156,
+  "questIDLow:4": -6592545949574353296,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "holoinventory:Hologlasses",
+          "tag:10": {
+            "RepairCost:3": 2,
+            "display:10": {
+              "Name:8": "TEG is a cool guy"
+            }
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 9507,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
