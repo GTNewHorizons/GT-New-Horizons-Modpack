@@ -1,0 +1,75 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -8579685190554661445,
+      "questIDLow:4": -5973404310081765177
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "You\u0027ve gotten this far, you know the drill. You\u0027ve made more circuits than you can count, but what if that isn\u0027t enough? It\u0027s time to stop scaling the old way, and start manufacturing like the late game engineer you are.\n\nThe Nanochip Assembly Complex isn\u0027t just a fancier CAL or Assembly Line - it is the core of your entire operation. For the low price of a small craft* for your machines to chew on, you can be the proud owner of the latest innovation in circuit crafting technology! \n\n§oNote*: \"Small craft\" may not accurately reflect the state of your industrialization and the company holds no accountability or liability for professional mishaps like \"that\u0027s way too much UHV Superconductor\" or \"we need to scale our HILEs yesterday\"§r\n\n§oNAC™ sold as-is. Functionality available via separately crafted modules",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 9500,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
+      },
+      "isMain:1": 1,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "§5§l§nIntroducing the NAC§r§5§n™§r§5§n§l",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 8348724939136321554,
+  "questIDLow:4": -6966981174478510993,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 191,
+          "OreDict:8": "",
+          "id:8": "TwilightForest:item.tfspawnegg",
+          "tag:10": {
+            "RepairCost:3": 2,
+            "display:10": {
+              "Name:8": "NotAPenguin"
+            }
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 9500,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

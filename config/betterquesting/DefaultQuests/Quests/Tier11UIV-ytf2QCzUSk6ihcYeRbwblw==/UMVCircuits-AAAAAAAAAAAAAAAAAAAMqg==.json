@@ -5,6 +5,10 @@
       "questIDLow:4": 3236
     },
     "1:10": {
+      "questIDHigh:4": 8348724939136321554,
+      "questIDLow:4": -6966981174478510993
+    },
+    "2:10": {
       "questIDHigh:4": 9111043962560858024,
       "questIDLow:4": -7565512237463838538
     }
@@ -12,7 +16,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Pico circuits, a direct upgrade from Optical Mainframes, these UMV circuits will be required for a lot of future crafts.\n\n[note]You will need an UMV powered Assembly Line to get started.[/note]\n\n[warn]Rumor has it these circuits may not be around for much longer...[/warn]",
+      "desc:8": "Pico circuits, a direct upgrade from Optical Mainframes, these UMV circuits will be required for a lot of future crafts.\n\n[note]You will need a NAC to get started.[/note]\n\n[warn]Rumor has it these circuits may not be around for much longer...[/warn]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
