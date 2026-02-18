@@ -4178,6 +4178,14 @@ betterquesting.quest.3yz1WCEzQ_KQxW8p7_29-Q.desc=Already struggling to keep up w
 betterquesting.quest.4MzUrkH5QsWnE_4APuHhNg.name=§5§l§nMy Eyes Hurt! #2
 betterquesting.quest.4MzUrkH5QsWnE_4APuHhNg.desc=The optical assembly is the second optical circuit. It is a UHV-tier circuit.
 
+# Quest: NAC™: Advanced Routing Package
+betterquesting.quest.8PiGBrdnSHOVIA7tHinlOA.name=§5§l§nNAC§r§5§n™§r§5§n§l: Advanced Routing Package
+betterquesting.quest.8PiGBrdnSHOVIA7tHinlOA.desc=Sometimes, basic automation isn't enough. We've heard you - we are now offering the §5§nAdvanced Routing Package§r to allow more complex automation of your components!%n%nThe Nanopart Splitter allows splitting, merging and filtering of your components between different colored VCI and VCO hatches. In the configuration GUI, you can define rules such as:%n- Merging any colors of your choice into one color%n- Evenly splitting inputs from one color into many output colors%n- Filtering specific components from one color to another%nand many more!%n%nAdditionally, if you purchase the Premium Package, you gain access to the Splitter Redstone Input hatch, allowing for fine-grained redstone control of your routing. Each redstone hatch has a "channel" setting, which can then be configured in a rule for it to use that specific hatch's redstone signal.
+
+# Quest: NAC™: Fundamentals Package
+betterquesting.quest.94ivNBMMTAC7qATq_uroGw.name=§5§l§nNAC§r§5§n™§r§5§n§l: Fundamentals Package
+betterquesting.quest.94ivNBMMTAC7qATq_uroGw.desc=We get it, this isn't the most exciting piece of the puzzle. However, the §5§nFundamentals Package§r is essential to the entire operation.%n%nAllowing things such as:%n- Part Preparation for your surface mounted devices%n- Wafer Cutting for your advanced silicon parts among others%n- Wire Tracing for all your fine wires%n- Superconductor Splitting for your most expensive circuits%n- Encasement Wrapping for all your mainframe needs%n- Board Immersion for the base of your circuits*%n%n§oNote*: The Full-Board Immersion Device requires a proper setup to ensure fluid purity. Read the owner's manual (tooltip) to see how to properly utilize this module.§r%n%n
+
 # Quest: Awakened Core
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB0w.name=§5§l§nAwakened Core
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB0w.desc=There was something sleeping deep inside all the draconic material you have made and researched so far. It is time to AWAKE it!
@@ -4254,6 +4262,10 @@ betterquesting.quest.BFpBG-zDQSCr3DieB6Cw5g.desc=Suck up liquids like never befo
 betterquesting.quest.E851J_UMQl6d9EwLLLg6AQ.name=§5§l§nInfinity Pants
 betterquesting.quest.E851J_UMQl6d9EwLLLg6AQ.desc=An armor set worthy of a God. These pants have no special effects on their own but are required to complete the full infinity set.%n%nWhile wearing the complete set, you are completely unkillable.
 
+# Quest: NAC™: Crystal Package
+betterquesting.quest.FlFle6Z7TZSkgpJjPi4ucA.name=§5§l§nNAC§r§5§n™§r§5§n§l: Crystal Package
+betterquesting.quest.FlFle6Z7TZSkgpJjPi4ucA.desc=Now that you have the core pieces of the NAC™ platform, it's time to decide what circuit you would like to make. The §5§nCrystal Package§r allows for the creation of Crystal Circuits much more efficiently than other methods. See the attached owner's manual for installation instructions.%n%n§oIf you purchase in the next 72 hours, this package is 50%% off! Please... make a NAC™ for crystal circuits, CALs aren't as good we promise...§r%n%n%n§n§lUltra-high Energy Etching Array Owner's Manual:§r%n%nThe NAC™ will track the most recent 100,000 circuits crafted, and can be calibrated to a specific circuit type by reaching a certain percentage of circuits of this type. At 60%% (60,000) crystal circuits crafted, the NAC™ will become "fully calibrated" to crystal circuits.%n%nOnce that has been met, the Laser Source Hatch on the Etching Array will provide two bonuses:%n- The §nEU Cost§r will be divided by each amperage interval over 256A. Example - 1,024A will divide by 2, 4,096A will divide by 3, etc.%n- The §nRecipe Duration§r will be divided by (hatch tier - 9). Example - UIV will divide by 2, UMV will divide by 3, etc.
+
 # Quest: Dreams of Rainbow... Stargates?
 betterquesting.quest.H3Tvy4ZKSyiQGT16Og90bA.name=§5§l§nDreams of Rainbow... Stargates?
 betterquesting.quest.H3Tvy4ZKSyiQGT16Og90bA.desc=UEV energy hatches? Great! Time for stargate trophy number two.%nOnce again, to get your trophy you have to submit two stargates' worth of materials.%n%n§3Trophy number two brings us to chapter two of our journey through GTNHs past, the early UEV era.%n%nThe year 2022 has just begun and the UEV tier, albeit still quite empty, has become more useful than before. UEV-UMV energy hatches now have proper recipes (although with UEV parts) and optical SMDs are a thing now, hooray.%nThere finally are better powergen options than regular plasma turbine spam, namely naq fuel and compact fusions + XL plasma turbine spam. Technically dyson too, but that is horribly bugged and its 'legit' power output reasonably can't exceed around 6 billion EU/t (around the same as a compact MK4 running helium plasma).%nSome useful newly introduced multis are the PrAss, MCR & Mega Oil Cracker and overclocks past MAX voltage are possible on megas now.%nStargate has once again become a distant goal, as it now required exorbitant amounts or infinity catalyst and bio circuits, requiring to utilize the new tech to its fullest.%n%nTwo players, §aPhineasor§3 & §aGDCloud§3 were determined to be first to completing this goal, and after months of a close friendly race, the winner had been decided. §a%nGDCloud§3 won the race and conquered this round of nerfs on the §a27th of May, 2022§3.%n%nP.S.: Once again, if you want to be faithful to the challenge, try completing it without these additions:%n-PCB Factory, Space Elevator, Component Assemblyline, AAL, EEC, EIG, MABS%n-Any bee related GT machines%n-Any UEV or above multis (except weak dyson and naq refineries)%n-LEG%n-Sub 1-tick OC, Batch Mode, inbuilt Void Protection on multis%n-Level Maintainer, AE Fluid Crafting, Stocking Buses/Hatches, Crafting Input Buses, ME Output Hatches%n%nP.P.S.: Again the chaotic capacitor banks have been left out for the same reason as stated in the UV gate quest. Oh and the stargate parts used to be UXV recipes, but since UMV hatches are not craftable in UEV anymore, they have been downtiered to UIV to make them craftable in UEV.
@@ -4262,9 +4274,13 @@ betterquesting.quest.H3Tvy4ZKSyiQGT16Og90bA.desc=UEV energy hatches? Great! Time
 betterquesting.quest.H_S9zi1_SUKG7JkEYgJIiA.name=§5§l§nAssembling in Space
 betterquesting.quest.H_S9zi1_SUKG7JkEYgJIiA.desc=This new Space Elevator module can be used to make lapotron orbs more easily, and to make the raw components for optical circuits.
 
+# Quest: NAC™: Wetware and Bioware Package
+betterquesting.quest.NAUxWAKzTHifGrUSGPcb5w.name=§5§l§nNAC§r§5§n™§r§5§n§l: Wetware and Bioware Package
+betterquesting.quest.NAUxWAKzTHifGrUSGPcb5w.desc=So you've chosen the §5§nWetware and Bioware Package§r for your newly purchased NAC™. A wise choice, as these are some of the most important circuits you will make. See the attached owner's manual for installation instructions.%n%n§oGet it while you can! A two-for-one deal on circuit lines!§r%n%n§n§lAccelerated Biological Coordinator Owner's Manual:§r%n%nThe NAC™ will track the most recent 100,000 circuits crafted, and can be calibrated to a specific circuit type by reaching a certain percentage of circuits of this type. At 60%% (60,000) wetware circuits crafted, the NAC™ will become "fully calibrated" to wetware circuits, and the same applies to bioware circuits.%n%nDepending on which calibration has been achieved, the Biological Coordinator will provide one of two bonuses:%n- If calibrated to §nWetware§r, usage of Growth Catalyst Medium is reduced to zero%n- If calibrated to §nBioware§r, usage of both Growth Catalyst Medium and Bio Catalyst Medium is reduced to zero
+
 # Quest: My Eyes Hurt! #1
 betterquesting.quest.U4zxsdwqTUKsbTATYEJirg.name=§5§l§nMy Eyes Hurt! #1
-betterquesting.quest.U4zxsdwqTUKsbTATYEJirg.desc=Finally, you are ready to assemble these new circuits. This is a UV-tier circuit.
+betterquesting.quest.U4zxsdwqTUKsbTATYEJirg.desc=Finally, you are ready to assemble these new circuits. This is a UV-tier circuit.%n%n[note]It's highly recommended that you invest in a NAC before starting with Optical Circuits[/note]
 
 # Quest: Using Light to Compute
 betterquesting.quest.VplPMJ0DThWiBNH_Hx5SQA.name=§5§l§nUsing Light to Compute
@@ -4286,6 +4302,10 @@ betterquesting.quest._TtL1y6-SfCCNKRrWSvrNQ.desc=At last, you have done it. The 
 betterquesting.quest._hHt1iRERrywJiRVFpOnxw.name=§5§l§nUEV Energy Hatch
 betterquesting.quest._hHt1iRERrywJiRVFpOnxw.desc=Another tier, another energy hatch. You can use these to overclock your assembly lines to UIV voltage and speed them up.
 
+# Quest: Introducing the NAC™
+betterquesting.quest.c9yhGUSqSBKfUE-I0l_kbw.name=§5§l§nIntroducing the NAC§r§5§n™§r§5§n§l
+betterquesting.quest.c9yhGUSqSBKfUE-I0l_kbw.desc=You've gotten this far, you know the drill. You've made more circuits than you can count, but what if that isn't enough? It's time to stop scaling the old way, and start manufacturing like the late game engineer you are.%n%nThe Nanochip Assembly Complex isn't just a fancier CAL or Assembly Line - it is the core of your entire operation. For the low price of a small craft* for your machines to chew on, you can be the proud owner of the latest innovation in circuit crafting technology! %n%n§oNote*: "Small craft" may not accurately reflect the state of your industrialization and the company holds no accountability or liability for professional mishaps like "that's way too much UHV Superconductor" or "we need to scale our HILEs yesterday"§r%n%n§oNAC™ sold as-is. Functionality available via separately crafted modules
+
 # Quest: Cheaper ZPM Circuits
 betterquesting.quest.dYvLkQ-xRnWL8Egy_MnoIg.name=§5§l§nCheaper ZPM Circuits
 betterquesting.quest.dYvLkQ-xRnWL8Egy_MnoIg.desc=Living bio chip can perform multiple tasks at once and will make your ZPM circuits cheaper!%n%n[note]This does cost quite a bit of hypogen, perhaps hold off on using these until you can make hypogen easily.[/note]
@@ -4306,6 +4326,10 @@ betterquesting.quest.iO7VxrxPTbutGjRtrcoAxw.desc=Using your new optically enhanc
 betterquesting.quest.k9PA3buhTvK1EJpPfA8ZAg.name=§5§l§nTier 10 (UEV)
 betterquesting.quest.k9PA3buhTvK1EJpPfA8ZAg.desc=Welcome to Extremely Ultimate Voltage! Now that you've started making your first infinity, it's time to start scaling up. In this tier, every component will require infinity. Be prepared to make tons. Your main goal to advance will be to build the Dimensionally Transcendent Plasma Forge, also known as the DTPF. This massive multiblock will unlock new powerful recipes to create infinity, neutronium and other special materials.
 
+# Quest: NAC™: Automation Package
+betterquesting.quest.lonEUE4hRuWYuP3JKbeLaw.name=§5§l§nNAC§r§5§n™§r§5§n§l: Automation Package
+betterquesting.quest.lonEUE4hRuWYuP3JKbeLaw.desc=Our most popular addon for the NAC™ platform, the §5§nAutomation Package§r allows for easily routing components between modules* for all your processing needs! Simply attach a Vacuum Conveyor Output to the core of the NAC, color it the same color as your input bus(es), and now you can route components to modules using Vacuum Conveyor Pipes!%n%n§oNote*: Modules sold separately§r
+
 # Quest: One Last Time
 betterquesting.quest.msIxGO5gQCWJPmEyp_JhtQ.name=§5§l§nOne Last Time
 betterquesting.quest.msIxGO5gQCWJPmEyp_JhtQ.desc=For the final circuit line currently in the game, you will need to either make one last circuit assembler, or a UEV hatch for your circuit assembly machine.
@@ -4318,9 +4342,17 @@ betterquesting.quest.n8PKF63sSSi0y8ZBb2RIKQ.desc=After automating Absolute Baryo
 betterquesting.quest.omilMDAFTVWzvZwo0SmnMw.name=§5§l§nBiocatalyzed Propulsion Fluid
 betterquesting.quest.omilMDAFTVWzvZwo0SmnMw.desc=Now with access to Maahes you can finally start making §5§lBiocatalyzed Propulsion Fluid§r. %n%nBPF is a superior fuel for the §9Spinmatron-2737§r, granting an additional §2§l1.25x§r parallels and allowing you to finally have access to §a§lHeavy mode§r dependent recipes.%n%n[note]If you happen to be avoiding rockets; check out the §nLumipod Sapling§r recipe[/note]
 
+# Quest: NAC™: Optical Package
+betterquesting.quest.oyyde6hbRUOyVcAf7IP5HA.name=§5§l§nNAC§r§5§n™§r§5§n§l: Optical Package
+betterquesting.quest.oyyde6hbRUOyVcAf7IP5HA.desc=You may have noticed that Optical Circuits the way you're used to in the CAL and Assembly Line are far more expensive than any other circuit line. The NAC™ has just the solution for you!%n%nWe are offering the new §5§nOptical Package§r, allowing for much more efficient production of your optical circuits! See the attached owner's manual for installation instructions.%n%n§oAn external review has been conducted and has found the company §nnot responsible§r§o for changes to other methods of producing optical circuits. The benefits of a NAC™ for optical circuits are merely coincidental.§r§r%n%n§l§nOptically Optimized Organizer Owner's Manual§r%n%nThe Optically Optimized Organizer requires two different grades of purified water to function. However, these are not just an extra running cost! Each grade of water 3 and above provides a bonus to the module's running stats:%n- Grade 3 (1000L/s): 0.8x Water Cost (applies to both)%n- Grade 4 (800L/s): 0.6x Water Cost (applies to both)%n- Grade 5 (800L/s): 0.9x Recipe Duration Modifier%n- Grade 6 (600L/s): 0.7x Recipe Duration Modifier%n- Grade 7 (600L/s): 0.9x Recipe EU Cost%n- Grade 8 (400L/s): 0.7x Recipe EU Cost%n%nWater is only consumed while the module is running. Similar water bonuses (such as Grade 5 + Grade 6) can be applied together.%n%nThe NAC™ will track the most recent 100,000 circuits crafted, and can be calibrated to a specific circuit type by reaching a certain percentage of circuits of this type. At 60%% (60,000) optical circuits crafted, the NAC™ will become "fully calibrated" to optical circuits.%n%nOnce that has been met, the bonuses from each chosen water type are applied twice.%n%n
+
 # Quest: Wireless Data for Your Assembly Lines!
 betterquesting.quest.pLB6Sb0FSZ65cjWJ_Q4IIg.name=§5§l§nWireless Data for Your Assembly Lines!
 betterquesting.quest.pLB6Sb0FSZ65cjWJ_Q4IIg.desc=Wireless Data Bank Transmission Connector and Wireless Assembly line Reception Connector lets you avoid building and connecting dozens of Data Banks and Optical Fiber Cable for the upcoming Assembly Lines you might have to build.%n%nTo use it, you have to screwdriver the Data Bank that is storing the data sticks, place a Wireless Data Bank Transmission Connector into the Data Bank, then Wireless Assembly line Reception Connector for the Assembly Lines.%n%n[note]Wireless Data Hatches are N:M instead of 1:1[/note]
+
+# Quest: NAC™: Assembling Package
+betterquesting.quest.qirJLnNZT6Wmb7oQJ1IOLg.name=§5§l§nNAC§r§5§n™§r§5§n§l: Assembling Package
+betterquesting.quest.qirJLnNZT6Wmb7oQJ1IOLg.desc=You might be saying, "So I've just purchased this thing, now what?" We have just the solution for you!%n%nThe §5§nAssembling Package§r is the most important upgrade to the NAC™ platform, allowing for the creation of circuits with your processed components. This isn't just another assembler - it's the most important machine you'll ever own.%n%nProvide the Nanochip Assembly Matrix with a Vacuum Conveyor Input (sold separately) containing the necessary components, and all the circuits you have ever wanted will be yours!%n%n§oPower costs may be high. The NAC™ offers a guarantee that modules will not powerfail, but offers no guarantees on your existing power network. 
 
 # Quest: UEV Superconductors
 betterquesting.quest.s6BLu9oMS86AXyR1FQ1imA.name=§5§l§nUEV Superconductors
@@ -4377,7 +4409,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpQ.desc=Hope you have loads of transcen
 
 # Quest: UMV Circuits
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqg.name=§9§l§nUMV Circuits
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqg.desc=Pico circuits, a direct upgrade from Optical Mainframes, these UMV circuits will be required for a lot of future crafts.%n%n[note]You will need an UMV powered Assembly Line to get started.[/note]%n%n[warn]Rumor has it these circuits may not be around for much longer...[/warn]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqg.desc=Pico circuits, a direct upgrade from Optical Mainframes, these UMV circuits will be required for a lot of future crafts.%n%n[note]You will need a NAC to get started.[/note]%n%n[warn]Rumor has it these circuits may not be around for much longer...[/warn]
 
 # Quest: Metastable Oganesson
 betterquesting.quest.AOBApHluTUurGwTeOzxj4g.name=§9§l§nMetastable Oganesson
