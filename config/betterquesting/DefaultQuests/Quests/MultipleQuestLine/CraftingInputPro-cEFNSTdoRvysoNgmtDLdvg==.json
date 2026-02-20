@@ -2,7 +2,8 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 6385984193999818429,
-      "questIDLow:4": -9080536097015359642
+      "questIDLow:4": -9080536097015359642,
+      "type:1": 1
     },
     "1:10": {
       "questIDHigh:4": -3147624397681180429,
@@ -27,7 +28,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Crafting Input Proxy",
+      "name:8": "§9§l§nCrafting Input Proxy",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
