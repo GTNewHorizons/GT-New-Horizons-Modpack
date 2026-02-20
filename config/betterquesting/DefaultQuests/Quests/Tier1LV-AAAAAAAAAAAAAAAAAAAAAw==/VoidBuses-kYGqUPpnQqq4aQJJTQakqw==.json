@@ -1,25 +1,33 @@
 {
   "preRequisites:9": {
     "0:10": {
+      "questIDHigh:4": -6133074755109896107,
+      "questIDLow:4": -6003979525766501212
+    },
+    "1:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 2959
+      "questIDLow:4": 1918
+    },
+    "2:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1919
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "9,511,000 EU/t lasting 4s per liter. Prepare to make a lot of this, as all subsequent tiers of Naquadah Fuel start from Mk III until you unlock the UXV MKIV recipe.\n\nThe alternate recipe can ease the logistical demand, but sourcing the chromatic glass might prove problematic until later.",
+      "desc:8": "",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 10046,
+        "Damage:2": 12109,
         "OreDict:8": "",
-        "id:8": "bartworks:gt.bwMetaGeneratedcell"
+        "id:8": "gregtech:gt.blockmachines"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Naquadah Based Fuel MkIII",
+      "name:8": "Void Buses",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -30,8 +38,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 2963,
+  "questIDHigh:4": -7961895401439149398,
+  "questIDLow:4": -5158589384328043349,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -40,9 +48,22 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 10046,
+          "Damage:2": 4,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGeneratedcell"
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      }
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 20,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:CoinTechnician"
         }
       }
     }
@@ -58,9 +79,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 10046,
+          "Damage:2": 12110,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGeneratedcell"
+          "id:8": "gregtech:gt.blockmachines"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 12109,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
         }
       },
       "taskID:8": "bq_standard:retrieval"

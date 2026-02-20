@@ -1,25 +1,34 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": -6574823353161531102,
-      "questIDLow:4": -7613245622972716356
+      "questIDHigh:4": 1262982858740417596,
+      "questIDLow:4": -7530896342613904850
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1225
+    },
+    "2:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1247,
+      "type:1": 1
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "These boules are the most efficient when making wafers out of them.",
+      "desc:8": "Use Assembler recipe",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 32152,
+        "Damage:2": 32672,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.03"
+        "id:8": "gregtech:gt.metaitem.01"
       },
-      "isMain:1": 1,
+      "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§2§l§nAmericium Doped Wafers",
+      "name:8": "HV Field Generator",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -30,8 +39,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 2041,
+  "questIDHigh:4": 5140827567576271711,
+  "questIDLow:4": -6179797011077510906,
   "rewards:9": {},
   "tasks:9": {
     "0:10": {
@@ -44,26 +53,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 32152,
+          "Damage:2": 32672,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
-        }
-      },
-      "taskID:8": "bq_standard:optional_retrieval"
-    },
-    "1:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 1,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 128,
-          "Damage:2": 32153,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
+          "id:8": "gregtech:gt.metaitem.01"
         }
       },
       "taskID:8": "bq_standard:retrieval"

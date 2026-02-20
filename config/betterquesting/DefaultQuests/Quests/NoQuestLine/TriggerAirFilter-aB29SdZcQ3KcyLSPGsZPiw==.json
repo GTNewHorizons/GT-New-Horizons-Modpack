@@ -1,38 +1,45 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": -6574823353161531102,
-      "questIDLow:4": -7613245622972716356
+      "questIDHigh:4": 0,
+      "questIDLow:4": 88
     }
   },
   "properties:10": {
     "betterquesting:10": {
-      "autoClaim:1": 0,
-      "desc:8": "These boules are the most efficient when making wafers out of them.",
+      "autoClaim:1": 1,
+      "desc:8": "No Description",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 32152,
+        "Damage:2": 12020,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.03"
+        "id:8": "gregtech:gt.blockmachines"
       },
-      "isMain:1": 1,
-      "isSilent:1": 0,
+      "isMain:1": 0,
+      "isSilent:1": 1,
       "lockedProgress:1": 0,
-      "name:8": "§2§l§nAmericium Doped Wafers",
+      "name:8": "§6§lTrigger: Air-Filter",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
       "simultaneous:1": 0,
       "snd_complete:8": "random.levelup",
       "snd_update:8": "random.levelup",
-      "taskLogic:8": "AND",
+      "taskLogic:8": "OR",
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 2041,
-  "rewards:9": {},
+  "questIDHigh:4": 7502360679095747442,
+  "questIDLow:4": -7149265881728135285,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 0,
+      "questID:8": "AAAAAAAAAAAAAAAAAAALpQ\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    }
+  },
   "tasks:9": {
     "0:10": {
       "autoConsume:1": 0,
@@ -44,12 +51,12 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 32152,
+          "Damage:2": 12021,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
+          "id:8": "gregtech:gt.blockmachines"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
       "autoConsume:1": 0,
@@ -60,10 +67,10 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 128,
-          "Damage:2": 32153,
+          "Count:3": 1,
+          "Damage:2": 12022,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
+          "id:8": "gregtech:gt.blockmachines"
         }
       },
       "taskID:8": "bq_standard:retrieval"

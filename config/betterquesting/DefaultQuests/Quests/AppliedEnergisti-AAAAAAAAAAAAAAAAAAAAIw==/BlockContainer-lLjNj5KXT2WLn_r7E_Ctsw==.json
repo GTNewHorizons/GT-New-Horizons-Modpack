@@ -1,25 +1,27 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": -6574823353161531102,
-      "questIDLow:4": -7613245622972716356
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1314,
+      "type:1": 2
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "These boules are the most efficient when making wafers out of them.",
+      "desc:8": "No Description",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 32152,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.03"
+        "id:8": "appliedenergistics2:item.ItemExtremeStorageCell.Container",
+        "tag:10": {}
       },
-      "isMain:1": 1,
+      "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§2§l§nAmericium Doped Wafers",
+      "name:8": "Block Container",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -30,8 +32,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 2041,
+  "questIDHigh:4": -7730202743858049179,
+  "questIDLow:4": -8385708024862298701,
   "rewards:9": {},
   "tasks:9": {
     "0:10": {
@@ -44,26 +46,10 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 32152,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
-        }
-      },
-      "taskID:8": "bq_standard:optional_retrieval"
-    },
-    "1:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 1,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 128,
-          "Damage:2": 32153,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
+          "id:8": "appliedenergistics2:item.ItemExtremeStorageCell.Container",
+          "tag:10": {}
         }
       },
       "taskID:8": "bq_standard:retrieval"
