@@ -1,0 +1,68 @@
+## Misc
+customtooltip.quest_reset_warning=§4This block will RESET ALL YOUR QUESTS, starting over from Tier 0. Do NOT build or use unless you really mean it!
+customtooltip.blast_resistance_warning=§4Blast resistance is now %s. DOES NOT PROTECT AGAINST NUKES!
+customtooltip.cooldown_seconds=Cooldown %s seconds
+customtooltip.infinite_energy=§dInfinite Energy
+customtooltip.expensive_device=§3Now: Quite Expensive Device
+customtooltip.riches_imagination=§3Riches beyond your imagination
+customtooltip.ender_collector_warning=§4Warning: When broken, the powerful ender collector may vanish in an attempt to collect itself!...and take nearby items with it!
+customtooltip.max_voltage_eu=§4Maximum voltage in: %s EU/t
+customtooltip.need_gloves=§4You need Gloves for it?
+customtooltip.prolonged_use_warning=§4Prolonged use is not recommended...
+customtooltip.perpetual_locomotion=§dPerpetual Locomotion
+
+customtooltip.disabled_item=§4Disabled Item; No recipe
+customtooltip.personal_use=§3Only For Personal Use
+customtooltip.left_click_disabled=§4left click disabled
+customtooltip.recharge_tier_machine=Recharge in a %s-tier §7Machine
+
+## Bags
+customtooltip.backpack_slots=%s Slots
+customtooltip.crafting_backpack_slots=Crafting Backpack with %s Inventory Slots
+
+## Chisel
+customtooltip.chisel_mod=§5Chisel from Chisel Mod
+
+## Core Mod
+customtooltip.oven_gloves_slot=§3Put both Gloves in the Baubles Ring Slot
+customtooltip.cannot_wear=§4Don't try to wear this, you can't
+customtooltip.very_toxic=§4Very toxic
+customtooltip.blood_altar_pillar=§5Used for Blood Altar Tier %s Pillars
+customtooltip.reinforced_stone_stats=§3Hardness %s §4Blast Resistance %s
+customtooltip.chunkloader_coin=%s%sH Chunkloader Coin, %sH in Passive Chunkloader, %sH in Personal Chunkloader
+customtooltip.chunkloader_ender_fragment=§11H Use in Personal Chunkloader
+customtooltip.ender_pearl_chunkloader=§81H Chunkloader Use in Passive and 4H in Personal Chunkloader
+customtooltip.donation_servers=§4Can be used for Donation on Servers only
+
+## Draconic Evolution
+customtooltip.slush_warning=§2I hope you are not going to eat this later.
+customtooltip.slush_cooking=§4Heating up makes food better?
+customtooltip.marshmallow_glow=§5Is it me or it just gained pixels from all that heat.
+customtooltip.marshmallow_wired=§6I have a very wired feeling.
+
+## Gregtech
+customtooltip.deprecated_furnace=§4This furnace is deprecated use bricked blast furnace
+customtooltip.coolant_steam_5x=§4Hot coolant steam output is increased by 5x
+customtooltip.black_gold_rip=§bMay you have all the black gold you want, RIP Cerulean
+customtooltip.crystallized_shards=§b§lCrystallized shards stabilized by a maximized Godforge
+
+## IC2
+customtooltip.battery_tier=%s-tier
+
+## OMT
+customtooltip.omt_hardness_resistance=Hardness: %s - Blast Resistance: %s
+
+## Tinkers Construct
+customtooltip.smeltery_purity_warning=§3Some metals processed in smeltery don't meet the purity requirement for GregTech processing.
+customtooltip.ic2_crop_berries=Can be placed on an empty IC2 Crop.\nRequires low light to be placed.
+
+## GG
+customtooltip.check_ebf_recipe=§3Check Flawed Crystal recipe in EBF
+customtooltip.check_press_recipe=§3Check Plate recipe in Forming Press
+
+## Bee Housings
+customtooltip.bee_apiary=Effective production chance as a percent is\n2.8 * b^0.52 * (p + t)^0.52 * s^0.37\nwhere b is the base production chance as a percent,\np is the production modifier (additive, starts at -0.9 for the apiary),\nt is 1 for the apiary, and\ns is the speed value for the bee\nOutputs are generated at the end of every bee tick (27.5 seconds)\nPrimary outputs are rolled once with base chance, once with half base
+customtooltip.bee_house=Effective production chance as a percent is\n2.8 * b^0.52 * (p + t)^0.52 * s^0.37\nwhere b is the base production chance as a percent,\np is the production modifier (always -0.75 for the bee house),\nt is 1 for the bee house, and\ns is the speed value for the bee\nOutputs are generated at the end of every bee tick (27.5 seconds)\nPrimary outputs are rolled once with base chance, once with half\nBees cannot mutate in the bee house
+customtooltip.bee_alveary=Effective production chance as a percent is\n2.8 * b^0.52 * (p + t)^0.52 * s^0.37\nwhere b is the base production chance as a percent,\np is the production modifier (additive, starts at 0 for the alveary),\nt is 1 for the alveary, and\ns is the speed value for the bee\nOutputs are generated at the end of every bee tick (27.5 seconds)\nPrimary outputs are rolled once with base chance, once with half
+customtooltip.bee_magic_apiary=Effective production chance as a percent is\n2.8 * b^0.52 * (p + t)^0.52 * s^0.37\nwhere b is the base production chance as a percent,\np is the production modifier (additive, starts at -0.1 for the magic apiary),\nt is 1 for the magic apiary, and\ns is the speed value for the bee\nOutputs are generated at the end of every bee tick (27.5 seconds)\nPrimary outputs are rolled once with base chance, once with half\nWhen boosted, base p becomes 0.8, Mutation: 2x, Lifespan: 0.5x
+customtooltip.magic_aura_range=Must be within 6 blocks of magic apiary
