@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "A Rocket Engine is needed to accelerate your Mothership. Each Rocket Engine consists of one Rocket Engine Jet and 1 to 10 Rocket Engine Base blocks placed in a line. Each Rocket Engine Base provides 2MN of force and holds up to 10,000L of Naquadah Based Liquid Fuel Mk II.\n\n[note]The Mothership is configured to have a fixed weight of 1500kg. So feel free to design a big and fancy spaceship. The amount of engines you need stays the same.[/note]",
+      "desc:8": "An engine is required to accelerate your Mothership. There are two different tiers of engines and bases, and you can attach between 1-10 engine bases to a single engine in a §nhorizontal line§r. Each additional base additively increases thrust. You may use multiple engines if desired, but their bases must be separate, and all engines should face the same direction for maximum efficiency. The engine and its bases will combine into a single clickable entity that can be filled with fuel.\n\nThe Mothership determines its fuel consumption and total travel time based on the available thrust and the distance being traveled. However, the Mothership will not allow departure if the travel time exceeds one in-game day, meaning you must have sufficient thrust to reach your destination.\n\nThe minimum configurations required to reach the Ra system using each engine tier are listed below:\n\nA §5Rocket Engine Jet§r (T1) will produce §22MN§r of thrust per §5Rocket Engine Base§r and require §32L/t§r of §6Naquadah Based Fuel MK-II§r during travel. At minimum, to make it to the Ra system you will need §n9§r Rocket Engine Bases and 92,440L of fuel.\n\nAn §5Ion Thruster Jet§r (T2) will produce §225MN§r of thrust per §5Ion Thruster Base§r and require both §31L/t§r of §6Xenon§r and §c10EU/t§r of power during travel. At minimum, to make it to the Ra system you will need §n7§r Ion Thruster Bases, 20,970L of Xenon, and 31,970EU.\n\nNote that for both configurations, when starting from the Overworld, you must first stop at Proxima Centauri to refuel before continuing on to the Ra system.\n\n[note]It\u0027s highly recommended to go with the T1 route since the required materials are much cheaper![/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -26,7 +26,7 @@
       "simultaneous:1": 0,
       "snd_complete:8": "random.levelup",
       "snd_update:8": "random.levelup",
-      "taskLogic:8": "AND",
+      "taskLogic:8": "OR",
       "visibility:8": "NORMAL"
     }
   },
@@ -85,13 +85,36 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "GalacticraftAmunRa:tile.msBoosters1"
+          "id:8": "GalacticraftAmunRa:tile.machines2"
         },
         "1:10": {
-          "Count:3": 1,
+          "Count:3": 9,
           "Damage:2": 0,
           "OreDict:8": "",
+          "id:8": "GalacticraftAmunRa:tile.msBoosters1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "OreDict:8": "",
           "id:8": "GalacticraftAmunRa:tile.machines2"
+        },
+        "1:10": {
+          "Count:3": 7,
+          "Damage:2": 1,
+          "OreDict:8": "",
+          "id:8": "GalacticraftAmunRa:tile.msBoosters1"
         }
       },
       "taskID:8": "bq_standard:retrieval"
