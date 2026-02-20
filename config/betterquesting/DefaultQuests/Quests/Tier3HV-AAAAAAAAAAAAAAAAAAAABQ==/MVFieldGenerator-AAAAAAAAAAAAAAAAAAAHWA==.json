@@ -53,9 +53,17 @@
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 7,
+          "Damage:2": 6,
           "OreDict:8": "",
-          "id:8": "enhancedlootbags:lootbag"
+          "id:8": "enhancedlootbags:lootbag",
+          "tag:10": {
+            "ench:9": {
+              "0:10": {
+                "id:2": 35,
+                "lvl:2": 3
+              }
+            }
+          }
         }
       }
     },

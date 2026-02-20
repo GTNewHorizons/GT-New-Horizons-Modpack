@@ -17,7 +17,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Use Assembler recipe",
+      "desc:8": "The HV Field Generator isn\u0027t used frequently, but it does have something to offer for those who prefer upgraded Super Chests or Super Tanks. It can also be used to make the Grandmaster Magic Energy Absorber if you\u0027re deep enough into Thaumcraft.\n\n[note]Don\u0027t forget to look closely at NEI when choosing your recipe.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -41,7 +41,34 @@
   },
   "questIDHigh:4": 5140827567576271711,
   "questIDLow:4": -6179797011077510906,
-  "rewards:9": {},
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 7,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      }
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:CoinTechnicianII"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "autoConsume:1": 0,
