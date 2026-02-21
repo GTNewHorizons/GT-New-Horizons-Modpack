@@ -1,27 +1,29 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": -9205149542111031669,
-      "questIDLow:4": -6181610685332966026
+      "questIDHigh:4": 4894867707481048112,
+      "questIDLow:4": -5357559570736815524
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "This crop makes its own fertilizer! It\u0027s just broken down a little bit...",
-      "globalShare:1": 1,
+      "desc:8": "Too blue blueberries. Cobalt oreberries!",
+      "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "Forestry:fertilizerBio"
+        "id:8": "cropsnh:genericSeed",
+        "tag:10": {
+          "crop:8": "cropsnh:cobaltOreBerry",
+          "scan:1": 1
+        }
       },
-      "isGlobal:1": 0,
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Cover Crops? What Are Those?",
-      "partySingleReward:1": 0,
+      "name:8": "Cobalt Berries",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -32,8 +34,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 1808,
+  "questIDHigh:4": -4814453113848969064,
+  "questIDLow:4": -8580846703989165113,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -41,12 +43,6 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 256,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "cropsnh:fertilizer"
-        },
-        "1:10": {
           "Count:3": 1,
           "Damage:2": 51,
           "OreDict:8": "",
@@ -70,7 +66,7 @@
           "OreDict:8": "",
           "id:8": "cropsnh:genericSeed",
           "tag:10": {
-            "crop:8": "cropsnh:fertilia",
+            "crop:8": "cropsnh:cobaltOreBerry",
             "scan:1": 1
           }
         }

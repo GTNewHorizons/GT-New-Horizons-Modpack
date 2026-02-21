@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "So you should grow some essence berries to level up!",
+      "desc:8": "You should grow some essence berries to level up!",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -24,7 +24,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Feeling a Little Like a Noob...",
+      "name:8": "Feeling a Little Like a Noob?",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

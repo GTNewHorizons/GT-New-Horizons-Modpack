@@ -1,29 +1,25 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 4894867707481048112,
-      "questIDLow:4": -5357559570736815524
+      "questIDHigh:4": 4403838618722059183,
+      "questIDLow:4": -8617387070152930098
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Cobalt oreberries!",
+      "desc:8": "Nickelback leaves will 4x your nickel ore.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 0,
+        "Damage:2": 9,
         "OreDict:8": "",
-        "id:8": "cropsnh:genericSeed",
-        "tag:10": {
-          "crop:8": "cropsnh:cobaltOreBerry",
-          "scan:1": 1
-        }
+        "id:8": "cropsnh:materialLeaf"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Cobalt",
+      "name:8": "Nickelback",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -34,8 +30,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": -4814453113848969064,
-  "questIDLow:4": -8580846703989165113,
+  "questIDHigh:4": 4774030361771658460,
+  "questIDLow:4": -6005958925180876305,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -66,7 +62,7 @@
           "OreDict:8": "",
           "id:8": "cropsnh:genericSeed",
           "tag:10": {
-            "crop:8": "cropsnh:cobaltOreBerry",
+            "crop:8": "cropsnh:nickelback",
             "scan:1": 1
           }
         }

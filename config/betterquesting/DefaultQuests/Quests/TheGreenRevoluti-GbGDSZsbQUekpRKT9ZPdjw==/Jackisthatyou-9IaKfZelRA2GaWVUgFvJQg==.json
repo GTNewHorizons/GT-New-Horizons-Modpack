@@ -1,29 +1,25 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 4894867707481048112,
-      "questIDLow:4": -5357559570736815524
+      "questIDHigh:4": 6981140034253507097,
+      "questIDLow:4": -7574096466507254892
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Iron oreberries!",
+      "desc:8": "Magic beans! Unfortunately no stalks into the sky here though.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "cropsnh:genericSeed",
-        "tag:10": {
-          "crop:8": "cropsnh:ironOreBerry",
-          "scan:1": 1
-        }
+        "id:8": "TwilightForest:item.magicBeans"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Ferrous",
+      "name:8": "Jack, is that you?",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -34,8 +30,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": -5803935250604339278,
-  "questIDLow:4": -9141737037254133982,
+  "questIDHigh:4": -826821209556171763,
+  "questIDLow:4": -8761360186467432126,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -66,7 +62,7 @@
           "OreDict:8": "",
           "id:8": "cropsnh:genericSeed",
           "tag:10": {
-            "crop:8": "cropsnh:ironOreBerry",
+            "crop:8": "cropsnh:manaBean",
             "scan:1": 1
           }
         }

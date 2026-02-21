@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The BOP Berry crop plays an important role as one of the fastest growing crops you will get access to.\n\nThis makes them the perfect crop for breeding, statting, and more. So get a few of them.",
+      "desc:8": "The BOP Berry crop plays a nice role as the fastest growing crop you will get access to.\n\nThis makes it the perfect crop for breeding up stats with before crossing to other species which share pools.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -65,7 +65,7 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 5,
+          "Count:3": 3,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "cropsnh:genericSeed",

@@ -1,29 +1,25 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 4894867707481048112,
-      "questIDLow:4": -5357559570736815524
+      "questIDHigh:4": 6981140034253507097,
+      "questIDLow:4": -7574096466507254892
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Tin oreberries!",
+      "desc:8": "Shimmerleaf can get you easy quicksilver, no Cinnabar required!",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 0,
+        "Damage:2": 2,
         "OreDict:8": "",
-        "id:8": "cropsnh:genericSeed",
-        "tag:10": {
-          "crop:8": "cropsnh:tinOreBerry",
-          "scan:1": 1
-        }
+        "id:8": "Thaumcraft:blockCustomPlant"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Tinnic",
+      "name:8": "Shimmering Leaves",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -34,8 +30,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": -6421885517494402781,
-  "questIDLow:4": -9072284088418881518,
+  "questIDHigh:4": -4027013076953970756,
+  "questIDLow:4": -8483419409772042412,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -66,7 +62,7 @@
           "OreDict:8": "",
           "id:8": "cropsnh:genericSeed",
           "tag:10": {
-            "crop:8": "cropsnh:tinOreBerry",
+            "crop:8": "cropsnh:shimmerleaf",
             "scan:1": 1
           }
         }

@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "These crops will all produce crystals and dusts from the soil.",
+      "desc:8": "These crops crystalize and produce their related crystals and dusts straight from the soil.\n\nAll* of these crops will need a sub-soil of their related material whether block or ore.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,

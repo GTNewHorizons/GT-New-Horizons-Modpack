@@ -8,24 +8,22 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Thaumium oreberries!",
-      "globalShare:1": 1,
+      "desc:8": "Ardite oreberries!",
+      "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
         "id:8": "cropsnh:genericSeed",
         "tag:10": {
-          "crop:8": "cropsnh:thaumiumOreBerry",
+          "crop:8": "cropsnh:arditeOreBerry",
           "scan:1": 1
         }
       },
-      "isGlobal:1": 0,
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Thaumium",
-      "partySingleReward:1": 0,
+      "name:8": "Ardite Berries",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -36,8 +34,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": -6545866373872267919,
-  "questIDLow:4": -5758299271822333013,
+  "questIDHigh:4": 2682370354446027885,
+  "questIDLow:4": -8043747193160963068,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -45,12 +43,6 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 4,
-          "Damage:2": 2,
-          "OreDict:8": "",
-          "id:8": "Thaumcraft:ItemResource"
-        },
-        "1:10": {
           "Count:3": 1,
           "Damage:2": 51,
           "OreDict:8": "",
@@ -74,7 +66,7 @@
           "OreDict:8": "",
           "id:8": "cropsnh:genericSeed",
           "tag:10": {
-            "crop:8": "cropsnh:thaumiumOreBerry",
+            "crop:8": "cropsnh:arditeOreBerry",
             "scan:1": 1
           }
         }

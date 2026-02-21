@@ -13,7 +13,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Fertilizer is a key resource to produce and consume. It has two key features:\r\n1. Fertilizer speeds up crop growth by boosting the nutrient score for crops.\r\n2. Using fertilizer prevents stat loss during the breeding process. (0,+1+,+2).",
+      "desc:8": "Fertilizer is a key resource to produce and consume. It has two key features:\r\n1. Fertilizer speeds up crop growth by boosting the nutrient score.\r\n2. Using fertilizer prevents stat loss during crop breeding. Meaning the only options for stat changes become (0,+1+,+2, etc).",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

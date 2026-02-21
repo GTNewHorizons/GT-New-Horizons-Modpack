@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "To do anything in cropsnh, you first need crop sticks. These will act as the supports for your plants to grow upon. Once your plants mature, a double crop stick will allow your plants to crossbreed with any crops directly sharing the same double crop stick.\n\nAs new species grow on your crop sticks you can harvest them by right-clicking, which won\u0027t remove the seed. Left-clicking will break the seed and potentially drop a seedbag. Spades will help you improve your chances at obtaining seeds when you do this, as will the Resistance trait.\n\nNote in NEI the varying types of soil, undersoil, and enviromental requirements for different crops!",
+      "desc:8": "To do anything in CropsNH, you first need crop sticks. These will act as the supports for your plants to grow upon. Once your plants mature, a double crop stick will allow your plants to crossbreed with any crops directly adjacent to the same double crop stick.\n\nAs new species grow on your crop sticks you can harvest them by right-clicking, which won\u0027t remove the seed. Left-clicking will break the seed and potentially drop a seedbag. Spades will help you improve your chances at obtaining seeds when you do this, as will the Resistance trait.\n\nNote in NEI the varying types of soil, undersoil, and enviromental requirements for different crops!",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,

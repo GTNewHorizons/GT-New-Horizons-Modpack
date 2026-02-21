@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Lots and lots of calories right here folks.",
+      "desc:8": "All of the above could be useful for the production of certain drinks. But really all you\u0027ll be using them for is getting to the next crop,",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -93,16 +93,6 @@
           "id:8": "cropsnh:genericSeed",
           "tag:10": {
             "crop:8": "cropsnh:cocoa",
-            "scan:1": 1
-          }
-        },
-        "4:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "cropsnh:genericSeed",
-          "tag:10": {
-            "crop:8": "cropsnh:coffee",
             "scan:1": 1
           }
         }

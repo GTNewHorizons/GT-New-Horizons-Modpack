@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Now for something a bit more complicated, Stone Lillies.\n\nThis species from the clade §oLilium§o §rproduces stone dust from its petals.\r\n\r\nTo determine how you can breed it, just check the NEI page for Stone Lily Seeds. The required prerequisite species can be obtained either by breeding, or directly from the overworld (if you are [warn]boring[/warn]).",
+      "desc:8": "Now for something a bit more complicated, Stone Lillies.\n\nThis species from the clade §oLilium§o §rproduces stone dust from its petals.\r\n\r\nTo determine how you can breed it, just check the NEI page for Stone Lily Seeds. The required prerequisite species can be obtained either by breeding, or directly from the overworld (if you are [warn]boring[/warn]).\n\n\n\nIf you\u0027re getting overwhelmed, don\u0027t worry. We will get into mutation pools shortly, but for now the important thing to note is that[note] deterministic breeding will always take priority over pool based breeding[/note]. So don\u0027t sweat the pools just yet.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,

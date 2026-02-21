@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "By simply planting saplings onto crop sticks, you\u0027ve found you can create miniature versions of said trees! How cute!\n\nBonsai trees will give you drops just like a tree, but without the wasted CPU of placing all the tree blocks just to chop them down again. This can be significant overhead on a server, so if you want to be nice, breed some bonsai trees. ",
+      "desc:8": "By simply planting saplings onto crop sticks, you\u0027ve found you can create miniature versions of the matching trees! How cute!\n\nBonsai trees will give you drops just like a regular tree, but without the wasted server processing time of placing all the tree blocks just to chop them down again. This can be significant overhead on a server, so if you want to be nice to your host, breed some bonsai. ",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -19,7 +19,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Mastering Bonsai",
+      "name:8": "The Art of Bonsai",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
