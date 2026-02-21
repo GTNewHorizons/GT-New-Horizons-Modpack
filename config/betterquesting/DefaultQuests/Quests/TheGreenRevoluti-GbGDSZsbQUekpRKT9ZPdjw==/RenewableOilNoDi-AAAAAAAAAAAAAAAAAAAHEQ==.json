@@ -1,8 +1,17 @@
 {
   "preRequisites:9": {
     "0:10": {
+      "questIDHigh:4": 5325923841969573848,
+      "questIDLow:4": -6640373965889455709,
+      "type:1": 2
+    },
+    "1:10": {
       "questIDHigh:4": -2647233573521112555,
       "questIDLow:4": -8137730701819231368
+    },
+    "2:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1148
     }
   },
   "properties:10": {
@@ -12,9 +21,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 32510,
+        "Damage:2": 10,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.02"
+        "id:8": "cropsnh:materialLeaf"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,

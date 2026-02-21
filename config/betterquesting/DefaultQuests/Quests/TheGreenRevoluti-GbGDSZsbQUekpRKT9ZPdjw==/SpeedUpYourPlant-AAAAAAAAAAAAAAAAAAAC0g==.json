@@ -19,7 +19,7 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "IC2:itemFertilizer"
+        "id:8": "cropsnh:fertilizer"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -46,7 +46,7 @@
           "Count:3": 32,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "IC2:blockCrop"
+          "id:8": "cropsnh:cropSticks"
         },
         "1:10": {
           "Count:3": 1,

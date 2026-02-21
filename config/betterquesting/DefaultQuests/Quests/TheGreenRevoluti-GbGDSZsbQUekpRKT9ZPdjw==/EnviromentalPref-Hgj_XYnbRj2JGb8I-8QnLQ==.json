@@ -39,5 +39,10 @@
   "questIDHigh:4": 2164260398161413693,
   "questIDLow:4": -8567606770791078099,
   "rewards:9": {},
-  "tasks:9": {}
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
 }

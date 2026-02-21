@@ -62,7 +62,8 @@
           "OreDict:8": "",
           "id:8": "cropsnh:genericSeed",
           "tag:10": {
-            "crop:8": "cropsnh:spidernip",            "scan:1": 1
+            "crop:8": "cropsnh:spidernip",
+            "scan:1": 1
           }
         },
         "1:10": {
@@ -71,7 +72,8 @@
           "OreDict:8": "",
           "id:8": "cropsnh:genericSeed",
           "tag:10": {
-            "crop:8": "cropsnh:eyebulb",            "scan:1": 1
+            "crop:8": "cropsnh:eyebulb",
+            "scan:1": 1
           }
         }
       },
