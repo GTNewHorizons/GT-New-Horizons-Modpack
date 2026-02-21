@@ -1421,6 +1421,10 @@ betterquesting.quest.JRrD8MoLRuCHCD-fFpeNvQ.desc=A feat of human engineering at 
 betterquesting.quest.b47jlBoHTFGGB3j7nq60Zw.name=§2§lKeeping things organized
 betterquesting.quest.b47jlBoHTFGGB3j7nq60Zw.desc=Are you tired of storing Shapes and/or Molds near your Extruders and Solidifiers instead of inside them? Today must be your lucky day, because these item holders let you do exactly that!%n%nThey allow your machines to hold a small number of extra items, though each slot can only store one item at a time. There are three versions of this cover, each offering a different amount of storage:%n%nBasic Item Holder: 9 slots%nGood Item Holder: 12 slots%nAdvanced Item Holder: 15 slots%n%n[note]If that's still not enough space and you are already using the highest tier, you can simply attach multiple holders to your machine of choice.[/note]
 
+# Quest: Void Buses
+betterquesting.quest.kYGqUPpnQqq4aQJJTQakqw.name=§2§lVoid Buses
+betterquesting.quest.kYGqUPpnQqq4aQJJTQakqw.desc=Another good use for Trash Cans is combining them in the Assembler with either an Input Bus or an Input Hatch to create a Void Bus or Void Hatch. These handy buses allow you to instantly void any desired item or fluid output from a multiblock.%n%nYou may or may not find these useful now, depending on whether you are taking advantage of steam multiblocks, but you will definitely find them useful later when you start creating electric multiblocks.
+
 # Quest: Refined Firestone
 betterquesting.quest.njE33db1TxaiJhEBA16E4A.name=§2§lRefined Firestone
 betterquesting.quest.njE33db1TxaiJhEBA16E4A.desc=Cut Firestone is the basic shape for producing Refined Firestone.%nUse a Diamond or Firestone Lens for cutting.%nIt is then fired with lava in the EBF.%n%nLastly it is thrown into lava and charged by absorbing lava blocks around it.%nIt needs 5000 lava blocks to be fully charged, so a large lava lake is required, preferably in the Nether.%n%nThis is most often used to heat up Steam Boilers very quickly or as a fuel. Additionally, it can function as a Flint and Steel.%n%n[note]If the firestone breaks, it can be repaired with lava in the EBF and recharged.[/note]
@@ -1588,7 +1592,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAC9Q.desc=Ruby is a good source for chrom
 
 # Quest: Molten Polyethylene
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC9w.name=§6§lMolten Polyethylene
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC9w.desc=Polyethylene is made out of ethylene and oxygen in a chemical reactor. Molten Polyethylene cells hold 144L, perfect for 1 ingot or plate.%nIf you want precise amounts, you can use a Volumetric Flask once you electrolyze some Boron from Borax.%n%nYou §omay§r have started getting damaged from holding the cells. If you have, put your glove baubles back on. All Molten cells cause damage and store 144L. Mostly, Molten cells come from metal-type materials, or stuff that was melted. Excuse me, §oFluid Extracted§r, whatever that's supposed to mean.%n%nNotice some leftovers? Try using the plunger, or if you have the materials, you can use 12 ethylene cells and 84 oxygen cells to make exactly 125 cells of polyethylene.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAC9w.desc=Polyethylene is made out of ethylene and oxygen in a chemical reactor. Molten Polyethylene cells hold 144L, perfect for 1 ingot or plate.%nIf you want precise amounts, you can use a Volumetric Flask once you electrolyze some Boron from Borax.%n%nYou §omay§r have started getting damaged from holding the cells. If you have, put your glove baubles back on. All Molten cells cause damage and store 144L. Mostly, Molten cells come from metal-type materials, or stuff that was melted. Excuse me, §oFluid Extracted§r, whatever that's supposed to mean.%n%nIf you have the materials, you can use 12 ethylene cells and 83 oxygen cells to make 124 cells of polyethylene.%n%n[note]Notice some leftovers? Try using the plunger[/note]
 
 # Quest: Diesel Fuel
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACKQ.name=§6§lDiesel Fuel
@@ -2301,7 +2305,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHFQ.desc=The next step is to mix methane
 
 # Quest: Polytetrafluoroethylene
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHFg.name=§5§lPolytetrafluoroethylene
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHFg.desc=Molten plastics smell great, don't they? Mix your Hydrofluoric Acid and Chloroform to make Tetrafluoroethylene. React the TFE with oxygen to make molten PTFE.%n%n[note]To get the 125 sheets without any leftovers or anything missing, follow the amounts of the optional quest and use the recipe that uses 1000L of Tetrafluoroethylene and 7000L of Oxygen. [/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHFg.desc=Molten plastics smell great, don't they? Mix your Hydrofluoric Acid and Chloroform to make Tetrafluoroethylene. React the TFE with oxygen to make molten PTFE.
 
 # Quest: How Much is Too Much Fluid?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHFw.name=§5§lHow Much is Too Much Fluid?
@@ -2326,6 +2330,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHVA.desc=To get UU-Amplifier out of your
 # Quest: UUMatter
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHVQ.name=§5§lUUMatter
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHVQ.desc=Now you can actually make the UUM with a Mass Fabricator. Well, technically you could make it without UUA, but that's way more expensive. To make sure it only runs with UUA, put a programmed circuit (any value) in the machine's slot. UUMatter can be used for some very specific things, such as replicating §osome§r materials (check NEI, mostly/all periodic table), used with crops to create an ore, some specific high-level recipes need it, and...you can also sit in it to get regen.%n%nThe energy usage and overclocking of the Mass Fabricator is different from the usual GT way. To have fixed EU to UUM ratios for all tiers, the machine does perfect 2/2 overclocks. It also starts with a very high amperage in LV. The following chart should make it more clear:%n%nTier  Amps       EU/t         Time%nLV     8A         256          160%nMV     4A         512           80%nHV     2A        1024           40%nEV     1A        2048           20%nIV     0.5A      4096           10%netc.%n%nPut in power (and hopefully UUA), and out comes UUM.%n%nFor now, just stockpile the UU matter. You need data orbs to use the replicator, and that's explained next tier.%n%n[note]You only need to complete one of the tasks.[/note]
+
+# Quest: MV Field Generator
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHWA.name=§5§lMV Field Generator
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHWA.desc=Field Generators are powerful but expensive devices.
 
 # Quest: HV Advanced Steam Boiler
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHbQ.name=§5§lHV Advanced Steam Boiler
@@ -2648,10 +2656,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHVg.desc=Data Orbs are high tier data st
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHVw.name=§8§lCreate New Materials Out of Pure Energy
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHVw.desc=Using the scanner, you can scan certain items (check the replicator's NEI recipes) to store the information of the item to a data orb so you can make copies of them with the replicator. This process uses a varying amount of UUM and time, depending on the item. Scanning also takes forever.%n%nSome items you might want to replicate include:%nIndium%nPlatline metals like Iridium and Osmium%nNeon, Krypton, Xenon from liquid air distilling%nOganesson%n%nFor some things (Oganesson), this might be considered the only reasonable way of getting a decent amount.
 
-# Quest: MV Field Generator
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHWA.name=§8§lMV Field Generator
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHWA.desc=Field Generators are powerful but expensive devices.
-
 # Quest: Critical Materials
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHYw.name=§8§lCritical Materials
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHYw.desc=For more tungsten and tungstensteel, you'll want scheelite and tungstate. But the most important is desh, found only as small ore elsewhere, and used for the next rocket. Check Y 5-40.%n%n[note]Since there's a good chance you have the MBM by now, you can do the crushed ore task instead of the ore one. This holds for other, similar quests.[/note]
@@ -2736,6 +2740,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALpA.desc=The EV Autoclave is needed to p
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMAg.name=§8§lPower of the Sun from Nuclear
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMAg.desc=Your good old singleblock Molecular Transformer is gone. So how to obtain Sunnarium? Well there are a couple of ways, but at EV you'll need to radiate Glowstone and convert to Sunnarium.%n%nThe Glowstone rod will slowly charge up if you put it next to any fuel rod in your IC2 reactor. The exact charging speed is (number of rods adjacent) * (floor(hull temperature/3000) + 1) per second. A dual rod will count as 2 rods and quad fuel rod will count as 4 rods for this purpose. The Glowstone rod will neither emit heat, nor cause other component to emit more heat. You can treat this rod as a reactor plating in the IC2 Reactor Planner.%n%nAs you can see, the speed is directly proportional to hull temperature and rods adjacent. At the very extreme you can fully charge up a Glowstone rod in less than half a minute and output one Sunnarium every 10 second (on average, since cells aren't charged at same speed due to different position), but that require very considerable resource to set up. It also involves a vacuum freezer to cooldown the coolant cells and running the reactor at 66000+ hull temperature. Balance your need and your resource situation wisely. In any case, if you just wish to charge it up FAST then here is a possible string for the IC2 Reactor Planner:%n%nerp=bpO50cpsdtJElVqn4hObFJc0tiOE0JpEHYpqTxJHvyezjSKRjUuwgouXzNOlU4a3hFBRygM=%n%nReplace Containment Reactor Plating with actual Glowstone rods and you should be good to go. You can also use fewer reactor chambers by using less plating. Enjoy!
 
+# Quest: Niobium-Titanium
+betterquesting.quest.EYcEN-yhRDyXfOGtQjWyLg.name=§8§lNiobium-Titanium
+betterquesting.quest.EYcEN-yhRDyXfOGtQjWyLg.desc=Niobium-Titanium isn't used for much, but it does make a decent LuV-capable cable. It can also be used to make an HV Field Generator... let's make enough for one right now!
+
 # Quest: Four fluids in the one Hatch!
 betterquesting.quest.JkWQZxq_TECWjHhjywrZZA.name=§8§lFour fluids in the one Hatch!
 betterquesting.quest.JkWQZxq_TECWjHhjywrZZA.desc=Now that you're in EV tier you now have access to the Quadruple input hatches. These hatches can hold four different fluids in the one hatch which saves valuable spots in your multiblocks.%n%nPerfect to be placed in your EBFs.
@@ -2743,6 +2751,10 @@ betterquesting.quest.JkWQZxq_TECWjHhjywrZZA.desc=Now that you're in EV tier you 
 # Quest: EV Field Generator
 betterquesting.quest.Jna1jgAySNSs8nS0YMXpLw.name=§8§lEV Field Generator
 betterquesting.quest.Jna1jgAySNSs8nS0YMXpLw.desc=With Field Generators you can make your first Quantum Chests or Quantum Tanks. But the first two should be for your T2 rocket.%n%n[note]Note that the Assembler recipe is more resource efficient.[/note]
+
+# Quest: HV Field Generator
+betterquesting.quest.R1fjb3jrS1-qPPNcQrRJBg.name=§8§lHV Field Generator
+betterquesting.quest.R1fjb3jrS1-qPPNcQrRJBg.desc=The HV Field Generator isn't used frequently, but it does have something to offer for those who prefer upgraded Super Chests or Super Tanks. It can also be used to make the Grandmaster Magic Energy Absorber if you're deep enough into Thaumcraft.%n%n[note]Don't forget to look closely at NEI when choosing your recipe.[/note]
 
 # Quest: EXTREME MIXING
 betterquesting.quest.kQL8JceoSMSLDU_2AFjoqw.name=§8§lEXTREME MIXING
@@ -3858,7 +3870,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAErg.desc=A MK II is nice, but why not ma
 
 # Quest: I Put Fusion in Your Fusion so you Can Fusion While You Fusion
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEsg.name=§2§l§nI Put Fusion in Your Fusion so you Can Fusion While You Fusion
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEsg.desc=To make Oganesson, you'll need to make Californium. To make that, you'll need Beryllium and Plutonium 239, all in the Fusion Reactor. After the two fusion chains, you'll have the best noble gas in the pack, which is used in several places.%n%nIn this tier, you can send it to Void Miners, to increase their ore production speed, or EBFs, to make them run faster, although the EBF option is too weak right now (changes coming soon). Later on, Oganesson will be used in other places, like the optical circuit line, or to produce Metastable Oganesson, which is needed in much larger quantities later on.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEsg.desc=To make Oganesson, you'll need to make Californium. To make that, you'll need Beryllium and Plutonium 239, all in the Fusion Reactor. After the two fusion chains, you'll have the best noble gas in the pack, which is used in several places.%n%nIn this tier, you can send it to Void Miners, to increase their ore production speed, or EBFs, to make them run faster. Later on, Oganesson will be used in other places, like the optical circuit line, or to produce Metastable Oganesson, which is needed in much larger quantities later on.
 
 # Quest: Time for Another Reactor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEsw.name=§2§l§nTime for Another Reactor
@@ -3866,7 +3878,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEsw.desc=While one reactor is nice and a
 
 # Quest: Americium Doped Wafers
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH-Q.name=§2§l§nAmericium Doped Wafers
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH-Q.desc=These boules are the last ones, and are the most efficient when making wafers out of them.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH-Q.desc=These boules are the most efficient when making wafers out of them.
 
 # Quest: Quantum Computer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH1w.name=§2§l§nQuantum Computer
@@ -4067,7 +4079,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKOg.desc=Remember to take a break once a
 
 # Quest: UHV Superconductors (2,097,152 EU/t)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKPQ.name=§4§l§nUHV Superconductors (2,097,152 EU/t)
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKPQ.desc=Above this, there are also UEV, UIV, UMV, UXV, and MAX wires. UEV even has superconductors. You can use UHV superconductors, or use a super cheap material and accept some losses to move your power around. Aside from other options like sending it through an AE tunnel or making power on site again.%n%nWhat, the UHV superconductor? Didn't you already make that?%n%nIf you forgot, you get a heat adjustment when using the EBF based on the energy tier. So you can smelt the Base UHV Ingot with Fluxed Coils and UV energy, since you then get 10501K. And no, you can't use a Volcanus.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKPQ.desc=Above this, there are also UEV, UIV, and UMV superconductors. You can use UHV superconductors, or use a super cheap material and accept some losses to move your power around. Aside from other options like sending it through an AE tunnel or making power on site again.%n%nWhat, the UHV superconductor? Didn't you already make that?%n%nIf you forgot, you get a heat adjustment when using the EBF based on the energy tier. So you can smelt the Base UHV Ingot with Fluxed Coils and UV energy, since you then get 10501K. And no, you can't use a Volcanus.
 
 # Quest: UHV Field Generator
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKQA.name=§4§l§nUHV Field Generator
@@ -4250,6 +4262,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpw.desc=Engineering beyond your compreh
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsA.name=§5§l§nDragonblood
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsA.desc=For your first batch of Hypogen you will need some Dragonblood. Maybe you already have some lying around somewhere from killing the dragon a long time ago. You have 2 other options though. Bees and the DE Fusion Crafter.%n%nFor the bee path you have to go very deep into the breeding tree, but maybe you have already done that? Check the Bee Breeding tab either way.%n%nIn the DE Fusion Crafter you have 2 recipes. The better one uses an Infinity Egg from Witchery. Without any Witchery you can also just a normal dragon egg for the weaker recipe.%n%nOnce you have a bit of Hypogen you can then use that as a starting point to make more in your DTPF without any Dragonblood. I don't know why it works that way, complain to Colen.%n%nHowever, you will still need more Dragonblood eventually for UMV superconductors.%n%n[note]There is actually another way to get Dragonblood which is similar to the DE Fusion Crafter recipes but in the mixer instead. It's even slower and less resource efficient. In particular, the dragon egg does not survive the process. So only use that if you are absolutely trying to avoid magic and bees.[/note]%n%n[note]Just a reminder: a fluid task just needs you to have the fluid in some container in your inventory. (cell, universal cell, large cell, volumetric cell, etc.)[/note]
 
+# Quest: Metastable Oganesson
+betterquesting.quest.AOBApHluTUurGwTeOzxj4g.name=§5§l§nMetastable Oganesson
+betterquesting.quest.AOBApHluTUurGwTeOzxj4g.desc=Metastable Oganesson is a very important endgame material that you will need for a variety of machines, like the MK5 Fusion Reactor and the NAC.%n%n[note]You can't use it yet, but keep in mind that there is a much cheaper recipe unlocked in late UIV![/note]
+
 # Quest: Infinity Boots
 betterquesting.quest.AzTPKiXuRWaBTOFhTeV83Q.name=§5§l§nInfinity Boots
 betterquesting.quest.AzTPKiXuRWaBTOFhTeV83Q.desc=An armor set worthy of a God. These boots provide a permanent jump boost and increased running speed.%n%nWhile wearing the complete set, you are completely unkillable.
@@ -4348,7 +4364,7 @@ betterquesting.quest.oyyde6hbRUOyVcAf7IP5HA.desc=You may have noticed that Optic
 
 # Quest: Wireless Data for Your Assembly Lines!
 betterquesting.quest.pLB6Sb0FSZ65cjWJ_Q4IIg.name=§5§l§nWireless Data for Your Assembly Lines!
-betterquesting.quest.pLB6Sb0FSZ65cjWJ_Q4IIg.desc=Wireless Data Bank Transmission Connector and Wireless Assembly line Reception Connector lets you avoid building and connecting dozens of Data Banks and Optical Fiber Cable for the upcoming Assembly Lines you might have to build.%n%nTo use it, you have to screwdriver the Data Bank that is storing the data sticks, place a Wireless Data Bank Transmission Connector into the Data Bank, then Wireless Assembly line Reception Connector for the Assembly Lines.%n%n[note]Wireless Data Hatches are N:M instead of 1:1[/note]
+betterquesting.quest.pLB6Sb0FSZ65cjWJ_Q4IIg.desc=Wireless Data Bank Transmission Connector and Wireless Assembly line Reception Connector lets you avoid building and connecting dozens of Data Banks and Optical Fiber Cable for the upcoming Assembly Lines you might have to build.%n%nTo use it, you have to screwdriver the Data Bank that is storing the data sticks, place a Wireless Data Bank Transmission Connector into the Data Bank, then Wireless Assembly line Reception Connector for the Assembly Lines.%n%n[note]These Wireless Data Hatches are N:M (Many:Many)[/note]
 
 # Quest: NAC™: Assembling Package
 betterquesting.quest.qirJLnNZT6Wmb7oQJ1IOLg.name=§5§l§nNAC§r§5§n™§r§5§n§l: Assembling Package
@@ -4410,10 +4426,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpQ.desc=Hope you have loads of transcen
 # Quest: UMV Circuits
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqg.name=§9§l§nUMV Circuits
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqg.desc=Pico circuits, a direct upgrade from Optical Mainframes, these UMV circuits will be required for a lot of future crafts.%n%n[note]You will need a NAC to get started.[/note]%n%n[warn]Rumor has it these circuits may not be around for much longer...[/warn]
-
-# Quest: Metastable Oganesson
-betterquesting.quest.AOBApHluTUurGwTeOzxj4g.name=§9§l§nMetastable Oganesson
-betterquesting.quest.AOBApHluTUurGwTeOzxj4g.desc=You thought you'd be done with Fusion?
 
 # Quest: The Real Planet Eater
 betterquesting.quest.GHobGJFEQzK1q96l6oC8wQ.name=§9§l§nThe Real Planet Eater
@@ -4586,7 +4598,7 @@ betterquesting.quest.kazCPEWoSmiZhR4bkHlEBQ.desc=So you have made yourself an Et
 
 # Quest: Storing Computation in the Cloud
 betterquesting.quest.lBuQcNYjQ8-YsMFqW6U1tQ.name=§c§l§nStoring Computation in the Cloud
-betterquesting.quest.lBuQcNYjQ8-YsMFqW6U1tQ.desc=Wireless Computation is similar to Wireless Data, Cloud Computation Server Hatches send computation to Cloud Computation Client Hatches, which other multiblocks can use.%n%nPlace down a Server Hatch on a Quantum Computer, screwdriver the controller to enable Wireless Mode, then after placing down a Client Hatch, you have to set how much computation it should request from the Server Hatch.%n%n[note]Wireless Data Hatches are N:M instead of 1:1[/note]
+betterquesting.quest.lBuQcNYjQ8-YsMFqW6U1tQ.desc=Wireless Computation is similar to Wireless Data, Cloud Computation Server Hatches send computation to Cloud Computation Client Hatches, which other multiblocks can use.%n%nPlace down a Server Hatch on a Quantum Computer, screwdriver the controller to enable Wireless Mode, then after placing down a Client Hatch, you have to set how much computation it should request from the Server Hatch.%n%n[note]These Cloud Computation Hatches are N:M (Many:Many)[/note]
 
 # Quest: Shirabon
 betterquesting.quest.o8_pX-OSRJKBGzDsGujvNw.name=§c§l§nShirabon
@@ -6541,7 +6553,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKAQ.desc=The Bacterial Vat is a unique m
 
 # Quest: Sievert for the Vat
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKAw.name=§6§lSievert for the Vat
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKAw.desc=Some Vat recipes require a certain Sievert (radioactivity) value. So attach this Radio Hatch to your Vat to input radioactive material!%n%nThe Radio Hatch holds rods/long rods of radioactive material and uses them to produce Sievert. The input item determines the Sievert value and how long it lasts. Items stored in the hatch will be used continuously even if machine not active, so make sure you want to craft something before putting items in.%n%nYou can check the stats of an inputted item with a portable scanner. Higher tiers of hatch hold more, from 1kg (HV) to 6kg (UV). Rods are worth 1kg, while long rods are 2kg.%n%nSome recipes require [warn]exact[/warn] sievert, you can use the screwdriver to access the radiation shutter control to adjust how much sv is blocked from being sent to the vat. For example, you need 100sv to make Seaweed Broth, so you'd use Naquadah rods, and block off 30sv.%n%nRod Stats:%nMaterial-Sievert-Apprx. time until used up%nBismuth                 83sv   198s%nUranium 235           92sv    80s%nUranium 238           92sv    80s%nPlutonium 239         94sv    66s%nPlutonium 241         94sv    66s%nNaquadah             130sv   14.5s%nEnriched Naquadah 140sv   10.5s%nNaquadria            150sv     8s%n%nThere are more radioactive materials than these, but these are the main ones.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKAw.desc=Some Vat recipes require a certain Sievert (radioactivity) value. So attach this Radio Hatch to your Vat to input radioactive material!%n%nThe Radio Hatch holds rods/long rods of radioactive material and uses them to produce Sievert. The input item determines the Sievert value and how long it lasts. Items stored in the hatch will be used continuously even if machine not active, so make sure you want to craft something before putting items in.%n%nYou can check the stats of an inputted item with a portable scanner.%n%nSome recipes require [warn]exact[/warn] sievert, you can use the screwdriver to access the radiation shutter control to adjust how much sv is blocked from being sent to the vat. For example, you need 100sv to make Seaweed Broth, so you'd use Naquadah rods, and block off 30sv.%n%nRod Stats:%nMaterial-Sievert-Apprx. time until used up%nBismuth                 83sv   198s%nUranium 235           92sv    80s%nUranium 238           92sv    80s%nPlutonium 239         94sv    66s%nPlutonium 241         94sv    66s%nNaquadah             130sv   14.5s%nEnriched Naquadah 140sv   10.5s%nNaquadria            150sv     8s%n%nThere are more radioactive materials than these, but these are the main ones.
 
 # Quest: Making the Vat More Efficient!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKBA.name=§6§lMaking the Vat More Efficient!
@@ -6613,7 +6625,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALew.desc=If you failed to meet the NKE a
 
 # Quest: Air-Filter
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALpQ.name=§6§lAir-Filter
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALpQ.desc=Electric Air Filter%n%nThis wonderful multiblock comes in 3 versions: T1 for LV, T2 for late HV and T3 for IV.%n%nIt has 2 modes:%n%n- a normal mode, where one chunk is processed at a time in the working area, in order, per pollution cleaning cycle.%n- a random mode, where the chunk being cleaned is picked randomly between all the polluted chunks in the working area.%n To cycle between the modes, right-click on the controller with a screwdriver.%n%nThe controller can change its working area from 1x1 to (2*tier+1) x (2*tier+1) chunks. To do that, right-click with a screwdriver on the controller while sneaking. The default size is the maximum working area.%n%nThe pollution removal calculation is equals (by default) to 30 * bonusMultiTier * Muffler Hatches * Turbine Eff * Multiblock Eff * 2.5 ^ Effective Tier where:%n%n- BonusMultiTier is a boost given by the multiblock tier. T1 is 1 (0%%), T2 is 1.05 (5%%) and T3 is 1.10 (10%%)%n%n- Muffler Hatches is the amount of muffler hatches on the multiblock (up to 8)%n%n- Turbine Eff is the efficiency of the turbine chosen to run the multi. It won't run if there is no turbine in the controller.%n%n- Multiblock Eff is the efficiency of the multiblock (100%% when no maintenance issue, -10%% per issue)%n%n- Effective Tier is the Effective Tier of the multi: the minimum tier between the electric tier of the multi and the tier of the muffler hatches.%n%nThe pollution cleaning is boosted by two (by default) when using an Absorption Filter. When added in the input bus, it will be consumed and used for 30 (by default) successful pollution cleaning cycle. If a chunk with no pollution in it is processed, that doesn't count as successful, and the multi decides that a chunk has no pollution if the pollution is below 10k gibbl (by default). After the 30th successful pollution cleaning cycle, the output bus will give a Dirty Absorption Filter.%n%nTo know if an Absorption Filter is present and how many remaining cycles there are, use a portable scanner on the controller.%n%nA pollution cycle lasts 10s, and the cleaning is done every second.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALpQ.desc=Electric Air Filter%n%nThis wonderful multiblock comes in 3 versions: T1 for LV, T2 for late HV and T3 for IV.%n%nIt has 2 modes:%n%n- a normal mode, where one chunk is processed at a time in the working area, in order, per pollution cleaning cycle.%n- a random mode, where the chunk being cleaned is picked randomly between all the polluted chunks in the working area.%n To cycle between the modes, right-click on the controller with a screwdriver.%n%nThe controller can change its working area from 1x1 to (2*tier+1) x (2*tier+1) chunks. To do that, right-click with a screwdriver on the controller while sneaking. The default size is the maximum working area.%n%nThe pollution removal calculation is equals (by default) to 30 * bonusMultiTier * Muffler Hatches * Turbine Eff * Multiblock Eff * 2.5 ^ Effective Tier where:%n%n- BonusMultiTier is a boost given by the multiblock tier. T1 is 1 (0%%), T2 is 1.05 (5%%) and T3 is 1.10 (10%%)%n%n- Muffler Hatches is the amount of muffler hatches on the multiblock (up to 8)%n%n- Turbine Eff is the efficiency of the turbine chosen to run the multi. It won't run if there is no turbine in the controller.%n%n- Multiblock Eff is the efficiency of the multiblock (100%% when no maintenance issue, -10%% per issue)%n%n- Effective Tier is the Effective Tier of the multi: the minimum tier between the electric tier of the multi and the tier of the muffler hatches.%n%nThe pollution cleaning is boosted by two (by default) when using an Absorption Filter. When added in the input bus, it will be consumed and used for 30 (by default) successful pollution cleaning cycle. If a chunk with no pollution in it is processed, that doesn't count as successful, and the multi decides that a chunk has no pollution if the pollution is below 10k gibbl (by default). After the 30th successful pollution cleaning cycle, the output bus will give a Dirty Absorption Filter.%n%nTo know if an Absorption Filter is present and how many remaining cycles there are, use a portable scanner on the controller.%n%nA pollution cycle lasts 10s, and the cleaning is done every second.%n%n[note]P.S. If you procrastinated making one of these and make a T2 or T3 instead, the quest will still complete![/note]
 
 # Quest: Absorption Filter
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALpg.name=§6§lAbsorption Filter
@@ -6810,7 +6822,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjw.desc=Spinning around, getting hot - 
 
 # Quest: I Think I'm Going to be Sick
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7A.name=§8§lI Think I'm Going to be Sick
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7A.desc=The §5§lIndustrial Centrifuge§r is the best solution for handling the thousands of ores being produced by the multiblock ore drill. You will eventually want to have an array of these running, though one or two is fine to start.%n%nThis multiblock gives you §3§l6§r parallels per voltage tier, operates at §2§l2.25x§r the speed, and grants a §c§l10%%§r EU discount. This makes it a far better alternative to both singleblock Centrifuges and the Steam Separator. 
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7A.desc=The §5§lIndustrial Centrifuge§r is the best solution for handling the thousands of ores being produced by the multiblock ore drill. You will eventually want to have an array of these running, though one or two is fine to start.%n%nThis multiblock gives you §6§l6§r parallels per voltage tier, operates at §2§l2.25x§r the speed, and grants a §3§l10%%§r EU discount. This makes it a far better alternative to both singleblock Centrifuges and the Steam Separator. 
 
 # Quest: Bask In The Currents
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7Q.name=§d§lBask In The Currents
@@ -6842,7 +6854,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9A.desc=The Volcanus Advanced EBF will 
 
 # Quest: Spools and Spools
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9Q.name=§9§lSpools and Spools
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9Q.desc=Need enough wire to go around the world? Here you go.%n%nThe §5§lIndustrial Wire Factory§r is the only Wiremill multiblock, delivering §3§l4§r parallels per voltage tier, a §c2§l5%%§r EU discount, and a scalable speed bonus of §2§l+50%%§r per Item Pipe Casing tier, ranging from §2§l1.5x§r speed while using Tin to an impressive §2§l5x§r speed while using Black Plutonium.%n%n[note]The glass tier is irrelevant, use whatever is best for you![/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9Q.desc=Need enough wire to go around the world? Here you go.%n%nThe §5§lIndustrial Wire Factory§r is the only Wiremill multiblock, delivering §6§l4§r parallels per voltage tier, a §3§l25%%§r EU discount, and a scalable speed bonus of §2§l+50%%§r per Item Pipe Casing tier, ranging from §2§l1.5x§r speed while using Tin to an impressive §2§l5x§r speed while using Black Plutonium.%n%n[note]Glass tier is irrelevant; use what works best for you![/note]
 
 # Quest: Bender, More Bending!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9g.name=§8§lBender, More Bending!
@@ -6850,7 +6862,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9g.desc=When you need plates by the tho
 
 # Quest: Bezos Would Be Proud
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9w.name=§9§lBezos Would Be Proud
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9w.desc=The Amazon Warehousing Depot is the ultimate for all your packing needs. Got tiny and small dusts coming out of your ears? This is the machine for you.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9w.desc=The §5§lAmazon Warehousing Depot§r is the ultimate multiblock for all your packing needs. Got tiny and small dusts coming out of your ears? This is the machine for you.%n%nThe AWD offers a very generous §6§l16§r parallels per voltage tier, as well as a §2§l2-8x§r speed bonus (depending on item pipe casing tier) and a §3§l25%%§r EU discount on all recipes.%n%n[note]Glass tier is irrelevant; use what works best for you![/note]
 
 # Quest: Mega is Betta
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH_A.name=§6§lMega is Betta
@@ -7455,7 +7467,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALkg.desc=2 300 000 EU/t lasting 3.5s per
 
 # Quest: Naquadah Based Fuel MkIII
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALkw.name=Naquadah Based Fuel MkIII
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALkw.desc=9 511 000 EU/t lasting 4s per liter. Prepare to make a lot of this, as all subsequent tiers of Naquadah Fuel start from Mk III.%n%nThe alternate recipe can ease the logistical demand, but sourcing the chromatic glass might prove problematic until later.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALkw.desc=9,511,000 EU/t lasting 4s per liter. Prepare to make a lot of this, as all subsequent tiers of Naquadah Fuel start from Mk III until you unlock the UXV MKIV recipe.%n%nThe alternate recipe can ease the logistical demand, but sourcing the chromatic glass might prove problematic until later.
 
 # Quest: Naquadah Based Fuel MkIV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALlA.name=Naquadah Based Fuel MkIV
@@ -8283,7 +8295,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMYQ.desc=The big brother to the Thorium 
 
 # Quest: Further IC2 Nuke Potential
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMYg.name=Further IC2 Nuke Potential
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMYg.desc=An observant nuclear scientist might have seen many more options for IC2 nukes than those mentioned in the quests up to this point. Thorium, Uranium, Thorium, Uranium... what about all of these other things, what do they do?%n%nUnfortunately, this is where the copying of builds ends. The nuke research that has been done is almost all about the fuel rods that existed from base IC2, namely the Thorium, Uranium and MOX ones. Almost all the others were added with GTNH, and they are more or less ignored by most players. However, not all of them are useless! To see why, keep reading.%n%nGoodGenerators has added two new pairs of Uranium and Plutonium rods: High Density, and Excited. Both of these use a lot more of the element per rod, to the extent where you'll need stacks and stacks of each to run a single nuke, which means that these are fuels for later in progression, when you have stockpiled a lot of U238. The main difference is that High Density rods output a lot more EU/t with the same heat output, whereas the Excited rods do output a lot more heat than usual. This means that the former are good for vacuum nukes, while the latter are good for fluid nukes. This is true because vac nukes want more EU/t from rods with less heat, to make the coolant cells last longer, while fluid nukes produce Hot Coolant directly from the amount of heat dissipated into the reactor. The Plutonium versions also have MOX-like behavior, while the Uranium ones don't.%n%nThis is not the end of high-powered nukes, though. There is a special, one-of-a-kind fuel rod called The Core, and there is a single vac nuke setup in the wiki using these things that outputs 7.906.206 EU/t, or about 3 amps of UHV. A truly ridiculous number, matching the truly ridiculous cost of making the fuel itself. This is a setup for a time in which you shouldn't be using IC2 nukes anymore, a true challenge for the mad nuclear scientist.%n%nWhat else is there? Unfortunately, not much. Every other fuel rod is largely useless. Tiberium rods can breed Zirconium and Xenon, if you need them, Lithium breeds Tritium and the Naquadah rods are unbelievably bad at generating power, which many other better reactors to use the Naquadah in. In terms of power, nothing else is worth using.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMYg.desc=An observant nuclear scientist might have seen many more options for IC2 nukes than those mentioned in the quests up to this point. Thorium, Uranium, Thorium, Uranium... what about all of these other things, what do they do?%n%nUnfortunately, this is where the copying of builds ends. The nuke research that has been done is almost all about the fuel rods that existed from base IC2, namely the Thorium, Uranium and MOX ones. Almost all the others were added with GTNH, and they are more or less ignored by most players. However, not all of them are useless! To see why, keep reading.%n%nGoodGenerators has added two new pairs of Uranium and Plutonium rods: High Density, and Excited. Both of these use a lot more of the element per rod, to the extent where you'll need stacks and stacks of each to run a single nuke, which means that these are fuels for later in progression, when you have stockpiled a lot of U238. The main difference is that High Density rods output a lot more EU/t with the same heat output, whereas the Excited rods do output a lot more heat than usual. This means that the former are good for vacuum nukes, while the latter are good for fluid nukes. This is true because vac nukes want more EU/t from rods with less heat, to make the coolant cells last longer, while fluid nukes produce Hot Coolant directly from the amount of heat dissipated into the reactor. The Plutonium versions also have MOX-like behavior, while the Uranium ones don't.%n%nThis is not the end of high-powered nukes, though. There is a special, one-of-a-kind fuel rod called The Core, and there is a single vac nuke setup on the wiki using these that outputs 4,979,200 EU/t, or about 38 ZPM amps. A truly ridiculous number, matching the truly ridiculous cost of making the fuel itself.%n%n[url]https://wiki.gtnewhorizons.com/wiki/Vacuum_Reactor[/url]%n%nWhat else is there? Unfortunately, not much. Every other fuel rod is largely useless. Tiberium rods can breed Zirconium and Xenon, if you need them, Lithium breeds Tritium and the Naquadah rods are unbelievably bad at generating power, which many other better reactors to use the Naquadah in. In terms of power, nothing else is worth using.
 
 # Quest: High Density Vacuum Nukes
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMYw.name=High Density Vacuum Nukes
@@ -10130,10 +10142,6 @@ betterquesting.quest._bEWg1FHSmKu9MNhlbDlwA.desc=Allows for parallelization of a
 betterquesting.quest.auchuNiGTH6NWh_cz8XxcQ.name=Housing for Advanced Fluid Components
 betterquesting.quest.auchuNiGTH6NWh_cz8XxcQ.desc=You need to use this for the higher-tiered Fluid Cells.
 
-# Quest: Crafting Input Proxy
-betterquesting.quest.cEFNSTdoRvysoNgmtDLdvg.name=Crafting Input Proxy
-betterquesting.quest.cEFNSTdoRvysoNgmtDLdvg.desc=You have mastered both interdimensional transportation and wallsharing, why not combine them?%n%nYou can link both crafting input bus/buffer to proxies with data sticks and use it to process patterns with multiple machines, as if you are wallsharing them, but without actually wallsharing them.%n%n[note]Maybe this can reduce lag?[/note]
-
 # Quest: Level Maintainer
 betterquesting.quest.dmUrFrCfSESWj1ybHqTGNg.name=Level Maintainer
 betterquesting.quest.dmUrFrCfSESWj1ybHqTGNg.desc=The ME Level Maintainer is another cool addition of AE2FC. Choose an item or fluid and an amount to maintain, and the Level Maintainer will attempt to call patterns to keep crafting the item until it reaches the threshold you configured. You can also configure the crafting batch size.%n%n[note]For fluid crafts, put in a fluid drop and don't drag from NEI.[/note]
@@ -10149,6 +10157,10 @@ betterquesting.quest.kBjBqQR5Q-GWh4olyHmXXg.desc=The Superluminal Acceleration c
 # Quest: Fluid Void Cell
 betterquesting.quest.krGyRorETXqDuJdbU3K5tA.name=Fluid Void Cell
 betterquesting.quest.krGyRorETXqDuJdbU3K5tA.desc=[warn]Caution! Use with utmost care! This cell does exactly what it says. It deletes everything you put on there. So better make sure you have precise control over what can actually go there.[/warn]%n%n[note]Will only void fluids, not items[/note]
+
+# Quest: Block Container
+betterquesting.quest.lLjNj5KXT2WLn_r7E_Ctsw.name=Block Container
+betterquesting.quest.lLjNj5KXT2WLn_r7E_Ctsw.desc=Block Container Cells are a special variant of cell. They are unique because, despite using a 1k storage component, each one can hold up to 520k items rather than just 8.13k!%n%nOf course, all of that power comes with the limitation that they can only store one type of item, so they aren’t quite as flexible. They are great for bulk storage or for scenarios where you might want only one item per drive- Assembly Line automation for example.
 
 # Quest: ...with Fluid Support!
 betterquesting.quest.mk3rQ7LUQjC96FsFvDedKA.name=§6§l...with Fluid Support!
@@ -12918,7 +12930,7 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAAHA.desc=When regular magic just won
 
 # Quest: Incense Crucible
 betterquesting.quest.1PpNSMRMR_-6fCQnguQX-A.name=Incense Crucible
-betterquesting.quest.1PpNSMRMR_-6fCQnguQX-A.desc=The forefather of the 1.12.2 Incense Altar.%n%nThe bonuses it gives are mostly similar, but the way it works is completely different.%nEach incense is meant to be tiered one after another. Currently you can only use §eWood Ash§r and §4Byrrus (Red)§r.%n%nWhite smoke will come out when there is an incense in the crucible, and the crucible will light up when it finds a player to increase the incense value of.%nOnce the player has an incense value greater than 0, their sacrificial knife will get super-charged, allowing the player to completely sacrifice all of their hearts but one.%n%nPutting §eWood Ash§r in the crucible will increase the incense value from §90§r to §9400§r.%n§4Byrrus§r increases it from §9400§r to §9800§r. It cannot get you from §90§r to §9800§r alone.%n%nThe LP you get from self-sacrifice will get a boost depending on your §9Incense Value§r.%n%n§dLP§r = §d200LP§r * §cHeartSacrificed§r * §bIncenseModifier§r%n%n§bIncenseModifier§r = §9IncenseValue§r * 0.001
+betterquesting.quest.1PpNSMRMR_-6fCQnguQX-A.desc=The forefather of the 1.12.2 Incense Altar.%n%nThe bonuses it gives are mostly similar, but the way it works is completely different.%nEach incense is meant to be tiered one after another. Currently you can only use §eWood Ash§r and §4Byrrus (Red)§r.%n%nWhite smoke will come out when there is an incense in the crucible, and the crucible will light up when it finds a player to increase the incense value of.%nOnce the player has an incense value greater than 0, their sacrificial knife will get super-charged, allowing the player to completely sacrifice all of their hearts but one.%n%nPutting §eWood Ash§r in the crucible will increase the incense value from §90§r to §9400§r.%n§4Byrrus§r increases it from §9400§r to §9800§r. It cannot get you from §90§r to §9800§r alone.%n%nThe LP you get from self-sacrifice will get a boost depending on your §9Incense Value§r.%n%n§dLP§r = §d200LP§r * §cHeartSacrificed§r * §bIncenseModifier§r%n%n§bIncenseModifier§r = 1 + §9IncenseValue§r * 0.001
 
 # Quest: Tier 2 Sigils
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA5A.name=Tier 2 Sigils
@@ -14154,7 +14166,7 @@ betterquesting.quest.WqDynhbQQ4GdNMKm0BlbcQ.desc=For even more pure water, you w
 
 # Quest: Neutronium Compressor
 betterquesting.quest.XKKP2E5ORG-ju42dSDd3sw.name=§2§l§nNeutronium Compressor
-betterquesting.quest.XKKP2E5ORG-ju42dSDd3sw.desc=In order to compress singularities and eventually infinity catalysts, you'll need the strongest compressor yet: the Neutronium Compressor. This multiblock channels and controls extreme amounts of pressure through carefully calibrated Active Neutronium Casings, but the sheer magnitude of pressure is too much to produce blocks or superdense plates, as any regular material inserted into the device will be compressed down to a singularity. More advanced singularities should be possible in theory, but you'll need something even stronger...%n%n[note]Note that singularity recipes require extreme amounts of items! Consider using Super Buses or ME Stocking Input Buses to fit everything in there.[/note]
+betterquesting.quest.XKKP2E5ORG-ju42dSDd3sw.desc=In order to compress singularities and eventually infinity catalysts, you'll need the strongest compressor yet: the Neutronium Compressor. This multiblock channels and controls extreme amounts of pressure through carefully calibrated Active Neutronium Casings, but the sheer magnitude of pressure is too much to produce blocks or superdense plates, as any regular material inserted into the device will be compressed down to a singularity. More advanced singularities should be possible in theory, but you'll need something even stronger...%n%n[note]Note that singularity recipes require extreme amounts of items! Consider using Compressed Buses, Quantum Buses, or ME Stocking Input Buses to fit everything in there.[/note]
 
 # Quest: Matter Manipulator MKI
 betterquesting.quest.Y4bRCOWFTgyxdTJXWXjFfA.name=§9§lMatter Manipulator MKI
@@ -14179,6 +14191,10 @@ betterquesting.quest.a59175-ZS16kxwUW_BCuEQ.desc=Congratuations on your first EB
 # Quest: Absolute Purity
 betterquesting.quest.bNVzOxCORxuo_lhAh13r0A.name=§5§l§nAbsolute Purity
 betterquesting.quest.bNVzOxCORxuo_lhAh13r0A.desc=Absolute Baryonic Perfection! This multiblock allows you to create water that is pure even on the subatomic level. Not a single quark is out of place in Grade 8 Purified Water. Thanks to this purity, even more advanced processes are possible, starting with reducing the processing time of Optical Boules and increasing yield on Optical Chips.%n%nWhile the tooltip is certainly a lot less intimidating than the one of the Degasser, automating this process will not be an easy challenge. Have fun solving the puzzle!
+
+# Quest: Crafting Input Proxy
+betterquesting.quest.cEFNSTdoRvysoNgmtDLdvg.name=§9§l§nCrafting Input Proxy
+betterquesting.quest.cEFNSTdoRvysoNgmtDLdvg.desc=You have mastered both interdimensional transportation and wallsharing, why not combine them?%n%nYou can link both crafting input bus/buffer to proxies with data sticks and use it to process patterns with multiple machines, as if you are wallsharing them, but without actually wallsharing them.%n%n[note]Maybe this can reduce lag?[/note]
 
 # Quest: pH Neutralization
 betterquesting.quest.eon8hLumTS-E7MYJ4TFT3w.name=§b§lpH Neutralization
@@ -14430,6 +14446,10 @@ betterquesting.quest.ThhwoFJASzGjsSjyGqCROQ.desc=No Description
 # Quest: Trigger: Rocket Tier 1 Skip
 betterquesting.quest.VoVbERmlQRGNglekP68u-Q.name=Trigger: Rocket Tier 1 Skip
 betterquesting.quest.VoVbERmlQRGNglekP68u-Q.desc=No Description
+
+# Quest: Trigger: Air-Filter
+betterquesting.quest.aB29SdZcQ3KcyLSPGsZPiw.name=§6§lTrigger: Air-Filter
+betterquesting.quest.aB29SdZcQ3KcyLSPGsZPiw.desc=No Description
 
 # Quest: Trigger: Rocket Tier 5 Skip
 betterquesting.quest.aPHM7QnaQEmVjOJwYbMp8Q.name=Trigger: Rocket Tier 5 Skip

@@ -43,43 +43,43 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 8,
+          "Count:3": 16,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "SGCraft:stargateRing"
         },
         "1:10": {
-          "Count:3": 7,
+          "Count:3": 14,
           "Damage:2": 1,
           "OreDict:8": "",
           "id:8": "SGCraft:stargateRing"
         },
         "2:10": {
-          "Count:3": 1,
+          "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "SGCraft:stargateBase"
         },
         "3:10": {
-          "Count:3": 1,
+          "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "SGCraft:rfPowerUnit"
         },
         "4:10": {
-          "Count:3": 1,
+          "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "SGCraft:sgIrisUpgrade"
         },
         "5:10": {
-          "Count:3": 1,
+          "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "SGCraft:sgChevronUpgrade"
         },
         "6:10": {
-          "Count:3": 1,
+          "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "SGCraft:stargateController"
@@ -90,7 +90,7 @@
   "tasks:9": {
     "0:10": {
       "autoConsume:1": 0,
-      "consume:1": 0,
+      "consume:1": 1,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,

@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "You thought you\u0027d be done with Fusion?",
+      "desc:8": "Metastable Oganesson is a very important endgame material that you will need for a variety of machines, like the MK5 Fusion Reactor and the NAC.\n\n[note]You can\u0027t use it yet, but keep in mind that there is a much cheaper recipe unlocked in late UIV![/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -19,7 +19,7 @@
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§9§l§nMetastable Oganesson",
+      "name:8": "§5§l§nMetastable Oganesson",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -49,11 +49,7 @@
           "id:8": "bartworks:gt.bwMetaGeneratedcellMolten"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
-    },
-    "1:10": {
-      "index:3": 1,
-      "taskID:8": "bq_standard:checkbox"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }
