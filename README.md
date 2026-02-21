@@ -23,7 +23,7 @@ Here is our Discord server in case you want to take a look at it:
  
 <p align="justify">
     To install the GTNH modpack, please follow the instructions on the page <a href="http://gtnh.miraheze.org/wiki/Installing_and_Migrating">Installing and Migrating</a>.<BR>
-    The installation files can be found at <a href="http://downloads.gtnewhorizons.com">downloads.gtnewhorizons.com</a>.<BR>
+    The installation files can be found at <a href="https://www.gtnewhorizons.com/downloads/">www.gtnewhorizons.com/downloads</a>.<BR>
     Do not download the mods separately from the Modlist below - it is provided for reference purposes.
 </p>
 
