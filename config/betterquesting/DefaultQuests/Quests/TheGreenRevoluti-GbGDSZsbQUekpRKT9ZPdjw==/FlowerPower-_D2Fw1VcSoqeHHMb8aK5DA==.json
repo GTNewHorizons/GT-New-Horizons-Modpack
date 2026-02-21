@@ -79,7 +79,7 @@
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
+      "ignoreNBT:1": 0,
       "index:3": 0,
       "partialMatch:1": 1,
       "requiredItems:9": {
@@ -87,12 +87,9 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "CropsNH:genericSeed",
+          "id:8": "cropsnh:genericSeed",
           "tag:10": {
-            "crop:8": "CropsNH:dayflower",
-            "ga:1": 1,
-            "gr:1": 1,
-            "re:1": 1,
+            "crop:8": "cropsnh:dayflower",
             "scan:1": 1
           }
         },
@@ -100,12 +97,9 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "CropsNH:genericSeed",
+          "id:8": "cropsnh:genericSeed",
           "tag:10": {
-            "crop:8": "CropsNH:allium",
-            "ga:1": 1,
-            "gr:1": 1,
-            "re:1": 1,
+            "crop:8": "cropsnh:allium",
             "scan:1": 1
           }
         },
@@ -113,12 +107,9 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "CropsNH:genericSeed",
+          "id:8": "cropsnh:genericSeed",
           "tag:10": {
-            "crop:8": "CropsNH:azureBluet",
-            "ga:1": 1,
-            "gr:1": 1,
-            "re:1": 1,
+            "crop:8": "cropsnh:azureBluet",
             "scan:1": 1
           }
         },
@@ -126,12 +117,9 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "CropsNH:genericSeed",
+          "id:8": "cropsnh:genericSeed",
           "tag:10": {
-            "crop:8": "CropsNH:whiteTulip",
-            "ga:1": 1,
-            "gr:1": 1,
-            "re:1": 1,
+            "crop:8": "cropsnh:whiteTulip",
             "scan:1": 1
           }
         },
@@ -139,12 +127,9 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "CropsNH:genericSeed",
+          "id:8": "cropsnh:genericSeed",
           "tag:10": {
-            "crop:8": "CropsNH:pinkTulip",
-            "ga:1": 1,
-            "gr:1": 1,
-            "re:1": 1,
+            "crop:8": "cropsnh:pinkTulip",
             "scan:1": 1
           }
         },
@@ -152,12 +137,9 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "CropsNH:genericSeed",
+          "id:8": "cropsnh:genericSeed",
           "tag:10": {
-            "crop:8": "CropsNH:oxeyeDaisy",
-            "ga:1": 1,
-            "gr:1": 1,
-            "re:1": 1,
+            "crop:8": "cropsnh:oxeyeDaisy",
             "scan:1": 1
           }
         },
@@ -165,12 +147,9 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "CropsNH:genericSeed",
+          "id:8": "cropsnh:genericSeed",
           "tag:10": {
-            "crop:8": "CropsNH:blueOrchid",
-            "ga:1": 1,
-            "gr:1": 1,
-            "re:1": 1,
+            "crop:8": "cropsnh:blueOrchid",
             "scan:1": 1
           }
         },
@@ -178,12 +157,9 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "CropsNH:genericSeed",
+          "id:8": "cropsnh:genericSeed",
           "tag:10": {
-            "crop:8": "CropsNH:poppy",
-            "ga:1": 1,
-            "gr:1": 1,
-            "re:1": 1,
+            "crop:8": "cropsnh:poppy",
             "scan:1": 1
           }
         },
@@ -191,12 +167,9 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "CropsNH:genericSeed",
+          "id:8": "cropsnh:genericSeed",
           "tag:10": {
-            "crop:8": "CropsNH:dandelion",
-            "ga:1": 1,
-            "gr:1": 1,
-            "re:1": 1,
+            "crop:8": "cropsnh:dandelion",
             "scan:1": 1
           }
         },
@@ -204,12 +177,9 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "CropsNH:genericSeed",
+          "id:8": "cropsnh:genericSeed",
           "tag:10": {
-            "crop:8": "CropsNH:purpleTulip",
-            "ga:1": 1,
-            "gr:1": 1,
-            "re:1": 1,
+            "crop:8": "cropsnh:purpleTulip",
             "scan:1": 1
           }
         },
@@ -217,12 +187,9 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "CropsNH:genericSeed",
+          "id:8": "cropsnh:genericSeed",
           "tag:10": {
-            "crop:8": "CropsNH:orangeTulip",
-            "ga:1": 1,
-            "gr:1": 1,
-            "re:1": 1,
+            "crop:8": "cropsnh:orangeTulip",
             "scan:1": 1
           }
         },
@@ -230,12 +197,9 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "CropsNH:genericSeed",
+          "id:8": "cropsnh:genericSeed",
           "tag:10": {
-            "crop:8": "CropsNH:redTulip",
-            "ga:1": 1,
-            "gr:1": 1,
-            "re:1": 1,
+            "crop:8": "cropsnh:redTulip",
             "scan:1": 1
           }
         }

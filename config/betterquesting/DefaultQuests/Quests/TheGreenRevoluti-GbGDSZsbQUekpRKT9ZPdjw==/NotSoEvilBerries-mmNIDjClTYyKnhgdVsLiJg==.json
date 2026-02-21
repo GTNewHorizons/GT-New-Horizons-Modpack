@@ -56,7 +56,7 @@
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
+      "ignoreNBT:1": 0,
       "index:3": 0,
       "partialMatch:1": 1,
       "requiredItems:9": {
@@ -64,12 +64,9 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "CropsNH:genericSeed",
+          "id:8": "cropsnh:genericSeed",
           "tag:10": {
-            "crop:8": "CropsNH:strawberry",
-            "ga:1": 1,
-            "gr:1": 1,
-            "re:1": 1,
+            "crop:8": "cropsnh:strawberry",
             "scan:1": 1
           }
         },
@@ -77,12 +74,9 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "CropsNH:genericSeed",
+          "id:8": "cropsnh:genericSeed",
           "tag:10": {
-            "crop:8": "CropsNH:raspberry",
-            "ga:1": 1,
-            "gr:1": 1,
-            "re:1": 1,
+            "crop:8": "cropsnh:raspberry",
             "scan:1": 1
           }
         },
@@ -90,12 +84,9 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "CropsNH:genericSeed",
+          "id:8": "cropsnh:genericSeed",
           "tag:10": {
-            "crop:8": "CropsNH:maloberry",
-            "ga:1": 1,
-            "gr:1": 1,
-            "re:1": 1,
+            "crop:8": "cropsnh:maloberry",
             "scan:1": 1
           }
         },
@@ -103,12 +94,9 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "CropsNH:genericSeed",
+          "id:8": "cropsnh:genericSeed",
           "tag:10": {
-            "crop:8": "CropsNH:blueberry",
-            "ga:1": 1,
-            "gr:1": 1,
-            "re:1": 1,
+            "crop:8": "cropsnh:blueberry",
             "scan:1": 1
           }
         },
@@ -116,12 +104,9 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "CropsNH:genericSeed",
+          "id:8": "cropsnh:genericSeed",
           "tag:10": {
-            "crop:8": "CropsNH:blackberry",
-            "ga:1": 1,
-            "gr:1": 1,
-            "re:1": 1,
+            "crop:8": "cropsnh:blackberry",
             "scan:1": 1
           }
         },
@@ -129,12 +114,9 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "CropsNH:genericSeed",
+          "id:8": "cropsnh:genericSeed",
           "tag:10": {
-            "crop:8": "CropsNH:huckleberry",
-            "ga:1": 1,
-            "gr:1": 1,
-            "re:1": 1,
+            "crop:8": "cropsnh:huckleberry",
             "scan:1": 1
           }
         }

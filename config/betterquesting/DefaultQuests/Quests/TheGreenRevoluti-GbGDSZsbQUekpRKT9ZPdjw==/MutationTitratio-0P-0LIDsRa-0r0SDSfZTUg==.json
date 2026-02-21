@@ -48,7 +48,7 @@
           "Count:3": 16,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "CropsNH:fertilizer"
+          "id:8": "cropsnh:fertilizer"
         }
       }
     }
@@ -58,7 +58,7 @@
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
+      "ignoreNBT:1": 0,
       "index:3": 0,
       "partialMatch:1": 1,
       "requiredItems:9": {
@@ -66,7 +66,7 @@
           "Count:3": 256,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "CropsNH:cropSticks"
+          "id:8": "cropsnh:cropSticks"
         }
       },
       "taskID:8": "bq_standard:retrieval"

@@ -14,12 +14,10 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "CropsNH:genericSeed",
+        "id:8": "cropsnh:genericSeed",
         "tag:10": {
-          "crop:8": "CropsNH:essenceOreBerry",
-          "ga:1": 1,
-          "gr:1": 1,
-          "re:1": 1,
+          "crop:8": "cropsnh:essenceOreBerry",
+
           "scan:1": 1
         }
       },
@@ -69,12 +67,9 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "CropsNH:genericSeed",
+          "id:8": "cropsnh:genericSeed",
           "tag:10": {
-            "crop:8": "CropsNH:essenceOreBerry",
-            "ga:1": 1,
-            "gr:1": 1,
-            "re:1": 1,
+            "crop:8": "cropsnh:essenceOreBerry",
             "scan:1": 1
           }
         }

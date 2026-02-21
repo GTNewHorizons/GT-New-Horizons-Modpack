@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Most plants from vanilla minecraft can simply be placed onto crop sticks to create the associated CropsNH crop. This is especially helpful when it comes to Bonsai plants, which will allow you to more easily (and less laggily) produce the hectares of wood you will need for your progression.",
+      "desc:8": "Most plants from vanilla minecraft can simply be placed onto crop sticks to create the associated cropsnh crop. This is especially helpful when it comes to Bonsai plants, which will allow you to more easily (and less laggily) produce the hectares of wood you will need for your progression.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -39,12 +39,9 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "CropsNH:genericSeed",
+          "id:8": "cropsnh:genericSeed",
           "tag:10": {
-            "crop:8": "CropsNH:bonsaiAcacia",
-            "ga:1": 1,
-            "gr:1": 1,
-            "re:1": 1,
+            "crop:8": "cropsnh:bonsaiAcacia",
             "scan:1": 1
           }
         },
@@ -52,12 +49,9 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "CropsNH:genericSeed",
+          "id:8": "cropsnh:genericSeed",
           "tag:10": {
-            "crop:8": "CropsNH:bonsaiSpruce",
-            "ga:1": 1,
-            "gr:1": 1,
-            "re:1": 1,
+            "crop:8": "cropsnh:bonsaiSpruce",
             "scan:1": 1
           }
         },
@@ -65,12 +59,9 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "CropsNH:genericSeed",
+          "id:8": "cropsnh:genericSeed",
           "tag:10": {
-            "crop:8": "CropsNH:bonsaiBirch",
-            "ga:1": 1,
-            "gr:1": 1,
-            "re:1": 1,
+            "crop:8": "cropsnh:bonsaiBirch",
             "scan:1": 1
           }
         },
@@ -78,12 +69,9 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "CropsNH:genericSeed",
+          "id:8": "cropsnh:genericSeed",
           "tag:10": {
-            "crop:8": "CropsNH:bonsaiDarkOak",
-            "ga:1": 1,
-            "gr:1": 1,
-            "re:1": 1,
+            "crop:8": "cropsnh:bonsaiDarkOak",
             "scan:1": 1
           }
         },
@@ -91,12 +79,9 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "CropsNH:genericSeed",
+          "id:8": "cropsnh:genericSeed",
           "tag:10": {
-            "crop:8": "CropsNH:bonsaiJungle",
-            "ga:1": 1,
-            "gr:1": 1,
-            "re:1": 1,
+            "crop:8": "cropsnh:bonsaiJungle",
             "scan:1": 1
           }
         }
@@ -111,7 +96,7 @@
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
+      "ignoreNBT:1": 0,
       "index:3": 0,
       "partialMatch:1": 1,
       "requiredItems:9": {
@@ -125,12 +110,9 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "CropsNH:genericSeed",
+          "id:8": "cropsnh:genericSeed",
           "tag:10": {
-            "crop:8": "CropsNH:bonsaiOak",
-            "ga:1": 1,
-            "gr:1": 1,
-            "re:1": 1,
+            "crop:8": "cropsnh:bonsaiOak",
             "scan:1": 1
           }
         }

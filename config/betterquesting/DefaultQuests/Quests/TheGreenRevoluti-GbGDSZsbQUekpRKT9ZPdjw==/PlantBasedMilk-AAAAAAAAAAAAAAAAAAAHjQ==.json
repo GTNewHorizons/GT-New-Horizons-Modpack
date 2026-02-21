@@ -14,7 +14,7 @@
         "Count:3": 1,
         "Damage:2": 8,
         "OreDict:8": "",
-        "id:8": "CropsNH:materialLeaf"
+        "id:8": "cropsnh:materialLeaf"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -62,12 +62,9 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "CropsNH:genericSeed",
+          "id:8": "cropsnh:genericSeed",
           "tag:10": {
-            "crop:8": "CropsNH:milkWart",
-            "ga:1": 1,
-            "gr:1": 1,
-            "re:1": 1,
+            "crop:8": "cropsnh:milkWart",
             "scan:1": 1
           }
         }

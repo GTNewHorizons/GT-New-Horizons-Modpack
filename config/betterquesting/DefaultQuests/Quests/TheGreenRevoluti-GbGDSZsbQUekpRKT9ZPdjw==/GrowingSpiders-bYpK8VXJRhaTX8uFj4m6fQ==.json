@@ -52,7 +52,7 @@
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
+      "ignoreNBT:1": 0,
       "index:3": 0,
       "partialMatch:1": 1,
       "requiredItems:9": {
@@ -60,26 +60,18 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "CropsNH:genericSeed",
+          "id:8": "cropsnh:genericSeed",
           "tag:10": {
-            "crop:8": "CropsNH:spidernip",
-            "ga:1": 1,
-            "gr:1": 1,
-            "re:1": 1,
-            "scan:1": 1
+            "crop:8": "cropsnh:spidernip",            "scan:1": 1
           }
         },
         "1:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "CropsNH:genericSeed",
+          "id:8": "cropsnh:genericSeed",
           "tag:10": {
-            "crop:8": "CropsNH:eyebulb",
-            "ga:1": 1,
-            "gr:1": 1,
-            "re:1": 1,
-            "scan:1": 1
+            "crop:8": "cropsnh:eyebulb",            "scan:1": 1
           }
         }
       },
