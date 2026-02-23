@@ -8,13 +8,13 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Find some glowflowers in the Nether and plant them in the Overworld. You will never need to go to the Nether and harvest glowstone again.",
+      "desc:8": "Find some Glow Flowers in the Nether and plant them in the Overworld. You will never need to go to the Nether and harvest Glowstone again.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "harvestthenether:glowFlower"
+        "id:8": "fether:glow_flower"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -81,7 +81,7 @@
           "Count:3": 10,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "harvestthenether:glowFlower"
+          "id:8": "fether:glow_flower"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -98,7 +98,7 @@
           "Count:3": 10,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "harvestthenether:glowflowerseedItem"
+          "id:8": "fether:glow_flower_seeds"
         }
       },
       "taskID:8": "bq_standard:retrieval"
