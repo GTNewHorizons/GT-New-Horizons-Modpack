@@ -46,7 +46,7 @@
                 <var>day</var>
                 <num>365</num>
             </modi>
-            <str>{white} Time: {gold}{mctime12} </str>
+            <str>{white} Time: {gold}{mctime24} </str>
             <if>
                 <var>daytime</var>
                 <str>{yellow}(day)</str>
