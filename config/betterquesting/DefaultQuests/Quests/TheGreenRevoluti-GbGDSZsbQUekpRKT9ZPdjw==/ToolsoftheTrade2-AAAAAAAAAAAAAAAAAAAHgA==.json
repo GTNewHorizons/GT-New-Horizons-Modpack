@@ -1,0 +1,81 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 4300463009256719073,
+      "questIDLow:4": -7881005862838025770
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "When breeding new crops, you will come upon hundreds of different species! While every species has a unique texture which a dedicated farmhand will be able to discern between, this tool will clear things up much quicker for you. \n\nAfter using it you can tell the following:\n- Species\n- Stats\n- Crop tier\n- Whether it can grow (many crops have special requirements)\n- Whether you can harvest it\n- Growth stage and progress to the next",
+      "globalShare:1": 1,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "cropsnh:plantLens"
+      },
+      "isGlobal:1": 0,
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Tools of the Trade 2 - Mendelian Identification",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 1920,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "cropsnh:genericSeed",
+          "tag:10": {
+            "crop:8": "cropsnh:necrobloom",
+            "scan:1": 1
+          }
+        },
+        "1:10": {
+          "Count:3": 10,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:CoinFarmer"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "cropsnh:plantLens"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

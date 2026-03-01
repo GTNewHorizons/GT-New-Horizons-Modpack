@@ -64,22 +64,26 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "IC2:itemCropSeed",
+          "id:8": "cropsnh:genericSeed",
           "tag:10": {
-            "name:8": "Spruce Bonsai",
-            "owner:8": "berriespp",
-            "scan:1": 4
+            "crop:8": "cropsnh:bonsaiSpruce",
+            "ga:1": 1,
+            "gr:1": 1,
+            "re:1": 1,
+            "scan:1": 1
           }
         },
         "1:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "IC2:itemCropSeed",
+          "id:8": "cropsnh:genericSeed",
           "tag:10": {
-            "name:8": "Oak Bonsai",
-            "owner:8": "berriespp",
-            "scan:1": 4
+            "crop:8": "cropsnh:bonsaiOak",
+            "ga:1": 1,
+            "gr:1": 1,
+            "re:1": 1,
+            "scan:1": 1
           }
         }
       },

@@ -1,0 +1,75 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -5726942514331959106,
+      "questIDLow:4": -8232047064591166893
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Before going any further you really should craft a lot,[note] and I mean a lot[/note], of crop sticks. Hope you like chopping trees and crafting saws! §o§oYou should\u0027ve seen the old recipe...\n\n§o§rEach of the adjacent quest groupings represent a different category of crops found within the mod. I would recommend you look first at the quests focusing on [warn]Improving Your Crops[/warn] and [warn]Controlled Breeding[/warn].\r\n\nWhile not every crop will produce a useful harvest, they very well may deterministically breed into a useful crop.\n\n\n[note]Be free farmhand~![/note]",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "isMain:1": 1,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Mutation Titration",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -3386790291524794961,
+  "questIDLow:4": -5427043695285873838,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:CoinFarmer"
+        },
+        "1:10": {
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "cropsnh:fertilizer"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 256,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "cropsnh:cropSticks"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
