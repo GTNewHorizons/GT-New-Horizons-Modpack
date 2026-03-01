@@ -8958,8 +8958,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKwA.desc=Go get the schematic for tier 6
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL3Q.name=Space Pumping
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL3Q.desc=At some point you may have wondered: There are these enormous gas planets in the solar system - could there be a way to "harvest" them? Indeed there is. By constructing the "Planetary Gas Siphon" multiblock, you are able to pump from the infinite supply of gas found on Jupiter, Saturn, Uranus, and Neptune. You just need to build a space station around a gas planet to get close enough to reach the gas without falling into it.%n%nDifferent gases can be extracted by pumping at different depths which is controlled by a Programmed Circuit. You need to supply (64 * depth) Mining Pipes to reach the selected depth.%n%nWhile operational, the multiblock needs d*4^(T+2) EU/t where T is the tier of the space station and d is the depth.%n%nYou can find an overview of what you can pump and where in the Tips and Tricks chapter.
 
-# Quest: How the Eff Do I Charge This Sh*t?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALIA.name=How the Eff Do I Charge This Sh*t?
+# Quest: How Do I Charge This Stuff?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALIA.name=How Do I Charge This Stuff?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALIA.desc=Given the number of people asking about this and the incompatibility it has with §oso§r many methods, here's a quest to tell you what §owill§r work.%n%n[note]You only need to make one.[/note]%n%nAlso keep in mind that the energy storage ones can have EU put in, if you just wanna charge, unlike the solars (also the solar wind ones don't work for some reason). The higher tier ones charge faster (advanced solars just point at the sun to get 100%% power during daylight instead of only at noonish, but hybrids are indeed faster. Also hybrids don't crash the game just by placing them anymore!)
 
 # Quest: steve@mothership:~$
