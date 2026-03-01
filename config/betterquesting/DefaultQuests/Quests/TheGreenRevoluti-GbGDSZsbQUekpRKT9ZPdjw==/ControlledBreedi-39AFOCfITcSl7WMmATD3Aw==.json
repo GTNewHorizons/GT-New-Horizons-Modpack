@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "To breed more advanced crops, you will have to start taking advantage of Breeding Pools. Pools represent groups of species which share a genetic background, and can therefore randomly mutate into eachother when breeding on crop sticks. \n\nWhen breeding, deterministic crosses will always take priority over pools.\n\nWhether by pools or determinism, new crops will only be produced if the enviroment of the relevant double crop sticks matches the required enviroment of the new crop.\n\nFor you, this will be a key concept to take advantage of when attempting to breed many of the different species of Liliums found in CropsNH.",
+      "desc:8": "To breed more advanced crops, you will have to start taking advantage of Breeding Pools. Pools represent groups of species which share a genetic background, and can therefore randomly mutate into each other when breeding on crop sticks. \n\nWhen breeding, deterministic crosses will always take priority over pools.\n\nWhether by pools or determinism, new crops will only be produced if the environment of the relevant double crop sticks matches the required environment of the new crop.\n\nFor you, this will be a key concept to take advantage of when attempting to breed many of the different species of Liliums found in CropsNH.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,

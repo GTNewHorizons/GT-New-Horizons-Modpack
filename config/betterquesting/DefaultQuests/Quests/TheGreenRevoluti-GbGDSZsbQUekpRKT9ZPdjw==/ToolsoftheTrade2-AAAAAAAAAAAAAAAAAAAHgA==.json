@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "When breeding new crops, you will come upon hundreds of different species! While every species has a unique texture which a dedicated farmhand will be able to discern between, this tool will clear things up much quicker for you. \n\nAfter using it you can tell the following:\nSpecies\nStats\nCrop tier\nWhether it can grow (many crops have special requirements)\nWhether you can harvest it\nGrowth stage, and progress to the next",
+      "desc:8": "When breeding new crops, you will come upon hundreds of different species! While every species has a unique texture which a dedicated farmhand will be able to discern between, this tool will clear things up much quicker for you. \n\nAfter using it you can tell the following:\n- Species\n- Stats\n- Crop tier\n- Whether it can grow (many crops have special requirements)\n- Whether you can harvest it\n- Growth stage and progress to the next",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

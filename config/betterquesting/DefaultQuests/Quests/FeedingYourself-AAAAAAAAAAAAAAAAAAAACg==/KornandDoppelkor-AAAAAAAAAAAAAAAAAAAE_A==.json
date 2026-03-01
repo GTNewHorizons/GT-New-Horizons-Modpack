@@ -16,13 +16,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 2,
+        "Damage:2": 1,
         "OreDict:8": "",
-        "id:8": "betterquesting:placeholder",
-        "tag:10": {
-          "orig_id:8": "berriespp:BppPotions",
-          "orig_meta:3": 2
-        }
+        "id:8": "cropsnh:bottledAlcohol"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -76,21 +72,13 @@
           "Count:3": 1,
           "Damage:2": 1,
           "OreDict:8": "",
-          "id:8": "betterquesting:placeholder",
-          "tag:10": {
-            "orig_id:8": "berriespp:BppPotions",
-            "orig_meta:3": 1
-          }
+          "id:8": "cropsnh:bottledAlcohol"
         },
         "1:10": {
           "Count:3": 1,
           "Damage:2": 2,
           "OreDict:8": "",
-          "id:8": "betterquesting:placeholder",
-          "tag:10": {
-            "orig_id:8": "berriespp:BppPotions",
-            "orig_meta:3": 2
-          }
+          "id:8": "cropsnh:bottledAlcohol"
         }
       },
       "taskID:8": "bq_standard:retrieval"

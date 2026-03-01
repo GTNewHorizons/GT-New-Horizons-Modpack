@@ -16,13 +16,9 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 4,
+        "Damage:2": 1,
         "OreDict:8": "",
-        "id:8": "betterquesting:placeholder",
-        "tag:10": {
-          "orig_id:8": "berriespp:BppPotions",
-          "orig_meta:3": 4
-        }
+        "id:8": "cropsnh:bottledAlcohol"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -90,10 +86,7 @@
       "requiredFluids:9": {
         "0:10": {
           "Amount:3": 1000,
-          "FluidName:8": "betterquesting.placeholder",
-          "Tag:10": {
-            "orig_id:8": "potion.freed"
-          }
+          "FluidName:8": "cropsnh:freed"
         }
       },
       "taskID:8": "bq_standard:fluid"
@@ -107,10 +100,7 @@
       "requiredFluids:9": {
         "0:10": {
           "Amount:3": 1000,
-          "FluidName:8": "betterquesting.placeholder",
-          "Tag:10": {
-            "orig_id:8": "potion.swhine"
-          }
+          "FluidName:8": "cropsnh:swhine"
         }
       },
       "taskID:8": "bq_standard:fluid"

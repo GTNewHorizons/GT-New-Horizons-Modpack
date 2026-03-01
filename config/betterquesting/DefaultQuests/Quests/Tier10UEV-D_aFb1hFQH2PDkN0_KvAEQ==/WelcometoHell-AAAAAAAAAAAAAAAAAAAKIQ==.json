@@ -16,13 +16,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 2,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "betterquesting:placeholder",
-        "tag:10": {
-          "orig_id:8": "berriespp:Modifier",
-          "orig_meta:3": 2
-        }
+        "id:8": "dreamcraft:NANCertificate"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
@@ -52,13 +48,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 2,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "betterquesting:placeholder",
-          "tag:10": {
-            "orig_id:8": "berriespp:Modifier",
-            "orig_meta:3": 2
-          }
+          "id:8": "dreamcraft:NANCertificate"
         }
       },
       "taskID:8": "bq_standard:retrieval"

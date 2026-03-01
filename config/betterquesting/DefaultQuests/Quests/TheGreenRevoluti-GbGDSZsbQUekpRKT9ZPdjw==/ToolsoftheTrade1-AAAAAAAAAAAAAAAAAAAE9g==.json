@@ -12,7 +12,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "This item is a combined Trowel, Hoe and Shovel. The basic spade will allow you to easily clear weeds from your sticks, till soil, and potentially obtain bonus seeds from simply harvesting the crops (r-click) without breaking them. Each point of resistance increases the chance of getting a seed when harvesting with the basic spade as follows:\r\n\r\n1 resist \u003d 3%\r\n10 resist \u003d 32%\r\n21 resist \u003d 100%",
+      "desc:8": "This item is a combined Trowel, Hoe, and Shovel. The basic spade will allow you to easily clear weeds from your sticks, till soil, and potentially obtain bonus seeds from simply harvesting the crops (right-click) without breaking them. Each point of resistance increases the chance of getting a seed when harvesting with the basic spade as follows:\r\n\r\n1 resist \u003d 3%\r\n10 resist \u003d 32%\r\n21 resist \u003d 100%",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

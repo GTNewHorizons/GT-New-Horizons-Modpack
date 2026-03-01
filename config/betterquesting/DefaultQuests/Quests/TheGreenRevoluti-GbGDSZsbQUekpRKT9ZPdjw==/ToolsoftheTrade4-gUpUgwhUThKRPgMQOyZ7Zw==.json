@@ -12,7 +12,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The reinforced spade will do everything the basic spade does, but better. It further increases your chances of bonus seeds based on the resistance stat. Every ten points of resistance increase the MINIMUM seed drop by one. That means:\n\n1 resist \u003d 10% seed drop\n10 resist \u003d 1 guaranteed seed drop\n15 resist \u003d 1 guaranteed seed drop + 50% chance for a second seed drop!\n31 resist \u003d 3 guaranteed seed drops + 10% chance for a fourth seed drop!!\n\nTime to scale up farmhand.",
+      "desc:8": "The reinforced spade will do everything the basic spade does, but better. It further increases your chances of bonus seeds based on the resistance stat. Every ten points of resistance increases the MINIMUM seed drop by one. That means:\n\n1 resist \u003d 10% seed drop\n10 resist \u003d 1 guaranteed seed drop\n15 resist \u003d 1 guaranteed seed drop + 50% chance for a second seed drop!\n31 resist \u003d 3 guaranteed seed drops + 10% chance for a fourth seed drop!!\n\nTime to scale up farmhand.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,

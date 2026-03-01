@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Propogating your plants is as easy as placing a double cropstick adjacent to a mature plant and waiting. \n\nAs long as there are no other plants adjacent to the double cropstick, your plant should simply grow into it.\n\nIf you were [warn]boring[/warn] and simply placed sugar cane onto crop sticks then this quest should be easy. But come on, you\u0027re playing GTNH. We both know what kind of person you are. Also, the sooner you start statting up your crops the sooner you can see the massive benefits of crops.",
+      "desc:8": "Propagating your plants is as easy as placing a double crop-stick adjacent to a mature plant and waiting. \n\nAs long as there are no other plants adjacent to the double cropstick, your plant should simply grow into it.\n\nIf you were [warn]boring[/warn] and simply placed sugarcane onto crop sticks then this quest should be easy. But come on, you\u0027re playing GTNH. We both know what kind of person you are. Also, the sooner you start statting up your crops the sooner you can see the massive benefits of crops.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -19,7 +19,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Simple Propogation",
+      "name:8": "Simple Propagation",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
