@@ -47,7 +47,7 @@ and <a href="https://www.yourkit.com/youmonitor/">YourKit YouMonitor</a>.
     <li>tsutaaja - If it's not too costly</li>
     <li>DreamMasterXXL - Idiots! Do not upgrade your backpack with important stuff inside!</li>
     <li>Chaotick - It's already quite the list of errands</li>
-    <li>LogicFalls - F--k this mod is complicated</li>
+    <li>LogicFalls - This mod is complicated</li>
     <li>Codewarrior0 - Blood, sweat, and tiers</li>
     <li>Chewy - No more making any of this irritating s--t</li>
     <li>moronwmachinegun - It's never enough</li>
