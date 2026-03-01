@@ -18,7 +18,11 @@
         "Count:3": 1,
         "Damage:2": 2,
         "OreDict:8": "",
-        "id:8": "berriespp:Modifier"
+        "id:8": "betterquesting:placeholder",
+        "tag:10": {
+          "orig_id:8": "berriespp:Modifier",
+          "orig_meta:3": 2
+        }
       },
       "isMain:1": 0,
       "isSilent:1": 0,
@@ -50,7 +54,11 @@
           "Count:3": 1,
           "Damage:2": 2,
           "OreDict:8": "",
-          "id:8": "berriespp:Modifier"
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "berriespp:Modifier",
+            "orig_meta:3": 2
+          }
         }
       },
       "taskID:8": "bq_standard:retrieval"

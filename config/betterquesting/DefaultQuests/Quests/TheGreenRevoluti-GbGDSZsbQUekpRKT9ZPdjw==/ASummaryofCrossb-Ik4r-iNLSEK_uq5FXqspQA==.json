@@ -9,7 +9,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "When crops breed, the resulting stats are the average of the parents\u0027 stats plus a random value between -2 and 4.\r\nEssentially, the variation pool will be a fixed (-2 -\u003e +4) instead of (-numParents -\u003e +numParents depending on the number of parents.\r\nIf all parents have fertilizer in them, stat loss is prevented. (0 -\u003e +4)\r\n\nI will introduce a deterministic breeding mechanic, similar to how bees work, where you must bring the right species together.\r\nI’m interested in situations requiring more than two parents.\r\nAdvanced crops (above MV materials) will require the breeding machine detailed in the section below.\r\nLow-ish-tier crops will also have access to breeding pools, where similar crops may be bred with others of the same “type” to produce other similar crops, a bit like how IC2 crops currently function.\r",
+      "desc:8": "When crops breed, the resulting stats are the average of the parents\u0027 stats plus a random value between -2 and 4.\n\nEssentially, the variation pool will be a fixed (-2 -\u003e +4). If all parents have fertilizer in them, stat loss is prevented. (0 -\u003e +4)\r\n\nDeterministic breeding is similar to how bees work, where you must bring the right species together.\r\nSome situations require more than two parents.\r\nAdvanced crops (above MV materials) will require the breeding machine.\n\nLow-ish-tier crops will also have access to breeding pools, where similar crops may be bred with others of the same “type” to produce other similar crops.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,

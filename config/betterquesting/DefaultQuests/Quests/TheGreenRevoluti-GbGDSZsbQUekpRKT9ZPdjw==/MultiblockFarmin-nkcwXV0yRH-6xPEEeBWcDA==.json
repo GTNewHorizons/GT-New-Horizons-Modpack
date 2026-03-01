@@ -61,37 +61,37 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "cropsnh:casings1"
+          "id:8": "cropsnh:cropsnh.casings1"
         },
         "2:10": {
           "Count:3": 1,
           "Damage:2": 2,
           "OreDict:8": "",
-          "id:8": "cropsnh:seedBed"
+          "id:8": "cropsnh:cropsnh.seedBed"
         },
         "3:10": {
           "Count:3": 1,
           "Damage:2": 2,
           "OreDict:8": "",
-          "id:8": "cropsnh:environmentalEnhancementUnit"
+          "id:8": "cropsnh:cropsnh.environmentalEnhancementUnit"
         },
         "4:10": {
           "Count:3": 1,
           "Damage:2": 2,
           "OreDict:8": "",
-          "id:8": "cropsnh:growthAccelerationUnit"
+          "id:8": "cropsnh:cropsnh.growthAccelerationUnit"
         },
         "5:10": {
           "Count:3": 1,
           "Damage:2": 2,
           "OreDict:8": "",
-          "id:8": "cropsnh:fertilizerUnit"
+          "id:8": "cropsnh:cropsnh.fertilizerUnit"
         },
         "6:10": {
-          "Count:3": 1,
+          "Count:3": 2,
           "Damage:2": 2,
           "OreDict:8": "",
-          "id:8": "cropsnh:advancedHarvestingUnit"
+          "id:8": "cropsnh:cropsnh.advancedHarvestingUnit"
         }
       },
       "taskID:8": "bq_standard:retrieval"

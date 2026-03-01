@@ -12,7 +12,7 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 31111,
+        "Damage:2": 28001,
         "OreDict:8": "",
         "id:8": "gregtech:gt.blockmachines"
       },
@@ -91,7 +91,7 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 11,
+          "Damage:2": 50,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         },
@@ -121,9 +121,9 @@
         },
         "5:10": {
           "Count:3": 2,
-          "Damage:2": 0,
-          "OreDict:8": "circuitBasic",
-          "id:8": "IC2:itemPartCircuit"
+          "Damage:2": 1246,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -138,7 +138,7 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 31111,
+          "Damage:2": 28001,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }

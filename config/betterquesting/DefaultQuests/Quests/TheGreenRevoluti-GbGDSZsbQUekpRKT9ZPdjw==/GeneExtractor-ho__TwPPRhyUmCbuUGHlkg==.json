@@ -17,7 +17,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "No Description",
+      "desc:8": "Turn crops to data orbs, this is currently the only way to get Primordial Pearl Crops.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -53,7 +53,7 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 12504,
+          "Damage:2": 28046,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }

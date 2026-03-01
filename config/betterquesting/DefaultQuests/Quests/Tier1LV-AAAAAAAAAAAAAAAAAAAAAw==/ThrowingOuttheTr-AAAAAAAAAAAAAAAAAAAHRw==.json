@@ -49,7 +49,11 @@
           "Count:3": 1,
           "Damage:2": 8,
           "OreDict:8": "",
-          "id:8": "berriespp:BppPotions"
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "berriespp:BppPotions",
+            "orig_meta:3": 8
+          }
         },
         "1:10": {
           "Count:3": 1,
