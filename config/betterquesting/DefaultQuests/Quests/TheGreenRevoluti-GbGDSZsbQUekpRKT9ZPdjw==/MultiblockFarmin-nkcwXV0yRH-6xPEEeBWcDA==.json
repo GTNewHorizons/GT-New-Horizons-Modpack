@@ -1,0 +1,100 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1542
+    },
+    "1:10": {
+      "questIDHigh:4": 6937508185679284528,
+      "questIDLow:4": -5439170394839090099,
+      "type:1": 2
+    },
+    "2:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1598
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "No Description",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 28055,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
+      },
+      "isMain:1": 1,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Multiblock Farming",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -7041606314816813953,
+  "questIDLow:4": -4988597485722821620,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 28055,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "cropsnh:cropsnh.casings1"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "cropsnh:cropsnh.seedBed"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "cropsnh:cropsnh.environmentalEnhancementUnit"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "cropsnh:cropsnh.growthAccelerationUnit"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "cropsnh:cropsnh.fertilizerUnit"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "cropsnh:cropsnh.advancedHarvestingUnit"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

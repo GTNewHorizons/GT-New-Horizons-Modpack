@@ -1,0 +1,52 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 2720541421989351122,
+      "questIDLow:4": -8242495261997181441,
+      "type:1": 2
+    },
+    "1:10": {
+      "questIDHigh:4": -3386790291524794961,
+      "questIDLow:4": -5427043695285873838,
+      "type:1": 2
+    },
+    "2:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 543
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Weeds are a constant threat, whether in large automated fields or small crossbreeding plots. \n\nLets deal with them.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "witchery:potion"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Keeping The Sprouts Healthy",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 5323651384713235851,
+  "questIDLow:4": -8514153992335365410,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

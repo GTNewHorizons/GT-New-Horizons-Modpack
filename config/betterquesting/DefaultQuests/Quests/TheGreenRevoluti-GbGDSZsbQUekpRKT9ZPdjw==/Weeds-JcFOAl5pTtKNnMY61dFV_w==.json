@@ -1,0 +1,56 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 4300463009256719073,
+      "questIDLow:4": -7881005862838025770
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Weeds will show up from time to time on empty single or double crop sticks. They will spread from there and take over all your precious crops, so clear the weed with your spade (or fist) before you start desiring to reload the last backup. \n\nUsing smaller fields will make things a lot easier, at least until you can make Weed-Ex, so if you forget about them you only lose one or two seeds.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2,
+        "OreDict:8": "",
+        "id:8": "minecraft:double_plant"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Weeds",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 2720541421989351122,
+  "questIDLow:4": -8242495261997181441,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:CoinFarmer"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

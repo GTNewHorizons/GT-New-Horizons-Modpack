@@ -1,0 +1,56 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -2647233573521112555,
+      "questIDLow:4": -8137730701819231368
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "These crops crystalize and produce their related crystals and dusts straight from the soil.\n\nAll* of these crops will need a sub-soil of their related material whether block or ore.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 3,
+        "OreDict:8": "",
+        "id:8": "BiomesOPlenty:gems"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Gem Crops",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 1725195196562031028,
+  "questIDLow:4": -8748016081769452107,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:CoinFarmer"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

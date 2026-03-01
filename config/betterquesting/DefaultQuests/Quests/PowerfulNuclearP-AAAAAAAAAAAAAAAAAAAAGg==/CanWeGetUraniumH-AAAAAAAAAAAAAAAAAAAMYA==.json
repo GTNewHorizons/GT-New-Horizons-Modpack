@@ -44,9 +44,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 63,
-          "Damage:2": 32526,
+          "Damage:2": 19,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.02"
+          "id:8": "cropsnh:materialLeaf"
         },
         "1:10": {
           "Count:3": 2,
