@@ -2,7 +2,7 @@
   "id": "real_bottled_jaegermeister",
   "condition": {
     "type": "item.use.finish",
-    "item": "berriespp:BppPotions",
+    "item": "cropsnh:BppPotions",
     "meta": 8
   },
   "page": "GT New Horizons",
