@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Tired of all those mob noises coming from the depths? Consider making the §5Concrete Backfiller§r. This multiblock will fill the area underneath it with concrete in a §316x16§r range; patching all caves and air spots that might be lying underneath. \n\nSimply provide it with Light Concrete and let it do the rest!",
+      "desc:8": "Tired of all those mob noises coming from the depths? Consider making the §5Concrete Backfiller§r. This multiblock will fill the area underneath it with concrete in a §316§r block radius; patching all caves and air spots that might be lying underneath. \n\nSimply provide it with Light Concrete and let it do the rest!",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,

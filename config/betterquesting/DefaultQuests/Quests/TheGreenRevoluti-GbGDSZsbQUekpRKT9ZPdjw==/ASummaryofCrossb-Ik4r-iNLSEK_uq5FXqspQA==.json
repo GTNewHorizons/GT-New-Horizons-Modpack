@@ -1,0 +1,43 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -3386790291524794961,
+      "questIDLow:4": -5427043695285873838,
+      "type:1": 2
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "When crops breed, the resulting stats are the average of the parents\u0027 stats plus a random value between -2 and 4.\n\nEssentially, the variation pool will be a fixed (-2 -\u003e +4). If all parents have fertilizer in them, stat loss is prevented. (0 -\u003e +4)\r\n\nDeterministic breeding is similar to how bees work, where you must bring the right species together.\r\nSome situations require more than two parents.\r\nAdvanced crops (above MV materials) will require the breeding machine.\n\nLow-ish-tier crops will also have access to breeding pools, where similar crops may be bred with others of the same “type” to produce other similar crops.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "SpiceOfLife:bookfoodjournal"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "A Summary of Crossbreeding",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 2471961598806935618,
+  "questIDLow:4": -4631197653832881856,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

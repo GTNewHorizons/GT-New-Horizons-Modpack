@@ -80,12 +80,6 @@
           "Damage:2": 5,
           "OreDict:8": "",
           "id:8": "thaumicenergistics:part.base"
-        },
-        "1:10": {
-          "Count:3": 1,
-          "Damage:2": 4,
-          "OreDict:8": "",
-          "id:8": "thaumicenergistics:part.base"
         }
       },
       "taskID:8": "bq_standard:retrieval"

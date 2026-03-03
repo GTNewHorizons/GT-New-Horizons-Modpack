@@ -74,35 +74,6 @@
       "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
-      "index:3": 0,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 76,
-          "Damage:2": 1,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings4"
-        },
-        "1:10": {
-          "Count:3": 9,
-          "Damage:2": 10,
-          "OreDict:8": "",
-          "id:8": "ProjRed|Illumination:projectred.illumination.lamp"
-        },
-        "2:10": {
-          "Count:3": 8,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "RandomThings:fertilizedDirt"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "1:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
       "index:3": 1,
       "partialMatch:1": 1,
       "requiredItems:9": {
@@ -114,6 +85,47 @@
         }
       },
       "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 102,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "bartworks:BW_GlasBlocks"
+        },
+        "1:10": {
+          "Count:3": 85,
+          "Damage:2": 15,
+          "OreDict:8": "",
+          "id:8": "miscutils:gtplusplus.blockcasings.2"
+        },
+        "2:10": {
+          "Count:3": 33,
+          "Damage:2": 316,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockframes"
+        },
+        "3:10": {
+          "Count:3": 21,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "RandomThings:fertilizedDirt"
+        },
+        "4:10": {
+          "Count:3": 3,
+          "Damage:2": 10,
+          "OreDict:8": "",
+          "id:8": "ProjRed|Illumination:projectred.illumination.lamp"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }
