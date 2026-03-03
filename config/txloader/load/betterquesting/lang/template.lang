@@ -4710,33 +4710,9 @@ betterquesting.quest.wGq5FvuuROyyMPbT_SkMYg.name=§4§l§nEternity
 betterquesting.quest.wGq5FvuuROyyMPbT_SkMYg.desc=Definitely consider this for the improved Magnetohydrodynamically Constrained Star Matter recipe. You'll also need it to make MHDCSM parts.%n%nKickstarting the loop is expensive and RNG-based. You need 20,736 L of Universium for the first 5 attempts and a catalyst.%n%nThe QFT recipe has a 25%% chance of yielding Eternity per attempt. You should probably boost the QFT with plasmas and focus on producing Eternity.%n%n[note]Did you know the QFT has a fluid mode? It could be useful for extracting molten Shirabon. Just right-click the controller with a §ascrewdriver§r.[/note]%n%n[note]Building a full beacon out of Eternity Blocks might be a bit extravagant, don't you think?[/note]
 
 
-## Quest Line: Fishing, Farming, Cooking
-betterquesting.questline.AAAAAAAAAAAAAAAAAAAACg.name=Fishing, Farming, Cooking
-betterquesting.questline.AAAAAAAAAAAAAAAAAAAACg.desc=Catch it, grow it, eat it!
-
-# Quest: Weeds II
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC0A.name=Weeds II
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC0A.desc=Weeds, weeds, and more weeds. You get so many of them while cross breeding.%n%nNeed some biogas cells for your power production in exchange? Or maybe some glowstone to light up your fields?
-
-# Quest: Unknown Seeds No More
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC0Q.name=Unknown Seeds No More
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC0Q.desc=You have a lot of unknown seeds already. Use your scanner to scan all the seeds.%n%nSeeds can be planted again to breed better and more resilient crops.%n%nLater you can use your portable scanner to see the crop stats while still in the ground.%n%nGrowability depends on having dirt beneath your crop (4 max), biome (swamp/jungle types are all pretty much the same), air quality (increases up to Y124 and don't place a lot above/around your plants), hydration, and fertilizer. When the crop tier and plant stats get high enough, they will actually die without enough Growability. This is never a concern if you use a good biome though.%n%nAs long as you water and fertilize them, you can pretty much grow crops anywhere.%n%nIf the Growth stat gets too high, greater than 24 or so, the plant will spread weeds onto neighbors.%n%nSome crops, such as Redwheat or oreberries, require certain light levels to crossbreed or grow.
-
-# Quest: Speed Up Your Plant Growth
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC0g.name=Speed Up Your Plant Growth
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC0g.desc=To speed up the growth process a bit you can use a fertilizer. You will note, however, that bone meal no longer works. A bit of ash, apatite or calcite mixed with some water in a chemical reactor will give you the fertilizer you need. Apply by hand.
-
-# Quest: Potatoes, Carrots, Pumpkins and Melons
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC0w.name=Potatoes, Carrots, Pumpkins and Melons
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC0w.desc=Your seeds have three different values: Growth, gain, and resistance (GGR).%n%nThe only way to change a crop's GGR without 3rd party tools (like NBTedit!) is through cross breeding. When two plants cross-breed, the resulting plant will have a GGR score that is between both "parent" plants' GGR. Sometimes it will also be a little bit higher or lower. Thus, to obtain high GGR scores you must go through numerous generations of crossbreeding.%n%nThe highest score for GGR is 31, while the lowest is 0.%n%n[note]BTW, if you want to skip all this BS, the nbtedit command is /nbtedit me, click root in the upper left, then scroll down to inventory, and find the seedbag (empty your inventory first to make it easier) and click on the icons until you find the page with the stats. Once you've found the GGR stats, select one and click edit in the upper left, make sure to save.[/note]%n%n[warn]Remember that you can permanently brick your character! So make a backup first if you don't know what you're doing, or want to edit your actual character.[/warn]%n%nOf course, you can't do any of this on a server.
-
-# Quest: Weeds
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC1A.name=Weeds
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC1A.desc=Weeds will show up from time to time on empty or double crop sticks. They will spread from there and take over all your precious crops, so harvest the weed with your weed trowel before you start desiring to reload the last backup. Later you can make some Weed-EX to prevent them from appearing (until it runs out).
-
-# Quest: Flower Power
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC1Q.name=Flower Power
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC1Q.desc=Growing dyes on crops sticks? Try to plant some flowers. If you cross breed Rose and Dandelion flowers maybe you'll get a new flower and new dyes with different colors.%n%nYou will need to plant 4 vanilla flowers to get them on a cropstick. They also don't plant unless they are in bright light.%n%nTo get "Rose Seeds" place poppies. Honestly there are several flowers you can use, though.%n%n[note]If you actually want these for dyes, go make the rainbow cactus instead.[/note]
+## Quest Line: Feeding Yourself
+betterquesting.questline.AAAAAAAAAAAAAAAAAAAACg.name=Feeding Yourself
+betterquesting.questline.AAAAAAAAAAAAAAAAAAAACg.desc=Don't worry. Papa-G will fix it.
 
 # Quest: Hunger No More
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACWA.name=Hunger No More
@@ -4794,10 +4770,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACfg.desc=Smelt your bread again and you 
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACmQ.name=Kitchenware
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACmQ.desc=To cook some healthy food you need a few tools crafted first.%nSaucepan,%npot,%nrolling pin,%nmortar,%nmixing bowl,%nsoft mallet,%nskillet,%nknife...
 
-# Quest: First Breeding
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACzw.name=First Breeding
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACzw.desc=New plants have grown on your crop sticks. You can harvest the crop by right-clicking it.%n%nLeft-clicking will destroy the plant and drop a seedbag. This is not guaranteed however, but the chances rise as the maturity does. Collect 8 seeds of any kind to complete this quest.%n%nTo unlock the next quest, you will need the LV scanner.%n%nIf you haven't already, consider building some Filing Cabinets. They make storing and moving large quantities of seeds a breeze. Plus they will properly sort the seeds based on name. To find a specific seed, type its name in the NEI search bar, and double-click the bar so it highlights yellow. Now you can look through the Filing Cabinet and find the exact seedbag you want.%n%nOr use double chests and toss the ones you don't want.
-
 # Quest: Fish Trapping 2.0
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD8Q.name=Fish Trapping 2.0
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD8Q.desc=Fishing can be very boring. Why not automate it with a fish trap?%n%nThis is fish trap 2.0.
@@ -4817,10 +4789,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAE-A.desc=The first step to brew beer or 
 # Quest: Fake Jagermeister
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE-w.name=Fake Jagermeister
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE-w.desc=Jägermeister is a common drink in Germany, why don't you grab a bottle? This one seems to be a cheap fake tho...
-
-# Quest: Time for a Spade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE9g.name=Time for a Spade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE9g.desc=This item is a combined Weeding Trowel, Hoe and Shovel. If you're the type that accidentally does things, only use this when necessary, as it's easy to mess up and use it to harvest/destroy your crops when you wanted to get rid of a weed.%n%nYou can use it to get seeds from crops when they're §9immature§r using §6right-click§r at very low rates. Using [warn]left-click[/warn] when §9immature§r will result in nothing.%n%nIf it's §amature§r, use §6left-click§r to have a higher chance of a seed dropping. Using [warn]right-click[/warn] when §amature§r will result in lower seed drops than punching it normally.%n%nKeep in mind that the higher the tier/stats of the crop, the lower the chances. By a lot.%n%n[note]The formula is 1+tanh((-1)(X+5((-Re/2)+Gr+Ga)/21)/12); X=0 to 16, where Re, Gr, Ga are respectively Resistance, Growth and Gain stat of the crop, and X is tier. Don't ask me whether this is for L/R-click, ask bart or look at the code.[/note]
 
 # Quest: Juice
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEPg.name=Juice
@@ -4878,10 +4846,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFAw.desc=Since honey contains a lot of s
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFBA.name=Wasps honey
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFBA.desc=Giant wasps can be found in the Nether. Quick! Sneak into their hive and steal some honey!%n%n[note]Just having the fluid in cells or buckets in your inventory lets the quest detect it.[/note]
 
-# Quest: Hops, the Source of Beer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFCA.name=Hops, the Source of Beer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFCA.desc=If you don't want pure alcohol, but beer, get some hops by crossbreeding IC2 crops.
-
 # Quest: Really OP Food
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFyw.name=Really OP Food
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFyw.desc=You've heard about Dezil's Marshmallow, a really OP food which can be found from time to time in chests. What about I show you a way to cook this stuff yourself?%n%nAfter you've mastered the flowing spirit in the dream dimension (witchery), put a bit of flour, sugar, salis mundus and draconium dust in your IV Mixer.%nThe recipe starts when you give flowing spirit to it and gives you malformed slush, a very stinky and disgusting piece of...something.%n%nBe careful, you'll get blindness II when holding it in your hand.
@@ -4897,118 +4861,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFzg.desc=Next step is heating up your Ma
 # Quest: Cooling Your Marshmallow
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFzw.name=Cooling Your Marshmallow
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFzw.desc=In the next step you cool your Glowing Marshmallow in an HV Vacuum Freezer to make it more stable.%n%nYou still get Weakness II and Nausea II.
-
-# Quest: Analyze Your Crops
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBQ.name=Analyze Your Crops
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBQ.desc=The cropnalyzer is a powered tool used to analyze IC2 crop seedbags. Charge it by placing it in an MV machine; it is recommended to also place an MV battery in it to keep it fully charged. To fully analyze a seed bag, you will need to put it through the cropnalyzer four times. If the crop is already planted, it is better to analyze it with the portable scanner instead of breaking it just to scan it - you have a chance of losing the seed every time you break it.%n%nThe cropnalyzer also has a feature called the IC2 Crop Calculator, where you can find the mix of outputs of breeding together any crops. To access the calculator, hit the IC2 side inventory key while holding the cropnalyzer. You can select any crops available and discover what plants have decent percentages of a result. And no, you can't do the reverse, search for the crops.zip on discord for that (it doesn't have micadia though).%n%nYou can choose up to four crops to breed together. Then click "process" and the bottom row will show the possible crossbreeding outputs, and their weights. You can use the + and - gui buttons to scroll through the row(s) of crops. You can also use a button in the GUI to sort the rows by tier or weight. You can invert the sorting by hitting the sorting button while holding shift.%n%nWhen trying to get a specific crop, you generally want to maximize its percentage. Do this by breeding 2-4 of the same plant together (more is faster). There is no advantage to crossing plant types, it just reduces the %% chance of getting what you want, contrary to what you might think.%n%nUse the crops guide at [url]https://wiki.gtnewhorizons.com/wiki/IC2_Crops_List[/url] for more details.%n%nA large field of stickreeds has a good chance at making lots of valuable crosses. This is because it's decently high tier (they randomly mutate to tiers nearby mostly), and it's really fast, so you can get it to a high stat fast, which you should probably do first. Mutations are random, you can get transformium from stickreed, so keep that in mind. You do tend to get similar crops, so if you want metals, get the metal crops for example. Go to the wiki or spreadsheet (not up to date) to see the attributes that govern similarity.
-
-# Quest: Crop Automation
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBg.name=Crop Automation
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBg.desc=The Crop Manager is a LV machine that will monitor crops in a 11x5x11 area and automatically apply fertilizer, Weed-EX, and Water as needed. Water can be pumped in directly or use IC2 Universal water cells, normal cells aren't returned when they're used.%n%nThe Crop Manager is NOT rainproof, but you can cover it with a water source block just fine!%n%nTilled dirt still requires a nearby water block to be hydrated as the Manager will only water the crop, not the soil. Try putting a lily pad on top so it isn't annoying to walk on, or using Garden Soil instead.
-
-# Quest: Weed Ex
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBw.name=Weed Ex
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBw.desc=Weed-EX is used to prevent the growth of Weeds on empty Crop blocks at the cost of some weed-EX. Damage to the crop's quality is illusory, and not true. We have people that have looked at the code, we assure you. §oUnless§r it counts as a weed (venomilia Gr 8+, any other crop Gr 24+), then it loses maybe 1 stat. Maybe. And you can just increase it again too. And it might not take effect even then if you don't apply too much, like a crop matron won't.%n%nUsage:%nWhile holding Weed-Ex, right-click on a Crop to apply it. It can also be placed in a Crop Manager to automatically apply it to your crops.
-
-# Quest: Reed and Resin
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGQA.name=Reed and Resin
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGQA.desc=One of the first useful crops you'll get is Stickreed. It's fast growing, and can produce sticky resin and sugarcane (harvest before it reaches full maturity). It's also great for crossing with other crops to raise their stats. One of the best strategies is to get these to around 20/31/10, then breed out from there. Most people will say 23/31/10, but 24+ act like weeds, so it's better to have some wiggle room.%n%nI'll trade you some fertilizer for 2 stacks of each.%n%n[note]PS, you don't really need rubber trees if you can get these.[/note]%n%n[note]You'll need a Basic Scanner to scan your Stickreed seeds once you get them, though any set of stats will work. See the quest in LV, and note it requires MV circuits.[/note]
-
-# Quest: Metals From the Earth
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGQQ.name=Metals From the Earth
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGQQ.desc=With higher tier crops you can even increase your ore production. Mixing some of these fibers and leaves with crushed ores can quadruple your output, and some can even be converted directly to dust. Later you can mix these materials to make purified ore with some UU matter.%n%nShow me your ability to get these metal crops and I'll give you some more fertilizer and some decent stat seedbags of rarer crops. Good source crops are essence berries or any of the oreberries.%n%nYou will need the proper oreblock beneath the crop to reach 100 percent maturity. For best growing conditions use dirt in between the ore block and the crop.%n%nFor Ferru and Aurelia you will have to use a block of metal instead of a GT ore block - a vanilla ore block automined from the Twilight Forest will however work. You can also buy some from the Vending Machine. WAILA will tell you if the crop will accept the block you are using.
-
-# Quest: Water, Water, Everywhere
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGQg.name=Water, Water, Everywhere
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGQg.desc=Even though you have to plant crops near the water, they don't actually get any hydration unless you apply water manually. Make a hydration cell and use it on your crops to increase their growth speed.%n%nYou can recycle empty cells in an extractor.
-
-# Quest: Feeling a Little Like a Noob...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGQw.name=Feeling a Little Like a Noob...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGQw.desc=So could you grow me some essence berries so I can level up? You can plant the ones you get from the bushes, or breed up some.%n%nAs a reward, I'll give you a silly seed a friend of mine came up with. It will definitely keep you on your toes.
-
-# Quest: Put the Petal to the Metal
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRA.name=Put the Petal to the Metal
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRA.desc=... with the Bio Diesel you produce from Canola!%n%nYou can try getting it from dandelions, cocoa, potatoes or lemons.
-
-# Quest: Better Than Milk
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRQ.name=Better Than Milk
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRQ.desc=I haven't been feeling well lately. Would you grow me some Terra Wart? They're better than milk, since they only remove negative effects, and stack to 64. Really nice when fighting that Alchemist infernal!%n%nThey also have Auramx8, Praecantatiox4 and Victusx4 essentia on them, very useful for the budding thaumaturge. And you can get them by placing a snow block under your Nether Wart and waiting instead of mutating to get them.
-
-# Quest: Sweet Tooth
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRg.name=Sweet Tooth
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRg.desc=Sugarcane or Reed not keeping up with your sugary needs? Sugar beets give 8 sugar per beet. Potatoes or carrots should easily give you sugar beets.%n%nHmm, now I want some candy. Give me some sugar from your beets. I'll share some with you.%n%n[note]Electrolyze the sugar into O2 for an easy source.[/note]
-
-# Quest: More Useful IC2 Crops
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRw.name=More Useful IC2 Crops
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRw.desc=Once you get into crops, consider trying other crops that may be of interest. Don't underestimate them, they can be quite strong if used well!
-
-# Quest: More Red, Less Wheat
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGyQ.name=More Red, Less Wheat
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGyQ.desc=When breeding together crops for an output crop, try to get crops that are close in tier to the output crop, and have similar attributes to the output crop.%n%nFor example, Redwheat has "Red", "Wheat" and "Redstone" attributes and is tier 6. Nether Wart has "Red" and is tier 5. Use the cropnalyzer crop prediction mode to see how many points Redwheat has using two Nether Wart.%n%nYou'll also want to make sure the light level is between 5-10 for this particular cross breeding to occur. Honestly, it's the worst, condition-wise.%n%nReally though, once you get to MV it's better to make a Glowstone crop and centrifuge it for redstone. Or a redstone block crop. Or just mine it, honestly. Red wheat == Dead wheat.
-
-# Quest: Turning Dirt into proper Soil
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHAQ.name=Turning Dirt into proper Soil
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHAQ.desc=With an Assembler and some Seed Oil, you can turn Dirt and Sand into Garden Soil. This optimal Soil does not require nearby water, and Crops won't break when you fall on or run near it.%n%nHowever, unlike watered Farmland, it doesn't contribute to the humidity stat or speed up IC2 crops, so it's not useful for min-maxing.%n%nThe same goes for Enchanted Earth, the Lamp of Growth, Sprinklers, etc.
-
-# Quest: Crop Stats
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHAg.name=Crop Stats
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHAg.desc=With the portable scanner, you can get the crop's stats and environmental info while it is still in the ground by right-clicking it. It also stays scanned after getting the seed. Look for the portable scanner quest after the EBF in Multiblock Goals. About those stats:%n%n§aGrowth§r:%nHow fast it grows, with higher = faster. Specifically, it increases the growth points your crop gets per growth tick. If it gets to 24+, your crop acts like a weed, so most people say to stay at 23 or less. However, it will only weed other crops under certain conditions.%n%n1) Is in a cardinal direction on the same Y level. 2) Will only affect dirt/grass, or cropsticks or crops 3) If there's a crop there that is §oalso§r a weed, if it's at a maturity level > 1, it §owon't affect it§r 4) If it affects the crop, it'll be replaced with a normal weed%n%n§9Gain§r:%nInfluences chances of how many drops you get, and whether you get any at all. 31 is the best for sure.%n%n§eResistance§r:%nThis stat is responsible for a couple of crops' properties: chances for getting a seed while punching crop, resistance of your crop to trampling (jumping on it), decreases chance of crop dying due to lack of environmental stats, and resistance of crop to weed spread. It also reduces mutation chance as it goes up (apparently). Aim for around 10 for balance.
-
-# Quest: Metals From the Sky
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHAw.name=Metals From the Sky
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHAw.desc=You can even create metals not found on Earth using crops! You'll need the proper metal block beneath the crop in order for them to fully mature.%n%nBTW, higher tier crops have a lower chance of dropping seeds, so consider breeding a second one before you try breaking them, OK?
-
-# Quest: New Threads
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHBQ.name=New Threads
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHBQ.desc=Tired of killing spiders for string? Grow some flax for an easy non-biting source of string.%n%nWith some Corium in the next quest, you can get easy tanned leather.
-
-# Quest: The Ground is Crying
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHBg.name=The Ground is Crying
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHBg.desc=Need an alternate source of Chlorine? Breed some Tearstalks to get Ghast Tears for making salt water.%n%n;-;%n%nNether warts should yield tearstalks.
-
-# Quest: Blazes Too Hard to Kill?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHBw.name=Blazes Too Hard to Kill?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHBw.desc=Then grow some blazereed to save yourself the trouble.%n%nTearstalks should easily yield blazereed.
-
-# Quest: A Girl's Best Friend
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHCA.name=A Girl's Best Friend
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHCA.desc=Need to impress a lady? How about growing diamonds on reeds?!?
-
-# Quest: Why Does My Plant Bawk Like a Chicken?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHCQ.name=Why Does My Plant Bawk Like a Chicken?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHCQ.desc=Because it can lay eggs!
-
-# Quest: Vegan, But Still Want to Eat Meat?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHCg.name=Vegan, But Still Want to Eat Meat?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHCg.desc=Instead of killing animals, just mutate some crazy GMOs into making animal products for you. Science!
-
-# Quest: Magic Metal Berry
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHCw.name=Magic Metal Berry
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHCw.desc=...is obviously the name of my cover band. But also a great crop for Thaumium or Void metals. Requires a block of iron or thaumium to get thaumium, and void metal block to get void metal. Like other ore berries, it only grows in dim light. Any oreberry should have a decent chance of yielding this.
-
-# Quest: Other Magic Flowers
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHDA.name=Other Magic Flowers
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHDA.desc=Other magical flowers are possible such as shimmerleaf, mandragora, wolf's bane, and more.
-
-# Quest: Stonelillies
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHDQ.name=Stonelillies
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHDQ.desc=Stone lillies allow you to get dusts without having to look for granites, basalt, or marble. A great renewable way to get calcite, fluorine, or bulk aluminium (and a tiny bit of uranium).%n%nThese require the original block directly beneath them to grow properly.%n%nThere is also a Grey stonelilly for stone dust (who needs more of that??) and a Yellow stonelilly for sand or Endstone dust. Handy for the clever chemist!
-
-# Quest: Growing some Glowstone
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHDg.name=Growing some Glowstone
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHDg.desc=There are a couple of different glowstone crops - glowflower, glowing earth coral, and glowshrooms. Nether wart is a great source of these.
-
-# Quest: Leaves of Steel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHDw.name=Leaves of Steel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHDw.desc=Well, steel leaves anyways. Instead of grinding Twilight Forest for steel leaves, grow a crop in peace.
-
-# Quest: Plants That Make Their Own Fertilizer?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHEA.name=Plants That Make Their Own Fertilizer?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHEA.desc=Sign me up! This plant will create fertilizer ingredients for you.%n%nThe best plants to cross to get Fertilia are zomplant, venomilia, trollplant, or spidernip. Watch out for venomilia though, not only is it poisonous, it also acts like a weed at growth 8+!%n%nUse the IC2 fertilizer and apatite this drops to make forestry fertilizer if using the multifarm.%n%n[note]BTW this is the rarest one, with a 0.76%% chance even for zomplant, so expect it to take approximately 3 eternities.[/note]
-
-# Quest: Renewable Oil
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHEQ.name=Renewable Oil
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHEQ.desc=Oil from crops? Makes as much sense as oil from bees!
 
 # Quest: Kitchenware 2.0
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHLA.name=Kitchenware 2.0
@@ -5026,89 +4878,13 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHPw.desc=Now that you have dough, there 
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHQQ.name=No Chicken Escapes!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHQQ.desc=Do you like pies? I sure do! There are many varieties of pies available for you. The chicken pot pie is one of the easiest to make. Just a chicken, potato, carrot, and some dough. The fruit pies are a little simpler, so they don't quite restore as much saturation, but are great for filling tummies while you wait for the best foods to wear off.
 
-# Quest: You Can't Tell Them Apart Either?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHgA.name=You Can't Tell Them Apart Either?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHgA.desc=Many plants look the same. Someday you'll be able to use a machine to tell them apart+more, but for now you can make a simple Plant Lens to at least identify species.%n%nAfter using it you can tell the following:%nSpecies%nCrop tier%nWhether it can grow (some crops have requirements)%nWhether you can harvest it%nGrowth stage, and progress to the next
-
-# Quest: Coal...From Withereed?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHhw.name=Coal...From Withereed?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHhw.desc=Withereed is a source for coal, and more importantly, a good breeding stock for higher tiers.%n%nYou'll need coal blocks underneath it to fully mature.
-
-# Quest: Son of Odin One-Eye
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHiA.name=Son of Odin One-Eye
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHiA.desc=The God of Thunder crop lets you increase your Thorium ore from the Nether to 4x. It also will give you Uranium you can use for Reactoria crops.
-
-# Quest: Just Cover Your Privates When You Walk By
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHiQ.name=Just Cover Your Privates When You Walk By
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHiQ.desc=Reactoria crops will drop Reactoria leaves which will 4x your Pitchblende ore.
-
-# Quest: Ironwood is Better Than Normal Wood
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHig.name=Ironwood is Better Than Normal Wood
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHig.desc=A necessary step for steeleafranks? Maybe not. But ironwood does make some great rollers for cooking, and a decent Sense blade.%n%nCreeperweed has a decent chance of giving liveroots seeds.
-
-# Quest: Vegan Leather?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHiw.name=Vegan Leather?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHiw.desc=If you want to save your cows and horses for milk and ...glue... you can use Corium to make leather instead.
-
-# Quest: Gunpowder? More Like Dirtpowder!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHjA.name=Gunpowder? More Like Dirtpowder!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHjA.desc=Creeperweed can supply your gunpowder needs without dealing with bothersome explosions. It also has quite a few attributes, making it a good source of random crops.%n%nCorium can breed into creeperweed.
-
-# Quest: Milk of the Earth-Mother
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHjQ.name=Milk of the Earth-Mother
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHjQ.desc=Milkwart means you can get rid of all your cows. Isn't that nice?
-
-# Quest: Better Put On That Rubber Suit
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHnQ.name=Better Put On That Rubber Suit
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHnQ.desc=Troll plant! What does it do? Troll you!
-
-# Quest: Who the Hell is Bob?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHng.name=Who the Hell is Bob?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHng.desc=Want emeralds for trading or other uses? These are the source.
-
-# Quest: And I Dub Thee Sir Knight
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHnw.name=And I Dub Thee Sir Knight
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHnw.desc=Need an infinite source of knightmetal? It will be a hard plant to grow. Make sure you provide plenty of nutrients, clean air, fertilizer and water. Don't cry to me if it dies. Any oreberry is a good source crop, with Cobalt and Ardite best, then iron and the rest.
-
-# Quest: Do You Taste Metal?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI2A.name=Do You Taste Metal?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI2A.desc=Metal oreberries are a great source of new seeds. You can breed some or buy some from the Vending Machine. I need some Copper myself, so give me some berries please.%n%nMetal oreberries require a block of that metal to fully mature, but you can harvest a reduced amount before then. Pretty much everything else that needs a block can't be harvested before maturity though. Look at the seedbag to see what it wants. You can also go to the wiki for the exact blocks. Usually, you can use an ore or metal block for those that have them.
-
-# Quest: Deep Blue Sea of Sapphires
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI2Q.name=Deep Blue Sea of Sapphires
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI2Q.desc=Sapphirum are pretty easy to get from Copper Oreberries. You'll need a block of Sapphire beneath them to get them to maturity. They are a good source of aluminium and oxygen in LV.
-
-# Quest: Red Touch Yellow
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI2g.name=Red Touch Yellow
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI2g.desc=Garnets are actually more valuable than Sapphires. They're an early source of Chrome and Manganese, which you'll need for HV machines. You can also centrifuge Pyrope, Almandine, and Spessartine Dust with Nitric Acid to obtain a variety of additional passive resources. To reach maturity, you will need a block of Garnet (either type) beneath this crop. You can get Garnets from the HV macerator and Spessartine Ore, or you can use an Implosion Compressor to turn Garnet Sands into crystals to make blocks.
-
-# Quest: Moss
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIAA.name=Moss
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIAA.desc=Given up on looking for moss in the Twilight Forest? You can easily grow a crop that will give you the various mosses, perfect for your Tinker's tools. Start with a lily pad.
-
-# Quest: Wax On, Wax Off
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJZQ.name=Wax On, Wax Off
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJZQ.desc=You can take vanilla tree saplings and place them directly on crop sticks. This will give you a "bonsai" tree. Bonsai trees will give you drops just like a tree, but without the wasted CPU of placing all the tree blocks just to chop them down again.%n%nThis can be significant overhead on a server, so if you want to be nice, breed some bonsai trees for your pyrolyze ovens. They also drop a ton and are fast, especially statted up, so there's no reason not to if you can automate them.
-
 # Quest: Pumpkin Pie
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJhw.name=Pumpkin Pie
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJhw.desc=Pumpkin Pie is a traditional US dessert that is particularly popular for Halloween, Thanksgiving, and Christmas.%n%n1,5 Food Bars for just two Pumpkins and a three sugar. Bon Appétit.
 
-# Quest: Even More Stats
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK0Q.name=Even More Stats
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK0Q.desc=There are seven more stats to worry about too.%n%n§7Fertilizer§r, §9Water§r, and [warn]Weed-EX[/warn] are all about how much of these is on the crop stick rather than the crop itself. They're all about how much was applied, and is left of that.%n%n§2Nutrients§r, §1Humidity§r, and §6Air Quality§r are all about the environment. They're also affected by the Fertilizer and Water stats.%n%nNutrients and Humidity are mostly about the right biome, with swamp and rainforest types (hot+humid) being the best, but you can also get some extra stats by setting up right.%n%n§2Nutrients§r:%n3 possible free points from dirt under the farmland block, 2 for plants that require a specific block. So optimally always make sure that the required block is at the bottommost bottom in the column, because it checks in chain, not certain height. For example: cropstick -> farmland -> dirt -> ore block -> dirt, it will only register 1 dirt, ignoring the one below the oreb block.%n%n5-10 possible points from fertilizing your crops. You can use fertilizer on a crop to increase its nutrient stat. Fertilizer caps at 199 which gives 10 nutrients, but can be applied again only if the crop drops below 100 fertilizer points. So for high stat crops it's safe to assume and make tests for 100 fertilizer points as it's a given constant unlike 199->100 values. You can apply bone meal, IC2 fertilizer and Forestry fertilizer to a crop by hand. Forestry manual orchard multifarm and crop matron does this automatically when supplied with fertilizer (the multifarm needs fertilizer to harvest crops as well).%n%n§1Humidity§r:%n2 free points from using dirt as farmland, as when farmland gets hydrated by water(turns darker) it gains 2 humidity points. This is why other blocks for this suck, since they don't give this bonus.%n%n10 possible points from hydrating your crop. Similar to fertilizing, water can be applied to crop up to 200 points, which is 10 humidity points, although unlike fertilizer it does not need to drop below value of 100, water can be applied over and over keeping it at constant 200 points. You can apply water to your crop by using IC2 hydration cells by hand, or let your Forestry manual orchard multifarm and crop matron do it automatically. The multifarm needs water to harvest crops as well though.%n%n§6Air Quality§r:%n4 potential free points from empty space around crop. A crop checks for empty spaces to calculate bonus air quality points, it gives up to 4 points, 1 point for each 2 empty spaces. It only counts full blocks or cropsticks though. If you like looks, you'll probably have to sacrifice this.%n%n4 free points from height of your farm. You get 1 free point every 15 blocks starting at Y79.%n79 - 1 point%n94 - 2 points%n109 - 3 points%n124 - 4 points%n%n2 free points from no opaque blocks above the crop. You can place glass above and you won't lose the bonus since it's a transparent block. You cannot use dark glass, several layers of water, or gaseous tenebrae to get around this if your crop likes the dark. Unless you only let it grow at night I guess.%n%n§aGrowability§r:%nYour crop will require a certain level of NHA, try to reach or surpass this, or the crop will either not grow, or even die (disappear). Each crop is different, and higher tiers (and stats) require more. It's generally easy to meet though, as long as you're in a good biome.%n%nGrowability is determined by the difference between what the crop needs in terms of NHA, and what it actually has. If you have more than what you need it grows faster. This is why you don't want a maxed resistance stat, since higher stats will slow it down.
-
-# Quest: Min-Maxing Crops
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK0g.name=Min-Maxing Crops
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK0g.desc=Breed stickreed until it's around 20/31/10, then create other crops with it, they inherit the stats. Crossbreeding with the ones you got on the way to raise their stats is also good.%n%nSet up camp in a swamp/jungle type biome around Y130, or use the biome changing methods to make one. This is way faster when breeding crops, not just growing them for drops.%n%nUse multifarms, always. You can use them together with the harvesters if you have super fast crops. Or just use more farms. Or add more gearboxes.%n%nDark glass is nice for oreberry crops.%n%nTo avoid weeding, checkerboard up and down on your multifarm. It may look stupid, but no weeds, Gr 23->31, and +2 AQ!%n%nUse fertilia to create more fertilizer.%n%nYou can replace mob farms with crops if you don't care about the other drops. Infernals drop special stuff though.%n%nUse WAs in TE mode to accelerate crops if you need it. Mostly useful for breeding, statting up, and for the primordial berry crop.%n%nAs you tier up, you can create 31/31/0 crops with the machines and UUM. It's up to you whether it's worth it though.%n%nGo do bees if you want something higher than EV tier materials.
-
 # Quest: Barley Time
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKpQ.name=Barley Time
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKpQ.desc=It's time to plant some barley to make some bread. If you can't find wheat, barley is a good alternative source to make flour.
-
-# Quest: Genetically Modifying Your Plants
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKqQ.name=Genetically Modifying Your Plants
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKqQ.desc=There are 3 machines crucial to doing this. You'll also need bucketloads of power, and the same (literally) of UUM.%n%nAll 3 can only work on crops up to a certain tier, determined by the tier of the machine you made and the crop you're working with. Basically, it's (crop tier+2)/2, rounded up. So an LV machine can work on T1 crops, but an MV one can work on T3.%n%n[note]LV=T1, MV=T3, HV=T5, EV=T7, IV=T9, LuV=T11, ZPM=T13, UV=T15, UHV=T17.[/note]%n%nFirst is the Crop Gene Extractor:%nIt takes an existing crop seedbag, an empty §2Data Orb§r (See EV quests), and §61A§r while running. Use a circuit to determine what stat to copy to the Data Orb. You'll probably want either 23-31-0, or 31-31-0 for max speed and output, since you won't be breeding from these. Remember to take proper precautions if going over 23, as they will attempt to weed everything around them. There's a significant number of crops, so you'll probably need a ton of Orbs too, unless you want to reuse them. [warn]Remember to keep a Data Orb or seedbag backup![/warn]%n%nSecond is the Crop Synthesizer:%nIt takes §24 Data Orbs§r, one for each of the types from the CGE, §51000L of UUM per crop tier/2§r (this is not rounded), and §616A§r while running. It will create a new crop seedbag with the desired stats.%n%nLastly is the Crop Replicator:%nIt takes an existing crop seedbag, §51000L per crop tier of UUM§r, and §66A§r while running. After finishing, it gives you back two of the same seedbag, duplicating it. This takes twice as much UUM, but less power, it's up to you whether that's worth it.
 
 # Quest: Cooking for Blockheads
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALTw.name=Cooking for Blockheads
@@ -5121,6 +4897,655 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALUg.desc=Rotten Flesh is not really heal
 # Quest: A Magical Lunchbox?
 betterquesting.quest.ogXyVJTpQ8ONbZthhrupqg.name=A Magical Lunchbox?
 betterquesting.quest.ogXyVJTpQ8ONbZthhrupqg.desc=Given sufficient magical prowess, the Thaumaturgist need not waste their time physically consuming food. The Talisman of Nourishment can hold up to 1000 hunger and 1000 saturation points, and will feed you automatically. %n%nYou can fill it up by placing food items on your hotbar, the more valuable the food, the more points added.%n%n[note]Careful not to place food items you want to keep in your hotbar while you have it on you![/note]
+
+
+## Quest Line: The Green Revolution
+betterquesting.questline.GbGDSZsbQUekpRKT9ZPdjw.name=The Green Revolution
+betterquesting.questline.GbGDSZsbQUekpRKT9ZPdjw.desc=And remember crawlers: Kill, Kill, Kill! But only plants.
+
+# Quest: Mutation Titration
+betterquesting.quest.0P-0LIDsRa-0r0SDSfZTUg.name=Mutation Titration
+betterquesting.quest.0P-0LIDsRa-0r0SDSfZTUg.desc=Before going any further you really should craft a lot,[note] and I mean a lot[/note], of crop sticks. Hope you like chopping trees and crafting saws! §o§oYou should've seen the old recipe...%n%n§o§rEach of the adjacent quest groupings represent a different category of crops found within the mod. I would recommend you look first at the quests focusing on [warn]Improving Your Crops[/warn] and [warn]Controlled Breeding[/warn].%n%nWhile not every crop will produce a useful harvest, they very well may deterministically breed into a useful crop.%n%n%n[note]Be free farmhand~![/note]
+
+# Quest: Vanilla Agriculture
+betterquesting.quest.0pG3BaWpTQWJLWKudvCdcw.name=Vanilla Agriculture
+betterquesting.quest.0pG3BaWpTQWJLWKudvCdcw.desc=Most plants from vanilla Minecraft can simply be placed onto crop sticks to create their associated CropsNH crop. This is especially helpful when it comes to Bonsais, which will allow you to more easily (and less laggily) produce the hectares of wood you will need for your progression.
+
+# Quest: Salty!
+betterquesting.quest.1b0GPUIOTL2vkERs7LqFtg.name=Salty!
+betterquesting.quest.1b0GPUIOTL2vkERs7LqFtg.desc=These Salty Roots will break down into bountiful materials once you're able to seperate them in a Chemical Bath.
+
+# Quest: Aluminium Berries
+betterquesting.quest.1rhK6oRBQ-qc6YJxPn4CuQ.name=Aluminium Berries
+betterquesting.quest.1rhK6oRBQ-qc6YJxPn4CuQ.desc=Maybe this will stop you from tearing down entire mesas worth of terracotta.
+
+# Quest: Passive Production
+betterquesting.quest.20MjFyzJQhWPEPkK0EZDeA.name=Passive Production
+betterquesting.quest.20MjFyzJQhWPEPkK0EZDeA.desc=One of the main reasons for getting into CropsNH is the passive production of resources. %n%nThe many crops attached to this quest will generally provide you the direct resource you are looking for. This can be perfect for getting that extra bit of aluminium you need to push through MV, or for generating a passive amount of basic minerals long before any other techniques become available.%n%nKeep in mind the under-soil requirements for these crops especially. To passively produce aluminium, you will first need blocks of aluminium or bauxite ore.
+
+# Quest: Controlled Breeding
+betterquesting.quest.39AFOCfITcSl7WMmATD3Aw.name=Controlled Breeding
+betterquesting.quest.39AFOCfITcSl7WMmATD3Aw.desc=To breed more advanced crops, you will have to start taking advantage of Breeding Pools. Pools represent groups of species which share a genetic background, and can therefore randomly mutate into each other when breeding on crop sticks. %n%nWhen breeding, deterministic crosses will always take priority over pools.%n%nWhether by pools or determinism, new crops will only be produced if the environment of the relevant double crop sticks matches the required environment of the new crop.%n%nFor you, this will be a key concept to take advantage of when attempting to breed many of the different species of Liliums found in CropsNH.
+
+# Quest: Oh-Oh-Oh-Olivia
+betterquesting.quest.3GtBaKquRvWXh6S4VqcD3Q.name=Oh-Oh-Oh-Olivia
+betterquesting.quest.3GtBaKquRvWXh6S4VqcD3Q.desc=You know-oh-oh Olivine?
+
+# Quest: Slimy Seeds
+betterquesting.quest.4hn4bXWvSay8UYjckHDH4A.name=Slimy Seeds
+betterquesting.quest.4hn4bXWvSay8UYjckHDH4A.desc=The slime plant represents yet another way to produce those sticky materials needed for rubber and therefore electronic components.
+
+# Quest: Tine
+betterquesting.quest.5K0m6kADSVqZuouYNTEYWw.name=Tine
+betterquesting.quest.5K0m6kADSVqZuouYNTEYWw.desc=Tine leaves will 4x your tin ore.
+
+# Quest: Nightshade
+betterquesting.quest.5KieQ6A4R1CGnGQd4CuQXw.name=Nightshade
+betterquesting.quest.5KieQ6A4R1CGnGQd4CuQXw.desc=With the intense amount of magical energy the Nightshade eminates, you will need an Industrial Farm to produce and harvest it.
+
+# Quest: Enviromental Upgrades
+betterquesting.quest.5vhRsuqOTjeLbozeMGcweA.name=Enviromental Upgrades
+betterquesting.quest.5vhRsuqOTjeLbozeMGcweA.desc=Without magically changing the biome which your controller is located in, you will have to apply advanced biome simulation technology to your farm.
+
+# Quest: Tools of the Trade 3 - Feeding(?) Your Crops
+betterquesting.quest.6HEnaqUVQuWHhHc3MAgQnA.name=Tools of the Trade 3 - Feeding(?) Your Crops
+betterquesting.quest.6HEnaqUVQuWHhHc3MAgQnA.desc=That water source block doesn't really do it for your little guys. They will need a bit more attention, so use a watering can to increase their hydration stat.
+
+# Quest: Other Fruits
+betterquesting.quest.7UxcGl38S4yX3bIg7EdN-Q.name=Other Fruits
+betterquesting.quest.7UxcGl38S4yX3bIg7EdN-Q.desc=Yes, tomatoes and chillies are technically fruits.
+
+# Quest: Don't Forget Your Veggies
+betterquesting.quest.82cQe4FcTTS5D8SuprUeaw.name=Don't Forget Your Veggies
+betterquesting.quest.82cQe4FcTTS5D8SuprUeaw.desc=Have you eaten your veggies today? That's what I thought.
+
+# Quest: Seed Generator
+betterquesting.quest.8VW6FtZZRf6SAviHhNftWg.name=Seed Generator
+betterquesting.quest.8VW6FtZZRf6SAviHhNftWg.desc=Seed Duplication Rework:%n%nUnlocked in LV as the recipe no longer requires a field generator.%nUsing the Seed Generator, players can replicate an existing seed as long as they provide the needed Enriched Fertilizer.%nSome crops may require an item as a catalyst to be replicated.%nFerru will require iron ingots/blocks.%nBlazereed will require blaze rods/blaze blocks.%nSalty Roots will require salt or rock salt.%nFertilizer cost is based on the stats of the seed%n100L per stat, so 31/31/31 sed will require 9.3KL fertilizer per seed.%nBase processing time of 20 seconds (LV @ 30eu/t).%nThe goal is about 15 minutes of runtime for a basic multi or field on a minimum-tier machine.%nSeeds can be blacklisted (e.g., Primordial Pearl).%nThis will be indicated in the seed’s tooltip.%nSetting the crossing threshold to -1 will blacklist the seed.%n
+
+# Quest: Not The Pipes
+betterquesting.quest.8XwasO5LQDW-ynx3pu2Zeg.name=Not The Pipes
+betterquesting.quest.8XwasO5LQDW-ynx3pu2Zeg.desc=Stop using this for your pipes please. I swear. It's like you don't want a working brain. The throughput of potin just isn't worth it!
+
+# Quest: Primordial "Berries"
+betterquesting.quest.8vumBDgBToW6ngAzW1qF2Q.name=Primordial "Berries"
+betterquesting.quest.8vumBDgBToW6ngAzW1qF2Q.desc=You'll need a block of Ichorium to grow these bad boys so, don't expect them to ease your pathway to thaumic mastery. %nThey will also require an Industrial Farm to grow.
+
+# Quest: Jack, is that you?
+betterquesting.quest.9IaKfZelRA2GaWVUgFvJQg.name=Jack, is that you?
+betterquesting.quest.9IaKfZelRA2GaWVUgFvJQg.desc=Magic beans! Unfortunately no stalks into the sky here though.
+
+# Quest: Silver And... Silver
+betterquesting.quest.9mlSMwwETgGeMJTOggJfvg.name=Silver And... Silver
+betterquesting.quest.9mlSMwwETgGeMJTOggJfvg.desc=Silver dust!
+
+# Quest: Rubber Bonsai
+betterquesting.quest.A21peFIQTEKAgY7eH4tjLw.name=Rubber Bonsai
+betterquesting.quest.A21peFIQTEKAgY7eH4tjLw.desc=Easy rubber wood and sticky resin! %n%nThese bonsai present a more complicated alternative to other rubber production methods, while providing some more highly useful materials.
+
+# Quest: Speed Up Your Plant Growth
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAC0g.name=Speed Up Your Plant Growth
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAC0g.desc=Fertilizer is a key resource to produce and consume. It has two key features:%n1. Fertilizer speeds up crop growth by boosting the nutrient score.%n2. Using fertilizer prevents stat loss during crop breeding. Meaning the only options for stat changes become (0,+1+,+2, etc).
+
+# Quest: Becoming a Florist
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAC1Q.name=Becoming a Florist
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAC1Q.desc=Time to get in touch with your inner florist, arrange these flowers well and they will help you breed more useful species!%n%n[note]If you actually want these for dyes, go make the rainbow cactus instead.[/note]
+
+# Quest: Tools of the Trade 1 - Less Dirty Hands
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE9g.name=Tools of the Trade 1 - Less Dirty Hands
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE9g.desc=This item is a combined Trowel, Hoe, and Shovel. The basic spade will allow you to easily clear weeds from your sticks, till soil, and potentially obtain bonus seeds from simply harvesting the crops (right-click) without breaking them. Each point of resistance increases the chance of getting a seed when harvesting with the basic spade as follows:%n%n1 resist = 3%%%n10 resist = 32%%%n21 resist = 100%%
+
+# Quest: Hops, The Source of Beer
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFCA.name=Hops, The Source of Beer
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFCA.desc=If you don't want pure alcohol, but beer, breed some crops!
+
+# Quest: Babies First Harvest Automaton
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBg.name=Babies First Harvest Automaton
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBg.desc=The Crop Manager is a LV machine that will monitor crops in a 11x5x11 area and automatically apply fertilizer, Weed-EX, and Water as needed. Water can be pumped in directly or use IC2 Universal water cells, normal cells aren't returned when they're used.%n%nThe Crop Manager is NOT rainproof, but you can cover it with a water source block just fine!%n%nTilled dirt still requires a nearby water block to be hydrated as the Manager will only water the crop, not the soil. Try putting a lily pad on top so it isn't annoying to walk on, or using Garden Soil instead.
+
+# Quest: Weed-EX
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBw.name=Weed-EX
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBw.desc=Weed-EX is used to prevent the growth of weeds on empty crop blocks at the cost of some Weed-EX. %n%nIt can also be placed in a Crop Manager to automatically apply it to your crops.
+
+# Quest: Sticky Canes
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGQA.name=Sticky Canes
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGQA.desc=While Sugarcane alone is quite useful, its close relative Sticky Cane is even moreso! Thanks to it's production of sticky resin, it is a near universally used crop for the production of rubber in all sorts of electronics.
+
+# Quest: Feeling a Little Like a Noob?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGQw.name=Feeling a Little Like a Noob?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGQw.desc=You should grow some essence berries to level up!
+
+# Quest: Put the Petal to the Metal...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRA.name=Put the Petal to the Metal...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRA.desc=... with the Bio Diesel you produce from Canola!%n%n%nWhile some still see Canola as nothing but a younger brother to the Goldfish, maybe you will find something greater hiding behind its oily guise.
+
+# Quest: Warts!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRQ.name=Warts!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRQ.desc=I haven't been feeling well lately. Would you grow me some Terra Wart? They're better than milk, since they only remove negative effects, and stack to 64. Really nice when fighting that Alchemist infernal! Or moving super tanks.%n%nThey also have some quite rare essentia on them, very useful for the budding thaumaturge.
+
+# Quest: Sweet Tooth
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRg.name=Sweet Tooth
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRg.desc=Sugarcane not keeping up with your sugary needs? Sugar beets give 8 sugar per beet.%n%nHmm, now I want some candy. Give me some sugar from your beets. I'll share some with you.%n%n[note]Electrolyze the sugar into O2 for an easy source.[/note]
+
+# Quest: More Red, Less Wheat
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGyQ.name=More Red, Less Wheat
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGyQ.desc=Simple, easy, redstone-girl.
+
+# Quest: Tools Of The Trade 5 - Electronic Scanning
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHAg.name=Tools Of The Trade 5 - Electronic Scanning
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHAg.desc=With the portable scanner, you can get the crop's stats and environmental info by right-clicking it. It also stays scanned after getting the seed. Look for the portable scanner quest after the EBF in Multiblock Goals.
+
+# Quest: New Threads
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHBQ.name=New Threads
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHBQ.desc=Tired of killing spiders for string? Grow some flax for an easy non-biting source of string, add in some cotton and weave them together and you're almost to tanned leather! Just need some Corium now...
+
+# Quest: The Ground is Crying
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHBg.name=The Ground is Crying
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHBg.desc=Need an alternate source of Chlorine? Breed some Tearstalks to get Ghast Tears for making salt water.%n%n;-;
+
+# Quest: Blazes Too Hard to Kill?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHBw.name=Blazes Too Hard to Kill?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHBw.desc=Then grow some Blazereed to save yourself the trouble.
+
+# Quest: A Proposal?!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHCA.name=A Proposal?!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHCA.desc=Need to impress a lady or gent? How about growing diamonds on reeds...
+
+# Quest: Why Does My Plant Bawk Like a Chicken?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHCQ.name=Why Does My Plant Bawk Like a Chicken?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHCQ.desc=Because it can lay eggs!
+
+# Quest: Void Berries
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHCw.name=Void Berries
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHCw.desc=Like little mini black holes.%n%nDon't try to eat them, you'll never feel full again.
+
+# Quest: Positively Glowing
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHDg.name=Positively Glowing
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHDg.desc=There are a number of different ways to produce that wonderous material known as glowstone dust, pick your poision. %n%nNo matter which crop you end up picking, the mass centrifuging of glowstone dust can produce a number of useful materials passively.
+
+# Quest: Cover Crops? Who Needs Those?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHEA.name=Cover Crops? Who Needs Those?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHEA.desc=This crop can produce its own fertilizer! Alongside other byproducts, making it one of the best crops to get statted up early. Once you have infinite fertilizer, breeding for stats gets a lot easier.
+
+# Quest: Renewable Oil - No Diagenesis Required
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHEQ.name=Renewable Oil - No Diagenesis Required
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHEQ.desc=Oil from crops? Makes as much sense as oil from bees!%n%nIf you're looking for passive oil before the MV Breeder, there is another crop that can help but it is §omuch§r slower.
+
+# Quest: Tools of the Trade 2 - Mendelian Identification
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHgA.name=Tools of the Trade 2 - Mendelian Identification
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHgA.desc=When breeding new crops, you will come upon hundreds of different species! While every species has a unique texture which a dedicated farmhand will be able to discern between, this tool will clear things up much quicker for you. %n%nAfter using it you can tell the following:%n- Species%n- Stats%n- Crop tier%n- Whether it can grow (many crops have special requirements)%n- Whether you can harvest it%n- Growth stage and progress to the next
+
+# Quest: Wither Skulls Easy Style
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHhw.name=Wither Skulls Easy Style
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHhw.desc=Withereed is a rare species which produces coal but, rarely, can also produce fully formed wither skulls!
+
+# Quest: Son of Odin One-Eye
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHiA.name=Son of Odin One-Eye
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHiA.desc=The God of Thunder crop lets you increase your Thorium ore from the Nether to 4x. It also will give you Uranium you can use for Reactoria crops.
+
+# Quest: Reactoria
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHiQ.name=Reactoria
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHiQ.desc=Reactoria crops will drop Reactoria leaves which will 4x your Pitchblende ore.
+
+# Quest: Vegan Leather?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHiw.name=Vegan Leather?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHiw.desc=If you want to save your cows and horses for milk and... glue... you can use Corium to produce your leather instead.
+
+# Quest: Explosive Growth
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHjA.name=Explosive Growth
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHjA.desc=Creeperweed can supply your gunpowder without needing to deal with bothersome explosions.
+
+# Quest: Plant Based Milk
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHjQ.name=Plant Based Milk
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHjQ.desc=Oat Milk? Nay.%nSoy Milk? Nay.%n%nWart Milk. Say goodbye to your cattle.
+
+# Quest: Better Put On That Rubber Suit
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHnQ.name=Better Put On That Rubber Suit
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHnQ.desc=Troll plant! What does it do? Troll you! %n%n%nAnd give you cancer.
+
+# Quest: Who the Hell is Bob?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHng.name=Who the Hell is Bob?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHng.desc=Want emeralds for trading or other uses? These are the source.
+
+# Quest: Deep Blue Sea of Sapphires
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI2Q.name=Deep Blue Sea of Sapphires
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI2Q.desc=You'll need a block of Sapphire beneath these beauties to get them to maturity. They can be a good source of aluminium and oxygen in late LV once you've gotten your first EBF but there are better options...
+
+# Quest: Red Touch Yellow
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI2g.name=Red Touch Yellow
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI2g.desc=Garnets are actually more valuable than Sapphires. They're an early source of Chrome and Manganese, which you'll need for HV machines. You can also centrifuge Pyrope, Almandine, and Spessartine Dust with Nitric Acid to obtain a variety of additional passive resources. To reach maturity, you will need a block of Garnet (either type) beneath this crop. You can get Garnets from the HV macerator and Spessartine Ore, or you can use an Implosion Compressor to turn Garnet Sands into crystals to make blocks.%n%nTo process all products of Garnydiania, you may find those steam multiblock machines quite useful!
+
+# Quest: Creeping Climbers
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIAA.name=Creeping Climbers
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIAA.desc=Here are a few crops to spice up your solarpunk base, or help you climb up a treehouse. %n%nNo thousand block treck to the nearest Temperate Rainforest required here!
+
+# Quest: The Art of Bonsai
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJZQ.name=The Art of Bonsai
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJZQ.desc=By simply planting saplings onto crop sticks, you've found you can create miniature versions of the matching trees! How cute!%n%nBonsai trees will give you drops just like a regular tree, but without the wasted server processing time of placing all the tree blocks just to chop them down again. This can be significant overhead on a server, so if you want to be nice to your host, breed some bonsai. 
+
+# Quest: Even More Stats
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK0Q.name=Even More Stats
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK0Q.desc=There are seven more stats to worry about too.%n%n§7Fertilizer§r, §9Water§r, and [warn]Weed-EX[/warn] are all about how much of these are on the crop stick rather than the crop itself. They're all about how much was applied and is left of that.%n%n§2Nutrients§r, §1Humidity§r, and §6Air Quality§r are all about the environment. They're also affected by the Fertilizer and Water stats.%n%nNutrients and Humidity are mostly about the right biome, with swamp and rainforest types (hot+humid) being the best, but you can also get some extra stats by setting up right.%n%n§2Nutrients§r:%n3 possible free points from dirt under the farmland block, 2 for plants that require a specific block. So optimally always make sure that the required block is at the bottommost bottom in the column, because it checks in chain, not certain height. For example: cropstick -> farmland -> dirt -> ore block -> dirt, it will only register 1 dirt, ignoring the one below the ore block.%n%n5-10 possible points from fertilizing your crops. You can use fertilizer on a crop to increase its nutrient stat. Fertilizer caps at 199 which gives 10 nutrients, but can be applied again only if the crop drops below 100 fertilizer points. So for high stat crops it's safe to assume and make tests for 100 fertilizer points as it's a given constant unlike 199->100 values. You can apply bone meal, IC2 fertilizer and Forestry fertilizer to a crop by hand. Forestry manual orchard multifarm and crop matron does this automatically when supplied with fertilizer (the multifarm needs fertilizer to harvest crops as well).%n%n§1Humidity§r:%n2 free points from using dirt as farmland, as when farmland gets hydrated by water (turns darker) it gains 2 humidity points. This is why other blocks for this aren't as good, since they don't give this bonus.%n%n10 possible points from hydrating your crop. Similar to fertilizing, water can be applied to a crop up to 200 points, which is 10 humidity points, although unlike fertilizer it does not need to drop below value of 100, water can be applied over and over keeping it at constant 200 points. You can apply water to your crop by using IC2 hydration cells by hand, or let your Forestry manual orchard multifarm and crop matron do it automatically. The multifarm needs water to harvest crops as well though.%n%n§6Air Quality§r:%n4 potential free points from empty space around crop. A crop checks for empty spaces to calculate bonus air quality points, it gives up to 4 points, 1 point for each 2 empty spaces. It only counts full blocks or cropsticks though. If you like looks, you'll probably have to sacrifice this.%n%n4 free points from height of your farm. You get 1 free point every 15 blocks starting at Y79.%n79 - 1 point%n94 - 2 points%n109 - 3 points%n124 - 4 points%n%n2 free points from no opaque blocks above the crop. You can place glass above and you won't lose the bonus since it's a transparent block. You cannot use dark glass, several layers of water, or gaseous tenebrae to get around this if your crop likes the dark. Unless you only let it grow at night, I guess.%n%n§aGrowability§r:%nYour crop will require a certain level of NHA, try to reach or surpass this, or the crop will either not grow, or even die (disappear). Each crop is different, and higher tiers (and stats) require more. It's generally easy to meet though, as long as you're in a good biome.%n%nGrowability is determined by the difference between what the crop needs in terms of NHA and what it actually has. If you have more than what you need it grows faster. This is why you don't want a maxed resistance stat, since higher stats will slow it down.
+
+# Quest: Improving Your Crops
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK0g.name=Improving Your Crops
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK0g.desc=A key part of CropsNH is improving the stats of your crops. There is always a chance for this to occur whenever a new crop grows - whether by self propagation or crossing...%n%n%n§aGrowth§r:%n- How fast it grows, with higher = faster. Specifically it increases the growth points your crop gets per tick. If it gets to 24+, your crop acts like a weed, so make sure you increase that resistance stat in parallel.%n%n§9Gain§r:%n- With higher levels of gain, you get more when you harvest your crops! Pretty self explanatory.%n%n§eResistance§r:%n- A resistance of 10 will guarantee a seed drop with a spade. 20 and 30 will drop 2 or 3 seeds, respectively. A resistance of 31 will guarantee a seed drop without a spade.%n%n- If the Growth stat is greater than 23, resistance will help prevent weeds from spreading. A resistance of 31 will stop the crop from spreading weeds entirely.
+
+# Quest: Synthesizer
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKqQ.name=Synthesizer
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKqQ.desc=There are 3 machines crucial to doing this. You'll also need bucketloads of power, and the same (literally) of UUM.%n%nAll 3 can only work on crops up to a certain tier, determined by the tier of the machine you made and the crop you're working with. Basically, it's (crop tier+2)/2, rounded up. So an LV machine can work on T1 crops, but an MV one can work on T3.%n%n[note]LV=T1, MV=T3, HV=T5, EV=T7, IV=T9, LuV=T11, ZPM=T13, UV=T15, UHV=T17.[/note]%n%nFirst is the Crop Gene Extractor:%nIt takes an existing crop seedbag, an empty §2Data Orb§r (See EV quests), and §61A§r while running. Use a circuit to determine what stat to copy to the Data Orb. You'll probably want either 23-31-0, or 31-31-0 for max speed and output, since you won't be breeding from these. Remember to take proper precautions if going over 23, as they will attempt to weed everything around them. There's a significant number of crops, so you'll probably need a ton of Orbs too, unless you want to reuse them. [warn]Remember to keep a Data Orb or seedbag backup![/warn]%n%nSecond is the Crop Synthesizer:%nIt takes §24 Data Orbs§r, one for each of the types from the CGE, §51000L of UUM per crop tier/2§r (this is not rounded), and §616A§r while running. It will create a new crop seedbag with the desired stats.%n%nLastly is the Crop Replicator:%nIt takes an existing crop seedbag, §51000L per crop tier of UUM§r, and §66A§r while running. After finishing, it gives you back two of the same seedbag, duplicating it. This takes twice as much UUM, but less power, it's up to you whether that's worth it.
+
+# Quest: Argentia
+betterquesting.quest.APU0Ykh9RMae9R7XqkXTKQ.name=Argentia
+betterquesting.quest.APU0Ykh9RMae9R7XqkXTKQ.desc=Argentia leaves will 4x your silver ore.
+
+# Quest: Pyrolusium
+betterquesting.quest.BuV2ZuQvRIOJeRNH4xtvoA.name=Pyrolusium
+betterquesting.quest.BuV2ZuQvRIOJeRNH4xtvoA.desc=Pyrolusium leaves will 4x your manganese ore.
+
+# Quest: Soul Sand Lilies
+betterquesting.quest.Bx86-2AfQKadFFMHdh3now.name=Soul Sand Lilies
+betterquesting.quest.Bx86-2AfQKadFFMHdh3now.desc=Oh hey, don't void that stuff, centrifuge into something useful? (◕‿↼)
+
+# Quest: Lucky!
+betterquesting.quest.E3P20_dFSUiPdVSkma2iTA.name=Lucky!
+betterquesting.quest.E3P20_dFSUiPdVSkma2iTA.desc=Lazulia will produce lapis dust but not crystals.
+
+# Quest: Not A Mandrake
+betterquesting.quest.ECvjvBNURz-spVF95wOiJw.name=Not A Mandrake
+betterquesting.quest.ECvjvBNURz-spVF95wOiJw.desc=This live root won't scream when you harvest it. At least, I don't think it will.
+
+# Quest: Platina
+betterquesting.quest.ExzkZigMSNafnvdI-5apjg.name=Platina
+betterquesting.quest.ExzkZigMSNafnvdI-5apjg.desc=Platina leaves will 4x your plat line ores.
+
+# Quest: Basic Lilies
+betterquesting.quest.FB6XbhKLRk-QQEo2PsjGjA.name=Basic Lilies
+betterquesting.quest.FB6XbhKLRk-QQEo2PsjGjA.desc=These Liliums aren't the most useful, but if you're wanting to build with say Tuff or Andesite this should ease your search for resources somewhat.%n%nRemember that these crops can only be bred when their environmental requirements are met. In this case, use those stones from before as your under-soil.
+
+# Quest: Golden Berries
+betterquesting.quest.FXUYD5RRT4K7AHMMpnvOIw.name=Golden Berries
+betterquesting.quest.FXUYD5RRT4K7AHMMpnvOIw.desc=Gold oreberries!
+
+# Quest: Gem Crops
+betterquesting.quest.F_Ef5AtKQbSGmM24_LottQ.name=Gem Crops
+betterquesting.quest.F_Ef5AtKQbSGmM24_LottQ.desc=These crops crystalize and produce their related crystals and dusts straight from the soil.%n%nAll* of these crops will need a sub-soil of their related material whether block or ore.
+
+# Quest: Leafy... Grains?
+betterquesting.quest.FugIhOU6Q12Iq764ZRoMEA.name=Leafy... Grains?
+betterquesting.quest.FugIhOU6Q12Iq764ZRoMEA.desc=All of the above could be useful for the production of certain drinks. But really all you'll be using them for is getting to the next crop,
+
+# Quest: End Stone Lilies
+betterquesting.quest.GV1Cx5SnSyKETKjMO6FUcQ.name=End Stone Lilies
+betterquesting.quest.GV1Cx5SnSyKETKjMO6FUcQ.desc=Once you can actually get your hand on some endstone, these babies will allow for a §olot §o§rof high level passive material production.
+
+# Quest: Enviromental Preferences
+betterquesting.quest.Hgj_XYnbRj2JGb8I-8QnLQ.name=Enviromental Preferences
+betterquesting.quest.Hgj_XYnbRj2JGb8I-8QnLQ.desc=Instead of just using a biome-based modifier for nutrients and humidity, a crop will look for the tags of the biome it’s in and apply a modifier based on the number of “favored” tags found in the biome.%n%nHaving the proper biome tags will provide a significant “nutrient” boost to your crops, resulting in a noticeable effect on growth speed. (+14 nutrient points per tag)%nYou can only benefit from up to 2 biome tags.%nIt is still possible to simulate up to 1 preferred biome tag by planting your crops in a high-humidity (80%%+) location.%nThe bonus scales linearly with humidity between 50%% and 80%%.%nValues below 50%% will not provide any bonuses.%nValues above 80%% will cap the bonus at the equivalent of 1 preferred biome tag.%nIf any favored biome tag is present in the current biome, the high humidity bonus will be ignored.%n
+
+# Quest: Evil...
+betterquesting.quest.If475S_dQ5y_f8KcSRHeXQ.name=Evil...
+betterquesting.quest.If475S_dQ5y_f8KcSRHeXQ.desc=While it can't produce certus quartz crystals, it will give you plenty of the relevant nether crystal dusts as well as straight nether quartz.%n%n*Only needs netherack soil, no sub-soil neccesary here.
+
+# Quest: A Summary of Crossbreeding
+betterquesting.quest.Ik4r-iNLSEK_uq5FXqspQA.name=A Summary of Crossbreeding
+betterquesting.quest.Ik4r-iNLSEK_uq5FXqspQA.desc=When crops breed, the resulting stats are the average of the parents' stats plus a random value between -2 and 4.%n%nEssentially, the variation pool will be a fixed (-2 -> +4). If all parents have fertilizer in them, stat loss is prevented. (0 -> +4)%n%nDeterministic breeding is similar to how bees work, where you must bring the right species together.%nSome situations require more than two parents.%nAdvanced crops (above MV materials) will require the breeding machine.%n%nLow-ish-tier crops will also have access to breeding pools, where similar crops may be bred with others of the same “type” to produce other similar crops.
+
+# Quest: Thauminite Berries
+betterquesting.quest.J04fEo0DTReAF9BJlQZ9RA.name=Thauminite Berries
+betterquesting.quest.J04fEo0DTReAF9BJlQZ9RA.desc=Less blue blueberries. Thauminite oreberries!
+
+# Quest: Ardite Berries
+betterquesting.quest.JTmxoCTLTG2QXt6LoJhsBA.name=Ardite Berries
+betterquesting.quest.JTmxoCTLTG2QXt6LoJhsBA.desc=Ardite oreberries!
+
+# Quest: Weeds
+betterquesting.quest.JcFOAl5pTtKNnMY61dFV_w.name=Weeds
+betterquesting.quest.JcFOAl5pTtKNnMY61dFV_w.desc=Weeds will show up from time to time on empty single or double crop sticks. They will spread from there and take over all your precious crops, so clear the weed with your spade (or fist) before you start desiring to reload the last backup. %n%nUsing smaller fields will make things a lot easier, at least until you can make Weed-Ex, so if you forget about them you only lose one or two seeds.
+
+# Quest: Plant Diseases
+betterquesting.quest.JgfP8eDqS-mDGcjgk-m3Dg.name=Plant Diseases
+betterquesting.quest.JgfP8eDqS-mDGcjgk-m3Dg.desc=No Description
+
+# Quest: Iridine
+betterquesting.quest.KPORP3a2Q6K6jrjXhgoksA.name=Iridine
+betterquesting.quest.KPORP3a2Q6K6jrjXhgoksA.desc=Iridine leaves will 4x your iridium ore.
+
+# Quest: Spruce Bonsai
+betterquesting.quest.L-unyIeFSCmjU1szB1sXwg.name=Spruce Bonsai
+betterquesting.quest.L-unyIeFSCmjU1szB1sXwg.desc=Easy spruce wood!
+
+# Quest: Farming the Graveyard
+betterquesting.quest.Lop-uKsMQMiGgodxs9pUjg.name=Farming the Graveyard
+betterquesting.quest.Lop-uKsMQMiGgodxs9pUjg.desc=While surveying species in the wild, you found some unique sproutlings reaching from a corpse. I wonder what these will provide.
+
+# Quest: Carrot Stock
+betterquesting.quest.MDRmD3RyR8CIdqdpll_74w.name=Carrot Stock
+betterquesting.quest.MDRmD3RyR8CIdqdpll_74w.desc=Now that you've stolen the food from your harmless neighbors, or found it in nature like a considerate person, you must now plant these carrots onto crop sticks. Wait until the crop is §3fully grown§r and left-click it for the best chance to obtain the seeds.%n%nNo, the undomesticated Wild Carrot won't work. What are you, a rabbit?
+
+# Quest: Enriched Fertilizer
+betterquesting.quest.Nu5EfJtNQ0qIUW0Lt0E4yA.name=Enriched Fertilizer
+betterquesting.quest.Nu5EfJtNQ0qIUW0Lt0E4yA.desc=Enriched fertilizer will allow you to advance to the next stage of crop technology. 
+
+# Quest: Crop Sticks
+betterquesting.quest.O65QUnR0QuGSoQrsUMTB1g.name=Crop Sticks
+betterquesting.quest.O65QUnR0QuGSoQrsUMTB1g.desc=To do anything in CropsNH, you first need crop sticks. These will act as the supports for your plants to grow upon. Once your plants mature, a double crop stick will allow your plants to crossbreed with any crops directly adjacent to the same double crop stick.%n%nAs new species grow on your crop sticks you can harvest them by right-clicking, which won't remove the seed. Left-clicking will break the seed and potentially drop a seedbag. Spades will help you improve your chances at obtaining seeds when you do this, as will the Resistance trait.%n%nNote in NEI the varying types of soil, undersoil, and environmental requirements for different crops!
+
+# Quest: Industrial Greenhouse Upgrades
+betterquesting.quest.OACjbLjSS4-ShbpKb5zWKQ.name=Industrial Greenhouse Upgrades
+betterquesting.quest.OACjbLjSS4-ShbpKb5zWKQ.desc=No Description
+
+# Quest: Processing Multipliers
+betterquesting.quest.PR2T5CUTQ6-IaOQd132Mzg.name=Processing Multipliers
+betterquesting.quest.PR2T5CUTQ6-IaOQd132Mzg.desc=Multiplier crops are probably the most useful crops for late game. Thanks to the leaves harvested from these species, you can multiply your ore dusts ranging from basic iron to radioactive thorium many times over. Some can even be pressed for their respective resources.
+
+# Quest: Amethystia
+betterquesting.quest.PdVbnToTRuKXlvTqSg9qxQ.name=Amethystia
+betterquesting.quest.PdVbnToTRuKXlvTqSg9qxQ.desc=Not yet implemented, but looks pretty in the questbook so here you go!
+
+# Quest: Ore Berries
+betterquesting.quest.Q-4QPu7wRDC1ph_0uzziXA.name=Ore Berries
+betterquesting.quest.Q-4QPu7wRDC1ph_0uzziXA.desc=Ore Berries are a shockingly diverse and useful set of crops, a number of which you'll have already received from previous questbook rewards. However, they can give more than just the basic minerals.%n%nAll of these crops will only grow in dark enviroments, with a sub-soil of their related material whether block or ore.
+
+# Quest: Paper
+betterquesting.quest.Q5XreXK-TpG40Wa_pCiW7w.name=Paper
+betterquesting.quest.Q5XreXK-TpG40Wa_pCiW7w.desc=Papyrus represents one of the easiest ways to automate paper production in the game, if you needed that for some reason.
+
+# Quest: Potato Stock
+betterquesting.quest.QEd1ziVERKOXjzUj80M7Ig.name=Potato Stock
+betterquesting.quest.QEd1ziVERKOXjzUj80M7Ig.desc=Now that you've stolen the food from your harmless neighbors, or found it in nature like a considerate person, you must now plant these potatoes onto crop sticks. Wait until the crop is §3fully grown§r and left-click it for the best chance to obtain the seeds.
+
+# Quest: Nickelback
+betterquesting.quest.QkDDUfRUTNyspowtsQHJ7w.name=Nickelback
+betterquesting.quest.QkDDUfRUTNyspowtsQHJ7w.desc=Nickelback leaves will 4x your nickel ore.
+
+# Quest: Oak Bonsai
+betterquesting.quest.QvknAsqFQoKau7FK0ZPPSw.name=Oak Bonsai
+betterquesting.quest.QvknAsqFQoKau7FK0ZPPSw.desc=Easy oak wood, and apples!
+
+# Quest: Crop Nutrients
+betterquesting.quest.R7QRLmaJRHuxmNcGpjX0hQ.name=Crop Nutrients
+betterquesting.quest.R7QRLmaJRHuxmNcGpjX0hQ.desc=The stats of a crop will no longer apply a debuff to its growth speed, making things like resilience actually worth investing into (along with the list of highly practical benefits it now provides).%n%nNutrients, Humidity and Air Quality have been removed in favour of a singular “nutrient points” value:%n- 10 points can be gained from having water in your crop sticks%n- 10 points can be gained from having fertilizer in your crop sticks.%n- 2 points can be gained from allowing the crop to see the sky.%n       - Crops in the new crop multi will always have this bonus.%n- 28 points can be gained from preferred biome tags%n       - If no preferred biome tags are found, a high humidity can instead give up to 14 points.%n- 5 points are added on top to prevent players from being unable to grow anything literally before they can start watering their crops.%n
+
+# Quest: Dark Oak Bonsai
+betterquesting.quest.RNs9o33VRcSIxlGcQnApfA.name=Dark Oak Bonsai
+betterquesting.quest.RNs9o33VRcSIxlGcQnApfA.desc=Easy dark oak wood!
+
+# Quest: Keeping The Sprouts Healthy
+betterquesting.quest.SeFoun3ZTYuJ16YNy-Bq3g.name=Keeping The Sprouts Healthy
+betterquesting.quest.SeFoun3ZTYuJ16YNy-Bq3g.desc=Weeds are a constant threat, whether in large automated fields or small crossbreeding plots. %n%nLets deal with them.
+
+# Quest: Breeding With Technology
+betterquesting.quest.Sel7hC1hT9ij2KcPa2g5ow.name=Breeding With Technology
+betterquesting.quest.Sel7hC1hT9ij2KcPa2g5ow.desc=The Crop Breeder is a new single-block machine that allows players to breed new crops deterministically. It will consume two seeds (the parents), some sort of fertilizer and an optional catalyst item for material-based plants. (usually a block of the material for ore-related crops)%n%nIt uses enriched liquid fertilizer to breed crops.%nThe cost is 1000L per tier of the offspring crop + 500L for each start point the new seed will have (it uses the average of the parents).%nSo a 31/31/31 tier 5 offspring would cost 51KL to breed.%n%nThe capacity should ensure that high-stat crop breeding using the breeder requires at least an HV breeding machine due to its fluid capacity. (It should be fine for those who can breed crops manually, since breeding machine-locked crops start appearing in HV).%nThe base recipe time is 20 seconds and increases based on the tier of the material the crop outputs.%nThe power usage to breed any specific crop is based on its output materials.%nIdidine, osmianth and stargtatium are all IV recipes, Titania is EV, and Bauxia is MV.%nBecause the seed duplicator exists, I plan to have it eat the seeds if breeding fails.%nBred crops will always have stats that are the average of their parents; breeding two maxed-out crops will always give a maxed-out offspring.%nSuccess chance starts at 50%% and increases by 10%% for every tier past MV, meaning that at ZPM, it’s guaranteed. %nWith bees, having enough tubes and/or maddening frames will guarantee the breeding even at earlier stages, so I’m fine with starting it with a higher chance, given that you can’t speed up the process at the minimum tier.%n%n[warn]If anybody makes it so there is no way to guarantee an output later on, I will teach you why the Canadians are responsible for a good chunk of the Geneva Convention. The hate I have for my luck is not to be underestimated. %nFor context: The first time I tried the success chance after implementing it, I failed 16 times in a row with a 50%% chance.[/warn]%n
+
+# Quest: Jungle Bonsai
+betterquesting.quest.SkvqyNIlQDmTBfLCsmDepQ.name=Jungle Bonsai
+betterquesting.quest.SkvqyNIlQDmTBfLCsmDepQ.desc=Easy jungle wood!
+
+# Quest: Caffeine
+betterquesting.quest.T4bs_MnkTX6Ugox2AkwQtg.name=Caffeine
+betterquesting.quest.T4bs_MnkTX6Ugox2AkwQtg.desc=I promise you won't be dissapointed, so try some coffee. Yes, more than one at a time.%n%n[warn]Just, don't drink too much[/warn]
+
+# Quest: Pams Who?
+betterquesting.quest.UJX_NTRpQb-V2IW4_CbUlA.name=Pams Who?
+betterquesting.quest.UJX_NTRpQb-V2IW4_CbUlA.desc=Lots and lots of food crops. While they may be less useful then other species you can grow, when compared to basic food crops the ability to stat these guys should make them pretty nice no matter the reason you need them.
+
+# Quest: Bamboo "Bonsai"
+betterquesting.quest.UXgyj5YwReqPhaolpqlSdQ.name=Bamboo "Bonsai"
+betterquesting.quest.UXgyj5YwReqPhaolpqlSdQ.desc=I mean, it's technically a grass, but close enough.
+
+# Quest: Enderbloom
+betterquesting.quest.UwvcwiLER7qQrbOY1M6iww.name=Enderbloom
+betterquesting.quest.UwvcwiLER7qQrbOY1M6iww.desc=As soon as you've got some endstone to grow it above, Enderblooms can be a great source for passive Nitrogen.
+
+# Quest: Auronia
+betterquesting.quest.WaN7I-xVSb2SAsDULnEBKg.name=Auronia
+betterquesting.quest.WaN7I-xVSb2SAsDULnEBKg.desc=Auronia leaves will 4x your gold ore.
+
+# Quest: Star Wart
+betterquesting.quest.WhDCyghURhuNaGl_rwNzYA.name=Star Wart
+betterquesting.quest.WhDCyghURhuNaGl_rwNzYA.desc=Passive Nether Stars?! Impossible. To grow crops which hold such immense power, you will require the Industrial Farm with high tier seed-beds.
+
+# Quest: A Real Powerhouse
+betterquesting.quest.WkzV2TtQRPCuOqsswi3kfw.name=A Real Powerhouse
+betterquesting.quest.WkzV2TtQRPCuOqsswi3kfw.desc=Now this is how you will keep your crop needs up all the way 'till Stargate if you're really interested.%n%n%n....
+
+# Quest: A Knightly Snack
+betterquesting.quest.XAVtJOEOSyOPjeEKgo-eZg.name=A Knightly Snack
+betterquesting.quest.XAVtJOEOSyOPjeEKgo-eZg.desc=Tired of raiding all those dungeons for your armor shards? Use these!
+
+# Quest: Steelyamom
+betterquesting.quest.XYUqo9nLQ3eN0NngoqS1uw.name=Steelyamom
+betterquesting.quest.XYUqo9nLQ3eN0NngoqS1uw.desc=Get it?%n%n§2(つ▀^▀ )つ
+
+# Quest: Marble Lilies
+betterquesting.quest.Y4CDtA9eQT6tazZoiMvejg.name=Marble Lilies
+betterquesting.quest.Y4CDtA9eQT6tazZoiMvejg.desc=For the Greko-Romans among us, lots of magnesium can be found in this dust.
+
+# Quest: Hemp
+betterquesting.quest.YEb68DnHSTC0hC9YBst8TQ.name=Hemp
+betterquesting.quest.YEb68DnHSTC0hC9YBst8TQ.desc=Genuinely one of the most impressive crops in the world, this one plant can do nearly everything. From tea to clothing, rope to concrete. %nFor you, it will play a key role in the creation of Industrial Greenhouses in MV.
+
+# Quest: Magical Agriculture
+betterquesting.quest.YOH935zwShmW42dkm0szlA.name=Magical Agriculture
+betterquesting.quest.YOH935zwShmW42dkm0szlA.desc=These crops all stem from the magical side of our realm...%n%n... get it? Stem?
+
+# Quest: Scheelinium
+betterquesting.quest.Z4d2MWOOTyuBxdWVoaOMkQ.name=Scheelinium
+betterquesting.quest.Z4d2MWOOTyuBxdWVoaOMkQ.desc=Scheelinium leaves will 4x your scheelite, tungsten, lithium, and more.
+
+# Quest: Simple Propagation
+betterquesting.quest.Z_aW8Q3aSq2pU9hVhFX2qw.name=Simple Propagation
+betterquesting.quest.Z_aW8Q3aSq2pU9hVhFX2qw.desc=Propagating your plants is as easy as placing a double crop-stick adjacent to a mature plant and waiting. %n%nAs long as there are no other plants adjacent to the double cropstick, your plant should simply grow into it.%n%nIf you were [warn]boring[/warn] and simply placed sugarcane onto crop sticks then this quest should be easy. But come on, you're playing GTNH. We both know what kind of person you are. Also, the sooner you start statting up your crops the sooner you can see the massive benefits of crops.
+
+# Quest: Flower Power!
+betterquesting.quest._D2Fw1VcSoqeHHMb8aK5DA.name=Flower Power!
+betterquesting.quest._D2Fw1VcSoqeHHMb8aK5DA.desc=It's time to collect them all~!%n%nWell, all 12 different basic flowers.
+
+# Quest: More Tin
+betterquesting.quest._JjNBHSbTwOBjf_8bpLCbA.name=More Tin
+betterquesting.quest._JjNBHSbTwOBjf_8bpLCbA.desc=Some easy tin for your steam age machines.
+
+# Quest: Free Torches!
+betterquesting.quest._uN-zMguRyCEB1JCjdhbvA.name=Free Torches!
+betterquesting.quest._uN-zMguRyCEB1JCjdhbvA.desc=The Torchberry! %nDoes it make sense? %nNot at all! %n%nIs it helpful? %nCertainly!
+
+# Quest: Birch Bonsai
+betterquesting.quest.aOf6WTOfRGS9nJ_zvc88iA.name=Birch Bonsai
+betterquesting.quest.aOf6WTOfRGS9nJ_zvc88iA.desc=Easy birch wood!
+
+# Quest: Acacia Bonsai
+betterquesting.quest.aZzdGU5PTX6aTXsX1u9oIw.name=Acacia Bonsai
+betterquesting.quest.aZzdGU5PTX6aTXsX1u9oIw.desc=Easy acacia wood!
+
+# Quest: Titania
+betterquesting.quest.aso1-CdJS2atlhwWpHJEoQ.name=Titania
+betterquesting.quest.aso1-CdJS2atlhwWpHJEoQ.desc=Titania leaves will 4x your titanium ores.
+
+# Quest: Growing Spiders
+betterquesting.quest.bYpK8VXJRhaTX8uFj4m6fQ.name=Growing Spiders
+betterquesting.quest.bYpK8VXJRhaTX8uFj4m6fQ.desc=There are two different species of crop able to produce the products of those pesky spiders. Definitely easier than building a two-block wide mob farm chute if you ask me.
+
+# Quest: Bauxia
+betterquesting.quest.bk4ciGlRT36a8QXeXtCzzQ.name=Bauxia
+betterquesting.quest.bk4ciGlRT36a8QXeXtCzzQ.desc=Bauxia leaves will 4x your aluminum ore.
+
+# Quest: Slimy Bonsai
+betterquesting.quest.csLVpyIuRPGMCnsllcwyJQ.name=Slimy Bonsai
+betterquesting.quest.csLVpyIuRPGMCnsllcwyJQ.desc=Easy slime blocks and therefore easy glue and rubber, your horses will thank you.
+
+# Quest: Cindering Pearls
+betterquesting.quest.d5i0cS7PSyeM5iWzktBlTw.name=Cindering Pearls
+betterquesting.quest.d5i0cS7PSyeM5iWzktBlTw.desc=Cinderpearls make for a good source of blaze powder.
+
+# Quest: Intergalactic Lilies
+betterquesting.quest.duWWLb9aTYKuyovJDf_O1g.name=Intergalactic Lilies
+betterquesting.quest.duWWLb9aTYKuyovJDf_O1g.desc=Not yet implemented, but they are on their way!
+
+# Quest: Plant Based Meats
+betterquesting.quest.dy3RvEtwSHKwc3yIQQWn2g.name=Plant Based Meats
+betterquesting.quest.dy3RvEtwSHKwc3yIQQWn2g.desc=Somehow this plant has developed the ability to produce a number of different types of meat. Don't ask me how it does it, or how it smells.
+
+# Quest: UU Berries
+betterquesting.quest.easeEzZORC-0Ry6F6of0Kg.name=UU Berries
+betterquesting.quest.easeEzZORC-0Ry6F6of0Kg.desc=These special berries somehow have gained the atomic properties of UU-Matter. Due to their inherent genetic instability, they will require the Industrial Farm to harvest with high tier seed-beds.
+
+# Quest: Sand Lilies
+betterquesting.quest.g4ES1uecSi2Bu_an38Hbgg.name=Sand Lilies
+betterquesting.quest.g4ES1uecSi2Bu_an38Hbgg.desc=No longer will sand be such a difficult resource to obtain in bulk. Thank Greg.
+
+# Quest: Getting Dusty
+betterquesting.quest.gEC9Qy4fTouqNoHVUPg1dg.name=Getting Dusty
+betterquesting.quest.gEC9Qy4fTouqNoHVUPg1dg.desc=These crops will all collect and produce certain mineral dusts from the soil like pollen for B**s.
+
+# Quest: Tools of the Trade 4 - Reinforced Spade
+betterquesting.quest.gUpUgwhUThKRPgMQOyZ7Zw.name=Tools of the Trade 4 - Reinforced Spade
+betterquesting.quest.gUpUgwhUThKRPgMQOyZ7Zw.desc=The reinforced spade will do everything the basic spade does, but better. It further increases your chances of bonus seeds based on the resistance stat. Every ten points of resistance increases the MINIMUM seed drop by one. That means:%n%n1 resist = 10%% seed drop%n10 resist = 1 guaranteed seed drop%n15 resist = 1 guaranteed seed drop + 50%% chance for a second seed drop!%n31 resist = 3 guaranteed seed drops + 10%% chance for a fourth seed drop!!%n%nTime to scale up farmhand.
+
+# Quest: Space Flowers!
+betterquesting.quest.gukFWnMtTme0mcEh1VjuOw.name=Space Flowers!
+betterquesting.quest.gukFWnMtTme0mcEh1VjuOw.desc=Space flower leaves will 4x a number of different intergalactic minerals.
+
+# Quest: Gene Extractor
+betterquesting.quest.ho__TwPPRhyUmCbuUGHlkg.name=Gene Extractor
+betterquesting.quest.ho__TwPPRhyUmCbuUGHlkg.desc=Turn crops to data orbs, this is currently the only way to get Primordial Pearl Crops.
+
+# Quest: Netherrack Lilies
+betterquesting.quest.i0bdslLETVmLNrV1ZeCpRg.name=Netherrack Lilies
+betterquesting.quest.i0bdslLETVmLNrV1ZeCpRg.desc=If you somehow don't already have enough netherrack from mining all that sulfur, this should help pad your coffers.
+
+# Quest: Industrial Greenhouse Upgrades
+betterquesting.quest.iYoJw2SDRJODYwujhBz1zQ.name=Industrial Greenhouse Upgrades
+betterquesting.quest.iYoJw2SDRJODYwujhBz1zQ.desc=No Description
+
+# Quest: Ferrofern
+betterquesting.quest.jT1g8KZvQYyx0_K3PYdMGw.name=Ferrofern
+betterquesting.quest.jT1g8KZvQYyx0_K3PYdMGw.desc=Ferrofern leaves will 4x your iron ore.
+
+# Quest: Is That Really a Flower?
+betterquesting.quest.jXeGLpceTSGX7e12_-j5NA.name=Is That Really a Flower?
+betterquesting.quest.jXeGLpceTSGX7e12_-j5NA.desc=Everything can be beautiful, even the mycolo...logical.
+
+# Quest: Speedy Berries
+betterquesting.quest.jwBDPo12SWSVbCGfvPicMg.name=Speedy Berries
+betterquesting.quest.jwBDPo12SWSVbCGfvPicMg.desc=The BOP Berry crop plays a nice role as the fastest growing crop you will get access to.%n%nThis makes it the perfect crop for breeding up stats with before crossing to other species which share pools.
+
+# Quest: Micadia
+betterquesting.quest.k89ZVtvxRKeTgwgWFuMUdA.name=Micadia
+betterquesting.quest.k89ZVtvxRKeTgwgWFuMUdA.desc=Micadia leaves will 4x your mica ore. %n%nNote the specific under-soil requirements for Micadia.
+
+# Quest: Crops to Mobs
+betterquesting.quest.kJvlJxTXRaKGJ2vK8X_IYg.name=Crops to Mobs
+betterquesting.quest.kJvlJxTXRaKGJ2vK8X_IYg.desc=Save your serverhost a headache, crop a mob!... Mob a crop?%n%nOr don't, I'm not your parent.
+
+# Quest: Galvania
+betterquesting.quest.kLmdG_I9R66vS_ndq8wG0A.name=Galvania
+betterquesting.quest.kLmdG_I9R66vS_ndq8wG0A.desc=Galvania leaves will 4x your zinc ore.
+
+# Quest: Copper Berries
+betterquesting.quest.lSGABROTT4WbuEpU8IPQBA.name=Copper Berries
+betterquesting.quest.lSGABROTT4WbuEpU8IPQBA.desc=Copper oreberries!
+
+# Quest: Evil Berries
+betterquesting.quest.lfjH7l4SRGq-uQ1kuMVZQQ.name=Evil Berries
+betterquesting.quest.lfjH7l4SRGq-uQ1kuMVZQQ.desc=Why you would want to grow these alludes me, but sure: go for it!
+
+# Quest: Cacti
+betterquesting.quest.mBShEiHBR5mEEOSDD8O8aQ.name=Cacti
+betterquesting.quest.mBShEiHBR5mEEOSDD8O8aQ.desc=Surely you will be the one to reach Stargate on cactus power, surely.
+
+# Quest: Genus Lilium
+betterquesting.quest.mRxtl7s-QOq6DiNt5mmMMA.name=Genus Lilium
+betterquesting.quest.mRxtl7s-QOq6DiNt5mmMMA.desc=Lilies are a key set of species in CropsNH. They produce the dusts and materials otherwise created by the stones beneath your feet. Even far beneath your feet, or far far far above your feet.
+
+# Quest: Basalt Lilies
+betterquesting.quest.mWk4moL8SwKogZ2_7dQO3w.name=Basalt Lilies
+betterquesting.quest.mWk4moL8SwKogZ2_7dQO3w.desc=Basalt dust, as with Granite dusts, has lots of minerals within it. In this case, note the large amount of flint dust which for your glass needs.
+
+# Quest: Not So Evil Berries
+betterquesting.quest.mmNIDjClTYyKnhgdVsLiJg.name=Not So Evil Berries
+betterquesting.quest.mmNIDjClTYyKnhgdVsLiJg.desc=Fruits are a key part of a balanced diet too y'know.
+
+# Quest: Multiblock Farming
+betterquesting.quest.nkcwXV0yRH-6xPEEeBWcDA.name=Multiblock Farming
+betterquesting.quest.nkcwXV0yRH-6xPEEeBWcDA.desc=No Description
+
+# Quest: Fish Oil Supplement
+betterquesting.quest.oIWPaHKuRByUsrrO-ug2Mw.name=Fish Oil Supplement
+betterquesting.quest.oIWPaHKuRByUsrrO-ug2Mw.desc=Just make sure you put in ear-plugs first. These guys can be surprisingly useful if you know what to do with them.
+
+# Quest: Osmianth
+betterquesting.quest.p8eOuc12RZaZUsz21zuOXw.name=Osmianth
+betterquesting.quest.p8eOuc12RZaZUsz21zuOXw.desc=Osmianth leaves will 4x your osmium ore.
+
+# Quest: Thaumium Berries
+betterquesting.quest.pShpNuYrTXGwFmlSMKOrqw.name=Thaumium Berries
+betterquesting.quest.pShpNuYrTXGwFmlSMKOrqw.desc=Thaumium oreberries! No trapdoor-ed crucible required.
+
+# Quest: Your First Crossbreed
+betterquesting.quest.pTDi3ejJT0O0oXr7Mq5F_Q.name=Your First Crossbreed
+betterquesting.quest.pTDi3ejJT0O0oXr7Mq5F_Q.desc=With both carrot and potato seeds in hand, you are now ready to breed your first new species of crop. Sugarcane.%n%nPlant your potato and carrot seeds next to a double crop stick placed on one of the fitting soil types shown in NEI. Always check the soil types.%n%nBeyond soil and sub-soil, there are many other environmental requirements for different crop species. I really cannot understate the importance of using NEI to research what your target crops need and prefer.
+
+# Quest: Tin Berries
+betterquesting.quest.puDhJX2FQSOCGMWwSF0wEg.name=Tin Berries
+betterquesting.quest.puDhJX2FQSOCGMWwSF0wEg.desc=Tin oreberries!
+
+# Quest: Clay Lilies
+betterquesting.quest.qoABdlzUSEqiNR2MiDIxIg.name=Clay Lilies
+betterquesting.quest.qoABdlzUSEqiNR2MiDIxIg.desc=These should help with building more BBFs, your local riverbeds and riperian zones will thank you.
+
+# Quest: Iron Berries
+betterquesting.quest.r3RHo-BcT7KBIgaZgG93Ig.name=Iron Berries
+betterquesting.quest.r3RHo-BcT7KBIgaZgG93Ig.desc=Really they're closer to jawbreakers or gobsmackers than berries.
+
+# Quest: Stargatium
+betterquesting.quest.s2pEIvhuRwW0FrzqhWJabw.name=Stargatium
+betterquesting.quest.s2pEIvhuRwW0FrzqhWJabw.desc=Stargatium leaves will 4x your naquadah ore.
+
+# Quest: Stone from the Soil
+betterquesting.quest.sIXQIDgpQL6NweTPXL8SUw.name=Stone from the Soil
+betterquesting.quest.sIXQIDgpQL6NweTPXL8SUw.desc=Now for something a bit more complicated, Stone Lilies.%n%nThis species from the clade §oLilium§o §rproduces stone dust from its petals.%n%nTo determine how you can breed it, just check the NEI page for Stone Lily Seeds. The required prerequisite species can be obtained either by breeding, or directly from the overworld (if you are [warn]boring[/warn]).%n%nIf you're getting overwhelmed, don't worry. We will get into mutation pools shortly, but for now the important thing to note is that[note] deterministic breeding will always take priority over pool based breeding[/note]. So don't sweat the pools just yet.
+
+# Quest: More Flowers
+betterquesting.quest.s_UZrRZySwi79jOnwZw3Xg.name=More Flowers
+betterquesting.quest.s_UZrRZySwi79jOnwZw3Xg.desc=These flowers reach beyond the basics of the initial 12, and may have some slightly more niche uses.
+
+# Quest: Plumbilia
+betterquesting.quest.tle9KskbQMOJ2ZS1nVWNEA.name=Plumbilia
+betterquesting.quest.tle9KskbQMOJ2ZS1nVWNEA.desc=Plumbilia leaves will 4x your lead ore.
+
+# Quest: Coppon
+betterquesting.quest.twBLeVfZRsuVO-hHDFVIKQ.name=Coppon
+betterquesting.quest.twBLeVfZRsuVO-hHDFVIKQ.desc=Coppon fiber will 4x your copper ore.
+
+# Quest: More Copper
+betterquesting.quest.uU7RWnAOTOigmH6eYivwog.name=More Copper
+betterquesting.quest.uU7RWnAOTOigmH6eYivwog.desc=Some easy copper for your steam age machines.
+
+# Quest: Cobalt Berries
+betterquesting.quest.vS-gZqlCSJiI6rVi0KTzxw.name=Cobalt Berries
+betterquesting.quest.vS-gZqlCSJiI6rVi0KTzxw.desc=Too blue blueberries. Cobalt oreberries!
+
+# Quest: Witchery Seeds
+betterquesting.quest.vX0tDVpeSG67fojo-jPmjg.name=Witchery Seeds
+betterquesting.quest.vX0tDVpeSG67fojo-jPmjg.desc=In case you needed to mass produce witchery crops... for some reason
+
+# Quest: Industrial Greenhouse Upgrades
+betterquesting.quest.xlp2LlfIRdWzOoE9G_Vf0w.name=Industrial Greenhouse Upgrades
+betterquesting.quest.xlp2LlfIRdWzOoE9G_Vf0w.desc=No Description
+
+# Quest: Granitic Lilies
+betterquesting.quest.xpow4mxBRT-zLKuXEYRndw.name=Granitic Lilies
+betterquesting.quest.xpow4mxBRT-zLKuXEYRndw.desc=Granite dust has a hefty amount of minerals trapped within it, you just need enough processing power to actually seperate them out.
+
+# Quest: Shimmering Leaves
+betterquesting.quest.yB0s8UpOR7yKRNb-b-InVA.name=Shimmering Leaves
+betterquesting.quest.yB0s8UpOR7yKRNb-b-InVA.desc=Shimmerleaf can get you easy quicksilver, no Cinnabar required!
+
+# Quest: Organic Materials
+betterquesting.quest.z3RLaOumReeg-aZ906lPCg.name=Organic Materials
+betterquesting.quest.z3RLaOumReeg-aZ906lPCg.desc=This is a wide ranging category, but each crop here has some amount of utility. Almost all will likely be helpful as you develop.
 
 
 ## Quest Line: Getting Around...
@@ -5169,7 +5594,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACiw.desc=Your first electrical jetpack, 
 
 # Quest: Fueled Jetpack
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACjA.name=Fueled Jetpack
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACjA.desc=This jetpack uses IC2 biogas and can fly up to Y-245. You can switch between hover and normal mode using the IC2 mode-switch key.%n%nYour jetpack can be (re-)fueled in the IC2 fluid canner with 30 buckets/cells worth of biogas.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACjA.desc=This jetpack uses IC2 biogas and can fly up to Y-245. You can switch between hover and normal mode using the IC2 mode-switch key.%n%nAn empty jetpack can be (re-)fueled in a fluid tank filled with biogas.
 
 # Quest: Advanced Electric Jetpack
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACjQ.name=Advanced Electric Jetpack
@@ -8958,8 +9383,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKwA.desc=Go get the schematic for tier 6
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL3Q.name=Space Pumping
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL3Q.desc=At some point you may have wondered: There are these enormous gas planets in the solar system - could there be a way to "harvest" them? Indeed there is. By constructing the "Planetary Gas Siphon" multiblock, you are able to pump from the infinite supply of gas found on Jupiter, Saturn, Uranus, and Neptune. You just need to build a space station around a gas planet to get close enough to reach the gas without falling into it.%n%nDifferent gases can be extracted by pumping at different depths which is controlled by a Programmed Circuit. You need to supply (64 * depth) Mining Pipes to reach the selected depth.%n%nWhile operational, the multiblock needs d*4^(T+2) EU/t where T is the tier of the space station and d is the depth.%n%nYou can find an overview of what you can pump and where in the Tips and Tricks chapter.
 
-# Quest: How the Eff Do I Charge This Sh*t?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALIA.name=How the Eff Do I Charge This Sh*t?
+# Quest: How Do I Charge This Stuff?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALIA.name=How Do I Charge This Stuff?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALIA.desc=Given the number of people asking about this and the incompatibility it has with §oso§r many methods, here's a quest to tell you what §owill§r work.%n%n[note]You only need to make one.[/note]%n%nAlso keep in mind that the energy storage ones can have EU put in, if you just wanna charge, unlike the solars (also the solar wind ones don't work for some reason). The higher tier ones charge faster (advanced solars just point at the sun to get 100%% power during daylight instead of only at noonish, but hybrids are indeed faster. Also hybrids don't crash the game just by placing them anymore!)
 
 # Quest: steve@mothership:~$
@@ -13692,9 +14117,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACjg.desc=Combining the advanced electric
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACjw.name=Gravi Suit
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACjw.desc=The GraviChestPlate is the ultimate quantum armor combined with a high powered jetpack. Some notable features include:%n%n- 30M EU Capacity%n- Spacesuit Capability%n- Hazmat Protection%n- Gravitation Engines (Creative Flight)%n- Levitation Mode%n- Quantum Shield (Invincibility, requires full Quantum Armor)%n%n[note]KEYBINDS%nHUD: Gravi HUD Key%nGravitation Engines: Gravi Fly Key%nLevitation Mode: Spacebar + IC2 Mode Switch Key%nQuantum Shield: Sneak + IC2 Mode Switch Key[/note]
 
-# Quest: Moron's Manual to Fecund Farms
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACzg.name=§a§lMoron's Manual to Fecund Farms
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACzg.desc=If you ever wanted to know how crop breeding works, you are in the right place! Get some Crops - the sticks, that is - and some seeds from farming with a hoe or mattock. You can also place some plants and berries directly on crop sticks. Good plants to start with are flowers, wheat, cactus and sugarcane.%n%nMake a plot of farmland with your tool and place water in the middle. For now, make 3x1 plots, separated by a row of dirt or cobble. You want to be able to see the center of each column of 3x1 plots all at once, like this:%nFFFdddFFF%ndddFFFddd%nFFFdddFFF%ndddFFFddd%nFFFdWdFFF%ndddFFFddd%nFFFdddFFF%ndddFFFddd%nFFFdddFFF%nNow place crop sticks in each end of the 3x1 plot. Then place the seeds on the sticks and wait a bit.%n%nWhen they are almost fully grown you can put double crop sticks in the center spots by using crop sticks once more on already placed crop sticks. This center area can now grow new crops, even new species.%n%nWith some luck you might get a new unknown seed which can be scanned later.%n%nWeeds need to be removed with a trowel or spade otherwise your field will become overgrown by them.%n%nUsing 3x1 plots is easy and not much work. Check them every 5-10 minutes to remove weeds and gather new seeds. If you forget, you only lose one or two seeds.%n%nIf you find a really nice seed, you can do 3x3 or 5x5 plots with the nice seed in the middle and others next to it for crossing. But this requires more babysitting since weeds could destroy the whole field.%n%nNote that the more crops next to the double crop stick the faster new plants will show up, up to 4 obviously. This is also the way to get new versions of the same plant, you can't do it with just one parent like Agricraft.%n%nDon't leave new crops in these intensive fields. Pull them out and hopefully get a seedbag. Put low stat seeds in production fields that don't require babysitting. Keep the high stat seeds for more crossing.%n%nCrossing happens when two or more almost-mature crops are next to a double cropstick. There is a high chance of getting the same species as the parents. The rest of the time will be a mutation. For more details, check out the IC2 cropnalyzer quest.
+# Quest: A Green Revolution
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACzg.name=A Green Revolution
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACzg.desc=Now that you've made some tools, you can start getting into some real agriculture. Get ready to craft many more iron saws...%n%nWelcome to CropsNH, the premiere passive resource production mo.... wait sorry I'm hearing just now that Bees do in fact still exist.%n%nAnyways, if you want to learn how to till your way to the Stargate, with the passive resources needed throughout much of your progression, this is the place to be.%n%nThe first step will be obtaining a stock of basic crops which you can breed from. If you don't already have them go steal some from those villagers, or that witch down the hill.
 
 # Quest: Dark Steel Tool and Weapon Basic Upgrades
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD5g.name=§5§lDark Steel Tool and Weapon Basic Upgrades
@@ -13974,7 +14399,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJZg.desc=What's with the numbers in the 
 
 # Quest: Bringing the Biome to You
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJbw.name=Bringing the Biome to You
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJbw.desc=So maybe you can't find a swamp or tropical forest for your crops or bees, or maybe they're too far away so they're inconvenient to get to, or maybe your base is in a colder climate and you have to deal with the howls of direwolves constantly. Instead of packing up all your stuff and moving somewhere else, why not try changing the biome? There are a couple different ways to do so in this modpack:%n%nUse the Arcane Terrestrial Reformer from Witching Gadgets%n-Requires EV Circuits, Tungstensteel, Rocket Tier III%n-Also requires Infusion, Void Metal (sufficient warp), Energized Node for CV, lots of Essentia%n-16 block radius%n-Can only change to a few specific Vanilla or Thaumcraft biomes%n-Kind of slow%n%nUse Ritual of Gaia's Transformation from Blood Magic%n-Requires Void Metal, Infusion, Tungstensteel%n-Requires getting deep into BM (and the warp that come with it)%n-Requires 1,000,000 LP, Master Blood Orb, Tier 4 Altar and Awakened Activation Crystal%n-10 block radius, can be exactly specified with bloodstone bricks (either type)%n-Cannot specify which biome you get, you can only change the temperature/humidity within the 0.0 - 2.0 range and hope%n-Some biomes may be impossible due to limited range and overlap%n-Adjust temperature/humidity with items on 8 plinths around the Master Ritual Stone%n-Need to relog to see changes%n-Very little documentation or explanation%n-Fast%n%nUse the Brew of Shifting Seasons from Witchery%n-Small range, depends on the level of the brew (power, not dispersal extent)%n-Biome can be exactly specified%n-Crafted using the complicated custom brew system%n-Can add different ingredients to change range of the brew%n-At min changes a single block%n-At max has about a 3 block (circular) radius%n-Instant (once you use it)%n%nUse the Rite of Shifting Seasons from Witchery%n-Requires Stainless Steel, Greatwood Scepter or better for the Distillery%n-You have to do a bunch of Witchery stuff%n-Not hard once you've done it once%n-Extremely large range, 16/32/48 block (circular) radius%n-Biome can be exactly specified%n-Sometimes fails in specific chunks%n-Very Fast%n%nIf you want to know how to use the Witchery methods, please go to the Look to the edges tab to continue.%n%nPSA: The IC2&Galacticraft Terraformers only change the surface, not the biome itself.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJbw.desc=So maybe you can't find a swamp or tropical forest for your crops or bees, or maybe they're too far away so they're inconvenient to get to, or maybe your base is in a colder climate and you have to deal with the constant howls of direwolves. Instead of packing up all your stuff and moving somewhere else, why not try changing the biome? There are a couple of different ways to do so in this modpack:%n%nUse the Arcane Terrestrial Reformer from Witching Gadgets%n-Requires EV Circuits, Tungstensteel, Rocket Tier III%n-Also requires Infusion, Void Metal (sufficient warp), Energized Node for CV, lots of Essentia%n-16 block radius%n-Can only change to a few specific Vanilla or Thaumcraft biomes%n-Kind of slow%n%nUse Ritual of Gaia's Transformation from Blood Magic%n-Requires Void Metal, Infusion, Tungstensteel%n-Requires getting deep into BM (and the warp that comes with it)%n-Requires 1,000,000 LP, Master Blood Orb, Tier 4 Altar and Awakened Activation Crystal%n-10 block radius, can be exactly specified with bloodstone bricks (either type)%n-Cannot specify which biome you get, you can only change the temperature/humidity within the 0.0 - 2.0 range and hope%n-Some biomes may be impossible due to limited range and overlap%n-Adjust temperature/humidity with items on 8 plinths around the Master Ritual Stone%n-Need to relog to see changes%n-Very little documentation or explanation%n-Fast%n%nUse the Brew of Shifting Seasons from Witchery%n-Small range, depends on the level of the brew (power, not dispersal extent)%n-Biome can be exactly specified%n-Crafted using the complicated custom brew system%n-Can add different ingredients to change range of the brew%n-At min changes a single block%n-At max has about a 3 block (circular) radius%n-Instant (once you use it)%n%nUse the Rite of Shifting Seasons from Witchery%n-Requires Stainless Steel, Greatwood Scepter or better for the Distillery%n-You have to do a bunch of Witchery stuff%n-Not hard once you've done it once%n-Extremely large range, 16/32/48 block (circular) radius%n-Biome can be exactly specified%n-Sometimes fails in specific chunks%n-Very fast%n%nIf you want to know how to use the Witchery methods, please go to the Look to the edges tab to continue.%n%nPSA: The IC2&Galacticraft Terraformers only change the surface, not the biome itself.
 
 # Quest: Unlimited LP
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJlw.name=§4§l§nUnlimited LP

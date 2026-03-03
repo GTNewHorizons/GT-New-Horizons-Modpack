@@ -1,0 +1,210 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 725
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "It\u0027s time to collect them all~!\n\nWell, all 12 different basic flowers.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "harvestcraft:rainbowcurryItem"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Flower Power!",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -270913328575133046,
+  "questIDLow:4": -7053636352513754868,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "harvestcraft:epicbaconItem"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "harvestcraft:rainbowcurryItem"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 51,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag",
+          "tag:10": {
+            "ench:9": {
+              "0:10": {
+                "id:2": 35,
+                "lvl:2": 3
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "cropsnh:genericSeed",
+          "tag:10": {
+            "crop:8": "cropsnh:dayflower",
+            "scan:1": 1
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "cropsnh:genericSeed",
+          "tag:10": {
+            "crop:8": "cropsnh:allium",
+            "scan:1": 1
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "cropsnh:genericSeed",
+          "tag:10": {
+            "crop:8": "cropsnh:azureBluet",
+            "scan:1": 1
+          }
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "cropsnh:genericSeed",
+          "tag:10": {
+            "crop:8": "cropsnh:whiteTulip",
+            "scan:1": 1
+          }
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "cropsnh:genericSeed",
+          "tag:10": {
+            "crop:8": "cropsnh:pinkTulip",
+            "scan:1": 1
+          }
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "cropsnh:genericSeed",
+          "tag:10": {
+            "crop:8": "cropsnh:oxeyeDaisy",
+            "scan:1": 1
+          }
+        },
+        "6:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "cropsnh:genericSeed",
+          "tag:10": {
+            "crop:8": "cropsnh:blueOrchid",
+            "scan:1": 1
+          }
+        },
+        "7:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "cropsnh:genericSeed",
+          "tag:10": {
+            "crop:8": "cropsnh:poppy",
+            "scan:1": 1
+          }
+        },
+        "8:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "cropsnh:genericSeed",
+          "tag:10": {
+            "crop:8": "cropsnh:dandelion",
+            "scan:1": 1
+          }
+        },
+        "9:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "cropsnh:genericSeed",
+          "tag:10": {
+            "crop:8": "cropsnh:purpleTulip",
+            "scan:1": 1
+          }
+        },
+        "10:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "cropsnh:genericSeed",
+          "tag:10": {
+            "crop:8": "cropsnh:orangeTulip",
+            "scan:1": 1
+          }
+        },
+        "11:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "cropsnh:genericSeed",
+          "tag:10": {
+            "crop:8": "cropsnh:redTulip",
+            "scan:1": 1
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
