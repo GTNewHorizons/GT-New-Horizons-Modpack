@@ -4,16 +4,12 @@
       "questIDHigh:4": -6543480815848173757,
       "questIDLow:4": -5430924456326445571,
       "type:1": 2
-    },
-    "1:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 543
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Fertilizer is a key resource to produce and consume. It has two key features:\r\n1. Fertilizer speeds up crop growth by boosting the nutrient score.\r\n2. Using fertilizer prevents stat loss during crop breeding. Meaning the only options for stat changes become (0,+1+,+2, etc).",
+      "desc:8": "Fertilizer is a key resource to produce and consume. It has two key features:\n\n1. Fertilizer speeds up crop growth by boosting the nutrient score.\r\n2. Using fertilizer prevents stat loss during crop breeding. Meaning the only options for stat changes become (0,+1+,+2, etc).\n\nBefore you get access to a Chemical Reactor, use bonemeal instead!",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

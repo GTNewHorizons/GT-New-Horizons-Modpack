@@ -10,6 +10,10 @@
       "type:1": 2
     },
     "2:10": {
+      "questIDHigh:4": 5325923841969573848,
+      "questIDLow:4": -6640373965889455709
+    },
+    "3:10": {
       "questIDHigh:4": -1056733930300291586,
       "questIDLow:4": -7925499133285634726
     }
@@ -21,7 +25,7 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 28037,
+        "Damage:2": 28046,
         "OreDict:8": "",
         "id:8": "gregtech:gt.blockmachines"
       },
@@ -29,7 +33,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Gene Extractor",
-      "questLogic:8": "AND",
+      "questLogic:8": "OR",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
       "simultaneous:1": 0,
@@ -54,6 +58,23 @@
         "0:10": {
           "Count:3": 1,
           "Damage:2": 28046,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 28047,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }
