@@ -17,7 +17,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "No Description",
+      "desc:8": "Now this... this is how you show those §e§nB**keepers§r what\u0027s what. \n\nThe Industrial Farm (IF) is a long term, scaleable, solution to Crop production. It will grow, harvest, and hydrate your crops at its most basic, but with half several upgrades and a size which scales through tiers it is not a simple machine to make use of. The IF has three modes:\n\n1. Input - Pulls seeds and undersoil blocks into the machine from an Input Bus.\n2. Farm - Simulates the growth of the seeds and pushes products into an Output Bus.\n3. Output - Exports the seeds and undersoil blocks from the machine into an Output Bus.\n\nYou can cycle through them in the machine menu by clicking on the mode button.\n\nTo start, you should construct the most basic IF possible. Once you\u0027ve done that, place your seeds (and any relevant underblocks) into the InputBus. §lThe seeds\nand blocks must be placed simultaneously for the Input mode to work\ncorrectly.§r§r\n\nOnce you\u0027ve input your seeds (and underblocks) you can begin the simulation of harvests in Farm mode.\n\nWhen you wish to switch out seeds, enter Output mode before re-inserting the new seeds via the Input mode.\n\n\n\nThe last point worth getting into is that the size of the machine is locked to the tier. An MV IF will require MV seedbeds and therefore can only be one seedbed deep. This also means you can only insert one upgrade block (replacing the wooden frame). Each subsequent tier increases the length of the machine and the number of seeds each bed can take to incredible proportions, as well as how many upgrades you can apply.\n\n\nThe following quests will detail the many different upgrade to the IF.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -58,40 +58,58 @@
           "id:8": "gregtech:gt.blockmachines"
         },
         "1:10": {
-          "Count:3": 1,
+          "Count:3": 26,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "cropsnh:cropsnh.casings1"
         },
         "2:10": {
-          "Count:3": 1,
+          "Count:3": 3,
           "Damage:2": 2,
           "OreDict:8": "",
           "id:8": "cropsnh:cropsnh.seedBed"
         },
         "3:10": {
-          "Count:3": 1,
-          "Damage:2": 2,
+          "Count:3": 4,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "cropsnh:cropsnh.environmentalEnhancementUnit"
+          "id:8": "minecraft:glass"
         },
         "4:10": {
           "Count:3": 1,
-          "Damage:2": 2,
+          "Damage:2": 809,
           "OreDict:8": "",
-          "id:8": "cropsnh:cropsnh.growthAccelerationUnit"
+          "id:8": "gregtech:gt.blockframes"
         },
         "5:10": {
           "Count:3": 1,
-          "Damage:2": 2,
+          "Damage:2": 52,
           "OreDict:8": "",
-          "id:8": "cropsnh:cropsnh.fertilizerUnit"
+          "id:8": "gregtech:gt.blockmachines"
         },
         "6:10": {
           "Count:3": 1,
-          "Damage:2": 2,
+          "Damage:2": 72,
           "OreDict:8": "",
-          "id:8": "cropsnh:cropsnh.advancedHarvestingUnit"
+          "id:8": "gregtech:gt.blockmachines"
+        },
+        "7:10": {
+          "Count:3": 1,
+          "Damage:2": 82,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        },
+        "8:10": {
+          "Count:3": 1,
+          "Damage:2": 42,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        },
+        "9:10": {
+          "Count:3": 1,
+          "Damage:2": 90,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
         }
       },
       "taskID:8": "bq_standard:retrieval"
