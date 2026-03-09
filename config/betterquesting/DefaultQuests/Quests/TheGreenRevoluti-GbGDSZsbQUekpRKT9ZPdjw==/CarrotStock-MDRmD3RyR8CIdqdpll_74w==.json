@@ -47,6 +47,12 @@
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "cropsnh:fertilizer"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "OreDict:8": "",
+          "id:8": "minecraft:red_flower"
         }
       }
     }
@@ -61,7 +67,7 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 2,
+          "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "cropsnh:genericSeed",
