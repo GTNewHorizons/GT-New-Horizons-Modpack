@@ -47,7 +47,7 @@
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
+      "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
       "requiredItems:9": {
@@ -56,63 +56,74 @@
           "Damage:2": 28055,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
-        },
-        "1:10": {
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
           "Count:3": 26,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "cropsnh:cropsnh.casings1"
         },
-        "2:10": {
+        "1:10": {
           "Count:3": 3,
           "Damage:2": 2,
           "OreDict:8": "",
           "id:8": "cropsnh:cropsnh.seedBed"
         },
-        "3:10": {
+        "2:10": {
           "Count:3": 4,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "minecraft:glass"
         },
-        "4:10": {
+        "3:10": {
           "Count:3": 1,
           "Damage:2": 809,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockframes"
         },
-        "5:10": {
+        "4:10": {
           "Count:3": 1,
           "Damage:2": 52,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         },
-        "6:10": {
+        "5:10": {
           "Count:3": 1,
           "Damage:2": 72,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         },
-        "7:10": {
+        "6:10": {
           "Count:3": 1,
           "Damage:2": 82,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         },
-        "8:10": {
+        "7:10": {
           "Count:3": 1,
           "Damage:2": 42,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         },
-        "9:10": {
+        "8:10": {
           "Count:3": 1,
           "Damage:2": 90,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }
