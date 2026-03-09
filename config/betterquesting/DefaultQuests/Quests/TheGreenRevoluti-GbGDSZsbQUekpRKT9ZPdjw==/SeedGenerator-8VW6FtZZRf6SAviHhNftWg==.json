@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The Seed Generator is a new single-block machine that allows players to clone existing seeds (with some very rare exceptions). You will need a seed to clone, a catalyst item (based on the material produced by the seed), and 100L of enriched fertilizer per stat: so 31/31/31 sed will require 9.3KL fertilizer per seed.\n\r\n\r\nYou only need one of the machines for this quest.",
+      "desc:8": "The Seed Generator is a new single-block machine that allows players to clone existing seeds (with some very rare exceptions). You will need a seed to clone, a catalyst item (based on the material produced by the seed), and 100L of enriched fertilizer per stat: so a 31/31/31 seed will require 9.3KL fertilizer per seed.\n\r\n\r\nYou only need one of the machines for this quest.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
