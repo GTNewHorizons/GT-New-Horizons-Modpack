@@ -4909,7 +4909,7 @@ betterquesting.quest.0P-0LIDsRa-0r0SDSfZTUg.desc=Before going any further you re
 
 # Quest: Vanilla Agriculture
 betterquesting.quest.0pG3BaWpTQWJLWKudvCdcw.name=Vanilla Agriculture
-betterquesting.quest.0pG3BaWpTQWJLWKudvCdcw.desc=Most plants from vanilla Minecraft can simply be placed onto crop sticks to create their associated CropsNH crop. This is especially helpful when it comes to Bonsais, which will allow you to more easily (and less laggily) produce the hectares of wood you will need for your progression.
+betterquesting.quest.0pG3BaWpTQWJLWKudvCdcw.desc=Most plants from vanilla Minecraft can simply be placed onto crop sticks to create their associated CropsNH crop. This is especially helpful when it comes to Bonsais, which will allow you to more easily (and less laggily) produce the hectares of wood you will need for your progression.%n%nNote the soil requirements for your bonsai in NEI, these §lwill not grow §ron normal tilled farmland.
 
 # Quest: Salty!
 betterquesting.quest.1b0GPUIOTL2vkERs7LqFtg.name=Salty!
@@ -4931,6 +4931,10 @@ betterquesting.quest.39AFOCfITcSl7WMmATD3Aw.desc=To breed more advanced crops, y
 betterquesting.quest.3GtBaKquRvWXh6S4VqcD3Q.name=Oh-Oh-Oh-Olivia
 betterquesting.quest.3GtBaKquRvWXh6S4VqcD3Q.desc=You know-oh-oh Olivine?
 
+# Quest: The Environmental Enhancement Unit
+betterquesting.quest.3uJ9TqwJQ5K3UPUFmx06sQ.name=The Environmental Enhancement Unit
+betterquesting.quest.3uJ9TqwJQ5K3UPUFmx06sQ.desc=If you don't want to magically change the biome which the Industrial Farm controller is located in, you will have to apply advanced biome simulation technology to your Industrial Farm.%n%nThe Environmental Enhancement Unit allows a single Environmental Module to be used. Up to two are allowed per Industrial Farm. Each unlocks one of the two slots in the IF Controller where you can insert the Modules while the machine is powered off. Each one increases the power usage by 50%%.%n%n%nAs with all upgrades, the tier of the upgrade must match the tier of the seedbed.
+
 # Quest: Slimy Seeds
 betterquesting.quest.4hn4bXWvSay8UYjckHDH4A.name=Slimy Seeds
 betterquesting.quest.4hn4bXWvSay8UYjckHDH4A.desc=The slime plant represents yet another way to produce those sticky materials needed for rubber and therefore electronic components.
@@ -4943,13 +4947,13 @@ betterquesting.quest.5K0m6kADSVqZuouYNTEYWw.desc=Tine leaves will 4x your tin or
 betterquesting.quest.5KieQ6A4R1CGnGQd4CuQXw.name=Nightshade
 betterquesting.quest.5KieQ6A4R1CGnGQd4CuQXw.desc=With the intense amount of magical energy the Nightshade eminates, you will need an Industrial Farm to produce and harvest it.
 
-# Quest: Enviromental Upgrades
-betterquesting.quest.5vhRsuqOTjeLbozeMGcweA.name=Enviromental Upgrades
-betterquesting.quest.5vhRsuqOTjeLbozeMGcweA.desc=Without magically changing the biome which your controller is located in, you will have to apply advanced biome simulation technology to your farm.
+# Quest: Environmental Upgrades
+betterquesting.quest.5vhRsuqOTjeLbozeMGcweA.name=Environmental Upgrades
+betterquesting.quest.5vhRsuqOTjeLbozeMGcweA.desc=These modules each simulate a single favored biome tag for the crops in your IF.
 
 # Quest: Tools of the Trade 3 - Feeding(?) Your Crops
 betterquesting.quest.6HEnaqUVQuWHhHc3MAgQnA.name=Tools of the Trade 3 - Feeding(?) Your Crops
-betterquesting.quest.6HEnaqUVQuWHhHc3MAgQnA.desc=That water source block doesn't really do it for your little guys. They will need a bit more attention, so use a watering can to increase their hydration stat.
+betterquesting.quest.6HEnaqUVQuWHhHc3MAgQnA.desc=That water source block doesn't really do it for your little guys. They will need a bit more attention, so use a watering can to increase their hydration stat.%n%nCurrently you must directly right click the crop sticks with the watering can to apply the hydration.
 
 # Quest: Other Fruits
 betterquesting.quest.7UxcGl38S4yX3bIg7EdN-Q.name=Other Fruits
@@ -4961,7 +4965,7 @@ betterquesting.quest.82cQe4FcTTS5D8SuprUeaw.desc=Have you eaten your veggies tod
 
 # Quest: Seed Generator
 betterquesting.quest.8VW6FtZZRf6SAviHhNftWg.name=Seed Generator
-betterquesting.quest.8VW6FtZZRf6SAviHhNftWg.desc=Seed Duplication Rework:%n%nUnlocked in LV as the recipe no longer requires a field generator.%nUsing the Seed Generator, players can replicate an existing seed as long as they provide the needed Enriched Fertilizer.%nSome crops may require an item as a catalyst to be replicated.%nFerru will require iron ingots/blocks.%nBlazereed will require blaze rods/blaze blocks.%nSalty Roots will require salt or rock salt.%nFertilizer cost is based on the stats of the seed%n100L per stat, so 31/31/31 sed will require 9.3KL fertilizer per seed.%nBase processing time of 20 seconds (LV @ 30eu/t).%nThe goal is about 15 minutes of runtime for a basic multi or field on a minimum-tier machine.%nSeeds can be blacklisted (e.g., Primordial Pearl).%nThis will be indicated in the seed’s tooltip.%nSetting the crossing threshold to -1 will blacklist the seed.%n
+betterquesting.quest.8VW6FtZZRf6SAviHhNftWg.desc=The Seed Generator is a new single-block machine that allows players to clone existing seeds (with some very rare exceptions). You will need a seed to clone, a catalyst item (based on the material produced by the seed), and 100L of enriched fertilizer per stat: so a 31/31/31 seed will require 9.3KL fertilizer per seed.%n%n%nYou only need one of the machines for this quest.
 
 # Quest: Not The Pipes
 betterquesting.quest.8XwasO5LQDW-ynx3pu2Zeg.name=Not The Pipes
@@ -4985,7 +4989,7 @@ betterquesting.quest.A21peFIQTEKAgY7eH4tjLw.desc=Easy rubber wood and sticky res
 
 # Quest: Speed Up Your Plant Growth
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC0g.name=Speed Up Your Plant Growth
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC0g.desc=Fertilizer is a key resource to produce and consume. It has two key features:%n1. Fertilizer speeds up crop growth by boosting the nutrient score.%n2. Using fertilizer prevents stat loss during crop breeding. Meaning the only options for stat changes become (0,+1+,+2, etc).
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAC0g.desc=Fertilizer is a key resource to produce and consume. It has two key features:%n%n1. Fertilizer speeds up crop growth by boosting the nutrient score.%n2. Using fertilizer prevents stat loss during crop breeding. Meaning the only options for stat changes become (0,+1+,+2, etc).%n%nBefore you get access to a Chemical Reactor, use bonemeal instead for a small bump of fertilizer!
 
 # Quest: Becoming a Florist
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC1Q.name=Becoming a Florist
@@ -5001,11 +5005,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFCA.desc=If you don't want pure alcohol,
 
 # Quest: Babies First Harvest Automaton
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBg.name=Babies First Harvest Automaton
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBg.desc=The Crop Manager is a LV machine that will monitor crops in a 11x5x11 area and automatically apply fertilizer, Weed-EX, and Water as needed. Water can be pumped in directly or use IC2 Universal water cells, normal cells aren't returned when they're used.%n%nThe Crop Manager is NOT rainproof, but you can cover it with a water source block just fine!%n%nTilled dirt still requires a nearby water block to be hydrated as the Manager will only water the crop, not the soil. Try putting a lily pad on top so it isn't annoying to walk on, or using Garden Soil instead.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBg.desc=The Crop Manager is a LV machine that will monitor crops in an 11x5x11 area and automatically apply fertilizer (fluid or item), Weed-EX, and water as needed. The water can be pumped in directly or use IC2 Universal water cells, normal cells aren't returned when they're used.%n%nThe Crop Manager is NOT rainproof, but you can cover it with a water source block just fine!%n%nTilled dirt still requires a nearby water block to be hydrated as the Manager will only water the crop, not the soil. Try putting a lily pad on top so it isn't annoying to walk on.
 
 # Quest: Weed-EX
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBw.name=Weed-EX
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBw.desc=Weed-EX is used to prevent the growth of weeds on empty crop blocks at the cost of some Weed-EX. %n%nIt can also be placed in a Crop Manager to automatically apply it to your crops.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBw.desc=Weed-EX is used to prevent the growth and spread of weeds on empty crop sticks.%n%nYou can either spray it manually using a spray can, or supply it to a Crop Manager to automatically apply it to all crops in range.
 
 # Quest: Sticky Canes
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGQA.name=Sticky Canes
@@ -5033,7 +5037,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGyQ.desc=Simple, easy, redstone-girl.
 
 # Quest: Tools Of The Trade 5 - Electronic Scanning
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHAg.name=Tools Of The Trade 5 - Electronic Scanning
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHAg.desc=With the portable scanner, you can get the crop's stats and environmental info by right-clicking it. It also stays scanned after getting the seed. Look for the portable scanner quest after the EBF in Multiblock Goals.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHAg.desc=With the portable scanner, you can get the crop's stats and environmental info by right-clicking it. It also stays scanned after getting the seed. Look for the portable scanner quest after the EBF in Multiblock Goals. Most notably it will tell you directly what the current Nutrient Score is for your crops.
 
 # Quest: New Threads
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHBQ.name=New Threads
@@ -5123,17 +5127,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIAA.desc=Here are a few crops to spice u
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJZQ.name=The Art of Bonsai
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJZQ.desc=By simply planting saplings onto crop sticks, you've found you can create miniature versions of the matching trees! How cute!%n%nBonsai trees will give you drops just like a regular tree, but without the wasted server processing time of placing all the tree blocks just to chop them down again. This can be significant overhead on a server, so if you want to be nice to your host, breed some bonsai. 
 
-# Quest: Even More Stats
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK0Q.name=Even More Stats
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK0Q.desc=There are seven more stats to worry about too.%n%n§7Fertilizer§r, §9Water§r, and [warn]Weed-EX[/warn] are all about how much of these are on the crop stick rather than the crop itself. They're all about how much was applied and is left of that.%n%n§2Nutrients§r, §1Humidity§r, and §6Air Quality§r are all about the environment. They're also affected by the Fertilizer and Water stats.%n%nNutrients and Humidity are mostly about the right biome, with swamp and rainforest types (hot+humid) being the best, but you can also get some extra stats by setting up right.%n%n§2Nutrients§r:%n3 possible free points from dirt under the farmland block, 2 for plants that require a specific block. So optimally always make sure that the required block is at the bottommost bottom in the column, because it checks in chain, not certain height. For example: cropstick -> farmland -> dirt -> ore block -> dirt, it will only register 1 dirt, ignoring the one below the ore block.%n%n5-10 possible points from fertilizing your crops. You can use fertilizer on a crop to increase its nutrient stat. Fertilizer caps at 199 which gives 10 nutrients, but can be applied again only if the crop drops below 100 fertilizer points. So for high stat crops it's safe to assume and make tests for 100 fertilizer points as it's a given constant unlike 199->100 values. You can apply bone meal, IC2 fertilizer and Forestry fertilizer to a crop by hand. Forestry manual orchard multifarm and crop matron does this automatically when supplied with fertilizer (the multifarm needs fertilizer to harvest crops as well).%n%n§1Humidity§r:%n2 free points from using dirt as farmland, as when farmland gets hydrated by water (turns darker) it gains 2 humidity points. This is why other blocks for this aren't as good, since they don't give this bonus.%n%n10 possible points from hydrating your crop. Similar to fertilizing, water can be applied to a crop up to 200 points, which is 10 humidity points, although unlike fertilizer it does not need to drop below value of 100, water can be applied over and over keeping it at constant 200 points. You can apply water to your crop by using IC2 hydration cells by hand, or let your Forestry manual orchard multifarm and crop matron do it automatically. The multifarm needs water to harvest crops as well though.%n%n§6Air Quality§r:%n4 potential free points from empty space around crop. A crop checks for empty spaces to calculate bonus air quality points, it gives up to 4 points, 1 point for each 2 empty spaces. It only counts full blocks or cropsticks though. If you like looks, you'll probably have to sacrifice this.%n%n4 free points from height of your farm. You get 1 free point every 15 blocks starting at Y79.%n79 - 1 point%n94 - 2 points%n109 - 3 points%n124 - 4 points%n%n2 free points from no opaque blocks above the crop. You can place glass above and you won't lose the bonus since it's a transparent block. You cannot use dark glass, several layers of water, or gaseous tenebrae to get around this if your crop likes the dark. Unless you only let it grow at night, I guess.%n%n§aGrowability§r:%nYour crop will require a certain level of NHA, try to reach or surpass this, or the crop will either not grow, or even die (disappear). Each crop is different, and higher tiers (and stats) require more. It's generally easy to meet though, as long as you're in a good biome.%n%nGrowability is determined by the difference between what the crop needs in terms of NHA and what it actually has. If you have more than what you need it grows faster. This is why you don't want a maxed resistance stat, since higher stats will slow it down.
-
 # Quest: Improving Your Crops
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK0g.name=Improving Your Crops
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK0g.desc=A key part of CropsNH is improving the stats of your crops. There is always a chance for this to occur whenever a new crop grows - whether by self propagation or crossing...%n%n%n§aGrowth§r:%n- How fast it grows, with higher = faster. Specifically it increases the growth points your crop gets per tick. If it gets to 24+, your crop acts like a weed, so make sure you increase that resistance stat in parallel.%n%n§9Gain§r:%n- With higher levels of gain, you get more when you harvest your crops! Pretty self explanatory.%n%n§eResistance§r:%n- A resistance of 10 will guarantee a seed drop with a spade. 20 and 30 will drop 2 or 3 seeds, respectively. A resistance of 31 will guarantee a seed drop without a spade.%n%n- If the Growth stat is greater than 23, resistance will help prevent weeds from spreading. A resistance of 31 will stop the crop from spreading weeds entirely.
-
-# Quest: Synthesizer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKqQ.name=Synthesizer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKqQ.desc=There are 3 machines crucial to doing this. You'll also need bucketloads of power, and the same (literally) of UUM.%n%nAll 3 can only work on crops up to a certain tier, determined by the tier of the machine you made and the crop you're working with. Basically, it's (crop tier+2)/2, rounded up. So an LV machine can work on T1 crops, but an MV one can work on T3.%n%n[note]LV=T1, MV=T3, HV=T5, EV=T7, IV=T9, LuV=T11, ZPM=T13, UV=T15, UHV=T17.[/note]%n%nFirst is the Crop Gene Extractor:%nIt takes an existing crop seedbag, an empty §2Data Orb§r (See EV quests), and §61A§r while running. Use a circuit to determine what stat to copy to the Data Orb. You'll probably want either 23-31-0, or 31-31-0 for max speed and output, since you won't be breeding from these. Remember to take proper precautions if going over 23, as they will attempt to weed everything around them. There's a significant number of crops, so you'll probably need a ton of Orbs too, unless you want to reuse them. [warn]Remember to keep a Data Orb or seedbag backup![/warn]%n%nSecond is the Crop Synthesizer:%nIt takes §24 Data Orbs§r, one for each of the types from the CGE, §51000L of UUM per crop tier/2§r (this is not rounded), and §616A§r while running. It will create a new crop seedbag with the desired stats.%n%nLastly is the Crop Replicator:%nIt takes an existing crop seedbag, §51000L per crop tier of UUM§r, and §66A§r while running. After finishing, it gives you back two of the same seedbag, duplicating it. This takes twice as much UUM, but less power, it's up to you whether that's worth it.
 
 # Quest: Argentia
 betterquesting.quest.APU0Ykh9RMae9R7XqkXTKQ.name=Argentia
@@ -5145,7 +5141,7 @@ betterquesting.quest.BuV2ZuQvRIOJeRNH4xtvoA.desc=Pyrolusium leaves will 4x your 
 
 # Quest: Soul Sand Lilies
 betterquesting.quest.Bx86-2AfQKadFFMHdh3now.name=Soul Sand Lilies
-betterquesting.quest.Bx86-2AfQKadFFMHdh3now.desc=Oh hey, don't void that stuff, centrifuge into something useful? (◕‿↼)
+betterquesting.quest.Bx86-2AfQKadFFMHdh3now.desc=Oh hey, don't void that stuff, centrifuge it into something useful? (◕‿↼)
 
 # Quest: Lucky!
 betterquesting.quest.E3P20_dFSUiPdVSkma2iTA.name=Lucky!
@@ -5179,9 +5175,9 @@ betterquesting.quest.FugIhOU6Q12Iq764ZRoMEA.desc=All of the above could be usefu
 betterquesting.quest.GV1Cx5SnSyKETKjMO6FUcQ.name=End Stone Lilies
 betterquesting.quest.GV1Cx5SnSyKETKjMO6FUcQ.desc=Once you can actually get your hand on some endstone, these babies will allow for a §olot §o§rof high level passive material production.
 
-# Quest: Enviromental Preferences
-betterquesting.quest.Hgj_XYnbRj2JGb8I-8QnLQ.name=Enviromental Preferences
-betterquesting.quest.Hgj_XYnbRj2JGb8I-8QnLQ.desc=Instead of just using a biome-based modifier for nutrients and humidity, a crop will look for the tags of the biome it’s in and apply a modifier based on the number of “favored” tags found in the biome.%n%nHaving the proper biome tags will provide a significant “nutrient” boost to your crops, resulting in a noticeable effect on growth speed. (+14 nutrient points per tag)%nYou can only benefit from up to 2 biome tags.%nIt is still possible to simulate up to 1 preferred biome tag by planting your crops in a high-humidity (80%%+) location.%nThe bonus scales linearly with humidity between 50%% and 80%%.%nValues below 50%% will not provide any bonuses.%nValues above 80%% will cap the bonus at the equivalent of 1 preferred biome tag.%nIf any favored biome tag is present in the current biome, the high humidity bonus will be ignored.%n
+# Quest: Environmental Preferences
+betterquesting.quest.Hgj_XYnbRj2JGb8I-8QnLQ.name=Environmental Preferences
+betterquesting.quest.Hgj_XYnbRj2JGb8I-8QnLQ.desc=Each crop has a set of preferred biome tags. These can be viewed in NEI along with the other growth requirements. %n%nHaving the proper biome tags will provide a significant Nutrient Point boost to your crops (§l+14 Points§r per tag).%n%nYou can only benefit from up to 2 biome tags (§l+28 Points§r).%n%nIt is possible to emulate a single preferred biome tag by planting your crops in a high-humidity location. The bonus scales linearly with humidity between 50%% and 80%%. Values below 50%% provide no bonus, while values above 80%% will hit the cap at an equivalent of 1 preferred biome tag (§l+14 Points).%n%n§l§rIf any favored biome tag is present in the current biome, the high humidity bonus will be ignored.%n%n%nThe Nature's Compass will allow you to view the tags of each biome as subtext within its menu.
 
 # Quest: Evil...
 betterquesting.quest.If475S_dQ5y_f8KcSRHeXQ.name=Evil...
@@ -5205,7 +5201,7 @@ betterquesting.quest.JcFOAl5pTtKNnMY61dFV_w.desc=Weeds will show up from time to
 
 # Quest: Plant Diseases
 betterquesting.quest.JgfP8eDqS-mDGcjgk-m3Dg.name=Plant Diseases
-betterquesting.quest.JgfP8eDqS-mDGcjgk-m3Dg.desc=No Description
+betterquesting.quest.JgfP8eDqS-mDGcjgk-m3Dg.desc=Plant Cure is used to cure sickly crops. Crops will get sick in two scenarios:%n%n1. A weed has grown and overtaken the crop.%n2. A crop does not reach minimum environmental requirements.%n%nYou must spray the cure manually, however as a side effect it will apply a minimal amount of fertilizer so that crops will not immediately become sickly again.
 
 # Quest: Iridine
 betterquesting.quest.KPORP3a2Q6K6jrjXhgoksA.name=Iridine
@@ -5225,15 +5221,11 @@ betterquesting.quest.MDRmD3RyR8CIdqdpll_74w.desc=Now that you've stolen the food
 
 # Quest: Enriched Fertilizer
 betterquesting.quest.Nu5EfJtNQ0qIUW0Lt0E4yA.name=Enriched Fertilizer
-betterquesting.quest.Nu5EfJtNQ0qIUW0Lt0E4yA.desc=Enriched fertilizer will allow you to advance to the next stage of crop technology. 
+betterquesting.quest.Nu5EfJtNQ0qIUW0Lt0E4yA.desc=Enriched fertilizer will allow you to advance to the next stage of crop technology! %nIt is used in countless ways moving forward, but just to list a few it will be:%n%n - Pumped into Industrial Farms for increased growth rates.%n - Used to breed novel crops in the Crop Breeder.%n - Used to synthesize new seeds in the Seed Generator.%n%nIt will always be superior to the item based Fertilizer of the past, so moving forward you should be using it whenever possible.
 
 # Quest: Crop Sticks
 betterquesting.quest.O65QUnR0QuGSoQrsUMTB1g.name=Crop Sticks
-betterquesting.quest.O65QUnR0QuGSoQrsUMTB1g.desc=To do anything in CropsNH, you first need crop sticks. These will act as the supports for your plants to grow upon. Once your plants mature, a double crop stick will allow your plants to crossbreed with any crops directly adjacent to the same double crop stick.%n%nAs new species grow on your crop sticks you can harvest them by right-clicking, which won't remove the seed. Left-clicking will break the seed and potentially drop a seedbag. Spades will help you improve your chances at obtaining seeds when you do this, as will the Resistance trait.%n%nNote in NEI the varying types of soil, undersoil, and environmental requirements for different crops!
-
-# Quest: Industrial Greenhouse Upgrades
-betterquesting.quest.OACjbLjSS4-ShbpKb5zWKQ.name=Industrial Greenhouse Upgrades
-betterquesting.quest.OACjbLjSS4-ShbpKb5zWKQ.desc=No Description
+betterquesting.quest.O65QUnR0QuGSoQrsUMTB1g.desc=To do anything in CropsNH, you first need crop sticks. These will act as the supports for your plants to grow upon. Once your plants mature, a double crop stick will allow your plants to crossbreed with any crops directly adjacent to the same double crop stick.%n%nAs new species grow on your crop sticks you can harvest them by right-clicking, which won't remove the seed. Left-clicking will break the seed and potentially drop a seedbag. Spades will help you improve your chances at obtaining seeds when you do this, as will the Resistance trait.%n%n§lNote in NEI the varying types of soil, undersoil, and environmental%nrequirements for different crops!
 
 # Quest: Processing Multipliers
 betterquesting.quest.PR2T5CUTQ6-IaOQd132Mzg.name=Processing Multipliers
@@ -5265,7 +5257,7 @@ betterquesting.quest.QvknAsqFQoKau7FK0ZPPSw.desc=Easy oak wood, and apples!
 
 # Quest: Crop Nutrients
 betterquesting.quest.R7QRLmaJRHuxmNcGpjX0hQ.name=Crop Nutrients
-betterquesting.quest.R7QRLmaJRHuxmNcGpjX0hQ.desc=The stats of a crop will no longer apply a debuff to its growth speed, making things like resilience actually worth investing into (along with the list of highly practical benefits it now provides).%n%nNutrients, Humidity and Air Quality have been removed in favour of a singular “nutrient points” value:%n- 10 points can be gained from having water in your crop sticks%n- 10 points can be gained from having fertilizer in your crop sticks.%n- 2 points can be gained from allowing the crop to see the sky.%n       - Crops in the new crop multi will always have this bonus.%n- 28 points can be gained from preferred biome tags%n       - If no preferred biome tags are found, a high humidity can instead give up to 14 points.%n- 5 points are added on top to prevent players from being unable to grow anything literally before they can start watering their crops.%n
+betterquesting.quest.R7QRLmaJRHuxmNcGpjX0hQ.desc=The speed at which a crop grows is based on its Nutrient Score. There are a number of different ways to obtain Nutrient Points for your crops, but to keep your crops from getting sick try to make sure they are always receiving at least a couple of the below bonuses:%n%n§l- +10 Points§r can be gained from having water in your crop sticks%n§l- +10 Points§r can be gained from having fertilizer in your crop sticks.%n§l- +2 Points§r can be gained from allowing the crop to see the sky.%n       - Crops in the Industrial Farm will always have this bonus.%n§l- +28 Points§r can be gained from preferred biome tags%n       - [warn]If no preferred tags are found[/warn], high humidity will §rgive up to §l+14 Points.§r %n       - See more on this in the Environmental Preferences quest.%n%nAll crops have a base Nutrient Score of 5.
 
 # Quest: Dark Oak Bonsai
 betterquesting.quest.RNs9o33VRcSIxlGcQnApfA.name=Dark Oak Bonsai
@@ -5277,7 +5269,7 @@ betterquesting.quest.SeFoun3ZTYuJ16YNy-Bq3g.desc=Weeds are a constant threat, wh
 
 # Quest: Breeding With Technology
 betterquesting.quest.Sel7hC1hT9ij2KcPa2g5ow.name=Breeding With Technology
-betterquesting.quest.Sel7hC1hT9ij2KcPa2g5ow.desc=The Crop Breeder is a new single-block machine that allows players to breed new crops deterministically. It will consume two seeds (the parents), some sort of fertilizer and an optional catalyst item for material-based plants. (usually a block of the material for ore-related crops)%n%nIt uses enriched liquid fertilizer to breed crops.%nThe cost is 1000L per tier of the offspring crop + 500L for each start point the new seed will have (it uses the average of the parents).%nSo a 31/31/31 tier 5 offspring would cost 51KL to breed.%n%nThe capacity should ensure that high-stat crop breeding using the breeder requires at least an HV breeding machine due to its fluid capacity. (It should be fine for those who can breed crops manually, since breeding machine-locked crops start appearing in HV).%nThe base recipe time is 20 seconds and increases based on the tier of the material the crop outputs.%nThe power usage to breed any specific crop is based on its output materials.%nIdidine, osmianth and stargtatium are all IV recipes, Titania is EV, and Bauxia is MV.%nBecause the seed duplicator exists, I plan to have it eat the seeds if breeding fails.%nBred crops will always have stats that are the average of their parents; breeding two maxed-out crops will always give a maxed-out offspring.%nSuccess chance starts at 50%% and increases by 10%% for every tier past MV, meaning that at ZPM, it’s guaranteed. %nWith bees, having enough tubes and/or maddening frames will guarantee the breeding even at earlier stages, so I’m fine with starting it with a higher chance, given that you can’t speed up the process at the minimum tier.%n%n[warn]If anybody makes it so there is no way to guarantee an output later on, I will teach you why the Canadians are responsible for a good chunk of the Geneva Convention. The hate I have for my luck is not to be underestimated. %nFor context: The first time I tried the success chance after implementing it, I failed 16 times in a row with a 50%% chance.[/warn]%n
+betterquesting.quest.Sel7hC1hT9ij2KcPa2g5ow.desc=The Crop Breeder is a new single-block machine that allows players to breed new crops deterministically. It will consume two seeds (the parents), some enriched fertilizer and a catalyst item for material-based plants.%n%nThe fertilizer cost is 1000L per tier of the offspring crop + 500L for each start point the new seed will have (it uses the average of the parents).%nSo a 31/31/31 tier 5 offspring would cost 51KL to breed. Ididine, osmianth and stargtatium are all IV recipes, Titania is EV, and Bauxia is MV.%n%nBred crops will always have stats that are the average of their parents; breeding two maxed-out crops will always give a maxed-out offspring.%n%n§lSuccess chance starts at 50%% and increases by 10%% for every tier past%nMV, meaning that at ZPM, it’s guaranteed. A failed breed will void the %nparent seeds used.%n%n%n§rYou only need one of the machines for this quest.
 
 # Quest: Jungle Bonsai
 betterquesting.quest.SkvqyNIlQDmTBfLCsmDepQ.name=Jungle Bonsai
@@ -5306,10 +5298,6 @@ betterquesting.quest.WaN7I-xVSb2SAsDULnEBKg.desc=Auronia leaves will 4x your gol
 # Quest: Star Wart
 betterquesting.quest.WhDCyghURhuNaGl_rwNzYA.name=Star Wart
 betterquesting.quest.WhDCyghURhuNaGl_rwNzYA.desc=Passive Nether Stars?! Impossible. To grow crops which hold such immense power, you will require the Industrial Farm with high tier seed-beds.
-
-# Quest: A Real Powerhouse
-betterquesting.quest.WkzV2TtQRPCuOqsswi3kfw.name=A Real Powerhouse
-betterquesting.quest.WkzV2TtQRPCuOqsswi3kfw.desc=Now this is how you will keep your crop needs up all the way 'till Stargate if you're really interested.%n%n%n....
 
 # Quest: A Knightly Snack
 betterquesting.quest.XAVtJOEOSyOPjeEKgo-eZg.name=A Knightly Snack
@@ -5415,9 +5403,9 @@ betterquesting.quest.ho__TwPPRhyUmCbuUGHlkg.desc=Turn crops to data orbs, this i
 betterquesting.quest.i0bdslLETVmLNrV1ZeCpRg.name=Netherrack Lilies
 betterquesting.quest.i0bdslLETVmLNrV1ZeCpRg.desc=If you somehow don't already have enough netherrack from mining all that sulfur, this should help pad your coffers.
 
-# Quest: Industrial Greenhouse Upgrades
-betterquesting.quest.iYoJw2SDRJODYwujhBz1zQ.name=Industrial Greenhouse Upgrades
-betterquesting.quest.iYoJw2SDRJODYwujhBz1zQ.desc=No Description
+# Quest: The Advanced Harvesting Unit
+betterquesting.quest.iYoJw2SDRJODYwujhBz1zQ.name=The Advanced Harvesting Unit
+betterquesting.quest.iYoJw2SDRJODYwujhBz1zQ.desc=The Advanced Harvesting Unit increases the production rate of your Industrial Farm. Only two are allowed per Industrial Farm. Each one increases the number of drops by 20%%, and power usage by 50%%. %n%nAs with all upgrades, the tier of the upgrade must match the tier of the seedbed.
 
 # Quest: Ferrofern
 betterquesting.quest.jT1g8KZvQYyx0_K3PYdMGw.name=Ferrofern
@@ -5469,7 +5457,7 @@ betterquesting.quest.mmNIDjClTYyKnhgdVsLiJg.desc=Fruits are a key part of a bala
 
 # Quest: Multiblock Farming
 betterquesting.quest.nkcwXV0yRH-6xPEEeBWcDA.name=Multiblock Farming
-betterquesting.quest.nkcwXV0yRH-6xPEEeBWcDA.desc=No Description
+betterquesting.quest.nkcwXV0yRH-6xPEEeBWcDA.desc=Now this... this is how you show those §e§nB**keepers§r what's what. %n%nThe Industrial Farm (IF) is a long term, scalable, solution to Crop production. At its most basic, it will grow, harvest, and hydrate your crops, but with several upgrades and tier based size scaling, it is not a simple machine to make use of. The IF has three modes:%n%n1. Input - Pulls seeds and undersoil blocks into the machine from an Input Bus.%n2. Farm - Simulates the growth of the seeds and pushes products into an Output Bus.%n3. Output - Exports the seeds and undersoil blocks from the machine into an Output Bus.%n%nYou can cycle through them in the machine menu by clicking on the mode button.%n%nTo start, you should construct the most basic IF possible. Once you've done that, place your seeds (and any relevant underblocks) into the InputBus. §lThe seeds%nand blocks must be placed simultaneously for the Input mode to work%ncorrectly.§r§r%n%nOnce you've input your seeds (and underblocks) you can begin the simulation of harvests in Farm mode.%n%nWhen you wish to switch out seeds, enter Output mode before re-inserting the new seeds via the Input mode.%n%n%n%nThe last point worth getting into is that the size of the machine is locked to the tier. An MV IF will require MV seedbeds and therefore can only be one seedbed deep. This also means you can only insert one upgrade block (replacing the wooden frame). Each subsequent tier increases the length of the machine and the number of seeds each bed can take to incredible proportions, as well as how many upgrades you can apply.%n%n%nThe following quests will detail the many different upgrades available for the IF.
 
 # Quest: Fish Oil Supplement
 betterquesting.quest.oIWPaHKuRByUsrrO-ug2Mw.name=Fish Oil Supplement
@@ -5485,7 +5473,11 @@ betterquesting.quest.pShpNuYrTXGwFmlSMKOrqw.desc=Thaumium oreberries! No trapdoo
 
 # Quest: Your First Crossbreed
 betterquesting.quest.pTDi3ejJT0O0oXr7Mq5F_Q.name=Your First Crossbreed
-betterquesting.quest.pTDi3ejJT0O0oXr7Mq5F_Q.desc=With both carrot and potato seeds in hand, you are now ready to breed your first new species of crop. Sugarcane.%n%nPlant your potato and carrot seeds next to a double crop stick placed on one of the fitting soil types shown in NEI. Always check the soil types.%n%nBeyond soil and sub-soil, there are many other environmental requirements for different crop species. I really cannot understate the importance of using NEI to research what your target crops need and prefer.
+betterquesting.quest.pTDi3ejJT0O0oXr7Mq5F_Q.desc=With both carrot and potato seeds in hand, you are now ready to breed your first new species of crop. Sugarcane.%n%nPlant your potato and carrot seeds next to a double crop stick placed on one of the fitting soil types shown in NEI. §lAlways check the soil types.%n%n§rBeyond soil and sub-soil, there are many other environmental requirements for different crop species. [warn]I really cannot understate the importance of using NEI to research what your target crops need and prefer.[/warn]
+
+# Quest: The Fertilization Unit
+betterquesting.quest.poVTqaEOSh-OPgPjEjIfww.name=The Fertilization Unit
+betterquesting.quest.poVTqaEOSh-OPgPjEjIfww.desc=The Fertilization Unit allows for the use of Enriched Fertilizer to boost production massively. Only one is allowed per Industrial Farm, but it increases growth speed by 50%%, number of drops by 50%%, and power usage by 50%%. %n%nAs with all upgrades, the tier of the upgrade must match the tier of the seedbed.
 
 # Quest: Tin Berries
 betterquesting.quest.puDhJX2FQSOCGMWwSF0wEg.name=Tin Berries
@@ -5523,6 +5515,10 @@ betterquesting.quest.twBLeVfZRsuVO-hHDFVIKQ.desc=Coppon fiber will 4x your coppe
 betterquesting.quest.uU7RWnAOTOigmH6eYivwog.name=More Copper
 betterquesting.quest.uU7RWnAOTOigmH6eYivwog.desc=Some easy copper for your steam age machines.
 
+# Quest: The Overclocked Growth Acceleration Unit
+betterquesting.quest.vOZpJncURaq1H0pUzFNblw.name=The Overclocked Growth Acceleration Unit
+betterquesting.quest.vOZpJncURaq1H0pUzFNblw.desc=The Overclocked Growth Acceleration Unit allows for the overclocking of the Industrial Farm as with other Multiblocks. Only one is allowed per Industrial Farm.%n%n%nAs with all upgrades, the tier of the upgrade must match the tier of the seedbed.
+
 # Quest: Cobalt Berries
 betterquesting.quest.vS-gZqlCSJiI6rVi0KTzxw.name=Cobalt Berries
 betterquesting.quest.vS-gZqlCSJiI6rVi0KTzxw.desc=Too blue blueberries. Cobalt oreberries!
@@ -5531,9 +5527,9 @@ betterquesting.quest.vS-gZqlCSJiI6rVi0KTzxw.desc=Too blue blueberries. Cobalt or
 betterquesting.quest.vX0tDVpeSG67fojo-jPmjg.name=Witchery Seeds
 betterquesting.quest.vX0tDVpeSG67fojo-jPmjg.desc=In case you needed to mass produce witchery crops... for some reason
 
-# Quest: Industrial Greenhouse Upgrades
-betterquesting.quest.xlp2LlfIRdWzOoE9G_Vf0w.name=Industrial Greenhouse Upgrades
-betterquesting.quest.xlp2LlfIRdWzOoE9G_Vf0w.desc=No Description
+# Quest: The Growth Acceleration Unit
+betterquesting.quest.xlp2LlfIRdWzOoE9G_Vf0w.name=The Growth Acceleration Unit
+betterquesting.quest.xlp2LlfIRdWzOoE9G_Vf0w.desc=The Growth Acceleration Unit increases the growth speed of the crops found within the Industrial Farm. Each one increases growth speed by 100%% and power usage by 125%%.%n%nAs with all upgrades, the tier of the upgrade must match the tier of the seedbed.
 
 # Quest: Granitic Lilies
 betterquesting.quest.xpow4mxBRT-zLKuXEYRndw.name=Granitic Lilies
@@ -14395,7 +14391,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJZg.desc=What's with the numbers in the 
 
 # Quest: Bringing the Biome to You
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJbw.name=Bringing the Biome to You
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJbw.desc=So maybe you can't find a swamp or tropical forest for your crops or bees, or maybe they're too far away so they're inconvenient to get to, or maybe your base is in a colder climate and you have to deal with the constant howls of direwolves. Instead of packing up all your stuff and moving somewhere else, why not try changing the biome? There are a couple of different ways to do so in this modpack:%n%nUse the Arcane Terrestrial Reformer from Witching Gadgets%n-Requires EV Circuits, Tungstensteel, Rocket Tier III%n-Also requires Infusion, Void Metal (sufficient warp), Energized Node for CV, lots of Essentia%n-16 block radius%n-Can only change to a few specific Vanilla or Thaumcraft biomes%n-Kind of slow%n%nUse Ritual of Gaia's Transformation from Blood Magic%n-Requires Void Metal, Infusion, Tungstensteel%n-Requires getting deep into BM (and the warp that comes with it)%n-Requires 1,000,000 LP, Master Blood Orb, Tier 4 Altar and Awakened Activation Crystal%n-10 block radius, can be exactly specified with bloodstone bricks (either type)%n-Cannot specify which biome you get, you can only change the temperature/humidity within the 0.0 - 2.0 range and hope%n-Some biomes may be impossible due to limited range and overlap%n-Adjust temperature/humidity with items on 8 plinths around the Master Ritual Stone%n-Need to relog to see changes%n-Very little documentation or explanation%n-Fast%n%nUse the Brew of Shifting Seasons from Witchery%n-Small range, depends on the level of the brew (power, not dispersal extent)%n-Biome can be exactly specified%n-Crafted using the complicated custom brew system%n-Can add different ingredients to change range of the brew%n-At min changes a single block%n-At max has about a 3 block (circular) radius%n-Instant (once you use it)%n%nUse the Rite of Shifting Seasons from Witchery%n-Requires Stainless Steel, Greatwood Scepter or better for the Distillery%n-You have to do a bunch of Witchery stuff%n-Not hard once you've done it once%n-Extremely large range, 16/32/48 block (circular) radius%n-Biome can be exactly specified%n-Sometimes fails in specific chunks%n-Very fast%n%nIf you want to know how to use the Witchery methods, please go to the Look to the edges tab to continue.%n%nPSA: The IC2&Galacticraft Terraformers only change the surface, not the biome itself.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJbw.desc=So maybe you can't find a swamp or tropical forest for your crops or bees, or maybe they're too far away so they're inconvenient to get to, or maybe your base is in a colder climate and you have to deal with the constant howls of direwolves. Instead of packing up all your stuff and moving somewhere else, why not try changing the biome? There are a couple of different ways to do so in this modpack:%n%n§§§r§lUse the Arcane Terrestrial Reformer§r%n-Requires EV Circuits, Tungstensteel, Rocket Tier III%n-Also requires Infusion, Void Metal (sufficient warp), Energized Node for CV, lots of Essentia%n-16 block radius%n-Can only change to a few specific Vanilla or Thaumcraft biomes%n-Kind of slow%n%n§lUse Ritual of Gaia's Transformation from Blood Magic§r%n-Requires Void Metal, Infusion, Tungstensteel%n-Requires getting deep into BM (and the warp that comes with it)%n-Requires 1,000,000 LP, Master Blood Orb, Tier 4 Altar and Awakened Activation Crystal%n-10 block radius, can be exactly specified with bloodstone bricks (either type)%n-Cannot specify which biome you get, you can only change the temperature/humidity within the 0.0 - 2.0 range and hope%n-Some biomes may be impossible due to limited range and overlap%n-Adjust temperature/humidity with items on 8 plinths around the Master Ritual Stone%n-Need to relog to see changes%n-Very little documentation or explanation%n-Fast%n%n§lUse the Brew of Shifting Seasons from Witcher§ry%n-Small range, depends on the level of the brew (power, not dispersal extent)%n-Biome can be exactly specified%n-Crafted using the complicated custom brew system%n-Can add different ingredients to change range of the brew%n-At min changes a single block%n-At max has about a 3 block (circular) radius%n-Instant (once you use it)%n%n§lUse the Rite of Shifting Seasons from Witchery§r%n-Requires Stainless Steel, Greatwood Scepter or better for the Distillery%n-You have to do a bunch of Witchery stuff%n-Not hard once you've done it once%n-Extremely large range, 16/32/48 block (circular) radius%n-Biome can be exactly specified%n-Sometimes fails in specific chunks%n-Very fast%n%nIf you want to know how to use the Witchery methods, please go to the Look to the edges tab to continue.%n%nPSA: The IC2&Galacticraft Terraformers only change the surface, not the biome itself.
 
 # Quest: Unlimited LP
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJlw.name=§4§l§nUnlimited LP
