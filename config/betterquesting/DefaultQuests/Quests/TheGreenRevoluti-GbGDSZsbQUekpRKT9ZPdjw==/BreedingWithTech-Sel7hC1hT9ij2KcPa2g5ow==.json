@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The Crop Breeder is a new single-block machine that allows players to breed new crops deterministically. It will consume two seeds (the parents), some sort of fertilizer and an optional catalyst item for material-based plants. (usually a block of the material for ore-related crops)\r\n\nIt uses enriched liquid fertilizer to breed crops.\r\nThe cost is 1000L per tier of the offspring crop + 500L for each start point the new seed will have (it uses the average of the parents).\nSo a 31/31/31 tier 5 offspring would cost 51KL to breed.\n\nThe capacity should ensure that high-stat crop breeding using the breeder requires at least an HV breeding machine due to its fluid capacity. (It should be fine for those who can breed crops manually, since breeding machine-locked crops start appearing in HV).\nThe base recipe time is 20 seconds and increases based on the tier of the material the crop outputs.\r\nThe power usage to breed any specific crop is based on its output materials.\r\nIdidine, osmianth and stargtatium are all IV recipes, \rTitania is EV, and Bauxia is MV.\r\nBecause the seed duplicator exists, I plan to have it eat the seeds if breeding fails.\r\nBred crops will always have stats that are the average of their parents; breeding two maxed-out crops will always give a maxed-out offspring.\r\nSuccess chance starts at 50% and increases by 10% for every tier past MV, meaning that at ZPM, it’s guaranteed. \r\nWith bees, having enough tubes and/or maddening frames will guarantee the breeding even at earlier stages, so I’m fine with starting it with a higher chance, given that you can’t speed up the process at the minimum tier.\n\r\n[warn]If anybody makes it so there is no way to guarantee an output later on, I will teach you why the Canadians are responsible for a good chunk of the Geneva Convention. The hate I have for my luck is not to be underestimated. \r\nFor context: The first time I tried the success chance after implementing it, I failed 16 times in a row with a 50% chance.[/warn]\n",
+      "desc:8": "The Crop Breeder is a new single-block machine that allows players to breed new crops deterministically. It will consume two seeds (the parents), some enriched fertilizer and a catalyst item for material-based plants.\n\r\nThe fertilizer cost is 1000L per tier of the offspring crop + 500L for each start point the new seed will have (it uses the average of the parents).\nSo a 31/31/31 tier 5 offspring would cost 51KL to breed. Ididine, osmianth and stargtatium are all IV recipes, \rTitania is EV, and Bauxia is MV.\n\nBred crops will always have stats that are the average of their parents; breeding two maxed-out crops will always give a maxed-out offspring.\n\r\n§lSuccess chance starts at 50% and increases by 10% for every tier past\nMV, meaning that at ZPM, it’s guaranteed. A failed breed will void the \nparent seeds used.\n\n\n§rYou only need one of the machines for this quest.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -26,13 +26,60 @@
       "simultaneous:1": 0,
       "snd_complete:8": "random.levelup",
       "snd_update:8": "random.levelup",
-      "taskLogic:8": "AND",
+      "taskLogic:8": "OR",
       "visibility:8": "NORMAL"
     }
   },
   "questIDHigh:4": 5325923841969573848,
   "questIDLow:4": -6640373965889455709,
-  "rewards:9": {},
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 51,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag",
+          "tag:10": {
+            "ench:9": {
+              "0:10": {
+                "id:2": 35,
+                "lvl:2": 3
+              }
+            }
+          }
+        },
+        "1:10": {
+          "Count:3": 8,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "cropsnh:CropsnhEnrichedFertilizer"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:CoinFarmerI"
+        },
+        "1:10": {
+          "Count:3": 6,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:CoinTechnicianI"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "autoConsume:1": 0,
@@ -45,6 +92,74 @@
         "0:10": {
           "Count:3": 1,
           "Damage:2": 28025,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 28026,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 28027,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "3:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 3,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 28028,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "4:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 4,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 28029,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }

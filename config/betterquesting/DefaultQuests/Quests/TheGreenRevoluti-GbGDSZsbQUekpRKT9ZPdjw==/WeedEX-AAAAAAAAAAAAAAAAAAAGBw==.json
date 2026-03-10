@@ -12,7 +12,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Weed-EX is used to prevent the growth of weeds on empty crop blocks at the cost of some Weed-EX. \n\nIt can also be placed in a Crop Manager to automatically apply it to your crops.",
+      "desc:8": "Weed-EX is used to prevent the growth and spread of weeds on empty crop sticks.\n\nYou can either spray it manually using a spray can, or supply it to a Crop Manager to automatically apply it to all crops in range.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -42,13 +42,13 @@
     "0:10": {
       "choices:9": {
         "0:10": {
-          "Count:3": 16,
+          "Count:3": 8,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "minecraft:spider_eye"
         },
         "1:10": {
-          "Count:3": 16,
+          "Count:3": 8,
           "Damage:2": 32402,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"
