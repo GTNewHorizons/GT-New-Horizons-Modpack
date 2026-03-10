@@ -3,12 +3,16 @@
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 722
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 543
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Enriched fertilizer will allow you to advance to the next stage of crop technology. ",
+      "desc:8": "Enriched fertilizer will allow you to advance to the next stage of crop technology! \nIt is used in countless ways moving forward, but just to list a few it will be:\n\n - Pumped into Industrial Farms for increased growth rates.\n - Used to breed novel crops in the Crop Breeder.\n - Used to synthesize new seeds in the Seed Generator.\n\nIt will always be superior to the item based Fertilizer of the past, so moving forward you should be using it whenever possible.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,

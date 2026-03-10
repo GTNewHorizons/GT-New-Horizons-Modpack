@@ -19,14 +19,6 @@
 	<ToolTip ItemName="Thaumcraft:WandCasting:36" ToolTip="§4Prolonged use is not recommended..." NBT=""/>
 	<ToolTip ItemName="StevesCarts:CartModule:61" ToolTip="§dPerpetual Locomotion" NBT=""/>
 
-//Bags
-	<ToolTip ItemName="Backpack:backpack" ToolTip="36 Slots" NBT="" MetaStart="0" MetaEnd="16"/>
-	<ToolTip ItemName="Backpack:backpack" ToolTip="63 Slots" NBT="" MetaStart="100" MetaEnd="116"/>
-	<ToolTip ItemName="Backpack:backpack" ToolTip="90 Slots" NBT="" MetaStart="200" MetaEnd="216"/>
-	<ToolTip ItemName="Backpack:backpack:17" ToolTip="Crafting Backpack with 9 Inventory Slots" NBT=""/>
-	<ToolTip ItemName="Backpack:backpack:217" ToolTip="Crafting Backpack with 18 Inventory Slots" NBT=""/>
-	<ToolTip ItemName="Backpack:backpack:31999" ToolTip="§4Disabled Item; No recipe" NBT=""/>
-
 //Chisel
 	<ToolTip ItemName="chisel:chisel" ToolTip="§5Chisel from chisel Mod" NBT=""/>
 	<ToolTip ItemName="chisel:diamondChisel" ToolTip="§5Chisel from Chisel Mod" NBT=""/>
