@@ -79,12 +79,6 @@
           "Damage:2": 74,
           "OreDict:8": "",
           "id:8": "bartworks:gt.bwMetaGeneratedcell"
-        },
-        "1:10": {
-          "Count:3": 9,
-          "Damage:2": 1,
-          "OreDict:8": "",
-          "id:8": "IC2:itemCellEmpty"
         }
       },
       "taskID:8": "bq_standard:retrieval"

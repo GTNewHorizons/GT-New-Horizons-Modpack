@@ -1,25 +1,20 @@
 {
-  "preRequisites:9": {
-    "0:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 2590
-    }
-  },
+  "preRequisites:9": {},
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "UEV Superconductors, another great Infinity sink. You can make the Celestial Tungsten and Advanced Nitinol in a laser engraver directly, but this is quite slow. Perhaps consider using the Celestial Tungsten plasma line?",
+      "desc:8": "No Description",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 2026,
+        "Damage:2": 30106,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.blockmachines"
+        "id:8": "gregtech:gt.metaitem.01"
       },
-      "isMain:1": 1,
+      "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§5§l§nUEV Superconductors",
+      "name:8": "Spatially Enlarged Fluid",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -30,8 +25,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": -5503315474457539634,
-  "questIDLow:4": -9196591828784291176,
+  "questIDHigh:4": -1043987203417226171,
+  "questIDLow:4": -6451951400921199997,
   "rewards:9": {},
   "tasks:9": {
     "0:10": {
@@ -43,10 +38,10 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 27,
-          "Damage:2": 2026,
+          "Count:3": 1,
+          "Damage:2": 30106,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "gregtech:gt.metaitem.01"
         }
       },
       "taskID:8": "bq_standard:retrieval"
