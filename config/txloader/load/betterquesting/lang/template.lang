@@ -654,7 +654,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACcQ.desc=Want to move your chests and ba
 
 # Quest: One Anvil...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACtg.name=§c§lOne Anvil...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACtg.desc=With your brand-new Compressor you are able to make some metal blocks for your new anvil. You're required to craft at least one for the Forge Hammer.%n%n§3With the anvil you can repair, rename and enchant armor and tools.§r
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACtg.desc=With your brand-new Compressor you are able to make some metal blocks for your new anvil. You're required to craft at least one for the Forge Hammer.%n%n§3With the anvil you can repair, rename and enchant armor and some types of tools (non-GT).§r
 
 # Quest: Accelerated Plant Growth
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACwQ.name=§c§lAccelerated Plant Growth
@@ -746,7 +746,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEew.desc=They work basically the same as
 
 # Quest: Rubber Soft Mallet
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEhQ.name=§c§lRubber Soft Mallet
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEhQ.desc=Your wooden soft mallet breaks after a few uses. Now you can make a rubber mallet which is much more durable.%n%n§3The best one is made of Steeleaf, followed by Ironwood, both easily attainable once you get access to the Twilight Forest.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEhQ.desc=Your wooden soft mallet breaks after a few uses. Now you can make a rubber mallet which is much more durable.%n%n§3You can create much higher durability mallets using Steeleaf or Ironwood, both easily attainable once you get access to the Twilight Forest.
 
 # Quest: Hoppers
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEtQ.name=§c§lHoppers
@@ -1155,7 +1155,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAClw.desc=A faster alternative to steel p
 
 # Quest: LV Extruder
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACoQ.name=§2§lLV Extruder
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACoQ.desc=The extruder is not very useful in LV. But it will extrude your next tier of boat, make rubber sheets more efficiently, get you extra fluid cells, or make §osome§r Tinkers Construct tool parts.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACoQ.desc=The extruder is not very useful in LV. But it will extrude your next tier of boat, get you extra fluid cells, or make §osome§r Tinkers Construct tool parts.
 
 # Quest: Process Some Certus Quartz
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACzA.name=§2§lProcess Some Certus Quartz
@@ -3087,7 +3087,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAL-w.desc=Combining your cerium chloride 
 
 # Quest: Monazite
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL4w.name=§9§lMonazite
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL4w.desc=Welcome to lanthanide processing!%nIt'll be a fun journey, whether you like it or not :P%n%nFirst off get some monazite. This is only to get you started,%nas you're going to need a §oton§r to truly reap the rewards%nof this line.%n%nYou'll then need to combine it with nitric acid in the Digester multiblock,%nto get its mud form.%nYes, this is a §overy§r nitric acid hungry process!%n%n[note]To skip all of the Monazite quests hold a stack of each of these in your hand:%n%n- Zirconium Dust / Ingot%n- Hafnia Ingot%n- Cerium Dust / Ingot%n- Samarium Dust / Ingot[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL4w.desc=Welcome to lanthanide processing!%nIt'll be a fun journey, whether you like it or not :P%n%nFirst off get some monazite. This is only to get you started,%nas you're going to need a §oton§r to truly reap the rewards%nof this line.%n%nYou'll then need to combine it with nitric acid in the Digester multiblock,%nto get its mud form.%nYes, this is a §overy§r nitric acid hungry process!%n%n[note]To skip all of the Monazite quests hold a stack of each of these in your hand:%n%n- Zirconium Dust / Ingot%n- Hafnium Dust / Ingot%n- Cerium Dust / Ingot%n- Samarium Dust / Ingot[/note]
 
 # Quest: Watery Mud
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL5A.name=§9§lWatery Mud
@@ -3292,7 +3292,7 @@ betterquesting.quest.u_-8t2IvRnydvmUx_qdYuA.desc=If you have a stable Samarium r
 
 ## Quest Line: Tier 6 - LuV
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAACA.name=Tier 6 - LuV
-betterquesting.questline.AAAAAAAAAAAAAAAAAAAACA.desc=If you have made it this far, you should walk with your head held high - you are at the start of the lategame. Endgame is still a long road ahead of you, but you are now an expert at GTNH and most of the mods it comes with. Congrats, and be proud of yourself.%n%nOnce you're done being proud, start making CALs for better circuits, and work towards making endgame power with the Fusion Reactor, you'll need it.
+betterquesting.questline.AAAAAAAAAAAAAAAAAAAACA.desc=If you have made it this far, you should walk with your head held high - you are nearing the start of the midgame. Endgame is still a long road ahead of you, but you are now becoming an expert at GTNH and most of the mods it comes with. Congrats, and be proud of yourself.%n%nOnce you're done being proud, start making CALs for better circuits, and work towards making power with the Fusion Reactor, you'll need it.
 
 # Quest: Netherite Scrap Seed
 betterquesting.quest.01C00SMsRUyKUD2zJht8tA.name=§d§lNetherite Scrap Seed
@@ -3827,6 +3827,10 @@ betterquesting.quest.JhZaTiUfTH2AfBcHulTMVA.desc=§5§lPrismarine§r is an ancie
 betterquesting.quest.Oh_EQhvBQUqHeVcUyifCXQ.name=§b§lPrismatic Gas
 betterquesting.quest.Oh_EQhvBQUqHeVcUyifCXQ.desc=The §2Prismatic Crystal§r will then be processed in a §5§lVacuum Furnace§r with §2Boron Plasma§r in order to successfully convert it to the highly sought after §3Prismatic Gas§r.
 
+# Quest: Wormhole Generator
+betterquesting.quest.RnhqUVMfRVm8Ug3yM1mYKQ.name=§b§lWormhole Generator
+betterquesting.quest.RnhqUVMfRVm8Ug3yM1mYKQ.desc=The §5§lMiniature Wormhole Generator§r uses Quantum Entangled Singularities to transmit power over any distance, including across dimensions.%n%nTo use it, you must link two generators together using AE2 Entangled Singularities by placing one in each controller. Once linked, both wormholes must be started by placing a full (non-entangled) AE2 Singularity into an input bus on each machine. The wormhole will continue running as long as power is being transferred between them. If power transfer stops, the link will shut down and must be restarted using another Singularity on both ends.%n%nPower is transferred through Laser Source Hatches and Laser Target Hatches. Each wormhole can support up to 4 laser hatches. These must be placed in the center block of one of the side faces, excluding the controller side. Hatch pairs link based on relative position between the two wormholes, not cardinal direction. For example, a Source Hatch placed on the top of the sending side must connect to a Target Hatch placed on the bottom of the receiving wormhole.%n%nAdditionally, unlike AE2 P2P tunnels, this does not come with a 5%% power loss but rather a much more manageable 0.5%% loss. %n%n[note]The glass and input hatch must be tiered accordingly with the tier of the laser hatches. But remember, there is no amperage limit on this machine, so use whatever makes it cheapest for you.[/note]
+
 # Quest: Naquarite Universal Insulator Foil
 betterquesting.quest.fVoSLYPcSmKd-gLhBJHK9A.name=§b§lNaquarite Universal Insulator Foil
 betterquesting.quest.fVoSLYPcSmKd-gLhBJHK9A.desc=Finally, you can combine the §2Radiation-Proof Composite Sheet§r with §2Netherite Foil§r and §2Manyullyn§r in the §5§lForming Press§r to create §3Naquarite Universal Insulator Foil§r. This incredibly strong foil can be used to bind ingredients to all of your future coils due to it's unrivaled radiation and heat resistance. 
@@ -3886,7 +3890,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAH1w.desc=The Quantum Computer (QC) is an
 
 # Quest: Research Station
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH2A.name=§2§l§nResearch Station
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH2A.desc=Now that you've started building up your precious Quantum Computer, how about the Research Station? Once again, using the Multiblock Structure Hologram Projector will tell you how to build this Multiblock. There should be 3 empty blocks beneath it so you can see the whole blueprint. Once it is nearly assembled, place down an Energy Hatch, an Optical Reception Connector, and a Maintenance Hatch all on the back side.%n%nOnce fully assembled, you can begin operating recipes at any time, so long as the Quantum Computer is also active and connected. The Research Station requires you to put the item to research within the Object Holder, then a data stick in the Multiblock interface. Once the Computation is fully completed, the data stick that houses all the data of the completed item will be inside the Multiblock Interface.%n%nStill confused? Good, that's the spirit of learning! Always make sure to test these things in creative single player if you wish to find exact measurements and such. Don't forget to ALWAYS COLOR THE OPTICAL HATCHES AND FIBERS!%n%n[note]Note that some researches require a significant amount of power, so keep that in mind.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH2A.desc=Now that you've started building up your precious Quantum Computer, how about the Research Station? Once again, using the Multiblock Structure Hologram Projector will tell you how to build this Multiblock. There should be 3 empty blocks beneath it so you can see the whole blueprint. Once it is nearly assembled, place down an Energy Hatch, an Optical Reception Connector, and a Maintenance Hatch all on the back side and an output hatch on the front side.%n%nOnce fully assembled, you can begin operating recipes at any time, so long as the Quantum Computer is also active and connected. The Research Station requires you to put the item to research within the Object Holder, then a data stick in the Multiblock interface. Once the Computation is fully completed, the data stick that houses all the data of the completed item will be inside the Multiblock Interface.%n%nStill confused? Good, that's the spirit of learning! Always make sure to test these things in creative single player if you wish to find exact measurements and such. Don't forget to ALWAYS COLOR THE OPTICAL HATCHES AND FIBERS!%n%n[note]Note that some researches require a significant amount of power, so keep that in mind.[/note]
 
 # Quest: Maintenance Free At Last!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHMA.name=§2§l§nMaintenance Free At Last!
@@ -4147,7 +4151,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKdw.desc=After all these advancements, i
 
 # Quest: Industrial Scale Seaweed Production
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKeQ.name=§4§l§nIndustrial Scale Seaweed Production
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKeQ.desc=So you probably noticed that the amount of seaweed you'll need to make Bio circuits is kind of...intense. Collecting them yourself is a huge pain, and who wants to program robots? Plus servers. Fortunately, there's now a way to make seaweed.%n%nThe first thing you need is...Seaweed! Use that with Unknown Water you pumped from the same planet to make the culture. Expect this to take a while, as the chances are super low. You'll also need the max tier Bio Lab.%n%nOnce you have the culture you can make Seaweed Broth, by combining it with Unknown Nutrient Agar and some other stuff. This can then be made into seaweed.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKeQ.desc=So you probably noticed that the amount of seaweed you'll need to make Bio circuits is kind of...intense. Collecting them yourself is a huge pain, and who wants to program robots? Plus servers. Fortunately, there's now a way to make seaweed.%n%nThe first thing you need is...Seaweed! Use that with Unknown Water to make the culture. Expect this to take a while, as the chances are super low. You'll also need a UV Bio Lab.%n%nOnce you have the culture you can make Seaweed Broth, by combining it with Unknown Nutrient Agar and some other stuff. This can then be made into seaweed.
 
 # Quest: Beyond the Limit
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKiA.name=§4§l§nBeyond the Limit
@@ -4372,7 +4376,7 @@ betterquesting.quest.qirJLnNZT6Wmb7oQJ1IOLg.desc=You might be saying, "So I've j
 
 # Quest: UEV Superconductors
 betterquesting.quest.s6BLu9oMS86AXyR1FQ1imA.name=§5§l§nUEV Superconductors
-betterquesting.quest.s6BLu9oMS86AXyR1FQ1imA.desc=UEV superconductors, another great infinity sink. You can make the celestial tungsten and advanced nitinol in a laser engraver directly, but this is quite slow. Perhaps consider using the celestial tungsten plasma line?
+betterquesting.quest.s6BLu9oMS86AXyR1FQ1imA.desc=UEV Superconductors, another great Infinity sink. You can make the Celestial Tungsten and Advanced Nitinol in a laser engraver directly, but this is quite slow. Perhaps consider using the Celestial Tungsten plasma line?
 
 # Quest: UEV Field Generator
 betterquesting.quest.uUtOQgjtTCS5AWZPWG0qUQ.name=§5§l§nUEV Field Generator
@@ -4516,6 +4520,10 @@ betterquesting.quest.vLnSpTweSki3BaorBNQhxQ.desc=After seeing how slow Shirabon 
 betterquesting.questline.l37V2WvbSHGZQ5oMgAfBuw.name=Tier 12 - UMV
 betterquesting.questline.l37V2WvbSHGZQ5oMgAfBuw.desc=Maybe take a break every now and then...
 
+# Quest: T4: Advanced
+betterquesting.quest.-fvTafFJRo67bYWh46USSw.name=§c§l§nT4: Advanced
+betterquesting.quest.-fvTafFJRo67bYWh46USSw.desc=The §3Advanced§r Spacetime Compression Field Generator allows for up to §lT4§r recipes which produce §l1152L§r of Black Dwarf Matter per successful batch.%n%nThe §3Advanced§r Time Dilation Field Generator grants a §287.5%%§r time reduction for any recipe ran in the EoH, but reduces the likelihood of success by §c27.75%%§r.%n%nThe §3Advanced§r Stabilisation Field Generator will boost the success chance of the EoH by §215%%§r, but will decrease the yield by §c15%%§r and increase the power cost by §c25%%§r.
+
 # Quest: Finally, Universium!
 betterquesting.quest.21tDEYptRuOgSJym30Watg.name=§c§l§nFinally, Universium!
 betterquesting.quest.21tDEYptRuOgSJym30Watg.desc=You've finally solved it. Who knew that leaving dead stars long enough would cause your artificial solar system to implode and lead to a Big Bang?%n%nIf only you could tap into that much mass right before it started expanding again, you could literally hold the entire universe in the palm of your hand.%n%nThis is your third and final material from the EOH.%n%n[note]It's mainly used for UXV crafts, but your first few should go in the Eternity loop. The quest for it is located in the Endgame Goals tab.%n%nCongrats! You can now craft Magnetohydrodynamically Constrained Star Matter (MHDCSM).[/note]
@@ -4523,6 +4531,10 @@ betterquesting.quest.21tDEYptRuOgSJym30Watg.desc=You've finally solved it. Who k
 # Quest: Wireless Multi-Amp Hatches
 betterquesting.quest.2TXAUm6oQ0OhtMK79tC5cw.name=§c§l§nWireless Multi-Amp Hatches
 betterquesting.quest.2TXAUm6oQ0OhtMK79tC5cw.desc=With Shirabon now acquired, you can create 4A, 16A and 64A wireless energy hatches. These are particularly useful for machines which can use multi-amp, but do not need extreme amounts of power warranting a laser hatch.%n%n[note]These used to be needed in large quantities, being the best energy hatch to use on a Processing Array. May they rest in peace.[/note]
+
+# Quest: Magnetohydrodynamically Constrained Star Matter
+betterquesting.quest.52Yelo6KSLGumzXo-_F5DQ.name=§c§l§nMagnetohydrodynamically Constrained Star Matter
+betterquesting.quest.52Yelo6KSLGumzXo-_F5DQ.desc=Or MHDCSM for short.%n%nThis is your primary material for UXV components. It's tricky to make and extremely expensive, as all endgame materials should be.%n%nInstead of solidifying it directly, you need to coat Eternity parts with it.%n%nHave fun!
 
 # Quest: Guzzling Massive Amounts of Gas
 betterquesting.quest.5vAyoCzxQkSRpjzlDNwtrw.name=§c§l§nGuzzling Massive Amounts of Gas
@@ -4548,6 +4560,14 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrA.desc=The final circuit in the game: 
 betterquesting.quest.DVLahVNUQ-CvjYwmvkUn-Q.name=§c§l§nWhite Dwarf Matter
 betterquesting.quest.DVLahVNUQ-CvjYwmvkUn-Q.desc=Who knew that creating artificial solar systems would finally allow you to extract the core of a freshly dead star?%n%nWith your current crude casings, you can only accelerate the life of an artificial solar system to observe white dwarfs.%n%nPerhaps this matter will help you push the process even further.%n%n[note]This is one of the three EOH materials. Use it to upgrade your casings up to T4.[/note]
 
+# Quest: T6: Exotic
+betterquesting.quest.HFpuUdRKS--dsQzGEvjW2w.name=§c§l§nT6: Exotic
+betterquesting.quest.HFpuUdRKS--dsQzGEvjW2w.desc=The §eExotic§r§r Spacetime Compression Field Generator allows for up to §lT6§r recipes which produce §l18432L§r of Black Dwarf Matter per successful batch.%n%nThe §eExotic§r Time Dilation Field Generator grants a §296.875%%§r time reduction for any recipe ran in the EoH, but reduces the likelihood of success by §c46.25%%§r.%n%nThe §eExotic§r Stabilisation Field Generator will boost the success chance of the EoH by §225%%§r, but will decrease the yield by §c25%%§r and increase the power cost by §c15%%§r.
+
+# Quest: T3: Stable
+betterquesting.quest.Hgj4aBbmQUCkp325rL-McQ.name=§c§l§nT3: Stable
+betterquesting.quest.Hgj4aBbmQUCkp325rL-McQ.desc=The §9Stable§r Spacetime Compression Field Generator allows for up to §lT3§r recipes which produce §l18432L§r of White Dwarf Matter per successful batch.%n%nThe §9Stable§r Time Dilation Field Generator grants a §275%%§r time reduction for any recipe ran in the EoH, but reduces the likelihood of success by §c18.5%%§r.%n%nThe §9Stable§r Stabilisation Field Generator will boost the success chance of the EoH by §210%%§r, but will decrease the yield by §c10%%§r and increase the power cost by §c30%%§r.
+
 # Quest: Yet Another Space Elevator Upgrade
 betterquesting.quest.MiGXZ65sRwiAdpsCrVB0Eg.name=§c§l§nYet Another Space Elevator Upgrade
 betterquesting.quest.MiGXZ65sRwiAdpsCrVB0Eg.desc=This bad boi can handle 18 modules at once.
@@ -4568,13 +4588,25 @@ betterquesting.quest.U7Ta5d7PSii76sbIPbltlw.desc=With total mastery of the Forge
 betterquesting.quest.XoEzTtuPQjyeHTyqp9eY8Q.name=§c§l§nConvergence
 betterquesting.quest.XoEzTtuPQjyeHTyqp9eY8Q.desc=Running your Dimensionally Transcendent Plasma Forge for an extended period [note](8 hours)[/note] allows the Multidimensional Spaces to align perfectly.%n%nWith your newly acquired technology, you can now tap into these spaces in perfect sync, enabling your plasma forges to operate at incredible speeds.%n%nThe Transdimensional Alignment Matrix allows the DTPF to run with Perfect Overclocks. To achieve this, you need a full discount, and the extra power cost is offset by using more of the same catalyst.%n%nOverall, it is more efficient and totally worth it.%n%nThis process is extremely catalyst-hungry. Ensure you're producing enough to sustain it.%n%nFor recipes without a catalyst, you must specify the catalyst in the GUI by right-clicking the Convergence button, otherwise it will default to Crude.[/note]%n%n[note]Math for the curious:%n%nTo clear up what exactly happens in the background, here's an explanation on how the extra catalyst values are calculated using an example:%n%nThe example recipe of choice is the molten neutronium recipe using prosaic catalyst, running at 64A UMV (8,589,934,592 EU/t).%nThe recipe uses 14,753L of Prosaic catalyst and 36,484,545,600 EU per recipe without OCs or the catalyst discount. With the discount, the catalyst amount gets cut in half, meaning 7,376.5L of catalyst, which are rounded to 7,376L, and due to the 64A UMV the machine is supplied with the recipe overclocks 3 times, meaning each recipe actually uses 36,484,545,600 * 2^3 = 291,876,364,800 EU.%n%nKnowing the amount of OCs and the base voltage of the recipe, the difference of the needed EU per recipe with and without perfect OC can be calculated, that being 291,876,364,800 - 36,484,545,600 = 255,391,819,200 extra EU due to imperfect OCs.%nTo get the value of needed extra catalyst, this extra EU value has to be divided by the energy density of the relevant catalyst, prosaic in this case.%n%nThe division equates to 255,391,819,200 EU / 66,768,460 EU/L = 3,825.037 L, rounded to 3,825L extra prosaic catalyst per recipe. For the final step, this value has to be multiplied by 0.5 as it's affected by the discount, meaning the total extra catalyst that gets added to the recipe is 3,825L * 0.5 = 1,912.5 L, rounded to 1,912L.%n%nTo summarize it all in a formula:%nAmount extra catalyst per recipe = (B * ((2^x) - 1))/2L%nwhere:%nB is base total EU of the recipe%nx is the number of overclocks%nL is the EU/L of the relevant catalyst [/note]
 
+# Quest: T7: Perfect
+betterquesting.quest.bKW2YJfES6yvbes8JQRb0g.name=§c§l§nT7: Perfect
+betterquesting.quest.bKW2YJfES6yvbes8JQRb0g.desc=The §6Perfect§r Spacetime Compression Field Generator allows for up to §lT7§r recipes which produce §l1152L§r of §5Universium§r per successful batch.%n%nThe §6Perfect§r Time Dilation Field Generator grants a §298.4375%%§r time reduction for any recipe ran in the EoH, but reduces the likelihood of success by §c55.5%%§r.%n%nThe §6Perfect§r Stabilisation Field Generator will boost the success chance of the EoH by §230%%§r, but will decrease the yield by §c30%%§r and increase the power cost by §c10%%§r.
+
 # Quest: Black Dwarf Matter
 betterquesting.quest.bPYTUdlkSCiRi0eDHHw7tw.name=§c§l§nBlack Dwarf Matter
 betterquesting.quest.bPYTUdlkSCiRi0eDHHw7tw.desc=Reinforcing your casings with matter from white dwarfs was a good idea.%n%nYou can now accelerate a solar system until a black dwarf forms. This material will likely be key to observing and understanding what happens next.%n%nThis is the second of your three EOH materials. Use it to upgrade your casings to T7.%n%n[note]The EOH becomes power positive once all the casings are Tier 7.[/note]
 
+# Quest: T2: Primitive
+betterquesting.quest.cO67NYK2QsyDlcvFGkk43A.name=§c§l§nT2: Primitive
+betterquesting.quest.cO67NYK2QsyDlcvFGkk43A.desc=The §dPrimitive§r Spacetime Compresion Field Generator allows for up to §lT2§r recipes which produce §l4608L§r of White Dwarf Matter per successful batch.%n%nThe §dPrimitive§r Time Dilation Field Generator grants a §250%%§r time reduction for any recipe ran in the EoH, but reduces the likelihood of success by §c9.25%%§r.%n%nThe §dPrimitive§r Stabilisation Field Generator will boost the success chance of the EoH by §25%%§r, but will decrease the yield by §c5%%§r and increase the power cost by §c35%%§r.
+
 # Quest: Stellar Catalyst
 betterquesting.quest.fj2VzJf2Rgev7uY-h3CkJQ.name=§c§l§nStellar Catalyst
 betterquesting.quest.fj2VzJf2Rgev7uY-h3CkJQ.desc=Your attempts to improve your dimensional catalyst have been futile so far, but with the Raw Stellar Plasma from your Eye of Harmony, you can finally create a stable and more powerful catalyst.%n%nYou will need some higher-tier plasmas to help maintain its stability as well.%n%n[warn]Handle with care. We are not responsible for your base turning into supermassive black holes. /s[/warn]
+
+# Quest: T9: Gallifreyan
+betterquesting.quest.g5CfYPLATaiRyVInsqn9_w.name=§c§l§nT9: Gallifreyan
+betterquesting.quest.g5CfYPLATaiRyVInsqn9_w.desc=The §cG§6a§el§al§bi§9f§dr§ce§6y§ea§an§r Spacetime Compression Field Generator allows for up to §lT10§r§r recipes which produce §l18432L§r of Universium per successful batch.%n%nThe §cG§6a§el§al§bi§9f§dr§ce§6y§ea§an§r Time Dilation Field Generator grants a §299.609375%%§r time reduction for any recipe ran in the EoH, but reduces the likelihood of success by §c74%%§r.%n%nThe §cG§6a§el§al§bi§9f§dr§ce§6y§ea§an§r Stabilisation Field Generator will boost the success chance of the EoH by §240%%§r, but will decrease the yield by §c40%%§r.%n%n[note]If you want to run a T10 EoH that is power positive, the best setup to use is a T9/T8/T9 (Using Tipler Time Dilation Field Generators).[/note]
 
 # Quest: Saving on SpaceTime
 betterquesting.quest.hWXZi-whQfmgWO0EII7g2g.name=§c§l§nSaving on SpaceTime
@@ -4582,7 +4614,7 @@ betterquesting.quest.hWXZi-whQfmgWO0EII7g2g.desc=SpaceTime is quite a challenge,
 
 # Quest: Subspace Cooling
 betterquesting.quest.hybMIjq9Q9mxxWKEE8gBWQ.name=§c§l§nSubspace Cooling
-betterquesting.quest.hybMIjq9Q9mxxWKEE8gBWQ.desc=Cooling exotic ingots proves to be a much bigger challenge than smelting them.%n%nFortunately, reinforcing some of the casings with your new materials allows you to inject exotic coolants that capture extreme heat in miniature tears of spacetime, helping to cool your ingots a bit faster.%n%nWith Subspace Cooling, you can enable the Vacuum Freezer to achieve Perfect Overclocks… at a cost.%n%nTier 1 will consume SpaceTime in liquid form at [warn]7500 L/s[/warn] and allow for 1 Perfect Overclock.%n%n[note]This cost is very high but static, remaining the same for each recipe being run. So, be selective about cooling your ingots.%n%nThe faster the recipes, the more efficient the cost, so find your optimal balance.[/note]%n%nThe Infinity Cooled Casings replace the frost proof casings, so you don't need to worry about damaging your setups.
+betterquesting.quest.hybMIjq9Q9mxxWKEE8gBWQ.desc=Cooling exotic ingots proves to be a much bigger challenge than smelting them.%n%nFortunately, reinforcing some of the casings with your new materials allows you to inject exotic coolants that capture extreme heat in miniature tears of spacetime, helping to cool your ingots a bit faster.%n%nWith Subspace Cooling, you can enable the Vacuum Freezer to achieve Perfect Overclocks… at a cost.%n%nTier 1 will consume SpaceTime in liquid form at [warn]75 L/s[/warn] and allow for 1 Perfect Overclock.%n%n[note]This cost is very high but static, remaining the same for each recipe being run. So, be selective about cooling your ingots.%n%nThe faster the recipes, the more efficient the cost, so find your optimal balance.[/note]%n%nThe Infinity Cooled Casings replace the frost proof casings, so you don't need to worry about damaging your setups.
 
 # Quest: Tier 12 (UMV)
 betterquesting.quest.jlXvqqgIQ_Crha2tW0gEQg.name=§c§l§nTier 12 (UMV)
@@ -4594,15 +4626,23 @@ betterquesting.quest.k0ryGOkkSBOgYUcVY-J4rw.desc=Like its predecessor it can run
 
 # Quest: An Eye at the End of Time
 betterquesting.quest.kazCPEWoSmiZhR4bkHlEBQ.name=§c§l§nAn Eye at the End of Time
-betterquesting.quest.kazCPEWoSmiZhR4bkHlEBQ.desc=So you have made yourself an Eternal DTPF or hopefully a few, and now it is time for the push to the next tier, UXV.%n%nIntroducing the final multiblock in the game, and by far the most expensive.%nIt introduces 4 new materials: Raw Stellar Plasma, White and Black Dwarf Matter and finally Universium.%n%nIt has 3 different tiered casings with 9 tiers each:%n%nSpacetime Compression Field Generator:%n- Determines the tier of the planet block that can be run and decreases the processing time by 3%% per tier.%n%nTime Dilation Field Generator:%n- Decreases recipe time by 50%% per tier, while decreasing the chance of a recipe succeeding by 9.25%% per tier.%n%nStabilisation Field Generator:%n- Increases the chance of a recipe succeeding by 5%% per tier, while decreasing the output of a recipe by 5%% per tier.%n%nLower tier Stabilization Field Generators have a power output penalty.%n%nFinding the best setup of different casing tiers might be a hard task, so a calculator visualizing all the drops and setups has been created: [url]https://docs.google.com/spreadsheets/d/15j30mNnFIWBhwpJGuDrKTfiHBXNEEqyvB_r7ztFWlyQ[/url]%n%n[note]Be sure to read the tooltip of the Eye of Harmony controller, it explains everything in detail! Depending on your GUI scale it might have multiple pages.[/note]%n%n[note]Well... it explains mostly everything. The Eye of Harmony has an inbuilt pity system to make sure you don't lose your mind. Here's a quick rundown on how it operates:%n%n(All chances are decimals here)%nThere is a counter C that starts at the current recipe success chance P. If a recipe fails, (1-P)*P is added to C. If C reaches >= 1, the next roll is guaranteed to succeed and C resets to P. %nIf a recipe succeeds before C reaches >= 1, it resets in a similar manner.%nIf you switch recipes, C will be reset to P of the new recipe, even if the next roll would be a guarantee.%nThe guarantee can be canceled out by overflow penalties as they apply after the pity does. However, they do not reset C, so the guarantee is shifted to the next recipe cycle.%nIf parallels are > 1, pity doesn't apply.[/note]
+betterquesting.quest.kazCPEWoSmiZhR4bkHlEBQ.desc=So you have made yourself an Eternal DTPF or hopefully a few, and now it is time for the push to the next tier, UXV.%n%nIntroducing the final multiblock in the game, and by far the most expensive.%nIt introduces 4 new materials: Raw Stellar Plasma, White and Black Dwarf Matter and finally Universium.%n%nIt has 3 different tiered casings with 9 tiers each:%n%nSpacetime Compression Field Generator:%n- Determines the tier of the planet block that can be run and decreases the processing time by 3%% per tier.%n%nTime Dilation Field Generator:%n- Decreases recipe time by 50%% per tier, while decreasing the chance of a recipe succeeding by 9.25%% per tier.%n%nStabilisation Field Generator:%n- Increases the chance of a recipe succeeding by 5%% per tier, while decreasing the output of a recipe by 5%% per tier.%n%nLower tier Stabilization Field Generators have a power output penalty.%n%nFinding the best setup of different casing tiers might be a hard task, so a calculator visualizing all the drops and setups has been created: [url]https://docs.google.com/spreadsheets/d/1qyRWipeWpHQM4tbacb3TvO-QjvleV7-0uzMZWW3r6ew/edit?gid=589078529#gid=589078529[/url]%n%n[note]Be sure to read the tooltip of the Eye of Harmony controller, it explains everything in detail! Depending on your GUI scale it might have multiple pages.[/note]%n%n[note]Well... it explains mostly everything. The Eye of Harmony has an inbuilt pity system to make sure you don't lose your mind. Here's a quick rundown on how it operates:%n%n(All chances are decimals here)%nThere is a counter C that starts at the current recipe success chance P. If a recipe fails, (1-P)*P is added to C. If C reaches >= 1, the next roll is guaranteed to succeed and C resets to P. %nIf a recipe succeeds before C reaches >= 1, it resets in a similar manner.%nIf you switch recipes, C will be reset to P of the new recipe, even if the next roll would be a guarantee.%nThe guarantee can be canceled out by overflow penalties as they apply after the pity does. However, they do not reset C, so the guarantee is shifted to the next recipe cycle.%nIf parallels are > 1, pity doesn't apply.[/note]
 
 # Quest: Storing Computation in the Cloud
 betterquesting.quest.lBuQcNYjQ8-YsMFqW6U1tQ.name=§c§l§nStoring Computation in the Cloud
 betterquesting.quest.lBuQcNYjQ8-YsMFqW6U1tQ.desc=Wireless Computation is similar to Wireless Data, Cloud Computation Server Hatches send computation to Cloud Computation Client Hatches, which other multiblocks can use.%n%nPlace down a Server Hatch on a Quantum Computer, screwdriver the controller to enable Wireless Mode, then after placing down a Client Hatch, you have to set how much computation it should request from the Server Hatch.%n%n[note]These Cloud Computation Hatches are N:M (Many:Many)[/note]
 
+# Quest: T8: Tipler
+betterquesting.quest.lU1caedNR6G6fdJqbivacw.name=§c§l§nT8: Tipler
+betterquesting.quest.lU1caedNR6G6fdJqbivacw.desc=The §4Tipler§r Spacetime Compression Field Generator allows for up to §lT8§r recipes which produce §l4608L§r of Universium per successful batch.%n%nThe §4Tipler§r Time Dilation Field Generator grants a §299.21875%%§r time reduction for any recipe ran in the EoH, but reduces the likelihood of success by §c64.75%%§r.%n%nThe §4Tipler§r Stabilisation Field Generator will boost the success chance of the EoH by §235%%§r, but will decrease the yield by §c35%%§r and increase the power cost by §c5%%§r.
+
 # Quest: Shirabon
 betterquesting.quest.o8_pX-OSRJKBGzDsGujvNw.name=§c§l§nShirabon
 betterquesting.quest.o8_pX-OSRJKBGzDsGujvNw.desc=A helper material needed in some UMV and UXV components. Have fun making millions.%n%n[note]This is extremely slow to make and to process.[/note]
+
+# Quest: Spacetime Splitting
+betterquesting.quest.pW_B3nmQTxy87apiA9DyMA.name=§c§l§nSpacetime Splitting
+betterquesting.quest.pW_B3nmQTxy87apiA9DyMA.desc=Spacetime... separates?? Crazy world we're living in.%n%nYou will need a lot of both of these for upcoming crafts throughout the rest of the game, so make sure to set up infrastructure that can handle the demand. Fortunately, you will eventually be able to use DTPF and QFT recipes to speed the process up significantly, but for now the Spinmatron should be able to handle production just fine.
 
 # Quest: UMV Field Generator
 betterquesting.quest.rdzpjzaCS2epgavzZr6L9A.name=§c§l§nUMV Field Generator
@@ -4624,14 +4664,18 @@ betterquesting.quest.uXczmEsfT2uRCSnx8Vm4RQ.desc=Created by all tiers of the Eye
 betterquesting.quest.v5GltE2BTW-Me_rEqy5uFg.name=§c§l§nAre you Ready?
 betterquesting.quest.v5GltE2BTW-Me_rEqy5uFg.desc=From now on, you'll be dealing with extremely slow recipes.%n%nConsider finishing up your QFTs and upgrading or replacing your old infrastructure to save on TPS.%n%nYou should definitely upgrade your power generation and infrastructure to handle millions of recipes.%n%nThe Eye of Harmony will be consuming most of your power before it starts generating more than it uses.%n%nMay Colen have mercy on your soul.%n%n[note]Welcome to the waiting lounge.[/note]
 
+# Quest: T5: Superb
+betterquesting.quest.va9yzhTSSUWxgareXVIaXQ.name=§c§l§nT5: Superb
+betterquesting.quest.va9yzhTSSUWxgareXVIaXQ.desc=The §aSuperb§r Spacetime Compression Field Generator allows for up to §lT5§r recipes which produce §l4608L§r of Black Dwarf Matter per successful batch.%n%nThe §aSuperb§r Time Dilation Field Generator grants a §293.75%%§r time reduction for any recipe ran in the EoH, but reduces the likelihood of success by §c37%%§r.%n%nThe §aSuperb§r Stabilisation Field Generator will boost the success chance of the EoH by §220%%§r, but will decrease the yield by §c20%%§r and increase the power cost by §c20%%§r.
+
+# Quest: Eternity
+betterquesting.quest.wGq5FvuuROyyMPbT_SkMYg.name=§c§l§nEternity
+betterquesting.quest.wGq5FvuuROyyMPbT_SkMYg.desc=Definitely consider this for the improved Magnetohydrodynamically Constrained Star Matter recipe. You'll also need it to make MHDCSM parts.%n%nKickstarting the loop is expensive and RNG-based. You need 20,736 L of Universium for the first 5 attempts and a catalyst.%n%nThe QFT recipe has a 25%% chance of yielding Eternity per attempt. You should probably boost the QFT with plasmas and focus on producing Eternity.%n%n[note]Did you know the QFT has a fluid mode? It could be useful for extracting molten Shirabon. Just right-click the controller with a §ascrewdriver§r.[/note]%n%n[note]Building a full beacon out of Eternity Blocks might be a bit extravagant, don't you think?[/note]
+
 
 ## Quest Line: Endgame Goals
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAHQ.name=Endgame Goals
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAHQ.desc=Collection of endgame objectives, good luck and thanks for playing so far.
-
-# Quest: Magnetohydrodynamically Constrained Star Matter
-betterquesting.quest.52Yelo6KSLGumzXo-_F5DQ.name=§4§l§nMagnetohydrodynamically Constrained Star Matter
-betterquesting.quest.52Yelo6KSLGumzXo-_F5DQ.desc=Or MHDCSM for short.%n%nThis is your primary material for UXV components. It's tricky to make and extremely expensive, as all endgame materials should be.%n%nInstead of solidifying it directly, you need to coat Eternity parts with it.%n%nHave fun!
 
 # Quest: Tier 13 (UXV)
 betterquesting.quest.7wI7VuLKRe6lqAJpuYKKJg.name=§4§l§nTier 13 (UXV)
@@ -4675,7 +4719,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAM4A.desc=May Dreammaster have mercy on y
 
 # Quest: Fabricating Solar Systems... in Parallel
 betterquesting.quest.IGVryoMbRu28q08v4uwSuw.name=§4§l§nFabricating Solar Systems... in Parallel
-betterquesting.quest.IGVryoMbRu28q08v4uwSuw.desc=As you've noticed, UXV components are extremely expensive compared to the amount of Universium you can currently produce.%n%nThe Astral Array Fabricator allows you to run EOH recipes in parallel. You can review the math in the second page of the tooltip.%n%nFor a direct answer, you can use this spreadsheet: [url]https://docs.google.com/spreadsheets/d/15j30mNnFIWBhwpJGuDrKTfiHBXNEEqyvB_r7ztFWlyQ[/url]%n%n[warn]Be aware that the EOH will use Raw Stellar Plasma instead of Hydrogen and Helium if you use Astral Arrays.[/warn]%n%n[note]Make sure you are generating enough power.[/note]
+betterquesting.quest.IGVryoMbRu28q08v4uwSuw.desc=As you've noticed, UXV components are extremely expensive compared to the amount of Universium you can currently produce.%n%nThe Astral Array Fabricator allows you to run EOH recipes in parallel. You can review the math in the second page of the tooltip.%n%nFor a direct answer, you can use this spreadsheet: [url]https://docs.google.com/spreadsheets/d/1qyRWipeWpHQM4tbacb3TvO-QjvleV7-0uzMZWW3r6ew/edit?gid=589078529#gid=589078529[/url]%n%n[warn]Be aware that the EOH will use Raw Stellar Plasma instead of Hydrogen and Helium if you use Astral Arrays.[/warn]%n%n[note]Make sure you are generating enough power.[/note]
 
 # Quest: See You Next Time!
 betterquesting.quest.KNM9ICNAQIa8NaFoXwCC9g.name=§6§l§nSee You Next Time!
@@ -4688,6 +4732,10 @@ betterquesting.quest.OCv5OWo6Q9KDfqe1w0ET9w.desc=A single stargate pair wasn't e
 # Quest: Assembling on Space Steroids
 betterquesting.quest.UVG21mYSQJex90gQWdkpIw.name=§4§l§nAssembling on Space Steroids
 betterquesting.quest.UVG21mYSQJex90gQWdkpIw.desc=Has 64 parallels and consumes ~30b EU/t per module, expensive to run but absolutely worth it.
+
+# Quest: Humongous Hatch
+betterquesting.quest.Uj0PvsNCQw-aWaEOvlFpow.name=§4§l§nHumongous Hatch
+betterquesting.quest.Uj0PvsNCQw-aWaEOvlFpow.desc=At last... salvation from the egregious EoH hatch input limitations!%n%nThis will reduce the waiting time between cycles to a fraction of what it was before. 
 
 # Quest: Rule of Threes
 betterquesting.quest.bHFEDKAiTwGxaiyZEsmdjg.name=§4§l§nRule of Threes
@@ -4704,10 +4752,6 @@ betterquesting.quest.iLn_-6-LSk-wEOfi9muW3w.desc=Now that you have your hands on
 # Quest: Your Lord and Saviour, UXV CoAL
 betterquesting.quest.smCKxKkMSeyIAUeFInS4hQ.name=§4§l§nYour Lord and Saviour, UXV CoAL
 betterquesting.quest.smCKxKkMSeyIAUeFInS4hQ.desc=You want to rush this as soon as possible.%n%nEvery L of Universium matters.
-
-# Quest: Eternity
-betterquesting.quest.wGq5FvuuROyyMPbT_SkMYg.name=§4§l§nEternity
-betterquesting.quest.wGq5FvuuROyyMPbT_SkMYg.desc=Definitely consider this for the improved Magnetohydrodynamically Constrained Star Matter recipe. You'll also need it to make MHDCSM parts.%n%nKickstarting the loop is expensive and RNG-based. You need 20,736 L of Universium for the first 5 attempts and a catalyst.%n%nThe QFT recipe has a 25%% chance of yielding Eternity per attempt. You should probably boost the QFT with plasmas and focus on producing Eternity.%n%n[note]Did you know the QFT has a fluid mode? It could be useful for extracting molten Shirabon. Just right-click the controller with a §ascrewdriver§r.[/note]%n%n[note]Building a full beacon out of Eternity Blocks might be a bit extravagant, don't you think?[/note]
 
 
 ## Quest Line: Feeding Yourself
@@ -7447,7 +7491,7 @@ betterquesting.quest.3r7tJ7_bTuePzsh-B_jyIQ.name=Marie Curium?
 betterquesting.quest.3r7tJ7_bTuePzsh-B_jyIQ.desc=It's like cured meat... no, not at all, many sacrifices were made on the path to understanding radioactivity, may they be remembered forever. This goes to you, Marie and Pierre Curie.%n%nThis is the only non-plasma produced in a fusion reaction in this entire chain. That's not the important part, though: the important part is that [warn]this is one of the bottlenecks of the chain.[/warn] For every reactor running the final recipe, you will need around 0.144 reactors of this, so you won't make it to a compact at the end with just one mk1 reactor. Expect to follow the count of the second-to-last recipe, the Advanced Nitinol one.
 
 # Quest: XL Turbo Steam Turbine
-betterquesting.quest.4HoSq97QT3G63VJFeV_0ZQ.name=XL Turbo Steam Turbine
+betterquesting.quest.4HoSq97QT3G63VJFeV_0ZQ.name=§8§lXL Turbo Steam Turbine
 betterquesting.quest.4HoSq97QT3G63VJFeV_0ZQ.desc=The first of the XL Turbines. Because this is the first, this quest will include an explanation for the mechanics shared across all XL Turbines.%n%nEvery XL Turbine can hold 12 turbine items inside, in the 12 Rotor Assemblies, but their total speed is 16x higher than the regular multiblock equivalent. Make sure all the turbine items inside are of the same material, and also that you can provide enough input to match the flow rate that the multi needs! If you need even more speed, you can enable Loose Mode with a screwdriver on the controller, which can greatly increase turbines' flowrate while decreasing the efficiency.%n%nThese huge turbines also support TecTech hatches, so you can use multi-amp dynamos with a much higher output amount than normal, or even laser outputs later on to sustain the hundreds of millions of EU/t that the strongest turbines can produce.%n%nEach of the 5 turbines takes in the same fuels as their smaller counterparts, with some exceptions that will be mentioned in the respective quest. This XL Steam Turbine only consumes Steam, as expected.
 
 # Quest: Calcium Bottlenecking
@@ -7455,7 +7499,7 @@ betterquesting.quest.9j1Iwd3KRG6jqLI9m6YDKQ.name=Calcium Bottlenecking
 betterquesting.quest.9j1Iwd3KRG6jqLI9m6YDKQ.desc=Craft yourself some bone-strengthening Calcium in plasma form.%n%nThis step is almost twice as fast as the Boron one, so you only need half the reactors, plus one, or the tier above the reactors on the Boron side. It would normally be a lot slower, but the next step needs only a small amount of Calcium.%n%nKeep in mind that, at the end of each of the three fusion chains, the plasma amount gets multiplied, which means that most of your bottlenecks will be near the end of the entire setup, if you're going for Celestial Tungsten Plasma.%n%nYou will need 2.13 reactors with this recipe to feed 1 reactor with the next step.
 
 # Quest: Portable Clean Energy IV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA2A.name=Portable Clean Energy IV
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA2A.name=§9§lPortable Clean Energy IV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA2A.desc=This is the IV version.
 
 # Quest: MV Steam Turbine
@@ -7463,19 +7507,19 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAWQ.name=§6§lMV Steam Turbine
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAWQ.desc=Having moved up to MV, you can continue using Steam. However, it's not a great idea to stay here, and other fuel types will be more useful to you instead. This is because Steam Turbine efficiency drops quickly with every tier (this one is only 75%%), and the Steam itself needs big pipes to carry it around, compared to Benzene or Diesel.%n%nThat said, if you want to keep using this, then it's a good idea to build a Large Bronze Boiler or, later on, a Large Steel Boiler. You will need lots of solid fuel, probably Charcoal, so make sure you automate it! Definitely do not forget the water.
 
 # Quest: Standard Nuclear Fuel: Uranium
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAvw.name=Standard Nuclear Fuel: Uranium
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAvw.name=§8§lStandard Nuclear Fuel: Uranium
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAvw.desc=Just "regular" uranium fuel, nothing special about it. It produces 5x the power, and 4x the heat of thorium, while lasting 2/5 the time.%n%nMost fuel rods are basically this, but slightly modified. You generally get this from Mars and its moons, but you can get a little from centrifuging thorium if you want.%n%nBTW, one of the reactor types 'pulses' the reactor to turn it off once it gets too hot. You can pack in the rods and then cool it off for a while to get higher efficiency out of each rod. Try it if you like explosions.
 
 # Quest: Tricky Nuclear Fuel: MOX
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAwA.name=Tricky Nuclear Fuel: MOX
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAwA.name=§8§lTricky Nuclear Fuel: MOX
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAwA.desc=Under normal conditions, produces the same amount of power as uranium, but MOX produces more power the more you let the reactor heat up. Try to come up with a heat-neutral design as close to the limit as possible to take advantage of this. It lasts 1/2 the time, and produces more heat once the reactor is over 50%%. A fuel for all the engineers out there.%n%n[note]You'll need to run a uranium reactor for a while to get some plutonium if you don't have another way to get it. Remember that there's more than 1 type![/note]%n%n[warn]Make sure to test in creative and/or use protection against explosions![/warn]
 
 # Quest: Alternate Nuclear Fuel: Tiberium
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAxg.name=Alternate Nuclear Fuel: Tiberium
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAxg.name=§d§lAlternate Nuclear Fuel: Tiberium
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAxg.desc=They're the same as uranium but produce half as much heat. Given that there's no reactor designs floating around, and the fact that you need to go to Ross128ba, a T5 rocket (LuV) planet to get the tiberium, I'm gonna say they're probably not worth it. If you disagree, make a design and show it to people, 'kay?
 
 # Quest: Obscenely Dangerous Nuclear Fuel: The Core
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAB6g.name=Obscenely Dangerous Nuclear Fuel: The Core
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAB6g.name=§d§lObscenely Dangerous Nuclear Fuel: The Core
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB6g.desc=For the truly insane mad scientists out there. Or people who can read a website (not guaranteed, trust me!). You HAVE to use coolant cells with it if you want power or to have it not explode after 1s.
 
 # Quest: Power of the Sun at MV Level
@@ -7487,35 +7531,35 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAD7A.name=§a§lPower of the Sun 1x1 MV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD7A.desc=Put those 128 EU panels on a block to make them placeable in the world.
 
 # Quest: Power of the Sun at HV Level
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD7g.name=§b§lPower of the Sun at HV Level
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD7g.name=§9§lPower of the Sun at HV Level
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD7g.desc=The next solar panel you can make is the HV one. It generates 512 EU/t. First you need to produce enriched sunnarium by mixing irradiated uranium and sunnarium. The Avaritia 9x9 dire crafting table is required to make this and later panels.
 
 # Quest: Power of the Sun 1x1 HV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD7w.name=§b§lPower of the Sun 1x1 HV
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD7w.name=§9§lPower of the Sun 1x1 HV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD7w.desc=Put those 512 EU panels on a block to make them placeable in the world.
 
 # Quest: We Need Big Toys
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADDw.name=§6§lWe Need Big Toys
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADDw.name=§5§lWe Need Big Toys
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADDw.desc=All your little turbines take up too much space? Are you running out of water? It's time to solve these problems. This Large Steam Turbine can help you produce a tremendous amount of energy. It will also distill water for you, so you can use the same water again inside your Large Boiler. Don't forget to make a rotor for the turbine and put inside the controller, otherwise this multiblock won't do anything.%n%nEach turbine has a specific optimal flow, the Steam flow that gives the highest fuel efficiency, the value shown on the turbine's tooltip. This is the flow you want to match, and you can use a Fluid Regulator as a cover to make it exactly what you want, but you can go beyond this flow to get an even higher EU/t value, at a loss of fuel efficiency. You can make turbines in 4 different sizes, with larger turbines producing more EU/t, but with varying amounts of fuel efficiency. Generally, Large is the best due to having the highest fuel efficiency and a good optimal flow rate%n%nWhen using turbines, be careful of flow rates. To find the optimal flow rate, you divide the optimal energy flow rate listed on the turbine, by the energy value for the plasma. You can also use the Large Turbine Calculator (there's a link on the main spreadsheet, which is linked to in discord), or scan the multiblock's controller while feeding it a minimal amount of plasma to see what the optimal flow is. Make sure to use a Fluid Regulator set to this flow rate for highest fuel efficiency, or go beyond it to get more EU/t at a cost to efficiency, with Steam Turbines being the worst at retaining efficiency beyond the optimal flow.%n%nIf you go beyond the optimal flow, you will get a higher EU/t value, but less fuel efficiency, and the maximum EU/t value depends on the turbine type and its Overflow Efficiency tier. For this type of turbine, tier 1 reaches the max at 150%% of optimal flow to produce 112%% of the EU/t, tier 2 reaches the max at 200%% of optimal flow to produce 133%% of the EU/t and tier 3 reaches the max at 250%% of optimal flow to produce 156%% of the EU/t. The closer you get to this maximum, the more fuel efficiency you're throwing away. Don't exceed your dynamo hatch's maximum EU/t output, though, or you will have problems!%n%nUse NEI with the appropriate long rod to find assembler recipes that will work for you. Or the spreadsheet. Long magnalium for small turbines, long titanium for normal turbines, etc.%n%nPre-moon, the best rotors are Shadow Metal or Vibrant Alloy.%n%nPost-moon, the best HV rotors are Shadow Metal or Oriharukon (this is IV-tier). Luckily, turbines are now fully functional with multi-amp dynamos, so give those a try if you need extra amps!%n%nFor additional choices, see the spreadsheet and Large Turbine Calculator.
 
 # Quest: Power of the Sun at LV Level
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADqA.name=§a§lPower of the Sun at LV Level
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADqA.name=§6§lPower of the Sun at LV Level
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADqA.desc=The next solar panel you can make is the LV one. It generates 32 EU/t.
 
 # Quest: Power of the Sun 1x1 LV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADqQ.name=§a§lPower of the Sun 1x1 LV
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADqQ.name=§6§lPower of the Sun 1x1 LV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADqQ.desc=Put those 32 EU panels on a block to make them placeable in the world. Use an MV assembler to combine the panel with an LV hull, a battery, and a robot arm. Now this panel will clean itself!
 
 # Quest: Compressed Solar LV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFNA.name=Compressed Solar LV
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFNA.name=§6§lCompressed Solar LV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFNA.desc=The power of the sun x10. This solar panel works like 10 regular ones, but costs only 8. How is this possible? Magic! NOTE: They give out GT EU. NO TRANSFORMER NEEDED!
 
 # Quest: Essentia Generator: Potentia
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFNQ.name=Essentia Generator: Potentia
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFNQ.name=§6§lEssentia Generator: Potentia
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFNQ.desc=Aren't you tired of voiding all that useless potentia essentia? Well here's the solution:%nA generator that consumes potentia and outputs GT EU NO TRANSFORMER NEEDED!
 
 # Quest: Essentia Generator: Auram
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFNg.name=Essentia Generator: Auram
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFNg.name=§6§lEssentia Generator: Auram
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFNg.desc=This Generator is quite tricky. It requires Auram Essentia, that isn't that common, but its output is nice.
 
 # Quest: Infused Solars
@@ -7523,7 +7567,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFNw.name=Infused Solars
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFNw.desc=Compressed Solar Panels can be infused with Aspects for certain additional features. Check them out and choose one of them.
 
 # Quest: Double Compressed Solar
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFOA.name=Double Compressed Solar
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFOA.name=§6§lDouble Compressed Solar
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFOA.desc=100EU/t for 64x1EU/t Solars? Sounds like a good deal. Get one of these. They can be Infused as well.
 
 # Quest: Even More Infused
@@ -7531,51 +7575,51 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFOQ.name=Even More Infused
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFOQ.desc=You can infuse double or triple compressed solars as well.
 
 # Quest: Triple Compressed Solar
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFOg.name=Triple Compressed Solar
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFOg.name=§9§lTriple Compressed Solar
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFOg.desc=Triple Compressed Solars. Yes, that's right. They are a bit more expensive than their lower counterparts, 512 Solars in total. But they give out 1,000 GT EU per tick and have no need to be cleaned. How so? Magic.
 
 # Quest: Essentia Generator: Ignis
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFOw.name=Essentia Generator: Ignis
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFOw.name=§6§lEssentia Generator: Ignis
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFOw.desc=So, you got rid of the Potentia, maybe you don't want Ignis, but Potentia? Get this one to be able to burn Ignis.
 
 # Quest: Essentia Generator: Arbor
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFPA.name=Essentia Generator: Arbor
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFPA.name=§6§lEssentia Generator: Arbor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFPA.desc=When using magical plants to get Praecantatio Essentia, you'll end up with a couple dozen of Arbor Essentia jars. But no worries! This generator runs on Arbor! Awesome!
 
 # Quest: Essentia Generator: Aer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFPQ.name=Essentia Generator: Aer
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFPQ.name=§6§lEssentia Generator: Aer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFPQ.desc=Sugarcanes to power...? This generator runs on Aer Essentia, it might not be as powerful as its counterparts, but its fuel is cheap.
 
 # Quest: Essentia Generator: Lucrum
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFPg.name=Essentia Generator: Lucrum
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFPg.name=§6§lEssentia Generator: Lucrum
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFPg.desc=This highly-warped, high-power Essentia generator is a lifesaver, when you run out of energy. Just toss some gold into your Arcane Furnace and burn the Lucrum you get.
 
 # Quest: HV Steam Turbine
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFew.name=§9§lHV Steam Turbine
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFew.name=§5§lHV Steam Turbine
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFew.desc=Using Steam as your single power source in HV is pretty difficult. Your fuel automation will have to be very fast, your pipes will have to be very big and the final efficiency of HV Steam Turbines is 66%%, much lower than the other generators' 85%%.%n%nThis is best used with an efficient furnace, like the GT++ Advanced Furnaces, to power something specific like a farm. Powering your entire automation in your path to an EV, using only these, is a nightmare. If you want more efficiency out of your Steam, consider building a Large Steam Turbine.
 
 # Quest: What Was That? I Can't Hear You Over the Engine!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFyQ.name=What Was That? I Can't Hear You Over the Engine!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFyQ.name=§9§lWhat Was That? I Can't Hear You Over the Engine!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFyQ.desc=The Extreme Combustion Engine is an upgrade to the Large Combustion Engine, the IV version that needs Tungstensteel instead of Titanium. The structure is essentially the same, and it's almost a 1:1 ratio between the two materials, so this is a good generator when you've accumulated several stacks of Tungstensteel.%n%nThe caveat is that it only accepts High Octane Gasoline. This is the last and most powerful type of combustion fluid made from Oil, and it has the longest processing line of them all. As a reward, it has an excellent §a2.5M EU per bucket§r, and you can burn it here alongside some Liquid Oxygen for almost §a4 IV amps per tick.%n%n§cThe Liquid Oxygen is very important, because it greatly boosts the speed of the multi and the fuel efficiency as well.§r It needs 40 L/s, so you will need more than one Vacuum Freezer to supply it continuously: for an ECE that is always running, you will need a double Vacuum Freezer, 1 EV and 1 HV. You can run fewer freezers if you overclock them, if the ECE isn't working all the time or if you upgrade to a Cryogenic Freezer,
 
 # Quest: Power of the Sun at EV Level
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGiA.name=§b§lPower of the Sun at EV Level
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGiA.name=§9§lPower of the Sun at EV Level
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGiA.desc=The next solar panel you can make is the EV one. It generates 2048 EU/t.
 
 # Quest: Power of the Sun 1x1 EV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGtw.name=§b§lPower of the Sun 1x1 EV
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGtw.name=§9§lPower of the Sun 1x1 EV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGtw.desc=Put those 2048 EU panels on a block to make them placeable in the world.
 
 # Quest: Power of the Sun at IV Level
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGuA.name=§c§lPower of the Sun at IV Level
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGuA.name=§d§lPower of the Sun at IV Level
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGuA.desc=The next solar panel you can make is the IV one. It generates 8192 EU/t. This is probably the last tier it's worth it to make solars, unless you just really like them.
 
 # Quest: Power of the Sun 1x1 IV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGuQ.name=§c§lPower of the Sun 1x1 IV
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGuQ.name=§d§lPower of the Sun 1x1 IV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGuQ.desc=Put those 8192 EU panels on a block to make them placeable in the world.
 
 # Quest: Do You Hear That Engine Revving?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGzA.name=§6§lDo You Hear That Engine Revving?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGzA.name=§8§lDo You Hear That Engine Revving?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGzA.desc=Your old and trusty combustion engines don't quite cut it anymore, not to mention they're polluting the place. If you want to keep burning liquids, you need to build a better engine. This multiblock can produce 1A of EV voltage by default and 3A if you supply it with oxygen. However, this power doesn't come for free - you need to supply the machine with small amounts of lubricant constantly (and oxygen if you want to boost both its efficiency and output).%n%nYou will also require 3 Input Hatches, a Muffler, and a Dynamo Hatch. Their tiers are up to you.%n%nCetane Boosted Diesel and High Octane Gasoline (HOG) are excellent fuel sources for this engine.%n%nYou will need to keep the area in front of the engine clear so it can pull enough air - not even torches.
 
 # Quest: The Church of Benzene's Holy Altar
@@ -7591,27 +7635,27 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHZQ.name=§6§lFluid Regulator
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHZQ.desc=Turbines require precise amounts of fluids, and to moderate that you'll want a Fluid Regulator. Use the Fluid Regulator on the pipe attached to the input bus to control the rate of fluids into the turbine. To raise the fluid limit, look at the right side of the regulator and:%n%n1L - Right-click with an empty hand%n16L - Right-click with a screwdriver%n256L - Right-click with a screwdriver while sneaking%n%nTo lower the fluid limit, do the same while looking at the left side.%n%nUse the Large Turbine Calculator and the Turbine stats sheet on the spreadsheet to find what to set it to (after deciding on a fuel). At GTNH, we do the math for you! For this at least.%n%n[note]If you shift-right-click on it you can use the interface which is more precise.[/note]
 
 # Quest: Gas Turbine
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHZg.name=§6§lGas Turbine
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHZg.name=§8§lGas Turbine
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHZg.desc=A Large Gas Turbine is more fuel-efficient than singleblock turbines, and can have lower pollution output with upgraded mufflers.%n%nYou will also need a Muffler and Dynamo Hatch to complete the multiblock. Don't forget to use a Fluid Regulator, to control the flow rate into the multi! It can usually be an LV Fluid Regulator, since the optimal flow is much lower here than in Steam Turbines.%n%nEach turbine material has a specific fuel efficiency (the higher, the more EU you get from the same amount of fuel), and the multi only reaches this efficiency if the fuel flow into it matches the optimal flow.%n%nIf you go beyond the optimal flow, you will get a higher EU/t value, but less fuel efficiency, and the maximum EU/t value depends on the turbine type and its Overflow Efficiency tier. For this type of turbine, tier 1 reaches the max at 150%% of optimal flow to produce 112%% of the EU/t, tier 2 reaches the max at 300%% of optimal flow to produce 180%% of the EU/t and tier 3 reaches the max at 450%% of optimal flow to produce 252%% of the EU/t. The closer you get to this maximum, the more fuel efficiency you're throwing away.%n%nFor the best turbine materials, see the spreadsheet and Large Turbine Calculator.
 
 # Quest: Standard Nuclear Fuel II: Naquadah
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHaA.name=Standard Nuclear Fuel II: Naquadah
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHaA.name=§9§lStandard Nuclear Fuel II: Naquadah
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHaA.desc=These are...not worth it. Go do something else with your enriched naquadah, like putting it in a naq gen if you want power. They work §oexactly§r the same as uranium other than materials cost/output.%n%n[note]PS: You can get Nq+ from both centrifuging Nq dust or processing the ore.[/note]%n%n[note]And why are they Naquadah rods when they're made of Enriched Naquadah?[/note]
 
 # Quest: Tricky Nuclear Fuel II: Naquadria
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHaQ.name=Tricky Nuclear Fuel II: Naquadria
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHaQ.name=§b§lTricky Nuclear Fuel II: Naquadria
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHaQ.desc=They're so not worth it I'm just going to give you back the materials. Like naquadah, they're the same as MOX other than materials.%n%n[note]PS: You can get Nq* from both centrifuging Nq or Nq+ dust, processing the ores, or thermal centrifuging the depleted Nq+ rods.[/note]
 
 # Quest: Large Heat Exchanger - Fermat's Last
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHcQ.name=§6§lLarge Heat Exchanger - Fermat's Last
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHcQ.name=§8§lLarge Heat Exchanger - Fermat's Last
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHcQ.desc=The Large Heat Exchanger is a powergen multi that accepts a non-direct fuel, and doesn't output EU. What is it for, then? §7To heat up water with hot liquids, that's what!§r%n%nEffectively, it's a Steam Boiler that uses fluids instead of solids, but it's more complicated. The three sources of energy are Lava, Hot Coolant, and Hot Solar Salt. The salt is the most powerful, but hardest to get. Lava can be automated from Everburn Urns or a myriad of other options, Hot Coolant usually comes from Fluid Nukes, and Hot Solar Salt is produced in the Solar Tower.%n%nFor Lava, the LHE outputs §d160 L of Steam for every 1 L of Lava, up to 1000 L/s of Lava input§r (§a4000 EU/t§r at 100%% turbine efficiency). For Hot Coolant, the LHE outputs §d400 L of Steam for every 1 L of Hot Coolant, up to 800 L/s of input§r (§a8000 EU/t§r at 100%% turbine efficiency). For Hot Solar Salt, the LHE outputs §d2000 L of Steam for every 1 L of Hot Solar Salt, up to 160 L/s of input§r (§a8000 EU/t§r at 100%% turbine efficiency).%n%n§cIf you go above these input rates, the output becomes Superheated Steam, which needs to pass through a Large HP Steam Turbine before the regular Large Steam Turbine.§r The maximum input rate here is twice of what was before and the conversion rates are now §d1:80 for Lava§r, §d1:200 for Hot Coolant§r, and §d1:1000 for Hot Solar Salt§r. The energy output at 100%% turbine efficiency is §a12000 EU/t§r for Lava, §a24000 EU/t§r for Hot Coolant, and §a24000 EU/t§r for Hot Solar Salt.%n%n§6§lVery powerful, but complicated, and needs turbines!§r%n%nFor more information, visit [url]https://wiki.gtnewhorizons.com/wiki/Large_Heat_Exchanger[/url] or [url]https://wiki.gtnewhorizons.com/wiki/Fluid_Reactor[/url].
 
 # Quest: Rocket Engine EV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI9g.name=§a§lRocket Engine EV
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI9g.name=§8§lRocket Engine EV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI9g.desc=The Rocket Engine is a very dirty device which generates power out of rocket fuels at 80%% efficiency, and produces 250 to 2000 pollution/s.%n%n[note]There are 4 Rocket Fuels. Follow the Space Race tab quests to see how to make the rest. Expect to need more than one (probably several) Chemical Plants if you want to automate production.[/note]
 
 # Quest: Kinetic Wind Power EV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK-A.name=§9§lKinetic Wind Power EV
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK-A.name=§8§lKinetic Wind Power EV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK-A.desc=This is the EV version, it works the same.
 
 # Quest: Kinetic Water Power IV
@@ -7623,79 +7667,79 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAK-g.name=§9§lKinetic Wind Power IV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK-g.desc=This is the IV version.
 
 # Quest: Kinetic Water Power LuV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK-w.name=§9§lKinetic Water Power LuV
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK-w.name=§d§lKinetic Water Power LuV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK-w.desc=This is the LuV version.
 
 # Quest: Power of the Sun at LuV Level
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK1g.name=§lPower of the Sun at LuV Level
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK1g.name=§d§lPower of the Sun at LuV Level
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK1g.desc=The LuV solar panel generates 32768 EU/t.
 
 # Quest: Power of the Sun 1x1 LuV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK1w.name=§lPower of the Sun 1x1 LuV
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK1w.name=§d§lPower of the Sun 1x1 LuV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK1w.desc=This is the block version that doesn't need cleaning.
 
 # Quest: Power of the Sun at ZPM Level
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK2A.name=§lPower of the Sun at ZPM Level
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK2A.name=§2§l§nPower of the Sun at ZPM Level
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK2A.desc=The ZPM solar panel generates 131072 EU/t.
 
 # Quest: Power of the Sun at UV Level
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK2Q.name=§lPower of the Sun at UV Level
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK2Q.name=§4§l§nPower of the Sun at UV Level
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK2Q.desc=The UV solar panel generates 524288 EU/t.
 
 # Quest: Power of the Sun 1x1 ZPM
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK2g.name=§lPower of the Sun 1x1 ZPM
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK2g.name=§2§l§nPower of the Sun 1x1 ZPM
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK2g.desc=This is the block version that doesn't need cleaning.
 
 # Quest: Pocket Plasma EV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK2w.name=Pocket Plasma EV
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK2w.name=§d§lPocket Plasma EV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK2w.desc=Assuming you don't want to set up something crazy every time you move your miners, you'll need some kind of SB to power them. This is one of the good options. You can just teleport the fuel instead.%n%n[note]You may note that the efficiency goes up rather than down as it goes up in tiers. Enjoy this small comfort, the multis are still way better.[/note]
 
 # Quest: Pocket Plasma IV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK3A.name=Pocket Plasma IV
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK3A.name=§d§lPocket Plasma IV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK3A.desc=This is the IV version.
 
 # Quest: Pocket Plasma LuV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK3Q.name=Pocket Plasma LuV
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK3Q.name=§b§lPocket Plasma LuV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK3Q.desc=This is the LuV version.
 
 # Quest: Pocket Plasma ZPM
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK3g.name=Pocket Plasma ZPM
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK3g.name=§b§lPocket Plasma ZPM
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK3g.desc=This is the ZPM version.
 
 # Quest: Pocket Plasma UV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK3w.name=Pocket Plasma UV
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK3w.name=§2§l§nPocket Plasma UV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK3w.desc=This is the UV version.
 
 # Quest: Rocket Engine IV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK4A.name=§a§lRocket Engine IV
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK4A.name=§9§lRocket Engine IV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK4A.desc=This is the IV version. It has 70%% efficiency, and produces 500 to 4000 pollution/s.
 
 # Quest: Rocket Engine LuV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK4Q.name=§a§lRocket Engine LuV
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK4Q.name=§d§lRocket Engine LuV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK4Q.desc=This is the LuV version. It has 60%% efficiency, and produces 750 to 6000 pollution/s.
 
 # Quest: How Many Forests Did You Cut Down to Power This?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK4g.name=How Many Forests Did You Cut Down to Power This?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK4g.name=§5§lHow Many Forests Did You Cut Down to Power This?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK4g.desc=This is the HV version, with the lowest efficiency so far of 85%%. You can offset that by just generating more Benzene, alongside Phenol and Toluene in a Distillation Tower, or use Naphtha instead... You have many options at this point, surely enough to fight the increasing power demands of your automation.%n%nBenzene doesn't get upgraded in HV, only in EV. You'll be able to make Nitrobenzene when you're there, and burn it in some turbines bigger than this one.
 
 # Quest: Even Better Diesel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK4w.name=Even Better Diesel
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK4w.name=§5§lEven Better Diesel
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK4w.desc=In HV, you unlock yet another generator, but also Cetane-Boosted Diesel. After a bunch of reactions, you can get a superpowered combustion fuel that is worth §a1M EU per bucket§r and run it for quite a while on these improved generators. You will also unlock the Distillation Tower here, so you might get even more fuel that you can burn in these generators.%n%nUnfortunately, the next fuel, unlocked in EV, doesn't come from Diesel. It's a completely different processing line, should you wish to tackle it later.
 
 # Quest: Putting the 'Semi' Back Into Generators LV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK5A.name=Putting the 'Semi' Back Into Generators LV
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK5A.name=§2§lPutting the 'Semi' Back Into Generators LV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK5A.desc=You've probably collected a ton of Creosote and have little to use it on. To fix that, build a Semifluid Generator and use it alongside Steam as a secondary power source! Singleblock generators will only use fuel if there is EU demand, so you might end up with a filled Creosote buffer if you aren't consuming enough EU.%n%nTo extract the Creosote from your Coke Ovens, you can use a Coke Oven Hatch and some fluid pipes of your choice.%n%nThere are other options to burn Creosote, like the Railcraft Liquid Boilers, but this is much cheaper and easier to set up, while still being efficient with Creosote (6x as efficient as Combustion Generators).
 
 # Quest: Putting the 'Semi' Back Into Generators MV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK5Q.name=Putting the 'Semi' Back Into Generators MV
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK5Q.name=§6§lPutting the 'Semi' Back Into Generators MV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK5Q.desc=If you're still burning Creosote for power, you can get MV amps out of it with these machines. It won't last long, and definitely isn't a good main power source, but it'll give you some EU for your trouble.%n%nAlternatively, Heavy Fuel? It has the same EU per bucket as Benzene, 360k, and is the only semifluid with more than 100k per bucket. If you have it, and are not consuming enough for Diesel, you can use it this way.
 
 # Quest: Putting the 'Semi' Back Into Generators HV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK5g.name=Putting the 'Semi' Back Into Generators HV
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK5g.name=§5§lPutting the 'Semi' Back Into Generators HV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK5g.desc=If you've built Distillation Towers to improve your Oil or Benzene processing line, you might have ended up with some extra fuels that are semifluids, such as Heavy Fuel or Creosote. If you've accumulated them so much that they've started voiding, you can instead make an HV Semifluid Generator and get free power out of them!%n%nThe Creosote from one DT that is processing Wood Tar is enough to power the DT itself, depending on the fuel efficiency. One HV generator is just enough to power it.
 
 # Quest: You Haven't Learned How to Separate Fluids Yet? Seriously?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK5w.name=You Haven't Learned How to Separate Fluids Yet? Seriously?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK5w.name=§8§lYou Haven't Learned How to Separate Fluids Yet? Seriously?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK5w.desc=This multi follows the same logic as the Large Combustion Engine, but it uses semifluids instead. If you have the need to burn any of those for power, like Heavy Fuel for example, you can put this together.%n%n[note]Check the Large Combustion Engine quest for more details.[/note]
 
 # Quest: Acid Trip
@@ -7703,47 +7747,47 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAK6A.name=Acid Trip
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK6A.desc=This is the HV version. Will people really use this? Each stack of Redstone Dust is worth around 580k EU, so look at your storage and see what you have.
 
 # Quest: Hallucinogenics Not Included
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK6Q.name=Hallucinogenics Not Included
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK6Q.name=§8§lHallucinogenics Not Included
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK6Q.desc=This is the EV version. I hope you're not using this for primary power gen? At least, it has a pretty good efficiency of 88%% for an EV singleblock, and it's better than voiding the fluids that can be used as fuel here.
 
 # Quest: Portable Clean Energy EV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK6g.name=Portable Clean Energy EV
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK6g.name=§8§lPortable Clean Energy EV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK6g.desc=As long as you don't hold the fuel, that is. Very useful for your Mining rigs, the efficiency on these goes way up as they increase in tier. Though they require more Enriched Naquadah each tier (and Naquadria at ZPM).%n%n[note]The fuel is radioactive, dummy.[/note]
 
 # Quest: Portable Clean Energy LuV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK6w.name=Portable Clean Energy LuV
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK6w.name=§d§lPortable Clean Energy LuV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK6w.desc=This is the LuV version.
 
 # Quest: Portable Clean Energy ZPM
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK7A.name=Portable Clean Energy ZPM
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK7A.name=§b§lPortable Clean Energy ZPM
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK7A.desc=This is the ZPM version. It uses Naquadria now.
 
 # Quest: Portable Clean Energy UV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK7Q.name=Portable Clean Energy UV
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK7Q.name=§2§l§nPortable Clean Energy UV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK7Q.desc=This is the UV version.
 
 # Quest: Geothermal Power EV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK7g.name=Geothermal Power EV
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK7g.name=§9§lGeothermal Power EV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK7g.desc=Turns lava into power, at very inefficient rates. Also, seems to produce way more pollution than it says. They also require you to be 2 tiers above the output amount, so, yeah.%n%n[note]Wasn't geothermal supposed to be environmentally friendly?[/note]
 
 # Quest: Geothermal Power IV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK7w.name=Geothermal Power IV
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK7w.name=§d§lGeothermal Power IV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK7w.desc=The IV version. Almost certainly produces more pollution than it says.
 
 # Quest: Geothermal Power LuV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK8A.name=Geothermal Power LuV
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK8A.name=§2§l§nGeothermal Power LuV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK8A.desc=The LuV version. Even if you use it with an Everburn Urn, would it even be useful?
 
 # Quest: Radioisotope Thermoelectric Generator
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK8Q.name=Radioisotope Thermoelectric Generator
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK8Q.name=§8§lRadioisotope Thermoelectric Generator
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK8Q.desc=Runs forever on the fuel you give it. Puts out 1 EU/t, but doubles for each one added, up to 32 EU/t. Might be useful for a farm?
 
 # Quest: Radioisotope Thermoelectric Generator
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK8g.name=Radioisotope Thermoelectric Generator
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK8g.name=§9§lRadioisotope Thermoelectric Generator
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK8g.desc=Runs for a reaaaally long time. Outputs an amount based on the fuel pellet given.%n%n241Am: 16 EU, 69875 days%n90Sr: 30 EU, 62640 days%n238Pu: 64 EU, 42982 days%n210Po: 480 EU, 34560 days%n%nHonestly, it's super not worth it. Especially considering you need to make a Cyclotron to make the fuel. And it's not even guaranteed!
 
 # Quest: Kinetic Power EV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK8w.name=§9§lKinetic Power EV
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK8w.name=§8§lKinetic Power EV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK8w.desc=This is the EV version, it works the same.
 
 # Quest: Kinetic Power IV
@@ -7751,107 +7795,107 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAK9A.name=§9§lKinetic Power IV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK9A.desc=This is the IV version.
 
 # Quest: Kinetic Power LuV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK9Q.name=§9§lKinetic Power LuV
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK9Q.name=§d§lKinetic Power LuV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK9Q.desc=This is the LuV version.
 
 # Quest: Kinetic Power ZPM
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK9g.name=§9§lKinetic Power ZPM
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK9g.name=§b§lKinetic Power ZPM
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK9g.desc=This is the ZPM version.
 
 # Quest: Kinetic Water Power EV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK9w.name=§9§lKinetic Water Power EV
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK9w.name=§8§lKinetic Water Power EV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK9w.desc=This is the EV version, it works the same.
 
 # Quest: Who Needs UV Solars When You Have Magic
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKJA.name=Who Needs UV Solars When You Have Magic
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKJA.name=§5§l§nWho Needs UV Solars When You Have Magic
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKJA.desc=16,777,216 Solars!!! This single block can produce a maximum of 600m EU/t when in aqua form, that's balanced right... right?
 
 # Quest: Kinetic Wind Power LuV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK_A.name=§9§lKinetic Wind Power LuV
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK_A.name=§d§lKinetic Wind Power LuV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK_A.desc=This is the LuV version.
 
 # Quest: Kinetic Water Power ZPM
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK_Q.name=§9§lKinetic Water Power ZPM
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK_Q.name=§b§lKinetic Water Power ZPM
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK_Q.desc=This is the ZPM version.
 
 # Quest: Kinetic Wind Power ZPM
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK_g.name=§9§lKinetic Wind Power ZPM
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK_g.name=§b§lKinetic Wind Power ZPM
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK_g.desc=This is the ZPM version.
 
 # Quest: Quadruple Compressed Solar
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK_w.name=Quadruple Compressed Solar
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK_w.name=§d§lQuadruple Compressed Solar
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK_w.desc=4,096 Solars! Puts out 10000-32768 EU/t.
 
 # Quest: This is Not How You Get Into Space
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKyg.name=This is Not How You Get Into Space
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKyg.name=§9§lThis is Not How You Get Into Space
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKyg.desc=This produces power out of Rocket Fuels. To see how to make them, look at the Space Race tab. These are specifically GT++ Rocket Fuels, and automating them for powergen in this multi will also provide you with endless fuel for your space travels.%n%nThe math regarding the Rocketdyne is complicated. Looking at the controller's tooltip helps, but the main gist of it is like this: provide Carbon Dioxide and make sure it doesn't run out, choose the EU/t you want to get, calculate the amount of fuel you need for the fuel you will use, and then provide enough Liquid Hydrogen to boost the multi, according to the EU/t value.%n%nYou will always want to have the Rocketdyne boosted, for several reasons. Assuming you have at least a buffered IV Dynamo Hatch, outputting close to the maximum on that hatch will lower the fuel efficiency, but not if it's boosted. Additionally, this multi doesn't consume fuel continuously, but with intervals of 1 second between consuming and not consuming, while generating power all the same. Boosting this consumption results in huge fuel efficiency, combined with the high fuel values of the Rocket Fuels.%n%n[warn]Beware, letting the dynamo overfill can lead to an explosion! Be sure you have a place to output the energy.[/warn]
 
 # Quest: Deep Earth Heating Pump
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKzg.name=Deep Earth Heating Pump
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKzg.name=§9§lDeep Earth Heating Pump
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKzg.desc=With the power of §cgeothermal energy§r, the Deep Earth Heating Pump can heat up Coolant or boil Distilled Water to create an energy source from the Earth's core.%n%nBy using a Heat Exchanger, you can convert the Hot Coolant into steam and use it in your turbines.%n%nAlternatively, you can make it output Superheated Steam directly, but only at 66%% of the efficiency the hot coolant can achieve
 
 # Quest: UHT Resistant Mesh
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL3g.name=UHT Resistant Mesh
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL3g.name=§b§lUHT Resistant Mesh
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL3g.desc=§o*Slaps UHT Resistant Mesh* This bad boy can withstand so much heat!§r%n%nYou should probably automate this if you want to build and use the Dyson Swarm multiblock.
 
 # Quest: Quintuple Compressed Solar
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALAA.name=Quintuple Compressed Solar
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALAA.name=§b§lQuintuple Compressed Solar
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALAA.desc=32,768 Solars! Puts out 100,000-131,072 EU/t.
 
 # Quest: Sextuple Compressed Solar
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALAQ.name=Sextuple Compressed Solar
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALAQ.name=§2§l§nSextuple Compressed Solar
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALAQ.desc=262,144 Solars! Puts out 1,000,000-2,097,152 EU/t.
 
 # Quest: Septuple Compressed Solar
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALAg.name=Septuple Compressed Solar
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALAg.name=§4§l§nSeptuple Compressed Solar
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALAg.desc=2,097,152 Solars! Puts out 10,000,000-33,554,432 EU/t.
 
 # Quest: Toss Your Magic Junk in Here LV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALAw.name=Toss Your Magic Junk in Here LV
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALAw.name=§6§lToss Your Magic Junk in Here LV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALAw.desc=And receive power in return. Especially good with Nether Stars if you've got a bunch. Or practically any magic material item (not crafted stuff mostly).
 
 # Quest: Toss Your Magic Junk in Here MV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALBA.name=Toss Your Magic Junk in Here MV
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALBA.name=§5§lToss Your Magic Junk in Here MV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALBA.desc=The MV version.
 
 # Quest: Toss Your Magic Junk in Here HV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALBQ.name=Toss Your Magic Junk in Here HV
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALBQ.name=§5§lToss Your Magic Junk in Here HV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALBQ.desc=The HV Version.
 
 # Quest: Absorbing Magic Energy to Produce EU HV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALBg.name=Absorbing Magic Energy to Produce EU HV
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALBg.name=§5§lAbsorbing Magic Energy to Produce EU HV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALBg.desc=The HV Version.
 
 # Quest: Absorbing Magic Energy to Produce EU MV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALBw.name=Absorbing Magic Energy to Produce EU MV
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALBw.name=§5§lAbsorbing Magic Energy to Produce EU MV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALBw.desc=The MV version.
 
 # Quest: Absorbing Magic Energy to Produce EU LV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALCA.name=Absorbing Magic Energy to Produce EU LV
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALCA.name=§6§lAbsorbing Magic Energy to Produce EU LV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALCA.desc=These produce power by absorbing magic energy from nodes, dragon eggs, creeper eggs, etc.
 
 # Quest: Absorbing Magic Energy to Produce EU EV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALCQ.name=Absorbing Magic Energy to Produce EU EV
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALCQ.name=§5§lAbsorbing Magic Energy to Produce EU EV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALCQ.desc=The EV Version.
 
 # Quest: Solid-Oxide Fuel Cell Mk II
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALCg.name=Solid-Oxide Fuel Cell Mk II
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALCg.name=§8§lSolid-Oxide Fuel Cell Mk II
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALCg.desc=It's the same as the previous, but more/better. It takes less time to heat up, but it chews through fuel pretty fast too. It still isn't as good as an LGT for power produced over time, but it can produce power faster. As long as you use it with the HP Steam Turbine.%n%nIt can produce 1A+ of LuV if you set it up right.
 
 # Quest: Solid-Oxide Fuel Cell Mk I
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALCw.name=Solid-Oxide Fuel Cell Mk I
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALCw.name=§8§lSolid-Oxide Fuel Cell Mk I
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALCw.desc=It uses Gas fuels to produce power and Steam at the same time, while also generating 0 pollution. If the other generators were being problematic, this is the best solution.%n%nIt produces §a4 HV amps per tick§r at a nice fuel efficiency, while consuming 100 L of Oxygen per second. It will heat up over time until it reaches 100%% efficiency, at which point it starts outputting Steam as well. You can then use Steam Turbines, singleblocks or multiblocks, to generate even more power.%n%nWith these two things combined, it's more powerful than the Large Gas Turbine that you can build at the start. Only when you unlock better materials for that, will it generate more power than the SOFC Mk I.
 
 # Quest: It's 'Super' Heated Steam
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALDA.name=It's 'Super' Heated Steam
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALDA.name=§5§lIt's 'Super' Heated Steam
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALDA.desc=So that means it produces §otwice§r as much power! You can get this steam through the LHE, the SOFC Mk II or the Titanium/Tungstensteel Boilers. It gets converted to normal steam as the output at a 1:1 ratio, so make sure to have a non-HP one to take advantage of that. In total, an HP Steam Turbine and a regular one combined produce 3x the EU with Superheated Steam that normal Steam would produce.
 
 # Quest: More Advanced Reactors
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALDQ.name=More Advanced Reactors
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALDQ.name=§8§lMore Advanced Reactors
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALDQ.desc=Fluid Nukes, Vac Nukes and Wrench Reactors (lol), are more advanced versions of the normal one.%n%nFluid means you build it differently (with the parts on the right, it's a 5x5 cube surrounding the normal one), with the goal of producing as much hot coolant (cycle in non-hot) as possible, to use that to produce power. It doesn't produce power on its own, but more overall. Send it to the LHE to get SH steam out of it, then go through an HP steam turbine, then a normal steam turbine.%n%nVac nukes remove heat by sending it to coolant cells instead of coolant. Any cell in a cardinal direction will receive the heat instead of the reactor. Use a vacuum freezer to restore the Helium/NaK cells' durability.%n%nWrench reactors are when you fill the reactor with fuel rods, turn it on, and wrench it to reset its heat state before it explodes. If you can automate it, you deserve a medal!%n%nIf you still don't know what a MOX one is, it produces more power the higher the temperature, so you try to keep it heat neutral, and as hot as possible. Of course, this can cause things nearby to, well, §omelt.§r You use MOX or Naquadria fuel cells work for this. You can also get more Plutonium out of MOX than Uranium.%n%nA breeder reactor is when you set up a reactor to get an item out of it rather than power, like Lutetium from Thorium, Plutonium from MOX, etc. Look at the depleted x fuel rod list in NEI or on the wiki to see more.%n%n[note]Since Fluid Nukes are liable to explode if you run out of coolant, make sure you set up a cutoff tied to the temperature or amount of coolant with redstone.[/note]
 
 # Quest: Large Naquadah Reactor
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALhA.name=Large Naquadah Reactor
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALhA.name=§b§lLarge Naquadah Reactor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALhA.desc=The multi block version of the naquadah reactor, but it is completely different from the single block ones.%n%nIt uses liquid naquadah or excited nuclear liquid as fuel, and outputs the depleted fuel. You can see the liquid fuel information in NEI.%n%nIt consumes 2400 L/s liquid air when running, otherwise it will keep consuming your fuel without outputting power.%n%n[warn]It will explode with more than one types of fuel in its hatches.[/warn]%n%nYou can input in coolant to increase efficiency.%nIC2 Coolant: 1.05x%nSuper Coolant: 1.5x%nCryotheum: 2.75x%nTachyon Rich Temporal Fluid: 5.00x%n%nYou can also input boosters to increase power.%nMolten Caesium: 2x%nMolten Uranium-235: 3x%nMolten Naquadah: 4x%nMolten Atomic Separation Catalyst: 16x%nSpatially Enlarged Fluid: 64x%nNote: It will consume more fuel to match the output power, unlike coolant which directly increases the power. The boosters work like 'parallels' for your reactor.%n%nIt also supports §9Tec§1Tech§r's Multi-Amp Dynamo hatches and laser hatches.%n%n[note]PS: This generator can produce up to 664 billion EU/t with the best coolant, boosters and fuel available.[/note]
 
 # Quest: Nuclear Based Fuel (Th)
@@ -7867,7 +7911,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALjg.name=Nuclear Based Fuel (Pu)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALjg.desc=Provides 32,400EU/t output lasting 7.5s per mB.
 
 # Quest: Naquadah Fuel Refinery
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALjw.name=Naquadah Fuel Refinery
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALjw.name=§b§lNaquadah Fuel Refinery
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALjw.desc=This insane machine is used to make MkIII and higher tier naquadah fuel.%n%nIt can't be overclocked by increasing the input voltage. The only way to overclock it is to use higher tier coils.%n%nIt also supports §9Tec§1Tech§r's Multi-Amp energy hatches and laser hatches.%n%nExample: The MkIV fuel requires tier 2 coils and the refinery is using tier 3 coils. This gives a perfect overclock, using 4x power and 0.25x time.
 
 # Quest: Tier 2 Coil
@@ -7899,7 +7943,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALlg.name=Tier 3 Coil
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALlg.desc=For an overclock, MKVI fuel and alternative MKV fuel recipe. Wait, you are going to overclock a UXV recipe?
 
 # Quest: Incomplete Combustion
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALlw.name=Incomplete Combustion
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALlw.name=§d§lIncomplete Combustion
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALlw.desc=A chemical fuel engine for LuV? Well, if you are a crazy fan of diesel or benzene, you will love it.%n%nThis engine accepts all diesel, gas and also rocket fuel, although the Rocketdyne burns the latter more efficiently. It also needs Combustion Promoter to keep it running.%n%nThis engine consumes all fuel and combustion promoter in its input hatches per second and outputs power depending on the amount of fuel consumed, and its fuel value.%n%nIts efficiency is determined by the Combustion Promoter/Fuel ratio. If the ratio is larger (there is more promoter), the efficiency will be higher. The max efficiency is 150%%, but you cannot achieve this value without inputting an infinite amount of promoter. Expect efficiencies around 130%% for high fuel value fuels like High-Octane Gasoline, unless you spend a LOT of promoter.%n%ne.g. You input 100mB/s of HOG and 1000mB/s of combustion promoter. The efficiency is 149%% and the sum of the HOG fuel value is 250000 EU. The output power will be 250,000 * 149%% / 20 = 18625 EU/t.
 
 # Quest: Advanced Xeninol
@@ -7911,15 +7955,15 @@ betterquesting.quest.DPl-UUZfTAa-ezdD_m8Huw.name=Runite Plasma - The Mk2 Conclus
 betterquesting.quest.DPl-UUZfTAa-ezdD_m8Huw.desc=To complete this chain, you need to activate the Astral Titanium Plasma you have with a special material, also a GT++ one, called Titansteel. This is a considerable powersink, which is why the input amount is so low at 2L, and it forces you to dedicate an ABS at UV tier to feed one mk2 reactor running the Runite plasma recipe. If you decide to upscale this setup, the best option is to simply build a mega ABS, where you can also use EBF coils to save some EU, and in turn make the powergen chain more efficient.%n%nRunite Plasma has a 350M fuel value, which leaves it free to run on Trinium XLs without penalty, whereas Tin Plasma has a 74.5%% penalty on the same turbines due to having less than half the fuel value. If you want to upscale your plasma powergen to great numbers, this is an option, but the mk3 chain is probably the one to choose.%n%nThe same ratio of 0.144 to 1 reactors also applies here.
 
 # Quest: I'll teach you... how to Praise the Sun!
-betterquesting.quest.Hn_igsosSbKsnATeYgvPgw.name=I'll teach you... how to Praise the Sun!
+betterquesting.quest.Hn_igsosSbKsnATeYgvPgw.name=§9§lI'll teach you... how to Praise the Sun!
 betterquesting.quest.Hn_igsosSbKsnATeYgvPgw.desc=TL;DR: The casing amount in this quest is for the best Solar Tower, which generates around 2 LuV amps and is a major Stainless Steel, Titanium and HV circuit sink, amongst other things.%n%nHave you ever laid eyes upon a solar panel? You might have built a few of them here. What do they all have in common, I ask you... they generate either Steam or EU directly from sunlight, and that is not efficient. There's something that everybody forgot!%n%nSingleblock solar panels are best to insert anywhere that has sun, and provide constant power to a machine. However, EU storage and transport are easy here, so why not build something better? Instead of generating energy directly, send those warm beams of sunlight into a central structure with circles of Solar Reflectors, and bask in the eternal power of the biggest fusion reactor in the Solar System!%n%n(If you end up making a bigger one, don't come arguing to me about this. Be quiet.)%n%nThe whole idea is that the energy of the Sun's rays is directed towards a fluid that can retain the energy, a Solar Salt that does it far better than water. The Solar Tower transfers heat to all the fluid inside it, but watch out! If there's too much cold Solar Salt inside, it will drain away all the heat and slow down the entire process.%n%nIn more detail, the Solar Tower has a heat value that ranges from 0 to 100000, and it only heats up Solar Salt at 30000 or above. The amount of heat gained per cycle depends on the number of Reflectors, but also the current heat value: this process is optimal at exactly half the maximum, so 50000 heat. To get a perfect tower setup, you have to slowly feed cold Solar Salt to maintain this heat value, taking away just enough heat to keep it there. I'll let you figure out what the flow rate is, given that it depends on how many Reflectors you have.%n%nFrom there, generate Steam or SH Steam by heat-exchanging in the same way as Hot Coolant does it. If you want this setup to truly be optimal, do place it in your personal dimension for permanent daylight.
 
 # Quest: Turbine Housing
-betterquesting.quest.J2ok3rFLS7quyIlHPaN0FQ.name=Turbine Housing
+betterquesting.quest.J2ok3rFLS7quyIlHPaN0FQ.name=§2§l§nTurbine Housing
 betterquesting.quest.J2ok3rFLS7quyIlHPaN0FQ.desc=At UV you unlock the ability to automatically refill turbines with rotors.%n%nXL turbines do it by default much earlier...
 
 # Quest: Balance is Everything
-betterquesting.quest.K0_-BjVuR3qh_GZt19SReQ.name=Balance is Everything
+betterquesting.quest.K0_-BjVuR3qh_GZt19SReQ.name=§9§l§nBalance is Everything
 betterquesting.quest.K0_-BjVuR3qh_GZt19SReQ.desc=You already transcended dimensions, but as your power demands spike to absurd levels, maybe it's time to transcend matter!%n%nUsing the unbreakable stability of Proto-Halkonite, harnessing the power of [warn]Chaos[/warn] becomes a reality. The  Semi-Stable Antimatter Stabilization Sequencer introduces the concept of Semi-Stable Antimatter, created from Protomatter.%n%nBut it's a cruel mistress... fail to manage it, and antimatter could void itself into nothingness.%n%nThe Semi-Stable Antimatter is produced in 1 second cycles, the amount generated is based on the total of antimatter currently stocked in it's 16 Antimatter Hatches and consumes equal amounts of Proto Matter.%n%nEach cycle, the base production of antimatter per hatch is:%n(1/16)*(§3Antimatter§r)^(0.5 + §6§nC§r).%nThen each hatch will pull a random number from a normal distribution of 0.2 + §b§nA§r and a variance of 1, multiplying the base production with it, meaning the total antimatter change may be negative.%n%nThis causes an imbalance between the hatches. To properly automate the antimatter production, it's vital to always re-balance the amount of antimatter in the hatches. At the end of each cycle, the lowest amount of antimatter present in hatches is recorded, and any hatch that contains more than the lowest amount loses half the difference!%n%nProper use of stabilization fluids can significantly reduce energy usage and boost production:%n%nIt consumes 10,000,000 + (§3Antimatter§r * 1000)^(1.5 - §2§nM§r) EU/t passively%nMagnetic Stabilization Fluids can mitigate the passive instability and have its §2exponent§r reduced:%nMolten Purified Tengam Exponent = §2§n0.1§r%nTachyon-Rich Fluid Exponent = §2§n0.2§r%nMolten MagMatter = §2§n0.3§r%n%nFor each cycle, the SSASS uses (§3Antimatter§r * 10000)^(1.5 - §5§nG§r) EU%nBy regulating the gravity containment of the forge, this §5exponent§r can also be reduced:%nMolten Spacetime Exponent = §5§n0.05§r%nSpatially Enlarged Fluid Exponent = §5§n0.10§r%nMolten Eternity Exponent = §5§n0.15§r%n%nBy containing the antimatter more compactly, it is possible to generate larger gains per cycle. Containment Stabilization fluids alter the §6exponent§r in the production formula:%nMolten Shirabon Exponent = §6§n0.05§r%nMolten MHDCSM Exponent = §6§n0.10§r%n%nBy inserting fluids with high energy potential, it's possible to alter antimatter's flow in chaos, making their randomness more favorable. Activation Stabilization Fluids alter the §baverage§r of the gaussian distribution, lowering the risks of negative changes in antimatter and favoring better gains.%nDepleted Naquadah Fuel Mk V average = §b§n0.05§r%nDepleted Naquadah Fuel Mk VI average = §b§n0.10§r
 
 # Quest: Naquadah Based Fuel MkVI
@@ -7931,7 +7975,7 @@ betterquesting.quest.KlI9Fbh9SsK4ckVNMJqGFA.name=Tier 4 Coil
 betterquesting.quest.KlI9Fbh9SsK4ckVNMJqGFA.desc=This upgrade will allow you to create fuel even faster than before and with an alternative recipe for MKVI fuel!%n...but do you really need it?
 
 # Quest: XL Turbo Gas Turbine
-betterquesting.quest.Ko5ln-tKSFiZZWtAmSWv8w.name=XL Turbo Gas Turbine
+betterquesting.quest.Ko5ln-tKSFiZZWtAmSWv8w.name=§d§lXL Turbo Gas Turbine
 betterquesting.quest.Ko5ln-tKSFiZZWtAmSWv8w.desc=The ultimate gas inhaler in GTNH. Check the XL Steam Turbine quest above for an explanation of the mechanics shared across all turbines.%n%n[warn]This turbine does not accept Benzene.[/warn] To use it with your Benzene setup, you have to upgrade it to Nitrobenzene. Further changes will be made to this turbine to favor more high-tier gases, instead of spamming Benzene, Methane or other trivial options.
 
 # Quest: Celestial Tungsten Plasma - The Mk3 Finale
@@ -7943,7 +7987,7 @@ betterquesting.quest.Ng5Ldnf3TZCefB4Mr3u-rQ.name=Zzzincing...
 betterquesting.quest.Ng5Ldnf3TZCefB4Mr3u-rQ.desc=Do you know how much Zinc you have in your body? Very little, but it's important. Now imagine it's all plasma!%n%nThis is a very fast recipe, like Niobium Plasma. The only caveat is that it uses Tritium (not Trinium), a rare isotope of Hydrogen that you can obtain from Deuterium, a less rare isotope. You can pump it directly from Neptune, through the Space Elevator or simply by centrifuging the Deuterium you already automated for Helium Plasma.
 
 # Quest: "Semi-Stable" doing a lot of work in here
-betterquesting.quest.OEBBeZOSSRGu80s3RPeiVA.name="Semi-Stable" doing a lot of work in here
+betterquesting.quest.OEBBeZOSSRGu80s3RPeiVA.name=§9§l§n"Semi-Stable" doing a lot of work in here
 betterquesting.quest.OEBBeZOSSRGu80s3RPeiVA.desc=A cell of antimatter! Contained in a cell made of matter! Surely this is safe.%n%nAntimatter is exactly what you may imagine, the opposite of matter, for every atom in the universe, an "anti atom" exists, and when both meet...%n%nThey annihilate themselves, releasing a lot of energy!%n%nBut how could you capture this energy?
 
 # Quest: AMERICA!!!!!!!!!
@@ -7959,7 +8003,7 @@ betterquesting.quest.X_rOgp6GRKiyGzwRV_p7GA.name=Niobiumization
 betterquesting.quest.X_rOgp6GRKiyGzwRV_p7GA.desc=Do you remember Niobium-Titanium? This time, it's just Niobium! Just kidding, Titanium's coming up in a special form...%n%nBoth this and the Zinc Plasma recipe are very fast, so you won't need more than 1 reactor unless your scale is very large. Upgrade later as needed, use a mk2 or even mk3 for now.
 
 # Quest: Harnessing Chaos
-betterquesting.quest._O6stWM3RR-qJdcvs0i-Mw.name=Harnessing Chaos
+betterquesting.quest._O6stWM3RR-qJdcvs0i-Mw.name=§9§l§nHarnessing Chaos
 betterquesting.quest._O6stWM3RR-qJdcvs0i-Mw.desc=You've mastered antimatter production, but raw antimatter alone won't run your machines. To turn that potential into unparalleled power, it's time to [warn]harness the chaos[/warn] itself!%n%n[quest]Introducing the Shielded Lagrangian Annihilation Matrix![/quest]%n%nThe SLAM creates raw energy by reacting the Semi-Stable Antimatter with normal matter in a controlled environment.%n%nEvery cycle, the generator will react all antimatter and matter in hatches instantly, converting it all into energy directly. The EU output is based on the equal amounts of antimatter and matter annihilated. Therefore, imbalance between the amounts will waste your precious energy.%n%nDepending on the matter used to annihilate, the antimatter amount gets an exponent applied to it, directly increasing the amount of energy produced from 1L of antimatter - this means the more you annihilate in one go, the more efficient it is!%n%nThe maximum EU for a cycle is limited by the capacity of all laser source hatches on the structure (limited to 64), even on wireless mode.%n%n[note]It can't output more than 9.22e18 EU in a cycle, or just below 43 16M UXV Laser Sources (If you're crazy enough for it)%n[/note]%n%nThe Formula and the exponents for each of the possible matters are:%n%nGenerated EU = (§3Antimatter§r^§6exponent§r) * 1,000,000,000,000%n%nMolten Copper - §61.00§r%nMolten Superconductor Base UIV - §61.02§r%nMolten Superconductor Base UMV - §61.03§r
 
 # Quest: Welcome to the Plasma Chain
@@ -7967,11 +8011,11 @@ betterquesting.quest.bNiieqPgSFqwFpC2DZkj-g.name=Welcome to the Plasma Chain
 betterquesting.quest.bNiieqPgSFqwFpC2DZkj-g.desc=Hello there! If you've unlocked fusion, you can start this questline, but keep in mind that it's divided into three segments (the three fusion chains): one for each tier of Fusion Reactor, from Mk1 to Mk3.%n%nThere are more fine details surrounding plasma power generation you can access by using the following Wiki link: [url]https://wiki.gtnewhorizons.com/wiki/Fusion_Reactor[/url]%n%nThese quests follow the process of creating some truly powerful plasmas that are useful for power generation at the beginning of endgame, when you've scaled up your setup to a Compact Fusion Reactor and XL Plasma Turbines. As you might have seen before, those huge turbines can go very fast with good materials, like Trinium or Infinity, but they will apply EU/t penalties according to the fuel value of the plasma used. This means that Helium and Tin Plasma are both much weaker there than they were in Large Plasma Turbines.%n%nThe end product of this whole process is Celestial Tungsten Plasma, which has no penalties even at Spacetime and can somewhat match what Helium Plasma would have produced, per compact reactor. The last step is the slowest, but, if there are no other bottlenecks, you can expect around §2§lover 8 billion EU/t§r assuming a single compact doing the last step with huge infinity turbines in a plasma XL.%n%nHowever, getting there won't be easy. This whole process uses 15 fusion recipes in total, and a lot more material automation than any of the simple fusion setups. This questline will help explain what is simple, not simple, or possibly a bottleneck. If you complete this, you will be sustained in powergen until the Dyson Swarm, or whatever other option appears later on, and it will continue being useful later on!
 
 # Quest: XL Turbo SC Steam Turbine
-betterquesting.quest.bz_RazGFSl6k7fUkEt1Lzw.name=XL Turbo SC Steam Turbine
+betterquesting.quest.bz_RazGFSl6k7fUkEt1Lzw.name=§b§lXL Turbo SC Steam Turbine
 betterquesting.quest.bz_RazGFSl6k7fUkEt1Lzw.desc=The most dense steam available. Check the XL Steam Turbine quest above for an explanation of the mechanics shared across all turbines.%n%nThis turbine has unexpected bugs related to the integer limit, when using the best turbine materials in the pack. There might also be other limitations when trying to move billions of SC Steam per tick from one place to another. Be wary of bugs when trying to use this XL turbine with endgame turbine materials.
 
 # Quest: XL Turbo Plasma Turbine
-betterquesting.quest.dQ1k0UZVR8ObXotgcryKbw.name=XL Turbo Plasma Turbine
+betterquesting.quest.dQ1k0UZVR8ObXotgcryKbw.name=§b§lXL Turbo Plasma Turbine
 betterquesting.quest.dQ1k0UZVR8ObXotgcryKbw.desc=Is plasma flow making the turbines spin? No, it's just water into steam into water, all recycled inside, 12 times over. Check the XL Steam Turbine quest above for an explanation of the mechanics shared across all turbines.%n%nThis turbine, unlike the others, has very important differences to the regular multi that you have to keep in mind. Given that plasma power is so easy to upscale with the use of compact reactors, XL Plasma Turbines would have to follow suit and bring progression's EU numbers to ridiculous degrees, off one single plasma. However, this XL now applies an EU/t penalty to its production by comparing the fuel value of the plasma it processes with the rotor material it has inside.%n%nSee [url]https://i.imgur.com/vifsk0P.png[/url] for various combinations of plasmas and materials. Mk1 plasmas are in green, Mk2 in yellow and Mk3 in red. The bottom 3 are the final plasmas of the fusion chains.%n%nThe formula is a bit complicated, but here are some important values:%n%n-> Helium Plasma receives a huge penalty of 86.1%% even with Infinity Catalyst, whereas Tin's penalty is only 53.5%%, which means that the number of reactors and XLs with this material is twice the expected amount if using Tin Plasma;%n-> Trinium changes these numbers to 92.4%% and 74.5%%, respectively;%n-> Infinity further increases the penalty to 97.4%% and 91.1%%;%n-> Spacetime sets these values to 98.3%% and 94.4%%.%n%nThis means that, at the UHV/UEV stage, you will no longer be able to rely on these two plasmas with your XLs. For 1-recipe plasmas, your best option is the mk3 Americium Plasma, which has an insignificant 0.8%% penalty with Infinity. If you want faster powergen than that, check out the complete fusion chain that ends at Celestial Tungsten Plasma, which has no penalties in the XL Plasma Turbine and has total EU/t numbers compared to Helium's old ones. Check below for quests regarding the fusion chains.
 
 # Quest: This is your Kryptonite!
@@ -7983,7 +8027,7 @@ betterquesting.quest.tSCw6KSbR8a4TCNWlrmkYQ.name=Force Plasma - The Mk1 Ending
 betterquesting.quest.tSCw6KSbR8a4TCNWlrmkYQ.desc=Once you have the two plasmas from before, fuse them together into a new one, Neon Plasma. If you were to use this directly, you could get Neon! There are other, more useful materials to get later in this process, so keep a lookout for those.%n%nHowever, this is not the final plasma in mk1 recipes. To get it, you need to do the last activation step, which exists in all three chains, and involves adding a non-plasma related material, of the appropriate GT tier, to obtain the powergen plasma. The material you need here is Arcanite, one you probably have used before. This step requires you to preferably automate it with ABS, and have a steady supply of Thorium 232.%n%nIf you look at the last recipe, you'll see it's 144L Neon Plasma input to 1000L Force Plasma output. This multiplying makes it so that step, and all final steps, are the slowest ones. You will need 0.144 Neon Plasma reactors for every Force Plasma reactor, which means that 1 Neon reactor feeds nearly 7 Force reactors (6.9444... reactors, more precisely).%n%nOnce you get Force Plasma, this is the end of the mk1 fusion chain. Force Plasma is a 150M fuel value plasma, which means it has a 53.5%% penalty with Infinity Catalyst in XL Plasma Generators. This is better than Helium Plasma with its 86.1%% penalty but still not great for power generation. You probably don't need this in ZPM, but it'll be a stepping stone for your future progression.
 
 # Quest: XL Turbo HP Steam Turbine
-betterquesting.quest.yDY1ALr9QdG8zTbEszNaMw.name=XL Turbo HP Steam Turbine
+betterquesting.quest.yDY1ALr9QdG8zTbEszNaMw.name=§9§lXL Turbo HP Steam Turbine
 betterquesting.quest.yDY1ALr9QdG8zTbEszNaMw.desc=High pressure, superheated loads of energy. Check the XL Steam Turbine quest above for an explanation of the mechanics shared across all turbines.%n%nThis XL Turbine is exactly the same as the XL Steam Turbine in the way it upgrades from the regular multi: the only accepted fluid is Superheated Steam, and nothing else works. They are meant to be built together, since any steam setups you might have at this point will surely be using the two.
 
 
@@ -12913,7 +12957,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMwA.desc=Some flowers eat bees. Some eat
 
 # Quest: Experienced Botanist
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMwQ.name=Experienced Botanist
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMwQ.desc=The rosa arcana transmutes experience into mana. A player standing near it will have their experience drained for this purpose. This process is unfortunately not very practical to automate, as the experience can only be extracted directly from a player, and not from orbs on the ground or any method of storage. It might be wise to place it somewhere you spend a lot of time.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMwQ.desc=The Rosa Arcana transmutes experience into mana. A player standing near it will have their experience drained for this purpose. This process is unfortunately not very practical to automate, as the experience can only be extracted directly from a player or from orbs on the ground. It might be wise to place it somewhere you spend a lot of time.
 
 # Quest: Mmmmmm, Slimy!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMwg.name=Mmmmmm, Slimy!
@@ -12937,7 +12981,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMxg.desc=...there is no way a bee should
 
 # Quest: Mana Fountain
 betterquesting.quest.EP-xPjNWRnKCWRJjGzySvQ.name=Mana Fountain
-betterquesting.quest.EP-xPjNWRnKCWRJjGzySvQ.desc=The Mana Fountain allows for quick and seamless automation of Mana Pool recipes.%n%nYou can assemble the multiblock as specified in the Lexica Botania / NEI. After it's assembled, right clicking it using the Wand of the Forest will show you whether it's complete and the amount of internally stored mana.%n%nYou can send the controller mana directly by either using a spreader or a spark much like a Mana Pool. Technically you don't have to use the Mana Pool in the center of the multiblock for it to function, but it is placed conveniently so that you can (plus, it doesn't hurt to have an extra buffer).%n%nItems are allowed to input from any side of the controller, but can only output from the bottom. For early automation, it's recommended to just use hoppers. Once you uinlock AE2 however you can simply place an interface underneath the controller with the appropriate patterns and it should push and pull items automatically.%n%n[warn]You cannot craft Alchemy or Conjuration recipes using this multiblock, those are separate multiblocks that you will unlock with more advanced robot arm technology.[/warn]%n%n[note]This structure can absolutely wall-share. It has the perfect design to be able to share 4 different Mana Fountains between the center pool.[/note]
+betterquesting.quest.EP-xPjNWRnKCWRJjGzySvQ.desc=The Mana Fountain allows for quick and seamless automation of Mana Pool recipes.%n%nYou can assemble the multiblock as specified in the Lexica Botania / NEI. After it's assembled, right clicking it using the Wand of the Forest will show you whether it's complete and the amount of internally stored mana.%n%nYou can send the controller mana directly by either using a spreader or a spark much like a Mana Pool. Technically you don't have to use the Mana Pool in the center of the multiblock for it to function, but it is placed conveniently so that you can (plus, it doesn't hurt to have an extra buffer).%n%nItems are allowed to input from any side of the controller, but can only output from the bottom. For early automation, it's recommended to just use hoppers. Once you unlock AE2 however you can simply place an interface underneath the controller with the appropriate patterns and it should push and pull items automatically.%n%n[warn]You cannot craft Alchemy or Conjuration recipes using this multiblock, those are separate multiblocks that you will unlock with more advanced robot arm technology.[/warn]%n%n[note]This structure can absolutely wall-share. It has the perfect design to be able to share 4 different Mana Fountains between the center pool.[/note]
 
 # Quest: Asgardandelion
 betterquesting.quest.M7CE2a0uSOSZZsyNloB0zg.name=Asgardandelion
@@ -14458,7 +14502,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMRg.name=§6§lFaster Crops
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMRg.desc=Welcome to my ted talk, today we talk about the §6§lExtreme Industrial Greenhouse.§r%nIt is the most advanced and §l§nLAG FREE§r crop farm that will allow you to supply the amount of tea you need.%nThe machine starts at §5EV§r, but to farm IC2 crops you will need at least §dLuV§r power.%nTo see the structure, place the controller on the ground and use a structure hologram to build.%nThe glass tier limits the energy tier until [note]UV[/note]. With [note]UV[/note] glass you can have an energy tier as high as you want.%nShift-click with screwdriver to change crop type (IC2/normal), sadly you can't farm both in one machine.%nThere are 3 modes to manage your crops (change with screwdriver):%n%n§lSetup mode (input):§r%nIn this mode you can plant your crops in the machine.%nJust put them in the input bus and enable the machine with a soft mallet.%nAdditionally, you need to insert block that is required for IC2 crop to grow (if any)%nWhen the bus is empty, just disable it and change the mode.%nKeep in mind that there is limited space of slots for your crops depending on the voltage.%nWith normal crops you start with 1 slot and that multiplies by 2 every tier past §5EV§r, every slot can take 64 crops of the same type.%nWith IC2 crops you start with 4 slots and that multiplies by 4 every tier past §dLuV§r, every slot can take only 1 crop.%n%n§lSetup mode (output):§r%nThis mode allows you to move your Greenhouse or upgrade your crops.%nWhen the machine is running in this mode it will output all planted crops in the output bus.%n%n§lNormal operation:§r%nWith normal crops it is a straightforward process. Base processing time is 5 seconds, at the end of operation all crops are grown and the outputs are added to the output bus. Additionally the time is lower every tier past §5EV§r §o(The time is divided by the number of tiers past §6HV§r§o, minimum 1 second. WOW)§r%n%nIC2 crops on the other hand, are not that easy. They are normally simulated, but accelerated 32 times. Process time is 5 seconds. You can check the progress of the growing process with a tricorder.%n%nIf you want to grow your crops even faster, then you can use a fertilizer (up to §l400%% more drops§r!). Machine will take fertilizer from the input buses on start of the operation and will be applied to that operation only. Each fertilizer gives +200%% per crop in normal mode or +10%% in IC2 mode. The bonus is applied evenly on crops. Examples:%nNormal mode, 3 wheat seeds, 1 tea seeds, you insert 1 fertilizer, you will get +150%% wheat drops and +50%% tea drops.%nIC2 mode, 16 melon seed bags, you insert 64 fertilizer, you will get +40%% drops.%n%nAdditionally, all your crops need water to grow. Every single crop drinks 1000L per operation. So for example if you have planted 576 tea seeds at [note]UV[/note] voltage you will need 576000 L per second.%n%n§lLast notes:§r%nThe animation can't be disabled.%nThe lamps can be inverted.%nThe dirt must be tilled.%nIf you encounter any issue or have any suggestion please open an issue on GitHub and ping §l@kuba6000§r.%nThis MB was created to farm tea because I wanted to.
 
 # Quest: UV Power Per Turbine
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMXQ.name=UV Power Per Turbine
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMXQ.name=§b§lUV Power Per Turbine
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMXQ.desc=Once you progress enough in ZPM to make ZPM Dynamo Hatches, you can increase each turbine's output to 524,288 EU/t. At this number, you'll be a lot less limited by the turbine material, and it's possible to increase the total power output of one Fusion Reactor considerably. You can cover the total Helium Plasma output from one reactor with 3 Plasma Turbines, if you choose the right materials:%n%nLarge High Durability Compound Steel 235%% 473,759 EU/t%nLarge Atomic Separation Catalyst 206%% 409,663 EU/t%nLarge Adamantium 206%% 413,280 EU/t%nLarge Draconium 175%% 220,500 EU/t (durable)%nLarge Neutronium 165%% 249,480 EU/t (very durable)%n%nThe power output and final efficiency can vary a lot, based on which turbines you're using. Some of them, like Ichorium and Neutronium, last basically forever, while others will need to be replaced from time to time but offer higher efficiency. If you want to get more power per turbine, to reach closer to the dynamo's limit, you can increase the flow of plasma to the turbine, but be careful! You can't go beyond the dynamo's limit, and you will also lose efficiency as you increase the flow amount. More concrete values for efficiency loss can be found in the Plasma Turbine quest in the LuV page.%n%nMake a normal or buffered ZPM dynamo to complete the quest.%n%n[note]Also, check out the XL Plasma Turbine.[/note]
 
 # Quest: High Temperature Gas-cooled Reactor
@@ -14466,11 +14510,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMbg.name=§6§lHigh Temperature Gas-cool
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMbg.desc=Have you heard of gas-cooled reactors? Have you heard of Pebble Bed reactors? Well now you have both!%n%nThe High Temperature Gas-cooled Reactor (HTGR) uses specially prepared fuel pellets to heat coolant gas (helium) that's pumped in a closed loop through the reactor and heat exchangers. The reactor requires a constant supply of helium gas and power in order to power the pump that keeps the coolant loop working.%n%nThis reactor allows breeding of rare resources (§5Indium§r,§9Osmium§r), fissile materials (§aU235§r,§cPu239§r,§4Pu241§r), can supply you with §dLutetium§r and also unlocks alternative recipes for §dEuropium§r and §7Americium§r via the elusive §2Promethium§r.%n%nThe disadvantage of this reactor is it's expensive nature. Pebble reactors work by stuffing the reactor full of pebbles, none of which require rare resources but rather a large amount of common ones. Even though a lot can be recycled, you still need to keep the reactor filled to get decent speed. As a reward for this upkeep cost, you get a decent production for many different outputs.%n[note]%nNotes:%n%nHTGR has an internal buffer for fuel and gets faster the more fuel you put inside according to the formula §6eff=1-(1-x)^3§r%n%nThis multi consumes 0.2A IV when operating and this amount increases when lacking helium gas. %nThe amount of Helium gas increases with the amount of helium gas stored.%n%nReactor speeds up immensely when supplied with either/both IC2 Coolant or Water, if the amount of supplied fluid is not full the bonus speed is applied linearly.%n%nBy typing HTGR in NEI, you can see all the items that are related to this multiblock.%n%nFor exact numbers visit HTGR-Controller-Tooltip.as/always%n[/note]
 
 # Quest: Two Million Turbines
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMcw.name=Two Million Turbines
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMcw.name=§2§l§nTwo Million Turbines
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMcw.desc=Hopefully, not more than a handful. The objective here is for each of them to output close to 2 million EU/t.%n%nHow can you get there? Look at the UV Dynamo Hatch's recipe and you have your new objective. When you arrive there, each turbine that is equipped with that impressive block will be able to output up to 2,097,152 EU/t, which again opens you up to new turbine opportunities. Some good choices at this point are as follows:%n%nLarge Cosmic Neutronium 225%% 1,360,800 EU/t%nLarge Ichorium 225%% 1,360,800 EU/t (very durable)%nLarge Awakened Draconium 195%% 491,400 EU/t%nLarge Trinium 185%% 1,451,840 EU/t%n%nAt this point, you might consider building more t1 Fusion Reactors to process other materials. Even if you stop the reactor you're using to generate this plasma, the EU cost of restarting it is less than 1 bucket of plasma, so it's probably not that big of a deal.%n%nMake a normal or buffered UV dynamo to complete the quest.%n%n[note]At this point, you really should be looking into the XL turbine chain, from XL supercritical to dense to normal steam.[/note]
 
 # Quest: Infinite Turbines
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMeA.name=Infinite Turbines
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMeA.name=§4§l§nInfinite Turbines
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMeA.desc=Some turbine materials are not available for you, either because you don't have the material itself or because the Dynamo Hatch in the turbine cannot handle the power output from plasma. It will be a different story in UHV, when you can once again quadruple the max output of each turbine, and also unlock Infinity as an option for turbines.%n%nHuge Infinity 300%% 6,451,200 EU/t%nHuge Infinity Catalyst 231%% 1,236,480 EU/t%n%nYes, that's basically it. You can use any material from the previous turbine quests, but when you make the t8 rocket and can mine Infinity Catalyst, these are the two options. Obviously, Infinity is much better, but also much more expensive. If you stick with fusion, you will need several of those to push through the endgame. Remember that you can input plasma beyond the optimal flow, and get more out of each turbine at the cost of fuel efficiency.%n%nMake a normal or buffered UHV dynamo to complete the quest.
 
 # Quest: Gas Planets
@@ -14555,7 +14599,7 @@ betterquesting.quest.PjAewUoJTnilPpIT-Ce0tA.desc=The Diamond barrel has 108 slot
 
 # Quest: Large Molecular Assembler
 betterquesting.quest.Q10xj-OrTE67wsWuTNCAAQ.name=§9§lLarge Molecular Assembler
-betterquesting.quest.Q10xj-OrTE67wsWuTNCAAQ.desc=The §5Large Molecular Assembler§r is exactly how it sounds; a very quick molecular assembler with a much bigger inventory for crafting patterns. %n%nThis can handle up to 1024 crafts per second at the maximum energy usage making it up to 100x faster than a molecular assembler. Check out the Wiki for specifics: [url]https://wiki.gtnewhorizons.com/wiki/Large_Molecular_Assembler[/url]%n%nThe LMA controller hooks up directly to your main network in order to function, and all recipes must be placed inside input buses attached to the machine in order to be recognized. Will not require an output bus.%n%nAdditionally, you must place a §2Data Orb§r inside of the controller or else it won't function.%n%n[note]High capacity Input Buses are highly recommended![/note]%n%n[warn]This machine can absolutely wall-share, but be careful about the placement of your input bus or all machines may not be used.[/warn]
+betterquesting.quest.Q10xj-OrTE67wsWuTNCAAQ.desc=The §5Large Molecular Assembler§r is exactly how it sounds; a very quick molecular assembler with a much bigger inventory for crafting patterns. %n%nThis can handle up to 1024 crafts per second at the maximum energy usage making it up to 100x faster than a molecular assembler. Check out the Wiki for specifics: [url]https://wiki.gtnewhorizons.com/wiki/Large_Molecular_Assembler[/url]%n%nThe LMA controller hooks up directly to your main network in order to function, and all recipes must be placed inside either an input bus or a Crafting Pattern Provider bus in order to be recognized. Will not require an output bus.%n%nAdditionally, you must place a §2Data Orb§r inside of the controller or else it won't function.%n%n[note]It's recommended you use a Crafting Pattern Provider bus since it has more pattern slots and gets recognized by an interface terminal unlike a regular input bus.[/note]%n%n[warn]This machine can absolutely wall-share, but be careful about the placement of your input bus or all machines may not be used.[/warn]
 
 # Quest: Compact Storage
 betterquesting.quest.QNsm_wc0QO2g9C6_-vj2fA.name=§a§lCompact Storage
