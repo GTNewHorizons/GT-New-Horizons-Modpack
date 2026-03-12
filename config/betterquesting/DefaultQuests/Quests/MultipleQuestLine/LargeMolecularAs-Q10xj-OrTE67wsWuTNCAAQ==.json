@@ -12,7 +12,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The §5Large Molecular Assembler§r is exactly how it sounds; a very quick molecular assembler with a much bigger inventory for crafting patterns. \n\nThis can handle up to 1024 crafts per second at the maximum energy usage making it up to 100x faster than a molecular assembler. Check out the Wiki for specifics: [url]https://wiki.gtnewhorizons.com/wiki/Large_Molecular_Assembler[/url]\n\nThe LMA controller hooks up directly to your main network in order to function, and all recipes must be placed inside input buses attached to the machine in order to be recognized. Will not require an output bus.\n\nAdditionally, you must place a §2Data Orb§r inside of the controller or else it won\u0027t function.\n\n[note]High capacity Input Buses are highly recommended![/note]\n\n[warn]This machine can absolutely wall-share, but be careful about the placement of your input bus or all machines may not be used.[/warn]",
+      "desc:8": "The §5Large Molecular Assembler§r is exactly how it sounds; a very quick molecular assembler with a much bigger inventory for crafting patterns. \n\nThis can handle up to 1024 crafts per second at the maximum energy usage making it up to 100x faster than a molecular assembler. Check out the Wiki for specifics: [url]https://wiki.gtnewhorizons.com/wiki/Large_Molecular_Assembler[/url]\n\nThe LMA controller hooks up directly to your main network in order to function, and all recipes must be placed inside either an input bus or a Crafting Pattern Provider bus in order to be recognized. Will not require an output bus.\n\nAdditionally, you must place a §2Data Orb§r inside of the controller or else it won\u0027t function.\n\n[note]It\u0027s recommended you use a Crafting Pattern Provider bus since it has more pattern slots and gets recognized by an interface terminal unlike a regular input bus.[/note]\n\n[warn]This machine can absolutely wall-share, but be careful about the placement of your input bus or all machines may not be used.[/warn]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -113,6 +113,23 @@
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockcasings4"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2719,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

@@ -6,7 +6,12 @@
     },
     "1:10": {
       "questIDHigh:4": 9096591528313636359,
-      "questIDLow:4": -5769420916380359643
+      "questIDLow:4": -5769420916380359643,
+      "type:1": 1
+    },
+    "2:10": {
+      "questIDHigh:4": -2640443013906741533,
+      "questIDLow:4": -6897090588793529674
     }
   },
   "properties:10": {
@@ -23,7 +28,7 @@
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§4§l§nEternity",
+      "name:8": "§c§l§nEternity",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
