@@ -7120,10 +7120,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAM2w.desc=Consider improving your QFT's f
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM3A.name=§6§lTier 4 Shielding
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM3A.desc=Consider pushing your QFT's focusing capability to its final form by replacing your §3Infinity Infused Shielding Core§r casings with §3SpaceTime Bending Core§r casings. Like the tier 4 manipulators, these also require §3Black Body Naquadria Supersolid§r.
 
-# Quest: Your New Friend
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEQ.name=§6§lYour New Friend
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEQ.desc=It's painful to carry all the tools in your inventory. You can put GT tools and soldering into IC2 Toolbox to save space for inventory.%n%nYou can also use it to do maintenance, without taking out tools. Just hold toolbox and right-click the Maintenance Hatch. Now who needs duct tape? You. It is needed to automate maintenance later.
-
 # Quest: Too much Indium?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMSA.name=§6§lToo much Indium?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMSA.desc=Milling process is an alternative way to produce Indium, designed for LuV and above. It does not void Aluminium and Galena for no reason, and you can extract Indium from Sphalerite efficiently. In exchange for machine cost and infrastructure needed to process.
@@ -14616,6 +14612,10 @@ betterquesting.quest.V4jinTYRSueIrEqn90dRzQ.desc=While being significantly more 
 # Quest: The future is here!
 betterquesting.quest.V9BupH47RI6RWX6vff5dpw.name=§c§lThe future is here!
 betterquesting.quest.V9BupH47RI6RWX6vff5dpw.desc=EFR adds with it vanilla Barrels (not to be confused with JABBA barrels). These are essentially like chests, but they can be placed next to each other and opened with a block above them. And you can upgrade them! Great for those compact machine setups.
+
+# Quest: A Toolbox For All Your Tools
+betterquesting.quest.VAZfRG1BQt6JwqRQ_PNP0g.name=A Toolbox For All Your Tools
+betterquesting.quest.VAZfRG1BQt6JwqRQ_PNP0g.desc=As your factory grows, you will need to use your tools to build, configure, and dismantle machines. Crafting a toolbox to hold your tools will help.%n%nThe Field Engineer's Toolbox allows you to use a tool inside for building and configuring without taking the tool out of the box. Right click to open the toolbox and put tools in. Then, press the Pick Block bind (default: middle mouse button) to open a radial menu and select a tool. You can then use the toolbox as if it was that type of tool. Pressing Pick Block while looking at a block will also choose an appropriate tool for the job, skipping the radial menu. Sneak and press Pick Block to deselect a tool quickly.%n%nLater on, you can upgrade the toolbox with a battery. This allows the toolbox to recharge electric tools and unlocks the ability for machines and wireless chargers to charge the entire toolbox.%n%nToolboxes can also fix maintenance hatches, using the tools inside. Deselect the equipped tool (if any), then right click the maintenance hatch with the toolbox. All of the tools inside will be applied to the maintenance hatch, fixing any problems it might have.%n%nThe toolbox requires polyethylene, which is a fluid you likely haven't made before. It's up to you to figure out how to get it. Here's a hint: the black gushers of oil found around the world may be the key...
 
 # Quest: The Quest for Holy Water
 betterquesting.quest.WPoaCPPwTBSyn2dmh5DcBA.name=§5§l§nThe Quest for Holy Water
