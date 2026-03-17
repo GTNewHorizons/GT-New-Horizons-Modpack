@@ -14,14 +14,9 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "thaumcraftneiplugin:Aspect",
+        "id:8": "aspectrecipeindex:aspect",
         "tag:10": {
-          "Aspects:9": {
-            "0:10": {
-              "amount:4": 2,
-              "key:8": "aer"
-            }
-          }
+          "Aspect:8": "aer"
         }
       },
       "isGlobal:1": 0,
