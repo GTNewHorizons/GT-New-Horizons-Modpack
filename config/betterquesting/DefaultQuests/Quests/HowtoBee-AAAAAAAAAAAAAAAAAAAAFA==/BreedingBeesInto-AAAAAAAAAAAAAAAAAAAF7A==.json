@@ -1,0 +1,104 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1513
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "If bee breeding is a dice game, then these are the biggest factors you\u0027d control to win:\n\n1. Fertility: How many dice you can roll each turn.\n2. Mutation Rate: How good of a roll you need to make.\n3. Lifespan: How often you can play the game.\n\nThe Oblivion Frame dramatically helps with #3 by reducing the bee\u0027s lifespan to the point that you can play the breeding dice game in one \"tick\" of 27.5 seconds. A bee with the \"Shortest\" lifespan trait cycles for 10 ticks (275 seconds), so you\u0027d minimally cut the cycle by a whole order of magnitude!\n\nYou can find Oblivion Frames in Stronghold libraries. This is how you can get them in the early game for very aggressive bee breeding. Later, you can make them from Dragon Eggs. These frames are very precious and you don\u0027t want their durability to run out. A typical repair method is to use a Thaumic Restorer on them.\n\n§oWait, to find a Stronghold reliably, I need some Eyes of Ender, and that\u0027s an HV-tier Chemical Reactor recipe!§r If you happen to have a Large Chemical Reactor, remember that it overclocks perfectly, so you can crank er\u0027 up with a bunch of MV-tier Energy Input Hatches.\n\n§nThe Oblivion Bee Meta\n§r\nThe oblivion bee meta can be enough to breed most bees quickly. You could do the whole bee breeding quest line with it, but you can ultimately improve on it with a Alvearies and genetic modification. What you need for this meta is:\n\n1. An Apiary\n2. An Oblivion Frame\n3. Some way to repair the frame (typically: thaumic restorer)\n4. A Beealyzer and a lot of honey\n\nThis is a hands-on process. You don\u0027t automatically send the princess and drones back through because you need to watch the oblivion frame\u0027s durability. You inspect all the offspring bees after each cycle and hand-pick which to try next after a pass through the Beealyzer.\n\nYou can accelerate the Apiary with a World Accelerator. [warn]Be sure to protect the World Accelerator and supporting equipment from rain![/warn] You can use glass or a breakable clear glass so the Apiary can still see the sky while the World Accelerator is protected. If you need to use batteries, you can use a State Cell to draw out a button pulse to the world accelerator so it runs juuust long enough for an accelerated cycle.",
+      "globalShare:1": 1,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "MagicBees:frameOblivion"
+      },
+      "isGlobal:1": 0,
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Breeding Bees Into Oblivion",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 1516,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "Forestry:apiculture"
+        }
+      }
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:CoinBeesII"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:CoinDarkWizardII"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 26,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag",
+          "tag:10": {
+            "ench:9": {
+              "0:10": {
+                "id:4": 35,
+                "lvl:4": 3
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "MagicBees:frameOblivion"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 7851484242627545128,
+      "questIDLow:4": -7959189288003028041
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "The §aSuperb§r Spacetime Compression Field Generator allows for up to §lT5§r recipes which produce §l4608L§r of Black Dwarf Matter per successful batch.\n\nThe §aSuperb§r Time Dilation Field Generator grants a §293.75%§r time reduction for any recipe ran in the EoH, but reduces the likelihood of success by §c37%§r.\n\nThe §aSuperb§r Stabilisation Field Generator will boost the success chance of the EoH by §220%§r, but will decrease the yield by §c20%§r and increase the power cost by §c20%§r.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 4,
+        "OreDict:8": "",
+        "id:8": "tectech:gt.spacetime_compression_field_generator"
+      },
+      "isMain:1": 1,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "§c§l§nT5: Superb",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -4778474450178651835,
+  "questIDLow:4": -5656051784975508899,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "OreDict:8": "",
+          "id:8": "tectech:gt.spacetime_compression_field_generator"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "OreDict:8": "",
+          "id:8": "tectech:gt.time_acceleration_field_generator"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "OreDict:8": "",
+          "id:8": "tectech:gt.stabilisation_field_generator"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

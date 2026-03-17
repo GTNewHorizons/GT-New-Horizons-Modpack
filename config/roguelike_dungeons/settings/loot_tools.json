@@ -2,8 +2,8 @@
 	"name": "loot_tools",
 	"loot_rules": [
 	{"level": [0, 1, 2, 3, 4], "type": "TOOLS", "each": true, "quantity": 2, "loot": [
-		{"data": {"name": "berriespp:itemSpade", "meta": 0}, "weight": 2},
-		{"data": {"name": "berriespp:itemLens", "meta": 0}, "weight": 2},
+		{"data": {"name": "cropsnh:spade", "meta": 0}, "weight": 2},
+		{"data": {"name": "cropsnh:plantLens", "meta": 0}, "weight": 2},
 		{"data": {"name": "minecraft:flint_and_steel", "meta": 0}, "weight": 4},
 		{"data": {"name": "minecraft:fishing_rod", "meta": 0}, "weight": 2},
 		{"data": {"name": "minecraft:shears", "meta": 0}, "weight": 3},

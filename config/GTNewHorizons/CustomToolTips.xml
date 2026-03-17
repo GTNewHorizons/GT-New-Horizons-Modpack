@@ -19,14 +19,6 @@
 	<ToolTip ItemName="Thaumcraft:WandCasting:36" ToolTip="customtooltip.prolonged_use_warning" NBT=""/>
 	<ToolTip ItemName="StevesCarts:CartModule:61" ToolTip="customtooltip.perpetual_locomotion" NBT=""/>
 
-//Bags
-	<ToolTip ItemName="Backpack:backpack" ToolTip="customtooltip.backpack_slots" FormatArgs="36" NBT="" MetaStart="0" MetaEnd="16"/>
-	<ToolTip ItemName="Backpack:backpack" ToolTip="customtooltip.backpack_slots" FormatArgs="63" NBT="" MetaStart="100" MetaEnd="116"/>
-	<ToolTip ItemName="Backpack:backpack" ToolTip="customtooltip.backpack_slots" FormatArgs="90" NBT="" MetaStart="200" MetaEnd="216"/>
-	<ToolTip ItemName="Backpack:backpack:17" ToolTip="customtooltip.crafting_backpack_slots" FormatArgs="9" NBT=""/>
-	<ToolTip ItemName="Backpack:backpack:217" ToolTip="customtooltip.crafting_backpack_slots" FormatArgs="18" NBT=""/>
-	<ToolTip ItemName="Backpack:backpack:31999" ToolTip="customtooltip.disabled_item" NBT=""/>
-
 //Chisel
 	<ToolTip ItemName="chisel:chisel" ToolTip="customtooltip.chisel_mod" NBT=""/>
 	<ToolTip ItemName="chisel:diamondChisel" ToolTip="customtooltip.chisel_mod" NBT=""/>

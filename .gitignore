@@ -114,6 +114,7 @@ config/cookingforblockheads.cfg
 config/DreamCoreMod.properties
 config/DummyCore.cfg
 config/fastcraft.ini
+config/fether.cfg
 config/FloodLights.cfg
 config/forge.cfg
 config/forgeChunkLoading.cfg
@@ -121,7 +122,6 @@ config/ForgeRelocation.cfg
 config/GoodGenerator.cfg
 config/gtnhlib.cfg
 config/HardcoreEnderExpansion.clientsave.cfg
-config/harvestthenether.cfg
 config/hodgepodgeEarly.properties
 config/IC2NuclearControl.cfg
 config/IGWMod.cfg

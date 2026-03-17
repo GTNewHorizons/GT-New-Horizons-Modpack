@@ -26,13 +26,27 @@
       "simultaneous:1": 0,
       "snd_complete:8": "random.levelup",
       "snd_update:8": "random.levelup",
-      "taskLogic:8": "AND",
+      "taskLogic:8": "OR",
       "visibility:8": "NORMAL"
     }
   },
   "questIDHigh:4": 7312870939493747973,
   "questIDLow:4": -4993634693115988771,
-  "rewards:9": {},
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:CoinChemistIII"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "autoConsume:1": 0,
@@ -49,7 +63,7 @@
           "id:8": "bartworks:gt.bwMetaGenerateddust"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
       "autoConsume:1": 0,
@@ -66,11 +80,7 @@
           "id:8": "bartworks:gt.bwMetaGenerateddust"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
-    },
-    "2:10": {
-      "index:3": 3,
-      "taskID:8": "bq_standard:checkbox"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }
