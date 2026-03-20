@@ -445,7 +445,6 @@
         <Loot Identifier="1f352b23-3e5a-4f4b-a19d-1e950e88572a" ItemName="cropsnh:genericSeed" Amount="2" NBTTag="{crop:cropsnh:plumbilia,ga:1,gr:1,re:1,scan:1}" Chance="35" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="de1a9b44-d635-43cd-82c5-6f9faf1fad58" ItemName="cropsnh:genericSeed" Amount="2" NBTTag="{crop:cropsnh:nickelback,ga:1,gr:1,re:1,scan:1}" Chance="35" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="e7e325bd-5d95-4764-be83-e1eca929dbda" ItemName="cropsnh:genericSeed" Amount="2" NBTTag="{crop:cropsnh:redstraw,ga:1,gr:1,re:1,scan:1}" Chance="35" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="bb85972a-458b-4679-a716-c61299d9a3ff" ItemName="gregtech:gt.blockmachines:31111" Amount="1" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="46d2d7ad-9e01-49be-98ab-1b11a26a7799" ItemName="gregtech:gt.metaitem.01:11874" Amount="32" NBTTag="" Chance="45" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="26e23619-0f26-4ea7-9573-69d094eaf415" ItemName="gregtech:gt.metaitem.01:32700" Amount="8" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="595b3d5b-5584-4dc5-924f-82b17feef404" ItemName="gregtech:gt.metaitem.01:32715" Amount="4" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
@@ -508,7 +507,6 @@
         <Loot Identifier="cc9e4cf6-fa2e-410c-a2d1-691da8b19863" ItemName="gregtech:gt.metaitem.03:32018" Amount="8" NBTTag="" Chance="65" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="22aae4da-c957-4b15-9d6c-7c6818ff5c10" ItemName="gregtech:gt.metaitem.01:11020" Amount="16" NBTTag="" Chance="55" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="fad53944-cd70-442c-8c73-9af5fa2d2be4" ItemName="gregtech:gt.metaitem.01:11349" Amount="16" NBTTag="" Chance="55" LimitedDropCount="0" RandomAmount="true"/>
-        <Loot Identifier="2454d31c-1a6e-48a7-8be6-38bd3254b141" ItemName="gregtech:gt.blockmachines:31111" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="c64185ee-1f3f-4593-94a8-6e116c54aec2" ItemName="cropsnh:genericSeed" Amount="1" NBTTag="{crop:cropsnh:blazereed,ga:1,gr:1,re:1,scan:1}" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="7a404f39-8802-4fd4-8d0b-fef2475d320e" ItemName="cropsnh:genericSeed" Amount="1" NBTTag="{crop:cropsnh:auronia,ga:1,gr:1,re:1,scan:1}" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="dae762d7-8db7-4bee-8f9b-ebdd0f62d387" ItemName="cropsnh:genericSeed" Amount="1" NBTTag="{crop:cropsnh:bauxia,ga:1,gr:1,re:1,scan:1}" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
