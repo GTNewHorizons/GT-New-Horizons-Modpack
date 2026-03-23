@@ -1,8 +1,9 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 320
+      "questIDHigh:4": -8750494836126169572,
+      "questIDLow:4": -7739393154643532398,
+      "type:1": 2
     },
     "1:10": {
       "questIDHigh:4": 5325923841969573848,
@@ -22,7 +23,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "You\u0027ll need a block of Ichorium to grow these bad boys so, don\u0027t expect them to ease your pathway to thaumic mastery. \nThey will also require an Industrial Farm to grow.",
+      "desc:8": "These badboys are the most advanced species you can currently even imagine. They will require extensive technological investment to breed, and take extremely long to produce their harvest.\n\nThey will require an Industrial Farm to grow.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,

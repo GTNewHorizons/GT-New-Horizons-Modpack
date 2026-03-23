@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The Overclocked Growth Acceleration Unit allows for the overclocking of the Industrial Farm as with other Multiblocks. Only one is allowed per Industrial Farm.\n\r\n\r\nAs with all upgrades, the tier of the upgrade must match the tier of the seedbed.",
+      "desc:8": "The Overclocked Growth Acceleration Unit allows for the overclocking of the Industrial Farm as with other Multiblocks. Only one is allowed per Industrial Farm.\n\nThe Overclocked Growth Acceleration Unit will not work if a Growth Acceleration Unit is installed.\n\nAs with all upgrades, the tier of the upgrade must match the tier of the seedbed.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
