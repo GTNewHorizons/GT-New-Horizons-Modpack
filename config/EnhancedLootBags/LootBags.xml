@@ -541,6 +541,7 @@
         <Loot Identifier="8f997c62-9525-48b5-8b27-83ebfabb5444" ItemName="gregtech:gt.metaitem.03:32102" Amount="4" NBTTag="" Chance="45" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="73ec4342-9ea8-44eb-b385-f776e29ec814" ItemName="gregtech:gt.metaitem.01:32718" Amount="8" NBTTag="" Chance="45" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="f640188b-cb7f-4405-a84e-2975935bf8b2" ItemName="gregtech:gt.metaitem.01:32717" Amount="8" NBTTag="" Chance="45" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="94c4dc2d-1533-46e4-a0ca-cb3c2417a8ac" ItemName="gregtech:gt.blockmachines:28001" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
     <LootGroup GroupMetaID="7" GroupName="dreamcraft.lootbag.group.tier_4_ev" Rarity="2" MinItems="1" MaxItems="2" CombineTrashGroup="true" TrashGroup="6" LootbagIcon="enhancedlootbags:ev">
         <Loot Identifier="0ef801b1-1b39-4864-973f-4204f2955af8" ItemName="TConstruct:heartCanister:2" Amount="1" NBTTag="" Chance="2" ItemGroup="" LimitedDropCount="10" RandomAmount="false"/>
@@ -1896,7 +1897,7 @@
         <Loot Identifier="1881733e-8259-4eab-ae1c-109c3ecc46c0" ItemName="OpenComputers:item:66" Amount="1" NBTTag="" Chance="65" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="c380e9ed-8f24-4cae-9015-7a71f68b5f91" ItemName="computronics:computronics.ocParts:7" Amount="1" NBTTag="{oc:data:{}}" Chance="65" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
-    <LootGroup GroupMetaID="51" GroupName="dreamcraft.lootbag.group.ic2_crops" Rarity="0" MinItems="1" MaxItems="3" CombineTrashGroup="true" TrashGroup="0" LootbagIcon="enhancedlootbags:crops">
+    <LootGroup GroupMetaID="51" GroupName="dreamcraft.lootbag.group.crops" Rarity="0" MinItems="1" MaxItems="3" CombineTrashGroup="true" TrashGroup="0" LootbagIcon="enhancedlootbags:crops">
         <Loot Identifier="b94e032b-2fa1-4666-8fc5-27dc9043be8f" ItemName="cropsnh:cropSticks" Amount="128" NBTTag="" Chance="200" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="82f70325-efb1-4920-b7b2-93f10037ca17" ItemName="cropsnh:fertilizer" Amount="64" NBTTag="" Chance="200" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="ed0081a7-3273-423b-bb90-c6d01a0a95cb" ItemName="cropsnh:genericSeed" Amount="1" NBTTag="{re:1b,scan:1b,gr:1b,crop:&quot;cropsnh:fertilia&quot;,ga:1b}" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
