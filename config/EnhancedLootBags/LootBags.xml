@@ -454,6 +454,7 @@
         <Loot Identifier="b9e5b09b-d5b4-4c38-bb92-56e64028f460" ItemName="minecraft:potion:8233" Amount="2" NBTTag="" Chance="55" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="6e7e4ed9-913a-426c-9d3a-78475423309d" ItemName="minecraft:potion:8225" Amount="2" NBTTag="" Chance="55" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="297a212f-cc6d-4f74-a7c1-ed105813a818" ItemName="minecraft:potion:8270" Amount="2" NBTTag="" Chance="55" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="94c4dc2d-1533-46e4-a0ca-cb3c2417a8ac" ItemName="gregtech:gt.blockmachines:28001" Amount="1" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
     <LootGroup GroupMetaID="6" GroupName="dreamcraft.lootbag.group.tier_3_hv" Rarity="2" MinItems="1" MaxItems="2" CombineTrashGroup="true" TrashGroup="5" LootbagIcon="enhancedlootbags:hv">
         <Loot Identifier="25b6e4ee-02bc-477f-9006-2d8585e79f0f" ItemName="IC2:blockMachine2:1" Amount="1" NBTTag="" Chance="30" LimitedDropCount="0" RandomAmount="false"/>
