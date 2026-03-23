@@ -12,7 +12,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Tired of the Multifarm\u0027s requirements? The EnderIO Farming Station is here to ease your suffering. It only requires EU and tools and can be easily upgraded with capacitors. Most standard crops and trees work with it, but unfortunately, IC2 crops do not.\n\n[note]If you want to use it for farming crops from Pam\u0027s HarvestCraft, you\u0027ll need to provide the crop itself, not the seed, for it to work properly.[/note]",
+      "desc:8": "Tired of the Multifarm\u0027s requirements? The EnderIO Farming Station is here to ease your suffering. It only requires EU and tools and can be easily upgraded with capacitors. Most standard crops and trees work with it, but unfortunately, CropsNH crops do not.\n\n[note]If you want to use it for farming crops from Pam\u0027s HarvestCraft, you\u0027ll need to provide the crop itself, not the seed, for it to work properly.[/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
