@@ -7036,10 +7036,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKcA.desc=You can upgrade the precise cas
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKyA.name=§6§lWhat Even is This?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKyA.desc=In addition to being a dehydrator multi, it's also a Vacuum Furnace, for which no singleblock exists. It's supposed to be used with the IsaMill Grinding Machine multi and the Flotation Cell Regulator multi for the purposes of ore milling, an advanced method of ore processing that needs a lot of infrastructure, but which gives many new outputs for each ore it supports.%n%n[note]This multi is LuV now![/note]
 
-# Quest: Do I Really Need to Make This?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKyQ.name=§6§lDo I Really Need to Make This?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKyQ.desc=Oh wait, yes, you actually need this now! That was supposed to be a rhetorical question!%n%nThe main thing you will probably get out of it is the Quantum Anomaly.%n%n[note]This multi is LuV. But you don't need it until UHV.[/note]
-
 # Quest: TFFT
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKzQ.name=§6§lTFFT
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKzQ.desc=The TFFT is very useful if you don't want to have a bunch of Super Tanks, it also has a modular structure so it can be up to x4.33 times bigger than numbers in this quest.%n%nWith the tier I storage field block, it consumes 27 EU/t but only has about 0.27x the storage capacity of a Super Tank I per fluid.%n%nWith the tier V storage field block it consumes 1134 EU/t and has about 0.54x the storage capacity of a QT III per fluid.%n%nWith the tier X storage field block it consumes 0EU/t (only tier X uses 0) and has about x3.3 capacity of T7 YOTTank (divide by 25 to get per 1 fluid)%n%nYou can use the multi hatch to access all the fluids at once with an ME Fluid Storage Bus or Fluid Ender Conduit.%n%n[note]Remember to turn auto-voiding on if you need it.[/note]
@@ -7148,6 +7144,10 @@ betterquesting.quest.NVgXYF-TQvqYnLn1NLM6pw.desc=[quest]The Solar Factory![/ques
 betterquesting.quest.QfQHCy0PRn-rABmKuvwQfw.name=§6§lSynchrotron (No Relation to the Catalyst)
 betterquesting.quest.QfQHCy0PRn-rABmKuvwQfw.desc=To actually produce some light for photolithography, you'll need to accelerate your electrons in a Synchrotron. Like with the LINAC, providing it with coolant is necessary to keep it running.%n%nYou can increase the energy of the produced photons by increasing EU/t, or increasing the tier of all four Antenna Casings inside.%n%nTo improve focus, you can use a better coolant, and the output amount increases with both EU/t and antennae tier.%n%nYes, you need all four energy hatches.
 
+# Quest: Stern-Gerlach, Perhaps?
+betterquesting.quest.RLJR8nFySzSaZLeCRsabDg.name=§6§lStern-Gerlach, Perhaps?
+betterquesting.quest.RLJR8nFySzSaZLeCRsabDg.desc=The Beam Splitter allows you to sort your particle beams. The LHC produces output particles randomly, and this machine allows you to sort them into different lanes using the Filtered Beamline Output Hatch. It also divides the Amount of any particle packet by the number of valid output spots.%n%n[note]For example, if you set one output to protons and two outputs to electrons, then a mixed input beam (with all particles having an Amount of 100) will be sorted into 3 beams - one of protons (Amount 100) and two of electrons (each Amount 50).[/note]
+
 # Quest: Hundreds of Thousands of eV
 betterquesting.quest.Y1kiJC_kRGKkW7h3qOPI8A.name=§6§lHundreds of Thousands of eV
 betterquesting.quest.Y1kiJC_kRGKkW7h3qOPI8A.desc=A Linear Accelerator (LINAC) can be used to boost the energy of your beam, provided the beam's particles are charged. You'll need to constantly provide it with coolant for it to run, otherwise you'll have maintenance issues every time it runs dry.%n%nOutput energy can be increased by increasing EU/t (scales with the cbrt) or increasing length (scales linearly). The latter also decreases focus, however.%n%nFocus in turn can be improved by using a better/lower temperature coolant (options listed on tooltip).%n%nNote that Amount remains unchanged.
@@ -7155,6 +7155,10 @@ betterquesting.quest.Y1kiJC_kRGKkW7h3qOPI8A.desc=A Linear Accelerator (LINAC) ca
 # Quest: Playing with Colors!
 betterquesting.quest.Z_jn8qzFQr6FWHzmt2i3Aw.name=§6§lPlaying with Colors!
 betterquesting.quest.Z_jn8qzFQr6FWHzmt2i3Aw.desc=Multiblock machines enforce input separation based on hatch color. Inputs from Input Buses and Input Hatches will only interact if they share the same color. Un-dyed inputs act as wildcards compatible with any color.%n%nColor can be applied using a Spray Can and removed with a Spray Can Solvent. An Infinite Spray Can becomes available later in progression.%n%n[note]For more advanced users, note that the priority of dyed hatches is ordered exactly how the vanilla dyes are in NEI, from highest (black) to lowest (white).[/note]%n%n§6Now §2go §3have §4fun§5!!!
+
+# Quest: Don't ask how this works
+betterquesting.quest._xupoCqbT52qN_3zQonWNg.name=§6§lDon't ask how this works
+betterquesting.quest._xupoCqbT52qN_3zQonWNg.desc=It's a mirror, it reflects stuff. Should this only work for Photons? %n%nMaybe. %n%n[note]But it works for all particles.[/note]
 
 # Quest: Decay Warehouse
 betterquesting.quest.bLz_cD33RE24mtOb2aLxXg.name=§6§lDecay Warehouse
@@ -7168,6 +7172,10 @@ betterquesting.quest.b_Ll4zvSRfCMgmqiBa4Xkw.desc=It's easy to lose Ore Drilling 
 betterquesting.quest.eur7SqfIT8GEE_NxscJj8Q.name=§6§lUsing that Algae
 betterquesting.quest.eur7SqfIT8GEE_NxscJj8Q.desc=So you've created the Chemical Plant, and an Algae Farm, excellent! Time to make some use of it instead of letting it sit there collecting. There's quite a few recipes you can make with Algae, but we'll start with a more simple one.%n%nFor this you'll need some Brown Algae and some Green Algae. This means you need at minimum HV machine casings for the bottom of the Algae Farm. HV will produce up to 8 brown algae every 35 seconds, but can at worst case produce 2 in 105 seconds, while EV will produce at best 20 every 30 seconds, and at worst 12 in 90 seconds.%n%nOnce you have some Green and Brown Algae, you'll have to put them in a tier 2 Chemical Plant (steel based) with some distilled water, and you'll get back Sulfuric Acid. Cheap to produce once you have it all set up, a bit expensive to get there though! There's another Sulfuric acid recipe you can use as well later on, but it'll cost higher tier Algae and a higher tier Chemical Plant.
 
+# Quest: A Little More Sigma (Squared)
+betterquesting.quest.gkKzmpgkQguIfPwKqFB5Xg.name=§6§lA Little More Sigma (Squared)
+betterquesting.quest.gkKzmpgkQguIfPwKqFB5Xg.desc=Eventually, your LHC will start making rarer and rarer particles. You may find that they appear in large bursts as single particle packets with very high Amounts, but not very often. The Beam Stabilizer allows you to capture these large packets and redistribute them over time as a continuous series of smaller packets with a lower Amount.%n%n[warn]This is particularly useful to ensure recipe checks work consistently for beam-consuming machines.[/warn]
+
 # Quest: No More (IC) Engraving
 betterquesting.quest.isBmh7T0Sr63O2m5N4pCIQ.name=§6§lNo More (IC) Engraving
 betterquesting.quest.isBmh7T0Sr63O2m5N4pCIQ.desc=Now that you've reached ZPM, you're going to have to resort to means other than mere laser engraving for your photolithography needs.%n%nOf course, we're going overkill right away, requiring a full-on particle accelerator setup to produce the ultra-coherent ultra-high-energy light used to etch more advanced ICs.%n%nTo begin with, you'll need a Source Chamber to produce electrons (at pitifully low energies, of course). Check out NEI for the available recipes, you'll want the one with the hand-drawn icon.
@@ -7179,6 +7187,10 @@ betterquesting.quest.jreOZVXRQa2sGXViV7-3Gg.desc=Is the Water Tank not cutting i
 # Quest: UMV Glass
 betterquesting.quest.m5N5Q9QEREyzF1B4eObk0Q.name=§6§lUMV Glass
 betterquesting.quest.m5N5Q9QEREyzF1B4eObk0Q.desc=The next tier of Borosilicate glass is Transcendent (12).
+
+# Quest: Filtered Beamline Output Hatch
+betterquesting.quest.mqv5zPKRTdmfDUQH_-b1-A.name=§6§lFiltered Beamline Output Hatch
+betterquesting.quest.mqv5zPKRTdmfDUQH_-b1-A.desc=The Filtered Beamline Output Hatch allows you to blacklist particles from appearing in the output of your Large Hadron Collider or Beam Splitter.
 
 # Quest: Component Assembly Line
 betterquesting.quest.n7yjRSr0R7O2agebw73FGA.name=§6§lComponent Assembly Line
@@ -14605,6 +14617,10 @@ betterquesting.quest.QNsm_wc0QO2g9C6_-vj2fA.desc=Now that you are starting to fi
 betterquesting.quest.Rg0l66VnRsKlUZ0VTO3ilA.name=§c§l§nSentient Overclocker
 betterquesting.quest.Rg0l66VnRsKlUZ0VTO3ilA.desc=The §5§lSentient Overclocker§r (SO) module is the sixth module of the §nExo-Foundry§r, and the only one unlocked in §c§lUMV§r.%n%nThe SO module, as you might imagine, increases the overclock factor of the Foundry by §20.35§r. This means that for every overclock provided to this machine, it will give a §235%%§r speed boost. %n%nFor example, if your Foundry has 1 overclock it should run at §32x§r base speed. However with this module it would instead run at §22.35x§r base speed (235%%). This then compounds if another overclock is added, so instead of running at §32x§r the speed of the first overclock, it will run again at §22.35x§r the speed of the first overclock, bringing it to a total of §25.52x§r speed (552%%).%n%nAdditionally, this module can pair with the §5Proto-Volt Stabilizer§r (PVS) module to unlock "§6Harmonic Efficiency§r" giving the Foundry a §c50%%§r EU discount and an additional §20.1§r overclock factor (2.45x§r instead of 2.35x).%n%n[warn]Only one of these modules may be installed per Foundry.[/warn]
 
+# Quest: Large Hadron Collider
+betterquesting.quest.TL8RVz_HTBO5LvkI6SQi6A.name=§2§l§nLarge Hadron Collider
+betterquesting.quest.TL8RVz_HTBO5LvkI6SQi6A.desc=In order to obtain more exotic particles than simple protons, neutrons, and electrons, you will need the Large Hadron Collider. You can use any charged particle as input, sourced from any other beam-like multiblock such as the Source Chamber.%n%nThe LHC's four modules can each produce a different set of particles. For a specific particle to start appearing in the outputs, the §bCollision Energy§r must be greater than the particle's §dRest Mass§r, shown on its tooltip in NEI. The §cBeam Amount§r for the particle depends linearly on how much excess energy you provide. If you provide a §bCollision Energy§r exactly equal to the particle's §dRest Mass§r, the output packet will have an §cAmount§r of 0.%n%nThe LHC has two modes: §lAccelerator§r and §lCollider§r. %n%nFirst, in §lAccelerator§r mode, it accelerates the input beam to a higher energy. It does this in 1-second cycles, with the beam energy increasing once per cycle by a fixed amount based on your §nenergy hatch tier§r. The power draw increases quadratically as the §9Number of Completed Cycles§r increases, and linearly if the §cAmount§r increases. %n%nYou can set a target §6Beam Energy§r and a maximum §9Number of Cycles§r in the UI. If your beam reaches the target §6Beam Energy§r before reaching the maximum cycle count, further completed cycles will repeatedly multiply the beam's current §cAmount§r by 1.1, which also increases your power draw. Once the maximum §9Number of Cycles§r is reached, the LHC automatically switches to §lCollider§r mode.%n%n%nIn §lCollider§r mode, the beam is collided with itself to generate all kinds of particles. Each LHC Module is able to detect and capture a certain subset of particles, depending on which Fundamental Force the particle can interact with. This also means some particles appear in multiple modules. You can blacklist particles from appearing by using the Filtered Beamline Output Hatch.%n%n§l[note]§lThe §b§lCollision Energy§r §lis §l2x§l§  the accelerated §6§lBeam Energy§r. [/note] %n%n%n
+
 # Quest: Steel Chest?
 betterquesting.quest.V4jinTYRSueIrEqn90dRzQ.name=§c§lSteel Chest?
 betterquesting.quest.V4jinTYRSueIrEqn90dRzQ.desc=While being significantly more expensive than a gold chest, the steel chest has less capacity but it can be used in some specialized crafting recipes.
@@ -14716,6 +14732,10 @@ betterquesting.quest.sZ9d2SzSSLSc9tccXG_L4g.desc=You want to start using your ne
 # Quest: Dark Steel Chest
 betterquesting.quest.t6xRGFm_S2SG6_-xNh8mwQ.name=§6§lDark Steel Chest
 betterquesting.quest.t6xRGFm_S2SG6_-xNh8mwQ.desc=After embracing the dark side you get access to the new even bigger dark steel chest... perhaps another upgrade will be available in the future?%n%n[note]Just as with the previous chests you can also upgrade with a fitting upgrade item.[/note]
+
+# Quest: Crafting, but with Beams!
+betterquesting.quest.xTkeDXIZSlmRkde8LZgzLw.name=§b§lCrafting, but with Beams!
+betterquesting.quest.xTkeDXIZSlmRkde8LZgzLw.desc=The Beam Crafter allows you to craft items using two beam-like inputs! If you are familiar with the Target Chamber, this works the same way, but with two beams instead of one.%n%nEach Beam Crafting recipe requires two particle inputs. You must provide enough of both types of particles to finish the craft. The progress of a craft in the Beam Crafter depends entirely on the number of provided particles, but will draw power the entire time. %n%n[note]This also means that the speed of the craft is entirely dependent on how quickly you can provide particles, and as a result the WAILA estimate is likely inaccurate.[/note]%n%nFailing to provide particles consistently is not an issue! The machine will continue to draw power while it waits for more particles, but you will not lose crafting progress.%n%n[note]If enough of one of the input particles is provided, providing more of that particle has no effect on the progress of the craft.[/note]
 
 # Quest: Thaumometric Essentia Cell
 betterquesting.quest.xdiDnTdpTgW6POwCuDlPgg.name=§9§l§nThaumometric Essentia Cell
