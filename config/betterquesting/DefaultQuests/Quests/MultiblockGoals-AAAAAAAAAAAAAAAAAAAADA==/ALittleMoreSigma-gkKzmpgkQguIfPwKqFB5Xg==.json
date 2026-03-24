@@ -1,31 +1,25 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 2801
-    },
-    "1:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 1707
+      "questIDHigh:4": -64271264292057187,
+      "questIDLow:4": -6181192742307506634
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Runs for a reaaaally long time. Outputs an amount based on the fuel pellet given.\n\n241Am: 16 EU, 69875 days\n90Sr: 30 EU, 62640 days\n238Pu: 64 EU, 42982 days\n210Po: 480 EU, 34560 days\n\nHonestly, it\u0027s super not worth it. Especially considering you need to make a Cyclotron to make the fuel. And it\u0027s not even guaranteed!",
-      "globalShare:1": 1,
+      "desc:8": "Eventually, your LHC will start making rarer and rarer particles. You may find that they appear in large bursts as single particle packets with very high Amounts, but not very often. The Beam Stabilizer allows you to capture these large packets and redistribute them over time as a continuous series of smaller packets with a lower Amount.\n\n[warn]This is particularly useful to ensure recipe checks work consistently for beam-consuming machines.[/warn]",
+      "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 869,
+        "Damage:2": 3018,
         "OreDict:8": "",
         "id:8": "gregtech:gt.blockmachines"
       },
-      "isGlobal:1": 0,
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§9§lRadioisotope Thermoelectric Generator",
-      "partySingleReward:1": 0,
+      "name:8": "§6§lA Little More Sigma (Squared)",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -36,8 +30,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 2802,
+  "questIDHigh:4": -9060482023757168117,
+  "questIDLow:4": -8611731264735512226,
   "rewards:9": {},
   "tasks:9": {
     "0:10": {
@@ -50,7 +44,7 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 869,
+          "Damage:2": 3018,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }

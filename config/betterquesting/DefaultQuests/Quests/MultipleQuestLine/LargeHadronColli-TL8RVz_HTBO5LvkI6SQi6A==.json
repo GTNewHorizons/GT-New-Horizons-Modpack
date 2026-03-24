@@ -1,0 +1,72 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2656
+    },
+    "1:10": {
+      "questIDHigh:4": 4752431251364726399,
+      "questIDLow:4": -6124867409590611841,
+      "type:1": 1
+    },
+    "2:10": {
+      "questIDHigh:4": -7301467712212873767,
+      "questIDLow:4": -6985852645832985096
+    },
+    "3:10": {
+      "questIDHigh:4": -4235320931467572647,
+      "questIDLow:4": -7957341863368182993
+    },
+    "4:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2623
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "In order to obtain more exotic particles than simple protons, neutrons, and electrons, you will need the Large Hadron Collider. You can use any charged particle as input, sourced from any other beam-like multiblock such as the Source Chamber.\n\nThe LHC\u0027s four modules can each produce a different set of particles. For a specific particle to start appearing in the outputs, the §bCollision Energy§r must be greater than the particle\u0027s §dRest Mass§r, shown on its tooltip in NEI. The §cBeam Amount§r for the particle depends linearly on how much excess energy you provide. If you provide a §bCollision Energy§r exactly equal to the particle\u0027s §dRest Mass§r, the output packet will have an §cAmount§r of 0.\n\nThe LHC has two modes: §lAccelerator§r and §lCollider§r. \n\nFirst, in §lAccelerator§r mode, it accelerates the input beam to a higher energy. It does this in 1-second cycles, with the beam energy increasing once per cycle by a fixed amount based on your §nenergy hatch tier§r. The power draw increases quadratically as the §9Number of Completed Cycles§r increases, and linearly if the §cAmount§r increases. \n\nYou can set a target §6Beam Energy§r and a maximum §9Number of Cycles§r in the UI. If your beam reaches the target §6Beam Energy§r before reaching the maximum cycle count, further completed cycles will repeatedly multiply the beam\u0027s current §cAmount§r by 1.1, which also increases your power draw. Once the maximum §9Number of Cycles§r is reached, the LHC automatically switches to §lCollider§r mode.\n\n\nIn §lCollider§r mode, the beam is collided with itself to generate all kinds of particles. Each LHC Module is able to detect and capture a certain subset of particles, depending on which Fundamental Force the particle can interact with. This also means some particles appear in multiple modules. You can blacklist particles from appearing by using the Filtered Beamline Output Hatch.\n\n§l[note]§lThe §b§lCollision Energy§r §lis §l2x§l§  the accelerated §6§lBeam Energy§r. [/note] \n\n\n",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 3013,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
+      },
+      "isMain:1": 1,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "§2§l§nLarge Hadron Collider",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 5530157933864111123,
+  "questIDLow:4": -5102867511097679128,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 3013,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

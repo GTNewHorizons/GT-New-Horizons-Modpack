@@ -1,25 +1,25 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 1493
+      "questIDHigh:4": 4950109042160847668,
+      "questIDLow:4": -7321525324036531442
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Oh wait, yes, you actually need this now! That was supposed to be a rhetorical question!\n\nThe main thing you will probably get out of it is the Quantum Anomaly.\n\n[note]This multi is LuV. But you don\u0027t need it until UHV.[/note]",
+      "desc:8": "It\u0027s a mirror, it reflects stuff. Should this only work for Photons? \n\nMaybe. \n\n[note]But it works for all particles.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 828,
+        "Damage:2": 3016,
         "OreDict:8": "",
         "id:8": "gregtech:gt.blockmachines"
       },
-      "isMain:1": 1,
+      "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§6§lDo I Really Need to Make This?",
+      "name:8": "§6§lDon\u0027t ask how this works",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -30,8 +30,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 2761,
+  "questIDHigh:4": -64271264292057187,
+  "questIDLow:4": -6181192742307506634,
   "rewards:9": {},
   "tasks:9": {
     "0:10": {
@@ -44,21 +44,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 828,
+          "Damage:2": 3016,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
-        },
-        "1:10": {
-          "Count:3": 32,
-          "Damage:2": 9,
-          "OreDict:8": "",
-          "id:8": "miscutils:gtplusplus.blockcasings.2"
-        },
-        "2:10": {
-          "Count:3": 1,
-          "Damage:2": 10,
-          "OreDict:8": "",
-          "id:8": "miscutils:gtplusplus.blockcasings.2"
         }
       },
       "taskID:8": "bq_standard:retrieval"
