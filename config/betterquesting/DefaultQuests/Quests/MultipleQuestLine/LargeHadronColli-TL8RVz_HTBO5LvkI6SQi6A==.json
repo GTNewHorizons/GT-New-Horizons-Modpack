@@ -1,19 +1,23 @@
 {
   "preRequisites:9": {
     "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2656
+    },
+    "1:10": {
       "questIDHigh:4": 4752431251364726399,
       "questIDLow:4": -6124867409590611841,
       "type:1": 1
     },
-    "1:10": {
+    "2:10": {
       "questIDHigh:4": -7301467712212873767,
       "questIDLow:4": -6985852645832985096
     },
-    "2:10": {
+    "3:10": {
       "questIDHigh:4": -4235320931467572647,
       "questIDLow:4": -7957341863368182993
     },
-    "3:10": {
+    "4:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 2623
     }
@@ -32,7 +36,7 @@
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§6§lLarge Hadron Collider",
+      "name:8": "§2§l§nLarge Hadron Collider",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

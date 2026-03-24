@@ -1,10 +1,14 @@
 {
   "preRequisites:9": {
     "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2627
+    },
+    "1:10": {
       "questIDHigh:4": -8448640167904523586,
       "questIDLow:4": -5243481096921136607
     },
-    "1:10": {
+    "2:10": {
       "questIDHigh:4": -795101217016493444,
       "questIDLow:4": -7228129145658002387,
       "type:1": 1
@@ -24,7 +28,7 @@
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§6§lCrafting, but with Beams!",
+      "name:8": "§b§lCrafting, but with Beams!",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
