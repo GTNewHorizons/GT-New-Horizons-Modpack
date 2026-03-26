@@ -26,7 +26,7 @@
       "simultaneous:1": 0,
       "snd_complete:8": "random.levelup",
       "snd_update:8": "random.levelup",
-      "taskLogic:8": "AND",
+      "taskLogic:8": "OR",
       "visibility:8": "NORMAL"
     }
   },
@@ -47,6 +47,12 @@
           "Damage:2": 11498,
           "OreDict:8": "",
           "id:8": "bartworks:gt.bwMetaGenerateddust"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 11499,
+          "OreDict:8": "",
+          "id:8": "bartworks:gt.bwMetaGeneratedgem"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -61,9 +67,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
+          "Damage:2": 11498,
+          "OreDict:8": "",
+          "id:8": "bartworks:gt.bwMetaGenerateddust"
+        },
+        "1:10": {
+          "Count:3": 1,
           "Damage:2": 11499,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGeneratedgem"
+          "id:8": "bartworks:gt.bwMetaGeneratedgemExquisite"
         }
       },
       "taskID:8": "bq_standard:retrieval"

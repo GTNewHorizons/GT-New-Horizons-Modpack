@@ -79,7 +79,8 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "AWWayofTime:masterBloodOrb"
+          "id:8": "AWWayofTime:masterBloodOrb",
+          "tag:10": {}
         }
       },
       "taskID:8": "bq_standard:retrieval"
