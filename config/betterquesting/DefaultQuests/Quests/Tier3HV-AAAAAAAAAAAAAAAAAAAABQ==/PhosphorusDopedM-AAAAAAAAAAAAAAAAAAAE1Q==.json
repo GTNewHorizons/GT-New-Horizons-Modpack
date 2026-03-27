@@ -16,7 +16,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "To make more advanced wafers, you need to make phosphorus doped monocrystalline silicon first. The process takes a while, so make sure you have stable power.\n\nYou can also get more wafers, and thus more chips out of higher tier boules. You still need to make the lower tier ones sometimes though.",
+      "desc:8": "To make more advanced wafers, you need to make phosphorus doped monocrystalline silicon first. The process takes a while, so make sure you have stable power.\n\nYou can also get more wafers, and thus more chips out of higher tier boules. You still need to make the lower tier ones sometimes though.\n\nThere are many different ways to source Phosphorus, you can process ores like Apatite or Tricalcium Phosphate. You may also consider centrifuging ashes if you use a benzene setup, or extracting it from combs if you use bees. Remember to be prudent when searching through NEI!",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

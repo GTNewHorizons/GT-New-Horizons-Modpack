@@ -13,7 +13,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Data Orbs are high tier data sticks to replicate materials or used as data storages.",
+      "desc:8": "Data Orbs are high tier data sticks to replicate materials or used as data storages. \n\nAdditionally, similar to how a Data Stick can copy the configuration of a singular multiblock hatch, the Data Orb can copy the configuration of multiple hatches on a multiblock and paste to another that is laid out in a similar fashion by clicking it on the controller.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

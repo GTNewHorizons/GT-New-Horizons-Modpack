@@ -1,29 +1,25 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 2695
-    },
-    "1:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 458
+      "questIDHigh:4": -1663909569982545142,
+      "questIDLow:4": -4646567102207181371
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "To make living solder for your UEV components or bio-circuits, you will need a chem plant with Rugged Botmium Casings. These are not easy to make!\n\nYou can certainly figure out the rest by now, but the Advanced Nitinol may confuse you. You make it out of blocks of Nitinol 60 with a Quantum Anomaly in a Laser Engraver.",
+      "desc:8": "Yes actually.\n\nOnce upon a time these were optional and commonly skipped by players, but now you will need at least 20 of them to use in the Nanochip Assembly Matrix if you want to craft any Pico Circuits. \n\nAs for upgrading your CoAL to use them... that\u0027s your choice.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 3,
+        "Damage:2": 10,
         "OreDict:8": "",
-        "id:8": "miscutils:gtplusplus.blockspecialcasings.2"
+        "id:8": "GoodGenerator:componentAssemblylineCasing"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§4§l§nBeyond the Limit",
+      "name:8": "§9§l§nDo I Really Need These?",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -34,8 +30,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 2696,
+  "questIDHigh:4": -3808771605418260071,
+  "questIDLow:4": -5192569748262941714,
   "rewards:9": {},
   "tasks:9": {
     "0:10": {
@@ -43,14 +39,14 @@
       "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
-      "index:3": 0,
+      "index:3": 1,
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 70,
-          "Damage:2": 3,
+          "Count:3": 20,
+          "Damage:2": 10,
           "OreDict:8": "",
-          "id:8": "miscutils:gtplusplus.blockspecialcasings.2"
+          "id:8": "GoodGenerator:componentAssemblylineCasing"
         }
       },
       "taskID:8": "bq_standard:retrieval"

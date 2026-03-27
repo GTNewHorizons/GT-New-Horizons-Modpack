@@ -16,7 +16,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "You\u0027ve almost made it. One last crafting step is required in order to advance to Tier 1. Keep going!\n\nThis Steam Turbine generates electricity from Steam. The power source you\u0027ve been using is the same, but from this point on you will generate EU, and bring it to your machines via cables, instead of bringing the Steam directly to them. Luckily, electric machines don\u0027t need an exhaust port, and they are considerably more efficient than Bronze machines.\n\nAt a later point, you will most likely switch from Steam to another fuel, though.",
+      "desc:8": "You\u0027ve almost made it. One last crafting step is required in order to advance to Tier 1. Keep going!\n\nThis Steam Turbine generates electricity from Steam. The power source you\u0027ve been using is the same, but from this point on you will generate EU, and bring it to your machines via cables, instead of bringing the Steam directly to them. Luckily, electric machines don\u0027t need an exhaust port, and they are considerably more efficient than Bronze machines.\n\nAt a later point, you will most likely switch from Steam to another fuel, though.\n\n[note]If you\u0027d prefer to use an alternative to steam for power generation right away, there are other options available to complete this quest.[/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -36,7 +36,7 @@
       "simultaneous:1": 0,
       "snd_complete:8": "random.levelup",
       "snd_update:8": "random.levelup",
-      "taskLogic:8": "AND",
+      "taskLogic:8": "OR",
       "visibility:8": "NORMAL"
     }
   },
@@ -89,6 +89,60 @@
         "0:10": {
           "Count:3": 1,
           "Damage:2": 1120,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:crafting"
+    },
+    "1:10": {
+      "allowAnvil:1": 0,
+      "allowCraft:1": 1,
+      "allowCraftedFromStatistics:1": 0,
+      "allowSmelt:1": 1,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1115,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:crafting"
+    },
+    "2:10": {
+      "allowAnvil:1": 0,
+      "allowCraft:1": 1,
+      "allowCraftedFromStatistics:1": 0,
+      "allowSmelt:1": 1,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 837,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:crafting"
+    },
+    "3:10": {
+      "allowAnvil:1": 0,
+      "allowCraft:1": 1,
+      "allowCraftedFromStatistics:1": 0,
+      "allowSmelt:1": 1,
+      "ignoreNBT:1": 1,
+      "index:3": 3,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1110,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }
