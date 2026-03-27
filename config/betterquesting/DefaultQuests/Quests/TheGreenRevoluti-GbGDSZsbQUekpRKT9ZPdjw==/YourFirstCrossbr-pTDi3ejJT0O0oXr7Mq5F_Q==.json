@@ -16,7 +16,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "With both carrot and potato seeds in hand, you are now ready to breed your first new species of crop. Sugarcane.\n\nPlant your potato and carrot seeds next to a double crop stick placed on one of the fitting soil types shown in NEI. §lAlways check the soil types.\n\n§rBeyond soil and sub-soil, there are many other environmental requirements for different crop species. [warn]I really cannot understate the importance of using NEI to research what your target crops need and prefer.[/warn]",
+      "desc:8": "With both carrot and potato seeds in hand, you are now ready to breed your first new species of crop. Sugarcane.\n\nPlant your potato and carrot seeds next to a double crop stick placed on one of the fitting soil types shown in NEI.\n\n[warn]Always check NEI for what soil to use when breeding a new crop.[/warn]\n\nWhen breeding, it\u0027s important to ensure that the crop stick that will contain the new crop meets all the growth requirements of said new crop. [warn]Crops with special growth requirements will not appear unless all their growth requirements are met.[/warn] This includes things like soil, sub-soil, and light level.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,

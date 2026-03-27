@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "With the portable scanner, you can get the crop\u0027s stats and environmental info by right-clicking it. It also stays scanned after getting the seed. Look for the portable scanner quest after the EBF in Multiblock Goals. Most notably it will tell you directly what the current Nutrient Score is for your crops.",
+      "desc:8": "The portable scanner is a direct upgrade to the plant lens.\n\nJust like the lens, the scanner can tell you all the information about a crop growing inside of a crop stick, but unlike the plant lens it also displays the exact Nutrient Score provided by the crop stick.\n\n[note]The portable scanner isn\u0027t just for crops, it can tell you a lot of information about basically everything! Look for the Portable Scanner quest after the EBF quest in Multiblock Goals tab for more information![/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

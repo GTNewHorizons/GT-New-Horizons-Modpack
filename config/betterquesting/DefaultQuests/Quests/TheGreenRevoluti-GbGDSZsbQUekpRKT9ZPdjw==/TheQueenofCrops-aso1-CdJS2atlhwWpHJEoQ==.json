@@ -22,7 +22,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Titania leaves will 4x your titanium ores.",
+      "desc:8": "A great source of titanium!\n\nTitania leaves will 4x your titanium ores.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -33,7 +33,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Titania",
+      "name:8": "The Queen of Crops",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
