@@ -17,7 +17,7 @@
         "id:8": "Thaumcraft:ItemHelmetVoidFortress"
       },
       "isGlobal:1": 0,
-      "isMain:1": 1,
+      "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "\"Armor\"",
@@ -28,7 +28,7 @@
       "simultaneous:1": 0,
       "snd_complete:8": "random.levelup",
       "snd_update:8": "random.levelup",
-      "taskLogic:8": "AND",
+      "taskLogic:8": "OR",
       "visibility:8": "NORMAL"
     }
   },

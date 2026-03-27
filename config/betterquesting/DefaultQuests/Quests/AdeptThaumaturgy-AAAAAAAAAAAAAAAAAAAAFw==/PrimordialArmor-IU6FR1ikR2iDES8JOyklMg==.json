@@ -1,0 +1,105 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 284
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "The §5§lPrimordial Armor§r is the final evolution of the Fortress armor line, built by upgrading a full set of Shadow Fortress armor with primal power. This is a very powerful set, allowing for great defense and a plethora of useful mobility options for getting around.\n\nBy shift right-clicking any piece in your hand you can switch its primal alignment which grants unique abilities, some of which are powerful enough to require multiple pieces of armor to be aligned to one aspect: \n\n§6§lAer§r\r\n1 Alignment: Projectiles shot at you are reflected back at the shooter. In practice, this has an inconsistent minimum range of several blocks.\r\n2 Alignments: Gain creative flight.\n\n§2§lTerra§r\nBoots: Gain knockback resistance.\r\n1 Alignment: Gain Regeneration (2 + number of Terra-aligned pieces) whenever you take damage, except damage from the Sacrificial Knife.\n\r\n§c§lIgnis§r\r\nHelmet: Gain Night Vision when it is night or when the brightness level is less than 4, which also works underwater.\r\n1 Alignment: Fire is automatically extinguished, and gain 25% resistance to explosion and fire damage. Further, whenever you take damage from a non-undead source, light it on fire for (5 * number of Ignis-aligned pieces) seconds.\r\n2 Alignments: When fully submerged in lava you gain Fire Resistance, becoming immune to its damage, and can see without the normal red filter, but you also gain Blindness which limits your range of visibility.\n\n§9§lAqua§r\r\nHelmet: Gain Water Breathing and, when underwater, Night Vision.\r\n1 Alignment: Cure Blindness, Poison, Wither, Confusion, Taint Poison, Mining Fatigue, Hunger, and Weakness.\n\n§7§lOrdo§r\r\nAny piece: Reduces the Warping level from 10 to 5, and increase the vis discount from 6% to 10%.\r\n1 Alignment: Gain Regeneration I, and any negative effects from warp (Vis Exhaustion, Thaumarrhea, Unnatural Hunger, Blurred Vision, Sun Scorned, or Death Gaze) have their potency reduced by the number of Ordo-aligned pieces and their duration reduced by 1/(1 + number of Ordo-aligned pieces).\n\n§8§lPerditio§r\n1 Alignment: Whenever you take damage from a non-undead source, afflict it with Slowness IV and Blindness for (10 * number of Perditio-aligned pieces) seconds.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "WitchingGadgets:item.WG_PrimordialChest",
+        "tag:10": {}
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Primordial Armor",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 2400002192911386472,
+  "questIDLow:4": -9002362463443147470,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 12,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      }
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:CoinDarkWizardIII"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "WitchingGadgets:item.WG_PrimordialHelm",
+          "tag:10": {}
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "WitchingGadgets:item.WG_PrimordialChest",
+          "tag:10": {}
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "WitchingGadgets:item.WG_PrimordialLegs",
+          "tag:10": {}
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "WitchingGadgets:item.WG_PrimordialBoots",
+          "tag:10": {}
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

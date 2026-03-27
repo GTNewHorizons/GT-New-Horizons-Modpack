@@ -32,7 +32,38 @@
   },
   "questIDHigh:4": 0,
   "questIDLow:4": 2589,
-  "rewards:9": {},
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 0,
+      "questID:8": "AAAAAAAAAAAAAAAAAAADOA\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "1:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 1,
+      "questID:8": "AAAAAAAAAAAAAAAAAAAFnQ\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "2:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 2,
+      "questID:8": "AAAAAAAAAAAAAAAAAAAFvA\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "3:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 3,
+      "questID:8": "AAAAAAAAAAAAAAAAAAAKow\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    },
+    "4:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 4,
+      "questID:8": "AAAAAAAAAAAAAAAAAAAKpA\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
+    }
+  },
   "tasks:9": {
     "0:10": {
       "autoConsume:1": 0,

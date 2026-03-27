@@ -1,6 +1,10 @@
 {
   "preRequisites:9": {
     "0:10": {
+      "questIDHigh:4": 1162181130482500484,
+      "questIDLow:4": -8199803816494517045
+    },
+    "1:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 1493
     }
@@ -16,7 +20,7 @@
         "OreDict:8": "",
         "id:8": "gregtech:gt.blockmachines"
       },
-      "isMain:1": 1,
+      "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§6§lWhat Even is This?",
