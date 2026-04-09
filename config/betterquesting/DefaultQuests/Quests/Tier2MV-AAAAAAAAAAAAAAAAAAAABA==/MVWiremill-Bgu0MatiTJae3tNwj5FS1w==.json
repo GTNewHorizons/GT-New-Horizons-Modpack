@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "No Description",
+      "desc:8": "The MV Wiremill is twice as fast as the LV one but uses 4x the power.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -19,7 +19,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "MV Wiremill",
+      "name:8": "§6§lMV Wiremill",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -37,13 +37,27 @@
       "ignoreDisabled:1": 0,
       "index:3": 0,
       "rewardID:8": "bq_standard:item",
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      }
     },
     "1:10": {
       "ignoreDisabled:1": 0,
       "index:3": 1,
       "rewardID:8": "bq_standard:item",
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 25,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:CoinTechnician"
+        }
+      }
     },
     "2:10": {
       "ignoreDisabled:1": 1,

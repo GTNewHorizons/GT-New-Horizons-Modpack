@@ -13,7 +13,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Once you get your hands on some Naphtha, you can combine it with some Saltpeter in the Chemical Reactor to create Polycaprolactam (PCL). This can then be solidified to a bar and put through a Wiremill to obtain a decent amount of String.",
+      "desc:8": "Tired of farming Cotton?\n\nIf you combine Naphtha with some Saltpeter in the Chemical Reactor you can create Polycaprolactam (PCL). \n\nThis can then be solidified into a bar and put through a Wiremill to obtain String.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -24,7 +24,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§6§lPolycaprolactam",
+      "name:8": "§6§lString Theory?",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
