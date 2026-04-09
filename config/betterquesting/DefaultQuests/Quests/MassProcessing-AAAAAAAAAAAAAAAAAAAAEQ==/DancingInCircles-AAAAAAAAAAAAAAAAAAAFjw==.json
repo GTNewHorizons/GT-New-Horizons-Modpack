@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Spinning around, getting hot - sounds like a dance. Or a thermal centrifuge. Build a §5§lLarge Thermal Refinery§r to get the most out of your ores.\n\nUnlike the singleblock, you get a base §2§l2.5x§r speed bonus and a §3§l20%§r EU discount on all recipes. You unlock an extra §n§l5%§r increase to both speed and EU discount per coil tier.\n\nAs a bonus, the LTR provides §6§l8§r parallels per voltage tier, and §6§l2§r additional parallels per tier of solenoid on top of that.\n\n[note]Glass tier is irrelevant; use what works best for you![/note]",
+      "desc:8": "Spinning around, getting hot - sounds like a dance. Or a thermal centrifuge. Build a §5§lLarge Thermal Refinery§r to get the most out of your ores.\n\nUnlike with the singleblock, you get a base §2§l2.5x§r speed bonus and a §3§l20%§r EU discount on all recipes. You unlock an extra §n§l5%§r increase to both speed and EU discount per coil tier.\n\nAs a bonus, the LTR provides §6§l8§r parallels per voltage tier, and §6§l2§r additional parallels per tier of solenoid on top of that.\n\n[note]Glass tier is irrelevant; use what works best for you![/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
