@@ -68,18 +68,23 @@
       "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
-      "index:3": 2,
-      "requiredFluids:9": {
+      "index:3": 3,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
         "0:10": {
-          "Amount:3": 1440,
-          "FluidName:8": "temporalfluid"
+          "Count:3": 10,
+          "Damage:2": 30587,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
         },
         "1:10": {
-          "Amount:3": 1440,
-          "FluidName:8": "spatialfluid"
+          "Count:3": 10,
+          "Damage:2": 30106,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
         }
       },
-      "taskID:8": "bq_standard:fluid"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }
