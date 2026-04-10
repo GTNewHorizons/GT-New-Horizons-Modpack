@@ -8,20 +8,18 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "...when you can teleport? This little device allows you to teleport around almost for free. Is it cheaty? Is it OP? Nope, it\u0027s a celestial gateway!\n\n10 can be set per device, so get creative! ...Unless you want to go to other Dims, which it can\u0027t do. But hey, faster travel around your base!",
-      "globalShare:1": 1,
+      "desc:8": "Celestial Gateways are a bit expensive, but they provide very convenient travel within a dimension.\n\nShift-click with a celestial pearl on a celestial gateway to attune the pearl to that specific gateway and insert that pearl into the slot of another.\n\nShift when standing above a celestial gateway to get the teleportation menu. It makes sense to name the pearls in an anvil if you want to easily identify the different locations.",
+      "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
         "id:8": "ThaumicTinkerer:warpGate"
       },
-      "isGlobal:1": 0,
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Why Walk...",
-      "partySingleReward:1": 0,
+      "name:8": "Celestial Gateways",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -32,8 +30,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 331,
+  "questIDHigh:4": 4134900649059239447,
+  "questIDLow:4": -8279404553732255962,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -45,19 +43,12 @@
           "Damage:2": 12,
           "OreDict:8": "",
           "id:8": "enhancedlootbags:lootbag"
-        }
-      }
-    },
-    "1:10": {
-      "ignoreDisabled:1": 0,
-      "index:3": 1,
-      "rewardID:8": "bq_standard:item",
-      "rewards:9": {
-        "0:10": {
-          "Count:3": 5,
+        },
+        "1:10": {
+          "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinDarkWizardII"
+          "id:8": "ThaumicTinkerer:skyPearl"
         }
       }
     }
