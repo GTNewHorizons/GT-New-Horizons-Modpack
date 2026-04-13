@@ -1,0 +1,82 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 134
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "The Conduit Probe is an incredibly useful tool for managing and troubleshooting your Ender IO conduit networks.\n\nIt features two modes:\n\n• §lProbe Mode§r\nRight-click an Energy Conduit to view detailed network information\nRight-click an Item Conduit to simulate item transport using the item in your hand\nRight-click a Redstone Conduit to see connection details, including signal levels sent and received\n\n• §lCopy/Paste Mode§r\nShift + Right-click a conduit connection to copy its settings\nRight-click another conduit to paste those settings\n\nThis is especially useful when configuring multiple machines with identical setups and helps prevent mistakes.\n\nYou can switch between modes by: Using Shift + Mouse Wheel, or pressing the §nYeta Wrench Mode§r keybind (unbound by default) while holding the probe.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "EnderIO:itemConduitProbe"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "§6§lConduit Probe",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "CHAIN"
+    }
+  },
+  "questIDHigh:4": -5129576859257911076,
+  "questIDLow:4": -4853455128671811694,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      }
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 25,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:CoinTechnician"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "EnderIO:itemConduitProbe"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
