@@ -2,11 +2,7 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 214
-    },
-    "1:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 218
+      "questIDLow:4": 860
     }
   },
   "properties:10": {
@@ -21,12 +17,12 @@
         "id:8": "personalspace:personalPortal"
       },
       "isGlobal:1": 0,
-      "isMain:1": 0,
+      "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Reward choice: Personal Dimension",
+      "name:8": "§5§lPersonal Dimension",
       "partySingleReward:1": 0,
-      "questLogic:8": "XOR",
+      "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
       "simultaneous:1": 0,
