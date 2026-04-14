@@ -1998,6 +1998,10 @@ betterquesting.quest.epVKHW7jSUiiLW4BPCqv9g.desc=Tired of your magnet picking up
 betterquesting.quest.kz0dyVKfTm6PuIWsz3CYvQ.name=§6§lString Theory?
 betterquesting.quest.kz0dyVKfTm6PuIWsz3CYvQ.desc=Tired of farming Cotton?%n%nIf you combine Naphtha with some Saltpeter in the Chemical Reactor you can create Polycaprolactam (PCL). %n%nThis can then be solidified into a bar and put through a Wiremill to obtain String.
 
+# Quest: Conduit Probe
+betterquesting.quest.uNAVBi_eSNy8pRBGcjgHkg.name=§6§lConduit Probe
+betterquesting.quest.uNAVBi_eSNy8pRBGcjgHkg.desc=The Conduit Probe is an incredibly useful tool for managing and troubleshooting your Ender IO conduit networks.%n%nIt features two modes:%n%n• §lProbe Mode§r%nRight-click an Energy Conduit to view detailed network information%nRight-click an Item Conduit to simulate item transport using the item in your hand%nRight-click a Redstone Conduit to see connection details, including signal levels sent and received%n%n• §lCopy/Paste Mode§r%nShift + Right-click a conduit connection to copy its settings%nRight-click another conduit to paste those settings%n%nThis is especially useful when configuring multiple machines with identical setups and helps prevent mistakes.%n%nYou can switch between modes by: Using Shift + Mouse Wheel, or pressing the §nYeta Wrench Mode§r keybind (unbound by default) while holding the probe.
+
 
 ## Quest Line: Tier 3 - HV
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAABQ.name=Tier 3 - HV
@@ -2165,7 +2169,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADpA.desc=The HV miner is faster, has lon
 
 # Quest: Performing Chemical Experiments at HV Level
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADrw.name=§5§lPerforming Chemical Experiments at HV Level
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADrw.desc=There are a number of chemical recipes that are unlocked with an §5HV Chemical Reactor§r; you will finally be able to make Ender Eyes, Ammonia, Gelled Toluene, and plenty of other useful components. %n%nAlternatively, if you're up for it, you can head over to the Mass Processing tab and build yourself a §5Large Chemical Reactor§r (LCR) instead! In addition to having a more efficient overclock, the LCR can input multiple liquids so you won't need to mess with those pesky cells any longer. %n%n[note]If you choose to go the LCR route, be sure to take a look at the PTFE questline just ahead of this one, starting with "Teflon Don". %n%n§7You can also make 128 Silicon Rubber / 128 PTFE Sheets to complete the entire questline for them by triggering the hidden quest.%n[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADrw.desc=There are a number of chemical recipes that are unlocked with an §5HV Chemical Reactor§r; you will finally be able to make Ender Eyes, Ammonia, Gelled Toluene, and plenty of other useful components. %n%nAlternatively, if you're up for it, you can head over to the Mass Processing tab and build yourself a §5Large Chemical Reactor§r (LCR) instead! In addition to having a more efficient overclock, the LCR can input multiple liquids so you won't need to mess with those pesky cells any longer. %n%n[note]If you choose to go the LCR route, be sure to take a look at the PTFE questline just ahead of this one, starting with "Teflon Don".[/note]
 
 # Quest: You're Gonna Hate This 5 and 6 in HV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE0A.name=§5§lYou're Gonna Hate This 5 and 6 in HV
@@ -2418,6 +2422,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALoQ.desc=Then heat up the slurry you mad
 # Quest: Getting the most out of your Bauxite.
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALog.name=§5§lGetting the most out of your Bauxite.
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALog.desc=If processed correctly you can get a lot more Gallium out of your Bauxite compared to just using the Thermal Centrifuge. You will also get large amounts of Rutile and Alumina.%n%nFirst, make some Bauxite Slurry.
+
+# Quest: Ender Fluid Conduits
+betterquesting.quest.Tccv2-B9QaS_8tS8kteSSg.name=Ender Fluid Conduits
+betterquesting.quest.Tccv2-B9QaS_8tS8kteSSg.desc=Ender Fluid Conduits are an advanced fluid transport system available at HV tier. They are useful in many scenarios, such as filtering specific fluids and even routing by color channels.%n%nTheir main advantage is the ability to create a unified fluid network, which makes complex setups much easier to manage. As you use them, you’ll quickly see how convenient they are at this stage of the game.%n%n[note]However, be careful: large conduit networks with too many nodes can cause TPS lag. Use them wisely, avoid overbuilding, and consider switching to AE2-based fluid handling for large-scale systems.[/note]
 
 # Quest: Keeping your energy hatch from overheating
 betterquesting.quest.pXRqb1HyQYSjtHp9dt1xZg.name=§5§lKeeping your energy hatch from overheating
