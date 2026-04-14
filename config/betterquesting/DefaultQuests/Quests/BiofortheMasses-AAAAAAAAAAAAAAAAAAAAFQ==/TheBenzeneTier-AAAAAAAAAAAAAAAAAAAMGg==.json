@@ -67,9 +67,6 @@
           "id:8": "cropsnh:genericSeed",
           "tag:10": {
             "crop:8": "cropsnh:bonsaiSpruce",
-            "ga:1": 1,
-            "gr:1": 1,
-            "re:1": 1,
             "scan:1": 1
           }
         },
@@ -80,9 +77,6 @@
           "id:8": "cropsnh:genericSeed",
           "tag:10": {
             "crop:8": "cropsnh:bonsaiOak",
-            "ga:1": 1,
-            "gr:1": 1,
-            "re:1": 1,
             "scan:1": 1
           }
         }

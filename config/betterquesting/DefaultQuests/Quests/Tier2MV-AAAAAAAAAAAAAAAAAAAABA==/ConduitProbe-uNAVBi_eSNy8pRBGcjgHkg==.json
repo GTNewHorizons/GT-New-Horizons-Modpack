@@ -2,26 +2,24 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 309
+      "questIDLow:4": 134
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "...when you can teleport? This little device allows you to teleport around almost for free. Is it cheaty? Is it OP? Nope, it\u0027s a celestial gateway!\n\n10 can be set per device, so get creative! ...Unless you want to go to other Dims, which it can\u0027t do. But hey, faster travel around your base!",
-      "globalShare:1": 1,
+      "desc:8": "The Conduit Probe is an incredibly useful tool for managing and troubleshooting your Ender IO conduit networks.\n\nIt features two modes:\n\n• §lProbe Mode§r\nRight-click an Energy Conduit to view detailed network information\nRight-click an Item Conduit to simulate item transport using the item in your hand\nRight-click a Redstone Conduit to see connection details, including signal levels sent and received\n\n• §lCopy/Paste Mode§r\nShift + Right-click a conduit connection to copy its settings\nRight-click another conduit to paste those settings\n\nThis is especially useful when configuring multiple machines with identical setups and helps prevent mistakes.\n\nYou can switch between modes by: Using Shift + Mouse Wheel, or pressing the §nYeta Wrench Mode§r keybind (unbound by default) while holding the probe.",
+      "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "ThaumicTinkerer:warpGate"
+        "id:8": "EnderIO:itemConduitProbe"
       },
-      "isGlobal:1": 0,
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Why Walk...",
-      "partySingleReward:1": 0,
+      "name:8": "§6§lConduit Probe",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -29,11 +27,11 @@
       "snd_complete:8": "random.levelup",
       "snd_update:8": "random.levelup",
       "taskLogic:8": "AND",
-      "visibility:8": "NORMAL"
+      "visibility:8": "CHAIN"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 331,
+  "questIDHigh:4": -5129576859257911076,
+  "questIDLow:4": -4853455128671811694,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -42,7 +40,7 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 12,
+          "Damage:2": 5,
           "OreDict:8": "",
           "id:8": "enhancedlootbags:lootbag"
         }
@@ -54,10 +52,10 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 5,
+          "Count:3": 25,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinDarkWizardII"
+          "id:8": "dreamcraft:CoinTechnician"
         }
       }
     }
@@ -72,16 +70,10 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 2,
+          "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "ThaumicTinkerer:warpGate"
-        },
-        "1:10": {
-          "Count:3": 2,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "ThaumicTinkerer:skyPearl"
+          "id:8": "EnderIO:itemConduitProbe"
         }
       },
       "taskID:8": "bq_standard:retrieval"

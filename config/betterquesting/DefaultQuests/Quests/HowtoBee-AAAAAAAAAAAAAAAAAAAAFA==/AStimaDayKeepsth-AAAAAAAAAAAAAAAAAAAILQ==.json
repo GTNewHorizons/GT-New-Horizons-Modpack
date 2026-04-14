@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Supporting circuit boards that can hold 4 electron tubes, the Electrical Stimulator provides a variety of functions. All numbers are in percent:\n\nIron ET - Production: 150 (Max 500)\nDiamantine ET - Production: 250 (Max 1000)\nApatine ET - Pollination: 150 (Max 500)\nObsidian ET - Lifespan: 80 (Min 20)\nLapis ET - Lifespan: 150 (Max 500)\nBlazing ET - Simulates hellish temperature\nGolden ET - Mutation rate: 150 (Max 500)\nTin ET - Territory: 40 (Min 10) Prod: 90 (Min 50)\nBronze ET - Territory: 150 (Max 500)\n\nGenetic Decay is also increased by 50% for all of them. This affects how long until ignoble bees die off, so don\u0027t worry about it if your bees are pristine.",
+      "desc:8": "Supporting circuit boards that can hold 4 electron tubes, the Electrical Stimulator provides a variety of functions. All numbers are in percent:\n\nIron ET -\u003e +0.5 Production\nDiamantine ET -\u003e +1.5 Production\nApatine ET -\u003e 1.5x Pollination (Max 5x)\nObsidian ET -\u003e 0.8x Lifespan\nLapis ET -\u003e 1.5x Lifespan (Max 5x)\nBlazing ET -\u003e Simulates Hellish temperature\nGolden ET -\u003e 1.5x Mutation Rate (Max 5x)\nTin ET -\u003e 0.4x Territory (Min 0.1) \u0026 -0.1 Production\nBronze ET -\u003e 1,5x Territory (Max 5x)\n\nGenetic Decay is also increased by 50% for all of them. This affects how long until ignoble bees die off, so don\u0027t worry about it if your bees are pristine.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
