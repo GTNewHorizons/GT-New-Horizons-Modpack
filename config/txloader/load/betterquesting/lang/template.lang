@@ -2169,7 +2169,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADpA.desc=The HV miner is faster, has lon
 
 # Quest: Performing Chemical Experiments at HV Level
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADrw.name=§5§lPerforming Chemical Experiments at HV Level
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADrw.desc=There are a number of chemical recipes that are unlocked with an §5HV Chemical Reactor§r; you will finally be able to make Ender Eyes, Ammonia, Gelled Toluene, and plenty of other useful components. %n%nAlternatively, if you're up for it, you can head over to the Mass Processing tab and build yourself a §5Large Chemical Reactor§r (LCR) instead! In addition to having a more efficient overclock, the LCR can input multiple liquids so you won't need to mess with those pesky cells any longer. %n%n[note]If you choose to go the LCR route, be sure to take a look at the PTFE questline just ahead of this one, starting with "Teflon Don". %n%n§7You can also make 128 Silicon Rubber / 128 PTFE Sheets to complete the entire questline for them by triggering the hidden quest.%n[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADrw.desc=There are a number of chemical recipes that are unlocked with an §5HV Chemical Reactor§r; you will finally be able to make Ender Eyes, Ammonia, Gelled Toluene, and plenty of other useful components. %n%nAlternatively, if you're up for it, you can head over to the Mass Processing tab and build yourself a §5Large Chemical Reactor§r (LCR) instead! In addition to having a more efficient overclock, the LCR can input multiple liquids so you won't need to mess with those pesky cells any longer. %n%n[note]If you choose to go the LCR route, be sure to take a look at the PTFE questline just ahead of this one, starting with "Teflon Don".[/note]
 
 # Quest: You're Gonna Hate This 5 and 6 in HV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE0A.name=§5§lYou're Gonna Hate This 5 and 6 in HV
@@ -2422,6 +2422,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALoQ.desc=Then heat up the slurry you mad
 # Quest: Getting the most out of your Bauxite.
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALog.name=§5§lGetting the most out of your Bauxite.
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALog.desc=If processed correctly you can get a lot more Gallium out of your Bauxite compared to just using the Thermal Centrifuge. You will also get large amounts of Rutile and Alumina.%n%nFirst, make some Bauxite Slurry.
+
+# Quest: Ender Fluid Conduits
+betterquesting.quest.Tccv2-B9QaS_8tS8kteSSg.name=Ender Fluid Conduits
+betterquesting.quest.Tccv2-B9QaS_8tS8kteSSg.desc=Ender Fluid Conduits are an advanced fluid transport system available at HV tier. They are useful in many scenarios, such as filtering specific fluids and even routing by color channels.%n%nTheir main advantage is the ability to create a unified fluid network, which makes complex setups much easier to manage. As you use them, you’ll quickly see how convenient they are at this stage of the game.%n%n[note]However, be careful: large conduit networks with too many nodes can cause TPS lag. Use them wisely, avoid overbuilding, and consider switching to AE2-based fluid handling for large-scale systems.[/note]
 
 # Quest: Keeping your energy hatch from overheating
 betterquesting.quest.pXRqb1HyQYSjtHp9dt1xZg.name=§5§lKeeping your energy hatch from overheating
