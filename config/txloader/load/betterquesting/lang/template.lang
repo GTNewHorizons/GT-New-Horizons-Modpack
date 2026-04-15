@@ -8291,6 +8291,10 @@ betterquesting.quest.M_HRDMb8Q2GnvpgfgsRnRw.desc=You get the idea, these ones do
 betterquesting.quest.UuBSfl0oRLqUL92DUyXMOw.name=IV 64A Hatches
 betterquesting.quest.UuBSfl0oRLqUL92DUyXMOw.desc=The final multi-amp hatches for IV, 64A!
 
+# Quest: Turbo Charger
+betterquesting.quest.WepJu665QSeCXHhtAKl1wQ.name=Turbo Charger
+betterquesting.quest.WepJu665QSeCXHhtAKl1wQ.desc=This block accepts up to 64 amps and can output up to 16 amps at its tier. Items inside it are charged at a rate of 120 amps using its pre-filled internal buffer. It can also hold up to 4 different items.%n%n[note]The full internal buffer can sustain charging one item at maximum speed for about 10 seconds, or four items for about 2.5 seconds![/note]
+
 # Quest: IV 4A Hatches
 betterquesting.quest.crSDPHDOT1m9OXmI4mUFbQ.name=IV 4A Hatches
 betterquesting.quest.crSDPHDOT1m9OXmI4mUFbQ.desc=Same as the EV Multi-amp hatches, use these to extract and insert many amps from your LSC.
