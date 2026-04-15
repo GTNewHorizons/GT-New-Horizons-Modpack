@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "This block can accept up to 64 amps at its tier, output 16 amps into cables, and charge items inside it at a rate of 120 amps for up to 10 seconds using its pre-filled internal buffer. It can also hold up to 4 different items.\n\n[note]Enjoy your new way to charge anything in just a few seconds! [/note]",
+      "desc:8": "This block accepts up to 64 amps and can output up to 16 amps at its tier. Items inside it are charged at a rate of 120 amps using its pre-filled internal buffer. It can also hold up to 4 different items.\n\n[note]The full internal buffer can sustain charging one item at maximum speed for about 10 seconds, or four items for about 2.5 seconds![/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
