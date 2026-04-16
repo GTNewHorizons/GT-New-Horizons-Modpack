@@ -67,13 +67,13 @@
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinWitchI"
+          "id:8": "dreamcraft:CoinWitchI"
         },
         "1:10": {
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinDarkWizardI"
+          "id:8": "dreamcraft:CoinDarkWizardI"
         }
       }
     }
@@ -88,13 +88,13 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 4,
+          "Count:3": 3,
           "Damage:2": 78,
           "OreDict:8": "",
           "id:8": "witchery:ingredient"
         },
         "1:10": {
-          "Count:3": 4,
+          "Count:3": 3,
           "Damage:2": 8198,
           "OreDict:8": "",
           "id:8": "minecraft:potion"

@@ -2,13 +2,17 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 2097
+      "questIDLow:4": 2099
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2095
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Serums and sequences can be placed in a Polymeriser to increase their strength and amount of DNA held within. Serums need to be polymerised at least once before being used in the inoculator. To polymerise, both Raw DNA and Polymerising Bacteria are required. Raw DNA is obtained from the Genepool, and Polymerising Bacteria is made from incubating bacteria with bone meal. Gold nuggets can be used as a catalyst to speed up the process.",
+      "desc:8": "The Polymeriser is necessary to turn Serum into something you can actually inject into a Larvae. It has a bonus use of strengthening an isolated gene so it can be sequenced faster by a factor of 4x.\n\nThe Polymeriser requires Raw DNA and Polymerising Bacteria. Raw DNA is obtained from the Genepool, and Polymerising Bacteria is made from incubating bacteria with bone meal. Gold nuggets can be used as a catalyst to speed up the process. You can also make more Polymerising Bacteria by feeding it back into an Incubator with Growth Medium.\n\nWhen using the Polymeriser to prepare some Serum for a Larvae, the result will have a number of \"charges.\" In other words, you get multiple uses out of it. This is nice because you are going to need to make a bunch of drones if you are trying to get all those traits to stick. Remember that you cannot use this process to modify a princess or queen directly! If you are satisfied before you use up all the Serum, you can recycle it by passing it through a smelter/furnace of your choice.\n\nIt takes two minutes to polymerise stuff. If you already use a World Accelerator for sequencing, then the Polymeriser would also benefit from cuddling up with that accelerator on another side.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

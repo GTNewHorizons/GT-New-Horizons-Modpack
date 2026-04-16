@@ -1,0 +1,73 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -7413930388109770518,
+      "questIDLow:4": -5040051978056922064
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Once you can actually get your hands on some endstone, these babies will allow for a §olot §o§rof high level passive material production.\n\nSince Enderbloom requires End Stone Lily to be bred deterministically and End Stone Lily requires Enderbloom for its deterministic mutation, you\u0027ll need to use your mastery of the mutation pools to obtain either of them.\n\n[note]Tip #1: If you\u0027re lost and don\u0027t know what to do, remember that you can trigger pool mutation even when breeding 2 crops of the same species together.[/note]\n\n[note]Tip #2: Also remember that crops require all their growth requirements to be met in order to breed, even when breeding via mutation pools.[/note]\n\n[note]Tip #3: This requirement can actually be used to filter the outcome of a pool mutation so that only a subset of them may appear. Though this doesn\u0027t actually reduce number of crops that can be picked from the pools shared by the parents. (and therefore doesn\u0027t directly increase your chance of getting what you want).§r[/note]\n\n[note]Tip #4: If you want to properly increase your chance of getting something through mutation pools, try lowering the number of shared pools between the parents.[/note]",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:end_stone"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "End Stone Lilies",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 1827690448742206242,
+  "questIDLow:4": -8913563967345830799,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 51,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "cropsnh:genericSeed",
+          "tag:10": {
+            "crop:8": "cropsnh:endStoneLily",
+            "scan:1": 1
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -75,20 +75,20 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 16387,
+          "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "Botany:ceramicBrick",
           "tag:10": {
-            "meta:4": 282171
+            "meta:3": 282171
           }
         },
         "1:10": {
           "Count:3": 4,
-          "Damage:2": 16387,
+          "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "Botany:ceramicBrick",
           "tag:10": {
-            "meta:4": 347707
+            "meta:3": 347707
           }
         }
       },

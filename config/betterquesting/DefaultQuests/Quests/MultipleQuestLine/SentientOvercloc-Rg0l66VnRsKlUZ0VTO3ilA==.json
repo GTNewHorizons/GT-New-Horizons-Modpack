@@ -1,0 +1,106 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -3591845481632939088,
+      "questIDLow:4": -5463418681646836872
+    },
+    "1:10": {
+      "questIDHigh:4": -5918599008967570585,
+      "questIDLow:4": -6232511347414889484
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "The §5§lSentient Overclocker§r (SO) module is the sixth module of the §nExo-Foundry§r, and the only one unlocked in §c§lUMV§r.\n\nThe SO module, as you might imagine, increases the overclock factor of the Foundry by §20.35§r. This means that for every overclock provided to this machine, it will give a §235%§r speed boost. \n\nFor example, if your Foundry has 1 overclock it should run at §32x§r base speed. However with this module it would instead run at §22.35x§r base speed (235%). This then compounds if another overclock is added, so instead of running at §32x§r the speed of the first overclock, it will run again at §22.35x§r the speed of the first overclock, bringing it to a total of §25.52x§r speed (552%).\n\nAdditionally, this module can pair with the §5Proto-Volt Stabilizer§r (PVS) module to unlock \"§6Harmonic Efficiency§r\" giving the Foundry a §c50%§r EU discount and an additional §20.1§r overclock factor (2.45x§r instead of 2.35x).\n\n[warn]Only one of these modules may be installed per Foundry.[/warn]",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 5,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.foundrycasings"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "§c§l§nSentient Overclocker",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 5047732451374745282,
+  "questIDLow:4": -6534268869527346540,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.foundrycasings"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 72,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "GoodGenerator:magneticFluxCasing"
+        },
+        "1:10": {
+          "Count:3": 48,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "GoodGenerator:gravityStabilizationCasing"
+        },
+        "2:10": {
+          "Count:3": 40,
+          "Damage:2": 5,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.foundrycasings"
+        },
+        "3:10": {
+          "Count:3": 36,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "GoodGenerator:antimatterContainmentCasing"
+        },
+        "4:10": {
+          "Count:3": 24,
+          "Damage:2": 1,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.foundrycasings"
+        },
+        "5:10": {
+          "Count:3": 16,
+          "Damage:2": 327,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockframes"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

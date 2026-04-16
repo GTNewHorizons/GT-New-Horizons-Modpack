@@ -74,19 +74,13 @@
           "Count:3": 4,
           "Damage:2": 59,
           "OreDict:8": "",
-          "id:8": "Botany:stained",
-          "tag:10": {
-            "meta:3": 59
-          }
+          "id:8": "Botany:stained"
         },
         "1:10": {
           "Count:3": 4,
           "Damage:2": 78,
           "OreDict:8": "",
-          "id:8": "Botany:stained",
-          "tag:10": {
-            "meta:3": 78
-          }
+          "id:8": "Botany:stained"
         }
       },
       "taskID:8": "bq_standard:retrieval"

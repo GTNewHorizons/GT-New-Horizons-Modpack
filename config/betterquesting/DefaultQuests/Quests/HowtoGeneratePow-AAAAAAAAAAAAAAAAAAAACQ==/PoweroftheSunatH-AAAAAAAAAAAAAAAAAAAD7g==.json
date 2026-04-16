@@ -32,7 +32,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§b§lPower of the Sun at HV Level",
+      "name:8": "§9§lPower of the Sun at HV Level",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -81,7 +81,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianII"
+          "id:8": "dreamcraft:CoinTechnicianII"
         }
       }
     }
@@ -158,7 +158,7 @@
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.IrradiantReinforcedTungstenPlate"
+          "id:8": "dreamcraft:IrradiantReinforcedTungstenPlate"
         },
         "6:10": {
           "Count:3": 4,

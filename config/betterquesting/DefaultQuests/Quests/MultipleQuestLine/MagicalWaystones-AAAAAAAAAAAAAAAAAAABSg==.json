@@ -1,8 +1,8 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 331
+      "questIDHigh:4": 4134900649059239447,
+      "questIDLow:4": -8279404553732255962
     },
     "1:10": {
       "questIDHigh:4": 0,
@@ -61,7 +61,7 @@
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinDarkWizardII"
+          "id:8": "dreamcraft:CoinDarkWizardII"
         }
       }
     }

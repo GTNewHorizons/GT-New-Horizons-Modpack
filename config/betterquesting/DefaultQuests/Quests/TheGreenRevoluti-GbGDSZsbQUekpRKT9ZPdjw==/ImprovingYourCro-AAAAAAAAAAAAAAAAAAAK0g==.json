@@ -1,0 +1,56 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -3386790291524794961,
+      "questIDLow:4": -5427043695285873838
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "A key part of CropsNH is improving the stats of your crops. There is always a chance for this to occur whenever a new crop grows - whether by self propagation or crossing...\n\n§lGrowth§r:\n§2Improves growth speed§r\n- Increases the number of progress points per growth tick by up to about 525% with some variation depending on the tier of the crop.\n§4Can cause weeds to spawn§r\n- When growth is above 23 (or 7 for Necrobloom), crops will begin spreading weeds and diseases to nearby crops.\n- You can prevent this by either using Weed-EX or by increasing the resistance stat.\n\n§lGain§r:\n§2Improves harvest size§r\n- Up to 2.5x per harvest at 31 gain.\n- Has a gain/31 chance of increasing the stack size of any drop by 1.\n\n§lResistance§r:\n§2Improves seed harvest chances§r\n- A resistance of 10 will guarantee a seed drop when harvesting a mature crop with a reinforced spade.\n- This scales by rate of resistance/10:\n  - 20: 2 seeds\n  - 25: 2 seeds + 50% chance for a 3rd\n  - 31: 3 seeds + 10% chance for a 4th\n- A resistance of 31 will guarantee a seed drop even without a spade.\n§2Increases weed resistance§r\n- When a crop\u0027s growth is above 23, resistance will prevent weed spreading as long as it\u0027s greater than or equal to the growth stat.\n§2Improves a crop\u0027s resistance to diseases§r\n- Each point reduces a crop\u0027s chance of becoming infected.\n- With 31 resistance, crops are immune to diseases.\n",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:filled_map"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Improving Your Crops",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 2770,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:CoinFarmer"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

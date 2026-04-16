@@ -12,7 +12,7 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 1023,
+        "Damage:2": 15532,
         "OreDict:8": "",
         "id:8": "gregtech:gt.blockmachines"
       },
@@ -71,7 +71,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianIII"
+          "id:8": "dreamcraft:CoinTechnicianIII"
         }
       }
     }
@@ -86,25 +86,13 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 3,
-          "Damage:2": 15,
+          "Count:3": 1,
+          "Damage:2": 15532,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings3"
-        },
-        "1:10": {
-          "Count:3": 3,
-          "Damage:2": 15,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings2"
-        },
-        "2:10": {
-          "Count:3": 32,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings4"
+          "id:8": "gregtech:gt.blockmachines"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
       "autoConsume:1": 0,
@@ -115,13 +103,31 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
+          "Count:3": 33,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings4"
+        },
+        "1:10": {
+          "Count:3": 11,
+          "Damage:2": 15,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings3"
+        },
+        "2:10": {
+          "Count:3": 2,
+          "Damage:2": 15,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings2"
+        },
+        "3:10": {
           "Count:3": 1,
-          "Damage:2": 1023,
+          "Damage:2": 91,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

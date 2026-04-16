@@ -41,7 +41,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.HeavyDutyPlateTier6"
+          "id:8": "dreamcraft:HeavyDutyPlateTier6"
         },
         "1:10": {
           "Count:3": 4,
@@ -69,13 +69,13 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinSpaceIV"
+          "id:8": "dreamcraft:CoinSpaceIV"
         },
         "1:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianIV"
+          "id:8": "dreamcraft:CoinTechnicianIV"
         }
       }
     }

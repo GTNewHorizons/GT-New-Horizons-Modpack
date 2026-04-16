@@ -69,7 +69,7 @@
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinBloodII"
+          "id:8": "dreamcraft:CoinBloodII"
         }
       }
     }
@@ -87,7 +87,8 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "AWWayofTime:archmageBloodOrb"
+          "id:8": "AWWayofTime:archmageBloodOrb",
+          "tag:10": {}
         }
       },
       "taskID:8": "bq_standard:retrieval"

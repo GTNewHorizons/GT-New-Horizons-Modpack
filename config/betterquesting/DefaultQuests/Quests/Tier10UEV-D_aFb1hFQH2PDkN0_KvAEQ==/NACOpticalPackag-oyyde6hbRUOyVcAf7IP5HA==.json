@@ -1,0 +1,75 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 8348724939136321554,
+      "questIDLow:4": -6966981174478510993
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "You may have noticed that Optical Circuits the way you\u0027re used to in the CAL and Assembly Line are far more expensive than any other circuit line. The NAC™ has just the solution for you!\n\nWe are offering the new §5§nOptical Package§r, allowing for much more efficient production of your optical circuits! See the attached owner\u0027s manual for installation instructions.\n\n§oAn external review has been conducted and has found the company §nnot responsible§r§o for changes to other methods of producing optical circuits. The benefits of a NAC™ for optical circuits are merely coincidental.§r§r\n\n§l§nOptically Optimized Organizer Owner\u0027s Manual§r\n\nThe Optically Optimized Organizer requires two different grades of purified water to function. However, these are not just an extra running cost! Each grade of water 3 and above provides a bonus to the module\u0027s running stats:\n- Grade 3 (1000L/s): 0.8x Water Cost (applies to both)\n- Grade 4 (800L/s): 0.6x Water Cost (applies to both)\n- Grade 5 (800L/s): 0.9x Recipe Duration Modifier\n- Grade 6 (600L/s): 0.7x Recipe Duration Modifier\n- Grade 7 (600L/s): 0.9x Recipe EU Cost\n- Grade 8 (400L/s): 0.7x Recipe EU Cost\n\nWater is only consumed while the module is running. Similar water bonuses (such as Grade 5 + Grade 6) can be applied together.\n\nThe NAC™ will track the most recent 100,000 circuits crafted, and can be calibrated to a specific circuit type by reaching a certain percentage of circuits of this type. At 60% (60,000) optical circuits crafted, the NAC™ will become \"fully calibrated\" to optical circuits.\n\nOnce that has been met, the bonuses from each chosen water type are applied twice.\n\n",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 9512,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "§5§l§nNAC§r§5§n™§r§5§n§l: Optical Package",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -6688798192120937149,
+  "questIDLow:4": -5596355718593382116,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2030,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01",
+          "tag:10": {
+            "RepairCost:3": 2,
+            "display:10": {
+              "Name:8": "Chrom Dust"
+            }
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 9512,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Annoyed by building chains of transformers? Don\u0027t want an Explosion Risk at your base? Want to use these fancy 64A Hatches and Dynamos from TecTech to convert your power? Make a Manual Dynamo and convert it all!\n\n[note]Also needs a muffler, energy hatch, and dynamo. Not guaranteed to work, wishing you all the best though.[/note]",
+      "desc:8": "Annoyed by building chains of transformers? Don\u0027t want an Explosion Risk at your base? Want to use these fancy 64A Hatches and Dynamos from TecTech to convert your power? Make a Manual Dynamo and convert it all!\n\nHatches placed must be touching a Transformer-Winding block, with dynamo hatches being on the top and energy hatches being on the bottom. The height of the Transformer-Winding blocks can be optionally extended up to 8 blocks.\n\n[note]Also needs a muffler, energy hatch, and dynamo. Not guaranteed to work, wishing you all the best though.[/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -44,7 +44,7 @@
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianII"
+          "id:8": "dreamcraft:CoinTechnicianII"
         },
         "1:10": {
           "Count:3": 2,

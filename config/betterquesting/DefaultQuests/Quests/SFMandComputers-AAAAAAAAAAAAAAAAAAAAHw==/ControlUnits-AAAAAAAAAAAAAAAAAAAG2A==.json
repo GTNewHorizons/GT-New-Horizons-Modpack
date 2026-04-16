@@ -9,7 +9,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "So controlling! Strangely enough, this part takes an HV circuit to craft; so here\u0027s some to make your first computer parts in exchange for MV circuits in their place. Don\u0027t spend them all in one place!",
+      "desc:8": "Control Units are used for a variety of crafts, but most namely CPUs and GPUs. You will be needing quite a few of these, let\u0027s just make 16 for now.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -38,19 +38,6 @@
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
-      "index:3": 0,
-      "rewardID:8": "bq_standard:item",
-      "rewards:9": {
-        "0:10": {
-          "Count:3": 16,
-          "Damage:2": 28,
-          "OreDict:8": "",
-          "id:8": "OpenComputers:item"
-        }
-      }
-    },
-    "1:10": {
-      "ignoreDisabled:1": 0,
       "index:3": 1,
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
@@ -72,7 +59,7 @@
   "tasks:9": {
     "0:10": {
       "autoConsume:1": 0,
-      "consume:1": 1,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
@@ -89,6 +76,23 @@
           "Damage:2": 32702,
           "OreDict:8": "circuitGood",
           "id:8": "gregtech:gt.metaitem.01"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 28,
+          "OreDict:8": "",
+          "id:8": "OpenComputers:item"
         }
       },
       "taskID:8": "bq_standard:retrieval"

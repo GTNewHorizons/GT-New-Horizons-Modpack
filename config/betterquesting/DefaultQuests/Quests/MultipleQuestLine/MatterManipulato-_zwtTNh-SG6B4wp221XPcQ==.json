@@ -2,12 +2,16 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 2610
+      "questIDLow:4": 2658,
+      "type:1": 2
     },
     "1:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 2622,
-      "type:1": 1
+      "questIDLow:4": 2669
+    },
+    "2:10": {
+      "questIDHigh:4": -4235320931467572647,
+      "questIDLow:4": -7957341863368182993
     }
   },
   "properties:10": {
@@ -84,7 +88,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianIV"
+          "id:8": "dreamcraft:CoinTechnicianIV"
         }
       }
     }

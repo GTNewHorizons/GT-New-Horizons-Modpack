@@ -1,14 +1,14 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 1002
+      "questIDHigh:4": -6856924970976656947,
+      "questIDLow:4": -5921518077477245102
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "One Essentia you might have a hard time gathering is Auram. Maybe you\u0027ve gotten some from Ethereal Essence, which is dropped by the flying balls of light that rarely show up in the Nether, or some from Nodes. But that is hardly a good supply. The Aurelia plant can resolve this.\n\nWhen a full moon is visible overhead, Aurelia flowers will open up their petals presumably to feed off of the light. Significant for you is that they will occasionally shed these petals, which can be collected off the ground as a dense source of Auram Essentia.\n\nYou should make sure the ground near the flower is level and clear, so you\u0027ll be able to collect the petals later. The flower itself is simply planted on grass, not farmland, so no need to have a water source nearby either.\n\n[note]Terra Wart is also a growable source of Auram Essentia. It has a quest in the Fishing, Farming, Cooking quest tab.[/note]",
+      "desc:8": "One Essentia you might have a hard time gathering is Auram. Maybe you\u0027ve gotten some from Ethereal Essence, which is dropped by the flying balls of light that rarely show up in the Nether, or some from Nodes. But that is hardly a good supply. The Aurelia plant can resolve this.\n\nWhen a full moon is visible overhead, Aurelia flowers will open up their petals presumably to feed off of the light. Significant for you is that they will occasionally shed these petals, which can be collected off the ground as a dense source of Auram Essentia.\n\nYou should make sure the ground near the flower is level and clear, so you\u0027ll be able to collect the petals later. The flower itself is simply planted on grass, not farmland, so no need to have a water source nearby either.\n\n[note]Gaia Wart is also a growable source of Auram Essentia. It has a quest in the Green Revolution quest tab.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,

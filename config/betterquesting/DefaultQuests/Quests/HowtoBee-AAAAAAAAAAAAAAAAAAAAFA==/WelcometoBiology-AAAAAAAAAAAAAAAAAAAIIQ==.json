@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Binnie\u0027s Genetics mod will allow you to pick and chose traits for bees, trees and Botany flowers. But not for free! Doing this comes at a price.\n\nIt\u0027s better to provide power to an Ender IO capacitor and then power these machines with RF, instead of powering directly with GT EU, because they don\u0027t work well with GT\u0027s EU amp system.",
+      "desc:8": "Binnie\u0027s Genetics mod will allow you to pick and chose traits for bees, trees and Botany flowers. But not for free! Doing this comes at a price.\n\n[note]Note: We\u0027ll be focusing just on the bees in this section.[/note]\n\nYou will need a few streams of resources you can automate into passive generation. These are used across the process in different machines for different purposes, but Growth Medium is a super-resource you can substitute for some of the steps if you\u0027re able to produce that in abundance.\n\nThe research process can be easily automated. Gene modification and drone generation can be automated, but are slow and infrequent enough that you will probably just attend to them when you need them.\n\nThe general idea is to sequence a pile of leftover drones until you get all the traits you want from it. You\u0027ll then have those traits forever and can inject your own combinations of everything you\u0027ve found into drone Larvae to make new drones that carry those traits. Larvae hatch only into drones. You don\u0027t get to directly hatch princesses and queens, so you have to worry about these new traits sticking across generations.\n\nThese genetic edits don\u0027t let you create new traits out of thin air. They just let you pick and choose what you have already researched, and that has to come out of bees you already have. You may use this to set up all your production bees through the rest of the game, but traits like 4x fertility also help with breeding.\n\nYou\u0027ll want to prepare a lab workspace for this. The actual machines won\u0027t take too much space. In fact, you\u0027ll probably wind up smacking a bunch of them against world accelerators, which will require direct contact due to using Tile Entity mode. What will end up taking up more space is any passive resource generation you prepare to make the process more hands-free.\n\nYou will need an alveary with a hatchery to produce Larvae of the base bee you want to modify.\n\nThese machines require RF power. It\u0027s recommended to provide power to an Ender IO capacitor and power these machines with RF instead of powering directly with GT EU. You can connect GT EU power up to these, but you run into strange consumption from amperage conversion glitches, or machines not getting power despite looking like they have proper cabling.\n\nUltimately, you\u0027ll need at least 7 of these casings and could end up making 14+ casings for all the machines you may opt to produce. You will also need HV-tier circuit production. There is §oone§o§r EV circuit involved in the complete process too.\n\n[note]We give special credit to Three for a video explaining all these machines and their interplay:\n\n§oAn Early Game Guide to Genetically Modify your Bees in Gregtech: New Horizons§r\n[url]https://www.youtube.com/watch?v\u003dEmhDlga2SCA[/url]\n\nNote that he will rant about the quest book. That was--ahem--an older version of the quest book.\n[/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -45,6 +45,12 @@
           "Damage:2": 5,
           "OreDict:8": "",
           "id:8": "enhancedlootbags:lootbag"
+        },
+        "1:10": {
+          "Count:3": 8,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "EnderIO:itemPowerConduit"
         }
       }
     }

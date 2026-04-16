@@ -67,7 +67,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinChemistII"
+          "id:8": "dreamcraft:CoinChemistII"
         }
       }
     }
@@ -108,7 +108,7 @@
           "Count:3": 32,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.ChargedCertusQuartzDust"
+          "id:8": "dreamcraft:ChargedCertusQuartzDust"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

@@ -18,7 +18,7 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "dreamcraft:item.EngineeringProcessorFluidEmeraldCore"
+        "id:8": "dreamcraft:EngineeringProcessorFluidEmeraldCore"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
@@ -46,7 +46,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.EmeraldAdvancedFluidCoreChip"
+          "id:8": "dreamcraft:EmeraldAdvancedFluidCoreChip"
         }
       }
     },
@@ -59,7 +59,7 @@
           "Count:3": 4,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianII"
+          "id:8": "dreamcraft:CoinTechnicianII"
         }
       }
     }
@@ -77,7 +77,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.EngineeringProcessorFluidEmeraldCore"
+          "id:8": "dreamcraft:EngineeringProcessorFluidEmeraldCore"
         }
       },
       "taskID:8": "bq_standard:retrieval"

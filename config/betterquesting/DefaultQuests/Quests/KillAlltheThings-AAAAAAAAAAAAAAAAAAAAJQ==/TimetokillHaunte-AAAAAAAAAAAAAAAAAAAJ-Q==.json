@@ -57,25 +57,25 @@
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinDarkWizardI"
+          "id:8": "dreamcraft:CoinDarkWizardI"
         },
         "1:10": {
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinSurvivorI"
+          "id:8": "dreamcraft:CoinSurvivorI"
         },
         "2:10": {
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinAdventureI"
+          "id:8": "dreamcraft:CoinAdventureI"
         },
         "3:10": {
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianI"
+          "id:8": "dreamcraft:CoinTechnicianI"
         }
       }
     },
@@ -85,37 +85,37 @@
           "Count:3": 3,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.RuneOfPowerFragment"
+          "id:8": "dreamcraft:RuneOfPowerFragment"
         },
         "1:10": {
           "Count:3": 3,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.RuneOfAgilityFragment"
+          "id:8": "dreamcraft:RuneOfAgilityFragment"
         },
         "2:10": {
           "Count:3": 3,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.RuneOfVigorFragment"
+          "id:8": "dreamcraft:RuneOfVigorFragment"
         },
         "3:10": {
           "Count:3": 3,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.RuneOfDefenseFragment"
+          "id:8": "dreamcraft:RuneOfDefenseFragment"
         },
         "4:10": {
           "Count:3": 3,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.RuneOfMagicFragment"
+          "id:8": "dreamcraft:RuneOfMagicFragment"
         },
         "5:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.RuneOfVoidFragment"
+          "id:8": "dreamcraft:RuneOfVoidFragment"
         }
       },
       "ignoreDisabled:1": 0,

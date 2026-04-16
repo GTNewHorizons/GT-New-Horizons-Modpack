@@ -76,7 +76,7 @@
           "Count:3": 10,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnician"
+          "id:8": "dreamcraft:CoinTechnician"
         }
       }
     }
@@ -112,7 +112,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.MoldFormPlate"
+          "id:8": "dreamcraft:MoldFormPlate"
         }
       },
       "taskID:8": "bq_standard:crafting"

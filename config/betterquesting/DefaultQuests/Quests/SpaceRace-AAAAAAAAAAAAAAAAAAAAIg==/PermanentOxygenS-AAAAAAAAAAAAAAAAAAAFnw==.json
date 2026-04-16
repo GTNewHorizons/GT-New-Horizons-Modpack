@@ -14,14 +14,9 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "thaumcraftneiplugin:Aspect",
+        "id:8": "aspectrecipeindex:aspect",
         "tag:10": {
-          "Aspects:9": {
-            "0:10": {
-              "amount:4": 2,
-              "key:8": "aer"
-            }
-          }
+          "Aspect:8": "aer"
         }
       },
       "isGlobal:1": 0,
@@ -71,13 +66,13 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinSpaceII"
+          "id:8": "dreamcraft:CoinSpaceII"
         },
         "1:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinSurvivorII"
+          "id:8": "dreamcraft:CoinSurvivorII"
         }
       }
     }

@@ -1,0 +1,43 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 4300463009256719073,
+      "questIDLow:4": -7881005862838025770,
+      "type:1": 2
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "The speed at which a crop grows is based on its Nutrient Score. There are a number of different ways to obtain Nutrient Points for your crops, but to keep your crops from getting sick try to make sure they are always receiving at least a couple of the below bonuses:\n\n§l- +10 Points§r can be gained from having water in your crop sticks (scales 1-10 based on hydration level).\n§l- +10 Points§r can be gained from having fertilizer in your crop sticks (scales 1-10 based on fertilizer level).\n§l- +2 Points§r can be gained from allowing the crop to see the sky.\n       - Crops in the Industrial Farm will always have this bonus.\n§l- +28 Points§r can be gained from preferred biome tags\n       - [warn]If no preferred tags are found[/warn], high humidity will §rgive up to §l+14 Points.§r \n       - See more on this in the Environmental Preferences quest.\n\nAll crops have a base Nutrient Score of 5.\n\nYou can check the Nutrient Score of a crop by using a Portable Scanner on any crop sticks or Industrial Farm controller, even if it\u0027s empty.\n\nCrop tier determines the Nutrient Score requirements for growth. \nThe following cutoffs apply:\n\r\n§lTier 4 §r- Last tier where crops can be planted anywhere\r\n\r\n§lTier 5 §r- Last tier where crops can be planted anywhere as long as they can see the sky\r\n\r\n§lTier 11 §r- Last tier where crop can be anywhere as long as crops are in an 80%+ humidity biome\r\n\r\n§lTier 12 §r- Last tier where crops can be anywhere as long as crops are in a 80%+ humidity biome and can see the sky\r\n",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "BiblioCraft:item.RecipeBook"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Crop Nutrients",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 5166773563487241339,
+  "questIDLow:4": -5649529308977957755,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

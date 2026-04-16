@@ -88,10 +88,7 @@
           "Count:3": 3,
           "Damage:2": 15163,
           "OreDict:8": "",
-          "id:8": "Botany:ceramicBrick",
-          "tag:10": {
-            "meta:3": 15163
-          }
+          "id:8": "Botany:ceramicBrick"
         }
       },
       "taskID:8": "bq_standard:retrieval"

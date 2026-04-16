@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Kobold spawners can be found in Hollow Hills. It will spawn almost anywhere that is dark within the Twilight Forest dimension and tends to spawn in large groups.",
+      "desc:8": "Kobolds can often be found in Hollow Hills. They will spawn almost anywhere that is dark within the Twilight Forest dimension and tend to spawn in large groups.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -57,25 +57,25 @@
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinDarkWizardI"
+          "id:8": "dreamcraft:CoinDarkWizardI"
         },
         "1:10": {
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinSurvivorI"
+          "id:8": "dreamcraft:CoinSurvivorI"
         },
         "2:10": {
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinAdventureI"
+          "id:8": "dreamcraft:CoinAdventureI"
         },
         "3:10": {
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianI"
+          "id:8": "dreamcraft:CoinTechnicianI"
         }
       }
     }

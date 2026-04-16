@@ -112,7 +112,7 @@
 					"fromCurrency:9": [
 						{
 							"type:8": "adventure",
-							"value:3": 65
+							"value:3": 64
 						}
 					],
 					"fromItems:9": [
@@ -1712,7 +1712,7 @@
 							"Count:3": 1,
 							"Damage:3": 0,
 							"OreDict:8": "",
-							"id:8": "dreamcraft:item.LichBone"
+							"id:8": "dreamcraft:LichBone"
 						}
 					],
 					"toItems:9": [
@@ -1786,7 +1786,7 @@
 							"Count:3": 128,
 							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "IC2:itemFertilizer"
+							"id:8": "cropsnh:fertilizer"
 						}
 					]
 				}
@@ -7365,7 +7365,7 @@
 							"Count:3": 64,
 							"Damage:2": 0,
 							"OreDict:8": "",
-							"id:8": "IC2:blockCrop"
+							"id:8": "cropsnh:cropSticks"
 						}
 					]
 				}
@@ -7891,7 +7891,7 @@
 					"name:8": "betterquesting",
 					"quest:10": {
 						"questIDHigh:4": 0,
-						"questIDLow:4": 34
+						"questIDLow:4": 1866
 					}
 				}
 			],

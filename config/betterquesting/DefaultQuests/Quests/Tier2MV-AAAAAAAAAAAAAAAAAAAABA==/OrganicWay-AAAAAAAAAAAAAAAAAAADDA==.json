@@ -14,7 +14,7 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "dreamcraft:item.BioCarbonPlate"
+        "id:8": "dreamcraft:BioCarbonPlate"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -69,13 +69,13 @@
           "Count:3": 25,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinChemist"
+          "id:8": "dreamcraft:CoinChemist"
         },
         "1:10": {
           "Count:3": 25,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinFarmer"
+          "id:8": "dreamcraft:CoinFarmer"
         }
       }
     }
@@ -93,7 +93,7 @@
           "Count:3": 24,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.BioCarbonPlate"
+          "id:8": "dreamcraft:BioCarbonPlate"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

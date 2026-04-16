@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Maybe you noticed already that eating the same food too often is very boring and not healthy anymore. Some food like tea leaf can be taken to the furnace and processed further. So take a break and drink a cup of tea. Maybe munch some tasty raisins as they are very nice.",
+      "desc:8": "Maybe you noticed already that eating the same food too often is very boring and not as healthy. Some food like Grapes can be cooked into other unique foods. You can also smelt Fresh Water into Boiling Water and combine that with a Tea Leaf for a delicious cup of tea.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -63,13 +63,13 @@
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinCook"
+          "id:8": "dreamcraft:CoinCook"
         },
         "1:10": {
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinFarmer"
+          "id:8": "dreamcraft:CoinFarmer"
         }
       }
     }

@@ -1,8 +1,8 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 4752431251364726399,
-      "questIDLow:4": -6124867409590611841
+      "questIDHigh:4": -8448640167904523586,
+      "questIDLow:4": -5243481096921136607
     }
   },
   "properties:10": {
@@ -19,7 +19,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Collision Course",
+      "name:8": "§6§lCollision Course",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

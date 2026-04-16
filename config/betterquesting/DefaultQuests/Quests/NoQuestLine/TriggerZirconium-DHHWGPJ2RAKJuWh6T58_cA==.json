@@ -73,8 +73,8 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 11007,
-          "OreDict:8": "ingotZirconium",
+          "Damage:2": 3,
+          "OreDict:8": "",
           "id:8": "bartworks:gt.bwMetaGeneratedingot"
         }
       },

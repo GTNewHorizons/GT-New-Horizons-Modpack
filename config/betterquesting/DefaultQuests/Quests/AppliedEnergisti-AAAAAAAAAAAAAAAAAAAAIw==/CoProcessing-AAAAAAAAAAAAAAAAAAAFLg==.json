@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Component of the crafting CPU which provides additional item delivery from the CPU to the ME Interface for crafting.\n\nThis can be used to make more assemblers active in parallel for the job, and thus increase overall crafting speed. These only help if your setup has steps properly separated, so the system can run multiple tasks in parallel, or even split the same pattern across multiple interfaces.",
+      "desc:8": "Component of the crafting CPU which provides additional item delivery from the CPU to the ME Interface for crafting.\n\nThis can be used to make more machines active in parallel for the job, and thus increase overall crafting speed. \n\nEvery Co-Processor adds one AE2 operation per tick. AE2 uses operations to push items to interfaces, this speeds up the rate at which it can push into your machines. As a side benefit, AE2 will split a task between multiple interfaces with the same pattern (or simulated pattern like with P2P Interface). This means if you have two interfaces with the same pattern for the same item AE2 with no co-processors will only push to one of those interfaces until it is full (so, if the craft is small it may not split it at all) whereas with a co-processor it will round robin between the two by splitting its operations per tick.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -69,7 +69,7 @@
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianII"
+          "id:8": "dreamcraft:CoinTechnicianII"
         }
       }
     }
