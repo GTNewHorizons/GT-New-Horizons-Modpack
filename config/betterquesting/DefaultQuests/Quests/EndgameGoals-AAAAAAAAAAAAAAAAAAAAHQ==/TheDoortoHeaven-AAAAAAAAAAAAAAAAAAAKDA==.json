@@ -18,7 +18,7 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "dreamcraft:item.StargateShieldingFoil"
+        "id:8": "dreamcraft:StargateShieldingFoil"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
@@ -50,7 +50,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.StargateShieldingFoil"
+          "id:8": "dreamcraft:StargateShieldingFoil"
         }
       },
       "taskID:8": "bq_standard:retrieval"

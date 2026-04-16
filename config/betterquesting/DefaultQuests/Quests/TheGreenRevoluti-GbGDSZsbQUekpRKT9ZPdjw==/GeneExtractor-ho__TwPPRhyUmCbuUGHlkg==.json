@@ -1,0 +1,99 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 176
+    },
+    "1:10": {
+      "questIDHigh:4": -3386790291524794961,
+      "questIDLow:4": -5427043695285873838,
+      "type:1": 2
+    },
+    "2:10": {
+      "questIDHigh:4": 5325923841969573848,
+      "questIDLow:4": -6640373965889455709
+    },
+    "3:10": {
+      "questIDHigh:4": -1056733930300291586,
+      "questIDLow:4": -7925499133285634726
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "The Crop Gene Extractor and Crop Synthesizers can be made in §5EV§r and allows you to create new seeds using UU-Matter and a few Data Orbs.\n\n§lCrop Gene Extractor§r\nThe §nCrop Gene Extractor§r is used to extract \"Genes\" from a crop. You can control which gene is extracted from a crop by using a programmed circuit:\n1. Species\n2. Growth\n3. Gain\n4. Resistance\n\nExtracting will usually have a base recipe time of 150 seconds (with the exception of the species gene, taking 300 seconds at base)\n\n§lCrop Synthesizer§r§r\nThe §nCrop Synthesizer§r is used to create new seeds from the extracted genes at the cost of some UU-Matter.\n\nThe UU-Matter cost will depend on the stats and tier of the seed being synthesized.\n- 750L per crop tier.\n- 100L per stat point on the seed.\n\n[note]Using the Crop Synthesizer is the only way to obtain and replicate maxed out Primordial Berry seeds.[/note]",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 28046,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Gene Extractor",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "OR",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -8750494836126169572,
+  "questIDLow:4": -7739393154643532398,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 3,
+          "Damage:2": 32704,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 28046,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 28037,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

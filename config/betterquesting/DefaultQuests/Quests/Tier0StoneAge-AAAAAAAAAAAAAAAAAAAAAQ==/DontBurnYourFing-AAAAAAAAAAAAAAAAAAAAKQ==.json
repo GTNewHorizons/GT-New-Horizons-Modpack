@@ -14,7 +14,7 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "dreamcraft:item.OvenGlove",
+        "id:8": "dreamcraft:OvenGlove",
         "tag:10": {
           "Durability:4": 1000
         }
@@ -60,7 +60,7 @@
           "Count:3": 10,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnician"
+          "id:8": "dreamcraft:CoinTechnician"
         }
       }
     }
@@ -108,7 +108,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.OvenGlove",
+          "id:8": "dreamcraft:OvenGlove",
           "tag:10": {
             "Durability:3": 1000
           }
@@ -117,7 +117,7 @@
           "Count:3": 1,
           "Damage:2": 1,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.OvenGlove",
+          "id:8": "dreamcraft:OvenGlove",
           "tag:10": {
             "Durability:3": 1000
           }

@@ -19,7 +19,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Large Naquadah Reactor",
+      "name:8": "§b§lLarge Naquadah Reactor",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -32,21 +32,7 @@
   },
   "questIDHigh:4": 0,
   "questIDLow:4": 2948,
-  "rewards:9": {
-    "0:10": {
-      "ignoreDisabled:1": 0,
-      "index:3": 0,
-      "rewardID:8": "bq_standard:item",
-      "rewards:9": {
-        "0:10": {
-          "Count:3": 2,
-          "Damage:2": 10041,
-          "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGeneratedcell"
-        }
-      }
-    }
-  },
+  "rewards:9": {},
   "tasks:9": {
     "0:10": {
       "autoConsume:1": 0,

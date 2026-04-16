@@ -17,7 +17,7 @@
         "id:8": "gregtech:gt.blockmachines"
       },
       "isGlobal:1": 0,
-      "isMain:1": 0,
+      "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§2§lBrewing, the Industrial Way",
@@ -44,7 +44,7 @@
           "Count:3": 15,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnician"
+          "id:8": "dreamcraft:CoinTechnician"
         },
         "1:10": {
           "Count:3": 1,

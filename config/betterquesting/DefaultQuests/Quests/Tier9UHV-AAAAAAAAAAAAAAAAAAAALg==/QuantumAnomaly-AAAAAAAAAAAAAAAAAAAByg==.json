@@ -5,14 +5,14 @@
       "questIDLow:4": 2616
     },
     "1:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 2761
+      "questIDHigh:4": -4235320931467572647,
+      "questIDLow:4": -7957341863368182993
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "All your theoretical knowledge tells you this can\u0027t possibly exist. But there it is.\n\nMaybe you can find some use for it?",
+      "desc:8": "All your theoretical knowledge tells you this can\u0027t possibly exist. But there it is. Maybe you can find some use for it?\n\n[warn]You will need a Beam Crafter for this if you haven\u0027t made one yet.[/warn]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

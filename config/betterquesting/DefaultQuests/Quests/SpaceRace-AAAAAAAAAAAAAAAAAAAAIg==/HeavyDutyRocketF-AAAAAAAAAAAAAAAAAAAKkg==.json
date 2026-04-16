@@ -14,7 +14,7 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "dreamcraft:item.HeavyDutyRocketFinsTier4"
+        "id:8": "dreamcraft:HeavyDutyRocketFinsTier4"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
@@ -41,19 +41,19 @@
           "Count:3": 8,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.HeavyDutyPlateTier4"
+          "id:8": "dreamcraft:HeavyDutyPlateTier4"
         },
         "1:10": {
           "Count:3": 4,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.HeavyDutyPlateTier5"
+          "id:8": "dreamcraft:HeavyDutyPlateTier5"
         },
         "2:10": {
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.HeavyDutyPlateTier6"
+          "id:8": "dreamcraft:HeavyDutyPlateTier6"
         },
         "3:10": {
           "Count:3": 1,
@@ -75,7 +75,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianIV"
+          "id:8": "dreamcraft:CoinTechnicianIV"
         }
       }
     }
@@ -99,13 +99,13 @@
           "Count:3": 32,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.HeavyDutyPlateTier7"
+          "id:8": "dreamcraft:HeavyDutyPlateTier7"
         },
         "2:10": {
           "Count:3": 16,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.HeavyDutyPlateTier6"
+          "id:8": "dreamcraft:HeavyDutyPlateTier6"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -122,7 +122,7 @@
           "Count:3": 8,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.HeavyDutyRocketFinsTier4"
+          "id:8": "dreamcraft:HeavyDutyRocketFinsTier4"
         }
       },
       "taskID:8": "bq_standard:retrieval"

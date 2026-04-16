@@ -1,0 +1,85 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 722
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 543
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Enriched fertilizer will allow you to advance to the next stage of crop technology! \nIt is used in countless ways moving forward, but just to list a few it will be:\n\n - Pumped into Industrial Farms for increased growth rates.\n - Used to breed novel crops in the Crop Breeder.\n - Used to synthesize new seeds in the Seed Generator.\n\nIt will always be superior to the item based Fertilizer of the past, so moving forward you should be using it whenever possible.\n\nWhen used in single-block machines, the EU cost for recipes will increase with the stats of your seeds. Keep voltage tier in mind when looking at recipes if you\u0027re only using 1/1/1 seeds.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "cropsnh:enrichedFertilizerCell"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Enriched Fertilizer",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 3958176424477410122,
+  "questIDLow:4": -8623991914351216440,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "Botania:fertilizer"
+        },
+        "1:10": {
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "Forestry:fertilizerCompound"
+        },
+        "2:10": {
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "cropsnh:fertilizer"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "cropsnh:enrichedFertilizerCell"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

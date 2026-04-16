@@ -14,7 +14,7 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "dreamcraft:item.HeavyDutyRocketEngineTier4"
+        "id:8": "dreamcraft:HeavyDutyRocketEngineTier4"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
@@ -41,19 +41,19 @@
           "Count:3": 16,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.MysteriousCrystalCompressedPlate"
+          "id:8": "dreamcraft:MysteriousCrystalCompressedPlate"
         },
         "1:10": {
           "Count:3": 16,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.LeadOriharukonPlate"
+          "id:8": "dreamcraft:LeadOriharukonPlate"
         },
         "2:10": {
           "Count:3": 32,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.QuantinumCompressedPlate"
+          "id:8": "dreamcraft:QuantinumCompressedPlate"
         },
         "3:10": {
           "Count:3": 1,
@@ -75,7 +75,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianIV"
+          "id:8": "dreamcraft:CoinTechnicianIV"
         }
       }
     }
@@ -93,19 +93,19 @@
           "Count:3": 30,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.HeavyDutyPlateTier7"
+          "id:8": "dreamcraft:HeavyDutyPlateTier7"
         },
         "1:10": {
           "Count:3": 12,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.Tier3Booster"
+          "id:8": "dreamcraft:Tier3Booster"
         },
         "2:10": {
           "Count:3": 12,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.HeavyDutyRocketEngineTier3"
+          "id:8": "dreamcraft:HeavyDutyRocketEngineTier3"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -122,7 +122,7 @@
           "Count:3": 6,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.HeavyDutyRocketEngineTier4"
+          "id:8": "dreamcraft:HeavyDutyRocketEngineTier4"
         }
       },
       "taskID:8": "bq_standard:retrieval"

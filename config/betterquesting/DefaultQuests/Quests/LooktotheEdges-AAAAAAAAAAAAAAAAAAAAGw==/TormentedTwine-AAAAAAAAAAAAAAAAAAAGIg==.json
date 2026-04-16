@@ -3,6 +3,10 @@
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 335
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1567
     }
   },
   "properties:10": {
@@ -57,13 +61,13 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinWitchII"
+          "id:8": "dreamcraft:CoinWitchII"
         },
         "1:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinDarkWizardII"
+          "id:8": "dreamcraft:CoinDarkWizardII"
         }
       }
     }

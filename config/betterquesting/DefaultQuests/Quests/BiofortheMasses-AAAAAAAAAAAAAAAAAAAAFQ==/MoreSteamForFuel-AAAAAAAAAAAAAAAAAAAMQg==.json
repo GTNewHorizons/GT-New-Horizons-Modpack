@@ -16,7 +16,7 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 1023,
+        "Damage:2": 15532,
         "OreDict:8": "",
         "id:8": "gregtech:gt.blockmachines"
       },
@@ -58,7 +58,7 @@
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianIII"
+          "id:8": "dreamcraft:CoinTechnicianIII"
         }
       }
     }
@@ -74,17 +74,11 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 1023,
+          "Damage:2": 15532,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         },
         "1:10": {
-          "Count:3": 24,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings4"
-        },
-        "2:10": {
           "Count:3": 256,
           "Damage:2": 7,
           "OreDict:8": "",

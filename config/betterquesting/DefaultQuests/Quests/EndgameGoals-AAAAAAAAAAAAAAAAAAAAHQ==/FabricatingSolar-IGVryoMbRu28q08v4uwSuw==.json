@@ -1,14 +1,18 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": -4581646162533137172,
-      "questIDLow:4": -5606710145730409374
+      "questIDHigh:4": -8966491619356291672,
+      "questIDLow:4": -7941726137436471809
+    },
+    "1:10": {
+      "questIDHigh:4": -1224350904333220370,
+      "questIDLow:4": -6509950608256890330
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "As you\u0027ve noticed, UXV components are extremely expensive compared to the amount of Universium you can currently produce.\n\nThe Astral Array Fabricator allows you to run EOH recipes in parallel. You can review the math in the second page of the tooltip.\n\nFor a direct answer, you can use this spreadsheet: [url]https://docs.google.com/spreadsheets/d/15j30mNnFIWBhwpJGuDrKTfiHBXNEEqyvB_r7ztFWlyQ[/url]\n\n[warn]Be aware that the EOH will use Raw Stellar Plasma instead of Hydrogen and Helium if you use Astral Arrays.[/warn]\n\n[note]Make sure you are generating enough power.[/note]",
+      "desc:8": "As you\u0027ve noticed, UXV components are extremely expensive compared to the amount of Universium you can currently produce.\n\nThe Astral Array Fabricator allows you to run EOH recipes in parallel. You can review the math in the second page of the tooltip.\n\nFor a direct answer, you can use this spreadsheet: [url]https://docs.google.com/spreadsheets/d/1qyRWipeWpHQM4tbacb3TvO-QjvleV7-0uzMZWW3r6ew/edit?gid\u003d589078529#gid\u003d589078529[/url]\n\n[warn]Be aware that the EOH will use Raw Stellar Plasma instead of Hydrogen and Helium if you use Astral Arrays.[/warn]\n\n[note]Make sure you are generating enough power.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -16,7 +20,7 @@
         "OreDict:8": "",
         "id:8": "tectech:item.tm.itemAstralArrayFabricator"
       },
-      "isMain:1": 0,
+      "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§4§l§nFabricating Solar Systems... in Parallel",

@@ -14,7 +14,7 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "dreamcraft:item.ExtruderShapeBoat"
+        "id:8": "dreamcraft:ExtruderShapeBoat"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -69,7 +69,7 @@
           "Count:3": 15,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnician"
+          "id:8": "dreamcraft:CoinTechnician"
         }
       }
     }
@@ -87,7 +87,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.ShapeBoat"
+          "id:8": "dreamcraft:ShapeBoat"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -104,7 +104,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.ExtruderShapeBoat"
+          "id:8": "dreamcraft:ExtruderShapeBoat"
         }
       },
       "taskID:8": "bq_standard:retrieval"

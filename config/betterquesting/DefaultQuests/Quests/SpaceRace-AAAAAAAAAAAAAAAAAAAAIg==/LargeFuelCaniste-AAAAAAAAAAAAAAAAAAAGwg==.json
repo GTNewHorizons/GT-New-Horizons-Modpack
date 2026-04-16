@@ -14,7 +14,7 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "dreamcraft:item.LargeFuelCanister"
+        "id:8": "dreamcraft:LargeFuelCanister"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
@@ -41,13 +41,13 @@
           "Count:3": 4,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.QuantinumCompressedPlate"
+          "id:8": "dreamcraft:QuantinumCompressedPlate"
         },
         "1:10": {
           "Count:3": 4,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.LedoxCompressedPlate"
+          "id:8": "dreamcraft:LedoxCompressedPlate"
         },
         "2:10": {
           "Count:3": 1,
@@ -69,7 +69,7 @@
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianIII"
+          "id:8": "dreamcraft:CoinTechnicianIII"
         }
       }
     }
@@ -87,19 +87,19 @@
           "Count:3": 4,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.MediumFuelCanister"
+          "id:8": "dreamcraft:MediumFuelCanister"
         },
         "1:10": {
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.IceDualCompressedPlates"
+          "id:8": "dreamcraft:IceDualCompressedPlates"
         },
         "2:10": {
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.QuantinumDualCompressedPlates"
+          "id:8": "dreamcraft:QuantinumDualCompressedPlates"
         },
         "3:10": {
           "Count:3": 8,
@@ -122,7 +122,7 @@
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.LargeFuelCanister"
+          "id:8": "dreamcraft:LargeFuelCanister"
         }
       },
       "taskID:8": "bq_standard:retrieval"

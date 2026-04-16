@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The first magical flower you are able to make is the Pure Daisy. This flower can slowly enchant nearby stone and logs into basic Botania ingredients.\n\nAfter placing the flower down, you can use put down stone and wood in the 8 tiles around it, and after a certain time they will be converted.",
+      "desc:8": "The first magical flower you are able to make is the Pure Daisy. This flower can slowly enchant nearby stone and logs into their special Botania variants, which are used commonly as ingredients.\n\nAfter placing the flower down, you can place down stone and/or wood in the 8 tiles horizontally surrounding it, and after some time they will be converted.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -45,13 +45,13 @@
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinFlowerI"
+          "id:8": "dreamcraft:CoinFlowerI"
         },
         "1:10": {
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinAdventureI"
+          "id:8": "dreamcraft:CoinAdventureI"
         }
       }
     }

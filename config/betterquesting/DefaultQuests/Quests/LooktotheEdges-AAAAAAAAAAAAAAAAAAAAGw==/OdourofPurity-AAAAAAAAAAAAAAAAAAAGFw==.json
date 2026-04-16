@@ -41,7 +41,7 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 8,
+          "Count:3": 2,
           "Damage:2": 27,
           "OreDict:8": "",
           "id:8": "witchery:ingredient"
@@ -63,19 +63,19 @@
           "Count:3": 25,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinCook"
+          "id:8": "dreamcraft:CoinCook"
         },
         "1:10": {
           "Count:3": 25,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinWitch"
+          "id:8": "dreamcraft:CoinWitch"
         },
         "2:10": {
           "Count:3": 25,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinDarkWizard"
+          "id:8": "dreamcraft:CoinDarkWizard"
         }
       }
     }
@@ -90,13 +90,13 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 32,
+          "Count:3": 8,
           "Damage:2": 2,
           "OreDict:8": "",
           "id:8": "witchery:witchsapling"
         },
         "1:10": {
-          "Count:3": 8,
+          "Count:3": 2,
           "Damage:2": 27,
           "OreDict:8": "",
           "id:8": "witchery:ingredient"
@@ -113,7 +113,7 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 8,
+          "Count:3": 2,
           "Damage:2": 36,
           "OreDict:8": "",
           "id:8": "witchery:ingredient"

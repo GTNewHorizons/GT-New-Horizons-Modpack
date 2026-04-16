@@ -47,7 +47,7 @@
           "Count:3": 3,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinChemistII"
+          "id:8": "dreamcraft:CoinChemistII"
         }
       }
     }
@@ -62,7 +62,7 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 40,
+          "Count:3": 36,
           "Damage:2": 44,
           "OreDict:8": "",
           "id:8": "bartworks:gt.bwMetaGeneratedcell"
@@ -85,31 +85,31 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 160,
-          "Damage:2": 45,
+          "Count:3": 16,
+          "Damage:2": 55,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGenerateddustTiny"
+          "id:8": "bartworks:gt.bwMetaGenerateddust"
         },
         "1:10": {
-          "Count:3": 40,
+          "Count:3": 4,
           "Damage:2": 51,
           "OreDict:8": "",
-          "id:8": "bartworks:gt.bwMetaGenerateddustTiny"
+          "id:8": "bartworks:gt.bwMetaGenerateddust"
         },
         "2:10": {
-          "Count:3": 4,
+          "Count:3": 3,
           "Damage:2": 52,
           "OreDict:8": "",
           "id:8": "bartworks:gt.bwMetaGeneratedcell"
         },
         "3:10": {
-          "Count:3": 30,
+          "Count:3": 27,
           "Damage:2": 30683,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"
         },
         "4:10": {
-          "Count:3": 10,
+          "Count:3": 9,
           "Damage:2": 30717,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"

@@ -2,7 +2,7 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 617
+      "questIDLow:4": 609
     }
   },
   "properties:10": {
@@ -63,7 +63,7 @@
           "Count:3": 15,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinChemist"
+          "id:8": "dreamcraft:CoinChemist"
         }
       }
     }

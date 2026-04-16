@@ -55,7 +55,7 @@
         },
         "2:10": {
           "Count:3": 1,
-          "Damage:2": 5,
+          "Damage:2": 6,
           "OreDict:8": "",
           "id:8": "enhancedlootbags:lootbag"
         }
@@ -73,7 +73,7 @@
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianI"
+          "id:8": "dreamcraft:CoinTechnicianI"
         }
       }
     }
@@ -115,7 +115,7 @@
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.ReinforcedGlassLense"
+          "id:8": "dreamcraft:ReinforcedGlassLense"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

@@ -18,14 +18,9 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "thaumcraftneiplugin:Aspect",
+        "id:8": "aspectrecipeindex:aspect",
         "tag:10": {
-          "Aspects:9": {
-            "0:10": {
-              "amount:3": 2,
-              "key:8": "permutatio"
-            }
-          }
+          "Aspect:8": "permutatio"
         }
       },
       "isMain:1": 0,

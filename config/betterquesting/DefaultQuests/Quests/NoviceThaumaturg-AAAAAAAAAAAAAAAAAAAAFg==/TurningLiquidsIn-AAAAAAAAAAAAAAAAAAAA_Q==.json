@@ -57,13 +57,13 @@
           "Count:3": 25,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinCook"
+          "id:8": "dreamcraft:CoinCook"
         },
         "1:10": {
           "Count:3": 25,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinDarkWizard"
+          "id:8": "dreamcraft:CoinDarkWizard"
         }
       }
     }

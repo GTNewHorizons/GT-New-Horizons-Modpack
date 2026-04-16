@@ -44,7 +44,7 @@
           "Count:3": 16,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "IC2:blockCrop"
+          "id:8": "cropsnh:cropSticks"
         },
         "1:10": {
           "Count:3": 16,
@@ -63,7 +63,7 @@
           "Count:3": 15,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinFarmer"
+          "id:8": "dreamcraft:CoinFarmer"
         }
       }
     }

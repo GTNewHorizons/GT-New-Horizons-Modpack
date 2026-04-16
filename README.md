@@ -23,7 +23,7 @@ Here is our Discord server in case you want to take a look at it:
  
 <p align="justify">
     To install the GTNH modpack, please follow the instructions on the page <a href="http://gtnh.miraheze.org/wiki/Installing_and_Migrating">Installing and Migrating</a>.<BR>
-    The installation files can be found at <a href="http://downloads.gtnewhorizons.com">downloads.gtnewhorizons.com</a>.<BR>
+    The installation files can be found at <a href="https://www.gtnewhorizons.com/downloads/">www.gtnewhorizons.com/downloads</a>.<BR>
     Do not download the mods separately from the Modlist below - it is provided for reference purposes.
 </p>
 
@@ -47,9 +47,9 @@ and <a href="https://www.yourkit.com/youmonitor/">YourKit YouMonitor</a>.
     <li>tsutaaja - If it's not too costly</li>
     <li>DreamMasterXXL - Idiots! Do not upgrade your backpack with important stuff inside!</li>
     <li>Chaotick - It's already quite the list of errands</li>
-    <li>LogicFalls - F--k this mod is complicated</li>
+    <li>LogicFalls - [Rats!] this mod is complicated</li>
     <li>Codewarrior0 - Blood, sweat, and tiers</li>
-    <li>Chewy - No more making any of this irritating s--t</li>
+    <li>Chewy - No more making any of this irritating [stuff]</li>
     <li>moronwmachinegun - It's never enough</li>
     <li>Mondfaust - this game wants so much stuff...</li>
     <li>K1ngMX - GTNH is basically pain for win</li>

@@ -1,8 +1,8 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 241
+      "questIDHigh:4": -6856924970976656947,
+      "questIDLow:4": -5921518077477245102
     }
   },
   "properties:10": {
@@ -69,13 +69,13 @@
           "Count:3": 25,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinDarkWizard"
+          "id:8": "dreamcraft:CoinDarkWizard"
         },
         "1:10": {
           "Count:3": 25,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinChemist"
+          "id:8": "dreamcraft:CoinChemist"
         }
       }
     }

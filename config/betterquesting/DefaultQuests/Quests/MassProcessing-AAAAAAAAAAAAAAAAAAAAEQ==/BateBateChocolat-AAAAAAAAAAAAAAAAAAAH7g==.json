@@ -12,11 +12,11 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Abuela, will you teach us the chocolate song?\nCon mucho gusto\nWill you sing the chocolate song with us?\nGreat, sing along with Abuela!\n\nBate bate chocolate\nBate bate chocolate\nBate bate chocolate\nBate bate chocolate\n\nMix your chocolate, chocolate\nMix your chocolate, chocolate\nBate bate chocolate\nBate bate chocolate",
+      "desc:8": "Abuela, will you teach us the chocolate song?\nCon mucho gusto\nWill you sing the chocolate song with us?\nGreat, sing along with Abuela!\n\nBate bate chocolate\nBate bate chocolate\nBate bate chocolate\nBate bate chocolate\n\nMix your chocolate, chocolate\nMix your chocolate, chocolate\nBate bate chocolate\nBate bate chocolate\n\nAside from mixing chocolate, the Industrial Mixing Machine offers §6§l8§r parallels per voltage tier and an additional §2§l100%§r speed boost per tier of Item Pipe Casing.\n\n[note]Eventually, when you unlock §9UIV§r tiered glass, this can be given multi-amp hatches![/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 811,
+        "Damage:2": 15566,
         "OreDict:8": "",
         "id:8": "gregtech:gt.blockmachines"
       },
@@ -70,7 +70,7 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 811,
+          "Damage:2": 15566,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }
@@ -86,18 +86,36 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 26,
-          "Damage:2": 2,
+          "Count:3": 43,
+          "Damage:2": 13,
           "OreDict:8": "",
-          "id:8": "miscutils:gtplusplus.blockcasings.3"
+          "id:8": "gregtech:gt.blockcasings12"
         },
         "1:10": {
-          "Count:3": 2,
+          "Count:3": 30,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "bartworks:BW_GlasBlocks"
+        },
+        "2:10": {
+          "Count:3": 24,
+          "Damage:2": 81,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.sheetmetal"
+        },
+        "3:10": {
+          "Count:3": 10,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings11"
+        },
+        "4:10": {
+          "Count:3": 5,
           "Damage:2": 11,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockcasings4"
         },
-        "2:10": {
+        "5:10": {
           "Count:3": 1,
           "Damage:2": 91,
           "OreDict:8": "",

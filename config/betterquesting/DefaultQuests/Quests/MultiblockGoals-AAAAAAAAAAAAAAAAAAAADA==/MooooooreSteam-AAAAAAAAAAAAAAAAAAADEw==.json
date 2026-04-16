@@ -2,7 +2,7 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 162
+      "questIDLow:4": 860
     }
   },
   "properties:10": {
@@ -12,7 +12,7 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 1022,
+        "Damage:2": 15531,
         "OreDict:8": "",
         "id:8": "gregtech:gt.blockmachines"
       },
@@ -63,7 +63,7 @@
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianII"
+          "id:8": "dreamcraft:CoinTechnicianII"
         }
       }
     }
@@ -78,25 +78,13 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 3,
-          "Damage:2": 3,
+          "Count:3": 1,
+          "Damage:2": 15531,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings4"
-        },
-        "1:10": {
-          "Count:3": 3,
-          "Damage:2": 14,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings2"
-        },
-        "2:10": {
-          "Count:3": 32,
-          "Damage:2": 2,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings4"
+          "id:8": "gregtech:gt.blockmachines"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
       "autoConsume:1": 0,
@@ -107,13 +95,31 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
+          "Count:3": 33,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings4"
+        },
+        "1:10": {
+          "Count:3": 11,
+          "Damage:2": 3,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings4"
+        },
+        "2:10": {
+          "Count:3": 2,
+          "Damage:2": 14,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings2"
+        },
+        "3:10": {
           "Count:3": 1,
-          "Damage:2": 1022,
+          "Damage:2": 91,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

@@ -22,7 +22,7 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "dreamcraft:tile.BloodyIchorium"
+        "id:8": "dreamcraft:BloodyIchorium"
       },
       "isGlobal:1": 0,
       "isMain:1": 1,
@@ -65,19 +65,19 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinSmithIII"
+          "id:8": "dreamcraft:CoinSmithIII"
         },
         "1:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinChemistIII"
+          "id:8": "dreamcraft:CoinChemistIII"
         },
         "2:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinBloodIII"
+          "id:8": "dreamcraft:CoinBloodIII"
         }
       }
     }
@@ -135,7 +135,7 @@
           "Count:3": 28,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:tile.BloodyIchorium"
+          "id:8": "dreamcraft:BloodyIchorium"
         }
       },
       "taskID:8": "bq_standard:retrieval"

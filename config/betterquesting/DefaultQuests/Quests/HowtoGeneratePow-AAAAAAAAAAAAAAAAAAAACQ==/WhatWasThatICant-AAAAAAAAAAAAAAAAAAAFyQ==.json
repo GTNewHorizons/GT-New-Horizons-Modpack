@@ -2,11 +2,15 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 860
+      "questIDLow:4": 1413
     },
     "1:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 1245
+      "questIDLow:4": 860
+    },
+    "2:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 861
     }
   },
   "properties:10": {
@@ -24,7 +28,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "What Was That? I Can\u0027t Hear You Over the Engine!",
+      "name:8": "§9§lWhat Was That? I Can\u0027t Hear You Over the Engine!",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -73,7 +77,7 @@
           "Count:3": 20,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianII"
+          "id:8": "dreamcraft:CoinTechnicianII"
         }
       }
     }

@@ -75,19 +75,19 @@
           "Count:3": 15,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnician"
+          "id:8": "dreamcraft:CoinTechnician"
         },
         "1:10": {
           "Count:3": 15,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinBees"
+          "id:8": "dreamcraft:CoinBees"
         },
         "2:10": {
           "Count:3": 15,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinForestry"
+          "id:8": "dreamcraft:CoinForestry"
         }
       }
     }
@@ -117,7 +117,7 @@
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.SteelBars"
+          "id:8": "dreamcraft:SteelBars"
         },
         "3:10": {
           "Count:3": 2,

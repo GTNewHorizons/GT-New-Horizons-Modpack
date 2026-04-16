@@ -1,0 +1,64 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2627
+    },
+    "1:10": {
+      "questIDHigh:4": -8448640167904523586,
+      "questIDLow:4": -5243481096921136607
+    },
+    "2:10": {
+      "questIDHigh:4": -795101217016493444,
+      "questIDLow:4": -7228129145658002387,
+      "type:1": 1
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "The Beam Crafter allows you to craft items using two beam-like inputs! If you are familiar with the Target Chamber, this works the same way, but with two beams instead of one.\n\nEach Beam Crafting recipe requires two particle inputs. You must provide enough of both types of particles to finish the craft. The progress of a craft in the Beam Crafter depends entirely on the number of provided particles, but will draw power the entire time. \n\n[note]This also means that the speed of the craft is entirely dependent on how quickly you can provide particles, and as a result the WAILA estimate is likely inaccurate.[/note]\n\nFailing to provide particles consistently is not an issue! The machine will continue to draw power while it waits for more particles, but you will not lose crafting progress.\n\n[note]If enough of one of the input particles is provided, providing more of that particle has no effect on the progress of the craft.[/note]",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 3015,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
+      },
+      "isMain:1": 1,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "§b§lCrafting, but with Beams!",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -4235320931467572647,
+  "questIDLow:4": -7957341863368182993,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 3015,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

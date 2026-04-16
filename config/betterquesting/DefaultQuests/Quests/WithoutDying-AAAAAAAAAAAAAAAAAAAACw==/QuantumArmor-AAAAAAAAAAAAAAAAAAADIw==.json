@@ -76,19 +76,19 @@
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinSmithII"
+          "id:8": "dreamcraft:CoinSmithII"
         },
         "1:10": {
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinSurvivorII"
+          "id:8": "dreamcraft:CoinSurvivorII"
         },
         "2:10": {
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianII"
+          "id:8": "dreamcraft:CoinTechnicianII"
         }
       }
     }
@@ -106,7 +106,7 @@
           "Count:3": 3,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.QuantumCrystal"
+          "id:8": "dreamcraft:QuantumCrystal"
         },
         "1:10": {
           "Count:3": 6,
@@ -171,19 +171,19 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.QuantumPartHelmet"
+          "id:8": "dreamcraft:QuantumPartHelmet"
         },
         "1:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.QuantumPartLeggings"
+          "id:8": "dreamcraft:QuantumPartLeggings"
         },
         "2:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.QuantumPartBoots"
+          "id:8": "dreamcraft:QuantumPartBoots"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

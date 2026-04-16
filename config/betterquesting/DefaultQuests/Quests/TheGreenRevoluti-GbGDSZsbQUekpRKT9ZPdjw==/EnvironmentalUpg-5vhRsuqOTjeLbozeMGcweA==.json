@@ -1,0 +1,221 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -2386207075705732206,
+      "questIDLow:4": -5237416962205861199
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "These modules each simulate a single favored biome tag for the crops in your IF.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 4,
+        "OreDict:8": "",
+        "id:8": "cropsnh:environmentalModule"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Environmental Upgrades",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -1803601821880660425,
+  "questIDLow:4": -8399621369076699016,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 18,
+          "OreDict:8": "",
+          "id:8": "cropsnh:environmentalModule"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 17,
+          "OreDict:8": "",
+          "id:8": "cropsnh:environmentalModule"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 20,
+          "OreDict:8": "",
+          "id:8": "cropsnh:environmentalModule"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 19,
+          "OreDict:8": "",
+          "id:8": "cropsnh:environmentalModule"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 7,
+          "OreDict:8": "",
+          "id:8": "cropsnh:environmentalModule"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 15,
+          "OreDict:8": "",
+          "id:8": "cropsnh:environmentalModule"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "Damage:2": 16,
+          "OreDict:8": "",
+          "id:8": "cropsnh:environmentalModule"
+        },
+        "7:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "OreDict:8": "",
+          "id:8": "cropsnh:environmentalModule"
+        },
+        "8:10": {
+          "Count:3": 1,
+          "Damage:2": 8,
+          "OreDict:8": "",
+          "id:8": "cropsnh:environmentalModule"
+        },
+        "9:10": {
+          "Count:3": 1,
+          "Damage:2": 6,
+          "OreDict:8": "",
+          "id:8": "cropsnh:environmentalModule"
+        },
+        "10:10": {
+          "Count:3": 1,
+          "Damage:2": 13,
+          "OreDict:8": "",
+          "id:8": "cropsnh:environmentalModule"
+        },
+        "11:10": {
+          "Count:3": 1,
+          "Damage:2": 21,
+          "OreDict:8": "",
+          "id:8": "cropsnh:environmentalModule"
+        },
+        "12:10": {
+          "Count:3": 1,
+          "Damage:2": 11,
+          "OreDict:8": "",
+          "id:8": "cropsnh:environmentalModule"
+        },
+        "13:10": {
+          "Count:3": 1,
+          "Damage:2": 28,
+          "OreDict:8": "",
+          "id:8": "cropsnh:environmentalModule"
+        },
+        "14:10": {
+          "Count:3": 1,
+          "Damage:2": 27,
+          "OreDict:8": "",
+          "id:8": "cropsnh:environmentalModule"
+        },
+        "15:10": {
+          "Count:3": 1,
+          "Damage:2": 9,
+          "OreDict:8": "",
+          "id:8": "cropsnh:environmentalModule"
+        },
+        "16:10": {
+          "Count:3": 1,
+          "Damage:2": 10,
+          "OreDict:8": "",
+          "id:8": "cropsnh:environmentalModule"
+        },
+        "17:10": {
+          "Count:3": 1,
+          "Damage:2": 12,
+          "OreDict:8": "",
+          "id:8": "cropsnh:environmentalModule"
+        },
+        "18:10": {
+          "Count:3": 1,
+          "Damage:2": 14,
+          "OreDict:8": "",
+          "id:8": "cropsnh:environmentalModule"
+        },
+        "19:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "OreDict:8": "",
+          "id:8": "cropsnh:environmentalModule"
+        },
+        "20:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "cropsnh:environmentalModule"
+        },
+        "21:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "OreDict:8": "",
+          "id:8": "cropsnh:environmentalModule"
+        },
+        "22:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "OreDict:8": "",
+          "id:8": "cropsnh:environmentalModule"
+        },
+        "23:10": {
+          "Count:3": 1,
+          "Damage:2": 22,
+          "OreDict:8": "",
+          "id:8": "cropsnh:environmentalModule"
+        },
+        "24:10": {
+          "Count:3": 1,
+          "Damage:2": 24,
+          "OreDict:8": "",
+          "id:8": "cropsnh:environmentalModule"
+        },
+        "25:10": {
+          "Count:3": 1,
+          "Damage:2": 25,
+          "OreDict:8": "",
+          "id:8": "cropsnh:environmentalModule"
+        },
+        "26:10": {
+          "Count:3": 1,
+          "Damage:2": 23,
+          "OreDict:8": "",
+          "id:8": "cropsnh:environmentalModule"
+        },
+        "27:10": {
+          "Count:3": 1,
+          "Damage:2": 26,
+          "OreDict:8": "",
+          "id:8": "cropsnh:environmentalModule"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

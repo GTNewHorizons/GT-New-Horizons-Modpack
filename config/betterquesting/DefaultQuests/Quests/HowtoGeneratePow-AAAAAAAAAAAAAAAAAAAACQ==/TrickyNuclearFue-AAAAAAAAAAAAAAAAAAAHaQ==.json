@@ -3,6 +3,10 @@
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 192
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2955
     }
   },
   "properties:10": {
@@ -21,7 +25,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Tricky Nuclear Fuel II: Naquadria",
+      "name:8": "§b§lTricky Nuclear Fuel II: Naquadria",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -48,7 +52,7 @@
           "id:8": "gregtech:gt.metaitem.01"
         },
         "1:10": {
-          "Count:3": 4,
+          "Count:3": 8,
           "Damage:2": 11316,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"
@@ -70,7 +74,7 @@
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianII"
+          "id:8": "dreamcraft:CoinTechnicianII"
         }
       }
     }

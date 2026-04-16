@@ -14,7 +14,7 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "dreamcraft:item.EdibleSalt"
+        "id:8": "dreamcraft:EdibleSalt"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
@@ -61,7 +61,7 @@
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinChemistI"
+          "id:8": "dreamcraft:CoinChemistI"
         }
       }
     }

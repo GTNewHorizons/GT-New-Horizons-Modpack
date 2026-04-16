@@ -24,7 +24,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§c§lPower of the Sun at IV Level",
+      "name:8": "§d§lPower of the Sun at IV Level",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -73,7 +73,7 @@
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianII"
+          "id:8": "dreamcraft:CoinTechnicianII"
         }
       }
     }
@@ -162,7 +162,7 @@
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.IrradiantReinforcedChromePlate"
+          "id:8": "dreamcraft:IrradiantReinforcedChromePlate"
         },
         "8:10": {
           "Count:3": 6,

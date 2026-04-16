@@ -1,0 +1,161 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 97
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 77
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "As your factory grows, you will need to use your tools to build, configure, and dismantle machines. Crafting a toolbox to hold your tools will help.\n\nThe Field Engineer\u0027s Toolbox allows you to use a tool inside for building and configuring without taking the tool out of the box. Right click to open the toolbox and put tools in. Then, press the Pick Block bind (default: middle mouse button) to open a radial menu and select a tool. You can then use the toolbox as if it was that type of tool. Pressing Pick Block while looking at a block will also choose an appropriate tool for the job, skipping the radial menu. Sneak and press Pick Block to deselect a tool quickly.\n\nLater on, you can upgrade the toolbox with a battery. This allows the toolbox to recharge electric tools and unlocks the ability for machines and wireless chargers to charge the entire toolbox.\n\nToolboxes can also fix maintenance hatches, using the tools inside. Deselect the equipped tool (if any), then right click the maintenance hatch with the toolbox. All of the tools inside will be applied to the maintenance hatch, fixing any problems it might have.\n\nThe toolbox requires polyethylene, which is a fluid you likely haven\u0027t made before. It\u0027s up to you to figure out how to get it. Here\u0027s a hint: the black gushers of oil found around the world may be the key...",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.Item_Toolbox"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "A Toolbox For All Your Tools",
+      "questLogic:8": "OR",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 6054631496541618910,
+  "questIDLow:4": -8520066877283414062,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 19314,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 16,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metatool.01",
+          "tag:10": {
+            "GT.ToolStats:10": {
+              "MaxDamage:4": 128000,
+              "Mode:1": 0,
+              "PrimaryMaterial:8": "DamascusSteel",
+              "SecondaryMaterial:8": "DamascusSteel"
+            }
+          }
+        },
+        "2:10": {
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "harvestcraft:extremechiliItem"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 4,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag",
+          "tag:10": {
+            "ench:9": {
+              "0:10": {
+                "id:2": 35,
+                "lvl:2": 3
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 10,
+          "Damage:2": 18305,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.02"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "Damage:2": 23032,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:chest"
+        },
+        "3:10": {
+          "Count:3": 4,
+          "Damage:2": 1,
+          "OreDict:8": "",
+          "id:8": "minecraft:dye"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 14,
+          "OreDict:8": "",
+          "id:8": "minecraft:dye"
+        },
+        "5:10": {
+          "Count:3": 4,
+          "Damage:2": 874,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.99"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.Item_Toolbox"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -64,7 +64,7 @@
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnicianI"
+          "id:8": "dreamcraft:CoinTechnicianI"
         }
       },
       "ignoreDisabled:1": 0,
@@ -80,7 +80,7 @@
           "Count:3": 10,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinTechnician"
+          "id:8": "dreamcraft:CoinTechnician"
         }
       }
     }

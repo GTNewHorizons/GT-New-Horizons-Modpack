@@ -56,6 +56,21 @@
           "Damage:2": 57,
           "OreDict:8": "",
           "id:8": "enhancedlootbags:lootbag"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "etfuturum:elytra",
+          "tag:10": {
+            "RepairCost:3": 2,
+            "ench:9": {
+              "0:10": {
+                "id:2": 34,
+                "lvl:2": 3
+              }
+            }
+          }
         }
       }
     },
@@ -68,19 +83,19 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinDarkWizardII"
+          "id:8": "dreamcraft:CoinDarkWizardII"
         },
         "1:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinSmithII"
+          "id:8": "dreamcraft:CoinSmithII"
         },
         "2:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinAdventureII"
+          "id:8": "dreamcraft:CoinAdventureII"
         },
         "3:10": {
           "Count:3": 1,

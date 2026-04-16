@@ -1,10 +1,14 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": -2640443013906741533,
-      "questIDLow:4": -6897090588793529674
+      "questIDHigh:4": -1772695771338356559,
+      "questIDLow:4": -5865034814944347891
     },
     "1:10": {
+      "questIDHigh:4": -4581646162533137172,
+      "questIDLow:4": -5606710145730409374
+    },
+    "2:10": {
       "questIDHigh:4": -3347613372736060937,
       "questIDLow:4": -7880209593223277990
     }
@@ -43,21 +47,14 @@
       "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
-      "index:3": 0,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
+      "index:3": 2,
+      "requiredFluids:9": {
         "0:10": {
-          "Count:3": 1,
-          "Damage:2": 143,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.99"
+          "Amount:3": 144,
+          "FluidName:8": "molten.magmatter"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
-    },
-    "1:10": {
-      "index:3": 1,
-      "taskID:8": "bq_standard:checkbox"
+      "taskID:8": "bq_standard:fluid"
     }
   }
 }
