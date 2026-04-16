@@ -8,18 +8,18 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "A great source of gold.\n\nAuronia leaves will 4x your gold ore.",
+      "desc:8": "Thiosulfine is a complicated crop. At its simplest it will 4x your sulfur ore!! However, you can further process it alongside Galvania or Plumbilia leaves you can obtain additional rare materials. Notably, with Galvania, you get a chance to produce gallium dust.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 28,
+        "Damage:2": 33,
         "OreDict:8": "",
         "id:8": "cropsnh:materialLeaf"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Auronia",
+      "name:8": "Thiosulfine",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -46,7 +46,7 @@
         },
         "1:10": {
           "Count:3": 16,
-          "Damage:2": 86,
+          "Damage:2": 22,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockores2"
         }
@@ -68,7 +68,10 @@
           "OreDict:8": "",
           "id:8": "cropsnh:genericSeed",
           "tag:10": {
-            "crop:8": "cropsnh:auronia",
+            "crop:8": "cropsnh:thiosulfine",
+            "ga:1": 1,
+            "gr:1": 1,
+            "re:1": 1,
             "scan:1": 1
           }
         }
