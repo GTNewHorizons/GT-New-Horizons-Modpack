@@ -4971,6 +4971,10 @@ betterquesting.quest.ogXyVJTpQ8ONbZthhrupqg.desc=Given sufficient magical prowes
 betterquesting.questline.GbGDSZsbQUekpRKT9ZPdjw.name=The Green Revolution
 betterquesting.questline.GbGDSZsbQUekpRKT9ZPdjw.desc=And remember crawlers: Kill, Kill, Kill! But only plants.
 
+# Quest: Auronia
+betterquesting.quest.-9Qf3tBHQbKZrhhefIRApg.name=Auronia
+betterquesting.quest.-9Qf3tBHQbKZrhhefIRApg.desc=A great source of gold.%n%nAuronia leaves will 4x your gold ore.
+
 # Quest: Mutation Titration
 betterquesting.quest.0P-0LIDsRa-0r0SDSfZTUg.name=Mutation Titration
 betterquesting.quest.0P-0LIDsRa-0r0SDSfZTUg.desc=Before going any further you really should craft a lot,[note] and I mean a lot[/note], of crop sticks. Hope you like chopping trees and crafting saws! §o§oYou should've seen the old recipe...%n%n§o§rEach of the adjacent quest groupings represent a different category of crops found within the mod. I would recommend you look first at the quests focusing on [warn]Improving Your Crops[/warn] and [warn]Controlled Breeding[/warn].%n%nWhile not every crop will produce a useful harvest, they very well may deterministically breed into a useful crop.%n%nCertain crops need more than just two parents to breed. For those crops, simply surround a single double cropstick with all 3-4 crops needed and continue as normal.%n%n[note]Be free farmhand~![/note]
@@ -5049,11 +5053,11 @@ betterquesting.quest.9IaKfZelRA2GaWVUgFvJQg.desc=Magic beans! Unfortunately no s
 
 # Quest: Silver And... Silver
 betterquesting.quest.9mlSMwwETgGeMJTOggJfvg.name=Silver And... Silver
-betterquesting.quest.9mlSMwwETgGeMJTOggJfvg.desc=Silver dust!
+betterquesting.quest.9mlSMwwETgGeMJTOggJfvg.desc=Silver dust! Exciting! (not)
 
 # Quest: Rubber Bonsai
 betterquesting.quest.A21peFIQTEKAgY7eH4tjLw.name=Rubber Bonsai
-betterquesting.quest.A21peFIQTEKAgY7eH4tjLw.desc=Easy rubber wood and sticky resin! %n%nThese bonsai present a more complicated alternative to other rubber production methods, while providing some more highly useful materials.
+betterquesting.quest.A21peFIQTEKAgY7eH4tjLw.desc=Easy rubber wood and sticky resin! These bonsai present a more complicated alternative to other rubber production methods, while providing additional useful materials.
 
 # Quest: Speed Up Your Plant Growth
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC0g.name=Speed Up Your Plant Growth
@@ -5069,7 +5073,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAE9g.desc=This item is a combined Trowel,
 
 # Quest: Hops, The Source of Beer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFCA.name=Hops, The Source of Beer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFCA.desc=If you don't want pure alcohol, but beer, breed some crops!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFCA.desc=If you don't want pure alcohol, but beer, breed some hops!
 
 # Quest: Babies First Harvest Automaton
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBg.name=Babies First Harvest Automaton
@@ -5229,7 +5233,7 @@ betterquesting.quest.FB6XbhKLRk-QQEo2PsjGjA.desc=These Liliums aren't the most u
 
 # Quest: Golden Berries
 betterquesting.quest.FXUYD5RRT4K7AHMMpnvOIw.name=Golden Berries
-betterquesting.quest.FXUYD5RRT4K7AHMMpnvOIw.desc=Gold oreberries!
+betterquesting.quest.FXUYD5RRT4K7AHMMpnvOIw.desc=It's like a golden goose but... not.
 
 # Quest: Gem Crops
 betterquesting.quest.F_Ef5AtKQbSGmM24_LottQ.name=Gem Crops
@@ -5253,7 +5257,7 @@ betterquesting.quest.If475S_dQ5y_f8KcSRHeXQ.desc=While it can't produce certus q
 
 # Quest: A Summary of Crossbreeding
 betterquesting.quest.Ik4r-iNLSEK_uq5FXqspQA.name=A Summary of Crossbreeding
-betterquesting.quest.Ik4r-iNLSEK_uq5FXqspQA.desc=When crops breed, the resulting stats are the average of the parents' stats plus a random value between -2 and 4.%n%nEssentially, the variation pool will be a fixed (-2 -> +4). If all parents have fertilizer in them, stat loss is prevented. (0 -> +4)%n%nDeterministic breeding is similar to how bees work, where you must bring the right species together. Some situations require more than two parents.%n%n[note]Advanced crops (§5MV§r and above materials) will require the breeding machine.[/note]%n%nLow-ish-tier crops will also have access to breeding pools, where similar crops may be bred with others of the same “type” to produce other similar crops.
+betterquesting.quest.Ik4r-iNLSEK_uq5FXqspQA.desc=When crops breed, the resulting stats are the average of the parents' stats plus a random value between -2 and 4.%n%nEssentially, the variation in stats is a fixed (-2 -> +4). If all parents have fertilizer in them, stat loss is prevented in all cases (0 -> 4). %n%nDeterministic breeding is similar to how bees work, where you must bring the right species together. Some situations require more than two parents.%n%n[note]Advanced crops (§5MV§r and above materials) will require the breeding machine.[/note]%n%nMost crops will also have access to breeding pools, where similar crops may be bred with others of the same “type” to produce other similar crops. When first starting out, it can be helpful to use these pools to collect many different types of crops. They are a bit more complicated so we will get into them after you breed the stonelily.%n%nIf you find the process of breeding new crops deterministically too slow, maybe try statting up one species and using it to create a bunch of 31/31/31 seeds for crops in pools it shares. Remember that fertilizer prevents stat loss in all cases, this includes breeding.
 
 # Quest: Thauminite Berries
 betterquesting.quest.J04fEo0DTReAF9BJlQZ9RA.name=Thauminite Berries
@@ -5265,7 +5269,7 @@ betterquesting.quest.JTmxoCTLTG2QXt6LoJhsBA.desc=Ardite oreberries!
 
 # Quest: Weeds
 betterquesting.quest.JcFOAl5pTtKNnMY61dFV_w.name=Weeds
-betterquesting.quest.JcFOAl5pTtKNnMY61dFV_w.desc=Weeds will show up from time to time on empty single or double crop sticks. They will spread from there and take over all your precious crops, so clear the weed with your spade (or fist) before you start desiring to reload the last backup. %n%nUsing smaller fields will make things a lot easier, at least until you can make Weed-Ex, so if you forget about them you only lose one or two seeds.
+betterquesting.quest.JcFOAl5pTtKNnMY61dFV_w.desc=Weeds will show up from time to time on empty single or double crop sticks. They will spread from there and sicken all your precious crops, so clear weeds with your spade (or fist) before you start desiring to reload the last backup. %n%nUsing smaller fields will make things a lot easier, at least until you can make Weed-Ex, so if you forget about them you only lose one or two seeds. If your crops have already become sick, you'll need Plant-Cure to heal them. Otherwise you'll just have to risk breaking them if you want the seeds back before then.
 
 # Quest: Plant Diseases
 betterquesting.quest.JgfP8eDqS-mDGcjgk-m3Dg.name=Plant Diseases
@@ -5289,19 +5293,19 @@ betterquesting.quest.MDRmD3RyR8CIdqdpll_74w.desc=Now that you've stolen the food
 
 # Quest: Enriched Fertilizer
 betterquesting.quest.Nu5EfJtNQ0qIUW0Lt0E4yA.name=Enriched Fertilizer
-betterquesting.quest.Nu5EfJtNQ0qIUW0Lt0E4yA.desc=Enriched fertilizer will allow you to advance to the next stage of crop technology! %nIt is used in countless ways moving forward, but just to list a few it will be:%n%n - Pumped into Industrial Farms for increased growth rates.%n - Used to breed novel crops in the Crop Breeder.%n - Used to synthesize new seeds in the Seed Generator.%n%nIt will always be superior to the item based Fertilizer of the past, so moving forward you should be using it whenever possible.
+betterquesting.quest.Nu5EfJtNQ0qIUW0Lt0E4yA.desc=Enriched fertilizer will allow you to advance to the next stage of crop technology! %nIt is used in countless ways moving forward, but just to list a few it will be:%n%n - Pumped into Industrial Farms for increased growth rates.%n - Used to breed novel crops in the Crop Breeder.%n - Used to synthesize new seeds in the Seed Generator.%n%nIt will always be superior to the item based Fertilizer of the past, so moving forward you should be using it whenever possible.%n%nWhen used in single-block machines, the EU cost for recipes will increase with the stats of your seeds. Keep voltage tier in mind when looking at recipes if you're only using 1/1/1 seeds.
 
 # Quest: Crop Sticks
 betterquesting.quest.O65QUnR0QuGSoQrsUMTB1g.name=Crop Sticks
-betterquesting.quest.O65QUnR0QuGSoQrsUMTB1g.desc=To do anything in CropsNH, you first need crop sticks. These will act as the supports for your plants to grow upon. Once your plants mature, a double crop stick will allow your plants to crossbreed with any crops directly adjacent to the same double crop stick.%n%nAs new species grow on your crop sticks you can harvest them by right-clicking, which won't remove the seed. Left-clicking will break the seed and potentially drop a seed. Spades will help you improve your chances at obtaining seeds when you do this, as will the Resistance trait.%n%n[note]The chance to drop a seed from any crop without a spade is measured as gain/31. So crops with a maxed resistance stat will always drop a seed when broken.[/note]%n%n[warn]Note in NEI the varying types of soil, sub-soil blocks, and environmental requirements for different crops![/warn]
+betterquesting.quest.O65QUnR0QuGSoQrsUMTB1g.desc=To do anything in CropsNH, you first need crop sticks. These will act as the supports for your plants to grow upon. Once your plants mature, a double crop stick will allow your plants to crossbreed with any crops directly adjacent to the same double crop stick.%n%nAs new species grow on your crop sticks you can harvest them by right-clicking, which won't remove the seed. Left-clicking will break the seed and potentially drop a seed. Spades will help you improve your chances at obtaining seeds when you do this, as will the Resistance trait.%n%n§r§r[note]§l§r§lThe chance to drop a seed from any crop without a spade is measured%nas gain/31. §rSo crops with a maxed resistance stat will always drop a seed when broken.§r[/note]%n%n[warn]Note in NEI the varying types of soil, sub-soil blocks, and environmental requirements for different crops![/warn]%n%n%n%n§oIf you're already an experienced farmhand, collect a single stonelily seed and I'll let you skip my introductory trainings for now.
 
 # Quest: Metallic Crops
 betterquesting.quest.PR2T5CUTQ6-IaOQd132Mzg.name=Metallic Crops
 betterquesting.quest.PR2T5CUTQ6-IaOQd132Mzg.desc=Metallic crops are probably the most useful crops for late game. Thanks to the leaves harvested from these species, you can create tons of raw resources and even multiply the yield of your ores.%n%nMost metallic crops can be thrown into a forge hammer with some acid to create raw resources, or used in a chemical reactor with dirty crushed ores in order to increase your ore yields by up to 400%%.
 
-# Quest: Amethystia
-betterquesting.quest.PdVbnToTRuKXlvTqSg9qxQ.name=Amethystia
-betterquesting.quest.PdVbnToTRuKXlvTqSg9qxQ.desc=Not yet implemented, but looks pretty in the questbook so here you go!
+# Quest: Rubyne
+betterquesting.quest.PdVbnToTRuKXlvTqSg9qxQ.name=Rubyne
+betterquesting.quest.PdVbnToTRuKXlvTqSg9qxQ.desc=This new species will present a more direct route to the Chrome you need for Stainless Steel production. Just don't make any pies with it.
 
 # Quest: Ore Berries
 betterquesting.quest.Q-4QPu7wRDC1ph_0uzziXA.name=Ore Berries
@@ -5317,15 +5321,15 @@ betterquesting.quest.QEd1ziVERKOXjzUj80M7Ig.desc=Now that you've stolen the food
 
 # Quest: Nickelback
 betterquesting.quest.QkDDUfRUTNyspowtsQHJ7w.name=Nickelback
-betterquesting.quest.QkDDUfRUTNyspowtsQHJ7w.desc=A great source of nickel.%n%nNickelback leaves will 4x your nickel ore.
+betterquesting.quest.QkDDUfRUTNyspowtsQHJ7w.desc=A great source of nickel, and a horrible source of auditory stimulation. Nickelback leaves will 4x your nickel ore.
 
 # Quest: Oak Bonsai
 betterquesting.quest.QvknAsqFQoKau7FK0ZPPSw.name=Oak Bonsai
-betterquesting.quest.QvknAsqFQoKau7FK0ZPPSw.desc=Easy oak wood, and apples!
+betterquesting.quest.QvknAsqFQoKau7FK0ZPPSw.desc=No, they won't produce Bonsai scale apples as well.
 
 # Quest: Crop Nutrients
 betterquesting.quest.R7QRLmaJRHuxmNcGpjX0hQ.name=Crop Nutrients
-betterquesting.quest.R7QRLmaJRHuxmNcGpjX0hQ.desc=The speed at which a crop grows is based on its Nutrient Score. There are a number of different ways to obtain Nutrient Points for your crops, but to keep your crops from getting sick try to make sure they are always receiving at least a couple of the below bonuses:%n%n§l- +10 Points§r can be gained from having water in your crop sticks.%n§l- +10 Points§r can be gained from having fertilizer in your crop sticks.%n§l- +2 Points§r can be gained from allowing the crop to see the sky.%n       - Crops in the Industrial Farm will always have this bonus.%n§l- +28 Points§r can be gained from preferred biome tags%n       - [warn]If no preferred tags are found[/warn], high humidity will §rgive up to §l+14 Points.§r %n       - See more on this in the Environmental Preferences quest.%n%nAll crops have a base Nutrient Score of 5.%n%nYou can check the Nutrient Score of a crop by using a Portable Scanner on any crop sticks or Industrial Farm controller, even if it's empty.%n%nCrop tier determines the Nutrient Score requirements for growth. %nThe following cutoffs apply:%n%n§lTier 4 §r- Last tier where crops can be planted anywhere%n%n§lTier 5 §r- Last tier where crops can be planted anywhere as long as they can see the sky%n%n§lTier 11 §r- Last tier where crop can be anywhere as long as crops are in an 80%%+ biome%n%n§lTier 12 §r- Last tier where crops can be anywhere as long as crops are in a 80%%+ biome and can see the sky%n
+betterquesting.quest.R7QRLmaJRHuxmNcGpjX0hQ.desc=The speed at which a crop grows is based on its Nutrient Score. There are a number of different ways to obtain Nutrient Points for your crops, but to keep your crops from getting sick try to make sure they are always receiving at least a couple of the below bonuses:%n%n§l- +10 Points§r can be gained from having water in your crop sticks (scales 1-10 based on hydration level).%n§l- +10 Points§r can be gained from having fertilizer in your crop sticks (scales 1-10 based on fertilizer level).%n§l- +2 Points§r can be gained from allowing the crop to see the sky.%n       - Crops in the Industrial Farm will always have this bonus.%n§l- +28 Points§r can be gained from preferred biome tags%n       - [warn]If no preferred tags are found[/warn], high humidity will §rgive up to §l+14 Points.§r %n       - See more on this in the Environmental Preferences quest.%n%nAll crops have a base Nutrient Score of 5.%n%nYou can check the Nutrient Score of a crop by using a Portable Scanner on any crop sticks or Industrial Farm controller, even if it's empty.%n%nCrop tier determines the Nutrient Score requirements for growth. %nThe following cutoffs apply:%n%n§lTier 4 §r- Last tier where crops can be planted anywhere%n%n§lTier 5 §r- Last tier where crops can be planted anywhere as long as they can see the sky%n%n§lTier 11 §r- Last tier where crop can be anywhere as long as crops are in an 80%%+ humidity biome%n%n§lTier 12 §r- Last tier where crops can be anywhere as long as crops are in a 80%%+ humidity biome and can see the sky%n
 
 # Quest: Dark Oak Bonsai
 betterquesting.quest.RNs9o33VRcSIxlGcQnApfA.name=Dark Oak Bonsai
@@ -5359,9 +5363,9 @@ betterquesting.quest.UXgyj5YwReqPhaolpqlSdQ.desc=I mean, it's technically a gras
 betterquesting.quest.UwvcwiLER7qQrbOY1M6iww.name=Enderbloom
 betterquesting.quest.UwvcwiLER7qQrbOY1M6iww.desc=As soon as you've got some endstone to grow it above, Enderblooms can be a great source for passive Nitrogen.%n%n[note]If you're wondering how to get this crop through deterministic mutations, (as End Stone Lily also requires Enderbloom to breed deterministically) consider taking a look at the End Stone Lily quest for a quick primer on quasi-deterministic breeding through random pools.[/note]
 
-# Quest: Auronia
-betterquesting.quest.WaN7I-xVSb2SAsDULnEBKg.name=Auronia
-betterquesting.quest.WaN7I-xVSb2SAsDULnEBKg.desc=A great source of gold.%n%nAuronia leaves will 4x your gold ore.
+# Quest: Thiosulfine
+betterquesting.quest.WaN7I-xVSb2SAsDULnEBKg.name=Thiosulfine
+betterquesting.quest.WaN7I-xVSb2SAsDULnEBKg.desc=Thiosulfine is a complicated crop. At its simplest it will 4x your sulfur ore!! However, you can further process it alongside Galvania or Plumbilia leaves you can obtain additional rare materials. Notably, with Galvania, you get a chance to produce gallium dust.
 
 # Quest: Star Wart
 betterquesting.quest.WhDCyghURhuNaGl_rwNzYA.name=Star Wart
@@ -5393,7 +5397,7 @@ betterquesting.quest.Z4d2MWOOTyuBxdWVoaOMkQ.desc=A great source of tungsten.%n%n
 
 # Quest: Simple Propagation
 betterquesting.quest.Z_aW8Q3aSq2pU9hVhFX2qw.name=Simple Propagation
-betterquesting.quest.Z_aW8Q3aSq2pU9hVhFX2qw.desc=Propagating your plants is as easy as placing a double crop-stick adjacent to a mature plant and waiting. %n%nAs long as there are no other plants adjacent to the double cropstick, your plant should simply grow into it.%n%nIf you were [warn]boring[/warn] and simply placed sugarcane onto crop sticks then this quest should be easy. But come on, you're playing GTNH. We both know what kind of person you are. Also, the sooner you start statting up your crops the sooner you can see the massive benefits of crops.
+betterquesting.quest.Z_aW8Q3aSq2pU9hVhFX2qw.desc=Propagating your plants is as easy as placing a double crop-stick adjacent to a mature plant and waiting. %n%nAs long as there are no other plants adjacent to the double cropstick, your plant should simply grow into it.%n%nIf you were [warn]boring[/warn] and simply placed sugarcane onto crop sticks then this quest should be easy enough. But come on, you're playing GTNH. We both know what kind of person you are. Also, the sooner you start statting up your crops the sooner you can see the massive benefits of crops.
 
 # Quest: Flower Power!
 betterquesting.quest._D2Fw1VcSoqeHHMb8aK5DA.name=Flower Power!
@@ -5417,7 +5421,7 @@ betterquesting.quest.aZzdGU5PTX6aTXsX1u9oIw.desc=Easy acacia wood!
 
 # Quest: The Queen of Crops
 betterquesting.quest.aso1-CdJS2atlhwWpHJEoQ.name=The Queen of Crops
-betterquesting.quest.aso1-CdJS2atlhwWpHJEoQ.desc=A great source of titanium!%n%nTitania leaves will 4x your titanium ores.
+betterquesting.quest.aso1-CdJS2atlhwWpHJEoQ.desc=A great source of titanium!%n%nTitania leaves will 4x your titanium ores (including Bauxite!).
 
 # Quest: Growing Spiders
 betterquesting.quest.bYpK8VXJRhaTX8uFj4m6fQ.name=Growing Spiders
@@ -5434,10 +5438,6 @@ betterquesting.quest.csLVpyIuRPGMCnsllcwyJQ.desc=Easy slime blocks and therefore
 # Quest: Cindering Pearls
 betterquesting.quest.d5i0cS7PSyeM5iWzktBlTw.name=Cindering Pearls
 betterquesting.quest.d5i0cS7PSyeM5iWzktBlTw.desc=Cinderpearls make for a good source of blaze powder.
-
-# Quest: Intergalactic Lilies
-betterquesting.quest.duWWLb9aTYKuyovJDf_O1g.name=Intergalactic Lilies
-betterquesting.quest.duWWLb9aTYKuyovJDf_O1g.desc=Not yet implemented, but they are on their way!
 
 # Quest: Plant Based Meats
 betterquesting.quest.dy3RvEtwSHKwc3yIQQWn2g.name=Plant Based Meats
@@ -5577,7 +5577,7 @@ betterquesting.quest.tle9KskbQMOJ2ZS1nVWNEA.desc=A great source of lead.%n%nPlum
 
 # Quest: Coppon
 betterquesting.quest.twBLeVfZRsuVO-hHDFVIKQ.name=Coppon
-betterquesting.quest.twBLeVfZRsuVO-hHDFVIKQ.desc=A great source of copper.%n%nCoppon fiber will 4x your copper ore.
+betterquesting.quest.twBLeVfZRsuVO-hHDFVIKQ.desc=Coppon fiber, while it won't make a nice sweater, it will 4x your copper ore. It can also be processed directly to copper dust.
 
 # Quest: More Copper
 betterquesting.quest.uU7RWnAOTOigmH6eYivwog.name=More Copper
@@ -5589,7 +5589,7 @@ betterquesting.quest.vOZpJncURaq1H0pUzFNblw.desc=The Overclocked Growth Accelera
 
 # Quest: Cobalt Berries
 betterquesting.quest.vS-gZqlCSJiI6rVi0KTzxw.name=Cobalt Berries
-betterquesting.quest.vS-gZqlCSJiI6rVi0KTzxw.desc=Too blue blueberries. Cobalt oreberries!
+betterquesting.quest.vS-gZqlCSJiI6rVi0KTzxw.desc=Too blue blueberries. Probably wouldn't want to eat these.
 
 # Quest: Witchery Seeds
 betterquesting.quest.vX0tDVpeSG67fojo-jPmjg.name=Witchery Seeds
@@ -8291,6 +8291,10 @@ betterquesting.quest.M_HRDMb8Q2GnvpgfgsRnRw.desc=You get the idea, these ones do
 betterquesting.quest.UuBSfl0oRLqUL92DUyXMOw.name=IV 64A Hatches
 betterquesting.quest.UuBSfl0oRLqUL92DUyXMOw.desc=The final multi-amp hatches for IV, 64A!
 
+# Quest: Turbo Charger
+betterquesting.quest.WepJu665QSeCXHhtAKl1wQ.name=Turbo Charger
+betterquesting.quest.WepJu665QSeCXHhtAKl1wQ.desc=This block accepts up to 64 amps and can output up to 16 amps at its tier. Items inside it are charged at a rate of 120 amps using its pre-filled internal buffer. It can also hold up to 4 different items.%n%n[note]The full internal buffer can sustain charging one item at maximum speed for about 10 seconds, or four items for about 2.5 seconds![/note]
+
 # Quest: IV 4A Hatches
 betterquesting.quest.crSDPHDOT1m9OXmI4mUFbQ.name=IV 4A Hatches
 betterquesting.quest.crSDPHDOT1m9OXmI4mUFbQ.desc=Same as the EV Multi-amp hatches, use these to extract and insert many amps from your LSC.
@@ -10688,9 +10692,9 @@ betterquesting.quest.zNBMiy1gQuC_GY0wtQ4cbA.desc=Those Digital Singularities, wh
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAFA.name=How to Be(e)
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAFA.desc=A non-tiered quest set that is meant as an in game, quest based tutorial and guide to bees. Since they are a really helpful tool to advance forward.
 
-# Quest: Splicer
-betterquesting.quest.A462Q2yHRleMxFZCeNzhuA.name=Splicer
-betterquesting.quest.A462Q2yHRleMxFZCeNzhuA.desc=The Splicer is much like the Inoculator in function, however it has the benefit of not requiring any liquid. %n%nThe Splicer will take a Genome Template from the Sequencer and will 'Splice' in the DNA, allowing you to change a bee's genetics.%n%nThe primary drawback of using this compared to the Inoculator is the increased expense of the block, and the significant power cost in comparison.
+# Quest: The Truth About Serum
+betterquesting.quest.9UmsrQkNSbutaMzTgYMcsA.name=The Truth About Serum
+betterquesting.quest.9UmsrQkNSbutaMzTgYMcsA.desc=Genetics has its own little glassware for carrying chosen genes over to Larvae. The Serum Vial will let you carry one gene to a Larvae. That's kind of underwhelming, so it's better to combine a few of them into a Serum Array. Then you can have a full buffet and pick one of each possible trait.%n%nYou must "charge" the Serum in a Polymerizer. Then you can feed it into an Inoculator or a Splicer to modify a Larvae. Look at the number of charges left on the Serum to see how many times you can do this. You can recharge it by putting it back in a Polymerizer. So if you ever get a magic recipe, you can just leave a Serum Array of it around and just recharge it as you need it.%n%n[note]You cannot recharge Serums using a Thaumic Restorer.[/note]
 
 # Quest: To Scan or Not to Scan
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB-A.name=To Scan or Not to Scan
@@ -10872,25 +10876,21 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAF7A.desc=If bee breeding is a dice game,
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFVw.name=Upgrade Your Forestry Backpack
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFVw.desc=With your woven silk you can upgrade your Forestry backpacks. Each Pack has 45 slots.%n%nYou need a carpenter, your old backpack and a bit of seed oil.%n%nIf the recipe isn't working, put the bag in a crafting grid to reset its NBT data. After removing anything in it of course.
 
-# Quest: Analyzer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHog.name=Analyzer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHog.desc=The Analyzer is a machine that acts in an identical way to the Forestry Analyzer, in that it reveals the genome of bees, trees, butterflies and flowers. It can also be used to reveal the gene present on the DNA Sequence. Unlike the Analyzer, the Analyzer uses power (RF or EU) and DNA Dye to stain chromosomes and determine the genome directly. The analyzer takes 15 seconds to analyze a single individual.%n%nInformation from these quests was taken from Binnie's wiki at [url]https://binnie.mods.wiki/wiki/Tutorial/Genetics[/url]
-
 # Quest: Master Registry
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI7g.name=Master Registry
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI7g.desc=The master beekeeper needs a master registry. Make sure you don't get any tears in your apiaries as you collect all the requirements!
 
 # Quest: Welcome to Biology Class!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIIQ.name=Welcome to Biology Class!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIIQ.desc=Binnie's Genetics mod will allow you to pick and chose traits for bees, trees and Botany flowers. But not for free! Doing this comes at a price.%n%nIt's better to provide power to an Ender IO capacitor and then power these machines with RF, instead of powering directly with GT EU, because they don't work well with GT's EU amp system.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIIQ.desc=Binnie's Genetics mod will allow you to pick and chose traits for bees, trees and Botany flowers. But not for free! Doing this comes at a price.%n%n[note]Note: We'll be focusing just on the bees in this section.[/note]%n%nYou will need a few streams of resources you can automate into passive generation. These are used across the process in different machines for different purposes, but Growth Medium is a super-resource you can substitute for some of the steps if you're able to produce that in abundance.%n%nThe research process can be easily automated. Gene modification and drone generation can be automated, but are slow and infrequent enough that you will probably just attend to them when you need them.%n%nThe general idea is to sequence a pile of leftover drones until you get all the traits you want from it. You'll then have those traits forever and can inject your own combinations of everything you've found into drone Larvae to make new drones that carry those traits. Larvae hatch only into drones. You don't get to directly hatch princesses and queens, so you have to worry about these new traits sticking across generations.%n%nThese genetic edits don't let you create new traits out of thin air. They just let you pick and choose what you have already researched, and that has to come out of bees you already have. You may use this to set up all your production bees through the rest of the game, but traits like 4x fertility also help with breeding.%n%nYou'll want to prepare a lab workspace for this. The actual machines won't take too much space. In fact, you'll probably wind up smacking a bunch of them against world accelerators, which will require direct contact due to using Tile Entity mode. What will end up taking up more space is any passive resource generation you prepare to make the process more hands-free.%n%nYou will need an alveary with a hatchery to produce Larvae of the base bee you want to modify.%n%nThese machines require RF power. It's recommended to provide power to an Ender IO capacitor and power these machines with RF instead of powering directly with GT EU. You can connect GT EU power up to these, but you run into strange consumption from amperage conversion glitches, or machines not getting power despite looking like they have proper cabling.%n%nUltimately, you'll need at least 7 of these casings and could end up making 14+ casings for all the machines you may opt to produce. You will also need HV-tier circuit production. There is §oone§o§r EV circuit involved in the complete process too.%n%n[note]We give special credit to Three for a video explaining all these machines and their interplay:%n%n§oAn Early Game Guide to Genetically Modify your Bees in Gregtech: New Horizons§r%n[url]https://www.youtube.com/watch?v=EmhDlga2SCA[/url]%n%nNote that he will rant about the quest book. That was--ahem--an older version of the quest book.%n[/note]
 
 # Quest: Making Bees More Comfortable
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIIg.name=Making Bees More Comfortable
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIIg.desc=The acclimatiser is a key machine for breeding your bees. With lots of power and the appropriate ingredients you can toughen your bees to thrive anywhere. It's recommend to use an EnderIO capacitor to power this device. However, even with climate hardiness your bees still won't produce special items unless they are in their favorite climate. Along with the bee, put in these items to adjust the bee's traits:%n%nSnowball - More cold tolerance%nLava - More heat tolerance%nSand - More dry tolerance%nWater - More wet tolerance%n%nYou should know that the acclimatiser doesn't return capsules or cells. The amount of items needed is pretty random.%n%n[note]A nice trick is to start with a bee that already has both. Then you can use either direction to increase it further! You don't need any lava if you do it like this. And no cells either. You can just use sand and snowballs.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIIg.desc=The Acclimatiser can widen the temperature tolerance of a bee. This is technically a little side quest with Binnie's Genetics machines, but these alterations are permanent and carry into their genome.%n%nNote that the bee's species determines its favored temperature for jubilance. You can't use this to make a bee produce secondary products in a different climate.%n%nDrones, princesses, queens, and even larvae can go in these machines. This means you can boost one queen and be set for life for that bee.%n%n(You can also use it for pollen, butterflies, caterpillars, plants...)%n%nWhen a specimen's tolerance has been pushed as far as it can go, that bee will go in the output slot. The typical thing to do here is pipe the bee automatically into another Acclimatiser like a little trauma conga line. At the end, the bee should be able to tolerate being anywhere.%n%nHere's what you can use for what at what factors:%n* Temperature down%n  * ice: 0.75%n  * snowball: 0.15%n* Temperature up%n  * lava (canned!): 0.75%n  * blaze powder: 0.5%n  * blaze rod: 0.75%n* Humidity up:%n  * water (canned!): 0.75%n* Humidity down:%n  * sand: 0.15%n%nFluid containers are consumed. If only you had a waxy substance in overabundance you could use for throwaway fluids!%n%n[note]The Ole' "Both Trick": If your specimen already has at least Up/Down 1 for temperature or humidity, acclimatising it in the opposite direction will make it Both 1. The trick is that it'll now grow both ways for the price of expanding only in one.%n%nSo, if handling canned water and lava is annoying, and you can start with Up 1 for temperature and humidity, then you can just bombard it with temperature and humidity lowering steps. It'll switch to Both 1 and then eventually Both 5 without ever raising temperature or humidity again.%n%nThis lets you skip out on canning liquids, you sly dog.%n[/note]
 
 # Quest: Incubator
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIKA.name=Incubator
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIKA.desc=This is a crafting machine that heats items and liquids to a temperature that encourages bacterial growth.%n%nThe first step of incubation is the creation of Liquid Growth Medium, which is made from incubating Water and Growth Medium. This is subsequently incubated with Wheat to give Bacteria. This solution of bacteria can then be incubated a third time with Sugar to give Enzyme. This is an important compound used in other machines.%n%nThe best way to create enzyme is therefore to chain three incubators together, for each step of the process.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIKA.desc=The Incubator is a general production machine that serves two purposes:%n%n1. Hatching (modified) Larvae into drones at the end of the whole process.%n2. Heating items and liquids to produce different resources you will need in different parts of the entire research and modification process.%n%nThere are up to five different resources you can create from Incubators:%n%n1. Liquid Growth Medium: Water + Growth Medium%n2. Bacteria: Liquid Growth Medium + Wheat OR more Bacteria + Growth Medium%n3. Enzyme: Bacteria + Sugar%n4. Bacteria Vector: Bacteria + Blaze Powder OR more Bacteria Vector + Growth Medium%n5. Polymerizing Bacteria: Bacteria + Bonemeal OR more Polymerizing Bacteria + Growth Medium%n%nThree of the recipes can optionally be extended by injecting them with more Growth Medium instead of using a different ingredient. If you're able to produce a bunch of Growth Medium, consider "priming" incubators for these outputs and then switching them to use Growth Medium indefinitely in a feedback loop.%n%nEnzyme is usually produced in a pipeline from Bacteria, which is in turn produced from Liquid Growth Medium.%n%nBacteria Vector is only used by the Inoculator to modify Larvae, and you don't need it if you use a Splicer instead.%n%nPS: You'll also need a source for Ethanol for the Genepool and the Isolator. This technology line has a drinking problem.%n%nPPS: Blaze Powder also comes up with at least Fluorescent Dye later.
 
 # Quest: Bees By the Millions
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIKQ.name=Bees By the Millions
@@ -10902,7 +10902,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIKg.desc=A GT++ Mutagenic frame will get
 
 # Quest: Upgrading the Alveary
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIKw.name=Upgrading the Alveary
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIKw.desc=These basic upgrades to the Alveary make it more powerful.%n%nFrame Housing - Automation-enabled frame slot for the Alveary. Uses §55 durability§r every bee tick (27s). If it runs out on that tick, it has no effect.%nAlveary Stabilizer - Prevents the bees from mutating into another species. Ideal for breeding traits into a line.%nAlveary Transmission - Power input for upgrades that use power.%nHatchery - Hatches larval bees for use in Genetics or to create additional drones. Not used for Gendustry stuff.%nAlveary Sieve - Instead of the pollen from a bee fertilizing a nearby tree, it is stored here and can be manually applied. Requires manually placing woven silk in the inventory.%nSwarmer - Creates additional Ignoble queens in hives around the Alveary. These are genetic copies of the original. This uses royal jelly or aromatic lumps. The latter are more effective.%n%n[note]Note that all upgrade blocks must be in the bottom 2 layers. The center block also cannot be an upgrade block, though the bottom center can.[/note]%n%n[warn]When using power, the transmission block will suck down entire amps to fill a tiny amount. Use the EIO capacitors or something similar to prevent this.[/warn]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIKw.desc=These basic upgrades to the Alveary make it more powerful.%n%nFrame Housing - Automation-enabled frame slot for the Alveary. Uses §55 durability§r every bee tick (27s). If it runs out on that tick, it has no effect.%nAlveary Stabilizer - Prevents the bees from mutating into another species. Ideal for breeding traits into a line.%nAlveary Transmission - Power input for upgrades that use power.%nAlveary Sieve - Instead of the pollen from a bee fertilizing a nearby tree, it is stored here and can be manually applied. Requires manually placing woven silk in the inventory.%nSwarmer - Creates additional Ignoble queens in hives around the Alveary. These are genetic copies of the original. This uses Royal Jelly or Aromatic Lumps. The latter are more effective.%n%n[note]Note that all upgrade blocks must be in the bottom 2 layers. The center block also cannot be an upgrade block, though the bottom center can.[/note]%n%n[warn]When using power, the transmission block will suck down entire amps to fill a tiny amount. Use the EnderIO capacitors or something similar to prevent this.[/warn]
 
 # Quest: Busy Bees Buzzing Boldly
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAILA.name=Busy Bees Buzzing Boldly
@@ -10910,7 +10910,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAILA.desc=These upgrades can significantl
 
 # Quest: A Stim a Day Keeps the Doctor Awake
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAILQ.name=A Stim a Day Keeps the Doctor Awake
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAILQ.desc=Supporting circuit boards that can hold 4 electron tubes, the Electrical Stimulator provides a variety of functions. All numbers are in percent:%n%nIron ET -> +0.5 Production%nDiamantine ET -> +1.5 Production%nApatine ET -> 1.5x Pollination (Max 5x)%nObsidian ET -> 0.8x Lifespan%nLapis ET -> 1.5x Lifespan (Max 5x)%nBlazing ET -> Simulates Hellish temperature%nGolden ET -> 1.5x Mutation Rate (Max 5x)%nTin ET -> 0.4x Territory (Min 0.1) & -0.1 Production%nBronze ET -> 1,5x Territory (Max 5x)%n%nGenetic Decay is also increased by 50%% for all of them. This affects how long until ignoble bees die off, so don't worry about it if your bees are pristine.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAILQ.desc=Supporting circuit boards that can hold 4 electron tubes, the Electrical Stimulator provides a variety of functions. Use a Forestry Soldering Iron on an Intricate Circuit Board to set four slots worth of electron tubes. The tubes' capabilities are listed here as percentages:%n%nIron ET -> +0.5 Production%nDiamantine ET -> +1.5 Production%nApatine ET -> 1.5x Pollination (Max 5x)%nObsidian ET -> 0.8x Lifespan%nLapis ET -> 1.5x Lifespan (Max 5x)%nBlazing ET -> Simulates Hellish temperature%nGolden ET -> 1.5x Mutation Rate (Max 5x)%nTin ET -> 0.4x Territory (Min 0.1) & -0.1 Production%nBronze ET -> 1.5x Territory (Max 5x)%n%nGenetic Decay is also increased by 50%% for all of them. This affects how long until ignoble bees die off, so don't worry about it if your bees are pristine.%n%nRemember that lifespan is represented by ticks, not time. You need a world accelerator if you want a lifespan that is really less than 1 tick.%n%n[note]Breeder's Notes:%n12x Golden ETs and 20x Obsidian ETs across eight of these will make a super breeding party alveary; it will spike your mutation chances while dramatically decreasing lifespan. If you have been using the oblivion frame in an apiary to shorten lifespan for breeding, then this *does not* replace that because you cannot use world accelerators in alvearies. So the shortest you can reduce a bee's life cycle to is 1 tick = 27 seconds. On the other hand, dramatically increasing the mutation rate in the alveary may be faster for crossbreeding.%n%nProduction Apiarist's Notes:%nAlternately, you can slam down three of these with:%n* 10x Diamantine%n* 2x Iron%nThat'll take you right up to the production limit. Any higher and you risk your pristine princesses turning ignoble from overwork.[/note]
 
 # Quest: X-Men, or Should I Say X-Bee?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAILg.name=X-Men, or Should I Say X-Bee?
@@ -10918,39 +10918,35 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAILg.desc=The Mutator can vastly accelera
 
 # Quest: Genepool
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAILw.name=Genepool
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAILw.desc=Another important resource is Raw DNA. This can be obtained from any breedable organism such as bees, trees or flowers, and is created in the Genepool. The Genepool requires both Ethanol and Enzyme to digest the DNA, and will destroy the organism. Note this gives raw DNA, and does not preserve any genes or alleles present.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAILw.desc=You will need to feed Raw DNA into a Polymerizer to prime your gene samples for injection into Larvae. The Genepool eats Enzyme and guzzles Ethanol in order to produce more Raw DNA than you could ever find even in a public gas station's restroom.%n%nIt is basically a chipper shredder for your leftover drones. You were hoarding them because you might need them some day, right? Today's that day! Whatever you put in here is going to go bye-bye. Make sure you keep some of your different drones around just in case.%n%nIt will also take saplings, flowers, and any excess Larvae you should be pumping out by now for modification and hatching.%n
 
 # Quest: Isolator
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIMA.name=Isolator
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIMA.desc=The Isolator acts in a similar way to the Genepool, but does not completely destroy genes. It instead allows the isolation of a single gene from an organism, without destroying it. The exact gene is random, and is written into a Blank Sequence. Until the sequence is analyzed in an Analyzer, it will be unknown what the gene is. It doesn't however need to be analyzed before being sent to the Sequencer.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIMA.desc=The Isolator will take Ethanol and Enzyme to extract a single gene from a candidate bee. Sometimes it gets hungry and eats the bee too. Don't feed it any bees you won't mind getting destroyed!%n%nYou must provide a Blank Sequence to store the output gene. This will be stored with a "faint" level of strength that can be sequenced slowly, or made stronger to be sequenced faster by passing the sequence through a Polymerizer.%n%nThe exact gene you get from the bee is going to be a random choice from that bee's genome. You won't know what it is until you run it through the Sequencer. It will then be accessible forever in the Gene Database.%n%nYou can wind up isolating the same gene from the same bee multiple times. It's just bad luck. They won't be isolated in any particular order.%n%nThe Sequencer will drain the container back into a Blank Sequence, so you can feed them back into the Isolator. You only ever need to make a few Blank Sequences because you can just loop like this indefinitely. If, however, you have a sequenced gene and want to make it blank again immediately, then just run it through your smelting/furnace device of choice.
 
 # Quest: Sequencer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIMQ.name=Sequencer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIMQ.desc=After obtaining a DNA Sequence with the gene that you wish, it must be placed in the Sequencer. This uses Fluorescent Dye to determine the correct sequence, and when completed logs the discovery. The important thing here is that the discovery goes to the person who placed the machine.%n%nGenes are sequenced faster if the sequence has been placed in a Polymeriser first to increase the strength.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIMQ.desc=After obtaining a DNA Sequence with the gene that you wish, it must be placed in the Sequencer. This uses Fluorescent Dye to determine the correct sequence, and when completed, logs the discovery. The important thing here is that §nthe discovery goes to the person who placed the machine.%n%n§rThis process takes §l16 minutes§r! If the gene has been passed through a Polymeriser beforehand, it'll speed it up to only 4 minutes. You could also hug the machine with World Accelerators in Tile Entity mode to speed it up further.%n
 
 # Quest: Polymeriser
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIMg.name=Polymeriser
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIMg.desc=Serums and sequences can be placed in a Polymeriser to increase their strength and amount of DNA held within. Serums need to be polymerised at least once before being used in the inoculator. To polymerise, both Raw DNA and Polymerising Bacteria are required. Raw DNA is obtained from the Genepool, and Polymerising Bacteria is made from incubating bacteria with bone meal. Gold nuggets can be used as a catalyst to speed up the process.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIMg.desc=The Polymeriser is necessary to turn Serum into something you can actually inject into a Larvae. It has a bonus use of strengthening an isolated gene so it can be sequenced faster by a factor of 4x.%n%nThe Polymeriser requires Raw DNA and Polymerising Bacteria. Raw DNA is obtained from the Genepool, and Polymerising Bacteria is made from incubating bacteria with bone meal. Gold nuggets can be used as a catalyst to speed up the process. You can also make more Polymerising Bacteria by feeding it back into an Incubator with Growth Medium.%n%nWhen using the Polymeriser to prepare some Serum for a Larvae, the result will have a number of "charges." In other words, you get multiple uses out of it. This is nice because you are going to need to make a bunch of drones if you are trying to get all those traits to stick. Remember that you cannot use this process to modify a princess or queen directly! If you are satisfied before you use up all the Serum, you can recycle it by passing it through a smelter/furnace of your choice.%n%nIt takes two minutes to polymerise stuff. If you already use a World Accelerator for sequencing, then the Polymeriser would also benefit from cuddling up with that accelerator on another side.
 
 # Quest: Gene Database
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIMw.name=Gene Database
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIMw.desc=Discovered genes are logged into the Gene Database. This handheld device lists all genes by the type of organism they apply to. To add a gene to an Empty Serum Vial to allow inoculation, the desired gene can be clicked on while holding the vial. An Empty Serum Array can be used to hold more than one gene at once.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIMw.desc=Discovered genes are logged into the Gene Database. This handheld device lists all genes by the type of organism they apply to.%n%n§oThis device requires an EV circuit! Of all the things in the Binnie's Genetics line, it has the most technologically sophisticated requirement!%n§r%nUse an Empty Serum Vial or Empty Serum Array on the different discovered traits to prepare a cocktail you want to inject into a Larvae. If you misclick, you can just click on the one you wanted without consequence.%n
 
 # Quest: Lab Stand
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAINA.name=Lab Stand
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAINA.desc=The Lab Stand is a block on which an Apiarist Database, Arborist Database, Botanist Database or Gene Database can be placed by right-clicking on the placed stand with the database, attaching it and allowing the database to be accessed by right-clicking on the stand.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAINA.desc=The Lab Stand is a block on which an Apiarist Database, Arborist Database, Botanist Database or Gene Database can be placed by right-clicking on the placed stand with the database, attaching it and allowing the database to be accessed by right-clicking on the stand.%n%nThis is not a required structure, but people like to put their Gene Database on one as a kind of trophy case.
 
 # Quest: Registry
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAINg.name=Registry
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAINg.desc=The Registry combines the existing four databases into a new sleek browser to allow the properties, mutations and genes of all discovered bees, trees, butterflies and flowers.
 
-# Quest: Inoculator
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAINw.name=Inoculator
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAINw.desc=The final step is inoculation. Currently the most cost effective machine capable of inserting genes is the Inoculator. This uses Bacteria Vector, created by incubating Bacteria and Blaze Powder, to transfer the gene into organisms.%n%nOnly the young stage of organisms can be injected, which are larvae (bees), pollen (trees and flowers) and caterpillars (butterflies). Bee larvae can be converted into drones by incubating with Liquid Growth Medium.
-
-# Quest: Tools for the Geneticist
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIOA.name=Tools for the Geneticist
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIOA.desc=You'll need various tools and supplies before you start manipulating genetic material.
+# Quest: Droning On
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAINw.name=Droning On
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAINw.desc=§n§rFinally! You can hack bees*! You have two choices, and you will only ever need one. Either way you go, you will hatch the modified drone using an Incubator that's been loaded with Bacteria Vector afterwards.%n%nBoth scale their requirements by the number of genes you intend to apply to a single Larvae.%n%n§nThe Inoculator§r%n%nRun Time: 10 minutes per gene%nRF Cost: 600,000 RF per gene%nRF/t: 50%nBacteria Vector: 15 mB per gene.%n%nThis one has a lower power and recipe cost at the expense of needing Bacteria Vector, created by incubating Bacteria and Blaze Powder, to transfer the gene into organisms. The consumption for Bacteria Vector is quite low.%n%nIt is also §oslooooow§... %n§r%n§nThe Splicer§r%n%nRun Time: 1 minute per gene%nRF Cost: 12,000,000 RF per gene%nRF/t: §l1,000%n§r%nThe Splicer is much like the Inoculator in function, however it has the benefit of not requiring any liquid. Its power consumption is terrifying compared to the Inoculator, but overall it only consumes twice the RF despite gobbling it much faster.%n%n*or trees and flowers via their pollen, or butterflies via their caterpillars.
 
 # Quest: Figuring Out Butterflies
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIOg.name=Figuring Out Butterflies
@@ -11007,6 +11003,22 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAM1A.desc=Aka the Mega Apiary.%n%nIt has 
 # Quest: Pollen Collection Kit
 betterquesting.quest.FLhv4l1HSSmaLiwukzMVSg.name=Pollen Collection Kit
 betterquesting.quest.FLhv4l1HSSmaLiwukzMVSg.desc=The easy way to get some pollen, just right-click on leaves. The Pollen Collection Kits are one-time use though, so maybe make a few.
+
+# Quest: Living It Larvae
+betterquesting.quest.Hhjp0qVoTpGwa7tXdFxDIg.name=Living It Larvae
+betterquesting.quest.Hhjp0qVoTpGwa7tXdFxDIg.desc=To play with Binnie's Genetics with bees, you'll need some Larvae, and a Hatchery block inside an Alveary is the only way to make them. There's a little side perk for having them: they produce at a much faster rate than you'd get from any one species' drones. Those leftovers can feed into the Gene Pool for extra raw DNA. Just remember to keep a few Larvae on standby for the actual genetic modification!%n%nThe bee you use in the Alveary should be whatever you intend to modify. It can be any kind if you intend to overwrite all the traits, but you probably should have it either be:%n%n1. Some new species which will have everything else overwritten.%n2. Some existing superbee that you want to switch to a new species.%n%nThe Larvae will eventually be hatched in an Incubator into a modified drone based on whatever genetic traits you have inserted into it.
+
+# Quest: Fluorescent Dye
+betterquesting.quest.TXoGYz4yQZa_Ei-7Xmmt-A.name=Fluorescent Dye
+betterquesting.quest.TXoGYz4yQZa_Ei-7Xmmt-A.desc=Here is another one requiring ingredients you'll want to passively generate. The Sequencer needs one (1) Fluorescent Dye per gene it sequences. Each one is made from one of each tossed into a Mixer:%n%n* redstone%n* glowstone%n* orange dye%n* yellow dye%n* molten blaze (from blaze powder)%n%nGiven how many bees you'll end up sequencing to get all the key genes you want, expect to need at least some hundreds or even thousands of these. Yes, there are only so many actual genes, but you're going to be hitting duplicates.
+
+# Quest: Enzyme on The Mind
+betterquesting.quest.VPMAIP9xRoqjJKeuED9cgw.name=Enzyme on The Mind
+betterquesting.quest.VPMAIP9xRoqjJKeuED9cgw.desc=Both the Genepool and the Isolator will require Enzyme. This is a resource you will want to passively generate for continuous gene research. It will require Bacteria and sugar. Bacteria can be created from (fluid) Growth Medium and Wheat in an Incubator. If you then have a bunch of Growth Medium, you can keep using that instead to stretch out that Bacteria forever. It's kind of like a sourdough starter.%n%nFor sugar, there's plenty of ways to passively generate that, including from bees!
+
+# Quest: Growth Medium
+betterquesting.quest.t4W99zCeT8qQIqbNyaCE_Q.name=Growth Medium
+betterquesting.quest.t4W99zCeT8qQIqbNyaCE_Q.desc=The Binnie's Genetics machines will rely on Growth Medium in either a little, or a lot. If you can't make too much of it, then you'll need to rely on other passive generation to keep the machines constantly supplied for researching genes. If you can make a lot of Growth Medium, then you can use it in a closed loop in Incubators to duplicate some of the mod's resources you have previously produced just once.%n%nIt requires:%n* Sugar: The easy one here, and remember multiple bee species can produce it too.%n* Bones (whole bones, not meal): mob farm, animal traps, goofy conversions.%n* Wood Ash: Smelt some saplings.%n* Mulch: There are a lot of ways to do this, but consider Peat bees since you're already going for the bees.%n%nThis quest is just a little nudge that you should passively produce Growth Medium, which means being able to passively produce all of these ingredients.
 
 
 ## Quest Line: Be(e) Breeding
@@ -15023,6 +15035,10 @@ betterquesting.quest.xV1gLYpLSoaTs-Fg-3jmdw.desc=No Description
 # Quest: Trigger: Rocket Tier 6 Skip
 betterquesting.quest.xcpJ6bs3R-i9KuADhiHOXw.name=Trigger: Rocket Tier 6 Skip
 betterquesting.quest.xcpJ6bs3R-i9KuADhiHOXw.desc=No Description
+
+# Quest: Trigger: Stonelily Tutorial Skip
+betterquesting.quest.xirTmg1QQo6Ix9Z2Ezl4EQ.name=Trigger: Stonelily Tutorial Skip
+betterquesting.quest.xirTmg1QQo6Ix9Z2Ezl4EQ.desc=
 
 # Quest: Trigger: Rocket Tier 8 Skip
 betterquesting.quest.zDoZ8PcTSFWF8Jh5diM0_Q.name=Trigger: Rocket Tier 8 Skip
