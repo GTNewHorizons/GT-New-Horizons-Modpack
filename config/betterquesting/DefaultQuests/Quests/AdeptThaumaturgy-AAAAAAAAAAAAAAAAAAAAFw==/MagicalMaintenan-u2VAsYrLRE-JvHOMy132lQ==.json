@@ -1,0 +1,110 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 275
+    },
+    "1:10": {
+      "questIDHigh:4": -7526997529465109008,
+      "questIDLow:4": -7381838222159086836
+    },
+    "2:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1246
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Maintaining multiblocks can be a pain, especially if you prefer performing other tasks around your base.  \nTo solve this, a certain engineer developed the Magical Maintenance Hatch — a simple maintenance hatch that fixes all your maintenance problems using centi-vis.\n\nSimply attach the hatch to any multiblock and keep it within reach of a centi‑vis network. The device will consume 2500 centi‑vis of each primal aspect to resolve any maintenance problems the multiblock may develop.\n\n[note]The hatch stores 5000 centi-vis of each primal aspect. This means it takes on average 1000 ticks (50 seconds) to reach the internal buffer.[/note]\n\n[warn]If you're having trouble making it work, make sure you place the hatch near a Vis Relay or an energized node with each primal aspect.[/warn]",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 15753,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.blockmachines"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Magical Maintenance Hatch",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -4943473884687285169,
+  "questIDLow:4": -8521809346347272555,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 16,
+          "OreDict:8": "",
+          "id:8": "Thaumcraft:ItemResource"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "Thaumcraft:ItemEldritchObject"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 10,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag",
+          "tag:10": {
+            "ench:9": {
+              "0:10": {
+                "id:2": 35,
+                "lvl:2": 3
+              }
+            }
+          }
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:CoinDarkWizardI"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 15753,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
