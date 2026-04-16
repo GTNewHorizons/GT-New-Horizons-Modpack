@@ -12576,6 +12576,10 @@ betterquesting.quest.lMDEhTDISSG1u2HYaZVg9w.desc=Sanitizing Soap isn't strong en
 betterquesting.quest.q9PTMZlaR-GCnyoGNoO8Pw.name=Research Completer
 betterquesting.quest.q9PTMZlaR-GCnyoGNoO8Pw.desc=Let's face it... nobody (sane) wants to do all of their research manually!%n%nNow that you've learned how to collect nodes and create a wand recharging pedestal you can make the research completer. This quest shows the minimum required blocks but the structure can be up to 13 in length.%n%nThis machine will consume EU and eat nodes placed in the center of it in exchange for completing research notes given to it. If you're using a long machine it's highly recommended you use node stabilizers underneath your nodes to prevent them from destroying each other.%n%n[note]Of course you need to §lresearch§r the Research Completer, you'll find it in the electro-magic tools tab.[/note]
 
+# Quest: Magical Maintenance Hatch
+betterquesting.quest.u2VAsYrLRE-JvHOMy132lQ.name=Magical Maintenance Hatch
+betterquesting.quest.u2VAsYrLRE-JvHOMy132lQ.desc=Maintaining multiblocks can be a pain, especially if you prefer performing other tasks around your base.  %nTo solve this, a certain engineer developed the Magical Maintenance Hatch — a simple maintenance hatch that fixes all your maintenance problems using centi-vis.%n%nSimply attach the hatch to any multiblock and keep it within reach of a centi‑vis network. The device will consume 2500 centi‑vis of each primal aspect to resolve any maintenance problems the multiblock may develop.%n%n[note]The hatch stores 5000 centi-vis of each primal aspect. This means it takes on average 1000 ticks (50 seconds) to reach the internal buffer.[/note]%n%n[warn]If you're having trouble making it work, make sure you place the hatch near a Vis Relay or an energized node with each primal aspect.[/warn]
+
 
 ## Quest Line: Kaaami, Haaaami, ... HA!
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAGA.name=Kaaami, Haaaami, ... HA!
