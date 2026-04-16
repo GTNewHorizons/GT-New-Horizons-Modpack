@@ -4971,6 +4971,10 @@ betterquesting.quest.ogXyVJTpQ8ONbZthhrupqg.desc=Given sufficient magical prowes
 betterquesting.questline.GbGDSZsbQUekpRKT9ZPdjw.name=The Green Revolution
 betterquesting.questline.GbGDSZsbQUekpRKT9ZPdjw.desc=And remember crawlers: Kill, Kill, Kill! But only plants.
 
+# Quest: Auronia
+betterquesting.quest.-9Qf3tBHQbKZrhhefIRApg.name=Auronia
+betterquesting.quest.-9Qf3tBHQbKZrhhefIRApg.desc=A great source of gold.%n%nAuronia leaves will 4x your gold ore.
+
 # Quest: Mutation Titration
 betterquesting.quest.0P-0LIDsRa-0r0SDSfZTUg.name=Mutation Titration
 betterquesting.quest.0P-0LIDsRa-0r0SDSfZTUg.desc=Before going any further you really should craft a lot,[note] and I mean a lot[/note], of crop sticks. Hope you like chopping trees and crafting saws! §o§oYou should've seen the old recipe...%n%n§o§rEach of the adjacent quest groupings represent a different category of crops found within the mod. I would recommend you look first at the quests focusing on [warn]Improving Your Crops[/warn] and [warn]Controlled Breeding[/warn].%n%nWhile not every crop will produce a useful harvest, they very well may deterministically breed into a useful crop.%n%nCertain crops need more than just two parents to breed. For those crops, simply surround a single double cropstick with all 3-4 crops needed and continue as normal.%n%n[note]Be free farmhand~![/note]
@@ -5253,7 +5257,7 @@ betterquesting.quest.If475S_dQ5y_f8KcSRHeXQ.desc=While it can't produce certus q
 
 # Quest: A Summary of Crossbreeding
 betterquesting.quest.Ik4r-iNLSEK_uq5FXqspQA.name=A Summary of Crossbreeding
-betterquesting.quest.Ik4r-iNLSEK_uq5FXqspQA.desc=When crops breed, the resulting stats are the average of the parents' stats plus a random value between -2 and 4.%n%nEssentially, the variation pool will be a fixed (-2 -> +4). If all parents have fertilizer in them, stat loss is prevented. (0 -> +4)%n%nDeterministic breeding is similar to how bees work, where you must bring the right species together. Some situations require more than two parents.%n%n[note]Advanced crops (§5MV§r and above materials) will require the breeding machine.[/note]%n%nLow-ish-tier crops will also have access to breeding pools, where similar crops may be bred with others of the same “type” to produce other similar crops.
+betterquesting.quest.Ik4r-iNLSEK_uq5FXqspQA.desc=When crops breed, the resulting stats are the average of the parents' stats plus a random value between -2 and 4.%n%nEssentially, the variation in stats is a fixed (-2 -> +4). If all parents have fertilizer in them, stat loss is prevented in all cases (0 -> 4). %n%nDeterministic breeding is similar to how bees work, where you must bring the right species together. Some situations require more than two parents.%n%n[note]Advanced crops (§5MV§r and above materials) will require the breeding machine.[/note]%n%nMost crops will also have access to breeding pools, where similar crops may be bred with others of the same “type” to produce other similar crops. When first starting out, it can be helpful to use these pools to collect many different types of crops. They are a bit more complicated so we will get into them after you breed the stonelily.%n%nIf you find the process of breeding new crops deterministically too slow, maybe try statting up one species and using it to create a bunch of 31/31/31 seeds for crops in pools it shares. Remember that fertilizer prevents stat loss in all cases, this includes breeding.
 
 # Quest: Thauminite Berries
 betterquesting.quest.J04fEo0DTReAF9BJlQZ9RA.name=Thauminite Berries
@@ -5325,7 +5329,7 @@ betterquesting.quest.QvknAsqFQoKau7FK0ZPPSw.desc=No, they won't produce Bonsai s
 
 # Quest: Crop Nutrients
 betterquesting.quest.R7QRLmaJRHuxmNcGpjX0hQ.name=Crop Nutrients
-betterquesting.quest.R7QRLmaJRHuxmNcGpjX0hQ.desc=The speed at which a crop grows is based on its Nutrient Score. There are a number of different ways to obtain Nutrient Points for your crops, but to keep your crops from getting sick try to make sure they are always receiving at least a couple of the below bonuses:%n%n§l- +10 Points§r can be gained from having water in your crop sticks.%n§l- +10 Points§r can be gained from having fertilizer in your crop sticks.%n§l- +2 Points§r can be gained from allowing the crop to see the sky.%n       - Crops in the Industrial Farm will always have this bonus.%n§l- +28 Points§r can be gained from preferred biome tags%n       - [warn]If no preferred tags are found[/warn], high humidity will §rgive up to §l+14 Points.§r %n       - See more on this in the Environmental Preferences quest.%n%nAll crops have a base Nutrient Score of 5.%n%nYou can check the Nutrient Score of a crop by using a Portable Scanner on any crop sticks or Industrial Farm controller, even if it's empty.%n%nCrop tier determines the Nutrient Score requirements for growth. %nThe following cutoffs apply:%n%n§lTier 4 §r- Last tier where crops can be planted anywhere%n%n§lTier 5 §r- Last tier where crops can be planted anywhere as long as they can see the sky%n%n§lTier 11 §r- Last tier where crop can be anywhere as long as crops are in an 80%%+ humidity biome%n%n§lTier 12 §r- Last tier where crops can be anywhere as long as crops are in a 80%%+ humidity biome and can see the sky%n
+betterquesting.quest.R7QRLmaJRHuxmNcGpjX0hQ.desc=The speed at which a crop grows is based on its Nutrient Score. There are a number of different ways to obtain Nutrient Points for your crops, but to keep your crops from getting sick try to make sure they are always receiving at least a couple of the below bonuses:%n%n§l- +10 Points§r can be gained from having water in your crop sticks (scales 1-10 based on hydration level).%n§l- +10 Points§r can be gained from having fertilizer in your crop sticks (scales 1-10 based on fertilizer level).%n§l- +2 Points§r can be gained from allowing the crop to see the sky.%n       - Crops in the Industrial Farm will always have this bonus.%n§l- +28 Points§r can be gained from preferred biome tags%n       - [warn]If no preferred tags are found[/warn], high humidity will §rgive up to §l+14 Points.§r %n       - See more on this in the Environmental Preferences quest.%n%nAll crops have a base Nutrient Score of 5.%n%nYou can check the Nutrient Score of a crop by using a Portable Scanner on any crop sticks or Industrial Farm controller, even if it's empty.%n%nCrop tier determines the Nutrient Score requirements for growth. %nThe following cutoffs apply:%n%n§lTier 4 §r- Last tier where crops can be planted anywhere%n%n§lTier 5 §r- Last tier where crops can be planted anywhere as long as they can see the sky%n%n§lTier 11 §r- Last tier where crop can be anywhere as long as crops are in an 80%%+ humidity biome%n%n§lTier 12 §r- Last tier where crops can be anywhere as long as crops are in a 80%%+ humidity biome and can see the sky%n
 
 # Quest: Dark Oak Bonsai
 betterquesting.quest.RNs9o33VRcSIxlGcQnApfA.name=Dark Oak Bonsai
@@ -5359,9 +5363,9 @@ betterquesting.quest.UXgyj5YwReqPhaolpqlSdQ.desc=I mean, it's technically a gras
 betterquesting.quest.UwvcwiLER7qQrbOY1M6iww.name=Enderbloom
 betterquesting.quest.UwvcwiLER7qQrbOY1M6iww.desc=As soon as you've got some endstone to grow it above, Enderblooms can be a great source for passive Nitrogen.%n%n[note]If you're wondering how to get this crop through deterministic mutations, (as End Stone Lily also requires Enderbloom to breed deterministically) consider taking a look at the End Stone Lily quest for a quick primer on quasi-deterministic breeding through random pools.[/note]
 
-# Quest: Auronia
-betterquesting.quest.WaN7I-xVSb2SAsDULnEBKg.name=Auronia
-betterquesting.quest.WaN7I-xVSb2SAsDULnEBKg.desc=A great source of gold.%n%nAuronia leaves will 4x your gold ore.
+# Quest: Thiosulfine
+betterquesting.quest.WaN7I-xVSb2SAsDULnEBKg.name=Thiosulfine
+betterquesting.quest.WaN7I-xVSb2SAsDULnEBKg.desc=Thiosulfine is a complicated crop. At its simplest it will 4x your sulfur ore!! However, you can further process it alongside Galvania or Plumbilia leaves you can obtain additional rare materials. Notably, with Galvania, you get a chance to produce gallium dust.
 
 # Quest: Star Wart
 betterquesting.quest.WhDCyghURhuNaGl_rwNzYA.name=Star Wart
@@ -5590,10 +5594,6 @@ betterquesting.quest.vS-gZqlCSJiI6rVi0KTzxw.desc=Too blue blueberries. Probably 
 # Quest: Witchery Seeds
 betterquesting.quest.vX0tDVpeSG67fojo-jPmjg.name=Witchery Seeds
 betterquesting.quest.vX0tDVpeSG67fojo-jPmjg.desc=In case you needed to mass produce witchery crops... for some reason
-
-# Quest: Trigger: Stonelily Tutorial Skip
-betterquesting.quest.xirTmg1QQo6Ix9Z2Ezl4EQ.name=Trigger: Stonelily Tutorial Skip
-betterquesting.quest.xirTmg1QQo6Ix9Z2Ezl4EQ.desc=
 
 # Quest: The Growth Acceleration Unit
 betterquesting.quest.xlp2LlfIRdWzOoE9G_Vf0w.name=The Growth Acceleration Unit
@@ -15035,6 +15035,10 @@ betterquesting.quest.xV1gLYpLSoaTs-Fg-3jmdw.desc=No Description
 # Quest: Trigger: Rocket Tier 6 Skip
 betterquesting.quest.xcpJ6bs3R-i9KuADhiHOXw.name=Trigger: Rocket Tier 6 Skip
 betterquesting.quest.xcpJ6bs3R-i9KuADhiHOXw.desc=No Description
+
+# Quest: Trigger: Stonelily Tutorial Skip
+betterquesting.quest.xirTmg1QQo6Ix9Z2Ezl4EQ.name=Trigger: Stonelily Tutorial Skip
+betterquesting.quest.xirTmg1QQo6Ix9Z2Ezl4EQ.desc=
 
 # Quest: Trigger: Rocket Tier 8 Skip
 betterquesting.quest.zDoZ8PcTSFWF8Jh5diM0_Q.name=Trigger: Rocket Tier 8 Skip
