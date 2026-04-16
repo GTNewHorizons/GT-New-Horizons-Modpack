@@ -3,6 +3,10 @@
     "0:10": {
       "questIDHigh:4": -5726942514331959106,
       "questIDLow:4": -8232047064591166893
+    },
+    "1:10": {
+      "questIDHigh:4": -4167285846576184690,
+      "questIDLow:4": -8590661961568913391
     }
   },
   "properties:10": {
@@ -20,7 +24,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Mutation Titration",
-      "questLogic:8": "AND",
+      "questLogic:8": "OR",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
       "simultaneous:1": 0,

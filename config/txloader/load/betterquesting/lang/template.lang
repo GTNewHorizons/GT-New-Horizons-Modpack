@@ -5049,11 +5049,11 @@ betterquesting.quest.9IaKfZelRA2GaWVUgFvJQg.desc=Magic beans! Unfortunately no s
 
 # Quest: Silver And... Silver
 betterquesting.quest.9mlSMwwETgGeMJTOggJfvg.name=Silver And... Silver
-betterquesting.quest.9mlSMwwETgGeMJTOggJfvg.desc=Silver dust!
+betterquesting.quest.9mlSMwwETgGeMJTOggJfvg.desc=Silver dust! Exciting! (not)
 
 # Quest: Rubber Bonsai
 betterquesting.quest.A21peFIQTEKAgY7eH4tjLw.name=Rubber Bonsai
-betterquesting.quest.A21peFIQTEKAgY7eH4tjLw.desc=Easy rubber wood and sticky resin! %n%nThese bonsai present a more complicated alternative to other rubber production methods, while providing some more highly useful materials.
+betterquesting.quest.A21peFIQTEKAgY7eH4tjLw.desc=Easy rubber wood and sticky resin! These bonsai present a more complicated alternative to other rubber production methods, while providing additional useful materials.
 
 # Quest: Speed Up Your Plant Growth
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC0g.name=Speed Up Your Plant Growth
@@ -5069,7 +5069,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAE9g.desc=This item is a combined Trowel,
 
 # Quest: Hops, The Source of Beer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFCA.name=Hops, The Source of Beer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFCA.desc=If you don't want pure alcohol, but beer, breed some crops!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFCA.desc=If you don't want pure alcohol, but beer, breed some hops!
 
 # Quest: Babies First Harvest Automaton
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBg.name=Babies First Harvest Automaton
@@ -5229,7 +5229,7 @@ betterquesting.quest.FB6XbhKLRk-QQEo2PsjGjA.desc=These Liliums aren't the most u
 
 # Quest: Golden Berries
 betterquesting.quest.FXUYD5RRT4K7AHMMpnvOIw.name=Golden Berries
-betterquesting.quest.FXUYD5RRT4K7AHMMpnvOIw.desc=Gold oreberries!
+betterquesting.quest.FXUYD5RRT4K7AHMMpnvOIw.desc=It's like a golden goose but... not.
 
 # Quest: Gem Crops
 betterquesting.quest.F_Ef5AtKQbSGmM24_LottQ.name=Gem Crops
@@ -5265,7 +5265,7 @@ betterquesting.quest.JTmxoCTLTG2QXt6LoJhsBA.desc=Ardite oreberries!
 
 # Quest: Weeds
 betterquesting.quest.JcFOAl5pTtKNnMY61dFV_w.name=Weeds
-betterquesting.quest.JcFOAl5pTtKNnMY61dFV_w.desc=Weeds will show up from time to time on empty single or double crop sticks. They will spread from there and take over all your precious crops, so clear the weed with your spade (or fist) before you start desiring to reload the last backup. %n%nUsing smaller fields will make things a lot easier, at least until you can make Weed-Ex, so if you forget about them you only lose one or two seeds.
+betterquesting.quest.JcFOAl5pTtKNnMY61dFV_w.desc=Weeds will show up from time to time on empty single or double crop sticks. They will spread from there and sicken all your precious crops, so clear weeds with your spade (or fist) before you start desiring to reload the last backup. %n%nUsing smaller fields will make things a lot easier, at least until you can make Weed-Ex, so if you forget about them you only lose one or two seeds. If your crops have already become sick, you'll need Plant-Cure to heal them. Otherwise you'll just have to risk breaking them if you want the seeds back before then.
 
 # Quest: Plant Diseases
 betterquesting.quest.JgfP8eDqS-mDGcjgk-m3Dg.name=Plant Diseases
@@ -5289,19 +5289,19 @@ betterquesting.quest.MDRmD3RyR8CIdqdpll_74w.desc=Now that you've stolen the food
 
 # Quest: Enriched Fertilizer
 betterquesting.quest.Nu5EfJtNQ0qIUW0Lt0E4yA.name=Enriched Fertilizer
-betterquesting.quest.Nu5EfJtNQ0qIUW0Lt0E4yA.desc=Enriched fertilizer will allow you to advance to the next stage of crop technology! %nIt is used in countless ways moving forward, but just to list a few it will be:%n%n - Pumped into Industrial Farms for increased growth rates.%n - Used to breed novel crops in the Crop Breeder.%n - Used to synthesize new seeds in the Seed Generator.%n%nIt will always be superior to the item based Fertilizer of the past, so moving forward you should be using it whenever possible.
+betterquesting.quest.Nu5EfJtNQ0qIUW0Lt0E4yA.desc=Enriched fertilizer will allow you to advance to the next stage of crop technology! %nIt is used in countless ways moving forward, but just to list a few it will be:%n%n - Pumped into Industrial Farms for increased growth rates.%n - Used to breed novel crops in the Crop Breeder.%n - Used to synthesize new seeds in the Seed Generator.%n%nIt will always be superior to the item based Fertilizer of the past, so moving forward you should be using it whenever possible.%n%nWhen used in single-block machines, the EU cost for recipes will increase with the stats of your seeds. Keep voltage tier in mind when looking at recipes if you're only using 1/1/1 seeds.
 
 # Quest: Crop Sticks
 betterquesting.quest.O65QUnR0QuGSoQrsUMTB1g.name=Crop Sticks
-betterquesting.quest.O65QUnR0QuGSoQrsUMTB1g.desc=To do anything in CropsNH, you first need crop sticks. These will act as the supports for your plants to grow upon. Once your plants mature, a double crop stick will allow your plants to crossbreed with any crops directly adjacent to the same double crop stick.%n%nAs new species grow on your crop sticks you can harvest them by right-clicking, which won't remove the seed. Left-clicking will break the seed and potentially drop a seed. Spades will help you improve your chances at obtaining seeds when you do this, as will the Resistance trait.%n%n[note]The chance to drop a seed from any crop without a spade is measured as gain/31. So crops with a maxed resistance stat will always drop a seed when broken.[/note]%n%n[warn]Note in NEI the varying types of soil, sub-soil blocks, and environmental requirements for different crops![/warn]
+betterquesting.quest.O65QUnR0QuGSoQrsUMTB1g.desc=To do anything in CropsNH, you first need crop sticks. These will act as the supports for your plants to grow upon. Once your plants mature, a double crop stick will allow your plants to crossbreed with any crops directly adjacent to the same double crop stick.%n%nAs new species grow on your crop sticks you can harvest them by right-clicking, which won't remove the seed. Left-clicking will break the seed and potentially drop a seed. Spades will help you improve your chances at obtaining seeds when you do this, as will the Resistance trait.%n%n§r§r[note]§l§r§lThe chance to drop a seed from any crop without a spade is measured%nas gain/31. §rSo crops with a maxed resistance stat will always drop a seed when broken.§r[/note]%n%n[warn]Note in NEI the varying types of soil, sub-soil blocks, and environmental requirements for different crops![/warn]%n%n%n%n§oIf you're already an experienced farmhand, collect a single stonelily seed and I'll let you skip my introductory trainings for now.
 
 # Quest: Metallic Crops
 betterquesting.quest.PR2T5CUTQ6-IaOQd132Mzg.name=Metallic Crops
 betterquesting.quest.PR2T5CUTQ6-IaOQd132Mzg.desc=Metallic crops are probably the most useful crops for late game. Thanks to the leaves harvested from these species, you can create tons of raw resources and even multiply the yield of your ores.%n%nMost metallic crops can be thrown into a forge hammer with some acid to create raw resources, or used in a chemical reactor with dirty crushed ores in order to increase your ore yields by up to 400%%.
 
-# Quest: Amethystia
-betterquesting.quest.PdVbnToTRuKXlvTqSg9qxQ.name=Amethystia
-betterquesting.quest.PdVbnToTRuKXlvTqSg9qxQ.desc=Not yet implemented, but looks pretty in the questbook so here you go!
+# Quest: Rubyne
+betterquesting.quest.PdVbnToTRuKXlvTqSg9qxQ.name=Rubyne
+betterquesting.quest.PdVbnToTRuKXlvTqSg9qxQ.desc=This new species will present a more direct route to the Chrome you need for Stainless Steel production. Just don't make any pies with it.
 
 # Quest: Ore Berries
 betterquesting.quest.Q-4QPu7wRDC1ph_0uzziXA.name=Ore Berries
@@ -5317,15 +5317,15 @@ betterquesting.quest.QEd1ziVERKOXjzUj80M7Ig.desc=Now that you've stolen the food
 
 # Quest: Nickelback
 betterquesting.quest.QkDDUfRUTNyspowtsQHJ7w.name=Nickelback
-betterquesting.quest.QkDDUfRUTNyspowtsQHJ7w.desc=A great source of nickel.%n%nNickelback leaves will 4x your nickel ore.
+betterquesting.quest.QkDDUfRUTNyspowtsQHJ7w.desc=A great source of nickel, and a horrible source of auditory stimulation. Nickelback leaves will 4x your nickel ore.
 
 # Quest: Oak Bonsai
 betterquesting.quest.QvknAsqFQoKau7FK0ZPPSw.name=Oak Bonsai
-betterquesting.quest.QvknAsqFQoKau7FK0ZPPSw.desc=Easy oak wood, and apples!
+betterquesting.quest.QvknAsqFQoKau7FK0ZPPSw.desc=No, they won't produce Bonsai scale apples as well.
 
 # Quest: Crop Nutrients
 betterquesting.quest.R7QRLmaJRHuxmNcGpjX0hQ.name=Crop Nutrients
-betterquesting.quest.R7QRLmaJRHuxmNcGpjX0hQ.desc=The speed at which a crop grows is based on its Nutrient Score. There are a number of different ways to obtain Nutrient Points for your crops, but to keep your crops from getting sick try to make sure they are always receiving at least a couple of the below bonuses:%n%n§l- +10 Points§r can be gained from having water in your crop sticks.%n§l- +10 Points§r can be gained from having fertilizer in your crop sticks.%n§l- +2 Points§r can be gained from allowing the crop to see the sky.%n       - Crops in the Industrial Farm will always have this bonus.%n§l- +28 Points§r can be gained from preferred biome tags%n       - [warn]If no preferred tags are found[/warn], high humidity will §rgive up to §l+14 Points.§r %n       - See more on this in the Environmental Preferences quest.%n%nAll crops have a base Nutrient Score of 5.%n%nYou can check the Nutrient Score of a crop by using a Portable Scanner on any crop sticks or Industrial Farm controller, even if it's empty.%n%nCrop tier determines the Nutrient Score requirements for growth. %nThe following cutoffs apply:%n%n§lTier 4 §r- Last tier where crops can be planted anywhere%n%n§lTier 5 §r- Last tier where crops can be planted anywhere as long as they can see the sky%n%n§lTier 11 §r- Last tier where crop can be anywhere as long as crops are in an 80%%+ biome%n%n§lTier 12 §r- Last tier where crops can be anywhere as long as crops are in a 80%%+ biome and can see the sky%n
+betterquesting.quest.R7QRLmaJRHuxmNcGpjX0hQ.desc=The speed at which a crop grows is based on its Nutrient Score. There are a number of different ways to obtain Nutrient Points for your crops, but to keep your crops from getting sick try to make sure they are always receiving at least a couple of the below bonuses:%n%n§l- +10 Points§r can be gained from having water in your crop sticks.%n§l- +10 Points§r can be gained from having fertilizer in your crop sticks.%n§l- +2 Points§r can be gained from allowing the crop to see the sky.%n       - Crops in the Industrial Farm will always have this bonus.%n§l- +28 Points§r can be gained from preferred biome tags%n       - [warn]If no preferred tags are found[/warn], high humidity will §rgive up to §l+14 Points.§r %n       - See more on this in the Environmental Preferences quest.%n%nAll crops have a base Nutrient Score of 5.%n%nYou can check the Nutrient Score of a crop by using a Portable Scanner on any crop sticks or Industrial Farm controller, even if it's empty.%n%nCrop tier determines the Nutrient Score requirements for growth. %nThe following cutoffs apply:%n%n§lTier 4 §r- Last tier where crops can be planted anywhere%n%n§lTier 5 §r- Last tier where crops can be planted anywhere as long as they can see the sky%n%n§lTier 11 §r- Last tier where crop can be anywhere as long as crops are in an 80%%+ humidity biome%n%n§lTier 12 §r- Last tier where crops can be anywhere as long as crops are in a 80%%+ humidity biome and can see the sky%n
 
 # Quest: Dark Oak Bonsai
 betterquesting.quest.RNs9o33VRcSIxlGcQnApfA.name=Dark Oak Bonsai
@@ -5393,7 +5393,7 @@ betterquesting.quest.Z4d2MWOOTyuBxdWVoaOMkQ.desc=A great source of tungsten.%n%n
 
 # Quest: Simple Propagation
 betterquesting.quest.Z_aW8Q3aSq2pU9hVhFX2qw.name=Simple Propagation
-betterquesting.quest.Z_aW8Q3aSq2pU9hVhFX2qw.desc=Propagating your plants is as easy as placing a double crop-stick adjacent to a mature plant and waiting. %n%nAs long as there are no other plants adjacent to the double cropstick, your plant should simply grow into it.%n%nIf you were [warn]boring[/warn] and simply placed sugarcane onto crop sticks then this quest should be easy. But come on, you're playing GTNH. We both know what kind of person you are. Also, the sooner you start statting up your crops the sooner you can see the massive benefits of crops.
+betterquesting.quest.Z_aW8Q3aSq2pU9hVhFX2qw.desc=Propagating your plants is as easy as placing a double crop-stick adjacent to a mature plant and waiting. %n%nAs long as there are no other plants adjacent to the double cropstick, your plant should simply grow into it.%n%nIf you were [warn]boring[/warn] and simply placed sugarcane onto crop sticks then this quest should be easy enough. But come on, you're playing GTNH. We both know what kind of person you are. Also, the sooner you start statting up your crops the sooner you can see the massive benefits of crops.
 
 # Quest: Flower Power!
 betterquesting.quest._D2Fw1VcSoqeHHMb8aK5DA.name=Flower Power!
@@ -5417,7 +5417,7 @@ betterquesting.quest.aZzdGU5PTX6aTXsX1u9oIw.desc=Easy acacia wood!
 
 # Quest: The Queen of Crops
 betterquesting.quest.aso1-CdJS2atlhwWpHJEoQ.name=The Queen of Crops
-betterquesting.quest.aso1-CdJS2atlhwWpHJEoQ.desc=A great source of titanium!%n%nTitania leaves will 4x your titanium ores.
+betterquesting.quest.aso1-CdJS2atlhwWpHJEoQ.desc=A great source of titanium!%n%nTitania leaves will 4x your titanium ores (including Bauxite!).
 
 # Quest: Growing Spiders
 betterquesting.quest.bYpK8VXJRhaTX8uFj4m6fQ.name=Growing Spiders
@@ -5434,10 +5434,6 @@ betterquesting.quest.csLVpyIuRPGMCnsllcwyJQ.desc=Easy slime blocks and therefore
 # Quest: Cindering Pearls
 betterquesting.quest.d5i0cS7PSyeM5iWzktBlTw.name=Cindering Pearls
 betterquesting.quest.d5i0cS7PSyeM5iWzktBlTw.desc=Cinderpearls make for a good source of blaze powder.
-
-# Quest: Intergalactic Lilies
-betterquesting.quest.duWWLb9aTYKuyovJDf_O1g.name=Intergalactic Lilies
-betterquesting.quest.duWWLb9aTYKuyovJDf_O1g.desc=Not yet implemented, but they are on their way!
 
 # Quest: Plant Based Meats
 betterquesting.quest.dy3RvEtwSHKwc3yIQQWn2g.name=Plant Based Meats
@@ -5577,7 +5573,7 @@ betterquesting.quest.tle9KskbQMOJ2ZS1nVWNEA.desc=A great source of lead.%n%nPlum
 
 # Quest: Coppon
 betterquesting.quest.twBLeVfZRsuVO-hHDFVIKQ.name=Coppon
-betterquesting.quest.twBLeVfZRsuVO-hHDFVIKQ.desc=A great source of copper.%n%nCoppon fiber will 4x your copper ore.
+betterquesting.quest.twBLeVfZRsuVO-hHDFVIKQ.desc=Coppon fiber, while it won't make a nice sweater, it will 4x your copper ore. It can also be processed directly to copper dust.
 
 # Quest: More Copper
 betterquesting.quest.uU7RWnAOTOigmH6eYivwog.name=More Copper
@@ -5589,11 +5585,15 @@ betterquesting.quest.vOZpJncURaq1H0pUzFNblw.desc=The Overclocked Growth Accelera
 
 # Quest: Cobalt Berries
 betterquesting.quest.vS-gZqlCSJiI6rVi0KTzxw.name=Cobalt Berries
-betterquesting.quest.vS-gZqlCSJiI6rVi0KTzxw.desc=Too blue blueberries. Cobalt oreberries!
+betterquesting.quest.vS-gZqlCSJiI6rVi0KTzxw.desc=Too blue blueberries. Probably wouldn't want to eat these.
 
 # Quest: Witchery Seeds
 betterquesting.quest.vX0tDVpeSG67fojo-jPmjg.name=Witchery Seeds
 betterquesting.quest.vX0tDVpeSG67fojo-jPmjg.desc=In case you needed to mass produce witchery crops... for some reason
+
+# Quest: Trigger: Stonelily Tutorial Skip
+betterquesting.quest.xirTmg1QQo6Ix9Z2Ezl4EQ.name=Trigger: Stonelily Tutorial Skip
+betterquesting.quest.xirTmg1QQo6Ix9Z2Ezl4EQ.desc=
 
 # Quest: The Growth Acceleration Unit
 betterquesting.quest.xlp2LlfIRdWzOoE9G_Vf0w.name=The Growth Acceleration Unit
