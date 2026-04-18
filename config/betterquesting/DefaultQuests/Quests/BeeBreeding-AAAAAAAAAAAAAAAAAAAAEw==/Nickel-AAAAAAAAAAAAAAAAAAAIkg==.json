@@ -12,7 +12,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Nickel bees provide a pretty useful resource. You\u0027ll need a block of Nickel. Breed them from Iron and Copper.",
+      "desc:8": "Nickel bees provide a pretty useful resource. You\u0027ll need a block of Nickel. Breed them from Iron and Copper.\n\nNickel Combs cannot be centrifuged. You now need to use a Chemical Reactor with some hydrochloric acid.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
