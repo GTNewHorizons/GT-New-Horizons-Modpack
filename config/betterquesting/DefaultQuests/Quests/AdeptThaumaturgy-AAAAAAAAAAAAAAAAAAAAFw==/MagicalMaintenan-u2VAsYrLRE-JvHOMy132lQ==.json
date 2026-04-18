@@ -16,7 +16,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Maintaining multiblocks can be a pain, especially if you prefer performing other tasks around your base.  \nTo solve this, a certain engineer developed the Magical Maintenance Hatch — a simple maintenance hatch that fixes all your maintenance problems using centi-vis.\n\nSimply attach the hatch to any multiblock and keep it within reach of a centi‑vis network. The device will consume 2500 centi‑vis of each primal aspect to resolve any maintenance problems the multiblock may develop.\n\n[note]The hatch stores 5000 centi-vis of each primal aspect. This means it takes on average 1000 ticks (50 seconds) to reach the internal buffer.[/note]\n\n[warn]If you're having trouble making it work, make sure you place the hatch near a Vis Relay or an energized node with each primal aspect.[/warn]",
+      "desc:8": "Maintaining multiblocks can be a pain, especially if you prefer performing other tasks around your base.  \nTo solve this, a certain engineer developed the Magical Maintenance Hatch — a simple maintenance hatch that fixes all your maintenance problems using centi-vis.\n\nSimply attach the hatch to any multiblock and keep it within reach of a centi‑vis network. The device will consume 2500 centi‑vis of each primal aspect to resolve any maintenance problems the multiblock may develop.\n\n[note]The hatch stores 5000 centi-vis of each primal aspect. This means it takes on average 1000 ticks (50 seconds) to reach the internal buffer.[/note]\n\n[warn]If you\u0027re having trouble making it work, make sure you place the hatch near a Vis Relay or an energized node with each primal aspect.[/warn]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
