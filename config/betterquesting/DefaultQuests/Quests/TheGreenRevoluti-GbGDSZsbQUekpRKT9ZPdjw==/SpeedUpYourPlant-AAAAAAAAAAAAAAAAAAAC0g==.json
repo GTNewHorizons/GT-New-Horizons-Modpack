@@ -9,7 +9,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Fertilizer is a foundational resource to produce and consume when farming. It has two key features:\n\n1. Fertilizer speeds up crop growth by boosting the nutrient score.\r\n2. Using fertilizer prevents stat loss during crop breeding. Meaning the only options for stat changes become (0,+1+,+2, etc).\n\nBefore you get access to a Chemical Reactor, use bonemeal instead for a small bump of fertilizer! While it won\u0027t provide the same number of nutrient points (unless you\u0027re using stacks on stacks) as normal fertilization, it will still prevent stat loss.",
+      "desc:8": "Fertilizer is a foundational resource to produce and consume when farming. It has two key features:\n\n1. Speeding up crop growth by boosting the nutrient score.\r\n2. Preventing stat loss during crop breeding. This simply prevents stat loss; it doesn\u0027t increase the likelihood of a stat increase.\n\n$4 items can be used to apply fertilizer to your crops, each providing a different amount of fertilizer points:\n\n- Crops NH Fertilizer: 100 points\n- Forestry Compost: 50 points\n- Forestry Fertilizer: 25 points\n- Bone Meal: 5 points\n\n[note]While Bone Meal may seem weak, it\u0027s ability to still prevent stat loss when breeding is key if you intend to start crops before you can make a Chemical Reactor.[/note]\n\nThe Crop Managers and the Industrial Farm both also accept liquid fertilizers. Right now there is 2 of them:\n\n- Fertilizer: 1 point per L\n- Enriched Fertilizer: 10 points per L",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
