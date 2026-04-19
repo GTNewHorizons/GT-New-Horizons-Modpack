@@ -2,7 +2,6 @@ name: Propose Questbook Change
 description: Suggest an addition, amendment, or removal of a quest.
 labels:
   - "Status: Triage"
-  - "Suggestion"
   - "Type: Quest"
 projects:
   - "GTNewHorizons/18"
