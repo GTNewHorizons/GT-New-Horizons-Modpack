@@ -1,8 +1,8 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 7158790621499769954,
-      "questIDLow:4": -6603481604534581008
+      "questIDHigh:4": -8448640167904523586,
+      "questIDLow:4": -5243481096921136607
     }
   },
   "properties:10": {
@@ -19,7 +19,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Synchrotron (No Relation to the Catalyst)",
+      "name:8": "§6§lSynchrotron (No Relation to the Catalyst)",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

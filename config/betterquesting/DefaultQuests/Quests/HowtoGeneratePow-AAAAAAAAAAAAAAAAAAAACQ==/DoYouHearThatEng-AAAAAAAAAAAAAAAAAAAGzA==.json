@@ -2,15 +2,15 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 860
+      "questIDLow:4": 2390
     },
     "1:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 1245
+      "questIDLow:4": 860
     },
     "2:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 861
+      "questIDLow:4": 1245
     }
   },
   "properties:10": {
@@ -28,7 +28,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§6§lDo You Hear That Engine Revving?",
+      "name:8": "§8§lDo You Hear That Engine Revving?",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

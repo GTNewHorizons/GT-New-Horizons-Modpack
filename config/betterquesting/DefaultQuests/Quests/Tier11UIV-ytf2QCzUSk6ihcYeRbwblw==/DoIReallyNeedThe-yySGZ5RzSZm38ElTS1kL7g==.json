@@ -1,0 +1,55 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -1663909569982545142,
+      "questIDLow:4": -4646567102207181371
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Yes actually.\n\nOnce upon a time these were optional and commonly skipped by players, but now you will need at least 20 of them to use in the Nanochip Assembly Matrix if you want to craft any Pico Circuits. \n\nAs for upgrading your CoAL to use them... that\u0027s your choice.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 10,
+        "OreDict:8": "",
+        "id:8": "GoodGenerator:componentAssemblylineCasing"
+      },
+      "isMain:1": 1,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "§9§l§nDo I Really Need These?",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -3808771605418260071,
+  "questIDLow:4": -5192569748262941714,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 20,
+          "Damage:2": 10,
+          "OreDict:8": "",
+          "id:8": "GoodGenerator:componentAssemblylineCasing"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,14 +1,14 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 2096
+      "questIDHigh:4": 5582781711394161046,
+      "questIDLow:4": -4678624581095150088
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "After obtaining a DNA Sequence with the gene that you wish, it must be placed in the Sequencer. This uses Fluorescent Dye to determine the correct sequence, and when completed logs the discovery. The important thing here is that the discovery goes to the person who placed the machine.\n\nGenes are sequenced faster if the sequence has been placed in a Polymeriser first to increase the strength.",
+      "desc:8": "After obtaining a DNA Sequence with the gene that you wish, it must be placed in the Sequencer. This uses Fluorescent Dye to determine the correct sequence, and when completed, logs the discovery. The important thing here is that §nthe discovery goes to the person who placed the machine.\n\n§rThis process takes §l16 minutes§r! If the gene has been passed through a Polymeriser beforehand, it\u0027ll speed it up to only 4 minutes. You could also hug the machine with World Accelerators in Tile Entity mode to speed it up further.\n",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

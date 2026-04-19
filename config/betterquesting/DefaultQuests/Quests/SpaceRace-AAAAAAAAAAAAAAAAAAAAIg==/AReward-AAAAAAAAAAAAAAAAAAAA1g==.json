@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "You have really come a long way to get here! However, getting to the moon is just the start of your journey, as you\u0027ll have access to even more powerful and awesome stuff. You have proven yourself worthy, and mastered the challenges to get here. Congratulations!\n\nPick one of the reward quests below.",
+      "desc:8": "You have really come a long way to get here! However, getting to the moon is just the start of your journey, as you\u0027ll have access to even more powerful and awesome stuff. You have proven yourself worthy, and mastered the challenges to get here. \n\n§lCongratulations!§r\n\nPick one of the reward choices below.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -36,8 +36,33 @@
   "questIDLow:4": 214,
   "rewards:9": {
     "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 22,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "DraconicEvolution:dezilsMarshmallow"
+        },
+        "2:10": {
+          "Count:3": 10,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "Thaumcraft:blockLootCrate"
+        }
+      },
       "ignoreDisabled:1": 0,
       "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
@@ -47,22 +72,16 @@
           "id:8": "dreamcraft:CoinAdventureII"
         },
         "1:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "dreamcraft:CoinTechnicianII"
-        },
-        "2:10": {
           "Count:3": 5,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "dreamcraft:CoinSpaceII"
         },
-        "3:10": {
+        "2:10": {
           "Count:3": 1,
-          "Damage:2": 22,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "enhancedlootbags:lootbag"
+          "id:8": "dreamcraft:CoinTechnicianII"
         }
       }
     }

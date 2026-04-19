@@ -1,0 +1,69 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2088
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "The Binnie\u0027s Genetics machines will rely on Growth Medium in either a little, or a lot. If you can\u0027t make too much of it, then you\u0027ll need to rely on other passive generation to keep the machines constantly supplied for researching genes. If you can make a lot of Growth Medium, then you can use it in a closed loop in Incubators to duplicate some of the mod\u0027s resources you have previously produced just once.\n\nIt requires:\n* Sugar: The easy one here, and remember multiple bee species can produce it too.\n* Bones (whole bones, not meal): mob farm, animal traps, goofy conversions.\n* Wood Ash: Smelt some saplings.\n* Mulch: There are a lot of ways to do this, but consider Peat bees since you\u0027re already going for the bees.\n\nThis quest is just a little nudge that you should passively produce Growth Medium, which means being able to passively produce all of these ingredients.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 4,
+        "OreDict:8": "",
+        "id:8": "Genetics:misc"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Growth Medium",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -5222559323495968822,
+  "questIDLow:4": -8060696980258519811,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 4,
+          "OreDict:8": "",
+          "id:8": "Genetics:misc"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "OreDict:8": "",
+          "id:8": "Genetics:misc"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
