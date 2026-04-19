@@ -1,0 +1,89 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 4300463009256719073,
+      "questIDLow:4": -7881005862838025770
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Before going further into CropsNH, there is but one chore I need you to do. §6To prevent future hardship, collect a fully statted 31/31/31 seed.§r\n\nThis may seem daunting at first, but with enough blood, sweat, and bonemeal (see the fertilizer quest), you can do it. I believe in you!\n\n§4Ensure you pick a species which is related via mutation pools and determinism to other Crops you want.§r If you don\u0027t know what to choose, may I suggest the Potato or Cactus crops which will give you access to the Root or Danger pools respectively.\n\nWhile there is a reason behind keeping some seeds low statted (lowering enriched fertilizer costs in machines), the time saved by working with max stat crops compared to low stat crops is just too significant to ignore.\n\n§oThis quest will accept any CropsNH seed with a perfect statline.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "cropsnh:genericSeed",
+        "tag:10": {
+          "ga:1": 31,
+          "gr:1": 31,
+          "re:1": 31,
+          "scan:1": 1
+        }
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Last Universal Common Seed",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -7308614700963117754,
+  "questIDLow:4": -8061024007119815443,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 51,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag",
+          "tag:10": {
+            "ench:9": {
+              "0:10": {
+                "id:2": 35,
+                "lvl:2": 3
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "cropsnh:genericSeed",
+          "tag:10": {
+            "ga:1": 31,
+            "gr:1": 31,
+            "re:1": 31,
+            "scan:1": 1
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
