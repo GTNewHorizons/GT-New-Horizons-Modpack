@@ -3,8 +3,6 @@ description: Suggest an addition, amendment, or removal of a quest.
 labels:
   - "Status: Triage"
   - "Type: Quest"
-projects:
-  - "GTNewHorizons/18"
 
 body:
   - type: markdown
