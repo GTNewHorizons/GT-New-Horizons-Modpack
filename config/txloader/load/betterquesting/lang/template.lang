@@ -12883,6 +12883,10 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAAIA.desc=A treatise on magical herbo
 betterquesting.quest.1W0BrWncRuWbeTrPDVV99w.name=Fountain Of Conjuration
 betterquesting.quest.1W0BrWncRuWbeTrPDVV99w.desc=The Fountain of Conjuration, as I'm sincerely hoping you can guess at this point, functions exactly like the Mana Fountain and the Fountain of Alchemy, except it handles §nexclusively§r recipes that are typically done with a Conjuration Catalyst underneath a Mana Pool.%n%nIf you need any further details about it's functionality, check out the Mana Fountain quest or the Lexica Botania.%n%n[note]Reminder that this can also wall-share with any type of Mana Fountain you may currently have.[/note]
 
+# Quest: Magical Techno-Glass
+betterquesting.quest.7QI56xG-TnSlR4FA3EGzTw.name=Magical Techno-Glass
+betterquesting.quest.7QI56xG-TnSlR4FA3EGzTw.desc=After obtaining your first mana, you can craft mana glass. It can be used for building multiblock machines, in recipes, and for general construction where EV-tier glass is required. It serves as a cheaper and earlier alternative to GregTech glass. %n%n[note]Alfglass unlocks later, at the EV+ tier and can, in turn, be used as IV-tier glass.[/note]
+
 # Quest: The Roots of Magic
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMlA.name=The Roots of Magic
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMlA.desc=If you're familiar with Botania, you will notice that the overworld is noticeably void of magical flowers and mushrooms. Such pretty expressions of magic sadly require you to have leveled up on your magical skills. For now you will have to make do with what the world has to offer.%n%nLook in deep caves in the Twilight Forest at low Y-levels for glimmering mushrooms. These are your starting ingredient and can be used instead of flower petals. Beware, unlike flowers you can't grow more just yet, so be careful what you use them for.
