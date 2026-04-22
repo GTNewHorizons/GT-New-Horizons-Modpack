@@ -46,7 +46,7 @@
           "Count:3": 16,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "IC2:itemHarz"
+          "id:8": "gregtech:gt.item_sticky_resin"
         },
         "1:10": {
           "Count:3": 8,
@@ -98,7 +98,7 @@
           "Count:3": 30,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "IC2:itemHarz"
+          "id:8": "gregtech:gt.item_sticky_resin"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
