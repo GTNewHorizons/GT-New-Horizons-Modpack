@@ -12,7 +12,7 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 32001,
+        "Damage:2": 15535,
         "OreDict:8": "",
         "id:8": "gregtech:gt.blockmachines"
       },
@@ -44,7 +44,7 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 32001,
+          "Damage:2": 15535,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         },
@@ -53,18 +53,6 @@
           "Damage:2": 14,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.98"
-        },
-        "2:10": {
-          "Count:3": 14,
-          "Damage:2": 96,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
-        },
-        "3:10": {
-          "Count:3": 1,
-          "Damage:2": 905,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
         }
       },
       "taskID:8": "bq_standard:retrieval"

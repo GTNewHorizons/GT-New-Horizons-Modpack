@@ -8,11 +8,11 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "I never wanna grow up, I wanna play with my mega extrusion machine.\nAnd in case you didn\u0027t read the description in NEI: You can use multiple input buses with a different extruder shape in each and then throw the items to extrude into the bus with the appropriate shape.\n\nAlternatively, you can also use an Extrusion Bus. These are more expensive but come pre-loaded with all of the extruder shapes so you can manually set them without needing to create one.",
+      "desc:8": "I never wanna grow up, I wanna play with my §5§lIndustrial Extrusion Machine§r. This machine offers a §2§l3.5x§r speed boost and §6§l6§r parallels per voltage tier.\n\nYou can use multiple input buses with a different extruder shape in each and then throw the items to extrude into the bus with the appropriate shape.\n\nAlternatively, you can also use an Extrusion Bus. These are more expensive but come pre-loaded with all of the extruder shapes so you can manually set them without needing to create one.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 859,
+        "Damage:2": 15549,
         "OreDict:8": "",
         "id:8": "gregtech:gt.blockmachines"
       },
@@ -60,7 +60,7 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 859,
+          "Damage:2": 15549,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }
@@ -76,12 +76,30 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 36,
-          "Damage:2": 1,
+          "Count:3": 33,
+          "Damage:2": 3,
           "OreDict:8": "",
-          "id:8": "miscutils:gtplusplus.blockcasings.3"
+          "id:8": "gregtech:gt.blockcasings10"
         },
         "1:10": {
+          "Count:3": 24,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings8"
+        },
+        "2:10": {
+          "Count:3": 20,
+          "Damage:2": 14,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings12"
+        },
+        "3:10": {
+          "Count:3": 4,
+          "Damage:2": 1,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings4"
+        },
+        "4:10": {
           "Count:3": 1,
           "Damage:2": 91,
           "OreDict:8": "",
