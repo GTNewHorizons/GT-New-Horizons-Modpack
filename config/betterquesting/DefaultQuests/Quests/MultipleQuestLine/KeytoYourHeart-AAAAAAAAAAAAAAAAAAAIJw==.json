@@ -3,12 +3,16 @@
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 1987
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 727
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Barrels by default allow locking the barrel to a specific item, even when empty. For drawers however you will need to make the Drawer Key to lock its content types.",
+      "desc:8": "Barrels by default allow locking the barrel to a specific item, even when empty. For drawers however you will need to make the Drawer Key to lock its content types.\n\nDifferent keys can also be used to show/hide the item icons and labels, and protect your barrels from the thieving hands of others.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -66,6 +70,35 @@
         }
       },
       "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "StorageDrawers:quantifyKey"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "StorageDrawers:shroudKey"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "StorageDrawers:personalKey"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }
