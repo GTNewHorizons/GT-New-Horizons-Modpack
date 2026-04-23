@@ -82,13 +82,13 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 66,
-          "Damage:2": 2,
+          "Count:3": 1,
+          "Damage:2": 15546,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasingsNH"
+          "id:8": "gregtech:gt.blockmachines"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
       "autoConsume:1": 0,
@@ -99,27 +99,40 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 1,
-          "Damage:2": 1159,
+          "Count:3": 66,
+          "Damage:2": 2,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "2:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 3,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 9,
+          "id:8": "gregtech:gt.blockcasingsNH"
+        },
+        "1:10": {
+          "Count:3": 12,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockcasings5"
+        },
+        "2:10": {
+          "Count:3": 8,
+          "Damage:2": 13,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings2"
+        },
+        "3:10": {
+          "Count:3": 4,
+          "Damage:2": 14,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings3"
+        },
+        "4:10": {
+          "Count:3": 2,
+          "Damage:2": 305,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockframes"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 91,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

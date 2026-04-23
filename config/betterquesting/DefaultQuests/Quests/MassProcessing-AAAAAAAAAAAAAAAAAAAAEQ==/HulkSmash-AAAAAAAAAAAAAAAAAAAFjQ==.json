@@ -8,11 +8,11 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Mass destruction! Or at least, lots and lots of crushed ores. Build a maceration stack to keep up with all the ores you are getting. In IV you can upgrade the Multi to be much better with an upgrade chip and better casings.",
+      "desc:8": "Mass destruction! Or at least, lots and lots of crushed ores. Build an §5§lIndustrial Maceration Stack§r to keep up with all the ores you are getting.\n\nThis processes items at §2§l1.6x§r the speed and with up to §6§l2§r parallels per voltage tier.\n\n[note]In IV you can upgrade the multi with an upgrade chip and better casings.[/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 797,
+        "Damage:2": 15539,
         "OreDict:8": "",
         "id:8": "gregtech:gt.blockmachines"
       },
@@ -60,7 +60,7 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 797,
+          "Damage:2": 15539,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }
