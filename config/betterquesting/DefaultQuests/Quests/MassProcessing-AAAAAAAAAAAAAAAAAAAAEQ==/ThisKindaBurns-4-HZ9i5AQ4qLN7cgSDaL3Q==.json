@@ -1,18 +1,18 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": -4353932262274808847,
-      "questIDLow:4": -8959971444972358643
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1416
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Mass destruction! Or at least, lots and lots of crushed ores. Build an §5§lIndustrial Maceration Stack§r to keep up with all the ores you are getting.\n\nThis processes items at §2§l1.6x§r the speed and with up to §6§l2§r parallels per voltage tier.\n\n[note]In IV you can upgrade the multi with an upgrade chip and better casings.[/note]",
+      "desc:8": "The §5§lIndustrial Chemical Bath§r will significantly increase the efficiency of your ore processing. It grants a §2§l5x§r speed boost and §6§l4§r parallels per voltage tier compared to its singleblock counterpart.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 15539,
+        "Damage:2": 15551,
         "OreDict:8": "",
         "id:8": "gregtech:gt.blockmachines"
       },
@@ -20,7 +20,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§8§lHulk Smash!",
+      "name:8": "§8§lThis Kinda Burns...",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -32,8 +32,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 1421,
+  "questIDHigh:4": -2026098705978866806,
+  "questIDLow:4": -8415056029440111651,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -42,7 +42,7 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 7,
+          "Damage:2": 8,
           "OreDict:8": "",
           "id:8": "enhancedlootbags:lootbag"
         }
@@ -55,12 +55,12 @@
       "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
-      "index:3": 0,
+      "index:3": 1,
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 15539,
+          "Damage:2": 15551,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }
@@ -72,18 +72,59 @@
       "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
-      "index:3": 1,
+      "index:3": 2,
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 44,
-          "Damage:2": 2,
+          "Count:3": 37,
+          "Damage:2": 4,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings4"
+          "id:8": "miscutils:gtplusplus.blockcasings.2"
         },
         "1:10": {
+          "Count:3": 20,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "miscutils:blockFrameGtWatertightSteel"
+        },
+        "2:10": {
+          "Count:3": 4,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings8"
+        },
+        "3:10": {
+          "Count:3": 2,
+          "Damage:2": 6,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmetal8"
+        },
+        "4:10": {
+          "Count:3": 2,
+          "Damage:2": 7,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmetal2"
+        },
+        "5:10": {
           "Count:3": 1,
           "Damage:2": 91,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 3,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 31071,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }

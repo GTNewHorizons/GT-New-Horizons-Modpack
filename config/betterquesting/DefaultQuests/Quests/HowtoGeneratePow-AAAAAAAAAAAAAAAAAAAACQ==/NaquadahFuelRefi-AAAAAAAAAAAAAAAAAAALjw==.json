@@ -16,7 +16,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "This insane machine is used to make MkIII+ Naquadah Fuel.\n\nThe overclock ability of the machine is restrained by the coil tier. Recipes can overclock up to the tier of the installed coil: Tier 1 coils allow 1 overclock above recipe tier, Tier 4 coils allow 4 overclocks above recipe tier.\n\nAdditionally, each tier of coil allows for §6+4 * Tier§r parallels.\n\nIt also supports §9Tec§1Tech§r\u0027s Multi-Amp energy hatches and laser hatches.",
+      "desc:8": "The §5§lNaquadah Fuel Refinery§r is used to make MkIII+ Naquadah Fuel.\n\nThe machine\u0027s overclocking ability is limited by the coil tier. Recipes can overclock up to the tier of the installed coil: Tier 1 coils allow 1 overclock above recipe tier, Tier 4 coils allow 4 overclocks above recipe tier.\n\nAdditionally, each tier of coil gives §6§l4 * Tier§r parallels.\n\nIt also supports §9Tec§1Tech§r\u0027s Multi-Amp energy hatches and laser hatches.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,

@@ -8,11 +8,11 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Mass destruction! Or at least, lots and lots of crushed ores. Build an §5§lIndustrial Maceration Stack§r to keep up with all the ores you are getting.\n\nThis processes items at §2§l1.6x§r the speed and with up to §6§l2§r parallels per voltage tier.\n\n[note]In IV you can upgrade the multi with an upgrade chip and better casings.[/note]",
+      "desc:8": "Should you require a formidable former, for formatively forming formal forms, you\u0027ll want to create an §5§lIndustrial Forming Press§r. It grants §2§l6x§r the speed and §6§l6§r parallels per voltage tier compared to the singleblock.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 15539,
+        "Damage:2": 15552,
         "OreDict:8": "",
         "id:8": "gregtech:gt.blockmachines"
       },
@@ -20,7 +20,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§8§lHulk Smash!",
+      "name:8": "§8§lThe Form of the Former Former: Reformed",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -32,8 +32,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 1421,
+  "questIDHigh:4": 5768186003157830374,
+  "questIDLow:4": -5096507854432432801,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -60,7 +60,7 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 15539,
+          "Damage:2": 15552,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }
@@ -76,12 +76,36 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 44,
-          "Damage:2": 2,
+          "Count:3": 19,
+          "Damage:2": 4,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings4"
+          "id:8": "miscutils:miscutils.blockcasings"
         },
         "1:10": {
+          "Count:3": 6,
+          "Damage:2": 28,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockframes"
+        },
+        "2:10": {
+          "Count:3": 6,
+          "Damage:2": 13,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings2"
+        },
+        "3:10": {
+          "Count:3": 5,
+          "Damage:2": 14,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings12"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings2"
+        },
+        "5:10": {
           "Count:3": 1,
           "Damage:2": 91,
           "OreDict:8": "",
