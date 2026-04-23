@@ -42,11 +42,7 @@
           "Count:3": 8,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "betterquesting:placeholder",
-          "tag:10": {
-            "orig_id:8": "cropsnh:enrichedFertilizerCell",
-            "orig_meta:3": 0
-          }
+          "id:8": "cropsnh:enrichedFertilizerCell"
         },
         "1:10": {
           "Count:3": 2,

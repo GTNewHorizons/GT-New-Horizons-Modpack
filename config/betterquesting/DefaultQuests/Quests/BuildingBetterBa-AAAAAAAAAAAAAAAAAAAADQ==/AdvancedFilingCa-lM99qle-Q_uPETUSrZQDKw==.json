@@ -2,6 +2,10 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
+      "questIDLow:4": 225
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
       "questIDLow:4": 119
     }
   },
@@ -19,7 +23,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "New Quest",
+      "name:8": "§2§lAdvanced Filing Cabinet",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

@@ -2,10 +2,6 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 1969
-    },
-    "1:10": {
-      "questIDHigh:4": 0,
       "questIDLow:4": 1973
     }
   },
@@ -24,7 +20,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Flat Lamps",
+      "name:8": "§2§lFlat Lamps",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

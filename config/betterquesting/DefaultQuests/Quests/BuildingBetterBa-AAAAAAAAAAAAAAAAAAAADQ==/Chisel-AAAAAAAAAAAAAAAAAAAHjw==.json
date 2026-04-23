@@ -1,10 +1,6 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 54
-    },
-    "1:10": {
       "questIDHigh:4": 1061314381668699413,
       "questIDLow:4": -5583348153901815662
     }
@@ -18,13 +14,13 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "chisel:obsidianChisel"
+        "id:8": "chisel:chisel"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "A Better Chisel",
+      "name:8": "§a§lChisel",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -32,7 +28,7 @@
       "simultaneous:1": 0,
       "snd_complete:8": "random.levelup",
       "snd_update:8": "random.levelup",
-      "taskLogic:8": "AND",
+      "taskLogic:8": "OR",
       "visibility:8": "NORMAL"
     }
   },
@@ -66,7 +62,58 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
+          "id:8": "chisel:chisel"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
           "id:8": "chisel:obsidianChisel"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 2,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "chisel:diamondChisel"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "3:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 3,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "chisel:netherStarChisel"
         }
       },
       "taskID:8": "bq_standard:retrieval"
