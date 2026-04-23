@@ -2,42 +2,36 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 727
-    },
-    "1:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 728
+      "questIDLow:4": 39
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Now you can really make some swaggy and §oeven fancier§r drawers by using this table, all you have to do is place some decorative blocks and it will take their texture, the TOP left is the outer square, bottom left is for the front face, and top right is for the borders. This table works with almost all decorative blocks.\n\nYou can also use machines to do the job for you.",
-      "globalShare:1": 1,
+      "desc:8": "Better Barrels have tiers which increase the amount of upgrades a barrel can hold. They are mainly used to increase their storage capacity, although there are a few upgrades which the barrels extra functionality.\n\nBarrels can only be upgraded one tier at a time, so be prepared to make lots of lower tier structural upgrades if you plan to continue using Better Barrels for your storage needs!",
+      "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "StorageDrawers:framingTable"
+        "id:8": "JABBA:upgradeStructural"
       },
-      "isGlobal:1": 0,
       "isMain:1": 0,
       "isSilent:1": 0,
-      "lockedProgress:1": 1,
-      "name:8": "§a§lFraming Drawers",
-      "partySingleReward:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Barrel Upgrades",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
       "simultaneous:1": 0,
       "snd_complete:8": "random.levelup",
       "snd_update:8": "random.levelup",
-      "taskLogic:8": "OR",
+      "taskLogic:8": "AND",
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 729,
+  "questIDHigh:4": -1784355057654348861,
+  "questIDLow:4": -6347981504780433561,
   "rewards:9": {
     "0:10": {
       "choices:9": {
@@ -45,19 +39,19 @@
           "Count:3": 4,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "StorageDrawers:fullCustom1"
+          "id:8": "JABBA:upgradeCore"
         },
         "1:10": {
-          "Count:3": 4,
-          "Damage:2": 0,
+          "Count:3": 1,
+          "Damage:2": 7,
           "OreDict:8": "",
-          "id:8": "StorageDrawers:fullCustom2"
+          "id:8": "JABBA:upgradeCore"
         },
         "2:10": {
-          "Count:3": 4,
-          "Damage:2": 0,
+          "Count:3": 1,
+          "Damage:2": 2,
           "OreDict:8": "",
-          "id:8": "StorageDrawers:fullCustom4"
+          "id:8": "enhancedlootbags:lootbag"
         }
       },
       "ignoreDisabled:1": 0,
@@ -70,7 +64,7 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 5,
+          "Count:3": 15,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "dreamcraft:CoinTechnician"
@@ -91,7 +85,13 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "StorageDrawers:framingTable"
+          "id:8": "JABBA:upgradeStructural"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "OreDict:8": "",
+          "id:8": "JABBA:upgradeStructural"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -106,46 +106,30 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 32050,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "2:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
-      "index:3": 2,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
+          "id:8": "JABBA:upgradeCore"
+        },
+        "1:10": {
           "Count:3": 1,
-          "Damage:2": 32051,
+          "Damage:2": 2,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "3:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
-      "index:3": 3,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
+          "id:8": "JABBA:upgradeCore"
+        },
+        "2:10": {
           "Count:3": 1,
-          "Damage:2": 32052,
+          "Damage:2": 3,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "JABBA:upgradeCore"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 7,
+          "OreDict:8": "",
+          "id:8": "JABBA:upgradeCore"
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }
