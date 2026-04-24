@@ -3,23 +3,31 @@
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 2948
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2665
+    },
+    "2:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2623
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "This insane machine is used to make MkIII and higher tier naquadah fuel.\n\nIt can\u0027t be overclocked by increasing the input voltage. The only way to overclock it is to use higher tier coils.\n\nIt also supports §9Tec§1Tech§r\u0027s Multi-Amp energy hatches and laser hatches.\n\nExample: The MkIV fuel requires tier 2 coils and the refinery is using tier 3 coils. This gives a perfect overclock, using 4x power and 0.25x time.",
+      "desc:8": "The §5§lNaquadah Fuel Refinery§r is used to make MkIII+ Naquadah Fuel.\n\nThe machine\u0027s overclocking ability is limited by the coil tier. Recipes can overclock up to the tier of the installed coil: Tier 1 coils allow 1 overclock above recipe tier, Tier 4 coils allow 4 overclocks above recipe tier.\n\nAdditionally, each tier of coil gives §6§l4 * Tier§r parallels.\n\nIt also supports §9Tec§1Tech§r\u0027s Multi-Amp energy hatches and laser hatches.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 16999,
+        "Damage:2": 15536,
         "OreDict:8": "",
         "id:8": "gregtech:gt.blockmachines"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§b§lNaquadah Fuel Refinery",
+      "name:8": "§4§l§nNaquadah Fuel Refinery",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -43,25 +51,13 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 104,
-          "Damage:2": 0,
+          "Count:3": 1,
+          "Damage:2": 15536,
           "OreDict:8": "",
-          "id:8": "GoodGenerator:FRF_Casings"
-        },
-        "1:10": {
-          "Count:3": 32,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "GoodGenerator:FRF_Coil_1"
-        },
-        "2:10": {
-          "Count:3": 8,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "GoodGenerator:fieldRestrictingGlass"
+          "id:8": "gregtech:gt.blockmachines"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
       "autoConsume:1": 0,
@@ -72,13 +68,37 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 1,
-          "Damage:2": 16999,
+          "Count:3": 483,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "GoodGenerator:FRF_Casings"
+        },
+        "1:10": {
+          "Count:3": 192,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "GoodGenerator:fieldRestrictingGlass"
+        },
+        "2:10": {
+          "Count:3": 124,
+          "Damage:2": 5,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings8"
+        },
+        "3:10": {
+          "Count:3": 72,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "GoodGenerator:FRF_Coil_1"
+        },
+        "4:10": {
+          "Count:3": 64,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "GoodGenerator:radiationProtectionSteelFrame"
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

@@ -1,18 +1,18 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 4924712871570456639,
-      "questIDLow:4": -6208773058821867190
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1416
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "I never wanna grow up, I wanna play with my §5§lIndustrial Extrusion Machine§r. This machine offers a §2§l3.5x§r speed boost and §6§l6§r parallels per voltage tier.\n\nYou can use multiple input buses with a different extruder shape in each and then throw the items to extrude into the bus with the appropriate shape.\n\nAlternatively, you can also use an Extrusion Bus. These are more expensive but come pre-loaded with all of the extruder shapes so you can manually set them without needing to create one.",
+      "desc:8": "The §5§lIndustrial Chemical Bath§r will significantly increase the efficiency of your ore processing. It grants a §2§l5x§r speed boost and §6§l4§r parallels per voltage tier compared to its singleblock counterpart.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 15549,
+        "Damage:2": 15551,
         "OreDict:8": "",
         "id:8": "gregtech:gt.blockmachines"
       },
@@ -20,7 +20,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§9§lPlay-Doh For Big Girls and Boys",
+      "name:8": "§8§lThis Kinda Burns...",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -32,8 +32,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 2031,
+  "questIDHigh:4": -2026098705978866806,
+  "questIDLow:4": -8415056029440111651,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -55,12 +55,12 @@
       "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
-      "index:3": 0,
+      "index:3": 1,
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 15549,
+          "Damage:2": 15551,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }
@@ -72,34 +72,40 @@
       "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
-      "index:3": 1,
+      "index:3": 2,
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 33,
-          "Damage:2": 3,
+          "Count:3": 37,
+          "Damage:2": 4,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings10"
+          "id:8": "miscutils:gtplusplus.blockcasings.2"
         },
         "1:10": {
-          "Count:3": 24,
+          "Count:3": 20,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "miscutils:blockFrameGtWatertightSteel"
+        },
+        "2:10": {
+          "Count:3": 4,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockcasings8"
         },
-        "2:10": {
-          "Count:3": 20,
-          "Damage:2": 14,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings12"
-        },
         "3:10": {
-          "Count:3": 4,
-          "Damage:2": 1,
+          "Count:3": 2,
+          "Damage:2": 6,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings4"
+          "id:8": "gregtech:gt.blockmetal8"
         },
         "4:10": {
+          "Count:3": 2,
+          "Damage:2": 7,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmetal2"
+        },
+        "5:10": {
           "Count:3": 1,
           "Damage:2": 91,
           "OreDict:8": "",
@@ -113,30 +119,12 @@
       "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
-      "index:3": 2,
+      "index:3": 3,
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 31785,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
-        },
-        "1:10": {
-          "Count:3": 1,
-          "Damage:2": 31786,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
-        },
-        "2:10": {
-          "Count:3": 1,
-          "Damage:2": 31787,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
-        },
-        "3:10": {
-          "Count:3": 1,
-          "Damage:2": 31788,
+          "Damage:2": 31071,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }

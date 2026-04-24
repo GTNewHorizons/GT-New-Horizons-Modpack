@@ -12,7 +12,7 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 1159,
+        "Damage:2": 15546,
         "OreDict:8": "",
         "id:8": "gregtech:gt.blockmachines"
       },
@@ -91,15 +91,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 1159,
+          "Damage:2": 15546,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
-        },
-        "1:10": {
-          "Count:3": 60,
-          "Damage:2": 2,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasingsNH"
         }
       },
       "taskID:8": "bq_standard:retrieval"

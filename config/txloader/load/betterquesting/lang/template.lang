@@ -7273,13 +7273,17 @@ betterquesting.quest.0rUmaWIPQPaL93q-_pgKXw.desc=How does one centrifuge rare ma
 betterquesting.quest.3SzKMSj0StOAOzVmInDjZQ.name=§5§lBig Beautiful Brewery
 betterquesting.quest.3SzKMSj0StOAOzVmInDjZQ.desc=Start your own local brewery with the BBB! You can use it to make tons of potions, obscure alcoholic drinks, or, more likely, industrial quantities of lubricant.
 
+# Quest: This Kinda Burns...
+betterquesting.quest.4-HZ9i5AQ4qLN7cgSDaL3Q.name=§8§lThis Kinda Burns...
+betterquesting.quest.4-HZ9i5AQ4qLN7cgSDaL3Q.desc=The §5§lIndustrial Chemical Bath§r will significantly increase the efficiency of your ore processing. It grants a §2§l5x§r speed boost and §6§l4§r parallels per voltage tier compared to its singleblock counterpart.
+
 # Quest: Fits The Mold
 betterquesting.quest.6glle46JSyuwR6O4x7mLYA.name=§9§lFits The Mold
 betterquesting.quest.6glle46JSyuwR6O4x7mLYA.desc=Making machines for every mold sounds tiring... fortunately, the Mass Solidifier multiblock can handle any number of molds by using §lSolidifier Hatches§r.%n%n[note]The Mass Solidifier also speeds up as it is running, making it more efficient to do large batches.[/note]
 
 # Quest: T2 Maceration Stack 
 betterquesting.quest.A4rEQOAXQsaa26Ib_nzkHg.name=§9§lT2 Maceration Stack 
-betterquesting.quest.A4rEQOAXQsaa26Ib_nzkHg.desc=Upgrade your Maceration Stack by replacing all the casings with Maceration Stack Casings and then placing the Upgrade Chip into the slot in the controller.%n%nThe Tier 2 Maceration stack has 4x more parallels!
+betterquesting.quest.A4rEQOAXQsaa26Ib_nzkHg.desc=Upgrade your Maceration Stack by replacing all the casings with Maceration Stack Casings and then placing the Upgrade Chip into the slot in the controller.%n%nThe §5§lTier 2§r Maceration stack has §2§l4x§r the speed and §6§l4x§r the parallels compared to the T1!
 
 # Quest: Smelt All The Things Stack-Wise...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAVQ.name=§5§lSmelt All The Things Stack-Wise...
@@ -7291,7 +7295,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABgg.desc=A multiblock forge hammer. You 
 
 # Quest: A Volcano For Your Base.
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABhQ.name=§9§lA Volcano For Your Base.
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABhQ.desc=The ultimate machine for cobblestone production. Or maybe to turn redstone into obsidian on a large scale for a renewable production of Silicon, Magnesium, Iron, and Oxygen.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABhQ.desc=The ultimate machine for cobblestone production. Or maybe to turn redstone into obsidian on a large scale for a renewable production of Silicon, Magnesium, Iron, and Oxygen.%n%nThe §5§lBoldarnator§r boasts a §2§l3x§r speed boost, §3§l25%%§r EU discount, and offers §6§l8§r parallels per voltage tier compared to the Rock Breaker.
 
 # Quest: You Smell Like a Distillery!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADAA.name=§5§lYou Smell Like a Distillery!
@@ -7303,11 +7307,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADbA.desc=Tired of using small cells to p
 
 # Quest: Hulk Smash!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjQ.name=§8§lHulk Smash!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjQ.desc=Mass destruction! Or at least, lots and lots of crushed ores. Build a maceration stack to keep up with all the ores you are getting. In IV you can upgrade the Multi to be much better with an upgrade chip and better casings.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjQ.desc=Mass destruction! Or at least, lots and lots of crushed ores. Build an §5§lIndustrial Maceration Stack§r to keep up with all the ores you are getting.%n%nThis processes items at §2§l1.6x§r the speed and with up to §6§l2§r parallels per voltage tier.%n%n[note]In IV you can upgrade the multi with an upgrade chip and better casings.[/note]
 
 # Quest: The Rocks In The Washer...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjg.name=§8§lThe Rocks In The Washer...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjg.desc=...go round and round, all the live long day. A large ore washing plant gets your rocks nice and clean. You can switch between Ore Washer and Chemical Bath modes with a screwdriver.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjg.desc=...go round and round, all the live long day. A large ore washing plant gets your rocks nice and clean. %n%nThe §5§lOre Washing Plant§r gives a §2§l5x§r speed boost and §6§l4§r parallels per voltage tier compared to its singleblock counterpart.
 
 # Quest: Dancing In Circles
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjw.name=§8§lDancing In Circles
@@ -7327,7 +7331,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7g.desc=Abuela, will you teach us the c
 
 # Quest: Play-Doh For Big Girls and Boys
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7w.name=§9§lPlay-Doh For Big Girls and Boys
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7w.desc=I never wanna grow up, I wanna play with my mega extrusion machine.%nAnd in case you didn't read the description in NEI: You can use multiple input buses with a different extruder shape in each and then throw the items to extrude into the bus with the appropriate shape.%n%nAlternatively, you can also use an Extrusion Bus. These are more expensive but come pre-loaded with all of the extruder shapes so you can manually set them without needing to create one.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7w.desc=I never wanna grow up, I wanna play with my §5§lIndustrial Extrusion Machine§r. This machine offers a §2§l3.5x§r speed boost and §6§l6§r parallels per voltage tier.%n%nYou can use multiple input buses with a different extruder shape in each and then throw the items to extrude into the bus with the appropriate shape.%n%nAlternatively, you can also use an Extrusion Bus. These are more expensive but come pre-loaded with all of the extruder shapes so you can manually set them without needing to create one.
 
 # Quest: Best Thing Since Sliced Bread
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH8A.name=§9§lBest Thing Since Sliced Bread
@@ -7351,7 +7355,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9Q.desc=Need enough wire to go around t
 
 # Quest: Bender, More Bending!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9g.name=§8§lBender, More Bending!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9g.desc=When you need plates by the thousands. You can switch between Bending Machine and Forming Press modes with a screwdriver.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9g.desc=When you need plates by the thousands you use the §5§lIndustrial Bending Machine§r. It grants §2§l6x§r the speed and §6§l6§r parallels per voltage tier compared to the singleblock.
 
 # Quest: Bezos Would Be Proud
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9w.name=§9§lBezos Would Be Proud
@@ -7367,7 +7371,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAH_Q.desc=This mega vac freezer can handl
 
 # Quest: Empty The Oceans
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIBQ.name=§9§lEmpty The Oceans
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIBQ.desc=If you stuck with fish for bio diesel this long, you can now make the Zhuhai Fishing Port to get cartloads of fish and other byproducts.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIBQ.desc=If you stuck with fish for bio diesel this long, you can now make the §5§lZhuhai Fishing Port§r to get cartloads of fish and other byproducts.
 
 # Quest: Putting All Those Workers Out of Jobs
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIBg.name=§b§lPutting All Those Workers Out of Jobs
@@ -7383,7 +7387,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKKQ.desc=You'll need all of this to crea
 
 # Quest: Cool Guys Don't Look At Explosions
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKxQ.name=§9§lCool Guys Don't Look At Explosions
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKxQ.desc=They automate them instead.%n%n[note]This multi is IV, but uses platline mats and ZPM circuits.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKxQ.desc=They automate them instead.%n%nCompared to a regular Implosion Compressor, the §5§lDensity^2§r has §2§l2x§r the speed, and gives §6§l1 + (Tier/2)§r parallels.%n%n[note]This multi is IV, but uses platline materials and ZPM circuits.[/note]
 
 # Quest: Let Me Fabricate a New Universe...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKxg.name=§b§lLet Me Fabricate a New Universe...
@@ -7411,7 +7415,7 @@ betterquesting.quest.ECDllKcSQ4SONHHfkfO0yw.desc=As you enter LuV and beyond, fe
 
 # Quest: Clean Implosions?!
 betterquesting.quest.IlCOpa8bR9WbOjSOPxZIlA.name=§4§l§nClean Implosions?!
-betterquesting.quest.IlCOpa8bR9WbOjSOPxZIlA.desc=Introducing the bigger (and better) Implosion Compressor, the Electric Implosion Compressor.%n%nThe Electric Implosion Compressor does not need any explosive and only needs electricity, isn't that very nice!%n%nFurthermore it gains extra parallels 4^(Tier - 1) based on the containment block used in the middle.%n%nTier 1: Neutronium Block%nTier 2: Infinity Block%nTier 3: transcendent Metal Block%nTier 4: Spacetime Block%nTier 5: Universium Block%n%n[note]While the structure preview shows holes in the middle, it requires the full 27 containment blocks to form, once formed the middle 5 blocks will disappear visually, but sometimes when breaking you will get them back (and sometimes you won't). [/note]%n%n[note]The minimum allowed energy hatch tier is one tier below the recipe tier, so let's start with 2 UHV energy hatches for now.[/note]
+betterquesting.quest.IlCOpa8bR9WbOjSOPxZIlA.desc=Introducing the bigger (and better) Implosion Compressor, the Electric Implosion Compressor.%n%nThe §5§lElectric Implosion Compressor§r does not need any explosive and only needs electricity, isn't that very nice!%n%nFurthermore it gains extra parallels §6§l4^(Tier - 1)§r based on the containment block used in the middle.%n%nTier 1: Neutronium Block%nTier 2: Infinity Block%nTier 3: transcendent Metal Block%nTier 4: Spacetime Block%nTier 5: Universium Block%n%n[note]The minimum allowed energy hatch tier is one tier below the recipe tier, so you'll want to start with at least 2 UHV energy hatches for now.[/note]
 
 # Quest: Extraction Point
 betterquesting.quest.Itn1KOiISHSbXzoDd2BB8w.name=§8§lExtraction Point
@@ -7428,6 +7432,10 @@ betterquesting.quest.RFgYQ7LAQD-p1gHMaeg5Sg.desc=Upon reaching the land of IV ma
 # Quest: L.A.T.E.X. Cable Coater
 betterquesting.quest.RV7RYWwgRSaI4oNfhfZljw.name=§5§lL.A.T.E.X. Cable Coater
 betterquesting.quest.RV7RYWwgRSaI4oNfhfZljw.desc=The §5L§raminated §5A§rpplication and §5T§rhermal §5E§rnclosure e§5X§rocoater (§5L.A.T.E.X.§r) is a multiblock dedicated to coating cables.%n%nYou will be making a LOT of cables during your playthrough... Why bog down your assembler when you can use the LATEX instead? The LATEX gives §2§l2x§r the speed with a §3§l15%%§r EU discount, and generously offers §6§l8§r parallels per voltage tier.%n%nIf that's not convincing enough, you also get an additive §2§l6.25%%§r rubber discount per Item Pipe Casing tier.%n%n[note]Once you eventually reach UV, you will be able to create an Elastic Singularity for additional perks![/note]
+
+# Quest: The Form of the Former Former: Reformed
+betterquesting.quest.UAy2m9SaSua5RZEb3ZENXw.name=§8§lThe Form of the Former Former: Reformed
+betterquesting.quest.UAy2m9SaSua5RZEb3ZENXw.desc=Should you require a formidable former, for formatively forming formal forms, you'll want to create an §5§lIndustrial Forming Press§r. It grants §2§l6x§r the speed and §6§l6§r parallels per voltage tier compared to the singleblock.
 
 # Quest: See You Lather
 betterquesting.quest.VJN1qfd5SjCkm7CXVd9Pag.name=§8§lSee You Lather
@@ -7943,8 +7951,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALjg.name=Nuclear Based Fuel (Pu)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALjg.desc=Provides 32,400EU/t output lasting 7.5s per mB.
 
 # Quest: Naquadah Fuel Refinery
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALjw.name=§b§lNaquadah Fuel Refinery
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALjw.desc=This insane machine is used to make MkIII and higher tier naquadah fuel.%n%nIt can't be overclocked by increasing the input voltage. The only way to overclock it is to use higher tier coils.%n%nIt also supports §9Tec§1Tech§r's Multi-Amp energy hatches and laser hatches.%n%nExample: The MkIV fuel requires tier 2 coils and the refinery is using tier 3 coils. This gives a perfect overclock, using 4x power and 0.25x time.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALjw.name=§4§l§nNaquadah Fuel Refinery
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALjw.desc=The §5§lNaquadah Fuel Refinery§r is used to make MkIII+ Naquadah Fuel.%n%nThe machine's overclocking ability is limited by the coil tier. Recipes can overclock up to the tier of the installed coil: Tier 1 coils allow 1 overclock above recipe tier, Tier 4 coils allow 4 overclocks above recipe tier.%n%nAdditionally, each tier of coil gives §6§l4 * Tier§r parallels.%n%nIt also supports §9Tec§1Tech§r's Multi-Amp energy hatches and laser hatches.
 
 # Quest: Tier 2 Coil
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALkA.name=Tier 2 Coil
@@ -9445,7 +9453,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKwA.desc=Go get the schematic for tier 6
 
 # Quest: Space Pumping
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL3Q.name=Space Pumping
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL3Q.desc=At some point you may have wondered: There are these enormous gas planets in the solar system - could there be a way to "harvest" them? Indeed there is. By constructing the "Planetary Gas Siphon" multiblock, you are able to pump from the infinite supply of gas found on Jupiter, Saturn, Uranus, and Neptune. You just need to build a space station around a gas planet to get close enough to reach the gas without falling into it.%n%nDifferent gases can be extracted by pumping at different depths which is controlled by a Programmed Circuit. You need to supply (64 * depth) Mining Pipes to reach the selected depth.%n%nWhile operational, the multiblock needs d*4^(T+2) EU/t where T is the tier of the space station and d is the depth.%n%nYou can find an overview of what you can pump and where in the Tips and Tricks chapter.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL3Q.desc=At some point you may have wondered: There are these enormous gas planets in the solar system - could there be a way to "harvest" them? Indeed there is. By constructing the "Planetary Gas Siphon" multiblock, you are able to pump from the infinite supply of gas found on Jupiter, Saturn, Uranus, and Neptune. You just need to build a space station around a gas planet to get close enough to reach the gas without falling into it.%n%nDifferent gases can be extracted by pumping at different depths which is controlled by a Programmed Circuit. You need to supply (64 * depth) Mining Pipes to reach the selected depth.%n%nWhile operational, the multiblock needs §3d*4^(T+2)§r EU/t where T is the tier of the space station and d is the depth.%n%nYou do not need a minimum tier of coil to siphon particular gas types, but you will get a §2§l10%%§r speed boost per coil tier.%n%nYou probably also want a good overview of what you can get with your Planetary Gas Siphon, and the tiers of the gas giants. So here we go:%n%nJupiter (Tier 3)%n1 Hydrogen - 15000 L/s%n2 Helium - 500 L/s%n3 Nitrogen - 300 L/s%n4 Oxygen - 200 L/s%n%nSaturn (Tier 5)%n1 Hydrogen - 18000 L/s%n2 Helium - 800 L/s%n3 Oxygen - 500 L/s%n4 Liquid Oxygen - 150 L/s%n%nUranus (Tier 5)%n1 Deuterium - 5000 L/s%n2 Neon - 450 L/s%n3 Argon - 250 L/s%n4 Krypton - 100 L/s%n%nNeptune (Tier 6)%n1 Tritium - 3000 L/s%n2 Helium-3 - 500 L/s%n3 Ammonia - 400 L/s%n4 Xenon - 350 L/s
 
 # Quest: How Do I Charge This Stuff?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALIA.name=How Do I Charge This Stuff?
@@ -14539,7 +14547,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEg.desc=The Precise Assembler has two m
 
 # Quest: Industrial Coke Oven
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMOQ.name=§8§lIndustrial Coke Oven
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMOQ.desc=Your EV endeavors might push you into a GT++ multiblock, despite most of those being IV-tier. This happens because the special alloys used to put them together need to be crafted in an Alloy Blast Smelter, which is IV, but the Industrial Coke Oven (ICO) does not!%n%nWhat does it do? It's in the name, it's a really fast Coke Oven. So fast, in fact, that it can replace a few dozen Pyrolyse Ovens. It actually takes its recipes from that multi, so you also get the additional fluid, such as Charcoal Byproducts, alongside the greatly increased processing speed. The caveat is that this multi needs Titanium, Platinum, and a little bit of Tungsten. You can get unprocessed Platinum from Nickel or Meteoric Iron & you can get Tungsten from processing End Stone Dust, Ender Goo or Moon Dust.%n%nIn EV you'll have to stick to the heat resistant casing, which offers 18 parallels. When you unlock HSS-S in IV however you can upgrade to the heat proof casings for an upgrade to 30 parallels.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMOQ.desc=Your EV endeavors might push you into a GT++ multiblock, despite most of those being IV-tier. This happens because the special alloys used to put them together need to be crafted in an Alloy Blast Smelter, which is IV, but the §5§lIndustrial Coke Oven§r (ICO) does not!%n%nWhat does it do? It's in the name, it's a really fast Coke Oven. So fast, in fact, that it can replace a few dozen Pyrolyse Ovens. It actually takes its recipes from that multi, so you also get the additional fluid, such as Charcoal Byproducts, alongside the greatly increased processing speed. The caveat is that this multi needs Titanium, Platinum, and a little bit of Tungsten. You can get unprocessed Platinum from Nickel or Meteoric Iron & you can get Tungsten from processing End Stone Dust, Ender Goo or Moon Dust.%n%nIn EV you'll have to stick to the heat resistant casing, which offers §616§r parallels. When you unlock HSS-S in IV however you can upgrade to the heat proof casings for an upgrade to §632§r parallels.%n%nOptionally, you can add up to 15 slices to each Coke Oven for a boost in parallels. §6+8§r per slice when using Heat Resistant Casings, and §6+16§r per slice when using the Heat Proof Casings.%n%n[note]For now, coil tier is irrelevant to the machine's performance, but later on, upgrading to Infinity Coils+ allows for multi-amp hatches, and using Eternal Coils allows for unlimited slice addition.[/note]
 
 # Quest: Bet On The Distillus
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMQQ.name=§9§lBet On The Distillus
@@ -14564,10 +14572,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMcw.desc=Hopefully, not more than a hand
 # Quest: Infinite Turbines
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMeA.name=§4§l§nInfinite Turbines
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMeA.desc=Some turbine materials are not available for you, either because you don't have the material itself or because the Dynamo Hatch in the turbine cannot handle the power output from plasma. It will be a different story in UHV, when you can once again quadruple the max output of each turbine, and also unlock Infinity as an option for turbines.%n%nHuge Infinity 300%% 6,451,200 EU/t%nHuge Infinity Catalyst 231%% 1,236,480 EU/t%n%nYes, that's basically it. You can use any material from the previous turbine quests, but when you make the t8 rocket and can mine Infinity Catalyst, these are the two options. Obviously, Infinity is much better, but also much more expensive. If you stick with fusion, you will need several of those to push through the endgame. Remember that you can input plasma beyond the optimal flow, and get more out of each turbine at the cost of fuel efficiency.%n%nMake a normal or buffered UHV dynamo to complete the quest.
-
-# Quest: Gas Planets
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMiQ.name=Gas Planets
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMiQ.desc=You probably also want a good overview of what you can get with your Planetary Gas Siphon, and the tiers of the gas giants. So here we go:%n%nJupiter (Tier 3)%n1 Hydrogen - 15000 L/s%n2 Helium - 500 L/s%n3 Nitrogen - 300 L/s%n4 Oxygen - 200 L/s%n%nSaturn (Tier 5)%n1 Hydrogen - 18000 L/s%n2 Helium - 800 L/s%n3 Oxygen - 500 L/s%n4 Liquid Oxygen - 150 L/s%n%nUranus (Tier 5)%n1 Deuterium - 5000 L/s%n2 Neon - 450 L/s%n3 Argon - 250 L/s%n4 Krypton - 100 L/s%n%nNeptune (Tier 6)%n1 Tritium - 3000 L/s%n2 Helium-3 - 500 L/s%n3 Ammonia - 400 L/s%n4 Xenon - 350 L/s
 
 # Quest: Hypogen Coil Upgrade
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkg.name=§9§l§nHypogen Coil Upgrade
