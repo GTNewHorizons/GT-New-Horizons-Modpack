@@ -1,25 +1,25 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": -3680553896953820076,
-      "questIDLow:4": -5335654271047265477
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1942
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Do you have stacks upon stacks of dirt clogging up all of your chests? Well do I have the solution for you! This new revolutionary piece of technology will solve all of your storage woes for years to come.",
+      "desc:8": "Chisel adds a couple new sets of glowing blocks to enchance your builds. \n\nIf you\u0027ve ever seen a cool looking futuristic base on the loading screen, it likely used one of these blocks!\n\n[note]Unlike neonite and antiblocks, lapis caelestis blocks do emit light - and different colors emit diffrerent amounts of it.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 7,
+        "Damage:2": 32767,
         "OreDict:8": "",
-        "id:8": "IronChest:BlockIronChest"
+        "id:8": "ExtraUtilities:greenscreen"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§a§lThe Compactest Storage",
+      "name:8": "§a§lLet it Glow!",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -30,22 +30,22 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 4056029711773746956,
-  "questIDLow:4": -8424326485364642498,
+  "questIDHigh:4": -3238722672414471122,
+  "questIDLow:4": -6067160993200988432,
   "rewards:9": {
     "0:10": {
       "choices:9": {
         "0:10": {
-          "Count:3": 4,
-          "Damage:2": 7,
+          "Count:3": 16,
+          "Damage:2": 1,
           "OreDict:8": "",
-          "id:8": "IronChest:BlockIronChest"
+          "id:8": "ExtraUtilities:etherealglass"
         },
         "1:10": {
-          "Count:3": 64,
-          "Damage:2": 0,
+          "Count:3": 16,
+          "Damage:2": 2,
           "OreDict:8": "",
-          "id:8": "minecraft:dirt"
+          "id:8": "ExtraUtilities:etherealglass"
         }
       },
       "ignoreDisabled:1": 0,
@@ -58,10 +58,10 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 1,
+          "Count:3": 10,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinTechnician"
+          "id:8": "dreamcraft:CoinDarkWizard"
         }
       }
     }
@@ -72,14 +72,26 @@
       "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
-      "index:3": 1,
+      "index:3": 0,
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 7,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "IronChest:BlockIronChest"
+          "id:8": "chisel:neonite"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 15,
+          "OreDict:8": "",
+          "id:8": "chisel:antiBlock"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "ExtraUtilities:greenscreen"
         }
       },
       "taskID:8": "bq_standard:retrieval"
