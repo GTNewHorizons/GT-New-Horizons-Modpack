@@ -1,0 +1,97 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1302
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1303,
+      "type:1": 1
+    },
+    "2:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1305,
+      "type:1": 1
+    },
+    "3:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1326,
+      "type:1": 1
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "The Pattern Repeater is a niche but useful tool. It allows recipes to be visible across networks.\n\nWhen two networks are linked via a repeater, you could have a pattern that lives on network A and be able to see it in network B. In practice, you could request the item from network B (using items from network B), then those items would be transferred to the pattern destination on network A, and the resulting item would end up on network B when completed.\n\nIn order to set this up, simply make a pair of Pattern Repeaters (attached to separate networks) face into one another. You can then use a wrench to toggle each to the desired mode: either Provider or Accessor. You will need one of each.\n\nThe \"§5Accessor§r\" side is where the original pattern should sit. It will \"send\" the pattern to the other network. §3(Network A in the example above)§r\n\nThe \"§5Provider§r\" side is where the pattern is provided to. It \"receives\" the incoming pattern from the other network. §3(Network B in the example above)§r",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 473,
+        "OreDict:8": "",
+        "id:8": "appliedenergistics2:item.ItemMultiPart"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Pattern Repeater",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -1146602695664186821,
+  "questIDLow:4": -7898610737511058363,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 38,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      }
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:CoinTechnicianII"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 473,
+          "OreDict:8": "",
+          "id:8": "appliedenergistics2:item.ItemMultiPart"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
