@@ -6,6 +6,10 @@
     },
     "1:10": {
       "questIDHigh:4": 0,
+      "questIDLow:4": 1969
+    },
+    "2:10": {
+      "questIDHigh:4": 0,
       "questIDLow:4": 100
     }
   },
@@ -24,7 +28,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Fancier ProjectRed Illumination",
+      "name:8": "§2§lFancier ProjectRed Illumination",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

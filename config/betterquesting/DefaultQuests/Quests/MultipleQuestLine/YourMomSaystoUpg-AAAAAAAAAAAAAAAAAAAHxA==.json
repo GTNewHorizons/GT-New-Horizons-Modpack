@@ -2,25 +2,29 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 97
+      "questIDLow:4": 1987
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 727
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Nobody likes an untidy base. You can craft a spray can and later fill it with Chemical Dye made from sulfuric acid to color coordinate your carpets, cables, wires, and machines. But for now, have a couple of freebies.",
+      "desc:8": "There are many tiers of upgrades for storage drawers. Make some iron and gold tier upgrades and I\u0027ll give you some of the special purpose upgrades to experiment with in your base. Check NEI for more options such as Obsidian, Emerald, and Diamond upgrades.\n\n[warn]To remove upgrades, shift-right-click with an empty hand to access the drawer interface.[/warn]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 32402,
+        "Damage:2": 2,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.01"
+        "id:8": "StorageDrawers:upgrade"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Making Sense of Spaghetti",
+      "name:8": "§c§lYour Mom Says to Upgrade Your Drawers",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -33,7 +37,7 @@
     }
   },
   "questIDHigh:4": 0,
-  "questIDLow:4": 2138,
+  "questIDLow:4": 1988,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -42,21 +46,15 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 32432,
+          "Damage:2": 1,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "StorageDrawers:upgradeStatus"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 32452,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
-        },
-        "2:10": {
-          "Count:3": 1,
-          "Damage:2": 32438,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "StorageDrawers:upgradeVoid"
         }
       }
     }
@@ -72,9 +70,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 32402,
+          "Damage:2": 2,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "StorageDrawers:upgrade"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "OreDict:8": "",
+          "id:8": "StorageDrawers:upgrade"
         }
       },
       "taskID:8": "bq_standard:retrieval"

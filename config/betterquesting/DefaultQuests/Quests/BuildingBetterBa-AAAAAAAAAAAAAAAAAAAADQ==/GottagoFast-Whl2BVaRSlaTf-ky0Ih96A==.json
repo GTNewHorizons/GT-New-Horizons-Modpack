@@ -1,27 +1,29 @@
 {
   "preRequisites:9": {
     "0:10": {
+      "questIDHigh:4": 1061314381668699413,
+      "questIDLow:4": -5583348153901815662
+    },
+    "1:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 5
+      "questIDLow:4": 1148
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Now that you\u0027ve gotten your tools and are about to go collect a bunch of stuff, it\u0027s time to make some storage for it.\nTake some of your wood, and craft a chest. You will need 4 wood, 4 planks, and 1 flint.",
-      "globalShare:1": 1,
+      "desc:8": "Yet another block you can use to get around your base much more efficiently. Unlike concrete, you don\u0027t have to fill your floor with these to get their full benefit.\n\nYou can also stack the speed boost from both boosters and concrete for an even bigger speed boost!\n\n[note]Place your boosters 20 blocks apart - or 36 blocks if you\u0027re using concrete - for optimal boosting.[/note]",
+      "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "minecraft:chest"
+        "id:8": "Ztones:booster"
       },
-      "isGlobal:1": 0,
-      "isMain:1": 1,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "lockedProgress:1": 1,
-      "name:8": "§9§lStorage For Days",
-      "partySingleReward:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "§6§lGotta Go Fast!",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -32,22 +34,28 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 3,
+  "questIDHigh:4": 6492350103130557014,
+  "questIDLow:4": -7818274023635649048,
   "rewards:9": {
     "0:10": {
       "choices:9": {
         "0:10": {
-          "Count:3": 1,
+          "Count:3": 8,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "minecraft:chest"
+          "id:8": "minecraft:blaze_powder"
         },
         "1:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
+          "Count:3": 2,
+          "Damage:2": 8258,
           "OreDict:8": "",
-          "id:8": "harvestcraft:muttoncookedItem"
+          "id:8": "minecraft:potion"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
         }
       },
       "ignoreDisabled:1": 0,
@@ -60,7 +68,7 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 5,
+          "Count:3": 25,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "dreamcraft:CoinTechnician"
@@ -70,22 +78,21 @@
   },
   "tasks:9": {
     "0:10": {
-      "allowAnvil:1": 0,
-      "allowCraft:1": 1,
-      "allowCraftedFromStatistics:1": 1,
-      "allowSmelt:1": 1,
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 0,
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 1,
+          "Count:3": 16,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "minecraft:chest"
+          "id:8": "Ztones:booster"
         }
       },
-      "taskID:8": "bq_standard:crafting"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }
