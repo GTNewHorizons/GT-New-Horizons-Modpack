@@ -76,7 +76,7 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 16,
+          "Count:3": 8,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "minecraft:chest"
@@ -93,7 +93,7 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 8,
+          "Count:3": 4,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "minecraft:trapped_chest"
