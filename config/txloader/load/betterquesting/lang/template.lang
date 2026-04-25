@@ -17,10 +17,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAAQ.desc=As you might have noticed when 
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAAg.name=§9§lSticks 'n Stones
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAAg.desc=This book has a built-in reading light, lucky you! You can read about quests while you're waiting for the night to be over, but for now, you may want to get the basics done. If it isn't dark already, go out and collect some gravel and wood.%n%nKeep in mind that you need food, so look for Pam's Harvestcraft gardens. Save some of the drops from them for seeds. Alternatively, right-click the gardens with an empty hand to get the garden item itself. If you place it somewhere else, it will spread into more of the same garden up to a limit within that area.%n%nMake sure to read the info-quests linked to the first quest, they have important info!
 
-# Quest: Storage For Days
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAAw.name=§9§lStorage For Days
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAAw.desc=Now that you've gotten your tools and are about to go collect a bunch of stuff, it's time to make some storage for it.%nTake some of your wood, and craft a chest. You will need 4 wood, 4 planks, and 1 flint.
-
 # Quest: Tools
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAABQ.name=§9§lTools
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAABQ.desc=Now that you've got a shelter and a crafting table, you should make some tools, unless you'd like to continue punching trees with your bare hands.%n%nYou should probably make the axe first so you can get wood for the rest more easily.
@@ -251,10 +247,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAJQ.desc=Iron can be found in multiple v
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAJg.name=§a§lMaking Better Tools
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAJg.desc=With zinc and copper, you can create a material with a higher melting temperature - Brass - which can be used to cast better tools.%n%nFor that, you need a smeltery. See the Multiblock Goals tab for details. You can also grab some extra blocks from some villages, but they don't count towards the quest.%n%nAlternatively, there are also one-time-use clay casts available.%n%nYou can then use your fancy bronze to make better tools with a higher mining level.%n%nRemember, you need to use the pickaxe a bit to gather mining XP if you want the full mining level on your bronze pickaxe. Certain tool upgrades can give that directly if you have an upgrade slot available.
 
-# Quest: Better Storage
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAJw.name=§a§lBetter Storage
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAJw.desc=While standard chests are good for your basic items and goods, they are not ideal for storing a large amount of ore. You should build yourself some barrels in order to keep things organized.
-
 # Quest: You Shall Proceed
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAKA.name=§a§lYou Shall Proceed
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAKA.desc=As you've gathered and crafted all materials and tools you need for your basic steam machinery, you may now proceed to the next tier. Keep in mind that you'll need mountains of resources in order to craft even the simplest things, so you probably should stock up on all ores in this tier. But that's up to you.%n%nAs a special reward, you get a pair of Holo Glasses to look inside your inventories. Place it into the mask slot, and use the keybind to turn it on.%n%n[note]Tip: If you double-click the NEI search field the resulting highlighted search also applies to what you can see with your Holo Glasses![/note]
@@ -331,17 +323,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAB7g.desc=If you didn't find any Redstone
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB8g.name=§a§lXP Usage?!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB8g.desc=Exploring some dungeons or fighting mobs probably gave you a lot of XP. Better use it to get iron, copper, tin, or other useful dusts before you die.%n%nPlace your tank on the ground and a drain on top. Now you can fill it with XP.%n%nBy the way, you discovered that while the seared tank doesn't hold much, it doesn't lose contents when broken, and full tanks can stack. I wonder if that information is useful...
 
-# Quest: Better Than Barrels
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC1w.name=§a§lBetter Than Barrels
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC1w.desc=While barrels offer a slot for a single item, drawers can have up to 4 slots each, holding 16 stacks per slot.%n%nHowever, they do come with some downsides. You won't be able to make them point up or down, and you can only access the contents from the front. The automation can use any side.
-
 # Quest: Compact Drawers
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC2A.name=§a§lCompact Drawers
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC2A.desc=They are very compact and add some fanciness to your glorious dirt base.
-
-# Quest: Framing Drawers
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC2Q.name=§a§lFraming Drawers
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC2Q.desc=Now you can really make some swaggy and §oeven fancier§r drawers by using this table, all you have to do is place some decorative blocks and it will take their texture, the TOP left is the outer square, bottom left is for the front face, and top right is for the borders. This table works with almost all decorative blocks.
 
 # Quest: Redstone, Early Game Processing
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACFw.name=§a§lRedstone, Early Game Processing
@@ -584,10 +568,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAASQ.desc=All machines need a hull to kee
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAVA.name=§c§lWhere Can I Put All the Liquids?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAVA.desc=With your brand new alloy smelter you are able to combine two materials. What happens if you mix some obsidian dust and thickened glass? Obsidian glass, great. Your first tank that you can make would be a Buildcraft tank. This tank can carry up 16 buckets of a single fluid. It's possible to upgrade those tanks so they can hold up to 64 buckets.%nYou can also stack the tanks to increase capacity.
 
-# Quest: A Quite Different Storage
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAdw.name=§c§lA Quite Different Storage
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAdw.desc=Regular chests can fill up rather quickly if you happen to collect mob drops like swords and/or armor. By using a cabinet, you can store up to 270 items of the same type. Also, it doesn't need a dolly - you can break it normally and it will retain contents.%n%nPerfect for storing Forestry saplings, bees, or really anything that shares an ID but won't stack because of NBT!
-
 # Quest: Flint and Steel
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB3g.name=§c§lFlint and Steel
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB3g.desc=After you make steel you are able to craft flint and steel. I guess you'll want to travel to the Nether as soon as possible but be aware; the Nether is a very dangerous place.%n%nNote: The ball of moss gives a tinker's tool self-repair. But if the tool is completely broken, it won't repair it.%n%nNote that the flint and steel can take a few times to work.
@@ -800,17 +780,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHfw.desc=Impossible! But if you really w
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHww.name=§c§lUpgrading Drawers
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHww.desc=Drawer upgrades are different from barrel upgrades. First you need to make the upgrade template.
 
-# Quest: Your Mom Says to Upgrade Your Drawers
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHxA.name=§c§lYour Mom Says to Upgrade Your Drawers
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHxA.desc=There are many tiers of upgrades for storage drawers. Make some iron and gold tier upgrades and I'll give you some of the special purpose upgrades to experiment with in your base. Check NEI for more options such as Obsidian, Emerald, and Diamond upgrades.%n%n[warn]To remove upgrades, shift-right-click with an empty hand to access the drawer interface.[/warn]
-
 # Quest: Jacques Cousteau
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAICA.name=§c§lJacques Cousteau
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAICA.desc=Now that you have a Scuba Helmet you can safely explore underwater for long periods of time. You just need some compressed air cells. I'll trade you some Tin ingots for a few compressed air cells.%n%nAs your air drops, the helmet will take a compressed air cell and give back an empty cell. Throw these cells into your compressor and you can easily gather clay from beneath rivers. You'll be able to make more cells later once you get an extruder or a plate bender.
-
-# Quest: Key to Your Heart
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIJw.name=§c§lKey to Your Heart
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIJw.desc=Barrels by default allow locking the barrel to a specific item, even when empty. For drawers however you will need to make the Drawer Key to lock its content types.
 
 # Quest: A Fool Fit for a King
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIXA.name=§c§lA Fool Fit for a King
@@ -2378,10 +2350,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAI9w.desc=Efficient Platinum processing i
 # Quest: Hidden Drawers
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJXg.name=§5§lHidden Drawers
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJXg.desc=You might notice once you get a wall of drawers that looking that direction gives you a little lag. If the lag gets bad enough, you can craft this key to stop putting the item on the front. Use it on the drawer controller to affect all of them.
-
-# Quest: Controlling Your Drawers
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJaA.name=§5§lControlling Your Drawers
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJaA.desc=Now that you have MV Circuits and Stainless Steel, you can make the incredibly handy Drawer Controller. This block will make any drawers it connects to in a 4-block radius (including the y-axis) and 50 blocks at maximum as part of a multiblock that allows storage (and retrieval with the right setup) to any of the blocks that make it up. This will allow you to dump the contents of your mining trip into a storage system much easier. Just hold right-click on the Controller front for a second or two, and any items that match what's already in the multiblock will be deposited, while your tools and such won't. Just make sure to place your Controller last so it registers all the drawers.%n%nYou can feed into the Controller (and thus the rest of the drawers) with any kind of piping or hopper equivalent. If using it as part of a Multifarm or Mob Farm, make sure to set the contents of the drawers, and lock them with a key so that it properly stores everything in an organized manner. If the drawers' contents aren't set, it will start filling starting from the ones closest. If you wish to have more than one drawer full of an item, put a void upgrade on the drawer further from the Controller, and it will fill the first one, then the second.%n%nIf you want to go around corners, use the Trim Drawers to extend the multiblock. If you want to have a second point to dump items into, use the Controller Slave (one per multiblock, automation only). Note that you can use a key on the Controller to affect all drawers at once.%n%nOnce you have an ME Network, place a storage bus on the Controller, and the entire inventory will be accessible from the network, with both storage and retrieval. Just remember to set the priority higher than your ME Drives. If you haven't locked them yet expect all your drawers to fill with random items from your ME Network.%n%n[warn]Using the drawer controller with large amounts of I/O will tank TPS! If you're on a server, do not use drawer cubes, or expect the possibility of it being deleted or you getting banned.%n%nAdditionally, expect all non-backpack interactions to be DISABLED on the official servers. Congratulations, Drawer Cubists, you ruined it for everyone.[/warn]
 
 # Quest: Forget Something?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJjw.name=§5§lForget Something?
@@ -4229,10 +4197,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAB0w.desc=There was something sleeping de
 # Quest: Infinity Helmet
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKCA.name=§5§l§nInfinity Helmet
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKCA.desc=An armor set worthy of a God. This helmet provides infinite saturation.%n%nWhile wearing the complete set, you are completely unkillable.
-
-# Quest: Infinity Chest
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKEQ.name=§5§l§nInfinity Chest
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKEQ.desc=Stores up to 243 different items, each being able to stack up to 2,147,483,648. Useful if you want somewhere to put all those void miner ores.
 
 # Quest: Nature's Ruin
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKEg.name=§5§l§nNature's Ruin
@@ -6234,172 +6198,180 @@ betterquesting.quest.tgH86mIERWKIh8OAleKrSw.desc=First available in LV, the Mob 
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAADQ.name=Building Better Bases
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAADQ.desc=Tired of torches everywhere making your base look like a loser built it? Make your base look like a winner with these quests.
 
+# Quest: Let it Glow!
+betterquesting.quest.0w2-45C7TC6rzR04zSYe8A.name=§a§lLet it Glow!
+betterquesting.quest.0w2-45C7TC6rzR04zSYe8A.desc=Chisel adds a couple new sets of glowing blocks to enhance your builds. %n%nIf you've ever seen a cool looking futuristic base on the loading screen, it likely used one of these blocks!%n%n[note]Unlike Neonite and Antiblocks, Lapis Caelestis blocks do emit light - and different colors emit different amounts of it.[/note]
+
+# Quest: Barrel Upgrades
+betterquesting.quest.5zyyh2tXQ8On53B0VtAHZw.name=§c§lBarrel Upgrades
+betterquesting.quest.5zyyh2tXQ8On53B0VtAHZw.desc=Better Barrels have tiers which increase the amount of upgrades a barrel can hold. They are mainly used to increase their storage capacity, although there are a few upgrades which give the barrels extra functionality.%n%nBarrels can only be upgraded one tier at a time, so be prepared to make lots of lower tier structural upgrades if you plan to continue using Better Barrels for your storage needs!
+
 # Quest: Building Made Easy
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACWQ.name=Building Made Easy
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACWQ.name=§c§lBuilding Made Easy
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACWQ.desc=Placing blocks by hand can be tedious. Wouldn't it be nice to be able to place blocks like "Another 9 here"? Well, good news. Get yourself some of the various building blocks, and I shall reward you with something nice.%n%nYou could also just craft it (or the better one) with unstable ingots yourself, too.%n%nYou can upgrade to the various other BBWs too.
 
 # Quest: Base Too Big? I've Got a Fix For You!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADuA.name=Base Too Big? I've Got a Fix For You!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADuA.name=§2§lBase Too Big? I've Got a Fix For You!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADuA.desc=Keeping a base spread apart for pollution or explosion prevention can really wear you out, so why not make some concrete to get around faster?%n%nHarvest some Marble and centrifuge it into Calcite, and mix up some concrete in your Mixer. Next output it into a Fluid Solidifier with a block mold to make concrete blocks.%n%nYou'll move faster on top of these blocks. They can even be turned into bricks to prevent unwanted spawns! Hint: 10 buckets of wet mix converts to exactly 160 blocks. These blocks can also be Chiseled into different varieties.
 
-# Quest: A Better Chisel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHjw.name=A Better Chisel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHjw.desc=If you want to decorate your base, you're going to need a better chisel.%n%nNormal: 256%nObsidian: 512%nDiamond: 2560%nBedrockium: 32767%n%nThey obviously get harder to make the longer they last.
+# Quest: Chisel
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHjw.name=§a§lChisel
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHjw.desc=Chisel is one of the main building mods in this pack. It adds hundreds of new blocks which will help make your base beautiful!%n%nThe mod also adds different variants of many vanilla blocks. Make a chisel to check them out!
 
 # Quest: The Right Tool for the Job
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHkA.name=The Right Tool for the Job
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHkA.name=§a§lThe Right Tool for the Job
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHkA.desc=Tinker's Construct has their own chisel tool variant, for converting Tinker blocks into different types. Not a lot of uses, but if you check NEI you can see what you can do.
 
 # Quest: Tinker's Blocks
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHkQ.name=Tinker's Blocks
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHkQ.name=§a§lTinker's Blocks
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHkQ.desc=Tinker's Construct offers a couple of useful blocks from the smeltery. Rough Brownstone takes Tin and Gravel and makes a block that lets you move a little faster. Cobblestone can be turned into Seared Stone, usable in the smeltery walls to make it larger without having to use clay.
 
 # Quest: Some Handy Uses
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHkg.name=Some Handy Uses
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHkg.desc=The TiCon chisel doesn't have a lot of uses, but here are a couple of interesting ones. Use NEI to see other options for more decorations. You can also slab these blocks if you want something monsters cannot spawn on.%n%nBrownstone roads are slightly faster than rough brownstone.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHkg.name=§a§lSome Handy Uses
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHkg.desc=The TiCon chisel doesn't have a lot of uses, but here are a couple of interesting ones. Use NEI to see other options for more decorations. You can also slab these blocks if you want something monsters cannot spawn on.%n%nYou can also use the chisel in-world on Tinkers/u0027 blocks to change them into different variants - just be aware that sometimes you can't change them back!%n%n[note]Brownstone roads are slightly faster than rough brownstone.[/note]%n%n[note]Using the chisel on seared stone allows you to turn it into seared bricks.[/note]
 
 # Quest: Chisel All the Things
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHkw.name=Chisel All the Things
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHkw.name=§2§lChisel All the Things
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHkw.desc=If, for some reason, you need to chisel a large number of items, the autochisel is what you want.
 
 # Quest: Chisel as Fast as You Can
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHlA.name=Chisel as Fast as You Can
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHlA.name=§2§lChisel as Fast as You Can
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHlA.desc=The autochisel speed is pretty slow. Craft some upgrades to make it faster.
 
 # Quest: My Ancient Enemy
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHlQ.name=My Ancient Enemy
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHlQ.name=§a§lMy Ancient Enemy
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHlQ.desc=The one place Chisel is weak is in stairs. It would be nice to have more variety, but later I'll show you how to make any block into a custom stair.%n%nYou can also search NEI for "stairs" to find stairs from other mods.
 
 # Quest: Basic Blocks
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHlg.name=Basic Blocks
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHlg.name=§a§lBasic Blocks
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHlg.desc=Chisel offers a wide variety of blocks. Searching NEI for "chisel" gives pages and pages. Here's a small sample.
 
 # Quest: Fun Party Blocks
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHlw.name=Fun Party Blocks
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHlw.name=§a§lFun Party Blocks
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHlw.desc=There's also some really funky blocks available.
 
 # Quest: Concrete and GT Stones
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHmA.name=Concrete and GT Stones
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHmA.name=§a§lConcrete and GT Stones
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHmA.desc=Chisel can also transform Concrete and GT stones into new interesting blocks. Some of the GT stone blocks will even prevent mobs from spawning on top. Concrete will let you run faster.
 
 # Quest: Basic Builder's Wand
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHmQ.name=Basic Builder's Wand
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHmQ.name=§c§lBasic Builder's Wand
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHmQ.desc=The only thing going for the stone builder's wand is that it's cheap. It doesn't offer much in special modes, and doesn't last long either. But you can make a lot!%n%nTo use, right-click on a block while holding more of that block in your inventory. An outline will show you what it will do.
 
 # Quest: Low-Tier Wand
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHmg.name=Low-Tier Wand
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHmg.name=§c§lLow-Tier Wand
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHmg.desc=The Iron wand will last longer than the stone wand, and has a few modes.
 
 # Quest: Mid-Tier Wand
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHmw.name=Mid-Tier Wand
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHmw.name=§6§lMid-Tier Wand
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHmw.desc=The next tier up wand is the Diamond wand. Has all kinds of fun modes. Just be careful using it, would hate to place a bunch of blocks accidentally!
 
 # Quest: Botany
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHoA.name=Botany
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHoA.name=§a§lBotany
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHoA.desc=The Botany mod offers more colors for blocks and glass, and simple tile patterns or more complex patterns using a Tileworker. For now, we'll make an iron trowel.%n%nThis mod will make lots of butterflies, so make sure to do your gardening underground or under glass. The butterflies will spread and infect leaves around your area, making more butterflies, causing lag.
 
 # Quest: Finding Flowers
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHoQ.name=Finding Flowers
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHoQ.name=§a§lFinding Flowers
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHoQ.desc=To start, you'll need to find some flowers. Then take your trowel and use it on some dirt blocks to turn it into soil. Next place your flowers on the soil to turn them into Botany flowers. If you've reached MV tier, check out the How to Be(e) tab for info on Genetics.
 
 # Quest: Powder Power
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHow.name=Powder Power
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHow.name=§a§lPowder Power
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHow.desc=Botany uses various powders to enhance soil properties.%n%nRaise Ph - Ash Powder, Pulp Powder%nLower Ph - Mulch Powder, Sulphur Powder%nIncrease Nutrients - Fertilizer Powder, Compost Powder
 
 # Quest: Killing Weeds and Growing Flowers
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHpA.name=Killing Weeds and Growing Flowers
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHpA.name=§a§lKilling Weeds and Growing Flowers
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHpA.desc=Nobody likes weeds. Weedkiller will keep the weeds off your soil.%n%nBone meal can be applied to germling flowers to make them mature faster.
 
 # Quest: Like Having a County Extension Office in Your Hand
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHpQ.name=Like Having a County Extension Office in Your Hand
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHpQ.name=§6§lLike Having a County Extension Office in Your Hand
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHpQ.desc=The soil meter will tell you the soil stats - how dry, how many nutrients, etc. You can amend the soil with the various powders so that it matches the requirements for your flower.
 
 # Quest: 80 New Colors to Play With
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHpg.name=80 New Colors to Play With
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHpg.name=§a§l80 New Colors to Play With
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHpg.desc=When you plant a vanilla flower, it is already mature. Cut it with shears to get a germling you can replant to make more. Break the flower to get a mature flower. Turn the flower into pigment using a crafting table.%n%nTo get crosses, plant flowers next to empty soil blocks. Keep an eye out for weeds. Eventually a small germling will start growing.%n%nRemember, do this underground or in an enclosure or your TPS will regret it.
 
 # Quest: Glass of Many Colors
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHpw.name=Glass of Many Colors
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHpw.name=§a§lGlass of Many Colors
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHpw.desc=The pigments color an amazing variety of glass. Just one warning - unlike normal glass, this glass isn't fireproof.
 
 # Quest: Ceramics
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHqA.name=Ceramics
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHqA.name=§a§lCeramics
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHqA.desc=With some clay and pigments, you can make pigmented clay. Put the pigmented clay in a furnace to get basic ceramic blocks. These blocks are great if you want an area of nice even colors.
 
 # Quest: Mortar and Tiles
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHqQ.name=Mortar and Tiles
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHqQ.name=§a§lMortar and Tiles
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHqQ.desc=To make ceramic tile patterns, you need to convert your blocks into tiles. First make mortar, and then use the mortar with your blocks in a 3 block + 1 mortar pattern in the crafting table to get ceramic tiles.
 
 # Quest: Tile Patterns
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHqg.name=Tile Patterns
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHqg.name=§a§lTile Patterns
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHqg.desc=Now that you have tiles, you can make simple tile patterns. A 2x2 of red/yellow and yellow/red makes a simple checkerboard. Using the checkerboard again in a 2x2 makes a checkerboard with smaller tiles. Use Binnie's Botany wiki page to find more patterns you can make with just tiles.
 
 # Quest: Tileworker
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHqw.name=Tileworker
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHqw.name=§2§lTileworker
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHqw.desc=The tileworker can take the single-color ceramic blocks and turn them into pretty patterned blocks.%n%nAnd contrary to the name, you use ceramic blocks here, not tiles.
 
 # Quest: Glassworker
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHrQ.name=Glassworker
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHrQ.name=§2§lGlassworker
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHrQ.desc=Want some custom glass shapes and configurations? A glassworker can provide some unique patterns to put in your windows. You'll need to make some glass fittings to hold the glass together.
 
 # Quest: Mo' Hammers Mo' Problems
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHrg.name=Mo' Hammers Mo' Problems
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHrg.name=§2§lMo' Hammers Mo' Problems
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHrg.desc=Yes indeed, time for another type of hammer. The master carpentry hammer will allow you to rotate the blocks from the various workers.%n%nSneak to rotate the blocks vertically.%n%nWhy is the lower tier hammer the master hammer? Who knows??
 
 # Quest: Panels to Cover Your...Everything
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHrw.name=Panels to Cover Your...Everything
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHrw.name=§2§lPanels to Cover Your...Everything
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHrw.desc=The panelworker will create wood flooring pieces for you to use.
 
 # Quest: Fancy Woods
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHsA.name=Fancy Woods
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHsA.name=§2§lFancy Woods
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHsA.desc=With the woodworker, you can create fancy looking types of wood blocks. You can use wood planks from Vanilla, Forestry, and Extra Trees.
 
 # Quest: Look Mom, No Torches!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHsQ.name=Look Mom, No Torches!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHsQ.name=§a§lLook Mom, No Torches!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHsQ.desc=Tired of a base using nothing but torches? This set of quests will go through the various options available to light up your beautiful base.%n%nFirst up, Railcraft lanterns. These come in stone and metallic varieties. The stone varieties don't need much to craft. One plus/minus for these lanterns is that they are solid blocks - while you cannot walk through them, they also do not fall if the surrounding blocks are removed. Search "lantern" in NEI for more varieties. They are a bit annoying to craft now, but if you check NEI you can make them pretty easily with assemblers later.
 
 # Quest: Second Saw
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHsg.name=Second Saw
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHsg.name=§a§lSecond Saw
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHsg.desc=Forge Microblocks can be really handy to make custom pieces. There are many saw tiers available. If you make me an iron one, I'll give you a diamond one.
 
 # Quest: Fancy Lanterns
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHsw.name=Fancy Lanterns
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHsw.name=§c§lFancy Lanterns
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHsw.desc=Bibliocraft offers fancy looking lanterns. Make the candles from candleberries or beeswax.
 
 # Quest: Even small Glowstone shines bright
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHtA.name=Even small Glowstone shines bright
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHtA.name=§c§lEven small Glowstone shines bright
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHtA.desc=Now that you've been to the nether and gathered Glowstone, you can use that for light as well. You can color it to make the block color change (unfortunately 1.7.10 does not support colored lights) or you can use the Forge Microblocks saw to cut it up into tiny nooks to light up areas without taking up much space.%n%nThere are also various glowing plants you can find or breed, such as glowflowers.
 
 # Quest: Basic ProjectRed Illumination
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHtQ.name=Basic ProjectRed Illumination
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHtQ.name=§2§lBasic ProjectRed Illumination
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHtQ.desc=The basic ProjectRed Illumination lamps only need an LV mixer to make. The normal version needs a redstone signal to turn on. The inverted version is on unless a redstone signal is applied.
 
 # Quest: Fancier ProjectRed Illumination
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHtg.name=Fancier ProjectRed Illumination
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHtg.name=§2§lFancier ProjectRed Illumination
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHtg.desc=The fancier ProjectRed Illumination lamps, lanterns, and fixtures require the Forming Press and Assembler to create.
 
 # Quest: ProjectRed Lights With a Purpose
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHtw.name=ProjectRed Lights With a Purpose
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHtw.name=§2§lProjectRed Lights With a Purpose
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHtw.desc=ProjectRed offers a couple of special lights that can be used as buttons. The normal buttons are always lit up. The Feedback buttons are lit up when powered by any redstone signal.
 
 # Quest: Flat Lamps
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHuA.name=Flat Lamps
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHuA.name=§2§lFlat Lamps
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHuA.desc=These simple lamps from Ztones are a nice, subdued looking lamp style. I like using them on ceilings for the "office" look.
 
 # Quest: Glowstone & Chisel torches, space rated
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHuQ.name=Glowstone & Chisel torches, space rated
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHuQ.name=§2§lGlowstone & Chisel torches, space rated
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHuQ.desc=When traveling off-world, you want the best in torches. Torches that will work in no-oxygen environments like the Moon. For that, you need glowstone torches. You can chisel these torches into a variety of torch types, also proven to work in deep space.
 
 # Quest: Lighting Up a Large Area, Without Electricity
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHug.name=Lighting Up a Large Area, Without Electricity
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHug.name=§6§lLighting Up a Large Area, Without Electricity
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHug.desc=If you have a relatively large area you need to light up without using electricity, you can use these floodlights. They can take normal furnace fuels, including blocks and compressed blocks. They do require some electronic components to make, but can send out a beam a long ways, or various cone shapes a shorter distance. Use the wrench to change modes, and shift-right-click to invert.
 
 # Quest: Lighting Up a Large Area, With Electricity
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHuw.name=Lighting Up a Large Area, With Electricity
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHuw.name=§5§lLighting Up a Large Area, With Electricity
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHuw.desc=Now that you have a vacuum freezer, you can liquefy compressed air cells and centrifuge them for rare gases. You'll need those to make the incandescent bulb for these lights. As long as they have EU, these lights can shoot a beam or do narrow or wide cones. Use the wrench to change modes, and shift-right-click to invert.%n%nIt's better to provide power to an Ender IO capacitor and then power these machines with RF, instead of powering directly with GT EU, because they don't work well with GT's EU amp system, and will draw a whole EU packet for a single RF.
 
 # Quest: EnderIO Lights
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHvA.name=EnderIO Lights
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHvA.name=§2§lEnderIO Lights
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHvA.desc=EnderIO also has its own lights. These lights have a radius of 8 blocks vs the normal 7.
 
 # Quest: BetterIO?
@@ -6407,44 +6379,48 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHvQ.name=BetterIO?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHvQ.desc=The Powered and Wireless Powered lights from EnderIO provide light up to 10 blocks away vs the normal 7 for a torch. They will require centrifuging liquid air to get the bulbs.
 
 # Quest: What's Behind Door #3?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHvg.name=What's Behind Door #3?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHvg.name=§2§lWhat's Behind Door #3?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHvg.desc=The Malisis Door Factory lets you go crazy with all kinds of ideas for custom doors.%n%nA Player Sensor is a nice way of opening a door. Better than pushing a button or stepping on a plate!%n%nMaybe you can find a use for this block mixer, it's kinda weird and doesn't work right.%n%nThere are some craftable Malisis items as well, check them out in NEI.
 
 # Quest: Build it Bigger
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHvw.name=Build it Bigger
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHvw.name=§2§lBuild it Bigger
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHvw.desc=You can build it! The Building Guide helps show you an outline of simple geometric shapes. Provide it with a redstone signal to activate.
 
 # Quest: Faster, Better, Buildi-er
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHwA.name=Faster, Better, Buildi-er
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHwA.name=§6§lFaster, Better, Buildi-er
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHwA.desc=The Enhanced Building Guide offers more features than the standard model. Most importantly, you can right-click on any white part of the block with the item you want placed and the block will place in the world. It needs a redstone signal to activate.
 
 # Quest: More Like Ouch-i-tect
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHwg.name=More Like Ouch-i-tect
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHwg.name=§a§lMore Like Ouch-i-tect
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHwg.desc=The sawbench can turn most full cube blocks into amazing shapes of various kinds.%n%nRight-click with the hammer to rotate 90 degrees. Shift-right-click with the hammer to change the orientation of the "bottom" face.%n%nThe Chisel is used to alter the structure of blocks in various ways. Some blocks automatically form connections with adjacent blocks. These connections can be disabled and re-enabled by right-clicking with a chisel near the side that you want to change.%n%nSome blocks can have a secondary material applied to them. The secondary material can be removed by right-clicking on the center of the block with a chisel.%n%nYou can also right-click on a vanilla Glass, Glass Pane, Glowstone or Ice block with a chisel to harvest the block without breaking it.
 
 # Quest: Keeping Track of Your Findings (Flowers)
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIOQ.name=Keeping Track of Your Findings (Flowers)
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIOQ.name=§6§lKeeping Track of Your Findings (Flowers)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIOQ.desc=This handy device will keep track of the flowers you have discovered so far, and their properties.
 
-# Quest: Making Sense of Spaghetti
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIWg.name=Making Sense of Spaghetti
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIWg.desc=Nobody likes an untidy base. You can craft a spray can and later fill it with Chemical Dye made from sulfuric acid to color coordinate your carpets, cables, wires, and machines. But for now, have a couple of freebies.
-
 # Quest: Carpenter's Blocks
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIcA.name=Carpenter's Blocks
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIcA.name=§a§lCarpenter's Blocks
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIcA.desc=Yet another custom block system! Carpenter's blocks are crafted blank and placed in-world, and then plain block textures applied to them. The blocks must not be Tile Entities, so Botany blocks don't work correctly with them, but GT Stones like Red Granite, and any colored clay or vanilla glass block will work. Some Chisel glass types will work, and Ztones blocks and Tinted Glass also work.%n%nThe Garage Door requires a block at the top to hang "down" from, but can pretty much be any length. A redstone signal on any block next to the Garage Door blocks will open or close the door. The open/close will propagate across multiple vertical doors, so you can set up non-square doors. Sneaking and right-clicking with an empty hand will change the door's polarity.%n%nThe pressure plates are player-only activation, making them great for doors into your base.%n%nThe hatches must be clicked on the side of a block to place. They can be handy for protecting you from crucible...byproducts.%n%nThere is a lot more block shapes possible, check NEI for "Carpenter's" to see the options.%n%nThe Chisel allows you to chisel blocks while attached to a Carpenter's block.%n%nThe Hammer allows various functions.%n%nHammer on door - changes door shape type%nSneak Hammer on door - Changes from iron to wooden behavior%nSneak Hammer on lever - Changes polarity (which direction is on/off)
 
 # Quest: Catwalks
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAM3g.name=Catwalks
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAM3g.name=§c§lCatwalks
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM3g.desc=The Catwalks Mod adds several cosmetic blocks to deck out your factory.%n%nScaffolds and Builder's Scaffolds are useful for building up in the air before you get access to flight. They can be climbed like ladders, and break instantly when punched. You will also not fall off of them if you let go of movement keys while climbing. If you right-click the Builder's Scaffold with a solid block, the scaffold will be replaced by that block.%n%nCatwalks can connect to each other to form a wide passageway. You can decorate them by attaching Caution Tape or Rope Lights, the latter provide dim lighting.%n%nCaged Ladders give you a way to move up and down without a risk of falling off. Climbing them is much faster than vanilla ladders.%n%nSupport Columns are purely decorative. They connect to each other in all directions. They also work as ladders.%n%nSturdy Rails let you run minecart tracks across gaps without supports. Right-click the Sturdy Powered Rail with a Blowtorch to power it permanently, you don't need a redstone torch. If you don't have enough distractions already, use them to build a rollercoaster!%n%nThe Blowtorch lets you remove railings or even the floor from a catwalk by right-clicking. Use it to make an opening to let you walk onto the catwalk, or if you don't know what an "OSHA violation" is. The same function can be performed by a GT or Forge-compatible wrench, so you don't actually need to make this.
 
 # Quest: Excavation Upgrade
-betterquesting.quest.Avz75EgSTdG48xI3HPGUMA.name=Excavation Upgrade
+betterquesting.quest.Avz75EgSTdG48xI3HPGUMA.name=§8§lExcavation Upgrade
 betterquesting.quest.Avz75EgSTdG48xI3HPGUMA.desc=Mining out large chunks of stone can be a huge pain when it comes to creating bases. Why not craft the excavator upgrade for your Prototype Matter Manipulator so that you have the ability to remove blocks quickly?
 
 # Quest: Crystal Shulker Box
 betterquesting.quest.DSkXvzhRSKiwFLJywGDMRg.name=§6§lCrystal Shulker Box
 betterquesting.quest.DSkXvzhRSKiwFLJywGDMRg.desc=An enhanced version of the Diamond Shulker that allows you to see the contents within.%n%nHas §n108§r slots.%n%n[note]Can be dyed![/note]
+
+# Quest: Let's get Building!
+betterquesting.quest.DrqLzppgTRWyg_ZvlVlokg.name=§a§lLet's get Building!
+betterquesting.quest.DrqLzppgTRWyg_ZvlVlokg.desc=This pack features many mods which add lots of new building blocks and/or QOL features which make building much easier.%n%nThis questline will go over a few of the major additions.
+
+# Quest: Chests Had Quite the Glow-up!
+betterquesting.quest.GenrHPJeREqkjJv6CfbeEQ.name=§c§lChests Had Quite the Glow-up!
+betterquesting.quest.GenrHPJeREqkjJv6CfbeEQ.desc=Compartments are fancy chests with extra features that make them much easier to navigate.%n%nTheir inventory is split into different folders, which can be named and color-coded. They also come with a search feature that allows you to search for items in any of the compartment's folders.%n%nThe largest compartment can store up to 400 stacks of items.%n%n[note]Place a compartment next to a crafting station for easy access to its entire storage space![/note]
 
 # Quest: Obsidian Barrel
 betterquesting.quest.KfgATF33ToiE0aYS4pp04Q.name=§6§lObsidian Barrel
@@ -6455,7 +6431,7 @@ betterquesting.quest.MbFXZcovQ1GRxQCeS2PUuw.name=§6§lObsidian Shulker Box
 betterquesting.quest.MbFXZcovQ1GRxQCeS2PUuw.desc=The portable equivalent of the Obsidian Barrel that retains it's explosion-proof qualities.%n%nHas §n108§r slots.%n%n[note]Can be dyed![/note]
 
 # Quest: Manipulator Upgrades
-betterquesting.quest.NKKa001sQ9qXBPAUEV4Vrg.name=Manipulator Upgrades
+betterquesting.quest.NKKa001sQ9qXBPAUEV4Vrg.name=§8§lManipulator Upgrades
 betterquesting.quest.NKKa001sQ9qXBPAUEV4Vrg.desc=Now that you have a Matter Manipulator... why not make it better?%n%nThese upgrades will give huge quality of life improvements when using should you choose to craft them. %n%n[note]Pay attention to the applicable tier of MM before you do so![/note]
 
 # Quest: Obsidian Chest
@@ -6467,15 +6443,19 @@ betterquesting.quest.StA9TvxxSi2n2c7wQdCAFA.name=§2§lIron Shulker Box
 betterquesting.quest.StA9TvxxSi2n2c7wQdCAFA.desc=The portable equivalent of the Iron Barrel.%n%nHas §n54§r slots.%n%n[note]Can be dyed![/note]
 
 # Quest: A Modern Technology
-betterquesting.quest.VFVruPLHQAeDthuV-s7HGQ.name=A Modern Technology
+betterquesting.quest.VFVruPLHQAeDthuV-s7HGQ.name=§a§lA Modern Technology
 betterquesting.quest.VFVruPLHQAeDthuV-s7HGQ.desc=Concrete. Eh sorry, Hempcrete! A new modern technology brought to you via the GTNH Chisel mod. All 16 colors.%n%nThere are a lot of other nice blocks in Chisel. Just type "@chisel" in NEI and look around.
+
+# Quest: Gotta Go Fast!
+betterquesting.quest.Whl2BVaRSlaTf-ky0Ih96A.name=§6§lGotta Go Fast!
+betterquesting.quest.Whl2BVaRSlaTf-ky0Ih96A.desc=Yet another block you can use to get around your base much more efficiently. Unlike concrete, you don't have to fill your floor with these to get their full benefit.%n%nYou can also stack the speed boost from both boosters and concrete for an even bigger speed boost!%n%n[note]Place your boosters 20 blocks apart - or 36 blocks if you're using concrete - for optimal boosting.[/note]
 
 # Quest: Gold Shulker Box
 betterquesting.quest.YFUK2QflT1G3_WC8XBp2Wg.name=§3§lGold Shulker Box
 betterquesting.quest.YFUK2QflT1G3_WC8XBp2Wg.desc=The portable equivalent of the Gold Barrel.%n%nHas §n81§r slots.%n%n[note]Can be dyed![/note]
 
 # Quest: Finally, Some Real Power!
-betterquesting.quest.YxYz1jL6RSWHCxMlTHeJFw.name=Finally, Some Real Power!
+betterquesting.quest.YxYz1jL6RSWHCxMlTHeJFw.name=§4§l§nFinally, Some Real Power!
 betterquesting.quest.YxYz1jL6RSWHCxMlTHeJFw.desc=The Energy Tunnel Manipulator Upgrade is incredibly useful for the heavy potential Matter Manipulator usage in UHV+. %n%nYou can now link directly with either the §5§lQuantum Link§r or a §5§lLaser Target Hatch§r for much quicker recharging. No need to rely on those slow wireless chargers any longer!
 
 # Quest: Shulker Upgrades
@@ -6487,8 +6467,16 @@ betterquesting.quest.aIt1E54yQaSOg4CMz-Xegw.name=§5§lDiamond Shulker Box
 betterquesting.quest.aIt1E54yQaSOg4CMz-Xegw.desc=The portable equivalent of the Diamond Barrel, you'll need to either upgrade your wand or take advantage of the Gold to Diamond Shulker Box Upgrade.%n%nHas §n108§r slots.%n%n[note]Can be dyed![/note]
 
 # Quest: Advanced Concrete Backfiller
-betterquesting.quest.b-YCbvcNT4uEjg2pN-H6jw.name=Advanced Concrete Backfiller
+betterquesting.quest.b-YCbvcNT4uEjg2pN-H6jw.name=§8§lAdvanced Concrete Backfiller
 betterquesting.quest.b-YCbvcNT4uEjg2pN-H6jw.desc=The §5Advanced Concrete Backfiller§r has the same general functionality as the regular one except it boasts an impressive §364§r block radius and operates at §24x§r the speed. %n%nIt's a good idea to consider using one of these as your base continues to expand across more area. Filled space saves TPS!
+
+# Quest: Building with Style
+betterquesting.quest.bIOPajWVTbiG-QQsF2Gqig.name=§a§lBuilding with Style
+betterquesting.quest.bIOPajWVTbiG-QQsF2Gqig.desc=Ztones is another mod which adds loads of new building blocks. Each craftable block also has many variants which can be made using a chisel.%n%n§cUnlike many other decorative blocks, Ztones blocks do not prevent mob spawns. Make sure you are spawnproofing your builds when using them!
+
+# Quest: High-tier Wand
+betterquesting.quest.blDDaS09R_qylY284dfxzg.name=§9§lHigh-tier Wand
+betterquesting.quest.blDDaS09R_qylY284dfxzg.desc=Do you ever wish that you were able to place 16,000 blocks with the click of a button? No??..%n%nWell now you can!%n%n[note]It's unbreakable too![/note]
 
 # Quest: Dark Steel Barrel
 betterquesting.quest.dNDuychlSiqlrMhfnEKK_w.name=§6§lDark Steel Barrel
@@ -6499,8 +6487,12 @@ betterquesting.quest.dbax1OsmRpWMg6Pt4tE_ig.name=§2§lCopper Shulker Box
 betterquesting.quest.dbax1OsmRpWMg6Pt4tE_ig.desc=The portable equivalent of the Copper Barrel.%n%nHas §n45§r slots.%n%n[note]Can be dyed![/note]
 
 # Quest: Crystal Chest
-betterquesting.quest.e-VLKN-JSRK3V2cmDbm6rw.name=§bCrystal Chest
+betterquesting.quest.e-VLKN-JSRK3V2cmDbm6rw.name=§b§lCrystal Chest
 betterquesting.quest.e-VLKN-JSRK3V2cmDbm6rw.desc=You've created a chest that allows you to see what's inside, isn't that useful?%n%n[note]Just as with the previous chests you can also upgrade with a fitting upgrade item.[/note]
+
+# Quest: Advanced Filing Cabinet
+betterquesting.quest.lM99qle-Q_uPETUSrZQDKw.name=§2§lAdvanced Filing Cabinet
+betterquesting.quest.lM99qle-Q_uPETUSrZQDKw.desc=The advanced filing cabinet can store twice as many items as the regular one, and is much less restrictive on what can be stored inside.
 
 # Quest: Silver Shulker Box
 betterquesting.quest.nc1Pqje3RIe_Yp6WoPOFzg.name=§3§lSilver Shulker Box
@@ -6511,8 +6503,16 @@ betterquesting.quest.njQqj1iCTK-64uA4HfSdVw.name=§6§lDraconic Chest
 betterquesting.quest.njQqj1iCTK-64uA4HfSdVw.desc=The Draconic Chest is a special upgrade of the compressed chest. In addition to a large inventory size and being able to retain it's contents, it has a crafting station and a furnace integrated directly into it. %n%nThe smelting module can be powered by EU or RF and has an internal buffer of it's own. It can smelt up to 5 items at a time.
 
 # Quest: Concrete Backfiller
-betterquesting.quest.uYT4jmFtQhOo5PoJLDyh-w.name=Concrete Backfiller
+betterquesting.quest.uYT4jmFtQhOo5PoJLDyh-w.name=§6§lConcrete Backfiller
 betterquesting.quest.uYT4jmFtQhOo5PoJLDyh-w.desc=Tired of all those mob noises coming from the depths? Consider making the §5Concrete Backfiller§r. This multiblock will fill the area underneath it with concrete in a §316§r block radius; patching all caves and air spots that might be lying underneath. %n%nSimply provide it with Light Concrete and let it do the rest!
+
+# Quest: Chiseling the Way Greg Intended
+betterquesting.quest.wRh-bN4UTemsx4Wskrrb6w.name=§2§lChiseling the Way Greg Intended
+betterquesting.quest.wRh-bN4UTemsx4Wskrrb6w.desc=Another way to automatically chisel blocks to your heart's content, this time sponsored by GregoriousT himself!
+
+# Quest: The Beginnings of a Humble Chest Monster
+betterquesting.quest.zOwLuytjTFS18_K1we6TOw.name=§9§lThe Beginnings of a Humble Chest Monster
+betterquesting.quest.zOwLuytjTFS18_K1we6TOw.desc=Did you really think a single chest would suffice for your storage needs? Come back when you've made at least a few.%n%n[note]You can place chests next to each other by chiseling every other chest into a trapped chest![/note]
 
 
 ## Quest Line: Forestry and Multifarms
@@ -14097,6 +14097,10 @@ betterquesting.quest.8BGpDDsCTrOjJ4DlZN0WQw.desc=The §5§lStreamlined Casters§
 betterquesting.quest.9B9CvQD0R8iLv-CBMTYZGQ.name=§c§lCopper Barrel
 betterquesting.quest.9B9CvQD0R8iLv-CBMTYZGQ.desc=The Copper barrel has 45 slots.
 
+# Quest: Storage For Days
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAAw.name=§9§lStorage For Days
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAAw.desc=Now that you've gotten your tools and are about to go collect a bunch of stuff, it's time to make some storage for it.%nTake some of your wood, and craft a chest. You will need 4 wood, 4 planks, and 1 flint.
+
 # Quest: Main Quests and Secondary Quests
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAABA.name=§9§lMain Quests and Secondary Quests
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAABA.desc=Now that you've made it this far, you might notice how the two new quests look different.%n%nThe quest with the jagged edges is a main quest - it is linked to other main quests by a thick line. You must complete main quests to unlock the next tier and to progress in general. If you can't progress, go back to previous tiers and look for uncompleted main quests.%n%nThe other quest is an optional quest, and is not needed to unlock new tiers. However, optional quests often introduce you to useful items or processes.%n%nWhat are the coins for? Starting in Stone Age, you can use them to purchase things in a Vending Machine.%n%nIn case you started in a bad biome, here's enough coins to purchase some saplings once you get to the Vending Machine.
@@ -14109,9 +14113,17 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAACw.desc=It's about time to craft someth
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAADg.name=§9§lWhat's That...?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAADg.desc=You've seen a lot of trees, but there are a few that look really special. You are sure that these trees are much more than just wood to build your home with or used to get charcoal. You're sure that these will be Very Important soon™.%n%nThe best place to find them is in a Magical Forest, but if you can't find one, you can try a Garden or Cherry Wood Grove. Or just randomly everywhere.%n%nIf you have trouble finding them, you can use the Vending Machine in Stone Age.
 
+# Quest: Better Storage
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAJw.name=§a§lBetter Storage
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAJw.desc=While standard chests are good for your basic items and goods, they are not ideal for storing a large amount of ore. You should build yourself some barrels in order to keep things organized.
+
 # Quest: Steam-a-licious!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAARg.name=§c§lSteam-a-licious!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAARg.desc=You've almost made it. One last crafting step is required in order to advance to Tier 1. Keep going!%n%nThis Steam Turbine generates electricity from Steam. The power source you've been using is the same, but from this point on you will generate EU, and bring it to your machines via cables, instead of bringing the Steam directly to them. Luckily, electric machines don't need an exhaust port, and they are considerably more efficient than Bronze machines.%n%nAt a later point, you will most likely switch from Steam to another fuel, though.%n%n[note]If you'd prefer to use an alternative to steam for power generation right away, there are other options available to complete this quest.[/note]
+
+# Quest: A Quite Different Storage
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAdw.name=§c§lA Quite Different Storage
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAdw.desc=Regular chests can fill up rather quickly if you happen to collect mob drops like swords and/or armor. By using a cabinet, you can store up to 270 items of the same type. Also, it doesn't need a dolly - you can break it normally and it will retain contents.%n%nPerfect for storing Forestry saplings, bees, or really anything that shares an ID but won't stack because of NBT!
 
 # Quest: Dark Steel Tools
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAjA.name=§6§lDark Steel Tools
@@ -14172,6 +14184,14 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABwA.desc=Your wooden shield is very weak
 # Quest: Your First 'Long Range' Weapon
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABwg.name=§9§lYour First 'Long Range' Weapon
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABwg.desc=You can't make a vanilla bow or Tinkers weapons yet, but you can make a spear!%n%nSome monsters will become much easier to kill with this long-range weapon.
+
+# Quest: Better Than Barrels
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAC1w.name=§a§lBetter Than Barrels
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAC1w.desc=While barrels offer a slot for a single item, drawers can have up to 4 slots each, holding 16 stacks per slot.%n%nHowever, they do come with some downsides. You won't be able to make them point up or down, and you can only access the contents from the front. The automation can use any side.
+
+# Quest: Framing Drawers
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAC2Q.name=§a§lFraming Drawers
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAC2Q.desc=Now you can really make some swaggy and §oeven fancier§r drawers by using this table, all you have to do is place some decorative blocks and it will take their texture, the TOP left is the outer square, bottom left is for the front face, and top right is for the borders. This table works with almost all decorative blocks.%n%nYou can also use machines to do the job for you.
 
 # Quest: Exploding Fluids For Power
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACFA.name=§2§lExploding Fluids For Power
@@ -14370,7 +14390,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFTA.name=Angel Wings - Combine!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFTA.desc=The Angel Wings aren't very protective on their own. Crafting the Infused Quantum Chestplate allows you to combine with the Angel Wings to have a functional and protective combination!%n%n[note]This is still not nearly as good as the other option, the GraviChestPlate.[/note]
 
 # Quest: Light It Up!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFWg.name=Light It Up!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFWg.name=§c§lLight It Up!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFWg.desc=The arcane lamp creates additional light sources which acts like a Torch in a sphere with a radius of 16 blocks centered on it. This will include caves or other areas behind walls. That might be useful...%n%nWhen attached to the base of an arcane bore, the arcane lamp gains an additional ability: It will light up the tunnel that the bore digs.
 
 # Quest: Pimp Your Wand Focus
@@ -14390,7 +14410,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFrA.name=Launch Controller
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFrA.desc=The Launch Controller has been modified in GTNH to provide additional functionality. If you launch from a Launch Pad with the Launch Controller set up, the countdown will be greatly reduced, and you will teleport directly to the receiving Launch Pad. It will use half the rocket's fuel up though. This is very useful on laggy servers and can act as an early teleport option if you don't like the magical solutions. You will need to set up a Rocket Launch Pad with Launch Controller and possibly a Fuel Loader on either side.%n%nIf you don't to use it for yourself, you can also try to use it for the Cargo Rocket. To use those at full capacity it is necessary to equip a Rocket Launch Pad, to send items, with:%n%nFuel Loader%nLaunch Controller%nCargo Loader%nAnd the receiving side with:%n%nFuel Loader%nLaunch Controller%nCargo Unloader%n%nIt is also possible to use Buildcraft pipes to transfer items into the Cargo loaders. Next step is to set up the Frequencies in both Launch Controllers (i.e. Set: A to target B, B to target A). Have a look at Launch Controller to set up the automated launch. The first time you have to right-click the Cargo rocket and press launch at the top right corner.
 
 # Quest: Arc Lamp
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFuA.name=Arc Lamp
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFuA.name=§8§lArc Lamp
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFuA.desc=The Arc Lamp is a very bright lamp. It is directional - meaning the light it casts is brighter in the direction it is facing. Its facing can be rotated using a standard Wrench.%n%nIncluding the Arc Lamp the brightness of blocks which are close to light sources is:%n%nRedstone Torch: 3-6%nTorch: 9-12%nBlock of Glowstone: 10-13%nArc Lamp: 13-14%n%nThe Arc Lamp can light up a fairly large area - for example a whole room - at light level 14: it is almost as bright as full sunlight.%n%nThe Arc Lamp also has the interesting property of actively repelling mobs. Not only does its light prevent mobs from spawning nearby, but it is so bright that if a mob comes close to the Arc Lamp the mob will turn around and walk away again. This mob-repellant effect is confirmed to work on: Zombies, Skeletons, Creepers, Evolved Zombies, Evolved Skeletons, Evolved Creepers. It may also work on other types of mobs (confirmation required). But it has no effect on Spiders (they are not afraid of sunlight either) or boss mobs.
 
 # Quest: Brittle But Hits Like a Sledgehammer...
@@ -14441,9 +14461,21 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHbg.desc=With a nuke, you can cause some
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHhg.name=§a§lA Quicker Way to Get Around
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHhg.desc=Are you ready for a longer trip? With your new lunch box, saddle, lead and of course a horse, we can start a small journey. Be sure to make paths over water, horses don't like going through deep water. If you get unseated in deep water, you can try getting on repeatedly and moving a small distance each time, this may be faster for small rivers. You can also try jumping over the deep parts if it isn't that big.%n%nIf you are playing single player or a local server, horses make a great way to get around. On non-local servers they can cause problems and desync if you have poor internet, or if the server doesn't have good TPS. Like all the official servers.%n%nYou can tie the lead to your horse and the fence to get it to stick around while you investigate something.
 
+# Quest: Your Mom Says to Upgrade Your Drawers
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHxA.name=§c§lYour Mom Says to Upgrade Your Drawers
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHxA.desc=There are many tiers of upgrades for storage drawers. Make some iron and gold tier upgrades and I'll give you some of the special purpose upgrades to experiment with in your base. Check NEI for more options such as Obsidian, Emerald, and Diamond upgrades.%n%n[warn]To remove upgrades, shift-right-click with an empty hand to access the drawer interface.[/warn]
+
 # Quest: Planetary Tears
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIGA.name=Planetary Tears
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIGA.desc=Indeed you will be crying over all the tiers you have to do for planets. Here is a handy reference.%n%nTier 1 - Requires Oxygen Gear%nMoon%n%nTier 2 - Requires Thermal Padding%nDeimos%nMars%nPhobos%n%nTier 3 - Requires Thermal Padding Tier 2%nAsteroids - Counts as Zero-G, because there's no planet%nCallisto%nCeres%nEuropa%nGanymede%nRoss128b - Habitable Planet (needs no Oxygen Gear/Thermal Padding)%n%nTier 4 - Requires Thermal Padding Tier 2%nIo%nMercury%nVenus - Requires SpaceSuit%n%nTier 5  Requires Thermal Padding Tier 2%nEnceladus%nMiranda%nOberon%nRoss128ba%nTitan%n%nTier 6 - Requires Thermal Padding Tier 2%nProteus%nTriton%n%nTier 7   Requires Thermal Padding Tier 2%nKuiper Belt - Also counts as Zero-G%nHaumea%nMakemake%nPluto%n%nTier 8 - Requires Thermal Padding Tier 2%nAlpha Centauri Bb - Requires SpaceSuit%nBarnarda C - Habitable Planet (needs no Oxygen Gear/Thermal Padding)%nBarnarda E%nBarnarda F%nTau Ceti E - Habitable Planet (needs no Oxygen Gear/Thermal Padding)%nVega B%n%nTier 9%nHorus - Requires Thermal Padding Tier 1%nNeper - Habitable Planet (needs no Oxygen Gear/Thermal Padding)%nMehen Belt%nMaahes%nSeth%nAnubis - Requires Thermal Padding Tier 2
+
+# Quest: Key to Your Heart
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIJw.name=§c§lKey to Your Heart
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIJw.desc=Barrels by default allow locking the barrel to a specific item, even when empty. For drawers, however, you will need to make the Drawer Key to lock its content types.%n%nDifferent keys can also be used to show/hide the item icons and labels, and protect your barrels from the thieving hands of others.
+
+# Quest: Making Sense of Spaghetti
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIWg.name=§2§lMaking Sense of Spaghetti
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIWg.desc=Nobody likes an untidy base. You can craft a spray can and later fill it with Chemical Dye made from sulfuric acid to color coordinate your carpets, cables, wires, and machines. But for now, have a couple of freebies.
 
 # Quest: Don't Put a Finger in That Socket
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIYA.name=§6§lDon't Put a Finger in That Socket
@@ -14485,6 +14517,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJZA.desc=You can hunt endermen the Vanil
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJZg.name=§9§lNumbers in the Corner?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJZg.desc=What's with the numbers in the corner? That is the In-Game Info (IGI) mod. Some of the info it gives is useful right away, some of it shines later on in progression.%n%nFor now, the most important thing it does is showing if you are in an ore chunk. Further quests will explain what it means.%n%nIf you want to hide it, type "/igi disable" in the chat. Type "/igi enable" if you want to turn it back on.%n%nThe command "/igi config" opens the configuration window to control its position, scale, and size.%n%nThe command "/xu_tps" from the mod Extra Utilities toggles numbers to measure ticktime in milliseconds and the TPS (Ticks Per Second). TPS is a measure of how well your server is running. The ideal TPS is 20.00 (meaning a ticktime of at most 50.00). If your TPS is less than 15, things are going to start lagging noticeably. At 10 or less TPS, it is going to be hard to play.%nThe tooltip shows three types of measurement: instantaneous, average, and worst-case. Each one first shows the ticktime and then the TPS in brackets.%n%nIf you need suggestions on solving TPS problems, feel free to ask for help in the GTNH Discord.%n%nWhile GTNH comes with recommended default settings, in particular when it comes to balance, there are many commands and configurations to customize your experience. They range from accessibility or debug tools to visual customization all the way to various cheats. You can find a small overview on [url]https://wiki.gtnewhorizons.com/wiki/Commands_and_Configurations[/url].
 
+# Quest: Controlling Your Drawers
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJaA.name=§5§lControlling Your Drawers
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJaA.desc=Now that you have MV Circuits and Stainless Steel, you can make the incredibly handy Drawer Controller. This block will make any drawers it connects to in a 4-block radius (including the y-axis) and 50 blocks at maximum as part of a multiblock that allows storage (and retrieval with the right setup) to any of the blocks that make it up. This will allow you to dump the contents of your mining trip into a storage system much easier. Just hold right-click on the Controller front for a second or two, and any items that match what's already in the multiblock will be deposited, while your tools and such won't. Just make sure to place your Controller last so it registers all the drawers.%n%nYou can feed into the Controller (and thus the rest of the drawers) with any kind of piping or hopper equivalent. If using it as part of a Multifarm or Mob Farm, make sure to set the contents of the drawers, and lock them with a key so that it properly stores everything in an organized manner. If the drawers' contents aren't set, it will start filling starting from the ones closest. If you wish to have more than one drawer full of an item, put a void upgrade on the drawer further from the Controller, and it will fill the first one, then the second.%n%nIf you want to go around corners, use the Trim Drawers to extend the multiblock. If you want to have a second point to dump items into, use the Controller Slave (one per multiblock, automation only). Note that you can use a key on the Controller to affect all drawers at once.%n%nOnce you have an ME Network, place a storage bus on the Controller, and the entire inventory will be accessible from the network, with both storage and retrieval. Just remember to set the priority higher than your ME Drives. If you haven't locked them yet expect all your drawers to fill with random items from your ME Network.%n%n[warn]Using the drawer controller with large amounts of I/O will tank TPS! If you're on a server, do not use drawer cubes, or expect the possibility of it being deleted or you getting banned.%n%nAdditionally, expect all non-backpack interactions to be DISABLED on the official servers. Congratulations, Drawer Cubists, you ruined it for everyone.[/warn]
+
 # Quest: Bringing the Biome to You
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJbw.name=Bringing the Biome to You
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJbw.desc=So maybe you can't find a swamp or tropical forest for your crops or bees, or maybe they're too far away so they're inconvenient to get to, or maybe your base is in a colder climate and you have to deal with the constant howls of direwolves. Instead of packing up all your stuff and moving somewhere else, why not try changing the biome? There are a couple of different ways to do so in this modpack:%n%n§§§r§lUse the Arcane Terrestrial Reformer§r%n-Requires EV Circuits, Tungstensteel, Rocket Tier III%n-Also requires Infusion, Void Metal (sufficient warp), Energized Node for CV, lots of Essentia%n-16 block radius%n-Can only change to a few specific Vanilla or Thaumcraft biomes%n-Kind of slow%n%n§lUse Ritual of Gaia's Transformation from Blood Magic§r%n-Requires Void Metal, Infusion, Tungstensteel%n-Requires getting deep into BM (and the warp that comes with it)%n-Requires 1,000,000 LP, Master Blood Orb, Tier 4 Altar and Awakened Activation Crystal%n-10 block radius, can be exactly specified with bloodstone bricks (either type)%n-Cannot specify which biome you get, you can only change the temperature/humidity within the 0.0 - 2.0 range and hope%n-Some biomes may be impossible due to limited range and overlap%n-Adjust temperature/humidity with items on 8 plinths around the Master Ritual Stone%n-Need to relog to see changes%n-Very little documentation or explanation%n-Fast%n%n§lUse the Brew of Shifting Seasons from Witcher§ry%n-Small range, depends on the level of the brew (power, not dispersal extent)%n-Biome can be exactly specified%n-Crafted using the complicated custom brew system%n-Can add different ingredients to change range of the brew%n-At min changes a single block%n-At max has about a 3 block (circular) radius%n-Instant (once you use it)%n%n§lUse the Rite of Shifting Seasons from Witchery§r%n-Requires Stainless Steel, Greatwood Scepter or better for the Distillery%n-You have to do a bunch of Witchery stuff%n-Not hard once you've done it once%n-Extremely large range, 16/32/48 block (circular) radius%n-Biome can be exactly specified%n-Sometimes fails in specific chunks%n-Very fast%n%nIf you want to know how to use the Witchery methods, please go to the Look to the edges tab to continue.%n%nPSA: The IC2&Galacticraft Terraformers only change the surface, not the biome itself.
@@ -14492,6 +14528,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJbw.desc=So maybe you can't find a swamp
 # Quest: Unlimited LP
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJlw.name=§4§l§nUnlimited LP
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJlw.desc=This orb can hold (almost) unlimited LP. It also constantly refills itself §ofor free§r while it is in your inventory, or in an altar which has some blood in it.%n%nBut you still need blood for crafting, OK? (Look into the ritual §oCry of the Eternal Soul§r for a way around this.)
+
+# Quest: Infinity Chest
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKEQ.name=§5§l§nInfinity Chest
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKEQ.desc=Stores up to 243 different items, each being able to stack up to 2,147,483,648. Useful if you want somewhere to put all those void miner ores.
 
 # Quest: UV Solar
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKGw.name=§4§l§nUV Solar
