@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "With this powerful machine, you can inject gene samples, which allows you to alter any aspect of your bee, tree or butterfly. The gene sample (or pattern) will not be destroyed.\n\nThe machine has 30% chance to downgrade pristine into ignoble and 80% chance to kill ignoble bees.\n\nOne labware is consumed per operation.",
+      "desc:8": "With this powerful machine, you can inject gene samples, which allows you to alter any aspect of your bee, tree or butterfly. The gene sample (or pattern) will not be destroyed.\n\nThe machine has 20% chance to downgrade pristine into ignoble and 40% chance to kill ignoble bees.\n\nOne labware is consumed per operation.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

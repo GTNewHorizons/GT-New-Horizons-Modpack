@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Ender Fluid Conduits are an advanced fluid transport system available at HV tier. They are useful in many scenarios, such as filtering specific fluids and even routing by color channels.\n\nTheir main advantage is the ability to create a unified fluid network, which makes complex setups much easier to manage. As you use them, you’ll quickly see how convenient they are at this stage of the game.\n\n[note]However, be careful: large conduit networks with too many nodes can cause TPS lag. Use them wisely, avoid overbuilding, and consider switching to AE2-based fluid handling for large-scale systems.[/note]",
+      "desc:8": "Ender Fluid Conduits are an advanced fluid transport system available at HV tier. They have many useful abilities such as filtering for specific fluids and routing by color channels.\n\nTheir main advantage is the ability to create a large unified fluid network, which makes complex setups much easier to manage. As you use them, you’ll quickly see how convenient they are at this stage of the game.\n\n[note]However, be careful: large conduit networks with too many nodes can cause TPS lag. Use them wisely, avoid overbuilding, and consider switching to AE2-based fluid handling for large-scale systems.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
