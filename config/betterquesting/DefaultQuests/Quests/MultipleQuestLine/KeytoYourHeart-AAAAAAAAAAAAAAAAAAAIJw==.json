@@ -12,7 +12,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Barrels by default allow locking the barrel to a specific item, even when empty. For drawers however you will need to make the Drawer Key to lock its content types.\n\nDifferent keys can also be used to show/hide the item icons and labels, and protect your barrels from the thieving hands of others.",
+      "desc:8": "Barrels by default allow locking the barrel to a specific item, even when empty. For drawers, however, you will need to make the Drawer Key to lock its content types.\n\nDifferent keys can also be used to show/hide the item icons and labels, and protect your barrels from the thieving hands of others.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
