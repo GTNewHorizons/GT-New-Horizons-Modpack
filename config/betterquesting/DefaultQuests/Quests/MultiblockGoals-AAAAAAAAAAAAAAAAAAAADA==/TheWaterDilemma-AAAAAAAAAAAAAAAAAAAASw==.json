@@ -81,7 +81,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "IC2:blockRubSapling"
+          "id:8": "gregtech:gt.block_rubber_sapling"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -116,7 +116,7 @@
           "Count:3": 26,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "IC2:itemHarz"
+          "id:8": "gregtech:gt.item_sticky_resin"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
