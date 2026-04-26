@@ -2,25 +2,29 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 54
+      "questIDLow:4": 97
+    },
+    "1:10": {
+      "questIDHigh:4": 1061314381668699413,
+      "questIDLow:4": -5583348153901815662
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "If you want to decorate your base, you\u0027re going to need a better chisel.\n\nNormal: 256\nObsidian: 512\nDiamond: 2560\nBedrockium: 32767\n\nThey obviously get harder to make the longer they last.",
+      "desc:8": "Nobody likes an untidy base. You can craft a spray can and later fill it with Chemical Dye made from sulfuric acid to color coordinate your carpets, cables, wires, and machines. But for now, have a couple of freebies.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 0,
+        "Damage:2": 32402,
         "OreDict:8": "",
-        "id:8": "chisel:obsidianChisel"
+        "id:8": "gregtech:gt.metaitem.01"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "A Better Chisel",
+      "name:8": "§2§lMaking Sense of Spaghetti",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
@@ -33,7 +37,7 @@
     }
   },
   "questIDHigh:4": 0,
-  "questIDLow:4": 1935,
+  "questIDLow:4": 2138,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -41,10 +45,22 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 2,
-          "Damage:2": 0,
+          "Count:3": 1,
+          "Damage:2": 32432,
           "OreDict:8": "",
-          "id:8": "minecraft:diamond"
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 32452,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 32438,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
         }
       }
     }
@@ -60,9 +76,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 0,
+          "Damage:2": 32402,
           "OreDict:8": "",
-          "id:8": "chisel:obsidianChisel"
+          "id:8": "gregtech:gt.metaitem.01"
         }
       },
       "taskID:8": "bq_standard:retrieval"

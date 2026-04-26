@@ -3,6 +3,10 @@
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 36
+    },
+    "1:10": {
+      "questIDHigh:4": 1061314381668699413,
+      "questIDLow:4": -5583348153901815662
     }
   },
   "properties:10": {
@@ -20,7 +24,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "More Like Ouch-i-tect",
+      "name:8": "§a§lMore Like Ouch-i-tect",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

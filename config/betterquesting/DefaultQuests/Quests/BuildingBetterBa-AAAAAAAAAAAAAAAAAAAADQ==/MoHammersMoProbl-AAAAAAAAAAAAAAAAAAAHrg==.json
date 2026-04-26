@@ -2,13 +2,9 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 1968
-    },
-    "1:10": {
-      "questIDHigh:4": 0,
       "questIDLow:4": 1963
     },
-    "2:10": {
+    "1:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 1965
     }
@@ -28,7 +24,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Mo\u0027 Hammers Mo\u0027 Problems",
+      "name:8": "§2§lMo\u0027 Hammers Mo\u0027 Problems",
       "partySingleReward:1": 0,
       "questLogic:8": "OR",
       "repeatTime:3": -1,
