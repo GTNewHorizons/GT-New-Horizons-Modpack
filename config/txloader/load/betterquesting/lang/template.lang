@@ -650,7 +650,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADQg.desc=For every circuit you need a ci
 
 # Quest: Resistor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADQw.name=§c§lResistor
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADQw.desc=Every basic circuit needs two resistors to work.%n%nThere are better versions you can make later.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADQw.desc=Every basic circuit needs two resistors to work.%n%nThere are better versions you can make later.%n%n[note]You can also use slime, blood, or glue instead of Sticky Resin![/note]
 
 # Quest: Lapis, Lazurite, Sodalite, Calcite
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADYw.name=§c§lLapis, Lazurite, Sodalite, Calcite
@@ -766,7 +766,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHYA.desc=Be careful when wearing your ha
 
 # Quest: Lucifer's Little Helper
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHdA.name=§c§lLucifer's Little Helper
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHdA.desc=With an alloy smelter and some netherrack dust you can make Nether furnaces, which are extremely efficient cooking machines. Very handy for someone needing a lot of stuff furnaced in a jiffy.%n%nIn comparison to the Blast Furnace, the only downside to crafting Nether Furnaces is that they cannot be used as a component for the Electric Blast Furnace (EBF) craft later on. Blast Furnaces can. Then again, Nether dust is practically free, so what's the loss? You can always use them to bake stacks of bread!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHdA.desc=With an alloy smelter and some netherrack dust you can make Nether furnaces, which are extremely efficient cooking machines. Very handy for someone needing a lot of stuff furnaced in a jiffy.%n%nIn comparison to the Blast Furnace, they operate at half the speed and half the fuel usage. So they have the same fuel consumption ratio but are slower. Another downside to crafting Nether Furnaces is that they cannot be used as a component for the Electric Blast Furnace (EBF) craft later on. Blast Furnaces can.%n%nThen again, Nether dust is practically free, and unlike Blast Furnaces these can process every type of furnace recipe, so what's the loss? You can always use them to bake stacks of bread!
 
 # Quest: Mud, Can Also be Used For Facials
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHew.name=§c§lMud, Can Also be Used For Facials
@@ -1279,7 +1279,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFBQ.desc=Diamond Spikes damages mobs (or
 
 # Quest: Black and Decker
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGAQ.name=§2§lBlack and Decker
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGAQ.desc=Tired of having to replace tools all the time because they constantly break? Now that Steel is available, it's time to make some electric versions of the Screwdriver and Wrench! Charge them up like Batteries, and they'll last much longer than the non-electric versions of these tools.%n%nYou can use Lithium Batteries, or if you're on a budget, Cadmium or Sodium Batteries instead. This does reduce their energy capacity though. Later on, Vibrant Alloy will make excellent tools with great durability. There are, however, a multitude of other great materials that you may have access to, so take a look around in NEI and decide for yourself.%n%nThere are also MV and HV versions, though they require that you can process Aluminium or Stainless Steel, respectively.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGAQ.desc=Tired of having to replace tools all the time because they constantly break? Now that you can make batteries, it's time to make some electric versions of the Screwdriver and Wrench! Charge them up like Batteries, and they'll last much longer than the non-electric versions of these tools.%n%nYou can use Lithium Batteries, or if you're on a budget, Cadmium or Sodium Batteries instead. This does reduce their energy capacity though. Later on, Vibrant Alloy will make excellent tools with great durability. There are, however, a multitude of other great materials that you may have access to, so take a look around in NEI and decide for yourself.%n%nThere are also MV and HV versions, though they require that you can process Aluminium or Stainless Steel, respectively.
 
 # Quest: Magnesium Source
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBA.name=§2§lMagnesium Source
@@ -4856,7 +4856,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEmg.desc=Forget everything you know abou
 
 # Quest: Dezil's Marshmallow
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF0A.name=Dezil's Marshmallow
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF0A.desc=In the last step you need to infuse your Marshmallow with some epic food in the thaumcraft infusion altar. Before you can do it you need to unlock the research.%n%nIs this worth it? Is there any enemy worthy of using the buffs this gives on? That's up to you.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF0A.desc=In the last step you need to infuse your Marshmallow with some epic food in the Thaumcraft infusion altar. Before you can do it you need to unlock the research.%n%nIs this worth it? Is there any enemy worthy of using the buffs this gives on? That's up to you.
 
 # Quest: The industrial way
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFAA.name=The industrial way
@@ -4884,15 +4884,15 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFyw.desc=You've heard about Dezil's Mars
 
 # Quest: Uncooked Slush
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFzA.name=Uncooked Slush
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFzA.desc=Next step is to form this slush into the right shape. Use a Marshmallow form and press it with your iv forming press. Remember to sterilize it after using it.%n%nBe careful, you'll get blindness and hunger II holding it.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFzA.desc=Next step is to form this slush into the right shape. Use a Marshmallow Mold and press it with your IV forming press. Remember to sterilize it after using it.%n%nBe careful, you'll get blindness and hunger II holding it.
 
 # Quest: Glowing Marshmallow
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFzg.name=Glowing Marshmallow
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFzg.desc=Next step is heating up your Marshmallow in an Electric Blast Furnace at 4500K with some radon gas and making it glow.%n%nNow you'll get a Paralysis II effect in addition to the others.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFzg.desc=Next step is heating up your Marshmallow in an Electric Blast Furnace at 4500K with some noble gas and making it glow.%n%nNow you'll get a Paralysis II effect in addition to the others.
 
 # Quest: Cooling Your Marshmallow
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFzw.name=Cooling Your Marshmallow
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFzw.desc=In the next step you cool your Glowing Marshmallow in an HV Vacuum Freezer to make it more stable.%n%nYou still get Weakness II and Nausea II.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFzw.desc=In the next step you cool your Glowing Marshmallow in an EV Vacuum Freezer to make it more stable.%n%nYou still get Weakness II and Nausea II.
 
 # Quest: Kitchenware 2.0
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHLA.name=Kitchenware 2.0
@@ -7274,7 +7274,7 @@ betterquesting.quest.3SzKMSj0StOAOzVmInDjZQ.name=§5§lBig Beautiful Brewery
 betterquesting.quest.3SzKMSj0StOAOzVmInDjZQ.desc=Start your own local brewery with the BBB! You can use it to make tons of potions, obscure alcoholic drinks, or, more likely, industrial quantities of lubricant.
 
 # Quest: This Kinda Burns...
-betterquesting.quest.4-HZ9i5AQ4qLN7cgSDaL3Q.name=§8§lThis Kinda Burns...
+betterquesting.quest.4-HZ9i5AQ4qLN7cgSDaL3Q.name=§9§lThis Kinda Burns...
 betterquesting.quest.4-HZ9i5AQ4qLN7cgSDaL3Q.desc=The §5§lIndustrial Chemical Bath§r will significantly increase the efficiency of your ore processing. It grants a §2§l5x§r speed boost and §6§l4§r parallels per voltage tier compared to its singleblock counterpart.
 
 # Quest: Fits The Mold
@@ -8492,9 +8492,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALyw.desc=Gasoline is a regular fuel, as 
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALzA.name=Largest Oil Drain
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALzA.desc=One way or another, you will need to get Oil faster. Reservoirs can get really big, but the rig only pumps from a portion of them... until now. With a few stacks of Tungstensteel, you can put together the tier 4 of the Oil Rigs, and suck up all the fluid from a reservoir at once, covering the full 8x8 chunk size from a single spot.%n%nIf you need even faster Oil input, build more rigs! They'll draw from the same pool, and exhaust it together. If you put them on adjacent reservoir chunks, you can draw multiple full reservoirs at once and feed them into a central location, and this transportation becomes even easier with Ender Tanks, which are unlocked in this tier.
 
-# Quest: Buffered Dynamo
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALzQ.name=Buffered Dynamo
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALzQ.desc=Another use for a few stacks of Tungstensteel is a new, even more powerful generator, but you can't run it just yet. Just like the LCE before it, the IV generator can't be run without a dynamo hatch that is powerful enough to keep up with the output, and in this case it applies to both the boosted and unboosted modes.%n%nWhat that means is that you need an IV Buffered Dynamo Hatch. The power will be worth it.
+# Quest: Higher Capacity Dynamo
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALzQ.name=Higher Capacity Dynamo
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALzQ.desc=Another use for a few stacks of Tungstensteel is a new, even more powerful generator, but you can't run it just yet. Just like the LCE before it, the IV generator can't be run without a dynamo hatch that is powerful enough to keep up with the output, and in this case it applies to both the boosted and unboosted modes.%n%nWhat that means is that you need an IV 4A Dynamo Hatch. The power will be worth it.
 
 # Quest: Extreme Combustion Engine
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALzg.name=Extreme Combustion Engine
@@ -14343,7 +14343,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEhA.desc=Your crossbow need some ammo to
 
 # Quest: Making Power With Your Plasma
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEsA.name=§d§lMaking Power With Your Plasma
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEsA.desc=Now that you have a reactor, it's time to utilize it to create power.%n%nThe simplest plasma you can make for power is Helium plasma, but it also provides a lot of power. Deuterium is renewable from water, and you can get Helium-3 from Endstone.%n%nHowever, you will need a way to convert the plasma into EU. To do this you will need a large plasma turbine. This will also need a dynamo hatch that can handle the power you're outputting. For Helium plasma, you will want a LuV Buffered Dynamo or above.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEsA.desc=Now that you have a reactor, it's time to utilize it to create power.%n%nThe simplest plasma you can make for power is Helium plasma, but it also provides a lot of power. Deuterium is renewable from water, and you can get Helium-3 from Endstone.%n%nHowever, you will need a way to convert the plasma into EU. To do this you will need a large plasma turbine. This will also need a dynamo hatch that can handle the power you're outputting. For Helium plasma, you will want a 4A LuV Dynamo or above.
 
 # Quest: Turbine Time
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEsQ.name=§d§lTurbine Time
@@ -14355,7 +14355,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAF1w.desc=Thanks to our amazing devs, you
 
 # Quest: How the Heck Do I Find Ores?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF2A.name=§a§lHow the Heck Do I Find Ores?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF2A.desc=GregTech ore generation is based on veins. Veins have a fixed height and a rectangular base.%n%nThere is a vein every 3 chunks in x and z direction. The veins typically extend into the neighboring chunks and have varying forms. The center point however is very regular. It is based on the chunk number. Look at upper left of the screen to find the chunk number. This info is displayed by InGame Info XML mod. For now, you need to see chunk info like "Chunk X: 3 Z: -2".%n%nThe 3,-2 is the chunk's address. The ore centers are located at chunk numbers of the form 3N+1 for both x and z. So, 4,7 is an ore center, as well as 10,16, -23,19, and so on. If you are in the right spot InGame Info will also say that "This is an ore chunk.".%n%nAnother useful tool is the NEI ore vein overlay which you activate by pressing F9 three times. It shows the 3x3 areas and marks the center blue.%n%nThe generation of Ore Chunks is not related to biomes.%n%nFor reading all the way, here's some iron.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF2A.desc=GregTech ore generation is based on veins. Veins have a fixed height and a rectangular base.%n%nThere is a vein every 3 chunks in x and z direction. The veins typically extend into the neighboring chunks and have varying forms. The center point however is very regular. It is based on the chunk number. Look at upper left of the screen to find the chunk number. This info is displayed by InGame Info XML mod. For now, you need to see chunk info like "Chunk X: 3 Z: -2".%n%nThe 3,-2 is the chunk's address. The ore centers are located at chunk numbers of the form 3N+1 for both x and z. So, 4,7 is an ore center, as well as 10,16, -23,19, and so on. If you are in the right spot InGame Info will also say that "This is an ore chunk.".%n%nAnother useful tool is the NEI ore vein overlay which you activate by pressing F9 three times. It shows the 3x3 areas and marks the center blue.%n%nThe generation of Ore Chunks is not related to biomes.%n%n[note]After finding an ore chunk you can view it in your JourneyMap by clicking the ore icon up top. If you are playing multiplayer and on the same team, you both should be able to see the same prospecting information.[/note]
 
 # Quest: Digging Deeper
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF2Q.name=§a§lDigging Deeper
@@ -14603,7 +14603,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMRg.desc=Welcome to my ted talk, today w
 
 # Quest: UV Power Per Turbine
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMXQ.name=§b§lUV Power Per Turbine
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMXQ.desc=Once you progress enough in ZPM to make ZPM Dynamo Hatches, you can increase each turbine's output to 524,288 EU/t. At this number, you'll be a lot less limited by the turbine material, and it's possible to increase the total power output of one Fusion Reactor considerably. You can cover the total Helium Plasma output from one reactor with 3 Plasma Turbines, if you choose the right materials:%n%nLarge High Durability Compound Steel 235%% 473,759 EU/t%nLarge Atomic Separation Catalyst 206%% 409,663 EU/t%nLarge Adamantium 206%% 413,280 EU/t%nLarge Draconium 175%% 220,500 EU/t (durable)%nLarge Neutronium 165%% 249,480 EU/t (very durable)%n%nThe power output and final efficiency can vary a lot, based on which turbines you're using. Some of them, like Ichorium and Neutronium, last basically forever, while others will need to be replaced from time to time but offer higher efficiency. If you want to get more power per turbine, to reach closer to the dynamo's limit, you can increase the flow of plasma to the turbine, but be careful! You can't go beyond the dynamo's limit, and you will also lose efficiency as you increase the flow amount. More concrete values for efficiency loss can be found in the Plasma Turbine quest in the LuV page.%n%nMake a normal or buffered ZPM dynamo to complete the quest.%n%n[note]Also, check out the XL Plasma Turbine.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMXQ.desc=Once you progress enough in ZPM to make ZPM Dynamo Hatches, you can increase each turbine's output to 524,288 EU/t. At this number, you'll be a lot less limited by the turbine material, and it's possible to increase the total power output of one Fusion Reactor considerably. You can cover the total Helium Plasma output from one reactor with 3 Plasma Turbines, if you choose the right materials:%n%nLarge High Durability Compound Steel 235%% 473,759 EU/t%nLarge Atomic Separation Catalyst 206%% 409,663 EU/t%nLarge Adamantium 206%% 413,280 EU/t%nLarge Draconium 175%% 220,500 EU/t (durable)%nLarge Neutronium 165%% 249,480 EU/t (very durable)%n%nThe power output and final efficiency can vary a lot, based on which turbines you're using. Some of them, like Ichorium and Neutronium, last basically forever, while others will need to be replaced from time to time but offer higher efficiency. If you want to get more power per turbine, to reach closer to the dynamo's limit, you can increase the flow of plasma to the turbine, but be careful! You can't go beyond the dynamo's limit, and you will also lose efficiency as you increase the flow amount. More concrete values for efficiency loss can be found in the Plasma Turbine quest in the LuV page.%n%n[note]Also, check out the XL Plasma Turbine.[/note]
 
 # Quest: High Temperature Gas-cooled Reactor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMbg.name=§6§lHigh Temperature Gas-cooled Reactor
@@ -14611,11 +14611,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMbg.desc=Have you heard of gas-cooled re
 
 # Quest: Two Million Turbines
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMcw.name=§2§l§nTwo Million Turbines
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMcw.desc=Hopefully, not more than a handful. The objective here is for each of them to output close to 2 million EU/t.%n%nHow can you get there? Look at the UV Dynamo Hatch's recipe and you have your new objective. When you arrive there, each turbine that is equipped with that impressive block will be able to output up to 2,097,152 EU/t, which again opens you up to new turbine opportunities. Some good choices at this point are as follows:%n%nLarge Cosmic Neutronium 225%% 1,360,800 EU/t%nLarge Ichorium 225%% 1,360,800 EU/t (very durable)%nLarge Awakened Draconium 195%% 491,400 EU/t%nLarge Trinium 185%% 1,451,840 EU/t%n%nAt this point, you might consider building more t1 Fusion Reactors to process other materials. Even if you stop the reactor you're using to generate this plasma, the EU cost of restarting it is less than 1 bucket of plasma, so it's probably not that big of a deal.%n%nMake a normal or buffered UV dynamo to complete the quest.%n%n[note]At this point, you really should be looking into the XL turbine chain, from XL supercritical to dense to normal steam.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMcw.desc=Hopefully, not more than a handful. The objective here is for each of them to output close to 2 million EU/t.%n%nHow can you get there? Look at the UV Dynamo Hatch's recipe and you have your new objective. When you arrive there, each turbine that is equipped with that impressive block will be able to output up to 2,097,152 EU/t, which again opens you up to new turbine opportunities. Some good choices at this point are as follows:%n%nLarge Cosmic Neutronium 225%% 1,360,800 EU/t%nLarge Ichorium 225%% 1,360,800 EU/t (very durable)%nLarge Awakened Draconium 195%% 491,400 EU/t%nLarge Trinium 185%% 1,451,840 EU/t%n%nAt this point, you might consider building more t1 Fusion Reactors to process other materials. Even if you stop the reactor you're using to generate this plasma, the EU cost of restarting it is less than 1 bucket of plasma, so it's probably not that big of a deal.%n%n[note]At this point, you really should be looking into the XL turbine chain, from XL supercritical to dense to normal steam.[/note]
 
 # Quest: Infinite Turbines
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMeA.name=§4§l§nInfinite Turbines
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMeA.desc=Some turbine materials are not available for you, either because you don't have the material itself or because the Dynamo Hatch in the turbine cannot handle the power output from plasma. It will be a different story in UHV, when you can once again quadruple the max output of each turbine, and also unlock Infinity as an option for turbines.%n%nHuge Infinity 300%% 6,451,200 EU/t%nHuge Infinity Catalyst 231%% 1,236,480 EU/t%n%nYes, that's basically it. You can use any material from the previous turbine quests, but when you make the t8 rocket and can mine Infinity Catalyst, these are the two options. Obviously, Infinity is much better, but also much more expensive. If you stick with fusion, you will need several of those to push through the endgame. Remember that you can input plasma beyond the optimal flow, and get more out of each turbine at the cost of fuel efficiency.%n%nMake a normal or buffered UHV dynamo to complete the quest.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMeA.desc=Some turbine materials are not available for you, either because you don't have the material itself or because the Dynamo Hatch in the turbine cannot handle the power output from plasma. It will be a different story in UHV, when you can once again quadruple the max output of each turbine, and also unlock Infinity as an option for turbines.%n%nHuge Infinity 300%% 6,451,200 EU/t%nHuge Infinity Catalyst 231%% 1,236,480 EU/t%n%nYes, that's basically it. You can use any material from the previous turbine quests, but when you make the t8 rocket and can mine Infinity Catalyst, these are the two options. Obviously, Infinity is much better, but also much more expensive. If you stick with fusion, you will need several of those to push through the endgame. Remember that you can input plasma beyond the optimal flow, and get more out of each turbine at the cost of fuel efficiency.
 
 # Quest: Hypogen Coil Upgrade
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkg.name=§9§l§nHypogen Coil Upgrade

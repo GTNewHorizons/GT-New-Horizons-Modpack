@@ -23,7 +23,7 @@
       "name:8": "Another Cauldron",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
-      "repeatTime:3": -1,
+      "repeatTime:3": 0,
       "repeat_relative:1": 1,
       "simultaneous:1": 0,
       "snd_complete:8": "random.levelup",
