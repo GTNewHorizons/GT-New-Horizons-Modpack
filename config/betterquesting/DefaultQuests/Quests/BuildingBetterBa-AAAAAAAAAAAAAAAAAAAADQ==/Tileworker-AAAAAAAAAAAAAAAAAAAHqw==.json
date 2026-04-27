@@ -2,6 +2,10 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
+      "questIDLow:4": 88
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
       "questIDLow:4": 1960
     }
   },
@@ -20,7 +24,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Tileworker",
+      "name:8": "§2§lTileworker",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

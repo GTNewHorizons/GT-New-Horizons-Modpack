@@ -12,11 +12,11 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "They automate them instead.\n\n[note]This multi is IV, but uses platline mats and ZPM circuits.[/note]",
+      "desc:8": "They automate them instead.\n\nCompared to a regular Implosion Compressor, the §5§lDensity^2§r has §2§l2x§r the speed, and gives §6§l1 + (Tier/2)§r parallels.\n\n[note]This multi is IV, but uses platline materials and ZPM circuits.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 964,
+        "Damage:2": 15547,
         "OreDict:8": "",
         "id:8": "gregtech:gt.blockmachines"
       },
@@ -62,7 +62,7 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 964,
+          "Damage:2": 15547,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }
@@ -78,12 +78,36 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 20,
+          "Count:3": 80,
+          "Damage:2": 4,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings13"
+        },
+        "1:10": {
+          "Count:3": 60,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockcasings4"
         },
-        "1:10": {
+        "2:10": {
+          "Count:3": 24,
+          "Damage:2": 316,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockframes"
+        },
+        "3:10": {
+          "Count:3": 4,
+          "Damage:2": 86,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.sheetmetal"
+        },
+        "4:10": {
+          "Count:3": 4,
+          "Damage:2": 86,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockframes"
+        },
+        "5:10": {
           "Count:3": 1,
           "Damage:2": 91,
           "OreDict:8": "",

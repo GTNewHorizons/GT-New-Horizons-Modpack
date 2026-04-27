@@ -2,11 +2,11 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 68
+      "questIDLow:4": 1969
     },
     "1:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 1598
+      "questIDLow:4": 1148
     }
   },
   "properties:10": {
@@ -24,7 +24,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Lighting Up a Large Area, Without Electricity",
+      "name:8": "§6§lLighting Up a Large Area, Without Electricity",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

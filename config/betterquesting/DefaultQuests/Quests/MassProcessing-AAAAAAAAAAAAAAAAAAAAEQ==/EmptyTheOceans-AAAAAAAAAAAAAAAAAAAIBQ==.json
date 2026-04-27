@@ -8,11 +8,11 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "If you stuck with fish for bio diesel this long, you can now make the Zhuhai Fishing Port to get cartloads of fish and other byproducts.",
+      "desc:8": "If you stuck with fish for bio diesel this long, you can now make the §5§lZhuhai Fishing Port§r to get cartloads of fish and other byproducts.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 829,
+        "Damage:2": 15544,
         "OreDict:8": "",
         "id:8": "gregtech:gt.blockmachines"
       },
@@ -60,7 +60,7 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 829,
+          "Damage:2": 15544,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }
@@ -76,12 +76,24 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 138,
+          "Count:3": 165,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "miscutils:gtplusplus.blockcasings.3"
         },
         "1:10": {
+          "Count:3": 12,
+          "Damage:2": 306,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.sheetmetal"
+        },
+        "2:10": {
+          "Count:3": 12,
+          "Damage:2": 306,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockframes"
+        },
+        "3:10": {
           "Count:3": 1,
           "Damage:2": 91,
           "OreDict:8": "",

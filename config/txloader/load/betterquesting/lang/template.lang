@@ -17,10 +17,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAAQ.desc=As you might have noticed when 
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAAg.name=§9§lSticks 'n Stones
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAAg.desc=This book has a built-in reading light, lucky you! You can read about quests while you're waiting for the night to be over, but for now, you may want to get the basics done. If it isn't dark already, go out and collect some gravel and wood.%n%nKeep in mind that you need food, so look for Pam's Harvestcraft gardens. Save some of the drops from them for seeds. Alternatively, right-click the gardens with an empty hand to get the garden item itself. If you place it somewhere else, it will spread into more of the same garden up to a limit within that area.%n%nMake sure to read the info-quests linked to the first quest, they have important info!
 
-# Quest: Storage For Days
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAAw.name=§9§lStorage For Days
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAAw.desc=Now that you've gotten your tools and are about to go collect a bunch of stuff, it's time to make some storage for it.%nTake some of your wood, and craft a chest. You will need 4 wood, 4 planks, and 1 flint.
-
 # Quest: Tools
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAABQ.name=§9§lTools
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAABQ.desc=Now that you've got a shelter and a crafting table, you should make some tools, unless you'd like to continue punching trees with your bare hands.%n%nYou should probably make the axe first so you can get wood for the rest more easily.
@@ -251,10 +247,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAJQ.desc=Iron can be found in multiple v
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAJg.name=§a§lMaking Better Tools
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAJg.desc=With zinc and copper, you can create a material with a higher melting temperature - Brass - which can be used to cast better tools.%n%nFor that, you need a smeltery. See the Multiblock Goals tab for details. You can also grab some extra blocks from some villages, but they don't count towards the quest.%n%nAlternatively, there are also one-time-use clay casts available.%n%nYou can then use your fancy bronze to make better tools with a higher mining level.%n%nRemember, you need to use the pickaxe a bit to gather mining XP if you want the full mining level on your bronze pickaxe. Certain tool upgrades can give that directly if you have an upgrade slot available.
 
-# Quest: Better Storage
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAJw.name=§a§lBetter Storage
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAJw.desc=While standard chests are good for your basic items and goods, they are not ideal for storing a large amount of ore. You should build yourself some barrels in order to keep things organized.
-
 # Quest: You Shall Proceed
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAKA.name=§a§lYou Shall Proceed
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAKA.desc=As you've gathered and crafted all materials and tools you need for your basic steam machinery, you may now proceed to the next tier. Keep in mind that you'll need mountains of resources in order to craft even the simplest things, so you probably should stock up on all ores in this tier. But that's up to you.%n%nAs a special reward, you get a pair of Holo Glasses to look inside your inventories. Place it into the mask slot, and use the keybind to turn it on.%n%n[note]Tip: If you double-click the NEI search field the resulting highlighted search also applies to what you can see with your Holo Glasses![/note]
@@ -331,17 +323,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAB7g.desc=If you didn't find any Redstone
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB8g.name=§a§lXP Usage?!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB8g.desc=Exploring some dungeons or fighting mobs probably gave you a lot of XP. Better use it to get iron, copper, tin, or other useful dusts before you die.%n%nPlace your tank on the ground and a drain on top. Now you can fill it with XP.%n%nBy the way, you discovered that while the seared tank doesn't hold much, it doesn't lose contents when broken, and full tanks can stack. I wonder if that information is useful...
 
-# Quest: Better Than Barrels
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC1w.name=§a§lBetter Than Barrels
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC1w.desc=While barrels offer a slot for a single item, drawers can have up to 4 slots each, holding 16 stacks per slot.%n%nHowever, they do come with some downsides. You won't be able to make them point up or down, and you can only access the contents from the front. The automation can use any side.
-
 # Quest: Compact Drawers
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC2A.name=§a§lCompact Drawers
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC2A.desc=They are very compact and add some fanciness to your glorious dirt base.
-
-# Quest: Framing Drawers
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC2Q.name=§a§lFraming Drawers
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC2Q.desc=Now you can really make some swaggy and §oeven fancier§r drawers by using this table, all you have to do is place some decorative blocks and it will take their texture, the TOP left is the outer square, bottom left is for the front face, and top right is for the borders. This table works with almost all decorative blocks.
 
 # Quest: Redstone, Early Game Processing
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACFw.name=§a§lRedstone, Early Game Processing
@@ -584,10 +568,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAASQ.desc=All machines need a hull to kee
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAVA.name=§c§lWhere Can I Put All the Liquids?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAVA.desc=With your brand new alloy smelter you are able to combine two materials. What happens if you mix some obsidian dust and thickened glass? Obsidian glass, great. Your first tank that you can make would be a Buildcraft tank. This tank can carry up 16 buckets of a single fluid. It's possible to upgrade those tanks so they can hold up to 64 buckets.%nYou can also stack the tanks to increase capacity.
 
-# Quest: A Quite Different Storage
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAdw.name=§c§lA Quite Different Storage
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAdw.desc=Regular chests can fill up rather quickly if you happen to collect mob drops like swords and/or armor. By using a cabinet, you can store up to 270 items of the same type. Also, it doesn't need a dolly - you can break it normally and it will retain contents.%n%nPerfect for storing Forestry saplings, bees, or really anything that shares an ID but won't stack because of NBT!
-
 # Quest: Flint and Steel
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB3g.name=§c§lFlint and Steel
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB3g.desc=After you make steel you are able to craft flint and steel. I guess you'll want to travel to the Nether as soon as possible but be aware; the Nether is a very dangerous place.%n%nNote: The ball of moss gives a tinker's tool self-repair. But if the tool is completely broken, it won't repair it.%n%nNote that the flint and steel can take a few times to work.
@@ -670,7 +650,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADQg.desc=For every circuit you need a ci
 
 # Quest: Resistor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADQw.name=§c§lResistor
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADQw.desc=Every basic circuit needs two resistors to work.%n%nThere are better versions you can make later.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADQw.desc=Every basic circuit needs two resistors to work.%n%nThere are better versions you can make later.%n%n[note]You can also use slime, blood, or glue instead of Sticky Resin![/note]
 
 # Quest: Lapis, Lazurite, Sodalite, Calcite
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADYw.name=§c§lLapis, Lazurite, Sodalite, Calcite
@@ -786,7 +766,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHYA.desc=Be careful when wearing your ha
 
 # Quest: Lucifer's Little Helper
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHdA.name=§c§lLucifer's Little Helper
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHdA.desc=With an alloy smelter and some netherrack dust you can make Nether furnaces, which are extremely efficient cooking machines. Very handy for someone needing a lot of stuff furnaced in a jiffy.%n%nIn comparison to the Blast Furnace, the only downside to crafting Nether Furnaces is that they cannot be used as a component for the Electric Blast Furnace (EBF) craft later on. Blast Furnaces can. Then again, Nether dust is practically free, so what's the loss? You can always use them to bake stacks of bread!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHdA.desc=With an alloy smelter and some netherrack dust you can make Nether furnaces, which are extremely efficient cooking machines. Very handy for someone needing a lot of stuff furnaced in a jiffy.%n%nIn comparison to the Blast Furnace, they operate at half the speed and half the fuel usage. So they have the same fuel consumption ratio but are slower. Another downside to crafting Nether Furnaces is that they cannot be used as a component for the Electric Blast Furnace (EBF) craft later on. Blast Furnaces can.%n%nThen again, Nether dust is practically free, and unlike Blast Furnaces these can process every type of furnace recipe, so what's the loss? You can always use them to bake stacks of bread!
 
 # Quest: Mud, Can Also be Used For Facials
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHew.name=§c§lMud, Can Also be Used For Facials
@@ -800,17 +780,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHfw.desc=Impossible! But if you really w
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHww.name=§c§lUpgrading Drawers
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHww.desc=Drawer upgrades are different from barrel upgrades. First you need to make the upgrade template.
 
-# Quest: Your Mom Says to Upgrade Your Drawers
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHxA.name=§c§lYour Mom Says to Upgrade Your Drawers
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHxA.desc=There are many tiers of upgrades for storage drawers. Make some iron and gold tier upgrades and I'll give you some of the special purpose upgrades to experiment with in your base. Check NEI for more options such as Obsidian, Emerald, and Diamond upgrades.%n%n[warn]To remove upgrades, shift-right-click with an empty hand to access the drawer interface.[/warn]
-
 # Quest: Jacques Cousteau
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAICA.name=§c§lJacques Cousteau
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAICA.desc=Now that you have a Scuba Helmet you can safely explore underwater for long periods of time. You just need some compressed air cells. I'll trade you some Tin ingots for a few compressed air cells.%n%nAs your air drops, the helmet will take a compressed air cell and give back an empty cell. Throw these cells into your compressor and you can easily gather clay from beneath rivers. You'll be able to make more cells later once you get an extruder or a plate bender.
-
-# Quest: Key to Your Heart
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIJw.name=§c§lKey to Your Heart
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIJw.desc=Barrels by default allow locking the barrel to a specific item, even when empty. For drawers however you will need to make the Drawer Key to lock its content types.
 
 # Quest: A Fool Fit for a King
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIXA.name=§c§lA Fool Fit for a King
@@ -999,7 +971,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACGg.desc=Macerating ores usually doubles
 
 # Quest: Round and Round and Round...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACGw.name=§2§lRound and Round and Round...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACGw.desc=After purification of your ore dust, you can centrifuge it to get even more byproducts out of the dust. On top of that, you can process many items into their more useful byproducts with this machine, such as Sticky Resin and Brick Dust.%n%nIt's always useful to check NEI for Centrifuge and Electrolyzer recipes for any item/fluid you may need. It might just be that you can get that from stuff you already have in your base!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACGw.desc=After purification of your ore dust, you can centrifuge it to get even more byproducts out of the dust. On top of that, you can process many items into their more useful byproducts with this machine, such as Sticky Resin.%n%nIt's always useful to check NEI for Centrifuge and Electrolyzer recipes for any item/fluid you may need. It might just be that you can get that from stuff you already have in your base!
 
 # Quest: A Truly Sharp Saw Blade
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACHA.name=§2§lA Truly Sharp Saw Blade
@@ -1307,7 +1279,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFBQ.desc=Diamond Spikes damages mobs (or
 
 # Quest: Black and Decker
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGAQ.name=§2§lBlack and Decker
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGAQ.desc=Tired of having to replace tools all the time because they constantly break? Now that Steel is available, it's time to make some electric versions of the Screwdriver and Wrench! Charge them up like Batteries, and they'll last much longer than the non-electric versions of these tools.%n%nYou can use Lithium Batteries, or if you're on a budget, Cadmium or Sodium Batteries instead. This does reduce their energy capacity though. Later on, Vibrant Alloy will make excellent tools with great durability. There are, however, a multitude of other great materials that you may have access to, so take a look around in NEI and decide for yourself.%n%nThere are also MV and HV versions, though they require that you can process Aluminium or Stainless Steel, respectively.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGAQ.desc=Tired of having to replace tools all the time because they constantly break? Now that you can make batteries, it's time to make some electric versions of the Screwdriver and Wrench! Charge them up like Batteries, and they'll last much longer than the non-electric versions of these tools.%n%nYou can use Lithium Batteries, or if you're on a budget, Cadmium or Sodium Batteries instead. This does reduce their energy capacity though. Later on, Vibrant Alloy will make excellent tools with great durability. There are, however, a multitude of other great materials that you may have access to, so take a look around in NEI and decide for yourself.%n%nThere are also MV and HV versions, though they require that you can process Aluminium or Stainless Steel, respectively.
 
 # Quest: Magnesium Source
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBA.name=§2§lMagnesium Source
@@ -1856,7 +1828,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGaw.desc=...so make them lose their head
 
 # Quest: Pipes, Pipes Everywhere
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGyA.name=§6§lPipes, Pipes Everywhere
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGyA.desc=Now that you're in MV, you'll want to start automating processes. Polyethylene, Oxygen, Nitrogen, Hydrogen, Rubber, Charcoal, etc. Faster item pipes will help with transporting items quicker around your base. For now, use your spiffy new extruder to craft some brass item pipes.%n%nThe reward - restrictive item pipes - allow you to prioritize destinations. Locations on the other side of a restrictive pipe are treated as much further away than locations on the same side of a pipe. Very handy when you want overflow (or non-matching) items to go somewhere else!%n%nFor higher tiers, look up "item pipe" in NEI, or just look at the spreadsheet.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGyA.desc=Now that you're in MV, you'll want to start automating Polyethylene, Oxygen, Nitrogen, Hydrogen, Rubber, Charcoal, etc. Faster item pipes will help with transporting items quicker around your base. For now, use your spiffy new extruder to craft some brass item pipes.%n%nThe reward - restrictive item pipes - allow you to prioritize destinations. Locations on the other side of a restrictive pipe are treated as much further away than locations on the same side of a pipe. Very handy when you want overflow (or non-matching) items to go somewhere else!%n%nFor higher tiers, look up "item pipe" in NEI or use the wiki: [url]https://wiki.gtnewhorizons.com/wiki/Fluid_%%26_Item_Pipes[/url]
 
 # Quest: Borax Electrolyzing
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH-w.name=§6§lBorax Electrolyzing
@@ -1936,7 +1908,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIPg.desc=Many mods don't have methods of
 
 # Quest: Welcome to the Church of Benzene
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIXQ.name=§6§lWelcome to the Church of Benzene
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIXQ.desc=If you made it to MV using steam, you're probably wondering how to survive going further. One option is to switch to Light Fuel, discussed in LV. Another option is to use Benzene. Benzene is made from Wood Tar. There are a couple of pathways for that. Both start with logs from trees.%n%nOne path is to use Coke Ovens or Advanced Coke Ovens to make Charcoal, and fluid-extract Wood Tar from it. Then distill the Wood Tar to make Benzene. This method produces less pollution, but will also provide less Benzene.%n%nThe second path is to use the Pyrolyze Oven multiblock and Nitrogen gas to extract Wood Tar and Charcoal. Fluid-extract the Charcoal for additional Wood Tar. Then proceed as above. This method will create pollution from the Pyrolyze Oven, but will provide more Benzene per log.%n%nExcess wood tar can also be turned into Toluene, a key ingredient for explosives that you'll need later on to make rockets.%n%nIf you use the Charcoal Byproducts recipe, you can get a plethora of useful byproducts as well, but you'll need 4 DTs.%n%n[note]Later on you will get an even better option in the form of the Industrial Coke Oven.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIXQ.desc=If you made it to MV using steam, you're probably wondering how to survive going further. One option is to switch to Light Fuel, discussed in LV. Another option is to use Benzene. Benzene is made from Wood Tar. There are a couple of pathways for that. Both start with logs from trees.%n%nOne path is to use Coke Ovens or Advanced Coke Ovens to make Charcoal, and fluid-extract Wood Tar from it. Then distill the Wood Tar to make Benzene. This method produces less pollution, but will also provide less Benzene.%n%nThe second path is to use the Pyrolyze Oven multiblock and Nitrogen gas to extract Wood Tar and Charcoal. Fluid-extract the Charcoal for additional Wood Tar. Then proceed as above. This method will create pollution from the Pyrolyze Oven, but will provide more Benzene per log.%n%nExcess wood tar can also be turned into Toluene, a key ingredient for explosives that you'll need later on to make rockets.%n%nIf you use the Charcoal Byproducts recipe, you can get a plethora of useful byproducts as well, but you'll need 4 DTs.%n%n[note]Later on, you will get an even better option: the Industrial Coke Oven.[/note]
 
 # Quest: Even Rarer Earths
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJaQ.name=§6§lEven Rarer Earths
@@ -2169,7 +2141,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADpA.desc=The HV miner is faster, has lon
 
 # Quest: Performing Chemical Experiments at HV Level
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADrw.name=§5§lPerforming Chemical Experiments at HV Level
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADrw.desc=There are a number of chemical recipes that are unlocked with an §5HV Chemical Reactor§r; you will finally be able to make Ender Eyes, Ammonia, Gelled Toluene, and plenty of other useful components. %n%nAlternatively, if you're up for it, you can head over to the Mass Processing tab and build yourself a §5Large Chemical Reactor§r (LCR) instead! In addition to having a more efficient overclock, the LCR can input multiple liquids so you won't need to mess with those pesky cells any longer. %n%n[note]If you choose to go the LCR route, be sure to take a look at the PTFE questline just ahead of this one, starting with "Teflon Don".[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADrw.desc=There are a number of chemical recipes that are unlocked with an §5HV Chemical Reactor§r; you will finally be able to make Ender Eyes, Ammonia, Gelled Toluene, and plenty of other useful components. %n%nAlternatively, if you're up for it, you can head over to the Mass Processing tab and build yourself a §5Large Chemical Reactor§r (LCR) instead! In addition to having a more efficient overclock, the LCR can input multiple liquids so you won't need to mess with those pesky cells any longer. %n%n[note]If you choose to go the LCR route, be sure to take a look at the PTFE questline just ahead of this one, starting with "Teflon Don".[/note]%n%n[note]P.S. You can skip any of the following rubber/plastic questlines by holding 128 of the respective sheets in your hand![/note]
 
 # Quest: You're Gonna Hate This 5 and 6 in HV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE0A.name=§5§lYou're Gonna Hate This 5 and 6 in HV
@@ -2379,10 +2351,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAI9w.desc=Efficient Platinum processing i
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJXg.name=§5§lHidden Drawers
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJXg.desc=You might notice once you get a wall of drawers that looking that direction gives you a little lag. If the lag gets bad enough, you can craft this key to stop putting the item on the front. Use it on the drawer controller to affect all of them.
 
-# Quest: Controlling Your Drawers
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJaA.name=§5§lControlling Your Drawers
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJaA.desc=Now that you have MV Circuits and Stainless Steel, you can make the incredibly handy Drawer Controller. This block will make any drawers it connects to in a 4-block radius (including the y-axis) and 50 blocks at maximum as part of a multiblock that allows storage (and retrieval with the right setup) to any of the blocks that make it up. This will allow you to dump the contents of your mining trip into a storage system much easier. Just hold right-click on the Controller front for a second or two, and any items that match what's already in the multiblock will be deposited, while your tools and such won't. Just make sure to place your Controller last so it registers all the drawers.%n%nYou can feed into the Controller (and thus the rest of the drawers) with any kind of piping or hopper equivalent. If using it as part of a Multifarm or Mob Farm, make sure to set the contents of the drawers, and lock them with a key so that it properly stores everything in an organized manner. If the drawers' contents aren't set, it will start filling starting from the ones closest. If you wish to have more than one drawer full of an item, put a void upgrade on the drawer further from the Controller, and it will fill the first one, then the second.%n%nIf you want to go around corners, use the Trim Drawers to extend the multiblock. If you want to have a second point to dump items into, use the Controller Slave (one per multiblock, automation only). Note that you can use a key on the Controller to affect all drawers at once.%n%nOnce you have an ME Network, place a storage bus on the Controller, and the entire inventory will be accessible from the network, with both storage and retrieval. Just remember to set the priority higher than your ME Drives. If you haven't locked them yet expect all your drawers to fill with random items from your ME Network.%n%n[warn]Using the drawer controller with large amounts of I/O will tank TPS! If you're on a server, do not use drawer cubes, or expect the possibility of it being deleted or you getting banned.%n%nAdditionally, expect all non-backpack interactions to be DISABLED on the official servers. Congratulations, Drawer Cubists, you ruined it for everyone.[/warn]
-
 # Quest: Forget Something?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJjw.name=§5§lForget Something?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJjw.desc=Need some Electrotine for your Workstations? Go back to the Nether and find a Saltpeter vein at Y 5-45. You can also centrifuge it for Electrum and Redstone if you have too much.
@@ -2425,7 +2393,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALog.desc=If processed correctly you can 
 
 # Quest: Ender Fluid Conduits
 betterquesting.quest.Tccv2-B9QaS_8tS8kteSSg.name=Ender Fluid Conduits
-betterquesting.quest.Tccv2-B9QaS_8tS8kteSSg.desc=Ender Fluid Conduits are an advanced fluid transport system available at HV tier. They are useful in many scenarios, such as filtering specific fluids and even routing by color channels.%n%nTheir main advantage is the ability to create a unified fluid network, which makes complex setups much easier to manage. As you use them, you’ll quickly see how convenient they are at this stage of the game.%n%n[note]However, be careful: large conduit networks with too many nodes can cause TPS lag. Use them wisely, avoid overbuilding, and consider switching to AE2-based fluid handling for large-scale systems.[/note]
+betterquesting.quest.Tccv2-B9QaS_8tS8kteSSg.desc=Ender Fluid Conduits are an advanced fluid transport system available at HV tier. They have many useful abilities, such as filtering specific fluids and routing them by color channel.%n%nTheir main advantage is the ability to create a large unified fluid network, which makes complex setups much easier to manage. As you use them, you’ll quickly see how convenient they are at this stage of the game.%n%n[note]However, be careful: large conduit networks with too many nodes can cause TPS lag. Use them wisely, avoid overbuilding, and consider switching to AE2-based fluid handling for large-scale systems.[/note]
 
 # Quest: Keeping your energy hatch from overheating
 betterquesting.quest.pXRqb1HyQYSjtHp9dt1xZg.name=§5§lKeeping your energy hatch from overheating
@@ -2897,9 +2865,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGng.desc=Mixing 2-nitrochlorobenzene wit
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGnw.name=§9§l3,3 Diaminobenzidine
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGnw.desc=Mixing 3,3 Dichlorobenzidine with Ammonia and Zinc in an IV Chemical Reactor gives you 3,3 Diaminobenzidine.
 
-# Quest: Chemical Reactions at IV level
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGoA.name=§9§lChemical Reactions at IV level
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGoA.desc=High tier chemical recipes need a high tier IV chemical reactor.%n%nAlternatively you can use your Large Chemical Reactor with two EV or one IV energy hatches.%n%n[note]...Which you can make after you finish the platline. Have fun![/note]%n%n§6If you missed it or forgot, hold a stack of the platline dust to skip the quests in between.%n%nYou can also skip PBI, but you need to hold 256.
+# Quest: Chemical Reactions at IV Level
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGoA.name=§9§lChemical Reactions at IV Level
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGoA.desc=High tier chemical recipes need a high tier IV chemical reactor.%n%nAlternatively you can use your Large Chemical Reactor with either two EV energy hatches or one IV energy hatch.%n%n[note]...Which you can make after you finish the platline. Have fun![/note]%n%n§6If you missed it or forgot, hold a stack of the platline dust to skip the quests in between.%n%nYou can also skip the PBI chem quests, but you need to hold 256 sheets in your hand.
 
 # Quest: Polybenzimidazole, Finally!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGoQ.name=§9§lPolybenzimidazole, Finally!
@@ -3295,7 +3263,7 @@ betterquesting.quest.fvz-5lJaRAqfsM1hcAYOng.desc=Well get ready for a processing
 
 # Quest: A Small Reward: The Infinite Spray Can
 betterquesting.quest.n22vWzZHSu6Gn63EBV1FUw.name=§9§lA Small Reward: The Infinite Spray Can
-betterquesting.quest.n22vWzZHSu6Gn63EBV1FUw.desc=Congratulations! You have completed the Platinum Line. Not many players have the perseverance to accomplish this task. A small reward is in order!%n%nThe [note]Infinite Spray Can[/note] never runs out of paint, and contains all sixteen colors (as well as solvent!) Of course, line mode and Ring of Loki support are included. There are also many convenience features. Middle-click to open a color choice GUI. Middle-click a painted block to copy its color to the spray can. Left-click to cycle the active color (sneak to go backwards.) Sneak-middle-click to lock the can; while locked, you can't accidentally change the color. Sneak-middle-click to unlock.%n%nNaturally, you'll have to craft the infinite spray can yourself. It's a Dire Crafting recipe, so hopefully you have a dire crafting table. It requires a lot of platinum line materials, of course. And, apparently, a rainbow cactus, so a small detour into magic will be necessary. And a bunch of random-looking AE2 parts. And an IV world accelerator. And... a fence?%n%nIs this really a reward?
+betterquesting.quest.n22vWzZHSu6Gn63EBV1FUw.desc=Congratulations! You have completed the Platinum Line. Not many players have the perseverance to accomplish this task. A small reward is in order!%n%nThe [note]Infinite Spray Can[/note] never runs out of paint, and contains all sixteen colors (as well as solvent!) Of course, line mode and Ring of Loki support are included. There are also many convenience features. Middle-click to open a color choice GUI. Middle-click a painted block to copy its color to the spray can. Left-click to cycle the active color (sneak to go backwards.) Sneak-middle-click to lock the can; while locked, you can't accidentally change the color. Sneak-middle-click to unlock.%n%nYou can also hold it in your offhand to automatically spray any colorable block you place with your main hand.%n%nNaturally, you'll have to craft the infinite spray can yourself. It's a Dire Crafting recipe, so hopefully you have a dire crafting table. It requires a lot of platinum line materials, of course. And, apparently, a rainbow cactus, so a small detour into magic will be necessary. And a bunch of random-looking AE2 parts. And an IV world accelerator. And... a fence?%n%nIs this really a reward?
 
 # Quest: Thorium 232?
 betterquesting.quest.nNTmwkdsQgyE6QAfmIwcvg.name=§9§lThorium 232?
@@ -4230,10 +4198,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAB0w.desc=There was something sleeping de
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKCA.name=§5§l§nInfinity Helmet
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKCA.desc=An armor set worthy of a God. This helmet provides infinite saturation.%n%nWhile wearing the complete set, you are completely unkillable.
 
-# Quest: Infinity Chest
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKEQ.name=§5§l§nInfinity Chest
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKEQ.desc=Stores up to 243 different items, each being able to stack up to 2,147,483,648. Useful if you want somewhere to put all those void miner ores.
-
 # Quest: Nature's Ruin
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKEg.name=§5§l§nNature's Ruin
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKEg.desc=Infinity axe, never breaks and capable of chopping down an entire tree instantly.%n%n[note]Cuz a levelled up and modified lumber axe is totally not capable of that.[/note]
@@ -4650,7 +4614,7 @@ betterquesting.quest.k0ryGOkkSBOgYUcVY-J4rw.desc=Like its predecessor it can run
 
 # Quest: An Eye at the End of Time
 betterquesting.quest.kazCPEWoSmiZhR4bkHlEBQ.name=§c§l§nAn Eye at the End of Time
-betterquesting.quest.kazCPEWoSmiZhR4bkHlEBQ.desc=So you have made yourself an Eternal DTPF or hopefully a few, and now it is time for the push to the next tier, UXV.%n%nIntroducing the final multiblock in the game, and by far the most expensive.%nIt introduces 4 new materials: Raw Stellar Plasma, White and Black Dwarf Matter and finally Universium.%n%nIt has 3 different tiered casings with 9 tiers each:%n%nSpacetime Compression Field Generator:%n- Determines the tier of the planet block that can be run and decreases the processing time by 3%% per tier.%n%nTime Dilation Field Generator:%n- Decreases recipe time by 50%% per tier, while decreasing the chance of a recipe succeeding by 9.25%% per tier.%n%nStabilisation Field Generator:%n- Increases the chance of a recipe succeeding by 5%% per tier, while decreasing the output of a recipe by 5%% per tier.%n%nLower tier Stabilization Field Generators have a power output penalty.%n%nFinding the best setup of different casing tiers might be a hard task, so a calculator visualizing all the drops and setups has been created: [url]https://docs.google.com/spreadsheets/d/1qyRWipeWpHQM4tbacb3TvO-QjvleV7-0uzMZWW3r6ew/edit?gid=589078529#gid=589078529[/url]%n%n[note]Be sure to read the tooltip of the Eye of Harmony controller, it explains everything in detail! Depending on your GUI scale it might have multiple pages.[/note]%n%n[note]Well... it explains mostly everything. The Eye of Harmony has an inbuilt pity system to make sure you don't lose your mind. Here's a quick rundown on how it operates:%n%n(All chances are decimals here)%nThere is a counter C that starts at the current recipe success chance P. If a recipe fails, (1-P)*P is added to C. If C reaches >= 1, the next roll is guaranteed to succeed and C resets to P. %nIf a recipe succeeds before C reaches >= 1, it resets in a similar manner.%nIf you switch recipes, C will be reset to P of the new recipe, even if the next roll would be a guarantee.%nThe guarantee can be canceled out by overflow penalties as they apply after the pity does. However, they do not reset C, so the guarantee is shifted to the next recipe cycle.%nIf parallels are > 1, pity doesn't apply.[/note]
+betterquesting.quest.kazCPEWoSmiZhR4bkHlEBQ.desc=So you have made yourself an Eternal DTPF or hopefully a few, and now it is time for the push to the next tier, UXV.%n%nIntroducing the final multiblock in the game, and by far the most expensive.%nIt introduces 4 new materials: Raw Stellar Plasma, White and Black Dwarf Matter and finally Universium.%n%nIt has 3 different tiered casings with 9 tiers each:%n%nSpacetime Compression Field Generator:%n- Determines the tier of the planet block that can be run and decreases the processing time by 3%% per tier.%n%nTime Dilation Field Generator:%n- Decreases recipe time by 50%% per tier, while decreasing the chance of a recipe succeeding by 9.25%% per tier.%n%nStabilisation Field Generator:%n- Increases the chance of a recipe succeeding by 5%% per tier, while decreasing the output of a recipe by 5%% per tier.%n%nLower tier Stabilization Field Generators have a power output penalty.%n%nFinding the best setup of different casing tiers might be a hard task, so use this calculator to evaluate setups and visualize drops: [url]https://docs.google.com/spreadsheets/d/1FTFdfmY_UWbTbFOyNzARKeI90pbHvPBH6M3JHJmaC-E/edit?usp=sharing[/url]%n%n[note]Be sure to read the tooltip of the Eye of Harmony controller, it explains everything in detail! Depending on your GUI scale it might have multiple pages.[/note]%n%n[note]Well... it explains mostly everything. The Eye of Harmony has an inbuilt pity system to make sure you don't lose your mind. Here's a quick rundown on how it operates:%n%n(All chances are decimals here)%nThere is a counter C that starts at the current recipe success chance P. If a recipe fails, (1-P)*P is added to C. If C reaches >= 1, the next roll is guaranteed to succeed and C resets to P. %nIf a recipe succeeds before C reaches >= 1, it resets in a similar manner.%nIf you switch recipes, C will be reset to P of the new recipe, even if the next roll would be a guarantee.%nThe guarantee can be canceled out by overflow penalties as they apply after the pity does. However, they do not reset C, so the guarantee is shifted to the next recipe cycle.%nIf parallels are > 1, pity doesn't apply.[/note]
 
 # Quest: Storing Computation in the Cloud
 betterquesting.quest.lBuQcNYjQ8-YsMFqW6U1tQ.name=§c§l§nStoring Computation in the Cloud
@@ -4743,7 +4707,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAM4A.desc=May Dreammaster have mercy on y
 
 # Quest: Fabricating Solar Systems... in Parallel
 betterquesting.quest.IGVryoMbRu28q08v4uwSuw.name=§4§l§nFabricating Solar Systems... in Parallel
-betterquesting.quest.IGVryoMbRu28q08v4uwSuw.desc=As you've noticed, UXV components are extremely expensive compared to the amount of Universium you can currently produce.%n%nThe Astral Array Fabricator allows you to run EOH recipes in parallel. You can review the math in the second page of the tooltip.%n%nFor a direct answer, you can use this spreadsheet: [url]https://docs.google.com/spreadsheets/d/1qyRWipeWpHQM4tbacb3TvO-QjvleV7-0uzMZWW3r6ew/edit?gid=589078529#gid=589078529[/url]%n%n[warn]Be aware that the EOH will use Raw Stellar Plasma instead of Hydrogen and Helium if you use Astral Arrays.[/warn]%n%n[note]Make sure you are generating enough power.[/note]
+betterquesting.quest.IGVryoMbRu28q08v4uwSuw.desc=As you've noticed, UXV components are extremely expensive compared to the amount of Universium you can currently produce.%n%nThe Astral Array Fabricator allows you to run EOH recipes in parallel. You can review the math in the second page of the tooltip.%n%nFor a direct answer, you can use this spreadsheet: [url]https://docs.google.com/spreadsheets/d/1FTFdfmY_UWbTbFOyNzARKeI90pbHvPBH6M3JHJmaC-E/edit?usp=sharing[/url]%n%n[warn]Be aware that the EOH will use Raw Stellar Plasma instead of Hydrogen and Helium if you use Astral Arrays.[/warn]%n%n[note]Make sure you are generating enough power.[/note]
 
 # Quest: See You Next Time!
 betterquesting.quest.KNM9ICNAQIa8NaFoXwCC9g.name=§6§l§nSee You Next Time!
@@ -4892,7 +4856,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEmg.desc=Forget everything you know abou
 
 # Quest: Dezil's Marshmallow
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF0A.name=Dezil's Marshmallow
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF0A.desc=In the last step you need to infuse your Marshmallow with some epic food in the thaumcraft infusion altar. Before you can do it you need to unlock the research.%n%nIs this worth it? Is there any enemy worthy of using the buffs this gives on? That's up to you.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF0A.desc=In the last step you need to infuse your Marshmallow with some epic food in the Thaumcraft infusion altar. Before you can do it you need to unlock the research.%n%nIs this worth it? Is there any enemy worthy of using the buffs this gives on? That's up to you.
 
 # Quest: The industrial way
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFAA.name=The industrial way
@@ -4920,15 +4884,15 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFyw.desc=You've heard about Dezil's Mars
 
 # Quest: Uncooked Slush
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFzA.name=Uncooked Slush
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFzA.desc=Next step is to form this slush into the right shape. Use a Marshmallow form and press it with your iv forming press. Remember to sterilize it after using it.%n%nBe careful, you'll get blindness and hunger II holding it.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFzA.desc=Next step is to form this slush into the right shape. Use a Marshmallow Mold and press it with your IV forming press. Remember to sterilize it after using it.%n%nBe careful, you'll get blindness and hunger II holding it.
 
 # Quest: Glowing Marshmallow
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFzg.name=Glowing Marshmallow
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFzg.desc=Next step is heating up your Marshmallow in an Electric Blast Furnace at 4500K with some radon gas and making it glow.%n%nNow you'll get a Paralysis II effect in addition to the others.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFzg.desc=Next step is heating up your Marshmallow in an Electric Blast Furnace at 4500K with some noble gas and making it glow.%n%nNow you'll get a Paralysis II effect in addition to the others.
 
 # Quest: Cooling Your Marshmallow
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFzw.name=Cooling Your Marshmallow
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFzw.desc=In the next step you cool your Glowing Marshmallow in an HV Vacuum Freezer to make it more stable.%n%nYou still get Weakness II and Nausea II.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFzw.desc=In the next step you cool your Glowing Marshmallow in an EV Vacuum Freezer to make it more stable.%n%nYou still get Weakness II and Nausea II.
 
 # Quest: Kitchenware 2.0
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHLA.name=Kitchenware 2.0
@@ -4977,7 +4941,7 @@ betterquesting.quest.-9Qf3tBHQbKZrhhefIRApg.desc=A great source of gold.%n%nAuro
 
 # Quest: Mutation Titration
 betterquesting.quest.0P-0LIDsRa-0r0SDSfZTUg.name=Mutation Titration
-betterquesting.quest.0P-0LIDsRa-0r0SDSfZTUg.desc=Before going any further you really should craft a lot,[note] and I mean a lot[/note], of crop sticks. Hope you like chopping trees and crafting saws! §o§oYou should've seen the old recipe...%n%n§o§rEach of the adjacent quest groupings represent a different category of crops found within the mod. I would recommend you look first at the quests focusing on [warn]Improving Your Crops[/warn] and [warn]Controlled Breeding[/warn].%n%nWhile not every crop will produce a useful harvest, they very well may deterministically breed into a useful crop.%n%nCertain crops need more than just two parents to breed. For those crops, simply surround a single double cropstick with all 3-4 crops needed and continue as normal.%n%n[note]Be free farmhand~![/note]
+betterquesting.quest.0P-0LIDsRa-0r0SDSfZTUg.desc=Before going any further you really should craft a lot,[note] and I mean a lot[/note], of crop sticks. Hope you like chopping trees and crafting saws! §o§oYou should've seen the old recipe...%n%n§o§rEach of the adjacent quest groupings represent a different category of crops found within the mod. If you haven't yet, I would highly recommend you review the in depth guide quests focusing on [warn]Crop Stats[/warn] and [warn]Crop Nutrients[/warn].%n%nWhile not every crop will produce a useful harvest, they very well may deterministically breed into a useful crop or open up a useful pool. So don't throw away new species just because they don't seem immediately useful.%n%nCertain crops need more than just two parents to breed. For those crops, simply surround a single double cropstick with all 3-4 crops needed and continue as normal.%n%n[note]Be free farmhand~![/note]
 
 # Quest: Vanilla Agriculture
 betterquesting.quest.0pG3BaWpTQWJLWKudvCdcw.name=Vanilla Agriculture
@@ -4993,11 +4957,11 @@ betterquesting.quest.1rhK6oRBQ-qc6YJxPn4CuQ.desc=Maybe this will stop you from t
 
 # Quest: Passive Production
 betterquesting.quest.20MjFyzJQhWPEPkK0EZDeA.name=Passive Production
-betterquesting.quest.20MjFyzJQhWPEPkK0EZDeA.desc=One of the main reasons for getting into CropsNH is the passive production of resources. %n%nThe many crops attached to this quest will generally provide you the direct resource you are looking for. This can be perfect for getting that extra bit of aluminium you need to push through MV, or for generating a passive amount of basic minerals long before any other techniques become available.%n%nKeep in mind the sub-soil requirements for these crops especially. To passively produce aluminium, you will first need blocks of aluminium or bauxite ore.
+betterquesting.quest.20MjFyzJQhWPEPkK0EZDeA.desc=One of the main reasons for getting into CropsNH is the passive production of resources. %n%nThe many crops attached to this quest will generally provide you the direct resource you are looking for. This can be perfect for getting that extra bit of aluminium you need to push through MV, or for generating a passive amount of basic minerals long before any other techniques become available.%n%n§4Keep in mind the sub-soil requirements for these crops especially. §rTo passively produce aluminium, you will first need blocks of aluminium or bauxite ore.
 
 # Quest: Controlled Breeding
 betterquesting.quest.39AFOCfITcSl7WMmATD3Aw.name=Controlled Breeding
-betterquesting.quest.39AFOCfITcSl7WMmATD3Aw.desc=To breed more advanced crops, you will have to start taking advantage of Breeding Pools. Pools represent groups of species which share a genetic background, and can therefore randomly mutate into each other when breeding on crop sticks. %n%nWhen breeding, deterministic mutations will §oalways§r take priority over pools.%n%nWhether by pools or determinism, new crops will only be produced if the environment of the relevant double crop sticks matches the required environment of the new crop.%n%nFor you, this will be a key concept to take advantage of when attempting to breed many of the different species of Liliums found in CropsNH.
+betterquesting.quest.39AFOCfITcSl7WMmATD3Aw.desc=With your Stone Lily in hand, get ready to breed all the other species of §oLilliums§r! You can use deterministic breeding of course, but with pools and some undersoil management it shouldn't take too long at all.%n%nRemember that whether by pools or determinism, new crops will only be produced if the environment of the relevant double crop sticks matches the required environment of the new crop.
 
 # Quest: Oh-Oh-Oh-Olivia
 betterquesting.quest.3GtBaKquRvWXh6S4VqcD3Q.name=Oh-Oh-Oh-Olivia
@@ -5025,7 +4989,7 @@ betterquesting.quest.5vhRsuqOTjeLbozeMGcweA.desc=These modules each simulate a s
 
 # Quest: Tools of the Trade 3 - Feeding(?) Your Crops
 betterquesting.quest.6HEnaqUVQuWHhHc3MAgQnA.name=Tools of the Trade 3 - Feeding(?) Your Crops
-betterquesting.quest.6HEnaqUVQuWHhHc3MAgQnA.desc=That water source block doesn't really do it for your little guys. They will need a bit more attention, so use a watering can to increase their water stat.%n%nCurrently you must directly right click the crop sticks with the watering can to apply the hydration.
+betterquesting.quest.6HEnaqUVQuWHhHc3MAgQnA.desc=That water source block doesn't really do it for your little guys. They will need a bit more attention, so use a watering can to increase their water stat.
 
 # Quest: Other Fruits
 betterquesting.quest.7UxcGl38S4yX3bIg7EdN-Q.name=Other Fruits
@@ -5061,7 +5025,7 @@ betterquesting.quest.A21peFIQTEKAgY7eH4tjLw.desc=Easy rubber wood and sticky res
 
 # Quest: Speed Up Your Plant Growth
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC0g.name=Speed Up Your Plant Growth
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC0g.desc=Fertilizer is a foundational resource to produce and consume when farming. It has two key features:%n%n1. Fertilizer speeds up crop growth by boosting the nutrient score.%n2. Using fertilizer prevents stat loss during crop breeding. Meaning the only options for stat changes become (0,+1+,+2, etc).%n%nBefore you get access to a Chemical Reactor, use bonemeal instead for a small bump of fertilizer!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAC0g.desc=Fertilizer is a foundational resource to produce and consume when farming. It has two key features:%n%n1. Speeding up crop growth by boosting the nutrient score.%n2. Preventing stat loss during crop breeding. This simply prevents stat loss; it doesn't increase the likelihood of a stat increase.%n%n4 Seperate items can be used to apply fertilizer to your crops, each providing a different amount of fertilizer points:%n%n- Crops NH Fertilizer: 100 points%n- Forestry Compost: 50 points%n- Forestry Fertilizer: 25 points%n- Bone Meal: 5 points%n%n[note]While Bone Meal may seem weak, it's ability to still prevent stat loss when breeding is key if you intend to start crops before you can make a Chemical Reactor.[/note]%n%nThe Crop Managers and the Industrial Farm both also accept liquid fertilizers. Right now there is 2 of them:%n%n- Fertilizer: 1 point per L%n- Enriched Fertilizer: 10 points per L
 
 # Quest: Becoming a Florist
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC1Q.name=Becoming a Florist
@@ -5069,7 +5033,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAC1Q.desc=Time to get in touch with your 
 
 # Quest: Tools of the Trade 1 - Less Dirty Hands
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE9g.name=Tools of the Trade 1 - Less Dirty Hands
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE9g.desc=This item is a combined Trowel, Hoe, and Shovel. The basic spade will allow you to easily clear weeds from your sticks, till soil, and potentially obtain bonus seeds from simply harvesting the crops (right-click) without breaking them. Each point of resistance increases the chance of getting a seed when harvesting with the basic spade as follows:%n%n1 resist = 3%%%n10 resist = 32%%%n21 resist = 100%%
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE9g.desc=This tool is a combined Trowel, Hoe, and Shovel. The basic spade will allow you to easily clear weeds from your sticks, till soil, and potentially obtain bonus seeds from simply harvesting the crops (right-click) without breaking them. Each point of resistance increases the chance of getting a seed when harvesting with the basic spade as follows:%n%n1 Resist = 3%%%n10 Resist = 32%%%n31 Resist = 100%%%n%n[note]If you're removing a crop with your spade, sneaking will let you remove the crop without having to worry about the spade breaking the crop stick.[/note]
 
 # Quest: Hops, The Source of Beer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFCA.name=Hops, The Source of Beer
@@ -5177,7 +5141,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHjQ.desc=Oat Milk? Nay.%nSoy Milk? Nay.
 
 # Quest: Better Put On That Rubber Suit
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHnQ.name=Better Put On That Rubber Suit
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHnQ.desc=Troll plant! What does it do? Troll you! %n%n%nAnd give you cancer.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHnQ.desc=Troll plant! What does it do? Troll you! %n%n%nAnd give you cancer. Sorry!
 
 # Quest: Who the Hell is Bob?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHng.name=Who the Hell is Bob?
@@ -5199,9 +5163,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIAA.desc=Here are a few crops to spice u
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJZQ.name=The Art of Bonsai
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJZQ.desc=By simply planting saplings onto crop sticks, you've found you can create miniature versions of the matching trees! How cute!%n%nBonsai trees will give you drops just like a regular tree, but without the wasted server processing time of placing all the tree blocks just to chop them down again. This can be significant overhead on a server, so if you want to be nice to your host, breed some bonsai. 
 
-# Quest: Improving Your Crops
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK0g.name=Improving Your Crops
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK0g.desc=A key part of CropsNH is improving the stats of your crops. There is always a chance for this to occur whenever a new crop grows - whether by self propagation or crossing...%n%n§lGrowth§r:%n§2Improves growth speed§r%n- Increases the number of progress points per growth tick by up to about 525%% with some variation depending on the tier of the crop.%n§4Can cause weeds to spawn§r%n- When growth is above 23 (or 7 for Necrobloom), crops will begin spreading weeds and diseases to nearby crops.%n- You can prevent this by either using Weed-EX or by increasing the resistance stat.%n%n§lGain§r:%n§2Improves harvest size§r%n- Up to 2.5x per harvest at 31 gain.%n- Has a gain/31 chance of increasing the stack size of any drop by 1.%n%n§lResistance§r:%n§2Improves seed harvest chances§r%n- A resistance of 10 will guarantee a seed drop when harvesting a mature crop with a reinforced spade.%n- This scales by rate of resistance/10:%n  - 20: 2 seeds%n  - 25: 2 seeds + 50%% chance for a 3rd%n  - 31: 3 seeds + 10%% chance for a 4th%n- A resistance of 31 will guarantee a seed drop even without a spade.%n§2Increases weed resistance§r%n- When a crop's growth is above 23, resistance will prevent weed spreading as long as it's greater than or equal to the growth stat.%n§2Improves a crop's resistance to diseases§r%n- Each point reduces a crop's chance of becoming infected.%n- With 31 resistance, crops are immune to diseases.%n
+# Quest: Crop Stats
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK0g.name=Crop Stats
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK0g.desc=A key part of CropsNH is improving the stats of your crops. There is always a chance for this to occur whenever a new crop grows - whether by self propagation or crossing...%n%n§lGrowth§r:%n§2Improves growth speed§r%n- Increases the number of progress points per growth tick by up to about 525%% with some variation depending on the tier of the crop.%n§4Can cause weeds to spawn§r%n- When growth is above 23 (or 7 for Necrobloom), crops will begin spreading weeds and diseases to nearby crops.%n- You can prevent this by either using Weed-EX or by increasing the resistance stat so it's equal to or above the growth stat.%n%n§lGain§r:%n§2Improves harvest size§r%n- Up to 2.5x per harvest at 31 gain.%n- Has a gain/31 chance of increasing the stack size of any drop by 1.%n%n§lResistance§r:%n§2Improves seed harvest chances§r%n- A resistance of 10 will guarantee a seed drop when harvesting a mature crop with a reinforced spade.%n- This scales by rate of resistance/10:%n  - 20: 2 seeds%n  - 25: 2 seeds + 50%% chance for a 3rd%n  - 31: 3 seeds + 10%% chance for a 4th%n- A resistance of 31 will guarantee a seed drop even without a spade.%n§2Increases weed resistance§r%n- When a crop's growth is above 23, resistance will prevent weed spreading as long as it's greater than or equal to the growth stat.%n§2Improves a crop's resistance to diseases§r%n- Each point reduces a crop's chance of becoming infected.%n- With 31 resistance, crops are immune to diseases.%n§2This includes sickness from lack of Nutrient Score, however, the crop still will not grow without the necessary nutrient level being reached.%n
 
 # Quest: Argentia
 betterquesting.quest.APU0Ykh9RMae9R7XqkXTKQ.name=Argentia
@@ -5231,13 +5195,17 @@ betterquesting.quest.ExzkZigMSNafnvdI-5apjg.desc=A source of platinum.%n%nPlatin
 betterquesting.quest.FB6XbhKLRk-QQEo2PsjGjA.name=Basic Lilies
 betterquesting.quest.FB6XbhKLRk-QQEo2PsjGjA.desc=These Liliums aren't the most useful, but if you're wanting to build with say Tuff or Andesite this should ease your search for resources somewhat.%n%nRemember that these crops can only be bred when their environmental requirements are met. In this case, use those stones from before as your sub-soil.
 
+# Quest: Taking Pools Seriously
+betterquesting.quest.FWt08gVmSWi7Wa5PX80kDg.name=Taking Pools Seriously
+betterquesting.quest.FWt08gVmSWi7Wa5PX80kDg.desc=With that 31/31/31 seed now in hand you will (ideally) §lnever have to complete %nthe entire statting process again. §r%n%nOnce replicated, you can cross this perfect seed with itself (keep them fertilized!) to access the pools that it has access to! §c§c§4§nThis is the intended path for early game crop discovery. §rWhile it is much more random than deterministic breeding, it will let you collect a wider range of species quicker.%n%nKeep in mind that: when pool breeding occurs, the offspring has a chance to be any crop found within any of the pools shared by 2 or more of the parent crops.§lThe mutation selection occurs prior to the check for enviroment. §rIn practice this means that if you're searching for a specific species in say, the Food pool, it will take much longer to appear than one in the Reed pool because there are fewer alternative species. [warn]No matter the environment.[/warn]%n%nOnce you've gotten your hands on a solid number of species, deterministic breeding becomes a simpler and more effective method for obtaining new species.
+
 # Quest: Golden Berries
 betterquesting.quest.FXUYD5RRT4K7AHMMpnvOIw.name=Golden Berries
 betterquesting.quest.FXUYD5RRT4K7AHMMpnvOIw.desc=It's like a golden goose but... not.
 
 # Quest: Gem Crops
 betterquesting.quest.F_Ef5AtKQbSGmM24_LottQ.name=Gem Crops
-betterquesting.quest.F_Ef5AtKQbSGmM24_LottQ.desc=These crops crystalize and produce their related crystals and dusts straight from the soil.%n%nAll* of these crops will need a sub-soil of their related material whether block or ore.
+betterquesting.quest.F_Ef5AtKQbSGmM24_LottQ.desc=These crops crystalize and produce their related crystals and dusts straight from the soil.%n%n§4Most of these crops will need a sub-soil of their related material whether block or ore.
 
 # Quest: Leafy... Grains?
 betterquesting.quest.FugIhOU6Q12Iq764ZRoMEA.name=Leafy... Grains?
@@ -5249,15 +5217,15 @@ betterquesting.quest.GV1Cx5SnSyKETKjMO6FUcQ.desc=Once you can actually get your 
 
 # Quest: Environmental Preferences
 betterquesting.quest.Hgj_XYnbRj2JGb8I-8QnLQ.name=Environmental Preferences
-betterquesting.quest.Hgj_XYnbRj2JGb8I-8QnLQ.desc=Each crop has a set of preferred biome tags. These can be viewed in NEI along with the other growth requirements. %n%nHaving the proper biome tags will provide a significant Nutrient Point boost to your crops (§l+14 Points§r per tag).%n%nYou can only benefit from up to 2 biome tags (§l+28 Points§r).%n%nIt is possible to emulate a single preferred biome tag by planting your crops in a high-humidity location. The bonus scales linearly with humidity between 50%% and 80%%. Values below 50%% provide no bonus, while values above 80%% will hit the cap at an equivalent of 1 preferred biome tag (§l+14 Points).%n%n§l§rIf any favored biome tag is present in the current biome, the high humidity bonus will be ignored.%n%n%nThe Nature's Compass will allow you to view the tags of each biome as subtext within its menu.
+betterquesting.quest.Hgj_XYnbRj2JGb8I-8QnLQ.desc=Each crop has a set of preferred biome tags. These can be viewed in NEI along with the other growth requirements. %n%nHaving the proper biome tags will provide a significant Nutrient Point boost to your crops (§l+14 Points§r per tag).%n%nYou can only benefit from up to 2 biome tags (§l+28 Points§r).%n%nIt is possible to emulate a single preferred biome tag by planting your crops in a high-humidity location. The bonus scales linearly with humidity between 50%% and 80%%. Values below 50%% provide no bonus, while values above 80%% will hit the cap at an equivalent of 1 preferred biome tag (§l+14 Points).%n%n§l§rIf any favored biome tag is present in the current biome, the high humidity bonus will be ignored.%n%n%n§4§n§n§r§4The Nature's Compass will allow you to view the tags of each biome as subtext within its menu. Sorting biomes by tags is the simplest method.
 
 # Quest: Evil...
 betterquesting.quest.If475S_dQ5y_f8KcSRHeXQ.name=Evil...
-betterquesting.quest.If475S_dQ5y_f8KcSRHeXQ.desc=While it can't produce certus quartz crystals, it will give you plenty of the relevant nether crystal dusts as well as straight nether quartz.%n%n*Only needs netherack soil, no sub-soil neccesary here.
+betterquesting.quest.If475S_dQ5y_f8KcSRHeXQ.desc=While it can't produce certus quartz crystals, it will give you plenty of the relevant nether crystal dusts as well as straight nether quartz.%n%n§2Only needs netherack soil, no sub-soil neccesary here.
 
 # Quest: A Summary of Crossbreeding
 betterquesting.quest.Ik4r-iNLSEK_uq5FXqspQA.name=A Summary of Crossbreeding
-betterquesting.quest.Ik4r-iNLSEK_uq5FXqspQA.desc=When crops breed, the resulting stats are the average of the parents' stats plus a random value between -2 and 4.%n%nEssentially, the variation in stats is a fixed (-2 -> +4). If all parents have fertilizer in them, stat loss is prevented in all cases (0 -> 4). %n%nDeterministic breeding is similar to how bees work, where you must bring the right species together. Some situations require more than two parents.%n%n[note]Advanced crops (§5MV§r and above materials) will require the breeding machine.[/note]%n%nMost crops will also have access to breeding pools, where similar crops may be bred with others of the same “type” to produce other similar crops. When first starting out, it can be helpful to use these pools to collect many different types of crops. They are a bit more complicated so we will get into them after you breed the stonelily.%n%nIf you find the process of breeding new crops deterministically too slow, maybe try statting up one species and using it to create a bunch of 31/31/31 seeds for crops in pools it shares. Remember that fertilizer prevents stat loss in all cases, this includes breeding.
+betterquesting.quest.Ik4r-iNLSEK_uq5FXqspQA.desc=When crops breed, the resulting stats are the average of the parents' stats plus a random value between -2 and 4.%n%nEssentially, the variation in stats is a fixed (-2 -> +4). If all parents have fertilizer in them, stat loss is prevented in all cases (0 -> 4). %n%nDeterministic breeding is similar to how bees work, where you must bring the right species together. Some situations require more than two parents.%n%n[note]Advanced crops (§5MV§r and above materials) will require the breeding machine.[/note]%n%nMost crops will also have access to breeding pools. Breeding pools are like a set of tags associated with each crop. When breeding, if none of the parents produce a deterministic mutation, but some share one or more breeding pools, a random mutation may occur. The resulting offspring will always be a species tagged with one of the shared pools.%n%n[note]Once you've obtained your first 31/31/31 seed, it can be helpful to use these random pool mutations to collect many different types of crops.[/note]
 
 # Quest: Thauminite Berries
 betterquesting.quest.J04fEo0DTReAF9BJlQZ9RA.name=Thauminite Berries
@@ -5297,7 +5265,7 @@ betterquesting.quest.Nu5EfJtNQ0qIUW0Lt0E4yA.desc=Enriched fertilizer will allow 
 
 # Quest: Crop Sticks
 betterquesting.quest.O65QUnR0QuGSoQrsUMTB1g.name=Crop Sticks
-betterquesting.quest.O65QUnR0QuGSoQrsUMTB1g.desc=To do anything in CropsNH, you first need crop sticks. These will act as the supports for your plants to grow upon. Once your plants mature, a double crop stick will allow your plants to crossbreed with any crops directly adjacent to the same double crop stick.%n%nAs new species grow on your crop sticks you can harvest them by right-clicking, which won't remove the seed. Left-clicking will break the seed and potentially drop a seed. Spades will help you improve your chances at obtaining seeds when you do this, as will the Resistance trait.%n%n§r§r[note]§l§r§lThe chance to drop a seed from any crop without a spade is measured%nas gain/31. §rSo crops with a maxed resistance stat will always drop a seed when broken.§r[/note]%n%n[warn]Note in NEI the varying types of soil, sub-soil blocks, and environmental requirements for different crops![/warn]%n%n%n%n§oIf you're already an experienced farmhand, collect a single stonelily seed and I'll let you skip my introductory trainings for now.
+betterquesting.quest.O65QUnR0QuGSoQrsUMTB1g.desc=To do anything in CropsNH, you first need crop sticks. These will act as the supports for your plants to grow upon. Empty crop sticks can be doubled by right-clicking another crop stick onto them. These double-crop sticks allow you to breed any adjacent mature crops.%n%nAs new species grow on your crop sticks, you can harvest them by right-clicking, which won't remove the seed. Left-clicking harvests the crop and removes it, potentially dropping a seed depending on the resistance. Spades will help you improve your chances of obtaining seeds when you do this, as will the Resistance trait.%n%n§r§r[note]§l§r§lThe chance to drop a seed from any crop §nwithout a spade§r§l is measured%nas resistance/31. §rSo crops with a maxed resistance stat will always drop a seed when broken.§r[/note]%n%n[warn]Note in NEI the varying types of soil, sub-soil, and environmental requirements for different crops![/warn]%n%n%n%n§oIf you're already an experienced farmhand, collect a single stonelily seed and I'll let you skip subsequent introductory trainings for now.
 
 # Quest: Metallic Crops
 betterquesting.quest.PR2T5CUTQ6-IaOQd132Mzg.name=Metallic Crops
@@ -5457,7 +5425,7 @@ betterquesting.quest.gEC9Qy4fTouqNoHVUPg1dg.desc=These crops will all collect an
 
 # Quest: Tools of the Trade 4 - Reinforced Spade
 betterquesting.quest.gUpUgwhUThKRPgMQOyZ7Zw.name=Tools of the Trade 4 - Reinforced Spade
-betterquesting.quest.gUpUgwhUThKRPgMQOyZ7Zw.desc=The reinforced spade will do everything the basic spade does, but better. It further increases your chances of bonus seeds based on the resistance stat. Every ten points of resistance increases the MINIMUM seed drop by one. That means:%n%n1 resist = 10%% seed drop%n10 resist = 1 guaranteed seed drop%n15 resist = 1 guaranteed seed drop + 50%% chance for a second seed drop!%n31 resist = 3 guaranteed seed drops + 10%% chance for a fourth seed drop!!%n%nTime to scale up farmhand.
+betterquesting.quest.gUpUgwhUThKRPgMQOyZ7Zw.desc=The reinforced spade will do everything the basic spade does, but better. It further increases your chances of bonus seeds based on the resistance stat. Every ten points of resistance increases the MINIMUM seed drop by one. That means:%n%n1 Resist = 10%% seed drop%n10 Resist = 1 guaranteed seed drop%n15 Resist = 1 guaranteed seed drop + 50%% chance for a second seed drop!%n31 Resist = 3 guaranteed seed drops + 10%% chance for a fourth seed drop!!%n%nTime to scale up farmhand.%n%n[note]If you're removing a crop with your spade, sneaking will let you remove the crop without having to worry about the spade breaking the crop stick.[/note]
 
 # Quest: Space Flowers!
 betterquesting.quest.gukFWnMtTme0mcEh1VjuOw.name=Space Flowers!
@@ -5523,6 +5491,10 @@ betterquesting.quest.mWk4moL8SwKogZ2_7dQO3w.desc=Basalt dust, as with Granite du
 betterquesting.quest.mmNIDjClTYyKnhgdVsLiJg.name=Not So Evil Berries
 betterquesting.quest.mmNIDjClTYyKnhgdVsLiJg.desc=Fruits are a key part of a balanced diet too y'know.
 
+# Quest: Last Universal Common Seed
+betterquesting.quest.mpKVpvTlRUaQIX1f6bo87Q.name=Last Universal Common Seed
+betterquesting.quest.mpKVpvTlRUaQIX1f6bo87Q.desc=Before going further into CropsNH, there is but one chore I need you to do. §6To prevent future hardship, collect a fully statted 31/31/31 seed.§r%n%nThis may seem daunting at first, but with enough blood, sweat, and bonemeal (see the fertilizer quest), you can do it. I believe in you!%n%n§4Ensure you pick a species which is related via mutation pools and determinism to other Crops you want.§r If you don't know what to choose, may I suggest the Potato or Cactus crops which will give you access to the Root or Danger pools respectively.%n%nWhile there is a reason behind keeping some seeds low statted (lowering enriched fertilizer costs in machines), the time saved by working with max stat crops compared to low stat crops is just too significant to ignore.%n%n§oThis quest will accept any CropsNH seed with a perfect statline.
+
 # Quest: Multiblock Farming
 betterquesting.quest.nkcwXV0yRH-6xPEEeBWcDA.name=Multiblock Farming
 betterquesting.quest.nkcwXV0yRH-6xPEEeBWcDA.desc=Now this... this is how you show those §6B**keepers§r what's what. %n%nThe Industrial Farm (IF) is a long term, scalable, solution to Crop production. At its most basic, it will grow, harvest, and hydrate your crops, but with several upgrades and tier based size scaling, it is not a simple machine to make use of. The IF has three modes:%n%n§lInput§r - Pulls seeds and sub-soil blocks into the machine from an Input Bus.%n§lFarm§r - Grows the seeds and pushes products into an Output Bus.%n§lOutput§r - Exports the seeds and undersoil blocks from the machine into an Output Bus.%n%nYou can cycle through them in the machine menu by clicking on the mode button.%n%nTo start, you should construct the most basic IF possible. Once you've done that, place your seeds (and any relevant sub-soil blocks) into the Input Bus. %n%n[warn]Seeds that have sub-soil requirements won't be inserted into the farm unless a block of the sub-soil is also available to the machine. The sub-soil block doesn't need to be in the same Input Bus as the seeds for it to work.[/warn]§r§r%n%nOnce you've input your seeds (and sub-soil blocks), you can begin using Farm mode to grow your crops.%n%nWhen you wish to switch out seeds, enter Output mode before re-inserting the new seeds via the Input mode.%n%nThe length of your IF is controlled by the tier of your Seed Bed. An MV farm will require MV Seed Beds and therefore can only have one row of Seed Beds. This also means you can only insert one upgrade block (by replacing the wooden frame on the top layer). Each subsequent tier of Seed Bed increases the length of the machine, the base power consumption, the number of upgrades you can install and the number of seeds that can be inserted into the controller.%n%n[note]The power, water and fertilizer consumption of the industrial farm do not scale with the number of seeds inside the farm, so there is no benefit to running the farm under capacity.[/note]%n%nCrops grown in the Industrial Farm are assumed to grow in the following environment:%n- They have sky access (§l+2 Nutrient Points§r)§r%n- They have 200 water (§l+10 Nutrient Points§r)§r%n- They have 20 fertilizer (§l+2 Nutrient Points§r)§r%n  - or 200 when using the fertilizing unit (§l+10 Nutrient Points§r)%n- The biome at the location of the controller controls the biome tags and humidity with the biome tags added by the env modules (§lup to +28 Nutrient Points§r)
@@ -5539,9 +5511,9 @@ betterquesting.quest.p8eOuc12RZaZUsz21zuOXw.desc=A source of osmium.%n%nOsmianth
 betterquesting.quest.pShpNuYrTXGwFmlSMKOrqw.name=Thaumium Berries
 betterquesting.quest.pShpNuYrTXGwFmlSMKOrqw.desc=Thaumium oreberries! No trapdoor-ed crucible required.
 
-# Quest: Your First Crossbreed
-betterquesting.quest.pTDi3ejJT0O0oXr7Mq5F_Q.name=Your First Crossbreed
-betterquesting.quest.pTDi3ejJT0O0oXr7Mq5F_Q.desc=With both carrot and potato seeds in hand, you are now ready to breed your first new species of crop. Sugarcane.%n%nPlant your potato and carrot seeds next to a double crop stick placed on one of the fitting soil types shown in NEI.%n%n[warn]Always check NEI for what soil to use when breeding a new crop.[/warn]%n%nWhen breeding, it's important to ensure that the crop stick that will contain the new crop meets all the growth requirements of said new crop. [warn]Crops with special growth requirements will not appear unless all their growth requirements are met.[/warn] This includes things like soil, sub-soil, and light level.
+# Quest: Your First Deterministic Cross
+betterquesting.quest.pTDi3ejJT0O0oXr7Mq5F_Q.name=Your First Deterministic Cross
+betterquesting.quest.pTDi3ejJT0O0oXr7Mq5F_Q.desc=With both carrot and potato seeds in hand, you are now ready to deterministically breed your first new species. Sugarcane.%n%nPlant your potato and carrot seeds next to a double crop stick placed on one of the fitting soil types shown in NEI.%n%n[warn]Always check NEI for what soil to use when breeding a new crop.[/warn]%n%nWhen breeding, it's important to ensure that the crop stick that will contain the new crop meets all the growth requirements of said new crop. [warn]Crops with special growth requirements will not appear unless all their growth requirements are met.[/warn] This includes things like soil, sub-soil, and light level.
 
 # Quest: The Fertilization Unit
 betterquesting.quest.poVTqaEOSh-OPgPjEjIfww.name=The Fertilization Unit
@@ -5565,7 +5537,7 @@ betterquesting.quest.s2pEIvhuRwW0FrzqhWJabw.desc=A great source of §mstargates�
 
 # Quest: Stone from the Soil
 betterquesting.quest.sIXQIDgpQL6NweTPXL8SUw.name=Stone from the Soil
-betterquesting.quest.sIXQIDgpQL6NweTPXL8SUw.desc=Now for something a bit more complicated, Stone Lilies.%n%nThis species from the clade §oLilium§o §rproduces stone dust from its petals.%n%nTo determine how you can breed it, just check the NEI page for Stone Lily Seeds. The required prerequisite species can be obtained either by breeding, or directly from the overworld (if you are [warn]boring[/warn]).%n%nIf you're getting overwhelmed, don't worry. We will get into mutation pools shortly, but for now the important thing to note is that[note] deterministic breeding will always take priority over pool based breeding[/note]. So don't sweat the pools just yet.
+betterquesting.quest.sIXQIDgpQL6NweTPXL8SUw.desc=Now for something a bit more complicated, Stone Lilies.%n%nThis species from the clade §oLilium§o §rproduces stone dust from its petals.%n%nTo determine how you can breed it, just check the NEI page for Stone Lily Seeds. The required prerequisite species can be obtained either by breeding, or directly from the overworld (if you are [warn]boring[/warn])%n%n[note]Remember that deterministic breeding will always take priority over pool based breeding[/note]. So unless you have access to a small pool including the Stone Lily, it will likely be quicker to follow the direct path.
 
 # Quest: More Flowers
 betterquesting.quest.s_UZrRZySwi79jOnwZw3Xg.name=More Flowers
@@ -6226,172 +6198,180 @@ betterquesting.quest.tgH86mIERWKIh8OAleKrSw.desc=First available in LV, the Mob 
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAADQ.name=Building Better Bases
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAADQ.desc=Tired of torches everywhere making your base look like a loser built it? Make your base look like a winner with these quests.
 
+# Quest: Let it Glow!
+betterquesting.quest.0w2-45C7TC6rzR04zSYe8A.name=§a§lLet it Glow!
+betterquesting.quest.0w2-45C7TC6rzR04zSYe8A.desc=Chisel adds a couple new sets of glowing blocks to enhance your builds. %n%nIf you've ever seen a cool looking futuristic base on the loading screen, it likely used one of these blocks!%n%n[note]Unlike Neonite and Antiblocks, Lapis Caelestis blocks do emit light - and different colors emit different amounts of it.[/note]
+
+# Quest: Barrel Upgrades
+betterquesting.quest.5zyyh2tXQ8On53B0VtAHZw.name=§c§lBarrel Upgrades
+betterquesting.quest.5zyyh2tXQ8On53B0VtAHZw.desc=Better Barrels have tiers which increase the amount of upgrades a barrel can hold. They are mainly used to increase their storage capacity, although there are a few upgrades which give the barrels extra functionality.%n%nBarrels can only be upgraded one tier at a time, so be prepared to make lots of lower tier structural upgrades if you plan to continue using Better Barrels for your storage needs!
+
 # Quest: Building Made Easy
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACWQ.name=Building Made Easy
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACWQ.name=§c§lBuilding Made Easy
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACWQ.desc=Placing blocks by hand can be tedious. Wouldn't it be nice to be able to place blocks like "Another 9 here"? Well, good news. Get yourself some of the various building blocks, and I shall reward you with something nice.%n%nYou could also just craft it (or the better one) with unstable ingots yourself, too.%n%nYou can upgrade to the various other BBWs too.
 
 # Quest: Base Too Big? I've Got a Fix For You!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADuA.name=Base Too Big? I've Got a Fix For You!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADuA.name=§2§lBase Too Big? I've Got a Fix For You!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADuA.desc=Keeping a base spread apart for pollution or explosion prevention can really wear you out, so why not make some concrete to get around faster?%n%nHarvest some Marble and centrifuge it into Calcite, and mix up some concrete in your Mixer. Next output it into a Fluid Solidifier with a block mold to make concrete blocks.%n%nYou'll move faster on top of these blocks. They can even be turned into bricks to prevent unwanted spawns! Hint: 10 buckets of wet mix converts to exactly 160 blocks. These blocks can also be Chiseled into different varieties.
 
-# Quest: A Better Chisel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHjw.name=A Better Chisel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHjw.desc=If you want to decorate your base, you're going to need a better chisel.%n%nNormal: 256%nObsidian: 512%nDiamond: 2560%nBedrockium: 32767%n%nThey obviously get harder to make the longer they last.
+# Quest: Chisel
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHjw.name=§a§lChisel
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHjw.desc=Chisel is one of the main building mods in this pack. It adds hundreds of new blocks which will help make your base beautiful!%n%nThe mod also adds different variants of many vanilla blocks. Make a chisel to check them out!
 
 # Quest: The Right Tool for the Job
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHkA.name=The Right Tool for the Job
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHkA.name=§a§lThe Right Tool for the Job
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHkA.desc=Tinker's Construct has their own chisel tool variant, for converting Tinker blocks into different types. Not a lot of uses, but if you check NEI you can see what you can do.
 
 # Quest: Tinker's Blocks
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHkQ.name=Tinker's Blocks
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHkQ.name=§a§lTinker's Blocks
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHkQ.desc=Tinker's Construct offers a couple of useful blocks from the smeltery. Rough Brownstone takes Tin and Gravel and makes a block that lets you move a little faster. Cobblestone can be turned into Seared Stone, usable in the smeltery walls to make it larger without having to use clay.
 
 # Quest: Some Handy Uses
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHkg.name=Some Handy Uses
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHkg.desc=The TiCon chisel doesn't have a lot of uses, but here are a couple of interesting ones. Use NEI to see other options for more decorations. You can also slab these blocks if you want something monsters cannot spawn on.%n%nBrownstone roads are slightly faster than rough brownstone.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHkg.name=§a§lSome Handy Uses
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHkg.desc=The TiCon chisel doesn't have a lot of uses, but here are a couple of interesting ones. Use NEI to see other options for more decorations. You can also slab these blocks if you want something monsters cannot spawn on.%n%nYou can also use the chisel in-world on Tinkers/u0027 blocks to change them into different variants - just be aware that sometimes you can't change them back!%n%n[note]Brownstone roads are slightly faster than rough brownstone.[/note]%n%n[note]Using the chisel on seared stone allows you to turn it into seared bricks.[/note]
 
 # Quest: Chisel All the Things
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHkw.name=Chisel All the Things
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHkw.name=§2§lChisel All the Things
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHkw.desc=If, for some reason, you need to chisel a large number of items, the autochisel is what you want.
 
 # Quest: Chisel as Fast as You Can
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHlA.name=Chisel as Fast as You Can
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHlA.name=§2§lChisel as Fast as You Can
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHlA.desc=The autochisel speed is pretty slow. Craft some upgrades to make it faster.
 
 # Quest: My Ancient Enemy
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHlQ.name=My Ancient Enemy
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHlQ.name=§a§lMy Ancient Enemy
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHlQ.desc=The one place Chisel is weak is in stairs. It would be nice to have more variety, but later I'll show you how to make any block into a custom stair.%n%nYou can also search NEI for "stairs" to find stairs from other mods.
 
 # Quest: Basic Blocks
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHlg.name=Basic Blocks
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHlg.name=§a§lBasic Blocks
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHlg.desc=Chisel offers a wide variety of blocks. Searching NEI for "chisel" gives pages and pages. Here's a small sample.
 
 # Quest: Fun Party Blocks
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHlw.name=Fun Party Blocks
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHlw.name=§a§lFun Party Blocks
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHlw.desc=There's also some really funky blocks available.
 
 # Quest: Concrete and GT Stones
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHmA.name=Concrete and GT Stones
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHmA.name=§a§lConcrete and GT Stones
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHmA.desc=Chisel can also transform Concrete and GT stones into new interesting blocks. Some of the GT stone blocks will even prevent mobs from spawning on top. Concrete will let you run faster.
 
 # Quest: Basic Builder's Wand
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHmQ.name=Basic Builder's Wand
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHmQ.name=§c§lBasic Builder's Wand
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHmQ.desc=The only thing going for the stone builder's wand is that it's cheap. It doesn't offer much in special modes, and doesn't last long either. But you can make a lot!%n%nTo use, right-click on a block while holding more of that block in your inventory. An outline will show you what it will do.
 
 # Quest: Low-Tier Wand
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHmg.name=Low-Tier Wand
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHmg.name=§c§lLow-Tier Wand
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHmg.desc=The Iron wand will last longer than the stone wand, and has a few modes.
 
 # Quest: Mid-Tier Wand
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHmw.name=Mid-Tier Wand
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHmw.name=§6§lMid-Tier Wand
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHmw.desc=The next tier up wand is the Diamond wand. Has all kinds of fun modes. Just be careful using it, would hate to place a bunch of blocks accidentally!
 
 # Quest: Botany
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHoA.name=Botany
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHoA.name=§a§lBotany
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHoA.desc=The Botany mod offers more colors for blocks and glass, and simple tile patterns or more complex patterns using a Tileworker. For now, we'll make an iron trowel.%n%nThis mod will make lots of butterflies, so make sure to do your gardening underground or under glass. The butterflies will spread and infect leaves around your area, making more butterflies, causing lag.
 
 # Quest: Finding Flowers
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHoQ.name=Finding Flowers
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHoQ.name=§a§lFinding Flowers
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHoQ.desc=To start, you'll need to find some flowers. Then take your trowel and use it on some dirt blocks to turn it into soil. Next place your flowers on the soil to turn them into Botany flowers. If you've reached MV tier, check out the How to Be(e) tab for info on Genetics.
 
 # Quest: Powder Power
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHow.name=Powder Power
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHow.name=§a§lPowder Power
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHow.desc=Botany uses various powders to enhance soil properties.%n%nRaise Ph - Ash Powder, Pulp Powder%nLower Ph - Mulch Powder, Sulphur Powder%nIncrease Nutrients - Fertilizer Powder, Compost Powder
 
 # Quest: Killing Weeds and Growing Flowers
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHpA.name=Killing Weeds and Growing Flowers
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHpA.name=§a§lKilling Weeds and Growing Flowers
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHpA.desc=Nobody likes weeds. Weedkiller will keep the weeds off your soil.%n%nBone meal can be applied to germling flowers to make them mature faster.
 
 # Quest: Like Having a County Extension Office in Your Hand
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHpQ.name=Like Having a County Extension Office in Your Hand
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHpQ.name=§6§lLike Having a County Extension Office in Your Hand
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHpQ.desc=The soil meter will tell you the soil stats - how dry, how many nutrients, etc. You can amend the soil with the various powders so that it matches the requirements for your flower.
 
 # Quest: 80 New Colors to Play With
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHpg.name=80 New Colors to Play With
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHpg.name=§a§l80 New Colors to Play With
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHpg.desc=When you plant a vanilla flower, it is already mature. Cut it with shears to get a germling you can replant to make more. Break the flower to get a mature flower. Turn the flower into pigment using a crafting table.%n%nTo get crosses, plant flowers next to empty soil blocks. Keep an eye out for weeds. Eventually a small germling will start growing.%n%nRemember, do this underground or in an enclosure or your TPS will regret it.
 
 # Quest: Glass of Many Colors
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHpw.name=Glass of Many Colors
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHpw.name=§a§lGlass of Many Colors
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHpw.desc=The pigments color an amazing variety of glass. Just one warning - unlike normal glass, this glass isn't fireproof.
 
 # Quest: Ceramics
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHqA.name=Ceramics
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHqA.name=§a§lCeramics
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHqA.desc=With some clay and pigments, you can make pigmented clay. Put the pigmented clay in a furnace to get basic ceramic blocks. These blocks are great if you want an area of nice even colors.
 
 # Quest: Mortar and Tiles
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHqQ.name=Mortar and Tiles
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHqQ.name=§a§lMortar and Tiles
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHqQ.desc=To make ceramic tile patterns, you need to convert your blocks into tiles. First make mortar, and then use the mortar with your blocks in a 3 block + 1 mortar pattern in the crafting table to get ceramic tiles.
 
 # Quest: Tile Patterns
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHqg.name=Tile Patterns
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHqg.name=§a§lTile Patterns
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHqg.desc=Now that you have tiles, you can make simple tile patterns. A 2x2 of red/yellow and yellow/red makes a simple checkerboard. Using the checkerboard again in a 2x2 makes a checkerboard with smaller tiles. Use Binnie's Botany wiki page to find more patterns you can make with just tiles.
 
 # Quest: Tileworker
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHqw.name=Tileworker
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHqw.name=§2§lTileworker
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHqw.desc=The tileworker can take the single-color ceramic blocks and turn them into pretty patterned blocks.%n%nAnd contrary to the name, you use ceramic blocks here, not tiles.
 
 # Quest: Glassworker
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHrQ.name=Glassworker
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHrQ.name=§2§lGlassworker
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHrQ.desc=Want some custom glass shapes and configurations? A glassworker can provide some unique patterns to put in your windows. You'll need to make some glass fittings to hold the glass together.
 
 # Quest: Mo' Hammers Mo' Problems
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHrg.name=Mo' Hammers Mo' Problems
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHrg.name=§2§lMo' Hammers Mo' Problems
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHrg.desc=Yes indeed, time for another type of hammer. The master carpentry hammer will allow you to rotate the blocks from the various workers.%n%nSneak to rotate the blocks vertically.%n%nWhy is the lower tier hammer the master hammer? Who knows??
 
 # Quest: Panels to Cover Your...Everything
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHrw.name=Panels to Cover Your...Everything
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHrw.name=§2§lPanels to Cover Your...Everything
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHrw.desc=The panelworker will create wood flooring pieces for you to use.
 
 # Quest: Fancy Woods
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHsA.name=Fancy Woods
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHsA.name=§2§lFancy Woods
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHsA.desc=With the woodworker, you can create fancy looking types of wood blocks. You can use wood planks from Vanilla, Forestry, and Extra Trees.
 
 # Quest: Look Mom, No Torches!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHsQ.name=Look Mom, No Torches!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHsQ.name=§a§lLook Mom, No Torches!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHsQ.desc=Tired of a base using nothing but torches? This set of quests will go through the various options available to light up your beautiful base.%n%nFirst up, Railcraft lanterns. These come in stone and metallic varieties. The stone varieties don't need much to craft. One plus/minus for these lanterns is that they are solid blocks - while you cannot walk through them, they also do not fall if the surrounding blocks are removed. Search "lantern" in NEI for more varieties. They are a bit annoying to craft now, but if you check NEI you can make them pretty easily with assemblers later.
 
 # Quest: Second Saw
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHsg.name=Second Saw
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHsg.name=§a§lSecond Saw
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHsg.desc=Forge Microblocks can be really handy to make custom pieces. There are many saw tiers available. If you make me an iron one, I'll give you a diamond one.
 
 # Quest: Fancy Lanterns
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHsw.name=Fancy Lanterns
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHsw.name=§c§lFancy Lanterns
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHsw.desc=Bibliocraft offers fancy looking lanterns. Make the candles from candleberries or beeswax.
 
 # Quest: Even small Glowstone shines bright
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHtA.name=Even small Glowstone shines bright
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHtA.name=§c§lEven small Glowstone shines bright
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHtA.desc=Now that you've been to the nether and gathered Glowstone, you can use that for light as well. You can color it to make the block color change (unfortunately 1.7.10 does not support colored lights) or you can use the Forge Microblocks saw to cut it up into tiny nooks to light up areas without taking up much space.%n%nThere are also various glowing plants you can find or breed, such as glowflowers.
 
 # Quest: Basic ProjectRed Illumination
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHtQ.name=Basic ProjectRed Illumination
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHtQ.name=§2§lBasic ProjectRed Illumination
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHtQ.desc=The basic ProjectRed Illumination lamps only need an LV mixer to make. The normal version needs a redstone signal to turn on. The inverted version is on unless a redstone signal is applied.
 
 # Quest: Fancier ProjectRed Illumination
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHtg.name=Fancier ProjectRed Illumination
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHtg.name=§2§lFancier ProjectRed Illumination
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHtg.desc=The fancier ProjectRed Illumination lamps, lanterns, and fixtures require the Forming Press and Assembler to create.
 
 # Quest: ProjectRed Lights With a Purpose
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHtw.name=ProjectRed Lights With a Purpose
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHtw.name=§2§lProjectRed Lights With a Purpose
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHtw.desc=ProjectRed offers a couple of special lights that can be used as buttons. The normal buttons are always lit up. The Feedback buttons are lit up when powered by any redstone signal.
 
 # Quest: Flat Lamps
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHuA.name=Flat Lamps
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHuA.name=§2§lFlat Lamps
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHuA.desc=These simple lamps from Ztones are a nice, subdued looking lamp style. I like using them on ceilings for the "office" look.
 
 # Quest: Glowstone & Chisel torches, space rated
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHuQ.name=Glowstone & Chisel torches, space rated
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHuQ.name=§2§lGlowstone & Chisel torches, space rated
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHuQ.desc=When traveling off-world, you want the best in torches. Torches that will work in no-oxygen environments like the Moon. For that, you need glowstone torches. You can chisel these torches into a variety of torch types, also proven to work in deep space.
 
 # Quest: Lighting Up a Large Area, Without Electricity
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHug.name=Lighting Up a Large Area, Without Electricity
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHug.name=§6§lLighting Up a Large Area, Without Electricity
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHug.desc=If you have a relatively large area you need to light up without using electricity, you can use these floodlights. They can take normal furnace fuels, including blocks and compressed blocks. They do require some electronic components to make, but can send out a beam a long ways, or various cone shapes a shorter distance. Use the wrench to change modes, and shift-right-click to invert.
 
 # Quest: Lighting Up a Large Area, With Electricity
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHuw.name=Lighting Up a Large Area, With Electricity
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHuw.name=§5§lLighting Up a Large Area, With Electricity
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHuw.desc=Now that you have a vacuum freezer, you can liquefy compressed air cells and centrifuge them for rare gases. You'll need those to make the incandescent bulb for these lights. As long as they have EU, these lights can shoot a beam or do narrow or wide cones. Use the wrench to change modes, and shift-right-click to invert.%n%nIt's better to provide power to an Ender IO capacitor and then power these machines with RF, instead of powering directly with GT EU, because they don't work well with GT's EU amp system, and will draw a whole EU packet for a single RF.
 
 # Quest: EnderIO Lights
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHvA.name=EnderIO Lights
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHvA.name=§2§lEnderIO Lights
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHvA.desc=EnderIO also has its own lights. These lights have a radius of 8 blocks vs the normal 7.
 
 # Quest: BetterIO?
@@ -6399,44 +6379,48 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHvQ.name=BetterIO?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHvQ.desc=The Powered and Wireless Powered lights from EnderIO provide light up to 10 blocks away vs the normal 7 for a torch. They will require centrifuging liquid air to get the bulbs.
 
 # Quest: What's Behind Door #3?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHvg.name=What's Behind Door #3?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHvg.name=§2§lWhat's Behind Door #3?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHvg.desc=The Malisis Door Factory lets you go crazy with all kinds of ideas for custom doors.%n%nA Player Sensor is a nice way of opening a door. Better than pushing a button or stepping on a plate!%n%nMaybe you can find a use for this block mixer, it's kinda weird and doesn't work right.%n%nThere are some craftable Malisis items as well, check them out in NEI.
 
 # Quest: Build it Bigger
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHvw.name=Build it Bigger
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHvw.name=§2§lBuild it Bigger
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHvw.desc=You can build it! The Building Guide helps show you an outline of simple geometric shapes. Provide it with a redstone signal to activate.
 
 # Quest: Faster, Better, Buildi-er
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHwA.name=Faster, Better, Buildi-er
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHwA.name=§6§lFaster, Better, Buildi-er
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHwA.desc=The Enhanced Building Guide offers more features than the standard model. Most importantly, you can right-click on any white part of the block with the item you want placed and the block will place in the world. It needs a redstone signal to activate.
 
 # Quest: More Like Ouch-i-tect
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHwg.name=More Like Ouch-i-tect
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHwg.name=§a§lMore Like Ouch-i-tect
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHwg.desc=The sawbench can turn most full cube blocks into amazing shapes of various kinds.%n%nRight-click with the hammer to rotate 90 degrees. Shift-right-click with the hammer to change the orientation of the "bottom" face.%n%nThe Chisel is used to alter the structure of blocks in various ways. Some blocks automatically form connections with adjacent blocks. These connections can be disabled and re-enabled by right-clicking with a chisel near the side that you want to change.%n%nSome blocks can have a secondary material applied to them. The secondary material can be removed by right-clicking on the center of the block with a chisel.%n%nYou can also right-click on a vanilla Glass, Glass Pane, Glowstone or Ice block with a chisel to harvest the block without breaking it.
 
 # Quest: Keeping Track of Your Findings (Flowers)
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIOQ.name=Keeping Track of Your Findings (Flowers)
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIOQ.name=§6§lKeeping Track of Your Findings (Flowers)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIOQ.desc=This handy device will keep track of the flowers you have discovered so far, and their properties.
 
-# Quest: Making Sense of Spaghetti
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIWg.name=Making Sense of Spaghetti
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIWg.desc=Nobody likes an untidy base. You can craft a spray can and later fill it with Chemical Dye made from sulfuric acid to color coordinate your carpets, cables, wires, and machines. But for now, have a couple of freebies.
-
 # Quest: Carpenter's Blocks
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIcA.name=Carpenter's Blocks
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIcA.name=§a§lCarpenter's Blocks
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIcA.desc=Yet another custom block system! Carpenter's blocks are crafted blank and placed in-world, and then plain block textures applied to them. The blocks must not be Tile Entities, so Botany blocks don't work correctly with them, but GT Stones like Red Granite, and any colored clay or vanilla glass block will work. Some Chisel glass types will work, and Ztones blocks and Tinted Glass also work.%n%nThe Garage Door requires a block at the top to hang "down" from, but can pretty much be any length. A redstone signal on any block next to the Garage Door blocks will open or close the door. The open/close will propagate across multiple vertical doors, so you can set up non-square doors. Sneaking and right-clicking with an empty hand will change the door's polarity.%n%nThe pressure plates are player-only activation, making them great for doors into your base.%n%nThe hatches must be clicked on the side of a block to place. They can be handy for protecting you from crucible...byproducts.%n%nThere is a lot more block shapes possible, check NEI for "Carpenter's" to see the options.%n%nThe Chisel allows you to chisel blocks while attached to a Carpenter's block.%n%nThe Hammer allows various functions.%n%nHammer on door - changes door shape type%nSneak Hammer on door - Changes from iron to wooden behavior%nSneak Hammer on lever - Changes polarity (which direction is on/off)
 
 # Quest: Catwalks
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAM3g.name=Catwalks
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAM3g.name=§c§lCatwalks
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM3g.desc=The Catwalks Mod adds several cosmetic blocks to deck out your factory.%n%nScaffolds and Builder's Scaffolds are useful for building up in the air before you get access to flight. They can be climbed like ladders, and break instantly when punched. You will also not fall off of them if you let go of movement keys while climbing. If you right-click the Builder's Scaffold with a solid block, the scaffold will be replaced by that block.%n%nCatwalks can connect to each other to form a wide passageway. You can decorate them by attaching Caution Tape or Rope Lights, the latter provide dim lighting.%n%nCaged Ladders give you a way to move up and down without a risk of falling off. Climbing them is much faster than vanilla ladders.%n%nSupport Columns are purely decorative. They connect to each other in all directions. They also work as ladders.%n%nSturdy Rails let you run minecart tracks across gaps without supports. Right-click the Sturdy Powered Rail with a Blowtorch to power it permanently, you don't need a redstone torch. If you don't have enough distractions already, use them to build a rollercoaster!%n%nThe Blowtorch lets you remove railings or even the floor from a catwalk by right-clicking. Use it to make an opening to let you walk onto the catwalk, or if you don't know what an "OSHA violation" is. The same function can be performed by a GT or Forge-compatible wrench, so you don't actually need to make this.
 
 # Quest: Excavation Upgrade
-betterquesting.quest.Avz75EgSTdG48xI3HPGUMA.name=Excavation Upgrade
+betterquesting.quest.Avz75EgSTdG48xI3HPGUMA.name=§8§lExcavation Upgrade
 betterquesting.quest.Avz75EgSTdG48xI3HPGUMA.desc=Mining out large chunks of stone can be a huge pain when it comes to creating bases. Why not craft the excavator upgrade for your Prototype Matter Manipulator so that you have the ability to remove blocks quickly?
 
 # Quest: Crystal Shulker Box
 betterquesting.quest.DSkXvzhRSKiwFLJywGDMRg.name=§6§lCrystal Shulker Box
 betterquesting.quest.DSkXvzhRSKiwFLJywGDMRg.desc=An enhanced version of the Diamond Shulker that allows you to see the contents within.%n%nHas §n108§r slots.%n%n[note]Can be dyed![/note]
+
+# Quest: Let's get Building!
+betterquesting.quest.DrqLzppgTRWyg_ZvlVlokg.name=§a§lLet's get Building!
+betterquesting.quest.DrqLzppgTRWyg_ZvlVlokg.desc=This pack features many mods which add lots of new building blocks and/or QOL features which make building much easier.%n%nThis questline will go over a few of the major additions.
+
+# Quest: Chests Had Quite the Glow-up!
+betterquesting.quest.GenrHPJeREqkjJv6CfbeEQ.name=§c§lChests Had Quite the Glow-up!
+betterquesting.quest.GenrHPJeREqkjJv6CfbeEQ.desc=Compartments are fancy chests with extra features that make them much easier to navigate.%n%nTheir inventory is split into different folders, which can be named and color-coded. They also come with a search feature that allows you to search for items in any of the compartment's folders.%n%nThe largest compartment can store up to 400 stacks of items.%n%n[note]Place a compartment next to a crafting station for easy access to its entire storage space![/note]
 
 # Quest: Obsidian Barrel
 betterquesting.quest.KfgATF33ToiE0aYS4pp04Q.name=§6§lObsidian Barrel
@@ -6447,7 +6431,7 @@ betterquesting.quest.MbFXZcovQ1GRxQCeS2PUuw.name=§6§lObsidian Shulker Box
 betterquesting.quest.MbFXZcovQ1GRxQCeS2PUuw.desc=The portable equivalent of the Obsidian Barrel that retains it's explosion-proof qualities.%n%nHas §n108§r slots.%n%n[note]Can be dyed![/note]
 
 # Quest: Manipulator Upgrades
-betterquesting.quest.NKKa001sQ9qXBPAUEV4Vrg.name=Manipulator Upgrades
+betterquesting.quest.NKKa001sQ9qXBPAUEV4Vrg.name=§8§lManipulator Upgrades
 betterquesting.quest.NKKa001sQ9qXBPAUEV4Vrg.desc=Now that you have a Matter Manipulator... why not make it better?%n%nThese upgrades will give huge quality of life improvements when using should you choose to craft them. %n%n[note]Pay attention to the applicable tier of MM before you do so![/note]
 
 # Quest: Obsidian Chest
@@ -6459,15 +6443,19 @@ betterquesting.quest.StA9TvxxSi2n2c7wQdCAFA.name=§2§lIron Shulker Box
 betterquesting.quest.StA9TvxxSi2n2c7wQdCAFA.desc=The portable equivalent of the Iron Barrel.%n%nHas §n54§r slots.%n%n[note]Can be dyed![/note]
 
 # Quest: A Modern Technology
-betterquesting.quest.VFVruPLHQAeDthuV-s7HGQ.name=A Modern Technology
+betterquesting.quest.VFVruPLHQAeDthuV-s7HGQ.name=§a§lA Modern Technology
 betterquesting.quest.VFVruPLHQAeDthuV-s7HGQ.desc=Concrete. Eh sorry, Hempcrete! A new modern technology brought to you via the GTNH Chisel mod. All 16 colors.%n%nThere are a lot of other nice blocks in Chisel. Just type "@chisel" in NEI and look around.
+
+# Quest: Gotta Go Fast!
+betterquesting.quest.Whl2BVaRSlaTf-ky0Ih96A.name=§6§lGotta Go Fast!
+betterquesting.quest.Whl2BVaRSlaTf-ky0Ih96A.desc=Yet another block you can use to get around your base much more efficiently. Unlike concrete, you don't have to fill your floor with these to get their full benefit.%n%nYou can also stack the speed boost from both boosters and concrete for an even bigger speed boost!%n%n[note]Place your boosters 20 blocks apart - or 36 blocks if you're using concrete - for optimal boosting.[/note]
 
 # Quest: Gold Shulker Box
 betterquesting.quest.YFUK2QflT1G3_WC8XBp2Wg.name=§3§lGold Shulker Box
 betterquesting.quest.YFUK2QflT1G3_WC8XBp2Wg.desc=The portable equivalent of the Gold Barrel.%n%nHas §n81§r slots.%n%n[note]Can be dyed![/note]
 
 # Quest: Finally, Some Real Power!
-betterquesting.quest.YxYz1jL6RSWHCxMlTHeJFw.name=Finally, Some Real Power!
+betterquesting.quest.YxYz1jL6RSWHCxMlTHeJFw.name=§4§l§nFinally, Some Real Power!
 betterquesting.quest.YxYz1jL6RSWHCxMlTHeJFw.desc=The Energy Tunnel Manipulator Upgrade is incredibly useful for the heavy potential Matter Manipulator usage in UHV+. %n%nYou can now link directly with either the §5§lQuantum Link§r or a §5§lLaser Target Hatch§r for much quicker recharging. No need to rely on those slow wireless chargers any longer!
 
 # Quest: Shulker Upgrades
@@ -6479,8 +6467,16 @@ betterquesting.quest.aIt1E54yQaSOg4CMz-Xegw.name=§5§lDiamond Shulker Box
 betterquesting.quest.aIt1E54yQaSOg4CMz-Xegw.desc=The portable equivalent of the Diamond Barrel, you'll need to either upgrade your wand or take advantage of the Gold to Diamond Shulker Box Upgrade.%n%nHas §n108§r slots.%n%n[note]Can be dyed![/note]
 
 # Quest: Advanced Concrete Backfiller
-betterquesting.quest.b-YCbvcNT4uEjg2pN-H6jw.name=Advanced Concrete Backfiller
+betterquesting.quest.b-YCbvcNT4uEjg2pN-H6jw.name=§8§lAdvanced Concrete Backfiller
 betterquesting.quest.b-YCbvcNT4uEjg2pN-H6jw.desc=The §5Advanced Concrete Backfiller§r has the same general functionality as the regular one except it boasts an impressive §364§r block radius and operates at §24x§r the speed. %n%nIt's a good idea to consider using one of these as your base continues to expand across more area. Filled space saves TPS!
+
+# Quest: Building with Style
+betterquesting.quest.bIOPajWVTbiG-QQsF2Gqig.name=§a§lBuilding with Style
+betterquesting.quest.bIOPajWVTbiG-QQsF2Gqig.desc=Ztones is another mod which adds loads of new building blocks. Each craftable block also has many variants which can be made using a chisel.%n%n§cUnlike many other decorative blocks, Ztones blocks do not prevent mob spawns. Make sure you are spawnproofing your builds when using them!
+
+# Quest: High-tier Wand
+betterquesting.quest.blDDaS09R_qylY284dfxzg.name=§9§lHigh-tier Wand
+betterquesting.quest.blDDaS09R_qylY284dfxzg.desc=Do you ever wish that you were able to place 16,000 blocks with the click of a button? No??..%n%nWell now you can!%n%n[note]It's unbreakable too![/note]
 
 # Quest: Dark Steel Barrel
 betterquesting.quest.dNDuychlSiqlrMhfnEKK_w.name=§6§lDark Steel Barrel
@@ -6491,8 +6487,12 @@ betterquesting.quest.dbax1OsmRpWMg6Pt4tE_ig.name=§2§lCopper Shulker Box
 betterquesting.quest.dbax1OsmRpWMg6Pt4tE_ig.desc=The portable equivalent of the Copper Barrel.%n%nHas §n45§r slots.%n%n[note]Can be dyed![/note]
 
 # Quest: Crystal Chest
-betterquesting.quest.e-VLKN-JSRK3V2cmDbm6rw.name=§bCrystal Chest
+betterquesting.quest.e-VLKN-JSRK3V2cmDbm6rw.name=§b§lCrystal Chest
 betterquesting.quest.e-VLKN-JSRK3V2cmDbm6rw.desc=You've created a chest that allows you to see what's inside, isn't that useful?%n%n[note]Just as with the previous chests you can also upgrade with a fitting upgrade item.[/note]
+
+# Quest: Advanced Filing Cabinet
+betterquesting.quest.lM99qle-Q_uPETUSrZQDKw.name=§2§lAdvanced Filing Cabinet
+betterquesting.quest.lM99qle-Q_uPETUSrZQDKw.desc=The advanced filing cabinet can store twice as many items as the regular one, and is much less restrictive on what can be stored inside.
 
 # Quest: Silver Shulker Box
 betterquesting.quest.nc1Pqje3RIe_Yp6WoPOFzg.name=§3§lSilver Shulker Box
@@ -6503,8 +6503,16 @@ betterquesting.quest.njQqj1iCTK-64uA4HfSdVw.name=§6§lDraconic Chest
 betterquesting.quest.njQqj1iCTK-64uA4HfSdVw.desc=The Draconic Chest is a special upgrade of the compressed chest. In addition to a large inventory size and being able to retain it's contents, it has a crafting station and a furnace integrated directly into it. %n%nThe smelting module can be powered by EU or RF and has an internal buffer of it's own. It can smelt up to 5 items at a time.
 
 # Quest: Concrete Backfiller
-betterquesting.quest.uYT4jmFtQhOo5PoJLDyh-w.name=Concrete Backfiller
+betterquesting.quest.uYT4jmFtQhOo5PoJLDyh-w.name=§6§lConcrete Backfiller
 betterquesting.quest.uYT4jmFtQhOo5PoJLDyh-w.desc=Tired of all those mob noises coming from the depths? Consider making the §5Concrete Backfiller§r. This multiblock will fill the area underneath it with concrete in a §316§r block radius; patching all caves and air spots that might be lying underneath. %n%nSimply provide it with Light Concrete and let it do the rest!
+
+# Quest: Chiseling the Way Greg Intended
+betterquesting.quest.wRh-bN4UTemsx4Wskrrb6w.name=§2§lChiseling the Way Greg Intended
+betterquesting.quest.wRh-bN4UTemsx4Wskrrb6w.desc=Another way to automatically chisel blocks to your heart's content, this time sponsored by GregoriousT himself!
+
+# Quest: The Beginnings of a Humble Chest Monster
+betterquesting.quest.zOwLuytjTFS18_K1we6TOw.name=§9§lThe Beginnings of a Humble Chest Monster
+betterquesting.quest.zOwLuytjTFS18_K1we6TOw.desc=Did you really think a single chest would suffice for your storage needs? Come back when you've made at least a few.%n%n[note]You can place chests next to each other by chiseling every other chest into a trapped chest![/note]
 
 
 ## Quest Line: Forestry and Multifarms
@@ -7265,13 +7273,17 @@ betterquesting.quest.0rUmaWIPQPaL93q-_pgKXw.desc=How does one centrifuge rare ma
 betterquesting.quest.3SzKMSj0StOAOzVmInDjZQ.name=§5§lBig Beautiful Brewery
 betterquesting.quest.3SzKMSj0StOAOzVmInDjZQ.desc=Start your own local brewery with the BBB! You can use it to make tons of potions, obscure alcoholic drinks, or, more likely, industrial quantities of lubricant.
 
+# Quest: This Kinda Burns...
+betterquesting.quest.4-HZ9i5AQ4qLN7cgSDaL3Q.name=§9§lThis Kinda Burns...
+betterquesting.quest.4-HZ9i5AQ4qLN7cgSDaL3Q.desc=The §5§lIndustrial Chemical Bath§r will significantly increase the efficiency of your ore processing. It grants a §2§l5x§r speed boost and §6§l4§r parallels per voltage tier compared to its singleblock counterpart.
+
 # Quest: Fits The Mold
 betterquesting.quest.6glle46JSyuwR6O4x7mLYA.name=§9§lFits The Mold
 betterquesting.quest.6glle46JSyuwR6O4x7mLYA.desc=Making machines for every mold sounds tiring... fortunately, the Mass Solidifier multiblock can handle any number of molds by using §lSolidifier Hatches§r.%n%n[note]The Mass Solidifier also speeds up as it is running, making it more efficient to do large batches.[/note]
 
 # Quest: T2 Maceration Stack 
 betterquesting.quest.A4rEQOAXQsaa26Ib_nzkHg.name=§9§lT2 Maceration Stack 
-betterquesting.quest.A4rEQOAXQsaa26Ib_nzkHg.desc=Upgrade your Maceration Stack by replacing all the casings with Maceration Stack Casings and then placing the Upgrade Chip into the slot in the controller.%n%nThe Tier 2 Maceration stack has 4x more parallels!
+betterquesting.quest.A4rEQOAXQsaa26Ib_nzkHg.desc=Upgrade your Maceration Stack by replacing all the casings with Maceration Stack Casings and then placing the Upgrade Chip into the slot in the controller.%n%nThe §5§lTier 2§r Maceration stack has §2§l4x§r the speed and §6§l4x§r the parallels compared to the T1!
 
 # Quest: Smelt All The Things Stack-Wise...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAVQ.name=§5§lSmelt All The Things Stack-Wise...
@@ -7283,11 +7295,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABgg.desc=A multiblock forge hammer. You 
 
 # Quest: A Volcano For Your Base.
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABhQ.name=§9§lA Volcano For Your Base.
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABhQ.desc=The ultimate machine for cobblestone production. Or maybe to turn redstone into obsidian on a large scale for a renewable production of Silicon, Magnesium, Iron, and Oxygen.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABhQ.desc=The ultimate machine for cobblestone production. Or maybe to turn redstone into obsidian on a large scale for a renewable production of Silicon, Magnesium, Iron, and Oxygen.%n%nThe §5§lBoldarnator§r boasts a §2§l3x§r speed boost, §3§l25%%§r EU discount, and offers §6§l8§r parallels per voltage tier compared to the Rock Breaker.
 
 # Quest: You Smell Like a Distillery!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADAA.name=§5§lYou Smell Like a Distillery!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADAA.desc=This bad boy will tremendously boost the byproducts of your cracked fuel or pyrolyse oven. This way you can make industrial TNT, polyethylene, polytetrafluoroethylene and other plastics more efficiently. You'll also need this for the platline.%n%nYou'll need to make EV circuits in a cleanroom to build this machine.%n%nFor hatches, you can choose your own tier. 1 MV energy does most of the useful recipes. 2 MV energy or 1 HV energy hatch will cover almost all the rest.%n%nYou will need 1 input hatch, and at least 5 output hatches. An output bus will capture any solid outputs.%n%n[note]PS: I listed all the DT recipes on the spreadsheet for you to look at in a convenient format. Now you can easily compare which oil path to take![/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADAA.desc=This bad boy will tremendously boost the byproducts of your cracked fuel or pyrolyse oven. This way you can make industrial TNT, polyethylene, polytetrafluoroethylene and other plastics more efficiently. You'll also need this for the platline.%n%nYou'll need to make EV circuits in a cleanroom to build this machine.%n%nFor hatches, you can choose your own tier. 1 MV energy hatch is enough for most of the useful recipes. 2 MV energy hatches or 1 HV energy hatch will cover almost all the rest. You will also need 1 input hatch, and at least 5 output hatches. An output bus will capture any solid outputs.%n%nNEI is not great for determining which cracked fuel option is the best. Instead, visit the Oil Cracking Unit wiki page linked below for a complete list of all the fractions in a nice, convenient format!%n%n[url]https://wiki.gtnewhorizons.com/wiki/Oil_Cracking_Unit[/url]
 
 # Quest: Bring Me My Vat of Polyethylene!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADbA.name=§5§lBring Me My Vat of Polyethylene!
@@ -7295,11 +7307,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADbA.desc=Tired of using small cells to p
 
 # Quest: Hulk Smash!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjQ.name=§8§lHulk Smash!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjQ.desc=Mass destruction! Or at least, lots and lots of crushed ores. Build a maceration stack to keep up with all the ores you are getting. In IV you can upgrade the Multi to be much better with an upgrade chip and better casings.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjQ.desc=Mass destruction! Or at least, lots and lots of crushed ores. Build an §5§lIndustrial Maceration Stack§r to keep up with all the ores you are getting.%n%nThis processes items at §2§l1.6x§r the speed and with up to §6§l2§r parallels per voltage tier.%n%n[note]In IV you can upgrade the multi with an upgrade chip and better casings.[/note]
 
 # Quest: The Rocks In The Washer...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjg.name=§8§lThe Rocks In The Washer...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjg.desc=...go round and round, all the live long day. A large ore washing plant gets your rocks nice and clean. You can switch between Ore Washer and Chemical Bath modes with a screwdriver.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjg.desc=...go round and round, all the live long day. A large ore washing plant gets your rocks nice and clean. %n%nThe §5§lOre Washing Plant§r gives a §2§l5x§r speed boost and §6§l4§r parallels per voltage tier compared to its singleblock counterpart.
 
 # Quest: Dancing In Circles
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjw.name=§8§lDancing In Circles
@@ -7319,7 +7331,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7g.desc=Abuela, will you teach us the c
 
 # Quest: Play-Doh For Big Girls and Boys
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7w.name=§9§lPlay-Doh For Big Girls and Boys
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7w.desc=I never wanna grow up, I wanna play with my mega extrusion machine.%nAnd in case you didn't read the description in NEI: You can use multiple input buses with a different extruder shape in each and then throw the items to extrude into the bus with the appropriate shape.%n%nAlternatively, you can also use an Extrusion Bus. These are more expensive but come pre-loaded with all of the extruder shapes so you can manually set them without needing to create one.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7w.desc=I never wanna grow up, I wanna play with my §5§lIndustrial Extrusion Machine§r. This machine offers a §2§l3.5x§r speed boost and §6§l6§r parallels per voltage tier.%n%nYou can use multiple input buses with a different extruder shape in each and then throw the items to extrude into the bus with the appropriate shape.%n%nAlternatively, you can also use an Extrusion Bus. These are more expensive but come pre-loaded with all of the extruder shapes so you can manually set them without needing to create one.
 
 # Quest: Best Thing Since Sliced Bread
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH8A.name=§9§lBest Thing Since Sliced Bread
@@ -7343,7 +7355,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9Q.desc=Need enough wire to go around t
 
 # Quest: Bender, More Bending!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9g.name=§8§lBender, More Bending!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9g.desc=When you need plates by the thousands. You can switch between Bending Machine and Forming Press modes with a screwdriver.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9g.desc=When you need plates by the thousands you use the §5§lIndustrial Bending Machine§r. It grants §2§l6x§r the speed and §6§l6§r parallels per voltage tier compared to the singleblock.
 
 # Quest: Bezos Would Be Proud
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9w.name=§9§lBezos Would Be Proud
@@ -7359,7 +7371,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAH_Q.desc=This mega vac freezer can handl
 
 # Quest: Empty The Oceans
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIBQ.name=§9§lEmpty The Oceans
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIBQ.desc=If you stuck with fish for bio diesel this long, you can now make the Zhuhai Fishing Port to get cartloads of fish and other byproducts.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIBQ.desc=If you stuck with fish for bio diesel this long, you can now make the §5§lZhuhai Fishing Port§r to get cartloads of fish and other byproducts.
 
 # Quest: Putting All Those Workers Out of Jobs
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIBg.name=§b§lPutting All Those Workers Out of Jobs
@@ -7375,7 +7387,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKKQ.desc=You'll need all of this to crea
 
 # Quest: Cool Guys Don't Look At Explosions
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKxQ.name=§9§lCool Guys Don't Look At Explosions
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKxQ.desc=They automate them instead.%n%n[note]This multi is IV, but uses platline mats and ZPM circuits.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKxQ.desc=They automate them instead.%n%nCompared to a regular Implosion Compressor, the §5§lDensity^2§r has §2§l2x§r the speed, and gives §6§l1 + (Tier/2)§r parallels.%n%n[note]This multi is IV, but uses platline materials and ZPM circuits.[/note]
 
 # Quest: Let Me Fabricate a New Universe...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKxg.name=§b§lLet Me Fabricate a New Universe...
@@ -7403,7 +7415,7 @@ betterquesting.quest.ECDllKcSQ4SONHHfkfO0yw.desc=As you enter LuV and beyond, fe
 
 # Quest: Clean Implosions?!
 betterquesting.quest.IlCOpa8bR9WbOjSOPxZIlA.name=§4§l§nClean Implosions?!
-betterquesting.quest.IlCOpa8bR9WbOjSOPxZIlA.desc=Introducing the bigger (and better) Implosion Compressor, the Electric Implosion Compressor.%n%nThe Electric Implosion Compressor does not need any explosive and only needs electricity, isn't that very nice!%n%nFurthermore it gains extra parallels 4^(Tier - 1) based on the containment block used in the middle.%n%nTier 1: Neutronium Block%nTier 2: Infinity Block%nTier 3: transcendent Metal Block%nTier 4: Spacetime Block%nTier 5: Universium Block%n%n[note]While the structure preview shows holes in the middle, it requires the full 27 containment blocks to form, once formed the middle 5 blocks will disappear visually, but sometimes when breaking you will get them back (and sometimes you won't). [/note]%n%n[note]The minimum allowed energy hatch tier is one tier below the recipe tier, so let's start with 2 UHV energy hatches for now.[/note]
+betterquesting.quest.IlCOpa8bR9WbOjSOPxZIlA.desc=Introducing the bigger (and better) Implosion Compressor, the Electric Implosion Compressor.%n%nThe §5§lElectric Implosion Compressor§r does not need any explosive and only needs electricity, isn't that very nice!%n%nFurthermore it gains extra parallels §6§l4^(Tier - 1)§r based on the containment block used in the middle.%n%nTier 1: Neutronium Block%nTier 2: Infinity Block%nTier 3: transcendent Metal Block%nTier 4: Spacetime Block%nTier 5: Universium Block%n%n[note]The minimum allowed energy hatch tier is one tier below the recipe tier, so you'll want to start with at least 2 UHV energy hatches for now.[/note]
 
 # Quest: Extraction Point
 betterquesting.quest.Itn1KOiISHSbXzoDd2BB8w.name=§8§lExtraction Point
@@ -7420,6 +7432,10 @@ betterquesting.quest.RFgYQ7LAQD-p1gHMaeg5Sg.desc=Upon reaching the land of IV ma
 # Quest: L.A.T.E.X. Cable Coater
 betterquesting.quest.RV7RYWwgRSaI4oNfhfZljw.name=§5§lL.A.T.E.X. Cable Coater
 betterquesting.quest.RV7RYWwgRSaI4oNfhfZljw.desc=The §5L§raminated §5A§rpplication and §5T§rhermal §5E§rnclosure e§5X§rocoater (§5L.A.T.E.X.§r) is a multiblock dedicated to coating cables.%n%nYou will be making a LOT of cables during your playthrough... Why bog down your assembler when you can use the LATEX instead? The LATEX gives §2§l2x§r the speed with a §3§l15%%§r EU discount, and generously offers §6§l8§r parallels per voltage tier.%n%nIf that's not convincing enough, you also get an additive §2§l6.25%%§r rubber discount per Item Pipe Casing tier.%n%n[note]Once you eventually reach UV, you will be able to create an Elastic Singularity for additional perks![/note]
+
+# Quest: The Form of the Former Former: Reformed
+betterquesting.quest.UAy2m9SaSua5RZEb3ZENXw.name=§8§lThe Form of the Former Former: Reformed
+betterquesting.quest.UAy2m9SaSua5RZEb3ZENXw.desc=Should you require a formidable former, for formatively forming formal forms, you'll want to create an §5§lIndustrial Forming Press§r. It grants §2§l6x§r the speed and §6§l6§r parallels per voltage tier compared to the singleblock.
 
 # Quest: See You Lather
 betterquesting.quest.VJN1qfd5SjCkm7CXVd9Pag.name=§8§lSee You Lather
@@ -7656,7 +7672,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHTg.desc=The MV Combustion Generator bur
 
 # Quest: Fluid Regulator
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHZQ.name=§6§lFluid Regulator
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHZQ.desc=Turbines require precise amounts of fluids, and to moderate that you'll want a Fluid Regulator. Use the Fluid Regulator on the pipe attached to the input bus to control the rate of fluids into the turbine. To raise the fluid limit, look at the right side of the regulator and:%n%n1L - Right-click with an empty hand%n16L - Right-click with a screwdriver%n256L - Right-click with a screwdriver while sneaking%n%nTo lower the fluid limit, do the same while looking at the left side.%n%nUse the Large Turbine Calculator and the Turbine stats sheet on the spreadsheet to find what to set it to (after deciding on a fuel). At GTNH, we do the math for you! For this at least.%n%n[note]If you shift-right-click on it you can use the interface which is more precise.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHZQ.desc=Turbines require precise amounts of fluids or else they will [warn]explode[/warn]. Use the fluid regulator on the pipe attached to the input bus to control the rate of fluids into the turbine. To raise the fluid limit, look at the right side of the regulator and:%n%n1L - Right-click with an empty hand%n16L - Right-click with a screwdriver%n256L - Right-click with a screwdriver while sneaking%n%nTo lower the fluid limit, do the same while looking at the left side. [note]If you shift-right-click on it you can use the interface which is more precise.[/note]%n%nUse the GTNH Power Planner linked below to find what to set it to, after deciding on a fuel. At GTNH, we do the math for you! For this at least.%n%n[url]https://docs.google.com/spreadsheets/d/1FTFdfmY_UWbTbFOyNzARKeI90pbHvPBH6M3JHJmaC-E/edit?usp=dsharing[/url]
 
 # Quest: Gas Turbine
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHZg.name=§8§lGas Turbine
@@ -7935,8 +7951,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALjg.name=Nuclear Based Fuel (Pu)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALjg.desc=Provides 32,400EU/t output lasting 7.5s per mB.
 
 # Quest: Naquadah Fuel Refinery
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALjw.name=§b§lNaquadah Fuel Refinery
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALjw.desc=This insane machine is used to make MkIII and higher tier naquadah fuel.%n%nIt can't be overclocked by increasing the input voltage. The only way to overclock it is to use higher tier coils.%n%nIt also supports §9Tec§1Tech§r's Multi-Amp energy hatches and laser hatches.%n%nExample: The MkIV fuel requires tier 2 coils and the refinery is using tier 3 coils. This gives a perfect overclock, using 4x power and 0.25x time.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALjw.name=§4§l§nNaquadah Fuel Refinery
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALjw.desc=The §5§lNaquadah Fuel Refinery§r is used to make MkIII+ Naquadah Fuel.%n%nThe machine's overclocking ability is limited by the coil tier. Recipes can overclock up to the tier of the installed coil: Tier 1 coils allow 1 overclock above recipe tier, Tier 4 coils allow 4 overclocks above recipe tier.%n%nAdditionally, each tier of coil gives §6§l4 * Tier§r parallels.%n%nIt also supports §9Tec§1Tech§r's Multi-Amp energy hatches and laser hatches.
 
 # Quest: Tier 2 Coil
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALkA.name=Tier 2 Coil
@@ -8398,7 +8414,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALuA.desc=Alongside the Oil Drilling Rig,
 
 # Quest: Using All the Fractions
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALuQ.name=Using All the Fractions
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALuQ.desc=After getting large amounts of all the oil fractions, what can you do with them? They'll pile up in the tanks or output hatches, and the Distillation Tower stops when it fills up, unless you enable fluid voiding in the controller - in which case everything that cannot be output will just be voided instead, and it's in your best interest to avoid this waste. What do, then?%n%nFirst off, it's important to note that almost everything you get from Oil can be processed into even more things. Whether or not the step is worthwhile is a different story altogether. That said, you're free to look through NEI or the spreadsheet to decide what you want to do, and how you want to do it. The charm of a processing chain like this is that it lets you choose your own path and gives you the information to know how to best utilize it.%n%nSecond off, Oil is a major source of byproducts, many of which are needed to create various important materials. However, this isn't the only way to obtain most of them, and you might already found other sources, especially if you've dabbled in the Benzene or the Biomass chains. Which path you take is up to you.%n%nNow, for the four fractions that you get from regular Oil. Up until now, the power generation needed both Light Fuel and Heavy Fuel processing, and Refinery Gas already proved to be a good source of Ethylene. What can these be used for, in case you can build more DTs to process the cracked fluids? Roughly speaking, these are the possibilities:%n%nLight Fuel: You will most likely be using most, or all of this to make Diesel. If you do have leftovers, moderately hydro-cracking it is a good source of Propene, and lightly hydro-cracking is the best source for Octane. These two are important, but only in EV, for epoxy and powergen, specifically.%n%nHeavy Fuel: If only working with regular Oil, a lot of this will also be consumed to make Diesel. However, it's important to get more of it automated, since it can be distilled directly to make three fantastic byproducts: Toluene, Phenol and Benzene. All of them are important for progression, so make sure you pay attention to this recipe. Toluene is especially useful in HV, as you will need many buckets of it when making your first rocket to be able to get into EV.%n%nNaphtha: You could distill it in a Distillation Tower, but keep in mind that you need to build a max-height one to cover the entire recipe. However, if you do it, you will have most of the Oil byproducts automated meaning that it's worth it to tackle this challenge when you get comfortable with making lots of Stainless Steel; it also has a good burn value, so if you don't need these byproducts, it's best to just use it for power.%n%nRefinery Gas: You're probably already distilling this for Ethylene. You could switch this recipe to a Distillation Tower and an Oil Cracking Unit (see next quest) to gain more output and some useful byproducts.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALuQ.desc=After getting large amounts of all the oil fractions, what can you do with them? They'll pile up in the tanks or output hatches, and the Distillation Tower stops when it fills up, unless you enable fluid voiding in the controller - in which case everything that cannot be output will just be voided instead, and it's in your best interest to avoid this waste. What do, then?%n%nFirst off, it's important to note that almost everything you get from Oil can be processed into even more things. Whether or not the step is worthwhile is a different story altogether. That said, you're free to look through NEI or the wiki page below to decide what you want to do, and how you want to do it. The charm of a processing chain like this is that it lets you choose your own path and gives you the information to know how to best utilize it.%n%n[url]https://wiki.gtnewhorizons.com/wiki/Oil_Cracking_Unit[/url]%n%nSecond off, Oil is a major source of byproducts, many of which are needed to create various important materials. However, this isn't the only way to obtain most of them, and you might already found other sources, especially if you've dabbled in the Benzene or the Biomass chains. Which path you take is up to you.%n%nNow, for the four fractions that you get from regular Oil. Up until now, the power generation needed both Light Fuel and Heavy Fuel processing, and Refinery Gas already proved to be a good source of Ethylene. What can these be used for, in case you can build more DTs to process the cracked fluids? Roughly speaking, these are the possibilities:%n%nLight Fuel: You will most likely be using most, or all of this to make Diesel. If you do have leftovers, moderately hydro-cracking it is a good source of Propene, and lightly hydro-cracking is the best source for Octane. These two are important, but only in EV, for epoxy and powergen, specifically.%n%nHeavy Fuel: If only working with regular Oil, a lot of this will also be consumed to make Diesel. However, it's important to get more of it automated, since it can be distilled directly to make three fantastic byproducts: Toluene, Phenol and Benzene. All of them are important for progression, so make sure you pay attention to this recipe. Toluene is especially useful in HV, as you will need many buckets of it when making your first rocket to be able to get into EV.%n%nNaphtha: You could distill it in a Distillation Tower, but keep in mind that you need to build a max-height one to cover the entire recipe. However, if you do it, you will have most of the Oil byproducts automated meaning that it's worth it to tackle this challenge when you get comfortable with making lots of Stainless Steel; it also has a good burn value, so if you don't need these byproducts, it's best to just use it for power.%n%nRefinery Gas: You're probably already distilling this for Ethylene. You could switch this recipe to a Distillation Tower and an Oil Cracking Unit (see next quest) to gain more output and some useful byproducts.
 
 # Quest: Oil Cracker
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALug.name=Oil Cracker
@@ -8476,9 +8492,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALyw.desc=Gasoline is a regular fuel, as 
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALzA.name=Largest Oil Drain
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALzA.desc=One way or another, you will need to get Oil faster. Reservoirs can get really big, but the rig only pumps from a portion of them... until now. With a few stacks of Tungstensteel, you can put together the tier 4 of the Oil Rigs, and suck up all the fluid from a reservoir at once, covering the full 8x8 chunk size from a single spot.%n%nIf you need even faster Oil input, build more rigs! They'll draw from the same pool, and exhaust it together. If you put them on adjacent reservoir chunks, you can draw multiple full reservoirs at once and feed them into a central location, and this transportation becomes even easier with Ender Tanks, which are unlocked in this tier.
 
-# Quest: Buffered Dynamo
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALzQ.name=Buffered Dynamo
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALzQ.desc=Another use for a few stacks of Tungstensteel is a new, even more powerful generator, but you can't run it just yet. Just like the LCE before it, the IV generator can't be run without a dynamo hatch that is powerful enough to keep up with the output, and in this case it applies to both the boosted and unboosted modes.%n%nWhat that means is that you need an IV Buffered Dynamo Hatch. The power will be worth it.
+# Quest: Higher Capacity Dynamo
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALzQ.name=Higher Capacity Dynamo
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALzQ.desc=Another use for a few stacks of Tungstensteel is a new, even more powerful generator, but you can't run it just yet. Just like the LCE before it, the IV generator can't be run without a dynamo hatch that is powerful enough to keep up with the output, and in this case it applies to both the boosted and unboosted modes.%n%nWhat that means is that you need an IV 4A Dynamo Hatch. The power will be worth it.
 
 # Quest: Extreme Combustion Engine
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALzg.name=Extreme Combustion Engine
@@ -9437,7 +9453,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKwA.desc=Go get the schematic for tier 6
 
 # Quest: Space Pumping
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL3Q.name=Space Pumping
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL3Q.desc=At some point you may have wondered: There are these enormous gas planets in the solar system - could there be a way to "harvest" them? Indeed there is. By constructing the "Planetary Gas Siphon" multiblock, you are able to pump from the infinite supply of gas found on Jupiter, Saturn, Uranus, and Neptune. You just need to build a space station around a gas planet to get close enough to reach the gas without falling into it.%n%nDifferent gases can be extracted by pumping at different depths which is controlled by a Programmed Circuit. You need to supply (64 * depth) Mining Pipes to reach the selected depth.%n%nWhile operational, the multiblock needs d*4^(T+2) EU/t where T is the tier of the space station and d is the depth.%n%nYou can find an overview of what you can pump and where in the Tips and Tricks chapter.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL3Q.desc=At some point you may have wondered: There are these enormous gas planets in the solar system - could there be a way to "harvest" them? Indeed there is. By constructing the "Planetary Gas Siphon" multiblock, you are able to pump from the infinite supply of gas found on Jupiter, Saturn, Uranus, and Neptune. You just need to build a space station around a gas planet to get close enough to reach the gas without falling into it.%n%nDifferent gases can be extracted by pumping at different depths which is controlled by a Programmed Circuit. You need to supply (64 * depth) Mining Pipes to reach the selected depth.%n%nWhile operational, the multiblock needs §3d*4^(T+2)§r EU/t where T is the tier of the space station and d is the depth.%n%nYou do not need a minimum tier of coil to siphon particular gas types, but you will get a §2§l10%%§r speed boost per coil tier.%n%nYou probably also want a good overview of what you can get with your Planetary Gas Siphon, and the tiers of the gas giants. So here we go:%n%nJupiter (Tier 3)%n1 Hydrogen - 15000 L/s%n2 Helium - 500 L/s%n3 Nitrogen - 300 L/s%n4 Oxygen - 200 L/s%n%nSaturn (Tier 5)%n1 Hydrogen - 18000 L/s%n2 Helium - 800 L/s%n3 Oxygen - 500 L/s%n4 Liquid Oxygen - 150 L/s%n%nUranus (Tier 5)%n1 Deuterium - 5000 L/s%n2 Neon - 450 L/s%n3 Argon - 250 L/s%n4 Krypton - 100 L/s%n%nNeptune (Tier 6)%n1 Tritium - 3000 L/s%n2 Helium-3 - 500 L/s%n3 Ammonia - 400 L/s%n4 Xenon - 350 L/s
 
 # Quest: How Do I Charge This Stuff?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALIA.name=How Do I Charge This Stuff?
@@ -9924,7 +9940,7 @@ betterquesting.quest.WTIyEmzLR_mlw__SXY_iwA.desc=Sometimes you insert fluid in t
 
 # Quest: It's DA BEST
 betterquesting.quest.ZS2_l5v3R2-gh69ESL-FNQ.name=It's DA BEST
-betterquesting.quest.ZS2_l5v3R2-gh69ESL-FNQ.desc=You still need MORE recipe slots for the crafting modules?%n%nThis one will cost you §lTITANIUM§r. Are you sure about that?%n%nYes? OK...%n%nHere is the final tier of chassis: Chassis Mk5. Instead of incrementing the number of modules it can hold by 1 compared to the last tier, it straight up doubles the slots. Hopefully you think it is worth it.
+betterquesting.quest.ZS2_l5v3R2-gh69ESL-FNQ.desc=You still need MORE recipe slots for the crafting modules?%n%nYes? OK...%n%nHere is the final tier of chassis: Chassis Mk5. Instead of incrementing the number of modules it can hold by 1 compared to the last tier, it straight up doubles the slots. Hopefully you think it is worth it.
 
 # Quest: Preparin' for Requestin'
 betterquesting.quest._XiSkFhJQ8-WjqujCxBtlw.name=Preparin' for Requestin'
@@ -9986,6 +10002,10 @@ betterquesting.quest.5ObFHI5BQ5Oxv0yca7morA.desc=A brand-new tool for you, amigo
 # Quest: 16384k Fluid Component
 betterquesting.quest.5PUj-2T3QZOIq4a33qGXlA.name=16384k Fluid Component
 betterquesting.quest.5PUj-2T3QZOIq4a33qGXlA.desc=Final one (so far)
+
+# Quest: Pattern Repeater
+betterquesting.quest.8BZy7FpuSjuSYn9iA5E0RQ.name=Pattern Repeater
+betterquesting.quest.8BZy7FpuSjuSYn9iA5E0RQ.desc=The Pattern Repeater is a niche but useful tool. It allows recipes to be visible across networks.%n%nWhen two networks are linked via a repeater, you could have a pattern that lives on network A and be able to see it in network B. In practice, you could request the item from network B (using items from network B), then those items would be transferred to the pattern destination on network A, and the resulting item would end up on network B when completed.%n%nIn order to set this up, simply make a pair of Pattern Repeaters (attached to separate networks) face into one another. You can then use a wrench to toggle each to the desired mode: either Provider or Accessor. You will need one of each.%n%nThe "§5Accessor§r" side is where the original pattern should sit. It will "send" the pattern to the other network. §3(Network A in the example above)§r%n%nThe "§5Provider§r" side is where the pattern is provided to. It "receives" the incoming pattern from the other network. §3(Network B in the example above)§r
 
 # Quest: Knowing your Throughput! 
 betterquesting.quest.8RZ1YKxCQACS3_7rdoHMMA.name=Knowing your Throughput! 
@@ -10665,7 +10685,7 @@ betterquesting.quest.soyN9ODlQmmjrKEyKBNENA.desc=Works like stocking input bus b
 
 # Quest: Even More Basic Cards! 
 betterquesting.quest.suQSf7Z-QICknl3I1RfymA.name=Even More Basic Cards! 
-betterquesting.quest.suQSf7Z-QICknl3I1RfymA.desc=[quest]Overflow Void, Pattern Refiller, and Sticky Cards[/quest]%n%n§6Overflow Void Card:§r %n%nOverflow Void Cards will cause the ME Storage Cell to void excess inputs%n%n§6Pattern Refiller Card:§r %n%nThe Pattern Refiller card will refill empty patterns in your Regular Pattern and Processing Pattern Terminals.%n%n§6Sticky Card:§r %n%nSticky Cards are useful if you want your ME System to only store a filtered item in one location across your entire network. %n%n[warn]Be careful with where you use sticky cards as they can lead to your passive systems jamming. [/warn]
+betterquesting.quest.suQSf7Z-QICknl3I1RfymA.desc=[quest]Overflow Void and Sticky Cards[/quest]%n%n§6Overflow Void Card:§r %n%nOverflow Void Cards will cause the ME Storage Cell to void excess inputs.%n%n§6Sticky Card:§r %n%nSticky Cards are useful if you want your ME System to only store a filtered item in one location across your entire network.%n%n[warn]Be careful where you use sticky cards, as they can cause your passive systems to jam.[/warn]
 
 # Quest: Wireless HUBs
 betterquesting.quest.tM8pT_W3RCqZNDAovERxFg.name=Wireless HUBs
@@ -10742,7 +10762,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAB_g.desc=Also known as labware. Be prepa
 
 # Quest: Genetic Imprinter
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB_w.name=Genetic Imprinter
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAB_w.desc=With this powerful machine, you can inject gene samples, which allows you to alter any aspect of your bee, tree or butterfly. The gene sample (or pattern) will not be destroyed.%n%nThe machine has 30%% chance to downgrade pristine into ignoble and 80%% chance to kill ignoble bees.%n%nOne labware is consumed per operation.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAB_w.desc=With this powerful machine, you can inject gene samples, which allows you to alter any aspect of your bee, tree or butterfly. The gene sample (or pattern) will not be destroyed.%n%nThe machine has a 20%% chance to downgrade pristine bees into ignoble bees and a 40%% chance to kill ignoble bees.%n%nOne labware is consumed per operation.
 
 # Quest: Genetic Transposer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACAA.name=Genetic Transposer
@@ -12576,6 +12596,10 @@ betterquesting.quest.lMDEhTDISSG1u2HYaZVg9w.desc=Sanitizing Soap isn't strong en
 betterquesting.quest.q9PTMZlaR-GCnyoGNoO8Pw.name=Research Completer
 betterquesting.quest.q9PTMZlaR-GCnyoGNoO8Pw.desc=Let's face it... nobody (sane) wants to do all of their research manually!%n%nNow that you've learned how to collect nodes and create a wand recharging pedestal you can make the research completer. This quest shows the minimum required blocks but the structure can be up to 13 in length.%n%nThis machine will consume EU and eat nodes placed in the center of it in exchange for completing research notes given to it. If you're using a long machine it's highly recommended you use node stabilizers underneath your nodes to prevent them from destroying each other.%n%n[note]Of course you need to §lresearch§r the Research Completer, you'll find it in the electro-magic tools tab.[/note]
 
+# Quest: Magical Maintenance Hatch
+betterquesting.quest.u2VAsYrLRE-JvHOMy132lQ.name=Magical Maintenance Hatch
+betterquesting.quest.u2VAsYrLRE-JvHOMy132lQ.desc=Maintaining multiblocks can be a pain, especially if you prefer performing other tasks around your base.  %nTo solve this, a certain engineer developed the Magical Maintenance Hatch — a simple maintenance hatch that fixes all your maintenance problems using centi-vis.%n%nSimply attach the hatch to any multiblock and keep it within reach of a centi‑vis network. The device will consume 2500 centi‑vis of each primal aspect to resolve any maintenance problems the multiblock may develop.%n%n[note]The hatch stores 5000 centi-vis of each primal aspect. This means it takes on average 1000 ticks (50 seconds) to reach the internal buffer.[/note]%n%n[warn]If you're having trouble making it work, make sure you place the hatch near a Vis Relay or an energized node with each primal aspect.[/warn]
+
 
 ## Quest Line: Kaaami, Haaaami, ... HA!
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAGA.name=Kaaami, Haaaami, ... HA!
@@ -12870,6 +12894,10 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAAIA.desc=A treatise on magical herbo
 # Quest: Fountain Of Conjuration
 betterquesting.quest.1W0BrWncRuWbeTrPDVV99w.name=Fountain Of Conjuration
 betterquesting.quest.1W0BrWncRuWbeTrPDVV99w.desc=The Fountain of Conjuration, as I'm sincerely hoping you can guess at this point, functions exactly like the Mana Fountain and the Fountain of Alchemy, except it handles §nexclusively§r recipes that are typically done with a Conjuration Catalyst underneath a Mana Pool.%n%nIf you need any further details about it's functionality, check out the Mana Fountain quest or the Lexica Botania.%n%n[note]Reminder that this can also wall-share with any type of Mana Fountain you may currently have.[/note]
+
+# Quest: Magical Techno-Glass
+betterquesting.quest.7QI56xG-TnSlR4FA3EGzTw.name=Magical Techno-Glass
+betterquesting.quest.7QI56xG-TnSlR4FA3EGzTw.desc=After obtaining your first mana, you can craft mana glass. It can be used as a cheaper substitute for EV glass in multiblock machines, recipes, and general construction.%n%n[note]Alfglass unlocks later, at the EV+ tier and can, in turn, be used as IV-tier glass.[/note]
 
 # Quest: The Roots of Magic
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMlA.name=The Roots of Magic
@@ -14069,6 +14097,10 @@ betterquesting.quest.8BGpDDsCTrOjJ4DlZN0WQw.desc=The §5§lStreamlined Casters§
 betterquesting.quest.9B9CvQD0R8iLv-CBMTYZGQ.name=§c§lCopper Barrel
 betterquesting.quest.9B9CvQD0R8iLv-CBMTYZGQ.desc=The Copper barrel has 45 slots.
 
+# Quest: Storage For Days
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAAw.name=§9§lStorage For Days
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAAw.desc=Now that you've gotten your tools and are about to go collect a bunch of stuff, it's time to make some storage for it.%nTake some of your wood, and craft a chest. You will need 4 wood, 4 planks, and 1 flint.
+
 # Quest: Main Quests and Secondary Quests
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAABA.name=§9§lMain Quests and Secondary Quests
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAABA.desc=Now that you've made it this far, you might notice how the two new quests look different.%n%nThe quest with the jagged edges is a main quest - it is linked to other main quests by a thick line. You must complete main quests to unlock the next tier and to progress in general. If you can't progress, go back to previous tiers and look for uncompleted main quests.%n%nThe other quest is an optional quest, and is not needed to unlock new tiers. However, optional quests often introduce you to useful items or processes.%n%nWhat are the coins for? Starting in Stone Age, you can use them to purchase things in a Vending Machine.%n%nIn case you started in a bad biome, here's enough coins to purchase some saplings once you get to the Vending Machine.
@@ -14081,9 +14113,17 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAACw.desc=It's about time to craft someth
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAADg.name=§9§lWhat's That...?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAADg.desc=You've seen a lot of trees, but there are a few that look really special. You are sure that these trees are much more than just wood to build your home with or used to get charcoal. You're sure that these will be Very Important soon™.%n%nThe best place to find them is in a Magical Forest, but if you can't find one, you can try a Garden or Cherry Wood Grove. Or just randomly everywhere.%n%nIf you have trouble finding them, you can use the Vending Machine in Stone Age.
 
+# Quest: Better Storage
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAJw.name=§a§lBetter Storage
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAJw.desc=While standard chests are good for your basic items and goods, they are not ideal for storing a large amount of ore. You should build yourself some barrels in order to keep things organized.
+
 # Quest: Steam-a-licious!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAARg.name=§c§lSteam-a-licious!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAARg.desc=You've almost made it. One last crafting step is required in order to advance to Tier 1. Keep going!%n%nThis Steam Turbine generates electricity from Steam. The power source you've been using is the same, but from this point on you will generate EU, and bring it to your machines via cables, instead of bringing the Steam directly to them. Luckily, electric machines don't need an exhaust port, and they are considerably more efficient than Bronze machines.%n%nAt a later point, you will most likely switch from Steam to another fuel, though.%n%n[note]If you'd prefer to use an alternative to steam for power generation right away, there are other options available to complete this quest.[/note]
+
+# Quest: A Quite Different Storage
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAdw.name=§c§lA Quite Different Storage
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAdw.desc=Regular chests can fill up rather quickly if you happen to collect mob drops like swords and/or armor. By using a cabinet, you can store up to 270 items of the same type. Also, it doesn't need a dolly - you can break it normally and it will retain contents.%n%nPerfect for storing Forestry saplings, bees, or really anything that shares an ID but won't stack because of NBT!
 
 # Quest: Dark Steel Tools
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAjA.name=§6§lDark Steel Tools
@@ -14144,6 +14184,14 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABwA.desc=Your wooden shield is very weak
 # Quest: Your First 'Long Range' Weapon
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABwg.name=§9§lYour First 'Long Range' Weapon
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABwg.desc=You can't make a vanilla bow or Tinkers weapons yet, but you can make a spear!%n%nSome monsters will become much easier to kill with this long-range weapon.
+
+# Quest: Better Than Barrels
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAC1w.name=§a§lBetter Than Barrels
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAC1w.desc=While barrels offer a slot for a single item, drawers can have up to 4 slots each, holding 16 stacks per slot.%n%nHowever, they do come with some downsides. You won't be able to make them point up or down, and you can only access the contents from the front. The automation can use any side.
+
+# Quest: Framing Drawers
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAC2Q.name=§a§lFraming Drawers
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAC2Q.desc=Now you can really make some swaggy and §oeven fancier§r drawers by using this table, all you have to do is place some decorative blocks and it will take their texture, the TOP left is the outer square, bottom left is for the front face, and top right is for the borders. This table works with almost all decorative blocks.%n%nYou can also use machines to do the job for you.
 
 # Quest: Exploding Fluids For Power
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACFA.name=§2§lExploding Fluids For Power
@@ -14295,11 +14343,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEhA.desc=Your crossbow need some ammo to
 
 # Quest: Making Power With Your Plasma
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEsA.name=§d§lMaking Power With Your Plasma
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEsA.desc=Now that you have a reactor, it's time to utilize it to create power.%n%nThe simplest plasma you can make for power is Helium plasma, but it also provides a lot of power. Deuterium is renewable from water, and you can get Helium-3 from Endstone.%n%nHowever, you will need a way to convert the plasma into EU. To do this you will need a large plasma turbine. This will also need a dynamo hatch that can handle the power you're outputting. For Helium plasma, you will want a LuV Buffered Dynamo or above.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEsA.desc=Now that you have a reactor, it's time to utilize it to create power.%n%nThe simplest plasma you can make for power is Helium plasma, but it also provides a lot of power. Deuterium is renewable from water, and you can get Helium-3 from Endstone.%n%nHowever, you will need a way to convert the plasma into EU. To do this you will need a large plasma turbine. This will also need a dynamo hatch that can handle the power you're outputting. For Helium plasma, you will want a 4A LuV Dynamo or above.
 
 # Quest: Turbine Time
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEsQ.name=§d§lTurbine Time
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEsQ.desc=Your fancy new Large Plasma Turbine will need a rotor to go inside of it.%n%nYou can make it out of any GT material, but the best right now is NORMAL Draconium. [warn]Always test in Creative first![/warn]%n%nWhen using turbines, be careful of flow rates. To find the optimal flow rate, you divide the optimal energy flow rate listed on the turbine, by the energy value for the plasma. You can also use the Large Turbine Calculator (there's a link on the main spreadsheet, which is linked to in discord), or scan the multiblock's controller while feeding it a minimal amount of plasma to see what the optimal flow is. Make sure to use a Fluid Regulator set to this flow rate for highest fuel efficiency, or go beyond it to get more EU/t at a cost to efficiency, with Plasma Turbines being the best at retaining efficiency beyond the optimal flow.%n%nIf you go beyond the optimal flow, you will get a higher EU/t value, but less fuel efficiency, and the maximum EU/t value depends on the turbine type and its Overflow Efficiency tier. For this type of turbine, tier 1 reaches the max at 250%% of optimal flow to produce 158%% of the EU/t, tier 2 reaches the max at 400%% of optimal flow to produce 214%% of the EU/t and tier 3 reaches the max at 550%% of optimal flow to produce 301%% of the EU/t. The closer you get to this maximum, the more fuel efficiency you're throwing away.%n%nThe choice is yours!%n%n[note]For a lot of extra information on fusion, check out the new quest line called Powerful Nuclear Physics.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEsQ.desc=Your fancy new Large Plasma Turbine will need a rotor to go inside of it. You can make it out of any GT material, but the best right now is NORMAL Draconium.%n%n[warn]Always test in creative or the GTNH Power Planner (linked below) first![/warn]%n[url]https://docs.google.com/spreadsheets/d/1FTFdfmY_UWbTbFOyNzARKeI90pbHvPBH6M3JHJmaC-E/edit?usp=dsharing[/url]%n%nWhen using turbines, be careful of flow rates. To find the optimal flow rate manually, divide the optimal energy flow rate listed on the turbine, by the plasma's energy density (EU/L). You can also scan the multiblock's controller while feeding it a minimal amount of plasma to see what the optimal flow is. Make sure to use a Fluid Regulator set to this flow rate for highest fuel efficiency, or go beyond it to get more EU/t at a lower efficiency. Plasma Turbines are the best at retaining efficiency beyond the optimal flow.%n%nIf you go beyond the optimal flow, you will get a higher EU/t value, but less fuel efficiency, and the maximum EU/t value depends on the turbine type and its Overflow Efficiency tier. For this type of turbine, tier 1 reaches the max at 250%% of optimal flow to produce 158%% of the EU/t, tier 2 reaches the max at 400%% of optimal flow to produce 214%% of the EU/t and tier 3 reaches the max at 550%% of optimal flow to produce 301%% of the EU/t. The closer you get to this maximum, the more fuel efficiency you're throwing away. The choice is yours!%n%n[note]For a lot of extra information on fusion, check out the new quest line called Powerful Nuclear Physics.[/note]
 
 # Quest: All Alone in the Night
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF1w.name=§9§lAll Alone in the Night
@@ -14307,7 +14355,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAF1w.desc=Thanks to our amazing devs, you
 
 # Quest: How the Heck Do I Find Ores?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF2A.name=§a§lHow the Heck Do I Find Ores?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF2A.desc=GregTech ore generation is based on veins. Veins have a fixed height and a rectangular base.%n%nThere is a vein every 3 chunks in x and z direction. The veins typically extend into the neighboring chunks and have varying forms. The center point however is very regular. It is based on the chunk number. Look at upper left of the screen to find the chunk number. This info is displayed by InGame Info XML mod. For now, you need to see chunk info like "Chunk X: 3 Z: -2".%n%nThe 3,-2 is the chunk's address. The ore centers are located at chunk numbers of the form 3N+1 for both x and z. So, 4,7 is an ore center, as well as 10,16, -23,19, and so on. If you are in the right spot InGame Info will also say that "This is an ore chunk.".%n%nAnother useful tool is the NEI ore vein overlay which you activate by pressing F9 three times. It shows the 3x3 areas and marks the center blue.%n%nThe generation of Ore Chunks is not related to biomes.%n%nFor reading all the way, here's some iron.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF2A.desc=GregTech ore generation is based on veins. Veins have a fixed height and a rectangular base.%n%nThere is a vein every 3 chunks in x and z direction. The veins typically extend into the neighboring chunks and have varying forms. The center point however is very regular. It is based on the chunk number. Look at upper left of the screen to find the chunk number. This info is displayed by InGame Info XML mod. For now, you need to see chunk info like "Chunk X: 3 Z: -2".%n%nThe 3,-2 is the chunk's address. The ore centers are located at chunk numbers of the form 3N+1 for both x and z. So, 4,7 is an ore center, as well as 10,16, -23,19, and so on. If you are in the right spot InGame Info will also say that "This is an ore chunk.".%n%nAnother useful tool is the NEI ore vein overlay which you activate by pressing F9 three times. It shows the 3x3 areas and marks the center blue.%n%nThe generation of Ore Chunks is not related to biomes.%n%n[note]After finding an ore chunk you can view it in your JourneyMap by clicking the ore icon up top. If you are playing multiplayer and on the same team, you both should be able to see the same prospecting information.[/note]
 
 # Quest: Digging Deeper
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF2Q.name=§a§lDigging Deeper
@@ -14342,7 +14390,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFTA.name=Angel Wings - Combine!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFTA.desc=The Angel Wings aren't very protective on their own. Crafting the Infused Quantum Chestplate allows you to combine with the Angel Wings to have a functional and protective combination!%n%n[note]This is still not nearly as good as the other option, the GraviChestPlate.[/note]
 
 # Quest: Light It Up!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFWg.name=Light It Up!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFWg.name=§c§lLight It Up!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFWg.desc=The arcane lamp creates additional light sources which acts like a Torch in a sphere with a radius of 16 blocks centered on it. This will include caves or other areas behind walls. That might be useful...%n%nWhen attached to the base of an arcane bore, the arcane lamp gains an additional ability: It will light up the tunnel that the bore digs.
 
 # Quest: Pimp Your Wand Focus
@@ -14362,7 +14410,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFrA.name=Launch Controller
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFrA.desc=The Launch Controller has been modified in GTNH to provide additional functionality. If you launch from a Launch Pad with the Launch Controller set up, the countdown will be greatly reduced, and you will teleport directly to the receiving Launch Pad. It will use half the rocket's fuel up though. This is very useful on laggy servers and can act as an early teleport option if you don't like the magical solutions. You will need to set up a Rocket Launch Pad with Launch Controller and possibly a Fuel Loader on either side.%n%nIf you don't to use it for yourself, you can also try to use it for the Cargo Rocket. To use those at full capacity it is necessary to equip a Rocket Launch Pad, to send items, with:%n%nFuel Loader%nLaunch Controller%nCargo Loader%nAnd the receiving side with:%n%nFuel Loader%nLaunch Controller%nCargo Unloader%n%nIt is also possible to use Buildcraft pipes to transfer items into the Cargo loaders. Next step is to set up the Frequencies in both Launch Controllers (i.e. Set: A to target B, B to target A). Have a look at Launch Controller to set up the automated launch. The first time you have to right-click the Cargo rocket and press launch at the top right corner.
 
 # Quest: Arc Lamp
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFuA.name=Arc Lamp
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFuA.name=§8§lArc Lamp
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFuA.desc=The Arc Lamp is a very bright lamp. It is directional - meaning the light it casts is brighter in the direction it is facing. Its facing can be rotated using a standard Wrench.%n%nIncluding the Arc Lamp the brightness of blocks which are close to light sources is:%n%nRedstone Torch: 3-6%nTorch: 9-12%nBlock of Glowstone: 10-13%nArc Lamp: 13-14%n%nThe Arc Lamp can light up a fairly large area - for example a whole room - at light level 14: it is almost as bright as full sunlight.%n%nThe Arc Lamp also has the interesting property of actively repelling mobs. Not only does its light prevent mobs from spawning nearby, but it is so bright that if a mob comes close to the Arc Lamp the mob will turn around and walk away again. This mob-repellant effect is confirmed to work on: Zombies, Skeletons, Creepers, Evolved Zombies, Evolved Skeletons, Evolved Creepers. It may also work on other types of mobs (confirmation required). But it has no effect on Spiders (they are not afraid of sunlight either) or boss mobs.
 
 # Quest: Brittle But Hits Like a Sledgehammer...
@@ -14413,9 +14461,21 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHbg.desc=With a nuke, you can cause some
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHhg.name=§a§lA Quicker Way to Get Around
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHhg.desc=Are you ready for a longer trip? With your new lunch box, saddle, lead and of course a horse, we can start a small journey. Be sure to make paths over water, horses don't like going through deep water. If you get unseated in deep water, you can try getting on repeatedly and moving a small distance each time, this may be faster for small rivers. You can also try jumping over the deep parts if it isn't that big.%n%nIf you are playing single player or a local server, horses make a great way to get around. On non-local servers they can cause problems and desync if you have poor internet, or if the server doesn't have good TPS. Like all the official servers.%n%nYou can tie the lead to your horse and the fence to get it to stick around while you investigate something.
 
+# Quest: Your Mom Says to Upgrade Your Drawers
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHxA.name=§c§lYour Mom Says to Upgrade Your Drawers
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHxA.desc=There are many tiers of upgrades for storage drawers. Make some iron and gold tier upgrades and I'll give you some of the special purpose upgrades to experiment with in your base. Check NEI for more options such as Obsidian, Emerald, and Diamond upgrades.%n%n[warn]To remove upgrades, shift-right-click with an empty hand to access the drawer interface.[/warn]
+
 # Quest: Planetary Tears
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIGA.name=Planetary Tears
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIGA.desc=Indeed you will be crying over all the tiers you have to do for planets. Here is a handy reference.%n%nTier 1 - Requires Oxygen Gear%nMoon%n%nTier 2 - Requires Thermal Padding%nDeimos%nMars%nPhobos%n%nTier 3 - Requires Thermal Padding Tier 2%nAsteroids - Counts as Zero-G, because there's no planet%nCallisto%nCeres%nEuropa%nGanymede%nRoss128b - Habitable Planet (needs no Oxygen Gear/Thermal Padding)%n%nTier 4 - Requires Thermal Padding Tier 2%nIo%nMercury%nVenus - Requires SpaceSuit%n%nTier 5  Requires Thermal Padding Tier 2%nEnceladus%nMiranda%nOberon%nRoss128ba%nTitan%n%nTier 6 - Requires Thermal Padding Tier 2%nProteus%nTriton%n%nTier 7   Requires Thermal Padding Tier 2%nKuiper Belt - Also counts as Zero-G%nHaumea%nMakemake%nPluto%n%nTier 8 - Requires Thermal Padding Tier 2%nAlpha Centauri Bb - Requires SpaceSuit%nBarnarda C - Habitable Planet (needs no Oxygen Gear/Thermal Padding)%nBarnarda E%nBarnarda F%nTau Ceti E - Habitable Planet (needs no Oxygen Gear/Thermal Padding)%nVega B%n%nTier 9%nHorus - Requires Thermal Padding Tier 1%nNeper - Habitable Planet (needs no Oxygen Gear/Thermal Padding)%nMehen Belt%nMaahes%nSeth%nAnubis - Requires Thermal Padding Tier 2
+
+# Quest: Key to Your Heart
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIJw.name=§c§lKey to Your Heart
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIJw.desc=Barrels by default allow locking the barrel to a specific item, even when empty. For drawers, however, you will need to make the Drawer Key to lock its content types.%n%nDifferent keys can also be used to show/hide the item icons and labels, and protect your barrels from the thieving hands of others.
+
+# Quest: Making Sense of Spaghetti
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIWg.name=§2§lMaking Sense of Spaghetti
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIWg.desc=Nobody likes an untidy base. You can craft a spray can and later fill it with Chemical Dye made from sulfuric acid to color coordinate your carpets, cables, wires, and machines. But for now, have a couple of freebies.
 
 # Quest: Don't Put a Finger in That Socket
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIYA.name=§6§lDon't Put a Finger in That Socket
@@ -14457,6 +14517,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJZA.desc=You can hunt endermen the Vanil
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJZg.name=§9§lNumbers in the Corner?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJZg.desc=What's with the numbers in the corner? That is the In-Game Info (IGI) mod. Some of the info it gives is useful right away, some of it shines later on in progression.%n%nFor now, the most important thing it does is showing if you are in an ore chunk. Further quests will explain what it means.%n%nIf you want to hide it, type "/igi disable" in the chat. Type "/igi enable" if you want to turn it back on.%n%nThe command "/igi config" opens the configuration window to control its position, scale, and size.%n%nThe command "/xu_tps" from the mod Extra Utilities toggles numbers to measure ticktime in milliseconds and the TPS (Ticks Per Second). TPS is a measure of how well your server is running. The ideal TPS is 20.00 (meaning a ticktime of at most 50.00). If your TPS is less than 15, things are going to start lagging noticeably. At 10 or less TPS, it is going to be hard to play.%nThe tooltip shows three types of measurement: instantaneous, average, and worst-case. Each one first shows the ticktime and then the TPS in brackets.%n%nIf you need suggestions on solving TPS problems, feel free to ask for help in the GTNH Discord.%n%nWhile GTNH comes with recommended default settings, in particular when it comes to balance, there are many commands and configurations to customize your experience. They range from accessibility or debug tools to visual customization all the way to various cheats. You can find a small overview on [url]https://wiki.gtnewhorizons.com/wiki/Commands_and_Configurations[/url].
 
+# Quest: Controlling Your Drawers
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJaA.name=§5§lControlling Your Drawers
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJaA.desc=Now that you have MV Circuits and Stainless Steel, you can make the incredibly handy Drawer Controller. This block will make any drawers it connects to in a 4-block radius (including the y-axis) and 50 blocks at maximum as part of a multiblock that allows storage (and retrieval with the right setup) to any of the blocks that make it up. This will allow you to dump the contents of your mining trip into a storage system much easier. Just hold right-click on the Controller front for a second or two, and any items that match what's already in the multiblock will be deposited, while your tools and such won't. Just make sure to place your Controller last so it registers all the drawers.%n%nYou can feed into the Controller (and thus the rest of the drawers) with any kind of piping or hopper equivalent. If using it as part of a Multifarm or Mob Farm, make sure to set the contents of the drawers, and lock them with a key so that it properly stores everything in an organized manner. If the drawers' contents aren't set, it will start filling starting from the ones closest. If you wish to have more than one drawer full of an item, put a void upgrade on the drawer further from the Controller, and it will fill the first one, then the second.%n%nIf you want to go around corners, use the Trim Drawers to extend the multiblock. If you want to have a second point to dump items into, use the Controller Slave (one per multiblock, automation only). Note that you can use a key on the Controller to affect all drawers at once.%n%nOnce you have an ME Network, place a storage bus on the Controller, and the entire inventory will be accessible from the network, with both storage and retrieval. Just remember to set the priority higher than your ME Drives. If you haven't locked them yet expect all your drawers to fill with random items from your ME Network.%n%n[warn]Using the drawer controller with large amounts of I/O will tank TPS! If you're on a server, do not use drawer cubes, or expect the possibility of it being deleted or you getting banned.%n%nAdditionally, expect all non-backpack interactions to be DISABLED on the official servers. Congratulations, Drawer Cubists, you ruined it for everyone.[/warn]
+
 # Quest: Bringing the Biome to You
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJbw.name=Bringing the Biome to You
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJbw.desc=So maybe you can't find a swamp or tropical forest for your crops or bees, or maybe they're too far away so they're inconvenient to get to, or maybe your base is in a colder climate and you have to deal with the constant howls of direwolves. Instead of packing up all your stuff and moving somewhere else, why not try changing the biome? There are a couple of different ways to do so in this modpack:%n%n§§§r§lUse the Arcane Terrestrial Reformer§r%n-Requires EV Circuits, Tungstensteel, Rocket Tier III%n-Also requires Infusion, Void Metal (sufficient warp), Energized Node for CV, lots of Essentia%n-16 block radius%n-Can only change to a few specific Vanilla or Thaumcraft biomes%n-Kind of slow%n%n§lUse Ritual of Gaia's Transformation from Blood Magic§r%n-Requires Void Metal, Infusion, Tungstensteel%n-Requires getting deep into BM (and the warp that comes with it)%n-Requires 1,000,000 LP, Master Blood Orb, Tier 4 Altar and Awakened Activation Crystal%n-10 block radius, can be exactly specified with bloodstone bricks (either type)%n-Cannot specify which biome you get, you can only change the temperature/humidity within the 0.0 - 2.0 range and hope%n-Some biomes may be impossible due to limited range and overlap%n-Adjust temperature/humidity with items on 8 plinths around the Master Ritual Stone%n-Need to relog to see changes%n-Very little documentation or explanation%n-Fast%n%n§lUse the Brew of Shifting Seasons from Witcher§ry%n-Small range, depends on the level of the brew (power, not dispersal extent)%n-Biome can be exactly specified%n-Crafted using the complicated custom brew system%n-Can add different ingredients to change range of the brew%n-At min changes a single block%n-At max has about a 3 block (circular) radius%n-Instant (once you use it)%n%n§lUse the Rite of Shifting Seasons from Witchery§r%n-Requires Stainless Steel, Greatwood Scepter or better for the Distillery%n-You have to do a bunch of Witchery stuff%n-Not hard once you've done it once%n-Extremely large range, 16/32/48 block (circular) radius%n-Biome can be exactly specified%n-Sometimes fails in specific chunks%n-Very fast%n%nIf you want to know how to use the Witchery methods, please go to the Look to the edges tab to continue.%n%nPSA: The IC2&Galacticraft Terraformers only change the surface, not the biome itself.
@@ -14464,6 +14528,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJbw.desc=So maybe you can't find a swamp
 # Quest: Unlimited LP
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJlw.name=§4§l§nUnlimited LP
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJlw.desc=This orb can hold (almost) unlimited LP. It also constantly refills itself §ofor free§r while it is in your inventory, or in an altar which has some blood in it.%n%nBut you still need blood for crafting, OK? (Look into the ritual §oCry of the Eternal Soul§r for a way around this.)
+
+# Quest: Infinity Chest
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKEQ.name=§5§l§nInfinity Chest
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKEQ.desc=Stores up to 243 different items, each being able to stack up to 2,147,483,648. Useful if you want somewhere to put all those void miner ores.
 
 # Quest: UV Solar
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKGw.name=§4§l§nUV Solar
@@ -14523,19 +14591,19 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEg.desc=The Precise Assembler has two m
 
 # Quest: Industrial Coke Oven
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMOQ.name=§8§lIndustrial Coke Oven
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMOQ.desc=Your EV endeavors might push you into a GT++ multiblock, despite most of those being IV-tier. This happens because the special alloys used to put them together need to be crafted in an Alloy Blast Smelter, which is IV, but the Industrial Coke Oven (ICO) does not!%n%nWhat does it do? It's in the name, it's a really fast Coke Oven. So fast, in fact, that it can replace a few dozen Pyrolyse Ovens. It actually takes its recipes from that multi, so you also get the additional fluid, such as Charcoal Byproducts, alongside the greatly increased processing speed. The caveat is that this multi needs Titanium, Platinum, and a little bit of Tungsten. You can get unprocessed Platinum from Nickel or Meteoric Iron & you can get Tungsten from processing End Stone Dust, Ender Goo or Moon Dust.%n%nIn EV you'll have to stick to the heat resistant casing, which offers 18 parallels. When you unlock HSS-S in IV however you can upgrade to the heat proof casings for an upgrade to 30 parallels.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMOQ.desc=Your EV endeavors might push you into a GT++ multiblock, despite most of those being IV-tier. This happens because the special alloys used to put them together need to be crafted in an Alloy Blast Smelter, which is IV, but the §5§lIndustrial Coke Oven§r (ICO) does not!%n%nWhat does it do? It's in the name, it's a really fast Coke Oven. So fast, in fact, that it can replace a few dozen Pyrolyse Ovens. It actually takes its recipes from that multi, so you also get the additional fluid, such as Charcoal Byproducts, alongside the greatly increased processing speed. The caveat is that this multi needs Titanium, Platinum, and a little bit of Tungsten. You can get unprocessed Platinum from Nickel or Meteoric Iron & you can get Tungsten from processing End Stone Dust, Ender Goo or Moon Dust.%n%nIn EV you'll have to stick to the heat resistant casing, which offers §616§r parallels. When you unlock HSS-S in IV however you can upgrade to the heat proof casings for an upgrade to §632§r parallels.%n%nOptionally, you can add up to 15 slices to each Coke Oven for a boost in parallels. §6+8§r per slice when using Heat Resistant Casings, and §6+16§r per slice when using the Heat Proof Casings.%n%n[note]For now, coil tier is irrelevant to the machine's performance, but later on, upgrading to Infinity Coils+ allows for multi-amp hatches, and using Eternal Coils allows for unlimited slice addition.[/note]
 
 # Quest: Bet On The Distillus
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMQQ.name=§9§lBet On The Distillus
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMQQ.desc=IV brings forth GT++ multis, including an upgrade for the Distillation Tower called the Dangote Distillus. Its structure is exactly the same as the DT, but it requires a muffler hatch and uses a different controller with a more expensive recipe.%n%nIt's also locked behind an IV Chemical Plant, which makes it a very expensive craft if it is the only use you have for that plant.%n%nThat said, it solves the issue of DTs being slow, and those are the backbone of many renewable setups. How many quad DTs are you going to need for reliable IV/LuV power, you might ask? Just go for it.%n%n[note]You can also use it to do single block Distillery recipes that can't be done in the DT, like making Sodium Potassium. However, that requires a max height tower.[/note]
 
-# Quest: Faster Crops
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMRg.name=§6§lFaster Crops
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMRg.desc=Welcome to my ted talk, today we talk about the §6§lExtreme Industrial Greenhouse.§r%nIt is the most advanced and §l§nLAG FREE§r crop farm that will allow you to supply the amount of tea you need.%nThe machine starts at §5EV§r, but to farm IC2 crops you will need at least §dLuV§r power.%nTo see the structure, place the controller on the ground and use a structure hologram to build.%nThe glass tier limits the energy tier until [note]UV[/note]. With [note]UV[/note] glass you can have an energy tier as high as you want.%nShift-click with screwdriver to change crop type (IC2/normal), sadly you can't farm both in one machine.%nThere are 3 modes to manage your crops (change with screwdriver):%n%n§lSetup mode (input):§r%nIn this mode you can plant your crops in the machine.%nJust put them in the input bus and enable the machine with a soft mallet.%nAdditionally, you need to insert block that is required for IC2 crop to grow (if any)%nWhen the bus is empty, just disable it and change the mode.%nKeep in mind that there is limited space of slots for your crops depending on the voltage.%nWith normal crops you start with 1 slot and that multiplies by 2 every tier past §5EV§r, every slot can take 64 crops of the same type.%nWith IC2 crops you start with 4 slots and that multiplies by 4 every tier past §dLuV§r, every slot can take only 1 crop.%n%n§lSetup mode (output):§r%nThis mode allows you to move your Greenhouse or upgrade your crops.%nWhen the machine is running in this mode it will output all planted crops in the output bus.%n%n§lNormal operation:§r%nWith normal crops it is a straightforward process. Base processing time is 5 seconds, at the end of operation all crops are grown and the outputs are added to the output bus. Additionally the time is lower every tier past §5EV§r §o(The time is divided by the number of tiers past §6HV§r§o, minimum 1 second. WOW)§r%n%nIC2 crops on the other hand, are not that easy. They are normally simulated, but accelerated 32 times. Process time is 5 seconds. You can check the progress of the growing process with a tricorder.%n%nIf you want to grow your crops even faster, then you can use a fertilizer (up to §l400%% more drops§r!). Machine will take fertilizer from the input buses on start of the operation and will be applied to that operation only. Each fertilizer gives +200%% per crop in normal mode or +10%% in IC2 mode. The bonus is applied evenly on crops. Examples:%nNormal mode, 3 wheat seeds, 1 tea seeds, you insert 1 fertilizer, you will get +150%% wheat drops and +50%% tea drops.%nIC2 mode, 16 melon seed bags, you insert 64 fertilizer, you will get +40%% drops.%n%nAdditionally, all your crops need water to grow. Every single crop drinks 1000L per operation. So for example if you have planted 576 tea seeds at [note]UV[/note] voltage you will need 576000 L per second.%n%n§lLast notes:§r%nThe animation can't be disabled.%nThe lamps can be inverted.%nThe dirt must be tilled.%nIf you encounter any issue or have any suggestion please open an issue on GitHub and ping §l@kuba6000§r.%nThis MB was created to farm tea because I wanted to.
+# Quest: Faster Basic Crops
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMRg.name=§6§lFaster Basic Crops
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMRg.desc=Welcome to my ted talk, today we talk about the §6§lExtreme Industrial Greenhouse.§r%nIt is the most advanced and §l§nLAG FREE§r crop farm that will allow you to supply the amount of tea you need.%nThe machine starts at §5EV§r, and can no longer farm CropsNH crops (The Industrial Farm now handles them).%nTo see the structure, place the controller on the ground and use a structure hologram to build.%nThe glass tier limits the energy tier until [note]UV[/note]. With [note]UV[/note] glass you can have an energy tier as high as you want.%nThere are 3 modes to manage your crops (change with screwdriver):%n%n§lSetup mode (input):§r%nIn this mode you can plant your crops in the machine.%nJust put them in the input bus and enable the machine with a soft mallet.%nWhen the bus is empty, just disable it and change the mode.%nKeep in mind that there is limited space of slots for your crops depending on the voltage.%nWith normal crops you start with 1 slot and that multiplies by 2 every tier past §5EV§r, every slot can take 64 crops of the same type.%n%n§lSetup mode (output):§r%nThis mode allows you to move your Greenhouse or upgrade your crops.%nWhen the machine is running in this mode it will output all planted crops in the output bus.%n%n§lNormal operation:§r%nWith normal crops it is a straightforward process. Base processing time is 5 seconds, at the end of operation all crops are grown and the outputs are added to the output bus. Additionally the time is lower every tier past §5EV§r §o(The time is divided by the number of tiers past §6HV§r§o, minimum 1 second. WOW)§r%n%nIf you want to grow your crops even faster, then you can use a fertilizer (up to §l400%% more drops§r!). Machine will take fertilizer from the input buses on start of the operation and will be applied to that operation only. Each fertilizer gives +200%% per crop The bonus is applied evenly on crops. Examples:%nNormal mode, 3 wheat seeds, 1 tea seeds, you insert 1 fertilizer, you will get +150%% wheat drops and +50%% tea drops.%n%nAdditionally, all your crops need water to grow. Every single crop drinks 1000L per operation. So for example if you have planted 576 tea seeds at [note]UV[/note] voltage you will need 576000 L per second.%n%n§lLast notes:§r%nThe animation can't be disabled.%nThe lamps can be inverted.%nThe dirt must be tilled.%nIf you encounter any issue or have any suggestion please open an issue on GitHub and ping §l@kuba6000§r.%nThis MB was created to farm tea because I wanted to.
 
 # Quest: UV Power Per Turbine
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMXQ.name=§b§lUV Power Per Turbine
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMXQ.desc=Once you progress enough in ZPM to make ZPM Dynamo Hatches, you can increase each turbine's output to 524,288 EU/t. At this number, you'll be a lot less limited by the turbine material, and it's possible to increase the total power output of one Fusion Reactor considerably. You can cover the total Helium Plasma output from one reactor with 3 Plasma Turbines, if you choose the right materials:%n%nLarge High Durability Compound Steel 235%% 473,759 EU/t%nLarge Atomic Separation Catalyst 206%% 409,663 EU/t%nLarge Adamantium 206%% 413,280 EU/t%nLarge Draconium 175%% 220,500 EU/t (durable)%nLarge Neutronium 165%% 249,480 EU/t (very durable)%n%nThe power output and final efficiency can vary a lot, based on which turbines you're using. Some of them, like Ichorium and Neutronium, last basically forever, while others will need to be replaced from time to time but offer higher efficiency. If you want to get more power per turbine, to reach closer to the dynamo's limit, you can increase the flow of plasma to the turbine, but be careful! You can't go beyond the dynamo's limit, and you will also lose efficiency as you increase the flow amount. More concrete values for efficiency loss can be found in the Plasma Turbine quest in the LuV page.%n%nMake a normal or buffered ZPM dynamo to complete the quest.%n%n[note]Also, check out the XL Plasma Turbine.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMXQ.desc=Once you progress enough in ZPM to make ZPM Dynamo Hatches, you can increase each turbine's output to 524,288 EU/t. At this number, you'll be a lot less limited by the turbine material, and it's possible to increase the total power output of one Fusion Reactor considerably. You can cover the total Helium Plasma output from one reactor with 3 Plasma Turbines, if you choose the right materials:%n%nLarge High Durability Compound Steel 235%% 473,759 EU/t%nLarge Atomic Separation Catalyst 206%% 409,663 EU/t%nLarge Adamantium 206%% 413,280 EU/t%nLarge Draconium 175%% 220,500 EU/t (durable)%nLarge Neutronium 165%% 249,480 EU/t (very durable)%n%nThe power output and final efficiency can vary a lot, based on which turbines you're using. Some of them, like Ichorium and Neutronium, last basically forever, while others will need to be replaced from time to time but offer higher efficiency. If you want to get more power per turbine, to reach closer to the dynamo's limit, you can increase the flow of plasma to the turbine, but be careful! You can't go beyond the dynamo's limit, and you will also lose efficiency as you increase the flow amount. More concrete values for efficiency loss can be found in the Plasma Turbine quest in the LuV page.%n%n[note]Also, check out the XL Plasma Turbine.[/note]
 
 # Quest: High Temperature Gas-cooled Reactor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMbg.name=§6§lHigh Temperature Gas-cooled Reactor
@@ -14543,15 +14611,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMbg.desc=Have you heard of gas-cooled re
 
 # Quest: Two Million Turbines
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMcw.name=§2§l§nTwo Million Turbines
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMcw.desc=Hopefully, not more than a handful. The objective here is for each of them to output close to 2 million EU/t.%n%nHow can you get there? Look at the UV Dynamo Hatch's recipe and you have your new objective. When you arrive there, each turbine that is equipped with that impressive block will be able to output up to 2,097,152 EU/t, which again opens you up to new turbine opportunities. Some good choices at this point are as follows:%n%nLarge Cosmic Neutronium 225%% 1,360,800 EU/t%nLarge Ichorium 225%% 1,360,800 EU/t (very durable)%nLarge Awakened Draconium 195%% 491,400 EU/t%nLarge Trinium 185%% 1,451,840 EU/t%n%nAt this point, you might consider building more t1 Fusion Reactors to process other materials. Even if you stop the reactor you're using to generate this plasma, the EU cost of restarting it is less than 1 bucket of plasma, so it's probably not that big of a deal.%n%nMake a normal or buffered UV dynamo to complete the quest.%n%n[note]At this point, you really should be looking into the XL turbine chain, from XL supercritical to dense to normal steam.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMcw.desc=Hopefully, not more than a handful. The objective here is for each of them to output close to 2 million EU/t.%n%nHow can you get there? Look at the UV Dynamo Hatch's recipe and you have your new objective. When you arrive there, each turbine that is equipped with that impressive block will be able to output up to 2,097,152 EU/t, which again opens you up to new turbine opportunities. Some good choices at this point are as follows:%n%nLarge Cosmic Neutronium 225%% 1,360,800 EU/t%nLarge Ichorium 225%% 1,360,800 EU/t (very durable)%nLarge Awakened Draconium 195%% 491,400 EU/t%nLarge Trinium 185%% 1,451,840 EU/t%n%nAt this point, you might consider building more t1 Fusion Reactors to process other materials. Even if you stop the reactor you're using to generate this plasma, the EU cost of restarting it is less than 1 bucket of plasma, so it's probably not that big of a deal.%n%n[note]At this point, you really should be looking into the XL turbine chain, from XL supercritical to dense to normal steam.[/note]
 
 # Quest: Infinite Turbines
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMeA.name=§4§l§nInfinite Turbines
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMeA.desc=Some turbine materials are not available for you, either because you don't have the material itself or because the Dynamo Hatch in the turbine cannot handle the power output from plasma. It will be a different story in UHV, when you can once again quadruple the max output of each turbine, and also unlock Infinity as an option for turbines.%n%nHuge Infinity 300%% 6,451,200 EU/t%nHuge Infinity Catalyst 231%% 1,236,480 EU/t%n%nYes, that's basically it. You can use any material from the previous turbine quests, but when you make the t8 rocket and can mine Infinity Catalyst, these are the two options. Obviously, Infinity is much better, but also much more expensive. If you stick with fusion, you will need several of those to push through the endgame. Remember that you can input plasma beyond the optimal flow, and get more out of each turbine at the cost of fuel efficiency.%n%nMake a normal or buffered UHV dynamo to complete the quest.
-
-# Quest: Gas Planets
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMiQ.name=Gas Planets
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMiQ.desc=You probably also want a good overview of what you can get with your Planetary Gas Siphon, and the tiers of the gas giants. So here we go:%n%nJupiter (Tier 3)%n1 Hydrogen - 15000 L/s%n2 Helium - 500 L/s%n3 Nitrogen - 300 L/s%n4 Oxygen - 200 L/s%n%nSaturn (Tier 5)%n1 Hydrogen - 18000 L/s%n2 Helium - 800 L/s%n3 Oxygen - 500 L/s%n4 Liquid Oxygen - 150 L/s%n%nUranus (Tier 5)%n1 Deuterium - 5000 L/s%n2 Neon - 450 L/s%n3 Argon - 250 L/s%n4 Krypton - 100 L/s%n%nNeptune (Tier 6)%n1 Tritium - 3000 L/s%n2 Helium-3 - 500 L/s%n3 Ammonia - 400 L/s%n4 Xenon - 350 L/s
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMeA.desc=Some turbine materials are not available for you, either because you don't have the material itself or because the Dynamo Hatch in the turbine cannot handle the power output from plasma. It will be a different story in UHV, when you can once again quadruple the max output of each turbine, and also unlock Infinity as an option for turbines.%n%nHuge Infinity 300%% 6,451,200 EU/t%nHuge Infinity Catalyst 231%% 1,236,480 EU/t%n%nYes, that's basically it. You can use any material from the previous turbine quests, but when you make the t8 rocket and can mine Infinity Catalyst, these are the two options. Obviously, Infinity is much better, but also much more expensive. If you stick with fusion, you will need several of those to push through the endgame. Remember that you can input plasma beyond the optimal flow, and get more out of each turbine at the cost of fuel efficiency.
 
 # Quest: Hypogen Coil Upgrade
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkg.name=§9§l§nHypogen Coil Upgrade
@@ -14599,7 +14663,7 @@ betterquesting.quest.AVth34rQQ3iuYeQaKrsSQg.desc=The §1§lMatter Manipulator§r
 
 # Quest: Matter Manipulator MKII
 betterquesting.quest.D6AFvlXcQbqDncL9y2HXEw.name=§d§lMatter Manipulator MKII
-betterquesting.quest.D6AFvlXcQbqDncL9y2HXEw.desc=The MKII is the penultimate upgrade in the Matter Manipulator line. It is much more powerful, storing §210x§r the power, with a range of §2128 Blocks§r, and the ability to place §2256 Blocks/Second§r. In addition to all of the MKI features you now unlock §5§ltwo powerful new modes§r:%n%n- §5§lCopy / Paste§r: Copy a selection of blocks and paste it as many times as you'd like. Works best with GT & AE2.%n%n- §5§lMove§r: Similar to Copy / Paste, but will physically relocate something already built.%n%nHere is a short list of things that are copied / moved with the MM, the more complete list is on the Readme, but this should give you a general idea of how versatile it is.%n%n§3§lGregTech:§r%n- Pipe/Cable connections%n- Machine color%n- Machine front & output directions%n- Basic machine settings (auto outputs, etc)%n- Hatch settings (sorting, stack limiting, etc)%n- Multi machine settings (void protection, batch mode, etc)%n- Multi rotation%n- Covers%n- Strong redstone output%n- Custom names%n- Ghost circuits%n- Bus/hatch item/fluid lock%n- Modes (for machines that use the new mode system)%n- Data stick data%n- TecTech machine input parameters%n- ME output bus/hatch capacity%n%n§3§lAE2:§r%n- Any coloring%n- The orientation%n- The configuration%n- The upgrades%n- Custom names%n- Any stored cells (will also automatically configure cells & install their upgrades)%n- Any patterns (will encode but not decode patterns)%n- Priority Settings%n- P2P Settings%n- OreDict / Regular Filter
+betterquesting.quest.D6AFvlXcQbqDncL9y2HXEw.desc=The MKII is the penultimate upgrade in the Matter Manipulator line. It is much more powerful, storing §210x§r the power, with a range of §2128 Blocks§r, and the ability to place §2256 Blocks/Second§r. In addition to all of the MKI features you now unlock §5§ltwo powerful new modes§r:%n%n- §5§lCopy / Paste§r: Copy a selection of blocks and paste it as many times as you'd like. Works best with GT & AE2.%n%n- §5§lMove§r: Similar to Copy / Paste, but will physically relocate something already built.%n%nHere is a short list of things that are copied / moved with the MM, the more complete list is on the Readme, but this should give you a general idea of how versatile it is.%n%n§3§lGregTech:§r%n- Pipe/Cable connections%n- Machine color%n- Machine front & output directions%n- Basic machine settings (auto outputs, etc)%n- Hatch settings (sorting, stack limiting, etc)%n- Multi machine settings (void protection, batch mode, etc)%n- Multi rotation%n- Covers%n- Strong redstone output%n- Custom names%n- Ghost circuits%n- Bus/hatch item/fluid lock%n- Modes (for machines that use the new mode system)%n- Data stick data%n- TecTech machine input parameters%n- ME output bus/hatch capacity%n%n§3§lAE2:§r%n- Any coloring%n- The orientation%n- The configuration%n- The upgrades%n- Custom names%n- Any stored cells (will also automatically configure cells & install their upgrades)%n- Any patterns (will encode but not decode patterns)%n- Priority Settings%n- P2P Settings%n- OreDict / Regular Filter%n%n§9§3§lAdvanced Copy Options:§r %n%nWhen in Copy / Paste mode, the radial menu has an §5§lAdvanced Options§r sub-menu with two powerful toggles:%n  - §5§l§5§lLink to External Hubs§r: When copying wireless connectors that are linked to a hub outside of the copy region, the pasted connectors will stay linked to that original hub.%n  - §5§lAuto-P2P Interfaces§r: Replaces ME Interfaces in the copied region with P2P ME tunnels, automatically placing matching tunnels at the source for seamless item routing.
 
 # Quest: Ozonation
 betterquesting.quest.E9atHD5uR9CC0G1qEeFDmQ.name=§d§lOzonation
@@ -14687,7 +14751,7 @@ betterquesting.quest.ZUdnzN4GSxmaxY7xZIgNTg.desc=The §5Universal Collapser§r (
 
 # Quest: Matter Manipulator MKIII
 betterquesting.quest._zwtTNh-SG6B4wp221XPcQ.name=§b§lMatter Manipulator MKIII
-betterquesting.quest._zwtTNh-SG6B4wp221XPcQ.desc=The MKIII is the final upgrade in the Matter Manipulator series, and grants you access to it's most heightened capabilities. With §210x§r the EU storage as the MKII, it also boasts an §5§lunlimited§r block range and can handle placing §21024 Blocks / Second§r.%n%nThe MKIII comes with all of the features of the MKII, except now with the ability to also use the §5§lQuantum Uplink§r, though you won't be able to build that multiblock until UV.
+betterquesting.quest._zwtTNh-SG6B4wp221XPcQ.desc=The MKIII is the final upgrade in the Matter Manipulator series, and grants you access to it's most heightened capabilities. With §210x§r the EU storage as the MKII, it also boasts an §5§lunlimited§r block range and can handle placing §21024 Blocks / Second§r.%n%nThe MKIII comes with all of the features of the MKII, except now with the ability to also use the §5§lQuantum Uplink§r, though you won't be able to build that multiblock until UV.%n%n §3§lAdvanced Copy Options:§r%n%nThe MKIII unlocks an additional toggle in the §5§lAdvanced Options§r sub-menu:%n%n- §5§lAuto-Proxy CRIBs§r: Replaces Crafting Input Buses in the copied region with Crafting Input Proxies linked back to the original CRIB.
 
 # Quest: Creative Flight With MagLev
 betterquesting.quest.a-g__0y_SGyed_E6IkIrsg.name=§6§lCreative Flight With MagLev

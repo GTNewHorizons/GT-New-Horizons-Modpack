@@ -1,0 +1,80 @@
+name: Propose Questbook Change
+description: Suggest an addition, amendment, or removal of a quest.
+labels:
+  - "Status: Triage"
+  - "Type: Quest"
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form to suggest a **Quest Addition**, **Quest Amendment**, or **Quest Removal**.
+
+  - type: input
+    id: discord
+    attributes:
+      label: Your GTNH Discord Username
+      description: Leave empty if you don't have one, but this makes it easier to contact you if clarification is needed.
+      placeholder: "Example: Fake"
+
+  - type: input
+    id: version
+    attributes:
+      label: Your Pack Version
+      description: What version of the pack are you playing?
+      placeholder: "Example: 2.8.4"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: change_type
+    attributes:
+      label: Type of Questbook Change
+      description: Select the type of quest change you are suggesting. A "Quest Amendment" refers to any type of change to an existing quest whether it's to do with the title, description, task, rewards, or pre-requisites.
+      options:
+        - Quest Addition
+        - Quest Amendment
+        - Quest Removal
+      default: 1
+    validations:
+      required: true
+
+  - type: input
+    id: quest_name
+    attributes:
+      label: Quest Name
+      description: The exact name of the quest, or proposed name if making a quest addition suggestion.
+      placeholder: "Example: Your First Night"
+    validations:
+      required: true
+
+  - type: input
+    id: quest_id
+    attributes:
+      label: Quest ID
+      description: If known, provide the internal quest ID. You can copy this to clipboard by right-clicking the quest in game and selecting "Copy Quest ID".
+      placeholder: "Example: AAAAAAAAAAAAAAAAAAAAAA=="
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Your Proposal
+      description: What specific change are you proposing?
+      placeholder: "Example: The link to the spreadsheet wiki is outdated, it should be www.gtnewhorizons.com/spreadsheet."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: final
+    attributes:
+      label: Final Checklist
+      description: Please confirm the following.
+      options:
+        - label: "I believe this change would improve the overall questing experience."
+          required: true
+        - label: "I understand this suggestion may not be implemented."
+          required: true
+        - label: "I have searched the issue tracker and confirmed there is no similar issue."
+          required: true
+        - label: "I have confirmed this change has not already been implemented in the latest Questbook edition."
+          required: false
