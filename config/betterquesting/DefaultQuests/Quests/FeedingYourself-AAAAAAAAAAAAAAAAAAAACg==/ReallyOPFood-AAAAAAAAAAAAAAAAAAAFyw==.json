@@ -94,31 +94,31 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 2,
+          "Count:3": 1,
           "Damage:2": 2881,
           "OreDict:8": "foodFlour",
           "id:8": "gregtech:gt.metaitem.01"
         },
         "1:10": {
-          "Count:3": 2,
+          "Count:3": 1,
           "Damage:2": 14,
           "OreDict:8": "",
           "id:8": "Thaumcraft:ItemResource"
         },
         "2:10": {
-          "Count:3": 2,
+          "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "minecraft:sugar"
         },
         "3:10": {
-          "Count:3": 2,
+          "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "dustDraconium",
           "id:8": "DraconicEvolution:draconiumDust"
         },
         "4:10": {
-          "Count:3": 2,
+          "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "witchery:bucketspirit"
