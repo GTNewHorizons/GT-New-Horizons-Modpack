@@ -41,10 +41,10 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 10,
+          "Count:3": 4,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinSmith"
+          "id:8": "harvestcraft:plumjellysandwichItem"
         }
       }
     },
@@ -54,10 +54,10 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 4,
+          "Count:3": 10,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "harvestcraft:plumjellysandwichItem"
+          "id:8": "dreamcraft:CoinSmith"
         }
       }
     }
