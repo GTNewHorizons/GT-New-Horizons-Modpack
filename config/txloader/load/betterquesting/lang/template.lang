@@ -12840,7 +12840,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFbg.desc=The Wand Focus: Telekinesis is 
 
 # Quest: Knowledge is Power
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFbw.name=Knowledge is Power
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFbw.desc=The Wand Focus: Experience Drain will drain the player's experience at a rate of 15 XP per tick to restore vis at a rather fast rate.%n%n[note]This focus cannot be upgraded in the Focal Manipulator[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFbw.desc=The Wand Focus: Experience Drain will drain the player's experience every tick, using 15 XP to restore 5 vis to the lowest aspect in the wand.%n%n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]%n§5Frugal§r: Lowers experience cost per tick by 1 per level%n§5Potency§r: Creates 20%% more vis per level
 
 # Quest: Wand Focus Shadow Beam
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFcA.name=Wand Focus Shadow Beam

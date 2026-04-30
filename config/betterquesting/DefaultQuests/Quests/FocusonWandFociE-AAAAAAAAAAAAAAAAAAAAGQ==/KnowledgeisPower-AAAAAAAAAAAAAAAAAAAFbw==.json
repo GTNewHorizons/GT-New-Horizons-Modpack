@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The Wand Focus: Experience Drain will drain the player\u0027s experience at a rate of 15 XP per tick to restore vis at a rather fast rate.\n\n[note]This focus cannot be upgraded in the Focal Manipulator[/note]",
+      "desc:8": "The Wand Focus: Experience Drain will drain the player\u0027s experience every tick, using 15 XP to restore 5 vis to the lowest aspect in the wand.\n\n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]\n§5Frugal§r: Lowers experience cost per tick by 1 per level\n§5Potency§r: Creates 20% more vis per level",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
