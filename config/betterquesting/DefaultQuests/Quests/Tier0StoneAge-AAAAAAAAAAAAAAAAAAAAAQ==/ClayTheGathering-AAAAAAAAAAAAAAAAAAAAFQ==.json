@@ -36,19 +36,6 @@
   "questIDLow:4": 21,
   "rewards:9": {
     "0:10": {
-      "ignoreDisabled:1": 0,
-      "index:3": 0,
-      "rewardID:8": "bq_standard:item",
-      "rewards:9": {
-        "0:10": {
-          "Count:3": 10,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "minecraft:clay_ball"
-        }
-      }
-    },
-    "1:10": {
       "choices:9": {
         "0:10": {
           "Count:3": 16,
@@ -73,9 +60,22 @@
       "index:3": 1,
       "rewardID:8": "bq_standard:choice"
     },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 3,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 10,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:clay_ball"
+        }
+      }
+    },
     "2:10": {
       "ignoreDisabled:1": 0,
-      "index:3": 2,
+      "index:3": 4,
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
