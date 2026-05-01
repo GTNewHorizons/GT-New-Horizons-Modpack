@@ -474,7 +474,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAMQ.desc=In order to get more machines, 
 
 # Quest: Macerator v1.0!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAMg.name=§c§lMacerator v1.0!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAMg.desc=Finally you are able to make a device that will replace your mortar. However, the "no-durability" feature of this device comes with a cost: You need 2 diamonds for the grinding heads.%n%nThe macerator will double your ore output. Put ores through it instead of smelting directly.%n%n§3NOTE: Remember, don't block the output port and don't stand behind it.§r
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAMg.desc=Finally you are able to make a device that will replace your mortar. However, the "no-durability" feature of this device comes with a cost: You need 2 diamonds for the grinding heads.%n%nThe macerator will double your ore output. Put ores through it instead of smelting directly.%n%n§3NOTE: Remember, don't block the output port and don't stand behind it.§r%n%n[warn]The Steam Macerator and each tier up to HV only have one output slot, so they cannot produce bonus outputs![/warn]
 
 # Quest: Extracting Stuff
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAMw.name=§c§lExtracting Stuff
@@ -847,7 +847,7 @@ betterquesting.quest.53iZp0DzRzidBo4-kUsWGg.desc=A feat of human engineering at 
 
 # Quest: Certus Quartz Tank
 betterquesting.quest.7S9hEFF5TsW3ud7wK8_wVQ.name=§2§lCertus Quartz Tank
-betterquesting.quest.7S9hEFF5TsW3ud7wK8_wVQ.desc=Finally, a cool looking tank! It can store up to §932,000 L§r, just like the Ultra Low Voltage Fluid Tank or Large Aluminium Fluid Cell, and comes with some nice QoL features:%n%n- They stack up to 64 items per slot, making it possible to store §92,048,000 L§r in a single slot!%n%n- Tanks can be placed on top of each other to form a connected tower. When filling higher tanks, the fluid will automatically flow down. You can also drain fluid from higher tanks even if the fluid is only stored in tanks below.%n%n- You can use an §lEmpty Cell§r, a §lLarge Fluid Cell§r or any other §lfluid container§r to fill or drain a tank on right click. If the fluid container in your hand is not empty, right-click will always try to fill the tank from it.%n%n[warn]§lNote: The tank keeps its contents only when right-clicked with a wrench. Breaking it with a pickaxe will void the stored fluid.§r[/warn]
+betterquesting.quest.7S9hEFF5TsW3ud7wK8_wVQ.desc=Finally, a cool looking tank! It can store up to §932,000 L§r, just like the Ultra Low Voltage Fluid Tank or Large Aluminium Fluid Cell, and comes with some nice QoL features:%n%n- They stack up to 64 items per slot, making it possible to store §92,048,000 L§r in a single slot!%n%n- Tanks can be placed on top of each other to form a connected tower. When filling higher tanks, the fluid will automatically flow down. You can also drain fluid from higher tanks even if the fluid is only stored in tanks below.%n%n- You can use an §lEmpty Cell§r, a §lLarge Fluid Cell§r or any other §lfluid container§r to fill or drain a tank on right click. If the fluid container in your hand is not empty, right-click will always try to fill the tank from it.%n%n[warn]Note: The tank keeps its contents only when right-clicked with a wrench. %nBreaking it with a pickaxe will void the stored fluid.[/warn]
 
 # Quest: Welcome to Tier 1, LV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAWA.name=§2§lWelcome to Tier 1, LV
