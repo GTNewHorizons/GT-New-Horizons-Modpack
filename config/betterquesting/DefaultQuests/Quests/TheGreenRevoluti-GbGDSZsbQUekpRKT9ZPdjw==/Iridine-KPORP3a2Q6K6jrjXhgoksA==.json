@@ -22,7 +22,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Iridine leaves will 4x your iridium ore.",
+      "desc:8": "A source of iridium.\n\nIridine leaves will 4x your iridium ore.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -57,6 +57,12 @@
           "Damage:2": 51,
           "OreDict:8": "",
           "id:8": "enhancedlootbags:lootbag"
+        },
+        "1:10": {
+          "Count:3": 16,
+          "Damage:2": 84,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockores2"
         }
       }
     }

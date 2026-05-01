@@ -43,41 +43,6 @@
       "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
-      "index:3": 0,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 1,
-          "Damage:2": 2581,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
-        }
-      },
-      "taskID:8": "bq_standard:optional_retrieval"
-    },
-    "1:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 1,
-      "requiredFluids:9": {
-        "0:10": {
-          "Amount:3": 144,
-          "FluidName:8": "molten.titansteel"
-        },
-        "1:10": {
-          "Amount:3": 1000,
-          "FluidName:8": "supercoolant"
-        }
-      },
-      "taskID:8": "bq_standard:fluid"
-    },
-    "2:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
       "index:3": 2,
       "partialMatch:1": 1,
       "requiredItems:9": {

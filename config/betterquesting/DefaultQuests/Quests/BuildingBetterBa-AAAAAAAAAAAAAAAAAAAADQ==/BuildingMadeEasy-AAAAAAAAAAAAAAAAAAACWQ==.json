@@ -2,6 +2,10 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
+      "questIDLow:4": 1945
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
       "questIDLow:4": 44
     }
   },
@@ -20,7 +24,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Building Made Easy",
+      "name:8": "§c§lBuilding Made Easy",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

@@ -1,6 +1,10 @@
 {
   "preRequisites:9": {
     "0:10": {
+      "questIDHigh:4": 1061314381668699413,
+      "questIDLow:4": -5583348153901815662
+    },
+    "1:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 74
     }
@@ -20,7 +24,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Tinker\u0027s Blocks",
+      "name:8": "§a§lTinker\u0027s Blocks",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

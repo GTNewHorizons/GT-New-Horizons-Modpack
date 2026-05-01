@@ -22,7 +22,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Platina leaves will 4x your plat line ores.",
+      "desc:8": "A source of platinum.\n\nPlatina leaves will 4x your plat line ores.\n\n[note]Using Platina will create a surplus of aqua regia if you just use it in your existing plat line, you\u0027ll need some extra infrastructure to handle the excess.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -57,6 +57,12 @@
           "Damage:2": 51,
           "OreDict:8": "",
           "id:8": "enhancedlootbags:lootbag"
+        },
+        "1:10": {
+          "Count:3": 16,
+          "Damage:2": 85,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockores2"
         }
       }
     }

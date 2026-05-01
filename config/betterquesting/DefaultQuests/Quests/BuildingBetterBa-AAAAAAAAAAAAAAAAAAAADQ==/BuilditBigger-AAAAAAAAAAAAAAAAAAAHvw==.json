@@ -7,6 +7,10 @@
     "1:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 98
+    },
+    "2:10": {
+      "questIDHigh:4": 1061314381668699413,
+      "questIDLow:4": -5583348153901815662
     }
   },
   "properties:10": {
@@ -24,7 +28,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Build it Bigger",
+      "name:8": "§2§lBuild it Bigger",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

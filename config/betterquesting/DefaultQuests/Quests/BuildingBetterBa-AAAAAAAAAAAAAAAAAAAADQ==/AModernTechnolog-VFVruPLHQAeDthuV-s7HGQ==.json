@@ -2,6 +2,10 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
+      "questIDLow:4": 1944
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
       "questIDLow:4": 731
     }
   },
@@ -19,7 +23,7 @@
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "A Modern Technology",
+      "name:8": "§a§lA Modern Technology",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

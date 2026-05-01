@@ -22,7 +22,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Stargatium leaves will 4x your naquadah ore.",
+      "desc:8": "A great source of §mstargates§r naquadah.\n\nStargatium leaves will 4x your naquadah ore.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -65,6 +65,12 @@
               }
             }
           }
+        },
+        "1:10": {
+          "Count:3": 16,
+          "Damage:2": 324,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockores2"
         }
       }
     }

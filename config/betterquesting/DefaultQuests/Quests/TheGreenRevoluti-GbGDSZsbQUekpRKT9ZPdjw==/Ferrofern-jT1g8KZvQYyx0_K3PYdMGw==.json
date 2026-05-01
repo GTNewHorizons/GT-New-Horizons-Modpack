@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Ferrofern leaves will 4x your iron ore.",
+      "desc:8": "A great source of iron.\n\nFerrofern leaves will 4x your iron ore.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -43,6 +43,12 @@
           "Damage:2": 51,
           "OreDict:8": "",
           "id:8": "enhancedlootbags:lootbag"
+        },
+        "1:10": {
+          "Count:3": 16,
+          "Damage:2": 32,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockores2"
         }
       }
     }

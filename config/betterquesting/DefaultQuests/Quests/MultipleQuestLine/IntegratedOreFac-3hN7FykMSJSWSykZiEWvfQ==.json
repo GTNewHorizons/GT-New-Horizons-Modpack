@@ -48,12 +48,83 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 1132,
+          "Damage:2": 15564,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }
       },
       "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 462,
+          "Damage:2": 7,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings8"
+        },
+        "1:10": {
+          "Count:3": 161,
+          "Damage:2": 1,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings4"
+        },
+        "2:10": {
+          "Count:3": 96,
+          "Damage:2": 84,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.sheetmetal"
+        },
+        "3:10": {
+          "Count:3": 90,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "bartworks:BW_GlasBlocks"
+        },
+        "4:10": {
+          "Count:3": 23,
+          "Damage:2": 306,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockframes"
+        },
+        "5:10": {
+          "Count:3": 7,
+          "Damage:2": 4,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings2"
+        },
+        "6:10": {
+          "Count:3": 7,
+          "Damage:2": 6,
+          "OreDict:8": "",
+          "id:8": "miscutils:gtplusplus.blockcasings.2"
+        },
+        "7:10": {
+          "Count:3": 7,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "miscutils:miscutils.blockcasings"
+        },
+        "8:10": {
+          "Count:3": 7,
+          "Damage:2": 10,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings3"
+        },
+        "9:10": {
+          "Count:3": 1,
+          "Damage:2": 91,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

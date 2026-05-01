@@ -8,11 +8,11 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "...go round and round, all the live long day. A large ore washing plant gets your rocks nice and clean. You can switch between Ore Washer and Chemical Bath modes with a screwdriver.",
+      "desc:8": "...go round and round, all the live long day. A large ore washing plant gets your rocks nice and clean. \n\nThe §5§lOre Washing Plant§r gives a §2§l5x§r speed boost and §6§l4§r parallels per voltage tier compared to its singleblock counterpart.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 850,
+        "Damage:2": 15550,
         "OreDict:8": "",
         "id:8": "gregtech:gt.blockmachines"
       },
@@ -91,7 +91,7 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 850,
+          "Damage:2": 15550,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }
@@ -107,18 +107,41 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 67,
+          "Count:3": 84,
           "Damage:2": 4,
           "OreDict:8": "",
           "id:8": "miscutils:gtplusplus.blockcasings.2"
         },
         "1:10": {
+          "Count:3": 15,
+          "Damage:2": 305,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockframes"
+        },
+        "2:10": {
+          "Count:3": 7,
+          "Damage:2": 3,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings2"
+        },
+        "3:10": {
           "Count:3": 1,
           "Damage:2": 91,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
-        },
-        "2:10": {
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 3,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
           "Count:3": 1,
           "Damage:2": 31071,
           "OreDict:8": "",

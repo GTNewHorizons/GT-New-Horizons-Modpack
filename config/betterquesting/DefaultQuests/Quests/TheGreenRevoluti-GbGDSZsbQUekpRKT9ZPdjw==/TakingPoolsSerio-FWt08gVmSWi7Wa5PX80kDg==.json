@@ -1,0 +1,56 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -7308614700963117754,
+      "questIDLow:4": -8061024007119815443
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "With that 31/31/31 seed now in hand you will (ideally) §lnever have to complete \nthe entire statting process again. §r\n\nOnce replicated, you can cross this perfect seed with itself (keep them fertilized!) to access the pools that it has access to! §c§c§4§nThis is the intended path for early game crop discovery. §rWhile it is much more random than deterministic breeding, it will let you collect a wider range of species quicker.\n\nKeep in mind that: when pool breeding occurs, the offspring has a chance to be any crop found within any of the pools shared by 2 or more of the parent crops.§lThe mutation selection occurs prior to the check for enviroment. §rIn practice this means that if you\u0027re searching for a specific species in say, the Food pool, it will take much longer to appear than one in the Reed pool because there are fewer alternative species. [warn]No matter the environment.[/warn]\n\nOnce you\u0027ve gotten your hands on a solid number of species, deterministic breeding becomes a simpler and more effective method for obtaining new species.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:water_bucket"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Taking Pools Seriously",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 1543455880126024040,
+  "questIDLow:4": -4946731059756850162,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:CoinFarmer"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

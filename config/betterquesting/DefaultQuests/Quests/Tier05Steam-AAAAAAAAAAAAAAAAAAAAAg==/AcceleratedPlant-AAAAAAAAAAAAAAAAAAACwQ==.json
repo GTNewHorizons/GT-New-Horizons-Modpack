@@ -36,19 +36,6 @@
   "questIDLow:4": 705,
   "rewards:9": {
     "0:10": {
-      "ignoreDisabled:1": 0,
-      "index:3": 0,
-      "rewardID:8": "bq_standard:item",
-      "rewards:9": {
-        "0:10": {
-          "Count:3": 4,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "harvestcraft:supremepizzaItem"
-        }
-      }
-    },
-    "1:10": {
       "choices:9": {
         "0:10": {
           "Count:3": 8,
@@ -67,22 +54,35 @@
       "index:3": 1,
       "rewardID:8": "bq_standard:choice"
     },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 3,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "harvestcraft:supremepizzaItem"
+        }
+      }
+    },
     "2:10": {
       "ignoreDisabled:1": 0,
-      "index:3": 2,
+      "index:3": 4,
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
           "Count:3": 10,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinForestry"
+          "id:8": "dreamcraft:CoinFarmer"
         },
         "1:10": {
           "Count:3": 10,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinFarmer"
+          "id:8": "dreamcraft:CoinForestry"
         },
         "2:10": {
           "Count:3": 10,

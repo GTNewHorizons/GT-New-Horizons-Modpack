@@ -22,7 +22,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Scheelinium leaves will 4x your scheelite, tungsten, lithium, and more.",
+      "desc:8": "A great source of tungsten.\n\nScheelinium leaves will 4x your scheelite, tungsten, lithium, and more.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -57,6 +57,12 @@
           "Damage:2": 51,
           "OreDict:8": "",
           "id:8": "enhancedlootbags:lootbag"
+        },
+        "1:10": {
+          "Count:3": 16,
+          "Damage:2": 81,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockores2"
         }
       }
     }

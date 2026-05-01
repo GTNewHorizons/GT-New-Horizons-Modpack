@@ -2,15 +2,15 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 860
+      "questIDLow:4": 2390
     },
     "1:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 1245
+      "questIDLow:4": 860
     },
     "2:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 861
+      "questIDLow:4": 1245
     }
   },
   "properties:10": {
@@ -20,7 +20,7 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 1171,
+        "Damage:2": 15533,
         "OreDict:8": "",
         "id:8": "gregtech:gt.blockmachines"
       },
@@ -88,52 +88,64 @@
       "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
-      "index:3": 0,
+      "index:3": 1,
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 2,
-          "Damage:2": 4,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings2"
-        },
-        "1:10": {
-          "Count:3": 8,
-          "Damage:2": 13,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings4"
-        },
-        "2:10": {
-          "Count:3": 19,
-          "Damage:2": 2,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings4"
-        },
-        "3:10": {
           "Count:3": 1,
-          "Damage:2": 90,
+          "Damage:2": 15533,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
-      "index:3": 1,
+      "index:3": 2,
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
+          "Count:3": 21,
+          "Damage:2": 473,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockframes"
+        },
+        "1:10": {
+          "Count:3": 19,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings8"
+        },
+        "2:10": {
+          "Count:3": 13,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings4"
+        },
+        "3:10": {
+          "Count:3": 8,
+          "Damage:2": 13,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings4"
+        },
+        "4:10": {
+          "Count:3": 4,
+          "Damage:2": 4,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings2"
+        },
+        "5:10": {
           "Count:3": 1,
-          "Damage:2": 1171,
+          "Damage:2": 91,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

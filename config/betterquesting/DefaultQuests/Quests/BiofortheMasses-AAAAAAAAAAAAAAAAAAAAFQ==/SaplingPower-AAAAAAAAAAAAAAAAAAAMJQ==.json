@@ -60,12 +60,16 @@
         },
         "2:10": {
           "Count:3": 1,
-          "Damage:2": 1159,
+          "Damage:2": 15546,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "taskID:8": "bq_standard:checkbox"
     }
   }
 }

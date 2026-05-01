@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Are you still living in your dirt/cobble hut? How about letting in some sunlight? Grind up some sand and flint and craft some glass dust. Put it in your smeltery and pour it into a casting basin to make clear glass.\n\n[note]Hint: In order to use it for recipes, you have to chisel it.[/note]\n\n[note]PS: The macerator no longer gives tiny piles, just uncraft a normal pile to get tiny ones. You\u0027ll appreciate this once you have a mixer in LV.[/note]",
+      "desc:8": "Are you still living in your dirt/cobble hut? How about letting in some sunlight? Grind up some sand and flint and craft some glass dust. Put it in your smeltery and pour it into a casting basin to make clear glass.\n\n[note]Hint: In order to use it for recipes, you have to chisel it.[/note]\n\n[note]PS: The macerator no longer gives tiny piles, just uncraft a normal pile to get tiny ones. You\u0027ll appreciate this once you have a mixer.[/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -36,19 +36,6 @@
   "questIDLow:4": 52,
   "rewards:9": {
     "0:10": {
-      "ignoreDisabled:1": 0,
-      "index:3": 0,
-      "rewardID:8": "bq_standard:item",
-      "rewards:9": {
-        "0:10": {
-          "Count:3": 2,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "minecraft:cookie"
-        }
-      }
-    },
-    "1:10": {
       "choices:9": {
         "0:10": {
           "Count:3": 1,
@@ -67,22 +54,35 @@
       "index:3": 1,
       "rewardID:8": "bq_standard:choice"
     },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 3,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:cookie"
+        }
+      }
+    },
     "2:10": {
       "ignoreDisabled:1": 0,
-      "index:3": 2,
+      "index:3": 4,
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
           "Count:3": 15,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinTechnician"
+          "id:8": "dreamcraft:CoinChemist"
         },
         "1:10": {
           "Count:3": 15,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinChemist"
+          "id:8": "dreamcraft:CoinTechnician"
         }
       }
     }

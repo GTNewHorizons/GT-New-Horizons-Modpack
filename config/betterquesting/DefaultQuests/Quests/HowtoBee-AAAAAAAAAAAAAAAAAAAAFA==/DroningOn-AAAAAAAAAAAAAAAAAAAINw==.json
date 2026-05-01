@@ -1,0 +1,98 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 2168740311506374289,
+      "questIDLow:4": -5734283716237442270
+    },
+    "1:10": {
+      "questIDHigh:4": -771896001936143941,
+      "questIDLow:4": -5951281698787091280
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "§n§rFinally! You can hack bees*! You have two choices, and you will only ever need one. Either way you go, you will hatch the modified drone using an Incubator that\u0027s been loaded with Bacteria Vector afterwards.\n\nBoth scale their requirements by the number of genes you intend to apply to a single Larvae.\n\n§nThe Inoculator§r\n\nRun Time: 10 minutes per gene\nRF Cost: 600,000 RF per gene\nRF/t: 50\nBacteria Vector: 15 mB per gene.\n\nThis one has a lower power and recipe cost at the expense of needing Bacteria Vector, created by incubating Bacteria and Blaze Powder, to transfer the gene into organisms. The consumption for Bacteria Vector is quite low.\n\nIt is also §oslooooow§... \n§r\n§nThe Splicer§r\n\nRun Time: 1 minute per gene\nRF Cost: 12,000,000 RF per gene\nRF/t: §l1,000\n§r\nThe Splicer is much like the Inoculator in function, however it has the benefit of not requiring any liquid. Its power consumption is terrifying compared to the Inoculator, but overall it only consumes twice the RF despite gobbling it much faster.\n\n*or trees and flowers via their pollen, or butterflies via their caterpillars.",
+      "globalShare:1": 1,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 3,
+        "OreDict:8": "",
+        "id:8": "Genetics:machine"
+      },
+      "isGlobal:1": 0,
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Droning On",
+      "partySingleReward:1": 0,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "OR",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 2103,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 772,
+          "OreDict:8": "",
+          "id:8": "BinnieCore:containerCylinder"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 26,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "OreDict:8": "",
+          "id:8": "Genetics:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "Genetics:advMachine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
