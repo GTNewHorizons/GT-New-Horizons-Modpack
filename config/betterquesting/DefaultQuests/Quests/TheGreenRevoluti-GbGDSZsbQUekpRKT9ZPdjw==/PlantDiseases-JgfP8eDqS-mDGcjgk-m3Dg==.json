@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Plant Cure is used to cure sickly crops. Crops will get sick in two scenarios:\n\n1. A weed has grown and overtaken the crop.\n2. A crop does not reach minimum environmental requirements.\n\r\nYou must spray the cure manually, it will apply a minimal amount of fertilizer so that crops don\u0027t immediately become sickly again.",
+      "desc:8": "Plant Cure is used to cure sickly crops. Crops will get sick in two scenarios:\n\n1. A weed has grown and overtaken the crop.\n2. A crop does not reach minimum environmental requirements.\n\nYou must spray the cure manually, it will apply a minimal amount of fertilizer so that crops don\u0027t immediately become sickly again.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
