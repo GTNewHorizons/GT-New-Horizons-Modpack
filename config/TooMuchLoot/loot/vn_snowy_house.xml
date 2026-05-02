@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<LootGroup category="vn_snowy_house" loading_mode="OVERRIDE" count_min="3" count_max="9">
+    <loot item="minecraft:snow" damage="0" weight="4" count_min="1" count_max="1"/>
+    <loot item="minecraft:potato" damage="0" weight="10" count_min="1" count_max="7"/>
+    <loot item="minecraft:bread" damage="0" weight="10" count_min="1" count_max="4"/>
+    <loot item="etfuturum:beetroot_seeds" damage="0" weight="10" count_min="1" count_max="5"/>
+    <loot item="etfuturum:beetroot_soup" damage="0" weight="1" count_min="1" count_max="1"/>
+    <loot item="minecraft:furnace" damage="0" weight="1" count_min="1" count_max="1"/>
+    <loot item="minecraft:emerald" damage="0" weight="1" count_min="1" count_max="4"/>
+    <loot item="minecraft:snowball" damage="0" weight="10" count_min="1" count_max="7"/>
+    <loot item="minecraft:coal" damage="0" weight="5" count_min="1" count_max="4"/>
+</LootGroup>

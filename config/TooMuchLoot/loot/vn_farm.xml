@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<LootGroup category="vn_farm" loading_mode="OVERRIDE" count_min="1" count_max="6">
+    <loot item="minecraft:emerald" damage="0" weight="1" count_min="1" count_max="1"/>
+    <loot item="minecraft:wheat_seeds" damage="0" weight="5" count_min="1" count_max="5"/>
+    <loot item="minecraft:potato" damage="0" weight="2" count_min="1" count_max="5"/>
+    <loot item="minecraft:carrot" damage="0" weight="2" count_min="1" count_max="5"/>
+    <loot item="etfuturum:beetroot_seeds" damage="0" weight="1" count_min="1" count_max="5"/>
+    <loot item="minecraft:pumpkin_seeds" damage="0" weight="1" count_min="1" count_max="5"/>
+    <loot item="minecraft:reeds" damage="0" weight="1" count_min="1" count_max="5"/>
+    <loot item="minecraft:bucket" damage="0" weight="1" count_min="1" count_max="1"/>
+</LootGroup>

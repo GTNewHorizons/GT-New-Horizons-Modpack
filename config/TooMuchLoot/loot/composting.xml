@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<LootGroup category="composting" loading_mode="OVERRIDE" count_min="1" count_max="1">
+    <loot item="minecraft:dye" damage="15" weight="10" count_min="1" count_max="1"/>
+</LootGroup>

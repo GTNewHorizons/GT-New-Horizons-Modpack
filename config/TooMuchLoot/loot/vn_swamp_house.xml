@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<LootGroup category="vn_swamp_house" loading_mode="OVERRIDE" count_min="3" count_max="9">
+    <loot item="minecraft:bread" damage="0" weight="10" count_min="1" count_max="4"/>
+    <loot item="minecraft:emerald" damage="0" weight="1" count_min="1" count_max="4"/>
+    <loot item="minecraft:book" damage="0" weight="1" count_min="1" count_max="1"/>
+    <loot item="minecraft:vine" damage="0" weight="5" count_min="1" count_max="1"/>
+    <loot item="minecraft:water_bucket" damage="0" weight="1" count_min="1" count_max="3"/>
+    <loot item="minecraft:coal" damage="0" weight="5" count_min="1" count_max="4"/>
+    <loot item="minecraft:fish" damage="0" weight="1" count_min="1" count_max="2"/>
+    <loot item="minecraft:fence" damage="0" weight="2" count_min="1" count_max="4"/>
+    <loot item="minecraft:boat" damage="0" weight="1" count_min="1" count_max="1"/>
+    <loot item="Botania:manaResource" damage="10" weight="1" count_min="1" count_max="1"/>
+</LootGroup>

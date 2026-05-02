@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<LootGroup category="vn_taiga_house" loading_mode="OVERRIDE" count_min="3" count_max="9">
+    <loot item="TConstruct:materials" damage="19" weight="1" count_min="1" count_max="5"/>
+    <loot item="minecraft:tallgrass" damage="2" weight="2" count_min="1" count_max="1"/>
+    <loot item="minecraft:double_plant" damage="3" weight="2" count_min="1" count_max="1"/>
+    <loot item="minecraft:potato" damage="0" weight="10" count_min="1" count_max="7"/>
+    <loot item="etfuturum:sweet_berries" damage="0" weight="5" count_min="1" count_max="7"/>
+    <loot item="minecraft:bread" damage="0" weight="10" count_min="1" count_max="4"/>
+    <loot item="minecraft:pumpkin_seeds" damage="0" weight="5" count_min="1" count_max="5"/>
+    <loot item="minecraft:pumpkin_pie" damage="0" weight="1" count_min="1" count_max="1"/>
+    <loot item="minecraft:emerald" damage="0" weight="2" count_min="1" count_max="4"/>
+    <loot item="minecraft:sapling" damage="1" weight="5" count_min="1" count_max="5"/>
+    <loot item="minecraft:sign" damage="0" weight="1" count_min="1" count_max="1"/>
+    <loot item="minecraft:log" damage="1" weight="10" count_min="1" count_max="5"/>
+</LootGroup>

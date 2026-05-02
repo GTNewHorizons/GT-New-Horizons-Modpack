@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<LootGroup category="vn_library" loading_mode="OVERRIDE" count_min="1" count_max="6">
+    <loot item="VillageNames:codex" damage="0" weight="4" count_min="1" count_max="2"/>
+    <loot item="minecraft:paper" damage="0" weight="1" count_min="1" count_max="3"/>
+    <loot item="minecraft:dye" damage="0" weight="6" count_min="1" count_max="3"/>
+    <loot item="minecraft:feather" damage="0" weight="6" count_min="1" count_max="3"/>
+    <loot item="minecraft:writable_book" damage="0" weight="1" count_min="1" count_max="1"/>
+    <loot item="minecraft:book" damage="0" weight="3" count_min="1" count_max="3"/>
+    <loot item="minecraft:apple" damage="0" weight="15" count_min="1" count_max="1"/>
+    <loot item="minecraft:emerald" damage="0" weight="1" count_min="1" count_max="1"/>
+</LootGroup>

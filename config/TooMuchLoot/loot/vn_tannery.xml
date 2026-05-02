@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<LootGroup category="vn_tannery" loading_mode="OVERRIDE" count_min="1" count_max="6">
+    <loot item="minecraft:leather" damage="0" weight="1" count_min="1" count_max="3"/>
+    <loot item="minecraft:leather_chestplate" damage="0" weight="2" count_min="1" count_max="1"/>
+    <loot item="minecraft:leather_boots" damage="0" weight="2" count_min="1" count_max="1"/>
+    <loot item="minecraft:leather_helmet" damage="0" weight="2" count_min="1" count_max="1"/>
+    <loot item="minecraft:bread" damage="0" weight="5" count_min="1" count_max="4"/>
+    <loot item="minecraft:leather_leggings" damage="0" weight="2" count_min="1" count_max="1"/>
+    <loot item="minecraft:saddle" damage="0" weight="1" count_min="1" count_max="1"/>
+    <loot item="minecraft:emerald" damage="0" weight="1" count_min="1" count_max="4"/>
+</LootGroup>
