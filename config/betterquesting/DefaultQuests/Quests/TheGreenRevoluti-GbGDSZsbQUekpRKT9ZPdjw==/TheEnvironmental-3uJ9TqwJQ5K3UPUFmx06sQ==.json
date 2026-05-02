@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "If you don\u0027t want to use magic to change the biome for your IF, you will have to apply some advanced biome simulation technology to your Industrial Farm.\n\nEach Environmental Enhancement Unit allows you to insert an Environmental Module inside of your IF controller. (You can only have up to 2 of these upgrades at a time). Environmental Modules can only be inserted while the machine is powered off. Each one increases the power usage by 50% (even if you don\u0027t have a module installed).\n\n\r\nAs with all upgrades, the tier of the upgrade must match the tier of the seedbed.",
+      "desc:8": "If you don\u0027t want to use magic to change the biome for your IF, you will have to apply some advanced biome simulation technology to your Industrial Farm.\n\nEach Environmental Enhancement Unit allows you to insert an Environmental Module inside of your IF controller. (You can only have up to 2 of these upgrades at a time). Environmental Modules can only be inserted while the machine is powered off. Each one increases the power usage by 50% (even if you don\u0027t have a module installed).\n\n\nAs with all upgrades, the tier of the upgrade must match the tier of the seedbed.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
