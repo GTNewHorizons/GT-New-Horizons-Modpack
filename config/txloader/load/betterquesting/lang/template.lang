@@ -5025,7 +5025,7 @@ betterquesting.quest.A21peFIQTEKAgY7eH4tjLw.desc=Easy rubber wood and sticky res
 
 # Quest: Speed Up Your Plant Growth
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC0g.name=Speed Up Your Plant Growth
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC0g.desc=Fertilizer is a foundational resource to produce and consume when farming. It has two key features:%n%n1. Speeding up crop growth by boosting the nutrient score.%n2. Preventing stat loss during crop breeding. This simply prevents stat loss; it doesn't increase the likelihood of a stat increase.%n%n4 Seperate items can be used to apply fertilizer to your crops, each providing a different amount of fertilizer points:%n%n- Crops NH Fertilizer: 100 points%n- Forestry Compost: 50 points%n- Forestry Fertilizer: 25 points%n- Bone Meal: 5 points%n%n[note]While Bone Meal may seem weak, it's ability to still prevent stat loss when breeding is key if you intend to start crops before you can make a Chemical Reactor.[/note]%n%nThe Crop Managers and the Industrial Farm both also accept liquid fertilizers. Right now there is 2 of them:%n%n- Fertilizer: 1 point per L%n- Enriched Fertilizer: 10 points per L
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAC0g.desc=Fertilizer is a foundational resource to produce and consume when farming. It has two key features:%n%n1. Speeding up crop growth by boosting the nutrient score.%n%n2. Preventing stat loss during crop breeding. This simply prevents stat loss; it doesn't increase the likelihood of a stat increase.%n%n4 Seperate items can be used to apply fertilizer to your crops, each providing a different amount of fertilizer points:%n%n- Crops NH Fertilizer: 100 points%n- Forestry Compost: 50 points%n- Forestry Fertilizer: 25 points%n- Bone Meal: 5 points%n%n[note]While Bone Meal may seem weak, it's ability to still prevent stat loss when breeding is key if you intend to start crops before you can make a Chemical Reactor.[/note]%n%nThe Crop Managers and the Industrial Farm both also accept liquid fertilizers. Right now there is 2 of them:%n%n- Fertilizer: 1 point per L%n- Enriched Fertilizer: 10 points per L
 
 # Quest: Becoming a Florist
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC1Q.name=Becoming a Florist
@@ -10057,7 +10057,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAB1A.desc=What? You filled up the Quantum
 
 # Quest: Insurgence
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABbQ.name=Insurgence
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABbQ.desc=Is your infusion very slow? And, alas, to resolve that you need a world accelerator. That probably causes a lot of lag.%n%nWell no longer! Try out the new Infusion Interceptor. Read more about it on the Thaumic Insurgence page in your Thaumonomicon.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABbQ.desc=Is your infusion very slow? And, alas, to resolve that you need a world accelerator. That probably causes a lot of lag.%n%nWell no longer! Try out the new Infusion Interceptor. Placing it directly below the central pedestal of your existing infusion altar and supplying essentia to the bottom side of this block via Essentia Provider allows for instant essentia consumption from the network, drastically speeding up your infusions.%n%n[note]You may still want to keep the world accelerator for the item phase of the infusion process.[/note]
 
 # Quest: Item Void Cell
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABdg.name=Item Void Cell
