@@ -116,27 +116,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 1152,
+          "Damage:2": 15525,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         },
         "1:10": {
-          "Count:3": 24,
-          "Damage:2": 11,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings4"
-        },
-        "2:10": {
           "Count:3": 1,
-          "Damage:2": 1131,
+          "Damage:2": 15524,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
-        },
-        "3:10": {
-          "Count:3": 24,
-          "Damage:2": 9,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockcasings4"
         }
       },
       "taskID:8": "bq_standard:retrieval"
