@@ -12,11 +12,11 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "I\u0027m so cold... You\u0027ll need a constant supply of Cryotheum to use it.",
+      "desc:8": "The Cryogenic Freezer is a direct upgrade to the §5§lVacuum Freezer§r. It allows for §6§l16§r parallels, operates at §2§l3x§r the speed, and offers a §3§l10%§r EU discount.\n\nSimilar to the Volcanus, it has a running cost. It will consume §c§l10L§r of cryotheum per second while in operation. It must be supplied with Cryotheum via a Cryotheum Cooling Hatch",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 910,
+        "Damage:2": 15565,
         "OreDict:8": "",
         "id:8": "gregtech:gt.blockmachines"
       },
@@ -70,7 +70,7 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 910,
+          "Damage:2": 15565,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }
@@ -86,18 +86,24 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 17,
+          "Count:3": 55,
           "Damage:2": 10,
           "OreDict:8": "",
           "id:8": "miscutils:gtplusplus.blockcasings.3"
         },
         "1:10": {
+          "Count:3": 24,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "miscutils:blockFrameGtGrisium"
+        },
+        "2:10": {
           "Count:3": 1,
           "Damage:2": 967,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         },
-        "2:10": {
+        "3:10": {
           "Count:3": 1,
           "Damage:2": 91,
           "OreDict:8": "",

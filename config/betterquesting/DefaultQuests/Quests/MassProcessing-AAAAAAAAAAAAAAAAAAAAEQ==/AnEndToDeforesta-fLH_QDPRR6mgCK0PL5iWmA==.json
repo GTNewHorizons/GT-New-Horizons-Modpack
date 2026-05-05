@@ -17,11 +17,11 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "This multiblock is the perfect solution to high-speed tree farming. Do you need wood for charcoal or benzene power? Nuts for seed oil? Leaf blocks for decoration? Look no further!\n\nThe Tree Growth Simulator can farm almost any tree in the game, and produces all the items you would get by chopping it down normally. All this in a compact 3x3x3 cube, without any lag from growing a real tree.\n\nFirst, place any sapling in the controller slot of the multiblock. Then, insert tools appropriate to the part of the tree you want to harvest in an input bus. Give the machine power, turn it on, and be ready to get flooded by the outputs.\n\nDifferent tools are required to gather different parts of the tree:\n - Saw for logs\n - Branch Cutter for saplings\n - Shears for leaves\n - Knife for fruit\nBetter versions of the tools (Chainsaw, Grafter, ...) will increase the yield! Check the tooltip of the controller block for details.\n\nYou can even use multiple different tools together, and the machine will harvest several different products at the same time!\n\nNote that the tools used will slowly lose durability, so for long-term operation you might want to set up some automatic replacement.\n\n[note]While this machine only requires IV, it is quite expensive to make early in the tier. You will need 16 ZPM circuits and some fancy alloys.[/note]",
+      "desc:8": "This multiblock is the perfect solution to high-speed tree farming. Do you need wood for charcoal or benzene power? Nuts for seed oil? Leaf blocks for decoration? Look no further!\n\nThe Tree Growth Simulator can farm almost any tree in the game, and produces all the items you would get by chopping it down normally. It does all this in a compact area, without any lag from growing a real tree.\n\nFirst, place any sapling in the controller slot of the multiblock. Then, insert tools appropriate for the part of the tree you want to harvest in an input bus. Give the machine power, turn it on, and be ready to get flooded by the outputs.\n\nDifferent tools are required to gather different parts of the tree:\n - Saw for logs\n - Branch Cutter for saplings\n - Shears for leaves\n - Knife for fruit\nBetter versions of the tools (Chainsaw, Grafter, ...) will increase the yield! Check the tooltip of the controller block for details.\n\nYou can even use multiple different tools together, and the machine will harvest several different products at the same time!\n\nNote that the tools used will slowly lose durability, so for long-term operation you might want to set up an automatic replacement system.\n\n[note]You can optionally use grass in place of the dirt blocks during construction.[/note]\n\n[warn]While this machine only requires IV, it is quite expensive to make early in the tier. You will need 16 ZPM circuits and some fancy alloys.[/warn]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 836,
+        "Damage:2": 15541,
         "OreDict:8": "",
         "id:8": "gregtech:gt.blockmachines"
       },
@@ -85,7 +85,7 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 836,
+          "Damage:2": 15541,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }
@@ -101,12 +101,42 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 18,
+          "Count:3": 60,
+          "Damage:2": 305,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockframes"
+        },
+        "1:10": {
+          "Count:3": 57,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "bartworks:BW_GlasBlocks"
+        },
+        "2:10": {
+          "Count:3": 53,
           "Damage:2": 15,
           "OreDict:8": "",
           "id:8": "miscutils:gtplusplus.blockcasings.2"
         },
-        "1:10": {
+        "3:10": {
+          "Count:3": 25,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:dirt"
+        },
+        "4:10": {
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:leaves"
+        },
+        "5:10": {
+          "Count:3": 3,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:log"
+        },
+        "6:10": {
           "Count:3": 1,
           "Damage:2": 91,
           "OreDict:8": "",
