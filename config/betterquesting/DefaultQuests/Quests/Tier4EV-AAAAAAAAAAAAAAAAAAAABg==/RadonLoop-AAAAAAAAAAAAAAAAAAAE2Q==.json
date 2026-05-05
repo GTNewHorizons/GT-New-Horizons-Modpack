@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Radon is needed for EV emitters and sensors.\n\nIf you can get some Plutonium 239 and Uranium 238, you can use the LCR recipe and just keep cycling the Plutonium around to get more.",
+      "desc:8": "Radon is needed for EV emitters and sensors.\n\nIf you can get some Plutonium 239 and Uranium 238, you can use the chemical reactor recipe and keep cycling the Plutonium around to get more.\n\nUsing the LCR recipe is recommended, as it is more efficient and faster due to the LCR being able to perform perfect overclocks.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -84,14 +84,14 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 8,
+          "Count:3": 64,
           "Damage:2": 11100,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"
         },
         "1:10": {
-          "Count:3": 40,
-          "Damage:2": 98,
+          "Count:3": 5,
+          "Damage:2": 2098,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"
         },
