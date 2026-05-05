@@ -87,6 +87,12 @@
           "Damage:2": 325,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockframes"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 3012,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
