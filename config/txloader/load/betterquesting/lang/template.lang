@@ -2486,7 +2486,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAE0g.desc=Epoxid circuit boards require a
 
 # Quest: Radon Loop
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE2Q.name=§8§lRadon Loop
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE2Q.desc=Radon is needed for EV emitters and sensors.%n%nIf you can get some Plutonium 239 and Uranium 238, you can use the LCR recipe and just keep cycling the Plutonium around to get more.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE2Q.desc=Radon is needed for EV emitters and sensors.%n%nIf you can get some Plutonium 239 and Uranium 238, you can use the chemical reactor recipe and keep cycling the Plutonium around to get more.%n%nUsing the LCR recipe is recommended, as it is more efficient and faster due to the LCR being able to perform perfect overclocks.
 
 # Quest: EV Chemical Reactor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE2g.name=§8§lEV Chemical Reactor
