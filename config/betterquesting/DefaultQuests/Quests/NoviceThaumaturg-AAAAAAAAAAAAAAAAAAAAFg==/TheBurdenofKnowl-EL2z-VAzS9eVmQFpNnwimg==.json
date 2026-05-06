@@ -1,0 +1,88 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1778
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Have you made too many mistakes and researched yourself into a corner by getting too much warp with no way to get rid of it? Do you wish you could just start everything over? The [warn]Potion of Blissful Oblivion[/warn] is the solution you are looking for.\n\nAt the cost of your knowledge of [warn]all research, all discovered aspects, all knowledge points in the Research Table, and everything scanned with a Thaumometer[/warn], all of your warp will be removed. It won\u0027t do anything about warp from armor, so you might still get minor warp events if you\u0027re wearing any warpy armor. Be absolutely certain you know what you are doing before you drink this.\n\nKeep in mind that there are better alternatives for dealing with warp (which you can see in the Adept Thaumaturgy tab). This is just the cheapest one.\n\n[note]It\u0027s also a rather decent source of Strontio.[/note]",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "WarpTheory:item.warptheory.oblivionpotion"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "The Burden of Knowledge",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 1206318158578928599,
+  "questIDLow:4": -7667095339224259942,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "Thaumcraft:ItemLootBag"
+        },
+        "1:10": {
+          "Count:3": 8,
+          "Damage:2": 9,
+          "OreDict:8": "",
+          "id:8": "Thaumcraft:ItemResource"
+        }
+      }
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:CoinDarkWizard"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "WarpTheory:item.warptheory.oblivionpotion"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
