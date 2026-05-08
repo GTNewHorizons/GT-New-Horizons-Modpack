@@ -1,0 +1,240 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 500
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "You\u0027re now getting into Magic Bees, and one of its mundane bee species is the Attuned species. These are scooped out of Deep Hives that you can find in the Overworld. These hives are a pain to find, so you should consider just buying hives with coins until you get a princess and a drone. However, if you are a real masochist or completionist try-hard, then here\u0027s some information about where they spawn:\n\n* From Y\u003d1 to Y\u003d25\n* In stone, surrounded on 5 sides. Not just vanilla stone.\n* In biomes tagged with one or more of:\n   * MOUNTAINS: Actual mountains may not count. It\u0027s the biome type that counts.\n      * Example: Canyon.\n   * HILLS: Again, actual hills don\u0027t count.\n      * Example: Snowy Coniferous Forest.\n   * MAGICAL: Unlike the others, they do have some ethereal aspect.\n      * Examples: Magical Forest is obvious, but also Cherry Blossom Grove counts.\n* Surrounded by a small redstone vein. This often fills any open space around them.\n\nThey also like to just kind of show up whatever-what-the-heck in other biomes. Our beekeeping intern found a Deep Hive in a Lush Desert:\n\nLush Desert [HOT, DRY, SAVANNA, LUSH, SANDY]\n\nYou can dump the biome data in NEI by clicking on the NEI options button (the wrench), then the Tools button, then the Data Dumps button, and finally the Dump button in the biomes category. This creates a \"dumps\" directory in the root folder of the modpack with a biome.csv inside of it. Any listed biome that has the tags of HILLS, MOUNTAINS, and/or MAGICAL can generate Deep Hives. You can feed these biomes into a Nature\u0027s Compass and see if there are any nearby.\n\nProspector\u0027s Scanners will pick up the little ore pockets for these (traces, small samples). If you had one of those end-game ones with a display, it would come up as a few red pixels. Larger ones are probably just regular ore veins. The ore finding wand doesn\u0027t do a good job from the surface. Chasing lava veins and tunnels helps. Ore veins filled with redstone will saturate either tool.\n\nOf course, just buying hives is the low-effort way.\n\n[note]Beekeeper\u0027s Notes:\n\nIf you get real bad luck and wind up with an ignoble princess, then just get a bunch of drones out of it and convert some other pristine princess afterwards. However, using base princesses will compel the bees to turn into the Common species. There are two choices:\n\n1. Use an Alveary with an Alveary Stabilizer to block mutations.\n2. Create a princess that doesn\u0027t line up with the Attuned species\u0027 breeding possibilities before starting.[/note]",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "Forestry:beePrincessGE",
+        "tag:10": {
+          "Genome:10": {
+            "Chromosomes:9": {
+              "0:10": {
+                "Slot:1": 0,
+                "UID0:8": "magicbees.speciesAttuned",
+                "UID1:8": "magicbees.speciesAttuned"
+              },
+              "1:10": {
+                "Slot:1": 1,
+                "UID0:8": "forestry.speedSlowest",
+                "UID1:8": "forestry.speedSlowest"
+              },
+              "2:10": {
+                "Slot:1": 2,
+                "UID0:8": "forestry.lifespanShorter",
+                "UID1:8": "forestry.lifespanShorter"
+              },
+              "3:10": {
+                "Slot:1": 3,
+                "UID0:8": "forestry.fertilityHigh",
+                "UID1:8": "forestry.fertilityHigh"
+              },
+              "4:10": {
+                "Slot:1": 4,
+                "UID0:8": "forestry.toleranceNone",
+                "UID1:8": "forestry.toleranceNone"
+              },
+              "5:10": {
+                "Slot:1": 5,
+                "UID0:8": "forestry.boolFalse",
+                "UID1:8": "forestry.boolFalse"
+              },
+              "6:10": {
+                "Slot:1": 7,
+                "UID0:8": "forestry.toleranceNone",
+                "UID1:8": "forestry.toleranceNone"
+              },
+              "7:10": {
+                "Slot:1": 8,
+                "UID0:8": "forestry.boolFalse",
+                "UID1:8": "forestry.boolFalse"
+              },
+              "8:10": {
+                "Slot:1": 9,
+                "UID0:8": "forestry.boolFalse",
+                "UID1:8": "forestry.boolFalse"
+              },
+              "9:10": {
+                "Slot:1": 10,
+                "UID0:8": "forestry.flowersVanilla",
+                "UID1:8": "forestry.flowersVanilla"
+              },
+              "10:10": {
+                "Slot:1": 11,
+                "UID0:8": "forestry.floweringSlowest",
+                "UID1:8": "forestry.floweringSlowest"
+              },
+              "11:10": {
+                "Slot:1": 12,
+                "UID0:8": "forestry.territoryAverage",
+                "UID1:8": "forestry.territoryAverage"
+              },
+              "12:10": {
+                "Slot:1": 13,
+                "UID0:8": "forestry.effectNone",
+                "UID1:8": "forestry.effectNone"
+              }
+            }
+          },
+          "Health:3": 20,
+          "IsAnalyzed:1": 0,
+          "Mate:10": {
+            "Chromosomes:9": {
+              "0:10": {
+                "Slot:1": 0,
+                "UID0:8": "magicbees.speciesAttuned",
+                "UID1:8": "magicbees.speciesAttuned"
+              },
+              "1:10": {
+                "Slot:1": 1,
+                "UID0:8": "forestry.speedSlowest",
+                "UID1:8": "forestry.speedSlowest"
+              },
+              "2:10": {
+                "Slot:1": 2,
+                "UID0:8": "forestry.lifespanShorter",
+                "UID1:8": "forestry.lifespanShorter"
+              },
+              "3:10": {
+                "Slot:1": 3,
+                "UID0:8": "forestry.fertilityHigh",
+                "UID1:8": "forestry.fertilityHigh"
+              },
+              "4:10": {
+                "Slot:1": 4,
+                "UID0:8": "forestry.toleranceNone",
+                "UID1:8": "forestry.toleranceNone"
+              },
+              "5:10": {
+                "Slot:1": 5,
+                "UID0:8": "forestry.boolFalse",
+                "UID1:8": "forestry.boolFalse"
+              },
+              "6:10": {
+                "Slot:1": 7,
+                "UID0:8": "forestry.toleranceNone",
+                "UID1:8": "forestry.toleranceNone"
+              },
+              "7:10": {
+                "Slot:1": 8,
+                "UID0:8": "forestry.boolFalse",
+                "UID1:8": "forestry.boolFalse"
+              },
+              "8:10": {
+                "Slot:1": 9,
+                "UID0:8": "forestry.boolFalse",
+                "UID1:8": "forestry.boolFalse"
+              },
+              "9:10": {
+                "Slot:1": 10,
+                "UID0:8": "forestry.flowersVanilla",
+                "UID1:8": "forestry.flowersVanilla"
+              },
+              "10:10": {
+                "Slot:1": 11,
+                "UID0:8": "forestry.floweringSlowest",
+                "UID1:8": "forestry.floweringSlowest"
+              },
+              "11:10": {
+                "Slot:1": 12,
+                "UID0:8": "forestry.territoryAverage",
+                "UID1:8": "forestry.territoryAverage"
+              },
+              "12:10": {
+                "Slot:1": 13,
+                "UID0:8": "forestry.effectNone",
+                "UID1:8": "forestry.effectNone"
+              }
+            }
+          },
+          "MaxH:3": 20
+        }
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Attuned",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 1210933894870220900,
+  "questIDLow:4": -9136162451931116134,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 25,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "Forestry:beePrincessGE",
+          "tag:10": {
+            "Genome:10": {
+              "Chromosomes:9": {
+                "0:10": {
+                  "Slot:1": 0,
+                  "UID0:8": "magicbees.speciesAttuned",
+                  "UID1:8": "magicbees.speciesAttuned"
+                }
+              }
+            }
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "Forestry:beeDroneGE",
+          "tag:10": {
+            "Genome:10": {
+              "Chromosomes:9": {
+                "0:10": {
+                  "Slot:1": 0,
+                  "UID0:8": "magicbees.speciesAttuned",
+                  "UID1:8": "magicbees.speciesAttuned"
+                }
+              }
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
