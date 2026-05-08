@@ -11163,7 +11163,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEXA.desc=Common Princess and Forest Dron
 
 # Quest: Breed some common bees
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEXQ.name=Breed some common bees
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEXQ.desc=To cross breed bees you need two different species of bees. One drone and one princess from different world-gen hives (Meadows and Forest as an example)%n%nBee Houses do not allow crossbreeding. You need an Apiary to crossbreed them to a new species. Certain frames will help this process. Shortening their lifespan means faster crosses. Increasing Mutation rate means getting mutations and thus rare bees quicker.%n%nCommon Bees produce Honey Combs every 2.2 minutes. Note that production times are an approximation based on the bee's base production speed and the product's rarity. They do not reflect actual production time.%n%nMake sure your bees are pure by checking their genetics with a Beealyzer or GT scanner.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEXQ.desc=To cross breed bees you need two different species of bees. One drone and one princess from different naturally-generating hives (Meadows and Forest as an example).%n%nBee Houses do not allow crossbreeding. You need an Apiary to cross-breed them to a new species. Certain frames will help this process. Shortening their lifespan means faster crosses. Increasing the mutation rate means getting mutations and thus rare bees quicker.%n%nCommon Bees produce Honey Combs every 2.2 minutes. Note that production times are an approximation based on the bee's base production speed and the product's rarity. They do not reflect actual production time.%n%nMake sure your bees are pure by checking their genetics with a Beealyzer or GT scanner.%n%n[note]Breeder's Notes:%n%nRiiiight from the start, they have a trick for you. The Common bee is bred from most mundane species smashed into each other. The problem is the Cultivated species, which is next in line, is bred with most mundane species along with Common. Noble and Diligent then are crossed from Common and Cultivated. You could start with two mundane bees, have the results loop back unattended, and run that whole progression. Here's an example active:inactive mix you could get on a princess over time:%n%nMeadows:Forest%nMeadows:Common (Yay!)%nCommon:Meadows (Double yay! Active trait!)%nCultivated:Common (Boo!)%n. . . some time passes . . .%nDiligent:Noble (Wait, what?!)%n%nMeanwhile, this quest would still be sitting there, waiting for you to submit Common bees. Whoops!%n%nIf Cultivated starts to show up, just stuff any princesses and drones involved into a chest and act like that didn't happen for now. You can use them when you complete this quest to jumpstart the Cultivated species.%n%nNow, if you don't have any way to speed up breeding and don't want to stand around to micromanage, you can try filtering, or just checking on the result from time to time. Either way, maybe don't leave it going overnight if you're on a server.%n[/note]
 
 # Quest: Breed some noble bees
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEXg.name=Breed some noble bees
@@ -11243,7 +11243,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAI6Q.desc=Ancient bees are the first step
 
 # Quest: Ocean
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI6g.name=Ocean
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI6g.desc=The Ocean bee can be hard to breed since some servers use a worldgen that prevents ocean biomes from appearing. You might have luck trying in a Twilight Forest lake - you'll know you are in the right biome if you see Water Creepers! If you have trouble locating an appropriate spot, you can also purchase Ocean bees from the Vending Machine. Breed them from Diligent and Water.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI6g.desc=The Ocean bee is bred from Diligent and Water in an ocean-type biome. Note that this doesn't mean literally an ocean. It is any biome that has the OCEAN tag. The stock terrain generator does not generate oceans in The Overworld, but there are a few biomes that carry the tag.%n%nSkipping The Overworld, you might have luck trying in a Twilight Forest lake - you'll know you are in the right biome if you see Water Creepers!%n%nYou can dump the biome data in NEI by clicking on the NEI options button (the wrench), then the Tools button, then the Data Dumps button, and finally the Dump button in the biomes category. This creates a "dumps" directory in the root folder of the modpack with a biome.csv file inside of it. Try anything that has OCEAN tagged to it. You can feed these biomes into a Nature's Compass and see if there are any nearby.%n%nSome examples: Shield, Tropics, Twilight Lake, and Lush Swamp.%n%nIf you have trouble locating an appropriate spot, you can also purchase Ocean bees from the Vending Machine. Breed them from Diligent and Water.%n%n[note]You get more than one princess per purchase, so it's a useful way to get a few extra pristine princesses.[/note]
 
 # Quest: Resinous
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI6w.name=Resinous
@@ -11251,7 +11251,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAI6w.desc=Well at least you can get a cou
 
 # Quest: Miry
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI7A.name=Miry
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI7A.desc=Miry bees aren't too useful yet. They'll open up the Boggy branch for you. You'll need to find a biome with Warm/Damp to breed them. Use your Nature's Compass and Habitat Locator to find them. An easy one to find is Rainforest. Breed them from Marshy and Noble.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI7A.desc=Miry bees aren't too useful yet. They'll open up the Boggy branch for you. You'll need to find a biome with Warm/Damp to cause their mutation. Use your Nature's Compass and Habitat Locator to find them. An easy one to find is Rainforest. Breed them from Marshy and Noble.
 
 # Quest: Elastic
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI7Q.name=Elastic
@@ -11307,11 +11307,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIbg.desc=Growing bees are the start of t
 
 # Quest: Copper
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIcg.name=Copper
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIcg.desc=The Copper bee is the first of the metal lines. There are too many metal breeding lines to cover here, but by now you should be able to use NEI to figure out how to breed more bee types. Copper bees require a copper block beneath the bee housing. Breed them from Majestic and Clay.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIcg.desc=The Copper bee is the first of the metal lines. There are too many metal breeding lines to cover here, but by now you should be able to use NEI to figure out how to breed more bee types. Copper bees require a copper block beneath the bee housing. Breed them from Majestic and Clay.%n%nThe Copper Combs have a strong chance of centrifuging into copper dust, but you'll also see a Chemical Reactor recipe to use hydrochloric acid to get a 1:1 exchange. You have some bee options for getting chlorine so you should think about a sustained hydrochloric acid production line soon. You'll eventually §lhave to §ruse hydrochloric acid and won't have the Centrifuge option for later combs.
 
 # Quest: Clay
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIcw.name=Clay
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIcw.desc=To breed a Clay bee you must put a Clay block beneath the housing. Clay bees are the bedrock of many important bee lines. Breed them from Industrious and Diligent.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIcw.desc=To breed a Clay bee, you must put a Clay block beneath the housing. Clay bees are the bedrock of many important bee lines. Breed them from Industrious and Diligent.%n%n[note]Breeder's Notes:%n%nThis bee is an ancestor for a diverse group of species. A lot of them have incompatible biome requirements--especially the humidity. While breeding, you'll find that you have to alter the biome from cycle to cycle. You probably want to just earmark a spot that is NORMAL/DAMP right now if your only option for handling this is to run around with your breeding setup.%n%nYou're probably on your way to more interesting production bees, but don't forget that clay dust can be electrolyzed into some useful stuff!%n[/note]
 
 # Quest: Industrious
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIdA.name=Industrious
@@ -11331,15 +11331,15 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIdw.desc=Finally, Black Gold. The Oil be
 
 # Quest: Coal
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIeA.name=Coal
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIeA.desc=Ah yes, Coal is King indeed. A great bee, giving you Coal to use to power your industry. Will require a Coal Block under your bee housing. This bee will also have the first really dangerous effect - it will apply a creeper explosion to you if you are not wearing your Apiarist suit. Breed them from Peat and Industrious.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIeA.desc=Ah yes, Coal is King indeed, but Coal Bees are matriarchal. A great bee, giving you Coal to use to power your industry. This will require a Coal Block under your bee housing. This bee will also have the first really dangerous effect - it will apply a creeper explosion to you if you are not wearing your Apiarist suit. Breed them from Peat and Industrious.%n%n[note]Breeder's Notes:%n%nThis is a major prerequisite ancestor species to a lot of other bee species in this chapter, and they're advanced ones too. The problem is the Coal species is long-lived, so it takes a long time for the queen to drop down to a princess and two drones (assuming the Coal species default of 2x fertility). Consider using some lifetime-reducing frames to accelerate that so you can get a Coal drone stock more quickly and start on those other species.%n[/note]%n
 
 # Quest: Peat
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIeQ.name=Peat
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIeQ.desc=Peat from these bees can be used in furnaces and boilers. Free fuel is free, right? Breed them from Rural and Clay.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIeQ.desc=Peat from these bees can be used in furnaces and boilers. Free fuel is free, right? Breed them from Rural and Clay.%n%n[note]Breeder's Notes:%n%nYou probably are only doing this because it's a prerequisite for other breeds (especially Coal), but this is a really productive bee! Its peat should be able to pull off a little side hustle somewhere.%n%nNow, its §omulch§o§r is useful for growth medium with the Genetics tool line. If you're going that way, you might as well put this bee to work for it because you're already invested in bees.[/note]
 
 # Quest: Rural
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIeg.name=Rural
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIeg.desc=Rural bees like to live out in the country - you'll have to relocate to a Plains-type biome for these. Breed them from Diligent and Meadows.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIeg.desc=Rural bees like to live out in the country - you'll have to relocate to a Plains-type biome for these. Breed them from Diligent and Meadows.%n%nThey produce Wheaten Combs, which make . . . wheat. Hey, it ain't nothing! Still, this bee is more of a speed bump on the way to bigger projects.%n%n[note]They will take any biome with the PLAINS tag. You can dump the biome data in NEI by clicking on the NEI options button (the wrench), then the Tools button, then the Data Dumps button, and finally the Dump button in the biomes category. This creates a "dumps" directory in the root folder of the modpack with a biome.csv inside of it. Any listed biome that has the PLAINS tag is fair game. You can feed these biomes into a Nature's Compass and see if there are any nearby.[/note]
 
 # Quest: Blooming
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIew.name=Blooming
@@ -11367,7 +11367,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIgA.desc=Better be careful with this one
 
 # Quest: Sinister
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIgQ.name=Sinister
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIgQ.desc=Sinister bees will hurt nearby mobs and players. Make sure to wear your suit. They will require breeding in the Nether. Breed them from Modest and Cultivated.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIgQ.desc=Sinister bees will hurt nearby mobs and players. Make sure to wear your suit. They will require breeding in the Nether. Breed them from Modest and Cultivated.%n%nTheir Simmering Combs are no joke! You can centrifuge them down to get Phosphor, which you can then squeeze to get lava. Lava!%n%n
 
 # Quest: Fiendish
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIgg.name=Fiendish
@@ -11379,7 +11379,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIgw.desc=Secluded bees are real loners. 
 
 # Quest: Austere
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIhA.name=Austere
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIhA.desc=Another bee that requires an attentive beekeeper. Without an Apiarist suit, this bee will inflict creeper explosions on you. Watch you. It will require a hot or hellish biome with Arid humidity. Breed them from Modest and Frugal.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIhA.desc=Another bee that requires an attentive beekeeper. Without an Apiarist suit, this bee will inflict creeper explosions on you. Watch out! It will require a hot or hellish biome with Arid humidity. Breed them from Modest and Frugal.%n%n[note]Breeder's Notes:%n%nAustere may want a hellish biome, but that doesn't mean this species wants to be in The Nether. By default, they need to see the sky. You will either have to use an alveary with climate modifications to appease them, or alter an Overworld biome to their tastes. Something like the Potion of Shifting Seasons can put a little bit of a nether biome like Boneyard in the Overworld. You could get lucky and find an Overworld biome scorching hot enough to make them happy, but that's some serious luck.%n%nThe creeper explosions are usually just a bit annoying, but we once had an apiarist in steel armor and full, §agreen§r hearts get turned into a gravestone in §oone hit.§o §rThey were prepping to gear up into their apiarist suit, but they happened to be in its territory. Don't mess around with this species![/note]%n%n
 
 # Quest: Frugal
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIhQ.name=Frugal
@@ -11395,11 +11395,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIhw.desc=The Red Alloy princess will req
 
 # Quest: Redstone
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIiA.name=Redstone
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIiA.desc=The Redstone princess will require a block of Redstone. Breed them from Industrious and Demonic.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIiA.desc=The Redstone princess will require a block of Redstone. Breed them from Industrious and Demonic.%n%n[note]Breeder's Notes:%n%nThe stock versions of Industrious and Demonic have incompatible climates:%n%nDemonic:%n  * HELLISH down 2 (to WARM)%n  * ARID zero tolerance%nIndustrious:%n  * NORMAL temperature, zero tolerance%n  * NORMAL humidity, zero tolerance%n%nYou will probably have to do something to make it work, which can include just running around a lot between apiaries in different places depending on the queen you get on any cycle.%n%nWhen the Redstone species starts to appear, it'll probably also want NORMAL/NORMAL with zero tolerance, but will need nether pollination.%n%n[/note]
 
 # Quest: Monastic
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIiQ.name=Monastic
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIiQ.desc=Monastic bees aren't found in hives or bred. Instead, you will need to find a Beekeeper villager and trade with them for it. There are various ways to make more villagers, so do some research.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIiQ.desc=Monastic bees aren't found in hives or bred. Instead, you will need to find a Beekeeper villager and trade with them for it. There are various ways to make more villagers, so do some research.%n%n[note]Trader's Notes:%n%nBeekeeper villagers spawn in houses that have a fenced back yard with apiaries. If the apiaries are missing, the villager didn't spawn. Or, well, a player already came along and looted the apiaries. They might have abducted the beekeeper too. The beekeeper should be wearing an apiarist outfit. Their initial trades probably don't have this bee. You will have to work up to this by trading what is available. If they require a princess for a trade, an ignoble one is fine. Honorable mention goes to the trade of some logs for an apiary. That's so much easier than having to make them yourself! If trades lock up, one trade of the "rightmost" trade should unlock preceding ones so you can keep trying to get this trade to pop up.%n%nYou can make a golden lasso at LV tier and run off with the villager. If you do, prepare a heavily-fortified spot. Even single-block-wide walls won't keep all zombies away. Consider just keeping the beekeeper in the lasso when you're not using them.%n%nBeekeeper's Notes:%n%nThe base fertility for a Monastic bee is 1x. That's really annoying. When each cycle ends, you get a princess and a drone. That's it. You don't get surplus stock for carrying on breeding. If you can't just straight up alter the genome, then you can try to convert an arctic princess (or something else with a high fertility) with monastic drones in a way that gives you a higher fertility.%n%nOn the flip side, their long life is useful to try to get into production bees so you don't quickly clog up your bee product inventories with drones.%n%nThe "monastic line" of bees have other quirks. They'll take stuff like wheat and bookshelves as pollination sources. They can have some nasty aggression habits. They are long-lived, so you want something that cuts their life cycle for breeding--like an oblivion frame. You will start out here with a bee that likes average temperatures and humidity, but that'll drift to outright hellish and arid (but not The Nether!) for descendant species.%n[/note]%n%n
 
 # Quest: Vibrant Alloy
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIig.name=Vibrant Alloy
@@ -11427,7 +11427,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIjw.desc=For early Chrome, a Ruby bee is
 
 # Quest: Tin
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIkA.name=Tin
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIkA.desc=Tin is a great early bee to get, saving your time looking for Cassiterite Sand. You'll need a Tin block. Breed them from Clay and Diligent.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIkA.desc=Tin is a great early bee to get, it can save time you'd otherwise spend looking for Cassiterite Sand. You'll need a Tin block. Breed them from Clay and Diligent.%n%nThe Tin Combs have a strong chance of centrifuging into tin dust, but you'll also see a Chemical Reactor recipe to use hydrochloric acid to get a 1:1 exchange. You have some bee options for getting chlorine so you should think about a sustained hydrochloric acid production line soon. You'll eventually §lhave to §ruse hydrochloric acid and won't have Centrifuge recipes for later combs.
 
 # Quest: Iron
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIkQ.name=Iron
@@ -11435,11 +11435,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIkQ.desc=Iron bees as a resource isn't t
 
 # Quest: Nickel
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIkg.name=Nickel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIkg.desc=Nickel bees provide a pretty useful resource. You'll need a block of Nickel. Breed them from Iron and Copper.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIkg.desc=Nickel bees provide a pretty useful resource. You'll need a block of Nickel. Breed them from Iron and Copper.%n%nNickel Combs cannot be centrifuged. You now need to use a Chemical Reactor with some hydrochloric acid.
 
 # Quest: Zinc
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIkw.name=Zinc
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIkw.desc=Zinc makes great early game item pipes when mixed into brass. Also, these bees have a small chance of producing Gallium combs, which is very useful for players needing to make circuits or SMD devices. These bees will require a Zinc block. Breed them from Tin and Iron.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIkw.desc=Zinc makes great early game item pipes when mixed into brass. Also, these bees have a small chance of producing Gallium combs, which is very useful for players needing to make circuits or SMD devices. These bees will require a Zinc block. Breed them from Tin and Iron.%n%nZinc Combs cannot be centrifuged. You now need to use a Chemical Reactor with some hydrochloric acid.%n%n[note]Breeder's Notes:%n%nYou probably only bred this as a stepping stone into the other metals. Nonetheless, that gallium is no joke! The queen will need to be jubilant for you to get those, so you need to match up its temperature and humidity band exactly. Your HUD will have a note when you are pointed at the apiary about if it's not jubilant. The default band is just NORMAL/NORMAL so any old plain/prairie kind of place will probably do.[/note]
 
 # Quest: Lead
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIlA.name=Lead
@@ -11495,7 +11495,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIoA.desc=Beware. These bees not only hat
 
 # Quest: Arcane
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIpA.name=Arcane
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIpA.desc=Enchanting drops from Arcane bees are used to create Aromatic Lumps for use in the Swarmer. It has a higher chance of success than normal Royal Jelly. These bees are the other bedrock of the Magic Bees branch. Breed them from Esoteric and Mysterious.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIpA.desc=Enchanting drops from Arcane bees are used to create Aromatic Lumps for use in the Swarmer. It has a higher chance of success than normal Royal Jelly. These bees are the other bedrock of the Magic Bees branch. Breed them from Esoteric and Mysterious.%n%n[note]Thaumaturge's Notes:%n%nIf you are playing with disabled Thaumcraft research, and instead pay for research with aspects, then review descendants of this line. You can cross with Monastic bees, working your way to Pupil, and then on to Savant. Savant queens will produce lore fragments that you can combine into knowledge shards. That will help you stock up on aspects that you can put towards all the Praecantatio the alternate research mode requires.%n%nIt doesn't get its own quest progression because that's a pretty niche use. On the other hand, those ... academic bees also produce Paper Combs that can be centrifuged into paper.%n[/note]
 
 # Quest: Eldritch
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIpQ.name=Eldritch
@@ -11563,7 +11563,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAItA.desc=Not much to say about this bee.
 
 # Quest: Spirit
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAItQ.name=Spirit
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAItQ.desc=The Spirit bee is the first bee to give you Soul Combs, necessary for Soulful Wax, used in many magical frames. Breed them from Ethereal and Aware.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAItQ.desc=The Spirit bee is the first bee to give you Soul Combs, necessary for Soulful Wax, used in many magical frames. Breed them from Aware and either Ethereal or Attuned.
 
 # Quest: Soul
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAItg.name=Soul
@@ -11579,11 +11579,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIuA.desc=Ordered bees require Ordered Cr
 
 # Quest: Vis
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIuQ.name=Vis
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIuQ.desc=Vis bees lead to some of the most powerful bees in the whole pack. They require a node within 75m of the bee housing. Make sure the lunar phase matches the requirements. Breed them from Ethereal and Infernal.%n%n[note]Astronomer's Notes: The waxing and waning phases happen on alternating days. The moon starts its next phase at sunrise and will keep to the same phase all day and all night. You want to prepare the day before, get to bed to start the next day, and immediately get to work. Also, congratulations if you just learned that the moon in Minecraft has phases!%n%nBreeder's Notes: Just because this bee only mutates around specific lunar phases doesn't mean you can't work on them in other phases. To get the mutations to show up at all, yes, you need correct lunar phases. However, you will need a spare Infernal or Ethereal princess to get started, and you can prep that any day. Also, once the Vis species trait shows up in some drones and/or a princess, it's just regular cross-breeding to get a pure princess and pure drone. That can be done any day too.%n%nYou do not need to breed at night to trigger the mutation.%n%nThe Ethereal and Infernal bees are a rough combination. Since you'll need a new princess for this bee, consider using a pristine princess that isn't aggressive and is closer to your Ethereal bees' climate. If you get lucky, you may breed out the aggression and produce hybrid Infernals that don't need to live in an oven to function. You will probably need your apiarist suit if the bred queen gets a dominant Infernal trait for a few cycles.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIuQ.desc=Vis bees lead to some of the most powerful bees in the whole pack. They require a node within 75m of the bee housing. Make sure the lunar phase matches the requirements. Breed them from Ethereal and Infernal.%n%n[note]Astronomer's Notes: The waxing and waning phases happen on alternating days. The moon starts its next phase at sunrise and will keep to the same phase all day and all night. You want to prepare the day before, get to bed to start the next day, and immediately get to work. Also, congratulations if you just learned that the moon in Minecraft has phases!%n%nBreeder's Notes: Just because this bee only mutates around specific lunar phases doesn't mean you can't work on them in other phases. To get the mutations to show up at all, yes, you need correct lunar phases. However, you will need a spare Infernal or Ethereal princess to get started, and you can prep that any day. Also, once the Vis species trait shows up in some drones and/or a princess, it's just regular cross-breeding to get a pure princess and pure drone. That can be done any day too.%n%nDespite the focus on moon phases, you do not need to breed at night to trigger the mutation.%n%nThe Ethereal and Infernal bees are a rough combination. Since you'll need a new princess for this bee, consider using a pristine princess that isn't aggressive and is closer to your Ethereal bees' climate. If you get lucky, you may breed out the aggression and produce hybrid Infernals that don't need to live in an oven to function. You will probably need your apiarist suit if the bred queen gets a dominant Infernal trait for a few cycles.[/note]
 
 # Quest: Rejuvenating
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIug.name=Rejuvenating
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIug.desc=Rejuvenating bees must be bred within 25m of a node. They will slowly charge the nearest node. Breed them from Vis and Attuned.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIug.desc=Rejuvenating bees must be bred within 25m of a node. They will slowly charge the nearest node. Breed them from Vis and Attuned.%n
 
 # Quest: Empowering
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIuw.name=Empowering
@@ -11619,11 +11619,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIwg.desc=Tired of all the effort it take
 
 # Quest: Heroic
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIww.name=Heroic
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIww.desc=This one takes a little luck. You'll have to find Steadfast bees in a dungeon chest. Their useful effect is causing damage to hostile mobs. Breed them from Steadfast and Valiant.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIww.desc=This one takes a little luck. You'll have to find Steadfast drones in chests classified as dungeon chests. Note that doesn't mean the chests have to be in a dungeon! You could find one in the middle of some Thaumcraft obsidian pillars right on the surface of The Overworld. %n%nHeroic bees have the pleasant effect of causing damage to hostile mobs. Breed them from Steadfast and Valiant.%n%n[note]Breeder's Notes:%n%nSpecifically, you'll only ever find Steadfast drones in the chests. §nNo princesses.§r You'll have to convert a princess if you want to make a stock of them. Heroic is the only thing you can use them for, but you'll have a better time of it if you have more than a handful of drones. So if you play your cards well and use a high-fertility starter princess, you could take one or two Steadfast drones and multiply them into something safer before trying this mutation.[/note]
 
 # Quest: Nameless
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIxA.name=Nameless
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIxA.desc=Oblivion bees can be purchased with coins, or found in the End. Nameless is required to get Draconic bees. Nameless are also where you can get Amnesiac Wax. Breed them from Oblivion and Ethereal.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIxA.desc=Nameless bees are required to get Draconic bees. They are also where you can get Amnesiac Wax. Breed them from Oblivion and Ethereal. Oblivion bees can be purchased with coins, or found in The End.%n%n[note]Breeder's Notes:%n%nThe Oblivion bees are going to be the main problem here if you haven't reached The End yet. You can try to cross-breed without that access, but you're stuck when the mating pair creates an Oblivion Queen that needs End pollinators.[/note]
 
 # Quest: Abandoned
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIxQ.name=Abandoned
@@ -11680,6 +11680,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpg.desc=Breed an industrious with a her
 # Quest: Energium
 betterquesting.quest.B0XRo_S1RveAsKZSXms9vg.name=Energium
 betterquesting.quest.B0XRo_S1RveAsKZSXms9vg.desc=Are you tired of making Energium Dust by mixing Ruby and Redstone Dust? This bee offers a way to acquire it directly - how convenient is that? To breed it, you'll need to place some Hot Coolant below the hive while inside a Boneyard found in the Nether.%n%nUnlike its parents, this bee won't burn down your base—but it will set you on fire if you're not wearing your apiarist suit!
+
+# Quest: Attuned
+betterquesting.quest.EM4Z9io4QGSBNdSnymJNmg.name=Attuned
+betterquesting.quest.EM4Z9io4QGSBNdSnymJNmg.desc=You're now getting into Magic Bees, and one of its mundane bee species is the Attuned species. These are scooped out of Deep Hives that you can find in the Overworld. These hives are a pain to find, so you should consider just buying hives with coins until you get a princess and a drone. However, if you are a real masochist or completionist try-hard, then here's some information about where they spawn:%n%n* From Y=1 to Y=25%n* In stone, surrounded on 5 sides. Not just vanilla stone.%n* In biomes tagged with one or more of:%n   * MOUNTAINS: Actual mountains may not count. It's the biome type that counts.%n      * Example: Canyon.%n   * HILLS: Again, actual hills don't count.%n      * Example: Snowy Coniferous Forest.%n   * MAGICAL: Unlike the others, they do have some ethereal aspect.%n      * Examples: Magical Forest is obvious, but also Cherry Blossom Grove counts.%n* Surrounded by a small redstone vein. This often fills any open space around them.%n%nThey also like to just kind of show up whatever-what-the-heck in other biomes. Our beekeeping intern found a Deep Hive in a Lush Desert:%n%nLush Desert [HOT, DRY, SAVANNA, LUSH, SANDY]%n%nYou can dump the biome data in NEI by clicking on the NEI options button (the wrench), then the Tools button, then the Data Dumps button, and finally the Dump button in the biomes category. This creates a "dumps" directory in the root folder of the modpack with a biome.csv inside of it. Any listed biome that has the tags of HILLS, MOUNTAINS, and/or MAGICAL can generate Deep Hives. You can feed these biomes into a Nature's Compass and see if there are any nearby.%n%nProspector's Scanners will pick up the little ore pockets for these (traces, small samples). If you had one of those end-game ones with a display, it would come up as a few red pixels. Larger ones are probably just regular ore veins. The ore finding wand doesn't do a good job from the surface. Chasing lava veins and tunnels helps. Ore veins filled with redstone will saturate either tool.%n%nOf course, just buying hives is the low-effort way.%n%n[note]Beekeeper's Notes:%n%nIf you get real bad luck and wind up with an ignoble princess, then just get a bunch of drones out of it and convert some other pristine princess afterwards. However, using base princesses will compel the bees to turn into the Common species. There are two choices:%n%n1. Use an Alveary with an Alveary Stabilizer to block mutations.%n2. Create a princess that doesn't line up with the Attuned species' breeding possibilities before starting.[/note]
 
 # Quest: Salt
 betterquesting.quest.N0ZqNLJfSmaBKTNU7TbIAQ.name=Salt
