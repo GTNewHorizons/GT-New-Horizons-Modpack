@@ -43,6 +43,12 @@
           "Damage:2": 51,
           "OreDict:8": "",
           "id:8": "enhancedlootbags:lootbag"
+        },
+        "1:10": {
+          "Count:3": 16,
+          "Damage:2": 502,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockores2"
         }
       }
     }
@@ -52,7 +58,7 @@
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
+      "ignoreNBT:1": 0,
       "index:3": 0,
       "partialMatch:1": 1,
       "requiredItems:9": {

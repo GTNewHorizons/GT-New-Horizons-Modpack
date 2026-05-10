@@ -12,7 +12,7 @@
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 1153,
+        "Damage:2": 15528,
         "OreDict:8": "",
         "id:8": "gregtech:gt.blockmachines"
       },
@@ -103,30 +103,12 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 18,
+          "Damage:2": 15528,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
-        },
-        "1:10": {
-          "Count:3": 4,
-          "Damage:2": 31325,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.02"
-        },
-        "2:10": {
-          "Count:3": 2,
-          "Damage:2": 5204,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
-        },
-        "3:10": {
-          "Count:3": 2,
-          "Damage:2": 32090,
-          "OreDict:8": "circuitUltimate",
-          "id:8": "gregtech:gt.metaitem.03"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
       "autoConsume:1": 0,
@@ -137,30 +119,24 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 1,
-          "Damage:2": 90,
+          "Count:3": 14,
+          "Damage:2": 316,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "gregtech:gt.blockframes"
         },
         "1:10": {
-          "Count:3": 1,
-          "Damage:2": 51,
+          "Count:3": 12,
+          "Damage:2": 15,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "gregtech:gt.blockcasings2"
         },
         "2:10": {
-          "Count:3": 1,
-          "Damage:2": 61,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
-        },
-        "3:10": {
-          "Count:3": 29,
+          "Count:3": 11,
           "Damage:2": 12,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockcasings4"
         },
-        "4:10": {
+        "3:10": {
           "Count:3": 1,
           "Damage:2": 15201,
           "OreDict:8": "",
@@ -168,23 +144,6 @@
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
-    },
-    "2:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 2,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 1,
-          "Damage:2": 1153,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

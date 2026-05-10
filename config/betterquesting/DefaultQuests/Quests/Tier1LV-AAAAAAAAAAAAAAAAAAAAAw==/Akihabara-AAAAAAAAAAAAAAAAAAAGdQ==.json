@@ -45,6 +45,12 @@
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "minecraft:emerald"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
         }
       }
     },
@@ -54,12 +60,6 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 1,
-          "Damage:2": 4,
-          "OreDict:8": "",
-          "id:8": "enhancedlootbags:lootbag"
-        },
-        "1:10": {
           "Count:3": 15,
           "Damage:2": 0,
           "OreDict:8": "",

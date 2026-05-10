@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The Seed Generator is a single-block machine that can clone §omost§r existing seeds (with some very rare exceptions).\n\nIn order to clone a seed, you\u0027ll need to provide the following:\n- 36L of §2Enriched Fertilizer§r per stat point; So a 31/31/31 seed will require just under 3.4KL of §2Enriched Fertilizer§r per seed.\n- Some crops may require an additional catalyst item based on the material produced by the seed.\n\nThe seed generator has an NEI tab so feel free to consult it.\n\nThe fluid storage capacity of the Seed Generator is §omuch smaller§r than most machines, [note]you\u0027ll need at least an §5HV§r machine to replicate crops with maxed stats.[/note]\n\r\n§oYou only need one of the machines for this quest.",
+      "desc:8": "The Seed Generator is a single-block machine that can clone §omost§r existing seeds (with some very rare exceptions).\n\nIn order to clone a seed, you\u0027ll need to provide the following:\n- 36L of §2Enriched Fertilizer§r per stat point; So a 31/31/31 seed will require just under 3.4KL of §2Enriched Fertilizer§r per seed.\n- Some crops may require an additional catalyst item based on the material produced by the seed.\n\nThe seed generator has an NEI tab so feel free to consult it.\n\nThe fluid storage capacity of the Seed Generator is §omuch smaller§r than most machines, [note]you\u0027ll need at least an §5HV§r machine to replicate crops with maxed stats.[/note]\n\n§oYou only need one of the machines for this quest.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,

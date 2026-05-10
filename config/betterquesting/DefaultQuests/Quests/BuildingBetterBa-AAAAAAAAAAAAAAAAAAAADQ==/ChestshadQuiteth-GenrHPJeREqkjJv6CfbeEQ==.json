@@ -12,7 +12,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Compartments are fancy chests with extra features that make them much easier to navigate.\r\n\r\nTheir inventory is split into different folders, which can be named and color-coded. They also come with a search feature that allows you to search for items in any of the compartment\u0027s folders.\r\n\r\nThe largest compartment can store up to 400 stacks of items.\r\n\r\n[note]Place a compartment next to a crafting station for easy access to its entire storage space![/note]",
+      "desc:8": "Compartments are fancy chests with extra features that make them much easier to navigate.\n\nTheir inventory is split into different folders, which can be named and color-coded. They also come with a search feature that allows you to search for items in any of the compartment\u0027s folders.\n\nThe largest compartment can store up to 400 stacks of items.\n\n[note]Place a compartment next to a crafting station for easy access to its entire storage space![/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,

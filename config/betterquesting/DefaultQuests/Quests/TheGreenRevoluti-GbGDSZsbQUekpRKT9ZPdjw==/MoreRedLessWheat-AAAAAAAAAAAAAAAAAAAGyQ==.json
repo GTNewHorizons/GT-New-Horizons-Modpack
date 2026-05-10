@@ -54,11 +54,17 @@
           "tag:10": {
             "ench:9": {
               "0:10": {
-                "id:4": 35,
-                "lvl:4": 3
+                "id:2": 35,
+                "lvl:2": 3
               }
             }
           }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:redstone_block"
         }
       }
     }

@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Now that you\u0027ve made some tools, you can start getting into some real agriculture. Get ready to craft many more iron saws...\n\nWelcome to CropsNH, the premiere passive resource production mo.... wait sorry I\u0027m hearing just now that Bees do in fact still exist.\r\n\r\nAnyways, if you want to learn how to till your way to the Stargate, with the passive resources needed throughout much of your progression, this is the place to be.\r\n\r\nThe first step will be obtaining a stock of basic crops which you can breed from. If you don\u0027t already have them go steal some from those villagers, or that witch down the hill.",
+      "desc:8": "Now that you\u0027ve made some tools, you can start getting into some real agriculture. Get ready to craft many more iron saws...\n\nWelcome to CropsNH, the premiere passive resource production mo.... wait sorry I\u0027m hearing just now that Bees do in fact still exist.\n\nAnyways, if you want to learn how to till your way to the Stargate, with the passive resources needed throughout much of your progression, this is the place to be.\n\nThe first step will be obtaining a stock of basic crops which you can breed from. If you don\u0027t already have them go steal some from those villagers, or that witch down the hill.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -36,25 +36,6 @@
   "questIDLow:4": 718,
   "rewards:9": {
     "0:10": {
-      "ignoreDisabled:1": 0,
-      "index:3": 1,
-      "rewardID:8": "bq_standard:item",
-      "rewards:9": {
-        "0:10": {
-          "Count:3": 1,
-          "Damage:2": 51,
-          "OreDict:8": "",
-          "id:8": "enhancedlootbags:lootbag"
-        },
-        "1:10": {
-          "Count:3": 15,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "dreamcraft:CoinFarmer"
-        }
-      }
-    },
-    "1:10": {
       "choices:9": {
         "0:10": {
           "Count:3": 5,
@@ -70,8 +51,34 @@
         }
       },
       "ignoreDisabled:1": 0,
-      "index:3": 2,
+      "index:3": 0,
       "rewardID:8": "bq_standard:choice"
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 51,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      }
+    },
+    "2:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 2,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 15,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:CoinFarmer"
+        }
+      }
     }
   },
   "tasks:9": {

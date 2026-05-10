@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The Advanced Harvesting Unit increases the production rate of your Industrial Farm. Only two are allowed per Industrial Farm. Each one increases the number of drops by 20%, and power usage by 50%. \r\n\n[note]Unlike the bonuses given by the Seed Beds and Fertilization Units, the bonuses given by the Advanced Harvesting Unit is applied as a final multiplier. This means that each Advanced Harvesting Unit will always increase your overall production by 20 to 40% depending on how many upgrades you\u0027re using.[/note]\n\r\nAs with all upgrades, the tier of the upgrade must match the tier of the Seed Bed.",
+      "desc:8": "The Advanced Harvesting Unit increases the production rate of your Industrial Farm. Only two are allowed per Industrial Farm. Each one increases the number of drops by 20%, and power usage by 50%.\n\n[note]Unlike the bonuses given by the Seed Beds and Fertilization Units, the bonuses given by the Advanced Harvesting Unit is applied as a final multiplier. This means that each Advanced Harvesting Unit will always increase your overall production by 20 to 40% depending on how many upgrades you\u0027re using.[/note]\n\nAs with all upgrades, the tier of the upgrade must match the tier of the Seed Bed.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,

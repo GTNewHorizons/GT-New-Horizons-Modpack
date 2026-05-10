@@ -73,12 +73,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "miscutils:itemLavaFilter",
-          "tag:10": {
-            "LavaFilter:10": {
-              "Damage:4": 0
-            }
-          }
+          "id:8": "miscutils:itemLavaFilter"
         },
         "2:10": {
           "Count:3": 1,

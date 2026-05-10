@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Finally you are able to make a device that will replace your mortar. However, the \"no-durability\" feature of this device comes with a cost: You need 2 diamonds for the grinding heads.\n\nThe macerator will double your ore output. Put ores through it instead of smelting directly.\n\n§3NOTE: Remember, don\u0027t block the output port and don\u0027t stand behind it.§r",
+      "desc:8": "Finally you are able to make a device that will replace your mortar. However, the \"no-durability\" feature of this device comes with a cost: You need 2 diamonds for the grinding heads.\n\nThe macerator will double your ore output. Put ores through it instead of smelting directly.\n\n§3NOTE: Remember, don\u0027t block the output port and don\u0027t stand behind it.§r\n\n[warn]The Steam Macerator and each tier up to HV only have one output slot, so they cannot produce bonus outputs![/warn]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

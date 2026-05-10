@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The Fertilization Unit allows for the use of Enriched Fertilizer to boost production massively. Only one is allowed per Industrial Farm, but it increases growth speed by 50%, number of drops by 50%, and power usage by 50%. \r\n\n[note]The growth speed increase is applied as a final multiplier. This means that it\u0027s even more effective when used in conjunction with other upgrades.[/note]\n\r\nAs with all upgrades, the tier of the upgrade must match the tier of the seedbed.",
+      "desc:8": "The Fertilization Unit allows for the use of Enriched Fertilizer to boost production massively. Only one is allowed per Industrial Farm, but it increases growth speed by 50%, number of drops by 50%, and power usage by 50%.\n\n[note]The growth speed increase is applied as a final multiplier. This means that it\u0027s even more effective when used in conjunction with other upgrades.[/note]\n\nAs with all upgrades, the tier of the upgrade must match the tier of the seedbed.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,

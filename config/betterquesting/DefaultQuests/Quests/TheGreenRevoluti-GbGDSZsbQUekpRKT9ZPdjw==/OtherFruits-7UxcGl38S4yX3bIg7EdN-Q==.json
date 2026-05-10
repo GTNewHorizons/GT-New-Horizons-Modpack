@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Yes, tomatoes and chillies are technically fruits.",
+      "desc:8": "Yes, tomatoes and chillies are technically fruits.\n\nOne of these crops is not like the other...",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -43,6 +43,12 @@
           "Damage:2": 51,
           "OreDict:8": "",
           "id:8": "enhancedlootbags:lootbag"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 6,
+          "OreDict:8": "",
+          "id:8": "minecraft:wool"
         }
       }
     }
