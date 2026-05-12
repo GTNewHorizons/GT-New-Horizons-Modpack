@@ -259,10 +259,8 @@
 			"image": "",
 			"slideshow": {
 				"images": [
-					"mainmenu:textures/weic2407b.jpg",
 					"mainmenu:textures/potm2306b.jpg",
 					"mainmenu:textures/potm2209b.jpg",
-					"mainmenu:textures/potm2412b.jpg",
 					"mainmenu:textures/carinanebula3.jpg",
 					"mainmenu:textures/pillarsofcreation_composite.jpg",
 					"mainmenu:textures/potm2306a.jpg",
@@ -273,7 +271,14 @@
 					"mainmenu:textures/ART002-E-21219.JPG",
 					"mainmenu:textures/ART002-E-9287.JPG",
 					"mainmenu:textures/ART002-E-21121.JPG",
-					"mainmenu:textures/ART002-E-15921.JPG"
+					"mainmenu:textures/ART002-E-15921.JPG",
+					"mainmenu:textures/28456416878-a79dfd7560-o.jpg",
+					"mainmenu:textures/37893980612-307324af83-o.jpg",
+					"mainmenu:textures/26705459369-a0397977f3-o.jpg",
+					"mainmenu:textures/24611537178-93d7cb54ea-o.jpg",
+					"mainmenu:textures/m104.jpg",
+					"mainmenu:textures/Hubble_NGC1961_potw2517a.jpg",
+					"mainmenu:textures/hubble-raquarii.jpg"
 				],
 				"displayDuration": 150,
 				"fadeDuration": 40,
