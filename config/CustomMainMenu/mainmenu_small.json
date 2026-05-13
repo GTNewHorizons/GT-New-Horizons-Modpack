@@ -93,7 +93,7 @@
 		"singleplayer": {
 			"text": "menu.gtnh.singleplayer",
 			"hoverText": "menu.gtnh.singleplayer.hover",
-			"normalTextColor": 4227327,
+			"normalTextColor": 4251903,
 			"hoverTextColor": 16711680,
 			"texture": "mainmenu:textures/btn4.png",
 			"posX": 0,
@@ -111,7 +111,7 @@
 		"multiplayer": {
 			"text": "menu.gtnh.multiplayer",
 			"hoverText": "menu.gtnh.multiplayer.hover",
-			"normalTextColor": 4227327,
+			"normalTextColor": 4251903,
 			"hoverTextColor": 65535,
 			"texture": "mainmenu:textures/btn4.png",
 			"posX": 0,
@@ -128,7 +128,7 @@
 		},
 		"options": {
 			"text": "menu.gtnh.options",
-			"normalTextColor": 4227327,
+			"normalTextColor": 4251903,
 			"hoverTextColor": 16758315,
 			"texture": "mainmenu:textures/btn4.png",
 			"posX": 0,
@@ -145,7 +145,7 @@
 		},
 		"language": {
 			"text": "menu.gtnh.language",
-			"normalTextColor": 4227327,
+			"normalTextColor": 4251903,
 			"hoverTextColor": 16758315,
 			"texture": "mainmenu:textures/btn4.png",
 			"posX": 0,
@@ -162,7 +162,7 @@
 		},
 		"mods": {
 			"text": "menu.gtnh.mods",
-			"normalTextColor": 4227327,
+			"normalTextColor": 4251903,
 			"hoverTextColor": 16758315,
 			"texture": "mainmenu:textures/btn4.png",
 			"posX": 0,
