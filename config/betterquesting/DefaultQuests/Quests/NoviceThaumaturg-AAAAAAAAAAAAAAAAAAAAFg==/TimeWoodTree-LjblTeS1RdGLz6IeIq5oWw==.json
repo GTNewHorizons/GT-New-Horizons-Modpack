@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "§fTimewood is a special block that can be found and obtained in The Twilight Forest. It can be used to accelerate vanilla crops and vanilla mob spawners, making farms significantly faster and more efficient.\n\nTo find this tree, you must explore inside the massive Twilight Forest trees and search the loot chests hidden within them. There is a small chance to find a Tree of Time sapling there.\n[warn]\nAfter growing the tree, you will need a Silk Touch tool to obtain the Timewood acceleration block itself. The block generates hidden inside the tree after it grows.[/warn]\n[note]\nIf you break it without Silk Touch, it will instead drop several vanilla gold clocks.[/note]",
+      "desc:8": "§f The Timewood Clock is a special block that can be obtained in The Twilight Forest. It can be used to accelerate vanilla crops in a 16 block radius, making farms significantly faster and more efficient.\n\nTo get one, you must explore inside the massive Twilight Forest trees and search the loot chests hidden within them. There is a small chance to find a Tree of Time sapling. The clock generates hidden inside the tree after it grows.\n[warn]\nAfter growing the tree, you will need a Silk Touch tool to obtain the Timewood Clock itself.[/warn]\n[note]\nIf you break it without Silk Touch, it will instead drop several vanilla gold clocks.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
