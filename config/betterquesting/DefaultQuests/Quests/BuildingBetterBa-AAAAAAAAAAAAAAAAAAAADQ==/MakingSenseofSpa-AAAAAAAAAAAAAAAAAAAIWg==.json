@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Nobody likes an untidy base. Why don\u0027t you use some color to organize things a little!\nThe paint brush, painter, and spray cans can be used to color machines, wires, cables, pipes, wool, stained glass, and more!\n\nThe paint brush is the cheapest to make paint for, only requiring one piece of colored dye. The painter requires distilled water and a chemical bath to create paint for. The spray can uses chemical dye, which requires an MV chemical reactor to make.\n\nAny painted block can be painted over with another color, but to remove the color entirely you need to break the block while sneaking or use a can of solvent.\n\n[note]Sneaking while using a spray can or paint brush will color an entire line of blocks![/note]",
+      "desc:8": "Nobody likes an untidy base. Why don\u0027t you use some color to organize things a little!\nThe paint brush, painter, and spray cans can be used to color machines, wires, cables, pipes, wool, stained glass, and more!\n\nThe paint brush is the cheapest to make paint for, only requiring one piece of colored dye. \nThe painter requires distilled water and a chemical bath to create paint for. \nThe spray can uses chemical dye, which requires an MV chemical reactor to make.\nThe color applicator uses paint balls and can store all 16 colors at once.\n\nAny painted block can be painted over with another color, but to remove the color entirely you need to break the block while sneaking or use a can of solvent.\n\n[note]Sneaking while using a spray can or paint brush will color an entire line of blocks![/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -125,6 +125,24 @@
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 3,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "appliedenergistics2:item.ToolColorApplicator",
+          "tag:10": {}
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "4:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 4,
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
