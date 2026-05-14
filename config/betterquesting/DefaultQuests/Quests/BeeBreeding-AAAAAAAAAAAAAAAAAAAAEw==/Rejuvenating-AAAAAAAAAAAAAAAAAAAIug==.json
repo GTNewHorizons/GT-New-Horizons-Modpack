@@ -3,12 +3,16 @@
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 2233
+    },
+    "1:10": {
+      "questIDHigh:4": 1210933894870220900,
+      "questIDLow:4": -9136162451931116134
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Rejuvenating bees must be bred within 25m of a node. They will slowly charge the nearest node. Breed them from Vis and Attuned.",
+      "desc:8": "Rejuvenating bees must be bred within 25m of a node. They will slowly charge the nearest node. Breed them from Vis and Attuned.\n",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

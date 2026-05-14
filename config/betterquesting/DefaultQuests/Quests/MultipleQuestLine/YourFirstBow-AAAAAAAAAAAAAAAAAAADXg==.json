@@ -188,7 +188,7 @@
           "id:8": "TConstruct:bowstring"
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:optional_retrieval"
     },
     "2:10": {
       "autoConsume:1": 0,

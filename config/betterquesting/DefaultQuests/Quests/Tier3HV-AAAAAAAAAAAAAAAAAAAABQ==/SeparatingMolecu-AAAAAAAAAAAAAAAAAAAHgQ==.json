@@ -36,10 +36,17 @@
   "questIDLow:4": 1921,
   "rewards:9": {
     "0:10": {
-      "ignoreDisabled:1": 1,
+      "ignoreDisabled:1": 0,
       "index:3": 0,
-      "questID:8": "AAAAAAAAAAAAAAAAAAAFKg\u003d\u003d",
-      "rewardID:8": "bq_standard:questcompletion"
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 6,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      }
     },
     "1:10": {
       "ignoreDisabled:1": 0,
@@ -48,17 +55,17 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 6,
-          "OreDict:8": "",
-          "id:8": "enhancedlootbags:lootbag"
-        },
-        "1:10": {
-          "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "dreamcraft:CoinTechnicianII"
         }
       }
+    },
+    "2:10": {
+      "ignoreDisabled:1": 1,
+      "index:3": 2,
+      "questID:8": "AAAAAAAAAAAAAAAAAAAFKg\u003d\u003d",
+      "rewardID:8": "bq_standard:questcompletion"
     }
   },
   "tasks:9": {

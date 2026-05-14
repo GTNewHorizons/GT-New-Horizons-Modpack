@@ -9,7 +9,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Rural bees like to live out in the country - you\u0027ll have to relocate to a Plains-type biome for these. Breed them from Diligent and Meadows.",
+      "desc:8": "Rural bees like to live out in the country - you\u0027ll have to relocate to a Plains-type biome for these. Breed them from Diligent and Meadows.\n\nThey produce Wheaten Combs, which make . . . wheat. Hey, it ain\u0027t nothing! Still, this bee is more of a speed bump on the way to bigger projects.\n\n[note]They will take any biome with the PLAINS tag. You can dump the biome data in NEI by clicking on the NEI options button (the wrench), then the Tools button, then the Data Dumps button, and finally the Dump button in the biomes category. This creates a \"dumps\" directory in the root folder of the modpack with a biome.csv inside of it. Any listed biome that has the PLAINS tag is fair game. You can feed these biomes into a Nature\u0027s Compass and see if there are any nearby.[/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
