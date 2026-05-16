@@ -56,7 +56,7 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 128,
+          "Count:3": 64,
           "Damage:2": 11316,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.01"

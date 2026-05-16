@@ -2,16 +2,16 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": -5094892507915006940,
-      "questIDLow:4": -5115695210744173999,
-      "type:1": 1
+      "questIDLow:4": -5115695210744173999
     },
     "1:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 3236
+      "questIDLow:4": 2588
     },
     "2:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 2588
+      "questIDHigh:4": -7258147845490913659,
+      "questIDLow:4": -8867368593153737538,
+      "type:1": 1
     }
   },
   "properties:10": {

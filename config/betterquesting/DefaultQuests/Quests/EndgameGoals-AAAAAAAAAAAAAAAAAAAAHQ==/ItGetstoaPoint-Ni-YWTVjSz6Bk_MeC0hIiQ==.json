@@ -1,25 +1,25 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 6411465645269994516,
-      "questIDLow:4": -5575624123602641916
+      "questIDHigh:4": -1224350904333220370,
+      "questIDLow:4": -6509950608256890330
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Carefully treating raw computer parts with purified water allows you to make optically enhanced chips. These use light waves to do computations at a speed you previously couldn\u0027t imagine. Making them is quite an involved process however.",
+      "desc:8": "You are not done with wafers. Ok well, now you are, kind of.\n\nInfinite Wafers are the final tier of raw wafer, forged directly in the God Forge. Who knew silicon could hold up for this long?\n\nYocto Power ICs are used in Magmatter Nanites, MAX circuits, and UXV Energy Hatches.\n\n\r\n[note]You\u0027ll need a UXV Laser Engraver to cut these.\r\n\r\nYocto Power ICs need to be coated in Quark Gluon Plasma in an Exo-Foundry, overclocked to reach the MAX voltage required. This step cannot be done in a Mass Solidifier.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 32724,
+        "Damage:2": 32272,
         "OreDict:8": "",
         "id:8": "gregtech:gt.metaitem.03"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§5§l§nUsing Light to Compute",
+      "name:8": "§4§l§nIt Gets to a Point",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -30,8 +30,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 6240105828909796885,
-  "questIDLow:4": -6772057045989436864,
+  "questIDHigh:4": 3904506910868720446,
+  "questIDLow:4": -9109670310876526455,
   "rewards:9": {},
   "tasks:9": {
     "0:10": {
@@ -44,7 +44,7 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 32721,
+          "Damage:2": 32276,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.03"
         }
@@ -61,7 +61,7 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 32722,
+          "Damage:2": 32272,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.03"
         }
@@ -77,25 +77,8 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 1,
-          "Damage:2": 32723,
-          "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.03"
-        }
-      },
-      "taskID:8": "bq_standard:optional_retrieval"
-    },
-    "3:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 3,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 1,
-          "Damage:2": 32724,
+          "Count:3": 2,
+          "Damage:2": 32273,
           "OreDict:8": "",
           "id:8": "gregtech:gt.metaitem.03"
         }
