@@ -3918,7 +3918,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKRA.desc=You'll need this for the next t
 
 # Quest: Quantum Power ICs
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKSQ.name=§2§l§nQuantum Power ICs
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKSQ.desc=You need Quantum Power ICs for UEV -> UIV and UIV -> UMV transformers, and UHV Hatches and Dynamos.%n%n[note]You'll need a UHV Cutting Machine, or an OC'd multi to actually cut the wafers.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKSQ.desc=You need Quantum Power ICs for UEV -> UIV transformers and UHV Hatches and Dynamos.%n%n[note]You'll need a UHV Cutting Machine, or an OC'd multi to actually cut the wafers.[/note]
 
 # Quest: Circuits, Assemble!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKSw.name=§2§l§nCircuits, Assemble!
@@ -4282,6 +4282,10 @@ betterquesting.quest.H3Tvy4ZKSyiQGT16Og90bA.desc=UEV energy hatches? Great! Time
 betterquesting.quest.H_S9zi1_SUKG7JkEYgJIiA.name=§5§l§nAssembling in Space
 betterquesting.quest.H_S9zi1_SUKG7JkEYgJIiA.desc=This new Space Elevator module can be used to make lapotron orbs more easily, and to make the raw components for optical circuits.
 
+# Quest: Using Light to Compute
+betterquesting.quest.L88EN1-iS1CQbixJBH_arQ.name=§5§l§nUsing Light to Compute
+betterquesting.quest.L88EN1-iS1CQbixJBH_arQ.desc=Carefully treating raw computer parts with purified water allows you to make optically enhanced chips. These use light waves to do computations at a speed you previously couldn't imagine. Making them is quite an involved process however.
+
 # Quest: NAC™: Wetware and Bioware Package
 betterquesting.quest.NAUxWAKzTHifGrUSGPcb5w.name=§5§l§nNAC§r§5§n™§r§5§n§l: Wetware and Bioware Package
 betterquesting.quest.NAUxWAKzTHifGrUSGPcb5w.desc=So you've chosen the §5§nWetware and Bioware Package§r for your newly purchased NAC™. A wise choice, as these are some of the most important circuits you will make. See the attached owner's manual for installation instructions.%n%n§oGet it while you can! A two-for-one deal on circuit lines!§r%n%n§n§lAccelerated Biological Coordinator Owner's Manual:§r%n%nThe NAC™ will track the most recent 100,000 circuits crafted, and can be calibrated to a specific circuit type by reaching a certain percentage of circuits of this type. At 60%% (60,000) wetware circuits crafted, the NAC™ will become "fully calibrated" to wetware circuits, and the same applies to bioware circuits.%n%nDepending on which calibration has been achieved, the Biological Coordinator will provide one of two bonuses:%n- If calibrated to §nWetware§r, usage of Growth Catalyst Medium is reduced to zero%n- If calibrated to §nBioware§r, usage of both Growth Catalyst Medium and Bio Catalyst Medium is reduced to zero
@@ -4290,9 +4294,9 @@ betterquesting.quest.NAUxWAKzTHifGrUSGPcb5w.desc=So you've chosen the §5§nWetw
 betterquesting.quest.U4zxsdwqTUKsbTATYEJirg.name=§5§l§nMy Eyes Hurt! #1
 betterquesting.quest.U4zxsdwqTUKsbTATYEJirg.desc=Finally, you are ready to assemble these new circuits. This is a UV-tier circuit.%n%n[note]It's highly recommended that you invest in a NAC before starting with Optical Circuits[/note]
 
-# Quest: Using Light to Compute
-betterquesting.quest.VplPMJ0DThWiBNH_Hx5SQA.name=§5§l§nUsing Light to Compute
-betterquesting.quest.VplPMJ0DThWiBNH_Hx5SQA.desc=Carefully treating raw computer parts with purified water allows you to make optically enhanced chips. These use light waves to do computations at a speed you previously couldn't imagine. Making them is quite an involved process however.
+# Quest: Optically Enriched Boules
+betterquesting.quest.VplPMJ0DThWiBNH_Hx5SQA.name=§5§l§nOptically Enriched Boules
+betterquesting.quest.VplPMJ0DThWiBNH_Hx5SQA.desc=With high amounts of UU-Matter, and various lenses to cover all spectrums of light, Optically Enriched Crystalline Boules can be engraved using Americium Boules.
 
 # Quest: My Eyes Hurt! #3
 betterquesting.quest.WIx0jq8hS8ifWxZWTmC5yA.name=§5§l§nMy Eyes Hurt! #3
@@ -4330,6 +4334,10 @@ betterquesting.quest.gOySBVKnSAiJk0Fie9k55A.desc=To run the DTPF, you will need 
 betterquesting.quest.iO7VxrxPTbutGjRtrcoAxw.name=§5§l§nThe Perfect CPU?
 betterquesting.quest.iO7VxrxPTbutGjRtrcoAxw.desc=Using your new optically enhanced boards and chips, you've managed to create what looks like the perfect CPU! Surely this will be able to handle even the advanced computations you need to perform to breach dimensional boundaries.
 
+# Quest: Energised Tesseract
+betterquesting.quest.j4pFVWCCSBGZsTyI7wpCYA.name=§5§l§nEnergised Tesseract
+betterquesting.quest.j4pFVWCCSBGZsTyI7wpCYA.desc=Using high amounts of energy and the strange properties of a Quantum Anomaly, Tesseracts can become energised, unlocking hidden potential.%n%n[note]You better love crafting these...[/note]
+
 # Quest: Tier 10 (UEV)
 betterquesting.quest.k9PA3buhTvK1EJpPfA8ZAg.name=§5§l§nTier 10 (UEV)
 betterquesting.quest.k9PA3buhTvK1EJpPfA8ZAg.desc=Welcome to Extremely Ultimate Voltage! Now that you've started making your first infinity, it's time to start scaling up. In this tier, every component will require infinity. Be prepared to make tons. Your main goal to advance will be to build the Dimensionally Transcendent Plasma Forge, also known as the DTPF. This massive multiblock will unlock new powerful recipes to create infinity, neutronium and other special materials.
@@ -4337,6 +4345,10 @@ betterquesting.quest.k9PA3buhTvK1EJpPfA8ZAg.desc=Welcome to Extremely Ultimate V
 # Quest: NAC™: Automation Package
 betterquesting.quest.lonEUE4hRuWYuP3JKbeLaw.name=§5§l§nNAC§r§5§n™§r§5§n§l: Automation Package
 betterquesting.quest.lonEUE4hRuWYuP3JKbeLaw.desc=Our most popular addon for the NAC™ platform, the §5§nAutomation Package§r allows for easily routing components between modules* for all your processing needs! Simply attach a Vacuum Conveyor Output to the core of the NAC, color it the same color as your input bus(es), and now you can route components to modules using Vacuum Conveyor Pipes!%n%n§oNote*: Modules sold separately§r
+
+# Quest: Femto Power ICs
+betterquesting.quest.m0Xg_WY_ToWE8Mc-8J28vg.name=§5§l§nFemto Power ICs
+betterquesting.quest.m0Xg_WY_ToWE8Mc-8J28vg.desc=§5§fYou need Femto Power ICs for UIV -> UMV transformers, and UEV Energy/Dynamo Hatches.%n%n[note]You'll need a UEV Cutting Machine or an OC'd multi to actually cut the wafers.%n%nPerhaps invest in Beamline to craft these, the Infinity Catalyst takes a long time to smelt.[/note]
 
 # Quest: One Last Time
 betterquesting.quest.msIxGO5gQCWJPmEyp_JhtQ.name=§5§l§nOne Last Time
@@ -4374,10 +4386,18 @@ betterquesting.quest.uUtOQgjtTCS5AWZPWG0qUQ.desc=Expensive but worth it. These w
 betterquesting.quest.y-pBsDI2QGS3B9sGG0Pqsg.name=§5§l§nInfinity Breastplate
 betterquesting.quest.y-pBsDI2QGS3B9sGG0Pqsg.desc=An armor set worthy of a God. This breastplate provides the user infinite creative flight and removes all negative debuffs.%n%nWhile wearing the complete set, you are completely unkillable.
 
+# Quest: Using... Goop To Compute?
+betterquesting.quest.zNFh2hRXSyWAXvHFlqTfEg.name=§5§l§nUsing... Goop To Compute?
+betterquesting.quest.zNFh2hRXSyWAXvHFlqTfEg.desc=Using Hypogen's strange slime-like properties, and Bio Catalyst Medium, a new wafer can be manufactured.%n%n[note]These wafers are not that useful currently, only being used for cheaper ZPM circuits, however they will come up again in UIV[/note]%n%n§dWhere were you when these took 60 seconds at UHV...
+
 
 ## Quest Line: Tier 11 - UIV
 betterquesting.questline.ytf2QCzUSk6ihcYeRbwblw.name=Tier 11 - UIV
 betterquesting.questline.ytf2QCzUSk6ihcYeRbwblw.desc=Enjoying the pack so far?%n%nAnyways here's your rough guide on the UIV progression.
+
+# Quest: Bending Space and Time
+betterquesting.quest.-HsIRcNoQYS35kDJwhdUpQ.name=§9§l§nBending Space and Time
+betterquesting.quest.-HsIRcNoQYS35kDJwhdUpQ.desc=So far, cutting Atto Power ICs in the HILE is really terrible, the lasers are just way too powerful to cut them effectively. Fortunately for you, you have the insane crushing power of black holes!%n%nBy compressing a Spatially Transcendent Gravitational Lens Block with some Spatially Enlarged Fluid, you can forge a very powerful lens. A lens so effective, it can bend light and even space.%n%nMaybe don't put your eyes up to the glass.%n%n[note]This lens unlocks a 1-2 recipe for Atto Power ICs, don't forget to repattern![/note]
 
 # Quest: Heliofusion Exoticizer
 betterquesting.quest.0YrjX7i4QfeSo98gSE0SWg.name=§9§l§nHeliofusion Exoticizer
@@ -4443,6 +4463,10 @@ betterquesting.quest.KGDOhsZGQv2QqDzGdI_YTg.desc=Definitely consider making one.
 betterquesting.quest.RAH2M4DoTTaX5a2Sj4hRcQ.name=§9§l§nThe Cat is Out of the Box
 betterquesting.quest.RAH2M4DoTTaX5a2Sj4hRcQ.desc=After many hours of grind, blood, sweat, tears, and a little bit of transcendent metal...%nYou are now finally able to solve mankind's hardest puzzle ever, clicking boxes randomly.%n%nThe §cUncertainty Resolution§r, §oa Dyson user's wet dream§r, will allow you to completely skip that annoying puzzle when you need to set some (probably a lot.) Quantum Computers up.
 
+# Quest: Atto Power ICs
+betterquesting.quest.S1s9Qw2yQgGm0cKw-W1yvQ.name=§9§l§nAtto Power ICs
+betterquesting.quest.S1s9Qw2yQgGm0cKw-W1yvQ.desc=§5§fYou need Atto Power ICs for Dyson, UMV -> UXV transformers, UIV Energy/Dynamo Hatches, and Pico Circuits.%n%n[note]You'll need a UIV Cutting Mac- Wait what?[/note]%n%nFrom now on, your Cutting Machine is not going to cut it, §l§oliterally. §rThose giant sawblades cannot cut up wafers this complex.%n%nUsing your HILE is the next best thing, however you seem to burn most of the biological parts off of the wafer, causing you to gain less chips.%n%n[note]Perhaps we could focus these lasers with a new powerful lens.[/note]
+
 # Quest: Getting More Out of Your Hypogen
 betterquesting.quest.SoOmxNJvRcqY-ofFsWbyoQ.name=§9§l§nGetting More Out of Your Hypogen
 betterquesting.quest.SoOmxNJvRcqY-ofFsWbyoQ.desc=Once you get your first Hypogen from Fusion, you can easily duplicate it in your DTPF.%n%nIt is a loop, though, so be cautious.
@@ -4486,6 +4510,10 @@ betterquesting.quest.n2AqI9hGSEegVf6hfygemQ.desc=With your research now complete
 # Quest: Space Modules Galore
 betterquesting.quest.nghPgh6-TuSKXUlzGXGrpw.name=§9§l§nSpace Modules Galore
 betterquesting.quest.nghPgh6-TuSKXUlzGXGrpw.desc=Better modules will require a more advanced Space Elevator motor to function.%n%nThis upgrade will allow you to access 15 modules on your Space Elevator. If you haven't built the expansion yet, now might be a good time.%n%n[note]You can enable the Space Elevator expansion in the GUI.[/note]
+
+# Quest: Spacetime Splitting
+betterquesting.quest.pW_B3nmQTxy87apiA9DyMA.name=§9§l§nSpacetime Splitting
+betterquesting.quest.pW_B3nmQTxy87apiA9DyMA.desc=Spacetime... separates?? Crazy world we're living in.%n%nYou will need a lot of both of these for future crafts throughout the rest of the game, so make sure to set up infrastructure that can handle the demand. Luckily for you, you only need a small amount of it for now.%n%nYou will eventually be able to use DTPF and QFT recipes to speed the process up significantly, but for now the Spinmatron should be able to handle production just fine.%n%n[note]In addition to being a crafting ingredient, these can later be used to boost the performance of certain multiblocks, like the LNR, SSASS, & Vacuum Freezer.[/note]%n%n[note]To craft these fluids before UMV energy hatches, overclock the Spinmatron with a high power UIV Laser Hatch%n%nNote, Heavy Mode uses a lot of power.[/note]
 
 # Quest: Your First SpaceTime
 betterquesting.quest.q5Gvvfe5Tm2gxZfi7VIgpg.name=§9§l§nYour First SpaceTime
@@ -4536,6 +4564,10 @@ betterquesting.quest.5vAyoCzxQkSRpjzlDNwtrw.desc=It can run 4 different recipes 
 betterquesting.quest.6rzcSbH2QY2cpChT2zLC_g.name=§c§l§nUMV Energy Hatch
 betterquesting.quest.6rzcSbH2QY2cpChT2zLC_g.desc=The penultimate energy hatch.%n%nHopefully you know what to upgrade first.%n%n[note]Have you checked out wireless energy hatches yet?[/note]
 
+# Quest: Zepto Power IC
+betterquesting.quest.7oSbFvGZQfydqvXrYqLACA.name=§c§l§nZepto Power IC
+betterquesting.quest.7oSbFvGZQfydqvXrYqLACA.desc=§5§fYou need Zepto Power ICs for UXV -> MAX transformers, UMV Energy/Dynamos Hatches, and Quantum Circuits.%n%nThese wafers will need to be crafted in a Beam Crafter with Spacetime Dust and Molten Creon and Mellion. Perhaps upgrade your LHC some more.%n%n[note]You'll need a UMV Laser Engraver, or an OC'd multi to actually cut the wafers.%n%nWho isn't using OC'd multis at this point?[/note]
+
 # Quest: You Are Worthy
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMoQ.name=§c§l§nYou Are Worthy
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMoQ.desc=Go no further if you value your sanity.
@@ -4546,7 +4578,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqw.desc=Just a bit more.
 
 # Quest: UXV Circuits
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrA.name=§c§l§nUXV Circuits
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrA.desc=The final circuit in the game: Quantum Circuit, these will be required for lots of UMV/UXV crafts.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrA.desc=Quantum Circuits, another upgrade of Optical Mainframes and Pico Circuits. These UXV circuits will be required for lots of future crafts.%n%n[note]You will need your Pico Circuit NAC to get started.%n%nDid you know all special circuits contribute to the calibration?[/note]%n%n%n[warn]Rumor has it these circuits may not be around for much longer... %n%nMaybe do not trust rumors...[/warn]
+
+# Quest: What is this, Tekxit?
+betterquesting.quest.C0erucWORuCA_neG7VCkvg.name=§c§l§nWhat is this, Tekxit?
+betterquesting.quest.C0erucWORuCA_neG7VCkvg.desc=The immense heat of the God Forge and its modules allow for ideas themselves to be melted down.%n%nTwo clashing ideologies, forced to coexist. §3Hexanite §fis born.%n%nA fusion of §dMagic §fand §6Technology§f, the ultimate concoction, a volatile one. Even the God Forge struggles to merge them perfectly. A mess of ideas needs a host, something familiar to bind them together.%n%n§3§r[note]Redstone Plasma requires the God Forge to be melted, while Ichorium only needs a Fluid Extractor. You are sure to have lots of Ichorium Dust lying around from your Space Miners.%n%nIt is recommended to cast these materials in an Exo-Foundry, as the long wait times and high volume of use cannot be supported in a Mass Solidifier[/note]
 
 # Quest: White Dwarf Matter
 betterquesting.quest.DVLahVNUQ-CvjYwmvkUn-Q.name=§c§l§nWhite Dwarf Matter
@@ -4632,10 +4668,6 @@ betterquesting.quest.lU1caedNR6G6fdJqbivacw.desc=The §4Tipler§r Spacetime Comp
 betterquesting.quest.o8_pX-OSRJKBGzDsGujvNw.name=§c§l§nShirabon
 betterquesting.quest.o8_pX-OSRJKBGzDsGujvNw.desc=A helper material needed in some UMV and UXV components. Have fun making millions.%n%n[note]This is extremely slow to make and to process.[/note]
 
-# Quest: Spacetime Splitting
-betterquesting.quest.pW_B3nmQTxy87apiA9DyMA.name=§c§l§nSpacetime Splitting
-betterquesting.quest.pW_B3nmQTxy87apiA9DyMA.desc=Spacetime... separates?? Crazy world we're living in.%n%nYou will need a lot of both of these for upcoming crafts throughout the rest of the game, so make sure to set up infrastructure that can handle the demand. Fortunately, you will eventually be able to use DTPF and QFT recipes to speed the process up significantly, but for now the Spinmatron should be able to handle production just fine.%n%n[note]In addition to being a crafting ingredient, these can also be used to boost the performance of certain multiblocks, like the LNR, SSASS, & Vacuum Freezer.[/note]
-
 # Quest: UMV Field Generator
 betterquesting.quest.rdzpjzaCS2epgavzZr6L9A.name=§c§l§nUMV Field Generator
 betterquesting.quest.rdzpjzaCS2epgavzZr6L9A.desc=Another Field Generator... you are almost done.
@@ -4668,6 +4700,14 @@ betterquesting.quest.wGq5FvuuROyyMPbT_SkMYg.desc=Definitely consider this for th
 ## Quest Line: Endgame Goals
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAHQ.name=Endgame Goals
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAHQ.desc=Collection of endgame objectives, good luck and thanks for playing so far.
+
+# Quest: MAX Circuits
+betterquesting.quest.2rrP1wt_Qt2LlOqDppdjLQ.name=§4§l§nMAX Circuits
+betterquesting.quest.2rrP1wt_Qt2LlOqDppdjLQ.desc=Planck-Scale Circuits, the final circuits in the pack... for now. These MAX circuits are needed for high end UXV parts and the Stargate.%n%n[note]You will need your Quantum NAC to get started%n%nDid you know that Planck-Scale Manifolds, despite being classified as a circuit internally, do not contribute to the calibration of a Special NAC. Planck-Scale Circuits do, however.[/note]%n%n[warn]Whoever told you these rumors is lying to you, these circuits will NEVER be removed... or will they?[/warn]
+
+# Quest: Strings Upon Strings Upon Strings Upon-
+betterquesting.quest.3jUq4tkmRty9x5vvnqtD9w.name=§4§l§nStrings Upon Strings Upon Strings Upon-
+betterquesting.quest.3jUq4tkmRty9x5vvnqtD9w.desc=Computation has gone too far! We've gone too small! Why does it look so cool! These Planck-Scale Manifolds are incomprehensible to the human mind!%nGood thing we have GREGOS to comprehend them for us!%n%n[note]Planck-Scale Manifolds are manufactured in the NAC, and act as circuits.[/note]%n%n[warn]Do not put these in your mouth.[/warn]
 
 # Quest: Tier 13 (UXV)
 betterquesting.quest.7wI7VuLKRe6lqAJpuYKKJg.name=§4§l§nTier 13 (UXV)
@@ -4709,6 +4749,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKJg.desc=Congratulations, with this fina
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM4A.name=§4§l§nYou Made It!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM4A.desc=May Dreammaster have mercy on your soul. You have reached the highest craftable tier in the game!
 
+# Quest: UXV Energy Hatch
+betterquesting.quest.DGfri1njSxOeS79XXo4NIg.name=§4§l§nUXV Energy Hatch
+betterquesting.quest.DGfri1njSxOeS79XXo4NIg.desc=The final energy hatch. You should make these wireless as soon as possible.
+
 # Quest: Fabricating Solar Systems... in Parallel
 betterquesting.quest.IGVryoMbRu28q08v4uwSuw.name=§4§l§nFabricating Solar Systems... in Parallel
 betterquesting.quest.IGVryoMbRu28q08v4uwSuw.desc=As you've noticed, UXV components are extremely expensive compared to the amount of Universium you can currently produce.%n%nThe Astral Array Fabricator allows you to run EOH recipes in parallel. You can review the math in the second page of the tooltip.%n%nFor a direct answer, you can use this spreadsheet: [url]https://docs.google.com/spreadsheets/d/1FTFdfmY_UWbTbFOyNzARKeI90pbHvPBH6M3JHJmaC-E/edit?usp=sharing[/url]%n%n[warn]Be aware that the EOH will use Raw Stellar Plasma instead of Hydrogen and Helium if you use Astral Arrays.[/warn]%n%n[note]Make sure you are generating enough power.[/note]
@@ -4716,6 +4760,10 @@ betterquesting.quest.IGVryoMbRu28q08v4uwSuw.desc=As you've noticed, UXV componen
 # Quest: See You Next Time!
 betterquesting.quest.KNM9ICNAQIa8NaFoXwCC9g.name=§6§l§nSee You Next Time!
 betterquesting.quest.KNM9ICNAQIa8NaFoXwCC9g.desc=Still want more? Consider doing another run! Maybe even with some restrictions if you want to spice it up a bit. Check the first quest chapter for some recommendations!%n%nThere's also roles to be earned for completing the pack two or even three times if you want an extra incentive.%n%n[note]This quest and “The Factory Must Grow!” are mutually exclusive; completing one will lock the other.%n%nIf you are going for 100%% questbook completion, don't panic, finishing either quest still allows the tab to receive a green check (much like the previous XOR quests).[/note]
+
+# Quest: It Gets to a Point
+betterquesting.quest.Ni-YWTVjSz6Bk_MeC0hIiQ.name=§4§l§nIt Gets to a Point
+betterquesting.quest.Ni-YWTVjSz6Bk_MeC0hIiQ.desc=You are not done with wafers. Ok well, now you are, kind of.%n%nInfinite Wafers are the final tier of raw wafer, forged directly in the God Forge. Who knew silicon could hold up for this long?%n%nYocto Power ICs are used in Magmatter Nanites, MAX circuits, and UXV Energy Hatches.%n%n%n[note]You'll need a UXV Laser Engraver to cut these.%n%nYocto Power ICs need to be coated in Quark Gluon Plasma in an Exo-Foundry, overclocked to reach the MAX voltage required. This step cannot be done in a Mass Solidifier.[/note]
 
 # Quest: The Factory Must Grow!
 betterquesting.quest.OCv5OWo6Q9KDfqe1w0ET9w.name=§6§l§nThe Factory Must Grow!
@@ -4740,6 +4788,10 @@ betterquesting.quest.hNdNrT_aSKaYi_TnT7cowA.desc=Almost as expensive as the real
 # Quest: T3 Exo-Foundry
 betterquesting.quest.iLn_-6-LSk-wEOfi9muW3w.name=§4§l§nT3 Exo-Foundry
 betterquesting.quest.iLn_-6-LSk-wEOfi9muW3w.desc=Now that you have your hands on Eternity you can upgrade your §nExo-Foundry§r to the final tier!%n%nThe §6§lCelestial Magnetic Chassis§r will allow your Foundry to have a maximum of four modules installed, unlocking the most powerful combinations.%n%n[note]Checkout the Wiki if you need ideas on which modules to choose [url]https://wiki.gtnewhorizons.com/wiki/Exo-Foundry[/url][/note]
+
+# Quest: A Minor Roadblock
+betterquesting.quest.itcSYyc3Tdq9Q1qrP5RoEg.name=§4§l§nA Minor Roadblock
+betterquesting.quest.itcSYyc3Tdq9Q1qrP5RoEg.desc=MAX circuits huh... Is it really almost over?
 
 # Quest: Your Lord and Saviour, UXV CoAL
 betterquesting.quest.smCKxKkMSeyIAUeFInS4hQ.name=§4§l§nYour Lord and Saviour, UXV CoAL
@@ -14631,7 +14683,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMeA.desc=Some turbine materials are not 
 
 # Quest: Hypogen Coil Upgrade
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkg.name=§9§l§nHypogen Coil Upgrade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkg.desc=Forged from the blood of an ageless dragon, and melded together by the power of fusion beyond what you thought was the reality. No natural element, or combination of elements, could match up to this glowing orange material, not even the Awakened Draconium you got your hands on before.%n%nWhat truly happened inside that Mk4 Fusion Reactor? What §ois§r this material? Its dust pulsates visibly, at different rates depending on the size of the dust itself. Hypogen approaches a state of complete balance as it approaches the block size, and it is obvious to you what needs to be done with it.%n%nIt absorbs and radiates energy without any effort, but it would be stupid to attempt making coils out of this without assistance. Wetware wasn't good enough anymore, and only the most advanced living circuit could withstand the erratic behavior Hypogen demonstrates.%n%nProvides 12601K heat. Almost certainly, this will end up on your DTPF.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkg.desc=Forged from the blood of an ageless dragon, and melded together by the power of fusion beyond what you thought was the reality. No natural element, or combination of elements, could match up to this glowing orange material, not even the Awakened Draconium you got your hands on before.%n%nWhat is this blood made of?%n%nWhat truly happened inside that Mk4 Fusion Reactor? What §ois§r this material? It moves on its own, moving as if it is made of slime, however it is boiling to the touch. Despite moving as if it is soft and squishy, Hypogen is hard to the touch and is incredibly hard to cut or work. It feels out of this world, and it is obvious to you what needs to be done with it.%n%nWhat were they feeding these dragons?%n%nIt absorbs and radiates energy without any effort, but it would be stupid to attempt making coils out of this without assistance. Wetware wasn't good enough anymore, and only the most advanced living circuit could withstand the erratic behavior Hypogen demonstrates.%n%nProvides 12601K heat. Almost certainly, this will end up on your DTPF.
 
 # Quest: Eternal Coil Upgrade
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkw.name=§9§l§nEternal Coil Upgrade
