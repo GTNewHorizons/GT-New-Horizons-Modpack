@@ -2057,7 +2057,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAD-g.desc=Integrated Processors need cent
 
 # Quest: Small Coil
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD-w.name=§5§lSmall Coil
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD-w.desc=The Processor Assembly circuit needs some small coils. You can make these a couple different ways.%n%n[note]If you somehow got SMD Inductors already, you may hold 24 in your hand to skip this quest.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD-w.desc=The Processor Assembly circuit needs some small coils. You can make these a couple different ways.%n%n[note]If you somehow got SMD Inductors already, you may hold 64 in your hand to skip this quest.[/note]
 
 # Quest: Upgraded RF Batteries
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD2w.name=§5§lUpgraded RF Batteries
@@ -2466,7 +2466,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABzA.desc=You know how polymerization wor
 
 # Quest: Vinyl Acetate
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABzQ.name=§8§lVinyl Acetate
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABzQ.desc=Graphene is required for IV motors. This organic compound is just a stepping stone.%n%n§6Already automated Graphene? Hold 128 dust to complete this questline.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABzQ.desc=Graphene is required for IV motors. This organic compound is just a stepping stone.%n%n§6Already automated Graphene? Hold 64 dust to complete this questline.
 
 # Quest: Indium
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD7Q.name=§8§lIndium
@@ -2871,7 +2871,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGnw.desc=Mixing 3,3 Dichlorobenzidine wi
 
 # Quest: Chemical Reactions at IV Level
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGoA.name=§9§lChemical Reactions at IV Level
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGoA.desc=High tier chemical recipes need a high tier IV chemical reactor.%n%nAlternatively you can use your Large Chemical Reactor with either two EV energy hatches or one IV energy hatch.%n%n[note]...Which you can make after you finish the platline. Have fun![/note]%n%n§6If you missed it or forgot, hold a stack of the platline dust to skip the quests in between.%n%nYou can also skip the PBI chem quests, but you need to hold 256 sheets in your hand.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGoA.desc=High tier chemical recipes need a high tier IV chemical reactor.%n%nAlternatively you can use your Large Chemical Reactor with either two EV energy hatches or one IV energy hatch.%n%n[note]...Which you can make after you finish the platline. Have fun![/note]%n%n§6If you missed it or forgot, hold a stack of the platline dust to skip the quests in between.%n%nYou can also skip the PBI chem quests, but you need to hold 128 sheets in your hand.
 
 # Quest: Polybenzimidazole, Finally!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGoQ.name=§9§lPolybenzimidazole, Finally!
@@ -3757,7 +3757,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALZw.desc=Ah, you made it.%n%nYou can cho
 
 # Quest: Enriched Naquadah Time
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALaA.name=§b§lEnriched Naquadah Time
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALaA.desc=The Enriched Naquadah line is much shorter than the Naquadah line, and easier. It's used for fuel or Neuro Processing Units which are UV content, and it's also used in the Prismarine line to make Prismatic Naquadah; something you will need for Trinium Coils.%n%n[warn]Hold 16 enriched Naquadah Ingot / Dust to skip this questline.[/warn]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALaA.desc=The Enriched Naquadah line is much shorter than the Naquadah line, and easier. It's used for fuel or Neuro Processing Units which are UV content, and it's also used in the Prismarine line to make Prismatic Naquadah; something you will need for Trinium Coils.%n%n[warn]Hold 64 enriched Naquadah Ingot / Dust to skip this questline.[/warn]
 
 # Quest: Concentration
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALgQ.name=§b§lConcentration
@@ -3777,7 +3777,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALhQ.desc=So it is a circle?
 
 # Quest: N.N.Q.Q.N.Q.Q
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALhg.name=§b§lN.N.Q.Q.N.Q.Q
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALhg.desc=Do you want some naquadria?%n%nUnfortunately, the naquadria dust has become repulsive naquadria oxide mixture dust because of a NERF. You have to build a line for it, like the naquadah.%n%n[warn]Hold 16 Naquadria Ingots / Dust to skip this questline.[/warn]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALhg.desc=Do you want some naquadria?%n%nUnfortunately, the naquadria dust has become repulsive naquadria oxide mixture dust because of a NERF. You have to build a line for it, like the naquadah.%n%n[warn]Hold 64 Naquadria Ingots / Dust to skip this questline.[/warn]
 
 # Quest: Purification
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALhw.name=§b§lPurification
@@ -3813,7 +3813,7 @@ betterquesting.quest.J9eklidSTbyHgMgImYT3-g.desc=After you've managed to grab so
 
 # Quest: Prismarine!? What Do I Need That For?
 betterquesting.quest.JhZaTiUfTH2AfBcHulTMVA.name=§b§lPrismarine!? What Do I Need That For?
-betterquesting.quest.JhZaTiUfTH2AfBcHulTMVA.desc=§5§lPrismarine§r is an ancient material long rumored to have originated from structures found deep within the ocean. Learning how to create this is extremely important, and may lead to advancements in technology with further exploration into the substrate.%n%nYou can get Prismarine in a few different ways as shown resource-wise by the optional tasks:%n%n§31. Through Botania by transmutating §nNether Quartz§r§3 directly to §nPrismarine§r§3 via an §nAlchemical Catalyst or the Fountain of Alchemy§r%n§r%n§22. Using §nRed Algae Biomass§r§2 and §nCertus Quartz§r §2dust in an §nAutoclave%n§r%n§c3. Using §nRed Algae Biomass§r§c and §nPrismatic Combs§r §cin an §nAutoclave.%n§r%nWhich method you choose is entirely up to you and dependent on what infrastructure you have setup thus-far. Either way you would be wise to make a robust setup as you will be needing a decent amount of Prismarine in the future.%n%n[warn]Hold 16 Naquarite Insulator Foil to skip the Prismarine line Quests.[/warn]
+betterquesting.quest.JhZaTiUfTH2AfBcHulTMVA.desc=§5§lPrismarine§r is an ancient material long rumored to have originated from structures found deep within the ocean. Learning how to create this is extremely important, and may lead to advancements in technology with further exploration into the substrate.%n%nYou can get Prismarine in a few different ways as shown resource-wise by the optional tasks:%n%n§31. Through Botania by transmutating §nNether Quartz§r§3 directly to §nPrismarine§r§3 via an §nAlchemical Catalyst or the Fountain of Alchemy§r%n§r%n§22. Using §nRed Algae Biomass§r§2 and §nCertus Quartz§r §2dust in an §nAutoclave%n§r%n§c3. Using §nRed Algae Biomass§r§c and §nPrismatic Combs§r §cin an §nAutoclave.%n§r%nWhich method you choose is entirely up to you and dependent on what infrastructure you have setup thus-far. Either way you would be wise to make a robust setup as you will be needing a decent amount of Prismarine in the future.%n%n[warn]Hold 64 Naquarite Insulator Foil to skip the Prismarine line Quests.[/warn]
 
 # Quest: Prismatic Gas
 betterquesting.quest.Oh_EQhvBQUqHeVcUyifCXQ.name=§b§lPrismatic Gas
@@ -9485,7 +9485,7 @@ betterquesting.quest.hB5tvfilRVi42OpLLhCwlw.desc=The Mothership Navigation Conso
 
 # Quest: A Better Rocket Fuel
 betterquesting.quest.qz7VHLFvQx6gDw3KZDIj0g.name=§9§lA Better Rocket Fuel
-betterquesting.quest.qz7VHLFvQx6gDw3KZDIj0g.desc=If you want to go further than Mars you need a better rocket fuel. From here on out, there is only one choice: the ExxonMobil Chemical Plant. If you don't have one yet, you should have a look at it. It has 4 separate tiering systems and might be a bit overwhelming at first. %n%n[note]Check out the quest for the Chemical Plant in the [quest]Multiblock Goals[/quest] quest tab for more information.[/note]%n%n§6If you already automated one of the upcoming rocket fuels, simply hold 32 cells of it to skip all quests leading up to it!
+betterquesting.quest.qz7VHLFvQx6gDw3KZDIj0g.desc=If you want to go further than Mars you need a better rocket fuel. From here on out, there is only one choice: the ExxonMobil Chemical Plant. If you don't have one yet, you should have a look at it. It has 4 separate tiering systems and might be a bit overwhelming at first. %n%n[note]Check out the quest for the Chemical Plant in the [quest]Multiblock Goals[/quest] quest tab for more information.[/note]%n%n§6If you already automated one of the upcoming rocket fuels, simply hold 64 cells of it to skip all quests leading up to it!
 
 # Quest: Does It Contain A Black Hole?
 betterquesting.quest.rfqcIf4uT--m6nYPenl8PQ.name=Does It Contain A Black Hole?
