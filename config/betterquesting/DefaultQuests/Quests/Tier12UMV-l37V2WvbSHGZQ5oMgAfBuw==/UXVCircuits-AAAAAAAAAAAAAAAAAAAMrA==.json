@@ -1,22 +1,31 @@
 {
   "preRequisites:9": {
     "0:10": {
+      "questIDHigh:4": 8348724939136321554,
+      "questIDLow:4": -6966981174478510993
+    },
+    "1:10": {
       "questIDHigh:4": -6642834327299013486,
       "questIDLow:4": -9143660827823771849
     },
-    "1:10": {
+    "2:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 3242
     },
-    "2:10": {
+    "3:10": {
       "questIDHigh:4": -3808771605418260071,
       "questIDLow:4": -5192569748262941714
+    },
+    "4:10": {
+      "questIDHigh:4": -5718780453217481644,
+      "questIDLow:4": -4972516930668425636,
+      "type:1": 1
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The final circuit in the game: Quantum Circuit, these will be required for lots of UMV/UXV crafts.",
+      "desc:8": "Quantum Circuits, another upgrade of Optical Mainframes and Pico Circuits. These UXV circuits will be required for lots of future crafts.\n\r\n[note]You will need your Pico Circuit NAC to get started.\n\nDid you know all special circuits contribute to the calibration?[/note]\r\n\n\r\n[warn]Rumor has it these circuits may not be around for much longer... \n\nMaybe do not trust rumors...[/warn]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,

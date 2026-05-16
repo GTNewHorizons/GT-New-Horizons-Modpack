@@ -1,0 +1,84 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -7794674471479980302,
+      "questIDLow:4": -5399646287042766590
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "§5§fYou need Femto Power ICs for UIV -\u003e UMV transformers, and UEV Energy/Dynamo Hatches.\n\n[note]You\u0027ll need a UEV Cutting Machine or an OC\u0027d multi to actually cut the wafers.\n\nPerhaps invest in Beamline to craft these, the Infinity Catalyst takes a long time to smelt.[/note]",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 32266,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.metaitem.03"
+      },
+      "isMain:1": 1,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "§5§l§nFemto Power ICs",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -7258147845490913659,
+  "questIDLow:4": -8867368593153737538,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32164,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.03"
+        },
+        "1:10": {
+          "Count:3": 64,
+          "Damage:2": 11012,
+          "OreDict:8": "dustIodine",
+          "id:8": "bartworks:gt.bwMetaGenerateddust"
+        },
+        "2:10": {
+          "Count:3": 4,
+          "Damage:2": 394,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.99"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32266,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.03"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

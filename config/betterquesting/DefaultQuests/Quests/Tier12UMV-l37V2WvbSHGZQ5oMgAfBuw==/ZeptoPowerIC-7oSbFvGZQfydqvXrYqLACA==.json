@@ -1,0 +1,76 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -8190376831060786192,
+      "questIDLow:4": -6087268361248963518
+    },
+    "1:10": {
+      "questIDHigh:4": -541830234443857532,
+      "questIDLow:4": -5195393884836375387
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "§5§fYou need Zepto Power ICs for UXV -\u003e MAX transformers, UMV Energy/Dynamos Hatches, and Quantum Circuits.\r\n\nThese wafers will need to be crafted in a Beam Crafter with Spacetime Dust and Molten Creon and Mellion. Perhaps upgrade your LHC some more.\n\r\n[note]You\u0027ll need a UMV Laser Engraver, or an OC\u0027d multi to actually cut the wafers.\n\nWho isn\u0027t using OC\u0027d multis at this point?[/note]",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 32270,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.metaitem.03"
+      },
+      "isMain:1": 1,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "§c§l§nZepto Power IC",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -1259711472911957508,
+  "questIDLow:4": -7085580672393101304,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32270,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.03"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 32271,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.03"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
