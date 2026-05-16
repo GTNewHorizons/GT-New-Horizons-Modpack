@@ -1,0 +1,103 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -8190376831060786192,
+      "questIDLow:4": -6087268361248963518
+    },
+    "1:10": {
+      "questIDHigh:4": -7295994264991546955,
+      "questIDLow:4": -5675835535531457502
+    },
+    "2:10": {
+      "questIDHigh:4": 1763751996399305522,
+      "questIDLow:4": -5355942527641797439
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "The immense heat of the God Forge and its modules allow for ideas themselves to be melted down.\n\nTwo clashing ideologies, forced to coexist. §3Hexanite §fis born.\n\nA fusion of §dMagic §fand §6Technology§f, the ultimate concoction, a volatile one. Even the God Forge struggles to merge them perfectly. A mess of ideas needs a host, something familiar to bind them together.\n\n§3§r[note]Redstone Plasma requires the God Forge to be melted, while Ichorium only needs a Fluid Extractor. You are sure to have lots of Ichorium Dust lying around from your Space Miners.\n\nIt is recommended to cast these materials in an Exo-Foundry, as the long wait times and high volume of use cannot be supported in a Mass Solidifier[/note]",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 17174,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.metaitem.01"
+      },
+      "isMain:1": 1,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "§c§l§nWhat is this, Tekxit?",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 812807072135399136,
+  "questIDLow:4": -9151745971379460930,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 31810,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "Damage:2": 978,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.99"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 30173,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 17174,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
