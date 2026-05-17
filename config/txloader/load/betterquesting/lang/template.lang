@@ -674,7 +674,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADrg.desc=The Plunger is used to clear li
 
 # Quest: Better Than Iron
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADtA.name=§c§lBetter Than Iron
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADtA.desc=But not as good as steel. Mostly, this is used in machine hulls, or in tools if you don't want to use steel up for that.%n%nTo make wrought iron, you either need to use a Tinkers' Smeltery to melt some Iron Ingots down and cast into Iron Nuggets, or use an Iron Ingot and a saw to craft Iron Nuggets. Now put these in a furnace to get Wrought Iron Nuggets. With the Compressor, you can compress the nuggets into ingots.%n%n§3Hint: Crushed or purified iron ore (not a mixed version like pyrite, look for Iron Ore in Chalcopyrite veins) can be smelted to iron nuggets directly. %n%nYou can optionally use an Alloy Smelter to turn iron ingots into nuggets faster than a smeltery. %n%nLater on, you can use an Arc Furnace to make Wrought Iron Ingots directly.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADtA.desc=But not as good as steel. Mostly, this is used in machine hulls, or in tools if you don't want to use steel up for that.%n%nTo make Cast Iron, you either need to use a Tinkers' Smeltery to melt some Iron Ingots down and cast into Iron Nuggets, or use an Iron Ingot and a saw to craft Iron Nuggets. Now put these in a furnace to get Cast Iron Nuggets. With the Compressor, you can compress the nuggets into ingots.%n%n§3Hint: Crushed or purified iron ore (not a mixed version like pyrite, look for Iron Ore in Chalcopyrite veins) can be smelted to iron nuggets directly. %n%nYou can optionally use an Alloy Smelter to turn iron ingots into nuggets faster than a smeltery. %n%nLater on, you can use an Arc Furnace to make Cast Iron Ingots directly.
 
 # Quest: New Source of Glowstone
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAERA.name=§c§lNew Source of Glowstone
@@ -1123,11 +1123,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAChg.desc=The electrotine battery is excl
 
 # Quest: Basic Arc Furnace
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAClg.name=§2§lBasic Arc Furnace
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAClg.desc=The arc furnace is an alternative to macerating stuff back into dusts and for making wrought iron, annealed copper, and glass (in MV). You get ingots, and sometimes different materials back from recycling than with a macerator. You also have all 4 slots at LV. The recipes use oxygen and 3A of power.%n%nJust ignore the plasma one.%n%nAnd no, you can't just send 1A of MV. That will blow it up.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAClg.desc=The arc furnace is an alternative to macerating stuff back into dusts and for making Cast Iron, Annealed Copper, and Glass (in MV). You get ingots, and sometimes different materials back from recycling than with a Macerator. You also have both slots at LV.%n%n[note]You can also use certain gases to boost your Arc Furnace processing speed.[/note]
 
 # Quest: Faster Steel Production
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAClw.name=§2§lFaster Steel Production
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAClw.desc=A faster alternative to steel production is to use the arc furnace and smelt iron ingots (or dust) into wrought iron ingots. Then macerate them to dust and smelt them very fast in the EBF to steel.%n%nOf course, you'll need enough oxygen to do so.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAClw.desc=A faster alternative to Steel production is to use the arc furnace and smelt Iron Ingots (or dust) into Cast Iron Ingots. Then macerate them to dust and smelt them very fast in the EBF to Steel.%n%nOf course, you'll need enough Carbon/Coal/Charcoal dust to do so.
 
 # Quest: LV Extruder
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACoQ.name=§2§lLV Extruder
@@ -2057,7 +2057,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAD-g.desc=Integrated Processors need cent
 
 # Quest: Small Coil
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD-w.name=§5§lSmall Coil
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD-w.desc=The Processor Assembly circuit needs some small coils. You can make these a couple different ways.%n%n[note]If you somehow got SMD Inductors already, you may hold 24 in your hand to skip this quest.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD-w.desc=The Processor Assembly circuit needs some small coils. You can make these a couple different ways.%n%n[note]If you somehow got SMD Inductors already, you may hold 64 in your hand to skip this quest.[/note]
 
 # Quest: Upgraded RF Batteries
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD2w.name=§5§lUpgraded RF Batteries
@@ -2466,7 +2466,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABzA.desc=You know how polymerization wor
 
 # Quest: Vinyl Acetate
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABzQ.name=§8§lVinyl Acetate
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABzQ.desc=Graphene is required for IV motors. This organic compound is just a stepping stone.%n%n§6Already automated Graphene? Hold 128 dust to complete this questline.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABzQ.desc=Graphene is required for IV motors. This organic compound is just a stepping stone.%n%n§6Already automated Graphene? Hold 64 dust to complete this questline.
 
 # Quest: Indium
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD7Q.name=§8§lIndium
@@ -2871,7 +2871,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGnw.desc=Mixing 3,3 Dichlorobenzidine wi
 
 # Quest: Chemical Reactions at IV Level
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGoA.name=§9§lChemical Reactions at IV Level
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGoA.desc=High tier chemical recipes need a high tier IV chemical reactor.%n%nAlternatively you can use your Large Chemical Reactor with either two EV energy hatches or one IV energy hatch.%n%n[note]...Which you can make after you finish the platline. Have fun![/note]%n%n§6If you missed it or forgot, hold a stack of the platline dust to skip the quests in between.%n%nYou can also skip the PBI chem quests, but you need to hold 256 sheets in your hand.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGoA.desc=High tier chemical recipes need a high tier IV chemical reactor.%n%nAlternatively you can use your Large Chemical Reactor with either two EV energy hatches or one IV energy hatch.%n%n[note]...Which you can make after you finish the platline. Have fun![/note]%n%n§6If you missed it or forgot, hold a stack of the platline dust to skip the quests in between.%n%nYou can also skip the PBI chem quests, but you need to hold 128 sheets in your hand.
 
 # Quest: Polybenzimidazole, Finally!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGoQ.name=§9§lPolybenzimidazole, Finally!
@@ -3304,7 +3304,7 @@ betterquesting.quest.8zpQos1hR1CbwmWldvxSpg.desc=Heating up the Netherite Scrap 
 
 # Quest: Netherite Materials
 betterquesting.quest.9dt9i3MYRa-NB6KROtAYFA.name=§d§lNetherite Materials
-betterquesting.quest.9dt9i3MYRa-NB6KROtAYFA.desc=Now that you've completed the Netherite line and successfully set up your Mk1 Fusion Reactor, you finally have access to §5§lBoron Plasma§r, which is necessary for creating all of the different §4§lNetherite materials§r. %n%nThese will be important for the rest of the game and are used often in a variety of items and materials, so it's important to make upgrades to your line both in terms of power and recipe usage as you continue to progress through the tiers.%n%n[note]UHV power and the QFT are the biggest milestones in terms of recipe upgrades for the line.[/note]%n%n[warn]You must use a High-Current Industrial (Plasma) Arc Furnace, a regular one isn't powerful enough.[/warn]
+betterquesting.quest.9dt9i3MYRa-NB6KROtAYFA.desc=Now that you've completed the Netherite line and successfully set up your Mk1 Fusion Reactor, you finally have access to §5§lBoron Plasma§r, which is necessary for creating all of the different §4§lNetherite materials§r. %n%nThese will be important for the rest of the game and are used often in a variety of items and materials, so it's important to make upgrades to your line both in terms of power and recipe usage as you continue to progress through the tiers.%n%n[note]UHV power and the QFT are the biggest milestones in terms of recipe upgrades for the line.[/note]%n
 
 # Quest: Automated Mining
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAyQ.name=§d§lAutomated Mining
@@ -3757,7 +3757,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALZw.desc=Ah, you made it.%n%nYou can cho
 
 # Quest: Enriched Naquadah Time
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALaA.name=§b§lEnriched Naquadah Time
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALaA.desc=The Enriched Naquadah line is much shorter than the Naquadah line, and easier. It's used for fuel or Neuro Processing Units which are UV content, and it's also used in the Prismarine line to make Prismatic Naquadah; something you will need for Trinium Coils.%n%n[warn]Hold 16 enriched Naquadah Ingot / Dust to skip this questline.[/warn]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALaA.desc=The Enriched Naquadah line is much shorter than the Naquadah line, and easier. It's used for fuel or Neuro Processing Units which are UV content, and it's also used in the Prismarine line to make Prismatic Naquadah; something you will need for Trinium Coils.%n%n[warn]Hold 64 enriched Naquadah Ingot / Dust to skip this questline.[/warn]
 
 # Quest: Concentration
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALgQ.name=§b§lConcentration
@@ -3777,7 +3777,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALhQ.desc=So it is a circle?
 
 # Quest: N.N.Q.Q.N.Q.Q
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALhg.name=§b§lN.N.Q.Q.N.Q.Q
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALhg.desc=Do you want some naquadria?%n%nUnfortunately, the naquadria dust has become repulsive naquadria oxide mixture dust because of a NERF. You have to build a line for it, like the naquadah.%n%n[warn]Hold 16 Naquadria Ingots / Dust to skip this questline.[/warn]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALhg.desc=Do you want some naquadria?%n%nUnfortunately, the naquadria dust has become repulsive naquadria oxide mixture dust because of a NERF. You have to build a line for it, like the naquadah.%n%n[warn]Hold 64 Naquadria Ingots / Dust to skip this questline.[/warn]
 
 # Quest: Purification
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALhw.name=§b§lPurification
@@ -3813,7 +3813,7 @@ betterquesting.quest.J9eklidSTbyHgMgImYT3-g.desc=After you've managed to grab so
 
 # Quest: Prismarine!? What Do I Need That For?
 betterquesting.quest.JhZaTiUfTH2AfBcHulTMVA.name=§b§lPrismarine!? What Do I Need That For?
-betterquesting.quest.JhZaTiUfTH2AfBcHulTMVA.desc=§5§lPrismarine§r is an ancient material long rumored to have originated from structures found deep within the ocean. Learning how to create this is extremely important, and may lead to advancements in technology with further exploration into the substrate.%n%nYou can get Prismarine in a few different ways as shown resource-wise by the optional tasks:%n%n§31. Through Botania by transmutating §nNether Quartz§r§3 directly to §nPrismarine§r§3 via an §nAlchemical Catalyst or the Fountain of Alchemy§r%n§r%n§22. Using §nRed Algae Biomass§r§2 and §nCertus Quartz§r §2dust in an §nAutoclave%n§r%n§c3. Using §nRed Algae Biomass§r§c and §nPrismatic Combs§r §cin an §nAutoclave.%n§r%nWhich method you choose is entirely up to you and dependent on what infrastructure you have setup thus-far. Either way you would be wise to make a robust setup as you will be needing a decent amount of Prismarine in the future.%n%n[warn]Hold 16 Naquarite Insulator Foil to skip the Prismarine line Quests.[/warn]
+betterquesting.quest.JhZaTiUfTH2AfBcHulTMVA.desc=§5§lPrismarine§r is an ancient material long rumored to have originated from structures found deep within the ocean. Learning how to create this is extremely important, and may lead to advancements in technology with further exploration into the substrate.%n%nYou can get Prismarine in a few different ways as shown resource-wise by the optional tasks:%n%n§31. Through Botania by transmutating §nNether Quartz§r§3 directly to §nPrismarine§r§3 via an §nAlchemical Catalyst or the Fountain of Alchemy§r%n§r%n§22. Using §nRed Algae Biomass§r§2 and §nCertus Quartz§r §2dust in an §nAutoclave%n§r%n§c3. Using §nRed Algae Biomass§r§c and §nPrismatic Combs§r §cin an §nAutoclave.%n§r%nWhich method you choose is entirely up to you and dependent on what infrastructure you have setup thus-far. Either way you would be wise to make a robust setup as you will be needing a decent amount of Prismarine in the future.%n%n[warn]Hold 64 Naquarite Insulator Foil to skip the Prismarine line Quests.[/warn]
 
 # Quest: Prismatic Gas
 betterquesting.quest.Oh_EQhvBQUqHeVcUyifCXQ.name=§b§lPrismatic Gas
@@ -3918,7 +3918,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKRA.desc=You'll need this for the next t
 
 # Quest: Quantum Power ICs
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKSQ.name=§2§l§nQuantum Power ICs
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKSQ.desc=You need Quantum Power ICs for UEV -> UIV and UIV -> UMV transformers, and UHV Hatches and Dynamos.%n%n[note]You'll need a UHV Cutting Machine, or an OC'd multi to actually cut the wafers.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKSQ.desc=You need Quantum Power ICs for UEV -> UIV transformers and UHV Hatches and Dynamos.%n%n[note]You'll need a UHV Cutting Machine, or an OC'd multi to actually cut the wafers.[/note]
 
 # Quest: Circuits, Assemble!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKSw.name=§2§l§nCircuits, Assemble!
@@ -4282,6 +4282,10 @@ betterquesting.quest.H3Tvy4ZKSyiQGT16Og90bA.desc=UEV energy hatches? Great! Time
 betterquesting.quest.H_S9zi1_SUKG7JkEYgJIiA.name=§5§l§nAssembling in Space
 betterquesting.quest.H_S9zi1_SUKG7JkEYgJIiA.desc=This new Space Elevator module can be used to make lapotron orbs more easily, and to make the raw components for optical circuits.
 
+# Quest: Using Light to Compute
+betterquesting.quest.L88EN1-iS1CQbixJBH_arQ.name=§5§l§nUsing Light to Compute
+betterquesting.quest.L88EN1-iS1CQbixJBH_arQ.desc=Carefully treating raw computer parts with purified water allows you to make optically enhanced chips. These use light waves to do computations at a speed you previously couldn't imagine. Making them is quite an involved process however.
+
 # Quest: NAC™: Wetware and Bioware Package
 betterquesting.quest.NAUxWAKzTHifGrUSGPcb5w.name=§5§l§nNAC§r§5§n™§r§5§n§l: Wetware and Bioware Package
 betterquesting.quest.NAUxWAKzTHifGrUSGPcb5w.desc=So you've chosen the §5§nWetware and Bioware Package§r for your newly purchased NAC™. A wise choice, as these are some of the most important circuits you will make. See the attached owner's manual for installation instructions.%n%n§oGet it while you can! A two-for-one deal on circuit lines!§r%n%n§n§lAccelerated Biological Coordinator Owner's Manual:§r%n%nThe NAC™ will track the most recent 100,000 circuits crafted, and can be calibrated to a specific circuit type by reaching a certain percentage of circuits of this type. At 60%% (60,000) wetware circuits crafted, the NAC™ will become "fully calibrated" to wetware circuits, and the same applies to bioware circuits.%n%nDepending on which calibration has been achieved, the Biological Coordinator will provide one of two bonuses:%n- If calibrated to §nWetware§r, usage of Growth Catalyst Medium is reduced to zero%n- If calibrated to §nBioware§r, usage of both Growth Catalyst Medium and Bio Catalyst Medium is reduced to zero
@@ -4290,9 +4294,9 @@ betterquesting.quest.NAUxWAKzTHifGrUSGPcb5w.desc=So you've chosen the §5§nWetw
 betterquesting.quest.U4zxsdwqTUKsbTATYEJirg.name=§5§l§nMy Eyes Hurt! #1
 betterquesting.quest.U4zxsdwqTUKsbTATYEJirg.desc=Finally, you are ready to assemble these new circuits. This is a UV-tier circuit.%n%n[note]It's highly recommended that you invest in a NAC before starting with Optical Circuits[/note]
 
-# Quest: Using Light to Compute
-betterquesting.quest.VplPMJ0DThWiBNH_Hx5SQA.name=§5§l§nUsing Light to Compute
-betterquesting.quest.VplPMJ0DThWiBNH_Hx5SQA.desc=Carefully treating raw computer parts with purified water allows you to make optically enhanced chips. These use light waves to do computations at a speed you previously couldn't imagine. Making them is quite an involved process however.
+# Quest: Optically Enriched Boules
+betterquesting.quest.VplPMJ0DThWiBNH_Hx5SQA.name=§5§l§nOptically Enriched Boules
+betterquesting.quest.VplPMJ0DThWiBNH_Hx5SQA.desc=With high amounts of UU-Matter, and various lenses to cover all spectrums of light, Optically Enriched Crystalline Boules can be engraved using Americium Boules.
 
 # Quest: My Eyes Hurt! #3
 betterquesting.quest.WIx0jq8hS8ifWxZWTmC5yA.name=§5§l§nMy Eyes Hurt! #3
@@ -4330,6 +4334,10 @@ betterquesting.quest.gOySBVKnSAiJk0Fie9k55A.desc=To run the DTPF, you will need 
 betterquesting.quest.iO7VxrxPTbutGjRtrcoAxw.name=§5§l§nThe Perfect CPU?
 betterquesting.quest.iO7VxrxPTbutGjRtrcoAxw.desc=Using your new optically enhanced boards and chips, you've managed to create what looks like the perfect CPU! Surely this will be able to handle even the advanced computations you need to perform to breach dimensional boundaries.
 
+# Quest: Energised Tesseract
+betterquesting.quest.j4pFVWCCSBGZsTyI7wpCYA.name=§5§l§nEnergised Tesseract
+betterquesting.quest.j4pFVWCCSBGZsTyI7wpCYA.desc=Using high amounts of energy and the strange properties of a Quantum Anomaly, Tesseracts can become energised, unlocking hidden potential.%n%n[note]You better love crafting these...[/note]
+
 # Quest: Tier 10 (UEV)
 betterquesting.quest.k9PA3buhTvK1EJpPfA8ZAg.name=§5§l§nTier 10 (UEV)
 betterquesting.quest.k9PA3buhTvK1EJpPfA8ZAg.desc=Welcome to Extremely Ultimate Voltage! Now that you've started making your first infinity, it's time to start scaling up. In this tier, every component will require infinity. Be prepared to make tons. Your main goal to advance will be to build the Dimensionally Transcendent Plasma Forge, also known as the DTPF. This massive multiblock will unlock new powerful recipes to create infinity, neutronium and other special materials.
@@ -4337,6 +4345,10 @@ betterquesting.quest.k9PA3buhTvK1EJpPfA8ZAg.desc=Welcome to Extremely Ultimate V
 # Quest: NAC™: Automation Package
 betterquesting.quest.lonEUE4hRuWYuP3JKbeLaw.name=§5§l§nNAC§r§5§n™§r§5§n§l: Automation Package
 betterquesting.quest.lonEUE4hRuWYuP3JKbeLaw.desc=Our most popular addon for the NAC™ platform, the §5§nAutomation Package§r allows for easily routing components between modules* for all your processing needs! Simply attach a Vacuum Conveyor Output to the core of the NAC, color it the same color as your input bus(es), and now you can route components to modules using Vacuum Conveyor Pipes!%n%n§oNote*: Modules sold separately§r
+
+# Quest: Femto Power ICs
+betterquesting.quest.m0Xg_WY_ToWE8Mc-8J28vg.name=§5§l§nFemto Power ICs
+betterquesting.quest.m0Xg_WY_ToWE8Mc-8J28vg.desc=§5§fYou need Femto Power ICs for UIV -> UMV transformers, and UEV Energy/Dynamo Hatches.%n%n[note]You'll need a UEV Cutting Machine or an OC'd multi to actually cut the wafers.%n%nPerhaps invest in Beamline to craft these, the Infinity Catalyst takes a long time to smelt.[/note]
 
 # Quest: One Last Time
 betterquesting.quest.msIxGO5gQCWJPmEyp_JhtQ.name=§5§l§nOne Last Time
@@ -4374,10 +4386,18 @@ betterquesting.quest.uUtOQgjtTCS5AWZPWG0qUQ.desc=Expensive but worth it. These w
 betterquesting.quest.y-pBsDI2QGS3B9sGG0Pqsg.name=§5§l§nInfinity Breastplate
 betterquesting.quest.y-pBsDI2QGS3B9sGG0Pqsg.desc=An armor set worthy of a God. This breastplate provides the user infinite creative flight and removes all negative debuffs.%n%nWhile wearing the complete set, you are completely unkillable.
 
+# Quest: Using... Goop To Compute?
+betterquesting.quest.zNFh2hRXSyWAXvHFlqTfEg.name=§5§l§nUsing... Goop To Compute?
+betterquesting.quest.zNFh2hRXSyWAXvHFlqTfEg.desc=Using Hypogen's strange slime-like properties, and Bio Catalyst Medium, a new wafer can be manufactured.%n%n[note]These wafers are not that useful currently, only being used for cheaper ZPM circuits, however they will come up again in UIV[/note]%n%n§dWhere were you when these took 60 seconds at UHV...
+
 
 ## Quest Line: Tier 11 - UIV
 betterquesting.questline.ytf2QCzUSk6ihcYeRbwblw.name=Tier 11 - UIV
 betterquesting.questline.ytf2QCzUSk6ihcYeRbwblw.desc=Enjoying the pack so far?%n%nAnyways here's your rough guide on the UIV progression.
+
+# Quest: Bending Space and Time
+betterquesting.quest.-HsIRcNoQYS35kDJwhdUpQ.name=§9§l§nBending Space and Time
+betterquesting.quest.-HsIRcNoQYS35kDJwhdUpQ.desc=So far, cutting Atto Power ICs in the HILE is really terrible, the lasers are just way too powerful to cut them effectively. Fortunately for you, you have the insane crushing power of black holes!%n%nBy compressing a Spatially Transcendent Gravitational Lens Block with some Spatially Enlarged Fluid, you can forge a very powerful lens. A lens so effective, it can bend light and even space.%n%nMaybe don't put your eyes up to the glass.%n%n[note]This lens unlocks a 1-2 recipe for Atto Power ICs, don't forget to repattern![/note]
 
 # Quest: Heliofusion Exoticizer
 betterquesting.quest.0YrjX7i4QfeSo98gSE0SWg.name=§9§l§nHeliofusion Exoticizer
@@ -4443,6 +4463,10 @@ betterquesting.quest.KGDOhsZGQv2QqDzGdI_YTg.desc=Definitely consider making one.
 betterquesting.quest.RAH2M4DoTTaX5a2Sj4hRcQ.name=§9§l§nThe Cat is Out of the Box
 betterquesting.quest.RAH2M4DoTTaX5a2Sj4hRcQ.desc=After many hours of grind, blood, sweat, tears, and a little bit of transcendent metal...%nYou are now finally able to solve mankind's hardest puzzle ever, clicking boxes randomly.%n%nThe §cUncertainty Resolution§r, §oa Dyson user's wet dream§r, will allow you to completely skip that annoying puzzle when you need to set some (probably a lot.) Quantum Computers up.
 
+# Quest: Atto Power ICs
+betterquesting.quest.S1s9Qw2yQgGm0cKw-W1yvQ.name=§9§l§nAtto Power ICs
+betterquesting.quest.S1s9Qw2yQgGm0cKw-W1yvQ.desc=§5§fYou need Atto Power ICs for Dyson, UMV -> UXV transformers, UIV Energy/Dynamo Hatches, and Pico Circuits.%n%n[note]You'll need a UIV Cutting Mac- Wait what?[/note]%n%nFrom now on, your Cutting Machine is not going to cut it, §l§oliterally. §rThose giant sawblades cannot cut up wafers this complex.%n%nUsing your HILE is the next best thing, however you seem to burn most of the biological parts off of the wafer, causing you to gain less chips.%n%n[note]Perhaps we could focus these lasers with a new powerful lens.[/note]
+
 # Quest: Getting More Out of Your Hypogen
 betterquesting.quest.SoOmxNJvRcqY-ofFsWbyoQ.name=§9§l§nGetting More Out of Your Hypogen
 betterquesting.quest.SoOmxNJvRcqY-ofFsWbyoQ.desc=Once you get your first Hypogen from Fusion, you can easily duplicate it in your DTPF.%n%nIt is a loop, though, so be cautious.
@@ -4486,6 +4510,10 @@ betterquesting.quest.n2AqI9hGSEegVf6hfygemQ.desc=With your research now complete
 # Quest: Space Modules Galore
 betterquesting.quest.nghPgh6-TuSKXUlzGXGrpw.name=§9§l§nSpace Modules Galore
 betterquesting.quest.nghPgh6-TuSKXUlzGXGrpw.desc=Better modules will require a more advanced Space Elevator motor to function.%n%nThis upgrade will allow you to access 15 modules on your Space Elevator. If you haven't built the expansion yet, now might be a good time.%n%n[note]You can enable the Space Elevator expansion in the GUI.[/note]
+
+# Quest: Spacetime Splitting
+betterquesting.quest.pW_B3nmQTxy87apiA9DyMA.name=§9§l§nSpacetime Splitting
+betterquesting.quest.pW_B3nmQTxy87apiA9DyMA.desc=Spacetime... separates?? Crazy world we're living in.%n%nYou will need a lot of both of these for future crafts throughout the rest of the game, so make sure to set up infrastructure that can handle the demand. Luckily for you, you only need a small amount of it for now.%n%nYou will eventually be able to use DTPF and QFT recipes to speed the process up significantly, but for now the Spinmatron should be able to handle production just fine.%n%n[note]In addition to being a crafting ingredient, these can later be used to boost the performance of certain multiblocks, like the LNR, SSASS, & Vacuum Freezer.[/note]%n%n[note]To craft these fluids before UMV energy hatches, overclock the Spinmatron with a high power UIV Laser Hatch%n%nNote, Heavy Mode uses a lot of power.[/note]
 
 # Quest: Your First SpaceTime
 betterquesting.quest.q5Gvvfe5Tm2gxZfi7VIgpg.name=§9§l§nYour First SpaceTime
@@ -4536,6 +4564,10 @@ betterquesting.quest.5vAyoCzxQkSRpjzlDNwtrw.desc=It can run 4 different recipes 
 betterquesting.quest.6rzcSbH2QY2cpChT2zLC_g.name=§c§l§nUMV Energy Hatch
 betterquesting.quest.6rzcSbH2QY2cpChT2zLC_g.desc=The penultimate energy hatch.%n%nHopefully you know what to upgrade first.%n%n[note]Have you checked out wireless energy hatches yet?[/note]
 
+# Quest: Zepto Power IC
+betterquesting.quest.7oSbFvGZQfydqvXrYqLACA.name=§c§l§nZepto Power IC
+betterquesting.quest.7oSbFvGZQfydqvXrYqLACA.desc=§5§fYou need Zepto Power ICs for UXV -> MAX transformers, UMV Energy/Dynamos Hatches, and Quantum Circuits.%n%nThese wafers will need to be crafted in a Beam Crafter with Spacetime Dust and Molten Creon and Mellion. Perhaps upgrade your LHC some more.%n%n[note]You'll need a UMV Laser Engraver, or an OC'd multi to actually cut the wafers.%n%nWho isn't using OC'd multis at this point?[/note]
+
 # Quest: You Are Worthy
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMoQ.name=§c§l§nYou Are Worthy
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMoQ.desc=Go no further if you value your sanity.
@@ -4546,7 +4578,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqw.desc=Just a bit more.
 
 # Quest: UXV Circuits
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrA.name=§c§l§nUXV Circuits
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrA.desc=The final circuit in the game: Quantum Circuit, these will be required for lots of UMV/UXV crafts.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrA.desc=Quantum Circuits, another upgrade of Optical Mainframes and Pico Circuits. These UXV circuits will be required for lots of future crafts.%n%n[note]You will need your Pico Circuit NAC to get started.%n%nDid you know all special circuits contribute to the calibration?[/note]%n%n%n[warn]Rumor has it these circuits may not be around for much longer... %n%nMaybe do not trust rumors...[/warn]
+
+# Quest: What is this, Tekxit?
+betterquesting.quest.C0erucWORuCA_neG7VCkvg.name=§c§l§nWhat is this, Tekxit?
+betterquesting.quest.C0erucWORuCA_neG7VCkvg.desc=The immense heat of the God Forge and its modules allow for ideas themselves to be melted down.%n%nTwo clashing ideologies, forced to coexist. §3Hexanite §fis born.%n%nA fusion of §dMagic §fand §6Technology§f, the ultimate concoction, a volatile one. Even the God Forge struggles to merge them perfectly. A mess of ideas needs a host, something familiar to bind them together.%n%n§3§r[note]Redstone Plasma requires the God Forge to be melted, while Ichorium only needs a Fluid Extractor. You are sure to have lots of Ichorium Dust lying around from your Space Miners.%n%nIt is recommended to cast these materials in an Exo-Foundry, as the long wait times and high volume of use cannot be supported in a Mass Solidifier[/note]
 
 # Quest: White Dwarf Matter
 betterquesting.quest.DVLahVNUQ-CvjYwmvkUn-Q.name=§c§l§nWhite Dwarf Matter
@@ -4632,10 +4668,6 @@ betterquesting.quest.lU1caedNR6G6fdJqbivacw.desc=The §4Tipler§r Spacetime Comp
 betterquesting.quest.o8_pX-OSRJKBGzDsGujvNw.name=§c§l§nShirabon
 betterquesting.quest.o8_pX-OSRJKBGzDsGujvNw.desc=A helper material needed in some UMV and UXV components. Have fun making millions.%n%n[note]This is extremely slow to make and to process.[/note]
 
-# Quest: Spacetime Splitting
-betterquesting.quest.pW_B3nmQTxy87apiA9DyMA.name=§c§l§nSpacetime Splitting
-betterquesting.quest.pW_B3nmQTxy87apiA9DyMA.desc=Spacetime... separates?? Crazy world we're living in.%n%nYou will need a lot of both of these for upcoming crafts throughout the rest of the game, so make sure to set up infrastructure that can handle the demand. Fortunately, you will eventually be able to use DTPF and QFT recipes to speed the process up significantly, but for now the Spinmatron should be able to handle production just fine.%n%n[note]In addition to being a crafting ingredient, these can also be used to boost the performance of certain multiblocks, like the LNR, SSASS, & Vacuum Freezer.[/note]
-
 # Quest: UMV Field Generator
 betterquesting.quest.rdzpjzaCS2epgavzZr6L9A.name=§c§l§nUMV Field Generator
 betterquesting.quest.rdzpjzaCS2epgavzZr6L9A.desc=Another Field Generator... you are almost done.
@@ -4668,6 +4700,14 @@ betterquesting.quest.wGq5FvuuROyyMPbT_SkMYg.desc=Definitely consider this for th
 ## Quest Line: Endgame Goals
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAHQ.name=Endgame Goals
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAHQ.desc=Collection of endgame objectives, good luck and thanks for playing so far.
+
+# Quest: MAX Circuits
+betterquesting.quest.2rrP1wt_Qt2LlOqDppdjLQ.name=§4§l§nMAX Circuits
+betterquesting.quest.2rrP1wt_Qt2LlOqDppdjLQ.desc=Planck-Scale Circuits, the final circuits in the pack... for now. These MAX circuits are needed for high end UXV parts and the Stargate.%n%n[note]You will need your Quantum NAC to get started%n%nDid you know that Planck-Scale Manifolds, despite being classified as a circuit internally, do not contribute to the calibration of a Special NAC. Planck-Scale Circuits do, however.[/note]%n%n[warn]Whoever told you these rumors is lying to you, these circuits will NEVER be removed... or will they?[/warn]
+
+# Quest: Strings Upon Strings Upon Strings Upon-
+betterquesting.quest.3jUq4tkmRty9x5vvnqtD9w.name=§4§l§nStrings Upon Strings Upon Strings Upon-
+betterquesting.quest.3jUq4tkmRty9x5vvnqtD9w.desc=Computation has gone too far! We've gone too small! Why does it look so cool! These Planck-Scale Manifolds are incomprehensible to the human mind!%nGood thing we have GREGOS to comprehend them for us!%n%n[note]Planck-Scale Manifolds are manufactured in the NAC, and act as circuits.[/note]%n%n[warn]Do not put these in your mouth.[/warn]
 
 # Quest: Tier 13 (UXV)
 betterquesting.quest.7wI7VuLKRe6lqAJpuYKKJg.name=§4§l§nTier 13 (UXV)
@@ -4709,6 +4749,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKJg.desc=Congratulations, with this fina
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM4A.name=§4§l§nYou Made It!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM4A.desc=May Dreammaster have mercy on your soul. You have reached the highest craftable tier in the game!
 
+# Quest: UXV Energy Hatch
+betterquesting.quest.DGfri1njSxOeS79XXo4NIg.name=§4§l§nUXV Energy Hatch
+betterquesting.quest.DGfri1njSxOeS79XXo4NIg.desc=The final energy hatch. You should make these wireless as soon as possible.
+
 # Quest: Fabricating Solar Systems... in Parallel
 betterquesting.quest.IGVryoMbRu28q08v4uwSuw.name=§4§l§nFabricating Solar Systems... in Parallel
 betterquesting.quest.IGVryoMbRu28q08v4uwSuw.desc=As you've noticed, UXV components are extremely expensive compared to the amount of Universium you can currently produce.%n%nThe Astral Array Fabricator allows you to run EOH recipes in parallel. You can review the math in the second page of the tooltip.%n%nFor a direct answer, you can use this spreadsheet: [url]https://docs.google.com/spreadsheets/d/1FTFdfmY_UWbTbFOyNzARKeI90pbHvPBH6M3JHJmaC-E/edit?usp=sharing[/url]%n%n[warn]Be aware that the EOH will use Raw Stellar Plasma instead of Hydrogen and Helium if you use Astral Arrays.[/warn]%n%n[note]Make sure you are generating enough power.[/note]
@@ -4716,6 +4760,10 @@ betterquesting.quest.IGVryoMbRu28q08v4uwSuw.desc=As you've noticed, UXV componen
 # Quest: See You Next Time!
 betterquesting.quest.KNM9ICNAQIa8NaFoXwCC9g.name=§6§l§nSee You Next Time!
 betterquesting.quest.KNM9ICNAQIa8NaFoXwCC9g.desc=Still want more? Consider doing another run! Maybe even with some restrictions if you want to spice it up a bit. Check the first quest chapter for some recommendations!%n%nThere's also roles to be earned for completing the pack two or even three times if you want an extra incentive.%n%n[note]This quest and “The Factory Must Grow!” are mutually exclusive; completing one will lock the other.%n%nIf you are going for 100%% questbook completion, don't panic, finishing either quest still allows the tab to receive a green check (much like the previous XOR quests).[/note]
+
+# Quest: It Gets to a Point
+betterquesting.quest.Ni-YWTVjSz6Bk_MeC0hIiQ.name=§4§l§nIt Gets to a Point
+betterquesting.quest.Ni-YWTVjSz6Bk_MeC0hIiQ.desc=You are not done with wafers. Ok well, now you are, kind of.%n%nInfinite Wafers are the final tier of raw wafer, forged directly in the God Forge. Who knew silicon could hold up for this long?%n%nYocto Power ICs are used in Magmatter Nanites, MAX circuits, and UXV Energy Hatches.%n%n%n[note]You'll need a UXV Laser Engraver to cut these.%n%nYocto Power ICs need to be coated in Quark Gluon Plasma in an Exo-Foundry, overclocked to reach the MAX voltage required. This step cannot be done in a Mass Solidifier.[/note]
 
 # Quest: The Factory Must Grow!
 betterquesting.quest.OCv5OWo6Q9KDfqe1w0ET9w.name=§6§l§nThe Factory Must Grow!
@@ -4740,6 +4788,10 @@ betterquesting.quest.hNdNrT_aSKaYi_TnT7cowA.desc=Almost as expensive as the real
 # Quest: T3 Exo-Foundry
 betterquesting.quest.iLn_-6-LSk-wEOfi9muW3w.name=§4§l§nT3 Exo-Foundry
 betterquesting.quest.iLn_-6-LSk-wEOfi9muW3w.desc=Now that you have your hands on Eternity you can upgrade your §nExo-Foundry§r to the final tier!%n%nThe §6§lCelestial Magnetic Chassis§r will allow your Foundry to have a maximum of four modules installed, unlocking the most powerful combinations.%n%n[note]Checkout the Wiki if you need ideas on which modules to choose [url]https://wiki.gtnewhorizons.com/wiki/Exo-Foundry[/url][/note]
+
+# Quest: A Minor Roadblock
+betterquesting.quest.itcSYyc3Tdq9Q1qrP5RoEg.name=§4§l§nA Minor Roadblock
+betterquesting.quest.itcSYyc3Tdq9Q1qrP5RoEg.desc=MAX circuits huh... Is it really almost over?
 
 # Quest: Your Lord and Saviour, UXV CoAL
 betterquesting.quest.smCKxKkMSeyIAUeFInS4hQ.name=§4§l§nYour Lord and Saviour, UXV CoAL
@@ -7327,7 +7379,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7A.desc=The §5§lIndustrial Centrifuge
 
 # Quest: Bask In The Currents
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7Q.name=§d§lBask In The Currents
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7Q.desc=The best source for hundreds of thousands of glass for...something? I dunno, think of something interesting and impress me!%n%nThis machine also does plasma arc furnace recipes, though you'll need to expand its size to maximum (7x7x3) in order to perform them.%n%n[note]This multi is LuV and requires Thorium 232.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7Q.desc=§r[warn]This multiblock always runs recipes at the same tier as the energy hatches in the structure. If the machine does not have enough power supplied, it won't turn on.[/warn]%n%nAlthough this multiblock is available in IV, we recommend building one §nafter finishing the Naqline§r.%n%n%nThis multiblock has 3 different modes: §3Normal§r, §4EBF§r, and §6Ore§r.%n%n%nIn §3Normal§r mode, this multiblock §3processes normal arc furnace recipes§r.%n%nIn §4EBF§r mode, this multiblock can process §4every EBF recipe regardless of coil tier requirement§r. This feature comes at the cost of §lbase recipe voltage being increased by 2 tiers§r.%n%nIn §6Ore§r mode, this machine can only process ores and raw ores that can be smelted in a normal furnace, giving molten metal directly.%n%n%nIn addition to the modes, this machine has 3 different processing phases.%n%n§lStartup:§r During this phase, the machine will use power equal to §lmaximum parallels * number of amps per parallel * (1 + startup penalty)§r. This phase lasts for 6 seconds before going to the processing phase.%n%n§lProcessing:§r During this phase, the machine behaves as any other multiblock. Its power usage is determined by the amps/parallel statistic on the electrode that is being used. If the machine fails to find a recipe that it can use, it goes into the shutdown phase.%n%n§lShutdown:§r The machine enters a 6 second phase during which it does not process any recipes and does not use any power. After the shutdown phase, it needs to go through startup again before processing recipes.%n%n%nStatistics of this multiblock are mostly dependent on the electrode that is being used. This ranges from speed, parallels, OCs, and even the amount of amps per parallel.%n%nIf the used electrode drops below 30%% durability, there is a 5%% chance that the machine will have to go through the startup phase again.%n%nIf the used electrode drops below 10%% durability, there is a 2%% chance that the machine will §lvoid ALL§r outputs.
 
 # Quest: Bate Bate Chocolate
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7g.name=§9§lBate Bate Chocolate
@@ -8121,7 +8173,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACaw.desc=Batteries work pretty much the 
 
 # Quest: 16 Slot LV Battery Buffer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACmA.name=16 Slot LV Battery Buffer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACmA.desc=Upgrade your battery buffer to hold 16 batteries for primary storage.%n%nYou can use different buffers - probably with fewer batteries - for your EBF, Arc Furnace, Thermal Centrifuge, and so on.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACmA.desc=Upgrade your battery buffer to hold 16 batteries for primary storage.%n%nYou can use different buffers - probably with fewer batteries - for your EBF, Thermal Centrifuge, and so on.
 
 # Quest: Energy Crystals
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADFQ.name=Energy Crystals
@@ -9113,7 +9165,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFlQ.desc=After hours of hard work and to
 
 # Quest: Recycle Your Rocket and Save the Environment
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFlg.name=Recycle Your Rocket and Save the Environment
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFlg.desc=Why not recycle your old Tier 1 rocket to get components for your new tier 2 rocket? Put your old rocket in an arc furnace or plasma arc furnace to get back lots of materials.%n%nMake sure you don't need it anymore first!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFlg.desc=Why not recycle your old Tier 1 rocket to get components for your new tier 2 rocket? Put your old rocket in an arc furnace to get back lots of materials.%n%nMake sure you don't need it anymore first!
 
 # Quest: Booster
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFlw.name=Booster
@@ -9485,7 +9537,7 @@ betterquesting.quest.hB5tvfilRVi42OpLLhCwlw.desc=The Mothership Navigation Conso
 
 # Quest: A Better Rocket Fuel
 betterquesting.quest.qz7VHLFvQx6gDw3KZDIj0g.name=§9§lA Better Rocket Fuel
-betterquesting.quest.qz7VHLFvQx6gDw3KZDIj0g.desc=If you want to go further than Mars you need a better rocket fuel. From here on out, there is only one choice: the ExxonMobil Chemical Plant. If you don't have one yet, you should have a look at it. It has 4 separate tiering systems and might be a bit overwhelming at first. %n%n[note]Check out the quest for the Chemical Plant in the [quest]Multiblock Goals[/quest] quest tab for more information.[/note]%n%n§6If you already automated one of the upcoming rocket fuels, simply hold 32 cells of it to skip all quests leading up to it!
+betterquesting.quest.qz7VHLFvQx6gDw3KZDIj0g.desc=If you want to go further than Mars you need a better rocket fuel. From here on out, there is only one choice: the ExxonMobil Chemical Plant. If you don't have one yet, you should have a look at it. It has 4 separate tiering systems and might be a bit overwhelming at first. %n%n[note]Check out the quest for the Chemical Plant in the [quest]Multiblock Goals[/quest] quest tab for more information.[/note]%n%n§6If you already automated one of the upcoming rocket fuels, simply hold 64 cells of it to skip all quests leading up to it!
 
 # Quest: Does It Contain A Black Hole?
 betterquesting.quest.rfqcIf4uT--m6nYPenl8PQ.name=Does It Contain A Black Hole?
@@ -14499,7 +14551,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIYQ.desc=ERROR: Too many keys to fit a 1
 
 # Quest: Safety First
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIcQ.name=§c§lSafety First
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIcQ.desc=For those new to GregTech, here are some tips and warnings about electricity.%n%nMachines don't like being out in the rain, and will start fires nearby. Fires next to a machine have a random chance of an explosion. Also, sending a higher voltage than a machine's tier causes an explosion. Or several, if you pack things together, like many people. Sending more amps than a machine can use doesn't harm anything though.%n%nSending too high a voltage or too many amps down a cable will cause the cable to burn up and start fires, which may then cause machine explosions. Make sure the number of amps provided by generators and buffers to a cable does not exceed the amps it is capable of carrying.%n%nA generator that supplies 1A can possibly feed multiple machines, if their recipes require less than the full voltage. For example, macerators processing ore only need 2 EU/t, so you could run several from a single 1A generator, as long as the wires aren't too long. Why does that matter? Because there's loss for every amp for every block, listed on the wire/cable. Note that cables are better than wires. But be careful! Sometimes a recipe needs a lot more EU than you expect, like a macerator sand -> quartz dust recipe.%n%nMost machines only use 1A, however there are exceptions, such as the arc furnace, thermal centrifuge, world accelerators, and the UUM machines. Note that machines can accept more amps than they use (usually 2) in order to top up their energy supply, especially if they didn't receive most of the amp because of loss (mostly a problem in LV). The formula is (EU/t of Recipe * 2) / Voltage Tier + 1. Keep this in mind when deciding on cables.%n%nSome machines are specifically there to help you deal with multiple amps, such as battery buffers, transformers, and diodes. Check out the quest tab Storing and Transforming EU for more on those.%n%nIf you want to send more amps, use a larger cable or a superconductor (MV+, but ULV and LV have their own lossless cables). You can use laser hatches much later to send even more. There even are wireless options, but not right now.%n%nA single block machine starved of EU will restart progress but not lose the recipe items. A multiblock machine will lose the items.%n%nNote that any block that emits EU has loss when doing so: 2 ^ (tier-1) per amp. So 1 EU at LV, 2 EU at MV, and so on. Using large numbers of battery buffers in a row is thus very wasteful of your power. You have to be careful with losses when making your first EBF later in LV, maybe rather power them directly? Of course, if you want to keep your amps topped up over longer distances, you'll need to place BBs occasionally to 'top up' the amps, though this is less the case the further ingame you get, as the loss becomes less of something to worry about.%n%nIf this info isn't enough for you, head on over to [url]https://wiki.gtnewhorizons.com/wiki/Electricity[/url] to read more.%n%nIf you prefer to learn via video there are also great YouTube resources such as HamCorp's Electricity Guide: [url]https://www.youtube.com/watch?v=lpDPY8J-4QY[/url]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIcQ.desc=For those new to GregTech, here are some tips and warnings about electricity.%n%nMachines don't like being out in the rain, and will start fires nearby. Fires next to a machine have a random chance of an explosion. Also, sending a higher voltage than a machine's tier causes an explosion. Or several, if you pack things together, like many people. Sending more amps than a machine can use doesn't harm anything though.%n%nSending too high a voltage or too many amps down a cable will cause the cable to burn up and start fires, which may then cause machine explosions. Make sure the number of amps provided by generators and buffers to a cable does not exceed the amps it is capable of carrying.%n%nA generator that supplies 1A can possibly feed multiple machines, if their recipes require less than the full voltage. For example, macerators processing ore only need 2 EU/t, so you could run several from a single 1A generator, as long as the wires aren't too long. Why does that matter? Because there's loss for every amp for every block, listed on the wire/cable. Note that cables are better than wires. But be careful! Sometimes a recipe needs a lot more EU than you expect, like a macerator sand -> quartz dust recipe.%n%nMost machines only use 1A, however there are exceptions, such as the thermal centrifuge, world accelerators, and the UUM machines. Note that machines can accept more amps than they use (usually 2) in order to top up their energy supply, especially if they didn't receive most of the amp because of loss (mostly a problem in LV). The formula is (EU/t of Recipe * 2) / Voltage Tier + 1. Keep this in mind when deciding on cables.%n%nSome machines are specifically there to help you deal with multiple amps, such as battery buffers, transformers, and diodes. Check out the quest tab Storing and Transforming EU for more on those.%n%nIf you want to send more amps, use a larger cable or a superconductor (MV+, but ULV and LV have their own lossless cables). You can use laser hatches much later to send even more. There even are wireless options, but not right now.%n%nA single block machine starved of EU will restart progress but not lose the recipe items. A multiblock machine will lose the items.%n%nNote that any block that emits EU has loss when doing so: 2 ^ (tier-1) per amp. So 1 EU at LV, 2 EU at MV, and so on. Using large numbers of battery buffers in a row is thus very wasteful of your power. You have to be careful with losses when making your first EBF later in LV, maybe rather power them directly? Of course, if you want to keep your amps topped up over longer distances, you'll need to place BBs occasionally to 'top up' the amps, though this is less the case the further ingame you get, as the loss becomes less of something to worry about.%n%nIf this info isn't enough for you, head on over to [url]https://wiki.gtnewhorizons.com/wiki/Electricity[/url] to read more.%n%nIf you prefer to learn via video there are also great YouTube resources such as HamCorp's Electricity Guide: [url]https://www.youtube.com/watch?v=lpDPY8J-4QY[/url]
 
 # Quest: Moron's Guide to Breeding Better Bees
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIoQ.name=Moron's Guide to Breeding Better Bees
@@ -14631,7 +14683,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMeA.desc=Some turbine materials are not 
 
 # Quest: Hypogen Coil Upgrade
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkg.name=§9§l§nHypogen Coil Upgrade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkg.desc=Forged from the blood of an ageless dragon, and melded together by the power of fusion beyond what you thought was the reality. No natural element, or combination of elements, could match up to this glowing orange material, not even the Awakened Draconium you got your hands on before.%n%nWhat truly happened inside that Mk4 Fusion Reactor? What §ois§r this material? Its dust pulsates visibly, at different rates depending on the size of the dust itself. Hypogen approaches a state of complete balance as it approaches the block size, and it is obvious to you what needs to be done with it.%n%nIt absorbs and radiates energy without any effort, but it would be stupid to attempt making coils out of this without assistance. Wetware wasn't good enough anymore, and only the most advanced living circuit could withstand the erratic behavior Hypogen demonstrates.%n%nProvides 12601K heat. Almost certainly, this will end up on your DTPF.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkg.desc=Forged from the blood of an ageless dragon, and melded together by the power of fusion beyond what you thought was the reality. No natural element, or combination of elements, could match up to this glowing orange material, not even the Awakened Draconium you got your hands on before.%n%nWhat is this blood made of?%n%nWhat truly happened inside that Mk4 Fusion Reactor? What §ois§r this material? It moves on its own, moving as if it is made of slime, however it is boiling to the touch. Despite moving as if it is soft and squishy, Hypogen is hard to the touch and is incredibly hard to cut or work. It feels out of this world, and it is obvious to you what needs to be done with it.%n%nWhat were they feeding these dragons?%n%nIt absorbs and radiates energy without any effort, but it would be stupid to attempt making coils out of this without assistance. Wetware wasn't good enough anymore, and only the most advanced living circuit could withstand the erratic behavior Hypogen demonstrates.%n%nProvides 12601K heat. Almost certainly, this will end up on your DTPF.
 
 # Quest: Eternal Coil Upgrade
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkw.name=§9§l§nEternal Coil Upgrade
