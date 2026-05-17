@@ -13,7 +13,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Zinc makes great early game item pipes when mixed into brass. Also, these bees have a small chance of producing Gallium combs, which is very useful for players needing to make circuits or SMD devices. These bees will require a Zinc block. Breed them from Tin and Iron.",
+      "desc:8": "Zinc makes great early game item pipes when mixed into brass. Also, these bees have a small chance of producing Gallium combs, which is very useful for players needing to make circuits or SMD devices. These bees will require a Zinc block. Breed them from Tin and Iron.\n\nZinc Combs cannot be centrifuged. You now need to use a Chemical Reactor with some hydrochloric acid.\n\n[note]Breeder\u0027s Notes:\n\nYou probably only bred this as a stepping stone into the other metals. Nonetheless, that gallium is no joke! The queen will need to be jubilant for you to get those, so you need to match up its temperature and humidity band exactly. Your HUD will have a note when you are pointed at the apiary about if it\u0027s not jubilant. The default band is just NORMAL/NORMAL so any old plain/prairie kind of place will probably do.[/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

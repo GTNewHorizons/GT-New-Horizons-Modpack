@@ -9,7 +9,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The Ocean bee can be hard to breed since some servers use a worldgen that prevents ocean biomes from appearing. You might have luck trying in a Twilight Forest lake - you\u0027ll know you are in the right biome if you see Water Creepers! If you have trouble locating an appropriate spot, you can also purchase Ocean bees from the Vending Machine. Breed them from Diligent and Water.",
+      "desc:8": "The Ocean bee is bred from Diligent and Water in an ocean-type biome. Note that this doesn\u0027t mean literally an ocean. It is any biome that has the OCEAN tag. The stock terrain generator does not generate oceans in The Overworld, but there are a few biomes that carry the tag.\n\nSkipping The Overworld, you might have luck trying in a Twilight Forest lake - you\u0027ll know you are in the right biome if you see Water Creepers!\n\nYou can dump the biome data in NEI by clicking on the NEI options button (the wrench), then the Tools button, then the Data Dumps button, and finally the Dump button in the biomes category. This creates a \"dumps\" directory in the root folder of the modpack with a biome.csv file inside of it. Try anything that has OCEAN tagged to it. You can feed these biomes into a Nature\u0027s Compass and see if there are any nearby.\n\nSome examples: Shield, Tropics, Twilight Lake, and Lush Swamp.\n\nIf you have trouble locating an appropriate spot, you can also purchase Ocean bees from the Vending Machine. Breed them from Diligent and Water.\n\n[note]You get more than one princess per purchase, so it\u0027s a useful way to get a few extra pristine princesses.[/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

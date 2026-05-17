@@ -2,24 +2,29 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 2522
+      "questIDLow:4": 2584
+    },
+    "1:10": {
+      "questIDHigh:4": 6240105828909796885,
+      "questIDLow:4": -6772057045989436864,
+      "type:1": 1
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "These are the fluid versions.",
+      "desc:8": "Using Hypogen\u0027s strange slime-like properties, and Bio Catalyst Medium, a new wafer can be manufactured.\n\n[note]These wafers are not that useful currently, only being used for cheaper ZPM circuits, however they will come up again in UIV[/note]\n\n§dWhere were you when these took 60 seconds at UHV...",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 0,
+        "Damage:2": 32188,
         "OreDict:8": "",
-        "id:8": "ae2fc:part_fluid_storage_monitor"
+        "id:8": "gregtech:gt.metaitem.03"
       },
-      "isMain:1": 0,
+      "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Why Do I Need to Know How Much Manure Slurry I Have?",
+      "name:8": "§5§l§nUsing... Goop To Compute?",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -30,8 +35,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 2524,
+  "questIDHigh:4": -3688059030567695579,
+  "questIDLow:4": -9196647558105735406,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -40,22 +45,9 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 37,
-          "OreDict:8": "",
-          "id:8": "enhancedlootbags:lootbag"
-        }
-      }
-    },
-    "1:10": {
-      "ignoreDisabled:1": 0,
-      "index:3": 1,
-      "rewardID:8": "bq_standard:item",
-      "rewards:9": {
-        "0:10": {
-          "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "dreamcraft:CoinTechnicianII"
+          "id:8": "minecraft:cake"
         }
       }
     }
@@ -71,15 +63,32 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 0,
+          "Damage:2": 32722,
           "OreDict:8": "",
-          "id:8": "ae2fc:part_fluid_storage_monitor"
+          "id:8": "gregtech:gt.metaitem.03"
         },
         "1:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "ae2fc:part_fluid_conversion_monitor"
+          "id:8": "miscutils:itemDustHypogen"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32188,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.03"
         }
       },
       "taskID:8": "bq_standard:retrieval"

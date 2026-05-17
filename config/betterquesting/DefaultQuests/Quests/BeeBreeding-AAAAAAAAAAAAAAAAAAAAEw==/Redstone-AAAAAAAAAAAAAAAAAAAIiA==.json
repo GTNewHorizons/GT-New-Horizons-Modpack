@@ -13,7 +13,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The Redstone princess will require a block of Redstone. Breed them from Industrious and Demonic.",
+      "desc:8": "The Redstone princess will require a block of Redstone. Breed them from Industrious and Demonic.\n\n[note]Breeder\u0027s Notes:\n\nThe stock versions of Industrious and Demonic have incompatible climates:\n\nDemonic:\n  * HELLISH down 2 (to WARM)\n  * ARID zero tolerance\nIndustrious:\n  * NORMAL temperature, zero tolerance\n  * NORMAL humidity, zero tolerance\n\nYou will probably have to do something to make it work, which can include just running around a lot between apiaries in different places depending on the queen you get on any cycle.\n\nWhen the Redstone species starts to appear, it\u0027ll probably also want NORMAL/NORMAL with zero tolerance, but will need nether pollination.\n\n[/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,

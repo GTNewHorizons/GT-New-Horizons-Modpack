@@ -674,7 +674,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADrg.desc=The Plunger is used to clear li
 
 # Quest: Better Than Iron
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADtA.name=§c§lBetter Than Iron
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADtA.desc=But not as good as steel. Mostly, this is used in machine hulls, or in tools if you don't want to use steel up for that.%n%nTo make wrought iron, you either need to use a Tinkers' Smeltery to melt some Iron Ingots down and cast into Iron Nuggets, or use an Iron Ingot and a saw to craft Iron Nuggets. Now put these in a furnace to get Wrought Iron Nuggets. With the Compressor, you can compress the nuggets into ingots.%n%n§3Hint: Crushed or purified iron ore (not a mixed version like pyrite, look for Iron Ore in Chalcopyrite veins) can be smelted to iron nuggets directly. %n%nYou can optionally use an Alloy Smelter to turn iron ingots into nuggets faster than a smeltery. %n%nLater on, you can use an Arc Furnace to make Wrought Iron Ingots directly.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADtA.desc=But not as good as steel. Mostly, this is used in machine hulls, or in tools if you don't want to use steel up for that.%n%nTo make Cast Iron, you either need to use a Tinkers' Smeltery to melt some Iron Ingots down and cast into Iron Nuggets, or use an Iron Ingot and a saw to craft Iron Nuggets. Now put these in a furnace to get Cast Iron Nuggets. With the Compressor, you can compress the nuggets into ingots.%n%n§3Hint: Crushed or purified iron ore (not a mixed version like pyrite, look for Iron Ore in Chalcopyrite veins) can be smelted to iron nuggets directly. %n%nYou can optionally use an Alloy Smelter to turn iron ingots into nuggets faster than a smeltery. %n%nLater on, you can use an Arc Furnace to make Cast Iron Ingots directly.
 
 # Quest: New Source of Glowstone
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAERA.name=§c§lNew Source of Glowstone
@@ -835,6 +835,10 @@ betterquesting.quest.XuZpnhWZRou46kensglZ6g.desc=This Tome can store multiple do
 # Quest: Better Make that Two!
 betterquesting.quest.fRHWhPgpRyyvSRZpL1Pkbw.name=§c§lBetter Make that Two!
 betterquesting.quest.fRHWhPgpRyyvSRZpL1Pkbw.desc=You may need a second anvil! %n%nOne would have been for the Forge Hammer and another for general repairing or renaming!
+
+# Quest: Underground Geodes
+betterquesting.quest.w00gbWZ4QG60V0neazNERw.name=Underground Geodes
+betterquesting.quest.w00gbWZ4QG60V0neazNERw.desc=You can find amethyst blocks, crystals, and calcite blocks in underground geodes. %n%nDuring the Steam Age, calcite blocks become incredibly useful because you can put them into a Forge Hammer to obtain valuable calcite dust, which is used for crafting the Bricked Blast Furnace. They can usually be found between Y-levels 5 and 46.%n%nAmethyst can also be mined and used as a source of silicon dioxide. One amethyst block drops 9 amethyst dust, making it a great option for obtaining silicon dioxide.%n[note]%nYou can use an Ore Finder with calcite dust inserted into it to locate calcite deposits more easily.%n[/note]
 
 
 ## Quest Line: Tier 1 - LV
@@ -1119,11 +1123,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAChg.desc=The electrotine battery is excl
 
 # Quest: Basic Arc Furnace
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAClg.name=§2§lBasic Arc Furnace
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAClg.desc=The arc furnace is an alternative to macerating stuff back into dusts and for making wrought iron, annealed copper, and glass (in MV). You get ingots, and sometimes different materials back from recycling than with a macerator. You also have all 4 slots at LV. The recipes use oxygen and 3A of power.%n%nJust ignore the plasma one.%n%nAnd no, you can't just send 1A of MV. That will blow it up.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAClg.desc=The arc furnace is an alternative to macerating stuff back into dusts and for making Cast Iron, Annealed Copper, and Glass (in MV). You get ingots, and sometimes different materials back from recycling than with a Macerator. You also have both slots at LV.%n%n[note]You can also use certain gases to boost your Arc Furnace processing speed.[/note]
 
 # Quest: Faster Steel Production
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAClw.name=§2§lFaster Steel Production
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAClw.desc=A faster alternative to steel production is to use the arc furnace and smelt iron ingots (or dust) into wrought iron ingots. Then macerate them to dust and smelt them very fast in the EBF to steel.%n%nOf course, you'll need enough oxygen to do so.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAClw.desc=A faster alternative to Steel production is to use the arc furnace and smelt Iron Ingots (or dust) into Cast Iron Ingots. Then macerate them to dust and smelt them very fast in the EBF to Steel.%n%nOf course, you'll need enough Carbon/Coal/Charcoal dust to do so.
 
 # Quest: LV Extruder
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACoQ.name=§2§lLV Extruder
@@ -1504,7 +1508,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAC-A.desc=If you looked through NEI you m
 
 # Quest: Bio Fuels
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC2g.name=§6§lBio Fuels
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC2g.desc=You've been using Steam, Creosote, or possibly Oil to generate power. It's time to start making Bio Diesel. The first step is to make Plantballs out of organic materials. You can use Wheat, Sugar Canes, Apples, Saplings or, well, practically anything. Indigo Blossoms are 4:1 and unlike the rest of the IC2 crops with the same ratio, not really useful for anything else. Realistically, you'll probably just use saplings though, since you'll want/need a tree farm anyway.%n%nBe sure you have a Forestry Multifarm, Steve's Carts Farm, IC2 Crop Sticks with a harvester, or whatever, because you need plenty of bio materials for constant Bio Diesel production.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAC2g.desc=You've been using Steam, Creosote, or possibly Oil to generate power. It's time to start making Bio Diesel. The first step is to make Plantballs out of organic materials. You can use Wheat, Sugar Canes, Apples, Saplings or, well, practically anything. All CropsNH crops are 4:1 instead of an 8:1 ratio. Realistically, you'll probably just use saplings though, since you'll want/need a tree farm anyway.%n%nBe sure you have a Forestry Multifarm, Steve's Carts Farm, CropsNH Crop Sticks with a Crop Manager, or whatever, because you need plenty of bio materials for constant Bio Diesel production.
 
 # Quest: Plantballs
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC2w.name=§6§lPlantballs
@@ -2053,7 +2057,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAD-g.desc=Integrated Processors need cent
 
 # Quest: Small Coil
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD-w.name=§5§lSmall Coil
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD-w.desc=The Processor Assembly circuit needs some small coils. You can make these a couple different ways.%n%n[note]If you somehow got SMD Inductors already, you may hold 24 in your hand to skip this quest.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD-w.desc=The Processor Assembly circuit needs some small coils. You can make these a couple different ways.%n%n[note]If you somehow got SMD Inductors already, you may hold 64 in your hand to skip this quest.[/note]
 
 # Quest: Upgraded RF Batteries
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD2w.name=§5§lUpgraded RF Batteries
@@ -2462,7 +2466,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABzA.desc=You know how polymerization wor
 
 # Quest: Vinyl Acetate
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABzQ.name=§8§lVinyl Acetate
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABzQ.desc=Graphene is required for IV motors. This organic compound is just a stepping stone.%n%n§6Already automated Graphene? Hold 128 dust to complete this questline.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABzQ.desc=Graphene is required for IV motors. This organic compound is just a stepping stone.%n%n§6Already automated Graphene? Hold 64 dust to complete this questline.
 
 # Quest: Indium
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD7Q.name=§8§lIndium
@@ -2867,7 +2871,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGnw.desc=Mixing 3,3 Dichlorobenzidine wi
 
 # Quest: Chemical Reactions at IV Level
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGoA.name=§9§lChemical Reactions at IV Level
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGoA.desc=High tier chemical recipes need a high tier IV chemical reactor.%n%nAlternatively you can use your Large Chemical Reactor with either two EV energy hatches or one IV energy hatch.%n%n[note]...Which you can make after you finish the platline. Have fun![/note]%n%n§6If you missed it or forgot, hold a stack of the platline dust to skip the quests in between.%n%nYou can also skip the PBI chem quests, but you need to hold 256 sheets in your hand.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGoA.desc=High tier chemical recipes need a high tier IV chemical reactor.%n%nAlternatively you can use your Large Chemical Reactor with either two EV energy hatches or one IV energy hatch.%n%n[note]...Which you can make after you finish the platline. Have fun![/note]%n%n§6If you missed it or forgot, hold a stack of the platline dust to skip the quests in between.%n%nYou can also skip the PBI chem quests, but you need to hold 128 sheets in your hand.
 
 # Quest: Polybenzimidazole, Finally!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGoQ.name=§9§lPolybenzimidazole, Finally!
@@ -3300,7 +3304,7 @@ betterquesting.quest.8zpQos1hR1CbwmWldvxSpg.desc=Heating up the Netherite Scrap 
 
 # Quest: Netherite Materials
 betterquesting.quest.9dt9i3MYRa-NB6KROtAYFA.name=§d§lNetherite Materials
-betterquesting.quest.9dt9i3MYRa-NB6KROtAYFA.desc=Now that you've completed the Netherite line and successfully set up your Mk1 Fusion Reactor, you finally have access to §5§lBoron Plasma§r, which is necessary for creating all of the different §4§lNetherite materials§r. %n%nThese will be important for the rest of the game and are used often in a variety of items and materials, so it's important to make upgrades to your line both in terms of power and recipe usage as you continue to progress through the tiers.%n%n[note]UHV power and the QFT are the biggest milestones in terms of recipe upgrades for the line.[/note]%n%n[warn]You must use a High-Current Industrial (Plasma) Arc Furnace, a regular one isn't powerful enough.[/warn]
+betterquesting.quest.9dt9i3MYRa-NB6KROtAYFA.desc=Now that you've completed the Netherite line and successfully set up your Mk1 Fusion Reactor, you finally have access to §5§lBoron Plasma§r, which is necessary for creating all of the different §4§lNetherite materials§r. %n%nThese will be important for the rest of the game and are used often in a variety of items and materials, so it's important to make upgrades to your line both in terms of power and recipe usage as you continue to progress through the tiers.%n%n[note]UHV power and the QFT are the biggest milestones in terms of recipe upgrades for the line.[/note]%n
 
 # Quest: Automated Mining
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAyQ.name=§d§lAutomated Mining
@@ -3753,7 +3757,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALZw.desc=Ah, you made it.%n%nYou can cho
 
 # Quest: Enriched Naquadah Time
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALaA.name=§b§lEnriched Naquadah Time
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALaA.desc=The Enriched Naquadah line is much shorter than the Naquadah line, and easier. It's used for fuel or Neuro Processing Units which are UV content, and it's also used in the Prismarine line to make Prismatic Naquadah; something you will need for Trinium Coils.%n%n[warn]Hold 16 enriched Naquadah Ingot / Dust to skip this questline.[/warn]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALaA.desc=The Enriched Naquadah line is much shorter than the Naquadah line, and easier. It's used for fuel or Neuro Processing Units which are UV content, and it's also used in the Prismarine line to make Prismatic Naquadah; something you will need for Trinium Coils.%n%n[warn]Hold 64 enriched Naquadah Ingot / Dust to skip this questline.[/warn]
 
 # Quest: Concentration
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALgQ.name=§b§lConcentration
@@ -3773,7 +3777,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALhQ.desc=So it is a circle?
 
 # Quest: N.N.Q.Q.N.Q.Q
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALhg.name=§b§lN.N.Q.Q.N.Q.Q
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALhg.desc=Do you want some naquadria?%n%nUnfortunately, the naquadria dust has become repulsive naquadria oxide mixture dust because of a NERF. You have to build a line for it, like the naquadah.%n%n[warn]Hold 16 Naquadria Ingots / Dust to skip this questline.[/warn]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALhg.desc=Do you want some naquadria?%n%nUnfortunately, the naquadria dust has become repulsive naquadria oxide mixture dust because of a NERF. You have to build a line for it, like the naquadah.%n%n[warn]Hold 64 Naquadria Ingots / Dust to skip this questline.[/warn]
 
 # Quest: Purification
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALhw.name=§b§lPurification
@@ -3809,7 +3813,7 @@ betterquesting.quest.J9eklidSTbyHgMgImYT3-g.desc=After you've managed to grab so
 
 # Quest: Prismarine!? What Do I Need That For?
 betterquesting.quest.JhZaTiUfTH2AfBcHulTMVA.name=§b§lPrismarine!? What Do I Need That For?
-betterquesting.quest.JhZaTiUfTH2AfBcHulTMVA.desc=§5§lPrismarine§r is an ancient material long rumored to have originated from structures found deep within the ocean. Learning how to create this is extremely important, and may lead to advancements in technology with further exploration into the substrate.%n%nYou can get Prismarine in a few different ways as shown resource-wise by the optional tasks:%n%n§31. Through Botania by transmutating §nNether Quartz§r§3 directly to §nPrismarine§r§3 via an §nAlchemical Catalyst or the Fountain of Alchemy§r%n§r%n§22. Using §nRed Algae Biomass§r§2 and §nCertus Quartz§r §2dust in an §nAutoclave%n§r%n§c3. Using §nRed Algae Biomass§r§c and §nPrismatic Combs§r §cin an §nAutoclave.%n§r%nWhich method you choose is entirely up to you and dependent on what infrastructure you have setup thus-far. Either way you would be wise to make a robust setup as you will be needing a decent amount of Prismarine in the future.%n%n[warn]Hold 16 Naquarite Insulator Foil to skip the Prismarine line Quests.[/warn]
+betterquesting.quest.JhZaTiUfTH2AfBcHulTMVA.desc=§5§lPrismarine§r is an ancient material long rumored to have originated from structures found deep within the ocean. Learning how to create this is extremely important, and may lead to advancements in technology with further exploration into the substrate.%n%nYou can get Prismarine in a few different ways as shown resource-wise by the optional tasks:%n%n§31. Through Botania by transmutating §nNether Quartz§r§3 directly to §nPrismarine§r§3 via an §nAlchemical Catalyst or the Fountain of Alchemy§r%n§r%n§22. Using §nRed Algae Biomass§r§2 and §nCertus Quartz§r §2dust in an §nAutoclave%n§r%n§c3. Using §nRed Algae Biomass§r§c and §nPrismatic Combs§r §cin an §nAutoclave.%n§r%nWhich method you choose is entirely up to you and dependent on what infrastructure you have setup thus-far. Either way you would be wise to make a robust setup as you will be needing a decent amount of Prismarine in the future.%n%n[warn]Hold 64 Naquarite Insulator Foil to skip the Prismarine line Quests.[/warn]
 
 # Quest: Prismatic Gas
 betterquesting.quest.Oh_EQhvBQUqHeVcUyifCXQ.name=§b§lPrismatic Gas
@@ -3914,7 +3918,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKRA.desc=You'll need this for the next t
 
 # Quest: Quantum Power ICs
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKSQ.name=§2§l§nQuantum Power ICs
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKSQ.desc=You need Quantum Power ICs for UEV -> UIV and UIV -> UMV transformers, and UHV Hatches and Dynamos.%n%n[note]You'll need a UHV Cutting Machine, or an OC'd multi to actually cut the wafers.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKSQ.desc=You need Quantum Power ICs for UEV -> UIV transformers and UHV Hatches and Dynamos.%n%n[note]You'll need a UHV Cutting Machine, or an OC'd multi to actually cut the wafers.[/note]
 
 # Quest: Circuits, Assemble!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKSw.name=§2§l§nCircuits, Assemble!
@@ -3998,7 +4002,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAM0g.desc=There is a new material that ca
 
 # Quest: Space Elevator
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM0w.name=§2§l§nSpace Elevator
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAM0w.desc=The Space Elevator is a modular structure. It can be equipped with Space Elevator modules, which then can take on different tasks.%n%nInitially, your Space Elevator has 6 module slots that can be used. You can later upgrade that to up to 12 with Mk-II and Mk-III motors. The motor tier also determines the module tier that you can use. The I/O is not shared between modules, each module only sees their own I/O slots. Energy is only provided to the central structure of the Space Elevator and then automatically distributed to all modules.%n%nAfter a module has been inserted and supplied with the right I/O, it can be configured further using parameters.%n%nYou can see in NEI which fluids are pumpable with the Space Pumping Module. It consumes 1A UHV to work. The Gas Type and Planet Type are parameters.%n%nNEI also has an overview of all the ores you can obtain with a Space Mining Module. It needs to be supplied with a drone, which will act as catalyst, a set of input items, computation and either Helium, Bismuth or Radon plasma. The plasma will boost both the recipe time and the amount of bonus stacks you get out of a recipe. With its parameters you can adjust parallels, overdrive, and distance. When multiple recipes have the same input and you have the distance set to a value that they share, the module will pick a random one, taking the recipes weights into consideration.%n%nThe space elevator also lets you travel to other planets, but it doesn't get you back though so better keep that in mind!%n%nThe mining module also got a cycle mode. In static mode it will hold its distance while in cycle mode it will change its distance after each recipe check (and you can configure the range and step size of that).%n%nHere's a good spreadsheet to check material chances and other values, across motor tiers, for this multi: [url]https://docs.google.com/spreadsheets/d/1xRApa3HnQiJDstr8I5csIi24Mx4mJNsalRJh8PVa52M/edit#gid=1497391303[/url].%n%n[note]Teleportation can be accessed though the controller.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAM0w.desc=The Space Elevator is a modular structure. It can be equipped with Space Elevator modules, which then can take on different tasks.%n%nInitially, your Space Elevator has 6 module slots that can be used. You can later upgrade that to up to 12 with Mk-II and Mk-III motors. The motor tier also determines the module tier that you can use. The I/O is not shared between modules, each module only sees their own I/O slots. Energy is only provided to the central structure of the Space Elevator and then automatically distributed to all modules.%n%nAfter a module has been inserted and supplied with the right I/O, it can be configured further using parameters.%n%nYou can see in NEI which fluids are pumpable with the Space Pumping Module. It consumes 1A UHV to work. The Gas Type and Planet Type are parameters.%n%nNEI also has an overview of all the ores you can obtain with a Space Mining Module. It needs to be supplied with a drone, which will act as catalyst, a set of input items, computation and either Helium, Bismuth or Radon plasma. The plasma will boost both the recipe time and the amount of bonus stacks you get out of a recipe. With its parameters you can adjust parallels, overdrive, and distance. When multiple recipes have the same input and you have the distance set to a value that they share, the module will pick a random one, taking the recipes weights into consideration.%n%nThe space elevator also lets you travel to other planets, but it doesn't get you back though so better keep that in mind!%n%nThe mining module also got a cycle mode. In static mode it will hold its distance while in cycle mode it will change its distance after each recipe check (and you can configure the range and step size of that).%n%n[note]Teleportation can be accessed though the controller.[/note]
 
 # Quest: Extract what you want
 betterquesting.quest.LzCq9t0cT4-_TizIr_Iq_A.name=§2§l§nExtract what you want
@@ -4278,6 +4282,10 @@ betterquesting.quest.H3Tvy4ZKSyiQGT16Og90bA.desc=UEV energy hatches? Great! Time
 betterquesting.quest.H_S9zi1_SUKG7JkEYgJIiA.name=§5§l§nAssembling in Space
 betterquesting.quest.H_S9zi1_SUKG7JkEYgJIiA.desc=This new Space Elevator module can be used to make lapotron orbs more easily, and to make the raw components for optical circuits.
 
+# Quest: Using Light to Compute
+betterquesting.quest.L88EN1-iS1CQbixJBH_arQ.name=§5§l§nUsing Light to Compute
+betterquesting.quest.L88EN1-iS1CQbixJBH_arQ.desc=Carefully treating raw computer parts with purified water allows you to make optically enhanced chips. These use light waves to do computations at a speed you previously couldn't imagine. Making them is quite an involved process however.
+
 # Quest: NAC™: Wetware and Bioware Package
 betterquesting.quest.NAUxWAKzTHifGrUSGPcb5w.name=§5§l§nNAC§r§5§n™§r§5§n§l: Wetware and Bioware Package
 betterquesting.quest.NAUxWAKzTHifGrUSGPcb5w.desc=So you've chosen the §5§nWetware and Bioware Package§r for your newly purchased NAC™. A wise choice, as these are some of the most important circuits you will make. See the attached owner's manual for installation instructions.%n%n§oGet it while you can! A two-for-one deal on circuit lines!§r%n%n§n§lAccelerated Biological Coordinator Owner's Manual:§r%n%nThe NAC™ will track the most recent 100,000 circuits crafted, and can be calibrated to a specific circuit type by reaching a certain percentage of circuits of this type. At 60%% (60,000) wetware circuits crafted, the NAC™ will become "fully calibrated" to wetware circuits, and the same applies to bioware circuits.%n%nDepending on which calibration has been achieved, the Biological Coordinator will provide one of two bonuses:%n- If calibrated to §nWetware§r, usage of Growth Catalyst Medium is reduced to zero%n- If calibrated to §nBioware§r, usage of both Growth Catalyst Medium and Bio Catalyst Medium is reduced to zero
@@ -4286,9 +4294,9 @@ betterquesting.quest.NAUxWAKzTHifGrUSGPcb5w.desc=So you've chosen the §5§nWetw
 betterquesting.quest.U4zxsdwqTUKsbTATYEJirg.name=§5§l§nMy Eyes Hurt! #1
 betterquesting.quest.U4zxsdwqTUKsbTATYEJirg.desc=Finally, you are ready to assemble these new circuits. This is a UV-tier circuit.%n%n[note]It's highly recommended that you invest in a NAC before starting with Optical Circuits[/note]
 
-# Quest: Using Light to Compute
-betterquesting.quest.VplPMJ0DThWiBNH_Hx5SQA.name=§5§l§nUsing Light to Compute
-betterquesting.quest.VplPMJ0DThWiBNH_Hx5SQA.desc=Carefully treating raw computer parts with purified water allows you to make optically enhanced chips. These use light waves to do computations at a speed you previously couldn't imagine. Making them is quite an involved process however.
+# Quest: Optically Enriched Boules
+betterquesting.quest.VplPMJ0DThWiBNH_Hx5SQA.name=§5§l§nOptically Enriched Boules
+betterquesting.quest.VplPMJ0DThWiBNH_Hx5SQA.desc=With high amounts of UU-Matter, and various lenses to cover all spectrums of light, Optically Enriched Crystalline Boules can be engraved using Americium Boules.
 
 # Quest: My Eyes Hurt! #3
 betterquesting.quest.WIx0jq8hS8ifWxZWTmC5yA.name=§5§l§nMy Eyes Hurt! #3
@@ -4326,6 +4334,10 @@ betterquesting.quest.gOySBVKnSAiJk0Fie9k55A.desc=To run the DTPF, you will need 
 betterquesting.quest.iO7VxrxPTbutGjRtrcoAxw.name=§5§l§nThe Perfect CPU?
 betterquesting.quest.iO7VxrxPTbutGjRtrcoAxw.desc=Using your new optically enhanced boards and chips, you've managed to create what looks like the perfect CPU! Surely this will be able to handle even the advanced computations you need to perform to breach dimensional boundaries.
 
+# Quest: Energised Tesseract
+betterquesting.quest.j4pFVWCCSBGZsTyI7wpCYA.name=§5§l§nEnergised Tesseract
+betterquesting.quest.j4pFVWCCSBGZsTyI7wpCYA.desc=Using high amounts of energy and the strange properties of a Quantum Anomaly, Tesseracts can become energised, unlocking hidden potential.%n%n[note]You better love crafting these...[/note]
+
 # Quest: Tier 10 (UEV)
 betterquesting.quest.k9PA3buhTvK1EJpPfA8ZAg.name=§5§l§nTier 10 (UEV)
 betterquesting.quest.k9PA3buhTvK1EJpPfA8ZAg.desc=Welcome to Extremely Ultimate Voltage! Now that you've started making your first infinity, it's time to start scaling up. In this tier, every component will require infinity. Be prepared to make tons. Your main goal to advance will be to build the Dimensionally Transcendent Plasma Forge, also known as the DTPF. This massive multiblock will unlock new powerful recipes to create infinity, neutronium and other special materials.
@@ -4333,6 +4345,10 @@ betterquesting.quest.k9PA3buhTvK1EJpPfA8ZAg.desc=Welcome to Extremely Ultimate V
 # Quest: NAC™: Automation Package
 betterquesting.quest.lonEUE4hRuWYuP3JKbeLaw.name=§5§l§nNAC§r§5§n™§r§5§n§l: Automation Package
 betterquesting.quest.lonEUE4hRuWYuP3JKbeLaw.desc=Our most popular addon for the NAC™ platform, the §5§nAutomation Package§r allows for easily routing components between modules* for all your processing needs! Simply attach a Vacuum Conveyor Output to the core of the NAC, color it the same color as your input bus(es), and now you can route components to modules using Vacuum Conveyor Pipes!%n%n§oNote*: Modules sold separately§r
+
+# Quest: Femto Power ICs
+betterquesting.quest.m0Xg_WY_ToWE8Mc-8J28vg.name=§5§l§nFemto Power ICs
+betterquesting.quest.m0Xg_WY_ToWE8Mc-8J28vg.desc=§5§fYou need Femto Power ICs for UIV -> UMV transformers, and UEV Energy/Dynamo Hatches.%n%n[note]You'll need a UEV Cutting Machine or an OC'd multi to actually cut the wafers.%n%nPerhaps invest in Beamline to craft these, the Infinity Catalyst takes a long time to smelt.[/note]
 
 # Quest: One Last Time
 betterquesting.quest.msIxGO5gQCWJPmEyp_JhtQ.name=§5§l§nOne Last Time
@@ -4370,10 +4386,18 @@ betterquesting.quest.uUtOQgjtTCS5AWZPWG0qUQ.desc=Expensive but worth it. These w
 betterquesting.quest.y-pBsDI2QGS3B9sGG0Pqsg.name=§5§l§nInfinity Breastplate
 betterquesting.quest.y-pBsDI2QGS3B9sGG0Pqsg.desc=An armor set worthy of a God. This breastplate provides the user infinite creative flight and removes all negative debuffs.%n%nWhile wearing the complete set, you are completely unkillable.
 
+# Quest: Using... Goop To Compute?
+betterquesting.quest.zNFh2hRXSyWAXvHFlqTfEg.name=§5§l§nUsing... Goop To Compute?
+betterquesting.quest.zNFh2hRXSyWAXvHFlqTfEg.desc=Using Hypogen's strange slime-like properties, and Bio Catalyst Medium, a new wafer can be manufactured.%n%n[note]These wafers are not that useful currently, only being used for cheaper ZPM circuits, however they will come up again in UIV[/note]%n%n§dWhere were you when these took 60 seconds at UHV...
+
 
 ## Quest Line: Tier 11 - UIV
 betterquesting.questline.ytf2QCzUSk6ihcYeRbwblw.name=Tier 11 - UIV
 betterquesting.questline.ytf2QCzUSk6ihcYeRbwblw.desc=Enjoying the pack so far?%n%nAnyways here's your rough guide on the UIV progression.
+
+# Quest: Bending Space and Time
+betterquesting.quest.-HsIRcNoQYS35kDJwhdUpQ.name=§9§l§nBending Space and Time
+betterquesting.quest.-HsIRcNoQYS35kDJwhdUpQ.desc=So far, cutting Atto Power ICs in the HILE is really terrible, the lasers are just way too powerful to cut them effectively. Fortunately for you, you have the insane crushing power of black holes!%n%nBy compressing a Spatially Transcendent Gravitational Lens Block with some Spatially Enlarged Fluid, you can forge a very powerful lens. A lens so effective, it can bend light and even space.%n%nMaybe don't put your eyes up to the glass.%n%n[note]This lens unlocks a 1-2 recipe for Atto Power ICs, don't forget to repattern![/note]
 
 # Quest: Heliofusion Exoticizer
 betterquesting.quest.0YrjX7i4QfeSo98gSE0SWg.name=§9§l§nHeliofusion Exoticizer
@@ -4439,6 +4463,10 @@ betterquesting.quest.KGDOhsZGQv2QqDzGdI_YTg.desc=Definitely consider making one.
 betterquesting.quest.RAH2M4DoTTaX5a2Sj4hRcQ.name=§9§l§nThe Cat is Out of the Box
 betterquesting.quest.RAH2M4DoTTaX5a2Sj4hRcQ.desc=After many hours of grind, blood, sweat, tears, and a little bit of transcendent metal...%nYou are now finally able to solve mankind's hardest puzzle ever, clicking boxes randomly.%n%nThe §cUncertainty Resolution§r, §oa Dyson user's wet dream§r, will allow you to completely skip that annoying puzzle when you need to set some (probably a lot.) Quantum Computers up.
 
+# Quest: Atto Power ICs
+betterquesting.quest.S1s9Qw2yQgGm0cKw-W1yvQ.name=§9§l§nAtto Power ICs
+betterquesting.quest.S1s9Qw2yQgGm0cKw-W1yvQ.desc=§5§fYou need Atto Power ICs for Dyson, UMV -> UXV transformers, UIV Energy/Dynamo Hatches, and Pico Circuits.%n%n[note]You'll need a UIV Cutting Mac- Wait what?[/note]%n%nFrom now on, your Cutting Machine is not going to cut it, §l§oliterally. §rThose giant sawblades cannot cut up wafers this complex.%n%nUsing your HILE is the next best thing, however you seem to burn most of the biological parts off of the wafer, causing you to gain less chips.%n%n[note]Perhaps we could focus these lasers with a new powerful lens.[/note]
+
 # Quest: Getting More Out of Your Hypogen
 betterquesting.quest.SoOmxNJvRcqY-ofFsWbyoQ.name=§9§l§nGetting More Out of Your Hypogen
 betterquesting.quest.SoOmxNJvRcqY-ofFsWbyoQ.desc=Once you get your first Hypogen from Fusion, you can easily duplicate it in your DTPF.%n%nIt is a loop, though, so be cautious.
@@ -4482,6 +4510,10 @@ betterquesting.quest.n2AqI9hGSEegVf6hfygemQ.desc=With your research now complete
 # Quest: Space Modules Galore
 betterquesting.quest.nghPgh6-TuSKXUlzGXGrpw.name=§9§l§nSpace Modules Galore
 betterquesting.quest.nghPgh6-TuSKXUlzGXGrpw.desc=Better modules will require a more advanced Space Elevator motor to function.%n%nThis upgrade will allow you to access 15 modules on your Space Elevator. If you haven't built the expansion yet, now might be a good time.%n%n[note]You can enable the Space Elevator expansion in the GUI.[/note]
+
+# Quest: Spacetime Splitting
+betterquesting.quest.pW_B3nmQTxy87apiA9DyMA.name=§9§l§nSpacetime Splitting
+betterquesting.quest.pW_B3nmQTxy87apiA9DyMA.desc=Spacetime... separates?? Crazy world we're living in.%n%nYou will need a lot of both of these for future crafts throughout the rest of the game, so make sure to set up infrastructure that can handle the demand. Luckily for you, you only need a small amount of it for now.%n%nYou will eventually be able to use DTPF and QFT recipes to speed the process up significantly, but for now the Spinmatron should be able to handle production just fine.%n%n[note]In addition to being a crafting ingredient, these can later be used to boost the performance of certain multiblocks, like the LNR, SSASS, & Vacuum Freezer.[/note]%n%n[note]To craft these fluids before UMV energy hatches, overclock the Spinmatron with a high power UIV Laser Hatch%n%nNote, Heavy Mode uses a lot of power.[/note]
 
 # Quest: Your First SpaceTime
 betterquesting.quest.q5Gvvfe5Tm2gxZfi7VIgpg.name=§9§l§nYour First SpaceTime
@@ -4532,6 +4564,10 @@ betterquesting.quest.5vAyoCzxQkSRpjzlDNwtrw.desc=It can run 4 different recipes 
 betterquesting.quest.6rzcSbH2QY2cpChT2zLC_g.name=§c§l§nUMV Energy Hatch
 betterquesting.quest.6rzcSbH2QY2cpChT2zLC_g.desc=The penultimate energy hatch.%n%nHopefully you know what to upgrade first.%n%n[note]Have you checked out wireless energy hatches yet?[/note]
 
+# Quest: Zepto Power IC
+betterquesting.quest.7oSbFvGZQfydqvXrYqLACA.name=§c§l§nZepto Power IC
+betterquesting.quest.7oSbFvGZQfydqvXrYqLACA.desc=§5§fYou need Zepto Power ICs for UXV -> MAX transformers, UMV Energy/Dynamos Hatches, and Quantum Circuits.%n%nThese wafers will need to be crafted in a Beam Crafter with Spacetime Dust and Molten Creon and Mellion. Perhaps upgrade your LHC some more.%n%n[note]You'll need a UMV Laser Engraver, or an OC'd multi to actually cut the wafers.%n%nWho isn't using OC'd multis at this point?[/note]
+
 # Quest: You Are Worthy
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMoQ.name=§c§l§nYou Are Worthy
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMoQ.desc=Go no further if you value your sanity.
@@ -4542,7 +4578,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqw.desc=Just a bit more.
 
 # Quest: UXV Circuits
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrA.name=§c§l§nUXV Circuits
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrA.desc=The final circuit in the game: Quantum Circuit, these will be required for lots of UMV/UXV crafts.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrA.desc=Quantum Circuits, another upgrade of Optical Mainframes and Pico Circuits. These UXV circuits will be required for lots of future crafts.%n%n[note]You will need your Pico Circuit NAC to get started.%n%nDid you know all special circuits contribute to the calibration?[/note]%n%n%n[warn]Rumor has it these circuits may not be around for much longer... %n%nMaybe do not trust rumors...[/warn]
+
+# Quest: What is this, Tekxit?
+betterquesting.quest.C0erucWORuCA_neG7VCkvg.name=§c§l§nWhat is this, Tekxit?
+betterquesting.quest.C0erucWORuCA_neG7VCkvg.desc=The immense heat of the God Forge and its modules allow for ideas themselves to be melted down.%n%nTwo clashing ideologies, forced to coexist. §3Hexanite §fis born.%n%nA fusion of §dMagic §fand §6Technology§f, the ultimate concoction, a volatile one. Even the God Forge struggles to merge them perfectly. A mess of ideas needs a host, something familiar to bind them together.%n%n§3§r[note]Redstone Plasma requires the God Forge to be melted, while Ichorium only needs a Fluid Extractor. You are sure to have lots of Ichorium Dust lying around from your Space Miners.%n%nIt is recommended to cast these materials in an Exo-Foundry, as the long wait times and high volume of use cannot be supported in a Mass Solidifier[/note]
 
 # Quest: White Dwarf Matter
 betterquesting.quest.DVLahVNUQ-CvjYwmvkUn-Q.name=§c§l§nWhite Dwarf Matter
@@ -4628,10 +4668,6 @@ betterquesting.quest.lU1caedNR6G6fdJqbivacw.desc=The §4Tipler§r Spacetime Comp
 betterquesting.quest.o8_pX-OSRJKBGzDsGujvNw.name=§c§l§nShirabon
 betterquesting.quest.o8_pX-OSRJKBGzDsGujvNw.desc=A helper material needed in some UMV and UXV components. Have fun making millions.%n%n[note]This is extremely slow to make and to process.[/note]
 
-# Quest: Spacetime Splitting
-betterquesting.quest.pW_B3nmQTxy87apiA9DyMA.name=§c§l§nSpacetime Splitting
-betterquesting.quest.pW_B3nmQTxy87apiA9DyMA.desc=Spacetime... separates?? Crazy world we're living in.%n%nYou will need a lot of both of these for upcoming crafts throughout the rest of the game, so make sure to set up infrastructure that can handle the demand. Fortunately, you will eventually be able to use DTPF and QFT recipes to speed the process up significantly, but for now the Spinmatron should be able to handle production just fine.%n%n[note]In addition to being a crafting ingredient, these can also be used to boost the performance of certain multiblocks, like the LNR, SSASS, & Vacuum Freezer.[/note]
-
 # Quest: UMV Field Generator
 betterquesting.quest.rdzpjzaCS2epgavzZr6L9A.name=§c§l§nUMV Field Generator
 betterquesting.quest.rdzpjzaCS2epgavzZr6L9A.desc=Another Field Generator... you are almost done.
@@ -4664,6 +4700,14 @@ betterquesting.quest.wGq5FvuuROyyMPbT_SkMYg.desc=Definitely consider this for th
 ## Quest Line: Endgame Goals
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAHQ.name=Endgame Goals
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAHQ.desc=Collection of endgame objectives, good luck and thanks for playing so far.
+
+# Quest: MAX Circuits
+betterquesting.quest.2rrP1wt_Qt2LlOqDppdjLQ.name=§4§l§nMAX Circuits
+betterquesting.quest.2rrP1wt_Qt2LlOqDppdjLQ.desc=Planck-Scale Circuits, the final circuits in the pack... for now. These MAX circuits are needed for high end UXV parts and the Stargate.%n%n[note]You will need your Quantum NAC to get started%n%nDid you know that Planck-Scale Manifolds, despite being classified as a circuit internally, do not contribute to the calibration of a Special NAC. Planck-Scale Circuits do, however.[/note]%n%n[warn]Whoever told you these rumors is lying to you, these circuits will NEVER be removed... or will they?[/warn]
+
+# Quest: Strings Upon Strings Upon Strings Upon-
+betterquesting.quest.3jUq4tkmRty9x5vvnqtD9w.name=§4§l§nStrings Upon Strings Upon Strings Upon-
+betterquesting.quest.3jUq4tkmRty9x5vvnqtD9w.desc=Computation has gone too far! We've gone too small! Why does it look so cool! These Planck-Scale Manifolds are incomprehensible to the human mind!%nGood thing we have GREGOS to comprehend them for us!%n%n[note]Planck-Scale Manifolds are manufactured in the NAC, and act as circuits.[/note]%n%n[warn]Do not put these in your mouth.[/warn]
 
 # Quest: Tier 13 (UXV)
 betterquesting.quest.7wI7VuLKRe6lqAJpuYKKJg.name=§4§l§nTier 13 (UXV)
@@ -4705,6 +4749,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKJg.desc=Congratulations, with this fina
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM4A.name=§4§l§nYou Made It!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM4A.desc=May Dreammaster have mercy on your soul. You have reached the highest craftable tier in the game!
 
+# Quest: UXV Energy Hatch
+betterquesting.quest.DGfri1njSxOeS79XXo4NIg.name=§4§l§nUXV Energy Hatch
+betterquesting.quest.DGfri1njSxOeS79XXo4NIg.desc=The final energy hatch. You should make these wireless as soon as possible.
+
 # Quest: Fabricating Solar Systems... in Parallel
 betterquesting.quest.IGVryoMbRu28q08v4uwSuw.name=§4§l§nFabricating Solar Systems... in Parallel
 betterquesting.quest.IGVryoMbRu28q08v4uwSuw.desc=As you've noticed, UXV components are extremely expensive compared to the amount of Universium you can currently produce.%n%nThe Astral Array Fabricator allows you to run EOH recipes in parallel. You can review the math in the second page of the tooltip.%n%nFor a direct answer, you can use this spreadsheet: [url]https://docs.google.com/spreadsheets/d/1FTFdfmY_UWbTbFOyNzARKeI90pbHvPBH6M3JHJmaC-E/edit?usp=sharing[/url]%n%n[warn]Be aware that the EOH will use Raw Stellar Plasma instead of Hydrogen and Helium if you use Astral Arrays.[/warn]%n%n[note]Make sure you are generating enough power.[/note]
@@ -4712,6 +4760,10 @@ betterquesting.quest.IGVryoMbRu28q08v4uwSuw.desc=As you've noticed, UXV componen
 # Quest: See You Next Time!
 betterquesting.quest.KNM9ICNAQIa8NaFoXwCC9g.name=§6§l§nSee You Next Time!
 betterquesting.quest.KNM9ICNAQIa8NaFoXwCC9g.desc=Still want more? Consider doing another run! Maybe even with some restrictions if you want to spice it up a bit. Check the first quest chapter for some recommendations!%n%nThere's also roles to be earned for completing the pack two or even three times if you want an extra incentive.%n%n[note]This quest and “The Factory Must Grow!” are mutually exclusive; completing one will lock the other.%n%nIf you are going for 100%% questbook completion, don't panic, finishing either quest still allows the tab to receive a green check (much like the previous XOR quests).[/note]
+
+# Quest: It Gets to a Point
+betterquesting.quest.Ni-YWTVjSz6Bk_MeC0hIiQ.name=§4§l§nIt Gets to a Point
+betterquesting.quest.Ni-YWTVjSz6Bk_MeC0hIiQ.desc=You are not done with wafers. Ok well, now you are, kind of.%n%nInfinite Wafers are the final tier of raw wafer, forged directly in the God Forge. Who knew silicon could hold up for this long?%n%nYocto Power ICs are used in Magmatter Nanites, MAX circuits, and UXV Energy Hatches.%n%n%n[note]You'll need a UXV Laser Engraver to cut these.%n%nYocto Power ICs need to be coated in Quark Gluon Plasma in an Exo-Foundry, overclocked to reach the MAX voltage required. This step cannot be done in a Mass Solidifier.[/note]
 
 # Quest: The Factory Must Grow!
 betterquesting.quest.OCv5OWo6Q9KDfqe1w0ET9w.name=§6§l§nThe Factory Must Grow!
@@ -4736,6 +4788,10 @@ betterquesting.quest.hNdNrT_aSKaYi_TnT7cowA.desc=Almost as expensive as the real
 # Quest: T3 Exo-Foundry
 betterquesting.quest.iLn_-6-LSk-wEOfi9muW3w.name=§4§l§nT3 Exo-Foundry
 betterquesting.quest.iLn_-6-LSk-wEOfi9muW3w.desc=Now that you have your hands on Eternity you can upgrade your §nExo-Foundry§r to the final tier!%n%nThe §6§lCelestial Magnetic Chassis§r will allow your Foundry to have a maximum of four modules installed, unlocking the most powerful combinations.%n%n[note]Checkout the Wiki if you need ideas on which modules to choose [url]https://wiki.gtnewhorizons.com/wiki/Exo-Foundry[/url][/note]
+
+# Quest: A Minor Roadblock
+betterquesting.quest.itcSYyc3Tdq9Q1qrP5RoEg.name=§4§l§nA Minor Roadblock
+betterquesting.quest.itcSYyc3Tdq9Q1qrP5RoEg.desc=MAX circuits huh... Is it really almost over?
 
 # Quest: Your Lord and Saviour, UXV CoAL
 betterquesting.quest.smCKxKkMSeyIAUeFInS4hQ.name=§4§l§nYour Lord and Saviour, UXV CoAL
@@ -7323,7 +7379,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7A.desc=The §5§lIndustrial Centrifuge
 
 # Quest: Bask In The Currents
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7Q.name=§d§lBask In The Currents
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7Q.desc=The best source for hundreds of thousands of glass for...something? I dunno, think of something interesting and impress me!%n%nThis machine also does plasma arc furnace recipes, though you'll need to expand its size to maximum (7x7x3) in order to perform them.%n%n[note]This multi is LuV and requires Thorium 232.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7Q.desc=§r[warn]This multiblock always runs recipes at the same tier as the energy hatches in the structure. If the machine does not have enough power supplied, it won't turn on.[/warn]%n%nAlthough this multiblock is available in IV, we recommend building one §nafter finishing the Naqline§r.%n%n%nThis multiblock has 3 different modes: §3Normal§r, §4EBF§r, and §6Ore§r.%n%n%nIn §3Normal§r mode, this multiblock §3processes normal arc furnace recipes§r.%n%nIn §4EBF§r mode, this multiblock can process §4every EBF recipe regardless of coil tier requirement§r. This feature comes at the cost of §lbase recipe voltage being increased by 2 tiers§r.%n%nIn §6Ore§r mode, this machine can only process ores and raw ores that can be smelted in a normal furnace, giving molten metal directly.%n%n%nIn addition to the modes, this machine has 3 different processing phases.%n%n§lStartup:§r During this phase, the machine will use power equal to §lmaximum parallels * number of amps per parallel * (1 + startup penalty)§r. This phase lasts for 6 seconds before going to the processing phase.%n%n§lProcessing:§r During this phase, the machine behaves as any other multiblock. Its power usage is determined by the amps/parallel statistic on the electrode that is being used. If the machine fails to find a recipe that it can use, it goes into the shutdown phase.%n%n§lShutdown:§r The machine enters a 6 second phase during which it does not process any recipes and does not use any power. After the shutdown phase, it needs to go through startup again before processing recipes.%n%n%nStatistics of this multiblock are mostly dependent on the electrode that is being used. This ranges from speed, parallels, OCs, and even the amount of amps per parallel.%n%nIf the used electrode drops below 30%% durability, there is a 5%% chance that the machine will have to go through the startup phase again.%n%nIf the used electrode drops below 10%% durability, there is a 2%% chance that the machine will §lvoid ALL§r outputs.
 
 # Quest: Bate Bate Chocolate
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7g.name=§9§lBate Bate Chocolate
@@ -8117,7 +8173,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACaw.desc=Batteries work pretty much the 
 
 # Quest: 16 Slot LV Battery Buffer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACmA.name=16 Slot LV Battery Buffer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACmA.desc=Upgrade your battery buffer to hold 16 batteries for primary storage.%n%nYou can use different buffers - probably with fewer batteries - for your EBF, Arc Furnace, Thermal Centrifuge, and so on.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACmA.desc=Upgrade your battery buffer to hold 16 batteries for primary storage.%n%nYou can use different buffers - probably with fewer batteries - for your EBF, Thermal Centrifuge, and so on.
 
 # Quest: Energy Crystals
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADFQ.name=Energy Crystals
@@ -8571,7 +8627,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMIg.desc=Benzene cannot be extracted dir
 
 # Quest: The Most Powerful Biodiesel 
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMIw.name=The Most Powerful Biodiesel 
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMIw.desc=If you've been working with renewable diesels before, you might want to upgrade them further. Instead of just duplicating your existing setup, you can upgrade Biodiesel to Cetane-Boosted Diesel (CBD), with a specific additive called Tetranitromethane (TNM). You'll get more bang for your buck if you upgrade to this fuel, instead of just making more Biodiesel, since it has 3x more EU per bucket, and the TNM is needed in small quantities. Before you start working on the new setup, though, it's important that you increase the amount of Seed/Fish Oil you're making, and in turn the items that turn into those oils.%n%nAs before, you can use crops, regular crops/trees or fishing. For crops, you can use the Multifarm set to IC2 crop mode, which needs HV-gated Uranium Electron Tubes but automated more than 1000 crops while being very conservative with power and fertilizer, or the HV Crop Manager. For normal crops/trees, use the EnderIO Farming Station, also unlocked in HV. For fishing, you don't have new tools, you can only add more Fish Catchers or use Goldfish crops if you're oriented that way.%n%nTo complete this quest, make a Multifarm, a Farming Station or some Fish Catchers.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMIw.desc=If you've been working with renewable diesels before, you might want to upgrade them further. Instead of just duplicating your existing setup, you can upgrade Biodiesel to Cetane-Boosted Diesel (CBD), with a specific additive called Tetranitromethane (TNM). You'll get more bang for your buck if you upgrade to this fuel, instead of just making more Biodiesel, since it has 3x more EU per bucket, and the TNM is needed in small quantities. Before you start working on the new setup, though, it's important that you increase the amount of Seed/Fish Oil you're making, and in turn the items that turn into those oils.%n%nAs before, you can use crops, regular crops/trees or fishing. For crops, you can use the Industrial Farm multiblock unlocked in MV, Multifarm set to IC2 crop mode, which needs HV-gated Uranium Electron Tubes but automates more than 1000 crops while being very conservative with power and fertilizer, or the HV Crop Manager. For normal crops/trees, use the EnderIO Farming Station, also unlocked in HV. For fishing, you don't have new tools, you can only add more Fish Catchers or use Goldfish crops if you're oriented that way.%n%nTo complete this quest, make an HV fluid extractor and an Industrial Farm, a Multifarm, a Farming Station or some Fish Catchers.
 
 # Quest: Trees Growing Faster
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMJA.name=Trees Growing Faster
@@ -8792,7 +8848,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMXw.desc=What's the next step, running n
 
 # Quest: Can We Get Uranium Here?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMYA.name=Can We Get Uranium Here?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMYA.desc=Yes, you can. In fact, you can get it much earlier than EV, but the speed at which you get it can vary wildly, depending on how you approach this problem. Uranium is the main upgrade to Thorium in nukes, with a lot more power to give and a different useful breeding byproduct, but you need about 3 stacks of Uranium 238 to set up the most powerful basic IC2 Uranium Nuke.%n%nHow do you get it, though? The one answer is, you get it from Thorium. Looking at NEI, the Thorium ore processing has a chance to give Uranium dusts, which you can use as fuel, but this happens very slowly, especially considering that Thorium is a rare ore in the Nether, even if each ore block gives 4 crushed dust. The reality seems to be that fast Uranium only happens when you can mine from t2 planets, but this is not the only way. There is a secret, and this secret involves IC2 crops.%n%nHow does it work? Well, it's simple. The CropsNH crop that corresponds to Thorium, the God of Thunder, can quadruple each Crushed Thorium Ore into 4 Purified Thorium Ore, but it also outputs, in fluid form, one Uranium Ingot! This means that each Thorium Ore gives you 4 Uranium Ingots, and with around 42 ore, you can do one cycle of that big reactor setup. God of Thunder needs the ore under it, though, so make sure you save some for that purpose.%n%nEV Uranium nukes are an achievement intended mostly for crop users, so this quest won't demand something like that. Still, it's a useful secret, so here it is. Additionally, the Uranium crop quest in the questbook awards you with 32 Pitchblende when you complete it, which might prove useful for both for quadrupling Uranium and getting Radium for Radon!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMYA.desc=Yes, you can. In fact, you can get it much earlier than EV, but the speed at which you get it can vary wildly, depending on how you approach this problem. Uranium is the main upgrade to Thorium in nukes, with a lot more power to give and a different useful breeding byproduct, but you need about 3 stacks of Uranium 238 to set up the most powerful basic IC2 Uranium Nuke.%n%nHow do you get it, though? The one answer is, you get it from Thorium. Looking at NEI, the Thorium ore processing has a chance to give Uranium dusts, which you can use as fuel, but this happens very slowly, especially considering that Thorium is a rare ore in the Nether, even if each ore block gives 4 crushed dust. The reality seems to be that fast Uranium only happens when you can mine from t2 planets, but this is not the only way. There is a secret, and this secret involves CropsNH.%n%nHow does it work? Well, it's simple. The CropsNH crop that corresponds to Thorium, the God of Thunder, can quadruple each Crushed Thorium Ore into 4 Purified Thorium Ore, but it also outputs, in fluid form, one Uranium Ingot! This means that each Thorium Ore gives you 4 Uranium Ingots, and with around 42 ore, you can do one cycle of that big reactor setup. God of Thunder needs the ore under it, though, so make sure you save some for that purpose.%n%nEV Uranium nukes are an achievement intended mostly for crop users, so this quest won't demand something like that. Still, it's a useful secret, so here it is. Additionally, the Uranium crop quest in the questbook awards you with 32 Pitchblende when you complete it, which might prove useful for both for quadrupling Uranium and getting Radium for Radon!
 
 # Quest: Uranium Basic Nukes
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMYQ.name=Uranium Basic Nukes
@@ -9109,7 +9165,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFlQ.desc=After hours of hard work and to
 
 # Quest: Recycle Your Rocket and Save the Environment
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFlg.name=Recycle Your Rocket and Save the Environment
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFlg.desc=Why not recycle your old Tier 1 rocket to get components for your new tier 2 rocket? Put your old rocket in an arc furnace or plasma arc furnace to get back lots of materials.%n%nMake sure you don't need it anymore first!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFlg.desc=Why not recycle your old Tier 1 rocket to get components for your new tier 2 rocket? Put your old rocket in an arc furnace to get back lots of materials.%n%nMake sure you don't need it anymore first!
 
 # Quest: Booster
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFlw.name=Booster
@@ -9481,7 +9537,7 @@ betterquesting.quest.hB5tvfilRVi42OpLLhCwlw.desc=The Mothership Navigation Conso
 
 # Quest: A Better Rocket Fuel
 betterquesting.quest.qz7VHLFvQx6gDw3KZDIj0g.name=§9§lA Better Rocket Fuel
-betterquesting.quest.qz7VHLFvQx6gDw3KZDIj0g.desc=If you want to go further than Mars you need a better rocket fuel. From here on out, there is only one choice: the ExxonMobil Chemical Plant. If you don't have one yet, you should have a look at it. It has 4 separate tiering systems and might be a bit overwhelming at first. %n%n[note]Check out the quest for the Chemical Plant in the [quest]Multiblock Goals[/quest] quest tab for more information.[/note]%n%n§6If you already automated one of the upcoming rocket fuels, simply hold 32 cells of it to skip all quests leading up to it!
+betterquesting.quest.qz7VHLFvQx6gDw3KZDIj0g.desc=If you want to go further than Mars you need a better rocket fuel. From here on out, there is only one choice: the ExxonMobil Chemical Plant. If you don't have one yet, you should have a look at it. It has 4 separate tiering systems and might be a bit overwhelming at first. %n%n[note]Check out the quest for the Chemical Plant in the [quest]Multiblock Goals[/quest] quest tab for more information.[/note]%n%n§6If you already automated one of the upcoming rocket fuels, simply hold 64 cells of it to skip all quests leading up to it!
 
 # Quest: Does It Contain A Black Hole?
 betterquesting.quest.rfqcIf4uT--m6nYPenl8PQ.name=Does It Contain A Black Hole?
@@ -10285,15 +10341,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ2Q.desc=The Pattern Encoder will allow 
 
 # Quest: Visualizing How Much Your Stuff
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ2g.name=Visualizing How Much Your Stuff
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ2g.desc=The ME Storage Monitor allows you to visualize how much of an item you have. For example you can tell if you're running low on circuits and should make more, or how a long crafting process is proceeding. There are a couple of ways to use them.%n%nRight-click with item: Will display the current level of that item if not locked.%nRight-click with empty hand: Will reset the display if not locked.%nRight-click with AE2 wrench or network tool: Will toggle the lock.%n%nThe ME Conversion Monitor is the upgraded version of the ME Storage Monitor. It adds the ability to directly withdraw from or store items into the ME Network. It has the normal interactions, plus more.%n%nShift-right-clicking with item: Attempts to insert the item stack into the network. This works even if it's not the displayed item!%nShift-double-right-clicking: Attempts to insert all item stacks of the type displayed into the network.%nRight-clicking (while locked): Attempts to pull out a stack of the item displayed.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ2g.desc=The ME Storage Monitor allows you to visualize how much of an item or fluid you have. For example you can tell if you're running low on circuits and should make more, or how a long crafting process is proceeding. There are a couple of ways to use them.%n%nRight-click with item or control-right-click with fluid container: Will display the current level of that item or fluid if not locked.%nRight-click with empty hand: Will reset the display if not locked.%nRight-click with AE2 wrench or network tool: Will toggle the lock.%n%nThe ME Conversion Monitor is the upgraded version of the ME Storage Monitor. It adds the ability to directly withdraw from or store items and fluids in the ME Network. It has the normal interactions, plus more.%n%nShift-right-clicking with item or fluid container: Attempts to insert the item stack into the network. This works even if it's not the displayed item!%nShift-double-right-clicking: Attempts to insert all item and fluid stacks of the type displayed into the network.%nRight-clicking (while locked): Attempts to pull out a stack of the item displayed or fill held cell.
 
 # Quest: Redstone Based on Storage Level
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ2w.name=Redstone Based on Storage Level
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ2w.desc=This device will turn on (or off) a redstone signal based on how much of an item, fluid, or energy you specify you have in your network. The 'Level Type' will toggle between Item / Fluid mode and Energy mode.%n%nTo add an item, left-click your desired item into the blank space between the 1000 numbers to add, click again while holding nothing to remove. %n%nTo add a fluid, left-control-click a cell containing your desired fluid into the blank space, removable in the same fashion.
-
-# Quest: Why Do I Need to Know How Much Manure Slurry I Have?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ3A.name=Why Do I Need to Know How Much Manure Slurry I Have?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ3A.desc=These are the fluid versions.
 
 # Quest: Beam Me Up, Scotty
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ4Q.name=Beam Me Up, Scotty
@@ -11163,7 +11215,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEXA.desc=Common Princess and Forest Dron
 
 # Quest: Breed some common bees
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEXQ.name=Breed some common bees
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEXQ.desc=To cross breed bees you need two different species of bees. One drone and one princess from different world-gen hives (Meadows and Forest as an example)%n%nBee Houses do not allow crossbreeding. You need an Apiary to crossbreed them to a new species. Certain frames will help this process. Shortening their lifespan means faster crosses. Increasing Mutation rate means getting mutations and thus rare bees quicker.%n%nCommon Bees produce Honey Combs every 2.2 minutes. Note that production times are an approximation based on the bee's base production speed and the product's rarity. They do not reflect actual production time.%n%nMake sure your bees are pure by checking their genetics with a Beealyzer or GT scanner.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEXQ.desc=To cross breed bees you need two different species of bees. One drone and one princess from different naturally-generating hives (Meadows and Forest as an example).%n%nBee Houses do not allow crossbreeding. You need an Apiary to cross-breed them to a new species. Certain frames will help this process. Shortening their lifespan means faster crosses. Increasing the mutation rate means getting mutations and thus rare bees quicker.%n%nCommon Bees produce Honey Combs every 2.2 minutes. Note that production times are an approximation based on the bee's base production speed and the product's rarity. They do not reflect actual production time.%n%nMake sure your bees are pure by checking their genetics with a Beealyzer or GT scanner.%n%n[note]Breeder's Notes:%n%nRiiiight from the start, they have a trick for you. The Common bee is bred from most mundane species smashed into each other. The problem is the Cultivated species, which is next in line, is bred with most mundane species along with Common. Noble and Diligent then are crossed from Common and Cultivated. You could start with two mundane bees, have the results loop back unattended, and run that whole progression. Here's an example active:inactive mix you could get on a princess over time:%n%nMeadows:Forest%nMeadows:Common (Yay!)%nCommon:Meadows (Double yay! Active trait!)%nCultivated:Common (Boo!)%n. . . some time passes . . .%nDiligent:Noble (Wait, what?!)%n%nMeanwhile, this quest would still be sitting there, waiting for you to submit Common bees. Whoops!%n%nIf Cultivated starts to show up, just stuff any princesses and drones involved into a chest and act like that didn't happen for now. You can use them when you complete this quest to jumpstart the Cultivated species.%n%nNow, if you don't have any way to speed up breeding and don't want to stand around to micromanage, you can try filtering, or just checking on the result from time to time. Either way, maybe don't leave it going overnight if you're on a server.%n[/note]
 
 # Quest: Breed some noble bees
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEXg.name=Breed some noble bees
@@ -11243,7 +11295,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAI6Q.desc=Ancient bees are the first step
 
 # Quest: Ocean
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI6g.name=Ocean
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI6g.desc=The Ocean bee can be hard to breed since some servers use a worldgen that prevents ocean biomes from appearing. You might have luck trying in a Twilight Forest lake - you'll know you are in the right biome if you see Water Creepers! If you have trouble locating an appropriate spot, you can also purchase Ocean bees from the Vending Machine. Breed them from Diligent and Water.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI6g.desc=The Ocean bee is bred from Diligent and Water in an ocean-type biome. Note that this doesn't mean literally an ocean. It is any biome that has the OCEAN tag. The stock terrain generator does not generate oceans in The Overworld, but there are a few biomes that carry the tag.%n%nSkipping The Overworld, you might have luck trying in a Twilight Forest lake - you'll know you are in the right biome if you see Water Creepers!%n%nYou can dump the biome data in NEI by clicking on the NEI options button (the wrench), then the Tools button, then the Data Dumps button, and finally the Dump button in the biomes category. This creates a "dumps" directory in the root folder of the modpack with a biome.csv file inside of it. Try anything that has OCEAN tagged to it. You can feed these biomes into a Nature's Compass and see if there are any nearby.%n%nSome examples: Shield, Tropics, Twilight Lake, and Lush Swamp.%n%nIf you have trouble locating an appropriate spot, you can also purchase Ocean bees from the Vending Machine. Breed them from Diligent and Water.%n%n[note]You get more than one princess per purchase, so it's a useful way to get a few extra pristine princesses.[/note]
 
 # Quest: Resinous
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI6w.name=Resinous
@@ -11251,7 +11303,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAI6w.desc=Well at least you can get a cou
 
 # Quest: Miry
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI7A.name=Miry
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI7A.desc=Miry bees aren't too useful yet. They'll open up the Boggy branch for you. You'll need to find a biome with Warm/Damp to breed them. Use your Nature's Compass and Habitat Locator to find them. An easy one to find is Rainforest. Breed them from Marshy and Noble.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI7A.desc=Miry bees aren't too useful yet. They'll open up the Boggy branch for you. You'll need to find a biome with Warm/Damp to cause their mutation. Use your Nature's Compass and Habitat Locator to find them. An easy one to find is Rainforest. Breed them from Marshy and Noble.
 
 # Quest: Elastic
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI7Q.name=Elastic
@@ -11307,11 +11359,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIbg.desc=Growing bees are the start of t
 
 # Quest: Copper
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIcg.name=Copper
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIcg.desc=The Copper bee is the first of the metal lines. There are too many metal breeding lines to cover here, but by now you should be able to use NEI to figure out how to breed more bee types. Copper bees require a copper block beneath the bee housing. Breed them from Majestic and Clay.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIcg.desc=The Copper bee is the first of the metal lines. There are too many metal breeding lines to cover here, but by now you should be able to use NEI to figure out how to breed more bee types. Copper bees require a copper block beneath the bee housing. Breed them from Majestic and Clay.%n%nThe Copper Combs have a strong chance of centrifuging into copper dust, but you'll also see a Chemical Reactor recipe to use hydrochloric acid to get a 1:1 exchange. You have some bee options for getting chlorine so you should think about a sustained hydrochloric acid production line soon. You'll eventually §lhave to §ruse hydrochloric acid and won't have the Centrifuge option for later combs.
 
 # Quest: Clay
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIcw.name=Clay
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIcw.desc=To breed a Clay bee you must put a Clay block beneath the housing. Clay bees are the bedrock of many important bee lines. Breed them from Industrious and Diligent.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIcw.desc=To breed a Clay bee, you must put a Clay block beneath the housing. Clay bees are the bedrock of many important bee lines. Breed them from Industrious and Diligent.%n%n[note]Breeder's Notes:%n%nThis bee is an ancestor for a diverse group of species. A lot of them have incompatible biome requirements--especially the humidity. While breeding, you'll find that you have to alter the biome from cycle to cycle. You probably want to just earmark a spot that is NORMAL/DAMP right now if your only option for handling this is to run around with your breeding setup.%n%nYou're probably on your way to more interesting production bees, but don't forget that clay dust can be electrolyzed into some useful stuff!%n[/note]
 
 # Quest: Industrious
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIdA.name=Industrious
@@ -11331,15 +11383,15 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIdw.desc=Finally, Black Gold. The Oil be
 
 # Quest: Coal
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIeA.name=Coal
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIeA.desc=Ah yes, Coal is King indeed. A great bee, giving you Coal to use to power your industry. Will require a Coal Block under your bee housing. This bee will also have the first really dangerous effect - it will apply a creeper explosion to you if you are not wearing your Apiarist suit. Breed them from Peat and Industrious.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIeA.desc=Ah yes, Coal is King indeed, but Coal Bees are matriarchal. A great bee, giving you Coal to use to power your industry. This will require a Coal Block under your bee housing. This bee will also have the first really dangerous effect - it will apply a creeper explosion to you if you are not wearing your Apiarist suit. Breed them from Peat and Industrious.%n%n[note]Breeder's Notes:%n%nThis is a major prerequisite ancestor species to a lot of other bee species in this chapter, and they're advanced ones too. The problem is the Coal species is long-lived, so it takes a long time for the queen to drop down to a princess and two drones (assuming the Coal species default of 2x fertility). Consider using some lifetime-reducing frames to accelerate that so you can get a Coal drone stock more quickly and start on those other species.%n[/note]%n
 
 # Quest: Peat
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIeQ.name=Peat
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIeQ.desc=Peat from these bees can be used in furnaces and boilers. Free fuel is free, right? Breed them from Rural and Clay.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIeQ.desc=Peat from these bees can be used in furnaces and boilers. Free fuel is free, right? Breed them from Rural and Clay.%n%n[note]Breeder's Notes:%n%nYou probably are only doing this because it's a prerequisite for other breeds (especially Coal), but this is a really productive bee! Its peat should be able to pull off a little side hustle somewhere.%n%nNow, its §omulch§o§r is useful for growth medium with the Genetics tool line. If you're going that way, you might as well put this bee to work for it because you're already invested in bees.[/note]
 
 # Quest: Rural
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIeg.name=Rural
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIeg.desc=Rural bees like to live out in the country - you'll have to relocate to a Plains-type biome for these. Breed them from Diligent and Meadows.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIeg.desc=Rural bees like to live out in the country - you'll have to relocate to a Plains-type biome for these. Breed them from Diligent and Meadows.%n%nThey produce Wheaten Combs, which make . . . wheat. Hey, it ain't nothing! Still, this bee is more of a speed bump on the way to bigger projects.%n%n[note]They will take any biome with the PLAINS tag. You can dump the biome data in NEI by clicking on the NEI options button (the wrench), then the Tools button, then the Data Dumps button, and finally the Dump button in the biomes category. This creates a "dumps" directory in the root folder of the modpack with a biome.csv inside of it. Any listed biome that has the PLAINS tag is fair game. You can feed these biomes into a Nature's Compass and see if there are any nearby.[/note]
 
 # Quest: Blooming
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIew.name=Blooming
@@ -11367,7 +11419,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIgA.desc=Better be careful with this one
 
 # Quest: Sinister
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIgQ.name=Sinister
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIgQ.desc=Sinister bees will hurt nearby mobs and players. Make sure to wear your suit. They will require breeding in the Nether. Breed them from Modest and Cultivated.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIgQ.desc=Sinister bees will hurt nearby mobs and players. Make sure to wear your suit. They will require breeding in the Nether. Breed them from Modest and Cultivated.%n%nTheir Simmering Combs are no joke! You can centrifuge them down to get Phosphor, which you can then squeeze to get lava. Lava!%n%n
 
 # Quest: Fiendish
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIgg.name=Fiendish
@@ -11379,7 +11431,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIgw.desc=Secluded bees are real loners. 
 
 # Quest: Austere
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIhA.name=Austere
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIhA.desc=Another bee that requires an attentive beekeeper. Without an Apiarist suit, this bee will inflict creeper explosions on you. Watch you. It will require a hot or hellish biome with Arid humidity. Breed them from Modest and Frugal.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIhA.desc=Another bee that requires an attentive beekeeper. Without an Apiarist suit, this bee will inflict creeper explosions on you. Watch out! It will require a hot or hellish biome with Arid humidity. Breed them from Modest and Frugal.%n%n[note]Breeder's Notes:%n%nAustere may want a hellish biome, but that doesn't mean this species wants to be in The Nether. By default, they need to see the sky. You will either have to use an alveary with climate modifications to appease them, or alter an Overworld biome to their tastes. Something like the Potion of Shifting Seasons can put a little bit of a nether biome like Boneyard in the Overworld. You could get lucky and find an Overworld biome scorching hot enough to make them happy, but that's some serious luck.%n%nThe creeper explosions are usually just a bit annoying, but we once had an apiarist in steel armor and full, §agreen§r hearts get turned into a gravestone in §oone hit.§o §rThey were prepping to gear up into their apiarist suit, but they happened to be in its territory. Don't mess around with this species![/note]%n%n
 
 # Quest: Frugal
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIhQ.name=Frugal
@@ -11395,11 +11447,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIhw.desc=The Red Alloy princess will req
 
 # Quest: Redstone
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIiA.name=Redstone
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIiA.desc=The Redstone princess will require a block of Redstone. Breed them from Industrious and Demonic.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIiA.desc=The Redstone princess will require a block of Redstone. Breed them from Industrious and Demonic.%n%n[note]Breeder's Notes:%n%nThe stock versions of Industrious and Demonic have incompatible climates:%n%nDemonic:%n  * HELLISH down 2 (to WARM)%n  * ARID zero tolerance%nIndustrious:%n  * NORMAL temperature, zero tolerance%n  * NORMAL humidity, zero tolerance%n%nYou will probably have to do something to make it work, which can include just running around a lot between apiaries in different places depending on the queen you get on any cycle.%n%nWhen the Redstone species starts to appear, it'll probably also want NORMAL/NORMAL with zero tolerance, but will need nether pollination.%n%n[/note]
 
 # Quest: Monastic
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIiQ.name=Monastic
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIiQ.desc=Monastic bees aren't found in hives or bred. Instead, you will need to find a Beekeeper villager and trade with them for it. There are various ways to make more villagers, so do some research.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIiQ.desc=Monastic bees aren't found in hives or bred. Instead, you will need to find a Beekeeper villager and trade with them for it. There are various ways to make more villagers, so do some research.%n%n[note]Trader's Notes:%n%nBeekeeper villagers spawn in houses that have a fenced back yard with apiaries. If the apiaries are missing, the villager didn't spawn. Or, well, a player already came along and looted the apiaries. They might have abducted the beekeeper too. The beekeeper should be wearing an apiarist outfit. Their initial trades probably don't have this bee. You will have to work up to this by trading what is available. If they require a princess for a trade, an ignoble one is fine. Honorable mention goes to the trade of some logs for an apiary. That's so much easier than having to make them yourself! If trades lock up, one trade of the "rightmost" trade should unlock preceding ones so you can keep trying to get this trade to pop up.%n%nYou can make a golden lasso at LV tier and run off with the villager. If you do, prepare a heavily-fortified spot. Even single-block-wide walls won't keep all zombies away. Consider just keeping the beekeeper in the lasso when you're not using them.%n%nBeekeeper's Notes:%n%nThe base fertility for a Monastic bee is 1x. That's really annoying. When each cycle ends, you get a princess and a drone. That's it. You don't get surplus stock for carrying on breeding. If you can't just straight up alter the genome, then you can try to convert an arctic princess (or something else with a high fertility) with monastic drones in a way that gives you a higher fertility.%n%nOn the flip side, their long life is useful to try to get into production bees so you don't quickly clog up your bee product inventories with drones.%n%nThe "monastic line" of bees have other quirks. They'll take stuff like wheat and bookshelves as pollination sources. They can have some nasty aggression habits. They are long-lived, so you want something that cuts their life cycle for breeding--like an oblivion frame. You will start out here with a bee that likes average temperatures and humidity, but that'll drift to outright hellish and arid (but not The Nether!) for descendant species.%n[/note]%n%n
 
 # Quest: Vibrant Alloy
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIig.name=Vibrant Alloy
@@ -11427,7 +11479,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIjw.desc=For early Chrome, a Ruby bee is
 
 # Quest: Tin
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIkA.name=Tin
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIkA.desc=Tin is a great early bee to get, saving your time looking for Cassiterite Sand. You'll need a Tin block. Breed them from Clay and Diligent.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIkA.desc=Tin is a great early bee to get, it can save time you'd otherwise spend looking for Cassiterite Sand. You'll need a Tin block. Breed them from Clay and Diligent.%n%nThe Tin Combs have a strong chance of centrifuging into tin dust, but you'll also see a Chemical Reactor recipe to use hydrochloric acid to get a 1:1 exchange. You have some bee options for getting chlorine so you should think about a sustained hydrochloric acid production line soon. You'll eventually §lhave to §ruse hydrochloric acid and won't have Centrifuge recipes for later combs.
 
 # Quest: Iron
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIkQ.name=Iron
@@ -11435,11 +11487,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIkQ.desc=Iron bees as a resource isn't t
 
 # Quest: Nickel
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIkg.name=Nickel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIkg.desc=Nickel bees provide a pretty useful resource. You'll need a block of Nickel. Breed them from Iron and Copper.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIkg.desc=Nickel bees provide a pretty useful resource. You'll need a block of Nickel. Breed them from Iron and Copper.%n%nNickel Combs cannot be centrifuged. You now need to use a Chemical Reactor with some hydrochloric acid.
 
 # Quest: Zinc
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIkw.name=Zinc
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIkw.desc=Zinc makes great early game item pipes when mixed into brass. Also, these bees have a small chance of producing Gallium combs, which is very useful for players needing to make circuits or SMD devices. These bees will require a Zinc block. Breed them from Tin and Iron.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIkw.desc=Zinc makes great early game item pipes when mixed into brass. Also, these bees have a small chance of producing Gallium combs, which is very useful for players needing to make circuits or SMD devices. These bees will require a Zinc block. Breed them from Tin and Iron.%n%nZinc Combs cannot be centrifuged. You now need to use a Chemical Reactor with some hydrochloric acid.%n%n[note]Breeder's Notes:%n%nYou probably only bred this as a stepping stone into the other metals. Nonetheless, that gallium is no joke! The queen will need to be jubilant for you to get those, so you need to match up its temperature and humidity band exactly. Your HUD will have a note when you are pointed at the apiary about if it's not jubilant. The default band is just NORMAL/NORMAL so any old plain/prairie kind of place will probably do.[/note]
 
 # Quest: Lead
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIlA.name=Lead
@@ -11495,7 +11547,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIoA.desc=Beware. These bees not only hat
 
 # Quest: Arcane
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIpA.name=Arcane
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIpA.desc=Enchanting drops from Arcane bees are used to create Aromatic Lumps for use in the Swarmer. It has a higher chance of success than normal Royal Jelly. These bees are the other bedrock of the Magic Bees branch. Breed them from Esoteric and Mysterious.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIpA.desc=Enchanting drops from Arcane bees are used to create Aromatic Lumps for use in the Swarmer. It has a higher chance of success than normal Royal Jelly. These bees are the other bedrock of the Magic Bees branch. Breed them from Esoteric and Mysterious.%n%n[note]Thaumaturge's Notes:%n%nIf you are playing with disabled Thaumcraft research, and instead pay for research with aspects, then review descendants of this line. You can cross with Monastic bees, working your way to Pupil, and then on to Savant. Savant queens will produce lore fragments that you can combine into knowledge shards. That will help you stock up on aspects that you can put towards all the Praecantatio the alternate research mode requires.%n%nIt doesn't get its own quest progression because that's a pretty niche use. On the other hand, those ... academic bees also produce Paper Combs that can be centrifuged into paper.%n[/note]
 
 # Quest: Eldritch
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIpQ.name=Eldritch
@@ -11563,7 +11615,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAItA.desc=Not much to say about this bee.
 
 # Quest: Spirit
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAItQ.name=Spirit
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAItQ.desc=The Spirit bee is the first bee to give you Soul Combs, necessary for Soulful Wax, used in many magical frames. Breed them from Ethereal and Aware.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAItQ.desc=The Spirit bee is the first bee to give you Soul Combs, necessary for Soulful Wax, used in many magical frames. Breed them from Aware and either Ethereal or Attuned.
 
 # Quest: Soul
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAItg.name=Soul
@@ -11579,11 +11631,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIuA.desc=Ordered bees require Ordered Cr
 
 # Quest: Vis
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIuQ.name=Vis
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIuQ.desc=Vis bees lead to some of the most powerful bees in the whole pack. They require a node within 75m of the bee housing. Make sure the lunar phase matches the requirements. Breed them from Ethereal and Infernal.%n%n[note]Astronomer's Notes: The waxing and waning phases happen on alternating days. The moon starts its next phase at sunrise and will keep to the same phase all day and all night. You want to prepare the day before, get to bed to start the next day, and immediately get to work. Also, congratulations if you just learned that the moon in Minecraft has phases!%n%nBreeder's Notes: Just because this bee only mutates around specific lunar phases doesn't mean you can't work on them in other phases. To get the mutations to show up at all, yes, you need correct lunar phases. However, you will need a spare Infernal or Ethereal princess to get started, and you can prep that any day. Also, once the Vis species trait shows up in some drones and/or a princess, it's just regular cross-breeding to get a pure princess and pure drone. That can be done any day too.%n%nYou do not need to breed at night to trigger the mutation.%n%nThe Ethereal and Infernal bees are a rough combination. Since you'll need a new princess for this bee, consider using a pristine princess that isn't aggressive and is closer to your Ethereal bees' climate. If you get lucky, you may breed out the aggression and produce hybrid Infernals that don't need to live in an oven to function. You will probably need your apiarist suit if the bred queen gets a dominant Infernal trait for a few cycles.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIuQ.desc=Vis bees lead to some of the most powerful bees in the whole pack. They require a node within 75m of the bee housing. Make sure the lunar phase matches the requirements. Breed them from Ethereal and Infernal.%n%n[note]Astronomer's Notes: The waxing and waning phases happen on alternating days. The moon starts its next phase at sunrise and will keep to the same phase all day and all night. You want to prepare the day before, get to bed to start the next day, and immediately get to work. Also, congratulations if you just learned that the moon in Minecraft has phases!%n%nBreeder's Notes: Just because this bee only mutates around specific lunar phases doesn't mean you can't work on them in other phases. To get the mutations to show up at all, yes, you need correct lunar phases. However, you will need a spare Infernal or Ethereal princess to get started, and you can prep that any day. Also, once the Vis species trait shows up in some drones and/or a princess, it's just regular cross-breeding to get a pure princess and pure drone. That can be done any day too.%n%nDespite the focus on moon phases, you do not need to breed at night to trigger the mutation.%n%nThe Ethereal and Infernal bees are a rough combination. Since you'll need a new princess for this bee, consider using a pristine princess that isn't aggressive and is closer to your Ethereal bees' climate. If you get lucky, you may breed out the aggression and produce hybrid Infernals that don't need to live in an oven to function. You will probably need your apiarist suit if the bred queen gets a dominant Infernal trait for a few cycles.[/note]
 
 # Quest: Rejuvenating
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIug.name=Rejuvenating
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIug.desc=Rejuvenating bees must be bred within 25m of a node. They will slowly charge the nearest node. Breed them from Vis and Attuned.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIug.desc=Rejuvenating bees must be bred within 25m of a node. They will slowly charge the nearest node. Breed them from Vis and Attuned.%n
 
 # Quest: Empowering
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIuw.name=Empowering
@@ -11619,11 +11671,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIwg.desc=Tired of all the effort it take
 
 # Quest: Heroic
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIww.name=Heroic
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIww.desc=This one takes a little luck. You'll have to find Steadfast bees in a dungeon chest. Their useful effect is causing damage to hostile mobs. Breed them from Steadfast and Valiant.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIww.desc=This one takes a little luck. You'll have to find Steadfast drones in chests classified as dungeon chests. Note that doesn't mean the chests have to be in a dungeon! You could find one in the middle of some Thaumcraft obsidian pillars right on the surface of The Overworld. %n%nHeroic bees have the pleasant effect of causing damage to hostile mobs. Breed them from Steadfast and Valiant.%n%n[note]Breeder's Notes:%n%nSpecifically, you'll only ever find Steadfast drones in the chests. §nNo princesses.§r You'll have to convert a princess if you want to make a stock of them. Heroic is the only thing you can use them for, but you'll have a better time of it if you have more than a handful of drones. So if you play your cards well and use a high-fertility starter princess, you could take one or two Steadfast drones and multiply them into something safer before trying this mutation.[/note]
 
 # Quest: Nameless
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIxA.name=Nameless
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIxA.desc=Oblivion bees can be purchased with coins, or found in the End. Nameless is required to get Draconic bees. Nameless are also where you can get Amnesiac Wax. Breed them from Oblivion and Ethereal.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIxA.desc=Nameless bees are required to get Draconic bees. They are also where you can get Amnesiac Wax. Breed them from Oblivion and Ethereal. Oblivion bees can be purchased with coins, or found in The End.%n%n[note]Breeder's Notes:%n%nThe Oblivion bees are going to be the main problem here if you haven't reached The End yet. You can try to cross-breed without that access, but you're stuck when the mating pair creates an Oblivion Queen that needs End pollinators.[/note]
 
 # Quest: Abandoned
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIxQ.name=Abandoned
@@ -11680,6 +11732,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpg.desc=Breed an industrious with a her
 # Quest: Energium
 betterquesting.quest.B0XRo_S1RveAsKZSXms9vg.name=Energium
 betterquesting.quest.B0XRo_S1RveAsKZSXms9vg.desc=Are you tired of making Energium Dust by mixing Ruby and Redstone Dust? This bee offers a way to acquire it directly - how convenient is that? To breed it, you'll need to place some Hot Coolant below the hive while inside a Boneyard found in the Nether.%n%nUnlike its parents, this bee won't burn down your base—but it will set you on fire if you're not wearing your apiarist suit!
+
+# Quest: Attuned
+betterquesting.quest.EM4Z9io4QGSBNdSnymJNmg.name=Attuned
+betterquesting.quest.EM4Z9io4QGSBNdSnymJNmg.desc=You're now getting into Magic Bees, and one of its mundane bee species is the Attuned species. These are scooped out of Deep Hives that you can find in the Overworld. These hives are a pain to find, so you should consider just buying hives with coins until you get a princess and a drone. However, if you are a real masochist or completionist try-hard, then here's some information about where they spawn:%n%n* From Y=1 to Y=25%n* In stone, surrounded on 5 sides. Not just vanilla stone.%n* In biomes tagged with one or more of:%n   * MOUNTAINS: Actual mountains may not count. It's the biome type that counts.%n      * Example: Canyon.%n   * HILLS: Again, actual hills don't count.%n      * Example: Snowy Coniferous Forest.%n   * MAGICAL: Unlike the others, they do have some ethereal aspect.%n      * Examples: Magical Forest is obvious, but also Cherry Blossom Grove counts.%n* Surrounded by a small redstone vein. This often fills any open space around them.%n%nThey also like to just kind of show up whatever-what-the-heck in other biomes. Our beekeeping intern found a Deep Hive in a Lush Desert:%n%nLush Desert [HOT, DRY, SAVANNA, LUSH, SANDY]%n%nYou can dump the biome data in NEI by clicking on the NEI options button (the wrench), then the Tools button, then the Data Dumps button, and finally the Dump button in the biomes category. This creates a "dumps" directory in the root folder of the modpack with a biome.csv inside of it. Any listed biome that has the tags of HILLS, MOUNTAINS, and/or MAGICAL can generate Deep Hives. You can feed these biomes into a Nature's Compass and see if there are any nearby.%n%nProspector's Scanners will pick up the little ore pockets for these (traces, small samples). If you had one of those end-game ones with a display, it would come up as a few red pixels. Larger ones are probably just regular ore veins. The ore finding wand doesn't do a good job from the surface. Chasing lava veins and tunnels helps. Ore veins filled with redstone will saturate either tool.%n%nOf course, just buying hives is the low-effort way.%n%n[note]Beekeeper's Notes:%n%nIf you get real bad luck and wind up with an ignoble princess, then just get a bunch of drones out of it and convert some other pristine princess afterwards. However, using base princesses will compel the bees to turn into the Common species. There are two choices:%n%n1. Use an Alveary with an Alveary Stabilizer to block mutations.%n2. Create a princess that doesn't line up with the Attuned species' breeding possibilities before starting.[/note]
 
 # Quest: Salt
 betterquesting.quest.N0ZqNLJfSmaBKTNU7TbIAQ.name=Salt
@@ -12207,6 +12263,10 @@ betterquesting.quest.BiGj2-sBQ62nf0YtAKpGMw.desc=One Essentia you might have a h
 betterquesting.quest.CAqER5QVQg2Hq9lLZ9zDzg.name=Thauminite Helmet
 betterquesting.quest.CAqER5QVQg2Hq9lLZ9zDzg.desc=If you improve your Thaumium to Thauminite, you can make this very stylish helmet! Also comes with a very useful 5%% vis discount while equipped.%n%nMaybe this new material is useful for wands too?
 
+# Quest: The Burden of Knowledge
+betterquesting.quest.EL2z-VAzS9eVmQFpNnwimg.name=The Burden of Knowledge
+betterquesting.quest.EL2z-VAzS9eVmQFpNnwimg.desc=Have you made too many mistakes and researched yourself into a corner by getting too much warp with no way to get rid of it? Do you wish you could just start everything over? The [warn]Potion of Blissful Oblivion[/warn] is the solution you are looking for.%n%nAt the cost of your knowledge of [warn]all research, all discovered aspects, all knowledge points in the Research Table, and everything scanned with a Thaumometer[/warn], all of your warp will be removed. It won't do anything about warp from armor, so you might still get minor warp events if you're wearing any warpy armor. Be absolutely certain you know what you are doing before you drink this.%n%nKeep in mind that there are better alternatives for dealing with warp (which you can see in the Adept Thaumaturgy tab). This is just the cheapest one.%n%n[note]It's also a rather decent source of Strontio.[/note]
+
 # Quest: Comparing at a Distance
 betterquesting.quest.HF-prjNuRP-RUOYzn170cQ.name=Comparing at a Distance
 betterquesting.quest.HF-prjNuRP-RUOYzn170cQ.desc=Comparators are wonderfully useful devices, but their need to be directly next to whatever they are comparing is quite limiting. If you could do so remotely that would free you from one major constraint.%n%nRemote Comparators allow you to do just that. Sneak-right-click with a crystalline eye to bind the block you want to watch, and place the eye in a remote comparator to start monitoring the block remotely.%n%nGiven the extra distance, though the range of the remote comparator is quite limited, you should expect the §otiniest§r amount of signal lag compared to a direct comparator. You're doubtful that is ever going to be a limiting factor, though.
@@ -12218,6 +12278,10 @@ betterquesting.quest.JyVKlIbSSiaXjYfQ2FFLhQ.desc=Now that you have started using
 # Quest: Growing Glowstone the Magical Way
 betterquesting.quest.LUwrS4RnQGilkbdPQ_DrBg.name=Growing Glowstone the Magical Way
 betterquesting.quest.LUwrS4RnQGilkbdPQ_DrBg.desc=There are many plants that can provide you with Glowstone Dust. But the best one might just be Glieonia. This magical plant, once matured, can be harvested for two Glowstone Dust directly.
+
+# Quest: TimeWood Tree
+betterquesting.quest.LjblTeS1RdGLz6IeIq5oWw.name=TimeWood Tree
+betterquesting.quest.LjblTeS1RdGLz6IeIq5oWw.desc=The Timewood Clock is a special block that can be obtained in The Twilight Forest. It can be used to accelerate vanilla crops in a 16 block radius, making farms significantly faster and more efficient.%n%nTo get one, you must explore inside the massive Twilight Forest trees and search the loot chests hidden within them. There is a small chance to find a Tree of Time sapling. The clock generates hidden inside the tree after it grows.%n[warn]%nAfter growing the tree, you will need a Silk Touch tool to obtain the Timewood Clock itself.[/warn]%n[note]%nIf you break it without Silk Touch, it will instead drop several vanilla gold clocks.%n[/note]
 
 # Quest: Shadow Metal
 betterquesting.quest.NO4JlNzcR_-1gaQi-kb3JA.name=Shadow Metal
@@ -14487,7 +14551,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIYQ.desc=ERROR: Too many keys to fit a 1
 
 # Quest: Safety First
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIcQ.name=§c§lSafety First
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIcQ.desc=For those new to GregTech, here are some tips and warnings about electricity.%n%nMachines don't like being out in the rain, and will start fires nearby. Fires next to a machine have a random chance of an explosion. Also, sending a higher voltage than a machine's tier causes an explosion. Or several, if you pack things together, like many people. Sending more amps than a machine can use doesn't harm anything though.%n%nSending too high a voltage or too many amps down a cable will cause the cable to burn up and start fires, which may then cause machine explosions. Make sure the number of amps provided by generators and buffers to a cable does not exceed the amps it is capable of carrying.%n%nA generator that supplies 1A can possibly feed multiple machines, if their recipes require less than the full voltage. For example, macerators processing ore only need 2 EU/t, so you could run several from a single 1A generator, as long as the wires aren't too long. Why does that matter? Because there's loss for every amp for every block, listed on the wire/cable. Note that cables are better than wires. But be careful! Sometimes a recipe needs a lot more EU than you expect, like a macerator sand -> quartz dust recipe.%n%nMost machines only use 1A, however there are exceptions, such as the arc furnace, thermal centrifuge, world accelerators, and the UUM machines. Note that machines can accept more amps than they use (usually 2) in order to top up their energy supply, especially if they didn't receive most of the amp because of loss (mostly a problem in LV). The formula is (EU/t of Recipe * 2) / Voltage Tier + 1. Keep this in mind when deciding on cables.%n%nSome machines are specifically there to help you deal with multiple amps, such as battery buffers, transformers, and diodes. Check out the quest tab Storing and Transforming EU for more on those.%n%nIf you want to send more amps, use a larger cable or a superconductor (MV+, but ULV and LV have their own lossless cables). You can use laser hatches much later to send even more. There even are wireless options, but not right now.%n%nA single block machine starved of EU will restart progress but not lose the recipe items. A multiblock machine will lose the items.%n%nNote that any block that emits EU has loss when doing so: 2 ^ (tier-1) per amp. So 1 EU at LV, 2 EU at MV, and so on. Using large numbers of battery buffers in a row is thus very wasteful of your power. You have to be careful with losses when making your first EBF later in LV, maybe rather power them directly? Of course, if you want to keep your amps topped up over longer distances, you'll need to place BBs occasionally to 'top up' the amps, though this is less the case the further ingame you get, as the loss becomes less of something to worry about.%n%nIf this info isn't enough for you, head on over to [url]https://wiki.gtnewhorizons.com/wiki/Electricity[/url] to read more.%n%nIf you prefer to learn via video there are also great YouTube resources such as HamCorp's Electricity Guide: [url]https://www.youtube.com/watch?v=lpDPY8J-4QY[/url]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIcQ.desc=For those new to GregTech, here are some tips and warnings about electricity.%n%nMachines don't like being out in the rain, and will start fires nearby. Fires next to a machine have a random chance of an explosion. Also, sending a higher voltage than a machine's tier causes an explosion. Or several, if you pack things together, like many people. Sending more amps than a machine can use doesn't harm anything though.%n%nSending too high a voltage or too many amps down a cable will cause the cable to burn up and start fires, which may then cause machine explosions. Make sure the number of amps provided by generators and buffers to a cable does not exceed the amps it is capable of carrying.%n%nA generator that supplies 1A can possibly feed multiple machines, if their recipes require less than the full voltage. For example, macerators processing ore only need 2 EU/t, so you could run several from a single 1A generator, as long as the wires aren't too long. Why does that matter? Because there's loss for every amp for every block, listed on the wire/cable. Note that cables are better than wires. But be careful! Sometimes a recipe needs a lot more EU than you expect, like a macerator sand -> quartz dust recipe.%n%nMost machines only use 1A, however there are exceptions, such as the thermal centrifuge, world accelerators, and the UUM machines. Note that machines can accept more amps than they use (usually 2) in order to top up their energy supply, especially if they didn't receive most of the amp because of loss (mostly a problem in LV). The formula is (EU/t of Recipe * 2) / Voltage Tier + 1. Keep this in mind when deciding on cables.%n%nSome machines are specifically there to help you deal with multiple amps, such as battery buffers, transformers, and diodes. Check out the quest tab Storing and Transforming EU for more on those.%n%nIf you want to send more amps, use a larger cable or a superconductor (MV+, but ULV and LV have their own lossless cables). You can use laser hatches much later to send even more. There even are wireless options, but not right now.%n%nA single block machine starved of EU will restart progress but not lose the recipe items. A multiblock machine will lose the items.%n%nNote that any block that emits EU has loss when doing so: 2 ^ (tier-1) per amp. So 1 EU at LV, 2 EU at MV, and so on. Using large numbers of battery buffers in a row is thus very wasteful of your power. You have to be careful with losses when making your first EBF later in LV, maybe rather power them directly? Of course, if you want to keep your amps topped up over longer distances, you'll need to place BBs occasionally to 'top up' the amps, though this is less the case the further ingame you get, as the loss becomes less of something to worry about.%n%nIf this info isn't enough for you, head on over to [url]https://wiki.gtnewhorizons.com/wiki/Electricity[/url] to read more.%n%nIf you prefer to learn via video there are also great YouTube resources such as HamCorp's Electricity Guide: [url]https://www.youtube.com/watch?v=lpDPY8J-4QY[/url]
 
 # Quest: Moron's Guide to Breeding Better Bees
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIoQ.name=Moron's Guide to Breeding Better Bees
@@ -14619,7 +14683,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMeA.desc=Some turbine materials are not 
 
 # Quest: Hypogen Coil Upgrade
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkg.name=§9§l§nHypogen Coil Upgrade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkg.desc=Forged from the blood of an ageless dragon, and melded together by the power of fusion beyond what you thought was the reality. No natural element, or combination of elements, could match up to this glowing orange material, not even the Awakened Draconium you got your hands on before.%n%nWhat truly happened inside that Mk4 Fusion Reactor? What §ois§r this material? Its dust pulsates visibly, at different rates depending on the size of the dust itself. Hypogen approaches a state of complete balance as it approaches the block size, and it is obvious to you what needs to be done with it.%n%nIt absorbs and radiates energy without any effort, but it would be stupid to attempt making coils out of this without assistance. Wetware wasn't good enough anymore, and only the most advanced living circuit could withstand the erratic behavior Hypogen demonstrates.%n%nProvides 12601K heat. Almost certainly, this will end up on your DTPF.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkg.desc=Forged from the blood of an ageless dragon, and melded together by the power of fusion beyond what you thought was the reality. No natural element, or combination of elements, could match up to this glowing orange material, not even the Awakened Draconium you got your hands on before.%n%nWhat is this blood made of?%n%nWhat truly happened inside that Mk4 Fusion Reactor? What §ois§r this material? It moves on its own, moving as if it is made of slime, however it is boiling to the touch. Despite moving as if it is soft and squishy, Hypogen is hard to the touch and is incredibly hard to cut or work. It feels out of this world, and it is obvious to you what needs to be done with it.%n%nWhat were they feeding these dragons?%n%nIt absorbs and radiates energy without any effort, but it would be stupid to attempt making coils out of this without assistance. Wetware wasn't good enough anymore, and only the most advanced living circuit could withstand the erratic behavior Hypogen demonstrates.%n%nProvides 12601K heat. Almost certainly, this will end up on your DTPF.
 
 # Quest: Eternal Coil Upgrade
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkw.name=§9§l§nEternal Coil Upgrade

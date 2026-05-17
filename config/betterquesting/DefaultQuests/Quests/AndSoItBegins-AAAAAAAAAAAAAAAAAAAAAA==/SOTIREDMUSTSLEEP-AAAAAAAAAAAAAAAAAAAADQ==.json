@@ -80,9 +80,10 @@
   },
   "tasks:9": {
     "0:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
+      "allowAnvil:1": 0,
+      "allowCraft:1": 1,
+      "allowCraftedFromStatistics:1": 0,
+      "allowSmelt:1": 1,
       "ignoreNBT:1": 0,
       "index:3": 0,
       "partialMatch:1": 1,
@@ -94,7 +95,7 @@
           "id:8": "etfuturum:white_bed"
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:crafting"
     }
   }
 }
