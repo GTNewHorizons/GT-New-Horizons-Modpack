@@ -1,22 +1,23 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 1162181130482500484,
-      "questIDLow:4": -8199803816494517045
+      "questIDHigh:4": 0,
+      "questIDLow:4": 213
     },
     "1:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 1493
+      "questIDLow:4": 1416
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The best source for hundreds of thousands of glass for...something? I dunno, think of something interesting and impress me!\n\nThis machine also does plasma arc furnace recipes, though you\u0027ll need to expand its size to maximum (7x7x3) in order to perform them.\n\n[note]This multi is LuV and requires Thorium 232.[/note]",
+      "desc:8": "§r[warn]This multiblock always runs recipes at the same tier as the energy hatches in the structure. If the machine does not have enough power supplied, it won\u0027t turn on.[/warn]\n\nAlthough this multiblock is available in IV, we recommend building one §nafter finishing the Naqline§r.\n\n\nThis multiblock has 3 different modes: §3Normal§r, §4EBF§r, and §6Ore§r.\n\n\nIn §3Normal§r mode, this multiblock §3processes normal arc furnace recipes§r.\n\nIn §4EBF§r mode, this multiblock can process §4every EBF recipe regardless of coil tier requirement§r. This feature comes at the cost of §lbase recipe voltage being increased by 2 tiers§r.\n\nIn §6Ore§r mode, this machine can only process ores and raw ores that can be smelted in a normal furnace, giving molten metal directly.\n\n\nIn addition to the modes, this machine has 3 different processing phases.\n\n§lStartup:§r During this phase, the machine will use power equal to §lmaximum parallels * number of amps per parallel * (1 + startup penalty)§r. This phase lasts for 6 seconds before going to the processing phase.\n\n§lProcessing:§r During this phase, the machine behaves as any other multiblock. Its power usage is determined by the amps/parallel statistic on the electrode that is being used. If the machine fails to find a recipe that it can use, it goes into the shutdown phase.\n\n§lShutdown:§r The machine enters a 6 second phase during which it does not process any recipes and does not use any power. After the shutdown phase, it needs to go through startup again before processing recipes.\n\n\nStatistics of this multiblock are mostly dependent on the electrode that is being used. This ranges from speed, parallels, OCs, and even the amount of amps per parallel.\n\nIf the used electrode drops below 30% durability, there is a 5% chance that the machine will have to go through the startup phase again.\n\nIf the used electrode drops below 10% durability, there is a 2% chance that the machine will §lvoid ALL§r outputs.",
+
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 862,
+        "Damage:2": 15548,
         "OreDict:8": "",
         "id:8": "gregtech:gt.blockmachines"
       },
@@ -64,7 +65,7 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 862,
+          "Damage:2": 15548,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }
@@ -80,16 +81,58 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 18,
-          "Damage:2": 3,
+          "Count:3": 175,
+          "Damage:2": 305,
           "OreDict:8": "",
-          "id:8": "miscutils:gtplusplus.blockcasings.4"
+          "id:8": "gregtech:gt.blockframes"
         },
         "1:10": {
-          "Count:3": 1,
-          "Damage:2": 91,
+          "Count:3": 168,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "gregtech:gt.blockcasings2"
+        },
+        "2:10": {
+          "Count:3": 101,
+          "Damage:2": 13,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings2"
+        },
+        "3:10": {
+          "Count:3": 72,
+          "Damage:2": 32090,
+          "OreDict:8": "",
+          "id:8": "bartworks:bw.werkstoffblockscasing.01"
+        },
+        "4:10": {
+          "Count:3": 30,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings5"
+        },
+        "5:10": {
+          "Count:3": 17,
+          "Damage:2": 14,
+          "OreDict:8": "",
+          "id:8": "miscutils:miscutils.blockcasings"
+        },
+        "6:10": {
+          "Count:3": 15,
+          "Damage:2": 4,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings13"
+        },
+        "7:10": {
+          "Count:3": 12,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings13"
+        },
+        "8:10": {
+          "Count:3": 12,
+          "Damage:2": 3,
+          "OreDict:8": "",
+          "id:8": "miscutils:miscutils.blockcasings"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
