@@ -1,0 +1,138 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -3688059030567695579,
+      "questIDLow:4": -9196647558105735406
+    },
+    "1:10": {
+      "questIDHigh:4": -4905166588837212996,
+      "questIDLow:4": -5694412901591210156,
+      "type:1": 1
+    },
+    "2:10": {
+      "questIDHigh:4": -9156783390791874552,
+      "questIDLow:4": -8533404977696523804
+    },
+    "3:10": {
+      "questIDHigh:4": -1110411240280604338,
+      "questIDLow:4": -4677630017092864794
+    },
+    "4:10": {
+      "questIDHigh:4": -8103588346506098671,
+      "questIDLow:4": -7372044556205145504
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "§5§fYou need Atto Power ICs for Dyson, UMV -\u003e UXV transformers, UIV Energy/Dynamo Hatches, and Pico Circuits.\r\n\r\n[note]You\u0027ll need a UIV Cutting Mac- Wait what?[/note]\n\nFrom now on, your Cutting Machine is not going to cut it, §l§oliterally. §rThose giant sawblades cannot cut up wafers this complex.\n\nUsing your HILE is the next best thing, however you seem to burn most of the biological parts off of the wafer, causing you to gain less chips.\n\n[note]Perhaps we could focus these lasers with a new powerful lens.[/note]",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 32268,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.metaitem.03"
+      },
+      "isMain:1": 1,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "§9§l§nAtto Power ICs",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 5430001133927154177,
+  "questIDLow:4": -6426141127926254915,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 42,
+          "Damage:2": 11041,
+          "OreDict:8": "",
+          "id:8": "bartworks:gt.bwMetaGenerateddust"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32188,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.03"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "Damage:2": 2956,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 2979,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.01"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "dreamcraft:TCetiESeaweedExtract"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32268,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.03"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32269,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metaitem.03"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
