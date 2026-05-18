@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The Fertilization Unit provides a massive boost to production, but requires you to use §2Enriched Fertilizer§r, and disables it\u0027s 10x potency bonus. You\u0027ll need a steady supply of it in order to use this upgrade. It also increases power usage by 50%.\n\nIn exchange for the increased cost, the Fertilizer Unit will increase the farm\u0027s harvest bonus by 50% and §omultipy§r it\u0027s growth speed bonus by 50%.\n\nOnly one Fertilizer Unit is allowed per Industrial Farm\n\n[note]The growth speed increase is applied as a final multiplier. This means that it\u0027s even more effective when used in conjunction with other upgrades.[/note]\n\nAs with all upgrades, the tier of the upgrade must match the tier of the seed bed.",
+      "desc:8": "The Fertilization Unit provides a massive boost to production, but requires you to use §2Enriched Fertilizer§r, and disables its 10x potency bonus. You\u0027ll need a steady supply of it in order to use this upgrade. It also increases power usage by 50%.\n\nIn exchange for the increased cost, the Fertilization Unit will increase the farm\u0027s harvest bonus by 50% and §omultiply§r it\u0027s growth speed bonus by 50%.\n\nOnly one Fertilization Unit is allowed per Industrial Farm\n\n[note]The growth speed increase is applied as a final multiplier. This means that it\u0027s even more effective when used in conjunction with other upgrades.[/note]\n\nAs with all upgrades, the tier of the upgrade must match the tier of the seed bed.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
