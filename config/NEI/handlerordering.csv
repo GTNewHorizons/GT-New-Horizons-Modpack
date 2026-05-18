@@ -163,7 +163,6 @@ gt.recipe.cokeoven,0
 gt.recipe.componentassembler,0
 gt.recipe.compressor,0
 gt.recipe.create-condensate,0
-gt.recipe.cryogenicfreezer,0
 gt.recipe.cuttingsaw,0
 gt.recipe.cyclotron,0
 gt.recipe.distillationtower,0
@@ -388,7 +387,6 @@ vazkii.botania.client.integration.nei.recipe.RecipeHandlerManaPool,0
 vazkii.botania.client.integration.nei.recipe.RecipeHandlerPetalApothecary,0
 vazkii.botania.client.integration.nei.recipe.RecipeHandlerPureDaisy,0
 vazkii.botania.client.integration.nei.recipe.RecipeHandlerRunicAltar,0
-vendingmachine,0
 witchinggadgets.client.nei.NEISpinningWheelHandler,0
 gt.recipe.press,2
 witchinggadgets.client.nei.NEIInfernalBlastfurnaceHandler,2
@@ -404,6 +402,7 @@ gtpp.recipe.rocketenginefuel,5
 gtpp.recipe.semifluidgeneratorfuels,5
 gtpp.recipe.thermalgeneratorfuel,5
 gg.recipe.componentassemblyline,10
+gt.recipe.cryogenicfreezer,10
 gt.recipe.orewasher,10
 gt.recipe.packager,10
 gt.recipe.replicator,10
@@ -421,6 +420,7 @@ gtpp.recipe.category.abs_non_alloy_recipes,40
 ic2.neiIntegration.core.recipehandler.ScrapboxRecipeHandler,75
 enhancedlootbags,99
 bq_quest,100
+vendingmachine,101
 forestry.factory.recipes.nei.NEIHandlerBottler,110
 gt.recipe.fluidcanner,110
 com.github.technus.tectech.nei.TT_NEI_ResearchHandler,500
