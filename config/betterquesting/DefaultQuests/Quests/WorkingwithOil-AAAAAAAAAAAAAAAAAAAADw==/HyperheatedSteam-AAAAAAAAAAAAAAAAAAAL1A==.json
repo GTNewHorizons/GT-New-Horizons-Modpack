@@ -12,7 +12,7 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 866,
+        "Damage:2": 15520,
         "OreDict:8": "",
         "id:8": "gregtech:gt.blockmachines"
       },
@@ -56,7 +56,7 @@
         },
         "2:10": {
           "Count:3": 1,
-          "Damage:2": 866,
+          "Damage:2": 15520,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         },
@@ -68,7 +68,7 @@
         },
         "4:10": {
           "Count:3": 1,
-          "Damage:2": 865,
+          "Damage:2": 15519,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         },
