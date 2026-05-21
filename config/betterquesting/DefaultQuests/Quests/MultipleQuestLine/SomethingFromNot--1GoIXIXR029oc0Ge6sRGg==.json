@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "This multiblock works just as a normal drilling rig, but with the power of §5§l§oTechnology §rit won\u0027t reduce the underground field size so the output will always be the same. Additionally, you won\u0027t require any of those pesky mining pipes anymore!\n\nRequires a §4§nUHV+§r tier energy hatch in order to function.\n\nGrants §6§l2§r parallels per energy hatch tier above §4§nUHV§r.\n\n[note]Glass tier does not matter![/note]",
+      "desc:8": "This multiblock works just like a normal drilling rig, but with the power of §5§l§oTechnology§r it won\u0027t reduce the underground field size, so the output will always be the same. Additionally, you won\u0027t require any of those pesky mining pipes anymore!\n\nRequires a §4§nUHV+§r tier energy hatch in order to function.\n\nGrants §6§l2§r parallels per energy hatch tier above §4§nUHV§r.\n\n[note]Glass tier does not matter![/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
