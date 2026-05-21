@@ -12,11 +12,11 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "...out of the purified ores. Anyways, a Large Sifter will increase your sifting speed significantly. What will you do with all these gems??\n\n[note]You need one more casing if you don\u0027t want to use 2 energy hatches.[/note]",
+      "desc:8": "...out of the purified ores. Anyways, a §5§lLarge Sifter§r grants §6§l4§r parallels per voltage tier and will increase your sifting speed by §2§l5x§r. It will also give you a §3§l25%§r discount on all recipes.\n\nWhat will you do with all these gems??",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 840,
+        "Damage:2": 15542,
         "OreDict:8": "",
         "id:8": "gregtech:gt.blockmachines"
       },
@@ -143,7 +143,7 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 840,
+          "Damage:2": 15542,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }
@@ -159,18 +159,24 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 49,
+          "Count:3": 57,
           "Damage:2": 5,
           "OreDict:8": "",
           "id:8": "miscutils:gtplusplus.blockcasings.2"
         },
         "1:10": {
-          "Count:3": 18,
+          "Count:3": 19,
           "Damage:2": 6,
           "OreDict:8": "",
           "id:8": "miscutils:gtplusplus.blockcasings.2"
         },
         "2:10": {
+          "Count:3": 16,
+          "Damage:2": 305,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockframes"
+        },
+        "3:10": {
           "Count:3": 1,
           "Damage:2": 91,
           "OreDict:8": "",
