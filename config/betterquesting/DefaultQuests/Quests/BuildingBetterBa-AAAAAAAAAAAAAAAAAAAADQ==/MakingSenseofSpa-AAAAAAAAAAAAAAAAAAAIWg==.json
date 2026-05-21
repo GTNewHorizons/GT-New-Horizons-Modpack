@@ -8,13 +8,16 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Nobody likes an untidy base. Why don\u0027t you use some color to organize things a little!\nThe paint brush, painter, and spray cans can be used to color machines, wires, cables, pipes, wool, stained glass, and more!\n\nThe paint brush is the cheapest to make paint for, only requiring one piece of colored dye. \nThe painter requires distilled water and a chemical bath to create paint for. \nThe spray can uses chemical dye, which requires an MV chemical reactor to make.\nThe color applicator uses paint balls and can store all 16 colors at once.\n\nAny painted block can be painted over with another color, but to remove the color entirely you need to break the block while sneaking or use a can of solvent.\n\n[note]Sneaking while using a spray can or paint brush will color an entire line of blocks![/note]",
+      "desc:8": "Nobody likes an untidy base. Why don\u0027t you use some color to organize things a little!\r\nThe paint brush, painter, and spray cans can be used to color machines, wires, cables, pipes, wool, stained glass, and more!\r\n\r\nColored pipes, wires, and cables can only connect to uncolored cables/pipes/wires, or those of the same color.\r\n\r\nInput buses and hatches can also be colored, and multiblock machines will enforce input separation based on their colors. Inputs of the same color can only see each other, and un-colored inputs work with any color. While outbut buses and hatches can be colored as well, doing so will have no effect on where the machine sends outputs.\n\r\nAny painted block can be painted over with another color, but to remove the color entirely you need to break the block while sneaking or use a can of solvent.\r\n\r\nThe paint brush is the cheapest to make paint for, only requiring one piece of colored dye. \r\nThe painter requires distilled water and a chemical bath to create paint for. \r\nThe spray can uses chemical dye, which requires an MV chemical reactor to make.\r\nThe color applicator uses paint balls and can store all 16 colors at once.\r\n\r\n[note]Sneaking while using a spray can or paint brush will color an entire line of blocks![/note]\r\n\r\n[note]The priority of colored hatches is the same as the order of vanilla dyes in NEI, from highest (black) to lowest (white).[/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 32402,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "gregtech:gt.metaitem.01"
+        "id:8": "OpenBlocks:paintBrush",
+        "tag:10": {
+          "color:3": 12801229
+        }
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -42,21 +45,51 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 32432,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "BuildCraft|Core:paintbrush",
+          "tag:10": {
+            "color:1": 1
+          }
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 32452,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "BuildCraft|Core:paintbrush",
+          "tag:10": {
+            "color:1": 4
+          }
         },
         "2:10": {
           "Count:3": 1,
-          "Damage:2": 32438,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.metaitem.01"
+          "id:8": "BuildCraft|Core:paintbrush",
+          "tag:10": {
+            "color:1": 11
+          }
+        }
+      }
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag",
+          "tag:10": {
+            "ench:9": {
+              "0:10": {
+                "id:2": 35,
+                "lvl:2": 3
+              }
+            }
+          }
         }
       }
     }
