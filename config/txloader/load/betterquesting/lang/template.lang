@@ -10173,7 +10173,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFDg.desc=Used to accelerate the process 
 
 # Quest: Perfecting Crystal Growth
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFDw.name=Perfecting Crystal Growth
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFDw.desc=The crystal growth chamber is used for fast crystal growth, and it is possible to increase its speed by installing acceleration cards in an upgrade slot. It works more like a normal device, with the crystals growing in its internal inventory. Unlike the more primitive versions, it doesn't use power when not in use. It also doesn't use a channel.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFDw.desc=The §5§lCrystal Growth Chamber§r is used for fast crystal growth, and it is possible to increase its speed by installing acceleration cards in an upgrade slot. It works more like a normal device, with the crystals growing in its internal inventory. Unlike the more primitive versions, it doesn't use power when not in use. It also doesn't use a channel.
 
 # Quest: Purifying the Impure
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFEA.name=Purifying the Impure
@@ -10334,10 +10334,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ1w.desc=All terminals are made from the
 # Quest: Easier AL Automation
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ2A.name=Easier AL Automation
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ2A.desc=Unlike regular Pattern Terminals, the Processing Pattern Terminal doesn't have a crafting mode. Instead, you have a lot more slots for input and output, and the ability to swap them. Great for your Assembly Line patterns.%n%n[note]If you need to rename an item for use in a specific pattern, you can use Ctrl + Middle-Click to set the name of the item straight from the terminal. Very handy for some Forming Press & Assembly Line recipes![/note]
-
-# Quest: Making Patterns Quick
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ2Q.name=Making Patterns Quick
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ2Q.desc=The Pattern Encoder will allow you to use NEI's shift-click ? button functionality to create a crafting pattern even if you don't have the appropriate items.%n%nHowever, you can also drag the items from NEI to do the same thing, though much slower, because you have to look up each component. This is vastly less useful for processing patterns, since it's always 64 items though.
 
 # Quest: Visualizing How Much Your Stuff
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ2g.name=Visualizing How Much Your Stuff
@@ -10622,10 +10618,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALPQ.desc=ME Buses are combination of tec
 # Quest: Starting Your AE2 Journey
 betterquesting.quest.BKJ_IdnHR6ideLC6NnyyPg.name=Starting Your AE2 Journey
 betterquesting.quest.BKJ_IdnHR6ideLC6NnyyPg.desc=§nApplied Energistics 2 is an integral part of GTNH gameplay. %n§r%nAE2 is the primary networking and logistics management mod in GTNH for Items, Fluids, and Crafting. You will use it starting from EV and onward for most automations you perform. Given the sheer density of this modpack there are a variety of unique tools and features added specifically to aid in your adventure. Most of these tools are covered in this quest tab.%n%nThere is a lot to learn, but don't feel overburdened! Your abilities will continue to grow the more time you spend with it. There are a wide variety of helpful resources to take advantage of in addition to this book when it comes to learning:%n%n§21. The Wiki: §r[url]https://wiki.gtnewhorizons.com/wiki/Applied_Energistics_2[/url]%n%n- The Wiki has a lot of great starter information on what various systems do. They also have a lot of machine specific automation tutorials so be sure to check the Wiki if you're struggling or want a point of reference.%n%n§22. The Discord: §r[url]https://discord.gg/gtnh[/url]%n%n- The Discord is full of experienced AE2ers', check out #ae2-help to find plenty of people who will take time to help you figure something out.%n%n§23. Video Tutorials: §r[url]https://www.youtube.com/watch?v=LUYVmIAEC-I[/url]%n%n- There are a lot of great GTNH content creators who make high quality video tutorials for this. Here is a link to AE2 Fundamentals by IX. There's an advanced version as well.
-
-# Quest: Advanced Wireless Setup Kit
-betterquesting.quest.CbUsVtoETCy-CB3AlgHRjg.name=Advanced Wireless Setup Kit
-betterquesting.quest.CbUsVtoETCy-CB3AlgHRjg.desc=The Advanced Wireless Setup Kit is a must have for heavy wireless users. Instead of being a 1:1 back and forth it allows you to enter a "queuing mode" and a "binding mode" where you can select multiple targets at one time to bind in a row.%n%nWhen binding to connectors, the kit will bind connectors in the exact order that they were queued in. %n%nTo clear a queue and reset the kit, just shapelessly craft it into itself in your inventory.
 
 # Quest: 4096k Essentia Storage Cell
 betterquesting.quest.G5g_5_24RS6sqhmjFEbf8A.name=4096k Essentia Storage Cell
