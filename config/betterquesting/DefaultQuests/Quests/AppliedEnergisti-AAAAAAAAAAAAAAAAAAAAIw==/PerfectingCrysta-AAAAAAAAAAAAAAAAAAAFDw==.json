@@ -8,13 +8,13 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The crystal growth chamber is used for fast crystal growth, and it is possible to increase its speed by installing acceleration cards in an upgrade slot. It works more like a normal device, with the crystals growing in its internal inventory. Unlike the more primitive versions, it doesn\u0027t use power when not in use. It also doesn\u0027t use a channel.",
+      "desc:8": "The §5§lCrystal Growth Chamber§r is used for fast crystal growth, and it is possible to increase its speed by installing acceleration cards in an upgrade slot. It works more like a normal device, with the crystals growing in its internal inventory. Unlike the more primitive versions, it doesn\u0027t use power when not in use. It also doesn\u0027t use a channel.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "ae2stuff:Grower"
+        "id:8": "appliedenergistics2:tile.BlockCrystalGrowthChamber"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -102,7 +102,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "ae2stuff:Grower"
+          "id:8": "appliedenergistics2:tile.BlockCrystalGrowthChamber"
         }
       },
       "taskID:8": "bq_standard:retrieval"
