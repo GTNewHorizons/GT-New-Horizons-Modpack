@@ -16,9 +16,9 @@
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 17,
+        "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "ae2stuff:Wireless"
+        "id:8": "appliedenergistics2:tile.BlockWirelessHub"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
@@ -75,9 +75,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 17,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "ae2stuff:Wireless"
+          "id:8": "appliedenergistics2:tile.BlockWirelessHub"
         }
       },
       "taskID:8": "bq_standard:retrieval"

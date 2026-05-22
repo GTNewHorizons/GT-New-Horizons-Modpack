@@ -24,7 +24,7 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "ae2stuff:Wireless"
+        "id:8": "appliedenergistics2:tile.BlockWirelessConnector"
       },
       "isGlobal:1": 0,
       "isMain:1": 0,
@@ -103,13 +103,24 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "ae2stuff:WirelessKit"
+          "id:8": "appliedenergistics2:item.ToolWirelessKit",
+          "tag:10": {
+            "Advanced:10": {},
+            "Simple:10": {},
+            "Super:10": {
+              "names:9": {},
+              "pins:9": {},
+              "pos:10": {}
+            },
+            "advancedLineBinding:10": {},
+            "advancedLineQueue:10": {}
+          }
         },
         "1:10": {
           "Count:3": 2,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "ae2stuff:Wireless"
+          "id:8": "appliedenergistics2:tile.BlockWirelessConnector"
         }
       },
       "taskID:8": "bq_standard:retrieval"
