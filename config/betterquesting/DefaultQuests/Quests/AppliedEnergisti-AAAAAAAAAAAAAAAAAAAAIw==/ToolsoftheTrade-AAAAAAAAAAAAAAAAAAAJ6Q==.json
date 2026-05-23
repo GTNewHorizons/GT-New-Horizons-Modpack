@@ -79,7 +79,8 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "ae2stuff:Visualiser"
+          "id:8": "appliedenergistics2:item.ToolNetworkVisualiser",
+          "tag:10": {}
         }
       },
       "taskID:8": "bq_standard:retrieval"
