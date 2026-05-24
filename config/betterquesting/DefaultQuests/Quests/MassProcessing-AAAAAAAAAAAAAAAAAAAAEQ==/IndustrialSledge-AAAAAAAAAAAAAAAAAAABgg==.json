@@ -8,11 +8,11 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "A multiblock forge hammer. You will need to put an anvil in the center; the tier you choose will influence the maximum parallel amount of the machine.",
+      "desc:8": "The §5§lIndustrial Sledgehammer§r is a multiblock Forge Hammer. By default it processes recipes at §2§l2x§r the speed. \n\nThe tier of solenoid you use in the machine has a direct impact on how many parallels it has.\n\n§6§lParallels§r \u003d §9Solenoid Tier§r * §cVoltage Tier§r * 6",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 31075,
+        "Damage:2": 15555,
         "OreDict:8": "",
         "id:8": "gregtech:gt.blockmachines"
       },
@@ -60,7 +60,7 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 31075,
+          "Damage:2": 15555,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }
@@ -76,57 +76,34 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 18,
+          "Count:3": 27,
           "Damage:2": 6,
           "OreDict:8": "",
           "id:8": "miscutils:gtplusplus.blockcasings.5"
         },
         "1:10": {
+          "Count:3": 20,
+          "Damage:2": 32100,
+          "OreDict:8": "",
+          "id:8": "bartworks:bw.werkstoffblockscasingadvanced.01"
+        },
+        "2:10": {
+          "Count:3": 3,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings.cyclotron_coils"
+        },
+        "3:10": {
+          "Count:3": 2,
+          "Damage:2": 4,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings13"
+        },
+        "4:10": {
           "Count:3": 1,
           "Damage:2": 91,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
-        }
-      },
-      "taskID:8": "bq_standard:optional_retrieval"
-    },
-    "2:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 2,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "minecraft:anvil"
-        },
-        "1:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "Railcraft:anvil"
-        },
-        "2:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "EnderIO:blockDarkSteelAnvil"
-        },
-        "3:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "thaumicbases:thaumicAnvil"
-        },
-        "4:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "thaumicbases:voidAnvil"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

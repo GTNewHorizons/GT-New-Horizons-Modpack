@@ -13,7 +13,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The first of the XL Turbines. Because this is the first, this quest will include an explanation for the mechanics shared across all XL Turbines.\n\nEvery XL Turbine can hold 12 turbine items inside, in the 12 Rotor Assemblies, but their total speed is 16x higher than the regular multiblock equivalent. Make sure all the turbine items inside are of the same material, and also that you can provide enough input to match the flow rate that the multi needs! If you need even more speed, you can enable Loose Mode with a screwdriver on the controller, which can greatly increase turbines\u0027 flowrate while decreasing the efficiency.\n\nThese huge turbines also support TecTech hatches, so you can use multi-amp dynamos with a much higher output amount than normal, or even laser outputs later on to sustain the hundreds of millions of EU/t that the strongest turbines can produce.\n\nEach of the 5 turbines takes in the same fuels as their smaller counterparts, with some exceptions that will be mentioned in the respective quest. This XL Steam Turbine only consumes Steam, as expected.",
+      "desc:8": "The first of the XL Turbines. Because this is the first, this quest will include an explanation for the mechanics shared across all XL Turbines.\n\nEach XL Turbine can hold 12 turbine items inside, but its total speed is 16x higher than the regular multiblock equivalent. Make sure all the turbine items inside are of the same material, and also that you can provide enough input to match the flow rate that the multi needs! If you need even more speed, you can enable Loose Mode with a screwdriver on the controller, which can greatly increase turbines\u0027 flow rate while decreasing the efficiency.\n\nThese huge turbines also support TecTech hatches, so you can use multi-amp dynamos with a much higher output amount than normal, or even laser outputs later on to sustain the hundreds of millions of EU/t that the strongest turbines can produce.\n\nEach of the 5 turbines takes in the same fuels as their smaller counterparts, with some exceptions that will be mentioned in the respective quest. This XL Steam Turbine only consumes Steam, as expected.\n\n[note]Glass can be any tier.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -48,25 +48,13 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 392,
-          "Damage:2": 1,
-          "OreDict:8": "",
-          "id:8": "miscutils:gtplusplus.blockspecialcasings.1"
-        },
-        "1:10": {
-          "Count:3": 30,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "miscutils:gtplusplus.blockspecialcasings.1"
-        },
-        "2:10": {
-          "Count:3": 12,
-          "Damage:2": 30010,
+          "Count:3": 1,
+          "Damage:2": 15519,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
       "autoConsume:1": 0,
@@ -77,13 +65,43 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 1,
-          "Damage:2": 865,
+          "Count:3": 439,
+          "Damage:2": 1,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "miscutils:gtplusplus.blockspecialcasings.1"
+        },
+        "1:10": {
+          "Count:3": 100,
+          "Damage:2": 13,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings2"
+        },
+        "2:10": {
+          "Count:3": 36,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "bartworks:BW_GlasBlocks"
+        },
+        "3:10": {
+          "Count:3": 34,
+          "Damage:2": 305,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockframes"
+        },
+        "4:10": {
+          "Count:3": 20,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings.cyclotron_coils"
+        },
+        "5:10": {
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "miscutils:gtplusplus.blockspecialcasings.1"
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }
