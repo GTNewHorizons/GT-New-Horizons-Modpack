@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "This knife is not going to work for slaughtering the hundreds of animals you will need for food and materials. Make yourself a GregTech Butchery Knife. It stops the explosions, and kills the cows much faster, not to mention has Looting on it. Later when you get Stainless Steel, you can make a new one that will kill cows in one hit.\n\nNote that the GT Tool damage is based on tinkers mining level.",
       "globalShare:1": 1,
       "icon:10": {
@@ -38,6 +46,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 1,
       "name:8": "§a§lAll the Finest Cuts of Meat",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

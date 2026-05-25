@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Arrange Nanites in P-507 and label them with target particle information in the high-energy laser beam environment of a laser engraver. Then we get the Extracting Unit called \"Nano Resin\".\n\nThese Nanites automatically capture the target particles in solution and store them in the resin. It is worth noting that the actual production rate will be limited by the number of Nanites. So if you want to use this method to produce lanthanides in large quantities, you need to prepare more extra Nano Resin.\n\nHere are all 15 types of Extracting Nano Resin.",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +28,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§2§l§nNano Resin - Particle Extractors",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

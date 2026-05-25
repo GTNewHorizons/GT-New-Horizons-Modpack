@@ -25,6 +25,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Planck-Scale Circuits, the final circuits in the pack... for now. These MAX circuits are needed for high end UXV parts and the Stargate.\n\n[note]You will need your Quantum NAC to get started\n\nDid you know that Planck-Scale Manifolds, despite being classified as a circuit internally, do not contribute to the calibration of a Special NAC. Planck-Scale Circuits do, however.[/note]\n\n[warn]Whoever told you these rumors is lying to you, these circuits will NEVER be removed... or will they?[/warn]",
       "globalShare:1": 0,
       "icon:10": {
@@ -37,6 +45,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§4§l§nMAX Circuits",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

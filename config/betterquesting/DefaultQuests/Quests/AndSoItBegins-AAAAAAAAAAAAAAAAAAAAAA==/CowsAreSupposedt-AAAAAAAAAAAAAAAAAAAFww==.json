@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "What the...? You noticed that sometimes when you kill something, even a cow or chicken, it explodes! What madness!\n\nTo stop it, use a proper GregTech Knife or Butchery Knife to kill them. Craft a flint GregTech knife with a stick and a piece of flint.\n\nTo see its recipe, see how a generic knife is made - NEI should show you many pages. The recipe you need should be on the last page. You can scroll pages with your mouse wheel.\n\n[note]Alternatively you can use the search bar to search for a specific tool material, in this case flint![/note]\n\nAs a reward, here\u0027s an iron knife to use once the flint one wears out.",
       "globalShare:1": 1,
       "icon:10": {
@@ -34,6 +42,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 1,
       "name:8": "§9§lCows Are Supposed to Moo!",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

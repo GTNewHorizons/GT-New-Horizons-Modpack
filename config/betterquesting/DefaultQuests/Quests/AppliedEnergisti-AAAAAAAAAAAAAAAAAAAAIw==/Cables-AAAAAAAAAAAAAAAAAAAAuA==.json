@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "To have access to your applied energistics network from your entire base, you\u0027ll need cables. A lot of them. For now, the basic ones will do, but eventually, you\u0027ll end up using dense cables and p2p channels. Glass and Covered cables are functionally identical, just different in looks. Each can carry 8 channels. Quartz fibers don\u0027t carry channels but can carry energy. This is useful for providing power from your main network to independent subnetworks.\n\nYou can also color your cables - cables with different colors will not connect, so those can be used to expand network capacity by running parallel cables. Only fluix colored cables connect to all other colors. Later it will probably be more efficient to use P2P channels to jam a bunch of channels into 1.\n\nAnchors are like covers, keeping things from connecting when you don\u0027t want them to.",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Cables",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

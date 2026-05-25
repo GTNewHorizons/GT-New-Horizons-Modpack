@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "If you\u0027ve never used Botania before, you may be wondering about the purpose of all this effort. This isn\u0027t a simple question to answer, but one thing you can do that\u0027s quite useful right now is making yourself some manasteel.\n\nAmong its many uses, manasteel has one of the best, if not simply §othe§o §rbest, durabilities of materials available at LV, so it\u0027s perfect for all of your crafting tools.\n\nIf you have a particular dislike of Tinker\u0027s Construct, manasteel is a great material to make a Gregtech pickaxe out of too.",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +28,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "What Are All These Flowers Even For?",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

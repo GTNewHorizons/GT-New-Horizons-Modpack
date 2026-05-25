@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "The components inside these nukes get more and more complicated, so at this point I\u0027m going to ask you to look at the wiki, under the Nuclear Reactors page ([url]https://wiki.gtnewhorizons.com/wiki/Nuclear_Reactors[/url]), and scroll down to the fluid nuke setups, specifically the 1352 HU, 2 Quad Uranium and 1408, 3 Quad Uranium, 1 Dual Uranium ones. The main difference between these two setups is that the first needs Iridium Neutron Reflectors, which are quite expensive if you haven\u0027t done the platline yet, while the second doesn\u0027t use them but is harder to automate due to having more than one type of rod.\n\nWhat\u0027s the final EU/t output, at 170% turbine efficiency? 36288 and 38016 EU/t, respectively.\n\nAfter automating the nuke itself, there is still more to do, though. The LHE is required, as usual, but these setups cause something new to happen: the LHE starts outputting Superheated Steam, due to the high flow of hot coolant that it receives, which means that you need two sets of turbines instead of one. This type of steam must go into Large HP Steam Turbines, which use a good amount of Tungstensteel for the controller and stacks of Titanium for the casings. After those, it goes into the usual Large Steam Turbines, and the process is complete.\n\nThere is yet another new thing to worry about, in case all of this wasn\u0027t enough: the Steam flow is very high, higher than before, which means it\u0027s likely you will need 3 or more of each turbine type, further compounding on the costs you\u0027ll have here.\n\nYour best option for a turbine in the IV tier is the HSS-E at 170% turbine efficiency.\n\nThere is another turbine at 180% efficiency with the HSS-S however; this turbine requires a robust platinum line completed to spare the resources for it.",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +28,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Powering-up Fluid Nukes",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

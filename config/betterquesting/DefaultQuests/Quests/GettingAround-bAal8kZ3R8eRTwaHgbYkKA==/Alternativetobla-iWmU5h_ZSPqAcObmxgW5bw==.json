@@ -12,6 +12,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Are you sick and tired of using the rocket to blast off every time and want an alternative and faster method? The EnderIO Telepad is a 3x3x1 structure that when powered with RF will teleport the player to a set coordinate.\n\nTo set the Coordinate you will need a Coordinate selector tool to mark an area by shift-right-clicking to mark. Then shift-right-click the middle of the EnderIO Telepad pad to set the desired location.\n\nThen stand on the pad and click teleport to be sent in style.",
       "globalShare:1": 0,
       "icon:10": {
@@ -24,6 +32,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Alternative to blasting off!?",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

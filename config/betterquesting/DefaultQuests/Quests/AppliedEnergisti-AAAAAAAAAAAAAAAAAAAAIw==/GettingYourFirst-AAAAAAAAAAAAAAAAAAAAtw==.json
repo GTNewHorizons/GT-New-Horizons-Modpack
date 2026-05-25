@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "There are 3 different ways to make AE2 processors. First, there\u0027s the AE2 Inscribers, which are slow, hold one of each item at a time, require inputs (and output) from specific directions, but can be sped up with cards. Second, there\u0027s the Advanced Inscribers, which are similar, but allow stacking, and do not require specific directions. Lastly, there\u0027s GT Assemblers (and later the multiblock) which can be very fast, but require a fluid input, and consume more power. Get 8 of each one for now.",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Getting Your First Processors",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

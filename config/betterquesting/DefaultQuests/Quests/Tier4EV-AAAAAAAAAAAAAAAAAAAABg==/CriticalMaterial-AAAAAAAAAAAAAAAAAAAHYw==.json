@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "For more tungsten and tungstensteel, you\u0027ll want scheelite and tungstate. But the most important is desh, found only as small ore elsewhere, and used for the next rocket. Check Y 5-40.\n\n[note]Since there\u0027s a good chance you have the MBM by now, you can do the crushed ore task instead of the ore one. This holds for other, similar quests.[/note]",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§8§lCritical Materials",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "The ME Storage Monitor allows you to visualize how much of an item or fluid you have. For example you can tell if you\u0027re running low on circuits and should make more, or how a long crafting process is proceeding. There are a couple of ways to use them.\n\nRight-click with item or control-right-click with fluid container: Will display the current level of that item or fluid if not locked.\nRight-click with empty hand: Will reset the display if not locked.\nRight-click with AE2 wrench or network tool: Will toggle the lock.\n\nThe ME Conversion Monitor is the upgraded version of the ME Storage Monitor. It adds the ability to directly withdraw from or store items and fluids in the ME Network. It has the normal interactions, plus more.\n\nShift-right-clicking with item or fluid container: Attempts to insert the item stack into the network. This works even if it\u0027s not the displayed item!\nShift-double-right-clicking: Attempts to insert all item and fluid stacks of the type displayed into the network.\nRight-clicking (while locked): Attempts to pull out a stack of the item displayed or fill held cell.",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +28,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Visualizing How Much Your Stuff",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

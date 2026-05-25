@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "This sulfuric waste that came out of the oil fractions could be voided, but it\u0027s actually a useful byproduct for your progression. The Hydrogen Sulfide that you obtained, mixed with Water in another Chemical Reactor will give back Diluted Sulfuric Acid, which can be turned into its more concentrated form by distilling it.\n\nSulfuric Acid is one of the most important chemicals in the pack, so make sure to use this opportunity to automate it. It\u0027s needed for circuits, amongst other things, so you will need a lot of it.",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +28,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Sulfuric Acid",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

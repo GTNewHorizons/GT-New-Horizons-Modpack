@@ -13,6 +13,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Better be careful with this one! It will set you on fire. In addition to combs, this bee can produce Glowstone Dust. It will require Nether to breed. Breed them from Sinister and Fiendish.",
       "globalShare:1": 1,
       "icon:10": {
@@ -37,6 +45,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Demonic",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

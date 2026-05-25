@@ -13,6 +13,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "This Special bus is rather pricey however it will allow all items that are in the bus to be accessible in all other linked buses in the same dimension.\n\nThis would allow multiple machines to work from the same input of items.\n\nWhile holding a data stick the configuration settings can be copied with a left-click and pasted with a right-click on the bus.",
       "globalShare:1": 0,
       "icon:10": {
@@ -25,6 +33,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§9§lIntradimensional Input buses",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

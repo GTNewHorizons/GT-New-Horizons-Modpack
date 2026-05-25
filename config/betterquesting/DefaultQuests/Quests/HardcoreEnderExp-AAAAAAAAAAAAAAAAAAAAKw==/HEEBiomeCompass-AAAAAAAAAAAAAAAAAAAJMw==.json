@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "The Biome Compass is a special type of compass, which points to the nearest Biome Islands as long one exists and the player is in the End. Right-clicking will scroll through all existing biomes.\n\nHolding the compass shows all biomes of the selected type as markers on the screen. The markers are small rectangles with the color of the selected biome, the rectangles also get bigger the closer you are to the island (they also disappear if you reach the island, and reappear when you leave it).",
       "globalShare:1": 1,
       "icon:10": {
@@ -26,6 +34,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "HEE Biome Compass",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

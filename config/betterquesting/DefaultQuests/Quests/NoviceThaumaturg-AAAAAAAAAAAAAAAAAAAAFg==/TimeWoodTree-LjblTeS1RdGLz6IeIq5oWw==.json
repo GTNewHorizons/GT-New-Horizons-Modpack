@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "The Timewood Clock is a special block that can be obtained in The Twilight Forest. It can be used to accelerate vanilla crops in a 16 block radius, making farms significantly faster and more efficient.\n\nTo get one, you must explore inside the massive Twilight Forest trees and search the loot chests hidden within them. There is a small chance to find a Tree of Time sapling. The clock generates hidden inside the tree after it grows.\n[warn]\nAfter growing the tree, you will need a Silk Touch tool to obtain the Timewood Clock itself.[/warn]\n[note]\nIf you break it without Silk Touch, it will instead drop several vanilla gold clocks.\n[/note]",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +28,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "TimeWood Tree",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

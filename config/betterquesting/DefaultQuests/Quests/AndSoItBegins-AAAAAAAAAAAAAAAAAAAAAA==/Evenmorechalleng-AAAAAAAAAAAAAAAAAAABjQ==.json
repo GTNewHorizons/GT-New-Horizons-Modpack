@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "You have played through most of the pack a few times already? Maybe you even made a Stargate? Or are you just looking for something a bit different? Don\u0027t worry, we have a few options for you:\n\n- Play in Hardcore. Either Minecraft Hardcore, or BetterQuesting Hardcore. The latter is a bit more forgiving. Maybe this seems impossible, but people have indeed reached UEV+ in Minecraft Hardcore. Better be prepared to restart a few times. This is obviously not for everybody.\n\n- Never make a rocket. The so called §ono-rocket run§r is somewhat supported by now, you will be able to do almost everything in the pack. Use bees, crops, and blood magic meteors as your main resource production. Be warned though that such a challenge is grindy and slow. For instance, you might need to collect large amounts of andradite ore or via the aluminium bauxite slag route to get your first titanium. Or have to start breeding bees early without much technology to help.\n\n- Skyblock. Yes, really. It is also known as Garden of Grind and it is absolutely brutal. There is no actually supported skyblock version of the pack but some players have figured out the minimal amount of changes needed to make it work. Ask around or search on the official discord channel for all the details. But don\u0027t expect any fun down this road.\n\n- Speedrunning. A few players have designed some basic rules and have started to record speedruns to early game goals like the Coke Oven. Ask around or search on the official discord channel for all the details. Maybe you just want to watch how they do it.",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§9§lEven more challenges needed?",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

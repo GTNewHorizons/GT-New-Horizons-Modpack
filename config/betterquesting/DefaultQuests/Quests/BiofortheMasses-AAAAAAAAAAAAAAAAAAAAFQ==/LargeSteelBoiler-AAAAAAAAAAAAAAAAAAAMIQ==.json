@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Direct Charcoal consumption is also improved, if you want to go that way. The second Large Boiler is made out of Steel, but needs HV circuits, which you can make in this tier by using Polyethylene in the circuit boards. It generates steam at a speed equivalent to 1000 EU/t at 100% fuel efficiency for that steam, which you can\u0027t reach with the inefficient Steam Turbines available to you. It also needs two ACOs, but it skips any further processing, at an additional cost of heavy pollution that you\u0027ll have to deal with in some way.\n\nThis is the most \"spammable\" setup you can make. There are no further upgrades to the Large Boilers that accept these cheap fuels (the next boilers only accept some more complicated ones), but you can wallshare these to increase the energy input into your processing. The biggest problem, as usual, is transporting the steam to prevent big energy losses across long stretches of cable. This is not the best option, but it can be used.",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +28,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Large Steel Boiler",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "You can use this device to either transfer the contents (CV) of a Vis Relay to another vis relay, an Arcane Assembler, or an Arcane Crafting Terminal. Either way, place the relay on the device (and send some CV to it), and use the memory card to link to the second device. If you send it to another Vis Relay Interface, you\u0027ll obviously need another Vis Relay on the other side.",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +28,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Centi-vis in your network",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

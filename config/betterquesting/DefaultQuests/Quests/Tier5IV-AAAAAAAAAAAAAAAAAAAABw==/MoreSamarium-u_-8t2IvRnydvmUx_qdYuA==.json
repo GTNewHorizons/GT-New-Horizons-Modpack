@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "If you have a stable Samarium resource acquisition, refining Samarium Ore should be the best way to get Samarium.\n\nAs the first step, dissolve some Samarium Ore Concentrate Dust or Crushed Samarium Ore (you probably don\u0027t have access to this option yet) in Nitric Acid in a Digester to get Muddy Samarium Rare Earth Solution. Thorium and Phosphate are retained in the form of a solid slag powder.\n\nThen transfer the muddy solution to a Dissolution Tank and continue to soak it in nitric acid. The undissolved powder is then meticulously filtered out, yielding some Cerium.\n\nThen dilute the result with water to adjust the pH.",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +28,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§9§lMore Samarium!",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

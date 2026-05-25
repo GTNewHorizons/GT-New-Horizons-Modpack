@@ -9,6 +9,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "You might find yourself setting up complicated systems involving many storage buses with differing priorities. To make it less tedious, grab a priority card!\n\nThis tool allows you to set many buses to the same priority with a single click... but better yet, it also features §nincrement and decrement modes!§r Every time you click on a bus, the priority will be set to one higher/lower than the previous bus you clicked, so setting up large arrays of descending priorities is a breeze.",
       "globalShare:1": 0,
       "icon:10": {
@@ -22,6 +30,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Get Your Priorities Straight",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

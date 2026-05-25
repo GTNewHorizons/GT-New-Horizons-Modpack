@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Almost there I promise!\n\nNow that you have obtained the §2Prismatic Gas§o§r, you must cool it down in a §5§lVacuum Freezer§r with the assistance of §2Liquid Nitrogen§r. This will give you §3Prismatic Acid§r.\n\n[warn]Aside from continuing down this line, you can also use Prismatic Acid in the processing of Gaia blocks later.[/warn]",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +28,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§b§lPrismatic Acid",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

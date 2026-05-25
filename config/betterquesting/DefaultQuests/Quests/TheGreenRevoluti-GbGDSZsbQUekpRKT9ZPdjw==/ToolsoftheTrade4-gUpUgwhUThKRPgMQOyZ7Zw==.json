@@ -12,6 +12,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "The reinforced spade will do everything the basic spade does, but better. It further increases your chances of bonus seeds based on the resistance stat. Every ten points of resistance increases the MINIMUM seed drop by one. That means:\n\n1 Resist \u003d 10% seed drop\n10 Resist \u003d 1 guaranteed seed drop\n15 Resist \u003d 1 guaranteed seed drop + 50% chance for a second seed drop!\n31 Resist \u003d 3 guaranteed seed drops + 10% chance for a fourth seed drop!!\n\nTime to scale up farmhand.\n\n[note]If you\u0027re removing a crop with your spade, sneaking will let you remove the crop without having to worry about the spade breaking the crop stick.[/note]",
       "globalShare:1": 0,
       "icon:10": {
@@ -24,6 +32,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Tools of the Trade 4 - Reinforced Spade",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

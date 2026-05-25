@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "These upgrades can significantly increase your production rate by keeping your bees from stopping production due to the environment.\n\nRain Shield - Can work through the rain\nLighting - Can work day and night\nAlveary Heater - Increases temperature a flat 30% each (needs power)\nAlveary Fan - Decreases temperature a flat 20% each (needs power)\nAlveary Hygroregulator[sic] - Has two modes, water and lava\nLava - Temp+10%, Humidity-20%\nWater - Temp-10%, Humidity+20%\n\nUnfortunately, there\u0027s no way to make them like caves with a block.",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Busy Bees Buzzing Boldly",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

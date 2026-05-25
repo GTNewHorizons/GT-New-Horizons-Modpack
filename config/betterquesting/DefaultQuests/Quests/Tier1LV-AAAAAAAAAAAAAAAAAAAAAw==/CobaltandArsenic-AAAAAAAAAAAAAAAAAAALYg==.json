@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Can\u0027t find any Cobalt in the Nether? Too lazy to bother finding some Ironwood in the Twilight Forest, even though it\u0027s super duper easy?\n\nYou can make it with your EBF now using Cobaltite Ore from the Twilight Forest and Oxygen to get Cobalt. It\u0027s a little complicated, but you also get arsenic out of it.\n\nYou can also just electrolyze it out in MV, which is what you §oshould§r be doing instead of this, but assuming you actually need it this method has higher yields (at the cost of carbon of course).",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§2§lCobalt and Arsenic from Cobaltite",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

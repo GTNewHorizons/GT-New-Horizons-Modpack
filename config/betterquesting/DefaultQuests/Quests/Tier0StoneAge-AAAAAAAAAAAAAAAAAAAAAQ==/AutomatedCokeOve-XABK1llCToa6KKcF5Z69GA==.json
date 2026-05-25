@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Now that you\u0027re able to create bronze pipes, you can finally create the Coke Oven Hatch! This hatch allows you to finally automate the Coke Oven.\n\nEach hatch can be switched between: Item Input, Item Output, \u0026 Fluid Output by right-clicking it with a screwdriver. From there, you can use pipes to transport the items or fluid to wherever it needs to go.\n\nMake two using the bronze pipes you just crafted and you can have a third for free. \n\n[note]This hatch will auto-output.[/note]",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +28,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§a§lAutomated Coke Oven",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

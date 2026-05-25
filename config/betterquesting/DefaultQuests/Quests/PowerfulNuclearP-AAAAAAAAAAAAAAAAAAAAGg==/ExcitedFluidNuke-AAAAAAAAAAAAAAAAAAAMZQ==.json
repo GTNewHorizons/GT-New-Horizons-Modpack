@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "This quest is after the vacuum nuke one because the fuel required to do a setup like this is harder to get. Whereas the previous rods were made with compressed Uranium, this fuel needs that same material to then be further processed in GoodGenerators machines, namely the Neutron Activator, to make Excited Uranium Liquid Fuel. It is directly usable in the Naquadah Reactor, with more fuel efficiency there, but you might not be able to build it yet, since it\u0027s post-fusion. Instead, you can use said fuel here.\n\nBefore attempting this, you need to know all the mechanics related to the fluid nuke. In fact, this quest won\u0027t even have any required tasks, given how challenging it is to create a good setup of this kind. At the time of writing this quest, there is no nuke simulator that supports the Excited Fuel Rods, which means you\u0027ll have to first test in Creative mode and gather whatever results you get from there.\n\nThe basis for this setup is simple: Excited Uranium Fuel Rods, the only kind you should consider for this, output 16x more heat than the regular ones, which is a lot more Hot Coolant output if you can send all this heat to the reactor to be turned into power. Only the heat matters, which means that extra EU/t based on temperature will do nothing here. Throw as many rods as you can at this nuke without overheating, that is the challenge.\n\nWhat then? You will surely need many multis if you want to process LuV amps of power, unless you choose some more advanced options. The LHE upgrades into the EHE, the Extreme Heat Exchanger, and this new multi can output either Superheated or Supercritical Steam. For the former, use XL Steam Turbines to process the ludicrous amount of Steam you will be getting. For the latter, you need special turbines.",
       "globalShare:1": 0,
       "icon:10": {
@@ -21,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Excited Fluid Nukes",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

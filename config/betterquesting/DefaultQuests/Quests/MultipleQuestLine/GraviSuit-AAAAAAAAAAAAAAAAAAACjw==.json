@@ -12,6 +12,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "The GraviChestPlate is the ultimate quantum armor combined with a high powered jetpack. Some notable features include:\n\n- 30M EU Capacity\n- Spacesuit Capability\n- Hazmat Protection\n- Gravitation Engines (Creative Flight)\n- Levitation Mode\n- Quantum Shield (Invincibility, requires full Quantum Armor)\n\n[note]KEYBINDS\nHUD: Gravi HUD Key\nGravitation Engines: Gravi Fly Key\nLevitation Mode: Spacebar + IC2 Mode Switch Key\nQuantum Shield: Sneak + IC2 Mode Switch Key[/note]",
       "globalShare:1": 1,
       "icon:10": {
@@ -28,6 +36,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Gravi Suit",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

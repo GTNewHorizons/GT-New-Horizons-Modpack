@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "High tier chemical recipes need a high tier IV chemical reactor.\n\nAlternatively you can use your Large Chemical Reactor with either two EV energy hatches or one IV energy hatch.\n\n[note]...Which you can make after you finish the platline. Have fun![/note]\n\n§6If you missed it or forgot, hold a stack of the platline dust to skip the quests in between.\n\nYou can also skip the PBI chem quests, but you need to hold 128 sheets in your hand.",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§9§lChemical Reactions at IV Level",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

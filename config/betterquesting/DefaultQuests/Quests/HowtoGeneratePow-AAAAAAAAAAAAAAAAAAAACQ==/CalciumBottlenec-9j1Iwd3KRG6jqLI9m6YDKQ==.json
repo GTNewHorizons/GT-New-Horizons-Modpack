@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Craft yourself some bone-strengthening Calcium in plasma form.\n\nThis step is almost twice as fast as the Boron one, so you only need half the reactors, plus one, or the tier above the reactors on the Boron side. It would normally be a lot slower, but the next step needs only a small amount of Calcium.\n\nKeep in mind that, at the end of each of the three fusion chains, the plasma amount gets multiplied, which means that most of your bottlenecks will be near the end of the entire setup, if you\u0027re going for Celestial Tungsten Plasma.\n\nYou will need 2.13 reactors with this recipe to feed 1 reactor with the next step.",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +28,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Calcium Bottlenecking",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

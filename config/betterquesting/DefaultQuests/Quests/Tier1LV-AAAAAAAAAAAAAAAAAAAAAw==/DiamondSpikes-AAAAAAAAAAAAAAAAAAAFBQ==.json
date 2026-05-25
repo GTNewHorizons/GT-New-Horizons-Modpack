@@ -16,6 +16,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Diamond Spikes damages mobs (or you!) that touch any side of it other than the bottom. With 7 attack damage, the Spike does as much damage as a Diamond Sword. Mobs will not walk around the block, but will try to walk over it as if it were a regular solid block. Most explosions won\u0027t destroy the Spike because it has a very high blast resistance.\n\nThese can also be enchanted with all the enchantments a regular diamond sword would receive. This includes Looting and Sharpness, which function exactly as it does on a sword. Interestingly, mobs killed by the Diamond Spike will return experience as if killed by the player.\n\nThere are weaker versions, but who wants that? If you happen to want the last hit, you might want the wooden ones though.",
       "globalShare:1": 1,
       "icon:10": {
@@ -29,6 +37,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§2§lDiamond Spikes",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

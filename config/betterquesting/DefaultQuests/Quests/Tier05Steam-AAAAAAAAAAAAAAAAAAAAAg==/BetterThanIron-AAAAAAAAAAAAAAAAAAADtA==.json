@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "But not as good as steel. Mostly, this is used in machine hulls, or in tools if you don\u0027t want to use steel up for that.\n\nTo make Cast Iron, you either need to use a Tinkers\u0027 Smeltery to melt some Iron Ingots down and cast into Iron Nuggets, or use an Iron Ingot and a saw to craft Iron Nuggets. Now put these in a furnace to get Cast Iron Nuggets. With the Compressor, you can compress the nuggets into ingots.\n\n§3Hint: Crushed or purified iron ore (not a mixed version like pyrite, look for Iron Ore in Chalcopyrite veins) can be smelted to iron nuggets directly. \n\nYou can optionally use an Alloy Smelter to turn iron ingots into nuggets faster than a smeltery. \n\nLater on, you can use an Arc Furnace to make Cast Iron Ingots directly.",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§c§lBetter Than Iron",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

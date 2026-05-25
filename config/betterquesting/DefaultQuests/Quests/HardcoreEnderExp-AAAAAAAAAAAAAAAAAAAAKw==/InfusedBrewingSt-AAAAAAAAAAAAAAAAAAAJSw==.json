@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "A Brewing Stand with one or more special effects (enhancements).\n\nYou can upgrade your Enhanced Brewing Stand with End Powder to modify it like other HEE items.\n\nYou can continue adding as many effects to one Brewing Stand as you want.\n\nEnhancements:\nTier (Ectoplasm)\nYour potion can have a higher tier and a longer potion duration than vanilla ones. (Tier IV is up to 12 mins)\n\nSpeed (Igneous Rock)\nIncreases the speed of the Brewing Stand.\n\nCost (Emerald)\nReduces the cost of End Powder used in a brewing cycle.",
       "globalShare:1": 1,
       "icon:10": {
@@ -26,6 +34,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Infused Brewing Stand",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

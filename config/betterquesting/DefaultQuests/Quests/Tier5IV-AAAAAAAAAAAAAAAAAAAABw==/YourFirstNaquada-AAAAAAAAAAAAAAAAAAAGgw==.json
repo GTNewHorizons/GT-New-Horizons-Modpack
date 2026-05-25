@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "You may have noticed that you can\u0027t get naquadah dust from the naquadah ore, it will only give you the Naquadah Oxide Mixture (NOM) dust, annoying.\n\nThe full naquadah processing line is too complex and does not fit in IV. I believe you won\u0027t want to set up another line after finishing Platinum, PBI and Lanthanide lines.\n\nLucky, you can directly smelt the NOM dust into naquadah nuggets in EBF, but it is inefficient and you will lose the byproducts in it.\n\n[note]PS: The Naquadah Oxide Mixture was once called \"Naquadah Metal Oxide Mixture\" and someone called it Nq-MOM for short.[/note]",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§9§lYour First Naquadah Ingot",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

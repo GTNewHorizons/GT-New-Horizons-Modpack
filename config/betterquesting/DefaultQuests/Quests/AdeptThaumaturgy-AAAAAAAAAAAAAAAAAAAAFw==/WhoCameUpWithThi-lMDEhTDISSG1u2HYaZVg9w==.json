@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Sanitizing Soap isn\u0027t strong enough to keep up? \n\nThis soap has a 50% Chance to reduce your normal warp, increased to 75% if you have the Warp Ward effect (obtained by Purifying Bath Salts) and increased to 100% if you\u0027re standing inside of the purifying fluid. \nThis soap also has a 100% chance to cleanse §lall§r of your temporary warp!\n\nIn case you\u0027re wondering how to pronounce it: Don\u0027t even bother trying.",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +28,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Who Came Up With This Name??",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

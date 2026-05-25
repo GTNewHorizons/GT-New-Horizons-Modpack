@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "NEI has some really nice advanced features too.\n\nClicking LMB or pressing R on an item shows the recipes to create it. RMB or U show recipes that use the item. Backspace moves you back to the previously browsed recipe.\n\nHold Shift to stop the oredict cycling through items, and to show the oredict entries for the current item under your cursor.\n\nSearch using @ to find all items from that mod; for example, §o@thaumcraft§r will list all Thaumcraft items and blocks.\n\nYou can combine multiple search terms with a space. §o@thaumcraft table§r will search for anything with table in the name or description, in the mod Thaumcraft.\n\nIt has even more advanced features than mentioned here and many configuration options, you can look in the NEI option menu under Inventory to find a few. Here you can change more things about how the search works (like using regex), toggle collapsible items or the item zoom panel, or configure the history panel to your liking.",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§a§lNEI is More Powerful Than You Imagine",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

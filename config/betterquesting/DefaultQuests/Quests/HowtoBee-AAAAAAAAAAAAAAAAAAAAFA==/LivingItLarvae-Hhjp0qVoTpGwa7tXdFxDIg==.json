@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "To play with Binnie\u0027s Genetics with bees, you\u0027ll need some Larvae, and a Hatchery block inside an Alveary is the only way to make them. There\u0027s a little side perk for having them: they produce at a much faster rate than you\u0027d get from any one species\u0027 drones. Those leftovers can feed into the Gene Pool for extra raw DNA. Just remember to keep a few Larvae on standby for the actual genetic modification!\n\nThe bee you use in the Alveary should be whatever you intend to modify. It can be any kind if you intend to overwrite all the traits, but you probably should have it either be:\n\n1. Some new species which will have everything else overwritten.\n2. Some existing superbee that you want to switch to a new species.\n\nThe Larvae will eventually be hatched in an Incubator into a modified drone based on whatever genetic traits you have inserted into it.",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +28,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Living It Larvae",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Producing RF power with lava is possible with the help of the biogas engine. You need water, fruit juice, liquid honey, milk, seed oil, or forestry biomass in the other slot. After a brief warmup time, the engine outputs up to 50 RF/t depending on the fluid used.\n\nThe possible fluids give the following power:\n\nWater: 10 RF/t for 1k ticks\nFruit juice: 10 RF/t for 2.5k ticks\nLiquid honey: 20 RF/t for 2.5k ticks\nMilk: 10 RF/t for 10k ticks\nSeed oil: 30 RF/t for 2.5k ticks\nBiomass: 50 RF/t for 2.5k ticks",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Bio Gas Engine",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

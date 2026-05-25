@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Quest names are hard sometimes, ok? To make a Singularity (for the Quantum Network Bridge), you\u0027ll need to dump 512,000 items into the Matter Condenser set to Singularity Mode, while using a 64k component or higher.\n\nThese singularities have a few purposes. Primarily they are used in creating quantum entangled singularities for the quantum ring, but they can also be used to create void cells and a couple other useful items.",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +28,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Singular Singularities Signify Something",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

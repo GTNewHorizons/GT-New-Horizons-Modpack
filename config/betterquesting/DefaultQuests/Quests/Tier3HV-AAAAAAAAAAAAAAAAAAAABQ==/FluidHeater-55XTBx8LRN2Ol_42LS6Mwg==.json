@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "You will need a Fluid Heater for some chemical processes, for the best fries, but also right now to make liquid sodium for NaK coolant. To proceed you will need either an MV or an HV Fluid Heater. Make one of them.\n\nThe HV one can be used later to better process bauxite after you have been to the moon.\n\n[note]If you used sodium sulfate to create liquid sodium instead, you can hold 2 60k NaK coolant cells in your hand to skip over this quest.[/note]",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +28,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§5§lFluid Heater",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

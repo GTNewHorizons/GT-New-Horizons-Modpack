@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Get yourself some Silicon Dioxide! Smelting it in your EBF with some carbon is the best way to obtain raw silicon ingots. It is used in a few places but most importantly you can macerate it back down to raw silicon dust. You can also turn the silicon dioxide into raw silicon dust via chemical processes using aluminium or magnesium.\n\nYou can get silicon dioxide easily by centrifuging glass dust or electrolyzing sand.\n\nIf you have raw silicon dust but want silicon dioxide for some reason, you can use an arc furnace or an autoclave.",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§6§lSilicon Dioxide",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

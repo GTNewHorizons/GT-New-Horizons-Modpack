@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "It is highly recommended to get one of these, as the efficiency in terms of coal/steam used to macerate something is a lot better when using EU.\n\nYou get the first extra slot at HV, then +1 for EV and IV. The 2nd slot is for more byproducts, and is super §osuper§r useful. The 3rd slot is for ore block dusts. The 4th slot is basically only used for recycling stuff.\n\n[note]You can also consider using the steam multiblock instead if you want.[/note]",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§2§lElectric Macerator",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

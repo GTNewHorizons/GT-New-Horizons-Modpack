@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "The Overclocked Growth Acceleration Unit allows for the overclocking of the Industrial Farm as with other Multiblocks, and enables the use of a single Multi-Amp Energy Hatch. Each overclock doubles production and input costs.\n\n[warn]You cannot use regular Energy Hatches when using a Multi-Amp Energy Hatch.[/warn]\n\nYou may only install one of these units per Industrial Farm.\n\nThe Overclocked Growth Acceleration Unit will not work if a Growth Acceleration Unit is installed.\n\nAs with all upgrades, the tier of the upgrade must match the tier of the seedbed.",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +28,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "The Overclocked Growth Acceleration Unit",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

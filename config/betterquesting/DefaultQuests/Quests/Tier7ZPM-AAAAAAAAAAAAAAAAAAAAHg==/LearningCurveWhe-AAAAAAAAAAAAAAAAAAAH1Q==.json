@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Only dangerous cliffs to fly off. TecTech can be the source of adventures, scary and satisfying.\n\nThanks to Piky/Scripted for giving you some guardrails to stay on the road. Scripted/Piky shed blood over these quests for you. Now it\u0027s your turn!\n\nFor additional details on TecTech, check out the wiki at [url]https://github.com/Technus/TecTech/wiki[/url]\n\nYou\u0027ll probably receive better help in Discord, though.",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§b§lLearning Curve? Where We\u0027re Going There Are No Curves",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

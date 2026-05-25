@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "With 19 Coke Ovens automated, you can sustain two big boilers endlessly. The boilers you want to build for this are specifically the Low Pressure Railcraft Boilers, made with Iron, each one as big as they can be, a 3x4x3 of the Boiler Tanks. These multiblocks are expensive, but you will have plenty of power and will consume all the Creosote from your Coke Ovens to keep them running permanently.\n\n[note]These boilers have a High Pressure variant, for more information look in the multiblocks tab. This setup is not enough to sustain the high pressure boiler but you can add a few more coke ovens to sustain it if you want.[/note]\n\nThe same goes for the Large Bronze Boiler, GregTech\u0027s own way of improving on your tiny boilers, but with two added problems: you can\u0027t produce Charcoal fast enough for it, and it has a terrible efficiency for your Creosote, which means most of its power will be wasted.\n\nHowever, surprise! The GT++ Semifluid Generators work, and they\u0027re very efficient with the Creosote. You can use a few of those coupled with a Large Bronze Boiler, but you will still run into the issue of not producing Charcoal fast enough unless you do something about it. You can choose this as an option and complete this quest, but it\u0027s a more \"experimental\" alternative that is further into LV, although more powerful.",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +28,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Two Big Ovens",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

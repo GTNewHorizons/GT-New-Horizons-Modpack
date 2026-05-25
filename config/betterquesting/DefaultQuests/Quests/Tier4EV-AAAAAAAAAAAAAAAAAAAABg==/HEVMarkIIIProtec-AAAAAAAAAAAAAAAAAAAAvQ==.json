@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Some items will give you a Radiation debuff without protection. How long it lasts depends on the item. Some items will give you an enormous or unlimited time debuff timer, which effectively kills you because there\u0027s no way to get rid of it.\n\nOther items will give you a general sickness with many debuffs, but not Radiation. That can be removed the normal ways, Milk, Terrawart, Aqua bees, etc.\n\nIf you wear a Hazmat suit (and rubber boots!) you are not affected by radioactive effects at all. Same for some other armors that list hazmat protection.",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§8§lHEV Mark III Protective System",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Another use for a few stacks of Tungstensteel is a new, even more powerful generator, but you can\u0027t run it just yet. Just like the LCE before it, the IV generator can\u0027t be run without a dynamo hatch that is powerful enough to keep up with the output, and in this case it applies to both the boosted and unboosted modes.\n\nWhat that means is that you need an IV 4A Dynamo Hatch. The power will be worth it.",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +28,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Higher Capacity Dynamo",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

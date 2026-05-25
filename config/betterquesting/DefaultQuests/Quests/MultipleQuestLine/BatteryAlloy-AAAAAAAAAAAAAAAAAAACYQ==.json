@@ -12,6 +12,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Mixing antimony and lead in the alloy smelter will give you battery alloy. Combine it with tin cable and voila, there\u0027s your small battery hull.\n\nSmall \u003d LV, Medium \u003d MV, Large \u003d HV. It gets weirder after that.\n\nNote that if you make the battery alloy in the mixer you need to use dusts, but if you use the alloy smelter you can use either.\n\nCheck out the quest tab Storing and Transforming EU for all details about EU power storage.",
       "globalShare:1": 1,
       "icon:10": {
@@ -25,6 +33,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§2§lBattery Alloy",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "First we\u0027re gonna need some pipes to connect everything. Do not use these pipes in junctions or the items will choose which path to go at random and you don\u0027t want that.\n\n[note]Keep in mind PR automation is laggy, so don\u0027t use it more than the minimum you can get away with on servers, wait until AE2 for that. In SP, do what you want, but keep in mind that AE2 is way more powerful.[/note]",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Let\u0027s Get Some Pipes",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

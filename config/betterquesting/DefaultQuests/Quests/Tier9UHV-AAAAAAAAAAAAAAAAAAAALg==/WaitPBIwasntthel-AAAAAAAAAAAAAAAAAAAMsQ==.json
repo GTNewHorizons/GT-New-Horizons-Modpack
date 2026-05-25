@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Let\u0027s make a brand new plastic! The trees that you found on Barnada C have very interesting properties. Still, you can\u0027t just use the extracted radox substance raw. Some serious refining steps are in order!\n\n§6You\u0027ll need it for a ton of stuff like UIV and UMV superconductors, UEV+ hatches, or parts of the Dyson Swarm.§r\n\nCompared to the previous plastics, most of the steps required here are not chemical reactions. They are also very slow, so you might want to use a mega multiblock to help with that. This production line also underlines the necessity of large-scale plasma production. You will only need more going forward.\n\n[note]Super Heavy Radox will be needed for Dimensionally Shifted Superfluid, so store some for later.[/note]\n\n[note]The Heavy Radox you get as a byproduct can be used for MkV Naquadah Fuel.[/note]",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +28,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§4§l§nWait, PBI wasn\u0027t the last plastic?",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

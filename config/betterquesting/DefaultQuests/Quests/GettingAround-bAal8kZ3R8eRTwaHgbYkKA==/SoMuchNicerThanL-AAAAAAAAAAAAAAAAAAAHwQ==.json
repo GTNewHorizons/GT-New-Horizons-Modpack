@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Elevators are great for fast transportation vertically in your base. Leaving a tinted elevator will stop at the same color elevator. Use some Malisis doors for a nice \"real\" elevator effect.\nThe rotating elevator will turn the player as they go up or down to face a specific direction. Handy if your elevator shaft is on one side at a floor and a different side at another floor.",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "So Much Nicer Than Ladders",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

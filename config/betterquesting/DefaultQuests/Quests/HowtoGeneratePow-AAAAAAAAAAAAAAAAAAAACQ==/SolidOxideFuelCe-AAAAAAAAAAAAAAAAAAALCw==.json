@@ -12,6 +12,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "It uses Gas fuels to produce power and Steam at the same time, while also generating 0 pollution. If the other generators were being problematic, this is the best solution.\n\nIt produces §a4 HV amps per tick§r at a nice fuel efficiency, while consuming 100 L of Oxygen per second. It will heat up over time until it reaches 100% efficiency, at which point it starts outputting Steam as well. You can then use Steam Turbines, singleblocks or multiblocks, to generate even more power.\n\nWith these two things combined, it\u0027s more powerful than the Large Gas Turbine that you can build at the start. Only when you unlock better materials for that, will it generate more power than the SOFC Mk I.",
       "globalShare:1": 0,
       "icon:10": {
@@ -24,6 +32,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§8§lSolid-Oxide Fuel Cell Mk I",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

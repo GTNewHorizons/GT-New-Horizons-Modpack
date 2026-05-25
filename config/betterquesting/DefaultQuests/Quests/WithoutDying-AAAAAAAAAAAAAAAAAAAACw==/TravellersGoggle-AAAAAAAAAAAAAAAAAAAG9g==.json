@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Nightvision is very useful. If you combine your Goggles with a night vision potion (3:00, make sure to make 3 at a time), a golden carrot, and a flint and steel inside the Tinkers Crafting Station you get Night Vision Goggles. Place the Goggles in the Center of the Crafting Station.\n\nHint: Autorepair can be added to the goggles as well.\n\nEvery Armor has 3 slots for modification.",
       "globalShare:1": 1,
       "icon:10": {
@@ -44,6 +52,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Traveller\u0027s Goggles Upgrades",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

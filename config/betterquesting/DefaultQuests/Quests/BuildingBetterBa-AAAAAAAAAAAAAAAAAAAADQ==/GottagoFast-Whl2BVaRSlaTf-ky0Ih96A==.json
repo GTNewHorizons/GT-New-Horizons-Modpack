@@ -12,6 +12,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Yet another block you can use to get around your base much more efficiently. Unlike concrete, you don\u0027t have to fill your floor with these to get their full benefit.\n\nYou can also stack the speed boost from both boosters and concrete for an even bigger speed boost!\n\n[note]Place your boosters 18 blocks apart - or 33 blocks if you\u0027re using concrete - for optimal boosting.[/note]",
       "globalShare:1": 0,
       "icon:10": {
@@ -24,6 +32,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§6§lGotta Go Fast!",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "The Brew of Love is a throwable potion that causes farm animals and villagers to get their luvin\u0027 on. When used on animals the effect is the same as if all hit animals were fed and their breeding cooldown is reset.\n\nIn the case of villagers, two (or more) must be hit by the same brew.\n\nThe Brew of Love may be thrown at a group of two or more enthralled zombies (created with a Brew of Raising or enthralled with the Infernal Infusion power), which will cause pairs of them to produce a baby zombie. It will also cause them to become zombie villagers. Zombie villagers can be turned back to villagers either using the normal method, or by casting a Rite of Fertility.\n\nThe Brew of Love is created in a kettle using the recipe found in the book Witchcraft: Brews \u0026 Infusions. Into the pot, throw a Rose, a Golden Carrot, Whiff of Magic, a Lily Pad, a Water Artichoke Globe and Cocoa Beans.\n\nWear a Witches Hat (and/or robes) while brewing to get more brews than just three.",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Brew of Love",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

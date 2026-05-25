@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Now that you\u0027ve unlocked the neutronium energy cell, you can combine it with other objects to make powerful upgrades to your AE capabilities.\n\nCombining with an ME controller gives you a controller with infinite energy.\n\nCombining with a cable anchor \u0026 quartz fiber gives you a replacement for the quartz fiber cable that has infinite energy.\n\nCombining with an advanced card will give you an energy card that will allow you to upgrade your wireless terminal to have infinite energy, wherever you go.\n\n[note]It is HIGHLY recommended you use these tools wherever possible on main-nets and sub-nets as they are huge TPS savers[/note]",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +28,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Advanced Neutronium Tech",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

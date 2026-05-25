@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Demons are powerful, evil beings who dwell in the infernal dimensions. To date, none have been seen roaming the Nether, where their minions: ghasts, blazes, and their ilk seem to dominate. To meet a demon without a way to protect oneself is almost certain death. They are known to hit like a proverbial truck, and require a significant amount of damage to kill. Some demons have even been seen shooting fireballs! They are, of course, also immune to fire.",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Kill Demon",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

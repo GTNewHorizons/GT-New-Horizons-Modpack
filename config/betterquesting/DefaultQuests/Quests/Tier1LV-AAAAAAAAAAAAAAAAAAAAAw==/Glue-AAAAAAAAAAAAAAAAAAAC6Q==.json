@@ -13,6 +13,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "To make Good Circuit Boards, you need either glue or refined glue.\n\nYou can obtain refined glue either by centrifuging sticky resin or distilling glue. Note that it is GT glue, not Tinkers\u0027 Construct glue.\n\nAlternatively, you can extract glue from slime trees that you can obtain from slime islands in the sky.",
       "globalShare:1": 1,
       "icon:10": {
@@ -26,6 +34,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§2§lGlue",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "OR",
       "repeatTime:3": -1,

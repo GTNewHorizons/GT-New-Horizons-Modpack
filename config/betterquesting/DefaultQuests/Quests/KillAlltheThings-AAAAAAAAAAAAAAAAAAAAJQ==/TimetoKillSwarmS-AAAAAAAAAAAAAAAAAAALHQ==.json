@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "The Swarm Spider can be found in large groups inside various landmarks, such as Hollow Hills, Leaf Dungeons and Hedge Mazes. Swarm Spiders can sometimes spawn with Skeletons riding them. They have 3 health points, making them weak to almost any attack. Swarm Spiders will attempt to attack but due to their low attack, they barely inflict damage on anything.",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Time to Kill (Swarm Spider)",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": 432000,

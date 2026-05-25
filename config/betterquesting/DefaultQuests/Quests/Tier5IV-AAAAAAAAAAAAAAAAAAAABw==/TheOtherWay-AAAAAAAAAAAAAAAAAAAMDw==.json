@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "When you inevitably get Samarium Ore, you\u0027ll end up getting a ton of this dust. There are a couple of options here: One includes the monazite line and has a higher yield, the other is simpler but has a lower yield.\n\nWe\u0027ll look at the latter here.\n\n[note]Eventually you might consider switching entirely to the monazite option, but for now, supplementing it with this can be a good idea.[/note]",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +28,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§9§lThe Other Way",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

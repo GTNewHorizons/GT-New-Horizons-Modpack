@@ -20,6 +20,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Gasoline is a regular fuel, as I\u0027m sure you know. Nothing special about it, it\u0027s the same as Diesel but with a different density, for different engines. In real life, it\u0027s incredibly useful for the average person, but in GTNH it\u0027s mostly replaced by Diesel. However, that is about to change.\n\nThis step is by far the most complicated one in the entire chain, but you already automated all the additives you need, so this is just a matter of mixing. This is the EV step, the final step, so put your chemicals together. Add Octane to help the fuel resist compression after putting in the explosive Toluene, mix in the nitrous to juice it up and finish by controlling it with Anti-Knock Agent. Mix this all with Gasoline and you have HOG, the most powerful diesel fuel in the game.\n\nThere is more progression to the oil processing, and more quests from here, but this is it for fuel improvements. What is left for you is unlocking, and building even better generators that can take full advantage of how powerful HOG is. Nuclear Power is likely to be your next step in power, as diesels cannot last forever, but you can still continue through this path.\n\nOh, and congratulations! You have earned this reward.",
       "globalShare:1": 0,
       "icon:10": {
@@ -32,6 +40,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "High Octane Gasoline",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

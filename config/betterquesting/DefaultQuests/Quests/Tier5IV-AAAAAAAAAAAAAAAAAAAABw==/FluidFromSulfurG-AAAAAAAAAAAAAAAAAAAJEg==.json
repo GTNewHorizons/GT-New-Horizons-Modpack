@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Combine the Rhodium Sulfate you got with Water, and you\u0027ll get Rhodium Sulfate Solution, as well as some more Leech Residue, and Molten Potassium.\n\nYou get just over 13 ingots\u0027 worth of Potassium back, you\u0027ll want to use the fluid solidifier and then macerate it to use it again.",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +28,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§9§lFluid From Sulfur Gas",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

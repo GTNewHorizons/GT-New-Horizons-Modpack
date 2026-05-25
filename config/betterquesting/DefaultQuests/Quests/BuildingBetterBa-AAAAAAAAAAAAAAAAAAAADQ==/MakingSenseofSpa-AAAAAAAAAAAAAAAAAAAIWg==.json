@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Nobody likes an untidy base. Why don\u0027t you use some color to organize things a little!\r\nThe paint brush, painter, and spray cans can be used to color machines, wires, cables, pipes, wool, stained glass, and more!\r\n\r\nColored pipes, wires, and cables can only connect to uncolored cables/pipes/wires, or those of the same color.\r\n\r\nInput buses and hatches can also be colored, and multiblock machines will enforce input separation based on their colors. Inputs of the same color can only see each other, and un-colored inputs work with any color. While outbut buses and hatches can be colored as well, doing so will have no effect on where the machine sends outputs.\r\n\r\nAny painted block can be painted over with another color, but to remove the color entirely you need to break the block while sneaking or use a can of solvent.\r\n\r\nThe paint brush is the cheapest to make paint for, only requiring one piece of colored dye. \r\nThe painter requires distilled water and a chemical bath to create paint for. \r\nThe spray can uses chemical dye, which requires an MV chemical reactor to make.\r\nThe color applicator uses paint balls and can store all 16 colors at once.\r\n\r\n[note]Sneaking while using a spray can or paint brush will color an entire line of blocks![/note]\r\n\r\n[note]The priority of colored hatches is the same as the order of vanilla dyes in NEI, from highest (black) to lowest (white).[/note]",
       "globalShare:1": 1,
       "icon:10": {
@@ -24,6 +32,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§a§lMaking Sense of Spaghetti",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

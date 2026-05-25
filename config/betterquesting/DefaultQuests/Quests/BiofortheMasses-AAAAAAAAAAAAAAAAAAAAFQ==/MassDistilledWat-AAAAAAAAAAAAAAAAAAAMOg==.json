@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Water is completely free, that much is obvious. Distilled Water, though? It\u0027s the same input, but it needs a machine to process it into this version, and you best not choose singleblock Distilleries to do this, because they are incredibly slow and will never keep up with your demands.\n\nThe obvious option is a Distillation Tower. The less obvious option is a Steam Turbine multi, which outputs Distilled Water that is supposedly piped back to where the steam is made. However, there are several steam producers that use regular water, so you can try that? The DT is the simplest and most direct option, though. 3-high is the minimum, so you have to build it like that. It doesn\u0027t need a lot of power, it will fill up a tank of any size over time since the water input is completely free.",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +28,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Mass Distilled Water",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

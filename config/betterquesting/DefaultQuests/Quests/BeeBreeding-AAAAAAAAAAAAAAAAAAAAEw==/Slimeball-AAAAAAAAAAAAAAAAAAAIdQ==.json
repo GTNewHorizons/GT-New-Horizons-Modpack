@@ -9,6 +9,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Slimeballs aren\u0027t super useful, but you can easily breed this bee to make them. It\u0027s a necessary step on the way to Oil though. You will need a Congealed Slime Block beneath the bee housing. Breed them from Clay and Marshy.",
       "globalShare:1": 1,
       "icon:10": {
@@ -33,6 +41,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Slimeball",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

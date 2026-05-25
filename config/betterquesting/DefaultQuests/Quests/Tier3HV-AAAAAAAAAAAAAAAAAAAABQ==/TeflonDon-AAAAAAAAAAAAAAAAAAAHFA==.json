@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "To make PTFE, aka Teflon, you only need a few steps.\n\nThe first one is hydrofluoric acid. If you haven\u0027t reached the moon yet, the best sources for fluorine might be cryolite. Other options are treating Sand or Sandstone in a Chemical Plant for some Fluorite Ore, and centrifuging stone dust or black granite dust for biotite. You can also get small amounts from Lepidolite in salt veins and Mica. Mix it with some hydrogen to get hydrofluoric acid.\n\nIf you have reached the moon, you can also process Bastnasite ore.\n\n§6Already automated PTFE? Hold 128 sheets to skip this questline.",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§5§lTeflon Don",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
