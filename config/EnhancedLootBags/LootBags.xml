@@ -599,7 +599,7 @@
         <Loot Identifier="43796884-a218-4c6f-8e74-f5a76488835f" ItemName="EnderIO:itemLiquidConduit:2" Amount="8" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="74080d67-c08c-406d-a19e-e5d3321a04c7" ItemName="EnderIO:itemMagnet" Amount="1" NBTTag="{Energy:100000}" Chance="60" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="8df03b1a-a19b-43a6-8134-2d39eab90275" ItemName="EnderIO:itemExtractSpeedUpgrade" Amount="4" NBTTag="" Chance="80" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="76724c22-e282-420b-9591-2b5b3dbce545" ItemName="gregtech:gt.blockmachines:902" Amount="1" NBTTag="" Chance="30" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="76724c22-e282-420b-9591-2b5b3dbce545" ItemName="gregtech:gt.blockmachines:15239" Amount="1" NBTTag="" Chance="30" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="f0752d6a-0f4d-46c1-8c38-90bce591ad3b" ItemName="gregtech:gt.blockmachines:43" Amount="2" NBTTag="" Chance="30" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="d76b3141-6715-46da-afc3-917ea06bc20a" ItemName="GalacticraftMars:item.canisterPartialLOX:1" Amount="1" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="0c6ddd02-5e2a-4216-867f-d418c4d8f182" ItemName="gregtech:gt.metaitem.01:30493" Amount="8" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
