@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "What, recycling? That\u0027s lame. I just wanna void this stuff! - is what you might think right now, but be aware that Platinum Salt still holds a high concentration of Platinum. We can recycle it to get even more Platinum out of it!\n\nYou need to sift it to get Refined Platinum Salt. You only have a 95% chance to get a dust.",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +28,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§8§lPlatinum Salt Recycling",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

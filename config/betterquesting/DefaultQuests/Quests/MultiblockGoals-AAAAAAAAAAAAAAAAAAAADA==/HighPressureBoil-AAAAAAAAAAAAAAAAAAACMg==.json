@@ -12,6 +12,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "After you make steel you are able to craft a high pressure boiler tank. The upgraded version increases the temperature and produces more steam than the low pressure version. It will take longer to warm up, so make sure to keep it well fed!\n\nExtract steam by attaching a pipe to the boiler tank.\n\n[note]This is better than the low pressure variant only if you keep it working for very long time, if you intend to turn it on and off all the time this will waste a lot of resources! If you keep it at top temperature it will use ~2x more fuel than low pressure and will give ~4x more steam per sec making it 100% more efficient! If you can\u0027t sustain the fuel drain or want a more flexible power source instead use the low pressure variant.[/note]\n\n[warn]Actual fuel usage depends on the machine size and other factors such as machine temperature, if you want to know the actual number you will need to test it on your own setup.[/warn]",
       "globalShare:1": 1,
       "icon:10": {
@@ -25,6 +33,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§6§lHigh-Pressure Boiler Tank",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "OR",
       "repeatTime:3": -1,

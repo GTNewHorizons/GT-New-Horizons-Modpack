@@ -17,6 +17,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "As usage of the Forge continues, more data on graviton shards is gathered. It has been found that they can stabilize the outputs of the Forge, allowing for the direct extraction of molten material while it is still close to the heart of the star.\n\n[note]The second module of the Godforge, Helioflux Melting Core allows processing EBF recipes by directly outputting molten metal when possible. This may not always be as efficient as other methods, but the time and scaling saved from Vacuum Freezer steps often more than makes up for this.[/note]\n\n[note]Usage of this module requires the FDIM upgrade.[/note]\n\n[warn]Helioflux Melting Core \u003c3[/warn]",
       "globalShare:1": 0,
       "icon:10": {
@@ -29,6 +37,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§9§l§nHelioflux Melting Core my Beloved",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

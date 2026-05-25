@@ -13,6 +13,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "High pressure, superheated loads of energy. Check the XL Steam Turbine quest above for an explanation of the mechanics shared across all turbines.\n\nThis XL Turbine is exactly the same as the XL Steam Turbine in the way it upgrades from the regular multi: the only accepted fluid is Superheated Steam, and nothing else works. They are meant to be built together, since any steam setups you might have at this point will surely be using the two.",
       "globalShare:1": 0,
       "icon:10": {
@@ -25,6 +33,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§9§lXL Turbo HP Steam Turbine",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

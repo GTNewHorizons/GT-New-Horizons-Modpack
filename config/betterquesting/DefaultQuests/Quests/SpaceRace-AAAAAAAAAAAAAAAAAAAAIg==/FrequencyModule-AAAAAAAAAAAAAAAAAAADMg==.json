@@ -12,6 +12,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "The frequency Module will help you hear sounds properly while in space (it\u0027s also used with the telemetry unit so that your buddies can keep track of you from your base, if you are playing with friends). You need it in your inventory and in the Moon lander.",
       "globalShare:1": 1,
       "icon:10": {
@@ -25,6 +33,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Frequency Module",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

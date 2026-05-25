@@ -12,6 +12,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Your research into energy has led you to energy buffers - a single block that can store enormous amounts, and is also portable. Better than a battery, these devices can be configured to output 1-16A. Using a high-amp transformer, that means you can up tier 2 tiers with these devices. This HV energy buffer can power an HV machine for several hours, or an EV machine for almost an hour. Perfect for mining operations in far off dimensions.",
       "globalShare:1": 1,
       "icon:10": {
@@ -25,6 +33,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Energy Buffers",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

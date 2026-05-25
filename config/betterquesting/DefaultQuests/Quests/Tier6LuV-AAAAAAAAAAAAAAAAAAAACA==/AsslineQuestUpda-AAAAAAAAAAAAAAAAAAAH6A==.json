@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "When the pack updates and changes an assembly line recipe, your old data sticks also need to change their recipe. In old versions, you needed to update the sticks by scanning new items, but now they will update automatically if placed in the assembly line, so you don\u0027t need to change things manually. If there is some kind of bug with data stick recipes after updating, do let the developers know, either on the Discord server or on GitHub.",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§d§lAssline Quest Updates",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

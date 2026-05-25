@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "The §5§lSuperdense Casting Basin§r (SCB) module is one of the first three modules you unlock right away for use in the §nExo-Foundry§r.\n\nThe SCB adds §312§r parallels per voltage tier and reduces the minimum number of Foundry casings by §236§r, giving you space for more inputs. \n\nIf this module paired with the §5Streamlined Casters§r (SC) module, you will unlock \"§6Optimum Production§r\", a bonus giving §36§r extra parallels per voltage tier and a §275%§r speed increase.",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +28,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§5§l§nSuperdense Casting Basins",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

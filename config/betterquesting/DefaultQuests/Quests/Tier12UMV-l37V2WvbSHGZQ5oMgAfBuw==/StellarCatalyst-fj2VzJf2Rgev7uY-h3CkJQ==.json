@@ -16,6 +16,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Your attempts to improve your dimensional catalyst have been futile so far, but with the Raw Stellar Plasma from your Eye of Harmony, you can finally create a stable and more powerful catalyst.\n\nYou will need some higher-tier plasmas to help maintain its stability as well.\n\n[warn]Handle with care. We are not responsible for your base turning into supermassive black holes. /s[/warn]",
       "globalShare:1": 0,
       "icon:10": {
@@ -28,6 +36,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§c§l§nStellar Catalyst",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

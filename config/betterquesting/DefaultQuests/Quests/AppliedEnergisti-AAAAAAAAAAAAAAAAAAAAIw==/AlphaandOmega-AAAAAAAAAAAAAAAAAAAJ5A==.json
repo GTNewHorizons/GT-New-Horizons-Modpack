@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "The ME Annihilation Plane destroys blocks as if you had mined them, and places them into the network. The Identity version acts as if silk touch was used.\n\nThe ME Formation Plane does the opposite, it places blocks into the world. You\u0027ll need to tell it what to place/drop though. This can work in both block and item mode.",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +28,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Alpha and Omega",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

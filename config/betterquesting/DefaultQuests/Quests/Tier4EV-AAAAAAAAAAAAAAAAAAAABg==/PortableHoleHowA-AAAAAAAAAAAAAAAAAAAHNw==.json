@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "With further research, I\u0027ve discovered a key made of spectral iron can open a portal into a pocket dimension. It\u0027s only one chunk wide, but perfect for storing stuff I might need while exploring faraway planets, or as a quiet refuge after a difficult battle. Using it as a teleportation hub might also be an idea...",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§8§lPortable Hole? How About Portable Chunk!",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

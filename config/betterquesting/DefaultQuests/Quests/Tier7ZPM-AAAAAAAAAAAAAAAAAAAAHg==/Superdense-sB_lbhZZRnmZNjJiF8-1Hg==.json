@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "The advanced machines you are now creating require more advanced materials, as well as more advanced ways to process them. In ZPM, you can construct the Hot Isostatic Pressurization Unit, an upgrade to the Large Electric Compressor. This multiblock heats material to extreme temperatures under extreme pressure, allowing it to create superdense plates with minimal imperfections.\n\nThe HIP Unit heats up while it is running, and must be given some time to cool off. If it reaches its maximum heat threshold, it will significantly slow your recipes or even void the inputs. Use better coils to increase how long it will take to overheat, and use Heat Sensor Hatches to automate it properly.\n\n[note]Can perform compression recipes which say \"Requires HIP Unit\" in NEI.[/note]",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +28,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§b§lSuperdense",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Or 4? Need to store ludicrous amounts of cobble? Stone dust? Saplings? Super chests are the thing to use. A Super Chest I can store 4 million items, worry free. You will need to take items out manually 64 at a time, or use conveyors etc. to extract them.",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§6§lOne in a Million",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

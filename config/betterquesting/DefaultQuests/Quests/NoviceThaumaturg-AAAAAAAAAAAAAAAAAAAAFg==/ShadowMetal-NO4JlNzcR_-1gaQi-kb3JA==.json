@@ -12,6 +12,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Shadow Metal is an extremely useful metal in the early game. It can be easily made via the crucible and refined once you unlock the vacuum freezer. \n\nIt\u0027s high durability makes it a fantastic candidate for handheld tools, prospector scanners, turbines, and even wand caps later down the line.\n\nStart off by making 5 ores, and doubling that using a macerator.\n\n[note]Hint: You can find the research early on in the Maleficia section of the Thaumonomicon[/note]",
       "globalShare:1": 0,
       "icon:10": {
@@ -24,6 +32,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Shadow Metal",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

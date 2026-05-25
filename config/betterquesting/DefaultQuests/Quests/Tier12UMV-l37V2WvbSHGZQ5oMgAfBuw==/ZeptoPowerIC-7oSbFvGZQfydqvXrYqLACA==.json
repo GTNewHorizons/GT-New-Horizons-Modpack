@@ -12,6 +12,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "§5§fYou need Zepto Power ICs for UXV -\u003e MAX transformers, UMV Energy/Dynamos Hatches, and Quantum Circuits.\r\n\nThese wafers will need to be crafted in a Beam Crafter with Spacetime Dust and Molten Creon and Mellion. Perhaps upgrade your LHC some more.\n\r\n[note]You\u0027ll need a UMV Laser Engraver, or an OC\u0027d multi to actually cut the wafers.\n\nWho isn\u0027t using OC\u0027d multis at this point?[/note]",
       "globalShare:1": 0,
       "icon:10": {
@@ -24,6 +32,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§c§l§nZepto Power IC",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

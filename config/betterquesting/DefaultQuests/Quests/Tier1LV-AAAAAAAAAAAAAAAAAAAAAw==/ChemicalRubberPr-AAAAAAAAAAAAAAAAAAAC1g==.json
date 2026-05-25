@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "A much more efficient way to make insulated cables is by making molten rubber in a chemical reactor, which can be applied to a cable in the assembling machine. When you put both machines next to each other you can output the molten rubber directly to the assembling machine by clicking the fluid auto-output button on the chemical reactor. Make sure to set the correct side of the reactor as output side by wrenching it. Also remember to use the right circuit in the assembling machine.",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§2§lChemical Rubber Production",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

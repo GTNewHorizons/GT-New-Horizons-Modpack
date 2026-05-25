@@ -12,6 +12,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "The infusion altar will allow you to make runes, which in turn gives you access to progressively more advanced flowers.\n\nTo operate the altar, drop the ingredients on top, whack it with a wand of the forest, and when it\u0027s done drop a livingrock block on top to complete the craft. You will additionally need a mana source, such as a mana spreader pointing at it.",
       "globalShare:1": 0,
       "icon:10": {
@@ -24,6 +32,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Botanic Infusion",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

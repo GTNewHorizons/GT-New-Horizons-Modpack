@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "The Remote IO Water Reservoir works like the Everfull Urn in that you can pull water out as fast as you need. Additionally, you can pull water from any side of the block.\n\nYou can further upgrade it into a reservoir hatch, which can be used as an input hatch directly. Producing massive amounts of distilled water with a DT has never been easier!\n\n§3Maybe those massive amounts of water could be condensed into something useful...",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +28,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§8§lWater, Fast",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

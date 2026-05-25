@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "The purified versions of Nether, Certus and Fluix crystals can be grown from seeds made in the assembler from crystal dust and sand.\n\nYou may need the Pure Nether Quartz later, but for now let\u0027s create some Pure Fluix Crystal and Pure Certus Quartz Crystal.\n\nThey can be grown in-world for free by dropping them in water, or at a much faster rate in a GT Autoclave.\n\n[note]Distilled water reduces the recipe time in the Autoclave by half.[/note]",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Purifying the Impure",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

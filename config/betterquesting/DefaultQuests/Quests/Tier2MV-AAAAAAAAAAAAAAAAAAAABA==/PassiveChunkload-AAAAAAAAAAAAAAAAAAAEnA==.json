@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Using the MV bender you can finally press dense plates. So let\u0027s craft a passive chunkloader. It will also load a 3x3 chunk area. You need ender pearls or coins to power the chunkloader.\n\nPassive anchors will run for 1 hour off of an ender pearl, and a varying amount depending on the coin used.\n\n§aPersonal Anchors§r are loaded once the owner visits, and stay loaded while the player is logged in.\n\n§9Passive Anchors§r are loaded once the owner visits, and stay loaded until the server resets.\n\n[warn]World Anchors[/warn] are always loaded, even after a server reset.",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§6§lPassive Chunkloading",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

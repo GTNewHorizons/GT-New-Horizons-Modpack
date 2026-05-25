@@ -16,6 +16,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "As an upgrade to the barrels, EFR also adds the ever-familiar shulker box! The shulker box allows you to comfortably tote around its contents. You can find the research for them in the New Horizons tab of the Thaumonomicon.\n\nThese have seven additional tiers much like the barrels and chests that give you additional storage space. \n\nYou can dye any tier by shapelessly crafting them with a dye, and undye them by shapelessly crafting them alone. They §nwill§r retain their inventory. \n\n[note]There are many ways to obtain shulker shells:\n1. Fighting Shulkers in the Twilight Forest Lich \u0026 Ghast Queen Towers.\n2. Fighting Shulkers from the eggs you get from the Vending Machine.\n3. Manually crafting the shells.[/note]",
       "globalShare:1": 0,
       "icon:10": {
@@ -28,6 +36,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§2§lA Portable Barrel?",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

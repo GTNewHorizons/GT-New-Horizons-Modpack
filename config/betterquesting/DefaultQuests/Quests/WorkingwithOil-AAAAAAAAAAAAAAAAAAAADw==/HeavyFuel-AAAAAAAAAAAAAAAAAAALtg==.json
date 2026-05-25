@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "There is a better way to get fuel from Oil in MV, but you will need to expand into other fractions instead of just using Light Fuel. The next step is Diesel, and it is a mix of 5 buckets of Light Fuel with 1 bucket of Heavy Fuel, turning into 6 buckets of Diesel that each have a higher fuel value than the fuel used in LV.\n\nTo automate this from regular Oil, you will need another Distillery and Chemical Reactor, and finally a Mixer to put the fuels together. There are other possible sources of Heavy Fuel, mentioned on another quest in this chain, which can be of assistance if the input of Oil into the setup isn\u0027t very high. You will also need more Hydrogen, so get on it!",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +28,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Heavy Fuel",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

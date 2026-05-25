@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "You\u0027re sure that this place will give you all the answers you\u0027re looking for! To continue, you need something to handle the magic energy called \"vis\". Guess it\u0027s time to craft your first wand.\n\nIf you haven\u0027t started on defeating the TF bosses yet, you\u0027ll need to do so to proceed. All wands require some kind of TF boss drop, with better wands needing later boss\u0027s drops. Once you\u0027ve defeated them once, you can buy a spawn egg (only usable in the TF) or use the trophy+salis mundus to make more of the drop.\n\n§3You should look for wand recipes in NEI. Not all of them are correct in the Thaumonomicon.",
       "globalShare:1": 1,
       "icon:10": {
@@ -29,6 +37,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 1,
       "name:8": "Your First Wand",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

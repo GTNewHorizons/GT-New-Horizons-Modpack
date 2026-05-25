@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Combining sulfur trioxide and water in the chemical reactor will give you sulfuric acid for your single use acid batteries. You\u0027ll need to make sulfur dioxide first.\n\nOn the other hand if you\u0027ve made some light fuel you\u0027ll have some spare hydrogen sulfide you can also turn into sulfuric acid (after a couple steps), and if you\u0027ve automated it, you\u0027ll be drowning in it honestly. Once you can make an LCR, you can skip directly from HS to SA in one step. Keep in mind that you\u0027ll need all that acid for making stuff instead of for single use batteries by then.",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§2§lSulfuric Acid",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

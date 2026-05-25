@@ -12,6 +12,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "No matter where you got this smeltery from, you have one now. Time for some casting!\n\nNote: The book says to make a 3x3 base, but you can make a smeltery with a smaller or wider base. Taller/wider smelteries can do more items at one time, conserving fuel.\n\n[note]The smeltery does not double ores in GTNH. Later machines will help you there.[/note]",
       "globalShare:1": 1,
       "icon:10": {
@@ -25,6 +33,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 1,
       "name:8": "§6§lYou Are Now Prepared, Hopefully!",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "OR",
       "repeatTime:3": -1,

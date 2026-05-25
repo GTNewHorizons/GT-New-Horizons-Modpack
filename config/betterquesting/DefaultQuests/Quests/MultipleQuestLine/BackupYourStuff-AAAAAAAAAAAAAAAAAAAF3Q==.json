@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "The mod ServerUtilities (SU) is included in the pack to backup your world. You can adjust save path, frequency, and the number of backups to keep in its settings at \u0027.minecraft\\serverutilities\\serverutilities.cfg\u0027.\n\nIf you need to restore from a backup, you can find them in the backups folder in the instance directory.\n\nThe SU backups include several folders outside of the save folder that store the data from JourneyMap, VisualProspecting, and the Thaumcraft Node Tracker.\n\nIf you move to another drive or computer, don\u0027t forget to migrate all files, not just the world folder.",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§9§lBackup Your Stuff...",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

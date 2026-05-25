@@ -17,6 +17,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "At long last... the final ingredient needed before making Netherite materials.\n\nThrough the combination of the Netherite Nanoparticles and Hellish Metal in the §5§lEBF§r, you can create §4Intensely Bonded Netherite Nanoparticles.§r As an added bonus for those who have invested in bees, using the combs from a Netherite Queen, will reward you with §2§l2x§r the product.\n\nThese are not only the primary pre-requisite ingredients for the Dense Netherite Plate that you need for the §3§lFusion Reactor§r, but also the pre-requisite material for making the rest of the Netherite parts after you have created one; so be sure to stockpile and manufacture as many of these nanoparticles as you can. \n\n[note]Keep in mind this recipe does require Naquadah coils![/note]",
       "globalShare:1": 0,
       "icon:10": {
@@ -29,6 +37,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§d§lIntensely Bonded Netherite Nanoparticles",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

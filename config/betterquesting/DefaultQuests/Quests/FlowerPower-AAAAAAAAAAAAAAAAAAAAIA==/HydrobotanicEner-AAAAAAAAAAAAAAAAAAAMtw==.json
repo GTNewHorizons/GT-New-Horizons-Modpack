@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Mana is blue. Water is also blue. There\u0027s a correlation there, and the hydroangea turns that correlation into causation. Place a water source block nearby, and the hydroangea will consume it to produce mana - until it dies after an hour.\n\nThis one can be a bit tricky to automate given the lack of naturally-regenerating source blocks.",
       "globalShare:1": 0,
       "icon:10": {
@@ -23,6 +31,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Hydrobotanic Energy",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "You will need to feed Raw DNA into a Polymerizer to prime your gene samples for injection into Larvae. The Genepool eats Enzyme and guzzles Ethanol in order to produce more Raw DNA than you could ever find even in a public gas station\u0027s restroom.\n\nIt is basically a chipper shredder for your leftover drones. You were hoarding them because you might need them some day, right? Today\u0027s that day! Whatever you put in here is going to go bye-bye. Make sure you keep some of your different drones around just in case.\n\nIt will also take saplings, flowers, and any excess Larvae you should be pumping out by now for modification and hatching.\n",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Genepool",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

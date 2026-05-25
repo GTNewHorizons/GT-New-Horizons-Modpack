@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Are you tired of storing Shapes and/or Molds near your Extruders and Solidifiers instead of inside them? Today must be your lucky day, because these item holders let you do exactly that!\n\nThey allow your machines to hold a small number of extra items, though each slot can only store one item at a time. There are three versions of this cover, each offering a different amount of storage:\n\nBasic Item Holder: 9 slots\nGood Item Holder: 12 slots\nAdvanced Item Holder: 15 slots\n\n[note]If that\u0027s still not enough space and you are already using the highest tier, you can simply attach multiple holders to your machine of choice.[/note]",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +28,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§2§lKeeping things organized",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

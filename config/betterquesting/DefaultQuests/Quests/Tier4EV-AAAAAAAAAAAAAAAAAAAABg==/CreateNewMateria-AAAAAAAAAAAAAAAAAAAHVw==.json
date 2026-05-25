@@ -12,6 +12,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Using the scanner, you can scan certain items (check the replicator\u0027s NEI recipes) to store the information of the item to a data orb so you can make copies of them with the replicator. This process uses a varying amount of UUM and time, depending on the item. Scanning also takes forever.\n\nSome items you might want to replicate include:\nIndium\nPlatline metals like Iridium and Osmium\nNeon, Krypton, Xenon from liquid air distilling\nOganesson\n\nFor some things (Oganesson), this might be considered the only reasonable way of getting a decent amount.",
       "globalShare:1": 1,
       "icon:10": {
@@ -25,6 +33,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§8§lCreate New Materials Out of Pure Energy",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

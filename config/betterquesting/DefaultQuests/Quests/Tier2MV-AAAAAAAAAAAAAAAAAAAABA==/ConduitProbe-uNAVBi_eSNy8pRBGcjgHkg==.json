@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "The Conduit Probe is an incredibly useful tool for managing and troubleshooting your Ender IO conduit networks.\n\nIt features two modes:\n\n• §lProbe Mode§r\nRight-click an Energy Conduit to view detailed network information\nRight-click an Item Conduit to simulate item transport using the item in your hand\nRight-click a Redstone Conduit to see connection details, including signal levels sent and received\n\n• §lCopy/Paste Mode§r\nShift + Right-click a conduit connection to copy its settings\nRight-click another conduit to paste those settings\n\nThis is especially useful when configuring multiple machines with identical setups and helps prevent mistakes.\n\nYou can switch between modes by: Using Shift + Mouse Wheel, or pressing the §nYeta Wrench Mode§r keybind (unbound by default) while holding the probe.",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +28,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§6§lConduit Probe",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

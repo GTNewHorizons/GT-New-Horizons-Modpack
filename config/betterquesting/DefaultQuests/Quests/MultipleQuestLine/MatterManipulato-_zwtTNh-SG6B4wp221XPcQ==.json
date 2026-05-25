@@ -17,6 +17,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "The MKIII is the final upgrade in the Matter Manipulator series, and grants you access to it\u0027s most heightened capabilities. With §210x§r the EU storage as the MKII, it also boasts an §5§lunlimited§r block range and can handle placing §21024 Blocks / Second§r.\n\nThe MKIII comes with all of the features of the MKII, except now with the ability to also use the §5§lQuantum Uplink§r, though you won\u0027t be able to build that multiblock until UV.\n\n §3§lAdvanced Copy Options:§r\n\nThe MKIII unlocks an additional toggle in the §5§lAdvanced Options§r sub-menu:\n\n- §5§lAuto-Proxy CRIBs§r: Replaces Crafting Input Buses in the copied region with Crafting Input Proxies linked back to the original CRIB.",
       "globalShare:1": 0,
       "icon:10": {
@@ -47,6 +55,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§b§lMatter Manipulator MKIII",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

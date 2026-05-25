@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Before going further into CropsNH, there is but one chore I need you to do. §6To prevent future hardship, collect a fully statted 31/31/31 seed.§r\n\nThis may seem daunting at first, but with enough blood, sweat, and bonemeal (see the fertilizer quest), you can do it. I believe in you!\n\n§4Ensure you pick a species which is related via mutation pools and determinism to other Crops you want.§r If you don\u0027t know what to choose, may I suggest the Potato or Cactus crops which will give you access to the Root or Danger pools respectively.\n\nWhile there is a reason behind keeping some seeds low statted (lowering enriched fertilizer costs in machines), the time saved by working with max stat crops compared to low stat crops is just too significant to ignore.\n\n§oThis quest will accept any CropsNH seed with a perfect statline.",
       "globalShare:1": 0,
       "icon:10": {
@@ -26,6 +34,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Last Universal Common Seed",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

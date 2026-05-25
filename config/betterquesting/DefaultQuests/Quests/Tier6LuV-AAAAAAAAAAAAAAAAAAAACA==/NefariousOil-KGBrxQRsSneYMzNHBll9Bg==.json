@@ -13,6 +13,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Using purified water, you can use an §5§lOil Cracker§r to convert the Nefarious Gas from the previous step into §4Nefarious Oil§r.\n\n[note]If you are proactive and setup grade 2 water production, you unlock a recipe that produces much more oil, with much less water, in much less time. §[[/note]",
       "globalShare:1": 0,
       "icon:10": {
@@ -25,6 +33,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§d§lNefarious Oil",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

@@ -16,6 +16,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "A MK II is nice, but why not make a MK III? This time you need UV+ energy hatches, as well as the Fusion Machine Casing MK II.\n\nEach energy hatch has an energy capacity of 40M EU and draws up to 32768 EU/t. That means it can handle start costs up to 640M EU and power consumption up to 524288 EU/t.\n\nThe MK III reactor also grants a 2/2 perfect overclock for every machine tier above the minimum recipe tier.",
       "globalShare:1": 1,
       "icon:10": {
@@ -29,6 +37,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§2§l§nUpgrading the Reactor",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

@@ -12,6 +12,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "How about lossless 32 EU cables? Redstone alloy is a superconductor and will transfer your energy without any loss.\n\nRedstone Alloy is a new alloy which requires an EBF. Mix redstone, silicon and coal by hand, or in the mixer for a better result.\n\n[note]Remember not to mix it up with Red Alloy, that\u0027s the ULV one.[/note]",
       "globalShare:1": 1,
       "icon:10": {
@@ -25,6 +33,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§2§lLossless LV Cables",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

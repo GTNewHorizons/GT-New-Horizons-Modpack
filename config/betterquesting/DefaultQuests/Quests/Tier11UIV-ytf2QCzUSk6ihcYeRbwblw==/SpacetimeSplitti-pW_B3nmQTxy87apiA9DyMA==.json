@@ -12,6 +12,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Spacetime... separates?? Crazy world we\u0027re living in.\n\nYou will need a lot of both of these for future crafts throughout the rest of the game, so make sure to set up infrastructure that can handle the demand. Luckily for you, you only need a small amount of it for now.\n\nYou will eventually be able to use DTPF and QFT recipes to speed the process up significantly, but for now the Spinmatron should be able to handle production just fine.\n\n[note]In addition to being a crafting ingredient, these can later be used to boost the performance of certain multiblocks, like the LNR, SSASS, \u0026 Vacuum Freezer.[/note]\n\n[note]To craft these fluids before UMV energy hatches, overclock the Spinmatron with a high power UIV Laser Hatch\n\nNote, Heavy Mode uses a lot of power.[/note]",
       "globalShare:1": 0,
       "icon:10": {
@@ -24,6 +32,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§9§l§nSpacetime Splitting",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

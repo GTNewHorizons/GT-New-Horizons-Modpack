@@ -12,6 +12,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "As you\u0027ve noticed, UXV components are extremely expensive compared to the amount of Universium you can currently produce.\n\nThe Astral Array Fabricator allows you to run EOH recipes in parallel. You can review the math in the second page of the tooltip.\n\nFor a direct answer, you can use this spreadsheet: [url]https://docs.google.com/spreadsheets/d/1FTFdfmY_UWbTbFOyNzARKeI90pbHvPBH6M3JHJmaC-E/edit?usp\u003dsharing[/url]\n\n[warn]Be aware that the EOH will use Raw Stellar Plasma instead of Hydrogen and Helium if you use Astral Arrays.[/warn]\n\n[note]Make sure you are generating enough power.[/note]",
       "globalShare:1": 0,
       "icon:10": {
@@ -24,6 +32,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§4§l§nFabricating Solar Systems... in Parallel",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

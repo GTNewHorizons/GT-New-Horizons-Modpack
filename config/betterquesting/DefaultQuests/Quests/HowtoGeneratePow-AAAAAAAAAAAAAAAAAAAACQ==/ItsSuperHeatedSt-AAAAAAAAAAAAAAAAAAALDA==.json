@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "So that means it produces §otwice§r as much power! You can get this steam through the LHE, the SOFC Mk II or the Titanium/Tungstensteel Boilers. It gets converted to normal steam as the output at a 1:1 ratio, so make sure to have a non-HP one to take advantage of that. In total, an HP Steam Turbine and a regular one combined produce 3x the EU with Superheated Steam that normal Steam would produce.",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§5§lIt\u0027s \u0027Super\u0027 Heated Steam",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

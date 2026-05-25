@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "When breeding new crops, you will come upon hundreds of different species! While every species has a unique texture which a dedicated farmhand will be able to discern between, this tool will clear things up much quicker for you. \n\nAfter using it you can tell the following:\n- Species\n- Stats\n- Crop tier\n- Whether it can grow (many crops have special requirements)\n- Whether you can harvest it\n- Growth progress",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Tools of the Trade 2 - Mendelian Identification",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

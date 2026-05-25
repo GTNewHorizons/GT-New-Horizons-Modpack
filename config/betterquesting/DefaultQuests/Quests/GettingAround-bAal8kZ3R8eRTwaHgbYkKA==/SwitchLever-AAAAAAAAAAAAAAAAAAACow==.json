@@ -16,6 +16,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "The switch lever is the manual version of the switch motor, requiring a player to operate it instead of a redstone signal.\n\nIt is used in various signaling systems, mainly to change the way switch tracks and wye tracks work.",
       "globalShare:1": 1,
       "icon:10": {
@@ -29,6 +37,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Switch Lever",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

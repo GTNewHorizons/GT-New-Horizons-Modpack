@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Kinetic generator compatibility has been improved so that you no longer need transformers, you can connect directly with a cable. But why not use your transformer to send the power back to base more efficiently, it\u0027s a loss of about 97EU per HV amp just going from 160 straight down to 63 without it. If you transform up (after going through 1 block of cable to transform it to GT power), you only lose about 97EU per EV amp, which saves 4x the energy in regard to cable loss.\n\n[warn]IC2 machines don\u0027t care about rain, but remember to cover your transformer.[/warn]",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§5§lSending the Power Back",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

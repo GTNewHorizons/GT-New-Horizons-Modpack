@@ -18,6 +18,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Absolute Baryonic Perfection! This multiblock allows you to create water that is pure even on the subatomic level. Not a single quark is out of place in Grade 8 Purified Water. Thanks to this purity, even more advanced processes are possible, starting with reducing the processing time of Optical Boules and increasing yield on Optical Chips.\n\nWhile the tooltip is certainly a lot less intimidating than the one of the Degasser, automating this process will not be an easy challenge. Have fun solving the puzzle!",
       "globalShare:1": 0,
       "icon:10": {
@@ -30,6 +38,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§5§l§nAbsolute Purity",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "This is an upgraded version of your trusty ol\u0027 Steam Macerator. As a 3x3 Multiblock, it might seem expensive if you\u0027re in the Steam Age. However, the processing time per ore is so low that you can sustain your beginner\u0027s ore processing system with it!\n\nThe main reason to switch from this is the HV Macerator, which unlocks a slot for additional byproducts gained from the macerating step of ore processing. The Steam Grinder, in comparison, will only return the first item shown in the recipe output. However, this will do just fine until HV!\n\n§3The Steam Grinder can only process recipes up to LV Tier.",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +28,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§c§lSteamy Mincer",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

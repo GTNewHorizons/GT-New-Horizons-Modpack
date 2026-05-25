@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Royal jelly is a honey bee secretion that is used in the nutrition of larvae, as well as adult queens. It is only produced by the imperial bee. Its production can be increased with proven frames or any other kind of frames except for the soul frame. Royal jelly is also useful because it can craft ambrosia, which fills 8 hunger points (4 full food icons) and gives Regeneration I for 40 seconds. Royal jelly is used to craft scented paneling which are required in the creation of alveary blocks.",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Royal Jelly",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

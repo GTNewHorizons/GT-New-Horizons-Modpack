@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Putting redstone on my weapon makes it faster. So why don\u0027t I put it on my hands directly!\nThis will increase your mining speed.\n\nHint:\nEvery Armor part has 3 Slots for modification, aside from gloves, which have 5.",
       "globalShare:1": 1,
       "icon:10": {
@@ -42,6 +50,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Traveller\u0027s Gloves Upgrades",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

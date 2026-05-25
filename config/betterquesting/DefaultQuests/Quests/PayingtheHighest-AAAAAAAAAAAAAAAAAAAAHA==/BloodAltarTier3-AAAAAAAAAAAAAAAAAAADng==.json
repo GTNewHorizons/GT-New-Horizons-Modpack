@@ -12,6 +12,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "To make your altar more powerful you need to upgrade it. Add another ring of Blood Runes with a two-high pillar of blood-soaked thaumium blocks at each corner. Top each of the pillars with a block of glowstone.\n\nView the structure preview in NEI or visit [url]https://wiki.gtnewhorizons.com/wiki/Blood_Altar[/url] for images on how it should look.",
       "globalShare:1": 1,
       "icon:10": {
@@ -25,6 +33,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Blood Altar Tier 3",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

@@ -12,6 +12,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Starting to hit the production limit of the PCB Factory? Let\u0027s install a §5§lCooling Tower§r; this will allow any PCB Factory within its range to overclock with §22x§r Speed in exchange for §c4x§r EU and §910L/s§r of §nDistilled Water§r while running.\n\nYou can connect this to the PCB Factory by first left-clicking the PCB Factory Controller and then right-clicking the Cooling Tower Controller. One Cooling Tower can connect to any number of PCB Factories within a §216§r block radius.\n\n[note]The input hatch is placed in the bottom center of the Liquid Cooling Tower.[/note]",
       "globalShare:1": 0,
       "icon:10": {
@@ -24,6 +32,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§4§l§nLiquid Cooling Tower",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

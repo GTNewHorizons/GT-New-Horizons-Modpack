@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "With an alloy smelter and some netherrack dust you can make Nether furnaces, which are extremely efficient cooking machines. Very handy for someone needing a lot of stuff furnaced in a jiffy.\n\nIn comparison to the Blast Furnace, they operate at half the speed and half the fuel usage. So they have the same fuel consumption ratio but are slower. Another downside to crafting Nether Furnaces is that they cannot be used as a component for the Electric Blast Furnace (EBF) craft later on. Blast Furnaces can.\n\nThen again, Nether dust is practically free, and unlike Blast Furnaces these can process every type of furnace recipe, so what\u0027s the loss? You can always use them to bake stacks of bread!",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§c§lLucifer\u0027s Little Helper",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

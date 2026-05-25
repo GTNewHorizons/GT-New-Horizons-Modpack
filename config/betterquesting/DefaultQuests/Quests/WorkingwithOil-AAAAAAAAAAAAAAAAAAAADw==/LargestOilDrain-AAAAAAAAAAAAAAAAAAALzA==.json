@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "One way or another, you will need to get Oil faster. Reservoirs can get really big, but the rig only pumps from a portion of them... until now. With a few stacks of Tungstensteel, you can put together the tier 4 of the Oil Rigs, and suck up all the fluid from a reservoir at once, covering the full 8x8 chunk size from a single spot.\n\nIf you need even faster Oil input, build more rigs! They\u0027ll draw from the same pool, and exhaust it together. If you put them on adjacent reservoir chunks, you can draw multiple full reservoirs at once and feed them into a central location, and this transportation becomes even easier with Ender Tanks, which are unlocked in this tier.",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +28,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Largest Oil Drain",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

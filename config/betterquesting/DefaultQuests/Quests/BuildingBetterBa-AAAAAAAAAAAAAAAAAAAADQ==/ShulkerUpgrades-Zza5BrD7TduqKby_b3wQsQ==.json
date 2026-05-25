@@ -12,6 +12,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Shulker boxes in need of an upgrade? Now that you\u0027re in MV and have access to §dCrystalline Pink Slime§r dust they can be! No need to gather all new shells, there are 9 upgrade items available. They will preserve the inventory of your shulker so there is no need to empty it beforehand.\n\n§lAvailable Upgrades:§r\nVanilla -\u003e Copper\nVanilla -\u003e Iron\nCopper -\u003e Iron\nCopper -\u003e Silver\nIron -\u003e Gold\nSilver -\u003e Gold\nGold -\u003e Diamond\nDiamond -\u003e Crystal\nDiamond -\u003e Obsidian",
       "globalShare:1": 0,
       "icon:10": {
@@ -24,6 +32,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§3§lShulker Upgrades",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

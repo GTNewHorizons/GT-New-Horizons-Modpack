@@ -12,6 +12,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Unlike the item version, these can only hold 12 types of essentia each. This tier holds 2,048 units if you fill it with a single type of essentia. If you fill it with 12 different types of essentia, you can have about 168 units of each. If you want one for every type of essentia, you\u0027ll need 69 of them. You\u0027ll want to make the essentia terminal to see what you have. They consume the same amount of AE as the item ones.",
       "globalShare:1": 0,
       "icon:10": {
@@ -25,6 +33,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "1k Essentia Storage Cell",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

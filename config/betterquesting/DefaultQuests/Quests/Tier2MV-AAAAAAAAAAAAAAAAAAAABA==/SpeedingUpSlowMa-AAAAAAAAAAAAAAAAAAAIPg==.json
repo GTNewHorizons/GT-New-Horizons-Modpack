@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Many mods don\u0027t have methods of speeding up their slow machines. For this, you\u0027ll need a GregTech World Accelerator. It guzzles amps though, so your power infrastructure better be ready for it. The tooltip will list the performance boost provided. For block-based acceleration, the WA will do an area around it. For TileEntities like most machines, it will only accelerate the blocks directly touching the WA, and will need to be reconfigured with a screwdriver. This uses twice the power though.\n\n[warn]This does not work with GregTech machines![/warn] For those, build more or higher tier ones.\n\nIf you want, you can change the level of acceleration by using a wrench on it. It will go back to the minimum, then increase one tier from there for every usage. It will use that tier\u0027s amount of power (and acceleration), increasing as per GT standard of 2x speed (acceleration) and 4x EU per tier.",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§6§lSpeeding Up Slow Machines",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

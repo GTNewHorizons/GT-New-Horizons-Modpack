@@ -12,6 +12,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "This Tome can store multiple documentation books from other mods. It will be empty when crafted, but you can add books by combining it with the desired book in a crafting grid.\n\nRight-clicking with the Tome in hand will open an interface showing all the added books; clicking on a book will transform the tome into the selected book. To revert it back to the Tome, left-click while sneaking.\n\nTo retrieve a stored book, transform the Tome into the desired book and throw it away while sneaking - this will drop the selected book and leave the tome in your inventory.\n\n[warn]Some warnings:\n\nThe extended version of the Book of Biomes from Witchery is not compatible with this tome.\n\nYou should not throw it through the Botania portal. The elves might steal your Tome and return only their own copy of the Lexica Botania.[/warn]",
       "globalShare:1": 0,
       "icon:10": {
@@ -24,6 +32,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§c§lThe one book to rule them all",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

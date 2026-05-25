@@ -16,6 +16,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Maintaining multiblocks can be a pain, especially if you prefer performing other tasks around your base.  \nTo solve this, a certain engineer developed the Magical Maintenance Hatch — a simple maintenance hatch that fixes all your maintenance problems using centi-vis.\n\nSimply attach the hatch to any multiblock and keep it within reach of a centi‑vis network. The device will consume 2500 centi‑vis of each primal aspect to resolve any maintenance problems the multiblock may develop.\n\n[note]The hatch stores 5000 centi-vis of each primal aspect. This means it takes on average 1000 ticks (50 seconds) to reach the internal buffer.[/note]\n\n[warn]If you\u0027re having trouble making it work, make sure you place the hatch near a Vis Relay or an energized node with each primal aspect.[/warn]",
       "globalShare:1": 0,
       "icon:10": {
@@ -28,6 +36,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Magical Maintenance Hatch",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

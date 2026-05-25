@@ -13,6 +13,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "The jaded amaranthus causes mystical flowers to grow all around it. Their vibrant petals can be used for magic, so you no longer have to go foraging for mushrooms.\n\nThere §ois§r another way of getting these, but you\u0027ll have to figure that one out for yourself.",
       "globalShare:1": 0,
       "icon:10": {
@@ -28,6 +36,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Flower!!! Unlimited Flower!!!",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

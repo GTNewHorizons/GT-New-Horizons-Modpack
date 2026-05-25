@@ -12,6 +12,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "To make living solder for your UEV components or bio-circuits, you will need a chem plant with Rugged Botmium Casings. These are not easy to make!\n\nYou can certainly figure out the rest by now, but the Advanced Nitinol may confuse you. You make it out of blocks of Nitinol 60 with a Quantum Anomaly in a Laser Engraver.",
       "globalShare:1": 0,
       "icon:10": {
@@ -24,6 +32,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§4§l§nBeyond the Limit",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

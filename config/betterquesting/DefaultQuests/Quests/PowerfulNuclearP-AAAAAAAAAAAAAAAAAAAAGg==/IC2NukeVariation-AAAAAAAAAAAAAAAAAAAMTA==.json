@@ -12,6 +12,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "This branch of the questline focuses on the IC2 nukes that work differently from the simple kind that is explored on the branch right next to this one. They are more powerful, but also require more setup.\n\nThe main two kinds are fluid nukes and vacuum nukes, which will be explained in the following quests. However, there are also other obscure types, such as wrench nukes, which no longer work in more recent versions of GTNH.\n\nThose are memes, but if any new viable type of IC2 nuke is ever introduced, it will be explained in this section.",
       "globalShare:1": 0,
       "icon:10": {
@@ -24,6 +32,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "IC2 Nuke Variations",
+      "particle_count:3": -1,
       "questLogic:8": "OR",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

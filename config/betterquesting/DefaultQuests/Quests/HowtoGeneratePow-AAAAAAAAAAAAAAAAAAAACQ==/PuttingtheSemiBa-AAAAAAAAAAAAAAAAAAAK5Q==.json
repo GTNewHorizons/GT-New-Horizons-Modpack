@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "If you\u0027re still burning Creosote for power, you can get MV amps out of it with these machines. It won\u0027t last long, and definitely isn\u0027t a good main power source, but it\u0027ll give you some EU for your trouble.\n\nAlternatively, Heavy Fuel? It has the same EU per bucket as Benzene, 360k, and is the only semifluid with more than 100k per bucket. If you have it, and are not consuming enough for Diesel, you can use it this way.",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +28,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§6§lPutting the \u0027Semi\u0027 Back Into Generators MV",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

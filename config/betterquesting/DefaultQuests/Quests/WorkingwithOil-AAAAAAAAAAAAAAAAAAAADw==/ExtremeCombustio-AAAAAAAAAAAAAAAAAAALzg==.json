@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Very similar to the LCE in most aspects, the Extreme Combustion Engine was created to close the gap between the diesels and more advanced forms of powergen, mainly nuclear fusion. However, the main thing they differ on is the fuel that they can run, and in this case you\u0027re limited to the powerful fuel from the last tier, High Octane Gasoline.\n\nThat\u0027s right, only this fuel will work, and in exchange the ECE will output more than 10k EU/t. If you add Liquid Oxygen, which you\u0027ll need 4 Vacuum Freezers for (3 at HV and 1 at EV), you can keep it boosted permanently, which will send it up to 4 IV amps of power and 150% fuel efficiency. It\u0027s in your best interest to keep this thing going if you want to keep using Oil fuels for power, and the only thing you can rely on is your automated HOG setup, which you might have to, and should improve with the new IV multis as soon as you can, unless you have other sources of power working simultaneously.\n\nAs a last note, there is also an IV equivalent of the Vacuum Freezer, if you want to tackle the Liquid Oxygen needs that way. It\u0027s more power efficient, look it up on the GT++ tab.",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +28,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Extreme Combustion Engine",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

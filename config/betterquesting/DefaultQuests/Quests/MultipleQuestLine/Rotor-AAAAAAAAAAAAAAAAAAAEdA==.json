@@ -12,6 +12,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "The Kinetic Wind and Water Generators need Gearbox Rotors to function. They can be added and removed with standard automation. Higher tier rotors will last longer. In addition, the iridium ones don\u0027t break. The IC2 ones might bug out for durability loss though. Energetic is probably the best for now, since it can give out a full amp, and more is wasted.\n\n[note]You only need to make one rotor to complete this quest.[/note]",
       "globalShare:1": 1,
       "icon:10": {
@@ -25,6 +33,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§5§lRotor",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "OR",
       "repeatTime:3": -1,

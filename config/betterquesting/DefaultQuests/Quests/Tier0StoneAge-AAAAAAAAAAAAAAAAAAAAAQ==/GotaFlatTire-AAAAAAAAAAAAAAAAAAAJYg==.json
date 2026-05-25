@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "The crowbar is the GT tool used to remove a cover off of a machine, pipe, or wire. Covers can be decorative, functional like pumps and conveyors, or for safety, like putting a wooden plank over your steam pipes so they don\u0027t burn you.\n\nSorry, it only comes in blue!\n\nYes, we know there are also red crowbars, but they are from Railcraft and generally inferior. Better ignore them.",
       "globalShare:1": 1,
       "icon:10": {
@@ -29,6 +37,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§a§lGot a Flat Tire?",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

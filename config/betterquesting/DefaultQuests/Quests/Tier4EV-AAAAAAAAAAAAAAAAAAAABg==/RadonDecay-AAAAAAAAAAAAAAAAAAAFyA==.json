@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Radon is needed for EV Emitters and Sensors.\n\nYou can get Radium-226 from sifting Thorium, Pitchblende, Uraninite, or Uranium 238. It needs 4500 seconds, or 75 mins, to decay, and it will debuff you until it decays unless you have complete hazmat protection. It\u0027s a good idea to make a Lead-Lined Box and let the Radium decay there, instead.\n\nThorium can be obtained from the Nether, whereas the other 3 ores are locked after the Tier 2 Rocket. However, Thorium gives a much smaller chance of getting Radium, so you\u0027ll need a good amount of it to continue.\n\nAfter it decays, you can electrolyze Radon out of it and progress into the next circuit line. However, you will not be able to do the Radon loop here, that can only be done with Plutonium 239.\n\n[note]You only need to do one task.[/note]",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§8§lRadon Decay",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

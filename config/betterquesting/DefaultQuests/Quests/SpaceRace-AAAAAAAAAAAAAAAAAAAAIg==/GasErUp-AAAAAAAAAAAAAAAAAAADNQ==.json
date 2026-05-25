@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "To pump fuel into your rocket you need a fuel loader. Place it next to any side of the launch pad. The green side is for energy, while the yellow is for fuel. Pipe it in if you don\u0027t want to lose your cells.\n\nYou can also power it with batteries, if you\u0027re worried about it draining your power, or don\u0027t want to set up the infrastructure.\n\n[note]Rockets keep their fuel in them on landing now, so you don\u0027t need to take this with you anymore unless you want to go to multiple places in one trip. Or you didn\u0027t fill it all the way or something.[/note]",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Gas \u0027Er Up",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

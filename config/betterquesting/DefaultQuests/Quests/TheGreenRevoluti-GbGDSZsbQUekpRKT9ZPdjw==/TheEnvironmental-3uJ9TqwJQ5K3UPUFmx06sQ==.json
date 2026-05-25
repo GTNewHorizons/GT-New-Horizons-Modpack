@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "If you don\u0027t want to use magic to change the biome for your IF, you will have to apply some advanced biome simulation technology to your Industrial Farm.\n\nEach Environmental Enhancement Unit allows you to insert an Environmental Module inside of your IF controller. (You can only have up to 2 of these upgrades at a time). Environmental Modules can only be inserted while the machine is powered off. Each one increases the power usage by 50% (even if you don\u0027t have a module installed).\n\n\nAs with all upgrades, the tier of the upgrade must match the tier of the seedbed.",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +28,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "The Environmental Enhancement Unit",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

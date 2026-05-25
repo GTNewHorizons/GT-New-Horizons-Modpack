@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Your shoes can be equipped with a few modifications like water walk, double jump, lead boots or slimy shoes. Place the shoes in the middle of a Crafting Station.\n\nWater Walk allows you to walk over water.\nDouble Jump allows you to jump while in the air to jump again.\nLead Boots allows you to walk under water, prevents you from swimming, and may cause excessive Blub. Bring along potions of water breathing.\nSlimy Shoes reduces fall damage.\n\nHint:\nAutorepair can be added to the shoes as well.\nEvery Armor part has 3 Slots for modification.",
       "globalShare:1": 1,
       "icon:10": {
@@ -48,6 +56,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Traveller\u0027s Shoes Upgrades",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

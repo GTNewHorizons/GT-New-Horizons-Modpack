@@ -12,6 +12,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "As additional rings are placed closer to the star at the center of the Forge, the gravitational stress drastically increases on the structure. Graviton shards alleviate these stresses while also creating localized spacetime bridges to link the two rings and their modules\u0027 respective upgrades.\n\n[note]Adding a second ring to your Godforge allows for 4 additional modules, as well as allowing you to pick a second path in the split paths part of the upgrade tree.[/note]\n\n[note]Usage of a second ring requires the CD upgrade.[/note]",
       "globalShare:1": 0,
       "icon:10": {
@@ -24,6 +32,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§c§l§nA Second Ring has Hit the Godforge",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

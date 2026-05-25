@@ -12,6 +12,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Making rubber is now more complicated - you need raw rubber and sulfur. Finding a sulfur vein in the Nether seems like a good idea, doesn\u0027t it? Found on Y 5-20. Later on you can get sulfur from chemicals like hydrogen sulfide or pyrite.\n\n[warn]Sphalerite will be important later for gallium and zinc. Save it until you can fully process it in LV.[/warn]",
       "globalShare:1": 1,
       "icon:10": {
@@ -25,6 +33,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§c§lHow to Make Rubber",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

@@ -24,6 +24,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "The Precise Assembler has two modes: Precise and Normal.\n\nPrecise mode is used to make certain advanced components, whereas Normal mode works as multiblock version of the Assembler.\n\n[note]You can\u0027t skip tiers with this. You\u0027ll need either a singleblock Assembler or a Large Scale Auto-Assembler multi to make your first Energy Hatch, then you can use it on the Precise Assembler.[/note]",
       "globalShare:1": 0,
       "icon:10": {
@@ -36,6 +44,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§9§lPrecise Assembler",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

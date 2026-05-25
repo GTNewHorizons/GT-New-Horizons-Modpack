@@ -17,6 +17,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "This bee produces nothing directly but instead sacrifices its lifetime to generate liquid essentia for all your magical needs. To do so, however, it requires an Apimancer\u0027s Drainer beneath its housing.\n\nThe speed at which the bee produces essentia is affected by its production speed. You have to right-click the drainer with a filled phial of the desired essentia to lock it to that type.\n\nYou can breed them from chaotic and ordered bees.\n\n§3You can also place up to 9 drainers beneath a single alveary as long as the blocks at the bottom are plain alveary blocks.",
       "globalShare:1": 0,
       "icon:10": {
@@ -40,6 +48,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Essentia",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

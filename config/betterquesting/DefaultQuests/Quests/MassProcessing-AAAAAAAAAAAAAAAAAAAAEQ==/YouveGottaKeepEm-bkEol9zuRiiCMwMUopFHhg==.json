@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "When you need to polarize magnets or separate magnetic materials, look to the MFE! This multiblock requires an electromagnet to be inserted into its housing - better magnets, better bonuses. In IV, you\u0027ll be stuck with an Iron Electromagnet, though.\n\n[note]At the final tier of electromagnet, you can use TecTech multi-amp hatches. Might be good to remember when you\u0027re processing a certain magnetic material...[/note]",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +28,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§9§lYou\u0027ve Gotta Keep \u0027Em Separated",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

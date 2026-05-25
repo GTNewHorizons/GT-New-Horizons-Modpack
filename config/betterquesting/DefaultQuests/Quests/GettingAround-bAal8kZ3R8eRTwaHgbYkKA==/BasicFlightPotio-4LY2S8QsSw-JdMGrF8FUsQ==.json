@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Tired of jetpacks? Want normal flight with no strings attached? Look no further!\n\nUsing your brand new MV Assembler and a Chicken Trophy, you can craft a basic Potion of Flight from Blood Magic, giving you 7 minutes of Creative flight with 8 uses before you have to make a new one.\n\n[note]Chicken Trophies are a rare drop from killing chickens.[/note]\n\n[note]Once you unlock Blood Magic, you can craft your own Flight Potion Flasks with a duration of up to 19 minutes, and refill them with any Filling Agent in an Alchemic Chemistry set.[/note]",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +28,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Basic Flight Potion",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

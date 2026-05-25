@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Well get ready for a processing line.\n\nFirst you need to react Thorium Dust with Hydrofluoric Acid and eight buckets of Nitric Acid. I hope you have a Nitric Acid setup.\n\nThen react the Thorium Nitrate with Sodium Hydroxide to produce Thorium Hydroxide. Then react with even more Hydrofluoric Acid to get Thorium Tetrafluoride.\n\nThen pump it into a Centrifuge to separate the normal Thorium away from the Thorium 232. Sadly it is still in a liquid form so you will need to blast it with Zinc Chloride and Calcium.\n\nThen finally use your Blast Furnace again for the Zn-Th alloy ingot to separate the Zinc from the Thorium 232 to obtain the Thorium 232 Dust and even get your Zinc back in fluid form.\n\nWell I hope you enjoyed the processing line for Thorium 232 EBF edition.",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +28,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§9§lLong term planner?",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

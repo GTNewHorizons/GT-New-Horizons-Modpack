@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "In this pack you have to first gain expertise in Thaumcraft to craft the Tinker\u0027s Construct Ball of Moss. Go and become a dangerous wizard, and you\u0027ll gain the power needed to craft the Ball of Moss and make your tools heal themselves. Of course, you need to get to the Twilight Forest and get some aluminium ingots before you can begin. The Ball of Moss is in the GTNH tab of the Thaumonomicon, and requires infusion. There are many other great things in the Thaumonomicon, but be wary of warp.\n\nHave a beer to prepare for your long journey.",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§a§lNo Self-Healing Tools Here...Yet",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

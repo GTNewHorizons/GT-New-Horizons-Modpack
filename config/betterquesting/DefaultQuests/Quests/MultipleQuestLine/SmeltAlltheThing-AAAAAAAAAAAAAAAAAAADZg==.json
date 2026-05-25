@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Smelting up to eight items at once sound nice? With a bit of bronze \u0026 steel you can make a §5§lSteam Hearth§r for all your furnace needs!\n\nAside from having §2§l8x§r the parallels and §2§l25%§r more speed, it\u0027s also significantly less steam intensive (per parallel) than the High Pressure Steam Furnace. Not only that, but depending on your input you can further increase your speed bonus by taking advantage of two special modes: §cBlasting§r and §9Smoking§r.\n\nIn §cBlast Mode§r, the Steam Hearth will smelt at §2§l2x§r speed \u0026 use §4§l2x§r steam for all §nmetals§r, just like with the §5EFR Blast Furnace§r. \n\nIn §9Smoke Mode§r, the Steam Hearth will smelt at §2§l2x§r speed \u0026 use §4§l2x§r steam for all §nfood-based recipes§r, just like with the §5EFR Smoker§r.\n\nUpgrading this multiblock to its §6High Pressure§r variant also gives §2§l2x§r speed \u0026 §4§l2x§r steam usage.\n\n[note]You can use a screwdriver to quickly swap between modes on the machine![/note]",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§c§lSmelt All the Things...",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

@@ -12,6 +12,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "The output you\u0027ll get the most of, in the Fermented Biomass DT, is Methane. 6/10 of the input amount will become Methane, and this makes for the best choice for powering your powergen, even if other outputs can also serve as fuel options. It\u0027s important to remember that Methane is used in several important chemical lines, such as PTFE and Silicone Rubber, but you\u0027ll get much more of it than you need for those purposes.\n\nThe Methane you get from one DT can power it 4 times. Using 1/4 of your power there, you can fuel the singleblock machines you\u0027re using, and the wood automation source as well if you feel like it. Regardless, this setup should fuel itself just fine.",
       "globalShare:1": 0,
       "icon:10": {
@@ -24,6 +32,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Methane Stinks",
+      "particle_count:3": -1,
       "questLogic:8": "OR",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

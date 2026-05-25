@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Now that you\u0027ve stolen the food from your harmless neighbors, or found it in nature like a considerate person, you must now plant these carrots onto crop sticks. Wait until the crop is §3fully grown§r and left-click it for the best chance to obtain the seeds.\n\nNo, the undomesticated Wild Carrot won\u0027t work. What are you, a rabbit?",
       "globalShare:1": 0,
       "icon:10": {
@@ -24,6 +32,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Carrot Stock",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

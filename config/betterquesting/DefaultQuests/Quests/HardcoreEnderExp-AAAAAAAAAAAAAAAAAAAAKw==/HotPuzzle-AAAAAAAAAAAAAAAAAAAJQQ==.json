@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Some of the islands have a Dungeon Puzzle inside them, usually nearby the surface and with a small cave leading to it. The dungeon consists of special blocks which the player can interact with by throwing Igneous Rock, causing a chain reaction during which the lit blocks will become unlit, unlit blocks will become lit and the walls will propagate the reaction into adjacent blocks.\n\nOnce all of the blocks are lit, a Fire Fiend is spawned below. It will make his way to the surface, breaking the dungeon in the process.",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Hot Puzzle",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

@@ -12,6 +12,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "With Shirabon now acquired, you can finally create catalysts to use in your Tier 4 QFT.\n\n[note]These are extremely expensive, you may want to look into DTPF convergence, and faster means of creating Metastable Oganesson before you can make many of these.[/note]",
       "globalShare:1": 0,
       "icon:10": {
@@ -30,6 +38,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§c§l§nTier 4 QFT Catalysts",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

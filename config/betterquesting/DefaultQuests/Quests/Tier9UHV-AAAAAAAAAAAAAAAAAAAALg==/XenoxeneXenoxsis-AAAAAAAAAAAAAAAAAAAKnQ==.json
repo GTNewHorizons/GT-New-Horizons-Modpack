@@ -12,6 +12,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "To make the next tier plastic, Radox, or the next tier of SMDs, you will need Xenoxene.\n\nGetting the Xenoxene Xenoxsis culture is a bit tricky. The recipe is similar to the General Purpose one. Remember that all recipes in this chain are low probability recipes.\n\nYour first step is to make the Barnardafis culture, then the DNA Sample, and then the Data Orb. If you didn\u0027t grab the saplings and dirt previously (to grow more trees for logs), head back to Barnarda C.\n\nUse the same recipe as for the General Purpose one, but use the Data Orb for Barnardafis instead of Common Yeast. You should get the Barnardafis Plasmid.\n\nAgain, it\u0027s the same recipe for the next step, but with the TCetiEis Fucus Serratus culture and the Barnardafis Plasmid, this should produce the Xenoxene Xenoxsis culture. It\u0027s a 7.5% chance.\n\nYou should probably use the normal alternative recipe to make more cultures, since it\u0027s easy to fail copying it too.\n\nYou should be able to figure out yourself how to make Xenoxene once you have the culture.\n\n[note]After many years, the transformation recipe now even has NEI support![/note]",
       "globalShare:1": 0,
       "icon:10": {
@@ -46,6 +54,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§4§l§nXenoxene Xenoxsis",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

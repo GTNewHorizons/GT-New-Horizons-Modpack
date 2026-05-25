@@ -16,6 +16,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Automate your bee, sapling, or crop scanning. For crops, this is the only real way to find the crop\u0027s stats until you can craft the Portable Scanner, which needs HV circuits that you can make in the next tier.\n\nLater on, this machine gets very useful for scanning high tier machine parts for the assembly line research data or to fill data orbs with data for UU-Matter production. Data sticks with raw prospecting data need a scanner too.",
       "globalShare:1": 1,
       "icon:10": {
@@ -29,6 +37,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§2§lScanning Bees, Crops and Moooooore!",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

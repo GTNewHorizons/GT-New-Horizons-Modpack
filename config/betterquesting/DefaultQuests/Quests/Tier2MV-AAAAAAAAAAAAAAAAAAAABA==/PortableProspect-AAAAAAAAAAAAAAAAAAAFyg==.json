@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Now that you have some tech, you\u0027ve discovered a way to prospect for ores.\n\nUnfortunately, the tech to make it repairable or rechargeable doesn\u0027t work, so you\u0027ll have to make a new one each time it breaks. It does work better at higher tiers and lasts longer with better materials.\n\nIt doesn\u0027t make a convenient book like the Seismic Prospector, but you can look at the results of scanning on the map, thanks to Visual Prospecting.\n\nIt can be hard to choose a good material for the Basic Prospector. Here are some good choices for you in their respective tiers, the size searched, and the average amount of veins they can scan:\n\nLV Vanadiumsteel 3x3 - 50\nMV Vanadiumsteel 3x3 - 213\nHV Vibrant Alloy 5x5 - 299\nEV Shadow Metal 7x7 - 1080\nIV Oriharukon 7x7 - 2649\n\nAs you can see, the prospectors become better and better with each tier, but it might also be worth looking around for better materials.\n\nGood luck.",
       "globalShare:1": 1,
       "icon:10": {
@@ -28,6 +36,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§6§lPortable Prospecting Tool",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

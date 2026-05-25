@@ -12,6 +12,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Forged from the blood of an ageless dragon, and melded together by the power of fusion beyond what you thought was the reality. No natural element, or combination of elements, could match up to this glowing orange material, not even the Awakened Draconium you got your hands on before.\n\nWhat is this blood made of?\n\nWhat truly happened inside that Mk4 Fusion Reactor? What §ois§r this material? It moves on its own, moving as if it is made of slime, however it is boiling to the touch. Despite moving as if it is soft and squishy, Hypogen is hard to the touch and is incredibly hard to cut or work. It feels out of this world, and it is obvious to you what needs to be done with it.\n\nWhat were they feeding these dragons?\n\nIt absorbs and radiates energy without any effort, but it would be stupid to attempt making coils out of this without assistance. Wetware wasn\u0027t good enough anymore, and only the most advanced living circuit could withstand the erratic behavior Hypogen demonstrates.\n\nProvides 12601K heat. Almost certainly, this will end up on your DTPF.",
       "globalShare:1": 0,
       "icon:10": {
@@ -24,6 +32,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§9§l§nHypogen Coil Upgrade",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

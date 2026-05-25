@@ -12,6 +12,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Building a smeltery from the ground up can be really tedious and time consuming. How about borrowing one from the locals? They will surely be happy to share it with an unfriendly adventurer that just dismantled their bricked railway station.\n\nThe villagers are so dumb that they spent all their seared bricks without adding a few key components like faucets or drains. You still need to craft some smeltery bricks yourselves...\n\nTotally not useful tip: if you hold off building this long enough, you will be able to break down seared brick blocks into seared brick items with a forge hammer or extractor.\n\n[note]Unfortunately, going down this path means we will not give you quest rewards, since you are already getting this important multiblock for free. Check the checkbox to signify your consent.[/note]",
       "globalShare:1": 0,
       "icon:10": {
@@ -24,6 +32,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§6§lYou Are Not Prepared... But They Are",
+      "particle_count:3": -1,
       "questLogic:8": "XOR",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

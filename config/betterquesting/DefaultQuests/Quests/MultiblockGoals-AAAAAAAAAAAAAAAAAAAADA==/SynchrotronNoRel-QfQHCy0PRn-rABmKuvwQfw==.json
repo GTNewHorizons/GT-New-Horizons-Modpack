@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "To actually produce some light for photolithography, you\u0027ll need to accelerate your electrons in a Synchrotron. Like with the LINAC, providing it with coolant is necessary to keep it running.\n\nYou can increase the energy of the produced photons by increasing EU/t, or increasing the tier of all four Antenna Casings inside.\n\nTo improve focus, you can use a better coolant, and the output amount increases with both EU/t and antennae tier.\n\nYes, you need all four energy hatches.",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +28,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§6§lSynchrotron (No Relation to the Catalyst)",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

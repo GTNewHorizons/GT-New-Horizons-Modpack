@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "After obtaining a DNA Sequence with the gene that you wish, it must be placed in the Sequencer. This uses Fluorescent Dye to determine the correct sequence, and when completed, logs the discovery. The important thing here is that §nthe discovery goes to the person who placed the machine.\n\n§rThis process takes §l16 minutes§r! If the gene has been passed through a Polymeriser beforehand, it\u0027ll speed it up to only 4 minutes. You could also hug the machine with World Accelerators in Tile Entity mode to speed it up further.\n",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Sequencer",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

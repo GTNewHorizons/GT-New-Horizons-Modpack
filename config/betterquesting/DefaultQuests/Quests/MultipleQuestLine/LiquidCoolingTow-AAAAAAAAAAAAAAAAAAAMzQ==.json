@@ -12,6 +12,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "With your newfound ability to manipulate spacetime you have found a way to sustain cosmically low temperatures. It is now possible to make an even better cooling unit. A casing able to keep its room temperature very low and nanites which can transfer heat effectively because of their small bodies. You will still need coolant, though water won\u0027t cut it any longer given its high freezing point. If only there was some kind of super... coolant...\n\nThe §5Tier 2§r Coolant Tower now allows for a §24x§r Speed boost for the same §c4x§r EU cost, making it possible to speed through recipes much quicker. It requires §910 L/s§r of §nSuper Coolant§r to operate while running.\n\n[warn]This upgrade is incompatible with its lower tier predecessor.[/warn]",
       "globalShare:1": 0,
       "icon:10": {
@@ -24,6 +32,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§c§l§nLiquid Cooling Tower Tier 2",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

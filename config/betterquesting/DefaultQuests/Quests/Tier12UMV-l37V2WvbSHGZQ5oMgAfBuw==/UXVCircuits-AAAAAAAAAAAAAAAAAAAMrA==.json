@@ -25,6 +25,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Quantum Circuits, another upgrade of Optical Mainframes and Pico Circuits. These UXV circuits will be required for lots of future crafts.\n\r\n[note]You will need your Pico Circuit NAC to get started.\n\nDid you know all special circuits contribute to the calibration?[/note]\r\n\n\r\n[warn]Rumor has it these circuits may not be around for much longer... \n\nMaybe do not trust rumors...[/warn]",
       "globalShare:1": 0,
       "icon:10": {
@@ -37,6 +45,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§c§l§nUXV Circuits",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

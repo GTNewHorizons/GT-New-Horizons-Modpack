@@ -12,6 +12,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Why walk when you can teleport? This upgrade to the staff of traveling can move you even further, even faster, and will never run out of energy.\n\nRight-click:\n * If targeting a travel anchor: teleport to it, 2048 range\n * If looking at a block: teleport to it, 512 range\n * If no block in range: teleport forward, 64 range\n * If looking at a block within 4 range: teleport to the other side of a wall, 16 range\n * No cooldown\n\nShift-right-click:\n * Same as right-click, but ignoring travel anchors\n * Travel anchors will be hidden from view while holding shift\n\n[note]Tip: You won\u0027t be able to see travel anchors that are far away, but can still teleport to them if they are in range and chunk-loaded. Try using JourneyMap waypoints to mark anchors![/note]\n\n[note]Note: The right-click and shift-right-click actions are fully configurable. Check the EnderIO Staff Settings configs!\nConfig action values:\n 0: Do nothing\n 1: Teleport to look / forward\n 2: Teleport to anchor\n 3: Teleport to anchor, or to look / forward if no anchor[/note]",
       "globalShare:1": 0,
       "icon:10": {
@@ -27,6 +35,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Travelocity²",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

@@ -12,6 +12,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Stainless Steel ingots are made in the Electric Blast Furnace at a temperature of 1700K.\n\nIt takes 85 seconds at 480 EU/t or 60 seconds at 480 EU/t by adding Oxygen gas. Always add a gas if you can, you\u0027re saving tons of power by doing so, and you\u0027re gonna need a TON of SS. The Cracker, Large Steam Turbine, and Distillery Tower all need huge amounts of SS. A single DT uses several stacks, and you\u0027re gonna want more than just one.",
       "globalShare:1": 1,
       "icon:10": {
@@ -25,6 +33,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§6§lStainless Steel EBF processing",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

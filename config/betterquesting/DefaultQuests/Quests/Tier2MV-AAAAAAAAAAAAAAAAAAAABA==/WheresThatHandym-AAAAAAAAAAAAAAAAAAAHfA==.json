@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "A Needs Maintenance cover will send out a redstone signal when the controller it\u0027s attached to requires maintenance. This is handy for the cleanroom you\u0027ll need to build in HV, since maintenance issues reduces cleanliness level and will cause voided materials.\n\nFor the cleanroom you can place this on the top or bottom. For other machines you might want to place it on the side so you can have access to the front face. In that case, you can use a soldering iron and fine solder to have it emit a strong redstone signal that will penetrate through a block next to the cover.",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§6§lWhere\u0027s That Handyman When You Need Him?",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "You\u0027ll need Neutronium for UV and the T7 rocket, so let\u0027s make some.\n\nTo get Neutronium, go to one of the planets that has the small ores. Then mix it with Helium Plasma to make Raw Neutronium Dust. It can be smelted in a Blast Furnace at 9000K and 491,520 EU/t. This recipe takes a long time and a lot of power. Better make another EBF or Volcanus. Or a few. Or upgrade your Mega Blast Furnace.",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +28,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§b§lWasn\u0027t This Only Found in the Center of Neutron Stars?",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "The Slimeling is a utility mob that spawns from Slimeling Eggs found on the surface of Mars. It shares some features from vanilla wolves and mules: it can be tamed and attacks mobs that threaten its owners, and can be equipped with a special chest to transport items.\n\nAs an allied mob, Slimelings will actively help and follow the player-owner and will attempt to protect them. They can also have a neutral behavior, that is, they can attack if provoked or hurt by non-owners.\n\nItems that you can feed Slimelings with:\n\nBoat\nCooked fish\nGunpowder\nGold ingot\nRedstone repeater\nWooden door\n\nSlimelings can be equipped by their owners with a Slimeling Inventory Bag to transport items.\n\nTo complete this quest get any one of the eggs - note you may need a Heavy Duty Pickaxe.",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Slimeling",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

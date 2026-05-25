@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Just in time for the huge number of crystal rods you\u0027ll need to get your Applied Energistics system up and running, the Industrial Precision Lathe!\n\nThe number of recipes that can be processed in parallel by the IPL depends on the item pipe casing.\n§9(Parallel \u003d Item Pipe Casing Tier * 8)§r\n\nAdditionally, it has 4x the speed on all recipes compared to the singleblock of that voltage and only consumes 80% of the EU/t normally required",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +28,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§8§lSee You Lather",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

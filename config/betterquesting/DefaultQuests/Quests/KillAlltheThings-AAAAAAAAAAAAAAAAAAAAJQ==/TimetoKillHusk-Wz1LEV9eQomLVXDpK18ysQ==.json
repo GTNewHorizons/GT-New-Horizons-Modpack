@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "A Husk is a variant of Zombie that spawns in deserts! They attack like Zombies, except they inflict hunger and refuse to burn in the sunlight.",
       "globalShare:1": 0,
       "icon:10": {
@@ -20,6 +28,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Time to Kill (Husk)",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": 432000,
       "repeat_relative:1": 1,

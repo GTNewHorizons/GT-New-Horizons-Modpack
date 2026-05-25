@@ -8,6 +8,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "At EV you\u0027re able to make Indium. Indium cannot be found in Ore form [note](except in super small amounts on Ross)[/note].\n\nFirst you need to make Indium concentrate out of purified galena and sphalerite ore, then mix in some aluminium to get Indium. Indium is used in large amounts later on, automate this ASAP.\n\nYou also get lead, zinc, silver, sulfur, and water back from the lead-zinc solution. So it\u0027s not like you don\u0027t get the materials from the ores at all, just less of them.",
       "globalShare:1": 1,
       "icon:10": {
@@ -21,6 +29,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§8§lIndium",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

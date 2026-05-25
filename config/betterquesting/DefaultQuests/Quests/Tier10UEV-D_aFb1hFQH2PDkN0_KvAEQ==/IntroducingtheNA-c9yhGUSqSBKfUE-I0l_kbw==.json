@@ -13,6 +13,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "You\u0027ve gotten this far, you know the drill. You\u0027ve made more circuits than you can count, but what if that isn\u0027t enough? It\u0027s time to stop scaling the old way, and start manufacturing like the late game engineer you are.\n\nThe Nanochip Assembly Complex isn\u0027t just a fancier CAL or Assembly Line - it is the core of your entire operation. For the low price of a small craft* for your machines to chew on, you can be the proud owner of the latest innovation in circuit crafting technology! \n\n§oNote*: \"Small craft\" may not accurately reflect the state of your industrialization and the company holds no accountability or liability for professional mishaps like \"that\u0027s way too much UHV Superconductor\" or \"we need to scale our HILEs yesterday\"§r\n\n§oNAC™ sold as-is. Functionality available via separately crafted modules",
       "globalShare:1": 0,
       "icon:10": {
@@ -25,6 +33,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "§5§l§nIntroducing the NAC§r§5§n™§r§5§n§l",
+      "particle_count:3": -1,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,

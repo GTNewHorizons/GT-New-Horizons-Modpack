@@ -13,6 +13,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
       "desc:8": "Nanosuit Boots of the Traveller provide all the benefits of the Nanosuit, plus a massive speed boost, higher jump, and improved Vis Discount. These are the perfect boots for the master magical engineer.\n\n[note]If you want to advance in the dark arts you can also make them voidwalker boots.[/note]",
       "globalShare:1": 1,
       "icon:10": {
@@ -29,6 +37,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Walk all over you",
+      "particle_count:3": -1,
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,
