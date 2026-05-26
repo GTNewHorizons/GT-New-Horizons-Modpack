@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "...the whole world looks like a nail. \n\nWhen looking for good tool materials, see \"GregTech Material Tools\" tab in NEI. Remember that NEI bookmarks are your friends.\n\nThe GT tools each have special uses.\n\n§lScrewdriver§r - Used on covers to change their behavior or on machines to change their input mode.\n\n§lWrench§r - Used to change the output direction on a GT machine, or to break it. Can also disconnect/connect pipes or enable their built in shutter.\n\n§lCrowbar§r - Remove covers from machines or pipes.\n\n§lWire cutters§r - Connecting/disconnecting/breaking wires/cables.\n\n§lSoft mallet§r - Turning machines on/off.\n\n§lHammer§r - Prospecting for ores in a limited way in front of you, smashing ore blocks into crushed ores, and muffling machine sounds.\n\n§lPlunger§r - Drain fluids from a machine or tank\n\n[note]On a side note, Tin Pipes need a Steel Wrench to dismantle, so don\u0027t place them randomly, and pay attention to material levels![/note]",
       "globalShare:1": 1,
       "icon:10": {

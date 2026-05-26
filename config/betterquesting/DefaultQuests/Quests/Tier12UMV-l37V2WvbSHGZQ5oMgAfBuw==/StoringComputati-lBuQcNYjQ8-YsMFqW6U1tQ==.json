@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "Wireless Computation is similar to Wireless Data, Cloud Computation Server Hatches send computation to Cloud Computation Client Hatches, which other multiblocks can use.\n\nPlace down a Server Hatch on a Quantum Computer, screwdriver the controller to enable Wireless Mode, then after placing down a Client Hatch, you have to set how much computation it should request from the Server Hatch.\n\n[note]These Cloud Computation Hatches are N:M (Many:Many)[/note]",
       "globalShare:1": 0,
       "icon:10": {

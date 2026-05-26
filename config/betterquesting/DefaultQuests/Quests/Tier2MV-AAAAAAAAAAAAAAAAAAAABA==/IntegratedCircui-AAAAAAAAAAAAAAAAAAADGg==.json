@@ -20,6 +20,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "In order to make HV machines, you need HV circuits. The first one you can make is the Advanced Circuit from IC2. You\u0027ll need to make LV circuits to make MV circuits to make the HV circuits. Yay for recursive crafting! Start with the LV Integrated Logic Circuit. And no, you can\u0027t use the IC2 Electronic Circuits.",
       "globalShare:1": 1,
       "icon:10": {

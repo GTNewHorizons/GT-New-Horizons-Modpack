@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "A feat of human engineering at your disposal!\n\nThis machine allows you to filter by machine recipe type and allows you to effortlessly set up automations. To use it simply put a machine of any type into the GUI to create a filter, e.g. a Macerator will allow the machine to only accept items that can be macerated. The same machine can be used to create an inverse filter (a button in the GUI) that will allow you to exclude all items that can be processed by that machine.",
       "globalShare:1": 1,
       "icon:10": {

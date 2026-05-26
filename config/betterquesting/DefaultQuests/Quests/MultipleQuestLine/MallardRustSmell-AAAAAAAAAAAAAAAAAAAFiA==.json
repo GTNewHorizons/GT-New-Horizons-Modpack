@@ -20,6 +20,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "Or is it Alloy Blast Smelter? Well, that makes more sense. This multiblock creates the higher tier alloys needed for more advanced multiblocks and your soldering needs. It directly smelts ingredients into liquids. You can even melt down metals like Tungsten faster too! Until you get better coils for your EBF at least.\n\n[note]Most of the multiblocks you can now make are optional, but quite powerful upgrades to your current singleblock setups. Not only do they provide more speed, they also have a bit of advanced functionality: you can also electrolyze materials without using cells or use a single multiblock for many different extruder shapes. They also act as cleanrooms where needed.[/note]",
       "globalShare:1": 1,
       "icon:10": {

@@ -24,6 +24,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "The Wand Focus: Shadowbeam shoots a beam of dark energy that is reflected by any block and damages everything it passes through. The beam travels about 40 blocks and does about 100 damage.\n\n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]\n§5Frugal§r: Lowers vis cost to cast by 10% per level\n§5Potency§r: Increases damage dealt every level",
       "globalShare:1": 1,
       "icon:10": {

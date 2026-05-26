@@ -20,6 +20,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "Need large amounts of chiseled blocks? This is the machine for you.\n\nIt is recommended to use the Chisel Bus for automation, as it allows you to define recipes for multiple block types without needing to manually swap them in the controller, unlike the standard Input Bus.",
       "globalShare:1": 1,
       "icon:10": {

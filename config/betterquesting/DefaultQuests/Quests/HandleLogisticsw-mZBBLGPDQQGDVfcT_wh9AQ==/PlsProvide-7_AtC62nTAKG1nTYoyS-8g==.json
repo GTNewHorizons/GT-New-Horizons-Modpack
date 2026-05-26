@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "Just like items which have itemsink modules for storage and provider modules for request, fluids have basically the equivalent pipes.\n\nThe Logistics Fluid Provider Pipe will do the job. It will provide the fluid to other pipes and machines connected to them that need the fluid.",
       "globalShare:1": 0,
       "icon:10": {

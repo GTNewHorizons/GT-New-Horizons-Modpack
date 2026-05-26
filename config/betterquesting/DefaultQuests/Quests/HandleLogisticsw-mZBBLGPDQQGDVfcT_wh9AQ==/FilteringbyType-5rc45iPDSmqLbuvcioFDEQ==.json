@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "There are situations where there are a large amount of the same type of items, but the quantity of each aren\u0027t large enough to get them dedicated storage...\n\nThe Type Filter ItemSink Module can assign an item type to inventory space it is connected to. All items of the same type will be assigned to that inventory space.",
       "globalShare:1": 0,
       "icon:10": {

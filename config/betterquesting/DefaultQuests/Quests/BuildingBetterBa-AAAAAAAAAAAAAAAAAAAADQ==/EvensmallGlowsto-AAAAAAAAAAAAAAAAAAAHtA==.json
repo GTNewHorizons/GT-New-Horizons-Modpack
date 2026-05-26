@@ -24,6 +24,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "Now that you\u0027ve been to the nether and gathered Glowstone, you can use that for light as well. You can color it to make the block color change (unfortunately 1.7.10 does not support colored lights) or you can use the Forge Microblocks saw to cut it up into tiny nooks to light up areas without taking up much space.\n\nThere are also various glowing plants you can find or breed, such as glowflowers.",
       "globalShare:1": 1,
       "icon:10": {

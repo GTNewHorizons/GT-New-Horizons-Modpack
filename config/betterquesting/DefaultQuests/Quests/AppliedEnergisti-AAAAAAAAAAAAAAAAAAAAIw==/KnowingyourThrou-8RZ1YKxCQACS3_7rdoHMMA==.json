@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "[quest]ME Throughput Monitor[/quest]\n\nThe ME Throughput Monitor will show the speed of items entering your network.\n\nClicking with an item will add it to the monitor.\n\nUse a §aWrench§r to lock the monitor\n\nWhen the monitor is locked, use §cShift+Right Click§r to change the measured time frame. \n\nModes: \n\n§6Per Tick\nPer Second\nPer Minute\nPer Hour",
       "globalShare:1": 0,
       "icon:10": {

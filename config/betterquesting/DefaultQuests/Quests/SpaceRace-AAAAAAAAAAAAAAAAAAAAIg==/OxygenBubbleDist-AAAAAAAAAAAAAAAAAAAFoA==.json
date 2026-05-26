@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "The Oxygen Bubble Distributor takes oxygen from the Oxygen Collector, and makes an oxygen bubble providing an area to safely breathe in without needing Oxygen Gear. The bubble is a sphere surrounding the distributor and will go through walls (or any block). Alternatively, you can use an Oxygen Sealer (which needs compressed Desh Plates) to contain oxygen inside a room.",
       "globalShare:1": 1,
       "icon:10": {

@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "The Energy Infuser is the tech answer to the Thaumic Restorer for repairing items and also acts a charger.\n\nWhen fed with energy it is able to charge any item that is fed into its Input Bus. Fully charged items will be placed in the Output Bus. The items will be fed with the amount of energy provided by the used Energy Hatch.\n\nApart from its charging capabilities the Energy Infuser can repair items when provided with UU-Matter and energy. However, GregTech tools can not be repaired. When repairing the machine consumes 1L UU-Matter and 1000 EU per repaired durability point.",
       "globalShare:1": 1,
       "icon:10": {

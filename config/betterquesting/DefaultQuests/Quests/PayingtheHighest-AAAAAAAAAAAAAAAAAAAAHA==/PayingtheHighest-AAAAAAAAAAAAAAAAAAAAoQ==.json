@@ -28,6 +28,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "When regular magic just isn\u0027t enough, you need something... stronger. Which is paid with blood. Your blood, and maybe others\u0027.\n\nIn tier 1 you only need to place the blood altar. Plan for the configuration to grow in size up to 23x23 for a single altar.\n\nKeep in mind that you get less blood, and use more when crafting in GTNH. Plan for pain and frustration too.\n\nThe altar has a 10,000L blood tank, plus a 1,000L I/O buffer (you can pump in and out, but the rate is pitifully low at the start). Blood will flow to the I/O buffer until it\u0027s full, so be aware of that before your first craft.",
       "globalShare:1": 1,
       "icon:10": {

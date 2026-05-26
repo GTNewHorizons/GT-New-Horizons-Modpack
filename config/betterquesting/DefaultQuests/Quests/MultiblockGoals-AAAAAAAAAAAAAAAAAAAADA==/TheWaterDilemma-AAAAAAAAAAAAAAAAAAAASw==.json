@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "Finite water is a problem. But fear not, there are solutions! I shall guide you to a steady supply of water. The Railcraft water siding tanks provides enough water to last the early game.\n\nThe humidity of a biome is very important and will increase the base fill rate. If it is raining, the tank will fill much quicker. One block of the water siding tank must see sky for the maximum output. The best part is that you don\u0027t need a pump to extract water. Tanks and pipes placed next to it will be autofilled by the water siding tank.",
       "globalShare:1": 1,
       "icon:10": {

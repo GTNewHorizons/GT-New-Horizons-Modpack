@@ -20,6 +20,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "Every system takes power. A Logistics Pipes network is no exception.\n\nThe Logistics Pipes system runs on an energy called LP, but there are no generators that generate LP.\n\nInstead, Logistics Pipes has a power adapter called the Logistics Power Junction that converts EU into LP. Use a Basic Logistics Pipe to connect the Power Junction to the whole network.\n\nThe Power Junction can receive power from all 6 sides while a Basic Logistics Pipe can only connect to the sides in the 4 cardinal directions.",
       "globalShare:1": 0,
       "icon:10": {

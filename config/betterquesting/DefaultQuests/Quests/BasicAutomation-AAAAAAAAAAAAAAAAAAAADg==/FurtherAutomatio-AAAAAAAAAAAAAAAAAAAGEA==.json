@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "If you want to load and unload a lot of different items from your cargo manager the pipes can get quite messy. The external distributor is a block you can place next to your cargo manager and it will help you to access different slots which you can specify in its GUI. Quite handy for pumping items in and out!",
       "globalShare:1": 1,
       "icon:10": {

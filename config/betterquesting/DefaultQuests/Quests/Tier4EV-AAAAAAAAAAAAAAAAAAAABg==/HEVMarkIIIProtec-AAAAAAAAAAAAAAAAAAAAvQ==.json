@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "Some items will give you a Radiation debuff without protection. How long it lasts depends on the item. Some items will give you an enormous or unlimited time debuff timer, which effectively kills you because there\u0027s no way to get rid of it.\n\nOther items will give you a general sickness with many debuffs, but not Radiation. That can be removed the normal ways, Milk, Terrawart, Aqua bees, etc.\n\nIf you wear a Hazmat suit (and rubber boots!) you are not affected by radioactive effects at all. Same for some other armors that list hazmat protection.",
       "globalShare:1": 1,
       "icon:10": {

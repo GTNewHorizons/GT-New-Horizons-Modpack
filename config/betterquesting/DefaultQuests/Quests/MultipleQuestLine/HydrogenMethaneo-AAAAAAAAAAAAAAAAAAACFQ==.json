@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "Some centrifugal processes leave gases behind like Hydrogen or Methane. Centrifuge some Brown and Yellow Limonite to get Hydrogen or dump your unused food in a Centrifuge to get Methane gas. Wood will even give 60 mb per log, and many other crops will also generate Methane this way.\n\nThe main powergen line that uses this generator is Benzene, but that needs MV tier.\n\nIf you\u0027re dealing with fully renewable powergen, this is the type of generator you\u0027ll use the most.",
       "globalShare:1": 1,
       "icon:10": {

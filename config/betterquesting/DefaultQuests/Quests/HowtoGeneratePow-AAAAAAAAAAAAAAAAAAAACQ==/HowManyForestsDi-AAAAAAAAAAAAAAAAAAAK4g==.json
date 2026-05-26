@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "This is the HV version, with the lowest efficiency so far of 85%. You can offset that by just generating more Benzene, alongside Phenol and Toluene in a Distillation Tower, or use Naphtha instead... You have many options at this point, surely enough to fight the increasing power demands of your automation.\n\nBenzene doesn\u0027t get upgraded in HV, only in EV. You\u0027ll be able to make Nitrobenzene when you\u0027re there, and burn it in some turbines bigger than this one.",
       "globalShare:1": 1,
       "icon:10": {

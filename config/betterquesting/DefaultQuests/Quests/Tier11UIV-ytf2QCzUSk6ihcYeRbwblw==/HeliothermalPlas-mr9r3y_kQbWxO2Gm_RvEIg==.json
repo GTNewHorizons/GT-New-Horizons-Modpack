@@ -21,6 +21,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "As understanding of graviton shards continues to improve, better control over the materials they manipulate can be achieved. Graviton shards provide an alternative to electromagnetic containment of plasma using spacetime manipulation instead, allowing the Forge to directly output processed materials as plasma.\n\n[note]The third module of the Godforge, Heliothermal Plasma Fabricator can directly convert materials into their plasma form, at the cost of an immense amount of power. This may not be ideal for every plasma, but can save a lot of time on particularly slow ones. Additionally, later upgrades allow the creation of exotic plasmas which cannot be created through other means.[/note]\n\n[note]Usage of this module requires the GPCI upgrade.[/note]",
       "globalShare:1": 0,
       "icon:10": {

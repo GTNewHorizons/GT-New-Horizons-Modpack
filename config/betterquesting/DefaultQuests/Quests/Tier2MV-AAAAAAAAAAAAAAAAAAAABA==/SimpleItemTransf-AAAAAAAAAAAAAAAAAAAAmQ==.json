@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "Translocators can only transfer items over a distance of 1 block. But they\u0027re quite cheap, and a good solution to building compact machine setups. They include a free simple item filter which can be enabled on the input or output side. And they support multiple inputs and outputs! Glowstone will make it transfer faster - try investigating other upgrades.",
       "globalShare:1": 1,
       "icon:10": {

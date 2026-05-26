@@ -20,6 +20,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "This Processor allows you to craft 256k, 1024k, 4096 and 16384k Fluid Storage Components.\n\nThese Components need to be paired with Advanced Fluid Storage Housings to turn them into Fluid Storage Cells.",
       "globalShare:1": 0,
       "icon:10": {

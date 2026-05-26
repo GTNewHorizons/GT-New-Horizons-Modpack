@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "Eventually, the previous nukes will not be big enough. You can make more of them, to get more power, but it\u0027s clear that you need something bigger. Bigger, literally. The next step in nuclear fission starts with a bigger multiblock, built on top of the original nuke. By surrounding it with a 5x5x5 cube of Reactor Pressure Vessels, it will become a different type of multiblock, the fluid nuke.\n\nAfter doing this, there\u0027s no direct EU generation anymore. The main output of a working fluid nuke is Hot Coolant, a fluid that can be turned into Steam or Superheated Steam in another multi, the Large Heat Exchanger (LHE). Steam means power, as you already know, so the obvious chain of processes here is a fluid nuke into an LHE, and then into Steam Turbines. These added steps are required to make EU from a nuke of this type, for a larger than a regular nuke\u0027s output with the same amount of fuel.\n\nThe difference exists because regular nukes actually have a 50% penalty to EU/t. Additionally, for this, you have the option to use Thorium as fuel and still get a good amount of power, instead of Uranium! What you will need are the fluid nuke blocks, but there is an optional task for this setup that only needs some blocks from the setup.",
       "globalShare:1": 0,
       "icon:10": {

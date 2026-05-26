@@ -20,6 +20,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "After you link up the wireless terminal in the ME security terminal, it grants portable access to the ME network. Put it into a charger to recharge it.\n\nHolds 1.6m AE in its battery and drains 1 AE/t for each block you are away from the nearest ME wireless access point.\n\nCharge your Wireless Terminals (and the successors) with an EIO Wireless Charger if you don\u0027t want to wait a century for them to charge.",
       "globalShare:1": 1,
       "icon:10": {

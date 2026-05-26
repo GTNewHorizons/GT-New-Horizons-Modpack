@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "The Wand Focus: Shock will shoot a bolt of lightning. It homes in slightly to the nearest mob/player from where it is aimed. It is even fast enough to hit Endermen before they can teleport away!\n\n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]\n§5Frugal§r: Lowers vis cost to cast by 10% per level\n§5Potency§r: Increases damage dealt every level\n§5Chain Lightning§r (level 3): The lightning bolt now arcs to two nearby creatures. Great for dealing with bats from warp!\n§5Earth Shock§r (level 3): The focus now shoots a ball of lightning that leaves the ground electrified\n§5Enlarge§r (requires §5Chain Lightning§r): The lightning bolt arcs to two additional targets per level. Show those bats who\u0027s boss!",
       "globalShare:1": 1,
       "icon:10": {

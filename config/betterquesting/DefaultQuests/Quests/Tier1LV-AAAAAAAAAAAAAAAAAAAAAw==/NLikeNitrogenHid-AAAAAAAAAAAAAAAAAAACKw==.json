@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "You can get some nitrogen by centrifuging... air. This process takes a long time, especially at LV tier.\n\nYou get that air from compressed air cells, which are gotten from running cells through a compressor. Each one contains 2000L, unlike a normal cell that contains 1000L.",
       "globalShare:1": 1,
       "icon:10": {

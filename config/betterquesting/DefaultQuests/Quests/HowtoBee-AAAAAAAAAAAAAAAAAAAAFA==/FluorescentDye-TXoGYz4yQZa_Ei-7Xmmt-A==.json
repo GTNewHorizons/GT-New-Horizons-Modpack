@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "Here is another one requiring ingredients you\u0027ll want to passively generate. The Sequencer needs one (1) Fluorescent Dye per gene it sequences. Each one is made from one of each tossed into a Mixer:\n\n* redstone\n* glowstone\n* orange dye\n* yellow dye\n* molten blaze (from blaze powder)\n\nGiven how many bees you\u0027ll end up sequencing to get all the key genes you want, expect to need at least some hundreds or even thousands of these. Yes, there are only so many actual genes, but you\u0027re going to be hitting duplicates.",
       "globalShare:1": 0,
       "icon:10": {

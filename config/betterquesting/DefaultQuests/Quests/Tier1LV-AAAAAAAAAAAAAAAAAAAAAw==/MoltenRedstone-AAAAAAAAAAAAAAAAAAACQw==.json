@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "You heard that the carpenter needs some molten redstone for a few recipes. Converting redstone dust into a fluid requires a fluid extractor. Let\u0027s build one.\n\nIf you want to get that molten redstone into a cell, you\u0027ll need a fluid canner instead of a GT tank. Why? Because Reasons.\n\nFortunately, most fluids work properly, but redstone, cracked fluids, and certain other ones do not. Or just use a universal cell.",
       "globalShare:1": 1,
       "icon:10": {

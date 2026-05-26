@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "Finally, the oil of the gods. At least, early gods.\n\nDiesel, as a power source, has widely been known as the optimal choice all the way up to EV, when you unlock the ability to make nukes. It can be further upgraded into Cetane-Boosted Diesel in HV, by adding another chemical chain to it, but a fuel value of 480k EU on a fuel that needs so few machines to be made is quite exceptional. It should be automated as soon as possible, to ensure that you won\u0027t run out of power when you need it the most.\n\nAt this stage, you can use either LV or MV Diesel Generators. Using the LV ones will mean you need to make more of them, and more pollution, but they have 95% fuel efficiency compared to MV\u0027s 90%. It\u0027s a difference, but an automated Diesel setup is unlikely to be affected by a 5% change in efficiency.\n\nAs you progress, fuel will become more and more power-dense, but also need more steps automated. The next tier is much harder than this one, so get ready!",
       "globalShare:1": 0,
       "icon:10": {

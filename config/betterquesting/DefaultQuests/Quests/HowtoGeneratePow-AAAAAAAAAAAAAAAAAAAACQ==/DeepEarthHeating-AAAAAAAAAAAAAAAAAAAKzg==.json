@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "With the power of §cgeothermal energy§r, the Deep Earth Heating Pump can heat up Coolant or boil Distilled Water to create an energy source from the Earth\u0027s core.\n\nBy using a Heat Exchanger, you can convert the Hot Coolant into steam and use it in your turbines.\n\nAlternatively, you can make it output Superheated Steam directly, but only at 66% of the efficiency the hot coolant can achieve",
       "globalShare:1": 0,
       "icon:10": {

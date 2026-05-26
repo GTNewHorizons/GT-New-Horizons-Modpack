@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "The ME Annihilation Plane destroys blocks as if you had mined them, and places them into the network. The Identity version acts as if silk touch was used.\n\nThe ME Formation Plane does the opposite, it places blocks into the world. You\u0027ll need to tell it what to place/drop though. This can work in both block and item mode.",
       "globalShare:1": 0,
       "icon:10": {

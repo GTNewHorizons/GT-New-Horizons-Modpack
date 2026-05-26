@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "After you craft your first cart the journey can begin...\n\nWell, not really. You will need some kind of tracks first.\n\n[note]We here at QuestBook, Inc. do not guarantee the usefulness of minecarts or trains in any way. Especially since you can mine out a vein in a single session once you have a hammer and backpacks.[/note]\n\n[warn]WARNING: Unprotected carts can be knocked off their rails by lightning. Cover the area with blocks to prevent carts from disappearing.[/warn]\n\n[warn]Also, make sure to keep your cart in one chunk, or use chunkloaders covering the whole area the cart works within. Loading/unloading chunks may cause carts to disappear or duplicate.[/warn]\n\n[note]You should only make these if you want to have fun with them, as anything they can do is better done by other methods, including the Long Distance Fluid Pipeline. Excessive minecart and train use on servers may cause lag and you may be asked to switch later anyway.[/note]",
       "globalShare:1": 1,
       "icon:10": {

@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "Don\u0027t want to spend your Salis Mundus on Litmus Paper anymore? This device can significantly reduce your Litmus Paper usage!\n\nWhile holding this item, you gain a HUD Icon on the top left of your screen, which tells you how much warp you have. It does not tell you the exact warp values, but it helps you estimate it.\n\nHere\u0027s how to read it:\nYour §5§lPermanent Warp§r is displayed as a dark purple bar\nYour §5Normal Warp§r is displayed as a light purple bar\nYour §dTemporary Warp§r is displayed as a pink bar\n\nThe bar is full at 100 total warp.",
       "globalShare:1": 0,
       "icon:10": {

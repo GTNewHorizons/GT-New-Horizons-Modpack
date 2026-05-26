@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "Pulls items from the inventory it is pointed at and places them into the ME network\u0027s networked storage. You can specify which items it will pull out via the UI, else it tries to pull out any item in the adjacent inventory. The ME import bus will attempt to import any possible options, even if 1 or more of the configured items cannot be stored. This is the functional opposite of the ME export bus.\n\nWhen your machines are very fast, it\u0027s better to have them output directly into an ME interface instead, since that works instantly.",
       "globalShare:1": 1,
       "icon:10": {

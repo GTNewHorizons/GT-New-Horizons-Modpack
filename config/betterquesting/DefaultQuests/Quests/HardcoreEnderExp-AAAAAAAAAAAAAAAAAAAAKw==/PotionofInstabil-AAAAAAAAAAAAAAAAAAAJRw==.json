@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "The Potion of Instability is a special type of potion, which can be brewed by putting an Instability Orb into an Enhanced Brewing Stand with an awkward potion. The brewing process requires End Powder in the stand\u0027s special slot.\n\nUsage:\nAs any other potion, the Potion of Instability can be drunk (or thrown, if it\u0027s a splash potion). Unlike regular potions, this potion gives a random potion effect of random tier and duration to each player it affects. It can also apply potion effects which aren\u0027t available in vanilla potions, such as Jump or Hunger.\n\nTrivia:\nThe item tooltip contains ???, as opposed to a potion effect and duration.\n\nYou can make splash potions with gunpowder and 3 more End Powder as well.",
       "globalShare:1": 1,
       "icon:10": {

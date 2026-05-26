@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "You can control which fields of your farm work by applying a redstone signal to the control block. You can either shut down the whole farm by applying a redstone signal from top or below or you can disable a specific side by applying a redstone signal on the matching side of the control block.",
       "globalShare:1": 1,
       "icon:10": {

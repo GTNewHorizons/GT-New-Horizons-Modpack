@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "Camouflage blocks allow the faces of cable blocks to be made to imitate any other block. This works in the full workflow and thus can be updated on the fly.\n\nPlease note that this block is placed the same as all SFM cables. It does not act as an inventory cable and thus will need to be in an advanced cable cluster in many situations.",
       "globalShare:1": 1,
       "icon:10": {

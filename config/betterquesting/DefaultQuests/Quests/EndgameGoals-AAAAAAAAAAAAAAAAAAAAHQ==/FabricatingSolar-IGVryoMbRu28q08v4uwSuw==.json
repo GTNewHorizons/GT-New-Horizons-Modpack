@@ -20,6 +20,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "As you\u0027ve noticed, UXV components are extremely expensive compared to the amount of Universium you can currently produce.\n\nThe Astral Array Fabricator allows you to run EOH recipes in parallel. You can review the math in the second page of the tooltip.\n\nFor a direct answer, you can use this spreadsheet: [url]https://docs.google.com/spreadsheets/d/1FTFdfmY_UWbTbFOyNzARKeI90pbHvPBH6M3JHJmaC-E/edit?usp\u003dsharing[/url]\n\n[warn]Be aware that the EOH will use Raw Stellar Plasma instead of Hydrogen and Helium if you use Astral Arrays.[/warn]\n\n[note]Make sure you are generating enough power.[/note]",
       "globalShare:1": 0,
       "icon:10": {

@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "The Beam Splitter allows you to sort your particle beams. The LHC produces output particles randomly, and this machine allows you to sort them into different lanes using the Filtered Beamline Output Hatch. It also divides the Amount of any particle packet by the number of valid output spots.\n\n[note]For example, if you set one output to protons and two outputs to electrons, then a mixed input beam (with all particles having an Amount of 100) will be sorted into 3 beams - one of protons (Amount 100) and two of electrons (each Amount 50).[/note]",
       "globalShare:1": 0,
       "icon:10": {

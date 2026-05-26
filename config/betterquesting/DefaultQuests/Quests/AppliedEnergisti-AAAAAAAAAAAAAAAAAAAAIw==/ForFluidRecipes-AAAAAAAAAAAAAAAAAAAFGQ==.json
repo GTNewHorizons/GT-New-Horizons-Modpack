@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "Placing your fluid crafting patterns in a Dual Interface. That will allow AE2 to push the fluids and items both. Note. Fluids are being sent first, then items.",
       "globalShare:1": 1,
       "icon:10": {

@@ -25,6 +25,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "By adding Hydrogen to Sulfuric Light Fuel in a Chemical Reactor you can produce Light Fuel with the very high burn value of 305,000 EU per cell. It is also the main component of Diesel, an excellent fuel that becomes available in MV\n\nThe remaining Hydrogen Sulfide can be used to produce Sulfuric Acid for, well, tons of stuff. You can never have enough of it! You can also crack Light Fuel in a Chemical Reactor and then distill it to get Ethylene, for Polyethylene. But Refinery Gas is better for that.",
       "globalShare:1": 1,
       "icon:10": {

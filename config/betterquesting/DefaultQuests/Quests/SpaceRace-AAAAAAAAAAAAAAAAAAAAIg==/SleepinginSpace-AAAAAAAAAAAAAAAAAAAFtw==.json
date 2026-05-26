@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "The Cryogenic Chamber is used to sleep on other planets and skip long nighttimes. It can be used at any time, even during the daytime, and in any dimension, including the Overworld.\n\nUsing the chamber during the daytime will skip the time to the next sunrise, except on the Asteroids dimension where the Sun is always locked on West.\n\nOnce the player has used the Cryogenic Chamber, there is a 300 seconds cool-down time before he can use the chamber again. Breaking and placing back the chamber or trying to use different chamber will not reset the cool-down time, unless by dying.\n\nThe chamber does not require energy to work.",
       "globalShare:1": 1,
       "icon:10": {

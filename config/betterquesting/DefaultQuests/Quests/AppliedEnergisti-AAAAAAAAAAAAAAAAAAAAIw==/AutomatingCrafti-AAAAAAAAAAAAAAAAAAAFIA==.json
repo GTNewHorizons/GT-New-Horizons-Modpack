@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "Is a component of the crafting CPU multiblock. This particular block provides the CPU with no additional features, but can be used as a \"filler\" block and as a crafting ingredient for the crafting storage, monitor and co-processing units.",
       "globalShare:1": 1,
       "icon:10": {

@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "The endoflame burns combustible materials in order to produce mana. It can efficiently consume fuels with a burn time of up to 64000 per item (equivalent to four blocks of coal); any burn time beyond this will be wasted. Endoflames don\u0027t die like passive flowers do, and are simple to use, so it\u0027s a good idea to make several of them.",
       "globalShare:1": 0,
       "icon:10": {

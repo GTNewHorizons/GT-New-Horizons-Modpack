@@ -21,6 +21,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "A lot of recipes take fluids. But crafting modules only have slots for items...\n\nIntroducing the Fluid Crafting Upgrade. It will allow you to allocate one kind of fluid for the craft. Drag one fluid cell containing the fluid you need into the fluid slot and set the correct amount.\n\nDon\u0027t forget to bind it to a fluid satellite pipe. The way it binds is identical to the satellite logistics pipe.",
       "globalShare:1": 0,
       "icon:10": {

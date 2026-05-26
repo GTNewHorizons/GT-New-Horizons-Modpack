@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "Whether you\u0027ve mathed it out from NEI, looked at the spreadsheet or done something else, you might have figured something out: Fuel 3 is better in every way. More power, more byproducts, more everything. However, both recipes for it use Thorium Tetrafluoride (TF4), and the source of this is salt sparging, done in the Sparge Tower. Not only that, but Fuel 3 can only be consumed by having 4 LuV Buffered Dynamo Hatches in the LFTR, which means that it\u0027s a fair bit away from the previous steps in this chain.\n\nOnce you\u0027ve made it there, though, you can start working on getting this fuel. To make it, you will need at least one Sparge Tower dedicated to using Fluorine, with T Salt or TB Salt (TB Salt is better, get it from Fuel 2). There is a recipe that uses Helium, but it\u0027s not required for Fuel 3 and is meant for byproducts, so the quest for it is in the breeding half of this branch. Using a single tower for both recipes is a bad idea, so don\u0027t do it!\n\nPreferably, you should input Fluorine and TB Salt and let it run for a while. Speeding up the recipe by overclocking and making more towers is a good idea, since the TF4 is your bottleneck now. Alongside it, you get several fluorides: Lithium, Neptunium, Technetium and Selenium. These might prove useful in the future, but your goal is the Thorium one.",
       "globalShare:1": 0,
       "icon:10": {

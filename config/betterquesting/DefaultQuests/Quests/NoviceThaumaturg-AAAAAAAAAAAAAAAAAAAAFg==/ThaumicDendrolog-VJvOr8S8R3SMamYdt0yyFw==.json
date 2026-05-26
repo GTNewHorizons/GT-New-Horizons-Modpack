@@ -21,6 +21,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "Thaumcraft saplings can be quite useful early on, now that you have access to infusion you can create them. Each type has a special trait:\n\n§6§lGolden Oak§r - Drops Golden Apples as opposed to regular Apples.\n\n§c§lNether§r - Creates a miniature nether biome upon placement that can spawn mobs- be careful! Placing the leaves from this tree on top of a block will cause that block to turn into its nether counterpart.\n\n§d§lEnder§r - Creates a miniature end biome upon placement that can also spawn mobs. Placing the leaves from this tree on top of a block will cause that block to turn into its end counterpart. (§3A great source of Endstone§r)\n\n§b§lPeaceful§r - Gathers passive creatures underneath its leaves. The types of animals attracted depends on the biome its planted in.",
       "globalShare:1": 0,
       "icon:10": {

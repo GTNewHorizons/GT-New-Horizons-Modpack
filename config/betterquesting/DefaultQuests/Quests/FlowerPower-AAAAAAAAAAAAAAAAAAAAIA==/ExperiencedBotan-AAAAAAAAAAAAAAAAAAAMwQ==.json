@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "The Rosa Arcana transmutes experience into mana. A player standing near it will have their experience drained for this purpose. This process is unfortunately not very practical to automate, as the experience can only be extracted directly from a player or from orbs on the ground. It might be wise to place it somewhere you spend a lot of time.",
       "globalShare:1": 0,
       "icon:10": {

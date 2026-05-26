@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "If you want to pass multiple amps through your cleanroom walls, use a one-way Diode. It\u0027s also handy when branching off a main power line to limit amps in thinner branches and prevent them from overloading and catching fire.\n\nAn MV Diode will suffice for now, but you can also consider making an HV Diode since you will need to run HV machines in the near future, and you won\u0027t have to wait for 100% cleanroom efficiency again when upgrading to HV.\n\n[note]P.S.: Don\u0027t forget to use an HV-\u003eMV transformer if you choose the HV Diode.[/note]",
       "globalShare:1": 1,
       "icon:10": {

@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "Sometimes, a recipe has some extra outputs but the crafting module only has 1 output slot.\n\nThat is where the Crafting Byproduct Extraction Upgrade comes in. You can assign a byproduct of the recipe and this upgrade will make the module extract the byproduct as well. Now they won\u0027t clog the output buffer.",
       "globalShare:1": 0,
       "icon:10": {

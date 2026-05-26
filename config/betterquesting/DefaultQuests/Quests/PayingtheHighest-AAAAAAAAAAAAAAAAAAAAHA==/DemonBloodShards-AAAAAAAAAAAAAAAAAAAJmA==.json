@@ -20,6 +20,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "To get Demon Blood Shards, you\u0027ll need to summon and kill a demon. To summon one you\u0027ll need to arrange the pedestals around the plinth as such:\n\nxpxpx\nxxxxx\npxPxp\nxxxxx\nxpxpx\n\nx\u003dspace, p\u003dpedestal, P\u003dplinth\n\nPlace a bound master orb on the plinth and the appropriate sacrifices on the pedestals. They must all be the same element. Specifically, Aether, Incendium, Aquasalus, Terrae, Tenebrae, or Sanctus.\n\nAfter the lightning, the demon will appear. It won\u0027t always drop the shard, so prepare multiple sets.",
       "globalShare:1": 0,
       "icon:10": {

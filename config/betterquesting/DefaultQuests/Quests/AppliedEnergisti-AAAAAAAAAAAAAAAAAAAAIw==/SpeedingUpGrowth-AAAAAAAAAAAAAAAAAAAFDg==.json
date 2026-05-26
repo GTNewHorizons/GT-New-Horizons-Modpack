@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "Used to accelerate the process of purifying crystals, which allows you to create pure certus quartz crystal, pure nether quartz crystal and pure fluix crystal. Must be powered by an ME Network via the sides with the +, and consumes a steady 8 ae/t while plugged in. Crystal Seeds must be in an adjacent water block to be affected - the seeds will shimmer more rapidly when in the presence of a powered crystal growth accelerator. These do not use a channel.",
       "globalShare:1": 1,
       "icon:10": {

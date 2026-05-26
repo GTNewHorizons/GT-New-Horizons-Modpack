@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "To construct the dock, place 8 Astro Miner Base blocks in a cube, 2 blocks high, 2 blocks wide and 2 blocks deep. When the last of the base blocks is placed, it should automatically convert into an Astro Miner Base.",
       "globalShare:1": 1,
       "icon:10": {

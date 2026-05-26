@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "The advanced node stabilizer acts like a normal node stabilizer but with key differences. It will still stop the node it affects from being drained but the node can still drain from other, lesser nodes. It also has a higher chance to improve fading and unstable nodes. The downside is that any nodes it affects will have their recharge rates effectively reduced to nothing. They will recharge at an extremely reduced rate.",
       "globalShare:1": 1,
       "icon:10": {

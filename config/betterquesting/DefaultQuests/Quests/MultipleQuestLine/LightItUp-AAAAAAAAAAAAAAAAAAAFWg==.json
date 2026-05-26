@@ -20,6 +20,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "The arcane lamp creates additional light sources which acts like a Torch in a sphere with a radius of 16 blocks centered on it. This will include caves or other areas behind walls. That might be useful...\n\nWhen attached to the base of an arcane bore, the arcane lamp gains an additional ability: It will light up the tunnel that the bore digs.",
       "globalShare:1": 1,
       "icon:10": {

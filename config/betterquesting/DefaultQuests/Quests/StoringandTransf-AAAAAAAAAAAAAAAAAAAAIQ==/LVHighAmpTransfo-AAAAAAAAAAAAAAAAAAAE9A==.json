@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "If you need a transformer with more than 4A you need a high amp transformer. You can input 4A MV and output 16A LV. Useful for running lots of LV machines. Its mode can be changed with a soft mallet, just like before.",
       "globalShare:1": 1,
       "icon:10": {

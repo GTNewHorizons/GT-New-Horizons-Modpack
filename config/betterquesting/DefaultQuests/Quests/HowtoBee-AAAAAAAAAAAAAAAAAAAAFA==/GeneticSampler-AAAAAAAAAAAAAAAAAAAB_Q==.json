@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "With this machine, you can extract a random trait from any bee, sapling, butterfly or flower. The bee/sapling/butterfly/flower will be destroyed in this process. Each process requires an empty gene sample and some labware.\n\nThe resulting sample is random, so make sure to recycle the extra gene samples you don\u0027t want.",
       "globalShare:1": 1,
       "icon:10": {

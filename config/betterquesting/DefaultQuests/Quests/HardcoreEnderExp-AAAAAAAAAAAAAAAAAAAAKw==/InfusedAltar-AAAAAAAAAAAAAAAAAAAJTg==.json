@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "Altar with one or more special effects (enhancements).\n\nThe way to make an enhanced altar is to right-click a Brewing Stand with End Powder in your Hand. You can continue adding as many effects to one Altar as you want.\n\nEnhancements:\nRange (Block of Lapis)\nIncrease the range an item can be infused by the Altar.\n\nSpeed (Block of Redstone)\nIncreasing the speed of the Altar.\n\nEfficiency (Block of Emerald)\nReduce the cost of Dragon Essence using in an Altar recipe.",
       "globalShare:1": 1,
       "icon:10": {

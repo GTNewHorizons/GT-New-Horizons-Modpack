@@ -20,6 +20,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "Stocking bus but better!\n\nThis one can pull first 16 types of items automatically from ME network, which can be useful for some automations. Minimum stack size and refresh time can be configured in the GUI.\n\n[note]Using this on your main network is probably not a very good idea.[/note]",
       "globalShare:1": 0,
       "icon:10": {

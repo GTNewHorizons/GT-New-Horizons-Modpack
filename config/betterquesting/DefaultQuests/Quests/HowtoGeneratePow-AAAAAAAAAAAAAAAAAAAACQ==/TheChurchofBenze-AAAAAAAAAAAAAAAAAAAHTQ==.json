@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "The MV Gas Turbine pairs excellently with Benzene, now that you can actually make it. Look at the \"Bio for the Masses\" tab for more details on how to go about it, or just check NEI. Benzene is renewable from trees, and it\u0027s a powerful source of EU that can keep you going for several tiers as long as you upgrade it with the new multiblocks you unlock over time.\n\nIt\u0027s a good idea to switch off Steam, since you need big pipes to carry that around and the fuel efficiency on Steam Turbines is lower. Instead, make a Pyrolyse Oven or an Advanced Coke Oven to make Charcoal faster, extract Benzene from it and run it through a few of these Gas Turbines.",
       "globalShare:1": 1,
       "icon:10": {

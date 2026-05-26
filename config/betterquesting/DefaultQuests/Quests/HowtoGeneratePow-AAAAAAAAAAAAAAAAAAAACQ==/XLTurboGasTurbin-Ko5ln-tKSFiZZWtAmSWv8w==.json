@@ -21,6 +21,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "The ultimate gas inhaler in GTNH. Check the XL Steam Turbine quest above for an explanation of the mechanics shared across all turbines.\n\n[warn]This turbine does not accept Benzene.[/warn] To use it with your Benzene setup, you have to upgrade it to Nitrobenzene. Further changes will be made to this turbine to favor more high-tier gases, instead of spamming Benzene, Methane or other trivial options.",
       "globalShare:1": 0,
       "icon:10": {

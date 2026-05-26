@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "Above this, there are also UEV, UIV, and UMV superconductors. You can use UHV superconductors, or use a super cheap material and accept some losses to move your power around. Aside from other options like sending it through an AE tunnel or making power on site again.\n\nWhat, the UHV superconductor? Didn\u0027t you already make that?\n\nIf you forgot, you get a heat adjustment when using the EBF based on the energy tier. So you can smelt the Base UHV Ingot with Fluxed Coils and UV energy, since you then get 10501K. And no, you can\u0027t use a Volcanus.",
       "globalShare:1": 0,
       "icon:10": {

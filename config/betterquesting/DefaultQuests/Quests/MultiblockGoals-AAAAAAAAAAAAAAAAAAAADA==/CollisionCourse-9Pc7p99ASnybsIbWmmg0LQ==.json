@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "Finally, to actually get some ICs, use your photons in a Target Chamber.\n\nNote that the EU/t value listed in TC recipes is only a minimum, as recipe time is entirely determined by the Amount of photons you give the multi.\n\nMore specifically, you can get the recipe time by dividing recipe Amount by your input beam Amount, then multiplying that by 5s.",
       "globalShare:1": 0,
       "icon:10": {

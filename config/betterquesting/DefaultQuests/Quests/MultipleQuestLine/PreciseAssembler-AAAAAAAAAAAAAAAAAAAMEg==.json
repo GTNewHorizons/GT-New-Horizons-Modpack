@@ -32,6 +32,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "The Precise Assembler has two modes: Precise and Normal.\n\nPrecise mode is used to make certain advanced components, whereas Normal mode works as multiblock version of the Assembler.\n\n[note]You can\u0027t skip tiers with this. You\u0027ll need either a singleblock Assembler or a Large Scale Auto-Assembler multi to make your first Energy Hatch, then you can use it on the Precise Assembler.[/note]",
       "globalShare:1": 0,
       "icon:10": {

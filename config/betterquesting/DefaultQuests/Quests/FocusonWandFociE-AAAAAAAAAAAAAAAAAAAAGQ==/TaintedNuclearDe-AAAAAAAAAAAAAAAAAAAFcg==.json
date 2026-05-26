@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "The Wand Focus: Tainted Shockwave will release a powerful shockwave around the caster which travels 10 blocks away, damaging all mobs in the radius and launching them into the air. After using this focus, the caster will be unable to use any other foci for 6 seconds.\n\n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]\n§5Frugal§r: Lowers vis cost to cast by 10% per level\n§5Potency§r: Increases damage dealt every level\n§5Enlarge§r: Increases the radius by 2 blocks per level. This also adds 2.5 Perditio, Terra, and Aqua to the casting cost per level",
       "globalShare:1": 1,
       "icon:10": {

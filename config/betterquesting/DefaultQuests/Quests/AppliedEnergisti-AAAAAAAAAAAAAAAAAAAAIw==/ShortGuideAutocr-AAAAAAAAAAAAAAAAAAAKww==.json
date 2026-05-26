@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "This is the main purpose of AE2, so let\u0027s get to it. Plunk down the Crafting Storage and Molecular Assembler, connect the Pattern Terminal to a cable, and attach the ME Interface to the MA (make sure it has power from another side). You could run it without a ME Interface, but you can only do one recipe then. Place a Blank Pattern in the Pattern Terminal, and add the recipe for a Crafting Table, then click the arrow to save it to the pattern. Put this in the ME Interface and you can now request a craft of it. (if the items are in the network, otherwise it\u0027ll fail obviously)\n\nFor processing patterns (machines, anything not regular 3x3 crafting) click the button on the right. You\u0027ll need to specify all I/O for it yourself. You can use this on an ME Interface on a furnace (for example), combined with an ME Import Bus to collect the results. If it\u0027s a machine that auto-ejects (like multis) you can use a ME Interface to collect the results much faster (and with less lag).",
       "globalShare:1": 0,
       "icon:10": {

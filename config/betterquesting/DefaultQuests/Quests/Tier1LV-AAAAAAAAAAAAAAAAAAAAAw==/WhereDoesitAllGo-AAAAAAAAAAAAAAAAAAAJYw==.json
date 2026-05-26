@@ -21,6 +21,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "The time may come when you finally decide you have enough of a fluid. This overflow cover lets you tune how full a tank can get. You can put it on a smaller tank leading to a bigger tank, and when the bigger tank gets full, the fluid will backup into the smaller tank. Once the fluid level in the smaller tank exceeds the setting on the cover, it will start voiding fluid.\n\nHandy for an oxygen centrifuge setup when you don\u0027t want to stop from excess nitrogen.",
       "globalShare:1": 1,
       "icon:10": {

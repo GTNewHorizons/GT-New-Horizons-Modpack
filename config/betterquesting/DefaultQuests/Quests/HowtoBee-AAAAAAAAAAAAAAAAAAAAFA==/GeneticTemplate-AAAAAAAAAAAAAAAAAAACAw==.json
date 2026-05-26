@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "Templates are used to combine multiple gene samples into one large batch. It can be used to apply multiple traits at once, but you can also replicate a bee from liquid DNA and protein, if you manage to fill all 13 traits in one template. These templates can also be copied, just like the small samples.",
       "globalShare:1": 1,
       "icon:10": {

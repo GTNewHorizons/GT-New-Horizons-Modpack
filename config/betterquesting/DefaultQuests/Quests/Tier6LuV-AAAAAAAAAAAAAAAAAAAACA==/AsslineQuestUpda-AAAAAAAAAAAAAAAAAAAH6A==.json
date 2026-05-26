@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "When the pack updates and changes an assembly line recipe, your old data sticks also need to change their recipe. In old versions, you needed to update the sticks by scanning new items, but now they will update automatically if placed in the assembly line, so you don\u0027t need to change things manually. If there is some kind of bug with data stick recipes after updating, do let the developers know, either on the Discord server or on GitHub.",
       "globalShare:1": 1,
       "icon:10": {

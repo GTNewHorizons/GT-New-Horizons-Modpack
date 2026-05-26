@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "Or at least factories full of item pipes. You can take items out of one machine using a hopper pointing directly into your pipes, and from there deliver them to a second machine.\n\nLater on you can make better item pipes. Search for \"item pipe\" in NEI for options.\n\n[warn]You\u0027ll need a Steel Wrench to remove them. Don\u0027t place them down unless you\u0027re sure of the location until you have one.[/warn]",
       "globalShare:1": 1,
       "icon:10": {

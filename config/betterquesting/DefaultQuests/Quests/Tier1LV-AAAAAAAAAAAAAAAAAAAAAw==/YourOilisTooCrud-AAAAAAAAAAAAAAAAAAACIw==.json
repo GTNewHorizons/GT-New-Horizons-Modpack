@@ -20,6 +20,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "Burning oil in the combustion generator is a very inefficient way of producing power. Every bucket/cell of oil only gives you 20,000 EU. Time to refine it.\n\nYou\u0027ll need to use a circuit to pick which of the products you want. Later on you can make a Distillation Tower to get all of them, but that\u0027s far away for now.\n\nYou can also distill many other fluids! There are two that are useful, but take a long time to distill, so you should set them up in advance:\nLubricant (from Creosote) and Distilled Water (from Water).",
       "globalShare:1": 1,
       "icon:10": {

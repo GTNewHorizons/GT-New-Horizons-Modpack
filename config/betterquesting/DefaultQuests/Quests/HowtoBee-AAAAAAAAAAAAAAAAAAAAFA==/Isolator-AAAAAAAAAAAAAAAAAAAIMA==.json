@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "The Isolator will take Ethanol and Enzyme to extract a single gene from a candidate bee. Sometimes it gets hungry and eats the bee too. Don\u0027t feed it any bees you won\u0027t mind getting destroyed!\n\nYou must provide a Blank Sequence to store the output gene. This will be stored with a \"faint\" level of strength that can be sequenced slowly, or made stronger to be sequenced faster by passing the sequence through a Polymerizer.\n\nThe exact gene you get from the bee is going to be a random choice from that bee\u0027s genome. You won\u0027t know what it is until you run it through the Sequencer. It will then be accessible forever in the Gene Database.\n\nYou can wind up isolating the same gene from the same bee multiple times. It\u0027s just bad luck. They won\u0027t be isolated in any particular order.\n\nThe Sequencer will drain the container back into a Blank Sequence, so you can feed them back into the Isolator. You only ever need to make a few Blank Sequences because you can just loop like this indefinitely. If, however, you have a sequenced gene and want to make it blank again immediately, then just run it through your smelting/furnace device of choice.",
       "globalShare:1": 1,
       "icon:10": {

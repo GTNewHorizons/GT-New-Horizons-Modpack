@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "I never wanna grow up, I wanna play with my §5§lIndustrial Extrusion Machine§r. This machine offers a §2§l3.5x§r speed boost and §6§l6§r parallels per voltage tier.\n\nYou can use multiple input buses with a different extruder shape in each and then throw the items to extrude into the bus with the appropriate shape.\n\nAlternatively, you can also use an Extrusion Bus. These are more expensive but come pre-loaded with all of the extruder shapes so you can manually set them without needing to create one.",
       "globalShare:1": 1,
       "icon:10": {

@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "Sometimes you insert fluid in the system. You need something to get the fluid into the correct buffer other than inserting the fluid into the buffer manually.\n\nThere are 2 pipes that can do the job: transfer fluid into a tank connected to a fluid basic pipe allocated to said fluid.\n\n1. Logistics Fluid Extractor Pipe. It extracts fluid from connected buffer to the correct big storage tank. It doesn\u0027t require a pump but it is slower.\n\n2. Logistics Fluid Insertion Pipe. It does not pull fluids from tanks actively, requiring a GT pump if you are using GT tanks, but it can send fluids faster.\n\nTake a pick :)",
       "globalShare:1": 0,
       "icon:10": {

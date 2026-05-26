@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "Highest tier storage cell, which can contain 65,536 bytes of storage. 65,536 bytes of storage can hold 8,128 stacks of a single item, or 4,160 stacks, while holding 63 different items. The 64k storage cell uses 512 bytes of data to store a single type.\n\nWhen placed inside a drive or chest will consume 2.0 ae/t.",
       "globalShare:1": 1,
       "icon:10": {

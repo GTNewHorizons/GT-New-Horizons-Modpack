@@ -17,6 +17,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "Block Container Cells are a special variant of cell. They are unique because, despite using a 1k storage component, each one can hold up to 520k items rather than just 8.13k!\n\nOf course, all of that power comes with the limitation that they can only store one type of item, so they aren’t quite as flexible. They are great for bulk storage or for scenarios where you might want only one item per drive- Assembly Line automation for example.",
       "globalShare:1": 0,
       "icon:10": {

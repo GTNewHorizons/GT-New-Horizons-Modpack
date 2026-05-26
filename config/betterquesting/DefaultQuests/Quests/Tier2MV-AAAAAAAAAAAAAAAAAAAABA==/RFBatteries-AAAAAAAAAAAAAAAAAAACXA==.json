@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "Basic Capacitor Banks are RF batteries which can store the RF power you generate. You can put many blocks together to enlarge your total battery capacity - they will merge into one battery.\n\nYou can also change the mode of each face using your wire cutters or yeta wrench instead of the GUI. One option is a nice display of input and output RF, but it has to be taller than it is wide.\n\nThese are great for interfacing with RF machines. GT wires will convert to RF, but they send a full amp packet no matter what. EnderIO machines properly accept it, but others like Genetics do not and waste most of the packet, so consider using them with any RF machine if it looks like you need it.",
       "globalShare:1": 1,
       "icon:10": {

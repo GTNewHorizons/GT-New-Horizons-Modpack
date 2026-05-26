@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "Most of the time you are requesting things because you need to craft something. So here is the Logistics Request Table.\n\nThis thing comes with a 3*3 crafting grid that you can load with a NEI recipe and request the recipe. There is also an inventory buffer that you can use to store items within.",
       "globalShare:1": 0,
       "icon:10": {

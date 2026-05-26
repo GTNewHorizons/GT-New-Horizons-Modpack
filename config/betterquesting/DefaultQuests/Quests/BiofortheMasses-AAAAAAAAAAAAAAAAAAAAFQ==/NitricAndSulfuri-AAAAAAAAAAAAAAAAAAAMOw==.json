@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "Sourcing these two should be easy at this point. Overall, the easiest option for Sulfuric Acid is oil processing, but you can also make it from Sulfur Dust, which is so very common from ore processing.\n\nNitric Acid is a bit more convoluted, but you might have already automated it, since it\u0027s needed for Cetane-Boosted Diesel. Ammonia and Oxygen can make it, or Nitrogen Dioxide instead of Ammonia. You won\u0027t be able to do it in a single step, but a small line of Chemical Reactor, or their multiblock equivalent, will do it for you.",
       "globalShare:1": 0,
       "icon:10": {

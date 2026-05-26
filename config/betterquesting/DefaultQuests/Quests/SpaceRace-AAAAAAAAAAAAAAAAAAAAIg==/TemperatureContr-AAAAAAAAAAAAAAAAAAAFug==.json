@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "The Ambient Thermal Controller is an item for use in the Oxygen Sealer to provide thermal protection in sealed spaces.\n\nAn Ambient Thermal Controller is useful in the dimensions too cold or too hot for players to survive without Thermal Padding.\n\nIt can be placed in the 3rd slot next to the energy and oxygen slots in a working Oxygen Sealer. Once the Ambient Thermal Controller is in the sealer, it will heat or cool the output oxygen according to the local environment, and then the player can safely take the thermal padding off in the sealed room. Though there\u0027s absolutely no reason to do so.",
       "globalShare:1": 1,
       "icon:10": {

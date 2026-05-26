@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "Now that you have a cargo manager you need a specific rail so that your cart can interact with it. Just place it next to the cargo manager, depending on the color of the side it is on you will have to adjust settings in the cargo manager GUI.",
       "globalShare:1": 1,
       "icon:10": {
