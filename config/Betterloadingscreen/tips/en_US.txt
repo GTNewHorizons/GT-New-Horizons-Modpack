@@ -55,9 +55,12 @@ Be sure to check out our wiki: wiki.gtnewhorizons.com
 Perditio and Vanadiumsteel Pickaxes and Hammers are really fast
 Look for ore chunks by pressing F9 three times
 Nerfs incoming!
-You can plant Oreberries on Cropsticks, but mind the light level
-IC2 Crops can receive bonus environmental statistics based on biome
-Weeds spread to empty crop sticks and destroy other crops
+You can plant Oreberries on crop sticks, but mind the light level
+Crops can receive bonus nutrient points from biome tags and high humidity
+Weeds will spread more weeds and diseases to nearby crop sticks
+Crop resistance increases the seed drop chance and prevents diseases
+Crop gain increases the number of drops per harvest
+Crop growth increases the speed at which crops grow
 Use Machine Hulls or Transvector Interfaces to ease machine access
 Steam flowing through pipes or coming out of machines hurts!
 Fortune is useless on Brittle Charcoal
