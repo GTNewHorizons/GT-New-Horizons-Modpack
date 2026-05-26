@@ -21,6 +21,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "Able to kill anything, in one hit except another player in full infinity gear. Essentially runs the /kill command on the entity you hit.",
       "globalShare:1": 0,
       "icon:10": {

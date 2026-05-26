@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "One half of TNM is Nitric Acid, which has more paths to reach it than can be listed here. It\u0027s basically Hydrogen, Nitrogen and Oxygen merged together, and many compounds made from these things can lead you to Nitric Acid. How you get this is up to you, but it might be a lot easier if you already automated some Distillation Tower setups for other renewable resources.\n\nLet me explain. Nitric Acid can be made directly from Ammonia and Oxygen. O2 has many sources, and you should have already automated it, but Ammonia is harder to get: you either make it from Nitrogen Oxide and Dioxide, or you skip all that with a Fermented Biomass DT, which outputs Ammonia directly. That is the fastest way, if you already made that setup, otherwise you\u0027ll need to chain several reactions together.",
       "globalShare:1": 0,
       "icon:10": {

@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "A feat of human engineering at your disposal!\n\nThis machine allows you to filter 9 items, and will only output set batches. This allows you to automate processes such as electrolyzing that require different amounts of inputs that may clog the system otherwise.\n\n[note]This will be particularly useful in MV once you unlock more electrolysis recipes![/note]",
       "globalShare:1": 1,
       "icon:10": {

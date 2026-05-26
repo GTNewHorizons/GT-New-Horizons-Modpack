@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "They\u0027re exactly what they sound like.\n\nThe first is for items and acts like a terminal. It can hold 4,032 of a single item.\n\nThe second is for liquids, and also acts like a terminal. It can hold 128 buckets of a single liquid.\n\nIt costs AE to put things in, take them out, or have the interface open. Use the Wireless Charger from EIO if you don\u0027t want it to take forever.",
       "globalShare:1": 0,
       "icon:10": {

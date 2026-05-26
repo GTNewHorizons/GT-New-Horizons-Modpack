@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "Now that you\u0027ve reached LuV you can make the god-tier prospector - The Electric Prospector. This handheld machine can provide detailed information on ores in the area, and return maps of how much UG fluid and what type is in each chunk.\n\nNote that the range is determined by the tier and material (the durability seems to not matter). You can select an ore from the list to show only that ore, or double-click to switch dark/light mode.",
       "globalShare:1": 1,
       "icon:10": {

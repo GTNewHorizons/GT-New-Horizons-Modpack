@@ -18,6 +18,7 @@
         "id:8": "minecraft:stick"
       },
       "consume:1": 0,
+      "countAsQuest:1": 1,
       "desc:8": "Go get the schematics for tier 7 rockets.\n\nThis will open the planet Pluto and the Kuiper Belt.",
       "globalShare:1": 1,
       "groupDetect:1": 0,

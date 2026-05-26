@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "The Crop Manager is a single-block machine that will monitor crops in an area around itself and automatically apply fertilizer (fluid or item), Weed-EX, and water as needed. The water, fertilizer, and Weed-Ex can be pumped in directly, or use IC2 Universal water cells, normal cells aren\u0027t returned when they\u0027re used.\n\nJust like any other single block machine, Crop Managers are NOT rainproof, but you can cover them with a water source block just fine!\n\nTilled dirt still requires a nearby water block to be hydrated as the Manager will only water the crop, not the soil. Try putting a lily pad on top so it isn\u0027t annoying to walk on.",
       "globalShare:1": 1,
       "icon:10": {

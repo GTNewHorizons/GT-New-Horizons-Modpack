@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "If you\u0027ve automated Carbon Monoxide, you can now burn it directly for EU in a Gas Turbine. It does not use the Steam Turbines that the boilers required, which is a good thing for two reasons: Steam Turbines are less fuel efficient than their Gas or Combustion alternatives, and steam in itself needs large pipes to move it, being much less power dense than gases or diesels. Additionally, you don\u0027t even need boilers at all! You can skip them altogether if you invest in this CO route.\n\nYou also get Ashes from this chemical reaction. They can be used in several ways, take a look!",
       "globalShare:1": 0,
       "icon:10": {

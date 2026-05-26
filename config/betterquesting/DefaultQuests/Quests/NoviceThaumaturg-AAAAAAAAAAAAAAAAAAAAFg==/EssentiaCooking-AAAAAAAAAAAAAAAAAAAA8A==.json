@@ -24,6 +24,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "In order to get essentia, you need to dissolve items. Obviously, you only want to dissolve those items you don\u0027t really need, and only those with essentia you need to craft things.\n\nMake sure you keep your furnace as empty as possible. If it fills up with essentia, it can cause a large TPS drop.",
       "globalShare:1": 1,
       "icon:10": {

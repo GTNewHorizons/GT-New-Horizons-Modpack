@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "Mana is blue. Water is also blue. There\u0027s a correlation there, and the hydroangea turns that correlation into causation. Place a water source block nearby, and the hydroangea will consume it to produce mana - until it dies after an hour.\n\nThis one can be a bit tricky to automate given the lack of naturally-regenerating source blocks.",
       "globalShare:1": 0,
       "icon:10": {

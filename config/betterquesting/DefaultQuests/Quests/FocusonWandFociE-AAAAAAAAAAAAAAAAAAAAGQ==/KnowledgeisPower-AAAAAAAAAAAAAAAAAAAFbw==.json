@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "The Wand Focus: Experience Drain will drain the player\u0027s experience every tick, using 15 XP to restore 5 vis to the lowest aspect in the wand.\n\n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]\n§5Frugal§r: Lowers experience cost per tick by 1 per level\n§5Potency§r: Creates 20% more vis per level",
       "globalShare:1": 1,
       "icon:10": {

@@ -17,6 +17,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "You might find yourself setting up complicated systems involving many storage buses with differing priorities. To make it less tedious, grab a priority card!\n\nThis tool allows you to set many buses to the same priority with a single click... but better yet, it also features §nincrement and decrement modes!§r Every time you click on a bus, the priority will be set to one higher/lower than the previous bus you clicked, so setting up large arrays of descending priorities is a breeze.",
       "globalShare:1": 0,
       "icon:10": {

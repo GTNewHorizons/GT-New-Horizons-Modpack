@@ -21,6 +21,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "Data Orbs are high tier data sticks to replicate materials or used as data storages. \n\nAdditionally, similar to how a Data Stick can copy the configuration of a singular multiblock hatch, the Data Orb can copy the configuration of multiple hatches on a multiblock and paste to another that is laid out in a similar fashion by clicking it on the controller.",
       "globalShare:1": 1,
       "icon:10": {

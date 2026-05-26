@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "So, if you want to do more than one recipe in your Assline, you want a Data Access Hatch. There are 3+1 versions.\n\nData Access Hatch: It holds 4 data sticks, so 4 recipes.\n\nAdvanced Data Access Hatch: It holds 16 data sticks. Ironically, you can make this right away.\n\nAutomatable Data Access Hatch: It\u0027s UV, but it allows I/O of the sticks. Skip it.\n\nThe Data Bank Multi: Can be connected to multiple Asslines, and can contain more than 1 DAH. This is the best way, when you can do it. Look in ZPM for the quest.\n\n[note]You only need to make one.[/note]",
       "globalShare:1": 1,
       "icon:10": {

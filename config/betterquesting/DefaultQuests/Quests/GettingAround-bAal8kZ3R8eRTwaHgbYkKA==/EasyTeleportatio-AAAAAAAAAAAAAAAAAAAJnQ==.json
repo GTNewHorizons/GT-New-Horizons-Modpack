@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "They may be a pain to craft, but teleposers are very useful for teleporting. Use the Teleposition Focus to set the first Teleposer location and put it in the second. Apply a redstone signal, and it\u0027ll teleport you at the cost of LP. It can also move items or entities, with the size increasing with better foci.",
       "globalShare:1": 0,
       "icon:10": {

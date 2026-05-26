@@ -20,6 +20,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "The inventory panel is an alternative to a PR or LP storage system. Just like PR, you have to connect every chest/barrel with an item conduit.\n\nIn addition to that, you also have to install a \"Remote Awareness\" upgrade into every conduit side you want the panel to see, and provide the panel with Nutrient Distillation which you make in The Vat.\n\nWell, they\u0027re all obsolete once you get AE2 though.",
       "globalShare:1": 1,
       "icon:10": {

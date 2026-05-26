@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "The oxygen compressor is used to fill empty or depleted oxygen tanks. Connect an oxygen pipe to the blue ring input side and a power source to the gray square input side. Place an oxygen tank in the bottom right slot and it will take oxygen from the input and place it into the tank.",
       "globalShare:1": 1,
       "icon:10": {

@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "We can now request items, but it sucks when the systems lack the component while we CAN craft those components.\n\nThe system needs to know how to craft the items it is requesting.\n\nTo get started, get a crafting module. Both automation of machine-crafted recipes and crafting table recipes need this module, in one way or another.",
       "globalShare:1": 0,
       "icon:10": {

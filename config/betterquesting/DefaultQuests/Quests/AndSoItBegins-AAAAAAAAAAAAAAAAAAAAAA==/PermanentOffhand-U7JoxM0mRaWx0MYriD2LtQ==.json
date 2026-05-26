@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "The modern offhand slot has been backported.\n\nThis feature also works with any item that opens a GUI, like a backpack for example. This makes inventory management easier and helps with certain tedious tasks.\n\nDefault Keybind to swap between mainhand and offhand: §9F§r\n\n[note]You can also toggle various Torch Tweaks in Backhand\u0027s mod client configs. They are disabled by default, but you may find them useful if you love holding torches in your offhand.[/note]",
       "globalShare:1": 0,
       "icon:10": {

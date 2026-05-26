@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "This is the first GT-type tank. It stores 32 buckets or 32,000L, and can be used to I/O cells. The ULV Tank from GT++ needs steel plates, iron plates, tin plates, a clay pipe, and a water bucket.\n\nGT tanks do not auto-output. If you want to move fluids out of the tank, use a GT pump, conduit, or something similar.",
       "globalShare:1": 1,
       "icon:10": {

@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "Sometimes people have a storage system that contains a lot of different items, or they have a large quantity of the same item.\n\nHere comes the Polymorphic ItemSink. It assigns inventory space to the kind of items already in the inventory.\n\nVery handy especially when you have a storage controller connecting to a lot of drawers.",
       "globalShare:1": 0,
       "icon:10": {

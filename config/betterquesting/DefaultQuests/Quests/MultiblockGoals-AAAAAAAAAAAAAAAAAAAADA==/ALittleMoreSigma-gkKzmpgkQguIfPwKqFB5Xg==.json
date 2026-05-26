@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "Eventually, your LHC will start making rarer and rarer particles. You may find that they appear in large bursts as single particle packets with very high Amounts, but not very often. The Beam Stabilizer allows you to capture these large packets and redistribute them over time as a continuous series of smaller packets with a lower Amount.\n\n[warn]This is particularly useful to ensure recipe checks work consistently for beam-consuming machines.[/warn]",
       "globalShare:1": 0,
       "icon:10": {

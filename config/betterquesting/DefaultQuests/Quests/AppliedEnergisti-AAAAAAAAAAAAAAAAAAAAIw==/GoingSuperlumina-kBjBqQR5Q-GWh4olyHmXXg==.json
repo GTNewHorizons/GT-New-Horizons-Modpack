@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "The Superluminal Acceleration card is the fastest AE card that you can use to transfer items or fluids.\n\n[note]Superluminal Acceleration cards can only be placed in:[/note]\n\n§cME IO Port (3)§r\n\nIn an IO Port, the Superluminal Acceleration Card will transfer items at a rate of:\n\n§61x Cards: 33,554,432 items/tick\n2x Cards: 2,147,483,648 items/tick\n3x Cards: 137,438,953,472 items/tick\n\n§rIn an IO Port, the Superluminal Acceleration Card will transfer fluids at a rate of:\n\n§61x Cards: 33,554,432,000 mb/tick\n2x Cards: 2,147,483,648,000 mb/tick\n3x Cards: 137,438,953,472,000 mb/tick",
       "globalShare:1": 0,
       "icon:10": {

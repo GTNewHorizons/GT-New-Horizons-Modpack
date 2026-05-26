@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "This plasma needs Helium Plasma to be crafted. That\u0027s right, this entire powergen chain builds on top of Helium Plasma!\n\nThe Boron Plasma step is much slower than the Helium one, so if you match the number of reactors and their tier, you will end up with a large excess of Helium Plasma. As you know, it\u0027s very useful for power in Large Plasma Turbines, so you could use this excess to power all the other reactors. As you scale up, however, this alone will probably not be enough.\n\nYou will need 3.75 reactors with this recipe to feed 1 reactor with the next step.",
       "globalShare:1": 0,
       "icon:10": {

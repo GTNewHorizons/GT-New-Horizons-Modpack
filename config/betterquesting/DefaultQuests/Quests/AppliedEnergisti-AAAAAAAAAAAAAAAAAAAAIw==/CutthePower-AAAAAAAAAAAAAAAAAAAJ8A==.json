@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "The ME Toggle Bus allows you to cut off access through a cable if it doesn\u0027t receive a redstone signal. The inverted version is, well, inverted. It must be placed between the cables, like a Quartz Fiber.",
       "globalShare:1": 0,
       "icon:10": {

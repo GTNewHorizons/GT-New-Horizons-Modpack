@@ -24,6 +24,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "This jetpack uses IC2 biogas and can fly up to Y-245. You can switch between hover and normal mode using the IC2 mode-switch key.\n\nAn empty jetpack can be (re-)fueled in a fluid tank filled with biogas.",
       "globalShare:1": 1,
       "icon:10": {

@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "This nifty little device will filter essentia out of an Alchemical Crucible or Alchemical Boiler. Once it has received a single unit of any type, it will only accept this type until it is completely empty. You can place more than one on top of an alchemical furnace, and you should. Try to have one per essentia type in the item you\u0027re melting on a furnace.\n\nYou should lock the type with a Label, or every time it fills again, it\u0027s likely to be a different type, and gum up your pipes.",
       "globalShare:1": 1,
       "icon:10": {

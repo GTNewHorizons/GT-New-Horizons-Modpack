@@ -24,6 +24,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "With both carrot and potato seeds in hand, you are now ready to deterministically breed your first new species. Sugarcane.\n\nPlant your potato and carrot seeds next to a double crop stick placed on one of the fitting soil types shown in NEI.\n\n[warn]Always check NEI for what soil to use when breeding a new crop.[/warn]\n\nWhen breeding, it\u0027s important to ensure that the crop stick that will contain the new crop meets all the growth requirements of said new crop. [warn]Crops with special growth requirements will not appear unless all their growth requirements are met.[/warn] This includes things like soil, sub-soil, and light level.",
       "globalShare:1": 0,
       "icon:10": {

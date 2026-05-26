@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "Ender Fluid Conduits are an advanced fluid transport system available at HV tier. They have many useful abilities, such as filtering specific fluids and routing them by color channel.\n\nTheir main advantage is the ability to create a large unified fluid network, which makes complex setups much easier to manage. As you use them, you’ll quickly see how convenient they are at this stage of the game.\n\n[note]However, be careful: large conduit networks with too many nodes can cause TPS lag. Use them wisely, avoid overbuilding, and consider switching to AE2-based fluid handling for large-scale systems.[/note]",
       "globalShare:1": 0,
       "icon:10": {

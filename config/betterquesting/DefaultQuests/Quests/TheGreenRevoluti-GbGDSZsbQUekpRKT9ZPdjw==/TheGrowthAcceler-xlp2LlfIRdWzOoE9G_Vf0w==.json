@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "The Growth Acceleration Unit increases the growth speed of the crops found within the Industrial Farm. Each one increases growth speed by 100% and power usage by 125%.\n\nThe Growth Acceleration Unit will not work if an Overclocked Growth Acceleration Unit is installed.\n\nAs with all upgrades, the tier of the upgrade must match the tier of the seedbed.",
       "globalShare:1": 0,
       "icon:10": {

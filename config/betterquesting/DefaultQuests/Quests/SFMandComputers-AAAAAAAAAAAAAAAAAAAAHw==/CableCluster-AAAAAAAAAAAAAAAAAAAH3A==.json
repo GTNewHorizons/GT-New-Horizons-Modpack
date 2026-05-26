@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "The cable cluster allows you to combine as many of the other cables together into one block. You could have a redstone receiver and emitter and an inventory relay all in one block.\n\nThis cable is a \"terminal\" cable. It does not extend the MIM beyond it.",
       "globalShare:1": 1,
       "icon:10": {

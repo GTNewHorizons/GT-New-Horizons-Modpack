@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "The Large Tungstensteel Boiler is the biggest and baddest of the four. Like the Titanium one, it is a specialized boiler that only accepts specific fuels, mainly the Solid Super Fuels, but it will produce Superheated Steam at a rate equivalent to 16000 EU/t, at 100% fuel efficiency. If you have good Steam Turbines, especially Oriharukon ones, you will get much more power than that, around 24000 EU/t or more.\n\nDepending on how many of these you build, you might need a huge amount of turbines. To solve that problem, consider going a bit above the optimal flow on each turbine, or even switching to Loose mode, although this is only a good choice if you can match the optimal flow in that mode.",
       "globalShare:1": 1,
       "icon:10": {

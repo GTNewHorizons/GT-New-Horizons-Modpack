@@ -20,6 +20,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "The Auto Workbench is a simple automated crafting system. You place ghost items in the grid to create the recipe, and place components in the inventory. They will slowly be converted into the crafted item. While not fast and can only do 1 recipe each, it does support automation - only items acceptable to the recipe are allowed in the inventory. It does not use power.",
       "globalShare:1": 1,
       "icon:10": {

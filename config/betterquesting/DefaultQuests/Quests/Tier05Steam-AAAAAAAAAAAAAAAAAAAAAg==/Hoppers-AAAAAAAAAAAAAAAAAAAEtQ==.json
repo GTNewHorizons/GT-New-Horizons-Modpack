@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "Hoppers come in handy when you want to automate your machines. You can input items via hoppers directly into GT pipes and you don\u0027t have to use a conveyor module. However, the input rate is much slower, and the hopper must be beneath its source inventory.",
       "globalShare:1": 1,
       "icon:10": {

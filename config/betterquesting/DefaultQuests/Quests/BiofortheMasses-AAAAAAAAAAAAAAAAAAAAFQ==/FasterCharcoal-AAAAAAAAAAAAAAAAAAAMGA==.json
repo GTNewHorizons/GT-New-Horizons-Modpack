@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "Even if you have more wood, this won\u0027t help your power issues that much. Using it directly as fuel isn\u0027t going to do much for you as you move forward, and turning it into Charcoal will be very important. You have already built a Coke Oven, maybe more than one, but each one takes 90 seconds to produce one Charcoal, an abysmal rate. Unfortunately, there isn\u0027t any faster option in this tier, so you will have to build more of these ovens. How many, exactly?\n\nThere are many different goals you might want to go for, but a good metric for your power needs is a setup with 19 Coke Ovens. This number will create both Charcoal and Creosote Oil at a rate that will run two max-sized LP (Low Pressure) Railcraft Boilers, one solid and one liquid, with the quest for those coming right after this one. If you automate this entire setup, it will produce around 2 amps of MV, which are equivalent to 8 amps of LV, plenty of power for this tier and enough to advance you to the next one.\n\nAfter building these Coke Ovens, you will want to automate them. You can do this using a Coke Oven Hatch. A screwdriver will change the modes between input, output, and fluid output. You can use hoppers and item pipes to push and pull items from the hatches. Additionally. the hatch itself will automatically dispense fluid so you can simply hook that directly to a pipeline, no faucets or pumps required.",
       "globalShare:1": 0,
       "icon:10": {

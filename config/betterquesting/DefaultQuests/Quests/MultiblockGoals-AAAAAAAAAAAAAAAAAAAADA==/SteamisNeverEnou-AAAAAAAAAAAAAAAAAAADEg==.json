@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "Now you can make Advanced Circuits, which means it\u0027s time to build a Large Steel Boiler. Each one of these produces 1000 EU/t in Steam, which means you will need several Steam Turbines to convert it all to power! Keep in mind that the MV ones are less efficient, so calculate your losses when building your setup.",
       "globalShare:1": 1,
       "icon:10": {

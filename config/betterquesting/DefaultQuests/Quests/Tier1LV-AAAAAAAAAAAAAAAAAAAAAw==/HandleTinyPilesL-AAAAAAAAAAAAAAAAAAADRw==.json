@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "Don\u0027t you hate having to manually compress all those tiny piles? Well, let me show you how to automate that. A combination of type filter, chest buffer (or super buffer in HV) and packager frees you from that annoying task. The chest buffer can hold up to 9 stacks of tiny piles and the super buffer can hold 256 stacks of tiny dusts, which is more than enough. You can set its mode with a screwdriver on the output side. Set it to 9 to export 9 tiny piles at a time and let the packager compress these into regular dusts.\n\n[note]When you unlock them, Super buffers can be lag sources, so be careful to keep them as empty as possible. If you end up using a multiblock packager, be sure to change the buffer from Stocking mode to Transfer Size mode.[/note]",
       "globalShare:1": 1,
       "icon:10": {

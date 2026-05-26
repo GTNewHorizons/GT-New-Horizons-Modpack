@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "Is your infusion very slow? And, alas, to resolve that you need a world accelerator. That probably causes a lot of lag.\n\nWell no longer! Try out the new Infusion Intercepter. Placing it directly below the central pedestal of your existing infusion altar and supplying essentia to the bottom side of this block via Essentia Provider allows for instant essentia consumption from the network, drastically speeding up your infusions.\n\n[note]You may still want to keep the world accelerator for the item phase of the infusion process.[/note]",
       "globalShare:1": 1,
       "icon:10": {

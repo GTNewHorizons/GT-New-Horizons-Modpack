@@ -20,6 +20,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "The Astro Miner is an automatic mining vehicle which moves around, makes tunnels, mines up everything it finds, and brings it all back to a base station where it docks. It is not player-rideable, so don\u0027t try and climb inside it!\n\nIt\u0027s not very fast or efficient, and it seems to discard half or more of the ore it attempts to collect. Only consider using it if you want the huge amount of planet blocks it picks up.[/note]",
       "globalShare:1": 1,
       "icon:10": {

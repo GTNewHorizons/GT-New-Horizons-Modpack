@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "Unlike regular Pattern Terminals, the Processing Pattern Terminal doesn\u0027t have a crafting mode. Instead, you have a lot more slots for input and output, and the ability to swap them. Great for your Assembly Line patterns.\n\n[note]If you need to rename an item for use in a specific pattern, you can use Ctrl + Middle-Click to set the name of the item straight from the terminal. Very handy for some Forming Press \u0026 Assembly Line recipes![/note]",
       "globalShare:1": 0,
       "icon:10": {

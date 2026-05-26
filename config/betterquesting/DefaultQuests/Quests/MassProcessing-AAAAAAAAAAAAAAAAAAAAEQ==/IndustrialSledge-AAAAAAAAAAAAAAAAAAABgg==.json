@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "The §5§lIndustrial Sledgehammer§r is a multiblock Forge Hammer. By default it processes recipes at §2§l2x§r the speed. \n\nThe tier of solenoid you use in the machine has a direct impact on how many parallels it has.\n\n§6§lParallels§r \u003d §9Solenoid Tier§r * §cVoltage Tier§r * 6",
       "globalShare:1": 1,
       "icon:10": {

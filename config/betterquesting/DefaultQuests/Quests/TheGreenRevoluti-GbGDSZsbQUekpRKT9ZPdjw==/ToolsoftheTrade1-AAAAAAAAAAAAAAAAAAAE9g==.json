@@ -20,6 +20,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "This tool is a combined Trowel, Hoe, and Shovel. The basic spade will allow you to easily clear weeds from your sticks, till soil, and potentially obtain bonus seeds from simply harvesting the crops (right-click) without breaking them. Each point of resistance increases the chance of getting a seed when harvesting with the basic spade as follows:\n\n1 Resist \u003d 3%\n10 Resist \u003d 32%\n31 Resist \u003d 100%\n\n[note]If you\u0027re removing a crop with your spade, sneaking will let you remove the crop without having to worry about the spade breaking the crop stick.[/note]",
       "globalShare:1": 1,
       "icon:10": {

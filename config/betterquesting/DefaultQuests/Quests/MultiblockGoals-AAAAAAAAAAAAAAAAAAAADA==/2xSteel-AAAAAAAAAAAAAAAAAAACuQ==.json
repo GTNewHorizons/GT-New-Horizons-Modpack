@@ -20,6 +20,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "Steel production is so slow. If you got enough bricks and clay, build a second BBF. Build it attached to the first one, so they can share a wall and you will save some bricks, clay and concrete.\n\n[warn]Note that this will generate twice as much pollution in total - consider moving them further away.[/warn]",
       "globalShare:1": 1,
       "icon:10": {

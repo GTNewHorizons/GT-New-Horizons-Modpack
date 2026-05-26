@@ -20,6 +20,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "A block designed to do one thing, store storage cells. This block holds 10 storage cells so you can tightly pack your storage into a very small space. ME drives show their contents and the storage cell status on the front of the drive face.\n\nRed - Indicates the storage cell is full.\nOrange - Indicates the storage cell cannot hold any more types, but it can store more items.\nGreen - Indicates the cell can hold more types, or more items.\nBlack - Indicates there is no channel, or power is offline.\n\nIt\u0027s important to note, that without an ME Network this block does nothing. It\u0027s only useful when combined with a way to input, and output items, and requires 2 AE/t power to function, and additional power for each storage cell stored inside it.\n\nAbout Priority: Many devices in AE2 have a priority setting, this determines what gets items first. This is useful in some situations, but not so much in others. Higher number \u003d higher priority.",
       "globalShare:1": 1,
       "icon:10": {

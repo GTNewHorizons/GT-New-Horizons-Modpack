@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "With this powerful machine, you can inject gene samples, which allows you to alter any aspect of your bee, tree or butterfly. The gene sample (or pattern) will not be destroyed.\n\nThe machine has a 20% chance to downgrade pristine bees into ignoble bees and a 40% chance to kill ignoble bees.\n\nOne labware is consumed per operation.",
       "globalShare:1": 1,
       "icon:10": {

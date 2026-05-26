@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "By simply planting saplings onto crop sticks, you\u0027ve found you can create miniature versions of the matching trees! How cute!\n\nBonsai trees will give you drops just like a regular tree, but without the wasted server processing time of placing all the tree blocks just to chop them down again. This can be significant overhead on a server, so if you want to be nice to your host, breed some bonsai. ",
       "globalShare:1": 0,
       "icon:10": {

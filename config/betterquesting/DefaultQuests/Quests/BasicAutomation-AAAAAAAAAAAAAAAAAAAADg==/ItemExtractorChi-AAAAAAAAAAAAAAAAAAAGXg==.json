@@ -20,6 +20,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "This chip will extract items from the connecting inventory. The extracted items then look for pipes with item responder chips where there\u0027s a free space they could go. If they don\u0027t find any they will go to the overflow default storage chest.\n\nIf you want it to extract everything leave the filter empty and set it to blacklist.",
       "globalShare:1": 1,
       "icon:10": {

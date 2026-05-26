@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "The IndustrialCraft2 Teleporter allows for teleportation between 2 connected teleporters.\nIt requires energy storing block right next to it due to the massive power demand.\n\n[note]The energy required is determined by the distance between the teleporters and amount of items in the inventory.[/note]\n\n[note]The teleporter is quite buggy according to the official wiki.[/note]",
       "globalShare:1": 0,
       "icon:10": {

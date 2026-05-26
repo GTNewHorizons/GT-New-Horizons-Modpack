@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "The big brother to the Thorium nuke, the Uranium nuke. The biggest setup you can put together for a single IC2 Nuclear Reactor uses 7 Quad Uranium Rods, or 28 single rods. This amounts to almost 3 stacks of Uranium 238 (U238), a difficult amount to get from Thorium but much easier to get from the green ores found in Phobos. The setup is very similar to the previous one, but with some important differences. What are they?\n\nThe first one is the fuel. These fuel rods use a mixture of U238 and a bit of U235, which is rarer. To get U235, you can gamble on the chance of getting the dust from processing some of the related ores, which might be good enough, but it\u0027s also possible to use Thaumcraft to convert 9 nuggets of U238 to 7 nuggets of U235, without needing a lot of Thaumcraft progress. Assembling this fuel and putting it into rods gets it ready to be used for power, with more EU/t but less burn time compared to Thorium, 50000 seconds for Thorium compared to 20000 seconds for Uranium.\n\nThe second difference in the nuke setup. Uranium eats up more per rod, so a different arrangement inside the nuke is required. For the highest EU/t in this situation, 4200 EU/t, the setup is titled \"DESIGN #6: URANIUM v3\" in the Nuclear Reactors page in the wiki, go check it out.\n\nWhen the fuel rods get repleted, you can reprocess them to get 3/4 of the U235 back, and also a bit of Plutonium.",
       "globalShare:1": 0,
       "icon:10": {

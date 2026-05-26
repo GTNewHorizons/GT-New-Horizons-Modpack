@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "A Linear Accelerator (LINAC) can be used to boost the energy of your beam, provided the beam\u0027s particles are charged. You\u0027ll need to constantly provide it with coolant for it to run, otherwise you\u0027ll have maintenance issues every time it runs dry.\n\nOutput energy can be increased by increasing EU/t (scales with the cbrt) or increasing length (scales linearly). The latter also decreases focus, however.\n\nFocus in turn can be improved by using a better/lower temperature coolant (options listed on tooltip).\n\nNote that Amount remains unchanged.",
       "globalShare:1": 0,
       "icon:10": {

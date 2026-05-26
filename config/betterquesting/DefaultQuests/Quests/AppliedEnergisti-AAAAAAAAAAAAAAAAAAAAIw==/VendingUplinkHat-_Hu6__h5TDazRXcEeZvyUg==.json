@@ -20,6 +20,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "Now that you\u0027ve unlocked ME interfaces you can use this new technology to uplink with your Vending Machine!\n\nThe §5Vending Uplink Hatch§r can replace any of the pipe casing blocks and be connected directly to your AE network for automatically pulling required items.\n\n[note]Will work for both consumable and non-consumable items.[/note]\n[warn]Will not pull coins; those are manual entry only.[/warn]",
       "globalShare:1": 0,
       "icon:10": {

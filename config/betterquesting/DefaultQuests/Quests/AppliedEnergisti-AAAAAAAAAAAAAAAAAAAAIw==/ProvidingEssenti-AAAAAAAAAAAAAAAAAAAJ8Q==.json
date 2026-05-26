@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "The Essentia and Infusion Providers both do basically the same thing, send essentia to a device that requests it for crafting.\n\nThe Essentia Provider needs to be next to the device, it\u0027s mostly for the Thaumatorium. Since it\u0027s effectively a magic ME Interface, you can also use it instead of an Essentia Import Bus next to your Alembics or the Advanced Alchemical Furnace.\n\nThe Infusion Provider is for devices that draw essentia through the air, like the Runic Matrix (infusion) or Overchanting Table. It doesn\u0027t need to be next to the device.\n\nThey both obviously need the essentia they request to be accessible by the network to work.",
       "globalShare:1": 0,
       "icon:10": {

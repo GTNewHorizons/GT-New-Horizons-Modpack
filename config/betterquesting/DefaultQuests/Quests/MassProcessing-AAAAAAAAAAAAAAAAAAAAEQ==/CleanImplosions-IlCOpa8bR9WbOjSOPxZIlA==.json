@@ -24,6 +24,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "Introducing the bigger (and better) Implosion Compressor, the Electric Implosion Compressor.\n\nThe §5§lElectric Implosion Compressor§r does not need any explosive and only needs electricity, isn\u0027t that very nice!\n\nFurthermore it gains extra parallels §6§l4^(Tier - 1)§r based on the containment block used in the middle.\n\nTier 1: Neutronium Block\nTier 2: Infinity Block\nTier 3: transcendent Metal Block\nTier 4: Spacetime Block\nTier 5: Universium Block\n\n[note]The minimum allowed energy hatch tier is one tier below the recipe tier, so you\u0027ll want to start with at least 2 UHV energy hatches for now.[/note]",
       "globalShare:1": 0,
       "icon:10": {

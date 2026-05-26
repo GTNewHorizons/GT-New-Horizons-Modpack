@@ -20,6 +20,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "Elevators are nice, but they\u0027re limited to vertical teleportation, and their range is also highly limited. Travel anchors don\u0027t have a limitation on angle, you can teleport from one anchor to any other within 128 blocks. You do this by looking at the anchor you wish to travel to and pressing the shift button. You can also name them and even set them as private if you like. They have a 2s cooldown.",
       "globalShare:1": 1,
       "icon:10": {

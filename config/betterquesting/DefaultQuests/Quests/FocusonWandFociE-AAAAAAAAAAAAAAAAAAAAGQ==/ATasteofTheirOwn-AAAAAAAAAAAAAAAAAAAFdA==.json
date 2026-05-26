@@ -20,6 +20,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "The Wand Focus: Dark Matter allows its wielder to shoot the same projectiles as Eldritch Guardians. There is a chance for the caster to gain sticky warp for each projectile cast.\n\n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]\n§5Frugal§r: Lowers vis cost to cast by 10% per level\n§5Potency§r: Increases damage dealt every level\n§5Corrosive§r (level 3): The orbs now inflict the Wither effect upon their targets\n§5Sanity§r (level 5): The caster will not gain warp from using this focus",
       "globalShare:1": 1,
       "icon:10": {

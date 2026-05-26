@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "Want to see how the system is handling the request and fix it when you find things get stuck? Here is the upgrade for you.\n\nThe Crafting Monitoring Upgrade can let you view the current progress of the request. So if you find your crafting request is taking an abnormally long time and nothing is crafted by your machines, you may want to take a look here.\n\nIt can be applied to your Logistics Request Table.",
       "globalShare:1": 0,
       "icon:10": {

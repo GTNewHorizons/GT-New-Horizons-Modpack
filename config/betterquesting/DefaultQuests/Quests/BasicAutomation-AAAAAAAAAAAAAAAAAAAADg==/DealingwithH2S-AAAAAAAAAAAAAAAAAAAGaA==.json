@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "Now let\u0027s convert all that H2S into sulfuric acid. Hook up a chemical reactor to electricity, water and interface pipe. Put inside an item responder chip set to accept H2S cells and extract empty cells. Distill that diluted sulfuric acid in distillery and store it in super tank.\n\nCongratulations. You now have a completely automatic desulfurization of oil, automatic production of hydrogen and oxygen and you also store all that sulfuric acid.",
       "globalShare:1": 1,
       "icon:10": {

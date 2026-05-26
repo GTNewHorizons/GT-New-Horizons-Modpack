@@ -16,6 +16,7 @@
         "OreDict:8": "",
         "id:8": "minecraft:stick"
       },
+      "countAsQuest:1": 1,
       "desc:8": "Peat fired engines use Peat or Bituminous Peat to run. Peat burns for 5000 ticks and produces 10 RF every tick, 1 peat makes 0.66 Ash, so you get 2 Ash for burning 3 peat. Bituminous Peat burns for 6000 ticks and produces 20 RF/tick.\n\nPeat Farms can be set up by using a managed farm with tin electron tubes. It is possible with a manual farm too.",
       "globalShare:1": 1,
       "icon:10": {
