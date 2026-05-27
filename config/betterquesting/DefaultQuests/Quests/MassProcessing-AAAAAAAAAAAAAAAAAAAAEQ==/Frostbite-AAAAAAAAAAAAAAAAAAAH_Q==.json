@@ -17,11 +17,11 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "This mega vac freezer can handle up to 256 items.",
+      "desc:8": "The §5§lEndothermic Fridge§r can process up to §6§l256§r parallels!",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 12731,
+        "Damage:2": 15518,
         "OreDict:8": "",
         "id:8": "gregtech:gt.blockmachines"
       },
@@ -56,7 +56,7 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 12731,
+          "Damage:2": 15518,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }
@@ -72,10 +72,58 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 1171,
+          "Count:3": 777,
+          "Damage:2": 4,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings14"
+        },
+        "1:10": {
+          "Count:3": 351,
           "Damage:2": 1,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockcasings2"
+        },
+        "2:10": {
+          "Count:3": 148,
+          "Damage:2": 3,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockreinforced"
+        },
+        "3:10": {
+          "Count:3": 148,
+          "Damage:2": 15,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings2"
+        },
+        "4:10": {
+          "Count:3": 146,
+          "Damage:2": 389,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockframes"
+        },
+        "5:10": {
+          "Count:3": 135,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings4"
+        },
+        "6:10": {
+          "Count:3": 51,
+          "Damage:2": 9,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings10"
+        },
+        "7:10": {
+          "Count:3": 40,
+          "Damage:2": 390,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.sheetmetal"
+        },
+        "8:10": {
+          "Count:3": 18,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "bartworks:BW_GlasBlocks"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

@@ -21,11 +21,11 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "Need large amounts of chiseled blocks? This is the machine for you.\n\nIt is recommended to use the Chisel Bus for automation, as it allows you to define recipes for multiple block types without needing to manually swap them in the controller, unlike the standard Input Bus.",
+      "desc:8": "Need large amounts of chiseled blocks? \n\nThe §5§lIndustrial 3D Copy Machine§r is just the thing for you. It boasts a generous §6§l16§r parallels per voltage tier, operating at §2§l3x§r recipe speed and at §3§l75%§r of EU cost.\n\nIt is recommended to use the Chisel Bus for automation, as it allows you to define recipes for multiple block types without needing to manually swap them in the controller, unlike the standard Input Bus.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 31069,
+        "Damage:2": 15554,
         "OreDict:8": "",
         "id:8": "gregtech:gt.blockmachines"
       },
@@ -74,7 +74,7 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 31069,
+          "Damage:2": 15554,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockmachines"
         }
@@ -90,16 +90,46 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 20,
+          "Count:3": 53,
           "Damage:2": 5,
           "OreDict:8": "",
           "id:8": "miscutils:gtplusplus.blockcasings.5"
         },
         "1:10": {
-          "Count:3": 1,
-          "Damage:2": 91,
+          "Count:3": 37,
+          "Damage:2": 305,
           "OreDict:8": "",
-          "id:8": "gregtech:gt.blockmachines"
+          "id:8": "gregtech:gt.blockframes"
+        },
+        "2:10": {
+          "Count:3": 18,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "bartworks:BW_GlasBlocks"
+        },
+        "3:10": {
+          "Count:3": 12,
+          "Damage:2": 13,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings2"
+        },
+        "4:10": {
+          "Count:3": 6,
+          "Damage:2": 3,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings2"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "IC2:blockFenceIron"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockcasings5"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
