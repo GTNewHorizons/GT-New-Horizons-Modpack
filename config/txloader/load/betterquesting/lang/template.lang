@@ -678,7 +678,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADtA.desc=But not as good as steel. Mostl
 
 # Quest: New Source of Glowstone
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAERA.name=§c§lNew Source of Glowstone
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAERA.desc=Find some Glow Flowers in the Nether and plant them in the Overworld. You will never need to go to the Nether and harvest Glowstone again.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAERA.desc=Find some Glow Flowers in the Nether and plant them in the Overworld. You will never need to go to the Nether and harvest Glowstone again.%n%n[note]These must be planted on Soul Sand in order to grow![/note]
 
 # Quest: The Iron Guy
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEUw.name=§c§lThe Iron Guy
@@ -931,7 +931,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAcw.desc=Just like item nodes, liquid no
 
 # Quest: Alloy Smelter
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAdA.name=§2§lAlloy Smelter
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAdA.desc=Upgrade your steam alloy smelter to an LV one.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAdA.desc=Upgrade your steam alloy smelter to an LV one, or consider using the Steam Fuser instead.
 
 # Quest: Gotta Catch 'em All
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAdQ.name=§2§lGotta Catch 'em All
@@ -1323,7 +1323,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHSQ.desc=Need enderpearls? Getting them 
 
 # Quest: Electric Furnace
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHXw.name=§2§lElectric Furnace
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHXw.desc=It's, like, faster than a normal one I guess? But uses power.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHXw.desc=It's, like, faster than a normal one I guess? But uses power.%n%nIf you would prefer to use steam instead, then the multiblock is also a good option.
+
+# Quest: One in a Million
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHcw.name=§2§lOne in a Million
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHcw.desc=Or 4? Need to store ludicrous amounts of cobble? Stone dust? Saplings? Super chests are the thing to use. A Super Chest I can store 4 million items, worry free. You will need to take items out manually 64 at a time, or use conveyors etc. to extract them.
 
 # Quest: Craftsman Used to Mean Quality
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHdw.name=§2§lCraftsman Used to Mean Quality
@@ -1878,10 +1882,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHUg.desc=PVC Sheets make SMDs (make foil
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHag.name=§6§lMV Advanced Steam Boiler
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHag.desc=The MV GT++ Steam Boiler is the next machine you can make to produce steam efficiently. It regulates its fuel more efficiently if it ends up being full.
 
-# Quest: One in a Million
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHcw.name=§6§lOne in a Million
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHcw.desc=Or 4? Need to store ludicrous amounts of cobble? Stone dust? Saplings? Super chests are the thing to use. A Super Chest I can store 4 million items, worry free. You will need to take items out manually 64 at a time, or use conveyors etc. to extract them.
-
 # Quest: Better Tools
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHdg.name=§6§lBetter Tools
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHdg.desc=Now that you have an MV extruder you can make the next level of Tinker Tools - Vanadiumsteel head parts with Damascus Steel rods.
@@ -1973,6 +1973,10 @@ betterquesting.quest.epVKHW7jSUiiLW4BPCqv9g.desc=Tired of your magnet picking up
 # Quest: String Theory?
 betterquesting.quest.kz0dyVKfTm6PuIWsz3CYvQ.name=§6§lString Theory?
 betterquesting.quest.kz0dyVKfTm6PuIWsz3CYvQ.desc=Tired of farming Cotton?%n%nIf you combine Naphtha with some Saltpeter in the Chemical Reactor you can create Polycaprolactam (PCL). %n%nThis can then be solidified into a bar and put through a Wiremill to obtain String.
+
+# Quest: Still No Filing in MV
+betterquesting.quest.tXEXFIIvR42ZHpo6XIABkg.name=§6§lStill No Filing in MV
+betterquesting.quest.tXEXFIIvR42ZHpo6XIABkg.desc=The MV Lathe isn't a completely necessary upgrade (assuming you can get ahold of an Exquisite Green Sapphire), but it will grant you a boost in productivity nonetheless should you choose to invest in one.
 
 # Quest: Conduit Probe
 betterquesting.quest.uNAVBi_eSNy8pRBGcjgHkg.name=§6§lConduit Probe
@@ -2590,7 +2594,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFwg.desc=Or at least play with drums? If
 
 # Quest: Radon Decay
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFyA.name=§8§lRadon Decay
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFyA.desc=Radon is needed for EV Emitters and Sensors.%n%nYou can get Radium-226 from sifting Thorium, Pitchblende, Uraninite, or Uranium 238. It needs 4500 seconds, or 75 mins, to decay, and it will debuff you until it decays unless you have complete hazmat protection. It's a good idea to make a Lead-Lined Box and let the Radium decay there, instead.%n%nThorium can be obtained from the Nether, whereas the other 3 ores are locked after the Tier 2 Rocket. However, Thorium gives a much smaller chance of getting Radium, so you'll need a good amount of it to continue.%n%nAfter it decays, you can electrolyze Radon out of it and progress into the next circuit line. However, you will not be able to do the Radon loop here, that can only be done with Plutonium 239.%n%n[note]You only need to do one task.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFyA.desc=Radon is needed for EV Emitters and Sensors.%n%nYou can get Radium-226 from sifting Thorium, Pitchblende, Uraninite, or Uranium 238. It needs 4500 seconds, or 75 mins, to decay, and it will debuff you unless you have complete hazmat protection. It's a good idea to make a Lead-Lined Box and let the Radium decay there.%n%nThorium can be obtained from the Nether, whereas the other 3 ores are locked after the Tier 2 Rocket. However, Thorium gives a much smaller chance of getting Radium, so you'll need a good amount of it to continue.%n%nAfter it decays, you can electrolyze Radon out of it and progress into the next circuit line. However, you will not be able to do the Radon loop here, that can only be done with Plutonium 239.%n%n[note]You only need to do one task.[/note]
 
 # Quest: Sodium Sulfide
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGdA.name=§8§lSodium Sulfide
@@ -2654,7 +2658,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHYw.desc=For more tungsten and tungstens
 
 # Quest: What's in the Box?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHhQ.name=§8§lWhat's in the Box?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHhQ.desc=Tired of waiting around for hours with radium in your inventory, waiting for it to decay? With a §5Lead-Lined Box§r you can safely leave your radium in it and it'll decay while you do real work.%n%n[note]Pipes work with it, but you can not use a WA.[/note]%n%nAdditionally, you can also choose to use the §5Decay Warehouse§r for this task; it's more efficient but comes at a much higher cost. (More info in Multiblock Goals tab)
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHhQ.desc=Wondering how to make your Radium decay? With a §5Lead-Lined Box§r you can safely leave your Radium in it and it'll decay while you do real work.%n%n[note]Pipes work with it, but you can not use a WA.[/note]%n%nAdditionally, you can also choose to use the §5Decay Warehouse§r for this task; it's more efficient but comes at a much higher cost. (More info in Multiblock Goals tab)
 
 # Quest: Platinum Processing, Step 4
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI-A.name=§8§lPlatinum Processing, Step 4
@@ -2686,7 +2690,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAI_g.desc=The Refined Platinum Salt can b
 
 # Quest: Dealing with Radiation
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIog.name=§8§lDealing with Radiation
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIog.desc=Nuclear materials cause two types of radiation effects. One is a large number of standard debuffs. These can be removed the normal ways, with milk or terra wart or other methods that imitate them.%n%nThe other effect is a special Radiation unique debuff. This gets applied the longer you hold onto the radioactive item. Severely radioactive items can apply minutes of this deadly debuff. Regeneration might delay the inevitable death, but most regeneration sources aren't fast enough or long enough to keep you alive. You can try using an Amulet of Remedium to get rid of the effects. You should have one from your Moon trip, if not you'll have to dive into Thaumcraft to make one.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIog.desc=Nuclear materials cause two types of radiation effects. One is a large number of standard debuffs. These can be removed the normal ways, with milk or Gaia Wart or other methods that imitate them.%n%nThe other effect is a special Radiation unique debuff. This gets applied the longer you hold onto the radioactive item. Severely radioactive items can apply minutes of this deadly debuff. Regeneration might delay the inevitable death, but most regeneration sources aren't fast enough or long enough to keep you alive. You can try using an Amulet of Remedium to get rid of the effects. You should have one from your Moon trip, if not you'll have to dive into Thaumcraft to make one.
 
 # Quest: Just Enough Tungstensteel For Your Rocket
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJVg.name=§8§lJust Enough Tungstensteel For Your Rocket
@@ -4650,7 +4654,7 @@ betterquesting.quest.jlXvqqgIQ_Crha2tW0gEQg.desc=Welcome to the current penultim
 
 # Quest: The SUCC
 betterquesting.quest.k0ryGOkkSBOgYUcVY-J4rw.name=§c§l§nThe SUCC
-betterquesting.quest.k0ryGOkkSBOgYUcVY-J4rw.desc=Like its predecessor it can run 4 different recipes at once, but this time each recipe has 16 parallels.%n%nA good solution for your Hydrogen and Helium problems.%n%n[note]This also requires Eternity to craft.[/note]
+betterquesting.quest.k0ryGOkkSBOgYUcVY-J4rw.desc=Like its predecessor it can run 4 different recipes at once, but this time each recipe has 64 parallels.%n%nA good solution for your Hydrogen and Helium problems.%n%n[note]This also requires Eternity to craft.[/note]
 
 # Quest: An Eye at the End of Time
 betterquesting.quest.kazCPEWoSmiZhR4bkHlEBQ.name=§c§l§nAn Eye at the End of Time
@@ -5117,7 +5121,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRA.desc=... with the Bio Diesel you pro
 
 # Quest: Warts!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRQ.name=Warts!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRQ.desc=I haven't been feeling well lately. Would you grow me some Terra Wart? They're better than milk, since they only remove negative effects, and stack to 64. Really nice when fighting that Alchemist infernal! Or moving super tanks.%n%nThey also have some quite rare essentia on them, very useful for the budding thaumaturge.%n%n[note]In order to get your hand on some gaia warts, you'll need to right click some snow onto some netherwart until it transforms[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRQ.desc=I haven't been feeling well lately. Would you grow me some Gaia Wart? They're better than milk, since they only remove negative effects, and stack to 64. Really nice when fighting that Alchemist infernal! Or moving super tanks.%n%nThey also have some quite rare essentia on them, very useful for the budding thaumaturge.%n%n[note]In order to get your hands on some Gaia Warts, you'll need to right-click some snow onto some Netherwart until it transforms[/note]
 
 # Quest: Sweet Tooth
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRg.name=Sweet Tooth
@@ -7391,7 +7395,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7w.desc=I never wanna grow up, I wanna 
 
 # Quest: Best Thing Since Sliced Bread
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH8A.name=§9§lBest Thing Since Sliced Bread
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH8A.desc=When all you have is a machine full of knives, everything starts looking like bread.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH8A.desc=When all you have is a machine full of knives, everything starts looking like bread.%n%nIn order for the §5§lIndustrial Cutting Factory§r to function, it will need to have a sawblade put into it. The performance of the machine is directly correlated with the quality of the sawblade put in.%n%nThe first type of sawblade available to craft is the §lTungsten Titanium Carbide Sawblade§r. It gives you §6§l2§r parallels per voltage tier, a §2§l2.5x§r speed boost, and a §3§l10%%§r EU discount. %n%n
 
 # Quest: ZzzZZZzzzZtt
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH8g.name=§9§lZzzZZZzzzZtt
@@ -7419,11 +7423,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9w.desc=The §5§lAmazon Warehousing De
 
 # Quest: Mega is Betta
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH_A.name=§6§lMega is Betta
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH_A.desc=For someone who needs to blast a truly §lridiculous§r amount of stuff, this is the machine for you. This monster machine can handle up to 256 parallel recipes at a time.%n%nThe glass tier limits the energy hatch tier that you can use. You can even use multiamp hatches from TecTech! If you want to use laser hatches however you need at least UV glass.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH_A.desc=For someone who needs to blast a truly §lridiculous§r amount of stuff, the §5§lExothermic Hearth§r is the machine for you. This monster machine can handle up to §6§l256§r parallel recipes at a time.%n%nThe glass tier limits the energy hatch tier that you can use. You can even use multiamp hatches from TecTech! If you want to use laser hatches, however, you need at least §2§nUV§r glass.
 
 # Quest: Frostbite!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH_Q.name=§6§lFrostbite!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH_Q.desc=This mega vac freezer can handle up to 256 items.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH_Q.desc=The §5§lEndothermic Fridge§r can process up to §6§l256§r parallels!
 
 # Quest: Empty The Oceans
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIBQ.name=§9§lEmpty The Oceans
@@ -7571,7 +7575,7 @@ betterquesting.quest.w5O5rPL_Q_GDp8lxWMd0DQ.desc=You might already have a Steam 
 
 # Quest: Megalomania
 betterquesting.quest.wGINqtSuSQKLI_Yk7hAdcA.name=§6§lMegalomania
-betterquesting.quest.wGINqtSuSQKLI_Yk7hAdcA.desc=In HV, you now technically have the ability to construct Megas for some machines. These absolute titans will boost your production to levels never-before-seen, at a price. These multiblocks have two major benefits:%n-They innately have 256 parallels.%n-They can use TecTech exotic hatches, allowing you to empty out tremendous amounts of power into them.%n%n[note]To get real benefit from these multis, you will want to use lots of power and take advantage of their extreme parallelization - consider whether or not you can actually make use of these before you go off building a Mega Blast Furnace in HV...[/note]
+betterquesting.quest.wGINqtSuSQKLI_Yk7hAdcA.desc=In HV, you now technically have the ability to construct Megas for some machines. These absolute titans will boost your production to levels never-before-seen, at a price. These multiblocks have two major benefits:%n-They innately have 256 parallels.%n-They can use TecTech exotic hatches, allowing you to empty out tremendous amounts of power into them.%n%n[note]To get real benefit from these multis, you will want to use lots of power and take advantage of their extreme parallelization.[/note]
 
 # Quest: Pressure Washing!
 betterquesting.quest.zorY0c3BQuqLJp7ThOLG-g.name=§c§lPressure Washing!
@@ -8121,6 +8125,10 @@ betterquesting.quest.pLCgOVmqTUCudSXZusnceg.desc=Here's the special Titanium I p
 # Quest: Force Plasma - The Mk1 Ending
 betterquesting.quest.tSCw6KSbR8a4TCNWlrmkYQ.name=Force Plasma - The Mk1 Ending
 betterquesting.quest.tSCw6KSbR8a4TCNWlrmkYQ.desc=Once you have the two plasmas from before, fuse them together into a new one, Neon Plasma. If you were to use this directly, you could get Neon! There are other, more useful materials to get later in this process, so keep a lookout for those.%n%nHowever, this is not the final plasma in mk1 recipes. To get it, you need to do the last activation step, which exists in all three chains, and involves adding a non-plasma related material, of the appropriate GT tier, to obtain the powergen plasma. The material you need here is Arcanite, one you probably have used before. This step requires you to preferably automate it with ABS, and have a steady supply of Thorium 232.%n%nIf you look at the last recipe, you'll see it's 144L Neon Plasma input to 1000L Force Plasma output. This multiplying makes it so that step, and all final steps, are the slowest ones. You will need 0.144 Neon Plasma reactors for every Force Plasma reactor, which means that 1 Neon reactor feeds nearly 7 Force reactors (6.9444... reactors, more precisely).%n%nOnce you get Force Plasma, this is the end of the mk1 fusion chain. Force Plasma is a 150M fuel value plasma, which means it has a 53.5%% penalty with Infinity Catalyst in XL Plasma Generators. This is better than Helium Plasma with its 86.1%% penalty but still not great for power generation. You probably don't need this in ZPM, but it'll be a stepping stone for your future progression.
+
+# Quest: Well, It Doesn't Produce Any Pollution...
+betterquesting.quest.xCs-hKv-SV23LlvnYVroZA.name=§8§lWell, It Doesn't Produce Any Pollution...
+betterquesting.quest.xCs-hKv-SV23LlvnYVroZA.desc=This is a multiblock acid generator available at EV and above. It takes in volatile acids and bases to produce energy through a highly exothermic chemical reaction. These include hydroxides of various alkali metals, giving your LNE a boost of efficiency from 150%% up to 500%%! Using higher-tier bases also has a reduced rate of consumption, but producing them at a passive rate may prove to be a challenge.%n%nHowever, you can't just get away with burning acids like that! Burning any acids will produce Toxic Residue based on the fuel value and liters burnt for each tick. Acids with a higher fuel value will produce more Toxic Residue per liter, but overall they still produce less residue than acids with a lower fuel value for the same amount of EU. When Toxic Residue gets too high, the engine will EXPLODE! (As compensation, the engine supports TecTech Dynamo Hatches) %n%nHow do you avoid that, then? Firstly, the Toxic Residue will naturally decay. The rate of decay is based on the existing amount of Toxic Residue and also acts every tick. However, it is not very fast, so you will want to boost it. This is done through robot arms as they can help clean the surface of the LNE. Using higher-tier robot arms and multiple robot arms can help clean it faster, though be careful as they may be consumed! The rate of decay and the overall capacity of Toxic Residue is based on the tier of your multiblock, which are unlocked at EV, IV and LuV respectively. Using alkali to boost your multiblock also does not affect the rate of Toxic Residue build-up, so make sure to select the highest tier you can get! Finally, Toxic Residue increases randomly, so you can use a Toxic Residue Sensor Hatch to help detect a sudden increase and automate your engine accordingly.
 
 # Quest: XL Turbo HP Steam Turbine
 betterquesting.quest.yDY1ALr9QdG8zTbEszNaMw.name=§9§lXL Turbo HP Steam Turbine
@@ -10277,7 +10285,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFMA.desc=A specialized version of the ME
 
 # Quest: ME in Your Cleanroom
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFMQ.name=ME in Your Cleanroom
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFMQ.desc=Wireless Connectors are a close range Quantum Network Bridge alternative.%n%nConnections are point-to-point - you can't connect more than 2 blocks together. Each block will use 10 + distance * ln(distance^2 + 3) AE/t. Does not work across dimensions. Power needs to be provided on only one side. Up to 32 channels can be transferred through the connection. Can connect directly to dense cables. The Wireless Connector itself does not use any channels.%n%n[note]Also, these are more TPS friendly than large chains of dense cables![/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFMQ.desc=Wireless Connectors are a close range Quantum Network Bridge alternative.%n%nConnections are point-to-point - you can't connect more than 2 blocks together. Each block will use 10 + distance * ln(distance^2 + 3) AE/t. Does not work across dimensions. Power needs to be provided on only one side. Up to 32 channels can be transferred through the connection. Can connect directly to dense cables. The Wireless Connector itself does not use any channels.%n%nThe Wireless Kit can be used to link the connectors together. There are three modes: Simple, Advanced, and Super. In Simple Mode, you §osimply§r right-click your source and target, and they will link. In Advanced Mode, you can do this in queue/binding groups instead of individually. In Super Mode, you can manage the connections through a menu that opens after you right-click.%n%n[note]Also, these are more TPS friendly than large chains of dense cables![/note]
 
 # Quest: Ore Dictionary Output
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFMg.name=Ore Dictionary Output
@@ -12165,7 +12173,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFWQ.desc=Every Thaumcraft Infused Stone 
 
 # Quest: Just Tell Me What to Scan Already!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFtQ.name=Just Tell Me What to Scan Already!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFtQ.desc=Don't want to guess at what has what aspect? Just want to get to work? Then scan this stuff. The first set should be scanned in order. If any of them don't work, try scanning something else first (especially the third set).%n%nWatering Can%nTorch%nCoal%nGrass Block%nTrapdoor%nChest%nGlass Block%nBleached Bone Block%nChicken%nSoul Sand%nPaper%nRotten Flesh%nWheat%nFlint%nObsidian%n%nAsh Cloud%nAny Dye%nWool%nSpider Eye%nSnowball%nMilk Bucket%nVanilla Hoe%nVanilla Pickaxe%nArrow%nVanilla Armor%nQuicksilver%nFence Gate%nIron Nugget%nGold%nZombie Brain%nEnder Pearl%nSlimeball%nTainted Anything. Try overfilling your cauldron to create flux goo to make the slimes (not in your base)%nEthereal Essence (any Aspect) from wisps OR Terra Wart%n%nObzinite Ingot%nPlatinum Metallic Powder%nFine Copper Wire%nMagnetite Dust%nThorium Dust%nA Pig%nNetherrack%nGold Armor%nBed%nLead (not the metal)%nGhast Tear%nClock%nCrystal Matrix Ingot%n%nThe last 5 aspects might only be obtainable by combining aspects or by creating a node that has them. You can combine:%n%nCognito + Ordo%nCognito + Vitium%nVacuos + Motus%nLux + Primordium%nHumanus + Iter%n%nNote that the above list is for aspects, you may need to scan things like the Nether Portal to unlock certain researches.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFtQ.desc=Don't want to guess at what has what aspect? Just want to get to work? Then scan this stuff. The first set should be scanned in order. If any of them don't work, try scanning something else first (especially the third set).%n%nWatering Can%nTorch%nCoal%nGrass Block%nTrapdoor%nChest%nGlass Block%nBleached Bone Block%nChicken%nSoul Sand%nPaper%nRotten Flesh%nWheat%nFlint%nObsidian%n%nAsh Cloud%nAny Dye%nWool%nSpider Eye%nSnowball%nMilk Bucket%nVanilla Hoe%nVanilla Pickaxe%nArrow%nVanilla Armor%nQuicksilver%nFence Gate%nIron Nugget%nGold%nZombie Brain%nEnder Pearl%nSlimeball%nTainted Anything. Try overfilling your cauldron to create flux goo to make the slimes (not in your base)%nEthereal Essence (any Aspect) from wisps%n%nObzinite Ingot%nPlatinum Metallic Powder%nFine Copper Wire%nMagnetite Dust%nThorium Dust%nA Pig%nNetherrack%nGold Armor%nBed%nLead (not the metal)%nGhast Tear%nClock%nCrystal Matrix Ingot%n%nThe last 5 aspects might only be obtainable by combining aspects or by creating a node that has them. You can combine:%n%nCognito + Ordo%nCognito + Vitium%nVacuos + Motus%nLux + Primordium%nHumanus + Iter%n%nNote that the above list is for aspects, you may need to scan things like the Nether Portal to unlock certain researches.
 
 # Quest: Warp Warnings
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAG8g.name=Warp Warnings
@@ -13402,7 +13410,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJHw.desc=Taglock Kits are used to collec
 
 # Quest: Mutandis Extremis
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJIA.name=Mutandis Extremis
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJIA.desc=Mutandis Extremis is an upgraded version of Mutandis that is used by witches and warlocks to mutate plants into other species. Mutandis Extremis has all the same properties as basic Mutandis but it can even be used on multi-stage plants like wheat, cactus, etc. and can also mutate cooked meat.%n%nIf Mutandis Extremis is used on a Grass block there is a chance it will mutate it into Mycelium and vice versa.%n%nIf Mutandis Extremis is used on an underwater dirt block there is a chance it will mutate it (and nearby dirt) into clay blocks.%n%nMutating plants is the only way to acquire Rowan, Hawthorn and Alder saplings.%n%nSome recipes require Mutandis Extremis as an ingredient.%n%nMutandis is crafted using Mutandis and Nether Wart.%n%n[note]Some cauldron recipes require altar power. This is one of them. Make sure you read the Witches' Brews book.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJIA.desc=Mutandis Extremis is an upgraded version of Mutandis that is used by witches and warlocks to mutate plants into other species. Mutandis Extremis has all the same properties as basic Mutandis but it can even be used on multi-stage plants like wheat, cactus, etc. and can also mutate cooked meat.%n%nIf Mutandis Extremis is used on a Grass block there is a chance it will mutate it into Mycelium and vice versa.%n%nIf Mutandis Extremis is used on an underwater dirt block there is a chance it will mutate it (and nearby dirt) into clay blocks.%n%nMutating plants is the only way to acquire Rowan, Hawthorn and Alder saplings.%n%nSome recipes require Mutandis Extremis as an ingredient.%n%nMutandis is crafted using Mutandis and Nether Wart.%n%n[note]Some cauldron recipes require altar power. This is one of them; it requires 8000. Make sure you read the Witches' Brews book for information on Altar requirements.[/note]
 
 # Quest: Mandrake Noise Protection
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJIQ.name=Mandrake Noise Protection
@@ -14163,7 +14171,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAAw.desc=Now that you've gotten your too
 
 # Quest: Main Quests and Secondary Quests
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAABA.name=§9§lMain Quests and Secondary Quests
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAABA.desc=Now that you've made it this far, you might notice how the two new quests look different.%n%nThe quest with the jagged edges is a main quest - it is linked to other main quests by a thick line. You must complete main quests to unlock the next tier and to progress in general. If you can't progress, go back to previous tiers and look for uncompleted main quests.%n%nThe other quest is an optional quest, and is not needed to unlock new tiers. However, optional quests often introduce you to useful items or processes.%n%nWhat are the coins for? Starting in Stone Age, you can use them to purchase things in a Vending Machine.%n%nIn case you started in a bad biome, here's enough coins to purchase some saplings once you get to the Vending Machine.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAABA.desc=Now that you've made it this far, you might notice how the two new quests look different.%n%nThe quest with the jagged edges is a main quest - it is linked to other main quests by a thick line. You must complete main quests to unlock the next tier and to progress in general. If you can't progress, go back to previous tiers and look for uncompleted main quests.%n%nThe other quest is an optional quest, and is not needed to unlock new tiers. However, optional quests often introduce you to useful items or processes.%n%nWhat are the coins for? Starting in Stone Age, you can use them to purchase things in a Vending Machine.%n%nIn case you started in a bad biome, here's enough coins to purchase some saplings once you get to the Vending Machine.%n%n[note]Don't like the style of the book? Change things up by selecting a new theme on the main menu. You can also customize the quest notifications you receive.[/note]
 
 # Quest: Monster Hunter
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAACw.name=§9§lMonster Hunter
@@ -14227,7 +14235,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABSg.desc=This can be used to go back to 
 
 # Quest: Industrial 3D Copying Machine
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABgw.name=§8§lIndustrial 3D Copying Machine
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABgw.desc=Need large amounts of chiseled blocks? This is the machine for you.%n%nIt is recommended to use the Chisel Bus for automation, as it allows you to define recipes for multiple block types without needing to manually swap them in the controller, unlike the standard Input Bus.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABgw.desc=Need large amounts of chiseled blocks? %n%nThe §5§lIndustrial 3D Copy Machine§r is just the thing for you. It boasts a generous §6§l16§r parallels per voltage tier, operating at §2§l3x§r recipe speed and at §3§l75%%§r of EU cost.%n%nIt is recommended to use the Chisel Bus for automation, as it allows you to define recipes for multiple block types without needing to manually swap them in the controller, unlike the standard Input Bus.
 
 # Quest: Draconic Evolution
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABhA.name=§4§l§nDraconic Evolution
@@ -14287,7 +14295,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACjw.desc=The GraviChestPlate is the ulti
 
 # Quest: A Green Revolution
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACzg.name=A Green Revolution
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACzg.desc=Now that you've made some tools, you can start getting into some real agriculture. Get ready to craft many more iron saws...%n%nWelcome to CropsNH, the premiere passive resource production mo.... wait sorry I'm hearing just now that Bees do in fact still exist.%n%nAnyways, if you want to learn how to till your way to the Stargate, with the passive resources needed throughout much of your progression, this is the place to be.%n%nThe first step will be obtaining a stock of basic crops which you can breed from. If you don't already have them go steal some from those villagers, or that witch down the hill.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACzg.desc=Now that you've made some tools, you can start getting into some real agriculture. Get ready to craft many more iron saws...%n%nWelcome to CropsNH, the premier passive resource production mo... wait sorry I'm hearing just now that Bees do in fact still exist.%n%nAnyways, if you want to learn how to till your way to the Stargate, with the passive resources needed throughout much of your progression, this is the place to be.%n%nThe first step will be obtaining a stock of basic crops which you can breed from. If you don't already have them go steal some from those villagers, or that witch down the hill.%n%n[warn]CropsNH crops do not behave the same as IC2 Crops. These quests will walk you through how they work, it's recommended that you give them a read if it's your first time using them.[/warn]
 
 # Quest: Dark Steel Tool and Weapon Basic Upgrades
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD5g.name=§5§lDark Steel Tool and Weapon Basic Upgrades
@@ -14655,7 +14663,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMQQ.desc=IV brings forth GT++ multis, in
 
 # Quest: Faster Basic Crops
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMRg.name=§6§lFaster Basic Crops
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMRg.desc=Welcome to my ted talk, today we talk about the §6§lExtreme Industrial Greenhouse.§r%nIt is the most advanced and §l§nLAG FREE§r crop farm that will allow you to supply the amount of tea you need.%nThe machine starts at §5EV§r, and can no longer farm CropsNH crops (The Industrial Farm now handles them).%nTo see the structure, place the controller on the ground and use a structure hologram to build.%nThe glass tier limits the energy tier until [note]UV[/note]. With [note]UV[/note] glass you can have an energy tier as high as you want.%nThere are 3 modes to manage your crops (change with screwdriver):%n%n§lSetup mode (input):§r%nIn this mode you can plant your crops in the machine.%nJust put them in the input bus and enable the machine with a soft mallet.%nWhen the bus is empty, just disable it and change the mode.%nKeep in mind that there is limited space of slots for your crops depending on the voltage.%nWith normal crops you start with 1 slot and that multiplies by 2 every tier past §5EV§r, every slot can take 64 crops of the same type.%n%n§lSetup mode (output):§r%nThis mode allows you to move your Greenhouse or upgrade your crops.%nWhen the machine is running in this mode it will output all planted crops in the output bus.%n%n§lNormal operation:§r%nWith normal crops it is a straightforward process. Base processing time is 5 seconds, at the end of operation all crops are grown and the outputs are added to the output bus. Additionally the time is lower every tier past §5EV§r §o(The time is divided by the number of tiers past §6HV§r§o, minimum 1 second. WOW)§r%n%nIf you want to grow your crops even faster, then you can use a fertilizer (up to §l400%% more drops§r!). Machine will take fertilizer from the input buses on start of the operation and will be applied to that operation only. Each fertilizer gives +200%% per crop The bonus is applied evenly on crops. Examples:%nNormal mode, 3 wheat seeds, 1 tea seeds, you insert 1 fertilizer, you will get +150%% wheat drops and +50%% tea drops.%n%nAdditionally, all your crops need water to grow. Every single crop drinks 1000L per operation. So for example if you have planted 576 tea seeds at [note]UV[/note] voltage you will need 576000 L per second.%n%n§lLast notes:§r%nThe animation can't be disabled.%nThe lamps can be inverted.%nThe dirt must be tilled.%nIf you encounter any issue or have any suggestion please open an issue on GitHub and ping §l@kuba6000§r.%nThis MB was created to farm tea because I wanted to.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMRg.desc=Welcome to my TED Talk, today we talk about the §6§lExtreme Industrial Greenhouse.§r%nIt is the most advanced and §l§nLAG FREE§r crop farm that will allow you to supply the amount of tea you need.%nThe machine starts at §5EV§r, and can no longer farm CropsNH crops (The Industrial Farm now handles them).%nTo see the structure, place the controller on the ground and use a structure hologram to build.%nThe glass tier limits the energy tier until [note]UV[/note]. With [note]UV[/note] glass you can have an energy tier as high as you want.%nThere are 3 modes to manage your crops (change with screwdriver):%n%n§lSetup mode (input):§r%nIn this mode you can plant your crops in the machine.%nJust put them in the input bus and enable the machine with a soft mallet.%nWhen the bus is empty, just disable it and change the mode.%nKeep in mind that there is limited space of slots for your crops depending on the voltage.%nWith normal crops you start with 1 slot and that multiplies by 2 every tier past §5EV§r, every slot can take 64 crops of the same type.%n%n§lSetup mode (output):§r%nThis mode allows you to move your Greenhouse or upgrade your crops.%nWhen the machine is running in this mode it will output all planted crops in the output bus.%n%n§lNormal operation:§r%nWith normal crops it is a straightforward process. Base processing time is 5 seconds, at the end of operation all crops are grown and the outputs are added to the output bus. Additionally the time is lower every tier past §5EV§r §o(The time is divided by the number of tiers past §6HV§r§o, minimum 1 second. WOW)§r%n%nIf you want to grow your crops even faster, then you can use a fertilizer (up to §l400%% more drops§r!). Machine will take fertilizer from the input buses on start of the operation and will be applied to that operation only. Each fertilizer gives +200%% per crop. The bonus is applied evenly on crops. Examples:%nNormal mode, 3 wheat seeds, 1 tea seed, you insert 1 fertilizer, you will get +150%% wheat drops and +50%% tea drops.%n%nAdditionally, all your crops need water to grow. Every single crop drinks 1000L per operation. So for example if you have planted 576 tea seeds at [note]UV[/note] voltage you will need 576000 L per second.%n%n§lLast notes:§r%nThe animation can't be disabled.%nThe lamps can be inverted.%nThe dirt must be tilled.%nIf you encounter any issue or have any suggestion please open an issue on GitHub and ping §l@kuba6000§r.%nThis MB was created to farm tea because I wanted to.%nThe glass tier limits the energy input tier.
 
 # Quest: UV Power Per Turbine
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMXQ.name=§b§lUV Power Per Turbine
@@ -14687,7 +14695,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMow.desc=These new hatches allow you to 
 
 # Quest: PCB Factory
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMyQ.name=§2§l§nPCB Factory
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMyQ.desc=Using a Chemical Reactor to create circuit boards has become quite inefficient... it's time for a proper solution! After some research you have found a more efficient method; a factory designed to print out circuit boards.%n%nThe PCB Factory is able to use a wide range of plastics to create circuit boards ready to be used. The printing mechanism overheats when it tries to overclock currently, so I will have to find a way to make that work later. Boards with neurons on them will also require a modification before they can be made, but that shouldn't be hard to achieve.%n%n§2Trace size: the trace size represents the lines between components, which are needed to transmit the electrical signals on the circuit. One can make it smaller to slow down the machine, but use less resources, or make it bigger to make it faster, but use more resources.%n%n§1Formulas:%n- 10000/(TraceSize/100) Production%n- RecipeDuration/TraceSize^2 Time%n%n§2Using the GUI, the player can go to the configuration menu. There they can change the trace size or add new parts to the multiblock. One can also change where they are placed around the multiblock.§r%n%n[note]Make sure to set the configuration you want before using the structure lib blueprint for autobuild.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMyQ.desc=Using a Chemical Reactor to create circuit boards has become quite inefficient... it's time for a proper solution! After some research you have found a more efficient method; a factory designed to print out circuit boards.%n%nThe PCB Factory is able to use a wide range of plastics to create circuit boards ready to be used. The printing mechanism overheats when it tries to overclock currently, so I will have to find a way to make that work later. Boards with neurons on them will also require a modification before they can be made, but that shouldn't be hard to achieve.%n%n§2Trace size: the trace size represents the lines between components, which are needed to transmit the electrical signals on the circuit. One can make it smaller to slow down the machine, but use less resources, or make it bigger to make it faster, but use more resources.%n%n§1Formulas:%n- 10000/(TraceSize/100) Production%n- RecipeDuration/TraceSize^2 Time§r%n%n[note]Similar to the water line, additional modules of the PCB Factory can connect to one another using a Data Stick[/note]
 
 # Quest: Bio Chamber
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMyg.name=§2§l§nBio Chamber
