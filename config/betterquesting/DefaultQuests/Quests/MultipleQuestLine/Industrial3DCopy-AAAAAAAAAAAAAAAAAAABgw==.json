@@ -21,7 +21,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "Need large amounts of chiseled blocks? This is the machine for you.\n\nIt is recommended to use the Chisel Bus for automation, as it allows you to define recipes for multiple block types without needing to manually swap them in the controller, unlike the standard Input Bus.",
+      "desc:8": "Need large amounts of chiseled blocks? \n\nThe §5§lIndustrial 3D Copy Machine§r is just the thing for you. It boasts a generous §6§l16§r parallels per voltage tier. Operating at §2§l3x§r recipe speed and at §3§l75%§r of EU cost.\n\nIt is recommended to use the Chisel Bus for automation, as it allows you to define recipes for multiple block types without needing to manually swap them in the controller, unlike the standard Input Bus.",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
@@ -130,6 +130,35 @@
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "gregtech:gt.blockcasings5"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 31778,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 31779,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 31780,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.blockmachines"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
